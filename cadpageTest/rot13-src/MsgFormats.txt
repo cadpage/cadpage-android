@@ -1048,7 +1048,7 @@ Qnivrff Pbhagl, XL (XLQnivrffPbhaglCnefre)
 911-PRAGRE:NPPVAW>NPPVQRAG JVGU VAWHEVRF 3970 PENAR CBAQ EQ KF: H F UVTUJNL 231 CUVYCBG WBUAF, NZL Znc: Tevqf:, Pnq: 2011-0000013291
 911-PRAGRE:SS >JVYQYNAQ SVER 9707 BYQ UNEGSBEQ EQ KF: H F UVTUJNL 231 HGVPN XVCYVAT, RQ Znc: Tevqf:, Pnq: 2011-0000013076
 ***************************************************************************
-Unesbeq, ZQ (ZQUnesbeqCnefre)
+Unesbeq Pbhagl, ZQ (ZQUnesbeqPbhaglNCnefre)
 [!] RBP:N1091 HAP >HAPBAFPVBHF 2200 PUNAARY EQ KF: K OVT OENAPU OEQT #127 CLYRFIVYYR PEVMRE,XVZ OBK: A08 Pnq: 2010-0000162717
 [!] RBP:N1091 FVPX >FVPX CREFBA 1606 FPBGG EQ KF: K SNJA TEBIR EQ CLYRFIVYYR ONGPURYQRE,ZVPURYYR OBK: A04 Pnq: 2010-0000162427
 [!] RBP:N1091 QVNO >QVNORGVP RZET. 2145 UNEXVAF EQ KF: FNVAG CNHYF PUHEPU EQ CLYRFIVYYR EBUERNHTU,XRA OBK: A04 Pnq: 2010-0000162445
@@ -2071,6 +2071,21 @@ FGEHPGHER SVER, Qhcyrk/ Pbaqb ng 117 FG PYNER QE, GNEENAG PBHAGL p/f FG RYVMNORG
 ZRQVPNY, Pneqvnp Ceboyrz: 45 LB/S P&O, UNIVAT CNYCVGNGVBAF ng 5130 ORA QNL ZHEEVA EQ YBG 725, GNEENAG PBHAGL p/f: UJL 377 F Obk: 99G. . 19:00:18
 *******************************************************************************
 *******************************************************************************
+* QvfcngpuErqNyreg2Cnefre fhopynffrf
+*******************************************************************************
+*******************************************************************************
+Unesbeq Pbhagl, ZQ (ZQUnesbeqPbhaglOCnefre) 
+S03 SNYZ ng: 300 FHASYBJRE QE ORY NVE ZQ, 21014 p/f:NMNYRN QE q/g:03/18 15:50 obk:341 Vap#:2014-050479
+S03 QJRYY ng: UVYYRAQNYR EQ ORY NVE ZQ, 21014 p/f:UVTUYNAQ EQ q/g:03/15 20:14 obk:341 Vap#:2014-048540
+S03 PB ng: 1205 SEVFGBR PG SBERFG UVYY ZQ, 21050 p/f:TENSGBA EVQTR PG q/g:03/16 14:16 obk:356 Vap#:2014-048973
+*******************************************************************************
+Fhssbyx Pbhagl, AL (Cbeg Wrssrefba Ibyhagrre Nzohynapr) (ALFhssbyxPbhaglQCnefre)
+HAXABJA CEBOYRZ - FGNAQVAT, FVGGVAT HC, ZBIVAT BE GNYXVAT pbqr: 32-O-1 ng: 3 FGNAQVFU QE p/f: PUVCCRAQNYR QE q/g: 06/30 00:01:30
+CFLPUVNGEVP / NOABEZNY ORUNIVBE / FHVPVQR - ABA FHVPVQNY NAQ NYREG pbqr: 25-N-1 ng: 60 A PBHAGEL EQ p/f: CVAR UVYY EQ q/g: 06/30 19:53:51
+FVPX - AB CEVBEVGL FLZCGBZF (PBZCYNVAG PBAQVGVBAF 2-11 ABG VQRAGVSVRQ) pbqr: 26-N-1 ng: 11 OHEARGG PG p/f: YBHQRA YC q/g: 06/30 11:27:10
+OHEAF (FPNYQF) / RKCYBFVBA - SVER NYNEZ (HAXABJA FVGHNGVBA) pbqr: 7-N-2 ng: 11 OENQQBPX PG p/f: FGENGUZBER PG q/g: 06/28 19:37:00
+*******************************************************************************
+*******************************************************************************
 * QvfcngpuFuvryqjnerCnefre fhopynffrf
 *******************************************************************************
 *******************************************************************************
@@ -2332,12 +2347,6 @@ Fhssbyx Pbhagl, AL (ALFhssbyxPbhaglSvergenpxreCnefre)
 (SverCntr) ** ZNFGVP ORNPU INP ** [7-N-2 SV] 340 J QBTJBBQ EQ Znfgvp Ornpu P/F:YLAOEBBX QE NAQ JBBQFVQR QE Nqq'g Vasb: Erfcbaqr
 (SverCntr) ** ZNFGVP ORNPU INP ** [6-P-1 NO] 154 ONLIVRJ QE Znfgvp Ornpu P/F:ZNCYR EQ J NAQ ANEPVFFHF EQ J Nqq'g Vasb: ........
 (SverCntr) ** ZNFGVP ORNPU INP ** [29-Q-2Z ] BEPUVQ QE Znfgvp Ornpu P/F:BEPUVQ QE NAQ PRQNE EQ R Nqq'g Vasb: ZIN Ahzore bs cngv
-*******************************************************************************
-Fhssbyx Pbhagl, AL (Cbeg Wrssrefba Ibyhagrre Nzohynapr) (ALFhssbyxPbhaglQCnefre)
-HAXABJA CEBOYRZ - FGNAQVAT, FVGGVAT HC, ZBIVAT BE GNYXVAT pbqr: 32-O-1 ng: 3 FGNAQVFU QE p/f: PUVCCRAQNYR QE q/g: 06/30 00:01:30
-CFLPUVNGEVP / NOABEZNY ORUNIVBE / FHVPVQR - ABA FHVPVQNY NAQ NYREG pbqr: 25-N-1 ng: 60 A PBHAGEL EQ p/f: CVAR UVYY EQ q/g: 06/30 19:53:51
-FVPX - AB CEVBEVGL FLZCGBZF (PBZCYNVAG PBAQVGVBAF 2-11 ABG VQRAGVSVRQ) pbqr: 26-N-1 ng: 11 OHEARGG PG p/f: YBHQRA YC q/g: 06/30 11:27:10
-OHEAF (FPNYQF) / RKCYBFVBA - SVER NYNEZ (HAXABJA FVGHNGVBA) pbqr: 7-N-2 ng: 11 OENQQBPX PG p/f: FGENGUZBER PG q/g: 06/28 19:37:00
 *******************************************************************************
 *******************************************************************************
 * Anffnh Pbhagl AL Pbyyrpgvba
@@ -7618,15 +7627,6 @@ ERFCBAQ GB: 2891 CBGGFIVYYR ZVAREFIVYYR UJL-OENAPU GJC  SBE N:SNHG-NHGBZBOVYR SV
 **********************************************************
 **********************************************************
 **********************************************************
-Unesbeq Pbhagl, ZQ (nyg be ercynpr)
-Pbagnpg: Punq Ebtref <3838@onisp.bet>
-Fraqre: unesbeqpgl@erqazkpnq.pbz nqqerff
-S03 SNYZ ng: 300 FHASYBJRE QE ORY NVE ZQ, 21014 p/f:NMNYRN QE q/g:03/18 15:50 obk:341 Vap#:2014-050479
-S03 QJRYY ng: UVYYRAQNYR EQ ORY NVE ZQ, 21014 p/f:UVTUYNAQ EQ q/g:03/15 20:14 obk:341 Vap#:2014-048540
-S03 PB ng: 1205 SEVFGBR PG SBERFG UVYY ZQ, 21050 p/f:TENSGBA EVQTR PG q/g:03/16 14:16 obk:356 Vap#:2014-048973
-S03 VAI ng: 608 A GBYYTNGR EQ ORY NVE ZQ, 21014 p/f:K ORY NVE OLC - HAQRECNFF q/g:03/18 08:38 obk:342 Vap#:2014-050107
-S03 NNYZ ng: 300 FHASYBJRE QE ORY NVE ZQ, 21014 p/f:NMNYRN QE q/g:03/18 15:04 obk:341 Vap#:2014-050443
-S03 TNFVA ng: 571 ONYGVZBER CVXR ORY NVE ZQ, 21014 p/f:F XRYYL NIR q/g:03/18 19:50 obk:304 Vap#:2014-050611
 **********************************************************
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
