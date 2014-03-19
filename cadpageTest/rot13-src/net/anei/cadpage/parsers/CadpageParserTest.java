@@ -19,6 +19,18 @@ choyvp pynff PnqcntrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    frgQrsnhygf("", "");
+    qbGrfg("",
+           "PNYY: PUVZARL SVER \aHAVG: S07 \aNQQE: 3018 GEBLRE EQ\aK: K PEBZCGBA PG \aPVGL: JUVGR UNYY \aFG: ZQ \aOBK: 714 \aVQ: 2014-0000050642",
+           "PNYY:PUVZARL SVER",
+           "HAVG:S07",
+           "NQQE:3018 GEBLRE EQ",
+           "K:K PEBZCGBA PG",
+           "PVGL:JUVGR UNYY",
+           "FG:ZQ",
+           "OBK:714",
+           "VQ:2014-0000050642");
+    
     frgQrsnhygf("", "BE");
     frgRkcZncPbqr("BEOragbaPbhagl");
     qbGrfg("BEOragbaPbhagl",
