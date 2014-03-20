@@ -41,7 +41,9 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
     
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
+    String saveBody = body;
     
+    // We have to try old format first, becuase new format is a subset of it
     Matcher match = UNIT_PREFIX_PTN.matcher(body);
     if (match.find()) {
       data.strUnit = match.group(1);
@@ -50,14 +52,56 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
       body = body.substring(3).trim();
     }
     
-    String saveBody = body;
-    return parseFields(body.split("\\*\\*"), 4, data) ||
-            data.parseGeneralAlert(this, saveBody);
+    if (parseFields(body.split("\\*\\*"), 4, data)) return true;
+    
+    data.initialize(this);
+    if (parseNewFormat(saveBody, data)) return true;
+    
+    return data.parseGeneralAlert(this, saveBody);
   }
-  
+
   @Override
   public String getProgram() {
     return "UNIT " + super.getProgram();
+  }
+
+  private static final Pattern UNIT_PTN1 = Pattern.compile("(?:(?:\\d{3}|[A-Z]+\\d+) )+ ");
+  private static final Pattern UNIT_PTN2 = Pattern.compile("([A-Z]+\\d+) +");
+  private static final Pattern ID_PTN = Pattern.compile(" +(\\d{4}-\\d{8})$"); 
+  private static final Pattern APT_PTN = Pattern.compile("([A-D](?: ?\\d+)?) +(.*)");
+  
+  private boolean parseNewFormat(String body, Data data) {
+    setFieldList("UNIT ADDR APT PLACE CITY CALL ID");
+    Matcher match = UNIT_PTN1.matcher(body);
+    if (match.lookingAt()) {
+      data.strUnit = match.group().trim();
+      body = body.substring(match.end()).trim();
+    }
+    match = UNIT_PTN2.matcher(body);
+    if (match.lookingAt()) {
+      data.strUnit = append(data.strUnit, " ", match.group(1));
+      body = body.substring(match.end());
+    }
+    if (data.strUnit.length() == 0) return false;
+    
+    match = ID_PTN.matcher(body);
+    if (!match.find()) return false;
+    data.strCallId = match.group(1);
+    body = body.substring(0,match.start()).trim();
+    
+    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD, body, data);
+    if (data.strCity.length() == 0) return false;
+    
+    String place = getPadField();
+    match = APT_PTN.matcher(place);
+    if (match.matches()) {
+      data.strApt = append(data.strApt, "-", match.group(1));
+      place = match.group(2);
+    }
+    data.strPlace = place;
+    
+    data.strCall = getLeft();
+    return (data.strCall.length() > 0);
   }
 
   private class MyAddressField extends AddressField {
