@@ -58,10 +58,6 @@ Fraqre: upfbqvfcngpu@foptybony.arg
 (Qvfcngpurq Pnyy (SPVGL)) 10330 EBOOVR YA, Jvaarzhppn, AI *  * EBOOVR PVE/VAQVNA PG *  * SVER PO *  * #131019028 *
 (Qvfcngpurq Pnyy (SPVGL)) 3412 PEBJA EBLNY PVE, Jvaarzhppn, AI *  * OBHEOBA PVE *  * 1090SVER *  * #131018103 * TBZRM ERFVQRAPR -- 1090 SVER NYNEZ - YVIVAT EBBZ FZBXR
 
-Zretr jvgu PNYnxrPbhagl
-
-Gel QvfcngpuN20Cnefre fhopynff
-
 */
 
 choyvp pynff AIJvaarzhppnCnefreGrfg rkgraqf OnfrCnefreGrfg {
