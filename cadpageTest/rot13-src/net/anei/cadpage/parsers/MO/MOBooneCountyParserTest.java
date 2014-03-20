@@ -6,6 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 
 /*
+Obbar Pbhagl, ZB
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fbhgurea Obbar Pbhagl Sver Cebgrpgvba Qvfgevpg
@@ -83,12 +84,37 @@ ARJPNYY,201324787,UVTUJNL 63 F AO-OP/FBHGU ZBHAG CYRNFNAG EQ F-OP,,00000000,0000
 ARJPNYY,201324773,UVTUJNL 63 F FO-OP/OBBAR PNYYNJNL YVAR-OP,,00000000,00000000,65039,,OBBAR PNYYNJNL YVAR & PNYYNJNL PBHAGL,JRFGOEBBX QE F & PYNLFIVYYR EQ R,Pragre qvivqvat yvar sbe RNFG/JRFG Obbar Pbhagl - zbfgyl 4 ynarf.,,,29O4-NPPVQRAG HAX VAWHEL,5,FEZO,12/03/13,15:50:13,15:53:03,FS,20-17,OF,107,OS1,R2001 Z241,WREEL JNEARE,,4172934867,UFQ  UFQ:Pragre qvivqvat yvar sbe RNFG/JRFG Obbar Pbhagl - zbfgyl 4 ynarf.
 ARJPNYY,201324746,UVTUJNL 63 F FO-NF/CRGREFBA YA R-NF,,00000000,00000000,65010,,CRGREFBA YA R & SBEFRR EQ R,YVOREGL YA R,Pragre qvivqvat yvar sbe RNFG/JRFG Obbar Pbhagl - zbfgyl 4 ynarf.,,,ZQH-ZNA QBJA HAXABJA CEBOYRZ,2,14,12/03/13,10:45:10,10:46:08,FS,17-19N,NC,107,OS1,T1706 Z241,WBUA UBSS/ 1545,,4894890,UFQ  UFQ:Pragre qvivqvat yvar sbe RNFG/JRFG Obbar Pbhagl - zbfgyl 4 ynarf.
 
+Snapl SvryqCebtenzCnefre cebtenz fgevat fubhyq qb guvf.  Zvtug unir gb trg
+gevpx vs jr svaq fbzr bcgvbany svryqf.
+
+Fcyvg svryqf ol pbzzn.
+
+ARJPNYY VQ NQQE/l NCG TCF1 TCF2 ANZR MVC CYNPR K K VASB RZCGL RZCGL RZCGL PNYY CEV OBK QNGR GVZR GVZR FEP ZNC VASB VASB VASB HAVG ANZR RZCGL CUBAR VASB+  
+
+Nqq inyvqngvba cnggreaf jurer nccebcevngr
+
+TCF1 naq TCF2 ner arj, V arrq gb jevgr gurz.  Vs gurl qba'g jbex jnvg n ovg.
+
+MVC fhopynffrf PVGL, ohg fubhyq abg birejevgr na rkvfgvat PVGL inyhr.
+
+PNYY fcyvg vagb PBQR naq PNYY svryqf ng svefg qnfu.  Nobeg vs ab qnfu
+
+FEP vf 2 punenpgref
+ZNC vf 2 2 qvtvg ahzoref frcnengrq ol qnfu
+CUBAR vf rzcgl be 10 qvtvgf
+
+Arrq gb ohvyq n pvgl pbqr gnoyr juvpu znl unir bayl gjb ragevrf.
+NF = NFGBEVN
+OP = OBBAR PBHAGL (yrnir rzcgl)
+
+Ybbxf yvxr sha...
+
 */
 
-choyvp pynff ZBFbhgureaObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff ZBObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp ZBFbhgureaObbarPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "FBHGUREA OBBAR PBHAGL", "ZB");
+  choyvp ZBObbarPbhaglCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "OBBAR PBHAGL", "ZB");
   }
 
  
@@ -99,6 +125,6 @@ choyvp pynff ZBFbhgureaObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
      }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ZBFbhgureaObbarPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj ZBObbarPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
