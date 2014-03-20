@@ -34,7 +34,9 @@ public class MDHarfordCountyBParser extends DispatchRedAlert2Parser {
     if (data.strCity.length() == 0) {
       Matcher match = OOC_MUT_AID_BOX.matcher(data.strAddress);
       if (match.matches()) {
-        switch (match.group(1).charAt(0)) {
+        data.strAddress = match.group(1);
+        String box = match.group(2);
+        switch (box.charAt(0)) {
         case 'B':
           data.strCity = "BALTIMORE COUNTY";
           break;
@@ -45,7 +47,7 @@ public class MDHarfordCountyBParser extends DispatchRedAlert2Parser {
           data.strCity = "YORK COUNTY";
           break;
         }
-        data.strBox = append(match.group(2), "-", data.strBox);
+        data.strBox = append(box, "-", data.strBox);
         data.strState = match.group(3);
       }
     }

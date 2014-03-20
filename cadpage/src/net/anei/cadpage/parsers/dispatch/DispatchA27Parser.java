@@ -63,7 +63,7 @@ public class DispatchA27Parser extends FieldProgramParser {
     
   }
   
-  private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*, .*),(?: \\d{5})?");
+  private static final Pattern PTN_FULL_ADDR = Pattern.compile("([^,]*?, [^,]*?),(?: \\d{5})?(?:, *([-+]?\\d+\\.\\d{4,}, *[-+]?\\d+\\.\\d{4,}))?");
   protected class BaseAddressField extends AddressCityField {
     
     @Override 
@@ -71,6 +71,7 @@ public class DispatchA27Parser extends FieldProgramParser {
       Matcher m = PTN_FULL_ADDR.matcher(field);   // This will match address, city, and zip
       if(m.matches()) {                           // If we have a match
         field = m.group(1);                       // Remove the zipcode
+        setGPSLoc(getOptGroup(m.group(2)), data);
       }
       
       int x = field.indexOf("/unincorp");
@@ -79,6 +80,11 @@ public class DispatchA27Parser extends FieldProgramParser {
       }
       
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " GPS";
     }
   }
 

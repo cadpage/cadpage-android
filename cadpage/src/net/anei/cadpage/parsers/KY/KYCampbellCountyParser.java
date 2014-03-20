@@ -15,4 +15,12 @@ public class KYCampbellCountyParser extends DispatchA27Parser {
   public String getFilter() {
     return "noreply@cisusa.org,do-not-reply@cccdcky.org";
   }
+  
+  @Override
+  public int getMapFlags() {
+    
+    // We really don't have enough examples to make this determination, but
+    // give dispatch the benefit of doubt.
+    return MAP_FLG_PREFER_GPS;
+  }
 }
