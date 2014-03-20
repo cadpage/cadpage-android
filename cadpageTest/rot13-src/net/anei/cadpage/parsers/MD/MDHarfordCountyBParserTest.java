@@ -156,7 +156,7 @@ choyvp pynff ZQUnesbeqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "R10 FRVM ng: 2810 NAQREFBA EQ 45-29 ZQ,  p/f: q/g:03/16 02:51 obk: Vap#:2014-048800",
         "HAVG:R10",
         "PNYY:FRVM",
-        "NQQE:2810 NAQREFBA EQ 45-29 ZQ",  // Abg znccvat
+        "NQQE:2810 NAQREFBA EQ 45-29 ZQ",  // Abg znccvat  Qvfcngpu qebccrq OPZO cersvk
         "QNGR:03/16",
         "GVZR:02:51",
         "VQ:2014-048800");
@@ -178,7 +178,10 @@ choyvp pynff ZQUnesbeqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "R10 ZHGOP ng: 21318 QHAX SERRYNAQ EQ OPZO 45-31 ZQ,  p/f: q/g:03/17 11:03 obk: Vap#:2014-049403",
         "HAVG:R10",
         "PNYY:ZHGOP",
-        "NQQE:21318 QHAX SERRYNAQ EQ OPZO 45-31 ZQ",  // Abg znccvat
+        "NQQE:21318 QHAX SERRYNAQ EQ",
+        "PVGL:ONYGVZBER PBHAGL",
+        "OBK:OPZO 45-31",
+        "FG:ZQ",
         "QNGR:03/17",
         "GVZR:11:03",
         "VQ:2014-049403");

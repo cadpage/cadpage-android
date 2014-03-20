@@ -10,6 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchRedAlert2Parser;
 
 public class MDHarfordCountyBParser extends DispatchRedAlert2Parser {
   
+  private static final Pattern OOC_MUT_AID_BOX = Pattern.compile("(.*) ([BCY]C[FM]B \\d\\d-\\d\\d) (MD|PA)");
   private static final Pattern CITY_ST_PTN = Pattern.compile("(.*?) +(PA|MD)");
   
   public MDHarfordCountyBParser() {
@@ -30,6 +31,24 @@ public class MDHarfordCountyBParser extends DispatchRedAlert2Parser {
     data.strUnit = data.strCall.substring(0,pt);
     data.strCall = data.strCall.substring(pt+1).trim();
     
+    if (data.strCity.length() == 0) {
+      Matcher match = OOC_MUT_AID_BOX.matcher(data.strAddress);
+      if (match.matches()) {
+        switch (match.group(1).charAt(0)) {
+        case 'B':
+          data.strCity = "BALTIMORE COUNTY";
+          break;
+        case 'C':
+          data.strCity = "CECIL COUNTY";
+          break;
+        case 'Y':
+          data.strCity = "YORK COUNTY";
+          break;
+        }
+        data.strBox = append(match.group(2), "-", data.strBox);
+        data.strState = match.group(3);
+      }
+    }
     Matcher match = CITY_ST_PTN.matcher(data.strCity);
     if (match.matches()) {
       data.strCity = match.group(1);
