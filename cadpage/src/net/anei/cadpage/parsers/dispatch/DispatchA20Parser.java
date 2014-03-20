@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA20Parser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("Dispatched Call \\(([A-Z0-9]+)\\)");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("Dispatched Call \\(([A-Z0-9]+)\\)(?:\\|.*)?");
   
   private Properties codeLookupTable;
 
@@ -28,6 +28,14 @@ public class DispatchA20Parser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Replace paren terms that might have gotten stripped off the beginning
+    // of the message
+    String[] subParts = subject.split("\\|");
+    subject = subParts[0];
+    for (int jj = subParts.length-1; jj>0; jj--) {
+      body = '(' + subParts[jj] + ')' + body;
+    }
     Matcher match = SUBJECT_PTN.matcher(subject);
     if (!match.matches()) return false;
     data.strUnit = match.group(1);
