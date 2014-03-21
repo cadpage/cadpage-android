@@ -62,7 +62,7 @@ public class DispatchProphoenixParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern CALL_PTN = Pattern.compile("([A-Z ]+) *- *(.*?) *\\{(\\d)\\}");
+  private static final Pattern CALL_PTN = Pattern.compile("([A-Z0-9 ]+) *- *(.*?) *\\{(\\d)\\}");
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
