@@ -1,11 +1,12 @@
 cnpxntr arg.narv.pnqcntr.cnefref.NY;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.NY.NYPurebxrrCnefreGrfg;
+vzcbeg arg.narv.pnqcntr.cnefref.NY.NYPurebxrrPbhaglCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
 /*
+Purebxrr Pbhagl, NY
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Purebxrr Pbhagl 911
@@ -56,9 +57,9 @@ Fraqre: qvfcngpu@911rznvy.arg
 
 */
 
-choyvp pynff NYPurebxrrCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff NYPurebxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp NYPurebxrrCnefreGrfg() {
+  choyvp NYPurebxrrPbhaglCnefreGrfg() {
     frgCnefre(arj NYPurebxrrPbhaglCnefre(), "PUREBXRR PBHAGL", "NY");
   }
   
@@ -119,7 +120,7 @@ choyvp pynff NYPurebxrrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(R911) NZOHYNAPR ERDHRFG\a505 PBHAGL EQ 34",
         "PNYY:NZOHYNAPR ERDHRFG",
         "NQQE:505 PBHAGL EQ 34",
-        "ZNQQE:505 PBHAGL EBNQ 34"); //svefg qvq lbh zrna
+        "ZNQQE:505 PBHAGL EBNQ 34");
 
     qbGrfg("G10",
         "(R911) NZOHYNAPR ERDHRFG\a1805 JRFG ZNVA FG",
@@ -129,8 +130,10 @@ choyvp pynff NYPurebxrrCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G11",
         "(R911) NZOHYNAPR ERDHRFG\a201 QRNA OHGGENZ FE NI, PRAGER\a76 LE BYQ SRZNYR",
         "PNYY:NZOHYNAPR ERDHRFG",
-        "ANZR:201 QRNA OHGGENZ FE NI, PRAGER", //zncf, ohg va jebat cynpr
-        "NQQE:76 LE BYQ SRZNYR");
+        "NQQE:201 QRNA OHGGENZ FE NI",
+        "ZNQQE:201 QRNA OHGGENZ FE NIR",
+        "PVGL:PRAGER",
+        "VASB:76 LE BYQ SRZNYR");
 
     qbGrfg("G12",
         "(R911) NZOHYNAPR ERDHRFG\a725 OVT ABFR QE, PRAGER",
@@ -183,8 +186,9 @@ choyvp pynff NYPurebxrrCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G19",
         "(R911) NZOHYNAPR ERDHRFG\a315 PBHAGL EBNQ 92, PRQNE OYHSS\a12 LE BYQ",
         "PNYY:NZOHYNAPR ERDHRFG",
-        "ANZR:315 PBHAGL EBNQ 92, PRQNE OYHSS", //jebat cynpr
-        "NQQE:12 LE BYQ");
+        "NQQE:315 PBHAGL EBNQ 92",
+        "PVGL:PRQNE OYHSS",
+        "VASB:12 LE BYQ");
 
     qbGrfg("G20",
         "(R911) NYNEZ/SVRYQ/TENFF/FGEHG/IRU/JBBQF\a605 PBHAGL EQ 49\aTENFF SVER",
@@ -217,7 +221,8 @@ choyvp pynff NYPurebxrrCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G25",
         "(R911) NZOHYNAPR ERDHRFG\a3385 ERRFR FG - FJ FRPGBE, Prager",
         "PNYY:NZOHYNAPR ERDHRFG",
-        "NQQE:3385 ERRFR FG - FJ FRPGBE", //qbrf abg znc
+        "NQQE:3385 ERRFR FG",
+        "ZNC:FJ FRPGBE",
         "PVGL:Prager");
 
     qbGrfg("G26",
@@ -321,6 +326,6 @@ choyvp pynff NYPurebxrrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj NYPurebxrrCnefreGrfg().trarengrGrfgf("G1");
+    arj NYPurebxrrPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

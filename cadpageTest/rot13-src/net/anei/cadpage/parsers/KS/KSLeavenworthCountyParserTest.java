@@ -500,7 +500,7 @@ choyvp pynff XFYrnirajbeguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:311 ZRQVPNY NFFVFG, NFFVFG RZF",
         "CEV:1",
         "NQQE:2315 19gu GR",
-        "ZNQQE:2315 19gu GRE", //svefg qvq lbh zrna
+        "ZNQQE:2315 19gu GRE",
         "HAVG:R3",
         "VASB:Ybphgvba PNQIbvpr Gbare Nyreg Vavgvngrq\aQvfcngpurq: R3\ahaerfcbafvir oernguvat\awhql fpuzvqyvat");
 
