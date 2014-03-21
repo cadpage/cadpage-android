@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchGeoconxParser;
 public class ALChambersCountyParser extends DispatchGeoconxParser {
   
   public ALChambersCountyParser() {
-    super(CITY_SET, "CHAMBERS COUNTY", "AL", GCX_FLG_EMPTY_SUBJECT_OK | GCX_FLG_NAME_PHONE);
+    super(CITY_SET, "CHAMBERS COUNTY", "AL");
   }
   
   @Override

@@ -59,7 +59,7 @@ public class DispatchGeoconxParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("NAMEPH")) return new NamePhoneField();
-    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDR")) return new BaseAddressField();
     return super.getField(name);
   }
   
@@ -109,7 +109,7 @@ public class DispatchGeoconxParser extends FieldProgramParser {
   private static final Pattern CITY_PTN = Pattern.compile(", *([A-Z]+ ?[A-Z]*)$", Pattern.CASE_INSENSITIVE);
   private static final Pattern APT_PTN = Pattern.compile(", *(?:APT +)?((?:\\w+ *)?[-\\w]+)$");
   private static final Pattern AT_PTN = Pattern.compile("(?:@| AT )(?! *M[MP]\\b)", Pattern.CASE_INSENSITIVE);
-  private class MyAddressField extends AddressField {
+  private class BaseAddressField extends AddressField {
     
     @Override
     public boolean checkParse(String field, Data data) {
@@ -131,6 +131,12 @@ public class DispatchGeoconxParser extends FieldProgramParser {
       if (match.find()) {
         data.strCity = match.group(1).trim(); 
         field = field.substring(0,match.start()).trim();
+      }
+      
+      int pt = field.indexOf(" - ");
+      if (pt >= 0) {
+        data.strMap = field.substring(pt+3).trim();
+        field = field.substring(0,pt).trim();
       }
       
       match = APT_PTN.matcher(field);
@@ -158,7 +164,7 @@ public class DispatchGeoconxParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "NAME ADDR APT CITY";
+      return "NAME ADDR APT MAP CITY";
     }
   }
   
