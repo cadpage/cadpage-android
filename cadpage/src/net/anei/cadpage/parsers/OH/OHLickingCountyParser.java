@@ -1,50 +1,38 @@
 package net.anei.cadpage.parsers.OH;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA40Parser;
 
+public class OHLickingCountyParser extends DispatchA40Parser {
 
-public class OHLickingCountyParser extends SmartAddressParser {
-  
   public OHLickingCountyParser() {
     super(CITY_LIST, "LICKING COUNTY", "OH");
-    setFieldList("CALL ADDR APT CITY INFO");
   }
-  
+
   @Override
   public String getFilter() {
     return "LC911@lcounty.com";
   }
-  
+
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
+
     if (!body.startsWith("LC911:")) return false;
     body = body.substring(6).trim();
-    
-    // get rid of decimal points on the house numbers
-    body = body.replace(".00", "");
-    
-    Parser p = new Parser(body);
-    p.getOptional("- Nature: ");
-    data.strCall = p.getOptional(" - Location: ");
-    if (data.strCall.length() == 0) data.strCall = p.get("  ");
-    body = p.get();
-    
-    // Smart address parser has to take things from here
-    // Leaving room for a possible apt number between address and city
-    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD_EXCL_CITY, body, data);
-    data.strApt = append(data.strApt, " ", getPadField());
-    if (data.strApt.startsWith("APT ")) data.strApt = data.strApt.substring(4).trim();
-    
-    String sInfo = getLeft();
-    if (sInfo.startsWith("-") || sInfo.startsWith(".")) sInfo = sInfo.substring(1).trim();
-    if (sInfo.startsWith("Comments:")) sInfo = sInfo.substring(9).trim();
-    data.strSupp = sInfo;
-    
-    return true;
+
+    if (super.parseMsg(body, data)) return true;
+
+    // If that did not work, see if this is an older, but still supported format
+    int pt = body.indexOf("  ");
+    if (pt < 0) return false;
+    data.strCall = body.substring(0,pt).trim();
+    body = body.substring(pt+2).trim();
+
+    parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT, body, data);
+
+    return data.strCity.length() > 0;
   }
-  
+
   private static final String[] CITY_LIST = new String[]{
       "ALEXANDRIA",
       "BUCKEYE LAKE",
@@ -62,7 +50,7 @@ public class OHLickingCountyParser extends SmartAddressParser {
       "REYNOLDSBURG",
       "ST LOUISVILLE",
       "UTICA",
-
+  
       "BENNINGTON TWP",
       "BOWLING GREEN TWP",
       "BURLINGTON TWP",
@@ -88,7 +76,7 @@ public class OHLickingCountyParser extends SmartAddressParser {
       "ST ALBANS TWP",
       "UNION TWP",
       "WASHINGTON TWP",
-
+  
       "BEECHWOOD TRAILS",
       "GRANVILLE SOUTH",
       "HARBOR HILLS",

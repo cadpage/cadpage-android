@@ -59,7 +59,7 @@ Fraqre: qvfcngpu@911rznvy.arg
 choyvp pynff NYPurebxrrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp NYPurebxrrCnefreGrfg() {
-    frgCnefre(arj NYPurebxrrPbhaglCnefre(), "PUREBXRR", "NY");
+    frgCnefre(arj NYPurebxrrPbhaglCnefre(), "PUREBXRR PBHAGL", "NY");
   }
   
   @Grfg
