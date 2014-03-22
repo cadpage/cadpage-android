@@ -7,5 +7,10 @@ public class NJOceanCountyBParser extends DispatchA19Parser {
   public NJOceanCountyBParser() {
     super("OCEAN COUNTY", "NJ");
   }
+
+  @Override
+  public String getFilter() {
+    return "Fire_Records,@trpolice.org";
+  }
  
 }

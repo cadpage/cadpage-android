@@ -38,22 +38,30 @@ public class DispatchA19Parser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern ADDR_APT_PTN = Pattern.compile("(?:APT|RM|SUITE) *(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern ADDR_APT_PTN = Pattern.compile("(?:APT|RM|SUITE) *(.*)|\\d+[A-Z]?", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      String apt = null;
+      String apt = "";
       int pt = field.lastIndexOf(';');
       if (pt >= 0) {
-        apt = field.substring(pt+1).trim();
+        String place = field.substring(pt+1).trim();
         field = field.substring(0,pt).trim();
+        Matcher match = ADDR_APT_PTN.matcher(place);
+        if (match.matches()) {
+          apt = match.group(1);
+          if (apt == null) apt = place;
+        } else {
+          data.strPlace = place;
+        }
       }
       super.parse(field, data);
-      if (apt != null) {
-        Matcher match = ADDR_APT_PTN.matcher(apt);
-        if (match.matches()) apt = match.group(1);
-        data.strApt = append(data.strApt, "-", apt);
-      }
+      data.strApt = append(data.strApt, "-", apt);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE " + super.getFieldNames();
     }
   }
 

@@ -22,9 +22,9 @@ public class TXHoodCountyParser extends DispatchA19Parser {
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!super.parseMsg(subject, body, data)) return false;
     
-    // They save something in the apt field that is better described as a cross street
-    data.strCross = data.strApt;
-    data.strApt = "";
+    // They save something in the place field that is better described as a cross street
+    data.strCross = data.strPlace;
+    data.strPlace = "";
     return true;
   }
   
