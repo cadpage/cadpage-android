@@ -670,6 +670,7 @@ public class DispatchBParser extends FieldProgramParser {
         "MVA NO INJURY",
         "MVA NONE INJURY",
         "MVA W/ RESCUE",
+        "MVA W/INJURIES",
         "MVA WITH INJURIES",
         "MVA WITH INJURY",
         "MVA WITH INJURY & ENTRAPMENT",

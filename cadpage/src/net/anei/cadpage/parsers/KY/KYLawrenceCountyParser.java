@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.KY;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 public class KYLawrenceCountyParser extends DispatchB2Parser {
@@ -13,6 +14,24 @@ public class KYLawrenceCountyParser extends DispatchB2Parser {
     return "LAWRENCE_911@lycomonline.com,Interact@lycomonline.com";
   }
   
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCity.endsWith(" WAYNE CO")) {
+      data.strCity = data.strCity.substring(0,data.strCity.length()-9).trim();
+      data.strState = "WV";
+    }
+    data.strName = stripFieldEnd(data.strName, "APPALACHIAN WIRELESS");
+    data.strAddress = stripFieldEnd(data.strAddress, "APPALACHIAN WIRELESS");
+    
+    return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("CITY", "CITY ST");
+  }
+
   private static final String[] CITY_LIST = new String[]{
     "BLAINE",
     "LOUISA",
@@ -21,8 +40,9 @@ public class KYLawrenceCountyParser extends DispatchB2Parser {
     "WEBBVILLE",
     "KISE",
     "CHERRYVILLE",
-    "ULYSSES"
+    "ULYSSES",
 
+    "FT GAY WAYNE CO"
     };
 
 
