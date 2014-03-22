@@ -5,6 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
+Urnygurnfg Zrqvpny Genafcbegngvba 
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Urnygurnfg Zrqvpny Genafcbegngvba
@@ -111,6 +112,23 @@ EP:Aba- Rzretrapl/Eha# 10360/OYF/Cflpuvngevp/Fhvpvqr Nggrzcg/6401 SENAPR NIR F/R
 (URZG Cntvat - cneg 1 bs 1) EP:Wbo# 0157-N/ Eha# 10359/ jnf Pnapryrq: Pnapry ng Fprar - Ab Cg Pbagnp/PNYY:22:27/QVFC:22:28/RAE:22:28/NGF:22:40/PKY:22:42\a\a\a\a\a\aGur vasbezngvba vapyhqrq va guvf r-znvy zrffntr, vapyhqvat nal nggnpuzragf, vf \avagraqrq bayl sbe gur crefba be betnavmngvba gb juvpu vg vf nqqerffrq. Guvf \ar-znvy zrffntr znl pbagnva vasbezngvba gung vf cevivyrtrq be pbasvqragvny. Vs \albh erprvir guvf r-znvy zrffntr naq ner abg gur vagraqrq erpvcvrag be \aerfcbafvoyr sbe qryvirevat gur zrffntr gb gur vagraqrq erpvcvrag, lbh znl abg \ahfr, qvffrzvangr, qvfgevohgr be pbcl gur vasbezngvba vapyhqrq va guvf r-znvy naq \anal nggnpuzragf. Vs lbh erprvirq guvf r-znvy zrffntr ol zvfgnxr, cyrnfr \aercyl ol r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr naq nal nggnpuzragf. \aGunax lbh.
 (URZG Cntvat - cneg 1 bs 1) EP:Puneyvr/Eha# 10359/NYF/Genssvp Nppvqragf/35R ABEGUOBHQ & QVSSYRL EQ////22:27/<Haxabja>/zin/////\a\a\a\a\a\aGur vasbezngvba vapyhqrq va guvf r-znvy zrffntr, vapyhqvat nal nggnpuzragf, vf \avagraqrq bayl sbe gur crefba be betnavmngvba gb juvpu vg vf nqqerffrq. Guvf \ar-znvy zrffntr znl pbagnva vasbezngvba gung vf cevivyrtrq be pbasvqragvny. Vs \albh erprvir guvf r-znvy zrffntr naq ner abg gur vagraqrq erpvcvrag be \aerfcbafvoyr sbe qryvirevat gur zrffntr gb gur vagraqrq erpvcvrag, lbh znl abg \ahfr, qvffrzvangr, qvfgevohgr be pbcl gur vasbezngvba vapyhqrq va guvf r-znvy naq \anal nggnpuzragf. Vs lbh erprvirq guvf r-znvy zrffntr ol zvfgnxr, cyrnfr \aercyl ol r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr naq nal nggnpuzragf. \aGunax lbh.
 EP:Eha#10357/PNYY:21:40/QVFC:21:40/RAE:21:40/NGF:21:45/GEN:22:01/NGQ:22:25/ZVYRF:      12.2
+
+QvfcngpuCebDNCnefre fhopynfff
+
+PNYY PNYY PNYY2+? NQQE *( CYNPR NCG/M PVGL | NCG PVGL | CYNPR? PVGL ) GVZR VASB+
+
+PNYY2 vf pnyy svryq  jvgu fcrpvsvp inyvqngvba cnggrea zngpuvat Bireqbfr|Vatrfgvba
+be nalguvat ryfr jr svaq gung vaibyirf cnegf n n pnyy qrfevcgvba gung jnf ragrerq
+jvgu rzorqqrq fynffurf.
+Nyfb nccraq jvgu "/" vafgrnq bs hfhny " / "
+
+NCG svryq inyvqngba nalguvat yrff guna 6 punef
+
+Arrq pvgl yvfg
+
+Nyfb, cnefre jvyy arrq gb bireevqr trgYbpAnzr() gb erghea n avpr cnefre anzr.  Jr unir 
+gb qb guvf nalguvta gur ybpngvba cnefre anzr pnaabg or qrevirq sebz gur qrsnhyg
+pbhagl naq fgngr
 
 */
 
