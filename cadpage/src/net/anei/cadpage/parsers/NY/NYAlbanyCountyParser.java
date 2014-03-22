@@ -13,7 +13,8 @@ public class NYAlbanyCountyParser extends GroupBestParser {
   
   public NYAlbanyCountyParser() {
     super(new NYAlbanyCountyAParser(), 
-          new NYAlbanyCountyBParser());
+          new NYAlbanyCountyBParser(),
+          new NYAlbanyCountyCParser());
   }
 }
 	
