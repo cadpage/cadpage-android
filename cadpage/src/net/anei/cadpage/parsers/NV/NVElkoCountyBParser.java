@@ -3,12 +3,12 @@ package net.anei.cadpage.parsers.NV;
 import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 
 /**
- * West Wendover, NV
+ * Elko County, NV
  */
 
-public class NVWestWendoverParser extends DispatchA27Parser {
+public class NVElkoCountyBParser extends DispatchA27Parser {
   
-  public NVWestWendoverParser() {
+  public NVElkoCountyBParser() {
     super("ELKO COUNTY", "NV");
   }
   
