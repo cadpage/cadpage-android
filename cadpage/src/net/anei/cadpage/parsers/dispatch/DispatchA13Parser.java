@@ -41,7 +41,7 @@ public class DispatchA13Parser extends FieldProgramParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("SRCID")) return  new SourceIdField();
-    if (name.equals("DISPATCHED")) return new SkipField("Dispatched|Responding|Req_Dispatch|On Scene|Standing By|Terminated", true);
+    if (name.equals("DISPATCHED")) return new SkipField("Dispatched|Enroute|Responding|Req_?Dispatch|On ?Scene|Standing ?By|Terminated", true);
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("GPS1")) return new MyGPSField(1);
     if (name.equals("GPS2")) return new MyGPSField(2);

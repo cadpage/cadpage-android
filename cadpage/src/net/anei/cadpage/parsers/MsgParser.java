@@ -1289,7 +1289,7 @@ public abstract class MsgParser {
    body = BR_PTN.matcher(body).replaceAll("\n");
    return body.replace("&nbsp;",  " ").replace("&amp;",  "&").replace("&gt;", ">").replace("&lt;", "<");
  }
- private static final Pattern HTML_PTN = Pattern.compile("^.*<HTML>|<BODY>|</BODY>|</HTML>.*$", Pattern.CASE_INSENSITIVE);
+ private static final Pattern HTML_PTN = Pattern.compile("^.*<HTML>|<BODY>|</BODY>|</HTML>.*$", Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
  private static final Pattern BR_PTN = Pattern.compile("< *br */?>", Pattern.CASE_INSENSITIVE);
  
  /**
