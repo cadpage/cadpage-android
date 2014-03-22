@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 public class NVWestWendoverParser extends DispatchA27Parser {
   
   public NVWestWendoverParser() {
-    super("ELKO", "NV");
+    super("ELKO COUNTY", "NV");
   }
   
   @Override
