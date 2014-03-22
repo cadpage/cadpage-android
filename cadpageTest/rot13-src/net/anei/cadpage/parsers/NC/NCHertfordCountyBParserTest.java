@@ -30,13 +30,6 @@ YNAQVAT MBAR 1500 J SVEFG FG NUBFXVR 2014001579 00:09:39 137 URYVPBCGRE 20 ZVA R
 YNAQVAT MBAR 1500 J SVEFG FG NUBFXVR 2014001426 19:21:51 137 URYVPBCGRE RNFG PNER NVE 30 ZVAF RGN
 4074 YBSGVA YA NUBFXVR UBHFR 2014001410 13:37:00 077 SVER PNYY FZBXR NYNEZ MBAR 57
 
-*****
-QvfcngpuFbhgureaCnefre fhopynff
-
-Arrq QFSYNT_HAVG synt gb cebprff havg svryq sbyybjvat gvzr.
-
-Ohvyq pvgl yvfg sbe Uregsbeq Pbhagl
-
 */
 
 choyvp pynff APUregsbeqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -74,7 +67,7 @@ choyvp pynff APUregsbeqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G4",
         "419 UBYYBZNA NIR - FJ FRPGBE NUBFXVR 2014001832 12:31:37 077 SVER PNYY",
         "NQQE:419 UBYYBZNA NIR",
-        "NCG:- FJ FRPGBE", //pybfr rabhtu?
+        "ZNC:FJ FRPGBE",
         "PVGL:NUBFXVR",
         "VQ:2014001832",
         "GVZR:12:31:37",
@@ -111,7 +104,7 @@ choyvp pynff APUregsbeqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G8",
         "500 F. PNGUREVAR FG. - AR FRPGBE NUBFXVR 2014001725 03:07:30",
         "NQQE:500 F PNGUREVAR FG",
-        "NCG:- AR FRPGBE",
+        "ZNC:AR FRPGBE",
         "PVGL:NUBFXVR",
         "VQ:2014001725",
         "GVZR:03:07:30",
@@ -156,7 +149,8 @@ choyvp pynff APUregsbeqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G13",
         "YNAQVAT MBAR 1500 J SVEFG FG NUBFXVR 2014001579 00:09:39 137 URYVPBCGRE 20 ZVA RGN, RNFGPNER",
-        "NQQE:YNAQVAT MBAR 1500 J SVEFG FG", //zncf svar vs ynaqvat mbar vf abg gurer
+        "CYNPR:YNAQVAT MBAR",
+        "NQQE:1500 J SVEFG FG",
         "PVGL:NUBFXVR",
         "VQ:2014001579",
         "GVZR:00:09:39",
@@ -183,7 +177,8 @@ choyvp pynff APUregsbeqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G16",
         "YNAQVAT MBAR 1500 J SVEFG FG NUBFXVR 2014001426 19:21:51 137 URYVPBCGRE RNFG PNER NVE 30 ZVAF RGN",
-        "NQQE:YNAQVAT MBAR 1500 J SVEFG FG", //YNAQVAT MBAR VF N ABCR
+        "CYNPR:YNAQVAT MBAR",
+        "NQQE:1500 J SVEFG FG",
         "PVGL:NUBFXVR",
         "VQ:2014001426",
         "GVZR:19:21:51",
