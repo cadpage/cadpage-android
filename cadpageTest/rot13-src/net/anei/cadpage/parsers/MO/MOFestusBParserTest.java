@@ -9624,7 +9624,6 @@ choyvp pynff ZBSrfghfOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER - SVER IRUVPYR  NPPVQRAG / VAWHEVRF",
         "NQQE:V-55 (174 ZZ - 175 ZZ)",
         "ZNQQE:V 55",
-        "PVGL:WCNQ1",
         "ZNC:SCQ/SSQ/WCNQ1",
         "QNGR:11/20/2013",
         "GVZR:10:39:36",
