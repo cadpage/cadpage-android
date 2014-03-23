@@ -14,6 +14,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class SDLincolnCountyParser extends FieldProgramParser {
   
+  private static final Pattern GEN_ALERT_PTN = Pattern.compile("MEETING|TRAINING|DISREGARD", Pattern.CASE_INSENSITIVE);
   private static final Pattern LEAD_NUMBER = Pattern.compile("^\\d+ +(?!Y/O |YO ).*");
   private static final Pattern CALL_ID_PTN = Pattern.compile("^\\{?(\\d\\d-\\d+)\\b\\}?");
   private static final Pattern MASTER_PTN = Pattern.compile("\\{?(.*?)\\}? *(\n| - )(.*)");
@@ -39,6 +40,10 @@ public class SDLincolnCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (subject.length() == 0) return false;
+    if (subject.equals("MESSAGE PAGE")) return false;
+    
+    // Some words identify this as a general alert
+    if (GEN_ALERT_PTN.matcher(body).find()) return false;
     
     // Too many different formats. :(
     
@@ -53,7 +58,11 @@ public class SDLincolnCountyParser extends FieldProgramParser {
       return super.parseFields(flds, data);
     }
 
-    if (subject.startsWith("Ambulance Call") || subject.equals("Injury Accident")) {
+    if (subject.startsWith("Ambulance Call") ||
+        subject.startsWith("Fire Call") ||
+        subject.startsWith("Injury Accident") ||
+        subject.startsWith("Non-Injury Accident") ||
+        subject.startsWith("Suspicious Vehicle")) {
       version = "1";
       data.strCall = subject;
       return parseFields(flds, data);
@@ -67,7 +76,7 @@ public class SDLincolnCountyParser extends FieldProgramParser {
     String addr = p.get(',');
     Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, addr);
     if (res.getStatus() >= STATUS_INTERSECTION || LEAD_NUMBER.matcher(addr).matches()) {
-      setFieldList("ADDR CITY STATE CALL");
+      setFieldList("ADDR CITY ST CALL");
       res.getData(data);
       if (data.strCity.length() == 0) data.strCity = p.get(',');
       data.strState = p.get(',');
@@ -264,6 +273,10 @@ public class SDLincolnCountyParser extends FieldProgramParser {
     "SIOUX FALLS",
     "TEA",
     "WORTHING",
+    
+    // Turner County
+    "HURLEY",
+    "MONROE",
 
     // Iowa
     "INWOOD"
