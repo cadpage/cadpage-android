@@ -23,9 +23,6 @@ public class OKGarfieldCountyParser extends DispatchA33Parser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Call")) return false;
-    int pt = body.indexOf("\nEvent No:");
-    if (pt < 0) return false;
-    body = body.substring(pt+1);
     if (!super.parseMsg(body, data)) return false;
     if (data.strCross.equals("OK")) data.strCross = "";
     if (data.strPlace.equalsIgnoreCase("PIONEER")) data.strPlace = "";

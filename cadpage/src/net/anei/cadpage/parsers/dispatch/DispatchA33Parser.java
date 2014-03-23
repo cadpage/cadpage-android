@@ -20,6 +20,11 @@ public class DispatchA33Parser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    int pt = body.indexOf("\nEvent No:");
+    if (pt < 0) return false;
+    body = body.substring(pt+1);
+
     // delete event logs
     int ei = body.indexOf("\nEvent Log\n");
     if (ei < 0) return false;
@@ -38,6 +43,11 @@ public class DispatchA33Parser extends FieldProgramParser {
     }
 
     return super.parseMsg(body, data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
   }
 
   @Override
