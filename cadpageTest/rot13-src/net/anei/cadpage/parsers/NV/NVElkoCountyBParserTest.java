@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Jrfg Jraqbire, Ryxb Pbhagl, AI
+Ryxb Pbhagl, AI (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jrfg Jraqbire SQ
