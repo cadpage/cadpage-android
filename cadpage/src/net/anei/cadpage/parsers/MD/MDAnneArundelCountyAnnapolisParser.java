@@ -350,7 +350,7 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
       "RB",   "RIVIERA BEACH",
       "SF",   "SHERWOOD FOREST",
       "SP",   "SEVERNA PARK",
-      "SR",   "SOUTH RIVER",
+      "SR",   "SOUTH RIVER", 
       "SS",   "SHADY SIDE",
       "SV",   "SEVERN",
       "TL",   "TRACEYS LANDING",

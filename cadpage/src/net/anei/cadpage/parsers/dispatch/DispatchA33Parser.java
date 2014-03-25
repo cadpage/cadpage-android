@@ -21,9 +21,10 @@ public class DispatchA33Parser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    int pt = body.indexOf("\nEvent No:");
+    int pt = body.indexOf("Event No:");
     if (pt < 0) return false;
-    body = body.substring(pt+1);
+    if (pt > 0 && body.charAt(pt-1) != '\n') return false;
+    body = body.substring(pt);
 
     // delete event logs
     int ei = body.indexOf("\nEvent Log\n");

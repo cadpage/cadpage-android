@@ -1,46 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03162014</string>
-  <string name="release_version">v1.7.12</string>
+  <string name="release_date">03242014</string>
+  <string name="release_version">v1.7.13</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-Split screen timeout and notification timeout into two separate settings.\n
-\n
 New Locations:\n
-Talladega County, AL\n
-Madison County, IL\n
-Elkhart County, IN\n
-Atlantic County, NC\n
-Havelock, NC\n
-Summit County, OH (alt)\n
-Washington County, OH (alt)\n
-Tulsa, OK (alt)\n
-Delaware County, PA (alt)\n
-Greene County, PA\n
-Darlington County, SC\n
-Hunt County, TX\n
-Clarke County, VA\n
-Walla Walla County, WA\n
+Chambers County, AL\n
+Cherokee County, AL\n
+Hanford, CA\n
+Delta County, CO\n
+Hartford County, MD (alt)\n
+Cherokee County, SC\n
+Lancaster County, SC\n
+Leavenworth County, KS\n
+Lawrence County, KY\n
+Beltrami County, MN\n
+Wabashi County, MN\n
+Elk County, NV (alt)\n
+Winnemucca County, NV\n
+Ocean County, NJ (alt)\n
+Albany County, NY (alt)\n
+Hertford County, NC (alt)\n
 \n
 Location Parsing Fixes:\n
-Fresno County, CA\n
-Larimer County, CO\n
+Maricopa County, AZ\n
+Manatee County, FL\n
 Kankakee County, IL\n
-Porter County, IN\n
-Anne Arundel County, MD\n
-Greene County, MO\n
-Burlington County, NC\n
-Davie County, NC\n
-Bucks County, PA\n
-Chester County, PA\n
-Bell County, TX\n
-Warren County, VA\n
-Grant County, WA\n
-Prince George, BC\n
-\n
-General Fixes:\n
-Fixed problem with screen not turning off after alert.\n
+Cowley County, KS\n
+Campbell County, KY\n
+Anne Arrundel County, MD\n
+St Charles County, MO\n
+Genesee County, NY\n
+Nassau County, NY\n
+Holmes County, OH\n
+Licking County, OH\n
+Lincoln County, SD\n
+Nacodoches County, TX\n
+Yakima County, WA\n
   </string>
 </resources>
   

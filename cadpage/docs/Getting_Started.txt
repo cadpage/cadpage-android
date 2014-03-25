@@ -10,6 +10,12 @@ Cadpage code consists of 800+ message text parsers that have been written to par
 Things you will need to install:
 
 1)Android SDK and Eclipse Bundle http://developer.android.com/sdk/index.html. Simply extract it and it is ready to go.
+1A) Google hasn't been updating their bundle and we have had problems getting it to work.  I have better luck installing
+latest version of Eclipse from http://www.eclipse.org.  Then going through the instructions on setting up an existing IDE at
+http://developer.android.com
+
+1B) For Linux on a 64 bit system, make sure you have the ia32libs package installed.  Some of the
+ADT binaries are 32 bit binaries that will not run without it.
 
 2)Java JDK, Apache Ant, and Subversion from the Download Manager for Linux systems.  For Windows they are available from
 http://www.oracle.com/technetwork/java/javase/downloads/index.html
