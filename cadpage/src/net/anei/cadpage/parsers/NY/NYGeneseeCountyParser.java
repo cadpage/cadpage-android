@@ -104,6 +104,16 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
     return (data.strCall.length() > 0);
   }
 
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("CALL")) return new CallField("[^:]*", true);
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("APT")) return new MyAptField();
+    if (name.equals("CALL2")) return new MyCall2Field();
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
+  }
+
   private class MyAddressField extends AddressField {
     
     @Override
@@ -114,24 +124,29 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
       
       // If field contains comma, parse as address and cross / city
       String sApt = "";
-      skipApt = false;
+      skipApt = true;
+      String sCity = null;
       int pt = field.indexOf(',');
-      if (pt < 0) abort();
-      String sAddr = field.substring(0,pt).trim();
-      String sCity = field.substring(pt+1).trim();
-      int pt2 = sCity.indexOf('-');
-      if (pt2 >= 0) {
-        skipApt = true;
-        sApt = sCity.substring(pt2+1).trim();
-        if (sApt.startsWith("APT ")) sApt = sApt.substring(4);
-        sCity = sCity.substring(0,pt2).trim();
+      if (pt >= 0) {
+        skipApt = false;
+        sCity = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+        int pt2 = sCity.indexOf('-');
+        if (pt2 >= 0) {
+          skipApt = true;
+          sApt = sCity.substring(pt2+1).trim();
+          if (sApt.startsWith("APT ")) sApt = sApt.substring(4);
+          sCity = sCity.substring(0,pt2).trim();
+        }
       }
-      parseAddress(sAddr, data);
-      parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_ONLY_CITY | FLAG_ANCHOR_END, sCity, data);
-      if (data.strCity.equals("TONAWANDA IR")) data.strCity = "TONAWANDA INDIAN RESERVATION";
-      data.strAddress = append(data.strAddress, " & ", data.strCross);
-      data.strCross = "";
-      data.strApt = append(data.strApt, "-", sApt);
+      parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT | FLAG_ANCHOR_END, field, data);
+      if (sCity != null) {
+        parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_ONLY_CITY | FLAG_ANCHOR_END, sCity, data);
+        if (data.strCity.equals("TONAWANDA IR")) data.strCity = "TONAWANDA INDIAN RESERVATION";
+        data.strAddress = append(data.strAddress, " & ", data.strCross);
+        data.strCross = "";
+        data.strApt = append(data.strApt, "-", sApt);
+      }
     }
     
     @Override
@@ -171,16 +186,6 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
       if (field.equals("No Cross Streets Found")) return;
       super.parse(field, data);
     }
-  }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("CALL")) return new CallField("[^:]*", true);
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("APT")) return new MyAptField();
-    if (name.equals("CALL2")) return new MyCall2Field();
-    if (name.equals("X")) return new MyCrossField();
-    return super.getField(name);
   }
   
   private static final String[] CITY_LIST = new String[]{
