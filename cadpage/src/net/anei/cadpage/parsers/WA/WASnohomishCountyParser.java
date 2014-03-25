@@ -1,11 +1,15 @@
 package net.anei.cadpage.parsers.WA;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class WASnohomishCountyParser extends FieldProgramParser {
+  
+  private static final Pattern MARKER = Pattern.compile("(?:pagegate:)?\\*\\* DISP \\*\\* *(.*)");
   
   public WASnohomishCountyParser() {
     super("SNOHOMISH COUNTY", "WA",
@@ -19,9 +23,17 @@ public class WASnohomishCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("** DISP **")) return false;
-    body = body.substring(10).trim();
+    Matcher match = MARKER.matcher(body);
+    if (!match.lookingAt()) return false;
+    body = match.group(1);
     return super.parseFields(body.split("!"), data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   private class MyAddressField extends AddressField {
@@ -45,13 +57,6 @@ public class WASnohomishCountyParser extends FieldProgramParser {
       if (field.startsWith(",")) field = field.substring(1).trim();
       super.parse(field, data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
