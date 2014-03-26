@@ -272,7 +272,7 @@ choyvp pynff PGArjYbaqbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZHGHNY NVQ BHG - SVER",
         "CYNPR:FHO ONFR SVER QRCNEGZRAG YBJRE ONFR",
         "NQQE:107 YBJRE ONFR",  // Abg Znccvat
-        "VASB:Tebgba",
+        "PVGL:Tebgba",
         "HAVG:BG",
         "QNGR:10/19/2012",
         "GVZR:17:02");

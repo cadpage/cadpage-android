@@ -19,6 +19,7 @@ public class CTNewLondonCountyParser extends DispatchA16Parser {
   private static final String[] CITY_LIST= new String[]{
     "EAST LYME",
     "GALES FERRY",
+    "GROTON",
     "LEDYARD",
     "MONTVILLE"
   };
