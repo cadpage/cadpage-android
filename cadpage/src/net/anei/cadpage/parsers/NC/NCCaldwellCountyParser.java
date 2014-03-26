@@ -15,7 +15,7 @@ public class NCCaldwellCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "CAD@caldwellcountync.org";
+    return "CAD@caldwellcountync.org,7677";
   }
 
   @Override
