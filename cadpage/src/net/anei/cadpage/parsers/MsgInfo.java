@@ -754,7 +754,7 @@ public class MsgInfo {
   // If we find a construct like that, remove the middle section
   // When we are done with that, check for addresses ending with 666 HWY and reverse the terms
   private static final Pattern[] DBL_ROUTE_PTNS = new Pattern[]{ 
-    Pattern.compile("\\b([A-Z]{2}|STATE|COUNTY) *(ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGH|HIGHWAY) +(\\d+[ABNSEW]?|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE),
+    Pattern.compile("\\b([A-Z]{2}|STE|STATE|COUNTY) *(ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGH|HIGHWAY) +(\\d+[ABNSEW]?|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE),
     Pattern.compile("\\b([A-Z]{2}|STATE|COUNTY|ROUTE|FARM-TO-MARKET) +(\\d+|[A-Z]{1,2})\\b *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGH)\\b", Pattern.CASE_INSENSITIVE)
   };
   private static final Pattern I_FWY_PTN = Pattern.compile("\\b(I[- ]\\d+) +[FH]WY\\b", Pattern.CASE_INSENSITIVE);
@@ -790,7 +790,7 @@ public class MsgInfo {
                prefix.equals("ST") ||
                prefix.equals("FM"))) {
             if (!prefix.equals("COUNTY") || !middle.equals("ROAD") && !middle.equals("RD")) {
-              if (prefix.equals("ST") || prefix.equals(state)) prefix = repState;
+              if (prefix.equals("ST") || prefix.equals("STE") || prefix.equals(state)) prefix = repState;
               match.appendReplacement(sb, prefix + " " + hwy);
             }
           }

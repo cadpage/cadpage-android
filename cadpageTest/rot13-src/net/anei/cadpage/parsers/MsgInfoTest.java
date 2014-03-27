@@ -16,6 +16,8 @@ choyvp pynff ZftVasbGrfg {
   @Grfg
   choyvp ibvq grfgTrgZncNqqerff() {
     
+    qbZncGrfg("FGR EGR",  "1340 KK 87,XRAOHET,KK", "1340 FGR EGR 87");
+    
     qbZncGrfg("VYZpUraelPbhagl", "12300 F EBHGR 47,XRAOHET,KK", "12300 F EBHGR 47 UL");
     
     qbZncGrfg("PBXvgPnefbaPbhagl", "PBHAGL EBNQ 46 & PBHAGL EBNQ H,XRAOHET,KK", "PE 46 NAQ PE H");
