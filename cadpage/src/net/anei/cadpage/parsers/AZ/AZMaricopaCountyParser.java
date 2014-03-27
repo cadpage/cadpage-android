@@ -139,7 +139,7 @@ public class AZMaricopaCountyParser extends FieldProgramParser {
   }
 
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
-      "2N1M",       "MAJOR MEDICAL INCIDENT",
+      "2N1M",       "2N1 MEDICAL",
       "AAID",       "AUTOMATIC AID",
       "AIRMED",     "INBOUND FLIGHT EMERGENCY",
       "ALLCALL",    "ENCODE ALL MRDC STATIONS",
