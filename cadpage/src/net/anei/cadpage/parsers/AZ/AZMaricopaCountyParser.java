@@ -52,35 +52,48 @@ public class AZMaricopaCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  private static final Pattern ADDR_GPS_PTN = Pattern.compile("(LL\\([-+ \\.,:\\d]+\\))(?::(?: @)?(.*))?");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      String extra = p.getLastOptional(": @");
-      String apt = p.getLastOptional(',');
-      super.parse(p.get(), data);
-      
-      if (apt.equals("INT")) {
-        StringBuilder sb = new StringBuilder();
-        for (String road : extra.split("/")) {
-          road = road.trim();
-          if (!data.strAddress.contains(road)) {
-            if (sb.length() > 0) sb.append(" & ");
-            sb.append(road);
-          }
+      Matcher match = ADDR_GPS_PTN.matcher(field);
+      if (match.matches()) {
+        String gps =  match.group(1).trim();
+        String place = match.group(2).trim();
+        if (place == null) {
+          data.strAddress = gps;
+        } else {
+          super.parse(place, data);
+          setGPSLoc(gps, data);
         }
-        data.strCross = sb.toString();
-      }
-      
-      else {
-        data.strApt = apt;
-        data.strPlace = extra;
+      } else {
+        Parser p = new Parser(field);
+        String extra = p.getLastOptional(": @");
+        String apt = p.getLastOptional(',');
+        super.parse(p.get(), data);
+        
+        if (apt.equals("INT")) {
+          StringBuilder sb = new StringBuilder();
+          for (String road : extra.split("/")) {
+            road = road.trim();
+            if (!data.strAddress.contains(road)) {
+              if (sb.length() > 0) sb.append(" & ");
+              sb.append(road);
+            }
+          }
+          data.strCross = sb.toString();
+        }
+        
+        else {
+          data.strApt = apt;
+          data.strPlace = extra;
+        }
       }
     }
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames() + " APT PLACE X";
+      return super.getFieldNames() + " APT PLACE X GPS";
     }
   }
   
@@ -172,15 +185,25 @@ public class AZMaricopaCountyParser extends FieldProgramParser {
   }); 
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-  "SCOT", "SCOTTSDALE",
-  "SNLK", "SUN LAKES",
-  "APJU", "APACHE JUNCTION",
-  "CHAN", "CHANDLER",
-  "GILB", "GILBERT",
-  "MARI", "MARICOPA",
-  "MESA", "MESA",
-  "PINA", "PINAL",
-  "QNCR", "QUEEN CREEK",
-  "TEMP", "TEMPE"
+    "SCO",  "SCOTTSDALE",   
+    "SCOT", "SCOTTSDALE",
+    "SNK",  "SUN LAKES",
+    "SNLK", "SUN LAKES",
+    "APJ",  "APACHE JUNCTION",
+    "APJU", "APACHE JUNCTION",
+    "CHA",  "CHANDLER",
+    "CHAN", "CHANDLER",
+    "GIL",  "GILBERT",
+    "GILB", "GILBERT",
+    "MAR",  "MARICOPA",
+    "MARI", "MARICOPA",
+    "MES",  "MESA",
+    "MESA", "MESA",
+    "PIN",  "PINAL",
+    "PINA", "PINAL",
+    "QNC",  "QUEEN CREEK",
+    "QNCR", "QUEEN CREEK",
+    "TEM",  "TEMPE",
+    "TEMP", "TEMPE"
   });
 }
