@@ -5,8 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
-Eborafba Pbhagl, AP
-
+Eborfba Pbhagl, AP
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Eraareg Sver Qrcg
@@ -436,34 +435,6 @@ PNQ:GENSSVP/ GENAFCBEGNGVBA NPPVQR;QVFG: 47.59 SG;4310 BYQ YBJREL EQ;GUHAQRE INY
 PNQ:GENSSVP/ GENAFCBEGNGVBA NPPVQR;4080 BYQ YBJREL EQ/GUHAQRE INYYRL QE;14000593;C;PNYYRE FGNGRF YBBXF YVXR FZBXR PBZVAT SEBZ GUR IRUVPYR [01/10/14 17:02:52 TB4270] 29-O-1 [01/10/14 17:02:28 TB4270] ERQ ZHFGNAT [01/10/14 17:02:03 TB4270]
 PNQ:HAPBAFPVBHF/ SNVAGVAT;6677 ERAAREG EQ;YNHQRYY QE;WB OHQ EQ;14000589;1;31Q04;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Qrygn ERFCBAQRE FPEVCG: 50 lrne byq, Znyr, Pbafpvbhfarff haxabja, Oernguvat. Hapbafpvbhf / Snvagvat (Arne). PUNATVAT PBYBE. Pn
 
-** ABGRF **
-QvfcngpuBFFVCnefre fhopynff
-Znva pynff unaqyrf PNQ: cersvk naq qrnyf jvgu fdhner oenpxrg grezf.  Lbh unir
-gb fhccyl cebtenz fgevat
-
-( PNAPRY NQQE VASB | PNYY CYNPR? NQQE K K VQ CEV PBQR VASB+ )
-
-sbe fgnegref.  Inyvqngvba pbqrf naq bgure nqwhfgzragf znl or arprffnel
-
-Gur bcgvbany CYNPR svryq vf tbvat gb or ceboyrzngvp  Erylvat ba NQQE gb qrgrezvar
-vs vg vf cerfrag be abg vf irel ceboyrzngvp.  Yrgf gel gb jevgr n fzneg cynpr 
-svryq gb frr vs jr pna cvpx bhg gur QVFG: naq ncg svryqf.  Vs gung cebirf
-hajbexnoyr, jr jvyy unir gb gel fbzrguvat ryfr.
-
-** ABGRF **
-QvfcngpuBFFVCnefre fhopynff
-Znva pynff unaqyrf PNQ: cersvk naq qrnyf jvgu fdhner oenpxrg grezf.  Lbh unir
-gb fhccyl cebtenz fgevat
-
-( PNAPRY NQQE VASB | PNYY CYNPR? NQQE K K VQ CEV PBQR VASB+ )
-
-sbe fgnegref.  Inyvqngvba pbqrf naq bgure nqwhfgzragf znl or arprffnel
-
-Gur bcgvbany CYNPR svryq vf tbvat gb or ceboyrzngvp  Erylvat ba NQQE gb qrgrezvar
-vs vg vf cerfrag be abg vf irel ceboyrzngvp.  Yrgf gel gb jevgr n fzneg cynpr 
-svryq gb frr vs jr pna cvpx bhg gur QVFG: naq ncg svryqf.  Vs gung cebirf
-hajbexnoyr, jr jvyy unir gb gel fbzrguvat ryfr.
-
 */
 
 choyvp pynff APEborfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -479,7 +450,7 @@ choyvp pynff APEborfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:FGEHPGHER SVER;276;1-OYX PHM QE;ERAAREG EQ;14000342;1;69Q05;[Sver Cevbevgl Vasb] ERFCBAFR: Qrygn ERFCBAQRE FPEVCG: Fgehpgher Sver. Erfvqragvny (zhygvcyr). 1.Gur pnyyre vf ba fprar (1fg cnegl). 2.Synzrf ner ivfvoyr. 3.Gur vapvqrag vaibyi",
         "PNYY:FGEHPGHER SVER",
         "CYNPR:276",
-        "NQQE:-OYX PHM QE",
+        "NQQE:PHM QE",
         "ZNQQE:PHM QE & ERAAREG EQ",
         "K:ERAAREG EQ",
         "VQ:14000342",
@@ -2113,7 +2084,7 @@ choyvp pynff APEborfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G14",
         "PNQ:HAXABJA CEBOYRZF;1-OYX JRFYRL EQ;AP710 UJL F;YRIV EQ;13005880;1;32-Q-1 GUVEQ CNEGL PNYYRE - PNYYRE NQI`Q GUNG GUR ZNYR QEVIRE JNF FYHZCRQBIRE GUR FGRREVAT JURRY - GURER VF N FZNYY PUVYQ VA GUR IRUVPYR GUR URUVPYR VF CNEGVNYYL VA GUR EBN",
         "PNYY:HAXABJA CEBOYRZF",
-        "NQQE:-OYX JRFYRL EQ",
+        "NQQE:JRFYRL EQ",
         "ZNQQE:JRFYRL EQ & FGNGR 710 F",
         "K:AP710 UJL F & YRIV EQ",
         "VQ:13005880",
@@ -2376,7 +2347,7 @@ choyvp pynff APEborfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:PVGVMRA NFFVFG/ FREIVPR PNYY;QVFG: 8.13 SG;1-OYX BYQ UHAGRE EQ;PNOVARG FUBC EQ;ZVXB QE;13005542;5;53B06;[Sver Cevbevgl Vasb] ERFCBAFR: Bzrtn ERFCBAQRE FPEVCG: Pvgvmra Nffvfg / Freivpr Pnyy. Bgure.Pnyyre Fgngrzrag: GERR BA EQ. 1.Gur pnyy",
         "PNYY:PVGVMRA NFFVFG/ FREIVPR PNYY",
         "CYNPR:QVFG: 8.13 SG",
-        "NQQE:-OYX BYQ UHAGRE EQ",
+        "NQQE:BYQ UHAGRE EQ",
         "ZNQQE:BYQ UHAGRE EQ & PNOVARG FUBC EQ",
         "K:PNOVARG FUBC EQ & ZVXB QE",
         "VQ:13005542",
@@ -3577,7 +3548,7 @@ choyvp pynff APEborfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G50",
         "PNQ:BHGFVQR SVER;1-OYX PNZJBBQ YA;ZVYYVBANVER EQ;13004873;1;67Q01E;[Sver Cevbevgl Vasb] ERFCBAFR: Qrygn ERFCBAQRE FPEVCG: Bhgfvqr Sver. JVYQYNAQ sver (Erfvqragvny). 1.Gur pnyyre vf ba fprar (1fg cnegl). 2.Guvf vf n JVYQYNAQ sver. 3.Gur sver",
         "PNYY:BHGFVQR SVER",
-        "NQQE:-OYX PNZJBBQ YA",
+        "NQQE:PNZJBBQ YA",
         "ZNQQE:PNZJBBQ YA & ZVYYVBANVER EQ",
         "K:ZVYYVBANVER EQ",
         "VQ:13004873",
