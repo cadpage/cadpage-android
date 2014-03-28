@@ -246,6 +246,7 @@ public class DispatchBParser extends FieldProgramParser {
         "ANIMAL BITES/ATTACKS",
         "ANIMAL CALLS",
         "ANIMAL COMPLAINT",
+        "ANNOUNCMENT",
         "AOA BOOKING ARREST",
         "ARMED ROBBERY IN PROG.",
         "ARSON FIRE",

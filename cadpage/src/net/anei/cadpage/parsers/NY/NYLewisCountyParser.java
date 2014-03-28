@@ -22,6 +22,9 @@ public class NYLewisCountyParser extends DispatchB2Parser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    
     if(!super.parseMsg(body, data)) return false;
     
     data.strCity = data.strCity.replace("PITCARIN", "PITCAIRN");                    // Fix spelling on Pitcairn
