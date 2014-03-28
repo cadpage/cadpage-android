@@ -59,7 +59,8 @@ public class DispatchA3Parser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return parseMsg(body, data, true);
+    if (!parseMsg(body, data, true)) return false;
+    return true;
   }
   
   /**
@@ -190,7 +191,7 @@ public class DispatchA3Parser extends FieldProgramParser {
   private class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (field.toUpperCase().startsWith(data.strCall.toUpperCase())) {
+      if (data.strCall.length() > 0 && field.toUpperCase().startsWith(data.strCall.toUpperCase())) {
         data.strCall = field;
         return;
       }
