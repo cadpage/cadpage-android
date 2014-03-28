@@ -34,7 +34,7 @@ public class ALTalladegaCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       field = stripFieldStart(field, "1 ");
-      super.parse(field.replace("@", "&"), data);
+      super.parse(field.replace("@", "&").replace("//", "&"), data);
     }
   }
   

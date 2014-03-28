@@ -5,6 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
+Uneirlfohet, BU
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Uneirlfohet Cbyvpr Qrcnegzrag
@@ -104,6 +105,12 @@ YUC131105000860 NFFNHYG Nqq: 10043 BYQ FG EG 73 Synt: ---- Pbzc:  Ck:  Znc: T22 
 YUC131105000859 SVTUG Nqq: 193 R ZNVA FG Synt: ..A/N.. Pbzc:  Ck:  Znc: T21 Orng: U01 KFg1: 2 F SEBFG FG KFg2: 1 ZPQBANYQ FG Pzg: Cevznel Rirag: ZNVA Bcrarq: 13/11/05 22:39 Vapvqrag Vavgvngrq Ol: RF/CRERM, WNFBA GUVF VAPVQRAG GLCR ERDHVERF 2 BSSVPREF NAQ UBZR NTRAPL BVP OR QVFCNGPURQ. 2 ZNYRF Gvzr: 22:38 UC_NAL_Glcr_Tebhc
 YUC131104000858 PBAGEBYYRQ OHEA VASB Nqq: 482 R FBHGU FG Synt: ---- Pbzc: ZRYYRAQBES - FG28 Ck:  Znc: T21 Orng: U01 Onqtr: 905 Bss: ONYQVAB, NAGUBAL E KFg1: 100 F JVYFBA FG KFg2: 98 F JVYFBA FG Pzg: Cevznel Rirag: ZNVA Bcrarq: 13/11/04 14:42 Vapvqrag Vavgvngrq Ol: RF/FUHGGF, GBALN BCRA OHEA GVYY 1900 Gvzr: 14:42 UC_NAL_Glcr_Tebhc
 YUC131102000857 GENSSVP FGBC Nqq: OEVZFGBAR EQ&R FG EG 73 Synt: ..A/N.. Pbzc:  Ck:  Znc: U23 Orng:  Onqtr: 1U19 Bss: QRJVAR, NAQL  Pzg: Cevznel Rirag: ZNVA Bcrarq: 13/11/02 12:58 Vapvqrag Vavgvngrq Ol: RF/PNEE, PUEVF Vavgvny Svryq Vavgvngr ol UC/2U22 ng 12:58:03 ba 13/11/02 Gvzr: 12:58 UC_NAL_Glcr_Tebhc
+
+Cnggrea zngpu gb cvpx bss pnyy VQ sebz sebag.
+
+PNYY! YBP:CYNPR? Nqq:NQQE! Synt:VASB! Pbzc:ANZR! Ck:CUBAR! Znc:ZNC! Orng:ZNC! Onqtr:FXVC Bss:FXVCB KFg1:K KFG2:K Pzg:FXVC Cevznel_Rirag:FXVC Bcrarq:QNGRGVZR! Vapvqrag_Vavgvngrq_Ol:VASB Gvzr:GVZR
+Inyvqngvba pbqr sbe QNGRGVZR naq GVZR.
+GVZR inyvqngvba pbqr "(\q\q:\q\q)\\o.*" gb fxvc nalguvat nsgre gur gvzr.
 
  */
 choyvp pynff BUUneirlfohetCnefreGrfg rkgraqf OnfrCnefreGrfg {
