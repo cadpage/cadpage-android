@@ -12,19 +12,27 @@ public class PAColumbiaCountyParser extends FieldProgramParser {
     super("COLUMBIA COUNTY", "PA", "U:UNIT! E:ID! ET:CALL! ST:CALL! P:PRI! LOC:ADDR! MAP:MAP! T:TIME! A:UNIT! D:UNIT! N:NAME! PH:PHONE! S:SKIP! C:DATETIME!");
   }
 
-  private static Pattern RUN_REPORT = Pattern.compile(".*Units: ([A-Z0-9_]+) ([A-Z0-9_]+) *(.*)", Pattern.DOTALL);
+  private static Pattern RUN_REPORT_PTN = Pattern.compile(".*Units: ([A-Z0-9_]+) ([A-Z0-9_]+) *(.*)", Pattern.DOTALL);
+  private static Pattern GEN_ALERT_PTN = Pattern.compile("The Event ([^ ]+) has changed:.*");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (subject.startsWith("Alarm -") || subject.startsWith("Notification -")) {
-      // extract "Units: (UNIT) (ID)" from body
       setFieldList("UNIT ID");
-      Matcher rrMat = RUN_REPORT.matcher(body);
+      Matcher rrMat = RUN_REPORT_PTN.matcher(body);
       if (!rrMat.matches()) return false;
       data.strUnit = rrMat.group(1);
       data.strCallId = rrMat.group(2);
       data.strPlace = body;
       data.strCall = "RUN REPORT";
+      return true;
+    }
+    
+    Matcher mat = GEN_ALERT_PTN.matcher(body);
+    if (mat.matches()) {
+      data.strCall = "GENERAL ALERT";
+      data.strCallId = mat.group(1);
+      data.strPlace = body;
       return true;
     }
 
