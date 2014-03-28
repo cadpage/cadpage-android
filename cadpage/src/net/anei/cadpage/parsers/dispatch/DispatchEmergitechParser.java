@@ -9,8 +9,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-// See if we can pull in OHLickingCounty & WVBooneCounty
-
 public class DispatchEmergitechParser extends FieldProgramParser {
   
   private static final String UNIT_PTN = "\\[([-A-Z0-9]+)\\]-+ ?";
@@ -216,7 +214,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     // Ditto for BETWEEN
     body = BETWEEN_PTN.matcher(body).replaceFirst("BETWEEN");
     
-    body = body.replace(" /LOCATION:", " LOCATION:");
+    body = body.replace("/LOCATION:", " LOCATION:");
     
     // If extraSpacePos is positive, the extraneous blank is found in a fixed
     // position relative to the message text.  Also check for keywords that
