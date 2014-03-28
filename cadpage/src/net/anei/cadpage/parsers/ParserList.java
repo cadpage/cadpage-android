@@ -655,6 +655,7 @@ public class ParserList {
               ,"NCPittCounty"                   ,"Pitt County, NC"
               ,"NCPolkCounty"                   ,"Polk County, NC"
               ,"NCRandolphCounty"               ,"Randolph County, NC"
+              ,"NCRobesonCounty"                ,"Robeson County, NC"
               ,"NCRockinghamCounty"             ,"Rockingham County, NC"
               ,"NCRowanCounty"                  ,"Rowan County, NC"
               ,"NCRutherfordCounty"             ,"Rutherford County, NC"
@@ -969,6 +970,7 @@ public class ParserList {
               ,"VAWiseCounty"                   ,"Wise County, VA"
           ),
           new ParserCategory("Washington"
+              ,"WABentonCounty"                 ,"Benton County, WA"
               ,"WAClarkCounty"                  ,"Clark County, WA"
               ,"WAGrantCounty"                  ,"Grant County, WA"
               ,"WAJeffersonCounty"              ,"Jefferson County, WA"
