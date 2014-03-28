@@ -70,7 +70,8 @@ public class AZMaricopaCountyParser extends FieldProgramParser {
         Parser p = new Parser(field);
         String extra = p.getLastOptional(": @");
         String apt = p.getLastOptional(',');
-        super.parse(p.get(), data);
+        String addr = stripFieldEnd(p.get(), ": EST");
+        super.parse(addr, data);
         
         if (apt.equals("INT")) {
           StringBuilder sb = new StringBuilder();
@@ -203,8 +204,7 @@ public class AZMaricopaCountyParser extends FieldProgramParser {
     "PINA", "PINAL",
     "QNC",  "QUEEN CREEK",
     "QNCR", "QUEEN CREEK",
-    "TEM",  "TEMPE",
+    "TMP",  "TEMPE",
     "TEMP", "TEMPE",
-    "TMP",  "TEMPE"
   });
 }

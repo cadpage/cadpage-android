@@ -1295,7 +1295,8 @@ choyvp pynff NMZnevpbcnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G54",
         "(V/Cntr Abgvsvpngvba) Ybpngvba: 6179 F VEBAJBBQ QE NCWH: RFG RIRAG: S2014009409 GLCR PBQR: 2A1Z GVZR: 07:14:43 PNYYRE ANZR:  PNYYRE NQQE:  Pbzzragf:  FVATYR IRU EBYYBIRE / QEVIRE BHG BS IRU .. HAX VS NALBAR RYFR FZNYY FVY FCBEGF IRU .. EC VF BSS-QHGL ZCQ",
-        "NQQE:6179 F VEBAJBBQ QE NCWH: RFG",
+        "NQQE:6179 F VEBAJBBQ QE",
+        "PVGL:NCNPUR WHAPGVBA",
         "VQ:S2014009409",
         "PBQR:2A1Z",
         "PNYY:2A1 ZRQVPNY",
