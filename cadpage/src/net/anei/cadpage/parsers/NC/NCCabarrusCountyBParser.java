@@ -10,12 +10,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NCCabarrusCountyBParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("^\\d{2,4}:");
+  private static final Pattern MARKER = Pattern.compile("^(?:\\d{2,4}|CAD):");
   
   public NCCabarrusCountyBParser() {
     super("CABARRUS COUNTY", "NC",
-           "( DATETIME CALL CH? ADDR! X+? |" +
-            " FYI? DIGIT CALL ( PRI UNIT+? CH? ADDR! X+? | CH? ADDR! X+? INFO? PRI UNIT+? ) DATETIME EXTRA+? ID )");
+           "FYI? ( DATETIME CALL CH? ADDR! X+? INFO+ |" +
+            " DIGIT CALL ( PRI/Z UNIT UNIT+? CH? ADDR! X+? | DIGIT? CH? ADDR! X+? INFO+? PRI UNIT+? ) DATETIME EXTRA+? ID )");
+    setupMultiWordStreets("A T ALLEN SCHOOL");
   }
   
   @Override
@@ -31,27 +32,30 @@ public class NCCabarrusCountyBParser extends FieldProgramParser {
     return parseFields(body.split("\\|"), data);
   }
   
-  private class FYIField extends SkipField {
-    public FYIField() {
-      setPattern(Pattern.compile("FYI:|Update:"), true);
-    }
+  @Override
+  public Field getField(String name) {
+    if (name.equals("FYI")) return new SkipField("FYI:|Update:", true);
+    if (name.equals("DIGIT")) return new SkipField("[\\dP]", true);
+    if (name.equals("CH")) return new ChannelField("OPS\\d*");
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("PRI")) return new PriorityField("\\d{1,2}", true);
+    if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("EXTRA")) return new MyExtraField();
+    if (name.equals("ID")) return new IdField("\\d{7}", true);
+    return super.getField(name);
   }
   
-  private class DigitField extends SkipField {
-    public DigitField() {
-      setPattern(Pattern.compile("[\\dP]"), true);
-    }
-  }
-  
-  private class MyChannelField extends ChannelField {
-    public MyChannelField() {
-      setPattern(Pattern.compile("OPS\\d+"));
-    }
-  }
-  
-  private class MyPriorityField extends PriorityField {
-    public MyPriorityField() {
-      setPattern(Pattern.compile("\\d"), true);
+  private static Pattern X_PTN = Pattern.compile("\\bRAMP\\b");
+  private class MyCrossField extends CrossField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (X_PTN.matcher(field).find()) {
+        super.parse(field, data);
+        return true;
+      } else {
+        return super.checkParse(field, data);
+      }
     }
   }
   
@@ -65,13 +69,6 @@ public class NCCabarrusCountyBParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       data.strUnit = append(data.strUnit, " ", field);
-    }
-  }
-  
-  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d");
-  private class MyDateTimeField extends DateTimeField {
-    public MyDateTimeField() {
-      setPattern(DATE_TIME_PTN, true);
     }
   }
   
@@ -94,24 +91,5 @@ public class NCCabarrusCountyBParser extends FieldProgramParser {
     public String getFieldNames() {
       return "PHONE PLACE";
     }
-  }
-  
-  private class MyIdField extends IdField {
-    public MyIdField() {
-      setPattern(Pattern.compile("\\d{7}"));
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("FYI")) return new FYIField();
-    if (name.equals("DIGIT")) return new DigitField();
-    if (name.equals("CH")) return new MyChannelField();
-    if (name.equals("PRI")) return new MyPriorityField();
-    if (name.equals("UNIT")) return new MyUnitField();
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    if (name.equals("EXTRA")) return new MyExtraField();
-    if (name.equals("ID")) return new MyIdField();
-    return super.getField(name);
   }
 }
