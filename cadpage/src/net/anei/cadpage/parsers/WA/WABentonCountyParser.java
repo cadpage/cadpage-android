@@ -34,17 +34,17 @@ public class WABentonCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
 
-  private static Pattern ADDR = Pattern.compile("(.*?)(?: : *@?(.*))?(\\d{2}:\\d{2}:\\d{2})(.*)");
+  private static Pattern ADDR = Pattern.compile("(.*?)(?:,(.*?))?(?: : *@?(.*))?(\\d{2}:\\d{2}:\\d{2})(.*)");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       Matcher mat = ADDR.matcher(field);
       if (!mat.matches()) abort();
       super.parse(mat.group(1).trim(), data);
-      data.strApt = getLeft();
-      data.strPlace = getOptGroup(mat.group(2));
-      data.strTime = mat.group(3);
-      data.strCall = mat.group(4).trim();
+      data.strApt = append(data.strApt, "-", getOptGroup(mat.group(2)));
+      data.strPlace = getOptGroup(mat.group(3));
+      data.strTime = mat.group(4);
+      data.strCall = mat.group(5).trim();
     }
 
     @Override
