@@ -204,6 +204,7 @@ public class AZMaricopaCountyParser extends FieldProgramParser {
     "QNC",  "QUEEN CREEK",
     "QNCR", "QUEEN CREEK",
     "TEM",  "TEMPE",
-    "TEMP", "TEMPE"
+    "TEMP", "TEMPE",
+    "TMP",  "TEMPE"
   });
 }
