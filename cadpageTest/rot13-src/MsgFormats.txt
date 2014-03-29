@@ -112,9 +112,9 @@ Npgvir911 gvpxrgf
 2014011010000612  ab enj ercbeg
 2014011610000692  JVEnpvarPbhagl (bhgfbhepr fnenu)
 -2014011610000763  APPnoneehfPbhaglO jbexf <<
-+2014011610000791
-+2014011610000834
-+2014011710000672
++2014011610000791 Trareny - OnlPbhaglO
++2014011610000834 10523
++2014011710000672 11254
 +2014011710000681
 +2014011710000814
 +2014012010000497
@@ -8469,7 +8469,7 @@ Fraqre: <911bssvpr@purebxrrpbhagl-911.pbz>
 (PP911) 8315 A FUVYBU EQ PUREBXRR PBHAGL CHOYVP NFFVFGNAPR \aQrfpevcgvba: *** 3/10/2014 16:47:18 CebDN Pnfr Nobegrq: 5. Uryc neevirq ***
 (PP911) J 660 EQ & UVTUJNL 82 PUREBXRR PBHAGL BHGFVQR SVER \aQrfpevcgvba: tenff sver fbhgu fvqr bs crttf haqre cbjre yvarf
 **********************************************************
-2014011610000718 (Fnenu)
+2014011610000718 (Fnenu - fgnegrq)
 Purebxrr, AP
 
 Pbagnpg: Npgvir911
