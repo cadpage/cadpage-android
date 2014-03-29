@@ -12,6 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class NYGeneseeCountyParser extends FieldProgramParser {
   
   private static final Pattern UNIT_PREFIX_PTN = Pattern.compile("^(?:Unit: *([A-Z0-9]+) +)?Status: *(?:Dispatched|At Scene) *(?:\\*\\* +)?");
+  private static final Pattern MUT_AID_CITY_PTN = Pattern.compile(".*\\bMUTUAL AID\\b.* TO ([^ ]+(?: +[^ ]+)?)", Pattern.CASE_INSENSITIVE);
   
   private boolean skipApt;
   
@@ -43,7 +44,7 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
     if (pt >= 0) body = body.substring(0,pt).trim();
     String saveBody = body;
     
-    // We have to try old format first, becuase new format is a subset of it
+    // We have to try old format first, because new format is a subset of it
     Matcher match = UNIT_PREFIX_PTN.matcher(body);
     if (match.find()) {
       data.strUnit = match.group(1);
@@ -52,12 +53,19 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
       body = body.substring(3).trim();
     }
     
-    if (parseFields(body.split("\\*\\*"), 4, data)) return true;
+    if (!parseFields(body.split("\\*\\*"), 4, data)) {
+      data.initialize(this);
+      if (!parseNewFormat(saveBody, data)) {
+        return data.parseGeneralAlert(this, saveBody);
+      }
+    }
     
-    data.initialize(this);
-    if (parseNewFormat(saveBody, data)) return true;
-    
-    return data.parseGeneralAlert(this, saveBody);
+    // If successful, and no city was specified, see if we can extract one from a mutual aid description
+    if (data.strCity.length() == 0) {
+      match = MUT_AID_CITY_PTN.matcher(data.strCall);
+      if (match.matches()) data.strCity = match.group(1);
+    }
+    return true;
   }
 
   @Override
