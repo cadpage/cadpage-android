@@ -316,7 +316,7 @@ choyvp pynff ZBSrfghfOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2014-00001548",
         "PNYY:RZF - W NOQBZVANY CNVA",
-        "NQQE:904 CRIRYL CBVAGR QEVIR",
+        "NQQE:904 CRIRYL CBVAGR QEVIR", //svaqf ebnq bayl
         "NCG:202",
         "QNGR:01/21/2014",
         "GVZR:17:52:35",
@@ -459,7 +459,7 @@ choyvp pynff ZBSrfghfOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2014-00001543",
         "PNYY:RZF - W GENAFSRE",
-        "NQQE:1349 UJNL 61",
+        "NQQE:1349 UJNL 61", //UJL
         "PVGL:PELFGNY PVGL",
         "ZNC:PELFGNY PVGL",
         "QNGR:01/21/2014",
@@ -1069,7 +1069,7 @@ choyvp pynff ZBSrfghfOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2014-00001490",
         "PNYY:RZF - W FVPX PNFR",
-        "NQQE:908 CRIRYL CBVAGR QEVIR",
+        "NQQE:908 CRIRYL CBVAGR QEVIR", //svaqf ebnq bayl
         "NCG:107",
         "QNGR:01/20/2014",
         "GVZR:16:14:45",
@@ -1115,7 +1115,7 @@ choyvp pynff ZBSrfghfOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2014-00001489",
         "PNYY:RZF - W FVPX PNFR",
-        "NQQE:4412 CYNGGVA EBNQ",
+        "NQQE:4412 CYNGGVA EBNQ", //svaqf ebnq bayl
         "QNGR:01/20/2014",
         "GVZR:15:33:30",
         "ANZR:UBYG, NYNA",
@@ -4953,12 +4953,10 @@ choyvp pynff ZBSrfghfOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ANZR:URNGURE",
         "CUBAR:(314) 974-8001",
         "VASB:CRIRYL/QHAXYVA SQEQSV  JRVRE EBNQ UF6 / **01/14/2014 06:01:18 98** YBPNGVBA ABGRF:  QHAXYVA SQ        CRIRYL CBVAGR NCNEGZRAG PBZCYRK BA FGNGR EQ M GB JRVRE EQ. YRSG BA JRVRE EQ SBYYBJ GB JVYYBJ GB CRIRYL CBVAG QE BA  YRSG. YRSG BA CRIRYL CBVAGR QE. ---------------------------------------- 39lbs fcvqre ovgr tbggra jbefr hanoyr gb zbir svatref ahzo");
-
   }
 
   @Grfg
   choyvp ibvq grfgSrfghfSQ() {
-
     qbGrfg("G1",
         "(Pnyy) Srfghf Cbyvpr Qrcnegzrag\a" +
         "100 Cnex Nir., Srfghf, ZB 63028\a" +
@@ -5352,7 +5350,7 @@ choyvp pynff ZBSrfghfOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2014-00001318",
         "PNYY:SVER - SVER IRUVPYR  NPPVQRAG / VAWHEVRF",
         "NQQE:V-55 (ENZC - FO V-55 GB FO UJL 67)",
-        "ZNQQE:V 55",
+        "ZNQQE:V 55",  //abcr
         "QNGR:01/17/2014",
         "GVZR:12:10:23",
         "ANZR:WP911",
@@ -5559,7 +5557,7 @@ choyvp pynff ZBSrfghfOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2014-00001240",
         "PNYY:RZF - SVER / ZHGHNY NVQ",
-        "NQQE:1550 FNVAG-TBONVA QEVIR",
+        "NQQE:1550 FNVAG-TBONVA QEVIR", //qbrf abg znc
         "QNGR:01/16/2014",
         "GVZR:15:41:28",
         "CYNPR:FNVAG TBONVA",
@@ -5816,7 +5814,7 @@ choyvp pynff ZBSrfghfOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2014-00000612",
         "PNYY:SVER - W IRUVPYR NPPVQRAG",
         "NQQE:V-55 (176 ZZ - 177 ZZ)",
-        "ZNQQE:V 55",
+        "ZNQQE:V 55", //abcr
         "ZNC:SCQ/SSQ/WCNQ",
         "QNGR:01/08/2014",
         "GVZR:14:18:58",
@@ -8392,7 +8390,7 @@ choyvp pynff ZBSrfghfOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "12/11/2013 21:36:35QVFCNGPU HAVG661299QVF\a" +
         "12/11/2013 21:36:35QVFCNGPU HAVG602799QVF\a" +
         "Cntr1bs1Cevagrq12/11/2013 2136\a" +
-        "© 1994 - 2013, Vasbezngvba Grpuabybtvrf, Vap. uggc://jjj.vgvhfn.pbz",
+        "�� 1994 - 2013, Vasbezngvba Grpuabybtvrf, Vap. uggc://jjj.vgvhfn.pbz",
 
         "VQ:2013-00028754",
         "PNYY:RZF - SVER / ZHGHNY NVQ",
