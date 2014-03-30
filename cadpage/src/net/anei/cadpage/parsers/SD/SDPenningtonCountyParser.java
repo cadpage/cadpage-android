@@ -12,12 +12,6 @@ import net.anei.cadpage.parsers.SmartAddressParser;
  */
 public class SDPenningtonCountyParser extends SmartAddressParser {
   
-  private static final Pattern UNIT_PTN = Pattern.compile("^([A-Z0-9]+) +\\(Primary\\);? *");
-  private static final Pattern DATE_TIME_PTN = Pattern.compile("[- ]*\\b(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d(?::\\d\\d)?)\\b[- ]*");
-  private static final Pattern CITY_PTN = Pattern.compile("(.*?) *, *([A-Z ]+?) *, SD +\\d{5} *(.*?)");
-  private static final Pattern CODE_PTN1 = Pattern.compile(" *\\bCode: *([-A-Z0-9]+): *");
-  private static final Pattern CODE_PTN2 = Pattern.compile("^Code: *([-A-Z0-9]+): *");
-  
   public SDPenningtonCountyParser() {
     super(CITY_LIST, "PENNINGTON COUNTY", "SD");
     setFieldList("UNIT CALL ADDR APT CITY CODE INFO DATE TIME");
@@ -31,16 +25,41 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equalsIgnoreCase("Dispatch")) return false;
+    if (subject.equalsIgnoreCase("Dispatch")) return parseFireCall(body, data);
+    if (subject.equalsIgnoreCase("MEDICAL")) return parseMedicalCall(body, data);
+    return false;
+  }
+
+  private static final Pattern UNIT_PTN = Pattern.compile("^([A-Z0-9]+) +\\(Primary\\);? *");
+  private static final Pattern UNIT_PTN2 = Pattern.compile("^([A-Z0-9]+); +");
+  private static final Pattern UNIT_PTN3 = Pattern.compile("([A-Z0-9]+) +");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("[- ]*\\b(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d(?::\\d\\d)?)\\b[- ]*");
+  private static final Pattern CITY_PTN = Pattern.compile("(.*?) *, *([A-Z ]+?) *, SD +\\d{5} *(.*?)");
+  private static final Pattern CODE_PTN1 = Pattern.compile(" *\\bCode: *([-A-Z0-9]+): *");
+  private static final Pattern CODE_PTN2 = Pattern.compile("^Code: *([-A-Z0-9]+): *");
+  
+  private boolean parseFireCall(String body, Data data) {
     
     // Parser unit information
     while (true) {
       Matcher match = UNIT_PTN.matcher(body);
-      if (!match.find()) break;
+      if (!match.lookingAt()) break;
       data.strUnit = append(data.strUnit, " ", match.group(1));
       body = body.substring(match.end());
     }
-    if (data.strUnit.length() == 0) return false;
+    if (data.strUnit.length() == 0) {
+      while (true) {
+        Matcher match = UNIT_PTN2.matcher(body);
+        if (!match.lookingAt()) break;
+        data.strUnit = append(data.strUnit, " ", match.group(1));
+        body = body.substring(match.end());
+      }
+      if (data.strUnit.length() == 0) return false;
+      Matcher match = UNIT_PTN3.matcher(body);
+      if (!match.lookingAt()) return false;
+      data.strUnit = append(data.strUnit, " ", match.group(1));
+      body = body.substring(match.end());
+    }
     
     // Process Date/time splits 
     Matcher match = DATE_TIME_PTN.matcher(body);
@@ -102,6 +121,22 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
     return true;
   }
   
+  private static final Pattern MED_SPLIT_PTN = Pattern.compile("(.*?)(?: +FOR +|  +)(.*)");
+  private boolean parseMedicalCall(String body, Data data) {
+    body = stripFieldEnd(body, "[Attachment(s) removed]");
+    Matcher match = MED_SPLIT_PTN.matcher(body);
+    if (match.matches()) {
+      parseAddress(StartType.START_ADDR, match.group(1), data);
+      data.strCall = match.group(2);
+      return true;
+    }
+    else {
+      parseAddress(StartType.START_ADDR, body, data);
+      data.strCall = getLeft();
+      return data.strCall.length() > 0;
+    }
+  }
+  
   private static final CodeSet CALL_LIST = new CodeSet(
       "BREATH",
       "CARDIAC-E",
@@ -110,8 +145,11 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
       "FALARM DELTA",
       "FALARM",
       "SICK",
+      "SICK-C",
       "SMFIRE",
-      "SICK PERSON DELTA LEVEL"
+      "SICK PERSON DELTA LEVEL",
+      "STRUCF",
+      "UNCON CHILD"
   );
   
   private static final String[] CITY_LIST = new String[]{
