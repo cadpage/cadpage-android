@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.PA;
 
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -25,18 +28,36 @@ public class PAColumbiaCountyParser extends FieldProgramParser {
       data.strCallId = rrMat.group(2);
       data.strPlace = body;
       data.strCall = "RUN REPORT";
-      return true;
-    }
-    
-    Matcher mat = GEN_ALERT_PTN.matcher(body);
-    if (mat.matches()) {
-      data.strCall = "GENERAL ALERT";
-      data.strCallId = mat.group(1);
-      data.strPlace = body;
-      return true;
     }
 
-    return super.parseFields(body.split(","), data);
+    else {
+      Matcher mat = GEN_ALERT_PTN.matcher(body);
+      if (mat.matches()) {
+        data.strCall = "GENERAL ALERT";
+        data.strCallId = mat.group(1);
+        data.strPlace = body;
+      }
+      
+      else if (!super.parseFields(body.split(","), data)) return false;
+    }
+    
+    // The combine primary unit and the call ID in the call ID field.
+    // Splitting them out is tricky because number of digits in both 
+    // fields is variable.  The key identifier is that the call ID
+    // starts with the current year, so that is what we will check for
+    String callId = data.strCallId;
+    Calendar cal = new GregorianCalendar();
+    cal.setTime(new Date());
+    int year = cal.get(Calendar.YEAR);
+    int p1 = callId.indexOf(Integer.toString(year));
+    int p2 = callId.indexOf(Integer.toString(year-1));
+    int brk = (p2 < 0 ? p1 : p1 < 0 ? p2 : Math.min(p1, p2));
+    if (brk > 0) {
+      String unit = callId.substring(0,brk);
+      data.strCallId = callId.substring(brk);
+      if (!data.strUnit.contains(unit)) data.strUnit = append(data.strUnit, " ", unit);
+    }
+    return true;
   }
 
   @Override
