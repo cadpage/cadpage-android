@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.MN;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -15,7 +16,7 @@ public class MNSherburneCountyParser extends DispatchProphoenixParser {
   private static final Pattern MAP_PTN = Pattern.compile("^(\\d{4}[- /]\\d)\\b");
   
   public MNSherburneCountyParser() {
-    super("SHERBURNE COUNTY", "MN");
+    super(CITY_CODES, "SHERBURNE COUNTY", "MN");
   }
   
   @Override
@@ -38,4 +39,9 @@ public class MNSherburneCountyParser extends DispatchProphoenixParser {
   public String getProgram() {
     return super.getProgram().replace("INFO", "MAP INFO");
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BL", "BIG LAKE", 
+      "ER", "ELK RIVER"
+  });
 }

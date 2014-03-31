@@ -83,12 +83,12 @@ public class DispatchProphoenixParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
-      String city = p.getLastOptional(';');
+      data.strCity = p.getLastOptional(';');
       String apt = p.getLastOptional(',');
       super.parse(p.get(), data);
       data.strApt = append(data.strApt, "-", apt);
-      if (cityCodes != null && city.length() > 0) {
-        data.strCity = convertCodes(city, cityCodes);
+      if (cityCodes != null) {
+        data.strCity = convertCodes(data.strCity, cityCodes);
       }
     }
     

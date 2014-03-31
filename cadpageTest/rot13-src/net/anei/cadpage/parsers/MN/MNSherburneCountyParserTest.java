@@ -58,6 +58,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9604 Sver-Tenff",
         "CEV:1",
         "NQQE:9046 Buynaq Nir AR",
+        "PVGL:RYX EVIRE",
         "HAVG:RES",
         "ZNC:3234-3",
         "VASB:tenff sver   trggvat pybfr gb ubhfr");
@@ -79,6 +80,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:19100OYX Hf Uvtujnl 169 AJ",
         "ZNQQE:19100 HF 169 AJ",
+        "PVGL:RYX EVIRE",
         "HAVG:RES",
         "ZNC:3240-4",
         "VASB:3 iru penfu ao ynarf/hax vaw, cnegvrf rkvgvat iruf");
@@ -99,6 +101,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9600 Sver-Bgure",
         "CEV:1",
         "NQQE:9201 Dhnqnl Nir AR",
+        "PVGL:RYX EVIRE",
         "NCG:N",
         "HAVG:RERA1 REPU2 REPU1",
         "ZNC:3232-1",
@@ -120,6 +123,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9609 Nynez - Sver",
         "CEV:1",
         "NQQE:4405 Fgreyvat Qe",
+        "PVGL:OVT YNXR",
         "HAVG:RES",
         "ZNC:3243-4",
         "VASB:oyhr ubhfr arkg gb noi nqqerff, fnyr fvta va lneq, ubhfr inpnag");
@@ -141,6 +145,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9609 Nynez - Sver",
         "CEV:1",
         "NQQE:9474 Anore Nir AR",
+        "PVGL:RYX EVIRE",
         "HAVG:RES",
         "ZNC:3238-4",
         "VASB:mbar 167 naq noh\aTRARENY SVER");
@@ -161,6 +166,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9840 Sver Nffvfg",
         "CEV:2",
         "NQQE:9200 Dhnqnl Nir AR",
+        "PVGL:RYX EVIRE",
         "HAVG:RES",
         "ZNC:3239-1",
         "VASB:fghpx ryringbe");
@@ -181,6 +187,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9600 Sver-Bgure",
         "CEV:1",
         "NQQE:11554 193eq Nir AJ",
+        "PVGL:RYX EVIRE",
         "HAVG:RES",
         "ZNC:3232-3",
         "VASB:fzryy bs oheavat jverf vafvqr fgber");
@@ -201,6 +208,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9611 Tnf Yrnx/Fzryy",
         "CEV:2",
         "NQQE:714 Nhohea Cy AJ",
+        "PVGL:RYX EVIRE",
         "HAVG:RES");
 
     qbGrfg("G9",
@@ -220,6 +228,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:9952 Hf Uvtujnl 10 AJ",
         "ZNQQE:9952 HF 10 AJ",
+        "PVGL:RYX EVIRE",
         "HAVG:RES",
         "ZNC:3233/2",
         "VASB:sver nyez pbi mbar 9 cnary ebbz qbbe pbagnpgf hfn 888 872 3640");
@@ -240,6 +249,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9609 Nynez - Sver",
         "CEV:1",
         "NQQE:1111 Fpubby Fg AJ",
+        "PVGL:RYX EVIRE",
         "NCG:OYQT",
         "HAVG:RES",
         "ZNC:3233/2",
@@ -261,6 +271,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9600 Sver-Bgure",
         "CEV:1",
         "NQQE:10653 172aq Nir AJ",
+        "PVGL:RYX EVIRE",
         "NCG:OYQT",
         "VASB:Vafcrpgvba bs ybpxrq rkgrevbe qbbe.");
 
@@ -281,6 +292,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:Fgngr Uvtujnl 101 AR & Evire Eq AR",
         "ZNQQE:FGNGR 101 AR & Evire Eq AR",   // Abg znccvat
+        "PVGL:RYX EVIRE",
         "HAVG:RES",
         "ZNC:3234-3",
         "VASB:qhzc gehpx ebyyrq bire ao ynar");
@@ -301,6 +313,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9609 Nynez - Sver",
         "CEV:1",
         "NQQE:11875 193eq Ya AJ",
+        "PVGL:RYX EVIRE",
         "HAVG:RES",
         "ZNC:3242/2",
         "VASB:znva yriry fzbxr qrgrpgbe.");
@@ -321,6 +334,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9604 Sver-Tenff",
         "CEV:1",
         "NQQE:1920 Znva Fg AJ",
+        "PVGL:RYX EVIRE",
         "HAVG:RES");
 
     qbGrfg("G15",
@@ -340,6 +354,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9602 Sver-Pbzzrepvny",
         "CEV:1",
         "NQQE:19600 Rinaf Fg AJ",
+        "PVGL:RYX EVIRE",
         "HAVG:RES",
         "VASB:Ynetr nzbhag bs fzbxr pbzvat sebz genvyre cnexrq ba cebcregl\aecgrq ol cnffreol ba ujl 169");
 
@@ -359,6 +374,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9611 Tnf Yrnx/Fzryy",
         "CEV:1",
         "NQQE:900 Fpubby Fg AJ",
+        "PVGL:RYX EVIRE",
         "HAVG:RES",
         "ZNC:3240-4",
         "VASB:fzryy bs angheny tnf arne sebag qbbe");
@@ -380,6 +396,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:480 Srea Fg",
         "NCG:OYQT",
+        "PVGL:OVT YNXR",
         "HAVG:RES");
 
     qbGrfg("G18",
@@ -398,6 +415,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9602 Sver-Pbzzrepvny",
         "CEV:1",
         "NQQE:17560 Glyre Fg AJ",
+        "PVGL:RYX EVIRE",
         "HAVG:RES",
         "VASB:Qhfg pbyyrpgbe va gur fubc ba sver");
 
@@ -418,6 +436,7 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9609 Nynez - Sver",
         "CEV:1",
         "NQQE:900 Fpubby Fg AJ",
+        "PVGL:RYX EVIRE",
         "HAVG:RES",
         "ZNC:3238-3",
         "VASB:SVER NYNEZ   TRARENY\aWBUAFBA PBAGEBYF 800 753 4524   ERS # 11004777");

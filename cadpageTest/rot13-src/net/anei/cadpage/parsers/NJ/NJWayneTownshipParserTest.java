@@ -35,6 +35,7 @@ choyvp pynff AWJnlarGbjafuvcCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver nynez - pbzzrepvny/vaqhfgevny",
         "CEV:3",
         "NQQE:3 Jvyybjoebbx Znyy",
+        "PVGL:",
         "HAVG:P1 P2",
         "VASB:MBAR 3 SVER NYNEZ/VQUVG/8772387739/NPJA/NQG");
 
