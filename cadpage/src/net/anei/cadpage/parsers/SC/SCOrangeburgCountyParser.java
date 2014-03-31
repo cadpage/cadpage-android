@@ -8,11 +8,13 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 
 public class SCOrangeburgCountyParser extends SmartAddressParser {
-  
+
+  private static final Pattern GRID_SLASH_PTN = Pattern.compile("\\bGRID (?:ON )?(\\d{1,2})/ ?([A-Z]\\d{1,2})\\b");
   private static final Pattern AT_MARK_PTN = Pattern.compile(" @ | AT ");
   private static final Pattern LAN_PTN = Pattern.compile("\\bLAN\\b");
   private static final Pattern INTERSECT_PTN = Pattern.compile(" *INTERSECTION (?:OF ) *");
-  private static final Pattern CROSS_GRID_PTN = Pattern.compile("(?:CROSS (?:OF )? *(.*?) *)?(?:GRIDS?[: ] *(.*))?");
+  private static final Pattern GRID_PTN = Pattern.compile("\\bGRIDS?[ :]+(?:ON )?(\\d{1,2}[ -][A-Z]\\d{1,2})\\b");;
+  private static final Pattern CROSS_PTN = Pattern.compile("(.*)\\bCROSS (?:OF )?+(.*)");
  
   public SCOrangeburgCountyParser() {
     super(CITY_CODES, "ORANGEBURG COUNTY", "SC");
@@ -39,52 +41,85 @@ public class SCOrangeburgCountyParser extends SmartAddressParser {
     body = body.substring(13).trim();
     
     // Split text body by slashes
+    body = GRID_SLASH_PTN.matcher(body).replaceAll("GRID $1-$2");
     String[] flds = body.split("/");
-    String addr = flds[0];
     
-    // If the first part has an @ or AT marker, that marks the beginning of the address
-    StartType st = StartType.START_CALL;
-    int flags = FLAG_START_FLD_REQ;
-    Matcher match = AT_MARK_PTN.matcher(addr);
-    if (match.find()) {
-      data.strCall = addr.substring(0,match.start()).trim();
-      addr = addr.substring(match.end()).trim();
-      st = StartType.START_ADDR;
-      flags = 0;
+    int ipt = 0;
+    int status = 0;
+    while (true) {
+      String addr = flds[ipt].trim();
+      
+      // If the first part has an @ or AT marker, that marks the beginning of the address
+      StartType st = StartType.START_CALL;
+      int flags = FLAG_START_FLD_REQ;
+      Matcher match = AT_MARK_PTN.matcher(addr);
+      if (match.find()) {
+        data.strCall = append(data.strCall, "/", addr.substring(0,match.start()).trim());
+        addr = addr.substring(match.end()).trim();
+        st = StartType.START_ADDR;
+        flags = 0;
+      }
+      addr = addr.replace(",", "");
+      addr = LAN_PTN.matcher(addr).replaceAll("LN");
+      addr = INTERSECT_PTN.matcher(addr).replaceAll(" ").trim();
+      Result res = parseAddress(st, flags, addr);
+      status = res.getStatus();
+      if (status > 0) {
+        String call = data.strCall;
+        data.strCall = "";
+        res.getData(data);
+        data.strCall = append(call, "/", data.strCall);
+        flds[ipt] = res.getLeft();
+        break;
+      }
+      data.strCall = append(data.strCall, "/", flds[ipt++]);
+      if (ipt >= flds.length) { 
+        data.strCall = "GENERAL ALERT";
+        data.strPlace = body;
+        data.strAddress = "";
+        return true;
+      }
     }
-    addr = addr.replace(",", "");
-    addr = LAN_PTN.matcher(addr).replaceAll("LN");
-    addr = INTERSECT_PTN.matcher(addr).replaceAll(" ").trim();
-    parseAddress(st, flags, addr, data);
-    if (getStatus() == 0) {
-      data.strCall = "GENERAL ALERT";
-      data.strPlace = body;
-      data.strAddress = "";
-      return true;
-    }
-    flds[0] = getLeft();
     
-    if (data.strAddress.endsWith(" IN")) {
-      data.strAddress = data.strAddress.substring(0,data.strAddress.length()-3).trim();
+    // Intersections can get split across two fields
+    if (status == STATUS_STREET_NAME && flds[ipt].length() == 0 && flds.length > ++ipt) {
+      Result res = parseAddress(StartType.START_ADDR, flds[ipt].trim());
+      if (res.getStatus() > 0) {
+        String tmp = data.strAddress;
+        data.strAddress = "";
+        res.getData(data);
+        data.strAddress = append(tmp, " & ", data.strAddress);
+        flds[ipt] = res.getLeft();
+      }
     }
+    
+    data.strAddress = stripFieldEnd(data.strAddress, " IN");
     
     // Now process the rest of the split fields
-    for (String fld : flds) {
-      fld = fld.trim();
-      if ((match = CROSS_GRID_PTN.matcher(fld)).matches()) {
-        data.strCross = append(data.strCross, " & ", getOptGroup(match.group(1)));
-        data.strMap = append(data.strMap, "-", getOptGroup(match.group(2)));
+    for ( ; ipt<flds.length; ipt++) {
+      String fld = flds[ipt].trim();
+      if (fld.length() == 0) continue;
+      if (data.strMap.length() == 0) {
+        Matcher match = GRID_PTN.matcher(fld);
+        if (match.find()) {
+          data.strMap = match.group(1).replace(' ', '-');
+          fld = append(fld.substring(0,match.start()).trim(), " ", fld.substring(match.end()).trim());
+        }
       }
-      else if (checkAddress(fld) > 0) {
+      
+      Matcher match = CROSS_PTN.matcher(fld);
+      if (match.matches()) {
+        fld = match.group(1).trim();
+        data.strCross = append(data.strCross, " & ", match.group(2));
+      }  
+      if (checkAddress(fld) > 0) {
         data.strCross = append(data.strCross, " & ", fld);
       } 
       else {
         data.strSupp = append(data.strSupp, " / ", fld);
       }
     }
-    
     return true;
-    
   }
   
   private static final String[] CITY_CODES = new String[]{
