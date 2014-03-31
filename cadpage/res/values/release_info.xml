@@ -1,43 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03242014</string>
-  <string name="release_version">v1.7.13</string>
+  <string name="release_date">03312014</string>
+  <string name="release_version">v1.7.14</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Chambers County, AL\n
-Cherokee County, AL\n
-Hanford, CA\n
-Delta County, CO\n
-Hartford County, MD (alt)\n
-Cherokee County, SC\n
-Lancaster County, SC\n
-Leavenworth County, KS\n
-Lawrence County, KY\n
-Beltrami County, MN\n
-Wabashi County, MN\n
-Elk County, NV (alt)\n
-Winnemucca County, NV\n
-Ocean County, NJ (alt)\n
-Albany County, NY (alt)\n
-Hertford County, NC (alt)\n
+Wright County, MN\n
+Festus, MO (alt)\n
+Robeson County, NC\n
+Benton County, WA\n
 \n
 Location Parsing Fixes:\n
+Chilton County, AL\n
+Talledega County, AL\n
 Maricopa County, AZ\n
-Manatee County, FL\n
-Kankakee County, IL\n
-Cowley County, KS\n
-Campbell County, KY\n
-Anne Arrundel County, MD\n
-St Charles County, MO\n
+El Paso County, CO\n
+New London County, CT\n
+Stamford County, CT\n
+Cumberland County, ME\n
+Oxford County, MD\n
 Genesee County, NY\n
-Nassau County, NY\n
-Holmes County, OH\n
-Licking County, OH\n
-Lincoln County, SD\n
-Nacodoches County, TX\n
-Yakima County, WA\n
+Lewis County, NY\n
+Orange County, NY\n
+Cabarus County, NC\n
+Caldwell County, NC\n
+Columbia County, PA\n
+Erie County, PA\n
+Kershaw County, SC\n
+Orangeburg County, SC\n
+Pennington County, SD\n
+Sonomish County, WA\n
+\n
+New South Wales, AU\n
   </string>
 </resources>
   
