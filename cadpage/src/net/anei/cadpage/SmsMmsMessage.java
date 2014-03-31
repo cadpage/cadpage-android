@@ -152,6 +152,11 @@ public class SmsMmsMessage implements Serializable {
     reportDataChange();
   }
   
+  public String getAckURL() {
+    if (ackURL == null) return null;
+    return VendorManager.instance().addAccountInfo(vendorCode, ackURL);
+  }
+  
 
   /**
    * @return true if message was parsed with Active911 parser
@@ -174,8 +179,9 @@ public class SmsMmsMessage implements Serializable {
    * @return Active911 message ID if appropriate, null otherwise
    */
   public String getActive911MsgCode() {
-    if (ackURL == null) return null;
-    Matcher match = ACTIVE911_CODE_PTN.matcher(ackURL);
+    String tmp = getAckURL();
+    if (tmp == null) return null;
+    Matcher match = ACTIVE911_CODE_PTN.matcher(tmp);
     if (!match.find()) return null;
     return match.group(1);
   }
@@ -769,7 +775,7 @@ public class SmsMmsMessage implements Serializable {
    */
   public void acknowledge(Context context) {
     if (ackNeeded) {
-      C2DMService.sendResponseMsg(context, ackReq, ackURL, "ACK", vendorCode);
+      C2DMService.sendResponseMsg(context, ackReq, getAckURL(), "ACK", vendorCode);
       ackNeeded = false;
       reportDataChange();
     }
@@ -781,7 +787,7 @@ public class SmsMmsMessage implements Serializable {
    * @param respCode response code to be sent
    */
   public void sendResponse(Context context, String respCode) {
-    C2DMService.sendResponseMsg(context, ackReq, ackURL, respCode, vendorCode);
+    C2DMService.sendResponseMsg(context, ackReq, getAckURL(), respCode, vendorCode);
     ackNeeded = false;
     
     // A response code of anything other than 'N' will be taken as an 
@@ -813,7 +819,7 @@ public class SmsMmsMessage implements Serializable {
     if (delta <= 0) return;
     
     // We are good to go with tracking request
-    TrackingPromptActivity.addLocationRequest(context, ackURL, (int)delta, minDist, minTime);
+    TrackingPromptActivity.addLocationRequest(context, getAckURL(), (int)delta, minDist, minTime);
     
   }
   

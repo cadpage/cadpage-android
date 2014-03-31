@@ -449,7 +449,6 @@ public class C2DMService extends IntentService {
         bld.appendQueryParameter("vendor_status", "undefined");
       } else {
         bld.appendQueryParameter("vendor_status", vm.isRegistered(vendorCode) ? "registered" : "not_registered");
-        bld = vm.addAccountInfo(vendorCode, bld);
       }
     }
     
