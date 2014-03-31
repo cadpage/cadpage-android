@@ -448,6 +448,7 @@ public class ParserList {
               ,"MNWabashaCounty"                ,"Wabasha County, MN"
               ,"MNWadenaCounty"                 ,"Wadena County, MN"
               ,"MNWashingtonCounty"             ,"Washington County, MN"
+              ,"MNWrightCounty"                 ,"Wright County, MN"
           ),
           new ParserCategory("Mississippi"
               ,"MSAcadianAmbulance"             ,"Acadian Ambulance, MS"
