@@ -16,6 +16,10 @@ Fraqre: 2075151833,2075151834
 270:Fcvyyzna:ZRSQ: - BQBE VAIRFG - 3 FJRGG NIR, ZRK: 14 31 51 03 07 2013 - Ovforr, Gnznen zrkvpb ratvar 1 raeg 14 31 58 03 07 2013 - Ovforr, Gnznen 
 273:Fcvyyzna:ZRSQ: - NYNEZ SVER - 110 ZNVA FG, ZRK:
 
+Pbagnpg: penvtpf78@lnubb.pbz <penvtpf78@lnubb.pbz>
+Fraqre: 2075151833
+367:EHSQ:- CV NPPVQRAG - 361 F EHZSBEQ EQ, EHZ
+
 */
 
 choyvp pynff ZRBksbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -79,6 +83,19 @@ choyvp pynff ZRBksbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:110 ZNVA FG",
         "PVGL:ZRKVPB");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPenvtPF() {
+
+    qbGrfg("G1",
+        "367:EHSQ:- CV NPPVQRAG - 361 F EHZSBEQ EQ, EHZ",
+        "VQ:367",
+        "FEP:EHSQ",
+        "PNYY:CV NPPVQRAG",
+        "NQQE:361 F EHZSBEQ EQ",
+        "PVGL:EHZSBEQ");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

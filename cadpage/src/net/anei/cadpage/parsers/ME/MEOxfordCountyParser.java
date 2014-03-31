@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgParser;
 
 public class MEOxfordCountyParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("(\\d+):Spillman:([A-Z]+): - (.*?) - ([^,]+), ([A-Z]+): *(.*)");
+  private static final Pattern MASTER = Pattern.compile("(\\d+):(?:Spillman:)?([A-Z]+): ?- (.*?) - ([^,]+), ([A-Z]+)(?:: *(.*))?");
   
   public MEOxfordCountyParser() {
     super("OXFORD COUNTY", "ME");
@@ -32,7 +32,7 @@ public class MEOxfordCountyParser extends MsgParser {
     data.strCall = match.group(3).trim();
     parseAddress(match.group(4).trim(), data);
     data.strCity = convertCodes(match.group(5), CITY_CODES);
-    data.strSupp = match.group(6).trim();
+    data.strSupp = getOptGroup(match.group(6));
     return true;
   }
   

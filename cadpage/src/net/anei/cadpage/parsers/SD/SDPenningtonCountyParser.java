@@ -139,6 +139,7 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
   
   private static final CodeSet CALL_LIST = new CodeSet(
       "BREATH",
+      "BREATH-D1",
       "CARDIAC-E",
       "CHEST",
       "CHEST-D",

@@ -54,6 +54,7 @@ Fraqre: qvfcngpu@craapb.bet
 (Qvfcngpu) OU; ZRQ3 FVPX-P 6531 NKRY EQ 65-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. 5. Uvf cevznel ceboyrz vf qvmmvarff/iregvtb. Abar 03/21/14 09:03
 (ZRQVPNY) 10490 ORYYVATUNZ QE  SBE HAPBA PUVYQ [Nggnpuzrag(f) erzbirq]
 (Qvfcngpu) OU; AU; 2SP1; 499C1; CZ FGEHPS 12500 ERANGN QE  Pbqr: 69-Q-6: Erfvqragvny (fvatyr)  1. Gur pnyyre vf ba fprar (1fg cnegl).  2. Synzrf ner ivfvoyr.\2f3
+(Qvfcngpu) OU; ZRQ3 OERNGU-Q1 8141 GVZOREYVAR EQ 1-zbagu-byq, Znyr, Pbafpvbhf, Oernguvat. Pbqr: 6-Q-1: Abg nyreg  1. Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat 
 
 */
 choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -289,7 +290,15 @@ choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:12500 ERANGN QE",
         "PBQR:69-Q-6",
         "VASB:Erfvqragvny (fvatyr)  1. Gur pnyyre vf ba fprar (1fg cnegl).  2. Synzrf ner ivfvoyr.\\2f3");
-  
+
+    qbGrfg("G1",
+        "(Qvfcngpu) OU; ZRQ3 OERNGU-Q1 8141 GVZOREYVAR EQ 1-zbagu-byq, Znyr, Pbafpvbhf, Oernguvat. Pbqr: 6-Q-1: Abg nyreg  1. Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat ",
+        "HAVG:OU ZRQ3",
+        "PNYY:OERNGU-Q1",
+        "NQQE:8141 GVZOREYVAR EQ",
+        "PBQR:6-Q-1",
+        "VASB:1-zbagu-byq, Znyr, Pbafpvbhf, Oernguvat. / Abg nyreg  1. Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
