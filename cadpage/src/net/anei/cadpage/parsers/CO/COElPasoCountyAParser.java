@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgParser;
 public class COElPasoCountyAParser extends MsgParser {
   
   private static final Pattern MASTER = 
-      Pattern.compile("\\[([-A-Z0-9 ]+): *([^\\]]+?)\\] *([^~]+?)~([^~]+?)~([^#\\.]+?)\\.?#([^~]*?)~([^~]*?)~(?:x:([^~]*?)(?:   +~?|~))?([-A-Z0-9]+) *~*");
+      Pattern.compile("\\[([-A-Z0-9 ]+): *([^\\]]+?)\\] *([^~]+?)~([^~]+?)~([^#\\.]+?)\\.?#([^~]*?)~([^~]*?)~(?:x:([^~]*?)(?:   +~?|~))?(?:ALRM:(\\d)~)?(?:CMD:([^~]*)~)?([-A-Z0-9]+) *~*");
   
   public COElPasoCountyAParser() {
     super("EL PASO COUNTY", "CO");
@@ -31,7 +31,7 @@ public class COElPasoCountyAParser extends MsgParser {
     // Not everyone is using it, but see if this is the new standard dispatch format
     Matcher match = MASTER.matcher(body);
     if (match.matches()) {
-      setFieldList("SRC MAP UNIT CALL ADDR APT PLACE X ID");
+      setFieldList("SRC MAP UNIT CALL ADDR APT PLACE X PRI INFO ID");
       data.strSource = match.group(1).trim();
       data.strMap = match.group(2).trim();
       data.strUnit = match.group(3).trim();
@@ -42,7 +42,9 @@ public class COElPasoCountyAParser extends MsgParser {
       data.strApt = match.group(6).trim();
       data.strPlace = match.group(7).trim();
       data.strCross = getOptGroup(match.group(8));
-      data.strCallId = match.group(9);
+      data.strPriority = getOptGroup(match.group(9));
+      data.strSupp = getOptGroup(match.group(10));
+      data.strCallId = match.group(11);
       return true;
     }
     
