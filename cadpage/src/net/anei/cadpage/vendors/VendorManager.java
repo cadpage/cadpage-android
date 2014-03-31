@@ -13,6 +13,7 @@ import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.donation.DeveloperToolsManager;
 import android.content.Context;
 import android.net.Uri;
+import android.net.Uri.Builder;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceScreen;
@@ -467,6 +468,26 @@ public class VendorManager {
     Vendor vendor = findVendor(vendorCode);
     if (vendor != null) location = vendor.convertLocationCode(location);
     return location;
+  }
+
+  /**
+   * Add account identification information to Uri builder 
+   * @param vendorCode vendor code
+   * @param bld URI builder
+   * @return updated URI builder
+   */
+  public Builder addAccountInfo(String vendorCode, Builder bld) {
+    Vendor vendor = findVendor(vendorCode);
+    if (vendor != null) bld = vendor.addAccountInfo(bld);
+    return bld;
+  }
+
+  
+  public String addAccountInfo(String vendorCode, String location) {
+    if  (location == null) return null;
+    Uri.Builder bld = Uri.parse(location).buildUpon();;
+    bld = addAccountInfo(vendorCode, bld);
+    return bld.build().toString();
   }
   
   /**

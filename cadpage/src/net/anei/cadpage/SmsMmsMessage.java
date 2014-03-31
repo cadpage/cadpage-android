@@ -742,7 +742,7 @@ public class SmsMmsMessage implements Serializable {
    * @return extra information URL
    */
   public String getInfoURL() {
-    if (infoURL != null) return infoURL;
+    if (infoURL != null) return VendorManager.instance().addAccountInfo(vendorCode, infoURL);
     if (parseInfo == null) return null;
     MsgInfo info = parseInfo.getInfo();
     if (info == null) return null;

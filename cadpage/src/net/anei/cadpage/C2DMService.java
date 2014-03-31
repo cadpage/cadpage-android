@@ -443,21 +443,19 @@ public class C2DMService extends IntentService {
     }
     
     // If a vendor code was specified, return status and version code associated with vendor
+    VendorManager vm = VendorManager.instance();
     if (vendorCode != null) {
-      
-      VendorManager vm = VendorManager.instance();
       if (!vm.isVendorDefined(vendorCode)) {
         bld.appendQueryParameter("vendor_status", "undefined");
       } else {
         bld.appendQueryParameter("vendor_status", vm.isRegistered(vendorCode) ? "registered" : "not_registered");
-        
-        // Add version code
-        bld.appendQueryParameter("version", vm.getClientVersion(vendorCode));
+        bld = vm.addAccountInfo(vendorCode, bld);
       }
-      
-      // Add version code
-      bld.appendQueryParameter("version", VendorManager.instance().getClientVersion(vendorCode));
     }
+    
+    // Add version code
+    bld.appendQueryParameter("version", vm.getClientVersion(vendorCode));
+    
     
     // Send the request
     HttpService.addHttpRequest(context, new HttpRequest(bld.build()));

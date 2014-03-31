@@ -205,7 +205,9 @@ vendor_status:  returns your vendor registration status
                 registered     - device is registered with your vendor.  All is well
                 not_registered - device is not registered with your vendor
                 undefined      - vendor code passed in request is not valid                   
-version:  Cadpage client version                           
+version:  Cadpage client version
+account:  user account value
+token:    user token value                           
 
 Note: If message content was delivered through content_url instead of a content 
 keyword an automatic acknowledgment is redundant and will not be sent.

@@ -195,7 +195,7 @@ abstract class Vendor {
    * @return interface version id - generally used to determine which response menus are available
    */
   int getVersion() {
-    return 0;
+    return 2;
   }
   
   /**
@@ -629,10 +629,7 @@ abstract class Vendor {
     Uri.Builder builder = getBaseURI(req).buildUpon();
     builder = builder.appendQueryParameter("req", req);
     builder = builder.appendQueryParameter("vendor", getVendorCode());
-    if (force || enabled) {
-      if (account != null) builder = builder.appendQueryParameter("account", account);
-      if (token != null) builder = builder.appendQueryParameter("token", token);
-    }
+    if (force || enabled) builder = addAccountInfo(builder);
     if (phone != null) builder = builder.appendQueryParameter("phone", phone);
     builder = builder.appendQueryParameter("type", "GCM");
     if (registrationId != null) builder = builder.appendQueryParameter("CadpageRegId", registrationId);
@@ -641,6 +638,17 @@ abstract class Vendor {
     // Add random seed to register request to defeat any browser cache
     if (req.equals("register")) builder = builder.appendQueryParameter("seed", "" + System.currentTimeMillis() % 10000);
     return builder.build();
+  }
+  
+  /**
+   * Add user account identification to Uri under construction
+   * @param builder URI builder
+   * @return updated URI builder
+   */
+  Uri.Builder addAccountInfo(Uri.Builder builder) {
+    if (account != null) builder = builder.appendQueryParameter("account", account);
+    if (token != null) builder = builder.appendQueryParameter("token", token);
+    return builder;
   }
   
   /**
