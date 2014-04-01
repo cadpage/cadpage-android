@@ -10,6 +10,23 @@ import net.anei.cadpage.parsers.SmartAddressParser;
  * E Feliciana Parish, LA
  */
 public class LAEastFelicianaParishParser extends SmartAddressParser {
+  
+  private static final Pattern SUBJECT_PATTERN = Pattern.compile("(Disp|Clr)\\:\\s*\\b([A-Z]+)\\b\\s*(\\d{5} +\\d{4}\\-\\d{1,2}\\-\\d+)");
+  private static final Pattern SUBJECT_PATTERN2 = Pattern.compile("Case # (\\d{4}-\\d{1,2}-\\d+)");
+  
+  private static final String
+    UNIT_PATTERN_STRING = "\\d{1,2}(?:\\-[A-Z])?|[A-Z]{2}|MISC|TEST",
+    DATE_PATTERN_STRING = "\\d{1,2}\\/\\d{1,2}\\/\\d{4}",
+    TIME_PATTERN_STRING = "\\d{1,2}\\:\\d{2}\\:\\d{2}",
+    GOOGLE_MAP_PATTERN_STRING = "http\\:\\/\\/maps\\.google\\.com\\/maps\\?q=(\\d+\\.\\d+,\\+\\-\\d+\\.\\d+)";
+  private static final Pattern BODY_PATTERN_2
+    = Pattern.compile("("+UNIT_PATTERN_STRING+")?"
++                     "\\s*Date +Recv +("+DATE_PATTERN_STRING+")"
++                     " +("+TIME_PATTERN_STRING+")"
++                     "\\s*(.*?)(?:"+GOOGLE_MAP_PATTERN_STRING+")?");
+  private static final Pattern BODY_PATTERN_3 = Pattern.compile("(.*?)\\b((?:225|318)(?: +\\d{3}\\-\\d{4})?| {3})\\b(.*)");
+  private static final Pattern DASH_PTN = Pattern.compile("--+");
+  
   public LAEastFelicianaParishParser() {
     super(CITY_LIST, "EAST FELICIANA PARISH", "LA");
     setFieldList("SRC ID DATE TIME CALL UNIT ADDR X CITY GPS NAME PHONE");
@@ -22,60 +39,40 @@ public class LAEastFelicianaParishParser extends SmartAddressParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!parseSubject(subject, data))
-      return false;
-    return parseBody(body, data);
-  }
-  
-  private static final Pattern SUBJECT_PATTERN
-  = Pattern.compile("(Disp|Clr)\\:\\s*\\b([A-Z]+)\\b\\s*(\\d{5} +\\d{4}\\-\\d{1,2}\\-\\d+)");
-  private boolean parseSubject(String subject, Data data) {
-    Matcher m = SUBJECT_PATTERN.matcher(subject);
+    
+    Matcher m = SUBJECT_PATTERN2.matcher(subject);
     if (m.matches()) {
-      data.strSource = m.group(2);
-      data.strCallId = m.group(3);
-      if (m.group(1).equals("Clr"))
-        data.strCall = "RUN REPORT";
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      data.strCallId = m.group(1);
       return true;
     }
-    return false;
-  }
-  
-  private static final Pattern BODY_PATTERN_1
-    = Pattern.compile("(.*?)\\n.*");
-  private static final String
-    UNIT_PATTERN_STRING = "\\d{1,2}(?:\\-[A-Z])?|[A-Z]{2}|MISC|TEST",
-    DATE_PATTERN_STRING = "\\d{1,2}\\/\\d{1,2}\\/\\d{4}",
-    TIME_PATTERN_STRING = "\\d{1,2}\\:\\d{2}\\:\\d{2}",
-    GOOGLE_MAP_PATTERN_STRING = "http\\:\\/\\/maps\\.google\\.com\\/maps\\?q=(\\d+\\.\\d+,\\+\\-\\d+\\.\\d+)";
-  private static final Pattern BODY_PATTERN_2
-    = Pattern.compile("("+UNIT_PATTERN_STRING+")?"
-+                     "\\s*Date +Recv +("+DATE_PATTERN_STRING+")"
-+                     " +("+TIME_PATTERN_STRING+")"
-+                     "\\s*(.*?)(?:"+GOOGLE_MAP_PATTERN_STRING+")?");
-  private static final Pattern BODY_PATTERN_3
-    = Pattern.compile("(.*?)(225(?: +\\d{3}\\-\\d{4})?| {3})(.*)");
-  private static final Pattern DASH_PTN = Pattern.compile("--+");
-  
-  private boolean parseBody(String body, Data data) {
-    Matcher m = BODY_PATTERN_1.matcher(body);
-    if (m.matches()) body = m.group(1);
-    if (data.strCall.equals("RUN REPORT")) {
+
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    
+    m = SUBJECT_PATTERN.matcher(subject);
+    if (!m.matches()) return false;
+    data.strSource = m.group(2);
+    data.strCallId = m.group(3);
+    if (m.group(1).equals("Clr")) {
+      data.strCall = "RUN REPORT";
       data.strPlace = body;
       return true;
     }
+    
     m = BODY_PATTERN_2.matcher(body);
     if (!m.matches()) return false;
     data.strUnit = getOptGroup(m.group(1));
     data.strDate = m.group(2);
     data.strTime = m.group(3);
     body = m.group(4).trim();
-    data.strGPSLoc = getOptGroup(m.group(5));
+    setGPSLoc(getOptGroup(m.group(5)).replace("+-", "-"), data);
 
     m = BODY_PATTERN_3.matcher(body);
     if (m.matches()) {
       data.strPhone = m.group(2).trim();
-      if (data.strPhone.equals("225")) data.strPhone = "";
+      if (data.strPhone.length() == 3) data.strPhone = "";
       return parseAddressFields(m.group(1).trim(), m.group(3).trim(), data);
     }
     
@@ -101,7 +98,7 @@ public class LAEastFelicianaParishParser extends SmartAddressParser {
     // always identical.  The second piece is more reliable, so we will tackle
     // it first
     parseAddress(StartType.START_ADDR, FLAG_AT_MEANS_CROSS, fld2, data);
-    data.strName = getLeft();
+    data.strName = cleanWirelessCarrier(getLeft());
     if (getStatus() == 0) return false;
     
     // If that works, try to trip off the name and city fields and see if
@@ -167,7 +164,6 @@ public class LAEastFelicianaParishParser extends SmartAddressParser {
       r.getData(data);
       field = r.getLeft();
     }
-    if (field.length() == 0) return false;
     data.strCall = field;
     return true;
   }
@@ -190,5 +186,5 @@ public class LAEastFelicianaParishParser extends SmartAddressParser {
     "SLAUGHTER",
     "WILSON",
     "ETHEL"
-    };
+  };
 }
