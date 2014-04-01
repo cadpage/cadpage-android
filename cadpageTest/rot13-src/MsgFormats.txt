@@ -3044,6 +3044,11 @@ Zvnzv-Qnqr Pbhagl, SY (SYZvnzvQnqrPbhaglCnefre)
 (GRFG NPGVIR911) PSB - O04 FVT:49OH NQQE:2835 AJ 206GU FG NYE 216628 ERPI:10/29/13 10:39:17HAVG:O04 HAVGF:1 ERZNEXF:Vapvqrag Vavgvngrq Ol: CQ/ONYXPBZ,XVZOREYL A;XVGPURA SVER 1/1;NQQY PNYY SEBZ ONPX QBBE ANOBE NQIT NYY BHG BS UFR;UL @ AJ 206GU FG/AJ 29GU NIR IVN NIY;E11 FZBXR BHG BS NYCUN FVQR BS U
 (GRFG NPGVIR911) PSB - O14 FVT:49OH NQQE:3737 AJ 188GU FG NYE 216244 ERPI:10/28/13 18:50:45HAVG:O14 HAVGF:1 ERZNEXF:Vapvqrag Vavgvngrq Ol: CQ/OEVAPRSVRYQ,WRAAVS Y;Bevtvany Ybpngvba : ERNE BS PNEBY PVGL ZVQQ;HGVYVGL FURQ BA SVER ERNE BS FPUBBY;AB NAFJRE NG GUR PNYYONPX, GELVAT GB TRG NQQGY VASB;ULQ
 **************************************************************************
+Cnyz Ornpu Pbhagl, SY (SYCnyzOrnpuPbhaglCnefre)
+(Cntr Abgvsvpngvba) Glcr: ERFVQRAGVNY FGEHPGHER SVER, ......Rirag Ybpngvba: 254 3EQ FG YC, Znc cntr: 35,  Znc Pbbeq: P-12, Gnyx Tebhc: GNP 09N,GVZR: 19:38:25
+(Cntr Abgvsvpngvba) Glcr: FGNOOVAT, ......Rirag Ybpngvba: 9162 FHA PG COP, Qri: TBBYFOL, Znc cntr: 34,  Znc Pbbeq: R-11, GVZR: 19:15:56
+(Cntr Abgvsvpngvba) Glcr: NEERFG~~PNEQVNP BE ERFCVENGBEL, ......Rirag Ybpngvba: 3516 JVYYVNZ FG COP, Qri: RIRETERRA NPERF, Znc cntr: 34,  Znc Pbbeq: R-12, GVZR: 05:01:55  Qvfc: R68,RZF6,E68
+**************************************************************************
 Crafnpbyn, SY (SYCrafnpbynCnefre)
 Pnyy_Ahzore: CSQ12PNQ003118 | Havgf: Y11, | Pbzcynvag: CHOYVP NFFVFGNAPR | Ybpngvba: K2[FPBGG FG R] | Nqqerff: 2400 A 7GU NI  | Kfg 1:  LBATR FG R | Kfg 2:   | Pvgl: CRAFNPBYN | Fgngr: SY | PNqqerff1 : 2400 A 7GU NI | PNqqerff2: K2[FPBGG FG R] | Ybp_Qvfcynl: 2400 A 7GU NI [K2[FPBGG FG R]]  k[LBATR FG R]    [CRAFNPBYN] | Gvzr_Qvfcngpurq: 2012-06-25 09:33:23 | Aneengvir:  | Guvf_Havg: Y11
 Pnyy_Ahzore: CSQ12PNQ003114 | Havgf: RAT2, | Pbzcynvag: ERFPHR | Ybpngvba: K2[9GU NI A] | Nqqerff: 813  JBBQYNAQ QE  | Kfg 1:  NPNPVN QE | Kfg 2:   | Pvgl: CRAFNPBYN | Fgngr: SY | PNqqerff1 : 813 JBBQYNAQ QE | PNqqerff2: K2[9GU NI A] | Ybp_Qvfcynl: 813 JBBQYNAQ QE [K2[9GU NI A]]  k[NPNPVN QE]    [CRAFNPBYN] | Gvzr_Qvfcngpurq: 2012-06-25 00:58:02 | Aneengvir: PURFG CNVAF | Guvf_Havg: RAT2

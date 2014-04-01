@@ -236,6 +236,7 @@ public class ParserList {
               ,"FLManateeCounty"                ,"Manatee County, FL"
               ,"FLMiamiDadeCounty"              ,"Miami-Dade County, FL"
               ,"FLOkaloosaCounty"               ,"Okaloosa County, FL"
+              ,"FLPalmBeachCounty"              ,"Palm Beach County, FL"
               ,"FLPensacola"                    ,"Pensacola, FL"
               ,"FLSarasotaCounty"               ,"Sarasota County, FL"
               ,"FLSeminoleCounty"               ,"Seminole County, FL"

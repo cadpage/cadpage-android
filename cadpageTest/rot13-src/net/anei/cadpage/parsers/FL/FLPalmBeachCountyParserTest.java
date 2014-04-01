@@ -6,7 +6,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Cnyz Ornpu, SY
+Cnyz Ornpu Pbhagl, SY
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cnyz Ornpu Tneqraf Sver Erfphr
