@@ -97,8 +97,10 @@ public class MIBayCountyParser extends SmartAddressParser {
   };
   
   private static final CodeSet CALL_SET = new CodeSet(
+      "COMFIRE",
       "FIRE ALARM",
       "MED",
+      "PIA",
       "STRUCTURE",
       "SUICIDE"
   );
