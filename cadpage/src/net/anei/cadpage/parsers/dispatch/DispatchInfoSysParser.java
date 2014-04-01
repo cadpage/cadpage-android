@@ -80,7 +80,7 @@ public class DispatchInfoSysParser extends FieldProgramParser {
 
   @Override
   protected Field getField(String name) {
-    if (name.equals("CALL")) return new CallField("[A-Z0-9/]*-.*", true);
+    if (name.equals("CALL")) return new CallField("[A-Za-z0-9/]*-.*", true);
     if (name.equals("CALLADDR")) return new MyCallAddressField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("PLACE")) return new MyPlaceField();
