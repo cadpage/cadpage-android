@@ -70,8 +70,8 @@ YBPNGVBA ANZR (20 pune)~VAPVQRAG AHZORE (11 pune)
 
 Pbagnpg:  Revp Evssyr <revpevssyr@lznvy.pbz>
 Fraqre: rcg@rcg911.vasb
-rcg@rcg911.vasb
 [NSN: NSN Q1] NSN11,2111,2113,2170,2130,2152,ERUNO2,UNMP~Bqbe                          ~6776 Pneygba Qe               #     ~PNEYGBA UBHFR - HFNS~NSN300130
+[OSSQ:OSSQ Q3  ]NSN,OSSQ,SNY,QJSQ,GEZ2,CYSQ,ABEGUS,YNEX~SverFS, Fgehpgher-Erfvqragvny ~11570 Zvynz Eq                     #     ~                    f~k:OHETRFF EQ/PERRX IVRJ EQ      ~NYEZ:1~PZQ:P2   ~NSN-14-0208
 
 Pbagnpg: Znex Nfupensg <qevsgenatre96@nby.pbz>
 Fraqre: rcg@rcg911.vasb
@@ -549,7 +549,7 @@ choyvp pynff PBRyCnfbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgREvpEvssyr() {
+  choyvp ibvq grfgRevpEvssyr() {
 
     qbGrfg("G1",
         "[NSN: NSN Q1] NSN11,2111,2113,2170,2130,2152,ERUNO2,UNMP~Bqbe                          ~6776 Pneygba Qe               #     ~PNEYGBA UBHFR - HFNS~NSN300130",
@@ -560,9 +560,44 @@ choyvp pynff PBRyCnfbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:6776 Pneygba Qe",
         "CYNPR:PNEYGBA UBHFR - HFNS",
         "VQ:NSN300130");
-   
+
+    qbGrfg("G2",
+        "[OSSQ:OSSQ Q3  ]NSN,OSSQ,SNY,QJSQ,GEZ2,CYSQ,ABEGUS,YNEX~SverFS, Fgehpgher-Erfvqragvny ~11570 Zvynz Eq                     #     ~                    f~k:OHETRFF EQ/PERRX IVRJ EQ      ~NYEZ:1~PZQ:P2   ~NSN-14-0208",
+        "FEP:OSSQ",
+        "ZNC:OSSQ Q3",
+        "HAVG:NSN,OSSQ,SNY,QJSQ,GEZ2,CYSQ,ABEGUS,YNEX",
+        "PNYY:SverFS, Fgehpgher-Erfvqragvny",
+        "NQQE:11570 Zvynz Eq",
+        "CYNPR:f",
+        "K:OHETRFF EQ/PERRX IVRJ EQ",
+        "CEV:1",
+        "VASB:P2",
+        "VQ:NSN-14-0208");
+  
   }
   
+  @Grfg
+  choyvp ibvq grfgZnexNfupensg() {
+
+    qbGrfg("G1",
+        "SEZ:rcg@rcg911.vasb\a" +
+        "ZFT:[PNY SQ:597-5]1481,1440,PNY,NZE~Hapbafpvbhf / Snvagvat        ~18544 PB EQ 69                     #     ~Nyy\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "Nobhg Ubzr      ~k:SNVECYNL EQ/PB EQ 78          ~NYEZ:1~PZQ:     ~PNY14077(Raq)",
+
+        "FEP:PNY SQ",
+        "ZNC:597-5",
+        "HAVG:1481,1440,PNY,NZE",
+        "PNYY:Hapbafpvbhf / Snvagvat",
+        "NQQE:18544 PB EQ 69",
+        "ZNQQE:18544 PBHAGL EBNQ 69",
+        "CYNPR:Nyy Nobhg Ubzr",
+        "K:SNVECYNL EQ/PB EQ 78",
+        "CEV:1",
+        "VQ:PNY14077");
+   
+  }
+
   @Grfg
   choyvp ibvq grfgRyCnfbPbhaglFurevssSver() {
 
@@ -1272,28 +1307,6 @@ choyvp pynff PBRyCnfbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:CVAR INYYRL PVE/CVAR INYYRL PV",
         "VQ:SNY316698");
 
-  }
-  
-  @Grfg
-  choyvp ibvq grfgZnexNfupensg() {
-
-    qbGrfg("G1",
-        "SEZ:rcg@rcg911.vasb\a" +
-        "ZFT:[PNY SQ:597-5]1481,1440,PNY,NZE~Hapbafpvbhf / Snvagvat        ~18544 PB EQ 69                     #     ~Nyy\a" +
-        "(Pba'g) 2 bs 2\a" +
-        "Nobhg Ubzr      ~k:SNVECYNL EQ/PB EQ 78          ~NYEZ:1~PZQ:     ~PNY14077(Raq)",
-
-        "FEP:PNY SQ",
-        "ZNC:597-5",
-        "HAVG:1481,1440,PNY,NZE",
-        "PNYY:Hapbafpvbhf / Snvagvat",
-        "NQQE:18544 PB EQ 69",
-        "ZNQQE:18544 PBHAGL EBNQ 69",
-        "CYNPR:Nyy Nobhg Ubzr",
-        "K:SNVECYNL EQ/PB EQ 78",
-        "CEV:1",
-        "VQ:PNY14077");
-   
   }
 
   @Grfg

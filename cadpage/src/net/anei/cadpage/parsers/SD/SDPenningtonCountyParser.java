@@ -30,9 +30,8 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
     return false;
   }
 
-  private static final Pattern UNIT_PTN = Pattern.compile("^([A-Z0-9]+) +\\(Primary\\);? *");
-  private static final Pattern UNIT_PTN2 = Pattern.compile("^([A-Z0-9]+); +");
-  private static final Pattern UNIT_PTN3 = Pattern.compile("([A-Z0-9]+) +");
+  private static final Pattern UNIT_PTN = Pattern.compile("^([A-Z0-9]+)(?: +\\(Primary\\))?; *");
+  private static final Pattern UNIT_PTN2 = Pattern.compile("^([A-Z0-9]+) +(?:\\(Primary\\) +)?");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("[- ]*\\b(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d(?::\\d\\d)?)\\b[- ]*");
   private static final Pattern CITY_PTN = Pattern.compile("(.*?) *, *([A-Z ]+?) *, SD +\\d{5} *(.*?)");
   private static final Pattern CODE_PTN1 = Pattern.compile(" *\\bCode: *([-A-Z0-9]+): *");
@@ -47,22 +46,13 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
       data.strUnit = append(data.strUnit, " ", match.group(1));
       body = body.substring(match.end());
     }
-    if (data.strUnit.length() == 0) {
-      while (true) {
-        Matcher match = UNIT_PTN2.matcher(body);
-        if (!match.lookingAt()) break;
-        data.strUnit = append(data.strUnit, " ", match.group(1));
-        body = body.substring(match.end());
-      }
-      if (data.strUnit.length() == 0) return false;
-      Matcher match = UNIT_PTN3.matcher(body);
-      if (!match.lookingAt()) return false;
-      data.strUnit = append(data.strUnit, " ", match.group(1));
-      body = body.substring(match.end());
-    }
+    Matcher match = UNIT_PTN2.matcher(body);
+    if (!match.lookingAt()) return false;
+    data.strUnit = append(data.strUnit, " ", match.group(1));
+    body = body.substring(match.end());
     
     // Process Date/time splits 
-    Matcher match = DATE_TIME_PTN.matcher(body);
+    match = DATE_TIME_PTN.matcher(body);
     if (match.find()) {
       data.strDate = match.group(1);
       data.strTime = match.group(2);
@@ -118,6 +108,9 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
       data.strSupp = append(data.strSupp, "\n", info);
     }
     if (data.strCity.equals("PENNCO")) data.strCity = "";
+    else if (data.strCity.equals("JACKCO")) data.strCity = "JACKSON COUNTY";
+    else if (data.strCity.equals("MEADCO")) data.strCity = "MEADE COUNTY";
+        
     return true;
   }
   
@@ -138,6 +131,7 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
   }
   
   private static final CodeSet CALL_LIST = new CodeSet(
+      "ACCI",
       "BREATH",
       "BREATH-D1",
       "CARDIAC-E",
@@ -145,12 +139,16 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
       "CHEST-D",
       "FALARM DELTA",
       "FALARM",
+      "FIRE",
+      "GRASSF",
       "SICK",
       "SICK-C",
       "SMFIRE",
       "SICK PERSON DELTA LEVEL",
       "STRUCF",
-      "UNCON CHILD"
+      "UNCON CHILD",
+      "VEHF",
+      "VEHF-B1"
   );
   
   private static final String[] CITY_LIST = new String[]{

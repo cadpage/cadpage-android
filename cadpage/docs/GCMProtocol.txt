@@ -1,4 +1,3 @@
-
 **** Cadpage GCM messaging protocol
     
 Stuff we need from you
