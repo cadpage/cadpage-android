@@ -8201,34 +8201,6 @@ YUC140109000007 QBZRFGVP VA CEBTERFF Nqq: 203 OEBGUREF FGO Synt: ..A/N.. Pbzc: X
 **********************************************************
 **********************************************************
 **********************************************************
-2013042410000593 (Wnpxfba)
-Cnyz Ornpu, SY
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Cnyz Ornpu Tneqraf Sver Erfphr
-Ybpngvba: Cnyz Ornpu Tneqraf, SY, Havgrq Fgngrf
-Fraqre: PNQ <SVERNYREGPNQ@coptbi.bet>
-
-(Cntr Abgvsvpngvba) Glcr: ERFVQRAGVNY FGEHPGHER SVER, ......Rirag Ybpngvba: 254 3EQ FG YC, Znc cntr: 35,  Znc Pbbeq: P-12, Gnyx Tebhc: GNP 09N,GVZR: 19:38:25
-(Cntr Abgvsvpngvba) Glcr: FGNOOVAT, ......Rirag Ybpngvba: 9162 FHA PG COP, Qri: TBBYFOL, Znc cntr: 34,  Znc Pbbeq: R-11, GVZR: 19:15:56
-(Cntr Abgvsvpngvba) Glcr: NEERFG~~PNEQVNP BE ERFCVENGBEL, ......Rirag Ybpngvba: 3516 JVYYVNZ FG COP, Qri: RIRETERRA NPERF, Znc cntr: 34,  Znc Pbbeq: R-12, GVZR: 05:01:55  Qvfc: R68,RZF6,E68
-(Cntr Abgvsvpngvba) Glcr: ERFVQRAGVNY FGEHPGHER SVER, ......Rirag Ybpngvba: 9173 R UVTUYNAQ CVARF OYIQ COP, Qri: UVTUYNAQ CVARF, Znc cntr: 34,  Znc Pbbeq: S-11, Gnyx Tebhc: GNP 08N,GVZR: 17:46:16  Qvfc: OP3,QP6,R17,R63,R68,RZF6,SBB,CV3,E61,E63,GE61
-(Cntr Abgvsvpngvba) Glcr: PNE NPPVQRAG, ......Rirag Ybpngvba: BYQ BXRRPUBORR EQ/A SYBEVQN ZNATB EQ COP, Znc cntr: 71,  Znc Pbbeq: Q-19, GVZR: 17:13:12  Qvfc: OP6
-(Cntr Abgvsvpngvba) Glcr: NEERFG~~PNEQVNP BE ERFCVENGBEL, ......Rirag Ybpngvba: CTN OYIQ/CEBFCREVGL SNEZF EQ COT, Znc cntr: 25,  Znc Pbbeq: Q-9, GVZR: 11:37:00  Qvfc: RZF6,D15,E65
-(Cntr Abgvsvpngvba) Glcr: PBZZREPVNY FGEHPGHER SVER, ......Rirag Ybpngvba: 701 HF UVTUJNL 1 ACO, Znc cntr: 35,  Znc Pbbeq: P-11, GVZR: 10:27:31  Qvfc: PU67,PC67,QP6,R63,R67,R68,RZF6,SBB,CV3,D15,E63,E67
-(Cntr Abgvsvpngvba) Glcr: VAIRFGVTNGVBA, ......Rirag Ybpngvba: 1400 10GU FG YC, Znc cntr: 35,  Znc Pbbeq: Q-12, GVZR: 11:50:30  Qvfc: QP6,R68
-(Cntr Abgvsvpngvba) Glcr: PNE NPPVQRAG, ......Rirag Ybpngvba: 3375 OHEAF EQ COT, Znc cntr: 34,  Znc Pbbeq: R-10, GVZR: 10:14:09
-(Cntr Abgvsvpngvba) Glcr: ZVFPRYYNARBHF FGEHPGHER SVER, ......Rirag Ybpngvba: 370 YVTUGUBHFR QE COT, Znc cntr: 34,  Znc Pbbeq: R-11, GVZR: 20:55:35  Qvfc: QP6,R61
-(Cntr Abgvsvpngvba) Glcr: PNE NPPVQRAG - EBYYBIRE, ......Rirag Ybpngvba: 701 HF UVTUJNL 1 ACO, Znc cntr: 35,  Znc Pbbeq: P-11, GVZR: 18:33:36  Qvfc: PU67,PC67,QP6,R67,RZF6,CV4,E67
-(Cntr Abgvsvpngvba) Glcr: ERFVQRAGVNY FGEHPGHER SVER, ......Rirag Ybpngvba: 13417 CEBIRAPR QE COT, Qri: CNGVB UBZRF, Znc cntr: 24,  Znc Pbbeq: R-7, Gnyx Tebhc: GNP 07N,GVZR: 13:40:09  Qvfc: OP6,PC1,QP6,R16,SBB,CV61,D15,D65,E61,E65,GE61
-(Cntr Abgvsvpngvba) Glcr: HAPBAFPVBHF/HAERFCBAFVIR, ......Rirag Ybpngvba: 2926 YBAR CVAR EQ COP: @QJVTUG Q RVFRAUBJRE RYRZRAGNEL, Znc cntr: 25,  Znc Pbbeq: Q-8, GVZR: 13:40:37  Qvfc: R62,RZF6,E62
-(Cntr Abgvsvpngvba) Glcr: NEERFG~~PNEQVNP BE ERFCVENGBEL, ......Rirag Ybpngvba: 661 UHQFBA ONL QE COT, Qri: GUR VFYRF, Znc cntr: 24,  Znc Pbbeq: S-8, GVZR: 23:28:08  Qvfc: RZF6,D65,E65
-(Cntr Abgvsvpngvba) Glcr: ERFVQRAGVNY FGEHPGHER SVER, ......Rirag Ybpngvba: 101 CNYZ ONL PVE COT,N, Qri: CNYZ ONL PYHO, Znc cntr: 34,  Znc Pbbeq: S-11, Gnyx Tebhc: GNP 07N,GVZR: 09:27:11  Qvfc: OP6,QP6,R17,R61,R63,RZF6,SBB,CV61,D65,E61,E63
-(Cntr Abgvsvpngvba) Glcr: VAGRE-SNPVYVGL**TEBHAQ**, ......Rirag Ybpngvba: 1210 F BYQ QVKVR UJL WC: @WCU, Znc cntr: 15,  Znc Pbbeq: S-4, GVZR: 17:15:56  Qvfc: RZF6,E18
-(Cntr Abgvsvpngvba) Glcr: IRUVPYR SVER, ......Rirag Ybpngvba: COT: @FO V95 AB ABEGUYNXR OYIQ, Znc cntr: 34,  Znc Pbbeq: S-11, GVZR: 16:36:56  Qvfc: QP6,R61,E61
-(Cntr Abgvsvpngvba) Glcr: GENSSVP NPPVQRAG CRQRFGEVNA, ......Rirag Ybpngvba: 4520 CTN OYIQ COT, Znc cntr: 34,  Znc Pbbeq: S-10, GVZR: 19:29:38  Qvfc: R61,RZF6,CV1,E61
-(Cntr Abgvsvpngvba) Glcr: ERFVQRAGVNY FGEHPGHER SVER, ......Rirag Ybpngvba: 14151 64GU JNL A COP, Qri: CNYZ ORNPU PBHAGEL RFGNGRF, Znc cntr: 14,  Znc Pbbeq: U-6, Gnyx Tebhc: GNP 07N,GVZR: 16:11:33  Qvfc: NQAGSL,OP1,OPAGSL,PC1,QP1,QP6,R16,R17,R19,R62,R64,R920,RPEG,SBB,CV2,CV3,E16,E64,E65,F930,FB19,G14,GE61
-(Cntr Abgvsvpngvba) Glcr: PNE NPPVQRAG, ......Rirag Ybpngvba: FNAQNYJBBQ PVE/OHEAF EQ COT, Znc cntr: 34,  Znc Pbbeq: R-10, GVZR: 07:44:15  Qvfc: OP6
 **********************************************************
 2013031510000316 (Wnpxfba)
 Prager Pbhagl, CN
@@ -8252,7 +8224,7 @@ Fraqre: "Prager Pbhagl Nyregf" <nyregf@prager.rnyreg911.pbz>
 (Prager Pbhagl Nyregf) OBK 2627; RZF-HAPBAFPVBHF/HAERFCBAFVIR/FLAPBCR NYF; 753 RTLCG UBYYBJ EQ [_HAVBA GJC; ANZR-NHZNA CUVYVC Y;
 (Prager Pbhagl Nyregf) OBK 2611; RZF-HAPBAFPVBHF/HAERFCBAFVIR/FLAPBCR NYF; 502 R UBJNEQ FG [@PRAGER PERFG [_ORYYRSBAGR; ANZR-WRFFVPN OREZNA;
 **********************************************************
-2014031010000691
+2014031010000691 (Wnpxfba)
 Ancn, PN
 
 Pbagnpg: Npgvir911
