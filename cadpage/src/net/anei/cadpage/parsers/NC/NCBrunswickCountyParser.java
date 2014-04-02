@@ -20,7 +20,7 @@ public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
   
   @Override
   public String getFilter() {
-    return "pagegate@brunswickes.com,vtext.com@returns.groups.yahoo.com";
+    return "pagegate@brunswickes.com,pagegate@brunswick911.com,vtext.com@returns.groups.yahoo.com";
   }
   
   @Override
