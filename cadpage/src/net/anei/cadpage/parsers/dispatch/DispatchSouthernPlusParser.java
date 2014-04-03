@@ -61,6 +61,6 @@ public class DispatchSouthernPlusParser extends DispatchSouthernParser {
   }
   
   private final static Pattern SUB_MARKER = Pattern.compile("^([A-Za-z0-9]+:)?\\d\\d:\\d\\d(?:[ ,;]|$)");
-  private final static Pattern SUB_TRAILER = Pattern.compile(" \\d\\d$");
+  private final static Pattern SUB_TRAILER = Pattern.compile("[ ,;]\\d\\d$");
   private final static Pattern CALL_ID_PTN = Pattern.compile(" +OCA: *(\\d\\d-\\d\\d-\\d{4})$");
 }

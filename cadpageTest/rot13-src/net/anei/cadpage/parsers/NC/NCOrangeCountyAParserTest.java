@@ -52,6 +52,10 @@ Pbagnpg: Wbfu Nfovyy <zhfvp4puevfg81@lnubb.pbz>
 Fraqre: PSQSverPnyyfQvfgYvfg@gbjabspneeobeb.bet
 PNQ:2013010927;307 YRTRAQF JNL;PUNCRY UVYY;SVER NYNEZ ERFVQRAGVNY;BCF2
 
+Pbagnpg: Ebo Cehvgg <ercehvgg@tznvy.pbz>
+Fraqre: PUSQqvfcngpu@gbjabspuncryuvyy.bet
+PNQ:2014050969;380 FBHGU EQ;PUNCRY UVYY;QVNORGVP CEBOF;BCF1
+
  */
 
 
@@ -338,6 +342,20 @@ choyvp pynff APBenatrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:BCF2");
   
   }
+  
+  @Grfg
+  choyvp ibvq grfgEbaCehvg() {
+
+    qbGrfg("G1",
+        "PNQ:2014050969;380 FBHGU EQ;PUNCRY UVYY;QVNORGVP CEBOF;BCF1",
+        "VQ:2014050969",
+        "NQQE:380 FBHGU EQ",
+        "PVGL:PUNCRY UVYY",
+        "PNYY:QVNORGVP CEBOF",
+        "PU:BCF1");
+
+  }
+  
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj APBenatrPbhaglNCnefreGrfg().trarengrGrfgf("G1");

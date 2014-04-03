@@ -12,7 +12,7 @@ public class NCOrangeCountyAParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "@cedargrovefire.org,cadpage@orangeem.org,cad@orangecountync.gov,Orange Co EMS Dispatch,CFDFireCallsDistList@townofcarrboro.org";
+    return "@cedargrovefire.org,cadpage@orangeem.org,cad@orangecountync.gov,Orange Co EMS Dispatch,CFDFireCallsDistList@townofcarrboro.org,CHFDdispatch@townofchapelhill.org";
   }
 
   @Override
