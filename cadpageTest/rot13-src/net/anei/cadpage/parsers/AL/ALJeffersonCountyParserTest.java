@@ -6,6 +6,11 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Wrssrefba Pbhagl, NY
+
+Pbagnpg: Oelna Uraavtna <onuraavtna@tznvy.pbz>
+Fraqre: Sver Qrfx
+SEZ:Sver Qrfx \aZFT:UJL 280 & XRL QE - 3 PNE ZIN
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ebpxl Evqtr Sver Qvfgevpg
 Ybpngvba: Ovezvatunz, Ny, Havgrq Fgngrf
@@ -72,6 +77,16 @@ choyvp pynff NYWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp NYWrssrefbaPbhaglCnefreGrfg() {
     frgCnefre(arj NYWrssrefbaPbhaglCnefre(), "WRSSREFBA PBHAGL", "NY");
+  }
+
+  @Grfg
+  choyvp ibvq grfgOlenaUraavatna() {
+
+    qbGrfg("G1",
+        "SEZ:Sver Qrfx \aZFT:UJL 280 & XRL QE - 3 PNE ZIN",
+        "NQQE:UJL 280 & XRL QE",
+        "PNYY:3 PNE ZIN");
+    
   }
   
   @Grfg

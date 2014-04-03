@@ -26,7 +26,7 @@ public class ALJeffersonCountyParser extends SmartAddressParser {
     
   @Override
   public String getFilter() {
-    return "firedesk@northstar-firedesk.com";
+    return "Fire Desk,firedesk@northstar-firedesk.com";
   }
   
   @Override
