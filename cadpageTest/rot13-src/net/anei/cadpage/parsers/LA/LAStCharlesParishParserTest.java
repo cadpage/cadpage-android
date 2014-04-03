@@ -1501,7 +1501,7 @@ choyvp pynff YNFgPuneyrfCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SZIN",
         "PNYY:ZBGBE IRUVPYR NPPVQRAG",
         "NQQE:4032 UJL-90R",
-        "ZNQQE:4032 UJL 90",
+        "ZNQQE:4032 UJL 90R",
         "ANZR:QRFNYYRZNAQF YNSBHEPUR CNEVFU FB",
         "VQ:2013-0000012087");
 

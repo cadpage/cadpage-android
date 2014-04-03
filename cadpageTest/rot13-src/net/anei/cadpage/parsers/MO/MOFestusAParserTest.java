@@ -20,7 +20,7 @@ F:Pnyy Z:SVER / ZHGHNY NVQ / 12532 FGNGR EQ GG WRSSPB/E-7 / E7FPUBBYEQ / RZF / U
 choyvp pynff ZBSrfghfNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZBSrfghfNCnefreGrfg() {
-    frgCnefre(arj ZBSrfghfNCnefre(), "SRGHF", "ZB");
+    frgCnefre(arj ZBSrfghfNCnefre(), "SRFGHF", "ZB");
   }
 
  

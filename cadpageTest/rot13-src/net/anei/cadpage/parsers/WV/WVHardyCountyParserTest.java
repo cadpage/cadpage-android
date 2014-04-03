@@ -138,7 +138,7 @@ choyvp pynff JIUneqlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:GERR",
         "PNYY:GERR QBJA",
         "NQQE:HF-200F",
-        "ZNQQE:HF 200", // abg znccvat
+        "ZNQQE:HF 200F", // abg znccvat
         "NCG:3ZV",
         "ANZR:BHG BS GBJA",
         "CUBAR:3046716422",

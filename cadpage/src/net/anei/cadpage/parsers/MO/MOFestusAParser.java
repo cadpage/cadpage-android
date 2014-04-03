@@ -10,12 +10,14 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class MOFestusAParser extends FieldProgramParser {
  
   public MOFestusAParser() {
-    super(CITY_CODES, "FETUS", "MO",
+    super(CITY_CODES, "FESTUS", "MO",
           "CALL CALL ADDR/S SRC X INFO UNIT INFO+? JPAD END");
   }
   
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equalsIgnoreCase("call")) return false;
+    if (body.indexOf("Event No:") >= 0) return false;
+
     String[] flds = body.split("/");
     if (flds.length < 8) return false;
     return parseFields(flds, data);

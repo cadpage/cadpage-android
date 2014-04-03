@@ -51,6 +51,7 @@ choyvp pynff APEhguresbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "Cntvat: Ybpngvba= 557 HF 221N UJL*\aNCG/EBBZ* Pvgl=Sberfg Pvgl* Pnyy \aGlcr= SVER CBJREYA* Havgf=QHXR1, FZSQ1*\aNce23,4:27nz",
         "NQQE:557 HF 221N UJL",
+        "ZNQQE:557 HF 221N",
         "PVGL:Sberfg Pvgl",
         "PNYY:SVER CBJREYA",
         "HAVG:QHXR1, FZSQ1");
@@ -113,6 +114,7 @@ choyvp pynff APEhguresbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "[] Cntvat:Yvar1=2012-059502* Ybpngvba=1600 HF 221F UJL* NCG/EBBZ=* Pvgl=SBERFG PVGL* Pnyy Glcr=RZF PURFGCNV* Yvar11=PURFG CNVA (ABA-GENHZNGVP)* Havgf=rzf1,ZRQ11,iyf1*\e\a\a",
         "NQQE:1600 HF 221F UJL",
+        "ZNQQE:1600 HF 221F",
         "PVGL:SBERFG PVGL",
         "PNYY:RZF PURFGCNV",
         "VASB:PURFG CNVA (ABA-GENHZNGVP)",

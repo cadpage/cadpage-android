@@ -37,7 +37,7 @@ choyvp pynff ZftVasbGrfg {
     
     qbZncGrfg("HGFhzzvgPbhagl", "A KK 224 & J FHA CRNX QE,XRAOHET,KK", "A FE224 & J FHA CRNX QE");
     
-    qbZncGrfg("GKYvoreglPbhagl", "16897 KK 146,XRAOHET,KK", "16897 FU-146A");
+    qbZncGrfg("GKYvoreglPbhagl", "16897 KK 146A,XRAOHET,KK", "16897 FU-146A");
     
     qbZncGrfg("VAFgWbfrcuPbhagl", "30750 KK 2,XRAOHET,KK", "30750 FE 2 UJ");
     

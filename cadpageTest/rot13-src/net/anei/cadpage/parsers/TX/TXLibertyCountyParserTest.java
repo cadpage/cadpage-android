@@ -50,7 +50,7 @@ choyvp pynff GKYvoreglPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[RZF]  11346 FU146A 72LBS QVSS OERNGUVAT UVFGBEL BS PBATRFGVIR URNEG SNVYHER",
         "PNYY:RZF",
         "NQQE:11346 FU-146A",
-        "ZNQQE:11346 GK 146",
+        "ZNQQE:11346 GK 146A",
         "VASB:72LBS QVSS OERNGUVAT UVFGBEL BS PBATRFGVIR URNEG SNVYHER");
 
     qbGrfg("G3",
@@ -149,7 +149,7 @@ choyvp pynff GKYvoreglPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[RZF]16897 FU146A\a78LBZ NZCHGNGRQ YRT UNF ORRA OBGUREVAT UVZ SBE N JRRX",
         "PNYY:RZF",
         "NQQE:16897 FU-146A",
-        "ZNQQE:16897 GK 146",
+        "ZNQQE:16897 GK 146A",
         "VASB:78LBZ NZCHGNGRQ YRT UNF ORRA OBGUREVAT UVZ SBE N JRRX");
     
   }
