@@ -237,7 +237,7 @@ You will need the numeric device number and 4 character activation code associat
 
 Open the Cadpage settings on your phone.  Select Direct Paging Vendors > Active911.com > Register
 
-This takes you to a web page where you need to enter the two part Device Key / Access code associated with the device.  If all goes well, Cadpage will display a notice that your Active911 direct paging connection has been activated.
+This takes you to a web page where you need to enter the two-part device code.  If all goes well, Cadpage will display a notice that your Active911 direct paging connection has been activated.
 
 At this point, Active911 will start sending you pages through the Internet data network instead of using SMS text pages. 
 
@@ -431,6 +431,7 @@ Jean ~ Cadpage Administrator
 Thanks for your email.  You are now fully registered on our paid subscriber list for a one-year Cadpage subscription.  
 
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
+
 You no longer need the authorization code I gave you previously.
 
 Thanks so much for your support,

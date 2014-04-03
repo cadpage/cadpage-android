@@ -776,6 +776,7 @@ public class ParserList {
               ,"PABucksCounty"                  ,"Bucks County, PA"
               ,"PAButlerCounty"                 ,"Butler County, PA"
               ,"PACambriaCounty"                ,"Cambria County, PA"
+              ,"PACentreCounty"                 ,"Centre County, PA"
               ,"PAChesterCounty"                ,"Chester County, PA"
               ,"PAClarionCounty"                ,"Clarion County, PA"
               ,"PAClearfieldCounty"             ,"Clearfield County, PA"
