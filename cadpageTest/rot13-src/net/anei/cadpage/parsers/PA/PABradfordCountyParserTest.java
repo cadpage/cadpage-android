@@ -53,7 +53,7 @@ QvfcngpuN4Cnefre fhopynff
 choyvp pynff CNOenqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp CNOenqsbeqPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "OENQSBEQ PBHAGL", "CN");
+    frgCnefre(arj CNOenqsbeqPbhaglCnefre(), "OENQSBEQ PBHAGL", "CN");
   }
   
   @Grfg
