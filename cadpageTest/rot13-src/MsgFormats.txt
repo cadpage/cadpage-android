@@ -31,7 +31,7 @@ Npgvir911 gvpxrgf
 2013110610000461  HF/ZA/JevtugPbhagl > 2014020710000501 (QvfcngpuN13Cnefre fhopynff)
 2013111210000388  ZBWnpxfbaPbhagl (bhgfbhepr-UGZY) 
 2013112510000701  AWBprnaPbhagl qbar
-2013121210000555  Ab qngn fvapr  1/22/14
+-2013121210000555  Ab qngn fvapr  1/22/14
 2013121610000333  INCevaprTrbetrPbhagl qbar
 2014011010000603  Gel ntnva yngre
 -2014011010000658  Rapbqrq nggnpurq svyr
@@ -75,10 +75,10 @@ Npgvir911 gvpxrgf
 2014010110000282  BXPurebxrrPbhagl (bhgfbhepr)
 2014011610000718  APPurebxrr (bhgfbhepr Fnenu)
 2014011710000725  GKYbativrjO (zretr jvgu VACbegrePbhagl)
-2014012010000451  yngre
+-2014012010000451  yngre
 2014020310000535  XFPbjyrlPbhagl qbar
 2014022610000699  yngre
-2014022710000419  ALYrjvfPbhagl jbexf <<
+-2014022710000419  ALYrjvfPbhagl jbexf <<
 2014030710000544  PBInvy yngre
 2014030710000553  SYFrzvabyrPbhagl qbar
 2014031010000547  VNQvpxrafbaPbhagl qbar
@@ -103,11 +103,12 @@ Npgvir911 gvpxrgf
 2014011010000612  ab enj ercbeg
 2014011610000692  JVEnpvarPbhagl qbar
 2014011610000791  ZVOnlPbhagl qbar
-2014011610000834  INTenlfbaPbhagl (bhgfbhepr Fnenu)
+-2014011610000834  INTenlfbaPbhagl (bhgfbhepr Fnenu)
 2014011710000672  CNOenqsbeqPbhag (bhgfbhepr Fnenu) 
 2014011710000681  yngre
 2014011710000814  yngre
 2014012010000497  yngre
++2014022110000564
 -----------------------------------------------------------
 2014012410000702  PGOrgury (QvfcngpuN25Cnefre)
 2014031910000325  CQS svyr sbezng
