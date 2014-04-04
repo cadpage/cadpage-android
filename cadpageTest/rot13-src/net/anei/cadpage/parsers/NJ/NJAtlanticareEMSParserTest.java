@@ -22,6 +22,7 @@ Fraqre: zrqpbz@zrqpbz.pbz
 Pbagnpg: Tertbel Oebja <toebja221@tznvy.pbz>
 Fraqre: zrqpbz@ngynagvpner.bet
 Fhowrpg:ABCUV ZRQPBZ - cneg 1 bs 1\aEP:Wbo# 0048-N/ Eha# 52641/ jnf Pnapryrq: ZRQVP NFFRFFZRAG/PNYY:07:20/QVFC:07:20/RAE:07:21/NGF:07:29/\a
+Fhowrpg:ABCUV ZRQPBZ - cneg 1 bs 1\aEP:<Haxabja>/Eha# 16000/ZVPH/PURFG CNVA/URNEG CEBOYRZF/217 A ZNVA FG/205/PNCR ZNL PBHEG UBHFR/11:20//\a
 
  */
 
@@ -104,6 +105,17 @@ choyvp pynff AWNgynagvpnerRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:ABCUV ZRQPBZ",
         "VQ:52641",
         "CYNPR:jnf Pnapryrq: ZRQVP NFFRFFZRAG/PNYY:07:20/QVFC:07:20/RAE:07:21/NGF:07:29/");
+
+    qbGrfg("G1",
+        "Fhowrpg:ABCUV ZRQPBZ - cneg 1 bs 1\a" +
+        "EP:<Haxabja>/Eha# 16000/ZVPH/PURFG CNVA/URNEG CEBOYRZF/217 A ZNVA FG/205/PNCR ZNL PBHEG UBHFR/11:20//\a",
+
+        "FEP:ABCUV ZRQPBZ",
+        "VQ:16000",
+        "PNYY:ZVPH/PURFG CNVA/URNEG CEBOYRZF",
+        "NQQE:217 A ZNVA FG",
+        "NCG:205",
+        "PVGL:PNCR ZNL PBHEG UBHFR");
 
   }
   

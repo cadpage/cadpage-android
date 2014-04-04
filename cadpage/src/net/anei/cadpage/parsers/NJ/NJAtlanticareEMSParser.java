@@ -1,5 +1,10 @@
 package net.anei.cadpage.parsers.NJ;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 
@@ -8,7 +13,7 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
   
   public NJAtlanticareEMSParser() {
     super(CITY_LIST, "", "NJ",
-           "CALL ADDR XPLACE+? CITY!");
+           "CALL CALLEXT+? ADDR XPLACE+? CITY!");
   }
   
   @Override
@@ -23,12 +28,45 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
     return super.parseMsg(body, data);
   }
   
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALLEXT")) return new CallExtField();
+    if (name.equals("XPLACE")) return new CrossPlaceField();
+    return super.getField(name);
+  }
+  
+  private class CallExtField extends CallField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override public boolean checkParse(String field, Data data) {
+      if (!EXT_CALL_LIST.contains(field)) return false;
+      data.strCall = append(data.strCall, "/", field);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+  }
+  
+  private static final Pattern APT_PTN = Pattern.compile("\\d+[A-Z]?");
   private class CrossPlaceField extends Field {
     
     @Override
     public void parse(String field, Data data) {
       if (field.toUpperCase().startsWith("X ")) {
         data.strCross = append(data.strCross, " & ", field.substring(2).trim());
+      } else if (APT_PTN.matcher(field).matches()) {
+        data.strApt = append(data.strApt, "-", field);
       } else {
         data.strPlace = append(data.strPlace, " - ", field);
       }
@@ -40,16 +78,10 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("XPLACE")) return new CrossPlaceField();
-    return super.getField(name);
-  }
-  
-  @Override
-  public String getProgram() {
-    return "SRC " + super.getProgram();
-  }
+  private static final Set<String> EXT_CALL_LIST = new HashSet<String>(Arrays.asList(
+      "CHEST PAIN",
+      "HEART PROBLEMS"
+  ));
   
   private static String[] CITY_LIST = new String[] {
   // Atlantic County
