@@ -241,7 +241,7 @@ This takes you to a web page where you need to enter the two-part device code.  
 
 At this point, Active911 will start sending you pages through the Internet data network instead of using SMS text pages. 
 
-Please let me know if you still have problems with Cadpage or the registration process.
+fPlease let me know if you still have problems with Cadpage or the registration process.
 
 If you have paid for a Cadpage subscription within the last 6 months, I can refund your payment.  With direct paging with Active911, Cadpage is free.
 
