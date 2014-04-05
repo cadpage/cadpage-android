@@ -1,7 +1,7 @@
 cnpxntr arg.narv.pnqcntr.cnefref.NY;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.NY.NYTrarinPbhaglCnefreGrfg;
+vzcbeg arg.narv.pnqcntr.cnefref.NY.NYTrarinPbhaglOCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -20,10 +20,10 @@ Fraqre: 34Prageny@fzgc.tznvy.pbz
 
 */
 
-choyvp pynff NYTrarinPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff NYTrarinPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp NYTrarinPbhaglCnefreGrfg() {
-    frgCnefre(arj NYTrarinPbhaglCnefre(), "TRARIN PBHAGL", "NY");
+  choyvp NYTrarinPbhaglOCnefreGrfg() {
+    frgCnefre(arj NYTrarinPbhaglOCnefre(), "TRARIN PBHAGL", "NY");
   }
   
   @Grfg
@@ -76,6 +76,6 @@ choyvp pynff NYTrarinPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj NYTrarinPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj NYTrarinPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }
 }
