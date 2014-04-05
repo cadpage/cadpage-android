@@ -15,7 +15,7 @@ public class ALGenevaCountyParser extends DispatchOSSIParser {
     
   @Override
   public String getFilter() {
-    return "CAD@smtp.gmail.com";
+    return "CAD@smtp.gmail.com,34Central@smtp.gmail.com";
   }
   
   @Override
