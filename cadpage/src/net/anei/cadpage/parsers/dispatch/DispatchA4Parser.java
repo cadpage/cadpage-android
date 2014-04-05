@@ -10,8 +10,13 @@ public class DispatchA4Parser extends FieldProgramParser {
   private static final Pattern SLASH_PTN = Pattern.compile("/+");
   
   public DispatchA4Parser(String defCity, String defState) {
+    this(defCity, defState, 1);
+  }
+  
+  public DispatchA4Parser(String defCity, String defState, int version) {
     super(defCity, defState,
-          "CALL! ADDR! Apt:APT! CITY! Cross_Streets:X");
+          (version == 2 ? "CALL! EMPTY! CITY! ADDR! Apt:APT! Cross_Streets:X"
+                        : "CALL! ADDR! Apt:APT! CITY! Cross_Streets:X"));
   }
 
   @Override

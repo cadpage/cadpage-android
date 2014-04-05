@@ -46,8 +46,6 @@ Fraqre: <911erynl@oenqsbeqpb.bet>
 (PNQ Cntr sbe PSF 011414-90) ZIN\a\aFBHGU JNIREYL\aLNAHMMV QEVIR\aNcg: A\aTERNGRE INYYRL RZF:  14-TI00203\aFBHGU JNIREYL SQ:  14-1400001
 (PNQ Cntr sbe PSF 011014-140) ZIN\a\aNGURAF GJC\aTYRAA INYYRL EQ\aNcg: \aTERNGRE INYYRL RZF:  14-TI00157\aNGURAF GBJAFUVC SQ:  14-2400008
 
-QvfcngpuN4Cnefre fhopynff
-
 */
 
 choyvp pynff CNOenqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -55,10 +53,10 @@ choyvp pynff CNOenqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp CNOenqsbeqPbhaglCnefreGrfg() {
     frgCnefre(arj CNOenqsbeqPbhaglCnefre(), "OENQSBEQ PBHAGL", "CN");
   }
-  
+
   @Grfg
-  choyvp ibvq grfgCnefre() {
-   
+  choyvp ibvq grfgTerngreInyyrlRZF() {
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
