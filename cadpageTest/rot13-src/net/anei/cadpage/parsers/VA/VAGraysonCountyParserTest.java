@@ -5,6 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
+Tenlfba Pbhagl, IN
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Tnynk-Tenlfba RZF
@@ -112,11 +113,13 @@ ZNVYOBK:TTERZF 18:11 RZF - VAGRESNPVYVGL GENAFCBEG 000000 YLAPUOHET PSF#\a 2014-
 ZNVYOBK:TTERZF 16:01 RZF - QVNORGVP 836 TYRAQNYR EQ PSF# 2014-008091 PEBFF:\a PBHAGEL PYHO YA/TYRA EVQTR EQ
 ZNVYOBK:TTERZF 15:02 RZF - AB VASBEZNGVBA BA CNGVRA 000222 OEVPXLNEQ EQ PSF#\a 2014-008086 PEBFF: CBCYNE XABO EQ/ZRNQBJ FG
 
+QvfcngpuQNCEBCnefre fhopynff
+
 */
-choyvp pynff INTnynkCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff INTenlfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp INTnynkCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "TNYNK", "IN");
+  choyvp INTenlfbaPbhaglCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "TENLFBA PBHAGL", "IN");
   }
   
   @Grfg
@@ -125,7 +128,7 @@ choyvp pynff INTnynkCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat netf[]) {
-    arj INTnynkCnefreGrfg().trarengrGrfgf("G1");
+    arj INTenlfbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
   
