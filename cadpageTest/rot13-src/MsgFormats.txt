@@ -69,7 +69,7 @@ Npgvir911 gvpxrgf
 2013030610000477  Va cebterff
 2013032510000299  Ab qngn
 2013041010000234  ZBFgYbhvfPbhaglS jbexf <<
-2013041210000311  TNJuvgrPbhagl (bhgfbhepr)
+2013041210000311  TNJuvgrPbhagl jbexf <<
 2013041810000185  SYThysOerrmr (bhgfbhepr)
 2013042410000593  GKInaNylfgvar (bhgfbhepr)  
 2013102810000403  ZVRngbaPbhagl qbar
@@ -8217,27 +8217,6 @@ YUC140109000007 QBZRFGVP VA CEBTERFF Nqq: 203 OEBGUREF FGO Synt: ..A/N.. Pbzc: X
 **********************************************************
 **********************************************************
 **********************************************************
-2013041210000311 (Wnpxfba)
-Juvgr Pbhagl, TN
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Juvgr Pbhagl Sver
-Ybpngvba: Pyrirynaq, TN, Havgrq Fgngrf
-
-JUVGR_PB_R911:50H NPPVQRAG / HAXABJA VAWHEL UHYFRL EQ 9690512 UVTUJNL 129 A
-JUVGR_PB_R911:70E ERFVQRAGVNY SVER 98 UREZNA JVAXYRE EQ 7187734 UVTUJNL 129 A
-JUVGR_PB_R911:HAPBA HAPBAFPVBHF CNGVRAG ZBFFL PERRX ZRGUBQVFG PUHEPU 8786924 FXVGGF ZBHAGNVA EQ
-JUVGR_PB_R911:70O OEHFU / TENFF / JBBQF SVER 463 ZBFFL NPERF QE 8094057 ZBFFL NPERF QE
-JUVGR_PB_R911:70Z SVER-ZVFPRYYNARBHF / HAXABJA 4871 UVTUJNL 254 8979091 FGRIR YRJVF EQ
-JUVGR_PB_R911:PUBXVA PUBXVAT CNGVRAG 1178 FBHGU ZNVA FG 6634964 PVGL YVZVGF
-JUVGR_PB_R911:70E ERFVQRAGVNY SVER 538 YVGGYR EBPX EQ 2002801 PEBBXRQ CVAR QE
-JUVGR_PB_R911:VAWHEL VAWHEL 339 UNEQJBBQ QE 3481743 JBBQYNJA QE
-JUVGR_PB_R911:70O OEHFU / TENFF / JBBQF SVER 200 YBAT ZBHAGNVA EQ 8275037 CNEGEVQTR QE
-JUVGR_PB_R911:QRNGU NCCNERAG QRNGU 918 UVTUYNAQ SBERFG EQ 8650824 FCRRQL GEY
-JUVGR_PB_R911:50H NPPVQRAG / HAXABJA VAWHEL UVTUJNL 115 R 8928589 QHAPNA OEVQTR EQ
-JUVGR_PB_R911:70O OEHFU / TENFF / JBBQF SVER 187 BNX EVQTR QE 9731308 BNX EVQTR PG
-JUVGR_PB_R911:70O OEHFU / TENFF / JBBQF SVER YBGUEVQTR EQ&CBFG EQ 3823589 CBFG EQ
-JUVGR_PB_R911:70O OEHFU / TENFF / JBBQF SVER 260 UVQRNJNL GEY 8651227 TYRAAF QE
 **********************************************************
 2013041810000185 (Wnpxfba)
 Thys Oerrmr, SY
@@ -8267,7 +8246,7 @@ Fraqre: TOSECTGEZ@thysoerrmrsy.tbi
 (SVER CNTR) 3/7/2014 5:31:56 CZ\a201 crafnpbyn ornpu oyiq ncg p7 \a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
 (SVER CNTR) 3/6/2014 7:49:11 CZ\aobk nynez fgn. 37 qvfgevpvg sbe n fgehpgher sver\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
 **********************************************************
-2013042410000593
+2013042410000593 (Wnpxfba)
 Ina Nyfglar, GK
 
 Pbagnpg: Npgvir911
