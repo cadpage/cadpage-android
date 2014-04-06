@@ -933,6 +933,7 @@ public class ParserList {
               ,"VACarrollCounty"                ,"Carroll County, VA"
               ,"VAClarkeCounty"                 ,"Clarke County, VA"
               ,"VAColonialHeights"              ,"Colonial Heights, VA"
+              ,"VADickensonCounty"              ,"Dickenson County, VA"
               ,"VAFairfaxCity"                  ,"Fairfax City, VA"
               ,"VAFairfaxCounty"                ,"Fairfax County, VA"
               ,"VAFauquierCounty"               ,"Fauquier County, VA"

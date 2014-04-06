@@ -12,10 +12,19 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class VAWiseCountyParser extends FieldProgramParser {
   public VAWiseCountyParser() {
-    super("WISE COUNTY", "VA",
+    this("WISE COUNTY", "VA");
+  }
+  
+  public VAWiseCountyParser(String defCity, String defState) {
+    super(defCity, defState,
           "SRC CALL ADDR MAP UNIT INFO+");
   }
   
+  @Override
+  public String getAliasCode() {
+    return "VAWiseCounty";
+  }
+
   @Override
   public String getFilter() {
     return "Spillman_Paging@911.com";
@@ -23,7 +32,7 @@ public class VAWiseCountyParser extends FieldProgramParser {
 
   private static final String SOURCE_VAL_PATTERN_STRING = "[A-Z]{4}",
     MAP_VAL_PATTERN_STRING = "\\d{3}[A-Z]?",
-    UNIT_VAL_PATTERN_STRING = "[A-Z]{4,5}|[A-Z]{3}\\d+",
+    UNIT_VAL_PATTERN_STRING = "[A-Z]{4,6}|ER|[A-Z]{3,4}\\d+",
     CALLID_VAL_PATTERN_STRING = "\\d{2}[A-Z]{3}\\d{4}";
   private static final Pattern RUN_REPORT_PATTERN
     = Pattern.compile("("+SOURCE_VAL_PATTERN_STRING+")\\n"
@@ -31,8 +40,7 @@ public class VAWiseCountyParser extends FieldProgramParser {
 +                     "("+CALLID_VAL_PATTERN_STRING+").*", Pattern.DOTALL);
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Message from HipLink"))
-      return false;
+    if (!subject.equals("Message from HipLink")) return false;
     
     Matcher m = RUN_REPORT_PATTERN.matcher(body);
     if (m.matches()) {
