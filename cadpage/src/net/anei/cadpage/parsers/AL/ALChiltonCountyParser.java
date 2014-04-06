@@ -5,13 +5,13 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
+import net.anei.cadpage.parsers.dispatch.DispatchSouthernPlusParser;
 
 /**
  * Chilton County, AL
  */
 
-public class ALChiltonCountyParser extends DispatchSouthernParser {
+public class ALChiltonCountyParser extends DispatchSouthernPlusParser {
   
   private static final Pattern GENERAL_ALERT_PTN = Pattern.compile("Unit ([ A-Za-z0-9]+) Status Note: .* - (\\d+) -.*");
   private static final Pattern ADDR_EXIT_PTN = Pattern.compile("(\\d+ +EXIT) +(.*)");
@@ -30,7 +30,7 @@ public class ALChiltonCountyParser extends DispatchSouthernParser {
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
     
     Matcher match = GENERAL_ALERT_PTN.matcher(body);
     if (match.matches()) {
@@ -44,7 +44,7 @@ public class ALChiltonCountyParser extends DispatchSouthernParser {
     body = body.replace('\\', '/');
     body = body.replaceAll("\\bCOUNTY RD\\b", "CO");
     if (body.startsWith("/")) body = body.substring(1).trim();
-    if (! super.parseMsg(body, data)) return false;
+    if (! super.parseMsg(subject, body, data)) return false;
     
     data.strAddress = data.strAddress.replaceAll("\\bCO\\b", "COUNTY RD");
     
