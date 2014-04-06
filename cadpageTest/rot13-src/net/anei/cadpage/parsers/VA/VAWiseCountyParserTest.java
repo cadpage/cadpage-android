@@ -70,17 +70,6 @@ Fraqre: <Fcvyyzna_Cntvat@911.pbz>
 (Zrffntr sebz UvcYvax) FERZ\aM GRFG PNYY\a12953 EVIRE YA\a842R\aFERZ
 (Zrffntr sebz UvcYvax) FERZ\aPURFG CNVA\a109 PNEVPB EQT\a256R\aFERZ
 
-** ABGR **
-Nabgure rnfl bar...
-
-Qebc qhcyvpngr nyreg zrffntrf
-
-Fbzrguvat yvxr
-FEP PNYY NQQE ZNC HAVG FEP! VASB+
-
-Pbasvez fhowrpg, fcyvg ol \a
-Nqq inyvqngvba sbe FEP ZNC naq HAVG
-
 */
 
 choyvp pynff INJvfrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
