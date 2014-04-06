@@ -10,6 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA19Parser extends FieldProgramParser {
   
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("Incident #: (.*?)\n +CAD Call ID #: (.*?)\n");
   private static final Pattern SUBJECT_PTN = Pattern.compile("(?:DISPATCH)?INCIDENT # ([-,A-Z0-9]+)");
   private static final Pattern HASH_DELIM = Pattern.compile("(?<=[A-Z]) ?#(?= )");
   private static final Pattern FIELD_BREAK = Pattern.compile(" (ACTIVE CALL|REPORTED|Type|Zone|Phone):");
@@ -23,7 +24,16 @@ public class DispatchA19Parser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    Matcher match = SUBJECT_PTN.matcher(subject);
+
+    Matcher match = RUN_REPORT_PTN.matcher(body);
+    if (match.lookingAt()) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      data.strCallId = append(match.group(1).trim(), "/", match.group(2).trim());
+      return true;
+    }
+    
+    match = SUBJECT_PTN.matcher(subject);
     if (match.matches()) data.strCallId = match.group(1);
     
     body = HASH_DELIM.matcher(body).replaceAll(":");
