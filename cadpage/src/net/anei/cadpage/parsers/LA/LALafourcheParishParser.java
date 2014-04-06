@@ -3,19 +3,17 @@ package net.anei.cadpage.parsers.LA;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgParser;
 
-public class LALafourcheParishParser extends SmartAddressParser {
+public class LALafourcheParishParser extends MsgParser {
 
-  public final static Pattern PATTERN_SUBJECT = Pattern.compile("(\\d\\d-\\d{5,6}) - (\\d+[A-Z]?) : (.*)");
-  public final static Pattern PATTERN_SUBJECT_SHORT = Pattern.compile("(\\d\\d-\\d{5}) -");
-  public final static Pattern PATTERN_SUBJECT_SPC = Pattern.compile("FIRE ALARM|AIR MED|HOUSE FIRE|FIRE AT .*");
+  public final static Pattern SUBJECT_PTN = Pattern.compile("(\\d\\d-\\d+) - *(.*)");
+  public final static Pattern DATE_TIME_PTN = Pattern.compile(" +(?:(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d:\\d\\d) - *|None$)");
   
   public LALafourcheParishParser() {
-    super(CITY_LIST, "LAFOURCHE PARISH", "LA");
-    setFieldList("ID CODE CALL ADDR APT CITY INFO");
+    super("LAFOURCHE PARISH", "LA");
+    setFieldList("ID CALL ADDR APT CITY DATE TIME INFO");
   }
   
   @Override
@@ -29,85 +27,40 @@ public class LALafourcheParishParser extends SmartAddressParser {
   }
 
   @Override
-  protected boolean parseMsg(String strSubject, String strMessage, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
     // Extract the message ID from the Subject
-    do {
-      Matcher subMatch = PATTERN_SUBJECT.matcher(strSubject);
-      if(subMatch.matches()) {                                      // Test for regular pattern
-        data.strCallId = subMatch.group(1);
-        data.strCode = subMatch.group(2);
-        data.strCall = subMatch.group(3).trim();
-        break;
-      }
-      Matcher shortMatch = PATTERN_SUBJECT_SHORT.matcher(strSubject);
-      if (shortMatch.matches()) {
-        data.strCallId = shortMatch.group(1);
-        int pt = strMessage.toUpperCase().indexOf(" AT ");
-        if (pt < 0) return false;
-        data.strCall = strMessage.substring(0,pt).trim();
-        strMessage = strMessage.substring(pt+4).trim();
-        break;
-      }
-      
-      Matcher special = PATTERN_SUBJECT_SPC.matcher(strSubject);
-      if(special.matches()) {
-        data.strCall = strSubject;
-        break;
-      }
-      
-      return false;
-    } while (false);
+    Matcher subMatch = SUBJECT_PTN.matcher(subject);
+    if (!subMatch.matches())  return false;
+    data.strCallId = subMatch.group(1);
+    data.strCall = subMatch.group(2).trim();
     
-    // Substitute LF's with spaces from message
-    strMessage = strMessage.replace('\n', ' ');
+    body = stripFieldStart(body, "Intersection of ");
+    Matcher match = DATE_TIME_PTN.matcher(body);
+    if (!match.find()) return false;
+    data.strDate = getOptGroup(match.group(1));
+    data.strTime =  getOptGroup(match.group(2));
+    Parser p = new Parser(body.substring(0,match.start()));
+    String city = p.getLastOptional(',');
+    if (city.equals("LA")) city = p.getLastOptional(',');
+    data.strCity = city;
+    parseAddress(p.get(), data);
     
-    // Remove Intersection of
-    strMessage = strMessage.replace("Intersection of", "").trim();
-    
-    // Extract the Address
-    String leftOver = "";
-    int firstComma = strMessage.indexOf(',');
-    
-    // Determine if we need have a comma or need to use Smart Address Parser
-    if(firstComma >= 0) {
-      parseAddress(strMessage.substring(0, firstComma).trim(), data);
-      leftOver = strMessage.substring(firstComma+1).trim();
-      
-      // Extract the City
-      String city = CITY_SET.getCode(leftOver);
-      if(city != null) {
-        data.strCity = city;
-        leftOver = leftOver.substring(city.length()).trim();
-        
-        if(leftOver.startsWith(",")) {
-          leftOver = leftOver.substring(1).trim();
-        }
-        
-        if(leftOver.startsWith("LA")) {
-          leftOver = leftOver.substring(2).trim();
-        }
-      }
-      
-      data.strSupp = leftOver;
+    int last = match.end();
+    while (match.find()) {
+      parseInfo(body.substring(last, match.start()), data);
+      last = match.end();
     }
-    // Need to use Smart Address Parser
-    else {        
-      // Remove the call from the start of the message
-      if(strMessage.startsWith(data.strCall)) {
-        strMessage = strMessage.substring(data.strCall.length()).trim();
-      }
-      
-      // Parse the Address
-      parseAddress(SmartAddressParser.StartType.START_ADDR, strMessage, data);
-      
-      // Remove address from string and store the rest in Info
-      int addressIdx = strMessage.indexOf(data.strAddress);
-      leftOver = strMessage.substring(addressIdx+data.strAddress.length()).trim();
-      data.strSupp = leftOver;
-    }
-    
+    parseInfo(body.substring(last), data);
     return true;
+  }
+  
+  private void parseInfo(String info, Data data) {
+    if (data.strCall.length() == 0) {
+      data.strCall = info;
+    } else {
+      data.strSupp = append(data.strSupp, "\n", info);
+    }
   }
   
   @Override
@@ -117,20 +70,4 @@ public class LALafourcheParishParser extends SmartAddressParser {
     sAddress = sAddress.replace("BY-PASS", "BYPASS");
     return sAddress;
   }
-  
-  private final static String[] CITY_LIST = new String[]{
-      "THIBODAUX",
-      "GOLDEN MEADOW",
-      "LOCKPORT",
-      "GHEENS",
-      "CHACKBAY",
-      "CUT OFF",
-      "DES ALLEMANDS",
-      "GALLIANO",
-      "LAROSE",
-      "MATHEWS",
-      "PORT FOURCHON",
-      "RACELAND"
-  };
-  private final static CodeSet CITY_SET = new CodeSet(CITY_LIST);
 }
