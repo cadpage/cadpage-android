@@ -1,38 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03312014</string>
-  <string name="release_version">v1.7.14</string>
+  <string name="release_date">04062014</string>
+  <string name="release_version">v1.7.15</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Wright County, MN\n
-Festus, MO (alt)\n
-Robeson County, NC\n
-Benton County, WA\n
+Napa, CA\n
+Palm Beach County, FL\n
+White County, GA\n
+Centre County, PA\n
+Dickenson County, VA\n
+Chelan County, WA\n
+Racine County, WI\n
 \n
 Location Parsing Fixes:\n
 Chilton County, AL\n
-Talledega County, AL\n
-Maricopa County, AZ\n
-El Paso County, CO\n
-New London County, CT\n
-Stamford County, CT\n
-Cumberland County, ME\n
-Oxford County, MD\n
-Genesee County, NY\n
-Lewis County, NY\n
+Jefferson County, AL\n
+East Feliciana Parish, LA\n
+Lafourche Parish, LA\n
+Emmet County, MI\n
+St Louis County, MO\n
+Atlanticare EMS, NJ\n
 Orange County, NY\n
-Cabarus County, NC\n
-Caldwell County, NC\n
-Columbia County, PA\n
-Erie County, PA\n
-Kershaw County, SC\n
-Orangeburg County, SC\n
+New Bruswick County, NC\n
+Lorain County, OH\n
 Pennington County, SD\n
-Sonomish County, WA\n
-\n
-New South Wales, AU\n
   </string>
 </resources>
   
