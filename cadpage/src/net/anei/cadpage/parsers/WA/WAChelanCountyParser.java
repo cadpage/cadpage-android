@@ -7,6 +7,6 @@ import net.anei.cadpage.parsers.dispatch.DispatchA19Parser;
 public class WAChelanCountyParser extends DispatchA19Parser {
   
   public WAChelanCountyParser() {
-    super("MASON COUNTY", "WA");
+    super("CHELAN COUNTY", "WA");
   }
 }
