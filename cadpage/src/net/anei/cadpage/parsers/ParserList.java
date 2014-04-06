@@ -154,6 +154,7 @@ public class ParserList {
               ,"CALosAngelesCounty"             ,"Los Angeles County, CA"
               ,"CAMendocinoCounty"              ,"Mendocino County, CA"
               ,"CAMontereyCounty"               ,"Monterey County, CA"
+              ,"CANapa"                         ,"Napa, CA"
               ,"CANapaCounty"                   ,"Napa County, CA"
               ,"CANevadaCounty"                 ,"Nevada County, CA"
               ,"CAOroville"                     ,"Oroville, CA"
@@ -268,6 +269,7 @@ public class ParserList {
               ,"GATaylorCounty"                 ,"Taylor County, GA"
               ,"GAWalkerCounty"                 ,"Walker County, GA"
               ,"GAWebsterCounty"                ,"Webster County, GA"
+              ,"GAWhiteCounty"                  ,"White County, GA"
               ,"GAWhitfieldCounty"              ,"Whitfield County, GA"
           ),
           new ParserCategory("Idaho"
@@ -974,6 +976,7 @@ public class ParserList {
           ),
           new ParserCategory("Washington"
               ,"WABentonCounty"                 ,"Benton County, WA"
+              ,"WAChelanCounty"                 ,"Chelan County, WA"
               ,"WAClarkCounty"                  ,"Clark County, WA"
               ,"WAGrantCounty"                  ,"Grant County, WA"
               ,"WAJeffersonCounty"              ,"Jefferson County, WA"
@@ -1009,6 +1012,7 @@ public class ParserList {
               ,"WIKenoshaCounty"                ,"Kenosha County, WI"
               ,"WIOutagamieCounty"              ,"Outagamie County, WI"
               ,"WIOzaukeeCounty"                ,"Ozaukee County, WI"
+              ,"WIRacineCounty"                 ,"Racine County, WI"
               ,"WIWaukeshaCounty"               ,"Waukesha County, WI"
               ,"WIWinnebagoCounty"              ,"Winnebago County, WI"
           ),

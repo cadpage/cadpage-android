@@ -41,4 +41,9 @@ choyvp pynff ZBFgYbhvfPbhaglCnefreGrfg {
     }
   } 
   
+  choyvp fgngvp pynff GrfgS rkgraqf ZBFgYbhvfPbhaglSCnefreGrfg {
+    choyvp GrfgS() {
+      frgCnefre(arj ZBFgYbhvfPbhaglCnefre());
+    }
+  } 
 }
