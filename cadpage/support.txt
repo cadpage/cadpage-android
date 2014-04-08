@@ -3172,3 +3172,19 @@ servers and update its call information.  There are some new Cadpage
 features that make that easier.  One is a new Settings item "Cadpage and
 Active911 apps" explaining how to set that up.
 
+*******************************************************************************
+Well, there are several things to consider:
+1.  Is your phone an Android device?  Our Cadpage app is for Android devices only.  If you are using an iPhone, you may have paid for Cadpage For IOS.  For support for that, please contact Jesse at support@apprhythmia.com.
+
+2.  If your phone is Android and you have installed Cadpage, make sure you are getting text pages sent to your phone when a call is toned out.  If you are not, talk to someone in your department about getting that set up.
+
+Next, go into the Cadpage location settings, select a single location, and then see if we have a location set up for where you happen to live or work.  If we do, select it and see if things start working.
+
+If not, please let us know if you would like the details of setting up a new location.
+
+In the meantime, try using the general location setting.  Set the From: filter to whoever appears in the From: field of your page text messages.  That will usually give you some degree of functionality while you are waiting for full location support.
+
+3.  If you paid for Active911, a messaging service, you will need to register your phone. 
+
+Please contact us again if you still have difficulties.  Please use the Cadpage app to send an email:  Select Settings, then Email the Developer with configuration information.
+
