@@ -1768,20 +1768,39 @@ public abstract class SmartAddressParser extends MsgParser {
     int endNdx = mWordCities.findEndSequence(ndx);
     if (endNdx < 0) return -1;
     
-    // There are some special checks we need to make if we are terminating an address with this
-    // city name, all of which can be skipped if we are only parsing the city name
-    if (!isFlagSet(FLAG_ONLY_CITY) || isFlagSet(FLAG_ONLY_CROSS)) {
-        
-      // We did find a city, but if it is followed by a road suffix, disqualify it
-      // Unless the road suffix is followed by a road suffix
-      if (isType(endNdx, ID_ROAD_SFX) && !isType(endNdx+1, ID_ROAD_SFX)) return -1;
-      
-      // A road suffix one or two tokens past the end of the city also disqualifies it
-      // Except some times there really is cross street information following
-      // the address, in which case just ignore all the above
-      if (!isFlagSet(FLAG_CROSS_FOLLOWS)) {
-        if (isRealRoadSuffix(endNdx+1) || isRealRoadSuffix(endNdx+2)) return -1;
+    // We found a real city.  But....
+    // We don't want to return this as a city if it look it might by a street
+    // named after that city :(
+    
+    // But we do not have to worry about that if we are only parsing a city name
+    if (isFlagSet(FLAG_ONLY_CITY) && !isFlagSet(FLAG_ONLY_CROSS)) return endNdx;
+    
+    // Nor do we need to do these checks if what we found is an abbreviated
+    // city code.  But it is not safe to assume that this is a city code from
+    // the presence of a city code table because sometimes those tables map
+    // names to themselves.  We need to actually extract the city code and
+    // see if is different from the final city name.
+    
+    if (cityCodes != null) {
+      String code = "";
+      for (int ii = ndx; ii<endNdx; ii++) {
+        code = append(code, " ", tokens[ii]);
       }
+      code = code.toUpperCase();
+      String city = cityCodes.getProperty(code);
+      if (city != null && !code.equals(city)) return endNdx;
+    }
+      
+    // OK, we have to do this....
+    // If the city is followed by a road suffix, disqualify it
+    // Unless the road suffix is followed by a road suffix
+    if (isType(endNdx, ID_ROAD_SFX) && !isType(endNdx+1, ID_ROAD_SFX)) return -1;
+    
+    // A road suffix one or two tokens past the end of the city also disqualifies it
+    // Except some times there really is cross street information following
+    // the address, in which case just ignore all the above
+    if (!isFlagSet(FLAG_CROSS_FOLLOWS)) {
+      if (isRealRoadSuffix(endNdx+1) || isRealRoadSuffix(endNdx+2)) return -1;
     }
     
     // Looks good, lets return this

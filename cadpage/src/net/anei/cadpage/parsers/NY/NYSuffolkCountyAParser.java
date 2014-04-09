@@ -243,7 +243,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "QUIOGU",  "QUIOGUE",
       "QUOGUE",  "QUOGUE",
       "REMSEN",  "REMSENBERG-SPEONK",
-      "RIDGE",  "RIDGE",
+      "RIDGE",   "RIDGE",
       "RIVERH",  "RIVERHEAD",
       "RIVERS",  "RIVERSIDE",
       "ROBBII",  "ROBBINS ISLAND",
