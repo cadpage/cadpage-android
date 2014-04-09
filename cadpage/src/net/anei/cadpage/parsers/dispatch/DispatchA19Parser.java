@@ -52,21 +52,48 @@ public class DispatchA19Parser extends FieldProgramParser {
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      String apt = "";
+      String apt = null;
+      String place = null;
       int pt = field.lastIndexOf(';');
       if (pt >= 0) {
-        String place = field.substring(pt+1).trim();
-        field = field.substring(0,pt).trim();
-        Matcher match = ADDR_APT_PTN.matcher(place);
-        if (match.matches()) {
-          apt = match.group(1);
-          if (apt == null) apt = place;
-        } else {
-          data.strPlace = place;
+        apt = field.substring(pt+1).trim();
+        field = field.substring(0,pt);
+        pt = field.lastIndexOf(';');
+        if (pt >= 0) {
+          place = field.substring(pt+1).trim();
+          field = field.substring(0,pt).trim();
         }
       }
+      if (apt != null) {
+        if (place != null) {
+          String tmp = checkApt(place);
+          if (tmp != null) {
+            place = apt;
+            apt = tmp;
+          }
+        } else {
+          String tmp = checkApt(apt);
+          if (tmp != null) {
+            apt = tmp;
+          } else {
+            place = apt;
+            apt = "";
+          }
+        }
+      }
+      if (apt != null && place == null) {
+      }
+      if (place != null) data.strPlace = place;
       super.parse(field, data);
-      data.strApt = append(data.strApt, "-", apt);
+      if (apt != null) data.strApt = append(data.strApt, "-", apt);
+    }
+    
+    private String checkApt(String field) {
+      Matcher match = ADDR_APT_PTN.matcher(field);
+      if (!match.matches()) return null;
+      String apt = match.group(1);
+      if (apt == null) apt = field;
+      return apt;
     }
     
     @Override
