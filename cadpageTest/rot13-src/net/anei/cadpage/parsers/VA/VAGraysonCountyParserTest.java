@@ -119,7 +119,7 @@ QvfcngpuQNCEBCnefre fhopynff
 choyvp pynff INTenlfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp INTenlfbaPbhaglCnefreGrfg() {
-    frgCnefre(arj INTerlfbaPbhaglCnefre(), "TENLFBA PBHAGL", "IN");
+    frgCnefre(arj INTerlfbaPbhaglCnefre(), "TERLFBA PBHAGL", "IN");
   }
   
   @Grfg

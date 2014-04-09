@@ -13,6 +13,8 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class MIBayCountyParser extends SmartAddressParser {
   
+  private static final Pattern RUN_REPORT_ID_PTN = Pattern.compile("ID:(.*)\n");
+  private static final Pattern RUN_REPORT_UNIT_PTN = Pattern.compile("UNIT:(.*)\n");
   private static final Pattern MASTER = Pattern.compile("([^,]+?), (.*?)(1?\\d/\\d\\d?.\\d{4} \\d\\d?:\\d\\d?:\\d\\d [AP]M)");
   private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa");
   
@@ -30,6 +32,16 @@ public class MIBayCountyParser extends SmartAddressParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    if (body.startsWith("CALL: RUN REPORT \n")) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      Matcher match = RUN_REPORT_ID_PTN.matcher(body);
+      if (match.find()) data.strCallId = match.group(1).trim();
+      match = RUN_REPORT_UNIT_PTN.matcher(body);
+      if (match.find()) data.strUnit = match.group(1).trim();
+      return true;
+    }
+    
     body = body.replace('\n', ' ');
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
@@ -97,11 +109,14 @@ public class MIBayCountyParser extends SmartAddressParser {
   };
   
   private static final CodeSet CALL_SET = new CodeSet(
+      "CITIZEN",
       "COMFIRE",
       "FIRE ALARM",
       "MED",
       "PIA",
+      "SMOKE",
       "STRUCTURE",
-      "SUICIDE"
+      "SUICIDE",
+      "TEST"
   );
 }

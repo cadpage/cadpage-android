@@ -202,7 +202,7 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
       "WHAR", "WEST HARRISON/IN",
       
       // Warren County
-      "DFTP", "DEERFIELD TWP/OH",
+      "DFTP", "DEERFIELD TWP/OH"
       
   });
 }
