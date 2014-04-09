@@ -5,12 +5,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchDAPROParser;
 
 /**
- * Greyson County, VA
+ * Grayson County, VA
  */
-public class VAGreysonCountyParser extends DispatchDAPROParser {
+public class VAGraysonCountyParser extends DispatchDAPROParser {
   
-  public VAGreysonCountyParser() {
-    super("GREYSON COUNTY", "VA");  
+  public VAGraysonCountyParser() {
+    super("GRAYSON COUNTY", "VA");  
     setupCallList(CALL_SET);
   }
   
