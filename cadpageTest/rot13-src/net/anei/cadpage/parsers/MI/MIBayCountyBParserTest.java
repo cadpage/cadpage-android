@@ -4905,7 +4905,6 @@ choyvp pynff ZVOnlPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:JVER",
         "NQQE:4 ZVYR EQ & R ORNIRE EQ",
-        "ZNQQE:4 ZVYR EQ",
         "PVGL:Xnjxnjyva Gjc",
         "VASB:ba Ornire arne oevqtr arne 4 Zvyr - cbjre yvar qbja unatvat..",
         "QNGR:1/24/2014",

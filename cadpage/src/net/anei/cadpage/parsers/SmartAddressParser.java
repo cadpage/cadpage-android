@@ -377,7 +377,8 @@ public abstract class SmartAddressParser extends MsgParser {
         "STREET", "ST", 
         "PLACE", "PL",
         "ROAD", "RD",
-        "HWY");
+        "HWY",
+        "MILE");
     
     setupDictionary(ID_ROAD_QUALIFIER, "OLD");
         

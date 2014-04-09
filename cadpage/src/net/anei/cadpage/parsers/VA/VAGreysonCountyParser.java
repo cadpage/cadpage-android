@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.VA;
 
 import net.anei.cadpage.parsers.CodeSet;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchDAPROParser;
 
 /**
@@ -18,6 +19,12 @@ public class VAGreysonCountyParser extends DispatchDAPROParser {
     return "MAILBOX@GalaxVa.com";
   }
   
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    body = body.replace('\n', ' ');
+    return super.parseMsg(body, data);
+  }
+
   private static final CodeSet CALL_SET = new CodeSet(
       
       "EMS - ABDOMINAL DISTRESS",
