@@ -13,7 +13,10 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
 
   private static final String[] KEYWORDS = new String[]{"TYPE", "LOC", "CROSS", "CODE", "TIME"};
   
-  private static final Pattern APT_PTN = Pattern.compile("(.*) APT +#?([^ ]+)");
+  private static final Pattern APT_PTN = Pattern.compile("(.*)[: ](?:APT|ROOM|UNIT|STE) +#?([^ ]+)");
+  private static final Pattern PLACE_MARK_PTN = Pattern.compile(": ?@|@|:|;");
+  private static final Pattern ADDR_CROSS_PTN = Pattern.compile("(.*)[ :][SC]/S(?: ?=)?(.*)");
+  private static final Pattern SPECIAL_PTN = Pattern.compile("(.*)(\\*\\*\\*_[_A-Z]+_\\*\\*\\*):?(.*)");
   
   public NYSuffolkCountyAParser() {
     super(CITY_TABLE, "SUFFOLK COUNTY", "NY");
@@ -40,8 +43,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
     data.strCall = props.getProperty("TYPE");
     if (data.strCall == null) return false;
 
-    data.strCross = props.getProperty("CROSS", "");
-    if (data.strCross.endsWith("/")) data.strCross = data.strCross.substring(0,data.strCross.length()-1).trim();
+    data.strCross = stripFieldEnd(props.getProperty("CROSS", ""), "/");;
     
     String sAddress = props.getProperty("LOC");
     if (sAddress == null) {
@@ -52,30 +54,39 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       Matcher match = APT_PTN.matcher(sAddress);
       if (match.matches()) {
         sAddress = match.group(1).trim();
-        data.strApt = match.group(2);
+        data.strApt = match.group(2).trim();
       }
-      sAddress = sAddress.replaceAll(":", " ");
-      int pt = sAddress.indexOf('@');
-      if (pt >= 0) {
-        String sPlace = sAddress.substring(pt+1).trim();
-        int pt2 = sPlace.indexOf('@');
-        if (pt2 >= 0) {
-          data.strSupp = sPlace.substring(pt2+1).trim();
-          sPlace = sPlace.substring(0,pt2).trim();
+      
+      match = ADDR_CROSS_PTN.matcher(sAddress);
+      if (match.matches()) {
+        sAddress = match.group(1).trim();
+        data.strCross = append(match.group(2).trim(), " / ", data.strCross);
+      }
+      
+      match = SPECIAL_PTN.matcher(sAddress);
+      if (match.matches()) {
+        sAddress = match.group(1).trim();
+        data.strSupp = append(match.group(2).trim(), "\n", match.group(3).trim());
+      }
+
+      String[] addrFlds = PLACE_MARK_PTN.split(sAddress, 3);
+      if (addrFlds.length > 1) {
+        sAddress = addrFlds[0].trim();
+        String place = addrFlds[1].trim();
+        if (NUMERIC.matcher(place).matches()) {
+          data.strApt = append(place, "-", data.strApt);
+        } else {
+          data.strPlace = place;
         }
-        data.strPlace = sPlace;
-        sAddress = sAddress.substring(0,pt).trim();
-        pt = sAddress.lastIndexOf(' ');
-        if (pt >= 0) {
-          data.strCity = sAddress.substring(pt+1);
-          sAddress = sAddress.substring(0, pt).trim();
+        if (addrFlds.length > 2) data.strSupp = append(data.strSupp, "\n", addrFlds[2].trim());
+        match = APT_PTN.matcher(sAddress);
+        if (match.matches()) {
+          sAddress = match.group(1).trim();
+          data.strApt = append(match.group(2).trim(), "-", data.strApt);
         }
-        parseAddress(sAddress, data);
       }
-      else {
-        parseAddress(StartType.START_ADDR, sAddress, data);
-        data.strPlace = getLeft();
-      }
+      parseAddress(StartType.START_ADDR, sAddress, data);
+      data.strPlace = append(getLeft(), " - ", data.strPlace);
     }
     
     data.strCode = props.getProperty("CODE", "");
@@ -306,5 +317,6 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "WSAYVI",  "WEST SAYVILLE",
       "WYANDA",  "WYANDANCH",
       "YAPHAN",  "YAPHANK"
+
   });
 }
