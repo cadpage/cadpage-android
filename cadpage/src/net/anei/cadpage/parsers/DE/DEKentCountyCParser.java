@@ -1,21 +1,17 @@
 package net.anei.cadpage.parsers.DE;
 
-import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * Kent County, DE
  */
-public class DEKentCountyCParser extends FieldProgramParser {
+public class DEKentCountyCParser extends DEKentCountyBaseParser {
   
   public DEKentCountyCParser() {
-    super("KENT COUNTY", "DE",
-           "Unit:UNIT! Status:ADDR/SCP! Venue:CITY! Dev/Sub:PLACE! Xst's:X Caller:NAME");
-    setupMultiWordStreets("SLOW AND EASY");
+    super("Unit:UNIT? Status:ADDR/SCP! Venue:CITY! Dev/Sub:PLACE! Xst's:X Caller:NAME Lat:GPS1 Long:GPS2");
   }
   
   @Override
@@ -23,16 +19,40 @@ public class DEKentCountyCParser extends FieldProgramParser {
     return "kentcenter@state.de.us";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
+  @Override
+  public boolean parseMsg(String body, Data data) {
+    body = stripFieldStart(body, "- ");
+    if (!body.startsWith("Unit:") && !body.startsWith("Status:")) {
+      body = "Status: Dispatched " + body;
+    }
+    return super.parseMsg(body, data);
+  }
+  
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("PLACE")) return new MyPlaceField();
+    return super.getField(name);
+  }
+
+  private static final Pattern STATUS_PTN = Pattern.compile("^(?:Dispatched|Enroute|At Scene) +");
   private static final Pattern CODE_PTN = Pattern.compile("^(\\d{1,2}[A-Z]\\d{1,2}[A-Z]?) (?:- )?");
   private static final Pattern ADDR_SPLIT_PTN = Pattern.compile(" *: *");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       
-      if (!field.startsWith("Dispatched ")) abort();
-      field = field.substring(11).trim();
+      Matcher match = STATUS_PTN.matcher(field);
+      if (!match.lookingAt()) abort();
+      field = field.substring(match.end());
       
-      Matcher match = CODE_PTN.matcher(field);
+      match = CODE_PTN.matcher(field);
       if (match.find()) {
         data.strCode = match.group(1);
         field = field.substring(match.end()).trim();
@@ -60,8 +80,7 @@ public class DEKentCountyCParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       super.parse(field, data);
-      String state = CITY_STATE_TABLE.getProperty(data.strCity.toUpperCase());
-      if (state != null) data.strState = state;
+      setState(data);
     }
     
     @Override
@@ -76,20 +95,6 @@ public class DEKentCountyCParser extends FieldProgramParser {
       data.strPlace = append(data.strPlace, " - ", field);
     }
   }
-  
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("CITY")) return new MyCityField();
-    if (name.equals("PLACE")) return new MyPlaceField();
-    return super.getField(name);
-  }
-  
-  // Out of state municipalities
-  private static final Properties CITY_STATE_TABLE = buildCodeTable(new String[]{
-     "MILLINGTON", "MD" 
-  });
-  
 }
 
 

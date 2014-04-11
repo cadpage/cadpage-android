@@ -2,8 +2,6 @@ package net.anei.cadpage.parsers.DE;
 
 import net.anei.cadpage.parsers.GroupBestParser;
 
-
-
 public class DEKentCountyParser extends GroupBestParser {
   
   public DEKentCountyParser() {

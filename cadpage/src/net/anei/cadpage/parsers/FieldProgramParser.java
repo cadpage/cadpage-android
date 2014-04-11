@@ -2849,19 +2849,51 @@ public class FieldProgramParser extends SmartAddressParser {
   /**
    * GPS field processor
    */
+  private String saveGPSLoc = "";
   public class GPSField extends Field {
     
-    public GPSField() {};
-    public GPSField(String pattern) {
-      super(pattern);
+    private int type;
+    
+    public GPSField() {
+      this(0);
+    };
+    
+    public GPSField(int type) {
+      this.type = type;
     }
+    
+    public GPSField(String pattern) {
+      this(0, pattern, false);
+    }
+    
+    public GPSField(int type, String pattern) {
+      this(type, pattern, false);
+    }
+    
     public GPSField(String pattern, boolean hardPattern) {
+      this(0, pattern, hardPattern);
+    }
+    
+    public GPSField(int type, String pattern, boolean hardPattern) {
       super(pattern, hardPattern);
+      this.type = type;
     }
 
     @Override
     public void parse(String field, Data data) {
-      setGPSLoc(field, data);
+      switch (type) {
+      case 1:
+        saveGPSLoc = field;
+        break;
+      
+      case 2:
+        setGPSLoc(saveGPSLoc + ',' + field, data);
+        saveGPSLoc = "";
+        break;
+        
+      default:
+        setGPSLoc(field, data);
+      }
     }
     
     @Override
@@ -3271,6 +3303,8 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("PRI")) return new PriorityField();
     if (name.equals("CH")) return new ChannelField();
     if (name.equals("GPS")) return new GPSField();
+    if (name.equals("GPS1")) return new GPSField(1);
+    if (name.equals("GPS2")) return new GPSField(2);
     if (name.equals("DATE")) return new DateField();
     if (name.equals("TIME")) return new TimeField();
     if (name.equals("DATETIME")) return new DateTimeField();

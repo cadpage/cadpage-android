@@ -848,7 +848,60 @@ public abstract class MsgParser {
  }
  
  /**
-  * Perform any parser specific customizations involved in calcualting a
+  * Internal class used to support street names that have to be protected
+  * from being treated as individual name values, usually because they 
+  * contain the word "AND".
+  */
+ private static class PatternReplace {
+   private Pattern pattern;
+   boolean reverse;
+   
+   public PatternReplace(String name, boolean reverse) {
+     if (reverse) name = name.replace(' ', '_');
+     pattern = Pattern.compile("\\b" + name + "\\b", Pattern.CASE_INSENSITIVE);
+     this.reverse = reverse;
+   }
+   
+   public String replace(String address) {
+     Matcher match = pattern.matcher(address);
+     if (match.find()) {
+       StringBuffer sb = new StringBuffer();
+       do {
+         String replace = match.group();
+         if (!reverse) {
+           replace = replace.replace(' ', '_');
+         } else {
+           replace = replace.replace('_', ' ');
+         }
+         match.appendReplacement(sb, replace);
+       } while (match.find());
+       match.appendTail(sb);
+       address = sb.toString();
+     }
+     return address;
+   }
+ }
+ 
+ private PatternReplace[] protectList = null;
+ private PatternReplace[] reverseProtectList = null;
+ 
+ /**
+  * Setup protected name list.  These are street names that have to be
+  * protected from being treated as individual words, usually because
+  * they contain the word "AND"
+  * @param nameList list of street names that need to be protected
+  */
+ protected void setupProtectedNames(String ... nameList) {
+   protectList = new PatternReplace[nameList.length];
+   reverseProtectList = new PatternReplace[nameList.length];
+   for (int jj = 0; jj<nameList.length; jj++) {
+     protectList[jj] = new PatternReplace(nameList[jj], false);
+     reverseProtectList[jj] = new PatternReplace(nameList[jj], true);
+   }
+ }
+ 
+ /**
+  * Perform any parser specific customizations involved in calculating a
   * map address
   * @param sAddress original map address
   * @param cross true if we are adjusting a cross street instead of the main address
@@ -859,26 +912,35 @@ public abstract class MsgParser {
  }
  
  /**
-  * Perform any parser specific customizations involved in calcualting a
+  * Perform any parser specific customizations involved in calculating a
   * map address
   * @param sAddress original map address
   * @return customized map address
   */
  public String adjustMapAddress(String sAddress) {
-   return sAddress;
+   return applyPatternReplaceList(protectList, sAddress);
  }
 
  /**
-  * Perform an final parser specific custom adjustments to the calcualted
+  * Perform an final parser specific custom adjustments to the calculated
   * map search address 
   * @param sAddress calculated map search address
   * @return adjusted map search address
   */
  public String postAdjustMapAddress(String sAddress) {
-   return sAddress;
+   return applyPatternReplaceList(reverseProtectList, sAddress);
  }
  
- /**
+ private String applyPatternReplaceList(PatternReplace[] prList, String sAddress) {
+   if (prList != null) {
+     for (PatternReplace pr : prList) {
+       sAddress = pr.replace(sAddress);
+     }
+   }
+   return sAddress;
+}
+
+/**
   * Perform parser specific conversions to city field before it is used to 
   * generate the map address
   * @param city city field

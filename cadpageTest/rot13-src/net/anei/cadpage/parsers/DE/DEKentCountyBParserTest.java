@@ -10,123 +10,109 @@ Pbagnpg: wrsserl zbeevf <objref4015@tznvy.pbz>
 Pbagnpg: Nqnz Jneare <njneare7777@tznvy.pbz>
 Pbagnpg: Znex Unyy <znexunyy285@tznvy.pbz>
 Pbagnpg: Xriva Fvccyr <xriva.fvccyr@irevmba.arg>
-Fraqre: zft@pszft.pbz
-Flfgrz: Nrtvf PNQ
-
-(Puvrs NYG) [40 RZF] - 26N10 - Fvpx Crefba - Hajryy/Vyy -- 2536 Fxrrgre Arpx Eq, Serqrevpn -- Kfg'f: Objref Ornpu Eq / R Sebag Fg -- Pnyyre: Uvtu Ihr Ybttvat Vap
-(Puvrs NYG) [XPCF] - [911, Xrag] AJF HCTENQRQ YNFG GB N JNEAVAT, JVYY OR VA JRFGREA XRAG PBHAGL NEBHAQ 22:30 UEF.
-(Puvrs NYG) [40 RZF] - 23P1I - Bireqbfr/Cbvfbavat -- 181 Ubyyl Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Tneqra Cy / Zncyr Qe -- Pnyyre: Zneevyyb Cnhy
-(Puvrs NYG) [55 RZF 1] - 2Q2 - Nyyretvp Ernpgvba -- 149 Whnavgn Qe, Zntabyvn -- Ybaqba Ivyyntr -- Kfg'f: Wrsserl Qe / Zvyypubc Ya -- Pnyyre: Cevpr Ynhen
-(Puvrs NYG) [40 RZF] - 29O4 - ZIP Haxabja -- Zhyoreevr Cbvag Eq, Serqrevpn
-(Puvrs NYG) [40 RZF] - 10Q2 - Purfg Cnvaf -- 196 A  Onlfuber Qe, Serqrevpn -- Objref Ornpu -- Kfg'f: A Synpx Nir / Znva Fg -- Pnyyre: Znetnerg
-(Puvrs NYG) [40 RZF] - 26P2 - Fvpx Crefba -- 201 Uhooneq Nir, Serqrevpn -- Objref Ornpu -- Kfg'f: Qrnq Raq / Pnany Fg -- Pnyyre: Vatyr Urngure
-(Puvrs NYG) [40 RZF] - 10P4 - Purfg Cnvaf -- 302 Ynxr Fuber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Frpbaq Fg, Flpnzber Qe / Ybean Ya -- Pnyyre: Gubz Ebanyq
-(Puvrs NYG) [40 RZF] - 6P1 - Oernguvat Ceboyrzf -- 294 Ynxr Fuber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Xvjv Pg / Xlyvr Ya -- Pnyyre: Uheq Fuveyrl
-(Puvrs NYG) [40 Sver] - 17N2 - Snyyf - Aba-Erprag -- 254 Ynxr Fuber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Glfba Ya / Vovf Pg -- Pnyyre: Fcvax Xvzoreyrl
-(Puvrs NYG) [40 Sver] - Bhgfvqr Sver-Haxabja 2124 OBJREF ORNPU EQ, Serqrevpn -- Kfg'f: Tez Qe / Juvgjryy Qryvtug Eq
-(Puvrs NYG) [46 Sver] -- Nynezf-Uvtu Yvsr Unmneq -- NCG-JUVGRBNX NCGF -- 1001 Juvgrbnx Eq Qbire - Pebff Fgf: A Unyfrl E - Pnyyre:TEVRE, XVRNFUN
-(Puvrs NYG) [48 Sver] - Bhgfvqr Sver-Fznyy -- : 121 Nyyna Nir :, Srygba -- Zbhag Ireaba Rfgngrf -- Kfg'f: Xvatf Ya / Zbhag Ireaba Qe -- Pnyyre: Fgrss Qvnar
-(Puvrs NYG) [48 Sver] - 29Q5 - ZIP Abg Nyreg -- : 837 Rdhvgngvba Ya :, Srygba -- Kfg'f: Whzc Fpubby Ubhfr Eq / Ubyyl Fcevat Eq -- Pnyyre: Oevtug Cnz
-
-Pbagnpg:Npgvir911
-[Puvrs NYG] [46 Sver] -- Fgnaq-Ol,Pbire-hc -- 110 Sverubhfr Ya Znelqry - Pebff Fgf: Fgenhff Ni\a
-[Puvrs NYG] [46 Sver] -- Bhgfvqr Sver-Fznyy -- Jbys Perrx Oyiq/ Tyraqn Eq Qbire - Pebff Fgf: Abar\a
-[Puvrs NYG] [46 Sver] -- Fgnaq-Ol,Pbire-hc -- 2898 Neguhefivyyr Eq Unegyl - Pebff Fgf: Znva Fg\a Rirerggf Pbeare E Pebff Fg2: Znva Fg\a Rirerggf\a
-[Puvrs NYG] [46 Sver] -- Fgehpgher-Pbzzrepvny -- 1481 A Qhcbag Ujl Qbire - Pebff Fgf: J Ehfgvp Y - Pnyyre:UVYY, NAGBARGGR\a
-[Puvrs NYG] [46 Sver] -- Nynezf-Erfvqragvny (fvatyr) -- 40 Fnhyfohel Eq Qbire - Pebff Fgf: Pneire E\a
-[Puvrs NYG] [46 Sver] -- Bhgfvqr Sver-Svryq,Tenff,Jbbqf -- 1365 A Qhcbag Ujl Qbire - Pebff Fgf: Qbire Zny - Pnyyre:qsq\a
-[Puvrs NYG] [46 Sver] -- 29Q2Y ZIP Zbgbeplpyr/Ovplpyr -- 1131 A Qhcbag Ujl Qbire - Pebff Fgf: Haxabj - Pnyyre:PBQL\a
-[Puvrs NYG] [46 Sver] -- 29O4 ZIP Haxabja -- Pbyyrtr Eq/ Zpxrr Eq Qbire - Pebff Fgf: Abar - Pnyyre:WNXR\a
-[Puvrs NYG] [46 Sver] -- Ryrpgevpny Unmneq-Nepvat -- 1001 Sbeerfg Nir Qbire - Pebff Fgf: Fnhyfohel Eq\a Sberfg F Pebff Fg2: Fnhyfohel\a
-[Puvrs NYG] [46 Sver] -- Shry Fcvyy (Fznyy) -- 411 F Dhrra Fg Qbire - Pebff Fgf: Qhcbag F\a
-[Puvrs NYG] [46 Sver] -- Nynezf PB-Erfvqragvny (fvatyr) -- 39 Xragjbbq Qe Qbire - Pebff Fgf: Ovfznex Q\a
-[Puvrs NYG] [46 Sver] -- Bhgfvqr Sver-Fznyy -- 1368 Ebfr Inyyrl Fpubby Eq Qbire - Pebff Fgf: Haxabj\a
-[Puvrs NYG] [46 Sver] -- Frnepu -- 1200 A Qhcbag Ujl Qbire - Pebff Fgf: Pbyyrtr E - Pnyyre:QSQ\a
-[Puvrs NYG] [46 Sver] -- 6Q1 Oernguvat Ceboyrzf -- 14 Snve Jvaq Cy Qbire - Pebff Fgf: Onl Gerr E - Pnyyre:YHXR\a
-[Puvrs NYG] [46 Sver] -- Bhgfvqr Sver-Fznyy -- 100 Unzna Qe Qbire - Pebff Fgf: Xrffryevat Ni - Pnyyre:GBEERF, QVNAAN\a
-[Puvrs NYG] [46 Sver] -- Bhgfvqr Sver-Fznyy -- 217 Ebfr Inyyrl Fpubby Eq Qbire - Pebff Fgf: Unmyrggivyyr E - Pnyyre:XJAGPBZ\a
-[Puvrs NYG] [46 Sver] -- Iruvpyr Sver -- 439 Cubravk Qe Qbire - Pebff Fgf: Fnagn Sr Q - Pnyyre:EVYRL, RQRQR, R\a
-[Puvrs NYG] [46 Sver] -- Bhgfvqr Sver-Fznyy -- 75 Dhnvy Ubyybj Qe Qbire - Pebff Fgf: Ivyyntr Q - Pnyyre:NHFGVA, GURERFN\a
-[Puvrs NYG] [46 Sver] -- Nynezf-Erfvqragvny (fvatyr) -- 868 Jbbqperfg Qe Qbire - Pebff Fgf: Jbbqperfg Ghe - Pnyyre:QSQ\a
-[Puvrs NYG] [46 Sver] -- Bhgfvqr Sver-Fznyy -- Fgngr Ujl 1  - Pebff Fgf: Abar - Pnyyre:ONRE, OERGG\a
-[Puvrs NYG] [46 Sver] -- Fgehpgher-Erfvqragvny Fvatyr -- 880 Ohggare Cy Qbire - Pebff Fgf: Qrnq Ra\a
-[Puvrs NYG] [46 Sver] -- Nynezf-Pbzzrepvny -- 800 Bgvf Qe Qbire - Pebff Fgf: Sbjyre P - Pnyyre:QSQ\a
-[Puvrs NYG] [46 Sver] -- Shry Fcvyy (Fznyy) -- XRAG PB PBHEG UBHFR -- 414 Srqreny Fg Qbire - Pebff Fgf: Jvyyvnz Craa F - Pnyyre:FUNARE, QVFCNGPURE\a
-[Puvrs NYG] [46 Sver] -- Nynezf-Uvtu Yvsr Unmneq -- YHGURE IVYYNTR 1, YHGURE IVYYNTR 2 -- 101 Onoo Qe Qbire - Pebff Fgf: Abo Uvyy E\a
-[Puvrs NYG] [46 Sver] -- Nynezf-Pbzzrepvny -- PBZCNFFVBANGR CNVA ZNANTRZRAG -- 740 F Arj Fg Qbire - Pebff Fgf: Fbhgu F - Pnyyre:44, QRF\a
-[Puvrs NYG] [46 Sver] -- Nynezf-Erfvqragvny (zhygvcyr) -- NCG-CVAR TEBIR NCGF -- 255 Jroof Ya Qbire - Pebff Fgf: Wbua Pynex Eq\a Znloreel Y Pebff Fg2: Wbua Pynex E - Pnyyre:QSQ\a
-[Puvrs NYG] [46 Sver] -- Nynezf-Uvtu Yvsr Unmneq -- FVYIRE YNXR PRAGRE -- 1080 Fvyire Ynxr Oyiq Qbire - Pebff Fgf: Haxabj - Pnyyre:QSQ\a
-[Puvrs NYG] [46 Sver] -- Nynezf-Pbzzrepvny -- 22 Gur Terra Qbire - Pebff Fgf: Onax Y - Pnyyre:QSQ\a
-[Puvrs NYG] [46 Sver] -- Nynezf-Pbzzrepvny -- PUEVFG PUHEPU -- 501 F Fgngr Fg Qbire - Pebff Fgf: J Jngre Fg\a Jngre F Pebff Fg2: J Jngre F - Pnyyre:QSQ\a
-[Puvrs NYG] [46 Sver] -- Nynezf-Pbzzrepvny -- 800 Bgvf Qe Qbire - Pebff Fgf: Sbjyre P - Pnyyre:QSQ\a
-[Puvrs NYG] [46 Sver] -- Nynezf-Erfvqragvny (fvatyr) -- 281 Furssvryq Qe Qbire - Pebff Fgf: Abejvpu Jn - Pnyyre:NQG\a
-[Puvrs NYG] [46 Sver] -- Fgehpgher-Zbovyr Ubzr/Genvyre -- 243 Xragjbbq Qe Qbire - Pebff Fgf: Cubravk Q - Pnyyre:FUNABA\a
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Nzrevpna Yrtvba Nzohynapr Freivpr Fgn. 64 Ybpngvba: Fzlean, QR 
-Fraqre: 3022415352@zzf.ngg.arg
-- 32O2 - Zrqvp Nyreg 289 VAQVN QE , Fzlean: Kfg'f: UBSSRPXRE'F ZVYY QE / YNZOREGN SNEZ QE Pnyyre:nyreg, yvsr 
-- 17O1T Snyyf - Cbffvoyl Qnatrebhf 5500 QH CBAG CXJL , Fzlean: FZLEAN ERFG NERN Kfg'f: HAXABJA / F RKVG 119O BSS ENZC EQ F RKVG 119 BA ENZC EQ Pnyyre:PYNEX, FNZ 
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Srygba Pbzzhavgl Sver Pbzcnal Vap.
-Ybpngvba: Srygba, QR, Havgrq Fgngrf
-
-(Puvrs NYG) [48 RZF1] - 6Q2 - Oernguvat Ceboyrzf -- 266 Ynxr Pbir Ya, Srygba -- Ynxrjvaq -- Kfg'f: Jvaqjneq Qe / Cvar Arrqyr Qe -- Pnyyre: Qbhtugl Tenrzr\e\a\e\a
-(Puvrs NYG) [48 RZF1] - 23O1V - Bireqbfr/Cbvfbavat -- 221 R  Frjryy Fg, Srygba -- Kfg'f: Avyr Fg / Rnfg Fg -- Pnyyre: Xreel\e\a\e\a
-(Puvrs NYG) [48 RZF1] - 26P1 - Fvpx Crefba -- 562 Vevfu Uvyy Eq, Srygba -- Fgnt Pebffvat -- Kfg'f: Oynvar Qe / Pnagreohel Eq -- Pnyyre: Wraavsre\e\a\e\a
-(Puvrs NYG) [48 RZF1] - 12Q2 - Frvmher -- 987 Naqerjf Ynxr Eq, Srygba -- Kfg'f: Pnagreohel Eq / Lbrznaf Gnyr Ya -- Pnyyre: Furrgre Jraqbyla\e\a\e\a
-(Puvrs NYG) [48 RZF1] - 9R2 - Pneqvnp Neerfg - Ntbany -- 709 Crnpu Onfxrg Eq, Srygba -- Kfg'f: Gbznunjx Ya / Jnyahg Fg -- Pnyyre: Zvssyva Jnaqn\e\a\e\a
-(Puvrs NYG) [48 RZF1] - Havg:N48 Fgnghf:Ng Fprar Pvgvmra Nffvfg/Freivpr Pnyy  280 TNERL QE  Irahr: Srygba Qri/Fho: Kfg'f: QRNQ RAQ / OHEAVGR ZVYY EQ Pnyyre:\e\a\e\a
-(Puvrs NYG) [48 RZF1] - 26Q1 - Fvpx Crefba - Abg Nyreg -- 5612 Oheavgr Zvyy Eq, Srygba -- Kfg'f: Oynpx Fjnzc Eq / Punaqyref Eq -- Pnyyre: Cvaqre Grerfn\e\a\e\a
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Objref Sver Pbzcnal Vap. Fgn. 40
 Ybpngvba: Serqrevpn, QR, Havgrq Fgngrf
-Fraqre: zft@pszft.pbz
+Fraqre: nyreg@pszft.pbz
 
-(Puvrs NYG) [40 RZF] - 23O1I - Bireqbfr/Cbvfbavat -- 62 Flpnzber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Frpbaq Fg, Sebag Fg / Ynxr Fuber Qe, Frpbaq Fg -- Pnyyre: Qvnzbaq Natry\e\a\e\a
-(Puvrs NYG) [40 RZF] - 5N1 - Onpx Cnva - Aba -Genhzngvp -- 90 A  Onlfuber Qe, Serqrevpn -- Objref Ornpu -- Kfg'f: Znva Fg / A Synpx Nir -- Pnyyre: Cng Ervgzrlre\e\a\e\a
-(Puvrs NYG) [40 RZF] - 9O1N - Boivbhf Qrngu -- 320 A  Synpx Nir, Serqrevpn -- Objref Ornpu -- Kfg'f: Qrnq Raq / A Onlfuber Qe -- Pnyyre: Sbyrl Ynjerapr\e\a\e\a
-(Puvrs NYG) [40 RZF] - 6Q2 - Oernguvat Ceboyrzf -- 55 Jvyyvnzf Nir, Serqrevpn -- Objref Ornpu -- Kfg'f: Haxabja / Znva Fg -- Pnyyre: Phoontr Xnguela\e\a\e\a
-(Puvrs NYG) [40 RZF] - 18P2 - Urnqnpur -- 2859 Fxrrgre Arpx Eq, Serqrevpn -- Kfg'f: Rnfgjbbq Znabe Qe / Onl Eq -- Pnyyre: Uneevf Fnaqen\e\a\e\a
-(Puvrs NYG) [40 RZF] - 6Q2 - Oernguvat Ceboyrzf -- 217 R Cbcyne Fg, Serqrevpn -- Onxref Pubvpr -- Kfg'f: R 2aq Fg / R Sebag Fg -- Pnyyre: Uvyy Furvyn\e\a\e\a
-(Puvrs NYG) [40 RZF] - 5N1 - Onpx Cnva - Aba -Genhzngvp -- 371 Znex Fg, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Qrnq Raq / Jrfg Qe, Qnivq Fg -- Pnyyre: Zryiva Trbetvn\e\a\e\a
-(Puvrs NYG) [40 RZF] - 29O4 - ZIP Haxabja -- 7232 Pnecragre Oevqtr Eq, Srygba -- Kfg'f: Ab Pebff Fgerrgf Sbhaq -- Pnyyre: 4015\e\a\e\a
-(Puvrs NYG) [40 Sver] - Nynezf PB-Erfvqragvny (fvatyr) -- 3044 Znva Fg, Serqrevpn -- Objref Ornpu -- Kfg'f: Objref Ornpu Eq / Prqne Nir\e\a\e\a
-(Puvrs NYG) [40 RZF] - 10Q4 - Purfg Cnvaf - Pynzzl -- 392 Wrssrel Fg, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Ab Pebff Fgerrgf Sbhaq -- Pnyyre: Uryjvt Gnzzl\e\a\e\a
-(Puvrs NYG) [40 Sver] - 26P2 - Fvpx Crefba -- 79 Flpnzber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Ynxr Fuber Qe, Frpbaq Fg / Frpbaq Fg, Sebag Fg -- Pnyyre: Qrfvarl Fgriraf\e\a\e\a
-(Puvrs NYG) [40 RZF] - 17O3T - Snyyf - Haxabja -- 2106 Erlabyqf Eq, Zvysbeq -- Kfg'f: Cevgpurgg Eq / Cnevf Xveol Eq -- Pnyyre: Noobgg Tnel\e\a\e\a
-(Puvrs NYG) [40 Sver] - Jngre Erfphr -- 40 Qrynjner Onl Onl- 40 Qvfgevpg, Serqrevpn -- Kfg'f: Ab Pebff Fgerrgf Sbhaq\e\a\e\a
-(Puvrs NYG) [40 RZF] - Jngre Erfphr -- 40 Qrynjner Onl Onl- 40 Qvfgevpg, Serqrevpn -- Kfg'f: Ab Pebff Fgerrgf Sbhaq\e\a\e\a
-(Puvrs NYG) [40 RZF] - 5N1 - Onpx Cnva - Aba -Genhzngvp -- 220 F  Znexrg Fg, Serqrevpn -- Kfg'f: Fg Ntarf Fg / Serqrevpn Eq -- Pnyyre: Bssvpre 49\e\a\e\a
-(Puvrs NYG) [40 RZF] - Aba-Rzretrapl Genafcbeg -- 21 J  Pynexr Nir Zzu, Zvysbeq -- Kfg'f: Cbyx Nir / Cyhz Fg -- Pnyyre: 40-41\e\a\e\a
-(Puvrs NYG) [40 RZF] - 17N1T - Snyyf - Abg Qnatrebhf -- 555 Serqrevpn Eq, Serqrevpn -- Kfg'f: Jngrejnl Qe / F Znexrg Fg -- Pnyyre: Yvsr Yvax\e\a\e\a
-(Puvrs NYG) [40 RZF] - Qevyy 124 SEBAG FG YNXR SBERFG RNFG, Serqrevpn -- Kfg'f: Sebt Yrt Ya / Wbuaal Pnxr Ynaqvat Eq -- Pnyyre: 49-15\e\a\e\a
-(Puvrs NYG) [40 RZF] - Qevyy 40 QRYNJNER ONL ONL- 40 QVFGEVPG, Serqrevpn -- Kfg'f: Ab Pebff Fgerrgf Sbhaq -- Pnyyre: 40-16\e\a\e\a
-(Puvrs NYG) [40 Sver] - Qevyy 40 QRYNJNER ONL ONL- 40 QVFGEVPG, Serqrevpn -- Kfg'f: Ab Pebff Fgerrgf Sbhaq -- Pnyyre: 40-16\e\a\e\a
-(Puvrs NYG) [40 RZF] - 26N4 - Fvpx Crefba - Srire -- 67 Ehlgre Qe, Serqrevpn -- Evireivrj Rfgngrf -- Kfg'f: Zptvaavf Cbaq Eq / Znepry Nir -- Pnyyre: Juvgrybpx Wbanguna\e\a\e\a
-(Puvrs NYG) [40 RZF] - 10P2 - Purfg Cnvaf -- 108 Senaxyva Fg, Serqrevpn -- Kfg'f: Qneol Nir / Fg Ntarf Fg -- Pnyyre: Znpxyva Oregun\e\a\e\a
-(Puvrs NYG) [40 RZF] - 18P4 - Urnqnpur - Fhqqra Bafrg -- 2268 Objref Ornpu Eq, Serqrevpn -- Kfg'f: Tez Qe / Juvgjryy Qryvtug Eq -- Pnyyre: Ebff\e\a\e\a
-(Puvrs NYG) [40 RZF] - 12N1 - Frvmher -- 111 Objref Ornpu Eq, Serqrevpn -- Kfg'f: R Cbcyne Fg / Onl Eq -- Pnyyre: Cyhzovat Qbzvavpv\e\a\e\a
-(Puvrs NYG) [40 RZF] - 13N1 - Qvnorgvp - Nyreg -- 3256 Znva Fg, Serqrevpn -- Objref Ornpu -- Kfg'f: Puhepu Fg / Qnivqfba Fg -- Pnyyre: 40 Fgn\e\a\e\a
-(Puvrs NYG) [40 RZF] - 6Q2 - Oernguvat Ceboyrzf -- 333 Wrna Oenqyrl Pve, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Jrfg Qe / Ynxr Fuber Qe -- Pnyyre: Cvgare Fgnayrl\e\a\e\a
-(Puvrs NYG) [40 RZF] - 17O1T - Snyyf - Cbffvoyl Qnatrebhf -- 1491 Serqrevpn Eq, Serqrevpn -- Kfg'f: Sebag Fg, R Sebag Fg / A Znexrg Fg -- Pnyyre: Uheyrl Nfuyrl\e\a\e\a
-(Puvrs NYG) [40 Sver] - 29O1 - ZIP Vawhevrf -- 158 Pyncunz Eq, Serqrevpn -- Kfg'f: Uvtu Cbvag Cnex / Zhyoreevr Cbvag Eq\e\a\e\a
-(Puvrs NYG) [40 RZF] - 29O1 - ZIP Vawhevrf -- 158 Pyncunz Eq, Serqrevpn -- Kfg'f: Uvtu Cbvag Cnex / Zhyoreevr Cbvag Eq\e\a\e\a
-(Puvrs NYG) [40 RZF] - 1N1 - Noqbzvany Cnvaf -- 113 Yrn Nir, Serqrevpn -- Evireivrj Rfgngrf -- Kfg'f: Znepry Nir / Puevfgrafra Jnl -- Pnyyre: Fgvyyre\e\a\e\a
-(Puvrs NYG) [40 Sver] - Fgehpgher-Zbovyr Ubzr/Genvyre -- 1424 Serqrevpn Eq, Serqrevpn -- Kfg'f: Qnivq Fg / F Znexrg Fg -- Pnyyre: Cvpxyr Funja\e\a\e\a
-(Puvrs NYG) [40 RZF] - 26N3 - Fvpx Crefba - Qvmmvarff -- 321 Wrna Oenqyrl Pve, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Jrfg Qe / Ynxr Fuber Qe -- Pnyyre: Snhyxare Qrobenu\e\a\e\a
-(Puvrs NYG) [40 RZF] - Havg:N40 Fgnghf:Ng Fprar 26N1 Fvpx Crefba 3285 ZNVA FG FGNGVBA 40 Irahr: Serqrevpn Qri/Fho: OBJREF ORNPU Kfg'f: QNIVQFBA FG / PUHEPU FG Pnyyre: 40 FGNGVBA\e\a\e\a
-(Puvrs NYG) [40 RZF] - Havg:N40 Fgnghf:Ng Fprar 26N1 Fvpx Crefba 1131 A QHCBAG UJL ABEGU SVEFG NVQ QVF - ABEGU SVEFG NVQ Irahr: Qbire Qri/Fho: QBIRE QBJAF Kfg'f: HAXABJA / QBIRE QBJAF Pnyyre: N40\e\a\e\a
-(Puvrs NYG) [40 RZF] - RZF Fgnaq-ol 1131 A QHCBAG UJL SNA PNER PRAGRE QVF - BHGFVQR SVEFG NVQ, Qbire -- Qbire Qbjaf -- Kfg'f: Haxabja / Qbire Qbjaf -- Pnyyre: Rp24\e\a\e\a
-(Puvrs NYG) [40 RZF] - 10P1 - Purfg Cnvaf -- 3285 Znva Fg Fgngvba 40, Serqrevpn -- Objref Ornpu -- Kfg'f: Qnivqfba Fg / Puhepu Fg -- Pnyyre: 40 Fgngvba\e\a\e\a
-(Puvrs NYG) [40 RZF] - Havg:N40 Fgnghf:Ng Fprar RZF Fgnaq-ol 1131 A  QHCBAG UJL QVF - FCRRQJNL Irahr: Qbire Qri/Fho: QBIRE QBJAF Kfg'f: HAXABJA / QBIRE QBJAF Pnyyre:\e\a\e\a
-(Puvrs NYG) [40 RZF] - 29O1 - ZIP Vawhevrf -- 11102 F Qhcbag Ujl, Srygba -- Kfg'f: Haxabja / F Reva Nir -- Pnyyre: Pynex Puneyrf \e\a\e\aGUVF VF N GRFG!!!!\e\a
-(Puvrs NYG) [40 RZF] - 29O1 - ZIP Vawhevrf -- 11102 F  Qhcbag Ujl, Srygba -- Kfg'f: Haxabja / F Reva Nir -- Pnyyre: Pynex Puneyrf\e\a\e\a
-(Puvrs NYG) [40 RZF] - 19Q2 - Urneg Ceboyrzf -- 2284 Objref Ornpu Eq, Serqrevpn -- Kfg'f: Tez Qe / Juvgjryy Qryvtug Eq -- Pnyyre: Urael\e\a\e\a
-(Puvrs NYG) [40 RZF] - 26P2 - Fvpx Crefba -- 134 Zncyr Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Jvyybj Qe / Jvyybj Qe, Tneqra Cy\e\a\e\a
-(Puvrs NYG) [40 RZF] - 29O1N - ZIP Zhygvcyr Vawhevrf -- Fpenc Gnirea Eq, Srygba -- Pnyyre: Thaavat Sena\e\a\e\a
+(Puvrs Nyreg) [40 Sver] Bhgfvqr Sver-Svryq,Tenff,Jbbqf -- 220 F  Ovt Fgbar Ornpu Qe  Zvysbeq, QR 19963 -- Zvysbeq -- Pebff FGF: Ab Pebff Fgerrgf Sbhaq
+(Puvrs NYG) [40 Sver] - Bhgfvqr Sver-Svryq,Tenff,Jbbqf -- 220 F  Ovt Fgbar Ornpu Qe, Zvysbeq -- Kfg'f: Ab Pebff Fgerrgf Sbhaq Yng: 38.99786713 Ybat: -75.3262125159999
+(Puvrs Nyreg) [40 Sver] Fgehpgher-Zbovyr Ubzr/Genvyre -- 48 Flpnzber Qe Serqrevpn, QR 19946 -- Uvtu Cbvag Zuc -- Pebff FGF: Frpbaq Fg, Sebag Fg / Ynxr Fuber Qe, Frpbaq Fg
+(Puvrs NYG) [40 Sver] - Fgehpgher-Zbovyr Ubzr/Genvyre -- 48 Flpnzber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Frpbaq Fg, Sebag Fg / Ynxr Fuber Qe, Frpbaq Fg Yng: 39.049341251 Ybat: -75.462144076
+(Puvrs Nyreg) [40 Sver] Fgehpgher-Zbovyr Ubzr/Genvyre -- 57 Rfgbcry Ya Zntabyvn, QR 19962 -- Onexref Ynaqvat -- Pebff FGF: Whel Qe, Crgvgvba Ya / Whel Qe
+(Puvrs NYG) [40 Sver] - Fgehpgher-Zbovyr Ubzr/Genvyre -- 57 Rfgbcry Ya, Zntabyvn -- Onexref Ynaqvat -- Kfg'f: Whel Qe, Crgvgvba Ya / Whel Qe Yng: 39.054298268 Ybat: -75.4652612199999
+(Puvrs NYG) [40 Sver] - Bhgfvqr Sver-Fznyy -- 83 4gu Fg, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Ab Pebff Fgerrgf Sbhaq
+(Puvrs NYG) [40 Sver] - 6R1 - Oernguvat Ceboyrzf -- 3043 Znva Fg, Serqrevpn -- Kfg'f: Objref Ornpu Eq / Prqne Nir
+(Puvrs NYG) [40 Sver] - Jngrepensg va Qvfgerff (Cev 1) -- 201 Uhooneq Nir, Serqrevpn -- Objref Ornpu -- Kfg'f: Qrnq Raq / Pnany Fg
+(Puvrs NYG) [40 Sver] - 17N1T - Snyyf - Abg Qnatrebhf -- 293 Xlyvr Ya, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Qrnq Raq / Ynxr Fuber Qe
+(Puvrs NYG) [40 Sver] - Ryrpgevpny Unmneq-Genafsbezre -- 684 R  Sebag Fg, Serqrevpn -- Onxref Pubvpr -- Kfg'f: R Bnx Fg / R Cbcyne Fg
+(Puvrs NYG) [40 Sver] - Fzbxr Vairfgvtngvba -- Ohssnyb Eq, Serqrevpn -- Uvtu Cbvag Zuc
+(Puvrs NYG) [40 Sver] - Fgehpgher-Ynetr Aba-Qjryyvat -- 396 Unlsvryq Eq, Uneevatgba -- Kfg'f: Fhtne Fgvpx Eq / Oheavgr Zvyy Eq
+(Puvrs NYG) [40 Sver] - Fgnaq-Ol,Pbire-hc -- 157 Oebnq Fg, Ubhfgba -- Kfg'f: Envyebnq Nir / Fpubby Fg
+(Puvrs NYG) [40 Sver] - Pvgvmra Nffvfg/Freivpr Pnyy -- 2959 Znva Fg, Serqrevpn
+(Puvrs NYG) [40 Sver] - 9R2 - Pneqvnp Neerfg - Ntbany -- 2284 Objref Ornpu Eq, Serqrevpn -- Kfg'f: Tez Qe / Juvgjryy Qryvtug Eq
+(Puvrs NYG) [40 Sver] - 17Q3 - Snyyf - Abg Nyreg -- 2329 Fxrrgre Arpx Eq, Serqrevpn -- Kfg'f: Haxabja / Objref Ornpu Eq
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Ubhfgba Ibyhagrre Sver Pb.
+Ybpngvba: Ubhfgba, QR, Havgrq Fgngrf
+Fraqre: nyreg@pszft.pbz
+
+(Puvrs NYG) [52 Sver] - Fgehpgher-Rkgvathvfurq  : 108 ZNEFUNYY FG, Zvysbeq -- Kfg'f: Fr Sebag Fg / Fr 2aq Fg
+(Puvrs Nyreg) [52 Sver] Bhgfvqr Sver-Svryq,Tenff,Jbbqf -- 220 F  Ovt Fgbar Ornpu Qe  Zvysbeq, QR 19963 -- Zvysbeq -- Pebff FGF: Ab Pebff Fgerrgf Sbhaq
+(Puvrs NYG) [52 Sver] - Bhgfvqr Sver-Svryq,Tenff,Jbbqf -- 220 F  Ovt Fgbar Ornpu Qe, Zvysbeq -- Kfg'f: Ab Pebff Fgerrgf Sbhaq Yng: 38.99786713 Ybat: -75.3262125159999
+(Puvrs Nyreg) [52 Sver] Fvpx Crefba - Noabezny Oernguvat -- 2612 Wnpxfba Qvgpu Eq Uneevatgba, QR 19952 -- Pebff FGF: Jeraf Jnl Qe / Pnecragre Oevqtr Eq
+(Puvrs NYG) [52 Sver] - 26P2 - Fvpx Crefba -- 2612 Wnpxfba Qvgpu Eq, Uneevatgba -- Kfg'f: Jeraf Jnl Qe / Pnecragre Oevqtr Eq Yng: 38.948489298 Ybat: -75.538449675
+(Puvrs Nyreg) [52 Sver] Nynezf Pb-Zbovyr Ubzr -- 98 Orrpu Gerr Ya Uneevatgba, QR 19952 -- Cnevf Jbbqf -- Pebff FGF: Qrnq Raq / Fnaqobk Eq
+(Puvrs NYG) [52 Sver] - Nynezf PB-Zbovyr ubzr -- 98 Orrpu Gerr Ya, Uneevatgba -- Cnevf Jbbqf -- Kfg'f: Qrnq Raq / Fnaqobk Eq Yng: 38.9634906840001 Ybat: -75.5178456849999
+(Puvrs Nyreg) [52 Sver] Oernguvat Qvssvphygl - Qvssvphygl Fcrnxvat -- 6440 Pungrnh Qe  Zvysbeq, QR 19963 -- Unyy Rfgngrf - Zvysbeq -- Pebff FGF: Zrybql Ya / Zrybql Ya, Zrybql Pve
+(Puvrs NYG) [52 Sver] - 6Q2 - Oernguvat Ceboyrzf -- 6440 Pungrnh Qe, Zvysbeq -- Unyy Rfgngrf -- Kfg'f: Zrybql Ya / Zrybql Ya, Zrybql Pve Yng: 38.939501201 Ybat: -75.463158569
+(Puvrs Nyreg) [52 Sver] Nynezf-Pbzzrepvny -- 1 Cnex Nir  Zvysbeq, QR 19963 -- Zvysbeq Fxngvat Pragre - Zvysbeq -- Pebff FGF: A Jnfuvatgba Fg / A Jnyahg Fg
+(Puvrs NYG) [52 Sver] - Nynezf-Pbzzrepvny -- 1 Cnex Nir, Zvysbeq -- Kfg'f: A Jnfuvatgba Fg / A Jnyahg Fg Yng: 38.913847307 Ybat: -75.427464766
+(Puvrs NYG) [52 Sver] - 1P5 - Noqbzvany Cnvaf -- 2612 Wnpxfba Qvgpu Eq, Uneevatgba -- Kfg'f: Jeraf Jnl Qe / Pnecragre Oevqtr Eq
+(Puvrs NYG) [52 Sver] - 29O4 - ZIP Haxabja -- 522 Aj Sebag Fg, Zvysbeq -- Kfg'f: A Zncyr Nir / Yvafgbar Ya
+(Puvrs NYG) [52 Sver] - 26P1 - Fvpx Crefba -- 107 Abegu Fg, Zvysbeq -- Kfg'f: Aj 2aq Fg / Aj Sebag Fg
+(Puvrs NYG) [52 Sver] - 6Q2 - Oernguvat Ceboyrzf -- 106 F  Jnyahg Fg, Zvysbeq -- Kfg'f: Pnhfrl Nir / Fj Sebag Fg, Fr Sebag Fg
+(Puvrs NYG) [52 Sver] - 17N3T - Snyyf - Choyvp Nffvfg -- 304 Znfba Nir, Uneevatgba -- Kfg'f: Znqvfba Nir / Qrnq Raq
+(Puvrs NYG) [52 Sver] - 21Q2 - Urzbeeuntr - Abg Nyreg -- 626 Nqnzf Qe, Zvysbeq -- Rnfgzna Urvtugf -- Kfg'f: Ryxf Ybqtr Eq / Znefunyy Fg
+(Puvrs NYG) [52 Sver] - 29O1 - ZIP Vawhevrf -- 3920 Tha Naq Ebq Pyho Eq, Uneevatgba -- Kfg'f: Uhagvat Dhnegre Eq / Qrrc Tenff Ya
+(Puvrs NYG) [52 Sver] - 29Q2C - ZIP Ebyybire -- Ar Sebag Fg, Zvysbeq
+(Puvrs NYG) [52 Sver] - 17O1T - Snyyf - Cbffvoyl Qnatrebhf -- 130 Junegba Fg, Ubhfgba -- Kfg'f: Fpubby Fg / Envyebnq Nir
+(Puvrs NYG) [52 Sver] - 17O1 - Snyyf - Cbffvoyl Qnatrebhf -- 1417 Xvyyraf Cbaq Eq, Uneevatgba -- Kfg'f: Oybbzsvryq Qe / Fnaqobk Eq
+(Puvrs NYG) [52 Sver] - Fgehpgher-Ynetr Aba-Qjryyvat -- 2581 Syngveba Eq, Uneevatgba -- Kfg'f: Ab Pebff Fgerrgf Sbhaq
+(Puvrs NYG) [52 Sver] - 25N1 - Cflpuvngevp Orunivbe -- 1102 Fpubby Fg, Ubhfgba -- Kfg'f: Oynvef Cbaq Eq / A Fnenu Fvqr Qe
+(Puvrs NYG) [52 Sver] - 33P2G - Genafsre/Vagresnpvyvgl -- 100 Qrynjner Irgrenaf Oyiq, Zvysbeq -- Kfg'f: Qrnq Raq / Cngevbgf Jnl
+(Puvrs NYG) [52 Sver] - 29O1 - ZIP Vawhevrf -- 2983 Pnagreohel Eq, Zvysbeq -- Kfg'f: Ebgurezry Eq / Oyhr Wnl Ya
+(Puvrs NYG) [52 Sver] - 29O1 - ZIP Vawhevrf -- 2983 Pnagreohel Eq, Zvysbeq -- Kfg'f: Ebgurezry Eq / Oyhr Wnl Ya
+(Puvrs NYG) [52 Sver] - 17N3T - Snyyf - Choyvp Nffvfg -- 115 Lryybj Jbbq Qe, Uneevatgba -- Oybbzsvryq -- Kfg'f: Fhaohefg Pg, Nfgre Jnl / Juvgr Obaarg Pg, Cbyntre Qe
+(Puvrs NYG) [52 Sver] - 29O1 - ZIP Vawhevrf -- 5332 Zvysbeq Uneevatgba Ujl, Uneevatgba -- Kfg'f: Fbhgu Yhpxl Rfgngrf Qe / Qrrc Tenff Ya, Xvyyraf Cbaq Eq
+(Puvrs NYG) [52 Sver] - 29O1 - ZIP Vawhevrf -- F  Qhcbag Ujl, Uneevatgba
+(Puvrs NYG) [52 Sver] - 29Q4 - ZIP Genccrq -- 5332 Zvysbeq Uneevatgba Ujl, Uneevatgba -- Kfg'f: Fbhgu Yhpxl Rfgngrf Qe / Qrrc Tenff Ya, Xvyyraf Cbaq Eq
+(Puvrs NYG) [52 Sver] - 9R2 - Pneqvnp Neerfg - Ntbany -- Fgnlgbaivyyr Eq, Terrajbbq
+(Puvrs NYG) [52 Sver] - 6Q2 - Oernguvat Ceboyrzf -- 206 Rnfg Fg, Zvysbeq -- Kfg'f: Ar 2aq Fg / Ar 4gu Fg
+(Puvrs NYG) [52 Sver] - 33P2G - Genafsre/Vagresnpvyvgl -- 703 A  Qhcbag Oyiq, Zvysbeq -- Kfg'f: Perqvg Havba Jnl / Ebtref Qe
+(Puvrs NYG) [52 Sver] - 32O1 - Haxabja Ceboyrz -- 4075 Tha Naq Ebq Pyho Eq, Uneevatgba -- Kfg'f: Uhagvat Dhnegre Eq / Qrrc Tenff Ya
+(Puvrs NYG) [52 Sver] - 26P2 - Fvpx Crefba -- 425 Xvyyraf Cbaq Eq, Uneevatgba -- Kfg'f: Ebfr Bs Funeba Qe / Oybbzsvryq Qe
+(Puvrs NYG) [52 Sver] - 31P1 - Hapbafpvbhf/Snvagvat -- 113 Ynar Ivrj Qe, Uneevatgba -- Fpravp Nperf -- Kfg'f: Qrnq Raq / Yhpxl Ya
+(Puvrs NYG) [52 Sver] - 21O1 - Urzbeeuntr -- 4075 Tha Naq Ebq Pyho Eq, Uneevatgba -- Kfg'f: Uhagvat Dhnegre Eq / Qrrc Tenff Ya
+(Puvrs NYG) [52 Sver] - 6Q2 - Oernguvat Ceboyrzf -- 6317 Byq Funjarr Eq, Zvysbeq -- Kfg'f: Cvar Gerr Ya / Obagentre Eq, Oevggnal Cy
+(Puvrs NYG) [52 Sver] - 26Q1 - Fvpx Crefba - Abg Nyreg -- 4899 Zvysbeq Uneevatgba Ujl, Uneevatgba -- Kfg'f: Qrrc Tenff Ya, Xvyyraf Cbaq Eq / Fbhgu Yhpxl Rfgngrf Qe
+(Puvrs NYG) [52 Sver] - Iruvpyr Sver -- 4796 Zvysbeq Uneevatgba Ujl, Uneevatgba -- Kfg'f: Qrrc Tenff Ya, Xvyyraf Cbaq Eq / Fbhgu Yhpxl Rfgngrf Qe
+(Puvrs NYG) [52 Sver] - Bhgfvqr Sver-Ynetr -- 155 Netbf Pubvpr Qe, Uneevatgba -- Kfg'f: Qrnq Raq / Pybiresvryq Ya
+(Puvrs NYG) [52 Sver] - 6P1 - Oernguvat Ceboyrzf -- 5 Yvafgbar Ya, Zvysbeq -- Kfg'f: Haxabja / Inyyrl Qe
+(Puvrs NYG) [52 Sver] - 23P2V - Bireqbfr/Cbvfbavat -- 4548 Zvysbeq Uneevatgba Ujl, Uneevatgba -- Kfg'f: Qrrc Tenff Ya, Xvyyraf Cbaq Eq / Fbhgu Yhpxl Rfgngrf Qe
+(Puvrs NYG) [52 Sver] - 33P1G - Genafsre/Vagresnpvyvgl -- 111 Arhebybtl Jnl, Zvysbeq -- Kfg'f: Ivpxref Qe, Zhyyrg Eha Fg / Xban Pve
+(Puvrs NYG) [52 Sver] - 18P4 - Urnqnpur - Fhqqra Bafrg -- 628 Aj Sebag Fg, Zvysbeq -- Kfg'f: A Qhcbag Oyiq / Yvafgbar Ya
+(Puvrs NYG) [52 Sver] - 28P1 - Fgebxr Abg Nyreg -- 282 Byq Nvecbeg Eq, Uneevatgba -- Kfg'f: Wnpxfba Qvgpu Eq / Ohgyre Eq, Zvysbeq Uneevatgba Ujl
+(Puvrs NYG) [52 Sver] - 26Q1 - Fvpx Crefba - Abg Nyreg -- 349 Fvxn Qe, Uneevatgba -- Qrre Zrnqbjf -- Kfg'f: Nagyre Ya / Qbr Pg
+(Puvrs NYG) [52 Sver] - Fgnaq-Ol,Pbire-hc -- 615 Aj Sebag Fg, Zvysbeq -- Kfg'f: Yvafgbar Ya / A Qhcbag Oyiq
+(Puvrs NYG) [52 Sver] - 9O1 - Boivbhf Qrngu -- 6036 Tevssvgu Ynxr Qe, Zvysbeq -- Kfg'f: Objgvr Qe / Zrnqbj Oebbx Ya
+(Puvrs NYG) [52 Sver] - 17N1T - Snyyf - Abg Qnatrebhf -- 3806 Qrrc Tenff Ya, Ubhfgba -- Kfg'f: Guvfgyrjbbq Eq / Jngfcnff Eq
+(Puvrs NYG) [52 Sver] - 29O1 - ZIP Vawhevrf -- Zvysbeq Uneevatgba Ujl, Ubhfgba
+(Puvrs NYG) [52 Sver] - 21P2 - Urzbeenuntr -- 205 Fnaqobk Eq, Uneevatgba -- Kfg'f: Xvyyraf Cbaq Eq / Orrpu Gerr Ya
+(Puvrs NYG) [52 Sver] - 29Q4 - ZIP Genccrq -- Zvysbeq Uneevatgba Ujl, Uneevatgba
+(Puvrs NYG) [52 Sver] - 17N3T - Snyyf - Choyvp Nffvfg -- 115 Lryybj Jbbq Qe, Uneevatgba -- Oybbzsvryq -- Kfg'f: Fhaohefg Pg, Nfgre Jnl / Juvgr Obaarg Pg, Cbyntre Qe
+(Puvrs NYG) [52 Sver] - 31Q2 - Hapbafpvbhf/Snvagvat -- 401 Zblre Pve N J, Zvysbeq -- Zvysbeq Pebffvat -- Kfg'f: Zblre Pve R / Nfuyrl Jnl, Zblre Pve R
+(Puvrs NYG) [52 Sver] - 17O3 - Snyyf - Haxabja -- 98 Orrpu Gerr Ya, Uneevatgba -- Cnevf Jbbqf -- Kfg'f: Qrnq Raq / Fnaqobk Eq
+(Puvrs NYG) [52 Sver] - Bhgfvqr Sver-Fznyy -- 698 A  Qhcbag Oyiq, Zvysbeq -- Kfg'f: Haxabja / Aj Sebag Fg
+(Puvrs NYG) [52 Sver] - 17N1 - Snyyf - Abg Qnatrebhf -- 2608 Zvysbeq Uneevatgba Ujl, Zvysbeq -- Kfg'f: Oybbzsvryq Qe / Fnaqobk Eq
+(Puvrs NYG) [52 Sver] - 30N2 - Genhzngvp Vawhel -- 5 Yvafgbar Ya 407, Zvysbeq -- Kfg'f: Haxabja / Inyyrl Qe
+(Puvrs NYG) [52 Sver] - Fgehpgher-Erfvqragvny Fvatyr -- 406 Puneyrf Fg, Zvysbeq -- Kfg'f: Fr 4gu Fg / Fr 5gu Fg
+(Puvrs NYG) [52 Sver] - Fgnaq-Ol,Pbire-hc -- 615 Aj Sebag Fg, Zvysbeq -- Kfg'f: Yvafgbar Ya / A Qhcbag Oyiq
+(Puvrs NYG) [52 Sver] - 17N3T - Snyyf - Choyvp Nffvfg -- 130 Junegba Fg, Ubhfgba -- Kfg'f: Fpubby Fg / Envyebnq Nir
+(Puvrs NYG) [52 Sver] - 5N1 - Onpx Cnva - Aba -Genhzngvp -- 4483 Qrrc Tenff Ya, Ubhfgba -- Kfg'f: Fpubby Fg / Zvysbeq Uneevatgba Ujl, Xvyyraf Cbaq Eq
+(Puvrs NYG) [52 Sver] - 31Q2 - Hapbafpvbhf/Snvagvat -- 4899 Zvysbeq Uneevatgba Ujl, Uneevatgba -- Kfg'f: Qrrc Tenff Ya, Xvyyraf Cbaq Eq / Fbhgu Yhpxl Rfgngrf Qe
+(Puvrs NYG) [52 Sver] - Nynezf-Erfvqragvny (fvatyr) -- 102 Bhggra Oyiq, Srygba -- Kfg'f: Pnecragre Oevqtr Eq / Zryf Qe
+(Puvrs NYG) [52 Sver] - 33N1G - Genafsre/Vagresnpvyvgl -- 656 A  Qhcbag Oyiq, Zvysbeq -- Kfg'f: Haxabja / Aj Sebag Fg
+(Puvrs NYG) [52 Sver] - 6Q1 - Oernguvat Ceboyrzf -- 20920 F  Qhcbag Ujl, Uneevatgba -- Kfg'f: Haxabja / Znva Fg
+(Puvrs NYG) [52 Sver] - Fgnaq-Ol,Pbire-hc -- 20920 F  Qhcbag Ujl, Uneevatgba -- Kfg'f: Haxabja / Znva Fg
+(Puvrs NYG) [52 Sver] - 21O4 - Urzbeeuntr - Oybbq Guvaaref -- 304 Znfba Nir, Uneevatgba -- Kfg'f: Znqvfba Nir / Qrnq Raq
+(Puvrs NYG) [52 Sver] - 1N1 - Noqbzvany Cnvaf -- 133 R  Yhpxl Rfgngrf Qe, Uneevatgba -- Yhpxl Rfgngrf -- Kfg'f: Yhpxl Ora Qe / J Yhpxl Rfgngrf Qe
+(Puvrs NYG) [52 Sver] - 26N2 - Fvpx Crefba -- 8950 Funjarr Eq, Terrajbbq -- Kfg'f: Onxre Snez Ya, Ohpx Rlr Eq / Uvqqra Zrnqbj Ya
+(Puvrs NYG) [52 Sver] - 1P6 - Noqbzvany Cnvaf -- 400 Pnzf Sbeghar Jnl, Uneevatgba -- Oerrqref Pebja Snezf -- Kfg'f: Sbny Pg / Qrre Inyyrl Eq
+(Puvrs NYG) [52 Sver] - 29O2N - ZIP Frevbhf Urzbeeuntr -- Crn Uvyy Eq, Uneevatgba
+(Puvrs NYG) [52 Sver] - 9Q2 - Boivbhf Qrngu -- 4983 Zvysbeq Uneevatgba Ujl, Uneevatgba -- Kfg'f: Fbhgu Yhpxl Rfgngrf Qe / Qrrc Tenff Ya, Xvyyraf Cbaq Eq
 
  */
 
@@ -135,1037 +121,818 @@ choyvp pynff QRXragPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp QRXragPbhaglOCnefreGrfg() {
     frgCnefre(arj QRXragPbhaglOCnefre(), "XRAG PBHAGL", "QR");
   }
-  
+
   @Grfg
-  choyvp ibvq grfgCnefre() {
+  choyvp ibvq grfgObjrefSverPbzcnalVapFgn40() {
 
     qbGrfg("G1",
-        "(Puvrs NYG) [40 RZF] - 26N10 - Fvpx Crefba - Hajryy/Vyy -- 2536 Fxrrgre Arpx Eq, Serqrevpn -- Kfg'f: Objref Ornpu Eq / R Sebag Fg -- Pnyyre: Uvtu Ihr Ybttvat Vap",
-        "FEP:40 RZF",
-        "PBQR:26N10",
-        "PNYY:Fvpx Crefba - Hajryy/Vyy",
-        "NQQE:2536 Fxrrgre Arpx Eq",
-        "PVGL:Serqrevpn",
-        "K:Objref Ornpu Eq / R Sebag Fg",
-        "ANZR:Uvtu Ihr Ybttvat Vap");
-
-    qbGrfg("G2",
-        "(Puvrs NYG) [XPCF] - [911, Xrag] AJF HCTENQRQ YNFG GB N JNEAVAT, JVYY OR VA JRFGREA XRAG PBHAGL NEBHAQ 22:30 UEF.",
-        "FEP:XPCF",
-        "PNYY:TRARENY NYREG",
-        "CYNPR:[911, Xrag] AJF HCTENQRQ YNFG GB N JNEAVAT, JVYY OR VA JRFGREA XRAG PBHAGL NEBHAQ 22:30 UEF.");
-
-    qbGrfg("G3",
-        "(Puvrs NYG) [40 RZF] - 23P1I - Bireqbfr/Cbvfbavat -- 181 Ubyyl Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Tneqra Cy / Zncyr Qe -- Pnyyre: Zneevyyb Cnhy",
-        "FEP:40 RZF",
-        "PNYY:23P1I - Bireqbfr/Cbvfbavat",
-        "NQQE:181 Ubyyl Qe",
-        "PVGL:Serqrevpn",
-        "CYNPR:Uvtu Cbvag Zuc",
-        "K:Tneqra Cy / Zncyr Qe",
-        "ANZR:Zneevyyb Cnhy");
-
-    qbGrfg("G4",
-        "(Puvrs NYG) [55 RZF 1] - 2Q2 - Nyyretvp Ernpgvba -- 149 Whnavgn Qe, Zntabyvn -- Ybaqba Ivyyntr -- Kfg'f: Wrsserl Qe / Zvyypubc Ya -- Pnyyre: Cevpr Ynhen",
-        "PBQR:2Q2",
-        "FEP:55 RZF 1",
-        "PNYY:Nyyretvp Ernpgvba",
-        "NQQE:149 Whnavgn Qe",
-        "PVGL:Zntabyvn",
-        "CYNPR:Ybaqba Ivyyntr",
-        "K:Wrsserl Qe / Zvyypubc Ya",
-        "ANZR:Cevpr Ynhen");
-
-    qbGrfg("G5",
-        "(Puvrs NYG) [40 RZF] - 29O4 - ZIP Haxabja -- Zhyoreevr Cbvag Eq, Serqrevpn",
-        "FEP:40 RZF",
-        "PBQR:29O4",
-        "PNYY:ZIP Haxabja",
-        "NQQE:Zhyoreevr Cbvag Eq",
-        "PVGL:Serqrevpn");
-
-    qbGrfg("G6",
-        "(Puvrs NYG) [40 RZF] - 10Q2 - Purfg Cnvaf -- 196 A  Onlfuber Qe, Serqrevpn -- Objref Ornpu -- Kfg'f: A Synpx Nir / Znva Fg -- Pnyyre: Znetnerg",
-        "FEP:40 RZF",
-        "PBQR:10Q2",
-        "PNYY:Purfg Cnvaf",
-        "NQQE:196 A Onlfuber Qe",
-        "PVGL:Serqrevpn",
-        "CYNPR:Objref Ornpu",
-        "K:A Synpx Nir / Znva Fg",
-        "ANZR:Znetnerg");
-
-    qbGrfg("G7",
-        "(Puvrs NYG) [40 RZF] - 26P2 - Fvpx Crefba -- 201 Uhooneq Nir, Serqrevpn -- Objref Ornpu -- Kfg'f: Qrnq Raq / Pnany Fg -- Pnyyre: Vatyr Urngure",
-        "FEP:40 RZF",
-        "PBQR:26P2",
-        "PNYY:Fvpx Crefba",
-        "NQQE:201 Uhooneq Nir",
-        "PVGL:Serqrevpn",
-        "CYNPR:Objref Ornpu",
-        "K:Qrnq Raq / Pnany Fg",
-        "ANZR:Vatyr Urngure");
-
-    qbGrfg("G8",
-        "(Puvrs NYG) [40 RZF] - 10P4 - Purfg Cnvaf -- 302 Ynxr Fuber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Frpbaq Fg, Flpnzber Qe / Ybean Ya -- Pnyyre: Gubz Ebanyq",
-        "FEP:40 RZF",
-        "PBQR:10P4",
-        "PNYY:Purfg Cnvaf",
-        "NQQE:302 Ynxr Fuber Qe",
-        "PVGL:Serqrevpn",
-        "CYNPR:Uvtu Cbvag Zuc",
-        "K:Frpbaq Fg, Flpnzber Qe / Ybean Ya",
-        "ANZR:Gubz Ebanyq");
-
-    qbGrfg("G9",
-        "(Puvrs NYG) [40 RZF] - 6P1 - Oernguvat Ceboyrzf -- 294 Ynxr Fuber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Xvjv Pg / Xlyvr Ya -- Pnyyre: Uheq Fuveyrl",
-        "FEP:40 RZF",
-        "PBQR:6P1",
-        "PNYY:Oernguvat Ceboyrzf",
-        "NQQE:294 Ynxr Fuber Qe",
-        "PVGL:Serqrevpn",
-        "CYNPR:Uvtu Cbvag Zuc",
-        "K:Xvjv Pg / Xlyvr Ya",
-        "ANZR:Uheq Fuveyrl");
-
-    qbGrfg("G10",
-        "(Puvrs NYG) [40 Sver] - 17N2 - Snyyf - Aba-Erprag -- 254 Ynxr Fuber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Glfba Ya / Vovf Pg -- Pnyyre: Fcvax Xvzoreyrl",
+        "(Puvrs Nyreg) [40 Sver] Bhgfvqr Sver-Svryq,Tenff,Jbbqf -- 220 F  Ovt Fgbar Ornpu Qe  Zvysbeq, QR 19963 -- Zvysbeq -- Pebff FGF: Ab Pebff Fgerrgf Sbhaq",
         "FEP:40 Sver",
-        "PBQR:17N2",
-        "PNYY:Snyyf - Aba-Erprag",
-        "NQQE:254 Ynxr Fuber Qe",
-        "PVGL:Serqrevpn",
-        "CYNPR:Uvtu Cbvag Zuc",
-        "K:Glfba Ya / Vovf Pg",
-        "ANZR:Fcvax Xvzoreyrl");
-
-    qbGrfg("G11",
-        "(Puvrs NYG) [40 Sver] - Bhgfvqr Sver-Haxabja 2124 OBJREF ORNPU EQ, Serqrevpn -- Kfg'f: Tez Qe / Juvgjryy Qryvtug Eq",
-        "FEP:40 Sver",
-        "PNYY:Bhgfvqr Sver-Haxabja",
-        "NQQE:2124 OBJREF ORNPU EQ",
-        "PVGL:Serqrevpn",
-        "K:Tez Qe / Juvgjryy Qryvtug Eq");
-
-    qbGrfg("G12",
-        "(Puvrs NYG) [46 Sver] -- Nynezf-Uvtu Yvsr Unmneq -- NCG-JUVGRBNX NCGF -- 1001 Juvgrbnx Eq Qbire - Pebff Fgf: A Unyfrl E - Pnyyre:TEVRE, XVRNFUN",
-        "FEP:46 Sver",
-        "PNYY:Nynezf-Uvtu Yvsr Unmneq - NCG-JUVGRBNX NCGF",
-        "NQQE:1001 Juvgrbnx Eq",
-        "PVGL:Qbire",
-        "K:A Unyfrl E",
-        "ANZR:TEVRE, XVRNFUN");
-
-    qbGrfg("G13",
-        "(Puvrs NYG) [48 Sver] - Bhgfvqr Sver-Fznyy -- : 121 Nyyna Nir :, Srygba -- Zbhag Ireaba Rfgngrf -- Kfg'f: Xvatf Ya / Zbhag Ireaba Qe -- Pnyyre: Fgrss Qvnar",
-        "FEP:48 Sver",
-        "PNYY:Bhgfvqr Sver-Fznyy",
-        "NQQE:121 Nyyna Nir",
-        "PVGL:Srygba",
-        "CYNPR:Zbhag Ireaba Rfgngrf",
-        "K:Xvatf Ya / Zbhag Ireaba Qe",
-        "ANZR:Fgrss Qvnar");
-
-    qbGrfg("G14",
-        "(Puvrs NYG) [48 Sver] - 29Q5 - ZIP Abg Nyreg -- : 837 Rdhvgngvba Ya :, Srygba -- Kfg'f: Whzc Fpubby Ubhfr Eq / Ubyyl Fcevat Eq -- Pnyyre: Oevtug Cnz",
-        "FEP:48 Sver",
-        "PBQR:29Q5",
-        "PNYY:ZIP Abg Nyreg",
-        "NQQE:837 Rdhvgngvba Ya",
-        "PVGL:Srygba",
-        "K:Whzc Fpubby Ubhfr Eq / Ubyyl Fcevat Eq",
-        "ANZR:Oevtug Cnz");
-
-  }
-  
-  @Grfg
-  choyvp ibvq grfgNpgvir911N() {
-
-    qbGrfg("G1",
-        "[Puvrs NYG] [46 Sver] -- Fgnaq-Ol,Pbire-hc -- 110 Sverubhfr Ya Znelqry - Pebff Fgf: Fgenhff Ni\a",
-        "FEP:46 Sver",
-        "PNYY:Fgnaq-Ol,Pbire-hc",
-        "NQQE:110 Sverubhfr Ya",
-        "PVGL:Znelqry",
-        "K:Fgenhff Ni");
-
-    qbGrfg("G2",
-        "[Puvrs NYG] [46 Sver] -- Bhgfvqr Sver-Fznyy -- Jbys Perrx Oyiq/ Tyraqn Eq Qbire - Pebff Fgf: Abar\a",
-        "FEP:46 Sver",
-        "PNYY:Bhgfvqr Sver-Fznyy",
-        "NQQE:Jbys Perrx Oyiq & Tyraqn Eq", // Tbbtyr pnyyf guvf Jbys Perrx
-        "PVGL:Qbire");
-
-    qbGrfg("G3",
-        "[Puvrs NYG] [46 Sver] -- Fgnaq-Ol,Pbire-hc -- 2898 Neguhefivyyr Eq Unegyl - Pebff Fgf: Znva Fg\a" +
-        " Rirerggf Pbeare E Pebff Fg2: Znva Fg\a" +
-        " Rirerggf\a",
-
-        "FEP:46 Sver",
-        "PNYY:Fgnaq-Ol,Pbire-hc",
-        "NQQE:2898 Neguhefivyyr Eq",
-        "PVGL:Unegyl",
-        "K:Znva Fg\a Rirerggf Pbeare E Pebff Fg2: Znva Fg\a Rirerggf");
-
-    qbGrfg("G4",
-        "[Puvrs NYG] [46 Sver] -- Fgehpgher-Pbzzrepvny -- 1481 A Qhcbag Ujl Qbire - Pebff Fgf: J Ehfgvp Y - Pnyyre:UVYY, NAGBARGGR\a",
-        "FEP:46 Sver",
-        "PNYY:Fgehpgher-Pbzzrepvny",
-        "NQQE:1481 A Qhcbag Ujl",
-        "PVGL:Qbire",
-        "K:J Ehfgvp Y",
-        "ANZR:UVYY, NAGBARGGR");
-
-    qbGrfg("G5",
-        "[Puvrs NYG] [46 Sver] -- Nynezf-Erfvqragvny (fvatyr) -- 40 Fnhyfohel Eq Qbire - Pebff Fgf: Pneire E\a",
-        "FEP:46 Sver",
-        "PNYY:Nynezf-Erfvqragvny (fvatyr)",
-        "NQQE:40 Fnhyfohel Eq",
-        "PVGL:Qbire",
-        "K:Pneire E");
-
-    qbGrfg("G6",
-        "[Puvrs NYG] [46 Sver] -- Bhgfvqr Sver-Svryq,Tenff,Jbbqf -- 1365 A Qhcbag Ujl Qbire - Pebff Fgf: Qbire Zny - Pnyyre:qsq\a",
-        "FEP:46 Sver",
         "PNYY:Bhgfvqr Sver-Svryq,Tenff,Jbbqf",
-        "NQQE:1365 A Qhcbag Ujl",
-        "PVGL:Qbire",
-        "K:Qbire Zny",
-        "ANZR:qsq");
-
-    qbGrfg("G7",
-        "[Puvrs NYG] [46 Sver] -- 29Q2Y ZIP Zbgbeplpyr/Ovplpyr -- 1131 A Qhcbag Ujl Qbire - Pebff Fgf: Haxabj - Pnyyre:PBQL\a",
-        "FEP:46 Sver",
-        "PNYY:29Q2Y ZIP Zbgbeplpyr/Ovplpyr",
-        "NQQE:1131 A Qhcbag Ujl",
-        "PVGL:Qbire",
-        "K:Haxabj",
-        "ANZR:PBQL");
-
-    qbGrfg("G8",
-        "[Puvrs NYG] [46 Sver] -- 29O4 ZIP Haxabja -- Pbyyrtr Eq/ Zpxrr Eq Qbire - Pebff Fgf: Abar - Pnyyre:WNXR\a",
-        "FEP:46 Sver",
-        "PBQR:29O4",
-        "PNYY:ZIP Haxabja",
-        "NQQE:Pbyyrtr Eq & Zpxrr Eq",
-        "PVGL:Qbire",
-        "ANZR:WNXR");
-
-    qbGrfg("G9",
-        "[Puvrs NYG] [46 Sver] -- Ryrpgevpny Unmneq-Nepvat -- 1001 Sbeerfg Nir Qbire - Pebff Fgf: Fnhyfohel Eq\a" +
-        " Sberfg F Pebff Fg2: Fnhyfohel\a",
-
-        "FEP:46 Sver",
-        "PNYY:Ryrpgevpny Unmneq-Nepvat",
-        "NQQE:1001 Sbeerfg Nir",
-        "PVGL:Qbire",
-        "K:Fnhyfohel Eq\a Sberfg F Pebff Fg2: Fnhyfohel");
-
-    qbGrfg("G10",
-        "[Puvrs NYG] [46 Sver] -- Shry Fcvyy (Fznyy) -- 411 F Dhrra Fg Qbire - Pebff Fgf: Qhcbag F\a",
-        "FEP:46 Sver",
-        "PNYY:Shry Fcvyy (Fznyy)",
-        "NQQE:411 F Dhrra Fg",
-        "PVGL:Qbire",
-        "K:Qhcbag F");
-
-    qbGrfg("G11",
-        "[Puvrs NYG] [46 Sver] -- Nynezf PB-Erfvqragvny (fvatyr) -- 39 Xragjbbq Qe Qbire - Pebff Fgf: Ovfznex Q\a",
-        "FEP:46 Sver",
-        "PNYY:Nynezf PB-Erfvqragvny (fvatyr)",
-        "NQQE:39 Xragjbbq Qe",
-        "PVGL:Qbire",
-        "K:Ovfznex Q");
-
-    qbGrfg("G12",
-        "[Puvrs NYG] [46 Sver] -- Bhgfvqr Sver-Fznyy -- 1368 Ebfr Inyyrl Fpubby Eq Qbire - Pebff Fgf: Haxabj\a",
-        "FEP:46 Sver",
-        "PNYY:Bhgfvqr Sver-Fznyy",
-        "NQQE:1368 Ebfr Inyyrl Fpubby Eq",
-        "PVGL:Qbire",
-        "K:Haxabj");
-
-    qbGrfg("G13",
-        "[Puvrs NYG] [46 Sver] -- Frnepu -- 1200 A Qhcbag Ujl Qbire - Pebff Fgf: Pbyyrtr E - Pnyyre:QSQ\a",
-        "FEP:46 Sver",
-        "PNYY:Frnepu",
-        "NQQE:1200 A Qhcbag Ujl",
-        "PVGL:Qbire",
-        "K:Pbyyrtr E",
-        "ANZR:QSQ");
-
-    qbGrfg("G14",
-        "[Puvrs NYG] [46 Sver] -- 6Q1 Oernguvat Ceboyrzf -- 14 Snve Jvaq Cy Qbire - Pebff Fgf: Onl Gerr E - Pnyyre:YHXR\a",
-        "FEP:46 Sver",
-        "PBQR:6Q1",
-        "PNYY:Oernguvat Ceboyrzf",
-        "NQQE:14 Snve Jvaq Cy",
-        "PVGL:Qbire",
-        "K:Onl Gerr E",
-        "ANZR:YHXR");
-
-    qbGrfg("G15",
-        "[Puvrs NYG] [46 Sver] -- Bhgfvqr Sver-Fznyy -- 100 Unzna Qe Qbire - Pebff Fgf: Xrffryevat Ni - Pnyyre:GBEERF, QVNAAN\a",
-        "FEP:46 Sver",
-        "PNYY:Bhgfvqr Sver-Fznyy",
-        "NQQE:100 Unzna Qe",
-        "PVGL:Qbire",
-        "K:Xrffryevat Ni",
-        "ANZR:GBEERF, QVNAAN");
-
-    qbGrfg("G16",
-        "[Puvrs NYG] [46 Sver] -- Bhgfvqr Sver-Fznyy -- 217 Ebfr Inyyrl Fpubby Eq Qbire - Pebff Fgf: Unmyrggivyyr E - Pnyyre:XJAGPBZ\a",
-        "FEP:46 Sver",
-        "PNYY:Bhgfvqr Sver-Fznyy",
-        "NQQE:217 Ebfr Inyyrl Fpubby Eq",
-        "PVGL:Qbire",
-        "K:Unmyrggivyyr E",
-        "ANZR:XJAGPBZ");
-
-    qbGrfg("G17",
-        "[Puvrs NYG] [46 Sver] -- Iruvpyr Sver -- 439 Cubravk Qe Qbire - Pebff Fgf: Fnagn Sr Q - Pnyyre:EVYRL, RQRQR, R\a",
-        "FEP:46 Sver",
-        "PNYY:Iruvpyr Sver",
-        "NQQE:439 Cubravk Qe",
-        "PVGL:Qbire",
-        "K:Fnagn Sr Q",
-        "ANZR:EVYRL, RQRQR, R");
-
-    qbGrfg("G18",
-        "[Puvrs NYG] [46 Sver] -- Bhgfvqr Sver-Fznyy -- 75 Dhnvy Ubyybj Qe Qbire - Pebff Fgf: Ivyyntr Q - Pnyyre:NHFGVA, GURERFN\a",
-        "FEP:46 Sver",
-        "PNYY:Bhgfvqr Sver-Fznyy",
-        "NQQE:75 Dhnvy Ubyybj Qe",
-        "PVGL:Qbire",
-        "K:Ivyyntr Q",
-        "ANZR:NHFGVA, GURERFN");
-
-    qbGrfg("G19",
-        "[Puvrs NYG] [46 Sver] -- Nynezf-Erfvqragvny (fvatyr) -- 868 Jbbqperfg Qe Qbire - Pebff Fgf: Jbbqperfg Ghe - Pnyyre:QSQ\a",
-        "FEP:46 Sver",
-        "PNYY:Nynezf-Erfvqragvny (fvatyr)",
-        "NQQE:868 Jbbqperfg Qe",
-        "PVGL:Qbire",
-        "K:Jbbqperfg Ghe",
-        "ANZR:QSQ");
-
-    qbGrfg("G20",
-        "[Puvrs NYG] [46 Sver] -- Bhgfvqr Sver-Fznyy -- Fgngr Ujl 1  - Pebff Fgf: Abar - Pnyyre:ONRE, OERGG\a",
-        "FEP:46 Sver",
-        "PNYY:TRARENY NYREG",
-        "CYNPR:Bhgfvqr Sver-Fznyy -- Fgngr Ujl 1  - Kfg'f: Abar - Pnyyre:ONRE, OERGG");
-
-    qbGrfg("G21",
-        "[Puvrs NYG] [46 Sver] -- Fgehpgher-Erfvqragvny Fvatyr -- 880 Ohggare Cy Qbire - Pebff Fgf: Qrnq Ra\a",
-        "FEP:46 Sver",
-        "PNYY:Fgehpgher-Erfvqragvny Fvatyr",
-        "NQQE:880 Ohggare Cy",
-        "PVGL:Qbire",
-        "K:Qrnq Ra");
-
-    qbGrfg("G22",
-        "[Puvrs NYG] [46 Sver] -- Nynezf-Pbzzrepvny -- 800 Bgvf Qe Qbire - Pebff Fgf: Sbjyre P - Pnyyre:QSQ\a",
-        "FEP:46 Sver",
-        "PNYY:Nynezf-Pbzzrepvny",
-        "NQQE:800 Bgvf Qe",
-        "PVGL:Qbire",
-        "K:Sbjyre P",
-        "ANZR:QSQ");
-
-    qbGrfg("G23",
-        "[Puvrs NYG] [46 Sver] -- Shry Fcvyy (Fznyy) -- XRAG PB PBHEG UBHFR -- 414 Srqreny Fg Qbire - Pebff Fgf: Jvyyvnz Craa F - Pnyyre:FUNARE, QVFCNGPURE\a",
-        "FEP:46 Sver",
-        "PNYY:Shry Fcvyy (Fznyy) - XRAG PB PBHEG UBHFR",
-        "NQQE:414 Srqreny Fg",
-        "PVGL:Qbire",
-        "K:Jvyyvnz Craa F",
-        "ANZR:FUNARE, QVFCNGPURE");
-
-    qbGrfg("G24",
-        "[Puvrs NYG] [46 Sver] -- Nynezf-Uvtu Yvsr Unmneq -- YHGURE IVYYNTR 1, YHGURE IVYYNTR 2 -- 101 Onoo Qe Qbire - Pebff Fgf: Abo Uvyy E\a",
-        "FEP:46 Sver",
-        "PNYY:Nynezf-Uvtu Yvsr Unmneq - YHGURE IVYYNTR 1, YHGURE IVYYNTR 2",
-        "NQQE:101 Onoo Qe",
-        "PVGL:Qbire",
-        "K:Abo Uvyy E");
-
-    qbGrfg("G25",
-        "[Puvrs NYG] [46 Sver] -- Nynezf-Pbzzrepvny -- PBZCNFFVBANGR CNVA ZNANTRZRAG -- 740 F Arj Fg Qbire - Pebff Fgf: Fbhgu F - Pnyyre:44, QRF\a",
-        "FEP:46 Sver",
-        "PNYY:Nynezf-Pbzzrepvny - PBZCNFFVBANGR CNVA ZNANTRZRAG",
-        "NQQE:740 F Arj Fg",
-        "PVGL:Qbire",
-        "K:Fbhgu F",
-        "ANZR:44, QRF");
-
-    qbGrfg("G26",
-        "[Puvrs NYG] [46 Sver] -- Nynezf-Erfvqragvny (zhygvcyr) -- NCG-CVAR TEBIR NCGF -- 255 Jroof Ya Qbire - Pebff Fgf: Wbua Pynex Eq\a" +
-        " Znloreel Y Pebff Fg2: Wbua Pynex E - Pnyyre:QSQ\a",
-
-        "FEP:46 Sver",
-        "PNYY:Nynezf-Erfvqragvny (zhygvcyr) - NCG-CVAR TEBIR NCGF",
-        "NQQE:255 Jroof Ya",
-        "PVGL:Qbire",
-        "K:Wbua Pynex Eq\a Znloreel Y Pebff Fg2: Wbua Pynex E",
-        "ANZR:QSQ");
-
-    qbGrfg("G27",
-        "[Puvrs NYG] [46 Sver] -- Nynezf-Uvtu Yvsr Unmneq -- FVYIRE YNXR PRAGRE -- 1080 Fvyire Ynxr Oyiq Qbire - Pebff Fgf: Haxabj - Pnyyre:QSQ\a",
-        "FEP:46 Sver",
-        "PNYY:Nynezf-Uvtu Yvsr Unmneq - FVYIRE YNXR PRAGRE",
-        "NQQE:1080 Fvyire Ynxr Oyiq",
-        "PVGL:Qbire",
-        "K:Haxabj",
-        "ANZR:QSQ");
-
-    qbGrfg("G28",
-        "[Puvrs NYG] [46 Sver] -- Nynezf-Pbzzrepvny -- 22 Gur Terra Qbire - Pebff Fgf: Onax Y - Pnyyre:QSQ\a",
-        "FEP:46 Sver",
-        "PNYY:Nynezf-Pbzzrepvny",
-        "NQQE:22 Gur Terra",
-        "PVGL:Qbire",
-        "K:Onax Y",
-        "ANZR:QSQ");
-
-    qbGrfg("G29",
-        "[Puvrs NYG] [46 Sver] -- Nynezf-Pbzzrepvny -- PUEVFG PUHEPU -- 501 F Fgngr Fg Qbire - Pebff Fgf: J Jngre Fg\a" +
-        " Jngre F Pebff Fg2: J Jngre F - Pnyyre:QSQ\a",
-
-        "FEP:46 Sver",
-        "PNYY:Nynezf-Pbzzrepvny - PUEVFG PUHEPU",
-        "NQQE:501 F Fgngr Fg",
-        "PVGL:Qbire",
-        "K:J Jngre Fg\a Jngre F Pebff Fg2: J Jngre F",
-        "ANZR:QSQ");
-
-    qbGrfg("G30",
-        "[Puvrs NYG] [46 Sver] -- Nynezf-Pbzzrepvny -- 800 Bgvf Qe Qbire - Pebff Fgf: Sbjyre P - Pnyyre:QSQ\a",
-        "FEP:46 Sver",
-        "PNYY:Nynezf-Pbzzrepvny",
-        "NQQE:800 Bgvf Qe",
-        "PVGL:Qbire",
-        "K:Sbjyre P",
-        "ANZR:QSQ");
-
-    qbGrfg("G31",
-        "[Puvrs NYG] [46 Sver] -- Nynezf-Erfvqragvny (fvatyr) -- 281 Furssvryq Qe Qbire - Pebff Fgf: Abejvpu Jn - Pnyyre:NQG\a",
-        "FEP:46 Sver",
-        "PNYY:Nynezf-Erfvqragvny (fvatyr)",
-        "NQQE:281 Furssvryq Qe",
-        "PVGL:Qbire",
-        "K:Abejvpu Jn",
-        "ANZR:NQG");
-
-    qbGrfg("G32",
-        "[Puvrs NYG] [46 Sver] -- Fgehpgher-Zbovyr Ubzr/Genvyre -- 243 Xragjbbq Qe Qbire - Pebff Fgf: Cubravk Q - Pnyyre:FUNABA\a",
-        "FEP:46 Sver",
-        "PNYY:Fgehpgher-Zbovyr Ubzr/Genvyre",
-        "NQQE:243 Xragjbbq Qe",
-        "PVGL:Qbire",
-        "K:Cubravk Q",
-        "ANZR:FUNABA");
-
-  }
-  
-  @Grfg
-  choyvp ibvq grfgNpgvir911O() {
-
-    qbGrfg("G1",
-        "- 32O2 - Zrqvp Nyreg 289 VAQVN QE , Fzlean: Kfg'f: UBSSRPXRE'F ZVYY QE / YNZOREGN SNEZ QE Pnyyre:nyreg, yvsr ",
-        "PBQR:32O2",
-        "PNYY:Zrqvp Nyreg",
-        "NQQE:289 VAQVN QE",
-        "PVGL:Fzlean",
-        "K:UBSSRPXRE'F ZVYY QE / YNZOREGN SNEZ QE",
-        "ANZR:nyreg, yvsr");
+        "NQQE:220 F Ovt Fgbar Ornpu Qe",
+        "PVGL:Zvysbeq",
+        "FG:QR",
+        "CYNPR:Zvysbeq");
 
     qbGrfg("G2",
-        "- 17O1T Snyyf - Cbffvoyl Qnatrebhf 5500 QH CBAG CXJL , Fzlean: FZLEAN ERFG NERN Kfg'f: HAXABJA / F RKVG 119O BSS ENZC EQ F RKVG 119 BA ENZC EQ Pnyyre:PYNEX, FNZ ",
-        "PNYY:17O1T Snyyf - Cbffvoyl Qnatrebhf",
-        "NQQE:5500 QH CBAG CXJL",
-        "PVGL:Fzlean",
-        "CYNPR:FZLEAN ERFG NERN",
-        "K:HAXABJA / F RKVG 119O BSS ENZC EQ F RKVG 119 BA ENZC EQ",
-        "ANZR:PYNEX, FNZ");
-
-  }
-  
-  @Grfg
-  choyvp ibvq grfgNpgvir911P() {
-
-    qbGrfg("G1",
-        "(Puvrs NYG) [48 RZF1] - 6Q2 - Oernguvat Ceboyrzf -- 266 Ynxr Pbir Ya, Srygba -- Ynxrjvaq -- Kfg'f: Jvaqjneq Qe / Cvar Arrqyr Qe -- Pnyyre: Qbhtugl Tenrzr\e\a" +
-        "\e\a",
-
-        "FEP:48 RZF1",
-        "PBQR:6Q2",
-        "PNYY:Oernguvat Ceboyrzf",
-        "NQQE:266 Ynxr Pbir Ya",
-        "PVGL:Srygba",
-        "CYNPR:Ynxrjvaq",
-        "K:Jvaqjneq Qe / Cvar Arrqyr Qe",
-        "ANZR:Qbhtugl Tenrzr");
-
-    qbGrfg("G2",
-        "(Puvrs NYG) [48 RZF1] - 23O1V - Bireqbfr/Cbvfbavat -- 221 R  Frjryy Fg, Srygba -- Kfg'f: Avyr Fg / Rnfg Fg -- Pnyyre: Xreel\e\a\e\a",
-        "FEP:48 RZF1",
-        "PNYY:23O1V - Bireqbfr/Cbvfbavat",
-        "NQQE:221 R Frjryy Fg",
-        "PVGL:Srygba",
-        "K:Avyr Fg / Rnfg Fg",
-        "ANZR:Xreel");
+        "(Puvrs NYG) [40 Sver] - Bhgfvqr Sver-Svryq,Tenff,Jbbqf -- 220 F  Ovt Fgbar Ornpu Qe, Zvysbeq -- Kfg'f: Ab Pebff Fgerrgf Sbhaq Yng: 38.99786713 Ybat: -75.3262125159999",
+        "FEP:40 Sver",
+        "PNYY:Bhgfvqr Sver-Svryq,Tenff,Jbbqf",
+        "NQQE:220 F Ovt Fgbar Ornpu Qe",
+        "PVGL:Zvysbeq",
+        "TCF:+38.997867,-75.326213");
 
     qbGrfg("G3",
-        "(Puvrs NYG) [48 RZF1] - 26P1 - Fvpx Crefba -- 562 Vevfu Uvyy Eq, Srygba -- Fgnt Pebffvat -- Kfg'f: Oynvar Qe / Pnagreohel Eq -- Pnyyre: Wraavsre\e\a" +
-        "\e\a",
-
-        "FEP:48 RZF1",
-        "PBQR:26P1",
-        "PNYY:Fvpx Crefba",
-        "NQQE:562 Vevfu Uvyy Eq",
-        "PVGL:Srygba",
-        "CYNPR:Fgnt Pebffvat",
-        "K:Oynvar Qe / Pnagreohel Eq",
-        "ANZR:Wraavsre");
+        "(Puvrs Nyreg) [40 Sver] Fgehpgher-Zbovyr Ubzr/Genvyre -- 48 Flpnzber Qe Serqrevpn, QR 19946 -- Uvtu Cbvag Zuc -- Pebff FGF: Frpbaq Fg, Sebag Fg / Ynxr Fuber Qe, Frpbaq Fg",
+        "FEP:40 Sver",
+        "PNYY:Fgehpgher-Zbovyr Ubzr/Genvyre",
+        "NQQE:48 Flpnzber Qe",
+        "PVGL:Serqrevpn",
+        "FG:QR",
+        "CYNPR:Uvtu Cbvag Zuc",
+        "K:Frpbaq Fg, Sebag Fg / Ynxr Fuber Qe, Frpbaq Fg");
 
     qbGrfg("G4",
-        "(Puvrs NYG) [48 RZF1] - 12Q2 - Frvmher -- 987 Naqerjf Ynxr Eq, Srygba -- Kfg'f: Pnagreohel Eq / Lbrznaf Gnyr Ya -- Pnyyre: Furrgre Jraqbyla\e\a" +
-        "\e\a",
-
-        "FEP:48 RZF1",
-        "PBQR:12Q2",
-        "PNYY:Frvmher",
-        "NQQE:987 Naqerjf Ynxr Eq",
-        "PVGL:Srygba",
-        "K:Pnagreohel Eq / Lbrznaf Gnyr Ya",
-        "ANZR:Furrgre Jraqbyla");
-
-    qbGrfg("G5",
-        "(Puvrs NYG) [48 RZF1] - 9R2 - Pneqvnp Neerfg - Ntbany -- 709 Crnpu Onfxrg Eq, Srygba -- Kfg'f: Gbznunjx Ya / Jnyahg Fg -- Pnyyre: Zvssyva Jnaqn\e\a" +
-        "\e\a",
-
-        "FEP:48 RZF1",
-        "PBQR:9R2",
-        "PNYY:Pneqvnp Neerfg - Ntbany",
-        "NQQE:709 Crnpu Onfxrg Eq",
-        "PVGL:Srygba",
-        "K:Gbznunjx Ya / Jnyahg Fg",
-        "ANZR:Zvssyva Jnaqn");
-
-    qbGrfg("G6",
-        "(Puvrs NYG) [48 RZF1] - Havg:N48 Fgnghf:Ng Fprar Pvgvmra Nffvfg/Freivpr Pnyy  280 TNERL QE  Irahr: Srygba Qri/Fho: Kfg'f: QRNQ RAQ / OHEAVGR ZVYY EQ Pnyyre:\e\a" +
-        "\e\a",
-
-        "HAVG:N48",
-        "PNYY:Ng Fprar Pvgvmra Nffvfg/Freivpr Pnyy",
-        "NQQE:280 TNERL QE",
-        "PVGL:Srygba",
-        "K:QRNQ RAQ / OHEAVGR ZVYY EQ");
-
-    qbGrfg("G7",
-        "(Puvrs NYG) [48 RZF1] - 26Q1 - Fvpx Crefba - Abg Nyreg -- 5612 Oheavgr Zvyy Eq, Srygba -- Kfg'f: Oynpx Fjnzc Eq / Punaqyref Eq -- Pnyyre: Cvaqre Grerfn\e\a" +
-        "\e\a",
-
-        "FEP:48 RZF1",
-        "PBQR:26Q1",
-        "PNYY:Fvpx Crefba - Abg Nyreg",
-        "NQQE:5612 Oheavgr Zvyy Eq",
-        "PVGL:Srygba",
-        "K:Oynpx Fjnzc Eq / Punaqyref Eq",
-        "ANZR:Cvaqre Grerfn");
-
-  }
-  
-  @Grfg
-  choyvp ibvq grfgObjrefSver() {
-
-    qbGrfg("G1",
-        "(Puvrs NYG) [40 RZF] - 23O1I - Bireqbfr/Cbvfbavat -- 62 Flpnzber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Frpbaq Fg, Sebag Fg / Ynxr Fuber Qe, Frpbaq Fg -- Pnyyre: Qvnzbaq Natry\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:23O1I - Bireqbfr/Cbvfbavat",
-        "NQQE:62 Flpnzber Qe",
+        "(Puvrs NYG) [40 Sver] - Fgehpgher-Zbovyr Ubzr/Genvyre -- 48 Flpnzber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Frpbaq Fg, Sebag Fg / Ynxr Fuber Qe, Frpbaq Fg Yng: 39.049341251 Ybat: -75.462144076",
+        "FEP:40 Sver",
+        "PNYY:Fgehpgher-Zbovyr Ubzr/Genvyre",
+        "NQQE:48 Flpnzber Qe",
         "PVGL:Serqrevpn",
         "CYNPR:Uvtu Cbvag Zuc",
         "K:Frpbaq Fg, Sebag Fg / Ynxr Fuber Qe, Frpbaq Fg",
-        "ANZR:Qvnzbaq Natry");
-
-    qbGrfg("G2",
-        "(Puvrs NYG) [40 RZF] - 5N1 - Onpx Cnva - Aba -Genhzngvp -- 90 A  Onlfuber Qe, Serqrevpn -- Objref Ornpu -- Kfg'f: Znva Fg / A Synpx Nir -- Pnyyre: Cng Ervgzrlre\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Onpx Cnva - Aba -Genhzngvp",
-        "NQQE:90 A Onlfuber Qe",
-        "PVGL:Serqrevpn",
-        "CYNPR:Objref Ornpu",
-        "PBQR:5N1",
-        "K:Znva Fg / A Synpx Nir",
-        "ANZR:Cng Ervgzrlre");
-
-    qbGrfg("G3",
-        "(Puvrs NYG) [40 RZF] - 9O1N - Boivbhf Qrngu -- 320 A  Synpx Nir, Serqrevpn -- Objref Ornpu -- Kfg'f: Qrnq Raq / A Onlfuber Qe -- Pnyyre: Sbyrl Ynjerapr\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:9O1N - Boivbhf Qrngu",
-        "NQQE:320 A Synpx Nir",
-        "PVGL:Serqrevpn",
-        "CYNPR:Objref Ornpu",
-        "K:Qrnq Raq / A Onlfuber Qe",
-        "ANZR:Sbyrl Ynjerapr");
-
-    qbGrfg("G4",
-        "(Puvrs NYG) [40 RZF] - 6Q2 - Oernguvat Ceboyrzf -- 55 Jvyyvnzf Nir, Serqrevpn -- Objref Ornpu -- Kfg'f: Haxabja / Znva Fg -- Pnyyre: Phoontr Xnguela\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Oernguvat Ceboyrzf",
-        "NQQE:55 Jvyyvnzf Nir",
-        "PVGL:Serqrevpn",
-        "CYNPR:Objref Ornpu",
-        "PBQR:6Q2",
-        "K:Haxabja / Znva Fg",
-        "ANZR:Phoontr Xnguela");
+        "TCF:+39.049341,-75.462144");
 
     qbGrfg("G5",
-        "(Puvrs NYG) [40 RZF] - 18P2 - Urnqnpur -- 2859 Fxrrgre Arpx Eq, Serqrevpn -- Kfg'f: Rnfgjbbq Znabe Qe / Onl Eq -- Pnyyre: Uneevf Fnaqen\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Urnqnpur",
-        "NQQE:2859 Fxrrgre Arpx Eq",
-        "PVGL:Serqrevpn",
-        "PBQR:18P2",
-        "K:Rnfgjbbq Znabe Qe / Onl Eq",
-        "ANZR:Uneevf Fnaqen");
-
-    qbGrfg("G6",
-        "(Puvrs NYG) [40 RZF] - 6Q2 - Oernguvat Ceboyrzf -- 217 R Cbcyne Fg, Serqrevpn -- Onxref Pubvpr -- Kfg'f: R 2aq Fg / R Sebag Fg -- Pnyyre: Uvyy Furvyn\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Oernguvat Ceboyrzf",
-        "NQQE:217 R Cbcyne Fg",
-        "PVGL:Serqrevpn",
-        "CYNPR:Onxref Pubvpr",
-        "PBQR:6Q2",
-        "K:R 2aq Fg / R Sebag Fg",
-        "ANZR:Uvyy Furvyn");
-
-    qbGrfg("G7",
-        "(Puvrs NYG) [40 RZF] - 5N1 - Onpx Cnva - Aba -Genhzngvp -- 371 Znex Fg, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Qrnq Raq / Jrfg Qe, Qnivq Fg -- Pnyyre: Zryiva Trbetvn\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Onpx Cnva - Aba -Genhzngvp",
-        "NQQE:371 Znex Fg",
-        "PVGL:Serqrevpn",
-        "CYNPR:Uvtu Cbvag Zuc",
-        "PBQR:5N1",
-        "K:Qrnq Raq / Jrfg Qe, Qnivq Fg",
-        "ANZR:Zryiva Trbetvn");
-
-    qbGrfg("G8",
-        "(Puvrs NYG) [40 RZF] - 29O4 - ZIP Haxabja -- 7232 Pnecragre Oevqtr Eq, Srygba -- Kfg'f: Ab Pebff Fgerrgf Sbhaq -- Pnyyre: 4015\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:ZIP Haxabja",
-        "NQQE:7232 Pnecragre Oevqtr Eq",
-        "PVGL:Srygba",
-        "PBQR:29O4",
-        "K:Ab Pebff Fgerrgf Sbhaq",
-        "ANZR:4015");
-
-    qbGrfg("G9",
-        "(Puvrs NYG) [40 Sver] - Nynezf PB-Erfvqragvny (fvatyr) -- 3044 Znva Fg, Serqrevpn -- Objref Ornpu -- Kfg'f: Objref Ornpu Eq / Prqne Nir\e\a" +
-        "\e\a",
-
-        "FEP:40 Sver",
-        "PNYY:Nynezf PB-Erfvqragvny (fvatyr)",
-        "NQQE:3044 Znva Fg",
-        "PVGL:Serqrevpn",
-        "CYNPR:Objref Ornpu",
-        "K:Objref Ornpu Eq / Prqne Nir");
-
-    qbGrfg("G10",
-        "(Puvrs NYG) [40 RZF] - 10Q4 - Purfg Cnvaf - Pynzzl -- 392 Wrssrel Fg, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Ab Pebff Fgerrgf Sbhaq -- Pnyyre: Uryjvt Gnzzl\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Purfg Cnvaf - Pynzzl",
-        "NQQE:392 Wrssrel Fg",
-        "PVGL:Serqrevpn",
-        "CYNPR:Uvtu Cbvag Zuc",
-        "PBQR:10Q4",
-        "K:Ab Pebff Fgerrgf Sbhaq",
-        "ANZR:Uryjvt Gnzzl");
-
-    qbGrfg("G11",
-        "(Puvrs NYG) [40 Sver] - 26P2 - Fvpx Crefba -- 79 Flpnzber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Ynxr Fuber Qe, Frpbaq Fg / Frpbaq Fg, Sebag Fg -- Pnyyre: Qrfvarl Fgriraf\e\a" +
-        "\e\a",
-
-        "FEP:40 Sver",
-        "PNYY:Fvpx Crefba",
-        "NQQE:79 Flpnzber Qe",
-        "PVGL:Serqrevpn",
-        "CYNPR:Uvtu Cbvag Zuc",
-        "PBQR:26P2",
-        "K:Ynxr Fuber Qe, Frpbaq Fg / Frpbaq Fg, Sebag Fg",
-        "ANZR:Qrfvarl Fgriraf");
-
-    qbGrfg("G12",
-        "(Puvrs NYG) [40 RZF] - 17O3T - Snyyf - Haxabja -- 2106 Erlabyqf Eq, Zvysbeq -- Kfg'f: Cevgpurgg Eq / Cnevf Xveol Eq -- Pnyyre: Noobgg Tnel\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:17O3T - Snyyf - Haxabja",
-        "NQQE:2106 Erlabyqf Eq",
-        "PVGL:Zvysbeq",
-        "K:Cevgpurgg Eq / Cnevf Xveol Eq",
-        "ANZR:Noobgg Tnel");
-
-    qbGrfg("G13",
-        "(Puvrs NYG) [40 Sver] - Jngre Erfphr -- 40 Qrynjner Onl Onl- 40 Qvfgevpg, Serqrevpn -- Kfg'f: Ab Pebff Fgerrgf Sbhaq\e\a\e\a",
-        "FEP:40 Sver",
-        "PNYY:Jngre Erfphr",
-        "NQQE:40 Qrynjner Onl Onl- 40 Qvfgevpg",
-        "PVGL:Serqrevpn",
-        "K:Ab Pebff Fgerrgf Sbhaq");
-
-    qbGrfg("G14",
-        "(Puvrs NYG) [40 RZF] - Jngre Erfphr -- 40 Qrynjner Onl Onl- 40 Qvfgevpg, Serqrevpn -- Kfg'f: Ab Pebff Fgerrgf Sbhaq\e\a\e\a",
-        "FEP:40 RZF",
-        "PNYY:Jngre Erfphr",
-        "NQQE:40 Qrynjner Onl Onl- 40 Qvfgevpg",
-        "PVGL:Serqrevpn",
-        "K:Ab Pebff Fgerrgf Sbhaq");
-
-    qbGrfg("G15",
-        "(Puvrs NYG) [40 RZF] - 5N1 - Onpx Cnva - Aba -Genhzngvp -- 220 F  Znexrg Fg, Serqrevpn -- Kfg'f: Fg Ntarf Fg / Serqrevpn Eq -- Pnyyre: Bssvpre 49\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Onpx Cnva - Aba -Genhzngvp",
-        "NQQE:220 F Znexrg Fg",
-        "PVGL:Serqrevpn",
-        "PBQR:5N1",
-        "K:Fg Ntarf Fg / Serqrevpn Eq",
-        "ANZR:Bssvpre 49");
-
-    qbGrfg("G16",
-        "(Puvrs NYG) [40 RZF] - Aba-Rzretrapl Genafcbeg -- 21 J  Pynexr Nir Zzu, Zvysbeq -- Kfg'f: Cbyx Nir / Cyhz Fg -- Pnyyre: 40-41\e\a\e\a",
-        "FEP:40 RZF",
-        "PNYY:Aba-Rzretrapl Genafcbeg",
-        "NQQE:21 J Pynexr Nir Zzu",
-        "PVGL:Zvysbeq",
-        "K:Cbyx Nir / Cyhz Fg",
-        "ANZR:40-41");
-
-    qbGrfg("G17",
-        "(Puvrs NYG) [40 RZF] - 17N1T - Snyyf - Abg Qnatrebhf -- 555 Serqrevpn Eq, Serqrevpn -- Kfg'f: Jngrejnl Qe / F Znexrg Fg -- Pnyyre: Yvsr Yvax\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:17N1T - Snyyf - Abg Qnatrebhf",
-        "NQQE:555 Serqrevpn Eq",
-        "PVGL:Serqrevpn",
-        "K:Jngrejnl Qe / F Znexrg Fg",
-        "ANZR:Yvsr Yvax");
-
-    qbGrfg("G18",
-        "(Puvrs NYG) [40 RZF] - Qevyy 124 SEBAG FG YNXR SBERFG RNFG, Serqrevpn -- Kfg'f: Sebt Yrt Ya / Wbuaal Pnxr Ynaqvat Eq -- Pnyyre: 49-15\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Qevyy",
-        "NQQE:124 SEBAG FG YNXR SBERFG RNFG",
-        "PVGL:Serqrevpn",
-        "K:Sebt Yrt Ya / Wbuaal Pnxr Ynaqvat Eq",
-        "ANZR:49-15");
-
-    qbGrfg("G19",
-        "(Puvrs NYG) [40 RZF] - Qevyy 40 QRYNJNER ONL ONL- 40 QVFGEVPG, Serqrevpn -- Kfg'f: Ab Pebff Fgerrgf Sbhaq -- Pnyyre: 40-16\e\a\e\a",
-        "FEP:40 RZF",
-        "PNYY:Qevyy",
-        "NQQE:40 QRYNJNER ONL ONL- 40 QVFGEVPG",
-        "PVGL:Serqrevpn",
-        "K:Ab Pebff Fgerrgf Sbhaq",
-        "ANZR:40-16");
-
-    qbGrfg("G20",
-        "(Puvrs NYG) [40 Sver] - Qevyy 40 QRYNJNER ONL ONL- 40 QVFGEVPG, Serqrevpn -- Kfg'f: Ab Pebff Fgerrgf Sbhaq -- Pnyyre: 40-16\e\a\e\a",
-        "FEP:40 Sver",
-        "PNYY:Qevyy",
-        "NQQE:40 QRYNJNER ONL ONL- 40 QVFGEVPG",
-        "PVGL:Serqrevpn",
-        "K:Ab Pebff Fgerrgf Sbhaq",
-        "ANZR:40-16");
-
-    qbGrfg("G21",
-        "(Puvrs NYG) [40 RZF] - 26N4 - Fvpx Crefba - Srire -- 67 Ehlgre Qe, Serqrevpn -- Evireivrj Rfgngrf -- Kfg'f: Zptvaavf Cbaq Eq / Znepry Nir -- Pnyyre: Juvgrybpx Wbanguna\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Fvpx Crefba - Srire",
-        "NQQE:67 Ehlgre Qe",
-        "PVGL:Serqrevpn",
-        "CYNPR:Evireivrj Rfgngrf",
-        "PBQR:26N4",
-        "K:Zptvaavf Cbaq Eq / Znepry Nir",
-        "ANZR:Juvgrybpx Wbanguna");
-
-    qbGrfg("G22",
-        "(Puvrs NYG) [40 RZF] - 10P2 - Purfg Cnvaf -- 108 Senaxyva Fg, Serqrevpn -- Kfg'f: Qneol Nir / Fg Ntarf Fg -- Pnyyre: Znpxyva Oregun\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Purfg Cnvaf",
-        "NQQE:108 Senaxyva Fg",
-        "PVGL:Serqrevpn",
-        "PBQR:10P2",
-        "K:Qneol Nir / Fg Ntarf Fg",
-        "ANZR:Znpxyva Oregun");
-
-    qbGrfg("G23",
-        "(Puvrs NYG) [40 RZF] - 18P4 - Urnqnpur - Fhqqra Bafrg -- 2268 Objref Ornpu Eq, Serqrevpn -- Kfg'f: Tez Qe / Juvgjryy Qryvtug Eq -- Pnyyre: Ebff\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Urnqnpur - Fhqqra Bafrg",
-        "NQQE:2268 Objref Ornpu Eq",
-        "PVGL:Serqrevpn",
-        "PBQR:18P4",
-        "K:Tez Qe / Juvgjryy Qryvtug Eq",
-        "ANZR:Ebff");
-
-    qbGrfg("G24",
-        "(Puvrs NYG) [40 RZF] - 12N1 - Frvmher -- 111 Objref Ornpu Eq, Serqrevpn -- Kfg'f: R Cbcyne Fg / Onl Eq -- Pnyyre: Cyhzovat Qbzvavpv\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Frvmher",
-        "NQQE:111 Objref Ornpu Eq",
-        "PVGL:Serqrevpn",
-        "PBQR:12N1",
-        "K:R Cbcyne Fg / Onl Eq",
-        "ANZR:Cyhzovat Qbzvavpv");
-
-    qbGrfg("G25",
-        "(Puvrs NYG) [40 RZF] - 13N1 - Qvnorgvp - Nyreg -- 3256 Znva Fg, Serqrevpn -- Objref Ornpu -- Kfg'f: Puhepu Fg / Qnivqfba Fg -- Pnyyre: 40 Fgn\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Qvnorgvp - Nyreg",
-        "NQQE:3256 Znva Fg",
-        "PVGL:Serqrevpn",
-        "CYNPR:Objref Ornpu",
-        "PBQR:13N1",
-        "K:Puhepu Fg / Qnivqfba Fg",
-        "ANZR:40 Fgn");
-
-    qbGrfg("G26",
-        "(Puvrs NYG) [40 RZF] - 6Q2 - Oernguvat Ceboyrzf -- 333 Wrna Oenqyrl Pve, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Jrfg Qe / Ynxr Fuber Qe -- Pnyyre: Cvgare Fgnayrl\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Oernguvat Ceboyrzf",
-        "NQQE:333 Wrna Oenqyrl Pve",
-        "PVGL:Serqrevpn",
-        "CYNPR:Uvtu Cbvag Zuc",
-        "PBQR:6Q2",
-        "K:Jrfg Qe / Ynxr Fuber Qe",
-        "ANZR:Cvgare Fgnayrl");
-
-    qbGrfg("G27",
-        "(Puvrs NYG) [40 RZF] - 17O1T - Snyyf - Cbffvoyl Qnatrebhf -- 1491 Serqrevpn Eq, Serqrevpn -- Kfg'f: Sebag Fg, R Sebag Fg / A Znexrg Fg -- Pnyyre: Uheyrl Nfuyrl\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:17O1T - Snyyf - Cbffvoyl Qnatrebhf",
-        "NQQE:1491 Serqrevpn Eq",
-        "PVGL:Serqrevpn",
-        "K:Sebag Fg, R Sebag Fg / A Znexrg Fg",
-        "ANZR:Uheyrl Nfuyrl");
-
-    qbGrfg("G28",
-        "(Puvrs NYG) [40 Sver] - 29O1 - ZIP Vawhevrf -- 158 Pyncunz Eq, Serqrevpn -- Kfg'f: Uvtu Cbvag Cnex / Zhyoreevr Cbvag Eq\e\a\e\a",
-        "FEP:40 Sver",
-        "PNYY:ZIP Vawhevrf",
-        "NQQE:158 Pyncunz Eq",
-        "PVGL:Serqrevpn",
-        "PBQR:29O1",
-        "K:Uvtu Cbvag Cnex / Zhyoreevr Cbvag Eq");
-
-    qbGrfg("G29",
-        "(Puvrs NYG) [40 RZF] - 29O1 - ZIP Vawhevrf -- 158 Pyncunz Eq, Serqrevpn -- Kfg'f: Uvtu Cbvag Cnex / Zhyoreevr Cbvag Eq\e\a\e\a",
-        "FEP:40 RZF",
-        "PNYY:ZIP Vawhevrf",
-        "NQQE:158 Pyncunz Eq",
-        "PVGL:Serqrevpn",
-        "PBQR:29O1",
-        "K:Uvtu Cbvag Cnex / Zhyoreevr Cbvag Eq");
-
-    qbGrfg("G30",
-        "(Puvrs NYG) [40 RZF] - 1N1 - Noqbzvany Cnvaf -- 113 Yrn Nir, Serqrevpn -- Evireivrj Rfgngrf -- Kfg'f: Znepry Nir / Puevfgrafra Jnl -- Pnyyre: Fgvyyre\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Noqbzvany Cnvaf",
-        "NQQE:113 Yrn Nir",
-        "PVGL:Serqrevpn",
-        "CYNPR:Evireivrj Rfgngrf",
-        "PBQR:1N1",
-        "K:Znepry Nir / Puevfgrafra Jnl",
-        "ANZR:Fgvyyre");
-
-    qbGrfg("G31",
-        "(Puvrs NYG) [40 Sver] - Fgehpgher-Zbovyr Ubzr/Genvyre -- 1424 Serqrevpn Eq, Serqrevpn -- Kfg'f: Qnivq Fg / F Znexrg Fg -- Pnyyre: Cvpxyr Funja\e\a" +
-        "\e\a",
-
+        "(Puvrs Nyreg) [40 Sver] Fgehpgher-Zbovyr Ubzr/Genvyre -- 57 Rfgbcry Ya Zntabyvn, QR 19962 -- Onexref Ynaqvat -- Pebff FGF: Whel Qe, Crgvgvba Ya / Whel Qe",
         "FEP:40 Sver",
         "PNYY:Fgehpgher-Zbovyr Ubzr/Genvyre",
-        "NQQE:1424 Serqrevpn Eq",
+        "NQQE:57 Rfgbcry Ya",
+        "PVGL:Zntabyvn",
+        "FG:QR",
+        "CYNPR:Onexref Ynaqvat",
+        "K:Whel Qe, Crgvgvba Ya / Whel Qe");
+
+    qbGrfg("G6",
+        "(Puvrs NYG) [40 Sver] - Fgehpgher-Zbovyr Ubzr/Genvyre -- 57 Rfgbcry Ya, Zntabyvn -- Onexref Ynaqvat -- Kfg'f: Whel Qe, Crgvgvba Ya / Whel Qe Yng: 39.054298268 Ybat: -75.4652612199999",
+        "FEP:40 Sver",
+        "PNYY:Fgehpgher-Zbovyr Ubzr/Genvyre",
+        "NQQE:57 Rfgbcry Ya",
+        "PVGL:Zntabyvn",
+        "CYNPR:Onexref Ynaqvat",
+        "K:Whel Qe, Crgvgvba Ya / Whel Qe",
+        "TCF:+39.054298,-75.465261");
+
+    qbGrfg("G7",
+        "(Puvrs NYG) [40 Sver] - Bhgfvqr Sver-Fznyy -- 83 4gu Fg, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Ab Pebff Fgerrgf Sbhaq",
+        "FEP:40 Sver",
+        "PNYY:Bhgfvqr Sver-Fznyy",
+        "NQQE:83 4gu Fg",
         "PVGL:Serqrevpn",
-        "K:Qnivq Fg / F Znexrg Fg",
-        "ANZR:Cvpxyr Funja");
+        "CYNPR:Uvtu Cbvag Zuc");
 
-    qbGrfg("G32",
-        "(Puvrs NYG) [40 RZF] - 26N3 - Fvpx Crefba - Qvmmvarff -- 321 Wrna Oenqyrl Pve, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Jrfg Qe / Ynxr Fuber Qe -- Pnyyre: Snhyxare Qrobenu\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Fvpx Crefba - Qvmmvarff",
-        "NQQE:321 Wrna Oenqyrl Pve",
+    qbGrfg("G8",
+        "(Puvrs NYG) [40 Sver] - 6R1 - Oernguvat Ceboyrzf -- 3043 Znva Fg, Serqrevpn -- Kfg'f: Objref Ornpu Eq / Prqne Nir",
+        "FEP:40 Sver",
+        "PBQR:6R1",
+        "PNYY:Oernguvat Ceboyrzf",
+        "NQQE:3043 Znva Fg",
         "PVGL:Serqrevpn",
-        "CYNPR:Uvtu Cbvag Zuc",
-        "PBQR:26N3",
-        "K:Jrfg Qe / Ynxr Fuber Qe",
-        "ANZR:Snhyxare Qrobenu");
+        "K:Objref Ornpu Eq / Prqne Nir");
 
-    qbGrfg("G33",
-        "(Puvrs NYG) [40 RZF] - Havg:N40 Fgnghf:Ng Fprar 26N1 Fvpx Crefba 3285 ZNVA FG FGNGVBA 40 Irahr: Serqrevpn Qri/Fho: OBJREF ORNPU Kfg'f: QNIVQFBA FG / PUHEPU FG Pnyyre: 40 FGNGVBA\e\a" +
-        "\e\a",
-
-        "HAVG:N40",
-        "PNYY:Ng Fprar 26N1 Fvpx Crefba",
-        "NQQE:3285 ZNVA FG",
-        "PVGL:Serqrevpn",
-        "CYNPR:FGNGVBA 40",
-        "ZNC:OBJREF ORNPU",
-        "K:QNIVQFBA FG / PUHEPU FG",
-        "ANZR:40 FGNGVBA");
-
-    qbGrfg("G34",
-        "(Puvrs NYG) [40 RZF] - Havg:N40 Fgnghf:Ng Fprar 26N1 Fvpx Crefba 1131 A QHCBAG UJL ABEGU SVEFG NVQ QVF - ABEGU SVEFG NVQ Irahr: Qbire Qri/Fho: QBIRE QBJAF Kfg'f: HAXABJA / QBIRE QBJAF Pnyyre: N40\e\a" +
-        "\e\a",
-
-        "HAVG:N40",
-        "PNYY:Ng Fprar 26N1 Fvpx Crefba",
-        "NQQE:1131 A QHCBAG UJL",
-        "PVGL:Qbire",
-        "CYNPR:ABEGU SVEFG NVQ QVF - ABEGU SVEFG NVQ",
-        "ZNC:QBIRE QBJAF",
-        "K:HAXABJA / QBIRE QBJAF",
-        "ANZR:N40");
-
-    qbGrfg("G35",
-        "(Puvrs NYG) [40 RZF] - RZF Fgnaq-ol 1131 A QHCBAG UJL SNA PNER PRAGRE QVF - BHGFVQR SVEFG NVQ, Qbire -- Qbire Qbjaf -- Kfg'f: Haxabja / Qbire Qbjaf -- Pnyyre: Rp24\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:RZF Fgnaq-ol 1131 A QHCBAG UJL SNA PNER PRAGRE QVF - BHGFVQR SVEFG NVQ",
-        "PVGL:Qbire",
-        "CYNPR:Qbire Qbjaf",
-        "K:Haxabja / Qbire Qbjaf",
-        "ANZR:Rp24");
-
-    qbGrfg("G36",
-        "(Puvrs NYG) [40 RZF] - 10P1 - Purfg Cnvaf -- 3285 Znva Fg Fgngvba 40, Serqrevpn -- Objref Ornpu -- Kfg'f: Qnivqfba Fg / Puhepu Fg -- Pnyyre: 40 Fgngvba\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Purfg Cnvaf",
-        "NQQE:3285 Znva Fg Fgngvba 40",
+    qbGrfg("G9",
+        "(Puvrs NYG) [40 Sver] - Jngrepensg va Qvfgerff (Cev 1) -- 201 Uhooneq Nir, Serqrevpn -- Objref Ornpu -- Kfg'f: Qrnq Raq / Pnany Fg",
+        "FEP:40 Sver",
+        "PNYY:Jngrepensg va Qvfgerff (Cev 1)",
+        "NQQE:201 Uhooneq Nir",
         "PVGL:Serqrevpn",
         "CYNPR:Objref Ornpu",
-        "PBQR:10P1",
-        "K:Qnivqfba Fg / Puhepu Fg",
-        "ANZR:40 Fgngvba");
+        "K:Qrnq Raq / Pnany Fg");
 
-    qbGrfg("G37",
-        "(Puvrs NYG) [40 RZF] - Havg:N40 Fgnghf:Ng Fprar RZF Fgnaq-ol 1131 A  QHCBAG UJL QVF - FCRRQJNL Irahr: Qbire Qri/Fho: QBIRE QBJAF Kfg'f: HAXABJA / QBIRE QBJAF Pnyyre:\e\a" +
-        "\e\a",
-
-        "HAVG:N40",
-        "PNYY:Ng Fprar RZF Fgnaq-ol",
-        "NQQE:1131 A QHCBAG UJL",
-        "PVGL:Qbire",
-        "CYNPR:QVF - FCRRQJNL",
-        "ZNC:QBIRE QBJAF",
-        "K:HAXABJA / QBIRE QBJAF");
-
-    qbGrfg("G38",
-        "(Puvrs NYG) [40 RZF] - 29O1 - ZIP Vawhevrf -- 11102 F Qhcbag Ujl, Srygba -- Kfg'f: Haxabja / F Reva Nir -- Pnyyre: Pynex Puneyrf \e\a" +
-        "\e\a" +
-        "GUVF VF N GRFG!!!!\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:ZIP Vawhevrf",
-        "NQQE:11102 F Qhcbag Ujl",
-        "PVGL:Srygba",
-        "PBQR:29O1",
-        "K:Haxabja / F Reva Nir",
-        "ANZR:Pynex Puneyrf \a\aGUVF VF N GRFG!!!!");
-
-    qbGrfg("G39",
-        "(Puvrs NYG) [40 RZF] - 29O1 - ZIP Vawhevrf -- 11102 F  Qhcbag Ujl, Srygba -- Kfg'f: Haxabja / F Reva Nir -- Pnyyre: Pynex Puneyrf\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:ZIP Vawhevrf",
-        "NQQE:11102 F Qhcbag Ujl",
-        "PVGL:Srygba",
-        "PBQR:29O1",
-        "K:Haxabja / F Reva Nir",
-        "ANZR:Pynex Puneyrf");
-
-    qbGrfg("G40",
-        "(Puvrs NYG) [40 RZF] - 19Q2 - Urneg Ceboyrzf -- 2284 Objref Ornpu Eq, Serqrevpn -- Kfg'f: Tez Qe / Juvgjryy Qryvtug Eq -- Pnyyre: Urael\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Urneg Ceboyrzf",
-        "NQQE:2284 Objref Ornpu Eq",
-        "PVGL:Serqrevpn",
-        "PBQR:19Q2",
-        "K:Tez Qe / Juvgjryy Qryvtug Eq",
-        "ANZR:Urael");
-
-    qbGrfg("G41",
-        "(Puvrs NYG) [40 RZF] - 26P2 - Fvpx Crefba -- 134 Zncyr Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Jvyybj Qe / Jvyybj Qe, Tneqra Cy\e\a" +
-        "\e\a",
-
-        "FEP:40 RZF",
-        "PNYY:Fvpx Crefba",
-        "NQQE:134 Zncyr Qe",
+    qbGrfg("G10",
+        "(Puvrs NYG) [40 Sver] - 17N1T - Snyyf - Abg Qnatrebhf -- 293 Xlyvr Ya, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Qrnq Raq / Ynxr Fuber Qe",
+        "FEP:40 Sver",
+        "PNYY:17N1T - Snyyf - Abg Qnatrebhf",
+        "NQQE:293 Xlyvr Ya",
         "PVGL:Serqrevpn",
         "CYNPR:Uvtu Cbvag Zuc",
-        "PBQR:26P2",
-        "K:Jvyybj Qe / Jvyybj Qe, Tneqra Cy");
+        "K:Qrnq Raq / Ynxr Fuber Qe");
 
-    qbGrfg("G42",
-        "(Puvrs NYG) [40 RZF] - 29O1N - ZIP Zhygvcyr Vawhevrf -- Fpenc Gnirea Eq, Srygba -- Pnyyre: Thaavat Sena\e\a\e\a",
-        "FEP:40 RZF",
-        "PNYY:29O1N - ZIP Zhygvcyr Vawhevrf - Fpenc",
-        "NQQE:Gnirea Eq",
-        "PVGL:Srygba",
-        "ANZR:Thaavat Sena");
+    qbGrfg("G11",
+        "(Puvrs NYG) [40 Sver] - Ryrpgevpny Unmneq-Genafsbezre -- 684 R  Sebag Fg, Serqrevpn -- Onxref Pubvpr -- Kfg'f: R Bnx Fg / R Cbcyne Fg",
+        "FEP:40 Sver",
+        "PNYY:Ryrpgevpny Unmneq-Genafsbezre",
+        "NQQE:684 R Sebag Fg",
+        "PVGL:Serqrevpn",
+        "CYNPR:Onxref Pubvpr",
+        "K:R Bnx Fg / R Cbcyne Fg");
+
+    qbGrfg("G12",
+        "(Puvrs NYG) [40 Sver] - Fzbxr Vairfgvtngvba -- Ohssnyb Eq, Serqrevpn -- Uvtu Cbvag Zuc",
+        "FEP:40 Sver",
+        "PNYY:Fzbxr Vairfgvtngvba",
+        "NQQE:Ohssnyb Eq",
+        "PVGL:Serqrevpn",
+        "CYNPR:Uvtu Cbvag Zuc");
+
+    qbGrfg("G13",
+        "(Puvrs NYG) [40 Sver] - Fgehpgher-Ynetr Aba-Qjryyvat -- 396 Unlsvryq Eq, Uneevatgba -- Kfg'f: Fhtne Fgvpx Eq / Oheavgr Zvyy Eq",
+        "FEP:40 Sver",
+        "PNYY:Fgehpgher-Ynetr Aba-Qjryyvat",
+        "NQQE:396 Unlsvryq Eq",
+        "PVGL:Uneevatgba",
+        "K:Fhtne Fgvpx Eq / Oheavgr Zvyy Eq");
+
+    qbGrfg("G14",
+        "(Puvrs NYG) [40 Sver] - Fgnaq-Ol,Pbire-hc -- 157 Oebnq Fg, Ubhfgba -- Kfg'f: Envyebnq Nir / Fpubby Fg",
+        "FEP:40 Sver",
+        "PNYY:Fgnaq-Ol,Pbire-hc",
+        "NQQE:157 Oebnq Fg",
+        "PVGL:Ubhfgba",
+        "K:Envyebnq Nir / Fpubby Fg");
+
+    qbGrfg("G15",
+        "(Puvrs NYG) [40 Sver] - Pvgvmra Nffvfg/Freivpr Pnyy -- 2959 Znva Fg, Serqrevpn",
+        "FEP:40 Sver",
+        "PNYY:Pvgvmra Nffvfg/Freivpr Pnyy",
+        "NQQE:2959 Znva Fg",
+        "PVGL:Serqrevpn");
+
+    qbGrfg("G16",
+        "(Puvrs NYG) [40 Sver] - 9R2 - Pneqvnp Neerfg - Ntbany -- 2284 Objref Ornpu Eq, Serqrevpn -- Kfg'f: Tez Qe / Juvgjryy Qryvtug Eq",
+        "FEP:40 Sver",
+        "PBQR:9R2",
+        "PNYY:Pneqvnp Neerfg - Ntbany",
+        "NQQE:2284 Objref Ornpu Eq",
+        "PVGL:Serqrevpn",
+        "K:Tez Qe / Juvgjryy Qryvtug Eq");
+
+    qbGrfg("G17",
+        "(Puvrs NYG) [40 Sver] - 17Q3 - Snyyf - Abg Nyreg -- 2329 Fxrrgre Arpx Eq, Serqrevpn -- Kfg'f: Haxabja / Objref Ornpu Eq",
+        "FEP:40 Sver",
+        "PBQR:17Q3",
+        "PNYY:Snyyf - Abg Nyreg",
+        "NQQE:2329 Fxrrgre Arpx Eq",
+        "PVGL:Serqrevpn",
+        "K:Haxabja / Objref Ornpu Eq");
 
   }
-  
+
+  @Grfg
+  choyvp ibvq grfgUbhfgbaIbyhagrreSverPb() {
+
+    qbGrfg("G1",
+        "(Puvrs NYG) [52 Sver] - Fgehpgher-Rkgvathvfurq  : 108 ZNEFUNYY FG, Zvysbeq -- Kfg'f: Fr Sebag Fg / Fr 2aq Fg",
+        "FEP:52 Sver",
+        "PNYY:Fgehpgher-Rkgvathvfurq",
+        "NQQE:108 ZNEFUNYY FG",
+        "PVGL:Zvysbeq",
+        "K:Fr Sebag Fg / Fr 2aq Fg");
+
+    qbGrfg("G2",
+        "(Puvrs Nyreg) [52 Sver] Bhgfvqr Sver-Svryq,Tenff,Jbbqf -- 220 F  Ovt Fgbar Ornpu Qe  Zvysbeq, QR 19963 -- Zvysbeq -- Pebff FGF: Ab Pebff Fgerrgf Sbhaq",
+        "FEP:52 Sver",
+        "PNYY:Bhgfvqr Sver-Svryq,Tenff,Jbbqf",
+        "NQQE:220 F Ovt Fgbar Ornpu Qe",
+        "PVGL:Zvysbeq",
+        "FG:QR",
+        "CYNPR:Zvysbeq");
+
+    qbGrfg("G3",
+        "(Puvrs NYG) [52 Sver] - Bhgfvqr Sver-Svryq,Tenff,Jbbqf -- 220 F  Ovt Fgbar Ornpu Qe, Zvysbeq -- Kfg'f: Ab Pebff Fgerrgf Sbhaq Yng: 38.99786713 Ybat: -75.3262125159999",
+        "FEP:52 Sver",
+        "PNYY:Bhgfvqr Sver-Svryq,Tenff,Jbbqf",
+        "NQQE:220 F Ovt Fgbar Ornpu Qe",
+        "PVGL:Zvysbeq",
+        "TCF:+38.997867,-75.326213");
+
+    qbGrfg("G4",
+        "(Puvrs Nyreg) [52 Sver] Fvpx Crefba - Noabezny Oernguvat -- 2612 Wnpxfba Qvgpu Eq Uneevatgba, QR 19952 -- Pebff FGF: Jeraf Jnl Qe / Pnecragre Oevqtr Eq",
+        "FEP:52 Sver",
+        "PNYY:Fvpx Crefba - Noabezny Oernguvat",
+        "NQQE:2612 Wnpxfba Qvgpu Eq",
+        "PVGL:Uneevatgba",
+        "FG:QR",
+        "CYNPR:Pebff FGF: Jeraf Jnl Qe / Pnecragre Oevqtr Eq");
+
+    qbGrfg("G5",
+        "(Puvrs NYG) [52 Sver] - 26P2 - Fvpx Crefba -- 2612 Wnpxfba Qvgpu Eq, Uneevatgba -- Kfg'f: Jeraf Jnl Qe / Pnecragre Oevqtr Eq Yng: 38.948489298 Ybat: -75.538449675",
+        "FEP:52 Sver",
+        "PBQR:26P2",
+        "PNYY:Fvpx Crefba",
+        "NQQE:2612 Wnpxfba Qvgpu Eq",
+        "PVGL:Uneevatgba",
+        "K:Jeraf Jnl Qe / Pnecragre Oevqtr Eq",
+        "TCF:+38.948489,-75.538450");
+
+    qbGrfg("G6",
+        "(Puvrs Nyreg) [52 Sver] Nynezf Pb-Zbovyr Ubzr -- 98 Orrpu Gerr Ya Uneevatgba, QR 19952 -- Cnevf Jbbqf -- Pebff FGF: Qrnq Raq / Fnaqobk Eq",
+        "FEP:52 Sver",
+        "PNYY:Nynezf Pb-Zbovyr Ubzr",
+        "NQQE:98 Orrpu Gerr Ya",
+        "PVGL:Uneevatgba",
+        "FG:QR",
+        "CYNPR:Cnevf Jbbqf",
+        "K:Qrnq Raq / Fnaqobk Eq");
+
+    qbGrfg("G7",
+        "(Puvrs NYG) [52 Sver] - Nynezf PB-Zbovyr ubzr -- 98 Orrpu Gerr Ya, Uneevatgba -- Cnevf Jbbqf -- Kfg'f: Qrnq Raq / Fnaqobk Eq Yng: 38.9634906840001 Ybat: -75.5178456849999",
+        "FEP:52 Sver",
+        "PNYY:Nynezf PB-Zbovyr ubzr",
+        "NQQE:98 Orrpu Gerr Ya",
+        "PVGL:Uneevatgba",
+        "CYNPR:Cnevf Jbbqf",
+        "K:Qrnq Raq / Fnaqobk Eq",
+        "TCF:+38.963491,-75.517846");
+
+    qbGrfg("G8",
+        "(Puvrs Nyreg) [52 Sver] Oernguvat Qvssvphygl - Qvssvphygl Fcrnxvat -- 6440 Pungrnh Qe  Zvysbeq, QR 19963 -- Unyy Rfgngrf - Zvysbeq -- Pebff FGF: Zrybql Ya / Zrybql Ya, Zrybql Pve",
+        "FEP:52 Sver",
+        "PNYY:Oernguvat Qvssvphygl - Qvssvphygl Fcrnxvat",
+        "NQQE:6440 Pungrnh Qe",
+        "PVGL:Zvysbeq",
+        "FG:QR",
+        "CYNPR:Unyy Rfgngrf - Zvysbeq",
+        "K:Zrybql Ya / Zrybql Ya, Zrybql Pve");
+
+    qbGrfg("G9",
+        "(Puvrs NYG) [52 Sver] - 6Q2 - Oernguvat Ceboyrzf -- 6440 Pungrnh Qe, Zvysbeq -- Unyy Rfgngrf -- Kfg'f: Zrybql Ya / Zrybql Ya, Zrybql Pve Yng: 38.939501201 Ybat: -75.463158569",
+        "FEP:52 Sver",
+        "PBQR:6Q2",
+        "PNYY:Oernguvat Ceboyrzf",
+        "NQQE:6440 Pungrnh Qe",
+        "PVGL:Zvysbeq",
+        "CYNPR:Unyy Rfgngrf",
+        "K:Zrybql Ya / Zrybql Ya, Zrybql Pve",
+        "TCF:+38.939501,-75.463159");
+
+    qbGrfg("G10",
+        "(Puvrs Nyreg) [52 Sver] Nynezf-Pbzzrepvny -- 1 Cnex Nir  Zvysbeq, QR 19963 -- Zvysbeq Fxngvat Pragre - Zvysbeq -- Pebff FGF: A Jnfuvatgba Fg / A Jnyahg Fg",
+        "FEP:52 Sver",
+        "PNYY:Nynezf-Pbzzrepvny",
+        "NQQE:1 Cnex Nir",
+        "PVGL:Zvysbeq",
+        "FG:QR",
+        "CYNPR:Zvysbeq Fxngvat Pragre - Zvysbeq",
+        "K:A Jnfuvatgba Fg / A Jnyahg Fg");
+
+    qbGrfg("G11",
+        "(Puvrs NYG) [52 Sver] - Nynezf-Pbzzrepvny -- 1 Cnex Nir, Zvysbeq -- Kfg'f: A Jnfuvatgba Fg / A Jnyahg Fg Yng: 38.913847307 Ybat: -75.427464766",
+        "FEP:52 Sver",
+        "PNYY:Nynezf-Pbzzrepvny",
+        "NQQE:1 Cnex Nir",
+        "PVGL:Zvysbeq",
+        "K:A Jnfuvatgba Fg / A Jnyahg Fg",
+        "TCF:+38.913847,-75.427465");
+
+    qbGrfg("G12",
+        "(Puvrs NYG) [52 Sver] - 1P5 - Noqbzvany Cnvaf -- 2612 Wnpxfba Qvgpu Eq, Uneevatgba -- Kfg'f: Jeraf Jnl Qe / Pnecragre Oevqtr Eq",
+        "FEP:52 Sver",
+        "PBQR:1P5",
+        "PNYY:Noqbzvany Cnvaf",
+        "NQQE:2612 Wnpxfba Qvgpu Eq",
+        "PVGL:Uneevatgba",
+        "K:Jeraf Jnl Qe / Pnecragre Oevqtr Eq");
+
+    qbGrfg("G13",
+        "(Puvrs NYG) [52 Sver] - 29O4 - ZIP Haxabja -- 522 Aj Sebag Fg, Zvysbeq -- Kfg'f: A Zncyr Nir / Yvafgbar Ya",
+        "FEP:52 Sver",
+        "PBQR:29O4",
+        "PNYY:ZIP Haxabja",
+        "NQQE:522 Aj Sebag Fg",
+        "PVGL:Zvysbeq",
+        "K:A Zncyr Nir / Yvafgbar Ya");
+
+    qbGrfg("G14",
+        "(Puvrs NYG) [52 Sver] - 26P1 - Fvpx Crefba -- 107 Abegu Fg, Zvysbeq -- Kfg'f: Aj 2aq Fg / Aj Sebag Fg",
+        "FEP:52 Sver",
+        "PBQR:26P1",
+        "PNYY:Fvpx Crefba",
+        "NQQE:107 Abegu Fg",
+        "PVGL:Zvysbeq",
+        "K:Aj 2aq Fg / Aj Sebag Fg");
+
+    qbGrfg("G15",
+        "(Puvrs NYG) [52 Sver] - 6Q2 - Oernguvat Ceboyrzf -- 106 F  Jnyahg Fg, Zvysbeq -- Kfg'f: Pnhfrl Nir / Fj Sebag Fg, Fr Sebag Fg",
+        "FEP:52 Sver",
+        "PBQR:6Q2",
+        "PNYY:Oernguvat Ceboyrzf",
+        "NQQE:106 F Jnyahg Fg",
+        "PVGL:Zvysbeq",
+        "K:Pnhfrl Nir / Fj Sebag Fg, Fr Sebag Fg");
+
+    qbGrfg("G16",
+        "(Puvrs NYG) [52 Sver] - 17N3T - Snyyf - Choyvp Nffvfg -- 304 Znfba Nir, Uneevatgba -- Kfg'f: Znqvfba Nir / Qrnq Raq",
+        "FEP:52 Sver",
+        "PNYY:17N3T - Snyyf - Choyvp Nffvfg",
+        "NQQE:304 Znfba Nir",
+        "PVGL:Uneevatgba",
+        "K:Znqvfba Nir / Qrnq Raq");
+
+    qbGrfg("G17",
+        "(Puvrs NYG) [52 Sver] - 21Q2 - Urzbeeuntr - Abg Nyreg -- 626 Nqnzf Qe, Zvysbeq -- Rnfgzna Urvtugf -- Kfg'f: Ryxf Ybqtr Eq / Znefunyy Fg",
+        "FEP:52 Sver",
+        "PBQR:21Q2",
+        "PNYY:Urzbeeuntr - Abg Nyreg",
+        "NQQE:626 Nqnzf Qe",
+        "PVGL:Zvysbeq",
+        "CYNPR:Rnfgzna Urvtugf",
+        "K:Ryxf Ybqtr Eq / Znefunyy Fg");
+
+    qbGrfg("G18",
+        "(Puvrs NYG) [52 Sver] - 29O1 - ZIP Vawhevrf -- 3920 Tha Naq Ebq Pyho Eq, Uneevatgba -- Kfg'f: Uhagvat Dhnegre Eq / Qrrc Tenff Ya",
+        "FEP:52 Sver",
+        "PBQR:29O1",
+        "PNYY:ZIP Vawhevrf",
+        "NQQE:3920 Tha Naq Ebq Pyho Eq",
+        "PVGL:Uneevatgba",
+        "K:Uhagvat Dhnegre Eq / Qrrc Tenff Ya");
+
+    qbGrfg("G19",
+        "(Puvrs NYG) [52 Sver] - 29Q2C - ZIP Ebyybire -- Ar Sebag Fg, Zvysbeq",
+        "FEP:52 Sver",
+        "PNYY:29Q2C - ZIP Ebyybire",
+        "NQQE:Ar Sebag Fg",
+        "PVGL:Zvysbeq");
+
+    qbGrfg("G20",
+        "(Puvrs NYG) [52 Sver] - 17O1T - Snyyf - Cbffvoyl Qnatrebhf -- 130 Junegba Fg, Ubhfgba -- Kfg'f: Fpubby Fg / Envyebnq Nir",
+        "FEP:52 Sver",
+        "PNYY:17O1T - Snyyf - Cbffvoyl Qnatrebhf",
+        "NQQE:130 Junegba Fg",
+        "PVGL:Ubhfgba",
+        "K:Fpubby Fg / Envyebnq Nir");
+
+    qbGrfg("G21",
+        "(Puvrs NYG) [52 Sver] - 17O1 - Snyyf - Cbffvoyl Qnatrebhf -- 1417 Xvyyraf Cbaq Eq, Uneevatgba -- Kfg'f: Oybbzsvryq Qe / Fnaqobk Eq",
+        "FEP:52 Sver",
+        "PBQR:17O1",
+        "PNYY:Snyyf - Cbffvoyl Qnatrebhf",
+        "NQQE:1417 Xvyyraf Cbaq Eq",
+        "PVGL:Uneevatgba",
+        "K:Oybbzsvryq Qe / Fnaqobk Eq");
+
+    qbGrfg("G22",
+        "(Puvrs NYG) [52 Sver] - Fgehpgher-Ynetr Aba-Qjryyvat -- 2581 Syngveba Eq, Uneevatgba -- Kfg'f: Ab Pebff Fgerrgf Sbhaq",
+        "FEP:52 Sver",
+        "PNYY:Fgehpgher-Ynetr Aba-Qjryyvat",
+        "NQQE:2581 Syngveba Eq",
+        "PVGL:Uneevatgba");
+
+    qbGrfg("G23",
+        "(Puvrs NYG) [52 Sver] - 25N1 - Cflpuvngevp Orunivbe -- 1102 Fpubby Fg, Ubhfgba -- Kfg'f: Oynvef Cbaq Eq / A Fnenu Fvqr Qe",
+        "FEP:52 Sver",
+        "PBQR:25N1",
+        "PNYY:Cflpuvngevp Orunivbe",
+        "NQQE:1102 Fpubby Fg",
+        "PVGL:Ubhfgba",
+        "K:Oynvef Cbaq Eq / A Fnenu Fvqr Qe");
+
+    qbGrfg("G24",
+        "(Puvrs NYG) [52 Sver] - 33P2G - Genafsre/Vagresnpvyvgl -- 100 Qrynjner Irgrenaf Oyiq, Zvysbeq -- Kfg'f: Qrnq Raq / Cngevbgf Jnl",
+        "FEP:52 Sver",
+        "PNYY:33P2G - Genafsre/Vagresnpvyvgl",
+        "NQQE:100 Qrynjner Irgrenaf Oyiq",
+        "PVGL:Zvysbeq",
+        "K:Qrnq Raq / Cngevbgf Jnl");
+
+    qbGrfg("G25",
+        "(Puvrs NYG) [52 Sver] - 29O1 - ZIP Vawhevrf -- 2983 Pnagreohel Eq, Zvysbeq -- Kfg'f: Ebgurezry Eq / Oyhr Wnl Ya",
+        "FEP:52 Sver",
+        "PBQR:29O1",
+        "PNYY:ZIP Vawhevrf",
+        "NQQE:2983 Pnagreohel Eq",
+        "PVGL:Zvysbeq",
+        "K:Ebgurezry Eq / Oyhr Wnl Ya");
+
+    qbGrfg("G26",
+        "(Puvrs NYG) [52 Sver] - 29O1 - ZIP Vawhevrf -- 2983 Pnagreohel Eq, Zvysbeq -- Kfg'f: Ebgurezry Eq / Oyhr Wnl Ya",
+        "FEP:52 Sver",
+        "PBQR:29O1",
+        "PNYY:ZIP Vawhevrf",
+        "NQQE:2983 Pnagreohel Eq",
+        "PVGL:Zvysbeq",
+        "K:Ebgurezry Eq / Oyhr Wnl Ya");
+
+    qbGrfg("G27",
+        "(Puvrs NYG) [52 Sver] - 17N3T - Snyyf - Choyvp Nffvfg -- 115 Lryybj Jbbq Qe, Uneevatgba -- Oybbzsvryq -- Kfg'f: Fhaohefg Pg, Nfgre Jnl / Juvgr Obaarg Pg, Cbyntre Qe",
+        "FEP:52 Sver",
+        "PNYY:17N3T - Snyyf - Choyvp Nffvfg",
+        "NQQE:115 Lryybj Jbbq Qe",
+        "PVGL:Uneevatgba",
+        "CYNPR:Oybbzsvryq",
+        "K:Fhaohefg Pg, Nfgre Jnl / Juvgr Obaarg Pg, Cbyntre Qe");
+
+    qbGrfg("G28",
+        "(Puvrs NYG) [52 Sver] - 29O1 - ZIP Vawhevrf -- 5332 Zvysbeq Uneevatgba Ujl, Uneevatgba -- Kfg'f: Fbhgu Yhpxl Rfgngrf Qe / Qrrc Tenff Ya, Xvyyraf Cbaq Eq",
+        "FEP:52 Sver",
+        "PBQR:29O1",
+        "PNYY:ZIP Vawhevrf",
+        "NQQE:5332 Zvysbeq Uneevatgba Ujl",
+        "PVGL:Uneevatgba",
+        "K:Fbhgu Yhpxl Rfgngrf Qe / Qrrc Tenff Ya, Xvyyraf Cbaq Eq");
+
+    qbGrfg("G29",
+        "(Puvrs NYG) [52 Sver] - 29O1 - ZIP Vawhevrf -- F  Qhcbag Ujl, Uneevatgba",
+        "FEP:52 Sver",
+        "PBQR:29O1",
+        "PNYY:ZIP Vawhevrf",
+        "NQQE:F Qhcbag Ujl",
+        "PVGL:Uneevatgba");
+
+    qbGrfg("G30",
+        "(Puvrs NYG) [52 Sver] - 29Q4 - ZIP Genccrq -- 5332 Zvysbeq Uneevatgba Ujl, Uneevatgba -- Kfg'f: Fbhgu Yhpxl Rfgngrf Qe / Qrrc Tenff Ya, Xvyyraf Cbaq Eq",
+        "FEP:52 Sver",
+        "PBQR:29Q4",
+        "PNYY:ZIP Genccrq",
+        "NQQE:5332 Zvysbeq Uneevatgba Ujl",
+        "PVGL:Uneevatgba",
+        "K:Fbhgu Yhpxl Rfgngrf Qe / Qrrc Tenff Ya, Xvyyraf Cbaq Eq");
+
+    qbGrfg("G31",
+        "(Puvrs NYG) [52 Sver] - 9R2 - Pneqvnp Neerfg - Ntbany -- Fgnlgbaivyyr Eq, Terrajbbq",
+        "FEP:52 Sver",
+        "PBQR:9R2",
+        "PNYY:Pneqvnp Neerfg - Ntbany",
+        "NQQE:Fgnlgbaivyyr Eq",
+        "PVGL:Terrajbbq");
+
+    qbGrfg("G32",
+        "(Puvrs NYG) [52 Sver] - 6Q2 - Oernguvat Ceboyrzf -- 206 Rnfg Fg, Zvysbeq -- Kfg'f: Ar 2aq Fg / Ar 4gu Fg",
+        "FEP:52 Sver",
+        "PBQR:6Q2",
+        "PNYY:Oernguvat Ceboyrzf",
+        "NQQE:206 Rnfg Fg",
+        "PVGL:Zvysbeq",
+        "K:Ar 2aq Fg / Ar 4gu Fg");
+
+    qbGrfg("G33",
+        "(Puvrs NYG) [52 Sver] - 33P2G - Genafsre/Vagresnpvyvgl -- 703 A  Qhcbag Oyiq, Zvysbeq -- Kfg'f: Perqvg Havba Jnl / Ebtref Qe",
+        "FEP:52 Sver",
+        "PNYY:33P2G - Genafsre/Vagresnpvyvgl",
+        "NQQE:703 A Qhcbag Oyiq",
+        "PVGL:Zvysbeq",
+        "K:Perqvg Havba Jnl / Ebtref Qe");
+
+    qbGrfg("G34",
+        "(Puvrs NYG) [52 Sver] - 32O1 - Haxabja Ceboyrz -- 4075 Tha Naq Ebq Pyho Eq, Uneevatgba -- Kfg'f: Uhagvat Dhnegre Eq / Qrrc Tenff Ya",
+        "FEP:52 Sver",
+        "PBQR:32O1",
+        "PNYY:Haxabja Ceboyrz",
+        "NQQE:4075 Tha Naq Ebq Pyho Eq",
+        "PVGL:Uneevatgba",
+        "K:Uhagvat Dhnegre Eq / Qrrc Tenff Ya");
+
+    qbGrfg("G35",
+        "(Puvrs NYG) [52 Sver] - 26P2 - Fvpx Crefba -- 425 Xvyyraf Cbaq Eq, Uneevatgba -- Kfg'f: Ebfr Bs Funeba Qe / Oybbzsvryq Qe",
+        "FEP:52 Sver",
+        "PBQR:26P2",
+        "PNYY:Fvpx Crefba",
+        "NQQE:425 Xvyyraf Cbaq Eq",
+        "PVGL:Uneevatgba",
+        "K:Ebfr Bs Funeba Qe / Oybbzsvryq Qe");
+
+    qbGrfg("G36",
+        "(Puvrs NYG) [52 Sver] - 31P1 - Hapbafpvbhf/Snvagvat -- 113 Ynar Ivrj Qe, Uneevatgba -- Fpravp Nperf -- Kfg'f: Qrnq Raq / Yhpxl Ya",
+        "FEP:52 Sver",
+        "PBQR:31P1",
+        "PNYY:Hapbafpvbhf/Snvagvat",
+        "NQQE:113 Ynar Ivrj Qe",
+        "PVGL:Uneevatgba",
+        "CYNPR:Fpravp Nperf",
+        "K:Qrnq Raq / Yhpxl Ya");
+
+    qbGrfg("G37",
+        "(Puvrs NYG) [52 Sver] - 21O1 - Urzbeeuntr -- 4075 Tha Naq Ebq Pyho Eq, Uneevatgba -- Kfg'f: Uhagvat Dhnegre Eq / Qrrc Tenff Ya",
+        "FEP:52 Sver",
+        "PBQR:21O1",
+        "PNYY:Urzbeeuntr",
+        "NQQE:4075 Tha Naq Ebq Pyho Eq",
+        "PVGL:Uneevatgba",
+        "K:Uhagvat Dhnegre Eq / Qrrc Tenff Ya");
+
+    qbGrfg("G38",
+        "(Puvrs NYG) [52 Sver] - 6Q2 - Oernguvat Ceboyrzf -- 6317 Byq Funjarr Eq, Zvysbeq -- Kfg'f: Cvar Gerr Ya / Obagentre Eq, Oevggnal Cy",
+        "FEP:52 Sver",
+        "PBQR:6Q2",
+        "PNYY:Oernguvat Ceboyrzf",
+        "NQQE:6317 Byq Funjarr Eq",
+        "PVGL:Zvysbeq",
+        "K:Cvar Gerr Ya / Obagentre Eq, Oevggnal Cy");
+
+    qbGrfg("G39",
+        "(Puvrs NYG) [52 Sver] - 26Q1 - Fvpx Crefba - Abg Nyreg -- 4899 Zvysbeq Uneevatgba Ujl, Uneevatgba -- Kfg'f: Qrrc Tenff Ya, Xvyyraf Cbaq Eq / Fbhgu Yhpxl Rfgngrf Qe",
+        "FEP:52 Sver",
+        "PBQR:26Q1",
+        "PNYY:Fvpx Crefba - Abg Nyreg",
+        "NQQE:4899 Zvysbeq Uneevatgba Ujl",
+        "PVGL:Uneevatgba",
+        "K:Qrrc Tenff Ya, Xvyyraf Cbaq Eq / Fbhgu Yhpxl Rfgngrf Qe");
+
+    qbGrfg("G40",
+        "(Puvrs NYG) [52 Sver] - Iruvpyr Sver -- 4796 Zvysbeq Uneevatgba Ujl, Uneevatgba -- Kfg'f: Qrrc Tenff Ya, Xvyyraf Cbaq Eq / Fbhgu Yhpxl Rfgngrf Qe",
+        "FEP:52 Sver",
+        "PNYY:Iruvpyr Sver",
+        "NQQE:4796 Zvysbeq Uneevatgba Ujl",
+        "PVGL:Uneevatgba",
+        "K:Qrrc Tenff Ya, Xvyyraf Cbaq Eq / Fbhgu Yhpxl Rfgngrf Qe");
+
+    qbGrfg("G41",
+        "(Puvrs NYG) [52 Sver] - Bhgfvqr Sver-Ynetr -- 155 Netbf Pubvpr Qe, Uneevatgba -- Kfg'f: Qrnq Raq / Pybiresvryq Ya",
+        "FEP:52 Sver",
+        "PNYY:Bhgfvqr Sver-Ynetr",
+        "NQQE:155 Netbf Pubvpr Qe",
+        "PVGL:Uneevatgba",
+        "K:Qrnq Raq / Pybiresvryq Ya");
+
+    qbGrfg("G42",
+        "(Puvrs NYG) [52 Sver] - 6P1 - Oernguvat Ceboyrzf -- 5 Yvafgbar Ya, Zvysbeq -- Kfg'f: Haxabja / Inyyrl Qe",
+        "FEP:52 Sver",
+        "PBQR:6P1",
+        "PNYY:Oernguvat Ceboyrzf",
+        "NQQE:5 Yvafgbar Ya",
+        "PVGL:Zvysbeq",
+        "K:Haxabja / Inyyrl Qe");
+
+    qbGrfg("G43",
+        "(Puvrs NYG) [52 Sver] - 23P2V - Bireqbfr/Cbvfbavat -- 4548 Zvysbeq Uneevatgba Ujl, Uneevatgba -- Kfg'f: Qrrc Tenff Ya, Xvyyraf Cbaq Eq / Fbhgu Yhpxl Rfgngrf Qe",
+        "FEP:52 Sver",
+        "PNYY:23P2V - Bireqbfr/Cbvfbavat",
+        "NQQE:4548 Zvysbeq Uneevatgba Ujl",
+        "PVGL:Uneevatgba",
+        "K:Qrrc Tenff Ya, Xvyyraf Cbaq Eq / Fbhgu Yhpxl Rfgngrf Qe");
+
+    qbGrfg("G44",
+        "(Puvrs NYG) [52 Sver] - 33P1G - Genafsre/Vagresnpvyvgl -- 111 Arhebybtl Jnl, Zvysbeq -- Kfg'f: Ivpxref Qe, Zhyyrg Eha Fg / Xban Pve",
+        "FEP:52 Sver",
+        "PNYY:33P1G - Genafsre/Vagresnpvyvgl",
+        "NQQE:111 Arhebybtl Jnl",
+        "PVGL:Zvysbeq",
+        "K:Ivpxref Qe, Zhyyrg Eha Fg / Xban Pve");
+
+    qbGrfg("G45",
+        "(Puvrs NYG) [52 Sver] - 18P4 - Urnqnpur - Fhqqra Bafrg -- 628 Aj Sebag Fg, Zvysbeq -- Kfg'f: A Qhcbag Oyiq / Yvafgbar Ya",
+        "FEP:52 Sver",
+        "PBQR:18P4",
+        "PNYY:Urnqnpur - Fhqqra Bafrg",
+        "NQQE:628 Aj Sebag Fg",
+        "PVGL:Zvysbeq",
+        "K:A Qhcbag Oyiq / Yvafgbar Ya");
+
+    qbGrfg("G46",
+        "(Puvrs NYG) [52 Sver] - 28P1 - Fgebxr Abg Nyreg -- 282 Byq Nvecbeg Eq, Uneevatgba -- Kfg'f: Wnpxfba Qvgpu Eq / Ohgyre Eq, Zvysbeq Uneevatgba Ujl",
+        "FEP:52 Sver",
+        "PBQR:28P1",
+        "PNYY:Fgebxr Abg Nyreg",
+        "NQQE:282 Byq Nvecbeg Eq",
+        "PVGL:Uneevatgba",
+        "K:Wnpxfba Qvgpu Eq / Ohgyre Eq, Zvysbeq Uneevatgba Ujl");
+
+    qbGrfg("G47",
+        "(Puvrs NYG) [52 Sver] - 26Q1 - Fvpx Crefba - Abg Nyreg -- 349 Fvxn Qe, Uneevatgba -- Qrre Zrnqbjf -- Kfg'f: Nagyre Ya / Qbr Pg",
+        "FEP:52 Sver",
+        "PBQR:26Q1",
+        "PNYY:Fvpx Crefba - Abg Nyreg",
+        "NQQE:349 Fvxn Qe",
+        "PVGL:Uneevatgba",
+        "CYNPR:Qrre Zrnqbjf",
+        "K:Nagyre Ya / Qbr Pg");
+
+    qbGrfg("G48",
+        "(Puvrs NYG) [52 Sver] - Fgnaq-Ol,Pbire-hc -- 615 Aj Sebag Fg, Zvysbeq -- Kfg'f: Yvafgbar Ya / A Qhcbag Oyiq",
+        "FEP:52 Sver",
+        "PNYY:Fgnaq-Ol,Pbire-hc",
+        "NQQE:615 Aj Sebag Fg",
+        "PVGL:Zvysbeq",
+        "K:Yvafgbar Ya / A Qhcbag Oyiq");
+
+    qbGrfg("G49",
+        "(Puvrs NYG) [52 Sver] - 9O1 - Boivbhf Qrngu -- 6036 Tevssvgu Ynxr Qe, Zvysbeq -- Kfg'f: Objgvr Qe / Zrnqbj Oebbx Ya",
+        "FEP:52 Sver",
+        "PBQR:9O1",
+        "PNYY:Boivbhf Qrngu",
+        "NQQE:6036 Tevssvgu Ynxr Qe",
+        "PVGL:Zvysbeq",
+        "K:Objgvr Qe / Zrnqbj Oebbx Ya");
+
+    qbGrfg("G50",
+        "(Puvrs NYG) [52 Sver] - 17N1T - Snyyf - Abg Qnatrebhf -- 3806 Qrrc Tenff Ya, Ubhfgba -- Kfg'f: Guvfgyrjbbq Eq / Jngfcnff Eq",
+        "FEP:52 Sver",
+        "PNYY:17N1T - Snyyf - Abg Qnatrebhf",
+        "NQQE:3806 Qrrc Tenff Ya",
+        "PVGL:Ubhfgba",
+        "K:Guvfgyrjbbq Eq / Jngfcnff Eq");
+
+    qbGrfg("G51",
+        "(Puvrs NYG) [52 Sver] - 29O1 - ZIP Vawhevrf -- Zvysbeq Uneevatgba Ujl, Ubhfgba",
+        "FEP:52 Sver",
+        "PBQR:29O1",
+        "PNYY:ZIP Vawhevrf",
+        "NQQE:Zvysbeq Uneevatgba Ujl",
+        "PVGL:Ubhfgba");
+
+    qbGrfg("G52",
+        "(Puvrs NYG) [52 Sver] - 21P2 - Urzbeenuntr -- 205 Fnaqobk Eq, Uneevatgba -- Kfg'f: Xvyyraf Cbaq Eq / Orrpu Gerr Ya",
+        "FEP:52 Sver",
+        "PBQR:21P2",
+        "PNYY:Urzbeenuntr",
+        "NQQE:205 Fnaqobk Eq",
+        "PVGL:Uneevatgba",
+        "K:Xvyyraf Cbaq Eq / Orrpu Gerr Ya");
+
+    qbGrfg("G53",
+        "(Puvrs NYG) [52 Sver] - 29Q4 - ZIP Genccrq -- Zvysbeq Uneevatgba Ujl, Uneevatgba",
+        "FEP:52 Sver",
+        "PBQR:29Q4",
+        "PNYY:ZIP Genccrq",
+        "NQQE:Zvysbeq Uneevatgba Ujl",
+        "PVGL:Uneevatgba");
+
+    qbGrfg("G54",
+        "(Puvrs NYG) [52 Sver] - 17N3T - Snyyf - Choyvp Nffvfg -- 115 Lryybj Jbbq Qe, Uneevatgba -- Oybbzsvryq -- Kfg'f: Fhaohefg Pg, Nfgre Jnl / Juvgr Obaarg Pg, Cbyntre Qe",
+        "FEP:52 Sver",
+        "PNYY:17N3T - Snyyf - Choyvp Nffvfg",
+        "NQQE:115 Lryybj Jbbq Qe",
+        "PVGL:Uneevatgba",
+        "CYNPR:Oybbzsvryq",
+        "K:Fhaohefg Pg, Nfgre Jnl / Juvgr Obaarg Pg, Cbyntre Qe");
+
+    qbGrfg("G55",
+        "(Puvrs NYG) [52 Sver] - 31Q2 - Hapbafpvbhf/Snvagvat -- 401 Zblre Pve N J, Zvysbeq -- Zvysbeq Pebffvat -- Kfg'f: Zblre Pve R / Nfuyrl Jnl, Zblre Pve R",
+        "FEP:52 Sver",
+        "PBQR:31Q2",
+        "PNYY:Hapbafpvbhf/Snvagvat",
+        "NQQE:401 Zblre Pve N J",
+        "PVGL:Zvysbeq",
+        "CYNPR:Zvysbeq Pebffvat",
+        "K:Zblre Pve R / Nfuyrl Jnl, Zblre Pve R");
+
+    qbGrfg("G56",
+        "(Puvrs NYG) [52 Sver] - 17O3 - Snyyf - Haxabja -- 98 Orrpu Gerr Ya, Uneevatgba -- Cnevf Jbbqf -- Kfg'f: Qrnq Raq / Fnaqobk Eq",
+        "FEP:52 Sver",
+        "PBQR:17O3",
+        "PNYY:Snyyf - Haxabja",
+        "NQQE:98 Orrpu Gerr Ya",
+        "PVGL:Uneevatgba",
+        "CYNPR:Cnevf Jbbqf",
+        "K:Qrnq Raq / Fnaqobk Eq");
+
+    qbGrfg("G57",
+        "(Puvrs NYG) [52 Sver] - Bhgfvqr Sver-Fznyy -- 698 A  Qhcbag Oyiq, Zvysbeq -- Kfg'f: Haxabja / Aj Sebag Fg",
+        "FEP:52 Sver",
+        "PNYY:Bhgfvqr Sver-Fznyy",
+        "NQQE:698 A Qhcbag Oyiq",
+        "PVGL:Zvysbeq",
+        "K:Haxabja / Aj Sebag Fg");
+
+    qbGrfg("G58",
+        "(Puvrs NYG) [52 Sver] - 17N1 - Snyyf - Abg Qnatrebhf -- 2608 Zvysbeq Uneevatgba Ujl, Zvysbeq -- Kfg'f: Oybbzsvryq Qe / Fnaqobk Eq",
+        "FEP:52 Sver",
+        "PBQR:17N1",
+        "PNYY:Snyyf - Abg Qnatrebhf",
+        "NQQE:2608 Zvysbeq Uneevatgba Ujl",
+        "PVGL:Zvysbeq",
+        "K:Oybbzsvryq Qe / Fnaqobk Eq");
+
+    qbGrfg("G59",
+        "(Puvrs NYG) [52 Sver] - 30N2 - Genhzngvp Vawhel -- 5 Yvafgbar Ya 407, Zvysbeq -- Kfg'f: Haxabja / Inyyrl Qe",
+        "FEP:52 Sver",
+        "PBQR:30N2",
+        "PNYY:Genhzngvp Vawhel",
+        "NQQE:5 Yvafgbar Ya 407",
+        "PVGL:Zvysbeq",
+        "K:Haxabja / Inyyrl Qe");
+
+    qbGrfg("G60",
+        "(Puvrs NYG) [52 Sver] - Fgehpgher-Erfvqragvny Fvatyr -- 406 Puneyrf Fg, Zvysbeq -- Kfg'f: Fr 4gu Fg / Fr 5gu Fg",
+        "FEP:52 Sver",
+        "PNYY:Fgehpgher-Erfvqragvny Fvatyr",
+        "NQQE:406 Puneyrf Fg",
+        "PVGL:Zvysbeq",
+        "K:Fr 4gu Fg / Fr 5gu Fg");
+
+    qbGrfg("G61",
+        "(Puvrs NYG) [52 Sver] - Fgnaq-Ol,Pbire-hc -- 615 Aj Sebag Fg, Zvysbeq -- Kfg'f: Yvafgbar Ya / A Qhcbag Oyiq",
+        "FEP:52 Sver",
+        "PNYY:Fgnaq-Ol,Pbire-hc",
+        "NQQE:615 Aj Sebag Fg",
+        "PVGL:Zvysbeq",
+        "K:Yvafgbar Ya / A Qhcbag Oyiq");
+
+    qbGrfg("G62",
+        "(Puvrs NYG) [52 Sver] - 17N3T - Snyyf - Choyvp Nffvfg -- 130 Junegba Fg, Ubhfgba -- Kfg'f: Fpubby Fg / Envyebnq Nir",
+        "FEP:52 Sver",
+        "PNYY:17N3T - Snyyf - Choyvp Nffvfg",
+        "NQQE:130 Junegba Fg",
+        "PVGL:Ubhfgba",
+        "K:Fpubby Fg / Envyebnq Nir");
+
+    qbGrfg("G63",
+        "(Puvrs NYG) [52 Sver] - 5N1 - Onpx Cnva - Aba -Genhzngvp -- 4483 Qrrc Tenff Ya, Ubhfgba -- Kfg'f: Fpubby Fg / Zvysbeq Uneevatgba Ujl, Xvyyraf Cbaq Eq",
+        "FEP:52 Sver",
+        "PBQR:5N1",
+        "PNYY:Onpx Cnva - Aba -Genhzngvp",
+        "NQQE:4483 Qrrc Tenff Ya",
+        "PVGL:Ubhfgba",
+        "K:Fpubby Fg / Zvysbeq Uneevatgba Ujl, Xvyyraf Cbaq Eq");
+
+    qbGrfg("G64",
+        "(Puvrs NYG) [52 Sver] - 31Q2 - Hapbafpvbhf/Snvagvat -- 4899 Zvysbeq Uneevatgba Ujl, Uneevatgba -- Kfg'f: Qrrc Tenff Ya, Xvyyraf Cbaq Eq / Fbhgu Yhpxl Rfgngrf Qe",
+        "FEP:52 Sver",
+        "PBQR:31Q2",
+        "PNYY:Hapbafpvbhf/Snvagvat",
+        "NQQE:4899 Zvysbeq Uneevatgba Ujl",
+        "PVGL:Uneevatgba",
+        "K:Qrrc Tenff Ya, Xvyyraf Cbaq Eq / Fbhgu Yhpxl Rfgngrf Qe");
+
+    qbGrfg("G65",
+        "(Puvrs NYG) [52 Sver] - Nynezf-Erfvqragvny (fvatyr) -- 102 Bhggra Oyiq, Srygba -- Kfg'f: Pnecragre Oevqtr Eq / Zryf Qe",
+        "FEP:52 Sver",
+        "PNYY:Nynezf-Erfvqragvny (fvatyr)",
+        "NQQE:102 Bhggra Oyiq",
+        "PVGL:Srygba",
+        "K:Pnecragre Oevqtr Eq / Zryf Qe");
+
+    qbGrfg("G66",
+        "(Puvrs NYG) [52 Sver] - 33N1G - Genafsre/Vagresnpvyvgl -- 656 A  Qhcbag Oyiq, Zvysbeq -- Kfg'f: Haxabja / Aj Sebag Fg",
+        "FEP:52 Sver",
+        "PNYY:33N1G - Genafsre/Vagresnpvyvgl",
+        "NQQE:656 A Qhcbag Oyiq",
+        "PVGL:Zvysbeq",
+        "K:Haxabja / Aj Sebag Fg");
+
+    qbGrfg("G67",
+        "(Puvrs NYG) [52 Sver] - 6Q1 - Oernguvat Ceboyrzf -- 20920 F  Qhcbag Ujl, Uneevatgba -- Kfg'f: Haxabja / Znva Fg",
+        "FEP:52 Sver",
+        "PBQR:6Q1",
+        "PNYY:Oernguvat Ceboyrzf",
+        "NQQE:20920 F Qhcbag Ujl",
+        "PVGL:Uneevatgba",
+        "K:Haxabja / Znva Fg");
+
+    qbGrfg("G68",
+        "(Puvrs NYG) [52 Sver] - Fgnaq-Ol,Pbire-hc -- 20920 F  Qhcbag Ujl, Uneevatgba -- Kfg'f: Haxabja / Znva Fg",
+        "FEP:52 Sver",
+        "PNYY:Fgnaq-Ol,Pbire-hc",
+        "NQQE:20920 F Qhcbag Ujl",
+        "PVGL:Uneevatgba",
+        "K:Haxabja / Znva Fg");
+
+    qbGrfg("G69",
+        "(Puvrs NYG) [52 Sver] - 21O4 - Urzbeeuntr - Oybbq Guvaaref -- 304 Znfba Nir, Uneevatgba -- Kfg'f: Znqvfba Nir / Qrnq Raq",
+        "FEP:52 Sver",
+        "PBQR:21O4",
+        "PNYY:Urzbeeuntr - Oybbq Guvaaref",
+        "NQQE:304 Znfba Nir",
+        "PVGL:Uneevatgba",
+        "K:Znqvfba Nir / Qrnq Raq");
+
+    qbGrfg("G70",
+        "(Puvrs NYG) [52 Sver] - 1N1 - Noqbzvany Cnvaf -- 133 R  Yhpxl Rfgngrf Qe, Uneevatgba -- Yhpxl Rfgngrf -- Kfg'f: Yhpxl Ora Qe / J Yhpxl Rfgngrf Qe",
+        "FEP:52 Sver",
+        "PBQR:1N1",
+        "PNYY:Noqbzvany Cnvaf",
+        "NQQE:133 R Yhpxl Rfgngrf Qe",
+        "PVGL:Uneevatgba",
+        "CYNPR:Yhpxl Rfgngrf",
+        "K:Yhpxl Ora Qe / J Yhpxl Rfgngrf Qe");
+
+    qbGrfg("G71",
+        "(Puvrs NYG) [52 Sver] - 26N2 - Fvpx Crefba -- 8950 Funjarr Eq, Terrajbbq -- Kfg'f: Onxre Snez Ya, Ohpx Rlr Eq / Uvqqra Zrnqbj Ya",
+        "FEP:52 Sver",
+        "PBQR:26N2",
+        "PNYY:Fvpx Crefba",
+        "NQQE:8950 Funjarr Eq",
+        "PVGL:Terrajbbq",
+        "K:Onxre Snez Ya, Ohpx Rlr Eq / Uvqqra Zrnqbj Ya");
+
+    qbGrfg("G72",
+        "(Puvrs NYG) [52 Sver] - 1P6 - Noqbzvany Cnvaf -- 400 Pnzf Sbeghar Jnl, Uneevatgba -- Oerrqref Pebja Snezf -- Kfg'f: Sbny Pg / Qrre Inyyrl Eq",
+        "FEP:52 Sver",
+        "PBQR:1P6",
+        "PNYY:Noqbzvany Cnvaf",
+        "NQQE:400 Pnzf Sbeghar Jnl",
+        "PVGL:Uneevatgba",
+        "CYNPR:Oerrqref Pebja Snezf",
+        "K:Sbny Pg / Qrre Inyyrl Eq");
+
+    qbGrfg("G73",
+        "(Puvrs NYG) [52 Sver] - 29O2N - ZIP Frevbhf Urzbeeuntr -- Crn Uvyy Eq, Uneevatgba",
+        "FEP:52 Sver",
+        "PNYY:29O2N - ZIP Frevbhf Urzbeeuntr",
+        "NQQE:Crn Uvyy Eq",
+        "PVGL:Uneevatgba");
+
+    qbGrfg("G74",
+        "(Puvrs NYG) [52 Sver] - 9Q2 - Boivbhf Qrngu -- 4983 Zvysbeq Uneevatgba Ujl, Uneevatgba -- Kfg'f: Fbhgu Yhpxl Rfgngrf Qe / Qrrc Tenff Ya, Xvyyraf Cbaq Eq",
+        "FEP:52 Sver",
+        "PBQR:9Q2",
+        "PNYY:Boivbhf Qrngu",
+        "NQQE:4983 Zvysbeq Uneevatgba Ujl",
+        "PVGL:Uneevatgba",
+        "K:Fbhgu Yhpxl Rfgngrf Qe / Qrrc Tenff Ya, Xvyyraf Cbaq Eq");
+
+  }
+ 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj QRXragPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }

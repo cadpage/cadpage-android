@@ -5,25 +5,23 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * Kent County, DE (Variant A)
  */
 
-public class DEKentCountyAParser extends FieldProgramParser {
+public class DEKentCountyAParser extends DEKentCountyBaseParser {
   
-  private static final Pattern DELIM = Pattern.compile("[A-Z]+:| :", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DELIM = Pattern.compile("[A-Z']+:| :", Pattern.CASE_INSENSITIVE);
   
   public DEKentCountyAParser() {
-    super(CITY_LIST, "KENT COUNTY", "DE",
-           "( CALL ADDR/ZS PLACECITY | ADDR/SCXP ) Xsts:X CALLER:NAME");
+    super("( CALL ADDR/ZS PLACECITY | ADDR/SCXP ) Xst's:X CALLER:NAME? Lat:GPS1 Long:GPS2");
   }
   
   @Override
   public String getFilter() {
-    return "rc.187@c-msg.net";
+    return "@c-msg.net";
   }
 
   @Override
@@ -31,10 +29,12 @@ public class DEKentCountyAParser extends FieldProgramParser {
     
     // Rule out Variant B pages
     if (body.startsWith("-")) return false;
+    if (body.contains(" -- ")) return false;
     
     boolean good = subject.equals("!|K") || subject.equals("K") || subject.equals("CAD");
-    body = body.replace("Xst's:", "Xsts:");
     if (!parseFields(splitMsg(body), data)) return false;
+    setState(data);
+    if (data.strCross.equals("No Cross Streets Found")) data.strCross = "";
     if (good) return true;
     if (getStatus() <= STATUS_STREET_NAME) return false;
     return good || data.strAddress.length() > 0 || data.strCross.length() > 0 || data.strName.length() > 0;
@@ -51,9 +51,20 @@ public class DEKentCountyAParser extends FieldProgramParser {
       key = match.group();
       if (key.equals(" :")) key = "";
     }
-    String tail = body.substring(pt);
+    String tail = key + body.substring(pt);
     if (tail.length() > 0) list.add(tail);
     return list.toArray(new String[list.size()]);
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("CITY", "CITY ST");
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("PLACECITY")) return new MyPlaceCityField();
+    return super.getField(name);
   }
   
   private class MyPlaceCityField extends Field {
@@ -80,36 +91,4 @@ public class DEKentCountyAParser extends FieldProgramParser {
       return "PLACE CITY";
     }
   }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("PLACECITY")) return new MyPlaceCityField();
-    return super.getField(name);
-  }
-  
-  private static final String[] CITY_LIST = new String[]{
-    "CAMDEN WYOMING",
-    "DOVER",
-    "HARRINGTON",
-    "MILFORD",
-    "BOWERS",
-    "CAMDEN",
-    "CHESWOLD",
-    "CLAYTON",
-    "FARMINGTON",
-    "FELTON",
-    "FREDERICA",
-    "HARTLY",
-    "HOUSTON",
-    "KENTON",
-    "LEIPSIC",
-    "LITTLE CREEK",
-    "MAGNOLIA",
-    "SMYRNA",
-    "VIOLA",
-    "WOODSIDE",
-    "WYOMING"
-  };
 }
-
-
