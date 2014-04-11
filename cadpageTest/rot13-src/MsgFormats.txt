@@ -1351,11 +1351,6 @@ Zbetna Pbhagl, JI (JIZbetnaPbhaglCnefre)
 *******************************************************************************
 * QvfcngpuNrtvfCnefre fhopynffrf
 *******************************************************************************
-*******************************************************************************
-Xrag Pbhagl, QR (QRXragPbhaglOCnefre)
-(Puvrs NYG) [40 RZF] - 26N10 - Fvpx Crefba - Hajryy/Vyy -- 2536 Fxrrgre Arpx Eq, Serqrevpn -- Kfg'f: Objref Ornpu Eq / R Sebag Fg -- Pnyyre: Uvtu Ihr Ybttvat Vap
-(Puvrs NYG) [XPCF] - [911, Xrag] AJF HCTENQRQ YNFG GB N JNEAVAT, JVYY OR VA JRFGREA XRAG PBHAGL NEBHAQ 22:30 UEF.
-(Puvrs NYG) [40 RZF] - 23P1I - Bireqbfr/Cbvfbavat -- 181 Ubyyl Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Tneqra Cy / Zncyr Qe -- Pnyyre: Zneevyyb Cnhy
 ***************************************************************************
 Pnebyvar Pbhagl, ZQ (ZQPnebyvarPbhaglCnefre)
 (Puvrs NYG) [CZ13] 26 N-Fvpx Crefba -- 520 Xree Nir Qragba - KFgf: Qrnq Raq / Qnssva Ya
@@ -2985,9 +2980,16 @@ Qryzne QR (QRQryzneCnefre)
 (PNQ Nyreg) 74NFG      Pnyy ng Ov Fgngr Oyiq & R Tebir Fg    74UD                           Pvgl19940      Ceboyrz Urneg Ceboyrzf/ NVPQ-OYF
 ***************************************************************************
 Xrag Pbhagl, QR (QRXragPbhaglNCnefre)
-[!]  [X] 12Q1 Frvmher - Abg Oernguvat 263 ZBETNAF PUBVPR EQ Pnzqra Jlbzvat : Kfg'f: JVYYBJ TEBIR EQ / ZHZSVRYQ YA Pnyyre: PBYR WE RNEY
-[!]  [X] Nynezf-Erfvqragvny (fvatyr) 121 OVEXQNYR YA Pnzqra Jlbzvat : GENLOREA Kfg'f: OVEXQNYR JNL / A UVTU UVYY EQ, GENLOREA JNL Pnyyre: NQG
-[!]  [X] Fgehpgher-Puvzarl 6871 JVYYBJ TEBIR EQ Pnzqra Jlbzvat : Kfg'f: URAEL PBJTVYY EQ / JVYYBJ GERR PVE Pnyyre: CRGR
+6Q2 Oernguvat Ceboyrzf : 121 SYRZVAT FG : Uneevatgba : Kfg'f: JRVARE NIR, J YVOREGL FG / ZRPUNAVP FG Pnyyre: EBL  
+[47 SVER/RZF]26N7 Fvpx Crefba  : 2367 CEBFCRPG PUHEPU EQ : Uneevatgba : Kfg'f: IREABA EQ / UNZZBAQGBJA EQ Pnyyre: ZVPUNRY
+33P2G Genafsre/Vagresnpvyvgl : 150 FNHYFOHEL EQ : TERRA ZRNQBJF Qbire : Kfg'f: PYNEN RKG / QBIR IVRJ QE, PNEIRE EQ Pnyyre: RGPU CRGRE\e\a
+[47 SVER/RZF]23O1V Bireqbfr/Cbvfbavat : 3244 NAQERJIVYYR EQ : Terrajbbq : Kfg'f: TERRAJBBQ EQ / OBBGU OENAPU EQ Pnyyre: RAFNATRE ZNEL
+*******************************************************************************
+Xrag Pbhagl, QR (QRXragPbhaglOCnefre)
+(Puvrs Nyreg) [40 Sver] Bhgfvqr Sver-Svryq,Tenff,Jbbqf -- 220 F  Ovt Fgbar Ornpu Qe  Zvysbeq, QR 19963 -- Zvysbeq -- Pebff FGF: Ab Pebff Fgerrgf Sbhaq
+(Puvrs NYG) [40 Sver] - Bhgfvqr Sver-Svryq,Tenff,Jbbqf -- 220 F  Ovt Fgbar Ornpu Qe, Zvysbeq -- Kfg'f: Ab Pebff Fgerrgf Sbhaq Yng: 38.99786713 Ybat: -75.3262125159999
+(Puvrs Nyreg) [40 Sver] Fgehpgher-Zbovyr Ubzr/Genvyre -- 48 Flpnzber Qe Serqrevpn, QR 19946 -- Uvtu Cbvag Zuc -- Pebff FGF: Frpbaq Fg, Sebag Fg / Ynxr Fuber Qe, Frpbaq Fg
+(Puvrs NYG) [40 Sver] - Fgehpgher-Zbovyr Ubzr/Genvyre -- 48 Flpnzber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Frpbaq Fg, Sebag Fg / Ynxr Fuber Qe, Frpbaq Fg Yng: 39.049341251 Ybat: -75.462144076
 ***************************************************************************
 Xrag Pbhagl, QR (QRXragPbhaglPCnefre)
 (Vapvqrag Nyreg)Havg:N64 Fgnghf:Qvfcngpurq 26N10 Fvpx Crefba - Hajryy/Vyy 125 PRAGHEL QE Irahr: Fzlean Qri/Fho: OERASBEQ JBBQF Kfg'f: ARRQUNZ QE / ARRQUNZ QE Pnyyre: ZNFF YRKVF
