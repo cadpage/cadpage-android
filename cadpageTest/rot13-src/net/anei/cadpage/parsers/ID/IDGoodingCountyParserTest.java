@@ -27,6 +27,14 @@ Fraqre: CntvatFreivpr@fvepbzz.pbz
 (FVEPBZZ) 7:45 CZ\e\aARJ RIRAG TQT099\e\aZRQ\e\aZRQVPNY PNYY\e\a521 HGNU FG\e\aTBBQVAT [Nggnpuzrag(f) erzbirq]
 (FVEPBZZ) 7:49 NZ\e\aARJ RIRAG TQT099\e\aNPPV\e\aNPPVQRAG J/VAWHEVRF\e\a2200 R 3000 FBHGU\e\aJAQ NERN [Nggnpuzrag(f) erzbirq]
 
+Pbagnpg: Pnzreba Qvexf <pqaerzg@tznvy.pbz>
+Fraqre: CntvatFreivpr@fvepbzz.pbz
+(FVEPBZZ) 8:23 CZ\aARJ RIRAG EPX035\aZRQ\aZRQVPNY PNYY\a3129 A 3500 RNFG\aXZO NERN [Nggnpuzrag(f) erzbirq]
+
+Pbagnpg: qnivq yn pryyr <qynpryyr5170@tznvy.pbz>
+Fraqre: CntvatFreivpr@fvepbzz.pbz
+(FVEPBZZ) 6:55 CZ\aARJ RIRAG WEZ051\aNPPA\aABA VAWHEL NPPVQRAG\a0 168 BIRECNFF NCG RO\aWREBZR
+
 */
 
 choyvp pynff VQTbbqvatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -146,6 +154,33 @@ choyvp pynff VQTbbqvatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2200 R 3000 FBHGU",
         "PVGL:JRAQRYY");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPnzrebaQvexf() {
+
+    qbGrfg("G1",
+        "(FVEPBZZ) 8:23 CZ\aARJ RIRAG EPX035\aZRQ\aZRQVPNY PNYY\a3129 A 3500 RNFG\aXZO NERN [Nggnpuzrag(f) erzbirq]",
+        "GVZR:20:23:00",
+        "FEP:EPX035",
+        "PNYY:ZRQVPNY PNYY",
+        "NQQE:3129 A 3500 RNFG",
+        "PVGL:XZO NERN");
+   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnivqYnPryyr() {
+
+    qbGrfg("G1",
+        "(FVEPBZZ) 6:55 CZ\aARJ RIRAG WEZ051\aNPPA\aABA VAWHEL NPPVQRAG\a0 168 BIRECNFF NCG RO\aWREBZR",
+        "GVZR:18:55:00",
+        "FEP:WEZ051",
+        "PNYY:ABA VAWHEL NPPVQRAG",
+        "NQQE:168 BIRECNFF",
+        "NCG:RO",
+        "PVGL:WREBZR");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

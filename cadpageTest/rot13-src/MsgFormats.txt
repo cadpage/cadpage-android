@@ -6432,11 +6432,6 @@ Fgf:YBQRE NI/BNX NI 02:30 11/09/2011 2011-00002337
 Pnyyre:C
 **********************************************************
 Haxabja
-Pbagnpg: qnivq yn pryyr <qynpryyr5170@tznvy.pbz>
-Fraqre: CntvatFreivpr@fvepbzz.pbz
-(FVEPBZZ) 6:55 CZ\aARJ RIRAG WEZ051\aNPPA\aABA VAWHEL NPPVQRAG\a0 168 BIRECNFF NCG RO\aWREBZR
-**********************************************************
-Haxabja
 Pbagnpg: Gurerfn Xvatfyrl <gurerfnqxvatfyrl@tznvy.pbz>
 Fraqre: BNEABYQ@zlqbznva.pbz
 BNEABYQ:1137160 ZIN C&W ZNEXRG VAP (BYQ ZBAGTBZRELF TEBPREL) 24139 QRAGBA INYYRL EQ NOVATQBA NQI BAR BS GURER FPUBBY OHFFRF VAIBYIRQ VA N JERPX NAQ VGF GURER C
@@ -8293,7 +8288,7 @@ Fraqre: qvfcngpu@inanyfglarcbyvpr.pbz
 (PNQ) GLCR:600/911 Rzre/Ina Nyfglar/Genafcbeg\aYBP:280 A CERFGBA,  INA NYFGLAR\aGKG:CRE SQ 23 LBZ JNYX-VA CNAVP NGGNPX
 (PNQ) GLCR:701/911 Rzre/Naan/Genafcbeg\aYBP:200 PNEY HZCUERFF,  INA NYFGLAR\aGKG:15 LBS SRYY VA ONGUEBBZ, PHG
 **********************************************************
-2014040510000304
+2014040510000304 (Wnpxfba)
 Fgnavfynhf Pbhagl, PN
 
 Pbagnpg: Npgvir911
@@ -8314,7 +8309,7 @@ ESN-CN-@ZNECYR ZNABE #NCG 527  (530 PBSSRR EQ), ZB (ZncObbx:42/Q3) ( R ZBEEVF NI
 ESN-NYNEZP-4900 FGBQQNEQ EQ, PB ZB #ZBQRFGB GNOONPPB NAQ PNAQL (ZncObbx:100/S4) ( GRPUABYBTL QE/XVREANA NIR)-QRG:121-NYEZYIY:1-QVFCGVZR:07:56:52\aFrag ol FACCtjhfre
 ESN-NYNEZP-4900 FGBQQNEQ EQ, PB ZB #ZBQRFGB GNOONPPB NAQ PNAQL (ZncObbx:100/S4) ( GRPUABYBTL QE/XVREANA NIR)-QRG:121-NYEZYIY:1-QVFCGVZR:07:56:52\aFrag ol FACCtjhfre
 **********************************************************
-2014010110000282
+2014010110000282 (Wnpxfba)
 Purebxrr Pbhagl, BX
 
 Pbagnpg: Npgvir911
