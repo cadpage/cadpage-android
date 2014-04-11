@@ -1,4 +1,3 @@
-support@cadpage.org
 
 ***************************************************************************
 * init failure in cleanName() v1.7.03
@@ -380,7 +379,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-KUXBPHDA or kuxbphda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+ANCODVFA or ancodvfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean ~ Cadpage Administrator
@@ -513,7 +512,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-KUXBPHDA or kuxbphda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+ANCODVFA or ancodvfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean ~ Cadpage Administrator
@@ -699,7 +698,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-KUXBPHDA or kuxbphda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+ANCODVFA or ancodvfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean ~ Cadpage Administrator
@@ -713,7 +712,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-KUXBPHDA or kuxbphda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+ANCODVFA or ancodvfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -723,7 +722,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-KUXBPHDA or kuxbphda.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+ANCODVFA or ancodvfa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information needed to figure out what is wrong.
 
@@ -3187,4 +3186,41 @@ In the meantime, try using the general location setting.  Set the From: filter t
 3.  If you paid for Active911, a messaging service, you will need to register your phone. 
 
 Please contact us again if you still have difficulties.  Please use the Cadpage app to send an email:  Select Settings, then Email the Developer with configuration information.
+
+**************************************************************************************
+
+Welcome to Cadpage! 
+
+Please note that our Cadpage app is for Android devices only.  You'll need another option if you have an iPhone or Windows phone.
+
+You can download Cadpage from our website at http://www.cadpage.org/download-cadpage/
+or search for Cadpage at the Google Play Store.
+
+The intended purpose of Cadpage is to support emergency responders who get text pages from a central dispatch center when they are asked to respond to an emergency.  Cadpage takes those pages, displays the information from them, and gives the user the option to bring up a Google map showing the location of the incident.Then they can ask for directions to that location.
+
+First, make sure you are getting text pages sent to your phone when a call is toned out.  If you are not, talk to someone in your department about getting that set up.
+
+Next, go into the Cadpage location settings, select a single location, and then see if we have a location set up for where you happen to live or work. We do have Warren County, NY as one of our supported locations.
+
+Cadpage will give you a free 30-day DEMO.  It is the same great app as the "pro" version, and after your DEMO expires, there are some payment options.  A one-year subscription to Cadpage is $10. 
+
+Let's see how the DEMO goes first before we tackle the payment.
+
+Please contact us again if you still have difficulties or questions concerning Cadpage.
+
+Good luck,
+Jean ~ Cadpage Administrator
+
+*********************************************************************************************8888
+change phone number
+
+As long as you keep the same email account on your new phone, any
+Cadpage payment status should carry over automatically.
+
+Changing the phone number might be more of a problem.  If you are
+getting text dispatch alerts, you need to talk to someone in your
+department about switching the alert to your new phone number.
+
+If you are getting direct pages from CodeMessaging or Active911, all you
+need to do is register your new phone with the paging service.
 
