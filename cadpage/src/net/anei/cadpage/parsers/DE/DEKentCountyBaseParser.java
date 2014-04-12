@@ -84,7 +84,10 @@ public class DEKentCountyBaseParser extends FieldProgramParser {
     "CHESTERTOWN",
     "GALENA",
     "MILLINGTON",
-    "ROCK HALL"
+    "ROCK HALL",
+    
+    // Sussex County
+    "GREENWOOD"
   };
 
   protected static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(CITY_LIST));

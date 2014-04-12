@@ -55,10 +55,7 @@ Npgvir911 gvpxrgf
 2014030710000722  Arrq fbzr erny cntrf ohg tbvat gb or QvfcngpuN11Cnefre fhopynff
 2014030710000811  Ybbxf vanpgvir
 2014030710000839  ubyq sbe zber qngn
--2014031010000501  JNOragbaPbhagl jbexf <<
--2014031010000691  PNAncn jbexf <<
 2014031810000372  Ab npgvba erdhverq
--2014031810001013  Yrnir sbe Cbyl
 2014032110000161  FPCvpxrafPbhagl (bhgfbhepr-ugzy)
 +2014040910001074
 ---- C2 -------------------------------------------------------
@@ -67,7 +64,7 @@ Npgvir911 gvpxrgf
 2013032510000299  Ab qngn
 -2013041010000234  ZBFgYbhvfPbhaglS jbexf <<
 2013041210000311  TNJuvgrPbhagl jbexf <<
-2013041810000185  SYThysOerrmr (bhgfbhepr)
+2013041810000185  SYThysOerrmr jbexf <<
 2013042410000593  GKInaNylfgvar (bhgfbhepr)  
 2013102810000403  ZVRngbaPbhagl qbar
 2014010110000282  BXPurebxrrPbhagl (bhgfbhepr)
@@ -8235,33 +8232,6 @@ YUC140109000007 QBZRFGVP VA CEBTERFF Nqq: 203 OEBGUREF FGO Synt: ..A/N.. Pbzc: X
 **********************************************************
 **********************************************************
 **********************************************************
-2013041810000185 (Wnpxfba)
-Thys Oerrmr, SY
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Thys Oerrmr Sver - Erfphr
-Ybpngvba: Thys Oerrmr, SY, Havgrq Fgngrf
-Fraqre: TOSECTGEZ@thysoerrmrsy.tbi
-
-(SVER CNTR) 3/15/2014 9:18:08 NZ\a101 ZPNORR PBHEG QVAVAT EBBZ HAPBAPVFBHF QVSSVPHYGL OERNGUVAT\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/15/2014 1:02:41 NZ\aUrnqnpur nycun erfcbafr 1135 tocxjl\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/14/2014 1:38:30 CZ\anpgvingrq fzbxr nynez 406 snvecbvag qe\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/14/2014 12:24:57 CZ\aZRQ PNYY:  101 ZPNORR PG.  QRYGN ERFCBAFR.  SRZNYR CNFFRQ BHG, ABG OERNGUVAT.  QAE BEQRE\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/14/2014 10:57:49 NZ\aOBK FGEHPGHER SVER:  3331 TO CXJL.  FRERAVGL BS TO FCN.  ARKG GB JVAA QVKVR.  FZRYY BS FZBXR\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/14/2014 8:42:20 NZ\aZRQ PNYY:  116 SNVECBVAG QE.  PNEQVNP NEERFG.  AB SHEGURE NG GUVF GVZR\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/14/2014 7:03:33 NZ\aZRQ PNYY:  101 ZPNORR PBHEG.  SNYY PNYY, OENIB ERFCBAFR SEBZ RZF PBZVAT SEBZ JBBQYNJA NERN.  79 LBN SRZNYR. YRT VAW\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/13/2014 7:09:19 CZ\aEI SVER 217 PBEQBON\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/12/2014 5:19:35 CZ\aRFPNZOVN ERFCBAQVAT GB SBEG CVPXRAF YBBC Q ERDHRFGVAT RAT33 FGNAQOL BA ORNPU GB PBIRE QVFGEVPG JUVYR BA N PNYY\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/12/2014 3:20:10 CZ\a50 UVTUCBVAG QEVIR QVSSVPHYGL OERNGUVAT AHZOARFF\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/12/2014 9:57:19 NZ\aZRQ PNYY: 172 XRIVA QEVIR.  93 LBN SRZNYR.  GENZNGVP VAWHEL.  NYCUN ERFCBAFR SEBZ RZF\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/12/2014 5:32:29 NZ\a843 THYS OERRMR CXJL EZ 42   THYS PBNFG VAA   PURFG CNVA   QRYGN ERFCBAFR\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/11/2014 9:53:57 NZ\aJVYY ABG OR ZRQ OHVYQVAT.  JVYY OR NAQERJF VAFGVGHR.  ZRQ PNYY  1040 TO CXJNL\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/11/2014 9:51:37 NZ\aZRQ PNYY: 1040 THYS OERRMR CXJL.  FHVGR 206.  CBFFVOYR FGEBXR.  JVYY OR GUR ZRQ OHVYQVAT ORUVAQ GUR UBFCVGNY\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/9/2014 6:11:57 CZ\afvpx pnyy 131 ehff\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/8/2014 12:38:37 NZ\aFRPBAQ NYREG FGEBXR/SNYY PNYY 101 ZPNORR PG\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/8/2014 12:35:53 NZ\aZRQ PNYY FGEBXR 101 ZPNORR PG\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/7/2014 5:31:56 CZ\a201 crafnpbyn ornpu oyiq ncg p7 \a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
-(SVER CNTR) 3/6/2014 7:49:11 CZ\aobk nynez fgn. 37 qvfgevpvg sbe n fgehpgher sver\a\aCYRNFR ABGR: Sybevqn unf irel oebnq choyvp erpbeqf ynj. Nyy r-znvy pbzzhavpngvba jvgu gur Pvgl bs Thys Oerrmr vf nepuvirq naq znl or fhowrpg gb choyvp qvfpybfher.
 **********************************************************
 2013042410000593 (Wnpxfba)
 Ina Nyfglar, GK
