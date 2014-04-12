@@ -48,7 +48,5 @@ public class VAGraysonCountyParser extends DispatchDAPROParser {
       "EMS - WEAKNESS",
       "MENTAL / EMOTIONAL/PSYC",
       "MOTOR VEHICLE CRASH"
- 
   );
-  
 }

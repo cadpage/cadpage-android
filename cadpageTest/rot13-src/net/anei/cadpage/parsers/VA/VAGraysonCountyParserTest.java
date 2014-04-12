@@ -124,7 +124,7 @@ choyvp pynff INTenlfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgTnynkTenlfbaRZF() {
-
+    
     qbGrfg("G1",
         "ZNVYOBK:TTERZF 20:50 RZF - ERGHEA GEVC PSF# 2014-009003",
         "FEP:TTERZF",
@@ -165,7 +165,7 @@ choyvp pynff INTenlfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:TTERZF",
         "GVZR:17:57",
         "PNYY:RZF - ERGHEA GEVC",
-        "NQQE:129 JNGRE FG",
+        "NQQE:129 JNGRE FG",  //qbrf abg znc
         "VQ:2014-008989");
 
     qbGrfg("G6",
@@ -1010,7 +1010,6 @@ choyvp pynff INTenlfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:222 OEVPXLNEQ EQ",
         "VQ:2014-008086",
         "K:CBCYNE XABO EQ/ZRNQBJ FG");
-
   }
  
   choyvp fgngvp ibvq znva(Fgevat netf[]) {
