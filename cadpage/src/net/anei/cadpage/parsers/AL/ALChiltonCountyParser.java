@@ -1,6 +1,7 @@
 
 package net.anei.cadpage.parsers.AL;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -17,16 +18,21 @@ public class ALChiltonCountyParser extends DispatchSouthernPlusParser {
   private static final Pattern ADDR_EXIT_PTN = Pattern.compile("(\\d+ +EXIT) +(.*)");
 
   public ALChiltonCountyParser() {
-    super(CITY_LIST, "CHILTON COUNTY", "AL", DSFLAG_LEAD_PLACE);
+    super(CITY_LIST, "CHILTON COUNTY", "AL", DSFLAG_LEAD_PLACE | DSFLAG_NO_NAME_PHONE);
+    setupGpsLookupTable(GPS_LOOKUP_TABLE);
     setupMultiWordStreets(
         "COUNTRY CLUB",
         "POPLAR SPRINGS");
-    
-    
   }
+  
   @Override
   public String getFilter() {
     return "dispatch@chiltoncounty.org,dispatch@dispatch.ccso911.net";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
   }
   
   @Override
@@ -55,6 +61,45 @@ public class ALChiltonCountyParser extends DispatchSouthernPlusParser {
     }
     return true;
   }
+  
+  @Override
+  protected String adjustGpsLookupAddress(String address) {
+    Matcher match = I_65_GPS_PTN.matcher(address);
+    if (match.matches()) return match.group(1);
+    return null;
+  }
+  private static final Pattern I_65_GPS_PTN = Pattern.compile("(\\d+ I 65)\\b.*");
+
+  private static final Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
+      "198 I 65", "32.707198,-86.524518",
+      "199 I 65", "32.720211,-86.532265",
+      "200 I 65", "32.733067,-86.540234",
+      "201 I 65", "32.745671,-86.548738",
+      "202 I 65", "32.758163,-86.557601",
+      "203 I 65", "32.770106,-86.565760",
+      "204 I 65", "32.783200,-86.572944",
+      "205 I 65", "32.797830,-86.578741",
+      "206 I 65", "32.810977,-86.583488",
+      "207 I 65", "32.824956,-86.588515",
+      "208 I 65", "32.388490,-86.593545",
+      "209 I 65", "32.851408,-86.598183",
+      "211 I 65", "32.877567,-86.617036",
+      "212 I 65", "32.890050,-86.625328",
+      "213 I 65", "32.902922,-86.633940",
+      "214 I 65", "32.914952,-86.643072",
+      "215 I 65", "32.926489,-86.653570",
+      "216 I 65", "32.938620,-86.663011",
+      "217 I 65", "32.952191,-86.669573",
+      "218 I 65", "32.964786,-86.677963",
+      "219 I 65", "32.977439,-86.686524",
+      "220 I 65", "32.989659,-86.694650",
+      "221 I 65", "33.002401,-86.703860",
+      "222 I 65", "33.014940,-86.712753",
+      "223 I 65", "33.028082,-86.719807",
+      "224 I 65", "33.041748,-86.726009",
+      "225 I 65", "33.055557,-86.727639",
+      "226 I 65", "33.069199,-86.730036"
+  });
   
   private static final String[] CITY_LIST = new String[]{
     "CLANTON",
