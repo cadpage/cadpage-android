@@ -18,7 +18,7 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
   
   public PAAlleghenyCountyParser() {
     super(CITY_CODES, "ALLEGHENY COUNTY", "PA",
-           "CODE PRI CALL ADDR CITY ( AT CITY | ) XINFO+? SRC BOX! ID? INFO+ Units:UNIT UNIT+");
+           "CODE PRI CALL CALL+? ( GPS1 GPS2 | ADDR/Z CITY ( AT SKIP | ) ) XINFO+? SRC BOX! ID? INFO+ Units:UNIT UNIT+");
   }
 
   @Override
@@ -81,6 +81,29 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
   public String getProgram() {
     return super.getProgram() + " DATE TIME";
   }
+
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("GPS1")) return new GPSField(1, "[-+]\\d+\\.\\d+");
+    if (name.equals("GPS2")) return new GPSField(2, "[-+]\\d+\\.\\d+");
+    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("AT")) return new MyAtField();
+    if (name.equals("XINFO")) return new MyCrossInfoField();
+    if (name.equals("BOX")) return new BoxField("[A-Z]?\\d{5,}(?: +[A-Z]?\\d{5,})*|[A-Z]{2,3}\\d{2,3}", true);
+    if (name.equals("ID")) return new IdField("[A-Z]\\d{9}", true);
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("UNIT")) return new MyUnitField();
+    return super.getField(name);
+  }
+  
+  private class MyCallField extends  CallField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strCall = append(data.strCall, ", ", field);
+    }
+  }
   
   // Stock address field is fine, but we want test generator to know
   // that this might be a place field
@@ -91,13 +114,12 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
     }
   }
   
-
-  // City field must always be exactly 3 characters long
   private class MyCityField extends CityField {
     @Override
-    public void parse(String field, Data data) {
-      if (field.length() != 3) abort();
-      super.parse(field, data);
+    public boolean checkParse(String field, Data data) {
+      if (super.checkParse(field, data)) return true;
+      if (field.startsWith("<") && field.endsWith(">")) return true;
+      return false;
     }
   }
   
@@ -157,43 +179,26 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
       data.strUnit = append(data.strUnit, " ", field);
     }
   }
-
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("CITY")) return new MyCityField();
-    if (name.equals("AT")) return new MyAtField();
-    if (name.equals("XINFO")) return new MyCrossInfoField();
-    if (name.equals("BOX")) return new BoxField("[A-Z]?\\d{5,}(?: +[A-Z]?\\d{5,})*|[A-Z]{2,3}\\d{2,3}", true);
-    if (name.equals("ID")) return new IdField("[A-Z]\\d{9}", true);
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("UNIT")) return new MyUnitField();
-    return super.getField(name);
-  }
-  
-
-
   
   private static Properties CITY_CODES = buildCodeTable(new String[]{
       "ALE", "ALEPPO",
       "ASP", "ASPINWALL",
       "AVA", "AVALON",
-      "BWB", "BALDWIN",
-      "BWT", "BALDWIN TOWNSHIP",
-      "BAS", "BELL ACRES",
-      "BEL", "BELLEVUE",
-      "BAV", "BEN AVON",
       "BAH", "BEN AVON HEIGHTS",
-      "BPK", "BETHEL PARK",
-      "BLA", "BLAWNOX",
+      "BAS", "BELL ACRES",
+      "BAV", "BEN AVON",
+      "BEL", "BELLEVUE",
       "BKR", "BRACKENRIDGE",
+      "BLA", "BLAWNOX",
+      "BPK", "BETHEL PARK",
       "BRD", "BRADDOCK",
-      "BRH", "BRADDOCK HILLS",
-      "BWS", "BRADFORD WOODS",
       "BRE", "BRENTWOOD",
       "BRG", "BRIDGEVILLE",
+      "BRH", "BRADDOCK HILLS",
+      "BWB", "BALDWIN",
+      "BWS", "BRADFORD WOODS",
+      "BWT", "BALDWIN TOWNSHIP",
       "CAR", "CARNEGIE",
-      "CSH", "CASTLE SHANNON",
       "CHA", "CHALFANT",
       "CHE", "CHESWICK",
       "CHU", "CHURCHILL",
@@ -202,108 +207,112 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
       "COR", "CORAOPOLIS",
       "CRA", "CRAFTON",
       "CRE", "CRESCENT",
+      "CSH", "CASTLE SHANNON",
       "DOR", "DORMONT",
       "DRA", "DRAVOSBURG",
       "DUQ", "DUQUESNE",
-      "EDR", "EAST DEER",
-      "EMC", "EAST MCKEESPORT",
-      "EPG", "EAST PITTSBURGH",
-      "EWD", "EDGEWOOD",
       "EDG", "EDGEWORTH",
+      "EDR", "EAST DEER",
       "ELB", "ELIZABETH",
       "ELT", "ELIZABETH TWP",
+      "EMC", "EAST MCKEESPORT",
       "EMS", "EMSWORTH",
+      "EPG", "EAST PITTSBURGH",
       "ETN", "ETNA",
-      "FWN", "FAWN",
+      "EWD", "EDGEWOOD",
       "FIN", "FINDLAY",
       "FOR", "FOREST HILLS ",
-      "FWD", "FORWARD",
       "FOX", "FOX CHAPEL",
       "FPB", "FRANKLIN PARK",
       "FRZ", "FRAZER",
+      "FWD", "FORWARD",
+      "FWN", "FAWN",
       "GLA", "GLASSPORT",
       "GLE", "GLENFIELD",
+      "GOB", "GLEN OSBORNE",
       "GTR", "GREEN TREE",
       "HAM", "HAMPTON",
       "HAR", "HARMAR",
-      "HSN", "HARRISON",
       "HAY", "HAYESVILLE",
       "HEI", "HEIDELBERG",
       "HOM", "HOMESTEAD",
+      "HSN", "HARRISON",
       "IND", "INDIANIA",
       "ING", "INGRAM",
       "JEF", "JEFFERSON",
       "KEN", "KENNEDY",
       "KIL", "KILBUCK",
       "LEE", "LEET",
-      "LTD", "LEETSDALE",
       "LIB", "LIBERTY ",
       "LIN", "LINCOLN",
+      "LTD", "LEETSDALE",
       "MAR", "MARSHALL",
       "MCC", "MCCANDLESS",
       "MCD", "MCDONALD ",
-      "RKS", "MCKEES ROCKS",
       "MCK", "MCKEESPORT",
       "MIL", "MILLVALE",
       "MON", "MONROEVILLE",
       "MOO", "MOON",
-      "MTO", "MT OLIVER",
       "MTL", "MT. LEBANON",
+      "MTO", "MT OLIVER",
       "MUN", "MUNHALL ",
-      "NEV", "NEVILLE ",
       "NBR", "NORTH BRADDOCK",
+      "NEV", "NEVILLE ",
       "NFT", "NORTH FAYETTE",
       "NVT", "NORTH VERSAILLES",
-      "OKD", "OAKDALE",
       "OAK", "OAKMONT",
       "OHA", "O'HARA",
       "OHI", "OHIO",
-      "GOB", "GLEN OSBORNE",
+      "OKD", "OAKDALE",
       "PEN", "PENN HILLS",
-      "PVG", "PENNSBURY VILLAGE",
+      "PGH", "PITTSBURGH",
       "PIN", "PINE",
       "PIT", "PITCAIRN",
-      "PGH", "PITTSBURGH",
       "PLE", "PLEASANT HILLS",
       "PLU", "PLUM",
+      "PVG", "PENNSBURY VILLAGE",
       "PVU", "PORT VUE",
       "RAN", "RANKIN ",
-      "RES", "RESERVE ",
       "RCH", "RICHLAND",
+      "RES", "RESERVE ",
+      "RKS", "MCKEES ROCKS",
       "ROB", "ROBINSON",
-      "ROS", "ROSS",
       "ROF", "ROSSLYN FARMS",
+      "ROS", "ROSS",
       "SCT", "SCOTT",
       "SEW", "SEWICKLEY",
-      "SHT", "SEWICKLEY HEIGHTS",
-      "SHI", "SEWICKLEY HILLS",
-      "SHA", "SHALER",
-      "SHP", "SHARPSBURG",
       "SFT", "SOUTH FAYETTE",
-      "SPK", "SOUTH PARK ",
-      "SVS", "SOUTH VERSAILLES",
+      "SHA", "SHALER",
+      "SHI", "SEWICKLEY HILLS",
+      "SHP", "SHARPSBURG",
+      "SHT", "SEWICKLEY HEIGHTS",
       "SPB", "SPRINGDALE",
+      "SPK", "SOUTH PARK ",
       "SPT", "SPRINGDALE TWP.",
       "STO", "STOWE",
+      "SVS", "SOUTH VERSAILLES",
       "SWS", "SWISSVALE",
       "TAR", "TARENTUM",
+      "TCV", "TURTLE CREEK",
       "THO", "THORNBURG",
       "TRA", "TRAFFORD",
-      "TCV", "TURTLE CREEK",
       "USC", "UPPER ST. CLAIR",
       "VER", "VERONA",
       "VSB", "VERSAILLES",
       "WAL", "WALL",
+      "WBG", "WILKINSBURG",
       "WDR", "WEST DEER",
       "WEL", "WEST ELIZABETH",
-      "WHM", "WEST HOMESTEAD",
       "WES", "WEST MIFFLIN",
-      "WVW", "WEST VIEW",
-      "WTK", "WHITAKER",
-      "WOA", "WHITE OAK",
       "WHI", "WHITEHALL",
+      "WHM", "WEST HOMESTEAD",
       "WIL", "WILKINS",
-      "WBG", "WILKINSBURG",
-      "WIM", "WILMERDING"
+      "WIM", "WILMERDING",
+      "WOA", "WHITE OAK",
+      "WTK", "WHITAKER",
+      "WVW", "WEST VIEW",
+      
+      // Butler County
+      "ADAMS TWP",    "ADAMS TWP"
   });
 }

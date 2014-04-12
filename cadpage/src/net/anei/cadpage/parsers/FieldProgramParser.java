@@ -2849,6 +2849,7 @@ public class FieldProgramParser extends SmartAddressParser {
   /**
    * GPS field processor
    */
+  
   private String saveGPSLoc = "";
   public class GPSField extends Field {
     
