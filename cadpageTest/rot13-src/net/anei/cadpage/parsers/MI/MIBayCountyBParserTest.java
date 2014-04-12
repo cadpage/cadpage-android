@@ -6,7 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 
 /*
-Onl Pbhagl, ZV
+Onl Pbhagl, ZV (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Unzcgba Gbjafuvc Sver Qrcg. 
