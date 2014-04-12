@@ -36,6 +36,7 @@ public class TXBellCountyParser extends FieldProgramParser {
   }
 
   private static final Pattern PLACE_MARKER = Pattern.compile(": ?[@:]");
+  private static final Pattern ADDR_APT_PTN = Pattern.compile("(.*), *([^ ]+)");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -44,12 +45,19 @@ public class TXBellCountyParser extends FieldProgramParser {
       if (field.startsWith("@")) {
         data.strAddress = field;
       } else {
+        String apt = "";
         Matcher match = PLACE_MARKER.matcher(field);
         if (match.find()) {
           data.strPlace = field.substring(match.end()).trim();
           field = field.substring(0,match.start()).trim();
         }
+        match = ADDR_APT_PTN.matcher(field);
+        if (match.matches()) {
+          field = match.group(1).trim();
+          apt = match.group(2);
+        }
         super.parse(field, data);
+        data.strApt = append(data.strApt, "-", apt);
       }
     }
     
@@ -108,7 +116,9 @@ public class TXBellCountyParser extends FieldProgramParser {
   });
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BART", "BARTLETT",
       "BELL", "",         // Bell County
+      "HLND", "HOLLAND",
       "HKRH", "HARKER HEIGHTS",
       "NOLN", "NOLANVILLE",
       "TROY", "TROY"
