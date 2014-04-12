@@ -166,7 +166,7 @@ choyvp pynff QRXragPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[47 SVER/RZF]1P6 Noqbzvany Cnvaf 46 ZNVA FG Terrajbbq : Kfg'f: NAQERJIVYYR EQ, SYNG VEBA EQ / SNEZVATGBA EQ Pnyyre: ZHEENL OBOOL",
         "PNYY:1P6 Noqbzvany Cnvaf",
         "NQQE:46 ZNVA FG",
-        "CYNPR:Terrajbbq",
+        "PVGL:Terrajbbq",
         "K:NAQERJIVYYR EQ, SYNG VEBA EQ / SNEZVATGBA EQ");
   }
   
@@ -249,7 +249,7 @@ choyvp pynff QRXragPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[47 SVER/RZF]23O1V Bireqbfr/Cbvfbavat : 3244 NAQERJIVYYR EQ : Terrajbbq : Kfg'f: TERRAJBBQ EQ / OBBGU OENAPU EQ Pnyyre: RAFNATRE ZNEL",
         "PNYY:23O1V Bireqbfr/Cbvfbavat",
         "NQQE:3244 NAQERJIVYYR EQ",
-        "CYNPR:Terrajbbq",
+        "PVGL:Terrajbbq",
         "K:TERRAJBBQ EQ / OBBGU OENAPU EQ");
   
   }
