@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 public class FLCollierCountyParser extends DispatchPrintrakParser {
   
   private static final Pattern MARKER = Pattern.compile("^FCC\\d{12} TYP: ");
-  private static final Pattern TRAIL_UNIT_PTN = Pattern.compile("(?: +CC[A-Z0-9]+)+$");
+  private static final Pattern TRAIL_UNIT_PTN = Pattern.compile("(?: +CC[A-Z0-9]*)+(?: +C)?$");
   
   public FLCollierCountyParser() {
     super("COLLIER COUNTY", "FL");
@@ -32,5 +32,10 @@ public class FLCollierCountyParser extends DispatchPrintrakParser {
     
     data.strUnit = append(data.strUnit, " ", units);
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " UNIT";
   }
 }
