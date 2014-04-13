@@ -18,7 +18,7 @@ choyvp pynff NYZnefunyyPbhaglCnefreGrfg {
   
   choyvp fgngvp pynff GrfgO rkgraqf NYZnefunyyPbhaglOCnefreGrfg {
     choyvp GrfgO() {
-      frgCnefre(arj NYZnefunyyPbhaglNCnefre());
+      frgCnefre(arj NYZnefunyyPbhaglOCnefre());
     }
   }
 }

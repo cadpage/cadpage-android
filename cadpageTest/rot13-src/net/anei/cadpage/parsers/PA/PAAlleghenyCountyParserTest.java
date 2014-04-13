@@ -51286,6 +51286,7 @@ choyvp pynff CNNyyrturalPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:S2",
         "PNYY:ENVY PNE / GENVA SVER",
         "TCF:+40.393026,-79.861139",
+        "ZNQQE:+40.393026,-79.861139",
         "FEP:RSQ3",
         "OBK:113001",
         "VQ:S140025794",
