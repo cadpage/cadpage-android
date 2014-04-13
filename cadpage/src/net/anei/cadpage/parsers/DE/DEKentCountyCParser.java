@@ -11,7 +11,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DEKentCountyCParser extends DEKentCountyBaseParser {
   
   public DEKentCountyCParser() {
-    super("Unit:UNIT? Status:ADDR/SCP! Venue:CITY! Dev/Sub:PLACE! Xst's:X Caller:NAME Lat:GPS1 Long:GPS2");
+    super("KENT COUNTY", "DE",
+          "Unit:UNIT? Status:ADDR/SCP! Venue:CITY! Dev/Sub:PLACE! Xst's:X Caller:NAME Lat:GPS1 Long:GPS2");
   }
   
   @Override
@@ -80,7 +81,7 @@ public class DEKentCountyCParser extends DEKentCountyBaseParser {
     @Override
     public void parse(String field, Data data) {
       super.parse(field, data);
-      setState(data);
+      adjustCityState(data);
     }
     
     @Override

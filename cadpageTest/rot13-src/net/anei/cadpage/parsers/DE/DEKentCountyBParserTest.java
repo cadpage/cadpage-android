@@ -432,7 +432,7 @@ choyvp pynff QRXragPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:6440 Pungrnh Qe",
         "PVGL:Zvysbeq",
         "FG:QR",
-        "CYNPR:Unyy Rfgngrf - Zvysbeq",
+        "CYNPR:Unyy Rfgngrf",
         "K:Zrybql Ya / Zrybql Ya, Zrybql Pve");
 
     qbGrfg("G9",
@@ -453,7 +453,7 @@ choyvp pynff QRXragPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1 Cnex Nir",
         "PVGL:Zvysbeq",
         "FG:QR",
-        "CYNPR:Zvysbeq Fxngvat Pragre - Zvysbeq",
+        "CYNPR:Zvysbeq Fxngvat Pragre",
         "K:A Jnfuvatgba Fg / A Jnyahg Fg");
 
     qbGrfg("G11",
@@ -842,7 +842,8 @@ choyvp pynff QRXragPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:52 Sver",
         "PBQR:31Q2",
         "PNYY:Hapbafpvbhf/Snvagvat",
-        "NQQE:401 Zblre Pve N J",
+        "NQQE:401 Zblre Pve",
+        "NCG:N J",
         "PVGL:Zvysbeq",
         "CYNPR:Zvysbeq Pebffvat",
         "K:Zblre Pve R / Nfuyrl Jnl, Zblre Pve R");
@@ -879,7 +880,8 @@ choyvp pynff QRXragPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:52 Sver",
         "PBQR:30N2",
         "PNYY:Genhzngvp Vawhel",
-        "NQQE:5 Yvafgbar Ya 407",
+        "NQQE:5 Yvafgbar Ya",
+        "NCG:407",
         "PVGL:Zvysbeq",
         "K:Haxabja / Inyyrl Qe");
 
@@ -1076,9 +1078,8 @@ choyvp pynff QRXragPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Puvrs Nyreg) [46 Perj Pnyy] -- Qbire Znccvat Cntr3 -- 202 Crefvzzba Pve R -- Crefvzzba Cnex Cynpr Qbire -- Kfg'f: Tbeqba Qe, Cevzebfr Qe R / Xnera Cy, Fhfna Cy",
         "FEP:46 Perj Pnyy",
         "PNYY:Qbire Znccvat Cntr3",
-        "CYNPR:202 Crefvzzba Pve R",
-        "NQQE:Crefvzzba Cnex Cynpr",
-        "ZNQQE:Crefvzzba Cnex Cynpr & Tbeqba Qe",
+        "NQQE:202 Crefvzzba Pve R",
+        "CYNPR:Crefvzzba Cnex Cynpr",
         "PVGL:Qbire",
         "K:Tbeqba Qe, Cevzebfr Qe R / Xnera Cy, Fhfna Cy");
 

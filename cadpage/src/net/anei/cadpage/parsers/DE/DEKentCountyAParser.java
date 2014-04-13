@@ -16,7 +16,8 @@ public class DEKentCountyAParser extends DEKentCountyBaseParser {
   private static final Pattern DELIM = Pattern.compile("[A-Z']+:| :", Pattern.CASE_INSENSITIVE);
   
   public DEKentCountyAParser() {
-    super("( CALL ADDR/ZS PLACECITY | ADDR/SCXP ) Xst's:X CALLER:NAME? Lat:GPS1 Long:GPS2");
+    super("KENT COUNTY", "DE",
+          "( CALL ADDR/ZS PLACECITY | ADDR/SCXP ) Xst's:X CALLER:NAME? Lat:GPS1 Long:GPS2");
   }
   
   @Override
@@ -33,7 +34,7 @@ public class DEKentCountyAParser extends DEKentCountyBaseParser {
     
     boolean good = subject.equals("!|K") || subject.equals("K") || subject.equals("CAD");
     if (!parseFields(splitMsg(body), data)) return false;
-    setState(data);
+    adjustCityState(data);
     if (data.strCross.equals("No Cross Streets Found")) data.strCross = "";
     if (good) return true;
     if (getStatus() <= STATUS_STREET_NAME) return false;
