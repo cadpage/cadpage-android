@@ -113,9 +113,9 @@ Fraqre: Qvfcngpu
 (Qvfcngpu) SFgehpgher RP5  101 WRAAVSRE YA JRFG ZBAEBR PLCERFF FG / QRNQ RAQ
 
  */
-choyvp pynff YNDhnpuvgnCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff YNBhnpuvgnCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp YNDhnpuvgnCnevfuCnefreGrfg() {
+  choyvp YNBhnpuvgnCnevfuCnefreGrfg() {
     frgCnefre(arj QhzzlCnefre(), "DHNPUVGN CNEVFU", "YN");
   }
   
@@ -125,6 +125,6 @@ choyvp pynff YNDhnpuvgnCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj YNDhnpuvgnCnevfuCnefreGrfg().trarengrGrfgf("G1");
+    arj YNBhnpuvgnCnevfuCnefreGrfg().trarengrGrfgf("G1");
   }
 }
