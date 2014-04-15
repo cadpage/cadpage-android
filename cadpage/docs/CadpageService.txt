@@ -30,7 +30,6 @@ req=register - initial user request to register phone
     vendor          Cadpage
     type            GCM
     phone           Phone number if we have it (for Android tablets we probably will not)
-    name            user name
     MEID            device MEID number
     resetEmail      Y means user would a new dispatch Email.
                     N If user already has a dispatch Email, return it
@@ -55,4 +54,5 @@ req=reg_query   Used by Cadpage to report a device registration ID and request t
 
 Message push protocol is same as standard GCM protocol except that we will always report a 
 vendor code of "Cadpage", and the REGISTER confirmation will include a new
-dispatchEmail       Email address to which dispatch alerts should be sent.   
+dispatchEmail  
+     Email address to which dispatch alerts should be sent.   

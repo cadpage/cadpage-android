@@ -14,6 +14,10 @@ Pbagnpg: Xriva Fvccyr <xriva.fvccyr@irevmba.arg>
 Pbagnpg: puneyrf qbhturegl <uhagvat4177@tznvy.pbz>
 (Puvrs Nyreg) [55 Sver] Nynezf-Erfvqragvny (Zhygvcyr) -- 35 Zrqny Jnl Zntabyvn, QR 19962 -- Yvaxfvqr Gbjaubzrf -- Pebff FGF: Onl Uvyy Ya / Onl Uvyy Ya
 
+Pbagnpg: Àyoreg Yrabk <npyrabk@pbzpnfg.arg>
+Fraqre: nyreg@pszft.pbz
+(Puvrs Nyreg) [Fgn:44] 29O1N-Zip Zhygvcyr Vawhevrf -- F Pnegre Eq Fzlean, QR 19977 -- Puevfgvan Ncgf
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Objref Sver Pbzcnal Vap. Fgn. 40
 Ybpngvba: Serqrevpn, QR, Havgrq Fgngrf
@@ -218,6 +222,20 @@ choyvp pynff QRXragPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:QR",
         "CYNPR:Yvaxfvqr Gbjaubzrf",
         "K:Onl Uvyy Ya / Onl Uvyy Ya");
+
+  }
+  
+  @Grfg
+  choyvp ibvq NyoreYrabk() {
+
+    qbGrfg("G1",
+        "(Puvrs Nyreg) [Fgn:44] 29O1N-Zip Zhygvcyr Vawhevrf -- F Pnegre Eq Fzlean, QR 19977 -- Puevfgvan Ncgf",
+        "FEP:Fgn:44",
+        "PNYY:29O1N-Zip Zhygvcyr Vawhevrf",
+        "NQQE:F Pnegre Eq",
+        "PVGL:Fzlean",
+        "FG:QR",
+        "CYNPR:Puevfgvan Ncgf");
 
   }
 

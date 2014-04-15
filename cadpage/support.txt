@@ -35,6 +35,8 @@ The good news is that Cadpage will continue to function under Android 4.4.  And 
 
 The only other alternative is to switch to a message service like CodeMessaging.net or Active911.com that can push direct pages to Cadpage.  Since these do not rely on text messages, they are unaffected by the changes at Android 4.4.
 
+Or if you can wait a bit, we hope to roll out our own Cadpage direct paging service in a few weeks.  This will be free for paid Cadpage subscribers.
+
 Take care,
 Jean ~ Cadpage Administrator
 
