@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+  <string name="cadpage_title">Cadpage Paging</string>
+  <string name="cadpage_summary">
+    Low cost, no frills paging service.
+  </string>
+  <string name="cadpage_text">
+    Forwards email alerts to your phone or tablet.\n
+    Requires a paid Cadpage subscription. That is all there is.
+  </string>
+    
   <string name="code_messaging_title">CodeMessaging.net</string>
   <string name="code_messaging_summary">
     Full-featured department messaging platform for routing dispatches

@@ -55,6 +55,9 @@ abstract class Vendor {
   private String account;
   private String token;
   
+  // Dispatch email address (Cadpage only)
+  private String dispatchEmail;
+  
   // Vendor preference that may need to be updated when status changes
   private VendorPreference preference = null;
   
@@ -155,7 +158,6 @@ abstract class Vendor {
    * @return true if this address is associated with this vendor
    */
   boolean isVendorAddress(String address) {
-    
     // Always return false.  Vendor classes usually override this to add their own logic
     return false;
   }
@@ -242,6 +244,7 @@ abstract class Vendor {
     enabled = prefs.getBoolean("enabled", false);
     account = prefs.getString("account", null);
     token = prefs.getString("token", null);
+    dispatchEmail = prefs.getString("dispatchEmail", null);
     
     textPage = prefs.getBoolean("textPage", false);
     disableTextPageCheck = prefs.getBoolean("disableTextPageCheck", false);
@@ -265,6 +268,7 @@ abstract class Vendor {
     editor.putBoolean("enabled", enabled);
     editor.putString("account", account);
     editor.putString("token", token);
+    editor.putString("dispatchEmail", dispatchEmail);
     editor.commit();
   }
   
@@ -308,6 +312,7 @@ abstract class Vendor {
     sb.append("\ndisableTextPageCheck:" + disableTextPageCheck);
     sb.append("\naccount:" + account);
     sb.append("\ntoken:" + token);
+    if (dispatchEmail != null) sb.append("\ndispatchEmail:" + dispatchEmail);
   }
 
   /**
@@ -338,7 +343,7 @@ abstract class Vendor {
     // If donation menu, return true if vendor is sponsored
     if (status == 2) return isSponsored();
     
-    // Otherewise, always return true
+    // Otherwise, always return true
     return true;
   }
 
@@ -451,21 +456,7 @@ abstract class Vendor {
     // If we are in process of registering with server, send the web registration request
     if (inProgress) {
       
-      // If we got a discovery URI from the vendor, send directly to that
-      // It isn't our problem if it isn't accepted
-      if (discoverUri != null) {
-        Uri uri = discoverUri.buildUpon()
-            .appendQueryParameter("type", "GCM")
-            .appendQueryParameter("CadpageRegId", registrationId)
-            .build();
-        HttpService.addHttpRequest(context, new HttpRequest(uri){});
-      } 
-      
-      // Otherwise build a registration URL and display it in the web browser 
-      else {
-        Uri uri = buildRequestUri("register", registrationId);
-        viewPage(context, uri);
-      }
+      sendRegisterReq(context, registrationId);
       inProgress = false;
       discoverUri = null;
       return true;
@@ -480,6 +471,29 @@ abstract class Vendor {
     
     // Otherwise we have nothing to do
     return false;
+  }
+
+  /**
+   * Send C2DM Register request to vendor server
+   * @param context current context
+   * @param registrationId registration ID
+   */
+  void sendRegisterReq(final Context context, String registrationId) {
+    // If we got a discovery URI from the vendor, send directly to that
+    // It isn't our problem if it isn't accepted
+    if (discoverUri != null) {
+      Uri uri = discoverUri.buildUpon()
+          .appendQueryParameter("type", "GCM")
+          .appendQueryParameter("CadpageRegId", registrationId)
+          .build();
+      HttpService.addHttpRequest(context, new HttpRequest(uri){});
+    } 
+    
+    // Otherwise build a registration URL and display it in the web browser 
+    else {
+      Uri uri = buildRequestUri("register", registrationId);
+      viewPage(context, uri);
+    }
   }
 
   /**
@@ -549,8 +563,9 @@ abstract class Vendor {
    * @param type REGISTER/UNREGISTER request type
    * @param account vendor account
    * @param token vendor security token
+   * @param dispatchEmail dispatch Email address
    */
-  void vendorRequest(Context context, String type, String account, String token) {
+  void vendorRequest(Context context, String type, String account, String token, String dispatchEmail) {
     
     boolean register = type.equals("REGISTER");
     
@@ -558,6 +573,7 @@ abstract class Vendor {
     this.enabled = register;
     this.account = account;
     this.token = token;
+    this.dispatchEmail = dispatchEmail;
     saveStatus();
     if (enabled) publishAccountInfo(context);
     
@@ -611,7 +627,7 @@ abstract class Vendor {
    * @param registrationId registration ID
    * @return request URI
    */
-  private Uri buildRequestUri(String req, String registrationId) {
+  protected Uri buildRequestUri(String req, String registrationId) {
     return buildRequestUri(req, registrationId, false);
   }
 

@@ -27,6 +27,7 @@ public class VendorManager {
   
   // List of supported vendors
   private Vendor[] vendorList = new Vendor[]{
+    new CadpageVendor(),
     new CodeMessagingVendor(),
     new Active911Vendor()
   };
@@ -251,9 +252,10 @@ public class VendorManager {
    * @param vendorCode vendor code
    * @param account vendor account
    * @param token vendor security token
+   * @param dispatchEmail dispatch email address
    */
   public void vendorRequest(Context context, String type, String vendorCode,
-                            String account, String token) {
+                            String account, String token, String dispatchEmail) {
 
     // Identify the correct vendor and pass request to them
     Vendor vendor = findVendor(vendorCode);
@@ -264,7 +266,7 @@ public class VendorManager {
     // will use this date to detect and possibly compensate users are are
     // paying for a Cadpage subscription and have a sponsored vendor.
     String sponsor = getSponsor();
-    vendor.vendorRequest(context, type, account, token);
+    vendor.vendorRequest(context, type, account, token, dispatchEmail);
     if (sponsor == null && getSponsor() != null) ManagePreferences.setRegisterDate();
   }
   

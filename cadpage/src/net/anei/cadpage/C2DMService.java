@@ -225,10 +225,11 @@ public class C2DMService extends IntentService {
         final String vendorCode2 = vendorCode;
         final String account = intent.getStringExtra("account");
         final String token = intent.getStringExtra("token");
+        final String dispatchEmail = intent.getStringExtra("dispatchEmail");
         CadPageApplication.getMainHandler().post(new Runnable(){
           @Override
           public void run() {
-            VendorManager.instance().vendorRequest(C2DMService.this, type2, vendorCode2, account, token);
+            VendorManager.instance().vendorRequest(C2DMService.this, type2, vendorCode2, account, token, dispatchEmail);
           }
         });
         sendAutoAck(intent, vendorCode);
