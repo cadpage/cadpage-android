@@ -37,6 +37,7 @@ public class CAHanfordParser extends DispatchA20Parser {
       "ZGASLEKO",        "Gas Leak Outdoors",
       "ZGASSMI",         "Smell of Gas Indoors",
       "ZGASSMO",         "Smell of Gas Outdoors",
+      "ZGENERAL",        "General Alarm",
       "ZHAZCON",         "Hazardous Condition/Wires Down/Spill",
       "ZHAZMAT",         "Hazardous Materials",
       "ZILLBURN",        "Illegal Burn",
@@ -49,7 +50,9 @@ public class CAHanfordParser extends DispatchA20Parser {
       "ZSMOKEO",         "Smell of Smoke Outdoors",
       "ZTAFWY",          "Traffic Accident on Freeway",
       "ZTAINJ",          "Traffic Accident with Injury",
-      "ZTAPIN",          "Traffic Accident/Pin-in/Rollover/Into Building"
+      "ZTAPIN",          "Traffic Accident/Pin-in/Rollover/Into Building",
+      "ZTRAP",           "Person Trapped/Possible Rescue"
+
 
   });
 }
