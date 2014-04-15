@@ -39,7 +39,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   // Flag indicating we should not check for implied non-numeric apartments
   public static final int DSFLAG_NO_IMPLIED_APT = 0x100;
   
-  private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
+  private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
   private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
   private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-0-9]+)$");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{2,4}-?(?:\\d\\d-)?\\d{4,8}$");
