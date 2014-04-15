@@ -536,8 +536,7 @@ Jean ~ Cadpage Administrator
 
 I found your free Cadpage subscription of _____.  
 
-Go into Cadpage settings and press
-Payment Status > Recalculate Payment Status
+Go into Cadpage settings and press Payment Status > Recalculate Payment Status
 
 If you are having other difficulties with Cadpage, please let us know.
 
