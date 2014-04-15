@@ -15,6 +15,10 @@ F:VAQS Z:PSF#: 2013-01883\aPnyyGlcr: ZRQVPNY / NZOHYNAPR PNYY\aNqqerff: 506 F Q 
 F:VAQS Z:PSF#: 2013-01695\aPnyyGlcr: ZRQVPNY / NZOHYNAPR PNYY\aNqqerff: 307 R FPRAVP INYYRL NIR, VAQVNABYN, VN
 F:VAQS Z:PSF#: 2013-01979\aPnyyGlcr: ZRQVPNY / NZOHYNAPR PNYY\aNqqerff: 121 ZNVA FG, FG ZNELF, VN
 
+Pbagnpg: qvatyr301 <qvatyr301@zfa.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+F:VAQS Z:: NYNEZ - SVER\aNqqerff: 1301 A 14GU FG, VAQVNABYN, VN\a
+
  */
 
 choyvp pynff VNJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -69,6 +73,18 @@ choyvp pynff VNJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY / NZOHYNAPR PNYY",
         "NQQE:121 ZNVA FG",
         "PVGL:FG ZNELF",
+        "FG:VN");
+
+  }
+  
+  choyvp ibvq grfgQvatyr301() {
+
+    qbGrfg("G1",
+        "F:VAQS Z:: NYNEZ - SVER\aNqqerff: 1301 A 14GU FG, VAQVNABYN, VN\a",
+        "FEP:VAQS",
+        "PNYY:NYNEZ - SVER",
+        "NQQE:1301 A 14GU FG",
+        "PVGL:VAQVNABYN",
         "FG:VN");
 
   }

@@ -17,9 +17,17 @@ public class IAWarrenCountyParser extends DispatchA38Parser {
   }
   
   @Override
-  public boolean parseMsg(String subject, String field, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
     data.strSource = subject;
-    return super.parseMsg(field, data);
+    
+    // Fix up some IAR scrambling :(
+    if (body.startsWith(":")) {
+      body = "CFS#: 0000-00000\nCallType" + body;
+    }
+    
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCallId.equals("0000-00000")) data.strCallId = "";
+    return true;
   }
   
   @Override
