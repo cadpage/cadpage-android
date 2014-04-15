@@ -411,7 +411,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       "GRF", "Referral Incident",
       "GSW", "Gunshot Wound",
       "GWX", "Weather Incident",
-      "HA", "Headache",
+      "HA",  "Headache",
       "HCE", "Heat/Cold Exposure",
       "HEART", "Heart Problem",
       "HL", "Hemorrhage/Laceration",
