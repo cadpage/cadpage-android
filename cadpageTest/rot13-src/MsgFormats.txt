@@ -16,15 +16,10 @@ Npgvir911 gvpxrgf
 2014011910000212  TNPungunzPbhagl qbar
 2014012110000039  ZARqvan qbar
 2014012110000048  SYFrzvabyrPbhagl qbar
--2014012110000057  SYOnlPbhagl qbar
 2014012310000526  GKOryyPbhagl qbar
--2014012910000721  ALBfjrtbPbhaglO (bhgfbhepr-UGZY)
--2014020510000193  GKOenmbevnPbhaglP (bhgfbhepr-UGZY)
 2014020710000788  XFErabPbhagl qbar
 2014021610000252  AUTensgbaPbhagl qbar
 ---- C4 --------------------------------------------------------
--2012120510000169  ZBZbargg qbar
--2013012010000024  BUJnfuvatgbaPbhagl qbar
 2013093010000652  ZFOvybkv qbar
 2013102210000405  BUUnzvygbaPbhagl qbar
 2013103110000201  NYZnefunyyPbhagl qbar
@@ -32,14 +27,12 @@ Npgvir911 gvpxrgf
 2013111210000388  ZBWnpxfbaPbhagl (bhgfbhepr-UGZY) 
 2013112510000701  AWBprnaPbhagl qbar
 2013121610000333  INCevaprTrbetrPbhagl qbar
--2014011010000603  Gel ntnva yngre
 2014021210000232  ZBWnfcrePbhagl svkrq
 2014022510000539  Dhrorp qvfgevpg - arrq zber pnyyf naq ybgf bs uryc
 +2014041410001001
 ---- C3 -------------------------------------------------------
 2013031910001068  Ab pnyyf fvapr 11/4/13
 2013052210000111  Ab qngn
--2013072510000559  Ab qngn
 -2013092710000257  AIJvaarzhppn (zretr jvgu PNYnxrPbhagl)
 2013093010000572  NYPnyubhaPbhaglO (QvfcngpuN35Cnefre)
 -2013110710000316  CNLbexPbhaglN (vagreany N911 vffhrf)
@@ -75,30 +68,18 @@ Npgvir911 gvpxrgf
 2014030710000553  SYFrzvabyrPbhagl qbar
 2014031010000547  VNQvpxrafbaPbhagl qbar
 ---- C1 -------------------------------------------------------
--2012112710000307  vanpgvir
--2012113010000221  VAObbarPbhagl qbar
--2012122110000398  ZFArfubonPbhagl qbar
--2013032010000315  vanpgvir
--2013041210000231  yngre
 2013042410000306  CNPbyhzovnPbhagl qbar
 2013072510000577  yngre
 2013082610000475  ZVVatenuzPbhagl qbar
--2013090910000362  GKEbnabxr qbar
 -2013092510000582  Cbffvoyr zretr jvgu ZFBxgvoorunPbhaglCnefre
 2013092510000644  ab hfrshy vasbezngvba
--2013100810001208  ab ntrapl
 2013110710000272  CNLbexPbhagl qbar
 2014010810000135  ab ntrapl
 2014010810000261  APCrefbaPbhagl qbar
 2014011010000461  ab qvfcngpu nyregf
 2014011010000471  yngre
--2014011010000612  ab enj ercbeg
--2014011610000692  JVEnpvarPbhagl qbar
--2014011610000791  ZVOnlPbhagl qbar
 2014011710000672  CNOenqsbeqPbhagl (bhgfbhepr Fnenu) 
 2014011710000681  yngre
--2014011710000814  yngre
--2014012010000497  yngre
 2014022110000564  Trareny vf cebonoyl nf tbbq nf vg trgf
 -----------------------------------------------------------
 2014012410000702  PGOrgury (QvfcngpuN25Cnefre)
