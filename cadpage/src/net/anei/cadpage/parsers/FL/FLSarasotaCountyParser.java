@@ -65,6 +65,7 @@ public class FLSarasotaCountyParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CHAR", "CHARLOTTE COUNTY",
       "NCTY", "",
       "NPRT", "NORTH PORT",
       "SCTY", "",

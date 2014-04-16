@@ -276,8 +276,11 @@ public class ParserList {
           new ParserCategory("Idaho"
               ,"IDBlaineCounty"                 ,"Blaine County, ID"
               ,"IDGoodingCounty"                ,"Gooding County, ID"
+              ,"IDJeromeCounty"                 ,"JeromeCounty, ID"
               ,"IDKootenaiCounty"               ,"Kootenai County, ID"
+              ,"IDLincolnCounty"                ,"Lincoln County, ID"           
               ,"IDShoshoneCounty"               ,"Shoshone County, ID"
+              ,"IDTwinFallsCounty"              ,"Twin Falls County, ID"
           ),
           new ParserCategory("Illinois"
               ,"ILChampaignUrbana"              ,"Champaign-Urbana, IL"
