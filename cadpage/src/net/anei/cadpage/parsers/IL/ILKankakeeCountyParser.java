@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.IL;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -43,7 +44,7 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
     // There are now three formats, Wish they would make up their minds
     Matcher match = MASTER_PTN2.matcher(body);
     if (match.matches()) {
-      setFieldList("CALL PLACE ADDR APT CITY ID");
+      setFieldList("CALL PLACE ADDR APT CITY ST ID");
       data.strCall = match.group(1).trim();
       String sAddr = match.group(2);
       Matcher match2 = HOUSE_SLASH_PTN.matcher(sAddr);
@@ -69,13 +70,13 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
         if (apt.length() == 0) apt = data.strApt;
         data.strApt = append(apt, "-", getLeft());
       }
-      
+      setState(data);
       return true;
     }
     
     match = MASTER_PTN3.matcher(body);
     if (match.matches()) {
-      setFieldList("CALL ADDR APT CITY PLACE DATE TIME ID X");
+      setFieldList("CALL ADDR APT CITY ST PLACE DATE TIME ID X");
       body = match.group(1).trim();
       data.strDate = match.group(2);
       data.strTime = match.group(3);
@@ -115,12 +116,13 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
       } else {
         data.strPlace = append(data.strPlace, " - ", place);
       }
+      setState(data);
       return true;
     }
     
     match = MASTER_PTN1.matcher(body);
     if (match.matches()) {
-      setFieldList("UNIT SRC ADDR APT PLACE CITY CALL ID");
+      setFieldList("UNIT SRC ADDR APT PLACE CITY ST CALL ID");
       data.strUnit = match.group(1).trim();
       body = match.group(2).trim();
       data.strCallId = getOptGroup(match.group(3));
@@ -151,10 +153,16 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
         data.strPlace = pad;
       }
       data.strCall = getLeft();
+      setState(data);
       return data.strCity.length() > 0;
     }
     
     return false;
+  }
+  
+  private static void setState(Data data) {
+    String state = CITY_STATE_TABLE.getProperty(data.strCity);
+    if (state != null) data.strState = state;
   }
   
   private static final CodeSet CALL_LIST = new CodeSet(
@@ -202,39 +210,60 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
   );
   
   private static final String[] CITY_LIST = new String[]{
-    "KANKAKEE",
-    "MOMENCE",
-
     "AROMA PARK",
     "BONFIELD",
     "BOURBONNAIS",
     "BRADLEY",
     "BUCKINGHAM",
+    "CABERY",
     "CHEBANSE",
     "ESSEX",
     "GRANT PARK",
     "HERSCHER",
     "HOPKINS PARK",
     "IRWIN",
+    "KANKAKEE",
     "LIMESTONE",
     "MANTENO",
+    "MOMENCE",
+    "PEWING",
+    "SOLLITT",
     "ST ANNE",
     "REDDICK",
     "SAMMONS POINT",
     "SUN RIVER TERRACE",
     "UNION HILL",
+    "WILMINGTON",
+    "YEAGER",
 
+    "AROMA TOWNSHIP",
+    "BOURBONNAIS TOWNSHIP",
+    "ESSEX TOWNSHIP",
+    "GANEER TOWNSHIP",
+    "KANKAKEE TOWNSHIP",
+    "LIMESTONE TOWNSHIP",
+    "MANTENO TOWNSHIP",
+    "NORTON TOWNSHIP",
+    "OTTO TOWNSHIP",
     "PEMBROKE TOWNSHIP",
-    "SOLLITT TOWNSHIP",
-    "YEAGER TOWNSHIP",
-    "PEWING TOWNSHIP",
+    "PILOT TOWNSHIP",
+    "ROCKVILLE TOWNSHIP",
+    "SALINA TOWNSHIP",
+    "ST ANNE TOWNSHIP",
+    "SUMMER TOWNSHIP",
+    "YELLOWHEAD TOWNSHIP",
     
     "KANKAKEE COUNTY",
     
-    "WILMINGTON",
-    
     // Ford County
+    "ELLIOTT",
     "KEMPTON",
+    "LIMESTONE",
+    "MELVIN",
+    "PAXTON",
+    "PIPER CITY",
+    "ROBERTS",
+    "ROSSVILLE",
     
     // Grundy County
     "BRACEVILLE",
@@ -242,12 +271,29 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
     // Iroquois County
     "ASHKUM",
     "BEAVERVILLE",
+    "THAWVILLE",
     
-    // Kankakee County
-    "CABERY",
+    // Vermillion County
+    "EAST LYNN",
+    "HOOPESTON",
+    "RANKIN",
     
     // Will County
     "BRAIDWOOD",
-    "CUSTER PARK"
+    "CUSTER PARK",
+    
+    // Newton County, IN
+    "BROOK",
+    "GOODLAND",
+    "KENTLAND",
+    "MOROCCO"
   };
+  
+  private static final Properties CITY_STATE_TABLE = buildCodeTable(new String[]{
+      "BROOK",     "IN",
+      "GOODLAND",  "IN",
+      "KENTLAND",  "IN",
+      "MOROCCO",   "IN"
+      
+  });
 }
