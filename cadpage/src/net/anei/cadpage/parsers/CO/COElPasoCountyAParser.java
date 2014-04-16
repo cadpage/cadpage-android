@@ -11,7 +11,10 @@ import net.anei.cadpage.parsers.MsgParser;
 public class COElPasoCountyAParser extends MsgParser {
   
   private static final Pattern MASTER = 
-      Pattern.compile("\\[([-A-Z0-9 ]+): *([^\\]]+?)\\] *([^~]+?)~([^~]+?)~([^#\\.]+?)\\.?#([^~]*?)~([^~]*?)~(?:x:([^~]*?)(?:   +~?|~))?(?:ALRM:(\\d)~)?(?:CMD:([^~]*)~)?([-A-Z0-9]+) *~*");
+      Pattern.compile("\\[([-A-Z0-9 ]+): *([^\\]]+?)\\] *([^~]+?)~([^~]+?)~([^#\\.]+?)\\.?#([^~]*?)~([^~]*?)~(?:x:([^~]*?)(?:   +~?|~))?(?:ALRM:([\\d ])~)?(?:CMD:([^~]*)~?)?(?:([-A-Z0-9]+))? *~*");
+  
+  private static final Pattern MASTER2 =
+      Pattern.compile("FROM EPSO: (.*?)  +(.*?)(?:  +(.*?))?  +JURIS: (.*)");
   
   public COElPasoCountyAParser() {
     super("EL PASO COUNTY", "CO");
@@ -44,7 +47,35 @@ public class COElPasoCountyAParser extends MsgParser {
       data.strCross = getOptGroup(match.group(8));
       data.strPriority = getOptGroup(match.group(9));
       data.strSupp = getOptGroup(match.group(10));
-      data.strCallId = match.group(11);
+      data.strCallId = getOptGroup(match.group(11));
+      return true;
+    }
+    
+    match = MASTER2.matcher(body);
+    if (match.matches()) {
+      setFieldList("CALL ADDR APT PLACE SRC");
+      data.strCall = match.group(1).trim();
+      parseAddress(match.group(2).trim(), data);
+      String place = match.group(3);
+      if (place != null) {
+        place = place.trim();
+        if (place.length() <= 4 || NUMERIC.matcher(place).matches()) {
+          data.strApt = append(data.strApt, "-", place);
+        } else {
+          data.strPlace = place;
+        }
+      }
+      data.strSource = match.group(4).trim();
+      return true;
+    }
+    
+    if (body.startsWith("From EPSO -") && body.length() > 88  &&
+        body.charAt(36) != ' ' &&
+        body.charAt(87) == ' ' && body.charAt(88) != ' ') {
+      setFieldList("CALL ADDR APT INFO");
+      data.strCall = substring(body, 12, 35);
+      parseAddress(substring(body, 36, 87), data);
+      data.strSupp = substring(body, 88);
       return true;
     }
     
