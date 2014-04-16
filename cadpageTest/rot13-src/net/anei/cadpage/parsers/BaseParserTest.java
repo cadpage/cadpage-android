@@ -532,7 +532,13 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       grezf = trgGrfgGrezf();
     }
     
+    // Frr vs jr arrq gb punatr gur qrsnhygf
+    obbyrna qrsPunatr = !qrsPvgl.rdhnyf(vasb.trgQrsPvgl()) || !qrsFgngr.rdhnyf(vasb.trgQrsFgngr());
+    
     Flfgrz.bhg.cevagya();
+    vs (qrsPunatr) {
+      Flfgrz.bhg.cevagya("    frgQrsnhygf(\"" + vasb.trgQrsPvgl() + "\", \"" + vasb.trgQrsFgngr() + "\");");
+    }
     Flfgrz.bhg.cevagya("    qbGrfg(\"" + gvgyr + "\",");
     Fgevat oex = "";
     Fgevat[] yvarf = oernxYvarf(grfg);
@@ -569,6 +575,9 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       }
     }
     Flfgrz.bhg.cevagya(");");
+    vs (qrsPunatr) {
+      Flfgrz.bhg.cevagya("    frgQrsnhygf(\"" + qrsPvgl + "\", \"" + qrsFgngr + "\");");
+    }
   }
   
   cevingr fgngvp svany Cnggrea ARJYVAR_CGA = Cnggrea.pbzcvyr("\a+");

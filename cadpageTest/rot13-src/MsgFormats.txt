@@ -1087,6 +1087,20 @@ YP911:[3298]-- - Angher: URZZBENTR/YNPRENGVBA - Ybpngvba: 36.00 F ZNVA FG   WBUA
 YP911:- Angher: VYYARFF - ABA FCRPVSVP - Ybpngvba:      65.00 F JVYYVNZF FG  Fhvgr:EZ 206 WBUAFGBJA
 *******************************************************************************
 *******************************************************************************
+* QvfcngpuN41Cnefre fhopynffrf
+*******************************************************************************
+*******************************************************************************
+Cbegre Pbhagl, VA (VACbegrePbhaglCnefre)
+(Cbegre FZGC Cebivqre) QVFCNGPU:S70, NAL BGURE PNYY, 75 PBYBAVNY NI, JTG, ogja JVYYVNZFOHET QE naq ZHEIVUVYY EQ, JS, JF3, znccntr,KKKK, 80LBN SRZNYR, QVSSVPHYGL OERNGUVAT NAQ VEERTHYNE URNEGORNG, Havg:ISN1 - Sebz PNQ2 03/11/2014 09:51:21
+(Cbegre FZGC Cebivqre) QVFCNGPU:S17N03, SNYYF, 154 OBTNGN NI, INY, ogja WBYVRG EQ naq FG WBFRCU YA, IS, IS3RP, znccntr,KKKK, Zrqvpny CebDN erpbzzraqf qvfcngpu ng guvf gvzr, Havg:ISN3 - Sebz PNQ2 03/11/2014 08:59:25
+(Cbegre FZGC Cebivqre) QVFCNGPU:S51C4, NYNEZ:PNEOBA ZBA.-C4, 1716 JUVGGVRE CNEX QE, INY, ogja ZBAGVPRYYB CNEX QE naq GHPXNUBR CNEX QE, IS, IS2WP, znccntr,KKKK, PB QRGRPGBE TBVAT BSS.   AB BAR SRRYVAT VYY., Havgf:ISN2, ISR2 - Sebz PNQ2 03/11/2014 08:32:46
+***************************************************************************
+Tertt Pbhagl, GK (GKTerttPbhagl)
+QVFCNGPU:FSN, SVER NCG UBGRY, CVAR TEBIR NCNEGZRAGF, YI, ng 741 RGURY FG, YI, ogja ZYX OYIQ naq A NPPRFF EQ, SVA, YIV411, znccntr,KKKK, OYQVAT #8 - XU CRAQVAT, Havgf:NZ3, OP2, R2, SZ31, CNTRE, G51, GX5 - Sebz PNQ7 04/13/2014 19:02:40
+QVFCNGPU:FSE, SVER ERFVQRAGVNY, 102 R QNAPRE FG #HAVG 3, YI, ogja CVAR GERR EQ naq TERRAOEVNE QE, SVA, YIR219, znccntr,KKKK, Havgf:NZ5, OP1, OP2, R5, R6, R7, SZ31, CNTRE, G51, GX5, GX8 - Sebz PNQ7 04/11/2014 16:19:08
+QVFCNGPU:UNM, UNMZNG HAXABJA, NZRTN VAQHFGEVRF, YI, ng 29 SEW QE, YI, ogja R PBGGBA FG naq VAQHFGEVNY QE, SVA, YIS500, znccntr,KKKK, BVY NYY QBJA SEW, FGNEGF NG PBGGBA NYY GUR JNL QBJA GUR FGERRG, Havgf:R2, CNTRE - Sebz PNQ7 04/11/2014 07:27:06
+*******************************************************************************
+*******************************************************************************
 * QvfcngpuOCnefre fhopynffrf
 *******************************************************************************
 *******************************************************************************
@@ -3241,10 +3255,6 @@ Znevba Pbhagl, VA (VAZnevbaPbhaglCnefre)
 2265 F ZREVQVNA FG,VAQ F02300 J00001 TNENTR/JBEXV YQ13 ZQ29 GF18 FS06 P1205 P1823 VCNTR ZRQVN V05320
 1702 R TVZORE FG,VAQ F02750 R01700 FGEHPG/PBYYNCFR PFGS GP01 YQ01 GP23 RT23 FD10 P1103 FS06 P1823 ZQ29 RT29 YQ29 OP14 QFG6 BC1 V05219
 J 16GU FG/A NHOHEA FG,FCQ A01600 J05000 NCNEGZAG/JBEXV YQ30 GF18 GF83 FS08 JEXSVE VSQSLV V05193
-***************************************************************************
-Cbegre Pbhagl, VA (VACbegrePbhaglCnefre)
-Fhowrpg:PNQ Cntr\a\a#110089211 - \aS35C2:\aRZF NFG-C2 @ 380 A 400 R,JTG\aPEBFF: ogja NHTHFGVAR QE naq R 400 A\acpqvfc@cbegrepb-cf.betTEC:JS\aCEV:2\apbzzrag: Zrqvpny C
-{PNQ Cntr\a\a#110085268 - \aS35:\aZVFP. NFG RZF @ 4 JVYYVNZFOHET QE,JTG\aPEBFF: ogja QRNQ RAQ naq IVETVAVN PG\aTEC:JS\aCEV:4\apbzzrag: HA} Fhowrpg: PNQ Cntr\a\a#110085607 -\aS35C2:\aRZF NFG-C2 @ 342 A 325 R,JTG\aPEBFF: ogja YBAT CENVEVR EQ naq FGERNZJBBQ QE TEC:JS\aCEV:2\apbzzrag:
 ***************************************************************************
 Jnlar Pbhagl, VA (VAJnlarPbhaglCnefre)
 (911) 05/31 20:20 81 F 14GU FG #209 209: Ynaqznex: ZREYR URAQREFBA NCGF  R ZNVA FG//F N FG  70 L/B SRZNYR.;PBAFP NAQ NYREG. NOYR GB FCRNX. ; QO WHFG FGNEGRQ.
