@@ -256,6 +256,7 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
     "KANKAKEE COUNTY",
     
     // Ford County
+    "FORD COUNTY",
     "ELLIOTT",
     "KEMPTON",
     "LIMESTONE",
@@ -265,24 +266,30 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
     "ROBERTS",
     "ROSSVILLE",
     
+    
     // Grundy County
+    "GRUNDY COUNTY",
     "BRACEVILLE",
     
     // Iroquois County
+    "IROQUOIS COUNTY",
     "ASHKUM",
     "BEAVERVILLE",
     "THAWVILLE",
     
     // Vermillion County
+    "VERMILLION COUNTY",
     "EAST LYNN",
     "HOOPESTON",
     "RANKIN",
     
     // Will County
+    "WILL COUNTY",
     "BRAIDWOOD",
     "CUSTER PARK",
     
     // Newton County, IN
+    "NEWTON COUNTY",
     "BROOK",
     "GOODLAND",
     "KENTLAND",
@@ -290,10 +297,11 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
   };
   
   private static final Properties CITY_STATE_TABLE = buildCodeTable(new String[]{
-      "BROOK",     "IN",
-      "GOODLAND",  "IN",
-      "KENTLAND",  "IN",
-      "MOROCCO",   "IN"
+      "NEWTON COUNTY", "IN",
+      "BROOK",         "IN",
+      "GOODLAND",      "IN",
+      "KENTLAND",      "IN",
+      "MOROCCO",       "IN"
       
   });
 }
