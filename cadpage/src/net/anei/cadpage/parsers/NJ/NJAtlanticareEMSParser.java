@@ -13,7 +13,7 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
   
   public NJAtlanticareEMSParser() {
     super(CITY_LIST, "", "NJ",
-           "CALL CALLEXT+? ADDR XPLACE+? CITY!");
+           "CALL CALLEXT+? ADDR XPLACE+? CITY! TIME!");
   }
   
   @Override
@@ -37,6 +37,7 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
   public Field getField(String name) {
     if (name.equals("CALLEXT")) return new CallExtField();
     if (name.equals("XPLACE")) return new CrossPlaceField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d");
     return super.getField(name);
   }
   
@@ -80,7 +81,8 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
   
   private static final Set<String> EXT_CALL_LIST = new HashSet<String>(Arrays.asList(
       "CHEST PAIN",
-      "HEART PROBLEMS"
+      "HEART PROBLEMS",
+      "SYNCOPE"
   ));
   
   private static String[] CITY_LIST = new String[] {
@@ -90,15 +92,18 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
     "ATLANTIC CITY",
     "BRIGANTINE",
     "BUENA VISTA TWP",
+    "BUENA VISTA TOWNSHIP",
     "COLLINGS LAKES",
     "RICHLAND",
     "BUENA",
     "CORBIN",
     "EGG HARBOR",
     "EGG HARBOR TWP",
+    "EGG HARBOR TOWNSHIP",
     "ESTELL MANOR",
     "FOLSOM",
     "GALLOWAY TWP",
+    "GALLOWAY TOWNSHIP",
     "POMONA",
     "HAMILTON TWP",
     "MAYS LANDING",
@@ -107,6 +112,7 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
     "LONGPORT",
     "MARGATE",
     "MULLICA TWP",
+    "MULLICA TOWNSHIP",
     "ELWOOD-MAGNOLIA",
     "NORTHFIELD",
     "PLEASANTVILLE",
@@ -114,21 +120,25 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
     "SOMERS POINT",
     "VENTNOR",
     "WEYMOUTH TWP",
+    "WEYMOUTH TOWNSHIP",
     
   // Cape May County
     "AVALON",
     "CAPE MAY POINT",
     "CAPE MAY",
     "DENNIS TWP",
+    "DENNIS TOWNSHIP",
     "DENNISVILLE",
     "OCEAN VIEW",
     "SOUTH DENNIS",
     "LOWER TWP",
+    "LOWER TOWNSHIP",
     "DIAMOND BEACH",
     "ERMA",
     "NORTH CAPE MAY",
     "VILLAS",
     "MIDDLE TWP",
+    "MIDDLE TOWNSHIP",
     "CAPE MAY COURT HOUSE",
     "GOSHEN",
     "GREEN CREEK",
@@ -139,6 +149,7 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
     "SEA ISLE",
     "STONE HARBOR",
     "UPPER TWP",
+    "UPPER TOWNSHIP",
     "BEESLEYS POINT",
     "MARMORA",
     "STRATHMERE",
