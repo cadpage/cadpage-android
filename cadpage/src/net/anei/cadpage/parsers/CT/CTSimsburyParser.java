@@ -17,7 +17,7 @@ public class CTSimsburyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "93001,6245";
+    return "93001,6245,simsburyfirepage@gmail.com";
   }
   
   private class MyCallField extends CallField {

@@ -26,6 +26,10 @@ Fraqre: 6245
 11 SBERFG YN GLCR:SN sver nynez 
 77 JRFG FG GLCR:SN Sver Nynez
 
+Pbagnpg: wrss ubyzrf <ebpxrgu6@tznvy.pbz>
+Fraqre: fvzfohelsvercntr@tznvy.pbz
+4 FHZZREJBBQ GLCR:CN FZNYY OEHFU SVER, RKGVATHVFURQ OL CNFFREOL, QRFPEVORQ NG ORTVAAVAT BS FHZZREJBBQ FHOQVIVFVBA, ARNE CNGU NAQ PHYIREG
+
 */
 
 choyvp pynff PGFvzfohelCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -127,6 +131,18 @@ choyvp pynff PGFvzfohelCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SN",
         "PNYY:Sver Nynez",
         "VASB:Sver Nynez");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWrssUbyzrf() {
+
+    qbGrfg("G1",
+        "4 FHZZREJBBQ GLCR:CN FZNYY OEHFU SVER, RKGVATHVFURQ OL CNFFREOL, QRFPEVORQ NG ORTVAAVAT BS FHZZREJBBQ FHOQVIVFVBA, ARNE CNGU NAQ PHYIREG",
+        "NQQE:4 FHZZREJBBQ",
+        "PBQR:CN",
+        "PNYY:Cbyvpr Nffvfg",
+        "VASB:FZNYY OEHFU SVER, RKGVATHVFURQ OL CNFFREOL, QRFPEVORQ NG ORTVAAVAT BS FHZZREJBBQ FHOQVIVFVBA, ARNE CNGU NAQ PHYIREG");
 
   }
   
