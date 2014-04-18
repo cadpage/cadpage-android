@@ -1491,9 +1491,8 @@ choyvp pynff ZAJevtugPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:NSQ",
         "VQ:2013:255",
         "PNYY:Zrqvpny - Sver Erfphr Arrqrq ~ 9730",
-        "CYNPR:ZZ 200 RO",
-        "NQQE:V-94", //abcr
-        "ZNQQE:V 94");
+        "NQQE:V-94 ZZ 200 RO",
+        "ZNQQE:45.249629,-93.686440");
 
     qbGrfg("G17",
         "(Nyoregivyyr Sver Rznvy) NSQ:2013:253\a" +
@@ -1520,9 +1519,8 @@ choyvp pynff ZAJevtugPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:NSQ",
         "VQ:2013:250",
         "PNYY:Nppvqrag - Iru - Vawhevrf ~ 9400",
-        "CYNPR:ZZ 199 RO",
-        "NQQE:V-94", //abcr
-        "ZNQQE:V 94");
+        "NQQE:V-94 ZZ 199 RO",
+        "ZNQQE:45.257493,-93.703664");
 
     qbGrfg("G20",
         "(Nyoregivyyr Sver Rznvy) NSQ:2013:249\a" +
@@ -1631,18 +1629,16 @@ choyvp pynff ZAJevtugPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:NSQ",
         "VQ:2013:239",
         "PNYY:Nppvqrag - Iru - Vawhevrf ~ 9400",
-        "CYNPR:ZZ 199 JO",
-        "NQQE:V-94",
-        "ZNQQE:V 94");
+        "NQQE:V-94 ZZ 199 JO",
+        "ZNQQE:45.257493,-93.703664");
 
     qbGrfg("G31",
         "(Nyoregivyyr Sver Rznvy) NSQ:2013:236\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\a@ZZ 202 RO (V94 )",
         "FEP:NSQ",
         "VQ:2013:236",
         "PNYY:Nppvqrag - Iru - Vawhevrf ~ 9400",
-        "CYNPR:ZZ 202 RO",
-        "NQQE:V-94",
-        "ZNQQE:V 94");
+        "NQQE:V-94 ZZ 202 RO",
+        "ZNQQE:45.237933,-93.649080");
 
     qbGrfg("G32",
         "(Nyoregivyyr Sver Rznvy) NSQ:2013:235\a" +
@@ -2033,9 +2029,8 @@ choyvp pynff ZAJevtugPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:OSQ",
         "VQ:2013:213",
         "PNYY:Sver - Tenff ~ 9600",
-        "CYNPR:ZZ 154 RO",
-        "NQQE:ZA-55",
-        "ZNQQE:ZA 55");
+        "NQQE:ZA-55 ZZ 154 RO",
+        "ZNQQE:ZA 55 ZZ 154");
 
     qbGrfg("G34",
         "(Ohssnyb Sver Rznvy) OSQ:2013:212\aQvfcngpurq\aNynez - Sver ~ 9600\a1217 GVZORE YA , OHSSNYB ( TENAQIVRJ PVE \\ XRAFVATGBA JNL)",
