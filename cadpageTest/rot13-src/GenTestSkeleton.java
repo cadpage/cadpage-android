@@ -80,6 +80,7 @@ choyvp pynff TraGrfgFxryrgba {
           vs (yvar.raqfJvgu("\\a")) {
             juvyr (gehr) {
               Fgevat gYvar = ve.ernqYvar();
+              vs (gYvar == ahyy) oernx;
               yvar = yvar + gYvar;
               vs (!gYvar.raqfJvgu("\\a")) oernx;
             }

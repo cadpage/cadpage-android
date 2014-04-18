@@ -15,7 +15,7 @@ public class MIBayCountyAParser extends SmartAddressParser {
   
   private static final Pattern RUN_REPORT_ID_PTN = Pattern.compile("ID:(.*)\n");
   private static final Pattern RUN_REPORT_UNIT_PTN = Pattern.compile("UNIT:(.*)\n");
-  private static final Pattern MASTER = Pattern.compile("([^,]+?), (.*?)(1?\\d/\\d\\d?.\\d{4} \\d\\d?:\\d\\d?:\\d\\d [AP]M)");
+  private static final Pattern MASTER = Pattern.compile("([^,]+?)(?:, (.*?))?(?: +(?:CALL|ALL|LL|L)\\.+|\\.*)? ?(1?\\d/\\d\\d?.\\d{4} \\d\\d?:\\d\\d?:\\d\\d [AP]M)");
   private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa");
   
   public MIBayCountyAParser() {
@@ -48,25 +48,46 @@ public class MIBayCountyAParser extends SmartAddressParser {
     
     String addr = match.group(1).trim();
     addr = addr.replace('@', '&');
-    int pt = addr.indexOf("  ");
-    if (pt >= 0) {
-      data.strCall = addr.substring(0,pt).trim();
-      parseAddress(addr.substring(pt+2).trim(), data);
-    } else {
-      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, addr, data);
-    }
-    
-    String cityInfo = match.group(2).trim();
-    pt = cityInfo.indexOf("  ");
-    if (pt >= 0) {
-      data.strCity = cityInfo.substring(0,pt).trim();
-      data.strSupp = cityInfo.substring(pt+2).trim();
-    } else {
-      parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, cityInfo, data);
-      data.strSupp = getLeft();
-    }
-    
+    String cityInfo = match.group(2);
     setDateTime(DATE_TIME_FMT, match.group(3), data);
+    
+    if (cityInfo != null) {
+      int pt = addr.indexOf("  ");
+      if (pt >= 0) {
+        data.strCall = addr.substring(0,pt).trim();
+        parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT | FLAG_NO_CITY  | FLAG_ANCHOR_END, addr.substring(pt+2).trim(), data);
+      } else {
+        parseAddress(StartType.START_CALL, FLAG_RECHECK_APT | FLAG_NO_CITY | FLAG_ANCHOR_END, addr, data);
+      }
+      
+      pt = cityInfo.indexOf("  ");
+      if (pt >= 0) {
+        data.strCity = cityInfo.substring(0,pt).trim();
+        data.strSupp = cityInfo.substring(pt+2).trim();
+      } else {
+        parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, cityInfo, data);
+        data.strSupp = getLeft();
+      }
+    }
+    
+    // When there is no comma delimited city :(
+    else {
+      Parser p = new Parser(addr);
+      String p1 = p.get("  ");
+      String p2 = p.get("  ");
+      String p3 = p.get();
+      if (p3.length() > 0) {
+        data.strCall = p1;
+        parseAddress(p2, data);
+        data.strSupp =  p3;
+      } else if (p2.length() > 0) {
+        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_RECHECK_APT | FLAG_ANCHOR_END, p1, data);
+        data.strSupp = p2;
+      } else {
+        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_RECHECK_APT, p1, data);
+        data.strSupp = getLeft();
+      }
+    }
     
     return true;
   }
@@ -110,6 +131,7 @@ public class MIBayCountyAParser extends SmartAddressParser {
   
   private static final CodeSet CALL_SET = new CodeSet(
       "CITIZEN",
+      "CO ONLY",
       "COMFIRE",
       "FIRE ALARM",
       "MED",
@@ -117,6 +139,7 @@ public class MIBayCountyAParser extends SmartAddressParser {
       "SMOKE",
       "STRUCTURE",
       "SUICIDE",
-      "TEST"
+      "TEST",
+      "WIRE"
   );
 }
