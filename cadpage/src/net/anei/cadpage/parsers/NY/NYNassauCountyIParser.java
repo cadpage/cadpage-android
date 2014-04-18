@@ -13,6 +13,7 @@ public class NYNassauCountyIParser extends FieldProgramParser {
   public NYNassauCountyIParser() {
     super("NASSAU COUNTY", "NY",
           "TIMEDATE CALL CODE_MAP ID_ADDR! CS:X? MAP? ADTNL:INFO");
+          removeWords("COVE");
           setupMultiWordStreets(
               "GLEN COVE",
               "MOTTS COVE"); 

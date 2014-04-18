@@ -1,3 +1,4 @@
+
 package net.anei.cadpage.parsers;
 
 import java.util.ArrayList;
@@ -357,7 +358,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "FREEWAY",
         "HT", "HTS", "HEIGHTS",
         "BND", "BEND",
-        "CV",
+        "CV", "COVE",
         "THOROUGHFARE",
         "KNOLL");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
@@ -369,7 +370,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "RUN", "LANE", "PARK", "POINT", "RIDGE", "CREEK", "MILL", "BRIDGE", "HILLS",
         "HILL", "TRACE", "STREET", "MILE", "BAY", "NOTCH", "END", "LOOP", "ESTATES",
         "SQUARE", "WALK", "CIRCLE", "GROVE", "HT", "HTS", "HEIGHTS", "BEND", "VALLEY",
-        "WAY", "GATEWAY", "KNOLL");
+        "WAY", "GATEWAY", "KNOLL", "COVE");
     
     
     setupDictionary(ID_NUMBERED_ROAD_SFX, 
@@ -469,6 +470,14 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   protected void addInvalidWords(String ... words) {
     setupDictionary(ID_NOT_ADDRESS, words);
+  }
+  
+  /**
+   * Remove words from dictionary that are causing confusion
+   * @param words words to be removed
+   */
+  protected void removeWords(String ... words) {
+    for (String word : words) dictionary.remove(word);
   }
   
   private String[] getKeywords(Properties table) {
@@ -1839,7 +1848,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // looks like it might consist of a merged word and house number
     if (isFlagSet(FLAG_START_FLD_NO_DELIM) && MIXED_WORD_PTN.matcher(tokens[ndx-1]).matches()) return false;
     
-    // Otherwse we are good to go
+    // Otherwise we are good to go
     return true;
   }
   private static final Pattern MIXED_WORD_PTN = Pattern.compile("[A-Z]+\\d+", Pattern.CASE_INSENSITIVE);

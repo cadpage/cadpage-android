@@ -4201,7 +4201,8 @@ choyvp pynff GKUhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:27252",
         "NQQE:10266 CE3738",
         "ZNQQE:10266 CIG EBNQ 3738",
-        "VASB:QHPX PBIR / 63LBS PURFG CNVA...fqo");
+        "K:QHPX PBIR",
+        "VASB:63LBS PURFG CNVA...fqo");
 
     qbGrfg("G5",
         "(- cneg 1 bs 1) EP:Eha# 27252/Sver Freivpr/1-Rzretrapl Yvsr Guerng/Purfg Cnva/10266 CEVINGR EBNQ 3738//VA QHPX PBIR/JVYYF CBVAG/<Haxabja>/////63LBS PURFG CNVA NAQ UHEGVAT NYY BIRE/",
@@ -4210,7 +4211,7 @@ choyvp pynff GKUhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Purfg Cnva",
         "NQQE:10266 CEVINGR EBNQ 3738",
         "ZNQQE:10266 CIG EBNQ 3738",
-        "CYNPR:VA QHPX PBIR",
+        "K:VA QHPX PBIR",
         "PVGL:JVYYF CBVAG",
         "VASB:63LBS PURFG CNVA NAQ UHEGVAT NYY BIRE");
 

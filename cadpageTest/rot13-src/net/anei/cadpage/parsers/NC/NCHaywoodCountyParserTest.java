@@ -239,9 +239,8 @@ choyvp pynff APUnljbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G13",
         "WBARF PBIR EQ / CNENTBA CXJL PYLQR 14:52:11 RZRETRAPL GENSSVP NPPVQRAG",
-        "NQQE:PBIR EQ & CNENTBA CXJL",  // Tbbtyr pnyyf guvf Wbarf Pbir Eq
+        "NQQE:WBARF PBIR EQ & CNENTBA CXJL",
         "PVGL:PYLQR",
-        "CYNPR:WBARF",
         "GVZR:14:52:11",
         "PNYY:RZRETRAPL GENSSVP NPPVQRAG");
 
