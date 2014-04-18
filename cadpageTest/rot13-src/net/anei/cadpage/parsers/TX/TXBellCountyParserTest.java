@@ -19,6 +19,10 @@ Pbagnpg: Qnivq Ohpunana <ohpunana.wnzrf.qnivq@tznvy.pbz>
 Fraqre: 93001010
 C3 YBP: 5990 FGNAYRL EQ ORYY GLCR PBQR: SNYYF FhoGlcr: AQ PNYYRE ANZR: IREVMBA JVERYRFF PYEAHZ: 3176501089 GVZR: 18:14:19 Pbzzragf: 3176501089 -097.528317 +031.053661 ZBOVYR UBZR AB YBG BSS BS QBTEVQTR EBNQ SRYY QBJA FGNVEF/UHEG XARR Ahzore bs cngvragf: 1 Ntr: 80 Lrnef Traqre: Znyr Pbafpvbhf: Lrf Oernguvat: Lrf CebDN puvrs pbzcynvag pbqr: 17 Erfcbaqre fpevcg: 80 lrne byq, Znyr, Pbafpvbhf, Oernguvat. Snyyf. Pnyyre Fgngrzrag: SRYY QBJA FGNVEF/UHEG XARR. CebDN qvfcngpu pbqr: 17N01 Qvfcngpu yriry fhssvk: T Erfcbafr grkg: Nycun Erfcbaqre fpevcg: ABG QNATREBHF obql nern (Ba gur tebhaq be sybbe). 1.Guvf unccrarq abj (yrff guna 6uef ntb). 2.Gur snyy jnf yrff guna 10sg/3z (yrff guna 1 fgbel). 3.Gur snyy jnf nppvqragny. 4.Gurer vf ab oyrrqvat abj. 5.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 6.Gur vawhel vf gb n ABG QNATREBHF nern. 7.Ur vf fgvyy ba gur sybbe (tebhaq). SRYY QBJA 1 FGNVE
 
+Pbagnpg: Puevf Cevpr <pcevpr4508@ubg.ee.pbz>
+Fraqre: 28863700
+C1 YBP: 5531 QBTEVQTR EQ ORYY GLCR PBQR: FGEHPG FhoGlcr: ERF PNYYRE ANZR: NG&G ZBOVYVGL PYEAHZ: 2546247766 GVZR: 13:25:14 Pbzzragf:  2546247766 -097.553594 +031.053886 pyye nqi nccrnef genvyre vf ba sver
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Gebl Ibyhagrre Sver Qrcnegzrag
 Ybpngvba: Gebl, GK, Havgrq Fgngrf
@@ -391,6 +395,21 @@ choyvp pynff GKOryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "TCF:+31.053661,-97.528317",
         "VASB:ZBOVYR UBZR AB YBG BSS BS QBTEVQTR EBNQ SRYY QBJA FGNVEF/UHEG XARR Ahzore bs cngvragf: 1 Ntr: 80 Lrnef Traqre: Znyr Pbafpvbhf: Lrf Oernguvat: Lrf CebDN puvrs pbzcynvag pbqr: 17 Erfcbaqre fpevcg: 80 lrne byq, Znyr, Pbafpvbhf, Oernguvat. Snyyf. Pnyyre Fgngrzrag: SRYY QBJA FGNVEF/UHEG XARR. CebDN qvfcngpu pbqr: 17N01 Qvfcngpu yriry fhssvk: T Erfcbafr grkg: Nycun Erfcbaqre fpevcg: ABG QNATREBHF obql nern (Ba gur tebhaq be sybbe). 1.Guvf unccrarq abj (yrff guna 6uef ntb). 2.Gur snyy jnf yrff guna 10sg/3z (yrff guna 1 fgbel). 3.Gur snyy jnf nppvqragny. 4.Gurer vf ab oyrrqvat abj. 5.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 6.Gur vawhel vf gb n ABG QNATREBHF nern. 7.Ur vf fgvyy ba gur sybbe (tebhaq). SRYY QBJA 1 FGNVE");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPuevfCevpr() {
+
+    qbGrfg("G1",
+        "C1 YBP: 5531 QBTEVQTR EQ ORYY GLCR PBQR: FGEHPG FhoGlcr: ERF PNYYRE ANZR: NG&G ZBOVYVGL PYEAHZ: 2546247766 GVZR: 13:25:14 Pbzzragf:  2546247766 -097.553594 +031.053886 pyye nqi nccrnef genvyre vf ba sver",
+        "CEV:1",
+        "NQQE:5531 QBTEVQTR EQ",
+        "PNYY:FGEHPG - ERF",
+        "CUBAR:2546247766",
+        "GVZR:13:25:14",
+        "TCF:+31.053886,-97.553594",
+        "VASB:pyye nqi nccrnef genvyre vf ba sver");
+  
   }
 
   @Grfg

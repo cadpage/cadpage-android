@@ -18,7 +18,7 @@ public class TXBellCountyParser extends FieldProgramParser {
   }
   
   public String getFilter() {
-    return "930010";
+    return "930010,28863700";
   }
   
   @Override
