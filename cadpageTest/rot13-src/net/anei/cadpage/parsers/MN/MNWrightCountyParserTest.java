@@ -2030,7 +2030,7 @@ choyvp pynff ZAJevtugPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2013:213",
         "PNYY:Sver - Tenff ~ 9600",
         "NQQE:ZA-55 ZZ 154 RO",
-        "ZNQQE:ZA 55 ZZ 154");
+        "ZNQQE:45.193436,-93.894274");
 
     qbGrfg("G34",
         "(Ohssnyb Sver Rznvy) OSQ:2013:212\aQvfcngpurq\aNynez - Sver ~ 9600\a1217 GVZORE YA , OHSSNYB ( TENAQIVRJ PVE \\ XRAFVATGBA JNL)",
