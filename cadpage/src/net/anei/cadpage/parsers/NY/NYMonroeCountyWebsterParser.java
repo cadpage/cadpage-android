@@ -14,7 +14,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA7BaseParser;
  */
 public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
   
-  private static final Pattern MARKER = Pattern.compile("^([A-Z]{4}) +B:([ 0-9]\\d{2}[A-Z0-9]?)? +(\\d[A-Z]?) +");
+  private static final Pattern MARKER = Pattern.compile("^([A-Z]{4}) +B:([ 0-9A-Z]{4})? +(\\d[A-Z]?) +");
   
   public NYMonroeCountyWebsterParser() {
     super(CITY_CODES, "MONROE COUNTY", "NY",
@@ -50,15 +50,23 @@ public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
     addr = PK_PATTERN.matcher(addr).replaceAll("PARK");
     addr = SPENCERPRT_PTN.matcher(addr).replaceAll("SPENCERPORT");
     addr = OGDENPARMATL_PTN.matcher(addr).replaceAll("OGDEN PARMA TOWN LINE");
+    addr = RI_PTN.matcher(addr).replaceAll("RISE");
     return addr;
   }
   private static final Pattern PK_PATTERN = Pattern.compile("\\bPK\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern SPENCERPRT_PTN = Pattern.compile("\\bSPENCERPRT\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern OGDENPARMATL_PTN = Pattern.compile("\\bOGDEN PARMA T ?L\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern RI_PTN = Pattern.compile("\\bRI\\b", Pattern.CASE_INSENSITIVE);
   
   @Override
   public String getProgram() {
     return "SRC BOX PRI " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    return super.getField(name);
   }
   
   private class MyCallField extends CallField {
@@ -77,12 +85,6 @@ public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
     public String getFieldNames() {
       return "CODE CALL";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    return super.getField(name);
   }
   
   private static final CodeTable CALL_CODES = new StandardCodeTable();
@@ -108,8 +110,8 @@ public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
       "GRE", "GREECE",
       "HAM", "HAMLIN",
       "HEN", "HENRIETTA",
-      "HIL", "HILTON",
       "HFL", "HONEOYE FALLS",
+      "HIL", "HILTON",
       "HOL", "HOLEY",
       "HON", "HONEOYE FALLS",
       "IRO", "IRONDEQUOIT",
@@ -129,6 +131,7 @@ public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
       "PAL", "PALMYRA",
       "PAR", "PARMA",
       "PEN", "PENFIELD",
+      "PE",  "PERINTON",
       "PER", "PERINTON",
       "PIT", "PITTSFORD",
       "PIV", "PITTSFORD",
@@ -148,8 +151,9 @@ public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
       "WEB", "WEBSTER",
       "WHE", "WHEATLAND",
       "WLM", "WILLIAMSON",
-      "VIC", "VICTOR"
       
+      // Ontario County
+      "ION", "IONIA"
   });
   
 }
