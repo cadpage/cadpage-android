@@ -36,7 +36,6 @@ public class NCCherokeeParser extends DispatchB2Parser {
     "BIGWITCH",
     "BIG COVE",
     "BIRDTOWN",
-    "BRYSON CITY",
     "CHEROKEE",
     "PAINTTOWN",
     "PAINT TOWN",
@@ -46,7 +45,14 @@ public class NCCherokeeParser extends DispatchB2Parser {
   };
   
   private static final Properties PLACE_TABLE = buildCodeTable(new String[]{
-      "BIG COVE",      "CHEROKEE"
+      "BIG COVE",      "CHEROKEE",
+      "YELLOWHILL",    "CHEROKEE",
+      "BIRDTOWN",      "CHEROKEE",
+      "PAINT TOWN",    "WITTIER",
+      "PAINTTOWN",     "WITTIER",
+      "WOLFETOWN",     "CHEROKEE"
+      
+      
   });
   
 }
