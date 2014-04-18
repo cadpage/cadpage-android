@@ -8,7 +8,7 @@ public class MICalhounCountyBParser extends DispatchOSSIParser {
   
   public MICalhounCountyBParser() {
     super(MICalhounCountyParser.CITY_TABLE, "CALHOUN COUNTY", "MI",
-          "FYI? DATETIME CALL ADDR! CITY INFO");
+          "FYI? DATETIME CALL ADDR! CITY INFO+");
   }
   
   @Override
