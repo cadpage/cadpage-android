@@ -7,12 +7,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/**
- * Louisville, KY
- */
 public class DispatchA27Parser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("Notification from CIS Active *911:");
+  private static final Pattern MARKER = Pattern.compile("Notification from CIS [A-Za-z0-9 ]+:");
   private static final Pattern DELIM_PTN = Pattern.compile("\n{2}");
   
   public DispatchA27Parser(String defCity, String defState) {
@@ -34,7 +31,7 @@ public class DispatchA27Parser extends FieldProgramParser {
     String[] fields = DELIM_PTN.split(body);
     
     // If the body does not have the Time Completed label, process message
-    if(!body.contains("Time completed:")) {
+    if(!body.contains("Time completed:") && !body.contains("Incident Time:")) {
       return super.parseFields(fields, data);
     }
     // Otherwise we are a report
@@ -60,10 +57,19 @@ public class DispatchA27Parser extends FieldProgramParser {
       data.strPlace = body;                                               // Put remaining in Place.
       return true;
     }
-    
   }
   
-  private static final Pattern PTN_FULL_ADDR = Pattern.compile("([^,]*?, [^,]*?),(?: \\d{5})?(?:, *([-+]?\\d+\\.\\d{4,}, *[-+]?\\d+\\.\\d{4,}))?");
+  @Override
+  public Field getField(String name) {
+      if (name.equals("ADDRCITY")) return new BaseAddressField();
+      if (name.equals("DUP")) return new DuplField();
+      if (name.equals("SRC")) return new BaseSrcField();
+      if (name.equals("DATETIME")) return new DateTimeField(new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa"));
+      if (name.equals("UNIT")) return new BaseUnitField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*?, [^,]*?),(?: \\d{5})?(?:, *([-+]?\\d+\\.\\d{4,}, *[-+]?\\d+\\.\\d{4,}))?");
   protected class BaseAddressField extends AddressCityField {
     
     @Override 
@@ -105,6 +111,8 @@ public class DispatchA27Parser extends FieldProgramParser {
     
     @Override 
     public void parse(String field, Data data) {
+      
+      field = stripFieldStart(field, getRelativeField(-1)); 
 
       int delim = field.indexOf(" - ");
       if(delim >= 0) {
@@ -151,17 +159,5 @@ public class DispatchA27Parser extends FieldProgramParser {
       }
     }
   }
-  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]+\\d+|\\d{8}");
-  
-  
-  @Override
-  public Field getField(String name) {
-      if (name.equals("ADDRCITY")) return new BaseAddressField();
-      if (name.equals("DUP")) return new DuplField();
-      if (name.equals("SRC")) return new BaseSrcField();
-      if (name.equals("DATETIME")) return new DateTimeField(new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa"));
-      if (name.equals("UNIT")) return new BaseUnitField();
-    return super.getField(name);
-  }
-
+  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]+\\d+|[A-Z]{3,4}|\\d{8}");
 }
