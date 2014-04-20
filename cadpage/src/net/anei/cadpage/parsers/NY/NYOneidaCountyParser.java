@@ -15,12 +15,12 @@ import net.anei.cadpage.parsers.dispatch.DispatchA13Parser;
 
 public class NYOneidaCountyParser extends DispatchA13Parser {
   
-  private static final Pattern IAR_PTN = Pattern.compile(">[- A-Z0-9]+>.*", Pattern.CASE_INSENSITIVE);
-  private static final Pattern MARKER = Pattern.compile("(?:(.*?)([^A-Z0-9]{1,3}))?\\bDispatched([^A-Z0-9]{1,3})(?=[A-Z0-9])");
+  private static final Pattern REMSEN_FIRE_PTN1 = Pattern.compile("\\d{4} >.*");
+  private static final Pattern MARKER = Pattern.compile("(?:(.*?)([^A-Z0-9]{1,3}))?\\b(Dispatched|Acknowledge|Enroute|En Route Hosp|On +Scene)([^A-Z0-9]{1,3})(?=[A-Z0-9])");
   private static final Pattern CODE_PTN = Pattern.compile("^(\\d\\d[A-Z]\\d\\d) ?- ?");
-  private static final Pattern OUTSIDE = Pattern.compile("\\bOUTSIDE\\b");
   private static final Pattern KNLS = Pattern.compile("\\bKNLS\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern NEAR_PTN = Pattern.compile("[/;]? *(Near:.*)");
+  private static final Pattern REAL_APT_PTN = Pattern.compile("(?:FLR|BLDG).*");
   
   public NYOneidaCountyParser() {
     super(CITY_LIST, "ONEIDA COUNTY", "NY");
@@ -36,22 +36,36 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     
     data.strSource = subject;
     
-    // As if things weren't bad enough, we also have to deal with IAR alterations :(
-    Matcher match = IAR_PTN.matcher(body);
-    if (match.matches()) body = "Dispatched" + body;
+    body = stripFieldEnd(body, "#[0-0]");
+    
+    // Check for truncated city at end of line
+    int pt = body.lastIndexOf(',');
+    String newCity = body.substring(pt+1).trim();
+    newCity = expandCity(newCity);
+    if (newCity != null) body = body.substring(0,pt+1) + ' ' + newCity;
+    
+    // As if things weren't bad enough, we also have to deal with IAR alterations
+    // Fortunately this all seems to be limited to one agency for now
+    if (body.startsWith(">")) body = "Dispatched " + body;
+    else if (subject.equals("Remsen Fire")) {
+      if (REMSEN_FIRE_PTN1.matcher(body).matches()) body = ':' + body;
+      else if (body.startsWith("d >")) body = "Dispatche" + body;
+      else if (body.contains(" >")) body = "Dispatched >" + body;
+    }
 
     // Format always has some field delimiters, but they
     // seem to change with the phase of the moon. There is always a "Dispatched"
-    // field followed by a delimiter, followed (hopefully) by a alphnumeric character.
+    // field followed by a delimiter, followed (hopefully) by a alphanumeric character.
     // so we use this pattern to find and identify the delimiter
-    match = MARKER.matcher(body);
+    Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
     
     // The delimiter preceding and following the Dispatched term should be the same
     // If they are not, see if we can reduce them to a common delimiter by removing
     // whitespace.  If we cannot do that, return failure
     String delimA = match.group(2);
-    String delim = match.group(3);
+    String status = match.group(3);
+    String delim = match.group(4);
     if (delimA != null && !delimA.equals(delim)) {
       delimA = delimA.trim();
       delim = delim.trim();
@@ -63,7 +77,7 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     // portion
     String[] flds;
     if (!delim.equals(" ")) {
-      int maxFlds = body.startsWith("Dispatched") ? 3 : 4;
+      int maxFlds = body.startsWith(status) ? 3 : 4;
       flds = body.split(delim, maxFlds);
     }
 
@@ -74,11 +88,11 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
       List<String> fldList = new ArrayList<String>();
       String prefix = match.group(1);
       if (prefix != null) fldList.add(prefix.trim());
-      fldList.add("Dispatched");
+      fldList.add(status);
       
       String sCall, sAddr;
       body = body.substring(match.end()).trim();
-      int pt = body.indexOf('@');
+      pt = body.indexOf('@');
       if (pt >= 0) {
         sCall = body.substring(0,pt).trim();
         sAddr = body.substring(pt).trim();
@@ -122,13 +136,21 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
       data.strCross = data.strCross.substring(0,match.start()).trim();
       data.strSupp = match.group(1);
     }
+    
+    // See if the apt field looks more like a place name
+    if (data.strPlace.length() == 0 && data.strApt.length() >= 8 &&
+        !REAL_APT_PTN.matcher(data.strApt).matches()) {
+      data.strPlace = data.strApt;
+      data.strApt = "";
+    }
 
     
     // Check for and remove OUTSIDE from city
-    match = OUTSIDE.matcher(data.strCity);
-    if (match.find()) data.strCity = data.strCity.substring(0,match.start()).trim();
-    data.strCity = expandCity(data.strCity);
-    if (data.strCity.endsWith(" VILLAGE")) data.strCity = data.strCity.substring(0,data.strCity.length()-8).trim();
+    data.strCity = stripFieldEnd(data.strCity, " NY");
+    data.strCity = stripFieldEnd(data.strCity, " VILLAGE");
+    data.strCity = stripFieldEnd(data.strCity, " VILLA");
+    data.strCity = stripFieldEnd(data.strCity, " OUTSIDE");
+    data.strCity = stripFieldEnd(data.strCity, " INSIDE");
     if (data.strCity.equals("ONEIDA COUNTY")) data.strCity = "";
     return true;
   }
@@ -144,12 +166,13 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
    * @return restored city
    */
   private String expandCity(String city) {
-    if (city.length() == 0) return city;
+    if (city.length() == 0) return null;
     city = city.toUpperCase();
     SortedSet<String> set = CITY_SET.tailSet(city);
-    if (set.isEmpty()) return city;
+    if (set.isEmpty()) return null;
     String result = set.first();
-    if (!result.startsWith(city)) return city;
+    if (!result.startsWith(city)) return null;
+    if (result.length() == city.length()) return null;
     return result;
   }
   
@@ -159,6 +182,7 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     "ANNSVILLE",
     "AUGUSTA",
     "AVA",
+    "BARNEVELD",
     "BARNEVELD VILLAGE",
     "BOONVILLE",
     "BOONVILLE VILLAGE",
@@ -168,47 +192,136 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     "CAMDEN",
     "CAMDEN VILLAGE",
     "CLARK MILLS",
+    "CLAYVILLE",
     "CLAYVILLE VILLAGE",
+    "CLINTON",
     "CLINTON VILLAGE",
     "DEERFIELD",
     "FLORENCE",
     "FLOYD",
     "FORESTPORT",
+    "HOLLAND PATENT",
+    "HOLLAND PATENT VILLA",
     "HOLLAND PATENT VILLAGE",
     "KIRKLAND",
     "LEE",
     "MARCY",
     "MARSHALL",
+    "MCCONNELLSVILLE",
     "MCCONNELLSVILLE VILLAGE",
     "N BROOKFIELD",
-    "NEW HARTFORD VILLAGE",
     "NEW HARTFORD",
+    "NEW HARTFORD VILLAGE",
+    "NEW YORK MILLS",
     "NEW YORK MILLS VILLAGE",
+    "ONEIDA CASTLE",
     "ONEIDA CASTLE VILLAGE",
+    "ORISKANY",
     "ORISKANY VILLAGE",
+    "ORISKANY FALLS",
     "ORISKANY FALLS VILLAGE",
     "PARIS",
+    "PROSPECT",
     "PROSPECT VILLAGE",
-    "REMSEN VILLAGE",
     "REMSEN",
+    "REMSEN VILLAGE",
     "ROME",
+    "ROME INSIDE",
+    "ROME OUTSIDE",
     "SANGERFIELD",
     "SHERRILL",
+    "SHERRILL CITY",
     "STEUBEN",
+    "SYLVAN BEACH",
     "SYLVAN BEACH VILLAGE",
     "TRENTON",
     "UTICA",
-    "VERNON VILLAGE",
     "VERNON",
+    "VERNON VILLAGE",
     "VERONA",
     "VIENNA",
+    "WATERVILLE",
     "WATERVILLE VILLAGE",
     "WESTERN",
     "WESTMORELAND",
+    "WHITESBORO",
     "WHITESBORO VILLAGE",
     "WHITESTOWN",
+    "YORKVILLE",
     "YORKVILLE VILLAGE",
     
-    "ONEIDA COUNTY"
+    "ANNSVILLE NY",
+    "AUGUSTA NY",
+    "AVA NY",
+    "BARNEVELD NY",
+    "BARNEVELD VILLAGE NY",
+    "BOONVILLE NY",
+    "BOONVILLE VILLAGE NY",
+    "BRIDGEWATER NY",
+    "BRIDGEWATER VILLAGE NY",
+    "BROOKFIELD NY",
+    "CAMDEN NY",
+    "CAMDEN VILLAGE NY",
+    "CLARK MILLS NY",
+    "CLAYVILLE NY",
+    "CLAYVILLE VILLAGE NY",
+    "CLINTON NY",
+    "CLINTON VILLAGE NY",
+    "DEERFIELD NY",
+    "FLORENCE NY",
+    "FLOYD NY",
+    "FORESTPORT NY",
+    "HOLLAND PATENT NY",
+    "HOLLAND PATENT VILLA NY",
+    "HOLLAND PATENT VILLAGE NY",
+    "KIRKLAND NY",
+    "LEE NY",
+    "MARCY NY",
+    "MARSHALL NY",
+    "MCCONNELLSVILLE NY",
+    "MCCONNELLSVILLE VILLAGE NY",
+    "N BROOKFIELD NY",
+    "NEW HARTFORD NY",
+    "NEW HARTFORD VILLAGE NY",
+    "NEW YORK MILLS NY",
+    "NEW YORK MILLS VILLAGE NY",
+    "ONEIDA CASTLE NY",
+    "ONEIDA CASTLE VILLAGE NY",
+    "ORISKANY NY",
+    "ORISKANY VILLAGE NY",
+    "ORISKANY FALLS NY",
+    "ORISKANY FALLS VILLAGE NY",
+    "PARIS NY",
+    "PROSPECT NY",
+    "PROSPECT VILLAGE NY",
+    "REMSEN NY",
+    "REMSEN VILLAGE NY",
+    "ROME NY",
+    "ROME INSIDE NY",
+    "ROME OUTSIDE NY",
+    "SANGERFIELD NY",
+    "SHERRILL NY",
+    "SHERRILL CITY NY",
+    "STEUBEN NY",
+    "SYLVAN BEACH NY",
+    "SYLVAN BEACH VILLAGE NY",
+    "TRENTON NY",
+    "UTICA NY",
+    "VERNON NY",
+    "VERNON VILLAGE NY",
+    "VERONA NY",
+    "VIENNA NY",
+    "WATERVILLE NY",
+    "WATERVILLE VILLAGE NY",
+    "WESTERN NY",
+    "WESTMORELAND NY",
+    "WHITESBORO NY",
+    "WHITESBORO VILLAGE NY",
+    "WHITESTOWN NY",
+    "YORKVILLE NY",
+    "YORKVILLE VILLAGE NY",
+    
+    // Madison County
+    "CANASTOTA VILLAGE"
   };
 }

@@ -69,7 +69,8 @@ public class NYMadisonCountyBParser extends DispatchA13Parser {
     "STOCKBRIDGE",
     "SULLIVAN",
     "WAMPSVILLE",
-    "WAMPSVILLE VIL"
+    "WAMPSVILLE VIL",
+    "WAMPSVILLE VILLAGE"
   };
 }
 	

@@ -144,6 +144,14 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
     return addr.trim();
   }
   private static final Pattern MAP_CLEAN_PTN = Pattern.compile("\\bV[AI]CINITY\\b");
+
+  
+  @Override
+  protected boolean isCity(String city) {
+    if (city.startsWith("OGDENSBURG CENTENNIAL TERRACE")) return true;
+    return (checkAddress(city) == 0);
+  }
+  
   
   private static final String[] CITY_LIST = new String[]{
     "BRASHER",

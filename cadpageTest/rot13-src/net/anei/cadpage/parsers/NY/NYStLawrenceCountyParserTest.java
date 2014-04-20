@@ -778,8 +778,7 @@ choyvp pynff ALFgYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2012:0000007780",
         "PNYY:Sver-Tenff",
         "NQQE:OEBHFR EQ",
-        "ZNQQE:OEBHFR EQ & 1/4 ZV & EG 420",
-        "K:1/4 ZV BSS EG 420");
+        "CYNPR:1/4 ZV BSS EG 420");
 
     qbGrfg("G28",
         "(911 QVFCNGPU) 911P:2012:0000007776\aQvfcngpurq\aSver\a11 UBCFBA EQ, OENFURE",
@@ -1158,9 +1157,7 @@ choyvp pynff ALFgYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2013:30",
         "PNYY:Sver",
         "NQQE:PNYVSEBAVN EQ",
-        "ZNQQE:PNYVSEBAVN EQ & G",
-        "PVGL:ZNPBZO",
-        "K:G");
+        "CYNPR:G/ZNPBZO");
 
     qbGrfg("G6",
         "(911 QVFCNGPU) TBH SQ:2013:29\aQvfcngpurq\aSver\a2244 PNYVSBEAVN EQ #AL, ZNPBZO",

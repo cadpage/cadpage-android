@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 public class INJasperCountyParser extends DispatchA27Parser {
   
   public INJasperCountyParser() {
-    super("JASPER COUNTY", "IN");
+    super("JASPER COUNTY", "IN", "[A-Z]+\\d+|[A-Z]{1,3}FD(?:TEST)?");
   }
   
   @Override

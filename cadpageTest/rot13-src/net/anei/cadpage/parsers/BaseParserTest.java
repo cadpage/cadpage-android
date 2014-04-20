@@ -464,6 +464,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       vs (yvar.gevz().yratgu() == 0) oernx;
       yvar = yvar.ercynpr("\\a", "\a");
       yvar = yvar.ercynpr("\\e", "\e");
+      yvar = yvar.ercynpr("\\g", "\g");
       zftYvfg.nqq(yvar);
     }
     erghea zftYvfg.gbNeenl(arj Fgevat[zftYvfg.fvmr()]);
@@ -615,6 +616,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     inyhr = inyhr.ercynpr("\"", "\\\"");
     inyhr = inyhr.ercynpr("\a", "\\a");
     inyhr = inyhr.ercynpr("\e", "\\e");
+    inyhr = inyhr.ercynpr("\g", "\\g");
     erghea inyhr;
   }
 

@@ -12,13 +12,16 @@ public class DispatchA27Parser extends FieldProgramParser {
   private static final Pattern MARKER = Pattern.compile("Notification from CIS [A-Za-z0-9 ]+:");
   private static final Pattern DELIM_PTN = Pattern.compile("\n{2}");
   
-  public DispatchA27Parser(String defCity, String defState) {
-    this(null, defCity, defState);
+  private Pattern unitPtn;
+  
+  public DispatchA27Parser(String defCity, String defState, String unitPtn) {
+    this(null, defCity, defState, unitPtn);
   }
   
-  public DispatchA27Parser(String[] cityList, String defCity, String defState) {
+  public DispatchA27Parser(String[] cityList, String defCity, String defState, String unitPtn) {
     super(cityList, defCity, defState,
           "ADDRCITY/SC DUP? SRC! Time_reported:DATETIME! Unit(s)_responded:UNIT+");
+    this.unitPtn = Pattern.compile(unitPtn);
   }
   
   @Override 
@@ -38,12 +41,6 @@ public class DispatchA27Parser extends FieldProgramParser {
     else {
       data.strCall = "RUN REPORT";
       
-      // Extract Units
-      String units = fields[fields.length-1];
-      int colon = units.indexOf(':');
-      units = units.substring(colon+1).trim();
-      parseUnitField(true, units, data);
-      
       // Extract ID
       if (fields.length > 0) {
         int ndx = 1;
@@ -51,6 +48,14 @@ public class DispatchA27Parser extends FieldProgramParser {
         if (fields.length > ndx) {
           String[] srcID = fields[ndx].split("-");
           if (srcID.length > 1) data.strCallId = srcID[1].trim();
+        }
+      }
+      
+      // Extract Units
+      for (String units : fields) {
+        if (units.startsWith("Unit(s) responded:")) {
+          units = units.substring(18).trim();
+          parseUnitField(true, units, data);
         }
       }
       
@@ -151,7 +156,14 @@ public class DispatchA27Parser extends FieldProgramParser {
     for (String token : field.split("\n")) {
       token = token.trim();
       if (token.length() == 0) continue;
-      if (!info && !UNIT_PTN.matcher(token).matches()) info = true;
+      if (!info) { 
+        Matcher match = unitPtn.matcher(token);
+        if (match.matches()) {
+          if (match.groupCount() == 1) token = match.group(1);
+        } else {
+          info = true;
+        }
+      }
       if (!info) {
         data.strUnit = append(data.strUnit, " ", token);
       } else if (!runReport) {
@@ -159,5 +171,4 @@ public class DispatchA27Parser extends FieldProgramParser {
       }
     }
   }
-  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]+\\d+|[A-Z]{3,4}|\\d{8}");
 }

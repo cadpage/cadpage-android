@@ -679,7 +679,8 @@ choyvp pynff ZAJnonfunPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201400000025",
         "QNGR:03/11/2014",
         "GVZR:14:12:01",
-        "VASB:YPSQ\asver nynez-bcf 4");
+        "HAVG:YPSQ",
+        "VASB:sver nynez-bcf 4");
 
     qbGrfg("G33",
         "(Jrysner ng 710 7gu Fg J, Jnonfun, 55981) Abgvsvpngvba sebz PVF Npgvir  911:\a\a" +

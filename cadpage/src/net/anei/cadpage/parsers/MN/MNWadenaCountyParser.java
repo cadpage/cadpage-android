@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 public class MNWadenaCountyParser extends DispatchA27Parser {
   
   public MNWadenaCountyParser() {
-    super(CITY_LIST, "WADENA COUNTY", "MN");
+    super(CITY_LIST, "WADENA COUNTY", "MN", "\\d{8}");
   }
   
   @Override

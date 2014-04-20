@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 public class MNWabashaCountyParser extends DispatchA27Parser {
   
   public MNWabashaCountyParser() {
-    super("WABASHA COUNTY", "MN");
+    super("WABASHA COUNTY", "MN", "\\d{8}|[A-Z]{1,3}FD");
   }
   
   @Override

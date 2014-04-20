@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 public class KYCampbellCountyParser extends DispatchA27Parser {
   
   public KYCampbellCountyParser() {
-    super("CAMPBELL COUNTY", "KY");
+    super("CAMPBELL COUNTY", "KY","[A-Z]{1,3}FD|[A-Z]+\\d+|\\d{8}");
   }
   
   @Override

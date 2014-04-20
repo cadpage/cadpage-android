@@ -41,7 +41,7 @@ public class DispatchA13Parser extends FieldProgramParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("SRCID")) return  new SourceIdField();
-    if (name.equals("DISPATCHED")) return new SkipField("Dispatched|Enroute|Responding|Req_?Dispatch|On ?Scene|Standing ?By|Terminated", true);
+    if (name.equals("DISPATCHED")) return new SkipField("Dispatched|Acknowledge|Enroute|En Route Hosp|Responding|Req_?Dispatch|On *Scene|Standing ?By|Terminated", true);
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("GPS1")) return new MyGPSField(1);
     if (name.equals("GPS2")) return new MyGPSField(2);
@@ -49,7 +49,7 @@ public class DispatchA13Parser extends FieldProgramParser {
   }
   
   // SRCID field contains source and call ID
-  private static final Pattern SRCID_PTN = Pattern.compile(".*?([A-Z0-9][ A-Z0-9]+)?:(\\d+:\\d+)");
+  private static final Pattern SRCID_PTN = Pattern.compile(".*?([A-Z0-9][ A-Z0-9]+)?:(\\d+(?::\\d+)?)");
   private class SourceIdField extends Field {
     
     @Override
@@ -58,7 +58,7 @@ public class DispatchA13Parser extends FieldProgramParser {
       if (!match.matches()) return false;
       String src = match.group(1);
       if (src != null) data.strSource = src;
-      data.strCallId = match.group(2);;
+      data.strCallId = match.group(2);
       return true;
     }
     
@@ -148,18 +148,25 @@ public class DispatchA13Parser extends FieldProgramParser {
             continue;
           }
           
-          if (data.strCity.length() == 0 &&
-              !fld.contains("/") && 
-              !fld.toUpperCase().contains(" AND ") && 
-              !fld.startsWith("X ")) {
-            if (fld.equals("NE") || fld.equals("NW") || fld.equals("SE") || fld.equals("SW")) {
-              addr = addr + " - " + fld;
-            } else {
-              if (cityCodes != null) fld = convertCodes(fld, cityCodes);
-              data.strCity = fld;
-            }
+          if (fld.equals("NE") || fld.equals("NW") || fld.equals("SE") || fld.equals("SW")) {
+            addr = addr + " - " + fld;
             continue;
           }
+          
+          if (data.strCity.length() == 0) {
+            boolean isCity;;
+            if (checkCity) {
+              isCity = isCity(fld);
+            } else {
+              isCity = !fld.contains("/") && !fld.contains(";") && !fld.contains("&");
+            }
+            if (isCity) {
+              if (cityCodes != null) fld = convertCodes(fld, cityCodes);
+              data.strCity = fld;
+              continue;
+            }
+          }
+          
           if (data.strCity.length() > 0 && 
               data.strState.length() == 0 && 
               STATE_PTN.matcher(fld).matches()) {
@@ -175,6 +182,13 @@ public class DispatchA13Parser extends FieldProgramParser {
           parseAddress(addr, data);
         } else {
           parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, addr, data);
+          
+          // another oddity, sometimes the same city occurs at the end of
+          // both streets in an intersection, so will try to eliminate the
+          // extra ones
+          if (data.strCity.length() > 0) {
+            data.strAddress = data.strAddress.replace(' ' + data.strCity + " &", " &");
+          }
         }
         
         // Second part is generally the cross street
@@ -184,8 +198,11 @@ public class DispatchA13Parser extends FieldProgramParser {
           if (data.strCity.length() == 0) {
             int pt = sPart2.lastIndexOf(',');
             if (pt >= 0) {
-              data.strCity = sPart2.substring(pt+1).trim();
-              sPart2 = sPart2.substring(0,pt).trim();
+              String city = sPart2.substring(pt+1).trim();
+              if (!checkCity || isCity(city)) {
+                data.strCity = city;
+                sPart2 = sPart2.substring(0,pt).trim();
+              }
             }
           }
           if (!sPart2.contains("/") && !sPart2.contains(";") &&
@@ -195,9 +212,9 @@ public class DispatchA13Parser extends FieldProgramParser {
             data.strAddress = "";
             parseAddress(sPart2, data);
           } else {
-            if (sPart2.startsWith("/")) sPart2 = sPart2.substring(1).trim();
-            if (sPart2.endsWith(";")) sPart2 = sPart2.substring(0,sPart2.length()-1).trim();
-            if (sPart2.endsWith("/")) sPart2 = sPart2.substring(0,sPart2.length()-1).trim();
+            sPart2 = stripFieldStart(sPart2, "/");
+            sPart2 = stripFieldEnd(sPart2, ";");
+            sPart2 = stripFieldEnd(sPart2, "/");
             data.strCross = append(data.strCross, " & ", sPart2);
           }
         }
@@ -206,11 +223,15 @@ public class DispatchA13Parser extends FieldProgramParser {
 
       // The rest contains city names, cross streets and/or supp info
       for (String part : new String[]{sPart2, sPart3, sPart4, sPart5}) {
+        if (part.length() == 0) continue;
         if (data.strCity.length() == 0) {
           int pt = part.lastIndexOf(',');
           if (pt >= 0) {
-            data.strCity = part.substring(pt+1).trim();
-            part = part.substring(0,pt).trim();
+            String city = part.substring(pt+1).trim();
+            if (!checkCity || isCity(city)) {
+              data.strCity = city;
+              part = part.substring(0,pt).trim();
+            }
           }
         }
         part = stripApt(part, data);
@@ -233,13 +254,19 @@ public class DispatchA13Parser extends FieldProgramParser {
         }
       }
       
+      // Very occasionally, the city name will end up in the APT field
+      if (data.strCity.length() == 0 && data.strApt.length() > 0) {
+        parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY | FLAG_ANCHOR_END, data.strApt, data);
+        data.strApt = getStart();
+      }
+      
       // Occasionally a city name still makes it into the cross streets :(
       StringBuilder sb = new StringBuilder();
       for (String part : data.strCross.split("[,/]")) {
         part = part.trim();
         if (part.length() == 0) continue;
         if (part.equalsIgnoreCase(data.strCity)) continue;
-        if (data.strCity.length() == 0 && isCity(part.toUpperCase())) {
+        if (data.strCity.length() == 0 && checkCity && isCity(part.toUpperCase())) {
           data.strCity = part;
         } else {
           if (sb.length() > 0) sb.append('/');
