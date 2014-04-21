@@ -153,8 +153,7 @@ choyvp pynff CNOenqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:031214-82",
         "PNYY:ZIN",
         "PVGL:NGURAF",
-        "NQQE:RYZVEN NAQ CVAR FG",
-        "ZNQQE:RYZVEN & CVAR FG",
+        "NQQE:RYZVEN & CVAR FG",
         "NCG:A");
 
     qbGrfg("G8",
@@ -225,7 +224,7 @@ choyvp pynff CNOenqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:030414-63",
         "PNYY:ZIN",
         "PVGL:NGURAF GJC",
-        "NQQE:3373 JVYNJNAN EQ [NGURAF GJ]", //ZNCF JVGUBHG [NGURAF GJ]
+        "NQQE:3373 JVYNJNAN EQ",
         "K:1-599  BNX UVYY QE * 1-55 ZREEVPX YA");
 
     qbGrfg("G13",
@@ -284,7 +283,7 @@ choyvp pynff CNOenqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:022414-102",
         "PNYY:IRUS",
         "PVGL:NGURAF GJC",
-        "NQQE:EG 220 FBHGU ORUVAQ YBJRF"); //JUNG QBRF EG ZRNA? QBRF ABG ZNC
+        "NQQE:EG 220 FBHGU ORUVAQ YBJRF");
 
     qbGrfg("G17",
         "(PNQ Cntr sbe PSF 022114-53) ZIN\a\a" +
@@ -407,7 +406,8 @@ choyvp pynff CNOenqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:012914-78",
         "PNYY:GENHZN",
         "PVGL:NGURAF GJC",
-        "NQQE:ZNFPB 217 YNZBX EQ"); //ZNCF J/B ZNFPB
+        "CYNPR:ZNFPB",
+        "NQQE:217 YNZBX EQ");
 
     qbGrfg("G27",
         "(PNQ Cntr sbe PSF 012014-87) ZIN\a\aNGURAF GJC\aQHAXYRL UVYY \aNcg: \aTERNGRE INYYRL RZF:  14-TI00280\aNGURAF GBJAFUVC SQ:  14-2400015",
