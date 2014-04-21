@@ -453,6 +453,22 @@ choyvp pynff SYPvgehfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYNEZ SVER",
         "VQ:2014-00001190");
 
+    qbGrfg("G7",
+        " 1 bs 2\a" +
+        "SEZ:qqribr@furevsspvgehf.bet\a" +
+        "FHOW:Zrffntr sebz UvcYvax\a" +
+        "ZFT:R091 R201 R071 R031 G001 R001 R141 OP01  3S 8466 J  PNAQYRTYBJ FG Pelfgny\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "Evire 25F - FGEHPGHER SVER 2014-00002057(Raq)",
+
+        "HAVG:R091 R201 R071 R031 G001 R001 R141 OP01",
+        "ZNC:3S",
+        "NQQE:8466 J PNAQYRTYBJ FG",
+        "PVGL:Pelfgny Evire",
+        "PBQR:25F",
+        "PNYY:FGEHPGHER SVER",
+        "VQ:2014-00002057");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

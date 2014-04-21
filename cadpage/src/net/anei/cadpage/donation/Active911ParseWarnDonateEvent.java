@@ -18,6 +18,11 @@ public class Active911ParseWarnDonateEvent extends DonateScreenEvent {
     super(AlertStatus.YELLOW, R.string.donate_active911_parse_warn_title, R.string.donate_active911_parse_warn_text,
           Active911ParseInfoDonateEvent.instance());
   }
+  
+  @Override
+  protected boolean overrideWindowTitle() {
+    return true;
+  }
 
   @Override
   public boolean isEnabled(SmsMmsMessage msg) {

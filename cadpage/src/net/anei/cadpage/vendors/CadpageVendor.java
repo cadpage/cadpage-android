@@ -3,12 +3,14 @@ package net.anei.cadpage.vendors;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import android.app.Activity;
 import android.content.Context;
 import android.net.Uri;
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.R;
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.donation.DonationManager;
+import net.anei.cadpage.donation.PagingProfileEvent;
 import net.anei.cadpage.donation.DonationManager.DonationStatus;
 import net.anei.cadpage.donation.UserAcctManager;
 
@@ -31,16 +33,26 @@ class CadpageVendor extends Vendor {
 //  }
 
   @Override
-  void profileReq(Context context) {
-    // TODO Generate our own local configuration window
+  void profileReq(Activity activity) {
+    PagingProfileEvent.open(activity);
   }
+//
+//  @Override
+//  boolean isEnabled() {
+//    // TODO debugging only 
+//    return true;
+//  }
+//
+//  @Override
+//  String getEmailAddress() {
+//    // TODO debugging only
+//    return "kencorbin@cadpagepaging.net";
+//  }
 
   @Override
   void sendRegisterReq(Context context, String registrationId) {
     Uri uri = buildRequestUri("register", registrationId);
     Uri.Builder builder = uri.buildUpon();
-    
-    builder.appendQueryParameter("name", "Ken Corbin");
     
     String meid = UserAcctManager.instance().getMEID();
     if (meid != null) builder.appendQueryParameter("MEID",meid);
@@ -57,8 +69,6 @@ class CadpageVendor extends Vendor {
       }
     }
     if (expireDate != null) builder.appendQueryParameter("expDate", expireDate);
-    
-    builder.appendQueryParameter("resetEmail", "N");
     
     uri = builder.build();
     HttpService.addHttpRequest(context, new HttpRequest(uri){});

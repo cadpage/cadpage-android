@@ -281,4 +281,28 @@
   
   <string name="vendor_register_title">Register for direct paging</string>
   
+  <!-- New stuff goes here -->
+  
+  <string name="paging_profile_title">Cadpage Paging Service Profile</string>
+  <string name="paging_profile_text">
+      Your dispatch email address is\n %s\n\n
+      Any email sent to this address will be appear as a Cadpage dispatch alert.
+  </string>
+  
+  <string name="send_dispatch_address_title">Send Dispatch Address</string>
+  <string name="email_address_title">Sending dispatch email address</string>
+  <string name="email_address_subject">Please send me dispatch alerts.</string>
+  <string name="email_address_text">Please send my dispatch alerts to %s</string>
+  
+  <string name="copy_dispatch_address_title">Copy to clipboard</string>
+  
+  <string name="reset_dispatch_address_title">Request new dispatch address</string>
+  <string name="reset_dispatch_address_text">
+      Are you sure you want to do this?\n
+      Once you reset the current dispatch address, it will be necessary to
+      have your department send all dispatch alerts to the new dispatch address.
+  </string>
+  
+  <string name="confirm_reset_dispatch_address_title">Do it!</string>
+  
 </resources>

@@ -13,6 +13,7 @@ import net.anei.cadpage.R;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
 import net.anei.cadpage.donation.UserAcctManager;
+import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
@@ -219,6 +220,15 @@ abstract class Vendor {
   }
 
   /**
+   * Send a reset email address request
+   * @param context current context
+   */
+  void resetEmailReq(Context context) {
+    Uri uri = buildRequestUri("reset", ManagePreferences.registrationId());
+    HttpService.addHttpRequest(context, new HttpRequest(uri){});
+  }
+
+  /**
    * Register VendorPreference associated with this vendor
    * @param preference Vendor preference object
    */
@@ -361,7 +371,7 @@ abstract class Vendor {
    * Process user request vendor user profile
    * @param context current context
    */
-  void profileReq(Context context) {
+  void profileReq(Activity context) {
     if (!SmsPopupUtils.haveNet(context)) return;
     Uri uri = buildRequestUri("profile", ManagePreferences.registrationId());
     viewPage(context, uri);

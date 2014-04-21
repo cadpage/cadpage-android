@@ -24,6 +24,10 @@ public abstract class DonateScreenBaseEvent extends DonateEvent {
     this.textId = textId;
     this.layout = layout;
   }
+  
+  protected boolean overrideWindowTitle() {
+    return false;
+  }
 
   /**
    * Called to create the associated Donate activity
@@ -47,9 +51,7 @@ public abstract class DonateScreenBaseEvent extends DonateEvent {
     // There is one and only one status event that is not really a payment status.
     // Very sloppy, but we will check for that and overwrite the normal title text
     TextView view = (TextView)activity.findViewById(R.id.DonateStatusView);
-    if (titleId == R.string.donate_active911_parse_warn_title) {
-      view.setText(activity.getString(titleId));
-    }
+    if (overrideWindowTitle()) view.setText(activity.getString(titleId));
     setTextColor(view);
     
     // Set up main box text and color

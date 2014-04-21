@@ -589,5 +589,4 @@ public class C2DMService extends IntentService {
     context.startActivity(Intent.createChooser(
         intent, context.getString(R.string.pref_sendemail_title)));
   }
-
 }

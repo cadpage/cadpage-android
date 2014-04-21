@@ -167,6 +167,16 @@ public class VendorManager {
   }
 
   /**
+   * Request reset of dispatch email address
+   * @param vendorCode vemdpr code
+   * @param context current context
+   */
+  public void resetEmailReq(String vendorCode, Context context) {
+    Vendor vendor = findVendor(vendorCode);
+    if (vendor != null) vendor.resetEmailReq(context);
+  }
+
+  /**
    * Reconnect all enabled vendors
    * @param context current context
    */

@@ -31,13 +31,17 @@ req=register - initial user request to register phone
     type            GCM
     phone           Phone number if we have it (for Android tablets we probably will not)
     MEID            device MEID number
-    resetEmail      Y means user would a new dispatch Email.
-                    N If user already has a dispatch Email, return it
-                      Otherwise return new dispatch Email
     CadpageRegId    Cadpage registration ID, this is what you need to send messages to this device
     version         Cadpage client version
     expDate         expiration date in MMDDYYYY format or LIFE for lifetime subscribers.
-    
+
+req=reset - Reset dispatch email address
+    Sent when user requests a new email address
+    Server should respond by pushing a new register confirmation with a new
+    dispatch email address to Cadpage     
+   vendor           Cadpage
+   account          account returned in register confirmation
+   token            token returned in register confirmation
     
 req=update - Update user subscription information
    vendor           Cadpage
@@ -45,7 +49,6 @@ req=update - Update user subscription information
    token            token returned in register confirmation
    expDate          New expiration date (optional)
    active           Y/N new activation status (optional)
-   CadpageRegId     New Cadpage registration ID (optional)
 
 These are identical with their usage in the standard GCM protocol   
 req=reregister  Used by Cadpage to report a change to the device registration ID

@@ -120,7 +120,7 @@ public abstract class DonateEvent {
     if (alertStatus == null) return input;
     int color = ALERT_COLORS[alertStatus.ordinal()];
     SpannableString span = new SpannableString(input);
-    span.setSpan(new ForegroundColorSpan(color), 0, input.length(), 0);
+    if (color != 0) span.setSpan(new ForegroundColorSpan(color), 0, input.length(), 0);
     return span;
   }
   
