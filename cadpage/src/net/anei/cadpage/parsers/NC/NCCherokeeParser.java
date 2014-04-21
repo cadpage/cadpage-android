@@ -51,8 +51,6 @@ public class NCCherokeeParser extends DispatchB2Parser {
       "PAINT TOWN",    "WITTIER",
       "PAINTTOWN",     "WITTIER",
       "WOLFETOWN",     "CHEROKEE"
-      
-      
   });
   
 }
