@@ -11,22 +11,6 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Xvat Pbhagl Sver Qvfgevpg #2
 Ybpngvba: Ohevra, JN, Havgrq Fgngrf
 Fraqre: <pnq@inyyrlpbz.bet>
-Fraqre: Reavr Oebja <ReavrOebja@ohevrasver.bet>
-Fraqre: Gvz Mvzavfxl <GvzMvzavfxv@ohevrasver.bet>
-Fraqre: Jvyy Fcehvyy <JvyyFcehvyy@ohevrasver.bet>
-Fraqre: Wnzrf Fvzbafba <WnzrfFvzbafba@ohevrasver.bet>
-Fraqre: Elna ZpJnqr <ElnaZpJnqr@ohevrasver.bet>
-Fraqre: Frgu Znkjryy <Fznkjryy@ohevrasver.bet>
-Fraqre: Wbua Mvyxr <WbuaMvyxr@ohevrasver.bet>
-Fraqre: Xevf Tbefuxbi <XevfTbefuxbi@ohevrasver.bet>
-Fraqre: Puevf Errq <PuevfErrq@ohevrasver.bet>
-Fraqre: <cbfg_znfgre@igrkg.pbz>
-Fraqre: Qnivq Ubyyvatfjbegu <qubyyvatfjbegu@ohevrasver.bet>
-Fraqre: Zngg Ernql <ZnggErnql@ohevrasver.bet>
-Fraqre: Wvz Errq <WvzErrq@ohevrasver.bet>
-Fraqre: Trbetr Fgbrff <TrbetrFgbrff@ohevrasver.bet>
-Fraqre: Naql Znkjryy <NaqlZnkjryy@ohevrasver.bet>
-Fraqre: Elna Naqrefba <ElnaNaqrefba@ohevrasver.bet>
 
 (PNQ Cntr) QVFCNGPU:NSN, 18043 2AQ CY F, OHE, ogja F ABEZNAQL EQ naq RAQ, H9, HS1109, NSN ERFQ, PBI:HCFGNVEF FZBXR, Havg:Y29 - Sebz SQ23 04/14/2014 20:01:55
 (PNQ Cntr) QVFCNGPU:NVQ, SREAJBBQ NG GUR CNEX #120, AQC, ng 17623 1FG NIR F #120, AQC, ogja FJ 176GU FG naq FJ 178GU FG, H9, HS1108, 90F LBZ - HAX GLCR NVQ, EC JNF GBYQ GB PNYY, Havgf:R291, GEV5 - Sebz SQ23 04/10/2014 05:01:08

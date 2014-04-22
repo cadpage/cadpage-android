@@ -86,7 +86,8 @@ public class DEKentCountyBParser extends DEKentCountyBaseParser {
   // one and the one following.  When it does it has to make the determination
   // which one looks more like an address field and treat the other as a place 
   // field
-  private static final Pattern ADDR_ST_ZIP_PTN = Pattern.compile("([A-Z]{2}) \\d{5}");
+  private static final Pattern ADDR_ST_ZIP_PTN = Pattern.compile("(?:([A-Z]{2}) +)?\\d{5}");
+  private static final Pattern ADDR_ST_PTN = Pattern.compile("(.*) (DE|MD)");
   private static final Pattern ZIP_PTN = Pattern.compile("(.*) \\d{5}");
   private static final Pattern SPECIAL_ADDR_PTN = Pattern.compile("70 HQ|EASTER SEALS", Pattern.CASE_INSENSITIVE);
   private class MyAddressCityField extends AddressCityField {
@@ -143,19 +144,28 @@ public class DEKentCountyBParser extends DEKentCountyBaseParser {
         
         // Sometimes the trailing field is a state zip field, in which case
         // the city will be found in the address line
+        // Or just a city field, in  which case state may be found at end
+        // of address line
         Matcher match = ADDR_ST_ZIP_PTN.matcher(city);
         if (match.matches()) {
           city = null;
           state = match.group(1);
-          result = parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT | FLAG_ANCHOR_END, field);
+          if (state == null) {
+            match = ADDR_ST_PTN.matcher(field);
+            if (match.matches()) {
+              field = match.group(1).trim();
+              state = match.group(2);
+            }
+          }
+          parseAddress(FLAG_RECHECK_APT, field);
           status = result.getCity().length() == 0 ? 0 : Integer.MAX_VALUE;
           return;
         }
         
         // Otherwise, the trailing item should be real city and we have to infer the state
         if (!isCity(city)) return;
-        status =Integer.MAX_VALUE;
-        result = parseAddress(StartType.START_ADDR, FLAG_NO_CITY | FLAG_RECHECK_APT | FLAG_ANCHOR_END, field);
+        status = Integer.MAX_VALUE;
+        parseAddress(FLAG_NO_CITY | FLAG_RECHECK_APT, field);
         return;
       }
       
@@ -165,11 +175,19 @@ public class DEKentCountyBParser extends DEKentCountyBaseParser {
       Matcher match = ZIP_PTN.matcher(field);
       boolean foundZip = match.matches();
       if (foundZip) field = match.group(1).trim();
-      result = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_RECHECK_APT | FLAG_ANCHOR_END, field);
+      parseAddress(FLAG_CHECK_STATUS | FLAG_RECHECK_APT, field);
       status = result.getStatus();
       if (status > 0) status++;
       else if (result.getCity().length() > 0 ||
                SPECIAL_ADDR_PTN.matcher(field).matches()) status = 1;
+    }
+    
+    private void parseAddress(int flags, String field) {
+      if (field.startsWith("<unknown>")) {
+        city = field.substring(9).trim();
+        field = "<unknown>";
+      }
+      result = DEKentCountyBParser.this.parseAddress(StartType.START_ADDR, flags | FLAG_ANCHOR_END, field);
     }
     
     public int getStatus() {
@@ -182,7 +200,7 @@ public class DEKentCountyBParser extends DEKentCountyBaseParser {
     }
     
     public void getData(Data data) {
-      result.getData(data);
+      if (result != null) result.getData(data);
       if (city != null) data.strCity = city;
       if (state != null) data.strState = state;
       adjustCityState(data);

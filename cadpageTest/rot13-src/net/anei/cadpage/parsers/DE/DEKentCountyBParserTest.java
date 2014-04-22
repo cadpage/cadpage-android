@@ -18,6 +18,10 @@ Pbagnpg: Àyoreg Yrabk <npyrabk@pbzpnfg.arg>
 Fraqre: nyreg@pszft.pbz
 (Puvrs Nyreg) [Fgn:44] 29O1N-Zip Zhygvcyr Vawhevrf -- F Pnegre Eq Fzlean, QR 19977 -- Puevfgvan Ncgf
 
+Pbagnpg: Nyla Fpevgpusvryq <erfphrtny@tznvy.pbz>
+Fraqre: nyreg@pszft.pbz
+(Puvrs NYG) [87 SVER] -- Nynez Sver -- <haxabja> Frnsbeq QR, 19973
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Objref Sver Pbzcnal Vap. Fgn. 40
 Ybpngvba: Serqrevpn, QR, Havgrq Fgngrf
@@ -237,6 +241,19 @@ choyvp pynff QRXragPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:QR",
         "CYNPR:Puevfgvan Ncgf");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgNylaFpevgpusvryq() {
+
+    qbGrfg("G1",
+        "(Puvrs NYG) [87 SVER] -- Nynez Sver -- <haxabja> Frnsbeq QR, 19973",
+        "FEP:87 SVER",
+        "PNYY:Nynez Sver",
+        "NQQE:<haxabja>",
+        "PVGL:Frnsbeq",
+        "FG:QR");
+   
   }
 
   @Grfg
