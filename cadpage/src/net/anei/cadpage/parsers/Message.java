@@ -126,7 +126,7 @@ public class Message {
     Pattern.compile("^prvs=[0-9a-f]{8,}=[\\w .<>@]*<([\\w.\\-]+@[\\w.]+)> *\\((.*?)\\)")
   };
   private static final Pattern[] S_M_PATTERNS = new Pattern[]{
-    Pattern.compile("^SUBJ: *(.*)\nMSG:")
+    Pattern.compile("^SUBJ: *(.*)\n(?:MSG:)?"),
   };
   
   private void preParse(String fromAddress, String subject, String body, boolean insBlank, boolean keepLeadBreak) {
