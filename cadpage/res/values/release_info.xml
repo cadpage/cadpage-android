@@ -6,9 +6,9 @@
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Jerome County, CO\n
-Lincoln County, CO\n
-Twin Lakes County, CO\n
+Jerome County, ID\n
+Lincoln County, ID\n
+Twin Falls County, ID\n
 Warren County, IA\n
 Green County, TX\n
 Van Alstyne, TX\n
@@ -18,6 +18,7 @@ Location Parsing Fixes:\n
 Hanford County, CA\n
 El Paso County, CO\n
 Simsbury, CT\n
+Kent County, DE\n
 Sussex County, DE\n
 Citrus County, FL\n
 Kane County, IL\n
@@ -28,6 +29,7 @@ Webster County, MO\n
 Atlanticare EMS, NJ\n
 Oleida County, NY\n
 Dulphin County, NC\n
+Orange County, NC\n
 Erie County, PA\n
 Bell County, TX\n
   </string>
