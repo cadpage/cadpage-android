@@ -26,7 +26,8 @@ public class IDGoodingCountyParser extends DispatchA31Parser {
   }
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "KMB AREA", "KIMBERLY",
-      "WND AREA", "WENDELL"
+      "KMB AREA",  "KIMBERLY",
+      "MURT AREA", "MURTAUGH",
+      "WND AREA",  "WENDELL"
   });
 }

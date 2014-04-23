@@ -31,6 +31,7 @@ Pbagnpg: Pnzreba Qvexf <pqaerzg@tznvy.pbz>
 Fraqre: CntvatFreivpr@fvepbzz.pbz
 (FVEPBZZ) 8:23 CZ\aARJ RIRAG EPX035\aZRQ\aZRQVPNY PNYY\a3129 A 3500 RNFG\aXZO NERN [Nggnpuzrag(f) erzbirq]
 (FVEPBZZ) 12:53 NZ\aARJ RIRAG EPX035\aFHVPVQR\aFHVPVQR NGGRZCG\a604 YVAPBYA FG\aXVZOREYL [Nggnpuzrag(f) erzbirq]
+(FVEPBZZ) 9:42 NZ\aARJ RIRAG EPX025\aNPPV\aNPPVQRAG J/VAWHEVRF\a23050 UJL 30\aZHEG NERN [Nggnpuzrag(f) erzbirq]
 
 Pbagnpg: qnivq yn pryyr <qynpryyr5170@tznvy.pbz>
 Fraqre: CntvatFreivpr@fvepbzz.pbz
@@ -175,7 +176,15 @@ choyvp pynff VQTbbqvatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FHVPVQR NGGRZCG",
         "NQQE:604 YVAPBYA FG",
         "PVGL:XVZOREYL");
-   
+
+    qbGrfg("G3",
+        "(FVEPBZZ) 9:42 NZ\aARJ RIRAG EPX025\aNPPV\aNPPVQRAG J/VAWHEVRF\a23050 UJL 30\aZHEG NERN [Nggnpuzrag(f) erzbirq]",
+        "GVZR:09:42:00",
+        "FEP:EPX025",
+        "PNYY:NPPVQRAG J/VAWHEVRF",
+        "NQQE:23050 UJL 30",
+        "PVGL:ZHEGNHTU");
+  
   }
   
   @Grfg
