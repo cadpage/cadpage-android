@@ -35,8 +35,7 @@ The good news is that Cadpage will continue to function under Android 4.4.  And 
 
 One alternative is to switch to a message service like CodeMessaging.net or Active911.com that can push direct pages to Cadpage.  Since these do not rely on text messages, they are unaffected by the changes at Android 4.4.
 
-We hope to roll out our own Cadpage direct paging service in a few weeks. This will be free for paying Cadpage subscribers, and it will get
-around the Kit Kat message problem.
+We hope to roll out our own Cadpage direct paging service in a few weeks. This will be free for paying Cadpage subscribers, and it will get around the Kit Kat message problem.
 
 Take care,
 Jean ~ Cadpage Administrator
@@ -235,7 +234,7 @@ Jean ~ Cadpage Administrator
 
 Your department has apparently paid for Active911, but you need to register your phone to enable direct paging with Cadpage.  
 
-You will need the numeric device number and 4 character activation code associated with that device.  This is information you can obtain from your administrator, but let me know if you need assistance with that.
+Your device code is: 
 
 Open the Cadpage settings on your phone.  Select Direct Paging Vendors > Active911.com > Register
 
@@ -245,10 +244,15 @@ At this point, Active911 will start sending you pages through the Internet data 
 
 Please let me know if you still have problems with Cadpage or the registration process.
 
-If you have paid for a Cadpage subscription within the last 6 months, I can refund your payment.  With direct paging with Active911, Cadpage is free.
-
 Good Luck, 
 Jean ~ Cadpage Administrator
+
+******************************************************************
+
+You will need the numeric device number and 4 character activation code associated with that device.  This is information you can obtain from your administrator, but let me know if you need assistance with that.
+
+
+If you have paid for a Cadpage subscription within the last 6 months, I can refund your payment.  With direct paging with Active911, Cadpage is free.
 
 
 ******************************************************************
