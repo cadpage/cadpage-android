@@ -82,7 +82,8 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
   private static final Set<String> EXT_CALL_LIST = new HashSet<String>(Arrays.asList(
       "CHEST PAIN",
       "HEART PROBLEMS",
-      "SYNCOPE"
+      "SYNCOPE",
+      "UNCONSCIOUS PERSON"
   ));
   
   private static String[] CITY_LIST = new String[] {
