@@ -176,7 +176,9 @@ public class ManageParsers {
         "CTLitchfieldCountyB","CTNewMilford",           // 12/28/2013
         "TXMontgomeryCountyC","TXMontgomeryCountyB",    // 02/26/2014
         "VALexingtonRockbridgeCounty", "VARockbridgeCounty",   //03/05/2014
-        "MDHarford",          "MDHarfordCounty"         // 03/09/2014
+        "MDHarford",          "MDHarfordCounty",        // 03/09/2014
+        "TXWilliamsonCountyA","TXWilliamsonCounty",     // 04/24/2014  
+        "TXWilliamsonCountyB","TXWilliamsonCounty",     // 04/24/2014
         
   });
 
