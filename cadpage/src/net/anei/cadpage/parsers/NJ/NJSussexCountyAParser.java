@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NJSussexCountyAParser extends SmartAddressParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("[A-Z]{1,2}-[A-Z]?\\d{4}-\\d{6}");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("[A-Z]{1,5}-[A-Z]?\\d{4}-\\d{6}");
   private static final Pattern MASTER_PTN = 
     Pattern.compile("([-A-Z0-9 ]+) @ ([^,]+?) *, ([^-]*) -(?: (.*))?"); 
   
