@@ -19,7 +19,7 @@ public class VALouisaCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "911@louisa.org,Dispatch@louisa.org,CADEMS4@louisa.org";
+    return "911@louisa.org,Dispatch@louisa.org,CADEMS2@louisa.org,CADEMS4@louisa.org";
   }
   
   @Override
