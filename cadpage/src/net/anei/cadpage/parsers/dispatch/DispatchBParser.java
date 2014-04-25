@@ -367,6 +367,7 @@ public class DispatchBParser extends FieldProgramParser {
         "DIABETIC EMRG.",
         "DIABETIC PROBLEM",
         "DIABETIC PROBLEMS",
+        "DIABETIC PROBLEMS - NOT ALERT",
         "DIABETIC PROBLEMS CHARLIE",
         "DIABETIC-ALS PRI2",
         "DIABETIC-UNCONSCIOUS",

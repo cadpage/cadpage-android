@@ -45,6 +45,7 @@ REVR911:10Q2 >PURFG CNVA QVSS FCRNX OGJ OER 10101 JNGGFOHET EQ KF: QRJRL EQ/QHGP
 .... (Xhuy Ubfr Sver) REVR911:10Q4 >PURFG CNVA - PYNZZL 10370 RGGRE EQ KF: YNXR CYRNFNAG EQ TERRAR GJC
 .... (Xhuy Ubfr Sver) REVR911:26N1 >FVPX CREFBA J/ AB CEVBEVGL FLC 55 CVAR YRNS QE KF: ZNCYRAHG YA TERRAR GJC
 .... (Xhuy Ubfr Sver) REVR911:28P1Y >FGEBXR (PIN) - ABG NYREG <2UEF 10489 YNXR CYRNFNAG EQ KF: URQEVPX EQ TERRAR GJC
+.... (Xhuy Ubfr Sver) REVR911:13P1 >QVNORGVP CEBOYRZF - ABG NYREG 7682 GHEARE EQ KF: CUVYYVCFIVYYR EQ IRANATB GJC
 
 Pbagnpg: Zngg Rkyrl <zrkyrl46@tznvy.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
@@ -425,7 +426,7 @@ choyvp pynff CNRevrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:URQEVPX EQ",
         "PVGL:TERRAR GJC");
 
-    qbGrfg("G1",
+    qbGrfg("G15",
         ".... (Xhuy Ubfr Sver) REVR911:26N3 >FVPX CREFBA- QVMMVARFF/IREGVTB 11550 LNCYR EQ KF: PYRZRAF EQ TERRAR GJC",
         "FEP:REVR911",
         "PBQR:26N3",
@@ -433,7 +434,16 @@ choyvp pynff CNRevrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:11550 LNCYR EQ",
         "K:PYRZRAF EQ",
         "PVGL:TERRAR GJC");
- 
+
+    qbGrfg("G16",
+        ".... (Xhuy Ubfr Sver) REVR911:13P1 >QVNORGVP CEBOYRZF - ABG NYREG 7682 GHEARE EQ KF: CUVYYVCFIVYYR EQ IRANATB GJC",
+        "FEP:REVR911",
+        "PBQR:13P1",
+        "PNYY:QVNORGVP CEBOYRZF - ABG NYREG",
+        "NQQE:7682 GHEARE EQ",
+        "K:CUVYYVCFIVYYR EQ",
+        "PVGL:IRANATB GJC");
+
  }
   
   @Grfg
