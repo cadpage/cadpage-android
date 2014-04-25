@@ -754,6 +754,7 @@ public class ParserList {
           new ParserCategory("Oregon"
               ,"ORBentonCounty"                 ,"Benton County, OR"
               ,"ORClackamasCounty"              ,"Clackamas County, OR"
+              ,"ORClatsopCounty"                ,"Clatsop County, OR"
               ,"ORColumbiaCounty"               ,"Columbia County, OR"
               ,"ORCrookCounty"                  ,"Crook County, OR"
               ,"ORDeschutesCounty"              ,"Deschutes County, OR"
