@@ -11,6 +11,10 @@ Pbagnpg: Qnivq Urff <ssurff@tznvy.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Oerjfgre) ERQ:[EP77]- ANGHER: RZRETRAPL ZRQVPNY PNYY YBPNGVBA: 264 ZBUVPNA FG AR OERJFGRE ORGJRRA QRNQ RAQ / UHEBA PBZZRAGF: QVSS OER NGUVAT 4072 ONPX
 
+Pbagnpg: Qnivq Pbyr <qpbyr8870@tznvy.pbz>
+Fraqre: 777589388933
+.... (SVER) ERQ:[EP70]- ANGHER: RZRETRAPL ZRQVPNY PNYY YBPNGVBA: 8618 PNZRYBG NI AJ YNJERAPR GJC ORGJRRA TYRAPBR / FXLYVAR PBZZRAGF: SRZNYR SNYY IVPGVZ SEBAG LNEQ CBFF OEBXRA FUBHYQRE
+
 Pbagnpg: fhccbeg@npgvir911.pbz
 Fraqre: ERQ@fffarg.pbz
 
@@ -70,6 +74,21 @@ choyvp pynff BUFgnexPbhaglErqpragCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:QVSS OER NGUVAT 4072 ONPX");
    
   }
+  
+  @Grfg
+  choyvp ibvq grfgQnivqPbyr() {
+    
+
+    qbGrfg("G1",
+        ".... (SVER) ERQ:[EP70]- ANGHER: RZRETRAPL ZRQVPNY PNYY YBPNGVBA: 8618 PNZRYBG NI AJ YNJERAPR GJC ORGJRRA TYRAPBR / FXLYVAR PBZZRAGF: SRZNYR SNYY IVPGVZ SEBAG LNEQ CBFF OEBXRA FUBHYQRE",
+        "HAVG:EP70",
+        "PNYY:RZRETRAPL ZRQVPNY PNYY",
+        "NQQE:8618 PNZRYBG NI AJ",
+        "ZNQQE:8618 PNZRYBG NIR AJ",
+        "PVGL:YNJERAPR GJC",
+        "K:TYRAPBR / FXLYVAR",
+        "VASB:SRZNYR SNYY IVPGVZ SEBAG LNEQ CBFF OEBXRA FUBHYQRE");
+ }
   
   @Grfg
   choyvp ibvq grfgNpgvir911N() {
