@@ -12,6 +12,7 @@ import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
+import net.anei.cadpage.donation.PagingProfileEvent;
 import net.anei.cadpage.donation.UserAcctManager;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -578,8 +579,8 @@ abstract class Vendor {
   void vendorRequest(Context context, String type, String account, String token, String dispatchEmail) {
     
     boolean register = type.equals("REGISTER");
-    
     boolean change = (this.enabled != register);
+    boolean changeEmail = (dispatchEmail != null && !dispatchEmail.equals(this.dispatchEmail));
     this.enabled = register;
     this.account = account;
     this.token = token;
@@ -587,9 +588,11 @@ abstract class Vendor {
     saveStatus();
     if (enabled) publishAccountInfo(context);
     
+    boolean showProfile = (enabled && changeEmail); 
+    if (showProfile) PagingProfileEvent.open(context);
     if (change) {
       reportStatusChange();
-      showNotice(context, register ? R.string.vendor_connect_msg : R.string.vendor_disconnect_msg, null);
+      if (!showProfile) showNotice(context, register ? R.string.vendor_connect_msg : R.string.vendor_disconnect_msg, null);
       if (register) setTextPage(false);
       else {
         C2DMService.unregister(context);

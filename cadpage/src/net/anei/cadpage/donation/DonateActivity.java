@@ -3,6 +3,7 @@ package net.anei.cadpage.donation;
 import net.anei.cadpage.Safe40Activity;
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -40,13 +41,14 @@ public class DonateActivity extends Safe40Activity {
 
   /**
    * Create intent that can be used to launch this activity
-   * @param activity Parent activity
+   * @param context current context
    * @param message message to be displayed
    */
-  public static void launchActivity(Activity activity, DonateScreenBaseEvent event) {
-    Intent popup = new Intent(activity, DonateActivity.class);
+  public static void launchActivity(Context context, DonateScreenBaseEvent event) {
+    Intent popup = new Intent(context, DonateActivity.class);
     popup.setFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
     popup.putExtra(EXTRA_SCREEN_NAME, event.getClass().getName());
-    activity.startActivityForResult(popup, 0);
+    if (context instanceof Activity) ((Activity)context).startActivityForResult(popup, 0);
+    else context.startActivity(popup);
   }
 }

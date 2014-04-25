@@ -1,12 +1,16 @@
 package net.anei.cadpage.donation;
 
 import android.app.Activity;
+import android.content.Context;
 import net.anei.cadpage.R;
 import net.anei.cadpage.vendors.VendorManager;
 
 /*
     Cadpage Paging Service Profile
     
+      You are registered to receive direct pages from Cadpage 
+      Paging Services.  
+      
       Your dispatch email address is
       %s
       
@@ -42,8 +46,7 @@ public class PagingProfileEvent extends DonateScreenEvent {
     return instance;
   }
   
-  public static final void open(Activity activity) {
-    instance().doEvent(activity);
+  public static final void open(Context context) {
+    DonateActivity.launchActivity(context, instance());
   }
-
 }

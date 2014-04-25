@@ -285,6 +285,8 @@
   
   <string name="paging_profile_title">Cadpage Paging Service Profile</string>
   <string name="paging_profile_text">
+      You are registered to receive direct pages from Cadpage 
+      Paging Services.\n\n
       Your dispatch email address is\n %s\n\n
       Any email sent to this address will be appear as a Cadpage dispatch alert.
   </string>
