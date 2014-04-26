@@ -1076,11 +1076,6 @@ Nyonal Pbhagl, AL (ALNyonalPbhaglPCnefre)
 (ZFT NYREG) [TTS]-- JNGRE CEBOYRZ JVGU PUSQ 1116 ERQ ZVYY EQ OEHRA FDHNQ OHVYQVAT -TTS(2/17/2014 6:04:49 CZ)
 (ZFT NYREG) [TTS]-- - Angher: Jngre Ceboyrz - Ybpngvba: 1116.00 ERQ ZVYY EQ RNFG TERRAOHFU - Pbzzragf: FDHNQ OHVYQVAT ERCBEGF N ZNWBE JNGRE CEBOYRZ SEBZ GUR EBBS, GURL NER ERDHRFGVAT RTSQ GB URYC NAQ YNQQRE GUR EBBS RTSQ PNE 1 PBAGNPGRQ NAQ JBHYQ YVXR PUSQ JVGU G8 NYFB QVFCNGPURQ -TTS(2/17/2014 6:01:32 CZ)
 (ZFT NYREG) [WCY]-- - Angher: Sver - Nynez - Erfvqragvny - Ybpngvba: 49.00 CUVYYVCF EQ RNFG TERRAOHFU - Pbzzragf: FZBXR NYNEZ SEBZ TNENTR UNYIRE- 518-4283824 -WCY(2/17/2014 4:39:55 CZ)
-***************************************************************************
-Yvpxvat Pbhagl, BU (BUYvpxvatPbhaglCnefre)
-YP911:VYYARFF    24 F BERTBA FG   WBUAFGBJA
-YP911:[3298]-- - Angher: URZZBENTR/YNPRENGVBA - Ybpngvba: 36.00 F ZNVA FG   WBUAFGBJA -
-YP911:- Angher: VYYARFF - ABA FCRPVSVP - Ybpngvba:      65.00 F JVYYVNZF FG  Fhvgr:EZ 206 WBUAFGBJA
 *******************************************************************************
 *******************************************************************************
 * QvfcngpuN41Cnefre fhopynffrf
@@ -4414,6 +4409,11 @@ Ynxr Pbhagl, BU (BUYnxrPbhaglCnefre)
 Ybpngvba: 69 R CEBFCRPG FG CP Pebff Fgerrgf: JNEARE FG PBHEGYNAQ FG Glcr Pbqr: SVER Fho Glcr: ERFVQR Gvzr: 13:03:08 
 Ybpngvba: 828 YVOREGL FG CN Pebff Fgerrgf: ONAX FG HAANZRQ FGERRG Glcr Pbqr: VYYARFF Fho Glcr: TRARENY Gvzr: 09:19:01 
 Ybpngvba: 2050 V 90 UJL YR Pebff Fgerrgf: Glcr Pbqr: NPPVQRAG Fho Glcr: VAWNPP Gvzr: 07:19:04 
+***************************************************************************
+Yvpxvat Pbhagl, BU (BUYvpxvatPbhaglCnefre)
+(Abgvsvpngvba) ? PURFG CNVA 14966 ABEGU FG EQ, OHEYVATGBA GJC, 43080 (TENAIVYYR EQ, SBFQLXR EQ AJ, INAPR EQ AR/UBZRE EQ AJ, UBZRE EQ AR)
+[Abgvsvpngvba]  ? GENSSVP NPPVQRAG ABEGU FG EQ (FE 661), OHEYVATGBA GJC/UBZRE EQ AR, OHEYVATGBA GJC
+[Zbaebr Gbjafuvc Sver]  FREIVPR EHA\aFE 161 JO (FE 161), WREFRL GJC, 43062
 ***************************************************************************
 Ybirynaq, BU (BUYbirynaqCnefre)
 (Nyreg: RZF SNYYF\aNYEZ YIY: 1\aYBP:\aCNKGBA'F TEVYY ***\a126 J YBIRYNAQ NI\aYBIRYQ\aOGJA: 2AQ FG & ENVYEBNQ NI\a\a\a\aPBZ:\a\a\aPG:\aQ-WZC ng CBF 02)
