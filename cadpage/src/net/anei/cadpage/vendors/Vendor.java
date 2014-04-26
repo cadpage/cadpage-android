@@ -364,7 +364,7 @@ abstract class Vendor {
    */
   void moreInfoReq(Context context) {
     if (!SmsPopupUtils.haveNet(context)) return;
-    Uri uri = baseURI.buildUpon().appendQueryParameter("req", "info").build();
+    Uri uri = getBaseURI("info").buildUpon().appendQueryParameter("req", "info").build();
     viewPage(context, uri);
   }
 

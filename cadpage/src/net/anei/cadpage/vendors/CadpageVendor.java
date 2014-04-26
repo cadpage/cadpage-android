@@ -22,7 +22,7 @@ class CadpageVendor extends Vendor {
           R.string.cadpage_text,
           R.drawable.ic_launcher,
           R.drawable.ic_launcher,
-          "http://www.cadpage-paging.net",
+          "http://paging.cadpage.net",
           null,
           null);
   }
@@ -48,6 +48,12 @@ class CadpageVendor extends Vendor {
 //    // TODO debugging only
 //    return "kencorbin@cadpagepaging.net";
 //  }
+
+  @Override
+  Uri getBaseURI(String req) {
+    if (req.equals("info")) return Uri.parse("http://www.cadpage.org/paging-service");
+    return super.getBaseURI(req);
+  }
 
   @Override
   void sendRegisterReq(Context context, String registrationId) {
