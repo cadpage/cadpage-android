@@ -14,7 +14,6 @@ import net.anei.cadpage.donation.MainDonateEvent;
 import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
-
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -35,6 +34,8 @@ public class ManagePreferences {
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
   private static ManagePreferences prefs;
+  private static String freeSubType;
+  private static String paidSubType;
 
   /**
    * Initialize the ManagePreferences class
@@ -102,6 +103,11 @@ public class ManagePreferences {
     // Finally set the application enable status
     String enableStr = (enabled() ? enableMsgType() : "");
     SmsPopupUtils.enableSMSPopup(context, enableStr);
+    
+    // Reallyfinally,while we hav a context, look up the paid/free subscription
+    // titles
+    freeSubType = context.getString(R.string.free_subtype);
+    paidSubType = context.getString(R.string.paid_subtype);
   }
   
   /**
@@ -671,6 +677,10 @@ public class ManagePreferences {
     prefs.putBoolean(R.string.pref_free_sub_key, newVal);
   }
   
+  public static String subscriptionType() {
+    return ManagePreferences.freeSub() ? freeSubType : paidSubType;
+  }
+
   public static String authLocation() {
     return prefs.getString(R.string.pref_auth_location_key, "");
   }

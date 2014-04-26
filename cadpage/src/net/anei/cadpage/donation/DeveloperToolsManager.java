@@ -71,7 +71,7 @@ public class DeveloperToolsManager {
     "Stat: Donate expired",
     "Stat: Demo",
     "Stat: Demo expired",
-    "Stat: Free subscription",
+    "Stat: Toggle free subscription",
     "Stat: Toggle sponsor",
     "Reset release info",
     "Content Query",
@@ -180,16 +180,8 @@ public class DeveloperToolsManager {
         ManagePreferences.setFreeSub(false);
         break;
         
-      case 8:    // Stat: Free subscriber
-        ManagePreferences.setAuthRunDays(100);
-        ManagePreferences.setAuthExemptDate(null);
-        ManagePreferences.setFreeRider(false);
-        ManagePreferences.setAuthLocation(null);
-        setPaidYear(0);
-        setPurchaseDate(-20, -1);
-        ManagePreferences.setInstallDate(ManagePreferences.purchaseDate());
-        ManagePreferences.setAuthLastCheckTime(0L);
-        ManagePreferences.setFreeSub(true);
+      case 8:    // Stat: Toggle free subscriber
+        ManagePreferences.setFreeSub(!ManagePreferences.freeSub());
         break;
         
       case 9:     // Stat: Toggle Sponsor

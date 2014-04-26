@@ -3,6 +3,7 @@ package net.anei.cadpage.donation;
 import java.text.DateFormat;
 import java.util.Date;
 
+import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 
 /**
@@ -28,12 +29,17 @@ public class PaidExpireDonateEvent extends DonateScreenEvent {
   @Override
   protected Object[] getTextParms(int type) {
     
+    String subType = ManagePreferences.subscriptionType();
+   
     switch (type) {
+    
+    case PARM_TITLE:
+      return new Object[]{subType};
       
     case PARM_TEXT:
       Date expireDate = DonationManager.instance().expireDate();
       String sDate = DateFormat.getDateInstance(DateFormat.MEDIUM).format(expireDate);
-      return new Object[]{sDate};
+      return new Object[]{subType, sDate};
 
     default:
       return null;

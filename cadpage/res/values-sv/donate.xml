@@ -15,9 +15,9 @@
     %s\n
     Tack för ditt stöd. 
   </string>
-  <string name="donate_paid_title">Din prenumeration på Cadpage är aktuell.</string>
+  <string name="donate_paid_title">Din %s prenumeration på Cadpage är aktuell.</string>  <!-- Translate check -->
   <string name="donate_paid_text">
-    Du har en aktuell prenumeration på CadPage som gäller till %s
+    Du har en %1$s prenumeration på CadPage som gäller till %2$s  <!-- Translate check -->
   </string>
   <string name="donate_sponsor_title">Sponsrad av %s</string>
   <string name="donate_sponsor_text">
@@ -28,26 +28,26 @@
   <string name="donate_sponsor_noexp_text">
     Du använder en tjänst sponsrad av\n%1$s Stöd till utveckling och underhåll av CadPage har getts av denne. Inga ytterligare betalningar förväntas av dig så länge du utför tjänster tillhandahållna av denne sponsor.
   </string>
-  <string name="donate_paid_warn_title">Ditt abonnemang går ut om %d dagar</string>
-  <string name="donate_paid_warn_text">
-    Ditt abonnemang kommer att upphöra om %s. Du kan fortsätta att använda CadPage efter detta datum så länge du inte gör en ominstallation med en release daterad efter detta datum.
+  <string name="donate_paid_warn_title">Ditt %1$s abonnemang går ut om %2$d dagar</string> <!-- Translate check -->
+  <string name="donate_paid_warn_text">  <!-- Translate check -->
+    Ditt %1$s abonnemang kommer att upphöra om %2$s. Du kan fortsätta att använda CadPage efter detta datum så länge du inte gör en ominstallation med en release daterad efter detta datum.
   </string>
   <string name="donate_sponsor_warn_title">%1$s sponsortid upphör om %2$d dagar</string>
   <string name="donate_sponsor_warn_text">
     Du använder en tjänst spnsrad av  %1$s som upphör %2$s.  Kontakta vänligen %1$s
     för att förmå dem att fortsätta sponsra CadPage.
   </string>
-  <string name="donate_paid_limbo_title">Din prenumeration på Cadpage har gått ut</string>
+  <string name="donate_paid_limbo_title">Din %s prenumeration på Cadpage har gått ut</string>   <!-- Translate check -->
   <string name="donate_paid_limbo_text">
-    Din prenumeration på Cadpage gick ut %s.  Du kan fortsätta använda Cadpage så länge du inte installerar en release publicerad efter detta datum.
+    Din %1$s prenumeration på Cadpage gick ut %2$s.  Du kan fortsätta använda Cadpage så länge du inte installerar en release publicerad efter detta datum. <!-- Translate check -->
   </string>
   <string name="donate_sponsor_limbo_title">%s sponsring har gått ut</string>
   <string name="donate_sponsor_limbo_text">
     Du använder en tjänst sponsrad av %1$s som gick ut %2$s.  Du kan fortätta använda Cadpage så länge du inte installerar en release efter detta datum.  Vänligen kontakta %1$s för att uppmana dem att fortsätta sponsra Cadpage
   </string>
-  <string name="donate_paid_expire_title">Din prenumeration av Cadpage har gått ut</string>
+  <string name="donate_paid_expire_title">Din %s prenumeration av Cadpage har gått ut</string>  <!--  Translate check -->
   <string name="donate_paid_expire_text">
-    Abonnemanget på din aktuella Cadpage installation gick ut %s.
+    Abonnemanget %1$s på din aktuella Cadpage installation gick ut %2$s.    <!-- Translate check -->
   </string>
   <string name="donate_sponsor_expire_title">%s sponsring har gått ut.</string>
   <string name="donate_sponsor_expire_text">

@@ -62,7 +62,6 @@ public class DonationManager {
   // Cached overpaid days
   private int overpaidDays;
   
-  
   /**
    * Calculate all cached values
    */

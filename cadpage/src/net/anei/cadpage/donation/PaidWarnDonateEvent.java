@@ -3,12 +3,13 @@ package net.anei.cadpage.donation;
 import java.text.DateFormat;
 import java.util.Date;
 
+import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 
 /**
-Your Cadpage subscription will expire in %d days
+Your %s Cadpage subscription will expire in %d days
 
-Your current Cadpage subscription will expire on %s.  You can continue to 
+Your %s Cadpage subscription will expire on %s.  You can continue to 
 use Cadpage beyond that date as long as you do not install a release
 published after that date.
 
@@ -30,15 +31,17 @@ public class PaidWarnDonateEvent extends DonateScreenEvent {
   @Override
   protected Object[] getTextParms(int type) {
     
+    String subType = ManagePreferences.subscriptionType();
+
     switch (type) {
       
     case PARM_TITLE:
-      return new Object[]{DonationManager.instance().daysTillExpire()};
+      return new Object[]{subType, DonationManager.instance().daysTillExpire()};
       
     case PARM_TEXT:
       Date expireDate = DonationManager.instance().expireDate();
       String sDate = DateFormat.getDateInstance(DateFormat.MEDIUM).format(expireDate);
-      return new Object[]{sDate};
+      return new Object[]{subType, sDate};
 
     default:
       return null;

@@ -54,9 +54,9 @@
     Thank you for your support
   </string>
   
-  <string name="donate_paid_title">Your Cadpage subscription is current</string>
+  <string name="donate_paid_title">Your %s Cadpage subscription is current</string>
   <string name="donate_paid_text">
-    You have a current Cadpage subscription that is good until\n%s
+    You have a %1$s Cadpage subscription that is good until\n%2$s
   </string>
   
   <string name="donate_sponsor_title">Sponsored by %s</string>
@@ -75,9 +75,9 @@
     are using services provided by this sponsor.
   </string>
   
-  <string name="donate_paid_warn_title">Your subscription will expire in %d days</string>
+  <string name="donate_paid_warn_title">Your %1$s subscription will expire in %2$d days</string>
   <string name="donate_paid_warn_text">
-    Your current Cadpage subscription will expire on %s.  You can continue to 
+    Your %1$s Cadpage subscription will expire on %2$s.  You can continue to 
     use Cadpage beyond that date as long as you do not install a release
     published after that date.
   </string>
@@ -88,9 +88,9 @@
     about renewing their Cadpage sponsorship.
   </string>
   
-  <string name="donate_paid_limbo_title">Your Cadpage subscription has expired</string>
+  <string name="donate_paid_limbo_title">Your %s Cadpage subscription has expired</string>
   <string name="donate_paid_limbo_text">
-    Your current Cadpage subscription expired on %s.  You can continue to 
+    Your %1$s Cadpage subscription expired on %2$s.  You can continue to 
     use Cadpage as long as you do not install a release published after that date.
   </string>
   
@@ -101,9 +101,9 @@
     contact %1$s about renewing their Cadpage sponsorship.
   </string>
   
-  <string name="donate_paid_expire_title">Your Cadpage subscription has expired</string>
+  <string name="donate_paid_expire_title">Your %s Cadpage subscription has expired</string>
   <string name="donate_paid_expire_text">
-    Your current Cadpage subscription expired on %s.
+    Your %1$s Cadpage subscription expired on %2$s.
   </string>
   
   <string name="donate_sponsor_expire_title">%s sponsorship has expired</string>
@@ -306,5 +306,8 @@
   </string>
   
   <string name="confirm_reset_dispatch_address_title">Do it!</string>
+  
+  <string name="paid_subtype">paid</string>
+  <string name="free_subtype">free</string>
   
 </resources>
