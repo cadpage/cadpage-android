@@ -1,37 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04212014</string>
-  <string name="release_version">v1.7.17</string>
+  <string name="release_date">04262014</string>
+  <string name="release_version">v1.7.19</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+We expect to release a new Cadpage direct paging service in the next few weeks.
+The web page at www.cadpage.org has the details.\n
+\n
 New Locations:\n
-Jerome County, ID\n
-Lincoln County, ID\n
-Twin Falls County, ID\n
-Warren County, IA\n
-Green County, TX\n
-Van Alstyne, TX\n
-Grayson County, VA\n
+Boone County, MO\n
+Cherokee, NC\n
+Cherokee County, OK\n
+Clatsop County, OR\n
+Bradford County, PA\n
 \n
 Location Parsing Fixes:\n
-Hanford County, CA\n
-El Paso County, CO\n
-Simsbury, CT\n
-Kent County, DE\n
-Sussex County, DE\n
-Citrus County, FL\n
+Chilton County, AL\n
+Gooding County, ID\n
 Kane County, IL\n
-Kankakee County, IL\n
-Bay County, MI\n
-Wright County, MN\n
-Webster County, MO\n
 Atlanticare EMS, NJ\n
-Oleida County, NY\n
-Dulphin County, NC\n
-Orange County, NC\n
+Sussex County, NJ\n
+Licking County, OH\n
+Stark County, OH\n
 Erie County, PA\n
-Bell County, TX\n
   </string>
 </resources>
   
