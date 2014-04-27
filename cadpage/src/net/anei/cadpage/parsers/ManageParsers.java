@@ -179,6 +179,8 @@ public class ManageParsers {
         "MDHarford",          "MDHarfordCounty",        // 03/09/2014
         "TXWilliamsonCountyA","TXWilliamsonCounty",     // 04/24/2014  
         "TXWilliamsonCountyB","TXWilliamsonCounty",     // 04/24/2014
+        "VAPrinceWilliamCountyA","VAPrinceWilliamCounty",// 04/26/2014
+        "VAPrinceWilliamCountyB","VAPrinceWilliamCounty",// 04/26/2014
         
   });
 
