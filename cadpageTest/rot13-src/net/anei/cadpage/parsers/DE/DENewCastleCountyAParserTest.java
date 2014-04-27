@@ -389,7 +389,18 @@ choyvp pynff QRArjPnfgyrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgSverRzf271() {
-    
+
+    qbGrfg("G1",
+        "Fhowrpg:27PNQ\a" +
+        " [rSO] S00 10:20 1 - G:Z10P1 (PURFG CNVAF-QVSS OERNGUVAT) Y:400 A PNGUREVAR FG #25 ,BG -- ABEGU IVYYNTR NCGF ogja R YNXR FG ~ R YB\e ",
+
+        "FEP:27PNQ",
+        "PNYY:Z10P1 (PURFG CNVAF-QVSS OERNGUVAT)",
+        "NQQE:400 A PNGUREVAR FG",
+        "NCG:25",
+        "CYNPR:ABEGU IVYYNTR NCGF",
+        "K:R YNXR FG & R YB");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
