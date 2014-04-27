@@ -6,6 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Rzzrg Pbhagl, ZV
+
 PPR Prageny Qvfcngpu nyfb freiref Puneyribvk naq Purobltna naq Bfgrtb Pbhagvrf
 Pbagnpg: Tert Pynex <tpynex@ppr911.pbz>
 Flfgrz: Cntrtngr
@@ -29,6 +30,11 @@ PNQ:Zft:SLV: ;NZOHYNAPR;OPNZ;223 FVYIRE FG;[Zrqvpny Cevbevgl Vasb] CEBOYRZ: SRZN
 Pbagnpg: 382@foptybony.arg <5382@foptybony.arg>
 Fraqre: PNQ@ppr911.pbz 
 2906:PNQ:SLV: ;YVARF QBJA;409 R QVKBA NIR;PK;PKSQ 
+
+Pbagnpg: erqarpx_tnentr@lnubb.pbz <erqarpx_tnentr@lnubb.pbz>
+Fraqre: PNQ@ppr911.pbz
+82:PNQ:SLV: ;SVER;9117 A OYNPX EVIRE EQ;OAG;NISQ
+80:PNQ:SLV: ;OEHFU SVER;9117 A OYNPX EVIRE EQ;OAG;NISQ
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ovepujbbq RZF
@@ -515,6 +521,27 @@ choyvp pynff ZVRzzrgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PUNEYRIBVK",
         "FEP:PKSQ");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgErqarpxTnentr() {
+
+    qbGrfg("G1",
+        "82:PNQ:SLV: ;SVER;9117 A OYNPX EVIRE EQ;OAG;NISQ",
+        "VQ:82",
+        "PNYY:SVER",
+        "NQQE:9117 A OYNPX EVIRE EQ",
+        "PVGL:ORAGBA GJC",
+        "FEP:NISQ");
+
+    qbGrfg("G2",
+        "80:PNQ:SLV: ;OEHFU SVER;9117 A OYNPX EVIRE EQ;OAG;NISQ",
+        "VQ:80",
+        "PNYY:OEHFU SVER",
+        "NQQE:9117 A OYNPX EVIRE EQ",
+        "PVGL:ORAGBA GJC",
+        "FEP:NISQ");
+   
   }
 
   @Grfg

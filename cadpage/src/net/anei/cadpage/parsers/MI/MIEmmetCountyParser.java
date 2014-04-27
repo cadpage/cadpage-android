@@ -96,6 +96,9 @@ public class MIEmmetCountyParser extends DispatchOSSIParser {
       "CHN",  "CHANDLER TWP",
       "HDS",  "HUDSON",
       
+      // Cheboygan County
+      "BNT",  "BENTON TWP",
+      
       // Emmet County
       "BV",   "BAY VIEW",
       "HS",   "HARBOR SPRINGS",
