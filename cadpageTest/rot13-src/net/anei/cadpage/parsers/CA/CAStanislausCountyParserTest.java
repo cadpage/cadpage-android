@@ -122,6 +122,8 @@ NQQE svryq arrqf fbzr snapl ybtvp gb cnefr bhg
 nqqerff, cynpr, pvgl pbqr, ncg, znc, naq pebff fgerrgf
 
 V'yy gel gb trg gnoyrf bs pvgl naq pnyy pbqrf
+               "FN" : "Fnyvqn",
+               "ZB" : "Zbqrfgb"
 
  */
 
@@ -129,7 +131,7 @@ V'yy gel gb trg gnoyrf bs pvgl naq pnyy pbqrf
 choyvp pynff PNFgnavfynhfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp PNFgnavfynhfPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "FGNAVFYNHF PBHAGL", "PN");
+    frgCnefre(arj PNFgnavfynhfPbhaglCnefre(), "FGNAVFYNHF PBHAGL", "PN");
   }
   
   @Grfg
