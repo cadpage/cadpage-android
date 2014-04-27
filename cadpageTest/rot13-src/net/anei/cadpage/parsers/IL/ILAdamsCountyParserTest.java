@@ -129,7 +129,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:308 F 11GU FG",
-        "NCG: 1/2");
+        "NCG:1/2");
 
     qbGrfg("G2",
         "(PNQ Cntr sbe PSF 032014-119) DSQ-GGSQ-CSQ 10-33, 2215 WRSSREFBA FG",
@@ -156,7 +156,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:901 F 36GU FG",
-        "NCG: 100");
+        "NCG:100");
 
     qbGrfg("G6",
         "(PNQ Cntr sbe PSF 032014-19) DSQ-GGSQ-CSQ 10-33, 921 A 11GU FG",
@@ -171,7 +171,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:500 ZNVAR FG",
-        "NCG: 207");
+        "NCG:207");
 
     qbGrfg("G8",
         "(PNQ Cntr sbe PSF 031914-133) DSQ-GGSQ-CSQ 10-33, 2216 FCEVAT FG",
@@ -205,49 +205,49 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:PSF 031914-23",
         "PNYY:NZOHYNAPR 10-40",
         "NQQE:1123 A 6GU FG",
-        "NCG: sebag");
+        "NCG:sebag");
 
     qbGrfg("G13",
         "(PNQ Cntr sbe PSF 031914-9) SVER, HAXABJA, 519 CNLFBA NIR, 1/2",
         "VQ:PSF 031914-9",
-        "PNYY:SVER,  HAXABJA",
+        "PNYY:SVER, HAXABJA",
         "NQQE:519 CNLFBA NIR",
-        "NCG: 1/2");
+        "NCG:1/2");
 
     qbGrfg("G14",
         "(PNQ Cntr sbe PSF 031914-9) SVER, HAXABJA, 519 CNLFBA NIR, 1/2",
         "VQ:PSF 031914-9",
-        "PNYY:SVER,  HAXABJA",
+        "PNYY:SVER, HAXABJA",
         "NQQE:519 CNLFBA NIR",
-        "NCG: 1/2");
+        "NCG:1/2");
 
     qbGrfg("G15",
         "(PNQ Cntr sbe PSF 031914-9) SVER, HAXABJA, 519 CNLFBA NIR, 1/2",
         "VQ:PSF 031914-9",
-        "PNYY:SVER,  HAXABJA",
+        "PNYY:SVER, HAXABJA",
         "NQQE:519 CNLFBA NIR",
-        "NCG: 1/2");
+        "NCG:1/2");
 
     qbGrfg("G16",
         "(PNQ Cntr sbe PSF 031914-9) SVER, HAXABJA, 519 CNLFBA NIR, 1/2",
         "VQ:PSF 031914-9",
-        "PNYY:SVER,  HAXABJA",
+        "PNYY:SVER, HAXABJA",
         "NQQE:519 CNLFBA NIR",
-        "NCG: 1/2");
+        "NCG:1/2");
 
     qbGrfg("G17",
         "(PNQ Cntr sbe PSF 031914-9) SVER, HAXABJA, 519 CNLFBA NIR, 1/2",
         "VQ:PSF 031914-9",
-        "PNYY:SVER,  HAXABJA",
+        "PNYY:SVER, HAXABJA",
         "NQQE:519 CNLFBA NIR",
-        "NCG: 1/2");
+        "NCG:1/2");
 
     qbGrfg("G18",
         "(PNQ Cntr sbe PSF 031914-9) SVER, HAXABJA, 519 CNLFBA NIR, 1/2",
         "VQ:PSF 031914-9",
-        "PNYY:SVER,  HAXABJA",
+        "PNYY:SVER, HAXABJA",
         "NQQE:519 CNLFBA NIR",
-        "NCG: 1/2");
+        "NCG:1/2");
 
     qbGrfg("G19",
         "(PNQ Cntr sbe PSF 031814-186) NZOHYNAPR ARRQRQ, 613 ZBAEBR FG",
@@ -261,7 +261,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:527 OEBNQJNL FG",
-        "NCG: 1105");
+        "NCG:1105");
 
     qbGrfg("G21",
         "(PNQ Cntr sbe PSF 031814-154) DSQ-GGSQ-CSQ 10-33, 2201 XBPUF YA",
@@ -307,7 +307,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:101 A 4GU FG",
-        "NCG: 206");
+        "NCG:206");
 
     qbGrfg("G28",
         "(PNQ Cntr sbe PSF 031814-88) GGSQ-CSQ 10-33 AB DSQ, 612 A 11GU FG",
@@ -322,7 +322,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:527 OEBNQJNL FG",
-        "NCG: 910");
+        "NCG:910");
 
     qbGrfg("G30",
         "(PNQ Cntr sbe PSF 031814-71) , 701 UNZCFUVER FG",
@@ -348,7 +348,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:PSF 031814-56",
         "PNYY:ABA-VAWHEL",
         "NQQE:101 A 4GU FG",
-        "NCG: 205");
+        "NCG:205");
 
     qbGrfg("G34",
         "(PNQ Cntr sbe PSF 031814-35) ABA-VAWHEL, 2316 FG PUNEYRF QE",
@@ -361,7 +361,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:PSF 031714-173",
         "PNYY:NZOHYNAPR ARRQRQ",
         "NQQE:4611 FGNGR FG",
-        "NCG: 50");
+        "NCG:50");
 
     qbGrfg("G36",
         "(PNQ Cntr sbe PSF 031714-171) SVER, ABA-FGEHPGHER, 117 UNZCFUVER FG",
@@ -402,7 +402,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:527 OEBNQJNL FG",
-        "NCG: 910");
+        "NCG:910");
 
     qbGrfg("G42",
         "(PNQ Cntr sbe PSF 031714-131) DSQ-GGSQ-CSQ 10-33, 527 OEBNQJNL FG, 910",
@@ -410,7 +410,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:527 OEBNQJNL FG",
-        "NCG: 910");
+        "NCG:910");
 
     qbGrfg("G43",
         "(PNQ Cntr sbe PSF 031714-121) DSQ-GGSQ-CSQ 10-33, 308 F 10GU FG",
@@ -439,7 +439,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:2225 A 12GU FG",
-        "NCG: 401");
+        "NCG:401");
 
     qbGrfg("G47",
         "(PNQ Cntr sbe PSF 031714-87) ABA-VAWHEL, 1020 F 18GU FG",
@@ -518,7 +518,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:200 ZNVAR FG",
-        "NCG: 405");
+        "NCG:405");
 
     qbGrfg("G59",
         "(PNQ Cntr sbe PSF 031514-111) SVER, HAXABJA, A 22AQ FG naq FCEVAT FG",
@@ -538,7 +538,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:PSF 031514-105",
         "PNYY:TNF YRNX",
         "NQQE:527 OEBNQJNL FG",
-        "NCG: 1101");
+        "NCG:1101");
 
     qbGrfg("G62",
         "(PNQ Cntr sbe PSF 031514-106) DSQ-GGSQ-CSQ 10-33, 2814 A 12GU FG",
@@ -559,28 +559,28 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:PSF 031514-105",
         "PNYY:TNF YRNX",
         "NQQE:527 OEBNQJNL FG",
-        "NCG: 1101");
+        "NCG:1101");
 
     qbGrfg("G65",
         "(PNQ Cntr sbe PSF 031514-105) TNF YRNX, 527 OEBNQJNL FG, 1101",
         "VQ:PSF 031514-105",
         "PNYY:TNF YRNX",
         "NQQE:527 OEBNQJNL FG",
-        "NCG: 1101");
+        "NCG:1101");
 
     qbGrfg("G66",
         "(PNQ Cntr sbe PSF 031514-105) TNF YRNX, 527 OEBNQJNL FG, 1101",
         "VQ:PSF 031514-105",
         "PNYY:TNF YRNX",
         "NQQE:527 OEBNQJNL FG",
-        "NCG: 1101");
+        "NCG:1101");
 
     qbGrfg("G67",
         "(PNQ Cntr sbe PSF 031514-105) TNF YRNX, 527 OEBNQJNL FG, 1101",
         "VQ:PSF 031514-105",
         "PNYY:TNF YRNX",
         "NQQE:527 OEBNQJNL FG",
-        "NCG: 1101");
+        "NCG:1101");
 
     qbGrfg("G68",
         "(PNQ Cntr sbe PSF 031514-96) ABA-VAWHEL, 3211 YVAQRYY NIR",
@@ -632,7 +632,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:823 F 36GU FG",
-        "NCG: 204");
+        "NCG:204");
 
     qbGrfg("G76",
         "(PNQ Cntr sbe PSF 031414-187) DSQ-GGSQ-CSQ 10-33, 1742 WNPXFBA FG",
@@ -665,9 +665,9 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G80",
         "(PNQ Cntr sbe PSF 031414-81) Sver, Nynez, 4611 FGNGR FG, 37",
         "VQ:PSF 031414-81",
-        "PNYY:Sver,  Nynez",
+        "PNYY:Sver, Nynez",
         "NQQE:4611 FGNGR FG",
-        "NCG: 37");
+        "NCG:37");
 
     qbGrfg("G81",
         "(PNQ Cntr sbe PSF 031414-28) TNF YRNX, 2904 JURJRYY NIR",
@@ -706,7 +706,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:823 F 36GU FG",
-        "NCG: 220");
+        "NCG:220");
 
     qbGrfg("G87",
         "(PNQ Cntr sbe PSF 031314-189) DSQ-GGSQ-CSQ 10-33, 917 F 6GU FG",
@@ -727,7 +727,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:101 A 4GU FG",
-        "NCG: 604");
+        "NCG:604");
 
     qbGrfg("G90",
         "(PNQ Cntr sbe PSF 031314-161) DSQ-GGSQ-CSQ 10-33, 2641 ZNABE UVYY QE",
@@ -755,7 +755,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:1601 F 24GU FG",
-        "NCG: 201");
+        "NCG:201");
 
     qbGrfg("G94",
         "(PNQ Cntr sbe PSF 031314-21) ABA-VAWHEL, 1510 A 10GU FG",
@@ -769,7 +769,7 @@ choyvp pynff VYNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:DSQ-GGSQ-CSQ",
         "PNYY:10-33",
         "NQQE:200 ZNVAR FG",
-        "NCG: 311");
+        "NCG:311");
 
     qbGrfg("G96",
         "(PNQ Cntr sbe PSF 031314-13) Sver, Nynez, 1701 YBPHFG FG",

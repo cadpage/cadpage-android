@@ -21,6 +21,7 @@ public class ILAdamsCountyParser extends SmartAddressParser {
     else data.strCallId = subject.substring(13).trim();
     
     String[] fields = body.split(",");
+    for (int i = 0; i<fields.length; i++) fields[i] = fields[i].trim();
     
     // first group is either SRCCALL or just CALL
     Matcher mat = SRC_CALL.matcher(fields[0]);
@@ -45,7 +46,7 @@ public class ILAdamsCountyParser extends SmartAddressParser {
         res1.getData(data);
         data.strApt = fields[b];
       } else {
-        data.strCall = append(data.strCall, ",", fields[a]);
+        data.strCall = append(data.strCall, ", ", fields[a]);
         res2.getData(data);
       }
     } else if (fields.length > 1) { //( SRCCALL | CALL ) ADDR is the only 2 field format
