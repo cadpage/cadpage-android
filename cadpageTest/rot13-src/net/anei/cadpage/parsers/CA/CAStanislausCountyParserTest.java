@@ -131,7 +131,7 @@ V'yy gel gb trg gnoyrf bs pvgl naq pnyy pbqrf
 choyvp pynff PNFgnavfynhfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp PNFgnavfynhfPbhaglCnefreGrfg() {
-    frgCnefre(arj PNFgnavfynhfPbhaglCnefre(), "FGNAVFYNHF PBHAGL", "PN");
+    frgCnefre(arj QhzzlCnefre(), "FGNAVFYNHF PBHAGL", "PN");
   }
   
   @Grfg
