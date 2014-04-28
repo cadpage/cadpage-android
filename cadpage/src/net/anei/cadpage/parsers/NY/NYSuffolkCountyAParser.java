@@ -15,7 +15,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
   
   private static final Pattern APT_PTN = Pattern.compile("(.*)[: ](?:APT|ROOM|UNIT|STE) +#?([^ ]+)");
   private static final Pattern PLACE_MARK_PTN = Pattern.compile(": ?@|@|:|;");
-  private static final Pattern ADDR_CROSS_PTN = Pattern.compile("(.*)[ :][SC]/S(?: ?=)?(.*)");
+  private static final Pattern ADDR_CROSS_PTN = Pattern.compile("(.*)(?:[ :][SC]/S(?: ?=)?| X-)(.*)");
   private static final Pattern SPECIAL_PTN = Pattern.compile("(.*)(\\*\\*\\*_[_A-Z]+_\\*\\*\\*):?(.*)");
   
   public NYSuffolkCountyAParser() {
@@ -47,10 +47,17 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
     
     String sAddress = props.getProperty("LOC");
     if (sAddress == null) {
-      if (data.strCross.length() == 0) return false;
-      parseAddress(data.strCross, data);
-      data.strCross = "";
-    } else {
+      if (data.strCross.length() > 0) {
+        parseAddress(data.strCross, data);
+        data.strCross = "";
+      } else {
+        int pt = data.strCall.indexOf(" : ");
+        if (pt < 0) return false;
+         sAddress = data.strCall.substring(pt+3).trim();
+         data.strCall = data.strCall.substring(0,pt).trim();
+      }
+    }
+    if (sAddress != null) {
       Matcher match = APT_PTN.matcher(sAddress);
       if (match.matches()) {
         sAddress = match.group(1).trim();
@@ -198,6 +205,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "LITTGI",  "LITTLE GULL ISLAND",
       "LLOYDH",  "LLOYD HARBOR",
       "LONELY",  "LONELYVILLE",
+      "MA",      "MALVERNE",
       "MANORV",  "MANORVILLE",
       "MASSAP",  "MASSAPEQUA",
       "MASSPA",  "MASSAPEQUA PARK",
@@ -212,6 +220,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "MONTAU",  "MO NTAUK",
       "MORICH",  "MORICHES",
       "MOUNTS",  "MT SINAI",
+      "MSPK",    "MATTITUCK",
       "NAMITY",  "NORTH AMITYVILLE",
       "NAPEAG",  "NAPEAGUE",
       "NBABYL",  "NORTH BABYLON",
@@ -221,7 +230,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "NEWSUF",  "NEW SUFFOLK",
       "NGREAR",  "NORTH GREAT RIVER",
       "NHAVEN",  "NORTH HAVEN",
-      "NISSEQQ",  "NISSEQUOGUE",
+      "NISSEQ",  "NISSEQUOGUE",                          // Fixed
       "NLINDE",  "NORTH LINDENHURST",
       "NORTHP",  "NORTHPORT",
       "NORTHV",  "NORTHVILLE",
@@ -253,7 +262,8 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "PORTJS",  "PORT JEFFERSON STATION",
       "QUIOGU",  "QUIOGUE",
       "QUOGUE",  "QUOGUE",
-      "REMSEN",  "REMSENBERG-SPEONK",
+      "REMSEN",  "REMSENBURG",                           // fixed  
+      "REMSES",  "REMSENBURG-SPEONK",                    // new
       "RIDGE",   "RIDGE",
       "RIVERH",  "RIVERHEAD",
       "RIVERS",  "RIVERSIDE",
@@ -285,6 +295,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "SOUTHA",  "SOUTHAMPTON",
       "SOUTHO",  "SOUTHOLD",
       "SOUTHV",  "SOUTHAMPTON VILLAGE",
+      "SPEONK",  "SPEONK",                                    // new
       "SPRING",  "SPRINGS",
       "STONYB",  "STONY BROOK",
       "SUFFDC",  "SUFFOLK DEVELOPMENTAL CENTER",
