@@ -74,6 +74,21 @@ Fraqre: <qvfcngpu@pb.craavatgba.fq.hf>
 (Qvfcngpu) JY (Cevznel) SNYNEZ 415 PEBJA FG, JNYY, FQ 57790   02/16/14 23:06:29 - **TBYQRA JRFG .; 02/16/14 23:06:38 - TRARENY SVER / MBAR 2; 02/16/14 23:06:42 - CERZ/; 02/16/14 23:06:48 - CERZ/719 3750 02/16/14 23:05
 (Qvfcngpu) 29J1 (Cevznel); 2N72 (Cevznel); JY (Cevznel) NPPV 12 FGBAR QE, JNYY, FQ 57790   02/16/14 04:22:10 - IRU JRAG BSS GUR OEVQTR- QVQ ABG EBYY (QBJA VA QVGPU, ABG VA NAL JNGRE), ZVABE VAWHEVRF-ZBHGU VAWHEL, NYY CNEGVRF NER BHG; 02/16/14 04:22:33 - IRU/TEA ZVAVINA, AB BAR GENCCRQ 02/16/14 04:19
 
+******************************
+
+Pbagnpg: zzsneeryy <zzsneeryy@tjgp.arg>
+Fraqre: qvfcngpu@pb.craavatgba.fq.hf
+
+(.) Sver Qvfgevpgf Unljneq ISQ | UJ1; 29X2; ZRQ6 | URNQ | 13825 ONGGYR PERRX EQ | Arnerfg Vagre - ONGGYR PERRX EBNQ naq ERQ EVQTR EBNQ | 58-lrne-byq, Z
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Vagrevbe Ibyhagrre Sver Qrcg
+Ybpngvba: Vagrevbe, FQ, Havgrq Fgngrf
+Fraqre: <qvfcngpu@pb.craavatgba.fq.hf>
+
+(.) Sver Qvfgevpgf Onqynaqf AR Qvfgevpg | VA; 399N | NPPV | +43.784873, -101.945078 | Arnerfg Vagre - BYQ AR EQ naq FQ UJL 240 |  | 04/24/14 19:04:13 - TENIRY EBNQ VA ANGVBANY CNEX GUNG TBRF GB GUR EVTUG - PBZR VA SEBZ AR RAGENAPR; 04/24/14 19:04:38 - EC NCCEBK 15 LEQF FBHGU BS NPPVQRAG FPRAR; 04/24/14 19:05:15 - EBYY BIRE- SRZNYR GUEBJA SEBZ PNE; 04/24/14 19:05:32 - YVP/39?717; 04/24/14 19:05:48 - OYX FHI; 04/24/14 19:06:07 - IRU BA VGF JURRYF NYBAT GUR SRAPR YVAR |  | 04/24/14 19:03
+(.) Sver Qvfgevpgf Onqynaqf AR Qvfgevpg | VA | SNYNEZ | 20695 FQ UJL 240 | Arnerfg Vagre - FQ UJL 240 naq FQ UJL 377 |  | 04/24/14 12:41:50 - SVER NYNEZ MBAR 39 |  | 04/24/14 12:41
+
 */
 choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
@@ -210,6 +225,11 @@ choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:6-Q-1",
         "VASB:1-zbagu-byq, Znyr, Pbafpvbhf, Oernguvat. / Abg nyreg  1. Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat");
  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZzsneeryy() {
+    
   }
 
   @Grfg
@@ -433,6 +453,49 @@ choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:IRU JRAG BSS GUR OEVQTR- QVQ ABG EBYY (QBJA VA QVGPU, ABG VA NAL JNGRE), ZVABE VAWHEVRF-ZBHGU VAWHEL, NYY CNEGVRF NER BHG;\aIRU/TEA ZVAVINA, AB BAR GENCCRQ",
         "QNGR:02/16/14",
         "GVZR:04:19");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZZSneeryy2() {
+
+    qbGrfg("G1",
+        "(.) Sver Qvfgevpgf Unljneq ISQ | UJ1; 29X2; ZRQ6 | URNQ | 13825 ONGGYR PERRX EQ | Arnerfg Vagre - ONGGYR PERRX EBNQ naq ERQ EVQTR EBNQ | 58-lrne-byq, Z",
+        "FEP:Sver Qvfgevpgf Unljneq ISQ",
+        "HAVG:UJ1 29X2 ZRQ6",
+        "PNYY:URNQ",
+        "NQQE:13825 ONGGYR PERRX EQ",
+        "K:ONGGYR PERRX EBNQ naq ERQ EVQTR EBNQ",
+        "VASB:58-lrne-byq, Z");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgVagrevbeIbyhagrreSverQrcg2() {
+
+    qbGrfg("G1",
+        "(.) Sver Qvfgevpgf Onqynaqf AR Qvfgevpg | VA; 399N | NPPV | +43.784873, -101.945078 | Arnerfg Vagre - BYQ AR EQ naq FQ UJL 240 |  | 04/24/14 19:04:13 - TENIRY EBNQ VA ANGVBANY CNEX GUNG TBRF GB GUR EVTUG - PBZR VA SEBZ AR RAGENAPR; 04/24/14 19:04:38 - EC NCCEBK 15 LEQF FBHGU BS NPPVQRAG FPRAR; 04/24/14 19:05:15 - EBYY BIRE- SRZNYR GUEBJA SEBZ PNE; 04/24/14 19:05:32 - YVP/39?717; 04/24/14 19:05:48 - OYX FHI; 04/24/14 19:06:07 - IRU BA VGF JURRYF NYBAT GUR SRAPR YVAR |  | 04/24/14 19:03",
+        "FEP:Sver Qvfgevpgf Onqynaqf AR Qvfgevpg",
+        "HAVG:VA 399N",
+        "PNYY:NPPV",
+        "NQQE:+43.784873, -101.945078",
+        "ZNQQE:+43.784873,-101.945078",
+        "K:BYQ AR EQ naq FQ UJL 240",
+        "VASB:TENIRY EBNQ VA ANGVBANY CNEX GUNG TBRF GB GUR EVTUG - PBZR VA SEBZ AR RAGENAPR\aEC NCCEBK 15 LEQF FBHGU BS NPPVQRAG FPRAR\aEBYY BIRE- SRZNYR GUEBJA SEBZ PNE\aYVP/39?717\aOYX FHI\aIRU BA VGF JURRYF NYBAT GUR SRAPR YVAR",
+        "QNGR:04/24/14",
+        "GVZR:19:03");
+
+    qbGrfg("G2",
+        "(.) Sver Qvfgevpgf Onqynaqf AR Qvfgevpg | VA | SNYNEZ | 20695 FQ UJL 240 | Arnerfg Vagre - FQ UJL 240 naq FQ UJL 377 |  | 04/24/14 12:41:50 - SVER NYNEZ MBAR 39 |  | 04/24/14 12:41",
+        "FEP:Sver Qvfgevpgf Onqynaqf AR Qvfgevpg",
+        "HAVG:VA",
+        "PNYY:SNYNEZ",
+        "NQQE:20695 FQ UJL 240",
+        "ZNQQE:20695 FQ 240",
+        "K:FQ UJL 240 naq FQ UJL 377",
+        "VASB:SVER NYNEZ MBAR 39",
+        "QNGR:04/24/14",
+        "GVZR:12:41");
 
   }
 

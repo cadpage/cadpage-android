@@ -4,17 +4,17 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser;
 
 /**
  * Pennington County, SD
  */
-public class SDPenningtonCountyParser extends SmartAddressParser {
+public class SDPenningtonCountyParser extends FieldProgramParser {
   
   public SDPenningtonCountyParser() {
-    super(CITY_LIST, "PENNINGTON COUNTY", "SD");
-    setFieldList("UNIT CALL ADDR APT CITY CODE INFO DATE TIME");
+    super(CITY_LIST, "PENNINGTON COUNTY", "SD",
+          "SRC UNIT CALL ADDR! X? INFO+? DATETIME END");
     setupCallList(CALL_LIST);
   }
 
@@ -25,11 +25,54 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    if (subject.equals(".")) return parseFields(body.split("\\|"), 4, data);
     if (subject.equalsIgnoreCase("Dispatch")) return parseFireCall(body, data);
     if (subject.equalsIgnoreCase("MEDICAL")) return parseMedicalCall(body, data);
     return false;
   }
 
+  // *************************************************************************
+  // Parse new pipe delimited format
+  // *************************************************************************
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("X")) return new CrossField("Nearest Inter - *(.*)", true);
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d\\d \\d\\d:\\d\\d", true);
+    return super.getField(name);
+  }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace("; ", " ");
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern INFO_DATE_TIME_PTN = Pattern.compile("\\d\\d/\\d\\d/\\d\\d \\d\\d:\\d\\d:\\d\\d - *(.*)");
+  private static final String TRUNC_DATE_TIME_MARK = "NN/NN/NN NN:NN:NN -";
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      for (String part : field.split(";")) {
+        part = part.trim();
+        if (part.length() == 0) continue;
+        Matcher match = INFO_DATE_TIME_PTN.matcher(part);
+        if (match.matches()) {
+          data.strSupp = append(data.strSupp, "\n", match.group(1));
+        }
+        else if (TRUNC_DATE_TIME_MARK.startsWith(part.replaceAll("\\d", "N"))) continue;
+        else data.strSupp = append(data.strSupp, "; ", part);
+      }
+    }
+  }
+
+  // *************************************************************************
+  // Parse old fire format
+  // *************************************************************************
   private static final Pattern UNIT_PTN = Pattern.compile("^([A-Z0-9]+)(?: +\\(Primary\\))?; *");
   private static final Pattern UNIT_PTN2 = Pattern.compile("^([A-Z0-9]+) +(?:\\(Primary\\) +)?");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("[- ]*\\b(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d(?::\\d\\d)?)\\b[- ]*");
@@ -38,6 +81,7 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
   private static final Pattern CODE_PTN2 = Pattern.compile("^Code: *([-A-Z0-9]+): *");
   
   private boolean parseFireCall(String body, Data data) {
+    setFieldList("UNIT CALL ADDR APT CITY CODE INFO DATE TIME");
     
     // Parser unit information
     while (true) {
@@ -114,8 +158,13 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
     return true;
   }
   
+
+  // *************************************************************************
+  // Parse old medical format
+  // *************************************************************************
   private static final Pattern MED_SPLIT_PTN = Pattern.compile("(.*?)(?: +FOR +|  +)(.*)");
   private boolean parseMedicalCall(String body, Data data) {
+    setFieldList("ADDR APT CITY CALL");
     body = stripFieldEnd(body, "[Attachment(s) removed]");
     Matcher match = MED_SPLIT_PTN.matcher(body);
     if (match.matches()) {
@@ -141,6 +190,7 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
       "FALARM",
       "FIRE",
       "GRASSF",
+      "HEAD",
       "SICK",
       "SICK-C",
       "SMFIRE",
