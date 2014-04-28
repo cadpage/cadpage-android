@@ -38,6 +38,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new CrossField("Nearest Inter - *(.*)", true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d\\d \\d\\d:\\d\\d", true);
@@ -49,6 +50,25 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       field = field.replace("; ", " ");
       super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*?) *, *([A-Z ]+?) *, SD +\\d{5}");
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = ADDR_CITY_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1);
+        data.strCity = match.group(2);
+        fixCity(data);
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " CITY";
     }
   }
   
@@ -151,11 +171,15 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       }
       data.strSupp = append(data.strSupp, "\n", info);
     }
+    fixCity(data);
+        
+    return true;
+  }
+
+  private void fixCity(Data data) {
     if (data.strCity.equals("PENNCO")) data.strCity = "";
     else if (data.strCity.equals("JACKCO")) data.strCity = "JACKSON COUNTY";
     else if (data.strCity.equals("MEADCO")) data.strCity = "MEADE COUNTY";
-        
-    return true;
   }
   
 
@@ -188,6 +212,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "CHEST-D",
       "FALARM DELTA",
       "FALARM",
+      "FALL-B",
       "FIRE",
       "GRASSF",
       "HEAD",
