@@ -283,6 +283,7 @@ public class ParserList {
               ,"IDTwinFallsCounty"              ,"Twin Falls County, ID"
           ),
           new ParserCategory("Illinois"
+              ,"ILAdamsCounty"                  ,"Adams County, IL"
               ,"ILChampaignUrbana"              ,"Champaign-Urbana, IL"
               ,"ILCookCounty"                   ,"Cook County, IL"
               ,"ILDuPageCounty"                 ,"DuPage County, IL"
