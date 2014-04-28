@@ -105,6 +105,10 @@ Fraqre: cntvat@fpserf.pbz
 GLCR: PVGVMRA NFFVFG/FREIVPR PNYY YBP: 27 GRYYNE QE VFYVCG   PEBFF: R ANFFNH FG / R SNEZVATQNYR FG PBQR: 53-O-4 GVZR: 09:54:16
 GLCR: PBAIHYFVBAF / FRVMHERF YBP: 2701 JO FHAEVFR FREIVPR EQ VFYVCG : @FGBAL OEBBX CRQVNGVP PRAGRE VFYVC GREENPR  PEBFF: JO EG 27 BSS ENZC - FE 111 /
 
+Pbagnpg: ebofznyyratvar@lnubb.pbz <ebofznyyratvar@lnubb.pbz>
+Fraqre: cntvat@fpserf.pbz
+GLCR: PVGVMRA NFFVFG/FREIVPR PNYY YBP: 585 FCEHPR NI FNLIVY   PEBFF: VFYNAQ OYIQ / GREEL EQ PBQR: qrsnhyg GVZR: 17:39:32
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Oeragjbbq Sver Qrcnegzrag
 Ybpngvba: Oeragjbbq, AL, Havgrq Fgngrf
@@ -115,7 +119,6 @@ GLCR: IRUVPYR SVERF YBP: 502 JVPXF EQ OERAGJ :CBYVPR NPNQRZL  PEBFF: SNVEQNYR QE
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zrqsbeq Ibyhagrre Nzohynapr
 Ybpngvba: Zrqsbeq, AL, Havgrq Fgngrf
-Fraqre: <CEVAGVAT@FPSERF.PBZ>
 Fraqre: "SERF PNQ" <cntvat@fpserf.pbz>
 
 GLCR: NYYRETVRF (ERNPGVBA) / RAIRABZNGVBA (FGVAT, OVGR) YBP: 2695 EBHGR 112 ZRQSBE : @PBZSBEG VAA ZRQSBEQ EZ 102  PEBFF: EBOVAFBA NI / JNIREYL NI PBQR
@@ -3812,6 +3815,20 @@ choyvp pynff ALFhssbyxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:FGBAL OEBBX CRQVNGVP PRAGRE VFYVC GREENPR",
         "K:JO EG 27 BSS ENZC - FE 111");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEbofFznyyRatvar() {
+
+    qbGrfg("G1",
+        "GLCR: PVGVMRA NFFVFG/FREIVPR PNYY YBP: 585 FCEHPR NI FNLIVY   PEBFF: VFYNAQ OYIQ / GREEL EQ PBQR: qrsnhyg GVZR: 17:39:32",
+        "PNYY:PVGVMRA NFFVFG/FREIVPR PNYY",
+        "NQQE:585 FCEHPR NI",
+        "ZNQQE:585 FCEHPR NIR",
+        "PVGL:FNLIVYYR",
+        "K:VFYNAQ OYIQ / GREEL EQ",
+        "GVZR:17:39:32");
+    
   }
 
   @Grfg
