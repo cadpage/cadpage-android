@@ -230,7 +230,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "NEWSUF",  "NEW SUFFOLK",
       "NGREAR",  "NORTH GREAT RIVER",
       "NHAVEN",  "NORTH HAVEN",
-      "NISSEQ",  "NISSEQUOGUE",                          // Fixed
+      "NISSEQ",  "NISSEQUOGUE",
       "NLINDE",  "NORTH LINDENHURST",
       "NORTHP",  "NORTHPORT",
       "NORTHV",  "NORTHVILLE",
@@ -262,8 +262,8 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "PORTJS",  "PORT JEFFERSON STATION",
       "QUIOGU",  "QUIOGUE",
       "QUOGUE",  "QUOGUE",
-      "REMSEN",  "REMSENBURG",                           // fixed  
-      "REMSES",  "REMSENBURG-SPEONK",                    // new
+      "REMSEN",  "REMSENBURG",  
+      "REMSES",  "REMSENBURG-SPEONK",
       "RIDGE",   "RIDGE",
       "RIVERH",  "RIVERHEAD",
       "RIVERS",  "RIVERSIDE",
@@ -295,7 +295,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "SOUTHA",  "SOUTHAMPTON",
       "SOUTHO",  "SOUTHOLD",
       "SOUTHV",  "SOUTHAMPTON VILLAGE",
-      "SPEONK",  "SPEONK",                                    // new
+      "SPEONK",  "SPEONK",
       "SPRING",  "SPRINGS",
       "STONYB",  "STONY BROOK",
       "SUFFDC",  "SUFFOLK DEVELOPMENTAL CENTER",
@@ -305,8 +305,8 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "SYOSSE",  "SYOSSET",
       "TALISM",  "TALISMAN",
       "TERRYV",  "TERRYVILLE",
-      "TOBAY",  "TOBAY",
-      "UPTON",  "UPTON",
+      "TOBAY",   "TOBAY",
+      "UPTON",   "UPTON",
       "USCGST",  "US COAST GUARD STATION",
       "VILLAB",  "VILLAGE OF THE BRANCH",
       "WADINR",  "WADING RIVER",
