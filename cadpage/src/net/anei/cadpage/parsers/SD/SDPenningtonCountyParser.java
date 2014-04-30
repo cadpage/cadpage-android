@@ -221,6 +221,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "SMFIRE",
       "SICK PERSON DELTA LEVEL",
       "STRUCF",
+      "UNCON",
       "UNCON CHILD",
       "VEHF",
       "VEHF-B1"
