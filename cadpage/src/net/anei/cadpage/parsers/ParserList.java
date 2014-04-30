@@ -346,6 +346,7 @@ public class ParserList {
               ,"KSLeavenworthCounty"            ,"Leavenworth County, KS"
               ,"KSMiamiCounty"                  ,"Miami County, KS"
               ,"KSMontgomeryCounty"             ,"Montgonery County, KS"
+              ,"KSNeoshoCounty"                 ,"Neosho County, KS"
               ,"KSRenoCounty"                   ,"Reno County, KS"
               ,"KSSedgwickCounty"               ,"Sedgwick County, KS"
           ),
@@ -480,6 +481,7 @@ public class ParserList {
               ,"MOCrawfordCounty"               ,"Crawford County, MO"
               ,"MODallasCounty"                 ,"Dallas County, MO"
               ,"MOFestus"                       ,"Festus, MO"
+              ,"MOFranklinCounty"               ,"Franklin County, MO"
               ,"MOGasconadeCounty"              ,"Gasconade County, MO"
               ,"MOGreeneCounty"                 ,"Greene County, MO"
               ,"MOIronCounty"                   ,"Iron County, MO"
@@ -879,6 +881,7 @@ public class ParserList {
           ),
           new ParserCategory("Texas"
               ,"TXAcadianAmbulance"             ,"Acadian Ambulance, TX"
+              ,"TXAngleton"                     ,"Angleton, TX"
               ,"TXBellCounty"                   ,"Bell County, TX"
               ,"TXBexarCounty"                  ,"Bexar County, TX"
               ,"TXBrazoriaCounty"               ,"Brazoria County, TX"
