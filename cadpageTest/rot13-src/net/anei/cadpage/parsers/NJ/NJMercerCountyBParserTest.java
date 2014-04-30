@@ -120,12 +120,1468 @@ UGZY cnefre
 choyvp pynff AWZreprePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp AWZreprePbhaglOCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "ZREPRE PBHAGL", "AW");
+    frgCnefre(arj AWZreprePbhaglOCnefre(), "ZREPRE PBHAGL", "AW");
   }
   
   @Grfg
   choyvp ibvq grfgCnefre() {
 
+    qbGrfg("G1",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 280 CEVAPRGBA UVTUGFGBJA EQ (EG 571), JRFG JVAQFBE GJC  ( ORAGYRL,  JRFGOEBBXR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: JVERF</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-62</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-64</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:280 CEVAPRGBA UVTUGFGBJA EQ",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, R43-1, 45-62, 45-64, N145",
+        "PNYY:JVERF");
+
+    qbGrfg("G2",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 280 CEVAPRGBA UVTUGFGBJA EQ (EG 571), JRFG JVAQFBE GJC  ( ORAGYRL,  JRFGOEBBXR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: JVERF</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (2) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:280 CEVAPRGBA UVTUGFGBJA EQ",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 45",
+        "PNYY:JVERF");
+
+    qbGrfg("G3",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: &nzc;ORNE PERRX NFFVFGRQ YVIVAT  (291 IVYYNTR EQ R), JRFG JVAQFBE GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:& ORNE PERRX NFFVFGRQ YVIVAT",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, P43",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G4",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: &nzc;ORNE PERRX NFFVFGRQ YVIVAT  (291 IVYYNTR EQ R), JRFG JVAQFBE GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (2) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:& ORNE PERRX NFFVFGRQ YVIVAT",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G5",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: &nzc;ORNE PERRX NFFVFGRQ YVIVAT  (291 IVYYNTR EQ R), JRFG JVAQFBE GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (2) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:& ORNE PERRX NFFVFGRQ YVIVAT",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G6",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 49 FUREOEBBXR EQ, RJVAT GJC  ( XVYZRE,  UNEQJVPX)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 3110</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: OHVYQVAT</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:49 FUREOEBBXR EQ",
+        "PVGL:RJVAT GJC",
+        "ZNC:3110",
+        "HAVG:R44",
+        "PNYY:OHVYQVAT");
+
+    qbGrfg("G7",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 291 IVYYNTR EQ R (EG 644), JRFG JVAQFBE GJC  ( WHFGVA,  FBHGUSVRYQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (6) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: E44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: Y43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145-3</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:291 IVYYNTR EQ R",
+        "ZNC:4320",
+        "HAVG:R43, R43-1, E44, QP43, Y43, N145-3",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G8",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 291 IVYYNTR EQ R (EG 644), JRFG JVAQFBE GJC  ( WHFGVA,  FBHGUSVRYQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (7) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: E44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: Y43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145-3</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:291 IVYYNTR EQ R",
+        "ZNC:4320",
+        "HAVG:R43, FGNGVBA 44, E44, QP43, Y43, N145-3, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G9",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 291 IVYYNTR EQ R (EG 644), JRFG JVAQFBE GJC  ( WHFGVA,  FBHGUSVRYQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (7) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: E44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: Y43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145-3</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:291 IVYYNTR EQ R",
+        "ZNC:4320",
+        "HAVG:R43, FGNGVBA 44, E44, P43, Y43, N145-3, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G10",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 291 IVYYNTR EQ R (EG 644), JRFG JVAQFBE GJC  ( WHFGVA,  FBHGUSVRYQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (6) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: Y43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145-3</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:291 IVYYNTR EQ R",
+        "ZNC:4320",
+        "HAVG:R43, FGNGVBA 44, P43, Y43, N145-3, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G11",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 291 IVYYNTR EQ R (EG 644), JRFG JVAQFBE GJC  ( WHFGVA,  FBHGUSVRYQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: Y43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145-3</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:291 IVYYNTR EQ R",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 44, P43, Y43, N145-3, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G12",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 291 IVYYNTR EQ R (EG 644), JRFG JVAQFBE GJC  ( WHFGVA,  FBHGUSVRYQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: Y43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:291 IVYYNTR EQ R",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, Y43, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G13",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 291 IVYYNTR EQ R (EG 644), JRFG JVAQFBE GJC  ( WHFGVA,  FBHGUSVRYQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:291 IVYYNTR EQ R",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G14",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 291 IVYYNTR EQ R (EG 644), JRFG JVAQFBE GJC  ( WHFGVA,  FBHGUSVRYQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:291 IVYYNTR EQ R",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G15",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: &nzc;CRAAVATGBA EBNQ SVER PB &yg;FGNGVBA 32&tg;  (1664 CRAAVATGBA EQ), RJVAT GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 3210</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PBIRE NFFVTAZRAG</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (2) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: OHPXF-Y30</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:& CRAAVATGBA EBNQ SVER PB",
+        "ZNC:3210",
+        "HAVG:R44, OHPXF-Y30",
+        "PNYY:PBIRE NFFVTAZRAG");
+
+    qbGrfg("G16",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 25 UVTUCBVAG CY, JRFG JVAQFBE GJC  ( FNCCUVER,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: TNF YRNX - RKGREVBE</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-62</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: Y43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145-3</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:25 UVTUCBVAG CY",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:R43-1, 45-62, Y43, N145-3",
+        "PNYY:TNF YRNX - RKGREVBE");
+
+    qbGrfg("G17",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 25 UVTUCBVAG CY, JRFG JVAQFBE GJC  ( FNCCUVER,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: TNF YRNX - RKGREVBE</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:25 UVTUCBVAG CY",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, R43-1, FGNGVBA 45",
+        "PNYY:TNF YRNX - RKGREVBE");
+
+    qbGrfg("G18",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 25 UVTUCBVAG CY, JRFG JVAQFBE GJC  ( FNCCUVER,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: TNF YRNX - RKGREVBE</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (2) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:25 UVTUCBVAG CY",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 45",
+        "PNYY:TNF YRNX - RKGREVBE");
+
+    qbGrfg("G19",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: &nzc;YNJERAPR EBNQ SQ &yg;FGNGVBA 22&tg;  (1252 YNJERAPR EQ), YNJERAPR GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 2210</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PBIRE NFFVTAZRAG</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: E44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R49-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: OHPXF-Y30</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R053</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:& YNJERAPR EBNQ SQ",
+        "ZNC:2210",
+        "HAVG:E44, R49-1, OHPXF-Y30, R053",
+        "PNYY:PBIRE NFFVTAZRAG");
+
+    qbGrfg("G20",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 15131 ZNEVR PG, JRFG JVAQFBE GJC  ( URNGURE,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PNEOBA ZBABKVQR NYNEZ</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: E44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:15131 ZNEVR PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 44, E44, QP44",
+        "PNYY:PNEOBA ZBABKVQR NYNEZ");
+
+    qbGrfg("G21",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 15131 ZNEVR PG, JRFG JVAQFBE GJC  ( URNGURE,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PNEOBA ZBABKVQR NYNEZ</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (2) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:15131 ZNEVR PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 44, QP44",
+        "PNYY:PNEOBA ZBABKVQR NYNEZ");
+
+    qbGrfg("G22",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 15131 ZNEVR PG, JRFG JVAQFBE GJC  ( URNGURE,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PNEOBA ZBABKVQR NYNEZ</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:15131 ZNEVR PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 44",
+        "PNYY:PNEOBA ZBABKVQR NYNEZ");
+
+    qbGrfg("G23",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 14 YR CNEP QE, JRFG JVAQFBE GJC  ( NYZBAQ,  ERQJBBQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: Y43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:14 YR CNEP QE",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:R43, P43, Y43",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G24",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 14 YR CNEP PG, JRFG JVAQFBE GJC  ( RNFGREA,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: Y43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:14 YR CNEP PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 44, R44, P43, Y43",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G25",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 14 YR CNEP PG, JRFG JVAQFBE GJC  ( RNFGREA,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: Y43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:14 YR CNEP PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, P43, Y43",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G26",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 14 YR CNEP PG, JRFG JVAQFBE GJC  ( RNFGREA,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:14 YR CNEP PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, P43",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G27",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 14 YR CNEP PG, JRFG JVAQFBE GJC  ( RNFGREA,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:14 YR CNEP PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, P43, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G28",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 14 YR CNEP PG, JRFG JVAQFBE GJC  ( RNFGREA,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:14 YR CNEP PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G29",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 14 YR CNEP PG, JRFG JVAQFBE GJC  ( RNFGREA,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:14 YR CNEP PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G30",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 48 PNEQVANYSYBJRE YA, JRFG JVAQFBE GJC  ( TENAQR,  TENAQR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PNEOBA ZBABKVQR NYNEZ</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-62</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:48 PNEQVANYSYBJRE YA",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, R43-1, P43, 45-62, N145",
+        "PNYY:PNEOBA ZBABKVQR NYNEZ");
+
+    qbGrfg("G31",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 48 PNEQVANYSYBJRE YA, JRFG JVAQFBE GJC  ( TENAQR,  TENAQR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PNEOBA ZBABKVQR NYNEZ</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-62</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:48 PNEQVANYSYBJRE YA",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, R43-1, 45-62, N145",
+        "PNYY:PNEOBA ZBABKVQR NYNEZ");
+
+    qbGrfg("G32",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 48 PNEQVANYSYBJRE YA, JRFG JVAQFBE GJC  ( TENAQR,  TENAQR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PNEOBA ZBABKVQR NYNEZ</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (2) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:48 PNEQVANYSYBJRE YA",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 45",
+        "PNYY:PNEOBA ZBABKVQR NYNEZ");
+
+    qbGrfg("G33",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 48 PNEQVANYSYBJRE YA, JRFG JVAQFBE GJC  ( TENAQR,  TENAQR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PNEOBA ZBABKVQR NYNEZ</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-62</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: Y43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:48 PNEQVANYSYBJRE YA",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:R43-1, 45-62, Y43, N145",
+        "PNYY:PNEOBA ZBABKVQR NYNEZ");
+
+    qbGrfg("G34",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 48 PNEQVANYSYBJRE YA, JRFG JVAQFBE GJC  ( TENAQR,  TENAQR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PNEOBA ZBABKVQR NYNEZ</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-62</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:48 PNEQVANYSYBJRE YA",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, R43-1, 45-62, N145",
+        "PNYY:PNEOBA ZBABKVQR NYNEZ");
+
+    qbGrfg("G35",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 48 PNEQVANYSYBJRE YA, JRFG JVAQFBE GJC  ( TENAQR,  TENAQR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PNEOBA ZBABKVQR NYNEZ</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (2) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:48 PNEQVANYSYBJRE YA",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 45",
+        "PNYY:PNEOBA ZBABKVQR NYNEZ");
+
+    qbGrfg("G36",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: F ZVYY EQ, JRFG JVAQFBE GJC\\GREEL YA, JRFG JVAQFBE GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: TNF YRNX - RKGREVBE</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:F ZVYY EQ",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, R43, P43",
+        "PNYY:TNF YRNX - RKGREVBE");
+
+    qbGrfg("G37",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: F ZVYY EQ, JRFG JVAQFBE GJC\\GREEL YA, JRFG JVAQFBE GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: TNF YRNX - RKGREVBE</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:F ZVYY EQ",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, P43, FGNGVBA 45",
+        "PNYY:TNF YRNX - RKGREVBE");
+
+    qbGrfg("G38",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: F ZVYY EQ, JRFG JVAQFBE GJC\\GREEL YA, JRFG JVAQFBE GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: TNF YRNX - RKGREVBE</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (2) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:F ZVYY EQ",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 45",
+        "PNYY:TNF YRNX - RKGREVBE");
+
+    qbGrfg("G39",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 301 EBHFVYYBA PG, JRFG JVAQFBE GJC  ( UNZYRG,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (8) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-64</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: Y43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:301 EBHFVYYBA PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 44, R44, P43, QP43, 45-64, Y43, N145, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G40",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 301 EBHFVYYBA PG, JRFG JVAQFBE GJC  ( UNZYRG,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (7) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-64</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: Y43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:301 EBHFVYYBA PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 44, P43, QP43, 45-64, Y43, N145, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G41",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 301 EBHFVYYBA PG, JRFG JVAQFBE GJC  ( UNZYRG,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (7) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-64</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: Y43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:301 EBHFVYYBA PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, P43, 45-64, Y43, N145, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G42",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 301 EBHFVYYBA PG, JRFG JVAQFBE GJC  ( UNZYRG,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:301 EBHFVYYBA PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, P43, N145, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G43",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 301 EBHFVYYBA PG, JRFG JVAQFBE GJC  ( UNZYRG,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:301 EBHFVYYBA PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G44",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 301 EBHFVYYBA PG, JRFG JVAQFBE GJC  ( UNZYRG,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:301 EBHFVYYBA PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G45",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: F ZVYY EQ, JRFG JVAQFBE GJC\\EHZSBEQ JNL, JRFG JVAQFBE GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: TNF YRNX - RKGREVBE</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: GEX44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:F ZVYY EQ",
+        "ZNC:4320",
+        "HAVG:R43, R44, GEX44, QP43, P44",
+        "PNYY:TNF YRNX - RKGREVBE");
+
+    qbGrfg("G46",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: F ZVYY EQ, JRFG JVAQFBE GJC\\EHZSBEQ JNL, JRFG JVAQFBE GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: TNF YRNX - RKGREVBE</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:F ZVYY EQ",
+        "ZNC:4320",
+        "HAVG:R43, R44, QP43, P44, FGNGVBA 45",
+        "PNYY:TNF YRNX - RKGREVBE");
+
+    qbGrfg("G47",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: F ZVYY EQ, JRFG JVAQFBE GJC\\EHZSBEQ JNL, JRFG JVAQFBE GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: TNF YRNX - RKGREVBE</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:F ZVYY EQ",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, R43, QP43, P44, FGNGVBA 45",
+        "PNYY:TNF YRNX - RKGREVBE");
+
+    qbGrfg("G48",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: F ZVYY EQ, JRFG JVAQFBE GJC\\EHZSBEQ JNL, JRFG JVAQFBE GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: TNF YRNX - RKGREVBE</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:F ZVYY EQ",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, QP43, P44, FGNGVBA 45",
+        "PNYY:TNF YRNX - RKGREVBE");
+
+    qbGrfg("G49",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: F ZVYY EQ, JRFG JVAQFBE GJC\\EHZSBEQ JNL, JRFG JVAQFBE GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: TNF YRNX - RKGREVBE</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:F ZVYY EQ",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, QP43, FGNGVBA 45",
+        "PNYY:TNF YRNX - RKGREVBE");
+
+    qbGrfg("G50",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: F ZVYY EQ, JRFG JVAQFBE GJC\\EHZSBEQ JNL, JRFG JVAQFBE GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: TNF YRNX - RKGREVBE</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (2) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:F ZVYY EQ",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 45",
+        "PNYY:TNF YRNX - RKGREVBE");
+
+    qbGrfg("G51",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 26 URERSBEQ QE, JRFG JVAQFBE GJC  ( JBEPURFGRE,  NEABYQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:26 URERSBEQ QE",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:R43, FGNGVBA 44, R44, P44, N145",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G52",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 26 URERSBEQ QE, JRFG JVAQFBE GJC  ( JBEPURFGRE,  NEABYQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (6) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:26 URERSBEQ QE",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 43, R43, FGNGVBA 44, P44, N145, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G53",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 26 URERSBEQ QE, JRFG JVAQFBE GJC  ( JBEPURFGRE,  NEABYQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:26 URERSBEQ QE",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, P44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G54",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 26 URERSBEQ QE, JRFG JVAQFBE GJC  ( JBEPURFGRE,  NEABYQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:26 URERSBEQ QE",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, P44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G55",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 26 URERSBEQ QE, JRFG JVAQFBE GJC  ( JBEPURFGRE,  NEABYQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:26 URERSBEQ QE",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G56",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 996 NYRKNAQRE EQ, JRFG JVAQFBE GJC  ( UNEEVF,  CEVAPRGBA UVTUGFGBJA)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:996 NYRKNAQRE EQ",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, P44, QP44",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G57",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 996 NYRKNAQRE EQ, JRFG JVAQFBE GJC  ( UNEEVF,  CEVAPRGBA UVTUGFGBJA)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:996 NYRKNAQRE EQ",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, QP44",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G58",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 996 NYRKNAQRE EQ, JRFG JVAQFBE GJC  ( UNEEVF,  CEVAPRGBA UVTUGFGBJA)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (2) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:996 NYRKNAQRE EQ",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 43, FGNGVBA 44",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G59",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 996 NYRKNAQRE EQ, JRFG JVAQFBE GJC  ( UNEEVF,  CEVAPRGBA UVTUGFGBJA)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (2) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:996 NYRKNAQRE EQ",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 43, FGNGVBA 44",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G60",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 300 PNEARTVR PG JRFG JVAQFBE GJC  ( OEHAFJVPX,  PNANY CBVAGR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (7) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QVE45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-62</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145-3</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:300 PNEARTVR PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "HAVG:R43-1, FGNGVBA 44, P43, P44, QVE45, 45-62, N145-3",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G61",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 300 PNEARTVR PG JRFG JVAQFBE GJC  ( OEHAFJVPX,  PNANY CBVAGR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (6) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-62</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145-3</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:300 PNEARTVR PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "HAVG:FGNGVBA 43, R43-1, FGNGVBA 44, P44, 45-62, N145-3",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G62",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 300 PNEARTVR PG JRFG JVAQFBE GJC  ( OEHAFJVPX,  PNANY CBVAGR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145-3</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:300 PNEARTVR PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, P44, N145-3, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G63",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 300 PNEARTVR PG JRFG JVAQFBE GJC  ( OEHAFJVPX,  PNANY CBVAGR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:300 PNEARTVR PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G64",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 300 PNEARTVR PG JRFG JVAQFBE GJC  ( OEHAFJVPX,  PNANY CBVAGR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:300 PNEARTVR PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G65",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 17133 GENIVF PG, JRFG JVAQFBE GJC  ( URNGURE,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PNEOBA ZBABKVQR NYNEZ</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: E44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:17133 GENIVF PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 44, E44, P44, QP44",
+        "PNYY:PNEOBA ZBABKVQR NYNEZ");
+
+    qbGrfg("G66",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 17133 GENIVF PG, JRFG JVAQFBE GJC  ( URNGURE,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PNEOBA ZBABKVQR NYNEZ</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:17133 GENIVF PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 44, P44, QP44",
+        "PNYY:PNEOBA ZBABKVQR NYNEZ");
+
+    qbGrfg("G67",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 17133 GENIVF PG, JRFG JVAQFBE GJC  ( URNGURE,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PNEOBA ZBABKVQR NYNEZ</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (2) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:17133 GENIVF PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 44, QP44",
+        "PNYY:PNEOBA ZBABKVQR NYNEZ");
+
+    qbGrfg("G68",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 17133 GENIVF PG, JRFG JVAQFBE GJC  ( URNGURE,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PNEOBA ZBABKVQR NYNEZ</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:17133 GENIVF PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 44",
+        "PNYY:PNEOBA ZBABKVQR NYNEZ");
+
+    qbGrfg("G69",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 24 FCNEEBJ QE, JRFG JVAQFBE GJC  ( RZVYL,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145-3</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:24 FCNEEBJ QE",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:R43, FGNGVBA 44, R44, QP43, N145-3",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G70",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 24 FCNEEBJ QE, JRFG JVAQFBE GJC  ( RZVYL,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (6) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145-3</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:24 FCNEEBJ QE",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, R43, FGNGVBA 44, QP43, N145-3, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G71",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 24 FCNEEBJ QE, JRFG JVAQFBE GJC  ( RZVYL,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:24 FCNEEBJ QE",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, QP43, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G72",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 24 FCNEEBJ QE, JRFG JVAQFBE GJC  ( RZVYL,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:24 FCNEEBJ QE",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G73",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 24 FCNEEBJ QE, JRFG JVAQFBE GJC  ( RZVYL,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:24 FCNEEBJ QE",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G74",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 560 ANFFNH CNEX OYIQ, JRFG JVAQFBE GJC  ( DHNXREOEVQTR,  OEHAFJVPX)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4410</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145-3</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:560 ANFFNH CNEX OYIQ",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4410",
+        "HAVG:FGNGVBA 44, R44, N145-3",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G75",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 560 ANFFNH CNEX OYIQ, JRFG JVAQFBE GJC  ( DHNXREOEVQTR,  OEHAFJVPX)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4410</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (2) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:560 ANFFNH CNEX OYIQ",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4410",
+        "HAVG:FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G76",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 14 JNFUVATGBA EQ, JRFG JVAQFBE GJC  ( FGNGVBA,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4420</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: FZBXR PBAQVGVBA</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:14 JNFUVATGBA EQ",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4420",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:FZBXR PBAQVGVBA");
+
+    qbGrfg("G77",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 164 PENAOHEL EQ (EG 615), JRFG JVAQFBE GJC  ( ZVYYFGBAR,  PYNEXFIVYYR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: FZBXR PBAQVGVBA</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (7) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QVE45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-62</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:164 PENAOHEL EQ",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 43, R43-1, FGNGVBA 44, P44, QVE45, 45-62, FGNGVBA 45",
+        "PNYY:FZBXR PBAQVGVBA");
+
+    qbGrfg("G78",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 164 PENAOHEL EQ (EG 615), JRFG JVAQFBE GJC  ( ZVYYFGBAR,  PYNEXFIVYYR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: FZBXR PBAQVGVBA</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:164 PENAOHEL EQ",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:FZBXR PBAQVGVBA");
+
+    qbGrfg("G79",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 164 PENAOHEL EQ (EG 615), JRFG JVAQFBE GJC  ( ZVYYFGBAR,  PYNEXFIVYYR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: FZBXR PBAQVGVBA</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-62</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:164 PENAOHEL EQ",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, P44, 45-62, FGNGVBA 45",
+        "PNYY:FZBXR PBAQVGVBA");
+
+    qbGrfg("G80",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 164 PENAOHEL EQ (EG 615), JRFG JVAQFBE GJC  ( ZVYYFGBAR,  PYNEXFIVYYR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4430</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: FZBXR PBAQVGVBA</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:164 PENAOHEL EQ",
+        "ZNC:4430",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:FZBXR PBAQVGVBA");
+
+    qbGrfg("G81",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 545 ZRNQBJ EQ, JRFG JVAQFBE GJC  ( PBHAGELFVQR,  PYNEXFIVYYR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4420</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (6) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: GEX44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-62</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:545 ZRNQBJ EQ",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4420",
+        "HAVG:R43-1, FGNGVBA 44, GEX44, P44, 45-62, N145",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G82",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 545 ZRNQBJ EQ, JRFG JVAQFBE GJC  ( PBHAGELFVQR,  PYNEXFIVYYR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4420</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:545 ZRNQBJ EQ",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4420",
+        "HAVG:FGNGVBA 43, R43-1, FGNGVBA 44, P44, N145",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G83",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 545 ZRNQBJ EQ, JRFG JVAQFBE GJC  ( PBHAGELFVQR,  PYNEXFIVYYR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4420</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: P44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:545 ZRNQBJ EQ",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4420",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, P44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G84",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 545 ZRNQBJ EQ, JRFG JVAQFBE GJC  ( PBHAGELFVQR,  PYNEXFIVYYR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4420</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:545 ZRNQBJ EQ",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4420",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G85",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 545 ZRNQBJ EQ, JRFG JVAQFBE GJC  ( PBHAGELFVQR,  PYNEXFIVYYR)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4420</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:545 ZRNQBJ EQ",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4420",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G86",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 2031 BYQ GERAGBA EQ (EG 535), JRFG JVAQFBE GJC  ( QBEPURFGRE,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: E43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-62</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:2031 BYQ GERAGBA EQ",
+        "ZNC:4320",
+        "HAVG:R43-1, E43, R44, 45-62",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G87",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 2031 BYQ GERAGBA EQ (EG 535), JRFG JVAQFBE GJC  ( QBEPURFGRE,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-62</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:2031 BYQ GERAGBA EQ",
+        "ZNC:4320",
+        "HAVG:R43-1, R44, 45-62, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G88",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 2031 BYQ GERAGBA EQ (EG 535), JRFG JVAQFBE GJC  ( QBEPURFGRE,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R43-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: 45-62</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:2031 BYQ GERAGBA EQ",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, R43-1, FGNGVBA 44, 45-62, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G89",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 2031 BYQ GERAGBA EQ (EG 535), JRFG JVAQFBE GJC  ( QBEPURFGRE,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:2031 BYQ GERAGBA EQ",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G90",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 2031 BYQ GERAGBA EQ (EG 535), JRFG JVAQFBE GJC  ( QBEPURFGRE,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4320</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - PBZZREPVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:2031 BYQ GERAGBA EQ",
+        "ZNC:4320",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - PBZZREPVNY");
+
+    qbGrfg("G91",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 24103 CRNPUGERR PG, YNJERAPR GJC  ( CRNPUGERR QE,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 2350</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: BQBE BS FZBXR</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (8) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R12</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 22</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 21</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 20</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 23</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: GEX44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N129-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:24103 CRNPUGERR PG",
+        "ZNC:2350",
+        "HAVG:R12, FGNGVBA 22, FGNGVBA 21, FGNGVBA 20, FGNGVBA 23, GEX44, N129-1, QP44",
+        "PNYY:BQBE BS FZBXR");
+
+    qbGrfg("G92",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 24103 CRNPUGERR PG, YNJERAPR GJC  ( CRNPUGERR QE,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 2350</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: BQBE BS FZBXR</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (7) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R12</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 22</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 21</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 20</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 23</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: GEX44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N129-1</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:24103 CRNPUGERR PG",
+        "ZNC:2350",
+        "HAVG:R12, FGNGVBA 22, FGNGVBA 21, FGNGVBA 20, FGNGVBA 23, GEX44, N129-1",
+        "PNYY:BQBE BS FZBXR");
+
+    qbGrfg("G93",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 12 UNZCFGRNQ PG, JRFG JVAQFBE GJC  ( UREVGNTR,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4410</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R043</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:12 UNZCFGRNQ PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4410",
+        "HAVG:FGNGVBA 44, R44, QP44, R043",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G94",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 12 UNZCFGRNQ PG, JRFG JVAQFBE GJC  ( UREVGNTR,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4410</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R043</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:12 UNZCFGRNQ PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4410",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, QP44, R043, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G95",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 12 UNZCFGRNQ PG, JRFG JVAQFBE GJC  ( UREVGNTR,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4410</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:12 UNZCFGRNQ PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4410",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, QP44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G96",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 12 UNZCFGRNQ PG, JRFG JVAQFBE GJC  ( UREVGNTR,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4410</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:12 UNZCFGRNQ PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4410",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G97",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 12 UNZCFGRNQ PG, JRFG JVAQFBE GJC  ( UREVGNTR,  QRNQ RAQ)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4410</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (3) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 45</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:12 UNZCFGRNQ PG",
+        "PVGL:JRFG JVAQFBE GJC",
+        "ZNC:4410",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, FGNGVBA 45",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G98",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: &nzc;YNJERAPRIVYYR SQ ZNVA FGNGVBA &yg;FGNGVBA 23&tg;  (64 CUVYYVCF NIR), YNJERAPR GJC</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 2310</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: PBIRE NFFVTAZRAG</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:& YNJERAPRIVYYR SQ ZNVA FGNGVBA",
+        "ZNC:2310",
+        "HAVG:R44",
+        "PNYY:PBIRE NFFVTAZRAG");
+
+    qbGrfg("G99",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 424 F CBFG EQ (EG 602), JRFG JVAQFBE GJC  ( QRNQ RAQ,  BYQ GERAGBA)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4310</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (5) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: R44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:424 F CBFG EQ",
+        "ZNC:4310",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, R44, QP43, N145",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
+
+    qbGrfg("G100",
+        "(Abgvsvpngvba) ﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
+        "         U2 {grkg-qrpbengvba:haqreyvar; PBYBE: oynpx; SBAG-SNZVYL: Nevny; Sbag-fvmr: 10cg ; } \a" +
+        "         GU {PBYBE: oynpx; SBAG-SNZVYL: Nevny; onpxtebhaq-pbybe: juvgr;Sbag-fvmr: 9cg;} \a" +
+        "         GQ {PBYBE: oynpx; SBAG-SNZVYL: Nevny} GE { onpxtebhaq-pbybe: juvgr; Sbag-fvmr: 9cg} \a" +
+        "         GE.pyfBqq { onpxtebhaq-Pbybe: #pppppp; }</FGLYR><U1>Zrepre Sver Snk Evc naq Eha</U1><U2 /><U2 GrkgVq=\"52158\">Erfcbafr<fcna> (1) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"3\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"50%\"><o><SBAG fvmr=\"-1\" GrkgVq=\"52169\">Ybpngvba: 424 F CBFG EQ (EG 602), JRFG JVAQFBE GJC  ( QRNQ RAQ,  BYQ GERAGBA)</SBAG></o></gq><gq JVQGU=\"50%\" GrkgVq=\"52164\">Mbar Anzr: 4310</gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"52161\">Erfcbafr Glcr: NYNEZ FLFGRZ - ERFVQRAGVNY</gq><gq JVQGU=\"50%\" GrkgVq=\"52483\">NynezYriry: </gq></ge><ge><gq JVQGU=\"50%\" GrkgVq=\"21187\">Njner Vasb: </gq></ge></gnoyr><U2 GrkgVq=\"52177\">Havgf<fcna> (4) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\"><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: FGNGVBA 44</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: QP43</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge><ge><gq JVQGU=\"33%\" GrkgVq=\"52178\">Anzr: N145</gq></ge><ge><gq pbyfcna=\"3\"><ue PBYBE=\"#SSSSS\" /></gq></ge></gnoyr><U2 GrkgVq=\"52173\">Hfre Abgrf<fcna> (0) </fcna></U2><gnoyr obeqre=\"0\" obeqrePbybe=\"juvgr\" pryyCnqqvat=\"0\" pryyFcnpvat=\"0\" inyvta=\"GBC\" JVQGU=\"100%\" />\a" +
+        "<oe><oe>\a" +
+        "<C nyvta=pragre><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\">Guvf zrffntr unf orra fpnaarq sbe znyjner ol Jrofrafr.  </SBAG><N uers=\"uggc://jjj.jrofrafr.pbz/\"><SBAG fglyr=\"ONPXTEBHAQ-PBYBE: #ssssss\" pbybe=#000000>jjj.jrofrafr.pbz</SBAG></N></C>",
+
+        "NQQE:424 F CBFG EQ",
+        "ZNC:4310",
+        "HAVG:FGNGVBA 43, FGNGVBA 44, QP43, N145",
+        "PNYY:NYNEZ FLFGRZ - ERFVQRAGVNY");
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

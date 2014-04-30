@@ -96,6 +96,21 @@ import net.anei.cadpage.parsers.FieldProgramParser;
  *      ordinal value as the domain.  E.g., div=0, table=4.  When the data is actually
  *      retrieved, like domains will be processed together to reduce execution time.
  *      
+ *    XPATH=value
+ *      Use value as XPath to get the value.  MULTIPLE is assumed.  You can limit the
+ *      values used with XBEGIN=n and XEND=n.  The default values use the entire result.
+ *      REMOVE and SEPARATOR= work normally.  EXCLUDE excludes data values rather than
+ *      labels.  LABEL, OFFSET, CLOSEST, XMIN, YMIN, XMAX and YMAX have no effect.
+ *      
+ *    XBEGIN=value
+ *      XPath evaluation results in an array of matching nodes.  XBEGIN tells HtmlParser
+ *      to use only values from the array with an index of value or greater.
+ *      Defaults to 0.
+ *      
+ *    XEND=value
+ *      This is the highest position in an XPath array from which to use data.  A value of
+ *      -1 means no higher bound.  Defaults to -1.
+ *      
  *    All of the options and element names are case-insensitive.  Any string value in / / is
  *    case-sensitive.
  *    
@@ -126,6 +141,9 @@ public class HtmlParser extends FieldProgramParser {
     private String         exclude;
     private String         remove;
     private String         value;
+    private String         xPath;
+    private int           xBegin;
+    private int           xEnd;
     
     /* Constructor */
     ParseInfo() {
@@ -149,6 +167,9 @@ public class HtmlParser extends FieldProgramParser {
       exclude = "";
       remove = "";
       value = "";
+      xPath = "";
+      xBegin = 0;
+      xEnd = -1;
     }
     
     // Accessors
@@ -186,6 +207,12 @@ public class HtmlParser extends FieldProgramParser {
     public void remove(String r) { remove = r; }
     public String value() { return value; }
     public void value(String v) { value = v; }
+    public String xPath() { return xPath; }
+    public void xPath(String xp) { xPath = xp; }
+    public int xBegin() { return xBegin; }
+    public void xBegin(int xb) { xBegin = xb; }
+    public int xEnd() { return xEnd; }
+    public void xEnd(int xe) { xEnd = xe; }
   }
   
   /* Constructors */
@@ -335,6 +362,12 @@ public class HtmlParser extends FieldProgramParser {
       pi.yMin(Integer.parseInt(v));
     else if (a.equalsIgnoreCase("ymax"))
       pi.yMax(Integer.parseInt(v));
+    else if (a.equalsIgnoreCase("xpath"))
+      pi.xPath(stringContent(v));
+    else if (a.equalsIgnoreCase("xbegin"))
+      pi.xBegin(Integer.parseInt(v));
+    else if (a.equalsIgnoreCase("xend"))
+      pi.xEnd(Integer.parseInt(v));
     else
       pi.domain(a.toLowerCase()+"="+v);
   }
@@ -482,6 +515,11 @@ public class HtmlParser extends FieldProgramParser {
     while (t.hasNext()) {
       String tag = t.next();
       ParseInfo pi = layout.get(tag);
+      if (!pi.xPath.equals("")) {
+        getXPathValue(top, pi);
+        tagSet.remove(tag);
+        finalTagSet.remove(tag);
+      }
       if (el.equals("")) {
         el = pi.element();
         finalTagSet.remove(tag);
@@ -504,6 +542,23 @@ public class HtmlParser extends FieldProgramParser {
     return (!finalTagSet.isEmpty());
   }
 
+  /*
+   * Evaluate XPath to get the value
+   */
+  private void getXPathValue(TagNode top, ParseInfo pi) {
+    Object[] node = null;
+    try {
+      node = top.evaluateXPath(pi.xPath());
+    }  catch (XPatherException e) {
+      throw new RuntimeException(e.getMessage());
+    }
+    for (int n=pi.xBegin(); n<node.length && (pi.xEnd() == -1 || n<=pi.xEnd()); n++) {
+      String v = ((TagNode)node[n]).getText().toString();
+      if (pi.exclude().equals("") || !v.contains(pi.exclude()))
+        pi.value(append(pi.value(), pi.separator(), cleanValue(v, pi)));
+    }
+  }
+  
   /*
    * Save the original values of row and col to xMin & yMin
    */
@@ -559,11 +614,13 @@ public class HtmlParser extends FieldProgramParser {
             colNum++;
         rs = getRowSpan(cell);
         cs = getColSpan(cell);
-        for (int row = rowNum; row < rowNum+rs; row++)
-          findTableCellValues(cell, row, colNum, tagSet);
-        if (rs > 1)
-          for (int col=colNum; col <= colNum+cs; col++)
-            descender.put(col, rs);
+        for (int row = rowNum; row < rowNum+rs; row++) {
+          for (int col=colNum; col <= colNum+cs; col++) {
+            findTableCellValues(cell, row, col, tagSet);
+            if (row == rowNum && rs > 1)
+              descender.put(col, rs);
+          }
+        }
         colNum += cs;
       }
       rowNum++;
@@ -620,11 +677,13 @@ public class HtmlParser extends FieldProgramParser {
       if (pi.row() != -2 && pi.col() != -2) {
         if ((pi.row() == -1 || pi.row() == rowNum)
             && (pi.col() == -1 || pi.col() == colNum))
-          pi.value(append(pi.value, pi.separator(), cell.getText().toString()));
+          pi.value(append(pi.value, pi.separator(), cleanValue(cell.getText().toString(), pi)));
       }
       else
         if (!pi.label().equals("")) {
-          if (cell.getText().toString().contains(pi.label()))
+          String cellText = cell.getText().toString();
+          if (cellText.contains(pi.label())
+              && (pi.exclude().equals("") || !cellText.contains(pi.exclude())))
             if (pi.row() > -2)
               pi.col(colNum);
             else
@@ -639,36 +698,23 @@ public class HtmlParser extends FieldProgramParser {
   
   private void findValues(TagNode top, String el, Set<String> tagSet) {
 //    System.out.println("findValues(): Element: \""+el+"\"");
-//    Object[] node = null;
-//    if (el.equalsIgnoreCase("td"))
-//      el = "tr/td";
-//    try {
-//      node = top.evaluateXPath(el);
-//    }  catch (XPatherException e) {
-//      System.out.println("FindValues()"+e.getMessage());
-//    }
-    ArrayList<TagNode> nodeSet = getElementList(top, el);
-    if (nodeSet == null) {
-      System.out.println("Got null element list in findValues()");
-      return;
-    }
     /*
-    Iterator<TagNode> n = nodeSet.iterator();
-    int j = 0;
-    while (n.hasNext()) {
-      TagNode nd = n.next();
-      String l = nd.getText().toString();
-      System.out.println(j+": \""+l+"\"");
-      j++;
-    }
+    ArrayList<TagNode> nodeSet = getElementList(top, el);
     */
-    Set<String> done = findLabelIndependentValues(nodeSet, tagSet);
+    if (top == null)
+      return;
+    TagNode[] node = top.getElementsByName(el, true);
+    if (node == null)
+      // System.out.println("Got null element list in findValues()");
+      return;
+    Set<String> done = findLabelIndependentValues(node, tagSet);
     Iterator<String> i = done.iterator();
     while (i.hasNext())
       tagSet.remove(i.next());
-    findLabelDependentValues(nodeSet, tagSet);
+    findLabelDependentValues(node, tagSet);
    }
   
+  /*
   // Why is this necessary??? v2.4 worked
   private ArrayList<TagNode> getElementList(TagNode top, String el) {
     if (top == null)
@@ -676,28 +722,15 @@ public class HtmlParser extends FieldProgramParser {
     if (el == null)
       return null;
     TagNode[] nodeList = top.getElementsByName(el, true);
-//    TagNode[] nodeList = top.getAllElements(true);
-/*    Iterator<TagNode> n = nodeList.iterator();
- * 
- */
-    
+//    TagNode[] nodeList = top.getAllElements(true);    
     ArrayList<TagNode> ret = new ArrayList<TagNode>();
-    /*
-    for (int n=0; n<nodeList.length; n++) {
-      TagNode c = nodeList[n];
-      if (c != null) {
-        String cname = c.getName();
-        if (cname != null && cname.equalsIgnoreCase(el))
-          ret.add(c);
-      }
-    }
-    */
     for (int n=0; n<nodeList.length; n++)
       ret.add(nodeList[n]);
     return ret;
   }
+  */
   
-  private Set<String> findLabelIndependentValues(ArrayList<TagNode> nodeList, Set<String> tagSet) {
+  private Set<String> findLabelIndependentValues(TagNode[] node, Set<String> tagSet) {
     Set<String> ret = new HashSet<String>();
     Iterator<String> t = tagSet.iterator();
     while (t.hasNext()) {
@@ -707,11 +740,11 @@ public class HtmlParser extends FieldProgramParser {
         Iterator<Integer> o = pi.offset().iterator();
         while (o.hasNext()) {
           int os = o.next();
-          if (os < nodeList.size()) {
-            TagNode vnode = nodeList.get(os);
+          if (os < node.length) {
+            TagNode vnode = node[os];
             String v = vnode.getText().toString();
             if (pi.exclude().equals("") || !v.contains(pi.exclude()))
-              pi.value(append(pi.value(), pi.separator(), cleanValue(v, pi).trim()));
+              pi.value(append(pi.value(), pi.separator(), cleanValue(v, pi)));
           }
         }
         ret.add(tag);
@@ -720,11 +753,11 @@ public class HtmlParser extends FieldProgramParser {
     return ret;
   }
   
-  private void findLabelDependentValues(ArrayList<TagNode> nodeList, Set<String> tagSet) {
+  private void findLabelDependentValues(TagNode[] node, Set<String> tagSet) {
     Iterator<String> t;
     Set<String> done = new HashSet<String>();
-    for (int n=0; n<nodeList.size(); n++) {
-      TagNode vnode = nodeList.get(n);
+    for (int n=0; n<node.length; n++) {
+      TagNode vnode = node[n];
       String v = vnode.getText().toString();
       if (!v.equals("")) {
         t = tagSet.iterator();
@@ -733,18 +766,18 @@ public class HtmlParser extends FieldProgramParser {
           ParseInfo pi = layout.get(tag);
           if (v.contains(pi.label())) {
             if (pi.closest()) {
-              findClosestInWindow(vnode, nodeList, pi);
+              findClosestInWindow(vnode, node, pi);
               done.add(tag);
             }
             else {
               Iterator<Integer> o = pi.offset().iterator();
               while (o.hasNext()) {
                 int off = n+o.next();
-                if (off >=0 && off < nodeList.size()) {
-                  vnode = nodeList.get(off);
+                if (off >=0 && off < node.length) {
+                  vnode = node[off];
                   v = vnode.getText().toString();
                   if (pi.exclude().equals("") || !v.contains(pi.exclude())) {
-                    pi.value(append(pi.value(), pi.separator(), cleanValue(v, pi).trim()));
+                    pi.value(append(pi.value(), pi.separator(), cleanValue(v, pi)));
                     if (!pi.multiple())
                       done.add(tag);
                   }
@@ -767,7 +800,7 @@ public class HtmlParser extends FieldProgramParser {
    * works with elements positioned with a style attribute within the tag.
    */
   private void findClosestInWindow (TagNode node,
-                                    ArrayList<TagNode> nodeList,
+                                     TagNode[] allNode,
                                     ParseInfo pi) {
     String style = node.getAttributeByName("style");
     if (style == null)
@@ -778,8 +811,8 @@ public class HtmlParser extends FieldProgramParser {
     if (x == -1 || y == -1)
       return;
 //    System.out.println("Reference node: x:"+x+", y:"+y+", text:"+node.getText().toString());
-    for (int n=0; n<nodeList.size(); n++) {
-      TagNode testNode = nodeList.get(n);
+    for (int n=0; n<allNode.length; n++) {
+      TagNode testNode = allNode[n];
       if (testNode != null) {
         style = testNode.getAttributeByName("style");
         if (style != null) {
@@ -792,16 +825,15 @@ public class HtmlParser extends FieldProgramParser {
               && x - testX <= pi.xMin()
               && testY - y <= pi.yMax()
               && y - testY <= pi.yMin()) {
-            if (pi.multiple()) {
+            if (pi.multiple())
 //              System.out.println("x:"+testX+", y:"+testY+", text:"+testNode.getText().toString());
-              pi.value(append(pi.value(), pi.separator(), testNode.getText().toString()));
-            }
+              pi.value(append(pi.value(), pi.separator(), cleanValue(testNode.getText().toString(), pi)));
             else {
               int distance = (testX - x)*(testX - x) + (testY - y)*(testY - y);
               if (del == -1 || distance < del) {
                 del = distance;
 //              System.out.println("del:"+del+", x:"+testX+", y:"+testY+", text:"+testNode.getText().toString());
-                pi.value(testNode.getText().toString());
+                pi.value(cleanValue(testNode.getText().toString(), pi));
               }
             }
           }
@@ -828,12 +860,18 @@ private int findLeft(String style) {
   return -1;
 }
 
+/*
+ * Remove specified text and trim
+ */
   private String cleanValue(String v, ParseInfo pi) {
     if (pi.removeLabel())
       v = v.replace(pi.label(), "");
-    return v.replace(pi.remove(), "");
+    return v.replace(pi.remove(), "").trim();
   }
   
+  /*
+   * Get the top level node for a domain
+   */
   private TagNode getTop(String dom) {
     if (dom.equals("*"))
       return root;
@@ -996,6 +1034,10 @@ private int findLeft(String style) {
   private TagNode getElement(String name, int n) {
     return getElement(root, name, n);
   }
+
+  private TagNode[] getElements(String name) {
+    return getElements(root, name);
+  }
   
   /*
    * Gets the nth element of type name under top
@@ -1010,6 +1052,10 @@ private int findLeft(String style) {
     return l[n];
   }
 
+  private TagNode[] getElements(TagNode top, String name) {
+    return top.getElementsByName(name, false);
+  }
+  
   /*
    * 
    *
