@@ -205,6 +205,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
   
   private static final CodeSet CALL_LIST = new CodeSet(
       "ACCI",
+      "BLEED-B",
       "BREATH",
       "BREATH-D1",
       "CARDIAC-E",
@@ -221,6 +222,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "SMFIRE",
       "SICK PERSON DELTA LEVEL",
       "STRUCF",
+      "TRAUMA-B",
       "UNCON",
       "UNCON CHILD",
       "VEHF",
