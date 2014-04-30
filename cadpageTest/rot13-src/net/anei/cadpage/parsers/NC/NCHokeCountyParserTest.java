@@ -174,6 +174,10 @@ Pbagnpg: Wnfba Fnjlre (wnfba.fnjlre@dhvpxfreivprfyyp.pbz) <wnfba.fnjlre@dhvpxfre
 Fraqre: Ubxr911@ubxrpbhagl.bet
 Ubxr911:6535 WNPBOF PERRX PVE* * * * * *** * * SVERUBHFR* * * * * * Yvar16=* Yvar17=* Yvar18=04/28/2014 17:14:22 : cbf3 : EPEHZCYRE3351 BSS ZNEPHF WNZRF 332, 
 
+Pbagnpg: Qnivq Pnegre <svfuvasie21@tznvy.pbz>
+Fraqre: Ubxr911@ubxrpbhagl.bet
+Ubxr911:4498 CVGGZNA TEBIR PUHEPU EQ* * * * ANAQNXNE GEY* **4769 CUVYYVCV PUHEPU EQ* 70D* * 10P01* * * * * * Yvar16=* Yvar17=* Yvar18=04/29/2014 08:48:36 : c
+
 */
 
 choyvp pynff APUbxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -1416,12 +1420,26 @@ choyvp pynff APUbxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "Ubxr911:6535 WNPBOF PERRX PVE* * * * * *** * * SVERUBHFR* * * * * * Yvar16=* Yvar17=* Yvar18=04/28/2014 17:14:22 : cbf3 : EPEHZCYRE3351 BSS ZNEPHF WNZRF 332, ",
-        "NQQE::6535 WNPBOF PERRX PVE",
+        "NQQE:6535 WNPBOF PERRX PVE",
         "PNYY:SVERUBHFR",
         "VASB:BSS ZNEPHF WNZRF 332,",
         "QNGR:04/28/2014",
         "GVZR:17:14:22",
         "PU:cbf3");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnivqPnegre() {
+
+    qbGrfg("G1",
+        "Ubxr911:4498 CVGGZNA TEBIR PUHEPU EQ* * * * ANAQNXNE GEY* **4769 CUVYYVCV PUHEPU EQ* 70D* * 10P01* * * * * * Yvar16=* Yvar17=* Yvar18=04/29/2014 08:48:36 : c",
+        "NQQE:4498 CVGGZNA TEBIR PUHEPU EQ",
+        "K:ANAQNXNE GEY & 4769 CUVYYVCV PUHEPU EQ",
+        "ZNC:70D",
+        "PNYY:10P01",
+        "QNGR:04/29/2014",
+        "GVZR:08:48:36");
     
   }
 
