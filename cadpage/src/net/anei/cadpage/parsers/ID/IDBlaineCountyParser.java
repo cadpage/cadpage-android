@@ -11,7 +11,7 @@ public class IDBlaineCountyParser extends DispatchA4Parser {
 
   @Override
   public String getFilter() {
-    return "ldispatch@co.blaine.id.us";
+    return "ldispatch@co.blaine.id.us,LogiSYS CAD";
   }
  
 }
