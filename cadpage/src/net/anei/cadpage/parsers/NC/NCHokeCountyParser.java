@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchVisionAirParser;
 public class NCHokeCountyParser extends DispatchVisionAirParser {
   
   public NCHokeCountyParser() {
-    super(new String[]{"Hoke911", "Hoke Co 911:"}, 
+    super(new String[]{"Hoke911:", "Hoke Co 911:"}, 
           "HOKE COUNTY", "NC", 
           "ADDR APT UNK UNK X X2 MAP UNK CALL! INFO+? EXTRA");
   }
