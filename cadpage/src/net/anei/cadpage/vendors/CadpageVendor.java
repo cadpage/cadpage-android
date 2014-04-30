@@ -21,7 +21,7 @@ class CadpageVendor extends Vendor {
           R.string.cadpage_summary,
           R.string.cadpage_text,
           R.drawable.ic_launcher,
-          R.drawable.ic_launcher,
+          R.drawable.cadpage_logo,
           "http://paging.cadpage.net",
           null,
           null);
