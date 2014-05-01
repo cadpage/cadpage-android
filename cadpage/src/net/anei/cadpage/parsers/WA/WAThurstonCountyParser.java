@@ -139,6 +139,6 @@ public class WAThurstonCountyParser extends FieldProgramParser {
       "TC", "",
       "TE", "TENINO",
       "TU", "TUMWATER",
-      "YE", "YELP"
+      "YE", "YELM"
   });
 }
