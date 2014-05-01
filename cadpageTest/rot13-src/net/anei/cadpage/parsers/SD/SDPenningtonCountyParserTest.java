@@ -81,6 +81,7 @@ Fraqre: qvfcngpu@pb.craavatgba.fq.hf
 
 (.) Sver Qvfgevpgf Unljneq ISQ | UJ1; 29X2; ZRQ6 | URNQ | 13825 ONGGYR PERRX EQ | Arnerfg Vagre - ONGGYR PERRX EBNQ naq ERQ EVQTR EBNQ | 58-lrne-byq, Z
 (.) Sver Qvfgevpgf Xrlfgbar ISQ | 29X1 | HAPBA | 115 FJNAMRL FG, XRLFGBAR, FQ 57751 | Arnerfg Vagre - FJNAMRL FG naq UVTUJNL 16N | 74-lrne-byq, Znyr, P
+(.) Sver Qvfgevpgf Unljneq ISQ | UJ; 29X1 | ONPX | 13858 FXLYVAR URVTUGF EQ, UREZBFN, FQ | Arnerfg Vagre - FXLYVAR URVTUGF EBNQ naq WHAVCRE EBNQ | 84-l
 
 Pbagnpg: Prfne Zrmn <snyythl173@tznvy.pbz>
 Fraqre: qvfcngpu@pb.craavatgba.fq.hf
@@ -482,6 +483,16 @@ choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:XRLFGBAR",
         "K:FJNAMRL FG naq UVTUJNL 16N",
         "VASB:74-lrne-byq, Znyr, P");
+
+    qbGrfg("G1",
+        "(.) Sver Qvfgevpgf Unljneq ISQ | UJ; 29X1 | ONPX | 13858 FXLYVAR URVTUGF EQ, UREZBFN, FQ | Arnerfg Vagre - FXLYVAR URVTUGF EBNQ naq WHAVCRE EBNQ | 84-l",
+        "FEP:Sver Qvfgevpgf Unljneq ISQ",
+        "HAVG:UJ 29X1",
+        "PNYY:ONPX",
+        "NQQE:13858 FXLYVAR URVTUGF EQ",
+        "PVGL:UREZBFN",
+        "K:FXLYVAR URVTUGF EBNQ naq WHAVCRE EBNQ",
+        "VASB:84-l");
 
   }
   
