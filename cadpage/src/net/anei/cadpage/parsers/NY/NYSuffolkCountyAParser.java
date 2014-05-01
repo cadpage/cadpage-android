@@ -107,7 +107,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
     return true;
   }
 
-  private static final Properties CITY_TABLE = buildCodeTable(new String[]{
+  static final Properties CITY_TABLE = buildCodeTable(new String[]{
       "AMAGAN",  "AMAGANSETT",
       "AMITYV",  "AMITYVILLE",
       "AQUEBO",  "AQUEBOGUE",
@@ -327,7 +327,9 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "WOODBU",  "WOODBURY",
       "WSAYVI",  "WEST SAYVILLE",
       "WYANDA",  "WYANDANCH",
-      "YAPHAN",  "YAPHANK"
+      "YAPHAN",  "YAPHANK",
+      
+      "E NORTHPORT",    "E NORTHPORT"
 
   });
 }

@@ -336,7 +336,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "PIKE", "PKE",
         "COURT", "CT",
         "TER", "TERR",
-        "HWY",
+        "HWY", "HY",
         "MALL",
         "GTWY", "GATEWAY",
         "PLAZ", "PLAZA",
