@@ -53,7 +53,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*?) *, *([A-Z ]+?) *, SD +\\d{5}");
+  private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*?) *, *([A-Z ]+?) *, SD(?: +\\d{5})?");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -205,6 +205,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
   
   private static final CodeSet CALL_LIST = new CodeSet(
       "ACCI",
+      "BACK",
       "BLEED-B",
       "BREATH",
       "BREATH-D1",
