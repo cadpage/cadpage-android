@@ -44,6 +44,9 @@ public class NYSuffolkCountyBParser extends DispatchA14Parser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    // Rule out version A pages
+    if (body.startsWith("TYPE:")) return false;
+    
     body = DIR_SLASH_BOUND_PTN.matcher(body).replaceAll("$1B");
     
     if (!super.parseMsg(body, data)) return false;

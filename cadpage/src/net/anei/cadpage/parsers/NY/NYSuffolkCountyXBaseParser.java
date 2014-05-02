@@ -24,6 +24,17 @@ public class NYSuffolkCountyXBaseParser extends FieldProgramParser {
 	    if (body.endsWith("**")) body = body.substring(0, body.length()-2).trim();
 	    return parseFields(DELIM.split(body), data);
 	  }
+
+    @Override
+    protected Field getField(String name) {
+      if (name.equals("CODE")) return new CodeField("\\d{1,2}-?[A-Z]-?\\d{1,2}[A-Za-z]?", true);
+      if (name.equals("ID")) return new BaseIdField(false);
+      if (name.equals("IDP")) return new BaseIdField(true);
+      if (name.equals("TOA")) return new TOAField(false);
+      if (name.equals("TOAP")) return new TOAField(true);
+      if (name.equals("INFO")) return new MyInfoField();
+      return super.getField(name);
+    }
     
     private static final Pattern ID_PTN = Pattern.compile("\\d{4}-\\d{6}");
     private class BaseIdField extends IdField {
@@ -32,6 +43,11 @@ public class NYSuffolkCountyXBaseParser extends FieldProgramParser {
       
       public BaseIdField(boolean allowPartial) {
         this.allowPartial = allowPartial;
+      }
+      
+      @Override
+      public boolean canFail() {
+        return true;
       }
       
       @Override
@@ -92,17 +108,6 @@ public class NYSuffolkCountyXBaseParser extends FieldProgramParser {
 	      super.parse(field, data);
 	    }
 	  }
-
-    @Override
-    protected Field getField(String name) {
-      if (name.equals("CODE")) return new CodeField("\\d{1,2}-[A-Z]-\\d{1,2}[A-Z]?", true);
-      if (name.equals("ID")) return new BaseIdField(false);
-      if (name.equals("IDP")) return new BaseIdField(true);
-      if (name.equals("TOA")) return new TOAField(false);
-      if (name.equals("TOAP")) return new TOAField(true);
-      if (name.equals("INFO")) return new MyInfoField();
-      return super.getField(name);
-    }
 	  
 	}
 	

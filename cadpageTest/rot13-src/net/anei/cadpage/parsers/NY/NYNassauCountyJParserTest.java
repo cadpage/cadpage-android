@@ -71,8 +71,7 @@ choyvp pynff ALAnffnhPbhaglWCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:ERAXRA OYIQ  / ONEELZBER OYIQ",
         "PBQR:FVPX SRZNYR / V/S/B",
         "GVZR:09:07",
-        "QNGR:10/01/13",
-        "VASB:2013-0009");
+        "QNGR:10/01/13");
 
     qbGrfg("G5",
         "***Fvtany 9*** PBHEG UBHFR EQ NQGZY: ARPX CNVAF GBN: 16:04 09/30/13 2013-000908",
@@ -110,8 +109,7 @@ choyvp pynff ALAnffnhPbhaglWCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:OLEBA NIR  / UNEQL FG",
         "PBQR:CNYNEZB ERFVQ-UNYYJNL FZBXR QRGP",
         "GVZR:20:31",
-        "QNGR:09/29/13",
-        "VASB:2013-000");
+        "QNGR:09/29/13");
 
     qbGrfg("G9",
         "***Fvtany 9*** YVAQN FNYMZNA 943 ZNCYR QE PF: PBHEG UBHFR EQ  / PRQNE PG NQGZY: PURFG CNVAF--PBQR 91 GBN: 13:08 09/29/13 2013-000903",

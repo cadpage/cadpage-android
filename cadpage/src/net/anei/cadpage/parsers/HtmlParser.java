@@ -1076,7 +1076,6 @@ private int findLeft(String style) {
     try {
       serializer.writeToFile(root, fn);
     } catch (IOException e) {
-      System.out.println("makeFile()"+e.getMessage());
     }
   }
   

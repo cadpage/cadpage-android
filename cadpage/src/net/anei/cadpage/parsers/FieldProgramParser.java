@@ -2378,7 +2378,6 @@ public class FieldProgramParser extends SmartAddressParser {
    * a slash or ampersand, assume it should be part of an address intersection
    */
   private static final Pattern SPEC_APT_INTERSECT_PTN = Pattern.compile("(?:([A-Z0-9]{1,3}) *)?(?:[&/]|AND\\b|OFF\\b) *(.*)", Pattern.CASE_INSENSITIVE);
-  private static final Pattern SPC_APT_NOT_APT_PTN = Pattern.compile("NORTH|SOUTH|EAST|WEST|BLK",Pattern.CASE_INSENSITIVE);
   private class SpecialAptField extends AptField {
     @Override
     public void parse(String field, Data data) {
@@ -2386,7 +2385,7 @@ public class FieldProgramParser extends SmartAddressParser {
       if (match.matches()) {
         data.strApt = append(data.strApt, " ", getOptGroup(match.group(1)));
         data.strAddress = append(data.strAddress, " & ", match.group(2));
-      } else if (SPC_APT_NOT_APT_PTN.matcher(field).matches()) {
+      } else if (isNotExtraApt(field)) {
         data.strAddress = append(data.strAddress, " ", field);
       } else {
         data.strApt = append(data.strApt, " ", field);
