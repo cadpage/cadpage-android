@@ -69,6 +69,7 @@ class Active911Vendor extends Vendor {
       if (loc.contains("/")) {
         loc = POLY_CODE_TABLE.getProperty(loc);
         if (loc == null) loc = "General";
+        if (loc.equals("N/A")) continue;
       }
       if (parserSet.add(loc)) {
         if (sb.length() > 0) sb.append(',');
