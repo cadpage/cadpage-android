@@ -126,18 +126,26 @@ public class VendorActivity extends Safe40Activity {
     // OK, now that we have a vendor object, we can set up all of the display fields
     int resId = vendor.getIconId();
     int logoId = vendor.getLogoId();
-    if (logoId > 0) resId = logoId;
-    if (resId > 0) {
-      ImageView imgView = (ImageView)findViewById(R.id.VendorImageView);
-      imgView.setImageResource(resId);
-    }
-    if (logoId == 0) {
+    View imgTitleView = findViewById(R.id.VendorImageTitleView);
+    ImageView logoView = (ImageView)findViewById(R.id.VendorLogoView);
+    if (logoId > 0) {
+      imgTitleView.setVisibility(View.GONE);
+      logoView.setVisibility(View.VISIBLE);
+      logoView.setImageResource(logoId);
+    } else {
+      imgTitleView.setVisibility(View.VISIBLE);
+      logoView.setVisibility(View.GONE);
+      if (resId > 0) {
+        ImageView imgView = (ImageView)findViewById(R.id.VendorImageView);
+        imgView.setImageResource(resId);
+      }
       resId = vendor.getTitleId();
       if (resId > 0) {
         TextView txtView = (TextView)findViewById(R.id.VendorTitleView);
         txtView.setText(resId);
       }
     }
+    
     resId = vendor.getTextId();
     if (resId > 0) {
       TextView txtView = (TextView)findViewById(R.id.VendorDescriptionView);

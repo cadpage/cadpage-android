@@ -5,9 +5,10 @@
   android:orientation="vertical"
   android:minWidth="310dp"
   android:id="@+id/MainLinearLayout"
-  android:layout_width="fill_parent">
+  android:layout_width="match_parent">
   <LinearLayout
-    android:layout_width="fill_parent"
+    android:id="@+id/VendorImageTitleView"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="left">
     <ImageView
@@ -20,18 +21,26 @@
       android:layout_margin="4dp" />
     <TextView
       android:id="@+id/VendorTitleView"
-      android:layout_width="fill_parent"
+      android:layout_width="match_parent"
       android:gravity="center_vertical"
       android:textAppearance="?android:attr/textAppearanceLarge"
       android:layout_height="wrap_content"
       android:paddingBottom="2dp" />
   </LinearLayout>
+
+  <ImageView
+      android:id="@+id/VendorLogoView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:adjustViewBounds="true"
+      android:scaleType="fitCenter" />
+
   <include
     layout="@layout/popup_divider" />
   <TextView
     android:id="@+id/VendorDescriptionView"
     android:layout_height="wrap_content"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:paddingRight="10dp"
     android:paddingLeft="10dp"
     android:scrollbars="vertical" />
@@ -41,7 +50,7 @@
   <TextView
     android:id="@+id/VendorInfoView"
     android:layout_height="wrap_content"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:paddingRight="10dp"
     android:paddingLeft="10dp" />
   <include
@@ -50,27 +59,27 @@
   <Button
     android:id="@+id/more_info_button"
     android:layout_height="wrap_content"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:text="@string/vendor_more_info"/>
   <Button
     android:id="@+id/profile_button"
     android:layout_height="wrap_content"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:text="@string/vendor_profile"/>
   <Button
     android:id="@+id/register_button"
     android:layout_height="wrap_content"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:text="@string/vendor_register"/>
   <Button
     android:id="@+id/unregister_button"
     android:layout_height="wrap_content"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:text="@string/vendor_unregister"/>
   <Button
     android:id="@+id/cancel_button"
     android:layout_height="wrap_content"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:text="@string/donate_btn_cancel"/>
     
 </LinearLayout>
