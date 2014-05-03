@@ -35,7 +35,6 @@ public class ManageParsers {
     
     // First level cache.  If location code matches what we have stored for
     // the current location code, return the current parser
-    String curLocation = null;
     if (location.equals(curLocCode)) return curParser;
     
     // Second level cache, see if it is the our table of parsers by location
@@ -70,13 +69,9 @@ public class ManageParsers {
       parserMap.put(location, parser);
     }
     
-    // Before we return the parser we found, see if the requested location
-    // matches the current location setting.  If it does, save the values
-    // in the first level cache
-    if (location.equals(curLocation)) {
-      curLocCode = location;
-      curParser = parser;
-    }
+    // Before we return the parser we found, save parser in primary cache
+    curLocCode = location;
+    curParser = parser;
     return parser;
   }
   
