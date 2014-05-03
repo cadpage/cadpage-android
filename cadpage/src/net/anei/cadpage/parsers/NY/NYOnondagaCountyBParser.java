@@ -56,6 +56,7 @@ public class NYOnondagaCountyBParser extends FieldProgramParser {
   private static Pattern UNIT_PTN = Pattern.compile("([A-Z]+[0-9]+(?:,[A-Z]+[0-9]+)*),?");
   private static Pattern CHANNEL_PTN = Pattern.compile("[A-Z0-9]*TAC[A-Z0-9]*");
   private static Pattern SRC_PTN = Pattern.compile("[A-Z]{2}F(?: +[A-Z]{3})*");
+  private static Pattern MAP_GPS_PTN = Pattern.compile("([A-Z]+ (?:- )?Sector) ([-+]?\\d+\\.\\d{6} [-+]?\\d+\\.\\d{6})", Pattern.CASE_INSENSITIVE);
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
@@ -103,12 +104,19 @@ public class NYOnondagaCountyBParser extends FieldProgramParser {
         data.strSource = append(data.strSource, " ", field);
         return;
       }
+      match = MAP_GPS_PTN.matcher(field);
+      if (match.matches()) {
+        data.strMap = match.group(1);
+        setGPSLoc(match.group(2), data);
+        return;
+      }
+      field = cleanWirelessCarrier(field);
       super.parse(field, data);
     }
     
     @Override
     public String getFieldNames() {
-      return "INFO PRI CH UNIT SRC NAME";
+      return "INFO MAP GPS PRI CH UNIT SRC NAME";
     }
   }
 
