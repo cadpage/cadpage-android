@@ -52,7 +52,7 @@ Ybg bs
 choyvp pynff JNXvatPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp JNXvatPbhaglPCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "XVAT PBHAGL", "JN");
+    frgCnefre(arj JNXvatPbhaglPCnefre(), "XVAT PBHAGL", "JN");
   }
   
   @Grfg
