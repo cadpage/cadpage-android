@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.PB.PBNqnzfPbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBObhyqrePbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBJryqPbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBAbegutyraaRZFCnefre;
-vzcbeg arg.narv.pnqcntr.cnefref.AW.AWZreprePbhaglCnefre;
+vzcbeg arg.narv.pnqcntr.cnefref.AW.AWZreprePbhaglNCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.GK.GKZbagtbzrelPbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.trareny.TrarenyCnefre;
 
@@ -34,7 +34,7 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:04/16/2013",
         "GVZR:18:45:46");
     
-    frgCnefre(arj TebhcOrfgCnefre(arj TrarenyCnefre(), arj AWZreprePbhaglCnefre()), "", "");
+    frgCnefre(arj TebhcOrfgCnefre(arj TrarenyCnefre(), arj AWZreprePbhaglNCnefre()), "", "");
     frgRkcYbpPbqr("AWZreprePbhagl");
     frgQrsnhygf("ZREPRE PBHAGL", "AW");
     qbGrfg("G2",
