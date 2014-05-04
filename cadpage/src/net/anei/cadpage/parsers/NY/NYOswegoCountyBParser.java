@@ -87,7 +87,7 @@ public class NYOswegoCountyBParser extends HtmlParser {
     data.strCallId = getValue("ID");
     data.strSupp = getValue("INFO");
 
-    return true;
+    return codeCall.length() > 0 && data.strDate.length() > 0 && data.strTime.length() > 0 && data.strCallId.length() > 0;
   }
   
   private static final String[] LAYOUT = {

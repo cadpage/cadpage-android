@@ -37,7 +37,7 @@ public class MOFranklinCountyParser extends HtmlParser {
     data.strUnit = getValue("UNIT");
     data.strSource = getValue("SOURCE");
     
-    return true;
+    return data.strCall.length() > 0 && dateTime.length() > 0 && data.strUnit.length() > 0;
   }
   
   private static final String[] LAYOUT = {

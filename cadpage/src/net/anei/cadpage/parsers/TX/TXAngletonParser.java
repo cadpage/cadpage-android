@@ -33,17 +33,15 @@ public class TXAngletonParser extends HtmlParser {
     if (!getHtmlCleaner(msg))
       return false;
     Matcher m = HEADER_PATTERN.matcher(header);
-    if (m.matches()) {
-      data.strCallId = m.group(2);
-      if (m.group(1).contains("Clear")) {
-        data.strCall = "CLEAR";
-        data.strSupp = clean(getOptGroup(getElementValue("pre", 0)));
-        return true;
-      }
-      else
-        return parseFields(getValue("EVERYTHING").split("\n"), data);
+    if (!m.matches()) return false;
+    data.strCallId = m.group(2);
+    if (m.group(1).contains("Clear")) {
+      data.strCall = "CLEAR";
+      data.strSupp = clean(getOptGroup(getElementValue("pre", 0)));
+      return true;
     }
-    return true;
+    else
+      return parseFields(getValue("EVERYTHING").split("\n"), data);
   }
  
   @Override

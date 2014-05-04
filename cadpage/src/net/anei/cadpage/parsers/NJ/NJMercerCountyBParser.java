@@ -1,10 +1,5 @@
 package net.anei.cadpage.parsers.NJ;
 
-import java.util.Iterator;
-import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.HtmlParser;
 
@@ -46,7 +41,7 @@ public class NJMercerCountyBParser extends HtmlParser {
     data.strCall = getValue("CALL");
     data.strMap = getValue("MAP");
     data.strUnit = getValue("UNIT");
-    return true;
+    return data.strAddress.length() > 0 && data.strCall.length() > 0 && data.strUnit.length() > 0;
   }
   
   private static final String[] LAYOUT = {

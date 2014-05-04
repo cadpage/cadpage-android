@@ -4,7 +4,6 @@ import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import android.text.format.DateFormat;
 import net.anei.cadpage.parsers.HtmlParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -57,7 +56,7 @@ public class KSNeoshoCountyParser extends HtmlParser {
     setDateTime(MY_DATE_FMT, getValue("DATETIME"), data);
     data.strPlace = getValue("BUSINESS");
     data.strSupp = getValue("NOTES");
-    return true;
+    return data.strCallId.length()>0 && data.strAddress.length()>0 && data.strDate.length()>0 && data.strTime.length()>0;
   }
   
   private static final String[] LAYOUT = {

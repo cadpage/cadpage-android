@@ -61,7 +61,7 @@ public class INShelbyCountyParser extends HtmlParser {
     data.strCity = getValue("COMMUNITY");
     data.strSupp = getValue("NARRATIVE");
     data.strUnit = getValue("UNIT");
-    return true;
+    return data.strDate.length()>0 && data.strTime.length()>0 && cc.length()>0 && data.strAddress.length()>0;
   }
 
   private static final String[] LAYOUT = {

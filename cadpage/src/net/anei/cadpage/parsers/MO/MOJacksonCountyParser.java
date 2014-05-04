@@ -97,7 +97,7 @@ public class MOJacksonCountyParser extends HtmlParser {
       data.strCode = getValue("CODE");
     data.strCross = getValue("CROSS");
     
-    return true;
+    return data.strCallId.length()>0 && data.strDate.length()>0 && data.strTime.length()>0 && callString.length()>0 && data.strPriority.length()>0 && data.strAddress.length()>0;
   }
   
   private static final String[] LAYOUT = {

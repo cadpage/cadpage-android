@@ -84,7 +84,7 @@ public class TXBrazoriaCountyBParser extends HtmlParser {
       }
     }
     
-    return true;
+    return data.strCallId.length()>0 && data.strAddress.length()>0 && data.strDate.length()>0 && data.strTime.length()>0;
   }
   
   private static final String[] LAYOUT = {

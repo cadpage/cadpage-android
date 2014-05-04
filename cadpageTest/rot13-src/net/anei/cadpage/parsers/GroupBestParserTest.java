@@ -35,7 +35,7 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:18:45:46");
     
     frgCnefre(arj TebhcOrfgCnefre(arj TrarenyCnefre(), arj AWZreprePbhaglNCnefre()), "", "");
-    frgRkcYbpPbqr("AWZreprePbhagl");
+    frgRkcYbpPbqr("AWZreprePbhaglN");
     frgQrsnhygf("ZREPRE PBHAGL", "AW");
     qbGrfg("G2",
         "HAVG: YF6 ; YNGR GHEA-NEBHAQ ;CYRNFR PNYY YVSRPBZZ JVGU LBHE FGNGHF ; (#1\e\a",

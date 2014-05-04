@@ -49,7 +49,7 @@ public class SCPickensCountyParser extends HtmlParser {
 
 //    makeFile(stem+ndx+".html");
 //    ndx++;
-    return true;
+    return data.strCallId.length()>0 && cc.length()>0 && data.strAddress.length()>0;
   }
   
   private static final String[] LAYOUT = {
