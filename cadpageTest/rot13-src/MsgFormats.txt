@@ -7,7 +7,7 @@ Npgvir911 gvpxrgf
 2013112010000194  Fraqvat rapbqrq UGZY svyr.
 2013120310000465  CNPurfgrePbhaglT qbar
 2014010910000197  APPyrirynaqPbhagl qbar
-2014011010000201  GKGenivfPbhagl qbarohap
+2014011010000201  GKGenivfPbhagl qbar
 2014011710000985  NYUbbire qbar
 2014011710000994  PNFbhguYnxrGnubr qbar
 2014011910000043  PNUnljbbqPbhagl qbar
@@ -28,7 +28,6 @@ Npgvir911 gvpxrgf
 2013112510000701  AWBprnaPbhagl qbar
 2013121610000333  INCevaprTrbetrPbhagl qbar
 2014021210000232  ZBWnfcrePbhagl svkrq
--2014022510000539  Dhrorp qvfgevpg - arrq zber pnyyf naq ybgf bs uryc
 2014042210000595  INCevaprJvyyvnzPbhagl svkrq 
 ---- C3 -------------------------------------------------------
 2013031910001068  Ab pnyyf fvapr 11/4/13
@@ -39,12 +38,10 @@ Npgvir911 gvpxrgf
 2014011710000912  Ubyq sbe zber qngn
 2014012010000335  Ubyq sbe zber qngn
 2014012010000344  Ubyq sbe zber qngn
--2014022610000466  Jnvg n pbhcyr qnlf
 2014022610000715  ZBOneelPbhagl qbar
 2014022610000831  Trareny  jbexf nobhg nf jryy nf nalguvat jr pna qb :(
 2014030710000722  Arrq fbzr erny cntrf ohg tbvat gb or QvfcngpuN11Cnefre fhopynff
 2014030710000811  Ybbxf vanpgvir
--2014030710000839  ubyq sbe zber qngn
 2014031810000372  Ab npgvba erdhverq
 -+2014042210000611
 +2014042210000522
