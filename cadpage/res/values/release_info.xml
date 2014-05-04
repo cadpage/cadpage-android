@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04262014</string>
-  <string name="release_version">v1.7.19</string>
+  <string name="release_date">05042014</string>
+  <string name="release_version">v1.7.20</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -9,21 +9,29 @@ We expect to release a new Cadpage direct paging service in the next few weeks.
 The web page at www.cadpage.org has the details.\n
 \n
 New Locations:\n
-Boone County, MO\n
-Cherokee, NC\n
-Cherokee County, OK\n
-Clatsop County, OR\n
-Bradford County, PA\n
+Stanislaus County, CA\n
+Adams County, IL\n
+Shelby County, IN\n
+Nesho County, KS\n
+Hardin County, KY (alt)\n
+Franklin County, MO\n
+Jackson County, MO\n
+Mercer County, NJ (alt)\n
+Oswego County, NY (alt)\n
+Pickens County, SC\n
+
 \n
 Location Parsing Fixes:\n
-Chilton County, AL\n
-Gooding County, ID\n
-Kane County, IL\n
-Atlanticare EMS, NJ\n
-Sussex County, NJ\n
-Licking County, OH\n
-Stark County, OH\n
-Erie County, PA\n
+Cheboygan County, MI\n
+Hennepin County, MN\n
+Onondaga County, NY\n
+Suffolk County, NY\n
+Hoke County, NC\n
+Columbia County, PA\n
+Pennington County, SD\n
+Angleton, TX\n
+Prince William County, VA\n
+Thurston County, WA\n
   </string>
 </resources>
   
