@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.MN;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -18,8 +19,8 @@ public class MNHennepinCountyParser extends FieldProgramParser {
   private static final Pattern FIELD_PTN = Pattern.compile("; *([A-Z]+)-");
   
   public MNHennepinCountyParser() {
-    super("HENNEPIN COUNTY", "MN",
-          "NAME LOC:ADDR APT:APT PLACE:PLACE EVTYPE:CALL COMMENTS:INFO cross_streets:X");
+    super(CITY_CODES, "HENNEPIN COUNTY", "MN",
+          "NAME LOC:ADDR APT:APT PLACE:PLACE CITY:CITY EVTYPE:CALL COMMENTS:INFO cross_streets:X");
   }
   
   @Override
@@ -69,4 +70,61 @@ public class MNHennepinCountyParser extends FieldProgramParser {
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ANC", "ANOKA",
+      "ANO", "ANOKA COUNTY",
+      "BKC", "BROOKLYN CENTER",
+      "BKP", "BROOKLYN PARK",
+      "BLM", "BLOOMINGTON",
+      "CAR", "CARVER COUNTY",
+      "CHP", "CHAMPLIN",
+      "COR", "CORCORAN",
+      "CRY", "CRYSTAL",
+      "DAK", "DAKOTA COUNTY",
+      "DAY", "DAYTON",
+      "DPH", "DEEPHAVEN",
+      "EDN", "EDINA",
+      "EDP", "EDEN PRAIRIE",
+      "EXC", "EXCELSIOR",
+      "FTS", "FORT SNELLING",
+      "GDV", "GOLDEN VALLEY",
+      "GRF", "GREENFIELD",
+      "GRW", "GREENWOOD",
+      "HAN", "HANOVER",
+      "HOP", "HOPKINS",
+      "IND", "INDEPENDENCE",
+      "LLK", "LONG LAKE",
+      "LOR", "LORETTO",
+      "MAP", "METROPOLITAN AIRPORT",
+      "MED", "MEDINA",
+      "MLK", "MEDICINE LAKE",
+      "MND", "MOUND",
+      "MPG", "MAPLE GROVE",
+      "MPL", "MINNEAPOLIS",
+      "MPP", "MAPLE PLAIN",
+      "MTB", "MINNETONKA BEACH",
+      "MTK", "MINNETONKA",
+      "MTT", "MINNETRISTA",
+      "NHP", "NEW HOPE",
+      "ORO", "ORONO",
+      "OSE", "OSSEO",
+      "PLY", "PLYMOUTH",
+      "RAM", "RAMSEY COUNTY",
+      "RCH", "RICHFIELD",
+      "ROB", "ROBBINSDALE",
+      "ROC", "ROCKFORD",
+      "ROG", "HASSAN",
+      "SCO", "SCOTT COUNTY",
+      "SPK", "SPRING PARK",
+      "STA", "ST ANTHONY",
+      "STB", "ST BONIFACIUS",
+      "STL", "ST LOUIS PARK",
+      "SWD", "SHOREWOOD",
+      "TKB", "TONKA BAY",
+      "WAY", "WAYZATA",
+      "WDL", "WOODLAND",
+      "WRI", "WRIGHT COUNTY"
+
+  });
 }
