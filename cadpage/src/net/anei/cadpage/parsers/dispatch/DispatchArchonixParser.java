@@ -20,11 +20,17 @@ public class DispatchArchonixParser extends FieldProgramParser {
   private static final Pattern SINGLE_LINE_BRK = Pattern.compile("(?<!\n)\n(?!\n)");
   
   private Properties cityCodes;
-  
+  private Properties maCityCodes;
+
   public DispatchArchonixParser(Properties cityCodes, String defCity, String defState) {
+    this(cityCodes, null, defCity, defState);
+  }
+
+  public DispatchArchonixParser(Properties cityCodes, Properties maCityCodes, String defCity, String defState) {
     super(defCity, defState,
            "CALL ADDRCITY/aSXP! #:APT X:X! BOX:BOX? ZN:MAP? CP:PLACE UNIT Time:DATETIME? MI#:ID Lat/Lon:GPS? RES#:UNIT");
     this.cityCodes = cityCodes;
+    this.maCityCodes = maCityCodes;
   }
   
   @Override
@@ -53,7 +59,44 @@ public class DispatchArchonixParser extends FieldProgramParser {
     match = SINGLE_LINE_BRK.matcher(body);
     if (!match.find()) body = body.replace("\n\n", "\n");
     
-    return parseFields(body.split("\n"), data) && data.strAddress.length() > 0;
+    if (!parseFields(body.split("\n"), data)) return false;
+    
+    // Lots of special handling goes into mutual aid calls
+    if (data.strCall.startsWith("MUTUAL AID") && data.strAddress.length() <= 3) {
+      String addr = data.strPlace;
+      String place = data.strPlace = "";
+      int pt = addr.indexOf(" - ");
+      if (pt >= 0) {
+        place = addr.substring(pt+3).trim();
+        addr = addr.substring(0,pt).trim();
+      }
+      data.strAddress = "";
+      pt = addr.indexOf(',');
+      String city;
+      if (pt >= 0) {
+        city = addr.substring(0,pt).trim();
+        parseAddress(addr.substring(pt+1).trim(), data);
+      } else {
+        parseAddress(StartType.START_PLACE, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, addr, data);
+        city = data.strPlace;
+      }
+      data.strPlace = place;
+      if (data.strAddress.length() == 0) {
+        parseAddress(city, data);
+      } else {
+        if (city.endsWith(" BORO")) {
+          city = city.substring(0,city.length()-5).trim();
+        } else if (city.startsWith("BORO OF ")) {
+          city = city.substring(8).trim();
+        } else if (city.startsWith("BORO ")) {
+          city = city.substring(5).trim();
+        }
+        if (maCityCodes != null) city = convertCodes(city, maCityCodes);
+        data.strCity = city;
+      }
+    }
+
+    return (data.strAddress.length() > 0);
   }
   
   @Override

@@ -112,8 +112,6 @@ Fraqre: RC911@ppcn.arg
 (Qvfcngpu Z156) 10Q02 PURFG CNVA  \a24447 TERNG PBIR EQ ,GQ SP  \a#:  \aK:CRAAF QE/CEBZVFR YNAQ EQ  \aMA:SX3  256-01 GBQQ         \aPC:XNL''''F CYNPR ERFG  \aGvzr:2014-04-04 20:58:52  \aZV#:140046731    \aYng/Yba:39.983536 // -77.969344  \aERF#:Z156
 (Qvfcngpu N156) 10Q02 PURFG CNVA  \a24447 TERNG PBIR EQ ,GQ SP  \a#:  \aK:CRAAF QE/CEBZVFR YNAQ EQ  \aMA:SX3  256-01 GBQQ         \aPC:XNL''''F CYNPR ERFG  \aGvzr:2014-04-04 20:58:52  \aZV#:140046731    \aYng/Yba:39.983536 // -77.969344  \aERF#:N156
 
-QvfcngpuNepubavkCnefre fhopynff
-
 */
 
 choyvp pynff CNShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -231,9 +229,9 @@ choyvp pynff CNShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ERF#:GE56",
 
         "PNYY:ZHGHNY NVQ ERFCBAF",
-        "NQQE:UPE",
-        "PVGL:UHAGVATQBA PBHAGL",  //arrqf fbzr uryc, zncf jura rirelguvat vf va gur evtug svryq
-        "CYNPR:FCEVATSVRYQ  GJC 22170 ZBHAG PNEZRY EQ - UPE",
+        "NQQE:22170 ZBHAG PNEZRY EQ",
+        "PVGL:FCEVATSVRYQ  GJC",
+        "CYNPR:UPE",
         "ZNC:31E  UHAGATQ/SHYGBA ERS",
         "QNGR:04/13/2014",
         "GVZR:12:11:43",
@@ -608,9 +606,9 @@ choyvp pynff CNShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ERF#:R256",
 
         "PNYY:ZHGHNY NVQ ERFCBAF",
-        "NQQE:UPE",
-        "PVGL:UHAGVATQBA PBHAGL", //zncf gb oynve zvyyf jura va evtug cynprf
-        "CYNPR:GRYY GJC, 18087 LBPHZ EBNQ - UPE",
+        "NQQE:18087 LBPHZ EBNQ",
+        "PVGL:GRYY GJC",
+        "CYNPR:UPE",
         "ZNC:31E  UHAGATQ/SHYGBA ERS",
         "QNGR:04/12/2014",
         "GVZR:04:42:36",
@@ -631,9 +629,9 @@ choyvp pynff CNShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ERF#:R156",
 
         "PNYY:ZHGHNY NVQ ERFCBAF",
-        "NQQE:UPE",
-        "PVGL:UHAGVATQBA PBHAGL",
-        "CYNPR:GRYY GJC, 18087 LBPHZ EBNQ - UPE",
+        "NQQE:18087 LBPHZ EBNQ",
+        "PVGL:GRYY GJC",
+        "CYNPR:UPE",
         "ZNC:31E  UHAGATQ/SHYGBA ERS",
         "QNGR:04/12/2014",
         "GVZR:04:42:36",
@@ -654,9 +652,9 @@ choyvp pynff CNShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ERF#:G56",
 
         "PNYY:ZHGHNY NVQ ERFCBAF",
-        "NQQE:UPE",
-        "PVGL:UHAGVATQBA PBHAGL",
-        "CYNPR:GRYY GJC, 18087 LBPHZ EBNQ - UPE",
+        "NQQE:18087 LBPHZ EBNQ",
+        "PVGL:GRYY GJC",
+        "CYNPR:UPE",
         "ZNC:31E  UHAGATQ/SHYGBA ERS",
         "QNGR:04/12/2014",
         "GVZR:04:42:36",
@@ -821,9 +819,9 @@ choyvp pynff CNShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ERF#:HGI56",
 
         "PNYY:ZHGHNY NVQ ERFCBAF",
-        "NQQE:SSE",
-        "PVGL:SENAXYVA PBHAGL",
-        "CYNPR:CRGREF GJC 2901 ZBHAGVNA EQ - SSE", //zncf jura cnefrq evtug
+        "NQQE:2901 ZBHAGVNA EQ",
+        "PVGL:CRGREF GJC",
+        "CYNPR:SSE",
         "ZNC:28E  SENAXYA/SHYGBA ERS",
         "QNGR:04/10/2014",
         "GVZR:15:22:06",
@@ -844,9 +842,9 @@ choyvp pynff CNShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ERF#:OE256",
 
         "PNYY:ZHGHNY NVQ ERFCBAF",
-        "NQQE:SSE",
-        "PVGL:SENAXYVA PBHAGL",
-        "CYNPR:CRGREF GJC 2901 ZBHAGVNA EQ - SSE",
+        "NQQE:2901 ZBHAGVNA EQ",
+        "PVGL:CRGREF GJC",
+        "CYNPR:SSE",
         "ZNC:28E  SENAXYA/SHYGBA ERS",
         "QNGR:04/10/2014",
         "GVZR:15:22:06",
@@ -867,9 +865,9 @@ choyvp pynff CNShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ERF#:OE156",
 
         "PNYY:ZHGHNY NVQ ERFCBAF",
-        "NQQE:SSE",
-        "PVGL:SENAXYVA PBHAGL",
-        "CYNPR:CRGREF GJC 2901 ZBHAGVNA EQ - SSE",
+        "NQQE:2901 ZBHAGVNA EQ",
+        "PVGL:CRGREF GJC",
+        "CYNPR:SSE",
         "ZNC:28E  SENAXYA/SHYGBA ERS",
         "QNGR:04/10/2014",
         "GVZR:15:22:06",
@@ -890,16 +888,16 @@ choyvp pynff CNShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ERF#:G56",
 
         "PNYY:ZHGHNY NVQ ERFCBAF",
-        "NQQE:SSE",
-        "PVGL:SENAXYVA PBHAGL",
-        "CYNPR:CRGREF GJC 2901 ZBHAGVNA EQ - SSE",
+        "NQQE:2901 ZBHAGVNA EQ",
+        "PVGL:CRGREF GJC",
+        "CYNPR:SSE",
         "ZNC:28E  SENAXYA/SHYGBA ERS",
         "QNGR:04/10/2014",
         "GVZR:15:22:06",
         "VQ:140049678",
         "TCF:+39.925534,-77.912537",
         "HAVG:G56");
-
+ 
     qbGrfg("G41",
         "(Serr OE156) 622 YVPXVAT PERRX EQ ,GU SP  \a" +
         "ZV#:140049188  \a" +

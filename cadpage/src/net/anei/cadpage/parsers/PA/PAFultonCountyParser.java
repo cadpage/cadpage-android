@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchArchonixParser;
 public class PAFultonCountyParser extends DispatchArchonixParser {
   
   public PAFultonCountyParser() {
-    super(CITY_CODES, "FULTON COUNTY", "PA");
+    super(CITY_CODES, MA_CITY_CODES, "FULTON COUNTY", "PA");
   }
   
   @Override
@@ -36,6 +36,10 @@ public class PAFultonCountyParser extends DispatchArchonixParser {
       
       "FC FR", "FRANKLIN COUNTY",
       "HC HU", "HUNTINGDON COUNTY"
+  });
+  
+  private static final Properties MA_CITY_CODES = buildCodeTable(new String[]{
+      
   });
 
 }

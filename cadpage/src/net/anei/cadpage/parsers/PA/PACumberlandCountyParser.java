@@ -14,7 +14,7 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
   private static final Pattern CODE_CALL_PTN = Pattern.compile("(\\d{2}[A-Z]\\d{2}) +(.*)");
   
   public PACumberlandCountyParser() {
-    super(CITY_CODES, "CUMBERLAND COUNTY", "PA");
+    super(CITY_CODES, MA_CITY_CODES, "CUMBERLAND COUNTY", "PA");
   }
   
   @Override
@@ -47,41 +47,10 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
     data.strBox = p.get();
     data.strMap = "";
     
-    // Lots of special handling goes into mutual aid calls
-    if (data.strCall.startsWith("MUTUAL AID") && data.strAddress.length() <= 3) {
-      String addr = data.strPlace;
-      String place = data.strPlace = "";
-      int pt = addr.indexOf(" - ");
-      if (pt >= 0) {
-        place = addr.substring(pt+3).trim();
-        addr = addr.substring(0,pt).trim();
-      }
-      data.strAddress = "";
-      pt = addr.indexOf(',');
-      String city;
-      if (pt >= 0) {
-        city = addr.substring(0,pt).trim();
-        parseAddress(addr.substring(pt+1).trim(), data);
-      } else {
-        parseAddress(StartType.START_PLACE, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, addr, data);
-        city = data.strPlace;
-      }
-      data.strPlace = place;
-      if (data.strAddress.length() == 0) {
-        parseAddress(city, data);
-      } else {
-        if (city.endsWith(" BORO")) {
-          city = city.substring(0,city.length()-5).trim();
-        } else if (city.startsWith("BORO OF ")) {
-          city = city.substring(8).trim();
-        } else if (city.startsWith("BORO ")) {
-          city = city.substring(5).trim();
-        } else if (city.equals("SUSQ TWP")) {
-          city = "SUSQUEHANNA TWP";
-        }
-        data.strCity = convertCodes(city, CITY_CODES2);
-      }
-    }
+    // Clean up city field
+    data.strCity = stripFieldEnd(data.strCity, " BORO");
+    data.strCity = stripFieldStart(data.strCity, "BORO OF ");
+    data.strCity = stripFieldStart(data.strCity, "BORO ");
     return true;
   }
   
@@ -158,14 +127,16 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
       "DC DC", "DAUPHIN COUNTY",
       "FCR",   "FRANKLIN COUNTY",
       "FC FR", "FRANKLIN COUNTY",
-      "PC PC", "PERRY COUNTY",
+      "PC PC", "PERRY COUNTY"
   });
 
-  private static final Properties CITY_CODES2 = buildCodeTable(new String[]{
+  private static final Properties MA_CITY_CODES = buildCodeTable(new String[]{
       "S HAMP", "SOUTHAMPTON TWP",
       "SH TWP", "SOUTHAMPTON TWP",
       "SHAMP",  "SOUTHAMPTON TWP",
-      "SHP",    "SHIPPENSBURG"
+      "SHP",    "SHIPPENSBURG",
+      "SUSQ TWP","SUSQUEHANNA TWP"
+
   });
 
 }
