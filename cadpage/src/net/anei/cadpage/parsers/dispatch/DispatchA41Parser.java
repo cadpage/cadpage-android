@@ -9,14 +9,27 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchA41Parser extends FieldProgramParser {
   
+  public static final int A41_FLG_NO_CALL = 1;
+  
   private static final Pattern DATE_TIME_PTN = Pattern.compile("(.*) +- From +(?:[A-Z][A-Z0-9]+ +)?(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d:\\d\\d)");
   
   private Properties cityCodes;
   
   public DispatchA41Parser(Properties cityCodes, String defCity, String defState) {
-    super(cityCodes, defCity, defState,
-          "DISPATCH:CODE! CALL ( PLACE  CITY/Z AT | ADDRCITY/Z ) CITY?  ( SRC/Z MAPPAGE! | PLACE? ( X1 | INT ) PLACE? SRC ( MAP MAPPAGE | MAPPAGE | MAP ) ) INFO+ Unit:UNIT UNIT+");
+    this(cityCodes, defCity, defState, 0);
+  }
+  
+  public DispatchA41Parser(Properties cityCodes, String defCity, String defState, int flags) {
+    super(cityCodes, defCity, defState, calcProgram(flags));
     this.cityCodes = cityCodes;
+  }
+  
+  private static String calcProgram(int flags) {
+    StringBuilder sb = new StringBuilder();
+    sb.append("DISPATCH:CODE! ");
+    if ((flags & A41_FLG_NO_CALL) == 0) sb.append("CALL ");
+    sb.append("( PLACE  CITY/Z AT | ADDRCITY/Z ) CITY?  ( SRC/Z MAPPAGE! | ( PLACE X1 | PLACE INT | X1 | INT | ) PLACE? SRC ( MAP MAPPAGE | MAPPAGE | MAP ) ) INFO+ Unit:UNIT UNIT+");
+    return sb.toString();
   }
 
   @Override
@@ -48,7 +61,7 @@ public class DispatchA41Parser extends FieldProgramParser {
     if (name.equals("AT")) return new AddressField("at +(.*)", true);
     if (name.equals("X1")) return new CrossField("btwn *(.*)", true);
     if (name.equals("INT")) return new SkipField("<.*>", true);
-    if (name.equals("SRC")) return new SourceField("[A-Z]{2,3}", true);
+    if (name.equals("SRC")) return new SourceField("[A-Z]{1,3}\\d?", true);
     if (name.equals("MAPPAGE")) return new SkipField("mappage,XXXX", true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("UNIT")) return new MyUnitField();
