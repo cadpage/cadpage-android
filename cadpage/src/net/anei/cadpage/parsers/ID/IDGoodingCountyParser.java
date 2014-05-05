@@ -27,6 +27,7 @@ public class IDGoodingCountyParser extends DispatchA31Parser {
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "HAZ AREA",  "HAZELTON",
+      "HSN AREA",  "HANSEN",
       "KMB AREA",  "KIMBERLY",
       "MURT AREA", "MURTAUGH",
       "WND AREA",  "WENDELL"
