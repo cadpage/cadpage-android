@@ -31,6 +31,7 @@
 	<property name="jarfile" value="${dist}/${filename}.jar"/>
 	<property name="zipfile" value="${dist}/${filename}.zip"/>
 	<property name="zipcontent" value="MsgFormats.txt ${zipfile}"/>
+	<property name="libs" value="libs/htmlcleaner-2.7.jar" />
 	
 	<target name="clean">
 		<delete dir="${bin}"/>
@@ -43,13 +44,15 @@
 	</target>
     
     <target name="compile" depends="setup">
-        <javac srcdir="${src2}" includes="${select}" destdir="${bin}" 
-        	   source="1.5" target="1.5" debug="yes" includeAntRuntime="false"/>
+        <javac srcdir="${src2}" includes="${select}" destdir="${bin}" classpath="${libs}" 
+        	   source="1.6" target="1.6" debug="yes" includeAntRuntime="false"/>
     </target>
 	
 	<target name="jarfile" depends="compile">
 		<jar basedir="${bin}" includes="${select}" destfile="${jarfile}"
-		     level="9" manifest="MANIFEST.MF"/>
+		     level="9" manifest="MANIFEST.MF">
+		    <zipfileset src="${libs}"/>
+		</jar>
 	</target>
 	
 	<target name="build" depends="jarfile" description="Build Parser Library"/>

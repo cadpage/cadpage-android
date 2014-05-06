@@ -35,7 +35,7 @@ public class PABerksCountyParser extends FieldProgramParser {
     return parseFields(body.split(";"), data);
   }
   
-  private static final Pattern UNIT_CALL_PTN = Pattern.compile("Unit:([-A-Z0-9]+) Status:(?:Dispatched|Enroute) (.*)");
+  private static final Pattern UNIT_CALL_PTN = Pattern.compile("Unit:([-A-Z0-9]+) Status:(?:Dispatched|Enroute|Notify) (.*)");
   private class MyUnitCallField extends Field {
     @Override
     public void parse(String field, Data data) {
