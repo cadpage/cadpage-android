@@ -19,7 +19,7 @@ public class MDCharlesCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "fire12alerting-bounces@sms.mdfiretech.com";
+    return "fire12alerting-bounces@sms.mdfiretech.com,ems12alerting@sms.mdfiretech.com";
   }
 
   @Override

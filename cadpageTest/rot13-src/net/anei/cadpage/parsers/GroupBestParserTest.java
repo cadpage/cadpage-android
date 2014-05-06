@@ -5,18 +5,35 @@ vzcbeg arg.narv.pnqcntr.cnefref.PB.PBNqnzfPbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBObhyqrePbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBJryqPbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBAbegutyraaRZFCnefre;
+vzcbeg arg.narv.pnqcntr.cnefref.ZQ.ZQPuneyrfPbhaglNCnefre;
+vzcbeg arg.narv.pnqcntr.cnefref.ZQ.ZQPuneyrfPbhaglOCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.AW.AWZreprePbhaglNCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.GK.GKZbagtbzrelPbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.trareny.TrarenyCnefre;
 
 vzcbeg bet.whavg.Grfg;
+
 vzcbeg fgngvp bet.whavg.Nffreg.*;
 
 
 choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
-  choyvp ibvq grfgCeboyrz() {
+  choyvp ibvq grfgCeboyrzf() {
+    frgCnefre(arj TebhcOrfgCnefre(arj ZQPuneyrfPbhaglNCnefre(), arj ZQPuneyrfPbhaglOCnefre()), "PUNEYRF PBHAGL", "ZQ");
+    frgRkcYbpPbqr("ZQPuneyrfPbhaglO");
+
+    qbGrfg("G1",
+        "GEBHOYR OERNGUVAT NYF\a8935 SYBHE PG\azqsg.hf/?EZqxSo\a1408220\aCN129\a5/5/2014 4:17:00 CZ\aSRZNYR JVGU FBO",
+        "VQ:1408220",
+        "PNYY:GEBHOYR OERNGUVAT NYF",
+        "NQQE:8935 SYBHE PG",
+        "HEY:uggc://zqsg.hf/?EZqxSo",
+        "HAVG:CN129",
+        "QNGR:5/5/2014",
+        "GVZR:16:17:00",
+        "VASB:SRZNYR JVGU FBO");
+
   }
   
   @Grfg

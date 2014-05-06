@@ -34,6 +34,9 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
+    // Kick out any wayward version B messages that waunder this way
+    if (body.contains("\nmdft.us/")) return false;
+    
     boolean good = false;
     if (subject.equals("*CAD*|CAD")) good = true;
     
@@ -135,7 +138,8 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
       // Otherwise we have to use the smart parser to separate out what we didn't get
       int flags = (mapSt >= 0 ? FLAG_ANCHOR_END : 0);
       parseAddress(start, flags, body, data);
-      good = (getStatus() > STATUS_STREET_NAME);
+      good = good || (getStatus() > STATUS_STREET_NAME);
+      if (flags == 0) data.strSupp = getLeft();
 
       if (data.strCall.endsWith(",")) data.strCall = data.strCall.substring(0, data.strCall.length()-1).trim();
       
