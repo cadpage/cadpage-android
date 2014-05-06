@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import net.anei.cadpage.R;
+import net.anei.cadpage.SmsMmsMessage;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -32,14 +33,15 @@ public abstract class DonateScreenBaseEvent extends DonateEvent {
   /**
    * Called to create the associated Donate activity
    * @param activity new activity being created
+   * @param msg message associated with this event
    */
-  public void create(final Activity activity) {
+  public void create(final Activity activity, SmsMmsMessage msg) {
     
     // Double check that event is still enabled.
     // It isn't that we really worry about showing an inappropriate display
     // as we are making sure that isEnabled has been called for this activity
     // as it sometimes has some required side effects.
-    if (!isEnabled()) {
+    if (!isEnabled(msg)) {
       closeEvents(activity);
       return;
     }
@@ -61,8 +63,8 @@ public abstract class DonateScreenBaseEvent extends DonateEvent {
   }
 
   @Override
-  protected void doEvent(Activity activity) {
-    DonateActivity.launchActivity(activity, this);
+  protected void doEvent(Activity activity, SmsMmsMessage msg) {
+    DonateActivity.launchActivity(activity, this, msg);
   }
 
   /**

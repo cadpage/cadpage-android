@@ -134,7 +134,7 @@ public class CallHistoryActivity extends ListActivity {
       // If not, see if we have discovered a direct page vendor sending us text pages
       else {
         Vendor1Event event = Vendor1Event.instance();
-        if (event.isEnabled()) DonateActivity.launchActivity(this, event);
+        if (event.isEnabled()) DonateActivity.launchActivity(this, event, null);
 
       }
     }

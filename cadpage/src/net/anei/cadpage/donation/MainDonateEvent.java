@@ -39,6 +39,7 @@ public class MainDonateEvent extends DonateScreenEvent {
         PaidExpireDonateEvent.instance(),
         DemoDonateEvent.instance(),
         DemoExpireDonateEvent.instance(),
+        Active911MissingParserDonateEvent.instance(),
         Active911ParseWarnDonateEvent.instance());
   }
 
@@ -80,9 +81,9 @@ public class MainDonateEvent extends DonateScreenEvent {
   }
 
   @Override
-  public void doEvent(Activity activity) {
-    DonateEvent event = findEvent(false, null);
-    if (event != null) event.doEvent(activity);
+  public void doEvent(Activity activity, SmsMmsMessage msg) {
+    DonateEvent event = findEvent(false, msg);
+    if (event != null) event.doEvent(activity, msg);
   }
   
   /**

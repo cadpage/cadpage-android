@@ -36,7 +36,6 @@ public class SmsPopupActivity extends Safe40Activity {
   private SmsMmsMessage message;
   private MsgOptionManager optManager;
 
-  private boolean exitingKeyguardSecurely = false;
   private ImageView fromImage;
   private TextView fromTV;
   private TextView messageReceivedTV;
@@ -139,8 +138,6 @@ public class SmsPopupActivity extends Safe40Activity {
     super.onResume();
     if (Log.DEBUG) Log.v("SMSPopupActivity: onResume()");
     wasVisible = false;
-    // Reset exitingKeyguardSecurely bool to false
-    exitingKeyguardSecurely = false;
     
     // Supposed to workaround Android 4 problem
     // setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
@@ -218,7 +215,7 @@ public class SmsPopupActivity extends Safe40Activity {
     // launch the donation status menu.  We'll check the donation status again
     // when this menu is closed
     if (!DonationManager.instance().isEnabled()) {
-      MainDonateEvent.instance().doEvent(this);
+      MainDonateEvent.instance().doEvent(this, null);
     }
     
     // Retrieve message from queue
@@ -609,7 +606,6 @@ public class SmsPopupActivity extends Safe40Activity {
    * reloads the activity).
    */
   private void viewMessage() {
-    exitingKeyguardSecurely = true;
     ManageKeyguard.exitKeyguardSecurely(new LaunchOnKeyguardExit() {
       public void LaunchOnKeyguardExitSuccess() {
         // Yet another fix for the View button in privacy mode :(

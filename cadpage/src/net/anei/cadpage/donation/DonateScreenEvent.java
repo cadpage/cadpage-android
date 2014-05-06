@@ -1,6 +1,7 @@
 package net.anei.cadpage.donation;
 
 import net.anei.cadpage.R;
+import net.anei.cadpage.SmsMmsMessage;
 import android.app.Activity;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -28,8 +29,8 @@ public abstract class DonateScreenEvent extends DonateScreenBaseEvent {
    * Called to create the associated Donate activity
    * @param activity new activity being created
    */
-  public void create(final Activity activity) {
-    super.create(activity);
+  public void create(final Activity activity, SmsMmsMessage msg) {
+    super.create(activity, msg);
     if (activity.isFinishing()) return;
     
     // Fill the button list with the appropriate event buttons
@@ -37,7 +38,7 @@ public abstract class DonateScreenEvent extends DonateScreenBaseEvent {
     if (btnList == null) return;
     if (events != null){
       for (DonateEvent event : events) {
-        event.addButton(activity, btnList);
+        event.addButton(activity, btnList, msg);
       }
     }
     
@@ -54,7 +55,7 @@ public abstract class DonateScreenEvent extends DonateScreenBaseEvent {
   }
 
   @Override
-  protected void doEvent(Activity activity) {
-    DonateActivity.launchActivity(activity, this);
+  protected void doEvent(Activity activity, SmsMmsMessage msg) {
+    DonateActivity.launchActivity(activity, this, msg);
   }
 }

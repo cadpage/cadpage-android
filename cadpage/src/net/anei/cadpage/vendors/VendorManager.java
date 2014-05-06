@@ -474,12 +474,14 @@ public class VendorManager {
    * Perform and vendor specific location code conversions
    * @param vendorCode vendor code
    * @param location received location code
-   * @return converted location code
+   * @return two element string array.  First element contains the converted
+   * location code.  The second lists any parser elements that could not be
+   * converted
    */
-  public String convertLocationCode(String vendorCode, String location) {
+  public String[] convertLocationCode(String vendorCode, String location) {
     Vendor vendor = findVendor(vendorCode);
-    if (vendor != null) location = vendor.convertLocationCode(location);
-    return location;
+    if (vendor != null) return vendor.convertLocationCode(location);
+    return new String[]{location, null};
   }
 
   /**

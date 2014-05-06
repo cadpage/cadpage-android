@@ -61,7 +61,13 @@ public abstract class DonateEvent {
    * Called when an event needs to be performed
    * @param activity current context
    */
-  abstract protected void doEvent(Activity activity);
+  protected void doEvent(Activity activity, SmsMmsMessage msg) {
+    doEvent(activity);
+  }
+  
+  protected void doEvent(Activity activity) {
+    throw new RuntimeException("DonateEvent doEvent method not overridden");
+  }
   
   /**
    * @param msg Current message being processed
@@ -103,7 +109,7 @@ public abstract class DonateEvent {
     pref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
       @Override
       public boolean onPreferenceClick(Preference preference) {
-        doEvent(act);
+        doEvent(act, null);
         return true;
       }});
     
@@ -131,7 +137,7 @@ public abstract class DonateEvent {
    * @param parent ViewGroup to which button should be added
    * @return true if button was added to group
    */
-  public boolean addButton(Activity activity, ViewGroup parent) {
+  public boolean addButton(Activity activity, ViewGroup parent, final SmsMmsMessage msg) {
     
     // If event is not enabled, bail out here
     if (!isEnabled()) return false;
@@ -145,7 +151,7 @@ public abstract class DonateEvent {
     button.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        doEvent(act);
+        doEvent(act, msg);
       }
     });
     
@@ -168,7 +174,7 @@ public abstract class DonateEvent {
    * @param button button to be set up
    * @return true if button was set up, false otherwise
    */
-  public boolean setButton(final Activity activity, Button button, SmsMmsMessage msg) {
+  public boolean setButton(final Activity activity, Button button, final SmsMmsMessage msg) {
     if (!isEnabled(msg)) return false;
     String title = activity.getString(titleId, getTextParms(PARM_TITLE));
     button.setText(setAlertColor(title));
@@ -177,7 +183,7 @@ public abstract class DonateEvent {
     button.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        doEvent(activity);
+        doEvent(activity, msg);
       }
     });
     

@@ -69,6 +69,10 @@ public class SmsMmsMessage implements Serializable {
   // Location code and sponsor C2DM messages
   private String reqLocation = null;
   private String vendorCode = null;
+  
+  // Tracking configured Active911 parsers that we do not yet support
+  private String missingParsers = null;
+  
   // Dead member replaced by vendor
   private String sponsor = null;
   private String ackReq = null;
@@ -502,8 +506,10 @@ public class SmsMmsMessage implements Serializable {
     // code
     if (reqLocation != null && !ManagePreferences.overrideVendorLoc()) {
       try {
-        parser = ManageParsers.getInstance().getParser(reqLocation);
-        location = reqLocation;
+        String[] results = VendorManager.instance().convertLocationCode(vendorCode, reqLocation);
+        missingParsers = results[1];
+        parser = ManageParsers.getInstance().getParser(results[0]);
+        location = results[0];
       } catch (RuntimeException ex) {
         Log.e(ex);
       }
@@ -742,6 +748,10 @@ public class SmsMmsMessage implements Serializable {
     return vendorCode;
   }
   
+  public String getMissingParsers() {
+    return missingParsers;
+  }
+  
   /**
    * Get the extra information URL.  If we don't have one at this level, 
    * look for one in the parsed message information
@@ -971,6 +981,10 @@ public class SmsMmsMessage implements Serializable {
     
     sb.append("\nVendorCode:");
     sb.append(vendorCode);
+    if (missingParsers != null) {
+      sb.append("\nMissing Active911 Parsers:");
+      sb.append(missingParsers);
+    }
     
     sb.append("\nackReq:");
     sb.append(ackReq);

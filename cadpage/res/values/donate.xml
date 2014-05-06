@@ -255,10 +255,9 @@
   
   <string name="donate_active911_parse_warn_title">Active911 parser alert</string>
   <string name="donate_active911_parse_warn_text">
-    The information in this alert was not provided by Cadpage.  
-    This alert was processed with a new parsing system that Active911 is setting
-    up to replace the Cadpage parsing system.  We are working with Active911 to
-    restore Cadpage parsing services.  
+    The information in this alert was not provided by Cadpage.
+    To restore normal Cadpage operation, you will need to call Active911 
+    support and ask them to switch your department to their new alert server.  
   </string>
   
   <string name="vendor_title">Register with %s</string>
@@ -282,6 +281,12 @@
   <string name="vendor_register_title">Register for direct paging</string>
   
   <!-- New stuff goes here -->
+  
+  <string name="donate_active911_missing_parser_title">No Cadpage Parser is available for this alert</string>
+  <string name="donate_active911_missing_parser_text">
+    Cadpage does not currently include a message parser that can handle this alert.
+    Please use the "Report Problem button below to report this so we can get it fixed.
+  </string>
   
   <string name="paging_profile_title">Cadpage Paging Service Profile</string>
   <string name="paging_profile_text">

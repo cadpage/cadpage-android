@@ -6,6 +6,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import net.anei.cadpage.R;
+import net.anei.cadpage.SmsMmsMessage;
 
 
 public abstract class DonateQueryEvent extends DonateScreenBaseEvent {
@@ -18,8 +19,9 @@ public abstract class DonateQueryEvent extends DonateScreenBaseEvent {
    * Called to create the associated Donate activity
    * @param activity new activity being created
    */
-  public void create(final Activity activity) {
-    super.create(activity);
+  @Override
+  public void create(final Activity activity, SmsMmsMessage msg) {
+    super.create(activity, msg);
     
     final TextView editView = (TextView)activity.findViewById(R.id.editText);
     

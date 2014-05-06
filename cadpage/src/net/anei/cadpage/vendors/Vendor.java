@@ -616,10 +616,12 @@ abstract class Vendor {
   /**
    * Perform any vendor specific location code conversions
    * @param location location code
-   * @return new location code
+   * @return two element string array.  First element contains the converted
+   * location code.  The second lists any parser elements that could not be
+   * converted
    */
-  String convertLocationCode(String location) {
-    return location;
+  String[] convertLocationCode(String location) {
+    return new String[]{location, null};
   }
 
   /**

@@ -317,10 +317,6 @@ public class C2DMService extends IntentService {
     String serverTime = intent.getStringExtra("unix_time");
     String infoUrl = intent.getStringExtra("info_url"); 
     
-    // See if we need to switch the vendors location codes to something
-    // we better understand
-    location = VendorManager.instance().convertLocationCode(vendorCode, location);
-    
     // See if we need to correct for character set problems
     String charset = intent.getStringExtra("charset");
     if (charset != null && charset.length() > 0 && !charset.equals("UTF-8")) {

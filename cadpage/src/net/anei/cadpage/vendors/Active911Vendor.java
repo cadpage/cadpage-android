@@ -60,23 +60,32 @@ class Active911Vendor extends Vendor {
   }
   
   @Override
-  String convertLocationCode(String location) {
+  String[] convertLocationCode(String location) {
+    String missingParsers = null;
     StringBuilder sb = new StringBuilder();
     Set<String> parserSet = new HashSet<String>();
     
     for (String loc : location.split(",")){
       loc = loc.trim();
       if (loc.contains("/")) {
-        loc = POLY_CODE_TABLE.getProperty(loc);
-        if (loc == null) loc = "General";
-        if (loc.equals("N/A")) continue;
+        String newLoc = POLY_CODE_TABLE.getProperty(loc);
+        if (newLoc == null) {
+          if (missingParsers == null) {
+            missingParsers = loc;
+          } else {
+            missingParsers = missingParsers + ',' + loc;
+          }
+          newLoc = "General";
+        }
+        if (newLoc.equals("N/A")) continue;
+        loc = newLoc;
       }
       if (parserSet.add(loc)) {
         if (sb.length() > 0) sb.append(',');
         sb.append(loc);
       }
     }
-    return sb.toString();
+    return new String[]{sb.toString(), missingParsers};
   }
 
   private static final Set<String> PHONE_SET = new HashSet<String>(Arrays.asList(new String[]{
@@ -328,7 +337,6 @@ class Active911Vendor extends Vendor {
       "US/PA/LackawannaCounty",           "PALackawannaCounty",
       "US/PA/LancasterCounty",            "PALancasterCounty",
       "US/PA/LehighCounty",               "PALehighCounty",
-      "US/PA/LuzerneCounty",              "General",
       "US/PA/SomersetCounty",             "PASomersetCounty",
       "US/PA/YorkCounty",                 "PAYorkCountyD",
       "US/SC/GeorgetownCounty",           "SCGeorgetownCounty",

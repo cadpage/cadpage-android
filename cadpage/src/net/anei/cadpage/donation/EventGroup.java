@@ -1,5 +1,6 @@
 package net.anei.cadpage.donation;
 
+import net.anei.cadpage.SmsMmsMessage;
 import android.app.Activity;
 import android.preference.Preference;
 import android.view.ViewGroup;
@@ -29,10 +30,10 @@ public abstract class EventGroup extends DonateEvent {
 
 
   @Override
-  public boolean addButton(Activity activity, ViewGroup parent) {
+  public boolean addButton(Activity activity, ViewGroup parent, SmsMmsMessage msg) {
     boolean result = false;
     for (DonateEvent event : events) {
-      if (event.addButton(activity, parent)) result = true;
+      if (event.addButton(activity, parent, msg)) result = true;
     }
     return result;
   }
