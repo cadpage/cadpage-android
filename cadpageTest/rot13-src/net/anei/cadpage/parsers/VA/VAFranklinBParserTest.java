@@ -173,7 +173,7 @@ choyvp pynff INSenaxyvaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G7",
         "221 CEBTERFF CXJL SENAXYVA CERGYBJ FG K PHY-QR-FNP 13:03:23 SVER - NC TRARENY SVER NYNEZ",
-        "NQQE:221 CEBTERFF CXJL",
+        "NQQE:221 CEBTERFF CXJL", //ebnq bayl
         "PVGL:SENAXYVA",
         "K:CERGYBJ FG / PHY-QR-FNP",
         "GVZR:13:03:23",
@@ -191,7 +191,7 @@ choyvp pynff INSenaxyvaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G9",
         "28115 CERGYBJ EQ SENAXYVA 01:56:20 ERFPHR RZF- NC 53 LBN SRZNYR, PURFG CNVAF, PNYY SEBZ FUFB",
-        "NQQE:28115 CERGYBJ EQ",
+        "NQQE:28115 CERGYBJ EQ", //ebnq bayl
         "PVGL:SENAXYVA",
         "GVZR:01:56:20",
         "PNYY:ERFPHR RZF",
@@ -207,7 +207,7 @@ choyvp pynff INSenaxyvaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G11",
         "1400 A UVTU FG SENAXYVA BNXJBBQ QE K PVGL YVZVGF 21:02:47 ERFPHR RZF- NC PURFG CNVAF-1FG SYBBE UNYYJNL",
-        "NQQE:1400 A UVTU FG",
+        "NQQE:1400 A UVTU FG", 
         "PVGL:SENAXYVA",
         "K:BNXJBBQ QE / PVGL YVZVGF",
         "GVZR:21:02:47",
@@ -225,7 +225,7 @@ choyvp pynff INSenaxyvaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G13",
         "2916 FZVGUF SREEL EQ SENAXYVA 14:22:36 ERFPHR RZF- NC FBHGUNZCGBA NQIVFRQ 71 L/B SRZNYR CBFFVOYR QBN",
-        "NQQE:2916 FZVGUF SREEL EQ",
+        "NQQE:2916 FZVGUF SREEL EQ", //ebnq bayl
         "PVGL:SENAXYVA",
         "GVZR:14:22:36",
         "PNYY:ERFPHR RZF",
