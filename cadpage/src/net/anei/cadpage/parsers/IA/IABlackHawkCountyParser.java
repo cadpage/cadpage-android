@@ -12,7 +12,7 @@ public class IABlackHawkCountyParser extends DispatchA28Parser {
   
   @Override
   public String getFilter() {
-    return "Swmail@bhcso.org,Xmail@connectingyou.com";
+    return "Swmail@bhcso.org,Xmail@connectingyou.com,dispatch@co.marion.ia.us";
   }
   
   @Override
