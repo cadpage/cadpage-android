@@ -21,10 +21,6 @@ public class DonateResetMarketEvent extends DonateEvent {
     // Don't do anything if we aren't hooked to network
     if (!SmsPopupUtils.haveNet(activity)) return;
     
-    // Reset Android purchase information
-    ManagePreferences.setInitBilling(false);
-    BillingManager.instance().initialize(activity);
-    
     // Request status reload from server
     UserAcctManager.instance().reloadStatus(activity);
     

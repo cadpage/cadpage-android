@@ -80,11 +80,7 @@ public class UserAcctManager {
       // latched checked time exceeds the 30 day intervals, perform an automatic reload
       if (curTime - lastTime > AUTH_CHECK_INTERVAL) {
         
-        // Reset Android purchase information
-        ManagePreferences.setInitBilling(false);
-        BillingManager.instance().initialize(context);
-        
-        // Request status reload from server
+        // Request status reload from android market and authorization server
         UserAcctManager.instance().reloadStatus(context);
       }
     }
@@ -106,6 +102,17 @@ public class UserAcctManager {
   
   public void reloadStatus(Context context) {
     
+    // Rest the basic billing information
+    ManagePreferences.setPaidYear(0);
+    ManagePreferences.setPurchaseDateString(null);
+    ManagePreferences.setFreeSub(false);
+    ManagePreferences.setSponsor(null);
+    
+    // Request purchase information from Android Market
+    // When this information is returned, listeners will pass it to
+    // processSubscription(), just like we will.
+    BillingManager.instance().initialize(context, true);
+    
     // Build query with all of the possible account and phone ID's
     Uri.Builder builder = Uri.parse(context.getString(R.string.donate_server_url)).buildUpon();
     Account[] accounts = AccountManager.get(context).getAccountsByType("com.google");
@@ -123,63 +130,93 @@ public class UserAcctManager {
           
           String flds[] = line.split(",");
           if (flds.length < 2) continue;
-          
-          // Evaluate the status field.  Value of LIFE translates to year 9999
-          int year = -1;
           String stat = flds[1].trim();
-          if (stat.toUpperCase().equals("LIFE")) {
-            year = 9999;
-          } else {
-            try {
-              year = Integer.parseInt(stat);
-            } catch (NumberFormatException ex) {}
-            if (year < 2011 && year > 2050) year = -1;
-          }
-          
-          // get the current status year.  If new status is better, update
-          // the user status
-          int paidYear = ManagePreferences.freeRider() ? 9999 : ManagePreferences.paidYear();
-          if (year > paidYear) {
-            if (year == 9999) {
-              ManagePreferences.setFreeRider(true);
-            } else {
-              ManagePreferences.setPaidYear(year, true);
-            }
-          }
-          
-          // If status is less that current, ignore everything else
-          if (year < paidYear) continue;
-          
-          // Otherwise evaluate and accept purchase date
-          if (flds.length <= 2) continue;
-          if (year >= paidYear) {
-            Date purchaseDate = null;
-            try {
-              purchaseDate = DATE_FMT.parse(flds[2].trim());
-            } catch (ParseException ex) {}
-            if (purchaseDate != null) {
-              ManagePreferences.setPurchaseDate(purchaseDate);
-            }
-          }
-          
-          // If sponsor code is "FREE", set the free subscriber flag
-          String sponsor = null;
-          boolean free = false;
-          if (flds.length > 3) {
-            sponsor = flds[3].trim();
-            if (sponsor.equals("FREE")) { 
-              free = true;
-              sponsor = null;
-            } else if (sponsor.length() == 0) sponsor = null;
-          }
-          ManagePreferences.setFreeSub(free);
-          ManagePreferences.setSponsor(sponsor);
+          String purchaseDate = (flds.length < 3 ? null : flds[2].trim().replace("/", ""));
+          String sponsor = (flds.length < 4 ? null : flds[3].trim());
+          processSubscription(stat, purchaseDate, sponsor);
         }
         
         // Set the authorization last checked date
         ManagePreferences.setAuthLastCheckTime();
+
+        // Recalculate payment status and refresh display
+        DonationManager.instance().reset();
+        MainDonateEvent.instance().refreshStatus();
+
       }
     });
+  }
+  
+  /**
+   * Process one subscription request, this can come from the Android market interface
+   * or from the Cadpage authorization server response.
+   * @param stat - Subscription status, either a subscription year or "LIFE".
+   * @param purchaseDateStr - puchase date in MMDDYYY format.
+   * @param sponsor
+   */
+  public static void processSubscription(String stat, String purchaseDateStr, String sponsor) {
+    
+    // This gets called from multiple threads, so we had better lock internal processing
+    synchronized (UserAcctManager.class) {
+      
+      // Evaluate the status field.  Value of LIFE translates to year 9999
+      int year = -1;
+      if (stat.toUpperCase().equals("LIFE")) {
+        year = 9999;
+      } else {
+        try {
+          year = Integer.parseInt(stat);
+        } catch (NumberFormatException ex) {}
+        if (year < 2011 && year > 2050) year = -1;
+      }
+      
+      // get the current status year.  If better than this status, we can
+      // completely ignore everything
+      int paidYear = ManagePreferences.freeRider() ? 9999 : ManagePreferences.paidYear();
+      if (year < paidYear) return;
+      
+      // Next get the current and new free subscriber status
+      boolean freeSub = sponsor != null && sponsor.equals("FREE");
+      boolean curFreeSub = ManagePreferences.freeSub();
+
+      // if this year is better than current year, update current paid year status
+      if (year > paidYear) {
+        if (year == 9999) {
+          ManagePreferences.setFreeRider(true);
+        } else {
+          ManagePreferences.setPaidYear(year, true);
+        }
+      }
+      
+      // If years are the same, a free subscription request can not override
+      // an existing paid request
+      else if (year == paidYear && freeSub && !curFreeSub) return;
+      
+      // Purchase date processing, only if we have one of course
+      if (purchaseDateStr != null) {
+        
+        // If subscription year is better than last, this purchase date takes
+        // priority.  If year is the same,  use this purchase date if it is
+        // later than the current date.  Unless the current purchase date was
+        // a free subscription and this one was not.
+        //
+        // The purchase date comparison only compares the month and day.  The
+        // purchase year is not relevant
+        if (year == paidYear && (freeSub || !curFreeSub)) {
+          String curPurchaseDateStr  = ManagePreferences.purchaseDateString();
+          if (curPurchaseDateStr != null && 
+              curPurchaseDateStr.substring(0,4).compareTo(purchaseDateStr.substring(0,4))>0) {
+            purchaseDateStr = curPurchaseDateStr;
+          }
+        }
+        ManagePreferences.setPurchaseDateString(purchaseDateStr);
+      }
+      
+      // Set sponsor and free subscription status
+      if (freeSub || (sponsor != null && sponsor.length() == 0)) sponsor = null;
+      ManagePreferences.setFreeSub(freeSub);
+      ManagePreferences.setSponsor(sponsor);
+    }
   }
   
   

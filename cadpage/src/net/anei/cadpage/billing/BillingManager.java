@@ -10,6 +10,9 @@ import net.anei.cadpage.billing.BillingService.RequestPurchase;
 import net.anei.cadpage.billing.BillingService.RestoreTransactions;
 import net.anei.cadpage.billing.Consts.PurchaseState;
 import net.anei.cadpage.billing.Consts.ResponseCode;
+import net.anei.cadpage.donation.DonationManager;
+import net.anei.cadpage.donation.MainDonateEvent;
+import net.anei.cadpage.donation.UserAcctManager;
 
 
 public class BillingManager {
@@ -32,10 +35,12 @@ public class BillingManager {
   
   /**
    * Initialize billing manager and associate it with an activity
-   * @param activity main activity
+   * @param context current context
+   * @param reload true to force reload of all purchase information
+   * 
    */
-  public void initialize(Context context) {
-    reload = ! ManagePreferences.initBilling();
+  public void initialize(Context context, boolean reload) {
+    this.reload = reload || ! ManagePreferences.initBilling();
     mService = new BillingService();
     mService.setContext(context);
     mService.checkBillingSupported();
@@ -59,6 +64,7 @@ public class BillingManager {
   }
   
   public boolean isPurchased() {
+    if (ManagePreferences.freeSub()) return false;
     Calendar cal = Calendar.getInstance(); 
     int year = cal.get(Calendar.YEAR);
     int paidYear = ManagePreferences.paidYear();
@@ -78,11 +84,11 @@ public class BillingManager {
     String purchaseDate = null;
     String curDate = ManagePreferences.currentDateString();
     
-    // If subscription has already purchased, use the previous
+    // If paid subscription has already purchased, use the previous
     // purchase date.  Unless user subscription has expired, in 
     // which case we will give them a break and ignore the 
     // previous expired subscription
-    if (curYear > 0) {
+    if (curYear > 0 && !ManagePreferences.freeSub()) {
       year = Integer.toString(curYear + 1);
       purchaseDate = ManagePreferences.purchaseDateString();
       String expDateYMD = year + purchaseDate.substring(0,4);
@@ -117,12 +123,14 @@ public class BillingManager {
                                        String payload) {
       Log.v("PurchaseState:" + purchaseState + "  Item:" + itemId + "Payload:" + payload);
       if (itemId.startsWith("cadpage_")) {
-        int year = Integer.parseInt(itemId.substring(8));
-        boolean purchase = purchaseState == PurchaseState.PURCHASED;
-        ManagePreferences.setPaidYear(year, purchase);
-        if (purchase && payload != null) ManagePreferences.setPurchaseDateString(payload);
-        ManagePreferences.setFreeSub(false);
-        ManagePreferences.setSponsor(null);
+        String year = itemId.substring(8);
+        if (purchaseState == PurchaseState.PURCHASED) {
+          UserAcctManager.processSubscription(year, payload, null);
+        } else { 
+          ManagePreferences.setPaidYear(Integer.parseInt(year), false);
+        }
+        DonationManager.instance().reset();
+        MainDonateEvent.instance().refreshStatus();
       }
     }
 

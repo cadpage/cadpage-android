@@ -594,8 +594,6 @@ public class ManagePreferences {
         prefs.putInt(R.string.pref_prev_year_key, curYear);
         prefs.putInt(R.string.pref_paid_year_key, year);
         prefs.putString(R.string.pref_prev_purchase_date_key, purchaseDateString());
-        DonationManager.instance().reset();
-        MainDonateEvent.instance().refreshStatus();
       }
     } else {
       if (year == curYear) {
@@ -604,8 +602,6 @@ public class ManagePreferences {
         prefs.putInt(R.string.pref_prev_year_key, 0);
         setPurchaseDateString(prefs.getString(R.string.pref_prev_purchase_date_key, ""));
         prefs.putString(R.string.pref_prev_purchase_date_key, "");
-        DonationManager.instance().reset();
-        MainDonateEvent.instance().refreshStatus();
       }
     }
   }
@@ -623,8 +619,6 @@ public class ManagePreferences {
   public static void setPurchaseDate(Date date) {
     String dateStr = DATE_FORMAT.format(date);
     prefs.putString(R.string.pref_purchase_date_key, dateStr);
-    DonationManager.instance().reset();
-    MainDonateEvent.instance().refreshStatus();
   }
   
   public static String purchaseDateString() {
@@ -639,8 +633,6 @@ public class ManagePreferences {
   
   public static void setPurchaseDateString(String  sDate) {
     prefs.putString(R.string.pref_purchase_date_key, sDate);
-    DonationManager.instance().reset();
-    MainDonateEvent.instance().refreshStatus();
   }
   
   public static String sponsor() {
@@ -651,10 +643,6 @@ public class ManagePreferences {
     String oldSponsor = sponsor();
     if (oldSponsor == null && sponsor == null) return;
     prefs.putString(R.string.pref_sponsor_key, sponsor);
-    if ((oldSponsor == null) != (sponsor == null)) {
-      DonationManager.instance().reset();
-      MainDonateEvent.instance().refreshStatus();
-    }
   }
   
   public static boolean freeRider() {
@@ -664,8 +652,6 @@ public class ManagePreferences {
   public static void setFreeRider(boolean newVal) {
     if (newVal == freeRider()) return;
     prefs.putBoolean(R.string.pref_free_rider_key, newVal);
-    DonationManager.instance().reset();
-    MainDonateEvent.instance().refreshStatus();
   }
   
   public static boolean freeSub() {
@@ -688,8 +674,6 @@ public class ManagePreferences {
   public static void setAuthLocation(String newVal) {
     if (newVal != null && newVal.equals(authLocation())) return;
     prefs.putString(R.string.pref_auth_location_key, newVal);
-    DonationManager.instance().reset();
-    MainDonateEvent.instance().refreshStatus();
   }
   
   public static String authOrganization() {
@@ -724,8 +708,6 @@ public class ManagePreferences {
     prefs.putString(R.string.pref_auth_extra_date_key, sDate);
     int cnt = authExtraCnt();
     prefs.putInt(R.string.pref_auth_extra_cnt_key, cnt+1);
-    DonationManager.instance().reset();
-    MainDonateEvent.instance().refreshStatus();
   }
   
   public static Date authExemptDate() {
@@ -741,6 +723,8 @@ public class ManagePreferences {
   
   public static void setExemptDate() {
     setExemptDate(prefs.context.getString(R.string.release_date));
+    DonationManager.instance().reset();
+    MainDonateEvent.instance().refreshStatus();
   }
   
   public static Date releaseDate() {
@@ -754,8 +738,6 @@ public class ManagePreferences {
   
   public static void setExemptDate(String newVal) {
     prefs.putString(R.string.pref_auth_exempt_date_key, newVal);
-    DonationManager.instance().reset();
-    MainDonateEvent.instance().refreshStatus();
   }
   
   public static void setAuthExemptDate(String newVal) {
@@ -783,16 +765,12 @@ public class ManagePreferences {
   public static void setAuthRunDays(int days) {
     prefs.putInt(R.string.pref_auth_run_days_key, days);
     prefs.putString(R.string.pref_auth_last_date_key, null);
-    DonationManager.instance().reset();
-    MainDonateEvent.instance().refreshStatus();
   }
   
   public static void rollLastAuthDate(String dateStr) {
     if (prefs.getString(R.string.pref_auth_last_date_key, null) != null) {
       prefs.putString(R.string.pref_auth_last_date_key, dateStr);
     }
-    DonationManager.instance().reset();
-    MainDonateEvent.instance().refreshStatus();
   }
   
   public static long authLastCheckTime() {

@@ -44,6 +44,8 @@ public class MagicWordEvent extends DonateQueryEvent {
     // the next release is loaded
     if (type == 1) {
       ManagePreferences.setExemptDate();
+      DonationManager.instance().reset();
+      MainDonateEvent.instance().refreshStatus();
       return true;
     }
     
@@ -51,14 +53,19 @@ public class MagicWordEvent extends DonateQueryEvent {
     // do trial demo
     if (type == 2) {
       ManagePreferences.setAuthRunDays(0);
+      DonationManager.instance().reset();
+      MainDonateEvent.instance().refreshStatus();
       return true;
     }
 
     // Look for old fashioned Cyprus Creek VFD authorization code
+    // We need to get rid of this
     String code = activity.getString(R.string.release_magic_word2);
     if (input.equalsIgnoreCase(code)) {
       ManagePreferences.setAuthLocation(LOCATION);
       ManagePreferences.setAuthOrganization(ORG);
+      DonationManager.instance().reset();
+      MainDonateEvent.instance().refreshStatus();
       return true;
     }
     

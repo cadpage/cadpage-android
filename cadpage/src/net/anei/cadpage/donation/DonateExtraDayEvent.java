@@ -28,6 +28,8 @@ public class DonateExtraDayEvent extends DonateEvent {
   @Override
   protected void doEvent(Activity activity) {
     ManagePreferences.authExtraDay();
+    DonationManager.instance().reset();
+    MainDonateEvent.instance().refreshStatus();
     closeEvents(activity);
   }
   

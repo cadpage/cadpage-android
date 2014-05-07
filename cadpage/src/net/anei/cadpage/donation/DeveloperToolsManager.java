@@ -9,6 +9,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 
+
 //import net.anei.cadpage.ContentQuery;
 import net.anei.cadpage.BugReportGenerator;
 import net.anei.cadpage.C2DMService;
@@ -118,7 +119,7 @@ public class DeveloperToolsManager {
         ManagePreferences.setAuthRunDays(0);
         ManagePreferences.setInitBilling(false);
         ManagePreferences.setFreeSub(false);
-        BillingManager.instance().initialize(context);
+        BillingManager.instance().initialize(context, false);
         break;
       
       case 1:     // Stat: Donate free
@@ -260,6 +261,7 @@ public class DeveloperToolsManager {
         C2DMService.emailRegistrationId(context);
         break;
       }
+      DonationManager.instance().reset();
       MainDonateEvent.instance().refreshStatus();
     }
     

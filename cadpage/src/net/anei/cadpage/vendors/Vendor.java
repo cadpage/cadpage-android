@@ -452,7 +452,11 @@ abstract class Vendor {
     C2DMService.unregister(context);
 
     // If the user is loosing a sponsored payment status, reset the 30 day evaluation period
-    if (isSponsored()) ManagePreferences.setAuthRunDays(0);
+    if (isSponsored()) {
+      ManagePreferences.setAuthRunDays(0);
+      DonationManager.instance().reset();
+      MainDonateEvent.instance().refreshStatus();
+    }
   }
   
   /**
@@ -597,6 +601,8 @@ abstract class Vendor {
       else {
         C2DMService.unregister(context);
         ManagePreferences.setAuthRunDays(0);
+        DonationManager.instance().reset();
+        MainDonateEvent.instance().refreshStatus();
       }
       
       if (!register) EmailDeveloperActivity.logSnapshot(context, "Vendor initiated disconnect");
