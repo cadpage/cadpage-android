@@ -20,7 +20,7 @@ public class ALMadisonCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "cad.page@madco911.com,rescue1-bounces@rescuesquad.net,cad.page@madco9-1-1.org";
+    return "Madco911,rescue1-bounces@rescuesquad.net,cad.page@madco9-1-1.org";
   }
 
   @Override

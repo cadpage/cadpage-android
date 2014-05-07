@@ -27,7 +27,7 @@ public class OHClermontCountyAParser extends DispatchBParser {
 
   @Override
   protected boolean isPageMsg(String body) {
-    return body.contains(" Cad:") | body.contains("CAD#") && !body.startsWith("EVENT: ");
+    return body.contains(" Cad:") || body.contains("CAD#") && !body.startsWith("EVENT: ");
     
   }
   
