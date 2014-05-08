@@ -20,7 +20,7 @@ public class CAPasoRoblesParser extends DispatchA22Parser {
   }
 
   private static Properties CITY_CODES = buildCodeTable(new String[]{
-      "PR", "PASO ROBLES",
-      "SLO_CO", "SAN LUIS OBISPO COUNTY"
+      "PR", "PASO ROBLES"
+     // "SLO_CO", "SAN LUIS OBISPO COUNTY"
   });
 }

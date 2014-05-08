@@ -146,7 +146,7 @@ choyvp pynff PNCnfbEboyrfCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1405050108",
         "FEP:CESQ",
         "PNYY:RZF - RZRETRAPL ZRQVPNY FR...",
-        "NQQE:1930 YNTHAN QRY PNZCB ,FYB_PB",
+        "NQQE:1930 YNTHAN QRY PNZCB ,FYB_PB", //ZNCF GB FNA YHVF BOVFCB PBHAGL
         "VASB:ZRQVPNY / YBPNY 12, GNP PNYPBEQ / ---- Rkgreany Erznexf sebz F...");
 
     qbGrfg("G2",
@@ -333,8 +333,8 @@ choyvp pynff PNCnfbEboyrfCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:CESQ",
         "PNYY:RZF - RZRETRAPL ZRQVPNY FR...",
         "CEV:1",
-        "NQQE:325 XVYRE",
-        "NCG:CFEF GO 05",
+        "NQQE:325 XVYRE", //zncf svar, xvyre pnalba eq
+        "NCG:CFEF GO 05", //???
         "PVGL:CNFB EBOYRF",
         "VASB:PVG UVF YRT J/ FXVYY FNJ / ------------------------------[PNQ...");
 
