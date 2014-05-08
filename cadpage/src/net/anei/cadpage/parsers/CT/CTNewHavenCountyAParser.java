@@ -3,18 +3,19 @@ package net.anei.cadpage.parsers.CT;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchRedAlertParser;
 
 
-public class CTNewHavenCountyAParser extends SmartAddressParser {
+public class CTNewHavenCountyAParser extends DispatchRedAlertParser {
   
-  private static final Pattern MASTER1 = Pattern.compile("(.*?), *- *(.*?) at (.*) . . \\d\\d:\\d\\d:\\d\\d");
-  private static final Pattern MASTER2 = Pattern.compile("CODE (.), *- *(.*?) at (.*?) \\d\\d:\\d\\d\\b *(.*)");
+  private static final Pattern MISSING_DOTS = Pattern.compile("(.*[^.]) (\\d\\d:\\d\\d)\\b *(.*)");
+  private static final Pattern CITY_ZIP_PTN = Pattern.compile("(.*) \\d{5}");
+  private static final Pattern PRI_CALL_PTN = Pattern.compile("CODE (\\d), *- *(.*)");
   
   public CTNewHavenCountyAParser() {
     super(CITY_LIST, "NEW HAVEN COUNTY", "CT");
-    setFieldList("PRI CALL ADDR CITY SRC INFO");
+    setupMultiWordStreets("BLOCK ISLAND");
   }
   
   @Override
@@ -25,29 +26,41 @@ public class CTNewHavenCountyAParser extends SmartAddressParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    String sAddr;
-    Matcher match;
-    if ((match = MASTER1.matcher(body)).matches()) {
-      data.strCall = append(match.group(1).trim(), " - ", match.group(2).trim());
-      sAddr = match.group(3).trim();
+    // This is mostly a Red Alert format with some variations we have to correct for
+    String info = "";
+    Matcher match = MISSING_DOTS.matcher(body);
+    if (match.matches()) {
+      body = match.group(1) + " . . " + match.group(2);
+      info = match.group(3).trim();
     }
-    else if ((match = MASTER2.matcher(body)).matches()) {
+    
+    if (!super.parseMsg(subject, body, data)) return false;
+    
+    match = PRI_CALL_PTN.matcher(data.strCall);
+    if (match.matches()) {
       data.strPriority = match.group(1);
-      data.strCall = match.group(2).trim();
-      sAddr = match.group(3).trim();
-      data.strSupp = match.group(4).trim();
+      data.strCall = match.group(2);
     }
-    else return false;
     
-    int pt = sAddr.indexOf(", ");
-    if (pt >= 0) {
-      data.strSource = sAddr.substring(pt+2).trim();
-      sAddr = sAddr.substring(0,pt).trim();
+    match = CITY_ZIP_PTN.matcher(data.strCity);
+    if (match.matches()) {
+      data.strCity = match.group(1).trim();
+    } else {
+      String addr = data.strAddress;
+      data.strSource = data.strCity;
+      data.strAddress = data.strCity = "";
+      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, addr, data);
+      if (data.strCity.length() == 0) data.strCity = data.strSource;
     }
-    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
-    if (data.strCity.length() == 0) data.strCity = data.strSource;
     
+    data.strSupp = append(data.strSupp, " / ", info);
+
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return "PRI " + super.getProgram().replace("CITY", "CITY SRC") + " INFO";
   }
   
   private static final String[] CITY_LIST = new String[]{

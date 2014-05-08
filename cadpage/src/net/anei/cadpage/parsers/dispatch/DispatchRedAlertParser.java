@@ -12,9 +12,15 @@ public class DispatchRedAlertParser extends SmartAddressParser {
   
   private static final Pattern TIME_MARK = Pattern.compile("\\. ?\\. ?([\\d:]+)$");
   private static final Pattern CODE_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Z]-?\\d{1,2}[A-Z]?\\b");
+
   
   public DispatchRedAlertParser(String defCity, String defState) {
-    super(defCity, defState);
+    this(null, defCity, defState);
+  }
+
+  
+  public DispatchRedAlertParser(String[] cityList, String defCity, String defState) {
+    super(cityList, defCity, defState);
     setFieldList("CALL CODE INFO ADDR APT CITY BOX X PLACE TIME");
   }
 
@@ -78,7 +84,9 @@ public class DispatchRedAlertParser extends SmartAddressParser {
         sAddress = sAddress.substring(0,indx).trim();
       }
       // Protect C/O sequence form being treated as an intersection
-      parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, sAddress.replace("C/O", "C%O"), data);
+      int flags = FLAG_ANCHOR_END;
+      if (data.strCity.length() > 0) flags |= FLAG_NO_CITY;
+      parseAddress(StartType.START_PLACE, flags, sAddress.replace("C/O", "C%O"), data);
       if (data.strAddress.length() == 0) {
         data.strAddress = data.strPlace;
         data.strPlace = "";
