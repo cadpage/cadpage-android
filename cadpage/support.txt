@@ -3336,3 +3336,23 @@ be contacted at their respective web sites.  Both are highly recommended.
 Have a nice day,
 -Ken
 
+****************************************************************
+USe Cadpage with Active911
+
+ You can use Cadpage with the Active911 service.  Setup is simple.
+
+Open Cadpage Settings and select
+Direct Paging Vendors > Active911.com > Unregister > Register
+You have to enter the same device activation code you used to Register
+the Active911 app.  For you this is ______________
+
+Once you do this, Cadpage will start picking up the Active911 alerts
+that used to go to the Active911 app.  The Active911 app will stop
+alerting when a call is dispatched.  But if you launch the Active911 app
+from Cadpage (we have configurable buttons to make this easier) it will
+pull the latest alert information from their servers and display the
+latest alerts after a few seconds.
+
+Then you have your department stop sending you the text alerts.  
+
+Good luck,
