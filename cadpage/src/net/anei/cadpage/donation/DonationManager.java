@@ -5,6 +5,8 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Random;
 
+import android.content.Context;
+import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
@@ -62,14 +64,18 @@ public class DonationManager {
   // Cached overpaid days
   private int overpaidDays;
   
+  // Cached paid subscriber status
+  private boolean paidSubscriber;
+  
   /**
    * Calculate all cached values
    */
   private void calculate() {
-    
+
     // If this is the free version of Cadpage, we can skip all of the hard stuff
     if (this.getClass().getName().contains(".cadpagefree")) {
       status = DonationStatus.FREE;
+      paidSubscriber = false;
       return;
     }
     
@@ -80,35 +86,47 @@ public class DonationManager {
     // Save the previous hold status so we can tell if it has been cleared
     boolean oldAlert = (status != null && status.getStatus() == Status.BLOCK);
     
+    // Ditto for expiration date and paid subscriber status
+    boolean oldPaidSubscriber = paidSubscriber;
+    Date oldExpireDate = expireDate;
+    
     // Convert current time to a JDate, and set the cache limit to midnight
     // of that day
     Date curDate = new Date(curTime);
     JulianDate curJDate = new JulianDate(curDate);
     validLimitTime = curJDate.validUntilTime();
     
+    // See if user is subscribed to Capage paging.  that can change the status
+    // in some circumstances
+    boolean paidSubReq = VendorManager.instance().isPaidSubRequired();
+    
     // Get sponsor name and expiration date from either the
-    // Vendor manager or the current parser
-    sponsor = VendorManager.instance().getSponsor();
+    // Vendor manager or the current parser.  Neither counts as a paid
+    // subscription for Cadpage paging service
+    sponsor = null;
     JulianDate regJDate = null;
-    if (sponsor != null) {
-      Date regDate = ManagePreferences.registerDate();
-      if (regDate == null) {
-        ManagePreferences.setRegisterDate();
-        regJDate = curJDate;
-      } else {
-        regJDate = new JulianDate(regDate);
-      }
-    }
     expireDate = null;
-    if (!VendorManager.instance().isRegistered()) {
-      MsgParser parser = ManagePreferences.getCurrentParser();
-      sponsor = parser.getSponsor();
-      expireDate = parser.getSponsorDate();
-      if (expireDate != null) {
-        Calendar cal = new GregorianCalendar();
-        cal.setTime(expireDate);
-        cal.add(Calendar.YEAR, +1);
-        expireDate = cal.getTime();
+    if (!paidSubReq) {
+      sponsor = VendorManager.instance().getSponsor();
+      if (sponsor != null) {
+        Date regDate = ManagePreferences.registerDate();
+        if (regDate == null) {
+          ManagePreferences.setRegisterDate();
+          regJDate = curJDate;
+        } else {
+          regJDate = new JulianDate(regDate);
+        }
+      }
+      if (!VendorManager.instance().isRegistered()) {
+        MsgParser parser = ManagePreferences.getCurrentParser();
+        sponsor = parser.getSponsor();
+        expireDate = parser.getSponsorDate();
+        if (expireDate != null) {
+          Calendar cal = new GregorianCalendar();
+          cal.setTime(expireDate);
+          cal.add(Calendar.YEAR, +1);
+          expireDate = cal.getTime();
+        }
       }
     }
 
@@ -125,6 +143,7 @@ public class DonationManager {
     // ((Use install date if there is no purchase date))
     overpaidDays = 0;
     int daysTillSubExpire = -99999;
+    paidSubscriber = false;
     int paidYear = ManagePreferences.paidYear();
     if (paidYear > 0) {
       Date tDate = ManagePreferences.purchaseDate();
@@ -133,12 +152,19 @@ public class DonationManager {
       cal.setTime(tDate);
       cal.set(Calendar.YEAR, paidYear+1);
       tDate = cal.getTime();
+      JulianDate tJDate = new JulianDate(tDate);
       
       // If there is a sponsored vendor register date and they have a paid subscription
       // expiration date, compute the number of days between them.  This is the number 
       // of days they have been doubled billed by both us and the vendor
       if (regJDate != null) {
-        overpaidDays = regJDate.diffDays(new JulianDate(tDate)); 
+        overpaidDays = regJDate.diffDays(tJDate); 
+      }
+      
+      // They only get the coverted paid subscriber status if this is a real
+      // paid subscription and this expiration date has not passed
+      if (!ManagePreferences.freeSub()) {
+        if (curJDate.diffDays(tJDate) >= 0) paidSubscriber = true;
       }
       
       // If we have both a subscription and sponsor expiration date, choose the
@@ -156,7 +182,7 @@ public class DonationManager {
     if (expireDate != null) {
       JulianDate jExpireDate = new JulianDate(expireDate);
       daysTillSubExpire = curJDate.diffDays(jExpireDate);
-      if (daysTillSubExpire < 0) {
+      if (!paidSubReq && daysTillSubExpire < 0) {
         JulianDate jReleaseDate = new JulianDate(ManagePreferences.releaseDate());
         limbo = jReleaseDate.diffDays(jExpireDate) >= 0;
       }
@@ -166,7 +192,13 @@ public class DonationManager {
     // OK, we have calculated all of the intermediate stuff.  Now use that to
     // determine the overall status
     String location = ManagePreferences.location();
-    if (ManagePreferences.freeRider()) status = DonationStatus.LIFE;
+    if (ManagePreferences.freeRider()) {
+      status = DonationStatus.LIFE;
+      paidSubscriber = true;
+    }
+    else if (paidSubReq && !paidSubscriber) {
+      status = (sponsor == null ? DonationStatus.PAID_EXPIRE : DonationStatus.SPONSOR_EXPIRE);
+    }
     else if (ManagePreferences.authLocation().equals(ManagePreferences.location())) {
       status = DonationStatus.AUTH_DEPT;
     } else if (expireDate != null) {
@@ -203,32 +235,58 @@ public class DonationManager {
       expireDate = null;
     }
     
-    // If they don't have a clear green status, check for a special release exemption
-    if (status.getStatus() != Status.GOOD) {
-      
-      // This only returns a exempt date if it is still is valid for the current release
-      // And it is only valid for period of time after the release was shipped
-      Date exemptDate = ManagePreferences.authExemptDate();
-      if (exemptDate != null) {
-        JulianDate exJDate = new JulianDate(exemptDate);
-        int days = exJDate.diffDays(curJDate);
-        if (days <= REL_EXEMPT_DAYS) {
-          status = DonationStatus.EXEMPT;
-          daysTillExpire = REL_EXEMPT_DAYS - days;
+    // None of the exceptions apply if they are using paging service
+    if (!paidSubReq) {
+
+      // If they don't have a clear green status, check for a special release exemption
+      if (status.getStatus() != Status.GOOD) {
+        
+        // This only returns a exempt date if it is still is valid for the current release
+        // And it is only valid for period of time after the release was shipped
+        Date exemptDate = ManagePreferences.authExemptDate();
+        if (exemptDate != null) {
+          JulianDate exJDate = new JulianDate(exemptDate);
+          int days = exJDate.diffDays(curJDate);
+          if (days <= REL_EXEMPT_DAYS) {
+            status = DonationStatus.EXEMPT;
+            daysTillExpire = REL_EXEMPT_DAYS - days;
+          }
         }
+      }
+      
+      // Cadpage should be enabled unless something has expired
+      // If status changed from expired to non-expired, reset the extra day count
+      enabled = (status.getStatus() != Status.BLOCK);
+      if (enabled && oldAlert) ManagePreferences.resetAuthExtra();
+      
+      // If status is not enabled, check for the loopholes
+      // First if if user has asked for an extra day
+      if (!enabled) {
+        Date extraDate = ManagePreferences.authExtraDate();
+        if (extraDate != null && new JulianDate(extraDate).equals(curJDate)) enabled = true;
       }
     }
     
-    // Cadpage should be enabled unless something has expired
-    // If status changed from expired to non-expired, reset the extra day count
-    enabled = (status.getStatus() != Status.BLOCK);
-    if (enabled && oldAlert) ManagePreferences.resetAuthExtra();
-    
-    // If status is not enabled, check for the loopholes
-    // First if if user has asked for an extra day
-    if (!enabled) {
-      Date extraDate = ManagePreferences.authExtraDate();
-      if (extraDate != null && new JulianDate(extraDate).equals(curJDate)) enabled = true;
+    // If the paging service is enabled, we need to report paid subscriber
+    // and expiration date changes
+    else {
+      Context context = CadPageApplication.getContext();
+      boolean expDateSame = (expireDate == null ? oldExpireDate == null :
+                             oldExpireDate == null ? false :
+                             expireDate.equals(oldExpireDate));
+      if (paidSubscriber != oldPaidSubscriber || !expDateSame) {
+        VendorManager.instance().updateCadpageStatus(context);
+        
+        // If the paid subscriber status had changed, this should be reported
+        // to the user
+        if (paidSubscriber != oldPaidSubscriber) {
+          if (paidSubscriber) {
+            PagingProfileEvent.instance().open(context);
+          } else {
+            MainDonateEvent.instance().open(context);
+          }
+        }
+      }
     }
   }
 
@@ -306,6 +364,14 @@ public class DonationManager {
    */
   public int getOverpaidDays() {
     return overpaidDays;
+  }
+  
+  /**
+   * @return true if user is a real true paid subscriber
+   */
+  public boolean isPaidSubscriber() {
+    calculate();
+    return paidSubscriber;
   }
   
   // Singleton instance

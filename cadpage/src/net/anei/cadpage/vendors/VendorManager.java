@@ -89,6 +89,14 @@ public class VendorManager {
   }
   
   /**
+   * @return true if user is registered with a vendor that requires
+   * a pad subscription
+   */
+  public boolean isPaidSubRequired() {
+    return isRegistered("Cadpage");
+  }
+  
+  /**
    * @return true specified vendor is a legal vendor name
    * @param vendorName registered vendor name
    */
@@ -168,12 +176,23 @@ public class VendorManager {
 
   /**
    * Request reset of dispatch email address
-   * @param vendorCode vemdpr code
+   * @param vendorCode vendor code
    * @param context current context
    */
   public void resetEmailReq(String vendorCode, Context context) {
     Vendor vendor = findVendor(vendorCode);
     if (vendor != null) vendor.resetEmailReq(context);
+  }
+  
+  /**
+   * Update Cadpage services status.
+   * Called when either the activation status or expiration date has changed
+   * and should be reported to servers
+   * @param context current context
+   */
+  public void updateCadpageStatus(Context context) {
+    Vendor vendor = findVendor("Cadpage");
+    if (vendor != null) vendor.updateCadpageStatus(context);
   }
 
   /**
@@ -184,6 +203,15 @@ public class VendorManager {
     ManagePreferences.setDirectPageActive(true);
     ManagePreferences.setReconnect(true);
     C2DMService.register(context, true);
+  }
+  
+  /**
+   * Display the Cadpage service registration window
+   * @param context current context
+   */
+  public void CadpageServicePopup(Context context) {
+    Vendor vendor = findVendor("Cadpage");
+    if (vendor != null) VendorActivity.launchActivity(context, vendor);
   }
   
   /**

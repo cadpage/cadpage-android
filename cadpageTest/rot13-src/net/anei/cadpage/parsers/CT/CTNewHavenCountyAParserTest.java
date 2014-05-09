@@ -25,6 +25,7 @@ PBQR 4, - QGA FGEHPGHER SVER ng 125 TBBFR YNAR, THVYSBEQ 09:32
 Pbagnpg: Ftg. Unax Yvaqtera <YvaqteraU@pv.thvysbeq.pg.hf>
 Fraqre: thvysbeqsq@erqazkpnq.pbz
 PBQR 2, - QGA ZRQVPNY RZRETRAPL ng 46 IVARLNEQ NIR, THVYSBEQ 06437   B: YRVTUGBA, XVATFYRL & ERLABYQF, QNIVQ . . 09:12:20
+PBQR 1, - NHGBZNGVP SVER NYNEZ ng OBFGBA GREE, THVYSBEQ 06437 . . 18:56:56
 
 */
 
@@ -150,7 +151,15 @@ choyvp pynff PGArjUniraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:THVYSBEQ",
         "CYNPR:YRVTUGBA, XVATFYRL & ERLABYQF, QNIVQ",
         "GVZR:09:12:20");
-    
+
+    qbGrfg("G2",
+        "PBQR 1, - NHGBZNGVP SVER NYNEZ ng OBFGBA GREE, THVYSBEQ 06437 . . 18:56:56",
+        "CEV:1",
+        "PNYY:NHGBZNGVP SVER NYNEZ",
+        "NQQE:OBFGBA GREE",
+        "PVGL:THVYSBEQ",
+        "GVZR:18:56:56");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

@@ -11,6 +11,7 @@ import net.anei.cadpage.R;
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.PagingProfileEvent;
+import net.anei.cadpage.donation.PagingSubRequiredEvent;
 import net.anei.cadpage.donation.DonationManager.DonationStatus;
 import net.anei.cadpage.donation.UserAcctManager;
 
@@ -34,7 +35,7 @@ class CadpageVendor extends Vendor {
 
   @Override
   void profileReq(Activity activity) {
-    PagingProfileEvent.open(activity);
+    PagingProfileEvent.instance().open(activity);
   }
 //
 //  @Override
@@ -42,12 +43,12 @@ class CadpageVendor extends Vendor {
 //    // TODO debugging only 
 //    return true;
 //  }
-//
-//  @Override
-//  String getEmailAddress() {
-//    // TODO debugging only
-//    return "kencorbin@cadpagepaging.net";
-//  }
+
+  @Override
+  String getEmailAddress() {
+    // TODO debugging only
+    return "kencorbin@cadpagepaging.net";
+  }
 
   @Override
   Uri getBaseURI(String req) {
@@ -57,11 +58,51 @@ class CadpageVendor extends Vendor {
 
   @Override
   void sendRegisterReq(Context context, String registrationId) {
+    
+    // Check that user really does have a paid subscription
+    if (!DonationManager.instance().isPaidSubscriber()) {
+      PagingSubRequiredEvent.instance().open(context);
+      return;
+    }
     Uri uri = buildRequestUri("register", registrationId);
     Uri.Builder builder = uri.buildUpon();
     
     String meid = UserAcctManager.instance().getMEID();
     if (meid != null) builder.appendQueryParameter("MEID",meid);
+    
+    String expireDate = calcExpireDate();
+    if (expireDate != null) builder.appendQueryParameter("expDate", expireDate);
+    
+    uri = builder.build();
+    HttpService.addHttpRequest(context, new HttpRequest(uri){});
+  }
+  
+  
+  /**
+   * Update Cadpage services status.
+   * Called when either the activation status or expiration date has changed
+   * and should be reported to servers
+   * @param context current context
+   */
+  @Override
+  void updateCadpageStatus(Context context) {
+    
+    if (!isEnabled()) return;
+    
+    Uri uri = buildRequestUri("update", null);
+    Uri.Builder builder = uri.buildUpon();
+    builder.appendQueryParameter("active", DonationManager.instance().isPaidSubscriber() ? "Y" : "N");
+    builder.appendQueryParameter("expDate", calcExpireDate());
+    
+    uri = builder.build();
+    HttpService.addHttpRequest(context, new HttpRequest(uri){});
+  }
+  
+  /**
+   * Calculate the expiration date to report
+   * @return  calculated expiration date or "LIFE" if lifetime subscriber
+   */
+  private String calcExpireDate() {
     
     DonationStatus status = DonationManager.instance().status(); 
     String expireDate = null;
@@ -74,10 +115,8 @@ class CadpageVendor extends Vendor {
         expireDate = null;
       }
     }
-    if (expireDate != null) builder.appendQueryParameter("expDate", expireDate);
-    
-    uri = builder.build();
-    HttpService.addHttpRequest(context, new HttpRequest(uri){});
+    return expireDate;
   }
-    private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
+
+  private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
 }

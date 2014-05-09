@@ -4,11 +4,14 @@ import java.text.DateFormat;
 import java.util.Date;
 
 import net.anei.cadpage.R;
+import net.anei.cadpage.vendors.VendorManager;
 
 /**
-Your Cadpage subscription has expired
+%s sponsorship has expired
 
-Your current Cadpage subscription expired on %s
+Your using a service sponsored by %1$s that expired on %2$s. Please
+contact %1$s about renewing their Cadpage sponsorship.
+
  */
 public class SponsorExpireDonateEvent extends DonateScreenEvent {
   
@@ -22,7 +25,8 @@ public class SponsorExpireDonateEvent extends DonateScreenEvent {
 
   @Override
   public boolean isEnabled() {
-    return (DonationManager.instance().status() == DonationManager.DonationStatus.SPONSOR_EXPIRE);
+    return (DonationManager.instance().status() == DonationManager.DonationStatus.SPONSOR_EXPIRE &&
+            !VendorManager.instance().isPaidSubRequired());
   }
 
   @Override

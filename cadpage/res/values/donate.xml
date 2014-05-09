@@ -255,9 +255,10 @@
   
   <string name="donate_active911_parse_warn_title">Active911 parser alert</string>
   <string name="donate_active911_parse_warn_text">
-    The information in this alert was not provided by Cadpage.
-    To restore normal Cadpage operation, you will need to call Active911 
-    support and ask them to switch your department to their new alert server.  
+    The information in this alert was not provided by Cadpage.  
+    This alert was processed with a new parsing system that Active911 is setting
+    up to replace the Cadpage parsing system.  We are working with Active911 to
+    restore Cadpage parsing services.  
   </string>
   
   <string name="vendor_title">Register with %s</string>
@@ -282,10 +283,45 @@
   
   <!-- New stuff goes here -->
   
+  <string name="donate_paid_warn_required_title">Your %1$s subscription will expire in %2$d days</string>
+  <string name="donate_paid_warn_required_text">
+    Your %1$s Cadpage subscription will expire on %2$s.  The Cadpage Paging
+    service subscription has no grace period.  Pages will stop being forwarded
+    as soon as your subscription expires.
+  </string>
+  
+  <string name="donate_sponsor_warn_required_title">%1$s sponsorship will expire in %2$d days</string>
+  <string name="donate_sponsor_warn_required_text">
+    You are using a service sponsored by %1$s that will expire on %2$s.  Please contact %1$s
+    about renewing their Cadpage sponsorship.  The Cadpage Paging
+    service subscirption has no grace period.  Pages will stop being forwarded
+    as soon as your subscription expires.
+  </string>
+  
+  <string name="donate_paid_expire_required_title">Your %s Cadpage subscription has expired</string>
+  <string name="donate_paid_expire_required_text">
+    Your %1$s Cadpage subscription expired on %2$s.  Cadpage Paging Service is
+    suspended.
+  </string>
+  
+  <string name="donate_sponsor_expire_required_title">%s sponsorship has expired</string>
+  <string name="donate_sponsor_expire_required_text">
+    Your using a service sponsored by %1$s that expired on %2$s. Cadpage Paging
+    Service is suspended.  Please contact %1$s about renewing their Cadpage 
+    sponsorship.
+  </string>
+  
   <string name="donate_active911_missing_parser_title">No Cadpage Parser is available for this alert</string>
   <string name="donate_active911_missing_parser_text">
     Cadpage does not currently include a message parser that can handle this alert.
     Please use the "Report Problem button below to report this so we can get it fixed.
+  </string>
+  
+  <string name="paging_sub_required_title">Paging service requires a paid subscription</string>
+  <string name="paging_sub_required_text">
+    Cadpage paging service is only available to users with current paid subscriptions.
+    We have to pay to support each user on this service, we can not afford give
+    it away.
   </string>
   
   <string name="paging_profile_title">Cadpage Paging Service Profile</string>
@@ -295,6 +331,8 @@
       Your dispatch email address is\n %s\n\n
       Any email sent to this address will be appear as a Cadpage dispatch alert.
   </string>
+  
+  <string name="paging_drop_service">Drop Cadpage Paging Service</string>
   
   <string name="send_dispatch_address_title">Send Dispatch Address</string>
   <string name="email_address_title">Sending dispatch email address</string>

@@ -125,10 +125,8 @@
   </string>
   
   <string name="donate_active911_parse_warn_title">Active911 lokalanpassningsalarm</string>
-  <string name="donate_active911_parse_warn_text"> <!-- Translate -->
-    The information in this alert was not provided by Cadpage.
-    To restore normal Cadpage operation, you will need to call Active911 
-    support and ask them to switch your department to their new alert server.  
+  <string name="donate_active911_parse_warn_text">
+    Informationen i det här larmet kommer inte från Cadpage. Det här larmet kommer från Active911 och dess lokalanpassningssystem eftersom de jobbar på att resätta Cadpages system. Vi jobbar tillsammans med dem för att få det att fungera.  
   </string>
   
   <string name="vendor_title">Registrera med %s</string>

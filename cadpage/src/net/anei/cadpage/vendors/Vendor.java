@@ -474,6 +474,11 @@ abstract class Vendor {
       sendRegisterReq(context, registrationId);
       inProgress = false;
       discoverUri = null;
+      
+      // Debugging only!!!
+      enabled = true;
+      reportStatusChange();
+      
       return true;
     }
     
@@ -593,7 +598,7 @@ abstract class Vendor {
     if (enabled) publishAccountInfo(context);
     
     boolean showProfile = (enabled && changeEmail); 
-    if (showProfile) PagingProfileEvent.open(context);
+    if (showProfile) PagingProfileEvent.instance().open(context);
     if (change) {
       reportStatusChange();
       if (!showProfile) showNotice(context, register ? R.string.vendor_connect_msg : R.string.vendor_disconnect_msg, null);
@@ -629,15 +634,23 @@ abstract class Vendor {
   String[] convertLocationCode(String location) {
     return new String[]{location, null};
   }
+  
+  /**
+   * Update Cadpage services status.
+   * Called when either the activation status or expiration date has changed
+   * and should be reported to servers
+   * @param context current context
+   */
+  void updateCadpageStatus(Context context) {
+  }
 
   /**
    * Report enabled status change to all interested parties
    */
   private void reportStatusChange() {
-    if (isSponsored()) {
-      DonationManager.instance().reset();
-      MainDonateEvent.instance().refreshStatus();
-    }
+    DonationManager.instance().reset();
+    MainDonateEvent.instance().refreshStatus();
+    
     if (preference != null) preference.update();
     if (activity != null) activity.update();
   }

@@ -11,12 +11,15 @@ import net.anei.cadpage.vendors.VendorManager;
   %1$s sponsorship will expire in %2$d days
 
   You are using a service sponsored by %1$s that will expire on %2$s.  Please contact %1$s
-  about renewing their Cadpage sponsorship.
- */
-public class SponsorWarnDonateEvent extends DonateScreenEvent {
+  about renewing their Cadpage sponsorship.  The Cadpage Paging
+  service subscription has no grace period.  Pages will stop being forwarded
+  as soon as your subscription expires.
   
-  public SponsorWarnDonateEvent() {
-    super(AlertStatus.YELLOW, R.string.donate_sponsor_warn_title, R.string.donate_sponsor_warn_text,
+ */
+public class SponsorWarnRequiredDonateEvent extends DonateScreenEvent {
+  
+  public SponsorWarnRequiredDonateEvent() {
+    super(AlertStatus.YELLOW, R.string.donate_sponsor_warn_required_title, R.string.donate_sponsor_warn_required_text,
            ReqMoneyGroup.instance(), 
            MagicWordEvent.instance(),
            DonateWhatsUpEvent.instance());
@@ -25,7 +28,7 @@ public class SponsorWarnDonateEvent extends DonateScreenEvent {
   @Override
   public boolean isEnabled() {
     return (DonationManager.instance().status() == DonationManager.DonationStatus.SPONSOR_WARN &&
-            !VendorManager.instance().isPaidSubRequired());
+            VendorManager.instance().isPaidSubRequired());
   }
 
   @Override
@@ -52,9 +55,9 @@ public class SponsorWarnDonateEvent extends DonateScreenEvent {
     }
   }
   
-  private static final SponsorWarnDonateEvent instance = new SponsorWarnDonateEvent();
+  private static final SponsorWarnRequiredDonateEvent instance = new SponsorWarnRequiredDonateEvent();
   
-  public static SponsorWarnDonateEvent instance() {
+  public static SponsorWarnRequiredDonateEvent instance() {
     return instance;
   }
 

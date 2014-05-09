@@ -5,6 +5,7 @@ import java.util.Date;
 
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
+import net.anei.cadpage.vendors.VendorManager;
 
 /**
 Your %s Cadpage subscription will expire in %d days
@@ -25,7 +26,8 @@ public class PaidWarnDonateEvent extends DonateScreenEvent {
 
   @Override
   public boolean isEnabled() {
-    return (DonationManager.instance().status() == DonationManager.DonationStatus.PAID_WARN);
+    return (DonationManager.instance().status() == DonationManager.DonationStatus.PAID_WARN &&
+        !VendorManager.instance().isPaidSubRequired());
   }
 
   @Override

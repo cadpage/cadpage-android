@@ -15,6 +15,7 @@ import android.os.Handler;
  */
 public class CadPageApplication extends Application {
   
+  private static Context context = null;
   private static Handler mainHandler = null;
 
   /* (non-Javadoc)
@@ -23,6 +24,7 @@ public class CadPageApplication extends Application {
   @Override
   public void onCreate() {
     super.onCreate();
+    context = this;
     mainHandler = new Handler();
     Log.v("Intialization startup");
     getVersionInfo(this);
@@ -105,5 +107,9 @@ public class CadPageApplication extends Application {
   
   public static Handler getMainHandler() {
     return mainHandler;
+  }
+  
+  public static Context getContext() {
+    return context;
   }
 }

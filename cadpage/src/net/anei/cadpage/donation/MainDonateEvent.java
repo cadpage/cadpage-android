@@ -2,6 +2,7 @@ package net.anei.cadpage.donation;
 
 import net.anei.cadpage.SmsMmsMessage;
 import android.app.Activity;
+import android.content.Context;
 import android.preference.Preference;
 import android.widget.Button;
 
@@ -31,11 +32,15 @@ public class MainDonateEvent extends DonateScreenEvent {
         SponsorNoExpDonateEvent.instance(),
         SponsorDonateEvent.instance(),
         DonateExemptEvent.instance(),
+        SponsorWarnRequiredDonateEvent.instance(),
         SponsorWarnDonateEvent.instance(),
+        PaidWarnRequiredDonateEvent.instance(),
         PaidWarnDonateEvent.instance(),
         SponsorLimboDonateEvent.instance(),
         PaidLimboDonateEvent.instance(),
+        SponsorExpireRequiredDonateEvent.instance(),
         SponsorExpireDonateEvent.instance(),
+        PaidExpireRequiredDonateEvent.instance(),
         PaidExpireDonateEvent.instance(),
         DemoDonateEvent.instance(),
         DemoExpireDonateEvent.instance(),
@@ -86,6 +91,13 @@ public class MainDonateEvent extends DonateScreenEvent {
     if (event != null) event.doEvent(activity, msg);
   }
   
+  
+  @Override
+  public void open(Context context) {
+    DonateEvent event = findEvent(false, null);
+    if (event != null) ((DonateScreenBaseEvent)event).open(context);
+  }
+
   /**
    * Find the current active alert with the highest warning level
    * @param warn true if only events with at least a yellow alert level

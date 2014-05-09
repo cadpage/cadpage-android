@@ -55,7 +55,12 @@ public class DonateActivity extends Safe40Activity {
     popup.setFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
     popup.putExtra(EXTRA_SCREEN_NAME, event.getClass().getName());
     if (msg != null) popup.putExtra(EXTRA_MSG_ID, msg.getMsgId());
-    if (context instanceof Activity) ((Activity)context).startActivityForResult(popup, 0);
-    else context.startActivity(popup);
+    if (context instanceof Activity) {
+      ((Activity)context).startActivityForResult(popup, 0);
+    }
+    else {
+      popup.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+      context.startActivity(popup);
+    }
   }
 }

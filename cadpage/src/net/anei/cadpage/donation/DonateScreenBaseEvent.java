@@ -8,6 +8,7 @@ import net.anei.cadpage.SmsMmsMessage;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.Context;
 import android.view.Window;
 import android.widget.TextView;
 
@@ -80,6 +81,16 @@ public abstract class DonateScreenBaseEvent extends DonateEvent {
         .setPositiveButton(R.string.donate_btn_done, null)
         .show();
   }
+  
+  /**
+   * Open event screen window popup
+   * @param context current context
+   */
+  public void open(Context context) {
+    DonateActivity.launchActivity(context, this, null);
+  }
+  
+  
   
   // Map use to identify Screen events by classname
   private static Map<String, DonateScreenBaseEvent> screenEventMap = 

@@ -45,8 +45,4 @@ public class PagingProfileEvent extends DonateScreenEvent {
   public static PagingProfileEvent instance() {
     return instance;
   }
-  
-  public static final void open(Context context) {
-    DonateActivity.launchActivity(context, instance(), null);
-  }
 }
