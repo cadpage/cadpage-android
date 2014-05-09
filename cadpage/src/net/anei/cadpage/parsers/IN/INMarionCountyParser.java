@@ -29,7 +29,8 @@ public class INMarionCountyParser extends MsgParser {
     
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
-    if (body.startsWith("CAD:")) body = body.substring(4).trim();
+    body = stripFieldStart(body, "COI PUBLIC SAFETY ");
+    body = stripFieldStart(body, "CAD:");
     
     if (subject.endsWith(" MAJOR PAGE FYI")) {
       data.strSupp = body;
