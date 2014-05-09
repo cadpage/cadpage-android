@@ -27,6 +27,11 @@ public class DEKentCountyBParser extends DEKentCountyBaseParser {
   public String getLocName() {
     return "DEKentCountyB";
   }
+  
+  @Override
+  public String getFilter() {
+    return "alert@cfmsg.com";
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

@@ -19,7 +19,7 @@ public class COWeldCountyParser extends FieldProgramParser {
   
   protected COWeldCountyParser(String defCity, String defState) {
     super(defCity, defState,
-          "SKIP ( CALL D | CALL2 ) ADDR SRC UNIT! INFO+");
+          "SKIP ( CALL D | CALL2 ) ADDR MAP UNIT! INFO+");
   }
   
   @Override
