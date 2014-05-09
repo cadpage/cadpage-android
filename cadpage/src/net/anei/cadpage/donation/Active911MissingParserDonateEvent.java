@@ -16,7 +16,7 @@ public class Active911MissingParserDonateEvent extends DonateScreenEvent {
   public Active911MissingParserDonateEvent() {
     super(AlertStatus.RED, R.string.donate_active911_missing_parser_title, 
                            R.string.donate_active911_missing_parser_text,
-          Active911ParseInfoDonateEvent.instance());
+          EmailReportProblemEvent.instance());
   }
   
   @Override

@@ -749,6 +749,12 @@ public class SmsMmsMessage implements Serializable {
   }
   
   public String getMissingParsers() {
+    // Before returning the missing parser list, double check to see
+    // if some of them have been implemented since this call was received
+    if (missingParsers != null) {
+      String[] results = VendorManager.instance().convertLocationCode(vendorCode, missingParsers);
+      missingParsers = results[1];
+    }
     return missingParsers;
   }
   
