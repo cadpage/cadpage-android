@@ -18,6 +18,12 @@ public class VAFranklinBParser extends DispatchSouthernParser {
   }
 
   @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (body.startsWith("CITY OF FRANKLIN ")) return false;
+    return super.parseMsg(body, data);
+  }
+
+  @Override
   protected void parseExtra(String sExtra, Data data) {
     int pt = sExtra.indexOf('-');
     if (pt >= 0) {
