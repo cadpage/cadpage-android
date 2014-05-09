@@ -23,7 +23,7 @@ public class VAAlbemarleCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "CAD@acuecc.org";
+    return "CAD@acuecc.org,CAD2@acuecc.org ";
   }
 
   @Override
