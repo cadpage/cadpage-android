@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.TX;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
@@ -24,6 +25,7 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
         "JAMAICA BEACH",
         "JAMAICA COVE",
         "JOLLY ROGER",
+        "HALF MOON",
         "MOBY DICK",
         "PONCE DE LEON",
         "SAN LOUIS PASS",
@@ -69,19 +71,36 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
   }
 
   private static final Pattern NUMBER_HWY_PTN = Pattern.compile("\\b(\\d+)(US|FT|TX|FM)\\b");
-  private static final Pattern AVE_X_ST_PTN = Pattern.compile("\\bAVE ([A-Z]) ST\\b");
-  private static final Pattern AVE_X_ST_PTN2 = Pattern.compile("\\bAVE_([A-Z]) ST\\b");
+  private static final Pattern AVE_X_ST_PTN = Pattern.compile("\\bAVE [A-Z](?: HALF)?(?: REAR)?(?= ST\\b)");
+  private static final Pattern AVE_X_ST_PTN2 = Pattern.compile("\\b(AVE_[A-Z](?:_HALF)?(?:_REAR)?) ST\\b");
   private static final Pattern NUMBER_DASH_PTN = Pattern.compile("^(\\d+)-(?![A-Z] |BLK )");
+  private static final Pattern NUMBER_HALF_PTN = Pattern.compile("\\b(\\d+)-HALF\\b");
+  private static final Pattern NUMBER_HALF_PTN2 = Pattern.compile("\\b(\\d+)\\.5\\b");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       if (field.startsWith("FYI:")) field = field.substring(4).trim();
       else if (field.startsWith("Update:")) field = field.substring(7).trim();
+
+      int saveLen = field.length();
+      field = NUMBER_HALF_PTN.matcher(field).replaceAll("$1.5");
+      boolean repHalf = field.length() != saveLen;
+
       field = NUMBER_HWY_PTN.matcher(field).replaceAll("$1 $2");
-      field = AVE_X_ST_PTN.matcher(field).replaceAll("AVE_$1 ST");
+      Matcher match = AVE_X_ST_PTN.matcher(field);
+      if (match.find()) {
+        field = field.substring(0,match.start()) + match.group().replace(' ', '_') + field.substring(match.end());
+      }
+      
       super.parse(field, data);
-      data.strAddress = AVE_X_ST_PTN2.matcher(data.strAddress).replaceAll("AVE $1");
+      
+      match = AVE_X_ST_PTN2.matcher(data.strAddress);
+      if (match.find()) {
+        data.strAddress = data.strAddress.substring(0,match.start()) + match.group(1).replace('_', ' ').replace("HALF", "1/2") + data.strAddress.substring(match.end());
+      }
+      
       data.strAddress = NUMBER_DASH_PTN.matcher(data.strAddress).replaceFirst("$1 ");
+      if (repHalf) data.strAddress = NUMBER_HALF_PTN2.matcher(data.strAddress).replaceAll("$1-HALF");
       if (data.strAddress.length() == 0) abort();
     }
     
@@ -91,19 +110,52 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
     }
   }
   
+  @Override
+  public String adjustMapAddress(String addr) {
+    return NUMBER_HALF_PTN.matcher(addr).replaceAll("$1");
+  }
+  
   private static final CodeSet CALL_LIST = new CodeSet(
+      "ASSAULT",
       "ASSIST EMS",
       "ASSIST LAW ENFORCEMENT",
+      "ASSIST OTHER AGENCY",
+      "AUTO PEDESTRIAN ACCIDENT",
+      "BOMB THREAT",
+      "BONFIRE",
+      "CANCEL",
+      "CHEST PAINS",
+      "CHOKE",
+      "DEAD ON SCENE - DICKINSON",
+      "DIABETIC SICK CALL",
+      "DIFFICULTY BREATHING",
+      "DROWNING",
+      "DUP",
+      "DUP FM",
+      "FALLEN SUBJECT",
+      "FIRE ALARM",
       "FIRE - NON SPECIFIC",
       "FIRST RESPONDER WITH EMS",
       "GAS LEAK",
       "GRASS FIRE",
+      "HAZMAT",
+      "INJURED PERSON",
       "LANDING ZONE",
       "LINE DOWN",
       "MAJOR ACCIDENT",
+      "MEDICAL ALARM",
+      "MEDICAL ASSIST",
       "MUTUAL AID",
+      "OVERDOSE",
       "POLE FIRE",
+      "SEIZURE",
+      "SICK CALL",
       "SMOKE INVESTIGATION",
-      "STRUCTURE FIRE"
+      "STROKE",
+      "STRUCTURE FIRE",
+      "TRAFFIC STOP",
+      "UNCONSCIOUS PERSON",
+      "UNKNOWN REQUIRES EMS"
+
   );
 }

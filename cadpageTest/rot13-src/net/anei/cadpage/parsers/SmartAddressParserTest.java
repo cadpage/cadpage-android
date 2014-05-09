@@ -47,12 +47,17 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
-    qbGrfg(NQQE, "6 ZVYR EQ & OYNPX FG YRSGBIRE",
-        "NQQE:6 ZVYR EQ & OYNPX FG");
+    qbGrfg(PNYY, SYNT_AB_VZCYVRQ_NCG | SYNT_BCG_FGERRG_FSK, "FVPX CREFBA 1234 WRNA TBHY J ORUVAQ UBHFR",
+        "PNYY:FVPX CREFBA",
+        "NQQE:1234 WRNA TBHY J");
+        
   }
 
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(NQQE, "6 ZVYR EQ & OYNPX FG YRSGBIRE",
+        "NQQE:6 ZVYR EQ & OYNPX FG");
     
     qbGrfg(NQQE, SYNT_CNQ_SVRYQ | SYNT_PEBFF_SBYYBJF, "QRNQ RAQ / INYYRL IVRJ QE, NEPUONYQ URVTUGF EQ XRAFOHET",
         "NQQE:QRNQ RAQ & INYYRL IVRJ QE",

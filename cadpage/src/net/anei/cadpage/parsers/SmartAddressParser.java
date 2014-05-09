@@ -2053,7 +2053,8 @@ public abstract class SmartAddressParser extends MsgParser {
       // Possibly incrementing the result over a road suffix that is right here.
       if (isFlagSet(FLAG_NO_STREET_SFX)) {
         if (failIndex >= 0 && isType(failIndex, ID_ROAD_SFX)) failIndex++;
-        return failIndex;
+        end = failIndex;
+        break;
       }
 
       // start looking for a street suffix (or cross street indicator
@@ -2064,7 +2065,10 @@ public abstract class SmartAddressParser extends MsgParser {
       while (++end - start <= 3) {
         
         // An intersection marker marks the end of things
-        if (isConnector(end)) return failIndex;
+        if (isConnector(end)) {
+          end = failIndex;
+          break;
+        }
 
         // See if this is a normal road suffix
         // Skip if it an ambiguous road suffix and a real road suffix follows it
@@ -2082,9 +2086,12 @@ public abstract class SmartAddressParser extends MsgParser {
         if (isType(end, ID_NUMBER)) number = true;
       }
       
-      if (!good) return failIndex;
+      if (!good) end = failIndex;
       
     } while (false);
+    
+    // if we swappend in failIndex for end, it might be negative
+    if (end < 0) return -1;
     
     // Check for BYPASS
     if (isType(end, ID_BYPASS)) end++;
