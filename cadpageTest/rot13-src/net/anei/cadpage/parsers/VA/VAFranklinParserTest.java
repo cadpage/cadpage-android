@@ -2,85 +2,24 @@ cnpxntr arg.narv.pnqcntr.cnefref.IN;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
-vzcbeg bet.whavg.Grfg;
+vzcbeg bet.whavg.rkcrevzragny.ehaaref.Rapybfrq;
+vzcbeg bet.whavg.ehaare.EhaJvgu;
 
-/*
-Senaxyva Pbhagl, IN
-Pbagnpg: Evpxl Tevmmneq <evpxltevmmneq@tznvy.pbz>
-Fraqre: 777
 
-PVGL BS SENAXYVA qyrqorggre:32417 EVIREQNYR QE SENAXYVA 00:09:03 ERFPHR RZF- NC RYQREYL SRZNYR PURFG CNVAF,ABG ERFCBAQVAT,AHEFR BA QHGL NG ERFVQRAPR
-PVGL BS SENAXYVA zugheare:16 PERFPRAG QE SENAXYVA A UVTU FG K ZPPHGPURBA FG 14:40:37 ERFPHR RZF- NC ZRQVPNY NYNEZ
-PVGL BS SENAXYVA nwhfghf:1401 A UVTU FG Ez 1007 SENAXYVA BNXJBBQ QE K PVGL YVZVGF 05:40:29 ERFPHR RZF- NC ryqreyl srznyr frirer abfr oyrrq
-PVGL BS SENAXYVA zugheare:117 ORRPUJBBQ QE SENAXYVA BNXJBBQ QE K A UVTU FG 18:02:51 ERFPHR RZF- NC 74 LB SRZNYR - CBFFVOYR FGEBXR
-
-Pbagnpg: Pney Gvyyznaa <pney.gvyyznaa@vfyrbsjvtughf.arg>
-Fraqre: 777
-PVGL BS SENAXYVA qyrqorggre:205 ABEGU QE SENAXYVA PERFPRAG QE K PVEPYR QE 07:24:27 ERFPHR RZF- NC 79 LBN SRZNYR QVSSVPHYG OERNGUVAT
-
-*/
-
+@EhaJvgu(Rapybfrq.pynff)
 choyvp pynff INSenaxyvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp INSenaxyvaCnefreGrfg() {
-    frgCnefre(arj INSenaxyvaCnefre(), "SENAXYVA", "IN");
+  choyvp fgngvp pynff GrfgN rkgraqf INSenaxyvaNCnefreGrfg {
+    choyvp GrfgN() {
+      frgCnefre(arj INSenaxyvaCnefre());
+    }
   }
   
-  @Grfg
-  choyvp ibvq grfgCnefre() {
-
-    qbGrfg("G1",
-        "PVGL BS SENAXYVA qyrqorggre:32417 EVIREQNYR QE SENAXYVA 00:09:03 ERFPHR RZF- NC RYQREYL SRZNYR PURFG CNVAF,ABG ERFCBAQVAT,AHEFR BA QHGL NG ERFVQRAPR",
-        "NQQE:32417 EVIREQNYR QE",
-        "PVGL:SENAXYVA",
-        "GVZR:00:09:03",
-        "PNYY:ERFPHR RZF- NC",
-        "VASB:RYQREYL SRZNYR PURFG CNVAF,ABG ERFCBAQVAT,AHEFR BA QHGL NG ERFVQRAPR");
-
-    qbGrfg("G2",
-        "PVGL BS SENAXYVA zugheare:16 PERFPRAG QE SENAXYVA A UVTU FG K ZPPHGPURBA FG 14:40:37 ERFPHR RZF- NC ZRQVPNY NYNEZ",
-        "NQQE:16 PERFPRAG QE",
-        "PVGL:SENAXYVA",
-        "K:A UVTU FG / ZPPHGPURBA FG",
-        "GVZR:14:40:37",
-        "PNYY:ERFPHR RZF- NC ZRQVPNY NYNEZ");
-
-    qbGrfg("G3",
-        "PVGL BS SENAXYVA nwhfghf:1401 A UVTU FG Ez 1007 SENAXYVA BNXJBBQ QE K PVGL YVZVGF 05:40:29 ERFPHR RZF- NC ryqreyl srznyr frirer abfr oyrrq",
-        "NQQE:1401 A UVTU FG",
-        "NCG:1007",
-        "PVGL:SENAXYVA",
-        "K:BNXJBBQ QE / PVGL YVZVGF",
-        "GVZR:05:40:29",
-        "PNYY:ERFPHR RZF- NC",
-        "VASB:ryqreyl srznyr frirer abfr oyrrq");
-
-    qbGrfg("G4",
-        "PVGL BS SENAXYVA zugheare:117 ORRPUJBBQ QE SENAXYVA BNXJBBQ QE K A UVTU FG 18:02:51 ERFPHR RZF- NC 74 LB SRZNYR - CBFFVOYR FGEBXR",
-        "NQQE:117 ORRPUJBBQ QE",
-        "PVGL:SENAXYVA",
-        "K:BNXJBBQ QE / A UVTU FG",
-        "GVZR:18:02:51",
-        "PNYY:ERFPHR RZF- NC",
-        "VASB:74 LB SRZNYR - CBFFVOYR FGEBXR");
-
+  choyvp fgngvp pynff GrfgO rkgraqf INSenaxyvaOCnefreGrfg {
+    choyvp GrfgO() {
+      frgCnefre(arj INSenaxyvaCnefre());
+    }
   }
   
-  @Grfg
-  choyvp ibvq grfgPneyGvyyznaa() {
-
-    qbGrfg("G1",
-        "PVGL BS SENAXYVA qyrqorggre:205 ABEGU QE SENAXYVA PERFPRAG QE K PVEPYR QE 07:24:27 ERFPHR RZF- NC 79 LBN SRZNYR QVSSVPHYG OERNGUVAT",
-        "NQQE:205 ABEGU QE",
-        "PVGL:SENAXYVA",
-        "K:PERFPRAG QE / PVEPYR QE",
-        "GVZR:07:24:27",
-        "PNYY:ERFPHR RZF- NC",
-        "VASB:79 LBN SRZNYR QVSSVPHYG OERNGUVAT");
-
-  }
-  
-  choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj INSenaxyvaCnefreGrfg().trarengrGrfgf("G1");
-  }
+ 
 }

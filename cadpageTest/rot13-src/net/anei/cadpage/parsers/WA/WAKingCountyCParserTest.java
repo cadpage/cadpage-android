@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Xvat Pbhagl, JN
+Xvat Pbhagl, JN (P)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Xvat Pbhagl Sver Qvfgevpg #2
