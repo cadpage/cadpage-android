@@ -92,6 +92,7 @@ public class DEKentCountyBaseParser extends FieldProgramParser {
     "CHESTERTOWN",
     "GALENA",
     "MILLINGTON",
+    "PENNSVILLE",
     "ROCK HALL",
     
     // Sussex County
@@ -122,6 +123,9 @@ public class DEKentCountyBaseParser extends FieldProgramParser {
     "SELBYVILLE",
     "SLAUGHTER BEACH", 
     "SOUTH BETHANY",
+    
+    // Wicomico County, MD
+    "PARSONSBURG",
     
     // Neighborhood names in the PLACE_NAMES table
     "ANGOLA BY THE BAY",
@@ -246,6 +250,9 @@ public class DEKentCountyBaseParser extends FieldProgramParser {
       "GALENA",       "MD",
       "MILLINGTON",   "MD",
       "ROCK HALL",    "MD",
+      
+      // Wicomico County
+      "PARSONSBURG",  "MD"
 
   });
   

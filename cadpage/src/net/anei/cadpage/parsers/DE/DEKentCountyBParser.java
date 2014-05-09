@@ -99,9 +99,11 @@ public class DEKentCountyBParser extends DEKentCountyBaseParser {
     
     @Override
     public void parse(String field, Data data) {
+      field = fixAddress(field);
       ExtResult res1 = new ExtResult(field);
       String fld2 = getRelativeField(+1);
       if (fld2.length() > 0 && !fld2.startsWith("Xst's:")) {
+        fld2 = fixAddress(fld2);
         ExtResult res2 = new ExtResult(fld2);
         if (res2.getStatus() > res1.getStatus()) {
           res1 = res2;
@@ -122,7 +124,15 @@ public class DEKentCountyBParser extends DEKentCountyBaseParser {
     public String getFieldNames() {
       return super.getFieldNames() + " ST PLACE";
     }
+    
+    private String fixAddress(String addr) {
+      addr = PENNVILLE_PTN.matcher(addr).replaceAll("Pennsville");
+      addr = FOUR_DIGIT_ZIP_PTN.matcher(addr).replaceAll("0$0");
+      return addr;
+    }
   }
+  private static final Pattern PENNVILLE_PTN = Pattern.compile("\\bPennville\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern FOUR_DIGIT_ZIP_PTN = Pattern.compile("\\b8070\\b");
   
   /**
    * This class extends the Result class with additional information we
