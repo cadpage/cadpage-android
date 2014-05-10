@@ -551,6 +551,23 @@ public class SmsMmsMessage implements Serializable {
     // NOTE: Our location and info members will be set as a side effect of
     // a successful isPageMsg call
     if (location != null && location.startsWith("General")) {
+      
+      // If there were missing Active911 parsers, see if they have been implemented since.
+      // If they have, use the new codes to parse the old message
+      if (missingParsers != null) {
+        String[] results = VendorManager.instance().convertLocationCode(vendorCode, reqLocation);
+        missingParsers = results[1];
+        if (!location.equals(results[0])) {
+          try {
+            MsgParser parser = ManageParsers.getInstance().getParser(results[0]);
+            if (parser.isPageMsg(parseInfo, MsgParser.PARSE_FLG_SKIP_FILTER)) {
+              return parseInfo.getInfo();
+            }
+          } catch (RuntimeException ex) {
+            Log.e(ex);
+          }
+        }
+      }
       String curLocCode = ManagePreferences.location();
       if (! curLocCode.startsWith("General") || curLocCode.contains(",")) {
         if (ManageParsers.getInstance().getParser(curLocCode).isPageMsg(parseInfo, MsgParser.PARSE_FLG_SKIP_FILTER)) {
@@ -749,12 +766,6 @@ public class SmsMmsMessage implements Serializable {
   }
   
   public String getMissingParsers() {
-    // Before returning the missing parser list, double check to see
-    // if some of them have been implemented since this call was received
-    if (missingParsers != null) {
-      String[] results = VendorManager.instance().convertLocationCode(vendorCode, missingParsers);
-      missingParsers = results[1];
-    }
     return missingParsers;
   }
   
