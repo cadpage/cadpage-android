@@ -15,13 +15,17 @@ public class DispatchA41Parser extends FieldProgramParser {
   
   private Properties cityCodes;
   
-  public DispatchA41Parser(Properties cityCodes, String defCity, String defState) {
-    this(cityCodes, defCity, defState, 0);
+  private Pattern sourcePattern;
+  
+  
+  public DispatchA41Parser(Properties cityCodes, String defCity, String defState, String sourcePattern) {
+    this(cityCodes, defCity, defState, sourcePattern, 0);
   }
   
-  public DispatchA41Parser(Properties cityCodes, String defCity, String defState, int flags) {
+  public DispatchA41Parser(Properties cityCodes, String defCity, String defState, String sourcePattern, int flags) {
     super(cityCodes, defCity, defState, calcProgram(flags));
     this.cityCodes = cityCodes;
+    this.sourcePattern = Pattern.compile(sourcePattern);
   }
   
   private static String calcProgram(int flags) {
@@ -59,11 +63,10 @@ public class DispatchA41Parser extends FieldProgramParser {
     if (name.equals("ADDRCITY")) return new BaseAddressCityField();
     if (name.equals("CITY")) return new BaseCityField();
     if (name.equals("AT")) return new AddressField("at +(.*)", true);
-    // if (name.equals("PHONE")) return new PhoneField("\\d{3} ?\\d{3} ?\\d{4}", true);
     if (name.equals("X1")) return new CrossField("btwn *(.*)", true);
     if (name.equals("INT")) return new SkipField("<.*>", true);
     if (name.equals("PLACE")) return new BasePlaceField();
-    if (name.equals("SRC")) return new SourceField("[A-Z]{1,4}\\d?", true);
+    if (name.equals("SRC")) return new BaseSourceField();
     if (name.equals("MAPPAGE")) return new SkipField("mappage,XXXX", true);
     if (name.equals("INFO")) return new BaseInfoField();
     if (name.equals("UNIT")) return new BaseUnitField();
@@ -112,6 +115,24 @@ public class DispatchA41Parser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (field.startsWith(",")) return;
       super.parse(field, data);
+    }
+  }
+  
+  private class BaseSourceField extends SourceField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!sourcePattern.matcher(field).matches()) return false;
+      super.parse(field, data);
+      return true;
+    }
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
   

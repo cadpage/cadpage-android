@@ -12,7 +12,7 @@ public class INPorterCountyParser extends DispatchA41Parser {
   private static final Pattern MUT_AID_CALL_PTN = Pattern.compile("MUT.AID.*?(?: ([A-Z]{3}))?");
 
   public INPorterCountyParser() {
-    super(CITY_CODES, "PORTER COUNTY", "IN");
+    super(CITY_CODES, "PORTER COUNTY", "IN", "[A-Z]{2}");
   }
   
   @Override

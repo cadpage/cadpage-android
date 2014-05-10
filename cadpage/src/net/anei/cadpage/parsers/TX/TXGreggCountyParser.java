@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA41Parser;
 public class TXGreggCountyParser extends DispatchA41Parser {
 
   public TXGreggCountyParser() {
-    super(CITY_CODES, "GREGG COUNTY", "TX");
+    super(CITY_CODES, "GREGG COUNTY", "TX", "[A-Z]{2,3}");
   }
   
   @Override

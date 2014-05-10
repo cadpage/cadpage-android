@@ -84,11 +84,10 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
     frgQrsnhygf("JRYQ PBHAGL", "PB");
     qbGrfg("Jryq Pbhagl",
         "\" \" 24\aFVCS\aQ\a3211 YHCGBA NIR\aRI\a24\aZBZ VF ABG JNXVAT HC 0000 Pbasvez 0001 Ershfr GKG FGBC gb bcg-bhg",
-        "FEP:24",
         "PBQR:FVCS",
         "PNYY:FVPX NAQ VAWHERQ CBYVPR/SVER",
         "NQQE:3211 YHCGBA NIR",
-        "FEP:RI",
+        "ZNC:RI",
         "HAVG:24",
         "VASB:ZBZ VF ABG JNXVAT HC 0000 Pbasvez 0001 Ershfr");
     
@@ -107,11 +106,10 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
     frgRkcYbpPbqr("PBJryqPbhagl");
     qbGrfg("Jryq Pbhagl",
         "\" \" 24\aFVCS\aQ\a3211 YHCGBA NIR\aRI\a24\aZBZ VF ABG JNXVAT HC 0000 Pbasvez 0001 Ershfr GKG FGBC gb bcg-bhg",
-        "FEP:24",
         "PBQR:FVCS",
         "PNYY:FVPX NAQ VAWHERQ CBYVPR/SVER",
         "NQQE:3211 YHCGBA NIR",
-        "FEP:RI",
+        "ZNC:RI",
         "HAVG:24",
         "VASB:ZBZ VF ABG JNXVAT HC 0000 Pbasvez 0001 Ershfr");
   }
@@ -122,11 +120,10 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
     frgRkcYbpPbqr("PBJryqPbhagl");
     qbGrfg("Jryq Pbhagl",
         "\" \" 24\aFVCS\aQ\a3211 YHCGBA NIR\aRI\a24\aZBZ VF ABG JNXVAT HC 0000 Pbasvez 0001 Ershfr GKG FGBC gb bcg-bhg",
-        "FEP:24",
         "PBQR:FVCS",
         "PNYY:FVPX NAQ VAWHERQ CBYVPR/SVER",
         "NQQE:3211 YHCGBA NIR",
-        "FEP:RI",
+        "ZNC:RI",
         "HAVG:24",
         "VASB:ZBZ VF ABG JNXVAT HC 0000 Pbasvez 0001 Ershfr");
   }

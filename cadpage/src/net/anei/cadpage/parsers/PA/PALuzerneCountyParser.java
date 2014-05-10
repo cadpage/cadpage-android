@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA41Parser;
 public class PALuzerneCountyParser extends DispatchA41Parser {
 
   public PALuzerneCountyParser() {
-    super(CITY_CODES, "LUZERNE COUNTY", "PA");
+    super(CITY_CODES, "LUZERNE COUNTY", "PA", "[A-Z]{4}");
   }
   
   @Override

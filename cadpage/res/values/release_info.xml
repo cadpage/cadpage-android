@@ -9,29 +9,27 @@ We expect to release a new Cadpage direct paging service in the next few weeks.
 The web page at www.cadpage.org has the details.\n
 \n
 New Locations:\n
-Stanislaus County, CA\n
-Adams County, IL\n
-Shelby County, IN\n
-Nesho County, KS\n
-Hardin County, KY (alt)\n
-Franklin County, MO\n
-Jackson County, MO\n
-Mercer County, NJ (alt)\n
-Oswego County, NY (alt)\n
-Pickens County, SC\n
-
+Paso Robles, CA\n
+San Bernardino County, CA (alt)\n
+Fulton County, PA\n
+Appomattox County, VA\n
+Franklin, VA (alt)\n
+King County, WA (alt)\n
 \n
 Location Parsing Fixes:\n
-Cheboygan County, MI\n
-Hennepin County, MN\n
-Onondaga County, NY\n
-Suffolk County, NY\n
-Hoke County, NC\n
-Columbia County, PA\n
-Pennington County, SD\n
-Angleton, TX\n
-Prince William County, VA\n
-Thurston County, WA\n
+Weld County, CO\n
+New Haven County, CT\n
+Kent County, DE\n
+Twin Falls County, ID\n
+Marion County, IN\n
+Black Hawk County, IA\n
+Charles County, MD\n
+Bucks County, PA\n
+Galveston County, TX\n
+Albemarle County, VA\n
+\n
+General Fixes:\n
+Problem recalculating payment status\n
   </string>
 </resources>
   

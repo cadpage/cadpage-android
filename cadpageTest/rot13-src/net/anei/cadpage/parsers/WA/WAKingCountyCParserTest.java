@@ -172,9 +172,10 @@ choyvp pynff JNXvatPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:103 F 197GU FG",
         "PVGL:Qrf Zbvarf",
         "K:1FG NIR F naq BPPVQRAGNY NIR F",
-        "FEP:NSU",
-        "ZNC:SVE1",
-        "VASB:JS1209 / 96LBS / PBAF / QVSS OERNGUVAT",
+        "CYNPR:NSU",
+        "FEP:SVE1",
+        "ZNC:JS1209",
+        "VASB:96LBS / PBAF / QVSS OERNGUVAT",
         "HAVG:NZEVA2 Y29 Z13 Z13V",
         "QNGR:04/18/2014",
         "GVZR:15:55:45");

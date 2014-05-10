@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA41Parser;
 public class WAKingCountyCParser extends DispatchA41Parser {
 
   public WAKingCountyCParser() {
-    super(CITY_CODES, "KING COUNTY", "WA", A41_FLG_NO_CALL);
+    super(CITY_CODES, "KING COUNTY", "WA", "FIR\\d|[A-Z]9", A41_FLG_NO_CALL);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
