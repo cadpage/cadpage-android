@@ -28,7 +28,7 @@ public class DispatchA41Parser extends FieldProgramParser {
     StringBuilder sb = new StringBuilder();
     sb.append("DISPATCH:CODE! ");
     if ((flags & A41_FLG_NO_CALL) == 0) sb.append("CALL ");
-    sb.append("( PLACE  CITY/Z AT | ADDRCITY/Z ) CITY?  ( SRC/Z MAPPAGE! | ( PLACE X1 | PLACE INT | X1 | INT | ) PLACE? SRC ( MAP MAPPAGE | MAPPAGE | MAP ) ) INFO+ Unit:UNIT UNIT+");
+    sb.append("( PLACE CITY/Z AT | ADDRCITY/Z ) CITY? ( SRC/Z MAPPAGE! | EMPTY? ( PLACE X1 | PLACE INT | X1 | INT | ) EMPTY? PLACE? SRC ( MAP MAPPAGE | MAPPAGE | MAP ) ) INFO+ Unit:UNIT UNIT+");
     return sb.toString();
   }
 
@@ -56,26 +56,28 @@ public class DispatchA41Parser extends FieldProgramParser {
 
   @Override
   public Field getField(String name) {
-    if (name.equals("ADDRCITY")) return new MyAddressCityField();
-    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("ADDRCITY")) return new BaseAddressCityField();
+    if (name.equals("CITY")) return new BaseCityField();
     if (name.equals("AT")) return new AddressField("at +(.*)", true);
+    // if (name.equals("PHONE")) return new PhoneField("\\d{3} ?\\d{3} ?\\d{4}", true);
     if (name.equals("X1")) return new CrossField("btwn *(.*)", true);
     if (name.equals("INT")) return new SkipField("<.*>", true);
+    if (name.equals("PLACE")) return new BasePlaceField();
     if (name.equals("SRC")) return new SourceField("[A-Z]{1,4}\\d?", true);
     if (name.equals("MAPPAGE")) return new SkipField("mappage,XXXX", true);
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("INFO")) return new BaseInfoField();
+    if (name.equals("UNIT")) return new BaseUnitField();
     
-    if (name.equals("ID")) return new MyIdField();
-    if (name.equals("CODE")) return new MyCodeField();
-    if (name.equals("ADDR1")) return new MyAddressField(1);
-    if (name.equals("ADDR2")) return new MyAddressField(2);
-    if (name.equals("ADDR3")) return new MyAddressField(3);
+    if (name.equals("ID")) return new BaseIdField();
+    if (name.equals("CODE")) return new BaseCodeField();
+    if (name.equals("ADDR1")) return new BaseAddressField(1);
+    if (name.equals("ADDR2")) return new BaseAddressField(2);
+    if (name.equals("ADDR3")) return new BaseAddressField(3);
     if (name.equals("X2")) return new CrossField("btwn *(.*)", false);
     return super.getField(name);
   }
   
-  private class MyAddressCityField extends AddressCityField {
+  private class BaseAddressCityField extends AddressCityField {
     @Override
     public void parse(String field, Data data) {
       if (field.endsWith(")")) {
@@ -86,11 +88,12 @@ public class DispatchA41Parser extends FieldProgramParser {
     }
   }
   
-  private class MyCityField extends CityField {
+  private class BaseCityField extends CityField {
     
     @Override
     public boolean checkParse(String field, Data data) {
       int pt = field.indexOf('(');
+      if (pt < 0) pt = field.indexOf('<');
       if (pt >= 0) field = field.substring(0,pt).trim();
       return super.checkParse(field, data);
     }
@@ -98,13 +101,22 @@ public class DispatchA41Parser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       int pt = field.indexOf('(');
+      if (pt < 0) pt = field.indexOf('<');
       if (pt >= 0) field = field.substring(0,pt).trim();
       super.parse(field, data);
     }
   }
   
+  private class BasePlaceField extends PlaceField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith(",")) return;
+      super.parse(field, data);
+    }
+  }
+  
   private static final String PROQA_DISPATCH = "Medical ProQA recommends dispatch at this time";
-  private class MyInfoField extends InfoField {
+  private class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       if (field.startsWith(PROQA_DISPATCH)) field = field.substring(PROQA_DISPATCH.length()).trim();
@@ -113,7 +125,7 @@ public class DispatchA41Parser extends FieldProgramParser {
     }
   }
   
-  private class MyUnitField extends UnitField {
+  private class BaseUnitField extends UnitField {
     @Override
     public void parse(String field, Data data) {
       data.strUnit = append(data.strUnit, " ", field);
@@ -121,7 +133,7 @@ public class DispatchA41Parser extends FieldProgramParser {
   }
   
   private static final Pattern ID_PTN = Pattern.compile("#(\\d{9}) -");
-  private class MyIdField extends IdField {
+  private class BaseIdField extends IdField {
     
     @Override
     public boolean canFail() {
@@ -143,7 +155,7 @@ public class DispatchA41Parser extends FieldProgramParser {
   }
   
   private static final Pattern CODE_PRI_PTN = Pattern.compile("(.*?)(?:P(\\d))?:?");
-  private class MyCodeField extends CodeField {
+  private class BaseCodeField extends CodeField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = CODE_PRI_PTN.matcher(field);
@@ -166,11 +178,11 @@ public class DispatchA41Parser extends FieldProgramParser {
    * type 2 = - at address,city
    * type 3 = call @ address, city
    */
-  private class MyAddressField extends AddressField {
+  private class BaseAddressField extends AddressField {
     
     private int type;
     
-    public MyAddressField(int type) {
+    public BaseAddressField(int type) {
       this.type = type;
     }
     
