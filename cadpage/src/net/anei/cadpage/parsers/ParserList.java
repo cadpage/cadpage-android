@@ -817,6 +817,7 @@ public class ParserList {
               ,"PALawrenceCounty"               ,"Lawrence County, PA"
               ,"PALebanonCounty"                ,"Lebanon County, PA"
               ,"PALehighCounty"                 ,"Lehigh County, PA"
+              ,"PALuzerneCounty"                ,"Luzerne County, PA"
               ,"PAMercerCounty"                 ,"Mercer County, PA"
               ,"PAMifflinCounty"                ,"Mifflin County, PA"
               ,"PAMonroeCounty"                 ,"Monroe County, PA"

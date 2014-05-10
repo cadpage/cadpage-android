@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
- Yhmrear Pbhagl, CN
+Yhmrear Pbhagl, CN
  
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fjblrefivyyr Ibyhagrre Sver Qrcnegzrag # 2
