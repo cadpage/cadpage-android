@@ -61,7 +61,7 @@ public class DispatchA41Parser extends FieldProgramParser {
     if (name.equals("AT")) return new AddressField("at +(.*)", true);
     if (name.equals("X1")) return new CrossField("btwn *(.*)", true);
     if (name.equals("INT")) return new SkipField("<.*>", true);
-    if (name.equals("SRC")) return new SourceField("[A-Z]{1,3}\\d?", true);
+    if (name.equals("SRC")) return new SourceField("[A-Z]{1,4}\\d?", true);
     if (name.equals("MAPPAGE")) return new SkipField("mappage,XXXX", true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("UNIT")) return new MyUnitField();

@@ -12,22 +12,22 @@ public class PALuzerneCountyParser extends DispatchA41Parser {
   
   @Override
   public String getFilter() {
-    return "CADDispatch@LuzerneCounty.org,tyler.lyman@active911.com,5706907165@vzwpix.com,efd19@aol.com";
+    return "CADDispatch@LuzerneCounty.org,";
   }
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "BKMT", "BACK MOUNTAIN",
-      "CENT", "WILKES-BARRE",
-      "EAST", "WILKES-BARRE",
-      "FTAC", "WILKES-BARRE",
-      "MTOP", "WILKES-BARRE",
-      "NORT", "WILKES-BARRE",
-      "SOUT", "WILKES-BARRE",
-      "WBFD", "WILKES-BARRE",
-      "WEST", "WILKES-BARRE",
-      "WSMA", "WILKES-BARRE",
-     
-      // OUT OF COUNTY
-      "OOCF",      "OOCF"
+//      "BKMT", "BACK MOUNTAIN",
+//      "CENT", "WILKES-BARRE",
+//      "EAST", "WILKES-BARRE",
+//      "FTAC", "WILKES-BARRE",
+//      "MTOP", "WILKES-BARRE",
+//      "NORT", "WILKES-BARRE",
+//      "SOUT", "WILKES-BARRE",
+//      "WBFD", "WILKES-BARRE",
+//      "WEST", "WILKES-BARRE",
+//      "WSMA", "WILKES-BARRE",
+//     
+//      // OUT OF COUNTY
+//      "OOCF",      "OOCF"
   });
 }
