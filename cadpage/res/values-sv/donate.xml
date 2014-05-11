@@ -140,76 +140,62 @@
   <string name="vendor_ignore_title">Låt sakerna vara som de var</string>
   <string name="vendor_register_title">Registrera dig för meddelandeservice</string>
   
-  <!-- Translate everything from here to end of file -->
-  
-  <string name="donate_paid_warn_required_title">Your %1$s subscription will expire in %2$d days</string>
+  <string name="donate_paid_warn_required_title">Din %1$s prenumeration kommer att gå ut om %2$d dagar</string>
   <string name="donate_paid_warn_required_text">
-    Your %1$s Cadpage subscription will expire on %2$s.  The Cadpage Paging
-    service subscription has no grace period.  Pages will stop being forwarded
-    as soon as your subscription expires.
+    Din %1$s prenumeration av Cadpage kommer att gå ut %2$s.  Cadpages larmförmedling har ingen avslutningsperiod och larm kommer att sluta visas när prenumerationen går ut.
   </string>
   
-  <string name="donate_sponsor_warn_required_title">%1$s sponsorship will expire in %2$d days</string>
+  <string name="donate_sponsor_warn_required_title">%1$s sponsring kommer att ta slut om %2$d dagar</string>
   <string name="donate_sponsor_warn_required_text">
-    You are using a service sponsored by %1$s that will expire on %2$s.  Please contact %1$s
-    about renewing their Cadpage sponsorship.  The Cadpage Paging
-    service subscirption has no grace period.  Pages will stop being forwarded
-    as soon as your subscription expires.
+    Du använder en tjänst sponsrad av %1$s som kommer att upphöra %2$.  Vänligen kontakta %1$s om att förnya sponsringen av Cadpage.  Cadpage har ingen avslutningsperiod utan larm kommer att sluta visas så fort prenumerationen går ut.
   </string>
   
-  <string name="donate_paid_expire_required_title">Your %s Cadpage subscription has expired</string>
+  <string name="donate_paid_expire_required_title">Er %s Cadpage prenumeration har gått ut</string>
   <string name="donate_paid_expire_required_text">
-    Your %1$s Cadpage subscription expired on %2$s.  Cadpage Paging Service is
-    suspended.
+    Er %1$ Cadpage prenumeration gick ut %2$.  Cadpages larmvisning är avstängd.
   </string>
   
-  <string name="donate_sponsor_expire_required_title">%s sponsorship has expired</string>
+  <string name="donate_sponsor_expire_required_title">%s sponsring har gått ut</string>
   <string name="donate_sponsor_expire_required_text">
-    Your using a service sponsored by %1$s that expired on %2$s. Cadpage Paging
-    Service is suspended.  Please contact %1$s about renewing their Cadpage 
-    sponsorship.
+    Er tjänst är sponsrad av %1$s som gick ut %2$s. Cadpages larmvisning är avständ. Vänligen kontakta %1$s för att förnya deras sponsring av Cadpage.
   </string>
   
-  <string name="donate_active911_missing_parser_title">No Cadpage Parser is available for this alert</string>
-  <string name="donate_active911_missing_parser_text">
+  <string name="donate_active911_missing_parser_title">No Cadpage Parser is available for this alert</string>   <!--  Translate -->
+  <string name="donate_active911_missing_parser_text">     <!--  Translate -->
     Cadpage does not currently include a message parser that can handle this alert.
     Please use the "Report Problem button below to report this so we can get it fixed.
   </string>
   
-  <string name="paging_sub_required_title">Paging service requires a paid subscription</string>
+  <string name="paging_sub_required_title">Larmvisningen förutsätter en betald prenumeration</string>
   <string name="paging_sub_required_text">
-    Cadpage paging service is only available to users with current paid subscriptions.
-    We have to pay to support each user on this service, we can not afford give
-    it away.
+    Cadpages larmvisningstjänst är endast tillgänglig för användare med en aktuell prenumeration. Vi måste betala för att kunna ge support till varje användare och vi har inte råd att göra det gratis.    
   </string>
   
   <string name="paging_profile_title">Cadpage Paging Service Profile</string>
   <string name="paging_profile_text">
-      You are registered to receive direct pages from Cadpage 
-      Paging Services.\n\n
-      Your dispatch email address is\n %s\n\n
-      Any email sent to this address will be appear as a Cadpage dispatch alert.
+      Du är registrerad för att få larm från Cadpages meddelandeservice.\n\n
+      Din epostadress är\n %s\n\n
+      Alla email som går till denna adress kommer visas som ett larm i Cadpage.
   </string>
   
-  <string name="paging_drop_service">Drop Cadpage Paging Service</string>
+  <string name="paging_drop_service">Lämna Cadpages larmförmedlings-service</string>
   
-  <string name="send_dispatch_address_title">Send Dispatch Address</string>
-  <string name="email_address_title">Sending dispatch email address</string>
-  <string name="email_address_subject">Please send me dispatch alerts.</string>
-  <string name="email_address_text">Please send my dispatch alerts to %s</string>
+  <string name="send_dispatch_address_title">Skicka larmcentralsadress</string>
+  <string name="email_address_title">Skickar larmcentralens emailadress</string>
+  <string name="email_address_subject">Vänligen skicka larmcentralens larm.</string>
+  <string name="email_address_text">Vänligen skicka larmcentralens larm till %s</string>
   
-  <string name="copy_dispatch_address_title">Copy to clipboard</string>
+  <string name="copy_dispatch_address_title">Kopiera till klippbordet</string>
   
-  <string name="reset_dispatch_address_title">Request new dispatch address</string>
+  <string name="reset_dispatch_address_title">Skicka en ny larmcentralsadress</string>
   <string name="reset_dispatch_address_text">
-      Are you sure you want to do this?\n
-      Once you reset the current dispatch address, it will be necessary to
-      have your department send all dispatch alerts to the new dispatch address.
+      Är du säker att du vill göra det här?\n
+      Om du en gång återställt aktuell larmepostadress så kommer du att behöva säga till din räddningstjänst att att skicka larm till den nya larmadressen.
   </string>
   
-  <string name="confirm_reset_dispatch_address_title">Do it!</string>
+  <string name="confirm_reset_dispatch_address_title">Gör det!</string>
   
-  <string name="paid_subtype">paid</string>
-  <string name="free_subtype">free</string>
+  <string name="paid_subtype">betald</string>
+  <string name="free_subtype">gratis</string>
   
 </resources>
