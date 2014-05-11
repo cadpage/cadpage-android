@@ -864,9 +864,10 @@ public class MsgInfo {
    * @return current state code
    */
   private String getStateCode() {
-    return strState.length() > 0 ? strState : 
+    return strState.length() > 0 && VALID_STATE_PTN.matcher(strState).matches() ? strState : 
             defState.length() > 0 ? defState : "STATE";
   }
+  private static final Pattern VALID_STATE_PTN = Pattern.compile("[A-Z]{2}");
   
   /**
    * returns the value that should replace the state code when we encounter it in abbreviations for 
