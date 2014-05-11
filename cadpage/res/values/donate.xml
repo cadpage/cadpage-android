@@ -281,8 +281,6 @@
   
   <string name="vendor_register_title">Register for direct paging</string>
   
-  <!-- New stuff goes here -->
-  
   <string name="donate_paid_warn_required_title">Your %1$s subscription will expire in %2$d days</string>
   <string name="donate_paid_warn_required_text">
     Your %1$s Cadpage subscription will expire on %2$s.  The Cadpage Paging
