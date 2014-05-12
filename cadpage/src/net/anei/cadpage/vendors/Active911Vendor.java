@@ -159,6 +159,7 @@ class Active911Vendor extends Vendor {
       "US/CA/CalaverasCounty",            "CACalaverasCounty",
       "US/CA/CDFandGrassValleyECC",       "CAPlacerCountyParser",
       "US/CA/CityofNapa",                 "CANapa",
+      "US/CA/CityofRocklin",              "CARocklin",
       "US/CA/CityofSLakeTahoe",           "CASouthLakeTahoe",
       "US/CA/Hanford",                    "CAHanford",
       "US/CA/Hayward",                    "CAHayward",
