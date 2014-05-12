@@ -160,10 +160,9 @@
     Er tjänst är sponsrad av %1$s som gick ut %2$s. Cadpages larmvisning är avständ. Vänligen kontakta %1$s för att förnya deras sponsring av Cadpage.
   </string>
   
-  <string name="donate_active911_missing_parser_title">No Cadpage Parser is available for this alert</string>   <!--  Translate -->
-  <string name="donate_active911_missing_parser_text">     <!--  Translate -->
-    Cadpage does not currently include a message parser that can handle this alert.
-    Please use the "Report Problem button below to report this so we can get it fixed.
+  <string name="donate_active911_missing_parser_title">Ingen lokalanpassning för Cadpage finns för detta larm</string>
+  <string name="donate_active911_missing_parser_text">
+    Cadpage har för närvarande inte någon meddelandeanpassning som kan hantera detta larm. Vänligen använd "Rapportera problem"-knappen nedan för att rapportera detta så vi kan fixa det.
   </string>
   
   <string name="paging_sub_required_title">Larmvisningen förutsätter en betald prenumeration</string>
