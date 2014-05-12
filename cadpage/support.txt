@@ -832,7 +832,7 @@ This isn't one of the many text formats we are expecting for Suffolk County.  Ap
 
 ******************************************************************************
 Details on setting up a new location
-*****************************************************************
+******************************************************************************
 
 To add a new location we need 5-10 sample text messages from your dispatch.  Please include what County/City/Company these pages are for so we can place it in the right grouping. Please try to include 1-2 calls with intersections so we can parse those correctly. Include any details you can regarding how the messages are formatted. If possible please include what email the messages come from.
 
