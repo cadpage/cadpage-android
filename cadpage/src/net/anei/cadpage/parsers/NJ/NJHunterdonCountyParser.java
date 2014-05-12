@@ -14,7 +14,7 @@ public class NJHunterdonCountyParser extends MsgParser {
   
   public NJHunterdonCountyParser() {
     super("HUNTERDON COUNTY", "NJ");
-    setFieldList("SRC CALL CITY PLACE ADDR APT X ID INFO");
+    setFieldList("UNIT CALL SRC PLACE ADDR APT X ID INFO");
   }
   
   @Override
@@ -26,9 +26,9 @@ public class NJHunterdonCountyParser extends MsgParser {
   protected boolean parseMsg(String body, Data data) {
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
-    data.strSource = match.group(1);
+    data.strUnit = match.group(1);
     data.strCall = match.group(2);
-    data.strCity = convertCodes(match.group(3), CITY_CODES);
+    data.strSource = convertCodes(match.group(3), SOURCE_CODES);
     Parser p = new Parser(match.group(4));
     data.strPlace = p.getOptional(" / ");
     parseAddress(p.get().replace(" NO ", " "), data);
@@ -38,7 +38,7 @@ public class NJHunterdonCountyParser extends MsgParser {
     return true;
   }
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+  private static final Properties SOURCE_CODES = buildCodeTable(new String[]{
       "11", "Frenchtown",
       "12", "Glen Gardner",
       "13", "Hampton",
@@ -76,5 +76,6 @@ public class NJHunterdonCountyParser extends MsgParser {
       "94", "Delaware Valley",
       "95", "Upper Black Eddy",
       "96", "New Hope Eagle"
+
   });
 }
