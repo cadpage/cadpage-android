@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class NCFranklinCountyParser extends DispatchSouthernParser {
 
   public NCFranklinCountyParser() {
-    super(CITY_LIST, "FRANKLIN COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_NO_NAME_PHONE | DSFLAG_ID_OPTIONAL);
+    super(CITY_LIST, "FRANKLIN COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID | DSFLAG_NO_NAME_PHONE | DSFLAG_ID_OPTIONAL);
   }
   
   @Override
