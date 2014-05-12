@@ -14,7 +14,7 @@ public class NCOrangeCountyBParser extends FieldProgramParser {
   
   public NCOrangeCountyBParser() {
     super("ORANGE COUNTY", "NC",
-           "URL CH ADDR APT? CALL! INFO+ OCPC:SKIP SUBD:PLACE INFO+");
+           "URL EMPTY? CH ADDR APT? CALL! INFO+ OCPC:SKIP SUBD:PLACE INFO+");
   }
   
   @Override
@@ -24,10 +24,18 @@ public class NCOrangeCountyBParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    Matcher match = SUBJECT_PTN.matcher(subject);
-    if (!match.matches()) return false;
-    data.strCallId = match.group(1);
-    data.strCall = match.group(2);
+    do {
+      if (subject.equals("EMS")) {
+        data.strCall = subject;
+        break;
+      }
+      Matcher match = SUBJECT_PTN.matcher(subject);
+      if (match.matches()) {
+        data.strCallId = match.group(1);
+        data.strCall = match.group(2);
+        break;
+      }
+    } while (false);
     return parseFields(body.split("\n"), 4, data);
   }
   
