@@ -81,9 +81,13 @@ public class CASanBernardinoCountyBParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ARB", "ARROW BEAR",
       "BBC", "BIG BEAR CITY",
       "BLO", "BLOOMINGTON",
+      "BLU", "BLUE JAY",
+      "CED", "CEDAR GLEN",
       "COL", "COLTON",
+      "CPP", "CEDAR PINES PARK",
       "CRL", "CRESTLINE",
       "DEV", "DEVORE",
       "FON", "FONTANA",
@@ -95,14 +99,20 @@ public class CASanBernardinoCountyBParser extends FieldProgramParser {
       "MEN", "MENTONE",
       "MUS", "MUSCOY",
       "ONT", "ONTARIO",
+      "PAT", "PATTON",
       "RCC", "RANCHO CUCAMONGA",
       "RED", "REDLANDS",
       "RIA", "RIALTO",
       "RIM", "RIM FORREST",
       "RSP", "RUNNING SPRINGS",
-      "SBO", "SAN BERNARDINO",
       "SBC", "SAN BERNARDINO COUNTY",
+      "SBO", "SAN BERNARDINO",
+      "SIL", "SILVERWOOD LK",
+      "SKY", "SKY FORREST",
       "SMI", "SAN MANUEL",
+      "TPK", "TWIN PEAKS",
+      "VOE", "VALLEY OF ENCHANTMENT",
       "YUC", "YUCAIPA"
+
   });
 }
