@@ -198,6 +198,7 @@ class Active911Vendor extends Vendor {
       "US/IN/LakeCounty",                 "INLakeCounty",
       "US/IN/ShelbyCounty",               "INShelbyCounty",
       "US/IN/VigoCounty",                 "INVigoCounty",
+      "US/KS/JohnsonCounty",              "KSJohnsonCounty",
       "US/KS/LeavenworthCounty",          "KSLeavenworthCounty",
       "US/KS/NeoshoCounty",               "KSNeoshoCounty",
       "US/KY/BooneCounty",                "KYBooneCounty",
