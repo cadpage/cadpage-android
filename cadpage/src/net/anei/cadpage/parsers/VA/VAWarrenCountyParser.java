@@ -1,18 +1,19 @@
 package net.anei.cadpage.parsers.VA;
 
-import java.util.Properties;
+import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.CodeSet;
-import net.anei.cadpage.parsers.dispatch.DispatchDAPROParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 /**
  * Warren County, VA
  */
-public class VAWarrenCountyParser extends DispatchDAPROParser {
+public class VAWarrenCountyParser extends DispatchSouthernParser {
+  
+  private static final Pattern VERIFY_X_PTN = Pattern.compile("\\*([ A-Z0-9]+?) +\\(Verify\\)");
   
   public VAWarrenCountyParser() {
-    super(CITY_CODES, "WARREN COUNTY", "VA");
-    setupCallList(CALL_SET);
+    super(CITY_LIST, "WARREN COUNTY", "VA", DSFLAG_OPT_DISPATCH_ID | DSFLAG_FOLLOW_CROSS);
   }
   
   @Override
@@ -20,21 +21,35 @@ public class VAWarrenCountyParser extends DispatchDAPROParser {
     return "mailbox@warrencountysheriff.org";
   }
   
-  private static final CodeSet CALL_SET = new CodeSet(
-      "BREATHING DIFFICULTY",
-      "CARDIC ARREST (CODE BLUE)",
-      "CHANGE IN MENTAL STATUS",
-      "DISORIENTED",
-      "FALL/FRACTURE",
-      "FIRE ALARM ACTIVATION",
-      "MVA / UNKNOWN INJURY",
-      "MVA / W/ ENTRAPMENT/ROLLOVER",
-      "MVA / WITH INJURY"
-  );
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-        "BEN", "BENTONVILLE",
-        "FRO", "FRONT ROYAL",
-        "LIN", "LINDEN"
-    });
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (!super.parseMsg(body, data)) return false;
+    data.strCross = VERIFY_X_PTN.matcher(data.strCross).replaceAll("$1").trim();
+    return true;
+  }
+
+  private static final String[] CITY_LIST = new String[]{
+    "FRONT ROYAL",
+    "ASHBY",
+    "BENTONVILLE",
+    "BETHEL",
+    "BROWNTOWN",
+    "BUCKTON",
+    "CEDARVILLE",
+    "HAPPY CREEK",
+    "HOWELLSVILLE",
+    "KARO",
+    "LIMETON",
+    "LINDEN",
+    "MILLDALE",
+    "NINEVEH",
+    "OVERALL",
+    "RELIANCE",
+    "RIVERTON",
+    "ROCKLAND",
+    "WATERLICK",
+    
+    // Frederick County
+    "MIDDLETOWN"
+  };
 }
