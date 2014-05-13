@@ -72,9 +72,9 @@ public class DonationManager {
   // indicates status is temporarily locked while a status recalculation
   // is under way
   private boolean lockStatus = false;
-  
-  // Timed task handler
-  private Handler handler = new Handler();
+//  
+//  // Timed task handler
+//  private Handler handler = new Handler();
   
   private Runnable unlockTask = new Runnable(){
     @Override
@@ -91,10 +91,10 @@ public class DonationManager {
    * @param delay time in msecs that status should be locked
    */
   public void lockStatus(int delay) {
-    Log.v("DonationManager status locked");
-    lockStatus = true;
-    handler.removeCallbacks(unlockTask);
-    handler.postDelayed(unlockTask, delay);
+//    Log.v("DonationManager status locked");
+//    lockStatus = true;
+//    handler.removeCallbacks(unlockTask);
+//    handler.postDelayed(unlockTask, delay);
   }
   
   /**

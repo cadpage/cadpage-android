@@ -101,16 +101,16 @@ public class UserAcctManager {
   }
   
   public void reloadStatus(Context context) {
-    
-    // Lock payment status for 5 seconds to avoid transient reports of
-    // an unpaid status
-    DonationManager.instance().lockStatus(5000);
-    
-    // Rest the basic billing information
-    ManagePreferences.setPaidYear(0);
-    ManagePreferences.setPurchaseDateString(null);
-    ManagePreferences.setFreeSub(false);
-    ManagePreferences.setSponsor(null);
+//    
+//    // Lock payment status for 5 seconds to avoid transient reports of
+//    // an unpaid status
+//    DonationManager.instance().lockStatus(5000);
+//    
+//    // Rest the basic billing information
+//    ManagePreferences.setPaidYear(0);
+//    ManagePreferences.setPurchaseDateString(null);
+//    ManagePreferences.setFreeSub(false);
+//    ManagePreferences.setSponsor(null);
     
     // Request purchase information from Android Market
     // When this information is returned, listeners will pass it to

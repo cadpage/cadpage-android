@@ -1,5 +1,30 @@
 
 ***************************************************************************
+* Anyone reporting an unknown user message
+***************************************************************************
+
+It looks like I broke something in the subscription logic :(
+
+Can you go into Cadpage settings and select
+Payment Status > Recalculate Payment Status
+
+If that fixes things, well and good.  I suspect it will not, in which case can you follow that up with another 
+Payment Status > I already paid for this
+Email message.
+
+Next, enter
+Payment Status > I have an authorization code
+and enter the code
+MISGGDBA
+
+That will get you a 30 day grace period while I work on a real fix for this.
+
+I will be publishing a new release with in hour which will (hopefully) keep other people from loosing their payment status.  Unfortunately it will most likely not help people like you who have already lost it.
+
+Very very sorry for the inconvenience,
+-Ken
+
+***************************************************************************
 * init failure in cleanName() v1.7.03
 ***************************************************************************
 

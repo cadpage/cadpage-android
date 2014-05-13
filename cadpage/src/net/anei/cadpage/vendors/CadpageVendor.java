@@ -7,7 +7,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.net.Uri;
 import net.anei.cadpage.HttpService;
-import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.donation.DonationManager;
