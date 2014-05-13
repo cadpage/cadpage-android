@@ -6,7 +6,9 @@ import java.util.GregorianCalendar;
 import java.util.Random;
 
 import android.content.Context;
+import android.os.Handler;
 import net.anei.cadpage.CadPageApplication;
+import net.anei.cadpage.Log;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
@@ -67,6 +69,34 @@ public class DonationManager {
   // Cached paid subscriber status
   private boolean paidSubscriber;
   
+  // indicates status is temporarily locked while a status recalculation
+  // is under way
+  private boolean lockStatus = false;
+  
+  // Timed task handler
+  private Handler handler = new Handler();
+  
+  private Runnable unlockTask = new Runnable(){
+    @Override
+    public void run() {
+      Log.v("DonationManager status unlocked");
+      lockStatus = false;
+      DonationManager.instance().reset();
+      MainDonateEvent.instance().refreshStatus();
+    }
+  };
+  
+  /**
+   * Lock status while recalculation is in progress
+   * @param delay time in msecs that status should be locked
+   */
+  public void lockStatus(int delay) {
+    Log.v("DonationManager status locked");
+    lockStatus = true;
+    handler.removeCallbacks(unlockTask);
+    handler.postDelayed(unlockTask, delay);
+  }
+  
   /**
    * Calculate all cached values
    */
@@ -78,6 +108,9 @@ public class DonationManager {
       paidSubscriber = false;
       return;
     }
+    
+    // If status is locked, do not change anything
+    if (lockStatus) return;
     
     // If the current day hasn't changed, we can use the cached values
     long curTime = System.currentTimeMillis();

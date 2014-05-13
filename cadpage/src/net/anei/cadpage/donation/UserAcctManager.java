@@ -102,6 +102,10 @@ public class UserAcctManager {
   
   public void reloadStatus(Context context) {
     
+    // Lock payment status for 5 seconds to avoid transient reports of
+    // an unpaid status
+    DonationManager.instance().lockStatus(5000);
+    
     // Rest the basic billing information
     ManagePreferences.setPaidYear(0);
     ManagePreferences.setPurchaseDateString(null);

@@ -7,6 +7,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.net.Uri;
 import net.anei.cadpage.HttpService;
+import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.donation.DonationManager;
@@ -36,18 +37,6 @@ class CadpageVendor extends Vendor {
   @Override
   void profileReq(Activity activity) {
     PagingProfileEvent.instance().open(activity);
-  }
-//
-//  @Override
-//  boolean isEnabled() {
-//    // TODO debugging only 
-//    return true;
-//  }
-
-  @Override
-  String getEmailAddress() {
-    // TODO debugging only
-    return "kencorbin@cadpagepaging.net";
   }
 
   @Override
@@ -98,6 +87,20 @@ class CadpageVendor extends Vendor {
     HttpService.addHttpRequest(context, new HttpRequest(uri){});
   }
   
+  /**
+   * Called when a new or changed C2DM registration ID is reported
+   * @param context current context
+   * @param registrationId registration ID
+   * @param userReq true if user requested this action
+   * @return true if we actually did anything
+   */
+  @Override
+  boolean registerC2DMId(final Context context, String registrationId, boolean userReq) {
+    if (!super.registerC2DMId(context, registrationId, userReq)) return false;
+    updateCadpageStatus(context);
+    return true;
+  }
+ 
   /**
    * Calculate the expiration date to report
    * @return  calculated expiration date or "LIFE" if lifetime subscriber
