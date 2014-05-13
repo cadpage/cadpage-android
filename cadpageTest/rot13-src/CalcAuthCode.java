@@ -4,7 +4,6 @@ vzcbeg wnin.hgvy.Pnyraqne;
 vzcbeg wnin.hgvy.Qngr;
 vzcbeg wnin.hgvy.TertbevnaPnyraqne;
 
-vzcbeg arg.narv.pnqcntr.qbangvba.QbangvbaZnantre;
 vzcbeg arg.narv.pnqcntr.qbangvba.QbangvbaHgvy;
 
 /** Pynff pnyphyngrf naq qvfcynlf gur qnvyl nhgubevmngvba pbqrf */ 

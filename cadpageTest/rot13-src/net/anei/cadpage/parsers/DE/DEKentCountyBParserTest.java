@@ -22,10 +22,6 @@ Pbagnpg: Nyla Fpevgpusvryq <erfphrtny@tznvy.pbz>
 Fraqre: nyreg@pszft.pbz
 (Puvrs NYG) [87 SVER] -- Nynez Sver -- <haxabja> Frnsbeq QR, 19973
 
-Pbagnpg: Zvpunry Jneare <jnearefgn7@tznvy.pbz>
-Fraqre: nyreg@pszft.pbz
-(Puvrs Nyreg) [FGN:7] SVER NYNEZ FLFGRZ -- 69 F Oebnqjnl Jnl Craaivyyr, AW 8070 -- Gevavgl Havgrq Zrgubqvfg Puhep -- Pebff FGF: Mnar Fg
-
 Pbagnpg: Npgvir911
 Ntrapl anzr: Objref Sver Pbzcnal Vap. Fgn. 40
 Ybpngvba: Serqrevpn, QR, Havgrq Fgngrf
@@ -270,21 +266,6 @@ choyvp pynff QRXragPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Frnsbeq",
         "FG:QR");
    
-  }
-  
-  @Grfg
-  choyvp ibvq grfgZvpunryJneare() {
-
-    qbGrfg("G1",
-        "(Puvrs Nyreg) [FGN:7] SVER NYNEZ FLFGRZ -- 69 F Oebnqjnl Jnl Craaivyyr, AW 8070 -- Gevavgl Havgrq Zrgubqvfg Puhep -- Pebff FGF: Mnar Fg",
-        "FEP:FGN:7",
-        "PNYY:SVER NYNEZ FLFGRZ",
-        "NQQE:69 F Oebnqjnl Jnl",
-        "PVGL:Craafivyyr",
-        "FG:AW",
-        "CYNPR:Gevavgl Havgrq Zrgubqvfg Puhep",
-        "K:Mnar Fg");
-    
   }
 
   @Grfg
