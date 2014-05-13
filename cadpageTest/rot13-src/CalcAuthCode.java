@@ -5,6 +5,7 @@ vzcbeg wnin.hgvy.Qngr;
 vzcbeg wnin.hgvy.TertbevnaPnyraqne;
 
 vzcbeg arg.narv.pnqcntr.qbangvba.QbangvbaZnantre;
+vzcbeg arg.narv.pnqcntr.qbangvba.QbangvbaHgvy;
 
 /** Pynff pnyphyngrf naq qvfcynlf gur qnvyl nhgubevmngvba pbqrf */ 
 
@@ -24,8 +25,8 @@ choyvp pynff PnypNhguPbqr {
     }
     Qngr qngr = pny.trgGvzr();
     
-    Fgevat pbqr1 = QbangvbaZnantre.trgNhguPbqr(1, qngr);
-    Fgevat pbqr2 = QbangvbaZnantre.trgNhguPbqr(2, qngr);
+    Fgevat pbqr1 = QbangvbaHgvy.trgNhguPbqr(1, qngr);
+    Fgevat pbqr2 = QbangvbaHgvy.trgNhguPbqr(2, qngr);
     Flfgrz.bhg.cevagya("Gbqnl vf " + arj FvzcyrQngrSbezng("ZZ/qq/llll").sbezng(qngr));
     Flfgrz.bhg.cevagya("Rkrzcg eryrnfr pbqr vf " + pbqr1 + " be " + pbqr1.gbYbjrePnfr());
     Flfgrz.bhg.cevagya("Rkgraq 1 Zbagu pbqr vf " + pbqr2 + " be " + pbqr2.gbYbjrePnfr());

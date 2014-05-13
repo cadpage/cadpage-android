@@ -446,38 +446,8 @@ public class DonationManager {
   
   private static int validateAuthCode(String code, JulianDate jDate) {
     for (int type = 1; type < 3; type++) {
-      if (code.equals(calcAuthCode(type, jDate))) return type;
+      if (code.equals(DonationUtil.calcAuthCode(type, jDate))) return type;
     }
     return 0;
-  }
-  
-  
-  
-  /**
-   * @return Today's authorization code
-   */
-  public static String getAuthCode(int type) {
-    return getAuthCode(type, new Date());
-  }
-  
-  public static String getAuthCode(int type, Date date) {
-    return calcAuthCode(type, new JulianDate(date));
-  }
-  
-  /**
-   * Return a hash authorization code from a date
-   * @param date date to be hashed
-   * @return return hashed authorization string
-   */
-  private static String calcAuthCode(int type, JulianDate jdate) {
-    Random rnd = new Random(jdate.hashCode());
-    for (int ndx = 1; ndx < type; ndx++) rnd.nextInt();
-    int val = Math.abs(rnd.nextInt());
-    StringBuffer sb = new StringBuffer();
-    for (int j = 0; j < 8; j++) {
-       sb.append((char)('A'+ (val % 26)));
-       val = val / 26;
-    }
-    return sb.toString();
   }
 }
