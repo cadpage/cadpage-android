@@ -1,6 +1,6 @@
 
 ***************************************************************************
-* Anyone reporting an unknown user message
+* Anyone reporting a status problem on v1.7.21
 ***************************************************************************
 
 It looks like I broke something in the subscription logic :(
