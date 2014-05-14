@@ -6,6 +6,7 @@ import java.util.Date;
 import android.app.Activity;
 import android.content.Context;
 import android.net.Uri;
+import net.anei.cadpage.C2DMService;
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.R;
 import net.anei.cadpage.HttpService.HttpRequest;
@@ -100,6 +101,36 @@ class CadpageVendor extends Vendor {
     return true;
   }
  
+  /**
+   * Called when a direct page alert is received to determine if we are in
+   * a consistent state when messages should be received
+   * @param context current context
+   * @return true if everything is OK, false if message should be suppressed.
+   */
+  @Override
+  boolean checkVendorStatus(Context context) {
+    
+    // If service is not enabled, drastic action is required.  We do not have
+    // any trustworthy account information to pass to the server.  The only way
+    // we can pretty reliably break the connection is by unregistering the
+    // current registration ID and getting a new one
+    
+    if (!isEnabled()) {
+      C2DMService.unregister(context);
+      return false;
+    }
+    
+    // If service is enabled, but we no longer have a current paid subscription
+    // We only need to tell the server this service is no longer active
+    if (!DonationManager.instance().isPaidSubscriber()) {
+      updateCadpageStatus(context);
+      return false;
+    }
+    
+    // Otherwise, return base class result
+    return super.checkVendorStatus(context);
+  }
+
   /**
    * Calculate the expiration date to report
    * @return  calculated expiration date or "LIFE" if lifetime subscriber

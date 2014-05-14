@@ -479,12 +479,13 @@ public class VendorManager {
 
   /**
    * Confirm that the vendor who has just sent us a message is really enabled
+   * @param context current context
    * @param vendorCode vendor code
    */
-  public void checkVendorStatus(Context context, String vendorCode) {
+  public boolean checkVendorStatus(Context context, String vendorCode) {
     Vendor vendor = findVendor(vendorCode);
-    if (vendor == null) return;
-    vendor.checkVendorStatus(context);
+    if (vendor == null) return true;
+    return vendor.checkVendorStatus(context);
   }
   
   /**

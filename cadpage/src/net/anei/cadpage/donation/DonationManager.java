@@ -3,7 +3,6 @@ package net.anei.cadpage.donation;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
-import java.util.Random;
 
 import android.content.Context;
 import android.os.Handler;
@@ -69,33 +68,8 @@ public class DonationManager {
   // Cached paid subscriber status
   private boolean paidSubscriber;
   
-  // indicates status is temporarily locked while a status recalculation
-  // is under way
-  private boolean lockStatus = false;
-//  
-//  // Timed task handler
-//  private Handler handler = new Handler();
-  
-  private Runnable unlockTask = new Runnable(){
-    @Override
-    public void run() {
-      Log.v("DonationManager status unlocked");
-      lockStatus = false;
-      DonationManager.instance().reset();
-      MainDonateEvent.instance().refreshStatus();
-    }
-  };
-  
-  /**
-   * Lock status while recalculation is in progress
-   * @param delay time in msecs that status should be locked
-   */
-  public void lockStatus(int delay) {
-//    Log.v("DonationManager status locked");
-//    lockStatus = true;
-//    handler.removeCallbacks(unlockTask);
-//    handler.postDelayed(unlockTask, delay);
-  }
+  private Handler handler = new Handler();
+  private boolean pendingCheck = false;
   
   /**
    * Calculate all cached values
@@ -109,9 +83,6 @@ public class DonationManager {
       return;
     }
     
-    // If status is locked, do not change anything
-    if (lockStatus) return;
-    
     // If the current day hasn't changed, we can use the cached values
     long curTime = System.currentTimeMillis();
     if (curTime < validLimitTime) return;
@@ -120,8 +91,10 @@ public class DonationManager {
     boolean oldAlert = (status != null && status.getStatus() == Status.BLOCK);
     
     // Ditto for expiration date and paid subscriber status
-    boolean oldPaidSubscriber = paidSubscriber;
-    Date oldExpireDate = expireDate;
+    // These will be checked in a scheduled event some time in the future
+    // so we declare them as final so we can pass them to a runable task
+    final boolean oldPaidSubscriber = paidSubscriber;
+    final Date oldExpireDate = expireDate;
     
     // Convert current time to a JDate, and set the cache limit to midnight
     // of that day
@@ -301,24 +274,40 @@ public class DonationManager {
     }
     
     // If the paging service is enabled, we need to report paid subscriber
-    // and expiration date changes
-    else {
-      Context context = CadPageApplication.getContext();
+    // and expiration date changes.  But we will delay any such reports for
+    // 5 seconds to avoid transient status blips during a payment status
+    // recalculation
+    else if (paidSubReq && !pendingCheck) {
       boolean expDateSame = (expireDate == null ? oldExpireDate == null :
                              oldExpireDate == null ? false :
                              expireDate.equals(oldExpireDate));
       if (paidSubscriber != oldPaidSubscriber || !expDateSame) {
-        VendorManager.instance().updateCadpageStatus(context);
-        
-        // If the paid subscriber status had changed, this should be reported
-        // to the user
-        if (paidSubscriber != oldPaidSubscriber) {
-          if (paidSubscriber) {
-            PagingProfileEvent.instance().open(context);
-          } else {
-            MainDonateEvent.instance().open(context);
+        pendingCheck = true;
+        Log.v("Schedule payment status check");
+        handler.postDelayed(new Runnable(){
+          @Override
+          public void run() {
+            pendingCheck = false;
+            Log.v("Do payment status check");
+            Context context = CadPageApplication.getContext();
+            boolean expDateSame = (expireDate == null ? oldExpireDate == null :
+                                   oldExpireDate == null ? false :
+                                   expireDate.equals(oldExpireDate));
+            if (paidSubscriber != oldPaidSubscriber || !expDateSame) {
+              VendorManager.instance().updateCadpageStatus(context);
+              
+              // If the paid subscriber status had changed, this should be reported
+              // to the user
+              if (paidSubscriber != oldPaidSubscriber) {
+                if (paidSubscriber) {
+                  PagingProfileEvent.instance().open(context);
+                } else {
+                  MainDonateEvent.instance().open(context);
+                }
+              }
+            }
           }
-        }
+        }, 5000);
       }
     }
   }

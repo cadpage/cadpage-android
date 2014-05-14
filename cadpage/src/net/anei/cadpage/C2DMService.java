@@ -238,7 +238,7 @@ public class C2DMService extends IntentService {
       }
 
       // Check vendor enabled status
-      VendorManager.instance().checkVendorStatus(this, vendorCode);
+      if (!VendorManager.instance().checkVendorStatus(this, vendorCode)) return;
 
       // Save timestamp
       final long timestamp = System.currentTimeMillis();

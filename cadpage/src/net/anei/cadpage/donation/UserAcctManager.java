@@ -1,31 +1,30 @@
 package net.anei.cadpage.donation;
 
 import java.security.MessageDigest;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
+import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.HttpService.HttpRequest;
+import net.anei.cadpage.EmailDeveloperActivity;
+import net.anei.cadpage.Log;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.billing.BillingManager;
+import net.anei.cadpage.donation.DonationManager.DonationStatus;
 import net.anei.cadpage.donation.UserAcctManager;
 import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.content.Context;
 import android.net.Uri;
+import android.os.Handler;
 import android.telephony.TelephonyManager;
 
 public class UserAcctManager {
   
   // Authorization recheck interval (30 days in msecs)
   private static final long AUTH_CHECK_INTERVAL = (long)30*24*60*60*1000;
-  
-  private static final DateFormat DATE_FMT = new SimpleDateFormat("MM/dd/yyyy");
   
   Context context;
   private String[] userEmails = null;
@@ -101,16 +100,34 @@ public class UserAcctManager {
   }
   
   public void reloadStatus(Context context) {
-//    
-//    // Lock payment status for 5 seconds to avoid transient reports of
-//    // an unpaid status
-//    DonationManager.instance().lockStatus(5000);
-//    
-//    // Rest the basic billing information
-//    ManagePreferences.setPaidYear(0);
-//    ManagePreferences.setPurchaseDateString(null);
-//    ManagePreferences.setFreeSub(false);
-//    ManagePreferences.setSponsor(null);
+    
+    // Rest the basic billing information
+    Log.v("Recalculating payment status");
+    
+    // The recalculate has been loosing Market information for some, as yet
+    // unidentified reason.  If they currently have a paid subscription status
+    // schedule a check 5 seconds from now to see if they lost it in the
+    // recalculation.  if they did, create a log snapshot
+    DonationStatus status = DonationManager.instance().status();
+    if (status == DonationStatus.PAID || status == DonationStatus.PAID_WARN) {
+      new Handler().postDelayed(new Runnable(){
+        @Override
+        public void run() {
+          DonationStatus status = DonationManager.instance().status();
+          if (status != DonationStatus.PAID && status != DonationStatus.PAID_WARN) {
+            
+            // Use the application context.  The local context may not be valid in 5 sec
+            EmailDeveloperActivity.logSnapshot(CadPageApplication.getContext(), "Payment Status Downgrade");
+          }
+        }
+      }, 5000);
+    }
+    
+    // Rest the basic billing information
+    ManagePreferences.setPaidYear(0);
+    ManagePreferences.setPurchaseDateString(null);
+    ManagePreferences.setFreeSub(false);
+    ManagePreferences.setSponsor(null);
     
     // Request purchase information from Android Market
     // When this information is returned, listeners will pass it to

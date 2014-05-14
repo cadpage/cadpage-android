@@ -520,12 +520,13 @@ abstract class Vendor {
    * Check that a vendor from whom we have received a direct page is really fully
    * registered
    */
-  public void checkVendorStatus(Context context) {
+  boolean checkVendorStatus(Context context) {
     // If we are enabled, nothing needs to be done
-    if (enabled) return;
+    if (enabled) return true;
     
     // Otherwise send a reg_query to this vendor
     sendRegQuery(context, ManagePreferences.registrationId());
+    return true;
   }
   
   /**
@@ -642,6 +643,16 @@ abstract class Vendor {
    * @param context current context
    */
   void updateCadpageStatus(Context context) {
+  }
+  
+  /**
+   * Called when a direct page alert is received to determine if we are in
+   * a consistent state when messages should be received
+   * @param context current context
+   * @return true if everything is OK, false if message should be suppressed.
+   */
+  boolean checkPagingStatus(Context context) {
+    return true;
   }
 
   /**
