@@ -15,6 +15,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class SDLincolnCountyParser extends FieldProgramParser {
   
   private static final Pattern GEN_ALERT_PTN = Pattern.compile("MEETING|TRAINING|DISREGARD", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SUBJECT_MSG_PTN = Pattern.compile("([ A-Z0-9]+):(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern LEAD_NUMBER = Pattern.compile("^\\d+ +(?!Y/O |YO ).*");
   private static final Pattern CALL_ID_PTN = Pattern.compile("^\\{?(\\d\\d-\\d+)\\b\\}?");
   private static final Pattern MASTER_PTN = Pattern.compile("\\{?(.*?)\\}? *(\n| - )(.*)");
@@ -33,13 +34,18 @@ public class SDLincolnCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "no-reply@ledsportal.com,leds@lincolncountysd.org";
+    return "no-reply@ledsportal.com,leds@lincolncountysd.org,74121";
   }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    
-    if (subject.length() == 0) return false;
+
+    if (subject.length() == 0) {
+      Matcher match = SUBJECT_MSG_PTN.matcher(body);
+      if (!match.matches()) return false;
+      subject = match.group(1).trim();
+      body = match.group(2).trim();
+    }
     if (subject.equals("MESSAGE PAGE")) return false;
     
     // Some words identify this as a general alert
@@ -52,6 +58,7 @@ public class SDLincolnCountyParser extends FieldProgramParser {
     if (pt >= 0) tmp = tmp.substring(0,pt).trim();
     if (tmp.startsWith("-")) tmp = ' ' + tmp;
     if (tmp.endsWith("-")) tmp = tmp + ' ';
+    
     String[] flds = tmp.split(" - ", -1);
     if (subject.equals(flds[0])) {
       version = "2";
@@ -62,7 +69,8 @@ public class SDLincolnCountyParser extends FieldProgramParser {
         subject.startsWith("Fire Call") ||
         subject.startsWith("Injury Accident") ||
         subject.startsWith("Non-Injury Accident") ||
-        subject.startsWith("Suspicious Vehicle")) {
+        subject.startsWith("Suspicious Vehicle") ||
+        subject.startsWith("Domestic/Family Dispute")) {
       version = "1";
       data.strCall = subject;
       return parseFields(flds, data);

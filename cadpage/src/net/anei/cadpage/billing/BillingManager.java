@@ -121,7 +121,7 @@ public class BillingManager {
     public void onPurchaseStateChange(PurchaseState purchaseState,
                                        String itemId, long purchaseTime, 
                                        String payload) {
-      Log.v("PurchaseState:" + purchaseState + "  Item:" + itemId + "Payload:" + payload);
+      Log.v("PurchaseState:" + purchaseState + "  Item:" + itemId + "  Payload:" + payload);
       if (itemId.startsWith("cadpage_")) {
         String year = itemId.substring(8);
         if (purchaseState == PurchaseState.PURCHASED) {
