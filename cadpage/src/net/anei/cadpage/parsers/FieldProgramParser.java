@@ -108,6 +108,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *   Date and Date/Time fields
  *         d - replace dashes with slashes
  *         
+ *   Info fields
+ *         N - Connect fields with newlines instead of usual " / " connector      
+ *         
  * SPECIAL FIELD NAMES
  * 
  * INTLS - operator initials, always skipped but will validated as 1-3 upper case letters
@@ -2651,6 +2654,8 @@ public class FieldProgramParser extends SmartAddressParser {
   static final Pattern APT_PAT = Pattern.compile("^APT( |:|#) *", Pattern.CASE_INSENSITIVE);
   public class InfoField extends Field {
     
+    private String connector = " / ";
+    
     public InfoField() {}
     
     public InfoField(String pattern) {
@@ -2659,6 +2664,12 @@ public class FieldProgramParser extends SmartAddressParser {
     
     public InfoField(String pattern, boolean hard) {
       super(pattern, hard);
+    }
+    
+    @Override
+    public void setQual(String qual) {
+      if (qual == null) return;
+      if (qual.contains("N")) connector = "\n";
     }
     
     
@@ -2673,7 +2684,7 @@ public class FieldProgramParser extends SmartAddressParser {
           return;
         }
       }
-      data.strSupp = append(data.strSupp, " / ", field);
+      data.strSupp = append(data.strSupp, connector, field);
     }
     
     @Override
