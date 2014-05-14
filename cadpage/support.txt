@@ -17,7 +17,7 @@ It might be worth trying to do this several times.  There are some indications t
 If you can not restore a working payment status with the recalculate option, select
 Payment Status > I have an authorization code
 and enter the code
-MISGGDBA
+OUJUIDBA
 
 That will get you a 30 day grace period while I work on a real fix for this.
 
