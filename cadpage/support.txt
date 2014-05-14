@@ -1,4 +1,31 @@
 
+It would seem that something about the payment status recalculation
+logic is broken in the 1.7.21 release.  But it seems to be sporadic.  I
+have not been able to duplicate the problem or track it down as yet.
+
+Open Cadpage Settings and select
+Payment Status > Recalculate Payment Status.
+
+If that fails to restore your paid subscription status, use the
+Payment Status > I already paid for this
+option to send us a new email.  This will have a log of the
+recalculation attempt and will hopefully show me what is going wrong.
+
+It might be worth trying to do this several times.  There are some
+indications that the problem is not consistent and may be fairly uncommon.
+
+If you can not restore a working payment status with the recalculate
+option, select
+Payment Status > I have an authorization code
+and enter the code
+______________
+
+That will get you a 30 day grace period while I work on a real fix for this.
+
+Thank your very much for your assistance, and support.
+We are very very sorry for the inconvenience,
+-Ken
+
 ***************************************************************************
 * Anyone reporting a status problem on v1.7.21
 ***************************************************************************
@@ -412,7 +439,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-ZJWONYGA or zjwonyga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+LPFCHKGA or lpfchkga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean ~ Cadpage Administrator
@@ -545,7 +572,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-ZJWONYGA or zjwonyga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+LPFCHKGA or lpfchkga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean ~ Cadpage Administrator
@@ -730,7 +757,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-ZJWONYGA or zjwonyga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+LPFCHKGA or lpfchkga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean ~ Cadpage Administrator
@@ -744,7 +771,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-ZJWONYGA or zjwonyga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+LPFCHKGA or lpfchkga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -754,7 +781,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-ZJWONYGA or zjwonyga.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+LPFCHKGA or lpfchkga.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information needed to figure out what is wrong.
 
@@ -3382,3 +3409,14 @@ latest alerts after a few seconds.
 Then you have your department stop sending you the text alerts.  
 
 Good luck,
+
+********************************************************************
+Q: will cadpage work on on straight talk service
+
+A: Cadpage will work on a device plan that allows text messaging.  But the
+mapping features, which are the primary reason why people want Cadpage,
+require an internet connection.  The Internet connection can be provided
+through a local WiFi hotspot if you do not have a carrier data plan.
+
+Good luck,
+
