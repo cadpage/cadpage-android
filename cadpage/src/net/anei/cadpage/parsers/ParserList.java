@@ -314,6 +314,7 @@ public class ParserList {
               ,"INHowardCounty"                 ,"Howard County, IN"
               ,"INJacksonCounty"                ,"Jackson County, IN"
               ,"INJasperCounty"                 ,"Jasper County, IN"
+              ,"INLakeCounty"                   ,"Lake County, IN"
               ,"INKosciuskoCounty"              ,"Kosciusko County, IN"
               ,"INMadisonCounty"                ,"Madison County, IN"
               ,"INMarionCounty"                 ,"Marion County, IN"
