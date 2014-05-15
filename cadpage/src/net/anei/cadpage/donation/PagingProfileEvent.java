@@ -1,7 +1,5 @@
 package net.anei.cadpage.donation;
 
-import android.app.Activity;
-import android.content.Context;
 import net.anei.cadpage.R;
 import net.anei.cadpage.vendors.VendorManager;
 

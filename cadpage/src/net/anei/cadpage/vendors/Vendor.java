@@ -57,9 +57,6 @@ abstract class Vendor {
   private String account;
   private String token;
   
-  // Dispatch email address (Cadpage only)
-  private String dispatchEmail;
-  
   // Vendor preference that may need to be updated when status changes
   private VendorPreference preference = null;
   
@@ -255,7 +252,7 @@ abstract class Vendor {
     enabled = prefs.getBoolean("enabled", false);
     account = prefs.getString("account", null);
     token = prefs.getString("token", null);
-    dispatchEmail = prefs.getString("dispatchEmail", null);
+    emailAddress = prefs.getString("dispatchEmail", null);
     
     textPage = prefs.getBoolean("textPage", false);
     disableTextPageCheck = prefs.getBoolean("disableTextPageCheck", false);
@@ -279,7 +276,7 @@ abstract class Vendor {
     editor.putBoolean("enabled", enabled);
     editor.putString("account", account);
     editor.putString("token", token);
-    editor.putString("dispatchEmail", dispatchEmail);
+    editor.putString("dispatchEmail", emailAddress);
     editor.commit();
   }
   
@@ -323,7 +320,7 @@ abstract class Vendor {
     sb.append("\ndisableTextPageCheck:" + disableTextPageCheck);
     sb.append("\naccount:" + account);
     sb.append("\ntoken:" + token);
-    if (dispatchEmail != null) sb.append("\ndispatchEmail:" + dispatchEmail);
+    if (emailAddress != null) sb.append("\ndispatchEmail:" + emailAddress);
   }
 
   /**
@@ -474,11 +471,6 @@ abstract class Vendor {
       sendRegisterReq(context, registrationId);
       inProgress = false;
       discoverUri = null;
-      
-      // Debugging only!!!
-      enabled = true;
-      reportStatusChange();
-      
       return true;
     }
     
@@ -584,17 +576,17 @@ abstract class Vendor {
    * @param type REGISTER/UNREGISTER request type
    * @param account vendor account
    * @param token vendor security token
-   * @param dispatchEmail dispatch Email address
+   * @param emailAddress dispatch Email address
    */
-  void vendorRequest(Context context, String type, String account, String token, String dispatchEmail) {
+  void vendorRequest(Context context, String type, String account, String token, String emailAddress) {
     
     boolean register = type.equals("REGISTER");
     boolean change = (this.enabled != register);
-    boolean changeEmail = (dispatchEmail != null && !dispatchEmail.equals(this.dispatchEmail));
+    boolean changeEmail = (emailAddress != null && !emailAddress.equals(this.emailAddress));
     this.enabled = register;
     this.account = account;
     this.token = token;
-    this.dispatchEmail = dispatchEmail;
+    this.emailAddress = emailAddress;
     saveStatus();
     if (enabled) publishAccountInfo(context);
     

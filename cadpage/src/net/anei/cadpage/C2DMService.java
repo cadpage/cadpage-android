@@ -290,6 +290,7 @@ public class C2DMService extends IntentService {
     String subject = intent.getStringExtra("subject");
     if (subject == null) subject = "";
     String location = intent.getStringExtra("format");
+    if (location != null && location.equals("unknown")) location = null;
     
     // Get vendor code
     String vendorCode = intent.getStringExtra("vendor");

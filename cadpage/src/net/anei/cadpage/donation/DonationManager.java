@@ -54,7 +54,7 @@ public class DonationManager {
   private int daysTillExpire;
   
   // Cached donation status
-  private DonationStatus status;
+  private DonationStatus status = null;
   
   // Cached enable Cadpage status
   private boolean enabled;
@@ -86,6 +86,9 @@ public class DonationManager {
     // If the current day hasn't changed, we can use the cached values
     long curTime = System.currentTimeMillis();
     if (curTime < validLimitTime) return;
+    
+    // Don't check for tranitions the first time we are called
+    boolean startup = (status == null);
     
     // Save the previous hold status so we can tell if it has been cleared
     boolean oldAlert = (status != null && status.getStatus() == Status.BLOCK);
@@ -277,7 +280,7 @@ public class DonationManager {
     // and expiration date changes.  But we will delay any such reports for
     // 5 seconds to avoid transient status blips during a payment status
     // recalculation
-    else if (paidSubReq && !pendingCheck) {
+    else if (!startup && paidSubReq && !pendingCheck) {
       boolean expDateSame = (expireDate == null ? oldExpireDate == null :
                              oldExpireDate == null ? false :
                              expireDate.equals(oldExpireDate));

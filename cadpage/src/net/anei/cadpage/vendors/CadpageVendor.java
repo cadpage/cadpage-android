@@ -24,7 +24,7 @@ class CadpageVendor extends Vendor {
           R.string.cadpage_text,
           R.drawable.ic_launcher,
           R.drawable.cadpage_logo,
-          "http://paging.cadpage.net",
+          "http://76.12.80.89/cp/Cadpage.ASP?wci=AndroidX",
           null,
           null);
   }
