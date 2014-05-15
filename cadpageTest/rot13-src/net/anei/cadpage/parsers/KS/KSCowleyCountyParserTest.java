@@ -21,8 +21,6 @@ Fraqre: <evc_eha@pbjyrlpbhagl.bet>
 (VAPVQRAG # 1616) YBAT GREZ PNQ#     36822   NPGVIR PNYY# 38\aCEVBEVGL:                     ERCBEGRQ: 16:42:49 02/21/14\a\aAngher: SVER TENFF                                  Glcr: s\aNqqerff: 919 A EVIRE EBNQ                            Mbar: HSQ\aPvgl:  HQNYY\a \a Erfcbaqvat Havgf: CX44\a \a Qverpgvbaf:\a \a \a Pbzzragf:\a TENFF SVER\a \a Pbagnpg: OEVNA QBHTYNFF                    Cubar: (316) 208-9068
 (VAPVQRAG # 1593) YBAT GREZ PNQ#     36507   NPGVIR PNYY# 41\aCEVBEVGL:                     ERCBEGRQ: 17:10:23 02/16/14\a\aAngher: SVER FGEHPGHER                              Glcr: s\aNqqerff: 409 f 4gu                                   Mbar: NSQ\a   Pvgl:\a\aErfcbaqvat Havgf: R41,G25,C29\a\aQverpgvbaf:\a\a\aPbzzragf:\azhghny nvq erdhrfg sbe 2 gnaxre sebz ohgyre pbhagl sbe fgehpgher sver va\aqbhtynff\a\aPbagnpg:                                   Cubar: (   )   -\a\a---\aGuvf rznvy vf serr sebz ivehfrf naq znyjner orpnhfr ninfg! Nagvivehf cebgrpgvba vf npgvir.\auggc://jjj.ninfg.pbz
 
-QvfcngpuN19Cnefre fhopynff
-
 */
 
 choyvp pynff XFPbjyrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

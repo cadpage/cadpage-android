@@ -223,7 +223,17 @@ abstract class Vendor {
    */
   void resetEmailReq(Context context) {
     Uri uri = buildRequestUri("reset", ManagePreferences.registrationId());
-    HttpService.addHttpRequest(context, new HttpRequest(uri){});
+    HttpService.addHttpRequest(context, new HttpRequest(uri){
+
+      @Override
+      protected void processBody(String content) {
+        if (content.startsWith("200 ")) {
+          emailAddress = content.substring(4).trim();
+          saveStatus();
+          PagingProfileEvent.instance().open(CadPageApplication.getContext());
+        }
+      }
+    });
   }
 
   /**
