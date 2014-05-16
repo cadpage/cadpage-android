@@ -262,18 +262,18 @@ public class DonationManager {
           }
         }
       }
-      
-      // Cadpage should be enabled unless something has expired
-      // If status changed from expired to non-expired, reset the extra day count
-      enabled = (status.getStatus() != Status.BLOCK);
-      if (enabled && oldAlert) ManagePreferences.resetAuthExtra();
-      
-      // If status is not enabled, check for the loopholes
-      // First if if user has asked for an extra day
-      if (!enabled) {
-        Date extraDate = ManagePreferences.authExtraDate();
-        if (extraDate != null && new JulianDate(extraDate).equals(curJDate)) enabled = true;
-      }
+    }
+    
+    // Cadpage should be enabled unless something has expired
+    // If status changed from expired to non-expired, reset the extra day count
+    enabled = (status.getStatus() != Status.BLOCK);
+    if (enabled && oldAlert) ManagePreferences.resetAuthExtra();
+    
+    // If status is not enabled, check for the loopholes
+    // First if if user has asked for an extra day
+    if (!enabled) {
+      Date extraDate = ManagePreferences.authExtraDate();
+      if (extraDate != null && new JulianDate(extraDate).equals(curJDate)) enabled = true;
     }
     
     // If the paging service is enabled, we need to report paid subscriber
