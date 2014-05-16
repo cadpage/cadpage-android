@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class ALTalladegaCountyParser extends FieldProgramParser {
   public ALTalladegaCountyParser() {
     super(CITY_LIST, "TALLADEGA COUNTY", "AL",
-           "ADDR/S1 ID TIME CALL");
+           "ADDR/S1 ID TIME CALL! geo:GPS? INFO+");
   }
 
   @Override
@@ -35,12 +35,14 @@ public class ALTalladegaCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       field = stripFieldStart(field, "1 ");
       super.parse(field.replace("@", "&").replace("//", "&"), data);
+      if (data.strCity.equals("CHILDERBURG")) data.strCity = "CHILDERSBURG";
     }
   }
   
   private static final String[] CITY_LIST = {
     "ALPINE",
     "BON AIR",
+    "CHILDERBURG",     // Misspelled
     "CHILDERSBURG",
     "EASTABOGA",
     "GANTTS QUARRY",
