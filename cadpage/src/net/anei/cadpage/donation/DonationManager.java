@@ -399,6 +399,14 @@ public class DonationManager {
     return paidSubscriber;
   }
   
+  /**
+   * @return true if current paid subscriber status is currently in the
+   * process of being evaluated and should not, therefore, be trusted
+   */
+  public boolean isStatusUnstable() {
+    return pendingCheck;
+  }
+  
   // Singleton instance
   private static DonationManager instance = new DonationManager();
   

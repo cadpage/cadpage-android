@@ -110,21 +110,25 @@ class CadpageVendor extends Vendor {
   @Override
   boolean checkVendorStatus(Context context) {
     
-    // If service is not enabled, drastic action is required.  We do not have
-    // any trustworthy account information to pass to the server.  The only way
-    // we can pretty reliably break the connection is by unregistering the
-    // current registration ID and getting a new one
-    
-    if (!isEnabled()) {
-      C2DMService.unregister(context);
-      return false;
-    }
-    
-    // If service is enabled, but we no longer have a current paid subscription
-    // We only need to tell the server this service is no longer active
-    if (!DonationManager.instance().isPaidSubscriber()) {
-      updateCadpageStatus(context);
-      return false;
+    // If the current subscription status is untrustworthy, let it slide.
+    if (!DonationManager.instance().isStatusUnstable()) {
+      
+      // If service is not enabled, drastic action is required.  We do not have
+      // any trustworthy account information to pass to the server.  The only way
+      // we can pretty reliably break the connection is by unregistering the
+      // current registration ID and getting a new one
+      
+      if (!isEnabled()) {
+        C2DMService.unregister(context);
+        return false;
+      }
+      
+      // If service is enabled, but we no longer have a current paid subscription
+      // We only need to tell the server this service is no longer active
+      if (!DonationManager.instance().isPaidSubscriber()) {
+        updateCadpageStatus(context);
+        return false;
+      }
     }
     
     // Otherwise, return base class result
