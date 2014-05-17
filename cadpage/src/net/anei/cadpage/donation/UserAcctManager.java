@@ -124,10 +124,10 @@ public class UserAcctManager {
     }
     
     // Rest the basic billing information
-    ManagePreferences.setPaidYear(0);
-    ManagePreferences.setPurchaseDateString(null);
-    ManagePreferences.setFreeSub(false);
-    ManagePreferences.setSponsor(null);
+//    ManagePreferences.setPaidYear(0);
+//    ManagePreferences.setPurchaseDateString(null);
+//    ManagePreferences.setFreeSub(false);
+//    ManagePreferences.setSponsor(null);
     
     // Request purchase information from Android Market
     // When this information is returned, listeners will pass it to

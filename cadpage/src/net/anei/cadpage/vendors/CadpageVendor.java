@@ -26,7 +26,7 @@ class CadpageVendor extends Vendor {
           R.drawable.cadpage_logo,
           "http://76.12.80.89/cp/Cadpage.ASP?wci=AndroidX",
           null,
-          null);
+          "dewey@generationconsultants.com");
   }
 //
 //  @Override
