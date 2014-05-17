@@ -28,11 +28,11 @@ class CadpageVendor extends Vendor {
           null,
           "dewey@generationconsultants.com");
   }
-//
-//  @Override
-//  boolean isAvailable() {
-//    return true;
-//  }
+
+  @Override
+  boolean isAvailable() {
+    return true;
+  }
 
   @Override
   void profileReq(Activity activity) {

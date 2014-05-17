@@ -7,7 +7,7 @@ public class TNSevierCountyParser extends DispatchSouthernPlusParser {
   
   
   public TNSevierCountyParser() {
-    super(CITY_LIST, "SEVIER COUNTY", "TN", DSFLAG_FOLLOW_CROSS );
+    super(CITY_LIST, "SEVIER COUNTY", "TN", DSFLAG_LEAD_PLACE | DSFLAG_FOLLOW_CROSS );
   }
   
   @Override
