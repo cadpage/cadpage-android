@@ -369,7 +369,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
     /* 80 */ "",
     /* 81 */ "",                // PENNSYLVANIA FISH AND BOAT COMMISSION
     /* 82 */ "DOWNINGTON",      // MARSH CREEK STATE PARK RANGERS
-    /* 83 */ "POTTSDOWN",       // WARWICK COUNTY PARK
+    /* 83 */ "POTTSTOWN",       // WARWICK COUNTY PARK
     /* 84 */ "COATESVILLE",     // HIBERNIA COUNTY PARK
     /* 85 */ "NOTTINGHAM",      // NOTTINGHAM COUNTY PARK
     /* 86 */ "GLENMOORE",        // SPRINGTON MANOR COUNTY PARK
