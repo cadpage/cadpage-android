@@ -103,6 +103,7 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 Pbagnpg: Fnzhry Ubyyvfgre <fubyyvfgre61@tznvy.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Nqqvfba Sver/Nzo) 104 FGRHORA FG, NQQVFBA IVYYNTR BS (CEBFCRPG FG/ONYQJVA NI)6Q2 - Oernguvat Ceboyrzf - Qvssvphygl fcrnxvat orgjrra oerngufNQQVFSQNZO:2
+(Ghfpneben SQ) -{[PbagebyyrqOhea]}-615 FGRNQ FPUBBY EQ, GHFPNEBEN GBJA BS (JNESRYY EQ/PBHAGL EBHGR 5, PYRAQRAAVAT EQ)SQ PBAGEBYYRQ OHEA
 
 */
 
@@ -805,7 +806,15 @@ choyvp pynff ALFgrhoraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:6Q2",
         "PNYY:NYREG",
         "VASB:- Oernguvat Ceboyrzf - Qvssvphygl fcrnxvat orgjrra oernguf");
-  
+
+    qbGrfg("G2",
+        "(Ghfpneben SQ) -{[PbagebyyrqOhea]}-615 FGRNQ FPUBBY EQ, GHFPNEBEN GBJA BS (JNESRYY EQ/PBHAGL EBHGR 5, PYRAQRAAVAT EQ)SQ PBAGEBYYRQ OHEA",
+        "FEP:Ghfpneben SQ",
+        "NQQE:615 FGRNQ FPUBBY EQ",
+        "PVGL:GHFPNEBEN",
+        "K:JNESRYY EQ/PBHAGL EBNQ 5",
+        "PNYY:[PbagebyyrqOhea] / SQ PBAGEBYYRQ OHEA");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
