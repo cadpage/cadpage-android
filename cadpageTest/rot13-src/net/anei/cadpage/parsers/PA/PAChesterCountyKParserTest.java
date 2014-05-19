@@ -102,7 +102,7 @@ choyvp pynff CNPurfgrePbhaglXCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER CBYVPR ERDHRFG",
         "NQQE:1737 JO EG 422",
         "ZNQQE:1737 EG 422",
-        "PVGL:CBGGFQBJA");
+        "PVGL:CBGGFGBJA");
 
     qbGrfg("G9",
         "SEZ:NQV64@abepb.pbz\aZFT:10:28 ** QROEVF / SQ ERFC * ** 1717 JO EG 422 ,17 **  ** ZBAGP ** 6422 ** \a",

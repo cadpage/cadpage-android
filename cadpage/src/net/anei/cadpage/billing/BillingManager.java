@@ -37,7 +37,6 @@ public class BillingManager {
    * Initialize billing manager and associate it with an activity
    * @param context current context
    * @param reload true to force reload of all purchase information
-   * 
    */
   public void initialize(Context context, boolean reload) {
     this.reload = reload || ! ManagePreferences.initBilling();
@@ -114,7 +113,10 @@ public class BillingManager {
     @Override
     public void onBillingSupported(boolean supported) {
       BillingManager.this.supported = supported;
-      if (mService != null && reload && supported) mService.restoreTransactions();
+      if (mService != null && reload && supported) {
+        Log.v("Request purchase history");
+        mService.restoreTransactions();
+      }
     }
 
     @Override

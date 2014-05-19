@@ -3,7 +3,7 @@ package net.anei.cadpage;
 public class Log {
   public final static String LOGTAG = "CadPage";
 
-  public static final boolean DEBUG = false;
+  public static final boolean DEBUG = true;
   
   public static void trace(String msg) {
     android.util.Log.v(LOGTAG, msg, new Exception());

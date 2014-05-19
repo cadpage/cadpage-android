@@ -2606,7 +2606,7 @@ choyvp pynff CNPurfgrePbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:R",
         "HAVG:YNQ65 RAT682",
         "NQQE:RTLCG EQ & JVYYBJ QE",
-        "PVGL:CBGGFQBJA",
+        "PVGL:CBGGFGBJA",
         "CYNPR:VNB -- HCCRE CEBIVQRAPR GJC",
         "ANZR:ZBAGPB",
         "VASB:YNQ65 RAT682 NFG FGN99");
