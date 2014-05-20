@@ -3,12 +3,15 @@ package net.anei.cadpage.donation;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.Random;
 
 import android.content.Context;
 import android.os.Handler;
 import net.anei.cadpage.CadPageApplication;
+import net.anei.cadpage.EmailDeveloperActivity;
 import net.anei.cadpage.Log;
 import net.anei.cadpage.ManagePreferences;
+import net.anei.cadpage.billing.BillingManager;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
 
@@ -28,9 +31,9 @@ public class DonationManager {
   
   private enum Status {GOOD, WARN, BLOCK}
   public enum DonationStatus {FREE(Status.GOOD), LIFE(Status.GOOD), AUTH_DEPT(Status.GOOD), NEW(Status.GOOD), 
-                               PAID(Status.GOOD), PAID_WARN(Status.WARN), PAID_EXPIRE(Status.BLOCK), PAID_LIMBO(Status.WARN), 
-                               SPONSOR(Status.GOOD), SPONSOR_WARN(Status.WARN), SPONSOR_EXPIRE(Status.BLOCK), SPONSOR_LIMBO(Status.WARN), 
-                               DEMO(Status.WARN), DEMO_EXPIRE(Status.BLOCK), EXEMPT(Status.WARN);
+                              PAID(Status.GOOD), PAID_WARN(Status.WARN), PAID_EXPIRE(Status.BLOCK), PAID_LIMBO(Status.WARN), 
+                              SPONSOR(Status.GOOD), SPONSOR_WARN(Status.WARN), SPONSOR_EXPIRE(Status.BLOCK), SPONSOR_LIMBO(Status.WARN), 
+                              DEMO(Status.WARN), DEMO_EXPIRE(Status.BLOCK), EXEMPT(Status.WARN);
     private Status status;
     DonationStatus(Status status) {
       this.status = status;
@@ -40,6 +43,8 @@ public class DonationManager {
       return status;
     }
   };
+
+  private static final Random RANDOM = new Random();
   
   // Cached calculated values are only valid until this time
   private long validLimitTime = 0L;
@@ -69,12 +74,207 @@ public class DonationManager {
   private boolean paidSubscriber;
   
   private Handler handler = new Handler();
-  private boolean pendingCheck = false;
+  private boolean recalcInProgress = false;
+  private int recalcCount = 0;
+  private boolean priorPaidSubscriber = false;
+  private Date priorExpireDate = null;
+  
+  /**
+   * Reload payment status
+   * @param context current context
+   */
+  public void reloadStatus(Context context) {
+    
+    // Rest the basic billing information
+    Log.v("Recalculating payment status");
+    
+    // Do not allow recursive recalculates
+    if (recalcInProgress) return;
+    
+    // Lock current status and defer recalculation for 5 seconds
+    // Then recalculate status and refresh all displays
+    calculate();
+    recalcInProgress = true;
+    recalcCount = 0;
+    priorPaidSubscriber = paidSubscriber;
+    priorExpireDate = expireDate;
+    
+    // Rest the basic billing information
+    ManagePreferences.setPaidYear(0);
+    ManagePreferences.setPurchaseDateString(null);
+    ManagePreferences.setFreeSub(false);
+    ManagePreferences.setSponsor(null);
+    
+    handler.postDelayed(new CloseReloadStatusEvent(), 5000);
+    
+    // Request purchase information from Android Market
+    // When this information is returned, listeners will pass it to
+    // processSubscription()
+    BillingManager.instance().initialize(context, true);
+    
+    // Request authorization information from authorization server
+    // this will also call our processSubscription() method
+    UserAcctManager.instance().reloadStatus(context);
+  }
+  
+  /**
+   * Runnable event executed 5 seconds after recalculation is initiated
+   * to close things up
+   */
+  private class CloseReloadStatusEvent implements Runnable {
+    @Override
+    public void run() {
+      reset();
+      recalculate();
+      
+      // Set the authorization last checked date
+      ManagePreferences.setAuthLastCheckTime();
+
+      // Display any status changes
+      DonationManager.instance().reset();
+      MainDonateEvent.instance().refreshStatus();
+      
+      // The recalculate process has been known to drop market subscription information
+      // for reason that have yet to be determined.  We will check to see if user
+      // has lost a paid subscription status and if they have, retry loading
+      // both subscriber sources up to 2 times at 60-90 second intervals
+      if (priorPaidSubscriber && !paidSubscriber) {
+        EmailDeveloperActivity.logSnapshot(CadPageApplication.getContext(), "Payment Status Downgrade");
+        if (recalcCount < 2) {
+          recalcCount++;
+          long delay = 60 + RANDOM.nextInt(30);
+          Log.v("Schedule followup reload #" + recalcCount + " in " + delay + " seconds");
+          handler.postDelayed(new RetryReloadStatusEvent(), delay*1000L);
+          return;
+        }
+      }
+      // If everything is solid and stable, update the Cadpage Paging service status
+      updatePagingStatus(priorPaidSubscriber, priorExpireDate);
+      
+      // And reset the calculation in progress flag
+      recalcInProgress = false;
+      
+      Log.v("Recalculation of Payment Status completed");
+    }
+  }
+  
+  /**
+   * Runnable event scheduled 60-90 seconds after an undesirable recalculation
+   * outcome.  Makes another attempt to reload the subscription information
+   */
+  private class RetryReloadStatusEvent implements Runnable {
+    @Override
+    public void run() {
+      Log.v("Reloading subscription information");
+      handler.postDelayed(new CloseReloadStatusEvent(), 5000);
+      Context context = CadPageApplication.getContext();
+      BillingManager.instance().initialize(context, true);
+      UserAcctManager.instance().reloadStatus(context);
+    }
+  }
+  
+  /**
+   * Process one subscription request, this can come from the Android market interface
+   * or from the Cadpage authorization server response.
+   * @param stat - Subscription status, either a subscription year or "LIFE".
+   * @param purchaseDateStr - puchase date in MMDDYYY format.
+   * @param sponsor
+   */
+  public static void processSubscription(String stat, String purchaseDateStr, String sponsor) {
+    
+    // This gets called from multiple threads, so we had better lock internal processing
+    synchronized (UserAcctManager.class) {
+      
+      // Evaluate the status field.  Value of LIFE translates to year 9999
+      int year = -1;
+      if (stat.toUpperCase().equals("LIFE")) {
+        year = 9999;
+      } else {
+        try {
+          year = Integer.parseInt(stat);
+        } catch (NumberFormatException ex) {}
+        if (year < 2011 && year > 2050) year = -1;
+      }
+      
+      // get the current status year.  If better than this status, we can
+      // completely ignore everything
+      int paidYear = ManagePreferences.freeRider() ? 9999 : ManagePreferences.paidYear();
+      if (year < paidYear) return;
+      
+      // Next get the current and new free subscriber status
+      boolean freeSub = sponsor != null && sponsor.equals("FREE");
+      boolean curFreeSub = ManagePreferences.freeSub();
+
+      // if this year is better than current year, update current paid year status
+      if (year > paidYear) {
+        if (year == 9999) {
+          ManagePreferences.setFreeRider(true);
+        } else {
+          ManagePreferences.setPaidYear(year, true);
+        }
+      }
+      
+      // If years are the same, a free subscription request can not override
+      // an existing paid request
+      else if (year == paidYear && freeSub && !curFreeSub) return;
+      
+      // Purchase date processing, only if we have one of course
+      if (purchaseDateStr != null) {
+        
+        // If subscription year is better than last, this purchase date takes
+        // priority.  If year is the same,  use this purchase date if it is
+        // later than the current date.  Unless the current purchase date was
+        // a free subscription and this one was not.
+        //
+        // The purchase date comparison only compares the month and day.  The
+        // purchase year is not relevant
+        if (year == paidYear && (freeSub || !curFreeSub)) {
+          String curPurchaseDateStr  = ManagePreferences.purchaseDateString();
+          if (curPurchaseDateStr != null && 
+              curPurchaseDateStr.substring(0,4).compareTo(purchaseDateStr.substring(0,4))>0) {
+            purchaseDateStr = curPurchaseDateStr;
+          }
+        }
+        ManagePreferences.setPurchaseDateString(purchaseDateStr);
+      }
+      
+      // Set sponsor and free subscription status
+      if (freeSub || (sponsor != null && sponsor.length() == 0)) sponsor = null;
+      ManagePreferences.setFreeSub(freeSub);
+      ManagePreferences.setSponsor(sponsor);
+      
+      // Call calculation on the off chance this is not part of a recalculation
+      DonationManager.instance().reset();
+      MainDonateEvent.instance().refreshStatus();
+    }
+  }
   
   /**
    * Calculate all cached values
+   * and report any status changes to paging service
    */
   private void calculate() {
+    
+    // Status remains locked while a status recalculation is in progress
+    if (recalcInProgress) return;
+    
+    boolean startup = (status == null);
+    final boolean oldPaidSubscriber = paidSubscriber;
+    final Date oldExpireDate = expireDate;
+    
+    recalculate();
+    
+    if (!startup) {
+      updatePagingStatus(oldPaidSubscriber, oldExpireDate);
+    }
+    
+  }
+  
+  /**
+   * Calculate all cached values
+   * But do not report any status changes to Paging Service
+   */
+  private void recalculate() {
 
     // If this is the free version of Cadpage, we can skip all of the hard stuff
     if (this.getClass().getName().contains(".cadpagefree")) {
@@ -87,17 +287,8 @@ public class DonationManager {
     long curTime = System.currentTimeMillis();
     if (curTime < validLimitTime) return;
     
-    // Don't check for tranitions the first time we are called
-    boolean startup = (status == null);
-    
     // Save the previous hold status so we can tell if it has been cleared
     boolean oldAlert = (status != null && status.getStatus() == Status.BLOCK);
-    
-    // Ditto for expiration date and paid subscriber status
-    // These will be checked in a scheduled event some time in the future
-    // so we declare them as final so we can pass them to a runable task
-    final boolean oldPaidSubscriber = paidSubscriber;
-    final Date oldExpireDate = expireDate;
     
     // Convert current time to a JDate, and set the cache limit to midnight
     // of that day
@@ -275,42 +466,39 @@ public class DonationManager {
       Date extraDate = ManagePreferences.authExtraDate();
       if (extraDate != null && new JulianDate(extraDate).equals(curJDate)) enabled = true;
     }
+  }
+
+  /**
+   * Report any status changes that would affect the cadpage paging service
+   * @param oldPaidSubscriber
+   * @param oldExpireDate
+   */
+  private void updatePagingStatus(boolean oldPaidSubscriber, Date oldExpireDate) {
     
-    // If the paging service is enabled, we need to report paid subscriber
-    // and expiration date changes.  But we will delay any such reports for
-    // 5 seconds to avoid transient status blips during a payment status
-    // recalculation
-    else if (!startup && paidSubReq && !pendingCheck) {
-      boolean expDateSame = (expireDate == null ? oldExpireDate == null :
-                             oldExpireDate == null ? false :
-                             expireDate.equals(oldExpireDate));
-      if (paidSubscriber != oldPaidSubscriber || !expDateSame) {
-        pendingCheck = true;
-        Log.v("Schedule payment status check");
-        handler.postDelayed(new Runnable(){
-          @Override
-          public void run() {
-            pendingCheck = false;
-            Log.v("Do payment status check");
-            Context context = CadPageApplication.getContext();
-            boolean expDateSame = (expireDate == null ? oldExpireDate == null :
-                                   oldExpireDate == null ? false :
-                                   expireDate.equals(oldExpireDate));
-            if (paidSubscriber != oldPaidSubscriber || !expDateSame) {
-              VendorManager.instance().updateCadpageStatus(context);
-              
-              // If the paid subscriber status had changed, this should be reported
-              // to the user
-              if (paidSubscriber != oldPaidSubscriber) {
-                if (paidSubscriber) {
-                  PagingProfileEvent.instance().open(context);
-                } else {
-                  MainDonateEvent.instance().open(context);
-                }
-              }
-            }
-          }
-        }, 5000);
+    // Do not do anything if recalculation is in progress
+    if (!recalcInProgress) return;
+    
+    // If the aren't registered with our paging service, nothing needs to be done
+    if (!VendorManager.instance().isPaidSubRequired()) return;
+
+    // If neither the paid subscriber or expiration date have changed
+    // nothing needs to be done
+    boolean expDateSame = (expireDate == null ? oldExpireDate == null :
+                           oldExpireDate == null ? false :
+                           expireDate.equals(oldExpireDate));
+    if (paidSubscriber == oldPaidSubscriber && expDateSame) return;
+
+    // Report whatever changed to the Cadpage service vendor
+    Context context = CadPageApplication.getContext();
+    VendorManager.instance().updateCadpageStatus(context);
+    
+    // If the paid subscriber status had changed, this should be reported
+    // to the user
+    if (paidSubscriber != oldPaidSubscriber) {
+      if (paidSubscriber) {
+        PagingProfileEvent.instance().open(context);
+      } else {
+        MainDonateEvent.instance().open(context);
       }
     }
   }
@@ -404,7 +592,7 @@ public class DonationManager {
    * process of being evaluated and should not, therefore, be trusted
    */
   public boolean isStatusUnstable() {
-    return pendingCheck;
+    return recalcInProgress;
   }
   
   // Singleton instance

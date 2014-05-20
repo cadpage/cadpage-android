@@ -1,7 +1,6 @@
 Npgvir911 gvpxrgf
 
 ---- C5 --------------------------------
--2013090610000242  ZBFgSenapbvfPbhagl qbar
 2013091610000474  INBenatrPbhagl qbar
 2013112010000194  Fraqvat rapbqrq UGZY svyr.
 2014010910000197  APPyrirynaqPbhagl qbar
@@ -19,10 +18,7 @@ Npgvir911 gvpxrgf
 2014021610000252  AUTensgbaPbhagl qbar
 ---- C4 --------------------------------------------------------
 2013102210000405  BUUnzvygbaPbhagl qbar
--2013103110000201  NYZnefunyyPbhagl qbar
 2013110610000461  HF/ZA/JevtugPbhagl > 2014020710000501 (QvfcngpuN13Cnefre fhopynff)
--2013112510000701  AWBprnaPbhagl qbar
-+2013111210000388 
 2013121610000333  INCevaprTrbetrPbhagl qbar
 2014021210000232  ZBWnfcrePbhagl svkrq
 +2014050910000402

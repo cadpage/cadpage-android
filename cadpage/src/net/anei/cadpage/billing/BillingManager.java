@@ -11,8 +11,6 @@ import net.anei.cadpage.billing.BillingService.RestoreTransactions;
 import net.anei.cadpage.billing.Consts.PurchaseState;
 import net.anei.cadpage.billing.Consts.ResponseCode;
 import net.anei.cadpage.donation.DonationManager;
-import net.anei.cadpage.donation.MainDonateEvent;
-import net.anei.cadpage.donation.UserAcctManager;
 
 
 public class BillingManager {
@@ -127,12 +125,10 @@ public class BillingManager {
       if (itemId.startsWith("cadpage_")) {
         String year = itemId.substring(8);
         if (purchaseState == PurchaseState.PURCHASED) {
-          UserAcctManager.processSubscription(year, payload, null);
+          DonationManager.processSubscription(year, payload, null);
         } else { 
           ManagePreferences.setPaidYear(Integer.parseInt(year), false);
         }
-        DonationManager.instance().reset();
-        MainDonateEvent.instance().refreshStatus();
       }
     }
 

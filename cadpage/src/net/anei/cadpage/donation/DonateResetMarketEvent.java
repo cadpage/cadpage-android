@@ -1,10 +1,8 @@
 package net.anei.cadpage.donation;
 
 import android.app.Activity;
-import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.SmsPopupUtils;
-import net.anei.cadpage.billing.BillingManager;
 
 /**
 Recalculate Purchase Status
@@ -21,8 +19,8 @@ public class DonateResetMarketEvent extends DonateEvent {
     // Don't do anything if we aren't hooked to network
     if (!SmsPopupUtils.haveNet(activity)) return;
     
-    // Request status reload from server
-    UserAcctManager.instance().reloadStatus(activity);
+    // Request complete status reload
+    DonationManager.instance().reloadStatus(activity);
     
     // Close donation screens
     closeEvents(activity);

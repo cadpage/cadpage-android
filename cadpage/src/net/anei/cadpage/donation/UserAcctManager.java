@@ -4,21 +4,15 @@ import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.HttpService.HttpRequest;
-import net.anei.cadpage.EmailDeveloperActivity;
-import net.anei.cadpage.Log;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
-import net.anei.cadpage.billing.BillingManager;
-import net.anei.cadpage.donation.DonationManager.DonationStatus;
 import net.anei.cadpage.donation.UserAcctManager;
 import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.content.Context;
 import android.net.Uri;
-import android.os.Handler;
 import android.telephony.TelephonyManager;
 
 public class UserAcctManager {
@@ -80,7 +74,7 @@ public class UserAcctManager {
       if (curTime - lastTime > AUTH_CHECK_INTERVAL) {
         
         // Request status reload from android market and authorization server
-        UserAcctManager.instance().reloadStatus(context);
+        DonationManager.instance().reloadStatus(context);
       }
     }
   }
@@ -100,39 +94,6 @@ public class UserAcctManager {
   }
   
   public void reloadStatus(Context context) {
-    
-    // Rest the basic billing information
-    Log.v("Recalculating payment status");
-    
-    // The recalculate has been loosing Market information for some, as yet
-    // unidentified reason.  If they currently have a paid subscription status
-    // schedule a check 5 seconds from now to see if they lost it in the
-    // recalculation.  if they did, create a log snapshot
-    DonationStatus status = DonationManager.instance().status();
-    if (status == DonationStatus.PAID || status == DonationStatus.PAID_WARN) {
-      new Handler().postDelayed(new Runnable(){
-        @Override
-        public void run() {
-          DonationStatus status = DonationManager.instance().status();
-          if (status != DonationStatus.PAID && status != DonationStatus.PAID_WARN) {
-            
-            // Use the application context.  The local context may not be valid in 5 sec
-            EmailDeveloperActivity.logSnapshot(CadPageApplication.getContext(), "Payment Status Downgrade");
-          }
-        }
-      }, 5000);
-    }
-    
-    // Rest the basic billing information
-    ManagePreferences.setPaidYear(0);
-    ManagePreferences.setPurchaseDateString(null);
-    ManagePreferences.setFreeSub(false);
-    ManagePreferences.setSponsor(null);
-    
-    // Request purchase information from Android Market
-    // When this information is returned, listeners will pass it to
-    // processSubscription(), just like we will.
-    BillingManager.instance().initialize(context, true);
     
     // Build query with all of the possible account and phone ID's
     Uri.Builder builder = Uri.parse(context.getString(R.string.donate_server_url)).buildUpon();
@@ -154,90 +115,10 @@ public class UserAcctManager {
           String stat = flds[1].trim();
           String purchaseDate = (flds.length < 3 ? null : flds[2].trim().replace("/", ""));
           String sponsor = (flds.length < 4 ? null : flds[3].trim());
-          processSubscription(stat, purchaseDate, sponsor);
+          DonationManager.processSubscription(stat, purchaseDate, sponsor);
         }
-        
-        // Set the authorization last checked date
-        ManagePreferences.setAuthLastCheckTime();
-
-        // Recalculate payment status and refresh display
-        DonationManager.instance().reset();
-        MainDonateEvent.instance().refreshStatus();
-
       }
     });
-  }
-  
-  /**
-   * Process one subscription request, this can come from the Android market interface
-   * or from the Cadpage authorization server response.
-   * @param stat - Subscription status, either a subscription year or "LIFE".
-   * @param purchaseDateStr - puchase date in MMDDYYY format.
-   * @param sponsor
-   */
-  public static void processSubscription(String stat, String purchaseDateStr, String sponsor) {
-    
-    // This gets called from multiple threads, so we had better lock internal processing
-    synchronized (UserAcctManager.class) {
-      
-      // Evaluate the status field.  Value of LIFE translates to year 9999
-      int year = -1;
-      if (stat.toUpperCase().equals("LIFE")) {
-        year = 9999;
-      } else {
-        try {
-          year = Integer.parseInt(stat);
-        } catch (NumberFormatException ex) {}
-        if (year < 2011 && year > 2050) year = -1;
-      }
-      
-      // get the current status year.  If better than this status, we can
-      // completely ignore everything
-      int paidYear = ManagePreferences.freeRider() ? 9999 : ManagePreferences.paidYear();
-      if (year < paidYear) return;
-      
-      // Next get the current and new free subscriber status
-      boolean freeSub = sponsor != null && sponsor.equals("FREE");
-      boolean curFreeSub = ManagePreferences.freeSub();
-
-      // if this year is better than current year, update current paid year status
-      if (year > paidYear) {
-        if (year == 9999) {
-          ManagePreferences.setFreeRider(true);
-        } else {
-          ManagePreferences.setPaidYear(year, true);
-        }
-      }
-      
-      // If years are the same, a free subscription request can not override
-      // an existing paid request
-      else if (year == paidYear && freeSub && !curFreeSub) return;
-      
-      // Purchase date processing, only if we have one of course
-      if (purchaseDateStr != null) {
-        
-        // If subscription year is better than last, this purchase date takes
-        // priority.  If year is the same,  use this purchase date if it is
-        // later than the current date.  Unless the current purchase date was
-        // a free subscription and this one was not.
-        //
-        // The purchase date comparison only compares the month and day.  The
-        // purchase year is not relevant
-        if (year == paidYear && (freeSub || !curFreeSub)) {
-          String curPurchaseDateStr  = ManagePreferences.purchaseDateString();
-          if (curPurchaseDateStr != null && 
-              curPurchaseDateStr.substring(0,4).compareTo(purchaseDateStr.substring(0,4))>0) {
-            purchaseDateStr = curPurchaseDateStr;
-          }
-        }
-        ManagePreferences.setPurchaseDateString(purchaseDateStr);
-      }
-      
-      // Set sponsor and free subscription status
-      if (freeSub || (sponsor != null && sponsor.length() == 0)) sponsor = null;
-      ManagePreferences.setFreeSub(freeSub);
-      ManagePreferences.setSponsor(sponsor);
-    }
   }
   
   
