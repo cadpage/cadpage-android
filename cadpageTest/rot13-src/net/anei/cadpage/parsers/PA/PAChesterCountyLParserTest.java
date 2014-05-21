@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Purfgre Pbhagl, CN
+Purfgre Pbhagl, CN (Y)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Genccr RZF - Cubravkivyyr Qvivfvba
