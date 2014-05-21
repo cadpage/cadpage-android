@@ -94,6 +94,10 @@ Fraqre: 93001028
 08:07 ABEGU SEJL ZNVAYNARF AO-UP/FC, ; Znc:292X- Fho: Ang:10Q02-PURFG CNVA - QVSS FCRNXVA Havgf:Z55 71Z SB291A SB292A K-Fg:FCEVAT
 18:47 4327 FYBNATNGR QE-UP, ; Znc:333P- Fho:OVEANZ JBBQ Ang:09R01-NEERFG - ABG OERNGUVAT Havgf:Z51 SBRNFG Q51 R73 Y71 K-Fg:OVEANZ
 
+Pbagnpg: Wbr Xvss <wgxvss@tznvy.pbz>
+Fraqre: PbzzPragre@pprzf.pbz
+PbzzPragre@pprzf.pbz: ab fhowrpg / 05/20 17:04 J SZ 1960-UP/IRGRENAF ZRZBEVN, ; Znc:331J- Fho: Ang:32Q01-HAX CEBOYRZ - HAX YVSR FG Havgf:Z522 Q52 K-Fg:IRGRENAF ZRZBEVNY
+
 Pbagnpg: Npgvir911.pbz
 Fraqre: <PbzzPragre@pprzf.pbz>
 02/17 17:42 QHAPNA EQ-UP/J SZ 1960-UP, ; Znc:370P- Fho: Ang:29-ZBGBE IRUVPYR VAPVQRAG Havgf:Z55 SB370 R12 K-Fg:J SZ 1960 GURNYY EQ 201207247
@@ -788,7 +792,23 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:OVEANZ");
 
   }
+
+  @Grfg
+  choyvp ibvq grfgWbrXvss() {
+
+    qbGrfg("G1",
+        "PbzzPragre@pprzf.pbz: ab fhowrpg / 05/20 17:04 J SZ 1960-UP/IRGRENAF ZRZBEVN, ; Znc:331J- Fho: Ang:32Q01-HAX CEBOYRZ - HAX YVSR FG Havgf:Z522 Q52 K-Fg:IRGRENAF ZRZBEVNY",
+        "QNGR:05/20",
+        "GVZR:17:04",
+        "NQQE:J SZ 1960 & IRGRENAF ZRZBEVN",
+        "ZNQQE:J SNEZ-GB-ZNEXRG 1960 & IRGRENAF ZRZBEVN",
+        "ZNC:331J-",
+        "PNYY:32Q01-HAX CEBOYRZ - HAX YVSR FG",
+        "HAVG:Z522 Q52",
+        "K:IRGRENAF ZRZBEVNY");
     
+  }
+  
   @Grfg
   choyvp ibvq grfgNpgvir911N() {
 

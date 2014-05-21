@@ -14,7 +14,7 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
   
   private static final Pattern PART_MARKER = Pattern.compile("^\\d\\d:\\d\\d ");
   private static final Pattern DATE_PTN = Pattern.compile("(\\d+)/(\\d+)");
-  private static final Pattern MARKER = Pattern.compile("^(?:(\\d\\d/\\d\\d) )?(?:(\\d\\d:\\d\\d) )?(?:Inc: *(\\d*);)?");
+  private static final Pattern MARKER = Pattern.compile("^(?:no subject )?(?:/ )?(?:(\\d\\d/\\d\\d) )?(?:(\\d\\d:\\d\\d) )?(?:Inc: *(\\d*);)?");
   private static final Pattern MISSED_COLON_PTN = Pattern.compile("(?<=Map)(?=\\d)");
   private static final Pattern TRAILER = Pattern.compile(" +(\\d{8,}) *$");
   
