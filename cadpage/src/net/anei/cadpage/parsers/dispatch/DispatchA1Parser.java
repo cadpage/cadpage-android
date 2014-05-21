@@ -25,13 +25,13 @@ public class DispatchA1Parser extends FieldProgramParser {
     data.strCall = subject.substring(6).trim();
     if (data.strCall.length() == 0) data.strCall = "ALERT";
     body = body.replace(", RUN CARD:", "\nRUN CARD:");
-    return parseFields(body.split("\\n"), data);
+    return parseFields(body.split("\n"), data);
   }
   
   private class MyBoxField extends BoxField {
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith("BOX")) field = field.substring(3).trim();
+      field = stripFieldStart(field, "BOX");
       super.parse(field, data);
     }
   }

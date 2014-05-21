@@ -12,6 +12,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA1Parser;
 public class PAAdamsCountyAParser extends DispatchA1Parser {
   
   private static final Pattern IAMR_PREFIX = Pattern.compile("^(?:Alert: +)?(.*?)[ \n](?=ALRM LVL:)");
+  private static final Pattern COMMA_PTN = Pattern.compile(",*\n,*");
   
   public PAAdamsCountyAParser() {
     super("ADAMS COUNTY", "PA");
@@ -30,7 +31,9 @@ public class PAAdamsCountyAParser extends DispatchA1Parser {
     if (match.find()) {
       data.strSource = subject;
       subject = "Alert: " + match.group(1).trim();
-      body = body.substring(match.end()).trim();
+      body = body.substring(match.end()).trim().replace(",   BOX ", ", RUN CARD: BOX ");
+      body = COMMA_PTN.matcher(body).replaceAll("\n");
+      body = body.replaceAll(" , ", " ");
     }
     
     if (!super.parseMsg(subject, body, data)) return false;
