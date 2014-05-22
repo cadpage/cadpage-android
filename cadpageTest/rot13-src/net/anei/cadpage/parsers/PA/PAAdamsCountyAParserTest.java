@@ -273,6 +273,10 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (TSQ) Purfg Cnva - 1 NYEZ YIY: 1,   OBK 1-6-30\aYBP:\aTRGGLFOHET CYNPR NCNEGZRAGF\a500 OBLQF FPUBBY EBNQ ,\aNCG 506\a, PHZOREYNAQ GBJAFUVC ,\aOGJA: PNZO
 (TSQ) Genssvp Nppvqrag - 2 NYEZ YIY: 1,   OBK 19-5\aYBP:\a1284 OBA-BK EBNQ ,\aZBHAG CYRNFNAG GJC\aOGJA: PRAGRAAVNY EBNQ , & FRLZBER EBNQ ,\aHAVGF: 1N,RG
 
+Pbagnpg: Wbfrcu Grznenagm <wug726@tznvy.pbz>
+Fraqre: 777600013171
+.... (TSQ) Genssvp Nppvqrag - 2 NYEZ YIY: 1,   OBK 19-5\aYBP:\a1284 OBA-BK EBNQ ,\aZBHAG CYRNFNAG GJC\aOGJA: PRAGRAAVNY EBNQ , & FRLZBER EBNQ ,\aHAVGF: 1N,RG19,E33,E1,BSP19,R33-1
+
 */
 
 choyvp pynff CNNqnzfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -3605,6 +3609,28 @@ choyvp pynff CNNqnzfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ZBHAG CYRNFNAG GJC",
         "K:PRAGRAAVNY EBNQ & FRLZBER EBNQ",
         "HAVG:1N,RG");
+   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbfrcuGrznenagm2() {
+
+    qbGrfg("G1",
+        ".... (TSQ) Genssvp Nppvqrag - 2 NYEZ YIY: 1,   OBK 19-5\a" +
+        "YBP:\a" +
+        "1284 OBA-BK EBNQ ,\a" +
+        "ZBHAG CYRNFNAG GJC\a" +
+        "OGJA: PRAGRAAVNY EBNQ , & FRLZBER EBNQ ,\a" +
+        "HAVGF: 1N,RG19,E33,E1,BSP19,R33-1",
+
+        "FEP:TSQ",
+        "PNYY:Genssvp Nppvqrag - 2",
+        "CEV:1",
+        "OBK:19-5",
+        "NQQE:1284 OBA-BK EBNQ",
+        "PVGL:ZBHAG CYRNFNAG GJC",
+        "K:PRAGRAAVNY EBNQ & FRLZBER EBNQ",
+        "HAVG:1N,RG19,E33,E1,BSP19,R33-1");
    
   }
   

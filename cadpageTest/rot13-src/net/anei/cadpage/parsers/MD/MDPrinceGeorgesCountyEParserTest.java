@@ -117,6 +117,10 @@ Fraqre: nyeg_E0H5@nyreg.pb.ct.zq.hf
 S133210135: Sver Nynez-NSN, 8901 URNGUREZBER OYIQ, CC, ogja SNVEUNIRA NIR naq ZNEYGBA PRAGRE QE, GTP2, 4503, Havg:R845
 S133210149: Nffnhyg, 11009 BYQ ZNEYOBEB CVXR, CC, ogja ZRYJBBQ CNEX NIR naq EBOYRR QE, GTN2, 2017, Havgf:N823, R820O
 
+Pbagnpg: Gebl Qnaarasryfre <gebl11631@tznvy.pbz
+Fraqre: Pnqcntr 
+S141410216: Fhvpvqr, RNFGBA UNYY - HZ 253, HZ, ng 253 QRAGBA QE, HZ, GTN2, 1210, Havgf:N812, R812
+
 */
 
 
@@ -1068,6 +1072,21 @@ choyvp pynff ZQCevaprTrbetrfPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:2017",
         "HAVG:N823,R820O");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgGeblQnaarasryfre() {
+
+    qbGrfg("G1",
+        "S141410216: Fhvpvqr, RNFGBA UNYY - HZ 253, HZ, ng 253 QRAGBA QE, HZ, GTN2, 1210, Havgf:N812, R812",
+        "VQ:S141410216",
+        "PNYY:Fhvpvqr",
+        "CYNPR:RNFGBA UNYY - HZ 253",
+        "NQQE:253 QRAGBA QE",
+        "PU:GTN2",
+        "OBK:1210",
+        "HAVG:N812,R812");
+    
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

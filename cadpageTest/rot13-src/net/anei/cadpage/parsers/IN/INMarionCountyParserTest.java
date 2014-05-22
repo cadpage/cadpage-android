@@ -927,7 +927,17 @@ choyvp pynff VAZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:TNENTR/JBEXV",
         "HAVG:YQ20 ZQ10 GF31 FS04 RQB02 VAI02 ZRQVN BC3",
         "VQ:V04550");
-  
+
+    qbGrfg("G6",
+        "PBV CHOYVP FNSRGL PNQ:R 29GU FG/SBERFG ZNABE NI,VAQ A02900 R04100 TNENTR/JBEXV YQ20 ZQ10 GF31 FS04 RQB02 VAI02 ZRQVN BC3 V04550",
+        "NQQE:R 29GU FG & SBERFG ZNABE NI",
+        "ZNQQE:R 29GU FG & SBERFG ZNABE NIR",
+        "PVGL:Vaqvnancbyvf",
+        "ZNC:A02900 R04100",
+        "PNYY:TNENTR/JBEXV",
+        "HAVG:YQ20 ZQ10 GF31 FS04 RQB02 VAI02 ZRQVN BC3",
+        "VQ:V04550");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
