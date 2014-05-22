@@ -1,7 +1,6 @@
 cnpxntr arg.narv.pnqcntr.cnefref.ZA;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.ZA.ZANabxnPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -489,7 +488,8 @@ choyvp pynff ZAOrygenzvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G48",
         "PNYY: Ertvfgrerq Bssraqre;CYNPR: EBBFRIRYG ZNABE ZBOVYR UBZR CNEX;NQQE: 2112 EBBFRIRYG EQ FR YBG;PVGL: ORZVQWV;VQ: 006724;CEV: 3",
         "PNYY:Ertvfgrerq Bssraqre",
-        "NQQE:2112 EBBFRIRYG EQ FR YBG",
+        "NQQE:2112 EBBFRIRYG EQ FR",
+        "NCG:YBG",
         "PVGL:ORZVQWV",
         "VQ:006724",
         "CEV:3");
