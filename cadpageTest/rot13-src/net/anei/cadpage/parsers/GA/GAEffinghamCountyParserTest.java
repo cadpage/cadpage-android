@@ -1,7 +1,6 @@
 cnpxntr arg.narv.pnqcntr.cnefref.TN;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.TN.TNBpbarrPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -114,6 +113,7 @@ Fraqre: <Rssvatunz911@RssvatunzPbhagl.bet>
 (Nynez - ESQ - SVER/FGEHPGHER) (6) SVER/FGEHPGHER ESQ () Ybp:2270 UBQTRIVYYR EQ Epiq: 23:28:24 Havgf: 207 14015547 Pbzzragf: 4/23/2014 23:28:05 PNYYRE NQI GUNG GURER VF NA BYQ UBHFR BA SVER\a4/23/2014 23:28:13 PNYYRE NQI UR ORYVRIRF VGF RZCGL\aGuvf r-znvy vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq znl pbagnva pbasvqragvny be cevivyrtrq vasbezngvba. Nal hanhgubevmrq erivrj, hfr, qvfgevohgvba be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr ercyl gb gur fraqre naq qrfgebl nyy bevtvany pbcvrf bs guvf zrffntr.
 (Nynez - ESQ - VAWHEL) (6) VAWHEL ESQ () Ybp:1224 CNGEVBG QE [@LZPN Epiq: 16:43:0 Havgf: H1 14015494 Pbzzragf: 4/23/2014 16:42:00 14 LBZ\a4/23/2014 16:42:02 OEBXRA JEVFG\a4/23/2014 16:42:15 EVTUG\a4/23/2014 16:42:16 FJBYYRA\a4/23/2014 16:42:49 ABGVSL CNERAGF\aGuvf r-znvy vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq znl pbagnva pbasvqragvny be cevivyrtrq vasbezngvba. Nal hanhgubevmrq erivrj, hfr, qvfgevohgvba be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr ercyl gb gur fraqre naq qrfgebl nyy bevtvany pbcvrf bs guvf zrffntr.
 
+QvfcngpuN12Cnefre fhopynff
  */
 
 choyvp pynff TNRssvatunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
