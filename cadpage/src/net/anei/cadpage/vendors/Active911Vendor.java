@@ -142,7 +142,7 @@ class Active911Vendor extends Vendor {
   }));
   
   private static Properties POLY_CODE_TABLE = MsgParser.buildCodeTable(new String[]{
-      "US/IN/HancockCounty",              "INHancockCounty",
+      "CA/AB/ClearwaterCounty",           "ZCAABClearwaterCounty",
       "CA/AB/highriver",                  "ZCAABCanmore",
       "US/AL/AthensLimestoneCounty",      "ALLimestoneCounty",
       "US/AL/ChambersCounty",             "ALChambersCounty",
@@ -196,6 +196,7 @@ class Active911Vendor extends Vendor {
       "US/IL/DownersGrove",               "ILDuPageCountyB",
       "US/IL/GlenCarbon",                 "ILMadisonCounty",
       "US/IN/Bristol",                    "INElkhartCounty",
+      "US/IN/HancockCounty",              "INHancockCounty",
       "US/IN/LakeCounty",                 "INLakeCounty",
       "US/IN/ShelbyCounty",               "INShelbyCounty",
       "US/IN/VigoCounty",                 "INVigoCounty",
