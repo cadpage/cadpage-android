@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class ZCAABCalgaryParser extends FieldProgramParser {
   
-  protected ZCAABCalgaryParser() {
+  public ZCAABCalgaryParser() {
     super(CITY_TABLE, "CALGARY", "AB",
            "Add:ADDR/S4 Map:MAP Det:CALL! FireTAC:CH Evt:ID!");
   }
