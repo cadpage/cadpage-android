@@ -86,10 +86,7 @@ In Android 4.4, the rules all change to eliminate this nonsense.  The user gets 
 
 The good news is that Cadpage will continue to function under Android 4.4.  And rogue messaging apps will no longer be able to block text messages from getting to Cadpage.  The bad news is that we will no longer be able to block dispatch pages from appearing in your default message inbox.  The best you can do is use a blacklisting or spam blocking feature in the default message app to prevent dispatch pages from appearing there.
 
-One alternative is to switch to a message service like CodeMessaging.net or Active911.com that can push direct pages to Cadpage.  Since these do not rely on text messages, they are unaffected by the changes at Android 4.4.
-
-We hope to roll out our own Cadpage direct paging service in next week. This will be free for paying Cadpage subscribers, and it will get around the Kit Kat message problem.  If you want to try it out now, see our facebook page at 
-http://facebook.com/CADPage
+Another alternative is to switch to a message service that can push direct pages to Cadpage without relying on text messaging.  We have our own message service currently in beta, it will be available in the next Cadpage release which should be out tomorrow.  Using it requires a paid Cadpage subscription.  CodeMessaging.net and Active911.com offer the same kind of service with a lot more features for more money.
 
 Take care,
 Jean ~ Cadpage Administrator

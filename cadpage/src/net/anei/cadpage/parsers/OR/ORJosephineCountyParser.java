@@ -29,6 +29,11 @@ public class ORJosephineCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    if (subject.length() == 0 && body.startsWith("!  / ")) {
+      subject = "!";
+      body = body.substring(5).trim().replace("=\n", "").replace("=0A", "\n");
+    }
+    
     if (! subject.trim().equals("!")) return false;
     body = LAT_LON_PTN.matcher(body).replaceAll("LAT:$1 LON:$2");
     body = UNITS_PTN.matcher(body).replaceFirst("Units:");
