@@ -369,6 +369,7 @@ public class ParserList {
               ,"KYKentonCounty"                 ,"Kenton County, KY"
               ,"KYLawrenceCounty"               ,"Lawrence County, KY"
               ,"KYLouisville"                   ,"Louisville, KY"
+              ,"KYMadisonCounty"                ,"Madison County, KY"
               ,"KYMeadeCounty"                  ,"Meade County, KY"
               ,"KYMuhlenbergCounty"             ,"Muhlenberg County, KY"
               ,"KYOldhamCounty"                 ,"Oldham County, KY"
@@ -461,6 +462,7 @@ public class ParserList {
               ,"MNWabashaCounty"                ,"Wabasha County, MN"
               ,"MNWadenaCounty"                 ,"Wadena County, MN"
               ,"MNWashingtonCounty"             ,"Washington County, MN"
+              ,"MNWinonaCounty"                 ,"Winona County, MN"
               ,"MNWrightCounty"                 ,"Wright County, MN"
           ),
           new ParserCategory("Mississippi"
@@ -1049,6 +1051,7 @@ public class ParserList {
           ),
           new ParserCategory("Alberta, CA"
               ,"ZCAABCanmore"                   ,"Canmore, AB"
+              ,"ZCAABClearwaterCounty"          ,"Clearwater County, AB"
               ,"ZCAABLacombeCounty"             ,"Lacombe County, AB"
               ,"ZCAABLamontCounty"              ,"Lamont County, AB"
               ,"ZCAABRedDeerCounty"             ,"Red Deer Count, AB"

@@ -843,6 +843,11 @@ Pnzcoryy Pbhagl, XL (XLPnzcoryyPbhaglCnefre)
 (Fcrp qvnt-Fvpx crefba ng 3160 Qnavryf Eq, Syntt Fcevat, 41007) Abgvsvpngvba sebz PVF Npgvir 911:\a\aFcrp qvnt-Fvpx crefba ng 3160 Qnavryf Eq, Syntt Fcevat, 41007\a\aNyrknaqevn sq - 201300000860\a\aGvzr ercbegrq: 04/19/2013 5:38:40 CZ\a\a\aHavg(f) erfcbaqrq: \aZ191
 (Oernguvat ceboyrzf ng 300 Pbzzrepvny Pe, Nyrknaqevn, 41001) Abgvsvpngvba sebz PVF Npgvir 911:\a\aOernguvat ceboyrzf ng 300 Pbzzrepvny Pe, Nyrknaqevn, 41001\a\aNyrknaqevn sq - 201300000859\a\aGvzr ercbegrq: 04/19/2013 4:16:11 CZ\aGvzr pbzcyrgrq: 04/19/2013 5:11:16 CZ\a\aHavg(f) erfcbaqrq: \aZ191\aZ192
 *******************************************************************************
+Znqvfba Pbhagl, XL (XLZnqvfbaPbhaglCnefre) 
+(SVER ng OBTVR ZVYY/QRNQRAQ, EVPUZBAQ, 40475) Abgvsvpngvba sebz PVF Npgvir911:\a\aSVER ng OBTVR ZVYY/QRNQRAQ, EVPUZBAQ, 40475\a\aXVEXFIVYYR IBY SVER QRCG - 201400000026\a\aGvzr ercbegrq: 5/20/2014 3:25:37 CZ\a\a\aHavg(f) erfcbaqrq: \aXISQ\aZPSQ\angi sverarne gerrf naq gur perrx
+(SVER NYNEZ ng 106 ANAPL QE, EVPUZBAQ, 40475) Abgvsvpngvba sebz PVF Npgvir911:\a\aSVER NYNEZ ng 106 ANAPL QE, EVPUZBAQ, 40475\a\aXVEXFIVYYR IBY SVER QRCG - 201400000025\a\aGvzr ercbegrq: 5/16/2014 7:56:45 CZ\a\a\aHavg(f) erfcbaqrq: \aXISQ\aCBN MBAR 6 FZBXR QRGRPGBE. ERFVQRAPR ANZREBA TENIRF859 624 9504HANOYR GB ZNXR PBAGNPG.NQG BCRENGBE BIG
+(SVER ng 5250 ZBENA FHZZVGG EQ, CNVAG YVPX, 40461) Abgvsvpngvba sebz PVF Npgvir911:\a\aSVER ng 5250 ZBENA FHZZVGG EQ, CNVAG YVPX, 40461\a\aXVEXFIVYYR IBY SVER QRCG - 201400000024\a\aGvzr ercbegrq: 5/3/2014 6:35:27 CZ\a\a\aHavg(f) erfcbaqrq: \aXISQ\aonea ba sver
+*******************************************************************************
 Pneire Pbhagl, ZA (ZAPneirePbhaglCnefre) 
 (Zrqvpny-rzf ng 2902 Pbecbengr Cy, Punaunffra, 55317) Abgvsvpngvba sebz PVF Npgvir 911:\a\aZrqvpny-rzf ng 2902 Pbecbengr Cy, Punaunffra, 55317\a\aZrqvpny-rzf ng 2902 Pbecbengr Cy, Punaunffra, 55317\a\aPunaunffra Sver - 201300000380\a\aGvzr ercbegrq: 08/22/2013 10:17:17 NZ\a\a\aHavg(f) erfcbaqrq: \a00000200\aR911 PYNFF: COKO
 (Zrqvpny-rzf ng Ujl 5/Znexrg Oyiq, Punaunffra, 55317) Abgvsvpngvba sebz PVF Npgvir 911:\a\aZrqvpny-rzf ng Ujl 5/Znexrg Oyiq, Punaunffra, 55317\a\aZrqvpny-rzf ng Ujl 5/Znexrg Oyiq, Punaunffra, 55317\a\aPunaunffra Sver - 201300000379\a\aGvzr ercbegrq: 08/20/2013 7:33:33 CZ\a\a\aHavg(f) erfcbaqrq: \a00000200
@@ -1102,7 +1107,7 @@ PNYY: Nppvqrag;NQQE: JVAGRE FHZNP EQ AR;PVGL: ORZVQWV;VQ: 1408293;CEV: 3
 PNYY: Nppvqrag;NQQE: QVIFVBA FG J / ORPVQN EQ FJ;PVGL: ORZVQWV;VQ: 1408224;CEV: 2;VASB: BAR IRUVPYR EBYY BIRE
 PNYY: Iruvpyr Pnyyf/Pbzcynvagf;NQQE: QVIFVBA FG J / ORPVQN EQ FJ;PVGL: ORZVQWV;VQ: 1408224;CEV: 3;VASB: BAR IRUVPYR EBYY BIRE
 *******************************************************************************
-Jvaban Pbhagl, ZA (ZAJvabznPbhaglCnefre)
+Jvaban Pbhagl, ZA (ZAJvabanPbhaglCnefre)
 PNYY: Zrqvpny;NQQE: 120 1fg FG AR;PVGL: NYGHEN;VQ: PRA201420340;CEV: Irel Uvtu
 PNYY: Zrqvpny;NQQE: 26819 JNONFUN EQ;PVGL: FG PUNEYRF;VQ: PRA201420318;CEV: Irel Uvtu
 PNYY: Zrqvpny;NQQE: 1260 BNXIVRJ QE NCG 3;PVGL: FG PUNEYRF;VQ: PRA201420266;CEV: Irel Uvtu
