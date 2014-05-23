@@ -932,7 +932,7 @@ choyvp pynff GKAnpbtqbpurfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ANPBTQBPURF",
         "TCF:+31.591541,-94.622788",
         "HAVG:R2",
-        "VASB:FHOW SRYY NAQ UVG UVF URNQ");
+        "VASB:TNGR PBQR: #1119 / FHOW SRYY NAQ UVG UVF URNQ");
 
     qbGrfg("G26",
         "(VAPVQRAG # S13-02733) VAPVQRAG # S13-02733\a\a" +
@@ -2900,7 +2900,7 @@ choyvp pynff GKAnpbtqbpurfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ANPBTQBPURF",
         "TCF:+31.590905,-94.621984",
         "HAVG:R2",
-        "VASB:FHOW UNIVAT FRVMHERF",
+        "VASB:TNGR PBQR: #1119 / FHOW UNIVAT FRVMHERF",
         "ANZR:GERIBFXL",
         "CUBAR:(936)615-5718");
 
@@ -3085,7 +3085,7 @@ choyvp pynff GKAnpbtqbpurfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ANPBTQBPURF",
         "TCF:+31.590905,-94.621984",
         "HAVG:R2",
-        "VASB:SRZNYR FRIRER NQBZVANY CNVA / FHOW WHFG TBG NA HVQ CHG VA LRFGREQNL, TNGR PBQR #3532",
+        "VASB:TNGR PBQR: #1119 / SRZNYR FRIRER NQBZVANY CNVA / FHOW WHFG TBG NA HVQ CHG VA LRFGREQNL, TNGR PBQR #3532",
         "ANZR:OREAVPR OEBJA",
         "CUBAR:(408)674-6213");
 
@@ -3209,7 +3209,7 @@ choyvp pynff GKAnpbtqbpurfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ANPBTQBPURF",
         "TCF:+31.590905,-94.621984",
         "HAVG:R2",
-        "VASB:61 LBN SRZNYR, UNF SNYYRA HAXABJA VS VAWHERQ / ERS 5451255 / FUR UNF NFGUZN NAQ PNAPRE",
+        "VASB:TNGR PBQR: #1119 / 61 LBN SRZNYR, UNF SNYYRA HAXABJA VS VAWHERQ / ERS 5451255 / FUR UNF NFGUZN NAQ PNAPRE",
         "ANZR:YVSRYVAR",
         "CUBAR:(888)289-2018");
 

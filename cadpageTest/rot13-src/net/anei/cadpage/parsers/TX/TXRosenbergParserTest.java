@@ -1105,7 +1105,7 @@ choyvp pynff GKEbfraoretCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:FGN1",
         "PVGL:EBFRAORET",
         "HAVG:FG1",
-        "VASB:vasnag abg oernguvat / vasnag jvgu frvmherf",
+        "VASB:TNGR PBQR *0911 (CQ/SQ BAYL) / vasnag abg oernguvat / vasnag jvgu frvmherf",
         "CUBAR:(979)398-1416");
 
     qbGrfg("G32",
@@ -1560,7 +1560,7 @@ choyvp pynff GKEbfraoretCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:FGN1",
         "PVGL:EBFRAORET",
         "HAVG:FG1",
-        "VASB:haxabja zrqvpny / jvyy or va gur yrnfvat bssvpr");
+        "VASB:TNGR PBQR *0911 (CQ/SQ BAYL) / haxabja zrqvpny / jvyy or va gur yrnfvat bssvpr");
 
     qbGrfg("G47",
         "Vapvqrag #: 14-0922\a" +
@@ -1670,7 +1670,7 @@ choyvp pynff GKEbfraoretCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:FGN2",
         "PVGL:EBFRAORET",
         "HAVG:FG2",
-        "VASB:srznyr srryvat vyy",
+        "VASB:PNYY #2580 *** NSGRE 5CZ JVYY EVAT BA-FVGR ERC BE #99 *** / srznyr srryvat vyy",
         "ANZR:SOPFB");
 
     qbGrfg("G51",
@@ -2284,7 +2284,7 @@ choyvp pynff GKEbfraoretCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:FGN1",
         "PVGL:EBFRAORET",
         "HAVG:FG1",
-        "VASB:EZ 4 .. NQHYG SRZNYR URNEG CEBOYRZF",
+        "VASB:#8 SEBAG QBBE XRL: 0573 (OBK 7240)- QBEBGUL OHFU 832-595- / 3263 / EZ 4 .. NQHYG SRZNYR URNEG CEBOYRZF",
         "ANZR:VTANPVN",
         "CUBAR:(480)330-1610");
 
@@ -3168,7 +3168,7 @@ choyvp pynff GKEbfraoretCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:FGN2",
         "PVGL:EBFRAORET",
         "HAVG:FG2",
-        "VASB:YVSG NFFVFGNAPR",
+        "VASB:PNYY #2580 *** NSGRE 5CZ JVYY EVAT BA-FVGR ERC BE #99 *** / YVSG NFFVFGNAPR",
         "ANZR:BC W1F",
         "CUBAR:(855)289-1072");
   }

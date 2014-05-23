@@ -124,7 +124,6 @@ Fraqre: "Fvaabgg, Obo" <OFvaabgg@gecbyvpr.bet>
 (VAPVQRAG # 14-249) YBAT GREZ PNQ#   14-1807   NPGVIR PNYY# 32\aCEVBEVGL: 2                   ERCBEGRQ: 09:15:34 02/10/14\a\a Angher: FGEHPGHER SVER                              Glcr: s\aNqqerff: Byq Serrubyq Eq & Puhepu Eq                 Mbar: 300\a   Pvgl: Gbzf Evire\a\aErfcbaqvat Havgf: S30,S29,S2526,S28\a\aQverpgvbaf:\a\a\aPbzzragf:\apbasvezrq ol ohernh vafcrpgbe\a\aPbagnpg: 938                               Cubar: (   )   -
 (VAPVQRAG # 14-249) YBAT GREZ PNQ#   14-1807   NPGVIR PNYY# 32\aCEVBEVGL: 2                   ERCBEGRQ: 09:15:34 02/10/14\a\a Angher: FGEHPGHER SVER                              Glcr: s\aNqqerff: Byq Serrubyq Eq & Puhepu Eq                 Mbar: 300\a   Pvgl: Gbzf Evire\a\aErfcbaqvat Havgf: S30,S29,S2526,S28\a\aQverpgvbaf:\a\a\aPbzzragf:\apbasvezrq ol ohernh vafcrpgbe\a\aPbagnpg: 938                               Cubar: (   )   -
 (VAPVQRAG # 14-248) YBAT GREZ PNQ#   14-9825   NPGVIR PNYY# 17\aCEVBEVGL: 2                   ERCBEGRQ: 07:19:19 02/10/14\a\a Angher: TNF YRNX-BHGFVQ                             Glcr: s\aNqqerff: 100 Ubbcre Nir; BP Pbheg Ubhfr Rnfg Jvat    Mbar: 250\a   Pvgl: Gbzf Evire\a\aErfcbaqvat Havgf: S2526\a\aQverpgvbaf:\a   FCEVAXYRE BHGFVQR BS ONFRZRAG, OBVYRE EBBZ\a\aPbzzragf:\afzryy bs tnf bhgfvqr ohvyqvat 100  frrzf gb unir qvfncngrq....\a\aPbagnpg: BPFQ Gevan                        Cubar: (732)349-2010
-(JNGRE NYREG: AWQBG Eg 35 Cebwrpg Cu 2 - Onloreel Ebnq & Fvyire Ornpu Ebnq va Gbzf Evire Gbjafuvc 2/10/2014) \a\a\a-------- Bevtvany Zrffntr --------\aFhowrpg: JNGRE NYREG: AWQBG Eg 35 Cebwrpg Cu 2 - Onloreel Ebnq & Fvyire Ornpu Ebnq va Gbzf Evire Gbjafuvc 2/10/2014\aSebz: Elna.Heny@nzjngre.pbz\aGb: qqrfzbaqpbec2@pbzpnfg.arg,Puevfgvar.Sbeerfgre@nzjngre.pbz,Penvt.Jneera@nzjngre.pbz,Qroen.Znggurjf@nzjngre.pbz,Trbetr.Onhre@nzjngre.pbz,Ynhera.Urncf@nzjngre.pbz,Znegva.R.Jnygref@nzjngre.pbz,Gubznf.Oenhajbegu@nzjngre.pbz\aPP: Wvz Zrepernql <WZrepernql@gesver.bet>\a\aTbbq riravat!\a\aN jngre nyreg unf orra ragrerq sbe gur sbyybjvat jbex:\a\aNf cneg bs gur AWQBG Ebhgr 35 cebwrpg, gur pbagenpgbe jvyy gvr-va gur arj jngre znva ba Ebhgr 35 Fbhgu gb gur rkvfgvat znva ba Fvyire Ornpu Ebnq naq Onloreel Ebnq  va Gbzf Evire Gbjafuvc. Gur fheebhaqvat phfgbzref jvyy or nssrpgrq, naq phfgbzref ba Fvyire Ornpu Ebnq (orgjrra Ebhgr 35 Fbhgu & Ebhgr 35 Abegu) naq Onloreel Ebnq (orgjrra Ebhgr 35 Fbhgu naq Fvyire Ornpu Ebnq) jvyy grzcbenevyl or jvgubhg jngre sebz 8:00 NZ hagvy 3:00 CZ.  Phfgbzref va gur nern jrer abgvsvrq ol bhe vafcrpgbe. Jbex jvyy ortva Zbaqnl 2/10/2014 ng 8:00 NZ naq pbagvahr hagvy nccebk 3:00 CZ. Phfgbzref va gur nern znl rkcrevrapr ybj cerffher, ab jngre, qvfpbyberq naq be pybhql jngre qhevat ubhef jbex vf gnxvat cynpr. Phfgbzref fubhyq eha pbyq jngre snhprgf hagvy gur jngre ehaf pyrne. Jr ncbybtvmr sbe nal vapbairavrapr.\a\aNf cneg bs guvf jbex, gur sbyybjvat ulqenag jvyy nyfb or bhg bs freivpr (frr nggnpurq znc):\a\aUGE-45 (vagrefrpgvba bs Ebhgr 35 Fbhgu & Onloreel Ebnq)\a\a\a\a\a\aElna Z. Heny, C.R.\aFravbe Pbafgehpgvba Ratvarre\aNzrevpna Jngre -  Ohfvarff Freivprf Ratvarrevat\a1025 Ynhery Bnx Ebnq\aCB Obk 1770\aIbbeurrf, AW 08043\a\aBssvpr: 856.727.6134\aPryy: 856.745.9678\aRznvy: elna.heny@nzjngre.pbz\a\a\aAWQBG Ebhgr 35 Cebwrpg - AWNJ Svryq Bssvpr\a1311 Onl Nir\aZnagbybxvat, AW 08738
 (VAPVQRAG # 14-246) YBAT GREZ PNQ#   14-9776   NPGVIR PNYY# 151\aCEVBEVGL: 1                   ERCBEGRQ: 20:24:12 02/09/14\a\a Angher: NYNEZ PB                                    Glcr: s\aNqqerff: 1077 Gbeerzbyvabf Pg                        Mbar: 281\a   Pvgl: Gbzf Evire\a\aErfcbaqvat Havgf: S28BSS\a\aQverpgvbaf:\a\a\aPbzzragf:\apb nynez - pbhagl nqivfrq rirelbar gb jnvg bhgfvqr bs gur ubzr\a\aPbagnpg: yvaqn                             Cubar: (848)992-9769
 (VAPVQRAG # 14-243) YBAT GREZ PNQ#   14-1756   NPGVIR PNYY# 238\aCEVBEVGL: 2                   ERCBEGRQ: 23:35:56 02/08/14\a\a Angher: NYNEZ SVER                                  Glcr: s\aNqqerff: 2445 Jvaqfbe Nir; Uneobe Ubhfr              Mbar: 284\a   Pvgl: Gbzf Evire\a\aErfcbaqvat Havgf: S28\a\aQverpgvbaf:\a\a\aPbzzragf:\atra sver nynez\a\aPbagnpg: uneobe ubhfr                      Cubar: (732)929-0660
 (VAPVQRAG # 14-241) YBAT GREZ PNQ#   14-1747   NPGVIR PNYY# 169\aCEVBEVGL: 2                   ERCBEGRQ: 17:06:20 02/08/14\a\a Angher: NYNEZ SVER                                  Glcr: s\aNqqerff: 674 Juvgr Prqne Qe                          Mbar: 250\a   Pvgl: Gbzf Evire\a\aErfcbaqvat Havgf: S2526\a\aQverpgvbaf:\a\a\aPbzzragf:\axrl cnq naq fzbxr qrgrpgbef\a\aPbagnpg: frpher nyy                        Cubar: (   )   -
@@ -365,7 +364,7 @@ choyvp pynff AWBprnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:300",
         "PVGL:Gbzf Evire",
         "HAVG:S30,S29",
-        "VASB:2aq sybbe sebag",
+        "VASB:UBHFR PNA ABG OR FRRA SEBZ GUR FGERRG---FRG ONPX VA JBBQF, / BA RNFG FVQR BS EBNQ FBHGU BS JUVGR BNX OBGGBZ / 2aq sybbe sebag",
         "ANZR:pzf",
         "CUBAR:(631)289-2800");
 
@@ -430,7 +429,7 @@ choyvp pynff AWBprnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:250",
         "PVGL:Gbzf Evire",
         "HAVG:S2526",
-        "VASB:fzryyf angheny tnf va nern",
+        "VASB:Xabk Obk ybpngrq gb gur yrsg bs gur sebag qbbe / fzryyf angheny tnf va nern",
         "ANZR:Pynver Onxre",
         "CUBAR:(732)   -");
 
@@ -678,7 +677,7 @@ choyvp pynff AWBprnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:280",
         "PVGL:Gbzf Evire",
         "HAVG:S28",
-        "VASB:trareny sver nynez",
+        "VASB:Rnfgfvqr bs Svfpure Oyiq (znl abg znc pbeerpgyl) / trareny sver nynez",
         "CUBAR:(732)929-3010");
 
     qbGrfg("G12",
@@ -704,7 +703,7 @@ choyvp pynff AWBprnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:280",
         "PVGL:Gbzf Evire",
         "HAVG:S28",
-        "VASB:Trareny sver  nynez bcre67371 888-774-6462",
+        "VASB:Rnfgfvqr bs Svfpure Oyiq (znl abg znc pbeerpgyl) / Trareny sver  nynez bcre67371 888-774-6462",
         "CUBAR:(732)929-3010");
 
     qbGrfg("G13",
@@ -786,7 +785,7 @@ choyvp pynff AWBprnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:250",
         "PVGL:Gbzf Evire",
         "HAVG:S2500,S2600,S2561,S2671,S1100",
-        "VASB:pne ba sver, nzohynapr ba gur raq oynpx fzbxr",
+        "VASB:Zrgny Gehff Ebbs sbe gur Erfghnenag cbegvba bs gur ohvyqvat / pne ba sver, nzohynapr ba gur raq oynpx fzbxr",
         "ANZR:urvqv");
 
     qbGrfg("G16",
@@ -812,7 +811,7 @@ choyvp pynff AWBprnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:250",
         "PVGL:Gbzf Evire",
         "HAVG:S2526",
-        "VASB:pne ba sver, nzohynapr ba gur raq oynpx fzbxr",
+        "VASB:Zrgny Gehff Ebbs sbe gur Erfghnenag cbegvba bs gur ohvyqvat / pne ba sver, nzohynapr ba gur raq oynpx fzbxr",
         "ANZR:urvqv");
 
     qbGrfg("G17",
@@ -1101,7 +1100,7 @@ choyvp pynff AWBprnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:250",
         "PVGL:Gbzf Evire",
         "HAVG:S2526",
-        "VASB:tra sver nyez    bc#89375   855-831-6298");
+        "VASB:RE QBBE PBQR VF 9111* / tra sver nyez    bc#89375   855-831-6298");
 
     qbGrfg("G27",
         "(VAPVQRAG # 14-319) YBAT GREZ PNQ#   14-2696   NPGVIR PNYY# 127\a" +
@@ -1227,7 +1226,7 @@ choyvp pynff AWBprnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:281",
         "PVGL:Gbzf Evire",
         "HAVG:S28,S29",
-        "VASB:Sver Nynez Evtug Fvqr Fzbxr. 732-892-0700",
+        "VASB:Erfvqrapr vf orvat hfrq nf n Tebhc Ubzr / Sver Nynez Evtug Fvqr Fzbxr. 732-892-0700",
         "ANZR:Nyyvrq Tebhc Ubzr",
         "CUBAR:(732)270-2292");
 
@@ -2097,7 +2096,7 @@ choyvp pynff AWBprnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:250",
         "PVGL:Gbzf Evire",
         "HAVG:S2526",
-        "VASB:iru yrnxvat tnf va gur c.y - juvgr ubaqn",
+        "VASB:Gb pnyy naq ernpu n crefba, 732-244-1707 - jura erpbeqvat / pbzrf ba qvny 8001 - evatf qverpgyl va. / iru yrnxvat tnf va gur c.y - juvgr ubaqn",
         "ANZR:wbua",
         "CUBAR:(908)838-5764");
 
@@ -2192,7 +2191,7 @@ choyvp pynff AWBprnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:253",
         "PVGL:Gbzf Evire",
         "HAVG:S2526,S16",
-        "VASB:zin hax vawf / bar srznyr ragenccrq ng yrnfg fubhyqre vawf / ebghaqb ba fvgr / qhzc gehpx 10 cnffratre pnef / bar cbff sngny / zhygvcyr gebbcref 10-9");
+        "VASB:ABEGU OBHAQ  81.5 Haqrecnff (envyebnq / gerfgyr)  81.7 Rkvg 81 gb Ynxruhefg Ebnq  81.8 Ragenapr 81 / sebz Ynxruhefg Eq  82.2 Rkvg 82 (37 rnfg)  82.3 Haqrecnff Eg / 37  82.4 Rkvg 82n (37 jrfg)  82.6 Ragenapr 82 (Rzrenyq Ncgf) / 83.4 Cnirq Pebffbire   83.8 Pebffbire -AWFC CC Fgngvba  84.1 / Haqrecnff Ebhgr 9/166  84.2 Rkvg 83 (9 abegu)  84.3 Ragenapr / 83 sebz Eg 9  84.4 Haqrecnff Eg 571  84.7 Gbzf Evire Gbyy / Cynmn  85.2 Haqrecnff Byq Serrubyq Ebnq   86.0 Cnirq / Pebffbire   86.4 Haqrecnff Puhepu Ebnq  87.5 Cnirq Pebffbire / 89.0 Cnirq Pebffbire / zin hax vawf / bar srznyr ragenccrq ng yrnfg fubhyqre vawf / ebghaqb ba fvgr / qhzc gehpx 10 cnffratre pnef / bar cbff sngny / zhygvcyr gebbcref 10-9");
 
     qbGrfg("G52",
         "(VAPVQRAG # 14-296) YBAT GREZ PNQ#  14-11579   NPGVIR PNYY# 22\a" +
@@ -2734,7 +2733,7 @@ choyvp pynff AWBprnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:281",
         "PVGL:Gbzf Evire",
         "HAVG:S2811,S29",
-        "VASB:evtug fvqr fzbxr qrpg",
+        "VASB:Erfvqrapr vf orvat hfrq nf n Tebhc Ubzr / evtug fvqr fzbxr qrpg",
         "CUBAR:(732)270-2292");
 
     qbGrfg("G71",
@@ -2894,7 +2893,7 @@ choyvp pynff AWBprnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:250",
         "PVGL:Gbzf Evire",
         "HAVG:S2526",
-        "VASB:vafvqr ohvyqvat pybfre whel nffrzoyl  fbzr crbcyr srryvat vyy  rirelbhg vf / yrnivat gur ohvyqvat");
+        "VASB:FCEVAXYRE BHGFVQR BS ONFRZRAG, OBVYRE EBBZ / vafvqr ohvyqvat pybfre whel nffrzoyl  fbzr crbcyr srryvat vyy  rirelbhg vf / yrnivat gur ohvyqvat");
 
     qbGrfg("G77",
         "(VAPVQRAG #) YBAT GREZ PNQ#  14-10403   NPGVIR PNYY# 113\a" +
@@ -3342,49 +3341,9 @@ choyvp pynff AWBprnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:250",
         "PVGL:Gbzf Evire",
         "HAVG:S2526",
-        "VASB:fzryy bs tnf bhgfvqr ohvyqvat 100  frrzf gb unir qvfncngrq....",
+        "VASB:FCEVAXYRE BHGFVQR BS ONFRZRAG, OBVYRE EBBZ / fzryy bs tnf bhgfvqr ohvyqvat 100  frrzf gb unir qvfncngrq....",
         "ANZR:BPFQ Gevan",
         "CUBAR:(732)349-2010");
-
-// ************************ CNEFR SNVYHER *****************************
-// (JNGRE NYREG: AWQBG Eg 35 Cebwrpg Cu 2 - Onloreel Ebnq & Fvyire Ornpu Ebnq va Gbzf Evire Gbjafuvc 2/10/2014) \a
-// \a
-// \a
-// -------- Bevtvany Zrffntr --------\a
-// Fhowrpg: JNGRE NYREG: AWQBG Eg 35 Cebwrpg Cu 2 - Onloreel Ebnq & Fvyire Ornpu Ebnq va Gbzf Evire Gbjafuvc 2/10/2014\a
-// Sebz: Elna.Heny@nzjngre.pbz\a
-// Gb: qqrfzbaqpbec2@pbzpnfg.arg,Puevfgvar.Sbeerfgre@nzjngre.pbz,Penvt.Jneera@nzjngre.pbz,Qroen.Znggurjf@nzjngre.pbz,Trbetr.Onhre@nzjngre.pbz,Ynhera.Urncf@nzjngre.pbz,Znegva.R.Jnygref@nzjngre.pbz,Gubznf.Oenhajbegu@nzjngre.pbz\a
-// PP: Wvz Zrepernql <WZrepernql@gesver.bet>\a
-// \a
-// Tbbq riravat!\a
-// \a
-// N jngre nyreg unf orra ragrerq sbe gur sbyybjvat jbex:\a
-// \a
-// Nf cneg bs gur AWQBG Ebhgr 35 cebwrpg, gur pbagenpgbe jvyy gvr-va gur arj jngre znva ba Ebhgr 35 Fbhgu gb gur rkvfgvat znva ba Fvyire Ornpu Ebnq naq Onloreel Ebnq  va Gbzf Evire Gbjafuvc. Gur fheebhaqvat phfgbzref jvyy or nssrpgrq, naq phfgbzref ba Fvyire Ornpu Ebnq (orgjrra Ebhgr 35 Fbhgu & Ebhgr 35 Abegu) naq Onloreel Ebnq (orgjrra Ebhgr 35 Fbhgu naq Fvyire Ornpu Ebnq) jvyy grzcbenevyl or jvgubhg jngre sebz 8:00 NZ hagvy 3:00 CZ.  Phfgbzref va gur nern jrer abgvsvrq ol bhe vafcrpgbe. Jbex jvyy ortva Zbaqnl 2/10/2014 ng 8:00 NZ naq pbagvahr hagvy nccebk 3:00 CZ. Phfgbzref va gur nern znl rkcrevrapr ybj cerffher, ab jngre, qvfpbyberq naq be pybhql jngre qhevat ubhef jbex vf gnxvat cynpr. Phfgbzref fubhyq eha pbyq jngre snhprgf hagvy gur jngre ehaf pyrne. Jr ncbybtvmr sbe nal vapbairavrapr.\a
-// \a
-// Nf cneg bs guvf jbex, gur sbyybjvat ulqenag jvyy nyfb or bhg bs freivpr (frr nggnpurq znc):\a
-// \a
-// UGE-45 (vagrefrpgvba bs Ebhgr 35 Fbhgu & Onloreel Ebnq)\a
-// \a
-// \a
-// \a
-// \a
-// \a
-// Elna Z. Heny, C.R.\a
-// Fravbe Pbafgehpgvba Ratvarre\a
-// Nzrevpna Jngre -  Ohfvarff Freivprf Ratvarrevat\a
-// 1025 Ynhery Bnx Ebnq\a
-// CB Obk 1770\a
-// Ibbeurrf, AW 08043\a
-// \a
-// Bssvpr: 856.727.6134\a
-// Pryy: 856.745.9678\a
-// Rznvy: elna.heny@nzjngre.pbz\a
-// \a
-// \a
-// AWQBG Ebhgr 35 Cebwrpg - AWNJ Svryq Bssvpr\a
-// 1311 Onl Nir\a
-// Znagbybxvat, AW 08738
 
     qbGrfg("G96",
         "(VAPVQRAG # 14-246) YBAT GREZ PNQ#   14-9776   NPGVIR PNYY# 151\a" +

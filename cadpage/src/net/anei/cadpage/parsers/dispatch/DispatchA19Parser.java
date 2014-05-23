@@ -18,7 +18,7 @@ public class DispatchA19Parser extends FieldProgramParser {
   
   public DispatchA19Parser(String defCity, String defState) {
     super(defCity, defState,
-           "INCIDENT:ID? LONG_TERM_CAD:ID? ACTIVE_CALL:ID? PRIORITY:PRI? REPORTED:TIMEDATE? Nature:CALL! Type:SKIP! Address:ADDR! Zone:MAP! City:CITY! SearchAddresss:SKIP? LAT-LON:GPS? Responding_Units:UNIT! Directions:INFO! INFO+ Comments:INFO? INFO+ Contact:NAME Phone:PHONE");
+           "INCIDENT:ID? LONG_TERM_CAD:ID? ACTIVE_CALL:ID? PRIORITY:PRI? REPORTED:TIMEDATE? Nature:CALL! Type:SKIP! Address:ADDR! Zone:MAP! City:CITY! SearchAddresss:SKIP? LAT-LON:GPS? Responding_Units:UNIT! Directions:INFO! INFO+ Cross_Streets:X? X+ Comments:INFO? INFO+ Contact:NAME Phone:PHONE");
 
   }
   
@@ -46,6 +46,16 @@ public class DispatchA19Parser extends FieldProgramParser {
     public void parse(String field, Data data) {
       data.strCallId = append(data.strCallId, "/", field);
     }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("PHONE")) return new MyPhoneField();
+    return super.getField(name);
   }
   
   private static final Pattern ADDR_APT_PTN = Pattern.compile("(?:APT|RM|SUITE) *(.*)|\\d+[A-Z]?", Pattern.CASE_INSENSITIVE);
@@ -133,6 +143,21 @@ public class DispatchA19Parser extends FieldProgramParser {
     }
   }
   
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(":");
+      if (pt >= 0) field = field.substring(pt+1).trim();
+      for (String street : field.split("&")) {
+        street = street.trim();
+        if (street.equals("<not found>")) continue;
+        if (!data.strAddress.contains(street) && !data.strCross.contains(street)) {
+          super.parse(street, data);
+        }
+      }
+    }
+  }
+  
   // phone field has to contain a digit
   private static final Pattern LEGIT_PHONE_PTN = Pattern.compile(".*\\d.*");
   private class MyPhoneField extends PhoneField {
@@ -141,14 +166,5 @@ public class DispatchA19Parser extends FieldProgramParser {
       if (!LEGIT_PHONE_PTN.matcher(field).matches()) return;
       super.parse(field, data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ID")) return new MyIdField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("PHONE")) return new MyPhoneField();
-    return super.getField(name);
   }
 }
