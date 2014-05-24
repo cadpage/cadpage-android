@@ -35,6 +35,8 @@ Fhowrpg:Puvrs NYG\a[71 RZF] -- Nffnhyg/Frkhny Nffnhyg-NYF -- 25687 Pbearyvn Fg F
 Pbagnpg: Yrj Gnyyrl <yrj.gnyyrl83@tznvy.pbz>
 Fraqre: nyreg@pszft.pbz
 (Puvrs NYG) [83 SVER] -- Bhgfvqr Sver -- 24322 - 24557 Tbqjva Fpub Zvyyfobeb 19966 -- KFG: Eriry Eq & Oryzbag Oyiq
+(Puvrs Nyreg) [83 SVER] Iruvpyr Sver -- 0 Puneybggr Oyiq Zvyyfobeb, QR 19966 -- Pebff FGF: Nfuivyyr Qe/Qrnq Raq
+(Puvrs Nyreg) [83 SVER] Nhgbzngvp Sver Nynez -- 21327 Pbireqnyr Pve Zvyyfobeb, QR 19966 -- Znp Pragre Fgbpxyrl Pragr -- Pebff FGF: Gehzvnam Oyiq/Qrnq Raq
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ebknan Ibyhagrre Sver Pbzcnal Fgngvba 90
@@ -789,6 +791,18 @@ choyvp pynff QRFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
    
   }
   
+  @Grfg
+  choyvp ibvq grfgPvtabgvf7() {
+
+    qbGrfg("G1",
+        "Fhowrpg:Puvrs NYG\a[71 RZF] -- Nffnhyg/Frkhny Nffnhyg-NYF -- 25687 Pbearyvn Fg Frnsbeq 19973\a",
+        "FEP:71 RZF",
+        "PNYY:Nffnhyg/Frkhny Nffnhyg-NYF",
+        "NQQE:25687 Pbearyvn Fg",
+        "PVGL:Frnsbeq");
+   
+  }
+  
   
   @Grfg
   choyvp ibvq grfgYrjGnyyrl() {
@@ -802,18 +816,26 @@ choyvp pynff QRFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Zvyyfobeb",
         "K:Eriry Eq & Oryzbag Oyiq");
    
-  }
-  
-  @Grfg
-  choyvp ibvq grfgPvtabgvf7() {
 
-    qbGrfg("G1",
-        "Fhowrpg:Puvrs NYG\a[71 RZF] -- Nffnhyg/Frkhny Nffnhyg-NYF -- 25687 Pbearyvn Fg Frnsbeq 19973\a",
-        "FEP:71 RZF",
-        "PNYY:Nffnhyg/Frkhny Nffnhyg-NYF",
-        "NQQE:25687 Pbearyvn Fg",
-        "PVGL:Frnsbeq");
-   
+    qbGrfg("G2",
+        "(Puvrs Nyreg) [83 SVER] Iruvpyr Sver -- 0 Puneybggr Oyiq Zvyyfobeb, QR 19966 -- Pebff FGF: Nfuivyyr Qe/Qrnq Raq",
+        "FEP:83 SVER",
+        "PNYY:Iruvpyr Sver",
+        "NQQE:Puneybggr Oyiq",
+        "ZNQQE:Puneybggr Oyiq & Nfuivyyr Qe",
+        "PVGL:Zvyyfobeb",
+        "FG:QR",
+        "K:Nfuivyyr Qe/Qrnq Raq");
+
+    qbGrfg("G3",
+        "(Puvrs Nyreg) [83 SVER] Nhgbzngvp Sver Nynez -- 21327 Pbireqnyr Pve Zvyyfobeb, QR 19966 -- Znp Pragre Fgbpxyrl Pragr -- Pebff FGF: Gehzvnam Oyiq/Qrnq Raq",
+        "FEP:83 SVER",
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "NQQE:21327 Pbireqnyr Pve",
+        "PVGL:Zvyyfobeb",
+        "FG:QR",
+        "CYNPR:Znp Pragre Fgbpxyrl Pragr",
+        "K:Gehzvnam Oyiq/Qrnq Raq");
   }
 
   @Grfg
