@@ -18,7 +18,7 @@ If you can not restore a working payment status with the recalculate
 option, select
 Payment Status > I have an authorization code
 and enter the code
-MBQAEBAA or mbqaebaa
+ATHAPQCA or athapqca
 
 That will get you a 30-day grace period while I work on a real fix for this.
 
@@ -86,7 +86,7 @@ In Android 4.4, the rules all change to eliminate this nonsense.  The user gets 
 
 The good news is that Cadpage will continue to function under Android 4.4.  And rogue messaging apps will no longer be able to block text messages from getting to Cadpage.  The bad news is that we will no longer be able to block dispatch pages from appearing in your default message inbox.  The best you can do is use a blacklisting or spam blocking feature in the default message app to prevent dispatch pages from appearing there.
 
-Another alternative is to switch to a message service that can push direct pages to Cadpage without relying on text messaging.  We have our own message service currently in beta, it will be available in the next Cadpage release which should be out tomorrow.  Using it requires a paid Cadpage subscription.  CodeMessaging.net and Active911.com offer the same kind of service with a lot more features for more money.
+Another alternative is to switch to a message service that can push direct pages to Cadpage without relying on text messaging.  We have our own message service currently in beta, it will be available in the next Cadpage release which should be later today.  Using it requires a paid Cadpage subscription.  CodeMessaging.net and Active911.com offer the same kind of service with a lot more features for more money.
 
 Take care,
 Jean ~ Cadpage Administrator
