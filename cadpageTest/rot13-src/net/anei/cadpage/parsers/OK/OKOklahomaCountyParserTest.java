@@ -5,7 +5,7 @@ vzcbeg bet.whavg.Grfg;
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 /*
-Pubpgnj Pbhagl, BX
+Bxynubzn Pbhagl, BX
 Pbagnpg: Enl Jnyynpr <fragelzrpunavp@tznvy.pbz>'
 Fraqre: 8137012060,4057960363,8137012064,4052615639,4052615640,4052615644,4052615647
 
@@ -14,10 +14,10 @@ Fraqre: 8137012060,4057960363,8137012064,4052615639,4052615640,4052615644,405261
 
  */
 
-choyvp pynff BXPubpgnjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff BXBxynubznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp BXPubpgnjPbhaglCnefreGrfg() {
-    frgCnefre(arj BXPubpgnjPbhaglCnefre(), "PUBPGNJ PBHAGL", "BX");
+  choyvp BXBxynubznPbhaglCnefreGrfg() {
+    frgCnefre(arj BXBxynubznPbhaglCnefre(), "BXYNUBZN PBHAGL", "BX");
   }
  
   
@@ -38,6 +38,6 @@ choyvp pynff BXPubpgnjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj BXPubpgnjPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj BXBxynubznPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

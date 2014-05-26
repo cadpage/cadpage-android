@@ -4,10 +4,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 
-public class OKChoctawCountyParser extends SmartAddressParser {
+public class OKOklahomaCountyParser extends SmartAddressParser {
   
-  public OKChoctawCountyParser() {
-    super("CHOCTAW COUNTY", "OK");
+  public OKOklahomaCountyParser() {
+    super("OKLAHOMA COUNTY", "OK");
     setFieldList("CALL ADDR APT INFO");
   }
   
