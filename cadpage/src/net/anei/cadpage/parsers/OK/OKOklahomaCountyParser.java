@@ -8,6 +8,7 @@ public class OKOklahomaCountyParser extends SmartAddressParser {
   
   public OKOklahomaCountyParser() {
     super("OKLAHOMA COUNTY", "OK");
+    addRoadSuffixTerms("NEST", "VISTA");
     setFieldList("CALL ADDR APT INFO");
   }
   
