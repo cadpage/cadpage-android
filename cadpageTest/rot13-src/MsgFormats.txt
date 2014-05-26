@@ -1776,6 +1776,11 @@ PNQ:Zft:SLV: ;CREFBANY VAWHEL NPPVQRAG;EOSE;409 A QVIVFVBA EQ/FHZZVG CNEX QE;2 I
 PNQ:Zft:SLV: ;ZRQVP GENAFCBEG;NRNZ;416 PBAANOYR NI;TBVAT GB PUROBLTNA UBFCVP  [07/24/2012 11:57:20 XURJVGG]<10><13><10>
 PNQ:Zft:Hcqngr: ;NZOHYNAPR;RWNZ;5632 EVPUNEQF EQ;[Zrqvpny Cevbevgl Vasb] CEBOYRZ: UHFONAQ SRRYVAT SNVAG 82LZ   # CNGF: 1   NTR: 82   FRK: Znyr   PBAFPVBHF: Lrf   OERNGUVAT: Lrf  [07/24/12 12:15:28 XZNGRYFXV]<10>[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Nzohyn<13><10>
 *******************************************************************************
+Veba Pbhagl, ZV (ZVVebaPbhaglCnefre)
+PNQ:SNYY;211 5GU FG;10GU NIR;9GU NIR;36RZ\a2014/05/22 11:07:30NZ
+PNQ:SNYY;343 BFF EQ;J HF 2 UJL;36RZ\a2014/05/21 08:29:20CZ
+PNQ:FVPX CREFBA;VEBA PBHAGL ZRQVPNY PNER SNPVY;1523 J HF 2 UJL;GNXNYN EQ;ARJ OEVFGBY EQ;# 111 FCHPR - SRZNYR;36RZ\a2014/05/21 11:04:41NZ
+*******************************************************************************
 Vfnoryyn Pbhagl, ZV (ZVVfnoryynPbhaglCnefre)
 PNQ:SLV: ;NZOHYNAPR;402 J ERZHF EQ;ZC;SVGPU QE;F ZREVQVNA EQ;purfg cnvaf [12/13/12 21:20:21 UNQYRL] z-65 / uk urneg / qvss oeguvat [12/13/12 21:20:07 UNQYRL]
 PNQ:SLV: ;VAWHEL NPPVQRAG;1999 F JVAA EQ/J CVPXNEQ EQ;ZC
@@ -4624,6 +4629,10 @@ Pyrirynaq Pbhagl, BX (BXPyrirynaqPbhaglCnefre)
 (PNQ) SVER TENFF ERQ BNX YA & R SENAXYVA EQ RFA: 92
 (PNQ) SVER ERFVQRAGVNY 6305 PEBBXRQ BNX QE RFA: 267
 (PNQ) FZBXR VAIRFGVTNGVBA R SENAXYVA EQ & 192AQ NIR AR RFA: 92
+*******************************************************************************
+Bxynubzn Pbhagl, BX (BXBxynubznPbhaglCnefre)
+1/1: GRFG CNTR FGNEG GB 2831 A. URAARL - Sebz: BPFB Qvfcngpu 
+1/1: 4601 A PUBPGNJ EQ RBP SVER NPNQRZL 21/Z SNYY 10SG BSS YNQQRE - Sebz: BPFB Qvfcngpu
 *******************************************************************************
 Cbagbabp Pbhagl, BX (BXCbagbabpPbhaglCnefre)
 (QvfcngpuNyreg) ZRQVPNY PNYY \a231 J ZNVA
@@ -7955,10 +7964,35 @@ Pbagnpg: oxcnefba2x13@lnubb.pbz <oxcnefba2x13@lnubb.pbz>
 Fraqre: Nyregcntr
 SEZ:Nyregcntr \aZFT:NFCRA UVYY | ZBAGTBZREL | QJRYYVAT SVER | 4905 QBJYNVF PG | SVER FUBJVAT SEBZ 2 FGL FSQ, EVQ ERDHRFGRQ - 1 YVAR FGERGPURQ | NC01 
 **********************************************************
+Oenagyrl PBhagl, TN (hcqngr)
+Pbagnpg: Gbaln Juvgjbegu <tngbeynaq2525@lnubb.pbz>
+Fraqre: oenagyrltn@rm911znvy.pbz
+Fhowrpg:Qvfc: JISQ 100603 2014-05-8824\aCBJR Qngr Erpi 5/25/2014 3:15:23 CZ   CBJRE YVAR FCNEXVAT NTNVAFG TNENTR 792 ERQ UNJX QE JNLARF\a
+
+**********************************************************
+**********************************************************
 **********************************************************
 ************  ERNQL GB EBYY ******************************
 **********************************************************
 **********************************************************
+Qbhtynf Pbhagl, BE
+Pbagnpg: Oenqyrl Ohpxyre <tbbfrgurrzg@tznvy.pbz>
+Fraqre: qvfcngpu@pb.qbhtynf.be.hf
+Flfgrz: RVF
+F: Z:5/25/2014 0359\aZRQVPNY NVQ\a3920 EVPR INYYRL EQ\aBX #\a\a17 ZBAGU BYQ OBL, PBAF, OERNGUVAT, GRZC VF 104, VG JNF 103 N...
+F: Z:5/24/2014 1312\aZIN VAWHEL\aZC 41 38\aRY #\aZC 41 38\a1 ZV GBJNEQF QENVA SEBZ GUR GHAARY NCCEBK YBP, FVATYR IRU QE...
+F: Z:5/23/2014 1457\aZIN VAWHEL\aZC 146 V5 AO\aBX #\aZC 146 V5 AO\aFVATYR IRU NPPVQRAG JUVGR SBEQ RKCYBERE  OYRJ NGVER  UVG THN...
+F: Z:5/23/2014 1105\aZRQVPNY NVQ\a509 UNYB GENVY EQ\aLA #\a\aSNEEVRE WHFG TBG EHA BIRE OL GUR UBEFR. OYRRQVAT SEBZ ABFR N...
+F: Z:5/22/2014 1551\aZRQVPNY NVQ\a653 ZNVA FG\aLA #\a\a86 LBS HANOYR GB FGNAQ BA URE BJA, IREL JRNX NAQ GVERQ.
+F: Z:5/22/2014 0943\aZRQVPNY NVQ\a455 ORNE PERRX EQ\aPH # 8\aFGNEQHFG ZBGRY\a60 LBS, PBAP/OERNGUVAT, FYVCCRQ NAQ SRYY VA GUR GHO. ABG OYR...
+F: Z:5/16/2014 1700\aZRQVPNY NVQ\a614 WBUA YBAT EQ\aLA #\a\a50F ZNYR, CBFF URNEG NGGNPX, PBAFPVBHF
+
+Naq gubfr ner pvgl nooerivngvbaf.
+PH= Phegva
+BX= Bnxynaq
+LA= Lbapnyyn
+RY= Ryxgba
+QE= Qenva
 **********************************************************
 **********************************************************
 **********************************************************
@@ -8029,8 +8063,6 @@ TNA: O CYG SVER PBZVAT SEBZ FVTA NG SEBAG BS OBJYVAT NYYRL
  TNA CYG N ULQEB ZRGREF FZBXVAT VAFVQR OHVYQVAT NG 92 XVAT FG R. ZGB  
 TNA CYNG O ZRQ NFFVFG 615 FGRRY 52 LB ZNYR HAP QVNORGVP  
  TNA CYNG N PB2 NYNEZ NG 234 EVIRE FG  
-**********************************************************
-**********************************************************
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
 Pbagnpg: wrerzl ubsszna <sverznaw79@tznvy.pbz>
