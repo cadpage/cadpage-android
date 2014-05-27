@@ -1057,7 +1057,7 @@ public class ParserList {
               ,"ZCAABClearwaterCounty"          ,"Clearwater County, AB"
               ,"ZCAABLacombeCounty"             ,"Lacombe County, AB"
               ,"ZCAABLamontCounty"              ,"Lamont County, AB"
-              ,"ZCAABRedDeerCounty"             ,"Red Deer Count, AB"
+              ,"ZCAABRedDeerCounty"             ,"Red Deer County, AB"
           ),
           new ParserCategory("British Columbia, CA"
               ,"ZCABCMidIslandRegion"           ,"Mid-Island Region, BC"
