@@ -43,7 +43,8 @@ public class PAErieCountyAParser extends DispatchB2Parser {
       
       return false;
     } while (false);
-    
+
+    body = body.replace("=20", " ").trim();
     boolean result = super.parseMsg(body, data);
     if (result) {
       Matcher match = CITY_SUFFIX.matcher(data.strName);
