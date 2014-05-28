@@ -81,40 +81,44 @@ public class DonationManager {
   
   /**
    * Reload payment status
-   * @param context current context
    */
-  public void reloadStatus(Context context) {
+  public void reloadStatus() {
     
-    // Rest the basic billing information
-    Log.v("Recalculating payment status");
+    Log.v("Payment status recalc requested");
     
-    // Do not allow recursive recalculates
+    // For one thing, we are not going to allow recursive recalcs
     if (recalcInProgress) return;
     
-    // Lock current status and defer recalculation for 5 seconds
-    // Then recalculate status and refresh all displays
-    calculate();
-    recalcInProgress = true;
-    recalcCount = 0;
-    priorPaidSubscriber = paidSubscriber;
-    priorExpireDate = expireDate;
-    
-    // Rest the basic billing information
-    ManagePreferences.setPaidYear(0);
-    ManagePreferences.setPurchaseDateString(null);
-    ManagePreferences.setFreeSub(false);
-    ManagePreferences.setSponsor(null);
-    
-    handler.postDelayed(new CloseReloadStatusEvent(), 5000);
-    
-    // Request purchase information from Android Market
-    // When this information is returned, listeners will pass it to
-    // processSubscription()
-    BillingManager.instance().initialize(context, true);
-    
-    // Request authorization information from authorization server
-    // this will also call our processSubscription() method
-    UserAcctManager.instance().reloadStatus(context);
+    // Do not do anything until Market billing is up and runing
+    BillingManager.instance().runWhenSupported(new ReloadStatusEvent());
+  }
+
+  // ReloadStatusEven is run when billing services are up and running
+  private class ReloadStatusEvent implements Runnable {
+    @Override
+    public void run() {
+      
+      Log.v("Payment status recalc starting");
+      
+      // Lock current status and defer recalculation for 5 seconds
+      // Then recalculate status and refresh all displays
+      calculate();
+      recalcInProgress = true;
+      recalcCount = 0;
+      priorPaidSubscriber = paidSubscriber;
+      priorExpireDate = expireDate;
+      
+      ManagePreferences.setPaidYear(0);
+      ManagePreferences.setPurchaseDateString(null);
+      ManagePreferences.setFreeSub(false);
+      ManagePreferences.setSponsor(null);
+      
+      // Defer the final calculation for 10 seconds to give
+      // everything time to come in.
+      handler.postDelayed(new CloseReloadStatusEvent(), 10000);
+      
+      refreshStatus(CadPageApplication.getContext());
+    }
   }
   
   /**
@@ -135,7 +139,8 @@ public class DonationManager {
       MainDonateEvent.instance().refreshStatus();
       
       // The recalculate process has been known to drop market subscription information
-      // for reason that have yet to be determined.  We will check to see if user
+      // We believe we have identified and fixed at least one reason why this happens
+      // but just in case we missed one, we will check to see if user
       // has lost a paid subscription status and if they have, retry loading
       // both subscriber sources up to 2 times at 60-90 second intervals
       if (priorPaidSubscriber && !paidSubscriber) {
@@ -167,17 +172,29 @@ public class DonationManager {
     public void run() {
       Log.v("Reloading subscription information");
       handler.postDelayed(new CloseReloadStatusEvent(), 5000);
-      Context context = CadPageApplication.getContext();
-      BillingManager.instance().initialize(context, true);
-      UserAcctManager.instance().reloadStatus(context);
+      refreshStatus(CadPageApplication.getContext());
     }
+  }
+  /**
+   * Refresh payment status with latest information from market and from authorization server
+   * @param context
+   */
+  public void refreshStatus(Context context) {
+    // Request purchase information from Android Market
+    // When this information is returned, listeners will pass it to
+    // processSubscription()
+    BillingManager.instance().restoreTransactions();
+    
+    // Request authorization information from authorization server
+    // this will also call our processSubscription() method
+    UserAcctManager.instance().reloadStatus(context);
   }
   
   /**
    * Process one subscription request, this can come from the Android market interface
    * or from the Cadpage authorization server response.
    * @param stat - Subscription status, either a subscription year or "LIFE".
-   * @param purchaseDateStr - puchase date in MMDDYYY format.
+   * @param purchaseDateStr - purchase date in MMDDYYY format.
    * @param sponsor
    */
   public static void processSubscription(String stat, String purchaseDateStr, String sponsor) {
@@ -475,9 +492,6 @@ public class DonationManager {
    */
   private void updatePagingStatus(boolean oldPaidSubscriber, Date oldExpireDate) {
     
-    // Do not do anything if recalculation is in progress
-    if (!recalcInProgress) return;
-    
     // If the aren't registered with our paging service, nothing needs to be done
     if (!VendorManager.instance().isPaidSubRequired()) return;
 
@@ -568,6 +582,7 @@ public class DonationManager {
    * @return true if full Cadpage functionality should be enabled.
    */
   public boolean isEnabled() {
+    if (recalcInProgress) return true;
     calculate();
     return enabled;
   }

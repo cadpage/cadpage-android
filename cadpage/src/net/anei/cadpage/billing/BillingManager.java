@@ -1,6 +1,8 @@
 package net.anei.cadpage.billing;
 
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,9 +18,10 @@ import net.anei.cadpage.donation.DonationManager;
 public class BillingManager {
   
   private BillingService mService = null;
-  private boolean reload = false;
   
   private boolean supported = false;
+  
+  private List<Runnable> eventQueue = null;
   
   /**
    * @return true if In-app billing is supported for this system
@@ -34,10 +37,10 @@ public class BillingManager {
   /**
    * Initialize billing manager and associate it with an activity
    * @param context current context
-   * @param reload true to force reload of all purchase information
+   * @return true if transaction request was queued.  False if billing
+   * is not currently active
    */
-  public void initialize(Context context, boolean reload) {
-    this.reload = reload || ! ManagePreferences.initBilling();
+  public void initialize(Context context) {
     mService = new BillingService();
     mService.setContext(context);
     mService.checkBillingSupported();
@@ -49,6 +52,30 @@ public class BillingManager {
   public void destroy() {
     if (mService != null) mService.unbind();
     mService = null;
+  }
+  
+  /**
+   * Queue runnable event to be run when billing is up and running
+   * @param event Runnable event to be run when billing is supported
+   */
+  public void runWhenSupported(Runnable event) {
+    if (isSupported()) event.run();
+    else {
+      if (eventQueue == null) eventQueue = new ArrayList<Runnable>();
+      eventQueue.add(event);
+      mService.checkBillingSupported();
+    }
+  }
+  
+  /**
+   * Request transaction history restore
+   * @return true if successful
+   */
+  public boolean restoreTransactions() {
+    if (!supported) return false;
+    Log.v("Restore Billing Transactions");
+    mService.restoreTransactions();
+    return true;
   }
 
   /**
@@ -111,10 +138,10 @@ public class BillingManager {
     @Override
     public void onBillingSupported(boolean supported) {
       BillingManager.this.supported = supported;
-      if (mService != null && reload && supported) {
-        Log.v("Request purchase history");
-        mService.restoreTransactions();
+      if (mService != null && supported && eventQueue != null) {
+        for (Runnable event : eventQueue) event.run();
       }
+      eventQueue = null;
     }
 
     @Override
@@ -133,19 +160,15 @@ public class BillingManager {
     }
 
     @Override
-    public void onRequestPurchaseResponse(RequestPurchase request,
-        ResponseCode responseCode) {
+    public void onRequestPurchaseResponse(RequestPurchase request, ResponseCode responseCode) {
+      Log.v("Request Purchase Complete: " + responseCode);
     }
 
     @Override
     public void onRestoreTransactionsResponse(RestoreTransactions request,
                                                ResponseCode responseCode) {
-      if (responseCode == ResponseCode.RESULT_OK) {
-        reload = false;
-        ManagePreferences.setInitBilling();
-      }
+      Log.v("Restore Transactions Complete: " + responseCode);
     }
-    
   }
   
   private static BillingManager instance = new BillingManager();

@@ -1,5 +1,6 @@
 package net.anei.cadpage;
 
+import net.anei.cadpage.billing.BillingManager;
 import net.anei.cadpage.donation.UserAcctManager;
 import net.anei.cadpage.vendors.VendorManager;
 import android.app.Application;
@@ -29,6 +30,10 @@ public class CadPageApplication extends Application {
     Log.v("Intialization startup");
     getVersionInfo(this);
     try {
+
+      // Initialize billing manager
+      BillingManager.instance().initialize(this);
+
       VendorManager.instance().setup(this);
 
       ManagePreferences.setupPreferences(this);
@@ -70,8 +75,7 @@ public class CadPageApplication extends Application {
     Log.v("Initialization complete");
     
   }
-  
-  
+
   private static String nameVersion = null;
   private static int versionCode = -1;
   

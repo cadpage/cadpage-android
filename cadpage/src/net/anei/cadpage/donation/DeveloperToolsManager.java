@@ -19,7 +19,6 @@ import net.anei.cadpage.R;
 import net.anei.cadpage.SmsMmsMessage;
 import net.anei.cadpage.SmsMsgLogBuffer;
 import net.anei.cadpage.SmsReceiver;
-import net.anei.cadpage.billing.BillingManager;
 import android.content.Context;
 import android.content.Intent;
 import android.preference.ListPreference;
@@ -111,15 +110,7 @@ public class DeveloperToolsManager {
       switch (val) {
       
       case 0:     // Stat: Reset
-        ManagePreferences.setAuthExemptDate(null);
-        ManagePreferences.setFreeRider(false);
-        ManagePreferences.setAuthLocation(null);
-        ManagePreferences.setPaidYear(-1);
-        ManagePreferences.setPurchaseDateString(null);
-        ManagePreferences.setAuthRunDays(0);
-        ManagePreferences.setInitBilling(false);
-        ManagePreferences.setFreeSub(false);
-        BillingManager.instance().initialize(context, false);
+        DonationManager.instance().reloadStatus();
         break;
       
       case 1:     // Stat: Donate free

@@ -54,9 +54,6 @@ public class CallHistoryActivity extends ListActivity {
     int height = displaymetrics.heightPixels;
     int width = displaymetrics.widthPixels;
     ManagePreferences.setScreenSize(""+width+"X"+height);
-
-    // Initialize billing manager
-    BillingManager.instance().initialize(this, false);
     
     // If preferences have never been initialized, bring up the preference
     // screen to initialize them now.  This is necessary because the new
@@ -79,13 +76,6 @@ public class CallHistoryActivity extends ListActivity {
     
     startup();
   }
-
-  @Override
-  protected void onDestroy() {
-    BillingManager.instance().destroy();
-    super.onDestroy();
-  }
-
 
   /* (non-Javadoc)
    * @see android.app.Activity#onNewIntent(android.content.Intent)

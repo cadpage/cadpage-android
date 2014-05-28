@@ -12,6 +12,8 @@ import net.anei.cadpage.donation.UserAcctManager;
 import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.telephony.TelephonyManager;
 
@@ -73,8 +75,15 @@ public class UserAcctManager {
       // latched checked time exceeds the 30 day intervals, perform an automatic reload
       if (curTime - lastTime > AUTH_CHECK_INTERVAL) {
         
-        // Request status reload from android market and authorization server
-        DonationManager.instance().reloadStatus(context);
+        // OK, don't try this if we have no network connectivity!!
+        ConnectivityManager mgr = ((ConnectivityManager) 
+            context.getSystemService(Context.CONNECTIVITY_SERVICE));
+        NetworkInfo info = mgr.getActiveNetworkInfo();
+        if (info != null  && info.isConnected()) {
+          
+          // Request status reload from android market and authorization server
+          DonationManager.instance().reloadStatus();
+        }
       }
     }
   }

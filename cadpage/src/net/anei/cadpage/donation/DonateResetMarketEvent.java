@@ -20,7 +20,7 @@ public class DonateResetMarketEvent extends DonateEvent {
     if (!SmsPopupUtils.haveNet(activity)) return;
     
     // Request complete status reload
-    DonationManager.instance().reloadStatus(activity);
+    DonationManager.instance().refreshStatus(activity);
     
     // Close donation screens
     closeEvents(activity);
