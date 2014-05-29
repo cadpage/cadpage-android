@@ -36,12 +36,23 @@ public class ZSESwedenParser extends FieldProgramParser {
     return true;
   };
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("\\d+");
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("INFO2")) return new ExtraInfoField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("SRC")) return new SourceField("|D\\d+");
+    if (name.equals("GPS")) return new MyGPSField();
+    return super.getField(name);
+  }
+  
   // Sometimes the info field is split by a newline leaving a fragment that we have to
   // identify and merge back into the original info field. Detecting this situation is
   // a bit tricky.  Best bet is to look ahead to see if the source field is what it should
   // be if this is an extra field
   private static final Pattern INFO_SRC_PTN = Pattern.compile("D\\d+");
-  private class ExtraInfoField extends InfoField {
+  private class ExtraInfoField extends MyInfoField {
     
     @Override
     public boolean canFail() {
@@ -55,6 +66,23 @@ public class ZSESwedenParser extends FieldProgramParser {
       if (!INFO_SRC_PTN.matcher(src).matches()) return false;
       parse(field, data);
       return true;
+    }
+  }
+  
+  private static final Pattern INFO_CHANNEL_PTN = Pattern.compile("\\bRAPS\\b", Pattern.CASE_INSENSITIVE);
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (INFO_CHANNEL_PTN.matcher(field).find()) {
+        data.strChannel = append(data.strChannel, " / ", field);
+      } else {
+        super.parse(field, data);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CH INFO";
     }
   }
   
@@ -110,15 +138,5 @@ public class ZSESwedenParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (!checkParse(field, data)) abort();
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d+");
-    if (name.equals("INFO2")) return new ExtraInfoField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("SRC")) return new SourceField("|D\\d+");
-    if (name.equals("GPS")) return new MyGPSField();
-    return super.getField(name);
   }
 }
