@@ -16,10 +16,9 @@ Handles parsing for a vendor identified as VisionCAD
 */
 public class DispatchA3Parser extends FieldProgramParser {
   
-  private static final Pattern DELIM = Pattern.compile("(?<!\\*)\\*[\n ]+");
-  
   private String prefix = null;
   private Pattern prefixPtn = null;
+  private Pattern delim;
   
   public DispatchA3Parser(int version, Pattern prefixPtn, String defCity, String defState) {
     this(version, defCity, defState);
@@ -32,14 +31,20 @@ public class DispatchA3Parser extends FieldProgramParser {
   }
   
   public DispatchA3Parser(int version, String defCity, String defState) {
-    super(defCity, defState,
-          version == 0 ?
-            "ID? ADDR/SXP APT CH CITY! X X MAP INFO1 CALL CALL ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
-          : version == 1 ?
-              "ID? ADDR/SXP APT CH CITY! EMPTY+? CALL CALL ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
-          : version == 2 ?
-              "ID? ADDR APT CH CITY X X MAP INFO1 SKIP CALL! PLACENAME PHONE UNIT INFO+"
-          : null);
+    super(defCity, defState, null);
+    if (version >= 0) {
+      delim = Pattern.compile("(?<!\\*)\\*[\n ]+");
+    } else {
+      version = -version;
+      delim = Pattern.compile("\\*");
+    }
+    setProgram(version == 0 ?
+                    "ID? ADDR/SXP APT CH CITY! X X MAP INFO1 CALL CALL ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
+                : version == 1 ?
+                    "ID? ADDR/SXP APT CH CITY! EMPTY+? CALL CALL ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
+                : version == 2 ?
+                    "ID? ADDR APT CH CITY X X MAP INFO1 SKIP CALL! PLACENAME PHONE UNIT INFO+"
+                : null, 0);
   }
   
   public DispatchA3Parser(Pattern prefixPtn, String defCity, String defState, String program) {
@@ -82,10 +87,24 @@ public class DispatchA3Parser extends FieldProgramParser {
     }
     if (splitField) {
       if (body.endsWith("*")) body = body + " ";
-      return parseFields(DELIM.split(body), data);
+      return parseFields(delim.split(body), data);
     } else {
       return super.parseMsg(body, data);
     }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("\\d{2,6}-\\d{4,}|", true);
+    if (name.equals("ADDR")) return new BaseAddressField();
+    if (name.equals("CH")) return new BaseChannelField();
+    if (name.equals("X")) return new BaseCrossField();
+    if (name.equals("CALL")) return new BaseCallField();
+    if (name.equals("INFO1")) return new BaseInfo1Field();
+    if (name.equals("INFO")) return new BaseInfoField();
+    if (name.equals("NAME")) return new BaseNameField();
+    if (name.equals("UNIT")) return new UnitField("(?:[A-Z0-9]{1,4}[0-9]|RRS|CSRS)(?:[,/](?:[A-Z]{0,3}[0-9]+[A-Z]{0,3}|[A-Z]{1,4}))*");
+    return super.getField(name);
   }
   
   private class BaseAddressField extends AddressField {
@@ -299,21 +318,6 @@ public class DispatchA3Parser extends FieldProgramParser {
       }
       super.parse(field, data);
     }
-  }
-  
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{2,6}-\\d{4,}|", true);
-    if (name.equals("ADDR")) return new BaseAddressField();
-    if (name.equals("CH")) return new BaseChannelField();
-    if (name.equals("X")) return new BaseCrossField();
-    if (name.equals("CALL")) return new BaseCallField();
-    if (name.equals("INFO1")) return new BaseInfo1Field();
-    if (name.equals("INFO")) return new BaseInfoField();
-    if (name.equals("NAME")) return new BaseNameField();
-    if (name.equals("UNIT")) return new UnitField("(?:[A-Z0-9]{1,4}[0-9]|RRS|CSRS)(?:[,/](?:[A-Z]{0,3}[0-9]+[A-Z]{0,3}|[A-Z]{1,4}))*");
-    return super.getField(name);
   }
   
   private static final Set<String> GENERIC_CALL_SET = new HashSet<String>(Arrays.asList(
