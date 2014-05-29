@@ -195,6 +195,7 @@ class Active911Vendor extends Vendor {
       "US/IL/AdamsCounty",                "ILAdamsCounty",
       "US/IL/DownersGrove",               "ILDuPageCountyB",
       "US/IL/GlenCarbon",                 "ILMadisonCounty",
+      "US/IL/KaneCounty",                 "ILKaneCounty",
       "US/IN/Bristol",                    "INElkhartCounty",
       "US/IN/HancockCounty",              "INHancockCounty",
       "US/IN/LakeCounty",                 "INLakeCounty",

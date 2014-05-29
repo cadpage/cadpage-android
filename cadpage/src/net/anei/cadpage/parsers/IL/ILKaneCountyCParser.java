@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class ILKaneCountyCParser extends SmartAddressParser {
   
-  private static final Pattern DIR_STREET_NO_PTN = Pattern.compile(" (\\d+[NSEW]\\d? \\d+) ");
+  private static final Pattern DIR_STREET_NO_PTN = Pattern.compile(" (\\d+[NSEW]\\d? ?\\d+) ");
   private static final Pattern DIR_STREET_NO_PTN2 = Pattern.compile("(\\d+[NSEW]\\d? \\d+) ");
   private static final Pattern X_ST_PTN1 = Pattern.compile("([ A-Z]+/[A-Z]+)  +");
   private static final Pattern X_ST_PTN2 = Pattern.compile("([ A-Z]+/[A-Z]+) ");
@@ -31,7 +31,8 @@ public class ILKaneCountyCParser extends SmartAddressParser {
         "FOX MILL",
         "HIDDEN OAKS",
         "NORTH JAMES",
-        "SILVER GLEN");
+        "SILVER GLEN",
+        "WILLIAM CULLEN BRYANT");
   }
   
   @Override
@@ -82,7 +83,7 @@ public class ILKaneCountyCParser extends SmartAddressParser {
     
     // Lets see what we can do...
     parseAddress(st, flags | FLAG_IMPLIED_INTERSECT | FLAG_IGNORE_AT| FLAG_CROSS_FOLLOWS | FLAG_PAD_FIELD_EXCL_CITY, body, data);
-    if (data.strCity.length() == 0) return false;
+    if (getStatus() == 0 && data.strCity.length() == 0) return false;
     data.strPlace = getPadField();
     body = getLeft();
     if (dirStreetNo != null && data.strAddress.startsWith("999999 ")) {
@@ -140,12 +141,14 @@ public class ILKaneCountyCParser extends SmartAddressParser {
     if (match.lookingAt()) {
       addr = match.group(1).replace(" ", "") + addr.substring(match.end(1));
     }
+    while (addr.startsWith("0")) addr = addr.substring(1).trim();
     return addr;
   }
  
   
   private static final CodeSet CALL_LIST = new CodeSet(
       "AMBULANCE CALL",
+      "FIELD FIRE",
       "FIRE ALARM",
       "FIRE CALL",
       "MUTUAL AID REQUEST",
