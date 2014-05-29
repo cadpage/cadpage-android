@@ -833,7 +833,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // We have a number of basic patters that we will recognize
     // Try each one until we find one that works
     result.status = STATUS_TRIVIAL;
-    if (parseTrivialAddress(result)) return result;
+    if (parseTrivialAddress(result, false)) return result;
     if (!isFlagSet(FLAG_ONLY_CROSS)) {
       if (parseGPSCoords(result, gpsCoords)) return result;
       result.status = STATUS_FULL_ADDRESS;
@@ -848,7 +848,10 @@ public abstract class SmartAddressParser extends MsgParser {
       if (result.insertAmp >= 0) result.status++; 
       return result;
     }
-    
+
+    result.status = STATUS_TRIVIAL;
+    if (parseTrivialAddress(result, true)) return result;
+
     // If all else fails, use the fallback parser
     parseFallback(sType, result);
     result.status = 0;
@@ -901,14 +904,21 @@ public abstract class SmartAddressParser extends MsgParser {
    * beginning of the text and we have found a city to mark the end
    * of the address (would that life were always this simple
    */
-  private boolean parseTrivialAddress(Result result) {
+  private boolean parseTrivialAddress(Result result, boolean skipPad) {
     
     // If caller has locked both ends of the address, and wants an address status
     // Or we are supposed to insert implied intersection symbols
-    // Or we should parse out a pad field
     // then return failure status so one of the other address parsers can make
     // some kind of reasonableness check on this
     if (isFlagSet(FLAG_CHECK_STATUS|FLAG_IMPLIED_INTERSECT|FLAG_ANY_PAD_FIELD)) return false;
+
+    // We end up getting called twice. The first time skipPad is true, and we are
+    // still hoping to find a pad field, which won't happen if we   find anything 
+    // here.
+    
+    // We are called a second time if nothing else has worked, in which case we
+    // will ahead and process this without a pad field
+    if (isFlagSet(FLAG_ANY_PAD_FIELD) != skipPad) return false;
     
     // OK, we have to have at least 1 items before the city
     // Unless we are parsing a cross street instead of a real address, in which
@@ -1469,16 +1479,18 @@ public abstract class SmartAddressParser extends MsgParser {
       // would not be set and we have to look through the token string to
       // see if we find a @ marker
       int stIndex = (isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0);
-      if (startAddress < 0 && isFlagSet(FLAG_AT_BOTH)) {
-        for (int ndx = stIndex; ndx < endAddr; ndx++) {
-          if (isAtSign(ndx)) {
-            result.addressField = new FieldSpec(ndx+1, endAddr);
-            endAddr = ndx;
-            break;
-          } else if (isType(ndx, ID_INCL_AT_MARKER)) {
-            result.addressField = new FieldSpec(ndx, endAddr);
-            endAddr = ndx;
-            break;
+      if (!isFlagSet(FLAG_IGNORE_AT)) {
+        if (startAddress < 0 && isFlagSet(FLAG_AT_BOTH)) {
+          for (int ndx = stIndex; ndx < endAddr; ndx++) {
+            if (isAtSign(ndx)) {
+              result.addressField = new FieldSpec(ndx+1, endAddr);
+              endAddr = ndx;
+              break;
+            } else if (isType(ndx, ID_INCL_AT_MARKER)) {
+              result.addressField = new FieldSpec(ndx, endAddr);
+              endAddr = ndx;
+              break;
+            }
           }
         }
       }
