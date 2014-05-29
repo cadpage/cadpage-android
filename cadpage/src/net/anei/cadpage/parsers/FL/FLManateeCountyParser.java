@@ -17,11 +17,18 @@ public class FLManateeCountyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "93001,777,888";
+    return "93001,777,888,@txt.voice.google.com";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
   }
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    int pt = body.indexOf("\n\n--\n");
+    if (pt >= 0) body = body.substring(0,pt).trim();
     body = body.replaceAll("\\s+", " ").replace("SUB TYPE:", " SUB TYPE:");
     body = body.replace("Estimated Address ", "Estimated Address:");
     if (!super.parseMsg(body, data)) return false;
@@ -55,6 +62,7 @@ public class FLManateeCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern PLACE_APT_PTN = Pattern.compile("UNIT *([^:]+): *(.*)");
   private class MyPlaceField extends PlaceField {
     @Override
     public void parse(String field, Data data) {
@@ -71,12 +79,17 @@ public class FLManateeCountyParser extends FieldProgramParser {
       
       // Otherwise this is a normal place field
       else {
+        Matcher match = PLACE_APT_PTN.matcher(field);
+        if (match.matches()) {
+          data.strApt = match.group(1).trim();
+          field = match.group(2).trim();
+        }
         super.parse(field, data);
       }
     }
   }
 
-  private static final Pattern LOC_APT_PTN = Pattern.compile("(?:APT|RM|SUITE|LOT|#) *([^ ]*)|UNIT.*", Pattern.CASE_INSENSITIVE);
+  private static final Pattern LOC_APT_PTN = Pattern.compile("(?:APT|RM|SUITE|LOT|#|UNIT) *(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern LOC_PLACE_PTN = Pattern.compile("\\*+ *(.*)");
   private class MyLocField extends Field {
     @Override
@@ -107,7 +120,7 @@ public class FLManateeCountyParser extends FieldProgramParser {
       } while (false);
       
       if (apt != null) {
-        data.strApt = apt;
+        if (!data.strApt.contains(apt)) data.strApt = append(data.strApt, "-", apt);
       } else {
         data.strPlace = append(data.strPlace, " - ", place);
       }
