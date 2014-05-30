@@ -12,6 +12,8 @@ Pbagnpg: Nqnz Fcnexf <nfcnexf453@tznvy.pbz>
 Pbagnpg:"Oevna N Qehz" <ONQEHZ@pngnjonpbhaglap.tbi>  (jbexf va 911 pragre)
 Fraqre: R-911@pngnjonpbhaglap.tbi
 
+2014-092994*100 FBHGUJRFG OYIQ*911*O*ARJGBA*ENQVB FGNGVBA EQ*J P FG*55*Trb Pbzzrag: GRFG VAFGEHPGVBAF*MPNQ GRFGVAT*PNQ GRFGVAT PBZCYNVAG GLCR*PNGNJON PBHAGL 911*828-464-3112*KKKKK*363*Zrqvpny: Lrf*Unmneqf: Lrf*05/29/2014 10:54:20 : cbf4 : ONQEHZ   Pebff fgerrgf: ENQVB FGNGVBA EQ//J P FG Ynaqznex: PNGNJON PBHAGL 911  Trb Pbzzrag: GRFG VAFGEHPGVBAF*
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pngnjon Pbhagl Rzretrapl Pbzzhavpngvbaf
 Ybpngvba: Arjgba, AP, Havgrq Fgngrf
@@ -86,6 +88,28 @@ choyvp pynff APPngnjonPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp APPngnjonPbhaglCnefreGrfg() {
     frgCnefre(arj APPngnjonPbhaglCnefre(), "PNGNJON PBHAGL", "AP");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCnefre() {
+
+    qbGrfg("G1",
+        "2014-092994*100 FBHGUJRFG OYIQ*911*O*ARJGBA*ENQVB FGNGVBA EQ*J P FG*55*Trb Pbzzrag: GRFG VAFGEHPGVBAF*MPNQ GRFGVAT*PNQ GRFGVAT PBZCYNVAG GLCR*PNGNJON PBHAGL 911*828-464-3112*KKKKK*363*Zrqvpny: Lrf*Unmneqf: Lrf*05/29/2014 10:54:20 : cbf4 : ONQEHZ   Pebff fgerrgf: ENQVB FGNGVBA EQ//J P FG Ynaqznex: PNGNJON PBHAGL 911  Trb Pbzzrag: GRFG VAFGEHPGVBAF*",
+        "VQ:2014-092994",
+        "NQQE:100 FBHGUJRFG OYIQ",
+        "NCG:911-O",
+        "PU:O",
+        "PVGL:ARJGBA",
+        "K:ENQVB FGNGVBA EQ & J P FG",
+        "ZNC:55",
+        "VASB:GRFG VAFGEHPGVBAF / 363 / Zrqvpny: Lrf / Unmneqf: Lrf",
+        "CYNPR:PNGNJON PBHAGL 911",
+        "PNYY:PNQ GRFGVAT PBZCYNVAG GLCR",
+        "CUBAR:828-464-3112",
+        "HAVG:KKKKK",
+        "QNGR:05/29/2014",
+        "GVZR:10:54:20");
+
   }
 
   @Grfg
