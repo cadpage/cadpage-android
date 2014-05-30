@@ -32,7 +32,7 @@ abstract class Vendor {
   private int logoId;
   private Uri baseURI;
   private String triggerCode;
-  private String emailAddress;
+  private String supportEmail;
   
   private String title = null;
   
@@ -53,6 +53,9 @@ abstract class Vendor {
   // True if we are in processing of registering with vendor server
   private boolean inProgress = false;
   
+  // dispatch email address
+  private String emailAddress = null;
+  
   // Account and security token used to identify user account to vendor
   private String account;
   private String token;
@@ -68,7 +71,7 @@ abstract class Vendor {
   
   
   Vendor(int titleId, int summaryId, int textId, int iconId, int logoId,
-         String urlString, String triggerCode, String emailAddress) {
+         String urlString, String triggerCode, String supportEmail) {
     
     // Calculate vendor code by stripping "Vendor" off the end of the class name
     String clsName = this.getClass().getName();
@@ -84,7 +87,7 @@ abstract class Vendor {
     this.logoId = logoId; 
     this.baseURI = Uri.parse(urlString);
     this.triggerCode = triggerCode;
-    this.emailAddress = emailAddress;
+    this.supportEmail = supportEmail;
   }
   
   /**
@@ -162,10 +165,17 @@ abstract class Vendor {
   }
   
   /**
-   * @return support email address
+   * @return dispatch email address
    */
   String getEmailAddress() {
     return emailAddress;
+  }
+  
+  /**
+   * @return email email address
+   */
+  String getSupportEmail() {
+    return supportEmail;
   }
 
   /**

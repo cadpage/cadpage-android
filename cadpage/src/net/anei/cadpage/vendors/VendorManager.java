@@ -129,7 +129,7 @@ public class VendorManager {
   }
   
   /**
-   * Get support email address associated with vendor code
+   * Get dispatch email address associated with vendor code
    * @param vendorCode vendor code
    * @return vendor support email address
    */
@@ -138,6 +138,18 @@ public class VendorManager {
     Vendor vendor = findVendor(vendorCode);
     if (vendor == null) return null;
     return vendor.getEmailAddress();
+  }
+  
+  /**
+   * Get support email address associated with vendor code
+   * @param vendorCode vendor code
+   * @return vendor support email address
+   */
+  public String getSupportEmail(String vendorCode) {
+    if (vendorCode == null) return null;
+    Vendor vendor = findVendor(vendorCode);
+    if (vendor == null) return null;
+    return vendor.getSupportEmail();
   }
 
   /**

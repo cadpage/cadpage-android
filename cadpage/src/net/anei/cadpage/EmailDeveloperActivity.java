@@ -192,7 +192,7 @@ public class EmailDeveloperActivity extends Safe40Activity {
         message = SmsMessageQueue.getInstance().getMessage(msgId);
         if (message != null) {
           message.addMessageInfo(context, body);
-          vendorEmail = VendorManager.instance().getEmailAddress(message.getVendorCode());
+          vendorEmail = VendorManager.instance().getSupportEmail(message.getVendorCode());
         }
       } else {
         SmsMsgLogBuffer lb = SmsMsgLogBuffer.getInstance();
