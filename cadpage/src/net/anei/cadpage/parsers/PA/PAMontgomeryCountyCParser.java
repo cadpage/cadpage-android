@@ -13,8 +13,11 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
   private static final Pattern MASTER1 = Pattern.compile("(\\d\\d:\\d\\d:\\d\\d) #(F\\d{7}) at (.*?), Note:(.*) -");
   private static final Pattern DATE_TIME_MARKER = Pattern.compile("^(\\d\\d:\\d\\d:\\d\\d) (?:(\\d\\d-\\d\\d-\\d\\d) )?+(?:EVENT: *([A-Z]\\d+) +)?");
   private static final Pattern SPECIAL_ALERT1_PTN = Pattern.compile("^#([A-Z]\\d+) at (.*?), Note: (.*)");
-  private static final Pattern APT_PTN = Pattern.compile(", *(?:APT *)?([A-Z0-9]+)$");
+  private static final Pattern SPECIAL_CITY_PTN = Pattern.compile("(.*?) +([A-Z]{4})");
+  private static final Pattern APT_PTN = Pattern.compile(", *(?:APT:? *)?([A-Z0-9]+)$");
   private static final Pattern COMMA_DELIM = Pattern.compile(",(?=BOX:|TIME:|NOTES:)");
+  private static final Pattern START_UNIT_MARK_PTN = Pattern.compile("(?:[A-Z0-9,]+,)?\\d+-\\d .*");
+  private static final Pattern CITY_COLON_PTN = Pattern.compile(" ([A-Z]{4}):");
   
   public PAMontgomeryCountyCParser() {
     super(PAMontgomeryCountyParser.CITY_CODES, "MONTGOMERY COUNTY", "PA",
@@ -27,7 +30,9 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
   }
 
   @Override 
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
+    
+    body = stripFieldStart(body, "MCDPS CAD MESSAGE ");
     
     // Check for an uncommon variant
     Matcher match = MASTER1.matcher(body);
@@ -62,19 +67,28 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
       parseAddress(match.group(2).trim(), data);
       data.strCall = match.group(3).trim();
       
+      checkDoubleCity(data);
+      
       return true;
     }
     
     // Process regular alerts
+    
+    // One agency seems to have dropped the TRUCKS: label, figuring out when it
+    // is needed is a hassle
+    if (subject.length() == 0 && !body.contains("TRUCKS:") &&
+        START_UNIT_MARK_PTN.matcher(body).matches()) {
+      body = "TRUCKS:" + body;
+    }
+
     body = body.replace(",MAP/BOX-PLAN:", " BOX:");
     body = COMMA_DELIM.matcher(body).replaceAll(" ");
     if (super.parseMsg(body, data)) {
-      if (data.strAddress.length() == 0) {
-        if (data.strCross.length() == 0) return false;
+      if (data.strAddress.length() == 0 || data.strAddress.equals("&")) {
+        data.strAddress = "";
         parseAddress(data.strCross, data);
         data.strCross = "";
       }
-      if (data.strBox.equals("- /")) data.strBox = "";
       return true;
     }
     
@@ -90,22 +104,27 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
   }
 
   protected void parseAddress(String addr, Data data) {
+    
     String apt = "";
-    int pt = addr.indexOf(": @");
-    if (pt >= 0) {
-      data.strPlace = addr.substring(pt+3).trim();
-      addr = addr.substring(0,pt).trim();
-    }
     Matcher match = APT_PTN.matcher(addr);
     if (match.find()) {
       apt = match.group(1);
       addr = addr.substring(0,match.start()).trim();
     }
+
+    int pt = addr.indexOf(": @");
+    if (pt >= 0) {
+      data.strPlace = addr.substring(pt+3).trim();
+      addr = addr.substring(0,pt).trim();
+    }
     
-    boolean endChel = addr.endsWith(" CHEL");
-    if (endChel) addr = addr.substring(0,addr.length()-5).trim();
-    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, addr, data);
-    if (endChel && data.strCity.length() == 0) data.strCity = "CHELTENHAM TWP";
+    match = APT_PTN.matcher(addr);
+    if (match.find()) {
+      apt = append(match.group(1), "-", apt);
+      addr = addr.substring(0,match.start()).trim();
+    }
+
+    parseAddress(StartType.START_ADDR, FLAG_EMPTY_ADDR_OK | FLAG_ANCHOR_END, addr, data);
     
     data.strApt = append(data.strApt, "-", apt);
     match = APT_PTN.matcher(data.strPlace);
@@ -113,11 +132,55 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
       data.strApt = append(data.strApt, "-", apt);
       data.strPlace = data.strPlace.substring(0,match.start()).trim();
     }
+    match = CITY_COLON_PTN.matcher(data.strAddress);
+    if (match.find()) {
+      String city = PAMontgomeryCountyParser.CITY_CODES.getProperty(match.group(1));
+      if (city != null) {
+        data.strCity = city;
+        data.strAddress = data.strAddress.substring(0,match.start()).trim() + data.strAddress.substring(match.end(1)); 
+      }
+    }
+    if (data.strAddress.equals("&")) data.strAddress = "";
+    else if (data.strAddress.startsWith("&")) {
+      String city = PAMontgomeryCountyParser.CITY_CODES.getProperty(data.strAddress.substring(1).trim());
+      if (city != null) {
+        data.strCity = city;
+        data.strAddress = "";
+      }
+    }
+    
+    checkDoubleCity(data);
+  }
+
+  private void checkDoubleCity(Data data) {
+    
+    if (data.strCity.length() == 0) return;
+    Matcher match;
+    // Check for a double city code :(
+    match = SPECIAL_CITY_PTN.matcher(data.strAddress);
+    if (match.matches()) {
+      String city = PAMontgomeryCountyParser.CITY_CODES.getProperty(match.group(2));
+      if (city != null) {
+        data.strCity = city;
+        data.strAddress = match.group(1);
+      }
+    }
   }
   
   @Override
   public String getProgram() {
     return "TIME DATE ADDR " + super.getProgram();
+  }
+  
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("UNITADDR")) return new MyUnitAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("BOX")) return new MyBoxField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   private class MyAddressField extends AddressField {
@@ -149,24 +212,53 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith("/")) field = field.substring(1).trim();
-      if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
+      field = stripFieldStart(field, "/");
+      field = stripFieldEnd(field, "/");
       super.parse(field, data);
     }
   }
   
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("UNITADDR")) return new MyUnitAddressField();
-    if (name.equals("X")) return new MyCrossField();
-    return super.getField(name);
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strCity.length() > 0) return;
+      super.parse(field, data);
+    }
+  }
+  
+  private class MyBoxField extends BoxField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldEnd(field, "/");
+      if (field.equals("-")) return;
+      super.parse(field, data);
+    }
+  }
+  
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      field = setGPSLoc(field, data);
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "GPS INFO";
+    }
   }
   
   @Override
   public String adjustMapAddress(String addr) {
     int pt = addr.indexOf(':');
     if (pt >= 0) addr = addr.substring(0,pt).trim();
+    addr = RT309_EXPY_PTN.matcher(addr).replaceAll("RT 309");
     return addr;
+  }
+  private static final Pattern RT309_EXPY_PTN = Pattern.compile("\\bRT ?309 EXPY\\b", Pattern.CASE_INSENSITIVE);
+
+  @Override
+  public String adjustMapCity(String city) {
+    return convertCodes(city, PAMontgomeryCountyParser.MAP_CITIES);
   }
 }

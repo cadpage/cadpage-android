@@ -24,25 +24,30 @@ public class PAMontgomeryCountyParser extends GroupBestParser {
   public static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ABGN", "ABINGTON TWP",
       "AMBL", "AMBLER",
-      "BECO", "BERKS COUNTY",
+      "ARDM", "ARDMORE",
+      "BCYN", "BALA CYNWYD",
+      "BEWD", "DELAWARE COUNTY",   // ????
       "BGPT", "BRIDGEPORT",
+      "BMWR", "BRYN MAWR",
       "BRYA", "BRYN ATHYN",
-      "BUCO", "BUCKS COUNTY",
-      "CHCO", "CHESTER COUNTY",
       "CHEL", "CHELTENHAM TWP",
       "CLGV", "COLLEGEVILLE",
       "CONS", "CONSHOHOCKEN",
-      "DECO", "DELAWARE COUNTY",
       "DGLS", "DOUGLASS TWP",
       "EGRN", "EAST GREENVILLE",
       "ELPK", "ELKINS PARK",
       "ENOR", "EAST NORRITON TWP",
       "FRCN", "FRANCONIA TWP",
+      "GHFM", "LOWER MERION TWP",  // until we learn better...
+      "GLAD", "GLADWYNE",
+      "GLSD", "GLENSIDE",
       "GRLN", "GREEN LANE",
       "HATB", "HATBORO",
+      "HAVT", "HAVERFORD TWP",   // in delaware county
       "HORS", "HORSHAM TWP",
       "HTFB", "HATFIELD",
       "HTFT", "HATFIELD TWP",
+      "HVRD", "HAVERFORD",
       "JENK", "JENKINTOWN",
       "LAMT", "LA MOTT",
       "LANS", "LANSDALE",
@@ -55,18 +60,25 @@ public class PAMontgomeryCountyParser extends GroupBestParser {
       "LPRO", "LOWER PROVIDENCE TWP",
       "LSAL", "LOWER SALFORD TWP",
       "MARL", "MARLBOROUGH TWP",
+      "MERN", "MERION",
       "MONT", "MONTGOMERY TWP",
-      "MYTWN", "MY DEMO TOWN",
+      "MRPK", "MELROSE PARK",
+      "MYTWN","MY DEMO TOWN",
       "NARB", "NARBETH",
+      "NCOV", "NORTH COVENTRY TWP",  // In Chester County
       "NHAN", "NEW HANOVER TWP",
       "NRSN", "NORRISTOWN",
       "NWAL", "NORTH WALES",
+      "OVBK", "OVERBROOK",
+      "OVHL", "OVERBROOK HILLS",
       "PNBG", "PENNSBURG",
       "PERK", "PERKIOMEN TWP",
       "PLYM", "PLYMOUTH TWP",
+      "PNVY", "PENN VALLEY",
       "POTT", "POTTSTOWN",
       "RDHL", "RED HILL",
       "RKLG", "ROCKLEDGE",
+      "ROMT", "ROSEMONT",
       "RYFD", "ROYERSFORD",
       "SALF", "SALFORD TWP",
       "SCHW", "SCHWENKSVILLE",
@@ -74,8 +86,8 @@ public class PAMontgomeryCountyParser extends GroupBestParser {
       "SOUD", "SOUDERTON",
       "SPRG", "SPRINGFIELD TWP",
       "TLFD", "TELFORD",
+      "TRPP", "TRAPPE", 
       "TWMC", "TOWAMENCIN TWP",
-      "TRPP", "TRAPP",
       "UDUB", "UPPER DUBLIN TWP",
       "UFRE", "UPPER FREDERICK TWP",
       "UGWY", "UPPER GWYNEDD TWP",
@@ -86,12 +98,25 @@ public class PAMontgomeryCountyParser extends GroupBestParser {
       "UPRO", "UPPER PROVIDENCE TWP",
       "USAL", "UPPER SALFORD",
       "WCON", "WEST CONSHOHOCKEN",
-      "WNOR", "WEST NORRITON",
-      "WPOT", "WEST POTTSGROVE",
-      "WMSH", "WHITEMARSH TWP",
       "WHPN", "WHITPAIN TWP",
-      "WORC", "WORCESTER TWP"
+      "WMSH", "WHITEMARSH TWP",
+      "WNOR", "WEST NORRITON",
+      "WORC", "WORCESTER TWP",
+      "WPOT", "WEST POTTSGROVE",
+      "WYCT", "WYNCOTE",
+      "WYNN", "WYNNEWOOD",
+      "VILL", "VILLANOVA",
+      
+      "BECO", "BERKS COUNTY",
+      "BUCO", "BUCKS COUNTY",
+      "CHCO", "CHESTER COUNTY",
+      "DECO", "DELAWARE COUNTY",
+      "LECO", "LEHIGH COUNTY"
 
+  });
+  
+  public static final Properties MAP_CITIES = buildCodeTable(new String[]{
+      "OVERBROOK HILLS",      "LOWER MERION TWP"
   });
 
 }
