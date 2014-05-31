@@ -345,6 +345,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "EST",
         "RUN",
         "GRN",
+        "GRV",
         "LOOP",
         "TERRACE", "TRC", "TRCE",
         "ESTATES", "ESTS",
@@ -815,7 +816,7 @@ public abstract class SmartAddressParser extends MsgParser {
     if (onlyCity && ! isFlagSet(FLAG_ONLY_CROSS)) {
       if (parseStartToCity(0, result)) {
         if (sType != StartType.START_ADDR || result.cityField.fldStart == 0) {
-          result.status = 4;
+          result.status = STATUS_TRIVIAL;
           return result;
         }
         result.cityField = null;
@@ -855,6 +856,8 @@ public abstract class SmartAddressParser extends MsgParser {
     // If all else fails, use the fallback parser
     parseFallback(sType, result);
     result.status = 0;
+    if (result.addressField != null && 
+        isHouseNumber(result.addressField.fldStart)) result.fallback = true;
     return result;
   }
 
@@ -2628,6 +2631,7 @@ public abstract class SmartAddressParser extends MsgParser {
     private String[] tokens;
     private StartType startType;
     private int status = -1;
+    private boolean fallback = false;
     private String callPrefix = null;
     private String stdPrefix = null;
     private FieldSpec startField = null;
@@ -2671,6 +2675,14 @@ public abstract class SmartAddressParser extends MsgParser {
      */
     public int getStatus() {
       return status;
+    }
+    
+    public int getExtStatus() {
+      if (status == 0) {
+        return fallback ? 1 : 0;
+      } else {
+        return status+1;
+      }
     }
     
     /**
@@ -2718,7 +2730,7 @@ public abstract class SmartAddressParser extends MsgParser {
         Pattern searchPtn = null;
         if (data.strAddress.length() == 0) {
           searchPtn = NO_DELIM_ADDR_PTN1;
-        } else if (status < 3) {
+        } else if (status < STATUS_FULL_ADDRESS) {
           searchPtn = NO_DELIM_ADDR_PTN2;
         }
         if (searchPtn != null) {

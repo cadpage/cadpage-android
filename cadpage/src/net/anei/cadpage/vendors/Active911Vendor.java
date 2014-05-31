@@ -223,6 +223,7 @@ class Active911Vendor extends Vendor {
       "US/MD/HarfordCounty",              "Cadpage",
       "US/MD/PrinceGeorgesCounty",        "MDPrinceGeorgesCounty",
       "US/MD/PrintManager",               "MDAnneArundelCountyAnnapolis",
+      "US/MD/QueenAnnesCounty",           "MDQueenAnnesCounty",
       "US/MD/WashingtonCounty",           "MDWashingtonCounty",
       "US/MI/AlleganCounty",              "MIAlleganCounty",
       "US/MI/BayCounty",                  "MIBayCountyB",

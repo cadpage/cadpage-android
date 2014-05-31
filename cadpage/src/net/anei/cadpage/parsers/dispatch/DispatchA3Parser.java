@@ -18,7 +18,7 @@ public class DispatchA3Parser extends FieldProgramParser {
   
   private String prefix = null;
   private Pattern prefixPtn = null;
-  private Pattern delim;
+  private Pattern delim = Pattern.compile("(?<!\\*)\\*[\n ]+");
   
   public DispatchA3Parser(int version, Pattern prefixPtn, String defCity, String defState) {
     this(version, defCity, defState);
@@ -32,9 +32,7 @@ public class DispatchA3Parser extends FieldProgramParser {
   
   public DispatchA3Parser(int version, String defCity, String defState) {
     super(defCity, defState, null);
-    if (version >= 0) {
-      delim = Pattern.compile("(?<!\\*)\\*[\n ]+");
-    } else {
+    if (version < 0) {
       version = -version;
       delim = Pattern.compile("\\*");
     }
