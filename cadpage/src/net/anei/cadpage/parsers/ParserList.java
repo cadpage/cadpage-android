@@ -770,6 +770,7 @@ public class ParserList {
               ,"ORColumbiaCounty"               ,"Columbia County, OR"
               ,"ORCrookCounty"                  ,"Crook County, OR"
               ,"ORDeschutesCounty"              ,"Deschutes County, OR"
+              ,"ORDouglasCounty"                ,"Douglas County, OR"
               ,"ORGilliamCounty"                ,"Gilliam County, OR"
               ,"ORHoodRiverCounty"              ,"Hood River County, OR"
               ,"ORJacksonCounty"                ,"Jackson County, OR"
