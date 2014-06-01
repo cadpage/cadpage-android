@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class GAWalkerCountyParser extends SmartAddressParser {
   
-  private static final Pattern UNIT_SRC_PTN = Pattern.compile("^((?:(?:[A-Z]+\\d+|[A-Z]{1,2}FD) +)*)([A-Z]{1,2}FD) +");
+  private static final Pattern UNIT_SRC_PTN = Pattern.compile("^((?:(?:[A-Z]+\\d+|[A-Z]{1,2}FD) +)*)([A-Z]{1,2}FD|\\d-[A-Z]) +");
   private static final Pattern TRAIL_ID_PTN = Pattern.compile(" +(\\d{4}-\\d{8})");
   
   private static final Pattern DATE_TIME_PTN = Pattern.compile(" +(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)$");
@@ -95,7 +95,7 @@ public class GAWalkerCountyParser extends SmartAddressParser {
     body = MISSED_BLANK_PTN.matcher(body).replaceFirst(" ");
 
     // Parser address and other info
-    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD, body, data);
+    parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_PAD_FIELD, body, data);
     data.strPlace = getPadField();
     data.strCall = getLeft();
 
