@@ -97,7 +97,7 @@ choyvp pynff APPngnjonPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "2014-092994*100 FBHGUJRFG OYIQ*911*O*ARJGBA*ENQVB FGNGVBA EQ*J P FG*55*Trb Pbzzrag: GRFG VAFGEHPGVBAF*MPNQ GRFGVAT*PNQ GRFGVAT PBZCYNVAG GLCR*PNGNJON PBHAGL 911*828-464-3112*KKKKK*363*Zrqvpny: Lrf*Unmneqf: Lrf*05/29/2014 10:54:20 : cbf4 : ONQEHZ   Pebff fgerrgf: ENQVB FGNGVBA EQ//J P FG Ynaqznex: PNGNJON PBHAGL 911  Trb Pbzzrag: GRFG VAFGEHPGVBAF*",
         "VQ:2014-092994",
         "NQQE:100 FBHGUJRFG OYIQ",
-        "NCG:911-O",
+        "NCG:911",
         "PU:O",
         "PVGL:ARJGBA",
         "K:ENQVB FGNGVBA EQ & J P FG",

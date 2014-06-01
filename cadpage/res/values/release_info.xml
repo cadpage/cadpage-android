@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">05172014</string>
-  <string name="release_version">v1.7.23</string>
+  <string name="release_date">06012014</string>
+  <string name="release_version">v1.7.24</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-The new Cadpage direct paging has been added to the beta release version of Cadpage.  
-Support is not incuded in this release but should be added next week.  For
-more details on installing the beta version, see our facebook page at 
-http://facebook.com/CADPage\n
+New Cadpage Paging Service is now supported!!!\n
+See http://www.cadpage.org/paging-service\n
 \n
 New Locations:\n
-Lake County, IN\n
-Salem County, NJ (alt)\n
+Kane County, IL (alt)\n
+Madison County, KY\n
+Iron County, MI\n
+Winona County, MN\n
+Catawba County, NC\n
+Oklahoma County, OK\n
+Douglas County, OR\n
+Chester County, PA (alt)\n
+Sevier County, TN\n
+Clearwater County, AB\n
 \n
 Location Parsing Fixes:\n
-Talladega County, AL\n
-Ascension Parish, LA\n
-Deschutes County, OR\n
-Lincoln County, SD\n
+Fresno County, CA\n
+San Diego County, CA\n
+Fairfield County, CT\n
+Manatee County, FL\n
+Walker County, GA\n
+Marion County, IN\n
+Queen Anne County, MD\n
+Montgomery County, PA\n
+Ocean County, NJ\n
+Sussex County, NJ\n
+Josephine County, OR\n
+Adams County, PA\n
+Erie County, PA\n
+Cy Creek Comm Center, TX\n
+Nacogdoches County, TX\n
+Rosenberg, TX\n
+Chelan County, WA\n
+Sweden\n
   </string>
 </resources>
   
