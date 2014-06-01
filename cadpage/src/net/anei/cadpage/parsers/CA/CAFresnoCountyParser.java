@@ -11,10 +11,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class CAFresnoCountyParser extends FieldProgramParser {
   
+  private static final Pattern GENERAL_ALERT_PTN = Pattern.compile("Unit:([^ ]+) ,EMS#:(\\d+) ,.*,CN:\\d\\d:\\d\\d:\\d\\d");
+  
   public CAFresnoCountyParser() {
     super("FRESNO COUNTY", "CA",
-          "( Unit:UNIT! Pri:PRI! Loc:ADDR! MapPage:MAP! Apt:APT! City:CITY! Zone:MAP! EMS#:ID! XStreet:X! " +
-           "| CALL! For:UNIT! Zone:MAP_ADDR! Apt:APT! City:CITY? Between:X! Location_Name:PLACE! )");
+          "( Unit:UNIT! Pri:PRI! Loc:ADDR! MapPage:MAP Apt:APT! City:CITY? Nature:CALL% Zone:MAP% EMS#:ID% XStreet:X% " +
+           "| CALL! For:UNIT! Zone:MAP_ADDR! Apt:APT! Between:X! Location_Name:PLACE! )");
   }
   
   @Override
@@ -32,7 +34,16 @@ public class CAFresnoCountyParser extends FieldProgramParser {
     
     if (!subject.equals("VisiCad Email")) return false;
     if (body.startsWith("Unit:")) {
-      if (parseFields(body.split(","), 9, data)) return true;
+      Matcher match = GENERAL_ALERT_PTN.matcher(body);
+      if (match.matches()) {
+        data.strCall = "GENERAL ALERT";
+        data.strPlace = body;
+        data.strUnit = match.group(1);
+        data.strCallId = match.group(2);
+        return true;
+      }
+      
+      if (parseFields(body.split(","), 6, data)) return true;
     }
     
     else {
@@ -50,6 +61,7 @@ public class CAFresnoCountyParser extends FieldProgramParser {
     if (name.equals("MAP_ADDR")) return new MyMapAddressField();
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("MAP")) return new MyMapField();
     return super.getField(name);
   }
   
@@ -94,6 +106,13 @@ public class CAFresnoCountyParser extends FieldProgramParser {
       int pt = field.indexOf('(');
       if (pt >= 0) field = field.substring(0,pt).trim();
       super.parse(field, data);
+    }
+  }
+  
+  private class MyMapField extends MapField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strMap = append(data.strMap, "-", field);
     }
   }
 }
