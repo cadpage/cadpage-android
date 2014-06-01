@@ -113,9 +113,12 @@ public abstract class DonateScreenBaseEvent extends DonateEvent {
     
     // Very rarely, we will called before the registration map has been initialized
     // How this can happen is not entirely clear, but by coding a reference to the
-    // main donation event, we can pretty much assure that everything has been
-    // instantiated which will set up the class map.
+    // main donation event, and the two paging events that are not part of the
+    // main donation event menu, we can pretty much assure that everything has
+    // been instantiated which will set up the class map.
     MainDonateEvent.instance();
+    PagingProfileEvent.instance();
+    PagingSubRequiredEvent.instance();
     
     // Except for Vendor1Event which isn't in the main menu.   So we will invoke it
     // as well

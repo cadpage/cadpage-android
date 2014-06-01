@@ -12,7 +12,7 @@ public class ORDouglasCountyParser extends FieldProgramParser {
   
   public ORDouglasCountyParser() {
     super(CITY_CODES,"DOUGLAS COUNTY", "OR",
-          "DATETIME CALL ADDR CITY_APT/Y PLACE INFO!");
+          "DATETIME CALL ADDR CITY_APT PLACE INFO!");
   }
   
   @Override
