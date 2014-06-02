@@ -87,7 +87,11 @@ choyvp pynff TraSerrEvqref {
         
         // Vs gurer jnf ab cerivbhf chepunfr, be jr ner vtabevat vg, nqq arj fgnghf naq chepunfr
         // qngr gb gur chepunfr qngr gnoyr.
-        vs (byqFgnghfQngr == ahyy && gzcChepunfr.yratgu() > 0) chepunfrQngrZnc.chg(hcfuvsgHfre, fgnghf + '|' + gzcChepunfr);
+        // Jr nyfb qb abg hcqngr gur cerivbhf chepunfr vasbezngvba sbe serr fhofpevcgvba
+        // orpnhfr jr qb abg jnag hfre hctenqvat sebz serr gb cnvq fgnghf gb 
+        vs (byqFgnghfQngr == ahyy && gzcChepunfr.yratgu() > 0 && !fcbafbe.rdhnyf("SERR")) {
+          chepunfrQngrZnc.chg(hcfuvsgHfre, fgnghf + '|' + gzcChepunfr);
+        }
         yvar = trarengrPfiYvar(vasb, fgnghf, gzcChepunfr, fcbafbe);
         cf2.cevagya(yvar);
       }
