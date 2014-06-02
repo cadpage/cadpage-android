@@ -1112,6 +1112,20 @@ PNYY: Zrqvpny;NQQE: 26819 JNONFUN EQ;PVGL: FG PUNEYRF;VQ: PRA201420318;CEV: Irel
 PNYY: Zrqvpny;NQQE: 1260 BNXIVRJ QE NCG 3;PVGL: FG PUNEYRF;VQ: PRA201420266;CEV: Irel Uvtu
 *******************************************************************************
 *******************************************************************************
+* QvfcngpuN44Cnefre fhopynffrf
+*******************************************************************************
+***************************************************************************
+Oenafba, ZB (ZBOenafbaCnefre)
+(Qvfcngpu Nyreg: PQ-14-11455) PQ-14-11455\aSE02 SVER NYNEZ ERFCBAFR\a3701 J FGNGR UJL 76\a\aNtrapvrf nffvtarq:
+(Qvfcngpu Nyreg: PQ-14-11434) PQ-14-11434\aSE01 ZRQVPNY RZRETRAPL ERFCBAFR(ERFPHR)\a241  CYNMN QE\a\aNtrapvrf nffvtarq:
+(Qvfcngpu Nyreg: PQ-14-11405) PQ-14-11405\aSE02 SVER NYNEZ ERFCBAFR\a110  BNX EVQTR EQ\a\aNtrapvrf nffvtarq:
+***************************************************************************
+Phlnubtn Pbhagl, BU (O) (BUPhlnubtnPbhaglOCnefre)
+(Qvfcngpu Nyreg: PQ-14-000861) PQ-14-000861\aS32 ZRQVPNY RZRETRAPL\a7214  EVQTR EQ\a\aCNEZN BU \aNtrapvrf nffvtarq:
+(Qvfcngpu Nyreg: PQ-14-000817) PQ-14-000817\aS11 SVER VA OHVYQVAT\a4521  SEHVGYNAQ QE\a\aCNEZN BU \aNtrapvrf nffvtarq:
+(Qvfcngpu Nyreg: PQ-14-000815) PQ-14-000815\aS32 ZRQVPNY RZRETRAPL\a7231  YNAPRYBG QE\a\aCNEZN BU \aNtrapvrf nffvtarq:
+*******************************************************************************
+*******************************************************************************
 * QvfcngpuOCnefre fhopynffrf
 *******************************************************************************
 *******************************************************************************
@@ -4479,11 +4493,6 @@ Pbyhzovnan Pbhagl, BU (BUPbyhzovnanPbhaglCnefre)
 (TYRAZBBE ISQ NFFBP.) Guvf rznvy jnf frag ol: Fnvag Pynve Sver\a\aCbffvoyr Fgehpgher Sver jvgu yvirecbby GJC\aQerfqba Nir arkg gb ZBgbe ybqtr
 (TYRAZBBE ISQ NFFBP.) Guvf rznvy jnf frag ol: Fnvag Pynve Sver\a\aPneoba Zbabkvqr Qrgrpgbe Tbvat Bss\a16150 Znegun Fg
 (TYRAZBBE ISQ NFFBP.) Guvf rznvy jnf frag ol: Fnvag Pynve Sver\a\aYvsg Nffvfg\a15578 Rnfg Yvirecbby Ebnq 
-***************************************************************************
-Phlnubtn Pbhagl, BU (O) (BUPhlnubtnPbhaglOCnefre)
-(Qvfcngpu Nyreg: PQ-14-000861) PQ-14-000861\aS32 ZRQVPNY RZRETRAPL\a7214  EVQTR EQ\a\aCNEZN BU \aNtrapvrf nffvtarq:
-(Qvfcngpu Nyreg: PQ-14-000817) PQ-14-000817\aS11 SVER VA OHVYQVAT\a4521  SEHVGYNAQ QE\a\aCNEZN BU \aNtrapvrf nffvtarq:
-(Qvfcngpu Nyreg: PQ-14-000815) PQ-14-000815\aS32 ZRQVPNY RZRETRAPL\a7231  YNAPRYBG QE\a\aCNEZN BU \aNtrapvrf nffvtarq:
 ***************************************************************************
 Phlnubtn Pbhagl, BU (P) (BUPhlnubtnPbhaglPCnefre) 
 (Sebz: VaqrcraqraprQZF) 700-SVER NYNEZ QEBC,7100 R CYRNFNAG INYYRL EQ 0,VAQ PBECBENGR PRAGRE,VAQRCRAQRAPR,FHVGR YY4,
