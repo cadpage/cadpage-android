@@ -1114,16 +1114,30 @@ PNYY: Zrqvpny;NQQE: 1260 BNXIVRJ QE NCG 3;PVGL: FG PUNEYRF;VQ: PRA201420266;CEV:
 *******************************************************************************
 * QvfcngpuN44Cnefre fhopynffrf
 *******************************************************************************
-***************************************************************************
+*******************************************************************************
 Oenafba, ZB (ZBOenafbaCnefre)
 (Qvfcngpu Nyreg: PQ-14-11455) PQ-14-11455\aSE02 SVER NYNEZ ERFCBAFR\a3701 J FGNGR UJL 76\a\aNtrapvrf nffvtarq:
 (Qvfcngpu Nyreg: PQ-14-11434) PQ-14-11434\aSE01 ZRQVPNY RZRETRAPL ERFCBAFR(ERFPHR)\a241  CYNMN QE\a\aNtrapvrf nffvtarq:
 (Qvfcngpu Nyreg: PQ-14-11405) PQ-14-11405\aSE02 SVER NYNEZ ERFCBAFR\a110  BNX EVQTR EQ\a\aNtrapvrf nffvtarq:
-***************************************************************************
+*******************************************************************************
 Phlnubtn Pbhagl, BU (O) (BUPhlnubtnPbhaglOCnefre)
 (Qvfcngpu Nyreg: PQ-14-000861) PQ-14-000861\aS32 ZRQVPNY RZRETRAPL\a7214  EVQTR EQ\a\aCNEZN BU \aNtrapvrf nffvtarq:
 (Qvfcngpu Nyreg: PQ-14-000817) PQ-14-000817\aS11 SVER VA OHVYQVAT\a4521  SEHVGYNAQ QE\a\aCNEZN BU \aNtrapvrf nffvtarq:
 (Qvfcngpu Nyreg: PQ-14-000815) PQ-14-000815\aS32 ZRQVPNY RZRETRAPL\a7231  YNAPRYBG QE\a\aCNEZN BU \aNtrapvrf nffvtarq:
+*******************************************************************************
+*******************************************************************************
+* QvfcngpuN45Cnefre fhopynffrf
+*******************************************************************************
+***************************************************************************
+Abeguhzoreynaq Pbhagl, CN (CNAbeguhzoreynaqPbhaglCnefre)
+YVAPBYA FG & ZRZBEVNY QE * FHA * PNEOBA ZBABKVQR VAPVQRAG * Qvfcngpu: PU 503,PU 504,GX 542,RAT 531,FD 581,ZVPH 91,RAT 572,PU 501,PU 502
+330 F FUNZBXVA FG * FUN * SVER - IRUVPYR (PNE/FHI/INA/RGP...) * Qvfcngpu: SC 80,RAT 41,F/PU 4,RAT 11,F/PU 1 ,FU 21,F/PU 3,ERF 62 RAT 11,FU 21,F/PU 3,ERF 62,SC 80
+F NAGUENPVGR FG & J UVTU FG * FUN * SVER - OEHFU * Qvfcngpu: SC 80,RAT 41,OE 153,F/PU 4,FD 21,RAT 11,F/PU 1 ,FU 21,F/PU 3,F/PU 2,ERF 62 FU 21
+*******************************************************************************
+Cvxr Pbhagl, CN (CNCvxrPbhaglOCnenfre)
+(Cvxr PNQ) 122 JRFGSNYY GBJA QE * JRF * HAXABJA RZF/CREFBA QBJA- OYF  * Qvfcngpu: 19 NZO 1,39 NZO 1\e\aFDHNQ 19\a\aFrag ol vasb rkpunatr gb FDHNQ 19 (r-znvy nppbhagf, cntref, Pryy cubarf) guebhtu Cvxr Pbhagl EFNA\e\a... cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Cvxr Pbhagl EFNA.  Gb punatr lbhe nyregvat cersreraprf tb gb JROCNTR/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Cvxr Pbhagl EFNA! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng JROCNTR
+(Cvxr PNQ) 210 NIR U * ZNO * URNEG CEBOYRZ- NYF * Qvfcngpu: 32 DEF,19 NZO 1,404-1-Z\e\aZRQVP 404,FDHNQ 19,FDHNQ 32\a\aFrag ol vasb rkpunatr gb FDHNQ 19 (r-znvy nppbhagf, cntref, Pryy cubarf) guebhtu Cvxr Pbhagl EFNA\e\a... cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Cvxr Pbhagl EFNA.  Gb punatr lbhe nyregvat cersreraprf tb gb JROCNTR/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Cvxr Pbhagl EFNA! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng JROCNTR
+(Cvxr PNQ) 107 CRNE PG * JRF * CFLPUVNGEVP/RZBGVBANY- OYF  * Qvfcngpu: 19 NZO 1,39 NZO 2\e\aFDHNQ 19\a\aFrag ol vasb rkpunatr gb FDHNQ 19 (r-znvy nppbhagf, cntref, Pryy cubarf) guebhtu Cvxr Pbhagl EFNA\e\a... cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Cvxr Pbhagl EFNA.  Gb punatr lbhe nyregvat cersreraprf tb gb JROCNTR/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Cvxr Pbhagl EFNA! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng JROCNTR
 *******************************************************************************
 *******************************************************************************
 * QvfcngpuOCnefre fhopynffrf
@@ -4978,11 +4992,6 @@ Zbagtbzrel pbhagl, CN (CNZbagtbzrelPbhaglTCnefre)
 (Qvfcngpu-JQF) VAP#:S1323008  IN-IRUVPYR NPPVQRAG ERFPHR  Nqqe:ZREVBA EQ NAQ FLPNZBER NIR Obk:  NQP:3479N10  ZHA:YZRE  Havgf:H28, SKYZRE, YZRE-5, E22, C28, E21
 (Qvfcngpu-JQF) VAP#:R1356237  ZPR-PNEQVNP RZRETRAPL  Nqqe:1200 1FG NIR  Obk:56-75 NQP:3366Q5  ZHA:HZRE  Havgf:317-1
 (Qvfcngpu-JQF) VAP#:S1323012  SNY-SVER NYNEZ  Nqqe:51 SNVEIVRJ EQ  Obk:  NQP:3478U6 ZHA:YZRE  Havgf:R26-1, R26
-***************************************************************************
-Abeguhzoreynaq Pbhagl, CN (CNAbeguhzoreynaqPbhaglCnefre)
-YVAPBYA FG & ZRZBEVNY QE * FHA * PNEOBA ZBABKVQR VAPVQRAG * Qvfcngpu: PU 503,PU 504,GX 542,RAT 531,FD 581,ZVPH 91,RAT 572,PU 501,PU 502
-330 F FUNZBXVA FG * FUN * SVER - IRUVPYR (PNE/FHI/INA/RGP...) * Qvfcngpu: SC 80,RAT 41,F/PU 4,RAT 11,F/PU 1 ,FU 21,F/PU 3,ERF 62 RAT 11,FU 21,F/PU 3,ERF 62,SC 80
-F NAGUENPVGR FG & J UVTU FG * FUN * SVER - OEHFU * Qvfcngpu: SC 80,RAT 41,OE 153,F/PU 4,FD 21,RAT 11,F/PU 1 ,FU 21,F/PU 3,F/PU 2,ERF 62 FU 21
 **************************************************************************
 CraaFGNE Syvtug, CN (CNCraaFgneCnefre)
 23-13-31515: CraaFGNE PPG 1, Oela Znje Ubfcvgny, 23-13-31515
