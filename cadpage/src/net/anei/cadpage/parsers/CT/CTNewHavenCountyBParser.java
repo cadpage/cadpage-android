@@ -99,7 +99,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
     
     // If there is a pad field, treat it as a place or cross street
     String pad = getPadField();
-    if (pad.contains("/") || checkAddress(pad) > 0) data.strCross = append(data.strCross, " / ", pad);
+    if (pad.contains("/") || isValidAddress(pad)) data.strCross = append(data.strCross, " / ", pad);
     else data.strPlace = pad;
     
     match = MAP_PFX_PTN.matcher(sExtra);
@@ -147,7 +147,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
         // the cross street information ends
         else {
           Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, sExtra);
-          if (res.getStatus() > 0) {
+          if (res.isValid()) {
             res.getData(data);
             sExtra = res.getLeft();
           }

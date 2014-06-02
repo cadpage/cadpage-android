@@ -69,7 +69,7 @@ public class CTTollandCountyAParser extends SmartAddressParser {
       // if what comes after the slash is a street name, append it to address
       // If not, put it in the apt field
       Result res = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr);
-      if (res.getStatus() > 0) {
+      if (res.isValid()) {
         data.strAddress = append(data.strAddress, " & ", sAddr);
       } else {
         data.strApt = append(data.strApt, " - ", sAddr);

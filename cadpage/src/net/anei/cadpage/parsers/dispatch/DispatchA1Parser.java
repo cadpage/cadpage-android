@@ -70,7 +70,7 @@ public class DispatchA1Parser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (data.strPlace.length() > 0) {
         int chk1 = checkAddress(data.strPlace);
-        if (chk1 > 0 && chk1 > checkAddress(field)) {
+        if (chk1 > STATUS_MARGINAL && chk1 > checkAddress(field)) {
           String tmp = data.strPlace;
           data.strPlace = field;
           field = tmp;

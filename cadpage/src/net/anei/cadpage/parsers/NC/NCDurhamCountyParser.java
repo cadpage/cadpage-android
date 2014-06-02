@@ -60,7 +60,7 @@ public class NCDurhamCountyParser extends DispatchOSSIParser {
     @Override
     public void parse(String field, Data data) {
       if (field.length() == 0) return;
-      if (checkAddress(field) > 0) {
+      if (isValidAddress(field)) {
         data.strCross = append(data.strCross, " & ", field);
       } else {
         super.parse(field, data);

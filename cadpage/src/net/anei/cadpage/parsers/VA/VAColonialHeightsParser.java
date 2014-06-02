@@ -74,7 +74,7 @@ public class VAColonialHeightsParser extends FieldProgramParser {
     @Override
     public boolean checkParse(String field, Data data) {
       Result res = parseAddress(StartType.START_PLACE, FLAG_ONLY_CITY | FLAG_CHECK_STATUS | FLAG_ANCHOR_END, field);
-      if (res.getStatus() <= 0) return false;
+      if (!res.isValid()) return false;
       res.getData(data);
       return true;
     }

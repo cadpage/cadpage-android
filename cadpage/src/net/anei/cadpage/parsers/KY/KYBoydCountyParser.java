@@ -58,7 +58,7 @@ public class KYBoydCountyParser extends SmartAddressParser {
     if (flags == 0) extra = getLeft();
     
     Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, extra);
-    if (res.getStatus() > 0) {
+    if (res.isValid()) {
       res.getData(data);
       extra = res.getLeft();
     }

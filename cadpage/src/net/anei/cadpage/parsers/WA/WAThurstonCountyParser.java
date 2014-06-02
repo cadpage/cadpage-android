@@ -92,7 +92,7 @@ public class WAThurstonCountyParser extends FieldProgramParser {
       if (field.startsWith("at ")) {
         field = field.substring(3).trim();
         if (field.equals(addressFld)) return true;
-        if (data.strPlace.length() == 0 && checkAddress(data.strAddress) == 0) {
+        if (data.strPlace.length() == 0 && !isValidAddress(data.strAddress)) {
           data.strPlace = data.strAddress;
           data.strAddress = "";
           parseAddress(field, data);

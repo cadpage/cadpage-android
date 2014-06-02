@@ -99,7 +99,7 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
         if (flds.length > 2) {
           parseAddress(flds[0], data);
           int sNdx = 1;
-          if (checkAddress(flds[1]) > 0) {
+          if (isValidAddress(flds[1])) {
             if (data.strAddress.length() == 0 || !Character.isDigit(data.strAddress.charAt(0))) {
               data.strAddress = append(data.strAddress, " & ", flds[1]);
             } else {

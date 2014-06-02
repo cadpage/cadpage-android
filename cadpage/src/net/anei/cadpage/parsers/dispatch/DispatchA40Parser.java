@@ -49,7 +49,7 @@ public class DispatchA40Parser extends SmartAddressParser {
     Result res = null;
     if (daMat.matches()) {
       res = parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD_EXCL_CITY | FLAG_ANCHOR_END, daMat.group(2).replace(".00", ""));
-      if (res.getStatus() > 0) {
+      if (res.isValid()) {
         res.getData(data);
         data.strCall = append(data.strCall, " / ", daMat.group(1).trim());
       }

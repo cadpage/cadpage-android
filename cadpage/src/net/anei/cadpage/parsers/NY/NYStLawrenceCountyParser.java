@@ -101,7 +101,7 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
     addr = data.strCity;
     data.strCity = "";
     Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, addr);
-    if (res.getStatus() > 0) {
+    if (res.isValid()) {
       res.getData(data);
       addr = res.getLeft();
       addr = cleanCitySuffix(addr, data);
@@ -149,7 +149,7 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
   @Override
   protected boolean isCity(String city) {
     if (city.startsWith("OGDENSBURG CENTENNIAL TERRACE")) return true;
-    return (checkAddress(city) == 0);
+    return !isValidAddress(city);
   }
   
   

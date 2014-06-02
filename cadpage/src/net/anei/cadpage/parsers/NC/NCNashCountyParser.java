@@ -73,7 +73,7 @@ public class NCNashCountyParser extends SmartAddressParser {
     CodeTable.Result cRes = CODE_TABLE.getResult(left);
     if (cRes == null) {
       Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT, left);
-      if (res.getStatus() > 0) {
+      if (res.isValid()) {
         res.getData(data);
         left = res.getLeft();
         cRes = CODE_TABLE.getResult(left);

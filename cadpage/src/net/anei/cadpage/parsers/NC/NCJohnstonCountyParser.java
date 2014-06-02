@@ -92,7 +92,7 @@ public class NCJohnstonCountyParser extends DispatchOSSIParser {
       lastCrossPlaceFld = field;
       
       // See if it looks like a cross street or a place name
-      if (field.contains("70 BUS HWY") || checkAddress(field) > 0) {
+      if (field.contains("70 BUS HWY") || isValidAddress(field)) {
         data.strCross = append(data.strCross, " / ", field); 
       } else {
         data.strSupp = append(data.strSupp, " / ", cleanWirelessCarrier(field));

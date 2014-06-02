@@ -66,10 +66,10 @@ public class MSOktibbehaCountyParser extends SmartAddressParser {
     // try to parse trail fields from body that differ from their subject equivalents
     Set<String> subjFieldsSet = new HashSet<String>(Arrays.asList(subjFields));
     String[] bodyFields = TRAIL_DELIM.split(bodyTrail);
-    for (int f = 0; f < bodyFields.length; f++) {
+    for (String fld : bodyFields) {
       // check if this comma delimited string was in subjTrail and make sure its not an address
-      if (!subjFieldsSet.contains(bodyFields[f]) && checkAddress(bodyFields[f], 3) == 0) {
-        data.strSupp = append(data.strSupp, ", ", bodyFields[f]);
+      if (!subjFieldsSet.contains(fld) && !isValidAddress(fld)) {
+        data.strSupp = append(data.strSupp, ", ", fld);
       }
     }
 

@@ -89,7 +89,7 @@ public class MDHowardCountyParser extends FieldProgramParser {
       String extra = p.get();
       if (data.strAddress.length() == 0) {
         Result res = parseAddress(StartType.START_ADDR, extra);
-        if (res.getStatus() > 0) {
+        if (res.isValid()) {
           res.getData(data);
           extra = res.getLeft();
           if (extra.startsWith("-"))  extra = extra.substring(1).trim();

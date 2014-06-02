@@ -62,7 +62,7 @@ public class NYSuffolkCountyBParser extends DispatchA14Parser {
       data.strPlace = "";
     }
     
-    if (data.strApt.length() > 0 && checkAddress(data.strApt) > 0) {
+    if (data.strApt.length() > 0 && isValidAddress(data.strApt)) {
       data.strCross = append(data.strApt, " / ", data.strCross);
       data.strApt = "";
     }

@@ -82,7 +82,7 @@ public class TXKendallCountyParser extends DispatchA37Parser {
     // Look for a normal address, Do not check for a city here, because
     // city names are commonly found in the information following the address
     Result res = parseAddress(StartType.START_ADDR, FLAG_NO_CITY | FLAG_NO_IMPLIED_APT, field);
-    if (res.getStatus() > 0) {
+    if (res.isValid()) {
       res.getData(data);
       field = res.getLeft();
       
@@ -114,7 +114,7 @@ public class TXKendallCountyParser extends DispatchA37Parser {
       // empty)
       if (data.strCity.length() == 0) {
         res = parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY, field);
-        if (res.getStatus() > 0) {
+        if (res.isValid()) {
           // Too bad we can't call res.getStart() before res.getData()
           // So we will have to back out the city if we decide it is not proper
           res.getData(data);

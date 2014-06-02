@@ -162,7 +162,7 @@ public class DispatchB2Parser extends DispatchBParser {
       else if (data.strPhone.length() == 0 && (match = PHONE2_PTN.matcher(name)).find()) {
         data.strPhone = match.group(1);
         field = name.substring(match.end());
-        if (noCross && checkAddress(field) > 0) {
+        if (noCross && isValidAddress(field)) {
           data.strCross = field;
         } else {
           data.strName = append(field, " ", data.strName);
@@ -174,7 +174,7 @@ public class DispatchB2Parser extends DispatchBParser {
       }
       
       else {
-        if (noCross && checkAddress(name) > 0) {
+        if (noCross && isValidAddress(name)) {
           data.strCross = name;
         } else {
           data.strName = append(name, " ", data.strName);

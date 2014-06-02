@@ -101,7 +101,7 @@ public class TXHuntCountyParser extends DispatchProQAParser {
         return true;
       }
       
-      if (checkAddress(field) > 0) {
+      if (isValidAddress(field)) {
         data.strCross = field;
         return true;
       }

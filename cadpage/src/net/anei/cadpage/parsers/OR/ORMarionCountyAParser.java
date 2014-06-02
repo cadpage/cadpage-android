@@ -54,7 +54,7 @@ public class ORMarionCountyAParser extends FieldProgramParser {
       setFieldList("ADDR APT CALL");
       parseAddress(StartType.START_ADDR, body, data);
       data.strCall = getLeft();
-      return getStatus() > 0;
+      return isValidAddress();
     }
     return parseFields(flds, data);
   }

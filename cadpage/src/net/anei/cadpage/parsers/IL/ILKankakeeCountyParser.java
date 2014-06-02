@@ -109,7 +109,7 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
         data.strApt = append(data.strApt, "-", match.group(2));
         place = append(match.group(1), " ", match.group(3));
       }
-      if (checkAddress(place) > 0 && !place.toUpperCase().endsWith(" TERRACE")) {
+      if (isValidAddress(place) && !place.toUpperCase().endsWith(" TERRACE")) {
         data.strCross = append(data.strCross, " / ", place);
       } else if (data.strApt.length() == 0 && place.length() < 5) {
         data.strApt = append(data.strApt, "-", place);

@@ -182,7 +182,7 @@ public class PAYorkCountyAParser extends SmartAddressParser {
       int pt = sAddr.indexOf(',');
       if (pt >= 0) {
         String tmp = sAddr.substring(0,pt).trim();
-        if (checkAddress(tmp) > 0) {
+        if (isValidAddress(tmp)) {
           cross = tmp;
           sAddr = sAddr.substring(pt+1).trim();
               

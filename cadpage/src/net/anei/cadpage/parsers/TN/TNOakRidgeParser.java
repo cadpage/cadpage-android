@@ -64,8 +64,8 @@ public class TNOakRidgeParser extends SmartAddressParser {
         fld = fld.substring(0,pt).trim();
       }
       Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, fld);
-      if (res.getStatus() == 0) res = parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT, fld);
-      if (res.getStatus() > 0) {
+      if (!res.isValid()) res = parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT, fld);
+      if (res.isValid()) {
         bestRes = res;
         bestPlace = place;
         addrNdx = ndx;

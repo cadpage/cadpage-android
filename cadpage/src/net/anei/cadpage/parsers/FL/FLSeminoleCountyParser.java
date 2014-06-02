@@ -68,7 +68,7 @@ public class FLSeminoleCountyParser extends SmartAddressParser {
         String g3 = mat.group(3);
         if (g3 != null) {
           Result mr = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, getOptGroup(g3));
-          if (mr.getStatus() > 0) {
+          if (mr.isValid()) {
             mr.getData(data);
             data.strMap = getLeft();
           } else data.strMap = g3;

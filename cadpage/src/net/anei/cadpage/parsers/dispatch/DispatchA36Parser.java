@@ -54,7 +54,7 @@ public class DispatchA36Parser extends FieldProgramParser {
           !data.strPlace.endsWith(" PLACE") &&
           !data.strPlace.endsWith(" MALL")) {
         int sp = checkAddress(data.strPlace);
-        if (sp > 0) {
+        if (sp > STATUS_MARGINAL) {
           String place = data.strPlace;
           data.strPlace = "";
           int sa = checkAddress(data.strAddress);

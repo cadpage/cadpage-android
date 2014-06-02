@@ -112,7 +112,7 @@ public class DispatchA13Parser extends FieldProgramParser {
         if (pt >= 0) {
           String place = sPart1.substring(0,pt).trim();
           String addr = sPart1.substring(pt+1).trim();
-          if (checkAddress(addr) > 0) {
+          if (isValidAddress(addr)) {
             data.strPlace = place;
             parseAddress(addr, data);
           } else {
@@ -206,8 +206,8 @@ public class DispatchA13Parser extends FieldProgramParser {
             }
           }
           if (!sPart2.contains("/") && !sPart2.contains(";") &&
-              data.strPlace.length() == 0 && checkAddress(data.strAddress) == 0 &&
-              checkAddress(sPart2) >= STATUS_FULL_ADDRESS) {
+              data.strPlace.length() == 0 && !isValidAddress(data.strAddress) &&
+              checkAddress(sPart2, 1) >= STATUS_FULL_ADDRESS) {
             data.strPlace = data.strAddress;
             data.strAddress = "";
             parseAddress(sPart2, data);

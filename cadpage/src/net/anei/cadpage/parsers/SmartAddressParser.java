@@ -169,10 +169,11 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_AT_MEANS_CROSS = 0x800000;
   
-  public static final int STATUS_TRIVIAL = 4;
-  public static final int STATUS_FULL_ADDRESS = 3;
-  public static final int STATUS_INTERSECTION = 2;
-  public static final int STATUS_STREET_NAME = 1;
+  public static final int STATUS_TRIVIAL = 5;
+  public static final int STATUS_FULL_ADDRESS = 4;
+  public static final int STATUS_INTERSECTION = 3;
+  public static final int STATUS_STREET_NAME = 2;
+  public static final int STATUS_MARGINAL = 1;
   public static final int STATUS_NOTHING = 0;
       
   
@@ -597,13 +598,12 @@ public abstract class SmartAddressParser extends MsgParser {
   }
   
   /**
-   * Determine if a string looks like a cross street
+   * Determine if a string looks like a valid address
    * @param address Address string to be checked
-   * @return zero if string is not recognized as valid address, otherwise a
-   * numeric value in which higher values indicate better cross streets
+   * @return true if valid address
    */
-  protected int checkCrossStreet(String address) {
-    return checkCrossStreet(address, 0);
+  protected boolean isValidAddress(String address) {
+    return isValidAddress(address, 0);
   }
   
   /**
@@ -611,11 +611,30 @@ public abstract class SmartAddressParser extends MsgParser {
    * @param address Address string to be checked
    * @param extra number of extra tokens (presumably city names) that can
    * be ignored at the end of the line
-   * @return zero if string is not recognized as valid address, otherwise a
-   * numeric value in which higher values indicate better addresses
+   * @return true if valid address
    */
-  protected int checkCrossStreet(String address, int extra) {
-    return parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ONLY_CROSS | FLAG_NO_CITY, address).getStatus(extra);
+  protected boolean isValidAddress(String address, int extra) {
+    return parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_NO_CITY, address).isValid(extra);
+  }
+  
+  /**
+   * Determine if a string looks like a cross street
+   * @param address Address string to be checked
+   * @return true if valid cross street
+   */
+  protected boolean isValidCrossStreet(String address) {
+    return isValidCrossStreet(address, 0);
+  }
+  
+  /**
+   * Determine if a string looks like a valid address
+   * @param address Address string to be checked
+   * @param extra number of extra tokens (presumably city names) that can
+   * be ignored at the end of the line
+   * @return true if valid cross street
+   */
+  protected boolean isValidCrossStreet(String address, int extra) {
+    return parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ONLY_CROSS | FLAG_NO_CITY, address).isValid(extra);
   }
   
   /**
@@ -661,7 +680,6 @@ public abstract class SmartAddressParser extends MsgParser {
     lastResult.getData(data);
   }
   
-  
   /**
    * Determine if the string that we just parsed looks like an address
    * @return zero if string was not recognized as valid address, otherwise a
@@ -669,6 +687,15 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   protected int getStatus() {
     return lastResult.getStatus();
+  }
+  
+  /**
+   * Determine if the string that we just parsed looks like an address
+   * @return zero if string was not recognized as valid address, otherwise a
+   * numeric value in which higher values indicate better addresses
+   */
+  protected boolean isValidAddress() {
+    return lastResult.isValid();
   }
   
   /**
@@ -855,9 +882,9 @@ public abstract class SmartAddressParser extends MsgParser {
 
     // If all else fails, use the fallback parser
     parseFallback(sType, result);
-    result.status = 0;
+    result.status = STATUS_NOTHING;
     if (result.addressField != null && 
-        isHouseNumber(result.addressField.fldStart)) result.fallback = true;
+        isHouseNumber(result.addressField.fldStart)) result.status = STATUS_MARGINAL;
     return result;
   }
 
@@ -2296,7 +2323,7 @@ public abstract class SmartAddressParser extends MsgParser {
     
     tokenType[ndx] =  mask;
   }
-  private static final Pattern ROUTE_NUMBER_PTN = Pattern.compile("(?!IN|OF)[A-Z]{1,2}|\\d+[ABNSEW]?");
+  private static final Pattern ROUTE_NUMBER_PTN = Pattern.compile("(?!IN|OF)[A-Z]{1,2}|\\d+[ABHNSEW]?");
   
   private boolean isAtSign(int ndx) {
     if (! isType(ndx, ID_AT_MARKER)) return false;
@@ -2631,7 +2658,6 @@ public abstract class SmartAddressParser extends MsgParser {
     private String[] tokens;
     private StartType startType;
     private int status = -1;
-    private boolean fallback = false;
     private String callPrefix = null;
     private String stdPrefix = null;
     private FieldSpec startField = null;
@@ -2669,20 +2695,14 @@ public abstract class SmartAddressParser extends MsgParser {
       insertAmp = -1;
       endAll = -1;
     }
-    
+   
     /**
-     * @return result status
+     * Determine Determine how good an address this parse call found
+     * @return zero if string is not recognized as valid address, otherwise a
+     * numeric value in which higher values indicate better addresses
      */
     public int getStatus() {
       return status;
-    }
-    
-    public int getExtStatus() {
-      if (status == 0) {
-        return fallback ? 1 : 0;
-      } else {
-        return status+1;
-      }
     }
     
     /**
@@ -2696,6 +2716,26 @@ public abstract class SmartAddressParser extends MsgParser {
       if (tokens == null) return 0;
       if (tokens.length-endAll > extra) return 0;
       return status;
+    }
+    
+    /**
+     * Determine Determine how good an address this parse call found
+     * @return true if this is a valid address
+     */
+    public boolean isValid() {
+      return status > STATUS_MARGINAL;
+    }
+    
+    /**
+     * Determine Determine how good an address this parse call found
+     * @param extra number of extra tokens (presumably city names) that can
+     * be ignored at the end of the line
+     * @return true if this is a valid address
+     */
+    public boolean isValid(int extra) {
+      if (tokens == null) return false;
+      if (tokens.length-endAll > extra) return false;
+      return isValid();
     }
   
     /**
@@ -2787,7 +2827,7 @@ public abstract class SmartAddressParser extends MsgParser {
           // and we can just call checkAddress to see if the near field is
           // an address or not
           if (data.strCity.length() > 0) {
-            if (parent.checkAddress(field2) > 0) {
+            if (parent.isValidAddress(field2)) {
               data.strCross = field2;
               nearPlace = false;
             }
@@ -2800,7 +2840,7 @@ public abstract class SmartAddressParser extends MsgParser {
           // and returned by a call to our getLeft() method.
           else {
             Result res = parent.parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, field2);
-            if (res.getStatus() > 0) {
+            if (res.isValid()) {
               res.getData(data);
               nearResult = res;
               nearPlace = false;

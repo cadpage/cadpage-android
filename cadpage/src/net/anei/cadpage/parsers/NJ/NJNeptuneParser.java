@@ -20,7 +20,7 @@ public class NJNeptuneParser extends SmartAddressParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("NEPTUNE PD COMMS CENTER")) return false;
     Result res = parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_NO_IMPLIED_APT, body);
-    if (res.getStatus() > 0) {
+    if (res.isValid()) {
       res.getData(data);
       data.strSupp = res.getLeft();
     } else {

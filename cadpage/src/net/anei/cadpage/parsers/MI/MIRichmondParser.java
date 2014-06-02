@@ -58,7 +58,7 @@ public class MIRichmondParser extends SmartAddressParser {
       
       // See if (fat chance) the smart address parser can find an address
       Result res = parseAddress(StartType.START_PLACE, field);
-      if (res.getStatus() > 0) {
+      if (res.isValid()) {
         res.getData(data);
         data.strCall = append(data.strCall, " - ", data.strPlace);
         data.strPlace = "";

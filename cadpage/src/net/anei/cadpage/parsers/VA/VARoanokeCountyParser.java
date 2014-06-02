@@ -133,7 +133,7 @@ public class VARoanokeCountyParser extends SmartAddressParser {
           parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, left, data);
           data.strCross = append(saveCross, " / ", data.strCross);
           data.strPlace = append(data.strPlace, " - ", getLeft());
-        } else if (checkAddress(left) > 0) {
+        } else if (isValidAddress(left)) {
             data.strCross = append(data.strCross, " / ", left);
         } else  { 
           data.strPlace = append(data.strPlace, " - ", left);

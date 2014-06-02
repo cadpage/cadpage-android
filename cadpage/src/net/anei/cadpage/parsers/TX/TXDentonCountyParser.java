@@ -38,7 +38,7 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
   private class MyAddressField extends AddressField {
     @Override
     public boolean checkParse(String field, Data data) {
-      if (!ADDR_PTN.matcher(field).matches() && checkAddress(field) == 0) return false;
+      if (!ADDR_PTN.matcher(field).matches() && !isValidAddress(field)) return false;
       parse(field, data);
       return true;
     }

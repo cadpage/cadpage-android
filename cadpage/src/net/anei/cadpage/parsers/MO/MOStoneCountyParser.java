@@ -55,7 +55,7 @@ public class MOStoneCountyParser extends SmartAddressParser {
     }
     
     Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, sInfo);
-    if (res.getStatus() > 0) {
+    if (res.isValid()) {
       res.getData(data);
       data.strSupp = res.getLeft();
     } else {

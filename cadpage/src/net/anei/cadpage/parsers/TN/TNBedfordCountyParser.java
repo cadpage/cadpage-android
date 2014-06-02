@@ -55,7 +55,7 @@ public class TNBedfordCountyParser extends FieldProgramParser {
         String firstSt = field.substring(0, at).trim();
         
         // First check to see if we have a street name
-        if(checkAddress(secondSt) > 0) {
+        if(isValidAddress(secondSt)) {
           field.replace('@', '&');
         }
         else {

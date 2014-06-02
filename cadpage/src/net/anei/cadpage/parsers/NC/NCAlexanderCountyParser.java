@@ -42,7 +42,7 @@ public class NCAlexanderCountyParser extends SmartAddressParser {
       String field = flds[ndx].trim();
       code = CODE_PTN.matcher(field).matches();
       if (code || NC_PTN.matcher(field).find() || field.startsWith("US ") || 
-          checkAddress(field) > 0) break;
+          isValidAddress(field)) break;
       if (++ndx > st+3) return false;
     }
     

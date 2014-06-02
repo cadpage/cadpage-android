@@ -44,7 +44,7 @@ public class DispatchInfoSysParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       parseAddress(StartType.START_CALL, FLAG_ANCHOR_END | FLAG_CHECK_STATUS, field, data);
-      if (getStatus() == 0) abort();
+      if (!isValidAddress()) abort();
     }
   }
   

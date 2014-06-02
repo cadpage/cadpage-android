@@ -44,7 +44,7 @@ public class OHCarrollCountyParser extends DispatchProQAParser {
       
       field = DIR_OF_PTN2.matcher(field).replaceAll("$1/$2");
       String chkField = DIR_OF_PTN.matcher(field).replaceAll("").trim();
-      if (checkAddress(chkField) > 0) {
+      if (isValidAddress(chkField)) {
         data.strCross = append(data.strCross, " / ", field);
       } else {
         super.parse(field, data);

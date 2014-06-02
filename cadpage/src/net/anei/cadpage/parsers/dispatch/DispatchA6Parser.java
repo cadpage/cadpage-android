@@ -66,7 +66,7 @@ public class DispatchA6Parser extends SmartAddressParser {
     }
     
     Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body);
-    if (res.getStatus() > 0) {
+    if (res.isValid()) {
       res.getData(data);
       data.strSupp = res.getLeft();
       if (intersect) {

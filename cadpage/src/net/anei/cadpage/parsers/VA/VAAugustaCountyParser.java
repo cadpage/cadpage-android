@@ -142,11 +142,11 @@ public class VAAugustaCountyParser extends DispatchOSSIParser {
         }
         
         int addrStat = checkAddress(fld);
-        if (addrStat > 0) {
+        if (addrStat > STATUS_MARGINAL) {
           // If this is better than a naked road, see if
           // we previously misidentified a place name as an
           // address
-          if (addrStat > 1 && data.strPlace.length() == 0 && checkAddress(data.strAddress) == STATUS_STREET_NAME) {
+          if (addrStat > STATUS_STREET_NAME && data.strPlace.length() == 0 && checkAddress(data.strAddress) == STATUS_STREET_NAME) {
             data.strPlace = data.strAddress;
             data.strAddress = "";
             parseAddress(fld, data);

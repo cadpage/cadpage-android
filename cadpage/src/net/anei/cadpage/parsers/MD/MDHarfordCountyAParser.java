@@ -51,7 +51,7 @@ public class MDHarfordCountyAParser extends DispatchBParser {
           data.strCross = append(data.strCross, " & ", data.strPlace.substring(2).trim());
           data.strPlace = "";
         }
-        else if (checkAddress(data.strPlace) > 0) {
+        else if (isValidAddress(data.strPlace)) {
           data.strCross = append(data.strCross, " & ", data.strPlace);
           data.strPlace = "";
         }

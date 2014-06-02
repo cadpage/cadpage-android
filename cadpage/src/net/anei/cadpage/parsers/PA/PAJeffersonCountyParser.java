@@ -92,7 +92,7 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
           data.strCross = append(data.strCross, ", ", part);
         } else {
           Result res = parseAddress(StartType.START_PLACE, FLAG_ONLY_CROSS | FLAG_ANCHOR_END, part);
-          if (res.getStatus() > 0) {
+          if (res.isValid()) {
             String savePlace = data.strPlace;
             data.strPlace = "";
             res.getData(data);

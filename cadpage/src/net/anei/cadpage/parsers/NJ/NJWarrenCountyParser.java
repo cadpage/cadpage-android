@@ -54,7 +54,7 @@ public class NJWarrenCountyParser extends SmartAddressParser {
         
         String addr = flds[1];
         String[] parts = addr.split(" / ");
-        if (parts.length == 2 && checkAddress(parts[0]) == 0) {
+        if (parts.length == 2 && !isValidAddress(parts[0])) {
           data.strPlace = parts[0].trim();
           addr = parts[1].trim();
         }
@@ -86,14 +86,14 @@ public class NJWarrenCountyParser extends SmartAddressParser {
       data.strUnit = match.group(1);
       data.strCall = match.group(2).trim();
       String tmp = match.group(3).trim();
-      if (checkAddress(tmp) > 0) {
+      if (isValidAddress(tmp)) {
         parseAddress(tmp, data);
       } else {
         data.strPlace = tmp;
       }
       tmp = getOptGroup(match.group(4));
       if (tmp.length() > 0) {
-        if (data.strAddress.length() == 0 && checkAddress(tmp) > 0) {
+        if (data.strAddress.length() == 0 && isValidAddress(tmp)) {
           parseAddress(tmp, data);
         } else {
           data.strPlace = append(data.strPlace, " / ", tmp);

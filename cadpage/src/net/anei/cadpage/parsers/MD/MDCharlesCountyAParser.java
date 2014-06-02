@@ -120,7 +120,7 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
           String fld1 = body.substring(0,pt).trim();
           String fld2 = body.substring(pt+1).trim();
           Result res2 = parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, fld2);
-          if (res2.getStatus() > 0) {
+          if (res2.isValid()) {
             res2.getData(data);
             data.strCall = append(fld1, ", ",  data.strCall);
             good = true;

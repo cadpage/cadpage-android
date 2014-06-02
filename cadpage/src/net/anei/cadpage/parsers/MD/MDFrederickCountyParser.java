@@ -137,7 +137,7 @@ public class MDFrederickCountyParser extends FieldProgramParser {
           // If that doesn't work, parse prefix as the address
           else {
             Result res = parseAddress(StartType.START_ADDR, field);
-            if (res.getStatus() > 0) {
+            if (res.isValid()) {
               data.strCall = prefix;
               res.getData(data);
               data.strPlace = res.getLeft();

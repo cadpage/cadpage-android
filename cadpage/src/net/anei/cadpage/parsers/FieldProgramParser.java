@@ -2176,7 +2176,7 @@ public class FieldProgramParser extends SmartAddressParser {
       
       // If we aren't using the smart parser, just call check address and parse the field
       else if (startType == null) {
-        if (checkAddress(field) <= 0) return false;
+        if (! isValidAddress(field)) return false;
         parse(field, data);
       }
       
@@ -2186,7 +2186,7 @@ public class FieldProgramParser extends SmartAddressParser {
       // following the address, return false
       else {
         Result res = parseAddress(startType, field);
-        if (res.getStatus() <= 0) return false;
+        if (!res.isValid()) return false;
         if ((parseFlags & FLAG_ANCHOR_END) != 0 && res.getLeft().length() > 0) return false;
         
         // Looks good, lets parse out the data
@@ -2476,7 +2476,7 @@ public class FieldProgramParser extends SmartAddressParser {
  
     @Override
     public boolean checkParse(String field, Data data) {
-      if (checkAddress(field) == 0) return false;
+      if (!isValidAddress(field)) return false;
       parse(field, data);
       return true;
     }

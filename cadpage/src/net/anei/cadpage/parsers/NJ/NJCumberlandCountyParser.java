@@ -55,10 +55,10 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
         String fld1 = field.substring(0,pt).trim();
         String fld2 = field.substring(pt+1).trim();
         
-        if (checkAddress(fld1) == 0) {
+        if (!isValidAddress(fld1)) {
           data.strPlace = fld1;
           field = fld2;
-        } else if (checkAddress(fld2) == 0) {
+        } else if (!isValidAddress(fld2)) {
           data.strPlace = fld2;
           field = fld1;
         }

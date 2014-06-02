@@ -23,12 +23,12 @@ public class MSDeSotoCountyParser extends SmartAddressParser {
     
     //ADDR
     parseAddress(StartType.START_ADDR, body, data);
-    if (getStatus() == 0) return false;
+    if (!isValidAddress()) return false;
     body = getLeft();
     
     //X (CV is a street abbreviation for cove)
     Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body);
-    if (res.getStatus() > 0) {
+    if (res.isValid()) {
       res.getData(data);
       body = res.getLeft();
     }

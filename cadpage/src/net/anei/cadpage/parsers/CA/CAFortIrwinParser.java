@@ -108,7 +108,7 @@ public class CAFortIrwinParser extends SmartAddressParser {
       // Check for cross road after code
       String left = gbcMat.group(2);
       Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, left);
-      if (res.getStatus() > 0) {
+      if (res.isValid()) {
         left = res.getLeft();
         res.getData(data);
       } 
@@ -122,7 +122,7 @@ public class CAFortIrwinParser extends SmartAddressParser {
     // an pt age as a unsuffixed address
     StartType st = lockStart ? StartType.START_ADDR : StartType.START_OTHER;
     Result res = parseAddress(st, body);
-    boolean good = res.getStatus() > 0;
+    boolean good = res.isValid();
     if (!good) {
       if (!NOT_ADDRESS_PTN.matcher(body).matches()) {
         res = parseAddress(StartType.START_ADDR, FLAG_OPT_STREET_SFX, body);

@@ -47,7 +47,7 @@ public class COLaPlataCountyParser extends FieldProgramParser {
           fld = fld.substring(match.end()).trim();
         }
         
-        if (checkAddress(fld) > 0) {
+        if (isValidAddress(fld)) {
           data.strCross = append(data.strCross, " / ", fld);
           continue;
         }
@@ -96,7 +96,7 @@ public class COLaPlataCountyParser extends FieldProgramParser {
         data.strCross = append(data.strCross, " / ", field.substring(16).trim());
         return;
       } 
-      if (field.contains(" & ") || checkAddress(field) > 0) {
+      if (field.contains(" & ") || isValidAddress(field)) {
         data.strCross = append(data.strCross, " / ", field);
         return;
       }

@@ -34,7 +34,7 @@ public class NMSanJuanCountyParser extends SmartAddressParser {
     //Try standard parseAddress
     String group5 = mat.group(5).trim();
     Result res = parseAddress(StartType.START_ADDR, group5);
-    if (res.getStatus() > 0) {
+    if (res.isValid()) {
       parseResult(res, data);
       return true;
     }

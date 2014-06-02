@@ -64,7 +64,7 @@ public class SCOrangeburgCountyParser extends SmartAddressParser {
       addr = INTERSECT_PTN.matcher(addr).replaceAll(" ").trim();
       Result res = parseAddress(st, flags, addr);
       status = res.getStatus();
-      if (status > 0) {
+      if (status > STATUS_MARGINAL) {
         String call = data.strCall;
         data.strCall = "";
         res.getData(data);
@@ -84,7 +84,7 @@ public class SCOrangeburgCountyParser extends SmartAddressParser {
     // Intersections can get split across two fields
     if (status == STATUS_STREET_NAME && flds[ipt].length() == 0 && flds.length > ++ipt) {
       Result res = parseAddress(StartType.START_ADDR, flds[ipt].trim());
-      if (res.getStatus() > 0) {
+      if (res.isValid()) {
         String tmp = data.strAddress;
         data.strAddress = "";
         res.getData(data);
@@ -112,7 +112,7 @@ public class SCOrangeburgCountyParser extends SmartAddressParser {
         fld = match.group(1).trim();
         data.strCross = append(data.strCross, " & ", match.group(2));
       }  
-      if (checkAddress(fld) > 0) {
+      if (isValidAddress(fld)) {
         data.strCross = append(data.strCross, " & ", fld);
       } 
       else {

@@ -40,7 +40,7 @@ public class NYRocklandCountyBParser extends SmartAddressParser {
       sAddr = match.group(3);
       
       Result res = parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, sAddr);
-      if (res.getStatus() == 0) {
+      if (!res.isValid()) {
         data.strAddress = sAddr;
       } else {
         res.getData(data);

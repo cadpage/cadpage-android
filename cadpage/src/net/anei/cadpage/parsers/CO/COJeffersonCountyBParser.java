@@ -22,7 +22,7 @@ public class COJeffersonCountyBParser extends SmartAddressParser {
   @Override 
   public boolean parseMsg(String subject, String body, Data data) {
     subject = subject.replace("//", "/");
-    if (checkAddress(subject) == 0)  return false;
+    if (!isValidAddress(subject)) return false;
     parseAddress(subject, data);
     if (body.length() <= 30) {
       data.strCall = body;

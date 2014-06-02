@@ -37,7 +37,7 @@ public class COAdamsCountyParser extends FieldProgramParser {
     // Fallback parsing address followed by call description
     data.initialize(this);
     parseAddress(StartType.START_CALL, FLAG_AT_SIGN_ONLY, body, data);
-    if (getStatus() == 0) return false;
+    if (!isValidAddress()) return false;
     if (data.strCall.length() == 0) data.strCall = getLeft();
     else data.strSupp = getLeft();
     return (data.strCall.length() > 0);

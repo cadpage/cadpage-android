@@ -52,7 +52,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
       parseAddress(StartType.START_ADDR, body, data);
       body = getLeft();
       Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body);
-      if (res.getStatus() > 0) {
+      if (res.isValid()) {
         res.getData(data);
         body = res.getLeft();
       }

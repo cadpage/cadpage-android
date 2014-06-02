@@ -39,7 +39,7 @@ public class SDUnionCountyBParser extends SDUnionCountyBaseParser {
       
       // The first field, and only the first field, is considered a place name if it
       // is not a legitimate address
-      if (data.strPlace.length() == 0 && data.strCross.length() == 0 && checkAddress(field) == 0) {
+      if (data.strPlace.length() == 0 && data.strCross.length() == 0 && !isValidAddress(field)) {
         data.strPlace = field;
       } else {
         super.parse(field, data);

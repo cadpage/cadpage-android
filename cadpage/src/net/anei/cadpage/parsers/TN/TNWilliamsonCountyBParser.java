@@ -73,7 +73,7 @@ public class TNWilliamsonCountyBParser extends SmartAddressParser {
 
     // X NAME
     Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, left);
-    if (res.getStatus() > 0) {
+    if (res.isValid()) {
       res.getData(data);
       data.strName = cleanWirelessCarrier(res.getLeft());
       data.strCross = append(prefix, " ", data.strCross);

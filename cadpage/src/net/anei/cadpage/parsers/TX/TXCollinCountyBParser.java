@@ -71,7 +71,7 @@ public class TXCollinCountyBParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       // A lot of times dispatch puts the station address as the response address
       // and the real incident address in in the first comment :(
-      if (data.strAddress.equals("165 Country Club Rd") && checkAddress(field) > 0) {
+      if (data.strAddress.equals("165 Country Club Rd") && isValidAddress(field)) {
         data.strAddress = "";
         parseAddress(field, data);
       } else {

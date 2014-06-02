@@ -132,7 +132,7 @@ public class DispatchVisionAirParser extends FieldProgramParser {
                 fld2 = fld2.trim();
               } else {
                 Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, fld2);
-                if (res.getStatus() > 0) {
+                if (res.isValid()) {
                   res.getData(data);
                   fld2 = res.getLeft();
                 } else {

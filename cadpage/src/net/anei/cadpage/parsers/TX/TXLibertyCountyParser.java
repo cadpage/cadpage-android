@@ -52,10 +52,10 @@ public class TXLibertyCountyParser extends SmartAddressParser {
     // Address is usually at the beginning of the call, so we will try that first
     // if no luck that way, look for it anywhere
     Result res = parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT, body);
-    if (res.getStatus() == 0) res = parseAddress(StartType.START_CALL, FLAG_NO_IMPLIED_APT, body);
+    if (!res.isValid()) res = parseAddress(StartType.START_CALL, FLAG_NO_IMPLIED_APT, body);
     
     // Still no luck?  Subject goes in call, body goes in place and call it good
-    if (res.getStatus() == 0) {
+    if (!res.isValid()) {
       data.strCall = subject;
       data.strPlace = body;
       return true;

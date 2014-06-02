@@ -188,7 +188,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     }
     
     //  Occasional implied intersections end up in the apt field
-    if (data.strApt.length() > 0 && checkAddress(data.strApt) > 0) {
+    if (data.strApt.length() > 0 && isValidAddress(data.strApt)) {
       data.strAddress = append(data.strAddress, " & ", data.strApt);
       data.strApt = "";
     }

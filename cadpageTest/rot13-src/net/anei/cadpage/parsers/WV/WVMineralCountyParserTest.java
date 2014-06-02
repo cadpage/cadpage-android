@@ -161,10 +161,9 @@ choyvp pynff JIZvarenyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:07/01/2012",
         "GVZR:10:46:31",
         "PNYY:SVER TNENTR",
-        "NQQE:BSS BS CYHZ EHA EQ GB EBTREF QEVIR",
-        "ZNQQE:& BS CYHZ EHA EQ GB EBTREF QEVIR",
-        "PVGL:EVQTRYRL",
-        "VASB:1641 EVQTRYRL");
+        "CYNPR:BSS BS CYHZ EHA EQ GB EBTREF QEVIR",
+        "NQQE:1641 EVQTRYRL",
+        "PVGL:EVQTRYRL");
 
     qbGrfg("G8",
         "F: Z: ??? CSQ:2012:0153 >2012-07-01 10:34:47 >NYREGRQ >HAPBAFP/SNVAG-31 >57 REVA FG, CVRQZBAG (;)",

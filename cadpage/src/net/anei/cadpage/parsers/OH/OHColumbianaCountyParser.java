@@ -82,7 +82,7 @@ public class OHColumbianaCountyParser extends GeneralParser {
         // Everything following the address is an info
         for ( ndx++ ; ndx < flds.length; ndx++) {
           String fld = flds[ndx];
-          if (checkAddress(fld) > 0) {
+          if (isValidAddress(fld)) {
             data.strCross = append(data.strCross, " & ", fld);
           } else {
             data.strSupp = append(data.strSupp, " / ", fld);
@@ -112,7 +112,7 @@ public class OHColumbianaCountyParser extends GeneralParser {
       info = line.substring(match.start(1));
       line = line.substring(0,match.start()).trim();
     }
-    if (force || checkAddress(line) > 0) {
+    if (force || isValidAddress(line)) {
       parseAddress(line, data);
       data.strSupp = info;
       return true;

@@ -37,7 +37,8 @@ public class ORClatsopCountyParser extends SmartAddressParser {
     // Sometimes call and address in subject and first field are reversed :(
     Result res1 = parseAddress(StartType.START_ADDR, subject);
     Result res2 = parseAddress(StartType.START_ADDR, fields[0]);
-    if (CALL_SET.contains(fields[0].toUpperCase()) || res1.getStatus() > res2.getStatus()) {
+    if (!CALL_SET.contains(subject) && 
+        (CALL_SET.contains(fields[0].toUpperCase()) || res1.getStatus() > res2.getStatus())) {
       data.strCall = fields[0];
       res2 = res1;
     } else {

@@ -141,7 +141,7 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
         data.strCross = field;
       } else {
         Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ONLY_CROSS | FLAG_ANCHOR_END | FLAG_IMPLIED_INTERSECT, field);
-        if (res.getStatus() > 0) {
+        if (res.isValid()) {
           res.getData(data);
         } else {
           parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_CROSS_FOLLOWS, field, data);

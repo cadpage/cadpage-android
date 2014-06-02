@@ -106,7 +106,7 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
         sAddr = body.substring(0,pt);
         String sExtra = body.substring(pt);
         Result res = parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, sAddr);
-        if (res.getStatus() == 0) return false;
+        if (!res.isValid()) return false;
         sCall = res.getAddressPrefix();
         sAddr = res.getFullAddress();
         if (sCall == null || sAddr == null) return false;

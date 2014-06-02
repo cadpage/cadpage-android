@@ -52,7 +52,7 @@ public class UTBoxElderCountyParser extends FieldProgramParser {
           String part = fields[i].trim();
           if (part.startsWith("#")) data.strApt = append(data.strApt, " - ", part.substring(1).trim());
           else if (NUMERIC.matcher(part).matches()) data.strApt = append(data.strApt, " - ", part);
-          else if (ADDR_MP_PTN.matcher(part).find() || checkAddress(part) > 0) data.strCross = append(data.strCross, " & ", part);
+          else if (ADDR_MP_PTN.matcher(part).find() || isValidAddress(part)) data.strCross = append(data.strCross, " & ", part);
           else data.strPlace = append(data.strPlace, "; ", part);
         }
       } else super.parse(field, data);

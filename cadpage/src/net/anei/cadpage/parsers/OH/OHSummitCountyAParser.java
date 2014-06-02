@@ -41,7 +41,7 @@ public class OHSummitCountyAParser extends FieldProgramParser {
         data.strAddress = data.strPlace = "";
         if (data.strSupp.length() > 0) {
           Result res = parseAddress(StartType.START_PLACE, FLAG_NO_IMPLIED_APT, data.strSupp);
-          if (res.getStatus() > 0) {
+          if (res.isValid()) {
             res.getData(data);
             data.strCity = city;
             data.strSupp = append(data.strPlace, " ", res.getLeft());

@@ -30,7 +30,7 @@ public class NYRensselaerCountyParser extends SmartAddressParser {
     
     body = MISSED_BLANK_PTN.matcher(body).replaceAll(" ");
     parseAddress(StartType.START_CALL, FLAG_AT_PLACE, body, data);
-    if (getStatus() == 0) return false;
+    if (!isValidAddress()) return false;
     
     if (data.strCall.length() == 0) {
       data.strCall = getLeft();

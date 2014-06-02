@@ -55,7 +55,7 @@ public class IAWoodburyCountyParser extends SmartAddressParser {
         
         // If this didn't look like an address, it's probably another chunk
         // of the call description :(
-        if (getStatus() == 0) {
+        if (!isValidAddress()) {
           data.strCall = data.strCall + " / " + line;
           data.strAddress = data.strCity = "";
           ndx--;

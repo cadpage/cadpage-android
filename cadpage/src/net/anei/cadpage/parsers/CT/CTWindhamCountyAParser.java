@@ -87,7 +87,7 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
         data.strCity = sPlaceCity.substring(pt+1).trim();
         sPlaceCity = sPlaceCity.substring(0, pt).trim();
       }
-      if (checkAddress(sPlaceCity) > 0) {
+      if (isValidAddress(sPlaceCity)) {
         data.strAddress = data.strAddress + " & " + sPlaceCity;
       } else {
         data.strPlace = sPlaceCity;

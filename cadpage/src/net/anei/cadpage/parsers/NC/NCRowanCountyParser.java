@@ -135,7 +135,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
       }
       
       // See if this looks like a set of cross streets
-      else if (checkAddress(field) > 0) {
+      else if (isValidAddress(field)) {
         data.strCross = append(data.strCross, " / ", field);
       } 
       

@@ -195,7 +195,7 @@ public class DispatchGeoconxParser extends FieldProgramParser {
     if (STREET_NO.matcher(field).matches()) return true;
     
     // OK, check for a legitimate street name
-    if (checkAddress(field) > 0) return true;
+    if (isValidAddress(field)) return true;
     
     // well, we certainly tried...
     return false;

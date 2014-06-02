@@ -65,7 +65,7 @@ public class TXHumbleParser extends DispatchOSSIParser {
       if (CALL2_EXCL_PTN.matcher(field).find()) return false;
       
       // It still might be a street name so check to see if it is an address
-      if (checkAddress(field) > 0) return false;
+      if (isValidAddress(field)) return false;
       
       // Go for it
       parse(field, data);

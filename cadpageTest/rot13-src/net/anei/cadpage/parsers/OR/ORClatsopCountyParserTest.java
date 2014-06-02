@@ -93,19 +93,6 @@ Fraqre: Revp Jnyyre <rjnyyre@pvglbsfrnfvqr.hf>
 (Sver Pnyy) 2511 Zvyy Perrx Ya #202/NYNEZ SVER/ sver nynez, zbvfgher frra
 (Sver Nynez) 150 Fbhgu Yvapbya\a \a     Revp Jnyyre\a     Frnfvqr Sver naq Erfphr\a \a     150 Fbhgu Yvapbya\a     Frnfvqr, BE 97138\a \a     Qrcg: 503.738.5420\a     Pryy: 503.739.0955\a     Snk: 503.717.9318\a \a     rjnyyre@pvglbsfrnfvqr.hf
 
-Abg zhpu gb tb ba.
-
-Erwrpg vs gurer vf ab fhowrpg
-erwrpg vs !vfCbfgvirVQ naq fhowrpg vf abg ba erpbtavmrq yvfg bs pnyy qrfpevcgvbaf.
-Unefu, ohg guvf vf gur bayl jnf jr pna vqragvsl guvf nf n qvfcngpu cntr.
-
-Fhowrpg tbrf va pnyy qrfpevcgvba.  Rirelguvat hc gb svefg fynfu vf nqqerff,
-nalguvat ryfr vf vasb.
-
-Fubbg, gurl hfr n fynfu gb frcrengr fgerrgf va vagrefrpgvbaf.  Vs gurer ner
-zhygvcyr nqqerff, pnyy purpxNqqerff() gb frr vs frpbaq svryq vf na nqqerff.  
-Vs vg vf, nccraq gb nqqerff jvgu " & ".
-
 */
 
 choyvp pynff BEPyngfbcPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

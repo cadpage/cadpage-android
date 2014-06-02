@@ -43,7 +43,7 @@ public class PAMonroeCountyParser extends SmartAddressParser {
     String extra = getLeft();
     extra = extra.replace('\n', ' ').replaceAll("  +", " ");
     Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, extra);
-    if (res.getStatus() > 0) {
+    if (res.isValid()) {
       res.getData(data);
       extra = res.getLeft();
     }
@@ -57,12 +57,12 @@ public class PAMonroeCountyParser extends SmartAddressParser {
     if (pt >= 0) {
       String part1 = sAddr.substring(0,pt).trim();
       String part2 = sAddr.substring(pt+1).trim();
-      if (checkAddress(part1) == 0 && checkAddress(part2) > 0) {
+      if (!isValidAddress(part1) && isValidAddress(part2)) {
         data.strPlace = part1;
         data.strAddress = part2;
       }
     } else if (data.strCross.length() > 0) {
-      if (checkAddress(sAddr) == 0) {
+      if (!isValidAddress(sAddr)) {
         data.strPlace = sAddr;
         data.strAddress = data.strCross;
         data.strCross = "";

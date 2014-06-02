@@ -87,7 +87,7 @@ public class DispatchA18Parser extends FieldProgramParser {
             continue;
           }
           
-          if (checkAddress(part) > 0) {
+          if (isValidAddress(part)) {
             if (Character.isDigit(data.strAddress.charAt(0))) {
               data.strCross = append(data.strCross, "/", part);
             } else {

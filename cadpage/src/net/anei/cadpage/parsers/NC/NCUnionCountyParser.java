@@ -59,7 +59,7 @@ public class NCUnionCountyParser extends DispatchOSSIParser {
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (checkAddress(field) > 0) {
+      if (isValidAddress(field)) {
         data.strCross = append(data.strCross, " & ", field);
       } else if (data.strPlace.length() == 0) {
         data.strPlace = field;

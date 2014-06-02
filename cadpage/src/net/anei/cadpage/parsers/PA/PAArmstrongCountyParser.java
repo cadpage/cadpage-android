@@ -87,7 +87,7 @@ public class PAArmstrongCountyParser extends FieldProgramParser {
       do {
         if (body.startsWith("/")) body = body.substring(1).trim();
         Result result2 = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body);
-        if (result2.getStatus() > 0) {
+        if (result2.isValid()) {
           String oldCross = data.strCross;
           data.strCross = "";
           result2.getData(data);

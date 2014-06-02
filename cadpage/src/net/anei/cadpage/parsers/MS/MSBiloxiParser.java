@@ -97,7 +97,7 @@ public class MSBiloxiParser extends DispatchA37Parser {
         data.strPlace = addr.substring(pt+1).trim();
       } else {
         Result res = parseAddress(StartType.START_PLACE, addr);
-        if (res.getStatus() > 0) {
+        if (res.isValid()) {
           res.getData(data);
           String place = res.getLeft();
           if (place.startsWith("&") || place.startsWith("/")) {
@@ -133,7 +133,7 @@ public class MSBiloxiParser extends DispatchA37Parser {
       appendCall(addr.substring(pt+1).trim(), data);
     } else {
       Result res = parseAddress(StartType.START_OTHER, FLAG_OPT_STREET_SFX | FLAG_AND_NOT_CONNECTOR, addr);
-      if (res.getStatus() == 0) {
+      if (!res.isValid()) {
         data.strSupp = addr;
       } else {
         res.getData(data);

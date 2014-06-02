@@ -70,7 +70,7 @@ public class NCPittCountyParser extends FieldProgramParser {
         data.strCross = field.substring(0,pt).trim();
         data.strPlace = field.substring(pt+1).trim();
       } else {
-        if (checkAddress(field) > 0) {
+        if (isValidAddress(field)) {
           data.strCross = field;
         } else {
           data.strPlace = field;

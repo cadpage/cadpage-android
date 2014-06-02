@@ -271,7 +271,7 @@ public class DispatchA7Parser extends DispatchA7BaseParser {
             continue;
           }
         }
-        if (checkAddress(tmp) > 0) {
+        if (isValidAddress(tmp)) {
           data.strCross = append(data.strCross, " & ", tmp);
           continue;
         }

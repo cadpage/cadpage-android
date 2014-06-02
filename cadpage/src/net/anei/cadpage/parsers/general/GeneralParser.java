@@ -335,7 +335,7 @@ public class GeneralParser extends SmartAddressParser {
           StartType st = (data.strCall.length() == 0 ? StartType.START_CALL :
                           data.strPlace.length() == 0 ? StartType.START_PLACE : StartType.START_OTHER);
           Result res = parseAddress(st, getParseAddressFlags(), fld);
-          if (res.getStatus() > 0) {
+          if (res.isValid()) {
             // Bingo!  Anything past the address goes into info
             foundAddr = true;
             res.getData(data);
@@ -383,7 +383,7 @@ public class GeneralParser extends SmartAddressParser {
         
         // If field parse out as an complete address
         // Assume it is a cross street
-        if (checkAddress(fld) > 0) {
+        if (isValidAddress(fld)) {
           if (data.strCross.length() > 0) data.strCross += " & ";
           data.strCross += fld;
           continue;

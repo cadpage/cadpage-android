@@ -99,7 +99,7 @@ public class LAEastFelicianaParishParser extends SmartAddressParser {
     // it first
     parseAddress(StartType.START_ADDR, FLAG_AT_MEANS_CROSS, fld2, data);
     data.strName = cleanWirelessCarrier(getLeft());
-    if (getStatus() == 0) return false;
+    if (!isValidAddress()) return false;
     
     // If that works, try to trip off the name and city fields and see if
     // part 1 starts with the same address.  If it does, strip off the 
@@ -128,7 +128,7 @@ public class LAEastFelicianaParishParser extends SmartAddressParser {
     // If we can identify an address at start of field, use that
     // If we do have an address from the other address field, discard this one
     Result r = parseAddress(StartType.START_ADDR, FLAG_AT_MEANS_CROSS | FLAG_CROSS_FOLLOWS, field);
-    if (r.getStatus() > 0) {
+    if (r.isValid()) {
       if (addr == null) r.getData(data);
       field = r.getLeft();
     } 
@@ -160,7 +160,7 @@ public class LAEastFelicianaParishParser extends SmartAddressParser {
    */
   private boolean parseCrossCall(String field, Data data) {
     Result r = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, field);
-    if (r.getStatus() > 0) {
+    if (r.isValid()) {
       r.getData(data);
       field = r.getLeft();
     }

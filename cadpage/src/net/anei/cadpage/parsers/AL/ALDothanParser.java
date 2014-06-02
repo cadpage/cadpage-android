@@ -42,7 +42,7 @@ public class ALDothanParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
-      if (checkAddress(field) > 0) {
+      if (isValidAddress(field)) {
         data.strCross = append(data.strCross, " & ", field);
       } else {
         data.strPlace = append(data.strPlace, "/", field);

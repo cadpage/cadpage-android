@@ -30,7 +30,7 @@ public class ORTillamookCountyParser extends SmartAddressParser {
       data.strPlace = data.strCity;
       data.strCity = city;
     }
-    return getStatus() > 0;
+    return isValidAddress();
   }
   
   private static final String[] CITY_LIST = new String[]{

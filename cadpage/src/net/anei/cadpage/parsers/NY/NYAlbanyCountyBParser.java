@@ -46,7 +46,7 @@ public class NYAlbanyCountyBParser extends FieldProgramParser {
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (checkAddress(field) > 0) {
+      if (isValidAddress(field)) {
         data.strCross = field;
       } else {
         data.strSupp = field;

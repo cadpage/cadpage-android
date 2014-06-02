@@ -34,7 +34,7 @@ public class MOJeffersonCountyParser extends FieldProgramParser {
       Result res1 = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END | FLAG_CHECK_STATUS, address);
       Result res2 = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END | FLAG_CHECK_STATUS, callerAddress2);
       int stat1 = res1.getStatus();
-      if (stat1 == 2) stat1++;
+      if (stat1 == STATUS_INTERSECTION) stat1++;
       if (stat1 > res2.getStatus()) {
         res1.getData(data);
         data.strSupp = append(data.strSupp, "\n", "Caller Addr:" + callerAddress);
@@ -84,7 +84,7 @@ public class MOJeffersonCountyParser extends FieldProgramParser {
           data.strApt = tmp.substring(3).trim();
         } else if (tmp.startsWith("UNIT ")) {
           data.strApt = tmp;
-        } else if (checkAddress(tmp) > 0) {
+        } else if (isValidAddress(tmp)) {
           data.strCross = tmp;
         } else if (tmp.contains(" ") || tmp.length() > 4) {
           data.strPlace = tmp;

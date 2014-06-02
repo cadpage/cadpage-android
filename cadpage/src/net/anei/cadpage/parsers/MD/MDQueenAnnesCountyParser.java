@@ -95,7 +95,7 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
     // Sometimes they put valid street names in parenthesis, which messes up
     // the address detection logic.
     match = PAREN_PTN.matcher(body);
-    if (match.find() && checkAddress(match.group(1)) > 0) {
+    if (match.find() && isValidAddress(match.group(1))) {
       body = body.substring(0,match.start()) + ' ' + match.group(1) + ' ' + body.substring(match.end());
       body = body.trim();
     }
@@ -118,7 +118,7 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       String part2 = body.substring(pt+1).trim();
       Result res1 = parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, part1);
       Result res2 = parseAddress(StartType.START_ADDR, part2);
-      if (res2.getExtStatus() > res1.getExtStatus()) {
+      if (res2.getStatus() > res1.getStatus()) {
         
         // Second part is the address
         // Split first part into call and place name

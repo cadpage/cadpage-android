@@ -84,7 +84,7 @@ public class MONewtonCountyParser extends FieldProgramParser {
         data.strCross = field.substring(0,pt).trim();
       } else {
         Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, field);
-        if (res.getStatus() > 0) {
+        if (res.isValid()) {
           res.getData(data);
           data.strCall = res.getLeft();
         } else {

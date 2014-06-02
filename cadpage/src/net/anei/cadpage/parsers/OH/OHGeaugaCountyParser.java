@@ -74,7 +74,7 @@ public class OHGeaugaCountyParser extends SmartAddressParser {
     else {
       body = body.replace(',', ' ');
       Result res = parseAddress(st, FLAG_NO_IMPLIED_APT, body);
-      if (res.getStatus() ==  0) {
+      if (!res.isValid()) {
         data.strPlace = body;
       } else {
         res.getData(data);

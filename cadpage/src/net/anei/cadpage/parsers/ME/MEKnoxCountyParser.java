@@ -20,7 +20,7 @@ public class MEKnoxCountyParser extends SmartAddressParser {
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("KNOX COUNTY (ME)"))  return false;
     parseAddress(StartType.START_CALL, FLAG_NO_IMPLIED_APT, body, data);
-    if (getStatus() == 0) return false;
+    if (!isValidAddress()) return false;
     String left = getLeft();
     if (left.startsWith("/")) left = left.substring(1).trim();
     if (data.strCall.length() == 0) {

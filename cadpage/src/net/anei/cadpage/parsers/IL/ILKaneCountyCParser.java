@@ -83,7 +83,7 @@ public class ILKaneCountyCParser extends SmartAddressParser {
     
     // Lets see what we can do...
     parseAddress(st, flags | FLAG_IMPLIED_INTERSECT | FLAG_IGNORE_AT| FLAG_CROSS_FOLLOWS | FLAG_PAD_FIELD_EXCL_CITY, body, data);
-    if (getStatus() == 0 && data.strCity.length() == 0) return false;
+    if (!isValidAddress() && data.strCity.length() == 0) return false;
     data.strPlace = getPadField();
     body = getLeft();
     if (dirStreetNo != null && data.strAddress.startsWith("999999 ")) {
@@ -118,7 +118,7 @@ public class ILKaneCountyCParser extends SmartAddressParser {
       }
       
       Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body);
-      if (res.getStatus() > 0) {
+      if (res.isValid()) {
         res.getData(data);
         data.strSupp = res.getLeft();
         if (data.strSupp.length() == 0) {

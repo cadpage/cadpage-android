@@ -1,14 +1,10 @@
 package net.anei.cadpage.parsers.GA;
 
-import java.util.regex.Pattern;
-
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class GABullochCountyAParser extends SmartAddressParser {
-  
-  private static final Pattern START_NUMBER = Pattern.compile("^\\d+ ");
   
   public GABullochCountyAParser() {
     this("BULLOCH COUNTY", "GA");
@@ -56,19 +52,16 @@ public class GABullochCountyAParser extends SmartAddressParser {
         flds[j] = flds[j].trim();
         res[j] = parseAddress(st, flags, flds[j]);
         int stat = res[j].getStatus();
-        if (pass == 1) {
-          if (stat > 0 || START_NUMBER.matcher(flds[j]).find()) stat++;
-        }
         if (stat > bestStat) {
           bestStat = stat;
           bestJ = j;
         }
       }
-      if (bestStat > 0) break;
+      if (bestStat > STATUS_MARGINAL) break;
     }
     
     // If we didn't find an address in any of this, bail out
-    if (bestStat <= 0) return false;
+    if (bestStat == STATUS_NOTHING) return false;
     
     // If the subject matches the address line
     if (!subject.equals(flds[bestJ])) data.strCall = subject;

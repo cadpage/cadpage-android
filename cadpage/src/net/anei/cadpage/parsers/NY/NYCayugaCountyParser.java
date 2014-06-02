@@ -60,7 +60,7 @@ public class NYCayugaCountyParser extends SmartAddressParser {
       pt = body.indexOf(',');
       if (pt >= 0) {
         Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, body.substring(pt+1).trim());
-        if (res.getStatus() > 0) {
+        if (res.isValid()) {
           parseAddress(st, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, body.substring(0,pt).trim(), data);
           res.getData(data);
           extra = res.getLeft();
@@ -151,12 +151,12 @@ public class NYCayugaCountyParser extends SmartAddressParser {
         int pt = body.indexOf(',');
         if (pt < 0) break;
         String tmp = body.substring(0,pt).trim();
-        if (checkAddress(tmp) == 0) break;
+        if (!isValidAddress(tmp)) break;
         cross = append(cross, ", ", tmp);
         body = body.substring(pt+1).trim();
       }
       Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_NO_CITY, body);
-      if (res.getStatus() > 0) {
+      if (res.isValid()) {
         res.getData(data);
         body = res.getLeft();
       }

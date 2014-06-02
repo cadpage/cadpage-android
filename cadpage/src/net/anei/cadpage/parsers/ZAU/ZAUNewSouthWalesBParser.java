@@ -78,7 +78,7 @@ public class ZAUNewSouthWalesBParser extends SmartAddressParser {
     
     if (addr.length() > 0) {
       String call = p.get();
-      if (city.length() == 0 && checkAddress(call) > 0) {
+      if (city.length() == 0 && isValidAddress(call)) {
         data.strCall = addr;
         addr = call;
       } else {

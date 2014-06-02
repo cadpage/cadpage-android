@@ -96,7 +96,7 @@ public class SDLincolnCountyParser extends FieldProgramParser {
     if (SUB_SRC_PTN.matcher(subject).matches()) {
       if (body.startsWith(subject+',')) {
         res = parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_NO_IMPLIED_APT, body.substring(subject.length()+1).trim());
-        if (res.getStatus() > 0) {
+        if (res.isValid()) {
           setFieldList("SRC CALL ADDR APT CITY ST INFO");
           data.strSource = subject;
           res.getData(data);
@@ -158,7 +158,7 @@ public class SDLincolnCountyParser extends FieldProgramParser {
           parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, body, data);
           info = append(getLeft(), " - ", info);
         }
-        if (true && !good && getStatus() == 0 &&
+        if (true && !good && !isValidAddress() &&
              (!isPositiveId() || info.length() == 0)) return false;
       } 
       

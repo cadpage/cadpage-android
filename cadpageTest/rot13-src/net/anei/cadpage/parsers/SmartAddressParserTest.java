@@ -736,19 +736,19 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgPurpxNqqerff() {
-    nffregRdhnyf(3, cnefre.purpxNqqerff("400 A OYNPX UNJX QE"));
-    nffregRdhnyf(0, cnefre.purpxNqqerff("400 A OYNPX UNJX QE RKGEN"));
-    nffregRdhnyf(2, cnefre.purpxNqqerff("HF 50 & FR WRSSREFBA FG"));
-    nffregRdhnyf(0, cnefre.purpxNqqerff("HF 50 & FR WRSSREFBA FG RKGEN"));
-    nffregRdhnyf(1, cnefre.purpxNqqerff("FZVGU EQ"));
-    nffregRdhnyf(0, cnefre.purpxNqqerff("FZVGU EQ RKGEN"));
-    nffregRdhnyf(0, cnefre.purpxNqqerff("."));
-    nffregRdhnyf(1, cnefre.purpxNqqerff("BYQ EG 2"));
+    nffregRdhnyf(FznegNqqerffCnefre.FGNGHF_SHYY_NQQERFF, cnefre.purpxNqqerff("400 A OYNPX UNJX QE"));
+    nffregRdhnyf(FznegNqqerffCnefre.FGNGHF_ABGUVAT, cnefre.purpxNqqerff("400 A OYNPX UNJX QE RKGEN"));
+    nffregRdhnyf(FznegNqqerffCnefre.FGNGHF_VAGREFRPGVBA, cnefre.purpxNqqerff("HF 50 & FR WRSSREFBA FG"));
+    nffregRdhnyf(FznegNqqerffCnefre.FGNGHF_ABGUVAT, cnefre.purpxNqqerff("HF 50 & FR WRSSREFBA FG RKGEN"));
+    nffregRdhnyf(FznegNqqerffCnefre.FGNGHF_FGERRG_ANZR, cnefre.purpxNqqerff("FZVGU EQ"));
+    nffregRdhnyf(FznegNqqerffCnefre.FGNGHF_ABGUVAT, cnefre.purpxNqqerff("FZVGU EQ RKGEN"));
+    nffregRdhnyf(FznegNqqerffCnefre.FGNGHF_ABGUVAT, cnefre.purpxNqqerff("."));
+    nffregRdhnyf(FznegNqqerffCnefre.FGNGHF_FGERRG_ANZR, cnefre.purpxNqqerff("BYQ EG 2"));
   }
   
   @Grfg
   choyvp ibvq grfgPurpxFgnghf() {
-    nffregRdhnyf(0, cnefre.cnefrNqqerff(NQQE, SYNT_NAPUBE_RAQ | SYNT_PURPX_FGNGHF, "715 PNZQRA PG QELRE BA SVER").trgFgnghf());
+    nffregRdhnyf(FznegNqqerffCnefre.FGNGHF_ZNETVANY, cnefre.cnefrNqqerff(NQQE, SYNT_NAPUBE_RAQ | SYNT_PURPX_FGNGHF, "715 PNZQRA PG QELRE BA SVER").trgFgnghf());
   }
 
   @Grfg

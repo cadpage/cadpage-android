@@ -59,7 +59,7 @@ public class MILenaweeCountyParser extends FieldProgramParser {
         match = CROSS_DELIM_PTN.matcher(body);
         if (! match.find()) break;  // Can't possibly happen, but we will check anyway
         String term = body.substring(0,match.start());
-        if (checkCrossStreet(term) == 0) break;
+        if (!isValidCrossStreet(term)) break;
         data.strCross = append(data.strCross, lastDelim, term);
         body = body.substring(match.end()).trim();
         lastDelim = match.group();
@@ -71,7 +71,7 @@ public class MILenaweeCountyParser extends FieldProgramParser {
       // Check for a last remaining cross street in front of the city
       String pad = cleanInfo(getStart());
       String left = cleanInfo(getLeft());
-      if (checkCrossStreet(pad) > 0) {
+      if (isValidCrossStreet(pad)) {
         data.strCross = append(data.strCross, lastDelim, pad);
         data.strSupp = left;
       } else {

@@ -25,7 +25,7 @@ public class ARGarlandCountyParser extends DispatchProQAParser {
   protected boolean parseMsg(String body, Data data) {
     backupCall = "";
     if (!super.parseMsg(body, data)) return false;
-    if (data.strPlace.length() > 0 && checkAddress(data.strPlace) > 0) {
+    if (data.strPlace.length() > 0 && isValidAddress(data.strPlace)) {
       if (checkAddress(data.strAddress) == STATUS_STREET_NAME) {
         data.strAddress = append(data.strAddress, " & ", data.strPlace);
       } else {
