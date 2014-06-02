@@ -668,7 +668,7 @@ choyvp pynff BUPhlnubtnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:5715  JVYORE NI",
         "ZNQQE:5715  JVYORE NIR",
         "PVGL:CNEZN",
-        "CUBAR:GBBX N YNETR V9AFHYVA FUBG NAQ GELVAT GB XVYY UREFRYS");
+        "VASB:GBBX N YNETR V9AFHYVA FUBG NAQ GELVAT GB XVYY UREFRYS\aQEVIVAT QBJA JVYO");
 
     qbGrfg("G65",
         "(Qvfcngpu Nyreg: PQ-13-051564) PQ-13-051564\aS32 ZRQVPNY RZRETRAPL\a3810  GBEEVATGBA NI\a\aCNEZN BU \aNtrapvrf nffvtarq:",
