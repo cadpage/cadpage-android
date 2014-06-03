@@ -163,6 +163,7 @@ class Active911Vendor extends Vendor {
       "US/CA/CityofSLakeTahoe",           "CASouthLakeTahoe",
       "US/CA/ContraCostaCounty",          "CAContraCostaCounty",
       "US/CA/CSB",                        "CASanBernardinoCountyB",
+      "US/CA/ElDoradoCounty",             "CAElDoradoCounty",
       "US/CA/Jpapage",                    "CASanDiegoCounty",
       "US/CA/Hanford",                    "CAHanford",
       "US/CA/Hayward",                    "CAHayward",
