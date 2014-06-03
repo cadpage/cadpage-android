@@ -1,18 +1,12 @@
 package net.anei.cadpage.parsers.PA;
 
-import net.anei.cadpage.parsers.NJ.NJCENCOMParser;
+import net.anei.cadpage.parsers.GroupBestParser;
 
-/**
- * Pike County, PA
- */
-public class PAPikeCountyParser extends NJCENCOMParser {
+public class PAPikeCountyParser extends GroupBestParser {
   
   public PAPikeCountyParser() {
-    super("PIKE COUNTY", "PA");
+    super(new PAPikeCountyAParser(), 
+          new PAPikeCountyBParser());
   }
   
-  @Override
-  public String getLocName() {
-    return "Pike County, PA";
-  }
 }

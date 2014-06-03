@@ -37,6 +37,11 @@ public class NJCENCOMParser extends FieldProgramParser {
   }
   
   @Override
+  public String getAliasCode() {
+    return "NJCENCOM";
+  }
+
+  @Override
   public boolean parseMsg(String body, Data data) {
     Matcher match = RUN_RPT_MASTER.matcher(body);
     if (match.matches()) {
