@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">06012014</string>
-  <string name="release_version">v1.7.24</string>
+  <string name="release_date">06022014</string>
+  <string name="release_version">v1.7.25</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -39,6 +39,9 @@ Nacogdoches County, TX\n
 Rosenberg, TX\n
 Chelan County, WA\n
 Sweden\n
+\n
+General fixes:\n
+Fixed crash in payment status recalculation logic\n
   </string>
 </resources>
   

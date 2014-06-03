@@ -219,7 +219,7 @@ public class DonationManager {
       if (year < paidYear) return;
       
       // Next get the current and new free subscriber status
-      boolean freeSub = sponsor != null && sponsor.equals("FREE");
+      boolean freeSub = sponsor != null && sponsor.equalsIgnoreCase("FREE");
       boolean curFreeSub = ManagePreferences.freeSub();
 
       // if this year is better than current year, update current paid year status
@@ -236,7 +236,7 @@ public class DonationManager {
       else if (year == paidYear && freeSub && !curFreeSub) return;
       
       // Purchase date processing, only if we have one of course
-      if (purchaseDateStr != null) {
+      if (purchaseDateStr != null && purchaseDateStr.length()>=4) {
         
         // If subscription year is better than last, this purchase date takes
         // priority.  If year is the same,  use this purchase date if it is
