@@ -176,6 +176,7 @@ public class ManageParsers {
         "TXWilliamsonCountyB","TXWilliamsonCounty",     // 04/24/2014
         "VAPrinceWilliamCountyA","VAPrinceWilliamCounty",// 04/26/2014
         "VAPrinceWilliamCountyB","VAPrinceWilliamCounty",// 04/26/2014
+        "TXCombine",          "TXKaufmanCounty"         // 06/03/2014
         
   });
 
