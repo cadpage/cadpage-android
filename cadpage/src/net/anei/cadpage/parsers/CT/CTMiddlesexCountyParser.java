@@ -37,7 +37,13 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
     if (!match.matches()) return false;
     data.strSource = getOptGroup(match.group(1));
     data.strCallId = match.group(2);
-    return parseFields(body.split("\n"), 5, data);
+    if (parseFields(body.split("\n"), 5, data)) return true;
+    String src = data.strSource;
+    String callId = data.strCallId;
+    data.parseGeneralAlert(this, body);
+    data.strSource = src;
+    data.strCallId = callId;
+    return true;
   }
   
   @Override

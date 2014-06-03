@@ -363,6 +363,7 @@ class Active911Vendor extends Vendor {
       "US/PA/FDCMS",                      "PAChesterCountyVariant",
       "US/PA/FranklinCounty",             "PAFranklinCounty",
       "US/PA/FultonCounty",               "PAFultonCounty",
+      "US/PA/Km911",                      "PALebanonCounty",
       "US/PA/LackawannaCounty",           "PALackawannaCounty",
       "US/PA/LancasterCounty",            "PALancasterCounty",
       "US/PA/LuzerneCounty",              "PALuzerneCounty",
