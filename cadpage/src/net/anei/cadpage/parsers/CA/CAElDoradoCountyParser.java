@@ -15,13 +15,14 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class CAElDoradoCountyParser extends MsgParser {
   
   private static final Pattern MARKER = Pattern.compile("^(\\d{1,2}-\\w{3}-\\d{4})/(\\d\\d:\\d\\d:\\d\\d)[:;] ");
-  private static final Pattern MASTER = Pattern.compile("^(.*?)[:;] Inc# (.*?)[:;] (.*?) *,([_A-Za-z]*?)[ ;](?:\\((.*?)\\) )? *(.*?)(?:;|$)");
+  private static final Pattern MAP_URL_PTN = Pattern.compile("<a href=\"http://maps\\.google\\.com/.*?\">Map;</a>");
+  private static final Pattern MASTER = Pattern.compile("^(.*?)[:;] Inc# (.*?)[:;] (.*?) *,([_A-Za-z0-9]*?)[ ;](?:\\((.*?)\\) )? *(.*?)(?:;|$)");
   private static final Pattern B_ADDR = Pattern.compile("=[BL]\\(.*\\)");
   private static final DateFormat DATE_FMT = new SimpleDateFormat("dd-MMM-yyyy");
   
   public CAElDoradoCountyParser() {
     super("EL DORADO COUNTY", "CA");
-    setFieldList("DATE TIME CALL ID ADDR CITY PLACE UNIT GPS");
+    setFieldList("DATE TIME CALL ID ADDR APT CITY PLACE UNIT GPS");
   }
   
   @Override
@@ -39,6 +40,9 @@ public class CAElDoradoCountyParser extends MsgParser {
     data.strTime = match.group(2);
     body = body.substring(match.end()).trim();
     
+    // Search and destroy redundant Google map URL
+    body = MAP_URL_PTN.matcher(body).replaceFirst("");
+    
     match = MASTER.matcher(body);
     if (!match.find()) return false;
     
@@ -55,6 +59,7 @@ public class CAElDoradoCountyParser extends MsgParser {
     parseAddress(addr, data);
     data.strCity = match.group(4).trim().replace('_', ' ');
     if (data.strCity.startsWith("GEORGETOWN ")) data.strCity = "GEORGETOWN";
+    else if (data.strCity.startsWith("SOUTH PLACER ")) data.strCity = "PLACER COUNTY";
     String sPlace = match.group(5);
     if (sPlace != null) data.strPlace = sPlace.trim();
     data.strUnit = match.group(6).trim();

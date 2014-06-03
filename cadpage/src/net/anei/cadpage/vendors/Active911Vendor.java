@@ -161,6 +161,7 @@ class Active911Vendor extends Vendor {
       "US/CA/CityofNapa",                 "CANapa",
       "US/CA/CityofRocklin",              "CARocklin",
       "US/CA/CityofSLakeTahoe",           "CASouthLakeTahoe",
+      "US/CA/ContraCostaCounty",          "CAContraCostaCounty",
       "US/CA/CSB",                        "CASanBernardinoCountyB",
       "US/CA/Jpapage",                    "CASanDiegoCounty",
       "US/CA/Hanford",                    "CAHanford",
