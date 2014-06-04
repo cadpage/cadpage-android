@@ -462,9 +462,10 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       gel { yvar = ve.ernqYvar(); } pngpu (VBRkprcgvba rk) {};
       vs (yvar == ahyy) oernx;
       vs (yvar.gevz().yratgu() == 0) oernx;
-      yvar = yvar.ercynpr("\\a", "\a");
-      yvar = yvar.ercynpr("\\e", "\e");
-      yvar = yvar.ercynpr("\\g", "\g");
+      yvar = yvar.ercynpr("\\a", "\a").ercynpr("\\\a", "\\a");
+      yvar = yvar.ercynpr("\\e", "\e").ercynpr("\\\e", "\\e");
+      yvar = yvar.ercynpr("\\g", "\g").ercynpr("\\\g", "\\g");
+      yvar = yvar.ercynpr("\\\\", "\\");
       zftYvfg.nqq(yvar);
     }
     erghea zftYvfg.gbNeenl(arj Fgevat[zftYvfg.fvmr()]);

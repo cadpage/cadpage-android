@@ -11,20 +11,56 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class KYKentonCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER1 = Pattern.compile("(.*?) -- (\\d{4}-\\d{8}) +/ *(.*)");
-  private static final Pattern MASTER2 = Pattern.compile("((?:\\d{3,} +)+) ([A-Z]+\\d+) +(.*?) +(\\d{4}-\\d{8})");
-  private static final Pattern MASTER3 = Pattern.compile("(.*) / (\\d{4}-\\d{8}) (.*)");
+  private static final Pattern MASTER1 = Pattern.compile("(.*?) -- (\\d{4}-\\d{8})? +/ *(.*)");
+  private static final Pattern MASTER2 = Pattern.compile("(.* - STAGE AT): +/ +(.*)");
   private static final Pattern CASE_BREAK_PTN = Pattern.compile("(.*?) *\\b([^a-z]+)$");
-  private static final Pattern DISPATCH_UNIT_PTN = Pattern.compile("^Dispatch received by unit ([^ ]+) *");
-  private static final Pattern MISSED_CROSS_ST_PTN = Pattern.compile(" *([^ ]+) */$");
   private static final Pattern PLACE_DEPT_PTN = Pattern.compile("(.*?) *\\b([A-Z]{2}[FP]D\\b.*)");
   
   public KYKentonCountyParser() {
     super(CITY_LIST, "KENTON COUNTY", "KY");
-    addRoadSuffixTerms("PI");
+    addRoadSuffixTerms("PI", "XING");
     setupMultiWordStreets(
+        "BRACHT PINER",
+        "CASTLE HILL",
+        "CENTRE VIEW",
+        "CLUB HOUSE",
+        "CRUISE CREEK",
+        "DRY RIDGE",
+        "FAR HILLS",
+        "FORT HENRY",
+        "FOWLER CREEK",
+        "FRIAR TUCK",
+        "FREEDOM PARK",
         "GEORGE STEINFORD",
+        "HENRY CLAY",
+        "HIGH RIDGE",
+        "JACK WOODS",
+        "JAMES SIMPSON JR",
+        "LICKING STATION",
+        "MEADOW GLEN",
+        "MEDICAL VILLAGE",
+        "MT VERNON",
+        "MANOR LAKE",
+        "OLD TAYLOR MILL",
+        "REGAL RIDGE",
+        "ROUND HILL",
+        "SLEEPLY HOLLOW",
+        "SOUTH LOOP",
+        "ST ANTHONY",
+        "ST MATTHEWS",
+        "ST JAMES",
+        "ST JOSEPH",
+        "STEEP CREEK",
+        "SUGAR TREE",
+        "TAYLOR CREEK",
+        "TAYLOR MILL",
+        "THOMAS MORE",
+        "TIMBER RIDGE",
+        "TUSCANY VALLEY",
         "TWIN LAKES",
+        "VALLEY SQUARE",
+        "VALLEY TRAILS",
+        "VALLEY VIEW",
         "WALTON NICHOLSON"
         );
   }
@@ -43,96 +79,17 @@ public class KYKentonCountyParser extends SmartAddressParser {
     String addr;
     Matcher match;
     if ((match = MASTER1.matcher(body)).matches()) {
-      setFieldList("CALL PLACE SRC ADDR APT ID INFO");
+      setFieldList("CALL PLACE SRC ADDR APT CITY ID INFO");
       addr = match.group(1).trim();
-      data.strCallId = match.group(2);
+      data.strCallId = getOptGroup(match.group(2));
       data.strSupp = match.group(3);
     }
     
     else if ((match = MASTER2.matcher(body)).matches()) {
-      setFieldList("UNIT SRC ADDR APT PLACE CITY CALL ID");
-      data.strUnit = match.group(1).trim();
-      data.strSource = match.group(2);
-      parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD, match.group(3).trim(), data);
-      if (data.strCity.length() == 0) return false;
-      if (data.strCity.equalsIgnoreCase("KENTON COUNTY")) data.strCity = "";
-      data.strPlace = getPadField();
-      data.strCall = getLeft();
-      data.strCallId = match.group(4);
-      
-      fixPlaceDept(data);
+      setFieldList("CALL ADDR APT CITY");
+      data.strCall = match.group(1).trim();
+      parseAddress(match.group(2), data);
       return true;
-    }
-    
-    else if ((match = MASTER3.matcher(body)).matches()) {
-      setFieldList("CALL PLACE SRC ADDR APT ID CITY UNIT INFO X");
-      addr = match.group(1);
-      data.strCallId = match.group(2);
-      String info = match.group(3);
-      
-      // Next we work on the trailing info section
-      // There is a consistent city name followed by a double blank
-      Parser p = new Parser(info);
-      data.strCity = p.get("  ");
-      if (data.strCity.equalsIgnoreCase("KENTON COUNTY")) data.strCity = "";
-      info = p.get();
-      
-      // This may be followed by one or more dispatched units
-      while ((match = DISPATCH_UNIT_PTN.matcher(info)).find()) {
-        data.strUnit = append(data.strUnit, " ", match.group(1).trim());
-        info = info.substring(match.end());
-      }
-      
-      // This is followed by an general info section which may be mixed case or upper case
-      // and usually by a set of cross streets.  Which are always upper case and may or may
-      // not be separated by double blanks.  But we can't count on the double blanks,
-      // sometimes there are spurious double blanks in the info section.
-      
-      // There is one easy case, where the message ends with a "No Cross Streets Found" msg
-      if (info.endsWith("No Cross Streets Found")) {
-        data.strSupp = info.substring(0,info.length()-22).trim();
-      }
-      
-      // Second slightly easy case is a double blank followed by truncated No Cross Streets msg
-      else {
-        int pt = info.lastIndexOf("  ");
-        pt = (pt < 0 ? pt = 0 : pt+2);
-        if ("No Cross Streets Found".startsWith(info.substring(pt))) {
-          data.strSupp = info.substring(0,pt).trim();
-        }
-        
-        // First find the last case break or double blank delimiter in the string
-        else {
-          pt = 0;
-          match = CASE_BREAK_PTN.matcher(info);
-          if (match.matches()) pt = match.start(2);
-          int pt2 = info.lastIndexOf("  ");
-          if (pt2 > pt) pt = pt2+2;
-          
-          data.strSupp = info.substring(0,pt).trim();
-          String cross = info.substring(pt).trim();
-          
-          // OK, we have a good candidate for the cross street
-          // But since we still are not sure, use the smart parser
-          // to try to pick out the cross street info
-          
-          // We already have used both the start fields, so we will have to save and restore one of them
-          String place = data.strPlace;
-          data.strPlace = "";
-          parseAddress(StartType.START_PLACE, FLAG_ONLY_CROSS, cross, data);
-          data.strSupp = append(data.strSupp, "  ", data.strPlace);
-          data.strPlace = place;
-          data.strCross = append(data.strCross, " ", getLeft());
-          
-          // One last check for things that should have been cross streets but are not
-          // recognized by the smart address parser
-          match = MISSED_CROSS_ST_PTN.matcher(data.strSupp);
-          if (match.find()) {
-            data.strCross = append(match.group(1), " / ", data.strCross);
-            data.strSupp = data.strSupp.substring(0,match.start());
-          }
-        }
-      }
     }
     
     else return false;
@@ -258,34 +215,46 @@ public class KYKentonCountyParser extends SmartAddressParser {
   
   private static final CodeSet CODE_SET = new CodeSet(
       "Abdominal/Stomach Pain",
+      "Accident-Hit Skip",
       "Accident-Train Wreck",
       "Accident-w/Injuries",
+      "Accident-No Injuries",
       "Alarm-Carbon Monoxide Detector",
+      "Alarm-Intrusion",
       "Alarm-Medical Emergency",
       "Allergies/Sting Reaction",
+      "ANIDW",
       "Animal-Bite/Attack",
+      "Animal-Complaint",
       "Arm/Hand Injury",
       "Assist-Fire",
+      "Assault",
       "Assault w/Injuries",
+      "Assist-Other Agency",
       "Back Pain/Injury",
       "Bleeding/Hemorrhage",
+      "Boat-Adrift/Abandoned",
       "Broken/Fractured Bone",
       "Burn/Scalding",
       "Chest Injury/Pains",
       "Childbirth/Labor/Maternity",
       "Choking",
+      "Criminal Mischief",
       "Difficulty Breathing",
       "Dizzy",
       "DOA-Death Investigation",
       "Diabetic Reaction",
+      "Domestic Trouble",
       "Elevator/Trapped People",
       "Emotional Crisis",
+      "Explosion",
       "Fall",
       "Fire-Alarm",
       "Fire-Alarm",
       "Fire-Arson Investigation",
       "Fire-Auto/Vehicle",
       "Fire-Brush",
+      "Fire-Pump Basement",
       "Fire-Setting Fire Outside",
       "Fire-Smoke/Odor/Chemical",
       "Fire-Investigation",
@@ -294,13 +263,20 @@ public class KYKentonCountyParser extends SmartAddressParser {
       "Fire-Pump Basement",
       "Fire-Structure Fire",
       "Fire-Trash/Dumpster",
+      "General Relay",
       "HAZMAT All",
       "Head Injury",
       "Ill/Non-Specific",
+      "Intoxicated Subject",
+      "Investigation/Follow Up",
       "Landing Zone",
+      "Lockout Veh/Res",
+      "Missing Juvenile",
+      "Motorist Assist",
       "Non-Responsive Person",
       "Not Breathing",
       "Overdose/Drug",
+      "OI",                      // ???
       "Pump Basement",
       "Seizure",
       "Shooting/Gunshot Wound",
@@ -311,6 +287,14 @@ public class KYKentonCountyParser extends SmartAddressParser {
       "Signal 500 5th Alarm",
       "Stabbing",
       "Stroke",
+      "Suspicious-Person",
+      "SWAT CALL - STAGE AT",
+      "Theft",
+      "Trouble-Juvenile",
+      "TS",                      // ???
+      "TX",
+      "Vacation/Business Check",
+      "Well Being Check",
       "Wires Down"
   );
 }
