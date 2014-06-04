@@ -27,9 +27,10 @@ public class MIIronCountyParser extends DispatchOSSIParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     Matcher match = DATE_TIME_PTN.matcher(body);
-    if (!match.matches()) return false;
-    body = match.group(1).trim();
-    setDateTime(DATE_TIME_FMT, match.group(2), data);
+    if (match.matches()) {
+      body = match.group(1).trim();
+      setDateTime(DATE_TIME_FMT, match.group(2), data);
+    }
     return super.parseMsg(body, data);
   }
   
