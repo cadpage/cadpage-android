@@ -6,7 +6,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.AL.ALRevrPbhaglRCnefre;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Revr Pbhagl, AL
+Revr Pbhagl, AL (S) 
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ivtvynag Sver Qrcg

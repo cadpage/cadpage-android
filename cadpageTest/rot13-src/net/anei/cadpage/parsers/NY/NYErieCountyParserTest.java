@@ -36,4 +36,10 @@ choyvp pynff ALRevrPbhaglCnefreGrfg {
       frgCnefre(arj ALRevrPbhaglCnefre());
     }
   }
+  
+  choyvp fgngvp pynff GrfgS rkgraqf ALRevrPbhaglSCnefreGrfg {
+    choyvp GrfgS() {
+      frgCnefre(arj ALRevrPbhaglCnefre());
+    }
+  }
 }
