@@ -87,6 +87,11 @@ public class FLManateeCountyParser extends FieldProgramParser {
         super.parse(field, data);
       }
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE ADDR APT CITY";
+    }
   }
 
   private static final Pattern LOC_APT_PTN = Pattern.compile("(?:APT|RM|SUITE|LOT|#|UNIT) *(.*)", Pattern.CASE_INSENSITIVE);
