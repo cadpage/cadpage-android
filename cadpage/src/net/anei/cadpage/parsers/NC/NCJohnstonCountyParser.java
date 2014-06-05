@@ -20,7 +20,7 @@ public class NCJohnstonCountyParser extends DispatchOSSIParser {
     super(CITY_CODES, "JOHNSTON COUNTY", "NC",
            "( CALL ADDR/Z CITY! APT? X_PLACE_INFO+ | " +
              "CALL CITY ADDR! APT? X_PLACE_INFO+ | " + 
-             "CH? SRC+? CODE? CALL ADDR APT? X_PLACE_INFO+? DATETIME! UNIT CITY% )");
+             "CH? SRC+? CODE? CALL ADDR ( CITY! INFO+ | APT? X_PLACE_INFO+? DATETIME! UNIT CITY% ) )");
   }
 
   @Override
@@ -47,6 +47,17 @@ public class NCJohnstonCountyParser extends DispatchOSSIParser {
   @Override
   public String getProgram() {
     return super.getProgram() + " UNIT PLACE";
+  }
+
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("CH")) return new ChannelField("OPS.*|.*FR|VPR.*|2ND", true);
+    if (name.equals("SRC")) return new MySourceField();
+    if (name.equals("CODE")) return new CodeField("\\d{1,3}[A-Z]\\d\\d[A-Za-z]?", true);
+    if (name.equals("APT")) return new AptField("APT.*|SUITE.*|LOT.*");
+    if (name.equals("X_PLACE_INFO")) return new MyCrossPlaceInfoField();
+    if (name.equals("DATETIME")) return new MyDateTimeField();
+    return super.getField(name);
   }
   
   private class MySourceField extends SourceField {
@@ -123,17 +134,6 @@ public class NCJohnstonCountyParser extends DispatchOSSIParser {
       return true;
     }
   }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("CH")) return new ChannelField("OPS.*|.*FR|VPR.*|2ND", true);
-    if (name.equals("SRC")) return new MySourceField();
-    if (name.equals("CODE")) return new CodeField("\\d{1,3}[A-Z]\\d\\d[A-Za-z]?", true);
-    if (name.equals("APT")) return new AptField("APT.*|SUITE.*|LOT.*");
-    if (name.equals("X_PLACE_INFO")) return new MyCrossPlaceInfoField();
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    return super.getField(name);
-  }
   
   @Override
   public String adjustMapAddress(String addr) {
@@ -152,15 +152,17 @@ public class NCJohnstonCountyParser extends DispatchOSSIParser {
       "GARN", "GARNER",
       "KENL", "KENLY",
       "MICR", "MICRO",
+      "MIDD", "MIDDLESEX",
       "PINE", "PINE LEVEL",
       "PRIN", "PRINCETON",
       "RALE", "RALEIGH",
       "SELM", "SELMA",
       "SMIT", "SMITHFIELD",
+      "WAKE", "WAKE COUNTY",
       "WISM", "WILSON'S MILLS",
       "WEND", "WENDELL",
       "WILL", "WILLOW SPRING",
+      "WILS", "WILSON",
       "ZEBU", "ZEBULON"
-
   });
 }
