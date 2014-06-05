@@ -31,7 +31,7 @@ Jean ~ Cadpage Administrator
 
 *****************************************************************************
 
-The inability to bock messages in Android 4.4 is a "feature" of 4.4.
+The inability to block messages in Android 4.4 is a "feature" of 4.4.
 Not something we can work around unfortunately.
 
 Usually you can use the blacklist or spam blocking features of your
