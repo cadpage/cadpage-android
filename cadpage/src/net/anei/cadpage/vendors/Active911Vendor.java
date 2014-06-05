@@ -368,6 +368,7 @@ class Active911Vendor extends Vendor {
       "US/PA/ClearfieldCounty",           "PAClearfieldCounty",
       "US/PA/ColumbiaCounty",             "PAColumbiaCounty",
       "US/PA/CumberlandCounty",           "PACumberlandCounty",
+      "US/PA/DauphinCounty",              "PADauphinCounty",
       "US/PA/FDCMS",                      "PAChesterCountyVariant",
       "US/PA/FranklinCounty",             "PAFranklinCounty",
       "US/PA/FultonCounty",               "PAFultonCounty",
