@@ -296,6 +296,7 @@ class Active911Vendor extends Vendor {
       "US/NJ/HunterdonCounty",            "NJHunterdonCounty",
       "US/NJ/LifeCommCad",                "NJMercerCounty",
       "US/NJ/MercerCounty",               "NJMercerCountyB",
+      "US/NJ/MorrisCounty",               "NJMorrisCounty",
       "US/NJ/NPD",                        "NJSussexCountyA",
       "US/NJ/Nwbcd",                      "NJSussexCountyA",
       "US/NJ/OceanCounty",                "NJOceanCounty",

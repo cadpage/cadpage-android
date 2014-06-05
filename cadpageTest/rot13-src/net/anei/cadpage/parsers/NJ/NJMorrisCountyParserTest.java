@@ -103,6 +103,10 @@ FUBATHZ FPUBBY (32) VA GUR JBBQF OL, 9 NEEBJ CY [Enaqbycu Gjc] (OEHFU SVER) - 32
 BYQ OEBBXFVQR EQ [Enaqbycu Gjc] (OEHFU SVER) - 3293,3294,3281\e\aPNYYRE ERCBEGVAT N CBFFVOYR OEHFU SVER VA GUR JBBQF-SVER VF YBPNGRQ QVERPGYL ORUVAQ URE ERFVQRAPR\e\a S122790022 20:46\e\a
 OYQVAT #2, 36 PNYNVF EQ [Enaqbycu Gjc] (PBZZEY NYZ) - 3292,3293,3294,3295,3287\e\aVAQVN OEBBX IVYYNTR OYQVAT #2 SVER NYNEZ MBAR 19, P/B NPGVINGVBA. SEBZ NYNEZ CNARY\e\a S122720004 12:14\e\a
 
+Pbagnpg: Rnzba Qnhy <rnzbaqnhy@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz 
+(Fpubbyrlf Zg. Sver) 25 EBFRJBBQ GEY [Jnfuvatgba Gjc] (ZIN VAWHEL) - 3893,3881,3882\aGJB IRUVPYRF - VAWHEVRF\a3eq Cnegl, 1 Cngvrag, Haxabja lrne(f) \aEr
+
 */
 
 choyvp pynff AWZbeevfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -954,6 +958,23 @@ choyvp pynff AWZbeevfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:S122720004",
         "GVZR:12:14");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRnzbaQnhy() {
+
+    qbGrfg("G1",
+        "(Fpubbyrlf Zg. Sver) 25 EBFRJBBQ GEY [Jnfuvatgba Gjc] (ZIN VAWHEL) - 3893,3881,3882\a" +
+        "GJB IRUVPYRF - VAWHEVRF\a" +
+        "3eq Cnegl, 1 Cngvrag, Haxabja lrne(f) \a" +
+        "Er",
+
+        "NQQE:25 EBFRJBBQ GEY",
+        "PVGL:Jnfuvatgba Gjc",
+        "PNYY:ZIN VAWHEL",
+        "VASB:GJB IRUVPYRF - VAWHEVRF / 3eq Cnegl, 1 Cngvrag, Haxabja lrne(f) / Er",
+        "HAVG:3893,3881,3882");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
