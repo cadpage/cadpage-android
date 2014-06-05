@@ -2422,7 +2422,7 @@ Senaxyva, IN (O) (INSenaxyvaOCnefre)
 1018 CERGYBJ FG SENAXYVA YNHERY FG K ZBEGBA FG 14:15:22 ERFPHR RZF- NC frvmher
 1401 A UVTU FG 119 SENAXYVA BNXJBBQ QE K PVGL YVZVGF 11:16:03 ERFPHR RZF- NC 87 L/B ZNYR FNLF UR SRRYF SHAAL NAQ VF NPGVAT IREL FYBJ. EBBZ 119 NFFVFGRQ YVIVAT FVQR
 *******************************************************************************
-Senaxyva Pbhagl, IN (INSenaxyvaPBhaglO)
+Senaxyva Pbhagl, IN (INSenaxyvaPbhaglOCnefre)
 911@SPFB.PBZ:560 FPHSSYVAT UVYY EQ EBPXL ZBHAG;2014-024771;18:31:13;PURFG CNVA;trb:36.984397, -79.896364
 911@SPFB.PBZ:8254 FPEHTTF EQ ZBARGN;2014-024793;20:06:37;ONPX VAWHEL;trb:37.046963, -79.621372
 *******************************************************************************
