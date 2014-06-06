@@ -25,21 +25,25 @@ public class PALancasterCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (! body.contains("~")) return false;
+    data.strSource = subject;
     
-    if (subject.indexOf(' ') >= 0 || subject.indexOf('-') >= 0 || subject.indexOf('/') >= 0) { 
-      data.strCall = subject;
-    } else {
-      data.strSource = subject;
-    }
-    
-    if (body.endsWith("^")) body = body.substring(0,body.length()-1).trim();
+    int pt = body.lastIndexOf('^');
+    if (pt >= 0) body = body.substring(0,pt).trim();
     body = body.replace(" BOROUGH", " BORO").replace(" TOWNSHIP", " TWP");
     return parseFields(body.split("~"), data);
   }
   
   @Override
   public String getProgram() {
-    return "SRC CALL " + super.getProgram();
+    return "SRC " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
+    return super.getField(name);
   }
   
   private static final Pattern CITY_DELIM = Pattern.compile("\n| / ");
@@ -48,18 +52,21 @@ public class PALancasterCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       Matcher match = CITY_DELIM.matcher(field);
       if (match.find()) {
-        data.strCall = append(data.strCall, " / ", field.substring(0,match.start()).trim());
+        data.strCall = field.substring(0,match.start()).trim();
         data.strCity = field.substring(match.end()).trim();
       } else {
-        String call = data.strCall;
-        data.strCall = "";
         parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ONLY_CITY | FLAG_ANCHOR_END, field, data);
-        data.strCall = append(call, " / ", data.strCall);
-        if (data.strCall.length() == 0 || data.strCity.length() == 0) abort();
+        if (data.strCity.length() == 0) abort();
       }
-      if (data.strCity.endsWith(" BORO")) data.strCity = data.strCity.substring(0, data.strCity.length()-5).trim();
+      data.strCity = stripFieldStart(data.strCity, "DAUPHIN ");
+      data.strCity = stripFieldEnd(data.strCity, " BORO");
       if (data.strCity.startsWith("LANC")) data.strCity = "LANCASTER";
-      if (data.strCity.startsWith("DAUPHIN ")) data.strCity = data.strCity.substring(8).trim();
+      
+      if (data.strCall.length() == 0) {
+        data.strCall = data.strSource;
+        data.strSource = "";
+        if (data.strCall.length() == 0) abort();
+      }
     }
   }
   
@@ -70,14 +77,6 @@ public class PALancasterCountyParser extends FieldProgramParser {
       field = LANC_PTN.matcher(field).replaceAll("LANCASTER");
       super.parse(field, data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CITY")) return new MyCityField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
-    return super.getField(name);
   }
   
   @Override
