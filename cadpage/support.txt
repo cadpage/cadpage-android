@@ -1,3 +1,12 @@
+Cadpage now has a very simple direct paging service.  When you register with this service, Cadpage  assigns you a unique dispatch email address.  It is up to you to get your dispatch alerts sent to this email address.  And alerts sent to this address will be forwarded to Cadpage as direct pages.
+
+To start it, open Cadpage Settings and select
+Direct Paging Venders > Cadpage Paging Service > Register
+If all goes well, you will shortly receive a registration confirmation popup that will display your dispatch email address.  From there you will have the option to generate an email requesting that your dispatch alerts be sent to this address.  You just need to fill in the address of your department IT person and send it.
+
+This service is only available to users, or departments, that have current paid Cadpage subscriptions.  We have  to pay for each device running this service and can not afford to do that if we are  not collecting something to cover that. 
+
+If you are one of the 200 some users who received lifetime subscriptions for donating money to Cadpage back in the early days when we were just getting started.  We love you folks!!!  Feel free to use the paging service, we will absorb the cost of supporting you.
 
 ***************************************************************************
 * does not have android.permission.UPDATE_APP_OPS_STATS
