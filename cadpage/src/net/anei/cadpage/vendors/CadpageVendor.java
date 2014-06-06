@@ -81,7 +81,10 @@ class CadpageVendor extends Vendor {
     Uri uri = buildRequestUri("update", null);
     Uri.Builder builder = uri.buildUpon();
     builder.appendQueryParameter("active", DonationManager.instance().isPaidSubscriber() ? "Y" : "N");
-    builder.appendQueryParameter("expDate", calcExpireDate());
+    String expDate = calcExpireDate();
+    if (expDate != null) {
+      builder.appendQueryParameter("expDate", calcExpireDate());
+    }
     
     uri = builder.build();
     HttpService.addHttpRequest(context, new HttpRequest(uri){});
@@ -97,7 +100,9 @@ class CadpageVendor extends Vendor {
   @Override
   boolean registerC2DMId(final Context context, String registrationId, boolean userReq) {
     if (!super.registerC2DMId(context, registrationId, userReq)) return false;
-    updateCadpageStatus(context);
+    if (!DonationManager.instance().isStatusUnstable()) {
+      updateCadpageStatus(context);
+    }
     return true;
   }
  
