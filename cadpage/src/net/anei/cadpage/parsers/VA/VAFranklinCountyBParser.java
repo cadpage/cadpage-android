@@ -17,6 +17,11 @@ public class VAFranklinCountyBParser extends DispatchSouthernParser {
     return "911@FCSO.COM";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
   private static String[] CITY_LIST = new String[]{
 
     // Cities
@@ -35,6 +40,7 @@ public class VAFranklinCountyBParser extends DispatchSouthernParser {
     "SNOW CREEK",
     "UNION HALL",
     "WESTLAKE CORNER",
+    "WIRTZ",
     
     // Bedford County
     "MONETA"

@@ -35,6 +35,9 @@ public class VAFranklinBParser extends DispatchSouthernParser {
     }
   }
 
-  private static final String[] CITY_LIST = new String[]
-     {"FRANKLIN","COURTLAND","SEDLEY"};
+  private static final String[] CITY_LIST = new String[] {
+     "FRANKLIN",
+     "COURTLAND",
+     "SEDLEY"
+   };
 }
