@@ -1,12 +1,18 @@
-Cadpage now has a very simple direct paging service.  When you register with this service, Cadpage  assigns you a unique dispatch email address.  It is up to you to get your dispatch alerts sent to this email address.  And alerts sent to this address will be forwarded to Cadpage as direct pages.
+Cadpage Paging Service
 
-To start it, open Cadpage Settings and select
-Direct Paging Venders > Cadpage Paging Service > Register
-If all goes well, you will shortly receive a registration confirmation popup that will display your dispatch email address.  From there you will have the option to generate an email requesting that your dispatch alerts be sent to this address.  You just need to fill in the address of your department IT person and send it.
+Cadpage now has a very simple direct paging service.  When you register with this service Cadpage assigns you a unique dispatch email address. It is up to you to get your dispatch alerts sent to this email address. Alerts sent to this address will be forwarded to Cadpage as direct pages.
 
-This service is only available to users, or departments, that have current paid Cadpage subscriptions.  We have  to pay for each device running this service and can not afford to do that if we are  not collecting something to cover that. 
+To start the paging service, open Cadpage Settings and select:
 
-If you are one of the 200 some users who received lifetime subscriptions for donating money to Cadpage back in the early days when we were just getting started.  We love you folks!!!  Feel free to use the paging service, we will absorb the cost of supporting you.
+    Direct Paging Venders > Cadpage Paging Service > Register
+
+You should shortly receive a registration confirmation popup that will display your dispatch email address. From there you will have the option to generate an email requesting that your dispatch alerts be sent to this address. Then fill in the address of your department IT person and send it.
+
+This paging service is only available to users or departments that have current paid Cadpage subscriptions. Each device running this service generates expenses that Cadpage must cover.
+
+We especially appreciate the 200+ early adopters with lifetime subscriptions that supported Cadpage at the start. Those members are encouraged to use this paging service as part of their initial investment.
+
+Thank you all for your continued support!
 
 ***************************************************************************
 * does not have android.permission.UPDATE_APP_OPS_STATS
@@ -3383,3 +3389,14 @@ through a local WiFi hotspot if you do not have a carrier data plan.
 
 Good luck,
 
+ARchive of posts on Cadpage website:
+Multiple Versions ! and where's the news ?
+posted Jan 14, 2012, 5:14 PM by Derrick Bennett
+There are now 2 versions of CadPage on the android market. One is called Cadpage (free) and is just that. Free forever with all the features and abilities that CadPage has had. It will
+ continue to receive updates and new locations but will be slightly behind the main version on release dates. The standard version of Cadpage is also in the android market and will continue
+  to receive weekly updates including fixes and new locations. This version also has additional functionality of now supporting CodeMessaging.net and Active911.com messaging services. These
+services now work with CadPage and do not use SMS for delivering messages. 
+
+For the Latest news and headlines please check the facebook page. We update this page as often as we can but the facebook page gets the immediate updates when a new version goes out.
+
+Also for those that keep asking and begging Ken has started working on an IPhone version with some other helpful people. So when that is available we will post more information here.
