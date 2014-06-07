@@ -1037,12 +1037,12 @@ public class SmsMmsMessage implements Serializable {
   private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss.SSS");
  
   public boolean duplicate(SmsMmsMessage msg) {
-    if (messageType != msg.messageType) return false;
     if (messageType == MESSAGE_TYPE_MMS) {
-      return match(contentLoc, msg.contentLoc) &&
-          match(mmsMsgId, msg.mmsMsgId);
+      return msg.messageType == MESSAGE_TYPE_MMS &&
+             match(contentLoc, msg.contentLoc) &&
+             match(mmsMsgId, msg.mmsMsgId);
     } else {
-      return match(messageBody, msg.messageBody); 
+      return match(subject, msg.subject) && match(messageBody, msg.messageBody); 
     }
   }
   

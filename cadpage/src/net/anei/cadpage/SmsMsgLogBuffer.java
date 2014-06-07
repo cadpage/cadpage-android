@@ -68,7 +68,7 @@ public class SmsMsgLogBuffer {
     // If we are suppressing duplicate messages, see if the new message
     // duplicates one already in the queue.  If queued message wasn't
     // identified as some kind of CAD message, don't check it
-    if (msg.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS && ManagePreferences.suppressDupMsg()) {
+    if (ManagePreferences.suppressDupMsg()) {
       for (SmsMmsMessage msg2 : msgQueue) {
         if (msg.duplicate(msg2)) return false;
       }
