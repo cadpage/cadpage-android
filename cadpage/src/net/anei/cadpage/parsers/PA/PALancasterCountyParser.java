@@ -68,6 +68,11 @@ public class PALancasterCountyParser extends FieldProgramParser {
         if (data.strCall.length() == 0) abort();
       }
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "CALL CITY";
+    }
   }
   
   private static Pattern LANC_PTN = Pattern.compile("\\bLANC\\b", Pattern.CASE_INSENSITIVE);
@@ -234,8 +239,14 @@ public class PALancasterCountyParser extends FieldProgramParser {
     "WHITE HORSE",
     
     // Other counties
+    "BERKS COUNTY",
     "CHESTER COUNTY",
+    "DAUPHIN COUNTY",
+    "LEBANON COUNTY",
+    "YORK COUNTY",
     
+    "CHESTER ATGLEN BORO",
+    "DAUPHIN CONEWAGO TWP",
     "DAUPHIN LONDONDERRY TWP"
 
   };
