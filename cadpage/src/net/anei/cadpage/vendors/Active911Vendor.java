@@ -329,6 +329,7 @@ class Active911Vendor extends Vendor {
       "US/NY/WayneCounty",                "NYWayneCountyB",
       "US/NY/WestchesterCounty",          "NYWestchesterCounty",
       "US/OH/ButlerCountySheriff",        "OHButlerCountyA",
+      "US/OH/CityofXenia",                "OHGreeneCounty",
       "US/OH/Fairfield",                  "OHFairfieldCounty",
       "US/OH/HamiltonCounty",             "OHHamiltonCounty",
       "US/OH/HolmesCountySheriff",        "OHHolmesCounty",

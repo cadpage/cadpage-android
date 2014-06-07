@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -14,7 +15,7 @@ public class OHGreeneCountyParser extends FieldProgramParser {
   
   public OHGreeneCountyParser() {
     super(CITY_LIST, "GREENE COUNTY", "OH",
-           "CALL Location:ADDR/SXXx! Time:TIME Units:UNIT Common_Name:PLACE Info:INFO ( Problem:CALL Patient_Info:INFO | Nature_Of_Call:CALL ) Incident_#:ID");
+           "CALL Location:ADDR/SXXx! Time:TIME Units:UNIT Common_Name:PLACE Info:INFO ( Problem:CALL Patient_Info:INFO | Nature_Of_Call:CALL ) Incident_#:ID Narrative:INFO");
   }
   
   @Override
@@ -26,6 +27,15 @@ public class OHGreeneCountyParser extends FieldProgramParser {
   public boolean parseMsg(String body, Data data) {
     body = MISSED_BLANK_PTN.matcher(body).replaceAll("$1 $2");
     return super.parseMsg(body, data);
+  }
+
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ID")) return new MyIdInfoField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   private class MyCallField extends CallField {
@@ -52,6 +62,24 @@ public class OHGreeneCountyParser extends FieldProgramParser {
     }
   }
 
+  private static Pattern ID_INFO_PTN = Pattern.compile("(\\d+-\\d+) *(.*)");
+  private class MyIdInfoField extends MyInfoField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = ID_INFO_PTN.matcher(field);
+      if (match.matches()) {
+        data.strCallId = match.group(1);
+        field = match.group(2).trim();
+      }
+      DispatchProQAParser.parseProQAData(false, field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ID " + super.getFieldNames();
+    }
+  }
+
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
@@ -62,14 +90,6 @@ public class OHGreeneCountyParser extends FieldProgramParser {
     public String getFieldNames() {
       return "INFO CODE";
     }
-  }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
   
   private static final String[] CITY_LIST = new String[]{
@@ -86,7 +106,7 @@ public class OHGreeneCountyParser extends FieldProgramParser {
     // Villages
     "BOWERSVILLE",
     "CEDARVILLE",
-    "CLIFTON (PART)",
+    "CLIFTON",
     "JAMESTOWN",
     "SPRING VALLEY",
     "YELLOW SPRINGS",
@@ -111,6 +131,14 @@ public class OHGreeneCountyParser extends FieldProgramParser {
     "WRIGHT-PATTERSON AIR FORCE BASE",
     "BYRON",
     "OLDTOWN",
+    
+    "CLARK COUNTY",
+    "CLINTON COUNTY",
+    "FAYETTE COUNTY",
+    "MADISON COUNTY",
+    "MIAMI COUNTY",
+    "MONTGOMERY COUNTY",
+    "WARREN COUNTY"
 
   };
 }
