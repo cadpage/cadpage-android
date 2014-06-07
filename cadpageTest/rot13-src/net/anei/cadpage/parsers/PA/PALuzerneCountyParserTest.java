@@ -14528,7 +14528,7 @@ choyvp pynff CNYhmrearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:AO V81 @ 164",
         "PVGL:UNABIRE GJC",
         "NQQE:AO V81 @ 164",
-        "ZNQQE:V 81 @ 164",
+        "ZNQQE:V 81 @ 164", //qbrf abg znc
         "FEP:ABEG",
         "ZNC:3781",
         "VASB:NG GUR EI PENFU PUVRS ZHEGUN JOSQ  BAR VAWHEL YBJRE NOQBZVANY CNVA 68 LB Z NYREG K 3",
@@ -14543,7 +14543,7 @@ choyvp pynff CNYhmrearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:AO V81 @ 165.4",
         "PVGL:NFUYRL",
         "NQQE:AO V81 @ 165.4",
-        "ZNQQE:V 81 @ 165.4",
+        "ZNQQE:V 81 @ 165.4", //qbrf abg znc
         "FEP:ABEG",
         "ZNC:1181",
         "VASB:2 IRUVPYR ZIN JVGU VAW NAQ RAGENCZRAG BAR BIRE RZONAXZRAG",
@@ -14558,7 +14558,7 @@ choyvp pynff CNYhmrearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:AO V81 @ 165",
         "PVGL:NFUYRL",
         "NQQE:AO V81 @ 165",
-        "ZNQQE:V 81 @ 165",
+        "ZNQQE:V 81 @ 165", //qbrf abg znc
         "FEP:ABEG",
         "ZNC:1181",
         "VASB:ARNE RKVG 165 O4 PNE ZIN",
@@ -14587,7 +14587,7 @@ choyvp pynff CNYhmrearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:AO V81 @ 165",
         "PVGL:NFUYRL",
         "NQQE:AO V81 @ 165",
-        "ZNQQE:V 81 @ 165",
+        "ZNQQE:V 81 @ 165", //qbrf abg znc
         "FEP:ABEG",
         "ZNC:1181",
         "VASB:1 PNE BSS GUR EBNQ JVGU VAWHEVRF / QEVIRE HAERFCBAFVIR",
@@ -15333,7 +15333,7 @@ choyvp pynff CNYhmrearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:JO V80 @ ZZ 268",
         "PVGL:SBFGRE GJC",
         "NQQE:JO V80 @ ZZ 268",
-        "ZNQQE:V 80 @ ZZ 268",
+        "ZNQQE:V 80 @ ZZ 268", //qbrf abg znc
         "FEP:FBHG",
         "ZNC:3480",
         "VASB:PNE VAGB GUR JBBQF JRQTRQ ORGJRRA GERRF",
