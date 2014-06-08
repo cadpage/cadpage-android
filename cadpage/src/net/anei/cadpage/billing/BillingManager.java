@@ -57,13 +57,18 @@ public class BillingManager {
   /**
    * Queue runnable event to be run when billing is up and running
    * @param event Runnable event to be run when billing is supported
+   * @return true if event was run or will be run in the forseable future,
+   * false if it just isn't going to happen
    */
-  public void runWhenSupported(Runnable event) {
-    if (isSupported()) event.run();
+  public boolean runWhenSupported(Runnable event) {
+    if (isSupported()) {
+      event.run();
+      return true;
+    }
     else {
       if (eventQueue == null) eventQueue = new ArrayList<Runnable>();
       eventQueue.add(event);
-      mService.checkBillingSupported();
+      return mService.checkBillingSupported();
     }
   }
   

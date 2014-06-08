@@ -493,6 +493,8 @@ public class VendorManager {
    * Confirm that the vendor who has just sent us a message is really enabled
    * @param context current context
    * @param vendorCode vendor code
+   * @return true if everything is cool, false if vendor should not be
+   * sending pages to this device
    */
   public boolean checkVendorStatus(Context context, String vendorCode) {
     Vendor vendor = findVendor(vendorCode);

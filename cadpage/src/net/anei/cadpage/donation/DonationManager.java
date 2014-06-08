@@ -90,7 +90,8 @@ public class DonationManager {
     if (recalcInProgress) return;
     
     // Do not do anything until Market billing is up and runing
-    BillingManager.instance().runWhenSupported(new ReloadStatusEvent());
+    Runnable event = new ReloadStatusEvent();
+    if (!BillingManager.instance().runWhenSupported(event)) event.run();
   }
 
   // ReloadStatusEven is run when billing services are up and running

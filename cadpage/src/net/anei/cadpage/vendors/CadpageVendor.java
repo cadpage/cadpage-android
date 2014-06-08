@@ -8,6 +8,7 @@ import android.content.Context;
 import android.net.Uri;
 import net.anei.cadpage.C2DMService;
 import net.anei.cadpage.HttpService;
+import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.donation.DonationManager;
@@ -55,6 +56,9 @@ class CadpageVendor extends Vendor {
     }
     Uri uri = buildRequestUri("register", registrationId);
     Uri.Builder builder = uri.buildUpon();
+    
+    String phone = UserAcctManager.instance().getPhoneNumber();
+    if (phone != null) builder.appendQueryParameter("phone", phone);
     
     String meid = UserAcctManager.instance().getMEID();
     if (meid != null) builder.appendQueryParameter("MEID",meid);
@@ -115,29 +119,47 @@ class CadpageVendor extends Vendor {
   @Override
   boolean checkVendorStatus(Context context) {
     
-    // If the current subscription status is untrustworthy, let it slide.
-    if (!DonationManager.instance().isStatusUnstable()) {
+    // If the current subscription status is untrustworthy, just let it go
+    if (DonationManager.instance().isStatusUnstable()) return true;
+    
+    // Ditto if we are just starting an uninitialized app
+    if (! ManagePreferences.initialized()) return true;
+    
+    
+    // If service is not enabled, we have two recovery options
+    if (!isEnabled()) {
       
-      // If service is not enabled, drastic action is required.  We do not have
+      // If we have currently paid up, send another register request and hope
+      // that the server will match on the phone or MEID and restore everything
+      if (DonationManager.instance().isPaidSubscriber()) {
+        registerReq(context);
+        return true;
+      }
+      
+      // If service is not enabled, and no current paid subscription, 
+      // drastic action is required.  We do not have
       // any trustworthy account information to pass to the server.  The only way
       // we can pretty reliably break the connection is by unregistering the
       // current registration ID and getting a new one
-      
-      if (!isEnabled()) {
+      else {
         C2DMService.unregister(context);
-        return false;
-      }
-      
-      // If service is enabled, but we no longer have a current paid subscription
-      // We only need to tell the server this service is no longer active
-      if (!DonationManager.instance().isPaidSubscriber()) {
-        updateCadpageStatus(context);
         return false;
       }
     }
     
-    // Otherwise, return base class result
-    return super.checkVendorStatus(context);
+    // If service is enabled, but we no longer have a current paid subscription
+    // We only need to tell the server this service is no longer active
+    else {
+      if (!DonationManager.instance().isPaidSubscriber()) {
+        updateCadpageStatus(context);
+        return false;
+      }
+      
+      // Otherwise, everything is hunky dory
+      else {
+        return true;
+      }
+    }
   }
 
   /**
