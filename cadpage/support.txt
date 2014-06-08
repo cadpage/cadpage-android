@@ -27,21 +27,17 @@ Thanks for reporting it,
 * Android 4.4 (Kit Kat) dispatch pages showing up in message app inbox
 ***************************************************************************
 
-Unfortunately, that is the way things are going to be under Android 4.4.
+That is a "feature" of the new Android 4.4 system.  There are some good reasons why Google made that change, but the bottom line is, Cadpage can no longer block dispatch text alerts from showing up in your message inbox.
 
-Prior to Android 4.4, apps have the ability to register for SMS messages at a higher than normal priority.  This lets them get a first look at SMS pages and, if it turns out to be something they need to process, block those messages from appearing in the default messaging app.  Cadpage has made use of this capability, as have a number of security and theft prevention apps.
+We have a new direct paging service that is available to everyone with a current paid Cadpage subscription.  Since this does not rely on text messages to push alerts to Cadpage, there is no problem with the alerts showing up in your message inbox.  You can learn more about it at http://www.cadpage.org/paging-service.
 
-Unfortunately, a number of third party messaging apps, Handcent and Go SMS in particular, have misused this feature to grab the highest possibly priority slot, intercept all text messages, and block them from being received by competing messaging apps.  This has been a major problem for Cadpage, and other messaging app developers which have been pretty much forced to adopt the same practice in self defense.  The most recent version of Google Hangouts has started doing this as well.
+Or you can use the spam blocking or blacklisting features of your message app to block messages sent from dispatch.
 
-In Android 4.4, the rules all change to eliminate this nonsense.  The user gets to specify one default messaging app, that app always gets the text pages, and only that app has access to the message database and only that app can send SMS messages.  Other apps, such as Cadpage, can continue to receive SMS messages, but will no longer be able to block them from going to any other apps.
+In the long run, there is an open enhancement request
+https://code.google.com/p/android/issues/detail?id=61684
+asking Google to restore third party message blocking functionality in some future version of Android.  Feel free to register your opinion there.
 
-The good news is that Cadpage will continue to function under Android 4.4.  And rogue messaging apps will no longer be able to block text messages from getting to Cadpage.  The bad news is that we will no longer be able to block dispatch pages from appearing in your default message inbox.  The best you can do is use a blacklisting or spam blocking feature in the default message app to prevent dispatch pages from appearing there.
-
-The only other alternative is to switch to a message service that can push direct pages to Cadpage without relying on text messaging.  The latest release supports our new direct paging service.  You can learn more about it at http://www.cadpage.org/paging-service. 
-
-CodeMessaging.net and Active911.com offer similar service with a lot more features for a bit more money.
-
-Take care,
+Have a nice day,
 Jean ~ Cadpage Administrator
 
 *****************************************************************************
