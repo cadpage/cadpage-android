@@ -7,7 +7,6 @@ vzcbeg bet.whavg.Grfg;
 /*
 Jrfg Sryvpvnan Cnevfu, YN
 
-
 Pbagnpg: Npgvir911
 Ntrapl anzr: Sver Cebgrpgvba Qvfgevpg Ab. 1 bs Jrfg Sryvpvnan
 Ybpngvba: Fnvag Senapvfivyyr, YN, Havgrq Fgngrf
@@ -75,7 +74,7 @@ QvfcngpuO2Cnefre fhopynff
 choyvp pynff YNJrfgSryvpvnanCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp YNJrfgSryvpvnanCnevfuCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "JRFG SRYVPVNAN CNEVFU", "YN");
+    frgCnefre(arj YNJrfgSryvpvnanCnevfuCnefre(), "JRFG SRYVPVNAN CNEVFU", "YN");
   }
 
   @Grfg
