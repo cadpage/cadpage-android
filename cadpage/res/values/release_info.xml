@@ -1,47 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">06022014</string>
-  <string name="release_version">v1.7.25</string>
+  <string name="release_date">06072014</string>
+  <string name="release_version">v1.7.26</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-New Cadpage Paging Service is now supported!!!\n
+Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
 New Locations:\n
-Kane County, IL (alt)\n
-Madison County, KY\n
-Iron County, MI\n
-Winona County, MN\n
-Catawba County, NC\n
-Oklahoma County, OK\n
-Douglas County, OR\n
-Chester County, PA (alt)\n
-Sevier County, TN\n
-Clearwater County, AB\n
+Contra Costa County, CA\n
+Branson, MO\n
+Erie County, NY (alt)\n
+Pike County, PA\n
 \n
 Location Parsing Fixes:\n
-Fresno County, CA\n
-San Diego County, CA\n
-Fairfield County, CT\n
-Manatee County, FL\n
-Walker County, GA\n
-Marion County, IN\n
-Queen Anne County, MD\n
-Montgomery County, PA\n
-Ocean County, NJ\n
-Sussex County, NJ\n
-Josephine County, OR\n
-Adams County, PA\n
-Erie County, PA\n
-Cy Creek Comm Center, TX\n
-Nacogdoches County, TX\n
-Rosenberg, TX\n
-Chelan County, WA\n
-Sweden\n
+Brookfield, CT\n
+Cuyahoga County, OH\n
+Greene Couty, OH\n
+Johnston County, NC\n
+Kenton County, KY\n
+Iron County, MI\n
+Lancaster County, PA\n
+Kaufman County, TX\n
+   (was Combine, TX)\n
+Franklin County, VA\n
 \n
 General fixes:\n
-Fixed crash in payment status recalculation logic\n
+Duplicate message suppression did not work for direct pages.\n
   </string>
 </resources>
   
