@@ -31,6 +31,9 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
     
     if (!subject.equals("Incident")) return false;
     
+    int pt = body.indexOf("\n--");
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    
     Matcher match = BOX_CH_PTN.matcher(body);
     if (match.find()) {
       data.strBox = match.group(1);
@@ -38,7 +41,7 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
       body = body.substring(0,match.start()).trim();
     }
     
-    int pt = body.indexOf("Narrative:");
+    pt = body.indexOf("Narrative:");
     if (pt >= 0) {
       data.strSupp = body.substring(pt+10).trim();
       body = body.substring(0,pt).trim();
