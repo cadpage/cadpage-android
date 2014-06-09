@@ -18,6 +18,7 @@ public class DENewCastleCountyAParser extends FieldProgramParser {
     Pattern.compile("^\\d\\d:\\d\\d(?=T:)")
   };
   
+  private static final Pattern NON_ASCII_PTN = Pattern.compile("[^\\p{ASCII}]");
   private static final Pattern NAKED_BTWN = Pattern.compile("(?<!X: ?)\\bbtwn\\b");
   
   public DENewCastleCountyAParser() {
@@ -58,6 +59,7 @@ public class DENewCastleCountyAParser extends FieldProgramParser {
       if (subjects.length == 2) data.strSource = subjects[0];
     }
     
+    body = NON_ASCII_PTN.matcher(body).replaceAll("");
     body = body.replace('\n', ' ');
     body = body.replaceAll("  +", " ");
     body = body.replace(" :", " DESC:");

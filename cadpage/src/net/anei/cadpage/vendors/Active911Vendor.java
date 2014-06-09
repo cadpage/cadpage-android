@@ -187,6 +187,7 @@ class Active911Vendor extends Vendor {
       "US/CT/Valleyshore911",             "CTMiddlesexCounty",
       "US/DE/ChiefMsg",                   "DESussexCountyA",
       "US/DE/Dover",                      "DEKentCounty",
+      "US/DE/NewCastleCounty",            "DENewCastleCounty",
       "US/FL/BayCounty",                  "FLBayCounty",
       "US/FL/CharlotteCountySheriff",     "FLCharlotteCounty",
       "US/FL/CollierCounty",              "FLCollierCounty",
