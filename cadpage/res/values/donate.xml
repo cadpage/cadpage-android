@@ -333,7 +333,7 @@
   <string name="paging_drop_service">Drop Cadpage Paging Service</string>
   
   <string name="send_dispatch_address_title">Send Dispatch Address</string>
-  <string name="email_address_title">Sending dispatch email address</string>
+  <string name="email_address_title">Send dispatch email address</string>
   <string name="email_address_subject">Please send me dispatch alerts.</string>
   <string name="email_address_text">Please send my dispatch alerts to %s</string>
   
