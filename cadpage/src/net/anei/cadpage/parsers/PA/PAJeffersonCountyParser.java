@@ -10,6 +10,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class PAJeffersonCountyParser extends SmartAddressParser {
   
+  private static final Pattern CLOSE_PAREN_BLK_PTN = Pattern.compile("\\)([^ ])");
   private static final Pattern BOX_CH_PTN = Pattern.compile("(?: +BOX|-)? +(\\d{1,2}-[A-Z](?:-[A-Z])?)(?: +([A-Za-z]+(?: +[A-Za-z]+)?))?$");
   private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:[A-Z]+\\d+|HH))+  +");
   private static final Pattern GPS_PIPE_PTN1 = Pattern.compile("^([-+]?\\d+\\.\\d+)\\|([-+]?\\d+\\.\\d+)\\b");
@@ -33,7 +34,8 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
     
     int pt = body.indexOf("\n--");
     if (pt >= 0) body = body.substring(0,pt).trim();
-    
+
+    body = CLOSE_PAREN_BLK_PTN.matcher(body).replaceFirst(") $1");
     Matcher match = BOX_CH_PTN.matcher(body);
     if (match.find()) {
       data.strBox = match.group(1);
