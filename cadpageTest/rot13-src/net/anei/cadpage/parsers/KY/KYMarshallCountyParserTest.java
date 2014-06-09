@@ -23,7 +23,6 @@ Fraqre: Znefunyy R-911 Prageny Qvfcngpu <911@zpsver.hf>
 (709) 709 vf onpx va freivpr.
 (709) Onpx va freivpr.
 (vasbezngvbany ercbeg) Puvrs naq nffg. puvrs ryrpgvbaf jvyy or gbavtug ng 7:00 cyrnfr pbzr bhg rira\avs lbh bayl unir gvzr gb ibgr
-(Grfg)
 (709) 709 vf bhg bs freivpr sbe znvagranapr hagvy shegure abgvpr.
 (vasbezngvbany ercbeg) Gurer jvyy or na ryrpgvba sbe puvrs/nffg. puvrs guvf Guhefqnl ng 7:00cz
 (R911) GENSSVP NPPVQRAG J/VAWHEL\a2314 BYVIR PERRX EQ\a1/4 Z FB  - PBZCBHAQ YRT SENPGHER
@@ -46,8 +45,6 @@ Nalbar gung pna uryc jvgu gur Zhq eha Znl 17gu pnyy wbanguna fzvgu 7030527\abe g
 (R911) JNGRE BIRE EBNQ\a408 RNFG NG OEVQTRF\aVASB BAYL
 (R911) JNGRE BIRE EBNQ\a408 RNFG NG OEVQTRF
 (R911) VASBEZNGVBANY ERCBEG\aSNVEQRNYVAT BYVIR SVER QRCG\aJBEX FRFFVBA GBAVTUG NG 6:BB
-(**Grfg Cntr**) **Ab erfcbafr arrqrq Grfg Bayl**\a8053 HF Uvtujnl 68 R, 42025
-(GRFG PNYY) ***GRFG PNYY - AB ERFCBAFR ARPRFFNEL***
 
  */
 
