@@ -101,7 +101,7 @@ public class DispatchA3Parser extends FieldProgramParser {
     if (name.equals("INFO1")) return new BaseInfo1Field();
     if (name.equals("INFO")) return new BaseInfoField();
     if (name.equals("NAME")) return new BaseNameField();
-    if (name.equals("UNIT")) return new UnitField("(?:[A-Z0-9]{1,4}[0-9]|RRS|CSRS)(?:[,/](?:[A-Z]{0,3}[0-9]+[A-Z]{0,3}|[A-Z]{1,4}))*");
+    if (name.equals("UNIT")) return new BaseUnitField();
     return super.getField(name);
   }
   
@@ -315,6 +315,31 @@ public class DispatchA3Parser extends FieldProgramParser {
         field = field.substring(0,pt).trim();
       }
       super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern UNIT_PTN = Pattern.compile("(?:[A-Z0-9]{1,4}[0-9]|RRS|CSRS)(?:[,/](?:[A-Z]{0,3}[0-9]+[A-Z]{0,3}|[A-Z]{1,4}))*");
+  private class BaseUnitField extends UnitField {
+    @Override
+    public boolean canFail(){
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.startsWith("Line14=")) {
+        data.strUnit = field.substring(7).trim();
+        return true;
+      }
+      if ("Line14=".startsWith(field)) return true;
+      if (!UNIT_PTN.matcher(field).matches()) return false;
+      data.strUnit = field;
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
   
