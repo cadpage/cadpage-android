@@ -9,6 +9,14 @@ choyvp pynff ZrffntrGrfg {
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
+    qbCnefrGrfg("PNFnaWbdnhvaPbhagl",
+        "xra@pnqcntr.bet",
+        "",
+        " 1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:G26-2     GEL-143221     Fgehpgher Sver                128 J Sbhegu Fg                                 \a(Pba'g) 2 bs 2\aO FG/N FG           Oyqt:          Ncg:\a(Raq)",
+        "YvsrpbzPryyCntvat@nze.arg",
+        "",
+        "G26-2     GEL-143221     Fgehpgher Sver                128 J Sbhegu Fg                                  O FG/N FG           Oyqt:          Ncg:\a");
+    
     qbCnefrGrfg("BEZnevbaPbhaglN",
         "xra@pnqcntr.bet",
         "",

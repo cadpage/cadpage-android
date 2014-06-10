@@ -53,9 +53,8 @@ SEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:G26-1     12018873    Qvfcngpurq:05:47:04Raeb
  1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:      12019053     Zrqvpny Nvq     25600 F Puevfzna Eq            J FPUHYGR EQ/RYVFFNT G354O           \a(Pba'g) 2 bs 2\a    Nffvtarq Havgf: G26-2\e\a(Raq)
  1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:      13007092     Genssvp Pbyyvfv 37 39'46.96"a & 121 26'30.72"j                    U580S1          \a(Pba'g) 2 bs 2\a    Nffvtarq Havgf: R9-3,R26-2,R9-7,OP9-0,G9-1\a(Raq)
  1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:      13007665     Irtrgngvba Sver V 205 Jo / V 580 Jo                       NYNZ4           \a(Pba'g) 2 bs 2\a    Nffvtarq Havgf: R9-5,R9-4,OP9-0,R26-2\a(Raq)
- 
- 
- 
+ 1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:G26-2     GEL-143221     Fgehpgher Sver                128 J Sbhegu Fg                                 \a(Pba'g) 2 bs 2\aO FG/N FG           Oyqt:          Ncg:\a(Raq)
+
 // Arrq zber jbex!! 
  1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:R26-1 13020048     Zrqvpny Nvq      700 R Ebgu Eq             F INYYRWB PG/F NVECB Y114N               \a(Pba'g) 2 bs 2\a     386     ABEGNffvtarq Havgf:R26-1\a(Raq)
 R26-1 13020048     Zrqvpny Nvq      700 R Ebgu Eq             F INYYRWB PG/F NVECB Y114N                    386     ABEGNffvtarq Havgf:R26-1
@@ -458,6 +457,20 @@ choyvp pynff PNFnaWbndhvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:V 205 Jo & V 580 Jo",
         "ZNQQE:V 205 & V 580",
         "ZNC:NYNZ4");
+
+    qbGrfg("G16",
+        " 1 bs 2\a" +
+        "SEZ:YvsrpbzPryyCntvat@nze.arg\a" +
+        "ZFT:G26-2     GEL-143221     Fgehpgher Sver                128 J Sbhegu Fg                                 \a" +
+        "(Pba'g) 2 bs 2\a" +
+        "O FG/N FG           Oyqt:          Ncg:\a" +
+        "(Raq)",
+
+        "HAVG:G26-2",
+        "VQ:GEL-143221",
+        "PNYY:Fgehpgher Sver",
+        "NQQE:128 J Sbhegu Fg",
+        "K:O FG/N FG");
 
   }
   

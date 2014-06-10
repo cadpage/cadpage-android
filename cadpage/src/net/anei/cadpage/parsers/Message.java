@@ -252,12 +252,12 @@ public class Message {
         if (lines.length > 1) {
           lines[0] = lines[0].trim();
           int ndx = 1;
-          lines[1] = lines[1].trim();
-          if (lines[1].startsWith("SUBJ:")) {
-            lines[1] = lines[1].substring(5).trim();
+          String tmp = lines[1].trim();
+          if (tmp.startsWith("SUBJ:")) {
+            lines[1] = tmp.substring(5).trim();
             ndx++;
-          } else if (lines[1].startsWith("SUB:")) {
-            lines[1] = lines[1].substring(4).trim();
+          } else if (tmp.startsWith("SUB:")) {
+            lines[1] = tmp.substring(4).trim();
             ndx++;
           }
           if (lines.length > ndx) {

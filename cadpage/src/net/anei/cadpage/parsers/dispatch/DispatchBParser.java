@@ -908,6 +908,7 @@ public class DispatchBParser extends FieldProgramParser {
         "TRY TO CONTACT",
         "UNCONCIOUS",
         "UNCONCIOUS PERSON",
+        "UNCONSCIOUS",
         "UNCONSCIOUS CHANGING COLOR",
         "UNCONSCIOUS EFFECT BREATHING",
         "UNCONSCIOUS/FAINTING",
