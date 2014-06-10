@@ -213,6 +213,7 @@ class Active911Vendor extends Vendor {
       "US/KS/CowleyCounty",               "KSCowleyCounty",
       "US/KS/JohnsonCounty",              "KSJohnsonCounty",
       "US/KS/LeavenworthCounty",          "KSLeavenworthCounty",
+      "US/KS/MarionCounty",               "KSMarionCounty",
       "US/KS/MontgomeryCounty",           "KSMontgomeryCounty",
       "US/KS/NeoshoCounty",               "KSNeoshoCounty",
       "US/KY/BooneCounty",                "KYBooneCounty",
