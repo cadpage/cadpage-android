@@ -385,6 +385,7 @@ class Active911Vendor extends Vendor {
       "US/PA/PineGrove",                  "PASchuylkillCounty",
       "US/PA/SomersetCounty",             "PASomersetCounty",
       "US/PA/TrappeIAR",                  "PAChesterCountyL",
+      "US/PA/VenangoCounty",              "PAVenagoCountyB",
       "US/PA/YorkCounty",                 "PAYorkCountyD",
       "US/SC/GeorgetownCounty",           "SCGeorgetownCounty",
       "US/SC/HartsvilleFD",               "SCDarlingtonCounty",
