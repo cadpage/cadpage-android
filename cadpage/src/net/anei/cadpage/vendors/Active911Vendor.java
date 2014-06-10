@@ -388,6 +388,7 @@ class Active911Vendor extends Vendor {
       "US/SC/HartsvilleFD",               "SCDarlingtonCounty",
       "US/SC/OrangeburgCounty",           "OrangeburgCounty",
       "US/SC/PickensCounty",              "SCPickensCounty",
+      "US/SC/SumterCounty",               "SCSumterCounty",
       "US/SD/LincolnCounty",              "SDLincolnCounty",
       "US/SD/MinnehahaCounty",            "SDMinnehahaCounty",
       "US/TN/BedfordCounty",              "TNBedfordCounty",
