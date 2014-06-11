@@ -194,9 +194,14 @@ public class DispatchA13Parser extends FieldProgramParser {
         // Second part is generally the cross street
         // But if it does not contain a slash or semicolon, and the
         // address isn't a recognizable address, swap this for the address
+        int pt = sPart2.indexOf("; Near:");
+        if (pt >= 0) {
+          data.strPlace = append(data.strPlace, " - ", sPart2.substring(pt+2));
+          sPart2 = sPart2.substring(0,pt).trim();
+        }
         if (sPart2.length() > 0) {
           if (data.strCity.length() == 0) {
-            int pt = sPart2.lastIndexOf(',');
+            pt = sPart2.lastIndexOf(',');
             if (pt >= 0) {
               String city = sPart2.substring(pt+1).trim();
               if (!checkCity || isCity(city)) {
