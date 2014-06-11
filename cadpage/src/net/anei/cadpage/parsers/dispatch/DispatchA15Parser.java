@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -9,27 +12,92 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchA15Parser extends FieldProgramParser {
   
-  private static final Pattern TRAIL_MARKER = Pattern.compile(" #?\\[\\d"); 
+  private static final Pattern NUMBER_PTN = Pattern.compile(" \\[(\\d{2})\\](?: |$)");
+  private static final Pattern TRAIL_MARKER = Pattern.compile(" #\\[\\d"); 
   
   public DispatchA15Parser(String defCity, String defState) {
     super(defCity, defState,
            "RT:CALL! Loc:ADDR!");
   }
+  
+  private static class NumberedLine implements Comparable<NumberedLine> {
+    int number;
+    String line;
+    
+    public NumberedLine(int number, String line) {
+      this.number = number;
+      this.line = line;
+    }
+    
+    
+    @Override
+    public int compareTo(NumberedLine another) {
+      return number-another.number;
+    }
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    // They have an odd message numbering system, which wouldn't be a problem
+    // except that mesasges get split up and come in in different orders, and
+    // the bracket numbering system is the only way we can put them back together
+    Matcher match = NUMBER_PTN.matcher(body);
+    int lpt = 0;
+    if (match.find()) {
+      List<NumberedLine> list = new ArrayList<NumberedLine>();
+      do {
+        list.add(new NumberedLine(Integer.parseInt(match.group(1)), body.substring(lpt, match.start())));
+        lpt = match.end();
+      } while (match.find());
+      if (lpt < body.length()) {
+        data.expectMore = true;
+        list.add(new NumberedLine(9999, body.substring(lpt)));
+      }
+      
+      // If only one line was found, we can save us a lot of trouble
+      if (list.size() == 1) {
+        body = list.get(0).line.trim();
+      }
+      
+      else {
+        
+        // Check for wraparound at 100
+        boolean wrap = false;
+        for (NumberedLine line : list) {
+          if (line.number >= 90) {
+            wrap = true;
+            break;
+          }
+        }
+        if (wrap) {
+          for (NumberedLine line : list) {
+            if (line.number <= 10) line.number += 100;
+          }
+        }
+        
+        // sort list by number and rebuild body
+        Collections.sort(list);
+        StringBuilder sb = new StringBuilder();
+        for (NumberedLine line : list) sb.append(line.line);
+        body = sb.toString().trim();
+      }
+    }
+    
     // There is always some trailing junk that needs to be stripped off.
     // But if we don't find it, assume more is coming
     
-    Matcher match = TRAIL_MARKER.matcher(body);
-    if (match.find()) {
-      body = body.substring(0,match.start()).trim();
-    } else {
-      data.expectMore = true;
-    }
+    else {
+      
+      match = TRAIL_MARKER.matcher(body);
+      if (match.find()) {
+        body = body.substring(0,match.start()).trim();
+      } else {
+        data.expectMore = true;
+      }
 
-    if (body.endsWith("#")) body = body.substring(0,body.length()-1).trim();
+      if (body.endsWith("#")) body = body.substring(0,body.length()-1).trim();
+    }
 
     return super.parseMsg(body, data);
   }
