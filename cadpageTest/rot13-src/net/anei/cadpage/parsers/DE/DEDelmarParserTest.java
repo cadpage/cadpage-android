@@ -1038,7 +1038,7 @@ choyvp pynff QRQryzneCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{PNQ Nyreg} 82FG   Pnyy ng: 38 48'24.83\"a & 075 05'53Ybp: bs gur pncr cbvag        Pvgl:       Ceboyrz:  Jngre Erfphr Cevbevgl 1         Vap#: 2012-018766    Yng: 38806897    Ybat: 75098268   QVFC: 18:45:56   Pebff Fg:",
         "HAVG:82FG",
         "NQQE:38 48'24.83\"a & 075 05'53",
-        "ZNQQE:38 48'24.83\"a",
+        "ZNQQE:+38.806897,-75.098056",
         "CYNPR:bs gur pncr cbvag",
         "PNYY:Jngre Erfphr Cevbevgl 1",
         "VQ:2012-018766",

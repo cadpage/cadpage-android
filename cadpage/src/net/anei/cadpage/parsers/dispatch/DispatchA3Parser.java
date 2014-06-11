@@ -327,19 +327,23 @@ public class DispatchA3Parser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      if (field.startsWith("Line14=")) {
-        data.strUnit = field.substring(7).trim();
-        return true;
-      }
-      if ("Line14=".startsWith(field)) return true;
-      if (!UNIT_PTN.matcher(field).matches()) return false;
-      data.strUnit = field;
-      return true;
+      return checkParse(field, data, false);
     }
     
     @Override
     public void parse(String field, Data data) {
-      if (!checkParse(field, data)) abort();
+      checkParse(field, data, true);
+    }
+    
+    private boolean checkParse(String field, Data data, boolean force) {
+      if (field.startsWith("Line14=")) {
+        data.strUnit = field.substring(7).trim();
+        return true;
+      }
+      if (field.length() > 0 && "Line14=".startsWith(field)) return true;
+      if (!force && !UNIT_PTN.matcher(field).matches()) return false;
+      data.strUnit = field;
+      return true;
     }
   }
   

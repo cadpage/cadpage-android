@@ -119,7 +119,8 @@ choyvp pynff FPFhzgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:14082237",
         "NQQE:QHPX & BYVIR",
         "PVGL:FHZGRE",
-        "VASB:N69 / Zrqvpny: Ab / Unmneqf: Ab\aQHPX//BYV",
+        "HAVG:N69",
+        "VASB:Zrqvpny: Ab / Unmneqf: Ab\aQHPX//BYV",
         "PNYY:Fhfcvpvbhf Crefba",
         "QNGR:06/07/2014",
         "GVZR:23:15:13");
@@ -216,7 +217,8 @@ choyvp pynff FPFhzgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:14082227",
         "NQQE:FUNECLF CBBY & YVOREGL FG",
         "PVGL:Fhzgre",
-        "VASB:N19,N55 / Zrqvpny: Ab / Unmneqf: Ab / 06/07/2014 23:04:08 : cbf6 :",
+        "HAVG:N19,N55",
+        "VASB:Zrqvpny: Ab / Unmneqf: Ab / 06/07/2014 23:04:08 : cbf6 :",
         "PNYY:Fhfcvpvbhf Crefba");
 
     qbGrfg("G16",
@@ -235,7 +237,8 @@ choyvp pynff FPFhzgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:14082227",
         "NQQE:FUNECLF CBBY",
         "PVGL:FHZGRE",
-        "VASB:N19 / Zrqvpny: Ab / Unmneqf: Ab",
+        "HAVG:N19",
+        "VASB:Zrqvpny: Ab / Unmneqf: Ab",
         "PNYY:Fhfcvpvbhf Crefba");
 
     qbGrfg("G18",
@@ -256,7 +259,7 @@ choyvp pynff FPFhzgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:ZRTNUREGM EQ & GVIREGBA PUHEPU EQ",  // Tbbtyr pnyyf guvf GVIRGBA EQ
         "PVGL:Jrqtrsvryq",
         "K:GVIREGBA PUHEPU EQ & ENPXVAT YA",
-        "VASB:Sver=7,2,1 RZF=83 Nqqvgvbany=FE,11 / Yvar1",
+        "VASB:Sver=7,2,1 RZF=83 Nqqvgvbany=FE,11",
         "PNYY:Ubhfr/Ohfvarff Purpxf");
 
     qbGrfg("G20",
@@ -287,7 +290,8 @@ choyvp pynff FPFhzgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:14082223",
         "NQQE:NGYNAGVP & XVAT FG",
         "PVGL:FHZGRE",
-        "VASB:N69 / Zrqvpny: Ab / Unmneqf: Ab",
+        "HAVG:N69",
+        "VASB:Zrqvpny: Ab / Unmneqf: Ab",
         "PNYY:Ubhfr/Ohfvarff Purpxf",
         "QNGR:06/07/2014",
         "GVZR:22:56:10");
@@ -344,7 +348,8 @@ choyvp pynff FPFhzgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:14082219",
         "NQQE:OEBNQ & UVTUYNAQ",
         "PVGL:FHZGRE",
-        "VASB:N84 / Zrqvpny: Ab / Unmneqf: Ab\aOE",
+        "HAVG:N84",
+        "VASB:Zrqvpny: Ab / Unmneqf: Ab\aOE",
         "PNYY:Genssvp Fgbc",
         "QNGR:06/07/2014",
         "GVZR:22:50:58");
