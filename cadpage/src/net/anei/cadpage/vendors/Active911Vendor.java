@@ -229,6 +229,7 @@ class Active911Vendor extends Vendor {
       "US/LA/TerrebonneParish",           "LATerrebonneParish",
       "US/LA/WestBatonRougeCouncil",      "LAWestBatonRougeParish",
       "US/MD/CecilCounty",                "Cadpage2",
+      "US/MD/CharlesCounty",              "MDCharlesCountyA",
       "US/MD/HarfordCounty",              "Cadpage2",
       "US/MD/PrinceGeorgesCounty",        "MDPrinceGeorgesCounty",
       "US/MD/PrintManager",               "MDAnneArundelCountyAnnapolis",

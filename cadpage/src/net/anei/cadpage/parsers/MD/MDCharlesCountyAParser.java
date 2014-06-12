@@ -1,6 +1,7 @@
 //Sender: rc.263@c-msg.net
 package net.anei.cadpage.parsers.MD;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -17,7 +18,7 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "rc.263@c-msg.net,dispatch@ccso.us,@sms.mdfiretech.com";
+    return "@c-msg.net,dispatch@ccso.us,@sms.mdfiretech.com";
   }
 
 
@@ -100,12 +101,18 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
       if (mapSt >= 0 && unitSt >= 0) {
         Parser p = new Parser(body);
         String addr = p.get(',');
-        if (addr.equals("PG COUNTY")) {
-          data.strCity = "PRINCE GEORGES COUNTY";
+        String city = COUNTY_TABLE.getProperty(addr);
+        if (city != null) {
+          data.strCity = city;
           addr = p.get(',');
         }
-        parseAddress(addr, data);
         data.strPlace = p.get();
+        if (data.strPlace.length() > 0) {
+          parseAddress(addr, data);
+        } else {
+          parseAddress(StartType.START_ADDR, addr, data);
+          parseLeft(getLeft(), data);
+        }
         good = true;
         break;
       }
@@ -119,9 +126,10 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
           // Split out last field.  If it contains a valid address, make it so
           String fld1 = body.substring(0,pt).trim();
           String fld2 = body.substring(pt+1).trim();
-          Result res2 = parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, fld2);
+          Result res2 = parseAddress(StartType.START_CALL, fld2);
           if (res2.isValid()) {
             res2.getData(data);
+            parseLeft(res2.getLeft(), data);
             data.strCall = append(fld1, ", ",  data.strCall);
             good = true;
             break;
@@ -162,4 +170,19 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
     
     return good;
   }
+
+
+  private void parseLeft(String left, Data data) {
+    if (left.startsWith("/")) {
+      data.strAddress = append(data.strAddress, " & ", left.substring(1).trim());
+    } else {
+      data.strPlace = left;
+    }
+  }
+  
+  private static Properties COUNTY_TABLE = buildCodeTable(new String[]{
+      "CAL COUNTY", "CALVERT COUNTY",
+      "PG COUNTY",  "PRINCE GEORGES COUNTY",
+      "SM COUNTY",  "ST MARYS COUNTY"
+  }); 
 }
