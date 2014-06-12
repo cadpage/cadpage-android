@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Iranatb Pbhagl, CN
+Iranatb Pbhagl, CN (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ebpxl Tebir ISQ

@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Adams County, PA
+ * Schuylkill County, PA
  */
 public class PASchuylkillCountyParser extends FieldProgramParser {
   

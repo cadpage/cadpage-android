@@ -1,16 +1,12 @@
 package net.anei.cadpage.parsers.NC;
 
-import net.anei.cadpage.parsers.dispatch.DispatchA15Parser;
+import net.anei.cadpage.parsers.GroupBestParser;
+import net.anei.cadpage.parsers.GroupBlockParser;
 
 
-public class NCWayneCountyParser extends DispatchA15Parser {
+public class NCWayneCountyParser extends GroupBestParser {
   
   public NCWayneCountyParser() {
-    super("WAYNE COUNTY", "NC");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "Notification@usamobility.net";
+    super(new NCWayneCountyAParser(), new NCWayneCountyBParser());
   }
 }
