@@ -16,11 +16,13 @@ import net.anei.cadpage.parsers.dispatch.DispatchA13Parser;
 public class NYOneidaCountyParser extends DispatchA13Parser {
   
   private static final Pattern REMSEN_FIRE_PTN1 = Pattern.compile("\\d{4} >.*");
-  private static final Pattern MARKER = Pattern.compile("(?:(.*?)([^A-Z0-9]{1,3}))?\\b(Dispatched|Acknowledge|Enroute|En Route Hosp|On +Scene)([^A-Z0-9]{1,3})(?=[A-Z0-9])");
+  private static final Pattern CLINTON_FIRE_PTN = Pattern.compile("(?:\\d\\d[A-Z]\\d\\d )?[A-Z /\\(\\)]+  , ");
+  private static final Pattern T_CITY_PTN = Pattern.compile("\\b(?:T/|T/O +)(CONSTANTIA|OHIO|RUSSIA)\\b");
+  private static final Pattern MARKER = Pattern.compile("(?:(.*?)([^A-Z0-9]{1,4}))?\\b(Dispatched|Acknowledge|Enroute|En Route Hosp|On +Scene)([^A-Z0-9]{1,4})(?=[A-Z0-9])");
   private static final Pattern CODE_PTN = Pattern.compile("^(\\d\\d[A-Z]\\d\\d) ?- ?");
   private static final Pattern KNLS = Pattern.compile("\\bKNLS\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern NEAR_PTN = Pattern.compile("[/;]? *(Near:.*)");
-  private static final Pattern REAL_APT_PTN = Pattern.compile("(?:FLR|BLDG).*");
+  private static final Pattern REAL_APT_PTN = Pattern.compile("(?:FLR|BLDG|LOT).*");
   
   public NYOneidaCountyParser() {
     super(CITY_LIST, "ONEIDA COUNTY", "NY");
@@ -46,12 +48,20 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     
     // As if things weren't bad enough, we also have to deal with IAR alterations
     // Fortunately this all seems to be limited to one agency for now
-    if (body.startsWith(">")) body = "Dispatched " + body;
+    if (body.startsWith(">") || body.startsWith(", ")) body = "Dispatched " + body;
     else if (subject.equals("Remsen Fire")) {
       if (REMSEN_FIRE_PTN1.matcher(body).matches()) body = ':' + body;
       else if (body.startsWith("d >")) body = "Dispatche" + body;
       else if (body.contains(" >")) body = "Dispatched >" + body;
     }
+    
+    // Sigh, the contagion seems to be spreading ...
+    else if (subject.equals("Clinton Fire")) {
+      if (CLINTON_FIRE_PTN.matcher(body).lookingAt()) body = "Dispatched  , " + body;
+    }
+    
+    // Occasional use of T/ or T/O for Town of messes everything up
+    body = T_CITY_PTN.matcher(body).replaceAll("$1");
 
     // Format always has some field delimiters, but they
     // seem to change with the phase of the moon. There is always a "Dispatched"
@@ -138,6 +148,7 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     }
     
     // See if the apt field looks more like a place name
+    data.strApt = stripFieldEnd(data.strApt, "_");
     if (data.strPlace.length() == 0 && data.strApt.length() >= 8 &&
         !REAL_APT_PTN.matcher(data.strApt).matches()) {
       data.strPlace = data.strApt;
@@ -322,6 +333,11 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     "YORKVILLE VILLAGE NY",
     
     // Madison County
-    "CANASTOTA VILLAGE"
+    "CANASTOTA VILLAGE",
+    
+    // Herkimer County
+    "CONSTANTIA",
+    "OHIO",
+    "RUSSIA"
   };
 }

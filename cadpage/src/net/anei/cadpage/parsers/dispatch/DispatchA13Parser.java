@@ -228,6 +228,7 @@ public class DispatchA13Parser extends FieldProgramParser {
 
       // The rest contains city names, cross streets and/or supp info
       for (String part : new String[]{sPart2, sPart3, sPart4, sPart5}) {
+        part = stripFieldStart(part, ";");
         if (part.length() == 0) continue;
         if (data.strCity.length() == 0) {
           int pt = part.lastIndexOf(',');
