@@ -74,7 +74,6 @@ public class DispatchA13Parser extends FieldProgramParser {
   }
   
   // Address field contains address, city, and possibly cross streets
-  private static final Pattern MISMATCH_PAREN_PTN = Pattern.compile("(\\([^\\)]*)(?=\\()");
   private static final Pattern NUMBER_COMMA_PTN = Pattern.compile("([-\\d]+), *(.*)");
   private static final Pattern STATE_PTN = Pattern.compile("[A-Z]{2}");
   private static final Pattern APT_PREFIX_PTN = Pattern.compile("^(?:APT|RM|ROOM) *");
@@ -87,9 +86,6 @@ public class DispatchA13Parser extends FieldProgramParser {
       
       field = field.replace("\\\\", "&").replace('\\', '&');
       
-      // Missed right parens cause a problem.  If we find any add a closing right paren.
-      field = MISMATCH_PAREN_PTN.matcher(field).replaceAll("$1)");
-      
       // And some agencies have a comma following the initial street number
       Matcher match = NUMBER_COMMA_PTN.matcher(field);
       if (match.matches()) field = match.group(1) + ' ' + match.group(2);
@@ -97,10 +93,10 @@ public class DispatchA13Parser extends FieldProgramParser {
       // Break address field into stuff before, inside, and after two sets of parenthesis
       Parser p = new Parser(field);
       String sPart1 = p.get('(');
-      String sPart2 = p.get(')');
+      String sPart2 = p.getSmart(')');
 
       String sPart3 = p.get('(');
-      String sPart4 = p.get(')');
+      String sPart4 = p.getSmart(')');
       String sPart5 = p.get();
      
       // If first part starts with @, it contains a place name
@@ -194,14 +190,10 @@ public class DispatchA13Parser extends FieldProgramParser {
         // Second part is generally the cross street
         // But if it does not contain a slash or semicolon, and the
         // address isn't a recognizable address, swap this for the address
-        int pt = sPart2.indexOf("; Near:");
-        if (pt >= 0) {
-          data.strPlace = append(data.strPlace, " - ", sPart2.substring(pt+2));
-          sPart2 = sPart2.substring(0,pt).trim();
-        }
+        sPart2 = stripNearPlace(sPart2, data);
         if (sPart2.length() > 0) {
           if (data.strCity.length() == 0) {
-            pt = sPart2.lastIndexOf(',');
+            int pt = sPart2.lastIndexOf(',');
             if (pt >= 0) {
               String city = sPart2.substring(pt+1).trim();
               if (!checkCity || isCity(city)) {
@@ -228,7 +220,7 @@ public class DispatchA13Parser extends FieldProgramParser {
 
       // The rest contains city names, cross streets and/or supp info
       for (String part : new String[]{sPart2, sPart3, sPart4, sPart5}) {
-        part = stripFieldStart(part, ";");
+        part = stripNearPlace(part, data);
         if (part.length() == 0) continue;
         if (data.strCity.length() == 0) {
           int pt = part.lastIndexOf(',');
@@ -294,6 +286,16 @@ public class DispatchA13Parser extends FieldProgramParser {
         }
         part = part.substring(0,pt).trim();
       }
+      return part;
+    }
+
+    private String stripNearPlace(String part, Data data) {
+      int pt = part.indexOf("; Near:");
+      if (pt >= 0) {
+        data.strPlace = append(data.strPlace, " - ", part.substring(pt+2));
+        part = part.substring(0,pt).trim();
+      }
+      part = stripFieldStart(part, ";");
       return part;
     }
     

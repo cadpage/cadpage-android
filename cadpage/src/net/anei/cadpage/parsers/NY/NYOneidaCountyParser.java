@@ -17,7 +17,7 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
   
   private static final Pattern REMSEN_FIRE_PTN1 = Pattern.compile("\\d{4} >.*");
   private static final Pattern CLINTON_FIRE_PTN = Pattern.compile("(?:\\d\\d[A-Z]\\d\\d )?[A-Z /\\(\\)]+  , ");
-  private static final Pattern T_CITY_PTN = Pattern.compile("\\b(?:T/|T/O +)(CONSTANTIA|OHIO|RUSSIA)\\b");
+  private static final Pattern T_CITY_PTN = Pattern.compile("\\b(?:T/|T/O +|/T +)(CONSTANTIA|NORWAY|OHIO|RUSSIA)\\b");
   private static final Pattern MARKER = Pattern.compile("(?:(.*?)([^A-Z0-9]{1,4}))?\\b(Dispatched|Acknowledge|Enroute|En Route Hosp|On +Scene)([^A-Z0-9]{1,4})(?=[A-Z0-9])");
   private static final Pattern CODE_PTN = Pattern.compile("^(\\d\\d[A-Z]\\d\\d) ?- ?");
   private static final Pattern KNLS = Pattern.compile("\\bKNLS\\b", Pattern.CASE_INSENSITIVE);
@@ -61,7 +61,7 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     }
     
     // Occasional use of T/ or T/O for Town of messes everything up
-    body = T_CITY_PTN.matcher(body).replaceAll("$1");
+    body = T_CITY_PTN.matcher(body).replaceAll(" $1");
 
     // Format always has some field delimiters, but they
     // seem to change with the phase of the moon. There is always a "Dispatched"
@@ -337,6 +337,7 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     
     // Herkimer County
     "CONSTANTIA",
+    "NORWAY",
     "OHIO",
     "RUSSIA"
   };

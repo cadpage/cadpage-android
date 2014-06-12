@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA13Parser;
 public class LAWestBatonRougeParishParser extends DispatchA13Parser {
   
   public LAWestBatonRougeParishParser() {
-    super("WEST BATON ROUGE PARISH", "LA");
+    super(CITY_LIST, "WEST BATON ROUGE PARISH", "LA");
   }
   
   @Override
@@ -21,4 +21,19 @@ public class LAWestBatonRougeParishParser extends DispatchA13Parser {
     return super.getField(name);
   }
   
+  private static final String[] CITY_LIST = new String[]{
+    "ADDIS",
+    "BRUSLY",
+    "PORT ALLEN",
+    "ANTONIO",
+    "BELMONT",
+    "BUECHE",
+    "CHAMBERLIN",
+    "DEVALLS",
+    "ERWINVILLE",
+    "ITHRA",
+    "KAHNS",
+    "LOBDELL",
+    "LUKEVILLE"
+  };
 }

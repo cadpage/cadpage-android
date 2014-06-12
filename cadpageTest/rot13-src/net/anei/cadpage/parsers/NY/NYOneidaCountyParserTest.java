@@ -978,7 +978,7 @@ choyvp pynff ALBarvqnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:5218 CNGEVPX EQ",
         "PVGL:IREBAN",
         "K:PBHAGL EBHGR 48N/EBHGR 365/FALQRE EQ",
-        "VASB:Arne:GHEAVAT FGBAR PNFVAB");
+        "CYNPR:Arne:GHEAVAT FGBAR PNFVAB");
 
     qbGrfg("G12",
         "JNGN:2011:0305 >Qvfcngpurq >RZF PNYY >358 ZNQVFBA FG, JNGREIVYYR IVYYNTR (/GREEL ZRNQBJF QE; Arne:JNGREIVYYR UVTU FPUBBY)",
@@ -5365,7 +5365,7 @@ choyvp pynff ALBarvqnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Erzfra Sver",
         "PNYY:F PNYY",
         "NQQE:EBHGR 365",
-        "BUVB");
+        "PVGL:BUVB");
 
     qbGrfg("G7",
         "(Erzfra Sver) F PNYY >113 CREFUVAT NIR EHFFVN",

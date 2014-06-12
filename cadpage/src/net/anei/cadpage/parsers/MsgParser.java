@@ -1367,6 +1367,8 @@ public abstract class MsgParser {
    /**
     * Constructor 
     * @param line string to be parsed out
+    * @param smart boolean flag requesting a smart parser that will not 
+    * prematurely break up matched brackets
     */
    public Parser(String line) {
      init(line);
@@ -1411,7 +1413,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter
     */
    public String get(char delim) {
-     return get(delim, false, false);
+     return get(delim, false, false, false);
    }
    
    /**
@@ -1419,7 +1421,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter if found, empty string otherwise
     */
    public String getOptional(char delim) {
-     return get(delim, true, false);
+     return get(delim, true, false, false);
    }
    
    /**
@@ -1427,7 +1429,16 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter
     */
    public String getRequired(char delim) {
-     return get(delim, false, true);
+     return get(delim, false, true, false);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @return everything up to next occurrence of delimiter without breaking
+    * up matched parens
+    */
+   public   String getSmart(char delim) {
+     return get(delim, false, false, true);
    }
    
    /**
@@ -1435,7 +1446,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter
     */
    public String getLast(char delim) {
-     return getLast(delim, false, false);
+     return getLast(delim, false, false, false);
    }
    
    /**
@@ -1443,7 +1454,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter if found, empty string otherwise
     */
    public String getLastOptional(char delim) {
-     return getLast(delim, true, false);
+     return getLast(delim, true, false, false);
    }
    
    /**
@@ -1451,7 +1462,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter if found, empty string otherwise
     */
    public String getLastRequired(char delim) {
-     return getLast(delim, false, true);
+     return getLast(delim, false, true, false);
    }
    
    /**
@@ -1459,7 +1470,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter
     */
    public String get(String delim) {
-     return get(delim, false, false);
+     return get(delim, false, false, false);
    }
    
    /**
@@ -1467,7 +1478,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter if found, empty string otherwise
     */
    public String getOptional(String delim) {
-     return get(delim, true, false);
+     return get(delim, true, false, false);
    }
    
    /**
@@ -1475,7 +1486,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter if found, empty string otherwise
     */
    public String getRequired(String delim) {
-     return get(delim, false, true);
+     return get(delim, false, true, false);
    }
    
    /**
@@ -1483,7 +1494,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter if found
     */
    public String getLast(String delim) {
-     return getLast(delim, false, false);
+     return getLast(delim, false, false, false);
    }
    
    /**
@@ -1491,7 +1502,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter if found, empty string otherwise
     */
    public String getLastOptional(String delim) {
-     return getLast(delim, true, false);
+     return getLast(delim, true, false, false);
    }
    
    /**
@@ -1499,7 +1510,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter if found, empty string otherwise
     */
    public String getLastRequired(String delim) {
-     return getLast(delim, false, true);
+     return getLast(delim, false, true, false);
    }
    
    /**
@@ -1538,33 +1549,36 @@ public abstract class MsgParser {
     * @param delim delimiter
     * @param optional true if empty string should be returned if deliminter not found
     * @param required true if null should be returned if delimiter not found
+    * @param smart true to not break up matched parens
     * @return everything up to next occurrence of delimiter
     */
-   private String get(char delim, boolean optional, boolean required) {
+   private String get(char delim, boolean optional, boolean required, boolean smart) {
      if (delim == ' ') skipBlanks(); 
-     return get(line.indexOf(delim, spt), 1, optional, required);
+     return get(indexOf(delim, smart), 1, optional, required);
    }
    
    /**
     * @param delim delimiter
     * @param optional true if empty string should be returned if deliminter not found
     * @param required true if null should be returned if delimiter not found
+    * @param smart true to not break up matched parens
     * @return everything up to next occurrence of delimiter
     */
-   private String get(String delim, boolean optional, boolean required) {
+   private String get(String delim, boolean optional, boolean required, boolean smart) {
      if (isAllBlanks(delim)) skipBlanks();
-     return get(line.indexOf(delim, spt), delim.length(), optional, required);
+     return get(indexOf(delim, smart), delim.length(), optional, required);
    }
    
    /**
     * @param delim delimiter
     * @param optional true if empty string should be returned if deliminter not found
     * @param required true if null should be returned if delimiter not found
+    * @param smart true to not break up matched parens
     * @return everything up to next occurrence of delimiter
     */
-   private String getLast(char delim, boolean optional, boolean required) {
+   private String getLast(char delim, boolean optional, boolean required, boolean smart) {
      if (delim == ' ') skipLastBlanks();
-     return getLast(line.lastIndexOf(delim, ept-1), 1, optional, required);
+     return getLast(lastIndexOf(delim, smart), 1, optional, required);
    }
    
    /**
@@ -1573,10 +1587,10 @@ public abstract class MsgParser {
     * @param required true if null should be returned if delimiter not found
     * @return everything up to next occurrence of delimiter
     */
-   private String getLast(String delim, boolean optional, boolean required) {
+   private String getLast(String delim, boolean optional, boolean required, boolean smart) {
      if (isAllBlanks(delim)) skipLastBlanks();
      int len = delim.length();
-     return getLast(line.lastIndexOf(delim, ept-len), len, optional, required);
+     return getLast(lastIndexOf(delim, smart), len, optional, required);
    }
    
    /**
@@ -1601,6 +1615,50 @@ public abstract class MsgParser {
        if (chr != ' ') return false;
      }
      return true;
+   }
+   
+   private int indexOf(String delim, boolean smart) {
+     if (!smart) return line.indexOf(delim, spt);
+     return smartIndexOf(delim);
+   }
+   
+   private int indexOf(char delim, boolean smart) {
+     if (!smart) return line.indexOf(delim, spt);
+     return smartIndexOf(""+delim);
+   }
+   
+   private int smartIndexOf(String delim) {
+     int nest = 0;
+     int tmp = spt;
+     while (tmp < ept) {
+       if (line.charAt(tmp) == '(') nest++;
+       if (nest == 0 && line.substring(tmp).startsWith(delim)) return tmp;
+       if (line.charAt(tmp) == ')') nest--;
+       tmp++;
+     } 
+     return -1;
+   }
+   
+   private int lastIndexOf(String delim, boolean smart) {
+     if (!smart) return line.lastIndexOf(delim, ept-delim.length());
+     return smartIndexOf(delim);
+   }
+   
+   private int lastIndexOf(char delim, boolean smart) {
+     if (!smart) return line.lastIndexOf(delim, ept-1);
+     return smartLastIndexOf(""+delim);
+   }
+   
+   private int smartLastIndexOf(String delim) {
+     int nest = 0;
+     int tmp = ept;
+     while (tmp >= 0) {
+       if (line.charAt(tmp) == ')') nest++;
+       if (nest == 0 && line.substring(tmp).startsWith(delim)) return tmp;
+       if (line.charAt(tmp) == '(') nest--;
+       tmp--;
+     } 
+     return -1;
    }
 
    /**

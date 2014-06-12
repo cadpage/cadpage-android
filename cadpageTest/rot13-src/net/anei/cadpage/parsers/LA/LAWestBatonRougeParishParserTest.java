@@ -203,11 +203,20 @@ choyvp pynff YNJrfgOngbaEbhtrCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:CNSQ",
         "VQ:2014:00181",
         "PNYY:PURFG CNVA",
+        "CYNPR:Arne:Pbnfgny (Qhqr'f)",
         "NQQE:1534 UJL 190 J",
-        "PVGL:EVIREIVRJ EQ/UJL 1 A; Arne:Pbnfgny",
         "NCG:78",
-        "K:A EVIREIVRJ EQ",
-        "VASB:Qhqr'f / )");
+        "K:A EVIREIVRJ EQ/EVIREIVRJ EQ/UJL 1 A");
+
+    qbGrfg("G15",
+        "(Abgvsvpngvba) ﻿<UGZY><obql>CNSQ:2014:00181<oe />QVFCNGPURQ<oe />PURFG CNVA<oe />1534 UJL 190 J (A EVIREIVRJ EQ, EVIREIVRJ EQ/UJL 1 A; Arne:Pbnfgny (Qhqr'f)) #78</obql></UGZY>",
+        "FEP:CNSQ",
+        "VQ:2014:00181",
+        "PNYY:PURFG CNVA",
+        "CYNPR:Arne:Pbnfgny (Qhqr'f)",
+        "NQQE:1534 UJL 190 J",
+        "NCG:78",
+        "K:A EVIREIVRJ EQ/EVIREIVRJ EQ/UJL 1 A");
 
     qbGrfg("G16",
         "(Abgvsvpngvba) ﻿<UGZY><obql>CNSQ:2014:00180<oe />QVFCNGPURQ<oe />SVER NYNEZ<oe />1850 TENAQ GREER YA</obql></UGZY>",
@@ -277,9 +286,9 @@ choyvp pynff YNJrfgOngbaEbhtrCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2014:00171",
         "PNYY:SNYY",
         "NQQE:805 PBHEG FG",
-        "PVGL:F NYRKNAQRE NIR/8GU FG; Arne:Pbheg Fgerrg Pnsé",
+        "CYNPR:Arne:Pbheg Fgerrg Pnsé",
         "NCG:OYQT FGR NCG  N",
-        "K:A NYRKNAQRE NIR");
+        "K:A NYRKNAQRE NIR/F NYRKNAQRE NIR/8GU FG");
 
     qbGrfg("G25",
         "(Abgvsvpngvba) ﻿<UGZY><obql>CNSQ:2014:00169<oe />QVFCNGPURQ<oe />PURFG CNVA<oe />4007 V-10 SEBAGNTR EQ (ONGRF VAQHFGEVNY QE/)</obql></UGZY>",
@@ -320,7 +329,8 @@ choyvp pynff YNJrfgOngbaEbhtrCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2014:00164",
         "PNYY:HAERFCBAFVIR OHG OERNGUVAT",
         "NQQE:674 A NYRKNAQRE NIR",
-        "K:BERTBA NIR/TRBETVN NIR; Arne:Snzvyl Qbyyne Cbeg Nyyra");
+        "K:BERTBA NIR/TRBETVN NIR",
+        "CYNPR:Arne:Snzvyl Qbyyne Cbeg Nyyra");
 
     qbGrfg("G30",
         "(Abgvsvpngvba) ﻿<UGZY><obql>CNSQ:2014:00154<oe />QVFCNGPURQ<oe />PURFG CNVA<oe />@Zbgry 6  (2800 SEBAGNTR EQ)</obql></UGZY>",
@@ -496,7 +506,8 @@ choyvp pynff YNJrfgOngbaEbhtrCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2014:00113",
         "PNYY:ZVFPRYYNARBHF",
         "NQQE:3111 UJL 1 F",
-        "K:CUVYYVCF YA/; Arne:Enprgenp Ujl 1");
+        "K:CUVYYVCF YA",
+        "CYNPR:Arne:Enprgenp Ujl 1");
 
     qbGrfg("G53",
         "(Abgvsvpngvba) ﻿<UGZY><obql>CNSQ:2014:00112<oe />QVFCNGPURQ<oe />SVER NYNEZ<oe />314 PBHEGUBHFR FG (CVAR FG/CNYZ NIR)</obql></UGZY>",
