@@ -12,7 +12,7 @@ public class INBartholomewCountyParser extends DispatchOSSIParser {
   
   public INBartholomewCountyParser() {
     super(CITY_CODES, "BARTHOLOMEW COUNTY", "IN",
-           "FYI DATETIME CALL ADDR CITY! X+");
+           "FYI ( DATETIME CALL ADDR CITY!  X+ | CALL ADDR CITY! X/Z+? DATETIME )");
   }
   
   @Override
