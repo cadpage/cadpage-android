@@ -5,6 +5,7 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -12,9 +13,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MDCharlesCountyAParser extends SmartAddressParser {
   
-  private static final Pattern UNIT_PATTERN = Pattern.compile("(?:,? +(?:EMS|ALS|BLS|APPARATUS|TRUCK|AMBULANCE|MOTORCYCLE|ATV|BICYCLE|BIKE|MISC|\\d{1,2}[A-D]))+\\b");
-  private static final Pattern MAP_PATTERN = Pattern.compile("\\b\\d{1,2} [A-Z]\\d{1,2}(?:-[A-Z]\\d{1,2})?\\b");
   private static final Pattern ID_PATTERN = Pattern.compile("(\\b[EF]\\d{9}(?: +\\d+))\\b");
+  private static final Pattern MAP_PATTERN = Pattern.compile("\\b\\d{1,2} ?[A-Z]\\d{1,2}(?:-\\d?[A-Z]\\d{1,2})?\\b");
+  private static final Pattern COUNTY_PATTERN = Pattern.compile("\\b[A-Z]{2,3} COUNTY\\b");
+  private static final Pattern UNIT_PATTERN = Pattern.compile("(?:(?:\\b\\d{1,2}[A-D])\\b,? *)+");
+  private static final Pattern DIR_OF_FIX_PATTERN = Pattern.compile("\\b([NSEW]) & O\\b");
   
   @Override
   public String getFilter() {
@@ -24,7 +27,7 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
 
   public MDCharlesCountyAParser() {
     super( "CHARLES COUNTY", "MD");
-    setFieldList("CALL UNIT CITY ADDR APT PLACE CODE MAP INFO ID TIME");
+    setFieldList("CALL CITY UNIT ADDR APT PLACE CODE MAP INFO ID TIME");
   }
   
   @Override
@@ -35,129 +38,92 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    // Kick out any wayward version B messages that waunder this way
+    // Kick out any wayward version B messages that wander this way
     if (body.contains("\nmdft.us/")) return false;
-    
-    boolean good = false;
-    if (subject.equals("*CAD*|CAD")) good = true;
-    
-    body = body.replace('\n', ' ');
     
     Matcher match = ID_PATTERN.matcher(body);
     if (match.find()) {
-      good = true;
       data.strCallId = match.group(1).replace(' ', '-');
       data.strTime = body.substring(match.end()).trim();
       body = body.substring(0,match.start()).trim();
     }
     
-    // Either a CAD subject or a pattern match is good enough to classify this
-    // as a CAD page.  But even if neither is found, this could be a possible
-    // page.  But at this point the identification is so weak we will only pursue
-    // it if caller has identified this as a dispatch message
-    if (!good && !isPositiveId()) return false;
-    
     // There is almost always a code pattern (or whatever it really is)
     // marking the end of the address
-    int mapSt = -1;
-    int mapEnd = -1;
     match = MAP_PATTERN.matcher(body);
-    if (match.find()) {
-      mapSt = match.start();
-      mapEnd = match.end();
+    if (!match.find()) return false;
+    data.strMap = match.group();
+    data.strSupp = body.substring(match.end()).trim();
+    body = body.substring(0,match.start()).trim();
+    
+    String cancel = "";
+    if (body.startsWith("Cancel Reason:")) {
+      int pt = body.indexOf('\n');
+      if (pt < 0) return false;
+      cancel = body.substring(0,pt).trim();
+      body = body.substring(pt+1).trim();
     }
     
-    // And we can usually find a unit pattern marking the beginning of the address
-    // There might be more than one, pick the last one in front of the code pattern
-    int unitSt = -1;
-    int unitEnd = -1;
+    // Life gets easier if we can find a leading call description
+    String call = CALL_LIST.getCode(body);
+    if (call != null) {
+      data.strCall = call;
+      body = body.substring(call.length()).trim();
+      body = stripFieldStart(body, ",");
+    }
+    
+    // See if there is a mutual aid county following the call
+    match = COUNTY_PATTERN.matcher(body);
+    if (data.strCall.length() > 0 ? match.lookingAt() : match.find()) {
+      call = body.substring(0,match.start());
+      if (!call.contains(",")) {
+        if (data.strCall.length() == 0) data.strCall = stripFieldEnd(call.trim(), ",");
+        data.strCity = convertCodes(match.group(), COUNTY_TABLE);
+        body = body.substring(match.end()).trim();
+        body = stripFieldStart(body, ",");
+      }
+    }
+    
+    // See if we can find a unit field following the call description
+    // This is only found for older calls
     match = UNIT_PATTERN.matcher(body);
-    while (match.find()) {
-      if (mapSt >= 0 && match.end() >= mapSt) break;
-      unitSt = match.start();
-      unitEnd = match.end();
+    if (data.strCall.length() > 0 ? match.lookingAt() : match.find()) {
+      if (data.strCall.length() == 0) data.strCall = stripFieldEnd(body.substring(0,match.start()).trim(), ",");
+      data.strUnit = stripFieldEnd(match.group().trim(), ",");
+      body = body.substring(match.end());
+      body = stripFieldStart(body, ",");
     }
     
-    // If there was a code match, strip off the code and trailing info
-    if (mapSt >= 0) {
-      data.strMap = body.substring(mapSt, mapEnd);
-      data.strSupp = body.substring(mapEnd).trim();
-      body = body.substring(0,mapSt).trim();
+    // Anything following a trailing comma is a (probably) place name
+    int flags = FLAG_NO_IMPLIED_APT;
+    StartType st = StartType.START_ADDR;
+    
+    if (data.strCall.length() == 0)   {
+      st = StartType.START_CALL;
+      flags |= FLAG_START_FLD_REQ;
     }
     
-    // If there was a unit match, strip off the leading call description and unit
-    if (unitSt >= 0) {
-      data.strUnit = body.substring(unitSt, unitEnd).trim();
-      if (data.strUnit.startsWith(", ")) data.strUnit = data.strUnit.substring(2).trim();
-      data.strCall = body.substring(0, unitSt);
-      body = body.substring(unitEnd).trim();
-      
-    }
-    
-    // If we have both a unit and code mark, what is left is an address
-    // with a possible comma separated place
-    // Dummy loop to break out of
-    do {
-      if (mapSt >= 0 && unitSt >= 0) {
-        Parser p = new Parser(body);
-        String addr = p.get(',');
-        String city = COUNTY_TABLE.getProperty(addr);
-        if (city != null) {
-          data.strCity = city;
-          addr = p.get(',');
-        }
-        data.strPlace = p.get();
-        if (data.strPlace.length() > 0) {
-          parseAddress(addr, data);
-        } else {
-          parseAddress(StartType.START_ADDR, addr, data);
-          parseLeft(getLeft(), data);
-        }
-        good = true;
-        break;
-      }
-      
-      // We have some special logic if we have the end of the address marked
-      // and we have comma separated fields in what is left
-      if (mapSt >= 0) {
-        int pt = body.lastIndexOf(',');
-        if (pt >= 0) {
-          
-          // Split out last field.  If it contains a valid address, make it so
-          String fld1 = body.substring(0,pt).trim();
-          String fld2 = body.substring(pt+1).trim();
-          Result res2 = parseAddress(StartType.START_CALL, fld2);
-          if (res2.isValid()) {
-            res2.getData(data);
-            parseLeft(res2.getLeft(), data);
-            data.strCall = append(fld1, ", ",  data.strCall);
-            good = true;
-            break;
-          } 
-
-          // If not, turn it into a place name and parse what is left
-          data.strPlace = fld2;
-          body = fld1;
-        }
-      } 
-      
-      // Otherwise we have to use the smart parser to separate out what we didn't get
-      StartType start = (unitSt >= 0 ? StartType.START_ADDR : StartType.START_CALL);
-      // Otherwise we have to use the smart parser to separate out what we didn't get
-      int flags = (mapSt >= 0 ? FLAG_ANCHOR_END : 0);
-      parseAddress(start, flags, body, data);
-      good = good || (getStatus() > STATUS_STREET_NAME);
-      if (flags == 0) data.strSupp = getLeft();
-
-      if (data.strCall.endsWith(",")) data.strCall = data.strCall.substring(0, data.strCall.length()-1).trim();
-      
-      // If We end up with a comma in the address field, it must be separating a place name
-      int pt = data.strAddress.indexOf(',');
+    // See what we find in what is left
+    parseAddress(st, flags, body, data);
+    String left = getLeft();
+    if (left.length() > 0) {
+      int pt = left.indexOf(',');
       if (pt >= 0) {
-        data.strPlace = data.strAddress.substring(pt+1).trim();
-        data.strAddress = data.strAddress.substring(0,pt).trim();
+        data.strAddress = append(data.strAddress, " ", left.substring(0,pt).trim());
+        data.strPlace = left.substring(pt+1).trim();
       }
-    } while (false);
+      else if (left.startsWith("/")) {
+        data.strAddress = append(data.strAddress, " & ", left.substring(1).trim());
+      } 
+      else {
+        data.strPlace = left;
+      }
+    }
+    
+    data.strAddress = DIR_OF_FIX_PATTERN.matcher(data.strAddress).replaceAll("$1/O");
+    
+    data.strCall = stripFieldEnd(data.strCall, ",");
+    data.strCall = append(cancel, " - ", data.strCall);
     
     // If the place name we found looks like an apt number, move it
     if (data.strPlace.toUpperCase().startsWith("APT ")) {
@@ -168,20 +134,60 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
       data.strPlace = "";
     }
     
-    return good;
+    return true;
+  }
+  
+  @Override
+  public CodeSet getCallList() {
+    return CALL_LIST;
   }
 
-
-  private void parseLeft(String left, Data data) {
-    if (left.startsWith("/")) {
-      data.strAddress = append(data.strAddress, " & ", left.substring(1).trim());
-    } else {
-      data.strPlace = left;
-    }
-  }
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "AFA SF DWELLING",
+      "ASSIST THE AMBULANCE",
+      "BOAT AT MARINA OR MARINA FIRE",
+      "BOAT DISTRESS NOT TAKING ON WATER",
+      "BURN ALS",
+      "BURN BLS",
+      "CHEST PAINS ALS",                                                                                                        
+      "CHEST PAINS BLS",                                                                                                        
+      "COMMERCIAL BUILDING FIRE, STRUCTURE, BLDG",                                                                          
+      "DIABETIC ALS",                                                                                                           
+      "FALL ALS",                                                                                                               
+      "FALL BLS",                                                                                                               
+      "GAS LEAK INSIDE SF DWELLING",                                                                                        
+      "HAZMAT INVESTIGATION",                                                                                               
+      "MVC ALS",
+      "MVC BLS",
+      "MVC MOTORCYCLE ALS",
+      "MVC MOTORCYCLE BLS",
+      "MVC ROLLOVER EJECTED",
+      "PERSON NOT BREATHING ALS",
+      "PERSON NOT BREATHING BLS",
+      "SEIZURES ALS",
+      "SEIZURES BLS",
+      "SIT FND CALL CANCELLED NO UNIT ENROUTE",
+      "STROKE ALS",
+      "STROKE BLS",
+      "STRUC FIRE COMMERCIAL BLDG",
+      "STRUC, ODOR OF SMOKE - NO FIRE, M/F DWELLING, TOWNHOUSE, APARTMENT, COMMERCIAL BLDG, MULTI FAMILY HOUSE, BUILDING",
+      "STRUC ODOR OF SMOKE SF DWELLING",
+      "TRANSFER (2) ENGINES",
+      "TRANSFER FIRE",
+      "TROUBLE BREATHING ALS",
+      "UNCONSCIOUS ALS",
+      "UNCONSCIOUS BLS",
+      "WIRES DOWN/ARCING PRINCE",
+      "WORKING FIRE ALERT",
+      
+      // Old stuff
+      "ASSIST THE AMBULANCE, MISC"
+      
+  );
   
   private static Properties COUNTY_TABLE = buildCodeTable(new String[]{
       "CAL COUNTY", "CALVERT COUNTY",
+      "KG COUNTY",  "KING GEORGE COUNTY/VA",
       "PG COUNTY",  "PRINCE GEORGES COUNTY",
       "SM COUNTY",  "ST MARYS COUNTY"
   }); 

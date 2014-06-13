@@ -280,7 +280,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     nffregGehr(gvgyr + ":harkcrpgrq pnyy pbqr:" + vasb.trgPnyy(), purpxPnyyPbqr(vasb.trgPnyy()));
   }
   
-  cevingr obbyrna purpxPnyyPbqr(Fgevat pnyy) {
+  cebgrpgrq obbyrna purpxPnyyPbqr(Fgevat pnyy) {
     vs (!puxPnyyPbqrf) erghea gehr;
     vs (pnyy.yratgu() == 0 || pnyy.rdhnyf("EHA ERCBEG") || pnyy.rdhnyf("TRARENY NYREG")) erghea gehr;
     vs (cnefre == ahyy) erghea gehr;
