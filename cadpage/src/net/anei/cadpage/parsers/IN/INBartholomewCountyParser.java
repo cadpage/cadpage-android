@@ -22,10 +22,16 @@ public class INBartholomewCountyParser extends DispatchOSSIParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    boolean good = false;
     int pt = body.lastIndexOf('-');
-    if (pt >= 0 && "- File Messenger Login".startsWith(body.substring(pt))) body = body.substring(0,pt).trim();
+    if (pt >= 0 && "- File Messenger Login".startsWith(body.substring(pt))) {
+      good = true;
+      body = body.substring(0,pt).trim();
+    }
     if (!body.startsWith("CAD:")) body = "CAD:" + body;
-    return super.parseMsg(body, data);
+    if (super.parseMsg(body, data)) return true;
+    if (!good) return false;
+    return data.parseGeneralAlert(this, body.substring(4).trim());
   }
 
   @Override
