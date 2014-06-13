@@ -43,7 +43,10 @@ public class VAFranklinCountyBParser extends DispatchSouthernParser {
     "WIRTZ",
     
     // Bedford County
-    "MONETA"
+    "MONETA",
+    
+    // Henry County
+    "MARTINSVILLE"
 
   };
 

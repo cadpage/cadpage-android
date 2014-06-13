@@ -36,6 +36,10 @@ PNQ:765 PNEEVTNA EQ;CERTANAPL BE PUVYQOVEGU;24Q03;UNCCL CYNVAF EQ;UNEQ EBPX YA
 PNQ:13 JVRE PVE;FGEBXR;28P01Y;4GU FG FJ;5GU NI FJ
 PNQ:2850 AP 90 UJL R;PURFG CNVA;10Q02;WRFFVPN YRR YA;JUVGR CYNVAF EQ
 
+Pbagnpg: "Grq Obfg, We." <geobfgwe@tznvy.pbz>
+Fraqre: PNQ@nyrknaqrepbhaglap.tbi
+/ PNQ:81 VQN PG;OERNGUVAT CEBOYRZF;06Q02;SRYYBJFUVC PUHEPU EQ;WRNARGGRF JNL
+
 */
 
 choyvp pynff APNyrknaqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -192,6 +196,19 @@ choyvp pynff APNyrknaqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:10Q02",
         "K:WRFFVPN YRR YA & JUVGR CYNVAF EQ");
   }
+  
+  @Grfg
+  choyvp ibvq grfgGrqObfg() {
+
+    qbGrfg("G1",
+        "/ PNQ:81 VQN PG;OERNGUVAT CEBOYRZF;06Q02;SRYYBJFUVC PUHEPU EQ;WRNARGGRF JNL",
+        "NQQE:81 VQN PG",
+        "PNYY:OERNGUVAT CEBOYRZF",
+        "PBQR:06Q02",
+        "K:SRYYBJFUVC PUHEPU EQ & WRNARGGRF JNL");
+   
+  }
+
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj APNyrknaqrePbhaglCnefreGrfg().trarengrGrfgf("G1");
