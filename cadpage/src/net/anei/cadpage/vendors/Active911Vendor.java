@@ -362,6 +362,7 @@ class Active911Vendor extends Vendor {
       "US/OR/Linn",                       "ORLinnCounty",
       "US/OR/MultnomahCounty",            "ORMultnomahCounty",
       "US/OR/NewbergFire",                "ORYamhillCounty",
+      "US/OR/PolkCounty",                 "ORPolkCounty",
       "US/OR/PrinevillePD",               "ORCrookCounty",
       "US/OR/ShermanCounty",              "ORShermanCounty",
       "US/OR/WashingtonCounty",           "ORWashingtonCounty",
