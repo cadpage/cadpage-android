@@ -443,6 +443,7 @@ public class ParserList {
               ,"MILeelanauCounty"               ,"Leelanau County, MI"
               ,"MILenaweeCounty"                ,"Lenawee County, MI"
               ,"MILivingstonCounty"             ,"Livingston County, MI"
+              ,"MIMarquetteCounty"              ,"Marquette County, MI"
               ,"MIMidlandCounty"                ,"Midland County, MI"
               ,"MIMobileMedicalResponse"        ,"Mobile Medical Response, MI"
               ,"MIMontcalmCounty"               ,"Montcalm County, MI"

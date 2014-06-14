@@ -12,10 +12,19 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 public class MIIronCountyParser extends DispatchOSSIParser {
 
   public MIIronCountyParser() {
-    super("IRON COUNTY", "MI",
+    this("IRON COUNTY", "MI");
+  }
+
+  public MIIronCountyParser(String defCity, String defState) {
+    super(defCity, defState,
           "CALL ( PLACE ADDR2 | ADDR | PLACE ADDR ) X+? INFO+? SRC");
   }
   
+  @Override
+  public String getAliasCode() {
+    return "MIIronCounty";
+  }
+
   @Override
   public String getFilter() {
     return "CAD@up-911.com";
