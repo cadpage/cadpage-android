@@ -324,6 +324,7 @@ class Active911Vendor extends Vendor {
       "US/NY/FireRescueSystems",          "NYSuffolkCountyBFI",
       "US/NY/Lewis911",                   "NYLewisCounty",
       "US/NY/MonroeCounty",               "NYMonroeCountyWebster",
+      "US/NY/OneidaIAR",                  "NYOneidaCounty",
       "US/NY/OntarioCounty",              "NYOntarioCounty",
       "US/NY/OrangeCounty",               "NYOrangeCounty",
       "US/NY/OrangeCounty911",            "NYOrangeCountyB",
