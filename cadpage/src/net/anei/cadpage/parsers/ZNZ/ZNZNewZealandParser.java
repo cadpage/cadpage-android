@@ -9,6 +9,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class ZNZNewZealandParser extends SmartAddressParser {
 
+  private static final Pattern WRAP_BRK_PTN = Pattern.compile("(#F\\d+)(?=\\()");
   private static final Pattern END_PAGE_BREAK = Pattern.compile("#F\\d+(?=\n)");
   
   private static final Pattern UNIT_CODE_PTN = Pattern.compile("^\\(([A-Z0-9, ]+)\\) *([ A-Z0-9]+-[A-Z\\d]+) +");
@@ -16,6 +17,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
   private static final Pattern BOX_PTN = Pattern.compile("^\\(Box ([-A-Z0-9 &]+)\\) *");
   private static final Pattern AK_PTN = Pattern.compile("^(AK\\d+[A-Z]? .*? > [A-Z]+\\)) +(?:AK\\d+[A-Z]? +)? *");
   private static final Pattern EXTRA_PTN = Pattern.compile("^([- A-Z0-9:&]+)\\.\\.? +");
+  private static final Pattern EXTRA_PTN2 = Pattern.compile("^([- A-Z0-9:&]+)\\.\\.?(?=#)");
   private static final Pattern NEAR_OFF_PTN = Pattern.compile("^((?:NEAR|OFF) [- A-Z0-9\\?]+)\\. *");
   private static final Pattern XSTR_PTN = Pattern.compile("^\\(XStr +([-A-Z0-9/ ]*)\\) *");
   private static final Pattern DOT_DOT_PTN = Pattern.compile("^\\.(.*)\\. *");
@@ -46,8 +48,14 @@ public class ZNZNewZealandParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (subject.length() > 0) body = '(' + subject + ") " + body;
-    Matcher match = END_PAGE_BREAK.matcher(body);
-    if (match.find()) body = body.substring(0,match.end());
+    
+    Matcher match = WRAP_BRK_PTN.matcher(body);
+    if (match.find()) {
+      body = body.substring(match.end()) + body.substring(0,match.end());
+    } else {
+      match = END_PAGE_BREAK.matcher(body);
+      if (match.find()) body = body.substring(0,match.end());
+    }
     body = body.replace('\n', ' ');
     
     match = UNIT_CODE_PTN.matcher(body);
@@ -130,6 +138,12 @@ public class ZNZNewZealandParser extends SmartAddressParser {
         data.strGPSLoc = INT2WGS84(Double.parseDouble(x), Double.parseDouble(y));
       }
       body = body.substring(match.end());
+    }
+    
+    match = EXTRA_PTN2.matcher(body);
+    if (match.find()) {
+      data.strSupp = append(data.strSupp, "\n", match.group(1).trim());
+      body = body.substring(match.end()).trim();
     }
     
     match = ID_PTN.matcher(body);
