@@ -253,6 +253,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "ALLANTON",
     "AMBERLEY",
     "ANAKIWA",
+    "AORANGI",
     "ARANGA",
     "ARAMOANA",
     "ARAPOHUE",
@@ -315,6 +316,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "ETTRICK",
     "FAIRHALL",
     "FAIRLIE",
+    "FAVONA",
     "FEATHERSTON",
     "FEILDING",
     "FLAXMERE",
@@ -327,6 +329,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "GERALDINE",
     "GISBORNE",
     "GLENORCHY",
+    "GLENSIDE",
     "GORE",
     "GRANITY",
     "GREYMOUTH",
@@ -392,6 +395,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "KAURI",
     "KAWAKAWA",
     "KAWERAU",
+    "KINLEITH",
     "KENNEDY BAY",
     "KERIKERI",
     "KIHIKIHI",
@@ -408,6 +412,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "LEIGH",
     "LEPPERTON",
     "LEVIN",
+    "LICHFIELD",
     "LINCOLN",
     "LINKWATER",
     "LITTLE RIVER",
@@ -685,6 +690,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "WAIMATE",
     "WAIMATE NORTH",
     "WAIMAUKU",
+    "WAINGARO",
     "WAINUI",
     "WAINUIOMATA",
     "WAIONEKE",
@@ -718,6 +724,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "WARKWORTH",
     "WELLINGTON",
     "WELLSFORD",
+    "WESTGATE",
     "WESTPORT",
     "WESTON",
     "WHAKATANE",
@@ -756,10 +763,12 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "AVONDALE",
     "BLOCKHOUSE BAY",
     "BALMORAL",
+    "BOTANY DOWNS",
     "EDEN TERRACE",
     "EDEN VALLEY",
     "ELLERSLIE",
     "EPSOM",
+    "FIVONA",
     "FREEMANS BAY",
     "GLENDOWIE",
     "GLEN INNES",
@@ -788,6 +797,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "ORANGA",
     "OTAHUHU",
     "OWAIRAKA",
+    "PAKURANGA HEIGHTS",
     "PANMURE",
     "PARNELL",
     "PENROSE",
@@ -801,6 +811,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "SAINT MARY’S BAY",
     "SANDRINGHAM",
     "TAMAKI",
+    "TAURANGA SOUTH",
     "TE PAPAPA",
     "THREE KINGS",
     "WAIKOWHAI",
@@ -953,8 +964,29 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     
     // Whangarei suburbs
     "KAMO",
+    "ONERAHI",
     "STANLEY BAY",
     "TIKIPUNGA",
     "WAIHOU",
+    
+    // Greymouth suburbs
+    "COBDEN",
+    
+    // Wellington Suburbs
+    "WELLINGTON CENTRAL",
+    
+    // Whangaparaoa suburbs
+    "TINDALLS BEACH",
+    
+    // Napier suburbs,
+    "AHURIRI",
+    "BOTANY DOWNS",
+    "NAPIER SOUTH",
+    
+    // Nelson suburbs
+    "ANNESBROOK",
+    
+    // New Plymouth suburbs
+    "PORT TARANAKI"
   };
 }
