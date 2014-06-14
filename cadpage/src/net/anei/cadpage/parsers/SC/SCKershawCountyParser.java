@@ -13,7 +13,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class SCKershawCountyParser extends SmartAddressParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("As of (\\d\\d?/\\d\\d?/\\d\\d) \\d\\d");
-  private static final Pattern MASTER_PTN = Pattern.compile("(\\d\\d:\\d\\d) (\\d{4}-\\d{8}) (\\d{4}[A-Z]) - (.*) Unit Org Name Area Types (.*)");
+  private static final Pattern MASTER_PTN = Pattern.compile("(\\d\\d:\\d\\d) (\\d{4}-\\d{8}) (\\d{4}[A-Z]?) - (.*) Unit Org Name Area Types (.*)");
 
   public SCKershawCountyParser() {
     super( CITY_LIST, "KERSHAW COUNTY", "SC");
@@ -64,6 +64,7 @@ public class SCKershawCountyParser extends SmartAddressParser {
   }
   
   private static final CodeSet CALL_LIST = new CodeSet(
+      "AMBULANCE NEEDED",
       "FIRE ALARM SOUNDING",
       "MOTOR VEHICLE ACCIDENT",
       "STRUCTURE FIRE",
