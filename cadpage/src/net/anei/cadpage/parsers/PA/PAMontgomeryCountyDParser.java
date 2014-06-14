@@ -23,10 +23,10 @@ public class PAMontgomeryCountyDParser extends MsgParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    // Don't know what the deal is with randomb back quotes??
+    // Don't know what the deal is with random back quotes??
     body = body.replace('`', ' ');
+    body = body.replace('\t', ' ');
     
-    if (!subject.equals("Dispatch")) return false;
     if (!body.startsWith("------ Dispatch Report ")) {
       if (!RUN_REPORT_PTN.matcher(body).find()) return false;
       data.strCall = "RUN REPORT";
