@@ -6,29 +6,42 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import java.util.Properties;
 import java.util.regex.*;
 
-// Every subclass must implement public String getDispatchID()
-//    to return the portion of the msg left of the 1st ":"
-// In addition, subclasses should override getParseAddressFlags() to provide
-// any additional flags for parseAddress()
-//
 abstract public class DispatchA37Parser extends SmartAddressParser {
-  // pList is list of patterns to pull address fields from variously formatted Message: fields
-  // Each has 1 group to contain the address field
-  private String prefix = null;
+
+  private String prefix;
+  
+  private boolean checkCity;
   
   public DispatchA37Parser(String prefix, String city, String state) {
-    this(prefix, null, city, state);
+    super(city, state);
+    this.prefix = prefix;
+    this.checkCity = false;
+    setFieldList();
   }
   
   public DispatchA37Parser(String prefix, Properties cityCodes, String city, String state) {
     super(cityCodes, city, state);
     this.prefix = prefix;
-    setFieldList("ID CALL CODE DATE TIME");
+    this.checkCity = (cityCodes !=  null);
+    setFieldList();
+  }
+  
+  public DispatchA37Parser(String prefix, String[] cityList, String city, String state) {
+    super(cityList, city, state);
+    this.prefix = prefix;
+    this.checkCity = (cityList != null);
+    setFieldList();
+  }
+  
+  private void setFieldList() {
+    String fieldList = "ID CALL CODE DATE TIME ADDR APT";
+    if (checkCity) fieldList += " CITY";
+    setFieldList(fieldList);
   }
 
   // Separate and parse DispatchID, CALLID, CALL, DATE, TIME and Location/Message fields
   private static final Pattern MASTER_PATTERN
-    = Pattern.compile("([^:]+):\\s*(?:Call\\s*\\#\\s*((?:\\d{2}-)?[\\d]+?))?\\s*(?:\\-\\s*(.+?)\\-\\s+)?\\s*(\\d\\d?\\/\\d\\d?\\/\\d{4})\\s+(\\d{2}\\:\\d{2}\\:\\d{2})\\s*(?:(Location|Message)\\:\\s*(.*?))?");
+    = Pattern.compile("([^:]+):\\s*(?:Call\\s*\\#\\s*((?:\\d{2}-|[A-Z]{2})?[\\d]+?))?\\s*(?:\\-\\s*(.+?)\\-\\s+)?\\s*(\\d\\d?\\/\\d\\d?\\/\\d{4})\\s+(\\d{2}\\:\\d{2}\\:\\d{2})\\s*(?:(Location|Message)\\:\\s*(.*?))?");
   public boolean parseMsg(String body, Data data) {
     Matcher m = MASTER_PATTERN.matcher(body);
     if (!m.matches()) return false;
@@ -67,7 +80,11 @@ abstract public class DispatchA37Parser extends SmartAddressParser {
    * @return true if successful
    */
   protected boolean parseLocationField(String field, Data data) {
-    parseAddress(field, data);
+    if (checkCity) {
+      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
+    } else {
+      parseAddress(field, data);
+    }
     return true;
  }
   
