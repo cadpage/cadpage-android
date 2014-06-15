@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="release_date">06072014</string>
-  <string name="release_version">v1.7.26</string>
+  <string name="release_version">v1.7.27</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -9,25 +9,34 @@ Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
 New Locations:\n
-Contra Costa County, CA\n
-Branson, MO\n
-Erie County, NY (alt)\n
-Pike County, PA\n
+Marion County, KS\n
+West Feliciana Parish, LA\n
+Marquette County, MI\n
+Mitchell County, NC\n
+Wayne County, NC (alt)\n
+Polk County, OR\n
+Schuylkill County, PA\n
+Venango County, PA (alt)\n
+Sumter County, SC\n
+Gatesville, TX\n
 \n
 Location Parsing Fixes:\n
-Brookfield, CT\n
-Cuyahoga County, OH\n
-Greene Couty, OH\n
-Johnston County, NC\n
-Kenton County, KY\n
-Iron County, MI\n
-Lancaster County, PA\n
-Kaufman County, TX\n
-   (was Combine, TX)\n
+San Joaquin County, CA\n
+West Baton Rouge Parish, LA\n
+Charles County, MD\n
+Montomgery County, MD\n
+Barry County, MI\n
+Eaton County, MI\n
+Wright County, MN\n
+Erie County, NY\n
+OneidaCounty, NY\n
+Washington County, NY\n
+Wayne County, NC\n
+Jefferson County, PA\n
+Kershaw County, SC\n
+Salt Lake County, UT\n
 Franklin County, VA\n
-\n
-General fixes:\n
-Duplicate message suppression did not work for direct pages.\n
+New Zealand\n
   </string>
 </resources>
   
