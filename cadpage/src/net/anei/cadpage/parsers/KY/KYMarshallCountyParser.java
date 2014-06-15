@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchGeoconxParser;
 public class KYMarshallCountyParser extends DispatchGeoconxParser {
   
   public KYMarshallCountyParser() {
-    super("MARSHALL COUNTY", "KY", GCX_FLG_NAME_PHONE);
+    super("MARSHALL COUNTY", "KY", GCX_FLG_EMPTY_SUBJECT_OK);
   }
   
   @Override
