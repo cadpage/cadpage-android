@@ -31,7 +31,7 @@ public class MIInghamCountyParser extends DispatchA3Parser{
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d\\d\\-\\d{7}", true);
+    if (name.equals("ID")) return new IdField("\\d\\d\\-\\d{7}|", true);
     if (name.equals("CALL")) return new MyCallField();
     return super.getField(name);
   }
