@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-ALAnffnhPbhagl, AL (Z)
+Anffnh Pbhagl, AL (Z)
 
 Pbagnpg: wnpxfgre2024 <wnpxfgre2024@ubgznvy.pbz>
 Fraqre: nynezf@bprnafvqrsq.arg
