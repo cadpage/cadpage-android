@@ -16,13 +16,14 @@ public class SDLincolnCountyParser extends FieldProgramParser {
   
   private static final Pattern GEN_ALERT_PTN = Pattern.compile("MEETING|TRAINING|DISREGARD", Pattern.CASE_INSENSITIVE);
   private static final Pattern SUBJECT_MSG_PTN = Pattern.compile("([ A-Z0-9]+):(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SRC_PTN = Pattern.compile("NONE||(?:[A-Z0-9 ]+, +)?(?:(?:CANTON|CHANCELLOR|HARRISBURG|HURLEY|LENNOX|MARION|MONROE|PARKER|SIOUX FALLS|TEA|WORTHINGTON) (?:AMB|AMBULANCE|FD|FIRE|FIRE DEPARTMENT)|TURNER COUNTY SHERIFF's OFFICE|TCSO)(?:;[ A-Z;']+)?", Pattern.CASE_INSENSITIVE);
   private static final Pattern LEAD_NUMBER = Pattern.compile("^\\d+ +(?!Y/O |YO ).*");
   private static final Pattern CALL_ID_PTN = Pattern.compile("^\\{?(\\d\\d-\\d+)\\b\\}?");
   private static final Pattern MASTER_PTN = Pattern.compile("\\{?(.*?)\\}? *(\n| - )(.*)");
   private static final Pattern STANDBY_PTN = Pattern.compile("^STANDBY +(?:AT +)", Pattern.CASE_INSENSITIVE);
   private static final Pattern APT_PTN = Pattern.compile("^# *([^,]+?) *,");
   private static final Pattern CITY_ST_PTN = Pattern.compile("^([A-Z ]+)\\b *, *([A-Z]{2})(?: +\\d{5})?", Pattern.CASE_INSENSITIVE);
-  private static final Pattern INFO_JUNK_PTN = Pattern.compile(" *Please respond immediately\\.? *", Pattern.CASE_INSENSITIVE);
+  private static final Pattern INFO_JUNK_PTN = Pattern.compile("[- ]*Please respond immediately\\.? *", Pattern.CASE_INSENSITIVE);
   private static final Pattern SUB_SRC_PTN = Pattern.compile("[A-Z ]+ AMB(?:ULANCE)?", Pattern.CASE_INSENSITIVE);
   
   private String version;
@@ -65,17 +66,14 @@ public class SDLincolnCountyParser extends FieldProgramParser {
       return super.parseFields(flds, data);
     }
 
-    if (subject.startsWith("Ambulance Call") ||
-        subject.startsWith("Fire Call") ||
-        subject.startsWith("Injury Accident") ||
-        subject.startsWith("Non-Injury Accident") ||
-        subject.startsWith("Suspicious Vehicle") ||
-        subject.startsWith("Domestic/Family Dispute")) {
+    flds[0] = flds[0].trim();
+    if (SRC_PTN.matcher(flds[0]).matches()) {
       version = "1";
       data.strCall = subject;
       return parseFields(flds, data);
     }
-    
+
+    if (flds.length >= 3) return false;
     version = "0";
     
     // See if subject contains the address
@@ -235,12 +233,17 @@ public class SDLincolnCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       if (field.equals("None")) return;
+      int pt = field.lastIndexOf(',');
+      if (pt >= 0) {
+        data.strUnit = field.substring(0,pt).trim();
+        field = field.substring(pt+1).trim();
+      }
       super.parse(field, data);
     }
     
     @Override
     public String getFieldNames() {
-      return "CALL SRC";
+      return "CALL UNIT SRC";
     }
   }
   
