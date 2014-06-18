@@ -25,7 +25,7 @@ public class PALebanonCountyParser extends SmartAddressParser {
       Pattern.compile("(?<=[ a-z])(?:Med Class(\\d) |([A-Z]{2,6} ?- ?))");
   private static final Pattern BOX_PTN = 
       Pattern.compile(" (?:(?:Box|BOX) ?([0-9\\-]+)|Fire-Box ([0-9\\-]+) EMS-Box ([0-9\\-]+)|Fire-Box EMS-Box)");
-  private static final Pattern TAIL_CLASS_PTN = Pattern.compile("^Class (\\d) for EMS ");
+  private static final Pattern TAIL_CLASS_PTN = Pattern.compile("\\bClass (\\d) [Ff]or EMS\\b");
   private static final Pattern UNIT_PTN = Pattern.compile(" +([A-Z]+[0-9]+(?:-[0-9]+){0,2}|[0-9]+[A-Z]+|FG[ -]?\\d)$", Pattern.CASE_INSENSITIVE);
 
   public PALebanonCountyParser() {
@@ -107,7 +107,23 @@ public class PALebanonCountyParser extends SmartAddressParser {
     String sAddress = body.substring(0,match.start()).trim();
     data.strPriority = getOptGroup(match.group(1));
     String sCallPfx = match.group(2);
-    String sTail = body.substring(match.end());
+    String sTail = body.substring(match.end()).trim();
+    
+    pt = sAddress.indexOf('=');
+    if (pt >= 0) {
+      data.strPlace = sAddress.substring(pt+1).trim();
+      sAddress = sAddress.substring(0,pt).trim();
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, sAddress, data);
+    } else {
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, sAddress, data);
+      data.strPlace = getLeft();
+    }
+    if (data.strPlace.startsWith ("AT ")) {
+      data.strCross = data.strPlace.substring(3).trim();
+      data.strPlace = "";
+    } else if (data.strPlace.startsWith("* ")) {
+      data.strPlace = data.strPlace.substring(2).trim();
+    }
 
     String sCall;
     match = BOX_PTN.matcher(sTail);
@@ -127,43 +143,38 @@ public class PALebanonCountyParser extends SmartAddressParser {
       }
       data.strBox = sBox;
       sTail = sTail.substring(match.end()).trim();
-      if (sTail.startsWith("-")) sTail = sTail.substring(1).trim();
+      sTail = stripFieldStart(sTail, "-");
     }
-    data.strCall = (sCallPfx == null ? "" : sCallPfx) + sCall;
-    
-    pt = sAddress.indexOf('=');
-    if (pt >= 0) {
-      data.strPlace = sAddress.substring(pt+1).trim();
-      sAddress = sAddress.substring(0,pt).trim();
-      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, sAddress, data);
-    } else {
-      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, sAddress, data);
-      data.strPlace = getLeft();
-    }
-    if (data.strPlace.startsWith ("AT ")) {
-      data.strCross = data.strPlace.substring(3).trim();
-      data.strPlace = "";
-    } else if (data.strPlace.startsWith("* ")) {
-      data.strPlace = data.strPlace.substring(2).trim();
+
+    // Class priority and units can be found before or after the box fields :(
+    if (sTail.length() > 0) {
+      match = TAIL_CLASS_PTN.matcher(sTail);
+      if (match.lookingAt()) {
+        data.strPriority = match.group(1);
+        sTail = sTail.substring(match.end()).trim();
+      }
+      data.strUnit = sTail.toUpperCase();
     }
     
-    match = TAIL_CLASS_PTN.matcher(sTail);
-    if (match.find()) {
-      data.strPriority = match.group(1);
-      sTail = sTail.substring(match.end()).trim();
-    }
-    data.strUnit = sTail;
-    
-    // If there was no unit specified in tail section, try extracting it from end
-    // of call description
-    if (data.strUnit.length() == 0) {
-      while (true) {
-        match = UNIT_PTN.matcher(data.strCall);
-        if (!match.find()) break;
-        data.strUnit = append(match.group(1).toUpperCase(), " ", data.strUnit);
-        data.strCall = data.strCall.substring(0,match.start()).trim();
+    else {
+      match = TAIL_CLASS_PTN.matcher(sCall);
+      if (match.find()) {
+        data.strPriority = match.group(1);
+        data.strUnit = sCall.substring(match.end()).trim().toUpperCase();
+        sCall = sCall.substring(0,match.start()).trim();
+      }
+      
+      else {
+        while (true) {
+          match = UNIT_PTN.matcher(sCall);
+          if (!match.find()) break;
+          data.strUnit = append(match.group(1).toUpperCase(), " ", data.strUnit);
+          sCall = sCall.substring(0,match.start()).trim();
+        }
       }
     }
+    
+    data.strCall = (sCallPfx == null ? "" : sCallPfx) + sCall;
     
     return true;
   }
