@@ -438,6 +438,7 @@ class Active911Vendor extends Vendor {
       "US/TX/NuecesCounty",               "TXNuecesCounty",
       "US/TX/Rosenburg",                  "TXRosenburg",
       "US/TX/RoyseCity",                  "TXRoyseCity",
+      "US/PA/SchuylkillCounty",           "PASchuylkillCounty",
       "US/TX/Seguin",                     "TXKeller",
       "US/TX/VillageFire",                "TXVillage",
       "US/TX/Wilco",                      "TXWilliamsonCountyB",

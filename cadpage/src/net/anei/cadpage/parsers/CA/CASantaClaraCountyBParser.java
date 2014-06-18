@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers.CA;
 
-import java.util.Properties;
-
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 

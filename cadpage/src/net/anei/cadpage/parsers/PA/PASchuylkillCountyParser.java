@@ -51,9 +51,16 @@ public class PASchuylkillCountyParser extends FieldProgramParser {
         int pt = field.lastIndexOf('-');
         if (pt < 0) abort();
         parseAddress(field.substring(0,pt).trim(), data);
-        parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, field.substring(pt+1).trim(), data);
-        if (data.strCity.length() == 0) abort();
-        data.strApt = getLeft();
+        String city = field.substring(pt+1);
+        if (city.length() > 0) {
+          if (city.startsWith(" ")) {
+            data.strApt = city.trim();
+          } else {
+            parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, field.substring(pt+1).trim(), data);
+            if (data.strCity.length() == 0) abort();
+            data.strApt = getLeft();
+          }
+        }
       }
     }
     
@@ -210,7 +217,10 @@ public class PASchuylkillCountyParser extends FieldProgramParser {
     "SEEK",
     "SOUTH TAMAQUA",
     "STILL CREEK",
-    "WEISHAMPLE"
+    "WEISHAMPLE",
+    
+    // Northumberland County
+    "MT CARMEL TWP"
   };
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
