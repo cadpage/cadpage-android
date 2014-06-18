@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class CASantaClaraCountyBParser extends FieldProgramParser {
 
   public CASantaClaraCountyBParser() {
-    super(CITY_CODES, "SANTA CLARA COUNTY", "CA", "CALL! ADDRCITY! APT X! Map:MAP! ID UNIT! INFO+");
+    super("SANTA CLARA COUNTY", "CA", "CALL! ADDRCITY! APT X! Map:MAP! ID UNIT! INFO+");
   }
 
   @Override
@@ -43,6 +43,9 @@ public class CASantaClaraCountyBParser extends FieldProgramParser {
         p2 = p2.trim();
         data.strPlace = p1;
         super.parse(p2, data);
+      } else if ((pi = field.indexOf('(')) >= 0)  {
+        data.strPlace = stripFieldEnd(field.substring(pi+1).trim(), ")");
+        super.parse(field.substring(0,pi).trim(), data);
       } else {
         if (field.equals("NO TEXT")) return;
         super.parse(field, data);
@@ -73,10 +76,4 @@ public class CASantaClaraCountyBParser extends FieldProgramParser {
       return "INFO GPS";
     }
   }
-
-  private static final Properties CITY_CODES = buildCodeTable(new String[] {
-      "REDWOOD XSC",   "LOS GATOS",
-      "SCOTTS_VALLEY", "LOS GATOS",
-      "BURRELL",       "LOS GATOS" });
-
 }
