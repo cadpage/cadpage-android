@@ -12,11 +12,23 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class MDCarrollCountyBParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("Station (\\d\\d) ALERT!! \\((F?\\d+)\\)");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("Station (\\d\\d) ALERT!! \\(#?(F?\\d+)\\)");
   
   public MDCarrollCountyBParser() {
     super("CARROLL COUNTY", "MD",
            "CALL ( BOX ( UNIT ADDR! | ADDR! UNIT ) | UNIT BOX ADDR ) INFO+");
+    setupMultiWordStreets(
+        "BUTLERS BRANCH",
+        "CHRIS MAR",
+        "CARROLL CREEK VIEW",
+        "COON CLUB",
+        "EDGEWOOD CHURCH",
+        "FORT FOOTE",
+        "MIKE SHAPIRO",
+        "MT GILEAD",
+        "OLD ALEXANDRIA FERRY",
+        "RUSTIC VIEW"
+    );
   }
   
   @Override
@@ -32,6 +44,7 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
     data.strSource = match.group(1);
     data.strCallId = match.group(2);
     body = body.replaceAll("  +", " ");
+    body = body.replace("\n,", ",");
     return parseFields(body.split("\n"), 3, data);
   }
   
@@ -45,6 +58,7 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
     if (name.equals("BOX")) return new MyBoxField();
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
@@ -61,17 +75,32 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
     @Override
     public boolean checkParse(String field, Data data) {
       if (data.strCall.startsWith("MUTUAL AID")) {
-        String[] tmp = convertCodes(field, COUNTY_CODES).split(",");
-        data.strCity = tmp[0];
-        if (tmp.length > 1) data.strState = tmp[1];
+        parseMACityCode(field, data);
+        return true;
       }
-      else {
-        if (!BOX_PTN.matcher(field).matches()) return false;
+      
+      if (field.length() == 4 && field.startsWith("MA")) {
+        if (!data.strCall.startsWith("MUTUAL AID")) {
+          data.strCall = "MUTUAL AID " + data.strCall;
+        }
+        parseMACityCode(field.substring(2), data);
+        return true;
+      }
+      
+      if (BOX_PTN.matcher(field).matches()) {
         super.parse(field, data);
+        return true;
       }
-      return true;
+      return false;
+    }
+
+    private void parseMACityCode(String field, Data data) {
+      String[] tmp = convertCodes(field, COUNTY_CODES).split(",");
+      data.strCity = tmp[0];
+      if (tmp.length > 1) data.strState = tmp[1];
     }
     
+    @Override
     public void parse(String field, Data data) {
       if (!checkParse(field, data)) abort();
     }
@@ -94,6 +123,7 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
   }
   
   
+  private static final Pattern ADDR_AT_AT_PTN = Pattern.compile("(.*? AT .*?) at (.* AT .*)");
   private static final Pattern ADDR_BOX_PTN = Pattern.compile("\\d{2}-\\d{1,2}");
   private static final Pattern APT_PTN = Pattern.compile("(?:\\bAPT\\b|\\bROOM\\b|\\bRM\\b|\\bUNIT\\b|#) *([^ ]+)$");
   private static final Pattern APT_PTN2 = Pattern.compile("(?:\\bAPT(?![A-Z])|\\bROOM|\\bRM|\\bUNIT\\b|#) *([^ ]+) *");
@@ -104,11 +134,14 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
     @Override
     public void parse(String fld, Data data) {
       
-      // Rules are completely different for mutual aid calls
+      // Rules are completely different for old style mutual aid calls
       // If it was, there may be a box code, 
       // there is some addition call description stuff following the address
       // And the last token is a radio code
-      if (data.strCall.startsWith("MUTUAL AID")) {
+      
+      // New style mutual aid call address contains a comma and should be
+      // treated normally
+      if (!fld.contains(",") && data.strCall.startsWith("MUTUAL AID")) {
         Parser p = new Parser(fld);
         String tmp = p.get(' ');
         if (tmp.equals("BOX") || tmp.equals("BC")) {
@@ -152,10 +185,27 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
           city = p.getLastOptional(',');
         }
         data.strCity = city;
+        fld = p.get();
+        
+        // Strip off any cross street numbers
+        if (fld.endsWith(">")) {
+          int pt = fld.indexOf('<');
+          if (pt >= 0) {
+            fld = fld.substring(0,pt).trim();
+            fld = stripFieldEnd(fld, "#");
+          }
+        }
+        
+        // They have a weird of of designating intersections that we will try to simplify
+        Matcher match = ADDR_AT_AT_PTN.matcher(fld);
+        if (match.matches()) {
+          String p1 = match.group(1).trim();
+          String p2 = match.group(2).trim();
+          if (p1.equals(p2)) fld = p1;
+        }
         
         // See if we can find an apt field
-        fld = p .get();
-        Matcher match = APT_PTN.matcher(fld);
+        match = APT_PTN.matcher(fld);
         if (match.find()) {
           data.strApt = match.group(1);
           fld = fld.substring(0,match.start()).trim();
@@ -177,7 +227,7 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
           if (data.strPlace.length() > 0) {
             parseAddress(fld, data);
           } else {
-            parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, fld, data);
+            parseAddress(StartType.START_PLACE, FLAG_IGNORE_AT | FLAG_ANCHOR_END, fld, data);
             if (data.strAddress.length() == 0) {
               parseAddress(data.strPlace, data);
               data.strPlace = "";
@@ -193,8 +243,8 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
         else {
           String fld1 = fld.substring(0,pt).trim();
           String fld2 = fld.substring(pt+1).trim();
-          Result res1 = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, fld1);
-          Result res2 = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, fld2);
+          Result res1 = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_IGNORE_AT | FLAG_ANCHOR_END, fld1);
+          Result res2 = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_IGNORE_AT | FLAG_ANCHOR_END, fld2);
           if (res2.getStatus() > res1.getStatus()) {
             res1 = res2;
             fld2 = fld1;
@@ -211,10 +261,38 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
     }
   }
   
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("Darea:")) {
+        Parser p = new Parser(field.substring(6).trim());
+        data.strChannel = p.get(" - ");
+        field = p.get();
+      }
+      super.parse(field, data);
+    }
+  }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    Matcher match = ADDR_AT_RP_PTN.matcher(addr);
+    if (match.matches()) {
+      String p3 = match.group(3);
+      if (p3 != null) {
+        addr = match.group(2).trim() + " & " + p3.trim();
+      } else {
+        addr = match.group(1).trim() + " & " + match.group(2).trim();
+      }
+    }
+    return addr;
+  }
+  private static final Pattern ADDR_AT_RP_PTN = Pattern.compile("(.*?) AT (.*?)(?: RP (.*))?");
+  
   // Mutual aid count abbreviations
   private static final Properties COUNTY_CODES = buildCodeTable(new String[]{
       "YC", "YORK COUNTY,PA",
       "BC", "BALTIMORE COUNTY",
+      "CH", "CHARLES COUNTY",
       "HC", "HOWARD COUNTY",
       "FC", "FREDERICK COUNTY",
       "AC", "ADAMS COUNTY,PA",
