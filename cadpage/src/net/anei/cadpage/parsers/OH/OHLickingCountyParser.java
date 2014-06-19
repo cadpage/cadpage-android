@@ -20,7 +20,7 @@ public class OHLickingCountyParser extends SmartAddressParser {
 
   @Override
   public String getFilter() {
-    return "notif@domain.com,messaging@iamresponding.com";
+    return "notif@domain.com,messaging@iamresponding.com,notif@mecc911.org";
   }
 
   @Override

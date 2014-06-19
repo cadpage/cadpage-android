@@ -24,6 +24,10 @@ Pbagnpg: Ivaprag Qnivf <qnivf.1894@tznvy.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 [Zbaebr Gbjafuvc Sver]  FREIVPR EHA\aFE 161 JO (FE 161), WREFRL GJC, 43062
 
+Pbagnpg: Evpuneq Fgrjneg <EFgrjneg@obgfsbeq.bet>
+Fraqre: abgvs@zrpp911.bet
+(Abgvsvpngvba) ? VYYARFF-RZF 77 FBHGU FG AJ, OHEYVATGBA GJC, 43080 (ABEGU FGEQ/UBZRE EQ AJ)
+
 */
 
 choyvp pynff BUYvpxvatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -95,6 +99,18 @@ choyvp pynff BUYvpxvatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:BU 161",
         "PVGL:WREFRL GJC");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEvpuneqFgrjneg2() {
+
+    qbGrfg("G1",
+        "(Abgvsvpngvba) ? VYYARFF-RZF 77 FBHGU FG AJ, OHEYVATGBA GJC, 43080 (ABEGU FGEQ/UBZRE EQ AJ)",
+        "PNYY:VYYARFF-RZF",
+        "NQQE:77 FBHGU FG AJ",
+        "PVGL:OHEYVATGBA GJC",
+        "K:ABEGU FGEQ/UBZRE EQ AJ)");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
