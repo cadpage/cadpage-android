@@ -77,6 +77,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *         6 - additional checks to detect non-numeric implied apartment fields
  *         7 - There may not be a blank between start field and address :(
  *         8 - There may not be a street suffix :(:(:(
+ *         9 - Do not look for city
  *         First field character determines what can come ahead of the address
  *         X - nothing
  *         C - call description (req)
@@ -2113,6 +2114,10 @@ public class FieldProgramParser extends SmartAddressParser {
           
         case 8:
           parseFlags |= FLAG_OPT_STREET_SFX;
+          break;
+        
+        case 9:
+          parseFlags |= FLAG_NO_CITY;
           break;
         }
           

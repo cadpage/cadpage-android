@@ -431,6 +431,7 @@ class Active911Vendor extends Vendor {
       "US/TX/Katy",                       "TXCyCreekCommCenter",
       "US/TX/KaufmanCounty",              "TXKaufmanCounty",
       "US/TX/KendallCounty",              "TXKendallCounty",
+      "US/TX/OssiCAD",                    "TXLaPorte",
       "US/TX/LeonCounty",                 "TXLeonCounty",
       "US/TX/Lufkin",                     "TXLufkin",
       "US/TX/Midlothian",                 "TXKeller",
