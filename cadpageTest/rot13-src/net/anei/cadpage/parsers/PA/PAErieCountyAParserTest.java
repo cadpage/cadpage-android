@@ -742,7 +742,6 @@ choyvp pynff CNRevrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:30N1",
         "PNYY:GENHZN VAWHEL-ABG QNATRE OBQL",
         "NQQE:9440 QRJRL EQ",
-        "ZNQQE:VAWHEL-ABG QNATRE OBQL 9440 QRJRL EQ & XABLYR EQ",
         "K:XABLYR EQ",
         "PVGL:TERRAR GJC");
 
@@ -752,7 +751,6 @@ choyvp pynff CNRevrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1N1",
         "PNYY:NOQBZVANY CNVA OYF C2",
         "NQQE:8793 XVEFPU EQ",
-        "ZNQQE:8793 XVEFPU EQ & UBEFRFUBR QE",
         "K:UBEFRFUBR QE",
         "PVGL:TERRAR GJC");
 
