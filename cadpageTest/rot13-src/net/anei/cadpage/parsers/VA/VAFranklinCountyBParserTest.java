@@ -10,7 +10,7 @@ Senaxyva Pbhagl, IN
 Pbagnpg: Wvz Fjna <wfjnarkcerffgex@tznvy.pbz>
 Fraqre: 911@SPFB.PBZ
 911@SPFB.PBZ:560 FPHSSYVAT UVYY EQ EBPXL ZBHAG;2014-024771;18:31:13;PURFG CNVA;trb:36.984397, -79.896364
-911@SPFB.PBZ:560 FPHSSYVAT UVYY EQ EBPXL ZBHAG;2014-024771;18:31:13;PURFG CNVA;trb:36.984397, -79.896364
+911@SPFB.PBZ:490 GNALNEQ EQ 101 EBPXL ZBHAG;PRAGRE FG K JENL FG;2014-027459;13:21:41;CNGVRAG SNYYRA;trb:37.002341, -79.88004
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fpehttf Sver Erfphr Qvir 
@@ -57,6 +57,17 @@ choyvp pynff INSenaxyvaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:18:31:13",
         "PNYY:PURFG CNVA",
         "TCF:+36.984397,-79.896364");
+
+    qbGrfg("G2",
+        "911@SPFB.PBZ:490 GNALNEQ EQ 101 EBPXL ZBHAG;PRAGRE FG K JENL FG;2014-027459;13:21:41;CNGVRAG SNYYRA;trb:37.002341, -79.88004",
+        "NQQE:490 GNALNEQ EQ",
+        "NCG:101",
+        "PVGL:EBPXL ZBHAG",
+        "K:PRAGRE FG / JENL FG",
+        "VQ:2014-027459",
+        "GVZR:13:21:41",
+        "PNYY:CNGVRAG SNYYRA",
+        "TCF:+37.002341,-79.880040");
     
   }
 
@@ -213,7 +224,7 @@ choyvp pynff INSenaxyvaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NOQBZVANY CNVA",
         "TCF:+37.044996,-79.763895");
 
-    qbGrfg("G1",
+    qbGrfg("G16",
         "911@SPFB.PBZ:220 FNZHRY YA YG 8 EBPXL ZBHAG;2014-025938;03:59:21;QVSSVPHYGL OERNGUVAT;trb:36.953591, -79.863053",
         "NQQE:220 FNZHRY YA",
         "NCG:YG 8",

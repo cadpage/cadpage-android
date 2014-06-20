@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class VAFranklinCountyBParser extends DispatchSouthernParser {
   
   public VAFranklinCountyBParser() {
-    super(CITY_LIST, "FRANKLIN COUNTY", "VA", DSFLAG_NO_NAME_PHONE);
+    super(CITY_LIST, "FRANKLIN COUNTY", "VA", DSFLAG_FOLLOW_CROSS);
   }
       
   
