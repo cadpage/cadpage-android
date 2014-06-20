@@ -9,7 +9,7 @@ public class OHUnionCountyParser extends FieldProgramParser {
   
   public OHUnionCountyParser() {
     super(CITY_LIST, "UNION COUNTY", "OH",
-           "CALL ADDR/S X X INFO+");
+           "CALL ADDR/S ( CITY/Z ST_ZIP | CITY | ) X/Z+? X2! INFO+");
   }
   
   @Override
@@ -19,15 +19,33 @@ public class OHUnionCountyParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    if (!body.endsWith(",")) data.expectMore = true;
     return parseFields(body.split(","), data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ST_ZIP")) return new SkipField("OH(?: +\\d{5})?", true);
+    if (name.equals("X2")) return new MyCrossField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   private class MyCrossField extends CrossField {
     @Override
-    public void parse(String field, Data data) {
+    public boolean checkParse(String field, Data data) {
       int pt = field.indexOf("//");
-      if (pt >= 0) field = field.substring(pt+2).trim();
-      super.parse(field, data);
+      if (pt < 0) return false;
+      String p1 = field.substring(0,pt).trim();
+      String p2 = field.substring(pt+2).trim();
+      if (!p1.equals(data.strCity)) super.parse(p1, data);
+      super.parse(p2, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
   
@@ -39,19 +57,13 @@ public class OHUnionCountyParser extends FieldProgramParser {
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
-  }
-  
   private static final String[] CITY_LIST = new String[]{
     
     // Cities
     "DUBLIN",
     "MARYSVILLE",
-    "[EDIT]VILLAGES",
+    
+    // Villages
     "MAGNETIC SPRINGS",
     "MILFORD CENTER",
     "PLAIN CITY",
