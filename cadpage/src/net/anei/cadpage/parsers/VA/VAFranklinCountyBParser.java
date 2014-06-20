@@ -34,6 +34,7 @@ public class VAFranklinCountyBParser extends DispatchSouthernParser {
     "FERRUM",
     "GLADE HILL",
     "HALES FORD",
+    "HARDY",             // new
     "NORTH SHORE",
     "PENHOOK",
     "REDWOOD",
