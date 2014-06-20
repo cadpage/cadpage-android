@@ -22,6 +22,10 @@ Pbagnpg: Nyla Fpevgpusvryq <erfphrtny@tznvy.pbz>
 Fraqre: nyreg@pszft.pbz
 (Puvrs NYG) [87 SVER] -- Nynez Sver -- <haxabja> Frnsbeq QR, 19973
 
+Pbagnpg: eboreg srnevaf <eboregsrnevaf@tznvy.pbz>
+Fraqre: nyreg@pszft.pbz
+(Puvrs Nyreg) [300 Sver] 52O1 - Nynezf -- 8931 Naqrefbagbja Eq Qragba, ZQ 21629 -- Pebff FGF: Arj Ya / Erqqra Eq
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Objref Sver Pbzcnal Vap. Fgn. 40
 Ybpngvba: Serqrevpn, QR, Havgrq Fgngrf
@@ -266,6 +270,21 @@ choyvp pynff QRXragPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Frnsbeq",
         "FG:QR");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEboregSrnevaf() {
+
+    qbGrfg("G1",
+        "(Puvrs Nyreg) [300 Sver] 52O1 - Nynezf -- 8931 Naqrefbagbja Eq Qragba, ZQ 21629 -- Pebff FGF: Arj Ya / Erqqra Eq",
+        "FEP:300 Sver",
+        "PBQR:52O1",
+        "PNYY:Nynezf",
+        "NQQE:8931 Naqrefbagbja Eq",
+        "PVGL:Qragba",
+        "FG:ZQ",
+        "K:Arj Ya / Erqqra Eq");
+    
   }
 
   @Grfg
