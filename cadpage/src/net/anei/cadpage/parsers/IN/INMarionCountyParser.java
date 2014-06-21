@@ -101,6 +101,7 @@ public class INMarionCountyParser extends MsgParser {
       "HOM", "Homecroft",
       "IND", "Indianapolis",
       "PLF", "Plainfield",
+      "LAW", "Lawrence",
       
       "DEC", "Decatur TWP",
       "FRA", "Franklin Township",
