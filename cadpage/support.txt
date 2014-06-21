@@ -59,11 +59,16 @@ Thanks for reporting it,
 * Android 4.4 (Kit Kat) dispatch pages showing up in message app inbox
 ***************************************************************************
 
-You have described a "feature" of the new Android 4.4 system.  There are some good reasons why Google made that change, but the bottom line is, Cadpage can no longer block dispatch text alerts from showing up in your message inbox.
+That is a new "feature" of the new Android 4.4 system.  There are some good reasons why Google made that change, but the bottom line is, Cadpage can no longer block dispatch text alerts from showing up in your message inbox.
 
-We have a new direct paging service that is available to everyone with a current paid Cadpage subscription.  Since this does not rely on text messages to push alerts to Cadpage, there is no problem with the alerts showing up in your message inbox.  You can learn more about it at http://www.cadpage.org/paging-service.
+If you are a paid subscriber, you can try our new Cadpage paging service.  This will assign you a personal dispatch email address.  If you can have your dispatch alerts sent to this email address, they will be pushed to your phone through the mobile data network.  No text messaging is involved, so there is no problem with the text alerts showing up in our message app inbox.
 
-Or you can use the spam blocking or blacklisting features of your message app to block messages sent from dispatch.
+To start the paging service, open Cadpage Settings and select:
+    Direct Paging Venders > Cadpage Paging Service > Register
+
+You should shortly receive a registration confirmation popup that will display your dispatch email address. From there you will have the option to generate an email requesting that your dispatch alerts be sent to this address. Then fill in the address of your department IT person and send it.
+
+Another alternative would be to use the spam blocking or blacklisting features of your message app to block messages sent from dispatch.
 
 In the long run, there is an open enhancement request
 https://code.google.com/p/android/issues/detail?id=61684
@@ -73,27 +78,6 @@ Take care,
 Jean ~ Cadpage Administrator
 
 *****************************************************************************
-
-The inability to block messages in Android 4.4 is a "feature" of 4.4.
-Not something we can work around unfortunately.
-
-Usually you can use the blacklist or spam blocking features of your
-message app to tell it not to display alerts from dispatch. Do not use
-the Android system blocking mode feature, that will stop alerts from
-getting to Cadpage.
-
-Or you can switch to using a message service that can push direct pages
-to Cadpage without relying on text messaging.  The latest release
-supports our new direct paging service.  You can learn more about it at
-http://www.cadpage.org/paging-service.  
-
-CodeMessaging.net and Active911.com offer similar service with a lot more features for a bit
-more money.
-
-Take care,
-____________________________
-
-***************************************************************************
 * Registration switched to Active911 app
 ***************************************************************************
 
@@ -856,18 +840,22 @@ Have a nice day,
 
 ******************************************************************
 
-This is a sporadic but very frustrating problem with newer versions of the Android system that has been reported by many people and many different apps.  I implemented another round of published workarounds to see if I can resolve it in the next release.
+This should be fixed in the latest release, now available on Play Store.
 
-The next release will probably be out next Thursday, but this fix is available in the beta release at http://www.cadpage.org/download-cadpage.  I would appreciate it if you could try installing that and see how things work with it.
-
-Thanks,
+Thanks for reporting it,
 -Ken
 
 ******************************************************************
 
-This should be fixed in the latest release, now available on Play Store.
+The number/address reported as sending your dispatch alerts has changed.
+ I will update the default filter to include that in the next Cadpage
+release.  For now you can just override it.
 
-Thanks for reporting it,
+Go into Location Settings and check the box labeled "Override Location
+Filter".  Then set the "From: (filter)" setting to
+12101
+
+Good luck,
 -Ken
 
 ******************************************************************
