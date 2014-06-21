@@ -33,6 +33,13 @@ Pbagnpg: Zr <fbsgnvy2@cgq.arg>
 Fraqre: nyeg_NG3N@abgvslap.bet
 [s26]SVER >SVER TRAREVP (GLCR) 4911 PRQNE TEBIR CNEX YBJRE ZG ORGURY JRFPBR FUNEBA Znc: Tevqf:0,0 Pnq: 2013-0000037135
 
+Pbagnpg: Urael Uraavatf <zlbso23@tznvy.pbz>
+[s20]SVERQ >QJRYYVAT SVER 912-14 PRAGER FG RNFGBA ZNYR PNYYRE Znc: Tevqf:0,0 Pnq: 2012-0000136112
+
+Pbagnpg: Naqerj Jhggxr <jhggxr38@tznvy.pbz>
+Fraqre: 1210100458
+SEZ: \aZFT:[s20]NYF >NQINAPRQ YVSR FHCCBEG PNYY 114 F 3EQ FG RNFGBA PLNAAR PEVFRL Pnq: 2014-00001058438
+
 Pbagnpg: fhccbeg@npgvir911.pbz
 [#8VPG  Abegunzcgba Pbhagl CN PNQ] [r46]OYF >ONFVP YVSR FHCCBEG PNYY 6303 UNABIREIVYYR EQ RNFG NYYRA FNEN UVYOREG Znc: Tevqf:0,0 Pnq: 2012-0000098761\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=397037&p=s5q0q sbe gur znc bs gur nern\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet \a
 [#8VWA  Abegunzcgba Pbhagl CN PNQ] [r46]NYF >NQINAPRQ YVSR FHCCBEG PNYY 5516 YBVF YA RNFG NYYRA UBFRE, PUEVFGVAR Znc: Tevqf:0,0 Pnq: 2012-0000099349\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=397283&p=8r4o8 sbe gur znc bs gur nern\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet \a
@@ -42,9 +49,6 @@ Pbagnpg: fhccbeg@npgvir911.pbz
 [#8W0E  Abegunzcgba Pbhagl CN PNQ] [r46]NYF >NQINAPRQ YVSR FHCCBEG PNYY 5701 PBYBAL QE RNFG NYYRA ZNEL WBR QRRTNA Znc: Tevqf:0,0 Pnq: 2012-0000100593\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=397899&p=90443 sbe gur znc bs gur nern\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet \a
 [#8W2K  Abegunzcgba Pbhagl CN PNQ] [r46]OYF >ONFVP YVSR FHCCBEG PNYY 5745 PBYBAL QE RNFG NYYRA JRATELA URYRA Znc: Tevqf:0,0 Pnq: 2012-0000100697\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=397977&p=2s09o sbe gur znc bs gur nern\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet \a
 [#8W6U  Abegunzcgba Pbhagl CN PNQ] [r46]NYF >NQINAPRQ YVSR FHCCBEG PNYY 5897 YRUVTU YA RNFG NYYRA JNYGBA, PRPRYVN Znc: Tevqf:0,0 Pnq: 2012-0000100946\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=398105&p=61154 sbe gur znc bs gur nern\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet \a
-
-Pbagnpg: Urael Uraavatf <zlbso23@tznvy.pbz>
-[s20]SVERQ >QJRYYVAT SVER 912-14 PRAGER FG RNFGBA ZNYR PNYYRE Znc: Tevqf:0,0 Pnq: 2012-0000136112
  
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cra Netly Sver
@@ -209,6 +213,20 @@ choyvp pynff CNAbegunzcgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ANZR:JRFPBR FUNEBA",
         "VQ:2013-0000037135");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgNaqerjJhggxr() {
+
+    qbGrfg("G1",
+        "SEZ: \aZFT:[s20]NYF >NQINAPRQ YVSR FHCCBEG PNYY 114 F 3EQ FG RNFGBA PLNAAR PEVFRL Pnq: 2014-00001058438",
+        "HAVG:s20",
+        "PNYY:NQINAPRQ YVSR FHCCBEG",
+        "NQQE:114 F 3EQ FG",
+        "PVGL:RNFGBA",
+        "ANZR:PLNAAR PEVFRL",
+        "VQ:2014-00001058438");
+   
   }
  
   @Grfg
