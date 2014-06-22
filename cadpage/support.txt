@@ -840,13 +840,6 @@ Have a nice day,
 
 ******************************************************************
 
-This should be fixed in the latest release, now available on Play Store.
-
-Thanks for reporting it,
--Ken
-
-******************************************************************
-
 The number/address reported as sending your dispatch alerts has changed.
  I will update the default filter to include that in the next Cadpage
 release.  For now you can just override it.
