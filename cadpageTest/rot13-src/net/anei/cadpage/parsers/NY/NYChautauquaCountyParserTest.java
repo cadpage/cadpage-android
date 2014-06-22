@@ -24,6 +24,10 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (FVYIRE PERRX) *RZF PNYY ; 931 PBYHZOVN FG ; P/G/I Unabire ; FHA1 ; ZNYR QRPERNFRQ YBP, 81 LB ZNYR    OBHPURE ERFQ  ; Z191 E191 N172  ; K-Fgerrgf: NYYRT 
 (FVYIRE PERRX) 23:10 ; *RZF PNYY ; 1263 PURZNE QE ; P/G/I Unabire ; FPX3 ; YVSG NFFVFG    ; N171 FVYI  ; K-Fgerrgf: YHQRZNA QE / JBBQYNAQ QE
 
+Pbagnpg: Cnhy Gevccl <cgevcclwe@tznvy.pbz>
+Fraqre: 2183150154
+PUNHGNHDHN_PBHAGL_FUREVSS (ZFC PNQ) 20:32 ; *FVATYR PBZCNAL ; 1 CNEX QE ; P/G/I Qhaxvex_P ; QHA3 ; NFFVFG FHOWRPGF VA PNABR-HANOYR GB TRG ONPX GB FUBER ; OBNG1  ; K-Fgerrgf: CBVAG QE J / CBVAG QE A
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cbegynaq Sver Qrcnegzrag
 Ybpngvba: Cbegynaq, AL, Havgrq Fgngrf
@@ -138,6 +142,21 @@ choyvp pynff ALPunhgnhdhnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Unabire",
         "HAVG:FPX3 N171 FVYI",
         "VASB:YVSG NFFVFG");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCnhyGevccl() {
+
+    qbGrfg("G1",
+        "PUNHGNHDHN_PBHAGL_FUREVSS (ZFC PNQ) 20:32 ; *FVATYR PBZCNAL ; 1 CNEX QE ; P/G/I Qhaxvex_P ; QHA3 ; NFFVFG FHOWRPGF VA PNABR-HANOYR GB TRG ONPX GB FUBER ; OBNG1  ; K-Fgerrgf: CBVAG QE J / CBVAG QE A",
+        "FEP:ZFC PNQ",
+        "GVZR:20:32",
+        "PNYY:FVATYR PBZCNAL",
+        "NQQE:1 CNEX QE",
+        "PVGL:Qhaxvex",
+        "HAVG:QHA3",
+        "VASB:NFFVFG FHOWRPGF VA PNABR-HANOYR GB TRG ONPX GB FUBER / OBNG1 / K-Fgerrgf: CBVAG QE J / CBVAG QE A");
 
   }
 

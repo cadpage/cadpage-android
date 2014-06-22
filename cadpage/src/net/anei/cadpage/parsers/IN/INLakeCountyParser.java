@@ -104,13 +104,13 @@ public class INLakeCountyParser extends FieldProgramParser {
       "CED",  "CEDAR LAKE",
       "CRO",  "CROWN POINT",
       "DYE",  "DYER",
-      "HOB",  "HOBART",    // New
+      "HOB",  "HOBART",
       "HIG",  "HIGHLAND",
       "LOW",  "LOWELL",
       "MER",  "MERRILLVILLE",
       "SCH",  "SCHERERVILLE",
       "STJ",  "ST JOHN",
-      "WHI",  "WHITING"    // New
+      "WHI",  "WHITING"
 
     });
 }
