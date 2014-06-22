@@ -10,7 +10,7 @@ public class INLakeCountyParser extends FieldProgramParser {
 
   public INLakeCountyParser() {
     super(CITY_CODES, "LAKE COUNTY", "IN",
-      "SRC SRC2 CALL ADDR UNIT! INFO/N+? ( ID! Between:X DATETIME | Between:X DATETIME | DATETIME ) END");
+      "SRC SRC2 CALL PAGED? ADDR UNIT! INFO/N+? ( ID Between:X DATETIME | Between:X DATETIME | DATETIME ) END");
   }
   
   public String getFilter() {
@@ -26,9 +26,10 @@ public class INLakeCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("SRC")) return new SourceField("[A-Z]{4}", true);
     if (name.equals("SRC2")) return new MySource2Field();
+    if (name.equals("PAGED")) return new SkipField("PAGED");
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("UNIT")) return new MyUnitField();
-    if (name.equals("ID")) return new IdField("\\d{2}[A-Z]{3}\\d+", true);
+    if (name.equals("ID")) return new IdField("\\d{2}[A-Z]{1,3}\\d+", true);
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("DATETIME")) return new MyDateTimeField();
     return super.getField(name);
@@ -70,6 +71,7 @@ public class INLakeCountyParser extends FieldProgramParser {
    
    @Override
    public void parse(String field, Data data) {
+     if (field.equals("PAGED")) return;
      data.strUnit = append(data.strUnit, " ", field);
    }
  }
@@ -102,11 +104,13 @@ public class INLakeCountyParser extends FieldProgramParser {
       "CED",  "CEDAR LAKE",
       "CRO",  "CROWN POINT",
       "DYE",  "DYER",
-      "HIG",  "HIGHLAND",           // new
+      "HOB",  "HOBART",    // New
+      "HIG",  "HIGHLAND",
       "LOW",  "LOWELL",
       "MER",  "MERRILLVILLE",
       "SCH",  "SCHERERVILLE",
-      "STJ",  "ST JOHN"
+      "STJ",  "ST JOHN",
+      "WHI",  "WHITING"    // New
 
     });
 }
