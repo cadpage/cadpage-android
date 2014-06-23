@@ -408,6 +408,7 @@ class Active911Vendor extends Vendor {
       "US/PA/YorkCounty",                 "PAYorkCountyD",
       "US/SC/GeorgetownCounty",           "SCGeorgetownCounty",
       "US/SC/HartsvilleFD",               "SCDarlingtonCounty",
+      "US/SC/JasperCounty",               "SCJasperCounty",
       "US/SC/OrangeburgCounty",           "OrangeburgCounty",
       "US/SC/PickensCounty",              "SCPickensCounty",
       "US/SC/SumterCounty",               "SCSumterCounty",
