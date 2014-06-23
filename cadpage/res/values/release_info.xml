@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">06072014</string>
-  <string name="release_version">v1.7.27</string>
+  <string name="release_date">06232014</string>
+  <string name="release_version">v1.7.28</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -9,34 +9,30 @@ Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
 New Locations:\n
-Marion County, KS\n
-West Feliciana Parish, LA\n
-Marquette County, MI\n
-Mitchell County, NC\n
-Wayne County, NC (alt)\n
-Polk County, OR\n
-Schuylkill County, PA\n
-Venango County, PA (alt)\n
-Sumter County, SC\n
-Gatesville, TX\n
+Effingham County, GA\n
+Habersham County, GA\n
+O\'Fallon, IL\n
+Iosco County, MI\n
+Marshal County, KY\n
+Nassau County, NY (alt)\n
+Jasper County, SC\n
+Carrollton, TX\n
 \n
 Location Parsing Fixes:\n
-San Joaquin County, CA\n
-West Baton Rouge Parish, LA\n
-Charles County, MD\n
-Montomgery County, MD\n
-Barry County, MI\n
-Eaton County, MI\n
-Wright County, MN\n
-Erie County, NY\n
-OneidaCounty, NY\n
-Washington County, NY\n
-Wayne County, NC\n
-Jefferson County, PA\n
-Kershaw County, SC\n
-Salt Lake County, UT\n
+Santa Clara County, CA\n
+Manatee County, FL\n
+Lake County, IN\n
+Marion County, IN\n
+Chatautqua County, NY\n
+Licking County, OH\n
+Bucks County, PA\n
+Erie County, PA\n
+Lebanon County, PA\n
+Northampton County, PA\n
+Schuylkill County, PA\n
+Lincoln County, SD\n
+LaPorte, TX\n
 Franklin County, VA\n
-New Zealand\n
   </string>
 </resources>
   

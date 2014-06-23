@@ -510,8 +510,10 @@ choyvp pynff APPurebxrrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PUREBXRR 911:R06 >OERNGUVAT CEBOYRZF 20 OHQ NEPU EQ KF: OYHR JVAT EQ PUREBXRR SERQ NEPU Znc: Tevqf:, Pnq: 2014-0000004811",
         "PBQR:R06",
         "PNYY:OERNGUVAT CEBOYRZF",
-        "NQQE:20 OHQ NEPU",
-        "ANZR:EQ KF: OYHR JVAT EQ PUREBXRR SERQ NEPU",
+        "NQQE:20 OHQ NEPU EQ",
+        "K:OYHR JVAT EQ",
+        "PVGL:PUREBXRR",
+        "ANZR:SERQ NEPU",
         "VQ:2014-0000004811");
 
     qbGrfg("G40",
