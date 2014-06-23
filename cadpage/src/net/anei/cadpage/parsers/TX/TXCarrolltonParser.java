@@ -28,7 +28,7 @@ public class TXCarrolltonParser extends FieldProgramParser {
 
   public class GridField extends MapField {
     public GridField() {
-      super("GRID ?(.*)");
+      super("GRID ?(.*)", true);
     }
 
     @Override

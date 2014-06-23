@@ -10,16 +10,7 @@ Svsr, JN
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pvgl bs Ohpxyrl SQ
 Ybpngvba: Ohpxyrl, JN, Havgrq Fgngrf
-Fraqre: <njneq@pvglbssvsr.bet>
-Fraqre: <nerlabyqf@pvglbssvsr.bet>
-Fraqre: <gwbl@pvglbssvsr.bet>
-Fraqre: <wrubyg@pvglbssvsr.bet>
-Fraqre: <pryvnf@pvglbssvsr.bet>
-Fraqre: <gsneajbegu@pvglbssvsr.bet>
-Fraqre: <yfpuvrjr@pvglbssvsr.bet>
-Fraqre: <xjbbypbgg@pvglbssvsr.bet>
-Fraqre: <eynefra@pvglbssvsr.bet>
-Fraqre: <qjvypbk@pvglbssvsr.bet>
+Fraqre: @pvglbssvsr.bet
 
 (Abgvsvpngvba) <UGZY><obql>SVER NVQ<oe />2120 ELNA EQ #SY OYQT2010O, OHPXYRL ,JN, JN, OH, OH (XYVAX FG/FURRGF EQ)<oe />(N)34<oe />06/18/2014 10:31:54<oe />ABG OERNGUVAT<oe />[360829-4684] HAP SRZNYR 40'F<oe /></obql></UGZY>
 (Abgvsvpngvba) <UGZY><obql>SVER CNGVRAG NFFVFG<oe />JNYYL'F QEVIR VA<oe />(N)34<oe />06/17/2014 23:47:18<oe />[253722-2532] PNE VF EHAAVAT YBPXRQ NG<oe />[253722-2532] PRZRGNEL<oe />[253722-2532] NZRRG GUH<oe />[253722-2532] JERFGYR N TEVMMYL ORNE<oe />[253722-2532] PBZCYRGRYL FBORE<oe /></obql></UGZY>
@@ -89,7 +80,7 @@ Fraqre: <qjvypbk@pvglbssvsr.bet>
 (Abgvsvpngvba) <UGZY><obql>SVER NVQ<oe />455 A EVIRE NI, OH (QVREVATRE NI/JUVGR EVIRE CNEX EQ)<oe />(N)34<oe />05/28/2014 09:51:12<oe />[360829-8011] ZNYR 40'F QVSS OERNGUVAT<oe />[360829-8011] UVFGBEL BS YHAT CEBOYRZF<oe />[360829-8011] CEVBE URNEG NGGNPX<oe /></obql></UGZY>
 (Abgvsvpngvba) <UGZY><obql>SVER GRFG<oe />@Ohpxyrl Pvgl Sver Qrcnegzrag  (611 F QVIVFVBA FG)<oe />(N)P34<oe />05/27/2014 14:15:05<oe />GRFG BS FLFGRZ<oe /></obql></UGZY>
 (Abgvsvpngvba) <UGZY><obql>SVER NVQ<oe />2120 ELNA EQ #BA ELNA EQ, OHPXYRL ,JN, JN, OH (XYVAX FG/FURRGF EQ)<oe />(N)35Z<oe />05/27/2014 14:14:44<oe />[360829-1111] 2010N ,,,SRZNYR QVSS OERNGUVAT<oe /></obql></UGZY>
-(Abgvsvpngvba) Erprvirq: sebz haxabja [74.93.99.203] (RUYB Anfuven.SvsrJN.ybpny)\a\gol c01p12b142.zkybtvp.arg(zky_zgn-8.0.0-0) bire GYF frpherq punaary\a\gjvgu RFZGC vq 6s6o5435.0.17215.00-337.44740.c01p12b142.zkybtvp.arg (rairybcr-sebz <ceif=417687qs74=njneq@pvglbssvsr.bet>);\a\gJrq, 09 Nce 2014 15:09:11 -0600 (ZQG)\aK-ZKY-Unfu: 5345o6s717nno80o-47p01r8p4q26q6nq4n8oqq7n2249q0qq7o7s0n18\aErprvirq: sebz cbjre911-apvp (192.168.3.105) ol ANFUVEN.SvsrJN.ybpny\a (192.168.20.29) jvgu Zvpebfbsg FZGC Freire vq 14.2.298.4; Jrq, 9 Nce 2014\a 14:09:07 -0700\aQngr: Jrq, 9 Nce 2014 14:09:07 -0700\aSebz: <njneq@pvglbssvsr.bet>\aFhowrpg: Abgvsvpngvba\aGb: <12589-6udc8NT98mddLs3p@nyreg.npgvir911.pbz>\aZVZR-Irefvba: 1.0\aPbagrag-Glcr: grkg/ugzy; punefrg="VFB-8859-1"\aPbagrag-Genafsre-Rapbqvat: dhbgrq-cevagnoyr\aZrffntr-VQ: <s170544o-s457-44np-o7q8-2nnss9629492@ANFUVEN.SvsrJN.ybpny>\aErghea-Cngu: njneq@pvglbssvsr.bet\aK-NanylfvfBhg: [i=2.1 pi=SXhIkbLf p=1 fz=1 ge=0 n=grD87Qeh+3bNFYj/YZShJD==]\aK-NanylfvfBhg: [:17 n=sUNSO6v3ASZN:10 n=OYprRzjpUbjN:10 n=EE_UBCkMJHpN:10 ]\aK-NanylfvfBhg: [n=8aWRC1BVM-VN:10 n=sx0ctkFPNNNN:8 n=LyIGNZkVNNNN:8 n=gpyp]\aK-NanylfvfBhg: [q6qgYDiRdg9_zzNN:9 n=jCAYisTGrRVN:10]\aK-Fcnz: [S=0.5000000000; PZ=0.500; ZU=0.500(2014040918); F=0.200(2010122901)]\aK-ZNVY-SEBZ: <ceif=417687qs74=njneq@pvglbssvsr.bet>\aK-FBHEPR-VC: [74.93.99.203]
+
 */
 
 choyvp pynff JNSvsrCnefreGrfg rkgraqf OnfrCnefreGrfg {

@@ -1,8 +1,6 @@
 package net.anei.cadpage.parsers.IL;
 
-import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA9Parser;
 
 
