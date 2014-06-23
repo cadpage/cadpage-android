@@ -212,6 +212,7 @@ class Active911Vendor extends Vendor {
       "US/IN/Bristol",                    "INElkhartCounty",
       "US/IN/HancockCounty",              "INHancockCounty",
       "US/IN/LakeCounty",                 "INLakeCounty",
+      "US/IN/Indianapolis",               "INMarionCounty",
       "US/IN/ShelbyCounty",               "INShelbyCounty",
       "US/IN/VigoCounty",                 "INVigoCounty",
       "US/KS/CowleyCounty",               "KSCowleyCounty",
