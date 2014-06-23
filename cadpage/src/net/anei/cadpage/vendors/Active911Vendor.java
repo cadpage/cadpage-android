@@ -198,6 +198,7 @@ class Active911Vendor extends Vendor {
       "US/FL/ManateeCounty",              "FLManateeCounty",
       "US/FL/PalmBeachCounty",            "FLPalmBeachCounty",
       "US/FL/SeminoleCounty",             "FLSeminoleCounty",
+      "US/GA/EffinghamCounty",            "GAEffinghamCounty",
       "US/GA/SouthsideFire",              "GAChathamCounty",
       "US/GA/WhiteCounty",                "GAWhiteCounty",
       "US/ID/BlaineCounty",               "IDBlaineCounty",
