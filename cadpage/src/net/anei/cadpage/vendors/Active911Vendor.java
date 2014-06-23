@@ -253,6 +253,7 @@ class Active911Vendor extends Vendor {
       "US/MI/GrandTraverse",              "MIGrandTraverseCounty",
       "US/MI/GrandTraverseAttachment",    "MIGrandTraverseCounty",
       "US/MI/InghamCounty",               "MIInghamCounty",
+      "US/MI/IoscoCounty",                "MIIoscoCounty",
       "US/MN/BloomingtonFD",              "MNMinneapolisStPaul",
       "US/MN/CarverCounty",               "MNCarverCounty",
       "US/MN/DakotaCounty",               "MNDakotaCounty",

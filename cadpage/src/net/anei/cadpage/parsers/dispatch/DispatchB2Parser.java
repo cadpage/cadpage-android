@@ -156,6 +156,11 @@ public class DispatchB2Parser extends DispatchBParser {
     String name = getLeft();
     boolean noCross = (data.strCross.length() == 0);
     if (name.length() > 0) {
+      int pt = name.indexOf(" XS: ");
+      if (pt >= 0) {
+        data.strApt = append(data.strApt, " ", name.substring(0,pt).trim());
+        name = name.substring(pt+5).trim();
+      }
       if (name.startsWith("&")) {
         data.strAddress = append(data.strAddress, " ", name);
       } 
@@ -170,7 +175,7 @@ public class DispatchB2Parser extends DispatchBParser {
       }
       
       else if ((match = APT_PTN.matcher(name)).matches()) {
-        data.strApt = name;
+        data.strApt = append(data.strApt, " ", name);
       }
       
       else {
