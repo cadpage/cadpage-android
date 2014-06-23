@@ -20,7 +20,7 @@ public class COLarimerCountyAParser extends FieldProgramParser {
   }
   
   public String getFilter() {
-    return "@notifyall.com";
+    return "@notifyall.com,2082524629";
   }
 
   @Override
