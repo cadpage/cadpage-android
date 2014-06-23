@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA9Parser;
 public class ILOFallonParser extends DispatchA9Parser {
     
   public ILOFallonParser() {
-    super(null, "OFALLON", "IL");
+    super(null, "O'FALLON", "IL");
   }
   
   @Override

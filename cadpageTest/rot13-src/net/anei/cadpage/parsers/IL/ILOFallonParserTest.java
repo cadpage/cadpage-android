@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-BSnyyba, VY
+B'Snyyba, VY
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: ZNONF 32
@@ -26,7 +26,7 @@ Fraqre: Tznvy Grnz <sbejneqvat-abercyl@tbbtyr.pbz>
 choyvp pynff VYBSnyybaCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp VYBSnyybaCnefreGrfg() {
-    frgCnefre(arj VYBSnyybaCnefre(), "BSNYYBA", "VY");
+    frgCnefre(arj VYBSnyybaCnefre(), "B'SNYYBA", "VY");
   }
   
   @Grfg
