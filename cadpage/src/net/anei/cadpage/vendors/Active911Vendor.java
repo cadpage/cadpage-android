@@ -423,6 +423,7 @@ class Active911Vendor extends Vendor {
       "US/TX/AngletonPD",                 "TXAngleton",
       "US/TX/Austin",                     "TXTravisCounty",
       "US/TX/BellCounty",                 "TXBellCounty",
+      "US/TX/Carrollton",                 "TXCarrollton",
       "US/TX/CityofDickinson",            "TXGalvestonCounty",
       "US/TX/CityofKeller",               "TXKeller",
       "US/TX/FlightVector",               "TXFlightVector",
