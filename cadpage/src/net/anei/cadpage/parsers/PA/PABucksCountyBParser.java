@@ -17,7 +17,7 @@ public class PABucksCountyBParser extends PABucksCountyBaseParser {
   
   @Override
   public String getFilter() {
-    return "8276,@bnn.us,iamresponding.com,Bucks RSAN,@alert.bucksema.org";
+    return "8276,@bnn.us,iamresponding.com,Bucks RSAN,@alert.bucksema.org,777";
   }
   
   private static final Pattern SRC_PTN = Pattern.compile("TO INT1 FROM [A-Z0-9]+ *: *\n?(.*?)(?=\n)");
