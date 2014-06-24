@@ -281,7 +281,7 @@ public class ParserList {
           new ParserCategory("Idaho"
               ,"IDBlaineCounty"                 ,"Blaine County, ID"
               ,"IDGoodingCounty"                ,"Gooding County, ID"
-              ,"IDJeromeCounty"                 ,"JeromeCounty, ID"
+              ,"IDJeromeCounty"                 ,"Jerome County, ID"
               ,"IDKootenaiCounty"               ,"Kootenai County, ID"
               ,"IDLincolnCounty"                ,"Lincoln County, ID"           
               ,"IDShoshoneCounty"               ,"Shoshone County, ID"

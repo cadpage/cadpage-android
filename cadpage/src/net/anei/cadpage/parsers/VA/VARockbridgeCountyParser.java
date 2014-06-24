@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchDAPROParser;
 
 /**
- * Amelia County, VA
+ * Rockbridge County, VA
  */
 public class VARockbridgeCountyParser extends DispatchDAPROParser {
   
