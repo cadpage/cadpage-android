@@ -13,6 +13,11 @@ public class ILAdamsCountyParser extends SmartAddressParser {
     setFieldList("ID SRC CALL ADDR APT");
   } 
   
+  @Override
+  public String getFilter() {
+    return "911@co.adams.il.us";
+  }
+  
   private static final Pattern SRC_CALL = Pattern.compile("((?:\\w+-)+\\w+) (\\d+-\\d+.*)");
   
   protected boolean parseMsg(String subject, String body, Data data) {
