@@ -181,6 +181,7 @@ class Active911Vendor extends Vendor {
       "US/CO/ColoradoSprings",            "COElPasoCountyB",
       "US/CO/DeltaCountyAmbulance",       "CODeltaCounty",
       "US/CO/ElPasoCounty",               "COElPasoCountyA",
+      "US/CO/OlatheFire",                 "Cadpage2",
       "US/CO/WeldCounty",                 "COWeldCounty",
       "US/CT/DMS",                        "CTFairfieldCountyB",
       "US/CT/Groton",                     "CTGroton",
