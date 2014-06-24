@@ -233,6 +233,7 @@ class Active911Vendor extends Vendor {
       "US/KY/Louisville",                 "KYLouisville",
       "US/KY/MadisonCounty",              "KYMadisonCounty",
       "US/KY/MarshallCountyFire",         "KYMarshallCounty",
+      "US/KY/Nexigen",                    "Cadpage2",
       "US/LA/AscensionParish",            "LAAscensionParish",
       "US/LA/LafourcheParish",            "LALafourcheParish",
       "US/LA/TerrebonneParish",           "LATerrebonneParish",
