@@ -117,7 +117,7 @@ Fraqre: qvfcngpu@qbepurfgrepbhagl.arg
 choyvp pynff FPQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp FPQbepurfgrePbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "QBEPURFGRE PBHAGL", "FP");
+    frgCnefre(arj FPQbepurfgrePbhaglCnefre(), "QBEPURFGRE PBHAGL", "FP");
   }
   
   @Grfg
