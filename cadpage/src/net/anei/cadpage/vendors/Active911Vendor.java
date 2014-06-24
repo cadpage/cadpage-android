@@ -251,6 +251,7 @@ class Active911Vendor extends Vendor {
       "US/MI/BayCounty",                  "MIBayCountyB",
       "US/MI/CalhounCounty",              "MICalhounCounty",
       "US/MI/CharlevoixCounty",           "MICharlevoixCounty",
+      "US/MN/CrowWingCounty",             "MNCrowWingCounty",
       "US/MI/EatonCounty",                "MIEatonCounty",
       "US/MI/GrandTraverse",              "MIGrandTraverseCounty",
       "US/MI/GrandTraverseAttachment",    "MIGrandTraverseCounty",
