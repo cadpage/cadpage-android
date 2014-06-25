@@ -1,6 +1,5 @@
 package net.anei.cadpage;
 
-import net.anei.cadpage.billing.BillingManager;
 import net.anei.cadpage.donation.DonateActivity;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.Vendor1Event;

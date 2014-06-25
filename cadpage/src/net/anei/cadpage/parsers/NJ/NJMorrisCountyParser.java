@@ -1,24 +1,25 @@
 package net.anei.cadpage.parsers.NJ;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SmartAddressParser;
 
 
 
-public class NJMorrisCountyParser extends MsgParser {
+public class NJMorrisCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER_PTN = 
-    Pattern.compile("(?:(Recall Reason: .*)\n)?(.*?) \\[([-A-Za-z ]+)\\] \\(([-A-Z\\\\/ ]+)\\) - (.*)", Pattern.DOTALL);
+    Pattern.compile("(?:((?:Recall|Cancel) Reason: .*|\\*Completed\\*)\n)?(.*?) \\[([-A-Za-z ]+)(?:\\.*\\d+)?\\] \\(([-A-Z0-9\\\\/ ]+)\\) - (.*)", Pattern.DOTALL);
   
   private static final Pattern PLACE_CODE_PTN = Pattern.compile("\\(\\d+\\)");
-  private static final Pattern ID_TIME_PTN = Pattern.compile("(F\\d{6,}) +(\\d\\d:\\d\\d)");
+  private static final Pattern ID_TIME_PTN = Pattern.compile("([A-Z]\\d{6,}) +(\\d\\d:\\d\\d)");
   
   public NJMorrisCountyParser() {
-    super("MORRIS COUNTY", "NJ");
-    setFieldList("PLACE APT ADDR CITY CALL INFO UNIT ID TIME");
+    super(OOC_CITY_LIST, "MORRIS COUNTY", "NJ");
+    setFieldList("PLACE APT ADDR CITY CALL UNIT INFO CODE ID TIME");
   }
   
   @Override
@@ -46,9 +47,41 @@ public class NJMorrisCountyParser extends MsgParser {
     data.strApt = append(data.strApt, " - ", p.getLastOptional(" BLDG "));
     parseAddress(p.get(), data);
     
-    data.strCity = match.group(3).trim();
+    String city = match.group(3).trim();
+    city = stripFieldEnd(city, " Boro");
+    city = stripFieldEnd(city, " Bor");
+    data.strCity = convertCodes(city,  CITY_CODES);
     data.strCall = append(match.group(4).trim(), " - ", sRecall);
     String sExtra = match.group(5);
+    
+    // Special handling required for OOC mutual aid calls
+    if (data.strAddress.endsWith(" COUNTY") && data.strPlace.length() > 0) {
+      
+      // Address is really in the place field, and usually ends with city
+      // name.  But city name may or may not be in are precompiled list of
+      // cities
+      String county = data.strAddress;
+      data.strAddress = "";
+      data.strCity = "";
+      String addr = data.strPlace;
+      data.strPlace = "";
+      if (addr.startsWith("APT")) {
+        p = new Parser(addr.substring(3).trim());
+        data.strApt = p.get(' ');
+        addr = p.get();
+      }
+      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, addr, data);
+      if (data.strCity.length() == 0) {
+        data.strAddress = "";
+        parseAddress(StartType.START_ADDR, addr, data);
+        data.strCity = getLeft();
+        if (data.strCity.length() == 0) data.strCity = county;
+      }
+      if (data.strCity.equals("SANDSTON")) data.strCity = "SANDYSTON";
+      else if (data.strCity.equals("FREEDON")) data.strCity = "FREDON";
+    }
+    if (data.strCity.endsWith(" Co")) data.strCity += "unty";
+    
     String[] flds = sExtra.split("\n");
     if (flds.length > 1) {
       data.strUnit = flds[0].trim();
@@ -58,6 +91,13 @@ public class NJMorrisCountyParser extends MsgParser {
         data.strCallId = match.group(1);
         data.strTime =match.group(2);
         last--;
+      }
+      if (last > 0) {
+        String line = flds[last];
+        if (line.startsWith("Response Code: ")) {
+          data.strCode = line.substring(15).trim();
+          last--;
+        }
       }
       for (int ndx = 1; ndx <= last; ndx++) {
         String fld = flds[ndx].trim();
@@ -77,4 +117,36 @@ public class NJMorrisCountyParser extends MsgParser {
     }
     return true;
   }
+  
+  private static final String[] OOC_CITY_LIST = new String[]{
+    
+    // Essex County
+    "LIVINGSTON",
+    
+    // Sussex County
+    "ANDOVER TWP",
+    "FREEDON",    // dispatch typos
+    "FREDON",
+    "LAFAYETTE TWP",
+    "HOPATCONG",
+    "SANDSTON",   // dispatch typo
+    "SANDYSTON",
+    "SPARTA",
+    "WANTAGE",
+    
+    // Union County
+    "BERKLEY HEIGHTS",
+    "NEW PROVIDENCE",
+    
+    // Warren County
+    "FRANKLIN TWP",
+    "FRELINGHUYSEN",
+    "INDEPENDENCE TWP",
+    "PHILLIPSBURG"
+  };
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "Morris Plns",    "Morris Plains",
+      "MtArlington",    "Mt Arlington"
+  });
 }
