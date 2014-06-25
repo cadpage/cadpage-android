@@ -37,6 +37,7 @@ public class CallHistoryActivity extends ListActivity {
    */
   @Override
   protected void onCreate(Bundle savedInstanceState) {
+    if (Log.DEBUG) Log.v("CallHistoryActivity: onCreate()");
     super.onCreate(savedInstanceState);
     
     // If initialization failure in progress, shut down without doing anything
@@ -240,24 +241,26 @@ public class CallHistoryActivity extends ListActivity {
 
   @Override
   protected void onResume() { 
-      super.onResume(); 
-      setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
-      activityActive = true; 
+    if (Log.DEBUG) Log.v("CallHistoryActivity: onResume()");
+    super.onResume(); 
+    setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
+    activityActive = true; 
   } 
   
-  protected void onPause() { 
-     super.onPause(); 
-     activityActive = false; 
+  protected void onPause() {
+    if (Log.DEBUG) Log.v("CallHistoryActivity: onPause()");
+    super.onPause(); 
+    activityActive = false; 
   } 
   
   public boolean onKeyUp(int keyCode, KeyEvent event)  { 
-     if (!activityActive) return false;
-     return super.onKeyUp(keyCode, event);
+    if (!activityActive) return false;
+    return super.onKeyUp(keyCode, event);
   } 
   
   public boolean onKeyDown(int keyCode, KeyEvent event) { 
-     if (!activityActive) return false;
-     return super.onKeyDown(keyCode, event);
+    if (!activityActive) return false;
+    return super.onKeyDown(keyCode, event);
   }
   
   @Override

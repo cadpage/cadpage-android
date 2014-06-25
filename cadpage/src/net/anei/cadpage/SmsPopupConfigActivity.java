@@ -223,7 +223,9 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
           Intent intent = new Intent("com.scannerradio.intent.action.ACTION_PICK");
           try {
             startActivityForResult(intent, REQ_SCANNER_CHANNEL);
-          } catch (ActivityNotFoundException ex) {
+          } catch (Exception ex) {
+            
+            if (! (ex instanceof ActivityNotFoundException)) Log.e(ex);
             
             // Scanner radio either isn't installed, or isn't responding to the ACTION_PICK
             // request.  Check the package manager to which, if any, are currently installed
