@@ -1,38 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">06232014</string>
-  <string name="release_version">v1.7.28</string>
+  <string name="release_date">06252014</string>
+  <string name="release_version">v1.7.29</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
-New Locations:\n
-Effingham County, GA\n
-Habersham County, GA\n
-O\'Fallon, IL\n
-Iosco County, MI\n
-Marshal County, KY\n
-Nassau County, NY (alt)\n
-Jasper County, SC\n
-Carrollton, TX\n
-\n
 Location Parsing Fixes:\n
-Santa Clara County, CA\n
-Manatee County, FL\n
-Lake County, IN\n
-Marion County, IN\n
-Chatautqua County, NY\n
-Licking County, OH\n
-Bucks County, PA\n
-Erie County, PA\n
-Lebanon County, PA\n
-Northampton County, PA\n
-Schuylkill County, PA\n
-Lincoln County, SD\n
-LaPorte, TX\n
-Franklin County, VA\n
+Colbert County, AL\n
+Larimer County, CO\n
+Morris County, NJ\n
   </string>
 </resources>
   
