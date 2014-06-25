@@ -30,6 +30,11 @@ SLV: ;VYYRTNY OHEA;7974 A JNFUVATGBA FG;PYVS;R CBCYNE FG;R 550 A;06/09/2014 17:0
 Pbagnpg: Puevf Punzoref <puevf@puevfpcubgbtencul.pbz>
 Fraqre: opcntvat@onegubybzrj.va.tbi
 1 bs 2\aSEZ:opcntvat@onegubybzrj.va.tbi\aZFT:9585 J 50 A FHVPVQR NGGRZCG JVGU VAWHEL, SRZNYR VA TNENTR SNPR QBJA PNE EHAAVAT, CNGVRAG VF OERNGUVAT\a(Pba'g) 2 bs 2\a  - Svyr Zrffratre Ybtva(Raq)
+SEZ:opcntvat@onegubybzrj.va.tbi\aZFT:SLV: ;FHVPVQR NGGRZCG VAWHEL;9585 J 50 A;PBY;A 600 J;A 675 J;06/25/2014 01:20:20   - Svyr Zrffratre Ybtva
+SEZ:opcntvat@onegubybzrj.va.tbi\aZFT:Hcqngr: ;NPPVQRAG CREFBANY VAWHEL;7050 A V65;PBY;V65;V65;06/24/2014 17:25:35   - Svyr Zrffratre Ybtva
+SEZ:opcntvat@onegubybzrj.va.tbi\aZFT:SLV: ;NPPVQRAG GLCR HAXABJA PBHAGL;7050 A V65;PBY;V65;V65;06/24/2014 17:25:35   - Svyr Zrffratre Ybtva
+SEZ:opcntvat@onegubybzrj.va.tbi\aZFT:SLV: ;FGEHPGHER SVER;12475 R 800 A;UBCR;A 670 R;A FE9;06/17/2014 18:09:25   - Svyr Zrffratre Ybtva
+
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pynl Gjc Sver
@@ -286,7 +291,63 @@ choyvp pynff VAOnegubybzrjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgPuevfPunzoref() {
-    
+
+    qbGrfg("G1",
+        "1 bs 2\a" +
+        "SEZ:opcntvat@onegubybzrj.va.tbi\a" +
+        "ZFT:9585 J 50 A FHVPVQR NGGRZCG JVGU VAWHEL, SRZNYR VA TNENTR SNPR QBJA PNE EHAAVAT, CNGVRAG VF OERNGUVAT\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "  - Svyr Zrffratre Ybtva(Raq)",
+
+        "PNYY:TRARENY NYREG",
+        "CYNPR:9585 J 50 A FHVPVQR NGGRZCG JVGU VAWHEL, SRZNYR VA TNENTR SNPR QBJA PNE EHAAVAT, CNGVRAG VF OERNGUVAT");
+
+    qbGrfg("G2",
+        "SEZ:opcntvat@onegubybzrj.va.tbi\a" +
+        "ZFT:SLV: ;FHVPVQR NGGRZCG VAWHEL;9585 J 50 A;PBY;A 600 J;A 675 J;06/25/2014 01:20:20   - Svyr Zrffratre Ybtva",
+
+        "PNYY:FHVPVQR NGGRZCG VAWHEL",
+        "NQQE:9585 J 50 A",
+        "PVGL:PBYHZOHF",
+        "K:A 600 J & A 675 J",
+        "QNGR:06/25/2014",
+        "GVZR:01:20:20");
+
+    qbGrfg("G3",
+        "SEZ:opcntvat@onegubybzrj.va.tbi\a" +
+        "ZFT:Hcqngr: ;NPPVQRAG CREFBANY VAWHEL;7050 A V65;PBY;V65;V65;06/24/2014 17:25:35   - Svyr Zrffratre Ybtva",
+
+        "PNYY:NPPVQRAG CREFBANY VAWHEL",
+        "NQQE:7050 A V65",
+        "ZNQQE:7050 A V 65",
+        "PVGL:PBYHZOHF",
+        "K:V65 & V65",
+        "QNGR:06/24/2014",
+        "GVZR:17:25:35");
+
+    qbGrfg("G4",
+        "SEZ:opcntvat@onegubybzrj.va.tbi\a" +
+        "ZFT:SLV: ;NPPVQRAG GLCR HAXABJA PBHAGL;7050 A V65;PBY;V65;V65;06/24/2014 17:25:35   - Svyr Zrffratre Ybtva",
+
+        "PNYY:NPPVQRAG GLCR HAXABJA PBHAGL",
+        "NQQE:7050 A V65",
+        "ZNQQE:7050 A V 65",
+        "PVGL:PBYHZOHF",
+        "K:V65 & V65",
+        "QNGR:06/24/2014",
+        "GVZR:17:25:35");
+
+    qbGrfg("G5",
+        "SEZ:opcntvat@onegubybzrj.va.tbi\a" +
+        "ZFT:SLV: ;FGEHPGHER SVER;12475 R 800 A;UBCR;A 670 R;A FE9;06/17/2014 18:09:25   - Svyr Zrffratre Ybtva",
+
+        "PNYY:FGEHPGHER SVER",
+        "NQQE:12475 R 800 A",
+        "PVGL:UBCR",
+        "K:A 670 R & A FE9",
+        "QNGR:06/17/2014",
+        "GVZR:18:09:25");
+
   }
 
   @Grfg
