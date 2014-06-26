@@ -15,7 +15,7 @@ public class WVWyomingCountyParser extends DispatchB2Parser {
 
 
   public WVWyomingCountyParser() {
-    super("911-CENTER:", CITY_LIST, "MARSHALL COUNTY", "AL");
+    super("911-CENTER:", CITY_LIST, "WYOMING COUNTY", "WV");
   }
   
   @Override
@@ -27,6 +27,56 @@ public class WVWyomingCountyParser extends DispatchB2Parser {
   
   private static final String[] CITY_LIST = new String[]{
     
-    // Fill in cities
+    "ALLEN JUNCTION",
+    "ALPOCA",
+    "AMIGO",
+    "BAILEYSVILLE",
+    "BEECHWOOD",
+    "BLACK EAGLE",
+    "BRENTON",
+    "BUD",
+    "CLEAR FORK",
+    "COAL MOUNTAIN",
+    "CORINNE",
+    "COVEL",
+    "CYCLONE",
+    "FANNY",
+    "FANROCK",
+    "GARWOOD",
+    "GLEN FORK",
+    "GLEN ROGERS",
+    "GLOVER",
+    "HANOVER",
+    "HERNDON",
+    "IKES FORK",
+    "ITMANN",
+    "JESSE",
+    "KEY ROCK",
+    "KOPPERSTON",
+    "LYNCO",
+    "MABEN",
+    "MARIANNA",
+    "MATHENY",
+    "MATOAKA",
+    "MCGRAWS-TIPPLE",
+    "MILAM",
+    "MULLENS",
+    "NEW RICHMOND",
+    "NORTH SPRING",
+    "OCEANA",
+    "OTSEGO",
+    "PIERPONT",
+    "PINEVILLE",
+    "RAVENCLIFF",
+    "ROCK VIEW",
+    "SABINE",
+    "SAULSVILLE",
+    "SIMON",
+    "STEPHENSON",
+    "TRALEE",
+    "WINDOM",
+    "WOLF PEN",
+    "WYCO",
+    "WYOMING"
   };
 }
