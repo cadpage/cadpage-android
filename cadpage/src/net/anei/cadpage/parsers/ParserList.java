@@ -462,6 +462,7 @@ public class ParserList {
               ,"MNAnokaCounty"                  ,"Anoka County, MN"
               ,"MNBeltramiCounty"               ,"Beltrami County, MN"
               ,"MNCarverCounty"                 ,"Carver County, MN"
+              ,"MNCrowWingCounty"               ,"Crow Wing County, MN"
               ,"MNDakotaCounty"                 ,"Dakota County, MN"
               ,"MNEdina"                        ,"Edina, MN"
               ,"MNGoodhueCounty"                ,"Goodhue County, MN"
