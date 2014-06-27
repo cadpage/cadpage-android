@@ -319,6 +319,7 @@ class Active911Vendor extends Vendor {
       "US/NC/WilsonCounty",               "NCWilsonCounty",
       "US/NH/Hanover",                    "NHHanover",
       "US/NH/LRMFA",                      "NHGraftonCounty",
+      "US/NJ/CamdenCounty",               "NJCamdenCounty",
       "US/NJ/EggHarborTownship",          "NJAtlanticCounty",
       "US/NJ/GloucesterCounty",           "NJGloucesterCountyA",
       "US/NJ/HunterdonCounty",            "NJHunterdonCounty",

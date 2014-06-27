@@ -13,10 +13,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchArchonixParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("Dispatch (.*)"); 
-  private static final Pattern SUBJECT2_PTN = Pattern.compile("Free (.*)");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("(?:Dispatch|Free) (.*)"); 
   private static final Pattern SUBJECT3_PTN = Pattern.compile("Sta +(.+)");
   private static final Pattern REPORT_ID_PTN = Pattern.compile("\nMI#:(\\d+) *\n");
+  private static final Pattern REPORT_UNIT_PTN = Pattern.compile("\nRES:(.*)$");
   private static final Pattern SINGLE_LINE_BRK = Pattern.compile("(?<!\n)\n(?!\n)");
   
   private Properties cityCodes;
@@ -39,20 +39,21 @@ public class DispatchArchonixParser extends FieldProgramParser {
     Matcher match = SUBJECT_PTN.matcher(subject);
     if (match.matches()) {
       data.strUnit = match.group(1).trim();
-    } else {
-      match = SUBJECT3_PTN.matcher(subject);
-      if (match.matches()) {
-        data.strSource = subject.trim();
-      } else {
-        match = SUBJECT2_PTN.matcher(subject);
-        if (!match.matches()) return false;
-        data.strCall = "RUN REPORT";
-        data.strPlace = body;
-        data.strUnit = match.group(1);
-        match = REPORT_ID_PTN.matcher(body);
-        if (match.find()) data.strCallId = match.group(1);
-        return true;
+    } 
+    else if ((match = SUBJECT3_PTN.matcher(subject)).matches()){
+      data.strSource = match.group(1).trim();
+    }
+    
+    if (body.contains("\nDisp:")) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      match = REPORT_ID_PTN.matcher(body);
+      if (match.find()) data.strCallId = match.group(1);
+      if (data.strUnit.length() == 0) {
+        match = REPORT_UNIT_PTN.matcher(body);
+        if (match.find()) data.strUnit = match.group(1).trim();
       }
+      return true;
     }
     
     // Search and destroy code messaging double line breaks
@@ -153,16 +154,20 @@ public class DispatchArchonixParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern ID_CH_PTN = Pattern.compile("(.*?) +(OPS *\\d+)");
   protected class BaseIdField extends IdField {
     @Override
     public void parse(String field, Data data) {
-      Matcher match = ID_CH_PTN.matcher(field);
-      if (match.matches()) {
-        field = match.group(1);
-        data.strChannel = match.group(2);
+      int pt = field.indexOf(' ');
+      if (pt >= 0) {
+        data.strChannel = field.substring(pt+1).trim();
+        field = field.substring(0,pt);
       }
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ID CH";
     }
   }
   

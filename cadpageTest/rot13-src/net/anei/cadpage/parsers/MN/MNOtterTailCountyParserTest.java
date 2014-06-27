@@ -1608,6 +1608,7 @@ choyvp pynff ZABggreGnvyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Nppvqrag-1050-ZI-Erp Iru",
         "NQQE:Vazna Fg &",
+        "CYNPR:Npebff Sebz Qraalf",
         "PVGL:Uraavat",
         "FEP:Bggre Gnvy Pb Furevssf Bssvpr",
         "VQ:001400017737",

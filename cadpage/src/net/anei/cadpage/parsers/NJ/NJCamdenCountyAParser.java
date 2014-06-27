@@ -91,7 +91,11 @@ public class NJCamdenCountyAParser extends DispatchArchonixParser {
     "36",    "Winslow Twp",
     "36 36", "Winslow Twp",
     "37",    "Woodlyne",
-    "37 37", "Woodlyne"
+    "37 37", "Woodlyne",
+    "44",    "",
+    "44 44", "",
+    "63",    "",
+    "63 63", ""
   });
 
 }
