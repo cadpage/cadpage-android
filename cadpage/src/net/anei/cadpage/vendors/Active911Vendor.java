@@ -178,6 +178,7 @@ class Active911Vendor extends Vendor {
       "US/CA/SantaCruzlimited",           "CASantaCruzCounty",
       "US/CA/SonomaCounty",               "CASonomaCounty",
       "US/CA/StanislausCounty",           "CAStanislausCounty",
+      "US/CO/AdamsCounty",                "COAdamsCounty",
       "US/CO/ColoradoSprings",            "COElPasoCountyB",
       "US/CO/DeltaCountyAmbulance",       "CODeltaCounty",
       "US/CO/ElPasoCounty",               "COElPasoCountyA",
