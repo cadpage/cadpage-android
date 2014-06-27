@@ -87,7 +87,7 @@ choyvp pynff VQFubfubarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G7",
         "(Vzp Fbyhgvbaf Cntr) ZIN JVGU VAWHEVRF\a60 V90 \aJNYYNPR\aQvfgevpg: Q1\a2/25/2013 10:16",
         "PNYY:ZIN JVGU VAWHEVRF",
-        "NQQE:60 V-90",
+        "NQQE:60 V90",
         "ZNQQE:60 V 90",
         "PVGL:JNYYNPR",
         "HAVG:Q1",

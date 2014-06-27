@@ -375,7 +375,8 @@ choyvp pynff NYZnefunyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911-PRAGRE:GENSNP>GENSSVP NPPVQRAGF NEOLF OBNM IREVMBA JVERYRFF",
         "PBQR:GENSNP",
         "PNYY:GENSSVP NPPVQRAGF",
-        "NQQE:NEOLF OBNM");
+        "NQQE:NEOLF",
+        "PVGL:OBNM");
 
     qbGrfg("G5",
         "911-PRAGRE:GEFC >EBHGVAR GENAFCBEG 266 NEYVR YNPRL EQ OBNM RYVMNORGU XVAT",

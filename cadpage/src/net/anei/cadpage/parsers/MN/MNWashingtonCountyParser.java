@@ -43,7 +43,7 @@ public class MNWashingtonCountyParser extends SmartAddressParser {
 
     data.strUnit = getOptGroup(match.group(1));
     String addr = match.group(2).replace('.', ' ').trim();
-    addr = HWY_I_PTN.matcher(addr).replaceAll("I-$1");
+    addr = HWY_I_PTN.matcher(addr).replaceAll("I$1");
     parseAddress(StartType.START_ADDR, addr, data);
     String apt = getLeft();
     if (apt.startsWith("/")) {

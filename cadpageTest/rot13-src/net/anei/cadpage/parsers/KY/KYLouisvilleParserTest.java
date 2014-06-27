@@ -1160,7 +1160,7 @@ choyvp pynff XLYbhvfivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G5",
         "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: @24 V64J GLCR PBQR: ZRQVPNY FHO GLCR: ZRQ_PNYY GVZR: 15:08:10 Pbzzragf:  FCRPVNY NQQERFF PBZZRAG: VA FURYOL PBHAGL ***25ZZ V64J ERD RNFGJBBQ SVER SBE VAWHEL NPPVQRAG ABG NOYR GB NQI BS NAL RKGRAG ** Pnfr ahzore 7713000100 unf orra nffvtarq sbe 77:PAGL ** >>>> ol: NAVGN OVYLRH ba grezvany: 911zf27 ",
-        "NQQE:24 V-64J",
+        "NQQE:24 V64J",
         "ZNQQE:24 V 64",
         "PBQR:ZRQVPNY",
         "PNYY:ZRQ_PNYY",
@@ -1169,7 +1169,7 @@ choyvp pynff XLYbhvfivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G6",
         "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: @24 V64J GLCR PBQR: ZRQVPNY FHO GLCR: ZRQ_PNYY GVZR: 15:08:10 Pbzzragf:  FCRPVNY NQQERFF PBZZRAG: VA FURYOL PBHAGL ***25ZZ V64J ERD RNFGJBBQ SVER SBE VAWHEL NPPVQRAG ABG NOYR GB NQI BS NAL RKGRAG ** Pnfr ahzore 7713000100 unf orra nffvtarq sbe 77:PAGL ** >>>> ol: NAVGN OVYLRH ba grezvany: 911zf27 ",
-        "NQQE:24 V-64J",
+        "NQQE:24 V64J",
         "ZNQQE:24 V 64",
         "PBQR:ZRQVPNY",
         "PNYY:ZRQ_PNYY",

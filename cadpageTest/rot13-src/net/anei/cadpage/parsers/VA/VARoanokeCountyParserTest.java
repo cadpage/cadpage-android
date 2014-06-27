@@ -2775,7 +2775,7 @@ choyvp pynff INEbnabxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:PB1 J1 PB5 R5 PR3 ERF1 Z1 Y2 ONGG1 RZF2",
         "PNYY:PBZZREPVNY SVER NYNEZ",
         "CYNPR:SEVRAQFUVC ERTRAPL",
-        "NQQE:V-401",
+        "NQQE:V401",
         "ZNQQE:V 401",
         "NCG:SEVRAQF JNL");
 
@@ -2968,7 +2968,7 @@ choyvp pynff INEbnabxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:PB5 J5 PB1 J1 ERF5 PZRQ3 Y2 ONGG1",
         "PNYY:PBZZREPVNY TNF YRNX",
         "CYNPR:UBYYVAF ZNABE",
-        "NQQE:V-7610",
+        "NQQE:V7610",
         "ZNQQE:V 7610 & ZNEFBA EQ",
         "NCG:JVYYVNZFBA EQ (540) 511 7759",
         "K:ZNEFBA EQ / BYQ INYYRL EQ");
@@ -2993,7 +2993,7 @@ choyvp pynff INEbnabxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:PB5 J5 PB1 J1 PR3 ERF5 E52 Y2 ONGG1 RZF2",
         "PNYY:PBZZREPVNY SVER NYNEZ",
         "CYNPR:UBYYVAF ZNABE",
-        "NQQE:V-7610",
+        "NQQE:V7610",
         "ZNQQE:V 7610",
         "NCG:JVYYVNZFBA EQ");
 
@@ -3143,7 +3143,7 @@ choyvp pynff INEbnabxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:PB1 J1 PB5 R5 PR3 ERF1 Z1 Y2 ONGG1 RZF2",
         "PNYY:PBZZREPVNY SVER NYNEZ",
         "CYNPR:SEVRAQFUVC JRYYVATGBA",
-        "NQQE:V-420",
+        "NQQE:V420",
         "ZNQQE:V 420",
         "NCG:OYHRORYY YA");
 

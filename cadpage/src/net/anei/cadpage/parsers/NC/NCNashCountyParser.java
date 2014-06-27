@@ -19,6 +19,7 @@ public class NCNashCountyParser extends SmartAddressParser {
   public NCNashCountyParser() {
     super(CITY_LIST, "NASH COUNTY", "NC");
     setFieldList("ADDR APT CITY X CODE CALL NAME UNIT DATE TIME INFO");
+    setupMultiWordStreets("NASHVILLE COMMONS", "RED OAK BATTLEBORO");
   }
   
   @Override

@@ -277,7 +277,7 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G14",
         "FG EG 41 NAQ V70 SBE N 2 IRUVPYR PENFU HAXABJA BA VAWHEVRF -1626 ",
-        "NQQE:FG EG 41 NAQ V-70",
+        "NQQE:FG EG 41 NAQ V70",
         "ZNQQE:BU 41 & V 70",
         "PNYY:SBE N 2 IRUVPYR PENFU HAXABJA BA VAWHEVRF",
         "VQ:1626");
@@ -487,7 +487,7 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G47",
         "[1252]-V70 RO 59 ZZ PNE VA THNEQ ENVY -1252 ",
-        "NQQE:V-70 RO",
+        "NQQE:V70 RO",
         "ZNQQE:V 70",
         "PNYY:59 ZZ PNE VA THNEQ ENVY",
         "VQ:1252");

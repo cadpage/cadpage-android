@@ -16,7 +16,7 @@ public class MTRavalliCountyParser extends FieldProgramParser {
   private static final Pattern UNIT2_VALIDATE_PTN = Pattern.compile("[^ ]*");
   private static final Pattern RESPOND_TO_PTN = Pattern.compile("(.*)\\bRESPOND TO +(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern CALL_PTN = Pattern.compile("(.*?)(?<!STAGE |STAGING |ON CALL )\\bFOR +(?:AN? +)?(.*)", Pattern.CASE_INSENSITIVE);
-  private static final Pattern X_VALIDATE_PTN = Pattern.compile("(.*)(?:CROSS ST(?:REET)?|XSTREET|CROSSING) +(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern X_VALIDATE_PTN = Pattern.compile("(.*)(?:CROSS ST(?:REET)?|XSTREET) +(.*)", Pattern.CASE_INSENSITIVE);
   
   public MTRavalliCountyParser() {
     super(CITY_LIST, "RAVALLI COUNTY", "MT",

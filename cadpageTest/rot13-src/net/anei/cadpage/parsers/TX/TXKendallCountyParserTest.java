@@ -966,7 +966,7 @@ choyvp pynff GKXraqnyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NZOHYNAPR PNYY",
         "QNGR:12/10/2013",
         "GVZR:20:29:45",
-        "NQQE:35065 J VU-10",
+        "NQQE:35065 J VU10",
         "ZNQQE:35065 J V 10",
         "VASB:21LBS UNIVAT N FRVMHER",
         "PVGL:OBREAR");
@@ -1658,7 +1658,7 @@ choyvp pynff GKXraqnyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NZOHYNAPR PNYY",
         "QNGR:12/1/2013",
         "GVZR:17:53:10",
-        "NQQE:33000 J VU-10",
+        "NQQE:33000 J VU10",
         "ZNQQE:33000 J V 10",
         "VASB:77 LBZ HANOYR GB TRG BHG BS ORQ UNF QEVAXVAT CEBOYRZ",
         "PVGL:OBREAR");

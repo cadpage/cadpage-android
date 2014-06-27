@@ -16,7 +16,7 @@ public class COAdamsCountyParser extends FieldProgramParser {
   
   public COAdamsCountyParser() {
     super(CITY_TABLE, "ADAMS COUNTY", "CO",
-           "ADDR! TYPE_CODE:CALL! CALLER_NAME:NAME! TIME:TIME% Comments:INFO");
+           "ADDR! TYPE_CODE:CALL! CALLER_NAME:NAME! TIME:TIME% Comments:INFO Disp:UNIT");
   }
   
   @Override
@@ -35,6 +35,7 @@ public class COAdamsCountyParser extends FieldProgramParser {
     if (super.parseMsg(body, data)) return true;
     
     // Fallback parsing address followed by call description
+    setFieldList("CALL PLACE ADDR APT CITY INFO");
     data.initialize(this);
     parseAddress(StartType.START_CALL, FLAG_AT_SIGN_ONLY, body, data);
     if (!isValidAddress()) return false;
@@ -44,7 +45,7 @@ public class COAdamsCountyParser extends FieldProgramParser {
   }
   
   
-  private static final Pattern TIME_MARK = Pattern.compile(" +(\\d\\d:\\d\\d:\\d\\d)$");
+  private static final Pattern TIME_MARK = Pattern.compile(" *\\b(\\d\\d:\\d\\d:\\d\\d)$");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -57,18 +58,44 @@ public class COAdamsCountyParser extends FieldProgramParser {
       }
       int pt = field.lastIndexOf(':');
       String sPlace = null;
+      String sPlace2 = null;
       if (pt >= 0) {
-        sPlace = field.substring(pt+1).trim();
+        sPlace = stripFieldStart(field.substring(pt+1).trim(), "@");
         field = field.substring(0,pt).trim();
-        if (sPlace.startsWith("@")) sPlace = sPlace.substring(1).trim();
       }
+      
+      if (sPlace != null) {
+        pt = field.lastIndexOf(':');
+        if (pt >= 0) {
+          sPlace2 = sPlace;
+          sPlace = stripFieldStart(field.substring(pt+1).trim(), "@");
+          field = field.substring(0,pt);
+        }
+      }
+  
+      String city = CITY_TABLE.getProperty(field);
+      if (city != null) {
+        data.strCity = city;
+        field = sPlace;
+        if (field == null) field = "";
+        sPlace = sPlace2;
+        sPlace2 = null;
+      }
+      
+      if (sPlace2 != null && !sPlace.equals(sPlace2)) sPlace = append(sPlace, ": ", sPlace2);
       
       pt = field.lastIndexOf(',');
       if (pt >= 0) {
         data.strApt = field.substring(pt+1).trim();
         field = field.substring(0,pt).trim();
       }
-      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
+      if (field.startsWith("MM ")) {
+        data.strAddress = field;
+      } else if (data.strCity.length() > 0) {
+        parseAddress(field, data);
+      } else {
+        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
+      }
       if (sPlace != null) {
         String sCross = null;
         pt = sPlace.indexOf('/');
@@ -122,6 +149,12 @@ public class COAdamsCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  @Override
+  public String adjustMapAddress(String addr) {
+    return TWO_PT_FIVE.matcher(addr).replaceAll("2 1/2");
+  }
+  private Pattern TWO_PT_FIVE = Pattern.compile("\\b2\\.5\\b");
+  
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
       "ADAM ADAM", "",
       "ADAM ARV",  "ARVADA",
@@ -131,6 +164,7 @@ public class COAdamsCountyParser extends FieldProgramParser {
       "ADAM FHPD", "FEDERAL HEIGHTS",
       "ADAM TPD",  "THORNTON",
       "ADAM WES",  "WESTMINSTER",
-      "ARAP ARAP", "ARAPAHOE COUNTY"
+      "ARAP ARAP", "ARAPAHOE COUNTY",
+      "WELD WELD", "WELD COUNTY"
   });
 }

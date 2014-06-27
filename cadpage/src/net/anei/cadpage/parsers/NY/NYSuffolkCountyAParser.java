@@ -15,12 +15,21 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
   
   private static final Pattern APT_PTN = Pattern.compile("(.*)[: ](?:APT|ROOM|UNIT|STE) +#?([^ ]+)");
   private static final Pattern PLACE_MARK_PTN = Pattern.compile(": ?@|@|:|;");
-  private static final Pattern ADDR_CROSS_PTN = Pattern.compile("(.*)(?:[ :][SC]/S(?: ?=)?| X-)(.*)");
+  private static final Pattern ADDR_CROSS_PTN = Pattern.compile("(.*)(?:[ :][SC]/S(?: ?=)?| X-| CX )(.*?)(?:\\.{2,} *(.*))?");
   private static final Pattern SPECIAL_PTN = Pattern.compile("(.*)(\\*\\*\\*_[_A-Z]+_\\*\\*\\*):?(.*)");
   
   public NYSuffolkCountyAParser() {
     super(CITY_TABLE, "SUFFOLK COUNTY", "NY");
     setFieldList("CALL ADDR CITY PLACE APT X CODE INFO TIME");
+    setupDoctorNames("KAHN", "HSU", "KAMDAR", "KLEINER", "SINGH");
+    setupMultiWordStreets(
+        "FIRE ISLAND",
+        "LONG ISLAND",
+        "MIDDLE ISLAND",
+        "MORICHES MIDDLE ISLAND",
+        "SPRING HOLLOW",
+        "YAPHANK MIDDLE ISLAND"
+    );
   }
   
   @Override
@@ -68,6 +77,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       if (match.matches()) {
         sAddress = match.group(1).trim();
         data.strCross = append(match.group(2).trim(), " / ", data.strCross);
+        data.strPlace = append(getOptGroup(match.group(3)), " - ", data.strPlace);
       }
       
       match = SPECIAL_PTN.matcher(sAddress);
@@ -83,7 +93,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
         if (NUMERIC.matcher(place).matches()) {
           data.strApt = append(place, "-", data.strApt);
         } else {
-          data.strPlace = place;
+          data.strPlace = append(place, " - ", data.strPlace);
         }
         if (addrFlds.length > 2) data.strSupp = append(data.strSupp, "\n", addrFlds[2].trim());
         match = APT_PTN.matcher(sAddress);
@@ -92,8 +102,26 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
           data.strApt = append(match.group(2).trim(), "-", data.strApt);
         }
       }
-      parseAddress(StartType.START_ADDR, sAddress, data);
-      data.strPlace = append(getLeft(), " - ", data.strPlace);
+      
+      // We have so many city codes that many of them form part of legitimate
+      // street names, which really messes things up.  To cut down on some of
+      // the confusion, any double blank following a legitimate city code is
+      // treated as the end of the address
+      int pt = -1;
+      while (true) {
+        pt = sAddress.indexOf("  ", pt+1);
+        if (pt < 0) break;
+        Result res = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddress.substring(0,pt));
+        if (res.getCity().length() > 0) {
+          res.getData(data);
+          data.strPlace = append(sAddress.substring(pt+2).trim(), " - ", data.strPlace);
+          break;
+        }
+      }
+      if (data.strCity.length() == 0) {
+        parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, sAddress, data);
+        data.strPlace = append(getLeft(), " - ", data.strPlace);
+      }
     }
     
     data.strCode = props.getProperty("CODE", "");

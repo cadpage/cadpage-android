@@ -135,7 +135,7 @@ choyvp pynff ZAAbeguZrzbevnyNzohynaprFreivprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ ZFT: *Q N2   56       PB7 AJ / PB58 AJ  FGEBAT TNF BQBE VA GUR NERN VAP:10019278",
         "FEP:N2",
         "PNYY:56 - Fzbxr/Tnf Bqbe",
-        "NQQE:PB-7 AJ & PB-58 AJ",
+        "NQQE:PB7 AJ & PB58 AJ",
         "ZNQQE:PBHAGL EBNQ 7 AJ & PBHAGL EBNQ 58 AJ",
         "VASB:FGEBAT TNF BQBE VA GUR NERN",
         "VQ:10019278");

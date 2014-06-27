@@ -9,6 +9,7 @@ public class NCCherokeeParser extends DispatchB2Parser {
 
   public NCCherokeeParser() {
     super("CHEROKEE 911:", CITY_LIST, "CHEROKEE", "NC");
+    setupMultiWordStreets("CHEROKEE BOYS CLUB");
   }
   
   @Override

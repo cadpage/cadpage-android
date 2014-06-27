@@ -443,11 +443,11 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(BGURE, "ONEX CYNPR 500 HF-30 QBJAGBJA",
         "NQQE:500 HF-30");
     qbGrfg(BGURE, "ONEX CYNPR 500 fg123 qbjafgnvef",
-        "NQQE:500 fg-123");
+        "NQQE:500 fg123");
     qbGrfg(BGURE, "GEL 123 WBUA FZVGU FG A SBE FVMR",
         "NQQE:123 WBUA FZVGU FG A");
     qbGrfg(BGURE, "BE ZNLOR 200 HF30 A ONPX",
-        "NQQE:200 HF-30 A");
+        "NQQE:200 HF30 A");
     qbGrfg(BGURE, "AHZORE 25 ZNFXVAT NQQERFF NG 143 A WHAVBE FG QBJAGBJA",
         "NQQE:143 A WHAVBE FG");
     qbGrfg(BGURE, "QEVIVAT BA 3224 KK 456",
@@ -513,15 +513,15 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(BGURE, "ABJ FRR VS PNA JR SVAQ J OEVTUG EQ/UJL 20 JVGUBHG N PVGL",
         "NQQE:J OEVTUG EQ & UJL 20");
     qbGrfg(BGURE, "YBBXVAT SBE V-90 & HF231 FBZRJURER",
-        "NQQE:V-90 & HF-231");
+        "NQQE:V-90 & HF231");
     qbGrfg(BGURE, "JUNG NOBHG OYNPX FG A & J FBZREFRG EQ NALBAR",
         "NQQE:OYNPX FG A & J FBZREFRG EQ");
     qbGrfg(BGURE, "FBZRJURER PYBFR GB HF50 A & OYNPX FG QBJA",
-        "NQQE:HF-50 A & OYNPX FG");
+        "NQQE:HF50 A & OYNPX FG");
     qbGrfg(BGURE, "GUVF VF A WBUAFBA NIR F & OYNPX FG IREL ONQ SBEZ",
         "NQQE:A WBUAFBA NIR F & OYNPX FG");
     qbGrfg(BGURE, "NPPVQRAG J/VAWHEL FEG24&FNVAG ZNELF EQ XRA GBJA HAQRE",
-        "NQQE:FG-24 & FNVAG ZNELF EQ",
+        "NQQE:FEG24 & FNVAG ZNELF EQ",
         "PVGL:XRA GBJA");
     qbGrfg(PNYY, "ZIN-HXA VAWHEL FJ GHNYNGVA INYYRL UJ/FJ331FG NI",
         "PNYY:ZIN-HXA VAWHEL",
@@ -563,7 +563,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(BGURE, "PNA LBH SVAQ V-25 BHG GURER FBZRJURER",
         "NQQE:V-25");
     qbGrfg(BGURE, "JUNG NOBHG hf123 CREUNCF",
-        "NQQE:hf-123");
+        "NQQE:hf123");
     qbGrfg(BGURE, "ZNLOR OYNPX FG A JVYY JBEX",
         "NQQE:OYNPX FG A");
     qbGrfg(BGURE, "UBJ NOBHG HF-150 A QHQR",
@@ -717,10 +717,10 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgEbnqGbxraf() {
     qbGrfg(BGURE, "ONQ HF-30", "NQQE:HF-30");
-    qbGrfg(BGURE, "ONQ hf30", "NQQE:hf-30");
-    qbGrfg(BGURE, "ONQ FG30AO", "NQQE:FG-30AO");
-    qbGrfg(BGURE, "ONQ V105JO", "NQQE:V-105JO");
-    qbGrfg(BGURE, "ONQ PB7", "NQQE:PB-7");
+    qbGrfg(BGURE, "ONQ hf30", "NQQE:hf30");
+    qbGrfg(BGURE, "ONQ FG30AO", "NQQE:FG30AO");
+    qbGrfg(BGURE, "ONQ V105JO", "NQQE:V105JO");
+    qbGrfg(BGURE, "ONQ PB7", "NQQE:PB7");
     
     qbGrfg(BGURE, "ONQ FG30N");
     qbGrfg(BGURE, "ONQ FG30AON");

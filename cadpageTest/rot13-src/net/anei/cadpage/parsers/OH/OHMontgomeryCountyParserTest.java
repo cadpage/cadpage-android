@@ -924,7 +924,7 @@ choyvp pynff BUZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G52",
         "(PNQ Cntr) GENSS IVB/UNMNEQ\a35 V70RO , BU\a55 / \aU213\a5/1/2013 11:02:18\aPSF #:13-025239",
         "PNYY:GENSS IVB/UNMNEQ",
-        "NQQE:35 V-70RO",
+        "NQQE:35 V70RO",
         "ZNQQE:35 V 70",
         "ZNC:55",
         "HAVG:U213",

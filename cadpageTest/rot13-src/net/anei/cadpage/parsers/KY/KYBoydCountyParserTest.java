@@ -96,7 +96,7 @@ choyvp pynff XLOblqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OP911:32N NPPVQRAG-VAWHEL* JO V64 ZZ 191 ZBGBEVFG",
         "HAVG:32N",
         "PNYY:NPPVQRAG-VAWHEL*",
-        "NQQE:JO V-64",
+        "NQQE:JO V64",
         "ZNQQE:V 64",
         "VASB:ZZ 191 ZBGBEVFG");
 

@@ -180,7 +180,7 @@ public abstract class SmartAddressParser extends MsgParser {
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
-  private final Map<String, Integer> dictionary = new HashMap<String, Integer>();
+  private final Map<String, Long> dictionary = new HashMap<String, Long>();
   
   // Bitmask indicating dictionary word is a road suffix
   private static final int ID_ROAD_SFX = 1;
@@ -250,24 +250,28 @@ public abstract class SmartAddressParser extends MsgParser {
   
   // Bitmask indicating dictionary word should be considered as starting a multi-word
   // street name
-  private static final int ID_STREET_NAME_PREFIX = 0x400000;
+  private static final long ID_STREET_NAME_PREFIX = 0x400000L;
   
-  private static final int ID_SPEC_CROSS_FWD = 0x0800000;
-  private static final int ID_SPEC_CROSS_REV = 0x1000000;
+  private static final long ID_SPEC_CROSS_FWD = 0x0800000L;
+  private static final long ID_SPEC_CROSS_REV = 0x1000000L;
   
-  private static final int ID_RELATION = 0x2000000;
+  private static final long ID_RELATION = 0x2000000L;
   
-  private static final int ID_NEAR = 0x4000000;
+  private static final long ID_NEAR = 0x4000000L;
   
-  private static final int ID_SINGLE_WORD_ROAD = 0x8000000;
+  private static final long ID_SINGLE_WORD_ROAD = 0x8000000L;
   
-  private static final int ID_BYPASS = 0x10000000;
+  private static final long ID_BYPASS = 0x10000000L;
   
-  private static final int ID_BLOCK = 0x20000000;
+  private static final long ID_BLOCK = 0x20000000L;
   
-  private static final int ID_AND_CONNECTOR = 0x40000000;
+  private static final long ID_AND_CONNECTOR = 0x40000000L;
   
-  private static final int ID_FLOOR = 0x80000000;
+  private static final long ID_FLOOR = 0x80000000L;
+  
+  private static final long ID_DR = 0x100000000L;
+  
+  private static final long ID_DOCTOR = 0x200000000L;
   
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
@@ -499,10 +503,10 @@ public abstract class SmartAddressParser extends MsgParser {
     mWordCities = new MultiWordList(+1, ID_CITY, ID_MULTIWORD, ID_COMPLETE, cities);
   }
   
-  private void setupDictionary(int bitMask, String ... args) {
+  private void setupDictionary(long bitMask, String ... args) {
     for (String arg : args) {
-      int newMask = bitMask;
-      Integer oldMask = dictionary.get(arg);
+      long newMask = bitMask;
+      Long oldMask = dictionary.get(arg);
       if (oldMask != null) newMask |= oldMask;
       dictionary.put(arg, newMask);
     }
@@ -561,11 +565,18 @@ public abstract class SmartAddressParser extends MsgParser {
     }
   }
   
+  protected void setupDoctorNames(String ... names) {
+    setupDictionary(ID_DR, "DR");
+    for (String name : names) {
+      setupDictionary(ID_DOCTOR, name, name+"S", name+"'S");
+    }
+  }
+  
   
   // Parser working variables
   private int flags;
   private String[] tokens;
-  private int[] tokenType;
+  private long[] tokenType;
   private int[] tokenPos;
   private int startAddress = -1;
   private int lastCity = -1;
@@ -954,7 +965,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // Unless we are parsing a cross street instead of a real address, in which
     // case we allow it to be empty
     if (startAddress < 0) return false;
-    int reserve = (isFlagSet(FLAG_ONLY_CROSS | FLAG_EMPTY_ADDR_OK) ? 0 : 2);
+    int reserve = (isFlagSet(FLAG_ONLY_CROSS | FLAG_EMPTY_ADDR_OK) ? 0 : isHouseNumber(startAddress) ? 2 : 1);
     return parseAddressToCity(startAddress, startAddress+reserve, result);
   }
 
@@ -1696,7 +1707,17 @@ public abstract class SmartAddressParser extends MsgParser {
     FieldSpec startField = new FieldSpec(0);
     
     FieldSpec lastField = startField;
-    for (int ndx = srcNdx; ndx < tokens.length; ndx++) {
+    for (int ndx = srcNdx-1; ndx < tokens.length; ndx++) {
+      
+      // Skip over multiword  street names
+      if (mWordStreetsFwd != null && ndx >= 0) {
+        int tmpNdx = mWordStreetsFwd.findEndSequence(ndx);
+        if (tmpNdx > ndx+1) {
+          if (isFlagSet(FLAG_NO_STREET_SFX)) ndx = tmpNdx;
+          else if (isType(tmpNdx, ID_ROAD_SFX)) ndx = tmpNdx + 1;
+        }
+      }
+      if (ndx < srcNdx) continue;
       
       // Is there a city here?
       int tmpNdx = ndx;
@@ -1757,7 +1778,7 @@ public abstract class SmartAddressParser extends MsgParser {
               if (!isType(ndx, ID_FLOOR)) tmpNdx++;
               lastField = aptField = new FieldSpec(tmpNdx);
             }
-            else if (isAptToken(tokens[tmpNdx], false)) {
+            else if (tmpNdx < tokens.length && isAptToken(tokens[tmpNdx], false)) {
               aptToken = true;
               lastField.end(ndx);
               ndx = tmpNdx;
@@ -1827,26 +1848,15 @@ public abstract class SmartAddressParser extends MsgParser {
     // But we do not have to worry about that if we are only parsing a city name
     if (isFlagSet(FLAG_ONLY_CITY) && !isFlagSet(FLAG_ONLY_CROSS)) return endNdx;
     
-    // Nor do we need to do these checks if what we found is an abbreviated
-    // city code.  But it is not safe to assume that this is a city code from
-    // the presence of a city code table because sometimes those tables map
-    // names to themselves.  We need to actually extract the city code and
-    // see if is different from the final city name.
-    
-    if (cityCodes != null) {
-      String code = "";
-      for (int ii = ndx; ii<endNdx; ii++) {
-        code = append(code, " ", tokens[ii]);
-      }
-      code = code.toUpperCase();
-      String city = cityCodes.getProperty(code);
-      if (city != null && !code.equals(city)) return endNdx;
-    }
-      
     // OK, we have to do this....
     // If the city is followed by a road suffix, disqualify it
     // Unless the road suffix is followed by a road suffix
-    if (isType(endNdx, ID_ROAD_SFX) && !isType(endNdx+1, ID_ROAD_SFX)) return -1;
+    if (isType(endNdx, ID_ROAD_SFX) && !isType(endNdx+1, ID_ROAD_SFX)) {
+      
+      // Another exception is if the road suffix is "DR" and is followed
+      // by a known  Doctor name
+      if (!isType(endNdx, ID_DR) || !isType(endNdx+1, ID_DOCTOR)) return -1;
+    }
     
     // A road suffix one or two tokens past the end of the city also disqualifies it
     // Except some times there really is cross street information following
@@ -2213,7 +2223,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // When parsing is finished, we will use this to calculate the true prefix and leftover segments
     saveAddress = address;
     
-    tokenType = new int[tokens.length];
+    tokenType = new long[tokens.length];
     boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
     boolean ignoreAt = isFlagSet(FLAG_IGNORE_AT);
     
@@ -2264,7 +2274,7 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // If token is longer than 1 char and starts with an @
     // Strip off the @ and add the ID_INCL_START_MARK flag
-    int mask = 0;
+    long mask = 0;
     if (checkAt && token.length() > 1 && token.charAt(0) == '@') {
       tokens[ndx] = token = token.substring(1);
       mask = ID_INCL_AT_MARKER;
@@ -2278,9 +2288,9 @@ public abstract class SmartAddressParser extends MsgParser {
     // City codes are not permitted to follow intersection connectors, cross
     // street markers, or at markers for fear they might be a street with the
     // same name as a city
-    Integer iType = dictionary.get(token.toUpperCase());
+    Long iType = dictionary.get(token.toUpperCase());
     if (iType != null) {
-      int iiType = iType;
+      long iiType = iType;
       
       // If @ is being used as a cross street marker, switch any tokens marked
       // as at signs to connectors
@@ -2342,7 +2352,7 @@ public abstract class SmartAddressParser extends MsgParser {
     return true;
   }
   
-  private boolean isType(int ndx, int mask) {
+  private boolean isType(int ndx, long mask) {
     if (ndx >= tokenType.length) return false; 
     return (tokenType[ndx] & mask) != 0;
   }
@@ -2374,20 +2384,14 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // If next character is a dash, skip over it
     int pta = pt;
-    
-    int ptBreak = pt;
-    boolean dashFound = (token.charAt(pt) == '-');
-    if (dashFound) {
-      pt++;
-      ptBreak = -1;
-    }
+    if (token.charAt(pt) == '-') pt++;
     
     // If next character is not a digit, answer is no
     if (pt >= token.length() || ! Character.isDigit(token.charAt(pt))) return false;
     
     // Shift the alpha portion upper case and see if what is left is a route prefix
     String pfx = token.substring(0, pta).toUpperCase();
-    Integer mask = dictionary.get(pfx);
+    Long mask = dictionary.get(pfx);
     if (mask == null || (mask&ID_ROUTE_PFX) == 0) return false;
     
     // Looks promising.  Now scan over any digits and see what we have left
@@ -2411,21 +2415,6 @@ public abstract class SmartAddressParser extends MsgParser {
         
       } while (false);
     }
-    
-    // OK, we've concluded this is a valid single word road name.  Now we
-    // need to clean up some things Google can't handle
-    
-    // Google doesn't handle some prefixes with a dash separator, so just to
-    // be on the safe side, we always insert one if it wasn't there initially
-    // Unless this is a RT prefix, in which cas the dash just doesn't work at all
-    if (ptBreak >= 0 && !pfx.equals("RT")) {
-      tokens[ndx] = tokens[ndx].substring(0, ptBreak) + "-" + tokens[ndx].substring(ptBreak);
-    }
-    
-    // And Google doesn't like the SRT prefix, change it it to ST
-    if (pfx.equals("SRT")) {
-      tokens[ndx] = "ST" + tokens[ndx].substring(3);
-    }
     return true;
   }
   
@@ -2441,7 +2430,9 @@ public abstract class SmartAddressParser extends MsgParser {
     // Try it against the numeric street number pattern
     // which allows a trailing letter qualifier
     if (ndx >= tokens.length) return false;
-    if (PAT_HOUSE_NUMBER.matcher(tokens[ndx]).matches()) return true;
+    String token = tokens[ndx];
+    if (token.equals("7-11")) return false;
+    if (PAT_HOUSE_NUMBER.matcher(token).matches()) return true;
     return false;
     
   }
@@ -2469,7 +2460,7 @@ public abstract class SmartAddressParser extends MsgParser {
     }
     if (pt == 0) return numberOK & token.length()-pt <= 4;
     String prefix = token.substring(0,pt).toUpperCase();
-    Integer flags = dictionary.get(prefix);
+    Long flags = dictionary.get(prefix);
     return flags != null && (flags & ID_APT) != 0;
   }
 
@@ -2506,9 +2497,9 @@ public abstract class SmartAddressParser extends MsgParser {
   private class MultiWordList {
     
     private int dir;
-    private int idFlag;
-    private int incompFlag;
-    private int completeFlag;
+    private long idFlag;
+    private long incompFlag;
+    private long completeFlag;
     private List<String[]> wordList = null;
     
     /**
@@ -2521,7 +2512,7 @@ public abstract class SmartAddressParser extends MsgParser {
      * Not used if idFlag is zero
      * @param nameList list of possibly multiword names to be added to list
      */
-    public MultiWordList(int dir, int idFlag, int incompFlag, int completeFlag, String[] nameList) {
+    public MultiWordList(int dir, long idFlag, long incompFlag, long completeFlag, String[] nameList) {
       this.dir = (dir < 0 ? -1 : 1);
       this.idFlag = idFlag;
       this.incompFlag = incompFlag;
@@ -2532,8 +2523,8 @@ public abstract class SmartAddressParser extends MsgParser {
 
     public void addNames(int dir, String[] nameList) {
       
-      int flags1 = idFlag | incompFlag;
-      int flags2 = idFlag | completeFlag;
+      long flags1 = idFlag | incompFlag;
+      long flags2 = idFlag | completeFlag;
       // Run thorough the city list
       for (String name : nameList) {
         
@@ -2588,7 +2579,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // we find a match in the muti-word list
       // If there are multiple matches, pick the longest
       int foundLen = 0;
-      if (isType(ndx, incompFlag)) {
+      if (isType(ndx, incompFlag) && wordList != null) {
         for (String[] tokenList : wordList) {
           boolean match = true;
           for (int j = 0; j< tokenList.length; j++) {

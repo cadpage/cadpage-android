@@ -472,10 +472,9 @@ choyvp pynff ZGEninyyvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G18",
         "ISQ ; ERFCBAQ GB 1 ZVYR ABEGU BS ORYY PEBFFVAT BA UVTUJNL 93 ;  SBE N IRU I THNEQ ENVY JVGU OYBPXNTR",
         "HAVG:ISQ",
-        "NQQE:1 ZVYR ABEGU BS ORYY",
-        "ZNQQE:1 ZVYR & ORYY",
-        "PNYY:IRU I THNEQ ENVY JVGU OYBPXNTR",
-        "K:BA UVTUJNL 93");
+        "NQQE:1 ZVYR ABEGU BS ORYY PEBFFVAT BA UVTUJNL 93",
+        "ZNQQE:1 ZVYR & ORYY PEBFFVAT BA UVTUJNL 93",
+        "PNYY:IRU I THNEQ ENVY JVGU OYBPXNTR");
 
     qbGrfg("G19",
         "I4, IDEH; ERFCBAQ GB 207 5GU NIRAHR VA IVPGBE; SBE 24 LE BYQ SRZNYR; INTVANY OYRRQVAT - JRNX FUNXRL",
@@ -695,18 +694,16 @@ choyvp pynff ZGEninyyvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G49",
         "isq;118 ivpgbe pebffvat r; ivpgbe; puvzarl sver - 2aq cntr",
         "HAVG:isq",
-        "NQQE:118 ivpgbe",
+        "NQQE:118 ivpgbe pebffvat r",
         "PVGL:ivpgbe",
-        "PNYY:puvzarl sver - 2aq cntr",
-        "K:r");
+        "PNYY:puvzarl sver - 2aq cntr");
 
     qbGrfg("G50",
         "isq i4n;118 ivpgbe pebffvat r; ivpgbe; puvzarl sver",
         "HAVG:isq i4n",
-        "NQQE:118 ivpgbe",
+        "NQQE:118 ivpgbe pebffvat r",
         "PVGL:ivpgbe",
-        "PNYY:puvzarl sver",
-        "K:r");
+        "PNYY:puvzarl sver");
 
     qbGrfg("G51",
         "ISQ; HF ULJ 93/ IVPGBE PEBFFVAT; IRUVPYR SVER",

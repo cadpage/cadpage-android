@@ -61,7 +61,7 @@ choyvp pynff BXGhyfnCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:05/10/2011",
         "GVZR:21:11:00",
         "PNYY:RKCL",
-        "NQQE:2200 A UJL-167AO",
+        "NQQE:2200 A UJL167AO",
         "ZNQQE:2200 A UJL 167",
         "VASB:HAX JUNG VF BA SVER PF7 RAE CHOYVP FNSRGL PBZZHAVPNGVBAF");
 
@@ -94,7 +94,7 @@ choyvp pynff BXGhyfnCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:05/11/2011",
         "GVZR:18:13:00",
         "PNYY:ZIN",
-        "NQQE:17700 R V-44JO",
+        "NQQE:17700 R V44JO",
         "ZNQQE:17700 R V 44",
         "VASB:RKC; BUC/CNSSBEQ RAE CHOYVP FNSRGL PBZZHAVPNGVBAF");
 

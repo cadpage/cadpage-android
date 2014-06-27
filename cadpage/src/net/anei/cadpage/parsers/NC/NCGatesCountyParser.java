@@ -13,6 +13,18 @@ public class NCGatesCountyParser extends DispatchSouthernParser {
   
   public NCGatesCountyParser() {
     super(CALL_LIST, CITY_LIST, "GATES COUNTY", "NC", DSFLAG_CROSS_NAME_PHONE | DSFLAG_FOLLOW_CROSS);
+    setupMultiWordStreets(
+        "ACORN HILL",
+        "ADAM SWAMP",
+        "GATES BANK",
+        "HORACE CARTER",
+        "JOE HENRY",
+        "MILL POND",
+        "ROCKY HOCK",
+        "SAND BANKS",
+        "SILVER SPRINGS",
+        "UNION BRANCH"
+    );
   }
 
   @Override

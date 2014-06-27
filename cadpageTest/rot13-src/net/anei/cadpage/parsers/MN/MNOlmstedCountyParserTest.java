@@ -200,7 +200,7 @@ choyvp pynff ZAByzfgrqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(BYZFGRQ PBHAGL (EBPURFGRE)(ZA)) Vawhel Nppvqrag V90 arne ZZ 220, j/o ynar - ",
         "FEP:EBPURFGRE",
         "PNYY:Vawhel Nppvqrag",
-        "NQQE:V-90",
+        "NQQE:V90",
         "ZNQQE:V 90",
         "VASB:arne ZZ 220, j/o ynar -");
 

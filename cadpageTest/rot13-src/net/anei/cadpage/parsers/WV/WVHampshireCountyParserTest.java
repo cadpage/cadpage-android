@@ -486,13 +486,15 @@ choyvp pynff JIUnzcfuverPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(RCNVA >CNVA) UNZCFUVER911:7-11 JNEQRAFIVYYR JNEQRAIVYYR UNEQL PB RZRETRAPL FREIVPRF Pnq: 2013-0000000977`",
         "PBQR:RCNVA",
         "PNYY:CNVA",
-        "NQQE:7-11 JNEQRAFIVYYR JNEQRAIVYYR UNEQL PB RZRETRAPL FREIVPRF",
-        "ZNQQE:7 JNEQRAFIVYYR JNEQRAIVYYR UNEQL PB RZRETRAPL FREIVPRF",
+        "NQQE:7-11",
+        "ZNQQE:7",
+        "PVGL:JNEQRAFIVYYR",
+        "ANZR:JNEQRAIVYYR UNEQL PB RZRETRAPL FREIVPRF",
         "VQ:2013-0000000977");
  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj JIUnzcfuverPbhaglCnefreGrfg().trarengrGrfgf("G14");
+    arj JIUnzcfuverPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

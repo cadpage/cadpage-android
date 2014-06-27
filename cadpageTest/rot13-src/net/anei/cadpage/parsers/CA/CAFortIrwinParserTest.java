@@ -789,7 +789,7 @@ choyvp pynff PNSbegVejvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ZHGHNY NVQ",
         "HAVG:JG413",
-        "NQQE:Nvecbeg Qnttrgg Eq & V-40",
+        "NQQE:Nvecbeg Qnttrgg Eq & V40",
         "ZNQQE:Nvecbeg Qnttrgg Eq & V 40",
         "VASB:Zhghny Nvq jvgu PnySver, Haxabja Vawhel Genssvp Pbyyvfvba");
 

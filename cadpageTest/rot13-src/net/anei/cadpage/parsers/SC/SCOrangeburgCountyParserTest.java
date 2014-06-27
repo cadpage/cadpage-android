@@ -1021,7 +1021,7 @@ choyvp pynff FPBenatrohetPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G53",
         ":bopqvfcngpu:**BENATR & LRYYBJ FGNE GRNZ** BIREGHEARQ ZIN V95 ABEGUOBHAQ ZZ 87 J/ RAGENCZRAG/ TEVQ 65-N4",
         "PNYY:**BENATR & LRYYBJ FGNE GRNZ** BIREGHEARQ ZIN",
-        "NQQE:V-95 ABEGUOBHAQ",
+        "NQQE:V95 ABEGUOBHAQ",
         "ZNQQE:V 95 ABEGUOBHAQ",
         "ZNC:65-N4",
         "VASB:ZZ 87 J / RAGENCZRAG");
@@ -1214,7 +1214,7 @@ choyvp pynff FPBenatrohetPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G83",
         ":bopqvfcngpu:NPPVQRAG JVGU RAGENCZRAG V26 RNFGOBHAQ ZZ 145",
         "PNYY:NPPVQRAG JVGU RAGENCZRAG",
-        "NQQE:V-26 RNFGOBHAQ",
+        "NQQE:V26 RNFGOBHAQ",
         "ZNQQE:V 26 RNFGOBHAQ",
         "VASB:ZZ 145");
 

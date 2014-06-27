@@ -895,7 +895,7 @@ choyvp pynff ZAJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G12",
         "(VPBZ/400 abgvsvpngvba) 14100.UJL V94  VPE #113013618  QVFCNGPU",
-        "NQQE:14100 V-94",
+        "NQQE:14100 V94",
         "ZNQQE:14100 V 94",
         "VQ:113013618",
         "PNYY:QVFCNGPU");
@@ -998,7 +998,7 @@ choyvp pynff ZAJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G27",
         "(VPBZ/400 abgvsvpngvba) V94  VPE #113013023  QVFCNGPU",
-        "NQQE:V-94",
+        "NQQE:V94",
         "ZNQQE:V 94",
         "VQ:113013023",
         "PNYY:QVFCNGPU");
@@ -1263,7 +1263,7 @@ choyvp pynff ZAJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G68",
         "(VPBZ/400 abgvsvpngvba) V94  VPE #113011556  QVFCNGPU",
-        "NQQE:V-94",
+        "NQQE:V94",
         "ZNQQE:V 94",
         "VQ:113011556",
         "PNYY:QVFCNGPU");
@@ -1288,7 +1288,7 @@ choyvp pynff ZAJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G72",
         "(VPBZ/400 abgvsvpngvba) V94  VPE #113011076  QVFCNGPU",
-        "NQQE:V-94",
+        "NQQE:V94",
         "ZNQQE:V 94",
         "VQ:113011076",
         "PNYY:QVFCNGPU");

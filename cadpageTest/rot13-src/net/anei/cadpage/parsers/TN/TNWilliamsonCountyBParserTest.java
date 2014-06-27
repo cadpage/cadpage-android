@@ -663,7 +663,7 @@ choyvp pynff GAJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:CVN",
         "PNYY:CREFBANY VAWHEL NPPVQRAG",
         "CUBAR:6154270970",
-        "NQQE:V-65A 71ZZ",
+        "NQQE:V65A 71ZZ",
         "ZNQQE:V 65 71ZZ & JVYYBJVPX QE",
         "K:JVYYBJVPX QE",
         "ANZR:REVPN, UHAG");
@@ -1332,7 +1332,7 @@ choyvp pynff GAJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:CVN",
         "PNYY:CREFBANY VAWHEL NPPVQRAG",
         "CUBAR:6152681830",
-        "NQQE:V-65F ZBBERF",
+        "NQQE:V65F ZBBERF",
         "ZNQQE:V 65 ZBBERF",
         "ANZR:UNJX, ZVPURNY");
 

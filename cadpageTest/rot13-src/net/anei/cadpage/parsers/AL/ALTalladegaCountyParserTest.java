@@ -5085,7 +5085,8 @@ choyvp pynff NYGnyynqrtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G31",
         "1 FHAFRG NCGF 6 PUVYQREFOHET;2014-048339;17:55:15;RZF - OERNGUVAT QVSSVPHYGL;56 LEB S QVSS OERNGUVAT",
-        "NQQE:FHAFRG NCGF 6",
+        "NQQE:FHAFRG",
+        "NCG:6",
         "PVGL:PUVYQREFOHET",
         "VQ:2014-048339",
         "GVZR:17:55:15",

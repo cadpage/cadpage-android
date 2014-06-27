@@ -465,8 +465,7 @@ choyvp pynff ALNyonalPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ZFT NYREG) [PZO]-- - Angher: Sver - Fgehpgher - Avtug/Jrrxraqf - Ybpngvba: 369.00 JRFG FNAQ YNXR EQ ABEGU TERRAOHFU - Pbzzragf: 2AQ NAQ 3EQ NYNEZ SBE N JBEXVAT FGEHPGHER SVER -PZO(1/14/2014 7:34:36 CZ)",
         "PNYY:Sver - Fgehpgher - Avtug/Jrrxraqf",
         "NQQE:369 JRFG FNAQ YNXR EQ",
-        "NCG:ABEGU",
-        "PVGL:TERRAOHFU",
+        "PVGL:ABEGU TERRAOHFU",
         "VASB:2AQ NAQ 3EQ NYNEZ SBE N JBEXVAT FGEHPGHER SVER",
         "QNGR:1/14/2014",
         "GVZR:19:34:36");

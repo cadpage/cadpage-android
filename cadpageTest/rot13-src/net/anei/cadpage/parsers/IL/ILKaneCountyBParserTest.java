@@ -1858,7 +1858,7 @@ choyvp pynff VYXnarPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FH SHYY FGVYY NYNEZ NPPVQRAG J/VAWHEVRF 1135 J V88 UJL, FHTNE TEI 8/6/2013 23:19:46",
         "FEP:FH",
         "PNYY:SHYY FGVYY NYNEZ NPPVQRAG J/VAWHEVRF",
-        "NQQE:1135 J V-88",
+        "NQQE:1135 J V88",
         "ZNQQE:1135 J V 88",
         "NCG:UJL",
         "PVGL:FHTNE TEBIR",

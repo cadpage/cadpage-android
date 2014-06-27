@@ -92,7 +92,7 @@ choyvp pynff FPXrefunjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2014-00023532",
         "PBQR:1050I",
         "PNYY:ZBGBE IRUVPYR NPPVQRAG",
-        "NQQE:GNKNUNJ EQ & UJL-903",
+        "NQQE:GNKNUNJ EQ & UJL903",
         "ZNQQE:GNKNUNJ EQ & UJL 903",
         "ANZR:GENIVF SVERFBA",
         "HAVG:FPUC FUREVSS RZF6");

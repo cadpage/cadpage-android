@@ -358,7 +358,7 @@ choyvp pynff AIRyxbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "02/26/14 05:08:27~fhzzvg ynhapuvat\a" +
         "02/26/14 05:10:24~f11/unir nzohynapr npprff gueh byq 40 jrfg",
 
-        "NQQE:V-80 RO ORGJRRA UHAGRE NAQ GHAARYF",
+        "NQQE:V80 RO ORGJRRA UHAGRE NAQ GHAARYF",
         "ZNQQE:V 80 ORGJRRA UHAGRE & GHAARYF",
         "VASB:ab iru qrfpevfcgvba/guvaxf vg ebyyrq / 2 zvyrf rnfg bs ghaary / 29 o 4 / 29-q-2-c / auc nqivfrq / 291 gnxr uhagre rkvg naq gnxr sebagntr eq, iru jrag bss srapr bagb sebagntr eq / znyr fhow 24lbz pbzcynvat bs yrt, unaq, naq urnq oyrrqvat / 939n hcqngrq / q20 erd fhzzvg / fhzzvg vf purpxvat jrngure / q20/rkgevpngvba naq ynhapu fhzzvg / q20/10-22 rkgevpngvba / sver qrcg nqivfrq gb pnapry / fhzzvg ynhapuvat / f11/unir nzohynapr npprff gueh byq 40 jrfg",
         "CUBAR:934-8287",
@@ -646,7 +646,7 @@ choyvp pynff AIRyxbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "02/16/14 06:45:34~4103  K 115 22\a" +
         "02/16/14 06:46:14~5 zva rgn sbe fhzzvg",
 
-        "NQQE:V-80 RO 326",
+        "NQQE:V80 RO 326",
         "ZNQQE:V 80 326", 
         "VASB:10-50 / vawhevrf / 1 iru / hax r be jrfg / jo / frevbhf oyrrqvat / 2lb / nyreg / cbff oebxra nez / pelvat / 29-q-2 / auc nqivfrq / auc guvaxf zz 327 / iru vf gvygrq / oyx iru / onol njnxr / 326 ro ryxb fvqr bs evire enapu rkvg / bss fvqr bs eq / aqs/jryyf sver sbe rkgevpngvba / ec vf oyvaq / cnffvat cubar gb cnffreol / onol njnxr, oernguvat / va zrqvna ng guvf gvzr / znyr unys cbff oebxra nez, gur ec qbrfag xabj jurgure furf vaw be abg / 939/ynhapu fhzzvg / fhzzvg purpxvat jrngure / fhzzvg/ynhapuvat / 4103  K 115 22 / 5 zva rgn sbe fhzzvg",
         "CUBAR:(775) 432-5052",
@@ -4333,7 +4333,7 @@ choyvp pynff AIRyxbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "11/05/13 13:13:23~ybbxrq yvxr ur unq orra uvg ol n iru\a" +
         "11/05/13 13:17:20~cre rherxn ro whfg rnfg bs orbjnjr, 1 aba erfcbafvir, 1 oyrrqvat sebz urnq, 3eq hafher",
 
-        "NQQE:V-80 RO",
+        "NQQE:V80 RO",
         "ZNQQE:V 80",
         "VASB:rnfg bs orbjnjr rkvg / fgngr uvtujnl jbexre ynlvat ba gur fvqr bs gur ebnq / ybbxrq yvxr ur unq orra uvg ol n iru / cre rherxn ro whfg rnfg bs orbjnjr, 1 aba erfcbafvir, 1 oyrrqvat sebz urnq, 3eq hafher",
         "FEP:Fgngvba 1",

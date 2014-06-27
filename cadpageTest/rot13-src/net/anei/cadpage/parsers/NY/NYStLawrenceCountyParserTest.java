@@ -339,9 +339,9 @@ choyvp pynff ALFgYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "(911 QVFCNGPU) \aQvfcngpurq\aRZF\aFHAL CBGFQNZ, CBGFQNZ YRNZNA FBHGU",
         "PNYY:RZF",
-        "NQQE:FHAL CBGFQNZ",
+        "NQQE:FHAL",
         "PVGL:CBGFQNZ",
-        "CYNPR:YRNZNA FBHGU");
+        "VASB:CBGFQNZ YRNZNA FBHGU");
 
     qbGrfg("G2",
         "(911 QVFCNGPU) YVF ERF:2012:290\aQvfcngpurq\aSver\a9626 EBHGR 37 #AL, YVFOBA-FU 37",
@@ -752,7 +752,7 @@ choyvp pynff ALFgYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:911P",
         "VQ:2012:0000007788",
         "PNYY:Sver",
-        "NQQE:1057 PE-44",
+        "NQQE:1057 PE44",
         "ZNQQE:1057 PBHAGL EBNQ 44",
         "PVGL:JNQQVATGBA");
 

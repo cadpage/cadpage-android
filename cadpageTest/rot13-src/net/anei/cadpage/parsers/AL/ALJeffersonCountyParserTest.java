@@ -419,14 +419,14 @@ choyvp pynff NYWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G33",
         "V459 F WHFG NSGRE NPGBA EQ RKG              ZIN",
-        "NQQE:V-459 F",
+        "NQQE:V459 F",
         "ZNQQE:V 459 F",
         "VASB:WHFG NSGRE NPGBA EQ RKG",
         "PNYY:ZIN");
 
     qbGrfg("G34",
         "V459 F @ NPGBA EQ            CHOYVP NFFVFG",
-        "NQQE:V-459 F & NPGBA EQ",
+        "NQQE:V459 F & NPGBA EQ",
         "ZNQQE:V 459 F & NPGBA EQ",
         "PNYY:CHOYVP NFFVFG");
 

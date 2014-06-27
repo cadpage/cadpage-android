@@ -17,6 +17,12 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
   public OHHamiltonCountyParser() {
     super(CITY_CODES, "HAMILTON COUNTY", "OH");
     setFieldList("ADDR CITY ST APT PLACE CALL INFO TIME UNIT X");
+    setupDoctorNames("FELDMAN", "KATIE");
+    setupMultiWordStreets(
+        "BLUE ASH",
+        "OLD BLUE ROCK",
+        "WILLIAM HENRY HARR"
+    );
   }
   
   @Override
@@ -28,6 +34,12 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA;
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    return WILLIAM_HENRY_HARR.matcher(addr).replaceAll("WILLIAM HENRY HARRISON");
+  }
+  private static final Pattern WILLIAM_HENRY_HARR = Pattern.compile("\\bWILLIAM HENRY HARR\\b", Pattern.CASE_INSENSITIVE);
   
   @Override
   public boolean parseMsg(String body, Data data) {
@@ -51,7 +63,7 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
     // call description in front of the address that duplicates the
     // asterisk delimited field so we just skip it
     if (call != null) {
-      parseAddress(StartType.START_OTHER, FLAG_IGNORE_AT, addr, data);
+      parseAddress(StartType.START_OTHER, FLAG_IGNORE_AT | FLAG_CROSS_FOLLOWS, addr, data);
       String sPlace = fixCity(getLeft(), data);
       if (sPlace.startsWith("APT ")) {
         Parser p = new Parser(sPlace.substring(4).trim());
@@ -82,7 +94,7 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
       
       // otherwise we have to do this the hard way.
       
-      parseAddress(st, flags | FLAG_IGNORE_AT, addr, data);
+      parseAddress(st, flags | FLAG_IGNORE_AT | FLAG_CROSS_FOLLOWS, addr, data);
       info = fixCity(getLeft(), data);
       if (info.startsWith("LOC:")) {
         info = info.substring(4).trim();

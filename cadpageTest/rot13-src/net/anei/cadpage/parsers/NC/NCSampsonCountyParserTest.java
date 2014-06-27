@@ -116,7 +116,7 @@ choyvp pynff APFnzcfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G3",
         "RZF:2012-013047* V40 ZZ 343* * * ARJGBA TEBIR* ZPYNZO EQ HAQRECNFF* RKVG 343 UBOOGBA UJL* Q11* * ZIN V* ZBGBE IRUVPYR NPPVQRAG JVGU VAWHEVRF* RZF79* 1263* Zrqvpny",
         "VQ:2012-013047",
-        "NQQE:V-40",
+        "NQQE:V40",
         "ZNQQE:V 40 & ZPYNZO EQ HAQRECNFF",
         "PVGL:ARJGBA TEBIR",
         "CYNPR:ZZ 343",

@@ -966,7 +966,8 @@ choyvp pynff JIJlbzvatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "138:911-PRAGRE:YM >YNAQVAT MBAR ZHYYRAF ZHYYRAF Pnq: 2014-0000003365",
         "PBQR:YM",
         "PNYY:YNAQVAT MBAR",
-        "NQQE:ZHYYRAF ZHYYRAF",
+        "NQQE:ZHYYRAF",
+        "PVGL:ZHYYRAF",
         "VQ:2014-0000003365");
 
     qbGrfg("G68",

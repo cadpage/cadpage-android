@@ -72,8 +72,17 @@ public class ILStClairCountyParser extends FieldProgramParser {
     return super.getProgram().replace("ADDR", "PLACE ADDR");
   }
   
+  private static final String DATETIME = "\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2}:\\d{2}";
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDRCITY")) return new MyAddressField();
+    if (name.equals("DATETIME")) return new DateTimeField(DATETIME, true);
+    return super.getField(name);
+    
+  }
   
   private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*, .*), *\\d{5}(?: +#(.*))?");
+  private static final Pattern PTN_FULL_ADDR2 = Pattern.compile("(\\d+ )+#([^ ]+) +(.*)");
   private class MyAddressField extends AddressCityField {
     
     @Override 
@@ -83,20 +92,15 @@ public class ILStClairCountyParser extends FieldProgramParser {
       if (m.matches()) {
         field = m.group(1).trim();                       // Remove the zipcode
         apt = getOptGroup(m.group(2));
+      } 
+      if ((m = PTN_FULL_ADDR2.matcher(field)).matches()) {
+        field = m.group(1) + m.group(3);
+        apt = append(m.group(2), "-", apt);
       }
       super.parse(field, data);
       data.strApt = append(data.strApt, "-", apt);
     }
    
-  }
-  
-  private static final String DATETIME = "\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2}:\\d{2}";
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDRCITY")) return new MyAddressField();
-    if (name.equals("DATETIME")) return new DateTimeField(DATETIME, true);
-    return super.getField(name);
-    
   }
   
   private static final String[] CITY_LIST = {

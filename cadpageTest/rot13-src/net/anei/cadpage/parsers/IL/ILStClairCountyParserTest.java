@@ -842,7 +842,8 @@ choyvp pynff VYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ntrapl: SNVEZBAG PVGL SQ  ",
 
         "PNYY:SVER",
-        "NQQE:3107 #21 XVATFUVTUJNL",
+        "NQQE:3107 XVATFUVTUJNL",
+        "NCG:21",
         "PVGL:SNVEZBAG PVGL",
         "K:HAANZRQ EQ/",
         "QNGR:05/18/2013",

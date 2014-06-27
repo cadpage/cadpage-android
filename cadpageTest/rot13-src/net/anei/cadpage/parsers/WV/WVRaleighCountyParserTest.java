@@ -189,7 +189,7 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G15",
         "ENYRVTU911:ZINV >ZBGBE IRUVPYR NPPVQRAG VAWHEL V64 ORNIRE CUVYYVC (SEBZ GHEACVXR) Znc: Tevqf:, Pnq: 2012-0000082731",
         "PNYY:ZBGBE IRUVPYR NPPVQRAG VAWHEL",
-        "NQQE:V-64",
+        "NQQE:V64",
         "ZNQQE:V 64",
         "PVGL:ORNIRE",
         "ANZR:CUVYYVC (SEBZ GHEACVXR)",

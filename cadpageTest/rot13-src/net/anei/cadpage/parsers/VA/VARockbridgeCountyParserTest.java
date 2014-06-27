@@ -476,7 +476,7 @@ choyvp pynff INEbpxoevqtrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:58 NPPVQRAG JVGU VAWHEL 450 R V64 PSF# 2014-005610",
         "OBK:58",
         "PNYY:NPPVQRAG JVGU VAWHEL",
-        "NQQE:450 R V-64",
+        "NQQE:450 R V64",
         "ZNQQE:450 R V 64",
         "VQ:2014-005610");
 
@@ -499,7 +499,7 @@ choyvp pynff INEbpxoevqtrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:10 NPPVQRAG JVGU VAWHEL 1860 A V81 PSF# 2014-005398",
         "OBK:10",
         "PNYY:NPPVQRAG JVGU VAWHEL",
-        "NQQE:1860 A V-81",
+        "NQQE:1860 A V81",
         "ZNQQE:1860 A V 81",
         "VQ:2014-005398");
 
@@ -524,7 +524,7 @@ choyvp pynff INEbpxoevqtrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:18 IRUVPYR SVER 2010 A V81 PSF# 2014-005336",
         "OBK:18",
         "PNYY:IRUVPYR SVER",
-        "NQQE:2010 A V-81",
+        "NQQE:2010 A V81",
         "ZNQQE:2010 A V 81",
         "VQ:2014-005336");
 
@@ -681,7 +681,7 @@ choyvp pynff INEbpxoevqtrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:11 NPPVQRAG JVGU VAWHEL 1867 F V81 PSF# 2014-003789",
         "OBK:11",
         "PNYY:NPPVQRAG JVGU VAWHEL",
-        "NQQE:1867 F V-81",
+        "NQQE:1867 F V81",
         "ZNQQE:1867 F V 81",
         "VQ:2014-003789");
 
@@ -707,7 +707,7 @@ choyvp pynff INEbpxoevqtrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:24 OEHFU SVER TERNGRE GUNA 50' NJ 1800 F V81 PSF# 2014-003600",
         "OBK:24",
         "PNYY:OEHFU SVER TERNGRE GUNA 50' NJ",
-        "NQQE:1800 F V-81",
+        "NQQE:1800 F V81",
         "ZNQQE:1800 F V 81",
         "VQ:2014-003600");
 
@@ -715,7 +715,7 @@ choyvp pynff INEbpxoevqtrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:10 PBZZREPVNY IRUVPYR SVER 1780 F V81 PSF# 2014-003602",
         "OBK:10",
         "PNYY:PBZZREPVNY IRUVPYR SVER",
-        "NQQE:1780 F V-81",
+        "NQQE:1780 F V81",
         "ZNQQE:1780 F V 81",
         "VQ:2014-003602");
 
@@ -741,7 +741,7 @@ choyvp pynff INEbpxoevqtrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:29 NOQBZVANY CNVA 5400 R V64 PSF# 2014-003271",
         "OBK:29",
         "PNYY:NOQBZVANY CNVA",
-        "NQQE:5400 R V-64",
+        "NQQE:5400 R V64",
         "ZNQQE:5400 R V 64",
         "VQ:2014-003271");
 
@@ -749,7 +749,7 @@ choyvp pynff INEbpxoevqtrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:46 NPPVQRAG JVGU VAWHEL 1891 A V81 PSF# 2014-003263",
         "OBK:46",
         "PNYY:NPPVQRAG JVGU VAWHEL",
-        "NQQE:1891 A V-81",
+        "NQQE:1891 A V81",
         "ZNQQE:1891 A V 81",
         "VQ:2014-003263");
 
@@ -757,7 +757,7 @@ choyvp pynff INEbpxoevqtrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:29 SYHVQ YRNX SEBZ IRUVPYR AB VAW 188 A V81 PSF# 2014-003244",
         "OBK:29",
         "PNYY:SYHVQ YRNX SEBZ IRUVPYR AB VAW",
-        "NQQE:188 A V-81",
+        "NQQE:188 A V81",
         "ZNQQE:188 A V 81",
         "VQ:2014-003244");
 
@@ -792,7 +792,7 @@ choyvp pynff INEbpxoevqtrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:24 PBZZREPVNY IRUVPYR SVER 1874 A V81 PSF# 2014-002963",
         "OBK:24",
         "PNYY:PBZZREPVNY IRUVPYR SVER",
-        "NQQE:1874 A V-81",
+        "NQQE:1874 A V81",
         "ZNQQE:1874 A V 81",
         "VQ:2014-002963");
 
@@ -888,7 +888,7 @@ choyvp pynff INEbpxoevqtrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:55 UNMNEQBHF ZNGREVNYF PNYY 1949 A V81 PSF# 2014-002697",
         "OBK:55",
         "PNYY:UNMNEQBHF ZNGREVNYF PNYY",
-        "NQQE:1949 A V-81",
+        "NQQE:1949 A V81",
         "ZNQQE:1949 A V 81",
         "VQ:2014-002697");
 

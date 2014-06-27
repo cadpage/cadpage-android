@@ -746,7 +746,7 @@ choyvp pynff ZBJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G7",
         "(Qvfcngpu) ZIN 208 0 JO V70   PebffFgerrgf: JO V70 BSSENZC 199ZZ 6274.15 zv AJ JO V70 BAENZC 199ZZ 6274.57 zv AJ Qrfpevcgvba: 9714 ZIN RWRPGVBA JO 70 NERN 208 ZZ",
         "PNYY:ZIN 208",
-        "NQQE:JO V-70",
+        "NQQE:JO V70",
         "ZNQQE:V 70 & V 70 BSSENZC 199ZZ 6274.15 zv AJ V 70 BAENZC 199ZZ 6274.57 zv AJ",
         "K:JO V70 BSSENZC 199ZZ 6274.15 zv AJ JO V70 BAENZC 199ZZ 6274.57 zv AJ",
         "VASB:9714 ZIN RWRPGVBA JO 70 NERN 208 ZZ");
@@ -914,7 +914,7 @@ choyvp pynff ZBJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CBFFVOYL UNQ N OYBJ BHG ;AB SHEGURE XABJA ",
 
         "PNYY:ZIN",
-        "NQQE:RO V-70",
+        "NQQE:RO V70",
         "ZNQQE:V 70",
         "PVGL:JEVTUG PVGL",
         "VASB:RO 70 1-2 ZVYRF SEBZ JNEERAGBA. ABG VAIBYIRQ. PNE FCHA NEBHAQ. CBFFVOYL UNQ N OYBJ BHG ;AB SHEGURE XABJA");
@@ -986,7 +986,7 @@ choyvp pynff ZBJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "JUVGR PURIL PBONYG 4 QE",
 
         "PNYY:ZIN 203",
-        "NQQE:JO V-70",
+        "NQQE:JO V70",
         "ZNQQE:V 70 & V 70 BSSENZC 199ZZ 6274.15 zv AJ V 70 BAENZC 199ZZ 6274.57 zv AJ",
         "PVGL:SBEVFGRYY",
         "K:JO V70 BSSENZC 199ZZ 6274.15 zv AJ JO V70 BAENZC 199ZZ 6274.57 zv AJ",
@@ -998,7 +998,7 @@ choyvp pynff ZBJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "4 QBBE CBAG BPP. 2 GVZRF ",
 
         "PNYY:NFFVFG BGURE NTRAPL 199",
-        "NQQE:JO V-70",
+        "NQQE:JO V70",
         "ZNQQE:V 70 & V 70 BSSENZC 199ZZ 0.19 zv R V 70 BAENZC 199ZZ 0.23 zv J",
         "PVGL:JEVTUG PVGL",
         "K:JO V70 BSSENZC 199ZZ 0.19 zv R JO V70 BAENZC 199ZZ 0.23 zv J",
@@ -1015,7 +1015,7 @@ choyvp pynff ZBJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G34",
         "(Qvfcngpu) ZIN 200 0 JO V70  JEVTUG PVGL PebffFgerrgf: JO V70 BSSENZC 199ZZ 0.81 zv J JO V70 BAENZC 199ZZ 1.23 zv J Qrfpevcgvba: PURPX BHE IRAHR JO 70 SBE N 1 IRUVPYR EBYYBIRE. HAXABJA YBPNGVBA. SBEVFGRY VF PURPXVAT GURVE IRAHR. HAXABJA VAWHEL.",
         "PNYY:ZIN 200",
-        "NQQE:JO V-70",
+        "NQQE:JO V70",
         "ZNQQE:V 70 & V 70 BSSENZC 199ZZ 0.81 zv J V 70 BAENZC 199ZZ 1.23 zv J",
         "PVGL:JEVTUG PVGL",
         "K:JO V70 BSSENZC 199ZZ 0.81 zv J JO V70 BAENZC 199ZZ 1.23 zv J",

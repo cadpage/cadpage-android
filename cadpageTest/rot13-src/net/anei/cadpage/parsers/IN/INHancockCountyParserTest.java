@@ -529,7 +529,7 @@ choyvp pynff VAUnapbpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G3",
         "((49576) Zrqvp Nffvfg/10450 R HF40 PUNEYBGGRFIVYYR FGNGVBA 6/F RNFG FG & A 1050R/WG4/ TSQ) Zrqvp Nffvfg/10450 R HF40 PUNEYBGGRFIVYYR FGNGVBA 6/F RNFG FG & A 1050R/WG4/ TSQC1",
         "PNYY:Zrqvp Nffvfg",
-        "NQQE:10450 R HF-40",
+        "NQQE:10450 R HF40",
         "ZNQQE:10450 HF 40",
         "CYNPR:PUNEYBGGRFIVYYR FGNGVBA 6",
         "K:F RNFG FG & A 1050R",

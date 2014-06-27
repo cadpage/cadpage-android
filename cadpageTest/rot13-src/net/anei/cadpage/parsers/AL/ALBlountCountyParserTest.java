@@ -398,7 +398,7 @@ choyvp pynff NYOybhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(50    >JERPX) OYBHAGPB911:PBHAGL UJL 41 NG PB39 2052007333 Pnq: 2013-0000010240",
         "PBQR:50",
         "PNYY:JERPX",
-        "NQQE:PBHAGL UJL 41 & PB-39",
+        "NQQE:PBHAGL UJL 41 & PB39",
         "ZNQQE:PBHAGL EBNQ 41 & PBHAGL EBNQ 39",
         "CUBAR:2052007333",
         "VQ:2013-0000010240");
@@ -1209,7 +1209,7 @@ choyvp pynff NYOybhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(GERR  >GERR QBJA) FGNGR UJL 160 NG PB13 Pnq: 2013-0000008947",
         "PBQR:GERR",
         "PNYY:GERR QBJA",
-        "NQQE:FGNGR UJL 160 & PB-13",
+        "NQQE:FGNGR UJL 160 & PB13",
         "ZNQQE:FGNGR 160 & PBHAGL EBNQ 13",
         "VQ:2013-0000008947");
 

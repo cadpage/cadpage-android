@@ -19540,8 +19540,8 @@ choyvp pynff AWZbeevfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G26",
         "E513 FNAQFGBA, FHFFRK PBHAGL [Fhffrk Pb] (ZR ERFCBAF) - \aSNGNY ZIN\aY141730006 14:58",
-        "NQQE:E513 FNAQFGBA",
-        "PVGL:FHFFRK PBHAGL",
+        "NQQE:E513",
+        "PVGL:FNAQLFGBA",
         "PNYY:ZR ERFCBAF",
         "VASB:SNGNY ZIN",
         "VQ:Y141730006",

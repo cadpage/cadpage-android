@@ -1444,7 +1444,7 @@ choyvp pynff BXPnegrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:201300016372",
         "PNYY:ZRQVPNY / RZRETRAPL",
-        "NQQE:V-35 FO",
+        "NQQE:V35 FO",
         "ZNQQE:V 35",
         "NCG:FPRAVP GHEABHG ZHEENL PB",
         "QNGR:05/05/2013",
@@ -2821,7 +2821,7 @@ choyvp pynff BXPnegrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:201300016121",
         "PNYY:ZRQVPNY / RZRETRAPL",
-        "NQQE:V-35 & CVREPR",
+        "NQQE:V35 & CVREPR",
         "ZNQQE:V 35 & CVREPR",
         "QNGR:05/03/2013",
         "GVZR:15:03:38",

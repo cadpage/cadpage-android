@@ -520,7 +520,7 @@ choyvp pynff ZQJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "Fhowrpg: JPb\a[!] VAGREFGNGR 81 / V70 - CVP, CREF VAWHEL PBYYVFVBA - PB26,PB2,EFDR2,E26,E2 - 1208763 11:59",
         "FEP:JPb",
-        "NQQE:VAGREFGNGR 81 & V-70",
+        "NQQE:VAGREFGNGR 81 & V70",
         "ZNQQE:VAGREFGNGR 81 & V 70",
         "PNYY:CVP, CREF VAWHEL PBYYVFVBA",
         "HAVG:PB26,PB2,EFDR2,E26,E2",
@@ -1693,7 +1693,7 @@ choyvp pynff ZQJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pnapry Ernfba: PB13 ABG ARRQRQ, BSS GUR EBNQJNL ABJ\a" +
         "V81 FO, RKVG9 ENZC SEBZ FO V81 - [ - ] - URNEG CEBOYRZF - F759,PB13 - CebDN Qrgrezvanag: 19Q04 - **NYF UBG* - Pynzzl 1402006 09:09",
 
-        "NQQE:V-81 FO",
+        "NQQE:V81 FO",
         "ZNQQE:V 81",
         "CYNPR:RKVG9 ENZC SEBZ FO V81",
         "PNYY:Pnapry Ernfba: PB13 ABG ARRQRQ, BSS GUR EBNQJNL ABJ - URNEG CEBOYRZF",
@@ -1847,7 +1847,7 @@ choyvp pynff ZQJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pnapry Ernfba: PNAPRYYRQ OL R264\a" +
         "V70 JO, 28ZZ - [ - ] - CVP, CREF VAWHEL PBYYVFVBA, CRQ FGEHPX - PB26,PB10,EFDR2,E26,C268,R101,R264,R261 - 1401536 11:32",
 
-        "NQQE:V-70 JO",
+        "NQQE:V70 JO",
         "ZNQQE:V 70",
         "CYNPR:28ZZ",
         "PNYY:Pnapry Ernfba: PNAPRYYRQ OL R264 - CVP, CREF VAWHEL PBYYVFVBA, CRQ FGEHPX",
@@ -1987,7 +1987,7 @@ choyvp pynff ZQJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G32",
         "UNYSJNL OYIQ / V81 NERN - [FGBGYRE EQ - V81 NERN] - CVP, CREF VAWHEL PBYYVFVBA, CRQ FGEHPX - Pbzcyrgrq: Pnapryyrq Ol Pnyyre, Punatrq Zvaq - PB26,E26,P26,R264,C268 1401962 12:46",
-        "NQQE:UNYSJNL OYIQ & V-81",
+        "NQQE:UNYSJNL OYIQ & V81",
         "ZNQQE:UNYSJNL OYIQ & V 81",
         "CYNPR:NERN",
         "K:FGBGYRE EQ & V81 NERN",
@@ -1998,7 +1998,7 @@ choyvp pynff ZQJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G33",
         "UNYSJNL OYIQ / V81 NERN - [FGBGYRE EQ - V81 NERN] - CVP, CREF VAWHEL PBYYVFVBA, CRQ FGEHPX - PB26,E26 1401962 12:46",
-        "NQQE:UNYSJNL OYIQ & V-81",
+        "NQQE:UNYSJNL OYIQ & V81",
         "ZNQQE:UNYSJNL OYIQ & V 81",
         "CYNPR:NERN",
         "K:FGBGYRE EQ & V81 NERN",

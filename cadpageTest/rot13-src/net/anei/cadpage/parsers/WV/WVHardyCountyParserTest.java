@@ -137,7 +137,7 @@ choyvp pynff JIUneqlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(UNEQLPBR911:GERR  >GERR QBJA) HF200F 3ZV BHG BS GBJA HF PRYYHYNE 3046716422 Pnq: 2013-0000004628",
         "PBQR:GERR",
         "PNYY:GERR QBJA",
-        "NQQE:HF-200F",
+        "NQQE:HF200F",
         "ZNQQE:HF 200F", // abg znccvat
         "NCG:3ZV",
         "ANZR:BHG BS GBJA",

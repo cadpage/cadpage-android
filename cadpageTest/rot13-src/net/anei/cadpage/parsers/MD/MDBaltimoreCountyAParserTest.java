@@ -236,7 +236,7 @@ choyvp pynff ZQOnygvzberPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:1050CV EBYY-BIRE",
         "ZNC:041-20",
         "HAVG:N415 Z315 R413",
-        "NQQE:V-795 & JRFGZVAFGRE CX",
+        "NQQE:V795 & JRFGZVAFGRE CX",
         "ZNQQE:V 795 & JRFGZVAFGRE CVXR",
         "PVGL:21136",
         "VQ:120900400");

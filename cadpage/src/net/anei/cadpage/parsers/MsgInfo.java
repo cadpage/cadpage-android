@@ -574,7 +574,6 @@ public class MsgInfo {
   private static final Pattern WK_PTN = Pattern.compile("\\bWK\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern RCH_PTN = Pattern.compile("\\bRCH\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern HT_PTN = Pattern.compile("\\bHT\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern FM_PTN = Pattern.compile("\\bFM\\b", Pattern.CASE_INSENSITIVE);
   private String cleanStreetSuffix(String sAddr) {
     
     // CR is a very versatile abbreviation.  In New Zealand, it is an abbreviation for Crescent
@@ -616,7 +615,6 @@ public class MsgInfo {
     sAddr = replace(sAddr, WK_PTN, "WALK");
     sAddr = replace(sAddr, RCH_PTN, "REACH");
     sAddr = replace(sAddr, HT_PTN, "HTS");
-    sAddr = replace(sAddr, FM_PTN, "FARM-TO-MARKET");
     
     // Some alterations are suppressed by different parsers to meet local
     // requirements
@@ -704,7 +702,7 @@ public class MsgInfo {
   // This method breaks those up into two separate tokens, also dropping any
   // direction qualifiers
   private static final Pattern ROUTE_PTN =
-    Pattern.compile("\\b(?:(RT|RTE|HW|HWY|HIGH|US|STH?Y?|SHY?|FM|I|CO|CR|CORD|SRT?|I)|([A-Z]{2}))-?(\\d{1,3}[A-Z]?)(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
+    Pattern.compile("\\b(?:(RT|RTE|HW|HWY|HIGH|US|STH?Y?|SHY?|FM|I|CO|CR|CORD|SRT?|I)|([A-Z]{2}))-?(\\d{1,4}[A-Z]?)(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern SRT_PTN = Pattern.compile("\\bS(?:RT?| ?H|TH)\\b", Pattern.CASE_INSENSITIVE);
   
   private String cleanRoutes(String sAddress) {
@@ -760,6 +758,7 @@ public class MsgInfo {
   private static final Pattern I_FWY_PTN = Pattern.compile("\\b(I[- ]\\d+) +[FH]WY\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern AND_PTN = Pattern.compile(" and ", Pattern.CASE_INSENSITIVE);
   private static final Pattern REV_HWY_PTN = Pattern.compile("(?<!-)\\b(\\d+[A-Z]?|([A-Z&&[^NSEW]])\\2?\\b) *(HWY|RT|RTE|ROUTE)(?=$| *&)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern FM_PTN = Pattern.compile("\\bFM\\b", Pattern.CASE_INSENSITIVE);
   private String cleanDoubleRoutes(String sAddress) {
     
     String state = getStateCode();
@@ -807,6 +806,9 @@ public class MsgInfo {
       sAddress = AND_PTN.matcher(sAddress).replaceAll(" & ");
     }
     sAddress = REV_HWY_PTN.matcher(sAddress).replaceAll("$3 $1");
+    
+    // Aexpand FM route names
+    sAddress = replace(sAddress, FM_PTN, "FARM-TO-MARKET");
     return sAddress;
   }
 

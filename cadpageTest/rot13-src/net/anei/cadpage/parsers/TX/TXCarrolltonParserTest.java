@@ -147,7 +147,7 @@ choyvp pynff GKPneebyygbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SNYY",
         "ZNC:ZR / 654T / 8312SN 7 03",
         "NQQE:2225 CNEXRE SZ544 EQ",
-        "ZNQQE:2225 CNEXRE SZ 544",
+        "ZNQQE:2225 CNEXRE SNEZ-GB-ZNEXRG 544",
         "HAVG:G117 Z114");
 
     qbGrfg("G5",
