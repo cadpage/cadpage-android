@@ -21,8 +21,17 @@ public class CAElDoradoCountyParser extends MsgParser {
   private static final DateFormat DATE_FMT = new SimpleDateFormat("dd-MMM-yyyy");
   
   public CAElDoradoCountyParser() {
-    super("EL DORADO COUNTY", "CA");
+    this("EL DORADO COUNTY", "CA");
+  }
+  
+  public CAElDoradoCountyParser(String defCity, String defState) {
+    super(defCity, defState);
     setFieldList("DATE TIME CALL ID ADDR APT CITY PLACE UNIT GPS");
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "CAElDoradoCounty";
   }
   
   @Override

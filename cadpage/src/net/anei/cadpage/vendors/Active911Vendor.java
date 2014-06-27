@@ -156,6 +156,7 @@ class Active911Vendor extends Vendor {
       "US/AL/TalladegaCounty",            "ALTalladega",
       "US/AL/Tallapoosa911",              "StandardA",
       "US/AR/LifeNetEms",                 "ARGarlandCounty",
+      "US/CA/AmadorCounty",               "CAAmadorCounty",
       "US/CA/CalaverasCounty",            "CACalaverasCounty",
       "US/CA/CDFandGrassValleyECC",       "CAPlacerCountyParser",
       "US/CA/CityofNapa",                 "CANapa",
