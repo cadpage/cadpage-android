@@ -3,14 +3,16 @@ package net.anei.cadpage.parsers.IL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser;
 
-public class ILAdamsCountyParser extends SmartAddressParser {
+public class ILAdamsCountyParser extends FieldProgramParser {
+  
+  private static final Pattern MISSING_BRK_PTN = Pattern.compile("(\nUnits:.*?)  +(\\S.*)");
 
   public ILAdamsCountyParser() {
-    super("ADAMS COUNTY", "IL");
-    setFieldList("ID SRC CALL ADDR APT");
+    super("ADAMS COUNTY", "IL",
+          "CALL! Units:UNIT! ADDR/S6! APT Cross_Streets:X");
   } 
   
   @Override
@@ -18,47 +20,39 @@ public class ILAdamsCountyParser extends SmartAddressParser {
     return "911@co.adams.il.us";
   }
   
-  private static final Pattern SRC_CALL = Pattern.compile("((?:\\w+-)+\\w+) (\\d+-\\d+.*)");
-  
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     // check subject and parse SRC
-    if (!subject.startsWith("CAD Page for ")) return false;
-    else data.strCallId = subject.substring(13).trim();
+    if (!subject.startsWith("CAD Page for CFS ")) return false;
+    data.strCallId = subject.substring(17).trim();
     
-    String[] fields = body.split(",");
-    for (int i = 0; i<fields.length; i++) fields[i] = fields[i].trim();
+    // Check for non-existent call field
+    if (body.startsWith("Units:")) body = '\n' + body;
     
-    // first group is either SRCCALL or just CALL
-    Matcher mat = SRC_CALL.matcher(fields[0]);
-    if (mat.matches()) {
-      data.strSource = mat.group(1);
-      data.strCall = mat.group(2);
+    // Fix missing line break between Units and address :(
+    Matcher match = MISSING_BRK_PTN.matcher(body);
+    if (match.find()) {
+      body = body.substring(0,match.start()) + match.group(1) + '\n' + match.group(2) + body.substring(match.end());
     }
-    else data.strCall = fields[0];
-    
-    // intermediate groups are all CALL
-    for (int i = 1; i < fields.length - 2; i++) {
-      data.strCall = append(data.strCall, ", ", fields[i]);
-    }
-    
-    // last two groups are CALL ADDR or ADDR APT (if only one group left, its ADDR)
-    if (fields.length > 2) {
-      int a = fields.length - 2;
-      int b = a + 1;
-      Result res1 = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, fields[a]);
-      Result res2 = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, fields[b]);
-      if (res1.getStatus() >= res2.getStatus()) {
-        res1.getData(data);
-        data.strApt = fields[b];
-      } else {
-        data.strCall = append(data.strCall, ", ", fields[a]);
-        res2.getData(data);
-      }
-    } else if (fields.length > 1) { //( SRCCALL | CALL ) ADDR is the only 2 field format
-        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, fields[1], data);
-    }
-    
-    return true;
+    return parseFields(body.split("\n"), 3, data);
   }
   
+  @Override
+  public String getProgram() {
+    return "ID " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace('*', '/');
+      super.parse(field, data);
+    }
+  }
 }
