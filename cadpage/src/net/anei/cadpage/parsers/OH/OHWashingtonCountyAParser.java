@@ -14,7 +14,7 @@ public class OHWashingtonCountyAParser extends FieldProgramParser {
 
   public OHWashingtonCountyAParser () {
     super("WASHINGTON COUNTY", "OH",
-        "CALL EMPTY ADDR EMPTY DATE TIME EMPTY SRC!");
+        "CALL EMPTY ADDR EMPTY ( EMPTY EMPTY EMPTY | ) DATE TIME EMPTY SRC!");
   }
   
   @Override
