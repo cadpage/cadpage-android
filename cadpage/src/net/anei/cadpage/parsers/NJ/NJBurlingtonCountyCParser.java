@@ -28,6 +28,12 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
   }
   
   @Override
+  public String adjustMapAddress(String addr) {
+    return TN_PTN.matcher(addr).replaceAll("TURN");
+  }
+  private static final Pattern TN_PTN = Pattern.compile("\\bTN\\b", Pattern.CASE_INSENSITIVE);
+  
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
     // For some reason, these pages usually alter or eliminate the subject signature
@@ -62,30 +68,31 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
   }
   
   private static Properties CITY_ABBRV = buildCodeTable(new String[]{
-      "BdntwnCity", "Bordentown City",
+      "BdntwnCity", "Bordentown",        // Changed
+      "BrdntwnTwp", "Bordentown Twp",    // New
+      "Burl City",  "Burlington",        // New
       "Burl Twp",   "Burlington Twp",
       "Camden Co",  "Camden County",
       "Chesterfld", "Chesterfield",
       "Cinnaminsn", "Cinnaminson Twp",
       "MapleShade", "Maple Shade Twp",
       "McGuireAFB", "McGuire AFB",
+      "MedfordLks", "Medford Lakes",   // New
       "MedfordTwp", "Medford Twp",
+      "N Hanover",  "North Hanover",   // New
       "NewHanover", "New Hanover",
       "Ocean Co",   "Ocean County",
       "Pembtn Twp", "Pemberton Twp",
       "Southamptn", "Southampton",
+      "Springfld",  "Springfield",    // New
       "Willingbor", "Willingboro",
       "Wrghtstwn",  "Wrightstown",
       
-      "Alarm List", ""
+      "Alarm List", "",
+      "NJTP",       ""               // New
   });
   
   private static final CodeTable CALL_CODES = new CodeTable(
-      "CCD",   "Critical Care Divert",
-      "DUP",   "Duplicate Incident",
-      "EMS",   "EMS Call",
-      "ERB",   "ER ByPass",
-      "TCD",   "Total Care Divert",
       "101",   "Abdominal Pain/Problems",
       "102",   "Allergies/Hives/Reaction/Stings",
       "103",   "Animal Bites",
@@ -115,6 +122,7 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
       "127",   "Pentrating Wound/Stab/Gun",
       "128",   "Stroke/CVA",
       "129",   "Traffic Injury Accidents",
+      "129F",  "Motor Vehicle Accident Fire Response",
       "130",   "Traumatic Injuries/Lacerations",
       "131",   "Unconsciousness/Fainting",
       "132",   "Medical Emergency (Unknown Problem)",
@@ -125,7 +133,6 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
       "137",   "Cover Assignment",
       "138",   "Training Session/Drills",
       "139",   "School Standyby,Education",
-      "129F",  "Motor Vehicle Accident Fire Response",
       "11",    "Structure,Building Fire",
       "12",    "Structure-Non Fire",
       "13",    "Vehicles/Non Structure Fires",
@@ -146,9 +153,15 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
       "55",    "Assist Police, Fire Police",
       "57",    "Cover Assignment",
       "AOS",   "Alarm Out of Service",
-      "DUP",   "Duplicate Incident",
       "BURN",  "Controlled Burn",
-      "FIRE",  "Fire Call"
+      "CCD",   "Critical Care Divert",
+      "DUP",   "Duplicate Incident",
+      "DUP",   "Duplicate Incident",
+      "EMS",   "EMS Call",
+      "ERB",   "ER ByPass",
+      "FIRE",  "Fire Call",
+      "TCD",   "Total Care Divert"
+
   );
   
   private static final Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
