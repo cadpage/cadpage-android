@@ -10,13 +10,13 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class MDGarrettCountyParser extends SmartAddressParser {
   
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("CAD:([^ ]+) +(.*)");
-  private static final Pattern MASTER_PTN = Pattern.compile("(\\d\\d?:\\d\\d?:\\d\\d?) +(.*?) +DUE: *([A-Z0-9]+) +([A-Z]{2}\\d{10})(?: +(.*))?");
+  private static final Pattern MASTER_PTN = Pattern.compile("(\\d\\d?:\\d\\d?:\\d\\d?) +(.*?) +DUE: *([-A-Z0-9]+) +(?:RESPONSE CODE: *(?:([A-Z0-9]+)|[^\\p{ASCII}]) +)?([A-Z]{2}\\d{10})(?: +(.*))?", Pattern.DOTALL);
   private static final Pattern CALL_ADDR_PTN = Pattern.compile("(.*?) (?:@!|[^\\p{ASCII}] |(\\d{2,3}[A-Z]\\d{2}[A-Z]?|\\d{5}) )(.*)");
   
   public MDGarrettCountyParser() {
     super("GARRETT COUNTY", "MD");
     setupCallList(CALL_LIST);
-    setFieldList("TIME CALL CODE ADDR APT PLACE UNIT ID INFO");
+    setFieldList("TIME CALL ADDR APT PLACE UNIT CODE ID INFO");
   }
   
   @Override
@@ -43,8 +43,9 @@ public class MDGarrettCountyParser extends SmartAddressParser {
     data.strTime = match.group(1);
     String sCallAddr = match.group(2).trim();
     data.strUnit = match.group(3).trim();
-    data.strCallId = match.group(4);
-    data.strSupp = getOptGroup(match.group(5));
+    data.strCode = getOptGroup(match.group(4));
+    data.strCallId = match.group(5);
+    data.strSupp = getOptGroup(match.group(6));
     
     Parser p = new Parser(sCallAddr);
     data.strPlace = p.getLastOptional("[@");
@@ -54,7 +55,7 @@ public class MDGarrettCountyParser extends SmartAddressParser {
     match = CALL_ADDR_PTN.matcher(sCallAddr);
     if (match.matches()) {
       data.strCall = match.group(1);
-      data.strCode =  getOptGroup(match.group(2));
+      data.strCode =  append(getOptGroup(match.group(2)), "/", data.strCode);
       parseAddress(match.group(3), data);
     }
     else {
@@ -67,17 +68,39 @@ public class MDGarrettCountyParser extends SmartAddressParser {
   private static final CodeSet CALL_LIST = new CodeSet(
       "ABDOMINAL PAIN",
       "ALLERGIC REACTION",
+      "AMBULANCE ASSIST",
+      "AMBULANCE ASSIST LIFTING",
+      "ASSAULT",
       "BACK PAIN",
+      "BEHAVIORAL PROBLEM",
+      "BEHAVIORAL PROBLEM PD",
       "BLEEDING",
+      "BOAT FIRE",
+      "BRUSH FIRE",
+      "CARBON MONOXIDE",
       "CARDIAC ARREST",
+      "CARDIAC EMERGENCY",
       "CHOKING",
+      "CITIZEN ASSIST/SERVICE CALL",
       "CHEST PAIN",
+      "CO ALARM",
+      "DECEASED PERSON",
       "DIABETIC EMERGENCY",
       "DIFFICULTY BREATHING",
       "DISTURBANCE / NUISANCE",
       "DOMESTIC DISTURBANCE",
+      "EMERG PUBLIC SERV",
       "FALL INJURY",
+      "FIRE ALARM",
       "FIRE ALARM/COMMERCIAL",
+      "FIRE ALARM/RESIDENTIAL",
+      "FLUE FIRE",
+      "FUEL SPILL",
+      "GAS LEAK / GAS ODOR",
+      "HAZMAT",
+      "INTERFACILITY CARE",
+      "INVESTIGATION",
+      "LANDING ZONE",
       "LIFT ASSIST NON EMERG",
       "MEDIC ASSIST",
       "MEDICAL ALARM",
@@ -86,13 +109,28 @@ public class MDGarrettCountyParser extends SmartAddressParser {
       "MVC INJURIES",
       "MVC ROLLOVER",
       "MVC UNK INJURIES",
+      "ODOR INVESTIGATION",
+      "OUTBUILDING FIRE",
+      "OUTSIDE FIRE",
       "OVERDOSE",
+      "PARADE",
+      "PHYSICAL RESCUE",
+      "POWER LINES DOWN",
+      "PROPANE ALARM",
+      "PUBLIC SERVICE",
       "SEIZURES",
+      "SMOKE IN BUILDING",
+      "SMOKE INVESTIGATION",
+      "STAND BY",
       "STROKE / CVA",
       "STRUCTURE FIRE",
+      "TRAINING",
       "TRANSPORT",
       "TRAUMA / INJURIES",
       "TREE DOWN",
-      "UNCONSCIOUS/FAINTING"
+      "UNCONSCIOUS/FAINTING",
+      "UTILITY LINES DOWN",
+      "VEHICLE FIRE",
+      "WATER RESCUE"
   );
 }
