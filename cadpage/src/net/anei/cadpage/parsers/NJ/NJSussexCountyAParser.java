@@ -11,13 +11,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NJSussexCountyAParser extends SmartAddressParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("[A-Z]{1,5}-[A-Z]?\\d{4}-?\\d{6}");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("[A-Z]{1,5}-?[A-Z]?\\d{4}-?\\d{6}");
   private static final Pattern MASTER_PTN = 
-    Pattern.compile("([-A-Z0-9 ]+) @ ([^,]+?) *, ([^-]*) -(?: (.*))?"); 
+    Pattern.compile("([-A-Z0-9 ]+) @ ([^,]+?) *, ([^-]*) -(?: (.*?)[-\\.]*)?(?: +Active Units: *(.*))?"); 
   
   public NJSussexCountyAParser() {
     super("SUSSEX COUNTY", "NJ");
-    setFieldList("ID CODE CALL ADDR APT CITY INFO");
+    setFieldList("ID CODE CALL ADDR APT CITY INFO UNIT");
   }
 
   @Override
@@ -38,12 +38,26 @@ public class NJSussexCountyAParser extends SmartAddressParser {
     parseAddress(match.group(2).trim(), data);
     data.strCity = match.group(3).trim();
     String sInfo = getOptGroup(match.group(4));
+    data.strUnit = getOptGroup(match.group(5));
+    if (data.strCity.equals("OUT OF TOWN")) {
+      data.strCity = data.defCity = data.defState = "";
+    }
     if (data.strAddress.equals("OUT OF TOWN")) {
       data.strAddress = "";
-      parseAddress(StartType.START_ADDR, sInfo, data);
+      parseAddress(StartType.START_OTHER, sInfo, data);
+      data.strCall = append(data.strCall, " - ", getStart());
       data.strSupp = getLeft();
-      data.defCity = "";
-      data.defState = "";
+      if (data.strAddress.length() == 0) data.strAddress = "OUT OF TOWN";
+      if (data.strCity.length() == 0) {
+        if (data.strSupp.startsWith("IN ")) {
+          Parser p = new Parser(data.strSupp.substring(3).trim());
+          data.strCity = p.get(' ');
+          if (data.strCity.length() > 0) {
+            data.strSupp = p.get();
+          }
+        }
+        if (data.strCity.length() == 0) data.defCity = data.defState = "";
+      }
     } else {
       data.strSupp = sInfo;
     }
