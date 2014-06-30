@@ -6,6 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 /* 
 Uhzoyr GK, (Uneevf Pbhagl)
+
 Pbagnpg: "Jnffryy, Zvpunry" <ZJnffryy@nisq.pbz>
 Fraqre: zft@pszft.pbz,nyreg@pszft.pbz
 [NISQ RZF] - Pneqvnp -- 17111 Qnja Funqbjf Qe, Uhzoyr -- Znc: 376U- -- Kfg'f: Sberfg Enva Ya Byq Neobe -- Havgf: R-Z29 -- 201105590
@@ -42,6 +43,11 @@ Fraqre: zft@pszft.pbz
 Pbagnpg: Oelna <xlsverzrqvp36@nby.pbz>
 Fraqre: nyreg@pszft.pbz
 1 bs 2\aSEZ:nyreg@pszft.pbz\aFHOW:Puvrs NYG\aZFT:[SVER] -  Genhzngvp Vawhevrf (  -  6931 R Sz 1960  - Kfg'f: Gbja Pragre Oyiq/ngnfpbpvgn Eq -\a(Pba'g) 2 bs 2\aOyqt:Gnetrg Fgb - Xrl Znc:337L - Obk #:N1901\a\a(Raq)
+
+Pbagnpg: "Jnffryy, Zvpunry" <ZJnffryy@nisq.pbz>
+Fraqre: nyreg@pszft.pbz<znvygb:nyreg@pszft.pbz>
+(Puvrs Nyreg) [SVER] 53O1-Pvgvmra Nffvfg -- 7006 Tnearg Uvyy Ya -- Obk #:N1901 -- Pebff FGF: Qrnq Raq/Yrraf Ybqtr Ya
+
 
 Fgnghf zrffntr, Fubhyq or unaqyrq nf Trareny Nyreg
 (Puvrs NYG) [NISQ RZF GVZRF] - Vapvqrag: 201117017 -- Havg: R-Z19 Qvfc 18:20:53 -- Raebhgr: 18:22:50 -- Neevirq: -- Genafcbeg: -- Ng Ubfc: -- Ninvynoyr: 18:24:58
