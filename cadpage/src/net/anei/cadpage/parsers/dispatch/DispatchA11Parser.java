@@ -31,7 +31,9 @@ public class DispatchA11Parser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
-      if (cityCodes != null) data.strCity = convertCodes(p.getLastOptional(','), cityCodes);
+      String city = p.getLastOptional(',');
+      if (cityCodes != null) city = convertCodes(city, cityCodes);
+      data.strCity = city;
       while (true) {
         String fld = p.getLastOptional(';');
         if (fld.length() == 0) break;
