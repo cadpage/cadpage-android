@@ -2,12 +2,10 @@ package net.anei.cadpage.parsers.TX;
 
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
-
-
-public class TXHumbleParser extends DispatchOSSIParser {
+public class TXHumbleParser extends FieldProgramParser {
   
   // Pattern to find a single dash delimiter followed by a numeric ID token
   private static Pattern TRAIL_DELIM = Pattern.compile(" - (?=\\d+$ *)");
@@ -17,7 +15,7 @@ public class TXHumbleParser extends DispatchOSSIParser {
   
   public TXHumbleParser() {
     super("HUMBLE", "TX",
-           "CALL CALL2? ADDRCITY! ( Map:MAP PLACE Xst's:X Units:UNIT ID | Xst's:X Bldg:PLACE Key_Map:MAP! Box_#:BOX | UNIT KM:MAP Xst's:X )");
+           "CALL CALL2? ADDRCITY! ( Box_#:BOX Cross_STS:X | Map:MAP PLACE Xst's:X Units:UNIT ID | Xst's:X Bldg:PLACE Key_Map:MAP! Box_#:BOX | UNIT KM:MAP Xst's:X )");
   }
   
   @Override
@@ -37,7 +35,7 @@ public class TXHumbleParser extends DispatchOSSIParser {
     // If last field delimiter is a single dash, turn it to a double dash
     Parser p = new Parser(subject);
     data.strSource = p.get('|');
-    if (data.strSource.equalsIgnoreCase("Chief ALT")) {
+    if (data.strSource.equalsIgnoreCase("Chief ALT") ||  data.strSource.equalsIgnoreCase("Chief Alert")) {
       data.strSource = p.get('|');
     }
     if (!data.strSource.endsWith("FIRE") && !data.strSource.endsWith("EMS")) return false;
