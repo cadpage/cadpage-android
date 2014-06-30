@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">06252014</string>
-  <string name="release_version">v1.7.29</string>
+  <string name="release_date">06302014</string>
+  <string name="release_version">v1.7.30</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
+New Locations:\n
+Amador County, CA\n
+Crow Wing County, MN\n
+\n
 Location Parsing Fixes:\n
-Colbert County, AL\n
-Larimer County, CO\n
-Morris County, NJ\n
+Adams County, CO\n
+Adams County, IL\n
+Garrett County, MD\n
+Burlington County, NJ\n
+Camden County, NJ\n
+Grafton County, NJ\n
+Washington County, OH\n
+Humble, TX\n
+Loudoun County, VA\n
+Clearwater County, AB, Canada\n
+\n
+Major improvements to address detection logic\n
   </string>
 </resources>
   
