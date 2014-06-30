@@ -43,125 +43,179 @@ Pnyy:US-UBHFR SVER,22 NQNZF QE AR-YO Ncg:,K-Fg:UREVGNTR JNL AR U,R620 R622O R606
 gwx2znef+pns_=5712716099=igrkg.pbz@tznvy.pbz Pnyy:YRNX-VAFVQR TNF YRNX,41219 PBGGRE PG-JN Ncg:,K-Fg:ONAXSVRYQ QE  ,R610 R605O GY602 X626 N610 OP602 RPB10 NPB10,Obk:1024X'NQP:4923 U
 
 Pbagnpg: Npgvir911
-Ntrapl anzr: Zbagtbzrel Pbhagl Sver  Erfphr - Znva
-Ybpngvba: Zbagtbzrel Pbhagl, ZQ, Havgrq Fgngrf
-Fraqre: "Ybhqbha Rzcyblrr EFNA" <zft_22IQ@znvy.rznpbbc.ybhqbha.tbi>
+Ntrapl anzr: Ybhqbha Pbhagl Sver Erfphr naq Rzretrapl Znantrzrag
+Ybpngvba: Yrrfohet, IN, Havgrq Fgngrf
+Fraqre: PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg
 
-(Ybhqbha PNQ) PNYY:SVYY-FGNGVBA GENAFSR, 680 FCEVAT FGERRG NCG: K-FG: R611O RPB11, OBK:SK11  NQP: SQVQ:10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=97033\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:31Q02-HAPBAFPVBHF RS, 20540 SNYPBAF YNAQVAT PVE-FC NCG:4102 K-FG:   N6251 NY615 NPB25 R618, OBK:1810Z NQP:5280 X03 SQVQ:99076 10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=97019\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:VYY-VYYARFF, 5527 FHYYVINAF ZVYY EBNQ NCG: K-FG: Z6032 NPB3, OBK:SD    NQP: SQVQ:99453\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 3 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=96973\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:09R01-PNEQVNP NEERFG, 20608 ORYJBBQ PG-FC NCG: K-FG:PHGJNGRE CY   Z6252 Z6152 RZ601 NPB25 RPB18 PBQR R618, OBK:1823  NQP:5280 T03 SQVQ:99076 10723 10711 99534\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, RZ601, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=96945\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:09Q02-QBN BOIVBHF BE, 5 CUVYYVCF QE AJ-YO NCG: K-FG:CUVYYVCF PG AJ SNVEIVRJ F Z6132 Z6131 RZ601 NPB13 RPB20 PBQR E613, OBK:0111  NQP:5157 U01 SQVQ:99398 10723 10701 99534\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 13 Ibyhagrref, Pbzcnal 1/20 Ibyhagrref, RZ601 (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=96733\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:PBY-PBYYNCFR BE CV V, 101 RAGRECEVFR FG-FC NCG: K-FG:SERR PG & PBZZREPR FG OEV R611 R618 R404 R439 GY611 GY436 E439 Z6152 NY625 GF625 OP601 OP603 FB600 RP, OBK:1120  NQP:5402 S01 SQVQ:10711 99076 05900 10700 10719\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref, OP601, OP603, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 19 Ibyhagrref, FB600 (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=96595\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:US-UBHFR SVER, QBZVAVPX GRE-FC/RQRA QE-FC NCG: K-FG:RQRA QE & FGRSNAVR QE WBF R618 R611 R622 R606 GY611 GY606 E439 Z6152 OP601 OP603 RZ601 FB600 RPB18 NP, OBK:2414  NQP:5280 Q05 SQVQ:10711 99076 10706 05900 10700 10719 10723\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref, OP601, Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, OP603, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 19 Ibyhagrref, RZ601, FB600 (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=96569\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:09R01-PNEQVNP NEERFG, TYBHPRFGRE CXJL-NO/IBFOHET GRE-NO NCG: K-FG:IBFOHET GRE EHAALZRNQR GR N6064 Z6062 Z6231 RZ601 NPB6 RPB6 PBQR R606, OBK:0612  NQP:5279 R05 SQVQ:99624 10723 10706 99534\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, RZ601, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=96135\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:09R01-PNEQVNP NEERFG, 43497 ZVYYJEVTUG GRE-YO NCG: K-FG:EVIRECBVAG QE DHVIRE EVQT Z6221 Z6231 RZ601 NPB22 RPB22 PBQR R622, OBK:2206  NQP:5159 N06 SQVQ:99624 10723 10706 99534\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, RZ601, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=95979\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:PBY-PBYYNCFR BE CV V, 43250 QRSRAQRE QE-PU NCG: K-FG:FBHGU EVQVAT OYIQ RYX YVP R698 R609O R415 R623 GY619 GY302 E607 Z6092 E421 OP603 OP601 RZ601 FB600 RP, OBK:1916  NQP:5520 W03 SQVQ:10719 10709 05900 10723 92002 10707 99079 10700\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 7 Ibyhagrref, OP601, Pbzcnal 23 Ibyhagrref, OP603, Pbzcnal 19 Ibyhagrref, RZ601, FB600, Pbzcnal 9 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=95367\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:OVGR-NAVZNY OVGR, 20910 CVBARRE EVQTR GRE-NO NCG: K-FG:   Z6221 NPB6, OBK:0623  NQP:5278 X04 SQVQ:99624\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=95355\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:FS-FGEHPGHER SVER, 43015 QNIRAGEL FD-PU NCG: K-FG:OELFBA QE YBTNAFUVER GRE  R698 R609 R415 R607 GY619 GY302 E421 Z619 OP603 OP601 RZ601 FB600 RPB19 NPB, OBK:1911  NQP:5520 U04 SQVQ:10719 92002 05900 10709 10707 10700 10723
+Pnyy:CV-NHGB NPPVQRAG,UNEEL OLEQ UJL-FC/PVGL PRAGRE OYIQ-FC Ncg:,K-Fg:PVGL PRAGRE OYIQ ,Z625,Obk:2410 ,NQP:5280 Q05 [50]\a\a-- \a-- \a[Qvfcngpu-Cntr]\a\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP615" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:CQ-CEBCREGL QNZNTR N,UNEEL OLEQ UJL-FC/PVGL PRAGRE OYIQ-FC Ncg:,K-Fg:PVGL PRAGRE OYIQ ,R611O N625O RPB24 NPB35,Obk:2410 ,NQP:5280 Q05 [49]\a\a-- \a-- \a[Qvfcngpu-Cntr]\a\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP615" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:CVG-NHGB NPPVQRAG - ,JNKCBBY EQ-FC/CNPVSVP OYIQ-FC Ncg:,K-Fg:CNPVSVP OYIQ OEBQ,R611O G606 E615 Z635 Z623 OP601 RZ601 RPB24 NPB35,Obk:2431 ,NQP:5279 X09 [47]\a\a-- \a-- \a[Qvfcngpu-Cntr]\a\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP615" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:NZC-NZCHGNGVBA,108 LRJ PG-FC Ncg:,K-Fg:FVYIREYRNS QE & O,Z635 NPB15 R611,Obk:1126 ,NQP:5402 S02 [46]\a\a-- \a-- \a[Qvfcngpu-Cntr]\a\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP615" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:FS-FGEHPGHER SVER,20850 UNEQJBBQ SBERFG QE-FC Ncg:,K-Fg:NYTBAXVNA CXJL TE,R618 R439 D624 R611 GY611 G606 E439 N625O OP601 OP613 RPB18 NPB25,Obk:1811 ,NQP:5281 P04 [45]\a\a-- \a-- \a[Qvfcngpu-Cntr]\a\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP615" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:26P01-VYYARFF NYGRER,21776 PNABCL GRE-FC Ncg:,K-Fg:ZNEVTBYQ PVE  ,Z615 NPB15,Obk:1110 ,NQP:5280 W08 [44]\a\a-- \a-- \a[Qvfcngpu-Cntr]\a\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP615" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:GO-GEBHOYR OERNGUVAT,47387 ZPPNEGULF VFYNAQ PG-FC Ncg:,K-Fg:EVIRE ONAX FG  ,Z625 NPB25,Obk:1811 ,NQP:5281 P02 [43]\a\a-- \a-- \a[Qvfcngpu-Cntr]\a\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP615" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:PGJ-PURPX GUR JRYSNE,46565 UNEEL OLEQ UJL-FC Ncg:122,K-Fg:CBGBZNP IVRJ EQ F,Z625 NPB25,Obk:1839Z,NQP:5280 U07 [42]\a\a-- \a-- \a[Qvfcngpu-Cntr]\a\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP615" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:VYY-VYYARFF,22355 CEBIVQRAPR IVYYNTR QE-FC Ncg:131,K-Fg:FRQTRZBBE FD YNAP,Z615 NPB15,Obk:1120Z,NQP:5402 S01 [41]\a\a-- \a-- \a[Qvfcngpu-Cntr]\a\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP615" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:GEX-GEHPX SVER,FHYYL EQ-FC/JNKCBBY EQ-FC Ncg:,K-Fg:JNKCBBY EQ J & B ,Z635,Obk:2432Y,NQP:5280 N10 [40]\a\a-- \a-- \a[Qvfcngpu-Cntr]\a\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP615" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
 
 Pbagnpg: Npgvir911
-Ntrapl anzr: YPSE
-Ybpngvba: Yhpxrggf, IN, Havgrq Fgngrf
-Fraqre: "Ybhqbha Rzcyblrr EFNA" <zft_2UYB@znvy.rznpbbc.ybhqbha.tbi>
+Ntrapl anzr: Nfuohea Ibyhagrre Sver naq Erfphr Qrcnegzrag
+Ybpngvba: Nfuohea, IN, Havgrq Fgngrf
+Fraqre: @rireoevqtr.arg
+Fraqre: PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg
 
-(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, ABXRF OYIQ-FC/NGYNAGVP OYIQ-FC NCG: K-FG:NGYNAGVP OYIQ FHYYL EQ  R618 N6151 RPB18 NPB25, OBK:2421  NQP:5280 O06 SQVQ:10711 99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116124\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:01Q01-NOQBZVANY CNVA, 46465 RFGREOEBBX PVE-FC NCG:PYVAVP K-FG:QREELQNYR FD GEVAVGL FD  Z6252 NPB25, OBK:1823  NQP:5280 T04 SQVQ:99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116122\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:26N11-VYYARFF IBZVGV, 22958 PURFGAHG BNX GRE-FC NCG: K-FG:CRNPU BNX GRE PUVAXNCVA B Z404 NPB15 R611, OBK:1144  NQP:5402 R04 SQVQ:05900 99076 10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116118\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:26N03-VYYARFF QVMMVA, 220 PENAOEBBX QE AR-YO NCG: K-FG:PUNHPRE CY AR JVYQZNA FG  Z6134 NPB13, OBK:2029  NQP:5158 O01 SQVQ:99398\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 13 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116114\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:17N01-SNYY ABG QNATR, 21170 NFUOL CBAQF OYIQ-NO NCG:PYHOUB K-FG:ZNCYR OENAPU GRE & PNEQVA Z6062 NPB6, OBK:0638Z NQP:5279 U06 SQVQ:99624\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116112\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:31Q03-HAPBAFPVBHF CR, 42507 ZBHAG UBCR EQ-NO NCG: K-FG:ORYZBAG EVQTR EQ   Z698 NPB23, OBK:2369  NQP:5278 R09 SQVQ:10723\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116110\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:17Q05-YBAT SNYY, 21800 GBJAPRAGRE CYM-FC NCG:251 K-FG:SNVESNK PB YVAR UNEEL OLE Z439 NPB25 R618, OBK:1847  NQP:5281 N08 SQVQ:05900 99076 10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116108\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:17N01T-SNYY ABG QNAT, 551 N FG R-CI NCG: K-FG:RYYVBG QE 15GU FG F & INY Z6143 NPB14, OBK:0216  NQP:5039 T10 SQVQ:99081\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 14 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116106\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:20N01U-URNG RKCBFHER, 1503 QBQBAN GRE FR-YO NCG: K-FG:GHCCRE JNL FR PYNFFVP CNG Z6221 NPB22, OBK:2019  NQP:5158 S06 SQVQ:99624\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116104\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:PGJ-PURPX GUR JRYSNE, ABXRF OYIQ-FC/FHYYL EQ-FC NCG: K-FG:FHYYL EQ TYBHPRFGRE CXJL  Z6062 NPB25 R618, OBK:2421  NQP:5280 N06 SQVQ:99624 99076 10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116102\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:26N02-VYYARFF OC NOA, 21785 SVYVTERR PG-NO NCG:100 K-FG:ORNHZRNQR PVE   N6232 NPB23, OBK:2423  NQP:5279 T09 SQVQ:10723\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116100\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:30O01-GENHZN CBFFVOY, 12744 SHEANPR ZBHAGNVA EQ-YI NCG: K-FG:NAVGN YA YBIRGGFIVYYR EQ  N610 NY920 NPB10, OBK:1003X NQP:4804 N08 SQVQ:10710 10000\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 10 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116098\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:28P02-FGEBXR CG JVGU, 46903 FHTNEYNAQ EQ-FC NCG: K-FG:ZHVESVRYQ QE SNVESNK PB Y N6151 NY615 NPB15, OBK:1111  NQP:5280 X09 SQVQ:99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116096\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:05N01-ONPX CNVA ABA , 21240 EVQTRGBC PVE-FC NCG:160 K-FG:UNYRLOVEQ QE UBEFRFUBR QE N6252 NPB25, OBK:1838  NQP:5280 R06 SQVQ:99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116095\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:26N01-VYYARFF AB CEV, 44450 XRYYRE FD-NO NCG:102 K-FG:JUVGSBEQ FD JUVGSBEQ FD  Z6062 NPB6, OBK:0612  NQP:5279 S05 SQVQ:99624\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116093\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:17N01-SNYY ABG QNATR, 19365 PLCERFF EVQTR GRE-YO NCG:908 K-FG:ZNTABYVN TEBIR FD YRVFHER Z6221 NPB22, OBK:2217U NQP:5159 R07 SQVQ:99624\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116089\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, FHYYL EQ-FC/FGREYVAT OYIQ F-FC NCG: K-FG:FGREYVAT OYIQ F JNKCBBY E R623 R611 N6232 RPB11 NPB15, OBK:2438Y NQP:5402 N02 SQVQ:10711 99076 10723\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116087\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:26N03-VYYARFF QVMMVA, 46478 UNZCFUVER FGNGVBA QE-FC NCG: K-FG:UBYYLZRNQ CY & JBBQYNXR C Z439 NPB25 R618, OBK:1807  NQP:5280 U03 SQVQ:05900 99076 10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116085\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:ESVY-FGNGVBA GENAFSR, 143 PNGBPGVA PVE FR-YO NCG: K-FG:J & B Q OVXR GENVY VAQHFG NPB13 Z607, OBK:1303  NQP:5158 N03 SQVQ:99398 10707\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 7 Ibyhagrref, Pbzcnal 13 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116083\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:26N07-VYYARFF ARJ BA, 128 CEBFCRPG QE FJ-YO NCG: K-FG:ORYZBAG QE FJ ORYZBAG QE  N6172 NPB13 R601, OBK:0119  NQP:5157 W03 SQVQ:99080 99398 10701\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 17 Ibyhagrref, Pbzcnal 13 Ibyhagrref, Pbzcnal 1/20 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116081\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:31Q02-HAPBAFPVBHF RS, 45800 WBAN QE-FC NCG:319 K-FG:PBHAGELFVQR OYIQ UNEEL OL Z439 NY615 NPB25, OBK:2405Z NQP:5280 Q04 SQVQ:05900 99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116079\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:NYEZ-SVER NYNEZ, 46970 PBZZHAVGL CYM-FC NCG: K-FG:GUBZNF WRSSREFBA QE YNXRY R618 RPB18, OBK:1847  NQP:5280 X08 SQVQ:10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116077\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:29Q02z-CRQRFGEVNA FG, 19045 HCCRE ORYZBAG CY-YO NCG: K-FG:NEEBLB GRE PUNEYRAN ORGU  N6252, OBK:2206  NQP:5159 O06 SQVQ:10706 99624 10723 99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116075\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:26O01-VYYARFF HAXABJ, 316 UNEEVFBA FG FR-YO NCG: K-FG:FBHGU FG FR QRCBG PG FR  Z6132 NPB13, OBK:1303Z NQP:5157 X03 SQVQ:99398\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 13 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116073\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:10Q04-PURFG CNVA CNG, 21550 ORNHZRNQR PVE-NO NCG: K-FG:THVYSBEQ QE YBHQBHA PBHAG Z698 NPB23, OBK:2423  NQP:5279 U07 SQVQ:10723\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116071\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:CVG-NHGB NPPVQRAG - , NFUOHEA SNEZ CXJL-NO/NFUOHEA EQ-NO NCG: K-FG:NFUOHEA EQ & SNEZJRYY EQ  N6232, OBK:0624  NQP:5279 O06 SQVQ:10706 99624 99076 99398 10723 10700\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 13 Ibyhagrref, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116063\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:29Q02z-CRQRFGEVNA FG, 19045 HCCRE ORYZBAG CY-YO NCG: K-FG:NEEBLB GRE PUNEYRAN ORGU  R622O Z6221 RPB22 NPB22, OBK:2206  NQP:5159 O06 SQVQ:10706 99624\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116061\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:29O04H-NHGB NPPVQRAG, NFUOHEA SNEZ CXJL-NO/NFUOHEA EQ-NO NCG: K-FG:NFUOHEA EQ & SNEZJRYY EQ  R606P Z6062 RPB6 NPB6, OBK:0624  NQP:5279 O06 SQVQ:10706 99624\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116055\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:VYY-VYYARFF, 1223 PUNFR UREVGNTR PVE-FC NCG:201 K-FG:FGREYVAT OYIQ F   N6151 NPB15, OBK:1127  NQP:5402 P01 SQVQ:99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116053\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:NYEZ-SVER NYNEZ, 43853 PRAGRETNGR QE-NO NCG: K-FG:RFFRA FGNGVBA GRE PBAPBEQ R623 RPB23, OBK:2332  NQP:5401 P01 SQVQ:10723\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116049\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:32Q01-HAX ZRQVPNY ? , 241 TERRASVRYQ PG-FC NCG: K-FG:FHTNEYNAQ EHA QE   Z6252 NPB25, OBK:1820  NQP:5280 X04 SQVQ:99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116042\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:NYEZ-SVER NYNEZ, 16591 PBHENTR PG-YO NCG: K-FG:YBHQBHA PRAGRE CY   R601 RPB20, OBK:2024  NQP:5158 P09 SQVQ:10701\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 1/20 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116040\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:01P05-NOQBZRA CNVA N, 21482 CYLZBHGU CY-NO NCG: K-FG:FHMNAAR UBCR JNL & TERRAJ Z698 NPB23, OBK:2320  NQP:5279 N07 SQVQ:10723\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116038\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:31Q03-HAPBAFPVBHF CR, 21666 PNYNZNEL PVE-FC NCG: K-FG:   Z6153 NPB15, OBK:1110  NQP:5280 W08 SQVQ:99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116037\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:BQ-BIREQBFR, 44799 ZVYRFGBAR FD-NO NCG:102 K-FG:OEBNQ IVFGN GRE & PBEAREF N6222 Z6062 NPB22, OBK:2401  NQP:5159 W10 SQVQ:99624\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116035\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, JNKCBBY EQ-NO/ELNA PBEARE CY-NO NCG: K-FG:ELNA PBEARE CY & NFUOHEA  R622O N6232 RPB23 NPB23, OBK:2320  NQP:5279 N08 SQVQ:10723 10706\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116034\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:US-UBHFR SVER, 42636 RZCREBE QE-NO NCG: K-FG:VATREFBYY JNL JBBYFRL QE  R609 R623 R698 R606P GY619 GY606 E421 Z6092 OP603 P606 RZ601 FB618 RPB9 NPB, OBK:0929  NQP:5400 S04 SQVQ:10709 99079 10719 10706 05900 10723 10711 10700\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref, Pbzcnal 23 Ibyhagrref, OP603, Pbzcnal 24 Ibyhagrref, Pbzcnal 19 Ibyhagrref, RZ601, Pbzcnal 9 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116032\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:VAI-VAIRFGVTNGVBA, 17698 OENRZNE CY-YO NCG: K-FG:JUVGR TNGR CY PNABATNGR Q R605O RPB5, OBK:0108X NQP:5041 R10 SQVQ:10705\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 5 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116030\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:25N01-RQC ABG FHVPVQ, 42594 UBYYLUBPX GRE-NO NCG: K-FG:ORNPBA PERFG GRE URNEG CV N6232 NPB23, OBK:0927  NQP:5400 S02 SQVQ:10723\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116028\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:20N01U-URNG RKCBFHER, 19 ZNEXRG FG J-YO NCG: K-FG:JVEG FG FJ & JVEG FG AJ X N6134 NPB13, OBK:0111  NQP:5157 X02 SQVQ:99398\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 13 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116026\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:17O01-SNYY CBFF QNAT, 20745 EBLNY CNYNPR FD-FC NCG:313 K-FG:EBLNY IVYYN GRE & ABOYR G Z6252 NPB25, OBK:1826  NQP:5281 P04 SQVQ:99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116024\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:31P01-SNVAGRQ NYREG , 10 FRPBAQ FG FJ-YO NCG: K-FG:JVEG FG FJ XVAT FG F  Z6133 NPB13, OBK:1304  NQP:5157 W03 SQVQ:99398\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 13 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116022\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:BHG-BHGFVQR SVER, OERGUBHE PG-FC/NETHF CY-FC NCG: K-FG:NETHF CY PUNEVAT PG  RPB18 R618, OBK:1820  NQP:5280 W05 SQVQ:10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116020\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:26N05-VYYARFF TRAREN, 44040 YBEQF INYYRL GRE-NO NCG: K-FG:OEHPRGBA ZVYYF PVE & YNPR Z698, OBK:0619  NQP:5279 Q05 SQVQ:99624 10723\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116019\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:YBPX-PUVYQ YBPXRQ VA, 46261 PENAFGBA FG-FC NCG: K-FG:FBHGUONAX FG PNFPNQRF CXJ Z439 NPB25 R611, OBK:1823  NQP:5280 T05 SQVQ:05900 99076 10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116017\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:26N05-VYYARFF TRAREN, 44040 YBEQF INYYRL GRE-NO NCG: K-FG:OEHPRGBA ZVYYF PVE & YNPR N6061 NPB6, OBK:0619  NQP:5279 Q05 SQVQ:99624\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116015\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:10Q02-PURFG CNVA GEB, 179 PBGGNTR EQ A-FC NCG: K-FG:PNEBYVAN PG FVZRBA YA  Z6153 NPB25, OBK:1820  NQP:5280 X04 SQVQ:99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116011\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:FHVP-FHVPVQR NGGRZCG, 11 GEVGNCBR CY-YI NCG: K-FG:FGBPXF FG XRVFGRE YA  N6121 NY920 NPB12 FG614, OBK:1248  NQP:4802 W06 SQVQ:99074 10000 99081\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 12 Ibyhagrref, Pbzcnal 14 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116009\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:25O03I-FHVPVQR GUERN, 46592 PBGGNTR EQ F-FC NCG: K-FG:FVTANY UVYY CYM CBGBZNP I V6151 NPB25 R618, OBK:1829  NQP:5280 U06 SQVQ:99076 10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116007\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:31P02-HAPBAFPVBHF PN, 21105 PNEQVANY CBAQ GRE-NO NCG:318 K-FG:ZNCYR OENAPU GRE NFUOL CB Z6062 NPB6, OBK:0638Z NQP:5279 T05 SQVQ:99624\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116005\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:19Q02-URNEG CEBOYRZ , 45685 RYZJBBQ PG-FC NCG: K-FG:TERRABNX JNL   Z6153 NPB15, OBK:2426  NQP:5280 P07 SQVQ:99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116001\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:PC-PURFG CNVA, 535 OERGUBHE PG-FC NCG: K-FG:NETHF CY   N6252 Z6153 NPB25, OBK:1820  NQP:5280 W05 SQVQ:99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115997\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:20N01U-URNG RKCBFHER, 36811 NYYQRE FPUBBY EQ-CI NCG: K-FG:YBATZBBE PG UVYYFOBEB EQ  N6041 NPB14 R602 NY680, OBK:0233  NQP:5039 Q05 SQVQ:99397 99081 10702\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 2 Ibyhagrref, Pbzcnal 4 Ibyhagrref, NY601, Pbzcnal 14 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115991\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:PB-PNEOBA ZBABKVQR Q, 45946 TENZZREPL GRE-FC NCG: K-FG:PURFGAHG BNX GRE YNPRL BN RPB11 GY611, OBK:1144  NQP:5402 R03 SQVQ:10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115987\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:28P01-FGEBXR CNGVRAG, 37128 PNEQVTNA CY-CI NCG: K-FG:JUVGR TBBFR YA & JNGREZVY V6143 Z607 NPB14 R608, OBK:0825X NQP:5275 R02 SQVQ:99081 10707 10708\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 7 Ibyhagrref, Pbzcnal 8 Ibyhagrref, Pbzcnal 14 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115985\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:ZHYPU-ZHYPU SVER, 652 SBEG RINAF EQ AR-YO NCG: K-FG:YRRFOHET GBJA YVAR & SBER RPB20 O601, OBK:2018  NQP:5158 T04 SQVQ:10701\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 1/20 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115981\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:09R01-PNEQVNP NEERFG, 111 CRLGBA EQ-FC NCG: K-FG:GHEARE YA EHFFRYY PG  Z6221 Z6062 RZ601 NPB25 RPB18 PBQR R618, OBK:2405  NQP:5280 Q04 SQVQ:99624 10723 99076 10711 99534\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, RZ601, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115979\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:10Q04-PURFG CNVA CNG, 20670 PVGNGVBA QE-NO NCG: K-FG:UNL EQ & PUHEPUVYY QBJAF  Z698 NPB6 RPB6, OBK:0615  NQP:5278 U03 SQVQ:10723 99624 10706\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115975\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:NYEZ-SVER NYNEZ, 20900 EHAALZRNQR GRE-NO NCG:227 K-FG:TYBHPRFGRE CXJL PBUNFFRG  R606P G606 Z6221 RPB6 NPB6, OBK:0612Z NQP:5279 R05 SQVQ:10706 99624\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115973\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:19P02-URNEG CEBOYRZ , 46565 UNEEL OLEQ UJL-FC NCG:227 K-FG:CBGBZNP IVRJ EQ FGREYVAT  Z6153 NPB25 R618, OBK:1839Z NQP:5280 U07 SQVQ:99076 10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115971\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:26O01-VYYARFF HAXABJ, 46809 IREZBAG ZNCYR GRE-FC NCG: K-FG:EHFGL OYNPXUNJ FD FBHGURE N6252 NPB25, OBK:1845  NQP:5280 W07 SQVQ:99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115969\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, PYNVOBEAR CXJL-NO/PEBFFEBNQF QE-NO NCG: K-FG:PEBFFEBNQF QE & ZNEFUSVRY R606P N6232 RPB6 NPB6, OBK:0623  NQP:5278 X04 SQVQ:10706 99624 10723\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115966\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:13P02-QVNORGVP NOABE, 21080 FBHGUONAX FG-FC NCG: K-FG:ZPPYRYYNA JNL PENAFGBA FG N6252 Z439 NPB25, OBK:1823  NQP:5280 T05 SQVQ:99076 05900\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115962\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:URYQ-FRPHER URYVPBCG, 24570 THZ FCEVAT EQ-FC NCG:RE K-FG:WBUA ZBFOL UJL NMNYRN YA  R609 OP603 RZ601 RPB9, OBK:0914Z NQP:5400 Q10 SQVQ:10709 10719 10723\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, OP603, Pbzcnal 19 Ibyhagrref, RZ601, Pbzcnal 9 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115960\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:06Q02-GEBHOYR OERNGU, 124 SBEG RINAF EQ FR-YO NCG:Q K-FG:CEBFCREVGL NIR FR ZNEXRG  Z6132 NPB13, OBK:2005  NQP:5158 O04 SQVQ:99398\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 13 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115958\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:31Q02-HAPBAFPVBHF RS, 22135 QNIVF QE-FC NCG:115 K-FG:OYHRZBAG WHAPGVBA FD & FU Z6062, OBK:2433  NQP:5280 O10 SQVQ:10723 05900 99076 10711 99624\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115953\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:10P04-PURFG CNVA ABE, 39820 PUNEYRF GBJA CVXR-JN NCG: K-FG:UNZVYGBA FGNGVBA EQ FBHGU N6172 NY601 NPB17, OBK:0518X NQP:5040 U05 SQVQ:99080 99534\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 17 Ibyhagrref, NY601 (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115951\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:31Q02-HAPBAFPVBHF RS, 22135 QNIVF QE-FC NCG: K-FG:OYHRZBAG WHAPGVBA FD & FU N6232 Z404 NPB15 R611, OBK:2433  NQP:5280 O10 SQVQ:10723 05900 99076 10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115948\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:FS-FGEHPGHER SVER, FZVGU FJVGPU EQ-NO/JNKCBBY EQ-NO NCG: K-FG:JNKCBBY EQ & SNEZJRYY EQ  R623 R606P R611 R622O G606 GY611 E439 N6232 OP601 OP603 RZ600 FB600 RPB23 N, OBK:2321  NQP:5279 S08 SQVQ:10723 10706 10711 05900 10700 10719\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref, OP601, Pbzcnal 23 Ibyhagrref, OP603, Pbzcnal 24 Ibyhagrref, Pbzcnal 19 Ibyhagrref, FB600 (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115944\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:20O01U-URNG RKCBFHER, 46440 ORARQVPG QE-FC NCG:107 K-FG:CBGBZNP IVRJ EQ & PBAARZN Z439 NPB25 R618, OBK:1838  NQP:5280 U07 SQVQ:05900 99076 10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115940\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:17N03-SNYY CNGVRAG A, 1223 PUNFR UREVGNTR PVE-FC NCG:103 K-FG:FGREYVAT OYIQ F   Z6153 NPB15, OBK:1127  NQP:5402 P01 SQVQ:99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115938\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:26B11-VYYARFF QRSVPN, 19365 PLCERFF EVQTR GRE-YO NCG:808 K-FG:ZNTABYVN TEBIR FD YRVFHER Z6221, OBK:2217U NQP:5159 R07 SQVQ:99624 10706\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115934\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:VAWNFF-VAWHEL SEBZ N, 18 ZNEXRG FG R-YO NCG:100 K-FG:RQJNEQF SREEL EQ AR & PUH N6172 NPB13 R601, OBK:0113  NQP:5157 X02 SQVQ:99080 99398 10701\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 17 Ibyhagrref, Pbzcnal 13 Ibyhagrref, Pbzcnal 1/20 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115936\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:26B11-VYYARFF QRSVPN, 19365 PLCERFF EVQTR GRE-YO NCG:808 K-FG:ZNTABYVN TEBIR FD YRVFHER Z6062 R606P, OBK:2217U NQP:5159 R07 SQVQ:99624 10706\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115930\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:17N01-SNYY ABG QNATR, 20560 GNATYRJBBQ JNL-FC NCG: K-FG:NYTBAXVNA CXJL ORAAVATGBA R618, OBK:1812  NQP:5281 N03 SQVQ:99076 10711\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115928\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:06Q01-GEBHOYR OERNGU, 19520 ZRNQBJIVRJ PG-YO NCG: K-FG:PBHENTR PG & YBHQBHA PRAG Z6133 NPB13, OBK:2024  NQP:5158 O08 SQVQ:99398\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 13 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115926\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:17N01-SNYY ABG QNATR, 20560 GNATYRJBBQ JNL-FC NCG: K-FG:NYTBAXVNA CXJL ORAAVATGBA N6252 NPB25, OBK:1812  NQP:5281 N03 SQVQ:99076\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115924\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:12Q02R-FRVMHERF PBAG, 42455 ZNTRYYNA FD-NO NCG: K-FG:BYLZCVN QE PNEGVRE GRE  NPB23 Z699, OBK:0928  NQP:5400 R03 SQVQ:10723\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115922\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
+(Ybhqbha PNQ) PNYY:19P02-URNEG CEBOYRZ , 20045 NFUOEBBX PBZZBAF CYM-NO NCG: K-FG:CERZVRE CYM EHFFRYY OENAPU CXJL ,Z606 NPB6, OBK:0627  NQP:5279 R01 SQVQ:99624      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=660261OOPP917O86Q05563189361Q26P9515SP7NOP12ON88     Cyrnfr pyvpx gb pbasvez
+Pnyy:19P02-URNEG CEBOYRZ ,20045 NFUOEBBX PBZZBAF CYM-NO Ncg:,K-Fg:CERZVRE CYM EHFFR,Z606 NPB6,Obk:0627 ,NQP:5279 R01 [39]\a\a-- \a-- \a[YP606] - uggc://niseq.arg/znc\a\a--- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP606" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp606+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:NYEZ-SVER NYNEZ,20775 PRAGHEL PBEARE QE-NO Ncg:,K-Fg:ANVFZVGU GRE & FL,R606 RPB6,Obk:0615 ,NQP:5278 T04 [38]\a\a-- \a-- \a[YP606] - uggc://niseq.arg/znc\a\a--- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP606" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp606+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+(Ybhqbha PNQ) PNYY:NYEZ-SVER NYNEZ, 20775 PRAGHEL PBEARE QE-NO NCG: K-FG:ANVFZVGU GRE & FLPBYVA EQ XVYQBANA QE ,R606 RPB6, OBK:0615  NQP:5278 T04 SQVQ:10706      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=6SQO19QQ265984P4SO7585R3O84QO6O801NN67R03N5R3NR5     Cyrnfr pyvpx gb pbasvez
+(Ybhqbha PNQ) PNYY:CVG-NHGB NPPVQRAG - , JNKCBBY EQ-FC/CNPVSVP OYIQ-FC NCG: K-FG:CNPVSVP OYIQ OEBQREVPX QE ,R611O G606 E615 Z635 Z623 OP601 RZ601 RPB24 NPB35, OBK:2431  NQP:5279 X09 SQVQ:10711 99076 10706 10723 10791 10799      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=09N98226Q6P74R42OR2Q8RR218R9O752593S8792P6N00666     Cyrnfr pyvpx gb pbasvez
+(Ybhqbha PNQ) PNYY:FS-FGEHPGHER SVER, 20850 UNEQJBBQ SBERFG QE-FC NCG: K-FG:NYTBAXVNA CXJL TERNG SNYYF CYM & JRFGJBBQ CY ,R618 R439 D624 R611 GY611 G606 E439 N625O OP601 OP613 RPB18 NPB25, OBK:1811  NQP:5281 P04 SQVQ:10711 99076 10706 05900 107      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=Q9PN5R7275Q9O83OP28433844750QOQ9451OP9N27827RO3N     Cyrnfr pyvpx gb pbasvez
+(Ybhqbha PNQ) PNYY:HAXZ-HAXABJA ZRQVPNY, 20900 EHAALZRNQR GRE-NO NCG:340 K-FG:TYBHPRFGRE CXJL PBUNFFRG GRE ,R606, OBK:0612Z NQP:5279 R05 SQVQ:99624 10706      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=O53SSNP91029RPR181097PP98QR7R26S01P46P7S9S95119P     Cyrnfr pyvpx gb pbasvez
+Pnyy:HAXZ-HAXABJA ZRQVPNY,20900 EHAALZRNQR GRE-NO Ncg:340,K-Fg:TYBHPRFGRE CXJL P,R606,Obk:0612Z,NQP:5279 R05 [37]\a\a-- \a-- \a[YP606] - uggc://niseq.arg/znc\a\a--- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP606" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp606+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+(Ybhqbha PNQ) PNYY:HAXZ-HAXABJA ZRQVPNY, 20900 EHAALZRNQR GRE-NO NCG:340 K-FG:TYBHPRFGRE CXJL PBUNFFRG GRE ,Z606 NPB6, OBK:0612Z NQP:5279 R05 SQVQ:99624      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=O5650N67R3RR2O16237OQ2SN35630121186749RSP417RRN6     Cyrnfr pyvpx gb pbasvez
+Pnyy:HAXZ-HAXABJA ZRQVPNY,20900 EHAALZRNQR GRE-NO Ncg:340,K-Fg:TYBHPRFGRE CXJL P,Z606 NPB6,Obk:0612Z,NQP:5279 R05 [36]\a\a-- \a-- \a[YP606] - uggc://niseq.arg/znc\a\a--- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP606" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp606+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
 
 Pbagnpg: Npgvir911
-Ntrapl anzr: Zbagtbzrel Pbhagl Sver  Erfphr - Znva
-Ybpngvba: Zbagtbzrel Pbhagl, ZQ, Havgrq Fgngrf
-Fraqre: "Ybhqbha Rzcyblrr EFNA" <zft_2LTS@znvy.rznpbbc.ybhqbha.tbi>
+Ntrapl anzr: Nfuohea Ibyhagrre Sver naq Erfphr Qrcnegzrag
+Ybpngvba: Nfuohea, IN, Havgrq Fgngrf
+Fraqre: @rireoevqtr.arg
+Fraqre: PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg
 
-(Ybhqbha PNQ) PNYY:QELRE-QELRE SVER, 1524 LBHATF CBVAG CY NCG: K-FG:,R611 OP601 RPB11, OBK:SK11  NQP: SQVQ:10711\a\aFrag ol Rkpunatr Vasbezngvba gb OP601, Pbzcnal 24 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=137967\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:PUVZ-PUVZARL SVER, 765 ONXREGBA EQ NCG: K-FG:,R698 OP602 RPB16 X616, OBK:WRSS  NQP: SQVQ:10716 10700\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 16 Ibyhagrref, OP602 (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=137903\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, WNZRF ZBAEBR UJL-SE/CBGBZNP EVIRE-SE NCG: K-FG:CBGBZNP EVIRE  ,R610 N610 RPB10 NPB10, OBK:1002X NQP:4804 P07 SQVQ:10710\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 10 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=137863\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:FS-FGEHPGHER SVER, 168 UVTU FG NCG: K-FG:,R698 OP602 RPB16, OBK:WRSS  NQP: SQVQ:10716 10700\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 16 Ibyhagrref, OP602 (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=137817\e\a\e\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
+(NHGB NPPVQRAG RAGENCZRAG) NHGB NPPVQRAG RAGENCZRAG - JUVGRF SREEL EQ/WNZRF ZBAEBR UJL - YRRFOHET - OBK 0104X - R601 BA FPRAR ERCBEGVAT BAR IRUVPYR BA FVQR JVGU BAR PBASVEZRQ RAGENCZRAG       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=12644RS924N6P01O56S109Q9P8S313Q457494050Q196939N     Cyrnfr pyvpx gb pbasvez
+(Vapvqrag Cntr) Pne vagb gur Fgehpgher - 415 Qel Zvyy Eq. FJ, Yrrfohet, Obk 0119, R601 unf pne gung fgehpx gur Naark Ohvyqvat ng Ybhqbha Pbhagl Uvtu Fpubby       uggcf://qra2.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=34471S2N09562O3466N6391R0R92RPS7545RR3273549S436     Cyrnfr pyvpx gb pbasvez
 
 Pbagnpg: Npgvir911
-Ntrapl anzr: YPSE
-Ybpngvba: Yhpxrggf, IN, Havgrq Fgngrf
-Fraqre: "Ybhqbha Rzcyblrr EFNA" <zft_2UYB@znvy.rznpbbc.ybhqbha.tbi>
+Ntrapl anzr: Yrrfohet ISP
+Ybpngvba: Yrrfohet, IN, Havgrq Fgngrf
+Fraqre: PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg
+Fraqre: ZRFFNTR_ABGVSVPNGVBA@HFNZbovyvgl.arg
 
-(Ybhqbha PNQ) PNYY:FS-FGEHPGHER SVER, 15 PUHEPU FG A-YI NCG: K-FG:OEBNQ JNL R   D914, OBK:1248  NQP:4802 U06 SQVQ:10712 99074 10000 10702 10700 10723 10719 10710\a\aFrag ol Rkpunatr Vasbezngvba gb OP603, Pbzcnal 3 Ibyhagrref, Pbzcnal 19 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\a----\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=95961\a\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:FS-FGEHPGHER SVER, 15 PUHEPU FG A-YI NCG: K-FG:OEBNQ JNL R   R612O R905 R602 RX928 G905 GY602 E920 N6121 OP602 OP601 RZ601 FB600 RPB12 N, OBK:1248  NQP:4802 U06 SQVQ:10712 99074 10000 10702 10700 10723\a\aFrag ol Rkpunatr Vasbezngvba gb OP603, Pbzcnal 3 Ibyhagrref, Pbzcnal 19 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\a----\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=95961\a\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
-(Ybhqbha PNQ) PNYY:FS-FGEHPGHER SVER, FZVGU FJVGPU EQ-NO/JNKCBBY EQ-NO NCG: K-FG:JNKCBBY EQ & SNEZJRYY EQ  R623 R606P R611 R622O G606 GY611 E439 N6232 OP601 OP603 RZ600 FB600 RPB23 N, OBK:2321  NQP:5279 S08 SQVQ:10723 10706 10711 05900 10700 10719\a\aFrag ol Rkpunatr Vasbezngvba gb OP603, Pbzcnal 3 Ibyhagrref, Pbzcnal 19 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\a----\a- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=95961\a\a- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.
+Pnyy:CVG-NHGB NPPVQRAG - ,WNZRF ZBAEBR UJL-YO/JUVGRF SREEL EQ-YO Ncg:,K-Fg:JUVGRF SREEL EQ &,R601 G620 E613 N610 Z613P OP613 RZ601 RPB20 NPB10,Obk:0104X,NQP:5042 Q06 [24]
+Pnyy:NYEZ-SVER NYNEZ,1607 IVYYNTR ZNEXRG OYIQ FR-YO Ncg:,K-Fg:QBQBAN GRE FR ONY,R601 RPB20,Obk:2019 ,NQP:5158 T06 [22]
+Pnyy:31N01-SNVAGRQ ABJ NY,154 ZRNQBJF YA AR-YO Ncg:,K-Fg:SBEG RINAF EQ AR ,R601,Obk:2008 ,NQP:5158 P03 [21]
+Pnyy:BGVF-RYRINGBE RAGENC,18 ZNEXRG FG R-YO Ncg:,K-Fg:RQJNEQF SREEL EQ ,RPB20 R601,Obk:0113 ,NQP:5157 X02 [20]
+Pnyy:VAI-VAIRFGVTNGVBA,XVAT FG F-YO/PNGBPGVA PVE FJ-YO Ncg:,K-Fg:SNVESNK FG FR PNG,R601 RPB20,Obk:1303 ,NQP:5157 X03 [19]
+Pnyy:08P01P-PURZVPNY UNMZ,22570 JNGFBA EQ-YO Ncg:,K-Fg:PBZCERFFBE YA PBI,R607 R680 R623 R601 R603 G620 G606 E613 X607 X680 X603 Z607 Z609O OP603 OP6,Obk:0721X,NQP:5399 R02 [18]
+Pnyy:29O01H-NHGB NPPVQRAG,WNZRF ZBAEBR UJL-YO/YVGGYR BNGYNAQF YA-YO Ncg:,K-Fg:YVGGYR BNGYNAQF Y,R601 Z613P RPB7 NPB7,Obk:0703X,NQP:5277 N04 [17]
+Pnyy:CV-NHGB NPPVQRAG,117 CEBFCREVGL NIR FR-YO Ncg:,K-Fg:SBEG RINAF EQ FR ,R601 N613R RPB20 NPB13,Obk:2005 ,NQP:5158 P04 [16]
+Pnyy:NYEZ-SVER NYNEZ,224 PBEAJNYY FG AJ-YO Ncg:N,K-Fg:ZRZBEVNY QE AJ YV,R601 G620 N613R RPB20 NPB13,Obk:0110Z,NQP:5157 W01 [15]
+Pnyy:NYEZ-SVER NYNEZ,259 ZRNQBJF YA AR-YO Ncg:,K-Fg:SBEG RINAF EQ AR ,R601 RPB20,Obk:2008 ,NQP:5158 P03 [14]
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Yrrfohet ISP
+Ybpngvba: Yrrfohet, IN, Havgrq Fgngrf
+Fraqre: PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg
+Fraqre: ZRFFNTR_ABGVSVPNGVBA@HFNZbovyvgl.arg
+
+Ohea Vawhel jvgu Sylbhg - 25720 Ubcrsvryq Cy., Fbhgu Evqvat, Obk 1910, R619 erdhrfgvat uryvpbcgre.\a\aFrag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [82]
+FUBBGVAT - SYLBHG - 1100 OYBPX NYOREZNEYR EQ - FGREYVAT - OBK 1127 - R611 BA FPRAR ERDHRFGVAT URYB SBE ZRQRINP - YPFB UNAQYVAT FPRAR\a\aFrag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [99]
+UBHFR SVER - 14311 CNEVF OERRMR CYNPR  CHEPRYYIVYYR OBK 2614X.  R616 BA FPRAR JVGU SVER VA GUR ONFRZRAG.\a\aFrag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [87]
+NHGB NPPVQRAG JVGU RAGENCZRAG BA PRQNE TERRA EQ WHFG BSS BS FUNJ EQ, FGREYVAT, OBK 2433 R624 PBASVEZRQ 1 CG GENCCRQ VA N FVATYR IRUVPYR NPPVQRAG.\a\aFrag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [79]
+Hcqngr ba Ncnegzrag Sver - 20965 Gvzore Evqtr Gree., Nfuohea, Obk 0623, Pbzznaq erdhrfgvat Yriry 1 EVG\a\aFrag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [77]
+Ncnegzrag Sver - 20965 Gvzore Evqtr Gree., Nfuohea, Obk 0623, R606 nqivfvat fzbxr sebz 2aq sybbe.\a\aFrag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [76]
+SYLBHG SEBZ FGBARFCEVATF RE YM NG BYQ NEPBYN PBZZHAVGL PRAGRE- NEPBYN, OBK 0914X, R609O UNAQYVAT GUR YM NAQ Z603O GENAFCBEGVAT GUR CG SEBZ GUR RE GB GUR YM.\a\aFrag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [72]
+Vawhel sebz Snyy - Eriviny Qe. & Syrrgjbbq Eq, Nyqvr, Obk 1947X, R619 erdhrfg Gbjre sbe fgbxrf bcrengvba sbe fhowrpg snyyra vagb sbhaqngvba bs ubhfr.\a\aFrag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [66]
+NHGB NPPVQRAG JVGU RAGENCZRAG VA SEBAG BS 25493 SYLAA YA VA PUNAGVYYL, OBK 1911, R619 BA FPRAR PBASVEZVAT BAR IRUVPYR BA VG'F FVQR JVGU BAR CG FGVYY VAFVQR\a\aFrag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [40]
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Chepryyivyyr ISP
+Ybpngvba: Chepryyivyyr, IN, Havgrq Fgngrf
+Fraqre: PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg
+
+Pnyy:SVYY-FGNGVBA GENAFSR,500 ZNCYR NIR A-CI Ncg:,K-Fg:UVEFG EQ J & B Q ,RPB2 X626,Obk:0216 'NQP:5039 W07 [85]\a\a-- \a-- \a[YP602]\a\a--- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP602" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:10Q02-PURFG CNVA GEB,19 OEVQTR FG A-EU Ncg:,K-Fg:PRQNE FG ZHYOREEL,ER602,Obk:0427 'NQP:5038 U09 [84]\a\a-- \a-- \a[YP602]\a\a--- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP602" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:TNF-BHGFVQR TNF YRNX,15223 TENPR CY-JN Ncg:,K-Fg:UBENPR PG  ,X604,Obk:1241X'NQP:4922 P09 [83]\a\a-- \a-- \a[YP602]\a\a--- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP602" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:VAI-VAIRFGVTNGVBA,140 32AQ FG F-CI Ncg:,K-Fg:X FG J Y FG J ,ER602 RPB2,Obk:0237 'NQP:5039 R09 [82]\a\a-- \a-- \a[YP602]\a\a--- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP602" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:17Q03-SNYY CNGVRAG A,17171 DHNVY PERRX PVE-UN Ncg:,K-Fg:ZRNQBJYNEX QE PBI,G690,Obk:0523X'NQP:5040 W07 [78]\a\a-- \a-- \a[YP602]\a\a--- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP602" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:CV-NHGB NPPVQRAG,38588 PUNEYRF GBJA CVXR-JN Ncg:,K-Fg:BYQ JURNGYNAQ EQ ,ER602 N614P RPB2 NPB14,Obk:0246X'NQP:5040 Q01 [77]\a\a-- \a-- \a[YP602]\a\a--- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP602" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:NHGB-NHGB SVER,UNEEL OLEQ UJL-CI/CHEPRYYIVYYR EQ-CI Ncg:,K-Fg:CHEPRYYIVYYR EQ &,ER602 N614P RPB2 NPB14,Obk:0211Y'NQP:5039 S07 [75]\a\a-- \a-- \a[YP602]\a\a--- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP602" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:FS-FGEHPGHER SVER,19844 OYHR EVQTR ZBHAGNVA EQ Ncg:,K-Fg:,G690 OP602 E617 RPB2 R608O,Obk:PP   'NQP: [74]\a\a-- \a-- \a[YP602]\a\a--- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP602" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:29O01-NHGB NPPVQRAG ,OREYVA GCXR-CI/CVTTBGG OBGGBZ EQ-CI Ncg:,K-Fg:CVTTBGG OBGGBZ EQ,ER602 N614P RPB2 NPB14,Obk:0208X'NQP:5039 X06 [73]\a\a-- \a-- \a[YP602]\a\a--- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP602" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+Pnyy:CV-NHGB NPPVQRAG,UVEFG EQ-CI/ONVYRL YA A-CI Ncg:,K-Fg:ONVYRL YA A OEBJA,ER602 Z617P RPB2 NPB14,Obk:0238 'NQP:5039 R07 [72]\a\a-- \a-- \a[YP602]\a\a--- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "YP602" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Ybhqbha Pbhagl Ibyhagrre Erfphr Fdhnq
+Ybpngvba: Yrrfohet, IN, Havgrq Fgngrf
+Fraqre: PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg
+Fraqre: ZRFFNTR_ABGVSVPNGVBA@HFNZbovyvgl.arg
+
+Pnyy:VYY-VYYARFF         ,113 EBL PG FR-YO Ncg:,K-Fg:FUNAN QE FR  ,Z613P NPB13,Obk:1307 ,NQP:5157 X05 [16]
+Pnyy:17O01T-SNYY CBFF QNA,237 SNVEIVRJ FG AJ-YO Ncg:408,K-Fg:NLEYRR NIR AJ EVQ,N613O NY613 NPB13,Obk:0101Z,NQP:5041 U10 [15]
+Pnyy:ESVY-FGNGVBA GENAFSR,39071 PBYBAVNY UJL R-UN Ncg:,K-Fg:GJVABNXF CY UNZVY,Z613R,Obk:0531X,NQP:5040 S09 [14]
+Pnyy:VAW-VAWHEL          ,125 PYHOUBHFR QE FJ-YO Ncg:T-3,K-Fg:XVAT FG F-YO  ,N613O NPB13,Obk:1309 ,NQP:5157 T04 [13]
+Pnyy:CVG-NHGB NPPVQRAG - ,WNZRF ZBAEBR UJL-YO/JUVGRF SREEL EQ-YO Ncg:,K-Fg:JUVGRF SREEL EQ &,R601 G620 E613 N610 Z613P OP613 RZ601 RPB20 NPB10,Obk:0104X,NQP:5042 Q06 [12]
+Pnyy:ESVY-FGNGVBA GENAFSR,500 ZNCYR NIR A-CI Ncg:,K-Fg:J & B Q OVXR GENV,NPB14 Z613R,Obk:0216 ,NQP:5039 U08 [10]
+Pnyy:NYF-NYF RZRETRAPL   ,22 CYNMN FG AR-YO Ncg:,K-Fg:ZNEXRG FG R & CYN,Z613P NPB13,Obk:2008 ,NQP:5158 O03 [08]
+Pnyy:VAWN-VAWHEL NYF     ,22725 RIRETERRA ZVYYF EQ-YO Ncg:,K-Fg:FCEVATINYYRL YA E,Z609O NPB9 E613,Obk:0936X,NQP:5399 X01 [07]
+Pnyy:TNF-BHGFVQR TNF YRNX,15223 TENPR CY-JN Ncg:,K-Fg:UBENPR PG  ,PH613,Obk:1241X,NQP:4922 P09 [05]
+Pnyy:26P01-VYYARFF NYGRER,316 UNEEVFBA FG FR-YO Ncg:319,K-Fg:FBHGU FG FR QRCBG,Z613R NPB13,Obk:1303Z,NQP:5157 X03 [04]
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Ybhqbha Pbhagl Ibyhagrre Erfphr Fdhnq
+Ybpngvba: Yrrfohet, IN, Havgrq Fgngrf
+Fraqre: PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg
+Fraqre: ZRFFNTR_ABGVSVPNGVBA@HFNZbovyvgl.arg
+
+Ohea Vawhel jvgu Sylbhg - 25720 Ubcrsvryq Cy., Fbhgu Evqvat, Obk 1910, R619 erdhrfgvat uryvpbcgre.\a\aFrag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [26]
+FUBBGVAT - SYLBHG - 1100 OYBPX NYOREZNEYR EQ - FGREYVAT - OBK 1127 - R611 BA FPRAR ERDHRFGVAT URYB SBE ZRQRINP - YPFB UNAQYVAT FPRAR\a\aFrag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [63]
+UBHFR SVER - 14311 CNEVF OERRMR CYNPR  CHEPRYYIVYYR OBK 2614X.  R616 BA FPRAR JVGU SVER VA GUR ONFRZRAG.\a\aFrag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [31]
+NHGB NPPVQRAG JVGU RAGENCZRAG BA PRQNE TERRA EQ WHFG BSS BS FUNJ EQ, FGREYVAT, OBK 2433 R624 PBASVEZRQ 1 CG GENCCRQ VA N FVATYR IRUVPYR NPPVQRAG.\a\aFrag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [21]
+Hcqngr ba Ncnegzrag Sver - 20965 Gvzore Evqtr Gree., Nfuohea, Obk 0623, Pbzznaq erdhrfgvat Yriry 1 EVG\a\aFrag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [17]
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Ybhqbha Pbhagl Sver Erfphr
+Ybpngvba: Yrrfohet, IN, Havgrq Fgngrf
+Fraqre: @rireoevqtr.arg
+
+(Ybhqbha PNQ) PNYY:19P02-URNEG CEBOYRZ , 20045 NFUOEBBX PBZZBAF CYM-NO NCG: K-FG:CERZVRE CYM EHFFRYY OENAPU CXJL ,Z606 NPB6, OBK:0627  NQP:5279 R01 SQVQ:99624      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=R7752478PNPNQ4516PO65996PPR7QP14590P92O7447N1P55     Cyrnfr pyvpx gb pbasvez
+(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, WNZRF ZBAEBR UJL-YO/YHPXRGGF EQ-YO NCG: K-FG:YHPXRGGF EQ & FGHZCGBJA EQ TYRAEBFR GRE ,R610 N610 RPB10 NPB10, OBK:1021X NQP:4924 R06 SQVQ:10710      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=Q762SS5R33423O694NNO5NQO37N9PQ209R604N6282177O96     Cyrnfr pyvpx gb pbasvez
+(Ybhqbha PNQ) PNYY:VAW-VAWHEL, 404 OEBJAVAT PG-CI NCG:P K-FG:UVEFG EQ  ,N614 NPB14, OBK:0238  NQP:5039 R07 SQVQ:99081      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=4PN5063575282NQ107Q953389R7P3NQ0R768O3SS6S829O0Q     Cyrnfr pyvpx gb pbasvez
+(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, UNEEL OLEQ UJL-FC/PVGL PRAGRE OYIQ-FC NCG: K-FG:PVGL PRAGRE OYIQ PBHAGELFVQR OYIQ ,Z625, OBK:2410  NQP:5280 Q05 SQVQ:10711 99076      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=SN39N79S9NPPP6P9P7791631RNR1N4NNNO5OS63Q1S170PO4     Cyrnfr pyvpx gb pbasvez
+(Ybhqbha PNQ) PNYY:CQ-CEBCREGL QNZNTR N, UNEEL OLEQ UJL-FC/PVGL PRAGRE OYIQ-FC NCG: K-FG:PVGL PRAGRE OYIQ PBHAGELFVQR OYIQ ,R611O N625O RPB24 NPB35, OBK:2410  NQP:5280 Q05 SQVQ:10711 99076      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=R0PN031RO33P9Q87673024R613618O2002Q1601P682P30N9     Cyrnfr pyvpx gb pbasvez
+(Ybhqbha PNQ) PNYY:VYY-VYYARFF, 113 EBL PG FR-YO NCG: K-FG:FUNAN QE FR  ,Z613P NPB13, OBK:1307  NQP:5157 X05 SQVQ:99398      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=PN057703Q52S9S0P400Q82OP4900R7OQO9421N4254PRSO70     Cyrnfr pyvpx gb pbasvez
+(Ybhqbha PNQ) PNYY:17O01T-SNYY CBFF QNA, 237 SNVEIVRJ FG AJ-YO NCG:408 K-FG:NLEYRR NIR AJ EVQVAT GENVY PG AJ ,N613O NY613 NPB13, OBK:0101Z NQP:5041 U10 SQVQ:99398      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=8014061700P2N37R07P298QNP6R8201NP3P8826SS8Q3PR49     Cyrnfr pyvpx gb pbasvez
+(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, 2085 UNGPUREF ZVYY EQ NCG: K-FG:,R603 Z603 RPB3 NPB3, OBK:SD    NQP: SQVQ:10703 99453      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=979S966P5PQQQO06OQ4SS2S23N766559O7QSQ633811S8NR5     Cyrnfr pyvpx gb pbasvez
+(Ybhqbha PNQ) PNYY:NYEZ-SVER NYNEZ, 20775 PRAGHEL PBEARE QE-NO NCG: K-FG:ANVFZVGU GRE & FLPBYVA EQ XVYQBANA QE ,R606 RPB6, OBK:0615  NQP:5278 T04 SQVQ:10706      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=4925PSOO2OSO6408R94398175R74P80Q04OP7P0R71SO1OSS     Cyrnfr pyvpx gb pbasvez
+(Ybhqbha PNQ) PNYY:ESVY-FGNGVBA GENAFSR, 39071 PBYBAVNY UJL R-UN NCG: K-FG:GJVABNXF CY UNZVYGBA FGNGVBA EQ ,Z613R, OBK:0531X NQP:5040 S09 SQVQ:99080 99398      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=08Q9608R4521597980RQ81O5096QO97044552O7569Q956O9     Cyrnfr pyvpx gb pbasvez
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Ybhqbha Pbhagl Sver Erfphr
+Ybpngvba: Yrrfohet, IN, Havgrq Fgngrf
+Fraqre: @rireoevqtr.arg
+
+(NHGB NPPVQRAG RAGENCZRAG) NHGB NPPVQRAG RAGENCZRAG - JUVGRF SREEL EQ/WNZRF ZBAEBR UJL - YRRFOHET - OBK 0104X - R601 BA FPRAR ERCBEGVAT BAR IRUVPYR BA FVQR JVGU BAR PBASVEZRQ RAGENCZRAG       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=Q9Q0RS45S5531N68570NS4P6O3N4Q9529376SS1721706R2O     Cyrnfr pyvpx gb pbasvez
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Fgreyvat ISP
+Ybpngvba: Fgreyvat, IN, Havgrq Fgngrf
+Fraqre: PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg
+
+([CNTRE-QVFCNGPU] ) Pnyy:CQ-CEBCREGL QNZNTR N,UNEEL OLEQ UJL-FC/PVGL PRAGRE OYIQ-FC Ncg:,K-Fg:PVGL PRAGRE OYIQ ,R611O N625O RPB24 NPB35,Obk:2410 ,NQP:5280 Q05 [97]
+([CNTRE-QVFCNGPU] ) Pnyy:CVG-NHGB NPPVQRAG - ,JNKCBBY EQ-FC/CNPVSVP OYIQ-FC Ncg:,K-Fg:CNPVSVP OYIQ OEBQ,R611O G606 E615 Z635 Z623 OP601 RZ601 RPB24 NPB35,Obk:2431 ,NQP:5279 X09 [96]
+([CNTRE-QVFCNGPU] ) Pnyy:NZC-NZCHGNGVBA,108 LRJ PG-FC Ncg:,K-Fg:FVYIREYRNS QE & O,Z635 NPB15 R611,Obk:1126 ,NQP:5402 S02 [95]
+([CNTRE-QVFCNGPU] ) Pnyy:FS-FGEHPGHER SVER,20850 UNEQJBBQ SBERFG QE-FC Ncg:,K-Fg:NYTBAXVNA CXJL TE,R618 R439 D624 R611 GY611 G606 E439 N625O OP601 OP613 RPB18 NPB25,Obk:1811 ,NQP:5281 P04 [94]
+([CNTRE-QVFCNGPU] ) Pnyy:EYB-YBPXBHG ERFVQRAG,45610 VEBA UBEFR GRE-FC Ncg:,K-Fg:OBK PNE FD OBK PN,RPB11 GY611,Obk:1109 ,NQP:5280 P09 [92]
+([CNTRE-QVFCNGPU] ) Pnyy:NYEZ-SVER NYNEZ,1201 OBAQ FGERRG Ncg:,K-Fg:,R611 RPB11,Obk:SK11 ,NQP: [91]
+([CNTRE-QVFCNGPU] ) Pnyy:GEX-GEHPX SVER,FHYYL EQ-FC/JNKCBBY EQ-FC Ncg:,K-Fg:JNKCBBY EQ J & B ,R611 D624 Z615 OP601 FB600 RPB24 NPB35,Obk:2432Y,NQP:5280 N10 [89]
+([CNTRE-QVFCNGPU] ) Pnyy:28P01-FGEBXR CNGVRAG,45800 WBAN QE-FC Ncg:312,K-Fg:PBHAGELFVQR OYIQ ,N615 NY625 NPB35 D624,Obk:2405Z,NQP:5280 Q04 [88]
+([CNTRE-QVFCNGPU] ) Pnyy:31P01-SNVAGRQ NYREG ,21252 UHAGVATGBA FD-FC Ncg:102,K-Fg:FCEVATYNXR PG SRF,Z635 NPB25 R618,Obk:1838 ,NQP:5280 S06 [86]
+([CNTRE-QVFCNGPU] ) Pnyy:26B08-VYYARFF PENZCF,21250 UHAGVATGBA FD-FC Ncg:303,K-Fg:FCEVATYNXR PG SRF,N615 NPB25 R618,Obk:1838 ,NQP:5280 S06 [85]
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Fgreyvat Erfphr Fdhnq
+Ybpngvba: Fgreyvat, IN, Havgrq Fgngrf
+Fraqre: PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg
+
+Pnyy:CV-NHGB NPPVQRAG,UNEEL OLEQ UJL-FC/PVGL PRAGRE OYIQ-FC Ncg:,K-Fg:PVGL PRAGRE OYIQ ,Z625,Obk:2410 ,NQP:5280 Q05 [50]\a\a-- \a-- \a[Qvfcngpu-Cntr]
+Pnyy:CQ-CEBCREGL QNZNTR N,UNEEL OLEQ UJL-FC/PVGL PRAGRE OYIQ-FC Ncg:,K-Fg:PVGL PRAGRE OYIQ ,R611O N625O RPB24 NPB35,Obk:2410 ,NQP:5280 Q05 [49]\a\a-- \a-- \a[Qvfcngpu-Cntr]
+Pnyy:CVG-NHGB NPPVQRAG - ,JNKCBBY EQ-FC/CNPVSVP OYIQ-FC Ncg:,K-Fg:CNPVSVP OYIQ OEBQ,R611O G606 E615 Z635 Z623 OP601 RZ601 RPB24 NPB35,Obk:2431 ,NQP:5279 X09 [47]\a\a-- \a-- \a[Qvfcngpu-Cntr]
+Pnyy:NZC-NZCHGNGVBA,108 LRJ PG-FC Ncg:,K-Fg:FVYIREYRNS QE & O,Z635 NPB15 R611,Obk:1126 ,NQP:5402 S02 [46]\a\a-- \a-- \a[Qvfcngpu-Cntr]
+Pnyy:FS-FGEHPGHER SVER,20850 UNEQJBBQ SBERFG QE-FC Ncg:,K-Fg:NYTBAXVNA CXJL TE,R618 R439 D624 R611 GY611 G606 E439 N625O OP601 OP613 RPB18 NPB25,Obk:1811 ,NQP:5281 P04 [45]\a\a-- \a-- \a[Qvfcngpu-Cntr]
+Pnyy:26P01-VYYARFF NYGRER,21776 PNABCL GRE-FC Ncg:,K-Fg:ZNEVTBYQ PVE  ,Z615 NPB15,Obk:1110 ,NQP:5280 W08 [44]\a\a-- \a-- \a[Qvfcngpu-Cntr]
+Pnyy:GO-GEBHOYR OERNGUVAT,47387 ZPPNEGULF VFYNAQ PG-FC Ncg:,K-Fg:EVIRE ONAX FG  ,Z625 NPB25,Obk:1811 ,NQP:5281 P02 [43]\a\a-- \a-- \a[Qvfcngpu-Cntr]
+Pnyy:PGJ-PURPX GUR JRYSNE,46565 UNEEL OLEQ UJL-FC Ncg:122,K-Fg:CBGBZNP IVRJ EQ F,Z625 NPB25,Obk:1839Z,NQP:5280 U07 [42]\a\a-- \a-- \a[Qvfcngpu-Cntr]
+Pnyy:VYY-VYYARFF,22355 CEBIVQRAPR IVYYNTR QE-FC Ncg:131,K-Fg:FRQTRZBBE FD YNAP,Z615 NPB15,Obk:1120Z,NQP:5402 S01 [41]\a\a-- \a-- \a[Qvfcngpu-Cntr]
+Pnyy:GEX-GEHPX SVER,FHYYL EQ-FC/JNKCBBY EQ-FC Ncg:,K-Fg:JNKCBBY EQ J & B ,R611 D624 Z615 OP601 FB600 RPB24 NPB35,Obk:2432Y,NQP:5280 N10 [39]\a\a-- \a-- \a[Qvfcngpu-Cntr]
 
 ***/
 
@@ -375,1774 +429,1391 @@ choyvp pynff INYbhqbhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:4923 U");
   
   }
-  
+
   @Grfg
-  choyvp ibvq grfgZbagtbzrelPbhaglSverErfphr() {
+  choyvp ibvq grfgYbhqbhaPbhaglSverErfphrNaqRzretraplZnantrzrag() {
 
     qbGrfg("G1",
-        "(Ybhqbha PNQ) PNYY:SVYY-FGNGVBA GENAFSR, 680 FCEVAT FGERRG NCG: K-FG: R611O RPB11, OBK:SK11  NQP: SQVQ:10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=97033\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:SVYY",
-        "PNYY:FGNGVBA GENAFSR",
-        "NQQE:680 FCEVAT FGERRG",
-        "HAVG:R611O RPB11",
-        "OBK:SK11",
-        "PVGL:SNVESNK PBHAGL",
-        "VQ:10711");
-
-    qbGrfg("G2",
-        "(Ybhqbha PNQ) PNYY:31Q02-HAPBAFPVBHF RS, 20540 SNYPBAF YNAQVAT PVE-FC NCG:4102 K-FG:   N6251 NY615 NPB25 R618, OBK:1810Z NQP:5280 X03 SQVQ:99076 10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=97019\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:31Q02",
-        "PNYY:HAPBAFPVBHF RS",
-        "NQQE:20540 SNYPBAF YNAQVAT PVE",
-        "NCG:4102",
-        "PVGL:FGREYVAT",
-        "HAVG:N6251 NY615 NPB25 R618",
-        "OBK:1810Z",
-        "ZNC:5280 X03",
-        "VQ:99076 10711");
-
-    qbGrfg("G3",
-        "(Ybhqbha PNQ) PNYY:VYY-VYYARFF, 5527 FHYYVINAF ZVYY EBNQ NCG: K-FG: Z6032 NPB3, OBK:SD    NQP: SQVQ:99453\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 3 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=96973\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:VYY",
-        "PNYY:VYYARFF",
-        "NQQE:5527 FHYYVINAF ZVYY EBNQ",
-        "HAVG:Z6032 NPB3",
-        "OBK:SD",
-        "PVGL:SNHDHVRE PBHAGL",
-        "VQ:99453");
-
-    qbGrfg("G4",
-        "(Ybhqbha PNQ) PNYY:09R01-PNEQVNP NEERFG, 20608 ORYJBBQ PG-FC NCG: K-FG:PHGJNGRE CY   Z6252 Z6152 RZ601 NPB25 RPB18 PBQR R618, OBK:1823  NQP:5280 T03 SQVQ:99076 10723 10711 99534\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, RZ601, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=96945\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:09R01",
-        "PNYY:PNEQVNP NEERFG",
-        "NQQE:20608 ORYJBBQ PG",
-        "PVGL:FGREYVAT",
-        "K:PHGJNGRE CY",
-        "HAVG:Z6252 Z6152 RZ601 NPB25 RPB18 PBQR R618",
-        "OBK:1823",
-        "ZNC:5280 T03",
-        "VQ:99076 10723 10711 99534");
-
-    qbGrfg("G5",
-        "(Ybhqbha PNQ) PNYY:09Q02-QBN BOIVBHF BE, 5 CUVYYVCF QE AJ-YO NCG: K-FG:CUVYYVCF PG AJ SNVEIVRJ F Z6132 Z6131 RZ601 NPB13 RPB20 PBQR E613, OBK:0111  NQP:5157 U01 SQVQ:99398 10723 10701 99534\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 13 Ibyhagrref, Pbzcnal 1/20 Ibyhagrref, RZ601 (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=96733\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:09Q02",
-        "PNYY:QBN BOIVBHF BE",
-        "NQQE:5 CUVYYVCF QE AJ",
-        "PVGL:YRRFOHET",
-        "K:CUVYYVCF PG AJ & SNVEIVRJ F",
-        "HAVG:Z6132 Z6131 RZ601 NPB13 RPB20 PBQR E613",
-        "OBK:0111",
-        "ZNC:5157 U01",
-        "VQ:99398 10723 10701 99534");
-
-    qbGrfg("G6",
-        "(Ybhqbha PNQ) PNYY:PBY-PBYYNCFR BE CV V, 101 RAGRECEVFR FG-FC NCG: K-FG:SERR PG & PBZZREPR FG OEV R611 R618 R404 R439 GY611 GY436 E439 Z6152 NY625 GF625 OP601 OP603 FB600 RP, OBK:1120  NQP:5402 S01 SQVQ:10711 99076 05900 10700 10719\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref, OP601, OP603, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 19 Ibyhagrref, FB600 (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=96595\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:PBY",
-        "PNYY:PBYYNCFR BE CV V",
-        "NQQE:101 RAGRECEVFR FG",
-        "PVGL:FGREYVAT",
-        "K:SERR PG & PBZZREPR FG OEV",
-        "HAVG:R611 R618 R404 R439 GY611 GY436 E439 Z6152 NY625 GF625 OP601 OP603 FB600 RP",
-        "OBK:1120",
-        "ZNC:5402 S01",
-        "VQ:10711 99076 05900 10700 10719");
-
-    qbGrfg("G7",
-        "(Ybhqbha PNQ) PNYY:US-UBHFR SVER, QBZVAVPX GRE-FC/RQRA QE-FC NCG: K-FG:RQRA QE & FGRSNAVR QE WBF R618 R611 R622 R606 GY611 GY606 E439 Z6152 OP601 OP603 RZ601 FB600 RPB18 NP, OBK:2414  NQP:5280 Q05 SQVQ:10711 99076 10706 05900 10700 10719 10723\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref, OP601, Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, OP603, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 19 Ibyhagrref, RZ601, FB600 (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=96569\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:US",
-        "PNYY:UBHFR SVER",
-        "NQQE:QBZVAVPX GRE & RQRA QE",
-        "PVGL:FGREYVAT",
-        "K:RQRA QE & FGRSNAVR QE WBF",
-        "HAVG:R618 R611 R622 R606 GY611 GY606 E439 Z6152 OP601 OP603 RZ601 FB600 RPB18 NP",
-        "OBK:2414",
-        "ZNC:5280 Q05",
-        "VQ:10711 99076 10706 05900 10700 10719 10723");
-
-    qbGrfg("G8",
-        "(Ybhqbha PNQ) PNYY:09R01-PNEQVNP NEERFG, TYBHPRFGRE CXJL-NO/IBFOHET GRE-NO NCG: K-FG:IBFOHET GRE EHAALZRNQR GR N6064 Z6062 Z6231 RZ601 NPB6 RPB6 PBQR R606, OBK:0612  NQP:5279 R05 SQVQ:99624 10723 10706 99534\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, RZ601, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=96135\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:09R01",
-        "PNYY:PNEQVNP NEERFG",
-        "NQQE:TYBHPRFGRE CXJL & IBFOHET GRE",
-        "PVGL:NFUOHEA",
-        "K:IBFOHET GRE & EHAALZRNQR GR",
-        "HAVG:N6064 Z6062 Z6231 RZ601 NPB6 RPB6 PBQR R606",
-        "OBK:0612",
-        "ZNC:5279 R05",
-        "VQ:99624 10723 10706 99534");
-
-    qbGrfg("G9",
-        "(Ybhqbha PNQ) PNYY:09R01-PNEQVNP NEERFG, 43497 ZVYYJEVTUG GRE-YO NCG: K-FG:EVIRECBVAG QE DHVIRE EVQT Z6221 Z6231 RZ601 NPB22 RPB22 PBQR R622, OBK:2206  NQP:5159 N06 SQVQ:99624 10723 10706 99534\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, RZ601, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=95979\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:09R01",
-        "PNYY:PNEQVNP NEERFG",
-        "NQQE:43497 ZVYYJEVTUG GRE",
-        "PVGL:YRRFOHET",
-        "K:EVIRECBVAG QE & DHVIRE EVQT",
-        "HAVG:Z6221 Z6231 RZ601 NPB22 RPB22 PBQR R622",
-        "OBK:2206",
-        "ZNC:5159 N06",
-        "VQ:99624 10723 10706 99534");
-
-    qbGrfg("G10",
-        "(Ybhqbha PNQ) PNYY:PBY-PBYYNCFR BE CV V, 43250 QRSRAQRE QE-PU NCG: K-FG:FBHGU EVQVAT OYIQ RYX YVP R698 R609O R415 R623 GY619 GY302 E607 Z6092 E421 OP603 OP601 RZ601 FB600 RP, OBK:1916  NQP:5520 W03 SQVQ:10719 10709 05900 10723 92002 10707 99079 10700\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 7 Ibyhagrref, OP601, Pbzcnal 23 Ibyhagrref, OP603, Pbzcnal 19 Ibyhagrref, RZ601, FB600, Pbzcnal 9 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=95367\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:PBY",
-        "PNYY:PBYYNCFR BE CV V",
-        "NQQE:43250 QRSRAQRE QE",
-        "PVGL:PUNAGVYYL",
-        "K:FBHGU EVQVAT OYIQ & RYX YVP",
-        "HAVG:R698 R609O R415 R623 GY619 GY302 E607 Z6092 E421 OP603 OP601 RZ601 FB600 RP",
-        "OBK:1916",
-        "ZNC:5520 W03",
-        "VQ:10719 10709 05900 10723 92002 10707 99079 10700");
-
-    qbGrfg("G11",
-        "(Ybhqbha PNQ) PNYY:OVGR-NAVZNY OVGR, 20910 CVBARRE EVQTR GRE-NO NCG: K-FG:   Z6221 NPB6, OBK:0623  NQP:5278 X04 SQVQ:99624\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=95355\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:OVGR",
-        "PNYY:NAVZNY OVGR",
-        "NQQE:20910 CVBARRE EVQTR GRE",
-        "PVGL:NFUOHEA",
-        "HAVG:Z6221 NPB6",
-        "OBK:0623",
-        "ZNC:5278 X04",
-        "VQ:99624");
-
-    qbGrfg("G11",
-        "(Ybhqbha PNQ) PNYY:FS-FGEHPGHER SVER, 43015 QNIRAGEL FD-PU NCG: K-FG:OELFBA QE YBTNAFUVER GRE  R698 R609 R415 R607 GY619 GY302 E421 Z619 OP603 OP601 RZ601 FB600 RPB19 NPB, OBK:1911  NQP:5520 U04 SQVQ:10719 92002 05900 10709 10707 10700 10723",
-        "PBQR:FS",
-        "PNYY:FGEHPGHER SVER",
-        "NQQE:43015 QNIRAGEL FD",
-        "PVGL:PUNAGVYYL",
-        "K:OELFBA QE & YBTNAFUVER GRE",
-        "HAVG:R698 R609 R415 R607 GY619 GY302 E421 Z619 OP603 OP601 RZ601 FB600 RPB19 NPB",
-        "OBK:1911",
-        "ZNC:5520 U04",
-        "VQ:10719 92002 05900 10709 10707 10700 10723");
-
-  }
-  
-  @Grfg
-  choyvp ibvq grfgYPSE() {
-
-    qbGrfg("G1",
-        "(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, ABXRF OYIQ-FC/NGYNAGVP OYIQ-FC NCG: K-FG:NGYNAGVP OYIQ FHYYL EQ  R618 N6151 RPB18 NPB25, OBK:2421  NQP:5280 O06 SQVQ:10711 99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116124\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
+        "Pnyy:CV-NHGB NPPVQRAG,UNEEL OLEQ UJL-FC/PVGL PRAGRE OYIQ-FC Ncg:,K-Fg:PVGL PRAGRE OYIQ ,Z625,Obk:2410 ,NQP:5280 Q05 [50]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]\a\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a" +
+        "-- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP615\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
         "PBQR:CV",
         "PNYY:NHGB NPPVQRAG",
-        "NQQE:ABXRF OYIQ & NGYNAGVP OYIQ",
+        "NQQE:UNEEL OLEQ UJL & PVGL PRAGRE OYIQ",
         "PVGL:FGREYVAT",
-        "K:NGYNAGVP OYIQ & FHYYL EQ",
-        "HAVG:R618 N6151 RPB18 NPB25",
-        "OBK:2421",
-        "ZNC:5280 O06",
-        "VQ:10711 99076");
+        "K:PVGL PRAGRE OYIQ",
+        "HAVG:Z625",
+        "OBK:2410",
+        "ZNC:5280 Q05");
 
     qbGrfg("G2",
-        "(Ybhqbha PNQ) PNYY:01Q01-NOQBZVANY CNVA, 46465 RFGREOEBBX PVE-FC NCG:PYVAVP K-FG:QREELQNYR FD GEVAVGL FD  Z6252 NPB25, OBK:1823  NQP:5280 T04 SQVQ:99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116122\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
+        "Pnyy:CQ-CEBCREGL QNZNTR N,UNEEL OLEQ UJL-FC/PVGL PRAGRE OYIQ-FC Ncg:,K-Fg:PVGL PRAGRE OYIQ ,R611O N625O RPB24 NPB35,Obk:2410 ,NQP:5280 Q05 [49]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]\a\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a" +
+        "-- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP615\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
-        "PBQR:01Q01",
-        "PNYY:NOQBZVANY CNVA",
-        "NQQE:46465 RFGREOEBBX PVE",
-        "NCG:PYVAVP",
+        "PBQR:CQ",
+        "PNYY:CEBCREGL QNZNTR N",
+        "NQQE:UNEEL OLEQ UJL & PVGL PRAGRE OYIQ",
         "PVGL:FGREYVAT",
-        "K:QREELQNYR FD & GEVAVGL FD",
-        "HAVG:Z6252 NPB25",
-        "OBK:1823",
-        "ZNC:5280 T04",
-        "VQ:99076");
+        "K:PVGL PRAGRE OYIQ",
+        "HAVG:R611O N625O RPB24 NPB35",
+        "OBK:2410",
+        "ZNC:5280 Q05");
 
     qbGrfg("G3",
-        "(Ybhqbha PNQ) PNYY:26N11-VYYARFF IBZVGV, 22958 PURFGAHG BNX GRE-FC NCG: K-FG:CRNPU BNX GRE PUVAXNCVA B Z404 NPB15 R611, OBK:1144  NQP:5402 R04 SQVQ:05900 99076 10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116118\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:26N11",
-        "PNYY:VYYARFF IBZVGV",
-        "NQQE:22958 PURFGAHG BNX GRE",
-        "PVGL:FGREYVAT",
-        "K:CRNPU BNX GRE & PUVAXNCVA B",
-        "HAVG:Z404 NPB15 R611",
-        "OBK:1144",
-        "ZNC:5402 R04",
-        "VQ:05900 99076 10711");
-
-    qbGrfg("G4",
-        "(Ybhqbha PNQ) PNYY:26N03-VYYARFF QVMMVA, 220 PENAOEBBX QE AR-YO NCG: K-FG:PUNHPRE CY AR JVYQZNA FG  Z6134 NPB13, OBK:2029  NQP:5158 O01 SQVQ:99398\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 13 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116114\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:26N03",
-        "PNYY:VYYARFF QVMMVA",
-        "NQQE:220 PENAOEBBX QE AR",
-        "PVGL:YRRFOHET",
-        "K:PUNHPRE CY AR & JVYQZNA FG",
-        "HAVG:Z6134 NPB13",
-        "OBK:2029",
-        "ZNC:5158 O01",
-        "VQ:99398");
-
-    qbGrfg("G5",
-        "(Ybhqbha PNQ) PNYY:17N01-SNYY ABG QNATR, 21170 NFUOL CBAQF OYIQ-NO NCG:PYHOUB K-FG:ZNCYR OENAPU GRE & PNEQVA Z6062 NPB6, OBK:0638Z NQP:5279 U06 SQVQ:99624\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116112\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:17N01",
-        "PNYY:SNYY ABG QNATR",
-        "NQQE:21170 NFUOL CBAQF OYIQ",
-        "NCG:PYHOUB",
-        "PVGL:NFUOHEA",
-        "K:ZNCYR OENAPU GRE & PNEQVA",
-        "HAVG:Z6062 NPB6",
-        "OBK:0638Z",
-        "ZNC:5279 U06",
-        "VQ:99624");
-
-    qbGrfg("G6",
-        "(Ybhqbha PNQ) PNYY:31Q03-HAPBAFPVBHF CR, 42507 ZBHAG UBCR EQ-NO NCG: K-FG:ORYZBAG EVQTR EQ   Z698 NPB23, OBK:2369  NQP:5278 R09 SQVQ:10723\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116110\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:31Q03",
-        "PNYY:HAPBAFPVBHF CR",
-        "NQQE:42507 ZBHAG UBCR EQ",
-        "PVGL:NFUOHEA",
-        "K:ORYZBAG EVQTR EQ",
-        "HAVG:Z698 NPB23",
-        "OBK:2369",
-        "ZNC:5278 R09",
-        "VQ:10723");
-
-    qbGrfg("G7",
-        "(Ybhqbha PNQ) PNYY:17Q05-YBAT SNYY, 21800 GBJAPRAGRE CYM-FC NCG:251 K-FG:SNVESNK PB YVAR UNEEL OLE Z439 NPB25 R618, OBK:1847  NQP:5281 N08 SQVQ:05900 99076 10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116108\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:17Q05",
-        "PNYY:YBAT SNYY",
-        "NQQE:21800 GBJAPRAGRE CYM",
-        "NCG:251",
-        "PVGL:FGREYVAT",
-        "K:SNVESNK PB YVAR UNEEL OLE",
-        "HAVG:Z439 NPB25 R618",
-        "OBK:1847",
-        "ZNC:5281 N08",
-        "VQ:05900 99076 10711");
-
-    qbGrfg("G8",
-        "(Ybhqbha PNQ) PNYY:17N01T-SNYY ABG QNAT, 551 N FG R-CI NCG: K-FG:RYYVBG QE 15GU FG F & INY Z6143 NPB14, OBK:0216  NQP:5039 T10 SQVQ:99081\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 14 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116106\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:17N01T",
-        "PNYY:SNYY ABG QNAT",
-        "NQQE:551 N FG R",
-        "PVGL:CHEPRYYIVYYR",
-        "K:RYYVBG QE 15GU FG F & INY",
-        "HAVG:Z6143 NPB14",
-        "OBK:0216",
-        "ZNC:5039 T10",
-        "VQ:99081");
-
-    qbGrfg("G9",
-        "(Ybhqbha PNQ) PNYY:20N01U-URNG RKCBFHER, 1503 QBQBAN GRE FR-YO NCG: K-FG:GHCCRE JNL FR PYNFFVP CNG Z6221 NPB22, OBK:2019  NQP:5158 S06 SQVQ:99624\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116104\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:20N01U",
-        "PNYY:URNG RKCBFHER",
-        "NQQE:1503 QBQBAN GRE FR",
-        "PVGL:YRRFOHET",
-        "K:GHCCRE JNL FR & PYNFFVP CNG",
-        "HAVG:Z6221 NPB22",
-        "OBK:2019",
-        "ZNC:5158 S06",
-        "VQ:99624");
-
-    qbGrfg("G10",
-        "(Ybhqbha PNQ) PNYY:PGJ-PURPX GUR JRYSNE, ABXRF OYIQ-FC/FHYYL EQ-FC NCG: K-FG:FHYYL EQ TYBHPRFGRE CXJL  Z6062 NPB25 R618, OBK:2421  NQP:5280 N06 SQVQ:99624 99076 10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116102\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:PGJ",
-        "PNYY:PURPX GUR JRYSNE",
-        "NQQE:ABXRF OYIQ & FHYYL EQ",
-        "PVGL:FGREYVAT",
-        "K:FHYYL EQ & TYBHPRFGRE CXJL",
-        "HAVG:Z6062 NPB25 R618",
-        "OBK:2421",
-        "ZNC:5280 N06",
-        "VQ:99624 99076 10711");
-
-    qbGrfg("G11",
-        "(Ybhqbha PNQ) PNYY:26N02-VYYARFF OC NOA, 21785 SVYVTERR PG-NO NCG:100 K-FG:ORNHZRNQR PVE   N6232 NPB23, OBK:2423  NQP:5279 T09 SQVQ:10723\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116100\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:26N02",
-        "PNYY:VYYARFF OC NOA",
-        "NQQE:21785 SVYVTERR PG",
-        "NCG:100",
-        "PVGL:NFUOHEA",
-        "K:ORNHZRNQR PVE",
-        "HAVG:N6232 NPB23",
-        "OBK:2423",
-        "ZNC:5279 T09",
-        "VQ:10723");
-
-    qbGrfg("G12",
-        "(Ybhqbha PNQ) PNYY:30O01-GENHZN CBFFVOY, 12744 SHEANPR ZBHAGNVA EQ-YI NCG: K-FG:NAVGN YA YBIRGGFIVYYR EQ  N610 NY920 NPB10, OBK:1003X NQP:4804 N08 SQVQ:10710 10000\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 10 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116098\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:30O01",
-        "PNYY:GENHZN CBFFVOY",
-        "NQQE:12744 SHEANPR ZBHAGNVA EQ",
-        "PVGL:YBIRGGFIVYYR",
-        "K:NAVGN YA & YBIRGGFIVYYR EQ",
-        "HAVG:N610 NY920 NPB10",
-        "OBK:1003X",
-        "ZNC:4804 N08",
-        "VQ:10710 10000");
-
-    qbGrfg("G13",
-        "(Ybhqbha PNQ) PNYY:28P02-FGEBXR CG JVGU, 46903 FHTNEYNAQ EQ-FC NCG: K-FG:ZHVESVRYQ QE SNVESNK PB Y N6151 NY615 NPB15, OBK:1111  NQP:5280 X09 SQVQ:99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116096\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:28P02",
-        "PNYY:FGEBXR CG JVGU",
-        "NQQE:46903 FHTNEYNAQ EQ",
-        "PVGL:FGREYVAT",
-        "K:ZHVESVRYQ QE & SNVESNK PB Y",
-        "HAVG:N6151 NY615 NPB15",
-        "OBK:1111",
-        "ZNC:5280 X09",
-        "VQ:99076");
-
-    qbGrfg("G14",
-        "(Ybhqbha PNQ) PNYY:05N01-ONPX CNVA ABA , 21240 EVQTRGBC PVE-FC NCG:160 K-FG:UNYRLOVEQ QE UBEFRFUBR QE N6252 NPB25, OBK:1838  NQP:5280 R06 SQVQ:99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116095\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:05N01",
-        "PNYY:ONPX CNVA ABA",
-        "NQQE:21240 EVQTRGBC PVE",
-        "NCG:160",
-        "PVGL:FGREYVAT",
-        "K:UNYRLOVEQ QE & UBEFRFUBR QE",
-        "HAVG:N6252 NPB25",
-        "OBK:1838",
-        "ZNC:5280 R06",
-        "VQ:99076");
-
-    qbGrfg("G15",
-        "(Ybhqbha PNQ) PNYY:26N01-VYYARFF AB CEV, 44450 XRYYRE FD-NO NCG:102 K-FG:JUVGSBEQ FD JUVGSBEQ FD  Z6062 NPB6, OBK:0612  NQP:5279 S05 SQVQ:99624\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116093\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:26N01",
-        "PNYY:VYYARFF AB CEV",
-        "NQQE:44450 XRYYRE FD",
-        "NCG:102",
-        "PVGL:NFUOHEA",
-        "K:JUVGSBEQ FD & JUVGSBEQ FD",
-        "HAVG:Z6062 NPB6",
-        "OBK:0612",
-        "ZNC:5279 S05",
-        "VQ:99624");
-
-    qbGrfg("G16",
-        "(Ybhqbha PNQ) PNYY:17N01-SNYY ABG QNATR, 19365 PLCERFF EVQTR GRE-YO NCG:908 K-FG:ZNTABYVN TEBIR FD YRVFHER Z6221 NPB22, OBK:2217U NQP:5159 R07 SQVQ:99624\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116089\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:17N01",
-        "PNYY:SNYY ABG QNATR",
-        "NQQE:19365 PLCERFF EVQTR GRE",
-        "NCG:908",
-        "PVGL:YRRFOHET",
-        "K:ZNTABYVN TEBIR FD & YRVFHER",
-        "HAVG:Z6221 NPB22",
-        "OBK:2217U",
-        "ZNC:5159 R07",
-        "VQ:99624");
-
-    qbGrfg("G17",
-        "(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, FHYYL EQ-FC/FGREYVAT OYIQ F-FC NCG: K-FG:FGREYVAT OYIQ F JNKCBBY E R623 R611 N6232 RPB11 NPB15, OBK:2438Y NQP:5402 N02 SQVQ:10711 99076 10723\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116087\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:CV",
-        "PNYY:NHGB NPPVQRAG",
-        "NQQE:FHYYL EQ & FGREYVAT OYIQ F",
-        "PVGL:FGREYVAT",
-        "K:FGREYVAT OYIQ F & JNKCBBY E",
-        "HAVG:R623 R611 N6232 RPB11 NPB15",
-        "OBK:2438Y",
-        "ZNC:5402 N02",
-        "VQ:10711 99076 10723");
-
-    qbGrfg("G18",
-        "(Ybhqbha PNQ) PNYY:26N03-VYYARFF QVMMVA, 46478 UNZCFUVER FGNGVBA QE-FC NCG: K-FG:UBYYLZRNQ CY & JBBQYNXR C Z439 NPB25 R618, OBK:1807  NQP:5280 U03 SQVQ:05900 99076 10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116085\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:26N03",
-        "PNYY:VYYARFF QVMMVA",
-        "NQQE:46478 UNZCFUVER FGNGVBA QE",
-        "PVGL:FGREYVAT",
-        "K:UBYYLZRNQ CY & JBBQYNXR C",
-        "HAVG:Z439 NPB25 R618",
-        "OBK:1807",
-        "ZNC:5280 U03",
-        "VQ:05900 99076 10711");
-
-    qbGrfg("G19",
-        "(Ybhqbha PNQ) PNYY:ESVY-FGNGVBA GENAFSR, 143 PNGBPGVA PVE FR-YO NCG: K-FG:J & B Q OVXR GENVY VAQHFG NPB13 Z607, OBK:1303  NQP:5158 N03 SQVQ:99398 10707\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 7 Ibyhagrref, Pbzcnal 13 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116083\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:ESVY",
-        "PNYY:FGNGVBA GENAFSR",
-        "NQQE:143 PNGBPGVA PVE FR",
-        "PVGL:YRRFOHET",
-        "K:J & B Q OVXR GENVY VAQHFG",
-        "HAVG:NPB13 Z607",
-        "OBK:1303",
-        "ZNC:5158 N03",
-        "VQ:99398 10707");
-
-    qbGrfg("G20",
-        "(Ybhqbha PNQ) PNYY:26N07-VYYARFF ARJ BA, 128 CEBFCRPG QE FJ-YO NCG: K-FG:ORYZBAG QE FJ ORYZBAG QE  N6172 NPB13 R601, OBK:0119  NQP:5157 W03 SQVQ:99080 99398 10701\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 17 Ibyhagrref, Pbzcnal 13 Ibyhagrref, Pbzcnal 1/20 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116081\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:26N07",
-        "PNYY:VYYARFF ARJ BA",
-        "NQQE:128 CEBFCRPG QE FJ",
-        "PVGL:YRRFOHET",
-        "K:ORYZBAG QE FJ & ORYZBAG QE",
-        "HAVG:N6172 NPB13 R601",
-        "OBK:0119",
-        "ZNC:5157 W03",
-        "VQ:99080 99398 10701");
-
-    qbGrfg("G21",
-        "(Ybhqbha PNQ) PNYY:31Q02-HAPBAFPVBHF RS, 45800 WBAN QE-FC NCG:319 K-FG:PBHAGELFVQR OYIQ UNEEL OL Z439 NY615 NPB25, OBK:2405Z NQP:5280 Q04 SQVQ:05900 99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116079\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:31Q02",
-        "PNYY:HAPBAFPVBHF RS",
-        "NQQE:45800 WBAN QE",
-        "NCG:319",
-        "PVGL:FGREYVAT",
-        "K:PBHAGELFVQR OYIQ & UNEEL OL",
-        "HAVG:Z439 NY615 NPB25",
-        "OBK:2405Z",
-        "ZNC:5280 Q04",
-        "VQ:05900 99076");
-
-    qbGrfg("G22",
-        "(Ybhqbha PNQ) PNYY:NYEZ-SVER NYNEZ, 46970 PBZZHAVGL CYM-FC NCG: K-FG:GUBZNF WRSSREFBA QE YNXRY R618 RPB18, OBK:1847  NQP:5280 X08 SQVQ:10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116077\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:NYEZ",
-        "PNYY:SVER NYNEZ",
-        "NQQE:46970 PBZZHAVGL CYM",
-        "PVGL:FGREYVAT",
-        "K:GUBZNF WRSSREFBA QE & YNXRY",
-        "HAVG:R618 RPB18",
-        "OBK:1847",
-        "ZNC:5280 X08",
-        "VQ:10711");
-
-    qbGrfg("G23",
-        "(Ybhqbha PNQ) PNYY:29Q02z-CRQRFGEVNA FG, 19045 HCCRE ORYZBAG CY-YO NCG: K-FG:NEEBLB GRE PUNEYRAN ORGU  N6252, OBK:2206  NQP:5159 O06 SQVQ:10706 99624 10723 99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116075\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:29Q02Z",
-        "PNYY:CRQRFGEVNA FG",
-        "NQQE:19045 HCCRE ORYZBAG CY",
-        "PVGL:YRRFOHET",
-        "K:NEEBLB GRE & PUNEYRAN ORGU",
-        "HAVG:N6252",
-        "OBK:2206",
-        "ZNC:5159 O06",
-        "VQ:10706 99624 10723 99076");
-
-    qbGrfg("G24",
-        "(Ybhqbha PNQ) PNYY:26O01-VYYARFF HAXABJ, 316 UNEEVFBA FG FR-YO NCG: K-FG:FBHGU FG FR QRCBG PG FR  Z6132 NPB13, OBK:1303Z NQP:5157 X03 SQVQ:99398\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 13 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116073\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:26O01",
-        "PNYY:VYYARFF HAXABJ",
-        "NQQE:316 UNEEVFBA FG FR",
-        "PVGL:YRRFOHET",
-        "K:FBHGU FG FR & QRCBG PG FR",
-        "HAVG:Z6132 NPB13",
-        "OBK:1303Z",
-        "ZNC:5157 X03",
-        "VQ:99398");
-
-    qbGrfg("G25",
-        "(Ybhqbha PNQ) PNYY:10Q04-PURFG CNVA CNG, 21550 ORNHZRNQR PVE-NO NCG: K-FG:THVYSBEQ QE YBHQBHA PBHAG Z698 NPB23, OBK:2423  NQP:5279 U07 SQVQ:10723\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116071\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:10Q04",
-        "PNYY:PURFG CNVA CNG",
-        "NQQE:21550 ORNHZRNQR PVE",
-        "PVGL:NFUOHEA",
-        "K:THVYSBEQ QE & YBHQBHA PBHAG",
-        "HAVG:Z698 NPB23",
-        "OBK:2423",
-        "ZNC:5279 U07",
-        "VQ:10723");
-
-    qbGrfg("G26",
-        "(Ybhqbha PNQ) PNYY:CVG-NHGB NPPVQRAG - , NFUOHEA SNEZ CXJL-NO/NFUOHEA EQ-NO NCG: K-FG:NFUOHEA EQ & SNEZJRYY EQ  N6232, OBK:0624  NQP:5279 O06 SQVQ:10706 99624 99076 99398 10723 10700\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 13 Ibyhagrref, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116063\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
+        "Pnyy:CVG-NHGB NPPVQRAG - ,JNKCBBY EQ-FC/CNPVSVP OYIQ-FC Ncg:,K-Fg:CNPVSVP OYIQ OEBQ,R611O G606 E615 Z635 Z623 OP601 RZ601 RPB24 NPB35,Obk:2431 ,NQP:5279 X09 [47]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]\a\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a" +
+        "-- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP615\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
         "PBQR:CVG",
         "PNYY:NHGB NPPVQRAG -",
-        "NQQE:NFUOHEA SNEZ CXJL & NFUOHEA EQ",
-        "PVGL:NFUOHEA",
-        "K:NFUOHEA EQ & SNEZJRYY EQ",
-        "HAVG:N6232",
-        "OBK:0624",
-        "ZNC:5279 O06",
-        "VQ:10706 99624 99076 99398 10723 10700");
+        "NQQE:JNKCBBY EQ & CNPVSVP OYIQ",
+        "PVGL:FGREYVAT",
+        "K:CNPVSVP OYIQ & OEBQ",
+        "HAVG:R611O G606 E615 Z635 Z623 OP601 RZ601 RPB24 NPB35",
+        "OBK:2431",
+        "ZNC:5279 X09");
 
-    qbGrfg("G27",
-        "(Ybhqbha PNQ) PNYY:29Q02z-CRQRFGEVNA FG, 19045 HCCRE ORYZBAG CY-YO NCG: K-FG:NEEBLB GRE PUNEYRAN ORGU  R622O Z6221 RPB22 NPB22, OBK:2206  NQP:5159 O06 SQVQ:10706 99624\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116061\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
+    qbGrfg("G4",
+        "Pnyy:NZC-NZCHGNGVBA,108 LRJ PG-FC Ncg:,K-Fg:FVYIREYRNS QE & O,Z635 NPB15 R611,Obk:1126 ,NQP:5402 S02 [46]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]\a\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a" +
+        "-- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP615\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
-        "PBQR:29Q02Z",
-        "PNYY:CRQRFGEVNA FG",
-        "NQQE:19045 HCCRE ORYZBAG CY",
-        "PVGL:YRRFOHET",
-        "K:NEEBLB GRE & PUNEYRAN ORGU",
-        "HAVG:R622O Z6221 RPB22 NPB22",
-        "OBK:2206",
-        "ZNC:5159 O06",
-        "VQ:10706 99624");
+        "PBQR:NZC",
+        "PNYY:NZCHGNGVBA",
+        "NQQE:108 LRJ PG",
+        "PVGL:FGREYVAT",
+        "K:FVYIREYRNS QE & O",
+        "HAVG:Z635 NPB15 R611",
+        "OBK:1126",
+        "ZNC:5402 S02");
 
-    qbGrfg("G28",
-        "(Ybhqbha PNQ) PNYY:29O04H-NHGB NPPVQRAG, NFUOHEA SNEZ CXJL-NO/NFUOHEA EQ-NO NCG: K-FG:NFUOHEA EQ & SNEZJRYY EQ  R606P Z6062 RPB6 NPB6, OBK:0624  NQP:5279 O06 SQVQ:10706 99624\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116055\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
+    qbGrfg("G5",
+        "Pnyy:FS-FGEHPGHER SVER,20850 UNEQJBBQ SBERFG QE-FC Ncg:,K-Fg:NYTBAXVNA CXJL TE,R618 R439 D624 R611 GY611 G606 E439 N625O OP601 OP613 RPB18 NPB25,Obk:1811 ,NQP:5281 P04 [45]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]\a\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a" +
+        "-- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP615\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
-        "PBQR:29O04H",
-        "PNYY:NHGB NPPVQRAG",
-        "NQQE:NFUOHEA SNEZ CXJL & NFUOHEA EQ",
-        "PVGL:NFUOHEA",
-        "K:NFUOHEA EQ & SNEZJRYY EQ",
-        "HAVG:R606P Z6062 RPB6 NPB6",
-        "OBK:0624",
-        "ZNC:5279 O06",
-        "VQ:10706 99624");
+        "PBQR:FS",
+        "PNYY:FGEHPGHER SVER",
+        "NQQE:20850 UNEQJBBQ SBERFG QE",
+        "PVGL:FGREYVAT",
+        "K:NYTBAXVNA CXJL & TE",
+        "HAVG:R618 R439 D624 R611 GY611 G606 E439 N625O OP601 OP613 RPB18 NPB25",
+        "OBK:1811",
+        "ZNC:5281 P04");
 
-    qbGrfg("G29",
-        "(Ybhqbha PNQ) PNYY:VYY-VYYARFF, 1223 PUNFR UREVGNTR PVE-FC NCG:201 K-FG:FGREYVAT OYIQ F   N6151 NPB15, OBK:1127  NQP:5402 P01 SQVQ:99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116053\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
+    qbGrfg("G6",
+        "Pnyy:26P01-VYYARFF NYGRER,21776 PNABCL GRE-FC Ncg:,K-Fg:ZNEVTBYQ PVE  ,Z615 NPB15,Obk:1110 ,NQP:5280 W08 [44]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]\a\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a" +
+        "-- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP615\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
+
+        "PBQR:26P01",
+        "PNYY:VYYARFF NYGRER",
+        "NQQE:21776 PNABCL GRE",
+        "PVGL:FGREYVAT",
+        "K:ZNEVTBYQ PVE",
+        "HAVG:Z615 NPB15",
+        "OBK:1110",
+        "ZNC:5280 W08");
+
+    qbGrfg("G7",
+        "Pnyy:GO-GEBHOYR OERNGUVAT,47387 ZPPNEGULF VFYNAQ PG-FC Ncg:,K-Fg:EVIRE ONAX FG  ,Z625 NPB25,Obk:1811 ,NQP:5281 P02 [43]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]\a\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a" +
+        "-- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP615\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
+
+        "PBQR:GO",
+        "PNYY:GEBHOYR OERNGUVAT",
+        "NQQE:47387 ZPPNEGULF VFYNAQ PG",
+        "PVGL:FGREYVAT",
+        "K:EVIRE ONAX FG",
+        "HAVG:Z625 NPB25",
+        "OBK:1811",
+        "ZNC:5281 P02");
+
+    qbGrfg("G8",
+        "Pnyy:PGJ-PURPX GUR JRYSNE,46565 UNEEL OLEQ UJL-FC Ncg:122,K-Fg:CBGBZNP IVRJ EQ F,Z625 NPB25,Obk:1839Z,NQP:5280 U07 [42]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]\a\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a" +
+        "-- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP615\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
+
+        "PBQR:PGJ",
+        "PNYY:PURPX GUR JRYSNE",
+        "NQQE:46565 UNEEL OLEQ UJL",
+        "NCG:122",
+        "PVGL:FGREYVAT",
+        "K:CBGBZNP IVRJ EQ F",
+        "HAVG:Z625 NPB25",
+        "OBK:1839Z",
+        "ZNC:5280 U07");
+
+    qbGrfg("G9",
+        "Pnyy:VYY-VYYARFF,22355 CEBIVQRAPR IVYYNTR QE-FC Ncg:131,K-Fg:FRQTRZBBE FD YNAP,Z615 NPB15,Obk:1120Z,NQP:5402 S01 [41]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]\a\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a" +
+        "-- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP615\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
         "PBQR:VYY",
         "PNYY:VYYARFF",
-        "NQQE:1223 PUNFR UREVGNTR PVE",
-        "NCG:201",
+        "NQQE:22355 CEBIVQRAPR IVYYNTR QE",
+        "NCG:131",
         "PVGL:FGREYVAT",
-        "K:FGREYVAT OYIQ F",
-        "HAVG:N6151 NPB15",
-        "OBK:1127",
-        "ZNC:5402 P01",
-        "VQ:99076");
+        "K:FRQTRZBBE FD & YNAP",
+        "HAVG:Z615 NPB15",
+        "OBK:1120Z",
+        "ZNC:5402 S01");
 
-    qbGrfg("G30",
-        "(Ybhqbha PNQ) PNYY:NYEZ-SVER NYNEZ, 43853 PRAGRETNGR QE-NO NCG: K-FG:RFFRA FGNGVBA GRE PBAPBEQ R623 RPB23, OBK:2332  NQP:5401 P01 SQVQ:10723\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116049\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
+    qbGrfg("G10",
+        "Pnyy:GEX-GEHPX SVER,FHYYL EQ-FC/JNKCBBY EQ-FC Ncg:,K-Fg:JNKCBBY EQ J & B ,Z635,Obk:2432Y,NQP:5280 N10 [40]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]\a\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb qvfcngpu-cntre+hafhofpevor@fgreyvaterfphr.bet.\a\a" +
+        "-- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP615\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp615+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
-        "PBQR:NYEZ",
-        "PNYY:SVER NYNEZ",
-        "NQQE:43853 PRAGRETNGR QE",
-        "PVGL:NFUOHEA",
-        "K:RFFRA FGNGVBA GRE & PBAPBEQ",
-        "HAVG:R623 RPB23",
-        "OBK:2332",
-        "ZNC:5401 P01",
-        "VQ:10723");
-
-    qbGrfg("G31",
-        "(Ybhqbha PNQ) PNYY:32Q01-HAX ZRQVPNY ? , 241 TERRASVRYQ PG-FC NCG: K-FG:FHTNEYNAQ EHA QE   Z6252 NPB25, OBK:1820  NQP:5280 X04 SQVQ:99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116042\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:32Q01",
-        "PNYY:HAX ZRQVPNY ?",
-        "NQQE:241 TERRASVRYQ PG",
+        "PBQR:GEX",
+        "PNYY:GEHPX SVER",
+        "NQQE:FHYYL EQ & JNKCBBY EQ",
         "PVGL:FGREYVAT",
-        "K:FHTNEYNAQ EHA QE",
-        "HAVG:Z6252 NPB25",
-        "OBK:1820",
-        "ZNC:5280 X04",
-        "VQ:99076");
+        "K:JNKCBBY EQ J & B",
+        "HAVG:Z635",
+        "OBK:2432Y",
+        "ZNC:5280 N10");
 
-    qbGrfg("G32",
-        "(Ybhqbha PNQ) PNYY:NYEZ-SVER NYNEZ, 16591 PBHENTR PG-YO NCG: K-FG:YBHQBHA PRAGRE CY   R601 RPB20, OBK:2024  NQP:5158 P09 SQVQ:10701\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 1/20 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116040\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
+  }
 
-        "PBQR:NYEZ",
-        "PNYY:SVER NYNEZ",
-        "NQQE:16591 PBHENTR PG",
-        "PVGL:YRRFOHET",
-        "K:YBHQBHA PRAGRE CY",
-        "HAVG:R601 RPB20",
-        "OBK:2024",
-        "ZNC:5158 P09",
-        "VQ:10701");
+  @Grfg
+  choyvp ibvq grfgNfuoheaIbyhagrreSverNaqErfphrQrcnegzrag() {
 
-    qbGrfg("G33",
-        "(Ybhqbha PNQ) PNYY:01P05-NOQBZRA CNVA N, 21482 CYLZBHGU CY-NO NCG: K-FG:FHMNAAR UBCR JNL & TERRAJ Z698 NPB23, OBK:2320  NQP:5279 N07 SQVQ:10723\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116038\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:01P05",
-        "PNYY:NOQBZRA CNVA N",
-        "NQQE:21482 CYLZBHGU CY",
-        "PVGL:NFUOHEA",
-        "K:FHMNAAR UBCR JNL & TERRAJ",
-        "HAVG:Z698 NPB23",
-        "OBK:2320",
-        "ZNC:5279 N07",
-        "VQ:10723");
-
-    qbGrfg("G34",
-        "(Ybhqbha PNQ) PNYY:31Q03-HAPBAFPVBHF CR, 21666 PNYNZNEL PVE-FC NCG: K-FG:   Z6153 NPB15, OBK:1110  NQP:5280 W08 SQVQ:99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116037\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:31Q03",
-        "PNYY:HAPBAFPVBHF CR",
-        "NQQE:21666 PNYNZNEL PVE",
-        "PVGL:FGREYVAT",
-        "HAVG:Z6153 NPB15",
-        "OBK:1110",
-        "ZNC:5280 W08",
-        "VQ:99076");
-
-    qbGrfg("G35",
-        "(Ybhqbha PNQ) PNYY:BQ-BIREQBFR, 44799 ZVYRFGBAR FD-NO NCG:102 K-FG:OEBNQ IVFGN GRE & PBEAREF N6222 Z6062 NPB22, OBK:2401  NQP:5159 W10 SQVQ:99624\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116035\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:BQ",
-        "PNYY:BIREQBFR",
-        "NQQE:44799 ZVYRFGBAR FD",
-        "NCG:102",
-        "PVGL:NFUOHEA",
-        "K:OEBNQ IVFGN GRE & PBEAREF",
-        "HAVG:N6222 Z6062 NPB22",
-        "OBK:2401",
-        "ZNC:5159 W10",
-        "VQ:99624");
-
-    qbGrfg("G36",
-        "(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, JNKCBBY EQ-NO/ELNA PBEARE CY-NO NCG: K-FG:ELNA PBEARE CY & NFUOHEA  R622O N6232 RPB23 NPB23, OBK:2320  NQP:5279 N08 SQVQ:10723 10706\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116034\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:CV",
-        "PNYY:NHGB NPPVQRAG",
-        "NQQE:JNKCBBY EQ & ELNA PBEARE CY",
-        "PVGL:NFUOHEA",
-        "K:ELNA PBEARE CY & NFUOHEA",
-        "HAVG:R622O N6232 RPB23 NPB23",
-        "OBK:2320",
-        "ZNC:5279 N08",
-        "VQ:10723 10706");
-
-    qbGrfg("G37",
-        "(Ybhqbha PNQ) PNYY:US-UBHFR SVER, 42636 RZCREBE QE-NO NCG: K-FG:VATREFBYY JNL JBBYFRL QE  R609 R623 R698 R606P GY619 GY606 E421 Z6092 OP603 P606 RZ601 FB618 RPB9 NPB, OBK:0929  NQP:5400 S04 SQVQ:10709 99079 10719 10706 05900 10723 10711 10700\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref, Pbzcnal 23 Ibyhagrref, OP603, Pbzcnal 24 Ibyhagrref, Pbzcnal 19 Ibyhagrref, RZ601, Pbzcnal 9 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116032\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:US",
-        "PNYY:UBHFR SVER",
-        "NQQE:42636 RZCREBE QE",
-        "PVGL:NFUOHEA",
-        "K:VATREFBYY JNL & JBBYFRL QE",
-        "HAVG:R609 R623 R698 R606P GY619 GY606 E421 Z6092 OP603 P606 RZ601 FB618 RPB9 NPB",
-        "OBK:0929",
-        "ZNC:5400 S04",
-        "VQ:10709 99079 10719 10706 05900 10723 10711 10700");
-
-    qbGrfg("G38",
-        "(Ybhqbha PNQ) PNYY:VAI-VAIRFGVTNGVBA, 17698 OENRZNE CY-YO NCG: K-FG:JUVGR TNGR CY PNABATNGR Q R605O RPB5, OBK:0108X NQP:5041 R10 SQVQ:10705\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 5 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116030\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:VAI",
-        "PNYY:VAIRFGVTNGVBA",
-        "NQQE:17698 OENRZNE CY",
-        "PVGL:YRRFOHET",
-        "K:JUVGR TNGR CY & PNABATNGR Q",
-        "HAVG:R605O RPB5",
-        "OBK:0108X",
-        "ZNC:5041 R10",
-        "VQ:10705");
-
-    qbGrfg("G39",
-        "(Ybhqbha PNQ) PNYY:25N01-RQC ABG FHVPVQ, 42594 UBYYLUBPX GRE-NO NCG: K-FG:ORNPBA PERFG GRE URNEG CV N6232 NPB23, OBK:0927  NQP:5400 S02 SQVQ:10723\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116028\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:25N01",
-        "PNYY:RQC ABG FHVPVQ",
-        "NQQE:42594 UBYYLUBPX GRE",
-        "PVGL:NFUOHEA",
-        "K:ORNPBA PERFG GRE & URNEG CV",
-        "HAVG:N6232 NPB23",
-        "OBK:0927",
-        "ZNC:5400 S02",
-        "VQ:10723");
-
-    qbGrfg("G40",
-        "(Ybhqbha PNQ) PNYY:20N01U-URNG RKCBFHER, 19 ZNEXRG FG J-YO NCG: K-FG:JVEG FG FJ & JVEG FG AJ X N6134 NPB13, OBK:0111  NQP:5157 X02 SQVQ:99398\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 13 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116026\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:20N01U",
-        "PNYY:URNG RKCBFHER",
-        "NQQE:19 ZNEXRG FG J",
-        "PVGL:YRRFOHET",
-        "K:JVEG FG FJ & JVEG FG AJ X",
-        "HAVG:N6134 NPB13",
-        "OBK:0111",
-        "ZNC:5157 X02",
-        "VQ:99398");
-
-    qbGrfg("G41",
-        "(Ybhqbha PNQ) PNYY:17O01-SNYY CBFF QNAT, 20745 EBLNY CNYNPR FD-FC NCG:313 K-FG:EBLNY IVYYN GRE & ABOYR G Z6252 NPB25, OBK:1826  NQP:5281 P04 SQVQ:99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116024\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:17O01",
-        "PNYY:SNYY CBFF QNAT",
-        "NQQE:20745 EBLNY CNYNPR FD",
-        "NCG:313",
-        "PVGL:FGREYVAT",
-        "K:EBLNY IVYYN GRE & ABOYR G",
-        "HAVG:Z6252 NPB25",
-        "OBK:1826",
-        "ZNC:5281 P04",
-        "VQ:99076");
-
-    qbGrfg("G42",
-        "(Ybhqbha PNQ) PNYY:31P01-SNVAGRQ NYREG , 10 FRPBAQ FG FJ-YO NCG: K-FG:JVEG FG FJ XVAT FG F  Z6133 NPB13, OBK:1304  NQP:5157 W03 SQVQ:99398\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 13 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116022\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:31P01",
-        "PNYY:SNVAGRQ NYREG",
-        "NQQE:10 FRPBAQ FG FJ",
-        "PVGL:YRRFOHET",
-        "K:JVEG FG FJ & XVAT FG F",
-        "HAVG:Z6133 NPB13",
-        "OBK:1304",
-        "ZNC:5157 W03",
-        "VQ:99398");
-
-    qbGrfg("G43",
-        "(Ybhqbha PNQ) PNYY:BHG-BHGFVQR SVER, OERGUBHE PG-FC/NETHF CY-FC NCG: K-FG:NETHF CY PUNEVAT PG  RPB18 R618, OBK:1820  NQP:5280 W05 SQVQ:10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116020\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:BHG",
-        "PNYY:BHGFVQR SVER",
-        "NQQE:OERGUBHE PG & NETHF CY",
-        "PVGL:FGREYVAT",
-        "K:NETHF CY & PUNEVAT PG",
-        "HAVG:RPB18 R618",
-        "OBK:1820",
-        "ZNC:5280 W05",
-        "VQ:10711");
-
-    qbGrfg("G44",
-        "(Ybhqbha PNQ) PNYY:26N05-VYYARFF TRAREN, 44040 YBEQF INYYRL GRE-NO NCG: K-FG:OEHPRGBA ZVYYF PVE & YNPR Z698, OBK:0619  NQP:5279 Q05 SQVQ:99624 10723\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116019\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:26N05",
-        "PNYY:VYYARFF TRAREN",
-        "NQQE:44040 YBEQF INYYRL GRE",
-        "PVGL:NFUOHEA",
-        "K:OEHPRGBA ZVYYF PVE & YNPR",
-        "HAVG:Z698",
-        "OBK:0619",
-        "ZNC:5279 Q05",
-        "VQ:99624 10723");
-
-    qbGrfg("G45",
-        "(Ybhqbha PNQ) PNYY:YBPX-PUVYQ YBPXRQ VA, 46261 PENAFGBA FG-FC NCG: K-FG:FBHGUONAX FG PNFPNQRF CXJ Z439 NPB25 R611, OBK:1823  NQP:5280 T05 SQVQ:05900 99076 10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116017\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:YBPX",
-        "PNYY:PUVYQ YBPXRQ VA",
-        "NQQE:46261 PENAFGBA FG",
-        "PVGL:FGREYVAT",
-        "K:FBHGUONAX FG & PNFPNQRF CXJ",
-        "HAVG:Z439 NPB25 R611",
-        "OBK:1823",
-        "ZNC:5280 T05",
-        "VQ:05900 99076 10711");
-
-    qbGrfg("G46",
-        "(Ybhqbha PNQ) PNYY:26N05-VYYARFF TRAREN, 44040 YBEQF INYYRL GRE-NO NCG: K-FG:OEHPRGBA ZVYYF PVE & YNPR N6061 NPB6, OBK:0619  NQP:5279 Q05 SQVQ:99624\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116015\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:26N05",
-        "PNYY:VYYARFF TRAREN",
-        "NQQE:44040 YBEQF INYYRL GRE",
-        "PVGL:NFUOHEA",
-        "K:OEHPRGBA ZVYYF PVE & YNPR",
-        "HAVG:N6061 NPB6",
-        "OBK:0619",
-        "ZNC:5279 Q05",
-        "VQ:99624");
-
-    qbGrfg("G47",
-        "(Ybhqbha PNQ) PNYY:10Q02-PURFG CNVA GEB, 179 PBGGNTR EQ A-FC NCG: K-FG:PNEBYVAN PG FVZRBA YA  Z6153 NPB25, OBK:1820  NQP:5280 X04 SQVQ:99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116011\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:10Q02",
-        "PNYY:PURFG CNVA GEB",
-        "NQQE:179 PBGGNTR EQ A",
-        "PVGL:FGREYVAT",
-        "K:PNEBYVAN PG & FVZRBA YA",
-        "HAVG:Z6153 NPB25",
-        "OBK:1820",
-        "ZNC:5280 X04",
-        "VQ:99076");
-
-    qbGrfg("G48",
-        "(Ybhqbha PNQ) PNYY:FHVP-FHVPVQR NGGRZCG, 11 GEVGNCBR CY-YI NCG: K-FG:FGBPXF FG XRVFGRE YA  N6121 NY920 NPB12 FG614, OBK:1248  NQP:4802 W06 SQVQ:99074 10000 99081\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 12 Ibyhagrref, Pbzcnal 14 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116009\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:FHVP",
-        "PNYY:FHVPVQR NGGRZCG",
-        "NQQE:11 GEVGNCBR CY",
-        "PVGL:YBIRGGFIVYYR",
-        "K:FGBPXF FG & XRVFGRE YA",
-        "HAVG:N6121 NY920 NPB12 FG614",
-        "OBK:1248",
-        "ZNC:4802 W06",
-        "VQ:99074 10000 99081");
-
-    qbGrfg("G49",
-        "(Ybhqbha PNQ) PNYY:25O03I-FHVPVQR GUERN, 46592 PBGGNTR EQ F-FC NCG: K-FG:FVTANY UVYY CYM CBGBZNP I V6151 NPB25 R618, OBK:1829  NQP:5280 U06 SQVQ:99076 10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116007\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:25O03I",
-        "PNYY:FHVPVQR GUERN",
-        "NQQE:46592 PBGGNTR EQ F",
-        "PVGL:FGREYVAT",
-        "K:FVTANY UVYY CYM CBGBZNP I",
-        "HAVG:V6151 NPB25 R618",
-        "OBK:1829",
-        "ZNC:5280 U06",
-        "VQ:99076 10711");
-
-    qbGrfg("G50",
-        "(Ybhqbha PNQ) PNYY:31P02-HAPBAFPVBHF PN, 21105 PNEQVANY CBAQ GRE-NO NCG:318 K-FG:ZNCYR OENAPU GRE NFUOL CB Z6062 NPB6, OBK:0638Z NQP:5279 T05 SQVQ:99624\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116005\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:31P02",
-        "PNYY:HAPBAFPVBHF PN",
-        "NQQE:21105 PNEQVANY CBAQ GRE",
-        "NCG:318",
-        "PVGL:NFUOHEA",
-        "K:ZNCYR OENAPU GRE & NFUOL CB",
-        "HAVG:Z6062 NPB6",
-        "OBK:0638Z",
-        "ZNC:5279 T05",
-        "VQ:99624");
-
-    qbGrfg("G51",
-        "(Ybhqbha PNQ) PNYY:19Q02-URNEG CEBOYRZ , 45685 RYZJBBQ PG-FC NCG: K-FG:TERRABNX JNL   Z6153 NPB15, OBK:2426  NQP:5280 P07 SQVQ:99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=116001\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:19Q02",
+    qbGrfg("G1",
+        "(Ybhqbha PNQ) PNYY:19P02-URNEG CEBOYRZ , 20045 NFUOEBBX PBZZBAF CYM-NO NCG: K-FG:CERZVRE CYM EHFFRYY OENAPU CXJL ,Z606 NPB6, OBK:0627  NQP:5279 R01 SQVQ:99624      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=660261OOPP917O86Q05563189361Q26P9515SP7NOP12ON88     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:19P02",
         "PNYY:URNEG CEBOYRZ",
-        "NQQE:45685 RYZJBBQ PG",
-        "PVGL:FGREYVAT",
-        "K:TERRABNX JNL",
-        "HAVG:Z6153 NPB15",
-        "OBK:2426",
-        "ZNC:5280 P07",
-        "VQ:99076");
-
-    qbGrfg("G52",
-        "(Ybhqbha PNQ) PNYY:PC-PURFG CNVA, 535 OERGUBHE PG-FC NCG: K-FG:NETHF CY   N6252 Z6153 NPB25, OBK:1820  NQP:5280 W05 SQVQ:99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115997\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:PC",
-        "PNYY:PURFG CNVA",
-        "NQQE:535 OERGUBHE PG",
-        "PVGL:FGREYVAT",
-        "K:NETHF CY",
-        "HAVG:N6252 Z6153 NPB25",
-        "OBK:1820",
-        "ZNC:5280 W05",
-        "VQ:99076");
-
-    qbGrfg("G53",
-        "(Ybhqbha PNQ) PNYY:20N01U-URNG RKCBFHER, 36811 NYYQRE FPUBBY EQ-CI NCG: K-FG:YBATZBBE PG UVYYFOBEB EQ  N6041 NPB14 R602 NY680, OBK:0233  NQP:5039 Q05 SQVQ:99397 99081 10702\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 2 Ibyhagrref, Pbzcnal 4 Ibyhagrref, NY601, Pbzcnal 14 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115991\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:20N01U",
-        "PNYY:URNG RKCBFHER",
-        "NQQE:36811 NYYQRE FPUBBY EQ",
-        "PVGL:CHEPRYYIVYYR",
-        "K:YBATZBBE PG & UVYYFOBEB EQ",
-        "HAVG:N6041 NPB14 R602 NY680",
-        "OBK:0233",
-        "ZNC:5039 Q05",
-        "VQ:99397 99081 10702");
-
-    qbGrfg("G54",
-        "(Ybhqbha PNQ) PNYY:PB-PNEOBA ZBABKVQR Q, 45946 TENZZREPL GRE-FC NCG: K-FG:PURFGAHG BNX GRE YNPRL BN RPB11 GY611, OBK:1144  NQP:5402 R03 SQVQ:10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115987\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:PB",
-        "PNYY:PNEOBA ZBABKVQR Q",
-        "NQQE:45946 TENZZREPL GRE",
-        "PVGL:FGREYVAT",
-        "K:PURFGAHG BNX GRE & YNPRL BN",
-        "HAVG:RPB11 GY611",
-        "OBK:1144",
-        "ZNC:5402 R03",
-        "VQ:10711");
-
-    qbGrfg("G55",
-        "(Ybhqbha PNQ) PNYY:28P01-FGEBXR CNGVRAG, 37128 PNEQVTNA CY-CI NCG: K-FG:JUVGR TBBFR YA & JNGREZVY V6143 Z607 NPB14 R608, OBK:0825X NQP:5275 R02 SQVQ:99081 10707 10708\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 7 Ibyhagrref, Pbzcnal 8 Ibyhagrref, Pbzcnal 14 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115985\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:28P01",
-        "PNYY:FGEBXR CNGVRAG",
-        "NQQE:37128 PNEQVTNA CY",
-        "PVGL:CHEPRYYIVYYR",
-        "K:JUVGR TBBFR YA & JNGREZVY",
-        "HAVG:V6143 Z607 NPB14 R608",
-        "OBK:0825X",
-        "ZNC:5275 R02",
-        "VQ:99081 10707 10708");
-
-    qbGrfg("G56",
-        "(Ybhqbha PNQ) PNYY:ZHYPU-ZHYPU SVER, 652 SBEG RINAF EQ AR-YO NCG: K-FG:YRRFOHET GBJA YVAR & SBER RPB20 O601, OBK:2018  NQP:5158 T04 SQVQ:10701\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 1/20 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115981\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:ZHYPU",
-        "PNYY:ZHYPU SVER",
-        "NQQE:652 SBEG RINAF EQ AR",
-        "PVGL:YRRFOHET",
-        "K:YRRFOHET GBJA YVAR & SBER",
-        "HAVG:RPB20 O601",
-        "OBK:2018",
-        "ZNC:5158 T04",
-        "VQ:10701");
-
-    qbGrfg("G57",
-        "(Ybhqbha PNQ) PNYY:09R01-PNEQVNP NEERFG, 111 CRLGBA EQ-FC NCG: K-FG:GHEARE YA EHFFRYY PG  Z6221 Z6062 RZ601 NPB25 RPB18 PBQR R618, OBK:2405  NQP:5280 Q04 SQVQ:99624 10723 99076 10711 99534\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, RZ601, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115979\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:09R01",
-        "PNYY:PNEQVNP NEERFG",
-        "NQQE:111 CRLGBA EQ",
-        "PVGL:FGREYVAT",
-        "K:GHEARE YA & EHFFRYY PG",
-        "HAVG:Z6221 Z6062 RZ601 NPB25 RPB18 PBQR R618",
-        "OBK:2405",
-        "ZNC:5280 Q04",
-        "VQ:99624 10723 99076 10711 99534");
-
-    qbGrfg("G58",
-        "(Ybhqbha PNQ) PNYY:10Q04-PURFG CNVA CNG, 20670 PVGNGVBA QE-NO NCG: K-FG:UNL EQ & PUHEPUVYY QBJAF  Z698 NPB6 RPB6, OBK:0615  NQP:5278 U03 SQVQ:10723 99624 10706\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115975\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:10Q04",
-        "PNYY:PURFG CNVA CNG",
-        "NQQE:20670 PVGNGVBA QE",
+        "NQQE:20045 NFUOEBBX PBZZBAF CYM",
         "PVGL:NFUOHEA",
-        "K:UNL EQ & PUHEPUVYY QBJAF",
-        "HAVG:Z698 NPB6 RPB6",
-        "OBK:0615",
-        "ZNC:5278 U03",
-        "VQ:10723 99624 10706");
+        "K:CERZVRE CYM EHFFRYY OENAPU CXJL",
+        "HAVG:Z606 NPB6",
+        "OBK:0627",
+        "ZNC:5279 R01",
+        "VQ:99624",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=660261OOPP917O86Q05563189361Q26P9515SP7NOP12ON88");
 
-    qbGrfg("G59",
-        "(Ybhqbha PNQ) PNYY:NYEZ-SVER NYNEZ, 20900 EHAALZRNQR GRE-NO NCG:227 K-FG:TYBHPRFGRE CXJL PBUNFFRG  R606P G606 Z6221 RPB6 NPB6, OBK:0612Z NQP:5279 R05 SQVQ:10706 99624\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115973\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:NYEZ",
-        "PNYY:SVER NYNEZ",
-        "NQQE:20900 EHAALZRNQR GRE",
-        "NCG:227",
-        "PVGL:NFUOHEA",
-        "K:TYBHPRFGRE CXJL & PBUNFFRG",
-        "HAVG:R606P G606 Z6221 RPB6 NPB6",
-        "OBK:0612Z",
-        "ZNC:5279 R05",
-        "VQ:10706 99624");
-
-    qbGrfg("G60",
-        "(Ybhqbha PNQ) PNYY:19P02-URNEG CEBOYRZ , 46565 UNEEL OLEQ UJL-FC NCG:227 K-FG:CBGBZNP IVRJ EQ FGREYVAT  Z6153 NPB25 R618, OBK:1839Z NQP:5280 U07 SQVQ:99076 10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115971\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
+    qbGrfg("G2",
+        "Pnyy:19P02-URNEG CEBOYRZ ,20045 NFUOEBBX PBZZBAF CYM-NO Ncg:,K-Fg:CERZVRE CYM EHFFR,Z606 NPB6,Obk:0627 ,NQP:5279 R01 [39]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[YP606] - uggc://niseq.arg/znc\a\a" +
+        "--- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP606\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp606+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
         "PBQR:19P02",
         "PNYY:URNEG CEBOYRZ",
-        "NQQE:46565 UNEEL OLEQ UJL",
-        "NCG:227",
-        "PVGL:FGREYVAT",
-        "K:CBGBZNP IVRJ EQ & FGREYVAT",
-        "HAVG:Z6153 NPB25 R618",
-        "OBK:1839Z",
-        "ZNC:5280 U07",
-        "VQ:99076 10711");
-
-    qbGrfg("G61",
-        "(Ybhqbha PNQ) PNYY:26O01-VYYARFF HAXABJ, 46809 IREZBAG ZNCYR GRE-FC NCG: K-FG:EHFGL OYNPXUNJ FD FBHGURE N6252 NPB25, OBK:1845  NQP:5280 W07 SQVQ:99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115969\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:26O01",
-        "PNYY:VYYARFF HAXABJ",
-        "NQQE:46809 IREZBAG ZNCYR GRE",
-        "PVGL:FGREYVAT",
-        "K:EHFGL OYNPXUNJ FD & FBHGURE",
-        "HAVG:N6252 NPB25",
-        "OBK:1845",
-        "ZNC:5280 W07",
-        "VQ:99076");
-
-    qbGrfg("G62",
-        "(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, PYNVOBEAR CXJL-NO/PEBFFEBNQF QE-NO NCG: K-FG:PEBFFEBNQF QE & ZNEFUSVRY R606P N6232 RPB6 NPB6, OBK:0623  NQP:5278 X04 SQVQ:10706 99624 10723\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115966\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:CV",
-        "PNYY:NHGB NPPVQRAG",
-        "NQQE:PYNVOBEAR CXJL & PEBFFEBNQF QE",
+        "NQQE:20045 NFUOEBBX PBZZBAF CYM",
         "PVGL:NFUOHEA",
-        "K:PEBFFEBNQF QE & ZNEFUSVRY",
-        "HAVG:R606P N6232 RPB6 NPB6",
-        "OBK:0623",
-        "ZNC:5278 X04",
-        "VQ:10706 99624 10723");
-
-    qbGrfg("G63",
-        "(Ybhqbha PNQ) PNYY:13P02-QVNORGVP NOABE, 21080 FBHGUONAX FG-FC NCG: K-FG:ZPPYRYYNA JNL PENAFGBA FG N6252 Z439 NPB25, OBK:1823  NQP:5280 T05 SQVQ:99076 05900\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115962\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:13P02",
-        "PNYY:QVNORGVP NOABE",
-        "NQQE:21080 FBHGUONAX FG",
-        "PVGL:FGREYVAT",
-        "K:ZPPYRYYNA JNL & PENAFGBA FG",
-        "HAVG:N6252 Z439 NPB25",
-        "OBK:1823",
-        "ZNC:5280 T05",
-        "VQ:99076 05900");
-
-    qbGrfg("G64",
-        "(Ybhqbha PNQ) PNYY:URYQ-FRPHER URYVPBCG, 24570 THZ FCEVAT EQ-FC NCG:RE K-FG:WBUA ZBFOL UJL NMNYRN YA  R609 OP603 RZ601 RPB9, OBK:0914Z NQP:5400 Q10 SQVQ:10709 10719 10723\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, OP603, Pbzcnal 19 Ibyhagrref, RZ601, Pbzcnal 9 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115960\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:URYQ",
-        "PNYY:FRPHER URYVPBCG",
-        "NQQE:24570 THZ FCEVAT EQ",
-        "NCG:RE",
-        "PVGL:FGREYVAT",
-        "K:WBUA ZBFOL UJL & NMNYRN YA",
-        "HAVG:R609 OP603 RZ601 RPB9",
-        "OBK:0914Z",
-        "ZNC:5400 Q10",
-        "VQ:10709 10719 10723");
-
-    qbGrfg("G65",
-        "(Ybhqbha PNQ) PNYY:06Q02-GEBHOYR OERNGU, 124 SBEG RINAF EQ FR-YO NCG:Q K-FG:CEBFCREVGL NIR FR ZNEXRG  Z6132 NPB13, OBK:2005  NQP:5158 O04 SQVQ:99398\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 13 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115958\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:06Q02",
-        "PNYY:GEBHOYR OERNGU",
-        "NQQE:124 SBEG RINAF EQ FR",
-        "NCG:Q",
-        "PVGL:YRRFOHET",
-        "K:CEBFCREVGL NIR FR & ZNEXRG",
-        "HAVG:Z6132 NPB13",
-        "OBK:2005",
-        "ZNC:5158 O04",
-        "VQ:99398");
-
-    qbGrfg("G66",
-        "(Ybhqbha PNQ) PNYY:31Q02-HAPBAFPVBHF RS, 22135 QNIVF QE-FC NCG:115 K-FG:OYHRZBAG WHAPGVBA FD & FU Z6062, OBK:2433  NQP:5280 O10 SQVQ:10723 05900 99076 10711 99624\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115953\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:31Q02",
-        "PNYY:HAPBAFPVBHF RS",
-        "NQQE:22135 QNIVF QE",
-        "NCG:115",
-        "PVGL:FGREYVAT",
-        "K:OYHRZBAG WHAPGVBA FD & FU",
-        "HAVG:Z6062",
-        "OBK:2433",
-        "ZNC:5280 O10",
-        "VQ:10723 05900 99076 10711 99624");
-
-    qbGrfg("G67",
-        "(Ybhqbha PNQ) PNYY:10P04-PURFG CNVA ABE, 39820 PUNEYRF GBJA CVXR-JN NCG: K-FG:UNZVYGBA FGNGVBA EQ FBHGU N6172 NY601 NPB17, OBK:0518X NQP:5040 U05 SQVQ:99080 99534\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 17 Ibyhagrref, NY601 (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115951\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:10P04",
-        "PNYY:PURFG CNVA ABE",
-        "NQQE:39820 PUNEYRF GBJA CVXR",
-        "PVGL:JNGRESBEQ",
-        "K:UNZVYGBA FGNGVBA EQ & FBHGU",
-        "HAVG:N6172 NY601 NPB17",
-        "OBK:0518X",
-        "ZNC:5040 U05",
-        "VQ:99080 99534");
-
-    qbGrfg("G68",
-        "(Ybhqbha PNQ) PNYY:31Q02-HAPBAFPVBHF RS, 22135 QNIVF QE-FC NCG: K-FG:OYHRZBAG WHAPGVBA FD & FU N6232 Z404 NPB15 R611, OBK:2433  NQP:5280 O10 SQVQ:10723 05900 99076 10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref, Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115948\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:31Q02",
-        "PNYY:HAPBAFPVBHF RS",
-        "NQQE:22135 QNIVF QE",
-        "PVGL:FGREYVAT",
-        "K:OYHRZBAG WHAPGVBA FD & FU",
-        "HAVG:N6232 Z404 NPB15 R611",
-        "OBK:2433",
-        "ZNC:5280 O10",
-        "VQ:10723 05900 99076 10711");
-
-    qbGrfg("G69",
-        "(Ybhqbha PNQ) PNYY:FS-FGEHPGHER SVER, FZVGU FJVGPU EQ-NO/JNKCBBY EQ-NO NCG: K-FG:JNKCBBY EQ & SNEZJRYY EQ  R623 R606P R611 R622O G606 GY611 E439 N6232 OP601 OP603 RZ600 FB600 RPB23 N, OBK:2321  NQP:5279 S08 SQVQ:10723 10706 10711 05900 10700 10719\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref, Pbzcnal 6/22 Ibyhagrref, OP601, Pbzcnal 23 Ibyhagrref, OP603, Pbzcnal 24 Ibyhagrref, Pbzcnal 19 Ibyhagrref, FB600 (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115944\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:FS",
-        "PNYY:FGEHPGHER SVER",
-        "NQQE:FZVGU FJVGPU EQ & JNKCBBY EQ",
-        "PVGL:NFUOHEA",
-        "K:JNKCBBY EQ & SNEZJRYY EQ",
-        "HAVG:R623 R606P R611 R622O G606 GY611 E439 N6232 OP601 OP603 RZ600 FB600 RPB23 N",
-        "OBK:2321",
-        "ZNC:5279 S08",
-        "VQ:10723 10706 10711 05900 10700 10719");
-
-    qbGrfg("G70",
-        "(Ybhqbha PNQ) PNYY:20O01U-URNG RKCBFHER, 46440 ORARQVPG QE-FC NCG:107 K-FG:CBGBZNP IVRJ EQ & PBAARZN Z439 NPB25 R618, OBK:1838  NQP:5280 U07 SQVQ:05900 99076 10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115940\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:20O01U",
-        "PNYY:URNG RKCBFHER",
-        "NQQE:46440 ORARQVPG QE",
-        "NCG:107",
-        "PVGL:FGREYVAT",
-        "K:CBGBZNP IVRJ EQ & PBAARZN",
-        "HAVG:Z439 NPB25 R618",
-        "OBK:1838",
-        "ZNC:5280 U07",
-        "VQ:05900 99076 10711");
-
-    qbGrfg("G71",
-        "(Ybhqbha PNQ) PNYY:17N03-SNYY CNGVRAG A, 1223 PUNFR UREVGNTR PVE-FC NCG:103 K-FG:FGREYVAT OYIQ F   Z6153 NPB15, OBK:1127  NQP:5402 P01 SQVQ:99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115938\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:17N03",
-        "PNYY:SNYY CNGVRAG A",
-        "NQQE:1223 PUNFR UREVGNTR PVE",
-        "NCG:103",
-        "PVGL:FGREYVAT",
-        "K:FGREYVAT OYIQ F",
-        "HAVG:Z6153 NPB15",
-        "OBK:1127",
-        "ZNC:5402 P01",
-        "VQ:99076");
-
-    qbGrfg("G72",
-        "(Ybhqbha PNQ) PNYY:26B11-VYYARFF QRSVPN, 19365 PLCERFF EVQTR GRE-YO NCG:808 K-FG:ZNTABYVN TEBIR FD YRVFHER Z6221, OBK:2217U NQP:5159 R07 SQVQ:99624 10706\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115934\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:26B11",
-        "PNYY:VYYARFF QRSVPN",
-        "NQQE:19365 PLCERFF EVQTR GRE",
-        "NCG:808",
-        "PVGL:YRRFOHET",
-        "K:ZNTABYVN TEBIR FD & YRVFHER",
-        "HAVG:Z6221",
-        "OBK:2217U",
-        "ZNC:5159 R07",
-        "VQ:99624 10706");
-
-    qbGrfg("G73",
-        "(Ybhqbha PNQ) PNYY:VAWNFF-VAWHEL SEBZ N, 18 ZNEXRG FG R-YO NCG:100 K-FG:RQJNEQF SREEL EQ AR & PUH N6172 NPB13 R601, OBK:0113  NQP:5157 X02 SQVQ:99080 99398 10701\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 17 Ibyhagrref, Pbzcnal 13 Ibyhagrref, Pbzcnal 1/20 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115936\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:VAWNFF",
-        "PNYY:VAWHEL SEBZ N",
-        "NQQE:18 ZNEXRG FG R",
-        "NCG:100",
-        "PVGL:YRRFOHET",
-        "K:RQJNEQF SREEL EQ AR & PUH",
-        "HAVG:N6172 NPB13 R601",
-        "OBK:0113",
-        "ZNC:5157 X02",
-        "VQ:99080 99398 10701");
-
-    qbGrfg("G74",
-        "(Ybhqbha PNQ) PNYY:26B11-VYYARFF QRSVPN, 19365 PLCERFF EVQTR GRE-YO NCG:808 K-FG:ZNTABYVN TEBIR FD YRVFHER Z6062 R606P, OBK:2217U NQP:5159 R07 SQVQ:99624 10706\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 6/22 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115930\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:26B11",
-        "PNYY:VYYARFF QRSVPN",
-        "NQQE:19365 PLCERFF EVQTR GRE",
-        "NCG:808",
-        "PVGL:YRRFOHET",
-        "K:ZNTABYVN TEBIR FD & YRVFHER",
-        "HAVG:Z6062 R606P",
-        "OBK:2217U",
-        "ZNC:5159 R07",
-        "VQ:99624 10706");
-
-    qbGrfg("G75",
-        "(Ybhqbha PNQ) PNYY:17N01-SNYY ABG QNATR, 20560 GNATYRJBBQ JNL-FC NCG: K-FG:NYTBAXVNA CXJL ORAAVATGBA R618, OBK:1812  NQP:5281 N03 SQVQ:99076 10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115928\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:17N01",
-        "PNYY:SNYY ABG QNATR",
-        "NQQE:20560 GNATYRJBBQ JNL",
-        "PVGL:FGREYVAT",
-        "K:NYTBAXVNA CXJL & ORAAVATGBA",
-        "HAVG:R618",
-        "OBK:1812",
-        "ZNC:5281 N03",
-        "VQ:99076 10711");
-
-    qbGrfg("G76",
-        "(Ybhqbha PNQ) PNYY:06Q01-GEBHOYR OERNGU, 19520 ZRNQBJIVRJ PG-YO NCG: K-FG:PBHENTR PG & YBHQBHA PRAG Z6133 NPB13, OBK:2024  NQP:5158 O08 SQVQ:99398\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 13 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115926\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:06Q01",
-        "PNYY:GEBHOYR OERNGU",
-        "NQQE:19520 ZRNQBJIVRJ PG",
-        "PVGL:YRRFOHET",
-        "K:PBHENTR PG & YBHQBHA PRAG",
-        "HAVG:Z6133 NPB13",
-        "OBK:2024",
-        "ZNC:5158 O08",
-        "VQ:99398");
-
-    qbGrfg("G77",
-        "(Ybhqbha PNQ) PNYY:17N01-SNYY ABG QNATR, 20560 GNATYRJBBQ JNL-FC NCG: K-FG:NYTBAXVNA CXJL ORAAVATGBA N6252 NPB25, OBK:1812  NQP:5281 N03 SQVQ:99076\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 24 Ibyhagrref, Pbzcnal 15/25 Ibyhagrref, Pbzcnal 35 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115924\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:17N01",
-        "PNYY:SNYY ABG QNATR",
-        "NQQE:20560 GNATYRJBBQ JNL",
-        "PVGL:FGREYVAT",
-        "K:NYTBAXVNA CXJL & ORAAVATGBA",
-        "HAVG:N6252 NPB25",
-        "OBK:1812",
-        "ZNC:5281 N03",
-        "VQ:99076");
-
-    qbGrfg("G78",
-        "(Ybhqbha PNQ) PNYY:12Q02R-FRVMHERF PBAG, 42455 ZNTRYYNA FD-NO NCG: K-FG:BYLZCVN QE PNEGVRE GRE  NPB23 Z699, OBK:0928  NQP:5400 R03 SQVQ:10723\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 23 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=115922\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:12Q02R",
-        "PNYY:FRVMHERF PBAG",
-        "NQQE:42455 ZNTRYYNA FD",
-        "PVGL:NFUOHEA",
-        "K:BYLZCVN QE & PNEGVRE GRE",
-        "HAVG:NPB23 Z699",
-        "OBK:0928",
-        "ZNC:5400 R03",
-        "VQ:10723");
-
-  }
-
-  @Grfg
-  choyvp ibvq grfgZbagtbzrelPbhaglSverErfphrZnva() {
-
-    qbGrfg("G1",
-        "(Ybhqbha PNQ) PNYY:QELRE-QELRE SVER, 1524 LBHATF CBVAG CY NCG: K-FG:,R611 OP601 RPB11, OBK:SK11  NQP: SQVQ:10711\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb OP601, Pbzcnal 24 Ibyhagrref, Pbzcnal 11/18 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=137967\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:QELRE",
-        "PNYY:QELRE SVER",
-        "NQQE:1524 LBHATF CBVAG CY",
-        "PVGL:SNVESNK PBHAGL",
-        "HAVG:R611 OP601 RPB11",
-        "OBK:SK11",
-        "VQ:10711");
-
-    qbGrfg("G2",
-        "(Ybhqbha PNQ) PNYY:PUVZ-PUVZARL SVER, 765 ONXREGBA EQ NCG: K-FG:,R698 OP602 RPB16 X616, OBK:WRSS  NQP: SQVQ:10716 10700\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 16 Ibyhagrref, OP602 (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=137903\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:PUVZ",
-        "PNYY:PUVZARL SVER",
-        "NQQE:765 ONXREGBA EQ",
-        "PVGL:WRSSREFBA PBHAGL",
-        "FG:JI",
-        "HAVG:R698 OP602 RPB16 X616",
-        "OBK:WRSS",
-        "VQ:10716 10700");
+        "K:CERZVRE CYM EHFFR",
+        "HAVG:Z606 NPB6",
+        "OBK:0627",
+        "ZNC:5279 R01");
 
     qbGrfg("G3",
-        "(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, WNZRF ZBAEBR UJL-SE/CBGBZNP EVIRE-SE NCG: K-FG:CBGBZNP EVIRE  ,R610 N610 RPB10 NPB10, OBK:1002X NQP:4804 P07 SQVQ:10710\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 10 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=137863\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
+        "Pnyy:NYEZ-SVER NYNEZ,20775 PRAGHEL PBEARE QE-NO Ncg:,K-Fg:ANVFZVGU GRE & FL,R606 RPB6,Obk:0615 ,NQP:5278 T04 [38]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[YP606] - uggc://niseq.arg/znc\a\a" +
+        "--- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP606\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp606+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
-        "PBQR:CV",
-        "PNYY:NHGB NPPVQRAG",
-        "NQQE:WNZRF ZBAEBR UJL & CBGBZNP EVIRE",
-        "PVGL:SERQREVPX PBHAGL",
-        "FG:ZQ",
-        "K:CBGBZNP EVIRE",
-        "HAVG:R610 N610 RPB10 NPB10",
-        "OBK:1002X",
-        "ZNC:4804 P07",
-        "VQ:10710");
+        "PBQR:NYEZ",
+        "PNYY:SVER NYNEZ",
+        "NQQE:20775 PRAGHEL PBEARE QE",
+        "PVGL:NFUOHEA",
+        "K:ANVFZVGU GRE & FL",
+        "HAVG:R606 RPB6",
+        "OBK:0615",
+        "ZNC:5278 T04");
 
     qbGrfg("G4",
-        "(Ybhqbha PNQ) PNYY:FS-FGEHPGHER SVER, 168 UVTU FG NCG: K-FG:,R698 OP602 RPB16, OBK:WRSS  NQP: SQVQ:10716 10700\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb Pbzcnal 16 Ibyhagrref, OP602 (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
-        "----\e\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=137817\e\a" +
-        "\e\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
+        "(Ybhqbha PNQ) PNYY:NYEZ-SVER NYNEZ, 20775 PRAGHEL PBEARE QE-NO NCG: K-FG:ANVFZVGU GRE & FLPBYVA EQ XVYQBANA QE ,R606 RPB6, OBK:0615  NQP:5278 T04 SQVQ:10706      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=6SQO19QQ265984P4SO7585R3O84QO6O801NN67R03N5R3NR5     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:NYEZ",
+        "PNYY:SVER NYNEZ",
+        "NQQE:20775 PRAGHEL PBEARE QE",
+        "PVGL:NFUOHEA",
+        "K:ANVFZVGU GRE & FLPBYVA EQ XVYQBANA QE",
+        "HAVG:R606 RPB6",
+        "OBK:0615",
+        "ZNC:5278 T04",
+        "VQ:10706",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=6SQO19QQ265984P4SO7585R3O84QO6O801NN67R03N5R3NR5");
 
+    qbGrfg("G5",
+        "(Ybhqbha PNQ) PNYY:CVG-NHGB NPPVQRAG - , JNKCBBY EQ-FC/CNPVSVP OYIQ-FC NCG: K-FG:CNPVSVP OYIQ OEBQREVPX QE ,R611O G606 E615 Z635 Z623 OP601 RZ601 RPB24 NPB35, OBK:2431  NQP:5279 X09 SQVQ:10711 99076 10706 10723 10791 10799      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=09N98226Q6P74R42OR2Q8RR218R9O752593S8792P6N00666     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:CVG",
+        "PNYY:NHGB NPPVQRAG -",
+        "NQQE:JNKCBBY EQ & CNPVSVP OYIQ",
+        "PVGL:FGREYVAT",
+        "K:CNPVSVP OYIQ & OEBQREVPX QE",
+        "HAVG:R611O G606 E615 Z635 Z623 OP601 RZ601 RPB24 NPB35",
+        "OBK:2431",
+        "ZNC:5279 X09",
+        "VQ:10711 99076 10706 10723 10791 10799",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=09N98226Q6P74R42OR2Q8RR218R9O752593S8792P6N00666");
+
+    qbGrfg("G6",
+        "(Ybhqbha PNQ) PNYY:FS-FGEHPGHER SVER, 20850 UNEQJBBQ SBERFG QE-FC NCG: K-FG:NYTBAXVNA CXJL TERNG SNYYF CYM & JRFGJBBQ CY ,R618 R439 D624 R611 GY611 G606 E439 N625O OP601 OP613 RPB18 NPB25, OBK:1811  NQP:5281 P04 SQVQ:10711 99076 10706 05900 107      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=Q9PN5R7275Q9O83OP28433844750QOQ9451OP9N27827RO3N     Cyrnfr pyvpx gb pbasvez",
         "PBQR:FS",
         "PNYY:FGEHPGHER SVER",
-        "NQQE:168 UVTU FG",
-        "PVGL:WRSSREFBA PBHAGL",
-        "FG:JI",
-        "HAVG:R698 OP602 RPB16",
-        "OBK:WRSS",
-        "VQ:10716 10700");
+        "NQQE:20850 UNEQJBBQ SBERFG QE",
+        "PVGL:FGREYVAT",
+        "K:NYTBAXVNA CXJL TERNG SNYYF CYM & JRFGJBBQ CY",
+        "HAVG:R618 R439 D624 R611 GY611 G606 E439 N625O OP601 OP613 RPB18 NPB25",
+        "OBK:1811",
+        "ZNC:5281 P04",
+        "VQ:10711 99076 10706 05900 107",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=Q9PN5R7275Q9O83OP28433844750QOQ9451OP9N27827RO3N");
+
+    qbGrfg("G7",
+        "(Ybhqbha PNQ) PNYY:HAXZ-HAXABJA ZRQVPNY, 20900 EHAALZRNQR GRE-NO NCG:340 K-FG:TYBHPRFGRE CXJL PBUNFFRG GRE ,R606, OBK:0612Z NQP:5279 R05 SQVQ:99624 10706      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=O53SSNP91029RPR181097PP98QR7R26S01P46P7S9S95119P     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:HAXZ",
+        "PNYY:HAXABJA ZRQVPNY",
+        "NQQE:20900 EHAALZRNQR GRE",
+        "NCG:340",
+        "PVGL:NFUOHEA",
+        "K:TYBHPRFGRE CXJL & PBUNFFRG GRE",
+        "HAVG:R606",
+        "OBK:0612Z",
+        "ZNC:5279 R05",
+        "VQ:99624 10706",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=O53SSNP91029RPR181097PP98QR7R26S01P46P7S9S95119P");
+
+    qbGrfg("G8",
+        "Pnyy:HAXZ-HAXABJA ZRQVPNY,20900 EHAALZRNQR GRE-NO Ncg:340,K-Fg:TYBHPRFGRE CXJL P,R606,Obk:0612Z,NQP:5279 R05 [37]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[YP606] - uggc://niseq.arg/znc\a\a" +
+        "--- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP606\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp606+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
+
+        "PBQR:HAXZ",
+        "PNYY:HAXABJA ZRQVPNY",
+        "NQQE:20900 EHAALZRNQR GRE",
+        "NCG:340",
+        "PVGL:NFUOHEA",
+        "K:TYBHPRFGRE CXJL & P",
+        "HAVG:R606",
+        "OBK:0612Z",
+        "ZNC:5279 R05");
+
+    qbGrfg("G9",
+        "(Ybhqbha PNQ) PNYY:HAXZ-HAXABJA ZRQVPNY, 20900 EHAALZRNQR GRE-NO NCG:340 K-FG:TYBHPRFGRE CXJL PBUNFFRG GRE ,Z606 NPB6, OBK:0612Z NQP:5279 R05 SQVQ:99624      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=O5650N67R3RR2O16237OQ2SN35630121186749RSP417RRN6     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:HAXZ",
+        "PNYY:HAXABJA ZRQVPNY",
+        "NQQE:20900 EHAALZRNQR GRE",
+        "NCG:340",
+        "PVGL:NFUOHEA",
+        "K:TYBHPRFGRE CXJL & PBUNFFRG GRE",
+        "HAVG:Z606 NPB6",
+        "OBK:0612Z",
+        "ZNC:5279 R05",
+        "VQ:99624",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=O5650N67R3RR2O16237OQ2SN35630121186749RSP417RRN6");
+
+    qbGrfg("G10",
+        "Pnyy:HAXZ-HAXABJA ZRQVPNY,20900 EHAALZRNQR GRE-NO Ncg:340,K-Fg:TYBHPRFGRE CXJL P,Z606 NPB6,Obk:0612Z,NQP:5279 R05 [36]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[YP606] - uggc://niseq.arg/znc\a\a" +
+        "--- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP606\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp606+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
+
+        "PBQR:HAXZ",
+        "PNYY:HAXABJA ZRQVPNY",
+        "NQQE:20900 EHAALZRNQR GRE",
+        "NCG:340",
+        "PVGL:NFUOHEA",
+        "K:TYBHPRFGRE CXJL & P",
+        "HAVG:Z606 NPB6",
+        "OBK:0612Z",
+        "ZNC:5279 R05");
 
   }
- 
+
   @Grfg
-  choyvp ibvq grfgYPSE2() {
+  choyvp ibvq grfgNfuoheaIbyhagrreSverNaqErfphrQrcnegzrag2() {
 
     qbGrfg("G1",
-        "(Ybhqbha PNQ) PNYY:FS-FGEHPGHER SVER, 15 PUHEPU FG A-YI NCG: K-FG:OEBNQ JNL R   D914, OBK:1248  NQP:4802 U06 SQVQ:10712 99074 10000 10702 10700 10723 10719 10710\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb OP603, Pbzcnal 3 Ibyhagrref, Pbzcnal 19 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\a" +
-        "----\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=95961\a\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
-
-        "PBQR:FS",
-        "PNYY:FGEHPGHER SVER",
-        "NQQE:15 PUHEPU FG A",
-        "PVGL:YBIRGGFIVYYR",
-        "K:OEBNQ JNL R",
-        "HAVG:D914",
-        "OBK:1248",
-        "ZNC:4802 U06",
-        "VQ:10712 99074 10000 10702 10700 10723 10719 10710");
+        "(NHGB NPPVQRAG RAGENCZRAG) NHGB NPPVQRAG RAGENCZRAG - JUVGRF SREEL EQ/WNZRF ZBAEBR UJL - YRRFOHET - OBK 0104X - R601 BA FPRAR ERCBEGVAT BAR IRUVPYR BA FVQR JVGU BAR PBASVEZRQ RAGENCZRAG       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=12644RS924N6P01O56S109Q9P8S313Q457494050Q196939N     Cyrnfr pyvpx gb pbasvez",
+        "PNYY:NHGB NPPVQRAG RAGENCZRAG",
+        "NQQE:JUVGRF SREEL EQ & WNZRF ZBAEBR UJL",
+        "PVGL:YRRFOHET",
+        "OBK:0104X",
+        "VASB:R601 BA FPRAR ERCBEGVAT BAR IRUVPYR BA FVQR JVGU BAR PBASVEZRQ RAGENCZRAG",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=12644RS924N6P01O56S109Q9P8S313Q457494050Q196939N");
 
     qbGrfg("G2",
-        "(Ybhqbha PNQ) PNYY:FS-FGEHPGHER SVER, 15 PUHEPU FG A-YI NCG: K-FG:OEBNQ JNL R   R612O R905 R602 RX928 G905 GY602 E920 N6121 OP602 OP601 RZ601 FB600 RPB12 N, OBK:1248  NQP:4802 U06 SQVQ:10712 99074 10000 10702 10700 10723\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb OP603, Pbzcnal 3 Ibyhagrref, Pbzcnal 19 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\a" +
-        "----\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=95961\a\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
+        "(Vapvqrag Cntr) Pne vagb gur Fgehpgher - 415 Qel Zvyy Eq. FJ, Yrrfohet, Obk 0119, R601 unf pne gung fgehpx gur Naark Ohvyqvat ng Ybhqbha Pbhagl Uvtu Fpubby       uggcf://qra2.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=34471S2N09562O3466N6391R0R92RPS7545RR3273549S436     Cyrnfr pyvpx gb pbasvez",
+        "PNYY:Pne vagb gur Fgehpgher",
+        "NQQE:415 Qel Zvyy Eq FJ",
+        "PVGL:Yrrfohet",
+        "OBK:0119",
+        "VASB:R601 unf pne gung fgehpx gur Naark Ohvyqvat ng Ybhqbha Pbhagl Uvtu Fpubby",
+        "HEY:uggcf://qra2.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=34471S2N09562O3466N6391R0R92RPS7545RR3273549S436");
 
-        "PBQR:FS",
-        "PNYY:FGEHPGHER SVER",
-        "NQQE:15 PUHEPU FG A",
-        "PVGL:YBIRGGFIVYYR",
-        "K:OEBNQ JNL R",
-        "HAVG:R612O R905 R602 RX928 G905 GY602 E920 N6121 OP602 OP601 RZ601 FB600 RPB12 N",
-        "OBK:1248",
-        "ZNC:4802 U06",
-        "VQ:10712 99074 10000 10702 10700 10723");
+  }
+
+  @Grfg
+  choyvp ibvq grfgYrrfohetISP() {
+
+    qbGrfg("G1",
+        "Pnyy:CVG-NHGB NPPVQRAG - ,WNZRF ZBAEBR UJL-YO/JUVGRF SREEL EQ-YO Ncg:,K-Fg:JUVGRF SREEL EQ &,R601 G620 E613 N610 Z613P OP613 RZ601 RPB20 NPB10,Obk:0104X,NQP:5042 Q06 [24]",
+        "PBQR:CVG",
+        "PNYY:NHGB NPPVQRAG -",
+        "NQQE:WNZRF ZBAEBR UJL & JUVGRF SREEL EQ",
+        "PVGL:YRRFOHET",
+        "K:JUVGRF SREEL EQ &",
+        "HAVG:R601 G620 E613 N610 Z613P OP613 RZ601 RPB20 NPB10",
+        "OBK:0104X",
+        "ZNC:5042 Q06");
+
+    qbGrfg("G2",
+        "Pnyy:NYEZ-SVER NYNEZ,1607 IVYYNTR ZNEXRG OYIQ FR-YO Ncg:,K-Fg:QBQBAN GRE FR ONY,R601 RPB20,Obk:2019 ,NQP:5158 T06 [22]",
+        "PBQR:NYEZ",
+        "PNYY:SVER NYNEZ",
+        "NQQE:1607 IVYYNTR ZNEXRG OYIQ FR",
+        "PVGL:YRRFOHET",
+        "K:QBQBAN GRE FR & ONY",
+        "HAVG:R601 RPB20",
+        "OBK:2019",
+        "ZNC:5158 T06");
 
     qbGrfg("G3",
-        "(Ybhqbha PNQ) PNYY:FS-FGEHPGHER SVER, FZVGU FJVGPU EQ-NO/JNKCBBY EQ-NO NCG: K-FG:JNKCBBY EQ & SNEZJRYY EQ  R623 R606P R611 R622O G606 GY611 E439 N6232 OP601 OP603 RZ600 FB600 RPB23 N, OBK:2321  NQP:5279 S08 SQVQ:10723 10706 10711 05900 10700 10719\a\a" +
-        "Frag ol Rkpunatr Vasbezngvba gb OP603, Pbzcnal 3 Ibyhagrref, Pbzcnal 19 Ibyhagrref (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\a" +
-        "----\a" +
-        "- Lbh erprvirq guvf zrffntr orpnhfr lbh ner ertvfgrerq ba Ybhqbha Rzcyblrr EFNA. Hcqngr lbhe nppbhag be nhguragvpngr guvf nyreg ol tbvat gb uggc://nyreg2.ybhqbha.tbi/zlnyregybt.cuc?f_nyreg_vq=95961\a\a" +
-        "- Gryy bguref nobhg Ybhqbha Rzcyblrr EFNA! ol sbejneqvat guvf zrffntr gb gurz naq rapbhentvat gurz tb gb uggc://nyreg2.ybhqbha.tbi gb ertvfgre sbe guvf serr freivpr.",
+        "Pnyy:31N01-SNVAGRQ ABJ NY,154 ZRNQBJF YA AR-YO Ncg:,K-Fg:SBEG RINAF EQ AR ,R601,Obk:2008 ,NQP:5158 P03 [21]",
+        "PBQR:31N01",
+        "PNYY:SNVAGRQ ABJ NY",
+        "NQQE:154 ZRNQBJF YA AR",
+        "PVGL:YRRFOHET",
+        "K:SBEG RINAF EQ AR",
+        "HAVG:R601",
+        "OBK:2008",
+        "ZNC:5158 P03");
+
+    qbGrfg("G4",
+        "Pnyy:BGVF-RYRINGBE RAGENC,18 ZNEXRG FG R-YO Ncg:,K-Fg:RQJNEQF SREEL EQ ,RPB20 R601,Obk:0113 ,NQP:5157 X02 [20]",
+        "PBQR:BGVF",
+        "PNYY:RYRINGBE RAGENC",
+        "NQQE:18 ZNEXRG FG R",
+        "PVGL:YRRFOHET",
+        "K:RQJNEQF SREEL EQ",
+        "HAVG:RPB20 R601",
+        "OBK:0113",
+        "ZNC:5157 X02");
+
+    qbGrfg("G5",
+        "Pnyy:VAI-VAIRFGVTNGVBA,XVAT FG F-YO/PNGBPGVA PVE FJ-YO Ncg:,K-Fg:SNVESNK FG FR PNG,R601 RPB20,Obk:1303 ,NQP:5157 X03 [19]",
+        "PBQR:VAI",
+        "PNYY:VAIRFGVTNGVBA",
+        "NQQE:XVAT FG F & PNGBPGVA PVE FJ",
+        "PVGL:YRRFOHET",
+        "K:SNVESNK FG FR & PNG",
+        "HAVG:R601 RPB20",
+        "OBK:1303",
+        "ZNC:5157 X03");
+
+    qbGrfg("G6",
+        "Pnyy:08P01P-PURZVPNY UNMZ,22570 JNGFBA EQ-YO Ncg:,K-Fg:PBZCERFFBE YA PBI,R607 R680 R623 R601 R603 G620 G606 E613 X607 X680 X603 Z607 Z609O OP603 OP6,Obk:0721X,NQP:5399 R02 [18]",
+        "PBQR:08P01P",
+        "PNYY:PURZVPNY UNMZ",
+        "NQQE:22570 JNGFBA EQ",
+        "PVGL:YRRFOHET",
+        "K:PBZCERFFBE YA & PBI",
+        "HAVG:R607 R680 R623 R601 R603 G620 G606 E613 X607 X680 X603 Z607 Z609O OP603 OP6",
+        "OBK:0721X",
+        "ZNC:5399 R02");
+
+    qbGrfg("G7",
+        "Pnyy:29O01H-NHGB NPPVQRAG,WNZRF ZBAEBR UJL-YO/YVGGYR BNGYNAQF YA-YO Ncg:,K-Fg:YVGGYR BNGYNAQF Y,R601 Z613P RPB7 NPB7,Obk:0703X,NQP:5277 N04 [17]",
+        "PBQR:29O01H",
+        "PNYY:NHGB NPPVQRAG",
+        "NQQE:WNZRF ZBAEBR UJL & YVGGYR BNGYNAQF YA",
+        "PVGL:YRRFOHET",
+        "K:YVGGYR BNGYNAQF Y",
+        "HAVG:R601 Z613P RPB7 NPB7",
+        "OBK:0703X",
+        "ZNC:5277 N04");
+
+    qbGrfg("G8",
+        "Pnyy:CV-NHGB NPPVQRAG,117 CEBFCREVGL NIR FR-YO Ncg:,K-Fg:SBEG RINAF EQ FR ,R601 N613R RPB20 NPB13,Obk:2005 ,NQP:5158 P04 [16]",
+        "PBQR:CV",
+        "PNYY:NHGB NPPVQRAG",
+        "NQQE:117 CEBFCREVGL NIR FR",
+        "PVGL:YRRFOHET",
+        "K:SBEG RINAF EQ FR",
+        "HAVG:R601 N613R RPB20 NPB13",
+        "OBK:2005",
+        "ZNC:5158 P04");
+
+    qbGrfg("G9",
+        "Pnyy:NYEZ-SVER NYNEZ,224 PBEAJNYY FG AJ-YO Ncg:N,K-Fg:ZRZBEVNY QE AJ YV,R601 G620 N613R RPB20 NPB13,Obk:0110Z,NQP:5157 W01 [15]",
+        "PBQR:NYEZ",
+        "PNYY:SVER NYNEZ",
+        "NQQE:224 PBEAJNYY FG AJ",
+        "NCG:N",
+        "PVGL:YRRFOHET",
+        "K:ZRZBEVNY QE AJ & YV",
+        "HAVG:R601 G620 N613R RPB20 NPB13",
+        "OBK:0110Z",
+        "ZNC:5157 W01");
+
+    qbGrfg("G10",
+        "Pnyy:NYEZ-SVER NYNEZ,259 ZRNQBJF YA AR-YO Ncg:,K-Fg:SBEG RINAF EQ AR ,R601 RPB20,Obk:2008 ,NQP:5158 P03 [14]",
+        "PBQR:NYEZ",
+        "PNYY:SVER NYNEZ",
+        "NQQE:259 ZRNQBJF YA AR",
+        "PVGL:YRRFOHET",
+        "K:SBEG RINAF EQ AR",
+        "HAVG:R601 RPB20",
+        "OBK:2008",
+        "ZNC:5158 P03");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgYrrfohetISP2() {
+
+    qbGrfg("G1",
+        "Ohea Vawhel jvgu Sylbhg - 25720 Ubcrsvryq Cy., Fbhgu Evqvat, Obk 1910, R619 erdhrfgvat uryvpbcgre.\a\a" +
+        "Frag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [82]",
+
+        "PNYY:Ohea Vawhel jvgu Sylbhg",
+        "NQQE:25720 Ubcrsvryq Cy",
+        "PVGL:Fbhgu Evqvat",
+        "OBK:1910",
+        "VASB:R619 erdhrfgvat uryvpbcgre.");
+
+    qbGrfg("G2",
+        "FUBBGVAT - SYLBHG - 1100 OYBPX NYOREZNEYR EQ - FGREYVAT - OBK 1127 - R611 BA FPRAR ERDHRFGVAT URYB SBE ZRQRINP - YPFB UNAQYVAT FPRAR\a\a" +
+        "Frag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [99]",
+
+        "PNYY:FUBBGVAT - SYLBHG",
+        "NQQE:1100 OYBPX NYOREZNEYR EQ",
+        "ZNQQE:1100 NYOREZNEYR EQ",
+        "PVGL:FGREYVAT",
+        "OBK:1127",
+        "VASB:R611 BA FPRAR ERDHRFGVAT URYB SBE ZRQRINP - YPFB UNAQYVAT FPRAR");
+
+    qbGrfg("G3",
+        "UBHFR SVER - 14311 CNEVF OERRMR CYNPR  CHEPRYYIVYYR OBK 2614X.  R616 BA FPRAR JVGU SVER VA GUR ONFRZRAG.\a\a" +
+        "Frag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [87]",
+
+        "PNYY:UBHFR SVER",
+        "NQQE:14311 CNEVF OERRMR CYNPR",
+        "PVGL:CHEPRYYIVYYR",
+        "OBK:2614X",
+        "VASB:R616 BA FPRAR JVGU SVER VA GUR ONFRZRAG.");
+
+    qbGrfg("G4",
+        "NHGB NPPVQRAG JVGU RAGENCZRAG BA PRQNE TERRA EQ WHFG BSS BS FUNJ EQ, FGREYVAT, OBK 2433 R624 PBASVEZRQ 1 CG GENCCRQ VA N FVATYR IRUVPYR NPPVQRAG.\a\a" +
+        "Frag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [79]",
+
+        "PNYY:NHGB NPPVQRAG JVGU RAGENCZRAG BA PRQNE",
+        "NQQE:TERRA EQ",
+        "CYNPR:WHFG BSS BS FUNJ EQ",
+        "PVGL:FGREYVAT",
+        "OBK:2433",
+        "VASB:R624 PBASVEZRQ 1 CG GENCCRQ VA N FVATYR IRUVPYR NPPVQRAG.");
+
+    qbGrfg("G5",
+        "Hcqngr ba Ncnegzrag Sver - 20965 Gvzore Evqtr Gree., Nfuohea, Obk 0623, Pbzznaq erdhrfgvat Yriry 1 EVG\a\a" +
+        "Frag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [77]",
+
+        "PNYY:Hcqngr ba Ncnegzrag Sver",
+        "NQQE:20965 Gvzore Evqtr Gree",
+        "PVGL:Nfuohea",
+        "OBK:0623",
+        "VASB:Pbzznaq erdhrfgvat Yriry 1 EVG");
+
+    qbGrfg("G6",
+        "Ncnegzrag Sver - 20965 Gvzore Evqtr Gree., Nfuohea, Obk 0623, R606 nqivfvat fzbxr sebz 2aq sybbe.\a\a" +
+        "Frag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [76]",
+
+        "PNYY:Ncnegzrag Sver",
+        "NQQE:20965 Gvzore Evqtr Gree",
+        "PVGL:Nfuohea",
+        "OBK:0623",
+        "VASB:R606 nqivfvat fzbxr sebz 2aq sybbe.");
+
+    qbGrfg("G7",
+        "SYLBHG SEBZ FGBARFCEVATF RE YM NG BYQ NEPBYN PBZZHAVGL PRAGRE- NEPBYN, OBK 0914X, R609O UNAQYVAT GUR YM NAQ Z603O GENAFCBEGVAT GUR CG SEBZ GUR RE GB GUR YM.\a\a" +
+        "Frag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [72]",
+
+        "PNYY:SYLBHG SEBZ FGBARFCEVATF RE YM",
+        "NQQE:BYQ NEPBYN PBZZHAVGL PRAGRE-",
+        "PVGL:NEPBYN",
+        "OBK:0914X",
+        "VASB:R609O UNAQYVAT GUR YM NAQ Z603O GENAFCBEGVAT GUR CG SEBZ GUR RE GB GUR YM.");
+
+    qbGrfg("G8",
+        "Vawhel sebz Snyy - Eriviny Qe. & Syrrgjbbq Eq, Nyqvr, Obk 1947X, R619 erdhrfg Gbjre sbe fgbxrf bcrengvba sbe fhowrpg snyyra vagb sbhaqngvba bs ubhfr.\a\a" +
+        "Frag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [66]",
+
+        "PNYY:Vawhel sebz Snyy",
+        "NQQE:Eriviny Qe & Syrrgjbbq Eq",
+        "PVGL:Nyqvr",
+        "OBK:1947X",
+        "VASB:R619 erdhrfg Gbjre sbe fgbxrf bcrengvba sbe fhowrpg snyyra vagb sbhaqngvba bs ubhfr.");
+
+    qbGrfg("G9",
+        "NHGB NPPVQRAG JVGU RAGENCZRAG VA SEBAG BS 25493 SYLAA YA VA PUNAGVYYL, OBK 1911, R619 BA FPRAR PBASVEZVAT BAR IRUVPYR BA VG'F FVQR JVGU BAR CG FGVYY VAFVQR\a\a" +
+        "Frag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [40]",
+
+        "PNYY:NHGB NPPVQRAG JVGU RAGENCZRAG VA SEBAG BS",
+        "NQQE:25493 SYLAA YA",
+        "PVGL:PUNAGVYYL",
+        "OBK:1911",
+        "VASB:R619 BA FPRAR PBASVEZVAT BAR IRUVPYR BA VG'F FVQR JVGU BAR CG FGVYY VAFVQR");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgChepryyivyyrISP() {
+
+    qbGrfg("G1",
+        "Pnyy:SVYY-FGNGVBA GENAFSR,500 ZNCYR NIR A-CI Ncg:,K-Fg:UVEFG EQ J & B Q ,RPB2 X626,Obk:0216 'NQP:5039 W07 [85]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[YP602]\a\a" +
+        "--- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP602\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
+
+        "PBQR:SVYY",
+        "PNYY:FGNGVBA GENAFSR",
+        "NQQE:500 ZNCYR NIR A",
+        "PVGL:CHEPRYYIVYYR",
+        "K:UVEFG EQ J & B Q",
+        "HAVG:RPB2 X626",
+        "OBK:0216 'NQP:5039 W07");
+
+    qbGrfg("G2",
+        "Pnyy:10Q02-PURFG CNVA GEB,19 OEVQTR FG A-EU Ncg:,K-Fg:PRQNE FG ZHYOREEL,ER602,Obk:0427 'NQP:5038 U09 [84]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[YP602]\a\a" +
+        "--- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP602\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
+
+        "PBQR:10Q02",
+        "PNYY:PURFG CNVA GEB",
+        "NQQE:19 OEVQTR FG A",
+        "PVGL:EBHAQ UVYY",
+        "K:PRQNE FG & ZHYOREEL",
+        "HAVG:ER602",
+        "OBK:0427 'NQP:5038 U09");
+
+    qbGrfg("G3",
+        "Pnyy:TNF-BHGFVQR TNF YRNX,15223 TENPR CY-JN Ncg:,K-Fg:UBENPR PG  ,X604,Obk:1241X'NQP:4922 P09 [83]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[YP602]\a\a" +
+        "--- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP602\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
+
+        "PBQR:TNF",
+        "PNYY:BHGFVQR TNF YRNX",
+        "NQQE:15223 TENPR CY",
+        "PVGL:JNGRESBEQ",
+        "K:UBENPR PG",
+        "HAVG:X604",
+        "OBK:1241X'NQP:4922 P09");
+
+    qbGrfg("G4",
+        "Pnyy:VAI-VAIRFGVTNGVBA,140 32AQ FG F-CI Ncg:,K-Fg:X FG J Y FG J ,ER602 RPB2,Obk:0237 'NQP:5039 R09 [82]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[YP602]\a\a" +
+        "--- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP602\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
+
+        "PBQR:VAI",
+        "PNYY:VAIRFGVTNGVBA",
+        "NQQE:140 32AQ FG F",
+        "PVGL:CHEPRYYIVYYR",
+        "K:X FG J & Y FG J",
+        "HAVG:ER602 RPB2",
+        "OBK:0237 'NQP:5039 R09");
+
+    qbGrfg("G5",
+        "Pnyy:17Q03-SNYY CNGVRAG A,17171 DHNVY PERRX PVE-UN Ncg:,K-Fg:ZRNQBJYNEX QE PBI,G690,Obk:0523X'NQP:5040 W07 [78]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[YP602]\a\a" +
+        "--- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP602\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
+
+        "PBQR:17Q03",
+        "PNYY:SNYY CNGVRAG A",
+        "NQQE:17171 DHNVY PERRX PVE",
+        "PVGL:UNZVYGBA",
+        "K:ZRNQBJYNEX QE & PBI",
+        "HAVG:G690",
+        "OBK:0523X'NQP:5040 W07");
+
+    qbGrfg("G6",
+        "Pnyy:CV-NHGB NPPVQRAG,38588 PUNEYRF GBJA CVXR-JN Ncg:,K-Fg:BYQ JURNGYNAQ EQ ,ER602 N614P RPB2 NPB14,Obk:0246X'NQP:5040 Q01 [77]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[YP602]\a\a" +
+        "--- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP602\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
+
+        "PBQR:CV",
+        "PNYY:NHGB NPPVQRAG",
+        "NQQE:38588 PUNEYRF GBJA CVXR",
+        "PVGL:JNGRESBEQ",
+        "K:BYQ JURNGYNAQ EQ",
+        "HAVG:ER602 N614P RPB2 NPB14",
+        "OBK:0246X'NQP:5040 Q01");
+
+    qbGrfg("G7",
+        "Pnyy:NHGB-NHGB SVER,UNEEL OLEQ UJL-CI/CHEPRYYIVYYR EQ-CI Ncg:,K-Fg:CHEPRYYIVYYR EQ &,ER602 N614P RPB2 NPB14,Obk:0211Y'NQP:5039 S07 [75]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[YP602]\a\a" +
+        "--- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP602\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
+
+        "PBQR:NHGB",
+        "PNYY:NHGB SVER",
+        "NQQE:UNEEL OLEQ UJL & CHEPRYYIVYYR EQ",
+        "PVGL:CHEPRYYIVYYR",
+        "K:CHEPRYYIVYYR EQ &",
+        "HAVG:ER602 N614P RPB2 NPB14",
+        "OBK:0211Y'NQP:5039 S07");
+
+    qbGrfg("G8",
+        "Pnyy:FS-FGEHPGHER SVER,19844 OYHR EVQTR ZBHAGNVA EQ Ncg:,K-Fg:,G690 OP602 E617 RPB2 R608O,Obk:PP   'NQP: [74]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[YP602]\a\a" +
+        "--- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP602\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
         "PBQR:FS",
         "PNYY:FGEHPGHER SVER",
-        "NQQE:FZVGU FJVGPU EQ & JNKCBBY EQ",
+        "NQQE:19844 OYHR EVQTR ZBHAGNVA EQ",
+        "PVGL:PP",
+        "HAVG:G690 OP602 E617 RPB2 R608O",
+        "OBK:PP   'NQP:");
+
+    qbGrfg("G9",
+        "Pnyy:29O01-NHGB NPPVQRAG ,OREYVA GCXR-CI/CVTTBGG OBGGBZ EQ-CI Ncg:,K-Fg:CVTTBGG OBGGBZ EQ,ER602 N614P RPB2 NPB14,Obk:0208X'NQP:5039 X06 [73]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[YP602]\a\a" +
+        "--- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP602\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
+
+        "PBQR:29O01",
+        "PNYY:NHGB NPPVQRAG",
+        "NQQE:OREYVA GCXR & CVTTBGG OBGGBZ EQ",
+        "PVGL:CHEPRYYIVYYR",
+        "K:CVTTBGG OBGGBZ EQ",
+        "HAVG:ER602 N614P RPB2 NPB14",
+        "OBK:0208X'NQP:5039 X06");
+
+    qbGrfg("G10",
+        "Pnyy:CV-NHGB NPPVQRAG,UVEFG EQ-CI/ONVYRL YA A-CI Ncg:,K-Fg:ONVYRL YA A OEBJA,ER602 Z617P RPB2 NPB14,Obk:0238 'NQP:5039 R07 [72]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[YP602]\a\a" +
+        "--- \a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"YP602\" tebhc.\a" +
+        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb yp602+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
+        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
+
+        "PBQR:CV",
+        "PNYY:NHGB NPPVQRAG",
+        "NQQE:UVEFG EQ & ONVYRL YA A",
+        "PVGL:CHEPRYYIVYYR",
+        "K:ONVYRL YA A & OEBJA",
+        "HAVG:ER602 Z617P RPB2 NPB14",
+        "OBK:0238 'NQP:5039 R07");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgYbhqbhaPbhaglIbyhagrreErfphrFdhnq() {
+
+    qbGrfg("G1",
+        "Pnyy:VYY-VYYARFF         ,113 EBL PG FR-YO Ncg:,K-Fg:FUNAN QE FR  ,Z613P NPB13,Obk:1307 ,NQP:5157 X05 [16]",
+        "PBQR:VYY",
+        "PNYY:VYYARFF",
+        "NQQE:113 EBL PG FR",
+        "PVGL:YRRFOHET",
+        "K:FUNAN QE FR",
+        "HAVG:Z613P NPB13",
+        "OBK:1307",
+        "ZNC:5157 X05");
+
+    qbGrfg("G2",
+        "Pnyy:17O01T-SNYY CBFF QNA,237 SNVEIVRJ FG AJ-YO Ncg:408,K-Fg:NLEYRR NIR AJ EVQ,N613O NY613 NPB13,Obk:0101Z,NQP:5041 U10 [15]",
+        "PBQR:17O01T",
+        "PNYY:SNYY CBFF QNA",
+        "NQQE:237 SNVEIVRJ FG AJ",
+        "NCG:408",
+        "PVGL:YRRFOHET",
+        "K:NLEYRR NIR AJ & EVQ",
+        "HAVG:N613O NY613 NPB13",
+        "OBK:0101Z",
+        "ZNC:5041 U10");
+
+    qbGrfg("G3",
+        "Pnyy:ESVY-FGNGVBA GENAFSR,39071 PBYBAVNY UJL R-UN Ncg:,K-Fg:GJVABNXF CY UNZVY,Z613R,Obk:0531X,NQP:5040 S09 [14]",
+        "PBQR:ESVY",
+        "PNYY:FGNGVBA GENAFSR",
+        "NQQE:39071 PBYBAVNY UJL R",
+        "PVGL:UNZVYGBA",
+        "K:GJVABNXF CY & UNZVY",
+        "HAVG:Z613R",
+        "OBK:0531X",
+        "ZNC:5040 S09");
+
+    qbGrfg("G4",
+        "Pnyy:VAW-VAWHEL          ,125 PYHOUBHFR QE FJ-YO Ncg:T-3,K-Fg:XVAT FG F-YO  ,N613O NPB13,Obk:1309 ,NQP:5157 T04 [13]",
+        "PBQR:VAW",
+        "PNYY:VAWHEL",
+        "NQQE:125 PYHOUBHFR QE FJ",
+        "NCG:T-3",
+        "PVGL:YRRFOHET",
+        "K:XVAT FG & F-YO",
+        "HAVG:N613O NPB13",
+        "OBK:1309",
+        "ZNC:5157 T04");
+
+    qbGrfg("G5",
+        "Pnyy:CVG-NHGB NPPVQRAG - ,WNZRF ZBAEBR UJL-YO/JUVGRF SREEL EQ-YO Ncg:,K-Fg:JUVGRF SREEL EQ &,R601 G620 E613 N610 Z613P OP613 RZ601 RPB20 NPB10,Obk:0104X,NQP:5042 Q06 [12]",
+        "PBQR:CVG",
+        "PNYY:NHGB NPPVQRAG -",
+        "NQQE:WNZRF ZBAEBR UJL & JUVGRF SREEL EQ",
+        "PVGL:YRRFOHET",
+        "K:JUVGRF SREEL EQ &",
+        "HAVG:R601 G620 E613 N610 Z613P OP613 RZ601 RPB20 NPB10",
+        "OBK:0104X",
+        "ZNC:5042 Q06");
+
+    qbGrfg("G6",
+        "Pnyy:ESVY-FGNGVBA GENAFSR,500 ZNCYR NIR A-CI Ncg:,K-Fg:J & B Q OVXR GENV,NPB14 Z613R,Obk:0216 ,NQP:5039 U08 [10]",
+        "PBQR:ESVY",
+        "PNYY:FGNGVBA GENAFSR",
+        "NQQE:500 ZNCYR NIR A",
+        "PVGL:CHEPRYYIVYYR",
+        "K:J & B Q OVXR GENV",
+        "HAVG:NPB14 Z613R",
+        "OBK:0216",
+        "ZNC:5039 U08");
+
+    qbGrfg("G7",
+        "Pnyy:NYF-NYF RZRETRAPL   ,22 CYNMN FG AR-YO Ncg:,K-Fg:ZNEXRG FG R & CYN,Z613P NPB13,Obk:2008 ,NQP:5158 O03 [08]",
+        "PBQR:NYF",
+        "PNYY:NYF RZRETRAPL",
+        "NQQE:22 CYNMN FG AR",
+        "PVGL:YRRFOHET",
+        "K:ZNEXRG FG R & CYN",
+        "HAVG:Z613P NPB13",
+        "OBK:2008",
+        "ZNC:5158 O03");
+
+    qbGrfg("G8",
+        "Pnyy:VAWN-VAWHEL NYF     ,22725 RIRETERRA ZVYYF EQ-YO Ncg:,K-Fg:FCEVATINYYRL YA E,Z609O NPB9 E613,Obk:0936X,NQP:5399 X01 [07]",
+        "PBQR:VAWN",
+        "PNYY:VAWHEL NYF",
+        "NQQE:22725 RIRETERRA ZVYYF EQ",
+        "PVGL:YRRFOHET",
+        "K:FCEVATINYYRL YA & E",
+        "HAVG:Z609O NPB9 E613",
+        "OBK:0936X",
+        "ZNC:5399 X01");
+
+    qbGrfg("G9",
+        "Pnyy:TNF-BHGFVQR TNF YRNX,15223 TENPR CY-JN Ncg:,K-Fg:UBENPR PG  ,PH613,Obk:1241X,NQP:4922 P09 [05]",
+        "PBQR:TNF",
+        "PNYY:BHGFVQR TNF YRNX",
+        "NQQE:15223 TENPR CY",
+        "PVGL:JNGRESBEQ",
+        "K:UBENPR PG",
+        "HAVG:PH613",
+        "OBK:1241X",
+        "ZNC:4922 P09");
+
+    qbGrfg("G10",
+        "Pnyy:26P01-VYYARFF NYGRER,316 UNEEVFBA FG FR-YO Ncg:319,K-Fg:FBHGU FG FR QRCBG,Z613R NPB13,Obk:1303Z,NQP:5157 X03 [04]",
+        "PBQR:26P01",
+        "PNYY:VYYARFF NYGRER",
+        "NQQE:316 UNEEVFBA FG FR",
+        "NCG:319",
+        "PVGL:YRRFOHET",
+        "K:FBHGU FG FR & QRCBG",
+        "HAVG:Z613R NPB13",
+        "OBK:1303Z",
+        "ZNC:5157 X03");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgYbhqbhaPbhaglIbyhagrreErfphrFdhnq2() {
+
+    qbGrfg("G1",
+        "Ohea Vawhel jvgu Sylbhg - 25720 Ubcrsvryq Cy., Fbhgu Evqvat, Obk 1910, R619 erdhrfgvat uryvpbcgre.\a\a" +
+        "Frag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [26]",
+
+        "PNYY:Ohea Vawhel jvgu Sylbhg",
+        "NQQE:25720 Ubcrsvryq Cy",
+        "PVGL:Fbhgu Evqvat",
+        "OBK:1910",
+        "VASB:R619 erdhrfgvat uryvpbcgre.");
+
+    qbGrfg("G2",
+        "FUBBGVAT - SYLBHG - 1100 OYBPX NYOREZNEYR EQ - FGREYVAT - OBK 1127 - R611 BA FPRAR ERDHRFGVAT URYB SBE ZRQRINP - YPFB UNAQYVAT FPRAR\a\a" +
+        "Frag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [63]",
+
+        "PNYY:FUBBGVAT - SYLBHG",
+        "NQQE:1100 OYBPX NYOREZNEYR EQ",
+        "ZNQQE:1100 NYOREZNEYR EQ",
+        "PVGL:FGREYVAT",
+        "OBK:1127",
+        "VASB:R611 BA FPRAR ERDHRFGVAT URYB SBE ZRQRINP - YPFB UNAQYVAT FPRAR");
+
+    qbGrfg("G3",
+        "UBHFR SVER - 14311 CNEVF OERRMR CYNPR  CHEPRYYIVYYR OBK 2614X.  R616 BA FPRAR JVGU SVER VA GUR ONFRZRAG.\a\a" +
+        "Frag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [31]",
+
+        "PNYY:UBHFR SVER",
+        "NQQE:14311 CNEVF OERRMR CYNPR",
+        "PVGL:CHEPRYYIVYYR",
+        "OBK:2614X",
+        "VASB:R616 BA FPRAR JVGU SVER VA GUR ONFRZRAG.");
+
+    qbGrfg("G4",
+        "NHGB NPPVQRAG JVGU RAGENCZRAG BA PRQNE TERRA EQ WHFG BSS BS FUNJ EQ, FGREYVAT, OBK 2433 R624 PBASVEZRQ 1 CG GENCCRQ VA N FVATYR IRUVPYR NPPVQRAG.\a\a" +
+        "Frag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [21]",
+
+        "PNYY:NHGB NPPVQRAG JVGU RAGENCZRAG BA PRQNE",
+        "NQQE:TERRA EQ",
+        "CYNPR:WHFG BSS BS FUNJ EQ",
+        "PVGL:FGREYVAT",
+        "OBK:2433",
+        "VASB:R624 PBASVEZRQ 1 CG GENCCRQ VA N FVATYR IRUVPYR NPPVQRAG.");
+
+    qbGrfg("G5",
+        "Hcqngr ba Ncnegzrag Sver - 20965 Gvzore Evqtr Gree., Nfuohea, Obk 0623, Pbzznaq erdhrfgvat Yriry 1 EVG\a\a" +
+        "Frag ol YPSE gb !Sver/Erfphr/Znwbe Vapvqrag ivn EFNA [17]",
+
+        "PNYY:Hcqngr ba Ncnegzrag Sver",
+        "NQQE:20965 Gvzore Evqtr Gree",
+        "PVGL:Nfuohea",
+        "OBK:0623",
+        "VASB:Pbzznaq erdhrfgvat Yriry 1 EVG");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgYbhqbhaPbhaglSverErfphr() {
+
+    qbGrfg("G1",
+        "(Ybhqbha PNQ) PNYY:19P02-URNEG CEBOYRZ , 20045 NFUOEBBX PBZZBAF CYM-NO NCG: K-FG:CERZVRE CYM EHFFRYY OENAPU CXJL ,Z606 NPB6, OBK:0627  NQP:5279 R01 SQVQ:99624      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=R7752478PNPNQ4516PO65996PPR7QP14590P92O7447N1P55     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:19P02",
+        "PNYY:URNEG CEBOYRZ",
+        "NQQE:20045 NFUOEBBX PBZZBAF CYM",
         "PVGL:NFUOHEA",
-        "K:JNKCBBY EQ & SNEZJRYY EQ",
-        "HAVG:R623 R606P R611 R622O G606 GY611 E439 N6232 OP601 OP603 RZ600 FB600 RPB23 N",
-        "OBK:2321",
-        "ZNC:5279 S08",
-        "VQ:10723 10706 10711 05900 10700 10719");
+        "K:CERZVRE CYM EHFFRYY OENAPU CXJL",
+        "HAVG:Z606 NPB6",
+        "OBK:0627",
+        "ZNC:5279 R01",
+        "VQ:99624",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=R7752478PNPNQ4516PO65996PPR7QP14590P92O7447N1P55");
+
+    qbGrfg("G2",
+        "(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, WNZRF ZBAEBR UJL-YO/YHPXRGGF EQ-YO NCG: K-FG:YHPXRGGF EQ & FGHZCGBJA EQ TYRAEBFR GRE ,R610 N610 RPB10 NPB10, OBK:1021X NQP:4924 R06 SQVQ:10710      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=Q762SS5R33423O694NNO5NQO37N9PQ209R604N6282177O96     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:CV",
+        "PNYY:NHGB NPPVQRAG",
+        "NQQE:WNZRF ZBAEBR UJL & YHPXRGGF EQ",
+        "PVGL:YRRFOHET",
+        "K:YHPXRGGF EQ & FGHZCGBJA EQ TYRAEBFR GRE",
+        "HAVG:R610 N610 RPB10 NPB10",
+        "OBK:1021X",
+        "ZNC:4924 R06",
+        "VQ:10710",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=Q762SS5R33423O694NNO5NQO37N9PQ209R604N6282177O96");
+
+    qbGrfg("G3",
+        "(Ybhqbha PNQ) PNYY:VAW-VAWHEL, 404 OEBJAVAT PG-CI NCG:P K-FG:UVEFG EQ  ,N614 NPB14, OBK:0238  NQP:5039 R07 SQVQ:99081      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=4PN5063575282NQ107Q953389R7P3NQ0R768O3SS6S829O0Q     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:VAW",
+        "PNYY:VAWHEL",
+        "NQQE:404 OEBJAVAT PG",
+        "NCG:P",
+        "PVGL:CHEPRYYIVYYR",
+        "K:UVEFG EQ",
+        "HAVG:N614 NPB14",
+        "OBK:0238",
+        "ZNC:5039 R07",
+        "VQ:99081",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=4PN5063575282NQ107Q953389R7P3NQ0R768O3SS6S829O0Q");
+
+    qbGrfg("G4",
+        "(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, UNEEL OLEQ UJL-FC/PVGL PRAGRE OYIQ-FC NCG: K-FG:PVGL PRAGRE OYIQ PBHAGELFVQR OYIQ ,Z625, OBK:2410  NQP:5280 Q05 SQVQ:10711 99076      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=SN39N79S9NPPP6P9P7791631RNR1N4NNNO5OS63Q1S170PO4     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:CV",
+        "PNYY:NHGB NPPVQRAG",
+        "NQQE:UNEEL OLEQ UJL & PVGL PRAGRE OYIQ",
+        "PVGL:FGREYVAT",
+        "K:PVGL PRAGRE OYIQ & PBHAGELFVQR OYIQ",
+        "HAVG:Z625",
+        "OBK:2410",
+        "ZNC:5280 Q05",
+        "VQ:10711 99076",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=SN39N79S9NPPP6P9P7791631RNR1N4NNNO5OS63Q1S170PO4");
+
+    qbGrfg("G5",
+        "(Ybhqbha PNQ) PNYY:CQ-CEBCREGL QNZNTR N, UNEEL OLEQ UJL-FC/PVGL PRAGRE OYIQ-FC NCG: K-FG:PVGL PRAGRE OYIQ PBHAGELFVQR OYIQ ,R611O N625O RPB24 NPB35, OBK:2410  NQP:5280 Q05 SQVQ:10711 99076      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=R0PN031RO33P9Q87673024R613618O2002Q1601P682P30N9     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:CQ",
+        "PNYY:CEBCREGL QNZNTR N",
+        "NQQE:UNEEL OLEQ UJL & PVGL PRAGRE OYIQ",
+        "PVGL:FGREYVAT",
+        "K:PVGL PRAGRE OYIQ & PBHAGELFVQR OYIQ",
+        "HAVG:R611O N625O RPB24 NPB35",
+        "OBK:2410",
+        "ZNC:5280 Q05",
+        "VQ:10711 99076",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=R0PN031RO33P9Q87673024R613618O2002Q1601P682P30N9");
+
+    qbGrfg("G6",
+        "(Ybhqbha PNQ) PNYY:VYY-VYYARFF, 113 EBL PG FR-YO NCG: K-FG:FUNAN QE FR  ,Z613P NPB13, OBK:1307  NQP:5157 X05 SQVQ:99398      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=PN057703Q52S9S0P400Q82OP4900R7OQO9421N4254PRSO70     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:VYY",
+        "PNYY:VYYARFF",
+        "NQQE:113 EBL PG FR",
+        "PVGL:YRRFOHET",
+        "K:FUNAN QE FR",
+        "HAVG:Z613P NPB13",
+        "OBK:1307",
+        "ZNC:5157 X05",
+        "VQ:99398",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=PN057703Q52S9S0P400Q82OP4900R7OQO9421N4254PRSO70");
+
+    qbGrfg("G7",
+        "(Ybhqbha PNQ) PNYY:17O01T-SNYY CBFF QNA, 237 SNVEIVRJ FG AJ-YO NCG:408 K-FG:NLEYRR NIR AJ EVQVAT GENVY PG AJ ,N613O NY613 NPB13, OBK:0101Z NQP:5041 U10 SQVQ:99398      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=8014061700P2N37R07P298QNP6R8201NP3P8826SS8Q3PR49     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:17O01T",
+        "PNYY:SNYY CBFF QNA",
+        "NQQE:237 SNVEIVRJ FG AJ",
+        "NCG:408",
+        "PVGL:YRRFOHET",
+        "K:NLEYRR NIR AJ & EVQVAT GENVY PG AJ",
+        "HAVG:N613O NY613 NPB13",
+        "OBK:0101Z",
+        "ZNC:5041 U10",
+        "VQ:99398",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=8014061700P2N37R07P298QNP6R8201NP3P8826SS8Q3PR49");
+
+    qbGrfg("G8",
+        "(Ybhqbha PNQ) PNYY:CV-NHGB NPPVQRAG, 2085 UNGPUREF ZVYY EQ NCG: K-FG:,R603 Z603 RPB3 NPB3, OBK:SD    NQP: SQVQ:10703 99453      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=979S966P5PQQQO06OQ4SS2S23N766559O7QSQ633811S8NR5     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:CV",
+        "PNYY:NHGB NPPVQRAG",
+        "NQQE:2085 UNGPUREF ZVYY EQ",
+        "PVGL:SNHDHVRE PBHAGL",
+        "HAVG:R603 Z603 RPB3 NPB3",
+        "OBK:SD",
+        "VQ:10703 99453",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=979S966P5PQQQO06OQ4SS2S23N766559O7QSQ633811S8NR5");
+
+    qbGrfg("G9",
+        "(Ybhqbha PNQ) PNYY:NYEZ-SVER NYNEZ, 20775 PRAGHEL PBEARE QE-NO NCG: K-FG:ANVFZVGU GRE & FLPBYVA EQ XVYQBANA QE ,R606 RPB6, OBK:0615  NQP:5278 T04 SQVQ:10706      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=4925PSOO2OSO6408R94398175R74P80Q04OP7P0R71SO1OSS     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:NYEZ",
+        "PNYY:SVER NYNEZ",
+        "NQQE:20775 PRAGHEL PBEARE QE",
+        "PVGL:NFUOHEA",
+        "K:ANVFZVGU GRE & FLPBYVA EQ XVYQBANA QE",
+        "HAVG:R606 RPB6",
+        "OBK:0615",
+        "ZNC:5278 T04",
+        "VQ:10706",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=4925PSOO2OSO6408R94398175R74P80Q04OP7P0R71SO1OSS");
+
+    qbGrfg("G10",
+        "(Ybhqbha PNQ) PNYY:ESVY-FGNGVBA GENAFSR, 39071 PBYBAVNY UJL R-UN NCG: K-FG:GJVABNXF CY UNZVYGBA FGNGVBA EQ ,Z613R, OBK:0531X NQP:5040 S09 SQVQ:99080 99398      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=08Q9608R4521597980RQ81O5096QO97044552O7569Q956O9     Cyrnfr pyvpx gb pbasvez",
+        "PBQR:ESVY",
+        "PNYY:FGNGVBA GENAFSR",
+        "NQQE:39071 PBYBAVNY UJL R",
+        "PVGL:UNZVYGBA",
+        "K:GJVABNXF CY & UNZVYGBA FGNGVBA EQ",
+        "HAVG:Z613R",
+        "OBK:0531X",
+        "ZNC:5040 S09",
+        "VQ:99080 99398",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=08Q9608R4521597980RQ81O5096QO97044552O7569Q956O9");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgYbhqbhaPbhaglSverErfphr2() {
+
+    qbGrfg("G1",
+        "(NHGB NPPVQRAG RAGENCZRAG) NHGB NPPVQRAG RAGENCZRAG - JUVGRF SREEL EQ/WNZRF ZBAEBR UJL - YRRFOHET - OBK 0104X - R601 BA FPRAR ERCBEGVAT BAR IRUVPYR BA FVQR JVGU BAR PBASVEZRQ RAGENCZRAG       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=Q9Q0RS45S5531N68570NS4P6O3N4Q9529376SS1721706R2O     Cyrnfr pyvpx gb pbasvez",
+        "PNYY:NHGB NPPVQRAG RAGENCZRAG",
+        "NQQE:JUVGRF SREEL EQ & WNZRF ZBAEBR UJL",
+        "PVGL:YRRFOHET",
+        "OBK:0104X",
+        "VASB:R601 BA FPRAR ERCBEGVAT BAR IRUVPYR BA FVQR JVGU BAR PBASVEZRQ RAGENCZRAG",
+        "HEY:uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=Q9Q0RS45S5531N68570NS4P6O3N4Q9529376SS1721706R2O");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgFgreyvatISP() {
+
+    qbGrfg("G1",
+        "([CNTRE-QVFCNGPU] ) Pnyy:CQ-CEBCREGL QNZNTR N,UNEEL OLEQ UJL-FC/PVGL PRAGRE OYIQ-FC Ncg:,K-Fg:PVGL PRAGRE OYIQ ,R611O N625O RPB24 NPB35,Obk:2410 ,NQP:5280 Q05 [97]",
+        "PBQR:CQ",
+        "PNYY:CEBCREGL QNZNTR N",
+        "NQQE:UNEEL OLEQ UJL & PVGL PRAGRE OYIQ",
+        "PVGL:FGREYVAT",
+        "K:PVGL PRAGRE OYIQ",
+        "HAVG:R611O N625O RPB24 NPB35",
+        "OBK:2410",
+        "ZNC:5280 Q05");
+
+    qbGrfg("G2",
+        "([CNTRE-QVFCNGPU] ) Pnyy:CVG-NHGB NPPVQRAG - ,JNKCBBY EQ-FC/CNPVSVP OYIQ-FC Ncg:,K-Fg:CNPVSVP OYIQ OEBQ,R611O G606 E615 Z635 Z623 OP601 RZ601 RPB24 NPB35,Obk:2431 ,NQP:5279 X09 [96]",
+        "PBQR:CVG",
+        "PNYY:NHGB NPPVQRAG -",
+        "NQQE:JNKCBBY EQ & CNPVSVP OYIQ",
+        "PVGL:FGREYVAT",
+        "K:CNPVSVP OYIQ & OEBQ",
+        "HAVG:R611O G606 E615 Z635 Z623 OP601 RZ601 RPB24 NPB35",
+        "OBK:2431",
+        "ZNC:5279 X09");
+
+    qbGrfg("G3",
+        "([CNTRE-QVFCNGPU] ) Pnyy:NZC-NZCHGNGVBA,108 LRJ PG-FC Ncg:,K-Fg:FVYIREYRNS QE & O,Z635 NPB15 R611,Obk:1126 ,NQP:5402 S02 [95]",
+        "PBQR:NZC",
+        "PNYY:NZCHGNGVBA",
+        "NQQE:108 LRJ PG",
+        "PVGL:FGREYVAT",
+        "K:FVYIREYRNS QE & O",
+        "HAVG:Z635 NPB15 R611",
+        "OBK:1126",
+        "ZNC:5402 S02");
+
+    qbGrfg("G4",
+        "([CNTRE-QVFCNGPU] ) Pnyy:FS-FGEHPGHER SVER,20850 UNEQJBBQ SBERFG QE-FC Ncg:,K-Fg:NYTBAXVNA CXJL TE,R618 R439 D624 R611 GY611 G606 E439 N625O OP601 OP613 RPB18 NPB25,Obk:1811 ,NQP:5281 P04 [94]",
+        "PBQR:FS",
+        "PNYY:FGEHPGHER SVER",
+        "NQQE:20850 UNEQJBBQ SBERFG QE",
+        "PVGL:FGREYVAT",
+        "K:NYTBAXVNA CXJL & TE",
+        "HAVG:R618 R439 D624 R611 GY611 G606 E439 N625O OP601 OP613 RPB18 NPB25",
+        "OBK:1811",
+        "ZNC:5281 P04");
+
+    qbGrfg("G5",
+        "([CNTRE-QVFCNGPU] ) Pnyy:EYB-YBPXBHG ERFVQRAG,45610 VEBA UBEFR GRE-FC Ncg:,K-Fg:OBK PNE FD OBK PN,RPB11 GY611,Obk:1109 ,NQP:5280 P09 [92]",
+        "PBQR:EYB",
+        "PNYY:YBPXBHG ERFVQRAG",
+        "NQQE:45610 VEBA UBEFR GRE",
+        "PVGL:FGREYVAT",
+        "K:OBK PNE FD & OBK PN",
+        "HAVG:RPB11 GY611",
+        "OBK:1109",
+        "ZNC:5280 P09");
+
+    qbGrfg("G6",
+        "([CNTRE-QVFCNGPU] ) Pnyy:NYEZ-SVER NYNEZ,1201 OBAQ FGERRG Ncg:,K-Fg:,R611 RPB11,Obk:SK11 ,NQP: [91]",
+        "PBQR:NYEZ",
+        "PNYY:SVER NYNEZ",
+        "NQQE:1201 OBAQ FGERRG",
+        "PVGL:SNVESNK PBHAGL",
+        "HAVG:R611 RPB11",
+        "OBK:SK11");
+
+    qbGrfg("G7",
+        "([CNTRE-QVFCNGPU] ) Pnyy:GEX-GEHPX SVER,FHYYL EQ-FC/JNKCBBY EQ-FC Ncg:,K-Fg:JNKCBBY EQ J & B ,R611 D624 Z615 OP601 FB600 RPB24 NPB35,Obk:2432Y,NQP:5280 N10 [89]",
+        "PBQR:GEX",
+        "PNYY:GEHPX SVER",
+        "NQQE:FHYYL EQ & JNKCBBY EQ",
+        "PVGL:FGREYVAT",
+        "K:JNKCBBY EQ J & B",
+        "HAVG:R611 D624 Z615 OP601 FB600 RPB24 NPB35",
+        "OBK:2432Y",
+        "ZNC:5280 N10");
+
+    qbGrfg("G8",
+        "([CNTRE-QVFCNGPU] ) Pnyy:28P01-FGEBXR CNGVRAG,45800 WBAN QE-FC Ncg:312,K-Fg:PBHAGELFVQR OYIQ ,N615 NY625 NPB35 D624,Obk:2405Z,NQP:5280 Q04 [88]",
+        "PBQR:28P01",
+        "PNYY:FGEBXR CNGVRAG",
+        "NQQE:45800 WBAN QE",
+        "NCG:312",
+        "PVGL:FGREYVAT",
+        "K:PBHAGELFVQR OYIQ",
+        "HAVG:N615 NY625 NPB35 D624",
+        "OBK:2405Z",
+        "ZNC:5280 Q04");
+
+    qbGrfg("G9",
+        "([CNTRE-QVFCNGPU] ) Pnyy:31P01-SNVAGRQ NYREG ,21252 UHAGVATGBA FD-FC Ncg:102,K-Fg:FCEVATYNXR PG SRF,Z635 NPB25 R618,Obk:1838 ,NQP:5280 S06 [86]",
+        "PBQR:31P01",
+        "PNYY:SNVAGRQ NYREG",
+        "NQQE:21252 UHAGVATGBA FD",
+        "NCG:102",
+        "PVGL:FGREYVAT",
+        "K:FCEVATYNXR PG & SRF",
+        "HAVG:Z635 NPB25 R618",
+        "OBK:1838",
+        "ZNC:5280 S06");
+
+    qbGrfg("G10",
+        "([CNTRE-QVFCNGPU] ) Pnyy:26B08-VYYARFF PENZCF,21250 UHAGVATGBA FD-FC Ncg:303,K-Fg:FCEVATYNXR PG SRF,N615 NPB25 R618,Obk:1838 ,NQP:5280 S06 [85]",
+        "PBQR:26B08",
+        "PNYY:VYYARFF PENZCF",
+        "NQQE:21250 UHAGVATGBA FD",
+        "NCG:303",
+        "PVGL:FGREYVAT",
+        "K:FCEVATYNXR PG & SRF",
+        "HAVG:N615 NPB25 R618",
+        "OBK:1838",
+        "ZNC:5280 S06");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgFgreyvatErfphrFdhnq() {
+
+    qbGrfg("G1",
+        "Pnyy:CV-NHGB NPPVQRAG,UNEEL OLEQ UJL-FC/PVGL PRAGRE OYIQ-FC Ncg:,K-Fg:PVGL PRAGRE OYIQ ,Z625,Obk:2410 ,NQP:5280 Q05 [50]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]",
+
+        "PBQR:CV",
+        "PNYY:NHGB NPPVQRAG",
+        "NQQE:UNEEL OLEQ UJL & PVGL PRAGRE OYIQ",
+        "PVGL:FGREYVAT",
+        "K:PVGL PRAGRE OYIQ",
+        "HAVG:Z625",
+        "OBK:2410",
+        "ZNC:5280 Q05");
+
+    qbGrfg("G2",
+        "Pnyy:CQ-CEBCREGL QNZNTR N,UNEEL OLEQ UJL-FC/PVGL PRAGRE OYIQ-FC Ncg:,K-Fg:PVGL PRAGRE OYIQ ,R611O N625O RPB24 NPB35,Obk:2410 ,NQP:5280 Q05 [49]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]",
+
+        "PBQR:CQ",
+        "PNYY:CEBCREGL QNZNTR N",
+        "NQQE:UNEEL OLEQ UJL & PVGL PRAGRE OYIQ",
+        "PVGL:FGREYVAT",
+        "K:PVGL PRAGRE OYIQ",
+        "HAVG:R611O N625O RPB24 NPB35",
+        "OBK:2410",
+        "ZNC:5280 Q05");
+
+    qbGrfg("G3",
+        "Pnyy:CVG-NHGB NPPVQRAG - ,JNKCBBY EQ-FC/CNPVSVP OYIQ-FC Ncg:,K-Fg:CNPVSVP OYIQ OEBQ,R611O G606 E615 Z635 Z623 OP601 RZ601 RPB24 NPB35,Obk:2431 ,NQP:5279 X09 [47]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]",
+
+        "PBQR:CVG",
+        "PNYY:NHGB NPPVQRAG -",
+        "NQQE:JNKCBBY EQ & CNPVSVP OYIQ",
+        "PVGL:FGREYVAT",
+        "K:CNPVSVP OYIQ & OEBQ",
+        "HAVG:R611O G606 E615 Z635 Z623 OP601 RZ601 RPB24 NPB35",
+        "OBK:2431",
+        "ZNC:5279 X09");
+
+    qbGrfg("G4",
+        "Pnyy:NZC-NZCHGNGVBA,108 LRJ PG-FC Ncg:,K-Fg:FVYIREYRNS QE & O,Z635 NPB15 R611,Obk:1126 ,NQP:5402 S02 [46]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]",
+
+        "PBQR:NZC",
+        "PNYY:NZCHGNGVBA",
+        "NQQE:108 LRJ PG",
+        "PVGL:FGREYVAT",
+        "K:FVYIREYRNS QE & O",
+        "HAVG:Z635 NPB15 R611",
+        "OBK:1126",
+        "ZNC:5402 S02");
+
+    qbGrfg("G5",
+        "Pnyy:FS-FGEHPGHER SVER,20850 UNEQJBBQ SBERFG QE-FC Ncg:,K-Fg:NYTBAXVNA CXJL TE,R618 R439 D624 R611 GY611 G606 E439 N625O OP601 OP613 RPB18 NPB25,Obk:1811 ,NQP:5281 P04 [45]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]",
+
+        "PBQR:FS",
+        "PNYY:FGEHPGHER SVER",
+        "NQQE:20850 UNEQJBBQ SBERFG QE",
+        "PVGL:FGREYVAT",
+        "K:NYTBAXVNA CXJL & TE",
+        "HAVG:R618 R439 D624 R611 GY611 G606 E439 N625O OP601 OP613 RPB18 NPB25",
+        "OBK:1811",
+        "ZNC:5281 P04");
+
+    qbGrfg("G6",
+        "Pnyy:26P01-VYYARFF NYGRER,21776 PNABCL GRE-FC Ncg:,K-Fg:ZNEVTBYQ PVE  ,Z615 NPB15,Obk:1110 ,NQP:5280 W08 [44]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]",
+
+        "PBQR:26P01",
+        "PNYY:VYYARFF NYGRER",
+        "NQQE:21776 PNABCL GRE",
+        "PVGL:FGREYVAT",
+        "K:ZNEVTBYQ PVE",
+        "HAVG:Z615 NPB15",
+        "OBK:1110",
+        "ZNC:5280 W08");
+
+    qbGrfg("G7",
+        "Pnyy:GO-GEBHOYR OERNGUVAT,47387 ZPPNEGULF VFYNAQ PG-FC Ncg:,K-Fg:EVIRE ONAX FG  ,Z625 NPB25,Obk:1811 ,NQP:5281 P02 [43]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]",
+
+        "PBQR:GO",
+        "PNYY:GEBHOYR OERNGUVAT",
+        "NQQE:47387 ZPPNEGULF VFYNAQ PG",
+        "PVGL:FGREYVAT",
+        "K:EVIRE ONAX FG",
+        "HAVG:Z625 NPB25",
+        "OBK:1811",
+        "ZNC:5281 P02");
+
+    qbGrfg("G8",
+        "Pnyy:PGJ-PURPX GUR JRYSNE,46565 UNEEL OLEQ UJL-FC Ncg:122,K-Fg:CBGBZNP IVRJ EQ F,Z625 NPB25,Obk:1839Z,NQP:5280 U07 [42]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]",
+
+        "PBQR:PGJ",
+        "PNYY:PURPX GUR JRYSNE",
+        "NQQE:46565 UNEEL OLEQ UJL",
+        "NCG:122",
+        "PVGL:FGREYVAT",
+        "K:CBGBZNP IVRJ EQ F",
+        "HAVG:Z625 NPB25",
+        "OBK:1839Z",
+        "ZNC:5280 U07");
+
+    qbGrfg("G9",
+        "Pnyy:VYY-VYYARFF,22355 CEBIVQRAPR IVYYNTR QE-FC Ncg:131,K-Fg:FRQTRZBBE FD YNAP,Z615 NPB15,Obk:1120Z,NQP:5402 S01 [41]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]",
+
+        "PBQR:VYY",
+        "PNYY:VYYARFF",
+        "NQQE:22355 CEBIVQRAPR IVYYNTR QE",
+        "NCG:131",
+        "PVGL:FGREYVAT",
+        "K:FRQTRZBBE FD & YNAP",
+        "HAVG:Z615 NPB15",
+        "OBK:1120Z",
+        "ZNC:5402 S01");
+
+    qbGrfg("G10",
+        "Pnyy:GEX-GEHPX SVER,FHYYL EQ-FC/JNKCBBY EQ-FC Ncg:,K-Fg:JNKCBBY EQ J & B ,R611 D624 Z615 OP601 FB600 RPB24 NPB35,Obk:2432Y,NQP:5280 N10 [39]\a\a" +
+        "-- \a" +
+        "-- \a" +
+        "[Qvfcngpu-Cntr]",
+
+        "PBQR:GEX",
+        "PNYY:GEHPX SVER",
+        "NQQE:FHYYL EQ & JNKCBBY EQ",
+        "PVGL:FGREYVAT",
+        "K:JNKCBBY EQ J & B",
+        "HAVG:R611 D624 Z615 OP601 FB600 RPB24 NPB35",
+        "OBK:2432Y",
+        "ZNC:5280 N10");
 
   }
   

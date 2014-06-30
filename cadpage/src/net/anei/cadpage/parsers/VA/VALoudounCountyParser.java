@@ -12,19 +12,91 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class VALoudounCountyParser extends FieldProgramParser {
   
+  private static final Pattern EVERGREEN_URL_PTN = Pattern.compile("  +(HTTPS://(?:WWW|DEN2)\\.EVERBRIDGE\\.NET/NNS/EMAILRESPONSE\\.DO\\?CPTH_ID=[^ ]+)  +", Pattern.CASE_INSENSITIVE);
+  private static final Pattern BOX_PTN = Pattern.compile("[- .,]+BOX +([A-Z0-9]+)[- .,]*", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SEPARATOR_PTN = Pattern.compile("(.*)(?:,| - )(.*)");
+  
   private static final Pattern MISSING_COMMA_PTN = Pattern.compile("(?<!,) (?=APT:|X-ST:|BOX:|ADC:|FDID:)");
   private static final Pattern TRAILER_PTN = Pattern.compile(" +(?:(\\d\\d?:\\d\\d? +[AP]M)|\\[\\d*\\]?)$");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm aa");
   public VALoudounCountyParser() {
-    super("LOUDOUN COUNTY", "VA",
+    super(CITY_LIST, "LOUDOUN COUNTY", "VA",
           "CALL:CALL! ADDR/y! APT:APT! X-ST:X! UNIT BOX:BOX% ADC:MAP% FDID:ID");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "Message_Notification@usamobility.net,@everbridge.net";
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    // Evergreen adds a URL at the end of the alert
+    Matcher match = EVERGREEN_URL_PTN.matcher(body);
+    if (match.find()) {
+      data.strInfoURL = match.group(1);
+      body = body.substring(0,match.start());
+      if (!body.startsWith("CALL:")) body += "\n\nSent by LCFR";
+    }
+    
+    // Check for alternate format
+    int pt = body.indexOf("\n\nSent by LCFR");
+    if (pt >= 0) {
+      body = body.substring(0,pt).trim();
+      match = BOX_PTN.matcher(body);
+      if (!match.find()) {
+        data.strCall = "GENERAL ALERT";
+        data.strPlace = body;
+        return true;
+      }
+      
+      setFieldList("CALL ADDR APT PLACE CITY BOX INFO");
+      String sAddr = body.substring(0,match.start());
+      data.strBox = match.group(1);
+      data.strSupp = body.substring(match.end());
+      
+      match = SEPARATOR_PTN.matcher(sAddr);
+      if (match.matches()) {
+        String city = match.group(2).trim();
+        if (isCity(city)) {
+          data.strCity = city;
+          sAddr = match.group(1).trim();
+          match = SEPARATOR_PTN.matcher(sAddr);
+          if (match.matches()) {
+            data.strCall = match.group(1).trim();
+            sAddr = match.group(2).trim();
+          }
+        } else {
+          data.strCall = match.group(1).trim();
+          sAddr = city;
+        }
+      }
+      
+      StartType st = StartType.START_CALL;
+      int flags = FLAG_START_FLD_REQ;
+      if (data.strCall.length() > 0) {
+        st = StartType.START_ADDR;
+        flags = 0;
+      }
+      if (data.strCity.length() > 0) {
+        flags |= FLAG_NO_CITY;
+      } else {
+        flags |= FLAG_PAD_FIELD;
+      }
+      parseAddress(st, flags, sAddr, data);
+      String place = getLeft();
+      if (place.length() == 0) place = getPadField();
+      if (data.strCity.length() == 0 && place.toUpperCase().startsWith("IN ")) {
+        data.strCity = place.substring(3).trim();
+      } else {
+        data.strPlace = place;
+      }
+      return true;
+    }
+    
     // Strip off trailing disclaimer
-    int pt = body.indexOf('\n');
+    pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
     
     // There are two different related formats, upshifting the text string
@@ -34,7 +106,7 @@ public class VALoudounCountyParser extends FieldProgramParser {
     // So does adding missing comma delimiters
     // A simple replaceAll doesn't seem to work with lookahead and lookbehind groups :(
     StringBuffer sb = new StringBuffer();
-    Matcher match = MISSING_COMMA_PTN.matcher(body);
+    match = MISSING_COMMA_PTN.matcher(body);
     while (match.find()) match.appendReplacement(sb, ",");
     match.appendTail(sb);
     body = sb.toString();
@@ -71,7 +143,7 @@ public class VALoudounCountyParser extends FieldProgramParser {
   }
   
   public String getProgram() {
-    return super.getProgram().replace("X", "X UNIT").replace("CITY", "CITY ST") + " TIME";
+    return super.getProgram().replace("X", "X UNIT").replace("CITY", "CITY ST") + " TIME URL";
   }
   
   @Override
@@ -158,4 +230,78 @@ public class VALoudounCountyParser extends FieldProgramParser {
       "PW", "PRINCE WILLIAM COUNTY"
 
    });
+  
+  private static final String[] CITY_LIST = new String[]{
+
+    // Towns
+    "HAMILTON",
+    "HILLSBORO",
+    "LEESBURG",
+    "LOVETTSVILLE",
+    "MIDDLEBURG",
+    "PURCELLVILLE",
+    "ROUND HILL",
+
+    // Unincorporated communities
+    "AIRMONT",
+    "ALDIE",
+    "ARCOLA",
+    "ASHBURN",
+    "BELMONT",
+    "BLOOMFIELD",
+    "BLUEMONT",
+    "BRAMBLETON",
+    "BRITAIN",
+    "BROADLANDS",
+    "CONKLIN",
+    "DOVER",
+    "DULLES",
+    "ELVAN",
+    "EUBANKS",
+    "GEORGES MILL",
+    "GILBERTS CORNER",
+    "GLEEDSVILLE",
+    "HOWARDSVILLE",
+    "LANSDOWNE",
+    "LEITHTOWN",
+    "LENAH",
+    "LINCOLN",
+    "LOUDOUN HEIGHTS",
+    "LUCKETTS",
+    "MORRISONVILLE",
+    "MOUNT GILEAD",
+    "NEERSVILLE",
+    "OAK GROVE",
+    "OATLANDS",
+    "PAEONIAN SPRINGS",
+    "PAXSON",
+    "PHILOMONT",
+    "POTOMAC FALLS",
+    "POTOMAC GREEN",
+    "RANDOLPH CORNER",
+    "RIVER CREEK",
+    "RYAN",
+    "SAINT LOUIS",
+    "SCATTERSVILLE",
+    "SILCOTT SPRING",
+    "SOUTH RIDING",
+    "STERLING",
+    "STERLING PARK",
+    "STEWARTOWN",
+    "STONE RIDGE",
+    "STUMPTOWN",
+    "SYCOLIN",
+    "TAYLORSTOWN",
+    "TELEGRAPH SPRING",
+    "TRAPP",
+    "UNISON",
+    "VIRTS CORNER",
+    "WATERFORD",
+    "WATSON",
+    "WAXPOOL",
+    "WHEATLAND",
+    "WILLARD",
+    "WILLISVILLE",
+    "WOODBURN"
+  };
 }
