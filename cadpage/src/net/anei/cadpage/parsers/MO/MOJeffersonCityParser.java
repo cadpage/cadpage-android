@@ -3,19 +3,20 @@ package net.anei.cadpage.parsers.MO;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SmartAddressParser;
 
 
 
 
-public class MOJeffersonCityParser extends MsgParser {
+public class MOJeffersonCityParser extends SmartAddressParser {
   
   private static final Pattern LEAD_TIME_PTN = Pattern.compile("^(\\d\\d:\\d\\d) +");
   private static final Pattern TRAIL_TIME_PTN = Pattern.compile(" +(\\d\\d:\\d\\d)$");
-  private static final Pattern TRAIL_NAME_PTN = Pattern.compile("(?:(?: +-)?(?: +|^)[A-Z][a-z]+,?)? +[A-Z][a-z]+$");
+  private static final Pattern TRAIL_NAME_PTN = Pattern.compile("(?:(?: +-)?(?: +|^)[A-Z]?[a-z]+,?)? +[A-Z]?[a-z]+$");
   private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:\\d{3,4}|[A-Z]{2}Pager|[A-Z]\\d+|Batt\\d+))+$");
-  private static final Pattern CROSS_ST_MARK_PTN = Pattern.compile("(?: -?Cross Streets-?| -)(?= |$)");
+  private static final Pattern EXTRA_SPACE_PTN = Pattern.compile("((?:\\d+[-A-Z0-9]* )?[NSEW])  +(.*)");
+  private static final Pattern CROSS_ST_MARK_PTN = Pattern.compile("(?:[- ]+(?:Closest Intersections|Cross Streets)-?|  +)");
   
   public MOJeffersonCityParser() {
     super("JEFFERSON CITY", "MO");
@@ -69,24 +70,39 @@ public class MOJeffersonCityParser extends MsgParser {
     }
     data.strCall = call;
     
-    // Get address & cross street
-    String addr = "";
-    do {
-      String addr2 = p.get("  ");
-      if (addr2.length() == 0) return false;
-      addr = append(addr, " ", addr2);
-      match = CROSS_ST_MARK_PTN.matcher(addr);
-    } while (!match.find());
-    String cross = addr.substring(match.end()).trim();
-    if (cross.endsWith("-")) cross = cross.substring(0,cross.length()-1).trim();
-    if (cross.equals("No Cross Streets Found")) cross = "";
-    data.strCross = cross;
-    addr = addr.substring(0,match.start()).trim();
-    if (addr.startsWith("-")) addr = addr.substring(1).trim();
-    parseAddress(addr, data);
+    // For some odd reason they always include an extra blank after the
+    // first direction in a street name.  Try to get rid of that
+    body = p.get();
+    match = EXTRA_SPACE_PTN.matcher(body);
+    if (match.matches()) body = match.group(1) + ' ' + match.group(2);
     
-    // Everything else is info
-    data.strSupp = p.get();
+    // Once that is taken care of, we can (hopefully) count on a double
+    // blank terminating the address.  Except for very old calls where 
+    // a cross street terminator can be counted on
+    String addr;
+    match = CROSS_ST_MARK_PTN.matcher(body);
+    if (match.find()) {
+      addr = body.substring(0,match.start());
+      String info = body.substring(match.end());
+      String cross = "";
+      if (match.group().trim().length() > 0) {
+        int pt = info.indexOf(" -");
+        if (pt >= 0) {
+          cross = info.substring(0,pt).trim();
+          info = info.substring(pt+2).trim();
+        } else {
+          cross = info.trim();
+          info = "";
+        }
+      }
+      cross = stripFieldEnd(cross, "-");
+      if (cross.equals("No Cross Streets Found")) cross = "";
+      data.strCross = cross;
+      data.strSupp = info;
+    } else {
+      addr = body;
+    }
+    parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_RECHECK_APT | FLAG_ANCHOR_END, addr, data);
     return true;
   }
 }
