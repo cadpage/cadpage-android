@@ -28,6 +28,21 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
   }
   
   @Override
+  public String adjustMapAddress(String address) {
+    address = GD_PTN.matcher(address).replaceAll("GARDEN");
+    address = ES_PTN.matcher(address).replaceAll("ESTATES");
+    address = HGWY_PTN.matcher(address).replaceAll("HWY");
+    address = BY_PTN.matcher(address).replaceAll("BYPASS");
+    address = MILLER_RD_EXT.matcher(address).replaceAll("MILLER RD EXD");
+    return super.adjustMapAddress(address);
+  }
+  private static final Pattern GD_PTN = Pattern.compile("\\bGD\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern ES_PTN = Pattern.compile("\\bES\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern HGWY_PTN = Pattern.compile("\\bHGWY\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern BY_PTN = Pattern.compile("\\bBY\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern MILLER_RD_EXT = Pattern.compile("\\bMILLER RD EXT\\b", Pattern.CASE_INSENSITIVE);
+  
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
     if (subject.startsWith("[DISPATCH]")) subject = subject.substring(10).trim();
@@ -58,19 +73,6 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
   public String getProgram() {
     return super.getProgram().replace("CALL", "CODE CALL").replace("MAP", "BOX");
   }
-  
-  @Override
-  public String adjustMapAddress(String address) {
-    address = GD_PTN.matcher(address).replaceAll("GARDEN");
-    address = ES_PTN.matcher(address).replaceAll("ESTATES");
-    address = HGWY_PTN.matcher(address).replaceAll("HWY");
-    address = BY_PTN.matcher(address).replaceAll("BYPASS");
-    return address;
-  }
-  private static final Pattern GD_PTN = Pattern.compile("\\bGD\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern ES_PTN = Pattern.compile("\\bES\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern HGWY_PTN = Pattern.compile("\\bHGWY\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern BY_PTN = Pattern.compile("\\bBY\\b", Pattern.CASE_INSENSITIVE);
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CA CU", "CARLISLE",

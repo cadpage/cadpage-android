@@ -74,7 +74,6 @@ choyvp pynff APNynznaprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:8",
         "PNYY:GENSSVP NPPVQRAG",
         "NQQE:2569 QHEUNZ FG RKG",
-        "ZNQQE:2569 QHEUNZ FG",
         "PVGL:OHEYVATGBA",
         "K:ZNPNEGUHE YA & R YVGGYR WBUA YA");
 
@@ -91,7 +90,6 @@ choyvp pynff APNynznaprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:8",
         "PNYY:GENSSVP NPPVQRAG",
         "NQQE:2569 QHEUNZ FG RKG",
-        "ZNQQE:2569 QHEUNZ FG",
         "PVGL:OHEYVATGBA",
         "K:ZNPNEGUHE YA & R YVGGYR WBUA YA");
 

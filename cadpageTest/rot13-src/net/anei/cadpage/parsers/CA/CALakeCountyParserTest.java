@@ -332,7 +332,6 @@ choyvp pynff PNYnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "FEP:AFZC",
         "NQQE:10230 QRJRYY EBNQ RKG",
-        "ZNQQE:10230 QRJRYY EBNQ",
         "PVGL:Hccre Ynxr",
         "K:ENAPUREVN EQ",
         "PNYY:SQYY - Yvsr Yvar Nyreg",

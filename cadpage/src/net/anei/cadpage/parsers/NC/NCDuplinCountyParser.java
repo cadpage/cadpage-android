@@ -17,6 +17,11 @@ public class NCDuplinCountyParser extends DispatchSouthernParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_REMOVE_EXT;
+  }
+  
+  @Override
   protected boolean parseMsg(String field, Data data) {
     if (!super.parseMsg(field, data)) return false;
     if (data.strCity.equals("DUPLIN")) data.strCity = "";

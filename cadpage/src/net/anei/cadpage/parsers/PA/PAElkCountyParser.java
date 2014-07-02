@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.PA;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -28,6 +29,12 @@ public class PAElkCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "alerts@elkcounty911.ealertgov.com";
   }
+  
+  @Override
+  public String adjustMapAddress(String address) {
+    return WATER_STREET_EXT.matcher(address).replaceAll("$1 EXD");
+  }
+  private static final Pattern WATER_STREET_EXT = Pattern.compile("\\b(WATER ST(?:REET)?) EXT?\\b");
 
   @Override
   protected boolean parseMsg(String body, Data data) {

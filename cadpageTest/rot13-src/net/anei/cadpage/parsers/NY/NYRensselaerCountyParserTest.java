@@ -35,7 +35,6 @@ choyvp pynff ALEraffrynrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SEZ:erafpbocf3@tznvy.pbz\aZFT:PUNEYVR RZF FGEBXR FHTNE UVYY NCGF 400 ZPPURFARL NIR RKG OYQT 16 NCG 8 GBJA BS OEHAFJVPX  -02",
         "PNYY:PUNEYVR RZF FGEBXR FHTNE UVYY NCGF",
         "NQQE:400 ZPPURFARL NIR RKG OYQT 16",
-        "ZNQQE:400 ZPPURFARL NIR OYQT 16",
         "NCG:8",
         "PVGL:GBJA BS OEHAFJVPX");
 

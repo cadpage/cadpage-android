@@ -344,7 +344,7 @@ choyvp pynff MPNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:29o04",
         "PNYY:ZIN - Haxabja fgnghf",
         "NQQE:ujl 1 rkg 83 ro ynar",
-        "ZNQQE:ujl 1 83 ynar");
+        "ZNQQE:ujl 1 rkg 83 ynar");
 
     qbGrfg("G23",
         "(Evc & Eha) 10:02CZ PNYY 29o04 NG , ujl 1 arne onass tngr,  \e\a",

@@ -20,6 +20,12 @@ public class PACrawfordCountyParser extends DispatchBParser {
   }
   
   @Override
+  public String adjustMapAddress(String address) {
+    return WASHINGTON_STREET_EXT.matcher(address).replaceAll("$1");
+  }
+  private static final Pattern WASHINGTON_STREET_EXT = Pattern.compile("\\b(WASHINGTON ST(?:REET)?) EXT?\\b");
+  
+  @Override
   protected boolean isPageMsg(String body) {
     return true;
   }

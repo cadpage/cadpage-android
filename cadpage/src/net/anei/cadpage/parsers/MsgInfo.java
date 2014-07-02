@@ -17,8 +17,8 @@ public class MsgInfo {
   // Suppress LA -> LN translation
   public static final int MAP_FLG_SUPPR_LA = 1;
   
-  // Suppress EXT removal
-  public static final int MAP_FLG_SUPPR_EXT = 2;
+  // Remove EXT
+  public static final int MAP_FLG_REMOVE_EXT = 2;
   
   // Add default city/county in back of parsed city/county
   public static final int MAP_FLG_ADD_DEFAULT_CNTY = 4;
@@ -47,7 +47,7 @@ public class MsgInfo {
   // Suppress TE -> TER translation
   public static final int MAP_FLG_SUPPR_TE = 0x400;
   
-  // Preserver STATE HIGHWAY construct
+  // Preserve STATE HIGHWAY construct
   public static final int MAP_FLG_KEEP_STATE_HIGHWAY = 0x800;
   
 
@@ -620,7 +620,7 @@ public class MsgInfo {
     // requirements
     int mapFlags = parser.getMapFlags();
     if ((mapFlags & MAP_FLG_SUPPR_LA) == 0) sAddr = replace(sAddr, LA_PTN, "LN");
-    if ((mapFlags & MAP_FLG_SUPPR_EXT) == 0) sAddr = EXT_PTN.matcher(sAddr).replaceAll("");
+    if ((mapFlags & MAP_FLG_REMOVE_EXT) != 0) sAddr = EXT_PTN.matcher(sAddr).replaceAll("");
     if ((mapFlags & MAP_FLG_SUPPR_TE) == 0 && countryCode != CountryCode.NZ) sAddr = replace(sAddr, TE_PTN, "TER");
     
     if (!sAddr.contains("CUT OFF")) {

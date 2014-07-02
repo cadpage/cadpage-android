@@ -226,7 +226,6 @@ choyvp pynff CNZreprePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G30",
         "\"Zrepre 9-1-1\"@zpp.pb.zrepre.cn.hf (VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1402 J ZNVA FGERRG RKG TEBI RVQ: 2424459 GLCR PBQR: UNM PNYYRE ANZR: GEVAN FGRJNEG PNYYRE NQQE: 1402 J ZNVA F",
         "NQQE:1402 J ZNVA FGERRG RKG",
-        "ZNQQE:1402 J ZNVA FGERRG",
         "PVGL:TEBIR PVGL",
         "VQ:2424459",
         "PNYY:Unmzng",
@@ -353,7 +352,6 @@ choyvp pynff CNZreprePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ANZR:ERORPPN PHYC",
         "NQQE:522 R ZNVA FG RKG",
         "PVGL:CVAR",
-        "ZNQQE:522 R ZNVA FG",
         "GVZR:16:05:38");
 
   }

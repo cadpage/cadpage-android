@@ -563,7 +563,7 @@ public abstract class MsgParser {
     return 0;
   }
   public static final int MAP_FLG_SUPPR_LA = MsgInfo.MAP_FLG_SUPPR_LA;
-  public static final int MAP_FLG_SUPPR_EXT = MsgInfo.MAP_FLG_SUPPR_EXT;
+  public static final int MAP_FLG_REMOVE_EXT = MsgInfo.MAP_FLG_REMOVE_EXT;
   public static final int MAP_FLG_ADD_DEFAULT_CNTY = MsgInfo.MAP_FLG_ADD_DEFAULT_CNTY;
   public static final int MAP_FLG_SUPPR_DIRO = MsgInfo.MAP_FLG_SUPPR_DIRO;
   public static final int MAP_FLG_PREFER_GPS = MsgInfo.MAP_FLG_PREFER_GPS;
@@ -573,7 +573,7 @@ public abstract class MsgParser {
   public static final int MAP_FLG_CR_CREEK = MsgInfo.MAP_FLG_CR_CREEK;
   public static final int MAP_FLG_SUPPR_TE = MsgInfo.MAP_FLG_SUPPR_TE;
   public static final int MAP_FLG_KEEP_STATE_HIGHWAY = MsgInfo.MAP_FLG_KEEP_STATE_HIGHWAY;
-
+  
 
   /**
    * Convenience method to identify a page message by checking to see if

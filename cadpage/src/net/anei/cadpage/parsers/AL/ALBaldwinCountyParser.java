@@ -29,6 +29,15 @@ public class ALBaldwinCountyParser extends MsgParser {
   }
   
   @Override
+  public String adjustMapAddress(String address) {
+    address = DAPHMONT_DR_EXT.matcher(address).replaceAll("$1 EXD");
+    address = YUPON_RD_EXT.matcher(address).replaceAll("$1 EXD");
+    return super.adjustMapAddress(address);
+  }
+  private static final Pattern DAPHMONT_DR_EXT = Pattern.compile("\\b(DAPHMONT DR) EXT?\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern YUPON_RD_EXT = Pattern.compile("\\b(YUPON RD) EXT?\\b", Pattern.CASE_INSENSITIVE);
+  
+  @Override
   public boolean parseMsg(String body, Data data) {
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;

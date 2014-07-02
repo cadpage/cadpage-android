@@ -29,6 +29,15 @@ public class NCOnslowCountyParser extends DispatchOSSIParser {
   }
   
   @Override
+  public String adjustMapAddress(String address) {
+    address = MAIN_ST_EX.matcher(address).replaceAll("MAIN ST EXT");
+    address = WILLIAMS_ST_EX.matcher(address).replaceAll("WILLIAMS ST EXD");
+    return address;
+  }
+  private static final Pattern MAIN_ST_EX = Pattern.compile("\\bMAIN ST EX\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern WILLIAMS_ST_EX = Pattern.compile("\\bWILLIAMS ST EX\\b", Pattern.CASE_INSENSITIVE);
+  
+  @Override
   protected boolean parseMsg(String body, Data data) {
     selectValue = (body.contains("[") ? "CALL" : null);
     return super.parseMsg(body, data);

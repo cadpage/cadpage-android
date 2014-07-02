@@ -26,6 +26,12 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
   public String getFilter() {
     return "dispatch@jeffersoncountypa.com";
   }
+  
+  @Override
+  public String adjustMapAddress(String address) {
+    return PENN_STREET_EXT.matcher(address).replaceAll("PENN ST EXD");
+  }
+  private static final Pattern PENN_STREET_EXT = Pattern.compile("\\bPENN ST(?:REET)? EXT?\\b", Pattern.CASE_INSENSITIVE);
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

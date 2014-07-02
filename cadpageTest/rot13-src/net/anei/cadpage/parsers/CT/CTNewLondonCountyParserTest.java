@@ -143,7 +143,6 @@ choyvp pynff PGArjYbaqbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:NZOHYNAPR RZRETRAPL",
         "NQQE:9 ZNCYR NIR RKG",
-        "ZNQQE:9 ZNCYR NIR",
         "NCG:2",
         "VASB:55 LBZ QVMMLARFF, DHRFGVBA UVTU OYBBQ CERFFHER. / UBG",
         "HAVG:ZSQ1",

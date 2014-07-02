@@ -16,6 +16,11 @@ public class OHSummitCountyEParser  extends FieldProgramParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_REMOVE_EXT;
+  }
+  
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Alert Notification")) return false;
     int i = body.indexOf("\n");

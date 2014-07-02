@@ -25,11 +25,6 @@ public class NJBergenCountyAParser extends FieldProgramParser {
   }
 
   @Override
-  public int getMapFlags() {
-    return MAP_FLG_SUPPR_EXT;
-  }
-
-  @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("CALL")) return new MyCallField();

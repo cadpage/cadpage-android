@@ -470,7 +470,6 @@ choyvp pynff FPPurebxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2014:000463",
         "PNYY:Purfg Cnva",
         "NQQE:298 UVPXF TEBIR EQ RK",
-        "ZNQQE:298 UVPXF TEBIR EQ",
         "PVGL:Purfarr");
 
     qbGrfg("G35",

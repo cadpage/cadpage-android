@@ -22,6 +22,35 @@ public class NCRockinghamCountyParser extends DispatchOSSIParser {
     return "cad@co.rockingham.nc.us";
   }
   
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("CODE")) return new CodeField("\\d{1,2}[A-Z]\\d{1,2}[A-Za-z]?", true);
+    if (name.equals("UNIT")) return new UnitField("[A-Z]{0,3}\\d{1,3}[A-Z]?", true);
+    if (name.equals("CH")) return new ChannelField("(?:Radio Channel: *)?(TAC.*)");
+    return super.getField(name);
+  }
+  
+  private class MyCallField extends  CallField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("{")) {
+        int pt = field.indexOf('}');
+        if (pt >= 0) {
+          data.strUnit = field.substring(1,pt).trim();
+          field = field.substring(pt+1).trim();
+        }
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "UNIT CALL";
+    }
+  }
+  
   private static final Pattern PLACE_APT_PTN = Pattern.compile("APT *(.*)|((?:RM|LOT).*)", Pattern.CASE_INSENSITIVE);
   private class MyPlaceField extends PlaceField {
     @Override
@@ -35,16 +64,6 @@ public class NCRockinghamCountyParser extends DispatchOSSIParser {
         super.parse(field, data);
       }
     }
-  }
-  
-  
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("PLACE")) return new MyPlaceField();
-    if (name.equals("CODE")) return new CodeField("\\d{1,2}[A-Z]\\d{1,2}[A-Za-z]?", true);
-    if (name.equals("UNIT")) return new UnitField("[A-Z]{0,3}\\d{1,3}[A-Z]?", true);
-    if (name.equals("CH")) return new ChannelField("(?:Radio Channel: *)?(TAC.*)");
-    return super.getField(name);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{

@@ -79,10 +79,12 @@ public class CASantaClaraCountyAParser extends FieldProgramParser {
   public String adjustMapAddress(String addr) {
     addr = CL_PTN.matcher(addr).replaceAll("CIR");
     addr = MC_PTN.matcher(addr).replaceAll("MC");
-    return addr;
+    addr = EX_PTN.matcher(addr).replaceAll("EXPY");
+    return super.adjustMapAddress(addr);
   }
   private static final Pattern CL_PTN = Pattern.compile("\\bCL\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern MC_PTN = Pattern.compile("\\bMC ", Pattern.CASE_INSENSITIVE);
+  private static final Pattern EX_PTN = Pattern.compile("\\bEX\\b", Pattern.CASE_INSENSITIVE);
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CU", "CUPERTINO",

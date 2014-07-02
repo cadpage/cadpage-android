@@ -23,12 +23,6 @@ public class NCDavidsonCountyAParser extends DispatchOSSIParser {
   public String getFilter() {
     return "cad@davidsoncountync.gov";
   }
-  
-  @Override
-  public int getMapFlags() {
-    // Keep EXT markers
-    return MAP_FLG_SUPPR_EXT;
-  }
 
   @Override
   public boolean parseMsg(String body, Data data) {

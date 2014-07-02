@@ -20,6 +20,19 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
     super(CITY_CODES, "ALLEGHENY COUNTY", "PA",
            "CODE PRI CALL CALL+? ( GPS1 GPS2 | ADDR/Z CITY ( AT SKIP | ) ) XINFO+? SRC BOX! ID? INFO+ Units:UNIT UNIT+");
   }
+  
+  
+
+  @Override
+  public String adjustMapAddress(String sAddress) {
+    sAddress = ARCH_ST_EXT.matcher(sAddress).replaceAll("$1");
+    sAddress = BUTLER_STREET_EXT.matcher(sAddress).replaceAll("$1");
+    return super.adjustMapAddress(sAddress);
+  }
+  private static final Pattern ARCH_ST_EXT = Pattern.compile("\\b(ARCH ST) EXT\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern BUTLER_STREET_EXT = Pattern.compile("\\b(BUTLER ST(?:REET)?) EXT\\b", Pattern.CASE_INSENSITIVE);
+
+
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

@@ -28,6 +28,11 @@ public class NYNassauCountyRedAlertParser extends DispatchRedAlertParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_REMOVE_EXT;
+  }
+  
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     body = body.replace('\n', ' ');
     if (!super.parseMsg(subject, body, data)) return false;

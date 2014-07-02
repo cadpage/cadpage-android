@@ -180,7 +180,7 @@ choyvp pynff SYZvnzvQnqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:317S",
         "FEP:PSB",
         "NQQE:FE836 RKCL & GCX RKG",
-        "ZNQQE:SY 836 RKCL & GCX",
+        "ZNQQE:SY 836 RKCL & GCX RKG",
         // ABG SBHAQ
         "VQ:216298",
         "QNGR:10/28/13",

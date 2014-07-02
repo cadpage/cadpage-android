@@ -1333,7 +1333,6 @@ choyvp pynff BXPnegrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2013-00034498",
         "PNYY:NYNEZ",
         "NQQE:410 FJ ENVYJNL RK",
-        "ZNQQE:410 FJ ENVYJNL",
         "ZNC:FJ",
         "QNGR:09/04/2013",
         "GVZR:08:28:56",

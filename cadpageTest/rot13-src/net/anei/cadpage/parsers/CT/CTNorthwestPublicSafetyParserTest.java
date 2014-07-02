@@ -653,7 +653,6 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G40",
         "(Sebz Abegujrfg) 10 PBYBAL FGERRG RKG  FRLZBHE HAPBAFP/SNVAGVAT QRYGN GNATB 7 FRL 1FG Cevznel Vapvqrag: 016100 10 PBYBAL FGERRG RKG",
         "NQQE:10 PBYBAL FGERRG RKG",
-        "ZNQQE:10 PBYBAL FGERRG",
         "PVGL:FRLZBHE",
         "PNYY:HAPBAFP/SNVAGVAT QRYGN",
         "HAVG:GNATB 7 FRL 1FG",

@@ -1759,7 +1759,7 @@ choyvp pynff CNPhzoreynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ZHGHNY NVQ ERFCBAF",
         "NQQE:1764 ZVYYRE EQ RKG",
-        "ZNQQE:1764 ZVYYRE EQ",
+        "ZNQQE:1764 ZVYYRE EQ RKQ",
         "PVGL:ZVQQYR CNKGBA",
         "CYNPR:QPE",
         "OBK:QNHCUVA PGL ERS",

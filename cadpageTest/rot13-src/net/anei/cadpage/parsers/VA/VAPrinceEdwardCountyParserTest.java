@@ -158,7 +158,7 @@ choyvp pynff INCevaprRqjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:17",
         "PNYY:SVER NYNEZ",
         "NQQE:1001 SBHEGU NI RKG",
-        "ZNQQE:1001 SBHEGU NIR",
+        "ZNQQE:1001 SBHEGU NIR RKG",
         "PVGL:SNEZIVYYR",
         "VQ:2013-007466");
 
@@ -234,7 +234,7 @@ choyvp pynff INCevaprRqjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:40",
         "PNYY:SVER NYNEZ",
         "NQQE:1205 SBHEGU NI RKG",
-        "ZNQQE:1205 SBHEGU NIR",
+        "ZNQQE:1205 SBHEGU NIR RKG",
         "PVGL:SNEZIVYYR",
         "VQ:2013-006597");
 

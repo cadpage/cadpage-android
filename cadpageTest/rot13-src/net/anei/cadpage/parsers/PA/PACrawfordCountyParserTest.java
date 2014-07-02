@@ -276,7 +276,6 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G7",
         "(ZNG   >ZNGREAVGL) BRFPNQ:130 JNYXRE QE KF: ONYQJVA FGERRG RKG ZRNQIVYYR PVGL ZHAFBA,ZNEL Znc:U-13 Tevqf:, Pnq: 2014-0000002804",
-        // Harkcrpgrq pnyy pbqr:ZNGREAVGL
         "PNYY:ZNGREAVGL",
         "NQQE:130 JNYXRE QE",
         "K:ONYQJVA FGERRG RKG",

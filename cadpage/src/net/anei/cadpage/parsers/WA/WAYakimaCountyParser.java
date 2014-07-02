@@ -54,6 +54,12 @@ public class WAYakimaCountyParser extends SmartAddressParser {
     data.strApt = append(data.strApt, "-", p.get());
     return true;
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    return SUMMITVIEW_EX.matcher(addr).replaceAll("SUMMITVIEW EXN");
+  }
+  private static final Pattern SUMMITVIEW_EX = Pattern.compile("\\bSUMMITVIEW +EXT?\\b", Pattern.CASE_INSENSITIVE);
 
   private void setup() {
     setupCallList(

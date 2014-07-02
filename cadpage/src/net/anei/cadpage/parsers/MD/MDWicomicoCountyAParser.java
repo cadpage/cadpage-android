@@ -24,6 +24,12 @@ public class MDWicomicoCountyAParser extends DispatchOSSIParser {
   }
   
   @Override
+  public String adjustMapAddress(String address) {
+    return BROWN_ST_EXT_PTN.matcher(address).replaceAll("BROWN ST");
+  }
+  private static final Pattern BROWN_ST_EXT_PTN = Pattern.compile("\\bBROWN ST EXT\\b", Pattern.CASE_INSENSITIVE);
+  
+  @Override
   public boolean parseMsg(String body, Data data) {
     
     // Strip off leading sequence number

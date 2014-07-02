@@ -237,7 +237,6 @@ choyvp pynff INEbpxvatunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:EF4",
         "PNYY:VAWHEL - YRT, NEZ, RGP.",
         "NQQE:839 WHQL YA RKG",
-        "ZNQQE:839 WHQL YA",
         "PVGL:FGNAYRL",
         "VQ:2013-020113",
         "K:BJRAF QE/NHGB QE");
@@ -247,7 +246,6 @@ choyvp pynff INEbpxvatunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:EF4",
         "PNYY:FRVMHERF",
         "NQQE:839 WHQL YA RKG",
-        "ZNQQE:839 WHQL YA",
         "PVGL:FGNAYRL",
         "VQ:2013-020112",
         "K:BJRAF QE/NHGB QE");

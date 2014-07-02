@@ -19,6 +19,11 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "company10paging,mptfire,WashCo911";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_REMOVE_EXT;
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {

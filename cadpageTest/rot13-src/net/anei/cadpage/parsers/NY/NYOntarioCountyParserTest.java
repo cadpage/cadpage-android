@@ -147,7 +147,7 @@ choyvp pynff ALBagnevbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PENFU HAX",
         "GVZR:23:05",
         "NQQE:EBHGR 5 NAQ 20 & CNEEVFU FG RKG",
-        "ZNQQE:EBHGR 5 & CNEEVFU FG",
+        "ZNQQE:EBHGR 5 & CNEEVFU FG RKG",
         "K:CNEEVFU FG RKG & EBHGR 21",
         "HAVG:R02",
         "VASB:IRU BA ABEGU FVQR BS EBNQ HC BA RZONAXZRAG - FZBXVAT - BA EG 5 ORGJRRA CNEEVFU FG RKG NAQ ZNVA FG",

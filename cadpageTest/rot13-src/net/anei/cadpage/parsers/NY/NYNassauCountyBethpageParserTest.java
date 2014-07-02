@@ -77,7 +77,7 @@ choyvp pynff ALAnffnhPbhaglOrgucntrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:80",
         "PNYY:VAIRFGVTNGVBA",
         "NQQE:RK 7 EG 135 ABEGU OBHAQ RK 8",
-        "ZNQQE:RK 7 EG 135 ABEGU OBHAQ 8 & CBJRYY NIR",
+        "ZNQQE:RK 7 EG 135 ABEGU OBHAQ RK 8 & CBJRYY NIR",
         "K:CBJRYY NIR",
         "GVZR:09:02",
         "QNGR:11:07:13",

@@ -17,6 +17,11 @@ public class MSCalhounCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_REMOVE_EXT;
+  }
+  
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Dispatch Alert")) return false;
     if (!parseFields(body.split("\n"), 3, data)) return false;

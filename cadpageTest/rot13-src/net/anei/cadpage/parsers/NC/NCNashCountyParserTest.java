@@ -639,7 +639,6 @@ choyvp pynff APAnfuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G6",
         "ANFU911:1880 SVEFG FGERRG RKG ANFUIVYYR FGEBXR-U ARYZF, JNLAR 14SE1 01/20/2014 14:46:42 : cbf16 : WOERRQYBIR7240 RZQ Erpbzzraqrq Qvfcngpu Erfcbafr Grkg: UBG Qvfcngpu Yriry: 28P01 Fhssvk: Y PNQ Vapvqrag Pbqr: FGEBXR-U Xrl Dhrfgvbaf: Abg nyre",
         "NQQE:1880 SVEFG FGERRG RKG",
-        "ZNQQE:1880 SVEFG FGERRG",
         "PVGL:ANFUIVYYR",
         "PBQR:FGEBXR-U",
         "PNYY:FGEBXR/ PIN",

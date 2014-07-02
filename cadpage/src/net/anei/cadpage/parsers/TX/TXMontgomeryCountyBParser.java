@@ -36,7 +36,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
   @Override
   public int getMapFlags() {
-    return MAP_FLG_SUPPR_LA | MAP_FLG_PREFER_GPS;
+    return MAP_FLG_SUPPR_LA | MAP_FLG_REMOVE_EXT | MAP_FLG_PREFER_GPS;
   }
   
   @Override

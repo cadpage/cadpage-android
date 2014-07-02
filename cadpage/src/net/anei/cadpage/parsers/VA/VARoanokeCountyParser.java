@@ -71,6 +71,13 @@ public class VARoanokeCountyParser extends SmartAddressParser {
         "TWELVE OCLOCK KNOB"
     );
   }
+  
+  @Override
+  public String adjustMapAddress(String address) {
+    address = GRANDIN_ROAD_EXT.matcher(address).replaceAll("$1 EXD");
+    return super.adjustMapAddress(address);
+  }
+  private static final Pattern GRANDIN_ROAD_EXT = Pattern.compile("\\b(GRANDIN ROAD) EXT\\b", Pattern.CASE_INSENSITIVE);
 
   @Override
   protected boolean parseMsg(String body, Data data) {

@@ -19408,7 +19408,6 @@ choyvp pynff AWZbeevfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G13",
         "12 BYQ YNAR RKG [Zbagivyyr Gjc] (PVF) - \aSBEPRQ QBBE ERFVQRAGVNY OHET\aF141740015 14:44",
         "NQQE:12 BYQ YNAR RKG",
-        "ZNQQE:12 BYQ YNAR",
         "PVGL:Zbagivyyr Gjc",
         "PNYY:PVF",
         "VASB:SBEPRQ QBBE ERFVQRAGVNY OHET",
