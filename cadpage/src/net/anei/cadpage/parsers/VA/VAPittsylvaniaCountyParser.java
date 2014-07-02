@@ -56,25 +56,27 @@ public class VAPittsylvaniaCountyParser extends DispatchOSSIParser {
 
   private static final Properties CITY_CODES= buildCodeTable(new String[]{
       "BLA","Blairs",
-      "DAN","Danville",
-      "GRE","Gretna",
-      "CHA","Chatham",
       "CAL","Callands",
       "CAS","Cascade",
+      "CHA","Chatham",
+      "DAN","Danville",
       "DRY","Dry Fork",
-      "FRA","FRA",
+      "GRE","Gretna",
       "HUR","Hurt",
       "JAV","Java",
       "KEE","Keeling",
+      "LON","Long Island",
       "PIT","Pittsville",
       "RIN","Ringgold",
       "RNC","RNC",
       "RNG","Ringgold",
       "SAN","Sandy Level",
       "SUT","Sutherlin",
-      "LON","Long Island",
       
       // Henry County
-      "AXT","Axton"
+      "AXT","Axton",
+      
+      "FRA","Franklin County"
+
   });
 }

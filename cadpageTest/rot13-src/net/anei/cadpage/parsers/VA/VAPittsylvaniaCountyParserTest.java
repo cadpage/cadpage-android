@@ -6,7 +6,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.IN.INCvggflyinavnPbhaglCnefre;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Cvggflyinavn, IN (ercynprzrag be nygreangr)
+Cvggflyinavn, IN
 
 701:PNQ:GENSSVP NPPVQRAG CV;100 ZNYZNVFBA EQ/H F UVTUJNL AB 29; OYN
 700:PNQ:NOQBZVANY QVFGERFF; 701 R JVGG EQ;OYN;JVGG YA;ZBHAG IVRJ EQ;[Zrqvpny Cevbevgl Vasb] CEBOYRZ:PURFG UHEGVAT #CNGF: 1 NTR: 77 Lrnef FRK: Znyr
@@ -29,6 +29,10 @@ Fraqre: PNQ@cvggtbi.bet
 1367:HAXABJA ZRQVPNY RZRETRAPL;1976 UVYY PERRX EQ;QEL;2011045254;FHAFRG QE;ZBHAG PEBFF EQ;[Zrqvpny Cevbevgl Vasb] CEBOYRZ: ZRQVPNY NYNEZ # CNGF: 1 NTR: Haxabja Enat
 1364:RZF PNYY SBE CEBDN;1976 UVYY PERRX EQ;QEL;2011045231;FHAFRG QE;ZBHAG PEBFF EQ;[Zrqvpny Cevbevgl Vasb] CEBOYRZ: ZRQVPNY NYNEZ # CNGF: 1 NTR: Haxabja Enatr FRK:
 1384:SNYY;2837 ZNCYRGBA QE;PNY;2011046603;JNGRE BNX EQ;SENAXYVA GCXR;[Zrqvpny Cevbevgl Vasb] CEBOYRZ: SRYY SEBZ YNQQE OEBXR UVC # CNGF: 1 NTR: 85 Lrnef FRK: Znyr PB
+
+Pbagnpg: Wvz Fjna <wfjnarkcerffgex@tznvy.pbz>
+Fraqre: PNQ@cvggtbi.bet
+380:PNQ:GENSSVP NPPVQRAG CV;15550 BYQ SENAXYVA GCXR;SEN;2014028363;ENZFRL ZRZBEVNY EQ;FABJ PERRX EQ;Nobegrq ol Zrqvpny Cevbevgl jvgu pbqr: 11. Qvfcngpure Bireevqr [
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Uheg Ibyhagrre Sver Qrcnegzrag
@@ -261,6 +265,20 @@ choyvp pynff INCvggflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:JNGRE BNX EQ & SENAXYVA GCXR",
         "VASB:SRYY SEBZ YNQQE OEBXR UVC # CNGF: 1 NTR: 85 Lrnef FRK: Znyr PB");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWvzFjna() {
+
+    qbGrfg("G1",
+        "380:PNQ:GENSSVP NPPVQRAG CV;15550 BYQ SENAXYVA GCXR;SEN;2014028363;ENZFRL ZRZBEVNY EQ;FABJ PERRX EQ;Nobegrq ol Zrqvpny Cevbevgl jvgu pbqr: 11. Qvfcngpure Bireevqr [",
+        "VQ:2014028363",
+        "PNYY:GENSSVP NPPVQRAG CV",
+        "NQQE:15550 BYQ SENAXYVA GCXR",
+        "PVGL:Senaxyva Pbhagl",
+        "K:ENZFRL ZRZBEVNY EQ & FABJ PERRX EQ",
+        "VASB:Nobegrq ol Zrqvpny Cevbevgl jvgu pbqr: 11. Qvfcngpure Bireevqr");
+    
   }
   
   @Grfg
@@ -664,7 +682,7 @@ choyvp pynff INCvggflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PNAPRY",
         "NQQE:2209 FGNAQVSBEQ EQ & EBPX PYVSS EQ",
         "ZNQQE:2209 FGNAQVSBEQ EQ",
-        "PVGL:SEN");
+        "PVGL:Senaxyva Pbhagl");
 
     qbGrfg("G26",
         "(Hcqngr) 68:PNQ:;GENSSVP NPPVQRAG CV;1 FGNAQVSBEQ EQ/XRZC SBEQ EQ;SEN;2013030145",
@@ -672,7 +690,7 @@ choyvp pynff INCvggflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GENSSVP NPPVQRAG CV",
         "NQQE:1 FGNAQVSBEQ EQ & XRZC SBEQ EQ",
         "ZNQQE:1 FGNAQVSBEQ EQ",
-        "PVGL:SEN");
+        "PVGL:Senaxyva Pbhagl");
 
     qbGrfg("G27",
         "(SLV) 67:PNQ:;GENSSVP NPPVQRAG CV;2209 FGNAQVSBEQ EQ/EBPX PYVSS EQ;SEN;2013030147",
@@ -680,7 +698,7 @@ choyvp pynff INCvggflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GENSSVP NPPVQRAG CV",
         "NQQE:2209 FGNAQVSBEQ EQ & EBPX PYVSS EQ",
         "ZNQQE:2209 FGNAQVSBEQ EQ",
-        "PVGL:SEN");
+        "PVGL:Senaxyva Pbhagl");
 
     qbGrfg("G28",
         "(Hcqngr) 64:PNQ:;GENSSVP NPPVQRAG CV;27239 H F UVTUJNL AB 29;TER;2013030121;INQRA QE;ZHFVP FG",
