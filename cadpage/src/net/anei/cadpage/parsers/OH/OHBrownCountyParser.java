@@ -13,7 +13,7 @@ public class OHBrownCountyParser extends DispatchA1Parser {
   
   @Override
   public String getFilter() {
-    return "browncommctr@roadrunner.com";
+    return "browncommctr@roadrunner.com,browncommctr@browncountyohio.gov";
   }
   
   @Override
