@@ -100,7 +100,7 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       body = body.trim();
     }
     
-    // For several reasons,the FLAG_AT_BOTH logic doesn't quit work, so we
+    // For several reasons,the FLAG_AT_BOTH logic doesn't quite work, so we
     // will have to check for an @ and do the had work ourselves
     int pt = body.indexOf('@');
     if (pt < 0) {
@@ -116,8 +116,8 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       // both sides as an address
       String part1 = body.substring(0,pt).trim();
       String part2 = body.substring(pt+1).trim();
-      Result res1 = parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, part1);
-      Result res2 = parseAddress(StartType.START_ADDR, part2);
+      Result res1 = parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ | FLAG_IGNORE_AT | FLAG_OPT_STREET_SFX | FLAG_ANCHOR_END, part1);
+      Result res2 = parseAddress(StartType.START_ADDR, FLAG_IGNORE_AT | FLAG_OPT_STREET_SFX, part2);
       if (res2.getStatus() > res1.getStatus()) {
         
         // Second part is the address

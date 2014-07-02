@@ -1540,7 +1540,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // in here, and if there is set the start address to it
       if (result.addressField == null && startAddress < 0) {
         for (int ndx = stIndex; ndx < endAddr-1; ndx++) {
-          if (isHouseNumber(ndx)) {
+          if (isHouseNumber(ndx) && !isType(ndx+1, ID_NOT_ADDRESS)) {
             if (ndx == 0 || ! isType(ndx-1, ID_RELATION)) {
               result.addressField = new FieldSpec(ndx, endAddr);
               endAddr = ndx;
