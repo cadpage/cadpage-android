@@ -366,7 +366,8 @@ public abstract class SmartAddressParser extends MsgParser {
         "BND", "BEND",
         "CV", "COVE",
         "THOROUGHFARE",
-        "KNOLL");
+        "KNOLL",
+        "XING");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
     
     setupDictionary(ID_BYPASS, "BYPASS", "BYP", "BUSINESS", "BUS", "ALT");

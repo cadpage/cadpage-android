@@ -2955,7 +2955,7 @@ choyvp pynff ZGSyngurnqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G31",
         "(Qvfcngpu Vasbezngvba) 841 821 801  EBFR KVAT UVTUJNL 2 R Xnyvfcryy ZIN OYF ERQ  FVATYR IRUVPYR NPP  IRUVPYR VA GUR QVGPU BA ABEGUJRFG FVQR BS EQ  R911 Vasb - Pynff bs Freivpr: JCU2 Hapregnvagl:  Pbasvqrapr: ",
         "HAVG:841 821 801",
-        "NQQE:EBFR KVAT UVTUJNL 2 R",
+        "NQQE:EBFR KVAT & UVTUJNL 2 R",
         "PVGL:Xnyvfcryy",
         "PNYY:ZIN OYF ERQ",
         "VASB:FVATYR IRUVPYR NPP  IRUVPYR VA GUR QVGPU BA ABEGUJRFG FVQR BS EQ");

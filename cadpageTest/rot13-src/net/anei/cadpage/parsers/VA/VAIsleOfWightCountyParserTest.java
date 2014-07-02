@@ -396,10 +396,10 @@ choyvp pynff INVfyrBsJvtugPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zrffntr Sbejneqrq ol CntrTngr) 101 WBUA EBYSR QE;EZ 125;ZNTABYVN ZNABE;PURFG CNVA BE URNEG NGGNPX;OERNAA PG;NAQERJF KVAT;87 l/b srznyr jvgu purfg cnva naq fubegarff bs oerngu  [12/28/12 08:25:15 XONXRE]",
         "NQQE:101 WBUA EBYSR QE",
         "NCG:125",
-        "K:OERNAA PG",
+        "K:OERNAA PG & NAQERJF KVAT",
         "PNYY:PURFG CNVA BE URNEG NGGNPX",
         "CYNPR:ZNTABYVN ZNABE",
-        "VASB:NAQERJF KVAT / 87 l/b srznyr jvgu purfg cnva naq fubegarff bs oerngu",
+        "VASB:87 l/b srznyr jvgu purfg cnva naq fubegarff bs oerngu",
         "QNGR:12/28/12",
         "GVZR:08:25:15");
 
@@ -520,10 +520,10 @@ choyvp pynff INVfyrBsJvtugPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zrffntr Sbejneqrq ol CntrTngr) 101 WBUA EBYSR QE;EZ 112;ZNTABYVN ZNABE;FVPX BE VYY BGURE ERFPHR;OERNAA PG;NAQERJF KVAT;96-S ---- punatr va zragny fgnghf naq ryningrq oc  [12/26/12 19:39:38 XURJVGG]",
         "NQQE:101 WBUA EBYSR QE",
         "NCG:112",
-        "K:OERNAA PG",
+        "K:OERNAA PG & NAQERJF KVAT",
         "PNYY:FVPX BE VYY BGURE ERFPHR",
         "CYNPR:ZNTABYVN ZNABE",
-        "VASB:NAQERJF KVAT / 96-S ---- punatr va zragny fgnghf naq ryningrq oc",
+        "VASB:96-S ---- punatr va zragny fgnghf naq ryningrq oc",
         "QNGR:12/26/12",
         "GVZR:19:39:38");
 
@@ -1029,10 +1029,10 @@ choyvp pynff INVfyrBsJvtugPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zrffntr Sbejneqrq ol CntrTngr) 101 WBUA EBYSR QE;EZ 112;ZNTABYVN ZNABE;SNYYF NAQ ERYNGRQ VAWHEVRF;OERNAA PG;NAQERJF KVAT;95 LB SRZNYR SRYY NAQ VF PBZCYNVAVAT BS CNVA VA YBJRE UVC.  ABG PBBCRENGVIR. FRAQVAT BHG SBE CNVA NAQ ZRAGNY FGNGHF PUNATR. CBFFVOYR PBAPHFFVBA. VF ABJ ANHFRNGRQ. CERSRERAPR VF EVIREFVQR  [12/23/12 08:10:57 NTBBQJLA]",
         "NQQE:101 WBUA EBYSR QE",
         "NCG:112",
-        "K:OERNAA PG",
+        "K:OERNAA PG & NAQERJF KVAT",
         "PNYY:SNYYF NAQ ERYNGRQ VAWHEVRF",
         "CYNPR:ZNTABYVN ZNABE",
-        "VASB:NAQERJF KVAT / 95 LB SRZNYR SRYY NAQ VF PBZCYNVAVAT BS CNVA VA YBJRE UVC.  ABG PBBCRENGVIR. FRAQVAT BHG SBE CNVA NAQ ZRAGNY FGNGHF PUNATR. CBFFVOYR PBAPHFFVBA. VF ABJ ANHFRNGRQ. CERSRERAPR VF EVIREFVQR",
+        "VASB:95 LB SRZNYR SRYY NAQ VF PBZCYNVAVAT BS CNVA VA YBJRE UVC.  ABG PBBCRENGVIR. FRAQVAT BHG SBE CNVA NAQ ZRAGNY FGNGHF PUNATR. CBFFVOYR PBAPHFFVBA. VF ABJ ANHFRNGRQ. CERSRERAPR VF EVIREFVQR",
         "QNGR:12/23/12",
         "GVZR:08:10:57");
 

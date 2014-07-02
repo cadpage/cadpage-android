@@ -11,19 +11,26 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class KYKentonCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER1 = Pattern.compile("(.*?) -- (\\d{4}-\\d{8})? +/ *(.*)");
-  private static final Pattern MASTER2 = Pattern.compile("(.* - STAGE AT): +/ +(.*)");
-  private static final Pattern CASE_BREAK_PTN = Pattern.compile("(.*?) *\\b([^a-z]+)$");
-  private static final Pattern PLACE_DEPT_PTN = Pattern.compile("(.*?) *\\b([A-Z]{2}[FP]D\\b.*)");
+  private static final Pattern MASTER1 = Pattern.compile("(.*?) --? (\\d{4}-\\d{8})? +/ *(.*)");
+  private static final Pattern MASTER2 = Pattern.compile("(Administrative .*?) (\\d{4}-\\d{8})? +(.*)");
+  private static final Pattern MASTER3 = Pattern.compile("(.* - STAGE AT): +/ +(.*)");
+  private static final Pattern EXTRA_BLANK_PTN = Pattern.compile("( [NSEW] ) +");
+  private static final Pattern CASE_BREAK_PTN = Pattern.compile(" +([^a-z]+)(?: +|$)");
+  private static final Pattern DEPT_PTN = Pattern.compile("(.*?) *\\b([A-Z]{2}[FP]D)\\b *(.*)", Pattern.CASE_INSENSITIVE);
   
   public KYKentonCountyParser() {
     super(CITY_LIST, "KENTON COUNTY", "KY");
     addRoadSuffixTerms("PI", "XING");
     setupMultiWordStreets(
+        "ASH GROVE",
         "BRACHT PINER",
+        "BRENT SPENCE",
         "CASTLE HILL",
+        "CEDAR RIDGE",
         "CENTRE VIEW",
+        "CHAMBER CENTER",
         "CLUB HOUSE",
+        "COOK BOOK",
         "CRUISE CREEK",
         "DRY RIDGE",
         "FAR HILLS",
@@ -34,28 +41,44 @@ public class KYKentonCountyParser extends SmartAddressParser {
         "GEORGE STEINFORD",
         "HENRY CLAY",
         "HIGH RIDGE",
+        "HOLLY RIDGE",
+        "HICKORY GROVE",
+        "INDEPENDENCE STATION",
         "JACK WOODS",
         "JAMES SIMPSON JR",
+        "KENTON STATION",
         "LICKING STATION",
+        "LOOKOUT FARM",
         "MEADOW GLEN",
         "MEDICAL VILLAGE",
+        "MT ALLEN",
         "MT VERNON",
         "MANOR LAKE",
+        "MARY LAIDLEY",
         "OLD TAYLOR MILL",
+        "PARKERS GROVE",
+        "PLEASANT RIDGE",
         "REGAL RIDGE",
+        "ROCK CRYSTAL",
         "ROUND HILL",
         "SLEEPLY HOLLOW",
         "SOUTH LOOP",
+        "ST AGNES",
         "ST ANTHONY",
+        "ST CLAIR",
         "ST MATTHEWS",
         "ST JAMES",
         "ST JOSEPH",
         "STEEP CREEK",
+        "STONE HILL",
+        "SUGAR CAMP",
         "SUGAR TREE",
+        "MARBLE CLIFF",
         "TAYLOR CREEK",
         "TAYLOR MILL",
         "THOMAS MORE",
         "TIMBER RIDGE",
+        "TOWN CENTER",
         "TUSCANY VALLEY",
         "TWIN LAKES",
         "VALLEY SQUARE",
@@ -86,6 +109,13 @@ public class KYKentonCountyParser extends SmartAddressParser {
     }
     
     else if ((match = MASTER2.matcher(body)).matches()) {
+      setFieldList("CALL PLACE SRC ADDR APT CITY ID INFO");
+      addr = match.group(1).trim();
+      data.strCallId = match.group(2);
+      data.strSupp = match.group(3);
+    }
+    
+    else if ((match = MASTER3.matcher(body)).matches()) {
       setFieldList("CALL ADDR APT CITY");
       data.strCall = match.group(1).trim();
       parseAddress(match.group(2), data);
@@ -99,7 +129,7 @@ public class KYKentonCountyParser extends SmartAddressParser {
     // the call description (always mixed case)
     // option place (upper case)
     // address (upper case)
-    // Sometimes there are double blanks separting the fields
+    // Sometimes there are double blanks seperating the fields
     // and some times they are not.  Just makes life interesting
     
     // Start by checking for a known call description
@@ -112,72 +142,102 @@ public class KYKentonCountyParser extends SmartAddressParser {
       data.strCall = call;
       addr = addr.substring(call.length()).trim();
       
-      StartType st = StartType.START_PLACE;
-      parseAddress(st, FLAG_IMPLIED_INTERSECT, addr, data);
+      match = DEPT_PTN.matcher(addr);
+      if (match.matches()) {
+        data.strPlace = match.group(1);
+        data.strSource = match.group(2);
+        addr = match.group(3);
+      }
+      
+      parseAddress(StartType.START_OTHER, FLAG_IMPLIED_INTERSECT, addr, data);
+      if (data.strSource.length() > 0) data.strSource = append(data.strSource, " ", getStart());
+      else data.strPlace = getStart();
       data.strApt = append(data.strApt, "-", getLeft());
     }
     
     else {
       
-      // No know call description, this make things difficult
-      // Split address by double blank separators
+      // No known call description, this make things difficult
+      // Get rid of the extraneouis double blanks, then
+      // split address by double blank separators
       // If more than 3 parts, give up
+      addr = EXTRA_BLANK_PTN.matcher(addr).replaceFirst("$1");
       String[] flds = addr.split("  +");
       if (flds.length > 3) return false;
       
       // If less than 3, try to break up the first part into 
-      // mixed case and upper case parts
+      // mixed case and upper case parts,  If the field length is 1, we
+      // have to take a possible mixed case city name at the end of the string
       if (flds.length < 3) {
         match = CASE_BREAK_PTN.matcher(flds[0]);
-        if (match.matches()) {
+        int pt = -1;
+        if (match.find()) {
+          int len = 0;
+          do {
+            if (flds.length > 1) {
+              if (match.end() != flds[0].length()) continue;
+            } else {
+              if (match.group(1).length() < len) continue;
+            }
+            pt = match.start();
+            len = match.group(1).length();
+          } while (match.find());
+        }
+        if (pt >= 0) {
           String[] tmp = new String[flds.length+1];
-          tmp[0] = match.group(1);
-          tmp[1] = match.group(2);
+          tmp[0] = flds[0].substring(0,pt);
+          tmp[1] = flds[0].substring(pt).trim();
           if (tmp.length > 2) tmp[2] = flds[1];
           flds = tmp;
         }
       }
       
-      // This should give us at least 2 parts
-      if (flds.length < 2) return false;
+      // Hopefully this will give us two parts
       
-      data.strCall = flds[0];
-      StartType st;
-      if (flds.length > 2) {
-        data.strPlace = flds[1];
-        st = StartType.START_ADDR;
-        addr = flds[2];
-      } else {
-        st = StartType.START_PLACE;
-        addr = flds[1];
+      StartType st = StartType.START_CALL;
+      if (flds.length == 1) {
+        match = DEPT_PTN.matcher(flds[0]);
+        if (match.matches()) {
+          data.strCall = match.group(1);
+          data.strSource = match.group(2);
+          flds[0] = match.group(3);
+          st = StartType.START_OTHER;
+        }
       }
-      parseAddress(st, FLAG_IMPLIED_INTERSECT, addr, data);
+      else {
+        data.strCall = flds[0];
+        st = StartType.START_PLACE;
+        
+        match = DEPT_PTN.matcher(flds[1]);
+        if (match.matches()) {
+          data.strPlace = match.group(1);
+          data.strSource = match.group(2);
+          flds[1] = match.group(3);
+          st = StartType.START_OTHER;
+        }
+        if (flds.length > 2) {
+          if (data.strSource.length() > 0) {
+            data.strSource = append(data.strSource, " ", flds[1]);
+          } else {
+            data.strPlace = flds[1];
+          }
+          st = StartType.START_ADDR;
+        }
+      }
+
+      parseAddress(st, FLAG_IMPLIED_INTERSECT, flds[flds.length-1], data);
+      if (st == StartType.START_OTHER) data.strSource = append(data.strSource, " ", getStart()); 
       data.strApt = append(data.strApt, "-", getLeft());
     }
     
-    fixPlaceDept(data);
-     
     return true;
 
-  }
-
-  private void fixPlaceDept(Data data) {
-    Matcher match;
-    // Place fields come from all kinds of places, but wherever they come from
-    // they often contain a department code
-    match = PLACE_DEPT_PTN.matcher(data.strPlace);
-    if (match.matches()) {
-      data.strSource = append(data.strSource, " ", match.group(2));
-      data.strPlace = match.group(1);
-    }
   }
   
   @Override
   public CodeSet getCallList() {
     return CODE_SET;
   }
-
-
 
   private static final String[] CITY_LIST = new String[]{
     
@@ -214,11 +274,14 @@ public class KYKentonCountyParser extends SmartAddressParser {
   };
   
   private static final CodeSet CODE_SET = new CodeSet(
+      "911 Disconnect",
       "Abdominal/Stomach Pain",
       "Accident-Hit Skip",
+      "Accident-Pedestrian Struck",
       "Accident-Train Wreck",
       "Accident-w/Injuries",
       "Accident-No Injuries",
+      "Administrative",
       "Alarm-Carbon Monoxide Detector",
       "Alarm-Intrusion",
       "Alarm-Medical Emergency",
@@ -245,14 +308,18 @@ public class KYKentonCountyParser extends SmartAddressParser {
       "DOA-Death Investigation",
       "Diabetic Reaction",
       "Domestic Trouble",
+      "Drug Activity",
+      "Drunk Driver/DUI",
       "Elevator/Trapped People",
       "Emotional Crisis",
       "Explosion",
+      "Extrication",
       "Fall",
       "Fire-Alarm",
       "Fire-Alarm",
       "Fire-Arson Investigation",
       "Fire-Auto/Vehicle",
+      "Fire-Boat",
       "Fire-Brush",
       "Fire-Pump Basement",
       "Fire-Setting Fire Outside",
@@ -266,34 +333,51 @@ public class KYKentonCountyParser extends SmartAddressParser {
       "General Relay",
       "HAZMAT All",
       "Head Injury",
+      "Headache/Ill",
+      "Heat Emergency/Problem",
       "Ill/Non-Specific",
       "Intoxicated Subject",
       "Investigation/Follow Up",
       "Landing Zone",
       "Lockout Veh/Res",
+      "Mass Casualty Incident",
       "Missing Juvenile",
       "Motorist Assist",
       "Non-Responsive Person",
       "Not Breathing",
       "Overdose/Drug",
       "OI",                      // ???
+      "Open Door/Window",
+      "Parking Complaint",
+      "Property-Lost/Found/Assist",
+      "Public Contact/Complaint",
       "Pump Basement",
+      "REPO",
       "Seizure",
       "Shooting/Gunshot Wound",
+      "Shots Fired",
       "Signal 500 1st Alarm",
       "Signal 500 2nd Alarm",
       "Signal 500 3rd Alarm",
       "Signal 500 4th Alarm",
       "Signal 500 5th Alarm",
+      "Special Detail",
+      "Speeding/Reckless Vehicle",
       "Stabbing",
       "Stroke",
       "Suspicious-Person",
+      "Suspicious-Vehicle",
       "SWAT CALL - STAGE AT",
       "Theft",
+      "Traffic Obstruction",
+      "Trouble-Employee/Customer",
       "Trouble-Juvenile",
+      "Trouble-Unknown",
+      "Trouble-with Neighbors",
       "TS",                      // ???
       "TX",
       "Vacation/Business Check",
+      "Warrant-Arrest",
       "Well Being Check",
       "Wires Down"
   );
