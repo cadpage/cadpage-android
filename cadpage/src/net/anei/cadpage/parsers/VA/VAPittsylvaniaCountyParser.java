@@ -14,7 +14,7 @@ public class VAPittsylvaniaCountyParser extends DispatchOSSIParser {
   private static final Pattern LEADER = Pattern.compile("^\\d+:(?!CAD:)");
   public VAPittsylvaniaCountyParser() {
     super(CITY_CODES, "PITTSYLVANIA COUNTY", "VA",
-           "ID?: EMPTY? CALL ADDR! CITY! ID? X? X? INFO+");
+           "ID?: EMPTY? ( CANCEL ADDR! CITY?| FYI? CALL ADDR! CITY! ID? X? X? ) INFO+");
   }
   
   @Override
@@ -76,7 +76,10 @@ public class VAPittsylvaniaCountyParser extends DispatchOSSIParser {
       // Henry County
       "AXT","Axton",
       
-      "FRA","Franklin County"
+      "FRA","Franklin County",
+      "PEN","Penhook",
+
+      "HAL","Halifax County"
 
   });
 }
