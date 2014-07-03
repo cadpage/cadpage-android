@@ -28,6 +28,7 @@ public class PAMontgomeryCountyParser extends GroupBestParser {
       "BCYN", "BALA CYNWYD",
       "BEWD", "DELAWARE COUNTY",   // ????
       "BGPT", "BRIDGEPORT",
+      "BHIL", "",             // Bala Cynwyd in Lower Merion Twp
       "BMWR", "BRYN MAWR",
       "BRYA", "BRYN ATHYN",
       "CHEL", "CHELTENHAM TWP",
@@ -59,6 +60,8 @@ public class PAMontgomeryCountyParser extends GroupBestParser {
       "LPOT", "LOWER POTTSGROVE TWP",
       "LPRO", "LOWER PROVIDENCE TWP",
       "LSAL", "LOWER SALFORD TWP",
+      "LVRK", "LAVEROCK",
+      "LWGN", "",                 // Elkins,Wyncote in Cheltenham Twp
       "MARL", "MARLBOROUGH TWP",
       "MERN", "MERION",
       "MONT", "MONTGOMERY TWP",
@@ -75,6 +78,7 @@ public class PAMontgomeryCountyParser extends GroupBestParser {
       "PERK", "PERKIOMEN TWP",
       "PLYM", "PLYMOUTH TWP",
       "PNVY", "PENN VALLEY",
+      "PNWN", "PENN WYNNE",
       "POTT", "POTTSTOWN",
       "RDHL", "RED HILL",
       "RKLG", "ROCKLEDGE",
@@ -112,7 +116,6 @@ public class PAMontgomeryCountyParser extends GroupBestParser {
       "CHCO", "CHESTER COUNTY",
       "DECO", "DELAWARE COUNTY",
       "LECO", "LEHIGH COUNTY"
-
   });
   
   public static final Properties MAP_CITIES = buildCodeTable(new String[]{
