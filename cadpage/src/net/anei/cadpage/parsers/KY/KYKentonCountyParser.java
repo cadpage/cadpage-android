@@ -282,6 +282,7 @@ public class KYKentonCountyParser extends SmartAddressParser {
       "Accident-w/Injuries",
       "Accident-No Injuries",
       "Administrative",
+      "Alarm-Audible",
       "Alarm-Carbon Monoxide Detector",
       "Alarm-Intrusion",
       "Alarm-Medical Emergency",
