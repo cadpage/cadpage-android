@@ -13,7 +13,7 @@ public class FLCitrusCountyParser extends SmartAddressParser {
   
   private static final Pattern TRUNC_CITY_PTN = Pattern.compile("(?: [A-Z][a-z]+)+(?: [A-Z])?$");
   private static final Pattern MASTER1 = Pattern.compile("Unit:([A-Z0-9]+) Status:Dispatched ([A-Z0-9]+) - (.*?) (\\d{2}[A-Z]) (.*)");
-  private static final Pattern MASTER2 = Pattern.compile("((?:[A-Z]+\\d+ )+) ([A-Z]?\\d{1,2}[A-Z]) (.*) ([A-Z0-9]+?) - (.*) (\\d{4}-\\d{8})");
+  private static final Pattern MASTER2 = Pattern.compile("((?:[A-Z]+\\d+ )+) ([A-Z]?\\d{1,2}[A-Z]) (.*) ([A-Z0-9]+?) - (.*) (\\d{4}-\\d{8})(?: +(.*))?");
   private static final Pattern CITY_BRK_PTN = Pattern.compile("(.*? [A-Z]+)(?: - [A-Z]{2})?([A-Z][a-z].*)");
 
   
@@ -67,21 +67,22 @@ public class FLCitrusCountyParser extends SmartAddressParser {
     
     match = MASTER2.matcher(body);
     if (match.matches()) {
-      setFieldList("UNIT MAP ADDR APT PLACE CITY CODE CALL ID");
+      setFieldList("UNIT MAP ADDR APT PLACE CITY CODE CALL ID INFO");
       data.strUnit = match.group(1).trim();
-      data.strMap = match.group(2);
+      data.strMap = getOptGroup(match.group(2));
       String sAddr = match.group(3).trim();
       data.strCode = match.group(4);
       data.strCall = match.group(5);
       data.strCallId = match.group(6);
+      data.strSupp = getOptGroup(match.group(7));
       
       match = CITY_BRK_PTN.matcher(sAddr);
       if (match.matches()) {
-        parseAddress(StartType.START_ADDR, FLAG_NO_CITY, match.group(1).trim(), data);
+        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_NO_CITY, match.group(1).trim(), data);
         data.strPlace = getLeft();
         data.strCity = match.group(2);
       } else {
-        parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_ANCHOR_END, sAddr, data);
+        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_PAD_FIELD | FLAG_ANCHOR_END, sAddr, data);
         data.strPlace = getPadField();
       }
       return true;

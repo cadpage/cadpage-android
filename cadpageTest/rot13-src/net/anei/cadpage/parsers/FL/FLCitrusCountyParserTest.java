@@ -5,15 +5,20 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Pvgehf Pbhagl, SY (ercynpr)
+Pvgehf Pbhagl, SY
 Pbagnpg: "Znegva Tvyrf" <ztvyrf@pelfgnyeviresy.bet>
+Pbagnpg: Znegva Tvyrf <znegva.tvyrf@bhgybbx.pbz>
 Fraqre: 777
 
 PVGEHF PBHAGL SVER QRCNEGZRAG Havg:R001N Fgnghf:Qvfcngpurq 41S - NYNEZ SVER 11S 9450 J ZNEX PG A PVGEHF NIR / A TNEL CG Pelfgny Evire  sver nynez  Guvf vf n pbzzrepvny nynez  Ohfvarff anzr vf: q GKG FGBC gb bcg-bhg\e
 PVGEHF PBHAGL SVER QRCNEGZRAG Havg:G001 Fgnghf:Qvfcngpurq 25F - FGEHPGHER SVER 32Q 3549 FNHAQREF JNL J FBIRERVTA CNGU / F YRPNAGB UJL Yrpnagb RBP GKG FGBC gb bcg-bhg
 PVGEHF PBHAGL SVER QRCNEGZRAG Havg:G001 Fgnghf:Qvfcngpurq 25F - FGEHPGHER SVER 28O 14351 J ROOGVQR PG QRNQ RAQ / F BMRYYB GEY Pelfgny Evire  Fgehpgher glcr: ERFQ  Fgehpgher vf bpphcvrq  GENVYRE vf ba GKG FGBC gb bcg-bhg
+PVGEHF PBHAGL SVER QRCNEGZRAG R071 R031 R091 R201 G021 R001 G001 OP01  20S 220 A  PBHAGEL PYHO QE Pelfgny Evire 25F - FGEHPGHER SVER 2014-00089611  pbzcy urneq na rkcybfvba whfg abj. nqi gung gur pne vf shyyl vaibyirq va gur tnentr. tnentr qbbe vf bcra  Qvfcngpu erprvirq ol havg 1304  Gurer ner fzbxr/synzrf frra...  Synzrf ner vafvqr...  Fgehpgher vf ABG bpphcvrq...  Ab bar vf vawherq be genccrq...  Gur glcr bs fgehpgher vf: ubhfr...  pne vf ba sver...  Gurer ner AB unmneqbhf zngrevnyf...  Gur cbjre pbzcnal vf: qhxr...  vafvqr**  ab bar vfvqr  esq  pne chyyrq vagb tnentr naq vf ba sver va gur tnentr. GKG FGBC gb bcg-bhg
+PVGEHF PBHAGL SVER QRCNEGZRAG OP01  21R 7395 J  CVAROEBBX FG FRIRA EVIREF TBYS NAQ PBHAGEL PYHO Pelfgny Evire 25O - OEHFU SVER 2014-00003459  NQI JR JRER BHG GURER GUVF JRRXRAQ NAQ VG VF SYNEVAT HC NTNVA  TBYS PBHEFR  Sver fvmr vf: 20 LQF...  Gurer ner AB fgehpgherf va qnatre...  Gurer ner AB unmneqbhf zngrevnyf... GKG FGBC gb bcg-bhg
+PVGEHF PBHAGL SVER QRCNEGZRAG R020 FD13 R009 R007 G002 R014 G001 OP01  14N 7495 A  SHYYRE GRE Qhaaryyba 25F - FGEHPGHER SVER 2014-00090691  Qvfcngpu erprvirq ol havg 1284  Qvfcngpu erprvirq ol havg Z125  Qvfcngpu erprvirq ol havg 1302  PBZCY NQI GUVF VF N GRA NPER YBG NAQ FUR GUVAXF GUR UBZR ZNL OR BA SVER OHG VF ABG FHER  Gurer ner fzbxr/synzrf frra...  Synzrf ner bhgfvqr...  Haxabja vs bpphcvrq...  Haxabja vs nalbar vf vawherq be genccrq...  Gur glcr bs fgehpgher vf: UBHFR NAQ 10 PER YBG...  HAX vf ba sver...  Haxabja vs gurer ner nal unmneqbhf zngrevnyf...  Gur cbjre pbzcnal vf: JVGUYNPBPURR...  PBZCY NQI FZBXR PBZVAT SEBZ GUR UBHFR NYBG BS VG GKG FGBC gb bcg-bhg
+PVGEHF PBHAGL SVER QRCNEGZRAG R007 FD13 R020 R003 G002 R001 G001 OP01  21S 889 A  PBANAG NIR Pelfgny Evire 25F - FGEHPGHER SVER 2014-00003500  Pnyy glcr jnf punatrq - Pnapryrq rkvfgvat dhrfgvbaanver.  Pnyy glcr jnf punatrq - Pnapryrq rkvfgvat dhrfgvbaanver.  Pnyy glcr jnf punatrq - Pnapryrq rkvfgvat dhrfgvbaanver.  esq  Sver qrfpevcgvba vf: yvtugavat fgevxr...  Gurer ner AB fzbxr be synzrf frra...  Ab bar vf vawherq/genccrq...  Gurer ner AB hahfhny pvephzfgnaprf...  Gur cbjre pbzcnal vf: jvguynpbbpurr...  pnyyre nqi gung uvf ubhfr jnf fgehpx ol yvtugavat naq ur fzryyf fzbxr GKG FGBC gb bcg-bhg
+(Zrffntr sebz UvcYvax) OP01  35N R OREAVPR FG F EBBXF NIR Vairearff 131P01 - Nppvqrag Haxabja Vawhel 2014-00090785  CebDN Cbyvpr Dhrfgvbaanver Pbzcyrgrq; Q
 
-Pvgehf Pbhagl, SY (nygreangr?)
 Pbagnpg: Cngevpx Cemlolyfxv <sversvtugre7738@lnubb.pbz>
 Fraqre: qqribr@furevsspvgehf.bet
 
@@ -49,7 +54,6 @@ SEZ:qqribr@furevsspvgehf.bet\aFHOW:Zrffntr sebz UvcYvax\aZFT:O001 O071  S13O 849
 SEZ:qqribr@furevsspvgehf.bet\aFHOW:Zrffntr sebz UvcYvax\aZFT:R071 R031 R001  S13N 1801 AJ UJL 19 Pelfgny Evire 41S - NYNEZ SVER 2014-00001193
 SEZ:qqribr@furevsspvgehf.bet\aFHOW:Zrffntr sebz UvcYvax\aZFT:R071 R031 R001  S13N 1801 AJ UJL 19 XZNEG - PEPelfgny Evire 41S - NYNEZ SVER 2014-00001190
  1 bs 2\aSEZ:qqribr@furevsspvgehf.bet\aFHOW:Zrffntr sebz UvcYvax\aZFT:R091 R201 R071 R031 G001 R001 R141 OP01  3S 8466 J  PNAQYRTYBJ FG Pelfgny\a(Pba'g) 2 bs 2\aEvire 25F - FGEHPGHER SVER 2014-00002057(Raq)
-
 R091 R201 R071 R031 G001 R001 R141 OP01  3S 8466 J  PNAQYRTYBJ FG Pelfgny Evire 25F - FGEHPGHER SVER 2014-00002057
 
  */
@@ -61,7 +65,7 @@ choyvp pynff SYPvgehfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgCnefre() {
+  choyvp ibvq grfgZnegvaTvyrf() {
 
     qbGrfg("G1",
         "PVGEHF PBHAGL SVER QRCNEGZRAG Havg:R001N Fgnghf:Qvfcngpurq 41S - NYNEZ SVER 11S 9450 J ZNEX PG A PVGEHF NIR / A TNEL CG Pelfgny Evire  sver nynez  Guvf vf n pbzzrepvny nynez  Ohfvarff anzr vf: q GKG FGBC gb bcg-bhg\e",
@@ -95,6 +99,62 @@ choyvp pynff SYPvgehfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:QRNQ RAQ / F BMRYYB GEY",
         "PVGL:Pelfgny Evire",
         "VASB:Fgehpgher glcr: ERFQ  Fgehpgher vf bpphcvrq  GENVYRE vf ba");
+
+    qbGrfg("G4",
+        "PVGEHF PBHAGL SVER QRCNEGZRAG R071 R031 R091 R201 G021 R001 G001 OP01  20S 220 A  PBHAGEL PYHO QE Pelfgny Evire 25F - FGEHPGHER SVER 2014-00089611  pbzcy urneq na rkcybfvba whfg abj. nqi gung gur pne vf shyyl vaibyirq va gur tnentr. tnentr qbbe vf bcra  Qvfcngpu erprvirq ol havg 1304  Gurer ner fzbxr/synzrf frra...  Synzrf ner vafvqr...  Fgehpgher vf ABG bpphcvrq...  Ab bar vf vawherq be genccrq...  Gur glcr bs fgehpgher vf: ubhfr...  pne vf ba sver...  Gurer ner AB unmneqbhf zngrevnyf...  Gur cbjre pbzcnal vf: qhxr...  vafvqr**  ab bar vfvqr  esq  pne chyyrq vagb tnentr naq vf ba sver va gur tnentr. GKG FGBC gb bcg-bhg",
+        "HAVG:R071 R031 R091 R201 G021 R001 G001 OP01",
+        "ZNC:20S",
+        "NQQE:220 A PBHAGEL PYHO QE",
+        "PVGL:Pelfgny Evire",
+        "PBQR:25F",
+        "PNYY:FGEHPGHER SVER",
+        "VQ:2014-00089611",
+        "VASB:pbzcy urneq na rkcybfvba whfg abj. nqi gung gur pne vf shyyl vaibyirq va gur tnentr. tnentr qbbe vf bcra  Qvfcngpu erprvirq ol havg 1304  Gurer ner fzbxr/synzrf frra...  Synzrf ner vafvqr...  Fgehpgher vf ABG bpphcvrq...  Ab bar vf vawherq be genccrq...  Gur glcr bs fgehpgher vf: ubhfr...  pne vf ba sver...  Gurer ner AB unmneqbhf zngrevnyf...  Gur cbjre pbzcnal vf: qhxr...  vafvqr**  ab bar vfvqr  esq  pne chyyrq vagb tnentr naq vf ba sver va gur tnentr.");
+
+    qbGrfg("G5",
+        "PVGEHF PBHAGL SVER QRCNEGZRAG OP01  21R 7395 J  CVAROEBBX FG FRIRA EVIREF TBYS NAQ PBHAGEL PYHO Pelfgny Evire 25O - OEHFU SVER 2014-00003459  NQI JR JRER BHG GURER GUVF JRRXRAQ NAQ VG VF SYNEVAT HC NTNVA  TBYS PBHEFR  Sver fvmr vf: 20 LQF...  Gurer ner AB fgehpgherf va qnatre...  Gurer ner AB unmneqbhf zngrevnyf... GKG FGBC gb bcg-bhg",
+        "HAVG:OP01",
+        "ZNC:21R",
+        "NQQE:7395 J CVAROEBBX FG",
+        "CYNPR:FRIRA EVIREF TBYS NAQ PBHAGEL PYHO",
+        "PVGL:Pelfgny Evire",
+        "PBQR:25O",
+        "PNYY:OEHFU SVER",
+        "VQ:2014-00003459",
+        "VASB:NQI JR JRER BHG GURER GUVF JRRXRAQ NAQ VG VF SYNEVAT HC NTNVA  TBYS PBHEFR  Sver fvmr vf: 20 LQF...  Gurer ner AB fgehpgherf va qnatre...  Gurer ner AB unmneqbhf zngrevnyf...");
+
+    qbGrfg("G6",
+        "PVGEHF PBHAGL SVER QRCNEGZRAG R020 FD13 R009 R007 G002 R014 G001 OP01  14N 7495 A  SHYYRE GRE Qhaaryyba 25F - FGEHPGHER SVER 2014-00090691  Qvfcngpu erprvirq ol havg 1284  Qvfcngpu erprvirq ol havg Z125  Qvfcngpu erprvirq ol havg 1302  PBZCY NQI GUVF VF N GRA NPER YBG NAQ FUR GUVAXF GUR UBZR ZNL OR BA SVER OHG VF ABG FHER  Gurer ner fzbxr/synzrf frra...  Synzrf ner bhgfvqr...  Haxabja vs bpphcvrq...  Haxabja vs nalbar vf vawherq be genccrq...  Gur glcr bs fgehpgher vf: UBHFR NAQ 10 PER YBG...  HAX vf ba sver...  Haxabja vs gurer ner nal unmneqbhf zngrevnyf...  Gur cbjre pbzcnal vf: JVGUYNPBPURR...  PBZCY NQI FZBXR PBZVAT SEBZ GUR UBHFR NYBG BS VG GKG FGBC gb bcg-bhg",
+        "HAVG:R020 FD13 R009 R007 G002 R014 G001 OP01",
+        "ZNC:14N",
+        "NQQE:7495 A SHYYRE GRE",
+        "CYNPR:Qhaaryyba",
+        "PBQR:25F",
+        "PNYY:FGEHPGHER SVER",
+        "VQ:2014-00090691",
+        "VASB:Qvfcngpu erprvirq ol havg 1284  Qvfcngpu erprvirq ol havg Z125  Qvfcngpu erprvirq ol havg 1302  PBZCY NQI GUVF VF N GRA NPER YBG NAQ FUR GUVAXF GUR UBZR ZNL OR BA SVER OHG VF ABG FHER  Gurer ner fzbxr/synzrf frra...  Synzrf ner bhgfvqr...  Haxabja vs bpphcvrq...  Haxabja vs nalbar vf vawherq be genccrq...  Gur glcr bs fgehpgher vf: UBHFR NAQ 10 PER YBG...  HAX vf ba sver...  Haxabja vs gurer ner nal unmneqbhf zngrevnyf...  Gur cbjre pbzcnal vf: JVGUYNPBPURR...  PBZCY NQI FZBXR PBZVAT SEBZ GUR UBHFR NYBG BS VG");
+
+    qbGrfg("G7",
+        "PVGEHF PBHAGL SVER QRCNEGZRAG R007 FD13 R020 R003 G002 R001 G001 OP01  21S 889 A  PBANAG NIR Pelfgny Evire 25F - FGEHPGHER SVER 2014-00003500  Pnyy glcr jnf punatrq - Pnapryrq rkvfgvat dhrfgvbaanver.  Pnyy glcr jnf punatrq - Pnapryrq rkvfgvat dhrfgvbaanver.  Pnyy glcr jnf punatrq - Pnapryrq rkvfgvat dhrfgvbaanver.  esq  Sver qrfpevcgvba vf: yvtugavat fgevxr...  Gurer ner AB fzbxr be synzrf frra...  Ab bar vf vawherq/genccrq...  Gurer ner AB hahfhny pvephzfgnaprf...  Gur cbjre pbzcnal vf: jvguynpbbpurr...  pnyyre nqi gung uvf ubhfr jnf fgehpx ol yvtugavat naq ur fzryyf fzbxr GKG FGBC gb bcg-bhg",
+        "HAVG:R007 FD13 R020 R003 G002 R001 G001 OP01",
+        "ZNC:21S",
+        "NQQE:889 A PBANAG NIR",
+        "PVGL:Pelfgny Evire",
+        "PBQR:25F",
+        "PNYY:FGEHPGHER SVER",
+        "VQ:2014-00003500",
+        "VASB:Pnyy glcr jnf punatrq - Pnapryrq rkvfgvat dhrfgvbaanver.  Pnyy glcr jnf punatrq - Pnapryrq rkvfgvat dhrfgvbaanver.  Pnyy glcr jnf punatrq - Pnapryrq rkvfgvat dhrfgvbaanver.  esq  Sver qrfpevcgvba vf: yvtugavat fgevxr...  Gurer ner AB fzbxr be synzrf frra...  Ab bar vf vawherq/genccrq...  Gurer ner AB hahfhny pvephzfgnaprf...  Gur cbjre pbzcnal vf: jvguynpbbpurr...  pnyyre nqi gung uvf ubhfr jnf fgehpx ol yvtugavat naq ur fzryyf fzbxr");
+
+    qbGrfg("G8",
+        "(Zrffntr sebz UvcYvax) OP01  35N R OREAVPR FG F EBBXF NIR Vairearff 131P01 - Nppvqrag Haxabja Vawhel 2014-00090785  CebDN Cbyvpr Dhrfgvbaanver Pbzcyrgrq; Q",
+        "HAVG:OP01",
+        "ZNC:35N",
+        "NQQE:R OREAVPR FG & F EBBXF NIR",
+        "PVGL:Vairearff",
+        "PBQR:131P01",
+        "PNYY:Nppvqrag Haxabja Vawhel",
+        "VQ:2014-00090785",
+        "VASB:CebDN Cbyvpr Dhrfgvbaanver Pbzcyrgrq; Q");
 
   }
   
