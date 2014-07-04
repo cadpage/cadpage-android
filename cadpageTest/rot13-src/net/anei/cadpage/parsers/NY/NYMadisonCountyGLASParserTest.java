@@ -34,6 +34,9 @@ SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Cflpuvngevp/Fhvpvqr Ngg
 SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Urnqnpur\e\a206 OEBNQ , BARVQN PVGL VAFVQR ( JNFUVATGBA NI / YRABK NI)
 SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:ZIN - Haxabja\e\aEBHGR 31 \ ZBEEVF EQ (, YRABK)
 SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:ZIN - Crefbany Vawhel\e\aBKOBJ EQ \ JUVGZNA EQ (, YVAPBYA)
+Fhowrpg:Terngre Yrabk
+{Terngre Yrabk} \a\aFgebxr/PIN\a\a3021 FRARPN GEACX , YRABK ( UNEC EQ / FHGUREYNAQ QE)
+{Terngre Yrabk} \a\aNyyretvp Ernpgvba\a\a7604 BKOBJ EQ , YVAPBYA ( BKOBJ EQ YRABK YVAPBYA YVAR / ONEYRL EQ)
 
 */
 
@@ -202,6 +205,20 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIN - Crefbany Vawhel",
         "NQQE:BKOBJ EQ & JUVGZNA EQ",
         "PVGL:YVAPBYA");
+
+    qbGrfg("G22",
+        "{Terngre Yrabk} \a\aFgebxr/PIN\a\a3021 FRARPN GEACX , YRABK ( UNEC EQ / FHGUREYNAQ QE)",
+        "PNYY:Fgebxr/PIN",
+        "NQQE:3021 FRARPN GEACX",
+        "PVGL:YRABK",
+        "K:UNEC EQ / FHGUREYNAQ QE");
+
+    qbGrfg("G23",
+        "{Terngre Yrabk} \a\aNyyretvp Ernpgvba\a\a7604 BKOBJ EQ , YVAPBYA ( BKOBJ EQ YRABK YVAPBYA YVAR / ONEYRL EQ)",
+        "PNYY:Nyyretvp Ernpgvba",
+        "NQQE:7604 BKOBJ EQ",
+        "PVGL:YVAPBYA",
+        "K:BKOBJ EQ YRABK YVAPBYA YVAR / ONEYRL EQ");
 
   }
   

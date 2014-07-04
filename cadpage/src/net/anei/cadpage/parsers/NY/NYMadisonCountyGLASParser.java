@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgParser;
 
 public class NYMadisonCountyGLASParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("(.*?)\r?\n(.*?)(?: *, (.*?))?(?: \\((.*?)\\)?)?");
+  private static final Pattern MASTER = Pattern.compile("(.*?)\n+(.*?)(?: *, (.*?))?(?: \\((.*?)\\)?)?");
   
   public NYMadisonCountyGLASParser() {
     super("MADISON COUNTY", "NY");
