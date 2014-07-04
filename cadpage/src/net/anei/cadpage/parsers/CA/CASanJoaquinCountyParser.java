@@ -13,7 +13,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class CASanJoaquinCountyParser extends SmartAddressParser {
   
   private static final Pattern RUN_REPORT_PTN = Pattern.compile(".*? Dispatched:.*?Enroute:.*?On Scene:.*?AOR:.*");
-  private static final Pattern MASTER1 = Pattern.compile("(?:([-A-Z0-9]+) +)?([A-Z]{3}-\\d{6})  +(.*?)  +(.*?)(?:  +(.*?))? *Bldg: *(.*?) *Apt: *(.*)");
+  private static final Pattern MASTER1 = Pattern.compile("(?:([-A-Z0-9]+) +)?([A-Z]{3}-\\d{6}|\\d{8})  +(.*?)  +(.*?)(?:  +(.*?))? *Bldg: *(.*?) *Apt: *(.*)");
   private static final Pattern MASTER2 = Pattern.compile("(?:([-A-Z0-9]+) +)?(\\d{8}) {5}([^ ].*)");
   
   public CASanJoaquinCountyParser() {
