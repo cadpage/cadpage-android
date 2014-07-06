@@ -471,6 +471,7 @@ public class ParserList {
               ,"MNHennepinCounty"               ,"Hennepin County, MN"
               ,"MNMinneapolisStPaul"            ,"Minneapolis/St Paul, MN"
               ,"MNOlmstedCounty"                ,"Olmsted County, MN"
+              ,"MNOtterTailCounty"              ,"Otter Tail County, MN"
               ,"MNSherburneCounty"              ,"Sherburne County, MN"
               ,"MNWabashaCounty"                ,"Wabasha County, MN"
               ,"MNWadenaCounty"                 ,"Wadena County, MN"
@@ -1057,6 +1058,7 @@ public class ParserList {
               ,"WVMorganCounty"                 ,"Morgan County, WV"
               ,"WVPocahontasCounty"             ,"Pocahontas County, WV"
               ,"WVRaleighCounty"                ,"Raleigh County, WV"
+              ,"WVWyomingCounty"                ,"Wyoming County, WV"
           ),
           new ParserCategory("Wisconsin"
               ,"WIBrownCounty"                  ,"Brown County, WI"
