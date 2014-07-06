@@ -12,7 +12,7 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
   
   private static final Pattern CLOSE_PAREN_BLK_PTN = Pattern.compile("\\)([^ ])");
   private static final Pattern BOX_CH_PTN = Pattern.compile("(?: +BOX|-)? +(\\d{1,2}-[A-Z](?:-[A-Z])?)(?: +([A-Za-z]+(?: +[A-Za-z]+)?))?$");
-  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:[A-Z]+\\d+|HH))+  +");
+  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:[A-Z]+\\d+(?:-\\d+)?|HH))+  +");
   private static final Pattern GPS_PIPE_PTN1 = Pattern.compile("^([-+]?\\d+\\.\\d+)\\|([-+]?\\d+\\.\\d+)\\b");
   private static final Pattern GPS_PIPE_PTN2 = Pattern.compile("\\b([-+]?\\d+\\.\\d+)\\|([-+]?\\d+\\.\\d+)\\b");
   
