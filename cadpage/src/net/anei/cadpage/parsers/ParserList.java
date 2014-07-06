@@ -168,6 +168,7 @@ public class ParserList {
               ,"CASanDiegoCounty"               ,"San Diego County, CA"
               ,"CASanJoaquinCounty"             ,"San Joaquin County, CA"
               ,"CASanLuisObispoCounty"          ,"San Luis Obispo County, CA"
+              ,"CASanMateoCounty"               ,"San Mateo County, CA"
               ,"CASantaClaraCounty"             ,"Santa Clara County, CA"
               ,"CASantaCruzCounty"              ,"Santa Cruz County, CA"
               ,"CAShastaCounty"                 ,"Shasta County, CA"

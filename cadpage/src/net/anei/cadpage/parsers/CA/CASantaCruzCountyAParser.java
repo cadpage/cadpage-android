@@ -9,12 +9,12 @@ import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 /**
  * Santa Cruz County, CA
  */
-public class CASantaCruzCountyParser extends DispatchPrintrakParser {
+public class CASantaCruzCountyAParser extends DispatchPrintrakParser {
   
   private static final Pattern MASTER_FIX1_PTN = Pattern.compile("([^ ]{3}) (\\d) ([A-Z]{3}\\d{12}) ([^ ]+(?: [EF])?) +(.*)");
   private static final Pattern CITY_AREA_PTN = Pattern.compile("BIG REDWOOD PRK|MISSION SPRINGS|PASATIEMPO|ZAYANTE|.* AREA?|.* AR|.* BYPASS|.* CORR?IDOR");
   
-  public CASantaCruzCountyParser() {
+  public CASantaCruzCountyAParser() {
     super("SANTA CRUZ COUNTY", "CA");
   }
   

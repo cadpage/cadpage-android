@@ -2959,7 +2959,7 @@ EN: N-10; PNZC FYB @ =Y(35.325251,-120.728507) #831 ,FYB_PB ;  ; SVER, PBZZREPVN
 EN: X10; PHRFGN TENQR AO(GBC) @ =Y(35.348795,-120.630637) ,FYB_PB ;  ; ZRQ, JVGU RKGEVPNGVBA; ; Znc: 634/634; Vap# 001151; O3416 R12 RFZI E21 RZF1 RFYB; IRU IF FRZV <n uers="uggc://zncf.tbbtyr.pbz/?d=35.348795,-120.630637">Znc</n>
 EN: E-5; 50 YNQQL YA ,FYB_PB ;  QRNQ-RAQ; SVER, FGEHPGHER BGURE; ; Znc: 493_S_2; Vap# 001097; R30 R36 O3409; AB GRKG <n uers="uggc://zncf.tbbtyr.pbz/?d=35.703229,-120.694225">Znc</n>
 ***************************************************************************
-Fnagn Pynen Pbhagl, PN (PNFnagnPynenPbhaglOCnefre)
+Fnagn Pehm Pbhagl, PN (PNFnagnPehmPbhaglOCnefre)
 (PNQ Cntr) ZRQVPNY; QNIVQ OEHPR JVAREL @ 21439 ORNE PERRX EQ ,OHEERYY ; ; 21860 OYX ORNE PERRX JL; Znc: 912_P_1/17_R20-P; Vap# 004446; PB29 PB36 R1768; AB GRKG <n uers="uggc://zncf.tbbtyr.pbz/?d=37.167248,-122.045920">Znc</n>
 (PNQ Cntr) ZRQ, GENSSVP PBYYVFVBA; FHZZVG 17 (BHEF) @ 22397 FO UJL 17 ,OHEERYY ; ; 115 OYX FNAGN PEHM EQT; Znc: 912_W_5/27_T24-Q; Vap# 004444; O1708 PAGR4 PB36 R1768; AB GRKG <n uers="uggc://zncf.tbbtyr.pbz/?d=37.141888,-121.985263">Znc</n>
 (PNQ Cntr) SVER, FZBXR PURPX; 25820 NQNZF EQ ,OHEERYY ; ;  QRNQ-RAQ; Znc: 933_U_2/40_W30-N; Vap# 004439; PB36 R1768; AB GRKG <n uers="uggc://zncf.tbbtyr.pbz/?d=37.107538,-121.914976">Znc</n>
@@ -7995,19 +7995,6 @@ FGEHPGHER SVER, Trareny Fgehpgher ng 1895 Arj lbex nir . . 21:50:51
 **********************************************************
 **********************************************************
 **********************************************************
-Fna Zngrb Pbhagl naq Fnagn Pehm Pbhagl, PN
-Pbagnpg: wbua499 <wbua499@yvir.pbz>
-Fraqre: pmh.rpp@sver.pn.tbi
-
-SVER, ERFVQRAGVNY; 1603 RQTRJBBQ EQ ,RZRENYQ_YNXR ; ; 1 OYX JBBQUHR PG; Znc: 769_T_7; Vap# 003668; R1771; AB GRKG <n uers="uggc://zncf.tbbtyr.pbz/?d=37.477248,-122.262226">Znc</n>
-SVER, JVYQYNAQ; 43600 ZVFFVBA OY ,SERZBAG; ARNE GUR GRAGF PBHEGF; PRQNE FG; Znc: 773_W_1; Vap# 003480; OAY1 OAY2 R1771 R1775; Erdhrfg sbe  R1771(PMH-R1771) sebz FPH FPHPNQ03 UNYY, UNEEVFBA. <n uers="uggc://zncf.tbbtyr.pbz/?d=37.528471,-121.918689">Znc</n>
-SVER, JVYQYNAQ; 17350 CNGGREFBA CNFF ,NYGNZBAG; ; 4JQ EBNQ; Znc: 698; Vap# 003494; R1771; Erdhrfg sbe  R1771(PMH-R1771) sebz FPH FPHPNQ03 UNYY, UNEEVFBA. <n uers="uggc://zncf.tbbtyr.pbz/?d=37.711119,-121.570299">Znc</n>
-SVER, JVYQYNAQ; 4420 NYCVAR EQ / 2 CBEGBYN EQ ,CBEGBYN_INYYRL ; ; ; Znc: 810_P_7/; Vap# 003698; O1711 OAY2 OAY5 QHGCNT10 R1761 R1762 R1765 R1771 R1799 CEI; AB GRKG <n uers="uggc://zncf.tbbtyr.pbz/?d=37.372230,-122.207400">Znc</n>
-SVER, NTRAPL NFFVFG; =Y(37.351167,-122.174333) ,CNYB_NYGB ; 3800  OYX CNTR ZVYY EQ ,CNYB_NYGB; ; Znc: 854_R_6/D37; Vap# 003501; R1771; Erdhrfg sbe  R1768(PMH-R1768) sebz FPH FPHPNQ03 UNYY, UNEEVFBA. <n uers="uggc://zncf.tbbtyr.pbz/?d=37.351167,-122.174333">Znc</n>
-SVER, JVYQYNAQ; 4420 NYCVAR EQ / 2 CBEGBYN EQ ,CBEGBYN_INYYRL ; ; ; Znc: 810_P_7/; Vap# 003698; O1711 OAY2 OAY5 QHGCNT10 R1761 R1762 R1765 R1771 R1799 CEI; AB GRKG <n uers="uggc://zncf.tbbtyr.pbz/?d=37.372230,-122.207400">Znc</n>
-SVER, JVYQYNAQ; 17350 CNGGREFBA CNFF ,NYGNZBAG; ; 4JQ EBNQ; Znc: 698; Vap# 003494; R1771; Erdhrfg sbe  R1771(PMH-R1771) sebz FPH FPHPNQ03 UNYY, UNEEVFBA. <n uers="uggc://zncf.tbbtyr.pbz/?d=37.711119,-121.570299">Znc</n>
-SVER, JVYQYNAQ; 4420 NYCVAR EQ / 2 CBEGBYN EQ ,CBEGBYN_INYYRL ; ; ; Znc: 810_P_7/; Vap# 003698; O1711 OAY2 OAY5 QHGCNT10 R1761 R1762 R1765 R1771 R1799 CEI; AB GRKG <n uers="uggc://zncf.tbbtyr.pbz/?d=37.372230,-122.207400">Znc</n>
-SVER, NTRAPL NFFVFG; =Y(37.351167,-122.174333) ,CNYB_NYGB ; 3800  OYX CNTR ZVYY EQ ,CNYB_NYGB; ; Znc: 854_R_6/D37; Vap# 003501; R1771; Erdhrfg sbe  R1768(PMH-R1768) sebz FPH FPHPNQ03 UNYY, UNEEVFBA. <n uers="uggc://zncf.tbbtyr.pbz/?d=37.351167,-122.174333">Znc</n>
 **********************************************************
 **********************************************************
 **********************************************************
