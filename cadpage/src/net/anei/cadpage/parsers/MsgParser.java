@@ -1123,7 +1123,10 @@ public abstract class MsgParser {
    */
   protected boolean checkPlace(String field) {
     if (field.contains(",")) return false;
-    if (field.toUpperCase().startsWith("MR")) return false;
+    String upshift = field.toUpperCase();
+    if (upshift.startsWith("MR")) return false;
+    if (upshift.startsWith("DR ")) return false;
+    if (upshift.startsWith("MS ")) return false;
     int cnt = 0;
     char last = 'X';
     for (char chr : field.toCharArray()) {
@@ -1317,7 +1320,7 @@ public abstract class MsgParser {
    if (found) name = name.substring(0,match.start()).trim();
    return name;
  }
- private static final Pattern WIRELESS_CARRIER_PTN = Pattern.compile("\\b(?:VERIZON(?: WIRELESS)?(?: INTRADO \\(PSAP\\))?|(?:MOBILITY )?(?:ATT? ?& ?T|ATT)(?: MOBILITY)?(?: \\(TCS\\))?|ATTMO|CONNEXON|T-MOBILE|SPRINT(?:PCS)?(?: NEXTEL- CDMA)?|US CELLULAR|METRO ?PCS|CORR WIRELESS)\\b.*", Pattern.CASE_INSENSITIVE);
+ private static final Pattern WIRELESS_CARRIER_PTN = Pattern.compile("\\b(?:VERIZON(?: WIRELESS)?(?: INTRADO \\(PSAP\\))?|VZW(?:M?OBILE)?(?: USA)?|(?:MOBILITY )?(?:ATT? ?& ?T|ATT)(?: MOBILITY)?(?: \\(TCS\\))?|ATTMO|CONNEXON|T-MOBILE|SPRINT(?:PCS)?(?: NEXTEL- CDMA)?|US CELLULAR|METRO ?PCS|CORR WIRELESS)\\b.*", Pattern.CASE_INSENSITIVE);
 
  /**
   * Strip optional constant string value from beginning of field

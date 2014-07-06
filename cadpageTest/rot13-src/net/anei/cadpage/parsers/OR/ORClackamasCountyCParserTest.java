@@ -116,9 +116,9 @@ Fraqre: <cbegynaqpbzz@nze-rzf.pbz>
 
 */
 
-choyvp pynff BEPynpxnznfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff BEPynpxnznfPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp BEPynpxnznfPbhaglCnefreGrfg() {
+  choyvp BEPynpxnznfPbhaglPCnefreGrfg() {
     frgCnefre(arj QhzzlCnefre(), "PYNPXNZNF PBHAGL", "BE");
   }
   
@@ -128,6 +128,6 @@ choyvp pynff BEPynpxnznfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj BEPynpxnznfPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj BEPynpxnznfPbhaglPCnefreGrfg().trarengrGrfgf("G1");
   }
 }

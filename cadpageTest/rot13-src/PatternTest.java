@@ -6,10 +6,10 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE  =
-      Cnggrea.pbzcvyr("  +(UGGCF://JJJ\\.RIREOEVQTR\\.ARG/AAF/RZNVYERFCBAFR\\.QB\\?PCGU_VQ=[^ ]+)  +");
+      Cnggrea.pbzcvyr("([N-M0-9]+) - ([-N-M0-9]{2,4}) \\((.*?)\\) (?:[n-m]-[ -]*)?(.*?)(?: ,([N-M]{3})-)?");
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("(Ybhqbha PNQ) PNYY:19P02-URNEG CEBOYRZ , 20045 NFUOEBBX PBZZBAF CYM-NO NCG: K-FG:CERZVRE CYM EHFFRYY OENAPU CXJL ,Z606 NPB6, OBK:0627  NQP:5279 R01 SQVQ:99624      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=660261OOPP917O86Q05563189361Q26P9515SP7NOP12ON88     Cyrnfr pyvpx gb pbasvez");
+    qbGrfg("R210N - SNP (PBZZREPVNY SVER NYNEZ) f- -- GUR EVQTR NG ZG CX ,YNX-  #YS1807 OHVYQVAT 4, OBGGBZ SYBBE CHYY OBK VF OHMMVAT, VF ABG VA NYNEZ. EC ABG BAF");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

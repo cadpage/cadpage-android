@@ -13,14 +13,18 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 abstract public class ORWashingtonCountyBaseParser extends FieldProgramParser {
   
   public ORWashingtonCountyBaseParser(String defCity, String defState, String program) {
-    this(null, defCity, defState, program);
+    super(defCity, defState, program);
+    addRoadSuffixTerms();
   }
   
   public ORWashingtonCountyBaseParser(String[] cityList, String defCity, String defState, String program) {
     super(cityList, defCity, defState, program);
-    for (Object key : STREET_CODES.keySet()) {
-      addRoadSuffixTerms((String)key);
-    }
+    addRoadSuffixTerms();
+  }
+  
+  public ORWashingtonCountyBaseParser(Properties cityCodes, String defCity, String defState, String program) {
+    super(cityCodes, defCity, defState, program);
+    addRoadSuffixTerms();
   }
   
   @Override
@@ -34,6 +38,12 @@ abstract public class ORWashingtonCountyBaseParser extends FieldProgramParser {
     return sb.toString();
   }
   private static final Pattern XX_PTN = Pattern.compile("\\b[A-Z]{2}\\b");
+
+  private void addRoadSuffixTerms() {
+    for (Object key : STREET_CODES.keySet()) {
+      addRoadSuffixTerms((String)key);
+    }
+  }
   
   private static final Properties STREET_CODES = buildCodeTable(new String[]{
       "AL", "ALLEY",
