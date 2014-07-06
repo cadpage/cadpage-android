@@ -16,8 +16,17 @@ public class ORWashingtonCountyCParser extends MsgParser {
   private static final Pattern CODE_CALL_PTN = Pattern.compile("(\\d{1,2}[A-Z]\\d{1,2}[A-Z]?) +([^ ].*)");
   
   public ORWashingtonCountyCParser() {
-    super("WASHINGTON COUNTY", "OR");
+    this("WASHINGTON COUNTY", "OR");
+  }
+  
+  public ORWashingtonCountyCParser(String defCity, String defState) {
+    super(defCity, defState);
     setFieldList("UNIT ID PLACE ADDR APT CITY X PRI CODE CALL");
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "ORWashingtonCountyCParser";
   }
   
   @Override
@@ -57,7 +66,7 @@ public class ORWashingtonCountyCParser extends MsgParser {
       parseAddress(substring(body,65,96), data);
       data.strApt = substring(body,96,106);
       data.strCity = substring(body,107,125);
-      data.strCross = substring(body,148,190);
+      data.strCross = stripFieldStart(substring(body,148,190), "btwn ");
       data.strPriority = substring(body,194,196);
       String call = substring(body,197);
       match = CODE_CALL_PTN.matcher(call);
