@@ -26,6 +26,9 @@ Pbagnpg: Evpu Unyibefra <evpu.unyibefra@tznvy.pbz>
 Fraqre: FUREVSS.PNQCNTVAT@PB.URAARCVA.ZA.HF 
 1 bs 2\aSEZ:FUREVSS.PNQCNTVAT@PB.URAARCVA.ZA.HF\aZFT:ANZR-NQG;  YBP-1745 GEBL YN A;  PVGL-CYL;  RIGLCR-NYZUFR;  PBZZRAGF-1745 GEBL YN A: pebff\a(Pba'g) 2 bs 2\afgerrgf : PB 6\aTRARENY SVER NYNEZ GVZR 20:58 GVZ PHEGNVA 763-473-3366 \a(Raq)
 
+Pbagnpg: Enaql Zhryyre <enaqlqzhryyre@tznvy.pbz>
+ANZR-FVYRAG XAVTUG;  YBP-7801 GEBL YN A;  PVGL-ZCT;  RIGLCR-NYZOHF;  PBZZRAGF-7801 GEBL YN A: pebff fgerrgf : 78GU NIR A & 80GU NIR A\aEHFU PERRX PYHOUBHFR\aF JVAT YBHATR FZBXR NAQ ORNZ\aAB VAFVQR # YVFGRQ\aGEVC GVZR 1701
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Eboovafqnyr Sver Qrcg
 Ybpngvba: Eboovafqnyr, ZA, Havgrq Fgngrf
@@ -2195,6 +2198,26 @@ choyvp pynff ZAUraarcvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:TRARENY SVER NYNEZ GVZR 20:58 GVZ PHEGNVA 763-473-3366",
         "K:PB 6");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEnaqlZhryyre() {
+
+    qbGrfg("G1",
+        "ANZR-FVYRAG XAVTUG;  YBP-7801 GEBL YN A;  PVGL-ZCT;  RIGLCR-NYZOHF;  PBZZRAGF-7801 GEBL YN A: pebff fgerrgf : 78GU NIR A & 80GU NIR A\a" +
+        "EHFU PERRX PYHOUBHFR\a" +
+        "F JVAT YBHATR FZBXR NAQ ORNZ\a" +
+        "AB VAFVQR # YVFGRQ\a" +
+        "GEVC GVZR 1701",
+
+        "ANZR:FVYRAG XAVTUG",
+        "NQQE:7801 GEBL YN A",
+        "ZNQQE:7801 GEBL YA A",
+        "PVGL:ZNCYR TEBIR",
+        "PNYY:NYZOHF",
+        "VASB:EHFU PERRX PYHOUBHFR\aF JVAT YBHATR FZBXR NAQ ORNZ\aAB VAFVQR # YVFGRQ\aGEVC GVZR 1701",
+        "K:78GU NIR A & 80GU NIR A");
+
   }
 
   @Grfg
