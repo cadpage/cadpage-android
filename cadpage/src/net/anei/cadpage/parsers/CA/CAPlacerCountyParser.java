@@ -15,7 +15,7 @@ public class CAPlacerCountyParser extends FieldProgramParser {
     this("PLACER COUNTY", "CA");
   }
   
-  public CAPlacerCountyParser(String defCity, String defState) {
+  protected CAPlacerCountyParser(String defCity, String defState) {
     super(defCity, defState,
           "UNIT CALL ADDR PLACE ID! INFO");
   }

@@ -19,7 +19,7 @@ public class CACalaverasCountyParser extends MsgParser {
     this("CALAVERAS COUNTY");
   }
   
-  public CACalaverasCountyParser(String defCity) {
+  protected CACalaverasCountyParser(String defCity) {
     super(defCity, "CA");
     setFieldList("ID CALL PLACE ADDR APT CITY MAP GPS INFO UNIT");
   }
