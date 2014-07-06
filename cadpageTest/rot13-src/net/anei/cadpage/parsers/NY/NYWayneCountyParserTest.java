@@ -65,7 +65,6 @@ choyvp pynff ALJnlarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:20:11",
         "PNYY:UBHFR SVER",
         "NQQE:106 UVYY FG",
-        "ANZR:IMJ PNYY",
         "K:YLBAF FG & FGNAFRYY FG",
         "CUBAR:315-690-9286");
 

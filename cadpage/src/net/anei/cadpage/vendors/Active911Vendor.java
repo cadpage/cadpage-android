@@ -267,6 +267,7 @@ class Active911Vendor extends Vendor {
       "US/MN/HennepinCounty",             "MN/HennepinCounty",
       "US/MN/MowerCounty",                "Cadpage2",
       "US/MN/NormanCounty",               "Cadpage2",
+      "US/MN/OtterTailCounty",            "MNOtterTailCounty",
       "US/MN/SherburneCounty",            "MNSherburneCounty",
       "US/MN/StPaul",                     "MNMinneapolisStPaul",
       "US/MN/WabashaCounty",              "MNWabashaCounty",
@@ -495,6 +496,7 @@ class Active911Vendor extends Vendor {
       "US/WV/BerkeleyCounty",             "WVBerkeleyCounty",
       "US/WV/LincolnCounty",              "WVLincolnCounty",
       "US/WV/RaleighCounty",              "WVRaleighCounty",
+      "US/WV/Wyoming",                    "WVWyomingCounty",
       "Utility/General/Default",          "N/A",
       "Vendor/Cadpage/StandardA",         "StandardA"
   });
