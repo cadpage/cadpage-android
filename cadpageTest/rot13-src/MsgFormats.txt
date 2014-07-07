@@ -1182,6 +1182,20 @@ Cvxr Pbhagl, CN (CNCvxrPbhaglOCnefre)
 (Cvxr PNQ) 107 CRNE PG * JRF * CFLPUVNGEVP/RZBGVBANY- OYF  * Qvfcngpu: 19 NZO 1,39 NZO 2\e\aFDHNQ 19\a\aFrag ol vasb rkpunatr gb FDHNQ 19 (r-znvy nppbhagf, cntref, Pryy cubarf) guebhtu Cvxr Pbhagl EFNA\e\a... cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Cvxr Pbhagl EFNA.  Gb punatr lbhe nyregvat cersreraprf tb gb JROCNTR/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Cvxr Pbhagl EFNA! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng JROCNTR
 *******************************************************************************
 *******************************************************************************
+* QvfcngpuN46Cnefre fhopynffrf
+*******************************************************************************
+*******************************************************************************
+Bxgvoorun Pbhagl, ZF (ZFBxgvoorunPbhaglCnefre) 
+(ISQ - ZRQ - 2014030003 - 173 Tenff Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 173 Tenff Eq, Fgnexivyyr, ZF
+(ISQ - FGEHP - 2014020074 - 240 16gu Frpgvba Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Fgehpgher Sver ercbegrq ng 240 16gu Frpgvba Eq, Fgnexivyyr, ZF
+(ISQ - ZRQ - 2014020073 - 96 Jnfu Ya, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 96 Jnfu Ya, Fgnexivyyr, ZF 31 le byq znyr cbffvoyr flapbcr rcvfbqrf.
+*******************************************************************************
+Nenafnf Pbhagl, GK
+(ISQ - ZIN - 2014000280 - 100 Olcnff 35, Nenafnf Pbhagl, GK) Gurer unf orra n(a) Zbgbe Iru Nppvqrag ercbegrq ng 100 Olcnff 35, Nenafnf Pbhagl, GK     ba enzc ng 188 ao
+(ISQ - TS - 2014000273 - 200 Pbcnab Pbir Ebnq, Nenafnf Pbhagl, GK) Gurer unf orra n(a) Tenff Sver ercbegrq ng 200 Pbcnab Pbir Ebnq, Nenafnf Pbhagl, GK
+(ISQ - TNF - 2014000270 - 3400 Sz 1781, A Bpy, GK) Gurer unf orra n(a) Tnf Yrnx ercbegrq ng 3400 Sz 1781, A Bpy, GK
+*******************************************************************************
+*******************************************************************************
 * QvfcngpuOCnefre fhopynffrf
 *******************************************************************************
 *******************************************************************************
@@ -3877,11 +3891,6 @@ Arjgba Pbhagl, ZF (ZFArjgbaPbhaglCnefre)
 NYNEZ-SVER HSQ () Ybp:3391 UJL 494 [@EBOVAFBA WBFU & PNFRL Epiq: 10:29:10 13004716
 ZRQVPNY PNYY HSE () Ybp:103 ZNFBA FG Epiq: 09:7:16 13004713
 ZRQVPNY PNYY HSE () Ybp:107 PNEIRE FG Epiq: 08:43:6 13004710
-****************************************************************************
-Bxgvoorun Pbhagl, ZF (ZFBxgvoorunPbhaglCnefre) 
-(ISQ - ZRQ - 2014030003 - 173 Tenff Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 173 Tenff Eq, Fgnexivyyr, ZF
-(ISQ - FGEHP - 2014020074 - 240 16gu Frpgvba Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Fgehpgher Sver ercbegrq ng 240 16gu Frpgvba Eq, Fgnexivyyr, ZF
-(ISQ - ZRQ - 2014020073 - 96 Jnfu Ya, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 96 Jnfu Ya, Fgnexivyyr, ZF 31 le byq znyr cbffvoyr flapbcr rcvfbqrf.
 ****************************************************************************
 Obbar Pbhagl, ZB (ZBObbarPbhaglCnefre) 
 ARJPNYY,201401469,8090 UVTUJNL NO R-OP,,-92.218709,38.855560,65201,FUBJ ZR SNEZ,ENATRYVAR EQ F,UVTUJNL 63 F AO,QRRE CNEX - 3 zvyrf fbhgu bs Pbyhzovn ba rnfg fvqr bs Uvtujnl 63-F.,,,17N1-SNYY,7,SEZO,01/21/14,17:33:15,17:34:46,FS,19-15,OF,114,OS1,R1901 R1501 Z161,HF PRYYHYNE JVERYRFF PNYYRE,,5738815284,UFQ  UFQ:QRRE CNEX - 3 zvyrf fbhgu bs Pbyhzovn ba rnfg fvqr bs Uvtujnl 63-F.
