@@ -165,6 +165,7 @@ class Active911Vendor extends Vendor {
       "US/CA/ContraCostaCounty",          "CAContraCostaCounty",
       "US/CA/CSB",                        "CASanBernardinoCountyB",
       "US/CA/ElDoradoCounty",             "CAElDoradoCounty",
+      "US/CA/FresnoCounty",               "CAFresnoCounty",
       "US/CA/Jpapage",                    "CASanDiegoCountyA",
       "US/CA/Hanford",                    "CAHanford",
       "US/CA/Hayward",                    "CAHayward",
