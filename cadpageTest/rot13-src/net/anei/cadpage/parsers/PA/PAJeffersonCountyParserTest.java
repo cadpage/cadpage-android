@@ -44,6 +44,7 @@ ceif=0588r3n5n6=qvfcngpu@wrssrefbapbhaglcn.pbz (Vapvqrag) ZIN F20 ZRQ50  301 J Z
 (Vapvqrag) Sver - Nynez R20 E20 G20 R30 FD30 R40 GX40 E40 ZRQ50  105 A TVYCVA FG Chakfhgnjarl TENPR CYNPR NCNEGZRAGFCVAR FG / PENAORE
 (Vapvqrag) Fgehpgher Sver R30 R20 R40 GX40 G20 G40 ZRQ50  507 TENSSVHF NIR Chakfhgnjarl BEPUNEQ NIR / ZNP FG 30-N Falqre Uvyy\a\a-- \aGuvf rznvy jnf
 (Vapvqrag) Zvfp. Sver F20 ZRQ50  111 A SVAQYRL FG Chakfhgnjarl FCVEVG OHVYQVAT (UVTUEVFR OHVYQVAT)PENAOREEL NYL / CVAR FG 20-N Falqre Uvyy\a\a-- \aGu
+(Vapvqrag) ZIN F9 RE5-3 E20  2918 CNAFL EVATTBYQ EQ Evattbyq EVIRE EQ / JBEGUIVYYR EQ 9-P Pbbyfcevat\a\a-- \aGuvf rznvy jnf Ivehf purpxrq ol Nfgneb F
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Prageny Sver Qrcg.
@@ -501,6 +502,19 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:20-N",
         "PU:Falqre Uvyy");
 
+    qbGrfg("G31",
+        "(Vapvqrag) ZIN F9 RE5-3 E20  2918 CNAFL EVATTBYQ EQ Evattbyq EVIRE EQ / JBEGUIVYYR EQ 9-P Pbbyfcevat\a\a" +
+        "-- \a" +
+        "Guvf rznvy jnf Ivehf purpxrq ol Nfgneb F",
+
+        "PNYY:ZIN",
+        "HAVG:F9 RE5-3 E20",
+        "NQQE:2918 CNAFL EVATTBYQ EQ",
+        "PVGL:Evattbyq",
+        "K:EVIRE EQ / JBEGUIVYYR EQ",
+        "OBK:9-P",
+        "PU:Pbbyfcevat");
+
   }
 
   @Grfg
@@ -916,8 +930,8 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "-- \a" +
         "Guvf rznvy jnf Ivehf purpxrq ol Nfgneb Frphevgl Tngrjnl. uggc://jjj.fbcubf.pbz",
 
-        "PNYY:Fgehpgher Sver UU R6-2",
-        "HAVG:GX6 E6 R8 FD8 PSR74 PSGX72 NZO60",
+        "PNYY:Fgehpgher Sver",
+        "HAVG:UU R6-2 GX6 E6 R8 FD8 PSR74 PSGX72 NZO60",
         "NQQE:737 R ZNVA FG",
         "PVGL:Erlabyqfivyyr",
         "CYNPR:Zbeavat Tybj Znabe (Obk 6-T-2)",
@@ -949,8 +963,8 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G43",
         "(Vapvqrag) Sver - Nynez R6-2 GX6 E6 C6 NZO60  23 F 3EQ FG Erlabyqfivyyr WNPXFBA FG / TBEQBA FG 6-T Sver Gbjre",
-        "PNYY:Sver - Nynez R6-2",
-        "HAVG:GX6 E6 C6 NZO60",
+        "PNYY:Sver - Nynez",
+        "HAVG:R6-2 GX6 E6 C6 NZO60",
         "NQQE:23 F 3EQ FG",
         "PVGL:Erlabyqfivyyr",
         "K:WNPXFBA FG / TBEQBA FG",
@@ -986,8 +1000,8 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G47",
         "(Vapvqrag) Sver - Nynez R6-2 GX6 E6 G6 C6 NZO60  576 IB GRPU EQ Jvafybj Wrss Grpu (Obk 6-S-1)PEVPXRG EQ / FGRJNEG EQ 6-S Sver Gbjre",
-        "PNYY:Sver - Nynez R6-2",
-        "HAVG:GX6 E6 G6 C6 NZO60",
+        "PNYY:Sver - Nynez",
+        "HAVG:R6-2 GX6 E6 G6 C6 NZO60",
         "NQQE:576 IB GRPU EQ",
         "PVGL:Jvafybj",
         "CYNPR:Wrss Grpu (Obk 6-S-1)",
@@ -1110,8 +1124,8 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G59",
         "(Vapvqrag) Fgehpgher Sver R6-2 GX6 E6 G6 C6 R8 FD8 G8 PSPNFFPNQR74 NZO60  117 ORGFL EQ Jvafybj QRNQ RAQ / OEVPX EQ 6-O Sver Gbjre",
-        "PNYY:Fgehpgher Sver R6-2",
-        "HAVG:GX6 E6 G6 C6 R8 FD8 G8 PSPNFFPNQR74 NZO60",
+        "PNYY:Fgehpgher Sver",
+        "HAVG:R6-2 GX6 E6 G6 C6 R8 FD8 G8 PSPNFFPNQR74 NZO60",
         "NQQE:117 ORGFL EQ",
         "PVGL:Jvafybj",
         "K:QRNQ RAQ / OEVPX EQ",
@@ -1160,8 +1174,8 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G64",
         "(Vapvqrag) Sver - Nynez R6-2 GX6 E6 C6 NZO60  100 MNZOBEV FG Erlabyqfivyyr Evqtr Jbbq Terrar Ncg 100M (Obk 6-T-7)CYRNFNAG FG / QRNQ RAQ 6-T Sver Gbjre",
-        "PNYY:Sver - Nynez R6-2",
-        "HAVG:GX6 E6 C6 NZO60",
+        "PNYY:Sver - Nynez",
+        "HAVG:R6-2 GX6 E6 C6 NZO60",
         "NQQE:100 MNZOBEV FG",
         "PVGL:Erlabyqfivyyr",
         "CYNPR:Evqtr Jbbq Terrar Ncg 100M (Obk 6-T-7)",
@@ -1192,8 +1206,8 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G67",
         "(Vapvqrag) Fgehpgher Sver EVG16 G6 G13-1 G16  545 OEBJA EQ Lbhat OHF YA / UNEZBAL EQ 30-L Falqre Uvyy",
-        "PNYY:Fgehpgher Sver EVG16 G6 G13-1",
-        "HAVG:G16",
+        "PNYY:Fgehpgher Sver",
+        "HAVG:EVG16 G6 G13-1 G16",
         "NQQE:545 OEBJA EQ",
         "PVGL:Lbhat",
         "K:OHF YA / UNEZBAL EQ",
@@ -1210,8 +1224,8 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G69",
         "(Vapvqrag) Fgehpgher Sver R10 E10 G10 R6-2 G6 R13 G13-1 G13-2 ZRQ90  115 JNGRESNYY YA Cvarperrx FPRAVP YA / QRNQ RAQ 10-Q Zncyrinyr",
-        "PNYY:Fgehpgher Sver R10 E10 G10 R6-2 G6 R13 G13-1 G13-2",
-        "HAVG:ZRQ90",
+        "PNYY:Fgehpgher Sver",
+        "HAVG:R10 E10 G10 R6-2 G6 R13 G13-1 G13-2 ZRQ90",
         "NQQE:115 JNGRESNYY YA",
         "CYNPR:Cvarperrx",
         "K:FPRAVP YA / QRNQ RAQ",
@@ -1464,8 +1478,8 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G24",
         "(Vapvqrag) Fgehpgher Sver R19 E19 G19-1 G19-2 R10 E10 G10 C14 G14-1 G15 ZRQ90  4001 FCEVAT PERRX EQ Urngu SERQQL QE / CVAR EHA EQ 19-Q Unlf Ybg",
-        "PNYY:Fgehpgher Sver R19 E19 G19-1 G19-2 R10 E10 G10 C14 G14-1",
-        "HAVG:G15 ZRQ90",
+        "PNYY:Fgehpgher Sver",
+        "HAVG:R19 E19 G19-1 G19-2 R10 E10 G10 C14 G14-1 G15 ZRQ90",
         "NQQE:4001 FCEVAT PERRX EQ",
         "PVGL:Urngu",
         "K:SERQQL QE / CVAR EHA EQ",

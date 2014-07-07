@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">06302014</string>
-  <string name="release_version">v1.7.30</string>
+  <string name="release_date">07062014</string>
+  <string name="release_version">v1.7.31</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -9,22 +9,29 @@ Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
 New Locations:\n
-Amador County, CA\n
-Crow Wing County, MN\n
+Santa Cruz County, CA (alt)\n
+San Mateo County, CA (alt)\n
+Otter Tail County, MN\n
+Wyoming County, WV\n
 \n
 Location Parsing Fixes:\n
-Adams County, CO\n
-Adams County, IL\n
-Garrett County, MD\n
-Burlington County, NJ\n
-Camden County, NJ\n
-Grafton County, NJ\n
-Washington County, OH\n
-Humble, TX\n
-Loudoun County, VA\n
-Clearwater County, AB, Canada\n
+San Joqauin County, CA\n
+Santa Clara County, CA\n
+Citrus County, FL\n
+Kenton County, KY\n
+Queen Annes County, MD\n
+Jefferson County, MO\n
+Rockingham County, NC\n
+Brown County, OH\n
+Clackamas County, OR\n
+Multnomah County, OR\n
+Washington County, OR\n
+Jefferson County, PA\n
+Montgomery County, PA\n
+Pttsylvania County, VA\n
 \n
-Major improvements to address detection logic\n
+General Fixes:\n
+Incorectly droping EXT from street names
   </string>
 </resources>
   
