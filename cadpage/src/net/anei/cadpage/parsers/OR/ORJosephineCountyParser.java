@@ -19,7 +19,7 @@ public class ORJosephineCountyParser extends FieldProgramParser {
   
   public ORJosephineCountyParser() {
     super("JOSEPHINE COUNTY", "OR",
-          "( ID CALL ADDRCITY/SXa PLACE SRC DATETIME! UNIT | DATE_TIME_CALL ADDR_CITY_X/SXa! Units:UNIT | CALL ADDRCITY/SXa PLACE DATETIME ID! UNIT ) INFO+");
+          "( ID CALL ADDRCITY/SXa PLACE X/Z? SRC DATETIME! UNIT | DATE_TIME_CALL ADDR_CITY_X/SXa! Units:UNIT | CALL ADDRCITY/SXa PLACE DATETIME ID! UNIT ) INFO+");
   }
   
   @Override
@@ -40,6 +40,18 @@ public class ORJosephineCountyParser extends FieldProgramParser {
     if (!parseFields(DELIM.split(body), data)) return false;
     data.strAddress = LAT_LON_PTN2.matcher(data.strAddress).replaceFirst("LAT: $1, LON: $2");
     return true;
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("DATE_TIME_CALL")) return new MyDateTimeCallField();
+    if (name.equals("ADDR_CITY_X")) return new MyAddressCityCrossField();
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("SRC")) return new SourceField("\\d{4}(?:, *\\d{4})*");
+    if (name.equals("DATETIME")) return new MyDateTimeField();
+    if (name.equals("ID")) return new IdField("\\d+|ODF", true);
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   private static final Pattern DATE_TIME_PREFIX_PTN = Pattern.compile("^(\\d\\d?/\\d\\d?/\\d{4} +\\d\\d?:\\d\\d:\\d\\d? [AP]M) +");
@@ -113,17 +125,6 @@ public class ORJosephineCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       data.strSupp = append(data.strSupp, " ", field);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("DATE_TIME_CALL")) return new MyDateTimeCallField();
-    if (name.equals("ADDR_CITY_X")) return new MyAddressCityCrossField();
-    if (name.equals("ADDRCITY")) return new MyAddressCityField();
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    if (name.equals("ID")) return new IdField("\\d+|ODF", true);
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
 
   @Override
