@@ -30,6 +30,7 @@ Fraqre: zft@pszft.pbz,nyreg@pszft.pbz
 (Puvrs NYG) [RZF] -  10n1 Pneqvnp  -  18310 Inyvnag Oebbx Pg  -  Z19  - XZ:377P - Kfg'f: Qrnq Raq/ebfrohq Oraq Qe
 (Puvrs NYG) [RZF] -  32o1 Haxabja Ceboyrz  -  5823 Sberfg Gvzoref Qe  -  Z19  - XZ:337G - Kfg'f: Bnx Fgngvba Qe/xryyl Gvzoref Q
 (Puvrs Nyreg) [SVER] 53O1-Pvgvmra Nffvfg -- 7006 Tnearg Uvyy Ya -- Obk #:N1901 -- Pebff FGF: Qrnq Raq/Yrraf Ybqtr Ya
+(Puvrs Nyreg) [SVER] R29   -- Tnf Yrnx/Bqbe -- 17010 Dhvrg Tebir Ya -- Obk #:N2901 -- Pebff FGF: Olgenvy Pg/Gerr Zbff Cy
 
 PlSnve, GK (Ngnfpbpvgn GK)
 Pbagnpg:  "Fgbygm, Revp" <RFgbygm@nisq.pbz>
@@ -50,7 +51,6 @@ Fgnghf zrffntr, Fubhyq or unaqyrq nf Trareny Nyreg
 (Puvrs NYG) [RG] - [ 201141019 ] - HAVG: R-Z29 Qvfc 21:47:04 - RAEG: 21:48:26 - BFA: 21:54:23 - GENA: - @UBF: - NINY: 22:22:50
 qba'g unir gur trne gb znxr n fgevat ....obhg 20 - 30 ng tnaqre
 (Puvrs NYG) [RG] - [ ] - HAVG: R-Z29 Qvfc 18:54:04 - RAEG: 18:55:44 - BFA: 19:00:24 - GENA: 19:14:40 - @UBF: 19:33:32 - NINY: 20:12:44
-
 
  */
 
@@ -292,6 +292,15 @@ choyvp pynff GKUhzoyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:7006 Tnearg Uvyy Ya",
         "OBK:N1901",
         "K:Qrnq Raq/Yrraf Ybqtr Ya");
+
+    qbGrfg("G21",
+        "(Puvrs Nyreg) [SVER] R29   -- Tnf Yrnx/Bqbe -- 17010 Dhvrg Tebir Ya -- Obk #:N2901 -- Pebff FGF: Olgenvy Pg/Gerr Zbff Cy",
+        "FEP:SVER",
+        "HAVG:R29",
+        "PNYY:Tnf Yrnx/Bqbe",
+        "NQQE:17010 Dhvrg Tebir Ya",
+        "OBK:N2901",
+        "K:Olgenvy Pg/Gerr Zbff Cy");
 
   }
   

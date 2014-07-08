@@ -15,7 +15,7 @@ public class TXHumbleParser extends FieldProgramParser {
   
   public TXHumbleParser() {
     super("HUMBLE", "TX",
-           "CALL CALL2? ADDRCITY! ( Box_#:BOX Cross_STS:X | Map:MAP PLACE Xst's:X Units:UNIT ID | Xst's:X Bldg:PLACE Key_Map:MAP! Box_#:BOX | UNIT KM:MAP Xst's:X )");
+           "UNIT? CALL CALL2? ADDRCITY! ( Box_#:BOX Cross_STS:X | Map:MAP PLACE Xst's:X Units:UNIT ID | Xst's:X Bldg:PLACE Key_Map:MAP! Box_#:BOX | UNIT KM:MAP Xst's:X )");
   }
   
   @Override
@@ -48,6 +48,13 @@ public class TXHumbleParser extends FieldProgramParser {
     return parseFields(flds, data);
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("UNIT")) return new UnitField("(?:[A-Z]-)?[A-Z]+\\d+(?: .*)?");
+    if (name.equals("CALL2")) return new Call2Field();
+    return super.getField(name);
+  }
+  
   private static final Pattern CALL2_EXCL_PTN = Pattern.compile("[\\d/&,]");
   private class Call2Field extends CallField {
     
@@ -74,12 +81,6 @@ public class TXHumbleParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       data.strCall = append(data.strCall, " - ", field);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL2")) return new Call2Field();
-    return super.getField(name);
   }
   
   @Override
