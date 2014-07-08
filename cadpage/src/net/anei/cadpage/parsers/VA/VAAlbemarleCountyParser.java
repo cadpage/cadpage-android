@@ -13,6 +13,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class VAAlbemarleCountyParser extends FieldProgramParser {
   
+  private static final Pattern TAIL_JUNK_PTN = Pattern.compile(":?[?=<>;][?=<>;:\\d]*$");
   private static final Pattern GEN_ALERT_PTN = Pattern.compile("TIME: (\\d\\d:\\d\\d) +(.*)");
   private static final Pattern COUNTY_ADDR_PTN = Pattern.compile("([A-Z]+) +\\d+");
   
@@ -29,10 +30,15 @@ public class VAAlbemarleCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (body.length() < 10) return false;
+    int pt = body.indexOf(' ');
+    if (pt < 0) return false;
+    if (pt > 10) pt = 10;
+    data.strSource = body.substring(0,pt);
+    body = body.substring(pt).trim();
     
-    data.strSource = body.substring(0,10).trim();
-    body = body.substring(10).trim();
+    // Strip duplicate source name and other junk from end of body
+    body = stripFieldEnd(body, ' ' + data.strSource);
+    body = TAIL_JUNK_PTN.matcher(body).replaceAll("");
     
     Matcher match = GEN_ALERT_PTN.matcher(body);
     if (match.matches()) {
@@ -52,7 +58,7 @@ public class VAAlbemarleCountyParser extends FieldProgramParser {
       if (match.matches()) {
         data.strCity = match.group(1) + " COUNTY";
         String addr = data.strPlace;
-        int pt = addr.indexOf(" - ");
+        pt = addr.indexOf(" - ");
         if (pt >= 0) addr = addr.substring(0,pt).trim();
         data.strPlace = data.strAddress;
         data.strAddress = "";
@@ -153,7 +159,10 @@ public class VAAlbemarleCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       Matcher match = TIME_UNIT_PTN.matcher(field);
-      if (!match.matches()) abort();
+      if (!match.matches()) {
+        if ("NN:NN".startsWith(field.replaceAll("\\d", "N"))) return;
+        abort();
+      }
       data.strTime = match.group(1);
       String unit = ' ' +match.group(2);
       unit = unit.replace(" AF", " ").replace(" CF", " ");
