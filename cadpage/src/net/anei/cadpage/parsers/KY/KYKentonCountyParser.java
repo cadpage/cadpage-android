@@ -295,6 +295,7 @@ public class KYKentonCountyParser extends SmartAddressParser {
       "Assault",
       "Assault w/Injuries",
       "Assist-Other Agency",
+      "ATL",
       "Back Pain/Injury",
       "Bleeding/Hemorrhage",
       "Boat-Adrift/Abandoned",
@@ -337,6 +338,7 @@ public class KYKentonCountyParser extends SmartAddressParser {
       "Headache/Ill",
       "Heat Emergency/Problem",
       "Ill/Non-Specific",
+      "Incident Report",
       "Intoxicated Subject",
       "Investigation/Follow Up",
       "Landing Zone",
@@ -362,6 +364,7 @@ public class KYKentonCountyParser extends SmartAddressParser {
       "Signal 500 3rd Alarm",
       "Signal 500 4th Alarm",
       "Signal 500 5th Alarm",
+      "Special Area Check",
       "Special Detail",
       "Speeding/Reckless Vehicle",
       "Stabbing",
@@ -379,6 +382,7 @@ public class KYKentonCountyParser extends SmartAddressParser {
       "TX",
       "Vacation/Business Check",
       "Warrant-Arrest",
+      "Weapon-Subject w/",
       "Well Being Check",
       "Wires Down"
   );
