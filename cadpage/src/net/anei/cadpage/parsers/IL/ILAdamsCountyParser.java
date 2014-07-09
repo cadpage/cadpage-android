@@ -9,10 +9,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class ILAdamsCountyParser extends FieldProgramParser {
   
   private static final Pattern MISSING_BRK_PTN = Pattern.compile("(\nUnits:.*?)  +(\\S.*)");
+  private static final Pattern MISSING_BRK2_PTN = Pattern.compile("(?<!\n)(?=Cross Streets ?:)");
 
   public ILAdamsCountyParser() {
     super("ADAMS COUNTY", "IL",
-          "CALL! Units:UNIT! ADDR/S6! APT Cross_Streets:X");
+          "CALL! Units:UNIT! ADDR/S6! APT City:CITY? Cross_Streets:X X INFO+");
   } 
   
   @Override
@@ -34,6 +35,9 @@ public class ILAdamsCountyParser extends FieldProgramParser {
     if (match.find()) {
       body = body.substring(0,match.start()) + match.group(1) + '\n' + match.group(2) + body.substring(match.end());
     }
+    
+    // And between city and cross streets
+    body = MISSING_BRK2_PTN.matcher(body).replaceFirst("\n");
     return parseFields(body.split("\n"), 3, data);
   }
   
