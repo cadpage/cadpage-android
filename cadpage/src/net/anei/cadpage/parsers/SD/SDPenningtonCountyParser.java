@@ -80,6 +80,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       for (String part : field.split(";")) {
         part = part.trim();
         if (part.length() == 0) continue;
+        if (part.equalsIgnoreCase("None")) continue;
         Matcher match = INFO_DATE_TIME_PTN.matcher(part);
         if (match.matches()) {
           data.strSupp = append(data.strSupp, "\n", match.group(1));
@@ -204,7 +205,11 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
   }
   
   private static final CodeSet CALL_LIST = new CodeSet(
+      "AB",
+      "AB-C",
+      "ACC",
       "ACCI",
+      "ALLERGY-C",
       "BACK",
       "BLEED-B",
       "BREATH",
@@ -212,8 +217,10 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "CARDIAC-E",
       "CHEST",
       "CHEST-D",
+      "EMS",
       "FALARM DELTA",
       "FALARM",
+      "FALL",
       "FALL-B",
       "FIRE",
       "GRASSF",
@@ -222,10 +229,16 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "SICK-C",
       "SMFIRE",
       "SICK PERSON DELTA LEVEL",
+      "AB-C",
+      "STBY",
       "STRUCF",
+      "TRANSFER",
+      "TRAUMA",
       "TRAUMA-B",
+      "TRAUMA-D",
       "UNCON",
       "UNCON CHILD",
+      "UNK",
       "VEHF",
       "VEHF-B1"
   );
