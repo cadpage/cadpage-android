@@ -125,7 +125,7 @@ public class DeveloperToolsManager {
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
         setPaidYear(0);
-        setPurchaseDate(-20, -1);
+        setPurchaseDate(-200, -1);
         ManagePreferences.setInstallDate(ManagePreferences.purchaseDate());
         ManagePreferences.setAuthLastCheckTime(0L);
         ManagePreferences.setFreeSub(false);

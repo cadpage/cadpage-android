@@ -777,12 +777,20 @@ public class ManagePreferences {
     return prefs.getLong(R.string.pref_auth_last_check_time_key, 0L);
   }
   
+  public static void setAuthLastCheckTime(long newVal) {
+    prefs.putLong(R.string.pref_auth_last_check_time_key, newVal);
+  }
+  
   public static void setAuthLastCheckTime() {
     setAuthLastCheckTime(System.currentTimeMillis());
   }
   
-  public static void setAuthLastCheckTime(long newVal) {
-    prefs.putLong(R.string.pref_auth_last_check_time_key, newVal);
+  public static int authRecheckStatusCnt() {
+    return prefs.getInt(R.string.pref_auth_recheck_status_cnt_key, 0);
+  }
+  
+  public static void setAuthRecheckStatusCnt(int newVal) {
+    prefs.putInt(R.string.pref_auth_recheck_status_cnt_key, newVal);
   }
   
   public static String registrationId() {
@@ -1043,6 +1051,7 @@ public class ManagePreferences {
         R.string.pref_auth_last_date_key,
         R.string.pref_auth_run_days_key,
         R.string.pref_auth_last_check_time_key,
+        R.string.pref_auth_recheck_status_cnt_key,
         R.string.pref_prev_year_key,
         R.string.pref_prev_purchase_date_key,
         

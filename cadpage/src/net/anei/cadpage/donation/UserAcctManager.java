@@ -6,22 +6,15 @@ import java.util.List;
 
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.HttpService.HttpRequest;
-import net.anei.cadpage.Log;
-import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.donation.UserAcctManager;
 import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.content.Context;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.net.Uri;
 import android.telephony.TelephonyManager;
 
 public class UserAcctManager {
-  
-  // Authorization recheck interval (30 days in msecs)
-  private static final long AUTH_CHECK_INTERVAL = (long)30*24*60*60*1000;
   
   Context context;
   private String[] userEmails = null;
@@ -46,47 +39,8 @@ public class UserAcctManager {
     }
     userEmails = emailList.toArray(new String[emailList.size()]);
     
-    // See if it is time to perform an automatic reload
-    // If this is a lifetime user, don't bother
-    if (!ManagePreferences.freeRider()) {
-      
-      // if not, get the current time and last authorization check time
-      long lastTime = ManagePreferences.authLastCheckTime();
-      long curTime = System.currentTimeMillis();
-      
-      // If the last check time is zero, we check to see if the initialized flag has been
-      // set.  If not, this is the first time the user has launched Cadpage and we should do
-      // an immediate payment status reload to see if they have been a subscriber on another phone.
-      if (lastTime <= 0 && ManagePreferences.initialized()) {
-        
-        // Likewise, if Cadpage has been initialized but the purchase and install dates are the same
-        // the purchase date is not trustworthy and we need to reload the payment status immediately
-        if (ManagePreferences.paidYear() == 0 ||
-            !ManagePreferences.purchaseDate().equals(ManagePreferences.installDate())) {
-            
-          // Otherwise, we will try to spread out the load by timing the next authorization check 
-          // at a random time within the next 30 days
-          
-            lastTime = curTime - (long)(Math.random()*AUTH_CHECK_INTERVAL);
-            ManagePreferences.setAuthLastCheckTime(lastTime);
-        }
-      }
-      
-      // Having done all of that, if the different between the current time and the
-      // latched checked time exceeds the 30 day intervals, perform an automatic reload
-      if (curTime - lastTime > AUTH_CHECK_INTERVAL) {
-        
-        // OK, don't try this if we have no network connectivity!!
-        ConnectivityManager mgr = ((ConnectivityManager) 
-            context.getSystemService(Context.CONNECTIVITY_SERVICE));
-        NetworkInfo info = mgr.getActiveNetworkInfo();
-        if (info != null  && info.isConnected()) {
-          
-          // Request status reload from android market and authorization server
-          DonationManager.instance().reloadStatus();
-        }
-      }
-    }
+    // See if it is time to perform an automatic payment status recalculation
+    DonationManager.instance().checkPaymentStatus(context);
   }
 
   /**

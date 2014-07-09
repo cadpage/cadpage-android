@@ -3,9 +3,10 @@ package net.anei.cadpage.donation;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
-import java.util.Random;
 
 import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Handler;
 import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.EmailDeveloperActivity;
@@ -16,6 +17,12 @@ import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
 
 public class DonationManager {
+  
+  // Authorization recheck interval (60 days in msecs)
+  private static final long AUTH_CHECK_INTERVAL = (long)60*24*60*60*1000;
+  
+  // Authorization recheck interval (1 day in msecs)
+  private static final long AUTH_RECHECK_INTERVAL = (long)24*60*60*1000;
   
   // How long user can run after initial install
   public static final int DEMO_LIMIT_DAYS = 30;
@@ -43,8 +50,6 @@ public class DonationManager {
       return status;
     }
   };
-
-  private static final Random RANDOM = new Random();
   
   // Cached calculated values are only valid until this time
   private long validLimitTime = 0L;
@@ -74,10 +79,61 @@ public class DonationManager {
   private boolean paidSubscriber;
   
   private Handler handler = new Handler();
-  private boolean recalcInProgress = false;
-  private int recalcCount = 0;
-  private boolean priorPaidSubscriber = false;
-  private Date priorExpireDate = null;
+  
+  private static boolean recalcInProgress = false;
+  private static int workPaidYear = 0;
+  private static String workPurchaseDateStr = null;
+  private static boolean workFreeSub = false;
+  private static String workSponsor = null;
+
+  public void checkPaymentStatus(Context context) {
+    
+    // See if it is time to perform an automatic reload
+    // If this is a lifetime user, don't bother
+    if (!ManagePreferences.freeRider()) {
+      
+      // if not, get the current time and last authorization check time
+      long lastTime = ManagePreferences.authLastCheckTime();
+      long curTime = System.currentTimeMillis();
+      
+      // If the last check time is zero, we check to see if the initialized flag has been
+      // set.  If not, this is the first time the user has launched Cadpage and we should do
+      // an immediate payment status reload to see if they have been a subscriber on another phone.
+      if (lastTime <= 0 && ManagePreferences.initialized()) {
+        
+        // Likewise, if Cadpage has been initialized but the purchase and install dates are the same
+        // the purchase date is not trustworthy and we need to reload the payment status immediately
+        if (ManagePreferences.paidYear() == 0 ||
+            !ManagePreferences.purchaseDate().equals(ManagePreferences.installDate())) {
+            
+          // Otherwise, we will try to spread out the load by timing the next authorization check 
+          // at a random time within the next 60 days
+          
+            lastTime = curTime - (long)(Math.random()*AUTH_CHECK_INTERVAL);
+            ManagePreferences.setAuthLastCheckTime(lastTime);
+        }
+      }
+      
+      // Having done all of that, if the different between the current time and the
+      // lasted checked time exceeds the current check interval, it is time to recalculate
+      // the payment status.  If we are rechecking the status after a previous calculation
+      // reported a payment status downgrade, check after 24 hours.  Otherwise check every
+      // 60 days.
+      long checkInterval = ManagePreferences.authRecheckStatusCnt() > 0 ? AUTH_RECHECK_INTERVAL : AUTH_CHECK_INTERVAL;
+      if (curTime - lastTime > checkInterval) {
+        
+        // OK, don't try this if we have no network connectivity!!
+        ConnectivityManager mgr = ((ConnectivityManager) 
+            context.getSystemService(Context.CONNECTIVITY_SERVICE));
+        NetworkInfo info = mgr.getActiveNetworkInfo();
+        if (info != null  && info.isConnected()) {
+          
+          // Request status reload from android market and authorization server
+          DonationManager.instance().reloadStatus();
+        }
+      }
+    }
+  }
   
   /**
    * Reload payment status
@@ -105,14 +161,10 @@ public class DonationManager {
       // Then recalculate status and refresh all displays
       calculate();
       recalcInProgress = true;
-      recalcCount = 0;
-      priorPaidSubscriber = paidSubscriber;
-      priorExpireDate = expireDate;
-      
-      ManagePreferences.setPaidYear(0);
-      ManagePreferences.setPurchaseDateString(null);
-      ManagePreferences.setFreeSub(false);
-      ManagePreferences.setSponsor(null);
+      workPaidYear = 0;
+      workPurchaseDateStr = null;
+      workFreeSub = false;
+      workSponsor = null;
       
       // Defer the final calculation for 10 seconds to give
       // everything time to come in.
@@ -123,59 +175,64 @@ public class DonationManager {
   }
   
   /**
-   * Runnable event executed 5 seconds after recalculation is initiated
+   * Runnable event executed 10 seconds after recalculation is initiated
    * to close things up
    */
   private class CloseReloadStatusEvent implements Runnable {
     @Override
     public void run() {
-      reset();
-      recalculate();
-      
-      // Set the authorization last checked date
-      ManagePreferences.setAuthLastCheckTime();
 
-      // Display any status changes
-      DonationManager.instance().reset();
-      MainDonateEvent.instance().refreshStatus();
+      // Start by reset the calculation in progress flag
+      recalcInProgress = false;
       
-      // The recalculate process has been known to drop market subscription information
-      // We believe we have identified and fixed at least one reason why this happens
-      // but just in case we missed one, we will check to see if user
-      // has lost a paid subscription status and if they have, retry loading
-      // both subscriber sources up to 2 times at 60-90 second intervals
-      if (priorPaidSubscriber && !paidSubscriber) {
-        EmailDeveloperActivity.logSnapshot(CadPageApplication.getContext(), "Payment Status Downgrade");
-        if (recalcCount < 2) {
-          recalcCount++;
-          long delay = 60 + RANDOM.nextInt(30);
-          Log.v("Schedule followup reload #" + recalcCount + " in " + delay + " seconds");
-          handler.postDelayed(new RetryReloadStatusEvent(), delay*1000L);
+      // Thus far, everything has been tentative with the results saved in
+      // local working variables.  Before we accept the final result, see
+      // if the final result is a status downgrade
+      boolean downgrade = false;
+      int paidYear = ManagePreferences.freeRider() ? 9999 : ManagePreferences.paidYear();
+      String purchaseDateStr = ManagePreferences.purchaseDateString();
+      boolean freeSub = ManagePreferences.freeSub();
+      do {
+        if (workPaidYear != paidYear) {
+          if (workPaidYear < paidYear) downgrade = true;
+          break;
+        }
+        if (workFreeSub != freeSub) {
+          if (workFreeSub) downgrade = true;
+          break;
+        }
+        if (workPurchaseDateStr != null && purchaseDateStr != null &&
+            workPurchaseDateStr.substring(0,4).compareTo(purchaseDateStr.substring(0,4)) < 0) downgrade = true;
+      } while (false);
+      
+      // Looks like status is being downgraded :(
+      if (downgrade) {
+        
+        // first log a snapshot of event for future analysis
+        int recalcStatusCnt = ManagePreferences.authRecheckStatusCnt()+1;
+        EmailDeveloperActivity.logSnapshot(CadPageApplication.getContext(), "Payment Status Downgrade #" + recalcStatusCnt);
+        
+        // Because we do not really trust the final results, usually because
+        // the Android market doesn't always return a proper transaction history
+        // we will disregard any downgrades until it is repeated 3 times
+        if (recalcStatusCnt < 3) {
+          ManagePreferences.setAuthRecheckStatusCnt(recalcStatusCnt);
+          Log.v("Recalculation of Payment Status results ignored");
           return;
         }
       }
-      // If everything is solid and stable, update the Cadpage Paging service status
-      updatePagingStatus(priorPaidSubscriber, priorExpireDate);
       
-      // And reset the calculation in progress flag
-      recalcInProgress = false;
+      // All system go.  Save the working status variable and recalculate
+      // the payment status
+      saveCalcStatus();
+      
+      // Reset downgrade recheck status count
+      ManagePreferences.setAuthRecheckStatusCnt(0);
       
       Log.v("Recalculation of Payment Status completed");
     }
   }
-  
-  /**
-   * Runnable event scheduled 60-90 seconds after an undesirable recalculation
-   * outcome.  Makes another attempt to reload the subscription information
-   */
-  private class RetryReloadStatusEvent implements Runnable {
-    @Override
-    public void run() {
-      Log.v("Reloading subscription information");
-      handler.postDelayed(new CloseReloadStatusEvent(), 5000);
-      refreshStatus(CadPageApplication.getContext());
-    }
-  }
+
   /**
    * Refresh payment status with latest information from market and from authorization server
    * @param context
@@ -203,6 +260,17 @@ public class DonationManager {
     // This gets called from multiple threads, so we had better lock internal processing
     synchronized (UserAcctManager.class) {
       
+      // If this is part of a payment status recalculation, all calculations
+      // are limited to local working variables.  If not, then working variables
+      // are initialized and set to real live values
+      if (!recalcInProgress) {
+        workPaidYear = ManagePreferences.freeRider() ? 9999 : ManagePreferences.paidYear();
+        workPurchaseDateStr = ManagePreferences.purchaseDateString();
+        workFreeSub = ManagePreferences.freeSub();
+        workSponsor = null;
+        
+      }
+      
       // Evaluate the status field.  Value of LIFE translates to year 9999
       int year = -1;
       if (stat.toUpperCase().equals("LIFE")) {
@@ -214,57 +282,56 @@ public class DonationManager {
         if (year < 2011 && year > 2050) year = -1;
       }
       
-      // get the current status year.  If better than this status, we can
+      // if this year is less than current year, ignore everything
       // completely ignore everything
-      int paidYear = ManagePreferences.freeRider() ? 9999 : ManagePreferences.paidYear();
-      if (year < paidYear) return;
+      if (year < workPaidYear) return;
       
       // Next get the current and new free subscriber status
       boolean freeSub = sponsor != null && sponsor.equalsIgnoreCase("FREE");
-      boolean curFreeSub = ManagePreferences.freeSub();
-
-      // if this year is better than current year, update current paid year status
-      if (year > paidYear) {
-        if (year == 9999) {
-          ManagePreferences.setFreeRider(true);
-        } else {
-          ManagePreferences.setPaidYear(year, true);
-        }
-      }
       
-      // If years are the same, a free subscription request can not override
-      // an existing paid request
-      else if (year == paidYear && freeSub && !curFreeSub) return;
-      
-      // Purchase date processing, only if we have one of course
-      if (purchaseDateStr != null && purchaseDateStr.length()>=4) {
+      // if payment year is the same then
+      if (year == workPaidYear) {
         
-        // If subscription year is better than last, this purchase date takes
-        // priority.  If year is the same,  use this purchase date if it is
-        // later than the current date.  Unless the current purchase date was
-        // a free subscription and this one was not.
-        //
-        // The purchase date comparison only compares the month and day.  The
-        // purchase year is not relevant
-        if (year == paidYear && (freeSub || !curFreeSub)) {
-          String curPurchaseDateStr  = ManagePreferences.purchaseDateString();
-          if (curPurchaseDateStr != null && 
-              curPurchaseDateStr.substring(0,4).compareTo(purchaseDateStr.substring(0,4))>0) {
-            purchaseDateStr = curPurchaseDateStr;
-          }
-        }
-        ManagePreferences.setPurchaseDateString(purchaseDateStr);
+        // free subscriptions never override paid subscriptions
+        if (freeSub && !workFreeSub) return;
+        
+        // If free subscription status is same, older purchase dates never 
+        // override new purchase dates.  We only compare the first 4 digits
+        // of the purchase dates, the purchase year is no relevant
+        if (freeSub == workFreeSub && workPurchaseDateStr != null && 
+            workPurchaseDateStr.substring(0,4).compareTo(purchaseDateStr.substring(0,4))>0) return;
       }
       
-      // Set sponsor and free subscription status
-      if (freeSub || (sponsor != null && sponsor.length() == 0)) sponsor = null;
-      ManagePreferences.setFreeSub(freeSub);
-      ManagePreferences.setSponsor(sponsor);
+      // OK, we have decided the new subscription purchase overrides the existing
+      // one, so update everything accordingly.
+      workPaidYear = year;
+      workFreeSub = freeSub;
+      workPurchaseDateStr = purchaseDateStr;
+      workSponsor = (freeSub || sponsor != null && sponsor.length() == 0 ? null : sponsor);
       
-      // Call calculation on the off chance this is not part of a recalculation
-      DonationManager.instance().reset();
-      MainDonateEvent.instance().refreshStatus();
+      // If this wasn't an status recalculation, save all of the working
+      // variables back to persistent storage and recalculate the payment status
+      if (!recalcInProgress) saveCalcStatus();
     }
+  }
+
+  /**
+   * Save all working status calculation variables to persistent storage
+   * and recalculate payment status
+   */
+  private static void saveCalcStatus() {
+    if (workPaidYear == 9999) {
+      ManagePreferences.setFreeRider(true);
+    } else {
+      ManagePreferences.setFreeRider(false);
+      ManagePreferences.setPaidYear(workPaidYear, true);
+      ManagePreferences.setPurchaseDateString(workPurchaseDateStr);
+      ManagePreferences.setFreeSub(workFreeSub);
+      ManagePreferences.setSponsor(workSponsor);
+    }
+    
+    DonationManager.instance().reset();
+    MainDonateEvent.instance().refreshStatus();
   }
   
   /**
