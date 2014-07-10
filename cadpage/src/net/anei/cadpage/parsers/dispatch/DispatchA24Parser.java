@@ -14,7 +14,7 @@ public class DispatchA24Parser extends FieldProgramParser {
   
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("; Disp: ?\\d\\d:\\d\\d;");
   
-  private static final Pattern UNIT_PTN = Pattern.compile("\\bUNIT: *([ A-Z0-9]+?) *[;\\n] *", Pattern.CASE_INSENSITIVE);
+  private static final Pattern UNIT_PTN = Pattern.compile("\\bUNIT: *([- A-Z0-9]+?) *[;\\n] *", Pattern.CASE_INSENSITIVE);
   
   
   public DispatchA24Parser(String defCity, String defState) {
