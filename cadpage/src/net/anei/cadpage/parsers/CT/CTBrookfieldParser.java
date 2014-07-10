@@ -11,7 +11,7 @@ public class CTBrookfieldParser extends DispatchA32Parser {
   
   @Override
   public String getFilter() {
-    return "policedispatch@brookfieldct.gov,BROOKFIELDCTDISPATCH@GMAIL.COM";
+    return "policedispatch@brookfieldct.gov,BROOKFIELDCTDISPATCH@GMAIL.COM,brookfieldctdispatch2@gmail.com";
   }
   
   private static final String[] CITY_LIST = new String[]{
