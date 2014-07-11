@@ -14,5 +14,5 @@ public class SCDorchesterCountyParser extends DispatchA38Parser {
   public String getFilter() {
     return "dispatch@dorchestercounty.net";
   }
-  
+
 }
