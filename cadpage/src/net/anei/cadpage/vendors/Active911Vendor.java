@@ -190,6 +190,7 @@ class Active911Vendor extends Vendor {
       "US/CT/DMS",                        "CTFairfieldCountyB",
       "US/CT/Groton",                     "CTGroton",
       "US/CT/WaterfordFD",                "CTWaterfordTownParser",
+      "US/CT/Uconn",                      "CTTollandCountyB",
       "US/CT/Valleyshore911",             "CTMiddlesexCounty",
       "US/DE/ChiefMsg",                   "DESussexCountyA",
       "US/DE/Dover",                      "DEKentCounty",
