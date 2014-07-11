@@ -316,6 +316,7 @@ class Active911Vendor extends Vendor {
       "US/MO/GreeneCounty",               "MOGreeneCounty",
       "US/NC/GuilfordCounty",             "NCGuilfordCounty",
       "US/NC/Havelock",                   "NCHavelock",
+      "US/NC/IredellCounty",              "NCIredellCounty",
       "US/NC/JohnstonCounty",             "NCJohnstonCounty",
       "US/NC/MitchellCounty",             "NCMitchellCounty",
       "US/NC/PenderCounty",               "NCPenderCounty",

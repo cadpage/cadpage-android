@@ -68,28 +68,28 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
   }
   
   private static Properties CITY_ABBRV = buildCodeTable(new String[]{
-      "BdntwnCity", "Bordentown",        // Changed
-      "BrdntwnTwp", "Bordentown Twp",    // New
-      "Burl City",  "Burlington",        // New
+      "BdntwnCity", "Bordentown",
+      "BrdntwnTwp", "Bordentown Twp",
+      "Burl City",  "Burlington",
       "Burl Twp",   "Burlington Twp",
       "Camden Co",  "Camden County",
       "Chesterfld", "Chesterfield",
       "Cinnaminsn", "Cinnaminson Twp",
       "MapleShade", "Maple Shade Twp",
       "McGuireAFB", "McGuire AFB",
-      "MedfordLks", "Medford Lakes",   // New
+      "MedfordLks", "Medford Lakes",
       "MedfordTwp", "Medford Twp",
-      "N Hanover",  "North Hanover",   // New
+      "N Hanover",  "North Hanover",
       "NewHanover", "New Hanover",
       "Ocean Co",   "Ocean County",
       "Pembtn Twp", "Pemberton Twp",
       "Southamptn", "Southampton",
-      "Springfld",  "Springfield",    // New
+      "Springfld",  "Springfield",
       "Willingbor", "Willingboro",
       "Wrghtstwn",  "Wrightstown",
       
       "Alarm List", "",
-      "NJTP",       ""               // New
+      "NJTP",       ""
   });
   
   private static final CodeTable CALL_CODES = new CodeTable(
