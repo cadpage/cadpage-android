@@ -66,10 +66,36 @@ public class ORDouglasCountyParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "AZ", "AZALEA",
+      "CG", "COTTAGE GROVE",
+      "CT", "CHEMULT",
       "CU", "CURTIN",
+      "CV", "CAMAS VALLEY",
+      "CY", "CANYONVILLE",
+      "DC", "DAYS CREEK",
+      "DL", "DILLARD",
       "DR", "DRAIN",
       "EL", "ELKTON",
+      "GD", "GLENDALE",
+      "GL", "GLIDE",
+      "GR", "GARDINER",
+      "IP", "IDLEYLD PARK",
+      "MC", "MYRTLE CREEK",
+      "NB", "NORTH BEND",
       "OK", "OAKLAND",
-      "YN", "YONCALLA"
+      "RB", "ROSEBURG",
+      "RP", "REEDSPORT",
+      "SC", "SCOTTSBURG",
+      "SU", "SUTHERLIN",
+      "TM", "TENMILE",
+      "TI", "TILLER",
+      "UM", "UMPQUA",
+      "WB", "WINCHESTER BAY",
+      "WE", "WESTLAKE",
+      "WI", "WILBUR",
+      "WN", "WINCHESTER",
+      "WS", "WINSTON",
+      "YC", "YONCALLA",
+      "YN", "YONCALLA",
   });
 }
