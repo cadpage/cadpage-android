@@ -6850,9 +6850,8 @@ choyvp pynff XLXragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G50",
         "(Sebz XPRPP) Svtug Vaqvna Evqtr Ncnegzragf Oyqt 6527 VCCQ 6527 GNLYBE ZVYY EQ Vaqrcraqrapr -- 2014-00015171  /   Qvfcngpu erprvirq ol havg VC18  ZNYR JVGU XAVSR FUBEG QNEX UNVQ J/ ZHFGNPUR // JRNEVAT AB FUVEG NAQ FUBEGF  Qvfcngpu erprvirq ol havg VC11  Qvfcngpu erprvirq ol havg VC23  BAR ZNYR UNF N XAVSR  3 Z/J  3 FHOWRGF SVTUGVAT",
-        // Harkcrpgrq pnyy pbqr:Svtug Vaqvna Evqtr Ncnegzragf Oyqt
-        "PNYY:Svtug Vaqvna Evqtr Ncnegzragf Oyqt",
-        "CYNPR:6527",
+        "PNYY:Svtug",
+        "CYNPR:Vaqvna Evqtr Ncnegzragf Oyqt 6527",
         "FEP:VCCQ",
         "NQQE:6527 GNLYBE ZVYY EQ",
         "PVGL:Vaqrcraqrapr",

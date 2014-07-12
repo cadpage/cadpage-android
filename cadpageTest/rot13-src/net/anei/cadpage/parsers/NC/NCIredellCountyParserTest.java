@@ -2156,7 +2156,8 @@ choyvp pynff APVerqryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "ZSQ ZHGNVQ - ZHGHNY NVQ, 752 R PRAGRE NIR, 13-00957",
         "HAVG:ZSQ",
-        "PNYY:ZHGNVQ - ZHGHNY NVQ",
+        "PBQR:ZHGNVQ",
+        "PNYY:ZHGHNY NVQ",
         "NQQE:752 R PRAGRE NIR",
         "VQ:13-00957");
 
