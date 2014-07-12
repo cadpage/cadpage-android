@@ -45,6 +45,9 @@ ceif=0588r3n5n6=qvfcngpu@wrssrefbapbhaglcn.pbz (Vapvqrag) ZIN F20 ZRQ50  301 J Z
 (Vapvqrag) Fgehpgher Sver R30 R20 R40 GX40 G20 G40 ZRQ50  507 TENSSVHF NIR Chakfhgnjarl BEPUNEQ NIR / ZNP FG 30-N Falqre Uvyy\a\a-- \aGuvf rznvy jnf
 (Vapvqrag) Zvfp. Sver F20 ZRQ50  111 A SVAQYRL FG Chakfhgnjarl FCVEVG OHVYQVAT (UVTUEVFR OHVYQVAT)PENAOREEL NYL / CVAR FG 20-N Falqre Uvyy\a\a-- \aGu
 (Vapvqrag) ZIN F9 RE5-3 E20  2918 CNAFL EVATTBYQ EQ Evattbyq EVIRE EQ / JBEGUIVYYR EQ 9-P Pbbyfcevat\a\a-- \aGuvf rznvy jnf Ivehf purpxrq ol Nfgneb F
+(Vapvqrag) Sver - Nynez R40 GX40 E40 G40 R20 E20 G20 R30 FD30
+(Vapvqrag) ZIN -29-Q Ragenczrag F20 F30 F40 ZRQ50  17343 EG 36 Oryy TEBHAQUBT VAFGNAG YHOR NAQ BVYPYBR PUREEL FG / PYBR EBFFVGRE EQ 20-O Falqre Uvyy
+(Vapvqrag) Sver - Nynez R40 GX40 E40 G40 R20 E20 G20 R30 FD30 ZRQ50  81 UVYYPERFG QE Lbhat CHAKFHGNJARL NERN UBFCVGNYUVPXBEL EQ / A ZNVA FG 40-L-A Fa
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Prageny Sver Qrcg.
@@ -514,6 +517,28 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:EVIRE EQ / JBEGUIVYYR EQ",
         "OBK:9-P",
         "PU:Pbbyfcevat");
+
+    qbGrfg("G32",
+        "(Vapvqrag) ZIN -29-Q Ragenczrag F20 F30 F40 ZRQ50  17343 EG 36 Oryy TEBHAQUBT VAFGNAG YHOR NAQ BVYPYBR PUREEL FG / PYBR EBFFVGRE EQ 20-O Falqre Uvyy",
+        "PNYY:ZIN -29-Q Ragenczrag",
+        "HAVG:F20 F30 F40 ZRQ50",
+        "NQQE:17343 EG 36",
+        "PVGL:Oryy",
+        "CYNPR:TEBHAQUBT VAFGNAG YHOR NAQ BVYPYBR",
+        "K:PUREEL FG / PYBR EBFFVGRE EQ",
+        "OBK:20-O",
+        "PU:Falqre Uvyy");
+
+    qbGrfg("G33",
+        "(Vapvqrag) Sver - Nynez R40 GX40 E40 G40 R20 E20 G20 R30 FD30 ZRQ50  81 UVYYPERFG QE Lbhat CHAKFHGNJARL NERN UBFCVGNYUVPXBEL EQ / A ZNVA FG 40-L-A Fa",
+        "PNYY:Sver - Nynez",
+        "HAVG:R40 GX40 E40 G40 R20 E20 G20 R30 FD30 ZRQ50",
+        "NQQE:81 UVYYPERFG QE",
+        "PVGL:Lbhat",
+        "CYNPR:CHAKFHGNJARL NERN",
+        "K:UBFCVGNYUVPXBEL EQ / A ZNVA FG",
+        "OBK:40-L-A",
+        "PU:Fa");
 
   }
 

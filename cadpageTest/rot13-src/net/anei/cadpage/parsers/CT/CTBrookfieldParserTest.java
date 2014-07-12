@@ -23,6 +23,7 @@ Pbagnpg: ygtyraa13 <ygtyraa13@nby.pbz>
 Fraqre: oebbxsvryqpgqvfcngpu2@tznvy.pbz
 (Cresbez Cntr) Nzohynapr - N Y F Erfcbafr\a7/10/2014 10:14NZ\aRNFGREA NPPBHAG FLFGRZF\a111 CNEX EVQTR EQ \aOebbxsvryq, PG
 (Cresbez Cntr) Nzohynapr - N Y F Erfcbafr\a7/10/2014 12:16CZ\aQvfgevpg: GJ\aCVAGB\a9 ZNCYR YA \aOebbxsvryq, PG
+(Cresbez Cntr) Sver - Bgure\a7/10/2014 7:34CZ\aQvfgevpg: GJ\a246 SRQRENY EQ \aOebbxsvryq, PG
 
 */
 
@@ -147,7 +148,17 @@ choyvp pynff PGOebbxsvryqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:9 ZNCYR YA",
         "PVGL:Oebbxsvryq",
         "FG:PG");
-   
+
+    qbGrfg("G1",
+        "(Cresbez Cntr) Sver - Bgure\a7/10/2014 7:34CZ\aQvfgevpg: GJ\a246 SRQRENY EQ \aOebbxsvryq, PG",
+        "PNYY:Sver - Bgure",
+        "QNGR:7/10/2014",
+        "GVZR:19:34:00",
+        "ZNC:GJ",
+        "NQQE:246 SRQRENY EQ",
+        "PVGL:Oebbxsvryq",
+        "FG:PG");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

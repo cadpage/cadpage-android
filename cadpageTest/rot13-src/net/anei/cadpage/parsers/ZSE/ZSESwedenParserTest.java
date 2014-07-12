@@ -18,6 +18,10 @@ FZF grkg sbezng
 Oenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aPneyniätra 45n\a\aYn = 59 tenqre 22,267'A    Yb = 016 tenqre 31,964'R
 Oenaq v olttanq\aSyresnzvywfuhf\aGenccuhf\aEnqrznpuretngna 21, iåa 5\a\aYn = 59 tenqre 22,308'A    Yb = 016 tenqre 30,783'R
 
+Arj grkg sbezng - Abg cnefvat
+Gensvxbylpxn - syren sbeqba Crefbaovy Öievtg Åeolebaqryyra, fxvsgrfvqna Yn = 59  23,234'A    Yb = 016  31,673'R
+Oenaq v olttanq Öievtg Oeäaar Untoretrg Yn = 59  24,133'A    Yb = 016  45,846'R
+
 Pbagnpg: Eäqqavatfgwäafgra Raxöcvat-Uåob <egwraxbcvat@tznvy.pbz>
 Fraqre: 3315
 Öievtg\aCnffavat\a\aCnffn Raxöcvat\a-
