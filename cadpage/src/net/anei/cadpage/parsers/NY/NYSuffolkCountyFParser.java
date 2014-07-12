@@ -19,7 +19,7 @@ public class NYSuffolkCountyFParser extends NYSuffolkCountyXBaseParser {
   
   @Override
   public String getFilter() {
-    return "@firerescuesystems.xohost.com,masticambco@optonline.net";
+    return "@firerescuesystems.xohost.com,masticambco@optonline.net,paging@wadingriverfd.info";
   }
 
   @Override
