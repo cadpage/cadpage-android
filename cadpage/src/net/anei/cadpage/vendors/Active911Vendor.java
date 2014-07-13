@@ -326,6 +326,7 @@ class Active911Vendor extends Vendor {
       "US/NC/SampsonCounty",              "NCSampsonCounty",
       "US/NC/USAMobility",                "NCWayneCountyA",
       "US/NC/WayneCounty",                "NCWayneCountyB",
+      "US/NC/WilkesCounty",               "NCWilkesCounty",
       "US/NC/WilsonCounty",               "NCWilsonCounty",
       "US/NH/Hanover",                    "NHHanover",
       "US/NH/LRMFA",                      "NHGraftonCounty",
