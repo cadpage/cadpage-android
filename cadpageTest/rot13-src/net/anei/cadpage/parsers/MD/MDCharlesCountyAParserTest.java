@@ -2,6 +2,7 @@ cnpxntr arg.narv.pnqcntr.cnefref.ZQ;
 
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
+vzcbeg arg.narv.pnqcntr.cnefref.ZftCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -199,12 +200,12 @@ choyvp pynff ZQPuneyrfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   
   @Bireevqr
-  cebgrpgrq obbyrna purpxPnyyPbqr(Fgevat pnyy) {
+  cebgrpgrq obbyrna purpxPnyyPbqr(Fgevat pnyy, ZftCnefre cnefre) {
     vs (pnyy.fgnegfJvgu("Pnapry Ernfba:")) {
       vag cg = pnyy.vaqrkBs(" - ");
       vs (cg >= 0) pnyy = pnyy.fhofgevat(cg+3);
     }
-    erghea fhcre.purpxPnyyPbqr(pnyy);
+    erghea fhcre.purpxPnyyPbqr(pnyy, cnefre);
   }
 
 
