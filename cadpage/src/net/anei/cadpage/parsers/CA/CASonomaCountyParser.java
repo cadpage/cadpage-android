@@ -31,9 +31,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     body = body.replace(" CN:COM ", " CN: COM:").replace(" CN:COM:", " CN: COM:");
-    if (! super.parseMsg(body, data)) return false;
-    if (data.strAddress.length() == 0) return false;
-    return true;
+    return super.parseMsg(body, data);
   }
   
   @Override
@@ -174,7 +172,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
       "HBG", "HEALDSBURG",
       "HE",  "HEALDSBURG",
       "HEA", "HEALDSBURG",
-      "HES", "SEBATOPOL",
+      "HES", "SEBASTOPOL",
       "JCD", "JCD",
       "JEN", "JENNER",
       "KEN", "KENWOOD",
@@ -191,6 +189,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
       "MTN", "CALISTOGA",
       "MWS", "SANTA ROSA",
       "NAP", "NAPA",
+      "NOV", "NOVATO",
       "OCC", "OCCIDENTAL",
       "PE",  "PETALUMA",
       "PEN", "PENNGROVE",
@@ -201,9 +200,11 @@ public class CASonomaCountyParser extends FieldProgramParser {
       "ROH", "ROHNERT PARK",
       "ROS", "SANTA ROSA",
       "RP",  "ROHNERT PARK",
+      "RS",  "ROSELAND",
       "SCH", "SCHELLVILLE",
       "SE",  "SEBATOPOL",
       "SEB", "SEBATOPOL",
+      "SNMA","SONOMA", 
       "SO",  "SONOMA",
       "SOL", "SOLANO COUNTY",
       "SON", "SONOMA",
@@ -216,9 +217,12 @@ public class CASonomaCountyParser extends FieldProgramParser {
       "TWI", "SEBATOPOL",
       "TWR", "PETALUMA",
       "VFR", "VALLEY FORD",
+      "VJO", "VALLEJO",
       "WI",  "WINDSOR",
       "WIN", "WINDSOR",
       "WSR", "SANTA ROSA",
+      
+      "GEYSERVILLE",  "GEYSERVILLE",
 
       "BDGA",      "BODEGA",
       "BDGA BAY",  "BODEGA BAY"
