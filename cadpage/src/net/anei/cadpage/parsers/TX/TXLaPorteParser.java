@@ -23,7 +23,7 @@ public class TXLaPorteParser extends DispatchOSSIParser {
   protected TXLaPorteParser(String defCity, String defState) {
     super(CITY_CODES, defCity, defState,
           "( KEMA_FMT KEMA_ADDR/aS9CI | " +
-          "FYI ID? SRC? CALL! ADDR! UNIT? CITY? CODE? INFO+? DATETIME INFO+ | " +
+          "FYI ID? SRC? ( CALL_ADDR CITY | CALL! ( ADDR/Z CITY! | ADDR/Z UNIT UNIT+? CITY? | PLACE ADDR/Z CITY! | PLACE ADDR/Z UNIT UNIT+? CITY? | ADDR! ) ) UNIT+? ( ID PRI? | ) INFO+? DATETIME UNIT? INFO+ | " +
           "CANCEL ADDR! CITY? ) INFO+");
   }
   
@@ -92,9 +92,11 @@ public class TXLaPorteParser extends DispatchOSSIParser {
     if (name.equals("KEMA_ADDR")) return new KemaAddressField();
     if (name.equals("CANCEL")) return new CallField("CANCEL", true);
     if (name.equals("ID")) return new IdField("\\d{10}", true);
+    if (name.equals("PRI")) return new PriorityField("\\d");
     if (name.equals("SRC")) return new MySourceField();
+    if (name.equals("CALL_ADDR")) return new MyCallAddressField();
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("UNIT")) return new UnitField("(?:[A-Z]+\\d+|[A-Z]{2}FD|\\d{2,4})(?:,.*)?|SENS", true);
+    if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("CODE")) return new CodeField("[A-Z]{1,2}[A-Z0-9]{1,2}", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
@@ -140,6 +142,29 @@ public class TXLaPorteParser extends DispatchOSSIParser {
     }
   }
   
+  private class MyCallAddressField extends Field {
+    
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = ADDR_WATERFRONT_PTN.matcher(field);
+      if (match.matches()) {
+        data.strAddress = match.group(1) + " KEMAH WATER FRONT";
+        return;
+      }
+      Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, field);
+      if (res.getStatus() > STATUS_NOTHING) {
+        res.getData(data);
+      } else {
+        data.strCall = field;
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CALL ADDR APT";
+    }
+  }
+  
   private static final Pattern ADDR_WATERFRONT_PTN = Pattern.compile("(\\d+) KEMAH WATERFRONT");
   private class MyAddressField extends AddressField {
     @Override public void parse(String field, Data data) {
@@ -149,6 +174,20 @@ public class TXLaPorteParser extends DispatchOSSIParser {
         return;
       }
       super.parse(field, data);
+    }
+  }
+  
+  private static final String UNIT_PTN1 = "(?:[A-Z]+\\d+|[A-Z]{2,4}|\\d{2,4})";
+  private static final String UNIT_PTN = UNIT_PTN1 + "(?:," + UNIT_PTN1 + ")*";
+  private class MyUnitField extends UnitField {
+    
+    public MyUnitField() {
+      super(UNIT_PTN, true);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      data.strUnit = append(data.strUnit, ",", field);
     }
   }
   
@@ -182,8 +221,14 @@ public class TXLaPorteParser extends DispatchOSSIParser {
       "MP", "MORGANS POINT",
       "NB", "NASSAU BAY",
       "PA", "PASADENA",
+      "PL", "PEARLAND",
+      "SA", "SHOREACRES",
       "SB", "SEABROOK",
+      "SE", "SOUTHEAST",
       "SO", "",           // Harris County Sherrifs office
-      "WB", "WEBSTER"
+      "TL", "SEABROOK",   // ???
+      "WB", "WEBSTER",
+      
+      "BAYTOWN",    "BAYTOWN"
   });
 }
