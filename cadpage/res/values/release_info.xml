@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07062014</string>
-  <string name="release_version">v1.7.31</string>
+  <string name="release_date">07142014</string>
+  <string name="release_version">v1.7.32</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -9,29 +9,24 @@ Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
 New Locations:\n
-Santa Cruz County, CA (alt)\n
-San Mateo County, CA (alt)\n
-Otter Tail County, MN\n
-Wyoming County, WV\n
+Rabun County, GA\n
+Aransas County, TX\n
 \n
 Location Parsing Fixes:\n
-San Joqauin County, CA\n
-Santa Clara County, CA\n
-Citrus County, FL\n
-Kenton County, KY\n
-Queen Annes County, MD\n
-Jefferson County, MO\n
-Rockingham County, NC\n
-Brown County, OH\n
-Clackamas County, OR\n
-Multnomah County, OR\n
-Washington County, OR\n
-Jefferson County, PA\n
-Montgomery County, PA\n
-Pttsylvania County, VA\n
-\n
-General Fixes:\n
-Incorectly droping EXT from street names
+San Joaquin County, CA\n
+Sonoma County, CA\n
+Brookfield, CT\n
+Mercer County, NJ\n
+Suffolk County, NY\n
+Wilkes County, NC\n
+Douglas County, OR\n
+Linn County, OR\n
+Josephine County, OR\n
+Pennington County, SD\n
+Humble, TX\n
+La Porte, TX\n
+Albemarle County, VA\n
+Franklin County, VA\n
   </string>
 </resources>
   
