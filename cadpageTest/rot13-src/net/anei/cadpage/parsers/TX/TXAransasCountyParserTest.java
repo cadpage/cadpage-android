@@ -6,7 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 /* 
 
-Nenafnf, GK 
+Nenafnf Pbhagl, GK 
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Shygba ISQ

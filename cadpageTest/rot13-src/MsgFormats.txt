@@ -1190,7 +1190,7 @@ Bxgvoorun Pbhagl, ZF (ZFBxgvoorunPbhaglCnefre)
 (ISQ - FGEHP - 2014020074 - 240 16gu Frpgvba Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Fgehpgher Sver ercbegrq ng 240 16gu Frpgvba Eq, Fgnexivyyr, ZF
 (ISQ - ZRQ - 2014020073 - 96 Jnfu Ya, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 96 Jnfu Ya, Fgnexivyyr, ZF 31 le byq znyr cbffvoyr flapbcr rcvfbqrf.
 *******************************************************************************
-Nenafnf Pbhagl, GK
+Nenafnf Pbhagl, GK (GKNenafnfPbhaglCnefre) 
 (ISQ - ZIN - 2014000280 - 100 Olcnff 35, Nenafnf Pbhagl, GK) Gurer unf orra n(a) Zbgbe Iru Nppvqrag ercbegrq ng 100 Olcnff 35, Nenafnf Pbhagl, GK     ba enzc ng 188 ao
 (ISQ - TS - 2014000273 - 200 Pbcnab Pbir Ebnq, Nenafnf Pbhagl, GK) Gurer unf orra n(a) Tenff Sver ercbegrq ng 200 Pbcnab Pbir Ebnq, Nenafnf Pbhagl, GK
 (ISQ - TNF - 2014000270 - 3400 Sz 1781, A Bpy, GK) Gurer unf orra n(a) Tnf Yrnx ercbegrq ng 3400 Sz 1781, A Bpy, GK
@@ -3366,6 +3366,11 @@ Cvxr Pbhagl, TN (TNCvxrPbhaglCnefre)
 CVXR PBHAGL R-911:10-52E RZF/ ERFCBAQRE 11794 UVTUJNL 109 7705673249 NQNZF EQ
 CVXR PBHAGL R-911:10-50V NPPVQRAG JVGU VAWHEVRF PBAPBEQ EQ NG OBGGBZF EQ 7066013339
 CVXR PBHAGL R-911:SVENYZ SVER NYNEZ 1489 RCCVATRE OEVQTR EQ 8005441104 UNEEVF FG
+***************************************************************************
+Enoha Pbhagl, TN (TNEnohaPbhaglCnefre) 
+(R911 Eha Tebhc Qvfcngpurq Abgvsvpngvba) FGN12 qvfcngpurq: HAXABJA=HAXABJA CEBOYRZ ng 2832 BYQ 441 F
+(R911 Eha Tebhc Qvfcngpurq Abgvsvpngvba) FGN12 qvfcngpurq: QVNORGVP CEBOYRZ ng 725 OEVQTR PERRX EQ
+(R911 Eha Tebhc Qvfcngpurq Abgvsvpngvba) FGN1 qvfcngpurq: FRV=FRVMHERF ng 866 BYQ PURPUREB EQ
 ***************************************************************************
 Jnyxre Pbhagl, TN (TNJnyxrePbhaglCnefre)
 (!) Fzbxr Va Nern 600 PUVPXNZNHTN NIR NERN YRVAONPU EQ, PYNEX FG / R TBEQBA NIR EBFFIVYYR   FHAFRG ZNEXRG EBFFIVYYR PURPX NERN SBE FZBXR VA JBBQF ORUVAQ YBBXBHG
