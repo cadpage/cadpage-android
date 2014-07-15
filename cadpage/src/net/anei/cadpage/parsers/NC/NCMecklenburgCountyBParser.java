@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class NCMecklenburgCountyBParser extends SmartAddressParser {
   
-  private static final Pattern CODE_PTN = Pattern.compile(" (\\d{2}[A-Z]{0,2})-");
+  private static final Pattern CODE_PTN = Pattern.compile("(?<! ) (\\d{2}[A-Z]{0,2})-(?!\\d)");
   private static final Pattern UNIT_PTN = Pattern.compile("\\b[A-Z][A-Za-z]{1,4}\\d{1,3}\\b");
   
   

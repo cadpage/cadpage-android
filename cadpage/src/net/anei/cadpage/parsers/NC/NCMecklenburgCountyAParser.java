@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NCMecklenburgCountyAParser extends MsgParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("[-0-9]+ +Received: *\\d\\d:\\d\\d *Assigned: *\\d\\d:\\d\\d *Enroute: *(?:\\d\\d:\\d\\d *|.*Cancelled: *\\d\\d:\\d\\d).*");
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("[-0-9]+ +Received: *\\d\\d:\\d\\d *Assigned: *\\d\\d:\\d\\d *Enroute: *(?:\\d\\d:\\d\\d *|.*Cancelled: *\\d\\d:\\d\\d).*", Pattern.DOTALL);
   
   public NCMecklenburgCountyAParser() {
     super("MECKLENBURG COUNTY", "NC");
@@ -21,7 +21,7 @@ public class NCMecklenburgCountyAParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "paging@rcscom.com,@huntersvillefd.com,Group_Page_Notification@archwireless.net,@huntersvillefd.com";
+    return "paging@rcscom.com,@huntersvillefd.com,Group_Page_Notification@archwireless.net,@huntersvillefd.com,cadmail@medic911.com";
   }
   
   @Override
@@ -32,7 +32,8 @@ public class NCMecklenburgCountyAParser extends MsgParser {
       data.strPlace = body;
       return true;
     }
-    if(body.length() < 74) return false;
+    if (body.length() < 74) return false;
+    if (body.length() >= 205 && !substring(body,200,205).equals("Map -")) return false;
     
     parseAddress(substring(body,0,30), data);
     data.strApt = substring(body,30,40);
@@ -41,8 +42,8 @@ public class NCMecklenburgCountyAParser extends MsgParser {
     data.strCall = substring(body,100,130);
     data.strCross = substring(body,130,190);
     data.strChannel = substring(body,190,200);
-    data.strMap = substring(body,206,216);
-    data.strCallId = substring(body,216);
+    data.strMap = substring(body,205,215);
+    data.strCallId = substring(body,215);
 
     String check = data.strSupp;
     int pt = check.indexOf('-');
@@ -75,7 +76,8 @@ public class NCMecklenburgCountyAParser extends MsgParser {
       "Alpha", 
       "Bravo", 
       "Charlie", 
-      "Delta", 
+      "Delta",
+      "Demo/Public Relations",
       "ECHO",
       "Fire", 
       "unkFire"
