@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <!-- App Strings -->
+   <string name="cadpage_alert">Cadpage Alert!</string>
    <string name="app_name">Cadpage</string>   
    <string name="call_history">Call History:</string>   
    <string name="new_text_at">New Call Received at %s</string>
@@ -34,9 +35,6 @@
    <string name="network_err_roaming">This action is not advised on roaming network</string>   
 
 <!-- Notification Strings -->
-   <string name="notification_scroll">%1$s</string>
-   <string name="notification_scroll_privacy">New Call:</string>
-
    <string name="button_disabled">Disabled</string>
    <string name="button_view">View</string>
    <string name="button_view_mms">View MMS</string>
@@ -94,10 +92,6 @@
    <string name="pref_dimscreen_title">Dim Popup Screen</string>
    <string name="pref_dimscreen_summaryon">Popup screen will be dim (saves battery)</string>
    <string name="pref_dimscreen_summaryoff">Popup screen will be bright</string>
-
-   <string name="pref_privacy_title">Privacy Mode</string>
-   <string name="pref_privacy_summaryon">Contents of the message will only be shown after unlock</string>
-   <string name="pref_privacy_summaryoff">Contents of the message will be shown immediately</string>
 
    <string name="pref_show_personal_title">Display Personal Info</string>
    <string name="pref_show_personal_summaryon">Caller Name/Phone will be displayed</string>

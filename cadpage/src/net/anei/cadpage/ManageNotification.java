@@ -14,7 +14,7 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnErrorListener;
 import android.net.Uri;
-import android.text.SpannableString;
+import android.support.v4.app.NotificationCompat;
 
 /*
  * This class handles the Notifications (sounds/vibrate/LED)
@@ -34,29 +34,6 @@ public class ManageNotification {
     }
     MediaFailureException(String desc, Throwable cause) {
       super(desc, cause);
-    }
-  }
-
-  /*
-   * Class to hold the popup notification elements
-   */
-  static class PopupNotification {
-    public Notification notification;
-    public boolean privacyMode;
-
-    PopupNotification(Notification n) {
-      this.notification = n;
-    }
-
-    final public void notify(Context context, int notif) {
-      NotificationManager myNM =
-        (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-
-      // Seems this is needed for the number value to take effect on the Notification
-      myNM.cancel(NOTIFICATION_ALERT);
-
-      if (Log.DEBUG) Log.v("*** Notify running ***");
-      myNM.notify(notif, notification);
     }
   }
   
@@ -81,51 +58,19 @@ public class ManageNotification {
   
   
   public static boolean show(Context context, SmsMmsMessage message, boolean reminder) {
+    
+    // Check if notifications are enabled - if not, we're done :)
+    if (!ManagePreferences.notifyEnabled() && !ManagePreferences.notifyOverride()) return false;
 
-    // Fetch info from the message object
-    String call = message.getInfo().getTitle();
-    long timestamp = message.getIncidentDate().getTime();
+    Notification n = buildNotification(context, message);
 
-    PopupNotification n = buildNotification(context);
+    // Launch the notification
+    NotificationManager myNM =
+        (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
 
-    if (n == null) return false;
-
-    // The notification title, sub-text and text that will scroll
-    String contentTitle;
-    String contentText;
-    SpannableString scrollText;
-
-    // If we're in privacy mode and the keyguard is on then just display
-    // the name of the person, otherwise scroll the name and message
-    if (n.privacyMode && ManageKeyguard.inKeyguardRestrictedInputMode()) {
-      scrollText =
-        new SpannableString(context.getString(R.string.notification_scroll_privacy));
-    } else {
-      scrollText =
-        new SpannableString(context.getString(R.string.notification_scroll, call));
-    }
-
-    // The default intent when the notification is clicked (Inbox)
-    Intent smsIntent = CallHistoryActivity.getLaunchIntent(context, true);
-
-    contentTitle = "Alert";
-    contentText = call;
-
-    /*
-     * Ok, let's create our Notification object and set up all its parameters.
-     */
-
-    // Set the icon, scrolling text and timestamp
-    n.notification.icon = R.drawable.ic_stat_notify;
-    n.notification.tickerText = scrollText;
-    n.notification.when = timestamp;
-
-    // Set the PendingIntent if the status message is clicked
-    PendingIntent notifIntent = PendingIntent.getActivity(context, 0, smsIntent, 0);
-
-    // Set the messages that show when the status bar is pulled down
-    n.notification.setLatestEventInfo(context, contentTitle, contentText, notifIntent);
-    n.notify(context, NOTIFICATION_ALERT);
+      // Seems this is needed for the number value to take effect on the Notification
+      myNM.cancel(NOTIFICATION_ALERT);
+      myNM.notify(NOTIFICATION_ALERT, n);
 
     // Schedule a reminder notification
     if (reminder && !ManagePreferences.notifyOverride()) ReminderReceiver.scheduleReminder(context, message);
@@ -135,54 +80,30 @@ public class ManageNotification {
   /*
    * Build the notification from user preferences
    */
-  private static PopupNotification buildNotification(Context context) {
-
-    AudioManager AM = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
-    Uri alarmSoundURI;
-    
-    // Check if notifications are enabled - if not, we're done :)
-    if (!ManagePreferences.notifyEnabled() && !ManagePreferences.notifyOverride()) {
-      return null;
-    }
-
-    // Get some preferences: vibrate and vibrate_pattern prefs
-    boolean vibrate = ManagePreferences.vibrate();
-    String vibrate_pattern_raw = ManagePreferences.vibratePattern();
-
-    // Get LED preferences
-    boolean flashLed = ManagePreferences.flashLED();
-    String flashLedCol = ManagePreferences.flashLEDColor();
-    String flashLedPattern = ManagePreferences.flashLEDPattern();
-
-    // Try and parse the user ringtone, use the default if it fails
-    // If Notifications are On then get ring tone setting
-    //if (mPrefs.getBoolean(R.string.pref_notif_enabled_key,Defaults.PREFS_NOTIF_ENABLED,SmsPopupDbAdapter.KEY_ENABLED_NUM)) {
-     alarmSoundURI = Uri.parse(ManagePreferences.notifySound());
-    if (Log.DEBUG){ Log.v("Sounds URI = " + alarmSoundURI.toString());}
-    //}
-    // See if user wants some privacy
-    boolean privacyMode = ManagePreferences.privacyMode();
+  private static Notification buildNotification(Context context, SmsMmsMessage message) {
 
     /*
      * Ok, let's create our Notification object and set up all its parameters.
      */
-    Notification notification = new Notification();
+    NotificationCompat.Builder nbuild = new NotificationCompat.Builder(context);
 
     // Set auto-cancel flag
-    notification.flags = Notification.FLAG_AUTO_CANCEL;
-
-    // Set audio stream to ring
-    notification.audioStreamType = Notification.STREAM_DEFAULT;
+    nbuild.setAutoCancel(true);
+    
+    // Maximum priority
+    nbuild.setPriority(NotificationCompat.PRIORITY_MAX);
+    
+    // Set display icon
+    nbuild.setSmallIcon(R.drawable.ic_stat_notify);
 
     // Set up LED pattern and color
-    if (flashLed) {
-      notification.flags |= Notification.FLAG_SHOW_LIGHTS;
-
+    if (ManagePreferences.flashLED()) {
       /*
        * Set up LED blinking pattern
        */
       int[] led_pattern = null;
 
+      String flashLedPattern = ManagePreferences.flashLEDPattern();
       if (context.getString(R.string.pref_custom_val).equals(flashLedPattern)) {
         led_pattern = parseLEDPattern(ManagePreferences.flashLEDPatternCustom());
       } else {
@@ -192,20 +113,17 @@ public class ManageNotification {
 
       // Set to default if there was a problem
       if (led_pattern == null) {
-        led_pattern =
-          parseLEDPattern(context.getString(R.string.pref_flashled_pattern_default));
+        led_pattern = parseLEDPattern(context.getString(R.string.pref_flashled_pattern_default));
       }
       
       /*
        * Set up LED color
        */
       // Check if a custom color is set
+      String flashLedCol = ManagePreferences.flashLEDColor();
       if (context.getString(R.string.pref_custom_val).equals(flashLedCol)) {
         flashLedCol = ManagePreferences.flashLEDColorCustom();
       }
-
-      notification.ledOnMS = led_pattern[0];
-      notification.ledOffMS = led_pattern[1];
 
       // Default in case the parse fails
       int col = Color.parseColor(context.getString(R.string.pref_flashled_color_default));
@@ -219,24 +137,25 @@ public class ManageNotification {
         }
       }
 
-      notification.ledARGB = col;
+      nbuild.setLights(col, led_pattern[0], led_pattern[1]);
     }
 
     /*
      * Set up vibrate pattern
      */
     // If vibrate is ON, or if phone is set to vibrate
-    if ((vibrate || AudioManager.RINGER_MODE_VIBRATE == AM.getRingerMode())) {
-      long[] vibrate_pattern = null;
+    AudioManager AM = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
+    if ((ManagePreferences.vibrate() || AudioManager.RINGER_MODE_VIBRATE == AM.getRingerMode())) {
+      String vibrate_pattern_raw = ManagePreferences.vibratePattern();
       if (context.getString(R.string.pref_custom_val).equals(vibrate_pattern_raw)) {
-        vibrate_pattern = parseVibratePattern(ManagePreferences.vibratePatternCustom());
-      } else {
-        vibrate_pattern = parseVibratePattern(vibrate_pattern_raw);
+        vibrate_pattern_raw = ManagePreferences.vibratePatternCustom();
       }
+      long[] vibrate_pattern = parseVibratePattern(vibrate_pattern_raw);
+
      if (vibrate_pattern != null) {
-        notification.vibrate = vibrate_pattern;
+       nbuild.setVibrate(vibrate_pattern);
       } else {
-        notification.defaults = Notification.DEFAULT_VIBRATE;
+        nbuild.setDefaults(Notification.DEFAULT_VIBRATE);
       }
     }
 
@@ -244,22 +163,30 @@ public class ManageNotification {
       if (ManagePreferences.notifyOverride()) {
         startMediaPlayer(context, 0);
       } else {	 
-        notification.sound = alarmSoundURI;
+        Uri alarmSoundURI = Uri.parse(ManagePreferences.notifySound());
+        nbuild.setSound(alarmSoundURI);
       }
     }
- 
+
+    String call = message.getInfo().getTitle();
+    nbuild.setContentTitle(context.getString(R.string.cadpage_alert));
+    nbuild.setContentText(call);
+    nbuild.setStyle(new NotificationCompat.InboxStyle().addLine(call).addLine(message.getInfo().getAddress()));
+    nbuild.setWhen(message.getIncidentDate().getTime());
+
+    // The default intent when the notification is clicked (Inbox)
+    Intent smsIntent = CallHistoryActivity.getLaunchIntent(context, true);
+    PendingIntent notifIntent = PendingIntent.getActivity(context, 0, smsIntent, 0);
+    nbuild.setContentIntent(notifIntent);
+    
     // Set intent to execute if the "clear all" notifications button is pressed -
     // basically stop any future reminders.
     Intent deleteIntent = new Intent(new Intent(context, ReminderReceiver.class));
     deleteIntent.setAction(Intent.ACTION_DELETE);
     PendingIntent pendingDeleteIntent = PendingIntent.getBroadcast(context, 0, deleteIntent, 0);
+    nbuild.setDeleteIntent(pendingDeleteIntent);
 
-    notification.deleteIntent = pendingDeleteIntent;
-
-    PopupNotification popupNotification = new PopupNotification(notification);
-    popupNotification.privacyMode = privacyMode;
-    return popupNotification ;
-    
+    return nbuild.build();
   }
 
 

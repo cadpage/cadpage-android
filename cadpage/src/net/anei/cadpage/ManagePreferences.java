@@ -461,10 +461,6 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_dimscreen_key);
   }
   
-  public static boolean privacyMode() {
-    return prefs.getBoolean(R.string.pref_privacy_key);
-  }
-  
   public static boolean showPersonal() {
     return prefs.getBoolean(R.string.pref_show_personal_key);
   }
@@ -1009,7 +1005,6 @@ public class ManagePreferences {
         R.string.pref_screen_on_key,
         R.string.pref_textsize_key,
         R.string.pref_dimscreen_key,
-        R.string.pref_privacy_key,
         R.string.pref_show_personal_key,
         
         R.string.pref_button1_key,

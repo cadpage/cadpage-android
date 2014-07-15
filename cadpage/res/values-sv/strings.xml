@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <!-- App Strings -->
+  <string name="cadpage_alert">Cadpage Alert!</string>   <!-- Translate -->
   <string name="app_name">Cadpage</string>
   <string name="call_history">Larmhistorik:</string>
   <string name="new_text_at">Nytt larm mottaget %s</string>

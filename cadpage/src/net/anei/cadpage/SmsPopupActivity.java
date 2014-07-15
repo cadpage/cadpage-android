@@ -3,7 +3,6 @@ package net.anei.cadpage;
 
 import android.os.Bundle;
 
-import net.anei.cadpage.ManageKeyguard.LaunchOnKeyguardExit;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
 import net.anei.cadpage.parsers.MsgInfo;
@@ -19,14 +18,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewStub;
 import android.view.Window;
 import android.view.ContextMenu.ContextMenuInfo;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 
@@ -41,11 +37,8 @@ public class SmsPopupActivity extends Safe40Activity {
   private TextView messageReceivedTV;
   private TextView messageTV;
 
-  private ScrollView messageScrollView = null;
   private ProgressDialog mProgressDialog = null;
 
-  private ViewStub privacyViewStub;
-  private View privacyView = null;
   private LinearLayout mainLL = null;
   
   private Button donateStatusBtn = null;
@@ -92,7 +85,6 @@ public class SmsPopupActivity extends Safe40Activity {
     messageTV = (TextView) findViewById(R.id.MessageTextView);
     messageTV.setAutoLinkMask(Linkify.WEB_URLS);
     messageReceivedTV = (TextView) findViewById(R.id.HeaderTextView);
-    messageScrollView = (ScrollView) findViewById(R.id.MessageScrollView);
 
     // Set up regular button list
     optManager.setupButtons((ViewGroup)findViewById(R.id.RespButtonLayout),
@@ -191,7 +183,6 @@ public class SmsPopupActivity extends Safe40Activity {
       // to prevent doing some things 2 times but this seemed to be the only
       // reliable way (?)
       wasVisible = true;
-      refreshPrivacy();
     }
   }
 
@@ -258,9 +249,6 @@ public class SmsPopupActivity extends Safe40Activity {
 
     // Store message
     message = newMessage;
-
-    // Assign view stubs
-    privacyViewStub = (ViewStub) findViewById(R.id.PrivacyViewStub);
     
     optManager.setMessage(message);
     optManager.prepareButtons();
@@ -372,74 +360,6 @@ public class SmsPopupActivity extends Safe40Activity {
     //storeFileMessage();
     
   } //end of function
-  /*
-   * This handles hiding and showing various views depending on the privacy
-   * settings of the app and the current state of the phone (keyguard on or off)
-   */
-  final private void refreshPrivacy() {
-    if (Log.DEBUG) Log.v("refreshPrivacy()");
-
-    // This gets called before onNewIntent() which mean message may not be set
-    // Don't understand this well enough to know how this should be handled, but
-    // for now this will keep the app from closing  -kec
-    if (message != null) {
-      if (ManagePreferences.privacyMode()) {
-        // We need to init the keyguard class so we can check if the keyguard is
-        // on
-        ManageKeyguard.initialize(getApplicationContext());
-
-        if (ManageKeyguard.inKeyguardRestrictedInputMode()) {
-
-          if (privacyView == null) {
-            privacyView = privacyViewStub.inflate();
-
-            // The view button (if in privacy mode)
-            Button viewButton = (Button) privacyView.findViewById(R.id.ViewButton);
-            viewButton.setOnClickListener(new OnClickListener() {
-              public void onClick(View v) {
-                viewMessage();
-              }
-            });
-          }
-          messageScrollView.setVisibility(View.GONE);
-        } else {
-          if (privacyView != null) {
-            privacyView.setVisibility(View.GONE);
-          }
-          messageScrollView.setVisibility(View.VISIBLE);
-        }
-      } else {
-        if (privacyView != null) {
-          privacyView.setVisibility(View.GONE);
-        }
-        messageScrollView.setVisibility(View.VISIBLE);
-      }
-    }
-  }
-
-//  /*
-//   * Create Dialog
-//   */
-//  @Override
-//  protected Dialog onCreateDialog(int id) {
-//    if (Log.DEBUG) Log.v("onCreateDialog()");
-//
-//    switch (id) {
-//
-//        /*
-//         * Loading Dialog
-//         */
-//      case DIALOG_LOADING:
-//        mProgressDialog = new ProgressDialog(this);
-//        mProgressDialog.setMessage(getString(R.string.loading_message));
-//        mProgressDialog.setIndeterminate(true);
-//        mProgressDialog.setCancelable(true);
-//        return mProgressDialog;
-//    }
-//
-//    return null;
-//  }
-
 
   /* (non-Javadoc)
    * @see android.app.Activity#onCreateOptionsMenu(android.view.Menu)
@@ -600,26 +520,6 @@ public class SmsPopupActivity extends Safe40Activity {
 //      }
 //    }
 //  }
-
-  /**
-   * View the private message (this basically just unlocks the keyguard and then
-   * reloads the activity).
-   */
-  private void viewMessage() {
-    ManageKeyguard.exitKeyguardSecurely(new LaunchOnKeyguardExit() {
-      public void LaunchOnKeyguardExitSuccess() {
-        // Yet another fix for the View button in privacy mode :(
-        // This will remotely call refreshPrivacy in case the user doesn't have
-        // the security pattern on (so the screen will not refresh and therefore
-        // the popup will not come out of privacy mode)
-        runOnUiThread(new Runnable() {
-          public void run() {
-            refreshPrivacy();
-          }
-        });
-      }
-    });
-  }
 
   private void resizeLayout() {
     // This sets the minimum width of the activity to a minimum of 80% of the screen

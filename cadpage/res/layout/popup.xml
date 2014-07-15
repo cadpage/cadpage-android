@@ -16,8 +16,6 @@
   <ScrollView
     android:layout_width="fill_parent"
     android:layout_height="0dip"
-    android:id="@+id/MessageScrollView"
-    android:visibility="gone"
     android:layout_weight="1"
     android:paddingBottom="10dp"
     android:paddingTop="6dp">
@@ -34,11 +32,6 @@
       android:paddingLeft="10dp"
       android:scrollbars="vertical" />
   </ScrollView>
-  <ViewStub
-    android:id="@+id/PrivacyViewStub"
-    android:layout="@layout/popup_privacy"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content" />
 
   <net.anei.cadpage.widget.FlowLayout
     android:id="@+id/RespButtonLayout"
