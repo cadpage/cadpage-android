@@ -12,10 +12,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class CASonomaCountyParser extends FieldProgramParser {
   
+  private String version;
+  
   public CASonomaCountyParser() {
     super(CITY_LIST, 
            "SONOMA COUNTY", "CA",
-           "Loc:ADDR? BOX:BOX TYP:CALL? CN:NAME C#:PHONE TYP:CALL? TYPE_CODE:SKIP CALLER_NAME:NAME CALLER_ADDR:ADDR2/S TIME:TIME COM:INFO");
+           "( SELECT/1 Location:ADDR/S? EID:ID! TYPE_CODE:CALL? CALLER_NAME:NAME CALLER_ADDR:ADDR2/S TIME:TIME Comments:INFO | " +
+             "Loc:ADDR? BOX:BOX! TYP:CALL? CN:NAME! C#:PHONE TYP:CALL? TYPE_CODE:SKIP CALLER_NAME:NAME CALLER_ADDR:ADDR2/S TIME:TIME COM:INFO )");
   }
   
   @Override
@@ -31,12 +34,19 @@ public class CASonomaCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     body = body.replace(" CN:COM ", " CN: COM:").replace(" CN:COM:", " CN: COM:");
+    version = body.startsWith("Location:") || body.startsWith("EID") ? "1" : "2";
     return super.parseMsg(body, data);
   }
   
   @Override
+  protected String getSelectValue() {
+    return version;
+  }
+
+  @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("NAME")) return new MyNameField();
     if (name.equals("ADDR2")) return new MyAddress2Field();
     if (name.equals("TIME")) return new MyTimeField();
     if (name.equals("INFO")) return new MyInfoField();
@@ -79,6 +89,14 @@ public class CASonomaCountyParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "ADDR APT CITY SRC PLACE";
+    }
+  }
+  
+  private class MyNameField extends NameField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldEnd(field, " CMCST");
+      super.parse(field, data);
     }
   }
   
