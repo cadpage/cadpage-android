@@ -448,6 +448,13 @@ public class StandardCodeTable extends CodeTable {
         "31D04",     "Unconscious - Changing color",
         "31E01",     "Unconscious - Ineffective breathing",
         
+        // 32. Medical Nature Unknown
+        "32",        "Medical Nature Unknown - Prealert",
+        "32D01",     "Medical Nature Unknown - Life status questionable",
+        "32B01",     "Medical Nature Unknown - Standing, moving, sitting, or talking",
+        "32B02",     "Medical Nature Unknown - Medical alert notification",
+        "32B03",     "Medical Nature Unknown (3rd party caller)",
+        
         //33. Transfer/Interfacility/Palliative Care 
         "33",        "Transfer - Prealert",
         "33A01",     "Transfer - Acuity I (no priority symptoms)",
@@ -1691,8 +1698,14 @@ public class StandardCodeTable extends CodeTable {
    * @return expanded code
    */
   private String expand(String code) {
-    if (code.length() < 3) return code;
-    if (! Character.isDigit(code.charAt(0))) return code;
+    if (code.length() == 0 || !Character.isDigit(code.charAt(0))) return code;
+    
+    if (code.length() < 3) {
+      if (code.length() == 1) return '0' + code; 
+      char chr2 = Character.toUpperCase(code.charAt(1));
+      if (chr2 < 'A' || chr2 > 'Z') return code;
+      return "0" + code.charAt(0) + chr2;
+    }
 
     int ndx = 0;
     StringBuilder sb = new StringBuilder();

@@ -175,6 +175,7 @@ class Active911Vendor extends Vendor {
       "US/CA/Monterey",                   "CAMontereyCountyParser",
       "US/CA/OrovillePD",                 "CAPlacerCounty",
       "US/CA/CityofPasoRobles",           "CAPasoRobles",
+      "US/CA/SacramentoFire",             "CASacramentoCounty",
       "US/CA/SanBernardinoCounty",        "CASanBernardinoCounty",
       "US/CA/SantaClaraCounty",           "CASantaClaraCountyB",
       "US/CA/SantaCruzCounty",            "CASantaCruzCounty",
