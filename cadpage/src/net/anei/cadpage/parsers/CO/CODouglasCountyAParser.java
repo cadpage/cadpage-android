@@ -72,6 +72,22 @@ public class CODouglasCountyAParser extends FieldProgramParser {
     return super.getProgram() + " ID";
   }
   
+  @Override
+  public Field getField(String  name) {
+    if (name.equals("ADDRCH")) return new MyAddressChannelField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("UNITX")) return new MyUnitCrossField();
+    if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("DATETIME")) return new MyDateTimeField();
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("CALLID")) return new MyCallIdField();
+    if (name.equals("ID3")) return new MyId3Field();
+    if (name.equals("DATETIME3")) return new MyDateTime3Field();
+    return super.getField(name);
+  }
+  
+  
   // Address field should strip  trailing slash characters
   // and a trailing operations channel
   private static final Pattern OPS_PTN = Pattern.compile("\\bEOPS\\d$");
@@ -167,10 +183,11 @@ public class CODouglasCountyAParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern INFO_JUNK_PTN = Pattern.compile("^Call Number \\d+ was created from Call Number \\d+\\b *|E911 Info - ");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      field = field.replace("E911 Info - ", "");
+      field = INFO_JUNK_PTN.matcher(field).replaceAll("").trim();
       if (data.strChannel.length() > 0 && field.startsWith(data.strChannel)) {
         field = field.substring(data.strChannel.length()).trim();
       }
@@ -206,22 +223,6 @@ public class CODouglasCountyAParser extends FieldProgramParser {
       if (pt >= 0) field = field.substring(0,pt).trim();
       super.parse(field, data);
     }
-  }
-  
-  
-  @Override
-  public Field getField(String  name) {
-    if (name.equals("ADDRCH")) return new MyAddressChannelField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("ADDRCITY")) return new MyAddressCityField();
-    if (name.equals("UNITX")) return new MyUnitCrossField();
-    if (name.equals("PLACE")) return new MyPlaceField();
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("CALLID")) return new MyCallIdField();
-    if (name.equals("ID3")) return new MyId3Field();
-    if (name.equals("DATETIME3")) return new MyDateTime3Field();
-    return super.getField(name);
   }
   
   private static final String[] CITY_LIST = new String[]{

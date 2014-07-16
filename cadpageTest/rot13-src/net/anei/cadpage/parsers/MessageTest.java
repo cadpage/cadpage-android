@@ -9,6 +9,14 @@ choyvp pynff ZrffntrGrfg {
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
+    qbCnefrGrfg("AngvbanyJrngureFreivprCnefre",
+        "xra@pnqcntr.bet",
+        "SJ: vAJF Nyreg",
+        "\a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Zbaqnl, Whyl 14, 2014 4:29:54 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aRirag rkgraqrq (gvzr). Frirer Guhaqrefgbez Jngpu sebz 7/14/2014 4:29 CZ gb 7:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17767324>.",
+        "je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]",
+        "vAJF Nyreg",
+        "Rirag rkgraqrq (gvzr). Frirer Guhaqrefgbez Jngpu sebz 7/14/2014 4:29 CZ gb 7:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17767324>.");
+    
     qbCnefrGrfg("FPXrefunjPbhaglCnefre",
         "xra@pnqcntr.bet",
         "",

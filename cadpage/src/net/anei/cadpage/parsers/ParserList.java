@@ -104,6 +104,7 @@ public class ParserList {
               ,"Cadpage"                        ,"Standard Cadpage Format A"
               ,"Cadpage2"                       ,"Standard Cadpage Format B"
               ,"Cadpage3"                       ,"Standard Cadpage Format C"
+              ,"StandardNationalWeatherService" ,"National Weather Service"
               ,"StandardSpottedDog"             ,"Spotted Dog Technologies"
           ),
           new ParserCategory("Alabama"
