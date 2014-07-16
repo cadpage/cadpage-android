@@ -9,18 +9,19 @@ public class DispatchA38Parser extends FieldProgramParser {
   
   public DispatchA38Parser(String defCity, String defState) {
     super(defCity, defState,
-          "CFS#:ID! CallType:CALL! Address:ADDR!");
+          "CFS#:ID! CallType:CALL! Address:ADDR+ INFO+");
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
+    String[] flds = body.split("\n");
+    if (flds.length >= 3) return parseFields(flds, data);
     return super.parseMsg(body, data);
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{4}-\\d{5}", true);
+    if (name.equals("ID")) return new IdField("\\d{4}-\\d{5}|\\d{8}", true);
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
