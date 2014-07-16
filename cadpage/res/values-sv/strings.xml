@@ -28,8 +28,6 @@
   <string name="network_err_not_connected">Den här handlingen kräver tillgång till nätverk</string>
   <string name="network_err_roaming">Den här handlingen är inte lämplig när du kör på ett roaming nätverk</string>
   <!-- Notification Strings -->
-  <string name="notification_scroll">%1$s</string>
-  <string name="notification_scroll_privacy">Nytt ärende:</string>
   <string name="button_disabled">Frånkopplad</string>
   <string name="button_view">Titta på</string>
   <string name="button_view_mms">Visa MMS</string>
@@ -74,9 +72,6 @@
   <string name="pref_dimscreen_title">Dimma ner Popup-fönster</string>
   <string name="pref_dimscreen_summaryon">Popup-fönstret kommer att dimmas ner (sparar batteri)</string>
   <string name="pref_dimscreen_summaryoff">Popup-fönstret kommer att vara ljust</string>
-  <string name="pref_privacy_title">Integritetsinställningar</string>
-  <string name="pref_privacy_summaryon">Innehållet i meddelandet kommer endast att visas efter upplåsning</string>
-  <string name="pref_privacy_summaryoff">Innehållet i meddelande kommer att visas omedelbart</string>
   <string name="pref_show_personal_title">Visa personlig information</string>
   <string name="pref_show_personal_summaryon">Inringares namn/telefon kommer att visas</string>
   <string name="pref_show_personal_summaryoff">Inringares namn/telefon kommer inte att visas</string>
@@ -143,7 +138,6 @@
   <string name="pref_notif_override_summaryon">Notifikationsljud kommer ej att ljuda. Standardljud kommer att ljuda.</string>
   <string name="pref_notif_override_summaryoff">Notifikation ljuder och regler kommer att följas</string>
   <!-- Text-To-Speech and Voice Transcription Strings -->
-  <string name="loading_message">Laddar...</string>
   <string name="error_message">Fel</string>
   <!-- Popup Button Configuration -->
   <string name="pref_button_config_title">Knappkonfigurering</string>

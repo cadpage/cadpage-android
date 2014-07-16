@@ -176,7 +176,6 @@
   <string name="pref_notif_override_summaryoff">Notification sounds and rules will be followed</string>
     
 <!-- Text-To-Speech and Voice Transcription Strings -->
-  <string name="loading_message">Loading...</string>
   <string name="error_message">Error</string>
       
 <!-- Popup Button Configuration -->
