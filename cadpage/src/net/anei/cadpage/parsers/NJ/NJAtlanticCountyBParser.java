@@ -13,10 +13,16 @@ public class NJAtlanticCountyBParser extends DispatchProphoenixParser {
   @Override
   public String getFilter() {
     return "CADAlert@townshipofhamilton.com";
-    
   }
-    private static final Properties CITY_CODES = buildCodeTable(new String[]{
-        "HT", "HAMILTON",
-        "ht", "HAMILTON"
-    });
+  
+  @Override
+  public String adjustMapAddress(String address) {
+    address = stripFieldStart(address, "AREA ");
+    return super.adjustMapAddress(address);
+  }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "HT", "HAMILTON",
+      "ht", "HAMILTON"
+  });
 }
