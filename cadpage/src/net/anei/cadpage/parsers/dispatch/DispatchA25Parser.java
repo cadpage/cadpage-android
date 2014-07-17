@@ -79,6 +79,15 @@ public class DispatchA25Parser extends FieldProgramParser {
     return "ID " + super.getProgram();
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("CALL2")) return new MyCall2Field();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("NAME")) return new MyNameField();
+    return super.getField(name);
+  }
+  
   private static final Pattern CALL_PTN = Pattern.compile("([-A-Z0-9]+) - (.*)", Pattern.CASE_INSENSITIVE);
   private class MyCallField extends CallField {
     @Override
@@ -150,14 +159,4 @@ public class DispatchA25Parser extends FieldProgramParser {
       super.parse(field, data);
     }
   }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("CALL2")) return new MyCall2Field();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("NAME")) return new MyNameField();
-    return super.getField(name);
-  }
-
 }
