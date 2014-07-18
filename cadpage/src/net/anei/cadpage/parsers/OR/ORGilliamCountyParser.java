@@ -1,27 +1,12 @@
 package net.anei.cadpage.parsers.OR;
 
-import java.util.Properties;
-
-import net.anei.cadpage.parsers.dispatch.DispatchA22Parser;
-
 /*
 Gilliam County, OR
  */
 
-public class ORGilliamCountyParser extends DispatchA22Parser {
+public class ORGilliamCountyParser extends ORJeffersonCountyParser {
   
   public ORGilliamCountyParser() {
-    super(CITY_CODES, "GILLIAM COUNTY", "OR");
+    super("GILLIAM COUNTY", "OR");
   }
-  
-  @Override
-  public String getFilter() {
-    return "april.steam@tcdispatch.org";
-  }
-
-  private static Properties CITY_CODES = buildCodeTable(new String[]{
-      "ARL", "ARLINGTON",
-      "CON", "CONDON",
-      "LON", "LONEROCK"
-  });
 }

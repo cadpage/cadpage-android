@@ -1,25 +1,12 @@
 package net.anei.cadpage.parsers.OR;
 
-import java.util.Properties;
-
-import net.anei.cadpage.parsers.dispatch.DispatchA22Parser;
-
 /*
 Sherman County, OR
  */
 
-public class ORShermanCountyParser extends DispatchA22Parser {
+public class ORShermanCountyParser extends ORJeffersonCountyParser {
   
   public ORShermanCountyParser() {
-    super(CITY_CODES,"SHERMAN COUNTY", "OR");
+    super("SHERMAN COUNTY", "OR");
   }
-  
-  @Override
-  public String getFilter() {
-    return "april.steam@tcdispatch.org";
-  }
-
-  private static Properties CITY_CODES = buildCodeTable(new String[]{
-      "GV", "GRASS VALLEY"
-  });
 }

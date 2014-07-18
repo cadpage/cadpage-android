@@ -753,11 +753,6 @@ Pebbx Pbhagl, BE (BEPebbxPbhaglCnefre)
 [HAVG QVFCNGPU]  HAVG QVFCNGPU\a3/9/2011 1203\aHAVGF 1291 \aRIRAG # 1103090021 CSQ\aSFZX - FZBXR HAXABJA SVER F...\aCEVBEVGL 1 \aYBPNGVBA 1231 FR 5GU FG\aPVGL CEV
 [ARJ VAPVQRAG]  VAPVQRAG ARJ\a3/9/2011 1203\aRIRAG # 1103090021 CSQ\aSFZX - FZBXR HAXABJA SVER F...\aCEVBEVGL 1 \aYBPNGVBA 1231 FR 5GU FG\aPVGL CEVARIVYYR\aNCG \aC
 *******************************************************************************
-Tvyyvnz Pbhagl, BE (BETvyyvnzPbhaglCnefre) 
-(ARJ VAPVQRAG) 2/27/2014 0502\aRIRAG # 1402270079 PN\aVASB - VASBEZNGVBA\aCEVBEVGL 3 \aYBPNGVBA PBAQBA NZOHYNAPR\aPVGL \aNCG \aCERZVFR \aPBZZRAG GENVAVAT GBAVTUG UNF ORRA PNAPRYYRQ
-(ARJ VAPVQRAG) 2/26/2014 0302\aRIRAG # 1402260009 PN\aZRQ - ZRQVPNY\aCEVBEVGL 1 \aYBPNGVBA 415 F JNEQ\aPVGL \aNCG \aCERZVFR \aPBZZRAG EC FGNGRQ GUNG UR NAQ TVEYSEVRAQ GBBX N OHAPU BS CVYYF\aWRAAVSRE GBBX YBGF BS OYBBQ CERFFHER CVYYF//...
-(ARJ VAPVQRAG) 2/26/2014 0202\aRIRAG # 1402260008 PN\aSVER - SVER\aCEVBEVGL 1 \aYBPNGVBA 321 F JNEQ FG\aPVGL \aNCG \aCERZVFR \aPBZZRAG
-*******************************************************************************
 Ubbq Evire Pbhagl, BE (BEUbbqEvirePbhaglCnefre)
 (ARJ VAPVQRAG) 6/26/2013 0106\aRIRAG # 1306260024 UESQ\aSVER - SVER\aCEVBEVGL 1 \aYBPNGVBA OBGGBZ BS OHGGBA OEVQTR\aPVGL UE\aNCG \aCERZVFR \aPBZZRAG GENAFVRAGF UNIR N FZNYY PNZC SVER TBVAT
 (ARJ VAPVQRAG) 6/26/2013 0806\aRIRAG # 1306260008 UESQ\aZRQ - ZRQVPNY\aCEVBEVGL 1 \aYBPNGVBA 2735 ZBAGRYYB NIR\aPVGL UE\aNCG \aCERZVFR \aPBZZRAG P/OERNGUVAT\aQVMML\aANHFRN\aFJRNGVAT\a\aTNENTR QBBE BCRA\aVA...
@@ -772,11 +767,6 @@ Xynzngu Pbhagl, BE (BEXynznguPbhaglCnefre)
 [ARJ VAPVQRAG] 0/26/2011 1109\aRIRAG # 1109260054 36\a2- NYF ZRQVPNY PNYY\aCEVBEVGL 1\aYBPNGVBA 3520 UBYOEBBX FG\aPVGL XS\aNCG\aCERZVFR\aPBZZRAG YLAA FGVYR ERF\a541-8
 [ARJ VAPVQRAG] 9/26/2011 0809\aRIRAG # 1109260025 36\aGBAR - GBAR ERDHRFG\aCEVBEVGL 3\aYBPNGVBA 14800 CHPXRGG EQ\aPVGL XS\aNCG\aCERZVFR XRAB SVER FRCG. FGNGVBA 1\aPBZZRAG
 [ARJ VAPVQRAG] 09/25/2011 0909\aRIRAG # 1109250150 36\a3- ZIN J/VAWHEVRF\aCEVBEVGL 1\aYBPNGVBA ZC27 QRNQ VAQVNA \aZRZBEVNY EQ\aPVGL XS\aNCG\aCERZVFR ZC27 QRNQ VAQVNA\aZRZBE
-*******************************************************************************
-Furezna Pbhagl, BE (BEFureznaPbhaglCnefre) 
-(ARJ VAPVQRAG) 3/2/2014 0703\aRIRAG # 1403020105 FPN\aZIP - ZBGBE IRU PENFU\aCEVBEVGL 1 \aYBPNGVBA 97/3\aPVGL \aNCG \aCERZVFR \aPBZZRAG
-(ARJ VAPVQRAG) 3/2/2014 0603\aRIRAG # 1403020102 FPN\aZIP - ZBGBE IRU PENFU\aCEVBEVGL 3 \aYBPNGVBA RO FVQR //\aPVGL \aNCG \aCERZVFR \aPBZZRAG RO FVQR BS OEVTR// NZOHYNAPR // 1 FHO EDFG ZRQVPF SBE ARPX CNVA //AB CG VASB
-(ARJ VAPVQRAG) 3/2/2014 0503\aRIRAG # 1403020092 FPN\aZIP - ZBGBE IRU PENFU\aCEVBEVGL 3 \aYBPNGVBA 84J/107\aPVGL \aNCG \aCERZVFR \aPBZZRAG TERRA CVPXHC FVATYR IRUVPYR ZNLOR 360 / CNEGVNYYL OYBPXVAT SNFG YNAR / BHG JNYXVAT NEBHAQ /
 *******************************************************************************
 *******************************************************************************
 * QvfcngpuN24Cnefre fhopynffrf
@@ -8014,14 +8004,18 @@ Pbagnpg: Eboreg Rat <ebogrpuyvsr@tznvy.pbz>
 Fraqre: 93001
 FGEHPGHER SVER, Trareny Fgehpgher ng 1895 Arj lbex nir . . 21:50:51
 **********************************************************
-**********************************************************
-************  ERNQL GB EBYY ******************************
-**********************************************************
-**********************************************************
 Obvyvat Fcevatf, FP
 Pbagnpg: Puneyrf Uneevf <dhvpxerfcbafrfp@tznvy.pbz>
 Fraqre: ynaqrefba@obvyvatfcevatfsq.bet
 Fhowrpg:OFSQ\aFGEHPGHER SVER - 1703 EBCRE ZGA EQ\a
+
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+Fhowrpg:OFSQ\aRIRAVAT ZBAVGBE GRFG SBE 6/25/14, OFSQ QVFCNGPU GVZR PYRNERQ 1900uef, P FUVSG BA QHGL.
+Fhowrpg:OFSQ\aNYY CREFBAARY JUB BEQRERQ PUNYYRATR PBVAF...NYY ZBARL VF QHR GBQNL.  CYRNFR FRR PUEVF UHSS NG UD.
+**********************************************************
+**********************************************************
+************  ERNQL GB EBYY ******************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************

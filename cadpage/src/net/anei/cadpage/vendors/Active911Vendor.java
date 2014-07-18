@@ -411,6 +411,7 @@ class Active911Vendor extends Vendor {
       "US/OR/PrinevillePD",               "ORCrookCounty",
       "US/OR/ShermanCounty",              "ORShermanCounty",
       "US/OR/WashingtonCounty",           "ORWashingtonCounty",
+      "US/OR/WheelerCounty",              "ORWheelerCounty",
       "US/OR/Woodburn",                   "ORMarionCounty",
       "US/OR/Yamhill",                    "ORYamhill",
       "US/PA/AdamsCounty",                "PAAdamsCounty",
