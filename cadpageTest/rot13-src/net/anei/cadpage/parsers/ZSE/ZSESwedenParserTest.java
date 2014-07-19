@@ -2062,6 +2062,113 @@ Fraqre: <NIZBNCC09@mravg.fbfnynez.fr>
 4572356\aNhgbzngynez\aUvffynez\a\aOes Znwryqra Iäezrprageny Ivq Oretfyntfiätra 12o\aSvafcåat\aCbfvgvbaJTF84 : \aUäaqryfrorfxeviavat :
 3157191\aNhgbzngynez\aOenaq\a\aFvrzraf Abeeznyzirexfgnqra\aSvafcåat\aCbfvgvbaJTF84 : Yn = 58º 43,155'A    Yb = 015º 46,671'R\aUäaqryfrorfxeviavat :
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Eäqqavatfgwäafgra Flq
+Ybpngvba: Znyzö, Fxåar, Fjrqra
+Fraqre: <NIZBNCC09@mravg.fbfnynez.fr>
+Fraqre: <NIZBNCC08@mravg.fbfnynez.fr>
+
+Nhgbzngynez\aOenaq\a\aFcvyyrcratftngna 13\aZnyzö\a\aFxåa ENCF-14\a261-1000\a261-1200\a261-1210\a261-1400\a261-1410\a261-1430\aYn = 55º 37,931'A    Yb = 013º 02,359'R
+Nhgbzngynez\aOenaq\a\aFcvyyrcratftngna 13\aZnyzö\a\aFxåa ENCF-14\a261-1000\a261-1200\a261-1210\a261-1400\a261-1410\a261-1430\aYn = 55º 37,931'A    Yb = 013º 02,359'R
+Nhgbzngynez\aOenaq\a\aFcvyyrcratftngna 13\aZnyzö\a\aFxåa ENCF-14\a261-1210\a261-1400\a261-1410\a261-1430\aYn = 55º 37,931'A    Yb = 013º 02,359'R
+Nhgbzngynez\aOenaq\a\aFxrccfoeba 4,\aZnyzö\a\aFxåa ENCF-06\a261-1400\a261-1410\a261-1430
+Oenaq hgr - greeäat\aTeäfoenaq\a\aFgbeiätra\aYwhatuhfra\a\a\a262-7200\a262-7210\a262-7260\aYn = 55º 23,495'A    Yb = 012º 55,884'R
+Eöxyhxg - olttanq\aSyresnzvywfuhf\a\aXneuötfgbet 4O\aYhaq\a\aFxåa ENCF-11\a263-2000\a263-2010\a263-2030\aYn = 55º 41,641'A    Yb = 013º 11,500'R
+Oenaq hgr - pbagnvare\a\a\ayvzunzafiätra\aznyzö\a\aFxåa ENCF-01\a261-1400\a261-1410\aZEFLQYO\aYn = 55º 36,246'A    Yb = 012º 58,758'R
+Öievtg\aFwhxiåeqfynez\a\aFgeözoretnteäaq 1\aZnyzö\anaqnf vagr, xnyy. oyå bz orara\aFxåa ENCF-12\aFxåa ENCF-91\a261-1200\a261-1210\aYn = 55º 36,135'A    Yb = 013º 04,962'R
+Öievtg\aFwhxiåeqfynez\a\axebabqnyfiätra 1\aUöyyivxra\aoyå v nafvxgrg\aFxåa ENCF-92\a262-7200\a262-7210\a262-7260\aYn = 55º 25,103'A    Yb = 012º 58,322'R
+Gensvxbylpxn - syren sbeqba\aCrefbaovy\aÖievtg\aFxåartngna 27-29,24\aYvzunza\a\aFxåa ENCF-08\a261-1000\aZEFLQYO\aYn = 55º 34,566'A    Yb = 012º 55,436'R
+Nhgbzngynez\aOenaq\a\aZnexanqfiätra 7\aYöqqrxöcvatr\a\aFxåa ENCF-04\a263-4000\a263-4010\a263-4100\a263-4140\aYn = 55º 46,177'A    Yb = 012º 59,422'R
+Nhgbzngynez\aOenaq\a\aZnexanqfiätra 7\aYöqqrxöcvatr\a\aFxåa ENCF-04\a263-4000\a263-4010\aYn = 55º 46,177'A    Yb = 012º 59,422'R
+Nhgbzngynez\aOenaq\a\aUrqivt Zöyyref tngn 2\aYhaq\a\aFxåa ENCF-09\a263-2000\a263-2010\a263-2030\aYn = 55º 41,304'A    Yb = 013º 11,842'R
+Öievtg\aFwhxiåeqfynez\a\aTeöaiätra 1O\aneyöi\ayvttre bpu thetyne\aFxåa ENCF-03\aFxåa ENCF-96\a261-7010\aYn = 55º 37,777'A    Yb = 013º 04,651'R
+Nhgbzngynez\aOenaq\a\aZFO Fxbyn Erivatr\aErivatr\a\aFxåa ENCF-13\a263-2400\aYn = 55º 43,537'A    Yb = 013º 27,946'R
+Nhgbzngynez\aOenaq\a\aZFO Fxbyn Erivatr\aErivatr\a\aFxåa ENCF-13\a263-2400\aYn = 55º 43,537'A    Yb = 013º 27,946'R
+Gensvxbylpxn - syren sbeqba\aCrefbaovy\aÖievtg\aIäyniätra\a\anveont yöfg,\a\a262-5000\a262-5010\a262-5060\aZEFLQYO\aYn = 55º 37,995'A    Yb = 013º 40,330'R
+Nhgbzngynez\aOenaq\a\aUrael Qhaxref tngn 2\aGeryyrobet\a\aFxåa ENCF-21\a262-1000\a262-1010\aYn = 55º 22,323'A    Yb = 013º 10,042'R
+Nhgbzngynez\aOenaq\a\aIåeoehxfiätra\aYhaq\a\aFxåa ENCF-15\a263-2000\a263-2010\a263-2030\aZEFLQYO\aYn = 55º 43,280'A    Yb = 013º 09,425'R
+Nhgbzngynez\aOenaq\a\aUötnyvqfiätra 33\aXäiyvatr\a\aFxåa ENCF-14\a263-4000\a263-4010\a263-4100\a263-4140\aYn = 55º 47,736'A    Yb = 013º 06,483'R
+Nhgbzngynez\aOenaq\a\aUötnyvqfiätra 33\aXäiyvatr\a\aFxåa ENCF-14\a263-4010\a263-4100\a263-4140\aYn = 55º 47,736'A    Yb = 013º 06,483'R
+Nhgbzngynez\aOenaq\a\aOebaftngna 8\aLfgnq\a\aFxåa ENCF-22\a262-2000\a262-2010\a262-2030\a262-2080\aYn = 55º 26,286'A    Yb = 013º 50,242'R
+Gensvxbylpxn - fvatry\aCrefbaovy\aZbgbeiät\aR22\aUhein\a\aFxåa ENCF-16\a263-2400\a263-2410\a263-2460\a263-3000\a263-3010\a263-3020\a263-3390\aYn = 55º 48,260'A    Yb = 013º 27,506'R
+Nhgbzngynez\aOenaq\a\aRevp Creffbaf iät\aZnyzö\a\aFxåa ENCF-11\a261-1400\a261-1470\aYn = 55º 34,949'A    Yb = 012º 59,398'R
+Nhgbzngynez\aOenaq\a\aFcvyyrcratftngna 13\aZnyzö\a\aFxåa ENCF-01\a261-1000\a261-1200\a261-1210\a261-1400\a261-1410\a261-1430\aYn = 55º 37,931'A    Yb = 013º 02,359'R
+Nhgbzngynez\aOenaq\a\aFcvyyrcratftngna 13\aZnyzö\a\aFxåa ENCF-01\a261-1000\a261-1200\a261-1210\a261-1400\a261-1410\a261-1430\aYn = 55º 37,931'A    Yb = 013º 02,359'R
+Nhgbzngynez\aOenaq\a\aFcvyyrcratftngna 13\aZnyzö\a\aFxåa ENCF-01\a261-1210\a261-1400\a261-1410\a261-1430\aYn = 55º 37,931'A    Yb = 013º 02,359'R
+Nhgbzngynez\aOenaq\a\aBafwöiätra 3\aRfyöi\a\aFxåa ENCF-12\a263-3000\aYn = 55º 50,956'A    Yb = 013º 17,885'R
+Oenaq hgr - öievtg\a\a\aXbefåxrefiätra\aInyyxäeen\aVatra fcevqavatfevfx. 200 gvqavatne v ra uöt.nfsnyg haqre. elxre ra qry xna rw fyäpxn fwäyi.\aFxåa ENCF-05\a263-2000\aYn = 55º 44,193'A    Yb = 013º 10,549'R
+Enf/fxerq\a\a\aWäeaiätftngna 17\aGeryyrobet\afätre ng gnxrg enfng va\aFxåa ENCF-21\a262-1000\a262-1080\aZEFLQVO\a262-1000\aYn = 55º 22,309'A    Yb = 013º 09,735'R
+Enf/fxerq\a\a\aWäeaiätftngna 17\a\a\a\a262-1000\a262-1080\aYn = 55º 22,309'A    Yb = 013º 09,735'R
+Nhgbzngynez\aOenaq\a\aF:g Wbunaarftngna 9\aZnyzö\a\aFxåa ENCF-04\a261-1400\a261-1410\a261-1430\aYn = 55º 35,666'A    Yb = 013º 00,042'R
+Oenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aWäeaiätfgbetrg, Onatngna\aYhaq\aElxre seåa gnxrg. 4 iåa uhf\aFxåa ENCF-07\a261-1420\a261-1590\a263-2030\a263-2080\a263-2310\a263-4000\a263-4010\a263-4100\a263-6060\a263-6070\a263-6090\aZEFLQVO\aZEFLQYO\a261-1000\a261-1080\a261-1200\a261-1210\a261-1330\a261-1400\a261-1410\a261-7000\a261-7000\a261-7010\a261-7040\a261-7060\a263-2000\a263-2010\a263-3000\a263-3010\a263-3020\a263-6000\aYn = 55º 42,304'A    Yb = 013º 11,269'R
+Oenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aWäeaiätfgbetrg, Onatngna\aYhaq\aElxre seåa gnxrg. 4 iåa uhf\aFxåa ENCF-07\a261-1420\a261-1590\a263-2030\a263-2080\a263-2310\a263-4000\a263-6060\a263-6070\a263-6090\aZEFLQVO\aZEFLQYO\a261-1000\a261-1080\a261-1200\a261-1210\a261-1330\a261-1400\a261-1410\a261-7000\a261-7000\a261-7010\a261-7040\a261-7060\a263-2000\a263-2010\a263-3000\a263-3010\a263-3020\a263-6000\aYn = 55º 42,304'A    Yb = 013º 11,269'R
+Naang\aCnffavat\a\aCnffavat Fgngvba Yhaq\aYhaq\a\aFxåa ENCF-09\a263-2500\aYn = 55º 41,591'A    Yb = 013º 13,539'R
+Naang\aCnffavat\a\aCnffavat Fgngvba Yhaq\aYhaq\a\aFxåa ENCF-09\a263-2500\aYn = 55º 41,591'A    Yb = 013º 13,539'R
+Oenaq v olttanq\aVaqhfgev\a\aOebaflkrtngna 8O\aSbfvr\a\aFxåa ENCF-08\a261-1000\a261-1040\a261-1210\a261-1230\a261-7010\a261-1200\aYn = 55º 33,965'A    Yb = 013º 02,622'R
+Oenaq v olttanq\aVaqhfgev\a\aOebaflkrtngna 8O\aSbfvr\a\aFxåa ENCF-08\a261-1200\a261-1210\aYn = 55º 33,965'A    Yb = 013º 02,622'R
+Nhgbzngynez\aOenaq\a\aUåygrtryiätra 11\aBkvr\a\aFxåa ENCF-13\a261-1200\a261-1210\a261-1230\aYn = 55º 32,360'A    Yb = 013º 06,291'R
+Oenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aElggnertngna 2N\aZnyzö\aEöxyhxgra bpu\aFxåa ENCF-14\a261-1000\a261-1400\a261-1410\aYn = 55º 36,467'A    Yb = 013º 02,730'R
+Nhgbzngynez\aOenaq\a\aXnoonecfiätra 126\aFgnssnafgbec\a\aFxåa ENCF-11\aFxåa ENCF-35\a261-1000\a263-5000\a263-5080\a263-6000\a263-6010\a263-6060\a263-6090\aYn = 55º 38,691'A    Yb = 013º 07,813'R
+Nhgbzngynez\aOenaq\a\aXnoonecfiätra 126\aFgnssnafgbec\a\aFxåa ENCF-35\a263-5000\a263-5080\a263-6000\a263-6010\a263-6060\a263-6090\aYn = 55º 38,691'A    Yb = 013º 07,813'R
+Nhgbzngynez\aOenaq\a\aXnoonecfiätra 126\aFgnssnafgbec\a\aFxåa ENCF-35\a263-6000\a263-6010\a263-6060\a263-6090\aYn = 55º 38,691'A    Yb = 013º 07,813'R
+Hgfyäcc sneyvtg äzar - qevizrqry\aXbzzhanyg inggra\a\atäfgunzara\aUöyyivxra\a\a\a262-7200\a262-7210\a262-7260\aZEFLQYO\aYn = 55º 24,733'A    Yb = 012º 56,048'R
+Öievtg\aVICN\a\aOrqqvatr Fgenaqiät\aFzltrunza\aEnzyng hg v xngna bpu oöewng xenzcng. Naqnf bx.\aFxåa ENCF-97\a262-1080\a262-1400\a262-1410\a262-1460\aYn = 55º 21,171'A    Yb = 013º 23,753'R
+Oenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aWäeaiätfgbetrg, Onatngna\aYhaq\aElxre seåa gnxrg. 4 iåa uhf\aFxåa ENCF-07\a261-1000\a261-1200\a261-1210\a261-1230\a263-2000\a263-2010\a263-2030\a263-2080\aZEFLQVO\aZEFLQYO\aYn = 55º 42,304'A    Yb = 013º 11,269'R
+Oenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aWäeaiätfgbetrg, Onatngna\aYhaq\aElxre seåa gnxrg. 4 iåa uhf\aFxåa ENCF-07\a261-1200\a261-1210\a261-1230\a263-2000\a263-2010\a263-2030\a263-2080\aZEFLQYO\aYn = 55º 42,304'A    Yb = 013º 11,269'R
+Oenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aWäeaiätfgbetrg, Onatngna\aYhaq\aElxre seåa gnxrg. 4 iåa uhf\aFxåa ENCF-07\a263-2000\a263-2010\a263-2030\aZEFLQYO\aYn = 55º 42,304'A    Yb = 013º 11,269'R
+Gensvxbylpxn - syren sbeqba\aCrefbaovy\aÖievtg\aIät 11\afwöob\a2 co, 8 cref gbgnyg ineni 2 äe onea. Onxvseåa xbyy\a\a262-2000\a262-5000\a262-5010\a262-5040\a262-5060\aZEFLQYO\aYn = 55º 38,195'A    Yb = 013º 39,879'R
+Gensvxbylpxn - syren sbeqba\aCrefbaovy\aZbgbeiät\aFrtrxnehfryyra\aZnyzö\a2 co, zvafg 5 qenoonqr. Rgg sbeqba ibygng\aFxåa ENCF-12\a261-1000\a261-1080\a261-1200\a261-1210\a261-1400\a261-1410\a261-1430\aYn = 55º 37,253'A    Yb = 013º 03,500'R
+Gensvxbylpxn - syren sbeqba\aCrefbaovy\aZbgbeiät\aFrtrxnehfryyra\aZnyzö\a2 co, zvafg 5 qenoonqr. Rgg sbeqba ibygng\aFxåa ENCF-12\a261-1200\a261-1210\a261-1400\a261-1410\a261-1430\aYn = 55º 37,253'A    Yb = 013º 03,500'R
+Gensvxbylpxn - syren sbeqba\aCrefbaovy\aZbgbeiät\aFrtrxnehfryyra\aZnyzö\a2 co, zvafg 5 qenoonqr\aFxåa ENCF-12\a261-1400\a261-1410\a261-1430\aYn = 55º 37,253'A    Yb = 013º 03,500'R
+Nhgbzngynez\aOenaq\a\aAltngna 40\aGeryyrobet\a\aFxåa ENCF-52\a262-1000\a262-1010\a262-1080\aYn = 55º 22,468'A    Yb = 013º 09,532'R
+Qehaxavat\aXbzzhanyg inggra\a\aivq onqoelttna\asnyfgreob\a\aFxåa ENCF-11\aFxåa ENCF-27\a261-1000\a262-1000\a262-1010\a262-1030\a262-1080\a262-1180\a262-7200\a262-7400\a262-7410\a262-7460\aZEFLQVO\aYn = 55º 23,203'A    Yb = 012º 50,141'R
+Qehaxavat\aXbzzhanyg inggra\a\aivq onqoelttna\asnyfgreob\a\aFxåa ENCF-11\aFxåa ENCF-27\a261-1000\a262-1000\a262-1010\a262-1030\a262-1080\a262-1180\a262-7400\a262-7410\a262-7460\aZEFLQVO\aYn = 55º 23,619'A    Yb = 012º 49,287'R
+Qehaxavat\aXbzzhanyg inggra\a\aivq onqoelttna\asnyfgreob\a\aFxåa ENCF-11\aFxåa ENCF-27\a261-1000\a262-1000\a262-1010\a262-1030\a262-1080\a262-1180\a262-7400\a262-7410\a262-7460\aZEFLQVO\aYn = 55º 23,619'A    Yb = 012º 49,287'R
+Qehaxavat\aXbzzhanyg inggra\a\aivq onqoelttna\asnyfgreob\a\aFxåa ENCF-11\aFxåa ENCF-27\a261-1000\a262-7400\a262-7410\a262-7460\aZEFLQVO\aYn = 55º 23,619'A    Yb = 012º 49,287'R
+Qehaxavat\aXbzzhanyg inggra\a\aivq onqoelttna\asnyfgreob\a\aFxåa ENCF-27\a262-7400\a262-7410\a262-7460\aYn = 55º 23,619'A    Yb = 012º 49,287'R
+Nhgbzngynez\aOenaq\a\aFnaxg Ynef iät 44\aYhaq\a\aFxåa ENCF-04\a263-2000\a263-2010\a263-2030\aYn = 55º 40,983'A    Yb = 013º 10,499'R
+Nhgbzngynez\aOenaq\a\aBybs Uåtrafraf Nyyé 31\aZnyzö\a\aFxåa ENCF-09\a261-1000\a261-1200\a261-1210\a261-1230\a261-1400\a261-1410\aYn = 55º 35,748'A    Yb = 013º 02,582'R
+Nhgbzngynez\aOenaq\a\aBybs Uåtrafraf Nyyé 31\aZnyzö\a\aFxåa ENCF-09\a261-1200\a261-1210\a261-1230\a261-1400\a261-1410\aYn = 55º 35,748'A    Yb = 013º 02,582'R
+Nhgbzngynez\aOenaq\a\aBybs Uåtrafraf Nyyé 31\aZnyzö\a\aFxåa ENCF-09\a261-1200\a261-1210\a261-1230\aYn = 55º 35,748'A    Yb = 013º 02,582'R
+Oenaq hgr - pbagnvare\a\a\aIvqrqnyfiätra\aZnyzö\afre ivn xnzren, Znyzö Fgnqf ynezprageny\aFxåa ENCF-03\a261-1200\a261-1210\aYn = 55º 35,346'A    Yb = 013º 04,147'R
+Nhgbzngynez\aOenaq\a\aUåyfwötngna 43\aZnyzö\a\aFxåa ENCF-08\a261-1000\a261-1030\aYn = 55º 35,000'A    Yb = 012º 58,627'R
+Oenaq hgr - öievtg\a\a\aRyvfrgbecfiätra 11Q\aneyöi\aregeäfxwhy\aFxåa ENCF-15\a261-7000\a261-7010\aYn = 55º 37,959'A    Yb = 013º 04,900'R
+Vagrean oenaqynez\aVaevatg seåa cyngfra\aEnquhf\ayäcyngfra 7\aYbzzn\auöe ra oenaqineaner, xäaare vatra yhxg, vatra oenaq\aFxåa ENCF-35\a263-5000\a263-5060\aYn = 55º 40,686'A    Yb = 013º 03,711'R
+Nhgbzngynez\aOenaq\a\aUlyyvr Obhyrineq 15\aZnyzö\a\aFxåa ENCF-13\a261-1000\a261-1030\aYn = 55º 33,842'A    Yb = 012º 58,516'R
+Öievtg\aVICN\a\aFnygfwöonqra\aLfgnq\agevyyng seåa rgg geäq pn 5z yvttre cå znexra bag v elttra fxevxre\aFxåa ENCF-92\a262-2000\a262-2010\a262-2050\aYn = 55º 25,774'A    Yb = 013º 51,696'R
+Oenaq hgr - sbeqba\aNeorgfznfxva\aÖievtg\aGelqr 1706\a\a\aFxåa ENCF-22\a262-4000\a262-4010\a262-4060\aYn = 55º 33,402'A    Yb = 013º 56,690'R
+Nhgbzngynez\aOenaq\a\aFgraåyqreftngna 11\aZnyzö\a\aFxåa ENCF-17\a261-1200\a261-1210\a261-1230\aYn = 55º 33,091'A    Yb = 013º 03,295'R
+Nhgbzngynez\aOenaq\a\aQebggavat Znetnergnf iät 1\aLfgnq\a\aFxåa ENCF-22\a262-2000\a262-2010\a262-2030\a262-2080\aYn = 55º 26,235'A    Yb = 013º 47,568'R
+Nhgbzngynez\aOenaq\a\aOretniätra 1\aRfyöi\a\aFxåa ENCF-06\a263-3000\a263-3010\a263-3020\aYn = 55º 50,440'A    Yb = 013º 19,177'R
+Gensvxbylpxn - fvatry\aCrefbaovy\aÖievtg\aRywneöq 4702\arywneöq\a1 cref, hgr, pubpxnq,\a\a262-4200\a262-4210\aZEFLQYO\aYn = 55º 40,918'A    Yb = 014º 01,836'R
+Nhgbzngynez\aOenaq\a\aAnggivbyfiätra 41\aAlobfgenaq\a\aFxåa ENCF-22\a262-2000\a262-2010\a262-2030\a262-2080\aYn = 55º 26,169'A    Yb = 013º 56,491'R
+Nhgbzngynez\aOenaq\a\aWäeninyyra\aOnefroäpx\a\aFxåa ENCF-07\a263-4000\a263-4010\a263-4100\a263-4140\aYn = 55º 47,555'A    Yb = 012º 57,159'R
+Nhgbzngynez\aOenaq\a\aWäeninyyra\aOnefroäpx\a\aFxåa ENCF-07\a263-4000\a263-4010\a263-4140\aYn = 55º 47,555'A    Yb = 012º 57,159'R
+Oenaq hgr - öievtg\a\a\aOwöeafgbecf Fybgg\aTranec\a\aFxåa ENCF-02\aFxåa ENCF-32\a263-2300\a263-2310\aYn = 55º 37,683'A    Yb = 013º 24,396'R
+Nhgbzngynez\aOenaq\a\aFbyqnggbecfiätra 5\aZnyzö\a\aFxåa ENCF-05\a261-1000\a261-1030\a261-1400\a261-1410\aYn = 55º 35,362'A    Yb = 012º 56,528'R
+Nhgbzngynez\aOenaq\a\aFbyqnggbecfiätra 5\aZnyzö\a\aFxåa ENCF-05\a261-1000\a261-1030\aYn = 55º 35,362'A    Yb = 012º 56,528'R
+Nhgbzngynez\aOenaq\a\aFwhxuhfiätra 1\aFvzevfunza\a\aFxåa ENCF-22\a262-2000\a262-3000\a262-3010\a262-3030\a262-3060\aYn = 55º 33,147'A    Yb = 014º 20,415'R
+Nhgbzngynez\aOenaq\a\aFwhxuhfiätra 1\aFvzevfunza\a\aFxåa ENCF-22\a262-3010\a262-3030\a262-3060\aYn = 55º 33,147'A    Yb = 014º 20,415'R
+Nhgbzngynez\aOenaq\a\aEåoliätra 40\aYhaq\a\aFxåa ENCF-04\a263-2000\a263-2010\aZEFLQYO\aYn = 55º 41,218'A    Yb = 013º 12,316'R
+Eöxyhxg - olttanq\aSyresnzvywfuhf\a\aEvoriätra 18N\aznyzö\ayhxgne oenaqeöx vseåa yätraurg.\aFxåa ENCF-08\a261-1400\aZEFLQYO\aYn = 55º 35,417'A    Yb = 012º 58,775'R
+Öievtg\aFwhxiåeqfynez\a\apnzcvatra\aYöqrehcf fgenaqonq\anaqnf vagr UYE cåtåe\aFxåa ENCF-92\a262-2080\a262-3200\a262-3250\aYn = 55º 22,873'A    Yb = 014º 07,630'R
+Nhgbzngynez\aOenaq\a\aUrqivt Zöyyref tngn 2\aYhaq\a\aFxåa ENCF-15\a263-2000\a263-2010\a263-2030\aYn = 55º 41,304'A    Yb = 013º 11,842'R
+Nhgbzngynez\aOenaq\a\aYnaqfiätra 39\aNaqrefyöi\a\aFxåa ENCF-11\aFxåa ENCF-21\a261-1080\a262-1080\a262-1200\a262-1210\a262-1260\aZEFLQYO\aYn = 55º 26,286'A    Yb = 013º 19,109'R
+Nhgbzngynez\aOenaq\a\aYnaqfiätra 39\aNaqrefyöi\a\aFxåa ENCF-21\a262-1080\a262-1200\a262-1210\aYn = 55º 26,286'A    Yb = 013º 19,109'R
+Nhgbzngynez\aOenaq\a\aYnaqfiätra 39\aNaqrefyöi\a\aFxåa ENCF-21\a262-1080\a262-1200\a262-1210\aYn = 55º 26,286'A    Yb = 013º 19,109'R
+Nhgbzngynez\aOenaq\a\aÖegbsgn\aÖegbsgn\a\aFxåa ENCF-13\a263-3000\aYn = 55º 47,137'A    Yb = 013º 15,855'R
+Gensvxbylpxn - fvatry\aYnfgovy\aZbgbeiät\aVaer evatiätra\aZnyzö\aAbee, yäpxre qvrfry, ynfgnq zrq xbtöqfry,\aFxåa ENCF-12\a261-1000\a261-1200\a261-1210\a261-1230\a261-1400\a261-1410\aZEFLQVO\aYn = 55º 36,048'A    Yb = 013º 03,575'R
+Gensvxbylpxn - fvatry\aYnfgovy\aZbgbeiät\aVaer evatiätra\aZnyzö\aAbee\aFxåa ENCF-12\a261-1200\a261-1210\a261-1230\a261-1400\a261-1410\aYn = 55º 36,048'A    Yb = 013º 03,575'R
+Gensvxbylpxn - fvatry\aYnfgovy\aZbgbeiät\aVaer evatiätra\aZnyzö\aAbee\aFxåa ENCF-12\a261-1200\a261-1210\a261-1230\aYn = 55º 36,048'A    Yb = 013º 03,575'R
+Nhgbzngynez\aOenaq\a\aXnyraqrtngna 12 P\aZnyzö\a\aFxåa ENCF-01\a261-1400\a261-1410\a261-1430\aYn = 55º 36,332'A    Yb = 013º 00,216'R
+Oenaq hgr - öievtg\a\a\aYvareb pragehz\aYhaq\a\aFxåa ENCF-17\a263-2000\a263-2010\a263-2030\aYn = 55º 41,670'A    Yb = 013º 14,507'R
+Gensvxbylpxn - fvatry\aCrefbaovy\aZbgbeiät\aR6/R22\aUöwq zrq Xheynaq\aCO v qvxrg\aFxåa ENCF-21\a262-1000\a262-1010\aYn = 55º 22,636'A    Yb = 013º 05,864'R
+Gensvxbylpxn - fvatry\aCrefbaovy\aÖievtg\aFreranqtngna 23\aZnyzö\ara co xöeg va v ra cnexrenq ovy, bxyneg nagny qenoonqr\aFxåa ENCF-14\a261-1000\a261-1030\aYn = 55º 33,608'A    Yb = 013º 00,384'R
+Oenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aLfgnqftngna 45\aZnyzö\aQvzzvtg v genccuhf cå iåa 3, 4 iåa + ivaq, 4 yäturgre cå inewr iåa\aFxåa ENCF-16\a261-1400\a261-1410\aYn = 55º 35,345'A    Yb = 013º 01,082'R
+Nhgbzngynez\aOenaq\a\aGhaniätra 39\aYhaq\a\aFxåa ENCF-06\a263-2000\a263-2010\a263-2030\aYn = 55º 42,557'A    Yb = 013º 12,936'R
+Oenaq hgr - greeäat\aTeäfoenaq\a\aybpxnecfnisnegra\aZnyzö\avatra fcevqavatfevfx gvyy uhf\aFxåa ENCF-07\a261-1000\aZEFLQYO\aYn = 55º 32,871'A    Yb = 013º 01,668'R
+Eöxyhxg - olttanq\aSyresnzvywfuhf\a\aXnggfhaqftngna 16, egw niinxgne\aZnyzö\ayhxgne oeäag cynfg bpu finiry v genccuhfrg\aFxåa ENCF-11\a261-1400\aZEFLQYO\aYn = 55º 36,386'A    Yb = 013º 00,387'R
+
 */
 
 choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {

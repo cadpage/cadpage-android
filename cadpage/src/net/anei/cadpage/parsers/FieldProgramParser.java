@@ -110,7 +110,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *         d - replace dashes with slashes
  *         
  *   Info fields
- *         N - Connect fields with newlines instead of usual " / " connector      
+ *         N - Connect fields with newlines instead of usual " / " connector   
+ *
+ *   Unit fields
+ *         s - append to previous information with blank separator
  *         
  * SPECIAL FIELD NAMES
  * 
@@ -2530,6 +2533,8 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class UnitField extends Field {
     
+    private String append = null;
+    
     public UnitField() {};
     public UnitField(String pattern) {
       super(pattern);
@@ -2537,10 +2542,21 @@ public class FieldProgramParser extends SmartAddressParser {
     public UnitField(String pattern, boolean hardPattern) {
       super(pattern, hardPattern);
     }
+    
+    @Override
+    public void setQual(String qual) {
+      super.setQual(qual);
+      if (qual == null) return;
+      if (qual.contains("s")) append = " ";
+    }
 
     @Override
     public void parse(String field, Data data) {
-      data.strUnit = field;
+      if (append != null) {
+        data.strUnit = append(data.strUnit, append, field);
+      } else {
+        data.strUnit = field;
+      }
     }
     
     @Override
