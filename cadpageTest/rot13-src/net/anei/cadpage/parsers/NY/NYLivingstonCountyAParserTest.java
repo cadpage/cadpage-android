@@ -990,7 +990,7 @@ choyvp pynff ALYvivatfgbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2012-00001586",
         "HAVG:RZFTRARFR",
         "PBQR:32O3",
-        "PNYY:R 32O3",
+        "PNYY:Zrqvpny Angher Haxabja (3eq cnegl pnyyre)",
         "CEV:3",
         "NQQE:4349 PYRNE IVRJ QE 1",
         "PVGL:TRARFRB",
