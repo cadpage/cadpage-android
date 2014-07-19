@@ -26526,6 +26526,1772 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
 
+  @Grfg
+  choyvp ibvq grfgEäqqavatfgwäafgraFlq() {
+
+    qbGrfg("G1",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Fcvyyrcratftngna 13\a" +
+        "Znyzö\a\a" +
+        "Fxåa ENCF-14\a" +
+        "261-1000\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "261-1430\a" +
+        "Yn = 55º 37,931'A    Yb = 013º 02,359'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Fcvyyrcratftngna 13",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-14",
+        "FEP:261-1000",
+        "HAVG:261-1200 261-1210 261-1400 261-1410 261-1430",
+        "TCF:+55.632183,+13.039317");
+
+    qbGrfg("G2",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Fcvyyrcratftngna 13\a" +
+        "Znyzö\a\a" +
+        "Fxåa ENCF-14\a" +
+        "261-1000\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "261-1430\a" +
+        "Yn = 55º 37,931'A    Yb = 013º 02,359'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Fcvyyrcratftngna 13",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-14",
+        "FEP:261-1000",
+        "HAVG:261-1200 261-1210 261-1400 261-1410 261-1430",
+        "TCF:+55.632183,+13.039317");
+
+    qbGrfg("G3",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Fcvyyrcratftngna 13\a" +
+        "Znyzö\a\a" +
+        "Fxåa ENCF-14\a" +
+        "261-1210\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "261-1430\a" +
+        "Yn = 55º 37,931'A    Yb = 013º 02,359'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Fcvyyrcratftngna 13",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-14",
+        "FEP:261-1210",
+        "HAVG:261-1400 261-1410 261-1430",
+        "TCF:+55.632183,+13.039317");
+
+    qbGrfg("G4",
+        "Nhgbzngynez\aOenaq\a\aFxrccfoeba 4,\aZnyzö\a\aFxåa ENCF-06\a261-1400\a261-1410\a261-1430",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Fxrccfoeba 4",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-06",
+        "FEP:261-1400",
+        "HAVG:261-1410 261-1430");
+
+    qbGrfg("G5",
+        "Oenaq hgr - greeäat\aTeäfoenaq\a\aFgbeiätra\aYwhatuhfra\a\a\a262-7200\a262-7210\a262-7260\aYn = 55º 23,495'A    Yb = 012º 55,884'R",
+        "PNYY:Oenaq hgr - greeäat / Teäfoenaq",
+        "NQQE:Fgbeiätra",
+        "PVGL:Ywhatuhfra",
+        "FEP:262-7200",
+        "HAVG:262-7210 262-7260",
+        "TCF:+55.391583,+12.931400");
+
+    qbGrfg("G6",
+        "Eöxyhxg - olttanq\a" +
+        "Syresnzvywfuhf\a\a" +
+        "Xneuötfgbet 4O\a" +
+        "Yhaq\a\a" +
+        "Fxåa ENCF-11\a" +
+        "263-2000\a" +
+        "263-2010\a" +
+        "263-2030\a" +
+        "Yn = 55º 41,641'A    Yb = 013º 11,500'R",
+
+        "PNYY:Eöxyhxg - olttanq / Syresnzvywfuhf",
+        "NQQE:Xneuötfgbet 4O",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-11",
+        "FEP:263-2000",
+        "HAVG:263-2010 263-2030",
+        "TCF:+55.694017,+13.191667");
+
+    qbGrfg("G7",
+        "Oenaq hgr - pbagnvare\a\a\ayvzunzafiätra\aznyzö\a\aFxåa ENCF-01\a261-1400\a261-1410\aZEFLQYO\aYn = 55º 36,246'A    Yb = 012º 58,758'R",
+        "PNYY:Oenaq hgr - pbagnvare",
+        "NQQE:yvzunzafiätra",
+        "PVGL:znyzö",
+        "PU:Fxåa ENCF-01",
+        "FEP:261-1400",
+        "HAVG:261-1410 ZEFLQYO",
+        "TCF:+55.604100,+12.979300");
+
+    qbGrfg("G8",
+        "Öievtg\a" +
+        "Fwhxiåeqfynez\a\a" +
+        "Fgeözoretnteäaq 1\a" +
+        "Znyzö\a" +
+        "naqnf vagr, xnyy. oyå bz orara\a" +
+        "Fxåa ENCF-12\a" +
+        "Fxåa ENCF-91\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "Yn = 55º 36,135'A    Yb = 013º 04,962'R",
+
+        "PNYY:Öievtg / Fwhxiåeqfynez",
+        "NQQE:Fgeözoretnteäaq 1",
+        "VASB:naqnf vagr, xnyy. oyå bz orara",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-12 / Fxåa ENCF-91",
+        "FEP:261-1200",
+        "HAVG:261-1210",
+        "TCF:+55.602250,+13.082700");
+
+    qbGrfg("G9",
+        "Öievtg\a" +
+        "Fwhxiåeqfynez\a\a" +
+        "xebabqnyfiätra 1\a" +
+        "Uöyyivxra\a" +
+        "oyå v nafvxgrg\a" +
+        "Fxåa ENCF-92\a" +
+        "262-7200\a" +
+        "262-7210\a" +
+        "262-7260\a" +
+        "Yn = 55º 25,103'A    Yb = 012º 58,322'R",
+
+        "PNYY:Öievtg / Fwhxiåeqfynez",
+        "NQQE:xebabqnyfiätra 1",
+        "VASB:oyå v nafvxgrg",
+        "PVGL:Uöyyivxra",
+        "PU:Fxåa ENCF-92",
+        "FEP:262-7200",
+        "HAVG:262-7210 262-7260",
+        "TCF:+55.418383,+12.972033");
+
+    qbGrfg("G10",
+        "Gensvxbylpxn - syren sbeqba\a" +
+        "Crefbaovy\a" +
+        "Öievtg\a" +
+        "Fxåartngna 27-29,24\a" +
+        "Yvzunza\a\a" +
+        "Fxåa ENCF-08\a" +
+        "261-1000\a" +
+        "ZEFLQYO\a" +
+        "Yn = 55º 34,566'A    Yb = 012º 55,436'R",
+
+        "PNYY:Gensvxbylpxn - syren sbeqba / Crefbaovy / Öievtg",
+        "NQQE:Fxåartngna 27-29",
+        "NCG:24",
+        "PVGL:Yvzunza",
+        "PU:Fxåa ENCF-08",
+        "FEP:261-1000",
+        "HAVG:ZEFLQYO",
+        "TCF:+55.576100,+12.923933");
+
+    qbGrfg("G11",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Znexanqfiätra 7\a" +
+        "Yöqqrxöcvatr\a\a" +
+        "Fxåa ENCF-04\a" +
+        "263-4000\a" +
+        "263-4010\a" +
+        "263-4100\a" +
+        "263-4140\a" +
+        "Yn = 55º 46,177'A    Yb = 012º 59,422'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Znexanqfiätra 7",
+        "PVGL:Yöqqrxöcvatr",
+        "PU:Fxåa ENCF-04",
+        "FEP:263-4000",
+        "HAVG:263-4010 263-4100 263-4140",
+        "TCF:+55.769617,+12.990367");
+
+    qbGrfg("G12",
+        "Nhgbzngynez\aOenaq\a\aZnexanqfiätra 7\aYöqqrxöcvatr\a\aFxåa ENCF-04\a263-4000\a263-4010\aYn = 55º 46,177'A    Yb = 012º 59,422'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Znexanqfiätra 7",
+        "PVGL:Yöqqrxöcvatr",
+        "PU:Fxåa ENCF-04",
+        "FEP:263-4000",
+        "HAVG:263-4010",
+        "TCF:+55.769617,+12.990367");
+
+    qbGrfg("G13",
+        "Nhgbzngynez\aOenaq\a\aUrqivt Zöyyref tngn 2\aYhaq\a\aFxåa ENCF-09\a263-2000\a263-2010\a263-2030\aYn = 55º 41,304'A    Yb = 013º 11,842'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Urqivt Zöyyref tngn 2",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-09",
+        "FEP:263-2000",
+        "HAVG:263-2010 263-2030",
+        "TCF:+55.688400,+13.197367");
+
+    qbGrfg("G14",
+        "Öievtg\a" +
+        "Fwhxiåeqfynez\a\a" +
+        "Teöaiätra 1O\a" +
+        "neyöi\a" +
+        "yvttre bpu thetyne\a" +
+        "Fxåa ENCF-03\a" +
+        "Fxåa ENCF-96\a" +
+        "261-7010\a" +
+        "Yn = 55º 37,777'A    Yb = 013º 04,651'R",
+
+        "PNYY:Öievtg / Fwhxiåeqfynez",
+        "NQQE:Teöaiätra 1O",
+        "VASB:yvttre bpu thetyne",
+        "PVGL:neyöi",
+        "PU:Fxåa ENCF-03 / Fxåa ENCF-96",
+        "FEP:261-7010",
+        "HAVG:Yn = 55º 37,777'A    Yb = 013º 04,651'R");
+
+    qbGrfg("G15",
+        "Nhgbzngynez\aOenaq\a\aZFO Fxbyn Erivatr\aErivatr\a\aFxåa ENCF-13\a263-2400\aYn = 55º 43,537'A    Yb = 013º 27,946'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:ZFO Fxbyn Erivatr",
+        "PVGL:Erivatr",
+        "PU:Fxåa ENCF-13",
+        "FEP:263-2400",
+        "HAVG:Yn = 55º 43,537'A    Yb = 013º 27,946'R");
+
+    qbGrfg("G16",
+        "Nhgbzngynez\aOenaq\a\aZFO Fxbyn Erivatr\aErivatr\a\aFxåa ENCF-13\a263-2400\aYn = 55º 43,537'A    Yb = 013º 27,946'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:ZFO Fxbyn Erivatr",
+        "PVGL:Erivatr",
+        "PU:Fxåa ENCF-13",
+        "FEP:263-2400",
+        "HAVG:Yn = 55º 43,537'A    Yb = 013º 27,946'R");
+
+    qbGrfg("G17",
+        "Gensvxbylpxn - syren sbeqba\a" +
+        "Crefbaovy\a" +
+        "Öievtg\a" +
+        "Iäyniätra\a\a" +
+        "nveont yöfg,\a\a" +
+        "262-5000\a" +
+        "262-5010\a" +
+        "262-5060\a" +
+        "ZEFLQYO\a" +
+        "Yn = 55º 37,995'A    Yb = 013º 40,330'R",
+
+        "PNYY:Gensvxbylpxn - syren sbeqba / Crefbaovy / Öievtg",
+        "NQQE:Iäyniätra",
+        "VASB:nveont yöfg,",
+        "FEP:262-5000",
+        "HAVG:262-5010 262-5060 ZEFLQYO",
+        "TCF:+55.633250,+13.672167");
+
+    qbGrfg("G18",
+        "Nhgbzngynez\aOenaq\a\aUrael Qhaxref tngn 2\aGeryyrobet\a\aFxåa ENCF-21\a262-1000\a262-1010\aYn = 55º 22,323'A    Yb = 013º 10,042'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Urael Qhaxref tngn 2",
+        "PVGL:Geryyrobet",
+        "PU:Fxåa ENCF-21",
+        "FEP:262-1000",
+        "HAVG:262-1010",
+        "TCF:+55.372050,+13.167367");
+
+    qbGrfg("G19",
+        "Nhgbzngynez\aOenaq\a\aIåeoehxfiätra\aYhaq\a\aFxåa ENCF-15\a263-2000\a263-2010\a263-2030\aZEFLQYO\aYn = 55º 43,280'A    Yb = 013º 09,425'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Iåeoehxfiätra",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-15",
+        "FEP:263-2000",
+        "HAVG:263-2010 263-2030 ZEFLQYO",
+        "TCF:+55.721333,+13.157083");
+
+    qbGrfg("G20",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Uötnyvqfiätra 33\a" +
+        "Xäiyvatr\a\a" +
+        "Fxåa ENCF-14\a" +
+        "263-4000\a" +
+        "263-4010\a" +
+        "263-4100\a" +
+        "263-4140\a" +
+        "Yn = 55º 47,736'A    Yb = 013º 06,483'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Uötnyvqfiätra 33",
+        "PVGL:Xäiyvatr",
+        "PU:Fxåa ENCF-14",
+        "FEP:263-4000",
+        "HAVG:263-4010 263-4100 263-4140",
+        "TCF:+55.795600,+13.108050");
+
+    qbGrfg("G21",
+        "Nhgbzngynez\aOenaq\a\aUötnyvqfiätra 33\aXäiyvatr\a\aFxåa ENCF-14\a263-4010\a263-4100\a263-4140\aYn = 55º 47,736'A    Yb = 013º 06,483'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Uötnyvqfiätra 33",
+        "PVGL:Xäiyvatr",
+        "PU:Fxåa ENCF-14",
+        "FEP:263-4010",
+        "HAVG:263-4100 263-4140",
+        "TCF:+55.795600,+13.108050");
+
+    qbGrfg("G22",
+        "Nhgbzngynez\aOenaq\a\aOebaftngna 8\aLfgnq\a\aFxåa ENCF-22\a262-2000\a262-2010\a262-2030\a262-2080\aYn = 55º 26,286'A    Yb = 013º 50,242'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Oebaftngna 8",
+        "PVGL:Lfgnq",
+        "PU:Fxåa ENCF-22",
+        "FEP:262-2000",
+        "HAVG:262-2010 262-2030 262-2080",
+        "TCF:+55.438100,+13.837367");
+
+    qbGrfg("G23",
+        "Gensvxbylpxn - fvatry\a" +
+        "Crefbaovy\a" +
+        "Zbgbeiät\a" +
+        "R22\a" +
+        "Uhein\a\a" +
+        "Fxåa ENCF-16\a" +
+        "263-2400\a" +
+        "263-2410\a" +
+        "263-2460\a" +
+        "263-3000\a" +
+        "263-3010\a" +
+        "263-3020\a" +
+        "263-3390\a" +
+        "Yn = 55º 48,260'A    Yb = 013º 27,506'R",
+
+        "PNYY:Gensvxbylpxn - fvatry / Crefbaovy / Zbgbeiät",
+        "NQQE:R22",
+        "PVGL:Uhein",
+        "PU:Fxåa ENCF-16",
+        "FEP:263-2400",
+        "HAVG:263-2410 263-2460 263-3000 263-3010 263-3020 263-3390",
+        "TCF:+55.804333,+13.458433");
+
+    qbGrfg("G24",
+        "Nhgbzngynez\aOenaq\a\aRevp Creffbaf iät\aZnyzö\a\aFxåa ENCF-11\a261-1400\a261-1470\aYn = 55º 34,949'A    Yb = 012º 59,398'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Revp Creffbaf iät",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-11",
+        "FEP:261-1400",
+        "HAVG:261-1470",
+        "TCF:+55.582483,+12.989967");
+
+    qbGrfg("G25",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Fcvyyrcratftngna 13\a" +
+        "Znyzö\a\a" +
+        "Fxåa ENCF-01\a" +
+        "261-1000\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "261-1430\a" +
+        "Yn = 55º 37,931'A    Yb = 013º 02,359'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Fcvyyrcratftngna 13",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-01",
+        "FEP:261-1000",
+        "HAVG:261-1200 261-1210 261-1400 261-1410 261-1430",
+        "TCF:+55.632183,+13.039317");
+
+    qbGrfg("G26",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Fcvyyrcratftngna 13\a" +
+        "Znyzö\a\a" +
+        "Fxåa ENCF-01\a" +
+        "261-1000\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "261-1430\a" +
+        "Yn = 55º 37,931'A    Yb = 013º 02,359'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Fcvyyrcratftngna 13",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-01",
+        "FEP:261-1000",
+        "HAVG:261-1200 261-1210 261-1400 261-1410 261-1430",
+        "TCF:+55.632183,+13.039317");
+
+    qbGrfg("G27",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Fcvyyrcratftngna 13\a" +
+        "Znyzö\a\a" +
+        "Fxåa ENCF-01\a" +
+        "261-1210\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "261-1430\a" +
+        "Yn = 55º 37,931'A    Yb = 013º 02,359'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Fcvyyrcratftngna 13",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-01",
+        "FEP:261-1210",
+        "HAVG:261-1400 261-1410 261-1430",
+        "TCF:+55.632183,+13.039317");
+
+    qbGrfg("G28",
+        "Nhgbzngynez\aOenaq\a\aBafwöiätra 3\aRfyöi\a\aFxåa ENCF-12\a263-3000\aYn = 55º 50,956'A    Yb = 013º 17,885'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Bafwöiätra 3",
+        "PVGL:Rfyöi",
+        "PU:Fxåa ENCF-12",
+        "FEP:263-3000",
+        "HAVG:Yn = 55º 50,956'A    Yb = 013º 17,885'R");
+
+    qbGrfg("G29",
+        "Oenaq hgr - öievtg\a\a\a" +
+        "Xbefåxrefiätra\a" +
+        "Inyyxäeen\a" +
+        "Vatra fcevqavatfevfx. 200 gvqavatne v ra uöt.nfsnyg haqre. elxre ra qry xna rw fyäpxn fwäyi.\a" +
+        "Fxåa ENCF-05\a" +
+        "263-2000\a" +
+        "Yn = 55º 44,193'A    Yb = 013º 10,549'R",
+
+        "PNYY:Oenaq hgr - öievtg",
+        "NQQE:Xbefåxrefiätra",
+        "VASB:Vatra fcevqavatfevfx. 200 gvqavatne v ra uöt.nfsnyg haqre. elxre ra qry xna rw fyäpxn fwäyi.",
+        "PVGL:Inyyxäeen",
+        "PU:Fxåa ENCF-05",
+        "FEP:263-2000",
+        "HAVG:Yn = 55º 44,193'A    Yb = 013º 10,549'R");
+
+    qbGrfg("G30",
+        "Enf/fxerq\a\a\a" +
+        "Wäeaiätftngna 17\a" +
+        "Geryyrobet\a" +
+        "fätre ng gnxrg enfng va\a" +
+        "Fxåa ENCF-21\a" +
+        "262-1000\a" +
+        "262-1080\a" +
+        "ZEFLQVO\a" +
+        "262-1000\a" +
+        "Yn = 55º 22,309'A    Yb = 013º 09,735'R",
+
+        "PNYY:Enf/fxerq",
+        "NQQE:Wäeaiätftngna 17",
+        "VASB:fätre ng gnxrg enfng va",
+        "PVGL:Geryyrobet",
+        "PU:Fxåa ENCF-21",
+        "FEP:262-1000",
+        "HAVG:262-1080 ZEFLQVO 262-1000",
+        "TCF:+55.371817,+13.162250");
+
+    qbGrfg("G31",
+        "Enf/fxerq\a\a\aWäeaiätftngna 17\a\a\a\a262-1000\a262-1080\aYn = 55º 22,309'A    Yb = 013º 09,735'R",
+        "PNYY:Enf/fxerq",
+        "NQQE:Wäeaiätftngna 17",
+        "FEP:262-1000",
+        "HAVG:262-1080",
+        "TCF:+55.371817,+13.162250");
+
+    qbGrfg("G32",
+        "Nhgbzngynez\aOenaq\a\aF:g Wbunaarftngna 9\aZnyzö\a\aFxåa ENCF-04\a261-1400\a261-1410\a261-1430\aYn = 55º 35,666'A    Yb = 013º 00,042'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:F:g Wbunaarftngna 9",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-04",
+        "FEP:261-1400",
+        "HAVG:261-1410 261-1430",
+        "TCF:+55.594433,+13.000700");
+
+    qbGrfg("G33",
+        "Oenaq v olttanq\a" +
+        "Syresnzvywfuhf\a" +
+        "Yätraurg\a" +
+        "Wäeaiätfgbetrg, Onatngna\a" +
+        "Yhaq\a" +
+        "Elxre seåa gnxrg. 4 iåa uhf\a" +
+        "Fxåa ENCF-07\a" +
+        "261-1420\a" +
+        "261-1590\a" +
+        "263-2030\a" +
+        "263-2080\a" +
+        "263-2310\a" +
+        "263-4000\a" +
+        "263-4010\a" +
+        "263-4100\a" +
+        "263-6060\a" +
+        "263-6070\a" +
+        "263-6090\a" +
+        "ZEFLQVO\a" +
+        "ZEFLQYO\a" +
+        "261-1000\a" +
+        "261-1080\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1330\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "261-7000\a" +
+        "261-7000\a" +
+        "261-7010\a" +
+        "261-7040\a" +
+        "261-7060\a" +
+        "263-2000\a" +
+        "263-2010\a" +
+        "263-3000\a" +
+        "263-3010\a" +
+        "263-3020\a" +
+        "263-6000\a" +
+        "Yn = 55º 42,304'A    Yb = 013º 11,269'R",
+
+        "PNYY:Oenaq v olttanq / Syresnzvywfuhf / Yätraurg",
+        "NQQE:Wäeaiätfgbetrg",
+        "CYNPR:Onatngna",
+        "VASB:Elxre seåa gnxrg. 4 iåa uhf",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-07",
+        "FEP:261-1420",
+        "HAVG:261-1590 263-2030 263-2080 263-2310 263-4000 263-4010 263-4100 263-6060 263-6070 263-6090 ZEFLQVO ZEFLQYO 261-1000 261-1080 261-1200 261-1210 261-1330 261-1400 261-1410 261-7000 261-7000 261-7010 261-7040 261-7060 263-2000 263-2010 263-3000 263-3010 263-3020 263-6000",
+        "TCF:+55.705067,+13.187817");
+
+    qbGrfg("G34",
+        "Oenaq v olttanq\a" +
+        "Syresnzvywfuhf\a" +
+        "Yätraurg\a" +
+        "Wäeaiätfgbetrg, Onatngna\a" +
+        "Yhaq\a" +
+        "Elxre seåa gnxrg. 4 iåa uhf\a" +
+        "Fxåa ENCF-07\a" +
+        "261-1420\a" +
+        "261-1590\a" +
+        "263-2030\a" +
+        "263-2080\a" +
+        "263-2310\a" +
+        "263-4000\a" +
+        "263-6060\a" +
+        "263-6070\a" +
+        "263-6090\a" +
+        "ZEFLQVO\a" +
+        "ZEFLQYO\a" +
+        "261-1000\a" +
+        "261-1080\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1330\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "261-7000\a" +
+        "261-7000\a" +
+        "261-7010\a" +
+        "261-7040\a" +
+        "261-7060\a" +
+        "263-2000\a" +
+        "263-2010\a" +
+        "263-3000\a" +
+        "263-3010\a" +
+        "263-3020\a" +
+        "263-6000\a" +
+        "Yn = 55º 42,304'A    Yb = 013º 11,269'R",
+
+        "PNYY:Oenaq v olttanq / Syresnzvywfuhf / Yätraurg",
+        "NQQE:Wäeaiätfgbetrg",
+        "CYNPR:Onatngna",
+        "VASB:Elxre seåa gnxrg. 4 iåa uhf",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-07",
+        "FEP:261-1420",
+        "HAVG:261-1590 263-2030 263-2080 263-2310 263-4000 263-6060 263-6070 263-6090 ZEFLQVO ZEFLQYO 261-1000 261-1080 261-1200 261-1210 261-1330 261-1400 261-1410 261-7000 261-7000 261-7010 261-7040 261-7060 263-2000 263-2010 263-3000 263-3010 263-3020 263-6000",
+        "TCF:+55.705067,+13.187817");
+
+    qbGrfg("G35",
+        "Naang\aCnffavat\a\aCnffavat Fgngvba Yhaq\aYhaq\a\aFxåa ENCF-09\a263-2500\aYn = 55º 41,591'A    Yb = 013º 13,539'R",
+        "PNYY:Naang / Cnffavat",
+        "NQQE:Cnffavat Fgngvba Yhaq",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-09",
+        "FEP:263-2500",
+        "HAVG:Yn = 55º 41,591'A    Yb = 013º 13,539'R");
+
+    qbGrfg("G36",
+        "Naang\aCnffavat\a\aCnffavat Fgngvba Yhaq\aYhaq\a\aFxåa ENCF-09\a263-2500\aYn = 55º 41,591'A    Yb = 013º 13,539'R",
+        "PNYY:Naang / Cnffavat",
+        "NQQE:Cnffavat Fgngvba Yhaq",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-09",
+        "FEP:263-2500",
+        "HAVG:Yn = 55º 41,591'A    Yb = 013º 13,539'R");
+
+    qbGrfg("G37",
+        "Oenaq v olttanq\a" +
+        "Vaqhfgev\a\a" +
+        "Oebaflkrtngna 8O\a" +
+        "Sbfvr\a\a" +
+        "Fx��a ENCF-08\a" +
+        "261-1000\a" +
+        "261-1040\a" +
+        "261-1210\a" +
+        "261-1230\a" +
+        "261-7010\a" +
+        "261-1200\a" +
+        "Yn = 55º 33,965'A    Yb = 013º 02,622'R",
+
+        "PNYY:Oenaq v olttanq / Vaqhfgev",
+        "NQQE:Oebaflkrtngna 8O",
+        "PVGL:Sbfvr",
+        "PU:Fx��a ENCF-08",
+        "FEP:261-1000",
+        "HAVG:261-1040 261-1210 261-1230 261-7010 261-1200",
+        "TCF:+55.566083,+13.043700");
+
+    qbGrfg("G38",
+        "Oenaq v olttanq\aVaqhfgev\a\aOebaflkrtngna 8O\aSbfvr\a\aFxåa ENCF-08\a261-1200\a261-1210\aYn = 55º 33,965'A    Yb = 013º 02,622'R",
+        "PNYY:Oenaq v olttanq / Vaqhfgev",
+        "NQQE:Oebaflkrtngna 8O",
+        "PVGL:Sbfvr",
+        "PU:Fxåa ENCF-08",
+        "FEP:261-1200",
+        "HAVG:261-1210",
+        "TCF:+55.566083,+13.043700");
+
+    qbGrfg("G39",
+        "Nhgbzngynez\aOenaq\a\aUåygrtryiätra 11\aBkvr\a\aFxåa ENCF-13\a261-1200\a261-1210\a261-1230\aYn = 55º 32,360'A    Yb = 013º 06,291'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Uåygrtryiätra 11",
+        "PVGL:Bkvr",
+        "PU:Fxåa ENCF-13",
+        "FEP:261-1200",
+        "HAVG:261-1210 261-1230",
+        "TCF:+55.539333,+13.104850");
+
+    qbGrfg("G40",
+        "Oenaq v olttanq\a" +
+        "Syresnzvywfuhf\a" +
+        "Yätraurg\a" +
+        "Elggnertngna 2N\a" +
+        "Znyzö\a" +
+        "Eöxyhxgra bpu\a" +
+        "Fxåa ENCF-14\a" +
+        "261-1000\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "Yn = 55º 36,467'A    Yb = 013º 02,730'R",
+
+        "PNYY:Oenaq v olttanq / Syresnzvywfuhf / Yätraurg",
+        "NQQE:Elggnertngna 2N",
+        "VASB:Eöxyhxgra bpu",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-14",
+        "FEP:261-1000",
+        "HAVG:261-1400 261-1410",
+        "TCF:+55.607783,+13.045500");
+
+    qbGrfg("G41",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Xnoonecfiätra 126\a" +
+        "Fgnssnafgbec\a\a" +
+        "Fxåa ENCF-11\a" +
+        "Fxåa ENCF-35\a" +
+        "261-1000\a" +
+        "263-5000\a" +
+        "263-5080\a" +
+        "263-6000\a" +
+        "263-6010\a" +
+        "263-6060\a" +
+        "263-6090\a" +
+        "Yn = 55º 38,691'A    Yb = 013º 07,813'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Xnoonecfiätra 126",
+        "PVGL:Fgnssnafgbec",
+        "PU:Fxåa ENCF-11 / Fxåa ENCF-35",
+        "FEP:261-1000",
+        "HAVG:263-5000 263-5080 263-6000 263-6010 263-6060 263-6090",
+        "TCF:+55.644850,+13.130217");
+
+    qbGrfg("G42",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Xnoonecfiätra 126\a" +
+        "Fgnssnafgbec\a\a" +
+        "Fxåa ENCF-35\a" +
+        "263-5000\a" +
+        "263-5080\a" +
+        "263-6000\a" +
+        "263-6010\a" +
+        "263-6060\a" +
+        "263-6090\a" +
+        "Yn = 55º 38,691'A    Yb = 013º 07,813'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Xnoonecfiätra 126",
+        "PVGL:Fgnssnafgbec",
+        "PU:Fxåa ENCF-35",
+        "FEP:263-5000",
+        "HAVG:263-5080 263-6000 263-6010 263-6060 263-6090",
+        "TCF:+55.644850,+13.130217");
+
+    qbGrfg("G43",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Xnoonecfiätra 126\a" +
+        "Fgnssnafgbec\a\a" +
+        "Fxåa ENCF-35\a" +
+        "263-6000\a" +
+        "263-6010\a" +
+        "263-6060\a" +
+        "263-6090\a" +
+        "Yn = 55º 38,691'A    Yb = 013º 07,813'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Xnoonecfiätra 126",
+        "PVGL:Fgnssnafgbec",
+        "PU:Fxåa ENCF-35",
+        "FEP:263-6000",
+        "HAVG:263-6010 263-6060 263-6090",
+        "TCF:+55.644850,+13.130217");
+
+    qbGrfg("G44",
+        "Hgfyäcc sneyvtg äzar - qevizrqry\a" +
+        "Xbzzhanyg inggra\a\a" +
+        "täfgunzara\a" +
+        "Uöyyivxra\a\a\a" +
+        "262-7200\a" +
+        "262-7210\a" +
+        "262-7260\a" +
+        "ZEFLQYO\a" +
+        "Yn = 55º 24,733'A    Yb = 012º 56,048'R",
+
+        "PNYY:Hgfyäcc sneyvtg äzar - qevizrqry / Xbzzhanyg inggra",
+        "NQQE:täfgunzara",
+        "PVGL:Uöyyivxra",
+        "FEP:262-7200",
+        "HAVG:262-7210 262-7260 ZEFLQYO",
+        "TCF:+55.412217,+12.934133");
+
+    qbGrfg("G45",
+        "Öievtg\a" +
+        "VICN\a\a" +
+        "Orqqvatr Fgenaqiät\a" +
+        "Fzltrunza\a" +
+        "Enzyng hg v xngna bpu oöewng xenzcng. Naqnf bx.\a" +
+        "Fxåa ENCF-97\a" +
+        "262-1080\a" +
+        "262-1400\a" +
+        "262-1410\a" +
+        "262-1460\a" +
+        "Yn = 55º 21,171'A    Yb = 013º 23,753'R",
+
+        "PNYY:Öievtg / VICN",
+        "NQQE:Orqqvatr Fgenaqiät",
+        "VASB:Enzyng hg v xngna bpu oöewng xenzcng. Naqnf bx.",
+        "PVGL:Fzltrunza",
+        "PU:Fxåa ENCF-97",
+        "FEP:262-1080",
+        "HAVG:262-1400 262-1410 262-1460",
+        "TCF:+55.352850,+13.395883");
+
+    qbGrfg("G46",
+        "Oenaq v olttanq\a" +
+        "Syresnzvywfuhf\a" +
+        "Yätraurg\a" +
+        "Wäeaiätfgbetrg, Onatngna\a" +
+        "Yhaq\a" +
+        "Elxre seåa gnxrg. 4 iåa uhf\a" +
+        "Fxåa ENCF-07\a" +
+        "261-1000\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1230\a" +
+        "263-2000\a" +
+        "263-2010\a" +
+        "263-2030\a" +
+        "263-2080\a" +
+        "ZEFLQVO\a" +
+        "ZEFLQYO\a" +
+        "Yn = 55º 42,304'A    Yb = 013º 11,269'R",
+
+        "PNYY:Oenaq v olttanq / Syresnzvywfuhf / Yätraurg",
+        "NQQE:Wäeaiätfgbetrg",
+        "CYNPR:Onatngna",
+        "VASB:Elxre seåa gnxrg. 4 iåa uhf",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-07",
+        "FEP:261-1000",
+        "HAVG:261-1200 261-1210 261-1230 263-2000 263-2010 263-2030 263-2080 ZEFLQVO ZEFLQYO",
+        "TCF:+55.705067,+13.187817");
+
+    qbGrfg("G47",
+        "Oenaq v olttanq\a" +
+        "Syresnzvywfuhf\a" +
+        "Yätraurg\a" +
+        "Wäeaiätfgbetrg, Onatngna\a" +
+        "Yhaq\a" +
+        "Elxre seåa gnxrg. 4 iåa uhf\a" +
+        "Fxåa ENCF-07\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1230\a" +
+        "263-2000\a" +
+        "263-2010\a" +
+        "263-2030\a" +
+        "263-2080\a" +
+        "ZEFLQYO\a" +
+        "Yn = 55º 42,304'A    Yb = 013º 11,269'R",
+
+        "PNYY:Oenaq v olttanq / Syresnzvywfuhf / Yätraurg",
+        "NQQE:Wäeaiätfgbetrg",
+        "CYNPR:Onatngna",
+        "VASB:Elxre seåa gnxrg. 4 iåa uhf",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-07",
+        "FEP:261-1200",
+        "HAVG:261-1210 261-1230 263-2000 263-2010 263-2030 263-2080 ZEFLQYO",
+        "TCF:+55.705067,+13.187817");
+
+    qbGrfg("G48",
+        "Oenaq v olttanq\a" +
+        "Syresnzvywfuhf\a" +
+        "Yätraurg\a" +
+        "Wäeaiätfgbetrg, Onatngna\a" +
+        "Yhaq\a" +
+        "Elxre seåa gnxrg. 4 iåa uhf\a" +
+        "Fxåa ENCF-07\a" +
+        "263-2000\a" +
+        "263-2010\a" +
+        "263-2030\a" +
+        "ZEFLQYO\a" +
+        "Yn = 55º 42,304'A    Yb = 013º 11,269'R",
+
+        "PNYY:Oenaq v olttanq / Syresnzvywfuhf / Yätraurg",
+        "NQQE:Wäeaiätfgbetrg",
+        "CYNPR:Onatngna",
+        "VASB:Elxre seåa gnxrg. 4 iåa uhf",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-07",
+        "FEP:263-2000",
+        "HAVG:263-2010 263-2030 ZEFLQYO",
+        "TCF:+55.705067,+13.187817");
+
+    qbGrfg("G49",
+        "Gensvxbylpxn - syren sbeqba\a" +
+        "Crefbaovy\a" +
+        "Öievtg\a" +
+        "Iät 11\a" +
+        "fwöob\a" +
+        "2 co, 8 cref gbgnyg ineni 2 äe onea. Onxvseåa xbyy\a\a" +
+        "262-2000\a" +
+        "262-5000\a" +
+        "262-5010\a" +
+        "262-5040\a" +
+        "262-5060\a" +
+        "ZEFLQYO\a" +
+        "Yn = 55º 38,195'A    Yb = 013º 39,879'R",
+
+        "PNYY:Gensvxbylpxn - syren sbeqba / Crefbaovy / Öievtg",
+        "NQQE:Iät 11",
+        "VASB:2 co, 8 cref gbgnyg ineni 2 äe onea. Onxvseåa xbyy",
+        "PVGL:fwöob",
+        "FEP:262-2000",
+        "HAVG:262-5000 262-5010 262-5040 262-5060 ZEFLQYO",
+        "TCF:+55.636583,+13.664650");
+
+    qbGrfg("G50",
+        "Gensvxbylpxn - syren sbeqba\a" +
+        "Crefbaovy\a" +
+        "Zbgbeiät\a" +
+        "Frtrxnehfryyra\a" +
+        "Znyzö\a" +
+        "2 co, zvafg 5 qenoonqr. Rgg sbeqba ibygng\a" +
+        "Fxåa ENCF-12\a" +
+        "261-1000\a" +
+        "261-1080\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "261-1430\a" +
+        "Yn = 55º 37,253'A    Yb = 013º 03,500'R",
+
+        "PNYY:Gensvxbylpxn - syren sbeqba / Crefbaovy / Zbgbeiät",
+        "NQQE:Frtrxnehfryyra",
+        "VASB:2 co, zvafg 5 qenoonqr. Rgg sbeqba ibygng",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-12",
+        "FEP:261-1000",
+        "HAVG:261-1080 261-1200 261-1210 261-1400 261-1410 261-1430",
+        "TCF:+55.620883,+13.058333");
+
+    qbGrfg("G51",
+        "Gensvxbylpxn - syren sbeqba\a" +
+        "Crefbaovy\a" +
+        "Zbgbeiät\a" +
+        "Frtrxnehfryyra\a" +
+        "Znyzö\a" +
+        "2 co, zvafg 5 qenoonqr. Rgg sbeqba ibygng\a" +
+        "Fxåa ENCF-12\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "261-1430\a" +
+        "Yn = 55º 37,253'A    Yb = 013º 03,500'R",
+
+        "PNYY:Gensvxbylpxn - syren sbeqba / Crefbaovy / Zbgbeiät",
+        "NQQE:Frtrxnehfryyra",
+        "VASB:2 co, zvafg 5 qenoonqr. Rgg sbeqba ibygng",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-12",
+        "FEP:261-1200",
+        "HAVG:261-1210 261-1400 261-1410 261-1430",
+        "TCF:+55.620883,+13.058333");
+
+    qbGrfg("G52",
+        "Gensvxbylpxn - syren sbeqba\a" +
+        "Crefbaovy\a" +
+        "Zbgbeiät\a" +
+        "Frtrxnehfryyra\a" +
+        "Znyzö\a" +
+        "2 co, zvafg 5 qenoonqr\a" +
+        "Fxåa ENCF-12\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "261-1430\a" +
+        "Yn = 55º 37,253'A    Yb = 013º 03,500'R",
+
+        "PNYY:Gensvxbylpxn - syren sbeqba / Crefbaovy / Zbgbeiät",
+        "NQQE:Frtrxnehfryyra",
+        "VASB:2 co, zvafg 5 qenoonqr",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-12",
+        "FEP:261-1400",
+        "HAVG:261-1410 261-1430",
+        "TCF:+55.620883,+13.058333");
+
+    qbGrfg("G53",
+        "Nhgbzngynez\aOenaq\a\aAltngna 40\aGeryyrobet\a\aFxåa ENCF-52\a262-1000\a262-1010\a262-1080\aYn = 55º 22,468'A    Yb = 013º 09,532'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Altngna 40",
+        "PVGL:Geryyrobet",
+        "PU:Fxåa ENCF-52",
+        "FEP:262-1000",
+        "HAVG:262-1010 262-1080",
+        "TCF:+55.374467,+13.158867");
+
+    qbGrfg("G54",
+        "Qehaxavat\a" +
+        "Xbzzhanyg inggra\a\a" +
+        "ivq onqoelttna\a" +
+        "snyfgreob\a\a" +
+        "Fxåa ENCF-11\a" +
+        "Fxåa ENCF-27\a" +
+        "261-1000\a" +
+        "262-1000\a" +
+        "262-1010\a" +
+        "262-1030\a" +
+        "262-1080\a" +
+        "262-1180\a" +
+        "262-7200\a" +
+        "262-7400\a" +
+        "262-7410\a" +
+        "262-7460\a" +
+        "ZEFLQVO\a" +
+        "Yn = 55º 23,203'A    Yb = 012º 50,141'R",
+
+        "PNYY:Qehaxavat / Xbzzhanyg inggra",
+        "NQQE:ivq onqoelttna",
+        "PVGL:snyfgreob",
+        "PU:Fxåa ENCF-11 / Fxåa ENCF-27",
+        "FEP:261-1000",
+        "HAVG:262-1000 262-1010 262-1030 262-1080 262-1180 262-7200 262-7400 262-7410 262-7460 ZEFLQVO",
+        "TCF:+55.386717,+12.835683");
+
+    qbGrfg("G55",
+        "Qehaxavat\a" +
+        "Xbzzhanyg inggra\a\a" +
+        "ivq onqoelttna\a" +
+        "snyfgreob\a\a" +
+        "Fxåa ENCF-11\a" +
+        "Fxåa ENCF-27\a" +
+        "261-1000\a" +
+        "262-1000\a" +
+        "262-1010\a" +
+        "262-1030\a" +
+        "262-1080\a" +
+        "262-1180\a" +
+        "262-7400\a" +
+        "262-7410\a" +
+        "262-7460\a" +
+        "ZEFLQVO\a" +
+        "Yn = 55º 23,619'A    Yb = 012º 49,287'R",
+
+        "PNYY:Qehaxavat / Xbzzhanyg inggra",
+        "NQQE:ivq onqoelttna",
+        "PVGL:snyfgreob",
+        "PU:Fxåa ENCF-11 / Fxåa ENCF-27",
+        "FEP:261-1000",
+        "HAVG:262-1000 262-1010 262-1030 262-1080 262-1180 262-7400 262-7410 262-7460 ZEFLQVO",
+        "TCF:+55.393650,+12.821450");
+
+    qbGrfg("G56",
+        "Qehaxavat\a" +
+        "Xbzzhanyg inggra\a\a" +
+        "ivq onqoelttna\a" +
+        "snyfgreob\a\a" +
+        "Fxåa ENCF-11\a" +
+        "Fxåa ENCF-27\a" +
+        "261-1000\a" +
+        "262-1000\a" +
+        "262-1010\a" +
+        "262-1030\a" +
+        "262-1080\a" +
+        "262-1180\a" +
+        "262-7400\a" +
+        "262-7410\a" +
+        "262-7460\a" +
+        "ZEFLQVO\a" +
+        "Yn = 55º 23,619'A    Yb = 012º 49,287'R",
+
+        "PNYY:Qehaxavat / Xbzzhanyg inggra",
+        "NQQE:ivq onqoelttna",
+        "PVGL:snyfgreob",
+        "PU:Fxåa ENCF-11 / Fxåa ENCF-27",
+        "FEP:261-1000",
+        "HAVG:262-1000 262-1010 262-1030 262-1080 262-1180 262-7400 262-7410 262-7460 ZEFLQVO",
+        "TCF:+55.393650,+12.821450");
+
+    qbGrfg("G57",
+        "Qehaxavat\a" +
+        "Xbzzhanyg inggra\a\a" +
+        "ivq onqoelttna\a" +
+        "snyfgreob\a\a" +
+        "Fxåa ENCF-11\a" +
+        "Fxåa ENCF-27\a" +
+        "261-1000\a" +
+        "262-7400\a" +
+        "262-7410\a" +
+        "262-7460\a" +
+        "ZEFLQVO\a" +
+        "Yn = 55º 23,619'A    Yb = 012º 49,287'R",
+
+        "PNYY:Qehaxavat / Xbzzhanyg inggra",
+        "NQQE:ivq onqoelttna",
+        "PVGL:snyfgreob",
+        "PU:Fxåa ENCF-11 / Fxåa ENCF-27",
+        "FEP:261-1000",
+        "HAVG:262-7400 262-7410 262-7460 ZEFLQVO",
+        "TCF:+55.393650,+12.821450");
+
+    qbGrfg("G58",
+        "Qehaxavat\a" +
+        "Xbzzhanyg inggra\a\a" +
+        "ivq onqoelttna\a" +
+        "snyfgreob\a\a" +
+        "Fxåa ENCF-27\a" +
+        "262-7400\a" +
+        "262-7410\a" +
+        "262-7460\a" +
+        "Yn = 55º 23,619'A    Yb = 012º 49,287'R",
+
+        "PNYY:Qehaxavat / Xbzzhanyg inggra",
+        "NQQE:ivq onqoelttna",
+        "PVGL:snyfgreob",
+        "PU:Fxåa ENCF-27",
+        "FEP:262-7400",
+        "HAVG:262-7410 262-7460",
+        "TCF:+55.393650,+12.821450");
+
+    qbGrfg("G59",
+        "Nhgbzngynez\aOenaq\a\aFnaxg Ynef iät 44\aYhaq\a\aFxåa ENCF-04\a263-2000\a263-2010\a263-2030\aYn = 55º 40,983'A    Yb = 013º 10,499'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Fnaxg Ynef iät 44",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-04",
+        "FEP:263-2000",
+        "HAVG:263-2010 263-2030",
+        "TCF:+55.683050,+13.174983");
+
+    qbGrfg("G60",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Bybs Uåtrafraf Nyyé 31\a" +
+        "Znyzö\a\a" +
+        "Fxåa ENCF-09\a" +
+        "261-1000\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1230\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "Yn = 55º 35,748'A    Yb = 013º 02,582'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Bybs Uåtrafraf Nyyé 31",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-09",
+        "FEP:261-1000",
+        "HAVG:261-1200 261-1210 261-1230 261-1400 261-1410",
+        "TCF:+55.595800,+13.043033");
+
+    qbGrfg("G61",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Bybs Uåtrafraf Nyyé 31\a" +
+        "Znyzö\a\a" +
+        "Fxåa ENCF-09\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1230\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "Yn = 55º 35,748'A    Yb = 013º 02,582'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Bybs Uåtrafraf Nyyé 31",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-09",
+        "FEP:261-1200",
+        "HAVG:261-1210 261-1230 261-1400 261-1410",
+        "TCF:+55.595800,+13.043033");
+
+    qbGrfg("G62",
+        "Nhgbzngynez\aOenaq\a\aBybs Uåtrafraf Nyyé 31\aZnyzö\a\aFxåa ENCF-09\a261-1200\a261-1210\a261-1230\aYn = 55º 35,748'A    Yb = 013º 02,582'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Bybs Uåtrafraf Nyyé 31",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-09",
+        "FEP:261-1200",
+        "HAVG:261-1210 261-1230",
+        "TCF:+55.595800,+13.043033");
+
+    qbGrfg("G63",
+        "Oenaq hgr - pbagnvare\a\a\a" +
+        "Ivqrqnyfiätra\a" +
+        "Znyzö\a" +
+        "fre ivn xnzren, Znyzö Fgnqf ynezprageny\a" +
+        "Fxåa ENCF-03\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "Yn = 55º 35,346'A    Yb = 013º 04,147'R",
+
+        "PNYY:Oenaq hgr - pbagnvare",
+        "NQQE:Ivqrqnyfiätra",
+        "VASB:fre ivn xnzren, Znyzö Fgnqf ynezprageny",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-03",
+        "FEP:261-1200",
+        "HAVG:261-1210",
+        "TCF:+55.589100,+13.069117");
+
+    qbGrfg("G64",
+        "Nhgbzngynez\aOenaq\a\aUåyfwötngna 43\aZnyzö\a\aFxåa ENCF-08\a261-1000\a261-1030\aYn = 55º 35,000'A    Yb = 012º 58,627'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Uåyfwötngna 43",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-08",
+        "FEP:261-1000",
+        "HAVG:261-1030",
+        "TCF:+55.583333,+12.977117");
+
+    qbGrfg("G65",
+        "Oenaq hgr - öievtg\a\a\aRyvfrgbecfiätra 11Q\aneyöi\aregeäfxwhy\aFxåa ENCF-15\a261-7000\a261-7010\aYn = 55º 37,959'A    Yb = 013º 04,900'R",
+        "PNYY:Oenaq hgr - öievtg",
+        "NQQE:Ryvfrgbecfiätra 11Q",
+        "VASB:regeäfxwhy",
+        "PVGL:neyöi",
+        "PU:Fxåa ENCF-15",
+        "FEP:261-7000",
+        "HAVG:261-7010",
+        "TCF:+55.632650,+13.081667");
+
+    qbGrfg("G66",
+        "Vagrean oenaqynez\a" +
+        "Vaevatg seåa cyngfra\a" +
+        "Enquhf\a" +
+        "yäcyngfra 7\a" +
+        "Ybzzn\a" +
+        "uöe ra oenaqineaner, xäaare vatra yhxg, vatra oenaq\a" +
+        "Fxåa ENCF-35\a" +
+        "263-5000\a" +
+        "263-5060\a" +
+        "Yn = 55º 40,686'A    Yb = 013º 03,711'R",
+
+        "PNYY:Vagrean oenaqynez / Vaevatg seåa cyngfra / Enquhf",
+        "NQQE:yäcyngfra 7",
+        "VASB:uöe ra oenaqineaner, xäaare vatra yhxg, vatra oenaq",
+        "PVGL:Ybzzn",
+        "PU:Fxåa ENCF-35",
+        "FEP:263-5000",
+        "HAVG:263-5060",
+        "TCF:+55.678100,+13.061850");
+
+    qbGrfg("G67",
+        "Nhgbzngynez\aOenaq\a\aUlyyvr Obhyrineq 15\aZnyzö\a\aFxåa ENCF-13\a261-1000\a261-1030\aYn = 55º 33,842'A    Yb = 012º 58,516'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Ulyyvr Obhyrineq 15",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-13",
+        "FEP:261-1000",
+        "HAVG:261-1030",
+        "TCF:+55.564033,+12.975267");
+
+    qbGrfg("G68",
+        "Öievtg\a" +
+        "VICN\a\a" +
+        "Fnygfwöonqra\a" +
+        "Lfgnq\a" +
+        "gevyyng seåa rgg geäq pn 5z yvttre cå znexra bag v elttra fxevxre\a" +
+        "Fxåa ENCF-92\a" +
+        "262-2000\a" +
+        "262-2010\a" +
+        "262-2050\a" +
+        "Yn = 55º 25,774'A    Yb = 013º 51,696'R",
+
+        "PNYY:Öievtg / VICN",
+        "NQQE:Fnygfwöonqra",
+        "VASB:gevyyng seåa rgg geäq pn 5z yvttre cå znexra bag v elttra fxevxre",
+        "PVGL:Lfgnq",
+        "PU:Fxåa ENCF-92",
+        "FEP:262-2000",
+        "HAVG:262-2010 262-2050",
+        "TCF:+55.429567,+13.861600");
+
+    qbGrfg("G69",
+        "Oenaq hgr - sbeqba\a" +
+        "Neorgfznfxva\a" +
+        "Öievtg\a" +
+        "Gelqr 1706\a\a\a" +
+        "Fxåa ENCF-22\a" +
+        "262-4000\a" +
+        "262-4010\a" +
+        "262-4060\a" +
+        "Yn = 55º 33,402'A    Yb = 013º 56,690'R",
+
+        "PNYY:Oenaq hgr - sbeqba / Neorgfznfxva / Öievtg",
+        "NQQE:Gelqr 1706",
+        "PU:Fxåa ENCF-22",
+        "FEP:262-4000",
+        "HAVG:262-4010 262-4060",
+        "TCF:+55.556700,+13.944833");
+
+    qbGrfg("G70",
+        "Nhgbzngynez\aOenaq\a\aFgraåyqreftngna 11\aZnyzö\a\aFxåa ENCF-17\a261-1200\a261-1210\a261-1230\aYn = 55º 33,091'A    Yb = 013º 03,295'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Fgraåyqreftngna 11",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-17",
+        "FEP:261-1200",
+        "HAVG:261-1210 261-1230",
+        "TCF:+55.551517,+13.054917");
+
+    qbGrfg("G71",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Qebggavat Znetnergnf iät 1\a" +
+        "Lfgnq\a\a" +
+        "Fxåa ENCF-22\a" +
+        "262-2000\a" +
+        "262-2010\a" +
+        "262-2030\a" +
+        "262-2080\a" +
+        "Yn = 55º 26,235'A    Yb = 013º 47,568'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Qebggavat Znetnergnf iät 1",
+        "PVGL:Lfgnq",
+        "PU:Fxåa ENCF-22",
+        "FEP:262-2000",
+        "HAVG:262-2010 262-2030 262-2080",
+        "TCF:+55.437250,+13.792800");
+
+    qbGrfg("G72",
+        "Nhgbzngynez\aOenaq\a\aOretniätra 1\aRfyöi\a\aFxåa ENCF-06\a263-3000\a263-3010\a263-3020\aYn = 55º 50,440'A    Yb = 013º 19,177'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Oretniätra 1",
+        "PVGL:Rfyöi",
+        "PU:Fxåa ENCF-06",
+        "FEP:263-3000",
+        "HAVG:263-3010 263-3020",
+        "TCF:+55.840667,+13.319617");
+
+    qbGrfg("G73",
+        "Gensvxbylpxn - fvatry\a" +
+        "Crefbaovy\a" +
+        "Öievtg\a" +
+        "Rywneöq 4702\a" +
+        "rywneöq\a" +
+        "1 cref, hgr, pubpxnq,\a\a" +
+        "262-4200\a" +
+        "262-4210\a" +
+        "ZEFLQYO\a" +
+        "Yn = 55º 40,918'A    Yb = 014º 01,836'R",
+
+        "PNYY:Gensvxbylpxn - fvatry / Crefbaovy / Öievtg",
+        "NQQE:Rywneöq 4702",
+        "VASB:1 cref, hgr, pubpxnq,",
+        "PVGL:rywneöq",
+        "FEP:262-4200",
+        "HAVG:262-4210 ZEFLQYO",
+        "TCF:+55.681967,+14.030600");
+
+    qbGrfg("G74",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Anggivbyfiätra 41\a" +
+        "Alobfgenaq\a\a" +
+        "Fxåa ENCF-22\a" +
+        "262-2000\a" +
+        "262-2010\a" +
+        "262-2030\a" +
+        "262-2080\a" +
+        "Yn = 55º 26,169'A    Yb = 013º 56,491'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Anggivbyfiätra 41",
+        "PVGL:Alobfgenaq",
+        "PU:Fxåa ENCF-22",
+        "FEP:262-2000",
+        "HAVG:262-2010 262-2030 262-2080",
+        "TCF:+55.436150,+13.941517");
+
+    qbGrfg("G75",
+        "Nhgbzngynez\aOenaq\a\aWäeninyyra\aOnefroäpx\a\aFxåa ENCF-07\a263-4000\a263-4010\a263-4100\a263-4140\aYn = 55º 47,555'A    Yb = 012º 57,159'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Wäeninyyra",
+        "PVGL:Onefroäpx",
+        "PU:Fxåa ENCF-07",
+        "FEP:263-4000",
+        "HAVG:263-4010 263-4100 263-4140",
+        "TCF:+55.792583,+12.952650");
+
+    qbGrfg("G76",
+        "Nhgbzngynez\aOenaq\a\aWäeninyyra\aOnefroäpx\a\aFxåa ENCF-07\a263-4000\a263-4010\a263-4140\aYn = 55º 47,555'A    Yb = 012º 57,159'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Wäeninyyra",
+        "PVGL:Onefroäpx",
+        "PU:Fxåa ENCF-07",
+        "FEP:263-4000",
+        "HAVG:263-4010 263-4140",
+        "TCF:+55.792583,+12.952650");
+
+    qbGrfg("G77",
+        "Oenaq hgr - öievtg\a\a\a" +
+        "Owöeafgbecf Fybgg\a" +
+        "Tranec\a\a" +
+        "Fxåa ENCF-02\a" +
+        "Fxåa ENCF-32\a" +
+        "263-2300\a" +
+        "263-2310\a" +
+        "Yn = 55º 37,683'A    Yb = 013º 24,396'R",
+
+        "PNYY:Oenaq hgr - öievtg",
+        "NQQE:Owöeafgbecf Fybgg",
+        "PVGL:Tranec",
+        "PU:Fxåa ENCF-02 / Fxåa ENCF-32",
+        "FEP:263-2300",
+        "HAVG:263-2310",
+        "TCF:+55.628050,+13.406600");
+
+    qbGrfg("G78",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Fbyqnggbecfiätra 5\a" +
+        "Znyzö\a\a" +
+        "Fxåa ENCF-05\a" +
+        "261-1000\a" +
+        "261-1030\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "Yn = 55º 35,362'A    Yb = 012º 56,528'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Fbyqnggbecfiätra 5",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-05",
+        "FEP:261-1000",
+        "HAVG:261-1030 261-1400 261-1410",
+        "TCF:+55.589367,+12.942133");
+
+    qbGrfg("G79",
+        "Nhgbzngynez\aOenaq\a\aFbyqnggbecfiätra 5\aZnyzö\a\aFxåa ENCF-05\a261-1000\a261-1030\aYn = 55º 35,362'A    Yb = 012º 56,528'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Fbyqnggbecfiätra 5",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-05",
+        "FEP:261-1000",
+        "HAVG:261-1030",
+        "TCF:+55.589367,+12.942133");
+
+    qbGrfg("G80",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Fwhxuhfiätra 1\a" +
+        "Fvzevfunza\a\a" +
+        "Fxåa ENCF-22\a" +
+        "262-2000\a" +
+        "262-3000\a" +
+        "262-3010\a" +
+        "262-3030\a" +
+        "262-3060\a" +
+        "Yn = 55º 33,147'A    Yb = 014º 20,415'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Fwhxuhfiätra 1",
+        "PVGL:Fvzevfunza",
+        "PU:Fxåa ENCF-22",
+        "FEP:262-2000",
+        "HAVG:262-3000 262-3010 262-3030 262-3060",
+        "TCF:+55.552450,+14.340250");
+
+    qbGrfg("G81",
+        "Nhgbzngynez\aOenaq\a\aFwhxuhfiätra 1\aFvzevfunza\a\aFxåa ENCF-22\a262-3010\a262-3030\a262-3060\aYn = 55º 33,147'A    Yb = 014º 20,415'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Fwhxuhfiätra 1",
+        "PVGL:Fvzevfunza",
+        "PU:Fxåa ENCF-22",
+        "FEP:262-3010",
+        "HAVG:262-3030 262-3060",
+        "TCF:+55.552450,+14.340250");
+
+    qbGrfg("G82",
+        "Nhgbzngynez\aOenaq\a\aEåoliätra 40\aYhaq\a\aFxåa ENCF-04\a263-2000\a263-2010\aZEFLQYO\aYn = 55º 41,218'A    Yb = 013º 12,316'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Eåoliätra 40",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-04",
+        "FEP:263-2000",
+        "HAVG:263-2010 ZEFLQYO",
+        "TCF:+55.686967,+13.205267");
+
+    qbGrfg("G83",
+        "Eöxyhxg - olttanq\a" +
+        "Syresnzvywfuhf\a\a" +
+        "Evoriätra 18N\a" +
+        "znyzö\a" +
+        "yhxgne oenaqeöx vseåa yätraurg.\a" +
+        "Fxåa ENCF-08\a" +
+        "261-1400\a" +
+        "ZEFLQYO\a" +
+        "Yn = 55º 35,417'A    Yb = 012º 58,775'R",
+
+        "PNYY:Eöxyhxg - olttanq / Syresnzvywfuhf",
+        "NQQE:Evoriätra 18N",
+        "VASB:yhxgne oenaqeöx vseåa yätraurg.",
+        "PVGL:znyzö",
+        "PU:Fxåa ENCF-08",
+        "FEP:261-1400",
+        "HAVG:ZEFLQYO",
+        "TCF:+55.590283,+12.979583");
+
+    qbGrfg("G84",
+        "Öievtg\a" +
+        "Fwhxiåeqfynez\a\a" +
+        "pnzcvatra\a" +
+        "Yöqrehcf fgenaqonq\a" +
+        "naqnf vagr UYE cåtåe\a" +
+        "Fxåa ENCF-92\a" +
+        "262-2080\a" +
+        "262-3200\a" +
+        "262-3250\a" +
+        "Yn = 55º 22,873'A    Yb = 014º 07,630'R",
+
+        "PNYY:Öievtg / Fwhxiåeqfynez",
+        "NQQE:pnzcvatra",
+        "VASB:naqnf vagr UYE cåtåe",
+        "PVGL:Yöqrehcf fgenaqonq",
+        "PU:Fxåa ENCF-92",
+        "FEP:262-2080",
+        "HAVG:262-3200 262-3250",
+        "TCF:+55.381217,+14.127167");
+
+    qbGrfg("G85",
+        "Nhgbzngynez\aOenaq\a\aUrqivt Zöyyref tngn 2\aYhaq\a\aFxåa ENCF-15\a263-2000\a263-2010\a263-2030\aYn = 55º 41,304'A    Yb = 013º 11,842'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Urqivt Zöyyref tngn 2",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-15",
+        "FEP:263-2000",
+        "HAVG:263-2010 263-2030",
+        "TCF:+55.688400,+13.197367");
+
+    qbGrfg("G86",
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Ynaqfiätra 39\a" +
+        "Naqrefyöi\a\a" +
+        "Fxåa ENCF-11\a" +
+        "Fxåa ENCF-21\a" +
+        "261-1080\a" +
+        "262-1080\a" +
+        "262-1200\a" +
+        "262-1210\a" +
+        "262-1260\a" +
+        "ZEFLQYO\a" +
+        "Yn = 55º 26,286'A    Yb = 013º 19,109'R",
+
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Ynaqfiätra 39",
+        "PVGL:Naqrefyöi",
+        "PU:Fxåa ENCF-11 / Fxåa ENCF-21",
+        "FEP:261-1080",
+        "HAVG:262-1080 262-1200 262-1210 262-1260 ZEFLQYO",
+        "TCF:+55.438100,+13.318483");
+
+    qbGrfg("G87",
+        "Nhgbzngynez\aOenaq\a\aYnaqfiätra 39\aNaqrefyöi\a\aFxåa ENCF-21\a262-1080\a262-1200\a262-1210\aYn = 55º 26,286'A    Yb = 013º 19,109'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Ynaqfiätra 39",
+        "PVGL:Naqrefyöi",
+        "PU:Fxåa ENCF-21",
+        "FEP:262-1080",
+        "HAVG:262-1200 262-1210",
+        "TCF:+55.438100,+13.318483");
+
+    qbGrfg("G88",
+        "Nhgbzngynez\aOenaq\a\aYnaqfiätra 39\aNaqrefyöi\a\aFxåa ENCF-21\a262-1080\a262-1200\a262-1210\aYn = 55º 26,286'A    Yb = 013º 19,109'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Ynaqfiätra 39",
+        "PVGL:Naqrefyöi",
+        "PU:Fxåa ENCF-21",
+        "FEP:262-1080",
+        "HAVG:262-1200 262-1210",
+        "TCF:+55.438100,+13.318483");
+
+    qbGrfg("G89",
+        "Nhgbzngynez\aOenaq\a\aÖegbsgn\aÖegbsgn\a\aFxåa ENCF-13\a263-3000\aYn = 55º 47,137'A    Yb = 013º 15,855'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Öegbsgn",
+        "PVGL:Öegbsgn",
+        "PU:Fxåa ENCF-13",
+        "FEP:263-3000",
+        "HAVG:Yn = 55º 47,137'A    Yb = 013º 15,855'R");
+
+    qbGrfg("G90",
+        "Gensvxbylpxn - fvatry\a" +
+        "Ynfgovy\a" +
+        "Zbgbeiät\a" +
+        "Vaer evatiätra\a" +
+        "Znyzö\a" +
+        "Abee, yäpxre qvrfry, ynfgnq zrq xbtöqfry,\a" +
+        "Fxåa ENCF-12\a" +
+        "261-1000\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1230\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "ZEFLQVO\a" +
+        "Yn = 55º 36,048'A    Yb = 013º 03,575'R",
+
+        "PNYY:Gensvxbylpxn - fvatry / Ynfgovy / Zbgbeiät",
+        "NQQE:Vaer evatiätra",
+        "VASB:Abee, yäpxre qvrfry, ynfgnq zrq xbtöqfry,",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-12",
+        "FEP:261-1000",
+        "HAVG:261-1200 261-1210 261-1230 261-1400 261-1410 ZEFLQVO",
+        "TCF:+55.600800,+13.059583");
+
+    qbGrfg("G91",
+        "Gensvxbylpxn - fvatry\a" +
+        "Ynfgovy\a" +
+        "Zbgbeiät\a" +
+        "Vaer evatiätra\a" +
+        "Znyzö\a" +
+        "Abee\a" +
+        "Fxåa ENCF-12\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1230\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "Yn = 55º 36,048'A    Yb = 013º 03,575'R",
+
+        "PNYY:Gensvxbylpxn - fvatry / Ynfgovy / Zbgbeiät",
+        "NQQE:Vaer evatiätra",
+        "VASB:Abee",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-12",
+        "FEP:261-1200",
+        "HAVG:261-1210 261-1230 261-1400 261-1410",
+        "TCF:+55.600800,+13.059583");
+
+    qbGrfg("G92",
+        "Gensvxbylpxn - fvatry\a" +
+        "Ynfgovy\a" +
+        "Zbgbeiät\a" +
+        "Vaer evatiätra\a" +
+        "Znyzö\a" +
+        "Abee\a" +
+        "Fxåa ENCF-12\a" +
+        "261-1200\a" +
+        "261-1210\a" +
+        "261-1230\a" +
+        "Yn = 55º 36,048'A    Yb = 013º 03,575'R",
+
+        "PNYY:Gensvxbylpxn - fvatry / Ynfgovy / Zbgbeiät",
+        "NQQE:Vaer evatiätra",
+        "VASB:Abee",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-12",
+        "FEP:261-1200",
+        "HAVG:261-1210 261-1230",
+        "TCF:+55.600800,+13.059583");
+
+    qbGrfg("G93",
+        "Nhgbzngynez\aOenaq\a\aXnyraqrtngna 12 P\aZnyzö\a\aFxåa ENCF-01\a261-1400\a261-1410\a261-1430\aYn = 55º 36,332'A    Yb = 013º 00,216'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Xnyraqrtngna 12 P",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-01",
+        "FEP:261-1400",
+        "HAVG:261-1410 261-1430",
+        "TCF:+55.605533,+13.003600");
+
+    qbGrfg("G94",
+        "Oenaq hgr - öievtg\a\a\aYvareb pragehz\aYhaq\a\aFxåa ENCF-17\a263-2000\a263-2010\a263-2030\aYn = 55º 41,670'A    Yb = 013º 14,507'R",
+        "PNYY:Oenaq hgr - öievtg",
+        "NQQE:Yvareb pragehz",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-17",
+        "FEP:263-2000",
+        "HAVG:263-2010 263-2030",
+        "TCF:+55.694500,+13.241783");
+
+    qbGrfg("G95",
+        "Gensvxbylpxn - fvatry\a" +
+        "Crefbaovy\a" +
+        "Zbgbeiät\a" +
+        "R6/R22\a" +
+        "Uöwq zrq Xheynaq\a" +
+        "CO v qvxrg\a" +
+        "Fxåa ENCF-21\a" +
+        "262-1000\a" +
+        "262-1010\a" +
+        "Yn = 55º 22,636'A    Yb = 013º 05,864'R",
+
+        "PNYY:Gensvxbylpxn - fvatry / Crefbaovy / Zbgbeiät",
+        "NQQE:R6/R22",
+        "VASB:CO v qvxrg",
+        "PVGL:Uöwq zrq Xheynaq",
+        "PU:Fxåa ENCF-21",
+        "FEP:262-1000",
+        "HAVG:262-1010",
+        "TCF:+55.377267,+13.097733");
+
+    qbGrfg("G96",
+        "Gensvxbylpxn - fvatry\a" +
+        "Crefbaovy\a" +
+        "Öievtg\a" +
+        "Freranqtngna 23\a" +
+        "Znyzö\a" +
+        "ra co xöeg va v ra cnexrenq ovy, bxyneg nagny qenoonqr\a" +
+        "Fxåa ENCF-14\a" +
+        "261-1000\a" +
+        "261-1030\a" +
+        "Yn = 55º 33,608'A    Yb = 013º 00,384'R",
+
+        "PNYY:Gensvxbylpxn - fvatry / Crefbaovy / Öievtg",
+        "NQQE:Freranqtngna 23",
+        "VASB:ra co xöeg va v ra cnexrenq ovy, bxyneg nagny qenoonqr",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-14",
+        "FEP:261-1000",
+        "HAVG:261-1030",
+        "TCF:+55.560133,+13.006400");
+
+    qbGrfg("G97",
+        "Oenaq v olttanq\a" +
+        "Syresnzvywfuhf\a" +
+        "Yätraurg\a" +
+        "Lfgnqftngna 45\a" +
+        "Znyzö\a" +
+        "Qvzzvtg v genccuhf cå iåa 3, 4 iåa + ivaq, 4 yäturgre cå inewr iåa\a" +
+        "Fxåa ENCF-16\a" +
+        "261-1400\a" +
+        "261-1410\a" +
+        "Yn = 55º 35,345'A    Yb = 013º 01,082'R",
+
+        "PNYY:Oenaq v olttanq / Syresnzvywfuhf / Yätraurg",
+        "NQQE:Lfgnqftngna 45",
+        "VASB:Qvzzvtg v genccuhf cå iåa 3, 4 iåa + ivaq, 4 yäturgre cå inewr iåa",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-16",
+        "FEP:261-1400",
+        "HAVG:261-1410",
+        "TCF:+55.589083,+13.018033");
+
+    qbGrfg("G98",
+        "Nhgbzngynez\aOenaq\a\aGhaniätra 39\aYhaq\a\aFxåa ENCF-06\a263-2000\a263-2010\a263-2030\aYn = 55º 42,557'A    Yb = 013º 12,936'R",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Ghaniätra 39",
+        "PVGL:Yhaq",
+        "PU:Fxåa ENCF-06",
+        "FEP:263-2000",
+        "HAVG:263-2010 263-2030",
+        "TCF:+55.709283,+13.215600");
+
+    qbGrfg("G99",
+        "Oenaq hgr - greeäat\a" +
+        "Teäfoenaq\a\a" +
+        "ybpxnecfnisnegra\a" +
+        "Znyzö\a" +
+        "vatra fcevqavatfevfx gvyy uhf\a" +
+        "Fxåa ENCF-07\a" +
+        "261-1000\a" +
+        "ZEFLQYO\a" +
+        "Yn = 55º 32,871'A    Yb = 013º 01,668'R",
+
+        "PNYY:Oenaq hgr - greeäat / Teäfoenaq",
+        "NQQE:ybpxnecfnisnegra",
+        "VASB:vatra fcevqavatfevfx gvyy uhf",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-07",
+        "FEP:261-1000",
+        "HAVG:ZEFLQYO",
+        "TCF:+55.547850,+13.027800");
+
+    qbGrfg("G100",
+        "Eöxyhxg - olttanq\a" +
+        "Syresnzvywfuhf\a\a" +
+        "Xnggfhaqftngna 16, egw niinxgne\a" +
+        "Znyzö\a" +
+        "yhxgne oeäag cynfg bpu finiry v genccuhfrg\a" +
+        "Fxåa ENCF-11\a" +
+        "261-1400\a" +
+        "ZEFLQYO\a" +
+        "Yn = 55º 36,386'A    Yb = 013º 00,387'R",
+
+        "PNYY:Eöxyhxg - olttanq / Syresnzvywfuhf",
+        "NQQE:Xnggfhaqftngna 16",
+        "CYNPR:egw niinxgne",
+        "VASB:yhxgne oeäag cynfg bpu finiry v genccuhfrg",
+        "PVGL:Znyzö",
+        "PU:Fxåa ENCF-11",
+        "FEP:261-1400",
+        "HAVG:ZEFLQYO",
+        "TCF:+55.606433,+13.006450");
+
+  }
+
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj MFRFjrqraCnefreGrfg().trarengrGrfgf("G1");
   }
