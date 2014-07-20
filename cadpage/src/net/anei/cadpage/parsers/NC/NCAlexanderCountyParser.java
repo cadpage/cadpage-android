@@ -1,19 +1,18 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.Properties;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 
-public class NCAlexanderCountyParser extends SmartAddressParser {
-  
-  private static final Pattern CODE_PTN = Pattern.compile("\\d{1,2}[A-Z]\\d{1,2}[A-Za-z]?");
-  private static final Pattern NC_PTN = Pattern.compile("\\bNC\\b");
+public class NCAlexanderCountyParser extends DispatchOSSIParser {
   
   public NCAlexanderCountyParser() {
-    super("ALEXANDER COUNTY", "NC");
-    setFieldList("ADDR PLACE CALL CODE X");
+    super(CITY_CODES, "ALEXANDER COUNTY", "NC",
+          "FYI? ( CALL2 ADDR CITY INFO+ | ADDR ( CALL! ( END | CODE | X ) | PLACE CALL! CODE? ) X+ )");
   }
   
   @Override
@@ -24,37 +23,74 @@ public class NCAlexanderCountyParser extends SmartAddressParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (body.length() == 0) body = subject;
-    if (body.startsWith("|")) body = body.substring(1).trim();
-    if (!body.startsWith("CAD:")) return false;
-    body = body.substring(4).trim();
-    
-    String[] flds = body.split(";");
-    int st = 0;
-    if (flds[st].trim().equals("FYI:")) st++;
-    if (st >= flds.length) return false;
-    parseAddress(flds[st].trim(), data);
-    
-    int ndx = st + 2;
-    if (ndx > flds.length) return false;
-    boolean code = false;
-    while (true) {
-      if (ndx >= flds.length) break;
-      String field = flds[ndx].trim();
-      code = CODE_PTN.matcher(field).matches();
-      if (code || NC_PTN.matcher(field).find() || field.startsWith("US ") || 
-          isValidAddress(field)) break;
-      if (++ndx > st+3) return false;
-    }
-    
-    data.strCall = flds[ndx-1].trim();
-    if (ndx == st+3) data.strPlace = flds[ndx-2].trim();
-    
-    if (code) data.strCode = flds[ndx++].trim();
-    
-    int stx = ndx;
-    for (ndx = stx; ndx<flds.length && ndx < stx+2; ndx++) {
-      data.strCross = append(data.strCross, " & ", flds[ndx].trim());
-    }
-    return true;
+    body = stripFieldStart(body, "|");
+    return super.parseMsg(body, data);
   }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL2")) return new MyCall2Field();
+    if (name.equals("CODE")) return new CodeField("\\d{1,2}[A-Z]\\d{1,2}[A-Za-z]?", true);
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern CALL_CH_PTN = Pattern.compile("(.+?) CHANNEL # (\\d+)");
+  private class MyCall2Field extends Field {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      
+      // See if this is one of our special call fields
+      if (!field.equals("CANCEL") && !field.equals("UNDER CONTROL")) {
+        if (!field.startsWith("{")) return false;
+        int pt = field.indexOf('}');
+        if (pt < 0) return false;
+        field = field.substring(pt+1).trim();
+      }
+      Matcher match = CALL_CH_PTN.matcher(field);
+      if (match.matches()) {
+        data.strChannel = match.group(1) + ' ' +  match.group(2);
+      } else {
+        data.strCall = field;
+      }
+      return true;
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "CALL CH";
+    }
+  }
+  
+  private static final Pattern CROSS_MARK_PTN = Pattern.compile("\\b(?:NC|US)\\b");
+  private class MyCrossField extends CrossField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (CROSS_MARK_PTN.matcher(field).find()) {
+        super.parse(field, data);
+        return true;
+      }
+      return super.checkParse(field, data);
+    }
+  }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "HID", "HIDDENITE",
+      "HKA", "HICKORY",
+      "MOR", "MORAVIAN FALLS",
+      "STP", "STONY POINT",
+      "TAY", "TAYLORSVILLE TWP"
+  });
+  
 }

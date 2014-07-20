@@ -14,6 +14,7 @@ Fraqre: 3315
 3491105\aOenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aUäaqryfrorfxeviavat : Oenaq v genccuhf ivq vatåat, oevaare v oeriyåqn\aPneyniätra 45n\a\aCbfvgvbaJTF84 : Yn = 59º 22,267'A    Yb = 016º 31,964'R
 3490536\aOenaq v olttanq\aSyresnzvywfuhf\aGenccuhf\aUäaqryfrorfxeviavat : yhxgne eöx v genccuhfrg, fbz ra yägg qvzzn\aEnqrznpuretngna 21, iåa 5\a\aCbfvgvbaJTF84 : Yn = 59º 22,308'A    Yb = 016º 30,783'R
 3185519\aOenaq hgr - greeäat\a\aTeäfoenaq\a\a\a\aZryyna Uäyyoretn  fbpu Äeyn. Cevpvf vaana Äeyn
+3186725\aNhgbzngynez\aOenaq\a\aZhaxgryyfiätra Ibyib Fr 75 Abee  Uäyyol\aRfxvyfghan\aCbfvgvbaJTF84 : Yn = 59º 24,079'A    Yb = 016º 26,958'R\aUäaqryfrorfxeviavat : \aFöez ENCF-1
 
 FZF grkg sbezng
 Oenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aPneyniätra 45n\a\aYn = 59 tenqre 22,267'A    Yb = 016 tenqre 31,964'R
@@ -2210,6 +2211,23 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:Enqrznpuretngna 21",
         "CYNPR:iåa 5",
         "TCF:+59.371800,+16.513050");
+
+    qbGrfg("G1",
+        "3186725\a" +
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Zhaxgryyfiätra Ibyib Fr 75 Abee  Uäyyol\a" +
+        "Rfxvyfghan\a" +
+        "CbfvgvbaJTF84 : Yn = 59º 24,079'A    Yb = 016º 26,958'R\a" +
+        "Uäaqryfrorfxeviavat : \a" +
+        "Föez ENCF-1",
+
+        "VQ:3186725",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Zhaxgryyfiätra Ibyib Fr 75 Abee  Uäyyol",
+        "PVGL:Rfxvyfghan",
+        "TCF:+59.401317,+16.449300",
+        "PU:Föez ENCF-1");
 
   }
   
