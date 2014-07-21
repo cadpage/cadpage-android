@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.StandardCodeTable;
 
 /**
- * Amador County, CA
+ * Sacramento County, CA
  */
 public class CASacramentoCountyParser extends MsgParser {
   

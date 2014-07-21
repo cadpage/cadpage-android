@@ -165,6 +165,7 @@ public class ParserList {
               ,"CAPlacerCounty"                 ,"Placer County, CA"
               ,"CARiversideCounty"              ,"Riverside County, CA"
               ,"CARocklin"                      ,"Rocklin, CA"
+              ,"CASacramentoCounty"             ,"Sacramento County, CA"
               ,"CASanBernardinoCounty"          ,"San Bernardino County, CA"
               ,"CASanDiegoCounty"               ,"San Diego County, CA"
               ,"CASanJoaquinCounty"             ,"San Joaquin County, CA"
@@ -361,6 +362,7 @@ public class ParserList {
               ,"KSMontgomeryCounty"             ,"Montgonery County, KS"
               ,"KSNeoshoCounty"                 ,"Neosho County, KS"
               ,"KSRenoCounty"                   ,"Reno County, KS"
+              ,"KSRiceCounty"                   ,"Rice County, KS"
               ,"KSSedgwickCounty"               ,"Sedgwick County, KS"
           ),
           new ParserCategory("Kentucky"
@@ -805,6 +807,7 @@ public class ParserList {
               ,"ORShermanCounty"                ,"Sherman County, OR"
               ,"ORTillamookCounty"              ,"Tillamook County, OR"
               ,"ORWashingtonCounty"             ,"Washington County, OR"
+              ,"ORWheelerCounty"                ,"Wheeler County, OR"
               ,"ORYamhillCounty"                ,"Yamhill County, OR"
           ),
           new ParserCategory("Pennsylvania"
