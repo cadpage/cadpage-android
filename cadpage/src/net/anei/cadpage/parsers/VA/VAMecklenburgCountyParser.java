@@ -1,17 +1,16 @@
 package net.anei.cadpage.parsers.VA;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchA28Parser;
+import net.anei.cadpage.parsers.dispatch.DispatchA47Parser;
 
-
-
-public class VAMecklenburgCountyParser extends DispatchA28Parser {
+public class VAMecklenburgCountyParser extends DispatchA47Parser {
   
   public VAMecklenburgCountyParser() {
-    super(CITY_LIST, "MECKLENBURG COUNTY", "VA");
+    super("MECK 911", CITY_LIST, "MECKLENBURG COUNTY", "VA");
   }
   
   @Override
@@ -21,15 +20,16 @@ public class VAMecklenburgCountyParser extends DispatchA28Parser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("MECK 911")) return false;
-    if (!super.parseMsg(body, data)) return false;
+    if (!super.parseMsg(subject, body, data)) return false;
     if (data.strCity.equals("MECK CO")) data.strCity = "MECKLENBURG COUNTY";
     else if (data.strCity.equals("BRUN CO")) data.strCity = "BRUNSWICK COUNTY";
-    if (data.strCity.endsWith(" COUNTY") && isCity(data.strPlace)) {
-      data.strCity = data.strPlace;
-      data.strPlace = "";
+    else if (data.strCity.equals("LACROSSE")) data.strCity = "LA CROSSE";
+    else if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
+    
+    if (data.strCity.endsWith(" APT") || data.strCity.endsWith(" APTS")) {
+      data.strPlace = append(data.strPlace, " - ", data.strCity);
+      data.strCity = convertCodes(data.strCity, CITY_MAP_TABLE);
     }
-    if (data.strCity.equals("LACROSSE")) data.strCity = "LA CROSSE";
     
     // Only dispatch center we know that spells out highway numbers :(
     data.strAddress = fixHwyNumbers(data.strAddress);
@@ -77,6 +77,11 @@ public class VAMecklenburgCountyParser extends DispatchA28Parser {
   
   private enum DIGITS {O, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE};
   
+  @Override
+  public String adjustMapCity(String city) {
+    return convertCodes(city, CITY_MAP_TABLE);
+  }
+  
   private static final String[] CITY_LIST = new String[]{
       
       // Cities
@@ -102,7 +107,47 @@ public class VAMecklenburgCountyParser extends DispatchA28Parser {
 
       // County
       "MECK CO",
-      "BRUN CO"
+      "BRUN CO",
+      "BRUNSWICK CO",
+      "BRUNSWICK COUNTY",
+      "LUNENBURG CO",
       
+      // Brunswick County
+      "BRUNSWICK",
+      
+      // Subdivisions
+      "NEWTONS M H PK",
+      "AMERICAMPS",
+      "CHAMPION FOREST",
+      "HOLLY GROVE SUB",
+      "JOYCEVILLE SUBD",
+      "RIVER RIDGE SUB",
+      "TANGLEWOOD SHORES ASSOCIATION",
+      "TANGLEWOOD SUB",
+      "HILLCREST MHP",
+      "GREAT CREEK SUB",
+      "PINE CREEK APTS",
+      "MORRISTOWN SUBD",
+      "PLANTERWOOD APT"
   };
+  
+  private static final Properties CITY_MAP_TABLE = buildCodeTable(new String[]{
+      "NEWTONS M H PK",     "BUFFALO JUNCTION",
+      
+      "AMERICAMPS",           "BRACEY",
+      "CHAMPION FOREST",      "BRACEY",
+      "HOLLY GROVE SUB",      "BRACEY",
+      "JOYCEVILLE SUBD",      "BRACEY",
+      "RIVER RIDGE SUB",      "BRACEY",
+      "TANGLEWOOD SHORES ASSOCIATION", "BRACEY",
+      "TANGLEWOOD SUB",       "BRACEY",
+      
+      "HILLCREST MHP",        "LA CROSSE",
+      "GREAT CREEK SUB",      "LA CROSSE",
+      "PINE CREEK APTS",      "LA CROSSE",
+      
+      "MORRISTOWN SUBD",      "LITTLETON",
+      
+      "PLANTERWOOD APT",      "SOUTH HILL"
+  });
 }
