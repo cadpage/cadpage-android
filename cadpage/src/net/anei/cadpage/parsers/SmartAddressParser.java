@@ -273,7 +273,7 @@ public abstract class SmartAddressParser extends MsgParser {
   
   private static final long ID_DOCTOR = 0x200000000L;
   
-  private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
+  private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[A-Z]?[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
   // List of multiple word cities
   private MultiWordList mWordCities = null;

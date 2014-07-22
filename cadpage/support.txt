@@ -45,6 +45,14 @@ Thanks for your inquiry!
 Take care,
 Jean ~ Cadpage Administrator
 
+***************************************************************************
+* New National Weather Service location
+***************************************************************************
+
+We did recently add a National Weather Service location.  Like all other locations, specifying it does not result in alerts being sent to your device.  It only tells Cadpage how to process alerts that you arrange to have sent to your device.  If you, or your department, have arranged to have NWS alerts sent to your device, specifying the NWS location, in addition to your regular location, will result in Cadpage formatting and displaying those alerts in a little better format than the standard General Alert.  If not, then it really will not do anything for you.
+
+Have a nice day,
+-Ken
 
 ***************************************************************************
 * does not have android.permission.UPDATE_APP_OPS_STATS

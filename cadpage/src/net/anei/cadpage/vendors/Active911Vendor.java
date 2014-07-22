@@ -466,6 +466,7 @@ class Active911Vendor extends Vendor {
       "US/TX/Carrollton",                 "TXCarrollton",
       "US/TX/CityofDickinson",            "TXGalvestonCounty",
       "US/TX/CityofKeller",               "TXKeller",
+      "US/TX/DentonCounty",               "TXDentonCounty",
       "US/TX/FlightVector",               "TXFlightVector",
       "US/TX/FreeportDispatch",           "TXBrazoriaCountyB",
       "US/TX/Gatesville",                 "TXGatesville",
