@@ -487,7 +487,7 @@ transfer to new phone
 
 Your Cadpage subscription will transfer easily to a new phone, as long as 2 things are true:
 1. Your new phone is still an Android phone
-2. Your Cadpage User email address is still (kevincolbaugh@gmail.com).
+2. Your Cadpage User email address is still (_______________).
 
 If those are true, then all you need to do after installing Cadpage on your new phone is this:
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
