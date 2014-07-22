@@ -1,7 +1,7 @@
 Npgvir911 gvpxrgf
 
 ---- C5 --------------------------------
-2013112010000194  Fraqvat rapbqrq UGZY svyr.
+-2013112010000194  Fraqvat rapbqrq UGZY svyr.
 2014010910000197  APPyrirynaqPbhagl qbar
 2014011710000985  NYUbbire qbar
 2014011710000994  PNFbhguYnxrGnubr qbar
@@ -18,34 +18,36 @@ Npgvir911 gvpxrgf
 2013121610000333  INCevaprTrbetrPbhagl qbar
 2014021210000232  ZBWnfcrePbhagl svkrq
 ---- C3 -------------------------------------------------------
-2013031910001068  Ab pnyyf fvapr 11/4/13
-2013052210000111  Ab qngn
+-2013031910001068  Ab pnyyf fvapr 11/4/13
+-2013052210000111  Ab qngn
 2013093010000572  NYPnyubhaPbhaglO (QvfcngpuN35Cnefre)
-2014011610000781  Ab qngn
+-2014011610000781  Ab qngn
 2014011710000878  JIUneevfbaPbhagl qbar
 2014011710000912  Ubyq sbe zber qngn
-2014012010000335  Ubyq sbe zber qngn
+-2014012010000335  Ubyq sbe zber qngn
 2014012010000344  Ubyq sbe zber qngn
 2014022610000715  ZBOneelPbhagl qbar
 2014022610000831  Trareny  jbexf nobhg nf jryy nf nalguvat jr pna qb :(
-2014030710000722  Arrq fbzr erny cntrf ohg tbvat gb or QvfcngpuN11Cnefre fhopynff
+-2014030710000722  Arrq fbzr erny cntrf ohg tbvat gb or QvfcngpuN11Cnefre fhopynff
 2014031810000372  Ab npgvba erdhverq
 2014042310001592  PNFbabznPbhagl - N911 cnefre ceboyrzf
 2014042410000788  GKEnpxfcnpr va cebterff
 -+2014052310000608 
 -+2014052910001169
-+2014061010001479
-+2014061210001073
+-+2014061010001479
+-+2014061210001073
++2014071410000916
++2014071510000861
 ---- C2 -------------------------------------------------------
 2014020310000535  XFPbjyrlPbhagl qbar
 2014030710000553  SYFrzvabyrPbhagl qbar
 2014031010000547  VNQvpxrafbaPbhagl qbar
 ---- C1 -------------------------------------------------------
-2013042410000306  CNPbyhzovnPbhagl qbar
+-2013042410000306  CNPbyhzovnPbhagl qbar
 2014010810000135  ab ntrapl
 2014011010000461  ab qvfcngpu nyregf
 2014011010000471  yngre
-2014011710000681  yngre
+-2014011710000681  yngre
 -----------------------------------------------------------
 -----------------------------------------------------------
 2013092710000257  AIJvaarzhppn (zretr jvgu PNYnxrPbhagl)
