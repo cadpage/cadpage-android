@@ -1,13 +1,19 @@
 package net.anei.cadpage.parsers.KY;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 
 
 public class KYGrantCountyParser extends DispatchB2Parser {
   
+  private static final Pattern PREFIX_PTN = Pattern.compile("^KSP ([- /A-Z0-9]+?)(?: E-?911)?:");
+  
   public KYGrantCountyParser() {
-    super("KSP DRY RIDGE E-911:", CITY_LIST, "GRANT COUNTY", "KY");
+    super("KSP:", CITY_LIST, "GRANT COUNTY", "KY");
   }
   
   @Override
@@ -16,10 +22,19 @@ public class KYGrantCountyParser extends DispatchB2Parser {
   }
   
   @Override
-  protected boolean isPageMsg(String body) {
-    return true;
+  protected boolean parseMsg(String body, Data data) {
+    Matcher match = PREFIX_PTN.matcher(body);
+    if (!match.lookingAt()) return false;
+    data.strSource = match.group(1).trim();
+    body = "KSP:" + body.substring(match.end());
+    return super.parseMsg(body, data);
   }
   
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
+  }
+
   private static final String[] CITY_LIST = new String[]{
     "BOURBON",
     "BROOKSVILLE",
