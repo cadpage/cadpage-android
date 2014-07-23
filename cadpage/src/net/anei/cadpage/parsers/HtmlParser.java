@@ -110,7 +110,14 @@ import net.anei.cadpage.parsers.FieldProgramParser;
  *    XEND=value
  *      This is the highest position in an XPath array from which to use data.  A value of
  *      -1 means no higher bound.  Defaults to -1.
- *      
+ * 
+ *    EMPTY/NONEMPTY
+ *      Only meaningful with REQUIRED.  If an empty field is otherwise ok the requirement
+ *      will be satisfied if EMPTY is set. Default: NONEMPTY
+ *       
+ *    REQUIRED
+ *      This particular datum is required.  If not present, getHtmlCleaner(html) will return false.
+ *       
  *    All of the options and element names are case-insensitive.  Any string value in / / is
  *    case-sensitive.
  *    
@@ -122,6 +129,15 @@ public class HtmlParser extends FieldProgramParser {
   private TagNode root = null;
   private Map<String, ParseInfo> layout = new HashMap<String, ParseInfo>();
   private Map<String, Set<String>> domain = new HashMap<String, Set<String>>();
+  
+  private static final int
+    STATUS_OK = 0,
+    STATUS_EMPTY = 1,
+    STATUS_DOMAIN = 2,
+    STATUS_LABEL = 4,
+    STATUS_OFFSET = 8,
+    STATUS_ROW = 16,
+    STATUS_COL = 32;
   
   private class ParseInfo {
     private String        domain;
@@ -136,6 +152,8 @@ public class HtmlParser extends FieldProgramParser {
     private int           xMin;
     private int           xMax;
     private boolean       multiple;
+    private boolean       required;
+    private boolean       empty;
     private Set<Integer>   offset;
     private String         separator;
     private String         exclude;
@@ -144,6 +162,7 @@ public class HtmlParser extends FieldProgramParser {
     private String         xPath;
     private int           xBegin;
     private int           xEnd;
+    private int           status;
     
     /* Constructor */
     ParseInfo() {
@@ -151,25 +170,29 @@ public class HtmlParser extends FieldProgramParser {
     }
 
     private void init() {
-      domain = "*";
-      element = "";
-      label = "";
-      row = col = -2;
-      removeLabel = false;
-      closest = false;
-      xMin = 5;
-      yMin = 2;
-      xMax = 100;
-      yMax = 2;
-      multiple = false;
+      domain("*");
+      element("");
+      label("");
+      row(-2);
+      col(-2);
+      removeLabel(false);
+      closest(false);
+      xMin(5);
+      yMin(2);
+      xMax(100);
+      yMax(2);
+      multiple(false);
+      required(false);
+      empty(false);
       offset(new HashSet<Integer>());
-      separator = " ";
-      exclude = "";
-      remove = "";
-      value = "";
-      xPath = "";
-      xBegin = 0;
-      xEnd = -1;
+      separator(" ");
+      exclude("");
+      remove("");
+      value("");
+      xPath("");
+      xBegin(0);
+      xEnd(-1);
+      status(STATUS_EMPTY);
     }
     
     // Accessors
@@ -187,6 +210,10 @@ public class HtmlParser extends FieldProgramParser {
     public void removeLabel(boolean rl) { removeLabel = rl; }
     public boolean closest() { return closest; }
     public void closest(boolean c) { closest = c; }
+    public boolean required() { return required; }
+    public void required(boolean r) { required = r; }
+    public boolean empty() { return empty; }
+    public void empty(boolean e) { empty = e; }
     public int xMin() { return xMin; }
     public void xMin(int xm) { xMin = xm; }
     public int xMax() { return xMax; }
@@ -213,6 +240,8 @@ public class HtmlParser extends FieldProgramParser {
     public void xBegin(int xb) { xBegin = xb; }
     public int xEnd() { return xEnd; }
     public void xEnd(int xe) { xEnd = xe; }
+    public int status() { return status; }
+    public void status(int s) { status = s; }
   }
   
   /* Constructors */
@@ -326,6 +355,10 @@ public class HtmlParser extends FieldProgramParser {
       pi.removeLabel(true);
     else if (c.equalsIgnoreCase("CLOSEST"))
       pi.closest(true);
+    else if (c.equalsIgnoreCase("REQUIRED"))
+      pi.required(true);
+    else if (c.equalsIgnoreCase("EMPTY"))
+      pi.empty(true);
     else
       if (c.contains("=")) {
         int ep = c.indexOf('=');
@@ -464,17 +497,19 @@ public class HtmlParser extends FieldProgramParser {
         return false;
     root = htmlCleaner.clean(html.replaceAll(XMLNS_PATTERN_STRING, ""));
 
-    if (root != null)
-      if (!layout.isEmpty())
-        getValues();
-    return root != null;
+    if (root != null) {
+      if (layout.isEmpty())
+        return true;
+      return getValues();
+    }
+    return false;
   }
   
 
   /*
    * This is where the actual values are located and put into the layout
    */
-  private void getValues() {
+  private boolean getValues() {
     Set<String> key = layout.keySet();
     Iterator<String> k = key.iterator();
     while (k.hasNext()) {
@@ -482,16 +517,26 @@ public class HtmlParser extends FieldProgramParser {
       ParseInfo pi = layout.get(tag);
       // Must initialize or values from prev. msg will be carried over
       pi.value("");
+      pi.status(STATUS_EMPTY);
     }
     key = domain.keySet();
     k = key.iterator();
     while (k.hasNext()) {
       String d = k.next();
       Set<String> domainTagSet = new HashSet<String>(domain.get(d));
-      while (processDomain(d))
-        ;
+      if (processDomain(d)) {
+        domain.put(d, domainTagSet);
+        Iterator<String> t = domainTagSet.iterator();
+        while (t.hasNext()) {
+          ParseInfo pi = layout.get(t.next());
+          if (pi.required()
+              && (pi.status() != STATUS_OK || !pi.empty() && pi.status() == STATUS_EMPTY))
+            return false;
+        }
+      }
       domain.put(d, domainTagSet);
     }
+    return true;
   }
 
   /*
@@ -501,12 +546,22 @@ public class HtmlParser extends FieldProgramParser {
    * PHONE(TABLE=5;ELEMENT=TD;LABEL=/Phone:/;OFFSET=1) will get processed together
    * but SOURCE(TABLE=5;ELEMENT=H2) would get processed in another pass.
    * This will be corrected in a future version.
+   * 
+   * Returns true if NOT all tags were successfully processed.
    */
   private boolean processDomain(String d) {
     Set<String> tagSet = domain.get(d);
     Set<String> finalTagSet = new HashSet<String>(tagSet);
     TagNode top = getTop(d);    
     Iterator<String> t = tagSet.iterator();
+    if (top == null) {
+      while (t.hasNext()) {
+        String tag = t.next();
+        ParseInfo pi = layout.get(tag);
+        pi.status(pi.status() | STATUS_DOMAIN);
+        return true;
+      }
+    }
     String el = "";
 //    System.out.println("processDomains("+d+"):  Tags:");
 //    while (t.hasNext())
@@ -517,7 +572,6 @@ public class HtmlParser extends FieldProgramParser {
       ParseInfo pi = layout.get(tag);
       if (!pi.xPath.equals("")) {
         getXPathValue(top, pi);
-        tagSet.remove(tag);
         finalTagSet.remove(tag);
       }
       if (el.equals("")) {
@@ -526,20 +580,20 @@ public class HtmlParser extends FieldProgramParser {
       }
       else if (el.equals(pi.element()))
         finalTagSet.remove(tag);
-      else
-        tagSet.remove(tag);
     }
     // Now tagSet contains tags with like elements
     // If top element is "TABLE" use table processing logic
     if (d.contains("TABLE")) {
       saveRowCol(tagSet);
-      findTableValues(top, tagSet);
+      if (!findTableValues(top, tagSet))
+        return true;
+      
       restoreRowCol(tagSet);
     }
     else
-      findValues(top, el, tagSet);
-    domain.put(d, finalTagSet);
-    return (!finalTagSet.isEmpty());
+      if (!findValues(top, el, tagSet))
+        return true;
+    return !finalTagSet.isEmpty();
   }
 
   /*
@@ -557,6 +611,10 @@ public class HtmlParser extends FieldProgramParser {
       if (pi.exclude().equals("") || !v.contains(pi.exclude()))
         pi.value(append(pi.value(), pi.separator(), cleanValue(v, pi)));
     }
+    if (pi.value().equals(""))
+      pi.status(STATUS_EMPTY);
+    else
+      pi.status(STATUS_OK);
   }
   
   /*
@@ -585,17 +643,23 @@ public class HtmlParser extends FieldProgramParser {
     }
   }
 
-    /*
+   /*
    * Find values in a table where row/column info is necessary.
    * A row or col value of -1 means use all values
+   * returns false on error
    */
-  private void findTableValues(TagNode top, Set<String> tagSet) {
+  private boolean findTableValues(TagNode top, Set<String> tagSet) {
     int rowNum = 0, colNum = 0, rs, cs;
     Map<Integer,Integer> descender = new LinkedHashMap<Integer,Integer>();
     
     if (top == null) {
 //      System.out.println("findTableValues():  null domain");
-      return;
+      Iterator<String> tag = tagSet.iterator();
+      while (tag.hasNext()) {
+        ParseInfo pi = layout.get(tag);
+        pi.status(pi.status() | STATUS_DOMAIN);
+      }
+      return false;
     }
     TagNode[] bodyArray = top.getElementsByName("tbody", false);
     TagNode tbody = null;
@@ -627,6 +691,7 @@ public class HtmlParser extends FieldProgramParser {
       updateDescenders(descender);
       colNum = 0;
     }
+    return true;
   }
 
   /*
@@ -676,8 +741,13 @@ public class HtmlParser extends FieldProgramParser {
 //      System.out.println("pi.label: "+pi.label()+"pi.row: "+pi.row()+", pi.col: "+pi.col());
       if (pi.row() != -2 && pi.col() != -2) {
         if ((pi.row() == -1 || pi.row() == rowNum)
-            && (pi.col() == -1 || pi.col() == colNum))
+            && (pi.col() == -1 || pi.col() == colNum)) {
           pi.value(append(pi.value, pi.separator(), cleanValue(cell.getText().toString(), pi)));
+          if (pi.value().equals(""))
+            pi.status(STATUS_EMPTY);
+          else
+            pi.status(STATUS_OK);
+        }
       }
       else
         if (!pi.label().equals("")) {
@@ -696,40 +766,44 @@ public class HtmlParser extends FieldProgramParser {
     }
   }
   
-  private void findValues(TagNode top, String el, Set<String> tagSet) {
+  /*
+   * findValues() looks for el under top and goes through the tags for this
+   * domain to fill out the values.  Returns false on error.
+   */
+  private boolean findValues(TagNode top, String el, Set<String> tagSet) {
 //    System.out.println("findValues(): Element: \""+el+"\"");
     /*
     ArrayList<TagNode> nodeSet = getElementList(top, el);
     */
-    if (top == null)
-      return;
+    if (top == null) {
+      Iterator<String> tag = tagSet.iterator();
+      while (tag.hasNext()) {
+        ParseInfo pi = layout.get(tag.next());
+        pi.status(pi.status() | STATUS_DOMAIN);
+      }
+      return false;
+    }
     TagNode[] node = top.getElementsByName(el, true);
-    if (node == null)
-      // System.out.println("Got null element list in findValues()");
-      return;
+    if (node == null) {
+      Iterator<String> tag = tagSet.iterator();
+      while (tag.hasNext()) {
+        ParseInfo pi = layout.get(tag.next());
+        pi.status(pi.status() | STATUS_DOMAIN);
+      }
+      return false;
+    }
     Set<String> done = findLabelIndependentValues(node, tagSet);
     Iterator<String> i = done.iterator();
     while (i.hasNext())
       tagSet.remove(i.next());
     findLabelDependentValues(node, tagSet);
+    return true;
    }
   
-  /*
-  // Why is this necessary??? v2.4 worked
-  private ArrayList<TagNode> getElementList(TagNode top, String el) {
-    if (top == null)
-      return null;
-    if (el == null)
-      return null;
-    TagNode[] nodeList = top.getElementsByName(el, true);
-//    TagNode[] nodeList = top.getAllElements(true);    
-    ArrayList<TagNode> ret = new ArrayList<TagNode>();
-    for (int n=0; n<nodeList.length; n++)
-      ret.add(nodeList[n]);
-    return ret;
-  }
-  */
-  
+
+  /* 
+   * This finds values from absolute offsets.
+   */
   private Set<String> findLabelIndependentValues(TagNode[] node, Set<String> tagSet) {
     Set<String> ret = new HashSet<String>();
     Iterator<String> t = tagSet.iterator();
@@ -746,6 +820,10 @@ public class HtmlParser extends FieldProgramParser {
             if (pi.exclude().equals("") || !v.contains(pi.exclude()))
               pi.value(append(pi.value(), pi.separator(), cleanValue(v, pi)));
           }
+          else {
+            pi.status(pi.status() | STATUS_OFFSET);
+            return ret;
+          }
         }
         ret.add(tag);
       }
@@ -753,6 +831,9 @@ public class HtmlParser extends FieldProgramParser {
     return ret;
   }
   
+  /*
+   * This finds values relative to a label
+   */
   private void findLabelDependentValues(TagNode[] node, Set<String> tagSet) {
     Iterator<String> t;
     Set<String> done = new HashSet<String>();
@@ -790,6 +871,11 @@ public class HtmlParser extends FieldProgramParser {
         while (t.hasNext())
           tagSet.remove(t.next());
       }
+    }
+    t = tagSet.iterator();
+    while (t.hasNext()) {
+      ParseInfo pi = layout.get(t.next());
+      pi.status(pi.status() | STATUS_LABEL);
     }
   }
   

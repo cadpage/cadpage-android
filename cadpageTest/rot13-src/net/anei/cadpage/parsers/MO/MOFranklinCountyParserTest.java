@@ -758,7 +758,6 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
         "NQQE:UVTUJNL 47",
-        "PVGL:SENAXYVA PBHAGL",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "ZNC:HAR22O",
         "QNGR:02/25/2014",
@@ -848,7 +847,6 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
         "NQQE:QNAVRYF RFGNGRF QE",
-        "PVGL:SENAXYVA PBHAGL",
         "PNYY:BHGFVQR SVER PBAGEBYYRQ OHEA",
         "ZNC:HAS22O",
         "QNGR:02/22/2014",
@@ -1368,7 +1366,6 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
         "NQQE:UVTUJNL 47",
-        "PVGL:SENAXYVA PBHAGL",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "ZNC:HAS20O",
         "QNGR:02/14/2014",
@@ -1386,7 +1383,6 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
         "NQQE:UVTUJNL 47",
-        "PVGL:SENAXYVA PBHAGL",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "ZNC:HAR20O",
         "QNGR:02/14/2014",
@@ -1810,7 +1806,6 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
         "NQQE:UVTUJNL I",
-        "PVGL:SENAXYVA PBHAGL",
         "PNYY:PVGVMRA NFFG/FREIVPR PNYY ABAZRQVPNY NFFVFGNAPR",
         "ZNC:HAS33O",
         "QNGR:02/06/2014",
@@ -1907,6 +1902,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:13:56:05",
         "HAVG:(N)8219",
         "FEP:HAVBA SVER");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

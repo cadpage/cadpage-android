@@ -83,7 +83,14 @@ public class NYOswegoCountyBParser extends HtmlParser {
     setDateTime(MY_DATE_FMT, getValue("DATETIME"), data);
     data.strUnit = getValue("UNIT");
     data.strName = getValue("NAME");
-    parseAddress(StartType.START_ADDR, getValue("ADDRESS"), data);
+    Result r;
+    r = parseAddress(StartType.START_ADDR, getValue("ADDRESS"));
+    if (r.getStatus() > 2) {
+      r.getData(data);      
+    }
+    else
+      parseAddress(StartType.START_ADDR, getValue("LOCATION"), data);
+      
     data.strCallId = getValue("ID");
     data.strSupp = getValue("INFO");
 

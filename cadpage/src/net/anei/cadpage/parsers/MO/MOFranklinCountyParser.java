@@ -36,16 +36,17 @@ public class MOFranklinCountyParser extends HtmlParser {
     setDateTime(MY_DATE_FMT, dateTime, data);
     data.strUnit = getValue("UNIT");
     data.strSource = getValue("SOURCE");
-    
-    return data.strCall.length() > 0 && dateTime.length() > 0 && data.strUnit.length() > 0;
+  
+    return true;
+//    return data.strCall.length() > 0 && dateTime.length() > 0 && data.strUnit.length() > 0;
   }
   
   private static final String[] LAYOUT = {
     "LOCATION(ELEMENT=TD;LABEL=/Location:/;REMOVE_LABEL)",
-    "CALL(ELEMENT=TD;LABEL=/Response Type:/;REMOVE_LABEL)",
+    "CALL(ELEMENT=TD;LABEL=/Response Type:/;REMOVE_LABEL;REQUIRED)",
     "MAP(ELEMENT=TD;LABEL=/Zone Name:/;REMOVE_LABEL)",
-    "DATETIME(ELEMENT=TD;LABEL=/Status Time:/;REMOVE_LABEL)",
-    "UNIT(ELEMENT=TD;LABEL=/Handling Unit:/;REMOVE_LABEL)",
+    "DATETIME(ELEMENT=TD;LABEL=/Status Time:/;REMOVE_LABEL;REQUIRED)",
+    "UNIT(ELEMENT=TD;LABEL=/Handling Unit:/;REMOVE_LABEL;REQUIRED)",
     "SOURCE(ELEMENT=TD;LABEL=/Agency Name:/;REMOVE_LABEL)"
   };
   
