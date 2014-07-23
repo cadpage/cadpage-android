@@ -446,8 +446,10 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "WPIKEL", "WEST PIKELAND TWP",
 
       // Mongtomery county
+      "MONT",        "MONTGOMERY COUNTY",
+      "MONTC",       "MONTGOMERY COUNTY",
       "UPPER POTTS", "UPPER POTTSGROVE TWP",
-      "UPPER PROV", "UPPER PROVIDENCE TWP",
+      "UPPER PROV",  "UPPER PROVIDENCE TWP",
 
   });
 } 

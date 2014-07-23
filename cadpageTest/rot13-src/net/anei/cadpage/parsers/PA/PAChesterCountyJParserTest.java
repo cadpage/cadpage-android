@@ -336,6 +336,7 @@ choyvp pynff CNPurfgrePbhaglWCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NIAS13001011",
         "PNYY:ONEA SVER",
         "NQQE:ARJNEX EQ & FCRAPRE EQ",
+        "PVGL:JRFG ZNEYOBEBHTU GJC",
         "CYNPR:ZRNQBJ FCEVAT SNEZ",
         "VASB:GUVEQ CNEGL--GBYQ FZBXR VA ONEA--CBFF UNL ONYRF BA SVER",
         "GVZR:14:07",

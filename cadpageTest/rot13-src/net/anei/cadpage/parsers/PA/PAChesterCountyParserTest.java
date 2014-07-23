@@ -92,12 +92,6 @@ choyvp pynff CNPurfgrePbhaglCnefreGrfg {
       frgCnefre(arj CNPurfgrePbhaglCnefre());
     }
   }
-  
-  choyvp fgngvp pynff GrfgX rkgraqf CNPurfgrePbhaglXCnefreGrfg {
-    choyvp GrfgX() {
-      frgCnefre(arj CNPurfgrePbhaglCnefre());
-    }
-  }
  
   choyvp fgngvp pynff GrfgY rkgraqf CNPurfgrePbhaglYCnefreGrfg {
     choyvp GrfgY() {

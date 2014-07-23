@@ -106,7 +106,8 @@ choyvp pynff CNPurfgrePbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NPPVQRAG - HAXABJA VAWHEVRF",
         "NQQE:BYQ ONYGVZBER CX & IVYYNTR EQ",
         "ZNQQE:BYQ ONYGVZBER CVXR & IVYYNTR EQ",
-        "VASB:2 IRU/OYXT EBNQJNL/");
+        "VASB:2 IRU/OYXT EBNQJNL/",
+        "PVGL:HCCRE BKSBEQ GJC");
 
     qbGrfg("G8",
         "(Qvfcngpu) PUVZARL SVER * ** 3064 YVZRFGBAR EQ ,44 ** JSNYYB **  ** UBFGRGGRE EQ & UVTUIVRJ Q ** - ** PUVZARL\a" +

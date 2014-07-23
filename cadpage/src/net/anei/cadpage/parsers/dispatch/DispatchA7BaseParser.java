@@ -116,7 +116,7 @@ public class DispatchA7BaseParser extends FieldProgramParser {
       data.strCity = getCity(city);
     }
   }
-  private static final Pattern ADDR_TRAIL_MARK = Pattern.compile(" *\\([A-Z]{1,2}\\)$");
+  private static final Pattern ADDR_TRAIL_MARK = Pattern.compile(" *\\([A-Z]{1,2}\\)?$");
   private static final Pattern CROSS_MARK = Pattern.compile(" X/| s?btwn[: ]");
   private static final Pattern APT_MARK = Pattern.compile(" *-? *\\bAPT(?!S) *#? *([^ ]+)$");
   private static final Pattern PLACE_MARK = Pattern.compile(" -+ ");
