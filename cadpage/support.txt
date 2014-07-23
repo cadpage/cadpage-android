@@ -13,6 +13,13 @@ This paging service is only available to users or departments that have current 
 We especially appreciate the 200+ early adopters with lifetime subscriptions that supported Cadpage at the start. Those members are encouraged to use this paging service as part of their initial investment.
 
 Thank you all for your continued support!
+**************************************************************************
+NO FREE PAGING SERVICE
+
+You can only register for the paging service if you have really paid for
+a subscription.  We have to pay the server operators for each device
+using that service and cannot afford to do that for users who are not
+paying us.
 
 **************************************************************************
 Benefits of using Cadpage Paging Service
@@ -3403,6 +3410,52 @@ be contacted at their respective web sites.  Both are highly recommended.
 
 Have a nice day,
 -Ken
+****************************************************************
+Running Cadpage on a Tablet
+
+There are two problems here.
+
+First we need to get Cadpage to recognize your old payment status on the
+new tablet.  This should happen automatically if you set up the tablet
+with same email address you used for your old phone.  More specifically,
+the payment status should transfer over if Google Play Store has been
+configured to use the same email address on both phones.  If you have to
+change things, you may have to open Cadpage Settings and select
+Payment Status > Recalculate Payment Status
+to fix things.
+
+If you still do not have the same payment status on both devices,
+contact us again, preferrably by using the
+Payment Status > I already paid for this
+feature on both the old and new phones.
+
+The second problem is that Cadpage generally works by processing text
+messages sent from your dispatch center.  And most Android tablets can
+not receive text messages.  There are exceptions, and if yours happens
+to be one of them, well and good.  Otherwise we have to find a different
+way of getting those alerts to Cadpage on your tablet.
+
+The way to do that is to route your dispatch alerts through a paging
+service that supports direct paging to Cadpage.  There are three such
+services.  CodeMessaging.net and Active911 are both full featured
+services that will support your entire department.  Both cost a
+reasonable amount of money, and Cadpage is free if you are getting pages
+from either one.  If have recently purchased a paid Cadpage subscription
+and then decide to switch to either service, you can contact us about
+getting that subscription purchase refunded.
+
+The other service is our own, bare bones, no frills, Cadpage paging
+service.  This is available at no additional cost, but only if you
+really paid for a Cadpage subscription.  And it only supports a single
+user.  Like the other services, you have to get dispatch to send your
+dispatch alert messages to a specific email address, those alerts will
+be forwarded to your device through the mobile data networks.  Since no
+text messages are involved in this, the service works on devices that
+can not process text messages.
+
+Take care,
+Jean ~ Cadpage Administrator
+
 
 ****************************************************************
 USe Cadpage with Active911

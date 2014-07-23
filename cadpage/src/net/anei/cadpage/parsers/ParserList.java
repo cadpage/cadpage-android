@@ -364,6 +364,7 @@ public class ParserList {
               ,"KSRenoCounty"                   ,"Reno County, KS"
               ,"KSRiceCounty"                   ,"Rice County, KS"
               ,"KSSedgwickCounty"               ,"Sedgwick County, KS"
+              ,"KSWichita"                      ,"Wichita, KS"
           ),
           new ParserCategory("Kentucky"
               ,"KYAndersonCounty"               ,"Anderson County, KY"
@@ -931,6 +932,7 @@ public class ParserList {
               ,"TXDecatur"                      ,"Decatur, TX"
               ,"TXDentonCounty"                 ,"Denton County, TX"
               ,"TXFlightVector"                 ,"Flight Vector, TX"
+              ,"TXFortBendCounty"               ,"Fort Bend County, TX"
               ,"TXGainesville"                  ,"Gainesville, TX"
               ,"TXGalvestonCounty"              ,"Galveston County, TX"
               ,"TXGatesville"                   ,"Gatesville, TX"

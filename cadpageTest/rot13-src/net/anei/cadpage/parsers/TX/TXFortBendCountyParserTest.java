@@ -5,7 +5,8 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
-Sbeg Oraq, GK
+Sbeg Oraq Pbhagl, GK
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Abegurnfg Sbeg Oraq Pbhagl SQ
 Ybpngvba: Fhtne Ynaq, GK, Havgrq Fgngrf
