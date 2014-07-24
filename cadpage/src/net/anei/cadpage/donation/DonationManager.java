@@ -5,8 +5,6 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 import android.content.Context;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.os.Handler;
 import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.EmailDeveloperActivity;
@@ -19,10 +17,10 @@ import net.anei.cadpage.vendors.VendorManager;
 public class DonationManager {
   
   // Authorization recheck interval (60 days in msecs)
-  private static final long AUTH_CHECK_INTERVAL = (long)60*24*60*60*1000;
+  // private static final long AUTH_CHECK_INTERVAL = (long)60*24*60*60*1000;
   
   // Authorization recheck interval (1 day in msecs)
-  private static final long AUTH_RECHECK_INTERVAL = (long)24*60*60*1000;
+  // private static final long AUTH_RECHECK_INTERVAL = (long)24*60*60*1000;
   
   // How long user can run after initial install
   public static final int DEMO_LIMIT_DAYS = 30;
@@ -87,52 +85,47 @@ public class DonationManager {
   private static String workSponsor = null;
 
   public void checkPaymentStatus(Context context) {
-    
-    // See if it is time to perform an automatic reload
-    // If this is a lifetime user, don't bother
-    if (!ManagePreferences.freeRider()) {
-      
-      // if not, get the current time and last authorization check time
-      long lastTime = ManagePreferences.authLastCheckTime();
-      long curTime = System.currentTimeMillis();
-      
-      // If the last check time is zero, we check to see if the initialized flag has been
-      // set.  If not, this is the first time the user has launched Cadpage and we should do
-      // an immediate payment status reload to see if they have been a subscriber on another phone.
-      if (lastTime <= 0 && ManagePreferences.initialized()) {
-        
-        // Likewise, if Cadpage has been initialized but the purchase and install dates are the same
-        // the purchase date is not trustworthy and we need to reload the payment status immediately
-        if (ManagePreferences.paidYear() == 0 ||
-            !ManagePreferences.purchaseDate().equals(ManagePreferences.installDate())) {
-            
-          // Otherwise, we will try to spread out the load by timing the next authorization check 
-          // at a random time within the next 60 days
-          
-            lastTime = curTime - (long)(Math.random()*AUTH_CHECK_INTERVAL);
-            ManagePreferences.setAuthLastCheckTime(lastTime);
-        }
-      }
-      
-      // Having done all of that, if the different between the current time and the
-      // lasted checked time exceeds the current check interval, it is time to recalculate
-      // the payment status.  If we are rechecking the status after a previous calculation
-      // reported a payment status downgrade, check after 24 hours.  Otherwise check every
-      // 60 days.
-      long checkInterval = ManagePreferences.authRecheckStatusCnt() > 0 ? AUTH_RECHECK_INTERVAL : AUTH_CHECK_INTERVAL;
-      if (curTime - lastTime > checkInterval) {
-        
-        // OK, don't try this if we have no network connectivity!!
-        ConnectivityManager mgr = ((ConnectivityManager) 
-            context.getSystemService(Context.CONNECTIVITY_SERVICE));
-        NetworkInfo info = mgr.getActiveNetworkInfo();
-        if (info != null  && info.isConnected()) {
-          
-          // Request status reload from android market and authorization server
-          DonationManager.instance().reloadStatus();
-        }
-      }
-    }
+    // Automatic payment status checking has beend disabled for now, and
+    // probably forever. 
+//    
+//    // See if it is time to perform an automatic reload
+//    // If this is a lifetime user, don't bother
+//    if (!ManagePreferences.freeRider()) {
+//      
+//      // if not, get the current time and last authorization check time
+//      long lastTime = ManagePreferences.authLastCheckTime();
+//      long curTime = System.currentTimeMillis();
+//      
+//      // If the last check time is zero, we check to see if the initialized flag has been
+//      // set.  If not, this is the first time the user has launched Cadpage and we should do
+//      // an immediate payment status reload to see if they have been a subscriber on another phone.
+//      if (lastTime <= 0 && ManagePreferences.initialized()) {
+//          
+//        // Otherwise, we will try to spread out the load by timing the next authorization check 
+//        // at a random time within the next 60 days
+//        lastTime = curTime - (long)(Math.random()*AUTH_CHECK_INTERVAL);
+//        ManagePreferences.setAuthLastCheckTime(lastTime);
+//      }
+//      
+//      // Having done all of that, if the different between the current time and the
+//      // lasted checked time exceeds the current check interval, it is time to recalculate
+//      // the payment status.  If we are rechecking the status after a previous calculation
+//      // reported a payment status downgrade, check after 24 hours.  Otherwise check every
+//      // 60 days.
+//      long checkInterval = ManagePreferences.authRecheckStatusCnt() > 0 ? AUTH_RECHECK_INTERVAL : AUTH_CHECK_INTERVAL;
+//      if (curTime - lastTime > checkInterval) {
+//        
+//        // OK, don't try this if we have no network connectivity!!
+//        ConnectivityManager mgr = ((ConnectivityManager) 
+//            context.getSystemService(Context.CONNECTIVITY_SERVICE));
+//        NetworkInfo info = mgr.getActiveNetworkInfo();
+//        if (info != null  && info.isConnected()) {
+//          
+//          // Request status reload from android market and authorization server
+//          DonationManager.instance().reloadStatus();
+//        }
+//      }
+//    }
   }
   
   /**
@@ -224,7 +217,7 @@ public class DonationManager {
       
       // All system go.  Save the working status variable and recalculate
       // the payment status
-      saveCalcStatus();
+      saveCalcStatus(true);
       
       // Reset downgrade recheck status count
       ManagePreferences.setAuthRecheckStatusCnt(0);
@@ -311,20 +304,22 @@ public class DonationManager {
       
       // If this wasn't an status recalculation, save all of the working
       // variables back to persistent storage and recalculate the payment status
-      if (!recalcInProgress) saveCalcStatus();
+      if (!recalcInProgress) saveCalcStatus(false);
     }
   }
 
   /**
    * Save all working status calculation variables to persistent storage
    * and recalculate payment status
+   * @param reload true if this is a mandatory status recalculation
    */
-  private static void saveCalcStatus() {
+  private static void saveCalcStatus(boolean reload) {
     if (workPaidYear == 9999) {
       ManagePreferences.setFreeRider(true);
     } else {
       ManagePreferences.setFreeRider(false);
-      ManagePreferences.setPaidYear(workPaidYear, true);
+      if (reload) ManagePreferences.setPaidYear(workPaidYear);
+      else ManagePreferences.setPaidYear(workPaidYear, true);
       ManagePreferences.setPurchaseDateString(workPurchaseDateStr);
       ManagePreferences.setFreeSub(workFreeSub);
       ManagePreferences.setSponsor(workSponsor);
