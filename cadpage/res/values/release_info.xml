@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07212014</string>
-  <string name="release_version">v1.7.33</string>
+  <string name="release_date">07242014</string>
+  <string name="release_version">v1.7.34</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -9,26 +9,16 @@ Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
 New Locations:\n
-Sacramento County, CA\n
-Atlantic County, NJ (alt)\n
-Rice County, KS\n
-Wheeler County, OR\n
-National Weather Service\n
+Wichita, KS\n
+Fort Bend County, TX\n
 \n
 Location Parsing Fixes:\n
-Sonoma County, CA\n
-Douglas County, CO\n
-Marshall County, IN\n
-Alexander County, NC\n
-Mecklenburg County, NC\n
-Washington County, OH\n
-Jefferson County, OR\n
-Travis County, TX\n
-Sweden\n
+Chester County, PA\n
+Denton County, TX\n
+Henry County, VA\n
 \n
-General fixes:\n
-Support for Android 4.1 expanded notifications\n
-Dropped privacy mode\n
+General Fixes:\n
+Occasional force close at startup\n
   </string>
 </resources>
   

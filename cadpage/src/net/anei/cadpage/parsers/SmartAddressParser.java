@@ -451,7 +451,8 @@ public abstract class SmartAddressParser extends MsgParser {
    * @param charList list of characters that will be allowed
    */
   protected void allowBadChars(String charList) {
-    StringBuilder sb = new StringBuilder('[');
+    StringBuilder sb = new StringBuilder();
+    sb.append('[');
     for (char chr : "()[],".toCharArray()) {
       if (charList.indexOf(chr) < 0) {
         sb.append('\\');
