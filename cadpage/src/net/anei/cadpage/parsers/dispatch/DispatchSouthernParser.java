@@ -280,8 +280,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
       String call = callSet.getCode(sExtra, true);
       if (call != null) {
         data.strCall = call;
-        data.strSupp = sExtra.substring(call.length()).trim();
-        if (data.strSupp.startsWith("/")) data.strSupp = data.strSupp.substring(1).trim();
+        data.strSupp = stripFieldStart(sExtra.substring(call.length()).trim(), "/");
         return;
       }
     }

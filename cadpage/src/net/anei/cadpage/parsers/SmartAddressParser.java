@@ -176,6 +176,8 @@ public abstract class SmartAddressParser extends MsgParser {
   public static final int STATUS_MARGINAL = 1;
   public static final int STATUS_NOTHING = 0;
       
+  // Pattern searching for characters that are not allowed in addresses
+  private Pattern badCharPtn = null;
   
   private Properties cityCodes = null;
   
@@ -318,6 +320,7 @@ public abstract class SmartAddressParser extends MsgParser {
   public SmartAddressParser(String defCity, String defState, CountryCode code) {
     super(defCity, defState, code);
     setupDictionary(defState);
+    allowBadChars("");
   }
 
   /**
@@ -441,6 +444,22 @@ public abstract class SmartAddressParser extends MsgParser {
     default:
       break;
     }
+  }
+  
+  /**
+   * Allow otherwise prohibited characters in address
+   * @param charList list of characters that will be allowed
+   */
+  protected void allowBadChars(String charList) {
+    StringBuilder sb = new StringBuilder('[');
+    for (char chr : "()[],".toCharArray()) {
+      if (charList.indexOf(chr) < 0) {
+        sb.append('\\');
+        sb.append(chr);
+      }
+    }
+    sb.append(']');
+    badCharPtn = Pattern.compile(sb.toString());
   }
   
   /**
@@ -2260,7 +2279,6 @@ public abstract class SmartAddressParser extends MsgParser {
       Pattern.compile("\\.?(?:\\s+|(?<! )(?=[/&,])|(?<=[/&,:])(?! )|(?<=\\.)(?![ \\d])|,)");
 
   // Identify token type
-  private static final Pattern BAD_CHARS = Pattern.compile("[\\(\\)\\[\\],]");
   private void setType(int ndx, boolean checkAt, boolean pastAddr) {
     String token = tokens[ndx];
     
@@ -2268,7 +2286,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // and bail out.  This is only a problem if we are still in the address proper
     // If we have passed the address and are now in apt or cross fields, illegal
     // character tokens are OK
-    if (!pastAddr && BAD_CHARS.matcher(token).find()) {
+    if (!pastAddr && badCharPtn.matcher(token).find()) {
       tokenType[ndx] |= ID_NOT_ADDRESS;
       return;
     }

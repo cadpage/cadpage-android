@@ -19,6 +19,7 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
   
   public VAHenryCountyParser() {
     super(CALL_LIST, CITY_LIST, "HENRY COUNTY", "VA", DSFLAG_CROSS_NAME_PHONE | DSFLAG_FOLLOW_CROSS);
+    allowBadChars("()");
   }
 
   @Override
@@ -51,7 +52,7 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
       data.strPriority = match.group(1);
     }
     
-    else {
+    else if (CALL_LIST.getCode(data.strCall) == null) {
       String info = append(data.strCall, " ", data.strSupp);
       match = INLINE_PRIORITY_PTN.matcher(info);
       if (match.find()) {
@@ -68,43 +69,96 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
     if (sExtra.startsWith("-")) sExtra = sExtra.substring(1).trim();
     super.parseExtra(sExtra, data);
   }
+  
+  @Override
+  protected boolean isNotExtraApt(String apt) {
+    if (apt.startsWith("(")) return true;
+    return super.isNotExtraApt(apt);
+  }
+
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("CALL", "CALL PRI");
+  }
+
+  private static final String[] CITY_LIST = new String[]{
+      "MARTINSVILLE",
+      "RIDGEWAY",
+
+      "AXTON",
+      "BASSETT",
+      "CHATMOSS",
+      "COLLINSVILLE",
+      "FIELDALE",
+      "HORSEPASTURE",
+      "LAUREL PARK",
+      "OAK LEVEL",
+      "SANDY LEVEL",
+      "SPENCER",
+      "STANLEYTOWN",
+      "VILLA HEIGHTS"
 
 
-
-  private static final String[] CITY_LIST = new String[]
-     {"RIDGEWAY", "MARTINSVILLE", "SPENCER", "BASSETT", "COLLINSVILLE", "FIELDALE", "AXTON"};
+  };
   
   private static final CodeSet CALL_LIST = new CodeSet(
+      "911 - 911 OPEN LINE - HANG UP",
       "ABDOMINAL / BACK PAIN",
+      "ADMIN MAINTENANCE",
+      "ALARM - RESIDENCE",
       "ALLERGIC REACTION",
       "ANIMAL / SNAKE BITE",
       "ASSAULT AGGRAVATED",
       "ASSAULT WITH INJURY",
       "BLEEDING (NON-TRAUMATIC)",
+      "CALL BY PHONE",
       "CARDIAC (WITH PREVIOUS HISTORY)",
       "CHEST PAINS",
+      "CHOKING",
       "DIABETIC ILLNESS",
       "DIFFICULTY BREATHING",
       "DISTURBANCE",
       "DIZZINESS, WEAKNESS",
+      "DOMESTIC - ASSAULT",
+      "F-BRUSH FIRE",
+      "F-CHIMNEY FIRE",
+      "F-CONTROLLED BURN",
+      "F-DUMPSTER FIRE",
       "F-EXPLOSION W-FIRE",
+      "F-FIRE ALARM",
+      "F-HELICOPTER LANDING ZONE",
+      "F-OTHER FIRE - EXPLAIN",
+      "F-POWER LINE DOWN",
+      "F-GAS SMELL-FUMES",
+      "F-SMOKE INVESTIGATION",
       "F-STRUCTURE FIRE",
+      "F-UNAUTHORIZED BURNING",
+      "F-VEHICLE FIRE",
       "FALL",
       "FALL - FRACTURE",
+      "FAR-ARCING-SHORTED ELEC EQPT",
       "HEADACHE",
       "HIGH BLOOD PRESSURE",
-      "LOG FOR RECORD TEST TONES",
+      "HIT & RUN",
+      "LOG FOR RECORD",
       "MEDICAL ALARM",
       "MOTOR VEHICLE CRASH",
       "MOTOR VEHICL CRASH / PEDESTRIAN",
       "MOTOR VEHICLE CRASH W/INJURY",
+      "MOTOR VEHICLE CRASH W/NO INJURY",
+      "OB-GYN (PREGNANCY - MISCARRIAGE)",
       "OVERDOSE",
+      "PSYCHIATRIC PATIENT MENTAL",
+      "SEIZURES",
+      "SERVING WARRANT",
       "SICK",
       "SICK / UNKNOWN",
       "SICK FLU LIKE SYMPTOMS",
       "STROKE",
-      "SEIZURES",
+      "SUICIDE SUICIDE ATTEMPT",
+      "SUSPICIOUS CIRCUMSTANCES",
       "SUSPICIOUS PERSON",
+      "TRANSPORT (HOSPITAL-DR OFFICE ETC.)",
       "TRAUMA",
       "UNCONSCIOUS / UNRESPONSIVE SYNCOPE",
       "WELLBEING CHECK"
