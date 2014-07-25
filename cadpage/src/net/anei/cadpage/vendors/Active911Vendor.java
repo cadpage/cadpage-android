@@ -262,6 +262,7 @@ class Active911Vendor extends Vendor {
       "US/MD/StMarysCounty",              "MDStMarysCounty",
       "US/MD/WashingtonCounty",           "MDWashingtonCounty",
       "US/MI/AlleganCounty",              "MIAlleganCounty",
+      "US/MI/AlpenaCounty",               "MIAlpenaCounty",
       "US/MI/BarryCounty",                "MIBarryCounty",
       "US/MI/BayCounty",                  "MIBayCountyB",
       "US/MI/CalhounCounty",              "MICalhounCounty",
