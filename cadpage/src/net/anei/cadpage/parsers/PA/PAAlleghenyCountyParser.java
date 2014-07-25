@@ -18,7 +18,7 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
   
   public PAAlleghenyCountyParser() {
     super(CITY_CODES, "ALLEGHENY COUNTY", "PA",
-           "CODE PRI CALL CALL+? ( GPS1 GPS2 | ADDR/Z CITY ( AT SKIP | ) ) XINFO+? SRC BOX! ID? INFO+ Units:UNIT UNIT+");
+           "CODE PRI CALL CALL+? ( GPS1 GPS2 | ADDR/Z CITY! ( AT SKIP | ) ) XINFO+? SRC BOX% ID? INFO+ Units:UNIT UNIT+");
   }
   
   
