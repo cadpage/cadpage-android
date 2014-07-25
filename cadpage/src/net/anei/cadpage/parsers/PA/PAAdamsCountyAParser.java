@@ -11,8 +11,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchA1Parser;
  */
 public class PAAdamsCountyAParser extends DispatchA1Parser {
   
-  private static final Pattern IAMR_PREFIX = Pattern.compile("^(?:Alert: +)?(.*?)[ \n](?=ALRM LVL:)");
-  private static final Pattern COMMA_PTN = Pattern.compile(",*\n,*");
+  private static final Pattern IAMR_PREFIX1 = Pattern.compile("^(?:Alert: +)?(.*?)[ \n](?=ALRM LVL:)");
+  private static final Pattern IAMR_PREFIX2 = Pattern.compile("^([^:\n]+): +BOX *(\\d*)\n");
+  private static final Pattern COMMA_PTN = Pattern.compile("[ ,]*\n[ ,]*");
   
   public PAAdamsCountyAParser() {
     super("ADAMS COUNTY", "PA");
@@ -27,10 +28,16 @@ public class PAAdamsCountyAParser extends DispatchA1Parser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     // Check for garbled prefix associated with IamResponding
-    Matcher match = IAMR_PREFIX.matcher(body);
-    if (match.find()) {
+    Matcher match = IAMR_PREFIX1.matcher(body);
+    if (match.lookingAt()) {
       data.strSource = subject;
       subject = "Alert: " + match.group(1).trim();
+      body = body.substring(match.end()).trim().replace(",   BOX ", ", RUN CARD: BOX ");
+      body = COMMA_PTN.matcher(body).replaceAll("\n");
+      body = body.replaceAll(" , ", " ");
+    }
+    else if ((match = IAMR_PREFIX2.matcher(body)).lookingAt()) {
+      subject = "Alert: " + append(match.group(1).trim(), " - ",  match.group(2).trim());
       body = body.substring(match.end()).trim().replace(",   BOX ", ", RUN CARD: BOX ");
       body = COMMA_PTN.matcher(body).replaceAll("\n");
       body = body.replaceAll(" , ", " ");
