@@ -3504,3 +3504,20 @@ Also for those that keep asking and begging Ken has started working on an IPhone
 ***********************************************************************
 Useful search expressions
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)
+
+************************************************************************
+SPONSOR - no location 
+
+You are using the generic location, which is always a hit or miss
+proposition.  There must be something in you dispatch alerts that the
+generic location parser is misreading as a dispatch date.
+
+First thing to try is go into Cadpage Location Settings, Select Single
+Location, then see if we have a location covering your area.  If there
+is, select it and see if that fixes all of your existing alert calls.
+
+If there isn't one, or if it does not fix the existing alerts, long
+press all of your existing calls and select "Report Problem" to send
+them to us.  We can use that information to write a new location parser
+for you.
+
