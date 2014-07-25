@@ -2,15 +2,18 @@ package net.anei.cadpage.parsers.TX;
 
 import java.util.Properties;
 
-import net.anei.cadpage.parsers.dispatch.DispatchA41Parser;
+import net.anei.cadpage.parsers.GroupBestParser;
 
-public class TXFortBendCountyParser extends DispatchA41Parser {
-
+/**
+ * Collin County, TX
+ */
+public class TXFortBendCountyParser extends GroupBestParser {
+  
   public TXFortBendCountyParser() {
-    super(CITY_CODES, "FORT BEND COUNTY", "TX", "[A-Z]{2,3}");
+    super(new TXFortBendCountyAParser(), new TXFortBendCountyBParser());
   }
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+  static final Properties CITY_CODES = buildCodeTable(new String[]{
       "BEA", "BEASLEY",
       "EB", "EAST BERNARD", 
       "FUL", "FULSHEAR",
@@ -25,4 +28,5 @@ public class TXFortBendCountyParser extends DispatchA41Parser {
       "SUG", "SUGAR LAND",
       "WAL", "WALLIS",
   });
+
 }
