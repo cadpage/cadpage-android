@@ -12,17 +12,17 @@ public class ZNZNewZealandParser extends SmartAddressParser {
   private static final Pattern WRAP_BRK_PTN = Pattern.compile("(#F\\d+)(?=\\()");
   private static final Pattern END_PAGE_BREAK = Pattern.compile("#F\\d+(?=\n)");
   
-  private static final Pattern UNIT_CODE_PTN = Pattern.compile("^\\(([A-Z0-9, ]+)\\) *([ A-Z0-9]+-[A-Z\\d]+) +");
+  private static final Pattern UNIT_CODE_PTN = Pattern.compile("^(?:\\(?([A-Z0-9, ]+)([\\) \\.]) *)?([ A-Z0-9]+-[A-Z\\d]+) +");
   private static final Pattern ALARM_TYPE_PTN = Pattern.compile("^\\((Alarm Type [-A-Z0-9/ ]+)\\) *");
   private static final Pattern BOX_PTN = Pattern.compile("^\\(Box ([-A-Z0-9 &]+)\\) *");
   private static final Pattern AK_PTN = Pattern.compile("^(AK\\d+[A-Z]? .*? > [A-Z]+\\)) +(?:AK\\d+[A-Z]? +)? *");
-  private static final Pattern EXTRA_PTN = Pattern.compile("^([- A-Z0-9:&]+)\\.\\.? +");
+  private static final Pattern EXTRA_PTN = Pattern.compile("^([- A-Z0-9:&]+)\\.\\.? *");
   private static final Pattern EXTRA_PTN2 = Pattern.compile("^([- A-Z0-9:&]+)\\.\\.?(?=#)");
   private static final Pattern NEAR_OFF_PTN = Pattern.compile("^((?:NEAR|OFF) [- A-Z0-9\\?]+)\\. *");
-  private static final Pattern XSTR_PTN = Pattern.compile("^\\(XStr +([-A-Z0-9/ ]*)\\) *");
+  private static final Pattern XSTR_PTN = Pattern.compile("^\\(XStr *([-A-Z0-9/ ]*)\\) *");
   private static final Pattern DOT_DOT_PTN = Pattern.compile("^\\.(.*)\\. *");
   private static final Pattern GPS_PTN = Pattern.compile("^\\(x-?(\\d+) ?y-?(\\d+)\\) *");
-  private static final Pattern ID_PTN = Pattern.compile("#(F\\d+)");
+  private static final Pattern ID_PTN = Pattern.compile("#(F\\d+|)$");
   
   private static final Pattern UNKNNNNN = Pattern.compile("\\bUNKN\\d{4}\\b");
   private static final Pattern DOUBLED_ADDRESS = Pattern.compile("(\\d+) .* (\\1\\b.*)");
@@ -37,7 +37,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "silv@vodafone.co.nz,pager@firehouse.co.nz";
+    return "silv@vodafone.co.nz,pager@firehouse.co.nz,nzfs.sms@gmail.com,dasmail@fire.org.nz,michael.upton2@gmail.com";
   }
 
   @Override
@@ -47,7 +47,22 @@ public class ZNZNewZealandParser extends SmartAddressParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (subject.length() > 0) body = '(' + subject + ") " + body;
+    if (subject.length() > 0) {
+      if (body.startsWith("-----------------") || body.length() == 0) {
+        if (subject.length() < 2) return false;
+        if (subject.charAt(0) != '(' && subject.charAt(1) == '(') {
+          subject = subject.substring(1);
+        }
+        body = subject.trim();
+        subject = "";
+      } else {
+        String[] subFlds = subject.split("\\|");
+        subject = subFlds[subFlds.length-1].trim();
+        if (!subject.equals("NZFS Pager to SMS message")) {
+          body = '(' + subject + ") " + body;
+        }
+      }
+    }
     
     Matcher match = WRAP_BRK_PTN.matcher(body);
     if (match.find()) {
@@ -60,13 +75,21 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     
     match = UNIT_CODE_PTN.matcher(body);
     if (!match.find()) return false;
-    data.strUnit = match.group(1).trim();
-    data.strCode = match.group(2).trim();
+    String unit = match.group(1);
+    if (unit != null) {
+      unit = unit.trim();
+      if (match.group(2).equals(".")) {
+        data.strCall = unit;
+      } else {
+        data.strUnit = unit;
+      }
+    }
+    data.strCode = match.group(3).trim();
     body = body.substring(match.end());
     
     match = ALARM_TYPE_PTN.matcher(body);
     if (match.find()) {
-      data.strCall = match.group(1).trim();
+      data.strCall = append(data.strCall, " / ", match.group(1).trim());
       body = body.substring(match.end());
     }
     
@@ -120,7 +143,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     if (match.find()) {
       String cross = match.group(1).trim();
       body = body.substring(match.end());
-      if (cross.endsWith("/")) cross = cross.substring(0,cross.length()-1).trim();
+      cross = stripFieldEnd(cross, "/");
       data.strCross = cross;
     }
     
@@ -147,8 +170,12 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     }
     
     match = ID_PTN.matcher(body);
-    if (!match.matches()) return false;
-    data.strCallId = match.group(1);
+    if (match.matches()) {
+      data.strCallId = match.group(1);
+    } else {
+      if (!body.startsWith(".")) return false;
+      data.strCall = append(data.strCall, " / ", body.substring(1).trim());
+    }
     
     // Sometimes an intersection is reported as a cross street. 
     if (data.strAddress.length() == 0) {
@@ -553,6 +580,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "PEMBROKE",
     "PERIA",
     "PETONE",
+    "PIARERE",
     "PICTON",
     "PIOPIO",
     "PIPIWAI",
