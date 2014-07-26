@@ -28,6 +28,17 @@ public class DispatchA1Parser extends FieldProgramParser {
     return parseFields(body.split("\n"), data);
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("BOX")) return new MyBoxField();
+    if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("APT")) return new MyAptField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+  
   private class MyBoxField extends BoxField {
     @Override
     public void parse(String field, Data data) {
@@ -137,17 +148,6 @@ public class DispatchA1Parser extends FieldProgramParser {
       if (SKIP_INFO_PTN.matcher(field).matches()) return;
       super.parse(field, data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("BOX")) return new MyBoxField();
-    if (name.equals("PLACE")) return new MyPlaceField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("APT")) return new MyAptField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
   
   @Override

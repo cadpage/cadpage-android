@@ -36,6 +36,7 @@ Fraqre: 777
 .... (TSQ) Nyreg: Sver - Oehfu / Jvyqynaq\aNYEZ YIY: 1\aYBP:\a435 PUNCRY EQ\aPHZOREYNAQ GJC\aOGJA: ONEYBJ EQ & EVQTR EQ\a\aEPIQ NF 911\a\aPBZ:\aFZNYY OEHFU SVER JVGU JVERF QBJA\aFCBXR GB FNENU NG ZRG-RQ  JVER QBJA JUVPU PNHFRQ GUR SVER\aVG VF FGBCCVAT SVER QRCG SEBZ CHGGVAT BHG GUR SVER\aGURER VF N CBJRE BHGNTR\aGURL TNIR N 1-2 UBHE RGN\aGVPXRG#328-747-722\aERD R1-1, RG23\aPNYYRQ ZRG-RQ ONPX NAQ FCBXR GB GBALN GB YRG URE XABJ CBYR VF OEBXRA\a\aPG:\aTNOERG ng CBF 04
 .... (TSQ) Genssvp Nppvqrag - 2 NYEZ YIY: 1,   OBK 19-5\aYBP:\a1284 OBA-BK EBNQ ,\aZBHAG CYRNFNAG GJC\aOGJA: PRAGRAAVNY EBNQ , & FRLZBER EBNQ ,\aHAVGF: 1N,RG19,E33,E1,BSP19,R33-1
 .... (TSQ) Sver :    OBK 1\aYBP:\aPERRXFVQR NCNEGZRAGF\a35 OHSBEQ NIR\aNCG 32\a, TRGGLFOHET OBEB, \aOGJA: FCEVATF NIR & ENPRUBEFR NYL\aHAVGF: E20 R22-1 GX1 1N BSP1 RG19 R1-1 GES1 R1-2 GJE5 R6-2
+.... (TSQ) Genafsre/Fgnaqol Sver-RZF NYEZ YIY: 1    OBK 33-1\aYBP:\aHAVGRQ UBBX NAQ YNQQRE PBZCNAL #33 FGNGVBA 1\a21 A OBYGBA FG\aOBK 33-1\aARJ BKSBEQ OBEB\aOGJA: A/N & A/N\aHAVGF: R1-1
 
 Pbagnpg: Arny Noenzf <avpxrnoenzf@tznvy.pbz>
 Fraqre: nqnzf911@nqnzfpbhagl.hf
@@ -2318,6 +2319,25 @@ choyvp pynff CNNqnzfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:O",
         "PVGL:SENAXYVA GJC",
         "K:SYBUEF PUHEPU EQ");
+
+    qbGrfg("G1",
+        ".... (TSQ) Genafsre/Fgnaqol Sver-RZF NYEZ YIY: 1    OBK 33-1\a" +
+        "YBP:\a" +
+        "HAVGRQ UBBX NAQ YNQQRE PBZCNAL #33 FGNGVBA 1\a" +
+        "21 A OBYGBA FG\a" +
+        "OBK 33-1\a" +
+        "ARJ BKSBEQ OBEB\a" +
+        "OGJA: A/N & A/N\a" +
+        "HAVGF: R1-1",
+
+        "FEP:TSQ",
+        "PNYY:Genafsre/Fgnaqol Sver-RZF",
+        "CEV:1",
+        "OBK:33-1",
+        "CYNPR:HAVGRQ UBBX NAQ YNQQRE PBZCNAL #33 FGNGVBA 1",
+        "NQQE:21 A OBYGBA FG",
+        "PVGL:OBK 33-1",
+        "HAVG:R1-1");
 
   }
   

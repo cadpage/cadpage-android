@@ -175,6 +175,10 @@ vzcbeg bet.whavg.Grfg;
  nyreg31277@nyreg.ohpxfrzn.bet /1/2 /FGN13 FGN10:JNGRE\anqe:NPZR ZNEXRG ,25 ng 6800 ARJ SNYYF EQ ,25\aogja:JBREARE NI & RQTRYL NI\annv:2159461840\a
  nyreg34161@nyreg.ohpxfrzn.bet /1/2 /FGN13 FGN10:SHZRF\anqe:15 EVQTR YN ,25\aogja:ERQ PRQNE QE & ERQ ZNCYR YN\aobk:13008\agz:17:24:19 SQ1205726  Eh
 
+Pbagnpg": Ivetvavn Ohegba <i.ohegba.sc@tznvy.pbz>
+Fraqre: _3IEZ@nyreg.ohpxfrzn.bet
+_3IEZ@nyreg.ohpxfrzn.bet /  / FD143 FGN51:OGENA\anqe:643 FCEHPR FG ,24\aogja:OHPXYRL FG & CYHZ FG\annv:SY 3\aobk:52012 znc:3375P4\agz:23:12:47 RQ1427340
+
  Pbagnpg fhccbeg@npgvir911.pbz
  Fraqre: "Ohpxf EFNA" <nyreg10965@nyreg.ohpxfrzn.bet>
  [Vzcbegnag zrffntr sebz Ohpxf Pbhagl EFNA] FGN19:JVERF\anqe:400 BYQ QHOYVA CX ,29 -- CRAA PBYBE VAP\aogja:GENSNYTNE EQ & CVAR EHA EQ\annv:VSB JNERUBHFR\aobk:19005\agz:16:47:17 SQ1202274  Eha: R19\aFrag ol zff911 Ohpxf gb FGN19, zff911 Ohpxf (Ibvpr/Snk Qvnyre, R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ohpxf Pbhagl EFNA\a
@@ -1790,6 +1794,30 @@ choyvp pynff CNOhpxfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
 
+  @Grfg
+  choyvp ibvq grfgIvetvavnOhegba() {
+
+    qbGrfg("G1",
+        "_3IEZ@nyreg.ohpxfrzn.bet /  / FD143 FGN51:OGENA\a" +
+        "nqe:643 FCEHPR FG ,24\a" +
+        "ogja:OHPXYRL FG & CYHZ FG\a" +
+        "nnv:SY 3\a" +
+        "obk:52012 znc:3375P4\a" +
+        "gz:23:12:47 RQ1427340",
+
+        "HAVG:FD143 FGN51",
+        "PNYY:OGENA - RZRETRAPL GENAFCBEGNGVBA",
+        "NQQE:643 FCEHPR FG",
+        "PVGL:OEVFGBY",
+        "K:OHPXYRL FG & CYHZ FG",
+        "VASB:SY 3",
+        "OBK:52012",
+        "ZNC:3375P4",
+        "GVZR:23:12:47",
+        "VQ:RQ1427340");
+    
+  }
+  
   @Grfg
   choyvp ibvq grfgNpgvir911N() {
 
