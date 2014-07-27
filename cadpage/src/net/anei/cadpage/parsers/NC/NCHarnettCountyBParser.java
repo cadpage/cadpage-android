@@ -19,7 +19,12 @@ public class NCHarnettCountyBParser extends DispatchSouthernParser {
 
   @Override
   public String getFilter() {
-    return "GINO@southernsoftware.net";
+    return "@dunn-nc.orgt";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
   }
   
   @Override
@@ -30,5 +35,11 @@ public class NCHarnettCountyBParser extends DispatchSouthernParser {
       return true;
     }
     return super.parseMsg(body, data);
+  }
+  
+  @Override
+  public String adjustMapAddress(String address) {
+    address = address.replace("THREE BRIDGE RD", "3 BRIDGE RD");
+    return super.adjustMapAddress(address);
   }
 }

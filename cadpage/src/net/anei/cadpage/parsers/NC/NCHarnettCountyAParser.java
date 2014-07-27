@@ -22,6 +22,7 @@ public class NCHarnettCountyAParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = stripFieldStart(body, "911Communications:");
     String flds[] = body.split("\\*");
     if (flds.length < 3) return false;
     return parseFields(flds, data);
