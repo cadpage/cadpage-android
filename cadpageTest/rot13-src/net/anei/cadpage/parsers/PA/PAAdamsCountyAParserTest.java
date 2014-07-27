@@ -37,6 +37,7 @@ Fraqre: 777
 .... (TSQ) Genssvp Nppvqrag - 2 NYEZ YIY: 1,   OBK 19-5\aYBP:\a1284 OBA-BK EBNQ ,\aZBHAG CYRNFNAG GJC\aOGJA: PRAGRAAVNY EBNQ , & FRLZBER EBNQ ,\aHAVGF: 1N,RG19,E33,E1,BSP19,R33-1
 .... (TSQ) Sver :    OBK 1\aYBP:\aPERRXFVQR NCNEGZRAGF\a35 OHSBEQ NIR\aNCG 32\a, TRGGLFOHET OBEB, \aOGJA: FCEVATF NIR & ENPRUBEFR NYL\aHAVGF: E20 R22-1 GX1 1N BSP1 RG19 R1-1 GES1 R1-2 GJE5 R6-2
 .... (TSQ) Genafsre/Fgnaqol Sver-RZF NYEZ YIY: 1    OBK 33-1\aYBP:\aHAVGRQ UBBX NAQ YNQQRE PBZCNAL #33 FGNGVBA 1\a21 A OBYGBA FG\aOBK 33-1\aARJ BKSBEQ OBEB\aOGJA: A/N & A/N\aHAVGF: R1-1
+.... (TSQ) Oernguvat Ceboyrzf :    OBK 1-6-30\aYBP:\a10 NCCYR NIR\aO\a, PHZOREYNAQ GBJAFUVC ,\aOGJA: OVTYREIVYYR EBNQ  & GNOYR EBPX EBNQ \aHAVGF: ZN1
 
 Pbagnpg: Arny Noenzf <avpxrnoenzf@tznvy.pbz>
 Fraqre: nqnzf911@nqnzfpbhagl.hf
@@ -2290,14 +2291,34 @@ choyvp pynff CNNqnzfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OGJA: FCEVATF NIR & ENPRUBEFR NYL\a" +
         "HAVGF: E20 R22-1 GX1 1N BSP1 RG19 R1-1 GES1 R1-2 GJE5 R6-2",
 
-        "PNYY:Sver - 1",
+        "FEP:TSQ",
+        "PNYY:Sver",
+        "OBK:1",
         "CYNPR:PERRXFVQR NCNEGZRAGF",
         "NQQE:35 OHSBEQ NIR",
         "NCG:32",
         "PVGL:TRGGLFOHET",
         "K:FCEVATF NIR & ENPRUBEFR NYL",
         "HAVG:E20 R22-1 GX1 1N BSP1 RG19 R1-1 GES1 R1-2 GJE5 R6-2");
-  
+
+    qbGrfg("G7",
+        ".... (TSQ) Oernguvat Ceboyrzf :    OBK 1-6-30\a" +
+        "YBP:\a" +
+        "10 NCCYR NIR\a" +
+        "O\a" +
+        ", PHZOREYNAQ GBJAFUVC ,\a" +
+        "OGJA: OVTYREIVYYR EBNQ  & GNOYR EBPX EBNQ \a" +
+        "HAVGF: ZN1",
+
+        "FEP:TSQ",
+        "PNYY:Oernguvat Ceboyrzf",
+        "OBK:1-6-30",
+        "NQQE:10 NCCYR NIR",
+        "NCG:O",
+        "PVGL:PHZOREYNAQ GBJAFUVC",
+        "K:OVTYREIVYYR EBNQ & GNOYR EBPX EBNQ",
+        "HAVG:ZN1");
+ 
   }
   
   @Grfg
