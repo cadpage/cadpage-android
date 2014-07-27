@@ -14,7 +14,7 @@ public class TXBrazoriaCountyBParser extends HtmlParser {
 
   public TXBrazoriaCountyBParser() {
     super(CITY_LIST,
-            "FREEPORT",
+            "BRAZORIA COUNTY",
             "TX",
             "CALL ID ADDR APT CITY DATE TIME NAME PHONE INFO",
             LAYOUT);

@@ -5,6 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
+Wnzrf Pvgl Pbhagl, IN
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Wnzrf Pvgl Pbhagl Sver Qrcnegzrag
@@ -111,6 +112,14 @@ Fraqre: <PNQ@wnzrfpvglpbhaglin.tbi>
 (3804 TERL SBK PVE;PURFG CNVA/PNEQVNP CEBOYRZ;03/21/2014 13) PNQ:33:04;R FGRRCYRPUNFR JNL
 (105 ELR;FGEHPGHER SVER;03/21/2014 12) PNQ:06:02;JBECYRFQBA
 (3909 FUNQL YA;YNZZ ERFVQRAPR;SNVAGVAT (PBAFPVBHF ABJ);03/21/2014 11) PNQ:08:56;ZVYQRA EQ
+
+QvfcngpuBFFVCnefre fhopynff, ohg gurer ner punyyratrf.
+Ba fbzr pnyyf, gur svefg cneg bs gur zrffntr jnf rkgenpgrq va cynprq va gur zrffntr fhowrpg.
+Svefg wbo vf gb erfgber gur bevtvany zrffntr orsber cnefvat vg.  Sebz jung V pna frr, lbh
+fubhyq nyjnlf zretr gurz gbtrgure jvgu n pbyba orgjrra gurz, ohg lbh znl svaq pbhagre rknzcryf.
+
+Arkg ceboyrz, gurer ner yrnfg gjb qvssrerag sbezngf urer.  Pbaqvgvbany oenapurf fubhyq
+frcnengr gurz bhg.  Bar unf n qngr/gvzr svryq naq gur bgure qbrf abg.  Gurer znl or zber.
 
 */
 
