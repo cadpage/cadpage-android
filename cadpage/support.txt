@@ -3501,9 +3501,6 @@ services now work with CadPage and do not use SMS for delivering messages.
 For the Latest news and headlines please check the facebook page. We update this page as often as we can but the facebook page gets the immediate updates when a new version goes out.
 
 Also for those that keep asking and begging Ken has started working on an IPhone version with some other helpful people. So when that is available we will post more information here.
-***********************************************************************
-Useful search expressions
-^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)
 
 ************************************************************************
 SPONSOR - no location 
@@ -3520,4 +3517,7 @@ If there isn't one, or if it does not fix the existing alerts, long
 press all of your existing calls and select "Report Problem" to send
 them to us.  We can use that information to write a new location parser
 for you.
+***********************************************************************
+Useful search expressions
+^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)
 
