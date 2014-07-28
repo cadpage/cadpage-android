@@ -160,7 +160,7 @@ choyvp pynff PGZvqqyrgbjaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PNQ Flfgrz Zrffntr) JSQ1 NZO01 \aZIN-J/ VAWHEVRF (S) \aV 91 & Rkvg 19 ZVQQYRGBJA \a91FO  K20",
         "HAVG:JSQ1 NZO01",
         "PNYY:ZIN-J/ VAWHEVRF (S)",
-        "NQQE:V 91 & Rkvg 19",
+        "NQQE:V 91 & Rkvg 19", //abg znccvat
         "PVGL:ZVQQYRGBJA",
         "CYNPR:91FO  K20");
 
@@ -250,7 +250,7 @@ choyvp pynff PGZvqqyrgbjaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:JSQ1 NZO01",
         "PNYY:ZIN-J/ VAWHEVRF (S)",
         "NQQE:V 91 & RKVG 20 FO",
-        "ZNQQE:V 91 & RKVG 20",
+        "ZNQQE:V 91 & RKVG 20", //znccrq svar guvf gvzr. 
         "PVGL:ZVQQYRGBJA",
         "CYNPR:91FO  K20");
 
@@ -299,7 +299,7 @@ choyvp pynff PGZvqqyrgbjaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PNQ Flfgrz Zrffntr) R1 R2 R3 G1 P3 JSQ1 \aSVER NYNEZ - PBZZ (S) \a4200 GBJA CYNPR QE ZVQQYRGBJA",
         "HAVG:R1 R2 R3 G1 P3 JSQ1",
         "PNYY:SVER NYNEZ - PBZZ (S)",
-        "NQQE:4200 GBJA CYNPR QE",
+        "NQQE:4200 GBJA CYNPR QE", //gbja cynpr qevir zvtug or arj? vg qbrfag fubj.
         "PVGL:ZVQQYRGBJA");
 
     qbGrfg("G28",
