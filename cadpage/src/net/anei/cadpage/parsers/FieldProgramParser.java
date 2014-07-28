@@ -2484,7 +2484,8 @@ public class FieldProgramParser extends SmartAddressParser {
  
     @Override
     public boolean checkParse(String field, Data data) {
-      if (!isValidAddress(field)) return false;
+      if (!field.contains("/") && !field.contains("&") &&
+          !isValidAddress(field)) return false;
       parse(field, data);
       return true;
     }

@@ -506,6 +506,7 @@ class Active911Vendor extends Vendor {
       "US/UT/SaltLakeCounty",             "UTSaltLakeCounty",
       "US/VA/AlbermarleCounty",           "VAAlbermarleCounty",
       "US/VA/AppomattoxCounty",           "VAAppomattoxCounty",
+      "US/VA/BrunswickCounty",            "VABrunswickCounty",
       "US/VA/DickensonCounty",            "VADickensonCounty",
       "US/VA/Esva911",                    "VANorthamptonCounty",
       "US/VA/FluvannaSheriff",            "VAFluvanna",
