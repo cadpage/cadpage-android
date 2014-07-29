@@ -18,6 +18,7 @@ NO FREE PAGING SERVICE
 
 You can only register for the paging service if you have really paid for
 a subscription.  We have to pay the server operators for each device
+
 using that service and cannot afford to do that for users who are not
 paying us.
 
@@ -440,7 +441,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-QIQGICEA or qiqgicea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+QKJTUADA or qkjtuada.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean ~ Cadpage Administrator
@@ -590,7 +591,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-QIQGICEA or qiqgicea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+QKJTUADA or qkjtuada.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean ~ Cadpage Administrator
@@ -787,7 +788,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-QIQGICEA or qiqgicea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+QKJTUADA or qkjtuada.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean ~ Cadpage Administrator
@@ -801,7 +802,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-QIQGICEA or qiqgicea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+QKJTUADA or qkjtuada.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -811,7 +812,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-QIQGICEA or qiqgicea.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+QKJTUADA or qkjtuada.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information needed to figure out what is wrong.
 
@@ -3521,3 +3522,36 @@ for you.
 Useful search expressions
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)
 
+***************************************************************************
+
+Out of curiosity, just why do you want to set up direct paging apart
+from the Active911 service?  Are you getting alerts from some other
+department that isn't using Active911?
+
+Direct paging only works when you are getting alerts from a message
+servicing agency that supports direct paging.  Active911 is one such
+agency, the others are CodeMessaging.net and our own Cadpage paging service.
+
+Setting up direct paging with Active911 or CodeMessaging requires an
+activation code that links you to a device configuration that has been
+set up by someone in your department.  The Cadpage paging service can
+only be used after you purchase a Cadpage subscription.  The usual
+sequence of events is to have the dispatch alerts sent to your phone as
+text messages and make sure that Cadpage will work with them.  Then,
+usually because you are running Android 4.4 and get annoyed because we
+can not block the text alerts from showing up in your message inbox, you
+can purchase a Cadpage subscription and switch to using the Cadpage
+paging service.
+
+No activation code is required to use the Cadpage paging service.  You
+just register with the service and it gives you a special dispatch email
+address.  You then have your dispatch alerts sent to that address
+instead of directly to your phone, and the paging service will forward
+them back to Cadpage.  Since these are not text messages, we do not have
+problems with them popping up in the message inbox under Android 4.4.
+
+And no, we can not let you try out that service before deciding to pay
+for it.  We have to pay a per device charge to the people running the
+servers and can not afford to do that for users that are not paying us.
+
+***************************

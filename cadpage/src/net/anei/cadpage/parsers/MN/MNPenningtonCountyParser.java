@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.MN;
 import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 
 /**
- * Otter Tail County, MN
+ * Pennington County, MN
  */
 
 public class MNPenningtonCountyParser extends DispatchA27Parser {

@@ -5,7 +5,7 @@ import java.util.Properties;
 import net.anei.cadpage.parsers.GroupBestParser;
 
 /**
- * Collin County, TX
+ * Fort Bend County, TX
  */
 public class TXFortBendCountyParser extends GroupBestParser {
   
