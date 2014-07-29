@@ -154,6 +154,7 @@ class Active911Vendor extends Vendor {
       "US/AL/Colbert",                    "ALColbertCountyParser",
       "US/AL/Hoover",                     "ALHoover",
       "US/AL/MarshallCounty",             "ALMarshallCounty",
+      "US/AL/MobileCounty",               "ALMobileCounty",
       "US/AL/MorganCounty",               "ALMorganCounty",
       "US/AL/Shelby",                     "ALShelbyCounty",
       "US/AL/TalladegaCounty",            "ALTalladega",

@@ -34,6 +34,7 @@ public class VABrunswickCountyParser extends FieldProgramParser {
     if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("IDCALL")) return new MyIdCallField();
     if (name.equals("ADDR2")) return new MyAddress2Field(); 
+    if (name.equals("X")) return new MyCrossField();
     if (name.equals("CITY_PLACE1")) return new MyCityPlace1Field();
     if (name.equals("UNIT")) return new UnitField("(?:\\b(?:\\d{1,4}[A-Z]*|[A-Z]{4}|[A-Z]{1,2}\\d+|FRSTRY)\\b *)+");
     return super.getField(name);
@@ -68,6 +69,17 @@ public class VABrunswickCountyParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "ADDR APT CITY ST";
+    }
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.contains("/")) {
+        parse(field, data);
+        return true;
+      }
+      return super.checkParse(field, data);
     }
   }
   
