@@ -38,6 +38,7 @@ Fraqre: 777
 .... (TSQ) Sver :    OBK 1\aYBP:\aPERRXFVQR NCNEGZRAGF\a35 OHSBEQ NIR\aNCG 32\a, TRGGLFOHET OBEB, \aOGJA: FCEVATF NIR & ENPRUBEFR NYL\aHAVGF: E20 R22-1 GX1 1N BSP1 RG19 R1-1 GES1 R1-2 GJE5 R6-2
 .... (TSQ) Genafsre/Fgnaqol Sver-RZF NYEZ YIY: 1    OBK 33-1\aYBP:\aHAVGRQ UBBX NAQ YNQQRE PBZCNAL #33 FGNGVBA 1\a21 A OBYGBA FG\aOBK 33-1\aARJ BKSBEQ OBEB\aOGJA: A/N & A/N\aHAVGF: R1-1
 .... (TSQ) Oernguvat Ceboyrzf :    OBK 1-6-30\aYBP:\a10 NCCYR NIR\aO\a, PHZOREYNAQ GBJAFUVC ,\aOGJA: OVTYREIVYYR EBNQ  & GNOYR EBPX EBNQ \aHAVGF: ZN1
+.... (TSQ) Fgebxr / PIN :    OBK 1-3-30\aYBP:\a2 JVYYBHTUOL YA\a, PHZOREYNAQ GBJAFUVC ,\aOGJA: QRNGEVPX QE & JVAQVAT QE\aHAVGF: ZN1
 
 Pbagnpg: Arny Noenzf <avpxrnoenzf@tznvy.pbz>
 Fraqre: nqnzf911@nqnzfpbhagl.hf
@@ -2318,7 +2319,17 @@ choyvp pynff CNNqnzfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PHZOREYNAQ GBJAFUVC",
         "K:OVTYREIVYYR EBNQ & GNOYR EBPX EBNQ",
         "HAVG:ZN1");
- 
+
+    qbGrfg("G8",
+        ".... (TSQ) Fgebxr / PIN :    OBK 1-3-30\aYBP:\a2 JVYYBHTUOL YA\a, PHZOREYNAQ GBJAFUVC ,\aOGJA: QRNGEVPX QE & JVAQVAT QE\aHAVGF: ZN1",
+        "FEP:TSQ",
+        "PNYY:Fgebxr / PIN",
+        "OBK:1-3-30",
+        "NQQE:2 JVYYBHTUOL YA",
+        "PVGL:PHZOREYNAQ GBJAFUVC",
+        "K:QRNGEVPX QE & JVAQVAT QE",
+        "HAVG:ZN1");
+
   }
   
   @Grfg

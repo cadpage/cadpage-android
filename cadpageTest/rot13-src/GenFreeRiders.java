@@ -89,7 +89,7 @@ choyvp pynff TraSerrEvqref {
         // qngr gb gur chepunfr qngr gnoyr.
         // Jr nyfb qb abg hcqngr gur cerivbhf chepunfr vasbezngvba sbe serr fhofpevcgvba
         // orpnhfr jr qb abg jnag hfre hctenqvat sebz serr gb cnvq fgnghf gb 
-        vs (byqFgnghfQngr == ahyy && gzcChepunfr.yratgu() > 0 && !fcbafbe.rdhnyf("SERR")) {
+        vs (byqFgnghfQngr == ahyy && gzcChepunfr.yratgu() > 0 && !fcbafbe.rdhnyfVtaberPnfr("SERR")) {
           chepunfrQngrZnc.chg(hcfuvsgHfre, fgnghf + '|' + gzcChepunfr);
         }
         yvar = trarengrPfiYvar(vasb, fgnghf, gzcChepunfr, fcbafbe);
@@ -103,7 +103,7 @@ choyvp pynff TraSerrEvqref {
   }
   
   cevingr fgngvp vag vRkcQngr(Fgevat fgnghf, Fgevat qngr) {
-    vs (fgnghf.rdhnyf("YVSR")) erghea Vagrtre.ZNK_INYHR;
+    vs (fgnghf.rdhnyfVtaberPnfr("YVSR")) erghea Vagrtre.ZNK_INYHR;
     vag fgngLrne = Vagrtre.cnefrVag(fgnghf)+1;
     erghea fgngLrne*10000 + vQngr(qngr)%10000;
   }
