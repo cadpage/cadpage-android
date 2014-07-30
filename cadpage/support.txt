@@ -3555,3 +3555,15 @@ for it.  We have to pay a per device charge to the people running the
 servers and can not afford to do that for users that are not paying us.
 
 ***************************
+Pass call through SMS client means:
+
+That tells Cadpage not to block text alerts from getting to your default
+message app.  If you check it, dispatch alerts delivered as text
+messages will show up in both Cadpage in your message inbox.
+
+It becomes a bit pointless when you run Android 4.4 or higher.  At that
+level, we loose the ability to block messsages, so you always get alerts
+in Cadpage and in your message regardless of how this is set.
+
+Have a nice day,
+-Ken
