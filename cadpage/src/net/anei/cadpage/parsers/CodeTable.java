@@ -58,7 +58,7 @@ public class CodeTable {
     }
   }
   
-  protected void put(String key, String value) {
+  public void put(String key, String value) {
     if (key.length() < minCodeLen) minCodeLen = key.length();
     codeMap.put(key, value);
   }
@@ -78,9 +78,19 @@ public class CodeTable {
   /**
    * Look for a call description corresponding to a specific code
    * @param code call code
+   * @param reqSpace true if successful match requires a blank terminator
    * @return result object describing result if found, null otherwise
    */
   public Result getResult(String code) {
+    return getResult(code, false);
+  }
+
+    /**
+     * Look for a call description corresponding to a specific code
+     * @param code call code
+     * @return result object describing result if found, null otherwise
+     */
+    public Result getResult(String code, boolean reqSpace) {
     
     // Search the code dictionary sorted map for the highest entry less than or
     // equal to call code.  If the code starts with this string, we have a
@@ -89,11 +99,17 @@ public class CodeTable {
     
     // We reversed the tree order so we can accomplish this trick without
     // needing a backward read feature, with Android seems to be lacking
+    if (code.length() < minCodeLen) return null;
+    String  minCode = code.substring(0, minCodeLen);
     SortedMap<String,String> tail =  codeMap.tailMap(code);
     for (Map.Entry<String,String> entry : tail.entrySet()) {
       String key = entry.getKey();
-      if (code.startsWith(key)) return new Result(entry, code);;
-      if (!code.startsWith(key)) break;
+      if (code.startsWith(key)) {
+        if (!reqSpace) return new Result(entry, code);;
+        int len = key.length();
+        if (len == code.length() || code.charAt(len) == ' ') return new Result(entry, code);
+      }
+      if (!code.startsWith(minCode)) break;
     }
     return null;
   }

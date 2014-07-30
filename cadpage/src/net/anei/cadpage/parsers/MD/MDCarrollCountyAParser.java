@@ -4,7 +4,7 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.CodeSet;
+import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -178,12 +178,14 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
         // First see if we recognize the call description
         StartType st = StartType.START_CALL;
         int flags = FLAG_START_FLD_REQ | FLAG_ANCHOR_END;
-        String call = CALL_SET.getCode(fld, true);
-        if (call != null) {
+        CodeTable.Result res = CALL_TABLE.getResult(fld, true);
+        if (res != null) {
           st = StartType.START_PLACE;
           flags = FLAG_ANCHOR_END;
-          data.strCall = call;
-          fld = fld.substring(call.length()).trim();
+          data.strCode = res.getCode();
+          data.strCall = res.getDescription();
+          if (data.strCode.equals(data.strCall)) data.strCode = "";
+          fld = res.getRemainder();
         }
         
         // Next check if the last token is a recognized city and
@@ -247,7 +249,7 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "CALL BOX PLACE ADDR X APT CITY CH";
+      return "CODE CALL BOX PLACE ADDR X APT CITY CH";
     }
   }
   
@@ -317,58 +319,198 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
       "AC", "ADAMS COUNTY,PA",
       "MC", "MONTGOMERY COUNTY"
   });
-
-  private static final CodeSet CALL_SET = new CodeSet(
-      "ALARM",
-      "ALARM 1",
-      "ALARM 2",
-      "ALS",
-      "ALS+",
-      "ALS MEDICAL CALL",
-      "AMB TRANS", 
-      "ATR",
-      "BF",
-      "BF RESC",
-      "BLS",
-      "BLS MEDICAL CALL",
-      "BOX",
-      "BRUSH",
-      "CA",
-      "CARDIAC",
-      "CARDIAC ARREST",
-      "CHIM",
-      "CO 1",
-      "CO 2",
-      "CO 3",
-      "CO 4",
-      "COS",
-      "GAS LINE", 
-      "HF",
-      "HOUSE FIRE",
-      "INVEST",
-      "IVT",
-      "LARGE TRUCK FIRE",
-      "LO/E",
-      "LOCAL",
-      "PA",
-      "PATIENT ASSIST",
-      "PROQA DEFAULT",
-      "RES FIRE ALARM",
-      "SERVICE",
-      "STRUC",
-      "STRUCTURE ALARM",
-      "TRAIN AC", 
-      "TRAIN FI",
-      "TRANS",
-      "UC",
-      "UNCONSCIOUS SUBJECT",
-      "VC",
-      "VC BUS",
-      "VC SERIOUS",
-      "VCR",
-      "VCS",
-      "VEHICLE",
-      "VEHICLE COLLISION"
-      
-  );
+  
+  private static final CodeTable CALL_TABLE = new CodeTable();
+  static {
+    String key = null;
+    for (String value : new String[]{
+        "AAM",        "AUTOMATIC MEDICAL ALARM",
+        "ABDOM",      "ABDOMINAL PAIN",
+        "ABDOMALS",   "ABDOMINAL PAIN",
+        "AIR1L",      "LG PLANE INCOMING",
+        "AIR1S",      "SM PLANE INCOMING",
+        "AIR2L",      "LG PLANE CRASH/STRUC",
+        "AIR2S",      "SM PLANE CRASH/STRUC",
+        "AIR3L",      "LG PLANE CRASH",
+        "AIR3S",      "SM PLANE CRASH",
+        "ALARM",      "ALARM",
+        "ALARM 1",    "RES FIRE ALARM",
+        "ALARM 2",    "COMM FIRE ALARM",
+        "ALLER",      "ALLERGIC REACTION",
+        "ALLERBLS",   "ALLERGIC REACTION",
+        "ALS",        "ALS MEDICAL CALL",
+        "ALS+",       "ALS W/SUPPORT",
+        "AMB TRAN",   "TRAN AMBULANCE TRANSFER",
+        "AMB TRANS",  "TRAN AMBULANCE TRANSFER",
+        "ASTH",       "ASTHMA ATTACK",
+        "ATR",        "ATR RESCUE",
+        "ATR/HM",     "ATR RESCUE W/HAZMAT",
+        "ATROL",      "OVERLAND ATR RESCUE",
+        "ATV",        "ATV ACCIDENT",
+        "BACK",       "BACK PAIN",
+        "BACKALS",    "BACK PAIN (ALS RESPONSE)",
+        "BF",         "BUILDING FIRE",
+        "BF RESC",    "BLDG FIRE W/RESCUE",
+        "BF/HM",      "BLDG FIRE W/HAZMAT",
+        "BIO2",       "OPENED ITEM WITH RELEASE / NO DISTRESS",
+        "BIO3",       "SUSPICIOUS ITEM WITH EXPOSURE",
+        "BIO4",       "SUSPICIOUS PACKAGE W/PERSONS DOWN",
+        "BIO5",       "EXPLOSION OR EXPLOSIVE DEVICES",
+        "BLS",        "BLS MEDICAL CALL",
+        "BLSC",       "NON EMER BLS CALL",
+        "BOX",        "BOX ALARM",
+        "BOX/HLH",    "BLDG/HIGH LIFE HAZ",
+        "BOX/HLHZ",   "BLDG/HIGH LIFE HZ/HM",
+        "BOX/HM",     "BOX ALARM W/HAZMAT",
+        "BRUSH",      "BRUSH FIRE",
+        "BURN",       "BURN INJURY",
+        "BURNALS",    "BURN INJURY",
+        "CA",         "CARDIAC ARREST",
+        "CARD",       "CARDIAC PATIENT",
+        "CARDIAC",    "CARDIAC",
+        "CARDBLS",    "CARDIAC PATIENT BLS",
+        "CHEST",      "CHEST PAIN",
+        "CHESTBLS",   "CHEST PAIN BLS",
+        "CHIM",       "CHIMNEY FIRE",
+        "CHOKE" ,     "CHOKING",
+        "CHOKEBLS",   "CHOKING EPISODE AIRWAY CLEAR",
+        "CO",         "CO DETECTOR",
+        "CO 1",       "CO DETECTOR",
+        "CO 2",       "CO DETECTOR",
+        "CO 3",       "CO DETECTOR",
+        "CO 4",       "CO DETECTOR",
+        "COBLS",      "CO POISONING",
+        "COPOIS",     "CARBON MONOXIDE POISONING",
+        "COLD",       "COLD EXPOSURE",
+        "COLDALS",    "COLD EXPOSURE",
+        "COLL",       "BUILDING COLLAPSE",
+        "CONST",      "CONSTRUCTION / INDUSTRIAL ACCIDENT",
+        "COS",        "CO W/SICK PERSON",
+        "DIAB",       "DIABETIC",
+        "DIABBLS",    "DIABETIC BLS",
+        "DLOC",       "DECREASED LEVEL OF CONSCIOUSNESS",
+        "DOA",        "DOA",
+        "DROWN",      "DROWNING",
+        "DROWNALS",   "NEAR DROWNING",
+        "DROWNBLS",   "NEAR DROWNING",
+        "ELEC",       "ELECTRICAL BURN",
+        "ELEV",       "ELEVATOR RESC W/INJ",
+        "ELEV/SC",    "ELEVATOR RESC NO INJ",
+        "ET",         "EMERGENCY TRANSFER",
+        "EYE",        "EYE INJURY",
+        "EYEALS",     "EYE INJURY ALS",
+        "FARM",       "FARM MACHINERY FIRE",
+        "FIELD",      "FIELD FIRE",
+        "GAS LINE",   "GAS LINE STRUCK",
+        "GAS/OUT",    "OUTSIDE GAS LEAK",
+        "HANG",       "HANGING",
+        "HAZMAT",     "HAZMAT INCIDENT (SPECIFY)",
+        "HEADACHE",   "HEADACHE",
+        "HEAT",       "HEAT RELATED EMERGENCY",
+        "HEATALS",    "HEAT RELATED EMERGENCY",
+        "HEM",        "HEMORRHAGE",
+        "HEMALS",     "HEMORRHAGE",
+        "HEMIVT",     "HEMORRHAGE",
+        "HF",         "HOUSE FIRE",
+        "HM",         "HAZMAT ALARM",
+        "ILLEG",      "ILLEGAL OPEN BURNING",
+        "INHAL",      "INHALATION EMERGENCY",
+        "INHALBLS",   "INHALATION EMERGENCY",
+        "INJ",        "INJURED PERSON",
+        "INJALS",     "INJURED PERSON (SPECIFY NATURE)",
+        "INJFALL",    "INJURED PERSON FROM FALL",
+        "INJAS",      "INJURED PERSON FROM ASSAULT",
+        "INJASALS",   "INJURED PERSON FROM ASSAULT (ALS)",
+        "INVEST",     "INVESTIGATION",
+        "IVT",        "IVT MEDICAL ALARM",
+        "LARGE TRUCK FIRE", "LARGE TRUCK FIRE",
+        "LO/E",       "EMERGENCY LOCKOUT",
+        "LOCAL",      "LOCAL ALARM",
+        "MA",         "MUTUAL AID ALARM",
+        "MERCLG",     "MERCURY RELEASE / LARGE",
+        "MERCSM",     "MERCURY RELEASE / SMALL",
+        "MISC",       "MISCELLANEOUS FIRE - SPECIFY",
+        "MO",         "MENTAL PATIENT",
+        "MOV",        "VIOLENT MENTAL PATIENT",
+        "NOSE",       "NOSEBLEED",
+        "OB",         "OBSTETRIC PATIENT",
+        "OBALS",      "OBSTETRIC PATIENT ALS",
+        "OVERDOSE",   "OVERDOSE",
+        "ODBLS",      "OVERDOSE",
+        "ODORSICK",   "ODOR WITH SICK SUB",
+        "OUTSIDE",    "OUTSIDE FIRE",
+        "PA",         "PATIENT ASSIST",
+        "PATIENT",    "PATIENT ASSIST",
+        "PED",        "PEDESTRIAN STRUCK",
+        "PIAMB",      "INJURY FROM VEHICLE ACCIDENT",
+        "POIS",       "POISONING",
+        "POISBLS",    "POISONING BLS",
+        "PROQA DEFAULT", "PROQA DEFAULT",
+        "REKIN",      "REKINDLE",
+        "RES FIRE ALARM", "RES FIRE ALARM",
+        "RESC",       "RESCUE ALARM",
+        "RESCONF",    "CONFINED SPACE RESCUE",
+        "RESHA",      "HIGH ANGLE RESCUE",
+        "RESMI/ALS",  "SPECIFY NATURE (ALS RESPONSE)",
+        "RESP",       "TROUBLE BREATHING",
+        "RESTR",      "TRENCH RESCUE",
+        "RESWN",      "INLAND WATER RESCUE",
+        "RESWR",      "SWIFT WATER RESCUE",
+        "ROUT",       "ROUTINE TRANSPORT",
+        "SC/CO",      "CO DETECTOR ACTIVATION",
+        "SC/ELEV",    "STUCK ELEVATOR",
+        "SC/FLOOD",   "FLOODING CONDITION",
+        "SC/HELI",    "HELICOPTER LANDING ZONE",
+        "SC/LOCK",    "LOCKOUT",
+        "SC/LOCKV",   "SUBJECT LOCKED IN A VEHICLE",
+        "SC/WASH",    "WASHDOWN",
+        "SEIZ",       "SEIZURE",
+        "SEIZALS",    "SEIZURE",
+        "SERVICE",    "SERVICE CALL",
+        "SHOOT",      "SHOOTING",
+        "SHOOTA",     "ACCIDENTAL SHOOTING",
+        "SHOOTBLS",   "SHOOTING BLS",
+        "SHOOTS",     "SELF INFLICTED SHOOTING",
+        "SICK",       "SICK PERSON",
+        "SNAKE",      "SNAKE BITE",
+        "SPILL",      "HAZMAT ALARM - FUEL SPILL",
+        "STAB",       "STABBING",
+        "STABBLS",    "STABBING BLS",
+        "STABS",      "SELF INFLICTED - KNIFE",
+        "STROKE",     "STROKE",
+        "STRUC",      "STRUCTURE ALARM",
+        "SYNCO",      "SYNCOPAL EPISODE",
+        "TANKER",     "LG FUEL LOAD VEHICLE",
+        "TRAIN AC",   "TRAIN ACCIDENT",
+        "TRAIN FI",   "TRAIN FIRE",
+        "TRANS",      "TRANSFER",
+        "TRASH",      "TRASH FIRE",
+        "TRUCKLG",    "LARGE TRUCK FIRE",
+        "UC",         "UNCONSCIOUS SUBJECT",
+        "UNCDIAB",    "UNCONSCIOUS DIABETIC",
+        "UNCOD",      "UNCONSCIOUS OVERDOSE",
+        "UNK",        "UNKNOWN MEDICAL EMERGENCY",
+        "UP",         "UNCONSCIOUS PERSON",
+        "VC",         "VEHICLE COLLISION",
+        "VC/BIKE",    "BICYCLE ACCIDENT",
+        "VC/MOT",     "MOTORCYCLE ACCIDENT",
+        "VC BUS",     "BUS ACCIDENT",
+        "VC SERIOUS", "VEHICLE COLLISION SERIOUS",
+        "VCBUS",      "BUS ACCIDENT",
+        "VCR",        "VEHICLE COLLISION RESCUE",
+        "VCR/HM",     "VC W/HM",
+        "VCS",        "VEHICLE COLLISION SERIOUS",
+        "VEH",        "VEHICLE FIRE",
+        "VEHICLE",    "VEHICLE COLLISION",
+        "WIRES",      "WIRES DOWN",
+        "WOODS",      "WOODS FIRE" }) {
+      if (key == null) {
+        key = value;
+      } else {
+        CALL_TABLE.put(key, value);
+        CALL_TABLE.put(value, value);
+        key = null;
+      }
+    }
+  };
 }
