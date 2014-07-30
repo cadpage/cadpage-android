@@ -19,8 +19,18 @@ public class NYNewYorkCityParser extends FieldProgramParser {
 
 	  @Override
 	  protected boolean parseMsg(String body, Data data) {
+	    int pt = body.indexOf('\n');
+	    if (pt >= 0) {
+	      data.strSupp = body.substring(pt+1).trim();
+	      body = body.substring(0,pt).trim();
+	    }
 	    body = body.replace(" Bet ", " Bet: ");
 	    return parseFields(body.split(" - "), 3, data);
+	  }
+	  
+	  @Override
+	  public String getProgram() {
+	    return super.getProgram() + " INFO";
 	  }
 	}
 	

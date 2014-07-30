@@ -47,6 +47,10 @@ Pbagnpg: Fnzzl Urpug <fnzzlurpug@tznvy.pbz>
 Fraqre: fnzzls245+pns_=3474512227=igrkg.pbz@tznvy.pbz
 1068 R 15Gu Fg - Org Nirahr W & Nirahr X - Pnyy VQ: 108-493-10
 
+Pbagnpg: Noenunz Rvfraoret <norrvfraoret@tznvy.pbz>
+Fraqre: pnyyvq@ungmnynu.bet
+1479 Fgngr Ebhgr 17O - Org Fpuhygm Eq / Fgngr Ebhgr 17O & Fgngr Ebhgr 17O / Fgngr Ebhgr 55 - Ncg: 83 - Pnyy VQ: 116-499-80\aFvgr: Yncvqhf-Znva-Fngzne
+
 */
 
 choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -229,6 +233,22 @@ choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:Nirahr W & Nirahr X",
         "VQ:108-493-10");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgNoenunzRvfraoret() {
+
+    qbGrfg("G1",
+        "1479 Fgngr Ebhgr 17O - Org Fpuhygm Eq / Fgngr Ebhgr 17O & Fgngr Ebhgr 17O / Fgngr Ebhgr 55 - Ncg: 83 - Pnyy VQ: 116-499-80\a" +
+        "Fvgr: Yncvqhf-Znva-Fngzne",
+
+        "NQQE:1479 Fgngr Ebhgr 17O",
+        "ZNQQE:1479 FGNGR 17O",
+        "NCG:83",
+        "K:Fpuhygm Eq / Fgngr Ebhgr 17O & Fgngr Ebhgr 17O / Fgngr Ebhgr 55",
+        "VQ:116-499-80",
+        "VASB:Fvgr: Yncvqhf-Znva-Fngzne");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
