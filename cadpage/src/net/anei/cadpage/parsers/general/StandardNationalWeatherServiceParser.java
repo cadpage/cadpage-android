@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class StandardNationalWeatherServiceParser extends MsgParser {
   
-  private static final Pattern URL_PTN = Pattern.compile("(.*)\\bMore information<(http://.*)>\\.");
+  private static final Pattern URL_PTN = Pattern.compile("(.*)\\bMore information(?: at)? *<?(http://.*)>?\\.?");
   
   public StandardNationalWeatherServiceParser() {
     super("", "");

@@ -12,20 +12,19 @@ Ntrapl anzr: Pnfgyr Ebpx SQ
 Ybpngvba: Pnfgyr Ebpx, PB, Havgrq Fgngrf
 Fraqre: Abeevf Pebbz <APebbz@petbi.pbz>
 
-{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Zbaqnl, Whyl 14, 2014 4:29:54 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aRirag rkgraqrq (gvzr). Frirer Guhaqrefgbez Jngpu sebz 7/14/2014 4:29 CZ gb 7:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17767324>.
-{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Zbaqnl, Whyl 14, 2014 2:16:23 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aPbeerpgvba. Frirer Guhaqrefgbez Jngpu sebz 7/14/2014 1:04 CZ gb 5:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17755338>.
-{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Zbaqnl, Whyl 14, 2014 1:05:10 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aArj rirag. Frirer Guhaqrefgbez Jngpu sebz 7/14/2014 1:04 CZ gb 5:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17749213>.
-{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Fngheqnl, Whyl 12, 2014 9:38:37 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aRirag pnapryyrq. Nerny Sybbq Nqivfbel sebz 7/12/2014 9:38 CZ gb 10:15 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17701966>.
-{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Fngheqnl, Whyl 12, 2014 9:01:27 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aRirag pnapryyrq. Synfu Sybbq Jngpu sebz 7/12/2014 9:01 CZ gb 9:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17701611>.
-{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Fngheqnl, Whyl 12, 2014 7:49:22 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aArj rirag. Nerny Sybbq Nqivfbel sebz 7/12/2014 7:49 CZ gb 10:15 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17699234>.
-{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Fngheqnl, Whyl 12, 2014 6:28:22 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aArj rirag. Nerny Sybbq Nqivfbel sebz 7/12/2014 6:28 CZ gb 8:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17698187>.
-{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Fngheqnl, Whyl 12, 2014 10:41:49 NZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aArj rirag. Synfu Sybbq Jngpu sebz 7/12/2014 1:00 CZ gb 9:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17692059>.
-{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Sevqnl, Whyl 11, 2014 4:40:59 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aRirag pnapryyrq. Nerny Sybbq Nqivfbel sebz 7/11/2014 4:40 CZ gb 6:15 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17686242>.
-{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Sevqnl, Whyl 11, 2014 3:11:11 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aArj rirag. Nerny Sybbq Nqivfbel sebz 7/11/2014 3:11 CZ gb 6:15 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17684326>.
+{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Jrqarfqnl, Whyl 30, 2014 5:59:04 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aRirag pnapryyrq. Synfu Sybbq Jngpu sebz 7/30/2014 5:58 CZ gb 6:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18044028>.
+{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Ghrfqnl, Whyl 29, 2014 8:19:59 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aRirag pnapryyrq. Nerny Sybbq Nqivfbel sebz 7/29/2014 8:19 CZ gb 10:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18037194>.
+{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Ghrfqnl, Whyl 29, 2014 7:06:35 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aArj rirag. Nerny Sybbq Nqivfbel sebz 7/29/2014 7:06 CZ gb 10:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18036424>.
+{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Zbaqnl, Whyl 28, 2014 1:37:43 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aArj rirag. Synfu Sybbq Jngpu sebz 7/29/2014 2:00 CZ gb 7/30/2014 6:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18016885>.
+{SJ: vAJF Nyreg} \a-------------------------------------------\aSebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\aFrag: Guhefqnl, Whyl 24, 2014 6:55:19 CZ\aGb: Abeevf Pebbz\aFhowrpg: vAJF Nyreg\aNhgb sbejneqrq ol n Ehyr\a\aFCFOBH sebz 7/24/2014 6:55 CZ gb 7:30 CZ ZQG sbe 80108, Qbhtynf Pbhagl: FVTAVSVPNAG JRNGURE NQIVFBEL SBE JRFGREA NENCNUBRABEGU PRAGENY QBHTYNFRNFG PRAGENY WRSSREFBA NAQ FBHGURNFGREA QRAIRE PBHAGVRF HAGVY 730 CZ ZQG. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17936427>.
 
-Angvbany Jrngure Freivpr
+Pbagnpg: Npgvir911
+Ntrapl anzr: Tbyqra SQ
+Ybpngvba: Tbyqra, PB, Havgrq Fgngrf
+Fraqre: je.zbovyr.nyregf@abnn.tbi
 
-(vAJF Nyreg) Arj rirag. Frirer Guhaqrefgbez Jngpu sebz 7/14/2014 1:04 CZ gb 5:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17749213>.
+(vAJF Nyreg) Rirag pnapryyrq. Synfu Sybbq Jngpu sebz 7/30/2014 5:58 CZ gb 6:00 CZ ZQG sbe Tbyqra, Pb. Zber vasbezngvba ng uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18043938
+(vAJF Nyreg) Arj rirag. Synfu Sybbq Jngpu sebz 7/29/2014 2:00 CZ  gb 7/30/2014 6:00 CZ ZQG sbe Tbyqra, Pb. Zber vasbezngvba ng uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18016800
 
  */
 
@@ -34,6 +33,7 @@ choyvp pynff FgnaqneqAngvbanyJrngureFreivprCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp FgnaqneqAngvbanyJrngureFreivprCnefreGrfg() {
     frgCnefre(arj FgnaqneqAngvbanyJrngureFreivprCnefre(), "", "");
   }
+  
 
   @Grfg
   choyvp ibvq grfgPnfgyrEbpxSQ() {
@@ -42,131 +42,81 @@ choyvp pynff FgnaqneqAngvbanyJrngureFreivprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{SJ: vAJF Nyreg} \a" +
         "-------------------------------------------\a" +
         "Sebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\a" +
-        "Frag: Zbaqnl, Whyl 14, 2014 4:29:54 CZ\a" +
+        "Frag: Jrqarfqnl, Whyl 30, 2014 5:59:04 CZ\a" +
         "Gb: Abeevf Pebbz\a" +
         "Fhowrpg: vAJF Nyreg\a" +
         "Nhgb sbejneqrq ol n Ehyr\a\a" +
-        "Rirag rkgraqrq (gvzr). Frirer Guhaqrefgbez Jngpu sebz 7/14/2014 4:29 CZ gb 7:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17767324>.",
+        "Rirag pnapryyrq. Synfu Sybbq Jngpu sebz 7/30/2014 5:58 CZ gb 6:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18044028>.",
 
-        "PNYY:Rirag rkgraqrq (gvzr). Frirer Guhaqrefgbez Jngpu sebz 7/14/2014 4:29 CZ gb 7:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl.",
-        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17767324");
+        "PNYY:Rirag pnapryyrq. Synfu Sybbq Jngpu sebz 7/30/2014 5:58 CZ gb 6:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl.",
+        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18044028>.");
 
     qbGrfg("G2",
         "{SJ: vAJF Nyreg} \a" +
         "-------------------------------------------\a" +
         "Sebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\a" +
-        "Frag: Zbaqnl, Whyl 14, 2014 2:16:23 CZ\a" +
+        "Frag: Ghrfqnl, Whyl 29, 2014 8:19:59 CZ\a" +
         "Gb: Abeevf Pebbz\a" +
         "Fhowrpg: vAJF Nyreg\a" +
         "Nhgb sbejneqrq ol n Ehyr\a\a" +
-        "Pbeerpgvba. Frirer Guhaqrefgbez Jngpu sebz 7/14/2014 1:04 CZ gb 5:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17755338>.",
+        "Rirag pnapryyrq. Nerny Sybbq Nqivfbel sebz 7/29/2014 8:19 CZ gb 10:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18037194>.",
 
-        "PNYY:Pbeerpgvba. Frirer Guhaqrefgbez Jngpu sebz 7/14/2014 1:04 CZ gb 5:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl.",
-        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17755338");
+        "PNYY:Rirag pnapryyrq. Nerny Sybbq Nqivfbel sebz 7/29/2014 8:19 CZ gb 10:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl.",
+        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18037194>.");
 
     qbGrfg("G3",
         "{SJ: vAJF Nyreg} \a" +
         "-------------------------------------------\a" +
         "Sebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\a" +
-        "Frag: Zbaqnl, Whyl 14, 2014 1:05:10 CZ\a" +
+        "Frag: Ghrfqnl, Whyl 29, 2014 7:06:35 CZ\a" +
         "Gb: Abeevf Pebbz\a" +
         "Fhowrpg: vAJF Nyreg\a" +
         "Nhgb sbejneqrq ol n Ehyr\a\a" +
-        "Arj rirag. Frirer Guhaqrefgbez Jngpu sebz 7/14/2014 1:04 CZ gb 5:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17749213>.",
+        "Arj rirag. Nerny Sybbq Nqivfbel sebz 7/29/2014 7:06 CZ gb 10:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18036424>.",
 
-        "PNYY:Arj rirag. Frirer Guhaqrefgbez Jngpu sebz 7/14/2014 1:04 CZ gb 5:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl.",
-        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17749213");
+        "PNYY:Arj rirag. Nerny Sybbq Nqivfbel sebz 7/29/2014 7:06 CZ gb 10:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl.",
+        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18036424>.");
 
     qbGrfg("G4",
         "{SJ: vAJF Nyreg} \a" +
         "-------------------------------------------\a" +
         "Sebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\a" +
-        "Frag: Fngheqnl, Whyl 12, 2014 9:38:37 CZ\a" +
+        "Frag: Zbaqnl, Whyl 28, 2014 1:37:43 CZ\a" +
         "Gb: Abeevf Pebbz\a" +
         "Fhowrpg: vAJF Nyreg\a" +
         "Nhgb sbejneqrq ol n Ehyr\a\a" +
-        "Rirag pnapryyrq. Nerny Sybbq Nqivfbel sebz 7/12/2014 9:38 CZ gb 10:15 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17701966>.",
+        "Arj rirag. Synfu Sybbq Jngpu sebz 7/29/2014 2:00 CZ gb 7/30/2014 6:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18016885>.",
 
-        "PNYY:Rirag pnapryyrq. Nerny Sybbq Nqivfbel sebz 7/12/2014 9:38 CZ gb 10:15 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl.",
-        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17701966");
+        "PNYY:Arj rirag. Synfu Sybbq Jngpu sebz 7/29/2014 2:00 CZ gb 7/30/2014 6:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl.",
+        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18016885>.");
 
     qbGrfg("G5",
         "{SJ: vAJF Nyreg} \a" +
         "-------------------------------------------\a" +
         "Sebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\a" +
-        "Frag: Fngheqnl, Whyl 12, 2014 9:01:27 CZ\a" +
+        "Frag: Guhefqnl, Whyl 24, 2014 6:55:19 CZ\a" +
         "Gb: Abeevf Pebbz\a" +
         "Fhowrpg: vAJF Nyreg\a" +
         "Nhgb sbejneqrq ol n Ehyr\a\a" +
-        "Rirag pnapryyrq. Synfu Sybbq Jngpu sebz 7/12/2014 9:01 CZ gb 9:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17701611>.",
+        "FCFOBH sebz 7/24/2014 6:55 CZ gb 7:30 CZ ZQG sbe 80108, Qbhtynf Pbhagl: FVTAVSVPNAG JRNGURE NQIVFBEL SBE JRFGREA NENCNUBRABEGU PRAGENY QBHTYNFRNFG PRAGENY WRSSREFBA NAQ FBHGURNFGREA QRAIRE PBHAGVRF HAGVY 730 CZ ZQG. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17936427>.",
 
-        "PNYY:Rirag pnapryyrq. Synfu Sybbq Jngpu sebz 7/12/2014 9:01 CZ gb 9:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl.",
-        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17701611");
+        "PNYY:FCFOBH sebz 7/24/2014 6:55 CZ gb 7:30 CZ ZQG sbe 80108, Qbhtynf Pbhagl: FVTAVSVPNAG JRNGURE NQIVFBEL SBE JRFGREA NENCNUBRABEGU PRAGENY QBHTYNFRNFG PRAGENY WRSSREFBA NAQ FBHGURNFGREA QRAIRE PBHAGVRF HAGVY 730 CZ ZQG.",
+        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17936427>.");
 
-    qbGrfg("G6",
-        "{SJ: vAJF Nyreg} \a" +
-        "-------------------------------------------\a" +
-        "Sebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\a" +
-        "Frag: Fngheqnl, Whyl 12, 2014 7:49:22 CZ\a" +
-        "Gb: Abeevf Pebbz\a" +
-        "Fhowrpg: vAJF Nyreg\a" +
-        "Nhgb sbejneqrq ol n Ehyr\a\a" +
-        "Arj rirag. Nerny Sybbq Nqivfbel sebz 7/12/2014 7:49 CZ gb 10:15 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17699234>.",
+  }
 
-        "PNYY:Arj rirag. Nerny Sybbq Nqivfbel sebz 7/12/2014 7:49 CZ gb 10:15 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl.",
-        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17699234");
+  @Grfg
+  choyvp ibvq grfgTbyqraSQ() {
 
-    qbGrfg("G7",
-        "{SJ: vAJF Nyreg} \a" +
-        "-------------------------------------------\a" +
-        "Sebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\a" +
-        "Frag: Fngheqnl, Whyl 12, 2014 6:28:22 CZ\a" +
-        "Gb: Abeevf Pebbz\a" +
-        "Fhowrpg: vAJF Nyreg\a" +
-        "Nhgb sbejneqrq ol n Ehyr\a\a" +
-        "Arj rirag. Nerny Sybbq Nqivfbel sebz 7/12/2014 6:28 CZ gb 8:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17698187>.",
+    qbGrfg("G1",
+        "(vAJF Nyreg) Rirag pnapryyrq. Synfu Sybbq Jngpu sebz 7/30/2014 5:58 CZ gb 6:00 CZ ZQG sbe Tbyqra, Pb. Zber vasbezngvba ng uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18043938",
+        "PNYY:Rirag pnapryyrq. Synfu Sybbq Jngpu sebz 7/30/2014 5:58 CZ gb 6:00 CZ ZQG sbe Tbyqra, Pb.",
+        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18043938");
 
-        "PNYY:Arj rirag. Nerny Sybbq Nqivfbel sebz 7/12/2014 6:28 CZ gb 8:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl.",
-        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17698187");
-
-    qbGrfg("G8",
-        "{SJ: vAJF Nyreg} \a" +
-        "-------------------------------------------\a" +
-        "Sebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\a" +
-        "Frag: Fngheqnl, Whyl 12, 2014 10:41:49 NZ\a" +
-        "Gb: Abeevf Pebbz\a" +
-        "Fhowrpg: vAJF Nyreg\a" +
-        "Nhgb sbejneqrq ol n Ehyr\a\a" +
-        "Arj rirag. Synfu Sybbq Jngpu sebz 7/12/2014 1:00 CZ gb 9:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17692059>.",
-
-        "PNYY:Arj rirag. Synfu Sybbq Jngpu sebz 7/12/2014 1:00 CZ gb 9:00 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl.",
-        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17692059");
-
-    qbGrfg("G9",
-        "{SJ: vAJF Nyreg} \a" +
-        "-------------------------------------------\a" +
-        "Sebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\a" +
-        "Frag: Sevqnl, Whyl 11, 2014 4:40:59 CZ\a" +
-        "Gb: Abeevf Pebbz\a" +
-        "Fhowrpg: vAJF Nyreg\a" +
-        "Nhgb sbejneqrq ol n Ehyr\a\a" +
-        "Rirag pnapryyrq. Nerny Sybbq Nqivfbel sebz 7/11/2014 4:40 CZ gb 6:15 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17686242>.",
-
-        "PNYY:Rirag pnapryyrq. Nerny Sybbq Nqivfbel sebz 7/11/2014 4:40 CZ gb 6:15 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl.",
-        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17686242");
-
-    qbGrfg("G10",
-        "{SJ: vAJF Nyreg} \a" +
-        "-------------------------------------------\a" +
-        "Sebz: je.zbovyr.nyregf@abnn.tbi[FZGC:JE.ZBOVYR.NYREGF@ABNN.TBI]\a" +
-        "Frag: Sevqnl, Whyl 11, 2014 3:11:11 CZ\a" +
-        "Gb: Abeevf Pebbz\a" +
-        "Fhowrpg: vAJF Nyreg\a" +
-        "Nhgb sbejneqrq ol n Ehyr\a\a" +
-        "Arj rirag. Nerny Sybbq Nqivfbel sebz 7/11/2014 3:11 CZ gb 6:15 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl. Zber vasbezngvba<uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17684326>.",
-
-        "PNYY:Arj rirag. Nerny Sybbq Nqivfbel sebz 7/11/2014 3:11 CZ gb 6:15 CZ ZQG sbe 80104, 80108, 80109, Qbhtynf Pbhagl.",
-        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/17684326");
+    qbGrfg("G2",
+        "(vAJF Nyreg) Arj rirag. Synfu Sybbq Jngpu sebz 7/29/2014 2:00 CZ  gb 7/30/2014 6:00 CZ ZQG sbe Tbyqra, Pb. Zber vasbezngvba ng uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18016800",
+        "PNYY:Arj rirag. Synfu Sybbq Jngpu sebz 7/29/2014 2:00 CZ  gb 7/30/2014 6:00 CZ ZQG sbe Tbyqra, Pb.",
+        "HEY:uggc://vajf.jeu.abnn.tbi/jrngure/nyregvasb/18016800");
 
   }
   
