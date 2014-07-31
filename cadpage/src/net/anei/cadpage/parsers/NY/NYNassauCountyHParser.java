@@ -4,7 +4,7 @@ public class NYNassauCountyHParser extends NYSuffolkCountyXBaseParser {
   
   public NYNassauCountyHParser() {
     super("NASSAU COUNTY", "NY",
-           "CALL PLACENAME ADDR/SXa! CS:X? TOA:TOA!");
+           "CALL PLACENAME ADDR/SXa! CS:X? TOA:TOAP!");
   }
   
   @Override

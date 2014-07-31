@@ -92,7 +92,9 @@ public class NYSuffolkCountyXBaseParser extends FieldProgramParser {
 	      // truncated TOA fields
 	      if (!allowPartial || field.length() == 0) return false;
 	      if (getRelativeField(+1).length() > 0) return false;
-	      return "NN:NN NN-NN-NN".startsWith(field.replaceAll("\\d", "N"));
+	      if (!"NN:NN NN-NN-NN".startsWith(field.replaceAll("\\d", "N"))) return false;
+	      if (field.length() >= 5) data.strTime = field.substring(0,5);
+	      return true;
 	    }
 	    
 	    @Override
