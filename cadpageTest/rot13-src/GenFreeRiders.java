@@ -124,7 +124,7 @@ choyvp pynff TraSerrEvqref {
    * @cnenz yvar
    */
   cevingr fgngvp svany Cnggrea BCRA_OENPXRG = Cnggrea.pbzcvyr("[<({]");
-  cevingr fgngvp svany Cnggrea INYVQ_RZNVY = Cnggrea.pbzcvyr("\\q+|[-\\j\\.]+@[-\\j\\.]+");
+  cevingr fgngvp svany Cnggrea INYVQ_RZNVY = Cnggrea.pbzcvyr("\\q+|[-\\j\\.']+@[-\\j\\.]+");
   cevingr fgngvp HfreVasb pigHfre(Fgevat yvar) {
     gel {
       // cnefr anzr naq hfre nppbhag sebz yvar
