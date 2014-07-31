@@ -9,7 +9,7 @@ choyvp pynff CnggreaGrfg {
       Cnggrea.pbzcvyr("RIRAG: ([N-Mn-m]\\q{10}) 911: [:0-9]+ / NQQ: .*");
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("RIRAG: I2014011404 911: 16:29:13 / NQQ: 16:30:27 / QVFC: 16:30:50 / RAEBHGR: 16:31:36 / NEEVIR: 16:34:46 / GE: / GN: NI 1648");
+    qbGrfg("(YPQ Zrffntr) JVAFGRQ NZO ERFCBAQ GB 6 CEBPX UVYY EQ PNZC WRJRYY, VSB ZNVA YBQTR  PBYROEBBX, , 7L Z PURFG CNVA, 10-N-1 :09:51**,42.018370879814, -73.1147161591798");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

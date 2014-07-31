@@ -196,6 +196,7 @@ class Active911Vendor extends Vendor {
       "US/CO/WeldCounty",                 "COWeldCounty",
       "US/CT/DMS",                        "CTFairfieldCountyB",
       "US/CT/Groton",                     "CTGroton",
+      "US/CT/LitchfieldCounty",           "CTLitchfieldCountyA",
       "US/CT/WaterfordFD",                "CTWaterfordTownParser",
       "US/CT/Uconn",                      "CTTollandCountyB",
       "US/CT/Valleyshore911",             "CTMiddlesexCounty",
@@ -534,6 +535,7 @@ class Active911Vendor extends Vendor {
       "US/WV/RaleighCounty",              "WVRaleighCounty",
       "US/WV/Wyoming",                    "WVWyomingCounty",
       "Utility/General/Default",          "N/A",
+      "Vendor/Cadpage/Default",           "Cadpage2",
       "Vendor/Cadpage/StandardA",         "StandardA"
   });
 }

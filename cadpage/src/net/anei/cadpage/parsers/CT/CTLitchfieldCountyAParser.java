@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CTLitchfieldCountyAParser extends SmartAddressParser {
   
-  private static final Pattern MASTER1 = Pattern.compile("(.*) RESPOND TO (.*?)(?:,|,? +(\\d{1,2}-[A-Z]-\\d{1,2}(?:-[A-Z])?|HOT|ALPHA)) *(?::|--| -)(\\d\\d:\\d\\d)");
+  private static final Pattern MASTER1 = Pattern.compile("(.*) RESPOND TO (.*?)(?:,|,? (\\d{1,3}-[A-Z]-\\d{1,2}(?:-?[A-Z])?|HOT|ALPHA|COLD|\\d+|)) *(?::|--| -)(\\d\\d:\\d\\d)(?:(?: ([A-Z]\\d{2}-\\d+)|\\*\\*), *((?:[-+]?\\d+\\.\\d{4,}|0), *(?:[-+]?\\d+\\.\\d{4,}|0))| *\\(.*\\))?");
   private static final Pattern MASTER2 = Pattern.compile("(.+?)-(.+)-(.*?) *\\*\\*\\* (\\d\\d:\\d\\d)---");
   private static final Pattern MAU_HILL = Pattern.compile("^(.*) MAUWEEHOO H(?:IL)?L (.*)$");
   private static final Pattern START_PAREN_PTN = Pattern.compile("^\\(.*?\\)");
@@ -17,7 +17,6 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
   public CTLitchfieldCountyAParser() {
     super(CTLitchfieldCountyParser.CITY_LIST, "LITCHFIELD COUNTY", "CT");
     addExtendedDirections();
-    setFieldList("SRC ADDR X PLACE APT CITY CALL CODE TIME");
     setupMultiWordStreets(
         "LIME ROCK",
         "SAW MILL HILL");
@@ -30,14 +29,19 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("LCD") && !subject.equals("LCD Message")) return false;
+    if (!subject.equals("LCD") && !subject.equalsIgnoreCase("LCD Message")) return false;
     
+    body = body.replace('\n', ' ');
     Matcher match = MASTER1.matcher(body);
     if (match.matches()) {
+      setFieldList("SRC ADDR X PLACE APT CITY CALL CODE TIME ID GPS");
       data.strSource = match.group(1).trim();
       String sAddr = match.group(2).trim();
       data.strCode = getOptGroup(match.group(3));
       data.strTime = match.group(4);
+      data.strCallId = getOptGroup(match.group(5));
+      String gps = match.group(6);
+      if (gps != null) setGPSLoc(gps, data);
       
       Parser p = new Parser(sAddr);
       data.strCall = p.getLast(',');
@@ -50,6 +54,7 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
     
     match = MASTER2.matcher(body);
     if (match.matches()) {
+      setFieldList("CALL ADDR X PLACE APT CITY PLACE TIME");
       
       data.strCall = match.group(1).trim();
       parseAddressField(match.group(2).trim(), data);
@@ -58,7 +63,9 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
       
       return true;
     }
-    return false;
+    data.strCall = "GENERAL ALERT";
+    data.strPlace = body;
+    return true;
   }
 
   private void parseAddressField(String sAddr, Data data) {
