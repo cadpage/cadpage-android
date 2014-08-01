@@ -22,6 +22,10 @@ public class NYNassauCountyKParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Reject NYNassauCountyH messages
+    if (body.startsWith("**")) return false;
+    
     return parseFields(DELIM.split(body), data);
   }
   
