@@ -835,6 +835,14 @@ Jean ~ Cadpage Administrator
 ******************************************************************
 ** Release info
 ******************************************************************
+
+This will be fixed in the next release.  
+
+The weekly release schedule has gotten rather irregular of late.  Next one will probably be out Monday or Tuesday.  If you want it earlier than that this should be in beta release at http://www.cadpage.org/download-cadpage tomorrow morning.
+
+Have a nice day,
+-Ken
+
 ******************************************************************
 
 This will be fixed in the next release.  

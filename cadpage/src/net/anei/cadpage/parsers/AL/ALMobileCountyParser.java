@@ -17,13 +17,20 @@ public class ALMobileCountyParser extends SmartAddressParser {
   
   private static final Pattern RUN_REPORT_PTN =  Pattern.compile("EVENT: ([A-Za-z]\\d{10}) .* / ADD: .* / DISP: .*");
   private static final Pattern OPT_PREFIX_PTN = Pattern.compile("^EVENT: [A-Za-z]\\d{10} +");
-  private static final Pattern MASTER = Pattern.compile("Respond To: (.*?) Event#: ([A-Za-z]\\d{10})(.*) +(\\d\\d:\\d\\d:\\d\\d) +(\\d\\d/\\d\\d/\\d\\d) Dispatch\\b *(.*)");
+  private static final Pattern MASTER = Pattern.compile("Respond To: (.*?) Event#: ([A-Za-z]\\d{10})(.*?)(?: +(\\d\\d:\\d\\d:\\d\\d) +(\\d\\d/\\d\\d/\\d\\d) Dispatch\\b *(.*))?");
+  private static final Pattern PART_MARK_PTN = Pattern.compile(" +\\d\\d:");
   private static final Pattern PLACE_MARK_PTN = Pattern.compile(": *@?");
   private static final Pattern TRAIL_APT_PTN = Pattern.compile("(.*), *([^ ]+)");
 
   public ALMobileCountyParser() {
     super(CITY_CODES, "MOBILE COUNTY", "AL");
     setFieldList("ADDR CITY PLACE APT CALL ID X TIME DATE INFO");
+  }
+  
+  
+  @Override
+  public String getFilter() {
+    return "@c-msg.net";
   }
   
   @Override
@@ -51,10 +58,25 @@ public class ALMobileCountyParser extends SmartAddressParser {
     if (!match.matches()) return false;
     String addr = match.group(1).trim();
     data.strCallId = match.group(2);
-    data.strCross = stripFieldEnd(match.group(3).trim(), "/");
-    data.strTime = match.group(4);
-    data.strDate = match.group(5);
-    data.strSupp = match.group(6);
+    data.strCross = match.group(3).trim();
+    data.strTime = getOptGroup(match.group(4));
+    data.strDate = getOptGroup(match.group(5));
+    data.strSupp = getOptGroup(match.group(6));
+    data.expectMore = (data.strDate.length() == 0);
+    
+    // Parsing a truncated alert gets complicated
+    if (data.expectMore) {
+      match = PART_MARK_PTN.matcher(data.strCross);
+      if (match.find()) {
+        String trail = data.strCross.substring(match.start()).trim().replaceAll("  +", " ");
+        data.strCross = data.strCross.substring(0,match.start());
+        String trail2 = trail.replaceAll("\\d", "N");
+        if (!"NN:NN:NN NN/NN/NN Dispatch".startsWith(trail2)) return false;
+        if (trail.length() >= 8) data.strTime = trail.substring(0,8);
+        if (trail.length() >= 17) data.strDate = trail.substring(9,17);
+      }
+    }
+    data.strCross = stripFieldEnd(data.strCross, "/");
 
     // See if we can identify call description at end of addr field
     // that will make life a lot easier
