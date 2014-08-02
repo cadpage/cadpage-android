@@ -173,6 +173,7 @@ public class BillingManager {
     public void onRestoreTransactionsResponse(RestoreTransactions request,
                                                ResponseCode responseCode) {
       Log.v("Restore Transactions Complete: " + responseCode);
+      if (responseCode == ResponseCode.RESULT_OK) DonationManager.instance().armRecalc();
     }
   }
   

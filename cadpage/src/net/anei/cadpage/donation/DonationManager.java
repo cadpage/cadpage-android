@@ -80,6 +80,7 @@ public class DonationManager {
   
   private Handler handler = new Handler();
   
+  private boolean armRecalc = false;
   private static boolean recalcInProgress = false;
   private static int workPaidYear = 0;
   private static String workPurchaseDateStr = null;
@@ -150,18 +151,16 @@ public class DonationManager {
       
       Log.v("Payment status recalc starting");
       
-      // Lock current status and defer recalculation for 5 seconds
+      // Lock current status and defer recalculation for 10 seconds
       // Then recalculate status and refresh all displays
       calculate();
       
-      // The automatic donation recalculation logic is still running,
-      // but commenting out the following text ensures that it can 
-      // never downgrade a user
+      armRecalc = false;
       recalcInProgress = true;
-//      workPaidYear = 0;
-//      workPurchaseDateStr = null;
-//      workFreeSub = false;
-//      workSponsor = null;
+      workPaidYear = 0;
+      workPurchaseDateStr = null;
+      workFreeSub = false;
+      workSponsor = null;
       
       // Defer the final calculation for 10 seconds to give
       // everything time to come in.
@@ -169,6 +168,10 @@ public class DonationManager {
       
       refreshStatus(CadPageApplication.getContext());
     }
+  }
+  
+  public void armRecalc() {
+    armRecalc = true;
   }
   
   /**
@@ -209,10 +212,17 @@ public class DonationManager {
         int recalcStatusCnt = ManagePreferences.authRecheckStatusCnt()+1;
         EmailDeveloperActivity.logSnapshot(CadPageApplication.getContext(), "Payment Status Downgrade #" + recalcStatusCnt);
         
-        // Because we do not really trust the final results, usually because
-        // the Android market doesn't always return a proper transaction history
-        // we will disregard any downgrades until it is repeated 3 times
-        if (recalcStatusCnt < 3) {
+        // Disreguard downgrade if restore billing transction did not
+        // complete successfully
+        if (!armRecalc) {
+          Log.v("Recalculation of Payment Status results failed");
+        }
+        
+        // Even with all of these safeguards, users are still getting
+        // inappropriately downgraded, usually because Google doesn't report
+        // their in-app purchases.  Rather than disable it completely, we
+        // keep trying basically forever.
+        else if (recalcStatusCnt < 999) {
           ManagePreferences.setAuthRecheckStatusCnt(recalcStatusCnt);
           Log.v("Recalculation of Payment Status results ignored");
           return;
