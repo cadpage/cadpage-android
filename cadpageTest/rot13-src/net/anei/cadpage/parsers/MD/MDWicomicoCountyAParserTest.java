@@ -103,8 +103,7 @@ choyvp pynff ZQJvpbzvpbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ABA OERNGUVAT",
         "NQQE:105 PVIVP NIR",
         "PVGL:FNYVFOHEL",
-        "K:BYQ BPRNA PVGL EQ & JUVGR FG",
-        "VASB:Zrqvpny Cevbevgl erpbasvtherq rirag sebz 09-R-01 gb");
+        "K:BYQ BPRNA PVGL EQ & JUVGR FG");
     
     qbGrfg("G5",
         "1643:PNQ:2010111259;NHGBZNGVP NYNEZ;121 R ANLYBE ZVYY EQ;FNYV;A FNYVFOHEL OYIQ;WNFZVAR QE;[Sver Cevbevgl Vasb] ERFCBAFR: Puneyvr ERFCBAQRE FPEVCG: Nynezf. UV",

@@ -157,7 +157,7 @@ public class DispatchOSSIParser extends FieldProgramParser {
         pt = body.indexOf(']', st);
         if (pt < 0) pt = body.length();
         String content = body.substring(st,pt);
-        priInfo = content.contains("Priority Info");
+        priInfo = content.contains("Priority") && !content.contains("Message");
         if (data.strDate.length() == 0 && data.strTime.length() == 0) {
           Matcher match2 = DATE_TIME_PTN.matcher(content);
           if (match2.find()) {

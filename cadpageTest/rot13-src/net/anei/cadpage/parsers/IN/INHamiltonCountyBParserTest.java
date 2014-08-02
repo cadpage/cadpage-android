@@ -203,7 +203,7 @@ choyvp pynff VAUnzvygbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ABOYRFIVYYR",
         "CYNPR:YBPUNIRA NG ABOYR JRFG",
         "FEP:76",
-        "VASB:fzryy bs cebcnar va gur nern / Sver Cevbevgl erpbasvtherq rirag sebz 66-N-02 gb 60-O-02B. ERFCBAQRE FPEVCG: Tnf Yrnx / Tnf Bqbe (Angheny naq YC Tnfrf). 1. Gur pnyyre vf ba fprar (1fg cnegl). 2. Gur bqbe vf ercbegrqyl bhgfvqr. ^ 3. Gur bqbe vf bs angheny be YC tnf. (Punatr sebz Cebgbpby #66) 4. Gur pnyyre vf ba fprar (1fg cnegl). 5. Gur ceboyrz vf erc",
+        "VASB:fzryy bs cebcnar va gur nern / Tnf Yrnx / Tnf Bqbe (Angheny naq YC Tnfrf). 1. Gur pnyyre vf ba fprar (1fg cnegl). 2. Gur bqbe vf ercbegrqyl bhgfvqr. ^ 3. Gur bqbe vf bs angheny be YC tnf. (Punatr sebz Cebgbpby #66) 4. Gur pnyyre vf ba fprar (1fg cnegl). 5. Gur ceboyrz vf erc",
         "QNGR:12/17/12",
         "GVZR:19:39:23");
 
@@ -742,7 +742,7 @@ choyvp pynff VAUnzvygbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:PBAARE FG & VA 37",
         "PVGL:ABOYRFIVYYR",
         "FEP:75",
-        "VASB:ERCBEG BS RYQREYL ZNYR YNLV / Zrqvpny Cevbevgl erpbasvtherq rirag sebz gb 32-Q-01. ERFCBAQRE FPEVCG: Lbh ner erfcbaqvat gb n cngvrag jvgu na haxabja ceboyrz (zna qbja). Gur cngvrag vf n 55-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. YVSR FGNGHF DHRFGVBANOYR. Pnyyre Fgngrzrag: zna qbja. 1. Ab fcrpvny pvephzfgnaprf. 2. Ur qbrf abg nccrne gb or pbzcyrgryl njnxr (nyreg).",
+        "VASB:ERCBEG BS RYQREYL ZNYR YNLV / Lbh ner erfcbaqvat gb n cngvrag jvgu na haxabja ceboyrz (zna qbja). Gur cngvrag vf n 55-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. YVSR FGNGHF DHRFGVBANOYR. Pnyyre Fgngrzrag: zna qbja. 1. Ab fcrpvny pvephzfgnaprf. 2. Ur qbrf abg nccrne gb or pbzcyrgryl njnxr (nyreg).",
         "QNGR:12/15/12",
         "GVZR:07:35:11");
 
