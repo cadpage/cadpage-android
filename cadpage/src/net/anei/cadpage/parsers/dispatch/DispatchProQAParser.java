@@ -13,6 +13,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DispatchProQAParser extends FieldProgramParser {
   
   private static final Pattern MARKER = Pattern.compile("\\bRun#");
+  private static final Pattern UNASSIGNED_MARKER = Pattern.compile("RC:Job# *[^ ]* *\\(Run# (\\d+)\\) at [0-9:]+ was unassigned\\.");
   private static final Pattern RUN_REPORT_MARKER = Pattern.compile("^(?:was Canceled:| ?(?:CALL:)?\\d\\d:\\d\\d/ ?(?:DISP:)?\\d\\d:\\d\\d/ ?(?:ENR:)?\\d\\d:\\d\\d/ ?(?:ATS:)?\\d\\d:\\d\\d/?)");
   
   protected DispatchProQAParser(String defCity, String defState, String program) {
@@ -29,9 +30,17 @@ public class DispatchProQAParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
+
+    Matcher match = UNASSIGNED_MARKER.matcher(body);
+    if (match.matches()) {
+      data.strCall = "RUN REPORT";
+      data.strCallId = match.group(1);
+      data.strPlace = "was unassigned";
+      return true;
+    }
+
     // Parse run number from first field
-    Matcher match = MARKER.matcher(body);
+    match = MARKER.matcher(body);
     if (!match.find()) return false;
     int pt = match.end();
     int pt2 = body.indexOf("/", pt);
