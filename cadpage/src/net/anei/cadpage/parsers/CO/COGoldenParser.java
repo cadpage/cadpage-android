@@ -22,4 +22,10 @@ public class COGoldenParser extends DispatchA34Parser {
     if (!subject.equals("Golden Fire") && !subject.startsWith("CAD call ")) return false;
     return super.parseMsg(body, data);
   }
+  
+  @Override
+  public String adjustMapCity(String city) {
+    if (city.equals("COORS BREWERY")) city = "GOLDEN";
+    return super.adjustMapCity(city);
+  }
 }

@@ -49,87 +49,108 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Tbyqra Sver) Pnyy#: 122310051*                                                               \a\aGvzr: 13:13:43*                                                                 \a\aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \a\aYbpngvba: WRSSREFBA PBHAGL WNVY, 200 WRSSREFBA PBHAGL CXL, TBYQRA*              \a\aPebff fgerrgf: J 10GU NIR/J 10GU NIR*                                           \a\aHavgf: QVFG1 QVFG2*                                                             \a\aAneengvir: hax cnegl qbja-rzretrag-pbzr va gueh fnyyl cbeg*                     \a\a\a\a\a\a\a\a\a\a\a\aGuvf\a\a
 
 Pbagnpg: Npgvir911
-[Tbyqra Sver] Pnyy#: 122560092*                                                               \e\e\aGvzr: 21:45:56*                                                                 \e\e\aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \e\e\aYbpngvba: 130 PENJSBEQ PVE, TBYQRA*                                             \e\e\aPebff fgerrgf: OHETRFF NIR/ QRSENAPR JNL*                                       \e\e\aZnc cntr: ZNC W3  *                                                             \e\e\aHavgf: QVFG1 QVFG2*\e\e\aAneengvir: cbff pb                                                              \e\e\aghearq bss inyir gb tnf svercynpr                                               \e\e\anverq/*                                                                         \e\e\a\e\e\a\e\e\a\e\e\a\e\e\a\e\e\a  \e\e\a\e\a\e\a\e\a
-[Tbyqra Sver] Pnyy#: 122570021*                                                               \e\e\aGvzr: 07:19:06*                                                                 \e\e\aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \e\e\aYbpngvba: 17881 J PBYSNK NIR, TBYQRA*                                           \e\e\aPebff fgerrgf: JRFG FG/ KLYBA FG*\e\e\aZnc cntr: ZNC W4  *                                                             \e\e\aHavgf: QVFG1 QVFG2*\e\e\aAneengvir: ec srryvat qvmml naq yvtugurnqrq                                     \e\e\a61 lbs pbyba pnapre                                                             \e\e\apba naq oerngu                                                                  \e\e\aqvss oernguvat*                                                                 \e\e\a\e\e\a\e\e\a\e\e\a\e\e\a\e\e\a  \e\e\a\e\a\e\a\e\a
-[Tbyqra Sver] Pnyy#: 122570073*                                                               \e\e\aGvzr: 16:14:46*                                                                 \e\e\aGlcr bs pnyy: Fzbxr/Bqbe Pbzcynvag/Pnyy (53)*                                   \e\e\aYbpngvba: UREVGNTR EQ/J PBYSNK NIR, TBYQRA*                                     \e\e\aZnc cntr: ZNC X4  *\e\e\aHavgf: QVFG1 QVFG2*                                                             \e\e\aAneengvir: frrf fzbxr va nern, fnlf abg dhnel naq fzryyf fzbxr*                 \e\e\a\e\e\a\e\e\a\e\e\a\e\e\a\e\e\a  \e\e\a\e\a\e\a\e\a
-[Tbyqra Sver] Pnyy#: 122580034*                                                               \e\e\aGvzr: 10:20:13*                                                                 \e\e\aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \e\e\aYbpngvba: WRSSREFBA PBHAGL PBHEG UBHFR, 100 WRSSREFBA PBHAGL CXL, TBYQRA*       \e\e\aPebff fgerrgf: PBHEGUBHFR QE/ PBHEGUBHFR QE*                                    \e\e\aZnc cntr: ZNC V4  *                                                             \e\e\aHavgf: QVFG1 QVFG2*                                                             \e\e\aAneengvir: 35 lb/s                                                              \e\e\apba frvmher                                                                     \e\e\aqvssvphygl oernguvat                                                            \e\e\aabg va frvmher abj                                                              \e\e\aerfcbaq gb sebag bs pbheg ubhfr*                                                \e\e\a\e\e\a\e\e\a\e\e\a\e\e\a\e\e\a  \e\e\a\e\a\e\a\e\a
-[Tbyqra Sver] Pnyy#: 122580074*                                                               \e\e\aGvzr: 18:03:55*                                                                 \e\e\aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \e\e\aYbpngvba: 16035 J 4GU NIR, TBYQRA*                                              \e\e\aPebff fgerrgf: BEPUNEQ FG/ BEVBA FG*                                            \e\e\aZnc cntr: ZNC W6  *                                                             \e\e\aHavgf: QVFG1 QVFG2*                                                             \e\e\aAneengvir: nverq gb cq                                                          \e\e\aznyr qvss oernguvat                                                             \e\e\a36 lbz / nzo jvyy unir npprff*                                                  \e\e\a\e\e\a\e\e\a\e\e\a\e\e\a\e\e\a  \e\e\a\e\a\e\a\e\a
-[Tbyqra Sver] Pnyy#: 122590040*                                                               \e\e\aGvzr: 11:40:15*                                                                 \e\e\aGlcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \e\e\aYbpngvba: UJL 6/ 19GU FG, TBYQRA*                                               \e\e\aZnc cntr: ZNC S3  *                                                             \e\e\aHavgf: QVFG1 QVFG2*                                                             \e\e\aAneengvir: pne if ovplpyvfg                                                     \e\e\alryyvat ng rnpu bgure nf jryy                                                   \e\e\aqex tea fhi*                                                                    \e\e\a\e\e\a\e\e\a\e\e\a\e\e\a\e\e\a  \e\e\a\e\a\e\a\e\a
-[Tbyqra Sver] Pnyy#: 122590072*                                                               \e\e\aGvzr: 17:35:28*                                                                 \e\e\aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \e\e\aYbpngvba: 17700 FBHGU TBYQRA EQ, TBYQRA*                                        \e\e\aPebff fgerrgf: YHAABAUNHF QE/ WBUAFBA EQ*                                       \e\e\aZnc cntr: ZNC T4  *                                                             \e\e\aHavgf: QVFG1 QVFG2*                                                             \e\e\aAneengvir: qbrfa'g fcrpvsl ohfvarff anzr                                        \e\e\acerzvfr 303 443 3313*                                                           \e\e\a\e\e\a\e\e\a\e\e\a\e\e\a\e\e\a  \e\e\a\e\a\e\a\e\a
-[Tbyqra Sver] Pnyy#: 123550120*                                                               \e\aGvzr: 22:51:47*                                                                 \e\aGlcr bs pnyy: Zhghny Nvq*                                                       \e\aYbpngvba: 1430 WBLPR FG*                                                        \e\aPebff fgerrgf:/*                                                                \e\aHavgf: QVFG1 QVFG2*                                                          \e\aAneengvir: rat naq erfphr sver fr*
-
-Pbagnpg: Npgvir911
 Ntrapl anzr: Tbyqra SQ
 Ybpngvba: Tbyqra, PB, Havgrq Fgngrf
-Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+Fraqre: <PNQGBSVER@PVGLBSTBYQRA.ARG>
 
-(Tbyqra Sver) Pnyy#: 130070096*                                                               \aGvzr: 18:45:41*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 1200 TBYQRA PVE, TBYQRA*                                              \aPebff fgerrgf: TBYQRA PVE/ TBYQRA PVE*                                          \aZnc cntr: ZNC V4  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: oyqt 10 nhgbzngvp*                                                   \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130070087*                                                               \aGvzr: 17:37:24*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 149 XVZONYY NIR, TBYQRA*                                              \aPebff fgerrgf: QRSENAPR JNL/ PENJSBEQ FG*                                       \aZnc cntr: ZNC X3  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ22*                                                       \aAneengvir: p/o qvss oernguvat 38 lbs*                                           \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130070080*                                                               \aGvzr: 16:08:32*                                                                 \aGlcr bs pnyy: Jngre Ceboyrz/Cvcr Oernx (52)*                                    \aYbpngvba: 2201 VYYVABVF FG, TBYQRA*                                             \aPebff fgerrgf: 22AQ FG/ 23EQ FG*                                                \aZnc cntr: ZNC S3  *                                                             \aHavgf: PUS21 QVFG1 QVFG2*                                                       \aAneengvir: jngre chevat bhg bs onfrzrag*                                        \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130070046*                                                               \aGvzr: 12:01:06*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 355 P FG, TBYQRA*                                                     \aPebff fgerrgf: MRGN FG/ MHEVPU FG*                                              \aZnc cntr: ZNC W4  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ22*                                                       \aAneengvir: nverq gb cq                                                          \ahypre naq frirer cnva p/o                                                       \a23 lb znyr                                                                      \aPnyy rznvyrq gb:                                                                \a2023@vnenyregf.pbz                                                              \a2023o@vnenyregf.pbz*                                                            \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130070028*                                                               \aGvzr: 09:29:25*                                                                 \aGlcr bs pnyy: Iruvpyr/Pne Sver (13)*                                            \aYbpngvba: CNABENZN BEGUBCRQVPF, 660 TBYQRA EVQTR EQ H250, TBYQRA*               \aPebff fgerrgf: UREVGNTR EQ/ UREVGNTR EQ*                                        \aZnc cntr: ZNC V4  *                                                             \aHavgf: QVFG1 QVFG2 ONG21 ZRQ22*                                                 \aAneengvir: cre pe4/fzbxr ivfvoyr sebz fubcf                                     \aab synzrf frra                                                                  \asynzrf ivfvoyr/                                                                 \ava znva cnexvat ybg oynpx fzbxr                                                 \aPnyy rznvyrq gb:                                                                \a2023@vnenyregf.pbz                                                              \a2023o@vnenyregf.pbz*                                                            \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130070021*                                                               \aGvzr: 08:25:22*                                                                 \aGlcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \aYbpngvba: 249 PENJSBEQ QE, TBYQRA*                                              \aPebff fgerrgf: QRSENAPR QE/ PENJSBEQ FG*                                        \aZnc cntr: ZNC W3  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: sebag qbbe haybpxq yvsg nffvfg*                                      \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130070012*                                                               \aGvzr: 06:21:56*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1828 ZG MVBA QE, TBYQRA*                                              \aPebff fgerrgf: CVANY EQ/ SBBGUVYYF EQ*                                          \aZnc cntr: ZNC S2  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ21*                                                       \aAneengvir: fbzr qvss oerng 90 lbs*                                              \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130060070*                                                               \aGvzr: 17:37:37*                                                                 \aGlcr bs pnyy: Rkgevpngvba/Erfphr/Pyvzore (35)*                                  \aYbpngvba: JUVGR JNGRE XNLNX CNEX, 1201 10GU FG, TBYQRA*                         \aPebff fgerrgf: ZNCYR FG/ ZNCYR FG*                                              \aZnc cntr: ZNC R2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130060061*                                                               \aGvzr: 15:13:26*                                                                 \aGlcr bs pnyy: Pnalba Pnyy*                                                      \aYbpngvba: GHAARY # 1 RNFG RAQ, 270 UJL 6 .4ZZ, TBYQRA*                          \aPebff fgerrgf: UJL 93/ UJL 119*                                                 \aZnc cntr: AB ZNC  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: fbzrobql qbja arne gur perrx                                         \aoyrrqvat, fuvirevat                                                             \aarne perrx, cbff znyr                                                           \aec abg jvgu uvz                                                                 \aqex wnpxrg, qex cnagf                                                           \aec vf ba gur obneqjnyx genvy fbhgu bs gur perrx                                 \anobhg 1 zvyr rnfg bs gha1                                                       \aec naq bgure ccy pnaabg trg gb ebnq; fghpx ba gur genvy                         \aec vf srz jrnevat qex oyh wnpxrg naq oyhr wrnaf*                                \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130060039*                                                               \aGvzr: 10:07:58*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1270 A SBEQ FG, TBYQRA*                                               \aPebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \aZnc cntr: ZNC N2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: cbff fgebxr/                                                         \ajrnxarff ba y fvqr                                                              \ayngr 80f 90f                                                                    \avf p vf o                                                                       \avf 91 lb s*                                                                     \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130050058*                                                               \aGvzr: 21:12:35*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 1800 J PNZCHF EQ, TBYQRA*                                             \aPebff fgerrgf: RYZ FG/ 15GU FG*                                                 \aZnc cntr: ZNC S3  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: trareny sver nynez*                                                  \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130050038*                                                               \aGvzr: 13:03:05*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 18301 J PBYSNK NIR HQ103, TBYQRA*                                     \aPebff fgerrgf: J PBYSNK NIR/ UREVGNTR EQ*                                       \aZnc cntr: ZNC X3  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: gebhoyr fvtanyf / pneybf ba fvgr                                     \aunir n ybg bs jngre                                                             \acerzvfr 303-277-0040*                                                           \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130040088*                                                               \aGvzr: 18:25:01*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 814 ENOOVG EHA QE, TBYQRA*                                            \aPebff fgerrgf: RNTYR EVQTR QE/ RNTYR EVQTR QE*                                  \aZnc cntr: ZNC U3  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: vaq/trareny                                                          \acerzvfr 303-278-6682 / erf anz/unzzbagerr                                       \anverq gb nyy havgf*                                                             \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130040073*                                                               \aGvzr: 15:14:23*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 1470 10GU FG, TBYQRA*                                                 \aPebff fgerrgf: ZNCYR FG/ ZNCYR FG*                                              \aZnc cntr: ZNC R2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: vaq vf ra nynez                                                      \axu jvyy or pbagnpgrq*                                                           \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130040067*                                                               \aGvzr: 14:42:32*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: PFZ Z, 21400 YNEVNG YBBC GEY, TBYQRA*                                 \aPebff fgerrgf: ZG MVBA QE/ ZG MVBA QE*                                          \aZnc cntr: ZNC T2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: cnentyvqre qbja orybj gur z ba rnfg                                  \ap/o 41 lb znyr                                                                  \aybjre onpx vawhevrf*                                                            \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130040064*                                                               \aGvzr: 14:24:33*                                                                 \aGlcr bs pnyy: Fzbxr/Bqbe Pbzcynvag/Pnyy (53)*                                   \aYbpngvba: FGNAYRL FGRRZRE, 621 PBECBENGR PVE HW, TBYQRA*                        \aPebff fgerrgf: PBASRERAPR CY/ PNCVGNY QE*                                       \aZnc cntr: ZNC W5  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: fzbxr vairfgvtngvba                                                  \afgebat fzryy vafvqr oyqt                                                        \aab synzrf frra*                                                                 \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130040061*                                                               \aGvzr: 14:17:25*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 912 UBZRFGNXR QE, TBYQRA*                                             \aPebff fgerrgf: VYYVABVF FG/ VYYVABVF FG*                                        \aZnc cntr: ZNC T3  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: qvssvphygl oernguvat p/o                                             \a67 lb znyr                                                                      \anverq*                                                                          \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130040033*                                                               \aGvzr: 08:11:47*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 16950 J PBYSNK NIR H104, TBYQRA*                                      \aPebff fgerrgf: J PBYSNK NIR/ VAGRE CYNMN JRFG*                                  \aZnc cntr: ZNC W5  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: srznyr cnegl cnffrq bhg abj p/o*                                     \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130030071*                                                               \aGvzr: 15:35:12*                                                                 \aGlcr bs pnyy: Rkgevpngvba/Erfphr/Pyvzore (35)*                                  \aYbpngvba: 400 VAQVNAN FG, TBYQRA*                                               \aPebff fgerrgf: J 4GU NIR/J 4GU NIR*                                             \aZnc cntr: ZNC W6  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: obgu cngvragf ba gur frpbaq naq arrq gb or pneevrq                   \aqbja gb gur svefg sybbe                                                         \aryringbe ner oebxra                                                             \avf abg yvsr guerngravat*                                                        \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130030059*                                                               \aGvzr: 14:12:59*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 722 JNFUVATGBA NIR, TBYQRA*                                           \aPebff fgerrgf: 7GU FG/ 8GU FG*                                                  \aZnc cntr: ZNC Q2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: nhq/ svefg sybbe bssvpr  trareny*                                    \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130030052*                                                               \aGvzr: 13:15:20*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 700 WRSSREFBA PBHAGL CXL, TBYQRA*                                     \aPebff fgerrgf: VYYVABVF FG/J 10GU NIR*                                          \aZnc cntr: ZNC U4  *                                                             \aHavgf: FGN21 QVFG1 QVFG2*                                                       \aAneengvir: nhq sver nynez trareny naq jngre sybj 720.201.6257*                  \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130030037*                                                               \aGvzr: 10:28:27*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1270 A SBEQ FG, TBYQRA*                                               \aPebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \aZnc cntr: ZNC N2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: ebbz 260                                                             \asrznyr haerfcbafvir p/o                                                         \ahax ntr*                                                                        \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130010056*                                                               \aGvzr: 19:11:45*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 1903 ZG MVBA QE, TBYQRA*                                              \aPebff fgerrgf: SBBGUVYYF EQ/ TBYQRAIHR QE*                                      \aZnc cntr: ZNC S2  *                                                             \aHavgf: FGN21 NZE131*                                                            \aAneengvir: unf fgbznpu syh / batbvat vffhrf jvgu qvnuren                        \aec gurer jvgu jvsr / unf qrzragvn                                               \a75 lbz                                                                          \aab nze pnyy fvta ninvy / hfrq fgn21 nf pnyy fvta sbe guvf                       \avapvqrag*                                                                       \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130010054*                                                               \aGvzr: 19:00:50*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 1613 TBYQRA UVYYF EQ, TBYQRA*                                         \aPebff fgerrgf: TBYQRA UVYYF CY/ TBYQRA UVYYF CY*                                \aZnc cntr: ZNC T5  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130010052*                                                               \aGvzr: 18:33:31*                                                                 \aGlcr bs pnyy: Zhghny Nvq*                                                       \aYbpngvba: 15100 J 13GU NIR*                                                     \aPebff fgerrgf:/*                                                                \aHavgf: ONG22 ONG21 QVFG1 QVFG2*                                                 \aAneengvir: bar rat naq bar erf                                                  \atnentr j/gjb iru vafvqr                                                         \awblpr / whavcre arnerfg pebff                                                   \apbzznaq cbfg ng fnzr ybp*                                                       \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130010042*                                                               \aGvzr: 16:01:15*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 900 TBYQRA CNEX QE NQ, TBYQRA*                                        \aPebff fgerrgf: TBYQRA CNEX CY/ TBYQRA CNEX CY*                                  \aZnc cntr: ZNC P2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: zna cnffrq bhg va onpxlneq va fubegf                                 \aabg erfcbaqvat                                                                  \a20 lbz                                                                          \aynlvat ba unaqf*                                                                \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130010021*                                                               \aGvzr: 09:26:40*                                                                 \aGlcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \aYbpngvba: UJL 6/ 19GU FG, TBYQRA*                                               \aZnc cntr: ZNC S3  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: pnyyre fgngrq wrsspb ba fprar                                        \afyvqr bss                                                                       \awrsspb pxat vawhevrf                                                            \abayl 1 bpphcnag                                                                 \afhoneh ybfg pbageby jrag vagb qvgpu                                             \aba jrfg fvqr abj                                                                \ahax vaw                                                                         \aw f b vagrefrpgvba*                                                             \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123660042*                                                               \aGvzr: 17:40:27*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 312 JUVGR NFU QE, TBYQRA*                                             \aPebff fgerrgf: JVYQ EBFR PG/ JNFUVATGBA FG*                                     \aZnc cntr: ZNC P1  *                                                             \aHavgf: QVFG1*                                                                   \aAneengvir: arvtuobe urnef vg / cbff fzbxr nynez                                 \aab vaq bs sver                                                                  \agrkgrq ubzr bjare / ab erfcbafr                                                 \azryvffn oneonen / yvtugf ba / qvq abg xabpx ba qbbe                             \atbg ubzr bjare gb pbzr gb qbbe                                                  \ajvyy pnyy vs arrqrq                                                             \abjare pnyyrq / pnaabg erfrg*                                                    \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123660016*                                                               \aGvzr: 09:00:45*                                                                 \aGlcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \aYbpngvba: TBYQRA CBYVPR QRCNEGZRAG, 911 10GU FG TCQ, TBYQRA*                    \aPebff fgerrgf: NENCNUBR FG/ PURLRAAR FG*                                        \aZnc cntr: ZNC Q2  *                                                             \aHavgf: NZE131*                                                                  \aAneengvir: be oybbq qenj*                                                       \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123660009*                                                               \aGvzr: 05:46:20*                                                                 \aGlcr bs pnyy: Rkgevpngvba/Erfphr/Pyvzore (35)*                                  \aYbpngvba: P470 UJL/ V70 UJL, TBYQRA*                                            \aZnc cntr: ZNC X5  *                                                             \aHavgf: QVFG1 QVFG2 NZE132*                                                      \aAneengvir: 31                                                                   \aPnyy rznvyrq gb:                                                                \a2023@vnenyregf.pbz                                                              \a2023o@vnenyregf.pbz*                                                            \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123660009*                                                               \aGvzr: 05:46:20*                                                                 \aGlcr bs pnyy: Rkgevpngvba/Erfphr/Pyvzore (35)*                                  \aYbpngvba: P470 UJL/ V70 UJL, TBYQRA*                                            \aZnc cntr: ZNC X5  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: 31*                                                                  \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123650052*                                                               \aGvzr: 22:20:29*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 18206 J 3EQ NIR N4, TBYQRA*                                           \aPebff fgerrgf: MRGN FG/ MRGN FG*                                                \aZnc cntr: ZNC W4  *                                                             \aHavgf: NZE132*                                                                  \aAneengvir: znyr jvgu onpx cnva, vf ba qvnylfvf,  41*                            \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123650044*                                                               \aGvzr: 19:19:05*                                                                 \aGlcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \aYbpngvba: JNFUVATGBA NIR/ 10GU FG, TBYQRA*                                      \aZnc cntr: ZNC Q3  *                                                             \aHavgf: NZE131*                                                                  \aAneengvir: qx znyr; pbzcynva yrt cnva*                                          \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123650026*                                                               \aGvzr: 10:49:09*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 1030 WBUAFBA EQ H200, TBYQRA*                                         \aPebff fgerrgf: J 10GU NIR/J 14GU NIR*                                           \aZnc cntr: ZNC U4  *                                                             \aHavgf: NZE132 NZE131*                                                           \aAneengvir: cngvrag vf ulcbkvp                                                   \a83lb z / vf p / vf o                                                            \aba n eroerngure 8 y chykbk bs 70                                                \aPnyy rznvyrq gb:                                                                \a2023q@vnenyregf.pbz*                                                            \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123650026*                                                               \aGvzr: 10:49:09*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 1030 WBUAFBA EQ H200, TBYQRA*                                         \aPebff fgerrgf: J 10GU NIR/J 14GU NIR*                                           \aZnc cntr: ZNC U4  *                                                             \aHavgf: NZE132*                                                                  \aAneengvir: cngvrag vf ulcbkvp                                                   \a83lb z / vf p / vf o                                                            \aba n eroerngure 8 y chykbk bs 70*                                               \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123640063*                                                               \aGvzr: 21:55:37*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1350 A SBEQ FG, TBYQRA*                                               \aPebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \aZnc cntr: ZNC N2  *                                                             \aHavgf: QVFG1 FG1 QVFG2 NZE NZE131*                                              \aAneengvir: hapbapvbhf abg erfcbaqvat ohg oernguvat                              \aebbz 208                                                                        \a95 lb                                                                           \aPnyy rznvyrq gb:                                                                \a2023@vnenyregf.pbz                                                              \a2023o@vnenyregf.pbz*                                                            \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123640012*                                                               \aGvzr: 08:40:42*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 700 WRSSREFBA PBHAGL CXL, TBYQRA*                                     \aPebff fgerrgf: VYYVABVF FG/J 10GU NIR*                                          \aZnc cntr: ZNC U4  *                                                             \aAneengvir: vaq/trareny                                                          \acerzvfr 720-201-6257                                                            \afubjf jngre sybj*                                                               \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123640001*                                                               \aGvzr: 00:04:32*                                                                 \aGlcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \aYbpngvba: TBYQRA CBYVPR QRCNEGZRAG, 911 10GU FG TCQ, TBYQRA*                    \aPebff fgerrgf: NENCNUBR FG/ PURLRAAR FG*                                        \aZnc cntr: ZNC Q2  *                                                             \aHavgf: NZE131*                                                                  \aAneengvir: oybbq grfg*                                                          \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123630050*                                                               \aGvzr: 13:42:14*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: WRSSREFBA PBHAGL PBHEG UBHFR, 100 WRSSREFBA PBHAGL CXL, TBYQRA*       \aPebff fgerrgf: PBHEGUBHFR QE/ PBHEGUBHFR QE*                                    \aZnc cntr: ZNC V4  *                                                             \aHavgf: NZE132*                                                                  \aAneengvir: srznyr fcvqre ovgr bcra naq oyrrqvat                                 \apba naq oerngu                                                                  \ava ngevz                                                                        \a28 lbs pba naq oerngu*                                                          \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123630043*                                                               \aGvzr: 12:39:03*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 600 9GU FG PBBEF, TBYQRA*                                             \aPebff fgerrgf: WNPXFBA FG/ WNPXFBA FG*                                          \aZnc cntr: ZNC Q2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: tra sver                                                             \asver jngre sybbe oyqt 11 5gu sybbe                                              \anyfb tebhaq sybbbe*                                                             \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123630041*                                                               \aGvzr: 12:06:37*                                                                 \aGlcr bs pnyy: Zhghny Nvq*                                                       \aYbpngvba: 14095 J 7GU NIR*                                                      \aPebff fgerrgf:/*                                                                \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: bar ratvar / pbzznaq cbfg fnzr ybp                                   \afurq ba sver*                                                                   \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123630035*                                                               \aGvzr: 10:17:23*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1917 CNESRG RFGNGRF QE, TBYQRA*                                       \aPebff fgerrgf: XBUVABBE CY/ XBUVABBE CY*                                        \aZnc cntr: ZNC S2  *                                                             \aHavgf: NZE131 ERF2 QVFG1 QVFG2*                                                 \aAneengvir: snyy ivpg / cbff oebxra uvc                                          \a86 lbs p/o                                                                      \aPnyy rznvyrq gb:                                                                \a2023p@vnenyregf.pbz*                                                            \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123630019*                                                               \aGvzr: 04:30:35*                                                                 \aGlcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \aYbpngvba: TBYQRA CBYVPR QRCNEGZRAG, 911 10GU FG TCQ, TBYQRA*                    \aPebff fgerrgf: NENCNUBR FG/ PURLRAAR FG*                                        \aZnc cntr: ZNC Q2  *                                                             \aHavgf: NZE131*                                                                  \aAneengvir: oybbq qenj*                                                          \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123630010*                                                               \aGvzr: 01:35:08*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1300 TBYQRA PVE N205, TBYQRA*                                         \aPebff fgerrgf: TBYQRA PVE/ TBYQRA PVE*                                          \aZnc cntr: ZNC V4  *                                                             \aHavgf: NZE132*                                                                  \aAneengvir: 83  lb/z                                                             \aqvss oernguvat                                                                  \aerd aba rzretrag                                                                \aPnyy rznvyrq gb:                                                                \a2023@vnenyregf.pbz                                                              \a2023o@vnenyregf.pbz*                                                            \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123620053*                                                               \aGvzr: 20:25:29*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 1300 TBYQRA PVE, TBYQRA*                                              \aPebff fgerrgf: TBYQRA PVE/ TBYQRA PVE*                                          \aZnc cntr: ZNC V4  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: xvqf xabpxrq vagb gur sver chyy fgngvba                              \ang gur fbhgu ragenapr ba znva sybbe                                             \agur sver nynez vf abg tbvat bss ohg fbzr bgure                                  \aglcr bs abvfr be nynez pbzvat sebz vg                                           \aunf orra tbvat bss sbe gur ynfg 15 zvaf                                         \aarkg gb ncg 212*                                                                \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123620046*                                                               \aGvzr: 17:07:15*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 1224 JNFUVATGBA NIR H105, TBYQRA*                                     \aPebff fgerrgf: 12GU FG/ 13GU FG*                                                \aZnc cntr: ZNC R3  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: hax havg ahzore                                                      \avaqvpngbe tra sver mbar 12                                                      \aec 303 325 1978 cng sbff                                                        \anverq*                                                                          \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123620037*                                                               \aGvzr: 14:11:06*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 1549 PBHTNE PG, TBYQRA*                                               \aPebff fgerrgf: PNALBA CBVAG PVE/ PNALBA CBVAG PVE*                              \aZnc cntr: ZNC P1  *                                                             \aHavgf: NZE131*                                                                  \aAneengvir: NA SRYY N SRJ QNLF NTB NAQ ABJ UNF ONQ PENZCVAT                      \a78lb s / vf p / vf o*                                                           \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123620025*                                                               \aGvzr: 09:53:16*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 323 BEVBA FG, TBYQRA*                                                 \aPebff fgerrgf: J 2AQ CY/J 4GU NIR*                                              \aZnc cntr: ZNC W6  *                                                             \aHavgf: NZE132*                                                                  \aAneengvir: 65lb z ur vf fvpx guebjvat hc naq unf qvneurn                        \avf p / vf o*                                                                    \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123620017*                                                               \aGvzr: 08:18:17*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1819 CNESRG RFGNGRF QE, TBYQRA*                                       \aPebff fgerrgf: 19GU FG/ LHPPN PG*                                               \aZnc cntr: ZNC S2  *                                                             \aHavgf: NZE131*                                                                  \aAneengvir: cbff fgebxr                                                          \avf 80 lb z                                                                      \avf p/ vf o/                                                                     \agenafsre gb rzq//                                                               \aPnyy rznvyrq gb:                                                                \a2023@vnenyregf.pbz                                                              \a2023o@vnenyregf.pbz*                                                            \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 123620014*                                                               \aGvzr: 07:46:22*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 3050 VYYVABVF FG, TBYQRA*                                             \aPebff fgerrgf: WRSSREFBA PBHAGL CXL/ WRSSREFBA PBHAGL CXL*                      \aZnc cntr: ZNC U4  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: vaq pyhoubhfr jngre sybj                                             \ac 3032778750                                                                    \axu jnfa'g pbagnpgrq lrg*                                                        \a\a\a\a\a\a  
-(Tbyqra Sver) Pnyy#: 130090127*                                                               \aGvzr: 15:38:50*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: FURYGBA RYRZRAGNEL FPUBBY, 420 PENJSBEQ FG FPUBBY, TBYQRA*            \aPebff fgerrgf: PENJSBEQ QE/ GEVCC QE*                                           \aZnc cntr: ZNC W3  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: fghqrag bhgfvqr / naxyr eha bire ol pne                              \acnerag bs puvyq / nppvqragny                                                    \aevtug bhg sebag                                                                 \afghqrag vf 6gu tenqre /                                                         \aec abg jvgu fhow                                                                \afgvyy erynlvat fgnghf gueh cevapvcny*                                           \a
-
-Ntrapl anzr: Tbyqra SQ
-Ybpngvba: Tbyqra, PB, Havgrq Fgngrf
-Pbagnpg: Npgvir911
-Fraqre: PNQGBSVER@PVGLBSTBYQRA.ARG
-
-(PNQ pnyy 130930009) Pnyy#: 130930009*                                                               \aGvzr: 04:37:08*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 1150 TBYQRA PVE N205, TBYQRA*                                         \aPebff fgerrgf: TBYQRA PVE/ TBYQRA PVE*                                          \aZnc cntr: ZNC V4  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: fgbznpu cnva 2030                                                    \a44 lbz  p/o                                                                     \anobipr aoniry*                                                                  \a\a\a\a\a\aGuvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\agur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\agung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\aynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\avagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\azrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\aqvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\acebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\avzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\anppbzcnalvat qbphzragf.  Gunax lbh.
-(PNQ pnyy 130920116) Pnyy#: 130920116*                                                               \aGvzr: 20:34:57*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 17150 J PBYSNK NIR, TBYQRA*                                           \aPebff fgerrgf: UJL 6/ PBECBENGR QE*                                             \aZnc cntr: ZNC W5  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: z1 riny / ebhgvar*                                                   \a\a\a\a\a\aGuvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\agur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\agung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\aynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\avagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\azrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\aqvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\acebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\avzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\anppbzcnalvat qbphzragf.  Gunax lbh.
-(PNQ pnyy 130920102) Pnyy#: 130920102*                                                               \aGvzr: 17:27:35*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 165 N FG, TBYQRA*                                                     \aPebff fgerrgf: MRGN FG/ MHEVPU FG*                                              \aZnc cntr: ZNC W4  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: qvssvphygl oernguvat / pbcq / nfguzn                                 \a83lb s vf p*                                                                    \a\a\a\a\a\aGuvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\agur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\agung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\aynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\avagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\azrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\aqvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\acebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\avzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\anppbzcnalvat qbphzragf.  Gunax lbh.
-(PNQ pnyy 130920093) Pnyy#: 130920093*                                                               \aGvzr: 14:36:20*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 1223 J PNZCHF EQ N304, TBYQRA*                                        \aPebff fgerrgf: ZNCYR FG/ RYZ FG*                                                \aZnc cntr: ZNC R2  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: ebbz 304                                                             \a19 srryvat ahzo                                                                 \apnag zbir jevfg                                                                 \apba naq oernguvat*                                                              \a\a\a\a\a\aGuvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\agur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\agung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\aynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\avagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\azrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\aqvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\acebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\avzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\anppbzcnalvat qbphzragf.  Gunax lbh.
-(PNQ pnyy 130920082) Pnyy#: 130920082*                                                               \aGvzr: 14:06:13*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 1375 PNGNZBHAG QE, TBYQRA*                                            \aPebff fgerrgf: CVAR EVQTR EQ/ TBYQRA TNGR PNALBA EQ*                            \aZnc cntr: ZNC N1  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: nppbeqvat gb ahefr ng fg wbrf arrqf gb tb gurer                      \aabj pba naq oerngu                                                              \aba oybbq cerffher zrqf                                                          \azvq 80f srznyr                                                                  \apba naq oerngu*                                                                 \a\a\a\a\a\aGuvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\agur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\agung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\aynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\avagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\azrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\aqvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\acebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\avzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\anppbzcnalvat qbphzragf.  Gunax lbh.
-(PNQ pnyy 130920077) Pnyy#: 130920077*                                                               \aGvzr: 13:56:43*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 814 ENOOVG EHA QE, TBYQRA*                                            \aPebff fgerrgf: RNTYR EVQTR QE/ RNTYR EVQTR QE*                                  \aZnc cntr: ZNC U3  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: mbar 6*                                                              \a\a\a\a\a\aGuvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\agur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\agung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\aynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\avagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\azrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\aqvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\acebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\avzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\anppbzcnalvat qbphzragf.  Gunax lbh.
-(PNQ pnyy 130920025) Pnyy#: 130920025*                                                               \aGvzr: 08:15:05*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: JNGRE GERNGZRAG CYNAG, 1409 10GU FG, TBYQRA*                          \aPebff fgerrgf: ZNCYR FG/ ZNCYR FG*                                              \aZnc cntr: ZNC R2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: fzbxr qrgrpgbe va xvgpura oheag sbbq*                                \a\a\a\a\a\aGuvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\agur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\agung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\aynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\avagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\azrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\aqvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\acebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\avzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\anppbzcnalvat qbphzragf.  Gunax lbh.
-(PNQ pnyy 130910055) Pnyy#: 130910055*                                                               \aGvzr: 16:10:40*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 18236 J 4GU NIR, TBYQRA*                                              \aPebff fgerrgf: MRGN FG/ TBYQRA PVE*                                             \aZnc cntr: ZNC W4  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: pbcq / rzcunmrzn / 66 lbz p/ qvss oerngu*                            \a\a\a\a\a\aGuvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\agur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\agung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\aynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\avagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\azrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\aqvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\acebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\avzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\anppbzcnalvat qbphzragf.  Gunax lbh.
-(PNQ pnyy 130910050) Pnyy#: 130910050*                                                               \aGvzr: 14:54:22*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 1270 A SBEQ FG N100, TBYQRA*                                          \aPebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \aZnc cntr: ZNC N2  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: 96 lbs p/o sryy sebz jurry punve                                     \acbff evtug uvc vawhel*                                                          \a\a\a\a\a\aGuvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\agur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\agung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\aynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\avagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\azrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\aqvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\acebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\avzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\anppbzcnalvat qbphzragf.  Gunax lbh.
-(PNQ pnyy 130910032) Pnyy#: 130910032*                                                               \aGvzr: 10:56:46*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: WRSSREFBA PBHAGL PBHEG UBHFR, 100 WRSSREFBA PBHAGL CXL, TBYQRA*       \aPebff fgerrgf: PBHEGUBHFR QE/ PBHEGUBHFR QE*                                    \aZnc cntr: ZNC V4  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: 38lbz vf p vf o purfg cnvaf                                          \ajvyy zrrg va gur frphevgl*                                                      \a\a\a\a\a\aGuvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\agur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\agung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\aynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\avagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\azrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\aqvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\acebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\avzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\anppbzcnalvat qbphzragf.  Gunax lbh.
+(PNQ pnyy 142140022) Pnyy#: 142140022*                                                               \aGvzr: 04:25:40*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 803 OEBJA FDHVEERY YA, TBYQRA*                                        \aPebff fgerrgf: RNTYR EVQTR QE/ RNTYR EVQTR QE*                                  \aZnc cntr: ZNC V3  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: erfvqragvny fhfna punzoref / 303384 0478*
+(PNQ pnyy 142140012) Pnyy#: 142140012*                                                               \aGvzr: 01:35:37*                                                                 \aGlcr bs pnyy: Iruvpyr/Pne Sver (13)*                                            \aYbpngvba: WHAPGVBA, 1 UJL 93, TBYQRA*                                           \aPebff fgerrgf: UJL 58/ UJL 58*                                                  \aZnc cntr: ZNC R2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: ba ujl 6*
+(PNQ pnyy 142130061) Pnyy#: 142130061*                                                               \aGvzr: 12:43:06*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1400 HGNU FG N311, TBYQRA*                                            \aPebff fgerrgf: FBHGU TBYQRA EQ/ HYLFFRF FG*                                     \aZnc cntr: ZNC T5  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: 52 lrne byq srznyr                                                   \aqvss oernguvat                                                                  \avf pbafpvbhf naq qvss oernguvat                                                 \anverq                                                                           \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142130061) Pnyy#: 142130061*                                                               \aGvzr: 12:43:06*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1400 HGNU FG N311, TBYQRA*                                            \aPebff fgerrgf: FBHGU TBYQRA EQ/ HYLFFRF FG*                                     \aZnc cntr: ZNC T5  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: 52 lrne byq srznyr                                                   \aqvss oernguvat                                                                  \avf pbafpvbhf naq qvss oernguvat                                                 \anverq*
+(PNQ pnyy 142130031) Pnyy#: 142130031*                                                               \aGvzr: 08:55:31*                                                                 \aGlcr bs pnyy: Bgure Sver (16)*                                                  \aYbpngvba: 401 FBZREFRG QE, TBYQRA*                                              \aPebff fgerrgf: PURYNA FG/ PURYNA FG*                                            \aZnc cntr: ZNC V3  *                                                             \aHavgf: QVFG1 QVFG2*
+(PNQ pnyy 142130029) Pnyy#: 142130029*                                                               \aGvzr: 08:47:05*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 1027 JNFUVATGBA NIR N302, TBYQRA*                                     \aPebff fgerrgf: 10GU FG/ 11GU FG*                                                \aZnc cntr: ZNC Q3  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: ec pnag zbir ynlvat ba sybbe                                         \agbb jrnx gb trg hc abg vawherq                                                  \apnag trg gb qbbe                                                                \asebag qrfx jvyy unir gb yrg nze va                                              \a91 lbs*
+(PNQ pnyy 142130028) Pnyy#: 142130028*                                                               \aGvzr: 08:31:42*                                                                 \aGlcr bs pnyy: Pnalba Pnyy*                                                      \aYbpngvba: PPP NG 265, 265 UJL 6 ZZ, TBYQRA*                                     \aPebff fgerrgf: UJL 93/ UJL 119*                                                 \aZnc cntr: AB ZNC  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ22*                                                       \aAneengvir: fvy gx naq frzv pebffrq pragre                                       \acbff nez vaw                                                                    \anyy bhg bs iru                                                                  \apuevfgvna pbzof 4053881030                                                      \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142130028) Pnyy#: 142130028*                                                               \aGvzr: 08:31:42*                                                                 \aGlcr bs pnyy: Pnalba Pnyy*                                                      \aYbpngvba: PPP NG 265, 265 UJL 6 ZZ, TBYQRA*                                     \aPebff fgerrgf: UJL 93/ UJL 119*                                                 \aZnc cntr: AB ZNC  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: fvy gx naq frzv pebffrq pragre                                       \acbff nez vaw                                                                    \anyy bhg bs iru                                                                  \apuevfgvna pbzof 4053881030*
+(PNQ pnyy 142130024) Pnyy#: 142130024*                                                               \aGvzr: 08:05:11*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 2120 NENCNUBR FG, TBYQRA*                                             \aPebff fgerrgf: 20GU FG/ 22AQ FG*                                                \aZnc cntr: ZNC S3  *                                                             \aHavgf: RAT21 PUS21 ZRQ21*                                                       \aAneengvir: nppvqragny bireqbfr ba phznqva                                       \afubeg bs oerngu                                                                 \aoyrrqvat tv oybbq va ibzvg                                                      \aubzr nybar                                                                      \a82 lbz                                                                          \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142130024) Pnyy#: 142130024*                                                               \aGvzr: 08:05:11*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 2120 NENCNUBR FG, TBYQRA*                                             \aPebff fgerrgf: 20GU FG/ 22AQ FG*                                                \aZnc cntr: ZNC S3  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: nppvqragny bireqbfr ba phznqva                                       \afubeg bs oerngu                                                                 \aoyrrqvat tv oybbq va ibzvg                                                      \aubzr nybar                                                                      \a82 lbz*
+(PNQ pnyy 142130021) Pnyy#: 142130021*                                                               \aGvzr: 07:59:21*                                                                 \aGlcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \aYbpngvba: P470 UJL/ V70 UJL, TBYQRA*                                            \aZnc cntr: ZNC X5  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ22*                                                       \aAneengvir: jo v70 gb p470                                                       \ahax vaw                                                                         \azrybql jnf uvg sebz oruvaq                                                      \aotr yrkhf fhi if oyx puri znyvoh                                                \azrybql 303 570 5310                                                             \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142130021) Pnyy#: 142130021*                                                               \aGvzr: 07:59:21*                                                                 \aGlcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \aYbpngvba: P470 UJL/ V70 UJL, TBYQRA*                                            \aZnc cntr: ZNC X5  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: jo v70 gb p470                                                       \ahax vaw                                                                         \azrybql jnf uvg sebz oruvaq                                                      \aotr yrkhf fhi if oyx puri znyvoh                                                \azrybql 303 570 5310*
+(PNQ pnyy 142130015) Pnyy#: 142130015*                                                               \aGvzr: 06:27:09*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1411 HYLFFRF FG, TBYQRA*                                              \aPebff fgerrgf: J 15GU NIR/ HGNU FG*                                             \aZnc cntr: ZNC T5  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ22*                                                       \aAneengvir: hapba znyr va qvgpu oruvaq nqqerff nybat gur cngu ogja               \axvat fbbcref*
+(PNQ pnyy 142130015) Pnyy#: 142130015*                                                               \aGvzr: 06:27:09*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1411 HYLFFRF FG, TBYQRA*                                              \aPebff fgerrgf: J 15GU NIR/ HGNU FG*                                             \aZnc cntr: ZNC T5  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ22*                                                       \aAneengvir: hapba znyr va qvgpu oruvaq nqqerff nybat gur cngu ogja               \axvat fbbcref*
+(PNQ pnyy 142130002) Pnyy#: 142130002*                                                               \aGvzr: 00:03:51*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 114 NENCNUBR FG NP, TBYQRA*                                           \aPebff fgerrgf: 2AQ FG/ 2AQ FG*                                                  \aZnc cntr: ZNC P2  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ21*                                                       \aAneengvir: 72 lb srznyr/hapbaf  oernguvat bx*
+(PNQ pnyy 142130002) Pnyy#: 142130002*                                                               \aGvzr: 00:03:51*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 114 NENCNUBR FG NP, TBYQRA*                                           \aPebff fgerrgf: 2AQ FG/ 2AQ FG*                                                  \aZnc cntr: ZNC P2  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ21*                                                       \aAneengvir: 72 lb srznyr/hapbaf  oernguvat bx*
+(PNQ pnyy 142120140) Pnyy#: 142120140*                                                               \aGvzr: 20:27:55*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 815 ENOOVG EHA QE, TBYQRA*                                            \aPebff fgerrgf: RNTYR EVQTR QE/ RNTYR EVQTR QE*                                  \aZnc cntr: ZNC U3  *                                                             \aHavgf: QVFG1 QVFG2*
+(PNQ pnyy 142120138) Pnyy#: 142120138*                                                               \aGvzr: 20:19:56*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 1291 A SBEQ FG, TBYQRA*                                               \aPebff fgerrgf: IVETVAVN FG/ CVAR EVQTR EQ*                                      \aZnc cntr: ZNC N2  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: fgntr va gur nern                                                    \acbffvoyr srznyr fubpxrq*
+(PNQ pnyy 142120042) Pnyy#: 142120042*                                                               \aGvzr: 11:06:46*                                                                 \aGlcr bs pnyy: Fzbxr/Bqbe Pbzcynvag/Pnyy (53)*                                   \aYbpngvba: MRGN FG/J 4GU NIR, TBYQRA*                                            \aZnc cntr: ZNC W4  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: fzbxr va gur nern                                                    \aab synzrf                                                                       \atenl fzbxr                                                                      \aab ybatre frr vg*
+(PNQ pnyy 142120036) Pnyy#: 142120036*                                                               \aGvzr: 10:22:43*                                                                 \aGlcr bs pnyy: Zhghny Nvq*                                                       \aYbpngvba: 18901 J 32AQ NIR*                                                     \aPebff fgerrgf:/*                                                                \aHavgf: FGN24 FGN21 PUS21 RAT21 GJE21 ZRQ21*                                     \aAneengvir: ercbegrq fs snvezbhag erfcbaqvat                                     \atb gb sezga gnp2 be jz gnp3                                                     \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142120036) Pnyy#: 142120036*                                                               \aGvzr: 10:22:43*                                                                 \aGlcr bs pnyy: Zhghny Nvq*                                                       \aYbpngvba: 18901 J 32AQ NIR*                                                     \aPebff fgerrgf:/*                                                                \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: ercbegrq fs snvezbhag erfcbaqvat                                     \atb gb sezga gnp2 be jz gnp3*
+(PNQ pnyy 142120025) Pnyy#: 142120025*                                                               \aGvzr: 09:25:02*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 400 VAQVNAN FG H106, TBYQRA*                                          \aPebff fgerrgf: J 4GU NIR/J 4GU NIR*                                             \aZnc cntr: ZNC W6  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ22*                                                       \aAneengvir: va bcrengvat ebbz                                                    \aabg oernguvat qbvat pce                                                         \aabguvat xabja nobhg cngvrag                                                     \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142120025) Pnyy#: 142120025*                                                               \aGvzr: 09:25:02*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 400 VAQVNAN FG H106, TBYQRA*                                          \aPebff fgerrgf: J 4GU NIR/J 4GU NIR*                                             \aZnc cntr: ZNC W6  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: va bcrengvat ebbz                                                    \aabg oernguvat qbvat pce                                                         \aabguvat xabja nobhg cngvrag*
+(PNQ pnyy 142120011) Pnyy#: 142120011*                                                               \aGvzr: 03:36:00*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 434 EVQTR EQ, TBYQRA*                                                 \aPebff fgerrgf: ABEZNAF FG/ ABEZNAF FG*                                          \aZnc cntr: ZNC O2  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: sryy bhg bs orq/66  pbaf/oyrrqvat*
+(PNQ pnyy 142120010) Pnyy#: 142120010*                                                               \aGvzr: 03:28:01*                                                                 \aGlcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \aYbpngvba: NENCNUBR FG/ 13GU FG, TBYQRA*                                         \aZnc cntr: ZNC R3  *                                                             \aHavgf: ZRQ21*
+(PNQ pnyy 142120005) Pnyy#: 142120005*                                                               \aGvzr: 01:29:00*                                                                 \aGlcr bs pnyy: Bgure Sver (16)*                                                  \aYbpngvba: 17800 J PBYSNK NIR Y9, TBYQRA*                                        \aPebff fgerrgf: EBBARL EQ/ MRGN FG*                                              \aZnc cntr: ZNC W4  *                                                             \aHavgf: QVFG2 QVFG1*                                                             \aAneengvir: cebcnvar gnax uvffvat*
+(PNQ pnyy 142110075) Pnyy#: 142110075*                                                               \aGvzr: 20:06:48*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1904 ZG MVBA QE, TBYQRA*                                              \aPebff fgerrgf: SBBGUVYYF EQ/ TBYQRAIHR QE*                                      \aZnc cntr: ZNC S2  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: NYF CNGVRAG/45 LB SRZ/ VF ABG P VF O/                                \aabg abezny oernguvat-                                                           \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142110075) Pnyy#: 142110075*                                                               \aGvzr: 20:06:48*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1904 ZG MVBA QE, TBYQRA*                                              \aPebff fgerrgf: SBBGUVYYF EQ/ TBYQRAIHR QE*                                      \aZnc cntr: ZNC S2  *                                                             \aHavgf: QVFG1*                                                                   \aAneengvir: NYF CNGVRAG/45 LB SRZ/ VF ABG P VF O/                                \aabg abezny oernguvat-*
+(PNQ pnyy 142110023) Pnyy#: 142110023*                                                               \aGvzr: 09:24:28*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 490 Q FG, TBYQRA*                                                     \aPebff fgerrgf: MRGN FG/ MHEVPU FG*                                              \aZnc cntr: ZNC W4  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: purfg cnva                                                           \a67 lbs p/o                                                                      \ahax ubzr nybar                                                                  \acerzvfr 303-279-1748                                                            \aqbaan gbzxhf                                                                    \afvqr qbbe arkg gb cnexvat nern haybpxrq                                         \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142110023) Pnyy#: 142110023*                                                               \aGvzr: 09:24:28*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 490 Q FG, TBYQRA*                                                     \aPebff fgerrgf: MRGN FG/ MHEVPU FG*                                              \aZnc cntr: ZNC W4  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: purfg cnva                                                           \a67 lbs p/o                                                                      \ahax ubzr nybar                                                                  \acerzvfr 303-279-1748                                                            \aqbaan gbzxhf                                                                    \afvqr qbbe arkg gb cnexvat nern haybpxrq*
+(PNQ pnyy 142110011) Pnyy#: 142110011*                                                               \aGvzr: 07:14:51*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 600 9GU FG PBBEF, TBYQRA*                                             \aPebff fgerrgf: WNPXFBA FG/ WNPXFBA FG*                                          \aZnc cntr: ZNC Q2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: nern 2 tebhaq sybbe ohvyqvat 13 sebag ryringbe ybool fzbxr           \aab cerzvfr #  / pbagnpg 303-396-5277 / gbal*
+(PNQ pnyy 142110004) Pnyy#: 142110004*                                                               \aGvzr: 01:04:18*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 17750 J 32AQ NIR PBBEF/NPK, PBBEF OERJREL*                            \aPebff fgerrgf: RNFG FREIVPR EQ/ JRFG FREIVPR EQ*                                \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: vaq trareny sver                                                     \aab cerzvfr*
+(PNQ pnyy 142100086) Pnyy#: 142100086*                                                               \aGvzr: 15:45:27*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1411 8GU FG N401, TBYQRA*                                             \aPebff fgerrgf: RYZ PVE/ OEVNEJBBQ YA*                                           \aZnc cntr: ZNC Q2  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ21*                                                       \aAneengvir: cbff fgebxr cneg bs evtug fvqr nfyrrc                                \a76 lbs pba naq oerngu                                                           \agurer nybar                                                                     \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142100086) Pnyy#: 142100086*                                                               \aGvzr: 15:45:27*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1411 8GU FG N401, TBYQRA*                                             \aPebff fgerrgf: RYZ PVE/ OEVNEJBBQ YA*                                           \aZnc cntr: ZNC Q2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: cbff fgebxr cneg bs evtug fvqr nfyrrc                                \a76 lbs pba naq oerngu                                                           \agurer nybar*
+(PNQ pnyy 142100077) Pnyy#: 142100077*                                                               \aGvzr: 14:41:35*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 60 IVRJ QE, TBYQRA*                                                   \aPebff fgerrgf: S FG/ T FG*                                                      \aZnc cntr: ZNC W4  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: pneoba zbabkvqr nynez tbvat bss                                      \aec abg gurer                                                                    \abayl zbz ubzr ol urefrys                                                        \azbz jvyy fgrc bhgfvqr ba cbepu                                                  \aabg fher vs srryvat vyy                                                         \azbz anzr natryvan*
+(PNQ pnyy 142100027) Pnyy#: 142100027*                                                               \aGvzr: 09:40:31*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 16035 J 4GU NIR, TBYQRA*                                              \aPebff fgerrgf: BEPUNEQ FG/ BEVBA FG*                                            \aZnc cntr: ZNC W6  *                                                             \aHavgf: ONG21 ZRQ21*                                                             \aAneengvir: purfg cnva / 39 / urneg pbaq                                         \apbat urneg snvy / fgntr 3                                                       \a2 avgeb / ab eryvrs                                                             \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142100027) Pnyy#: 142100027*                                                               \aGvzr: 09:40:31*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 16035 J 4GU NIR, TBYQRA*                                              \aPebff fgerrgf: BEPUNEQ FG/ BEVBA FG*                                            \aZnc cntr: ZNC W6  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: purfg cnva / 39 / urneg pbaq                                         \apbat urneg snvy / fgntr 3                                                       \a2 avgeb / ab eryvrs*
+(PNQ pnyy 142100019) Pnyy#: 142100019*                                                               \aGvzr: 08:38:27*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 17750 J 32AQ NIR PBBEF/NPK, PBBEF OERJREL*                            \aPebff fgerrgf: RNFG FREIVPR EQ/ JRFG FREIVPR EQ*                                \aHavgf: ZRQ21*                                                                   \aAneengvir: rzc irel qvmml / nccebk 50/ p/o                                      \anzo pna tb gb fuvccvat*
+(PNQ pnyy 142090112) Pnyy#: 142090112*                                                               \aGvzr: 19:46:31*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 17800 J PBYSNK NIR FO2, TBYQRA*                                       \aPebff fgerrgf: EBBARL EQ/ MRGN FG*                                              \aZnc cntr: ZNC W4  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: pneoba zbabkvqr nynez tbvat bss*
+(PNQ pnyy 142090109) Pnyy#: 142090109*                                                               \aGvzr: 19:23:19*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: HYLFFRF ONYY CNEX, 1205 HYLFFRF FG, TBYQRA*                           \aPebff fgerrgf: FBHGU TBYQRA EQ/J 12GU NIR*                                      \aZnc cntr: ZNC U5  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ21*                                                       \aAneengvir: znyr cnel cbff urneg nggnpx 49 lb                                    \aabg oernguvat naq hapbapvbhf                                                    \aarne svryq 3                                                                    \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142090109) Pnyy#: 142090109*                                                               \aGvzr: 19:23:19*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: HYLFFRF ONYY CNEX, 1205 HYLFFRF FG, TBYQRA*                           \aPebff fgerrgf: FBHGU TBYQRA EQ/J 12GU NIR*                                      \aZnc cntr: ZNC U5  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: znyr cnel cbff urneg nggnpx 49 lb                                    \aabg oernguvat naq hapbapvbhf                                                    \aarne svryq 3*
+(PNQ pnyy 142090084) Pnyy#: 142090084*                                                               \aGvzr: 14:34:09*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1602 TBYQRA UVYYF EQ, TBYQRA*                                         \aPebff fgerrgf: J 16GU NIR/ TBYQRA UVYYF CY*                                     \aZnc cntr: ZNC T5  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: cbff gbbx crepbprg /                                                 \a2 lbz / p/o/nppvqragny                                                          \ahax ubj znal cvyyf / whfg n 'srj'                                               \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142090084) Pnyy#: 142090084*                                                               \aGvzr: 14:34:09*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1602 TBYQRA UVYYF EQ, TBYQRA*                                         \aPebff fgerrgf: J 16GU NIR/ TBYQRA UVYYF CY*                                     \aZnc cntr: ZNC T5  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: cbff gbbx crepbprg /                                                 \a2 lbz / p/o/nppvqragny                                                          \ahax ubj znal cvyyf / whfg n 'srj'*
+(PNQ pnyy 142090081) Pnyy#: 142090081*                                                               \aGvzr: 14:23:08*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 150 JUVGR NFU QE, TBYQRA*                                             \aPebff fgerrgf: JVYQ EBFR PG/ JNFUVATGBA FG*                                     \aZnc cntr: ZNC P1  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: arrq nynez erfrg                                                     \asver nynez / ab fvta bs nalguvat*
+(PNQ pnyy 142090074) Pnyy#: 142090074*                                                               \aGvzr: 13:53:58*                                                                 \aGlcr bs pnyy: NGGRZCG GB YBPNGR*                                                \aYbpngvba: 18200 J 3EQ NIR N1, TBYQRA*                                           \aPebff fgerrgf: MRGN FG/ MRGN FG*                                                \aZnc cntr: ZNC W4  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: jvsr pnyyrq naq fnvq znyr gurer / onolfvggvat qnhtugre               \anyfb 18 lbn znyr ba fprar                                                       \ajneenag sbe cebo ivb                                                            \axabja zrgu hfre                                                                 \acre jvsr/znl abg nafjre qbbe                                                    \aab nffbp iru                                                                    \ajvsr / zvpuryr yhpreb 720-882-8197                                              \aab jneenag va ppvp / ec fnvq fur jbhyq fraq fvtarq beqre                        \aol rznvy*
+(PNQ pnyy 142090028) Pnyy#: 142090028*                                                               \aGvzr: 08:01:21*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: UJL 6/ 19GU FG, TBYQRA*                                               \aZnc cntr: ZNC S3  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ21*                                                       \aAneengvir: ynobe va cebprff chfuvat                                             \achyyrq bss ba fubhyqre                                                          \apba naq oerngu naq gnyxvat                                                      \auhfonaq jvgu ure onol bhg                                                       \azbz vf yrfyvr                                                                   \auhfo rqqvr                                                                      \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142090028) Pnyy#: 142090028*                                                               \aGvzr: 08:01:21*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: UJL 6/ 19GU FG, TBYQRA*                                               \aZnc cntr: ZNC S3  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: ynobe va cebprff chfuvat                                             \achyyrq bss ba fubhyqre                                                          \apba naq oerngu naq gnyxvat                                                      \auhfonaq jvgu ure onol bhg                                                       \azbz vf yrfyvr                                                                   \auhfo rqqvr*
+(PNQ pnyy 142090023) Pnyy#: 142090023*                                                               \aGvzr: 06:42:04*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1270 A SBEQ FG, TBYQRA*                                               \aPebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \aZnc cntr: ZNC N2  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: srznyr jvgu purfg cnvaf / 80f / vf p naq o                           \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142090023) Pnyy#: 142090023*                                                               \aGvzr: 06:42:04*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1270 A SBEQ FG, TBYQRA*                                               \aPebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \aZnc cntr: ZNC N2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: srznyr jvgu purfg cnvaf / 80f / vf p naq o*
+(PNQ pnyy 142080092) Pnyy#: 142080092*                                                               \aGvzr: 17:18:48*                                                                 \aGlcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \aYbpngvba: WNPXFBA FG/ 16GU FG, TBYQRA*                                          \aZnc cntr: ZNC R3  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: p/o qvnorgvp*
+(PNQ pnyy 142080076) Pnyy#: 142080076*                                                               \aGvzr: 15:35:51*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: JNFUVATGBA NIR/ 8GU FG, TBYQRA*                                       \aZnc cntr: ZNC Q2  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: znyr sryy naq uvg urnq ba oevpx jnyy*
+(PNQ pnyy 142080052) Pnyy#: 142080052*                                                               \aGvzr: 12:59:51*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: JUVGR JNGRE XNLNX CNEX, 1201 10GU FG, TBYQRA*                         \aPebff fgerrgf: ZNCYR FG/ ZNCYR FG*                                              \aZnc cntr: ZNC R2  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ21*                                                       \aAneengvir: qvfybpngrq fubhyqre  fbhgu fvqr bs                                   \aevtug jurer gur qhpxf ner orvat qhzcrq                                          \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142080052) Pnyy#: 142080052*                                                               \aGvzr: 12:59:51*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: JUVGR JNGRE XNLNX CNEX, 1201 10GU FG, TBYQRA*                         \aPebff fgerrgf: ZNCYR FG/ ZNCYR FG*                                              \aZnc cntr: ZNC R2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: qvfybpngrq fubhyqre  fbhgu fvqr bs                                   \aevtug jurer gur qhpxf ner orvat qhzcrq*
+(PNQ pnyy 142080022) Pnyy#: 142080022*                                                               \aGvzr: 06:35:20*                                                                 \aGlcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \aYbpngvba: UREVGNTR FDHNER, 18301 J PBYSNK NIR FUBCF, TBYQRA*                    \aPebff fgerrgf: J PBYSNK NIR/ UREVGNTR EQ*                                       \aZnc cntr: ZNC X3  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: ng gur ragenapr / ebyybire/ 1 pne / abg ba sver                      \apuril fhoheona                                                                  \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142080023) Pnyy#: 142080023*                                                               \aGvzr: 06:35:20*                                                                 \aGlcr bs pnyy: GENSSVP NPPVQRAG HAXABJA VAWHEL*                                  \aYbpngvba: UREVGNTR FDHNER, 18301 J PBYSNK NIR FUBCF, TBYQRA*                    \aPebff fgerrgf: J PBYSNK NIR/ UREVGNTR EQ*                                       \aZnc cntr: ZNC X3  *                                                             \aHavgf: 3E1 QVFG1 QVFG2*                                                         \aAneengvir: ng gur ragenapr / ebyybire/ 1 pne / abg ba sver                      \apuril fhoheona*
+(PNQ pnyy 142080016) Pnyy#: 142080016*                                                               \aGvzr: 02:10:03*                                                                 \aGlcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \aYbpngvba: EBBARL EQ/J PBYSNK NIR, TBYQRA*                                       \aZnc cntr: ZNC W5  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: ebhgvar / znyr p / o / zrq riny*
+(PNQ pnyy 142080005) Pnyy#: 142080005*                                                               \aGvzr: 00:38:52*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 800 13GU FG, TBYQRA*                                                  \aPebff fgerrgf: JNFUVATGBA NIR/ NENCNUBR FG*                                     \aZnc cntr: ZNC R3  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: bar znyr cnffrq bhg                                                  \acbff nypbuby eryngrq                                                            \aznyr cnegl                                                                      \avf oernguvat                                                                    \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142080005) Pnyy#: 142080005*                                                               \aGvzr: 00:38:52*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 800 13GU FG, TBYQRA*                                                  \aPebff fgerrgf: JNFUVATGBA NIR/ NENCNUBR FG*                                     \aZnc cntr: ZNC R3  *                                                             \aHavgf: QVFG2*                                                                   \aAneengvir: bar znyr cnffrq bhg                                                  \acbff nypbuby eryngrq                                                            \aznyr cnegl                                                                      \avf oernguvat*
+(PNQ pnyy 142070149) Pnyy#: 142070149*                                                               \aGvzr: 20:18:04*                                                                 \aGlcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \aYbpngvba: CNESRG CNEX, 801 10GU FG, TBYQRA*                                     \aPebff fgerrgf: JNFUVATGBA NIR/ NENCNUBR FG*                                     \aZnc cntr: ZNC Q2  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: jrfg fvqr tnentr/nypbuby vffhrf/pba/oer*
+(PNQ pnyy 142070144) Pnyy#: 142070144*                                                               \aGvzr: 19:46:42*                                                                 \aGlcr bs pnyy: Pnalba Pnyy*                                                      \aYbpngvba: PPP NG 263, 263 UJL 6 ZZ, TBYQRA*                                     \aPebff fgerrgf: UJL 93/ UJL 119*                                                 \aZnc cntr: AB ZNC  *                                                             \aHavgf: ZRQ21*
+(PNQ pnyy 142070138) Pnyy#: 142070138*                                                               \aGvzr: 19:31:01*                                                                 \aGlcr bs pnyy: Pnalba Pnyy*                                                      \aYbpngvba: GHAARY # 2 JRFG RAQ, 265 UJL 6 .1ZZ, TBYQRA*                          \aPebff fgerrgf: UJL 93/ UJL 119*                                                 \aZnc cntr: AB ZNC  *                                                             \aHavgf: QVFG2 QVFG1 ZRQ21*
+(PNQ pnyy 142070138) Pnyy#: 142070138*                                                               \aGvzr: 19:31:01*                                                                 \aGlcr bs pnyy: Pnalba Pnyy*                                                      \aYbpngvba: GHAARY # 2 JRFG RAQ, 265 UJL 6 .1ZZ, TBYQRA*                          \aPebff fgerrgf: UJL 93/ UJL 119*                                                 \aZnc cntr: AB ZNC  *                                                             \aHavgf: QVFG2 QVFG1 ZRQ21*
+(PNQ pnyy 142070130) Pnyy#: 142070130*                                                               \aGvzr: 18:35:14*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 2200 WNPXFBA FG, TBYQRA*                                              \aPebff fgerrgf: 22AQ FG/ 23EQ FG*                                                \aZnc cntr: ZNC S3  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: va gur tneqra nern  yvsg*
+(PNQ pnyy 142070094) Pnyy#: 142070094*                                                               \aGvzr: 14:58:22*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: TBYQRA YVOENEL, 1019 10GU FG, TBYQRA*                                 \aPebff fgerrgf: PURLRAAR FG/ VYYVABVF FG*                                        \aZnc cntr: ZNC Q2  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: ba cngu oruvaq yvoenel                                               \asrznyr jvgu cvax onaqnan                                                        \afvtavsvpnag sbbg ynprengvba*
+(PNQ pnyy 142070090) Pnyy#: 142070090*                                                               \aGvzr: 14:35:35*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 18231 J 3EQ NIR N4, TBYQRA*                                           \aPebff fgerrgf: MRGN FG/ MRGN FG*                                                \aZnc cntr: ZNC W4  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: z1 ubyq aba rzre bx*
+(PNQ pnyy 142070073) Pnyy#: 142070073*                                                               \aGvzr: 12:58:41*                                                                 \aGlcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \aYbpngvba: V70 UJL/ UJL 6, TBYQRA*                                               \aZnc cntr: ZNC V6  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: zp qbja srznyr ynlvat va fg                                          \aro v70 ng ujl 6                                                                 \arkvg 260                                                                        \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142070073) Pnyy#: 142070073*                                                               \aGvzr: 12:58:41*                                                                 \aGlcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \aYbpngvba: V70 UJL/ UJL 6, TBYQRA*                                               \aZnc cntr: ZNC V6  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: zp qbja srznyr ynlvat va fg                                          \aro v70 ng ujl 6                                                                 \arkvg 260*
+(PNQ pnyy 142070069) Pnyy#: 142070069*                                                               \aGvzr: 12:31:23*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: CNESRG CNEX, 801 10GU FG, TBYQRA*                                     \aPebff fgerrgf: JNFUVATGBA NIR/ NENCNUBR FG*                                     \aZnc cntr: ZNC Q2  *                                                             \aHavgf: NZE1 ZRQ21*                                                              \aAneengvir: ol fgntr fghat ol vafrpg fznyy puvyq                                 \acngvrag jnyxvat bire gb fgn 21*
+(PNQ pnyy 142070062) Pnyy#: 142070062*                                                               \aGvzr: 11:48:55*                                                                 \aGlcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \aYbpngvba: NENCNUBR FG/ 16GU FG, TBYQRA*                                         \aZnc cntr: ZNC R3  *                                                             \aHavgf: NZE1 ZRQ22*                                                              \aAneengvir: sebz zp nppvqrag/ cbff yrt vawhel*
+(PNQ pnyy 142070060) Pnyy#: 142070060*                                                               \aGvzr: 11:37:10*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 1411 8GU FG N409, TBYQRA*                                             \aPebff fgerrgf: RYZ PVE/ OEVNEJBBQ YA*                                           \aZnc cntr: ZNC Q2  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: yvsg nffvfg                                                          \a85 lrne byq srznyr                                                              \avf pbafpvbhf naq oernguvat*
+(PNQ pnyy 142070056) Pnyy#: 142070056*                                                               \aGvzr: 11:14:36*                                                                 \aGlcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \aYbpngvba: UJL 6/ 19GU FG, TBYQRA*                                               \aZnc cntr: ZNC S3  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ21*                                                       \aAneengvir: hax vaw                                                              \anppvqrag unccrarq jo 6 whfg r bs vagrefrpgvba                                   \a2 zbgbeplpyvfg qbja                                                             \aro 6gu                                                                          \aec vf n cnffreol                                                                \acbffvoyl nabgure iruvpyr vaibyirq                                               \aobgu havgf pbqr/                                                                \aPnyy rznvyrq gb:                                                                \apyfpuebr@zvarf.rqh                                                              \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142070056) Pnyy#: 142070056*                                                               \aGvzr: 11:14:36*                                                                 \aGlcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \aYbpngvba: UJL 6/ 19GU FG, TBYQRA*                                               \aZnc cntr: ZNC S3  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: hax vaw                                                              \anppvqrag unccrarq jo 6 whfg r bs vagrefrpgvba                                   \a2 zbgbeplpyvfg qbja                                                             \aro 6gu                                                                          \aec vf n cnffreol                                                                \acbffvoyl nabgure iruvpyr vaibyirq                                               \aobgu havgf pbqr/                                                                \aPnyy rznvyrq gb:                                                                \apyfpuebr@zvarf.rqh*
+(PNQ pnyy 142070052) Pnyy#: 142070052*                                                               \aGvzr: 10:46:44*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: JNFUVATGBA NIR/ 11GU FG, TBYQRA*                                      \aZnc cntr: ZNC Q3  *                                                             \aHavgf: NZE*                                                                     \aAneengvir: znyr ba r ffvqr va seag bs pyrne perrx pbzzbaf                       \abspe enaxva ba fprar*
+(PNQ pnyy 142070049) Pnyy#: 142070049*                                                               \aGvzr: 10:19:18*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: JNFUVATGBA NIR/ 10GU FG, TBYQRA*                                      \aZnc cntr: ZNC Q3  *                                                             \aHavgf: NZE1 NZE*                                                                \aAneengvir: ryqreyl srznyr cnffvat bhg univat gebhoyr fgnaqvat                   \aar pbeare bs 10gu naq jnfu                                                      \ava naq bhg bs pba*
+(PNQ pnyy 142070047) Pnyy#: 142070047*                                                               \aGvzr: 10:04:25*                                                                 \aGlcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \aYbpngvba: NENCNUBR FG/ 14GU FG, TBYQRA*                                         \aZnc cntr: ZNC R3  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ21*                                                       \aAneengvir: pne nppvqrag cbff zrqvpny pnhfrq nppvqrag                            \atea wrrc purebxrr if fvy wrrc                                                   \ava cnexvat ybg ba pbeare                                                        \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142070047) Pnyy#: 142070047*                                                               \aGvzr: 10:04:25*                                                                 \aGlcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \aYbpngvba: NENCNUBR FG/ 14GU FG, TBYQRA*                                         \aZnc cntr: ZNC R3  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: pne nppvqrag cbff zrqvpny pnhfrq nppvqrag                            \atea wrrc purebxrr if fvy wrrc                                                   \ava cnexvat ybg ba pbeare*
+(PNQ pnyy 142070034) Pnyy#: 142070034*                                                               \aGvzr: 06:02:57*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: PBAARPGVBAF YRNEAVAT PRAGRE, 1200 WBUAFBA EQ, TBYQRA*                 \aPebff fgerrgf: J 10GU NIR/J 14GU NIR*                                           \aZnc cntr: ZNC U4  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: zraf gbvyrg/sver nynez/urng frafbe*
+(PNQ pnyy 142070025) Pnyy#: 142070025*                                                               \aGvzr: 03:38:36*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 21 FNTROEHFU FG, TBYQRA*                                              \aPebff fgerrgf: ZNYYNEQ FG/ CVAGB FG*                                            \aZnc cntr: ZNC W5  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ22*                                                       \aAneengvir: 50 lbs qvss oernguvat/*
+(PNQ pnyy 142070025) Pnyy#: 142070025*                                                               \aGvzr: 03:38:36*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 21 FNTROEHFU FG, TBYQRA*                                              \aPebff fgerrgf: ZNYYNEQ FG/ CVAGB FG*                                            \aZnc cntr: ZNC W5  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ22*                                                       \aAneengvir: 50 lbs qvss oernguvat/*
+(PNQ pnyy 142070023) Pnyy#: 142070023*                                                               \aGvzr: 03:12:45*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: JNFUVATGBA NIR/ 12GU FG, TBYQRA*                                      \aZnc cntr: ZNC Q3  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ21*
+(PNQ pnyy 142070023) Pnyy#: 142070023*                                                               \aGvzr: 03:12:45*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: JNFUVATGBA NIR/ 12GU FG, TBYQRA*                                      \aZnc cntr: ZNC Q3  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ21*
+(PNQ pnyy 142070020) Pnyy#: 142070020*                                                               \aGvzr: 02:28:57*                                                                 \aGlcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \aYbpngvba: JNFUVATGBA NIR/ 18GU FG, TBYQRA*                                      \aZnc cntr: ZNC R3  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: snpvny vawhel p/o*
+(PNQ pnyy 142070007) Pnyy#: 142070007*                                                               \aGvzr: 00:42:23*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 18225 J 3EQ NIR NR, TBYQRA*                                           \aPebff fgerrgf: MRGN FG/ MRGN FG*                                                \aZnc cntr: ZNC W4  *                                                             \aHavgf: ZRQ22 QVFG1 QVFG2*                                                       \aAneengvir: purfg cnvaf   62 lb znyr, pba/qvss oernguvat*
+(PNQ pnyy 142070007) Pnyy#: 142070007*                                                               \aGvzr: 00:42:23*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 18225 J 3EQ NIR NR, TBYQRA*                                           \aPebff fgerrgf: MRGN FG/ MRGN FG*                                                \aZnc cntr: ZNC W4  *                                                             \aHavgf: ZRQ22 QVFG1 QVFG2*                                                       \aAneengvir: purfg cnvaf   62 lb znyr, pba/qvss oernguvat*
+(PNQ pnyy 142060153) Pnyy#: 142060153*                                                               \aGvzr: 23:05:45*                                                                 \aGlcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \aYbpngvba: SBEQ FG/ 13GU FG, TBYQRA*                                             \aZnc cntr: ZNC Q3  *                                                             \aHavgf: ZRQ21*
+(PNQ pnyy 142060151) Pnyy#: 142060151*                                                               \aGvzr: 22:42:45*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 221 ZRFN IREQR FG, TBYQRA*                                            \aPebff fgerrgf: KLYBA FG/ KLYBA FG*                                              \aZnc cntr: ZNC W4  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: gevrq gb phg uvf bja guebng                                          \afnvq gurer'f 3 bguref va gur ubfhr                                              \agurl ner abg vawherq, ur'f phg uvzfrys va nez ohg vf abg                        \aoyrrqvat                                                                        \afvggvat bhg sebag, guerj xavsr                                                  \avagb gur lneq                                                                   \ajrnevat n tenl zhfpyr fuveg, oyx cnagf, j/z 26*
+(PNQ pnyy 142060085) Pnyy#: 142060085*                                                               \aGvzr: 15:08:28*                                                                 \aGlcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \aYbpngvba: 1856 J PNZCHF EQ, TBYQRA*                                             \aPebff fgerrgf: RYZ FG/ 15GU FG*                                                 \aZnc cntr: ZNC S3  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: xvgpura ubbq sver nynez                                              \acerzvfr ahzore abar                                                             \axu vasb nggrzcgvat gb pbagnpg*
+(PNQ pnyy 142060077) Pnyy#: 142060077*                                                               \aGvzr: 14:16:12*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 17221 J 16GU CY, TBYQRA*                                              \aPebff fgerrgf: HYLFFRF PG/ HGNU PG*                                             \aZnc cntr: ZNC S5  *                                                             \aHavgf: RAT21 FGN21 QVFG1 QVFG2 ZRQ21*                                           \aAneengvir: qvss oernguvat                                                       \a57 lrne byq srznyr                                                              \avf pbafpvbhf naq qvss oernguvat                                                 \anyfb snyyrz                                                                     \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142060077) Pnyy#: 142060077*                                                               \aGvzr: 14:16:12*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 17221 J 16GU CY, TBYQRA*                                              \aPebff fgerrgf: HYLFFRF PG/ HGNU PG*                                             \aZnc cntr: ZNC S5  *                                                             \aHavgf: RAT21 FGN21 QVFG1 QVFG2*                                                 \aAneengvir: qvss oernguvat                                                       \a57 lrne byq srznyr                                                              \avf pbafpvbhf naq qvss oernguvat                                                 \anyfb snyyrz*
+(PNQ pnyy 142060070) Pnyy#: 142060070*                                                               \aGvzr: 13:56:00*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 3500 VYYVABVF FG, TBYQRA*                                             \aPebff fgerrgf: WRSSREFBA PBHAGL CXL/ WRSSREFBA PBHAGL CXL*                      \aZnc cntr: ZNC U4  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: qvssvphygl oernguvat                                                 \ajvyy or ng gur sebag qrfx                                                       \a38 lrne byq srznyr                                                              \avf pbafpvbhf qvss oernguvat*
+(PNQ pnyy 142060066) Pnyy#: 142060066*                                                               \aGvzr: 13:26:25*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: 400 VAQVNAN FG H230, TBYQRA*                                          \aPebff fgerrgf: J 4GU NIR/J 4GU NIR*                                             \aZnc cntr: ZNC W6  *                                                             \aHavgf: ZRQ22*                                                                   \aAneengvir: flapbcr naq uvg urnq                                                 \asrznyr vf pbafpvbhf naq oernguvat                                               \a78 lrne byq srznyr*
+(PNQ pnyy 142060054) Pnyy#: 142060054*                                                               \aGvzr: 11:44:12*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1270 A SBEQ FG E250, TBYQRA*                                          \aPebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \aZnc cntr: ZNC N2  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: qvss oernguvat                                                       \a85 lrne byq srznyr                                                              \avf pbafpvbhf naq oernguvat                                                      \aez 250                                                                          \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142060054) Pnyy#: 142060054*                                                               \aGvzr: 11:44:12*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1270 A SBEQ FG E250, TBYQRA*                                          \aPebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \aZnc cntr: ZNC N2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: qvss oernguvat                                                       \a85 lrne byq srznyr                                                              \avf pbafpvbhf naq oernguvat                                                      \aez 250*
+(PNQ pnyy 142060028) Pnyy#: 142060028*                                                               \aGvzr: 08:18:41*                                                                 \aGlcr bs pnyy: Ang tnf bqbe/bgu bqbe-abafzbxr(53)*                               \aYbpngvba: 660 TBYQRA EVQTR EQ, TBYQRA*                                          \aPebff fgerrgf: UREVGNTR EQ/ UREVGNTR EQ*                                        \aZnc cntr: ZNC V4  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: fgebat tnf fzryy sebz zrgre                                          \akpry vfba gur jnl nf jryy                                                       \ahax rgn                                                                         \azrgre ba jrfg fvqr                                                              \aab bar vyy*
+(PNQ pnyy 142050169) Pnyy#: 142050169*                                                               \aGvzr: 23:36:58*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1910 ZG MVBA QE, TBYQRA*                                              \aPebff fgerrgf: SBBGUVYYF EQ/ TBYQRAIHR QE*                                      \aZnc cntr: ZNC S2  *                                                             \aHavgf: QVFG1 QVFG2 ZRQ21*                                                       \aAneengvir: 92 lb srznyr qvssvphygl oernguvat                                    \apbagvbhf                                                                        \aPnyy rznvyrq gb:                                                                \a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*
+(PNQ pnyy 142050169) Pnyy#: 142050169*                                                               \aGvzr: 23:36:58*                                                                 \aGlcr bs pnyy: Nzohynapr naq Erfphr*                                             \aYbpngvba: 1910 ZG MVBA QE, TBYQRA*                                              \aPebff fgerrgf: SBBGUVYYF EQ/ TBYQRAIHR QE*                                      \aZnc cntr: ZNC S2  *                                                             \aHavgf: QVFG1 QVFG2*                                                             \aAneengvir: 92 lb srznyr qvssvphygl oernguvat                                    \apbagvbhf*
+(PNQ pnyy 142050147) Pnyy#: 142050147*                                                               \aGvzr: 20:00:08*                                                                 \aGlcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \aYbpngvba: OHSSNYB EBFR FNYBBA, 1119 JNFUVATGBA NIR, TBYQRA*                     \aPebff fgerrgf: 11GU FG/ 12GU FG*                                                \aZnc cntr: ZNC Q3  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: cbff nypbuby cbvfvat  p/o jnyxvat nebhaq                             \ava ure rneyl 20f/ uvfgbel bs qeht hfr                                           \afur vf n ovt gvzr qevaxre                                                       \aec vf rzcyblrr ng ohssnyb ebfr naq gur fhow                                     \ava dhrfgvba vf nyfb na rzcyblrr                                                 \afur vf fgnevat gb funxr abj                                                     \agurl ner va gur nyyrl jnl oruvaq ohssnyb ebf*
+(PNQ pnyy 142050138) Pnyy#: 142050138*                                                               \aGvzr: 19:15:53*                                                                 \aGlcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \aYbpngvba: TBYQRA CBYVPR QRCNEGZRAG, 911 10GU FG TCQ, TBYQRA*                    \aPebff fgerrgf: NENCNUBR FG/ PURLRAAR FG*                                        \aZnc cntr: ZNC Q2  *                                                             \aHavgf: ZRQ21*                                                                   \aAneengvir: oybbq qenj*
 
  */
 
@@ -950,1166 +971,686 @@ choyvp pynff PBTbyqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:hax cnegl qbja-rzretrag-pbzr va gueh fnyyl cbeg");
 
   }
-  
+
   @Grfg
   choyvp ibvq grfgTbyqraSQ2() {
 
     qbGrfg("G1",
-        "[Tbyqra Sver] Pnyy#: 122560092*                                                               \e\e\a" +
-        "Gvzr: 21:45:56*                                                                 \e\e\a" +
-        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \e\e\a" +
-        "Ybpngvba: 130 PENJSBEQ PVE, TBYQRA*                                             \e\e\a" +
-        "Pebff fgerrgf: OHETRFF NIR/ QRSENAPR JNL*                                       \e\e\a" +
-        "Znc cntr: ZNC W3  *                                                             \e\e\a" +
-        "Havgf: QVFG1 QVFG2*\e\e\a" +
-        "Aneengvir: cbff pb                                                              \e\e\a" +
-        "ghearq bss inyir gb tnf svercynpr                                               \e\e\a" +
-        "nverq/*                                                                         \e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "  \e\e\a" +
-        "\e\a" +
-        "\e\a" +
-        "\e\a",
-
-        "VQ:122560092",
-        "GVZR:21:45:56",
-        "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:130 PENJSBEQ PVE",
-        "PVGL:TBYQRA",
-        "K:OHETRFF NIR/ QRSENAPR JNL",
-        "ZNC:W3",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:cbff pb\aghearq bss inyir gb tnf svercynpr\anverq/*");
-
-    qbGrfg("G2",
-        "[Tbyqra Sver] Pnyy#: 122570021*                                                               \e\e\a" +
-        "Gvzr: 07:19:06*                                                                 \e\e\a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \e\e\a" +
-        "Ybpngvba: 17881 J PBYSNK NIR, TBYQRA*                                           \e\e\a" +
-        "Pebff fgerrgf: JRFG FG/ KLYBA FG*\e\e\a" +
-        "Znc cntr: ZNC W4  *                                                             \e\e\a" +
-        "Havgf: QVFG1 QVFG2*\e\e\a" +
-        "Aneengvir: ec srryvat qvmml naq yvtugurnqrq                                     \e\e\a" +
-        "61 lbs pbyba pnapre                                                             \e\e\a" +
-        "pba naq oerngu                                                                  \e\e\a" +
-        "qvss oernguvat*                                                                 \e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "  \e\e\a" +
-        "\e\a" +
-        "\e\a" +
-        "\e\a",
-
-        "VQ:122570021",
-        "GVZR:07:19:06",
-        "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:17881 J PBYSNK NIR",
-        "PVGL:TBYQRA",
-        "K:JRFG FG/ KLYBA FG",
-        "ZNC:W4",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:ec srryvat qvmml naq yvtugurnqrq\a61 lbs pbyba pnapre\apba naq oerngu\aqvss oernguvat*");
-
-    qbGrfg("G3",
-        "[Tbyqra Sver] Pnyy#: 122570073*                                                               \e\e\a" +
-        "Gvzr: 16:14:46*                                                                 \e\e\a" +
-        "Glcr bs pnyy: Fzbxr/Bqbe Pbzcynvag/Pnyy (53)*                                   \e\e\a" +
-        "Ybpngvba: UREVGNTR EQ/J PBYSNK NIR, TBYQRA*                                     \e\e\a" +
-        "Znc cntr: ZNC X4  *\e\e\a" +
-        "Havgf: QVFG1 QVFG2*                                                             \e\e\a" +
-        "Aneengvir: frrf fzbxr va nern, fnlf abg dhnel naq fzryyf fzbxr*                 \e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "  \e\e\a" +
-        "\e\a" +
-        "\e\a" +
-        "\e\a",
-
-        "VQ:122570073",
-        "GVZR:16:14:46",
-        "PNYY:Fzbxr/Bqbe Pbzcynvag/Pnyy (53)",
-        "NQQE:UREVGNTR EQ & J PBYSNK NIR",
-        "PVGL:TBYQRA",
-        "ZNC:X4",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:frrf fzbxr va nern, fnlf abg dhnel naq fzryyf fzbxr*");
-
-    qbGrfg("G4",
-        "[Tbyqra Sver] Pnyy#: 122580034*                                                               \e\e\a" +
-        "Gvzr: 10:20:13*                                                                 \e\e\a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \e\e\a" +
-        "Ybpngvba: WRSSREFBA PBHAGL PBHEG UBHFR, 100 WRSSREFBA PBHAGL CXL, TBYQRA*       \e\e\a" +
-        "Pebff fgerrgf: PBHEGUBHFR QE/ PBHEGUBHFR QE*                                    \e\e\a" +
-        "Znc cntr: ZNC V4  *                                                             \e\e\a" +
-        "Havgf: QVFG1 QVFG2*                                                             \e\e\a" +
-        "Aneengvir: 35 lb/s                                                              \e\e\a" +
-        "pba frvmher                                                                     \e\e\a" +
-        "qvssvphygl oernguvat                                                            \e\e\a" +
-        "abg va frvmher abj                                                              \e\e\a" +
-        "erfcbaq gb sebag bs pbheg ubhfr*                                                \e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "  \e\e\a" +
-        "\e\a" +
-        "\e\a" +
-        "\e\a",
-
-        "VQ:122580034",
-        "GVZR:10:20:13",
-        "PNYY:Nzohynapr naq Erfphr",
-        "CYNPR:WRSSREFBA PBHAGL PBHEG UBHFR",
-        "NQQE:100 WRSSREFBA PBHAGL CXL",
-        "ZNQQE:100 WRSSREFBA PBHAGL CXJL",
-        "PVGL:TBYQRA",
-        "K:PBHEGUBHFR QE/ PBHEGUBHFR QE",
-        "ZNC:V4",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:35 lb/s\apba frvmher\aqvssvphygl oernguvat\aabg va frvmher abj\aerfcbaq gb sebag bs pbheg ubhfr*");
-
-    qbGrfg("G5",
-        "[Tbyqra Sver] Pnyy#: 122580074*                                                               \e\e\a" +
-        "Gvzr: 18:03:55*                                                                 \e\e\a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \e\e\a" +
-        "Ybpngvba: 16035 J 4GU NIR, TBYQRA*                                              \e\e\a" +
-        "Pebff fgerrgf: BEPUNEQ FG/ BEVBA FG*                                            \e\e\a" +
-        "Znc cntr: ZNC W6  *                                                             \e\e\a" +
-        "Havgf: QVFG1 QVFG2*                                                             \e\e\a" +
-        "Aneengvir: nverq gb cq                                                          \e\e\a" +
-        "znyr qvss oernguvat                                                             \e\e\a" +
-        "36 lbz / nzo jvyy unir npprff*                                                  \e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "  \e\e\a" +
-        "\e\a" +
-        "\e\a" +
-        "\e\a",
-
-        "VQ:122580074",
-        "GVZR:18:03:55",
-        "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:16035 J 4GU NIR",
-        "PVGL:TBYQRA",
-        "K:BEPUNEQ FG/ BEVBA FG",
-        "ZNC:W6",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:nverq gb cq\aznyr qvss oernguvat\a36 lbz / nzo jvyy unir npprff*");
-
-    qbGrfg("G6",
-        "[Tbyqra Sver] Pnyy#: 122590040*                                                               \e\e\a" +
-        "Gvzr: 11:40:15*                                                                 \e\e\a" +
-        "Glcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \e\e\a" +
-        "Ybpngvba: UJL 6/ 19GU FG, TBYQRA*                                               \e\e\a" +
-        "Znc cntr: ZNC S3  *                                                             \e\e\a" +
-        "Havgf: QVFG1 QVFG2*                                                             \e\e\a" +
-        "Aneengvir: pne if ovplpyvfg                                                     \e\e\a" +
-        "lryyvat ng rnpu bgure nf jryy                                                   \e\e\a" +
-        "qex tea fhi*                                                                    \e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "  \e\e\a" +
-        "\e\a" +
-        "\e\a" +
-        "\e\a",
-
-        "VQ:122590040",
-        "GVZR:11:40:15",
-        "PNYY:Haxabja Vawhel Genssvp Nppvqrag",
-        "NQQE:UJL 6 & 19GU FG",
-        "PVGL:TBYQRA",
-        "ZNC:S3",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:pne if ovplpyvfg\alryyvat ng rnpu bgure nf jryy\aqex tea fhi*");
-
-    qbGrfg("G7",
-        "[Tbyqra Sver] Pnyy#: 122590072*                                                               \e\e\a" +
-        "Gvzr: 17:35:28*                                                                 \e\e\a" +
-        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \e\e\a" +
-        "Ybpngvba: 17700 FBHGU TBYQRA EQ, TBYQRA*                                        \e\e\a" +
-        "Pebff fgerrgf: YHAABAUNHF QE/ WBUAFBA EQ*                                       \e\e\a" +
-        "Znc cntr: ZNC T4  *                                                             \e\e\a" +
-        "Havgf: QVFG1 QVFG2*                                                             \e\e\a" +
-        "Aneengvir: qbrfa'g fcrpvsl ohfvarff anzr                                        \e\e\a" +
-        "cerzvfr 303 443 3313*                                                           \e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "\e\e\a" +
-        "  \e\e\a" +
-        "\e\a" +
-        "\e\a" +
-        "\e\a",
-
-        "VQ:122590072",
-        "GVZR:17:35:28",
-        "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:17700 FBHGU TBYQRA EQ",
-        "PVGL:TBYQRA",
-        "K:YHAABAUNHF QE/ WBUAFBA EQ",
-        "ZNC:T4",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:qbrfa'g fcrpvsl ohfvarff anzr\acerzvfr 303 443 3313*");
-
-    qbGrfg("G8",
-        "[Tbyqra Sver] Pnyy#: 123550120*                                                               \e\a" +
-        "Gvzr: 22:51:47*                                                                 \e\a" +
-        "Glcr bs pnyy: Zhghny Nvq*                                                       \e\a" +
-        "Ybpngvba: 1430 WBLPR FG*                                                        \e\a" +
-        "Pebff fgerrgf:/*                                                                \e\a" +
-        "Havgf: QVFG1 QVFG2*                                                          \e\a" +
-        "Aneengvir: rat naq erfphr sver fr*",
-
-        "VQ:123550120",
-        "GVZR:22:51:47",
-        "PNYY:Zhghny Nvq",
-        "NQQE:1430 WBLPR FG",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:rat naq erfphr sver fr*");
-
-  }
-  
-  @Grfg
-  choyvp ibvq grfgTbyqraSQ3() {
-
-    qbGrfg("G1",
-        "(Tbyqra Sver) Pnyy#: 130070096*                                                               \a" +
-        "Gvzr: 18:45:41*                                                                 \a" +
+        "(PNQ pnyy 142140022) Pnyy#: 142140022*                                                               \a" +
+        "Gvzr: 04:25:40*                                                                 \a" +
         "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
-        "Ybpngvba: 1200 TBYQRA PVE, TBYQRA*                                              \a" +
-        "Pebff fgerrgf: TBYQRA PVE/ TBYQRA PVE*                                          \a" +
-        "Znc cntr: ZNC V4  *                                                             \a" +
+        "Ybpngvba: 803 OEBJA FDHVEERY YA, TBYQRA*                                        \a" +
+        "Pebff fgerrgf: RNTYR EVQTR QE/ RNTYR EVQTR QE*                                  \a" +
+        "Znc cntr: ZNC V3  *                                                             \a" +
         "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: oyqt 10 nhgbzngvp*                                                   \a\a\a\a\a\a" +
-        "  ",
+        "Aneengvir: erfvqragvny fhfna punzoref / 303384 0478*",
 
-        "VQ:130070096",
-        "GVZR:18:45:41",
+        "VQ:142140022",
+        "GVZR:04:25:40",
         "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:1200 TBYQRA PVE",
+        "NQQE:803 OEBJA FDHVEERY YA",
         "PVGL:TBYQRA",
-        "K:TBYQRA PVE/ TBYQRA PVE",
-        "ZNC:V4",
+        "K:RNTYR EVQTR QE/ RNTYR EVQTR QE",
+        "ZNC:V3",
         "HAVG:QVFG1 QVFG2",
-        "VASB:oyqt 10 nhgbzngvp*");
+        "VASB:erfvqragvny fhfna punzoref / 303384 0478*");
 
     qbGrfg("G2",
-        "(Tbyqra Sver) Pnyy#: 130070087*                                                               \a" +
-        "Gvzr: 17:37:24*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: 149 XVZONYY NIR, TBYQRA*                                              \a" +
-        "Pebff fgerrgf: QRSENAPR JNL/ PENJSBEQ FG*                                       \a" +
-        "Znc cntr: ZNC X3  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2 ZRQ22*                                                       \a" +
-        "Aneengvir: p/o qvss oernguvat 38 lbs*                                           \a\a\a\a\a\a" +
-        "  ",
+        "(PNQ pnyy 142140012) Pnyy#: 142140012*                                                               \a" +
+        "Gvzr: 01:35:37*                                                                 \a" +
+        "Glcr bs pnyy: Iruvpyr/Pne Sver (13)*                                            \a" +
+        "Ybpngvba: WHAPGVBA, 1 UJL 93, TBYQRA*                                           \a" +
+        "Pebff fgerrgf: UJL 58/ UJL 58*                                                  \a" +
+        "Znc cntr: ZNC R2  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: ba ujl 6*",
 
-        "VQ:130070087",
-        "GVZR:17:37:24",
-        "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:149 XVZONYY NIR",
+        "VQ:142140012",
+        "GVZR:01:35:37",
+        "PNYY:Iruvpyr/Pne Sver (13)",
+        "CYNPR:WHAPGVBA",
+        "NQQE:1 UJL 93",
         "PVGL:TBYQRA",
-        "K:QRSENAPR JNL/ PENJSBEQ FG",
-        "ZNC:X3",
-        "HAVG:QVFG1 QVFG2 ZRQ22",
-        "VASB:p/o qvss oernguvat 38 lbs*");
+        "K:UJL 58/ UJL 58",
+        "ZNC:R2",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:ba ujl 6*");
 
     qbGrfg("G3",
-        "(Tbyqra Sver) Pnyy#: 130070080*                                                               \a" +
-        "Gvzr: 16:08:32*                                                                 \a" +
-        "Glcr bs pnyy: Jngre Ceboyrz/Cvcr Oernx (52)*                                    \a" +
-        "Ybpngvba: 2201 VYYVABVF FG, TBYQRA*                                             \a" +
-        "Pebff fgerrgf: 22AQ FG/ 23EQ FG*                                                \a" +
-        "Znc cntr: ZNC S3  *                                                             \a" +
-        "Havgf: PUS21 QVFG1 QVFG2*                                                       \a" +
-        "Aneengvir: jngre chevat bhg bs onfrzrag*                                        \a\a\a\a\a\a" +
-        "  ",
+        "(PNQ pnyy 142130061) Pnyy#: 142130061*                                                               \a" +
+        "Gvzr: 12:43:06*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 1400 HGNU FG N311, TBYQRA*                                            \a" +
+        "Pebff fgerrgf: FBHGU TBYQRA EQ/ HYLFFRF FG*                                     \a" +
+        "Znc cntr: ZNC T5  *                                                             \a" +
+        "Havgf: ZRQ22*                                                                   \a" +
+        "Aneengvir: 52 lrne byq srznyr                                                   \a" +
+        "qvss oernguvat                                                                  \a" +
+        "vf pbafpvbhf naq qvss oernguvat                                                 \a" +
+        "nverq                                                                           \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
 
-        "VQ:130070080",
-        "GVZR:16:08:32",
-        "PNYY:Jngre Ceboyrz/Cvcr Oernx (52)",
-        "NQQE:2201 VYYVABVF FG",
+        "VQ:142130061",
+        "GVZR:12:43:06",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:1400 HGNU FG",
+        "NCG:N311",
         "PVGL:TBYQRA",
-        "K:22AQ FG/ 23EQ FG",
-        "ZNC:S3",
-        "HAVG:PUS21 QVFG1 QVFG2",
-        "VASB:jngre chevat bhg bs onfrzrag*");
+        "K:FBHGU TBYQRA EQ/ HYLFFRF FG",
+        "ZNC:T5",
+        "HAVG:ZRQ22",
+        "VASB:52 lrne byq srznyr\aqvss oernguvat\avf pbafpvbhf naq qvss oernguvat\anverq\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
 
     qbGrfg("G4",
-        "(Tbyqra Sver) Pnyy#: 130070046*                                                               \a" +
-        "Gvzr: 12:01:06*                                                                 \a" +
+        "(PNQ pnyy 142130061) Pnyy#: 142130061*                                                               \a" +
+        "Gvzr: 12:43:06*                                                                 \a" +
         "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: 355 P FG, TBYQRA*                                                     \a" +
-        "Pebff fgerrgf: MRGN FG/ MHEVPU FG*                                              \a" +
-        "Znc cntr: ZNC W4  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2 ZRQ22*                                                       \a" +
-        "Aneengvir: nverq gb cq                                                          \a" +
-        "hypre naq frirer cnva p/o                                                       \a" +
-        "23 lb znyr                                                                      \a" +
-        "Pnyy rznvyrq gb:                                                                \a" +
-        "2023@vnenyregf.pbz                                                              \a" +
-        "2023o@vnenyregf.pbz*                                                            \a\a\a\a\a\a" +
-        "  ",
+        "Ybpngvba: 1400 HGNU FG N311, TBYQRA*                                            \a" +
+        "Pebff fgerrgf: FBHGU TBYQRA EQ/ HYLFFRF FG*                                     \a" +
+        "Znc cntr: ZNC T5  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: 52 lrne byq srznyr                                                   \a" +
+        "qvss oernguvat                                                                  \a" +
+        "vf pbafpvbhf naq qvss oernguvat                                                 \a" +
+        "nverq*",
 
-        "VQ:130070046",
-        "GVZR:12:01:06",
+        "VQ:142130061",
+        "GVZR:12:43:06",
         "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:355 P FG",
+        "NQQE:1400 HGNU FG",
+        "NCG:N311",
         "PVGL:TBYQRA",
-        "K:MRGN FG/ MHEVPU FG",
-        "ZNC:W4",
-        "HAVG:QVFG1 QVFG2 ZRQ22",
-        "VASB:nverq gb cq\ahypre naq frirer cnva p/o\a23 lb znyr\aPnyy rznvyrq gb:\a2023@vnenyregf.pbz\a2023o@vnenyregf.pbz*");
+        "K:FBHGU TBYQRA EQ/ HYLFFRF FG",
+        "ZNC:T5",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:52 lrne byq srznyr\aqvss oernguvat\avf pbafpvbhf naq qvss oernguvat\anverq*");
 
     qbGrfg("G5",
-        "(Tbyqra Sver) Pnyy#: 130070028*                                                               \a" +
-        "Gvzr: 09:29:25*                                                                 \a" +
-        "Glcr bs pnyy: Iruvpyr/Pne Sver (13)*                                            \a" +
-        "Ybpngvba: CNABENZN BEGUBCRQVPF, 660 TBYQRA EVQTR EQ H250, TBYQRA*               \a" +
-        "Pebff fgerrgf: UREVGNTR EQ/ UREVGNTR EQ*                                        \a" +
-        "Znc cntr: ZNC V4  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2 ONG21 ZRQ22*                                                 \a" +
-        "Aneengvir: cre pe4/fzbxr ivfvoyr sebz fubcf                                     \a" +
-        "ab synzrf frra                                                                  \a" +
-        "synzrf ivfvoyr/                                                                 \a" +
-        "va znva cnexvat ybg oynpx fzbxr                                                 \a" +
-        "Pnyy rznvyrq gb:                                                                \a" +
-        "2023@vnenyregf.pbz                                                              \a" +
-        "2023o@vnenyregf.pbz*                                                            \a\a\a\a\a\a" +
-        "  ",
+        "(PNQ pnyy 142130031) Pnyy#: 142130031*                                                               \a" +
+        "Gvzr: 08:55:31*                                                                 \a" +
+        "Glcr bs pnyy: Bgure Sver (16)*                                                  \a" +
+        "Ybpngvba: 401 FBZREFRG QE, TBYQRA*                                              \a" +
+        "Pebff fgerrgf: PURYNA FG/ PURYNA FG*                                            \a" +
+        "Znc cntr: ZNC V3  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*",
 
-        "VQ:130070028",
-        "GVZR:09:29:25",
-        "PNYY:Iruvpyr/Pne Sver (13)",
-        "CYNPR:CNABENZN BEGUBCRQVPF",
-        "NQQE:660 TBYQRA EVQTR EQ",
-        "NCG:H250",
+        "VQ:142130031",
+        "GVZR:08:55:31",
+        "PNYY:Bgure Sver (16)",
+        "NQQE:401 FBZREFRG QE",
         "PVGL:TBYQRA",
-        "K:UREVGNTR EQ/ UREVGNTR EQ",
-        "ZNC:V4",
-        "HAVG:QVFG1 QVFG2 ONG21 ZRQ22",
-        "VASB:cre pe4/fzbxr ivfvoyr sebz fubcf\aab synzrf frra\asynzrf ivfvoyr/\ava znva cnexvat ybg oynpx fzbxr\aPnyy rznvyrq gb:\a2023@vnenyregf.pbz\a2023o@vnenyregf.pbz*");
-
-    qbGrfg("G6",
-        "(Tbyqra Sver) Pnyy#: 130070021*                                                               \a" +
-        "Gvzr: 08:25:22*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \a" +
-        "Ybpngvba: 249 PENJSBEQ QE, TBYQRA*                                              \a" +
-        "Pebff fgerrgf: QRSENAPR QE/ PENJSBEQ FG*                                        \a" +
-        "Znc cntr: ZNC W3  *                                                             \a" +
-        "Havgf: ZRQ22*                                                                   \a" +
-        "Aneengvir: sebag qbbe haybpxq yvsg nffvfg*                                      \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130070021",
-        "GVZR:08:25:22",
-        "PNYY:Nzohynapr pnyy bayl (32)",
-        "NQQE:249 PENJSBEQ QE",
-        "PVGL:TBYQRA",
-        "K:QRSENAPR QE/ PENJSBEQ FG",
-        "ZNC:W3",
-        "HAVG:ZRQ22",
-        "VASB:sebag qbbe haybpxq yvsg nffvfg*");
-
-    qbGrfg("G7",
-        "(Tbyqra Sver) Pnyy#: 130070012*                                                               \a" +
-        "Gvzr: 06:21:56*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: 1828 ZG MVBA QE, TBYQRA*                                              \a" +
-        "Pebff fgerrgf: CVANY EQ/ SBBGUVYYF EQ*                                          \a" +
-        "Znc cntr: ZNC S2  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2 ZRQ21*                                                       \a" +
-        "Aneengvir: fbzr qvss oerng 90 lbs*                                              \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130070012",
-        "GVZR:06:21:56",
-        "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:1828 ZG MVBA QE",
-        "PVGL:TBYQRA",
-        "K:CVANY EQ/ SBBGUVYYF EQ",
-        "ZNC:S2",
-        "HAVG:QVFG1 QVFG2 ZRQ21",
-        "VASB:fbzr qvss oerng 90 lbs*");
-
-    qbGrfg("G8",
-        "(Tbyqra Sver) Pnyy#: 130060070*                                                               \a" +
-        "Gvzr: 17:37:37*                                                                 \a" +
-        "Glcr bs pnyy: Rkgevpngvba/Erfphr/Pyvzore (35)*                                  \a" +
-        "Ybpngvba: JUVGR JNGRE XNLNX CNEX, 1201 10GU FG, TBYQRA*                         \a" +
-        "Pebff fgerrgf: ZNCYR FG/ ZNCYR FG*                                              \a" +
-        "Znc cntr: ZNC R2  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130060070",
-        "GVZR:17:37:37",
-        "PNYY:Rkgevpngvba/Erfphr/Pyvzore (35)",
-        "CYNPR:JUVGR JNGRE XNLNX CNEX",
-        "NQQE:1201 10GU FG",
-        "PVGL:TBYQRA",
-        "K:ZNCYR FG/ ZNCYR FG",
-        "ZNC:R2",
+        "K:PURYNA FG/ PURYNA FG",
+        "ZNC:V3",
         "HAVG:QVFG1 QVFG2*");
 
-    qbGrfg("G9",
-        "(Tbyqra Sver) Pnyy#: 130060061*                                                               \a" +
-        "Gvzr: 15:13:26*                                                                 \a" +
+    qbGrfg("G6",
+        "(PNQ pnyy 142130029) Pnyy#: 142130029*                                                               \a" +
+        "Gvzr: 08:47:05*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
+        "Ybpngvba: 1027 JNFUVATGBA NIR N302, TBYQRA*                                     \a" +
+        "Pebff fgerrgf: 10GU FG/ 11GU FG*                                                \a" +
+        "Znc cntr: ZNC Q3  *                                                             \a" +
+        "Havgf: ZRQ22*                                                                   \a" +
+        "Aneengvir: ec pnag zbir ynlvat ba sybbe                                         \a" +
+        "gbb jrnx gb trg hc abg vawherq                                                  \a" +
+        "pnag trg gb qbbe                                                                \a" +
+        "sebag qrfx jvyy unir gb yrg nze va                                              \a" +
+        "91 lbs*",
+
+        "VQ:142130029",
+        "GVZR:08:47:05",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
+        "NQQE:1027 JNFUVATGBA NIR",
+        "NCG:N302",
+        "PVGL:TBYQRA",
+        "K:10GU FG/ 11GU FG",
+        "ZNC:Q3",
+        "HAVG:ZRQ22",
+        "VASB:ec pnag zbir ynlvat ba sybbe\agbb jrnx gb trg hc abg vawherq\apnag trg gb qbbe\asebag qrfx jvyy unir gb yrg nze va\a91 lbs*");
+
+    qbGrfg("G7",
+        "(PNQ pnyy 142130028) Pnyy#: 142130028*                                                               \a" +
+        "Gvzr: 08:31:42*                                                                 \a" +
         "Glcr bs pnyy: Pnalba Pnyy*                                                      \a" +
-        "Ybpngvba: GHAARY # 1 RNFG RAQ, 270 UJL 6 .4ZZ, TBYQRA*                          \a" +
+        "Ybpngvba: PPP NG 265, 265 UJL 6 ZZ, TBYQRA*                                     \a" +
+        "Pebff fgerrgf: UJL 93/ UJL 119*                                                 \a" +
+        "Znc cntr: AB ZNC  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ22*                                                       \a" +
+        "Aneengvir: fvy gx naq frzv pebffrq pragre                                       \a" +
+        "cbff nez vaw                                                                    \a" +
+        "nyy bhg bs iru                                                                  \a" +
+        "puevfgvna pbzof 4053881030                                                      \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142130028",
+        "GVZR:08:31:42",
+        "PNYY:Pnalba Pnyy",
+        "CYNPR:PPP NG 265",
+        "NQQE:265 UJL 6 ZZ",
+        "PVGL:TBYQRA",
+        "K:UJL 93/ UJL 119",
+        "ZNC:AB ZNC",
+        "HAVG:QVFG1 QVFG2 ZRQ22",
+        "VASB:fvy gx naq frzv pebffrq pragre\acbff nez vaw\anyy bhg bs iru\apuevfgvna pbzof 4053881030\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G8",
+        "(PNQ pnyy 142130028) Pnyy#: 142130028*                                                               \a" +
+        "Gvzr: 08:31:42*                                                                 \a" +
+        "Glcr bs pnyy: Pnalba Pnyy*                                                      \a" +
+        "Ybpngvba: PPP NG 265, 265 UJL 6 ZZ, TBYQRA*                                     \a" +
         "Pebff fgerrgf: UJL 93/ UJL 119*                                                 \a" +
         "Znc cntr: AB ZNC  *                                                             \a" +
         "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: fbzrobql qbja arne gur perrx                                         \a" +
-        "oyrrqvat, fuvirevat                                                             \a" +
-        "arne perrx, cbff znyr                                                           \a" +
-        "ec abg jvgu uvz                                                                 \a" +
-        "qex wnpxrg, qex cnagf                                                           \a" +
-        "ec vf ba gur obneqjnyx genvy fbhgu bs gur perrx                                 \a" +
-        "nobhg 1 zvyr rnfg bs gha1                                                       \a" +
-        "ec naq bgure ccy pnaabg trg gb ebnq; fghpx ba gur genvy                         \a" +
-        "ec vf srz jrnevat qex oyh wnpxrg naq oyhr wrnaf*                                \a\a\a\a\a\a" +
-        "  ",
+        "Aneengvir: fvy gx naq frzv pebffrq pragre                                       \a" +
+        "cbff nez vaw                                                                    \a" +
+        "nyy bhg bs iru                                                                  \a" +
+        "puevfgvna pbzof 4053881030*",
 
-        "VQ:130060061",
-        "GVZR:15:13:26",
+        "VQ:142130028",
+        "GVZR:08:31:42",
         "PNYY:Pnalba Pnyy",
-        "CYNPR:GHAARY # 1 RNFG RAQ",
-        "NQQE:270 UJL 6 .4ZZ",
+        "CYNPR:PPP NG 265",
+        "NQQE:265 UJL 6 ZZ",
         "PVGL:TBYQRA",
         "K:UJL 93/ UJL 119",
         "ZNC:AB ZNC",
         "HAVG:QVFG1 QVFG2",
-        "VASB:fbzrobql qbja arne gur perrx\aoyrrqvat, fuvirevat\aarne perrx, cbff znyr\aec abg jvgu uvz\aqex wnpxrg, qex cnagf\aec vf ba gur obneqjnyx genvy fbhgu bs gur perrx\anobhg 1 zvyr rnfg bs gha1\aec naq bgure ccy pnaabg trg gb ebnq; fghpx ba gur genvy\aec vf srz jrnevat qex oyh wnpxrg naq oyhr wrnaf*");
+        "VASB:fvy gx naq frzv pebffrq pragre\acbff nez vaw\anyy bhg bs iru\apuevfgvna pbzof 4053881030*");
+
+    qbGrfg("G9",
+        "(PNQ pnyy 142130024) Pnyy#: 142130024*                                                               \a" +
+        "Gvzr: 08:05:11*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 2120 NENCNUBR FG, TBYQRA*                                             \a" +
+        "Pebff fgerrgf: 20GU FG/ 22AQ FG*                                                \a" +
+        "Znc cntr: ZNC S3  *                                                             \a" +
+        "Havgf: RAT21 PUS21 ZRQ21*                                                       \a" +
+        "Aneengvir: nppvqragny bireqbfr ba phznqva                                       \a" +
+        "fubeg bs oerngu                                                                 \a" +
+        "oyrrqvat tv oybbq va ibzvg                                                      \a" +
+        "ubzr nybar                                                                      \a" +
+        "82 lbz                                                                          \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142130024",
+        "GVZR:08:05:11",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:2120 NENCNUBR FG",
+        "PVGL:TBYQRA",
+        "K:20GU FG/ 22AQ FG",
+        "ZNC:S3",
+        "HAVG:RAT21 PUS21 ZRQ21",
+        "VASB:nppvqragny bireqbfr ba phznqva\afubeg bs oerngu\aoyrrqvat tv oybbq va ibzvg\aubzr nybar\a82 lbz\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
 
     qbGrfg("G10",
-        "(Tbyqra Sver) Pnyy#: 130060039*                                                               \a" +
-        "Gvzr: 10:07:58*                                                                 \a" +
+        "(PNQ pnyy 142130024) Pnyy#: 142130024*                                                               \a" +
+        "Gvzr: 08:05:11*                                                                 \a" +
         "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: 1270 A SBEQ FG, TBYQRA*                                               \a" +
-        "Pebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \a" +
-        "Znc cntr: ZNC N2  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: cbff fgebxr/                                                         \a" +
-        "jrnxarff ba y fvqr                                                              \a" +
-        "yngr 80f 90f                                                                    \a" +
-        "vf p vf o                                                                       \a" +
-        "vf 91 lb s*                                                                     \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130060039",
-        "GVZR:10:07:58",
-        "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:1270 A SBEQ FG",
-        "PVGL:TBYQRA",
-        "K:CVAR EVQTR EQ/ IVETVAVN FG",
-        "ZNC:N2",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:cbff fgebxr/\ajrnxarff ba y fvqr\ayngr 80f 90f\avf p vf o\avf 91 lb s*");
-
-    qbGrfg("G11",
-        "(Tbyqra Sver) Pnyy#: 130050058*                                                               \a" +
-        "Gvzr: 21:12:35*                                                                 \a" +
-        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
-        "Ybpngvba: 1800 J PNZCHF EQ, TBYQRA*                                             \a" +
-        "Pebff fgerrgf: RYZ FG/ 15GU FG*                                                 \a" +
+        "Ybpngvba: 2120 NENCNUBR FG, TBYQRA*                                             \a" +
+        "Pebff fgerrgf: 20GU FG/ 22AQ FG*                                                \a" +
         "Znc cntr: ZNC S3  *                                                             \a" +
         "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: trareny sver nynez*                                                  \a\a\a\a\a\a" +
-        "  ",
+        "Aneengvir: nppvqragny bireqbfr ba phznqva                                       \a" +
+        "fubeg bs oerngu                                                                 \a" +
+        "oyrrqvat tv oybbq va ibzvg                                                      \a" +
+        "ubzr nybar                                                                      \a" +
+        "82 lbz*",
 
-        "VQ:130050058",
-        "GVZR:21:12:35",
-        "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:1800 J PNZCHF EQ",
+        "VQ:142130024",
+        "GVZR:08:05:11",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:2120 NENCNUBR FG",
         "PVGL:TBYQRA",
-        "K:RYZ FG/ 15GU FG",
+        "K:20GU FG/ 22AQ FG",
         "ZNC:S3",
         "HAVG:QVFG1 QVFG2",
-        "VASB:trareny sver nynez*");
+        "VASB:nppvqragny bireqbfr ba phznqva\afubeg bs oerngu\aoyrrqvat tv oybbq va ibzvg\aubzr nybar\a82 lbz*");
+
+    qbGrfg("G11",
+        "(PNQ pnyy 142130021) Pnyy#: 142130021*                                                               \a" +
+        "Gvzr: 07:59:21*                                                                 \a" +
+        "Glcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \a" +
+        "Ybpngvba: P470 UJL/ V70 UJL, TBYQRA*                                            \a" +
+        "Znc cntr: ZNC X5  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ22*                                                       \a" +
+        "Aneengvir: jo v70 gb p470                                                       \a" +
+        "hax vaw                                                                         \a" +
+        "zrybql jnf uvg sebz oruvaq                                                      \a" +
+        "otr yrkhf fhi if oyx puri znyvoh                                                \a" +
+        "zrybql 303 570 5310                                                             \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142130021",
+        "GVZR:07:59:21",
+        "PNYY:Haxabja Vawhel Genssvp Nppvqrag",
+        "NQQE:P470 UJL & V70 UJL",
+        "ZNQQE:P470 UJL & V 70",
+        "PVGL:TBYQRA",
+        "ZNC:X5",
+        "HAVG:QVFG1 QVFG2 ZRQ22",
+        "VASB:jo v70 gb p470\ahax vaw\azrybql jnf uvg sebz oruvaq\aotr yrkhf fhi if oyx puri znyvoh\azrybql 303 570 5310\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
 
     qbGrfg("G12",
-        "(Tbyqra Sver) Pnyy#: 130050038*                                                               \a" +
-        "Gvzr: 13:03:05*                                                                 \a" +
-        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
-        "Ybpngvba: 18301 J PBYSNK NIR HQ103, TBYQRA*                                     \a" +
-        "Pebff fgerrgf: J PBYSNK NIR/ UREVGNTR EQ*                                       \a" +
-        "Znc cntr: ZNC X3  *                                                             \a" +
+        "(PNQ pnyy 142130021) Pnyy#: 142130021*                                                               \a" +
+        "Gvzr: 07:59:21*                                                                 \a" +
+        "Glcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \a" +
+        "Ybpngvba: P470 UJL/ V70 UJL, TBYQRA*                                            \a" +
+        "Znc cntr: ZNC X5  *                                                             \a" +
         "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: gebhoyr fvtanyf / pneybf ba fvgr                                     \a" +
-        "unir n ybg bs jngre                                                             \a" +
-        "cerzvfr 303-277-0040*                                                           \a\a\a\a\a\a" +
-        "  ",
+        "Aneengvir: jo v70 gb p470                                                       \a" +
+        "hax vaw                                                                         \a" +
+        "zrybql jnf uvg sebz oruvaq                                                      \a" +
+        "otr yrkhf fhi if oyx puri znyvoh                                                \a" +
+        "zrybql 303 570 5310*",
 
-        "VQ:130050038",
-        "GVZR:13:03:05",
-        "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:18301 J PBYSNK NIR",
-        "NCG:HQ103",
+        "VQ:142130021",
+        "GVZR:07:59:21",
+        "PNYY:Haxabja Vawhel Genssvp Nppvqrag",
+        "NQQE:P470 UJL & V70 UJL",
+        "ZNQQE:P470 UJL & V 70",
         "PVGL:TBYQRA",
-        "K:J PBYSNK NIR/ UREVGNTR EQ",
-        "ZNC:X3",
+        "ZNC:X5",
         "HAVG:QVFG1 QVFG2",
-        "VASB:gebhoyr fvtanyf / pneybf ba fvgr\aunir n ybg bs jngre\acerzvfr 303-277-0040*");
+        "VASB:jo v70 gb p470\ahax vaw\azrybql jnf uvg sebz oruvaq\aotr yrkhf fhi if oyx puri znyvoh\azrybql 303 570 5310*");
 
     qbGrfg("G13",
-        "(Tbyqra Sver) Pnyy#: 130040088*                                                               \a" +
-        "Gvzr: 18:25:01*                                                                 \a" +
+        "(PNQ pnyy 142130015) Pnyy#: 142130015*                                                               \a" +
+        "Gvzr: 06:27:09*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 1411 HYLFFRF FG, TBYQRA*                                              \a" +
+        "Pebff fgerrgf: J 15GU NIR/ HGNU FG*                                             \a" +
+        "Znc cntr: ZNC T5  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ22*                                                       \a" +
+        "Aneengvir: hapba znyr va qvgpu oruvaq nqqerff nybat gur cngu ogja               \a" +
+        "xvat fbbcref*",
+
+        "VQ:142130015",
+        "GVZR:06:27:09",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:1411 HYLFFRF FG",
+        "PVGL:TBYQRA",
+        "K:J 15GU NIR/ HGNU FG",
+        "ZNC:T5",
+        "HAVG:QVFG1 QVFG2 ZRQ22",
+        "VASB:hapba znyr va qvgpu oruvaq nqqerff nybat gur cngu ogja\axvat fbbcref*");
+
+    qbGrfg("G14",
+        "(PNQ pnyy 142130015) Pnyy#: 142130015*                                                               \a" +
+        "Gvzr: 06:27:09*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 1411 HYLFFRF FG, TBYQRA*                                              \a" +
+        "Pebff fgerrgf: J 15GU NIR/ HGNU FG*                                             \a" +
+        "Znc cntr: ZNC T5  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ22*                                                       \a" +
+        "Aneengvir: hapba znyr va qvgpu oruvaq nqqerff nybat gur cngu ogja               \a" +
+        "xvat fbbcref*",
+
+        "VQ:142130015",
+        "GVZR:06:27:09",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:1411 HYLFFRF FG",
+        "PVGL:TBYQRA",
+        "K:J 15GU NIR/ HGNU FG",
+        "ZNC:T5",
+        "HAVG:QVFG1 QVFG2 ZRQ22",
+        "VASB:hapba znyr va qvgpu oruvaq nqqerff nybat gur cngu ogja\axvat fbbcref*");
+
+    qbGrfg("G15",
+        "(PNQ pnyy 142130002) Pnyy#: 142130002*                                                               \a" +
+        "Gvzr: 00:03:51*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 114 NENCNUBR FG NP, TBYQRA*                                           \a" +
+        "Pebff fgerrgf: 2AQ FG/ 2AQ FG*                                                  \a" +
+        "Znc cntr: ZNC P2  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ21*                                                       \a" +
+        "Aneengvir: 72 lb srznyr/hapbaf  oernguvat bx*",
+
+        "VQ:142130002",
+        "GVZR:00:03:51",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:114 NENCNUBR FG",
+        "NCG:NP",
+        "PVGL:TBYQRA",
+        "K:2AQ FG/ 2AQ FG",
+        "ZNC:P2",
+        "HAVG:QVFG1 QVFG2 ZRQ21",
+        "VASB:72 lb srznyr/hapbaf  oernguvat bx*");
+
+    qbGrfg("G16",
+        "(PNQ pnyy 142130002) Pnyy#: 142130002*                                                               \a" +
+        "Gvzr: 00:03:51*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 114 NENCNUBR FG NP, TBYQRA*                                           \a" +
+        "Pebff fgerrgf: 2AQ FG/ 2AQ FG*                                                  \a" +
+        "Znc cntr: ZNC P2  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ21*                                                       \a" +
+        "Aneengvir: 72 lb srznyr/hapbaf  oernguvat bx*",
+
+        "VQ:142130002",
+        "GVZR:00:03:51",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:114 NENCNUBR FG",
+        "NCG:NP",
+        "PVGL:TBYQRA",
+        "K:2AQ FG/ 2AQ FG",
+        "ZNC:P2",
+        "HAVG:QVFG1 QVFG2 ZRQ21",
+        "VASB:72 lb srznyr/hapbaf  oernguvat bx*");
+
+    qbGrfg("G17",
+        "(PNQ pnyy 142120140) Pnyy#: 142120140*                                                               \a" +
+        "Gvzr: 20:27:55*                                                                 \a" +
         "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
-        "Ybpngvba: 814 ENOOVG EHA QE, TBYQRA*                                            \a" +
+        "Ybpngvba: 815 ENOOVG EHA QE, TBYQRA*                                            \a" +
         "Pebff fgerrgf: RNTYR EVQTR QE/ RNTYR EVQTR QE*                                  \a" +
         "Znc cntr: ZNC U3  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: vaq/trareny                                                          \a" +
-        "cerzvfr 303-278-6682 / erf anz/unzzbagerr                                       \a" +
-        "nverq gb nyy havgf*                                                             \a\a\a\a\a\a" +
-        "  ",
+        "Havgf: QVFG1 QVFG2*",
 
-        "VQ:130040088",
-        "GVZR:18:25:01",
+        "VQ:142120140",
+        "GVZR:20:27:55",
         "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:814 ENOOVG EHA QE",
+        "NQQE:815 ENOOVG EHA QE",
         "PVGL:TBYQRA",
         "K:RNTYR EVQTR QE/ RNTYR EVQTR QE",
         "ZNC:U3",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:vaq/trareny\acerzvfr 303-278-6682 / erf anz/unzzbagerr\anverq gb nyy havgf*");
-
-    qbGrfg("G14",
-        "(Tbyqra Sver) Pnyy#: 130040073*                                                               \a" +
-        "Gvzr: 15:14:23*                                                                 \a" +
-        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
-        "Ybpngvba: 1470 10GU FG, TBYQRA*                                                 \a" +
-        "Pebff fgerrgf: ZNCYR FG/ ZNCYR FG*                                              \a" +
-        "Znc cntr: ZNC R2  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: vaq vf ra nynez                                                      \a" +
-        "xu jvyy or pbagnpgrq*                                                           \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130040073",
-        "GVZR:15:14:23",
-        "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:1470 10GU FG",
-        "PVGL:TBYQRA",
-        "K:ZNCYR FG/ ZNCYR FG",
-        "ZNC:R2",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:vaq vf ra nynez\axu jvyy or pbagnpgrq*");
-
-    qbGrfg("G15",
-        "(Tbyqra Sver) Pnyy#: 130040067*                                                               \a" +
-        "Gvzr: 14:42:32*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: PFZ Z, 21400 YNEVNG YBBC GEY, TBYQRA*                                 \a" +
-        "Pebff fgerrgf: ZG MVBA QE/ ZG MVBA QE*                                          \a" +
-        "Znc cntr: ZNC T2  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: cnentyvqre qbja orybj gur z ba rnfg                                  \a" +
-        "p/o 41 lb znyr                                                                  \a" +
-        "ybjre onpx vawhevrf*                                                            \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130040067",
-        "GVZR:14:42:32",
-        "PNYY:Nzohynapr naq Erfphr",
-        "CYNPR:PFZ Z",
-        "NQQE:21400 YNEVNG YBBC GEY",
-        "PVGL:TBYQRA",
-        "K:ZG MVBA QE/ ZG MVBA QE",
-        "ZNC:T2",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:cnentyvqre qbja orybj gur z ba rnfg\ap/o 41 lb znyr\aybjre onpx vawhevrf*");
-
-    qbGrfg("G16",
-        "(Tbyqra Sver) Pnyy#: 130040064*                                                               \a" +
-        "Gvzr: 14:24:33*                                                                 \a" +
-        "Glcr bs pnyy: Fzbxr/Bqbe Pbzcynvag/Pnyy (53)*                                   \a" +
-        "Ybpngvba: FGNAYRL FGRRZRE, 621 PBECBENGR PVE HW, TBYQRA*                        \a" +
-        "Pebff fgerrgf: PBASRERAPR CY/ PNCVGNY QE*                                       \a" +
-        "Znc cntr: ZNC W5  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: fzbxr vairfgvtngvba                                                  \a" +
-        "fgebat fzryy vafvqr oyqt                                                        \a" +
-        "ab synzrf frra*                                                                 \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130040064",
-        "GVZR:14:24:33",
-        "PNYY:Fzbxr/Bqbe Pbzcynvag/Pnyy (53)",
-        "CYNPR:FGNAYRL FGRRZRE",
-        "NQQE:621 PBECBENGR PVE",
-        "NCG:HW",
-        "PVGL:TBYQRA",
-        "K:PBASRERAPR CY/ PNCVGNY QE",
-        "ZNC:W5",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:fzbxr vairfgvtngvba\afgebat fzryy vafvqr oyqt\aab synzrf frra*");
-
-    qbGrfg("G17",
-        "(Tbyqra Sver) Pnyy#: 130040061*                                                               \a" +
-        "Gvzr: 14:17:25*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: 912 UBZRFGNXR QE, TBYQRA*                                             \a" +
-        "Pebff fgerrgf: VYYVABVF FG/ VYYVABVF FG*                                        \a" +
-        "Znc cntr: ZNC T3  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: qvssvphygl oernguvat p/o                                             \a" +
-        "67 lb znyr                                                                      \a" +
-        "nverq*                                                                          \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130040061",
-        "GVZR:14:17:25",
-        "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:912 UBZRFGNXR QE",
-        "PVGL:TBYQRA",
-        "K:VYYVABVF FG/ VYYVABVF FG",
-        "ZNC:T3",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:qvssvphygl oernguvat p/o\a67 lb znyr\anverq*");
+        "HAVG:QVFG1 QVFG2*");
 
     qbGrfg("G18",
-        "(Tbyqra Sver) Pnyy#: 130040033*                                                               \a" +
-        "Gvzr: 08:11:47*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: 16950 J PBYSNK NIR H104, TBYQRA*                                      \a" +
-        "Pebff fgerrgf: J PBYSNK NIR/ VAGRE CYNMN JRFG*                                  \a" +
-        "Znc cntr: ZNC W5  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: srznyr cnegl cnffrq bhg abj p/o*                                     \a\a\a\a\a\a" +
-        "  ",
+        "(PNQ pnyy 142120138) Pnyy#: 142120138*                                                               \a" +
+        "Gvzr: 20:19:56*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
+        "Ybpngvba: 1291 A SBEQ FG, TBYQRA*                                               \a" +
+        "Pebff fgerrgf: IVETVAVN FG/ CVAR EVQTR EQ*                                      \a" +
+        "Znc cntr: ZNC N2  *                                                             \a" +
+        "Havgf: ZRQ21*                                                                   \a" +
+        "Aneengvir: fgntr va gur nern                                                    \a" +
+        "cbffvoyr srznyr fubpxrq*",
 
-        "VQ:130040033",
-        "GVZR:08:11:47",
-        "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:16950 J PBYSNK NIR",
-        "NCG:H104",
+        "VQ:142120138",
+        "GVZR:20:19:56",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
+        "NQQE:1291 A SBEQ FG",
         "PVGL:TBYQRA",
-        "K:J PBYSNK NIR/ VAGRE CYNMN JRFG",
-        "ZNC:W5",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:srznyr cnegl cnffrq bhg abj p/o*");
+        "K:IVETVAVN FG/ CVAR EVQTR EQ",
+        "ZNC:N2",
+        "HAVG:ZRQ21",
+        "VASB:fgntr va gur nern\acbffvoyr srznyr fubpxrq*");
 
     qbGrfg("G19",
-        "(Tbyqra Sver) Pnyy#: 130030071*                                                               \a" +
-        "Gvzr: 15:35:12*                                                                 \a" +
-        "Glcr bs pnyy: Rkgevpngvba/Erfphr/Pyvzore (35)*                                  \a" +
-        "Ybpngvba: 400 VAQVNAN FG, TBYQRA*                                               \a" +
+        "(PNQ pnyy 142120042) Pnyy#: 142120042*                                                               \a" +
+        "Gvzr: 11:06:46*                                                                 \a" +
+        "Glcr bs pnyy: Fzbxr/Bqbe Pbzcynvag/Pnyy (53)*                                   \a" +
+        "Ybpngvba: MRGN FG/J 4GU NIR, TBYQRA*                                            \a" +
+        "Znc cntr: ZNC W4  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: fzbxr va gur nern                                                    \a" +
+        "ab synzrf                                                                       \a" +
+        "tenl fzbxr                                                                      \a" +
+        "ab ybatre frr vg*",
+
+        "VQ:142120042",
+        "GVZR:11:06:46",
+        "PNYY:Fzbxr/Bqbe Pbzcynvag/Pnyy (53)",
+        "NQQE:MRGN FG & J 4GU NIR",
+        "PVGL:TBYQRA",
+        "ZNC:W4",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:fzbxr va gur nern\aab synzrf\atenl fzbxr\aab ybatre frr vg*");
+
+    qbGrfg("G20",
+        "(PNQ pnyy 142120036) Pnyy#: 142120036*                                                               \a" +
+        "Gvzr: 10:22:43*                                                                 \a" +
+        "Glcr bs pnyy: Zhghny Nvq*                                                       \a" +
+        "Ybpngvba: 18901 J 32AQ NIR*                                                     \a" +
+        "Pebff fgerrgf:/*                                                                \a" +
+        "Havgf: FGN24 FGN21 PUS21 RAT21 GJE21 ZRQ21*                                     \a" +
+        "Aneengvir: ercbegrq fs snvezbhag erfcbaqvat                                     \a" +
+        "tb gb sezga gnp2 be jz gnp3                                                     \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142120036",
+        "GVZR:10:22:43",
+        "PNYY:Zhghny Nvq",
+        "NQQE:18901 J 32AQ NIR",
+        "HAVG:FGN24 FGN21 PUS21 RAT21 GJE21 ZRQ21",
+        "VASB:ercbegrq fs snvezbhag erfcbaqvat\atb gb sezga gnp2 be jz gnp3\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G21",
+        "(PNQ pnyy 142120036) Pnyy#: 142120036*                                                               \a" +
+        "Gvzr: 10:22:43*                                                                 \a" +
+        "Glcr bs pnyy: Zhghny Nvq*                                                       \a" +
+        "Ybpngvba: 18901 J 32AQ NIR*                                                     \a" +
+        "Pebff fgerrgf:/*                                                                \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: ercbegrq fs snvezbhag erfcbaqvat                                     \a" +
+        "tb gb sezga gnp2 be jz gnp3*",
+
+        "VQ:142120036",
+        "GVZR:10:22:43",
+        "PNYY:Zhghny Nvq",
+        "NQQE:18901 J 32AQ NIR",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:ercbegrq fs snvezbhag erfcbaqvat\atb gb sezga gnp2 be jz gnp3*");
+
+    qbGrfg("G22",
+        "(PNQ pnyy 142120025) Pnyy#: 142120025*                                                               \a" +
+        "Gvzr: 09:25:02*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 400 VAQVNAN FG H106, TBYQRA*                                          \a" +
+        "Pebff fgerrgf: J 4GU NIR/J 4GU NIR*                                             \a" +
+        "Znc cntr: ZNC W6  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ22*                                                       \a" +
+        "Aneengvir: va bcrengvat ebbz                                                    \a" +
+        "abg oernguvat qbvat pce                                                         \a" +
+        "abguvat xabja nobhg cngvrag                                                     \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142120025",
+        "GVZR:09:25:02",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:400 VAQVNAN FG",
+        "NCG:H106",
+        "PVGL:TBYQRA",
+        "K:J 4GU NIR/J 4GU NIR",
+        "ZNC:W6",
+        "HAVG:QVFG1 QVFG2 ZRQ22",
+        "VASB:va bcrengvat ebbz\aabg oernguvat qbvat pce\aabguvat xabja nobhg cngvrag\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G23",
+        "(PNQ pnyy 142120025) Pnyy#: 142120025*                                                               \a" +
+        "Gvzr: 09:25:02*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 400 VAQVNAN FG H106, TBYQRA*                                          \a" +
         "Pebff fgerrgf: J 4GU NIR/J 4GU NIR*                                             \a" +
         "Znc cntr: ZNC W6  *                                                             \a" +
         "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: obgu cngvragf ba gur frpbaq naq arrq gb or pneevrq                   \a" +
-        "qbja gb gur svefg sybbe                                                         \a" +
-        "ryringbe ner oebxra                                                             \a" +
-        "vf abg yvsr guerngravat*                                                        \a\a\a\a\a\a" +
-        "  ",
+        "Aneengvir: va bcrengvat ebbz                                                    \a" +
+        "abg oernguvat qbvat pce                                                         \a" +
+        "abguvat xabja nobhg cngvrag*",
 
-        "VQ:130030071",
-        "GVZR:15:35:12",
-        "PNYY:Rkgevpngvba/Erfphr/Pyvzore (35)",
+        "VQ:142120025",
+        "GVZR:09:25:02",
+        "PNYY:Nzohynapr naq Erfphr",
         "NQQE:400 VAQVNAN FG",
+        "NCG:H106",
         "PVGL:TBYQRA",
         "K:J 4GU NIR/J 4GU NIR",
         "ZNC:W6",
         "HAVG:QVFG1 QVFG2",
-        "VASB:obgu cngvragf ba gur frpbaq naq arrq gb or pneevrq\aqbja gb gur svefg sybbe\aryringbe ner oebxra\avf abg yvsr guerngravat*");
+        "VASB:va bcrengvat ebbz\aabg oernguvat qbvat pce\aabguvat xabja nobhg cngvrag*");
 
-    qbGrfg("G20",
-        "(Tbyqra Sver) Pnyy#: 130030059*                                                               \a" +
-        "Gvzr: 14:12:59*                                                                 \a" +
-        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
-        "Ybpngvba: 722 JNFUVATGBA NIR, TBYQRA*                                           \a" +
-        "Pebff fgerrgf: 7GU FG/ 8GU FG*                                                  \a" +
-        "Znc cntr: ZNC Q2  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: nhq/ svefg sybbe bssvpr  trareny*                                    \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130030059",
-        "GVZR:14:12:59",
-        "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:722 JNFUVATGBA NIR",
-        "PVGL:TBYQRA",
-        "K:7GU FG/ 8GU FG",
-        "ZNC:Q2",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:nhq/ svefg sybbe bssvpr  trareny*");
-
-    qbGrfg("G21",
-        "(Tbyqra Sver) Pnyy#: 130030052*                                                               \a" +
-        "Gvzr: 13:15:20*                                                                 \a" +
-        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
-        "Ybpngvba: 700 WRSSREFBA PBHAGL CXL, TBYQRA*                                     \a" +
-        "Pebff fgerrgf: VYYVABVF FG/J 10GU NIR*                                          \a" +
-        "Znc cntr: ZNC U4  *                                                             \a" +
-        "Havgf: FGN21 QVFG1 QVFG2*                                                       \a" +
-        "Aneengvir: nhq sver nynez trareny naq jngre sybj 720.201.6257*                  \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130030052",
-        "GVZR:13:15:20",
-        "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:700 WRSSREFBA PBHAGL CXL",
-        "ZNQQE:700 WRSSREFBA PBHAGL CXJL",
-        "PVGL:TBYQRA",
-        "K:VYYVABVF FG/J 10GU NIR",
-        "ZNC:U4",
-        "HAVG:FGN21 QVFG1 QVFG2",
-        "VASB:nhq sver nynez trareny naq jngre sybj 720.201.6257*");
-
-    qbGrfg("G22",
-        "(Tbyqra Sver) Pnyy#: 130030037*                                                               \a" +
-        "Gvzr: 10:28:27*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: 1270 A SBEQ FG, TBYQRA*                                               \a" +
-        "Pebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \a" +
-        "Znc cntr: ZNC N2  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: ebbz 260                                                             \a" +
-        "srznyr haerfcbafvir p/o                                                         \a" +
-        "hax ntr*                                                                        \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130030037",
-        "GVZR:10:28:27",
-        "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:1270 A SBEQ FG",
-        "PVGL:TBYQRA",
-        "K:CVAR EVQTR EQ/ IVETVAVN FG",
-        "ZNC:N2",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:ebbz 260\asrznyr haerfcbafvir p/o\ahax ntr*");
-
-    qbGrfg("G23",
-        "(Tbyqra Sver) Pnyy#: 130010056*                                                               \a" +
-        "Gvzr: 19:11:45*                                                                 \a" +
+    qbGrfg("G24",
+        "(PNQ pnyy 142120011) Pnyy#: 142120011*                                                               \a" +
+        "Gvzr: 03:36:00*                                                                 \a" +
         "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
-        "Ybpngvba: 1903 ZG MVBA QE, TBYQRA*                                              \a" +
+        "Ybpngvba: 434 EVQTR EQ, TBYQRA*                                                 \a" +
+        "Pebff fgerrgf: ABEZNAF FG/ ABEZNAF FG*                                          \a" +
+        "Znc cntr: ZNC O2  *                                                             \a" +
+        "Havgf: ZRQ22*                                                                   \a" +
+        "Aneengvir: sryy bhg bs orq/66  pbaf/oyrrqvat*",
+
+        "VQ:142120011",
+        "GVZR:03:36:00",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
+        "NQQE:434 EVQTR EQ",
+        "PVGL:TBYQRA",
+        "K:ABEZNAF FG/ ABEZNAF FG",
+        "ZNC:O2",
+        "HAVG:ZRQ22",
+        "VASB:sryy bhg bs orq/66  pbaf/oyrrqvat*");
+
+    qbGrfg("G25",
+        "(PNQ pnyy 142120010) Pnyy#: 142120010*                                                               \a" +
+        "Gvzr: 03:28:01*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \a" +
+        "Ybpngvba: NENCNUBR FG/ 13GU FG, TBYQRA*                                         \a" +
+        "Znc cntr: ZNC R3  *                                                             \a" +
+        "Havgf: ZRQ21*",
+
+        "VQ:142120010",
+        "GVZR:03:28:01",
+        "PNYY:Nzohynapr pnyy bayl (32)",
+        "NQQE:NENCNUBR FG & 13GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:R3",
+        "HAVG:ZRQ21*");
+
+    qbGrfg("G26",
+        "(PNQ pnyy 142120005) Pnyy#: 142120005*                                                               \a" +
+        "Gvzr: 01:29:00*                                                                 \a" +
+        "Glcr bs pnyy: Bgure Sver (16)*                                                  \a" +
+        "Ybpngvba: 17800 J PBYSNK NIR Y9, TBYQRA*                                        \a" +
+        "Pebff fgerrgf: EBBARL EQ/ MRGN FG*                                              \a" +
+        "Znc cntr: ZNC W4  *                                                             \a" +
+        "Havgf: QVFG2 QVFG1*                                                             \a" +
+        "Aneengvir: cebcnvar gnax uvffvat*",
+
+        "VQ:142120005",
+        "GVZR:01:29:00",
+        "PNYY:Bgure Sver (16)",
+        "NQQE:17800 J PBYSNK NIR",
+        "NCG:Y9",
+        "PVGL:TBYQRA",
+        "K:EBBARL EQ/ MRGN FG",
+        "ZNC:W4",
+        "HAVG:QVFG2 QVFG1",
+        "VASB:cebcnvar gnax uvffvat*");
+
+    qbGrfg("G27",
+        "(PNQ pnyy 142110075) Pnyy#: 142110075*                                                               \a" +
+        "Gvzr: 20:06:48*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 1904 ZG MVBA QE, TBYQRA*                                              \a" +
         "Pebff fgerrgf: SBBGUVYYF EQ/ TBYQRAIHR QE*                                      \a" +
         "Znc cntr: ZNC S2  *                                                             \a" +
-        "Havgf: FGN21 NZE131*                                                            \a" +
-        "Aneengvir: unf fgbznpu syh / batbvat vffhrf jvgu qvnuren                        \a" +
-        "ec gurer jvgu jvsr / unf qrzragvn                                               \a" +
-        "75 lbz                                                                          \a" +
-        "ab nze pnyy fvta ninvy / hfrq fgn21 nf pnyy fvta sbe guvf                       \a" +
-        "vapvqrag*                                                                       \a\a\a\a\a\a" +
-        "  ",
+        "Havgf: ZRQ21*                                                                   \a" +
+        "Aneengvir: NYF CNGVRAG/45 LB SRZ/ VF ABG P VF O/                                \a" +
+        "abg abezny oernguvat-                                                           \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
 
-        "VQ:130010056",
-        "GVZR:19:11:45",
-        "PNYY:Nzohynapr/RZF Pnyy (32)",
-        "NQQE:1903 ZG MVBA QE",
+        "VQ:142110075",
+        "GVZR:20:06:48",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:1904 ZG MVBA QE",
         "PVGL:TBYQRA",
         "K:SBBGUVYYF EQ/ TBYQRAIHR QE",
         "ZNC:S2",
-        "HAVG:FGN21 NZE131",
-        "VASB:unf fgbznpu syh / batbvat vffhrf jvgu qvnuren\aec gurer jvgu jvsr / unf qrzragvn\a75 lbz\aab nze pnyy fvta ninvy / hfrq fgn21 nf pnyy fvta sbe guvf\avapvqrag*");
-
-    qbGrfg("G24",
-        "(Tbyqra Sver) Pnyy#: 130010054*                                                               \a" +
-        "Gvzr: 19:00:50*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
-        "Ybpngvba: 1613 TBYQRA UVYYF EQ, TBYQRA*                                         \a" +
-        "Pebff fgerrgf: TBYQRA UVYYF CY/ TBYQRA UVYYF CY*                                \a" +
-        "Znc cntr: ZNC T5  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130010054",
-        "GVZR:19:00:50",
-        "PNYY:Nzohynapr/RZF Pnyy (32)",
-        "NQQE:1613 TBYQRA UVYYF EQ",
-        "PVGL:TBYQRA",
-        "K:TBYQRA UVYYF CY/ TBYQRA UVYYF CY",
-        "ZNC:T5",
-        "HAVG:QVFG1 QVFG2*");
-
-    qbGrfg("G25",
-        "(Tbyqra Sver) Pnyy#: 130010052*                                                               \a" +
-        "Gvzr: 18:33:31*                                                                 \a" +
-        "Glcr bs pnyy: Zhghny Nvq*                                                       \a" +
-        "Ybpngvba: 15100 J 13GU NIR*                                                     \a" +
-        "Pebff fgerrgf:/*                                                                \a" +
-        "Havgf: ONG22 ONG21 QVFG1 QVFG2*                                                 \a" +
-        "Aneengvir: bar rat naq bar erf                                                  \a" +
-        "tnentr j/gjb iru vafvqr                                                         \a" +
-        "wblpr / whavcre arnerfg pebff                                                   \a" +
-        "pbzznaq cbfg ng fnzr ybp*                                                       \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130010052",
-        "GVZR:18:33:31",
-        "PNYY:Zhghny Nvq",
-        "NQQE:15100 J 13GU NIR",
-        "HAVG:ONG22 ONG21 QVFG1 QVFG2",
-        "VASB:bar rat naq bar erf\atnentr j/gjb iru vafvqr\awblpr / whavcre arnerfg pebff\apbzznaq cbfg ng fnzr ybp*");
-
-    qbGrfg("G26",
-        "(Tbyqra Sver) Pnyy#: 130010042*                                                               \a" +
-        "Gvzr: 16:01:15*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: 900 TBYQRA CNEX QE NQ, TBYQRA*                                        \a" +
-        "Pebff fgerrgf: TBYQRA CNEX CY/ TBYQRA CNEX CY*                                  \a" +
-        "Znc cntr: ZNC P2  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: zna cnffrq bhg va onpxlneq va fubegf                                 \a" +
-        "abg erfcbaqvat                                                                  \a" +
-        "20 lbz                                                                          \a" +
-        "ynlvat ba unaqf*                                                                \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130010042",
-        "GVZR:16:01:15",
-        "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:900 TBYQRA CNEX QE",
-        "NCG:NQ",
-        "PVGL:TBYQRA",
-        "K:TBYQRA CNEX CY/ TBYQRA CNEX CY",
-        "ZNC:P2",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:zna cnffrq bhg va onpxlneq va fubegf\aabg erfcbaqvat\a20 lbz\aynlvat ba unaqf*");
-
-    qbGrfg("G27",
-        "(Tbyqra Sver) Pnyy#: 130010021*                                                               \a" +
-        "Gvzr: 09:26:40*                                                                 \a" +
-        "Glcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \a" +
-        "Ybpngvba: UJL 6/ 19GU FG, TBYQRA*                                               \a" +
-        "Znc cntr: ZNC S3  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: pnyyre fgngrq wrsspb ba fprar                                        \a" +
-        "fyvqr bss                                                                       \a" +
-        "wrsspb pxat vawhevrf                                                            \a" +
-        "bayl 1 bpphcnag                                                                 \a" +
-        "fhoneh ybfg pbageby jrag vagb qvgpu                                             \a" +
-        "ba jrfg fvqr abj                                                                \a" +
-        "hax vaw                                                                         \a" +
-        "w f b vagrefrpgvba*                                                             \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:130010021",
-        "GVZR:09:26:40",
-        "PNYY:Haxabja Vawhel Genssvp Nppvqrag",
-        "NQQE:UJL 6 & 19GU FG",
-        "PVGL:TBYQRA",
-        "ZNC:S3",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:pnyyre fgngrq wrsspb ba fprar\afyvqr bss\awrsspb pxat vawhevrf\abayl 1 bpphcnag\afhoneh ybfg pbageby jrag vagb qvgpu\aba jrfg fvqr abj\ahax vaw\aw f b vagrefrpgvba*");
+        "HAVG:ZRQ21",
+        "VASB:NYF CNGVRAG/45 LB SRZ/ VF ABG P VF O/\aabg abezny oernguvat-\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
 
     qbGrfg("G28",
-        "(Tbyqra Sver) Pnyy#: 123660042*                                                               \a" +
-        "Gvzr: 17:40:27*                                                                 \a" +
-        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
-        "Ybpngvba: 312 JUVGR NFU QE, TBYQRA*                                             \a" +
-        "Pebff fgerrgf: JVYQ EBFR PG/ JNFUVATGBA FG*                                     \a" +
-        "Znc cntr: ZNC P1  *                                                             \a" +
+        "(PNQ pnyy 142110075) Pnyy#: 142110075*                                                               \a" +
+        "Gvzr: 20:06:48*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 1904 ZG MVBA QE, TBYQRA*                                              \a" +
+        "Pebff fgerrgf: SBBGUVYYF EQ/ TBYQRAIHR QE*                                      \a" +
+        "Znc cntr: ZNC S2  *                                                             \a" +
         "Havgf: QVFG1*                                                                   \a" +
-        "Aneengvir: arvtuobe urnef vg / cbff fzbxr nynez                                 \a" +
-        "ab vaq bs sver                                                                  \a" +
-        "grkgrq ubzr bjare / ab erfcbafr                                                 \a" +
-        "zryvffn oneonen / yvtugf ba / qvq abg xabpx ba qbbe                             \a" +
-        "tbg ubzr bjare gb pbzr gb qbbe                                                  \a" +
-        "jvyy pnyy vs arrqrq                                                             \a" +
-        "bjare pnyyrq / pnaabg erfrg*                                                    \a\a\a\a\a\a" +
-        "  ",
+        "Aneengvir: NYF CNGVRAG/45 LB SRZ/ VF ABG P VF O/                                \a" +
+        "abg abezny oernguvat-*",
 
-        "VQ:123660042",
-        "GVZR:17:40:27",
-        "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:312 JUVGR NFU QE",
+        "VQ:142110075",
+        "GVZR:20:06:48",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:1904 ZG MVBA QE",
         "PVGL:TBYQRA",
-        "K:JVYQ EBFR PG/ JNFUVATGBA FG",
-        "ZNC:P1",
+        "K:SBBGUVYYF EQ/ TBYQRAIHR QE",
+        "ZNC:S2",
         "HAVG:QVFG1",
-        "VASB:arvtuobe urnef vg / cbff fzbxr nynez\aab vaq bs sver\agrkgrq ubzr bjare / ab erfcbafr\azryvffn oneonen / yvtugf ba / qvq abg xabpx ba qbbe\atbg ubzr bjare gb pbzr gb qbbe\ajvyy pnyy vs arrqrq\abjare pnyyrq / pnaabg erfrg*");
+        "VASB:NYF CNGVRAG/45 LB SRZ/ VF ABG P VF O/\aabg abezny oernguvat-*");
 
     qbGrfg("G29",
-        "(Tbyqra Sver) Pnyy#: 123660016*                                                               \a" +
-        "Gvzr: 09:00:45*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \a" +
-        "Ybpngvba: TBYQRA CBYVPR QRCNEGZRAG, 911 10GU FG TCQ, TBYQRA*                    \a" +
-        "Pebff fgerrgf: NENCNUBR FG/ PURLRAAR FG*                                        \a" +
-        "Znc cntr: ZNC Q2  *                                                             \a" +
-        "Havgf: NZE131*                                                                  \a" +
-        "Aneengvir: be oybbq qenj*                                                       \a\a\a\a\a\a" +
-        "  ",
+        "(PNQ pnyy 142110023) Pnyy#: 142110023*                                                               \a" +
+        "Gvzr: 09:24:28*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 490 Q FG, TBYQRA*                                                     \a" +
+        "Pebff fgerrgf: MRGN FG/ MHEVPU FG*                                              \a" +
+        "Znc cntr: ZNC W4  *                                                             \a" +
+        "Havgf: ZRQ22*                                                                   \a" +
+        "Aneengvir: purfg cnva                                                           \a" +
+        "67 lbs p/o                                                                      \a" +
+        "hax ubzr nybar                                                                  \a" +
+        "cerzvfr 303-279-1748                                                            \a" +
+        "qbaan gbzxhf                                                                    \a" +
+        "fvqr qbbe arkg gb cnexvat nern haybpxrq                                         \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
 
-        "VQ:123660016",
-        "GVZR:09:00:45",
-        "PNYY:Nzohynapr pnyy bayl (32)",
-        "CYNPR:TBYQRA CBYVPR QRCNEGZRAG",
-        "NQQE:911 10GU FG",
-        "NCG:TCQ",
+        "VQ:142110023",
+        "GVZR:09:24:28",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:490 Q FG",
         "PVGL:TBYQRA",
-        "K:NENCNUBR FG/ PURLRAAR FG",
-        "ZNC:Q2",
-        "HAVG:NZE131",
-        "VASB:be oybbq qenj*");
+        "K:MRGN FG/ MHEVPU FG",
+        "ZNC:W4",
+        "HAVG:ZRQ22",
+        "VASB:purfg cnva\a67 lbs p/o\ahax ubzr nybar\acerzvfr 303-279-1748\aqbaan gbzxhf\afvqr qbbe arkg gb cnexvat nern haybpxrq\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
 
     qbGrfg("G30",
-        "(Tbyqra Sver) Pnyy#: 123660009*                                                               \a" +
-        "Gvzr: 05:46:20*                                                                 \a" +
-        "Glcr bs pnyy: Rkgevpngvba/Erfphr/Pyvzore (35)*                                  \a" +
-        "Ybpngvba: P470 UJL/ V70 UJL, TBYQRA*                                            \a" +
-        "Znc cntr: ZNC X5  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2 NZE132*                                                      \a" +
-        "Aneengvir: 31                                                                   \a" +
-        "Pnyy rznvyrq gb:                                                                \a" +
-        "2023@vnenyregf.pbz                                                              \a" +
-        "2023o@vnenyregf.pbz*                                                            \a\a\a\a\a\a" +
-        "  ",
+        "(PNQ pnyy 142110023) Pnyy#: 142110023*                                                               \a" +
+        "Gvzr: 09:24:28*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 490 Q FG, TBYQRA*                                                     \a" +
+        "Pebff fgerrgf: MRGN FG/ MHEVPU FG*                                              \a" +
+        "Znc cntr: ZNC W4  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: purfg cnva                                                           \a" +
+        "67 lbs p/o                                                                      \a" +
+        "hax ubzr nybar                                                                  \a" +
+        "cerzvfr 303-279-1748                                                            \a" +
+        "qbaan gbzxhf                                                                    \a" +
+        "fvqr qbbe arkg gb cnexvat nern haybpxrq*",
 
-        "VQ:123660009",
-        "GVZR:05:46:20",
-        "PNYY:Rkgevpngvba/Erfphr/Pyvzore (35)",
-        "NQQE:P470 UJL & V70 UJL",
-        "ZNQQE:P470 UJL & V 70",
+        "VQ:142110023",
+        "GVZR:09:24:28",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:490 Q FG",
         "PVGL:TBYQRA",
-        "ZNC:X5",
-        "HAVG:QVFG1 QVFG2 NZE132",
-        "VASB:31\aPnyy rznvyrq gb:\a2023@vnenyregf.pbz\a2023o@vnenyregf.pbz*");
+        "K:MRGN FG/ MHEVPU FG",
+        "ZNC:W4",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:purfg cnva\a67 lbs p/o\ahax ubzr nybar\acerzvfr 303-279-1748\aqbaan gbzxhf\afvqr qbbe arkg gb cnexvat nern haybpxrq*");
 
     qbGrfg("G31",
-        "(Tbyqra Sver) Pnyy#: 123660009*                                                               \a" +
-        "Gvzr: 05:46:20*                                                                 \a" +
-        "Glcr bs pnyy: Rkgevpngvba/Erfphr/Pyvzore (35)*                                  \a" +
-        "Ybpngvba: P470 UJL/ V70 UJL, TBYQRA*                                            \a" +
-        "Znc cntr: ZNC X5  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: 31*                                                                  \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123660009",
-        "GVZR:05:46:20",
-        "PNYY:Rkgevpngvba/Erfphr/Pyvzore (35)",
-        "NQQE:P470 UJL & V70 UJL",
-        "ZNQQE:P470 UJL & V 70",
-        "PVGL:TBYQRA",
-        "ZNC:X5",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:31*");
-
-    qbGrfg("G32",
-        "(Tbyqra Sver) Pnyy#: 123650052*                                                               \a" +
-        "Gvzr: 22:20:29*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
-        "Ybpngvba: 18206 J 3EQ NIR N4, TBYQRA*                                           \a" +
-        "Pebff fgerrgf: MRGN FG/ MRGN FG*                                                \a" +
-        "Znc cntr: ZNC W4  *                                                             \a" +
-        "Havgf: NZE132*                                                                  \a" +
-        "Aneengvir: znyr jvgu onpx cnva, vf ba qvnylfvf,  41*                            \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123650052",
-        "GVZR:22:20:29",
-        "PNYY:Nzohynapr/RZF Pnyy (32)",
-        "NQQE:18206 J 3EQ NIR",
-        "NCG:N4",
-        "PVGL:TBYQRA",
-        "K:MRGN FG/ MRGN FG",
-        "ZNC:W4",
-        "HAVG:NZE132",
-        "VASB:znyr jvgu onpx cnva, vf ba qvnylfvf,  41*");
-
-    qbGrfg("G33",
-        "(Tbyqra Sver) Pnyy#: 123650044*                                                               \a" +
-        "Gvzr: 19:19:05*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \a" +
-        "Ybpngvba: JNFUVATGBA NIR/ 10GU FG, TBYQRA*                                      \a" +
-        "Znc cntr: ZNC Q3  *                                                             \a" +
-        "Havgf: NZE131*                                                                  \a" +
-        "Aneengvir: qx znyr; pbzcynva yrt cnva*                                          \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123650044",
-        "GVZR:19:19:05",
-        "PNYY:Nzohynapr pnyy bayl (32)",
-        "NQQE:JNFUVATGBA NIR & 10GU FG",
-        "PVGL:TBYQRA",
-        "ZNC:Q3",
-        "HAVG:NZE131",
-        "VASB:qx znyr; pbzcynva yrt cnva*");
-
-    qbGrfg("G34",
-        "(Tbyqra Sver) Pnyy#: 123650026*                                                               \a" +
-        "Gvzr: 10:49:09*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
-        "Ybpngvba: 1030 WBUAFBA EQ H200, TBYQRA*                                         \a" +
-        "Pebff fgerrgf: J 10GU NIR/J 14GU NIR*                                           \a" +
-        "Znc cntr: ZNC U4  *                                                             \a" +
-        "Havgf: NZE132 NZE131*                                                           \a" +
-        "Aneengvir: cngvrag vf ulcbkvp                                                   \a" +
-        "83lb z / vf p / vf o                                                            \a" +
-        "ba n eroerngure 8 y chykbk bs 70                                                \a" +
-        "Pnyy rznvyrq gb:                                                                \a" +
-        "2023q@vnenyregf.pbz*                                                            \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123650026",
-        "GVZR:10:49:09",
-        "PNYY:Nzohynapr/RZF Pnyy (32)",
-        "NQQE:1030 WBUAFBA EQ",
-        "NCG:H200",
-        "PVGL:TBYQRA",
-        "K:J 10GU NIR/J 14GU NIR",
-        "ZNC:U4",
-        "HAVG:NZE132 NZE131",
-        "VASB:cngvrag vf ulcbkvp\a83lb z / vf p / vf o\aba n eroerngure 8 y chykbk bs 70\aPnyy rznvyrq gb:\a2023q@vnenyregf.pbz*");
-
-    qbGrfg("G35",
-        "(Tbyqra Sver) Pnyy#: 123650026*                                                               \a" +
-        "Gvzr: 10:49:09*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
-        "Ybpngvba: 1030 WBUAFBA EQ H200, TBYQRA*                                         \a" +
-        "Pebff fgerrgf: J 10GU NIR/J 14GU NIR*                                           \a" +
-        "Znc cntr: ZNC U4  *                                                             \a" +
-        "Havgf: NZE132*                                                                  \a" +
-        "Aneengvir: cngvrag vf ulcbkvp                                                   \a" +
-        "83lb z / vf p / vf o                                                            \a" +
-        "ba n eroerngure 8 y chykbk bs 70*                                               \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123650026",
-        "GVZR:10:49:09",
-        "PNYY:Nzohynapr/RZF Pnyy (32)",
-        "NQQE:1030 WBUAFBA EQ",
-        "NCG:H200",
-        "PVGL:TBYQRA",
-        "K:J 10GU NIR/J 14GU NIR",
-        "ZNC:U4",
-        "HAVG:NZE132",
-        "VASB:cngvrag vf ulcbkvp\a83lb z / vf p / vf o\aba n eroerngure 8 y chykbk bs 70*");
-
-    qbGrfg("G36",
-        "(Tbyqra Sver) Pnyy#: 123640063*                                                               \a" +
-        "Gvzr: 21:55:37*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: 1350 A SBEQ FG, TBYQRA*                                               \a" +
-        "Pebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \a" +
-        "Znc cntr: ZNC N2  *                                                             \a" +
-        "Havgf: QVFG1 FG1 QVFG2 NZE NZE131*                                              \a" +
-        "Aneengvir: hapbapvbhf abg erfcbaqvat ohg oernguvat                              \a" +
-        "ebbz 208                                                                        \a" +
-        "95 lb                                                                           \a" +
-        "Pnyy rznvyrq gb:                                                                \a" +
-        "2023@vnenyregf.pbz                                                              \a" +
-        "2023o@vnenyregf.pbz*                                                            \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123640063",
-        "GVZR:21:55:37",
-        "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:1350 A SBEQ FG",
-        "PVGL:TBYQRA",
-        "K:CVAR EVQTR EQ/ IVETVAVN FG",
-        "ZNC:N2",
-        "HAVG:QVFG1 FG1 QVFG2 NZE NZE131",
-        "VASB:hapbapvbhf abg erfcbaqvat ohg oernguvat\aebbz 208\a95 lb\aPnyy rznvyrq gb:\a2023@vnenyregf.pbz\a2023o@vnenyregf.pbz*");
-
-    qbGrfg("G37",
-        "(Tbyqra Sver) Pnyy#: 123640012*                                                               \a" +
-        "Gvzr: 08:40:42*                                                                 \a" +
-        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
-        "Ybpngvba: 700 WRSSREFBA PBHAGL CXL, TBYQRA*                                     \a" +
-        "Pebff fgerrgf: VYYVABVF FG/J 10GU NIR*                                          \a" +
-        "Znc cntr: ZNC U4  *                                                             \a" +
-        "Aneengvir: vaq/trareny                                                          \a" +
-        "cerzvfr 720-201-6257                                                            \a" +
-        "fubjf jngre sybj*                                                               \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123640012",
-        "GVZR:08:40:42",
-        "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:700 WRSSREFBA PBHAGL CXL",
-        "ZNQQE:700 WRSSREFBA PBHAGL CXJL",
-        "PVGL:TBYQRA",
-        "K:VYYVABVF FG/J 10GU NIR",
-        "ZNC:U4",
-        "VASB:vaq/trareny\acerzvfr 720-201-6257\afubjf jngre sybj*");
-
-    qbGrfg("G38",
-        "(Tbyqra Sver) Pnyy#: 123640001*                                                               \a" +
-        "Gvzr: 00:04:32*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \a" +
-        "Ybpngvba: TBYQRA CBYVPR QRCNEGZRAG, 911 10GU FG TCQ, TBYQRA*                    \a" +
-        "Pebff fgerrgf: NENCNUBR FG/ PURLRAAR FG*                                        \a" +
-        "Znc cntr: ZNC Q2  *                                                             \a" +
-        "Havgf: NZE131*                                                                  \a" +
-        "Aneengvir: oybbq grfg*                                                          \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123640001",
-        "GVZR:00:04:32",
-        "PNYY:Nzohynapr pnyy bayl (32)",
-        "CYNPR:TBYQRA CBYVPR QRCNEGZRAG",
-        "NQQE:911 10GU FG",
-        "NCG:TCQ",
-        "PVGL:TBYQRA",
-        "K:NENCNUBR FG/ PURLRAAR FG",
-        "ZNC:Q2",
-        "HAVG:NZE131",
-        "VASB:oybbq grfg*");
-
-    qbGrfg("G39",
-        "(Tbyqra Sver) Pnyy#: 123630050*                                                               \a" +
-        "Gvzr: 13:42:14*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
-        "Ybpngvba: WRSSREFBA PBHAGL PBHEG UBHFR, 100 WRSSREFBA PBHAGL CXL, TBYQRA*       \a" +
-        "Pebff fgerrgf: PBHEGUBHFR QE/ PBHEGUBHFR QE*                                    \a" +
-        "Znc cntr: ZNC V4  *                                                             \a" +
-        "Havgf: NZE132*                                                                  \a" +
-        "Aneengvir: srznyr fcvqre ovgr bcra naq oyrrqvat                                 \a" +
-        "pba naq oerngu                                                                  \a" +
-        "va ngevz                                                                        \a" +
-        "28 lbs pba naq oerngu*                                                          \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123630050",
-        "GVZR:13:42:14",
-        "PNYY:Nzohynapr/RZF Pnyy (32)",
-        "CYNPR:WRSSREFBA PBHAGL PBHEG UBHFR",
-        "NQQE:100 WRSSREFBA PBHAGL CXL",
-        "ZNQQE:100 WRSSREFBA PBHAGL CXJL",
-        "PVGL:TBYQRA",
-        "K:PBHEGUBHFR QE/ PBHEGUBHFR QE",
-        "ZNC:V4",
-        "HAVG:NZE132",
-        "VASB:srznyr fcvqre ovgr bcra naq oyrrqvat\apba naq oerngu\ava ngevz\a28 lbs pba naq oerngu*");
-
-    qbGrfg("G40",
-        "(Tbyqra Sver) Pnyy#: 123630043*                                                               \a" +
-        "Gvzr: 12:39:03*                                                                 \a" +
+        "(PNQ pnyy 142110011) Pnyy#: 142110011*                                                               \a" +
+        "Gvzr: 07:14:51*                                                                 \a" +
         "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
         "Ybpngvba: 600 9GU FG PBBEF, TBYQRA*                                             \a" +
         "Pebff fgerrgf: WNPXFBA FG/ WNPXFBA FG*                                          \a" +
         "Znc cntr: ZNC Q2  *                                                             \a" +
         "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: tra sver                                                             \a" +
-        "sver jngre sybbe oyqt 11 5gu sybbe                                              \a" +
-        "nyfb tebhaq sybbbe*                                                             \a\a\a\a\a\a" +
-        "  ",
+        "Aneengvir: nern 2 tebhaq sybbe ohvyqvat 13 sebag ryringbe ybool fzbxr           \a" +
+        "ab cerzvfr #  / pbagnpg 303-396-5277 / gbal*",
 
-        "VQ:123630043",
-        "GVZR:12:39:03",
+        "VQ:142110011",
+        "GVZR:07:14:51",
         "PNYY:Sver Nynez Npgvingvba (73)",
         "NQQE:600 9GU FG",
         "NCG:PBBEF",
@@ -2117,595 +1658,1482 @@ choyvp pynff PBTbyqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:WNPXFBA FG/ WNPXFBA FG",
         "ZNC:Q2",
         "HAVG:QVFG1 QVFG2",
-        "VASB:tra sver\asver jngre sybbe oyqt 11 5gu sybbe\anyfb tebhaq sybbbe*");
+        "VASB:nern 2 tebhaq sybbe ohvyqvat 13 sebag ryringbe ybool fzbxr\aab cerzvfr #  / pbagnpg 303-396-5277 / gbal*");
+
+    qbGrfg("G32",
+        "(PNQ pnyy 142110004) Pnyy#: 142110004*                                                               \a" +
+        "Gvzr: 01:04:18*                                                                 \a" +
+        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
+        "Ybpngvba: 17750 J 32AQ NIR PBBEF/NPK, PBBEF OERJREL*                            \a" +
+        "Pebff fgerrgf: RNFG FREIVPR EQ/ JRFG FREIVPR EQ*                                \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: vaq trareny sver                                                     \a" +
+        "ab cerzvfr*",
+
+        "VQ:142110004",
+        "GVZR:01:04:18",
+        "PNYY:Sver Nynez Npgvingvba (73)",
+        "NQQE:17750 J 32AQ NIR",
+        "NCG:PBBEF/NPK",
+        "PVGL:PBBEF OERJREL",
+        "ZPVGL:TBYQRA",
+        "K:RNFG FREIVPR EQ/ JRFG FREIVPR EQ",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:vaq trareny sver\aab cerzvfr*");
+
+    qbGrfg("G33",
+        "(PNQ pnyy 142100086) Pnyy#: 142100086*                                                               \a" +
+        "Gvzr: 15:45:27*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 1411 8GU FG N401, TBYQRA*                                             \a" +
+        "Pebff fgerrgf: RYZ PVE/ OEVNEJBBQ YA*                                           \a" +
+        "Znc cntr: ZNC Q2  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ21*                                                       \a" +
+        "Aneengvir: cbff fgebxr cneg bs evtug fvqr nfyrrc                                \a" +
+        "76 lbs pba naq oerngu                                                           \a" +
+        "gurer nybar                                                                     \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142100086",
+        "GVZR:15:45:27",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:1411 8GU FG",
+        "NCG:N401",
+        "PVGL:TBYQRA",
+        "K:RYZ PVE/ OEVNEJBBQ YA",
+        "ZNC:Q2",
+        "HAVG:QVFG1 QVFG2 ZRQ21",
+        "VASB:cbff fgebxr cneg bs evtug fvqr nfyrrc\a76 lbs pba naq oerngu\agurer nybar\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G34",
+        "(PNQ pnyy 142100086) Pnyy#: 142100086*                                                               \a" +
+        "Gvzr: 15:45:27*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 1411 8GU FG N401, TBYQRA*                                             \a" +
+        "Pebff fgerrgf: RYZ PVE/ OEVNEJBBQ YA*                                           \a" +
+        "Znc cntr: ZNC Q2  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: cbff fgebxr cneg bs evtug fvqr nfyrrc                                \a" +
+        "76 lbs pba naq oerngu                                                           \a" +
+        "gurer nybar*",
+
+        "VQ:142100086",
+        "GVZR:15:45:27",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:1411 8GU FG",
+        "NCG:N401",
+        "PVGL:TBYQRA",
+        "K:RYZ PVE/ OEVNEJBBQ YA",
+        "ZNC:Q2",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:cbff fgebxr cneg bs evtug fvqr nfyrrc\a76 lbs pba naq oerngu\agurer nybar*");
+
+    qbGrfg("G35",
+        "(PNQ pnyy 142100077) Pnyy#: 142100077*                                                               \a" +
+        "Gvzr: 14:41:35*                                                                 \a" +
+        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
+        "Ybpngvba: 60 IVRJ QE, TBYQRA*                                                   \a" +
+        "Pebff fgerrgf: S FG/ T FG*                                                      \a" +
+        "Znc cntr: ZNC W4  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: pneoba zbabkvqr nynez tbvat bss                                      \a" +
+        "ec abg gurer                                                                    \a" +
+        "bayl zbz ubzr ol urefrys                                                        \a" +
+        "zbz jvyy fgrc bhgfvqr ba cbepu                                                  \a" +
+        "abg fher vs srryvat vyy                                                         \a" +
+        "zbz anzr natryvan*",
+
+        "VQ:142100077",
+        "GVZR:14:41:35",
+        "PNYY:Sver Nynez Npgvingvba (73)",
+        "NQQE:60 IVRJ QE",
+        "PVGL:TBYQRA",
+        "K:S FG/ T FG",
+        "ZNC:W4",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:pneoba zbabkvqr nynez tbvat bss\aec abg gurer\abayl zbz ubzr ol urefrys\azbz jvyy fgrc bhgfvqr ba cbepu\aabg fher vs srryvat vyy\azbz anzr natryvan*");
+
+    qbGrfg("G36",
+        "(PNQ pnyy 142100027) Pnyy#: 142100027*                                                               \a" +
+        "Gvzr: 09:40:31*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 16035 J 4GU NIR, TBYQRA*                                              \a" +
+        "Pebff fgerrgf: BEPUNEQ FG/ BEVBA FG*                                            \a" +
+        "Znc cntr: ZNC W6  *                                                             \a" +
+        "Havgf: ONG21 ZRQ21*                                                             \a" +
+        "Aneengvir: purfg cnva / 39 / urneg pbaq                                         \a" +
+        "pbat urneg snvy / fgntr 3                                                       \a" +
+        "2 avgeb / ab eryvrs                                                             \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142100027",
+        "GVZR:09:40:31",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:16035 J 4GU NIR",
+        "PVGL:TBYQRA",
+        "K:BEPUNEQ FG/ BEVBA FG",
+        "ZNC:W6",
+        "HAVG:ONG21 ZRQ21",
+        "VASB:purfg cnva / 39 / urneg pbaq\apbat urneg snvy / fgntr 3\a2 avgeb / ab eryvrs\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G37",
+        "(PNQ pnyy 142100027) Pnyy#: 142100027*                                                               \a" +
+        "Gvzr: 09:40:31*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 16035 J 4GU NIR, TBYQRA*                                              \a" +
+        "Pebff fgerrgf: BEPUNEQ FG/ BEVBA FG*                                            \a" +
+        "Znc cntr: ZNC W6  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: purfg cnva / 39 / urneg pbaq                                         \a" +
+        "pbat urneg snvy / fgntr 3                                                       \a" +
+        "2 avgeb / ab eryvrs*",
+
+        "VQ:142100027",
+        "GVZR:09:40:31",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:16035 J 4GU NIR",
+        "PVGL:TBYQRA",
+        "K:BEPUNEQ FG/ BEVBA FG",
+        "ZNC:W6",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:purfg cnva / 39 / urneg pbaq\apbat urneg snvy / fgntr 3\a2 avgeb / ab eryvrs*");
+
+    qbGrfg("G38",
+        "(PNQ pnyy 142100019) Pnyy#: 142100019*                                                               \a" +
+        "Gvzr: 08:38:27*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
+        "Ybpngvba: 17750 J 32AQ NIR PBBEF/NPK, PBBEF OERJREL*                            \a" +
+        "Pebff fgerrgf: RNFG FREIVPR EQ/ JRFG FREIVPR EQ*                                \a" +
+        "Havgf: ZRQ21*                                                                   \a" +
+        "Aneengvir: rzc irel qvmml / nccebk 50/ p/o                                      \a" +
+        "nzo pna tb gb fuvccvat*",
+
+        "VQ:142100019",
+        "GVZR:08:38:27",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
+        "NQQE:17750 J 32AQ NIR",
+        "NCG:PBBEF/NPK",
+        "PVGL:PBBEF OERJREL",
+        "ZPVGL:TBYQRA",
+        "K:RNFG FREIVPR EQ/ JRFG FREIVPR EQ",
+        "HAVG:ZRQ21",
+        "VASB:rzc irel qvmml / nccebk 50/ p/o\anzo pna tb gb fuvccvat*");
+
+    qbGrfg("G39",
+        "(PNQ pnyy 142090112) Pnyy#: 142090112*                                                               \a" +
+        "Gvzr: 19:46:31*                                                                 \a" +
+        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
+        "Ybpngvba: 17800 J PBYSNK NIR FO2, TBYQRA*                                       \a" +
+        "Pebff fgerrgf: EBBARL EQ/ MRGN FG*                                              \a" +
+        "Znc cntr: ZNC W4  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: pneoba zbabkvqr nynez tbvat bss*",
+
+        "VQ:142090112",
+        "GVZR:19:46:31",
+        "PNYY:Sver Nynez Npgvingvba (73)",
+        "NQQE:17800 J PBYSNK NIR",
+        "NCG:FO2",
+        "PVGL:TBYQRA",
+        "K:EBBARL EQ/ MRGN FG",
+        "ZNC:W4",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:pneoba zbabkvqr nynez tbvat bss*");
+
+    qbGrfg("G40",
+        "(PNQ pnyy 142090109) Pnyy#: 142090109*                                                               \a" +
+        "Gvzr: 19:23:19*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: HYLFFRF ONYY CNEX, 1205 HYLFFRF FG, TBYQRA*                           \a" +
+        "Pebff fgerrgf: FBHGU TBYQRA EQ/J 12GU NIR*                                      \a" +
+        "Znc cntr: ZNC U5  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ21*                                                       \a" +
+        "Aneengvir: znyr cnel cbff urneg nggnpx 49 lb                                    \a" +
+        "abg oernguvat naq hapbapvbhf                                                    \a" +
+        "arne svryq 3                                                                    \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142090109",
+        "GVZR:19:23:19",
+        "PNYY:Nzohynapr naq Erfphr",
+        "CYNPR:HYLFFRF ONYY CNEX",
+        "NQQE:1205 HYLFFRF FG",
+        "PVGL:TBYQRA",
+        "K:FBHGU TBYQRA EQ/J 12GU NIR",
+        "ZNC:U5",
+        "HAVG:QVFG1 QVFG2 ZRQ21",
+        "VASB:znyr cnel cbff urneg nggnpx 49 lb\aabg oernguvat naq hapbapvbhf\aarne svryq 3\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
 
     qbGrfg("G41",
-        "(Tbyqra Sver) Pnyy#: 123630041*                                                               \a" +
-        "Gvzr: 12:06:37*                                                                 \a" +
-        "Glcr bs pnyy: Zhghny Nvq*                                                       \a" +
-        "Ybpngvba: 14095 J 7GU NIR*                                                      \a" +
-        "Pebff fgerrgf:/*                                                                \a" +
+        "(PNQ pnyy 142090109) Pnyy#: 142090109*                                                               \a" +
+        "Gvzr: 19:23:19*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: HYLFFRF ONYY CNEX, 1205 HYLFFRF FG, TBYQRA*                           \a" +
+        "Pebff fgerrgf: FBHGU TBYQRA EQ/J 12GU NIR*                                      \a" +
+        "Znc cntr: ZNC U5  *                                                             \a" +
         "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: bar ratvar / pbzznaq cbfg fnzr ybp                                   \a" +
-        "furq ba sver*                                                                   \a\a\a\a\a\a" +
-        "  ",
+        "Aneengvir: znyr cnel cbff urneg nggnpx 49 lb                                    \a" +
+        "abg oernguvat naq hapbapvbhf                                                    \a" +
+        "arne svryq 3*",
 
-        "VQ:123630041",
-        "GVZR:12:06:37",
-        "PNYY:Zhghny Nvq",
-        "NQQE:14095 J 7GU NIR",
+        "VQ:142090109",
+        "GVZR:19:23:19",
+        "PNYY:Nzohynapr naq Erfphr",
+        "CYNPR:HYLFFRF ONYY CNEX",
+        "NQQE:1205 HYLFFRF FG",
+        "PVGL:TBYQRA",
+        "K:FBHGU TBYQRA EQ/J 12GU NIR",
+        "ZNC:U5",
         "HAVG:QVFG1 QVFG2",
-        "VASB:bar ratvar / pbzznaq cbfg fnzr ybp\afurq ba sver*");
+        "VASB:znyr cnel cbff urneg nggnpx 49 lb\aabg oernguvat naq hapbapvbhf\aarne svryq 3*");
 
     qbGrfg("G42",
-        "(Tbyqra Sver) Pnyy#: 123630035*                                                               \a" +
-        "Gvzr: 10:17:23*                                                                 \a" +
+        "(PNQ pnyy 142090084) Pnyy#: 142090084*                                                               \a" +
+        "Gvzr: 14:34:09*                                                                 \a" +
         "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: 1917 CNESRG RFGNGRF QE, TBYQRA*                                       \a" +
-        "Pebff fgerrgf: XBUVABBE CY/ XBUVABBE CY*                                        \a" +
-        "Znc cntr: ZNC S2  *                                                             \a" +
-        "Havgf: NZE131 ERF2 QVFG1 QVFG2*                                                 \a" +
-        "Aneengvir: snyy ivpg / cbff oebxra uvc                                          \a" +
-        "86 lbs p/o                                                                      \a" +
+        "Ybpngvba: 1602 TBYQRA UVYYF EQ, TBYQRA*                                         \a" +
+        "Pebff fgerrgf: J 16GU NIR/ TBYQRA UVYYF CY*                                     \a" +
+        "Znc cntr: ZNC T5  *                                                             \a" +
+        "Havgf: ZRQ22*                                                                   \a" +
+        "Aneengvir: cbff gbbx crepbprg /                                                 \a" +
+        "2 lbz / p/o/nppvqragny                                                          \a" +
+        "hax ubj znal cvyyf / whfg n 'srj'                                               \a" +
         "Pnyy rznvyrq gb:                                                                \a" +
-        "2023p@vnenyregf.pbz*                                                            \a\a\a\a\a\a" +
-        "  ",
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
 
-        "VQ:123630035",
-        "GVZR:10:17:23",
+        "VQ:142090084",
+        "GVZR:14:34:09",
         "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:1917 CNESRG RFGNGRF QE",
+        "NQQE:1602 TBYQRA UVYYF EQ",
         "PVGL:TBYQRA",
-        "K:XBUVABBE CY/ XBUVABBE CY",
-        "ZNC:S2",
-        "HAVG:NZE131 ERF2 QVFG1 QVFG2",
-        "VASB:snyy ivpg / cbff oebxra uvc\a86 lbs p/o\aPnyy rznvyrq gb:\a2023p@vnenyregf.pbz*");
+        "K:J 16GU NIR/ TBYQRA UVYYF CY",
+        "ZNC:T5",
+        "HAVG:ZRQ22",
+        "VASB:cbff gbbx crepbprg /\a2 lbz / p/o/nppvqragny\ahax ubj znal cvyyf / whfg n 'srj'\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
 
     qbGrfg("G43",
-        "(Tbyqra Sver) Pnyy#: 123630019*                                                               \a" +
-        "Gvzr: 04:30:35*                                                                 \a" +
+        "(PNQ pnyy 142090084) Pnyy#: 142090084*                                                               \a" +
+        "Gvzr: 14:34:09*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 1602 TBYQRA UVYYF EQ, TBYQRA*                                         \a" +
+        "Pebff fgerrgf: J 16GU NIR/ TBYQRA UVYYF CY*                                     \a" +
+        "Znc cntr: ZNC T5  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: cbff gbbx crepbprg /                                                 \a" +
+        "2 lbz / p/o/nppvqragny                                                          \a" +
+        "hax ubj znal cvyyf / whfg n 'srj'*",
+
+        "VQ:142090084",
+        "GVZR:14:34:09",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:1602 TBYQRA UVYYF EQ",
+        "PVGL:TBYQRA",
+        "K:J 16GU NIR/ TBYQRA UVYYF CY",
+        "ZNC:T5",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:cbff gbbx crepbprg /\a2 lbz / p/o/nppvqragny\ahax ubj znal cvyyf / whfg n 'srj'*");
+
+    qbGrfg("G44",
+        "(PNQ pnyy 142090081) Pnyy#: 142090081*                                                               \a" +
+        "Gvzr: 14:23:08*                                                                 \a" +
+        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
+        "Ybpngvba: 150 JUVGR NFU QE, TBYQRA*                                             \a" +
+        "Pebff fgerrgf: JVYQ EBFR PG/ JNFUVATGBA FG*                                     \a" +
+        "Znc cntr: ZNC P1  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: arrq nynez erfrg                                                     \a" +
+        "sver nynez / ab fvta bs nalguvat*",
+
+        "VQ:142090081",
+        "GVZR:14:23:08",
+        "PNYY:Sver Nynez Npgvingvba (73)",
+        "NQQE:150 JUVGR NFU QE",
+        "PVGL:TBYQRA",
+        "K:JVYQ EBFR PG/ JNFUVATGBA FG",
+        "ZNC:P1",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:arrq nynez erfrg\asver nynez / ab fvta bs nalguvat*");
+
+    qbGrfg("G45",
+        "(PNQ pnyy 142090074) Pnyy#: 142090074*                                                               \a" +
+        "Gvzr: 13:53:58*                                                                 \a" +
+        "Glcr bs pnyy: NGGRZCG GB YBPNGR*                                                \a" +
+        "Ybpngvba: 18200 J 3EQ NIR N1, TBYQRA*                                           \a" +
+        "Pebff fgerrgf: MRGN FG/ MRGN FG*                                                \a" +
+        "Znc cntr: ZNC W4  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: jvsr pnyyrq naq fnvq znyr gurer / onolfvggvat qnhtugre               \a" +
+        "nyfb 18 lbn znyr ba fprar                                                       \a" +
+        "jneenag sbe cebo ivb                                                            \a" +
+        "xabja zrgu hfre                                                                 \a" +
+        "cre jvsr/znl abg nafjre qbbe                                                    \a" +
+        "ab nffbp iru                                                                    \a" +
+        "jvsr / zvpuryr yhpreb 720-882-8197                                              \a" +
+        "ab jneenag va ppvp / ec fnvq fur jbhyq fraq fvtarq beqre                        \a" +
+        "ol rznvy*",
+
+        "VQ:142090074",
+        "GVZR:13:53:58",
+        "PNYY:NGGRZCG GB YBPNGR",
+        "NQQE:18200 J 3EQ NIR",
+        "NCG:N1",
+        "PVGL:TBYQRA",
+        "K:MRGN FG/ MRGN FG",
+        "ZNC:W4",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:jvsr pnyyrq naq fnvq znyr gurer / onolfvggvat qnhtugre\anyfb 18 lbn znyr ba fprar\ajneenag sbe cebo ivb\axabja zrgu hfre\acre jvsr/znl abg nafjre qbbe\aab nffbp iru\ajvsr / zvpuryr yhpreb 720-882-8197\aab jneenag va ppvp / ec fnvq fur jbhyq fraq fvtarq beqre\aol rznvy*");
+
+    qbGrfg("G46",
+        "(PNQ pnyy 142090028) Pnyy#: 142090028*                                                               \a" +
+        "Gvzr: 08:01:21*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: UJL 6/ 19GU FG, TBYQRA*                                               \a" +
+        "Znc cntr: ZNC S3  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ21*                                                       \a" +
+        "Aneengvir: ynobe va cebprff chfuvat                                             \a" +
+        "chyyrq bss ba fubhyqre                                                          \a" +
+        "pba naq oerngu naq gnyxvat                                                      \a" +
+        "uhfonaq jvgu ure onol bhg                                                       \a" +
+        "zbz vf yrfyvr                                                                   \a" +
+        "uhfo rqqvr                                                                      \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142090028",
+        "GVZR:08:01:21",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:UJL 6 & 19GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:S3",
+        "HAVG:QVFG1 QVFG2 ZRQ21",
+        "VASB:ynobe va cebprff chfuvat\achyyrq bss ba fubhyqre\apba naq oerngu naq gnyxvat\auhfonaq jvgu ure onol bhg\azbz vf yrfyvr\auhfo rqqvr\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G47",
+        "(PNQ pnyy 142090028) Pnyy#: 142090028*                                                               \a" +
+        "Gvzr: 08:01:21*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: UJL 6/ 19GU FG, TBYQRA*                                               \a" +
+        "Znc cntr: ZNC S3  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: ynobe va cebprff chfuvat                                             \a" +
+        "chyyrq bss ba fubhyqre                                                          \a" +
+        "pba naq oerngu naq gnyxvat                                                      \a" +
+        "uhfonaq jvgu ure onol bhg                                                       \a" +
+        "zbz vf yrfyvr                                                                   \a" +
+        "uhfo rqqvr*",
+
+        "VQ:142090028",
+        "GVZR:08:01:21",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:UJL 6 & 19GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:S3",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:ynobe va cebprff chfuvat\achyyrq bss ba fubhyqre\apba naq oerngu naq gnyxvat\auhfonaq jvgu ure onol bhg\azbz vf yrfyvr\auhfo rqqvr*");
+
+    qbGrfg("G48",
+        "(PNQ pnyy 142090023) Pnyy#: 142090023*                                                               \a" +
+        "Gvzr: 06:42:04*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 1270 A SBEQ FG, TBYQRA*                                               \a" +
+        "Pebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \a" +
+        "Znc cntr: ZNC N2  *                                                             \a" +
+        "Havgf: ZRQ21*                                                                   \a" +
+        "Aneengvir: srznyr jvgu purfg cnvaf / 80f / vf p naq o                           \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142090023",
+        "GVZR:06:42:04",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:1270 A SBEQ FG",
+        "PVGL:TBYQRA",
+        "K:CVAR EVQTR EQ/ IVETVAVN FG",
+        "ZNC:N2",
+        "HAVG:ZRQ21",
+        "VASB:srznyr jvgu purfg cnvaf / 80f / vf p naq o\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G49",
+        "(PNQ pnyy 142090023) Pnyy#: 142090023*                                                               \a" +
+        "Gvzr: 06:42:04*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 1270 A SBEQ FG, TBYQRA*                                               \a" +
+        "Pebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \a" +
+        "Znc cntr: ZNC N2  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: srznyr jvgu purfg cnvaf / 80f / vf p naq o*",
+
+        "VQ:142090023",
+        "GVZR:06:42:04",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:1270 A SBEQ FG",
+        "PVGL:TBYQRA",
+        "K:CVAR EVQTR EQ/ IVETVAVN FG",
+        "ZNC:N2",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:srznyr jvgu purfg cnvaf / 80f / vf p naq o*");
+
+    qbGrfg("G50",
+        "(PNQ pnyy 142080092) Pnyy#: 142080092*                                                               \a" +
+        "Gvzr: 17:18:48*                                                                 \a" +
         "Glcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \a" +
+        "Ybpngvba: WNPXFBA FG/ 16GU FG, TBYQRA*                                          \a" +
+        "Znc cntr: ZNC R3  *                                                             \a" +
+        "Havgf: ZRQ21*                                                                   \a" +
+        "Aneengvir: p/o qvnorgvp*",
+
+        "VQ:142080092",
+        "GVZR:17:18:48",
+        "PNYY:Nzohynapr pnyy bayl (32)",
+        "NQQE:WNPXFBA FG & 16GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:R3",
+        "HAVG:ZRQ21",
+        "VASB:p/o qvnorgvp*");
+
+    qbGrfg("G51",
+        "(PNQ pnyy 142080076) Pnyy#: 142080076*                                                               \a" +
+        "Gvzr: 15:35:51*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
+        "Ybpngvba: JNFUVATGBA NIR/ 8GU FG, TBYQRA*                                       \a" +
+        "Znc cntr: ZNC Q2  *                                                             \a" +
+        "Havgf: ZRQ21*                                                                   \a" +
+        "Aneengvir: znyr sryy naq uvg urnq ba oevpx jnyy*",
+
+        "VQ:142080076",
+        "GVZR:15:35:51",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
+        "NQQE:JNFUVATGBA NIR & 8GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:Q2",
+        "HAVG:ZRQ21",
+        "VASB:znyr sryy naq uvg urnq ba oevpx jnyy*");
+
+    qbGrfg("G52",
+        "(PNQ pnyy 142080052) Pnyy#: 142080052*                                                               \a" +
+        "Gvzr: 12:59:51*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: JUVGR JNGRE XNLNX CNEX, 1201 10GU FG, TBYQRA*                         \a" +
+        "Pebff fgerrgf: ZNCYR FG/ ZNCYR FG*                                              \a" +
+        "Znc cntr: ZNC R2  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ21*                                                       \a" +
+        "Aneengvir: qvfybpngrq fubhyqre  fbhgu fvqr bs                                   \a" +
+        "evtug jurer gur qhpxf ner orvat qhzcrq                                          \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142080052",
+        "GVZR:12:59:51",
+        "PNYY:Nzohynapr naq Erfphr",
+        "CYNPR:JUVGR JNGRE XNLNX CNEX",
+        "NQQE:1201 10GU FG",
+        "PVGL:TBYQRA",
+        "K:ZNCYR FG/ ZNCYR FG",
+        "ZNC:R2",
+        "HAVG:QVFG1 QVFG2 ZRQ21",
+        "VASB:qvfybpngrq fubhyqre  fbhgu fvqr bs\aevtug jurer gur qhpxf ner orvat qhzcrq\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G53",
+        "(PNQ pnyy 142080052) Pnyy#: 142080052*                                                               \a" +
+        "Gvzr: 12:59:51*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: JUVGR JNGRE XNLNX CNEX, 1201 10GU FG, TBYQRA*                         \a" +
+        "Pebff fgerrgf: ZNCYR FG/ ZNCYR FG*                                              \a" +
+        "Znc cntr: ZNC R2  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: qvfybpngrq fubhyqre  fbhgu fvqr bs                                   \a" +
+        "evtug jurer gur qhpxf ner orvat qhzcrq*",
+
+        "VQ:142080052",
+        "GVZR:12:59:51",
+        "PNYY:Nzohynapr naq Erfphr",
+        "CYNPR:JUVGR JNGRE XNLNX CNEX",
+        "NQQE:1201 10GU FG",
+        "PVGL:TBYQRA",
+        "K:ZNCYR FG/ ZNCYR FG",
+        "ZNC:R2",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:qvfybpngrq fubhyqre  fbhgu fvqr bs\aevtug jurer gur qhpxf ner orvat qhzcrq*");
+
+    qbGrfg("G54",
+        "(PNQ pnyy 142080022) Pnyy#: 142080022*                                                               \a" +
+        "Gvzr: 06:35:20*                                                                 \a" +
+        "Glcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \a" +
+        "Ybpngvba: UREVGNTR FDHNER, 18301 J PBYSNK NIR FUBCF, TBYQRA*                    \a" +
+        "Pebff fgerrgf: J PBYSNK NIR/ UREVGNTR EQ*                                       \a" +
+        "Znc cntr: ZNC X3  *                                                             \a" +
+        "Havgf: ZRQ22*                                                                   \a" +
+        "Aneengvir: ng gur ragenapr / ebyybire/ 1 pne / abg ba sver                      \a" +
+        "puril fhoheona                                                                  \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142080022",
+        "GVZR:06:35:20",
+        "PNYY:Haxabja Vawhel Genssvp Nppvqrag",
+        "CYNPR:UREVGNTR FDHNER",
+        "NQQE:18301 J PBYSNK NIR",
+        "NCG:FUBCF",
+        "PVGL:TBYQRA",
+        "K:J PBYSNK NIR/ UREVGNTR EQ",
+        "ZNC:X3",
+        "HAVG:ZRQ22",
+        "VASB:ng gur ragenapr / ebyybire/ 1 pne / abg ba sver\apuril fhoheona\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G55",
+        "(PNQ pnyy 142080023) Pnyy#: 142080023*                                                               \a" +
+        "Gvzr: 06:35:20*                                                                 \a" +
+        "Glcr bs pnyy: GENSSVP NPPVQRAG HAXABJA VAWHEL*                                  \a" +
+        "Ybpngvba: UREVGNTR FDHNER, 18301 J PBYSNK NIR FUBCF, TBYQRA*                    \a" +
+        "Pebff fgerrgf: J PBYSNK NIR/ UREVGNTR EQ*                                       \a" +
+        "Znc cntr: ZNC X3  *                                                             \a" +
+        "Havgf: 3E1 QVFG1 QVFG2*                                                         \a" +
+        "Aneengvir: ng gur ragenapr / ebyybire/ 1 pne / abg ba sver                      \a" +
+        "puril fhoheona*",
+
+        "VQ:142080023",
+        "GVZR:06:35:20",
+        "PNYY:GENSSVP NPPVQRAG HAXABJA VAWHEL",
+        "CYNPR:UREVGNTR FDHNER",
+        "NQQE:18301 J PBYSNK NIR",
+        "NCG:FUBCF",
+        "PVGL:TBYQRA",
+        "K:J PBYSNK NIR/ UREVGNTR EQ",
+        "ZNC:X3",
+        "HAVG:3E1 QVFG1 QVFG2",
+        "VASB:ng gur ragenapr / ebyybire/ 1 pne / abg ba sver\apuril fhoheona*");
+
+    qbGrfg("G56",
+        "(PNQ pnyy 142080016) Pnyy#: 142080016*                                                               \a" +
+        "Gvzr: 02:10:03*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \a" +
+        "Ybpngvba: EBBARL EQ/J PBYSNK NIR, TBYQRA*                                       \a" +
+        "Znc cntr: ZNC W5  *                                                             \a" +
+        "Havgf: ZRQ22*                                                                   \a" +
+        "Aneengvir: ebhgvar / znyr p / o / zrq riny*",
+
+        "VQ:142080016",
+        "GVZR:02:10:03",
+        "PNYY:Nzohynapr pnyy bayl (32)",
+        "NQQE:EBBARL EQ & J PBYSNK NIR",
+        "PVGL:TBYQRA",
+        "ZNC:W5",
+        "HAVG:ZRQ22",
+        "VASB:ebhgvar / znyr p / o / zrq riny*");
+
+    qbGrfg("G57",
+        "(PNQ pnyy 142080005) Pnyy#: 142080005*                                                               \a" +
+        "Gvzr: 00:38:52*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 800 13GU FG, TBYQRA*                                                  \a" +
+        "Pebff fgerrgf: JNFUVATGBA NIR/ NENCNUBR FG*                                     \a" +
+        "Znc cntr: ZNC R3  *                                                             \a" +
+        "Havgf: ZRQ21*                                                                   \a" +
+        "Aneengvir: bar znyr cnffrq bhg                                                  \a" +
+        "cbff nypbuby eryngrq                                                            \a" +
+        "znyr cnegl                                                                      \a" +
+        "vf oernguvat                                                                    \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142080005",
+        "GVZR:00:38:52",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:800 13GU FG",
+        "PVGL:TBYQRA",
+        "K:JNFUVATGBA NIR/ NENCNUBR FG",
+        "ZNC:R3",
+        "HAVG:ZRQ21",
+        "VASB:bar znyr cnffrq bhg\acbff nypbuby eryngrq\aznyr cnegl\avf oernguvat\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G58",
+        "(PNQ pnyy 142080005) Pnyy#: 142080005*                                                               \a" +
+        "Gvzr: 00:38:52*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 800 13GU FG, TBYQRA*                                                  \a" +
+        "Pebff fgerrgf: JNFUVATGBA NIR/ NENCNUBR FG*                                     \a" +
+        "Znc cntr: ZNC R3  *                                                             \a" +
+        "Havgf: QVFG2*                                                                   \a" +
+        "Aneengvir: bar znyr cnffrq bhg                                                  \a" +
+        "cbff nypbuby eryngrq                                                            \a" +
+        "znyr cnegl                                                                      \a" +
+        "vf oernguvat*",
+
+        "VQ:142080005",
+        "GVZR:00:38:52",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:800 13GU FG",
+        "PVGL:TBYQRA",
+        "K:JNFUVATGBA NIR/ NENCNUBR FG",
+        "ZNC:R3",
+        "HAVG:QVFG2",
+        "VASB:bar znyr cnffrq bhg\acbff nypbuby eryngrq\aznyr cnegl\avf oernguvat*");
+
+    qbGrfg("G59",
+        "(PNQ pnyy 142070149) Pnyy#: 142070149*                                                               \a" +
+        "Gvzr: 20:18:04*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \a" +
+        "Ybpngvba: CNESRG CNEX, 801 10GU FG, TBYQRA*                                     \a" +
+        "Pebff fgerrgf: JNFUVATGBA NIR/ NENCNUBR FG*                                     \a" +
+        "Znc cntr: ZNC Q2  *                                                             \a" +
+        "Havgf: ZRQ22*                                                                   \a" +
+        "Aneengvir: jrfg fvqr tnentr/nypbuby vffhrf/pba/oer*",
+
+        "VQ:142070149",
+        "GVZR:20:18:04",
+        "PNYY:Nzohynapr pnyy bayl (32)",
+        "CYNPR:CNESRG CNEX",
+        "NQQE:801 10GU FG",
+        "PVGL:TBYQRA",
+        "K:JNFUVATGBA NIR/ NENCNUBR FG",
+        "ZNC:Q2",
+        "HAVG:ZRQ22",
+        "VASB:jrfg fvqr tnentr/nypbuby vffhrf/pba/oer*");
+
+    qbGrfg("G60",
+        "(PNQ pnyy 142070144) Pnyy#: 142070144*                                                               \a" +
+        "Gvzr: 19:46:42*                                                                 \a" +
+        "Glcr bs pnyy: Pnalba Pnyy*                                                      \a" +
+        "Ybpngvba: PPP NG 263, 263 UJL 6 ZZ, TBYQRA*                                     \a" +
+        "Pebff fgerrgf: UJL 93/ UJL 119*                                                 \a" +
+        "Znc cntr: AB ZNC  *                                                             \a" +
+        "Havgf: ZRQ21*",
+
+        "VQ:142070144",
+        "GVZR:19:46:42",
+        "PNYY:Pnalba Pnyy",
+        "CYNPR:PPP NG 263",
+        "NQQE:263 UJL 6 ZZ",
+        "PVGL:TBYQRA",
+        "K:UJL 93/ UJL 119",
+        "ZNC:AB ZNC",
+        "HAVG:ZRQ21*");
+
+    qbGrfg("G61",
+        "(PNQ pnyy 142070138) Pnyy#: 142070138*                                                               \a" +
+        "Gvzr: 19:31:01*                                                                 \a" +
+        "Glcr bs pnyy: Pnalba Pnyy*                                                      \a" +
+        "Ybpngvba: GHAARY # 2 JRFG RAQ, 265 UJL 6 .1ZZ, TBYQRA*                          \a" +
+        "Pebff fgerrgf: UJL 93/ UJL 119*                                                 \a" +
+        "Znc cntr: AB ZNC  *                                                             \a" +
+        "Havgf: QVFG2 QVFG1 ZRQ21*",
+
+        "VQ:142070138",
+        "GVZR:19:31:01",
+        "PNYY:Pnalba Pnyy",
+        "CYNPR:GHAARY # 2 JRFG RAQ",
+        "NQQE:265 UJL 6 .1ZZ",
+        "PVGL:TBYQRA",
+        "K:UJL 93/ UJL 119",
+        "ZNC:AB ZNC",
+        "HAVG:QVFG2 QVFG1 ZRQ21*");
+
+    qbGrfg("G62",
+        "(PNQ pnyy 142070138) Pnyy#: 142070138*                                                               \a" +
+        "Gvzr: 19:31:01*                                                                 \a" +
+        "Glcr bs pnyy: Pnalba Pnyy*                                                      \a" +
+        "Ybpngvba: GHAARY # 2 JRFG RAQ, 265 UJL 6 .1ZZ, TBYQRA*                          \a" +
+        "Pebff fgerrgf: UJL 93/ UJL 119*                                                 \a" +
+        "Znc cntr: AB ZNC  *                                                             \a" +
+        "Havgf: QVFG2 QVFG1 ZRQ21*",
+
+        "VQ:142070138",
+        "GVZR:19:31:01",
+        "PNYY:Pnalba Pnyy",
+        "CYNPR:GHAARY # 2 JRFG RAQ",
+        "NQQE:265 UJL 6 .1ZZ",
+        "PVGL:TBYQRA",
+        "K:UJL 93/ UJL 119",
+        "ZNC:AB ZNC",
+        "HAVG:QVFG2 QVFG1 ZRQ21*");
+
+    qbGrfg("G63",
+        "(PNQ pnyy 142070130) Pnyy#: 142070130*                                                               \a" +
+        "Gvzr: 18:35:14*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
+        "Ybpngvba: 2200 WNPXFBA FG, TBYQRA*                                              \a" +
+        "Pebff fgerrgf: 22AQ FG/ 23EQ FG*                                                \a" +
+        "Znc cntr: ZNC S3  *                                                             \a" +
+        "Havgf: ZRQ21*                                                                   \a" +
+        "Aneengvir: va gur tneqra nern  yvsg*",
+
+        "VQ:142070130",
+        "GVZR:18:35:14",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
+        "NQQE:2200 WNPXFBA FG",
+        "PVGL:TBYQRA",
+        "K:22AQ FG/ 23EQ FG",
+        "ZNC:S3",
+        "HAVG:ZRQ21",
+        "VASB:va gur tneqra nern  yvsg*");
+
+    qbGrfg("G64",
+        "(PNQ pnyy 142070094) Pnyy#: 142070094*                                                               \a" +
+        "Gvzr: 14:58:22*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
+        "Ybpngvba: TBYQRA YVOENEL, 1019 10GU FG, TBYQRA*                                 \a" +
+        "Pebff fgerrgf: PURLRAAR FG/ VYYVABVF FG*                                        \a" +
+        "Znc cntr: ZNC Q2  *                                                             \a" +
+        "Havgf: ZRQ21*                                                                   \a" +
+        "Aneengvir: ba cngu oruvaq yvoenel                                               \a" +
+        "srznyr jvgu cvax onaqnan                                                        \a" +
+        "fvtavsvpnag sbbg ynprengvba*",
+
+        "VQ:142070094",
+        "GVZR:14:58:22",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
+        "CYNPR:TBYQRA YVOENEL",
+        "NQQE:1019 10GU FG",
+        "PVGL:TBYQRA",
+        "K:PURLRAAR FG/ VYYVABVF FG",
+        "ZNC:Q2",
+        "HAVG:ZRQ21",
+        "VASB:ba cngu oruvaq yvoenel\asrznyr jvgu cvax onaqnan\afvtavsvpnag sbbg ynprengvba*");
+
+    qbGrfg("G65",
+        "(PNQ pnyy 142070090) Pnyy#: 142070090*                                                               \a" +
+        "Gvzr: 14:35:35*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
+        "Ybpngvba: 18231 J 3EQ NIR N4, TBYQRA*                                           \a" +
+        "Pebff fgerrgf: MRGN FG/ MRGN FG*                                                \a" +
+        "Znc cntr: ZNC W4  *                                                             \a" +
+        "Havgf: ZRQ22*                                                                   \a" +
+        "Aneengvir: z1 ubyq aba rzre bx*",
+
+        "VQ:142070090",
+        "GVZR:14:35:35",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
+        "NQQE:18231 J 3EQ NIR",
+        "NCG:N4",
+        "PVGL:TBYQRA",
+        "K:MRGN FG/ MRGN FG",
+        "ZNC:W4",
+        "HAVG:ZRQ22",
+        "VASB:z1 ubyq aba rzre bx*");
+
+    qbGrfg("G66",
+        "(PNQ pnyy 142070073) Pnyy#: 142070073*                                                               \a" +
+        "Gvzr: 12:58:41*                                                                 \a" +
+        "Glcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \a" +
+        "Ybpngvba: V70 UJL/ UJL 6, TBYQRA*                                               \a" +
+        "Znc cntr: ZNC V6  *                                                             \a" +
+        "Havgf: ZRQ22*                                                                   \a" +
+        "Aneengvir: zp qbja srznyr ynlvat va fg                                          \a" +
+        "ro v70 ng ujl 6                                                                 \a" +
+        "rkvg 260                                                                        \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142070073",
+        "GVZR:12:58:41",
+        "PNYY:Haxabja Vawhel Genssvp Nppvqrag",
+        "NQQE:V70 & UJL 6 UJL",
+        "ZNQQE:V 70 & UJL UJL 6",
+        "PVGL:TBYQRA",
+        "ZNC:V6",
+        "HAVG:ZRQ22",
+        "VASB:zp qbja srznyr ynlvat va fg\aro v70 ng ujl 6\arkvg 260\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G67",
+        "(PNQ pnyy 142070073) Pnyy#: 142070073*                                                               \a" +
+        "Gvzr: 12:58:41*                                                                 \a" +
+        "Glcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \a" +
+        "Ybpngvba: V70 UJL/ UJL 6, TBYQRA*                                               \a" +
+        "Znc cntr: ZNC V6  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: zp qbja srznyr ynlvat va fg                                          \a" +
+        "ro v70 ng ujl 6                                                                 \a" +
+        "rkvg 260*",
+
+        "VQ:142070073",
+        "GVZR:12:58:41",
+        "PNYY:Haxabja Vawhel Genssvp Nppvqrag",
+        "NQQE:V70 & UJL 6 UJL",
+        "ZNQQE:V 70 & UJL UJL 6",
+        "PVGL:TBYQRA",
+        "ZNC:V6",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:zp qbja srznyr ynlvat va fg\aro v70 ng ujl 6\arkvg 260*");
+
+    qbGrfg("G68",
+        "(PNQ pnyy 142070069) Pnyy#: 142070069*                                                               \a" +
+        "Gvzr: 12:31:23*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
+        "Ybpngvba: CNESRG CNEX, 801 10GU FG, TBYQRA*                                     \a" +
+        "Pebff fgerrgf: JNFUVATGBA NIR/ NENCNUBR FG*                                     \a" +
+        "Znc cntr: ZNC Q2  *                                                             \a" +
+        "Havgf: NZE1 ZRQ21*                                                              \a" +
+        "Aneengvir: ol fgntr fghat ol vafrpg fznyy puvyq                                 \a" +
+        "cngvrag jnyxvat bire gb fgn 21*",
+
+        "VQ:142070069",
+        "GVZR:12:31:23",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
+        "CYNPR:CNESRG CNEX",
+        "NQQE:801 10GU FG",
+        "PVGL:TBYQRA",
+        "K:JNFUVATGBA NIR/ NENCNUBR FG",
+        "ZNC:Q2",
+        "HAVG:NZE1 ZRQ21",
+        "VASB:ol fgntr fghat ol vafrpg fznyy puvyq\acngvrag jnyxvat bire gb fgn 21*");
+
+    qbGrfg("G69",
+        "(PNQ pnyy 142070062) Pnyy#: 142070062*                                                               \a" +
+        "Gvzr: 11:48:55*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \a" +
+        "Ybpngvba: NENCNUBR FG/ 16GU FG, TBYQRA*                                         \a" +
+        "Znc cntr: ZNC R3  *                                                             \a" +
+        "Havgf: NZE1 ZRQ22*                                                              \a" +
+        "Aneengvir: sebz zp nppvqrag/ cbff yrt vawhel*",
+
+        "VQ:142070062",
+        "GVZR:11:48:55",
+        "PNYY:Nzohynapr pnyy bayl (32)",
+        "NQQE:NENCNUBR FG & 16GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:R3",
+        "HAVG:NZE1 ZRQ22",
+        "VASB:sebz zp nppvqrag/ cbff yrt vawhel*");
+
+    qbGrfg("G70",
+        "(PNQ pnyy 142070060) Pnyy#: 142070060*                                                               \a" +
+        "Gvzr: 11:37:10*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
+        "Ybpngvba: 1411 8GU FG N409, TBYQRA*                                             \a" +
+        "Pebff fgerrgf: RYZ PVE/ OEVNEJBBQ YA*                                           \a" +
+        "Znc cntr: ZNC Q2  *                                                             \a" +
+        "Havgf: ZRQ22*                                                                   \a" +
+        "Aneengvir: yvsg nffvfg                                                          \a" +
+        "85 lrne byq srznyr                                                              \a" +
+        "vf pbafpvbhf naq oernguvat*",
+
+        "VQ:142070060",
+        "GVZR:11:37:10",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
+        "NQQE:1411 8GU FG",
+        "NCG:N409",
+        "PVGL:TBYQRA",
+        "K:RYZ PVE/ OEVNEJBBQ YA",
+        "ZNC:Q2",
+        "HAVG:ZRQ22",
+        "VASB:yvsg nffvfg\a85 lrne byq srznyr\avf pbafpvbhf naq oernguvat*");
+
+    qbGrfg("G71",
+        "(PNQ pnyy 142070056) Pnyy#: 142070056*                                                               \a" +
+        "Gvzr: 11:14:36*                                                                 \a" +
+        "Glcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \a" +
+        "Ybpngvba: UJL 6/ 19GU FG, TBYQRA*                                               \a" +
+        "Znc cntr: ZNC S3  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ21*                                                       \a" +
+        "Aneengvir: hax vaw                                                              \a" +
+        "nppvqrag unccrarq jo 6 whfg r bs vagrefrpgvba                                   \a" +
+        "2 zbgbeplpyvfg qbja                                                             \a" +
+        "ro 6gu                                                                          \a" +
+        "ec vf n cnffreol                                                                \a" +
+        "cbffvoyl nabgure iruvpyr vaibyirq                                               \a" +
+        "obgu havgf pbqr/                                                                \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "pyfpuebr@zvarf.rqh                                                              \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142070056",
+        "GVZR:11:14:36",
+        "PNYY:Haxabja Vawhel Genssvp Nppvqrag",
+        "NQQE:UJL 6 & 19GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:S3",
+        "HAVG:QVFG1 QVFG2 ZRQ21",
+        "VASB:hax vaw\anppvqrag unccrarq jo 6 whfg r bs vagrefrpgvba\a2 zbgbeplpyvfg qbja\aro 6gu\aec vf n cnffreol\acbffvoyl nabgure iruvpyr vaibyirq\aobgu havgf pbqr/\aPnyy rznvyrq gb:\apyfpuebr@zvarf.rqh\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G72",
+        "(PNQ pnyy 142070056) Pnyy#: 142070056*                                                               \a" +
+        "Gvzr: 11:14:36*                                                                 \a" +
+        "Glcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \a" +
+        "Ybpngvba: UJL 6/ 19GU FG, TBYQRA*                                               \a" +
+        "Znc cntr: ZNC S3  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: hax vaw                                                              \a" +
+        "nppvqrag unccrarq jo 6 whfg r bs vagrefrpgvba                                   \a" +
+        "2 zbgbeplpyvfg qbja                                                             \a" +
+        "ro 6gu                                                                          \a" +
+        "ec vf n cnffreol                                                                \a" +
+        "cbffvoyl nabgure iruvpyr vaibyirq                                               \a" +
+        "obgu havgf pbqr/                                                                \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "pyfpuebr@zvarf.rqh*",
+
+        "VQ:142070056",
+        "GVZR:11:14:36",
+        "PNYY:Haxabja Vawhel Genssvp Nppvqrag",
+        "NQQE:UJL 6 & 19GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:S3",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:hax vaw\anppvqrag unccrarq jo 6 whfg r bs vagrefrpgvba\a2 zbgbeplpyvfg qbja\aro 6gu\aec vf n cnffreol\acbffvoyl nabgure iruvpyr vaibyirq\aobgu havgf pbqr/\aPnyy rznvyrq gb:\apyfpuebr@zvarf.rqh*");
+
+    qbGrfg("G73",
+        "(PNQ pnyy 142070052) Pnyy#: 142070052*                                                               \a" +
+        "Gvzr: 10:46:44*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
+        "Ybpngvba: JNFUVATGBA NIR/ 11GU FG, TBYQRA*                                      \a" +
+        "Znc cntr: ZNC Q3  *                                                             \a" +
+        "Havgf: NZE*                                                                     \a" +
+        "Aneengvir: znyr ba r ffvqr va seag bs pyrne perrx pbzzbaf                       \a" +
+        "bspe enaxva ba fprar*",
+
+        "VQ:142070052",
+        "GVZR:10:46:44",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
+        "NQQE:JNFUVATGBA NIR & 11GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:Q3",
+        "HAVG:NZE",
+        "VASB:znyr ba r ffvqr va seag bs pyrne perrx pbzzbaf\abspe enaxva ba fprar*");
+
+    qbGrfg("G74",
+        "(PNQ pnyy 142070049) Pnyy#: 142070049*                                                               \a" +
+        "Gvzr: 10:19:18*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
+        "Ybpngvba: JNFUVATGBA NIR/ 10GU FG, TBYQRA*                                      \a" +
+        "Znc cntr: ZNC Q3  *                                                             \a" +
+        "Havgf: NZE1 NZE*                                                                \a" +
+        "Aneengvir: ryqreyl srznyr cnffvat bhg univat gebhoyr fgnaqvat                   \a" +
+        "ar pbeare bs 10gu naq jnfu                                                      \a" +
+        "va naq bhg bs pba*",
+
+        "VQ:142070049",
+        "GVZR:10:19:18",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
+        "NQQE:JNFUVATGBA NIR & 10GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:Q3",
+        "HAVG:NZE1 NZE",
+        "VASB:ryqreyl srznyr cnffvat bhg univat gebhoyr fgnaqvat\aar pbeare bs 10gu naq jnfu\ava naq bhg bs pba*");
+
+    qbGrfg("G75",
+        "(PNQ pnyy 142070047) Pnyy#: 142070047*                                                               \a" +
+        "Gvzr: 10:04:25*                                                                 \a" +
+        "Glcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \a" +
+        "Ybpngvba: NENCNUBR FG/ 14GU FG, TBYQRA*                                         \a" +
+        "Znc cntr: ZNC R3  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ21*                                                       \a" +
+        "Aneengvir: pne nppvqrag cbff zrqvpny pnhfrq nppvqrag                            \a" +
+        "tea wrrc purebxrr if fvy wrrc                                                   \a" +
+        "va cnexvat ybg ba pbeare                                                        \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142070047",
+        "GVZR:10:04:25",
+        "PNYY:Haxabja Vawhel Genssvp Nppvqrag",
+        "NQQE:NENCNUBR FG & 14GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:R3",
+        "HAVG:QVFG1 QVFG2 ZRQ21",
+        "VASB:pne nppvqrag cbff zrqvpny pnhfrq nppvqrag\atea wrrc purebxrr if fvy wrrc\ava cnexvat ybg ba pbeare\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G76",
+        "(PNQ pnyy 142070047) Pnyy#: 142070047*                                                               \a" +
+        "Gvzr: 10:04:25*                                                                 \a" +
+        "Glcr bs pnyy: Haxabja Vawhel Genssvp Nppvqrag*                                  \a" +
+        "Ybpngvba: NENCNUBR FG/ 14GU FG, TBYQRA*                                         \a" +
+        "Znc cntr: ZNC R3  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: pne nppvqrag cbff zrqvpny pnhfrq nppvqrag                            \a" +
+        "tea wrrc purebxrr if fvy wrrc                                                   \a" +
+        "va cnexvat ybg ba pbeare*",
+
+        "VQ:142070047",
+        "GVZR:10:04:25",
+        "PNYY:Haxabja Vawhel Genssvp Nppvqrag",
+        "NQQE:NENCNUBR FG & 14GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:R3",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:pne nppvqrag cbff zrqvpny pnhfrq nppvqrag\atea wrrc purebxrr if fvy wrrc\ava cnexvat ybg ba pbeare*");
+
+    qbGrfg("G77",
+        "(PNQ pnyy 142070034) Pnyy#: 142070034*                                                               \a" +
+        "Gvzr: 06:02:57*                                                                 \a" +
+        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
+        "Ybpngvba: PBAARPGVBAF YRNEAVAT PRAGRE, 1200 WBUAFBA EQ, TBYQRA*                 \a" +
+        "Pebff fgerrgf: J 10GU NIR/J 14GU NIR*                                           \a" +
+        "Znc cntr: ZNC U4  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: zraf gbvyrg/sver nynez/urng frafbe*",
+
+        "VQ:142070034",
+        "GVZR:06:02:57",
+        "PNYY:Sver Nynez Npgvingvba (73)",
+        "CYNPR:PBAARPGVBAF YRNEAVAT PRAGRE",
+        "NQQE:1200 WBUAFBA EQ",
+        "PVGL:TBYQRA",
+        "K:J 10GU NIR/J 14GU NIR",
+        "ZNC:U4",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:zraf gbvyrg/sver nynez/urng frafbe*");
+
+    qbGrfg("G78",
+        "(PNQ pnyy 142070025) Pnyy#: 142070025*                                                               \a" +
+        "Gvzr: 03:38:36*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 21 FNTROEHFU FG, TBYQRA*                                              \a" +
+        "Pebff fgerrgf: ZNYYNEQ FG/ CVAGB FG*                                            \a" +
+        "Znc cntr: ZNC W5  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ22*                                                       \a" +
+        "Aneengvir: 50 lbs qvss oernguvat/*",
+
+        "VQ:142070025",
+        "GVZR:03:38:36",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:21 FNTROEHFU FG",
+        "PVGL:TBYQRA",
+        "K:ZNYYNEQ FG/ CVAGB FG",
+        "ZNC:W5",
+        "HAVG:QVFG1 QVFG2 ZRQ22",
+        "VASB:50 lbs qvss oernguvat/*");
+
+    qbGrfg("G79",
+        "(PNQ pnyy 142070025) Pnyy#: 142070025*                                                               \a" +
+        "Gvzr: 03:38:36*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 21 FNTROEHFU FG, TBYQRA*                                              \a" +
+        "Pebff fgerrgf: ZNYYNEQ FG/ CVAGB FG*                                            \a" +
+        "Znc cntr: ZNC W5  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ22*                                                       \a" +
+        "Aneengvir: 50 lbs qvss oernguvat/*",
+
+        "VQ:142070025",
+        "GVZR:03:38:36",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:21 FNTROEHFU FG",
+        "PVGL:TBYQRA",
+        "K:ZNYYNEQ FG/ CVAGB FG",
+        "ZNC:W5",
+        "HAVG:QVFG1 QVFG2 ZRQ22",
+        "VASB:50 lbs qvss oernguvat/*");
+
+    qbGrfg("G80",
+        "(PNQ pnyy 142070023) Pnyy#: 142070023*                                                               \a" +
+        "Gvzr: 03:12:45*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: JNFUVATGBA NIR/ 12GU FG, TBYQRA*                                      \a" +
+        "Znc cntr: ZNC Q3  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ21*",
+
+        "VQ:142070023",
+        "GVZR:03:12:45",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:JNFUVATGBA NIR & 12GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:Q3",
+        "HAVG:QVFG1 QVFG2 ZRQ21*");
+
+    qbGrfg("G81",
+        "(PNQ pnyy 142070023) Pnyy#: 142070023*                                                               \a" +
+        "Gvzr: 03:12:45*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: JNFUVATGBA NIR/ 12GU FG, TBYQRA*                                      \a" +
+        "Znc cntr: ZNC Q3  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ21*",
+
+        "VQ:142070023",
+        "GVZR:03:12:45",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:JNFUVATGBA NIR & 12GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:Q3",
+        "HAVG:QVFG1 QVFG2 ZRQ21*");
+
+    qbGrfg("G82",
+        "(PNQ pnyy 142070020) Pnyy#: 142070020*                                                               \a" +
+        "Gvzr: 02:28:57*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \a" +
+        "Ybpngvba: JNFUVATGBA NIR/ 18GU FG, TBYQRA*                                      \a" +
+        "Znc cntr: ZNC R3  *                                                             \a" +
+        "Havgf: ZRQ21*                                                                   \a" +
+        "Aneengvir: snpvny vawhel p/o*",
+
+        "VQ:142070020",
+        "GVZR:02:28:57",
+        "PNYY:Nzohynapr pnyy bayl (32)",
+        "NQQE:JNFUVATGBA NIR & 18GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:R3",
+        "HAVG:ZRQ21",
+        "VASB:snpvny vawhel p/o*");
+
+    qbGrfg("G83",
+        "(PNQ pnyy 142070007) Pnyy#: 142070007*                                                               \a" +
+        "Gvzr: 00:42:23*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 18225 J 3EQ NIR NR, TBYQRA*                                           \a" +
+        "Pebff fgerrgf: MRGN FG/ MRGN FG*                                                \a" +
+        "Znc cntr: ZNC W4  *                                                             \a" +
+        "Havgf: ZRQ22 QVFG1 QVFG2*                                                       \a" +
+        "Aneengvir: purfg cnvaf   62 lb znyr, pba/qvss oernguvat*",
+
+        "VQ:142070007",
+        "GVZR:00:42:23",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:18225 J 3EQ NIR",
+        "NCG:NR",
+        "PVGL:TBYQRA",
+        "K:MRGN FG/ MRGN FG",
+        "ZNC:W4",
+        "HAVG:ZRQ22 QVFG1 QVFG2",
+        "VASB:purfg cnvaf   62 lb znyr, pba/qvss oernguvat*");
+
+    qbGrfg("G84",
+        "(PNQ pnyy 142070007) Pnyy#: 142070007*                                                               \a" +
+        "Gvzr: 00:42:23*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 18225 J 3EQ NIR NR, TBYQRA*                                           \a" +
+        "Pebff fgerrgf: MRGN FG/ MRGN FG*                                                \a" +
+        "Znc cntr: ZNC W4  *                                                             \a" +
+        "Havgf: ZRQ22 QVFG1 QVFG2*                                                       \a" +
+        "Aneengvir: purfg cnvaf   62 lb znyr, pba/qvss oernguvat*",
+
+        "VQ:142070007",
+        "GVZR:00:42:23",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:18225 J 3EQ NIR",
+        "NCG:NR",
+        "PVGL:TBYQRA",
+        "K:MRGN FG/ MRGN FG",
+        "ZNC:W4",
+        "HAVG:ZRQ22 QVFG1 QVFG2",
+        "VASB:purfg cnvaf   62 lb znyr, pba/qvss oernguvat*");
+
+    qbGrfg("G85",
+        "(PNQ pnyy 142060153) Pnyy#: 142060153*                                                               \a" +
+        "Gvzr: 23:05:45*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \a" +
+        "Ybpngvba: SBEQ FG/ 13GU FG, TBYQRA*                                             \a" +
+        "Znc cntr: ZNC Q3  *                                                             \a" +
+        "Havgf: ZRQ21*",
+
+        "VQ:142060153",
+        "GVZR:23:05:45",
+        "PNYY:Nzohynapr pnyy bayl (32)",
+        "NQQE:SBEQ FG & 13GU FG",
+        "PVGL:TBYQRA",
+        "ZNC:Q3",
+        "HAVG:ZRQ21*");
+
+    qbGrfg("G86",
+        "(PNQ pnyy 142060151) Pnyy#: 142060151*                                                               \a" +
+        "Gvzr: 22:42:45*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
+        "Ybpngvba: 221 ZRFN IREQR FG, TBYQRA*                                            \a" +
+        "Pebff fgerrgf: KLYBA FG/ KLYBA FG*                                              \a" +
+        "Znc cntr: ZNC W4  *                                                             \a" +
+        "Havgf: ZRQ22*                                                                   \a" +
+        "Aneengvir: gevrq gb phg uvf bja guebng                                          \a" +
+        "fnvq gurer'f 3 bguref va gur ubfhr                                              \a" +
+        "gurl ner abg vawherq, ur'f phg uvzfrys va nez ohg vf abg                        \a" +
+        "oyrrqvat                                                                        \a" +
+        "fvggvat bhg sebag, guerj xavsr                                                  \a" +
+        "vagb gur lneq                                                                   \a" +
+        "jrnevat n tenl zhfpyr fuveg, oyx cnagf, j/z 26*",
+
+        "VQ:142060151",
+        "GVZR:22:42:45",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
+        "NQQE:221 ZRFN IREQR FG",
+        "PVGL:TBYQRA",
+        "K:KLYBA FG/ KLYBA FG",
+        "ZNC:W4",
+        "HAVG:ZRQ22",
+        "VASB:gevrq gb phg uvf bja guebng\afnvq gurer'f 3 bguref va gur ubfhr\agurl ner abg vawherq, ur'f phg uvzfrys va nez ohg vf abg\aoyrrqvat\afvggvat bhg sebag, guerj xavsr\avagb gur lneq\ajrnevat n tenl zhfpyr fuveg, oyx cnagf, j/z 26*");
+
+    qbGrfg("G87",
+        "(PNQ pnyy 142060085) Pnyy#: 142060085*                                                               \a" +
+        "Gvzr: 15:08:28*                                                                 \a" +
+        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
+        "Ybpngvba: 1856 J PNZCHF EQ, TBYQRA*                                             \a" +
+        "Pebff fgerrgf: RYZ FG/ 15GU FG*                                                 \a" +
+        "Znc cntr: ZNC S3  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: xvgpura ubbq sver nynez                                              \a" +
+        "cerzvfr ahzore abar                                                             \a" +
+        "xu vasb nggrzcgvat gb pbagnpg*",
+
+        "VQ:142060085",
+        "GVZR:15:08:28",
+        "PNYY:Sver Nynez Npgvingvba (73)",
+        "NQQE:1856 J PNZCHF EQ",
+        "PVGL:TBYQRA",
+        "K:RYZ FG/ 15GU FG",
+        "ZNC:S3",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:xvgpura ubbq sver nynez\acerzvfr ahzore abar\axu vasb nggrzcgvat gb pbagnpg*");
+
+    qbGrfg("G88",
+        "(PNQ pnyy 142060077) Pnyy#: 142060077*                                                               \a" +
+        "Gvzr: 14:16:12*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 17221 J 16GU CY, TBYQRA*                                              \a" +
+        "Pebff fgerrgf: HYLFFRF PG/ HGNU PG*                                             \a" +
+        "Znc cntr: ZNC S5  *                                                             \a" +
+        "Havgf: RAT21 FGN21 QVFG1 QVFG2 ZRQ21*                                           \a" +
+        "Aneengvir: qvss oernguvat                                                       \a" +
+        "57 lrne byq srznyr                                                              \a" +
+        "vf pbafpvbhf naq qvss oernguvat                                                 \a" +
+        "nyfb snyyrz                                                                     \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142060077",
+        "GVZR:14:16:12",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:17221 J 16GU CY",
+        "PVGL:TBYQRA",
+        "K:HYLFFRF PG/ HGNU PG",
+        "ZNC:S5",
+        "HAVG:RAT21 FGN21 QVFG1 QVFG2 ZRQ21",
+        "VASB:qvss oernguvat\a57 lrne byq srznyr\avf pbafpvbhf naq qvss oernguvat\anyfb snyyrz\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G89",
+        "(PNQ pnyy 142060077) Pnyy#: 142060077*                                                               \a" +
+        "Gvzr: 14:16:12*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 17221 J 16GU CY, TBYQRA*                                              \a" +
+        "Pebff fgerrgf: HYLFFRF PG/ HGNU PG*                                             \a" +
+        "Znc cntr: ZNC S5  *                                                             \a" +
+        "Havgf: RAT21 FGN21 QVFG1 QVFG2*                                                 \a" +
+        "Aneengvir: qvss oernguvat                                                       \a" +
+        "57 lrne byq srznyr                                                              \a" +
+        "vf pbafpvbhf naq qvss oernguvat                                                 \a" +
+        "nyfb snyyrz*",
+
+        "VQ:142060077",
+        "GVZR:14:16:12",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:17221 J 16GU CY",
+        "PVGL:TBYQRA",
+        "K:HYLFFRF PG/ HGNU PG",
+        "ZNC:S5",
+        "HAVG:RAT21 FGN21 QVFG1 QVFG2",
+        "VASB:qvss oernguvat\a57 lrne byq srznyr\avf pbafpvbhf naq qvss oernguvat\anyfb snyyrz*");
+
+    qbGrfg("G90",
+        "(PNQ pnyy 142060070) Pnyy#: 142060070*                                                               \a" +
+        "Gvzr: 13:56:00*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 3500 VYYVABVF FG, TBYQRA*                                             \a" +
+        "Pebff fgerrgf: WRSSREFBA PBHAGL CXL/ WRSSREFBA PBHAGL CXL*                      \a" +
+        "Znc cntr: ZNC U4  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: qvssvphygl oernguvat                                                 \a" +
+        "jvyy or ng gur sebag qrfx                                                       \a" +
+        "38 lrne byq srznyr                                                              \a" +
+        "vf pbafpvbhf qvss oernguvat*",
+
+        "VQ:142060070",
+        "GVZR:13:56:00",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:3500 VYYVABVF FG",
+        "PVGL:TBYQRA",
+        "K:WRSSREFBA PBHAGL CXL/ WRSSREFBA PBHAGL CXL",
+        "ZNC:U4",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:qvssvphygl oernguvat\ajvyy or ng gur sebag qrfx\a38 lrne byq srznyr\avf pbafpvbhf qvss oernguvat*");
+
+    qbGrfg("G91",
+        "(PNQ pnyy 142060066) Pnyy#: 142060066*                                                               \a" +
+        "Gvzr: 13:26:25*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
+        "Ybpngvba: 400 VAQVNAN FG H230, TBYQRA*                                          \a" +
+        "Pebff fgerrgf: J 4GU NIR/J 4GU NIR*                                             \a" +
+        "Znc cntr: ZNC W6  *                                                             \a" +
+        "Havgf: ZRQ22*                                                                   \a" +
+        "Aneengvir: flapbcr naq uvg urnq                                                 \a" +
+        "srznyr vf pbafpvbhf naq oernguvat                                               \a" +
+        "78 lrne byq srznyr*",
+
+        "VQ:142060066",
+        "GVZR:13:26:25",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
+        "NQQE:400 VAQVNAN FG",
+        "NCG:H230",
+        "PVGL:TBYQRA",
+        "K:J 4GU NIR/J 4GU NIR",
+        "ZNC:W6",
+        "HAVG:ZRQ22",
+        "VASB:flapbcr naq uvg urnq\asrznyr vf pbafpvbhf naq oernguvat\a78 lrne byq srznyr*");
+
+    qbGrfg("G92",
+        "(PNQ pnyy 142060054) Pnyy#: 142060054*                                                               \a" +
+        "Gvzr: 11:44:12*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 1270 A SBEQ FG E250, TBYQRA*                                          \a" +
+        "Pebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \a" +
+        "Znc cntr: ZNC N2  *                                                             \a" +
+        "Havgf: ZRQ21*                                                                   \a" +
+        "Aneengvir: qvss oernguvat                                                       \a" +
+        "85 lrne byq srznyr                                                              \a" +
+        "vf pbafpvbhf naq oernguvat                                                      \a" +
+        "ez 250                                                                          \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142060054",
+        "GVZR:11:44:12",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:1270 A SBEQ FG",
+        "NCG:E250",
+        "PVGL:TBYQRA",
+        "K:CVAR EVQTR EQ/ IVETVAVN FG",
+        "ZNC:N2",
+        "HAVG:ZRQ21",
+        "VASB:qvss oernguvat\a85 lrne byq srznyr\avf pbafpvbhf naq oernguvat\aez 250\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G93",
+        "(PNQ pnyy 142060054) Pnyy#: 142060054*                                                               \a" +
+        "Gvzr: 11:44:12*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 1270 A SBEQ FG E250, TBYQRA*                                          \a" +
+        "Pebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \a" +
+        "Znc cntr: ZNC N2  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: qvss oernguvat                                                       \a" +
+        "85 lrne byq srznyr                                                              \a" +
+        "vf pbafpvbhf naq oernguvat                                                      \a" +
+        "ez 250*",
+
+        "VQ:142060054",
+        "GVZR:11:44:12",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:1270 A SBEQ FG",
+        "NCG:E250",
+        "PVGL:TBYQRA",
+        "K:CVAR EVQTR EQ/ IVETVAVN FG",
+        "ZNC:N2",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:qvss oernguvat\a85 lrne byq srznyr\avf pbafpvbhf naq oernguvat\aez 250*");
+
+    qbGrfg("G94",
+        "(PNQ pnyy 142060028) Pnyy#: 142060028*                                                               \a" +
+        "Gvzr: 08:18:41*                                                                 \a" +
+        "Glcr bs pnyy: Ang tnf bqbe/bgu bqbe-abafzbxr(53)*                               \a" +
+        "Ybpngvba: 660 TBYQRA EVQTR EQ, TBYQRA*                                          \a" +
+        "Pebff fgerrgf: UREVGNTR EQ/ UREVGNTR EQ*                                        \a" +
+        "Znc cntr: ZNC V4  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: fgebat tnf fzryy sebz zrgre                                          \a" +
+        "kpry vfba gur jnl nf jryy                                                       \a" +
+        "hax rgn                                                                         \a" +
+        "zrgre ba jrfg fvqr                                                              \a" +
+        "ab bar vyy*",
+
+        "VQ:142060028",
+        "GVZR:08:18:41",
+        "PNYY:Ang tnf bqbe/bgu bqbe-abafzbxr(53)",
+        "NQQE:660 TBYQRA EVQTR EQ",
+        "PVGL:TBYQRA",
+        "K:UREVGNTR EQ/ UREVGNTR EQ",
+        "ZNC:V4",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:fgebat tnf fzryy sebz zrgre\akpry vfba gur jnl nf jryy\ahax rgn\azrgre ba jrfg fvqr\aab bar vyy*");
+
+    qbGrfg("G95",
+        "(PNQ pnyy 142050169) Pnyy#: 142050169*                                                               \a" +
+        "Gvzr: 23:36:58*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 1910 ZG MVBA QE, TBYQRA*                                              \a" +
+        "Pebff fgerrgf: SBBGUVYYF EQ/ TBYQRAIHR QE*                                      \a" +
+        "Znc cntr: ZNC S2  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2 ZRQ21*                                                       \a" +
+        "Aneengvir: 92 lb srznyr qvssvphygl oernguvat                                    \a" +
+        "pbagvbhf                                                                        \a" +
+        "Pnyy rznvyrq gb:                                                                \a" +
+        "832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*",
+
+        "VQ:142050169",
+        "GVZR:23:36:58",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:1910 ZG MVBA QE",
+        "PVGL:TBYQRA",
+        "K:SBBGUVYYF EQ/ TBYQRAIHR QE",
+        "ZNC:S2",
+        "HAVG:QVFG1 QVFG2 ZRQ21",
+        "VASB:92 lb srznyr qvssvphygl oernguvat\apbagvbhf\aPnyy rznvyrq gb:\a832-riSCCYunAeQLsE5E@nyreg.npgvir911.pbz*");
+
+    qbGrfg("G96",
+        "(PNQ pnyy 142050169) Pnyy#: 142050169*                                                               \a" +
+        "Gvzr: 23:36:58*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
+        "Ybpngvba: 1910 ZG MVBA QE, TBYQRA*                                              \a" +
+        "Pebff fgerrgf: SBBGUVYYF EQ/ TBYQRAIHR QE*                                      \a" +
+        "Znc cntr: ZNC S2  *                                                             \a" +
+        "Havgf: QVFG1 QVFG2*                                                             \a" +
+        "Aneengvir: 92 lb srznyr qvssvphygl oernguvat                                    \a" +
+        "pbagvbhf*",
+
+        "VQ:142050169",
+        "GVZR:23:36:58",
+        "PNYY:Nzohynapr naq Erfphr",
+        "NQQE:1910 ZG MVBA QE",
+        "PVGL:TBYQRA",
+        "K:SBBGUVYYF EQ/ TBYQRAIHR QE",
+        "ZNC:S2",
+        "HAVG:QVFG1 QVFG2",
+        "VASB:92 lb srznyr qvssvphygl oernguvat\apbagvbhf*");
+
+    qbGrfg("G97",
+        "(PNQ pnyy 142050147) Pnyy#: 142050147*                                                               \a" +
+        "Gvzr: 20:00:08*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr pnyy bayl (32)*                                         \a" +
+        "Ybpngvba: OHSSNYB EBFR FNYBBA, 1119 JNFUVATGBA NIR, TBYQRA*                     \a" +
+        "Pebff fgerrgf: 11GU FG/ 12GU FG*                                                \a" +
+        "Znc cntr: ZNC Q3  *                                                             \a" +
+        "Havgf: ZRQ21*                                                                   \a" +
+        "Aneengvir: cbff nypbuby cbvfvat  p/o jnyxvat nebhaq                             \a" +
+        "va ure rneyl 20f/ uvfgbel bs qeht hfr                                           \a" +
+        "fur vf n ovt gvzr qevaxre                                                       \a" +
+        "ec vf rzcyblrr ng ohssnyb ebfr naq gur fhow                                     \a" +
+        "va dhrfgvba vf nyfb na rzcyblrr                                                 \a" +
+        "fur vf fgnevat gb funxr abj                                                     \a" +
+        "gurl ner va gur nyyrl jnl oruvaq ohssnyb ebf*",
+
+        "VQ:142050147",
+        "GVZR:20:00:08",
+        "PNYY:Nzohynapr pnyy bayl (32)",
+        "CYNPR:OHSSNYB EBFR FNYBBA",
+        "NQQE:1119 JNFUVATGBA NIR",
+        "PVGL:TBYQRA",
+        "K:11GU FG/ 12GU FG",
+        "ZNC:Q3",
+        "HAVG:ZRQ21",
+        "VASB:cbff nypbuby cbvfvat  p/o jnyxvat nebhaq\ava ure rneyl 20f/ uvfgbel bs qeht hfr\afur vf n ovt gvzr qevaxre\aec vf rzcyblrr ng ohssnyb ebfr naq gur fhow\ava dhrfgvba vf nyfb na rzcyblrr\afur vf fgnevat gb funxr abj\agurl ner va gur nyyrl jnl oruvaq ohssnyb ebf*");
+
+    qbGrfg("G98",
+        "(PNQ pnyy 142050138) Pnyy#: 142050138*                                                               \a" +
+        "Gvzr: 19:15:53*                                                                 \a" +
+        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
         "Ybpngvba: TBYQRA CBYVPR QRCNEGZRAG, 911 10GU FG TCQ, TBYQRA*                    \a" +
         "Pebff fgerrgf: NENCNUBR FG/ PURLRAAR FG*                                        \a" +
         "Znc cntr: ZNC Q2  *                                                             \a" +
-        "Havgf: NZE131*                                                                  \a" +
-        "Aneengvir: oybbq qenj*                                                          \a\a\a\a\a\a" +
-        "  ",
+        "Havgf: ZRQ21*                                                                   \a" +
+        "Aneengvir: oybbq qenj*",
 
-        "VQ:123630019",
-        "GVZR:04:30:35",
-        "PNYY:Nzohynapr pnyy bayl (32)",
+        "VQ:142050138",
+        "GVZR:19:15:53",
+        "PNYY:Nzohynapr/RZF Pnyy (32)",
         "CYNPR:TBYQRA CBYVPR QRCNEGZRAG",
         "NQQE:911 10GU FG",
         "NCG:TCQ",
         "PVGL:TBYQRA",
         "K:NENCNUBR FG/ PURLRAAR FG",
         "ZNC:Q2",
-        "HAVG:NZE131",
+        "HAVG:ZRQ21",
         "VASB:oybbq qenj*");
 
-    qbGrfg("G44",
-        "(Tbyqra Sver) Pnyy#: 123630010*                                                               \a" +
-        "Gvzr: 01:35:08*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: 1300 TBYQRA PVE N205, TBYQRA*                                         \a" +
-        "Pebff fgerrgf: TBYQRA PVE/ TBYQRA PVE*                                          \a" +
-        "Znc cntr: ZNC V4  *                                                             \a" +
-        "Havgf: NZE132*                                                                  \a" +
-        "Aneengvir: 83  lb/z                                                             \a" +
-        "qvss oernguvat                                                                  \a" +
-        "erd aba rzretrag                                                                \a" +
-        "Pnyy rznvyrq gb:                                                                \a" +
-        "2023@vnenyregf.pbz                                                              \a" +
-        "2023o@vnenyregf.pbz*                                                            \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123630010",
-        "GVZR:01:35:08",
-        "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:1300 TBYQRA PVE",
-        "NCG:N205",
-        "PVGL:TBYQRA",
-        "K:TBYQRA PVE/ TBYQRA PVE",
-        "ZNC:V4",
-        "HAVG:NZE132",
-        "VASB:83  lb/z\aqvss oernguvat\aerd aba rzretrag\aPnyy rznvyrq gb:\a2023@vnenyregf.pbz\a2023o@vnenyregf.pbz*");
-
-    qbGrfg("G45",
-        "(Tbyqra Sver) Pnyy#: 123620053*                                                               \a" +
-        "Gvzr: 20:25:29*                                                                 \a" +
-        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
-        "Ybpngvba: 1300 TBYQRA PVE, TBYQRA*                                              \a" +
-        "Pebff fgerrgf: TBYQRA PVE/ TBYQRA PVE*                                          \a" +
-        "Znc cntr: ZNC V4  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: xvqf xabpxrq vagb gur sver chyy fgngvba                              \a" +
-        "ng gur fbhgu ragenapr ba znva sybbe                                             \a" +
-        "gur sver nynez vf abg tbvat bss ohg fbzr bgure                                  \a" +
-        "glcr bs abvfr be nynez pbzvat sebz vg                                           \a" +
-        "unf orra tbvat bss sbe gur ynfg 15 zvaf                                         \a" +
-        "arkg gb ncg 212*                                                                \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123620053",
-        "GVZR:20:25:29",
-        "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:1300 TBYQRA PVE",
-        "PVGL:TBYQRA",
-        "K:TBYQRA PVE/ TBYQRA PVE",
-        "ZNC:V4",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:xvqf xabpxrq vagb gur sver chyy fgngvba\ang gur fbhgu ragenapr ba znva sybbe\agur sver nynez vf abg tbvat bss ohg fbzr bgure\aglcr bs abvfr be nynez pbzvat sebz vg\aunf orra tbvat bss sbe gur ynfg 15 zvaf\aarkg gb ncg 212*");
-
-    qbGrfg("G46",
-        "(Tbyqra Sver) Pnyy#: 123620046*                                                               \a" +
-        "Gvzr: 17:07:15*                                                                 \a" +
-        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
-        "Ybpngvba: 1224 JNFUVATGBA NIR H105, TBYQRA*                                     \a" +
-        "Pebff fgerrgf: 12GU FG/ 13GU FG*                                                \a" +
-        "Znc cntr: ZNC R3  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: hax havg ahzore                                                      \a" +
-        "vaqvpngbe tra sver mbar 12                                                      \a" +
-        "ec 303 325 1978 cng sbff                                                        \a" +
-        "nverq*                                                                          \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123620046",
-        "GVZR:17:07:15",
-        "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:1224 JNFUVATGBA NIR",
-        "NCG:H105",
-        "PVGL:TBYQRA",
-        "K:12GU FG/ 13GU FG",
-        "ZNC:R3",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:hax havg ahzore\avaqvpngbe tra sver mbar 12\aec 303 325 1978 cng sbff\anverq*");
-
-    qbGrfg("G47",
-        "(Tbyqra Sver) Pnyy#: 123620037*                                                               \a" +
-        "Gvzr: 14:11:06*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
-        "Ybpngvba: 1549 PBHTNE PG, TBYQRA*                                               \a" +
-        "Pebff fgerrgf: PNALBA CBVAG PVE/ PNALBA CBVAG PVE*                              \a" +
-        "Znc cntr: ZNC P1  *                                                             \a" +
-        "Havgf: NZE131*                                                                  \a" +
-        "Aneengvir: NA SRYY N SRJ QNLF NTB NAQ ABJ UNF ONQ PENZCVAT                      \a" +
-        "78lb s / vf p / vf o*                                                           \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123620037",
-        "GVZR:14:11:06",
-        "PNYY:Nzohynapr/RZF Pnyy (32)",
-        "NQQE:1549 PBHTNE PG",
-        "PVGL:TBYQRA",
-        "K:PNALBA CBVAG PVE/ PNALBA CBVAG PVE",
-        "ZNC:P1",
-        "HAVG:NZE131",
-        "VASB:NA SRYY N SRJ QNLF NTB NAQ ABJ UNF ONQ PENZCVAT\a78lb s / vf p / vf o*");
-
-    qbGrfg("G48",
-        "(Tbyqra Sver) Pnyy#: 123620025*                                                               \a" +
-        "Gvzr: 09:53:16*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
-        "Ybpngvba: 323 BEVBA FG, TBYQRA*                                                 \a" +
-        "Pebff fgerrgf: J 2AQ CY/J 4GU NIR*                                              \a" +
-        "Znc cntr: ZNC W6  *                                                             \a" +
-        "Havgf: NZE132*                                                                  \a" +
-        "Aneengvir: 65lb z ur vf fvpx guebjvat hc naq unf qvneurn                        \a" +
-        "vf p / vf o*                                                                    \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123620025",
-        "GVZR:09:53:16",
-        "PNYY:Nzohynapr/RZF Pnyy (32)",
-        "NQQE:323 BEVBA FG",
-        "PVGL:TBYQRA",
-        "K:J 2AQ CY/J 4GU NIR",
-        "ZNC:W6",
-        "HAVG:NZE132",
-        "VASB:65lb z ur vf fvpx guebjvat hc naq unf qvneurn\avf p / vf o*");
-
-    qbGrfg("G49",
-        "(Tbyqra Sver) Pnyy#: 123620017*                                                               \a" +
-        "Gvzr: 08:18:17*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: 1819 CNESRG RFGNGRF QE, TBYQRA*                                       \a" +
-        "Pebff fgerrgf: 19GU FG/ LHPPN PG*                                               \a" +
-        "Znc cntr: ZNC S2  *                                                             \a" +
-        "Havgf: NZE131*                                                                  \a" +
-        "Aneengvir: cbff fgebxr                                                          \a" +
-        "vf 80 lb z                                                                      \a" +
-        "vf p/ vf o/                                                                     \a" +
-        "genafsre gb rzq//                                                               \a" +
-        "Pnyy rznvyrq gb:                                                                \a" +
-        "2023@vnenyregf.pbz                                                              \a" +
-        "2023o@vnenyregf.pbz*                                                            \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123620017",
-        "GVZR:08:18:17",
-        "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:1819 CNESRG RFGNGRF QE",
-        "PVGL:TBYQRA",
-        "K:19GU FG/ LHPPN PG",
-        "ZNC:S2",
-        "HAVG:NZE131",
-        "VASB:cbff fgebxr\avf 80 lb z\avf p/ vf o/\agenafsre gb rzq//\aPnyy rznvyrq gb:\a2023@vnenyregf.pbz\a2023o@vnenyregf.pbz*");
-
-    qbGrfg("G50",
-        "(Tbyqra Sver) Pnyy#: 123620014*                                                               \a" +
-        "Gvzr: 07:46:22*                                                                 \a" +
-        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
-        "Ybpngvba: 3050 VYYVABVF FG, TBYQRA*                                             \a" +
-        "Pebff fgerrgf: WRSSREFBA PBHAGL CXL/ WRSSREFBA PBHAGL CXL*                      \a" +
-        "Znc cntr: ZNC U4  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: vaq pyhoubhfr jngre sybj                                             \a" +
-        "c 3032778750                                                                    \a" +
-        "xu jnfa'g pbagnpgrq lrg*                                                        \a\a\a\a\a\a" +
-        "  ",
-
-        "VQ:123620014",
-        "GVZR:07:46:22",
-        "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:3050 VYYVABVF FG",
-        "PVGL:TBYQRA",
-        "K:WRSSREFBA PBHAGL CXL/ WRSSREFBA PBHAGL CXL",
-        "ZNC:U4",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:vaq pyhoubhfr jngre sybj\ac 3032778750\axu jnfa'g pbagnpgrq lrg*");
-
-    qbGrfg("G51",
-        "(Tbyqra Sver) Pnyy#: 130090127*                                                               \a" +
-        "Gvzr: 15:38:50*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
-        "Ybpngvba: FURYGBA RYRZRAGNEL FPUBBY, 420 PENJSBEQ FG FPUBBY, TBYQRA*            \a" +
-        "Pebff fgerrgf: PENJSBEQ QE/ GEVCC QE*                                           \a" +
-        "Znc cntr: ZNC W3  *                                                             \a" +
-        "Havgf: ZRQ22*                                                                   \a" +
-        "Aneengvir: fghqrag bhgfvqr / naxyr eha bire ol pne                              \a" +
-        "cnerag bs puvyq / nppvqragny                                                    \a" +
-        "evtug bhg sebag                                                                 \a" +
-        "fghqrag vf 6gu tenqre /                                                         \a" +
-        "ec abg jvgu fhow                                                                \a" +
-        "fgvyy erynlvat fgnghf gueh cevapvcny*                                           \a",
-
-        "VQ:130090127",
-        "GVZR:15:38:50",
-        "PNYY:Nzohynapr/RZF Pnyy (32)",
-        "CYNPR:FURYGBA RYRZRAGNEL FPUBBY",
-        "NQQE:420 PENJSBEQ FG",
-        "NCG:FPUBBY",
-        "PVGL:TBYQRA",
-        "K:PENJSBEQ QE/ GEVCC QE",
-        "ZNC:W3",
-        "HAVG:ZRQ22",
-        "VASB:fghqrag bhgfvqr / naxyr eha bire ol pne\acnerag bs puvyq / nppvqragny\aevtug bhg sebag\afghqrag vf 6gu tenqre /\aec abg jvgu fhow\afgvyy erynlvat fgnghf gueh cevapvcny*");
-
-  }
-  
-  @Grfg
-  choyvp ibvq grfgTbyqraSQ4() {
-
-    qbGrfg("G1",
-        "(PNQ pnyy 130930009) Pnyy#: 130930009*                                                               \a" +
-        "Gvzr: 04:37:08*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
-        "Ybpngvba: 1150 TBYQRA PVE N205, TBYQRA*                                         \a" +
-        "Pebff fgerrgf: TBYQRA PVE/ TBYQRA PVE*                                          \a" +
-        "Znc cntr: ZNC V4  *                                                             \a" +
-        "Havgf: ZRQ22*                                                                   \a" +
-        "Aneengvir: fgbznpu cnva 2030                                                    \a" +
-        "44 lbz  p/o                                                                     \a" +
-        "nobipr aoniry*                                                                  \a\a\a\a\a\a" +
-        "Guvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\a" +
-        "gur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\a" +
-        "gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\a" +
-        "ynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\a" +
-        "vagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\a" +
-        "zrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\a" +
-        "qvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\a" +
-        "cebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\a" +
-        "vzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\a" +
-        "nppbzcnalvat qbphzragf.  Gunax lbh.",
-
-        "VQ:130930009",
-        "GVZR:04:37:08",
-        "PNYY:Nzohynapr/RZF Pnyy (32)",
-        "NQQE:1150 TBYQRA PVE",
-        "NCG:N205",
-        "PVGL:TBYQRA",
-        "K:TBYQRA PVE/ TBYQRA PVE",
-        "ZNC:V4",
-        "HAVG:ZRQ22",
-        "VASB:fgbznpu cnva 2030\a44 lbz  p/o\anobipr aoniry");
-
-    qbGrfg("G2",
-        "(PNQ pnyy 130920116) Pnyy#: 130920116*                                                               \a" +
-        "Gvzr: 20:34:57*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
-        "Ybpngvba: 17150 J PBYSNK NIR, TBYQRA*                                           \a" +
-        "Pebff fgerrgf: UJL 6/ PBECBENGR QE*                                             \a" +
-        "Znc cntr: ZNC W5  *                                                             \a" +
-        "Havgf: ZRQ22*                                                                   \a" +
-        "Aneengvir: z1 riny / ebhgvar*                                                   \a\a\a\a\a\a" +
-        "Guvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\a" +
-        "gur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\a" +
-        "gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\a" +
-        "ynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\a" +
-        "vagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\a" +
-        "zrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\a" +
-        "qvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\a" +
-        "cebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\a" +
-        "vzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\a" +
-        "nppbzcnalvat qbphzragf.  Gunax lbh.",
-
-        "VQ:130920116",
-        "GVZR:20:34:57",
-        "PNYY:Nzohynapr/RZF Pnyy (32)",
-        "NQQE:17150 J PBYSNK NIR",
-        "PVGL:TBYQRA",
-        "K:UJL 6/ PBECBENGR QE",
-        "ZNC:W5",
-        "HAVG:ZRQ22",
-        "VASB:z1 riny / ebhgvar");
-
-    qbGrfg("G3",
-        "(PNQ pnyy 130920102) Pnyy#: 130920102*                                                               \a" +
-        "Gvzr: 17:27:35*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: 165 N FG, TBYQRA*                                                     \a" +
-        "Pebff fgerrgf: MRGN FG/ MHEVPU FG*                                              \a" +
-        "Znc cntr: ZNC W4  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: qvssvphygl oernguvat / pbcq / nfguzn                                 \a" +
-        "83lb s vf p*                                                                    \a\a\a\a\a\a" +
-        "Guvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\a" +
-        "gur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\a" +
-        "gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\a" +
-        "ynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\a" +
-        "vagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\a" +
-        "zrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\a" +
-        "qvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\a" +
-        "cebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\a" +
-        "vzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\a" +
-        "nppbzcnalvat qbphzragf.  Gunax lbh.",
-
-        "VQ:130920102",
-        "GVZR:17:27:35",
-        "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:165 N FG",
-        "PVGL:TBYQRA",
-        "K:MRGN FG/ MHEVPU FG",
-        "ZNC:W4",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:qvssvphygl oernguvat / pbcq / nfguzn\a83lb s vf p");
-
-    qbGrfg("G4",
-        "(PNQ pnyy 130920093) Pnyy#: 130920093*                                                               \a" +
-        "Gvzr: 14:36:20*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
-        "Ybpngvba: 1223 J PNZCHF EQ N304, TBYQRA*                                        \a" +
-        "Pebff fgerrgf: ZNCYR FG/ RYZ FG*                                                \a" +
-        "Znc cntr: ZNC R2  *                                                             \a" +
-        "Havgf: ZRQ21*                                                                   \a" +
-        "Aneengvir: ebbz 304                                                             \a" +
-        "19 srryvat ahzo                                                                 \a" +
-        "pnag zbir jevfg                                                                 \a" +
-        "pba naq oernguvat*                                                              \a\a\a\a\a\a" +
-        "Guvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\a" +
-        "gur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\a" +
-        "gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\a" +
-        "ynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\a" +
-        "vagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\a" +
-        "zrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\a" +
-        "qvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\a" +
-        "cebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\a" +
-        "vzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\a" +
-        "nppbzcnalvat qbphzragf.  Gunax lbh.",
-
-        "VQ:130920093",
-        "GVZR:14:36:20",
-        "PNYY:Nzohynapr/RZF Pnyy (32)",
-        "NQQE:1223 J PNZCHF EQ",
-        "NCG:N304",
-        "PVGL:TBYQRA",
-        "K:ZNCYR FG/ RYZ FG",
-        "ZNC:R2",
-        "HAVG:ZRQ21",
-        "VASB:ebbz 304\a19 srryvat ahzo\apnag zbir jevfg\apba naq oernguvat");
-
-    qbGrfg("G5",
-        "(PNQ pnyy 130920082) Pnyy#: 130920082*                                                               \a" +
-        "Gvzr: 14:06:13*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
-        "Ybpngvba: 1375 PNGNZBHAG QE, TBYQRA*                                            \a" +
-        "Pebff fgerrgf: CVAR EVQTR EQ/ TBYQRA TNGR PNALBA EQ*                            \a" +
-        "Znc cntr: ZNC N1  *                                                             \a" +
-        "Havgf: ZRQ21*                                                                   \a" +
-        "Aneengvir: nppbeqvat gb ahefr ng fg wbrf arrqf gb tb gurer                      \a" +
-        "abj pba naq oerngu                                                              \a" +
-        "ba oybbq cerffher zrqf                                                          \a" +
-        "zvq 80f srznyr                                                                  \a" +
-        "pba naq oerngu*                                                                 \a\a\a\a\a\a" +
-        "Guvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\a" +
-        "gur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\a" +
-        "gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\a" +
-        "ynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\a" +
-        "vagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\a" +
-        "zrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\a" +
-        "qvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\a" +
-        "cebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\a" +
-        "vzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\a" +
-        "nppbzcnalvat qbphzragf.  Gunax lbh.",
-
-        "VQ:130920082",
-        "GVZR:14:06:13",
-        "PNYY:Nzohynapr/RZF Pnyy (32)",
-        "NQQE:1375 PNGNZBHAG QE",
-        "PVGL:TBYQRA",
-        "K:CVAR EVQTR EQ/ TBYQRA TNGR PNALBA EQ",
-        "ZNC:N1",
-        "HAVG:ZRQ21",
-        "VASB:nppbeqvat gb ahefr ng fg wbrf arrqf gb tb gurer\aabj pba naq oerngu\aba oybbq cerffher zrqf\azvq 80f srznyr\apba naq oerngu");
-
-    qbGrfg("G6",
-        "(PNQ pnyy 130920077) Pnyy#: 130920077*                                                               \a" +
-        "Gvzr: 13:56:43*                                                                 \a" +
-        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
-        "Ybpngvba: 814 ENOOVG EHA QE, TBYQRA*                                            \a" +
-        "Pebff fgerrgf: RNTYR EVQTR QE/ RNTYR EVQTR QE*                                  \a" +
-        "Znc cntr: ZNC U3  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: mbar 6*                                                              \a\a\a\a\a\a" +
-        "Guvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\a" +
-        "gur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\a" +
-        "gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\a" +
-        "ynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\a" +
-        "vagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\a" +
-        "zrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\a" +
-        "qvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\a" +
-        "cebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\a" +
-        "vzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\a" +
-        "nppbzcnalvat qbphzragf.  Gunax lbh.",
-
-        "VQ:130920077",
-        "GVZR:13:56:43",
-        "PNYY:Sver Nynez Npgvingvba (73)",
-        "NQQE:814 ENOOVG EHA QE",
-        "PVGL:TBYQRA",
-        "K:RNTYR EVQTR QE/ RNTYR EVQTR QE",
-        "ZNC:U3",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:mbar 6");
-
-    qbGrfg("G7",
-        "(PNQ pnyy 130920025) Pnyy#: 130920025*                                                               \a" +
-        "Gvzr: 08:15:05*                                                                 \a" +
-        "Glcr bs pnyy: Sver Nynez Npgvingvba (73)*                                       \a" +
-        "Ybpngvba: JNGRE GERNGZRAG CYNAG, 1409 10GU FG, TBYQRA*                          \a" +
-        "Pebff fgerrgf: ZNCYR FG/ ZNCYR FG*                                              \a" +
-        "Znc cntr: ZNC R2  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: fzbxr qrgrpgbe va xvgpura oheag sbbq*                                \a\a\a\a\a\a" +
-        "Guvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\a" +
-        "gur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\a" +
-        "gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\a" +
-        "ynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\a" +
-        "vagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\a" +
-        "zrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\a" +
-        "qvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\a" +
-        "cebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\a" +
-        "vzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\a" +
-        "nppbzcnalvat qbphzragf.  Gunax lbh.",
-
-        "VQ:130920025",
-        "GVZR:08:15:05",
-        "PNYY:Sver Nynez Npgvingvba (73)",
-        "CYNPR:JNGRE GERNGZRAG CYNAG",
-        "NQQE:1409 10GU FG",
-        "PVGL:TBYQRA",
-        "K:ZNCYR FG/ ZNCYR FG",
-        "ZNC:R2",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:fzbxr qrgrpgbe va xvgpura oheag sbbq");
-
-    qbGrfg("G8",
-        "(PNQ pnyy 130910055) Pnyy#: 130910055*                                                               \a" +
-        "Gvzr: 16:10:40*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: 18236 J 4GU NIR, TBYQRA*                                              \a" +
-        "Pebff fgerrgf: MRGN FG/ TBYQRA PVE*                                             \a" +
-        "Znc cntr: ZNC W4  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: pbcq / rzcunmrzn / 66 lbz p/ qvss oerngu*                            \a\a\a\a\a\a" +
-        "Guvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\a" +
-        "gur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\a" +
-        "gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\a" +
-        "ynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\a" +
-        "vagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\a" +
-        "zrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\a" +
-        "qvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\a" +
-        "cebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\a" +
-        "vzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\a" +
-        "nppbzcnalvat qbphzragf.  Gunax lbh.",
-
-        "VQ:130910055",
-        "GVZR:16:10:40",
-        "PNYY:Nzohynapr naq Erfphr",
-        "NQQE:18236 J 4GU NIR",
-        "PVGL:TBYQRA",
-        "K:MRGN FG/ TBYQRA PVE",
-        "ZNC:W4",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:pbcq / rzcunmrzn / 66 lbz p/ qvss oerngu");
-
-    qbGrfg("G9",
-        "(PNQ pnyy 130910050) Pnyy#: 130910050*                                                               \a" +
-        "Gvzr: 14:54:22*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr/RZF Pnyy (32)*                                          \a" +
-        "Ybpngvba: 1270 A SBEQ FG N100, TBYQRA*                                          \a" +
-        "Pebff fgerrgf: CVAR EVQTR EQ/ IVETVAVN FG*                                      \a" +
-        "Znc cntr: ZNC N2  *                                                             \a" +
-        "Havgf: ZRQ21*                                                                   \a" +
-        "Aneengvir: 96 lbs p/o sryy sebz jurry punve                                     \a" +
-        "cbff evtug uvc vawhel*                                                          \a\a\a\a\a\a" +
-        "Guvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\a" +
-        "gur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\a" +
-        "gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\a" +
-        "ynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\a" +
-        "vagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\a" +
-        "zrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\a" +
-        "qvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\a" +
-        "cebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\a" +
-        "vzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\a" +
-        "nppbzcnalvat qbphzragf.  Gunax lbh.",
-
-        "VQ:130910050",
-        "GVZR:14:54:22",
-        "PNYY:Nzohynapr/RZF Pnyy (32)",
-        "NQQE:1270 A SBEQ FG",
-        "NCG:N100",
-        "PVGL:TBYQRA",
-        "K:CVAR EVQTR EQ/ IVETVAVN FG",
-        "ZNC:N2",
-        "HAVG:ZRQ21",
-        "VASB:96 lbs p/o sryy sebz jurry punve\acbff evtug uvc vawhel");
-
-    qbGrfg("G10",
-        "(PNQ pnyy 130910032) Pnyy#: 130910032*                                                               \a" +
-        "Gvzr: 10:56:46*                                                                 \a" +
-        "Glcr bs pnyy: Nzohynapr naq Erfphr*                                             \a" +
-        "Ybpngvba: WRSSREFBA PBHAGL PBHEG UBHFR, 100 WRSSREFBA PBHAGL CXL, TBYQRA*       \a" +
-        "Pebff fgerrgf: PBHEGUBHFR QE/ PBHEGUBHFR QE*                                    \a" +
-        "Znc cntr: ZNC V4  *                                                             \a" +
-        "Havgf: QVFG1 QVFG2*                                                             \a" +
-        "Aneengvir: 38lbz vf p vf o purfg cnvaf                                          \a" +
-        "jvyy zrrg va gur frphevgl*                                                      \a\a\a\a\a\a" +
-        "Guvf rznvy naq gur nggnpurq qbphzragf (vs nal) ner vagraqrq bayl sbe gur hfr bs\a" +
-        "gur vaqvivqhny be ragvgl gb juvpu gurl ner nqqerffrq naq znl pbagnva vasbezngvba\a" +
-        "gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz qvfpybfher haqre nccyvpnoyr\a" +
-        "ynj.  Vs gur ernqre bs guvf zrffntr naq gur nppbzcnalvat qbphzragf vf abg gur\a" +
-        "vagraqrq erpvcvrag be gur rzcyblrr be ntrag erfcbafvoyr sbe qryvirevat gur\a" +
-        "zrffntr gb gur vagraqrq erpvcvrag, lbh ner urerol abgvsvrq gung nal\a" +
-        "qvffrzvangvba, qvfgevohgvba be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl\a" +
-        "cebuvovgrq.  Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf\a" +
-        "vzzrqvngryl ol gryrcubar naq shyyl qryrgr gur bevtvany zrffntr naq nal\a" +
-        "nppbzcnalvat qbphzragf.  Gunax lbh.",
-
-        "VQ:130910032",
-        "GVZR:10:56:46",
-        "PNYY:Nzohynapr naq Erfphr",
-        "CYNPR:WRSSREFBA PBHAGL PBHEG UBHFR",
-        "NQQE:100 WRSSREFBA PBHAGL CXL",
-        "ZNQQE:100 WRSSREFBA PBHAGL CXJL",
-        "PVGL:TBYQRA",
-        "K:PBHEGUBHFR QE/ PBHEGUBHFR QE",
-        "ZNC:V4",
-        "HAVG:QVFG1 QVFG2",
-        "VASB:38lbz vf p vf o purfg cnvaf\ajvyy zrrg va gur frphevgl");
-    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
