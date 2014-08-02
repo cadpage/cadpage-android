@@ -1,12 +1,13 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 /**
- * Bell County, TX
+ * Base class for parsing Spillman CAD system alerts
  */
 public class DispatchA19Parser extends FieldProgramParser {
   
@@ -16,9 +17,20 @@ public class DispatchA19Parser extends FieldProgramParser {
   private static final Pattern FIELD_BREAK = Pattern.compile(" (ACTIVE CALL|REPORTED|Type|Zone|Phone):");
   private static final Pattern FIELD_DELIM = Pattern.compile(" *\n+ *");
   
+  private boolean refLatLong = false; 
+  private double refLat;
+  private double refLong;
+  
+  public DispatchA19Parser(String defCity, String defState, double refLat, double refLong) {
+    this(defCity, defState);
+    refLatLong = true;
+    this.refLat = refLat;
+    this.refLong = refLong;
+  }
+  
   public DispatchA19Parser(String defCity, String defState) {
     super(defCity, defState,
-           "INCIDENT:ID? LONG_TERM_CAD:ID? ACTIVE_CALL:ID? PRIORITY:PRI? REPORTED:TIMEDATE? Nature:CALL! Type:SKIP! Address:ADDR! Zone:MAP! City:CITY! SearchAddresss:SKIP? LAT-LON:GPS? Responding_Units:UNIT! Directions:INFO! INFO+ Cross_Streets:X? X+ Comments:INFO? INFO+ Contact:NAME Phone:PHONE");
+           "INCIDENT:ID? LONG_TERM_CAD:ID? ACTIVE_CALL:ID? PRIORITY:PRI? REPORTED:TIMEDATE? Nature:CALL! Type:SKIP! Address:ADDR! Zone:MAP! City:CITY! SearchAddresss:SKIP? LAT-LON:GPS? Responding_Units:UNIT! Directions:INFO! INFO+ Cross_Streets:X? X+ XY_Coordinates:XYPOS? Comments:INFO? INFO+ Contact:NAME Phone:PHONE");
 
   }
   
@@ -54,6 +66,7 @@ public class DispatchA19Parser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("X")) return new MyCrossField();
+    if (name.equals("XYPOS")) return new MyXYPosField();
     if (name.equals("PHONE")) return new MyPhoneField();
     return super.getField(name);
   }
@@ -155,6 +168,21 @@ public class DispatchA19Parser extends FieldProgramParser {
           super.parse(street, data);
         }
       }
+    }
+  }
+  
+  // Internal spillman X-Y Coordinates
+  private static final Pattern XYPOS_PTN = Pattern.compile("xpos: *([-+]?\\d+) +ypos: *([-+]?\\d+)");
+  private class MyXYPosField extends GPSField {
+    @Override
+    public void parse(String field, Data data) {
+      if (!refLatLong) return;
+      if (data.strGPSLoc.length() > 0) return;
+      Matcher match = XYPOS_PTN.matcher(field);
+      if (!match.matches()) abort();
+      double lat = refLat + Integer.parseInt(match.group(2))/100000.;
+      double lon = refLong + Integer.parseInt(match.group(1))/100000.;
+      data.strGPSLoc = String.format(Locale.US, "%+8.6f,%+8.6f", lat, lon);
     }
   }
   
