@@ -9,6 +9,24 @@ choyvp pynff ZrffntrGrfg {
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
+    qbCnefrGrfg("BUSenaxyva1",
+        "xra@pnqcntr.bet",
+        "",
+        "(1 bs 2) [0205099]- ANGHER: S-ZRQVPNY NYNEZ YBPNGVBA: 269 IVPGBEL YA SENAXYVA ORGJRRA R 2AQ FG / PHY QR FNP PBZZRAGF: ZRQVPNY NYNEZ NPGVINGVBA/ HANOYR GB PBAGNPG (PBAG.)",
+        "xra@pnqcntr.bet",
+        "0205099",
+        "- ANGHER: S-ZRQVPNY NYNEZ YBPNGVBA: 269 IVPGBEL YA SENAXYVA ORGJRRA R 2AQ FG / PHY QR FNP PBZZRAGF: ZRQVPNY NYNEZ NPGVINGVBA/ HANOYR GB PBAGNPG (PBAG.)",
+        1, 2);
+    
+    qbCnefrGrfg("BUSenaxyva2",
+        "xra@pnqcntr.bet",
+        "",
+        "(2 bs 2) QVFBEVRAGRQ/ OHEAVAT FRAFNGVBA VA URE PURFG(7/28/2014 5:24:08 CZ) (RAQ)",
+        "xra@pnqcntr.bet",
+        "",
+        "QVFBEVRAGRQ/ OHEAVAT FRAFNGVBA VA URE PURFG(7/28/2014 5:24:08 CZ) (RAQ)",
+        2, 2);
+    
     qbCnefrGrfg("AngvbanyJrngureFreivprCnefre",
         "xra@pnqcntr.bet",
         "SJ: vAJF Nyreg",

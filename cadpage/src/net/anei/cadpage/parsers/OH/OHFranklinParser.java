@@ -12,13 +12,13 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 public class OHFranklinParser extends DispatchEmergitechParser {
   
-  private static final Pattern ID_DATE_TIME_PTN = Pattern.compile(" +-(\\d{7})\\((\\d\\d?/\\d\\d?/\\d{4}) +(\\d\\d?:\\d\\d?:\\d\\d? [AP]M)\\)$");
+  private static final Pattern ID_DATE_TIME_PTN = Pattern.compile(" *(?:-(\\d{7}))?\\((\\d\\d?/\\d\\d?/\\d{4}) +(\\d\\d?:\\d\\d?:\\d\\d? [AP]M)\\)$");
   private static final Pattern GPS_PTN = Pattern.compile("^X([-+]\\d+\\.\\d{4,}) +Y([-+]\\d+\\.\\d{4,})\\b");
   
   private static DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
   
   public OHFranklinParser() {
-    super("", 60, CITY_LIST, "FRANKLIN", "OH");
+    super("", 0, CITY_LIST, "FRANKLIN", "OH");
     addSpecialWords("ASHGROVE", "MISSION", "THOMAS");
   }
   
@@ -29,6 +29,8 @@ public class OHFranklinParser extends DispatchEmergitechParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    body = body.replace(" (CONT.) ", " ").replace(" (CONT.", " "); 
+    body = stripFieldEnd(body, "(END)");
     if (subject.length() == 7 && NUMERIC.matcher(subject).matches()) {
       body = '[' + subject + ']' + body;
     } else if (subject.startsWith("CAD")) {
@@ -37,7 +39,7 @@ public class OHFranklinParser extends DispatchEmergitechParser {
     
     Matcher match = ID_DATE_TIME_PTN.matcher(body);
     if (match.find()) {
-      data.strCallId = match.group(1);
+      data.strCallId = getOptGroup(match.group(1));
       data.strDate = match.group(2);
       setTime(TIME_FMT, match.group(3), data);
       body = body.substring(0,match.start());
@@ -64,6 +66,7 @@ public class OHFranklinParser extends DispatchEmergitechParser {
     "FRANKLIN",
     "FRANKLIN TWP",
     "LEBANON",
-    "MIDDLETOWN"
+    "MIDDLETOWN",
+    "SPRINGBORO"
   };
 }

@@ -3528,9 +3528,6 @@ If there isn't one, or if it does not fix the existing alerts, long
 press all of your existing calls and select "Report Problem" to send
 them to us.  We can use that information to write a new location parser
 for you.
-***********************************************************************
-Useful search expressions
-^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)
 
 ***************************************************************************
 
@@ -3577,3 +3574,6 @@ in Cadpage and in your message regardless of how this is set.
 
 Have a nice day,
 -Ken
+***********************************************************************
+Useful search expressions
+^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)
