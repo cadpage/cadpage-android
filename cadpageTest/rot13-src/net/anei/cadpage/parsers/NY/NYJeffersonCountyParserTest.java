@@ -34,6 +34,10 @@ Pbagnpg: Znhfre*Tvey <znhfretvey@tznvy.pbz>
 Sebz: 6245
 fraggb-76513067-101-1314862564-3159559896=igrkg.pbz@ergheaf.tebhcf.lnubb.pbz ([pneguntrnzohynapr] QVFCNGPU:1191) SNYY|1045 JRFG FG:PNEGUNTR(I)|83 L/S SRYY BHG BS ORQ OEBXRA ABFR NA
 
+Pbagnpg: alfrzg3 <alfrzg3@tznvy.pbz>
+Fraqre: bja cubar
+([GJNF Grkg Nyreg] QVFCNGPU:4691) HAPBAF/SNVAGVAT|20828 FGNGR EBHGR 3; YBJRF:JNGREGBJA(G)|ZNYR SNVAGRQ NAQ SRYY ABJ NJNXR  78 ZNYR
+
 Pbagnpg: fhccbeg@npgvir911.pbz
 Ntrapl anzr: Nqnzf Sver Qrcg. 
 (QVFCNGPU:1) PUVZARL SVER|12636 PBHAGL EBHGR 66:NQNZF(G)|PUVZARL SVER   PNYYONPX=(315)783-7406 YNG=  YBA= HAP=    05315-783-7406 03/08 13:43:40  086PNHGVBA:  JVERYRFF PNYY         JVERYRFF-NG&nzc;G ZBOVYVGL(GPF) JCU1   18864         PNQL EQ                                        NQNZF PRAGRE                  ALPRYY = 3034  FRPGBE = 3                             YNG:+043.910222  YBA:-075.996056RYI:+00000 PBS:0         PBC:000ZGA:315-511-4609       PCS:NGGZB-911nv.pbz-            RFA:00888                                IREVSL CQ                       IREVSL SQ                       IREVSL RZF
@@ -138,7 +142,21 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1045 JRFG FG",
         "PVGL:PNEGUNTR",
         "VASB:83 L/S SRYY BHG BS ORQ OEBXRA ABFR NA");
- }
+  }
+  
+  @Grfg
+  choyvp ibvq grfgAlfrzg3() {
+
+    qbGrfg("G1",
+        "([GJNF Grkg Nyreg] QVFCNGPU:4691) HAPBAF/SNVAGVAT|20828 FGNGR EBHGR 3; YBJRF:JNGREGBJA(G)|ZNYR SNVAGRQ NAQ SRYY ABJ NJNXR  78 ZNYR",
+        "PNYY:HAPBAF/SNVAGVAT",
+        "NQQE:20828 FGNGR EBHGR 3",
+        "ZNQQE:20828 FGNGR 3",
+        "CYNPR:YBJRF",
+        "PVGL:JNGREGBJA",
+        "VASB:ZNYR SNVAGRQ NAQ SRYY ABJ NJNXR 78 ZNYR");
+    
+  }
   
   @Grfg
   choyvp ibvq grfgNpgvir911N() {
