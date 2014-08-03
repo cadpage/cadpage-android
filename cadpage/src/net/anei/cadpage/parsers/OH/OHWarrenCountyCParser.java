@@ -7,17 +7,24 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-public class OHHarveysburgParser extends FieldProgramParser {
+public class OHWarrenCountyCParser extends FieldProgramParser {
 
-  public OHHarveysburgParser() {
-    super("HARVEYSBURG", "OH", "CALL! Loc:PLACE? Add:ADDR! Bld:APT? Flag:FLAG! Comp:NAME! Px:PHONE! Map:MAP! Beat:MAP! Badge:SKIP? Off:SKIP? XSt1:X? XSt2:X? Cmt:COMMENT");//Cmt:SKIP Incident_Initiated_By:INFO? Original_Location:INFO? Primary_Event:SKIP? Opened:DATETIME? Incident_Initiated_By:INFO? Time:TIME");
+  public OHWarrenCountyCParser() {
+    super("WARREN COUNTY", "OH", 
+          "CALL! Loc:PLACE? Add:ADDR! Bld:APT? Flag:FLAG! Comp:NAME! Px:PHONE! Map:MAP! Beat:MAP! Badge:SKIP? Off:SKIP? XSt1:X? XSt2:X? Cmt:COMMENT");
   }
   
   public String getProgram() {
     return "ID " + super.getProgram();
   }
   
-  private static Pattern CALLID = Pattern.compile("([A-Z]{1,3}\\d{12,14}) +(.*)");
+  public String adjustMapAddress(String addr) {
+    addr = STAB_PTN.matcher(addr).replaceAll("ST");
+    return super.adjustMapAddress(addr);
+  }
+  private static final Pattern STAB_PTN = Pattern.compile("\\bST[AB]\\b", Pattern.CASE_INSENSITIVE);
+  
+  private static Pattern CALLID = Pattern.compile("([A-Z][A-Z0-9]{0,2}\\d{12,14}) +(.*)");
   protected boolean parseMsg(String subject, String body, Data data) {
     //parse call id from head of string
     Matcher mat = CALLID.matcher(body);

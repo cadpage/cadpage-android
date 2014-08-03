@@ -393,7 +393,7 @@ class Active911Vendor extends Vendor {
       "US/OH/CityofXenia",                "OHGreeneCounty",
       "US/OH/Fairfield",                  "OHFairfieldCounty",
       "US/OH/HamiltonCounty",             "OHHamiltonCounty",
-      "US/OH/Harveysburg",                "OHHarveysburg",
+      "US/OH/Harveysburg",                "OHWarrenCountyC",
       "US/OH/HolmesCountySheriff",        "OHHolmesCounty",
       "US/OH/Sebring",                    "OHMahoningCounty",
       "US/OH/WarrenCountyEmergitech",     "OHFranklin",
