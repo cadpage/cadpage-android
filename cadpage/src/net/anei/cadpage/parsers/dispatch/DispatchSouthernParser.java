@@ -45,7 +45,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{2,4}-?(?:\\d\\d-)?\\d{4,8}$");
   private static final Pattern CALL_PTN = Pattern.compile("^([A-Z0-9\\- /]+)\\b[ \\.,-]*");
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
-  private static final Pattern EXTRA_CROSS_PTN = Pattern.compile("(?:AND +|& *)(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern EXTRA_CROSS_PTN = Pattern.compile("(?:AND +|[/&] *)(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern CALL_BRK_PTN = Pattern.compile(" +/+ *");
 
   private boolean leadDispatch;
@@ -59,6 +59,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private boolean impliedApt;
   private CodeSet callSet;
   private Pattern unitPtn;
+  
+  private String defaultFieldList;
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState) {
     this(null, cityList, defCity, defState, DSFLAG_DISPATCH_ID);
@@ -110,7 +112,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     sb.append(" CODE ID TIME");
     if (unitId) sb.append(" UNIT");
     sb.append(" CALL INFO");
-    setFieldList(sb.toString());
+    defaultFieldList = sb.toString();
   }
 
   @Override
@@ -149,6 +151,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     // We already found a time field.  Use that to split the message 
     // into and address and extra versions 
     else {
+      setFieldList(defaultFieldList);
       data.strTime = match.group(2);
       String sAddr = body.substring(0,match.start()).trim();
       String sExtra = body.substring(match.end()).trim();
