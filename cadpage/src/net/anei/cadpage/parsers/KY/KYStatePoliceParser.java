@@ -43,24 +43,62 @@ public class KYStatePoliceParser extends DispatchB2Parser {
     return super.isPageMsg(body);
   }
 
+  @Override
+  protected boolean parseAddrField(String field, Data data) {
+    field = field.replace('@', '&');
+    return super.parseAddrField(field, data);
+  }
+
   private static final String[] CITY_LIST = new String[]{
+    "BEDFORD",
     "BOURBON",
     "BROOKSVILLE",
     "CAMPBELLSBURG",
+    "CARROLLTON",
+    "CONGLETON",
     "CORINTH",
+    "CRESTWOOD",
     "CRITTENDEN",
     "CYNTHIANA",
     "DRY RIDGE",
+    "EMINENCE",
     "FALMOUTH",
     "FLORENCE",
+    "FRANKFORT",
+    "GLENCOE",
     "HARRISON",
+    "JONESVILLE",
+    "LAGRANGE",
     "MILFORD",
+    "MILTON",
     "MILLERSBURG",
+    "NEW CASTLE",
+    "NEW LIBERTY",
+    "OWEN",
+    "OWENTON",
     "PARIS",
     "PENDLETON",
+    "PLEASUREVILLE",
+    "PORT ROYAL",
     "ROBERTSON",
     "SADIEVILLE",
-    "WILLIAMSTOWN"
+    "SANDERS",
+    "SMITHFIELD",
+    "SPARTA",
+    "SULPHUR",
+    "WARSAW",
+    "WILLIAMSTOWN",
+    
+    //COUNTIES
+    "CARROLL COUNTY",
+    "GALLATIN COUNTY",
+    "GRANT COUNTY",
+    "HENRY COUNTY",
+    "JEFFERSON COUNTY",
+    "OLDHAM COUNTY",
+    "OWEN COUNTY",
+    "TRIMBLE COUNTY",
+    
   };
 
 
