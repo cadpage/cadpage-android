@@ -33,6 +33,13 @@ public class ILKaneCountyAParser extends DispatchA42Parser {
   }
   
   @Override
+  protected boolean isHouseNumber(String token) {
+    if (SPEC_STREET_NBR_PTN.matcher(token).matches()) return true;
+    return super.isHouseNumber(token);
+  }
+  private static final Pattern SPEC_STREET_NBR_PTN = Pattern.compile("(\\d{2}[NSEW])(\\d+)");
+
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
     if (!subject.equals("Dispatch Incident")) return false;

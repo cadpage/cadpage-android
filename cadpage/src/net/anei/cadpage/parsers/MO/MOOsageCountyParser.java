@@ -20,6 +20,7 @@ public class MOOsageCountyParser extends DispatchGlobalDispatchParser {
         "MARTINS BLUFF",
         "ROLLINS FERRY"
     );
+    setAllowDirectionHwyNames();
   }
   
   @Override

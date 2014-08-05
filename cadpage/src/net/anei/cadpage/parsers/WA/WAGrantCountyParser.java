@@ -12,6 +12,7 @@ public class WAGrantCountyParser extends SmartAddressParser {
 
   public WAGrantCountyParser() {
     super("GRANT COUNTY", "WA");
+    setAllowDirectionHwyNames();
   }
 
   private static Pattern MASTER2 = Pattern.compile("(?:([A-Za-z0-9]+):)?([^:]+?):([^:]+?):([^:]*?):INF:(.*?)(?: +(\\d\\d:\\d\\d:\\d\\d) +(\\d\\d/\\d\\d/\\d{4}))?(?: +- +([^:]+?))? *:CNT:(.*?):PH:(.*?)");

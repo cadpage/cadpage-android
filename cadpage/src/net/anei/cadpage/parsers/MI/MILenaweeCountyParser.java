@@ -21,6 +21,7 @@ public class MILenaweeCountyParser extends FieldProgramParser {
         "POSEY LAKE"
     );
     addCrossStreetNames("FULTON COUNTY FAIRGROUNDS");
+    setAllowDirectionHwyNames();
   }
   
   @Override

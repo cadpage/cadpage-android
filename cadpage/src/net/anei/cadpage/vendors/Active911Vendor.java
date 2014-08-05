@@ -159,6 +159,7 @@ class Active911Vendor extends Vendor {
       "US/AL/Shelby",                     "ALShelbyCounty",
       "US/AL/TalladegaCounty",            "ALTalladega",
       "US/AL/Tallapoosa911",              "StandardA",
+      "US/AR/CityofRogers",               "ARBentonCountyB",
       "US/AR/LifeNetEms",                 "ARGarlandCounty",
       "US/CA/AmadorCounty",               "CAAmadorCounty",
       "US/CA/CalaverasCounty",            "CACalaverasCounty",

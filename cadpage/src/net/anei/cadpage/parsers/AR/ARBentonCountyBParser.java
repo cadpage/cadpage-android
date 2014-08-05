@@ -10,7 +10,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class ARBentonCountyBParser extends FieldProgramParser {
 
   public ARBentonCountyBParser() {
-    super(CITY_LIST, "BENTON COUNTY", "AR", "Location:ADDR/Sx! Map:MAP Cross_Streets:X! Call_Type:CALL! Narrative:INFO! INFO+ Call_Time:DATETIME! Incident_Number:ID! Units:UNIT!");
+    super("BENTON COUNTY", "AR", 
+          "INC_TYPE:CALL! COMPANIES:UNIT! ADDRESS:ADDR!");
   }
   
   @Override
@@ -18,86 +19,51 @@ public class ARBentonCountyBParser extends FieldProgramParser {
     return MsgInfo.MAP_FLG_SUPPR_AND_ADJ;
   }
 
-  private static Pattern UNDERSCORES = Pattern.compile(" +_* *");
-
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    // replace " +_* *" patterns with single space
-    Matcher uMat = UNDERSCORES.matcher(body);
-    body = uMat.replaceAll(" ");
-
+    if (!subject.equals("CAD Dispatch")) return false;
+    if (!body.startsWith("***")) return false;
+    body = body.substring(3).trim();
+    if (body.endsWith("***EOT***")) {
+      body = body.substring(0,body.length()-9).trim();
+    } else {
+      data.expectMore = true;
+    }
     return super.parseMsg(body, data);
   }
 
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("MAP")) return new MapField("Map *(.*?)");
     return super.getField(name);
   }
 
-  private static Pattern TRIMMED_COMMA = Pattern.compile(" *, *");
-
+  private static final Pattern ADDR_PTN = Pattern.compile("([^,]*) , ([ A-Z]*) , ([A-Z]{2})(?: ([^ ].*?))?  (.*?)(?:\\bMap (\\d{4}))?");
   private class MyAddressField extends AddressField {
 
     @Override
     public void parse(String field, Data data) {
-      //Split state, and save if it isn't AR
-      String[] fields = TRIMMED_COMMA.split(field);
-      if (!fields[1].equals("AR")) data.strState = fields[1];
-      parseAddress(StartType.START_ADDR, fields[0], data);
+      if (field.startsWith(",")) field = ' ' + field;
+      Matcher match = ADDR_PTN.matcher(field);
+      if (!match.matches()) abort();
+      String addr = match.group(1).trim();
+      data.strCity = match.group(2).trim();
+      String state = match.group(3);
+      if (!state.equals("AR")) data.strState = state;
+      data.strPlace = getOptGroup(match.group(4));
+      data.strSupp = match.group(5).trim();
+      data.strMap = getOptGroup(match.group(6));
+      
+      if (addr.length() == 0) {
+        addr = data.strPlace;
+        data.strPlace = "";
+      }
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, addr, data);
     }
 
     @Override
     public String getFieldNames() {
-      return "ADDR CITY ST";
+      return "ADDR APT CITY ST PLACE INFO MAP";
     }
   }
-  
-  private static Pattern CALL_PRI = Pattern.compile("(.*?) *(?:Pri *(.*))?");
-  
-  private class MyCallField extends Field {
-
-    @Override
-    public void parse(String field, Data data) {
-      //Grab and save Call and Pri from field
-      Matcher cpMat = CALL_PRI.matcher(field);
-      if (!cpMat.matches()) abort();
-      data.strCall = cpMat.group(1);
-      data.strPriority = getOptGroup(cpMat.group(2));
-    }
-
-    @Override
-    public String getFieldNames() {
-      return "CALL PRI";
-    }
-    
-  }
-
-  private static String[] CITY_LIST = new String[] {
-  "AVOCA",
-  "BELLA VISTA",
-  "BENTON COUNTY",
-  "BENTONVILLE",
-  "BETHEL HEIGHTS",
-  "CAVE SPRINGS",
-  "CENTERTON",
-  "DECATUR",
-  "ELM SPRINGS",
-  "GARFIELD",
-  "GATEWAY",
-  "GENTRY",
-  "GRAVETTE",
-  "HIGHFILL",
-  "LITTLE FLOCK",
-  "LOWELL",
-  "PEA RIDGE",
-  "ROGERS",
-  "SILOAM SPRINGS",
-  "SPRINGDALE",
-  "SPRINGTOWN",
-  "SULPHUR SPRINGS",
-  "WAR EAGLE"};
-  
 }

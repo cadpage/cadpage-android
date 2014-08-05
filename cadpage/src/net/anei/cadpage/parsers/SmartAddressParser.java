@@ -292,6 +292,9 @@ public abstract class SmartAddressParser extends MsgParser {
   // Call lookup table
   private CodeSet callDictionary = null;
   
+  // Permanent address flags
+  private boolean allowDirectionHwyNames = false;
+  
   public SmartAddressParser(String[] cities, String defCity, String defState) {
     this(cities, defCity, defState, CountryCode.US);
   }
@@ -561,6 +564,14 @@ public abstract class SmartAddressParser extends MsgParser {
   @Override
   public CodeSet getCallList() {
     return callDictionary;
+  }
+  
+  protected void setAllowDirectionHwyNames() {
+    setAllowDirectionHwyNames(true);
+  }
+  
+  public void setAllowDirectionHwyNames(boolean allowDirectionHwyNames) {
+    this.allowDirectionHwyNames = allowDirectionHwyNames;
   }
   
   /**
@@ -2342,11 +2353,11 @@ public abstract class SmartAddressParser extends MsgParser {
     // it is one or two characters long
     // all of the characters are letters
     // it is not a common 2 letter word
-    // The ordinal directions (NSEW) are legitimate alpha routes (grumble)
+    // The ordinal directions (NSEW) may be legitimate alpha routes (grumble)
     if (mask == 0) {
       if (ROUTE_NUMBER_PTN.matcher(token).matches()) mask |= ID_ALPHA_ROUTE;
     } else {
-      if (token.length() == 1 && "NSEW".contains(token)) {
+      if (allowDirectionHwyNames && token.length() == 1 && "NSEW".contains(token)) {
         mask |= ID_ALPHA_ROUTE;
       }
     }
@@ -2450,11 +2461,18 @@ public abstract class SmartAddressParser extends MsgParser {
     // Try it against the numeric street number pattern
     // which allows a trailing letter qualifier
     if (ndx >= tokens.length) return false;
-    String token = tokens[ndx];
+    return isHouseNumber(tokens[ndx]);
+  }
+
+  /**
+   * Determine if token is a house number
+   * @param token token to be checked
+   * @return true if this is a house number
+   */
+  protected boolean isHouseNumber(String token) {
     if (token.equals("7-11")) return false;
     if (PAT_HOUSE_NUMBER.matcher(token).matches()) return true;
     return false;
-    
   }
   
   // Determine if token at index is a standalone apartment number

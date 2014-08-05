@@ -13,6 +13,7 @@ public class NYNassauCountyAParser extends FieldProgramParser {
   public NYNassauCountyAParser() {
     super(CITY_LIST, "NASSAU COUNTY", "NY",
            "ADDR! CS:X! ADTNL:INFO GRID:MAP TOA:TIMEDATE");
+    setAllowDirectionHwyNames();
   }
 
   @Override
