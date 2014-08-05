@@ -962,6 +962,7 @@ public class ParserList {
               ,"TXLufkin"                       ,"Lufkin, TX"
               ,"TXManvel"                       ,"Manvel, TX"
               ,"TXMcLennanCounty"               ,"McLennan County, TX"
+              ,"TXMissouriCity"                 ,"Missouri City, TX"
               ,"TXMontgomeryCounty"             ,"Montgomery County, TX"
               ,"TXNacogdochesCounty"            ,"Nacogdoches County, TX"
               ,"TXNuecesCounty"                 ,"Nueces County, TX"
