@@ -394,6 +394,7 @@ class Active911Vendor extends Vendor {
       "US/NY/WestchesterCounty",          "NYWestchesterCounty",
       "US/OH/ButlerCountySheriff",        "OHButlerCountyA",
       "US/OH/CityofXenia",                "OHGreeneCounty",
+      "US/OH/CityofVandalia",             "OHMontgomeryCountyB",
       "US/OH/Fairfield",                  "OHFairfieldCounty",
       "US/OH/HamiltonCounty",             "OHHamiltonCounty",
       "US/OH/Harveysburg",                "OHWarrenCountyC",
