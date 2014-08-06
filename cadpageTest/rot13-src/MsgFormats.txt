@@ -1595,6 +1595,11 @@ Ybtna Pbhagl, BU (BUYbtnaPbhaglCnefre)
 (TRA RZF) Ybp:6555 HF 68 F Ncg:O2 KFg:FE 508 PE 5 F Tevq:JYJS Havgf: Ezx:98LBN SRZNYR JVGU UVTU O/C\a\a\a\a\aGuvf r-znvy zrffntr, vapyhqvat nal nggnpuzragf, vf sbe gur fbyr \a\ahfr bs gur vagraqrq erpvcvrag(f) naq znl pbagnva cevingr, \a\apbasvqragvny naq/be cevivyrtrq vasbezngvba. Nal hanhgubevmrq \a\aerivrj, hfr, qvfpybfher be qvfgevohgvba vf cebuvovgrq. Vs lbh ner \a\aabg gur vagraqrq erpvcvrag, rzcyblrr be ntrag erfcbafvoyr sbe \a\aqryvirevat guvf zrffntr, cyrnfr pbagnpg gur fraqre ol ercyl r-\a\aznvy naq qrfgebl nyy pbcvrf bs gur bevtvany r-znvy zrffntr.\a\aNppbeqvat gb Buvb Choyvp Erpbeqf Ynj jevggra pbzzhavpngvbaf gb be sebz\antrapvrf/fgnss ertneqvat guvf ntrapl ner choyvp erpbeqf naq znl or ninvynoyr gb\agur choyvp naq zrqvn hcba erdhrfg. Lbhe r-znvy znl or fhowrpg gb choyvp\aqvfpybfher.
 (TRA RZF) Ybp:576 GJC 174 KFg:MNARFSVRYQ EQ J JRFG YVOREGL PB Tevq:JYJS Havgf: Ezx:60 LBN SRZNYR GUNG SRYY\a\a\a\a\aGuvf r-znvy zrffntr, vapyhqvat nal nggnpuzragf, vf sbe gur fbyr \a\ahfr bs gur vagraqrq erpvcvrag(f) naq znl pbagnva cevingr, \a\apbasvqragvny naq/be cevivyrtrq vasbezngvba. Nal hanhgubevmrq \a\aerivrj, hfr, qvfpybfher be qvfgevohgvba vf cebuvovgrq. Vs lbh ner \a\aabg gur vagraqrq erpvcvrag, rzcyblrr be ntrag erfcbafvoyr sbe \a\aqryvirevat guvf zrffntr, cyrnfr pbagnpg gur fraqre ol ercyl r-\a\aznvy naq qrfgebl nyy pbcvrf bs gur bevtvany r-znvy zrffntr.\a\aNppbeqvat gb Buvb Choyvp Erpbeqf Ynj jevggra pbzzhavpngvbaf gb be sebz\antrapvrf/fgnss ertneqvat guvf ntrapl ner choyvp erpbeqf naq znl or ninvynoyr gb\agur choyvp naq zrqvn hcba erdhrfg. Lbhe r-znvy znl or fhowrpg gb choyvp\aqvfpybfher.
 *******************************************************************************
+Zbagtbzrel Pbhagl, BU (O) (BUZbagtbzrelPbhaglOCnefre)
+(IVBYRAPR) Ybp:420 R ANGVBANY EQ KFg:ENAPUIVRJ QE OBUNANA QE Tevq:0P08 Havgf:Z2 ONG3 Ezx:VAWHEVRF SEBZ NFFNHYG FGNTR VA NERN
+(ZIN J/CRQRF) Ybp:245 OBUNANA QE KFg:ANGVBANY EQ ZNCYR FG Tevq:0P07 Havgf:R2 Z2 ONG3 Ezx:FHOWRPG JNF UVG OL IRUVPYR BA OVPLPYR NCCEBK 20 ZVA NTB PNZR VAGB CBFG JVGU SNPVNY
+(FHVPVQR/NGGRZCG FHVPVQR) Ybp:720 CBBY NI Ncg:O KFg:QRYYFVAT QE URYXR EQ Tevq:J09S Havgf:Z1 ONG3 Ezx:NQIVFRQ UR GBBX 20 KNANK JNAGF GB XVYY FRYS CQ BA FPRAR
+*******************************************************************************
 Zhfxvathz Pbhagl, BU (BUZhfxvathzPbhaglCnefre)
 (F-VYY CREFBA) Ybp:10000 FCRAPRE EQ KFg:ENVQREF EQ PNANY EQ Tevq:0050 Havgf:SENM Ezx:ERD FDHNQ ERS GB VYY SRZNYR,YBJ OYBBQ CERFFHER
 (F-VAW. CREFBA) Ybp:6280 OERAGPERFG QE KFg:ZNP QE GNATYRJBBQ QE Tevq:0054 Havgf:YVPX Ezx:ERD N FD GB GUR YBPNGVBA ERS. N CNGVRAG VAWHERQ SEBZ N S
@@ -4756,7 +4761,7 @@ Zvnzv Pbhagl, BU (BUZvnzvPbhaglCnefre)
 (Zrffntr sebz 911) SYS\aSYPP\aFDHNQ\aQVFC\a7410 R FABQTENFF EQ,OEB\aFCRZQ1\a84 LBZ URNEG ENGR 107 / OYBBQ CERFFHER VF YBJ 86/53 / UK BS NSVO / PBATRFGVIR\aURNEG SNVYHER\aCG VF PBAPVBHF NAQ OERNGUVAT\a\a13FCR0041\aFGNGR EG 589 & A NYPBAL PBABIRE EQ\a04/22/2013 22:47
 (Zrffntr sebz 911) SYS\aSYNN\aFDHNQ\aQVFC\a504 PUREEL YA,SYR\aFCRZQ1\a72 LBZ CNFFRQ BHG /SRYY/ PBAFPVBHF NAQ OERNGUVAT UK URNEG CEBOYRZF NAQ QVNORGVP\aNAQ PBATRFGVIR URNEG SNVYHER\aUNF N CNPRZNXRE ..VG JRAG BSS\aEC VF UBYQVAT UVZ HC NAQ PNAG TRG UVZ HC\a\a13FCR0042\aR 5 FG\a04/28/2013 18
 ***************************************************************************
-Zbagtbzrel Pbhagl, BU (BUZbagtbzrelPbhaglCnefre)
+Zbagtbzrel Pbhagl, BU (BUZbagtbzrelPbhaglNCnefre)
 (PNQ Cntr) 911 UNATHC/VAIRFG/BCRA YVAR\a8051 PRAGRE CBVAG 70 OYIQ UHORE URVTUGF, BU\a911 / \aU114\a5/2/2013 03:47:00\aPSF #:13-025419
 (PNQ Cntr) UHFONAQ VF QEHAX NAQ QVFBEQREYL\a5149 ORYYRSBAGNVAR EQ UHORE URVTUGF, BU\a24 / \aU112 U114\a5/2/2013 02:31:46\aPSF #:13-025413
 (PNQ Cntr) OHETYNEL GI ZVFFVAT\a5149 AROENFXN NIR UHORE URVTUGF, BU\a5 / \aU112\a5/2/2013 01:22:57\aPSF #:13-025408
