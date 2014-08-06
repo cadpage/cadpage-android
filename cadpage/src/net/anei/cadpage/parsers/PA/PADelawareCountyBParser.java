@@ -11,6 +11,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class PADelawareCountyBParser extends FieldProgramParser {
   
   private static final Pattern CAP_PTN = Pattern.compile("^(\\d{7}) ");
+  private static final Pattern NATURE_PTN = Pattern.compile("[\\* \"](?:N.tu.e:|.ature:|Natu....(?=[A-Z]))");
+  private static final Pattern XN_PTN = Pattern.compile("[ ><](?!X1 INSIDE)X([12])..");
   
   private AddressField addressField;
   
@@ -28,7 +30,14 @@ public class PADelawareCountyBParser extends FieldProgramParser {
       data.strUnit = match.group(1);
       body = body.substring(match.end()).trim();
     }
+
+    // For some reason the Nature: keyword is prone to being garbled
+    body = NATURE_PTN.matcher(body).replaceFirst(" Nature: ");
     
+    // Then again, garbledness seems to occur anywhere, we just find it 
+    // in the Nature field because that causes the parser to fail.  But lets
+    // fix up the Xn: fields if we can
+    body = XN_PTN.matcher(body).replaceAll(" X$1: ");
     crossAddress = false;
     return super.parseMsg(body.replace('\n', ' '), data);
   }
@@ -38,20 +47,48 @@ public class PADelawareCountyBParser extends FieldProgramParser {
     return "UNIT " + super.getProgram();
   }
   
+  private static final Pattern ADDR_DASH_CITY_PTN = Pattern.compile("(.*)[-<]([A-Z]{2})");
   private class MyAddressField extends AddressField {
     
     @Override
     public void parse(String field, Data data) {
+      field = stripFieldEnd(field, "<");
       Parser p = new Parser(field);
-      data.strPlace = p.getLastOptional(':');
-      if (data.strPlace.startsWith("@")) data.strPlace = data.strPlace.substring(1).trim();
-      data.strApt = p.getLastOptional(',');
-      super.parse(p.get(), data);
+      while (true) {
+        String place = p.getLastOptional(':');
+        if (place.length() == 0) break;
+        place = stripFieldStart(place, "@");
+        if (!place.endsWith(" CO") && !place.endsWith(" CO.") && !place.endsWith(" MD")) {
+          String city = CITY_CODES.getProperty(place);
+          Result res = parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY | FLAG_ANCHOR_END, place);
+          city = res.getCity();
+          if (city.length() > 0) {
+            res.getData(data);
+            place = res.getStart();
+          }
+        }
+        if (!data.strPlace.contains(place)) data.strPlace = append(place, " - ", data.strPlace);
+      }
+      String apt = p.getLastOptional(',');
+      field = p.get();
+      if (field.startsWith("@")) {
+        String place = field.substring(1).trim();
+        if (!data.strPlace.contains(place)) data.strPlace = append(place, " - ", data.strPlace);
+      } else {
+        Matcher match = ADDR_DASH_CITY_PTN.matcher(field);
+        if (match.matches()) {
+          field = match.group(1) + " " + match.group(2);
+        }
+        super.parse(field, data);
+      }
+      data.strAddress = stripFieldEnd(data.strAddress, "--");
+      data.strApt = append(data.strApt, "-", apt);
+      if (data.strCity.equals("NEW CASTLE COUNTY")) data.strState = "DE";
     }
     
     @Override
     public String getFieldNames() {
-      return "ADDR CITY APT PLACE";
+      return "ADDR CITY ST APT PLACE";
     }
   }
   
@@ -64,6 +101,11 @@ public class PADelawareCountyBParser extends FieldProgramParser {
       } else {
         super.parse(field, data);
       }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return addressField.getFieldNames() + " X";
     }
   }
   
@@ -129,6 +171,7 @@ public class PADelawareCountyBParser extends FieldProgramParser {
       "HV", "HAVERFORD TWP",
       "LA", "LANSDOWNE",
       "LC", "LOWER CHICHESTER TWP",
+      "LM", "LOWER MERION TWP",  // In montgomery conty
       "LS TN", "LESTER", // SECTION OF TINICUM TWP
       "MB", "MILLBOURNE",
       "MD", "MIDDLETOWN TWP",
@@ -161,7 +204,17 @@ public class PADelawareCountyBParser extends FieldProgramParser {
       "WT", "WILLISTOWN TWP",
       "YE", "YEADON",
       
-      "NCC", "NEW CASTLE COUNTY"
+      "MONTCO",       "MONTGOMERY COUNTY",
+      "UMT MONTCO",   "UPPER MERION TWP",
+      
+      "NCC",          "NEW CASTLE COUNTY",
+      "NC",           "NEW CASTLE COUNTY",
+      "NEW CASTLE",   "NEW CASTLE COUNTY",
+      
+      "LOWER MERION",      "LOWER MERION TWP",
+      "LOWER MERION TWP",  "LOWER MERION TWP",
+      "UPPER MERION",      "UPPER MERION TWP",
+      "UPPER MERION TWP",  "UPPER MERION TWP"
     
   });
 }

@@ -87,7 +87,8 @@ choyvp pynff TraGrfgFxryrgba {
           }
           yvar = yvar.ercynpr("\\e\\a", "\\a").gevz();
           juvyr (yvar.raqfJvgu("\\a")) yvar = yvar.fhofgevat(0,yvar.yratgu()-2).gevz();
-          yvarYvfg.nqq(yvar);
+          vag pag = yvarYvfg.fvmr();
+          vs (pag == 0 || !yvar.rdhnyf(yvarYvfg.trg(pag-1))) yvarYvfg.nqq(yvar);
           fxvcOybpx(ve);
         }
       }
