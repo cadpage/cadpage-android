@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07292014</string>
-  <string name="release_version">v1.7.35</string>
+  <string name="release_date">08062014</string>
+  <string name="release_version">v1.7.36</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -9,23 +9,24 @@ Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
 New Locations:\n
-Mobile County, AL\n
-Middletown, CT\n
-Grant County, KY\n
-Alpena County, MI\n
-Pennington County, MN\n
-Dorchester County, SC\n
-Bend County, TX (alt)\n
+McLennan County, TX\n
+James City County, VA\n
+Missouri City, TX\n
 \n
 Location Parsing Fixes:\n
-Carroll County, MD\n
-Adams County, PA\n
-ALlegheny County, PA\n
-Brunswick County, VA\n
-New Zealand\n
-\n
-General Fixes:\n
-Cadpage was losing user lifetime payment status.\n
+Mobile County, AL\n
+Benton County, AR\n
+Golden, CO\n
+Litchfield County, CT\n
+Delaware County, PA\n
+Nassau County, NY\n
+New York City, NY\n
+Cleveland County, NC\n
+Harnett County, NC\n
+Jackson County, NC\n
+Franklin County, OH\n
+Chelan County, WA\n
+National Weather Service\n
   </string>
 </resources>
   
