@@ -18,7 +18,6 @@ NO FREE PAGING SERVICE
 
 You can only register for the paging service if you have really paid for
 a subscription.  We have to pay the server operators for each device
-
 using that service and cannot afford to do that for users who are not
 paying us.
 
