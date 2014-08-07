@@ -22,6 +22,8 @@ choyvp pynff TraGrfgFxryrgba {
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) guebjf VBRkprcgvba {
     
+    Frg<Fgevat> yvarFrg  = arj UnfuFrg<Fgevat>();
+    
     // Bcra vachg naq bhgchg svyrf
     OhssrerqErnqre ve = arj OhssrerqErnqre(arj VachgFgernzErnqre(arj SvyrVachgFgernz(VA_SVYR)));
     CevagFgernz cf = arj CevagFgernz(arj SvyrBhgchgFgernz(BHG_SVYR));
@@ -88,7 +90,7 @@ choyvp pynff TraGrfgFxryrgba {
           yvar = yvar.ercynpr("\\e\\a", "\\a").gevz();
           juvyr (yvar.raqfJvgu("\\a")) yvar = yvar.fhofgevat(0,yvar.yratgu()-2).gevz();
           vag pag = yvarYvfg.fvmr();
-          vs (pag == 0 || !yvar.rdhnyf(yvarYvfg.trg(pag-1))) yvarYvfg.nqq(yvar);
+          vs (yvarFrg.nqq(yvar)) yvarYvfg.nqq(yvar);
           fxvcOybpx(ve);
         }
       }
