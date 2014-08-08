@@ -15,7 +15,16 @@ public class KYStatePoliceParser extends DispatchB2Parser {
   private boolean srcFound;
   
   public KYStatePoliceParser() {
-    super(CITY_LIST, "", "KY");
+    this("");
+  }
+  
+  public KYStatePoliceParser(String defCity) {
+    super(CITY_LIST, defCity, "KY");
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "KYStatePolice";
   }
   
   @Override
@@ -33,7 +42,9 @@ public class KYStatePoliceParser extends DispatchB2Parser {
     Matcher match = PREFIX_PTN.matcher(body);
     srcFound = match.lookingAt();
     if (srcFound) body = body.substring(match.end());
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
+    return true;
   }
 
   @Override
@@ -50,54 +61,203 @@ public class KYStatePoliceParser extends DispatchB2Parser {
   }
 
   private static final String[] CITY_LIST = new String[]{
-    "BEDFORD",
-    "BOURBON",
-    "BROOKSVILLE",
-    "CAMPBELLSBURG",
-    "CARROLLTON",
-    "CONGLETON",
-    "CORINTH",
-    "CRESTWOOD",
-    "CRITTENDEN",
-    "CYNTHIANA",
-    "DRY RIDGE",
-    "EMINENCE",
-    "FALMOUTH",
+    
+    // Boone County
+    "BOONE",
+    "BOONE CO",
+    "BOONE COUNTY",
     "FLORENCE",
-    "FRANKFORT",
-    "GLENCOE",
-    "HARRISON",
-    "JONESVILLE",
-    "LAGRANGE",
-    "MILFORD",
-    "MILTON",
+    "UNION",
+    "WALTON",
+    "BURLINGTON",
+    "OAKBROOK",
+    "BIG BONE",
+    "BULLITTSVILLE",
+    "HAMILTON",
+    "HEBRON",
+    "PETERSBURG",
+    "RABBIT HASH",
+    "RICHWOOD",
+    "VERONA",
+    
+    // Bourbon County
+    "BOURBON",
+    "BOURBON CO",
+    "BOURBON COUNTY",
+    "CANE RIDGE",
+    "CENTERVILLE",
+    "CLITONVILLE",
+    "LITTLE ROCK",
     "MILLERSBURG",
-    "NEW CASTLE",
-    "NEW LIBERTY",
-    "OWEN",
-    "OWENTON",
+    "NORTH MIDDLETOWN",
     "PARIS",
+
+    // Bracken County
+    "BRACKEN",
+    "BRACKEN CO",
+    "BRACKEN COUNTY",
+    "AUGUSTA",
+    "BROOKSVILLE",
+    "GERMANTOWN",
+    "FOSTER",
+    "MILFORD",
+    
+    // Carroll County
+    "CARROLL",
+    "CARROLL CO",
+    "CARROLL COUNTY",
+    "CARROLLTON",
+    "ENGLISH",
+    "GHENT",
+    "PRESTONVILLE",
+    "SANDERS",
+    "WORTHVILLE",
+    
+    // Franklin County
+    "FRANKLIN",
+    "FRANKLIN CO",
+    "FRANKLIN COUNTY",
+    "BRIDGEPORT",
+    "FORKS OF ELKHORN",
+    "FRANKFORT",
+    "JETT",
+    "SWITZER",
+
+    // Gallatin COunty
+    "GALLATIN",
+    "GALLATIN CO",
+    "GALLATIN COUNTY",
+    "GLENCOE",
+    "SPARTA",
+    "WARSAW",
+    
+    // Grant County
+    "GRANT",
+    "GRANT CO",
+    "GRANT COUNTY",
+    "CORINTH",
+    "CRITTENDEN",
+    "DRY RIDGE",
+    "JONESVILLE",
+    "WILLIAMSTOWN",
+    
+    // Harrison County
+    "HARRISON",
+    "HARRISON CO",
+    "HARRISON COUNTY",
+    "BERRY",
+    "CYNTHIANA",
+    "BRECKINRIDGE",
+    "BROADWELL",
+    "BUENA VISTA",
+    "COLVILLE",
+    "CONNERSVILLE",
+    "HOOKTOWN",
+    "LAIR",
+    "LEES LICK",
+    "LEESBURG",
+    "KELAT",
+    "MORNINGGLORY",
+    "ODDVILLE",
+    "POINDEXTER",
+    "RUDDELS MILLS",
+    "RUTLAND",
+    "SHADYNOOK",
+    "SHAWHAN",
+    "SUNRISE",
+
+    // Henry County
+    "HENRY",
+    "HENRY CO",
+    "HENRY COUNTY",
+    "BETHLEHEM",
+    "CAMPBELLSBURG",
+    "DEFOE",
+    "EMINENCE",
+    "FRANKLINTON",
+    "LOCKPORT",
+    "NEW CASTLE",
     "PENDLETON",
     "PLEASUREVILLE",
     "PORT ROYAL",
-    "ROBERTSON",
-    "SADIEVILLE",
-    "SANDERS",
     "SMITHFIELD",
-    "SPARTA",
     "SULPHUR",
-    "WARSAW",
-    "WILLIAMSTOWN",
+    "TURNERS STATION",
+
+    // Oldham County
+    "OLDHAM",
+    "OLDHAM CO",
+    "OLDHAM COUNTY",
+    "BALLARDSVILLE",
+    "BROWNSBORO",
+    "BUCKNER",
+    "CENTERWOOD",
+    "CRESTWOOD",
+    "FLODSBURG",
+    "GOSHEN",
+    "LA GRANGE",
+    "LAGRANGE",
+    "ORCHARD GRASS HILLS",
+    "PEWEE VALLEY",
+    "PROSPECT",
+    "RIVER BLUFF",
+    "WESTPORT",
+    
+    // Owen County
+    "OWEN",
+    "OWEN CO",
+    "OWEN COUNTY",
+    "GRATZ",
+    "MONTEREY",
+    "OWENTON",
+    "HESLER",
+    "LONG RIDGE",
+    "LUSBYS MILL",
+    "NEW LIBERTY",
+    "PERRY PARK",
+    "PLEASANT HOME",
+    "SQUIRESVILLE",
+    "WHEATLEY",
+
+    // Pendleton County
+    "PENDLETON",
+    "PENDLETON CO",
+    "PENDLETON COUNTY",
+    "BUTLER",
+    "DEMOSSVILLE",
+    "FALMOUTH",
+
+    // Scott County
+    "SCOTT",
+    "SCOTT CO",
+    "SCOTT COUNTY",
+    "GEORGETOWN",
+    "SADIEVILLE",
+    "STAMPING GROUND",
+    
+    // Trimble County
+    "TRIMBLE",
+    "TRIMBLE CO",
+    "TRIMBLE COUNTY",
+    "BEDFORD",
+    "LOCUST",
+    "MILTON",
+    "WISES LANDING",
+    
+    // Robertson county
+    "ROBERTSON",
+    "ROBERTSON CO",
+    "ROBERTSON COUNTY",
+    "KENTONTOWN",
+    "MOUNT OLIVET",
+    "PIQUA",
+    
     
     //COUNTIES
-    "CARROLL COUNTY",
-    "GALLATIN COUNTY",
-    "GRANT COUNTY",
-    "HENRY COUNTY",
     "JEFFERSON COUNTY",
-    "OLDHAM COUNTY",
-    "OWEN COUNTY",
-    "TRIMBLE COUNTY",
+    
+    "SHELBY",
+    "POPLAR GROVE"
     
   };
 

@@ -1873,6 +1873,16 @@ public abstract class SmartAddressParser extends MsgParser {
     int endNdx = mWordCities.findEndSequence(ndx);
     if (endNdx < 0) return -1;
     
+    // Under no circumstances will we accept a city ending with "CO" or "COUNTY" 
+    // that is followed by the word "LINE" or "LIN".
+    if (endNdx < tokens.length) {
+      String lastWord = tokens[endNdx-1].toUpperCase();
+      if (lastWord.equals("CO") || lastWord.equals("COUNTY")) {
+        lastWord = tokens[endNdx].toUpperCase();
+        if (lastWord.equals("LINE") || lastWord.equals("LIN")) return -1;
+      }
+    }
+    
     // We found a real city.  But....
     // We don't want to return this as a city if it look it might by a street
     // named after that city :(
