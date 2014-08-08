@@ -28,12 +28,18 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    // Regular parseMsg processing, but return failure if we didn't get an address
-    // from either a Location or Xstreet
+    int pt = body.indexOf("\n\n");
+    if (pt >= 0) body = body.substring(0,pt).trim();
     body = body.replace("Location:", "Loc:").replace("Xstreet:", "Xsts:").replace("TYPE:", "Type:").replace("TIME:", "Time:");
-    if (!super.parseMsg(body, data)) return false;
-    if (data.strAddress.length() == 0)  return false;
-    return true;
+    return super.parseMsg(body, data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
   }
   
   // Call description field parser
@@ -72,14 +78,11 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
       if (data.strAddress.length() > 0) flags |= FLAG_ONLY_CROSS;
       parseAddress(StartType.START_ADDR, flags, field, data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
-    return super.getField(name);
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR APT CITY X";
+    }
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
@@ -246,5 +249,23 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
       "UNCON",  "UNCONSCIOUS PATIENT",
       "WEATH",  "WEATHER UPDATES",
       "WIRES",  "DOWNED/LOW HANGING WIRE"
+      
+      // Unidentified codes
+      // ANI
+      // ARR
+      // BUR
+      // DET
+      // DIS
+      // FOOT
+      // MISC
+      // NCIC
+      // ORD
+      // PARK
+      // PROP
+      // RECK
+      // SUS
+      // TRAF
+      // TRAN
+      // TIP
   });
 }

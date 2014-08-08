@@ -464,6 +464,7 @@ class Active911Vendor extends Vendor {
       "US/PA/SomersetCounty",             "PASomersetCounty",
       "US/PA/TrappeIAR",                  "PAChesterCountyL",
       "US/PA/VenangoCounty",              "PAVenagoCountyB",
+      "US/PA/WashingtonCounty","PAWashingonCounty",
       "US/PA/YorkCounty",                 "PAYorkCountyD",
       "US/SC/DorchesterCounty",           "SCDorchesterCounty",
       "US/SC/GeorgetownCounty",           "SCGeorgetownCounty",
