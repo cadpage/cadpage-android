@@ -476,6 +476,7 @@ class Active911Vendor extends Vendor {
       "US/SC/JasperCounty",               "SCJasperCounty",
       "US/SC/OrangeburgCounty",           "OrangeburgCounty",
       "US/SC/PickensCounty",              "SCPickensCounty",
+      "US/SC/SpartanburgCounty",          "SCSpartanburgCounty",
       "US/SC/SumterCounty",               "SCSumterCounty",
       "US/SD/LincolnCounty",              "SDLincolnCounty",
       "US/SD/MinnehahaCounty",            "SDMinnehahaCounty",

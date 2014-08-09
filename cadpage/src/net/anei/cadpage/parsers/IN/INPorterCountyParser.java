@@ -17,7 +17,7 @@ public class INPorterCountyParser extends DispatchA41Parser {
   
   @Override
   public String getFilter() {
-    return "pcdisp@porterco-ps.org";
+    return "pcdisp@porterco-ps.org,@pc911.porterco.org";
   }
   
   @Override
