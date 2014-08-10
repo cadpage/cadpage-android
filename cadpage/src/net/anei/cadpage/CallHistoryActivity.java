@@ -3,6 +3,7 @@ package net.anei.cadpage;
 import net.anei.cadpage.donation.DonateActivity;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.Vendor1Event;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ListActivity;
@@ -10,6 +11,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.DisplayMetrics;
 import android.view.ContextMenu;
 import android.view.KeyEvent;
@@ -146,7 +148,18 @@ public class CallHistoryActivity extends ListActivity {
         }
      
         // OK, go ahead and open the call display window
-        SmsPopupActivity.launchActivity(this, msg.getMsgId());
+        // Delay by 100 msecs in attempt to avoid a nasty badtokenException.
+        final Activity context = this;
+        final int msgId = msg.getMsgId();
+        new Handler().postDelayed(new Runnable(){
+          @Override
+          public void run() {
+            // TODO Auto-generated method stub
+            
+          }}, 100);
+        if (!context.isFinishing()) {
+          SmsPopupActivity.launchActivity(context, msgId);
+        }
       }
     }
   }
