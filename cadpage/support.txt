@@ -691,7 +691,7 @@ I found your Google Play Store payment record of ______.
 
 Go into Cadpage settings, press Payment Status and then Recalculate Payment Status. This reloads your payment status from the market which will usually fix things.
 
-The most likely reason that your Status is now back to DEMO, is that the 30-day trial is longer than the time remaining on your subscription, which is due to expire on __________.
+However, your Status will likely return to DEMO since the 30-day trial is longer than the time remaining on your subscription, which is due to expire on __________.
 
 It is still the same great app, just limited in time until you will be reminded to submit a payment.
 
