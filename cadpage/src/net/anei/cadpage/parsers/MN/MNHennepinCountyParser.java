@@ -25,7 +25,7 @@ public class MNHennepinCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "sheriff.cadpaging@co.hennepin.mn.us";
+    return "sheriff.cadpaging@co.hennepin.mn.us,SHERIFF.CADPAGING@HENNEPIN.US";
   }
 
   @Override
