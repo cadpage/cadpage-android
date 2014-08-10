@@ -20,6 +20,11 @@ public class OHSummitCountyAParser extends FieldProgramParser {
   }
   
   @Override
+  public String getAliasCode() {
+    return "OHSummitCountyA";
+  }
+  
+  @Override
   public String getFilter() {
     return "info@sundance-sys.com";
   }

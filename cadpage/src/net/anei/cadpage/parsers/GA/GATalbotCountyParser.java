@@ -7,6 +7,6 @@ Sumter county, GA
 public class GATalbotCountyParser extends GASchleyCountyParser {
   
   public GATalbotCountyParser() {
-    super("SUMTER COUNTY");
+    super("TALBOT COUNTY");
   }
 }
