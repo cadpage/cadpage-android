@@ -1535,14 +1535,16 @@ public class FieldProgramParser extends SmartAddressParser {
           // field position if the last optional tagged step that got us to this step
           // has an increment other than one
           if (startStep.optional) { 
-            int inc;
+            int inc = 00;
             Step tStep = startStep;
             do {
-              inc = startStep.getSuccLink().getInc();
-              tStep = tStep.getNextStep();
+              StepLink link = tStep.getSuccLink();
+              inc += link.getInc()-1;
+              tStep = link.getStep();
             } while (tStep != null && tStep.tag != null && tStep.optional);
             if (tStep != null && tStep.tag == null) {
-              ndx += (inc-1);
+              ndx += inc;
+              curFld = flds[ndx].trim();
               procStep = tStep;
               break;
             }
