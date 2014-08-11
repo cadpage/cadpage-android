@@ -15,6 +15,7 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
   private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:[A-Z]+\\d+(?:-\\d+)?|HH))+  +");
   private static final Pattern GPS_PIPE_PTN1 = Pattern.compile("^([-+]?\\d+\\.\\d+)\\|([-+]?\\d+\\.\\d+)\\b");
   private static final Pattern GPS_PIPE_PTN2 = Pattern.compile("\\b([-+]?\\d+\\.\\d+)\\|([-+]?\\d+\\.\\d+)\\b");
+  private static final Pattern ADDR_EXT_PTN = Pattern.compile("[NSEW]|EXT");
   
   public PAJeffersonCountyParser() {
     super(CITY_LIST, "JEFFERSON COUNTY", "PA");
@@ -85,10 +86,14 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
       body = body.replace(",", " ,");
       parseAddress(st, flags | FLAG_PAD_FIELD_EXCL_CITY | FLAG_CROSS_FOLLOWS, body, data);
       String pad = getPadField();
-      if (pad.length() > 0 && !pad.contains(" ")) {
-        data.strAddress = append(data.strAddress, " ", pad);
-      } else {
-        data.strCross = getPadField();
+      if (pad.length() > 0) {
+        if (ADDR_EXT_PTN.matcher(pad).matches()) {
+          data.strAddress = append(data.strAddress, " ", pad);
+        } else if (!pad.contains(" ")) {
+          data.strApt = append(data.strApt, "-", pad);
+        } else {
+          data.strCross = getPadField();
+        }
       }
       extra = getLeft().replace(" ,", ",");
     }
@@ -187,6 +192,7 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
     "INN",
     "KNOB",
     "LIVING",
+    "PHOTOGRAPHY",
     "PUNXSUTAWNEY",
     "RESTAURANT",
     "SCHOOL",
@@ -196,12 +202,34 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
   };
   
   private static final String[] MULTI_WORD_STREETS = new String[] {
+    "ALLENS MILLS",
+    "CANOE RIDGE",
+    "CLOE CHURCH",
+    "CLOE ROSSITER",
+    "DUG HILL",
+    "EAGLES NEST",
+    "ELDERBERRY HILL",
+    "GAME SCHOOL",
+    "GRANGE HALL",
+    "GREATER INAGUA",
     "HEMLOCK LAKE",
+    "HIDDEN HOLLOW",
+    "HORKINS MILL",
+    "JIM TOWN",
+    "LITTLE INAGUA",
     "KNOX DALE",
+    "MARSH HOLLOW",
     "PANIC WISHAW", 
+    "PANSY RINGGOLD",
+    "REYNOLDSVILLE FALLS CREEK",
     "RUSTY COAT", 
-    "SWARTZ ACRES", 
-    "WALTER LONG"
+    "SANDY VALLEY",
+    "SPRING CREEK",
+    "SWARTZ ACRES",
+    "VAN WOERT",
+    "VO TECH",
+    "WALTER LONG",
+    "WATER PLANT",
   };
   
   private static final String[] CITY_LIST = new String[]{
@@ -248,6 +276,9 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
     "BANKS",
     "SPRANKLE MILLS",
     "CANOE",
+    
+    // Clearfield County
+    "SANDY",
     
     // Indiana County
     "BRUSH VALLEY",

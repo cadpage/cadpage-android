@@ -48,6 +48,8 @@ ceif=0588r3n5n6=qvfcngpu@wrssrefbapbhaglcn.pbz (Vapvqrag) ZIN F20 ZRQ50  301 J Z
 (Vapvqrag) Sver - Nynez R40 GX40 E40 G40 R20 E20 G20 R30 FD30
 (Vapvqrag) ZIN -29-Q Ragenczrag F20 F30 F40 ZRQ50  17343 EG 36 Oryy TEBHAQUBT VAFGNAG YHOR NAQ BVYPYBR PUREEL FG / PYBR EBFFVGRE EQ 20-O Falqre Uvyy
 (Vapvqrag) Sver - Nynez R40 GX40 E40 G40 R20 E20 G20 R30 FD30 ZRQ50  81 UVYYPERFG QE Lbhat CHAKFHGNJARL NERN UBFCVGNYUVPXBEL EQ / A ZNVA FG 40-L-A Fa
+(Vapvqrag) Fgehpgher Sver R40 R30-1 R30 GX40 E40 E20 FD30 G20 ZRQ50  501 PUREEL FG Chakfhgnjarl FURN CUBGBTENCULYBTNA FG / FLPNZBER FG 40-N Falqre Uv
+(Vapvqrag) ZIN F9 E20 NEF30 ZRQ50  SERRQYVAR EQ, ZNEFU UBYYBJ EQ / ZPTERTBE EQ, JVAQL JUVM EQ 9-N Pbbyfcevat\a\a-- \aGuvf rznvy jnf Ivehf purpxrq ol
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Prageny Sver Qrcg.
@@ -540,6 +542,30 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:40-L-A",
         "PU:Fa");
 
+    qbGrfg("G34",
+        "(Vapvqrag) Fgehpgher Sver R40 R30-1 R30 GX40 E40 E20 FD30 G20 ZRQ50  501 PUREEL FG Chakfhgnjarl FURN CUBGBTENCULYBTNA FG / FLPNZBER FG 40-N Falqre Uv",
+        "PNYY:Fgehpgher Sver",
+        "HAVG:R40 R30-1 R30 GX40 E40 E20 FD30 G20 ZRQ50",
+        "NQQE:501 PUREEL FG",
+        "PVGL:Chakfhgnjarl",
+        "CYNPR:FURN CUBGBTENCUL",
+        "K:YBTNA FG / FLPNZBER FG",
+        "OBK:40-N",
+        "PU:Falqre Uv");
+
+    qbGrfg("G35",
+        "(Vapvqrag) ZIN F9 E20 NEF30 ZRQ50  SERRQYVAR EQ, ZNEFU UBYYBJ EQ / ZPTERTBE EQ, JVAQL JUVM EQ 9-N Pbbyfcevat\a\a" +
+        "-- \a" +
+        "Guvf rznvy jnf Ivehf purpxrq ol",
+
+        "PNYY:ZIN",
+        "HAVG:F9 E20 NEF30 ZRQ50",
+        "NQQE:SERRQYVAR EQ",
+        "ZNQQE:SERRQYVAR EQ & ZNEFU UBYYBJ EQ",
+        "K:ZNEFU UBYYBJ EQ / ZPTERTBE EQ, JVAQL JUVM EQ",
+        "OBK:9-N",
+        "PU:Pbbyfcevat");
+
   }
 
   @Grfg
@@ -638,7 +664,8 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Vapvqrag) Sver - Nynez R20 E20 G20 R30 FD30 R40 GX40 E40 G40 ZRQ50  289 PYBR PUHEPU FG P Oryy EG 36 / EG 36 20-O Falqre Uvyy",
         "PNYY:Sver - Nynez",
         "HAVG:R20 E20 G20 R30 FD30 R40 GX40 E40 G40 ZRQ50",
-        "NQQE:289 PYBR PUHEPU FG P",
+        "NQQE:289 PYBR PUHEPU FG",
+        "NCG:P",
         "PVGL:Oryy",
         "K:EG 36 / EG 36",
         "OBK:20-O",
@@ -866,9 +893,7 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:F20",
         "NQQE:PNABR EVQTR EQ",
         "ZNQQE:PNABR EVQTR EQ & QBZOF UVYY EQ",
-        "PVGL:PNABR",
-        "CYNPR:EVQTR EQ",
-        "K:QBZOF UVYY EQ / TNFGBA EQ");
+        "K:QBZOF UVYY EQ / TNFGBA EQ, PNABR EVQTR EQ");
 
     qbGrfg("G33",
         "(Vapvqrag) Fgehpgher Sver R30 R20 R40 GX40 G20 G40 ZRQ50  545 OEBJA EQ Lbhat OHF YA / UNEZBAL EQ 30-L Falqre Uvyy",
@@ -1017,7 +1042,8 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G46",
         "(Vapvqrag) Fgehpgher Sver PSR38 G4 PSGX36 PSFH36 R6-2 Zrq42/43  59 ZNVA FG O Snyyf Perrx PUHEPU YA / PUHEPU YA 4-N Sver Gbjre",
         "PNYY:Fgehpgher Sver PSR38 G4 PSGX36 PSFH36 R6-2 Zrq42/43",
-        "NQQE:59 ZNVA FG O",
+        "NQQE:59 ZNVA FG",
+        "NCG:O",
         "PVGL:Snyyf Perrx",
         "K:PUHEPU YA / PUHEPU YA",
         "OBK:4-N",
@@ -1144,8 +1170,8 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zhghny Nvq",
         "HAVG:F6",
         "NQQE:133 TERNGRE VANTHN PG",
-        "CYNPR:Fnaql YVGGYR",
-        "K:VANTHN PG / QRNQ RAQ");
+        "PVGL:Fnaql",
+        "K:YVGGYR VANTHN PG / QRNQ RAQ");
 
     qbGrfg("G59",
         "(Vapvqrag) Fgehpgher Sver R6-2 GX6 E6 G6 C6 R8 FD8 G8 PSPNFFPNQR74 NZO60  117 ORGFL EQ Jvafybj QRNQ RAQ / OEVPX EQ 6-O Sver Gbjre",
@@ -1611,7 +1637,8 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Vapvqrag) Fvpx Crefba - OYF F15  1060 7GU NIR O115 Oebpxjnl GBOL GREENPR \"O\" OHVYQVAT (OBK 1-N-UU)TERRA JNL / NYRKNAQRE FG 1-N Obbar",
         "PNYY:Fvpx Crefba - OYF",
         "HAVG:F15",
-        "NQQE:1060 7GU NIR O115",
+        "NQQE:1060 7GU NIR",
+        "NCG:O115",
         "PVGL:Oebpxjnl",
         "CYNPR:GBOL GREENPR \"O\" OHVYQVAT (OBK 1-N-UU)",
         "K:TERRA JNL / NYRKNAQRE FG",
@@ -1624,8 +1651,7 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:ZRQ90 F15",
         "NQQE:100 TBHEYRL YA",
         "PVGL:Jnefnj",
-        "CYNPR:NYYRAF",
-        "K:ZVYYF EQ / QRNQ RAQ",
+        "K:NYYRAF ZVYYF EQ / QRNQ RAQ",
         "OBK:15-N",
         "PU:Unlf Ybg");
 
