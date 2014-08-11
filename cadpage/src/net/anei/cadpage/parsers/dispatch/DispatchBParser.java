@@ -4,6 +4,7 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -192,7 +193,11 @@ public class DispatchBParser extends FieldProgramParser {
   
   private void setup() {
     setFieldList("CODE CALL ADDR APT X PLACE CITY NAME PHONE BOX MAP ID");
-    setupCallList(
+    setupCallList(buildCallList());
+  }
+  
+  protected CodeSet buildCallList() {
+    return new CodeSet(
         "911 HANG UP",
         "911 HANGUP/OPEN LINE",
         "911 HANGUP OR UNVERIFIED",
