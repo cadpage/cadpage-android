@@ -267,6 +267,10 @@ public class DonationManager {
     // This gets called from multiple threads, so we had better lock internal processing
     synchronized (UserAcctManager.class) {
       
+      // Clean up inputs
+      if (purchaseDateStr.length() < 4) purchaseDateStr = null;
+      if (sponsor.length() == 0) sponsor = null;
+      
       // If this is part of a payment status recalculation, all calculations
       // are limited to local working variables.  If not, then working variables
       // are initialized and set to real live values
@@ -304,8 +308,8 @@ public class DonationManager {
         
         // If free subscription status is same, older purchase dates never 
         // override new purchase dates.  We only compare the first 4 digits
-        // of the purchase dates, the purchase year is no relevant
-        if (freeSub == workFreeSub && workPurchaseDateStr != null && 
+        // of the purchase dates, the purchase year is not relevant
+        if (freeSub == workFreeSub && workPurchaseDateStr != null && purchaseDateStr != null && 
             workPurchaseDateStr.substring(0,4).compareTo(purchaseDateStr.substring(0,4))>0) return;
       }
       
@@ -314,7 +318,7 @@ public class DonationManager {
       workPaidYear = year;
       workFreeSub = freeSub;
       workPurchaseDateStr = purchaseDateStr;
-      workSponsor = (freeSub || sponsor != null && sponsor.length() == 0 ? null : sponsor);
+      workSponsor = (freeSub || sponsor != null ? null : sponsor);
       
       // If this wasn't an status recalculation, save all of the working
       // variables back to persistent storage and recalculate the payment status
