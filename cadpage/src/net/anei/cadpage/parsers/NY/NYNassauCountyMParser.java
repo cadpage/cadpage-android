@@ -18,7 +18,7 @@ public class NYNassauCountyMParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "alarms@oceansidefd.net";
+    return "alarms@oceansidefd.net,paging@oceansidefd.info";
   }
   
   @Override
