@@ -12,10 +12,10 @@ public class ORYamhillCountyParser extends DispatchA3Parser {
   public ORYamhillCountyParser() {
     super("CAD:", CITY_LIST, "YAMHILL COUNTY", "OR", "INFO");
   }
-
+  
   @Override
-  public String getProgram() {
-    return "ADDR APT CITY CODE CALL PRI UNIT " + super.getProgram();
+  public String getFilter() {
+    return "CAD@newbergoregon.gov";
   }
 
   private static Pattern MASTER = Pattern.compile("CAD:(.*?) (\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2}:\\d{2} : pos\\d .*?)");
@@ -50,6 +50,11 @@ public class ORYamhillCountyParser extends DispatchA3Parser {
     return super.parseFields(new String[] { mat.group(2) }, data);
   }
 
+  @Override
+  public String getProgram() {
+    return "ADDR APT CITY CODE CALL PRI UNIT " + super.getProgram();
+  }
+
   private static String[] CITY_LIST = {
     "AMITY",
     "CARLTON",
@@ -59,6 +64,7 @@ public class ORYamhillCountyParser extends DispatchA3Parser {
     "HILLSBORO",
     "MCMINVILLE",
     "NEWBERG",
+    "SALEM",
     "SHERIDAN",
     "SHERWOOD",
     "WILLAMINA",
