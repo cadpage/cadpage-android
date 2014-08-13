@@ -117,7 +117,7 @@ Fraqre: sverqvfcngpu@snvesvryq-pvgl.bet
 choyvp pynff BUSnvesvryqCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp BUSnvesvryqCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "SNVESVRYQ PBHAGL", "BU");
+    frgCnefre(arj BUSnvesvryqCnefre(), "OHGYRE PBHAGL", "BU");
   }
   
   @Grfg
