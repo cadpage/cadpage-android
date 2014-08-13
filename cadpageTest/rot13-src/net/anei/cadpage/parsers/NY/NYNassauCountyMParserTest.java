@@ -17,6 +17,8 @@ SEZ:nynezf@bprnafvqrsq.arg\aZFT:GBN: 13:12 06-13-14 \aNHGB - Nhgb Nppvqrag \aBPR
  1 bs 2\aSEZ:nynezf@bprnafvqrsq.arg\aZFT:GBN: 18:51 06-15-14 \aTRA - Trareny Nynez \aTNF YRNX \a3116 YNJFBA OYIQ ,BPRNAFVQR\a  \a\aPF: NAPUBE\a(Pba'g) 2 bs 2\aNIR / J JVAQFBE CXL \a2014-000728(Raq)
 SEZ:nynezf@bprnafvqrsq.arg\aZFT:GBN: 21:35 06-15-14 \aNHGB - Nhgb Nppvqrag \aJ JVAQFBE CXL ,BPRNAFVQR\a  \a\aPF: YBAT ORNPU EQ  2014-000729
 1 bs 2\aSEZ:cntvat@bprnafvqrsq.vasb\aZFT:GBN: 20:04 08-11-14 \aQRCG 9 - Qvssvphygl Oernguvat \a397 JVAQFBE CY ,BPRNAFVQR\a  \a\aPF: GREERYY NIR\a(Pba'g) 2 bs 2\a/ JVAQFBE NIR \a2014-000994(Raq)
+SEZ:cntvat@bprnafvqrsq.vasb\aZFT:GBN: 20:14 08-11-14 \aNHGB - Nhgb Nppvqrag \aSBKUHEFG EQ ,BPRNAFVQR\a  \a\aPF: SBEGRFDHR NIR  2014-000995
+SEZ:cntvat@bprnafvqrsq.vasb\aZFT:GBN: 07:34 08-12-14 \aNHGB - Nhgb Nppvqrag \aZBGG FG ,BPRNAFVQR\a  \a\aPF: YBAT ORNPU EQ  2014-000996
 
 */
 choyvp pynff ALAnffnhPbhaglZCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -144,6 +146,34 @@ choyvp pynff ALAnffnhPbhaglZCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:BPRNAFVQR",
         "K:GREERYY NIR / JVAQFBE NIR",
         "VQ:2014-000994");
+
+    qbGrfg("G7",
+        "SEZ:cntvat@bprnafvqrsq.vasb\a" +
+        "ZFT:GBN: 20:14 08-11-14 \a" +
+        "NHGB - Nhgb Nppvqrag \a" +
+        "SBKUHEFG EQ ,BPRNAFVQR\a" +
+        "  \a\a" +
+        "PF: SBEGRFDHR NIR  2014-000995",
+
+        "GVZR:20:14",
+        "QNGR:08-11-14",
+        "PNYY:NHGB - Nhgb Nppvqrag",
+        "NQQE:SBKUHEFG EQ",
+        "ZNQQE:SBKUHEFG EQ & SBEGRFDHR NIR",
+        "PVGL:BPRNAFVQR",
+        "K:SBEGRFDHR NIR",
+        "VQ:2014-000995");
+
+    qbGrfg("G8",
+        "SEZ:cntvat@bprnafvqrsq.vasb\aZFT:GBN: 07:34 08-12-14 \aNHGB - Nhgb Nppvqrag \aZBGG FG ,BPRNAFVQR\a  \a\aPF: YBAT ORNPU EQ  2014-000996",
+        "GVZR:07:34",
+        "QNGR:08-12-14",
+        "PNYY:NHGB - Nhgb Nppvqrag",
+        "NQQE:ZBGG FG",
+        "ZNQQE:ZBGG FG & YBAT ORNPU EQ",
+        "PVGL:BPRNAFVQR",
+        "K:YBAT ORNPU EQ",
+        "VQ:2014-000996");
 
   }
   
