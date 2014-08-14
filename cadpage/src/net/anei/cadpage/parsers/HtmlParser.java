@@ -127,11 +127,10 @@ public class HtmlParser extends FieldProgramParser {
   private HtmlCleaner htmlCleaner = null;
   private CleanerProperties props = null;
   private TagNode root = null;
-  private Map<String, ParseInfo> layout = new LinkedHashMap<String, ParseInfo>();
+  private Map<String, ParseInfo> layout = new HashMap<String, ParseInfo>();
   private Map<String, Set<String>> domain = new HashMap<String, Set<String>>();
-  private Map<String, String> translate = new HashMap<String, String>();
   
-  protected static final int
+  private static final int
     STATUS_OK = 0,
     STATUS_EMPTY = 1,
     STATUS_DOMAIN = 2,
@@ -245,7 +244,7 @@ public class HtmlParser extends FieldProgramParser {
     public void status(int s) { status = s; }
   }
   
-  /* HtmlParser Constructors */
+  /* Constructors */
   public HtmlParser(String defCity,
                       String defState,
                       String prog,
@@ -327,7 +326,7 @@ public class HtmlParser extends FieldProgramParser {
       processCommand(command[i].trim(), pi);
     // Offset defaults to 0 but if no OFFSET= cmd was given there won't be anything in
     // the set:
-    if (pi.offset().isEmpty() && !pi.label().equals(""))
+    if (pi.offset().isEmpty())
       addOffset("0", pi);
     // If a row or col was specified for a table mark the domain with "TABLE" instead
     // of "table"
@@ -680,7 +679,7 @@ public class HtmlParser extends FieldProgramParser {
         rs = getRowSpan(cell);
         cs = getColSpan(cell);
         for (int row = rowNum; row < rowNum+rs; row++) {
-          for (int col=colNum; col < colNum+cs; col++) {
+          for (int col=colNum; col <= colNum+cs; col++) {
             findTableCellValues(cell, row, col, tagSet);
             if (row == rowNum && rs > 1)
               descender.put(col, rs);
@@ -743,8 +742,7 @@ public class HtmlParser extends FieldProgramParser {
       if (pi.row() != -2 && pi.col() != -2) {
         if ((pi.row() == -1 || pi.row() == rowNum)
             && (pi.col() == -1 || pi.col() == colNum)) {
-          if (pi.exclude().equals("") || !cell.getText().toString().contains(pi.exclude()))
-            pi.value(append(pi.value, pi.separator(), cleanValue(cell.getText().toString(), pi)));
+          pi.value(append(pi.value, pi.separator(), cleanValue(cell.getText().toString(), pi)));
           if (pi.value().equals(""))
             pi.status(STATUS_EMPTY);
           else
@@ -954,7 +952,7 @@ private int findLeft(String style) {
   private String cleanValue(String v, ParseInfo pi) {
     if (pi.removeLabel())
       v = v.replace(pi.label(), "");
-    return translate(v.replace(pi.remove(), ""));
+    return v.replace(pi.remove(), "").trim();
   }
   
   /*
@@ -974,18 +972,9 @@ private int findLeft(String style) {
    * subclass access methods.  It is strongly recommended to
    * use getValue() with a layout to access all data.
    */
-
-  /*
-   * Returns the status value for a tag
-   */
-  protected int getStatus(String tag) {
-    return layout.get(tag).status();
-  }
-  
   /*
    * This method gets the value for a tag from the hash table
    */
-
   protected String getValue(String tag) {
     return layout.get(tag).value();
   }
@@ -1132,6 +1121,10 @@ private int findLeft(String style) {
     return getElement(root, name, n);
   }
 
+  private TagNode[] getElements(String name) {
+    return getElements(root, name);
+  }
+  
   /*
    * Gets the nth element of type name under top
    */
@@ -1144,6 +1137,10 @@ private int findLeft(String style) {
       return null;
     return l[n];
   }
+
+  private TagNode[] getElements(TagNode top, String name) {
+    return top.getElementsByName(name, false);
+  }
   
   /*
    * 
@@ -1152,13 +1149,8 @@ private int findLeft(String style) {
    *  
    *   
    */
-  public String translate (String original) {
-    Iterator<String> i = translate.keySet().iterator();
-    while (i.hasNext()) {
-      String k = i.next();
-      original = original.replace(k, translate.get(k));
-    }
-    return original.trim();
+  public String clean (String dirty) {
+    return dirty.replace("\\t", "").replace("\n", "").trim();
   }
 
   /*
@@ -1171,25 +1163,6 @@ private int findLeft(String style) {
       serializer.writeToFile(root, fn);
     } catch (IOException e) {
     }
-  }
-
-  /*
-   * Return an array of values in the same order as the layout entries were given 
-   */
-  protected String[] getValueArray() {
-    String[] ret = new String[layout.size()];
-    Iterator<String> i = layout.keySet().iterator();
-    for (int j=0; i.hasNext(); j++)
-      ret[j] = layout.get(i.next()).value();
-    return ret;
-  }
-  
-  /*
-   * Set the translation map with values from a string array
-   */
-  protected void translate(String[] arr) {
-    for (int i = 0; i < arr.length; i += 2)
-      translate.put(arr[i], arr[i+1]);
   }
   
   /*
