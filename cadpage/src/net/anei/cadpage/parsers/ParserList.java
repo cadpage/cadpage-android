@@ -382,6 +382,7 @@ public class ParserList {
               ,"KYGreenupCounty"                ,"Greenup County, KY"
               ,"KYHardinCounty"                 ,"Hardin County, KY"
               ,"KYKentonCounty"                 ,"Kenton County, KY"
+              ,"KYStatePolice"                  ,"Kentucky State Police, KY"
               ,"KYLawrenceCounty"               ,"Lawrence County, KY"
               ,"KYLouisville"                   ,"Louisville, KY"
               ,"KYMadisonCounty"                ,"Madison County, KY"
