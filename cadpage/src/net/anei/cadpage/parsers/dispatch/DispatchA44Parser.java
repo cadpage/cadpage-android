@@ -21,7 +21,7 @@ public class DispatchA44Parser extends FieldProgramParser {
 
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("CD-\\d{2}-\\d+", true);
+    if (name.equals("ID")) return new IdField("[A-Z]{2}-\\d{2}-\\d+", true);
     if (name.equals("UNIT_CALL")) return new MyUnitCallField();
     if (name.equals("CITY_ST")) return new MyCityStateField();
     if (name.equals("INFO")) return new MyInfoField();
@@ -46,12 +46,13 @@ public class DispatchA44Parser extends FieldProgramParser {
     }
   }
 
-  private static Pattern CITY_STATE = Pattern.compile("(.*?) +([A-Z]{2})");
+  private static Pattern CITY_STATE = Pattern.compile("(.*?) +([A-Z]{2})(?: \\d{5})?");
 
   private class MyCityStateField extends Field {
 
     @Override
     public void parse(String field, Data data) {
+      if (field.length() == 0) return;
       Matcher mat = CITY_STATE.matcher(field);
       if (!mat.matches()) abort();
       data.strCity = mat.group(1);
