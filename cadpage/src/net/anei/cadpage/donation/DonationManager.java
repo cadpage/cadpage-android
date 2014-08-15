@@ -216,6 +216,7 @@ public class DonationManager {
         // complete successfully
         if (!armRecalc) {
           Log.v("Recalculation of Payment Status results failed");
+          return;
         }
         
         // Even with all of these safeguards, users are still getting
