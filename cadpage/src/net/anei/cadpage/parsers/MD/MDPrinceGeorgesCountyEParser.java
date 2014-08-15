@@ -11,17 +11,17 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class MDPrinceGeorgesCountyEParser extends MDPrinceGeorgesCountyBaseParser {
   
-  private static final Pattern ID_PTN = Pattern.compile("^(?:TR +)?(F\\d{6,}):");
+  private static final Pattern ID_PTN = Pattern.compile("^(?:TR +|.* / )?(F\\d{6,}):");
   private static final Pattern TRAILER = Pattern.compile(" - From [A-Z0-9]+ (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)$");
   private static final Pattern AT_PTN = Pattern.compile("\\bAT\\b", Pattern.CASE_INSENSITIVE);
   
   public MDPrinceGeorgesCountyEParser() {
-    super("CODE? CALL ADDR PP? AT? X? PP2? ( CITY ST CH | CITY CH | CH! ) BOX MAP INFO+ Units:UNIT% UNIT+");
+    super("CODE? CALL ADDR! PP? AT? X? PP2? ( CITY ST CH | CITY CH | CH% ) BOX MAP INFO+ Units:UNIT% UNIT+");
   }
   
   @Override
   public String getFilter() {
-    return "@alert.co.pg.md.us,rc.505@c-msg.net,14100,12101";
+    return "@alert.co.pg.md.us,@c-msg.net,14100,12101";
   }
   
   @Override
@@ -57,7 +57,7 @@ public class MDPrinceGeorgesCountyEParser extends MDPrinceGeorgesCountyBaseParse
       else if (data.strCode.equals("MACC")) data.strCity = "CALVERT COUNTY";
     }
     
-    return true;
+    return data.strCallId.length() > 0 || data.strChannel.length() > 0;
   }
   
   @Override
