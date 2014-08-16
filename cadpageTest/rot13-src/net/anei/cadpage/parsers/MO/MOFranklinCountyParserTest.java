@@ -158,7 +158,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:03/05/2014",
         "GVZR:04:31:25",
         "HAVG:(N)8213",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER");
 
     qbGrfg("G3",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -175,7 +175,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:03/05/2014",
         "GVZR:04:31:08",
         "HAVG:(N)8213",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER");
 
     qbGrfg("G4",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -388,7 +388,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:03/02/2014",
         "GVZR:05:52:05",
         "HAVG:(N)8213",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER");
 
     qbGrfg("G16",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -423,7 +423,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:03/02/2014",
         "GVZR:01:12:42",
         "HAVG:(N)8214",
-        "FEP:FG PYNVE SVER");
+        "FEP:FG PYNVE SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G18",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -459,7 +459,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:03/01/2014",
         "GVZR:22:16:37",
         "HAVG:(N)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G20",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -477,7 +477,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:03/01/2014",
         "GVZR:18:45:22",
         "HAVG:(N)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER");
 
     qbGrfg("G21",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -495,7 +495,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:03/01/2014",
         "GVZR:16:54:51",
         "HAVG:(N)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G22",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -513,7 +513,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/28/2014",
         "GVZR:21:12:57",
         "HAVG:(N)8218",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER ORNHSBEG-YRFYVR SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G23",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -549,7 +549,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/28/2014",
         "GVZR:17:19:14",
         "HAVG:(N)8214",
-        "FEP:FG PYNVE SVER");
+        "FEP:FG PYNVE SVER HAVBA SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G25",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -693,7 +693,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/26/2014",
         "GVZR:16:24:49",
         "HAVG:(N)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G33",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -728,7 +728,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/25/2014",
         "GVZR:16:31:29",
         "HAVG:(N)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G35",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -746,7 +746,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/25/2014",
         "GVZR:11:52:44",
         "HAVG:(N)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER OBYRF SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G36",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -817,7 +817,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/22/2014",
         "GVZR:21:06:34",
         "HAVG:(N)8218",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER HAVBA SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G40",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -835,7 +835,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/22/2014",
         "GVZR:18:56:41",
         "HAVG:(N)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G41",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -852,7 +852,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/22/2014",
         "GVZR:18:33:13",
         "HAVG:(N)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER");
 
     qbGrfg("G42",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -1012,7 +1012,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/20/2014",
         "GVZR:16:53:07",
         "HAVG:(N)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G51",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -1030,7 +1030,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/20/2014",
         "GVZR:16:08:20",
         "HAVG:(N)8234",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER FG PYNVE SVER HAVBA SVER");
 
     qbGrfg("G52",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -1066,7 +1066,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/20/2014",
         "GVZR:15:42:37",
         "HAVG:(N)8234",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G54",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -1120,7 +1120,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/20/2014",
         "GVZR:00:55:42",
         "HAVG:(N)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER");
 
     qbGrfg("G57",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -1156,7 +1156,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/18/2014",
         "GVZR:00:20:15",
         "HAVG:(N)8218",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER FG PYNVE SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G59",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -1371,7 +1371,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/14/2014",
         "GVZR:18:24:47",
         "HAVG:(G)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER");
 
     qbGrfg("G71",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -1496,7 +1496,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/14/2014",
         "GVZR:08:15:15",
         "HAVG:(N)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G78",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -1586,7 +1586,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/11/2014",
         "GVZR:10:24:00",
         "HAVG:(N)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G83",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -1658,7 +1658,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/09/2014",
         "GVZR:22:22:46",
         "HAVG:(N)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER OBYRF SVER HAVBA SVER");
 
     qbGrfg("G87",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +
@@ -1725,7 +1725,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/09/2014",
         "GVZR:04:55:45",
         "HAVG:(N)8214",
-        "FEP:HAVBA SVER");
+        "FEP:HAVBA SVER HAVBA SVER HAVBA SVER");
 
     qbGrfg("G91",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 13cg} \a" +

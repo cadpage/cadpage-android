@@ -13,6 +13,8 @@ public class TXAngletonParser extends HtmlParser {
     super(CITY_CODE, "ANGLETON", "TX",
         "Date:DATETIME Nature:CALL Business:PLACE Address:ADDR/S Notes:INFO+ Units:UNIT",
         LAYOUT);
+    
+    translate(TRANS);
   }
   
   @Override
@@ -37,7 +39,7 @@ public class TXAngletonParser extends HtmlParser {
     data.strCallId = m.group(2);
     if (m.group(1).contains("Clear")) {
       data.strCall = "CLEAR";
-      data.strSupp = clean(getOptGroup(getElementValue("pre", 0)));
+      data.strSupp = getValue("EVERYTHING");
       return true;
     }
     else
@@ -76,7 +78,7 @@ public class TXAngletonParser extends HtmlParser {
   }
   
   private static final String[] LAYOUT = {
-    "EVERYTHING(ELEMENT=PRE;REMOVE=/\\t/)"
+    "EVERYTHING(ELEMENT=PRE;offset=0)"
 // That's right, everything of interest is in one preformatted chunk of text
     // with a bunch of extra tabs, which
     // begs the question:  Why even use html????
@@ -135,4 +137,9 @@ public class TXAngletonParser extends HtmlParser {
         "MCBETH",             "MCBETH"
 
   });
+  
+  private static final String[] TRANS = {
+    "\\t", ""
+  };
+  
 }

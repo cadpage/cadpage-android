@@ -35,42 +35,9 @@ public class MOJacksonCountyParser extends HtmlParser {
     
     if (!getHtmlCleaner(body))
       return false;
-
-//    makeFile("/home/brennus/html/jc-"+n+".html");
-//    n++;
-    
-    /*
-    data.strCallId = clean(getOptGroup(getTableCellValue(3, "Master_Incident_Number", 1)));
-    String dateTime = getOptGroup(getTableCellValue(3, "Response_Date", 1));
-    setDateTime(MY_DATE_FMT, clean(dateTime), data);
-    callString = getOptGroup(getTableCellValue(3, "Problem", 1));
-    if (callString.contains("/")) {
-      String[] ccList = callString.split("/");
-      data.strCall = ccList[0].trim();
-      data.strCode = ccList[1].trim();
-    }
-    else
-      data.strCall = callString;
-    data.strPriority = getOptGroup(getTableCellValue(3, "Priority_Number", 1));
-    data.strPlace = getOptGroup(getTableCellValue(3, "Location_Name", 1));
-    data.strAddress = getOptGroup(getTableCellValue(3, "Address", 1));
-    data.strApt = getOptGroup(getTableCellValue(3, "Apartment", 1));
-    data.strCity = getOptGroup(getTableCellValue(3, "City", 1));
-    data.strMap = getOptGroup(getTableCellValue(3, "Map_Info", 1));
-    latitude = getOptGroup(getTableCellValue(3, "Latitude", 1));
-    longitude = getOptGroup(getTableCellValue(3, "Longitude", 1));
-    if (latitude.length() > 2)
-      latitude = latitude.substring(0, 2)+"."+latitude.substring(2);
-    if (longitude.length() > 2)
-      longitude = longitude.substring(0, 2)+"."+longitude.substring(2);
-    data.strGPSLoc = latitude+","+longitude;
-    if (data.strCode.equals(""))
-      data.strCode = getOptGroup(getTableCellValue(17, "Incident_Type", 1));
-    data.strCross = getOptGroup(getTableCellValue(12, "Cross_Street", 1));
-    */
     
     data.strCallId = getValue("CALLID");
-    setDateTime(MY_DATE_FMT, clean(getValue("DATETIME")), data);
+    setDateTime(MY_DATE_FMT, getValue("DATETIME"), data);
     String callString = getValue("CALLCODE");
     if (callString.contains("/")) {
       String[] ccList = callString.split("/");

@@ -11,13 +11,13 @@ import net.anei.cadpage.parsers.HtmlParser;
 
 
 public class TXBrazoriaCountyBParser extends HtmlParser {
-
   public TXBrazoriaCountyBParser() {
     super(CITY_LIST,
             "BRAZORIA COUNTY",
             "TX",
             "CALL ID ADDR APT CITY DATE TIME NAME PHONE INFO",
             LAYOUT);
+    translate(TRANS);
     setupMultiWordStreets("STEPHEN F AUSTIN");
   }
   
@@ -36,43 +36,24 @@ public class TXBrazoriaCountyBParser extends HtmlParser {
     = new SimpleDateFormat("mm/dd/yyyy hh:MM:ss");
   private static final Pattern PHONE_PATTERN
     = Pattern.compile("(.*?)((?:\\(\\d{3}\\) ?)?\\d{3}\\-\\d{4}.*)");
-  // Once again, this works better than parseHtmlMsg()
   @Override
-  protected boolean parseMsg(String msg, Data data) {
+  protected boolean parseHtmlMsg(String subject, String msg, Data data) {
+    // If I put this in the end translation I have extreme difficulties
+    msg = msg.replace("&nbsp;", " ");
     if (!getHtmlCleaner(msg))
       return false;
     
-    /*
-    data.strCallId = clean(getOptGroup(getTableCellValueAfter("Event No", 2)));
-    data.strCall = clean(getOptGroup(getTableCellValueAfter("Category:", 2)));
-    parseAddress(StartType.START_ADDR,
-                 getOptGroup(getTableCellValueAfter("Address:", 2)).trim(),
-                 data);
-    String dtField = clean(getOptGroup(getTableCellValueAfter("Open:", 2)));
-    setDateTime(MY_DATE_FMT, dtField, data);
-    String nameField = clean(getOptGroup(getTableCellValueAfter("Name Address Phone", 25)));
-    Matcher m = PHONE_PATTERN.matcher(nameField);
-    if (m.matches()) {
-      data.strName = m.group(1).trim();
-      data.strPhone = m.group(2).trim();
-    }
-    else
-      data.strName = nameField;
-    
-    data.strSupp = clean(getOptGroup(getTableCellValueAfter("Incident Notes", 34)));
-    
-    */
-    data.strCallId = clean(getValue("CALLID"));
-    data.strCall = clean(getValue("CALL"));
+    data.strCallId = getValue("CALLID");
+    data.strCall = getValue("CALL");
     parseAddress(StartType.START_ADDR, getValue("ADDRESS"), data);
     setDateTime(MY_DATE_FMT, getValue("DATETIME"), data);
-    Matcher m = PHONE_PATTERN.matcher(clean(getValue("NAME")));
+    Matcher m = PHONE_PATTERN.matcher(getValue("NAME"));
     if (m.matches()) {
       data.strName = m.group(1).trim();
       data.strPhone = m.group(2).trim();
     }
     else
-      data.strName = clean(getValue("NAME"));
+      data.strName = getValue("NAME");
       
     // Freeport names some streets AVE [A-Z] where the street
     // name is being misinterpreted as an apt :(
@@ -83,15 +64,15 @@ public class TXBrazoriaCountyBParser extends HtmlParser {
         data.strApt = match.group(2);
       }
     }
-    
-    return data.strCallId.length()>0 && data.strAddress.length()>0 && data.strDate.length()>0 && data.strTime.length()>0;
+    return true;
+//    return data.strCallId.length()>0 && data.strAddress.length()>0 && data.strDate.length()>0 && data.strTime.length()>0;
   }
   
   private static final String[] LAYOUT = {
-    "CALLID(ELEMENT=TD;LABEL=/Event No/;OFFSET=2)",
+    "CALLID(ELEMENT=TD;LABEL=/Event No:/;OFFSET=2; required)",
     "CALL(ELEMENT=TD;LABEL=/Category:/;OFFSET=2)",
-    "ADDRESS(ELEMENT=TD;LABEL=/Address:/;OFFSET=2)",
-    "DATETIME(ELEMENT=TD;LABEL=/Open:/;OFFSET=2)",
+    "ADDRESS(ELEMENT=TD;LABEL=/Address:/;OFFSET=2; required)",
+    "DATETIME(ELEMENT=TD;LABEL=/Open:/;OFFSET=2; required)",
     "NAME(ELEMENT=TD;LABEL=/Name Address Phone/;OFFSET=25)",
     "INFO(ELEMENT=TD;LABEL=/Incident Notes/;OFFSET=34)"
   };
@@ -148,5 +129,10 @@ public class TXBrazoriaCountyBParser extends HtmlParser {
         "TURTLE COVE",
         "MCBETH"
 
+  };
+  
+  private static final String[] TRANS = {
+    "\\t", "",
+    "\n", " ",
   };
 }
