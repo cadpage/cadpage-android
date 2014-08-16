@@ -73,6 +73,7 @@ Fraqre: nyeg_L5X0@nyreg.pb.ct.zq.hf
 1/2 / S142260304: Ncg. Angheny Tnf Yx, 1916 EBPURYY NIR, CC, ogja JNYXRE ZVYY EQ
 1/2 / S142240263: Jngre Erfphr, RNFG FJNA PERRX EQ/CEBKZVER QE, CC,  <600/ 12200>
 ab fhowrpg / S142270186: Zrqvp Ybpny, 5102 QRNY QE, CC, ogja NHQERL YA naq PUNIRM FG, GT
+1/2 / S142270202: Vaqhfgevny/Snez Nppv, 10480 PNZCHF JNL F, CC, ogja YNETB EQ naq
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Oynqrafohet ISQ Fgn. #9
@@ -1170,6 +1171,13 @@ choyvp pynff ZQCevaprTrbetrfPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvp Ybpny",
         "NQQE:5102 QRNY QE",
         "K:NHQERL YA naq PUNIRM FG");
+
+    qbGrfg("G4",
+        "1/2 / S142270202: Vaqhfgevny/Snez Nppv, 10480 PNZCHF JNL F, CC, ogja YNETB EQ naq",
+        "VQ:S142270202",
+        "PNYY:Vaqhfgevny/Snez Nppv",
+        "NQQE:10480 PNZCHF JNL F",
+        "K:YNETB EQ naq");
     
   }
 
