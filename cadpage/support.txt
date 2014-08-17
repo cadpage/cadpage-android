@@ -1741,17 +1741,13 @@ Have a nice day,
 ** MMS throws security exception
 ******************************************************************************
 
-This has been a continuing mystery....
-
-The code Cadpage uses to handle MMS messages relies on some undocumented back door interfaces to the messaging system.  As of Jellybean (Android 4.1) we started seeing this throw a security exception.  Which was unfortunate, but not completely surprising.  Of late, the situation has gotten more complicated.   Several users on JellyBean and higher versions of Android are running this with no problem.  And one user ran into this on Gingerbread (2.3) Android.
+This has been a continuing mystery.  The code Cadpage uses to handle MMS messages relies on some undocumented back door interfaces to the messaging system.  As of Jellybean (Android 4.1) we started seeing this throw a security exception.  Which was unfortunate, but not completely surprising.  Of late, the situation has gotten more complicated.   Several users on JellyBean and higher versions of Android are running this with no problem.  And one user ran into this on Gingerbread (2.3) Android.
 
 I am thinking it may have something to do with how security options are set, or which messaging app is handling the MMS messages.  If you can figure out what makes this stop and start happening we would be very very grateful.
 
-The latest versions of Cadpage trap the abort.  So it won't crash on you.  But it probably won't work either.  If you really aren't receiving MMS pages, you can turn processing off by going into Location Settings and changing the Message Type Processed setting to something that does not include MMS messages.  Problem solved!!
+The latest versions of Cadpage trap the abort.  So it does not crash on you.  But it probably won't work either.  If you are really are getting dispatch alerts as MMS messages, there are not many options.  Playing with the message app MMS options so that it automatically downloads all message content might fix things.  But we really just do not know.
 
-If you are getting MMS pages, there are not many options.  The code in the new release might work, especially if you the message options set to download the data content automatically.  But we just don't know.  And I won't have time to investigate further options anytime soon.
-
-We do have our own internal paging service now which gives you another way to workaround this issue.  If you install the latest regular Cadpage release, and purchase a $10/year subscription, you can register with that paging service and it will create a personal dispatch email address for you.  If you have your dispatch alerts sent to that email address, they will be forwarded to Cadpage through the mobile data network.  Since no text or MMS messaging is involved, any problems with processing MMS messages are sidestepped.
+We do have our own internal paging service now which gives you another way to workaround this issue.  Since you are a paid subscriber, you can register with that paging service and it will create a personal dispatch email address for you.  If you have your dispatch alerts sent to that email address, they will be forwarded to Cadpage through the mobile data network.  Since no text or MMS messaging is involved, any problems with processing MMS messages are sidestepped.
 
 Take care,
 -Ken
