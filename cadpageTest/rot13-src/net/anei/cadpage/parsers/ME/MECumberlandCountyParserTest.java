@@ -560,8 +560,8 @@ choyvp pynff ZRPhzoreynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G38",
         "(Vzp Fbyhgvbaf Cntr) SQ ZHGHNY NVQ TBEUNZ\a9 ZBBQL'F \aTBEUNZ\aQvfgevpg: TBE\a3/18/2014 23:51",
         "PNYY:SQ ZHGHNY NVQ TBEUNZ",
-        "ANZR:9 ZBBQL'F",
-        "NQQE:TBEUNZ",
+        "NQQE:9 ZBBQL'F",
+        "PVGL:TBEUNZ",
         "HAVG:TBE",
         "QNGR:3/18/2014",
         "GVZR:23:51");
@@ -721,8 +721,8 @@ choyvp pynff ZRPhzoreynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G52",
         "(Vzp Fbyhgvbaf Cntr) SQ SVER, IRUVPYR\aZNVAR GHEACVXR ABEGU (LRY \aFPNEOBEBHTU\aQvfgevpg: 7544\a3/15/2014 19:18",
         "PNYY:SQ SVER, IRUVPYR",
-        "CYNPR:ZNVAR GHEACVXR ABEGU (LRY",
-        "NQQE:FPNEOBEBHTU",
+        "NQQE:ZNVAR GHEACVXR ABEGU (LRY",
+        "PVGL:FPNEOBEBHTU",
         "HAVG:7544",
         "QNGR:3/15/2014",
         "GVZR:19:18");

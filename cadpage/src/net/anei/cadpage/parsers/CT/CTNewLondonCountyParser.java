@@ -21,6 +21,8 @@ public class CTNewLondonCountyParser extends DispatchA16Parser {
     "GALES FERRY",
     "GROTON",
     "LEDYARD",
-    "MONTVILLE"
+    "MONTVILLE",
+    "NORWICH",
+    "PRESTON"
   };
 }

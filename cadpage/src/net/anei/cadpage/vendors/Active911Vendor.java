@@ -198,6 +198,7 @@ class Active911Vendor extends Vendor {
       "US/CO/OlatheFire",                 "Cadpage2",
       "US/CO/MorganCounty",               "COMorganCounty",
       "US/CO/WeldCounty",                 "COWeldCounty",
+      "US/CT/CityofLedyard",              "CTNewLondonCounty",
       "US/CT/DMS",                        "CTFairfieldCountyB",
       "US/CT/Groton",                     "CTGroton",
       "US/CT/LitchfieldCounty",           "CTLitchfieldCountyA",
