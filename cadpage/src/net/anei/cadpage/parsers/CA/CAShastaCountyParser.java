@@ -1,6 +1,9 @@
 package net.anei.cadpage.parsers.CA;
 
 import java.util.Arrays;
+import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -10,24 +13,42 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  * Shasta County, CA
  */
 public class CAShastaCountyParser extends SmartAddressParser {
+
+  private static final Pattern GPS_PTN = Pattern.compile(" <a href=\"http://maps.google.com/\\?q=([-+]?\\d+\\.\\d{4,},[-+]?\\d+\\.\\d{4,})\"");
+  private static final String GPS_STR = " <a href=\"http://maps.google.com/?q=40.618995,-122.436166\">Map</a>";
   
   public CAShastaCountyParser() {
     super("SHASTA COUNTY", "CA");
-    setFieldList("CALL ADDR SRC X MAP ID UNIT INFO");
+    setFieldList("CALL PLACE ADDR APT SRC CITY X MAP ID UNIT INFO GPS");
   }
   
   @Override
   public String getFilter() {
-    return "vtext.com@gmail.com,5304482408,5304109246";
+    return "vtext.com@gmail.com,5304482408,5304109246,shucad@fire.ca.gov";
   }
   
   @Override
   public int getMapFlags() {
-    return MAP_FLG_SUPPR_LA;
+    return MAP_FLG_SUPPR_LA | MAP_FLG_PREFER_GPS;
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Strip GPS or partial GPS URL from end of text
+    Matcher match = GPS_PTN.matcher(body);
+    if (match.find()) {
+      setGPSLoc(match.group(1), data);
+      body = body.substring(0,match.start()).trim();
+    } else {
+      int pt = body.lastIndexOf(" <a");
+      if (pt >= 0) {
+        String part = body.substring(pt);
+        if (GPS_STR.startsWith(part) || part.startsWith(GPS_STR)) {
+          body = body.substring(0,pt).trim();
+        }
+      }
+    }
     
     String[] flds = body.replace('\n', ' ').trim().split(" *; *");
     if (flds.length < 6) return false;
@@ -35,9 +56,23 @@ public class CAShastaCountyParser extends SmartAddressParser {
     String[] addressList = new String[3];
     
     data.strCall = flds[0];
-    Parser p = new Parser(flds[1]);
-    addressList[0] = p.get(',');
-    data.strSource = p.get();
+    String addr =  flds[1];
+    if (addr.endsWith(")")) {
+      int pt = addr.lastIndexOf('(');
+      if (pt < 0) return false;
+      data.strPlace = addr.substring(pt+1, addr.length()-1).trim();
+      addr = addr.substring(0,pt).trim();
+    }
+    Parser p = new Parser(addr);
+    data.strPlace = append(p.getOptional('@'), " - ", data.strPlace);
+    String src = p.getLastOptional(',');
+    if (src.length() == 0) return false;
+    if (src.startsWith("STA")) {
+      data.strSource = src;
+    } else {
+      data.strCity = convertCodes(src, CITY_CODES);
+    }
+    addressList[0] = p.get();
     addressList[1] = flds[2];
     addressList[2] = flds[3];
     
@@ -87,4 +122,32 @@ public class CAShastaCountyParser extends SmartAddressParser {
       return -(this.status - adst.status);
     }
   }
+
+  @Override
+  public String adjustMapCity(String city) {
+    city = convertCodes(city, CITY_MAP);
+    return super.adjustMapCity(city);
+  }
+  
+  private static final Properties CITY_MAP = buildCodeTable(new String[]{
+      "CENTERVILLE",      "REDDING",
+      "JONES VALLEY",     "REDDING",
+      "KESWICK",          "REDDING",
+      "SHASTA COLLEGE",   "REDDING",
+      "SHASTA LAKE",      "REDDING",
+      "WEST VALLEY",      "ANDERSON",
+      "WNPS",             "SHASTA"
+  });
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BELLAVISTA",   "BELLA VISTA",
+      "JONESVALLEY",  "JONES VALLEY",
+      "MONTGOMERYCK", "MONTGOMERY CREEK",
+      "MTNGATE",      "MOUNTAIN GATE",
+      "PALOCEDRO",    "PALO CEDRO",
+      "REDDINGCTY",   "REDDING",
+      "SHASTACOLL",   "SHASTA COLLEGE",
+      "SHASTALKCTY",  "SHASTA LAKE",
+      "WESTVALLEY",   "WEST VALLEY"
+  });
 }

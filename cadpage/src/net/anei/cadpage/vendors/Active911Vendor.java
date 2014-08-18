@@ -186,6 +186,7 @@ class Active911Vendor extends Vendor {
       "US/CA/SantaClaraCounty",           "CASantaClaraCountyB",
       "US/CA/SantaCruzCounty",            "CASantaCruzCounty",
       "US/CA/SantaCruzlimited",           "CASantaCruzCounty",
+      "US/CA/ShastaCounty",               "CAShastaCounty",
       "US/CA/SonomaCounty",               "CASonomaCounty",
       "US/CA/StanislausCounty",           "CAStanislausCounty",
       "US/CO/AdamsCounty",                "COAdamsCounty",
