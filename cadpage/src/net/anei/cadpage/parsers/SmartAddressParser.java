@@ -979,24 +979,24 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   private boolean parseTrivialAddress(Result result, boolean skipPad) {
     
-    // If caller has locked both ends of the address, and wants an address status
-    // Or we are supposed to insert implied intersection symbols
-    // then return failure status so one of the other address parsers can make
-    // some kind of reasonableness check on this
-    if (isFlagSet(FLAG_CHECK_STATUS|FLAG_IMPLIED_INTERSECT|FLAG_ANY_PAD_FIELD)) return false;
+    // If start address is not fixed somewhere, this cannot possibly work
+    if (startAddress < 0) return false;
+    
+    // If we were called to specifically check address status, we always fail
+    // because this short circuits the entire address validation logic
+    if (isFlagSet(FLAG_CHECK_STATUS)) return false;
 
-    // We end up getting called twice. The first time skipPad is true, and we are
-    // still hoping to find a pad field, which won't happen if we   find anything 
-    // here.
+    // We end up getting called twice. The first time skipPad is false, and we are
+    // still hoping to find an implied intersection or pad field, which won't happen if we   
+    // return a trivial result here 
     
     // We are called a second time if nothing else has worked, in which case we
-    // will ahead and process this without a pad field
-    if (isFlagSet(FLAG_ANY_PAD_FIELD) != skipPad) return false;
+    // will ahead and process this if we skipped processing the first time around
+    if (isFlagSet(FLAG_IMPLIED_INTERSECT|FLAG_ANY_PAD_FIELD) != skipPad) return false;
     
     // OK, we have to have at least 1 items before the city
     // Unless we are parsing a cross street instead of a real address, in which
     // case we allow it to be empty
-    if (startAddress < 0) return false;
     int reserve = (isFlagSet(FLAG_ONLY_CROSS | FLAG_EMPTY_ADDR_OK) ? 0 : isHouseNumber(startAddress) ? 2 : 1);
     return parseAddressToCity(startAddress, startAddress+reserve, result);
   }
