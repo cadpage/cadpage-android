@@ -270,7 +270,7 @@ public class DonationManager {
       
       // Clean up inputs
       if (purchaseDateStr.length() < 4) purchaseDateStr = null;
-      if (sponsor.length() == 0) sponsor = null;
+      if (sponsor != null && sponsor.length() == 0) sponsor = null;
       
       // If this is part of a payment status recalculation, all calculations
       // are limited to local working variables.  If not, then working variables
