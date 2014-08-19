@@ -413,7 +413,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_STREET_NAME_PREFIX, "HIDDEN", "LAKE", "MT", "MOUNT", "SUNKEN");
     setupDictionary(ID_NOT_ADDRESS, "YOM", "YOF", "YO");
     setupDictionary(ID_SINGLE_WORD_ROAD, "TURNPIKE");
-    setupDictionary(ID_BLOCK, "BLK","BLOCK");
+    setupDictionary(ID_BLOCK, "BLK", "BLOCK");
     
     // Set up special cross street names
     addCrossStreetNames(
@@ -1529,7 +1529,9 @@ public abstract class SmartAddressParser extends MsgParser {
       }
       result.endAll = endAddr;
       if (padField && endAddr < result.tokens.length){
-        parsePadToCity(endAddr, result);
+        int tmpNdx = endAddr;
+        if (isComma(tmpNdx)) tmpNdx++;
+        parsePadToCity(tmpNdx, result);
         parseToCity = true;
       }
     }
@@ -1670,7 +1672,7 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   private boolean parseAddressToCity(int stAddr, int srcNdx, Result result) {
     FieldSpec addressField = new FieldSpec(stAddr);
-    if (!parseToCity(addressField, srcNdx, result)) return false;
+    if (!parseToCity(addressField, true, srcNdx, result)) return false;
     result.addressField = addressField;
     if (result.startField != null) result.startField.optionalEnd(stAddr);
     return true;
@@ -1685,7 +1687,7 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   private boolean parsePadToCity(int start, Result result) {
     FieldSpec padField = new FieldSpec(start);
-    if (!parseToCity(padField, start, result)) return false;
+    if (!parseToCity(padField, false, start, result)) return false;
     result.padField = padField;
     return true;
   }
@@ -1698,17 +1700,18 @@ public abstract class SmartAddressParser extends MsgParser {
    * False if not city was found and  nothing was changed in result
    */
   private boolean parseStartToCity(int start, Result result) {
-    return parseToCity(result.startField, start, result);
+    return parseToCity(result.startField, false, start, result);
   }
     
   
   /**
    * See if we can parse an address from a known starting point to a city
    * @param fldSpec previous field being parsed
+   * @param addr true if fldSpec is destined to be an address field spec
    * @param srcNdx start looking for city here
    * @return true if  city was identified and all fields have been set
    */
-  private boolean parseToCity(FieldSpec fldSpec, int srcNdx, Result result) {
+  private boolean parseToCity(FieldSpec fldSpec, boolean addr, int srcNdx, Result result) {
     
     // If we are doing a cross only parse without a city, answer is always no
     boolean crossOnly = isFlagSet(FLAG_ONLY_CROSS);
@@ -1774,7 +1777,7 @@ public abstract class SmartAddressParser extends MsgParser {
           // ourselves recursively in an attempt to find another city name
           // behind this one
           if (isFlagSet(FLAG_PAD_FIELD) && endCity < tokens.length) {
-            parseToCity(fldSpec, endCity, result);
+            parseToCity(fldSpec, addr, endCity, result);
           }
           return true;
         }
@@ -1788,11 +1791,13 @@ public abstract class SmartAddressParser extends MsgParser {
         
         // Check for place name
         if (flexAt && placeField == null) {
-          if (isAtSign(ndx)) {
+          if (isAtSign(tmpNdx)) {
             lastField.end(ndx);
+            ndx = tmpNdx;
             lastField = placeField = new FieldSpec(ndx+1);
           } else if (isType(ndx, ID_INCL_AT_MARKER)) {
             lastField.end(ndx);
+            ndx = tmpNdx;
             lastField = placeField = new FieldSpec(ndx);
           }
         }
@@ -1802,13 +1807,12 @@ public abstract class SmartAddressParser extends MsgParser {
 
         // Check for apartment marker
           if (aptField == null) {
-            tmpNdx = ndx;
-            if (isComma(ndx) && ndx+1 < tokens.length) tmpNdx++;
             if (tmpNdx+1 < tokens.length && isType(tmpNdx, ID_FLOOR | ID_APT)) {
               lastField.end(ndx);
               ndx = tmpNdx;
-              if (!isType(ndx, ID_FLOOR)) tmpNdx++;
-              lastField = aptField = new FieldSpec(tmpNdx);
+              int tmp = ndx;
+              if (!isType(tmp, ID_FLOOR)) tmp++;
+              lastField = aptField = new FieldSpec(tmp);
             }
             else if (tmpNdx < tokens.length && isAptToken(tokens[tmpNdx], false)) {
               aptToken = true;
@@ -1819,19 +1823,28 @@ public abstract class SmartAddressParser extends MsgParser {
           }
           
           // Check for cross street marker
-          if (crossField == null && isType(ndx, ID_CROSS_STREET)) {
+          if (crossField == null && isType(tmpNdx, ID_CROSS_STREET)) {
             lastField.end(ndx);
+            ndx = tmpNdx;
             lastField = crossField = new FieldSpec(ndx+1);
           }
           
-          if (nearField == null && isType(ndx, ID_NEAR)) {
+          if (nearField == null && isType(tmpNdx, ID_NEAR)) {
             lastField.end(ndx);
+            ndx = tmpNdx;
             lastField = nearField = new FieldSpec(ndx);
           }
         }
-        
+      }
+      
+      // If we are processing an address field and we skipped over a comma
+      // without finding anything, or encountered a non-address character
+      // fail here
+      if (addr && lastField == startField) {
+        if (tmpNdx != ndx) return false;
         if (isType(ndx, ID_NOT_ADDRESS)) return false;
       }
+      ndx = tmpNdx;
     }
     
     // If we are parsing to end of field, return successful status

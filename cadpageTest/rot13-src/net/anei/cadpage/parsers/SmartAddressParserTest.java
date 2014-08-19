@@ -47,8 +47,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
-    qbGrfg(NQQE, SYNT_VZCYVRQ_VAGREFRPG | SYNT_NAPUBE_RAQ, "R KK 12 UJL A  QERNZ INYYRL EQ",
-        "NQQE:R KK 12 UJL & A QERNZ INYYRL EQ");
+
   }
 
   @Grfg

@@ -62,6 +62,15 @@ public class SCOrangeburgCountyParser extends SmartAddressParser {
       addr = addr.replace(",", "");
       addr = LAN_PTN.matcher(addr).replaceAll("LN");
       addr = INTERSECT_PTN.matcher(addr).replaceAll(" ").trim();
+
+      String left = "";
+      int pt = addr.indexOf(" FOR ");
+      if (pt >= 0) {
+        left = addr.substring(pt+1);
+        addr = addr.substring(0,pt).trim();
+        flags |= FLAG_ANCHOR_END;
+        if (st == StartType.START_ADDR) flags |= FLAG_CHECK_STATUS;
+      }
       Result res = parseAddress(st, flags, addr);
       status = res.getStatus();
       if (status > STATUS_MARGINAL) {
@@ -69,7 +78,7 @@ public class SCOrangeburgCountyParser extends SmartAddressParser {
         data.strCall = "";
         res.getData(data);
         data.strCall = append(call, "/", data.strCall);
-        flds[ipt] = res.getLeft();
+        flds[ipt] = append(res.getLeft(), " ", left);
         break;
       }
       data.strCall = append(data.strCall, "/", flds[ipt++]);

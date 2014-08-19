@@ -396,7 +396,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ARVTUOBE URNEVAT NYNEZ",
         "NQQE:1932 JURGFGBAR EVIRE EQ A",
         "PVGL:PNYRQBAVN",
-        "K:RNFG JBBQ INYY FE 746 A PY");
+        "K:RNFG JBBQ INYY FE 746 A");
 
     qbGrfg("G6",
         "(PNQ Cntr) HAVG 111 12  4/28/2013 13:47:24 13-011340 ARVTUOBE URNEVAT NYNEZ 1932 JURGF EVI A PY RNFG JBBQ INYY FE 746 A PY",
@@ -407,7 +407,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ARVTUOBE URNEVAT NYNEZ",
         "NQQE:1932 JURGFGBAR EVIRE EQ A",
         "PVGL:PNYRQBAVN",
-        "K:RNFG JBBQ INYY FE 746 A PY");
+        "K:RNFG JBBQ INYY FE 746 A");
 
     qbGrfg("G7",
         "(PNQ Cntr) HAVG 100  4/28/2013 09:07:47 13-011312 SVER NYNEZ-TRARENY SVER 1932 JURGF EVI A PY RNFG JBBQ INYY FE 746 A PY",
@@ -418,7 +418,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER NYNEZ-TRARENY SVER",
         "NQQE:1932 JURGFGBAR EVIRE EQ A",
         "PVGL:PNYRQBAVN",
-        "K:RNFG JBBQ INYY FE 746 A PY");
+        "K:RNFG JBBQ INYY FE 746 A");
 
     qbGrfg("G8",
         "(PNQ Cntr) HAVG 104  4/25/2013 12:57:41 13-011014 FDHNQ PNYY-9L/B/Z SRYY BSS CYNLTEBHAQ RDHVCZRAG NAQ VF FUBEG BS OERNGU 720 FE 98 F PY ZEA RQVFBA PY FE 95 R PY",
@@ -1015,7 +1015,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FZBXR NYNEZ",
         "NQQE:1932 JURGFGBAR EVIRE EQ A",
         "PVGL:PNYRQBAVN",
-        "K:RNFG JBBQ INYY FE 746 A PY");
+        "K:RNFG JBBQ INYY FE 746 A");
 
     qbGrfg("G66",
         "(PNQ Cntr) HAVG 105  3/21/2013 21:12:59 13-007508 FDHNQ PNYY-59 LBZ VYY 3007 FE 309 R PY PFK PY 913045R FE 98 A PY",
@@ -1049,7 +1049,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4 JNGRE SYB 3007 FE 309 R",
         "ZNQQE:4 JNGRE SYB 3007 BU 309 R",
         "PVGL:PNYRQBAVN",
-        "K:HAVG 202 PFK PY 913045R FE 98 A PY");
+        "K:HAVG 202 PFK PY 913045R FE 98 A");
 
     qbGrfg("G69",
         "(PNQ Cntr) HAVG 105  3/17/2013 21:47:32 13-007086 FDHNQ PNYY-ABA VAWHEL YVSG NFFVFG 1680 FE 98 F PY  ",

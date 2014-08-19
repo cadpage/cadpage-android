@@ -792,8 +792,8 @@ choyvp pynff ALNyonalPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G86",
         "(ZFT NYREG) [PZO]-- - Angher: Genssvp Nppvqrag - Ybpngvba: G RNFG TERRAOHFU - Pbzzragf: ERS PE 430840449 GENSSVP NPPVQRAG JVGU N VAWHEL -PZO(12/18/2013 2:59:41 CZ)",
         "PNYY:Genssvp Nppvqrag",
-        "NQQE:G RNFG",
-        "PVGL:TERRAOHFU",
+        "NQQE:G",
+        "PVGL:RNFG TERRAOHFU",
         "VASB:ERS PE 430840449 GENSSVP NPPVQRAG JVGU N VAWHEL",
         "QNGR:12/18/2013",
         "GVZR:14:59:41");
