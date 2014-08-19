@@ -1,3 +1,14 @@
+**************************************************************************
+* v1.7.37 crash in payment recalculation logic
+**************************************************************************
+
+I released a new Cadpage version that will fix this yesterday.  You can install it from Google Play Store.
+
+Very sorry for the inconvenience,
+-Ken
+
+**************************************************************************
+
 Cadpage Paging Service
 
 Cadpage now has a very simple direct paging service.  When you register with this service Cadpage assigns you a unique dispatch email address. It is up to you to get your dispatch alerts sent to this email address. Alerts sent to this address will be forwarded to Cadpage as direct pages.

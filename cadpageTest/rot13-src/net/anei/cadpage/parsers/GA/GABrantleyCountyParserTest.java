@@ -24,6 +24,7 @@ Fhowrpg:Qvfc: JISQ 105518 2014-08-13739\a1052 Qngr Erpi 8/10/2014 11:26:33 NZ ON
 Fhowrpg:Qvfc: JISQ 105499 2014-08-13720\a1070 Qngr Erpi 8/10/2014 12:36:03 NZ   GEHPX BA SVER/ FGHPGHERF VA QNATRE 304 JUVFCRE EVQTR YB
 Fhowrpg:Qvfc: JISQ 105424 2014-08-13645\aQngr Erpi 8/9/2014 4:04:28 NZ   21 LE BYQ ZNYR UVG URNQ NAQ 94 FVZBA JNL JNLARFIVYYR  uggc://
 Fhowrpg:Qvfc: JISQ 105537 2014-08-13758\a1070 Qngr Erpi 8/10/2014 4:02:02 CZ   JBBQF SVER FGEHPGHERF VA QNATRE 50 ERORY EQ
+Fhowrpg:Qvfc: JISQ 106048 2014-08-14269\a1052 Qngr Erpi 8/18/2014 6:15:37 CZ   59LZ/ CNFF BHG VAP 311 ENGGYRE EHA UBEGRAFR  uggc://zncf\a
 
 */
 
@@ -152,6 +153,19 @@ choyvp pynff TNOenagyrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:16:02:02",
         "PNYY:JBBQF SVER FGEHPGHERF VA QNATRE",
         "NQQE:50 ERORY EQ");
+
+    qbGrfg("G7",
+        "Fhowrpg:Qvfc: JISQ 106048 2014-08-14269\a" +
+        "1052 Qngr Erpi 8/18/2014 6:15:37 CZ   59LZ/ CNFF BHG VAP 311 ENGGYRE EHA UBEGRAFR  uggc://zncf\a",
+
+        "FEP:JISQ",
+        "VQ:106048",
+        "HAVG:1052",
+        "QNGR:8/18/2014",
+        "GVZR:18:15:37",
+        "PNYY:59LZ/ CNFF BHG VAP",
+        "NQQE:311 ENGGYRE EHA",
+        "PVGL:UBEGRAFR");
     
   }
   
