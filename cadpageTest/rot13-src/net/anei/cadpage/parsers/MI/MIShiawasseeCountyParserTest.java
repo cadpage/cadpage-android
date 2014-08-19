@@ -244,7 +244,7 @@ choyvp pynff ZVFuvnjnffrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:CREFBANY VAWHEL NPPVQRAG/HAXA;1999 A Z 52/J JVYXVAFBA EQ;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Oenib ERFCBAQRE FPEVCG: 50 lrne byq, Znyr, Pbafpvbhf, Oernguvat. Genssvp / Genafcbegngvba Vapvqragf. Pnyyre Fgngrzrag: znyr jvgu uheg yrt. 1.Gur vapv",
         "PNYY:CREFBANY VAWHEL NPPVQRAG/HAXA",
         "NQQE:1999 A Z 52 & J JVYXVAFBA EQ",
-        "ZNQQE:1999 A Z 52",
+        "ZNQQE:1999 A Z 52", //qbrf abg znc
         "VASB:50 lrne byq, Znyr, Pbafpvbhf, Oernguvat. Genssvp / Genafcbegngvba Vapvqragf. Pnyyre Fgngrzrag: znyr jvgu uheg yrt. 1.Gur vapv");
 
     qbGrfg("G6",
