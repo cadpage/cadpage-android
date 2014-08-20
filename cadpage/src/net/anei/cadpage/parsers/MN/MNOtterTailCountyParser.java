@@ -17,9 +17,7 @@ public class MNOtterTailCountyParser extends DispatchA27Parser {
     return "noreply@co.ottertail.mn.us";
   }
 
-
   private static final String[] CITY_LIST = new String[]{
-    
     "AASTAD",
     "AMOR",
     "AURDAL",
