@@ -75,6 +75,10 @@ Fraqre: nyeg_L5X0@nyreg.pb.ct.zq.hf
 ab fhowrpg / S142270186: Zrqvp Ybpny, 5102 QRNY QE, CC, ogja NHQERL YA naq PUNIRM FG, GT
 1/2 / S142270202: Vaqhfgevny/Snez Nppv, 10480 PNZCHF JNL F, CC, ogja YNETB EQ naq
 
+Pbagnpg: Ancbyrba Rccf fe <a.rccf_fe@lznvy.pb
+Fraqre: nyeg_L9GQ@nyreg.pb.ct.zq.hf
+ab fhowrpg / S142320100: Crqrfgevna Fgehpx, ANGVBANY UNEOBE OYIQ/NZREVPNA JNL, CC,  <449
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Oynqrafohet ISQ Fgn. #9
 Ybpngvba: Oynqrafohet, ZQ, Havgrq Fgngrf
@@ -1179,6 +1183,17 @@ choyvp pynff ZQCevaprTrbetrfPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:10480 PNZCHF JNL F",
         "K:YNETB EQ naq");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgAncbyrbaNccf() {
+
+    qbGrfg("G1",
+        "ab fhowrpg / S142320100: Crqrfgevna Fgehpx, ANGVBANY UNEOBE OYIQ/NZREVPNA JNL, CC,  <449",
+        "VQ:S142320100",
+        "PNYY:Crqrfgevna Fgehpx",
+        "NQQE:ANGVBANY UNEOBE OYIQ & NZREVPNA JNL");
+
   }
 
   @Grfg
