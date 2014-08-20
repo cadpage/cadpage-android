@@ -505,6 +505,7 @@ class Active911Vendor extends Vendor {
       "US/TX/FreeportDispatch",           "TXBrazoriaCountyB",
       "US/TX/Gatesville",                 "TXGatesville",
       "US/TX/GreggCounty",                "TXGreggCounty",
+      "US/TX/HarrisCountyEC",             "TXHarrisCountyESD1B",
       "US/TX/HaysCounty",                 "TXHaysCounty",
       "US/TX/HaysUSA",                    "KSHays",
       "US/TX/HuntCounty",                 "TXHuntCounty",
