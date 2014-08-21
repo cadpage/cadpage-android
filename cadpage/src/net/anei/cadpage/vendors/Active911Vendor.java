@@ -144,6 +144,7 @@ class Active911Vendor extends Vendor {
   private static Properties POLY_CODE_TABLE = MsgParser.buildCodeTable(new String[]{
       "CA/AB/ClearwaterCounty",           "ZCAABClearwaterCounty",
       "CA/AB/highriver",                  "ZCAABCanmore",
+      "CA/BC/MidIsland",                  "ZCABCMidIslandRegion",
       "NZ/NI/Auckland",                   "ZNZNewZealand",
       "NZ/NI/Northland",                  "ZNZNewZealand",
       "NZ/NI/Waikato",                    "ZNZNewZealand",
