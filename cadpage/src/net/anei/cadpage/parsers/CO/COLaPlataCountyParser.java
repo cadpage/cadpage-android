@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.CO;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -74,14 +77,11 @@ public class COLaPlataCountyParser extends FieldProgramParser {
       
       // See if this is a unit field
       if (INFO_UNIT_PTN.matcher(field).matches()) {
-        data.strUnit = field;
-        return;
-      }
-      if (field.equals(data.strUnit)) return;
-      
-      int pt = field.indexOf(' ');
-      if (pt >= 0 && field.substring(0,pt).equals(data.strUnit)) {
-        data.strUnit = field;
+        Set<String> unitSet = new HashSet<String>();
+        unitSet.addAll(Arrays.asList(data.strUnit.split(" ")));
+        for (String unit : field.split(" ")) {
+          if (!unitSet.contains(unit)) data.strUnit = append(data.strUnit, " ", unit);
+        }
         return;
       }
       
