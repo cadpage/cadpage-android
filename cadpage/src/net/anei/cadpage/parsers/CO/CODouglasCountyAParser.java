@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.CO;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -20,10 +21,11 @@ public class CODouglasCountyAParser extends FieldProgramParser {
   }
   
   protected CODouglasCountyAParser(String defCity, String defState) {
-    super(CITY_LIST, defCity, defState,
+    super(defCity, defState,
            "( Call:CALL! Location:ADDRCH/SXa! Map:MAP Units:UNITX! Common_Name:PLACE Time:DATETIME Narrative:INFO? Nature_Of_Call:INFO | " +
              "Call_Type:CALLID! Common_Name:PLACE! Location:ADDR/SXXx! Call_Time:DATETIME! Narrative:INFO Nature_Of_Call:INFO | " +
              "CALL! LOC:ADDRCITY/Sxa! ( Closest_X:X Map:MAP! | Map:MAP! Closest_X:X? ) Units:UNIT! Nar:INFO LOC_Name:PLACE ADDL:INFO CR:ID3 Time:DATETIME3 )");
+    setupGpsLookupTable(GPS_LOOKUP_TABLE);
   }
   
   @Override
@@ -101,8 +103,8 @@ public class CODouglasCountyAParser extends FieldProgramParser {
         data.strChannel = match.group();
         field = field.substring(0,match.start()).trim();
       }
-      if (field.startsWith("/")) field = field.substring(1).trim();
-      if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
+      field = stripFieldStart(field, "/");
+      field = stripFieldEnd(field, "/");
       
       // Dispatch frequently uses 2 letter direction abbreviations that the address
       // parsing logic does not understand.  So we turn those into one character abbreviations
@@ -118,7 +120,11 @@ public class CODouglasCountyAParser extends FieldProgramParser {
         field = sb.toString();
       }
       
-      super.parse(field, data);
+      if (I25_MM_PTN.matcher(field).matches()) {
+        data.strAddress = field;
+      } else {
+        super.parse(field, data);
+      }
     }
     
     @Override
@@ -131,8 +137,12 @@ public class CODouglasCountyAParser extends FieldProgramParser {
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      field = field.replace('@', '&');
-      super.parse(field, data);
+      if (I25_MM_PTN.matcher(field).matches()) {
+        data.strAddress = field;
+      } else {
+        field = field.replace('@', '&');
+        super.parse(field, data);
+      }
     }
   }
   
@@ -140,8 +150,12 @@ public class CODouglasCountyAParser extends FieldProgramParser {
   private class MyAddressCityField extends AddressCityField {
     @Override
     public void parse(String field, Data data) {
-      field = field.replace('@', '&');
-      super.parse(field, data);
+      if (I25_MM_PTN.matcher(field).matches()) {
+        data.strAddress = field;
+      } else {
+        field = field.replace('@', '&');
+        super.parse(field, data);
+      }
     }
   }
   
@@ -224,67 +238,56 @@ public class CODouglasCountyAParser extends FieldProgramParser {
       super.parse(field, data);
     }
   }
-  
-  private static final String[] CITY_LIST = new String[]{
-    
-    // Douglas County
-    "AURORA",
-    "CASTLE PINES NORTH",
-    "CASTLE ROCK",
-    "LARKSPUR",
-    "LITTLETON",
-    "LONE TREE",
-    "PARKER",
-    "ACRES GREEN",
-    "CARRIAGE CLUB",
-    "CASTLE PINES",
-    "COTTONWOOD",
-    "FRANKTOWN",
-    "GRAND VIEW ESTATES",
-    "HERITAGE HILLS",
-    "HIGHLANDS RANCH",
-    "LOUVIERS",
-    "MERIDIAN",
-    "PERRY PARK",
-    "ROXBOROUGH PARK",
-    "SEDALIA",
-    "STONEGATE",
-    "THE PINERY",
-    "WESTCREEK",
-    "CASTLE PINES VILLAGE",
-    "DAKAN",
-    "DECKERS",
-    "GREENLAND",
 
-    
-    // Elbert County
-    "AGATE",
-    "ELIZABETH",
-    "ELBERT",
-    "FONDIS",
-    "KIOWA",
-    "MATHESON",
-    "PONDEROSA PARK",
-    "SIMLA",
-    "ACRES GREEN",
-    "CARRIAGE CLUB",
-    "CASTLE PINES",
-    "COTTONWOOD",
-    "FRANKTOWN",
-    "GRAND VIEW ESTATES",
-    "HERITAGE HILLS",
-    "HIGHLANDS RANCH",
-    "LOUVIERS",
-    "MERIDIAN",
-    "PERRY PARK",
-    "ROXBOROUGH PARK",
-    "SEDALIA",
-    "STONEGATE",
-    "THE PINERY",
-    "WESTCREEK",
-    "CASTLE PINES VILLAGE",
-    "DAKAN",
-    "DECKERS",
-    "GREENLAND"
-  };
+  
+  @Override
+  protected String adjustGpsLookupAddress(String address) {
+    Matcher match = I25_MM_PTN.matcher(address);
+    if (match.matches()) address = match.group(1);
+    return address;
+  }
+  private static final Pattern I25_MM_PTN = Pattern.compile("(I25 MM\\d+ [NS]B)(?: .*)?");
+
+
+  private static final Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
+      "I25 MM170 NB", "39.217364,-104.877107",
+      "I25 MM170 SB", "39.217364,-104.877107",
+      "I25 MM171 NB", "39.231218,-104.877672",
+      "I25 MM171 SB", "39.231218,-104.877672",
+      "I25 MM172 NB", "39.245073,-104.879922",
+      "I25 MM172 SB", "39.245073,-104.879922",
+      "I25 MM173 NB", "39.257136,-104.890307",
+      "I25 MM173 SB", "39.257136,-104.890307",
+      "I25 MM174 NB", "39.270504,-104.896985",
+      "I25 MM174 SB", "39.270504,-104.896985",
+      "I25 MM175 NB", "39.285110,-104.896290",
+      "I25 MM175 SB", "39.285110,-104.896290",
+      "I25 MM176 NB", "39.298827,-104.890537",
+      "I25 MM176 SB", "39.298827,-104.890537",
+      "I25 MM177 NB", "39.312872,-104.885372",
+      "I25 MM177 SB", "39.312872,-104.885372",
+      "I25 MM178 NB", "39.326884,-104.880246",
+      "I25 MM178 SB", "39.326884,-104.880246",
+      "I25 MM179 NB", "39.340208,-104.875542",
+      "I25 MM179 SB", "39.340208,-104.875542",
+      "I25 MM180 NB", "39.354219,-104.870033",
+      "I25 MM180 SB", "39.354219,-104.870033",
+      "I25 MM181 NB", "39.368295,-104.864944",
+      "I25 MM181 SB", "39.368295,-104.864944",
+      "I25 MM182 NB", "39.382307,-104.860402",
+      "I25 MM182 SB", "39.382307,-104.860402",
+      "I25 MM183 NB", "39.396422,-104.860163",
+      "I25 MM183 SB", "39.396422,-104.860163",
+      "I25 MM184 NB", "39.410118,-104.866341",
+      "I25 MM184 SB", "39.410118,-104.866341",
+      "I25 MM185 NB", "39.423523,-104.875521",
+      "I25 MM185 SB", "39.423523,-104.875521",
+      "I25 MM186 NB", "39.437084,-104.878115",
+      "I25 MM186 SB", "39.437084,-104.878115",
+      "I25 MM187 NB", "39.450508,-104.875642",
+      "I25 MM187 SB", "39.450508,-104.875642",
+      "I25 MM188 NB", "39.466664,-104.873317",
+      "I25 MM188 SB", "39.466664,-104.873317"
+
+  });
 }
