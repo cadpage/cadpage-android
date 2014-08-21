@@ -190,6 +190,7 @@ class Active911Vendor extends Vendor {
       "US/CA/SonomaCounty",               "CASonomaCounty",
       "US/CA/StanislausCounty",           "CAStanislausCounty",
       "US/CO/AdamsCounty",                "COAdamsCounty",
+      "US/CO/CityofDurango",              "COLaPlataCounty",
       "US/CO/ColoradoSprings",            "COElPasoCountyB",
       "US/CO/DeltaCountyAmbulance",       "CODeltaCounty",
       "US/CO/DouglasCounty",              "CODouglasCountyA",
