@@ -452,7 +452,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-KETULGDA or ketulgda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+YJVTSOAA or yjvtsoaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean ~ Cadpage Administrator
@@ -602,7 +602,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-KETULGDA or ketulgda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+YJVTSOAA or yjvtsoaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean ~ Cadpage Administrator
@@ -629,6 +629,18 @@ I found your free Cadpage subscription of _____.
 Go into Cadpage settings and press Payment Status > Recalculate Payment Status
 
 If you are having other difficulties with Cadpage, please let us know.
+
+Take care,
+Jean ~ Cadpage Administrator
+
+**********************************************************************
+
+I found your free Cadpage subscription of _________.
+
+Please be sure to install the newest version of Cadpage.  Then:
+Go into Cadpage settings, press Payment Status and then Recalculate Payment Status. 
+
+If that fails, please contact us again.
 
 Take care,
 Jean ~ Cadpage Administrator
@@ -800,7 +812,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-KETULGDA or ketulgda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+YJVTSOAA or yjvtsoaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean ~ Cadpage Administrator
@@ -814,7 +826,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-KETULGDA or ketulgda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+YJVTSOAA or yjvtsoaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -824,7 +836,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-KETULGDA or ketulgda.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+YJVTSOAA or yjvtsoaa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information needed to figure out what is wrong.
 
@@ -3584,6 +3596,36 @@ in Cadpage and in your message regardless of how this is set.
 
 Have a nice day,
 -Ken
+
+
 ***********************************************************************
 Useful search expressions
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)
+
+*************************************************************************
+Cadpage stopped working
+
+Cadpage does stop working from time to time.  What happens is dispatch
+centers change something about the alerts sent to you and we can no
+longer process them.  You need to send us some information on what your
+pages look like now and we use that to fix the text parsers that handle
+those alerts.  It is not an uncommon occurrence, but it is annoying when
+it happens just after the user installs one of our releases, or pays for
+a subscription, because it looks like we broke something.
+
+First, or dispatch alerts showing up in your message inbox.  If they are
+not, then they are no longer being sent to your phone and you will have
+to talk to the IT people in your department to find out why.
+
+Otherwise, wait until the next text pages comes in.  If it still does
+not trigger CadPage, then use the Send Email to Developer feature to
+send us an email report.  This should include the most recently received
+text message, whether or not it was processed by CadPage, which gives us
+a lot of information we need to resolve the problem.
+
+If the messages are triggering CADpage, but will not allow you to select
+map option: Long press the message to open the Options menu and select
+the "Report Problem" menu item.  This will generate an email containing
+all of the information we should need to track down the problem with
+this message.  You can get the same menu options from the call history
+screen by long pressing one of the call entries.
