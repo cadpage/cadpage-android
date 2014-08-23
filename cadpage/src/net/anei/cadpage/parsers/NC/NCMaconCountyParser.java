@@ -1,19 +1,31 @@
 package net.anei.cadpage.parsers.NC;
 
-import net.anei.cadpage.parsers.dispatch.DispatchBParser;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 
 
-public class NCMaconCountyParser extends DispatchBParser {
+public class NCMaconCountyParser extends DispatchB2Parser {
+  
+  private static final String PRIMARY_PREFIX = "MACON 911 MACON911:";
+  private static Pattern ALT_PREFIX_PTN = Pattern.compile("911 CENTER:|MACON911:");
  
   public NCMaconCountyParser() {
-    super(CITY_LIST, "MACON COUNTY", "NC");
+    super(PRIMARY_PREFIX, CITY_LIST, "MACON COUNTY", "NC");
   }
-  
+
   @Override
-  protected boolean isPageMsg(String body) {
-    return body.startsWith("911 CENTER:") || body.startsWith("MACON911:");
+  protected boolean parseMsg(String body, Data data) {
+    Matcher match = ALT_PREFIX_PTN.matcher(body);
+    if (match.lookingAt()) {
+      body = PRIMARY_PREFIX + body.substring(match.end());
+    }
+    return super.parseMsg(body, data);
   }
+
 
   private static final String[] CITY_LIST = new String[]{
     "FRANKLIN", 
