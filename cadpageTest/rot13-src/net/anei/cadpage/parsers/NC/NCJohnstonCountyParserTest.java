@@ -24,6 +24,10 @@ Pbagnpg: Qoret <qoret@pyrirynaqisq.bet>
 Fraqre: 1210100803
 SEZ:PNQ@wbuafgbaap.pbz\aZFT:PNQ:BCF4;PYQ;31Q03;HAPBAFPVBHF CREFBA 31-Q-03;2323 PBEAJNYYVF EQ;(F)UREVGNTR SNEZF V (A);PUNARL QE;ZBAGNAN QE;PYRIRYNAQ ZVQQYR FPUBBY;PYRIRYNAQ ZVQQYR FPUBBY;11/22/2013 11:38:35;PYQE1;TNEA:2bs2
 
+Pbagnpg: BQX <xbruzfgrqg@tznvy.pbz>
+Fraqre: 93001
+PNQ:BCCF1;PYQ;69Q06;FGEHPGHER SVER;426 PNEEVATGBA QE;QVFG: 83.54 sg (F)PNEEVATGBA CYNPR (A);AVTUGFUNQR YA;IREVMBA JVERYRFF;08/20/2014 19:32:39;PYQ1,PGF11,TFG41;TNEA
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jvyfbaf Zvyyf Sver Qrcnegzrag
 Ybpngvba: Pynlgba, AP, Havgrq Fgngrf
@@ -454,6 +458,24 @@ choyvp pynff APWbuafgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:PYQE1",
         "PVGL:TNEARE");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgBQX() {
+
+    qbGrfg("G1",
+        "PNQ:BCCF1;PYQ;69Q06;FGEHPGHER SVER;426 PNEEVATGBA QE;QVFG: 83.54 sg (F)PNEEVATGBA CYNPR (A);AVTUGFUNQR YA;IREVMBA JVERYRFF;08/20/2014 19:32:39;PYQ1,PGF11,TFG41;TNEA",
+        "FEP:BCCF1,PYQ",
+        "PBQR:69Q06",
+        "PNYY:FGEHPGHER SVER",
+        "NQQE:426 PNEEVATGBA QE",
+        "CYNPR:QVFG: 83.54 sg - PNEEVATGBA CYNPR",
+        "K:AVTUGFUNQR YA",
+        "QNGR:08/20/2014",
+        "GVZR:19:32:39",
+        "HAVG:PYQ1,PGF11,TFG41",
+        "PVGL:TNEARE");
+ 
   }
  
   @Grfg
