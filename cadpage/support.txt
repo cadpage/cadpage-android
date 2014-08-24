@@ -3597,11 +3597,6 @@ in Cadpage and in your message regardless of how this is set.
 Have a nice day,
 -Ken
 
-
-***********************************************************************
-Useful search expressions
-^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)
-
 *************************************************************************
 Cadpage stopped working
 
@@ -3629,3 +3624,8 @@ the "Report Problem" menu item.  This will generate an email containing
 all of the information we should need to track down the problem with
 this message.  You can get the same menu options from the call history
 screen by long pressing one of the call entries.
+
+
+***********************************************************************
+Useful search expressions
+^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)

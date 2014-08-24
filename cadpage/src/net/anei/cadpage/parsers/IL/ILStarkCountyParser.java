@@ -1,5 +1,10 @@
 package net.anei.cadpage.parsers.IL;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import net.anei.cadpage.parsers.CodeSet;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA29Parser;
 
 /**
@@ -7,8 +12,16 @@ import net.anei.cadpage.parsers.dispatch.DispatchA29Parser;
  */
 public class ILStarkCountyParser extends DispatchA29Parser {
   
+  private static final Pattern MARKER = Pattern.compile("DISPATCH:([A-Z]+(?: FD)?) - ");
+  
   public ILStarkCountyParser() {
     super(CITY_LIST, "STARK COUNTY", "IL");
+    setupCallList(CALL_LIST);
+    setupMultiWordStreets(
+        "BISHOP HILL",
+        "NEKOMA EIGHTH",
+        "NEKOMA MAIN"
+    );
   }
   
   @Override
@@ -16,6 +29,29 @@ public class ILStarkCountyParser extends DispatchA29Parser {
     return "messaging@iamresponding.com";
   }
   
+  @Override
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("Stark County")) return false;
+    Matcher match = MARKER.matcher(body);
+    if (!match.lookingAt()) return false;
+    body = "DISPATCH:HCSO:" + match.group(1) + " - " + body.substring(match.end());
+    return super.parseMsg(body, data);
+  }
+  
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "4870 DISTURBANCE - DOMESTIC VIOLENCE",
+      "6040 ACCIDENT - TRAFFIC - INJURY",
+      "6041 ACCIDENT - TRAFFIC - INJ UNK",
+      "6090 AMBULANCE - ASSIST HELICOPTER",
+      "6100 AMBULANCE - EMERGENCY",
+      "6700 DISTURBANCE - FIGHTS-RIOTS-BRAWLS",
+      "6715 DISTURBANCE - OTHER",
+      "6800 FIRE CALLS - OTHER",
+      "6804 FIRE - ASSIST FIRE DEPT",
+      "6940 JUVENILE PROBLEM",
+      "7500 SUSPICIOUS PERSON"
+  );
+
   private static final String[] CITY_LIST = new String[]{
     
     // Cities and towns
@@ -51,6 +87,11 @@ public class ILStarkCountyParser extends DispatchA29Parser {
     "WOODHULL",
     
     // Tippecanoe County
-    "LAFAYETTE"
+    "LAFAYETTE",
+    
+    "HENRY COUNTY",
+    "BISHOP HILL",
+    "CAMBRIDGE",
+    "KEWANEE"
   };
 }

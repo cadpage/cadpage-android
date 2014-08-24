@@ -2237,6 +2237,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // These need to be protected
     searchAddress = searchAddress.replace("AT&T", "AT%T");
     searchAddress = searchAddress.replace("1/2", "1%2");
+    searchAddress = searchAddress.replace("1/4", "1%4");
     searchAddress = searchAddress.replace(" C/S:", " C%S:");
     searchAddress = searchAddress.replace(" C/S ", " C%S ");
 
