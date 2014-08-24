@@ -141,7 +141,7 @@ public class KYStatePoliceParser extends DispatchB2Parser {
     "JONESVILLE",
     "WILLIAMSTOWN",
     
-    // Graves County           *** NEW
+    // Graves County
     "GRAVES",
     "GRAVES CO",
     "FELICIANA",
@@ -196,7 +196,7 @@ public class KYStatePoliceParser extends DispatchB2Parser {
     "SHAWHAN",
     "SUNRISE",
     
-    // Hart County    *** NEW
+    // Hart County
     "HART",
     "HART COUNTY",
     "BONNIEVILLE",
@@ -230,7 +230,7 @@ public class KYStatePoliceParser extends DispatchB2Parser {
     "SULPHUR",
     "TURNERS STATION",
     
-    // Lyon County    ** NEW **
+    // Lyon County
     "LYON",
     "LYON COUNTY",
     "EDDYVILLE",

@@ -352,6 +352,7 @@ class Active911Vendor extends Vendor {
       "US/NC/IredellCounty",              "NCIredellCounty",
       "US/NC/JacksonCounty",              "NCJacksonCounty",
       "US/NC/JohnstonCounty",             "NCJohnstonCounty",
+      "US/NC/LincolnCounty",              "NCLincolnCounty",
       "US/NC/MecklenburgCounty",          "NCMecklenburgCounty",
       "US/NC/MitchellCounty",             "NCMitchellCounty",
       "US/NC/PenderCounty",               "NCPenderCounty",
