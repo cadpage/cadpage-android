@@ -15,6 +15,11 @@ public class PAWayneCountyParser extends FieldProgramParser {
   public PAWayneCountyParser() {
     super("WAYNE COUNTY", "PA", "CALL! Loc:ADDR! Rcvd:TIME! Units:UNIT! Comments:INFO");
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_ADD_DEFAULT_CNTY;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
