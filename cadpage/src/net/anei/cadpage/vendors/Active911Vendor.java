@@ -273,6 +273,7 @@ class Active911Vendor extends Vendor {
       "US/MD/CalvertCounty",              "MDCalvertCounty",
       "US/MD/CecilCounty",                "Cadpage2",
       "US/MD/CharlesCounty",              "MDCharlesCountyA",
+      "US/MD/ChiefAlert",                 "MDCarolineCounty",
       "US/MD/Fireblitz",                  "MDPrinceGeorgesCountyFireBiz",
       "US/MD/HarfordCounty",              "Cadpage2",
       "US/MD/PrinceGeorgesCounty",        "MDPrinceGeorgesCounty",

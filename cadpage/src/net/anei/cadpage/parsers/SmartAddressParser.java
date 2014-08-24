@@ -1807,7 +1807,7 @@ public abstract class SmartAddressParser extends MsgParser {
 
         // Check for apartment marker
           if (aptField == null) {
-            if (tmpNdx+1 < tokens.length && isType(tmpNdx, ID_FLOOR | ID_APT)) {
+            if (tmpNdx+1 < tokens.length && isType(tmpNdx, ID_FLOOR | ID_APT) && !isType(tmpNdx+1, ID_ROAD_SFX)) {
               lastField.end(ndx);
               ndx = tmpNdx;
               int tmp = ndx;

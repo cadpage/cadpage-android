@@ -27,7 +27,8 @@ public class DispatchAegisParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     String[] subjects = subject.split("\\|", -1);
-    if (subjects.length != 2 || !subjects[0].equals("Chief ALT")) return false;
+    if (subjects.length != 2 || 
+        (!subjects[0].equals("Chief ALT") && !subjects[0].equals("Chief Alert"))) return false;
     data.strSource = subjects[1];
     
     while (body.startsWith("-")) body = body.substring(1).trim();
