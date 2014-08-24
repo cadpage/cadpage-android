@@ -559,6 +559,7 @@ public class DispatchBParser extends FieldProgramParser {
         "FIRE SMOKE INVESTIGATION",
         "FIRE STANDBY",
         "FIRE STRUCTURE",
+        "FIRE STRUCTURE HOUSE OR BUSN",
         "FIRE STRUCTURE HOUSE OR BUSINE",
         "FIRE TRANSFORMER / WIRES",
         "FIRE TREE DOWN",

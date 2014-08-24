@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 public class KYStatePoliceParser extends DispatchB2Parser {
   
-  private static final Pattern PREFIX_PTN = Pattern.compile("^KSP (DRY RIDGE E-911|CAMPBELLSBURG)?:");
+  private static final Pattern PREFIX_PTN = Pattern.compile("^(?:KSP DRY RIDGE E-911|KSP CAMPBELLSBURG|911-CENTER):");
   
   private boolean srcFound;
   
@@ -141,6 +141,36 @@ public class KYStatePoliceParser extends DispatchB2Parser {
     "JONESVILLE",
     "WILLIAMSTOWN",
     
+    // Graves County           *** NEW
+    "GRAVES",
+    "GRAVES CO",
+    "FELICIANA",
+    "BELL CITY",
+    "BOAZ",
+    "CLEAR SPRINGS",
+    "CUBA",
+    "DOGWOOD",
+    "DUBLIN",
+    "DUKEDOM",
+    "FOLSOMDALE",
+    "HICKORY",
+    "FANCY FARM",
+    "FARMINGTON",
+    "FELICIANA",
+    "KALER",
+    "LOWES",
+    "LYNNVILLE",
+    "MAYFIELD",
+    "MELBER",
+    "POTTSVILLE",
+    "SEDALIA",
+    "SYMSONIA",
+    "VIOLA",
+    "WATER VALLEY",
+    "WEST VIOLA",
+    "WESTPLAINS",
+    "WINGO",
+    
     // Harrison County
     "HARRISON",
     "HARRISON CO",
@@ -165,6 +195,22 @@ public class KYStatePoliceParser extends DispatchB2Parser {
     "SHADYNOOK",
     "SHAWHAN",
     "SUNRISE",
+    
+    // Hart County    *** NEW
+    "HART",
+    "HART COUNTY",
+    "BONNIEVILLE",
+    "CANMER",
+    "CUB RUN",
+    "HAMMONVILLE",
+    "HARDYVILLE",
+    "HORSE CAVE",
+    "LEGRANDE",
+    "MONROE",
+    "MUNFORDVILLE",
+    "PRICEVILLE",
+    "ROWLETTS",
+    "UNO",
 
     // Henry County
     "HENRY",
@@ -183,6 +229,12 @@ public class KYStatePoliceParser extends DispatchB2Parser {
     "SMITHFIELD",
     "SULPHUR",
     "TURNERS STATION",
+    
+    // Lyon County    ** NEW **
+    "LYON",
+    "LYON COUNTY",
+    "EDDYVILLE",
+    "KUTTAWA",
 
     // Oldham County
     "OLDHAM",
