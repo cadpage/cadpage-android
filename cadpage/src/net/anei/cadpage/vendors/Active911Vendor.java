@@ -557,6 +557,7 @@ class Active911Vendor extends Vendor {
       "US/WA/BentonCounty",               "WABentonCounty",
       "US/WA/ValleyCom",                  "WAKingCountyC",
       "US/WA/LewisCounty",                "WALewisCounty",
+      "US/WA/PendOreilleCounty",          "WAPendOreilleCounty",
       "US/WA/RiverComm911",               "WAChelanCounty",
       "US/WA/SnohomishCounty",            "WASnohomishCounty",
       "US/WA/ThurstonCounty",             "WAThurstonCounty",
