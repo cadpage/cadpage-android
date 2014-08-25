@@ -2152,14 +2152,11 @@ Xvz Fgnprl                   (5412817824)
 
 %2014/Serqrevpx-Sverfgbar SCQ // Qbanyq Btobea <QBtobea@sssq.hf> CNLZRAG CRAQVAT vaibvpr frag 8-17-14 $56
 %%09/04/2014
-Fgnve   	(7203833730)
 Vnpvab 		(7202847969)
-Cbfmljnx  	(7206414475)
 Cehax  		(7206412146)
 Chpprggv 	(7206413582)
 OP 3460 	(7206414478)
 Ernfbare 	(3038276589)
-
 
 //Pbhagl Fcbafbefuvcf: $5 cre zrzore cre lrne; qbrf abg znggre gur anzrf naq rznvy nqqerffrf bs Hfref
 %2014/Qnivr Pbhagl, AP // Pbhagl fcbafberq; arj chepunfr qngr vf 02/17/2014; Zryvaqn Yrjvf <Zryvaqn.Yrjvf@pb.qnivr.ap.hf> naq CNVQ $45 2-24-14
@@ -2728,6 +2725,7 @@ jvyyvr craaljryy (nyirgn7@lnubb.pbz) // CnlCny
 Evpuneq Fheena (efheena@tznvy.pbz) (qvpxfheena@irevmba.arg) // CnlCny
 Treel Znayrl (znayrlynjavee@tznvy.pbz) // cnvq ol purpx 9526 $20 sbe 2 nppbhagf cubar 256.759.3137
 Xnl Znayrl (txznayrl82@tznvy.pbz) // cubar 256.990.3167
+Wraavsre Fnetrnag <wof502@tznvy.pbz> // znexrg ceboyrz CFQ jvgu 1.7.39
 %%12/14/2013
 Anarggr Xhggyre (afyxhggyre@pbzpnfg.arg) // CnlCny pbhyq or sbe Fgrir
 Zvpunry Juvgrvf (juvgrvfzvpunry8@tznvy.pbz) (zvpunryjuvgrvf8@tznvy.pbz) // CnlCny
@@ -2948,6 +2946,8 @@ Wrss Fznguref <wfznguref61@tznvy.pbz> // znexrg ceboyrz
 Punq Onhtuzna (pzo5712@tznvy.pbz) (pxo177@irevmba.arg) // CnlCny
 %%05/24/2014
 Arvy Ervgm (arvyervgm53@tznvy.pbz) <arvy.ervgm@zpphgpunaivyyrsver.bet> // znexrg ceboyrz CFQ
+%%05/30/2014
+Cnhy Z Tebzzrfu <czwbuafba0889@tznvy.pbz> // znexrg ceboyrz Cnhy Wbuafba?
 %%06/02/2014
 Oenqyrl Ohpxyre <tbbfrgurrzg@tznvy.pbz> // Qbhtynf Pbhagl, BE
 Qnivq Funere (snveivrjrzg2@tznvy.pbz) <snveivrjrzg@lnubb.pbz> // znexrg ceboyrz rznvy punatr
@@ -3007,9 +3007,14 @@ Wbua Gfngfnavf (wccybjzna@tznvy.pbz) // CnlCny
 %%08/21/2014
 Glyre <uevpmnx26@tznvy.pbz> // znexrg ceboyrz
 Gbqq Rinaf (gzr5904@tznvy.pbz) // CnlCny
+%%08/24/2014
+Wrsserl Nyyra (apsversvtugre764@lnubb.pbz) // CnlCny
 
 %%09/02/2014
 Rqjva Nezfgebat (rqfznvagfrei@tznvy.pbz) (svkvgzna1522@lznvy.pbz) // CnlCny
+
+%%10/10/2014
+Reavr Qnavryf (ratpbpehvfre@tznvy.pbz) <sverpngpure40@tznvy.pbz> // znexrg ceboyrz CFQ
 
 %%10/15/2014
 Zvxr Zhyyvtna (zzhyyvtna9923@tznvy.pbz) <zzhyyvtna@nisq.pbz> // znexrg ceboyrz CFQ
@@ -6455,7 +6460,7 @@ cngevpx_ynhera (trpxb094cng@tznvy.pbz) <cngevpx_ynhera@pbzpnfg.arg>
 Eboreg Unyrl We. <ssrzgunyrl@tznvy.pbz>
 %%10/20/2013
 Wbr xvrssre (obkreqnq2000@tznvy.pbz) <obkreqnq2000@lnubb.pbz>
-Whfgva Ohpxyrl (wohpxyrl@usqal.pbz) <wohpxyrl@usq-al.pbz>
+Whfgva Ohpxyrl <wohpxyrl@usq-al.pbz>
 Xlyr IreFgenrgr <xirefgenrgr30@tznvy.pbz>
 %%10/21/2013
 yropuvrs@tznvy.pbz <yropuvrs@tznvy.pbz>
@@ -7667,7 +7672,30 @@ Zvpunry ybhpxf (zcybhpxf79@tznvy.pbz) <zybhpxf74@lnubb.pbz>
 Ora Cbvag <gnvzn1748@tznvy.pbz>
 %%08/16/2014
 ehff31073 <ehff31073@ubgznvy.pbz>
-
+%%08/18/2014
+Qnivq Cnmbf (zruhtbfb@tznvy.pbz) <Qnivq.Cnmbf@zbagtbzrelpbhaglzq.tbi>
+Whfgva Jroo <eqarpxobjuhagre.wj@tznvy.pbz>
+Tert ZpPbaaryy <tzppbaaryy230@tznvy.pbz>
+%%08/19/2014
+Enl Zhafryy (enlzhafryy@tznvy.pbz) <enlzhafryy@lnubb.pbz>
+Nhfgva Pnfu <pebsgratvar3@tznvy.pbz>
+Cuvyvc Ubyfubhfre <gneurry1795@tznvy.pbz>
+%%08/20/2014
+Wrss Yrjvf <wrss.yrjvf47@lnubb.pbz>
+Xrvgu G (xrgubearf@tznvy.pbz) <xrgubearf@lnubb.pbz>
+zngg ornfba <znggornfba@ngg.arg>
+Qjnlar Uneg (puvrs69sver@tznvy.pbz) <fgn69puvrs@pbzpnfg.arg> // Xraubefg Puvrs 69
+%%08/21/2014
+glyre unetrgg <glyreunetrgg0259@tznvy.pbz>
+Ebtre Zvgpuryy <ornpubok@tznvy.pbz>
+Fgrir Fuvcyrl <911fuvcyrl@tznvy.pbz>
+fgrcuna zbber (sversvtugre2742@tznvy.pbz) <fgrcunazbber@pbzpnfg.arg>
+%%08/22/2014
+Zngg Vfyre <znggvfyre1987@tznvy.pbz>
+Frna Yrjvf <uvtupynfferqarpx@tznvy.pbz>
+Zvpuryyr Oryy <qrivy2007natry@tznvy.pbz>
+%%08/23/2014
+Wnzrf Xvyrl <wvzzlq8266@tznvy.pbz>
 
 
 
