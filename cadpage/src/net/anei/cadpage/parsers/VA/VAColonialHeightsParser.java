@@ -11,12 +11,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 
 public class VAColonialHeightsParser extends FieldProgramParser {
-    
-  private static Pattern MARKER = Pattern.compile("^(\\d\\d-\\d{6}) +");
   
   public VAColonialHeightsParser() {
     super(CITY_LIST, "COLONIAL HEIGHTS", "VA",
-           "CALL! Reported:DATETIME! ADDR X? PLACE_CITY? UNIT! INFO+");
+           "( Reported:DATETIME! ID_CALL! Loc:ADDR2/S! X? PLACE? UNIT! END | ID_CALL! Reported:DATETIME! ADDR X? PLACE_CITY? UNIT! END )");
   }
   
   @Override
@@ -28,18 +26,57 @@ public class VAColonialHeightsParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (!subject.equals("from CHECC")) return false;
-    
-    Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    data.strCallId = match.group(1);
-    body = body.substring(match.end());
-    
     return parseFields(body.split("\n"), 4, data);
   }
   
   @Override
-  public String getProgram() {
-    return "ID " + super.getProgram();
+  public Field getField(String name) {
+    if (name.equals("ID_CALL")) return new MyIdCallField();
+    if (name.equals("ADDR2")) return new MyAddress2Field();
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} +\\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("PLACE_CITY")) return new MyPlaceCityField();
+    return super.getField(name);
+  }
+  
+  
+  private static Pattern ID_CALL_PTN = Pattern.compile("(\\d\\d-\\d{6}) +(.*)");
+  private class MyIdCallField extends Field {
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = ID_CALL_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strCallId = match.group(1);
+      data.strCall = match.group(2);
+      return true;
+    }
+    
+
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "ID CALL";
+    }
+  }
+  
+  private static final Pattern ADDR_ST_ZIP_PTN = Pattern.compile("(.*), *VA(?: +(\\d{5}))");
+  private class MyAddress2Field extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      String zip = null;
+      Matcher match = ADDR_ST_ZIP_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        zip = match.group(2);
+      }
+      super.parse(field, data);
+      if (data.strCity.length() == 0 && zip != null) data.strCity = zip;
+    }
   }
   
   private class MyCrossField extends CrossField {
@@ -88,14 +125,6 @@ public class VAColonialHeightsParser extends FieldProgramParser {
     public String getFieldNames() {
       return "PLACE CITY";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} +\\d\\d:\\d\\d:\\d\\d", true);
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("PLACE_CITY")) return new MyPlaceCityField();
-    return super.getField(name);
   }
   
   private static final String[] CITY_LIST = new String[]{
