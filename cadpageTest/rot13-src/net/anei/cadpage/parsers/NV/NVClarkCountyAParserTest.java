@@ -23,6 +23,15 @@ Fraqre: fzf@cntrjnl.arg
 (FZF) EHA#:4273913 /EPI:00:32:57/RAE:00:34:10/BAF:00:40:00/GEF:01:23:33/QRF:01:28:03/ZVY:
 (FZF) EA#4274400 /EPI:19:03:42/RAE:19:04:20/BAF:19:08:38/NIN:19:13:06
 (FZF) EHA#:N225728 /EPI:16:31:14/RAE:16:31:15/BAF:16:31:15/GEF:/QRF:/ZVY:
+EA#4768774 /EPI:00:30:51/RAE:00:32:19/BAF:/NIN:00:41:17
+EHA#:N330656 /EPI:05:17:04/RAE:05:17:05/BAF:05:17:05/GEF:/QRF:/ZVY:
+EHA#:4769667 /EPI:19:49:48/RAE:19:56:14/BAF:20:08:45/GEF:20:28:06/QRF:20:47:02/ZVY:
+
+Pbagnpg: craal chxnyy <craabcr21@lnubb.pbz>
+Fraqre: 44627545
+V: 4769667 H: 2789, C: 1, T: 2622, CU: 73 Y: 4600 FVEVHF NIR# T101 , O: , NY: CP:, 10Q A:10Q], 19:48:39 [Trbtencuvp Nern: 4600 FVEVHF NIR] [Ybj] [Erfcbafr] SM0], 19:48:39 1], 19:48:31 [Trbtencuvp Nern: 4501 - 4599 F MVC:
+V: 4769753 H: 3397, C: 1, T: 2317, CU: 97 Y: 129 SNEXNF YA# , O: , NY: CP:, 31Q A:31Q], 00:18:37 [Trbtencuvp Nern: 129 SNEXNF YA] [Ybj] [Erfcbafr] SM03], 00:19:59 [CebDN Fpevcg] Qvfcngpu pbqr: 31Q03 Lbh ner MVC:
+V: 4769789 H: 3397, C: 3, T: 2318, CU: 37 Y: 7017 PNEZRA OYIQ-YI# , O: , NY: CP:, 26N A:26N], Ybpngvba sebz Sver: 7017 PNEZRA OYIQ, 02:19:01 [Trbtencuvp Nern: 7017 PNEZRA OYIQ] [Ybj] [Erfcbafr] SM], 02:19:01 03], 02 MVC:89128
 
 */
 
@@ -143,7 +152,84 @@ choyvp pynff AIPynexPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
   
+  @Grfg
+  choyvp ibvq grfgEhaErcbegf() {
 
+    qbGrfg("G1",
+        "(FZF) EHA#:4273913 /EPI:00:32:57/RAE:00:34:10/BAF:00:40:00/GEF:01:23:33/QRF:01:28:03/ZVY:",
+        "PNYY:EHA ERCBEG",
+        "VQ:4273913",
+        "CYNPR:EHA#:4273913 /EPI:00:32:57/RAE:00:34:10/BAF:00:40:00/GEF:01:23:33/QRF:01:28:03/ZVY:");
+
+    qbGrfg("G2",
+        "(FZF) EA#4274400 /EPI:19:03:42/RAE:19:04:20/BAF:19:08:38/NIN:19:13:06",
+        "PNYY:EHA ERCBEG",
+        "VQ:4274400",
+        "CYNPR:EA#4274400 /EPI:19:03:42/RAE:19:04:20/BAF:19:08:38/NIN:19:13:06");
+
+    qbGrfg("G3",
+        "(FZF) EHA#:N225728 /EPI:16:31:14/RAE:16:31:15/BAF:16:31:15/GEF:/QRF:/ZVY:",
+        "PNYY:EHA ERCBEG",
+        "VQ:N225728",
+        "CYNPR:EHA#:N225728 /EPI:16:31:14/RAE:16:31:15/BAF:16:31:15/GEF:/QRF:/ZVY:");
+
+    qbGrfg("G4",
+        "EA#4768774 /EPI:00:30:51/RAE:00:32:19/BAF:/NIN:00:41:17",
+        "PNYY:EHA ERCBEG",
+        "VQ:4768774",
+        "CYNPR:EA#4768774 /EPI:00:30:51/RAE:00:32:19/BAF:/NIN:00:41:17");
+
+    qbGrfg("G5",
+        "EHA#:N330656 /EPI:05:17:04/RAE:05:17:05/BAF:05:17:05/GEF:/QRF:/ZVY:",
+        "PNYY:EHA ERCBEG",
+        "VQ:N330656",
+        "CYNPR:EHA#:N330656 /EPI:05:17:04/RAE:05:17:05/BAF:05:17:05/GEF:/QRF:/ZVY:");
+
+    qbGrfg("G6",
+        "EHA#:4769667 /EPI:19:49:48/RAE:19:56:14/BAF:20:08:45/GEF:20:28:06/QRF:20:47:02/ZVY:",
+        "PNYY:EHA ERCBEG",
+        "VQ:4769667",
+        "CYNPR:EHA#:4769667 /EPI:19:49:48/RAE:19:56:14/BAF:20:08:45/GEF:20:28:06/QRF:20:47:02/ZVY:");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCraalChxnyy() {
+
+    qbGrfg("G1",
+        "V: 4769667 H: 2789, C: 1, T: 2622, CU: 73 Y: 4600 FVEVHF NIR# T101 , O: , NY: CP:, 10Q A:10Q], 19:48:39 [Trbtencuvp Nern: 4600 FVEVHF NIR] [Ybj] [Erfcbafr] SM0], 19:48:39 1], 19:48:31 [Trbtencuvp Nern: 4501 - 4599 F MVC:",
+        "VQ:4769667",
+        "HAVG:2789",
+        "CEV:1",
+        "ZNC:2622-73",
+        "NQQE:4600 FVEVHF NIR",
+        "NCG:T101",
+        "PBQR:10Q",
+        "GVZR:19:48:39");
+
+    qbGrfg("G2",
+        "V: 4769753 H: 3397, C: 1, T: 2317, CU: 97 Y: 129 SNEXNF YA# , O: , NY: CP:, 31Q A:31Q], 00:18:37 [Trbtencuvp Nern: 129 SNEXNF YA] [Ybj] [Erfcbafr] SM03], 00:19:59 [CebDN Fpevcg] Qvfcngpu pbqr: 31Q03 Lbh ner MVC:",
+        "VQ:4769753",
+        "HAVG:3397",
+        "CEV:1",
+        "ZNC:2317-97",
+        "NQQE:129 SNEXNF YA",
+        "PBQR:31Q",
+        "GVZR:00:18:37");
+
+    qbGrfg("G3",
+        "V: 4769789 H: 3397, C: 3, T: 2318, CU: 37 Y: 7017 PNEZRA OYIQ-YI# , O: , NY: CP:, 26N A:26N], Ybpngvba sebz Sver: 7017 PNEZRA OYIQ, 02:19:01 [Trbtencuvp Nern: 7017 PNEZRA OYIQ] [Ybj] [Erfcbafr] SM], 02:19:01 03], 02 MVC:89128",
+        "VQ:4769789",
+        "HAVG:3397",
+        "CEV:3",
+        "ZNC:2318-37",
+        "NQQE:7017 PNEZRA OYIQ",
+        "PVGL:YNF IRTNF",
+        "PBQR:26N",
+        "GVZR:02:19:01");
+   
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj AIPynexPbhaglNCnefreGrfg().trarengrGrfgf("G1");
   }

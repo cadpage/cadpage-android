@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.NV;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,9 +11,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NVClarkCountyAParser extends FieldProgramParser {
   
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("RU?N#:?([A-Z]?\\d+) .*");
+  
   public NVClarkCountyAParser() {
-    super("CLARK COUNTY", "NV",
-           "I:ID! U:UNIT! P:PRI! G:MAP! PH:MAP! L:ADDR! B:PLACE! AL:INFO! PC:CODE! CODE N:SKIP TIME+");
+    super(CITY_CODES, "CLARK COUNTY", "NV",
+          "I:ID! U:UNIT! P:PRI! G:MAP! PH:MAP! L:ADDR/y! B:PLACE! AL:INFO! PC:CODE! CODE N:SKIP TIME+");
   }
   
   @Override
@@ -22,7 +25,14 @@ public class NVClarkCountyAParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("SMS")) return false;
+    Matcher match = RUN_REPORT_PTN.matcher(body);
+    if (match.matches()) {
+      data.strCall = "RUN REPORT";
+      data.strCallId = match.group(1);
+      data.strPlace = body;
+      return true;
+    }
+    
     body = body.replace(" U:", ", U:").replace(" L:", ", L:").replace(" PC:", ", PC:").replace(" N:", ", N:");
     if (body.startsWith("RE:")) body = "I:" + body.substring(3);
     return parseFields(body.split(","), 9, data);
@@ -41,10 +51,6 @@ public class NVClarkCountyAParser extends FieldProgramParser {
       Parser p = new Parser(field);
       data.strApt = p.getLastOptional('#');
       field = p.get();
-      if (field.endsWith("-CC")) {
-        data.strCity = "CLARK COUNTY";
-        field = field.substring(0,field.length()-3).trim();
-      }
       super.parse(field, data);
     }
     
@@ -71,4 +77,9 @@ public class NVClarkCountyAParser extends FieldProgramParser {
     if (name.equals("TIME")) return new MyTimeField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CC", "CLARK COUNTY",
+      "LV", "LAS VEGAS"
+  });
 }
