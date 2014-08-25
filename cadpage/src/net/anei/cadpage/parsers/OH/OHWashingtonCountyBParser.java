@@ -58,7 +58,7 @@ public class OHWashingtonCountyBParser extends FieldProgramParser {
   }
   
   private static final Pattern ADDRESS_PTN1 = Pattern.compile("At (.*?),(.*?)\\((.*)\\)");
-  private static final Pattern ADDRESS_PTN2 = Pattern.compile("(.*?) / (.*)");
+  private static final Pattern ADDRESS_PTN2 = Pattern.compile("(.*?) / *(.*)");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
