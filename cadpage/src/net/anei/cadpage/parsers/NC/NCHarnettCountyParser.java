@@ -7,7 +7,9 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class NCHarnettCountyParser extends GroupBestParser {
   
   public NCHarnettCountyParser() {
-    super(new NCHarnettCountyAParser(), new NCHarnettCountyBParser());
+    super(new NCHarnettCountyAParser(), 
+          new NCHarnettCountyBParser(), 
+          new NCHarnettCountyCParser());
   }
   
   static final String[] CITY_LIST = new String[]{
@@ -66,8 +68,15 @@ public class NCHarnettCountyParser extends GroupBestParser {
     "FUQUAY VARINA",
     "FUQUAY-VARINA",
     
+    // Lee County
+    "BROADWAY",
+    "SANFORD",
+    
     // Moore County
     "ABERDEEN",
-    "SOUTHERN PINES"
+    "SOUTHERN PINES",
+    
+    // Wake County
+    "HOLLY SPRINGS"
   };
 }

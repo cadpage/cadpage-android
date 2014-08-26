@@ -9,6 +9,9 @@ import net.anei.cadpage.parsers.StandardCodeTable;
 
 /**
  * Harnett County, NC
+ * 
+ * This was replaced by NCHarnettCountyC after dispatch software vendor upgrade on 8/20/2014
+ * retained only to process earlier calls in Cadpage history
  */
 public class NCHarnettCountyAParser extends FieldProgramParser {
   
