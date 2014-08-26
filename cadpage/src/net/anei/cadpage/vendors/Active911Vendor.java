@@ -558,6 +558,7 @@ class Active911Vendor extends Vendor {
       "US/VA/NorthumberlandCounty",       "VANorthumberland",
       "US/VA/JamesCityCounty",            "VAJamesCityCounty",
       "US/VA/PrinceWilliamCounty",        "VAPrinceWilliamCountyA",
+      "US/VT/Hartford",                   "VTHartford",
       "US/WA/BentonCounty",               "WABentonCounty",
       "US/WA/ValleyCom",                  "WAKingCountyC",
       "US/WA/LewisCounty",                "WALewisCounty",

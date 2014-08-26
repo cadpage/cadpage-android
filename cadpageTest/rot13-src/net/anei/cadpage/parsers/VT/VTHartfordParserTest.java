@@ -69,9 +69,10 @@ choyvp pynff IGUnegsbeqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:22:15:42",
         "QNGR:08/08/14",
         "PNYY:ZHGHNY NVQ",
-        "NQQE:1 Zvareny fg", //qbrf abg znc
+        "NQQE:1 Zvareny fg",
         "ZNC:NSQ1",
-        "PVGL:Pynerzbag",
+        "PVGL:Pynerzbag",  // Zncf va Fcevasvryq
+        "FG:AU",
         "HAVG:NY1",
         "VASB:2aq nynez fzbxr va gur unyyjnl zhghny nvq jvgu n ynqqre",
         "ANZR:Fcevatsvryq Qvfcngpu");
