@@ -97,9 +97,9 @@ QVFCNGPU NYREG!!Vapvqrag Ahzore:14224-0354 Znc: 497I Ybpngvba: Fnzfhat Oyiq / R 
 [Zntargvp Urnqvat] FS2 169.0 Qrt.Z. ng 7.2 AZ sebz O RNFG URYVCNQ (OENPXRAEVQTR).
 */
 
-choyvp pynff GKNhfgvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff GKNhfgvaFgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp GKNhfgvaCnefreGrfg() {
+  choyvp GKNhfgvaFgneCnefreGrfg() {
     frgCnefre(arj QhzzlCnefre(), "NHFGVA", "GK");
   }
   
@@ -108,6 +108,6 @@ choyvp pynff GKNhfgvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj GKNhfgvaCnefreGrfg().trarengrGrfgf("G1");
+    arj GKNhfgvaFgneCnefreGrfg().trarengrGrfgf("G1");
   }
 }
