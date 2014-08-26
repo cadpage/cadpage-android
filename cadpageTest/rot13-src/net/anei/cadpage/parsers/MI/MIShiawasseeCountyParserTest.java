@@ -4,8 +4,8 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
-
 /*
+Fuvnjnffrr Pbhagl, ZV
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Bjbffb Gjc Sver
@@ -188,10 +188,6 @@ choyvp pynff ZVFuvnjnffrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ZVFuvnjnffrrPbhaglCnefreGrfg() {
     frgCnefre(arj ZVFuvnjnffrrPbhaglCnefre(), "FUVNJNFFRR PBHAGL", "ZV");
   }
- 
-  choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ZVFuvnjnffrrPbhaglCnefreGrfg().trarengrGrfgf("G1");
-  }
   @Grfg
   choyvp ibvq grfgBjbffbGjcSver() {
 
@@ -244,7 +240,7 @@ choyvp pynff ZVFuvnjnffrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:CREFBANY VAWHEL NPPVQRAG/HAXA;1999 A Z 52/J JVYXVAFBA EQ;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Oenib ERFCBAQRE FPEVCG: 50 lrne byq, Znyr, Pbafpvbhf, Oernguvat. Genssvp / Genafcbegngvba Vapvqragf. Pnyyre Fgngrzrag: znyr jvgu uheg yrt. 1.Gur vapv",
         "PNYY:CREFBANY VAWHEL NPPVQRAG/HAXA",
         "NQQE:1999 A Z 52 & J JVYXVAFBA EQ",
-        "ZNQQE:1999 A Z 52", //qbrf abg znc
+        "ZNQQE:1999 A Z 52",
         "VASB:50 lrne byq, Znyr, Pbafpvbhf, Oernguvat. Genssvp / Genafcbegngvba Vapvqragf. Pnyyre Fgngrzrag: znyr jvgu uheg yrt. 1.Gur vapv");
 
     qbGrfg("G6",
@@ -1927,6 +1923,10 @@ choyvp pynff ZVFuvnjnffrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:07/14/2014",
         "GVZR:17:17:47");
 
+  }
+  
+  choyvp fgngvp ibvq znva(Fgevat[] netf) {
+    arj ZVFuvnjnffrrPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 
 }
