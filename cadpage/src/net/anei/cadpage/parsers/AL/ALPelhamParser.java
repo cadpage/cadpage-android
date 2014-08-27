@@ -12,6 +12,6 @@ public class ALPelhamParser extends DispatchA19Parser {
   
   @Override
   public String getFilter() {
-    return "myates@pelhamonline.com,dellann@pelhamonline.com,spillmancad@pelhamonline.com";
+    return "@pelhamonline.com";
   }
 }

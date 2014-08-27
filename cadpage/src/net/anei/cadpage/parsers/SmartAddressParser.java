@@ -275,6 +275,8 @@ public abstract class SmartAddressParser extends MsgParser {
   
   private static final long ID_DOCTOR = 0x200000000L;
   
+  private static final long ID_APT_SOFT = 0x200000000L;
+  
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[A-Z]?[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
   // List of multiple word cities
@@ -409,6 +411,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_CROSS_STREET, "XS:", "X:", "C/S:", "C/S");
     setupDictionary(ID_NEAR, "NEAR", "ACROSS");
     setupDictionary(ID_APT, "APT:", "APT", "APTS", "#", "SP", "RM", "SUITE", "STE", "SUITE:", "ROOM", "ROOM:", "LOT", "UNIT");
+    setupDictionary(ID_APT_SOFT, "APT", "APTS", "SUITE", "ROOM", "LOT", "UNIT");
     setupDictionary(ID_FLOOR, "FLOOR", "FLR", "FL");
     setupDictionary(ID_STREET_NAME_PREFIX, "HIDDEN", "LAKE", "MT", "MOUNT", "SUNKEN");
     setupDictionary(ID_NOT_ADDRESS, "YOM", "YOF", "YO");
@@ -1807,7 +1810,8 @@ public abstract class SmartAddressParser extends MsgParser {
 
         // Check for apartment marker
           if (aptField == null) {
-            if (tmpNdx+1 < tokens.length && isType(tmpNdx, ID_FLOOR | ID_APT) && !isType(tmpNdx+1, ID_ROAD_SFX)) {
+            if (tmpNdx+1 < tokens.length && isType(tmpNdx, ID_FLOOR | ID_APT) && 
+                (!isType(tmpNdx, ID_APT_SOFT) || !isType(tmpNdx+1, ID_ROAD_SFX))) {
               lastField.end(ndx);
               ndx = tmpNdx;
               int tmp = ndx;
@@ -2237,7 +2241,6 @@ public abstract class SmartAddressParser extends MsgParser {
     // These need to be protected
     searchAddress = searchAddress.replace("AT&T", "AT%T");
     searchAddress = searchAddress.replace("1/2", "1%2");
-    searchAddress = searchAddress.replace("1/4", "1%4");
     searchAddress = searchAddress.replace(" C/S:", " C%S:");
     searchAddress = searchAddress.replace(" C/S ", " C%S ");
 

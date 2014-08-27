@@ -1279,8 +1279,8 @@ choyvp pynff VAFgnexrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:08/04",
         "GVZR:10:47",
         "PNYY:8145 TNF BQBE",
-        "NQQE:CNPVSVP 1/4 Z R BS XYBPXA",
-        "ZNQQE:CNPVSVP 1/4 Z & XYBPXA",
+        "NQQE:CNPVSVP 1 R BS 4 Z & XYBPXA",
+        "ZNQQE:CNPVSVP 1 & 4 Z & XYBPXA",
         "PVGL:XABK",
         "VASB:WRERZL ZVYYRE JVGU GURAQRA OEBJA PBEC NQIVFRQ GURL WHFG UVG N TNF YVAR NG GUVF YBPNGVBA /// GBARQ XABK SVER NAQ NQIVFRQ AVCFPB @ 1047");
 
