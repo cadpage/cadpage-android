@@ -3352,6 +3352,8 @@ Cadpage can intercept those text alerts, display its own alert screen,
 and then show the incident location on a map and/or generate turn by
 turn directions to the scene.
 
+Cadpage works on all Android versions from 2.1 on up.
+
 So the first requirement is that dispatch has to have the ability to
 send dispatch text alerts to user cell phones.  If they are already
 doing that, your members can use Cadpage.
