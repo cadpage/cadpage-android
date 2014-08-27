@@ -9,28 +9,24 @@ Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
 New Locations:\n
-Kentucky State Police, KY\n
+Mesa County, CO\n
+Pend Oreille County, WA\n
 \n
 Location Parsing Fixes:\n
-Shasta County, CA\n
-New London County, CT\n
-New Milford, CT\n
-Brantley County, GA\n
+Douglas County, CO\n
+Golden, CO\n
+La Plata County, CO\n
+Starke County, IN\n
+Stark County, IL\n
 Butler County, KS\n
-Cumberland County, ME\n
-Hennepin County, MN\n
-Hanover, NH\n
-Mercer County, NJ\n
-Nassau County, NY\n
-Yamhill County, OR\n
-Delaware County, PA\n
-Erie County, PA\n
-Washington County, PA\n
-Roanoke County, VA\n
-\n
-General Fixes:\n
-Attempt fix for sporadic BadTokeException crash\n
-Fix abort during payment status recalculation\n
+Neosho County, KS\n
+Gallatin County, KY\n
+Caroline County, MD\n
+Clark County, NV\n
+Harnett County, NC\n
+Haris County ESD1, TX\n
+Colonial Heights, VA\n
+Mid Island Region, BC\n
 
   </string>
 </resources>
