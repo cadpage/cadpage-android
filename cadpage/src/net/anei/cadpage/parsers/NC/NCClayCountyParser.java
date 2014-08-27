@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchGeoconxParser;
 public class NCClayCountyParser extends DispatchGeoconxParser {
   
   public NCClayCountyParser() {
-    super("CLAY COUNTY", "NC", GCX_FLG_NAME_PHONE);
+    super("CLAY COUNTY", "NC");
   }
   
   @Override
