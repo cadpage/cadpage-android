@@ -103,6 +103,23 @@ asking Google to restore third party message blocking functionality in some futu
 
 Take care,
 Jean ~ Cadpage Administrator
+****************************************************************************
+Not a PAID subscriber but has 4.4
+
+The extra text messages are a "feature" of the new Android 4.4 system.  There are some good reasons why Google made that change, but the bottom line is, Cadpage can no longer block dispatch text alerts from showing up in your message inbox.
+
+If you were a paid subscriber, you could try our new Cadpage paging service.   You can only register for the paging service if you have really paid for a subscription.  We have to pay the server operators for each device using that service and cannot afford to do that for users who are not paying us.
+
+Another alternative would be to use the spam blocking or blacklisting features of your message app to block messages sent from dispatch.
+
+In the long run, there is an open enhancement request
+https://code.google.com/p/android/issues/detail?id=61684
+asking Google to restore third party message blocking functionality in some future version of Android.  Feel free to register your opinion there.
+
+If you are having other difficulties with Cadpage, please let us know.
+
+Take care,
+Jean ~ Cadpage Administrator
 
 *****************************************************************************
 * Registration switched to Active911 app
