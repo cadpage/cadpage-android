@@ -42,11 +42,11 @@ public class WAPierceCountyDParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("SRC")) return new SourceField("\\d\\d", true);
+    if (name.equals("SRC")) return new SourceField("\\d\\d(?:-[A-Z]+)?", true);
     if (name.equals("AT")) return new AddressField("at +(.*)", true);
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("SRC2")) return new SkipField("F\\d\\d", true);
-    if (name.equals("BOX")) return new BoxField("\\d\\d-\\d{3,4}", true);
+    if (name.equals("BOX")) return new BoxField("\\d\\d-(?:\\d{3,4}|[A-Z]{3,4})", true);
     if (name.equals("MAP")) return new MapField("\\d+", true);
     if (name.equals("ID")) return new IdField("\\d{10}", true);
     if (name.equals("INFO")) return new MyInfoField();
