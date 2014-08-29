@@ -51,6 +51,11 @@ vzcbeg bet.whavg.Grfg;
  Pbagnpg: Qnivq <Qnivq645@bhgqef.arg>
  Fraqre: <tranyeg_PHMO@zpra.zbagtbzrelpbhaglzq.tbi>
  (Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 0308 * CVP - HAX FGNGHF * SNYYF EQ NG 270 @ 12864 SNYYF EQ ,EB  * Z703 PJSHYY
+ 
+ Pbagnpg: tbyqratbqqrff1 <tbyqratbqqrff1@tznvy.pbz>
+ Fraqre: nyeg_YBGK@zpra.zbagtbzrelpbhaglzq.tbi:
+ ab fhowrpg / PNQ ZFT: * Q * 1526 * FVPX CREFBA - OYF * 3909 ZNQVFBA CNEX YN ,ZPT  * N715
+
 
  Pbagnpg fhccbeg@npgvir911.pbz
  [Vzcbegnag zrffntr sebz ZPRA] PNQ ZFT: * Q * 2112 * CVP j/ RAGENCZRAG -NYF1 * 12000 PBAARPGVPHG NIR / 11900 IRVEF ZVYY EQ ,ZPT  * N721 CR721 EF742O Q5 QSEF\aFrag ol ZPPNQ ZPPNQ gb CR721, SF21, N721, QSEF, Q5, ZPPNQ ZPPNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\a----\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi\a
@@ -259,6 +264,19 @@ choyvp pynff ZQZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:12000 A270 K11 GB K13 UJL",
         "CYNPR:A270B ZIN-ZVQQYROEBBX EQ",
         "HAVG:CR708 RPP1P");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgTbyqraTbqqrff() {
+
+    qbGrfg("G1",
+        "ab fhowrpg / PNQ ZFT: * Q * 1526 * FVPX CREFBA - OYF * 3909 ZNQVFBA CNEX YN ,ZPT  * N715",
+        "OBK:1526",
+        "PNYY:FVPX CREFBA - OYF",
+        "NQQE:3909 ZNQVFBA CNEX YN",
+        "ZNQQE:3909 ZNQVFBA CNEX YA",
+        "HAVG:N715");
 
   }
   
