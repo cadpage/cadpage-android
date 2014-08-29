@@ -2145,11 +2145,14 @@ public abstract class SmartAddressParser extends MsgParser {
           }
           end++;
           
-          // If this is a route prefix extension, we normally skip past it.
+          // If this is a route prefix extension, (possibly following a direction)
+          // we normally skip past it.
           // But do not do this if we are in implied intersections and it
           // looks like the beginning of another numbered hwy
-          if (isType(end, ID_ROUTE_PFX_EXT)) {
-            if (!isFlagSet(FLAG_IMPLIED_INTERSECT) || !isType(end, ID_ROUTE_PFX) || !isType(end+1, ID_ALPHA_ROUTE)) end++;
+          int tend = end;
+          if (isType(tend, ID_DIRECTION)) tend++;
+          if (isType(tend, ID_ROUTE_PFX_EXT)) {
+            if (!isFlagSet(FLAG_IMPLIED_INTERSECT) || !isType(tend, ID_ROUTE_PFX) || !isType(tend+1, ID_ALPHA_ROUTE)) end = tend+1;
           }
           break;
         }

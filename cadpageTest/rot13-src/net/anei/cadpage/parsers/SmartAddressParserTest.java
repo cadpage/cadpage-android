@@ -53,6 +53,10 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
     
+    qbGrfg(NQQE, SYNT_VZCYVRQ_VAGREFRPG | SYNT_NAPUBE_RAQ, "HF 70 R UJL TNEARE EQ XRAFOHET",
+           "NQQE:HF 70 R UJL & TNEARE EQ",
+           "PVGL:XRAFOHET");
+    
     qbGrfg(NQQE, "6 ZVYR EQ & OYNPX FG YRSGBIRE",
         "NQQE:6 ZVYR EQ & OYNPX FG");
     
