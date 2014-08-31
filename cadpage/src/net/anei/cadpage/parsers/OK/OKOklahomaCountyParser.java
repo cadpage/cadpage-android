@@ -14,7 +14,7 @@ public class OKOklahomaCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "405261,81370";
+    return "405261,81370,4058352432";
   }
 
   @Override

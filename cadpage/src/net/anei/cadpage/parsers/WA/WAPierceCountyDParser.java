@@ -15,7 +15,7 @@ public class WAPierceCountyDParser extends FieldProgramParser {
   
   public WAPierceCountyDParser() {
     super( "PIERCE COUNTY", "WA", 
-           "CODE CALL ( NAME SRC/Z AT | ADDR ) SRC APT? X ( PLACE APT SRC2 | PLACE? SRC2 ) BOX MAP INFO+? ID! Units:UNIT! UNIT+");
+           "CODE CALL ( NAME SRC/Z AT | ADDR ) SRC2? SRC APT? X ( PLACE APT SRC2 | PLACE? SRC2 ) BOX MAP INFO+? ID! Units:UNIT! UNIT+");
   }
   
   @Override

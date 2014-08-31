@@ -70,6 +70,7 @@ Fraqre: @rireoevqtr.arg
 Pbagnpg: Wbanf Xvat <wbanf@nqinaprqfbynevaqhfgevrf.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 1 bs 2\aSEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Ynzcrgre Sver\aZFT:OHVYQVAT-QJRYYVAT-1N JRFG YNZCRGRE GBJAFUVC~1701 ARJCBEG QE~YNZCRGRE EQ/JVAQL UVYY\a(Pba' 2 bs 2\aEQ~RAT542,RAT541~17:55:37^     f(Raq)
+1 bs 2\aSEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Ynzcrgre Sver\aZFT:IRUVPYR NPPVQRAG-PYNFF 2 JRFG YNZCRGRE GBJAFUVC~1020 CRAA TENAG EQ~CRDHRN\a(Pba'g) 2 bs 2\aYA~OEVQTR EQ~RAT541~17:14:03^     g(Raq)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Tbeqbaivyyr Sver  RZF
@@ -1066,6 +1067,22 @@ choyvp pynff CNYnapnfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:YNZCRGRE EQ/JVAQL UVYY EQ",
         "HAVG:RAT542,RAT541",
         "GVZR:17:55:37");
+
+    qbGrfg("G1",
+        "1 bs 2\a" +
+        "SEZ:zrffntvat@vnzerfcbaqvat.pbz\a" +
+        "FHOW:Ynzcrgre Sver\a" +
+        "ZFT:IRUVPYR NPPVQRAG-PYNFF 2 JRFG YNZCRGRE GBJAFUVC~1020 CRAA TENAG EQ~CRDHRN\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "YA~OEVQTR EQ~RAT541~17:14:03^     g(Raq)",
+
+        "FEP:Ynzcrgre Sver",
+        "PNYY:IRUVPYR NPPVQRAG-PYNFF 2",
+        "PVGL:JRFG YNZCRGRE GJC",
+        "NQQE:1020 CRAA TENAG EQ",
+        "K:CRDHRN YA & OEVQTR EQ",
+        "HAVG:RAT541",
+        "GVZR:17:14:03");
 
   }
 
