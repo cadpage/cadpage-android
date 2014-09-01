@@ -192,6 +192,7 @@ class Active911Vendor extends Vendor {
       "US/CA/ShastaCounty",               "CAShastaCounty",
       "US/CA/SonomaCounty",               "CASonomaCounty",
       "US/CA/StanislausCounty",           "CAStanislausCounty",
+      "US/CA/Suisun",                     "CASuisun",
       "US/CO/AdamsCounty",                "COAdamsCounty",
       "US/CO/CityofDurango",              "COLaPlataCounty",
       "US/CO/ColoradoSprings",            "COElPasoCountyB",

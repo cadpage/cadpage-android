@@ -11,7 +11,7 @@ public class OHButlerCountyAParser extends DispatchA3Parser {
   private static final Pattern SPECIAL_COMMENT_PTN = Pattern.compile(" Special Comment:+ *\\*([\\w ]+)\\*");
   
   public OHButlerCountyAParser() {
-    super(0, "BCSO:", "BUTLER COUNTY", "OH");
+    super(0, "BCSO:", "BUTLER COUNTY", "OH", FA3_NBH_PLACE_OFF);
   }
   
   protected boolean parseMsg(String body, Data data) {

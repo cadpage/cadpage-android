@@ -10,7 +10,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 public class CTFairfieldCountyAParser extends DispatchA3Parser {
 
   public CTFairfieldCountyAParser() {
-    super("CAD:", CITY_LIST, "FAIRFIELD COUNTY", "CT", "MASH Line16:INFO Line17:INFO Line18:INFO");
+    super("CAD:", CITY_LIST, "FAIRFIELD COUNTY", "CT", 
+          "MASH Line16:INFO Line17:INFO Line18:INFO", FA3_NBH_PLACE_OFF);
     setBreakChar('=');
   }
 
@@ -25,9 +26,9 @@ public class CTFairfieldCountyAParser extends DispatchA3Parser {
     return super.getField(name);
   }
 
-  private static final Pattern MASH = Pattern.compile("(.*?) *(Landmark Comment: .*?)? *(Geo Comment: .*?)? *(NBH: .*?)? *(EMS[A-Z]{3,}|FD[A-Z]{3,}|MISC|MVAI|OTAGE) +(.*?) *(?:(\\d? ?\\d{3}-\\d{3}-\\d{4})|\\d{3}- - )? *((?:[A-Z0-9]{2,6},?)+ ?\\d?)?");
+  private static final Pattern MASH = Pattern.compile("(.*?) *\\b((?:Landmark Comment:|Geo Comment:|NBH:).*?)? *(EMS[A-Z]{3,}|FD[A-Z]{3,}|MISC|MVAI|OTAGE) +(.*?) *(?:(\\d? ?\\d{3}-\\d{3}-\\d{4})|\\d{3}- - )? *((?:[A-Z0-9]{2,6},?)+ ?\\d?)?");
 
-  private class MyMashField extends Field {
+  private class MyMashField extends BaseInfo1Field {
     @Override
     public void parse(String field, Data data) {
       
@@ -37,20 +38,17 @@ public class CTFairfieldCountyAParser extends DispatchA3Parser {
       
       //save some groups as local strings for use later...
       String group1 = mat.group(1);
-      if (group1 != null) { //address and crossroads
-        parseAddress(StartType.START_ADDR, group1.replace("//", "&").trim(), data);
-        parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_NO_CITY, getLeft(), data);
-        data.strMap = getLeft();
-      }
+      parseAddress(StartType.START_ADDR, group1.replace("//", "&").trim(), data);
+      parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_NO_CITY, getLeft(), data);
+      data.strMap = getLeft();
       
-      //landmark and geo comments, then NBH goes in place
-      data.strSupp = append(data.strSupp, " / ", getOptGroup(mat.group(2)));
-      data.strSupp = append(data.strSupp, " / ", getOptGroup(mat.group(3)));
-      data.strPlace = getOptGroup(mat.group(4));
+      // superclass handles landmark and geo comments, then NBH goes in place
+      String group2 = mat.group(2);
+      if (group2 != null) super.parse(group2.trim(), data);
       
       //find code+call in table and separate it from trailing caller name
-      data.strCode = mat.group(5);
-      String callName = mat.group(6);
+      data.strCode = mat.group(3);
+      String callName = mat.group(4);
       data.strCall = CALL_SET.getCode(callName);
       if (data.strCall != null) {
         data.strName = callName.substring(data.strCall.length()).trim();
@@ -59,8 +57,8 @@ public class CTFairfieldCountyAParser extends DispatchA3Parser {
       }
       
       //phone + unit
-      data.strPhone = getOptGroup(mat.group(7));
-      data.strUnit = getOptGroup(mat.group(8)).trim();
+      data.strPhone = getOptGroup(mat.group(5));
+      data.strUnit = getOptGroup(mat.group(6)).trim();
     }
 
     @Override

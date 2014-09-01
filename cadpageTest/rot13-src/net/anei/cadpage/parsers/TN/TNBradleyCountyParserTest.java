@@ -71,7 +71,7 @@ choyvp pynff GAOenqyrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G5",
         "PYRIRYNAQGA911 Oenqyrl PB 911:* 5940 ZBHFR PERRX EQ AJ* * * * * * * Cynpr Pbzzrag: Pbqr sbe tngr- 1220 Ynaqznex Pbzzrag: pbqr sbe tngr 1220* Npp Vaw* * * * * * * * 08/14/2013 11:59:09 : cbf8 : wrynjfba nve ont qrcyblrq 08/14/2013 11:59:02 : cbf8 : wrynjfba abg fher ba rknpg ybpngvba 08/14/2013 11:58:53 : cbf8 : wrynjfba Pebff fgerrgf: Furanaqbnu Ya AJ//Fvatyrgerr Qe AJ Ynaqznex: Fbppre Svryq Cynpr Pbzzrag: Pbqr sbe tngr- 1220 Ynaqznex Pbzzrag: pbqr sbe tngr 1220 08/14/2013 11:57:39 : cbf8 : wrynjfba Ynhqreqnyr Zrzbevny Ujl AJ//Abegu Zbhfr Perrx Eq byqre zbqry c/h genvyre pnzr bss uvg o1 naq xrcg tbvat fbhgu*",
         "NQQE:5940 ZBHFR PERRX EQ AJ",
-        "VASB:Pbqr sbe tngr- 1220\anve ont qrcyblrq\aabg fher ba rknpg ybpngvba\apbqr sbe tngr 1220\aYnhqreqnyr Zrzbevny Ujl AJ//Abegu Zbhfr Perrx Eq byqre zbqry c/h genvyre pnzr bss uvg o1 naq xrcg tbvat fbhgu",
+        "VASB:Pbqr sbe tngr- 1220 / pbqr sbe tngr 1220\anve ont qrcyblrq\aabg fher ba rknpg ybpngvba\aYnhqreqnyr Zrzbevny Ujl AJ//Abegu Zbhfr Perrx Eq byqre zbqry c/h genvyre pnzr bss uvg o1 naq xrcg tbvat fbhgu",
         "CYNPR:Fbppre Svryq",
         "PNYY:Npp Vaw",
         "QNGR:08/14/2013",

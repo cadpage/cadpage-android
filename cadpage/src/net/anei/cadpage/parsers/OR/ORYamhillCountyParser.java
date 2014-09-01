@@ -10,7 +10,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 public class ORYamhillCountyParser extends DispatchA3Parser {
 
   public ORYamhillCountyParser() {
-    super("CAD:", CITY_LIST, "YAMHILL COUNTY", "OR", "INFO");
+    super("CAD:", CITY_LIST, "YAMHILL COUNTY", "OR", 
+         "INFO", FA3_NBH_INFO);
   }
   
   @Override

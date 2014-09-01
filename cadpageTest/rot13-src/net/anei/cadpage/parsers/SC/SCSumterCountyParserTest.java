@@ -77,7 +77,7 @@ choyvp pynff FPFhzgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Fhzgre",
         "K:OEBNQ FG & FBHGU CVXR EQ J",
         "ZNC:7120",
-        "VASB:SVER=GF,6,1 RZF=81",
+        "VASB:SVER=GF,6,1 RZF=81 / Sver =NQ,UD RZF =81",
         "PNYY:Qbzrfgvp Ce");
 
     qbGrfg("G3",
@@ -99,7 +99,7 @@ choyvp pynff FPFhzgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Fhzgre",
         "K:OEBNQ FG & FBHGU CVXR EQ J",
         "ZNC:7120",
-        "VASB:SVER=GF,6,1 RZF=81",
+        "VASB:SVER=GF,6,1 RZF=81 / Sver =NQ,UD RZF =81",
         "PNYY:Qbzrfgvp Ce");
 
     qbGrfg("G5",
@@ -142,7 +142,7 @@ choyvp pynff FPFhzgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1920 ZNFBA EQ",
         "PVGL:Fhzgre",
         "K:FBZREFRG QE & FBZREFRG QE",
-        "VASB:Sver =GF,NQ,6 RZF =82",
+        "VASB:Sver =GF,NQ,6 RZF =82 / GERFCNFF ABGVPR",
         "PNYY:Fubgf Urneq/Sverq");
 
     qbGrfg("G9",
@@ -162,7 +162,7 @@ choyvp pynff FPFhzgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1920 ZNFBA EQ",
         "PVGL:Fhzgre",
         "K:FBZREFRG QE & FBZREFRG QE",
-        "VASB:Sver =GF,NQ,6 RZF =82",
+        "VASB:Sver =GF,NQ,6 RZF =82 / GERFCNFF ABGVPR",
         "PNYY:Fubgf Urneq/Sverq");
 
     qbGrfg("G11",
@@ -269,7 +269,7 @@ choyvp pynff FPFhzgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Fhzgre",
         "K:PNYUBHA FG & JNEERA FG",
         "ZNC:5030",
-        "VASB:Sver =UD,ZE RZF =81",
+        "VASB:Sver =UD,ZE RZF =81 / GERFCNFF ABGVPR",
         "PNYY:Genssv");
 
     qbGrfg("G21",
