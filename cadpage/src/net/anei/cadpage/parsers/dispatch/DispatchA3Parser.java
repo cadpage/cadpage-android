@@ -468,22 +468,6 @@ public class DispatchA3Parser extends FieldProgramParser {
       data.strMap = field;
     }
   }
-
-  private class InfoStripPlaceField extends InfoInfoField {
-    @Override
-    public void parse(String field, Data data) {
-      
-      String place = data.strPlace;
-      int pt2 = place.indexOf(" OFF ");
-      if (pt2 >= 0) place = place.substring(pt2+1);
-      pt2 = field.indexOf(place);
-      if (pt2 >= 0) {
-        pt2 += place.length();
-        field = field.substring(pt2).trim();
-      }
-      super.parse(field, data);
-    }
-  }
   
   private String infoConnect = "/";
   private class InfoInfoField extends InfoField {
