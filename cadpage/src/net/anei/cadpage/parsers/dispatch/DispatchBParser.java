@@ -883,6 +883,7 @@ public class DispatchBParser extends FieldProgramParser {
         "SICK PERSON",
         "SICK PERSON-ALT LVL OF CONSC",
         "SICK PERSON-NEW ONSET IMMOBILI",
+        "SICK PERSON ALPHA RESPONSE",
         "SICK PERSON CHARLIE",
         "SICK PERSON (SPECIFIC DIAG)",
         "SICK PERSON- DIZZINESS/VERTIGO",

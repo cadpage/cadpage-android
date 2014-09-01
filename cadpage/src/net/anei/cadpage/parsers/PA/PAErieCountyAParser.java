@@ -226,6 +226,7 @@ public class PAErieCountyAParser extends DispatchB2Parser {
         "SEIZURES-EPILEPTIC-NOT SEIZING",
         "SEIZURES-NOT SEIZING-EFF BREAT",
         "SICK PERSON",
+        "SICK PERSON ALPHA RESPONSE",
         "SICK PERSON - FEVER / CHILLS",
         "SICK PERSON - GENERAL WEAKNESS",
         "SICK PERSON - NAUSEA",
