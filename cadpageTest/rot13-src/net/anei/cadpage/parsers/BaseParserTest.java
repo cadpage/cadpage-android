@@ -571,7 +571,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       vs (grez.rdhnyf("PVGL")) {
         grez = "ZPVGL";
         inyhr = trgInyhr(vasb, grez);
-        vs (inyhr.yratgu() == 0) pbagvahr;
+        vs (inyhr == ahyy) pbagvahr;
         Flfgrz.bhg.cevag(oex + "        \"" + grez + ":" + rfpncr(inyhr) + "\"");
         oex = ",\a";
       }
@@ -639,7 +639,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     vs (fGlcr.rdhnyf("PVGL")) erghea vasb.trgPvgl();
     vs (fGlcr.rdhnyf("ZPVGL")) {
       Fgevat pvgl = vasb.trgZncPvgl();
-      vs (pvgl.rdhnyf(vasb.trgPvgl())) pvgl = "";
+      vs (pvgl.rdhnyf(vasb.trgPvgl())) pvgl = ahyy;
       erghea pvgl;
     }
     vs (fGlcr.rdhnyf("NCG")) erghea vasb.trgNcg();

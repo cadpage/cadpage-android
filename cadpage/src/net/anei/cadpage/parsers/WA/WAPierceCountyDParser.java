@@ -1,103 +1,58 @@
 package net.anei.cadpage.parsers.WA;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA41Parser;
 
 /**
  * Pierce County, WA
  */
-public class WAPierceCountyDParser extends FieldProgramParser {
-  
-  private static Pattern MASTER_PTN = Pattern.compile("DISPATCH: *(.*?) +- From [A-Z0-9]+ (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)");
+public class WAPierceCountyDParser extends DispatchA41Parser {
   
   public WAPierceCountyDParser() {
-    super( "PIERCE COUNTY", "WA", 
-           "CODE CALL ( NAME SRC/Z AT | ADDR ) SRC2? SRC APT? X ( PLACE APT SRC2 | PLACE? SRC2 ) BOX MAP INFO+? ID! Units:UNIT! UNIT+");
+    super(CITY_CODES, "PIERCE COUNTY", "WA", "F\\d\\d");
   }
   
   @Override
   public String getFilter() {
-    return "2082524514";
+    return "2082524514,Fire.comm@westpierce.org";
   }
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
-    Matcher match = MASTER_PTN.matcher(body);
-    if (!match.matches()) return false;
-    body = match.group(1);
-    data.strDate = match.group(2);
-    data.strTime = match.group(3);
-
-    body = body.replace(" Unit:", " Units:");
-    return parseFields(body.split(", "), data);
-  }
-  
-  @Override
-  public String getProgram() {
-    return super.getProgram() + " DATE TIME";
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("SRC")) return new SourceField("\\d\\d(?:-[A-Z]+)?", true);
-    if (name.equals("AT")) return new AddressField("at +(.*)", true);
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("SRC2")) return new SkipField("F\\d\\d", true);
-    if (name.equals("BOX")) return new BoxField("\\d\\d-(?:\\d{3,4}|[A-Z]{3,4})", true);
-    if (name.equals("MAP")) return new MapField("\\d+", true);
-    if (name.equals("ID")) return new IdField("\\d{10}", true);
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("UNIT")) return new MyUnitField();
-    return super.getField(name);
-  }
-  
-  private class MyCrossField extends CrossField {
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
-      if (field.startsWith("<") && field.endsWith(">")) {
-        super.parse(field, data);
-        return true;
-      }
-      
-      if (field.startsWith("btwn ")) {
-        field = field.substring(5).replace(" and ", " / ").trim();
-        super.parse(field, data);
-        return true;
-      }
-      
-      return false;
-    }
-    
-    @Override
-    public void parse(String field, Data data) {
-      if (!checkParse(field, data)) abort();
-    }
-  }
-  
-  private class MyInfoField extends InfoField {
-    @Override
-    public void parse(String field, Data data) {
-      data.strSupp = append(data.strSupp, ", ", field);
-    }
-  }
-  
-  private class MyUnitField extends UnitField {
-    @Override
-    public void parse(String field, Data data) {
-      data.strUnit = append(data.strUnit, ", ", field);
-    }
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
   }
   
   @Override
   public String adjustMapAddress(String sAddress) {
     return WAPierceCountyParser.adjustMapAddressCommon(sAddress);
   }
+  
+  @Override
+  public String adjustMapCity(String map) {
+    
+    // City codes are fire districts that do not map well to 
+    // actual recognizable city names
+    return "";
+  }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "03", "WEST PIERCE",
+      "05", "GIG HARBOR",
+      "06", "CENTRAL PIERCE",
+      "13", "PIERCE COUNTY",
+      "14", "RIVERSIDE",
+      "16", "KEY PENINSULA",
+      "17", "SOUTH PIERCE",
+      "18", "ORTING VALLEY",
+      "21", "GRAHAM",
+      "22", "EAST PIERCE",
+      "23", "ASHFORD ELBE",
+      "27", "ANDERSON ISLAND",
+      "43", "EATONVILLE"
+  });
 }
