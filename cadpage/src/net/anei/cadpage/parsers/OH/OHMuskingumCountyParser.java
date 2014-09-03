@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.OH;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchCiscoParser;
 
@@ -25,6 +27,30 @@ public class OHMuskingumCountyParser extends DispatchCiscoParser {
     }
     return true;
   }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
+  }
+  
+  private class MyAddressField extends BaseAddressField {
+
+    @Override
+    public void setQual(String qual) {
+      // The DispatchCiscoParser class turns on extends apt field processing
+      // this conflicts with some of the the odd county and township road names
+      // so we will quietly disable it.
+      super.setQual("S");
+    }
+  }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = COSH_PTN.matcher(addr).replaceAll("COSHOCTON");
+    return super.adjustMapAddress(addr);
+  }
+  private static final Pattern COSH_PTN = Pattern.compile("\\bCOSH\\b");
 
   private static final String[] CITY_LIST = new String[]{
 

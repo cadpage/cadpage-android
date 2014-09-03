@@ -59,15 +59,15 @@ public class DispatchCiscoParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("UNIT")) return new MyUnitField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("UNIT")) return new BaseUnitField();
+    if (name.equals("ADDR")) return new BaseAddressField();
+    if (name.equals("X")) return new BaseCrossField();
     return super.getField(name);
   }
   
   private static final Pattern SPECIAL_MSG_PTN = Pattern.compile("Unit: *([A-Z0-9]+) *(.*?) -> (.*)");
   
-  private class MyUnitField extends UnitField {
+  private class BaseUnitField extends UnitField {
     @Override 
     public void parse(String field, Data data) {
       super.parse(field.replaceAll(" +", " "), data);
@@ -75,7 +75,7 @@ public class DispatchCiscoParser extends FieldProgramParser {
   }
   
   private static final Pattern D_PTN = Pattern.compile("\\bD\\b", Pattern.CASE_INSENSITIVE);
-  private class MyAddressField extends AddressField {
+  protected class BaseAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       field =  D_PTN.matcher(field).replaceAll("DR");
@@ -83,7 +83,7 @@ public class DispatchCiscoParser extends FieldProgramParser {
     }
   }
   
-  private class MyCrossField extends CrossField {
+  private class BaseCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
 
