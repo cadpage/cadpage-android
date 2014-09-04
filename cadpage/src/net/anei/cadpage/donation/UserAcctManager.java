@@ -84,7 +84,7 @@ public class UserAcctManager {
           String sponsor = (flds.length < 4 ? null : flds[3].trim());
           DonationManager.processSubscription(stat, purchaseDate, sponsor);
         }
-        DonationManager.instance().holdRecalc(falseciti, "ServerQuery");
+        DonationManager.instance().holdRecalc(false, "ServerQuery");
       }
     });
   }
