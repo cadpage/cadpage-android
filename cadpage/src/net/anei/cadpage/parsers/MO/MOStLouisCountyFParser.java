@@ -12,7 +12,15 @@ public class MOStLouisCountyFParser extends FieldProgramParser {
   public MOStLouisCountyFParser() {
     super("ST LOUIS COUNTY", "MO", "ADDR/SC! Description:INFO CrossStreets:X");
     setupCallList(CALL_LIST);
-    setupMultiWordStreets("HIGH HAMPTON");
+    setupMultiWordStreets(
+        "BRENTWOOD PROMENADE",
+        "HIGH HAMPTON",
+        "LOG CABIN",
+        "LOUIS GALLERIA",
+        "STONELEIGH TOWERS",
+        "THE BOULEVARD SAINT LOUIS",
+        "TWIN SPRINGS"
+    );
   }
 
   @Override
@@ -53,6 +61,8 @@ public class MOStLouisCountyFParser extends FieldProgramParser {
     "SMELL OF GAS OUTSIDE",
     "SMELL OF SMOKE OUTSIDE",
     "SMELL OF SMOKE/ELECTRICAL INSIDE",
+    "SMOKE IN THE BUILDING",
+    "WATER PROBLEM",
     "WIRES DOWN/TRANSFORMER"
   });
   

@@ -103,6 +103,7 @@ asking Google to restore third party message blocking functionality in some futu
 
 Take care,
 Jean ~ Cadpage Administrator
+
 ****************************************************************************
 Effect of 4.4:
 
@@ -1411,7 +1412,7 @@ Jean ~ Cadpage Administrator
 BRAND NEW USERS
 
 Cadpage will not do anything with the default, out of the box, settings.
- YOu have to give it some information to identify your text pages.
+You have to give it some information to identify your text pages.
 
 Go into the Cadpage location settings, select a single location, and
 then see if we have a location set up for where you happen to live or

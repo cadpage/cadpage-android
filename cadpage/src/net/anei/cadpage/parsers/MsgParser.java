@@ -1358,8 +1358,147 @@ public abstract class MsgParser {
  private static final Pattern BR_PTN = Pattern.compile("< *br */?>", Pattern.CASE_INSENSITIVE);
  
  /**
+  * Utility class used to parse fixed length fields from text line
+  */
+ public static class FParser {
+   private String line;
+   private int spt = 0;
+   private boolean optional = false;
+   
+   public FParser(String line) {
+     this.line = line;
+   }
+   
+   /**
+    * Declare all following fields to be optional.
+    * Basically this means checks for fixed labels will not fail if
+    * the expected position of the label is beyond the length of the 
+    * text string
+    */
+   public void setOptional() {
+     optional = true;
+   }
+   
+   /**
+    * @return remainder of line
+    */
+   public String get() {
+     String value =  substring(line, spt);
+     spt = line.length();
+     return value;
+   }
+   
+   /**
+    * Return next fixed length field
+    * @param len length of requested field
+    * @return value if next fixed length field
+    */
+   public String get(int len) {
+     int ept = spt + len;
+     String value = substring(line, spt, ept);
+     spt = ept;
+     return value;
+   }
+   
+   /**
+    * Check for fixed label
+    * @param marker expected label value
+    * @return true if label found in next field
+    */
+   public boolean check(String marker) {
+     marker = trimOptionalMarker(0, marker);
+     int mlen = marker.length();
+     if (!lookahead(0, mlen).equals(marker.trim())) return false;
+     skip(mlen);
+     return true;
+   }
+   
+   /**
+    * Return fixed length value terminated by fixed marker
+    * @param marker fixed marker value
+    * @param lengths possible lengths of field value
+    * @return next field value terminated by fixed marker
+    * or null if marker not found
+    */
+   public String getOptional(String marker, int ... lengths) {
+     if (spt >= line.length()) return null;
+     if (lengths.length == 0) {
+       int ept = line.indexOf(marker, spt);
+       if (ept < 0) return null;
+       String value = line.substring(spt, ept).trim();
+       spt = ept + marker.length();
+       return value;
+     }
+     
+     for (int len : lengths) {
+       String value = getOptional(len, marker);
+       if (value != null) return value;
+     }
+     return null;
+   }
+   
+   
+   /**
+    * Return fixed length value terminated by fixed marker
+    * @param fixed field length
+    * @param marker fixed marker value
+    * @return next field value terminated by fixed marker
+    * or null if marker not found
+    */
+   public String getOptional(int len, String marker) {
+     if (!checkAhead(len, marker)) return null;
+     String value = get(len);
+     skip(marker.length());
+     return value;
+   }
+
+   /**
+    * Check for fixed label value
+    * @param offset of expected label value
+    * @param marker expected label value
+    * @return true if found
+    */
+   public boolean checkAhead(int offset, String marker) {
+     marker = trimOptionalMarker(offset, marker);
+     return lookahead(offset, marker.length()).equals(marker.trim());
+   }
+   
+   /**
+    * retrieve look ahead field value
+    * @param offset offset of requested field value
+    * @param length length of requested field value
+    * @return requested look ahead field value
+    */
+   public String lookahead(int offset, int length) {
+     return substring(line, spt+offset, spt+offset+length);
+   }
+   
+   /**
+    * Skip field
+    * @param len length of field to be skipped
+    */
+   public void skip(int len) {
+     spt += len;
+   }
+   
+   /**
+    * Trim fixed label to match end of text string if optional flag is set
+    * @param offset offset from current position
+    * @param marker value to be checked
+    * @return possibly trimmed value
+    */
+   private String trimOptionalMarker(int offset, String marker) {
+     if (!optional) return marker;
+     int left = line.length() - (spt+offset);
+     if (left < 0) left = 0;
+     if (left >= marker.length()) return marker;
+     return marker.substring(0,left);
+   }
+ }
+ 
+ /**
   * Worker class that will parse a into consecutive substrings up to the
-  * next occurrence of a particular parser
+  * next occurrence of a particular pattern or string or character
   */
  public static class Parser {
    
