@@ -1,8 +1,12 @@
 package net.anei.cadpage.donation;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -80,7 +84,7 @@ public class DonationManager {
   
   private Handler handler = new Handler();
   
-  private boolean armRecalc = false;
+  private Set<String> recalcHolds = new HashSet<String>();
   private static boolean recalcInProgress = false;
   private static int workPaidYear = 0;
   private static String workPurchaseDateStr = null;
@@ -155,7 +159,7 @@ public class DonationManager {
       // Then recalculate status and refresh all displays
       calculate();
       
-      armRecalc = false;
+      recalcHolds.clear();
       recalcInProgress = true;
       workPaidYear = 0;
       workPurchaseDateStr = null;
@@ -170,8 +174,20 @@ public class DonationManager {
     }
   }
   
-  public void armRecalc() {
-    armRecalc = true;
+  public void holdRecalc(boolean set, String key) {
+    if (set) {
+      recalcHolds.add(key);
+    } else {
+      recalcHolds.remove(key);
+    }
+  }
+  
+  private boolean checkRecalcHolds() {
+    if (recalcHolds.isEmpty()) return true;
+    for (String hold : recalcHolds) {
+      Log.v("Status recalc failuire:" + hold);
+    }
+    return false;
   }
   
   /**
@@ -214,7 +230,7 @@ public class DonationManager {
         
         // Disreguard downgrade if restore billing transction did not
         // complete successfully
-        if (!armRecalc) {
+        if (!checkRecalcHolds()) {
           Log.v("Recalculation of Payment Status results failed");
           return;
         }

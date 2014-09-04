@@ -58,6 +58,9 @@ public class UserAcctManager {
   }
   
   public void reloadStatus(Context context) {
+
+    // Place status recalc hold until this completes successfully
+    DonationManager.instance().holdRecalc(true, "ServerQuery");
     
     // Build query with all of the possible account and phone ID's
     Uri.Builder builder = Uri.parse(context.getString(R.string.donate_server_url)).buildUpon();
@@ -81,6 +84,7 @@ public class UserAcctManager {
           String sponsor = (flds.length < 4 ? null : flds[3].trim());
           DonationManager.processSubscription(stat, purchaseDate, sponsor);
         }
+        DonationManager.instance().holdRecalc(falseciti, "ServerQuery");
       }
     });
   }

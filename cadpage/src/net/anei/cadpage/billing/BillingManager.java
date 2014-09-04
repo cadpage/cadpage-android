@@ -77,6 +77,7 @@ public class BillingManager {
    * @return true if successful
    */
   public boolean restoreTransactions() {
+    DonationManager.instance().holdRecalc(true, "RestoreTransactions");
     if (!supported) return false;
     Log.v("Restore Billing Transactions");
     mService.restoreTransactions();
@@ -173,7 +174,7 @@ public class BillingManager {
     public void onRestoreTransactionsResponse(RestoreTransactions request,
                                                ResponseCode responseCode) {
       Log.v("Restore Transactions Complete: " + responseCode);
-      if (responseCode == ResponseCode.RESULT_OK) DonationManager.instance().armRecalc();
+      if (responseCode == ResponseCode.RESULT_OK) DonationManager.instance().holdRecalc(false, "RestoreTransactions");
     }
   }
   
