@@ -581,6 +581,7 @@ class Active911Vendor extends Vendor {
       "US/WV/Wyoming",                    "WVWyomingCounty",
       "Utility/General/Default",          "N/A",
       "Vendor/Cadpage/Default",           "Cadpage2",
-      "Vendor/Cadpage/StandardA",         "StandardA"
+      "Vendor/Cadpage/StandardA",         "StandardA",
+      "Vendor/Sweden/Zenit",              "ZSESweden"
   });
 }
