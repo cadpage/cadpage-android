@@ -13,6 +13,7 @@ public class TNCampbellCountyParser extends DispatchGeoconxParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (! super.parseMsg(subject, body, data)) return false;
+    if (data.strCity.equalsIgnoreCase("LAFOLLETTE")) data.strCity = "LA FOLLETTE";
     
     // Dispatch requests caller name not be included in result
     data.strName = "";
