@@ -193,6 +193,11 @@ Bgfrtb Pbhagl, AL (ALBfgrtbPbhaglCnefre)
 * QvfcngpuN3Cnefre fhopynffrf
 *******************************************************************************
 *******************************************************************************
+Fhvfha Pvgl, PN (PNFhvfhaPvglCnefre) 
+(vCntr) ZNA QBJA* @ 1 UNEOBE PRAGRE* Ncg: 130* FHVFHA PVGL Pbz:  AOU: 472-T7* Havgf: Q1,Q2,R47* 08/07/2014 07:06:07 : cbf1 : XRA01   Pebff fgerrgf: YBGM JL//ZNVA FG  Ynaqznex: FBYNAB GENAFCBEGNGVBA NHGUBEVGL  AOU: 472-T7  NQI SRZNYR YNLVAT BA GUR TEBHAQ BHG VA SEBAG BS GURVE OHVYQVAT BA GUR JNGRE FVQR*
+(vCntr) CHOYVP NFFVFG* @ 724 JVTRBA JL* Ncg: * FHVFHA PVGL Pbz:  AOU: 472-W6/473-N7* Havgf: R47* 08/06/2014 23:56:13 : cbf2 : URE01   Pebff fgerrgf: ZRETNAFRE QE//CVAGNVY QE  AOU: 472-W6/473-N7    EC SRYY VA FUBJRE NAQ ARRQF URYC HC - UHFONAQ JVYY BCRA QBBE  59 LB SRZNYR*
+(vCntr) ZRQVPNY* @ 1103 OYBFFBZ NIR* Ncg: * FHVFHA PVGL Pbz:  Trb Pbzzrag: ARJ NQQERFF  Havgf: R47* 08/06/2014 19:06:32 : cbf2 : FNT01   IVGN YVAX NQIVFRQ QB ABG UNIR N XRL PBQR GLEVAT GB  TRG  N UBYQ BS FBZRBAR     08/06/2014 19:05:56 : cbf2 : FNT01   Pebff fgerrgf: ENVYEBNQ NI//NZORE QE  Trb Pbzzrag: ARJ NQQERFF VF 1300 OYBFFBZ NI  AOU: 472-W5  NYV K
+*******************************************************************************
 Snvesvryq Pbhagl, PG (PGSnvesvryqPbhaglNCnefre)
 (2013-014678) PNQ:36 BYQ XVATF UJL F 2 QNEVRA 51 GBXRARXR EQ PBEOVA QE Trb Pbzzrag: 51 GBXRARXR EQ / YBPHFG UVYY EQ RZFSNYY SNYY VAGREANY ZRQVPVAR 203-655-8740 54N 2 Yvar16=Zrqvpny: Ab Yvar17=Unmneqf: Ab Yvar18=10/29/2013 15:19:44 : cbf2 : wznegva Pnyyf 2013-014677,2013-014678 ner eryngrq. Ynaqznex: VAGREANY ZRQVPVAR NFFBPVNGVBA BS QNEVRA Pebff fgerrgf: PBEOVA QE// Trb Pbzzrag: 51 GBXRARXR EQ / YBPHFG UVYY EQ 71 le byq znyr cbffvoyr uvc senpgher
 (2013-014636) PNQ:106 FGRCURA ZNGURE EQ QNEVRA CVYTEVZ EQ ZNCYRJBBQ EQ Trb Pbzzrag: OEBBXFVQR EQ / 540 ZNAFSVRYQ NIR RZFFVRM RZF FRVMHER OHGYRE PHEGVF 203-309-5240 53N 1 Yvar16=Zrqvpny: Ab Yvar17=Unmneqf: Ab Yvar18=10/28/2013 10:59:16 : cbf1 : TORARQRGGB Pnyyf 2013-014635,2013-014636 ner eryngrq. Pebff fgerrgf: CVYTEVZ EQ//ZNCYRJBBQ EQ Trb Pbzzrag: OEBBXFVQR EQ / 540 ZNAFSVRYQ NIR 8 LE BYQ NPGVIRYL FRVMVAT
@@ -667,6 +672,11 @@ Gbz'f Evire, Bprna Pbhagl, AW (AWBprnaPbhaglOCnefre)
 (VAPVQRAG # 14-273) YBAT GREZ PNQ#  14-10665   NPGVIR PNYY# 115\aCEVBEVGL: 2                   ERCBEGRQ: 16:07:53 02/13/14\a\a Angher: FGEHPGHER VAIFG                             Glcr: s\aNqqerff: 1926 Ebhgr 37 R; Ragrecevfr Erag N Pne      Mbar: 284\a   Pvgl: Gbzf Evire\a\aErfcbaqvat Havgf: S28,S53\a\aQverpgvbaf:\a\a\aPbzzragf:\aoheavat cynfgvp fzryy va gur oyqt-rirelbar rinphngvat\a\aPbagnpg: bpee                              Cubar: (   )   -
 (VAPVQRAG #) YBAT GREZ PNQ#  14-10608   NPGVIR PNYY# 62\aCEVBEVGL: 0                   ERCBEGRQ: 11:42:13 02/13/14\a\a Angher: QVFCNGPURE GRFG                             Glcr: s\aNqqerff: 1502 Ebhgr 37 R; Ybir Funpx                 Mbar: 250\a   Pvgl: Gbzf Evire\a\aErfcbaqvat Havgf: S53\a\aQverpgvbaf:\a\a\aPbzzragf:\agrfg pnyy - grfg pnyy sbe npgvir 9-1-1\a\aPbagnpg: GRFG PNYY                         Cubar: (   )   -
 (VAPVQRAG # 14-292) YBAT GREZ PNQ#  14-11402   NPGVIR PNYY# 10\aCEVBEVGL: 2                   ERCBEGRQ: 09:16:32 02/17/14\a\a Angher: NYNEZ SVER                                  Glcr: s\aNqqerff: 114 Ryvmnorgu Nir                           Mbar: 284\a   Pvgl: Gbzf Evire\a\aErfcbaqvat Havgf: S28,S53\a\aQverpgvbaf:\a\a\aPbzzragf:\aunyyjnl fzbxr 877 285 7397\a\aPbagnpg:                                   Cubar: (646)338-3346
+*******************************************************************************
+Qnexr Pbhagl, BU (BUQnexrPbhaglCnefre) 
+(Rznvy sebz NpgvirSnk Freire) VAPVQRAG #\a\aYBAT GREZ PNQ# 14-Q18479   NPGVIR PNYY# 76\aCEVBEVGL: 1                   ERCBEGRQ: 14:51:24 08/12/14\a\a Angher: PENFU J/VAWHEL                              Glcr: s\aNqqerff: HF EBHGR 36 R & FGNGR EBHGR 571 R           Mbar: F05P\a   Pvgl: TERRAIVYYR\a\aErfcbaqvat Havgf: 541R,575H,GNP7\a\aQverpgvbaf:\a\a\aPbzzragf:\aBA 36R NG FE571 J/O YNAR NG VAGREFRPGVBA 2 VAWHEVRF BSS BS EBNQJNL FGEBXR UK BA\aBAR CNGVRAG VA CNVA NAQ 2AQ ARPX CNVA\a\aPbagnpg: ZVXR ARJOL                        Cubar: (317)625-1778
+(Rznvy sebz NpgvirSnk Freire) VAPVQRAG #\a\aYBAT GREZ PNQ# 14-Q17922   NPGVIR PNYY# 1\aCEVBEVGL: 1                   ERCBEGRQ: 00:34:40 08/06/14\a\a Angher: PENFU J/VAWHEL                              Glcr: s\aNqqerff: XEHPXRORET EQ & HF EBHGR 127 A              Mbar: F05O\a   Pvgl: TERRAIVYYR\a\aErfcbaqvat Havgf: 541R,575H,GNP4\a\aQverpgvbaf:\a\a\aPbzzragf:\a1 IRU/QRRE    VAWHEVRQ\a\aPbagnpg: NG&G ZBOVYVGL                     Cubar: (937)621-7116
+(Rznvy sebz NpgvirSnk Freire) VAPVQRAG #\a\aYBAT GREZ PNQ# 14-Q17787   NPGVIR PNYY# 98\aCEVBEVGL: 2                   ERCBEGRQ: 19:45:46 08/04/14\a\a Angher: ZVFP SVER                                   Glcr: s\aNqqerff: NAAN Z QE & JBBQ NIR                        Mbar: F05P\a   Pvgl: TERRAIVYYR\a\aErfcbaqvat Havgf: 541R,553G,563T\a\aQverpgvbaf:\a\a\aPbzzragf:\aOHEAVAT GENFU QBJA NAAN Z QEVIR  VAGB PC UBHFR\a\aPbagnpg: PUNEYVR UVAFUNJ                   Cubar: (937)423-5391
 *******************************************************************************
 Ubyzrf Pbhagl, BU (BUUbyzrfPbhaglCnefre)
 (QVFCNGPUVAPVQRAG # 13RSQ0066,1) YBAT GREZ PNQ#    102850   NPGVIR PNYY# 24\aCEVBEVGL: 0                   ERCBEGRQ: 15:17:19 05/06/13\a\a Angher: SVER FGEHPGHER                              Glcr: s\aNqqerff: 6133 GE 327; Uneql Gjc                      Mbar: ZSQ\a   Pvgl: Zvyyrefohet\a\aErfcbaqvat Havgf: 701,703,702,302,306,301,801,802,YNQ7\a\aQverpgvbaf:\a\a\aPbzzragf:\a\a\aPbagnpg: Ynhen Znfg                        Cubar: (330)674-2981
@@ -1179,6 +1189,11 @@ Phlnubtn Pbhagl, BU (O) (BUPhlnubtnPbhaglOCnefre)
 (Qvfcngpu Nyreg: PQ-14-000861) PQ-14-000861\aS32 ZRQVPNY RZRETRAPL\a7214  EVQTR EQ\a\aCNEZN BU \aNtrapvrf nffvtarq:
 (Qvfcngpu Nyreg: PQ-14-000817) PQ-14-000817\aS11 SVER VA OHVYQVAT\a4521  SEHVGYNAQ QE\a\aCNEZN BU \aNtrapvrf nffvtarq:
 (Qvfcngpu Nyreg: PQ-14-000815) PQ-14-000815\aS32 ZRQVPNY RZRETRAPL\a7231  YNAPRYBG QE\a\aCNEZN BU \aNtrapvrf nffvtarq:
+*******************************************************************************
+Snvesvryq, BU (BUSnvesvryqCnefre)
+(Qvfcngpu Nyreg: CQ-14-050249) CQ-14-050249\aZRQVP ZRQVP\a4730  QVKVR UJ\a\aSNVESVRYQ BU 45014\aNtrapvrf nffvtarq: \a67 S CNFFRQ BHG
+(Qvfcngpu Nyreg: CQ-14-050239) CQ-14-050239\aZRQVP ZRQVP\a116  UVTU EVQTR PG\aJBBQFVQR QE\aSNVESVRYQ BU 45014\aNtrapvrf nffvtarq: \a67 Z FGNCYRF VA URNQ/OYRRQVAT SRRYVAT VYY
+(Qvfcngpu Nyreg: CQ-14-050237) CQ-14-050237\aZRQVP ZRQVP\a4  OEHFUONPX PG\aNAANAQNYR QE\aSNVESVRYQ BU 45014\aNtrapvrf nffvtarq: \aRYQREYL S PBASHFRQ
 *******************************************************************************
 *******************************************************************************
 * QvfcngpuN45Cnefre fhopynffrf
@@ -4740,6 +4755,11 @@ Unzvygba Pbhagl, BU (BUUnzvygbaPbhaglCnefre)
 UP:FGEHPGHER SVER 8877 QR FBGB QE FCGC ARVFUN PBBX/ATUOE ** FGEHPGHER SVER ** VAI ERS.. FZBXR & SYNZRF IVFVOYR SEBZ GUR EBBS.. ERFQ CBFF HABPP, PBZCY N 22:43 USR75 USR74 USD79 USD78 USE79 USF26 USENG97 USST3 USVZNG79 KFG: 1331 NATRYN NI KFG
 UP:FGEHPGHER SVER 12135 FCNYQVAT QE PBGC ZNGG TVGGREZNA ** FGEHPGHER SVER ** BQBE BS CYNFGVP OHEAVAT YVTUG FZBXR SEBZ NA NGGVP IRAG...PRVYVAT VA GUR X 06:47 USR109 USR102 USR42 USY25 USY42 USF25 USENG25 USST3 USVZNG25 KFG: 12037 JRFGREYL QE
 UP:FGEHPGHER SVER J PERFPRAGIVYYR EQ&FCEVATSVRYQ FCQY CYNAG ZNVAG RAT JVERYRFF-IREVMBA JVE ** FGEHPGHER SVER ** EBBS IRAG BA SVER 14:10 USR90 USR43 USG90 USG86 USZ90 USSESQZ32 USENG96 USST5
+***************************************************************************
+Unapbpx Pbhagl, BU (BUUnapbpxPbhaglCnefre) 
+,Zrqvpny/RZF, 8601 GE 128, SVAQYNL, BU  45840, PE 86//GE 89, 85 LE BYQ ZNYR SRYY VA ONEA, ERFCBAFVIR
+,Zrqvpny/RZF, 7906 HF 224, SVAQYNL, BU  45840, JRFGYNAQ QE//GE 136, HAERFCBAFV
+,SVER, 7746 PE 140, SVAQYNL, BU  45840, //, FBHGU FVQR BS GUR OHVYQVAT, CBJRE YVARF QBJA, NEPVAT
 ***************************************************************************
 Uhqfba, BU (BUUhqfbaCnefre)
 UhqfbaPNQ:PNQ Flfgrz 6150,AVPUBYFBA QE.,,UHQFBA RZF,RZF63 LBZ, QVNORGVP FUBPX
