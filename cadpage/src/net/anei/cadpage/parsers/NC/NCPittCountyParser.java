@@ -25,8 +25,9 @@ public class NCPittCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("911 Fire Call")) return false;
-    int pt = body.indexOf('\n');
+    int pt = body.indexOf("\n\n");
     if (pt >= 0) body = body.substring(0,pt).trim();
+    body = body.replace('\n', ' ');
     
     Matcher match = CONFIRM_FIRE_MARKER.matcher(body);
     if (match.matches()) {
