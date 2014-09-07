@@ -383,6 +383,13 @@ Fraqre: Tznvy Grnz <sbejneqvat-abercyl@tbbtyr.pbz>
 (PNQ Cntr) CN, CREFBA; 3444 CNEX JL / 20782 GUVEQ FG ,PBGGBAJBBQ ; ; ; Znc: 3975; Vap# 007394; IBY23; yvsg nffvfg <n uers="uggc://zncf.tbbtyr.pbz/?d=40.387800,-122.282290">Znc</n>
 (PNQ Cntr) ZRQVPNY; 22344 NQBOR EQ ,PBGGBAJBBQ ; ; 3660 OYX QELOERNQ EQ; Znc: 3976; Vap# 007381; IBY23; 71 s noq cnva <n uers="uggc://zncf.tbbtyr.pbz/?d=40.396223,-122.225814">Znc</n>
 
+Ntrapl anzr: Erqqvat Sver
+Ybpngvba: Erqqvat, PN, Havgrq Fgngrf
+Fraqre: fuhpnq@sver.pn.tbi
+
+(PNQ Cntr) SVER, JVYQYNAQ; 6540 BNX OBGGBZ EQ / 21440 QREFPU EQ ,FGN43 ; ; ; Znc: 3675; Vap# 008174; NR32 NR43 O2414 PREQA QBM2444 R2452 R2454 UPFC1 C2421 CEICEI GEAGEA JG46; hax fvmr glcr tenff sver. <n uers="uggc://zncf.tbbtyr.pbz/?d=40.479730,-122.258190">Znc</n>
+
+
  */
 
 choyvp pynff PNFunfgnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -4721,6 +4728,23 @@ choyvp pynff PNFunfgnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:IBY23",
         "VASB:71 s noq cnva",
         "TCF:+40.396223,-122.225814");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgErqqvatSver() {
+
+    qbGrfg("G1",
+        "(PNQ Cntr) SVER, JVYQYNAQ; 6540 BNX OBGGBZ EQ / 21440 QREFPU EQ ,FGN43 ; ; ; Znc: 3675; Vap# 008174; NR32 NR43 O2414 PREQA QBM2444 R2452 R2454 UPFC1 C2421 CEICEI GEAGEA JG46; hax fvmr glcr tenff sver. <n uers=\"uggc://zncf.tbbtyr.pbz/?d=40.479730,-122.258190\">Znc</n>",
+        "PNYY:SVER, JVYQYNAQ",
+        "NQQE:6540 BNX OBGGBZ EQ & 21440 QREFPU EQ",
+        "ZNQQE:6540 BNX OBGGBZ EQ",
+        "FEP:FGN43",
+        "ZNC:3675",
+        "VQ:008174",
+        "HAVG:NR32 NR43 O2414 PREQA QBM2444 R2452 R2454 UPFC1 C2421 CEICEI GEAGEA JG46",
+        "VASB:hax fvmr glcr tenff sver.",
+        "TCF:+40.479730,-122.258190");
 
   }
 
