@@ -1,13 +1,3 @@
-**************************************************************************
-* v1.7.37 crash in payment recalculation logic
-**************************************************************************
-
-I released a new Cadpage version that will fix this yesterday.  You can install it from Google Play Store.
-
-Very sorry for the inconvenience,
--Ken
-
-**************************************************************************
 
 Cadpage Paging Service
 
