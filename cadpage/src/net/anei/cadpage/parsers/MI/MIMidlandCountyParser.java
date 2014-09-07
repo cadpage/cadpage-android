@@ -22,6 +22,11 @@ public class MIMidlandCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     Matcher match = MARKER.matcher(subject);
     if (match.matches()) {
@@ -43,6 +48,12 @@ public class MIMidlandCountyParser extends FieldProgramParser {
     return "ID " + super.getProgram();
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("GPS")) return new MyGPSField();
+    return super.getField(name);
+  }
+  
   private static final Pattern GPS_PTN = Pattern.compile("//maps.google.com/maps\\?q=([+-]\\d+\\.\\d{5})(?: +|%20)([+-]\\d+\\.\\d{5})");
   private class MyGPSField extends GPSField {
     public void parse(String field, Data data) {
@@ -50,16 +61,5 @@ public class MIMidlandCountyParser extends FieldProgramParser {
       if (!match.matches()) return;
       setGPSLoc(match.group(1) + ',' + match.group(2), data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("GPS")) return new MyGPSField();
-    return super.getField(name);
-  }
-  
-  @Override
-  public int getMapFlags() {
-    return MAP_FLG_PREFER_GPS;
   }
 }
