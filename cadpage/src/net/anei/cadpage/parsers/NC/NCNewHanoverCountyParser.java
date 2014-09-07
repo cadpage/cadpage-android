@@ -12,13 +12,23 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 public class NCNewHanoverCountyParser extends DispatchOSSIParser {
   
   public NCNewHanoverCountyParser() {
-    super("NEW HANOVER COUNTY", "NC",
-           "SRC CALL ADDR EXTRA! INFO+");
+    super(CITY_CODES, "NEW HANOVER COUNTY", "NC",
+          "( CH2 ADDR CITY/Y CH! | SRC CALL ADDR EXTRA! ) INFO+");
   }
   
   @Override
   public String getFilter() {
     return "messaging@iamresponding.com,@c-msg.net";
+  }
+  
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("CH2")) return new SkipField("PUBLIC SAFETY CHANNEL \\d", true);
+    if (name.equals("CH")) return new ChannelField("PS\\d");
+    if (name.equals("SRC")) return new SourceField("ST\\d+", true);
+    if (name.equals("EXTRA")) return new MyExtraField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   private static final Pattern ASTERISK_PTN = Pattern.compile("\\*\\*+");
@@ -67,14 +77,6 @@ public class NCNewHanoverCountyParser extends DispatchOSSIParser {
       field = ASTERISK_PTN.matcher(field).replaceAll("*");
       super.parse(field, data);
     }
-  }
-  
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("SRC")) return new SourceField("ST\\d+", true);
-    if (name.equals("EXTRA")) return new MyExtraField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
