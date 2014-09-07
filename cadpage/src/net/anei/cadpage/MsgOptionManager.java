@@ -522,6 +522,7 @@ public class MsgOptionManager {
       return true;
       
     case R.id.open_item:
+      if (Log.DEBUG) Log.v("MsgOptionManager User launch SmsPopup for " + message.getMsgId()); 
       SmsPopupActivity.launchActivity(activity, message);
       return true;
       

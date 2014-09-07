@@ -38,6 +38,7 @@ public class HistoryMsgTextView extends TextView {
         if (msg == null) return;
         
         // display message popup
+        if (Log.DEBUG) Log.v("HistoryMsgTextView User launch SmsPopup for " + msg.getMsgId()); 
         SmsPopupActivity.launchActivity(getContext(), msg);
       }});
   }

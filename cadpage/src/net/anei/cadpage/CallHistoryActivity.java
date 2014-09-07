@@ -158,6 +158,7 @@ public class CallHistoryActivity extends ListActivity {
             
           }}, 100);
         if (!context.isFinishing()) {
+          if (Log.DEBUG) Log.v("CallHistoryActivity Auto launch SmsPopup for " + msgId); 
           SmsPopupActivity.launchActivity(context, msgId);
         }
       }
