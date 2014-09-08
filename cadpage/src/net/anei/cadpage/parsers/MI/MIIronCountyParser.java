@@ -17,7 +17,7 @@ public class MIIronCountyParser extends DispatchOSSIParser {
 
   public MIIronCountyParser(String defCity, String defState) {
     super(defCity, defState,
-          "CALL ( PLACE ADDR2 | ADDR | PLACE ADDR ) X+? INFO+? SRC");
+          "CALL ( PLACE ADDR2 | ADDR | PLACE ADDR ) X+? INFO+? UNIT");
   }
   
   @Override
@@ -46,7 +46,7 @@ public class MIIronCountyParser extends DispatchOSSIParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR2")) return new MyAddress2Field();
-    if (name.equals("SRC")) return new SourceField("\\d+[A-Z]+", true);
+    if (name.equals("UNIT")) return new UnitField("[A-Z]?\\d+[A-Z]+", true);
     return super.getField(name);
   }
   

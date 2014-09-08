@@ -292,6 +292,7 @@ class Active911Vendor extends Vendor {
       "US/MI/BayCounty",                  "MIBayCountyB",
       "US/MI/CalhounCounty",              "MICalhounCounty",
       "US/MI/CharlevoixCounty",           "MICharlevoixCounty",
+      "US/MI/Chippewa",                   "MIChippewaCounty",
       "US/MN/CrowWingCounty",             "MNCrowWingCounty",
       "US/MN/GoodhueCounty",              "MNGoodhueCounty",
       "US/MI/EatonCounty",                "MIEatonCounty",
