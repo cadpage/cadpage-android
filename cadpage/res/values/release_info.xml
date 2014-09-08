@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">09062014</string>
-  <string name="release_version">v1.7.41</string>
+  <string name="release_date">09082014</string>
+  <string name="release_version">v1.7.42</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -15,13 +15,16 @@ Fairfield, OH\n
 Hancock County, OH\n
 \n
 Location Parsing Fixes:\n
+Larimer County, CO\n
 St Charles County, MO\n
 St Louis County, MO\n
 Craven County, NC\n
+New Hanover County, NC\n
 Pitt County, NC\n
 Muskingum County, OH\n
 Oklahoma County, OK\n
 Erie County, PA\n
+Mercer County, PA\n
 Campbell County, TN\n
 Pierce County, WA\n
   </string>
