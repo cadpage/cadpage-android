@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class COLarimerCountyAParser extends FieldProgramParser {
   
-  private static final Pattern TEXT_MARKER_PTN = Pattern.compile("([A-Z]+) +\\(([A-Z]+)\\) +(.*)");
+  private static final Pattern TEXT_MARKER_PTN = Pattern.compile("([A-Z]+) +\\(([A-Z]+)\\) *(.*)");
   
   private static final Pattern RUN_REPORT_PTN = Pattern.compile(".{30} *(?:- )?([A-Z0-9]+) +\\(TIMES\\) +(?:Rec'd|Received).* Run ?#[- ]+(\\d+)\\b.*");
   
@@ -20,7 +20,7 @@ public class COLarimerCountyAParser extends FieldProgramParser {
   }
   
   public String getFilter() {
-    return "@notifyall.com,2082524629";
+    return "@notifyall.com,2082524629,4702193642,CommPaging@ci.loveland.co.us";
   }
 
   @Override
@@ -74,7 +74,7 @@ public class COLarimerCountyAParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("APT")) return new AptField("Apt/Lot\\b *(.*)", true);
+    if (name.equals("APT")) return new AptField("Apt/Lot *(.*)", true);
     return super.getField(name);
   }
 }
