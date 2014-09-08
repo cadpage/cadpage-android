@@ -274,6 +274,7 @@ class Active911Vendor extends Vendor {
       "US/LA/LafourcheParish",            "LALafourcheParish",
       "US/LA/TerrebonneParish",           "LATerrebonneParish",
       "US/LA/WestBatonRougeCouncil",      "LAWestBatonRougeParish",
+      "US/ME/YorkCounty",                 "MEYorkCounty",
       "US/MD/CalvertCounty",              "MDCalvertCounty",
       "US/MD/CecilCounty",                "Cadpage2",
       "US/MD/CharlesCounty",              "MDCharlesCountyA",
