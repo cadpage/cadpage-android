@@ -39,6 +39,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
   // Flag indicating we should not check for implied non-numeric apartments
   public static final int DSFLAG_NO_IMPLIED_APT = 0x100;
   
+  // Flag indicating call description follows address
+  public static final int DSFLAG_FOLLOW_CALL = 0x200;
+  
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
   private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
   private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-0-9]+)$");
@@ -57,6 +60,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private boolean inclCrossNamePhone;
   private boolean noNamePhone;
   private boolean impliedApt;
+  private boolean inclCall;
   private CodeSet callSet;
   private Pattern unitPtn;
   
@@ -86,6 +90,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     this.inclCrossNamePhone = (flags & DSFLAG_CROSS_NAME_PHONE) != 0;
     this.impliedApt = (flags & DSFLAG_NO_IMPLIED_APT) == 0;
     this.noNamePhone = (flags & DSFLAG_NO_NAME_PHONE) != 0;
+    this.inclCall = (flags & DSFLAG_FOLLOW_CALL) != 0;
     this.unitPtn = (unitPtnStr == null ? null : Pattern.compile(unitPtnStr));
     
     
@@ -94,6 +99,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     sb.append("ADDR/S");
     if (impliedApt) sb.append('6');
     if (inclPlace) sb.append('P');
+    if (inclCall) sb.append(" CALL");
     if (inclCross || inclCrossNamePhone) sb.append(" X?");
     if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE?");
     sb.append(" CODE+? PARTCODE?");
@@ -111,7 +117,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (!inclCross && !noNamePhone) sb.append(" NAME PHONE");
     sb.append(" CODE ID TIME");
     if (unitId) sb.append(" UNIT");
-    sb.append(" CALL INFO");
+    if (!inclCall) sb.append(" CALL");
+    sb.append(" INFO");
     defaultFieldList = sb.toString();
   }
 
@@ -127,7 +134,6 @@ public class DispatchSouthernParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
     
     // Message must always start with dispatcher ID, which we promptly discard
     if (leadDispatch || optDispatch) {
@@ -222,8 +228,13 @@ public class DispatchSouthernParser extends FieldProgramParser {
       sLeft = sLeft.substring(0,match.start()).trim();
     }
     
+    // If this is a (misused) call description, make it so
+    if (inclCall) {
+      data.strCall = sLeft;
+    }
+    
     // if cross street information follows the address, process that
-    if (inclCross) {
+    else if (inclCross) {
       match = EXTRA_CROSS_PTN.matcher(sLeft);
       if (match.matches()) {
         parseAddress(match.group(1), data);
@@ -277,6 +288,11 @@ public class DispatchSouthernParser extends FieldProgramParser {
         data.strUnit = unit;
         sExtra = p.get();
       }
+    }
+    
+    if (inclCall) {
+      data.strSupp = sExtra;
+      return;
     }
     
     if (callSet != null) {
