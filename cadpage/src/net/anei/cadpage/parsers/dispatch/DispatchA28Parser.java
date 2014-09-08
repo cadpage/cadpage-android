@@ -27,7 +27,7 @@ public class DispatchA28Parser extends FieldProgramParser {
     body = body.substring(match.end()).trim();
     
     // Calls come in two forms.  The easy one has nice line break delimiters
-    String[] flds = body.split("\n");
+    String[] flds = body.split("\n+");
     if (flds.length == 1) return oldParseMsg(body, data); 
     return parseFields(flds, data);
   }
