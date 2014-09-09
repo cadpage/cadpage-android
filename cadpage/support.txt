@@ -3642,10 +3642,6 @@ all of the information we should need to track down the problem with
 this message.  You can get the same menu options from the call history
 screen by long pressing one of the call entries.
 
-
-***********************************************************************
-Useful search expressions
-^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)
 *************************************************************************
 Using Cadpage on a tablet
 
@@ -3677,3 +3673,7 @@ this address. Then fill in the address of your department IT person and
 send it.
 
 Good luck,
+
+***********************************************************************
+Useful search expressions
+^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)
