@@ -11,6 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DispatchA28Parser extends FieldProgramParser {
   
   private static final Pattern CALL_ID_PATTERN = Pattern.compile("^\\d\\d-\\d{6} ");
+  private static final Pattern DELIM = Pattern.compile("\\n+[ \\n]*");
   
   public DispatchA28Parser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
@@ -27,7 +28,7 @@ public class DispatchA28Parser extends FieldProgramParser {
     body = body.substring(match.end()).trim();
     
     // Calls come in two forms.  The easy one has nice line break delimiters
-    String[] flds = body.split("\n+");
+    String[] flds = DELIM.split(body);
     if (flds.length == 1) return oldParseMsg(body, data); 
     return parseFields(flds, data);
   }
