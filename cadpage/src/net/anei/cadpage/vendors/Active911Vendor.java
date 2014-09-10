@@ -145,6 +145,7 @@ class Active911Vendor extends Vendor {
       "CA/AB/ClearwaterCounty",           "ZCAABClearwaterCounty",
       "CA/AB/highriver",                  "ZCAABCanmore",
       "CA/BC/MidIsland",                  "ZCABCMidIslandRegion",
+      "CA/QC/Quebec",                     "ZCAQCQuebec",
       "NZ/NI/Auckland",                   "ZNZNewZealand",
       "NZ/NI/Northland",                  "ZNZNewZealand",
       "NZ/NI/Waikato",                    "ZNZNewZealand",

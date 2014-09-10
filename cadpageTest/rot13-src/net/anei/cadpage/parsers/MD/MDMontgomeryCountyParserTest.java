@@ -1171,7 +1171,27 @@ choyvp pynff ZQZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:SF18");
 
   }
-  
+
+  @Grfg
+  choyvp ibvq grfgUlnggfivyyrISQ() {
+
+    qbGrfg("G1",
+        "(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 0203 * CVP - OYF * 810 HAVIREFVGL OYI R / 898 ONLSVRYQ FG ,ZPT  * N702 G716 EF801 R702 RPP1\a\a" +
+        "Frag ol Zbagtbzrel PNQ gb G716, N702, SF02, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a" +
+        "\e\a" +
+        "...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
+        "----\e\a" +
+        "- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi",
+
+        "OBK:0203",
+        "PNYY:CVP - OYF",
+        "NQQE:810 HAVIREFVGL OYI R & 898 ONLSVRYQ FG",
+        "ZNQQE:810 HAVIREFVGL OYIQ R",
+        "HAVG:N702 G716 EF801 R702 RPP1",
+        "FEP:SF02");
+
+  }
+ 
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj ZQZbagtbzrelPbhaglCnefreGrfg().trarengrGrfgf("G1");
