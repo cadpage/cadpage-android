@@ -33,7 +33,7 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "FASTalert System,.fastalerting.com";
+    return "FASTalert System,.fastalerting.com,Volunteer25@co.pg.md.us";
   }
   
   @Override

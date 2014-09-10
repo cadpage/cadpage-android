@@ -11,6 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class MDPrinceGeorgesCountyEParser extends MDPrinceGeorgesCountyBaseParser {
   
+  private static final Pattern PREFIX_PTN = Pattern.compile("DISPATCH From [A-Z0-9]+: *");
   private static final Pattern ID_PTN = Pattern.compile("^(?:TR +|.* / )?(F\\d{6,}):");
   private static final Pattern TRAILER = Pattern.compile(" - From [A-Z0-9]+ (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)$");
   private static final Pattern AT_PTN = Pattern.compile("\\bAT\\b", Pattern.CASE_INSENSITIVE);
@@ -21,14 +22,17 @@ public class MDPrinceGeorgesCountyEParser extends MDPrinceGeorgesCountyBaseParse
   
   @Override
   public String getFilter() {
-    return "@alert.co.pg.md.us,@c-msg.net,14100,12101";
+    return "@alert.co.pg.md.us,@c-msg.net,14100,12101,@everbridge.net";
   }
   
   @Override
   public boolean parseMsg(String body, Data data) {
     
-    Matcher match = ID_PTN.matcher(body);
-    if (match.find()) {
+    Matcher match = PREFIX_PTN.matcher(body);
+    if (match.lookingAt()) body = body.substring(match.end());
+    
+    match = ID_PTN.matcher(body);
+    if (match.lookingAt()) {
       data.strCallId = match.group(1);
       body = body.substring(match.end()).trim();
     }
