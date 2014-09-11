@@ -114,6 +114,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (inclPlace) sb.append("PLACE ");
     sb.append("ADDR PLACE APT");
     sb.append(inclCross || inclCrossNamePhone ? " CITY X" : " X CITY");
+    if (inclCall) sb.append(" CALL");
     if (!inclCross && !noNamePhone) sb.append(" NAME PHONE");
     sb.append(" CODE ID TIME");
     if (unitId) sb.append(" UNIT");
