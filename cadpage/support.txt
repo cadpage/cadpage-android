@@ -3711,4 +3711,3 @@ showing up in your message inbox.
 ***********************************************************************
 Useful search expressions
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)
-*

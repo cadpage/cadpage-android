@@ -34,6 +34,18 @@ public class DispatchA18Parser extends FieldProgramParser {
     if (pt >= 0) sAddress = sAddress.substring(0,pt).trim();
     return sAddress;
   }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("BOX")) return new MyBoxField();
+    if (name.equals("DASHES")) return new SkipField("-{5,}", true);
+    if (name.equals("DATETIME")) return new DateTimeField("(\\d\\d.\\d\\d.\\d{4} \\d\\d:\\d\\d:\\d\\d) :.*", true);
+    if (name.equals("SRC")) return new MySourceField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
 
   private static final Pattern DELIM_PTN = Pattern.compile("[-/,]");
   private static final Pattern BOX_PTN = Pattern.compile("^BOX *(\\d+)", Pattern.CASE_INSENSITIVE);
@@ -128,8 +140,10 @@ public class DispatchA18Parser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       field = field.replace("//", "/");
-      if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
-      if (field.endsWith("/NULL")) field = field.substring(0,field.length()-5).trim();
+      if (field.equals("0/0")) field = "";
+      field = stripFieldEnd(field, "/");
+      field = stripFieldEnd(field, "/NULL");
+      field = stripFieldEnd(field, "/0");
       data.strCross = append(data.strCross, "/", field);
     }
   }
@@ -168,15 +182,4 @@ public class DispatchA18Parser extends FieldProgramParser {
       data.strSource = append(data.strSource, " ", field.replace(' ', '_'));
     }
   }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("BOX")) return new MyBoxField();
-    if (name.equals("DASHES")) return new SkipField("-{5,}", true);
-    if (name.equals("DATETIME")) return new DateTimeField("(\\d\\d.\\d\\d.\\d{4} \\d\\d:\\d\\d:\\d\\d) :.*", true);
-    if (name.equals("SRC")) return new MySourceField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
-  }}
+}
