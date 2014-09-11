@@ -1,47 +1,51 @@
 package net.anei.cadpage.parsers.OH;
 
-import net.anei.cadpage.parsers.dispatch.DispatchA40Parser;
+import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
-public class OHBelmontCountyParser extends DispatchA40Parser {
+public class OHBelmontCountyParser extends DispatchEmergitechParser {
 
   public OHBelmontCountyParser() {
-    super(CITY_LIST, "BELMONT COUNTY", "OH");
+    super("BelmontCounty911:", 77, CITY_LIST, "BELMONT COUNTY", "OH");
   }
 
   
   private static final String[] CITY_LIST = new String[] { 
+    // Cities
+    "MARTINS FERRY",
+    "ST CLAIRSVILLE",
 
-    "ST. CLAIRSVILLE",
+    // Villages
     "BARNESVILLE",
     "BELLAIRE",
     "BELMONT",
     "BETHESDA",
     "BRIDGEPORT",
     "BROOKSIDE",
-    "COLERAIN",
     "FAIRVIEW",
     "FLUSHING",
-    "GOSHEN",
     "HOLLOWAY",
-    "KIRKWOOD",
-    "MARTINS FERRY",
-    "MEAD",
     "MORRISTOWN",
-    "PEASE",
     "POWHATAN POINT",
-    "PULTNEY",
-    "RICHLAND",
     "SHADYSIDE",
-    "SMITH",
-    "SOMERSET",
-    "ST. CLAIRSVILLE",
-    "UNION",
-    "WARREN",
-    "WASHINGTON",
-    "WAYNE",
-    "WHEELING",
     "WILSON",
-    "YORK",
-    "YORKVILLE"
+    "YORKVILLE",
+
+    // Townships
+    "COLERAIN TWP",
+    "FLUSHING TWP",
+    "GOSHEN TWP",
+    "KIRKWOOD TWP",
+    "MEAD TWP",
+    "PEASE TWP",
+    "PULTNEY TWP",
+    "RICHLAND TWP",
+    "SMITH TWP",
+    "SOMERSET TWP",
+    "UNION TWP",
+    "WARREN TWP",
+    "WASHINGTON TWP",
+    "WAYNE TWP",
+    "WHEELING TWP",
+    "YORK TWP"
   };
 }
