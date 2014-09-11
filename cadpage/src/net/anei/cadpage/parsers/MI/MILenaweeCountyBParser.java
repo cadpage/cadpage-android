@@ -4,7 +4,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA9Parser;
 
 
 /**
- * Lenawee County, MI
+ * Lenawee County, MI (B)
  */
 public class MILenaweeCountyBParser extends DispatchA9Parser {
   

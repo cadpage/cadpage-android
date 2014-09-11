@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchArchonixParser;
 
 
 /**
- * Shasta County, CA
+ * Shasta County, CA (B)
  */
 public class CAShastaCountyBParser extends DispatchArchonixParser {
   
