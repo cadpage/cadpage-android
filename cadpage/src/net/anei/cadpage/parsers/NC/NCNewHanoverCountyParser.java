@@ -22,6 +22,14 @@ public class NCNewHanoverCountyParser extends DispatchOSSIParser {
   }
   
   @Override
+  protected boolean parseMsg(String body, Data data) {
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    if (!body.startsWith("CAD:")) body = "CAD:" + body;
+    return super.parseMsg(body, data);
+  }
+
+  @Override
   protected Field getField(String name) {
     if (name.equals("CH2")) return new MyChannel2Field();
     if (name.equals("EXTRA2")) return new MyExtra2Field();
