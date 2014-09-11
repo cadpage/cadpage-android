@@ -3673,7 +3673,42 @@ this address. Then fill in the address of your department IT person and
 send it.
 
 Good luck,
+***********************************************************************
+update on Active911 and Cadpage affiliation
+
+There are a lot of advantages to using Active911.  We used to be their
+only Android client, but since they launched their own Android app last
+year and started writing their own text parsers we have been drifting apart.
+
+Their service is quite good.  They have an IPhone app which we do not.
+For users with an Android phones, you can use their Android app or our
+Cadpage app with their service.  The android apps are more or less
+equivalent.  The only real advantage of using the Cadpage app is that
+you get to see results using Cadpage text parsers instead of Active911
+parsers.  There are some page formats where the differences can be
+significant, especially when the page format does not do a good job of
+clearly separating different data fields.  As luck would have it, your
+page format is nicely delimited and Active911 parser results are likely
+to be as good you would get using a Cadpage parser.
+
+You should contact them about getting their service set up.  They will
+have to set up their own parser duplicating the effort I use to set up a
+Cadpage parser.  This is unfortunate, but it the result of business
+decisions that we have both made and there is nothing you can do about it.
+************************************************************************
+Free version download
+
+Ken pulled the free version of Cadpage from the Play Store because too
+many users would install it first, and then try to contact us for help
+using it.  Only to be told that that version was not supported.  It is
+still around and can be installed from our download page at
+http://www.cadpage.org/download-cadpage.  You can keep using it as long
+as it works for you, but it hasn't been updated for over 2 years and
+will not support direct paging vendors.  Which becomes a problem once
+you install Android 4.4 and Cadpage can no longer block text alerts from
+showing up in your message inbox.
 
 ***********************************************************************
 Useful search expressions
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)
+*

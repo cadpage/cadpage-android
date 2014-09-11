@@ -199,6 +199,7 @@ public class ParserList {
               ,"COLarimerCounty"                ,"Larimer County, CO"
               ,"COMemorialStar"                 ,"Memorial Star, CO"
               ,"COMesaCounty"                   ,"Mesa County, CO"
+              ,"COMorganCounty"                 ,"Morgan County, CO"
               ,"CONorthglennEMS"                ,"Northglenn EMS, CO"
               ,"COPitkinCounty"                 ,"Pitkin County, CO"
               ,"COPuebloCounty"                 ,"Pueblo County, CO"
@@ -484,6 +485,7 @@ public class ParserList {
               ,"MIOaklandCounty"                ,"Oakland County, MI"
               ,"MIRichmond"                     ,"Richmond, MI"
               ,"MISaginawCounty"                ,"Saginaw County, MI"
+              ,"MIShiawasseeCounty"             ,"Shiawassee County, MI"
               ,"MIStClairCounty"                ,"St Clair County, MI"
           ),
           new ParserCategory("Minnesota"
@@ -541,6 +543,7 @@ public class ParserList {
               ,"MOLawrenceCounty"               ,"Lawrence County, MO"
               ,"MOLincolnCounty"                ,"Lincoln County, MO"
               ,"MOMonett"                       ,"Monett, MO"
+              ,"MOMoniteauCounty"               ,"Moniteau County, MO"
               ,"MONewtonCounty"                 ,"Newton County, MO"
               ,"MOOsageCounty"                  ,"Osage County, MO"
               ,"MOPettisCounty"                 ,"Pettis County, MO"
@@ -607,6 +610,7 @@ public class ParserList {
           ),
           new ParserCategory("New York"
               ,"NYAlbanyCounty"                 ,"Albany County, NY"
+              ,"NYAlleganyCounty"               ,"Allegany County, NY"
               ,"NYBroomeCounty"                 ,"Broome County, NY"
               ,"NYBuffalo"                      ,"Buffalo, NY"
               ,"NYCattaraugusCounty"            ,"Cattaraugus County, NY"
@@ -1006,6 +1010,9 @@ public class ParserList {
               ,"UTDavisCounty"                  ,"Davis County, UT"
               ,"UTSaltLakeCounty"               ,"Salt Lake County, UT"
               ,"UTSummitCounty"                 ,"Summit County, UT"
+          ),
+          new ParserCategory("Vermont"
+             ,"VTHartford"                       ,"Hartford, VT"
           ),
           new ParserCategory("Virginia"
               ,"VAAccomackCounty"               ,"Accomack County, VA"

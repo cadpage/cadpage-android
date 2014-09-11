@@ -6,6 +6,9 @@ vzcbeg bet.whavg.Grfg;
 
 
 /*
+ * 
+Zbavgrnh Pbhagl, ZB
+ 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Wnzrfgbja Eheny Sver Cebgrpgvba Qvfgevpg
 Ybpngvba: Wnzrfgbja, ZB, Havgrq Fgngrf
