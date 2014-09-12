@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Adams County, PA
+ * Quebec, QC, CA
  */
 public class ZCAQCQuebecParser extends FieldProgramParser {
   

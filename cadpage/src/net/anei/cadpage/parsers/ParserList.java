@@ -213,6 +213,7 @@ public class ParserList {
               ,"CTBloomfield"                   ,"Bloomfield, CT"
               ,"CTBrookfield"                   ,"Brookfield, CT"
               ,"CTColchesterEmergComm"          ,"Colchester Emergency Communications, CT"
+              ,"CTEastLyme"                     ,"East Lyme, CT"
               ,"CTFairfieldCounty"              ,"Fairfield County, CT"
               ,"CTGroton"                       ,"Groton, CT"
               ,"CTHartfordCounty"               ,"Hartford County, CT"
@@ -471,6 +472,7 @@ public class ParserList {
               ,"MICalhounCounty"                ,"Calhoun County, MI"
               ,"MICharlevoixCounty"             ,"Charlevoix County, MI"
               ,"MICheboyganCounty"              ,"Cheboygan County, MI"
+              ,"MIChippewaCounty"               ,"Chippewa County, MI"
               ,"MIEatonCounty"                  ,"Eaton County, MI"
               ,"MIEmmetCounty"                  ,"Emmet County, MI"
               ,"MIGrandTraverseCounty"          ,"Grand Traverse County, MI"
@@ -738,6 +740,7 @@ public class ParserList {
               ,"NCUnionCounty"                  ,"Union County, NC"
               ,"NCVanceCounty"                  ,"Vance County, NC"  
               ,"NCWakeCounty"                   ,"Wake County, NC"
+              ,"NCWarrenCounty"                 ,"Warren County, NC"
               ,"NCWataugaCounty"                ,"Watauga County, NC"
               ,"NCWayneCounty"                  ,"Wayne County, NC"
               ,"NCWilkesCounty"                 ,"Wilkes County, NC"
@@ -962,6 +965,7 @@ public class ParserList {
               ,"TXBrazoriaCounty"               ,"Brazoria County, TX"
               ,"TXCarrollton"                   ,"Carrollton, TX"
               ,"TXCollinCounty"                 ,"Collin County, TX"
+              ,"TXCrowley"                      ,"Crowley, TX"
               ,"TXCyCreekCommCenter"            ,"Cy Creek Comm Center, TX"
               ,"TXCyFair"                       ,"Cypress-Harris, TX"
               ,"TXDecatur"                      ,"Decatur, TX"
@@ -1138,6 +1142,9 @@ public class ParserList {
           ),
           new ParserCategory("Ontario, CA"
               ,"ZCAONMississauga"               ,"Mississauga, ON"
+          ),
+          new ParserCategory("Quebec, CA"
+              ,"ZCAQCQuebec"                    ,"Quebec, QC"
           ),
           new ParserCategory("Australia"
               ,"ZAUNewSouthWales"               ,"New South Wales, AU"
