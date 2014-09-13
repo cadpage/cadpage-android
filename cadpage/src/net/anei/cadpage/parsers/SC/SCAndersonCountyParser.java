@@ -13,7 +13,7 @@ public class SCAndersonCountyParser extends DispatchB2Parser {
   private static final Pattern UNIT_PTN = Pattern.compile("^(?:ANDERSON CO 911|AND 911|active911|([-a-z0-9]+)):");
  
   public SCAndersonCountyParser() {
-    super(CITY_CODES, "ANDERSON COUNTY", "SC");
+    super(CITY_LIST, "ANDERSON COUNTY", "SC");
   }
   
   @Override
@@ -102,7 +102,7 @@ public class SCAndersonCountyParser extends DispatchB2Parser {
     return sAddress.replace("SIX_AND_TWENTY", "SIX AND TWENTY").replace("D_AND_M", "D AND M");
   }
 
-  private static final String[] CITY_CODES = new String[]{
+  static final String[] CITY_LIST = new String[]{
     "ANDERSON", 
     "BELTON", 
     "CLEMSON", 
@@ -125,6 +125,9 @@ public class SCAndersonCountyParser extends DispatchB2Parser {
     "PENDLETON",
     
     // Greenville County
-    "GREENVILLE"
+    "GREENVILLE",
+    
+    // Oconee County
+    "FAIR PLAY"
   };
 }
