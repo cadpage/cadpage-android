@@ -24,7 +24,7 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@cce911.org,paging@cce911.org";
+    return "dispatch@cce911.org,paging@cce911.org,93001";
   }
   
   @Override
@@ -34,8 +34,6 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    
-    if (!subject.equals("CCE911 Page") && !subject.equals("CAD Paging")) return false;
     
     if (BAD_MSG_PTN.matcher(body).matches()) return false;
     
