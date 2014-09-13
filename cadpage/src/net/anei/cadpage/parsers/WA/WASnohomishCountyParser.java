@@ -13,7 +13,7 @@ public class WASnohomishCountyParser extends FieldProgramParser {
   
   public WASnohomishCountyParser() {
     super("SNOHOMISH COUNTY", "WA",
-           "CALL ADDR MAP CH MAP UNIT! INFO+");
+           "( UNIT CALL ADDR PLACE MAP! | CALL ADDR MAP CH MAP UNIT! ) INFO+");
   }
   
   @Override
@@ -31,6 +31,7 @@ public class WASnohomishCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("UNIT")) return new UnitField("(?:\\b(?:[A-Z]+\\d+[A-Z]?)\\b *)+");
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
@@ -40,9 +41,11 @@ public class WASnohomishCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       int pt = field.lastIndexOf(',');
-      if (pt < 0) abort();
-      data.strCity = convertCodes(field.substring(pt+1).trim(), CITY_CODES);
-      super.parse(field.substring(0,pt).trim(), data);
+      if (pt >= 0) {
+        data.strCity = convertCodes(field.substring(pt+1).trim(), CITY_CODES);
+        field = field.substring(0,pt).trim();
+      }
+      super.parse(field, data);
     }
     
     @Override
@@ -58,6 +61,14 @@ public class WASnohomishCountyParser extends FieldProgramParser {
       super.parse(field, data);
     }
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    // Usually PK means PIKE, but not here
+    addr = PK_PTN.matcher(addr).replaceAll("PKWY");
+    return super.adjustMapAddress(addr);
+  }
+  private static final Pattern PK_PTN = Pattern.compile("\\bPK\\b", Pattern.CASE_INSENSITIVE);
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "GRF", "GRANITE FALLS",
