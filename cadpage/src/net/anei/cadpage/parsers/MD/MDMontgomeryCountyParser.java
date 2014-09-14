@@ -89,7 +89,11 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
       "CV",  "CHEVY CHASE",
       "DC",  "DC",
       "FH",  "FRIENDSHIP HEIGHTS",
+      "FRED", "FREDERICK COUNTY",
       "GA",  "GAITHERSBURG",
+      "HC",  "HOWARD COUNTY",
+      "KE",  "KENSINGTON",
+      "LA",  "LAYTONSVILLE",
       "MCG", "",
       "NC",  "NORTH CHEVY CHASE",
       "PG",  "PRINCE GEORGES COUNTY",
@@ -97,35 +101,6 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
       "RO",  "ROCKVILLE",
       "SS",  "SILVER SPRING",
       "TP",  "TACOMA PARK"
+      
   });
 }
-/***
-valid units consist of specific prefix followed by 3 digits.
-
-A – Ambulance (BLS EMS Transport Unit)
-AB – Air Boat
-ALS – ALS Chase Car
-AR – Air Unit
-AT – Tower (Aerial Tower)
-BC – Battalion Chief
-DC – Duty Chief
-E – Engine
-ECC CAD – Emergency Communication Center CAD dispatch console
-EMS – EMS Supervisor
-EW – Engine Tanker
-HM – Haz Mat
-HSU – Haz Mat Support Unit
-M – Medic (ALS EMS Transport Unit)
-MAB – Medical Ambulance Bus (20 patient EMS transport unit)
-MSU – Medical Support Unit (Mass casualty EMS supplies)
-NCR – National Capital Region Communications Unit
-RAT – Reserve Aerial Tower
-RE – Reserve Engine
-RECON – Urban Search & Rescue Recon Unit
-RS – Rescue Squad (Heavy Rescue)
-SOP – Special Operations Chief
-T – Truck
-U – Unit
-W – Tanker (Water Tender)
-XTP – Urban Search & Rescue Roll-off Transport Unit
-***/  
