@@ -4,7 +4,7 @@ import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
 /**
- * Kershire County, SC
+ * Kershaw County, SC
  */
 public class SCKershawCountyParser extends DispatchA48Parser {
   

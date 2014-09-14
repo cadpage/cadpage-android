@@ -419,6 +419,7 @@ public class ParserList {
               ,"LABeauregardParish"             ,"Beauregard Parish, LA"
               ,"LAEastFelicianaParish"          ,"East Feliciana Parish, LA"
               ,"LAJeffersonParish"              ,"Jefferson Parish, LA"
+              ,"LALafayetteParish"              ,"Lafayette Parish, LA"
               ,"LALafourcheParish"              ,"Lafourche Parish, LA"
               ,"LAStCharlesParish"              ,"St Charles Parish, LA"
               ,"LAStTammanyParish"              ,"St Tammany Parish, LA"
