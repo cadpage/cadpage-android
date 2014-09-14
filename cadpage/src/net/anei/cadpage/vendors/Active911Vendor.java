@@ -186,7 +186,7 @@ class Active911Vendor extends Vendor {
       "US/CA/OrovillePD",                 "CAPlacerCounty",
       "US/CA/CityofPasoRobles",           "CAPasoRobles",
       "US/CA/SacramentoFire",             "CASacramentoCounty",
-      "US/CA/SanBernardinoCounty",        "CASanBernardinoCounty",
+      "US/CA/SanBernardinoCounty",        "CASanBernardinoCountyA",
       "US/CA/SantaClaraCounty",           "CASantaClaraCountyB",
       "US/CA/SantaCruzCounty",            "CASantaCruzCounty",
       "US/CA/SantaCruzlimited",           "CASantaCruzCounty",
