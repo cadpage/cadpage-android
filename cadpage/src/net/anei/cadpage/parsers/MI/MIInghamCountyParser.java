@@ -11,7 +11,7 @@ public class MIInghamCountyParser extends DispatchA3Parser{
   private static final Pattern PLACE_INFO_PTN = Pattern.compile("([ A-Z]+?) +([a-z].*)");
 
   public MIInghamCountyParser() {
-    super("InghamCO:", "INGHAM COUNTY", "MI", "ID ADDR APT APT CITY! Line6:X! Line7:X! Line8:MAP! Line9:INFO1! Line10:CALL! Line11:CALL! Line12:NAME Line13:PHONE Line14:UNIT Line15:MAP Line16:INFO Line17:INFO Line18:INFO");
+    super("InghamCO:", "INGHAM COUNTY", "MI", "ID ADDR APT APT CITY! Line6:X! Line7:X! Line8:MAP! Line9:INFO1! Line10:CALL! Line11:CALL! Line12:NAME Line13:PHONE Line14:UNIT Line15:MAP Line16:INFO/N Line17:INFO/N Line18:INFO/N");
 
   }
   
@@ -20,11 +20,13 @@ public class MIInghamCountyParser extends DispatchA3Parser{
     setBreakChar('=');
     if (!super.parseMsg(body, data)) return false;
     
+    data.strSupp = data.strSupp.replace(" / ", "\n");
+    
     // Landmark fields often contain upper case place name followed by lower case information
     Matcher match = PLACE_INFO_PTN.matcher(data.strPlace);
     if (match.matches()) {
       data.strPlace = match.group(1);
-      data.strSupp = append(data.strSupp, " / ", match.group(2));
+      data.strSupp = append(data.strSupp, "\n", match.group(2));
     }
     return true;
   }
