@@ -25,8 +25,7 @@ public class PADelawareCountyBParser extends FieldProgramParser {
   
   public PADelawareCountyBParser() {
     super(CITY_CODES, "DELAWARE COUNTY", "PA",
-          "( SELECT/1 ( ADDR:ADDR! CITY:CITY? CALL:CALL! DATE:DATE TIME:TIME ID:ID INFO:INFO/N+ | " +
-                       "ADDR CITY/Z? CALL DATE TIME ID INFO/N+? ALERT! END ) " +
+          "( SELECT/1 ADDR CITY/Z? CALL DATE TIME ID INFO/N+? ALERT! END " +
           "| ADDR2/S X1:XADDR? X2:X? Nature:CALL2! Time:TIME2 Notes:INFO? Inc:ID2 )");
   }
   
@@ -37,6 +36,9 @@ public class PADelawareCountyBParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    
+    // Block version G calls here
+    if (body.startsWith("ADDR:")) return false;
 
     if (subject.equals("New Alert")) {
       select = "1";

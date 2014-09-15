@@ -6336,7 +6336,7 @@ choyvp pynff ZQZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:1708",
         "PNYY:EBHGVAR GENAFCBEG",
         "NQQE:21400 YNLGBAFIVYYR EQ",
-        "PVGL:YNGBAFIVYYR",
+        "PVGL:YNLGBAFIVYYR",
         "CYNPR:FGNGVBA 17",
         "HAVG:N717",
         "FEP:SF17");
@@ -6485,7 +6485,7 @@ choyvp pynff ZQZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:1708",
         "PNYY:GENAFSRE",
         "NQQE:21400 YNLGBAFIVYYR EQ",
-        "PVGL:YNGBAFIVYYR",
+        "PVGL:YNLGBAFIVYYR",
         "CYNPR:FGNGVBA 17",
         "HAVG:RPP25 R740",
         "FEP:SF17");
@@ -6704,7 +6704,7 @@ choyvp pynff ZQZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:1708",
         "PNYY:SEF - OYF (FCPSL VA EZXF)",
         "NQQE:21400 YNLGBAFIVYYR EQ",
-        "PVGL:YNGBAFIVYYR",
+        "PVGL:YNLGBAFIVYYR",
         "CYNPR:FGNGVBA 17",
         "HAVG:N717",
         "FEP:SF17");
@@ -12311,7 +12311,7 @@ choyvp pynff ZQZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:SE00",
         "PNYY:ZHGHNY NVQ SHYY",
         "NQQE:8827 QBPGBE CREEL EQ",
-        "PVGL:SERQEVPX PBHAGL",
+        "PVGL:SERQREVPX PBHAGL",
         "HAVG:OP705");
 
     qbGrfg("G7",
@@ -12325,7 +12325,7 @@ choyvp pynff ZQZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:SE00",
         "PNYY:ZHGHNY NVQ SHYY",
         "NQQE:8827 QBPGBE CREEL EQ",
-        "PVGL:SERQEVPX PBHAGL",
+        "PVGL:SERQREVPX PBHAGL",
         "HAVG:Q9");
 
     qbGrfg("G8",

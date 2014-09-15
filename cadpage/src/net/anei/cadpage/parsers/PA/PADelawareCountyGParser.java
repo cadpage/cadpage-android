@@ -38,6 +38,7 @@ public class PADelawareCountyGParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       field = field.replace('~', ' ').trim().replaceAll("  +", " ");
+      super.parse(field, data);
     }
   }
 }
