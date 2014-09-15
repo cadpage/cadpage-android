@@ -14,6 +14,11 @@ public class XXAcadianAmbulanceParser extends FieldProgramParser {
   }
   
   @Override
+  public String getAliasCode() {
+    return "XXAcadianAmbulance";
+  }
+
+  @Override
   public String getFilter() {
     return "commcenter@acadian.com";
   }
@@ -26,7 +31,7 @@ public class XXAcadianAmbulanceParser extends FieldProgramParser {
     if (!match.find()) return false;
     data.strCallId = match.group(1);
     body = body.substring(match.end());
-    body = body.replace("Add:", " Add:").replace("APT:", " APT:").replace("City:", " City:").replace("Cnty:", " Cnty:");
+    body = body.replace("Loc:", " Loc:").replace("Add:", " Add:").replace("APT:", " APT:").replace("City:", " City:").replace("Cnty:", " Cnty:");
     if (!super.parseMsg(body, data)) return false;
     
     // There is one particular long, oft abbreviated road in Harris County, TX 
