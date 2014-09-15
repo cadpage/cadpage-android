@@ -18,7 +18,7 @@ public class COWeldCountyParser extends FieldProgramParser {
   }
   
   protected COWeldCountyParser(String defCity, String defState) {
-    super(defCity, defState,
+    super(CITY_CODES, defCity, defState,
           "SKIP ( CALL D | CALL2 ) ADDR MAP UNIT! INFO+");
   }
   
@@ -37,6 +37,16 @@ public class COWeldCountyParser extends FieldProgramParser {
     
     if (body.startsWith("Dispatch / ")) body = body.substring(11).trim();
     return parseFields(body.split("\n"), data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField(false);
+    if (name.equals("D")) return new SkipField("D", true);
+    if (name.equals("CALL2")) return new MyCallField(true);
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   private class MyCallField extends CallField {
@@ -63,29 +73,42 @@ public class COWeldCountyParser extends FieldProgramParser {
       return "CODE CALL";
     }
   }
-  
+
+  private static final Pattern ADDR_PL_CITY_PTN = Pattern.compile("([^,;]+?)(?:;(.*?))?(?:,([A-Z]{0,3}))?");
   private static final Pattern WCR_PTN = Pattern.compile("\\bWCR\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern APT_PTN = Pattern.compile("[A-Z]?\\d+[A-Z]?");
+  private static final Pattern APT_PTN = Pattern.compile("(?:APT|RM|ROOM) *(.*)|[A-Z]?\\d+[A-Z]?|LOT .*");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf(';');
-      if (pt >= 0) {
-        String sPlace = field.substring(pt+1).trim();
-        if (APT_PTN.matcher(sPlace).matches()) {
-          data.strApt = sPlace;
+      Matcher match = ADDR_PL_CITY_PTN.matcher(field);
+      if (!match.matches()) abort();  // Can not happen!!
+      
+      String addr = match.group(1).trim();
+      addr = WCR_PTN.matcher(addr).replaceAll("CR").replace('@', '&');
+      super.parse(addr, data);
+
+      String place = match.group(2);
+      if (place != null) {
+        place = place.trim();
+        Matcher match2 = APT_PTN.matcher(place);
+        if (match2.matches()) {
+          String apt = match2.group(1);
+          if (apt == null) apt = place;
+          if (!apt.equals(data.strApt)) {
+            data.strApt = append(data.strApt, "-", apt);
+          }
         } else {
-          data.strPlace = sPlace;
+          data.strPlace = place;
         }
-        field = field.substring(0,pt).trim();
       }
-      field = WCR_PTN.matcher(field).replaceAll("CR").replace('@', '&');
-      super.parse(field, data);
+      
+      String city = match.group(3);
+      if (city != null) data.strCity = convertCodes(city, CITY_CODES);
     }
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames() + " APT PLACE";
+      return super.getFieldNames() + " APT PLACE CITY";
     }
   }
   
@@ -105,16 +128,6 @@ public class COWeldCountyParser extends FieldProgramParser {
     public String getFieldNames() {
       return "CODE INFO";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField(false);
-    if (name.equals("D")) return new SkipField("D", true);
-    if (name.equals("CALL2")) return new MyCallField(true);
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
@@ -277,5 +290,37 @@ public class COWeldCountyParser extends FieldProgramParser {
       "WATER",           "WATER COMPLAINT",
       "WEAPON",          "PERSON WITH A WEAPON",
 
+  });
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ARO", "WELD COUNTY",    // Greeley??
+      "AUL", "AULT",
+      "BCO", "BOULDER COUNTY",
+      "DAC", "DACONO",
+      "EAT", "EATON",
+      "ERI", "ERIE",
+      "EVA", "EVANS",
+      "EVS", "EVANSTON",
+      "FIR", "FIRESTONE",
+      "FRE", "FREDERICK",
+      "GAL", "GALETON",
+      "GRE", "GREELEY",
+      "HUD", "HUDSON",
+      "HIL", "WELD COUNTY",   // In Greeley?
+      "JOH", "JOHNSTOWN",
+      "KER", "KERSEY",
+      "LAF", "LAFAYETTE",
+      "LAS", "LA SALLE",
+      "LCO", "LARIMER COUNTY",
+      "LOC", "LOCHBUIE",
+      "LON", "LONGMONT",
+      "LOV", "LOVELAND",
+      "MEA", "MEAD",
+      "MIL", "MILLIKEN",
+      "NIW", "NIWOT",
+      "PIE", "PIERCE",
+      "SEV", "SEVERANCE",
+      "WEL", "WELD COUNTY",
+      "WIN", "WINDSOR"
   });
 }
