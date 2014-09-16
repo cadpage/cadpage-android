@@ -509,6 +509,7 @@ class Active911Vendor extends Vendor {
       "US/PA/WayneCounty",                "PAWayneCounty",
       "US/PA/YorkCounty",                 "PAYorkCountyD",
       "US/SC/AndersonSheriff",            "SCAndersonCounty",
+      "US/SC/CherokeeCounty",             "SCherokeeCounty",
       "US/SC/DorchesterCounty",           "SCDorchesterCounty",
       "US/SC/GeorgetownCounty",           "SCGeorgetownCounty",
       "US/SC/HartsvilleFD",               "SCDarlingtonCounty",

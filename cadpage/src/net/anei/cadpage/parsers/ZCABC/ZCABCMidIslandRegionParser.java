@@ -29,12 +29,16 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
         "COLLEGE CAMPUS",
         "COMOX LAKE",
         "COUGAR SMITH",
+        "CROWN ISLE",
+        "CROWN ISLAND",
+        "DOLLY VARDEN",
         "FORBIDDEN PLATEAU",
         "GLACIER VIEW",
         "HORNE LAKE",
         "INLAND ISLAND",
         "IRON RIVER",
         "LAKE TRAIL",
+        "LITTLE RIVER",
         "LITTLE TRIBUNE BAY",
         "MACKENZIE BEACH",
         "MAPLE RIDGE",
@@ -45,6 +49,7 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
         "PORT ALBERNI",
         "PORT AGUSTA",
         "PT ALBERNI",
+        "SALMON POINT",
         "SEA LION",
         "SHINGLE SPIT",
         "ST ANNS",
@@ -101,7 +106,7 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
     return super.getField(name);
   }
 
-  private static final Pattern ADDR_GPS_PTN = Pattern.compile("(.*?) *(\\([^\\)A-Z]+\\))");
+  private static final Pattern ADDR_GPS_PTN = Pattern.compile("(.*?) *(\\([^\\)A-Za-z]+\\))");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -212,6 +217,7 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
       "RESCUE -MARINE",
       "RESCUE -SWIFT WATER",
       "RESCUE LOW ANGLE/BCAS ASSIST",
+      "RESCUE - ROAD",
       "RESCUE ROAD",
       "RESCUE",
       "STRUCTURE  - FIRE",
