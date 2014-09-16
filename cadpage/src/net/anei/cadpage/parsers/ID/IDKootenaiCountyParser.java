@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.ID;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -63,17 +64,32 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
   
   // INFO field skips anything starting with a date/time
   private static Pattern DATE_TIME_PTN = Pattern.compile("^\\d\\d:\\d\\d:\\d\\d: \\d\\d/\\d\\d/\\d\\d\\d\\d\\b");
+  private static Pattern GPS_PTN = Pattern.compile("CALLBACK=([-0-9\\(\\)]+) LAT=([-+]?\\d+\\.\\d{4,}) LON=([-+]?\\d+\\.\\d{4,}) UNC=\\d+");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       if (DATE_TIME_PTN.matcher(field).matches()) return;
+      
+      Matcher match = GPS_PTN.matcher(field);
+      if (match.matches()) {
+        data.strPhone = match.group(1);
+        setGPSLoc(match.group(2)+','+match.group(3), data);
+        return;
+      }
+      
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PHONE GPS INFO";
     }
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ATH", "ATHOL",
       "BA",  "BAYVIEW",
+      "BLA", "BLANCHARD",
       "CDA", "COEUR D'ALENE",
       "DG",  "DALTON GARDENS",
       "FL",  "FERNAN LAKE",
