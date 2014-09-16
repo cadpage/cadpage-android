@@ -47,11 +47,19 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
+    
+    qbGrfg(PNYY, SYNT_FGNEG_SYQ_ERD | SYNT_ARNE_GB_RAQ, "GENAFSBEZRE,YVARF QBJA @ ZHVEJBBQ TERRA NCGF",
+           "PNYY:GENAFSBEZRE,YVARF QBJA",
+           "NQQE:ZHVEJBBQ TERRA NCGF");
 
   }
 
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(PNYY, SYNT_FGNEG_SYQ_ERD | SYNT_ARNE_GB_RAQ, "GENAFSBEZRE,YVARF QBJA @ ZHVEJBBQ TERRA NCGF",
+           "PNYY:GENAFSBEZRE,YVARF QBJA",
+           "NQQE:ZHVEJBBQ TERRA NCGF");
     
     qbGrfg(NQQE, SYNT_VZCYVRQ_VAGREFRPG | SYNT_NAPUBE_RAQ, "HF 70 R UJL TNEARE EQ XRAFOHET",
            "NQQE:HF 70 R UJL & TNEARE EQ",

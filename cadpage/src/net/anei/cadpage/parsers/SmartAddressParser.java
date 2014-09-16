@@ -1524,7 +1524,8 @@ public abstract class SmartAddressParser extends MsgParser {
     // Check for any invalid tokens.  If we find any they mark the end of any
     // possible address
     if (!isFlagSet(FLAG_ANCHOR_END) || padField) {
-      for (int ndx = 0; ndx < endAddr; ndx++) {
+      int st = (startAddress >= 0 ? startAddress : 0);
+      for (int ndx = st; ndx < endAddr; ndx++) {
         if (isType(ndx, ID_NOT_ADDRESS)) {
           endAddr = ndx;
           break;

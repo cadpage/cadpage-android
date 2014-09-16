@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.WV;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -12,16 +13,17 @@ import net.anei.cadpage.parsers.dispatch.DispatchB3Parser;
  */
 public class WVHampshireCountyParser extends DispatchB3Parser {
   
+  private static final Pattern PREFIX_PTN = Pattern.compile("^(?:HAMPSHIRE911|HAMPCO911|HAM2038):");
   private static final Pattern COUNTY_PTN = Pattern.compile("^(HARDY|FRED|FREDERICK|MINERAL|ALLEGANY|MORGAN) ", Pattern.CASE_INSENSITIVE);
 
   public WVHampshireCountyParser() {
-    super("HAMPSHIRE911:", CITY_LIST, "HAMPSHIRE COUNTY", "WV");
+    super(PREFIX_PTN, CITY_LIST, "HAMPSHIRE COUNTY", "WV");
     setupCallList((CodeSet)null);
   }
   
   @Override
   public String getFilter() {
-    return "HAMPSHIRE911@frontier.com";
+    return "HAMPSHIRE911@frontier.com,HAMPSHIRE911@frontier.net,HAMPCO911@frontier.com,HAM2038@frontiernet.net";
   }
   
   @Override
@@ -55,6 +57,12 @@ public class WVHampshireCountyParser extends DispatchB3Parser {
         if (city.equals("FREDERICK")) data.strState = "VA";
         else if (city.equals("ALLEGANY")) data.strState = "MD";
       }
+    }
+    
+    // If we did find a city, see if it is one of our misspelled entries
+    else {
+      String city = MISTYPED_CITIES.getProperty(data.strCity.toUpperCase());
+      if (city !=  null) data.strCity = city;
     }
     
     if (data.strCallId.endsWith("`")) {
@@ -101,6 +109,7 @@ public class WVHampshireCountyParser extends DispatchB3Parser {
     "GOOD",
     "GRACE",
     "GREEN SPRING",
+        "GREENSPRING",   // Mistyped
     "HAINESVILLE",
     "HANGING ROCK",
     "HIGGINSVILLE",
@@ -129,6 +138,7 @@ public class WVHampshireCountyParser extends DispatchB3Parser {
     "PLEASANT DALE",
     "POINTS",
     "PURGITSVILLE",
+        "PURGITVILLE",    // Mistyped
     "RADA",
     "RAVEN ROCKS",
     "RIDGEDALE",
@@ -141,17 +151,34 @@ public class WVHampshireCountyParser extends DispatchB3Parser {
     "SLANESVILLE",
     "SOUTH BRANCH DEPOT",
     "SPRINGFIELD",
+        "SPARINGFIELD",  // Mistyped
     "THREE CHURCHES",
     "VANCE",
     "VANDERLIP",
     "WAPPOCOMO",
     "WOODROW",
     "YELLOW SPRING",
+        "YELLOW SPRIN",
+        "YELLOW SPRINGS",
     
     // Hardy County
     "WARDENSVILLE",
+        "WARDENSVILE",
+        
+    // Morgan County
+    "PAW PAW",
     
     // Mineral County
     "BURLINGTON",
   };
+  
+  private static final Properties MISTYPED_CITIES = buildCodeTable(new String[]{
+      "GREENSPRING",        "GREEN SPRING",
+      "PURGITVILLE",        "PURGITSVILLE",
+      "SPARINGFIELD",       "SPRINGFIELD",
+      "WARDENSVILE",        "WARDENSVILLE",
+      "YELLOW SPRIN",       "YELLOW SPRING",
+      "YELLOW SPRINGS",     "YELLOW SPRING"
+      
+  });
 }

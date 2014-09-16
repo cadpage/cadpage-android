@@ -76,7 +76,7 @@ public class DispatchB3Parser extends DispatchB2Parser {
       return body.substring(prefix.length()).trim();
     } else if (prefixPattern != null) {
       Matcher match = prefixPattern.matcher(body);
-      if (!match.find()) return null;
+      if (!match.lookingAt()) return null;
       return body.substring(match.end()).trim();
     }
     return body;
