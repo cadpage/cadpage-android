@@ -24,7 +24,7 @@ public class LALafayetteParishParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String field, Data data) {
-    return parseFields(field.split("\n"), 5, data);
+    return parseFields(field.split("\n+"), 5, data);
   }
   
   @Override
