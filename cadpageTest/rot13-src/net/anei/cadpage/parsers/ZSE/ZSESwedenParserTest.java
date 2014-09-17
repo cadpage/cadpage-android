@@ -15,6 +15,7 @@ Fraqre: 3315
 3490536\aOenaq v olttanq\aSyresnzvywfuhf\aGenccuhf\aUäaqryfrorfxeviavat : yhxgne eöx v genccuhfrg, fbz ra yägg qvzzn\aEnqrznpuretngna 21, iåa 5\a\aCbfvgvbaJTF84 : Yn = 59º 22,308'A    Yb = 016º 30,783'R
 3185519\aOenaq hgr - greeäat\a\aTeäfoenaq\a\a\a\aZryyna Uäyyoretn  fbpu Äeyn. Cevpvf vaana Äeyn
 3186725\aNhgbzngynez\aOenaq\a\aZhaxgryyfiätra Ibyib Fr 75 Abee  Uäyyol\aRfxvyfghan\aCbfvgvbaJTF84 : Yn = 59º 24,079'A    Yb = 016º 26,958'R\aUäaqryfrorfxeviavat : \aFöez ENCF-1
+3237964\e\aOenaq v olttanq\e\aSyresnzvywfuhf\e\aYätraurg\e\aPneyniätra 45 p, 1\e\a\e\aCbfvgvbaJTF84 : Yn = 59º 22,279'A    Yb = 016º 31,960'R\e\aUäaqryfrorfxeviavat : Oenaq v ytu, bxyneg inq fbz oevaare. Zxg eöx v ytu. Vatra xine v ytu.\e\aFöez ENCF-1\e\a
 
 FZF grkg sbezng
 Oenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aPneyniätra 45n\a\aYn = 59 tenqre 22,267'A    Yb = 016 tenqre 31,964'R

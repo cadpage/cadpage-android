@@ -69,6 +69,20 @@ public class MDPrinceGeorgesCountyEParser extends MDPrinceGeorgesCountyBaseParse
     return "ID " + super.getProgram() + " DATE TIME";
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CODE")) return new CodeField("[A-Z]+\\d?");
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("PP")) return new SkipField("[A-Z]{1,2}|", true);
+    if (name.equals("AT")) return new AtField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("PP2")) return new SkipField("[A-Z]{1,2} *(?:<\\d.*)?|<\\d.*|", true);
+    if (name.equals("CH")) return new ChannelField("(?:T?G?|FX)[A-F]\\d{1,2}", true);
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("UNIT")) return new MyUnitField();
+    return super.getField(name);
+  }
+  
   private class MyAddressField extends AddressField {
     @Override
     public String getFieldNames() {
@@ -122,19 +136,5 @@ public class MDPrinceGeorgesCountyEParser extends MDPrinceGeorgesCountyBaseParse
         data.strUnit = append(data.strUnit, ",", field);
       }
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CODE")) return new CodeField("[A-Z]+\\d?");
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("PP")) return new SkipField("[A-Z]{1,2}|", true);
-    if (name.equals("AT")) return new AtField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("PP2")) return new SkipField("[A-Z]{1,2} *(?:<\\d.*)?|<\\d.*|", true);
-    if (name.equals("CH")) return new ChannelField("T?G?[A-F]\\d{1,2}", true);
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("UNIT")) return new MyUnitField();
-    return super.getField(name);
   }
 }
