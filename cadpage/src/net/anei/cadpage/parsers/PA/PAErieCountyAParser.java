@@ -141,6 +141,7 @@ public class PAErieCountyAParser extends DispatchB2Parser {
         "CARDIAC/RESP/DEATH-NOT BREATH",
         "CHEST PAIN",
         "CHEST PAIN - BREATH NORMAL=>35",
+        "CHEST PAIN - BREATH NORMAL=3D>35",
         "CHEST PAIN - CARDIAC HISTORY",
         "CHEST PAIN - CLAMMY",
         "CHEST PAIN - PATIENT NOT ALERT",
