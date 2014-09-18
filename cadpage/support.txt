@@ -3707,6 +3707,19 @@ as it works for you, but it hasn't been updated for over 2 years and
 will not support direct paging vendors.  Which becomes a problem once
 you install Android 4.4 and Cadpage can no longer block text alerts from
 showing up in your message inbox.
+************************************************************************
+Using Cadpage with Active911
+
+You can use Cadpage with an Active911 account.  To do this, open Cadpage
+Settings and select
+Direct Paging Vendors > Active911 > Register
+Then enter the same device activation code that you use to register the
+Active911 app.
+
+Once you do this, Active911 alerts will trigger Cadpage but will not
+trigger the Active911 app.  If you want to run both apps together, you
+can configure a Cadpage button that launches the Active911 app, which
+then query the server and display all recent calls.
 
 ***********************************************************************
 Useful search expressions
