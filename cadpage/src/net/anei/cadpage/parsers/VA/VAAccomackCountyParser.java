@@ -22,7 +22,21 @@ public class VAAccomackCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "cad@esva911.org,14100";
+    return "cad@esva911.org,14100,2159700551";
+  }
+
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    body = stripFieldStart(body, "ESVA911 ");
+    return super.parseMsg(body, data);
+  }
+
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("CITYST")) return new CityStField();
+    if (name.equals("MAP")) return new MyMapField();
+    if (name.equals("ID")) return new IdField("\\d{8,}");
+    return super.getField(name);
   }
 
   // We need a special field parser to handle the CITYST field
@@ -60,14 +74,4 @@ public class VAAccomackCountyParser extends DispatchOSSIParser {
       data.strMap = append(data.strMap, ",", field);
     }
   }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("CITYST")) return new CityStField();
-    if (name.equals("MAP")) return new MyMapField();
-    if (name.equals("ID")) return new IdField("\\d{8,}");
-    return super.getField(name);
-  }
-  
-  
 }
