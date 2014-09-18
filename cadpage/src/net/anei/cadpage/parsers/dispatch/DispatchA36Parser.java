@@ -95,7 +95,7 @@ public class DispatchA36Parser extends FieldProgramParser {
       
       // Life would be so much simpler if we did not have to worry about possibly truncated
       // city names at the end of an address, especially multi word cities :(
-      int flags = FLAG_START_FLD_REQ | FLAG_ANCHOR_END;
+      int flags = FLAG_START_FLD_REQ | FLAG_PAD_FIELD | FLAG_ANCHOR_END;
       if (partAddr) {
         int saveLen = addr.length();
         addr = fixAddressCity(addr, data);
@@ -103,6 +103,7 @@ public class DispatchA36Parser extends FieldProgramParser {
       }
       
       parseAddress(StartType.START_CALL, flags, addr, data);
+      data.strApt = append(data.strApt, "-", getPadField());
       return true;
     }
     if (iVersion == 3) return false;

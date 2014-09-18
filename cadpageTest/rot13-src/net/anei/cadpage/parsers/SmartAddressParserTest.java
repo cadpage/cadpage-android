@@ -47,10 +47,6 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
-    
-    qbGrfg(PNYY, SYNT_FGNEG_SYQ_ERD | SYNT_ARNE_GB_RAQ, "GENAFSBEZRE,YVARF QBJA @ ZHVEJBBQ TERRA NCGF",
-           "PNYY:GENAFSBEZRE,YVARF QBJA",
-           "NQQE:ZHVEJBBQ TERRA NCGF");
 
   }
 
