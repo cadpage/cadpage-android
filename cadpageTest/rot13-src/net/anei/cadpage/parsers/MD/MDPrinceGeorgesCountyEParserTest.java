@@ -83,6 +83,10 @@ Pbagnpg: Anguna U <anurqevpx36@tznvy.pbz>
 Fraqre: 89361
 F: Ubhfr Sver\aQVFCNGPU Sebz SRQ01:S142520131: Ubhfr Sver, 39520 WNEERYY QE, GTN2, ZNFZ, Havg:RG836
 
+Pbagnpg: Reavr Qnavryf <sverpngpure40@tznvy.pbz>
+Fraqre: 89361
+QVFCNGPU Sebz SRQ01:S142610080: Npp j/Vaw, AO PENVA UJL FR/FUBEG PHG EQ, CC,  <14398/ 7800>, GTP2, 4002, Havgf:ZQ840, FD840
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Oynqrafohet ISQ Fgn. #9
 Ybpngvba: Oynqrafohet, ZQ, Havgrq Fgngrf
@@ -2549,6 +2553,21 @@ choyvp pynff ZQCevaprTrbetrfPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:GTN2",
         "OBK:ZNFZ",
         "HAVG:RG836");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgReavrQnavryf() {
+
+    qbGrfg("G1",
+        "QVFCNGPU Sebz SRQ01:S142610080: Npp j/Vaw, AO PENVA UJL FR/FUBEG PHG EQ, CC,  <14398/ 7800>, GTP2, 4002, Havgf:ZQ840, FD840",
+        "VQ:S142610080",
+        "PNYY:Npp j/Vaw",
+        "NQQE:AO PENVA UJL FR & FUBEG PHG EQ",
+        "ZNQQE:PENVA UJL FR & FUBEG PHG EQ",
+        "PU:GTP2",
+        "OBK:4002",
+        "HAVG:ZQ840,FD840");
 
   }
 
