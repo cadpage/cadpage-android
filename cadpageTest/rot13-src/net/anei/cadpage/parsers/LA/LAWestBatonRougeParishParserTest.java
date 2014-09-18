@@ -210,7 +210,7 @@ choyvp pynff YNJrfgOngbaEbhtrCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2014:07664",
         "PNYY:HAYBPX",
         "CYNPR:Jny Zneg Cbeg Nyyra",
-        "NQQE:  ",
+        "NQQE:3255 UJL 1 F",
         "TCF:+30.420559,-91.216898");
 
     qbGrfg("G12",
