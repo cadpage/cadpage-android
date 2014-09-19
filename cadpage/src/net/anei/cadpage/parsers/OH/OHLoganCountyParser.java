@@ -18,7 +18,13 @@ public class OHLoganCountyParser extends DispatchCiscoParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
-    return super.parseMsg(subject, body, data);
+    if (super.parseMsg(subject, body, data)) return true;;
+    
+    if (subject.startsWith("Msg From: ")) {
+      data.parseGeneralAlert(this, body);
+      return true;
+    }
+    return false;
   }
 
   @Override
