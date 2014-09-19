@@ -1268,7 +1268,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 91 A OBHAQ",
-        "ZNQQE:V 75 91 A OBHAQ",
+        "ZNQQE:37.79048,-84.32275",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000195",
@@ -1288,7 +1288,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 91 A OBHAQ",
-        "ZNQQE:V 75 91 A OBHAQ",
+        "ZNQQE:37.79048,-84.32275",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000195",
@@ -1391,7 +1391,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 94 A OBHAQ",
-        "ZNQQE:V 75 94 A OBHAQ",
+        "ZNQQE:37.83383,-84.32305",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000189",
@@ -1412,7 +1412,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 94 A OBHAQ",
-        "ZNQQE:V 75 94 A OBHAQ",
+        "ZNQQE:37.83383,-84.32305",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000189",
@@ -1432,7 +1432,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 94 A OBHAQ",
-        "ZNQQE:V 75 94 A OBHAQ",
+        "ZNQQE:37.83383,-84.32305",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000189",
@@ -1470,7 +1470,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 97 A OBHAQ",
-        "ZNQQE:V 75 97 A OBHAQ",
+        "ZNQQE:37.87580,-84.33322",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000188",
@@ -1491,7 +1491,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 97 A OBHAQ",
-        "ZNQQE:V 75 97 A OBHAQ",
+        "ZNQQE:37.87580,-84.33322",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000188",
@@ -1752,7 +1752,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 91 F OBHAQ",
-        "ZNQQE:V 75 91 F OBHAQ",
+        "ZNQQE:37.79048,-84.32275",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000184",
@@ -1773,7 +1773,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 91 F OBHAQ",
-        "ZNQQE:V 75 91 F OBHAQ",
+        "ZNQQE:37.79048,-84.32275",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000184",
@@ -1810,7 +1810,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 82 A OBHAQ",
-        "ZNQQE:V 75 82 A OBHAQ",
+        "ZNQQE:37.66238,-84.31090",
         "PVGL:ORERN",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000183",
@@ -1830,7 +1830,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 82 A OBHAQ",
-        "ZNQQE:V 75 82 A OBHAQ",
+        "ZNQQE:37.66238,-84.31090",
         "PVGL:ORERN",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000183",
@@ -1866,7 +1866,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 93 F OBHAQ",
-        "ZNQQE:V 75 93 F OBHAQ",
+        "ZNQQE:37.81917,-84.32380",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000182",
@@ -1886,7 +1886,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 93 F OBHAQ",
-        "ZNQQE:V 75 93 F OBHAQ",
+        "ZNQQE:37.81917,-84.32380",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000182",
@@ -1964,7 +1964,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 91 A OBHAQ",
-        "ZNQQE:V 75 91 A OBHAQ",
+        "ZNQQE:37.79048,-84.32275",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000181",
@@ -1987,7 +1987,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 91 A OBHAQ",
-        "ZNQQE:V 75 91 A OBHAQ",
+        "ZNQQE:37.79048,-84.32275",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000181",
@@ -2009,7 +2009,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 91 A OBHAQ",
-        "ZNQQE:V 75 91 A OBHAQ",
+        "ZNQQE:37.79048,-84.32275",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000181",
@@ -2030,7 +2030,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 91 A OBHAQ",
-        "ZNQQE:V 75 91 A OBHAQ",
+        "ZNQQE:37.79048,-84.32275",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000181",
@@ -2050,7 +2050,7 @@ choyvp pynff XLZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR VAWHEL NPPVQRAG",
         "NQQE:V75 91 A OBHAQ",
-        "ZNQQE:V 75 91 A OBHAQ",
+        "ZNQQE:37.79048,-84.32275",
         "PVGL:EVPUZBAQ",
         "FEP:ZNQVFBA PB ERFPHR",
         "VQ:201400000181",
