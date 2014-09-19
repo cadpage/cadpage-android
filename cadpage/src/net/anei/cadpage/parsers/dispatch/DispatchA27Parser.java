@@ -141,7 +141,7 @@ public class DispatchA27Parser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "UNIT INFO";
+      return "UNIT GPS INFO";
     }
   }
   
@@ -167,8 +167,14 @@ public class DispatchA27Parser extends FieldProgramParser {
       if (!info) {
         data.strUnit = append(data.strUnit, " ", token);
       } else if (!runReport) {
+        Matcher match = GPS_PTN.matcher(token);
+        if (match.lookingAt()) {
+          setGPSLoc(match.group(1)+','+match.group(2), data);
+          token = token.substring(match.end()).trim();
+        }
         data.strSupp = append(data.strSupp, "\n", token);
       }
     }
   }
+  private static final Pattern GPS_PTN = Pattern.compile("E911 CLASS: [A-Z]+LOC: .*?LAT: ([-+]?\\d+\\.\\d{6})LON: ([-+]?\\d+\\.\\d{6})Lec:[a-z]{4}");
 }
