@@ -435,6 +435,7 @@ class Active911Vendor extends Vendor {
       "US/OH/CityofVandalia",             "OHMontgomeryCountyB",
       "US/OH/DarkeCountySheriff",         "OHDarkeCounty",
       "US/OH/Fairfield",                  "OHFairfieldCounty",
+      "US/OH/GeaugaCounty",               "OHGeaugaCountyB",
       "US/OH/HamiltonCounty",             "OHHamiltonCounty",
       "US/OH/Harveysburg",                "OHWarrenCountyC",
       "US/OH/HolmesCountySheriff",        "OHHolmesCounty",

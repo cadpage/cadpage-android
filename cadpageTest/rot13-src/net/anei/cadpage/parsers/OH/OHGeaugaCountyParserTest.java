@@ -6,6 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Trnhtn pbhagl, BU
+
 Pbagnpg: Revx Zbqemlafxv <revxzbqemlafxv@tznvy.pbz>
 Fraqre: 777kkkkkkk
 Flfgrz: Fcvyyzna
@@ -35,19 +36,6 @@ TRNHTN PBHAGL FUREVSS (Grkg Zrffntr) ERFPHR VF ARRQRQ NG - fhapb fgngvba srznyr 
 TRNHTN PBHAGL FUREVSS (Grkg Zrffntr) ERFPHR VF ARRQRQ NG - 9922 BYQ FGNGR EQ 90 LB SRZNYR QVSS OERNGUVAT GKG FGBC gb bcg-bhg
 TRNHTN PBHAGL FUREVSS (Grkg Zrffntr) Erfphr arrqrq ng 1 Yn Irear Ya, srznyr cbffvoyr tbvat vagb Ynobe. 2800/Jevtug GKG FGBC gb bcg-bhg
 TRNHTN PBHAGL FUREVSS (Grkg Zrffntr) ERFPHR VF ARRQRQ NG - 12115 PBHAGEL BNXF GEY 96 L/B/S CBFFVOYR Q.B.N. 2800/QC GKG FGBC gb bcg-bhg
-
-Pbagnpg: fhccbeg@npgvir911
-Fraqre: BU_TP_RAF@PB.TRNHTN.BU.HF
-(Nyreg Abgvsvpngvba) Erfphr arrqrq ng 12340 Onff Ynxr Eq Pragre bs Qvnylfvf sbe 78lbs pbzcy bs vasrpgrq cbeg<oe />
-(Nyreg Abgvsvpngvba) 12340 ONFF YNXR EQ N 1 ORQ 1 86 LBZ PUNATR VA ZRAGNY FGNGHF<oe />
-(Nyreg Abgvsvpngvba) erfphr -- 14036 ebpx perrx -- 43 l/b srznyr -- oernguvat ceboyrzf/ybj chyfr bk -- 2800<oe />
-(Nyreg Abgvsvpngvba) 12120 Pnirf Eq sbe n Puvzarl Sver Rinphngvba va cebterff.<oe />
-(Nyreg Abgvsvpngvba) ERDHRFG BA FGNAQ OL NG GUR FGNGVBA SBE CBFFVOYR FHVPVQNY ZNYR 10917 YRNQRE<oe />
-(Nyreg Abgvsvpngvba) Onepynl Ubhfr sbe n yvsg nffvfg 88 lbs fyvq bhg bs punve 13149 Tne Ujl<oe />
-(Nyreg Abgvsvpngvba) erfphr arrqrq 12630 tjraqbyla snezf fhvpvqr nggrzcg ol unatvat<oe />
-(Nyreg Abgvsvpngvba) Zrqvpny Negf ohvyqvat 13221 Eniraan Eq Qe Xbaqenl'f bssvpr 48le byq srznyr qvssvphygl oernguvat.<oe />
-(Nyreg Abgvsvpngvba) ERFPHR ARRQQ NG 10942 YRNQRE SRZNYR GUNG SRYY<oe />
-(Nyreg Abgvsvpngvba) erfphr arrqrq ng 11995 sbjyref zvyy eq srznyr frireny qnl ntb<oe />
  
 */
 
@@ -201,65 +189,7 @@ choyvp pynff BUTrnhtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:96 L/B/S CBFFVOYR Q.B.N. 2800/QC");
     
   }
-  
-  @Grfg
-  choyvp ibvq grfgNpgvir911() {
-
-    qbGrfg("G1",
-        "(Nyreg Abgvsvpngvba) Erfphr arrqrq ng 12340 Onff Ynxr Eq Pragre bs Qvnylfvf sbe 78lbs pbzcy bs vasrpgrq cbeg<oe />",
-        "PNYY:Erfphr",
-        "NQQE:12340 Onff Ynxr Eq",
-        "VASB:Pragre bs Qvnylfvf sbe 78lbs pbzcy bs vasrpgrq cbeg");
-
-    qbGrfg("G2",
-        "(Nyreg Abgvsvpngvba) 12340 ONFF YNXR EQ N 1 ORQ 1 86 LBZ PUNATR VA ZRAGNY FGNGHF<oe />",
-        "PNYY:N 1 ORQ 1 86 LBZ PUNATR VA ZRAGNY FGNGHF",
-        "NQQE:12340 ONFF YNXR EQ");
-
-    qbGrfg("G3",
-        "(Nyreg Abgvsvpngvba) erfphr -- 14036 ebpx perrx -- 43 l/b srznyr -- oernguvat ceboyrzf/ybj chyfr bk -- 2800<oe />",
-        "PNYY:erfphr",
-        "NQQE:14036 ebpx perrx",
-        "VASB:43 l/b srznyr -- oernguvat ceboyrzf/ybj chyfr bk -- 2800");
-
-    qbGrfg("G4",
-        "(Nyreg Abgvsvpngvba) 12120 Pnirf Eq sbe n Puvzarl Sver Rinphngvba va cebterff.<oe />",
-        "PNYY:Puvzarl Sver Rinphngvba va cebterff.",
-        "NQQE:12120 Pnirf Eq");
-
-    qbGrfg("G5",
-        "(Nyreg Abgvsvpngvba) ERDHRFG BA FGNAQ OL NG GUR FGNGVBA SBE CBFFVOYR FHVPVQNY ZNYR 10917 YRNQRE<oe />",
-        "CYNPR:ERDHRFG BA FGNAQ OL NG GUR FGNGVBA SBE CBFFVOYR FHVPVQNY ZNYR 10917 YRNQRE");
-
-    qbGrfg("G6",
-        "(Nyreg Abgvsvpngvba) Onepynl Ubhfr sbe n yvsg nffvfg 88 lbs fyvq bhg bs punve 13149 Tne Ujl<oe />",
-        "PNYY:Onepynl Ubhfr sbe n yvsg nffvfg 88 lbs fyvq bhg bs punve",
-        "NQQE:13149 Tne Ujl");
-
-    qbGrfg("G7",
-        "(Nyreg Abgvsvpngvba) erfphr arrqrq 12630 tjraqbyla snezf fhvpvqr nggrzcg ol unatvat<oe />",
-        "PNYY:erfphr",
-        "CYNPR:12630 tjraqbyla snezf fhvpvqr nggrzcg ol unatvat");
-
-    qbGrfg("G8",
-        "(Nyreg Abgvsvpngvba) Zrqvpny Negf ohvyqvat 13221 Eniraan Eq Qe Xbaqenl'f bssvpr 48le byq srznyr qvssvphygl oernguvat.<oe />",
-        "PNYY:Zrqvpny Negf ohvyqvat",
-        "NQQE:13221 Eniraan Eq",
-        "VASB:Qe Xbaqenl'f bssvpr 48le byq srznyr qvssvphygl oernguvat.");
-
-    qbGrfg("G9",
-        "(Nyreg Abgvsvpngvba) ERFPHR ARRQQ NG 10942 YRNQRE SRZNYR GUNG SRYY<oe />",
-        "PNYY:ERFPHR",
-        "CYNPR:10942 YRNQRE SRZNYR GUNG SRYY");
-
-    qbGrfg("G10",
-        "(Nyreg Abgvsvpngvba) erfphr arrqrq ng 11995 sbjyref zvyy eq srznyr frireny qnl ntb<oe />",
-        "PNYY:erfphr",
-        "NQQE:11995 sbjyref zvyy eq",
-        "VASB:srznyr frireny qnl ntb");
-   
-  }
-  
+ 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj BUTrnhtnPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }

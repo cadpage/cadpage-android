@@ -43,7 +43,7 @@ public class OHGeaugaCountyParser extends SmartAddressParser {
       }
       
       if (subject.equals("Alert Notification")) {
-        if (body.endsWith("<br />")) body = body.substring(0,body.length()-6).trim();
+        body = stripFieldEnd(body, "<br />");
         break;
       }
       
@@ -75,6 +75,7 @@ public class OHGeaugaCountyParser extends SmartAddressParser {
       body = body.replace(',', ' ');
       Result res = parseAddress(st, FLAG_NO_IMPLIED_APT, body);
       if (!res.isValid()) {
+        data.strCall = "GENERAL ALERT";
         data.strPlace = body;
       } else {
         res.getData(data);
