@@ -85,12 +85,12 @@ public class CodeTable {
     return getResult(code, false);
   }
 
-    /**
-     * Look for a call description corresponding to a specific code
-     * @param code call code
-     * @return result object describing result if found, null otherwise
-     */
-    public Result getResult(String code, boolean reqSpace) {
+  /**
+   * Look for a call description corresponding to a specific code
+   * @param code call code
+   * @return result object describing result if found, null otherwise
+   */
+  public Result getResult(String code, boolean reqSpace) {
     
     // Search the code dictionary sorted map for the highest entry less than or
     // equal to call code.  If the code starts with this string, we have a
@@ -112,5 +112,18 @@ public class CodeTable {
       if (!code.startsWith(minCode)) break;
     }
     return null;
+  }
+  
+  /**
+   * Return description corresponding to matching code.
+   * Normally we would use a HashSet if all were were interested in was
+   * exact code matches, but there is at least one case where a parser
+   * needs to do both partial and exact code lookups, in which case they
+   * can use this method for the exact code lookup
+   * @param code code to search for
+   * @return matching description if found, or null if not
+   */
+  public String getMatch(String code) {
+    return codeMap.get(code);
   }
 }

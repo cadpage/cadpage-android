@@ -1205,6 +1205,8 @@ Fraqre: uvcyvax@obmrzna.arg
 (Uvcyvax PP:) Pynexgfba Sver:  cubar cntvat jbexvat.  Pyvpx ohggba nf grfg sbe "erfc" be "haiy" be "ninvy" - neevi bayl jbexf vs lbh unir pryy/vagrearg ng lbhe neevi cbvag - ohg xabjvat vs ERFC be HAIY vf terng!
 (Uvcyvax PP:) Pynexfgba Sver Grfgvat:  Cntvat Cubarf & cntref!  <puvrs & 911 pragre grfgf gbqnl>
 
+Nyregf 19397679,20025050,19793904 gurl qba'g ybbx gb or cnefvat gur nqqerff
+cebcreyl.  Ab nqqerff svryq, hfr cynpr???
 */
 
 choyvp pynff ZGTnyyngvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

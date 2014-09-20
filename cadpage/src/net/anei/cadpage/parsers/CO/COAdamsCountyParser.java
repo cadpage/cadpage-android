@@ -13,6 +13,7 @@ public class COAdamsCountyParser extends FieldProgramParser {
   
   private static final Pattern CAD_MARKER = 
         Pattern.compile("^(?:Subject:)?IPS I/Page Notifica(?:tion|\\.\\.\\.) (?:/ )?");
+  private static final Pattern INTERSTATE_PTN = Pattern.compile("INTERSTATE \\d+(?: [NSEW]B)?", Pattern.CASE_INSENSITIVE);
   
   public COAdamsCountyParser() {
     super(CITY_TABLE, "ADAMS COUNTY", "CO",
@@ -32,7 +33,14 @@ public class COAdamsCountyParser extends FieldProgramParser {
     Matcher match = CAD_MARKER.matcher(body);
     if (!match.find()) return false;
     body = body.substring(match.end()).trim();
-    if (super.parseMsg(body, data)) return true;
+    if (super.parseMsg(body, data)) {
+      if (data.strPlace.length() > 0 && INTERSTATE_PTN.matcher(data.strAddress).matches()) {
+        data.strAddress = "";
+        parseAddress(data.strPlace, data);
+        data.strPlace = "";
+      }
+      return true;
+    }
     
     // Fallback parsing address followed by call description
     setFieldList("CALL PLACE ADDR APT CITY INFO");
