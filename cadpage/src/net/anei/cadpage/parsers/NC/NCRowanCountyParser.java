@@ -36,6 +36,27 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
     return data.strAddress.length() > 0;
   }
   
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("OPTPLACE")) return new OptionalPlaceField();
+    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("XPLACE")) return new MyCrossPlaceField();
+    if (name.equals("MAP")) return new MapField("\\d{4}", true);
+    if (name.equals("CH")) return new ChannelField("OPS.*", true);
+    return super.getField(name);
+  }
+  
+  private static final Pattern BAD_CALL_PTN = Pattern.compile("[^ ]/[^ ]");
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      if (BAD_CALL_PTN.matcher(field).find()) abort();
+      super.parse(field, data);
+    }
+  }
+  
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -75,14 +96,16 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
           field = field.substring(4).trim();
         }
       }
-
       parse(field, data);
       
       // We don't know what county this is, but we now it is not Rowan County
       return true;
     }
       
-    
+    @Override
+    public String getFieldNames() {
+      return "CITY PLACE";
+    }
   }
   
   // City field is required, and must be found in table to rule out
@@ -149,18 +172,6 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
     public String getFieldNames() {
       return "CODE INFO PLACE X";
     }
-  }
-  
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("CALL")) return new CallField("[^/]+", true);
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("OPTPLACE")) return new OptionalPlaceField();
-    if (name.equals("CITY")) return new MyCityField();
-    if (name.equals("XPLACE")) return new MyCrossPlaceField();
-    if (name.equals("MAP")) return new MapField("\\d{4}", true);
-    if (name.equals("CH")) return new ChannelField("OPS.*", true);
-    return super.getField(name);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
