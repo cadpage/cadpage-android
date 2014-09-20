@@ -61,6 +61,7 @@ public class COGoldenParser extends DispatchA34Parser {
   private static final Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
       "1 CHIMNEY GULCH TRAIL",      "39.747845,-105.232959",
       "1 HWY 93",                   "39.755005,-105.236414",
+      "1 W 44TH AVE",             "39.763763,-105.212699",
       
       "260 HWY 6",                  "39.746116,-105.397768",
       "261 HWY 6",                  "39.737476,-105.388593",
