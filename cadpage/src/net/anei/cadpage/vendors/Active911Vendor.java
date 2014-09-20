@@ -327,7 +327,7 @@ class Active911Vendor extends Vendor {
       "US/MN/WrightCounty",               "MNWrightCounty",
       "US/MO/ADSiCad",                    "MOLawrenceCounty",
       "US/MO/AndrewCounty",               "Cadpage2",
-      "US/MO/BarryCounty",                "MOBarryCounty",
+      "US/MO/BarryCounty",                "MOBarryCountyB",
       "US/MO/CityofFestus",               "MOFestusB",
       "US/MO/ChristianCounty",            "MOChristianCounty",
       "US/MO/CityofBranson",              "MOBranson",

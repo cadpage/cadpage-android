@@ -36,7 +36,8 @@ public class MOBarryCountyParser extends DispatchB2Parser {
     return true;
   }
   
-  private static final String[] CITY_LIST = new String[]{
+  static final String[] CITY_LIST = new String[]{
+    "COUNTY",
     "BARRY COUNTY",
 
     "CASSVILLE",

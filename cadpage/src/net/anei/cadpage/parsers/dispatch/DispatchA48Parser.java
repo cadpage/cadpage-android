@@ -17,7 +17,7 @@ public class DispatchA48Parser extends SmartAddressParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("As of \\d\\d?/\\d\\d?/\\d\\d \\d\\d");
   private static final Pattern PREFIX_PTN = Pattern.compile("[-a-z0-9]+: +");
-  private static final Pattern MASTER_PTN = Pattern.compile("CAD:As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d:\\d\\d:\\d\\d) (\\d{4}-\\d{8}) (.*)");
+  private static final Pattern MASTER_PTN = Pattern.compile("(?:CAD:)?As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d:\\d\\d:\\d\\d) (\\d{4}-\\d{8}) (.*)");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d:\\d\\d:\\d\\d)\\b");
     
   private FieldType fieldType;
@@ -33,7 +33,7 @@ public class DispatchA48Parser extends SmartAddressParser {
     this.fieldType = fieldType;
     dateTimeInfo = (fieldType == FieldType.DATE_TIME_INFO);
     oneWordCode = (flags & A48_ONE_WORD_CODE) != 0;
-    setFieldList("SRC DATE TIME ID CODE CALL ADDR APT CITY " + fieldType.toString().replace('_', ' ') + " UNIT");
+    setFieldList("SRC DATE TIME ID CODE CALL ADDR APT CITY NAME " + fieldType.toString().replace('_', ' ') + " UNIT");
   }
   
   @Override
@@ -90,13 +90,15 @@ public class DispatchA48Parser extends SmartAddressParser {
       flags |= FLAG_ANCHOR_END;
     }
     
+    addr = cleanWirelessCarrier(addr, true);
+    
     pt = addr.lastIndexOf(',');
     if (pt >= 0) {
       parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, addr.substring(pt+1).trim(), data);
       if (data.strCity.length() > 0) {
         String tmp = stripFieldStart(getLeft(), data.strCity);
         if (dateTimeInfo) {
-          if (tmp.length() > 0) return false;
+          data.strName = tmp;
         } else {
           extra = tmp;
         }
