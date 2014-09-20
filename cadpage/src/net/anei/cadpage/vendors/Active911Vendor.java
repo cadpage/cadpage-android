@@ -142,6 +142,7 @@ class Active911Vendor extends Vendor {
   }));
   
   private static Properties POLY_CODE_TABLE = MsgParser.buildCodeTable(new String[]{
+      "CA/AB/RedDeerCounty",              "ZCAABRedDeerCounty",
       "CA/AB/ClearwaterCounty",           "ZCAABClearwaterCounty",
       "CA/AB/highriver",                  "ZCAABCanmore",
       "CA/BC/MidIsland",                  "ZCABCMidIslandRegion",
