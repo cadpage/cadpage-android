@@ -13,7 +13,7 @@ public class SCAndersonCountyAParser extends DispatchB2Parser {
   private static final Pattern UNIT_PTN = Pattern.compile("^(?:ANDERSON CO 911|AND 911|active911|([-a-z0-9]+)):");
  
   public SCAndersonCountyAParser() {
-    super(CITY_LIST, "ANDERSON COUNTY", "SC");
+    super(SCAndersonCountyParser.CITY_LIST, "ANDERSON COUNTY", "SC");
   }
   
   @Override
@@ -101,33 +101,4 @@ public class SCAndersonCountyAParser extends DispatchB2Parser {
   private String decode(String sAddress) {
     return sAddress.replace("SIX_AND_TWENTY", "SIX AND TWENTY").replace("D_AND_M", "D AND M");
   }
-
-  static final String[] CITY_LIST = new String[]{
-    "ANDERSON", 
-    "BELTON", 
-    "CLEMSON", 
-    "EASLEY",
-    "HONEA PATH",
-    "IVA",
-    "PELZER", 
-    "STARR",
-    "WEST PELZER",
-    "WILLIAMSTON",
-    "CENTERVILLE",
-    "HOMELAND PARK",
-    "LA FRANC",
-    "NORTHLAKE",
-    "PIEDMONT", 
-    "POWDERSVILLE",
-    "SANDY SPRINGS",
-    "TOWNVILLE",
-    
-    "PENDLETON",
-    
-    // Greenville County
-    "GREENVILLE",
-    
-    // Oconee County
-    "FAIR PLAY"
-  };
 }
