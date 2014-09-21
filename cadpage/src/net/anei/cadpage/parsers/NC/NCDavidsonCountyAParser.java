@@ -34,19 +34,30 @@ public class NCDavidsonCountyAParser extends DispatchOSSIParser {
     return ID_PTN.matcher(data.strCallId).matches();
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ID")) return new IdField("\\d{10}");
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern BAD_CALL_PTN = Pattern.compile("\\d{1,2}[A-Z]\\d{1,2}[A-Z]?+ .*|FYI:|Update:");
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      // Reject anything that looks like a NCRowanCounty page
+      if (BAD_CALL_PTN.matcher(field).matches()) abort();
+      super.parse(field, data);
+    }
+  }
+  
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       if (BAD_CITY_CODES.contains(field)) abort();
       super.parse(field, data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{10}");
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
   
   // These are the city codes used by the Rowan County, NC location parser

@@ -1,43 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">09152014</string>
-  <string name="release_version">v1.7.43</string>
+  <string name="release_date">09212014</string>
+  <string name="release_version">v1.7.44</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
-New Locations:\n
-Cofee County, AL\n
-Navajo County, AZ\n
-Shasta County, CA (alt)\n
-Morgan County, CO\n
-East Lyme, CT\n
-Knox County, IN\n
-Lafayette Parish, LA\n
-Chippewa County, MI\n
-Lenawee County, MI (alt)\n
-Shiawassee County, MI\n
-Moniteau County, MO\n
-Allegany County, NY\n
-Clay County, NC\n
-Warren County, NC\n
-Yamhill County, OR (alt)\n
-Anderson County, SC\n
-Crowley, TX\n
-Hartford, VT\n
-Quebec, QC, Canada\n
-\n
 Location Parsing Fixes:\n
-Weld County, CO\n
-Montgomery County, MD\n
-Ingham County, MI\n
-St Louis County, MO\n
-Edgecombe County, NC\n
-New Hanover County, NC\n
-Delaware County, PA\n
-Sonomish County, WA\n
+Hayward County, CA\n
+Golden, CO\n
+Brantley County, GA\n
+Kootenai County, ID\n
+Lorain County, OH\n
+Madison County, KY\n
+Acadian AMbulance, LA\n
+Prince Goerges County, MD\n
+Barry County, MO\n
+Jefferson City, MO\n
+Mecklenburg County, NC\n
+Rowan County, NC\n
+Nash County, NC\n
+Champaign County, OH\n
+Geauga County, OH\n
+Logan County, OH\n
+Marion County, OR\n
+Erie County, PA\n
+Cherokee County, SC\n
+Accomack County, VA\n
+Northampton County, VA\n
+Hampshire County, WV\n
   </string>
 </resources>
   

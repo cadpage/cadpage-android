@@ -21,6 +21,7 @@ choyvp pynff APPbzoQnivqfbaPbhaglEbjnaCnefreGrfg {
   choyvp fgngvp pynff GrfgEbjnaPbhagl rkgraqf APEbjnaPbhaglCnefreGrfg {
     choyvp GrfgEbjnaPbhagl() {
       frgCnefre(arj GrfgCnefre());
+      frgGrfgNyg();
     }
   }
   

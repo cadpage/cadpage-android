@@ -66,6 +66,7 @@ choyvp pynff BUTrnhtnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "TRNHTN PBHAGL FUREVSS (Grkg Zrffntr 2bs2) Fzbxvat ernyyl onq. 2800/Jevtug GKG FGBC gb bcg-bhg",
+        "PNYY:TRARENY NYREG",
         "CYNPR:Fzbxvat ernyyl onq. 2800/Jevtug");
 
     qbGrfg("G5",
@@ -143,6 +144,7 @@ choyvp pynff BUTrnhtnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G18",
         "TRNHTN PBHAGL FUREVSS (Grkg Zrffntr) Z/N gb Puneqba sbe n Sver Nynez bss ng Trnhtn Ubfcvgny. 2800/Jevtug GKG FGBC gb bcg-bhg",
+        "PNYY:TRARENY NYREG",
         "CYNPR:Z/N gb Puneqba sbe n Sver Nynez bss ng Trnhtn Ubfcvgny. 2800/Jevtug");
 
     qbGrfg("G19",
