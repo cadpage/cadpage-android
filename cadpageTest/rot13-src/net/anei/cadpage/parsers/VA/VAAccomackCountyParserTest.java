@@ -51,6 +51,10 @@ Pbagnpg: Fgrir Avoyrgg <avoyrgg25@tznvy.pbz>
 Fraqre: 2159700551  (?)
 RFIN911 PNQ:QBN PBQR TENL;30568 TERGN EQ;NGYN;N37;O2;PNERL YA;JNAQRE YA
 
+Pbagnpg: rfzrqvp10 <rfzrqvp10@irevmba.arg>
+Fraqre: 2159700551
+RFIN911 PNQ:SNYYF;9468 UBFCVGNY NIR;ANFF;A211;Q2;SENAXGBJA EQ;JVYYVNZ S OREANEG PVE;UREVGNTR UNYY
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cnexfyrl ISP Vap Fgn. 7
 Ybpngvba: Cnexfyrl, IN, Havgrq Fgngrf
@@ -903,6 +907,19 @@ choyvp pynff INNppbznpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:30568 TERGN EQ",
         "ZNC:N37,O2",
         "K:PNERL YA & JNAQRE YA");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRfzrqvp10() {
+
+    qbGrfg("G1",
+        "RFIN911 PNQ:SNYYF;9468 UBFCVGNY NIR;ANFF;A211;Q2;SENAXGBJA EQ;JVYYVNZ S OREANEG PVE;UREVGNTR UNYY",
+        "PNYY:SNYYF",
+        "NQQE:9468 UBFCVGNY NIR",
+        "ZNC:A211,Q2",
+        "K:SENAXGBJA EQ & JVYYVNZ S OREANEG PVE",
+        "VASB:UREVGNTR UNYY");
 
   }
 
