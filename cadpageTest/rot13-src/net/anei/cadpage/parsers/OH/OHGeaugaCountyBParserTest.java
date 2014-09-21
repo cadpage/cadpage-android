@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Trnhtn pbhagl, BU
+Trnhtn pbhagl, BU (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Unzoqra SQ

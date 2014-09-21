@@ -6,7 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 
 /*
-Oneel Pbhagl, ZB
+Oneel Pbhagl, ZB (O)
 
 Pbagnpg: Avpx Mnzavnx <avpx.mnzavnx@tznvy.pbz>
 Fraqre: 2002000004
