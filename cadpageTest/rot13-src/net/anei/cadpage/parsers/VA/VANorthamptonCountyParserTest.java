@@ -1,16 +1,14 @@
 cnpxntr arg.narv.pnqcntr.cnefref.IN;
 
-vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-
 /*
-Jnqfjbegu, BU (N)
-Nyvnf sbe Fhzzvg Pbhagl, BU (N)
+Abegunzcgba Pbhagl, IN
+Nyvnf sbe Nppbznpx Pbhagl, IN
  */
 
-choyvp pynff INAbegunzcgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff INAbegunzcgbaPbhaglCnefreGrfg rkgraqf INNppbznpxPbhaglCnefreGrfg {
   
   choyvp INAbegunzcgbaPbhaglCnefreGrfg() {
-    frgCnefre(arj INAbegunzcgbaPbhaglCnefre(), "ABEGUNZCGBA PBHAGL", "BU");
+    frgCnefre(arj INAbegunzcgbaPbhaglCnefre(), "ABEGUNZCGBA PBHAGL", "IN");
     frgRkcYbpPbqr("INAbegunzcgbaPbhagl");
   }
 }
