@@ -594,7 +594,7 @@ class Active911Vendor extends Vendor {
       "US/WA/RiverComm911",               "WAChelanCounty",
       "US/WA/SnohomishCounty",            "WASnohomishCounty",
       "US/WA/ThurstonCounty",             "WAThurstonCounty",
-      "US/WA/WestPierceCounty",           "WAPierceCounty",
+      "US/WA/WestPierceCounty",           "WAPierceCountyD",
       "US/WA/WallaWallaCounty",           "WAWallaWallaCounty",
       "US/WI/MukwonagoFire",              "WIWaukeshaCountyB",
       "US/WI/WaukeshaCounty",             "WaWaukeshaCounty",

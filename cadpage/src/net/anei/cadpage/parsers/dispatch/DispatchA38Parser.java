@@ -9,7 +9,7 @@ public class DispatchA38Parser extends FieldProgramParser {
   
   public DispatchA38Parser(String defCity, String defState) {
     super(defCity, defState,
-          "CFS#:ID! CallType:CALL! Address:ADDR+ INFO+");
+          "CFS#:ID! CallType:CALL! Address:ADDR+ Units:UNIT/N+ Details:INFO/CS+");
   }
 
   @Override
@@ -21,7 +21,7 @@ public class DispatchA38Parser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{4}-\\d{5}|\\d{8}", true);
+    if (name.equals("ID")) return new IdField("\\d{4}-\\d{5}|\\d{8}|\\d{2}[A-Z]{3}\\d{6}", true);
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
@@ -31,18 +31,21 @@ public class DispatchA38Parser extends FieldProgramParser {
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
       String city = p.getLastOptional(',');
-      if (city.length() == 2) {
+      if (city.length() == 2 || city.length() == 0) {
         data.strState = city;
         city = p.getLastOptional(',');
       }
       data.strCity = city;
-      data.strApt = p.getLastOptional("Apt:");
+      String apt = p.getLastOptional("Apt:");
       parseAddress(p.get(), data);
+      if (!apt.equals(data.strApt)) {
+        data.strApt = append(data.strApt, "-", apt);
+      }
     }
     
     @Override
     public String getFieldNames() {
-      return "ADDR APT CITY ST";
+      return "ADDR PLACE APT CITY ST";
     }
   }
 }

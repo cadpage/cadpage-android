@@ -115,7 +115,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *         CS = Connect fields with comma space.  
  *
  *   Unit fields
- *         s - append to previous information with blank separator
+ *         N - append to previous information with newline separator
+ *         C - Connect fields with comma separator
+ *         S - Connect fields with space separator
  *         
  * SPECIAL FIELD NAMES
  * 
@@ -2550,8 +2552,7 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public void setQual(String qual) {
       super.setQual(qual);
-      if (qual == null) return;
-      if (qual.contains("s")) append = " ";
+      append = buildConnector(qual, null);
     }
 
     @Override
@@ -2676,7 +2677,7 @@ public class FieldProgramParser extends SmartAddressParser {
   /**
    * Supplemental info field processor
    */
-  static final Pattern APT_PAT = Pattern.compile("^APT( |:|#) *", Pattern.CASE_INSENSITIVE);
+  static final Pattern APT_PAT = Pattern.compile("^APT( |:|#) *+(?!FIRE)", Pattern.CASE_INSENSITIVE);
   public class InfoField extends Field {
     
     private String connector = " / ";
@@ -2693,10 +2694,8 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public void setQual(String qual) {
-      if (qual == null) return;
-      if (qual.equals("N")) connector = "\n";
-      else if (qual.equals("C")) connector = ",";
-      else if (qual.equals("CS")) connector = ", ";
+      super.setQual(qual);
+      connector = buildConnector(qual, " / ");
     }
     
     
@@ -3298,6 +3297,30 @@ public class FieldProgramParser extends SmartAddressParser {
     public boolean checkParse(String field, Data data) {
       return code.equals(getSelectValue(data));
     }
+  }
+  
+  /**
+   * Convert qual string to connection string
+   * @param qual field qualifier
+   * @param defConnector Default connector string
+   * @return connection string
+   */
+  private String buildConnector(String qual, String defConnector) {
+    
+    if (qual ==  null) return defConnector;
+    
+    String result = null;
+    for (char chr : qual.toCharArray()) {
+      char delChar = (chr == 'N' ? '\n' :
+                      chr == 'C' ? ',' :
+                      chr == 'S' ? ' ' : 0);
+      if (delChar != 0) {
+        if (result == null) result = "";
+        result += delChar;
+      }
+    }
+    
+    return (result != null ? result : defConnector);
   }
   
   protected String getSelectValue(Data data) {
