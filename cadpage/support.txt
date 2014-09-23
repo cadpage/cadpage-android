@@ -3722,5 +3722,17 @@ can configure a Cadpage button that launches the Active911 app, which
 then query the server and display all recent calls.
 
 ***********************************************************************
+
+Now that Android 4.4 has blocked the traditional spam blocker type apps, thanks in no small part to apps like <<<<>>>> abusing the previous spam blocking feature to lock out competitors, would you have any interest in adding an API to your product that would support those kinds of apps with your product.  This shouldn't be too hard to do.  You would require that any third party apps using this feature declare a <<<<>>>> Message blocking permission with a critical warning status to ensure that users no exactly what these apps are capable of.
+
+We publish the Cadpage app, which is not a Spam blocker in the usual sense of the word.  What we do is monitor incoming text messages looking for 911 dispatch alerts sent to members of fire departments and other emergency response organizations.  Cadpage identifies these alerts, parses the necessary information from them and pops up a alert message allowing users to display a map and get directions to the incident location.  That part still works under Android 4.4, what does not work is our ability to keep those alerts from showing up in the regular message inbox where they are redundant.
+
+We are a niche market and do not have a very large user base by your standards.  But implementing a Spam blocking API would let me steer a couple thousand currently unhappy users to your app.
+
+Have a nice day,
+-Ken
+
+***********************************************************************
+
 Useful search expressions
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)
