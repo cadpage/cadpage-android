@@ -1184,7 +1184,7 @@ choyvp pynff BUWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G51",
         "(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Pnyy/# 8 CVXR FHO FGNGVBA//03:34/PNYYRQ VA OL JCQ / PNYYRE NQIVFRQ GUR ANGHENY TNF FHO FGNGVBA JNF BA SVER/FCNEXVAT",
         "PNYY:Sver Pnyy",
-        "NCG:8 CVXR FHO FGNGVBA",
+        "NQQE:# 8 CVXR FHO FGNGVBA",
         "GVZR:03:34",
         "VASB:PNYYRQ VA OL JCQ / PNYYRE NQIVFRQ GUR ANGHENY TNF FHO FGNGVBA JNF BA SVER / FCNEXVAT");
 

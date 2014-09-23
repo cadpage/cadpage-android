@@ -64,7 +64,8 @@ choyvp pynff CNYnpxnjnaanPbhaglNzohynaprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:05/03",
         "GVZR:10:06:00",
         "VQ:1219924-1",
-        "NCG:- YHGUREJBBQ- 1 YNXR FPE EQ-211",
+        "NQQE:NCG - YHGUREJBBQ- 1 YNXR FPE EQ",
+        "NCG:211",
         "PNYY:CHOYVP NFFVFG");
 
     qbGrfg("G5",

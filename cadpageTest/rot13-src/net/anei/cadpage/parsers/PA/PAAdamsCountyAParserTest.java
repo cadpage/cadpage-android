@@ -27514,7 +27514,7 @@ choyvp pynff CNNqnzfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver - Fgehpgher Zhghny Nvq",
         "CEV:1",
         "CYNPR:5400 YVAPBYAJNL RNFG",
-        "NCG:57O",
+        "NQQE:#57O",
         "PVGL:TERRAR GJC",
         "HAVG:RG27");
 
@@ -28665,7 +28665,7 @@ choyvp pynff CNNqnzfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver - Fgehpgher Zhghny Nvq",
         "CEV:1",
         "CYNPR:5400 YVAPBYAJNL RNFG",
-        "NCG:57O",
+        "NQQE:#57O",
         "PVGL:TERRAR GJC",
         "HAVG:G4");
 
