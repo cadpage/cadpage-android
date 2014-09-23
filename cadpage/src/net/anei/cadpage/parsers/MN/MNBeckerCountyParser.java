@@ -23,6 +23,17 @@ public class MNBeckerCountyParser extends DispatchA38Parser {
   public String getFilter() {
     return "Tac10@co.becker.mn.us";
   }
+
+  @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_PRESERVE_QUARTER;
+  }
+
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    body = body.replace(" BALSAM AVE ST", " BALSAM AVE");
+    return super.parseMsg(body, data);
+  }
  
   @Override
   protected void parseAddress(String field, Data data) {
