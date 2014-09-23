@@ -165,6 +165,12 @@ public abstract class SmartAddressParser extends MsgParser {
   public static final int FLAG_AND_NOT_CONNECTOR = 0x400000;
   
   /**
+   * Flag indicating that 1/4 should be preservered as a fraction
+   * connecting two street names at an intersection
+   */
+  public static final int FLAG_PRESERVE_QUARTER = 0x800000;
+  
+  /**
    * Flag indicating that @ and at should be treated as cross street markers
    */
   public static final int FLAG_AT_MEANS_CROSS = 0x800000;
@@ -276,6 +282,8 @@ public abstract class SmartAddressParser extends MsgParser {
   private static final long ID_DOCTOR = 0x200000000L;
   
   private static final long ID_APT_SOFT = 0x200000000L;
+  
+  private static final long ID_NUMBER_SUFFIX = 0x400000000L;
   
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[A-Z]?[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
@@ -417,6 +425,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_NOT_ADDRESS, "YOM", "YOF", "YO");
     setupDictionary(ID_SINGLE_WORD_ROAD, "TURNPIKE");
     setupDictionary(ID_BLOCK, "BLK", "BLOCK");
+    setupDictionary(ID_NUMBER_SUFFIX, "ND", "RD", "TH");
     
     // Set up special cross street names
     addCrossStreetNames(
@@ -1055,7 +1064,7 @@ public abstract class SmartAddressParser extends MsgParser {
         
         if (sAddr >= tokens.length) return false;
         if (isType(sAddr, ID_CROSS_STREET)) return false;
-        if (isHouseNumber(sAddr) && !isType(sAddr+1, ID_NOT_ADDRESS | ID_AT_MARKER | ID_INCL_AT_MARKER) && !isConnector(sAddr+1)) {
+        if (isHouseNumber(sAddr) && !isType(sAddr+1, ID_NOT_ADDRESS | ID_AT_MARKER | ID_INCL_AT_MARKER | ID_NUMBER_SUFFIX) && !isConnector(sAddr+1)) {
           if (!isHouseNumber(sAddr+1) || isType(sAddr+2, ID_NUMBERED_ROAD_SFX)) {
             if (sAddr == 0 || ! isType(sAddr-1, ID_RELATION)) {
               if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX) && 
@@ -2245,6 +2254,9 @@ public abstract class SmartAddressParser extends MsgParser {
     // These need to be protected
     searchAddress = searchAddress.replace("AT&T", "AT%T");
     searchAddress = searchAddress.replace("1/2", "1%2");
+    if (isFlagSet(FLAG_PRESERVE_QUARTER)) {
+      searchAddress = searchAddress.replace("1/4", "1%4");
+    }
     searchAddress = searchAddress.replace(" C/S:", " C%S:");
     searchAddress = searchAddress.replace(" C/S ", " C%S ");
 
@@ -2519,6 +2531,10 @@ public abstract class SmartAddressParser extends MsgParser {
    * @return true if this is an apartment token
    */
   private boolean isAptToken(String token, boolean numberOK) {
+    
+    // Do not accept fractions
+    if (token.contains("/")) return false;
+    
     int pt = getAptBreak(token);
     if (pt < 0) return false;
     
