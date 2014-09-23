@@ -190,7 +190,6 @@ choyvp pynff FPQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:14063793",
         "PNYY:Pvgvmraf Nffvfg/ Freivpr",
         "NQQE:6005 J WVZ OVYGBA OYIQ", //v qbag xabj vs lbh unir vg frg hc gb znc jvgu gur ncg oyq be abg, ohg vg qbrf znxr n qvssrerapr va guvf pnfr. unys n oybpx bs bar
-        "NCG:6005 J WVZ OVYGBA OYIQ", 
         "PVGL:FNVAG TRBETR",
         "FG:FP");
 
@@ -306,7 +305,6 @@ choyvp pynff FPQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:14062659",
         "PNYY:GENSSVP VAPVQRAGF/JVGU VAWHEL-SVER",
         "NQQE:113 ZBGRY QE",
-        "NCG:113 ZBGRY QE",  //qbrf abg znc jvgu obgu
         "PVGL:FNVAG TRBETR",
         "FG:FP");
 
@@ -377,7 +375,6 @@ choyvp pynff FPQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:14062085",
         "PNYY:Pvgvmraf Nffvfg/ Freivpr",
         "NQQE:9587 PUNEYRFGBA UJL",
-        "NCG:9587 PUNEYRFGBA UJL", //qbrf abg znc jvgu guvf bar.
         "PVGL:FNVAG TRBETR",
         "FG:FP");
 
@@ -410,7 +407,6 @@ choyvp pynff FPQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:14061729",
         "PNYY:Shry Fcvyy",
         "NQQE:113 ZBGRY QE",
-        "NCG:113 ZBGRY QE",
         "PVGL:FNVAG TRBETR",
         "FG:FP");
 
@@ -419,7 +415,6 @@ choyvp pynff FPQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:14061730",
         "PNYY:Shry Fcvyy",
         "NQQE:113 ZBGRY QE",
-        "NCG:113 ZBGRY QE",
         "PVGL:FNVAG TRBETR",
         "FG:FP");
 
@@ -766,7 +761,6 @@ choyvp pynff FPQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:14059682",
         "PNYY:GENSSVP VAPVQRAGF/AB VAWHEL-SVER",
         "NQQE:5200 R WVZ OVYGBA OYIQ",
-        "NCG:5200 R WVZ OVYGBA OYIQ",
         "PVGL:FNVAG TRBETR",
         "FG:FP");
 
@@ -892,7 +886,6 @@ choyvp pynff FPQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:14058024",
         "PNYY:GENSSVP VAPVQRAGF/JVGU VAWHEL-SVER",
         "NQQE:2130 UVTUJNL 15 A",
-        "NCG:2130 UVTUJNL 15 A",
         "PVGL:FG TRBETR",
         "FG:FP");
 

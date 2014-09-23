@@ -8,6 +8,7 @@ public class SCDorchesterCountyParser extends DispatchA38Parser {
   
   public SCDorchesterCountyParser() {
     super("DORCHESTER COUNTY", "SC");
+    setupMultiWordStreets("OLD ST GEORGE");
   }
   
   @Override
