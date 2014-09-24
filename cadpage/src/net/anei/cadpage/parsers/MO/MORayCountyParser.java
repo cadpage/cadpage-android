@@ -94,6 +94,7 @@ public class MORayCountyParser extends SmartAddressParser {
       "DOMESTIC DISTURBANCE / VIOLENCE",
       "FALLS",
       "FIRE ALARM",
+      "JUVENILE",
       "HEART PROBLEMS / A.I.C.D.",
       "HEMORRHAGE / LACERATIONS",
       "MISCELLANEOUS",
