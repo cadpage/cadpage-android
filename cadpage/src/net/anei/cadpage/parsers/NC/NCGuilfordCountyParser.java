@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
  */
 public class NCGuilfordCountyParser extends DispatchOSSIParser {
   
-  private static final Pattern MARKER = Pattern.compile("^(?:\\d{1,4}:)?[\\w@\\-\\.]+? *[\n:](?=CAD:|[A-Z]{3,4};)");
+  private static final Pattern MARKER = Pattern.compile("^(?:(?:\\d{1,4}:)?[\\w@\\-\\.]+? *[\n:]|no subject / )(?=CAD:|[A-Z]{3,4};)");
   
   public NCGuilfordCountyParser() {
     super("GUILFORD COUNTY", "NC",
@@ -21,13 +21,13 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "@edispatches.com,93001,firedistrict13@listserve.com,CAD@greensboro-nc.gov";
+    return "@edispatches.com,93001,firedistrict13@listserve.com,CAD@greensboro-nc.gov,mhfd38all@listserve.com";
   }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     Matcher match = MARKER.matcher(body);
-    if (match.find()) {
+    if (match.lookingAt()) {
       body = body.substring(match.end()).trim();
       if (!body.startsWith("CAD:")) body = "CAD:" + body;
     }
