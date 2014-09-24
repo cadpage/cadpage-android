@@ -313,6 +313,7 @@ class Active911Vendor extends Vendor {
       "US/MN/BloomingtonFD",              "MNMinneapolisStPaul",
       "US/MN/CarverCounty",               "MNCarverCounty",
       "US/MN/DakotaCounty",               "MNDakotaCounty",
+      "US/MN/Edina",                      "MNEdina",
       "US/MN/HennepinCounty",             "MN/HennepinCounty",
       "US/MN/MilleLacsCounty",            "Cadpage2",
       "US/MN/MowerCounty",                "Cadpage2",
