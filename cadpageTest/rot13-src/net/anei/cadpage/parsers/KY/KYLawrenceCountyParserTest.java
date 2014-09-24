@@ -277,8 +277,7 @@ choyvp pynff XLYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "YNJERAPR_911:ZIN >ZBGBE IRP NPPVQRAG AB VAWHEVRF 3 2/1 OBGGBZ XRAQEN LBEX Pnq: 2014-0000002185",
         "PBQR:ZIN",
         "PNYY:ZBGBE IRP NPPVQRAG AB VAWHEVRF",
-        "NQQE:3 2 & 1 OBGGBZ XRAQEN LBEX",
-        "ZNQQE:3 2",
+        "NQQE:3 2/1 OBGGBZ XRAQEN LBEX",
         "VQ:2014-0000002185");
 
     qbGrfg("G25",

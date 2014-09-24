@@ -2252,13 +2252,16 @@ public abstract class SmartAddressParser extends MsgParser {
     // The field delimiter pattern we use will break tokens before and after any / or & 
     // characters.  But there are some special constructs that we do not want broken up.
     // These need to be protected
-    searchAddress = searchAddress.replace("AT&T", "AT%T");
-    searchAddress = searchAddress.replace("1/2", "1%2");
-    if (isFlagSet(FLAG_PRESERVE_QUARTER)) {
-      searchAddress = searchAddress.replace("1/4", "1%4");
+    
+    Matcher match = PROTECTED_TOKEN_PTN.matcher(searchAddress);
+    if (match.find()) {
+      StringBuffer  sb = new StringBuffer();
+      do {
+        match.appendReplacement(sb, match.group().replace('/', '%').replace('&', '%'));
+      } while (match.find());
+      match.appendTail(sb);
+      searchAddress = sb.toString();
     }
-    searchAddress = searchAddress.replace(" C/S:", " C%S:");
-    searchAddress = searchAddress.replace(" C/S ", " C%S ");
 
     // Now scan through the protected address line using the field token
     // delimiter pattern to identify the start and end of each token
@@ -2267,7 +2270,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // from producing zero length tokens
     List<Integer> tokenStartList = new ArrayList<Integer>();
     List<Integer> tokenEndList = new ArrayList<Integer>();
-    Matcher match = TOKEN_DELIM_PTN.matcher(searchAddress);
+    match = TOKEN_DELIM_PTN.matcher(searchAddress);
     int lastEnd = 0;
     while (match.find()) {
       int st = match.start();
@@ -2325,6 +2328,10 @@ public abstract class SmartAddressParser extends MsgParser {
       if (isType(ndx, ID_CITY)) lastCity = ndx;
     }
   }
+  
+  // Sequence containing slashes that need to be protected
+  private static final Pattern PROTECTED_TOKEN_PTN = Pattern.compile("\\bC/S:|\\b(?:\\d/\\d|AT&T|C/S)\\b");
+  
   // Token delimiter pattern should find field breaks
   // 1) for any sequence of one or more blanks
   // 2) Before or after any & or / or comma

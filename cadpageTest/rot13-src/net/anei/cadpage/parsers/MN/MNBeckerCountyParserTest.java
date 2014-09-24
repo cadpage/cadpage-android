@@ -4606,7 +4606,7 @@ choyvp pynff ZAOrpxrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:14PSF023822",
         "PNYY:Sver",
-        "NQQE:13840 ONYFNZ NIR FG",
+        "NQQE:13840 ONYFNZ NIR",
         "PVGL:SENMRR",
         "FG:ZA",
         "HAVG:6350 Senmrr SQ\a6375 Senmrr Erfphr Onfr\a6950 Jbys Ynxr SQ",
@@ -4810,7 +4810,7 @@ choyvp pynff ZAOrpxrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:14PSF023822",
         "PNYY:Sver",
-        "NQQE:13840 ONYFNZ NIR FG",
+        "NQQE:13840 ONYFNZ NIR",
         "PVGL:SENMRR",
         "FG:ZA",
         "HAVG:6350 Senmrr SQ\a6375 Senmrr Erfphr Onfr",
@@ -9827,7 +9827,7 @@ choyvp pynff ZAOrpxrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:14PSF023822",
         "PNYY:Sver",
-        "NQQE:13840 ONYFNZ NIR FG",
+        "NQQE:13840 ONYFNZ NIR",
         "PVGL:SENMRR",
         "FG:ZA",
         "HAVG:6375 Senmrr Erfphr Onfr",

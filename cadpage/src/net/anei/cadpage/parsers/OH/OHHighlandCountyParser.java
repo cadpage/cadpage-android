@@ -13,7 +13,7 @@ public class OHHighlandCountyParser extends DispatchEmergitechParser {
   public OHHighlandCountyParser() {
     super(new String[]{"Networkadmin:", "Emergitech:", "Dispatch:"}, 
           73, CITY_LIST, "HIGHLAND COUNTY", "OH");
-    addSpecialWords("ORCHARD", "SAUNER");
+    addSpecialWords("GRIFFITH", "ORCHARD", "SAUNER");
   }
   
   @Override

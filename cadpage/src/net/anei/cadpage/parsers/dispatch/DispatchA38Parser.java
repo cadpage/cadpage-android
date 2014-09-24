@@ -29,7 +29,7 @@ public class DispatchA38Parser extends FieldProgramParser {
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      Parser p = new Parser(field);
+      Parser p = new Parser(field.replace(" apt:", " Apt:"));
       String city = p.getLastOptional(',');
       if (city.length() == 2 || city.length() == 0) {
         data.strState = city;
@@ -37,8 +37,9 @@ public class DispatchA38Parser extends FieldProgramParser {
       }
       data.strCity = city;
       String apt = p.getLastOptional("Apt:");
-      parseAddress(p.get(), data);
-      if (!apt.equals(data.strApt)) {
+      String addr = p.get();
+      parseAddress(addr, data);
+      if (!apt.equals(data.strApt)  && !apt.equals(addr)) {
         data.strApt = append(data.strApt, "-", apt);
       }
     }

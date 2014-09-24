@@ -158,9 +158,9 @@ public class WAGrantCountyParser extends SmartAddressParser {
       if (g2 != null) data.strApt = g2;
       else data.strPlace = aMat.group(3);
     }
-    parseAddress(StartType.START_ADDR, addr, data);
+    parseAddress(addr, data);
   }
-  private static Pattern ADDR = Pattern.compile("(.*?); (?:(?:#|APT|ROOM|RM|STE) *([A-Z]*\\d+)|(.*?))", Pattern.CASE_INSENSITIVE);
+  private static Pattern ADDR = Pattern.compile("(.*?); *(?:(?:#|APT|ROOM|RM|STE) *([A-Z]*\\d+)|(.*?))", Pattern.CASE_INSENSITIVE);
   
   @Override
   public CodeSet getCallList() {

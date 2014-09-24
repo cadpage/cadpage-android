@@ -183,9 +183,7 @@ choyvp pynff FPQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:FP");
 
     qbGrfg("G9",
-        "(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 14063793\a" +
-        " PnyyGlcr: Pvgvmraf Nffvfg/ Freivpr\a" +
-        " Nqqerff: 6005 J WVZ OVYGBA OYIQ ncg:6005 J WVZ OVYGBA OYIQ, FNVAG TRBETR, FP",
+        "(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 14063793\a PnyyGlcr: Pvgvmraf Nffvfg/ Freivpr\a Nqqerff: 6005 J WVZ OVYGBA OYIQ ncg:6005 J WVZ OVYGBA OYIQ, FNVAG TRBETR, FP",
 
         "VQ:14063793",
         "PNYY:Pvgvmraf Nffvfg/ Freivpr",
