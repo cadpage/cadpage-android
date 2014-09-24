@@ -347,6 +347,7 @@ class Active911Vendor extends Vendor {
       "US/MO/Rejis",                      "MOStLouisCountyE",
       "US/MO/StCharlesCounty",            "MOStCharlesCounty",
       "US/MO/StoneCounty",                "MOStoneCounty",
+      "US/MO/SouthernBoone",              "MOBooneCounty",
       "US/MS/Biloxi",                     "MSBiloxi",
       "US/MS/DesotoCounty",               "MSDeSotoCounty",
       "US/MT/GallatinCounty",             "BMTGallatinCounty",
