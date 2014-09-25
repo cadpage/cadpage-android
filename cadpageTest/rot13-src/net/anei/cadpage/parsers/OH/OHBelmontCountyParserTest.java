@@ -160,7 +160,7 @@ choyvp pynff BUOryzbagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:9163",
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:221 V-70 R",
-        "ZNQQE:221 V 70 R",
+        "ZNQQE:221 V 70 R", //svaqf vagrefgngr bayl
         "PVGL:CRNFR GJC",
         "VASB:ZNYR HAERFCBAFVIR VA NA RKPNIGBE");
 
