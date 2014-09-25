@@ -7,7 +7,6 @@ vzcbeg bet.whavg.Grfg;
 /*
 YnEhr Pbhagl, XL
 
-
 Pbagnpg: Npgvir911
 Ntrapl anzr: YnEhr Pbhagl SQ
 Ybpngvba: Ubqtraivyyr, XL, Havgrq Fgngrf
