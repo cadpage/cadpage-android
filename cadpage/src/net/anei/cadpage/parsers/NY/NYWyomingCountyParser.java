@@ -42,6 +42,7 @@ public class NYWyomingCountyParser extends SmartAddressParser {
       "CAST", "CASTILE",
       "COVT", "COVINGTON",
       "EAGT", "EAGLE",
+      "FRET", "FREEDOM",
       "GAIT", "GAINSVEILLE",
       "GENT", "GENESEE FALLS",
       "JAVT", "JAVA",

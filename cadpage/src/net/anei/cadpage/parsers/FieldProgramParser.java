@@ -1889,9 +1889,8 @@ public class FieldProgramParser extends SmartAddressParser {
         return true;
       }
       if (pattern != null) {
-        Matcher match = pattern.matcher(field);
-        if (!match.matches()) return false;
-        if (match.groupCount() == 1) field = match.group(1);
+        field = checkPattern(field);
+        if (field == null) return false;
         parse(field, data);
         return true;
       }
@@ -1919,16 +1918,34 @@ public class FieldProgramParser extends SmartAddressParser {
       // If a hard pattern is specified, and this doesn't pass it
       // reject this message
       if (pattern != null) {
-        Matcher match = pattern.matcher(field);
-        if (match.matches()) {
-          if (match.groupCount() == 1) field = match.group(1);
-        } else if (hardPattern) abort();
+        String tmp = checkPattern(field);
+        if (tmp == null) {
+          if (hardPattern) abort();
+          tmp = field;
+        }
+        field = tmp;
       }
       if (forceVerify) {
         if (!checkParse(field, data)) abort();
       } else {
         parse(field, data);
       }
+    }
+    
+    /**
+     * Check if field matches pattern criteria
+     * @param field field value
+     * @return adjusted field value if match succeds, null if match fails
+     */
+    private String checkPattern(String field) {
+      if (pattern == null) return field;
+      Matcher match = pattern.matcher(field);
+      if (!match.matches()) return null;
+      for (int ii = 0; ii < match.groupCount(); ii++) {
+        String result = match.group(ii+1);
+        if (result != null) return result;
+      }
+      return field;
     }
     
     /*
