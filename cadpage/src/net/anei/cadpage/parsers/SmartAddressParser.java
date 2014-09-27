@@ -284,6 +284,10 @@ public abstract class SmartAddressParser extends MsgParser {
   private static final long ID_APT_SOFT = 0x200000000L;
   
   private static final long ID_NUMBER_SUFFIX = 0x400000000L;
+
+  private static final long ID_ST = 0x800000000L;
+  
+  private static final long ID_SAINT = 0x1000000000L;
   
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[A-Z]?[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
@@ -614,6 +618,11 @@ public abstract class SmartAddressParser extends MsgParser {
     for (String name : names) {
       setupDictionary(ID_DOCTOR, name, name+"S", name+"'S");
     }
+  }
+  
+  protected void setupSaintNames(String ... names) {
+    setupDictionary(ID_ST, "ST");
+    setupDictionary(ID_SAINT, names);
   }
   
   
@@ -1924,7 +1933,10 @@ public abstract class SmartAddressParser extends MsgParser {
       
       // Another exception is if the road suffix is "DR" and is followed
       // by a known  Doctor name
-      if (!isType(endNdx, ID_DR) || !isType(endNdx+1, ID_DOCTOR)) return -1;
+      // Or ST followed by a known Saint name
+      if (!isType(endNdx, ID_DR) || !isType(endNdx+1, ID_DOCTOR)) {
+        if (!isType(endNdx, ID_ST) || !isType(endNdx+1, ID_SAINT)) return -1;
+      }
     }
     
     // A road suffix one or two tokens past the end of the city also disqualifies it
