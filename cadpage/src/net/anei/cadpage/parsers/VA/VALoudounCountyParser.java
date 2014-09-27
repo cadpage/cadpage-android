@@ -26,7 +26,7 @@ public class VALoudounCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "Message_Notification@usamobility.net,@everbridge.net";
+    return "Message_Notification@usamobility.net,@everbridge.net,CC_Message_Notification@usamobility.net";
   }
 
   @Override
@@ -143,12 +143,13 @@ public class VALoudounCountyParser extends FieldProgramParser {
   }
   
   public String getProgram() {
-    return super.getProgram().replace("X", "X UNIT").replace("CITY", "CITY ST") + " TIME URL";
+    return super.getProgram().replace("X", "X UNIT").replace("CITY", "CITY ST").replace("BOX", "BOX CITY") + " TIME URL";
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
@@ -168,6 +169,19 @@ public class VALoudounCountyParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "CODE CALL";
+    }
+  }
+  
+  private Pattern ADDR_BOX_PTN = Pattern.compile("(.*)-BOX-(.*)");
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = ADDR_BOX_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        data.strBox =  match.group(2).trim();
+      }
+      super.parse(field, data);
     }
   }
   
@@ -204,8 +218,10 @@ public class VALoudounCountyParser extends FieldProgramParser {
       "AB", "ASHBURN",
       "AL", "ALDIE",
       "BL", "BLUEMONT",
+      "CC", "CLARK COUNTY",
       "CE", "CENTREVILLE",
       "CH", "CHANTILLY",
+      "GR", "GR",                //????
       "HA", "HAMILTON",
       "LB", "LEESBURG",
       "LV", "LOVETTSVILLE",
@@ -213,6 +229,7 @@ public class VALoudounCountyParser extends FieldProgramParser {
       "PA", "PARIS",
       "PS", "PAEONIAN",
       "PV", "PURCELLVILLE",
+      "RH", "ROUND HILL",
       "SP", "STERLING",
       "ST", "STERLING",
       "RH", "ROUND HILL",
@@ -228,7 +245,7 @@ public class VALoudounCountyParser extends FieldProgramParser {
       "FX", "FAIRFAX COUNTY",
       "JE", "JEFFERSON COUNTY/WV",
       "PW", "PRINCE WILLIAM COUNTY"
-
+//      "WA", "WASHINGTON COUNTY/MD"
    });
   
   private static final String[] CITY_LIST = new String[]{
