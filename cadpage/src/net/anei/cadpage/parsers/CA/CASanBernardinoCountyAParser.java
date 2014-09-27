@@ -99,7 +99,7 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern BLANK_DASH_PTN = Pattern.compile("(.*)(?<!^\\d+) -(.*)");
+  private static final Pattern BLANK_DASH_PTN = Pattern.compile("(.*) -(.*)");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -117,8 +117,11 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
       field = stripFieldEnd(field,  "-");
       Matcher match = BLANK_DASH_PTN.matcher(field);
       if (match.matches()) {
-        field = match.group(1).trim();
-        data.strApt = match.group(2).trim();
+        String tmp = match.group(1).trim();
+        if (!NUMERIC.matcher(tmp).matches()) {
+          field = tmp;
+          data.strApt = match.group(2).trim();
+        }
       }
 
       field = append(data.strAddress, " - ", field);
