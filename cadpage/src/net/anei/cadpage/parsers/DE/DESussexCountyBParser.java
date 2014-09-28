@@ -10,6 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DESussexCountyBParser extends FieldProgramParser {
   
   private static final Pattern ALT_START_SEQ = Pattern.compile("^Sta: +Inc#: +([-\\d]+) +(.*)");
+  private  static final Pattern DELIM = Pattern.compile("(?=(?:Sta|Call at|Loc|City|Problem|Inc#|Lat|Long|DISP|Cross St):)");
   
   public DESussexCountyBParser() {
     super(CITY_CODES, "SUSEX COUNTY", "DE",
@@ -19,6 +20,11 @@ public class DESussexCountyBParser extends FieldProgramParser {
   @Override
   public String getFilter() {
     return "@c-msg.net,cad@sussexcountyde.gov";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
   }
 
   @Override
@@ -32,8 +38,8 @@ public class DESussexCountyBParser extends FieldProgramParser {
     }
     
     body = ALT_START_SEQ.matcher(body).replaceAll("Inc0: $1 Sta: $2");
-    body = body.replace(" Loc::", " Loc0:").replace("City: :", "City:").replace("Loc:", " Loc:").replace("City:", " City:");
-    if (!super.parseMsg(body, data)) return false;
+    body = body.replace(" Loc::", " Loc0:").replace("City: :", "City:");
+    if (!super.parseFields(DELIM.split(body), data)) return false;
     setGPSLoc(data.strGPSLoc, data);
     return true;
   }
