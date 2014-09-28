@@ -24,7 +24,7 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
 
   @Override
   public String getFilter() {
-    return "MHC911@co.henry.va.us";
+    return "MHC911@co.henry.va.us,Henrycova911@co.henry.va.us";
   }
   
   @Override
