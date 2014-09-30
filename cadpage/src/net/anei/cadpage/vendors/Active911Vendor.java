@@ -484,6 +484,7 @@ class Active911Vendor extends Vendor {
       "US/PA/AlleghenyCounty",            "PAAlleghenyCounty",
       "US/PA/ArmstrongCounty",            "PAArmstrongCounty",
       "US/PA/BerwynFire",                 "PAChesterCountyD1",
+      "US/PA/BeaverCounty",               "PABeaverCounty",
       "US/PA/BlairCounty",                "PABlairCount",
       "US/PA/BradfordCounty",             "PABradfordCounty",
       "US/PA/BucksCounty",                "PABucksCounty",

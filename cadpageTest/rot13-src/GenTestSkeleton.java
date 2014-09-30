@@ -37,11 +37,10 @@ choyvp pynff TraGrfgFxryrgba {
     
     // Fgneg gur znva cebprffvat ybbc
     juvyr (yvar != ahyy) {
-
-      // Trarengr gur ntrapl urnqvat rkprcg sbe gur fraqre frpgvba juvpu jvyy or nqqrq yngre
-      cf.cevagya();
-      cf.cevagya("Pbagnpg: Npgvir911");
-      cf.cevagya(yvar.fhofgevat(2));
+      
+      // Fnir ntrapl yvar gb perngr gur ntrapl urnqvat
+      // ohg qba'g npghnyyl trarengr vg hagvy jr svaq ng yrnfg bar zrffntr yvar
+      Fgevat ntraplYvar = yvar.fhofgevat(2);
       
       juvyr (gehr) {
         yvar = ve.ernqYvar();
@@ -59,13 +58,13 @@ choyvp pynff TraGrfgFxryrgba {
       Yvfg<Fgevat> yvarYvfg = arj NeenlYvfg<Fgevat>();
       Frg<Fgevat> fraqreFrg = arj UnfuFrg<Fgevat>();
       Fgevat fhowrpg = ahyy;
+      Fgevat fraqre = ahyy;
       
       juvyr (gehr) {
         yvar = ve.ernqYvar();
         vs (yvar == ahyy || vfNtraplYvar(yvar)) oernx;
         vs (yvar.fgnegfJvgu("* Sebz:")) {
-          yvar = yvar.fhofgevat(7).gevz();
-          vs (fraqreFrg.nqq(yvar)) cf.cevagya("Fraqre: " + yvar);
+          fraqre = yvar.fhofgevat(7).gevz();
         }
         ryfr vs (yvar.fgnegfJvgu("* Fhowrpg: ")) {
           fhowrpg = yvar.fhofgevat(11);
@@ -89,8 +88,18 @@ choyvp pynff TraGrfgFxryrgba {
           }
           yvar = yvar.ercynpr("\\e\\a", "\\a").gevz();
           juvyr (yvar.raqfJvgu("\\a")) yvar = yvar.fhofgevat(0,yvar.yratgu()-2).gevz();
-          vag pag = yvarYvfg.fvmr();
-          vs (yvarFrg.nqq(yvar)) yvarYvfg.nqq(yvar);
+          vs (yvarFrg.nqq(yvar)) {
+            vs (ntraplYvar != ahyy) {
+              cf.cevagya();
+              cf.cevagya("Pbagnpg: Npgvir911");
+              cf.cevagya(ntraplYvar);
+              ntraplYvar = ahyy;
+              fraqreFrg.pyrne();
+            }
+            vs (fraqre != ahyy && fraqreFrg.nqq(fraqre.gbHccrePnfr())) cf.cevagya("Fraqre: " + fraqre);
+            yvarYvfg.nqq(yvar);
+          }
+          fraqre = ahyy;
           fxvcOybpx(ve);
         }
       }
