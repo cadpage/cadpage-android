@@ -8,6 +8,10 @@ public class OHBelmontCountyParser extends DispatchEmergitechParser {
     super("BelmontCounty911:", 77, CITY_LIST, "BELMONT COUNTY", "OH");
   }
 
+  @Override
+  public String getFilter() {
+    return "BelmontCounty911@comcast.net";
+  }
   
   private static final String[] CITY_LIST = new String[] { 
     // Cities
