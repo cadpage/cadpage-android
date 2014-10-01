@@ -10590,7 +10590,6 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYY RZF/ZRQVPNY PNYYF",
         "NQQE:2275 BYQ QVKVR UJL",
         "PVGL:UNEG PBHAGL",
-        "ANZR:OYHRTENFF PRYYHYNE",
         "VQ:2014-0000039523");
 
     qbGrfg("G13",

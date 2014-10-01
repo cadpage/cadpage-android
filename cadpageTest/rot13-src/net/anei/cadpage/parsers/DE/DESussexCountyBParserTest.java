@@ -300,7 +300,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:78NF3",
         "NQQE:10064 Zrzbel Eq",
         "PVGL:UNEEVATGBA",
-        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF");
+        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF   Q");
 
     qbGrfg("G3",
         "(PNQ Nyreg) Vap#: 2012-018835 78NFG  Pnyy ng: 14514 Bnx Eq             Ybp:                          Pvgl:19950  Ceboyrz:  Nffnhyg/Frkhny Nffnhyg-OYF       Q",
@@ -308,7 +308,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:78NFG",
         "NQQE:14514 Bnx Eq",
         "PVGL:TERRAJBBQ",
-        "PNYY:Nffnhyg/Frkhny Nffnhyg-OYF");
+        "PNYY:Nffnhyg/Frkhny Nffnhyg-OYF       Q");
 
     qbGrfg("G4",
         "(PNQ Nyreg) 78NFG  Pnyy ng: 6300 Frnfuber Ujl        Ybp: HFR ONPX QBBE            Pvgl:19933  Ceboyrz:  Purfg Cnva-NYF                  Vap#: 2012-018955    ",
