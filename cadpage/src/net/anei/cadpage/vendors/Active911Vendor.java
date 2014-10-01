@@ -252,6 +252,7 @@ class Active911Vendor extends Vendor {
       "US/IN/VigoCounty",                 "INVigoCounty",
       "US/KS/CowleyCounty",               "KSCowleyCounty",
       "US/KS/JohnsonCounty",              "KSJohnsonCounty",
+      "US/KY/LarueCounty",                "KYLaRueCounty",
       "US/KS/LeavenworthCounty",          "KSLeavenworthCounty",
       "US/KS/MarionCounty",               "KSMarionCounty",
       "US/KS/MontgomeryCounty",           "KSMontgomeryCounty",

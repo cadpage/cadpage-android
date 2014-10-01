@@ -3750,5 +3750,27 @@ Have a nice day,
 
 ***********************************************************************
 
+Well that is interesting.  And we are about the only app that Norton flags as questionable.  I should feel honored.
+
+Norton is selling mostly smoke and mirrors here.  This isn't Windows where there is no inter-app security to speak of, and their app isn't a rooted system app.  Which means their app doesn't really have access to any other apps and can not do the virus scanning they are trying to sell it as doing.  What they are doing is reading the app permission lists from the package manager and looking for something suspicious.
+
+Their theft prevention feature is useful, but there are better theft prevention apps that are free.  I use Cerberus myself.  And since they are not rooted, they can not turn on fine GPS location tracking if it is not on already.  And most other theft prevention apps take some measures to prevent unauthorized users from finding and disabling or uninstalling them.  Norton does not seem to do any of that.
+
+The permissions requested by Cadpage, and why we need them, are documented at http://www.cadpage.org/faq/permissions.  We do  not access the contact list, we do retrieve your configured email address and phone number to look up your payment subscription status on our authorization server.  We also access the Internet to support direct paging.  A permission scanner finding an app that retrieves your contact name/email/phone number and can potentially send that information to a remote server does have a legitimate reason to raise an alarm.
+
+But you do not need a special app to do that.  You have to approve the app permissions when the app is installed.  Or when any future update requests new permissions.  You can get the current permission list about any app from the application manager.  Just open system settings and select
+Application Manager > (app in question) 
+and scroll down to read the requested permissions.  If you want to see something really alarming, look up the permissions granted to Norton Antivirus.  To be fair, they need to use things like access to the camera and microphone to help you surreptitiously track down a missing phone.  You just have to trust them not to use those capabilities when you do not want them to.
+
+You are registered to receive direct pages from CodeMessaging.  If you are also getting text alerts from someone else, there are a number of reasons why text alerts might be delayed or missed.  For problem with direct pages, open Cadpage Settings and select
+Direct Paging Vendors > Reconnect Direct paging
+which usually fixes things.  If it does not, we will need to contact CodeMessaging support and ask them for help.
+
+Have a nice day,
+-Ken
+
+***********************************************************************
+
+
 Useful search expressions
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT):.*\r?\n)*+(?! +"CITY:)
