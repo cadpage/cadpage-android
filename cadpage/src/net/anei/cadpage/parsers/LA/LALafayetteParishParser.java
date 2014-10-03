@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.LA;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -19,7 +20,7 @@ public class LALafayetteParishParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "cadalert@lafayettela.gov";
+    return "cadalert@lafayettela.gov,alerts@carencrofd.org";
   }
   
   @Override
@@ -30,6 +31,7 @@ public class LALafayetteParishParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("DATE_TIME_SRC")) return new MyDateTimeSourceField();
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("REMARKS")) return new IdField("Remarks >RPT#< (\\d\\d-\\d{8})", true);
     if (name.equals("EXTRA")) return new MyExtraField();
     return super.getField(name);
@@ -49,6 +51,24 @@ public class LALafayetteParishParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "DATE TIME SRC";
+    }
+  }
+  
+  private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*)\\.([A-Z])");
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = ADDR_CITY_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        data.strCity = convertCodes(match.group(2), CITY_CODES);
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String  getFieldNames() {
+      return super.getFieldNames() + " CITY";
     }
   }
 
@@ -101,4 +121,15 @@ public class LALafayetteParishParser extends FieldProgramParser {
   }
   private static final Pattern TW_PTN = Pattern.compile("\\bTW\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CROSS_HOUSE_PTN = Pattern.compile("\\d+ +(.*)");
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "B", "BROUSSARD",
+      "C", "CARENCRO",
+      "D", "DUSON",
+      "L", "LAFAYETTE",
+      "P", "LAFAYETTE PARISH",
+      "S", "SCOTT",
+      "Y", "YOUNGSVILLE"
+
+  });
 }
