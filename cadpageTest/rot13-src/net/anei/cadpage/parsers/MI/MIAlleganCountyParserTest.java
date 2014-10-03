@@ -42217,7 +42217,7 @@ choyvp pynff ZVNyyrtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "rznvy sebz lbhe flfgrz.",
 
         "NQQE:38 FO V 196 UJL",
-        "ZNQQE:38 V 196",
+        "ZNQQE:42.64425,-86.18897",
         "PVGL:Fnhtnghpx Gjc",
         "CYNPR:FO V196 38ZZ",
         "CUBAR:(616) 308-2695",
