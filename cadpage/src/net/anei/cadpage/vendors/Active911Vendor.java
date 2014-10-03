@@ -577,6 +577,7 @@ class Active911Vendor extends Vendor {
       "US/TX/SanMarcosCounty",            "TXSanMarcosCounty",
       "US/TX/Seguin",                     "TXKeller",
       "US/TX/Smhcems",                    "TXHaysCounty",
+      "US/TX/SmithCounty",                "TXSmithCounty",
       "US/TX/Stationalerting",            "TXFortBendCountyB",
       "US/TX/VillageFire",                "TXVillage",
       "US/TX/West",                       "TXMclennanCounty",
