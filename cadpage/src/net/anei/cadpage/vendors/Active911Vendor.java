@@ -387,6 +387,7 @@ class Active911Vendor extends Vendor {
       "US/NC/RockinghamCounty",           "NCRockinghamCounty",
       "US/NC/RowanCounty",                "NCRowanCounty",
       "US/NC/SampsonCounty",              "NCSampsonCounty",
+      "US/NC/TransylvaniaCounty",         "NCTransylvaniaCounty",
       "US/NC/USAMobility",                "NCWayneCountyA",
       "US/NC/WarrenCounty",               "NCWarrenCounty",
       "US/NC/WayneCounty",                "NCWayneCountyB",
