@@ -545,7 +545,7 @@ choyvp pynff NYYvzrfgbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-37273\a PnyyGlcr: Y-Genssvp / Genafcbegngvba Nppvqragf\a Nqqerff: OYNPX EQ @ UBYG EQ, NY",
         "VQ:2013-37273",
         "PNYY:Y-Genssvp / Genafcbegngvba Nppvqragf",
-        "NQQE:OYNPX EQ @ UBYG EQ",
+        "NQQE:OYNPX EQ & UBYG EQ",
         "FG:NY");
 
     qbGrfg("G50",

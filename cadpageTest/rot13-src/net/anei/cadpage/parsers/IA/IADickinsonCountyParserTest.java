@@ -184,7 +184,7 @@ choyvp pynff VNQvpxvafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:02-NI",
         "PNYY:52",
         "NQQE:2408 25GU FG",
-        "NCG:#13",
+        "NCG:13",
         "PVGL:FCVEVG YNXR",
         "ANZR:NPPRFF OL PRAGRE YNXR QE",
         "VASB:ZNYR CBFFVOYR CVYY BIREQBFR");
@@ -457,8 +457,8 @@ choyvp pynff VNQvpxvafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G40",
         "QP911:ANGHER: 10-52 /YBPNGVBA: 2300 23eq #36 /PBZZRAGF: yvsryvar npgvingvba, ab erfcbafr",
         "PNYY:10-52",
-        "NQQE:2300 23eq #36",
-        "ZNQQE:2300 23eq",
+        "NQQE:2300 23eq",
+        "NCG:36",
         "VASB:yvsryvar npgvingvba, ab erfcbafr");
 
     qbGrfg("G42",
@@ -473,7 +473,7 @@ choyvp pynff VNQvpxvafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:02-NI",
         "PNYY:52",
         "NQQE:2810 NHEBEN NIR J",
-        "NCG:#213",
+        "NCG:213",
         "PVGL:FCVEVG YNXR",
         "ANZR:NPPRFF OL 30GU FG",
         "VASB:SRZNYR SRYY NG 11. PBZCYNVAVAT BS ONPX CNVA. 10-39");
@@ -555,7 +555,7 @@ choyvp pynff VNQvpxvafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:02-NI",
         "PNYY:52",
         "NQQE:1514 UVYY NIR",
-        "NCG:#13",
+        "NCG:13",
         "PVGL:FCVEVG YNXR",
         "K:15GU FG / 16GU FG",
         "VASB:64 LB ZNYR UNIVAT RVGURE FGEBXR BE FRVMHER. PBZR GB GUR ONPX FVQR");
@@ -693,7 +693,7 @@ choyvp pynff VNQvpxvafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:02-NI",
         "PNYY:52",
         "NQQE:1901 23EQ FG",
-        "NCG:#139",
+        "NCG:139",
         "PVGL:FCVEVG YNXR",
         "K:FHAARE NIR / MRAVGU NIR",
         "VASB:66 LB SRZNYR UNF ORRA FVPX FVAPR GHRFQNL. RNGRA GJVPR. UNF QVNEURN.");
@@ -816,7 +816,7 @@ choyvp pynff VNQvpxvafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:02-NI",
         "PNYY:52",
         "NQQE:2300 23EQ FG",
-        "NCG:#36",
+        "NCG:36",
         "PVGL:FCVEVG YNXR",
         "K:MRAVGU NIR / UJL 71",
         "VASB:SRZNYR SNVYRQ GB PURPX VA GBQNL. YVSR YVAR.");

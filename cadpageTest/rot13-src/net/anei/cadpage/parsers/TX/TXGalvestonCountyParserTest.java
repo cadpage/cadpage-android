@@ -1443,8 +1443,8 @@ choyvp pynff GKTnyirfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G12",
         "(SLV) SVER - ABA FCRPVSVP 10100 UJL 6 F bs gur snvetbhaqf bire gur gerr yvar [05/03/14 20:16:27 UHAGREW]",
         "PNYY:SVER - ABA FCRPVSVP",
-        "NQQE:10100 UJL 6 F",
-        "VASB:bs gur snvetbhaqf bire gur gerr yvar",
+        "NQQE:10100 UJL 6",
+        "VASB:F bs gur snvetbhaqf bire gur gerr yvar",
         "QNGR:05/03/14",
         "GVZR:20:16:27");
 

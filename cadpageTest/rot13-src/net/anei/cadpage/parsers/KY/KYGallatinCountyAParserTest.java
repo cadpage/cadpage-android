@@ -450,7 +450,7 @@ choyvp pynff XLTnyyngvaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:8201 ZRQVPNY",
         "NQQE:399 PRAGRE NI",
         "ZNQQE:399 PRAGRE NIR",
-        "NCG:#OYQT 40 NCG 27",
+        "NCG:OYQT 40 NCG 27",
         "PVGL:JNEFNJ",
         "VASB:RYQREYL SRZNYR QVSS OERNGUVAT VF GURER NYBAR,");
 

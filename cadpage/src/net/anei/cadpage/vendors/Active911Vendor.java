@@ -312,6 +312,7 @@ class Active911Vendor extends Vendor {
       "US/MI/MidlandCounty",              "MIMidlandCounty",
       "US/MD/MontgomeryCounty",           "MDMontgomeryCounty",
       "US/MI/ShiawasseeCounty",           "MIShiawasseeCounty",
+      "US/MN/BeckerCounty",               "MNBeckerCounty",
       "US/MN/BloomingtonFD",              "MNMinneapolisStPaul",
       "US/MN/CarverCounty",               "MNCarverCounty",
       "US/MN/DakotaCounty",               "MNDakotaCounty",

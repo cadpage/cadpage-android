@@ -2203,7 +2203,7 @@ choyvp pynff PBYnCyngnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:Q16 QS16",
         "PNYY:S-NYNEZ",
         "NQQE:71 ARRQYRF JL",
-        "K:EBNQ GB",
+        "CYNPR:EBNQ GB",
         "VQ:14QS-2860",
         "QNGR:08/14/2014",
         "GVZR:07:59",

@@ -522,7 +522,8 @@ choyvp pynff VAUnapbpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "((49695) Urneg / Purfg Cnva/100 SVEFG NCG.204// TSQC1/.) Urneg / Purfg Cnva/100 SVEFG NCG.204// TSQC1/.",
         "PNYY:Urneg / Purfg Cnva",
-        "NQQE:100 SVEFG NCG 204",
+        "NQQE:100 SVEFG",
+        "NCG:204",
         "HAVG:TSQC1",
         "VASB:.");
 
@@ -634,7 +635,8 @@ choyvp pynff VAUnapbpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G13",
         "((49695) Urneg / Purfg Cnva/100 SVEFG NCG.204// TSQC1/.) Urneg / Purfg Cnva/100 SVEFG NCG.204// TSQC1/.",
         "PNYY:Urneg / Purfg Cnva",
-        "NQQE:100 SVEFG NCG 204",
+        "NQQE:100 SVEFG",
+        "NCG:204",
         "HAVG:TSQC1",
         "VASB:.");
 

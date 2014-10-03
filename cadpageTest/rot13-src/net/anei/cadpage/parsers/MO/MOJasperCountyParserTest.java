@@ -3216,8 +3216,7 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:ZZ26.0JO",
         "NQQE:26035 V44 J",
         "ZNQQE:26035 V 44 J",
-        "K:ENZC V44J GB PE 100",
-        "VASB:ENZC 37 GB V44J / 70P");
+        "VASB:ENZC V44J GB PE 100 / ENZC 37 GB V44J / 70P");
 
     qbGrfg("G9",
         "PNQ:Hcqngr: ;SVER QRGNVY;FNEPBKVR FRAVBE UBHFVAT;400-2Q UVTU FG;FEPK;OENAPU EQ;A 5GU FG;GUR CERIVBHF YBPNGVBA JNF 1215 UVTU FG [02/03/14 13:00:51 NZNQVFBA] ZREP",
@@ -3271,8 +3270,7 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:ZZ23.2JO",
         "NQQE:23229 V44 J",
         "ZNQQE:23229 V 44 J",
-        "K:ENZC V44J GB PE 100",
-        "VASB:ENZC 37 GB V44J / NABGURE PNYYRE - 417-766-6846",
+        "VASB:ENZC V44J GB PE 100 / ENZC 37 GB V44J / NABGURE PNYYRE - 417-766-6846",
         "QNGR:02/02/14",
         "GVZR:20:33:10");
 
@@ -3296,8 +3294,7 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:ZZ23.2JO",
         "NQQE:23229 V44 J",
         "ZNQQE:23229 V 44 J",
-        "K:ENZC V44J GB PE 100",
-        "VASB:ENZC 37 GB V44J / IRU ABJ BA SVER NABGURE PNYYRE - 417-316-1193");
+        "VASB:ENZC V44J GB PE 100 / ENZC 37 GB V44J / IRU ABJ BA SVER NABGURE PNYYRE - 417-316-1193");
 
     qbGrfg("G18",
         "PNQ:Hcqngr: ;NPPVQRAG HAXABJA BE VAWHEL;ZZ23.2JO;23229 V44 J;PAGL;ENZC V44J GB PE 100;ENZC 37 GB V44J;NABGURE PNYYRE - 631-991-1950 [02/02/14 20:29:40 WCEHVGG]",
@@ -3305,8 +3302,7 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:ZZ23.2JO",
         "NQQE:23229 V44 J",
         "ZNQQE:23229 V 44 J",
-        "K:ENZC V44J GB PE 100",
-        "VASB:ENZC 37 GB V44J / NABGURE PNYYRE - 631-991-1950",
+        "VASB:ENZC V44J GB PE 100 / ENZC 37 GB V44J / NABGURE PNYYRE - 631-991-1950",
         "QNGR:02/02/14",
         "GVZR:20:29:40");
 
@@ -3316,8 +3312,7 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:ZZ23.2JO",
         "NQQE:23229 V44 J",
         "ZNQQE:23229 V 44 J",
-        "K:ENZC V44J GB PE 100",
-        "VASB:ENZC 37 GB V44J / JUVGR PNE VA GUR QVGPU, QVQA`G WHFG FRR VG UNCCRA BAYL FNJ FB");
+        "VASB:ENZC V44J GB PE 100 / ENZC 37 GB V44J / JUVGR PNE VA GUR QVGPU, QVQA`G WHFG FRR VG UNCCRA BAYL FNJ FB");
 
     qbGrfg("G20",
         "PNQ:SLV: ;SVER VASB ANZR AHZORE;EBOREG ZBBER;5382 PBHAGL YNAR 53;PAGL;RYZ EQ;unf dhrfgvbaf sbe gur puvrs bs gur fnepbkvr sver qrcg [02/01/14 11:41:52 WYNATYRL]",

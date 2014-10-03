@@ -38,6 +38,7 @@ public class DispatchA38Parser extends FieldProgramParser {
       data.strCity = city;
       String apt = p.getLastOptional("Apt:");
       String addr = p.get();
+      addr = addr.replace('@', '&');
       parseAddress(addr, data);
       if (!apt.equals(data.strApt)  && !apt.equals(addr)) {
         data.strApt = append(data.strApt, "-", apt);
@@ -46,7 +47,7 @@ public class DispatchA38Parser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "ADDR PLACE APT CITY ST";
+      return "ADDR APT CITY ST";
     }
   }
 }

@@ -334,7 +334,8 @@ choyvp pynff APWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G14",
         "OERAG:1 HAVG 1 2014017939 17:31:27 VASB ZRRGVAT NAQ GENVAVAT FJVSG JNGRE NG 7CZ",
-        "NQQE:HAVG 1",
+        "NQQE:1",
+        "NCG:1",
         "VQ:2014017939",
         "GVZR:17:31:27",
         "PNYY:TRARENY NYREG",

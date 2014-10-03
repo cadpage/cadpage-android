@@ -428,9 +428,9 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G38",
         "[2280]-68 AO A BS 70 PNE EBYY BIRE -2280 ",
-        "NQQE:68 AO A",
-        "ZNQQE:68 A",
-        "PNYY:BS 70 PNE EBYY BIRE",
+        "NQQE:68 AO A BS 70",
+        "ZNQQE:68 & 70",
+        "PNYY:PNE EBYY BIRE",
         "VQ:2280");
 
     qbGrfg("G39",

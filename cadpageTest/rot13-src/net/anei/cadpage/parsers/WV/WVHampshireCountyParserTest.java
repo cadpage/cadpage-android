@@ -2971,8 +2971,8 @@ choyvp pynff JIUnzcfuverPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(RTRAVY>TRARENY VYYARFF) UNZCPB911:26905 FGNGR EQ 55 Pnq: 2014-0000009386",
         "PBQR:RTRAVY",
         "PNYY:TRARENY VYYARFF",
-        "NQQE:26905 FGNGR EQ",
-        "NCG:55",
+        "NQQE:26905 FGNGR EQ 55",
+        "ZNQQE:26905 FGNGR 55",
         "VQ:2014-0000009386");
 
     qbGrfg("G2",
@@ -3125,8 +3125,8 @@ choyvp pynff JIUnzcfuverPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(RSNYY >SNYY CNGVRAGF) UNZCFUVER911:29227 FGNGR EQ 55 UNEQL PB RZRETRAPL FREIVPRF 3045300291 Pnq: 2014-0000008038",
         "PBQR:RSNYY",
         "PNYY:SNYY CNGVRAGF",
-        "NQQE:29227 FGNGR EQ",
-        "NCG:55",
+        "NQQE:29227 FGNGR EQ 55",
+        "ZNQQE:29227 FGNGR 55",
         "PVGL:UNEQL PBHAGL",
         "ANZR:UNEQL PB RZRETRAPL FREIVPRF",
         "CUBAR:3045300291",

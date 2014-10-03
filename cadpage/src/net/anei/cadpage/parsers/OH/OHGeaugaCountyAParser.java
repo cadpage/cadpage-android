@@ -16,6 +16,7 @@ public class OHGeaugaCountyAParser extends SmartAddressParser {
   private static final String[] CALL_PREFIXES = new String[]{
     "FOR A "
   };
+  private static final Pattern OLD_STATE_RD_PTN = Pattern.compile("\\bOLD STATE RD (\\d+)");
  
   public OHGeaugaCountyAParser() {
     super("GEAUGA COUNTY", "OH");
@@ -80,6 +81,15 @@ public class OHGeaugaCountyAParser extends SmartAddressParser {
       } else {
         res.getData(data);
         String sExtra = res.getLeft();
+        
+        // This is the only place in the country where OLD STATE RD is 
+        // a standalone road that is not followed by a number.  Which means
+        // any number we fidn after it should be moved to sExtra
+        match = OLD_STATE_RD_PTN.matcher(data.strAddress);
+        if (match.find()) {
+          data.strAddress = data.strAddress.substring(0,match.start(1)).trim();
+          sExtra = append(match.group(1), " ", sExtra);
+        }
         if (data.strCall.length() == 0) {
           data.strCall = sExtra;
         } else {

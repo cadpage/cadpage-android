@@ -96,7 +96,7 @@ choyvp pynff ZBCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "1587 R 526GU EQ, Ncg. #4  URZBEEUNTR/YNPRENGVBAF/21-Q-3 300 Z1770 ZncErtvbaf: R4 PebffFgerrgf: UVTUJNL S 0.24 zv FJ F 120GU EQ 3.79 zv J Qvfc: 03/31/13 11:48:44 Qvfc: 03/31/13 11:48:44",
         "HAVG:300 Z1770",
         "NQQE:1587 R 526GU EQ",
-        "NCG:#4",
+        "NCG:4",
         "PNYY:URZBEEUNTR/YNPRENGVBAF",
         "PBQR:21-Q-3",
         "ZNC:R4",

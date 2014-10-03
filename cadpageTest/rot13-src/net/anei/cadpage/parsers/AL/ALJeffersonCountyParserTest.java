@@ -357,9 +357,9 @@ choyvp pynff NYWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G22",
         "V-459 F BS UJL 280 BA RKVG ENZC...ZBGBEPLPYR JERPX",
-        "NQQE:V-459 F",
-        "ZNQQE:V 459 F",
-        "VASB:BS UJL 280 BA RKVG ENZC",
+        "NQQE:V-459 F BS UJL 280",
+        "ZNQQE:V 459 & UJL 280",
+        "VASB:BA RKVG ENZC",
         "PNYY:ZBGBEPLPYR JERPX");
 
     qbGrfg("G23",

@@ -2684,7 +2684,8 @@ choyvp pynff APCvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:15:23",
         "PNYY:SRZNYR HAXABJA CEBOYRZ",
         "CYNPR:PNAPRY NHGU PNYYRE",
-        "NQQE:3200 ZBBAYVTUG JN EBBZ 211");
+        "NQQE:3200 ZBBAYVTUG JN",
+        "NCG:211");
 
     qbGrfg("G9",
         "(911 Sver Pnyy) E02|Epiq:09/05/2014 15:23|Efa:SRZNYR HAXABJA CEBOYRZ|Abgr:3200 ZBBAYVTUG JN EBBZ 211|Nqe:0  -\a\a" +
@@ -2697,7 +2698,8 @@ choyvp pynff APCvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:09/05/2014",
         "GVZR:15:23",
         "PNYY:SRZNYR HAXABJA CEBOYRZ",
-        "NQQE:3200 ZBBAYVTUG JN EBBZ 211");
+        "NQQE:3200 ZBBAYVTUG JN",
+        "NCG:211");
 
     qbGrfg("G10",
         "(911 Sver Pnyy) S03|Epiq:09/05/2014 15:20|Efa:21 SRZNYR NOQ CNVA|Abgr:FNZR|Nqe:315 FR TERRAIVYYR OYIQ  100\a\a" +
@@ -9057,7 +9059,8 @@ choyvp pynff APCvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:15:23",
         "PNYY:SRZNYR HAXABJA CEBOYRZ",
         "CYNPR:PNAPRY NHG",
-        "NQQE:3200 ZBBAYVTUG JN EBBZ 211");
+        "NQQE:3200 ZBBAYVTUG JN",
+        "NCG:211");
 
     qbGrfg("G3",
         "(911 Sver Pnyy) E52|Epiq:09/05/2014 12:51|Efa:SRZNYR URNQNPUR|Abgr:|Nqe:1566  NFUYNAQ QE  P",
@@ -16593,7 +16596,8 @@ choyvp pynff APCvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:08/27/2014",
         "GVZR:14:22",
         "PNYY:ZNYR BIREQBFR",
-        "NQQE:TEVSGBA ZNABE & 744 TEVSGBA ZNABE QE NCG Q");
+        "NQQE:TEVSGBA ZNABE & 744 TEVSGBA ZNABE QE",
+        "NCG:Q");
 
     qbGrfg("G33",
         "(911 Sver Pnyy) E43|Epiq:08/27/2014 00:59|Efa:ZNYR HAERFCBAFVIR|Abgr:FNZR|Nqe:6597  ORNIRE QNZ EQ",

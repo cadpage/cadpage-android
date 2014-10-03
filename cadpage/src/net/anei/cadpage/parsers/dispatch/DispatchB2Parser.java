@@ -24,6 +24,7 @@ public class DispatchB2Parser extends DispatchBParser {
   private static final Pattern PHONE2_PTN = Pattern.compile("^((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4}) *");
   private static final Pattern APT_PTN = Pattern.compile("[A-Z]?\\d+[A-Z]?");
   private static final Pattern NAME_PTN = Pattern.compile(" +([A-Z]+, ?[A-Z]+(?: [A-Z]\\.?)?)$");
+  private static final Pattern INTERSECT_PTN = Pattern.compile("(?:&|[NSEW]O |[NSEW][EW]? OF ).*", Pattern.CASE_INSENSITIVE);
   private static final Pattern TRAIL_DIR_PTN = Pattern.compile(" +([NSEW]B?)$");
   
   private String prefix;
@@ -161,7 +162,7 @@ public class DispatchB2Parser extends DispatchBParser {
         data.strApt = append(data.strApt, " ", name.substring(0,pt).trim());
         name = name.substring(pt+5).trim();
       }
-      if (name.startsWith("&")) {
+      if (INTERSECT_PTN.matcher(name).matches()) {
         data.strAddress = append(data.strAddress, " ", name);
       } 
       else if (data.strPhone.length() == 0 && (match = PHONE2_PTN.matcher(name)).find()) {

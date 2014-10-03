@@ -179,7 +179,7 @@ choyvp pynff NYPurebxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NZOHYNAPR ERDHRFG",
         "NQQE:2290 PBHAGL EQ 118",
         "ZNQQE:2290 PBHAGL EBNQ 118",
-        "NCG:# 94",
+        "NCG:94",
         "PVGL:PRAGER",
         "VASB:74 LBN SRZNYR PNAPRE CNGVRAG FVPX PNYY");
 

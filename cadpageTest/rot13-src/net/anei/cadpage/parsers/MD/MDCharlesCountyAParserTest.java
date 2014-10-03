@@ -338,7 +338,7 @@ choyvp pynff ZQPuneyrfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Fhowrpg:*PNQ*\a[PNQ] ZHYGV SNZVYL UBHFR SVER, GBJAUBHFR, Z/S, NCNEGZRAG, 1 UVPXBEL YA, NCG #307 17 T6 PNYYRE NQIVFRQ UNF BQBE BS FZBXR",
         "PNYY:ZHYGV SNZVYL UBHFR SVER, GBJAUBHFR, Z/S, NCNEGZRAG",
         "NQQE:1 UVPXBEL YA",
-        "NCG:#307",
+        "NCG:307",
         "ZNC:17 T6",
         "VASB:PNYYRE NQIVFRQ UNF BQBE BS FZBXR");
 

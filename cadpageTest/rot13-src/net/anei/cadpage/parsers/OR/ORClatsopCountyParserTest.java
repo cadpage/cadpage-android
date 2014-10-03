@@ -577,8 +577,8 @@ choyvp pynff BEPyngfbcPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G77",
         "(Sver Pnyy) 475 F Cebz #508/RZRET ZRQVPNY ERFCBAFR; pbqr 99",
         "PNYY:Sver Pnyy",
-        "NQQE:475 F Cebz #508",
-        "ZNQQE:475 F Cebz",
+        "NQQE:475 F Cebz",
+        "NCG:508",
         "VASB:RZRET ZRQVPNY ERFCBAFR; pbqr 99");
 
     qbGrfg("G78",
