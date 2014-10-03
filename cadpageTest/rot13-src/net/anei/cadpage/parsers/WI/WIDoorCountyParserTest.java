@@ -29,7 +29,6 @@ Fraqre: oevgg.jnypbgg@npgvir911.pbz
 (VAPVQRAG # 9819) YBAT GREZ PNQ#    223477   NPGVIR PNYY# 29\aCEVBEVGL: 2                   ERCBEGRQ: 13:57:38 09/11/14\a\a Angher: SVER                                        Glcr: s\aNqqerff: 1201 F QHYHGU NIR; P. Fghetrba Onl          Mbar: FOSQ\a   Pvgl: Fghetrba Onl\a\aErfcbaqvat Havgf: FVFS\a\aQverpgvbaf:\a\a\aPebff Fgerrgf:\a   Orgjrra: PB UL F & J JNYAHG QE\a\aPbzzragf:\aGRFG SBE EVC & EHA\a\aPbagnpg:                                   Cubar: (   )   -
 (VAPVQRAG # 14-001738) YBAT GREZ PNQ#    223463   NPGVIR PNYY# 15\aCEVBEVGL: 5                   ERCBEGRQ: 08:48:47 09/11/14\a\a Angher: JRYSNER PURPX                               Glcr: r\aNqqerff: 12649 QBBE OYHSS EQ; Yvoregl Tebir          Mbar: ANZO\a   Pvgl: Ryyvfba Onl\a\aErfcbaqvat Havgf: 680,AQSE\a\aQverpgvbaf:\a\a\aPebff Fgerrgf:\a   Orgjrra: QBBE OYHSS YA & R QBBE OYHSS EQ\a\aPbzzragf:\a91 LBS QRNS CHFURQ ZRQVP NYREG\a\aPbagnpg: YVAX GB YVSR                      Cubar: (   )   -
 (VAPVQRAG # 9809) YBAT GREZ PNQ#    223401   NPGVIR PNYY# 38\aCEVBEVGL: 2                   ERCBEGRQ: 16:47:55 09/10/14\a\a Angher: SVER                                        Glcr: s\aNqqerff: 1201 F QHYHGU NIR; P. Fghetrba Onl          Mbar: FOSQ\a   Pvgl: Fghetrba Onl\a\aErfcbaqvat Havgf: FVFS\a\aQverpgvbaf:\a\a\aPebff Fgerrgf:\a   Orgjrra: PB UL F & J JNYAHG QE\a\aPbzzragf:\aGRFG SBE EVC & EHA\a\aPbagnpg: GRFG SBE EVC & EHA                Cubar: (   )   -
-(Grfg sebz Npgvir911) Guvf vf whfg n grfg sbe Jroivrj!
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Tvoenygne Sver & Erfphr
@@ -584,9 +583,6 @@ choyvp pynff JVQbbePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:GRFG SBE EVC & EHA",
         "K:PB UL F & J JNYAHG QE",
         "ANZR:GRFG SBE EVC & EHA");
-
-// ************************ CNEFR SNVYHER *****************************
-// (Grfg sebz Npgvir911) Guvf vf whfg n grfg sbe Jroivrj!
 
   }
 
