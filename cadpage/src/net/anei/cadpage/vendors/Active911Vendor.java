@@ -233,6 +233,7 @@ class Active911Vendor extends Vendor {
       "US/GA/RabunCounty",                "GARabunCounty",
       "US/GA/SouthsideFire",              "GAChathamCounty",
       "US/GA/WhiteCounty",                "GAWhiteCounty",
+      "US/IA/CityofBurlington",           "IADesMoinesCounty",
       "US/ID/BlaineCounty",               "IDBlaineCounty",
       "US/ID/KootenaiCounty",             "IDKootenaiCountyParser",
       "US/IL/AdamsCounty",                "ILAdamsCounty",

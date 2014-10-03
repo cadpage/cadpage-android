@@ -3,10 +3,10 @@ package net.anei.cadpage.parsers.IA;
 import net.anei.cadpage.parsers.dispatch.DispatchA28Parser;
 
 
-public class IABurlingtonParser extends DispatchA28Parser {
+public class IADesMoinesCountyParser extends DispatchA28Parser {
   
-  public IABurlingtonParser() {
-    super(CITY_LIST, "BURLINGTON", "IA");
+  public IADesMoinesCountyParser() {
+    super(CITY_LIST, "DES MOINES COUNTY", "IA");
   }
   
   @Override
@@ -15,9 +15,11 @@ public class IABurlingtonParser extends DispatchA28Parser {
   }
   
   private static final String[] CITY_LIST =new String[]{
- 
-    "WEST BURLINGTON",
-    "BURLINGTON"
-
+    "BURLINGTON",
+    "DANVILLE",
+    "MEDIAPOLIS",
+    "MIDDLETOWN",
+    "WAPELLO",
+    "WEST BURLINGTON"
   };
 }
