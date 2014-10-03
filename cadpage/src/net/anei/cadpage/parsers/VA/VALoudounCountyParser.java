@@ -244,6 +244,7 @@ public class VALoudounCountyParser extends FieldProgramParser {
       "FR", "FREDERICK COUNTY/MD",
       "FX", "FAIRFAX COUNTY",
       "JE", "JEFFERSON COUNTY/WV",
+      "JEFF", "JEFFERSON COUNTY/WV",
       "PW", "PRINCE WILLIAM COUNTY"
 //      "WA", "WASHINGTON COUNTY/MD"
    });
