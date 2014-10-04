@@ -14,7 +14,7 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
   private static final Pattern ID_PTN = Pattern.compile(" +(\\d{2}-\\d+)$");
   private static final Pattern TIME_PTN = Pattern.compile(" +(\\d\\d:\\d\\d)$");
   private static final Pattern LAT_LONG_PTN = Pattern.compile("(38)(\\d{6}) +(\\d{2})(\\d{6})$");
-  private static final Pattern SRC_UNIT_PTN = Pattern.compile("(?:((?:NORTH|CENTRAL|SOUTH) MAIN) +)?(\\d\\d|(?:Affton|Brentwood|Eureka|Fenton|Kirkwood|Ladue|Lemay|Mehlville|St Louis City|St Louis|Olivette|Shrewsbury|Webster Groves)(?: FPD)?)(?: *(?:\\[ |Units: )? *((?:\\b(?:(?:STL )?[A-Za-z0-9]+|GTWY \\d+|\\d+ DUTY|NEED AMB \\d+)\\b,?)+))?$");
+  private static final Pattern SRC_UNIT_PTN = Pattern.compile("(?:((?:NORTH|CENTRAL|SOUTH) MAIN) +)?(\\d\\d|(?:Affton|Brentwood|Crestwood FD|Eureka|Fenton|Kirkwood|Ladue|Lemay|Mehlville|St Louis City|St Louis|Olivette|Shrewsbury|Webster Groves)(?: FPD)?)(?: *(?:\\[ |Units: )? *((?:\\b(?:(?:STL )?[A-Za-z0-9]+|GTWY \\d+|\\d+ DUTY|NEED AMB \\d+)\\b,?)+))?$");
   private static final Pattern BAD_AT_PTN = Pattern.compile("(.*[a-z ])AT((?: |[0-9]|[A-Z][a-z ]).*)");
 
   public MOStLouisCountyCParser() {
@@ -72,8 +72,9 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
     int pt = body.indexOf("AT:");
     if (pt >= 0) {
       body = body.substring(0,pt) + ' ' + body.substring(pt);
+    } else if (substring(body, 30,32).equals("AT")) {
+      body = body.substring(0,30) + " AT:" + body.substring(32);
     } else {
-      
       pt = body.indexOf(" BUS:");
       if (pt < 0) pt = body.indexOf(" XST:");
       if (pt < 0) pt = body.length();
