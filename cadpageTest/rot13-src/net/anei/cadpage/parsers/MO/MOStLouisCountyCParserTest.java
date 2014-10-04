@@ -8701,8 +8701,10 @@ choyvp pynff ZBFgYbhvfPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PNQ Cntvat) Pneoba Zbabkvqr Qrgrpgbe NG 9300 Penvtjbbq Gre OHF:  KFG: PUREEL OEBBX YA/CNHY NQEVNA QE FBHGU ZNVA Perfgjbbq SQ [ 1219",
         "PNYY:Pneoba Zbabkvqr Qrgrpgbe",
         "NQQE:9300 Penvtjbbq Gre",
-        "K:PUREEL OEBBX YA/CNHY NQEVNA QE FBHGU ZNVA Perfgjbbq SQ [ 12",
-        "FEP:19");
+        "K:PUREEL OEBBX YA/CNHY NQEVNA QE",
+        "ZNC:FBHGU ZNVA",
+        "FEP:Perfgjbbq SQ",
+        "HAVG:1219");
 
     qbGrfg("G37",
         "(PNQ Cntvat) Jverf Nepvat NG 10423 Nagevz Qe OHF:  KFG: YRVGEVZ QE/ZNLB QE FBHGU ZNVA Zruyivyyr SCQ 1750,17QA",
