@@ -35,6 +35,7 @@ PNQ:CHOYVP FNSRGL PUNAARY 5;6405 CHECYR ZNEGVA PG; JZ;9106861726
 PNQ:CHOYVP FNSRGL PUNAARY 6;6405 CHECYR ZNEGVA PG; JZ;9106861726
 PNQ:JZ;8422 RZRENYQ QHARF EQ;ZRQVPNY ERFCBAFR;FG14;Rirag fcnjarq sebz ZNYRF J CNVA NOBIR ANIRY >35. [10/03/2014 21:04:06 NAY] CER NYREG [10/03/14 20:59:36 NAY] [Zrqvpny Cevbevgl Vasb] CEBOYRZ: noqbzvny
 {!abFhowrpg!} =RS=OO=OSPNQ:JZ;8422 RZRENYQ QHARF EQ;ZRQVPNY ERFCBAFR;FG14;Rirag fcnjarq sebz ZNYRF J CNVA NOBIR ANIRY >35. [10/03/2014 21:04:06 NAY] CER NYREG [10/03/14 20:59:36 NAY] [Zrqvpny Cevbevgl Vasb] CEBOYRZ: noqbzvny\a\a\aPNQ |=20\a| Arj Unabire Pbhagl\a\a, =20\ac | s
+{!abFhowrpg!} =RS=OO=OSPNQ:JZ;6819 JBBQ FBEERYY EQ;GENSSVP/GENAF NPP CVAARQ;FG16;gehpx g-obarq n pne...pnyyrq yrb nobhg 20 zvaf ntb ..cbff vawhevrf..cva va ... [10/04/14 16:57:43 WNO3] [Zrqvpny Cevbevgl Vasb] CEBOYRZ: cbff cva\a\a\aPNQ |=20\a| Arj Unabire Pbhagl\a\a, =20\ac | s
 
 Pbagnpg: "Fpbgg, Znephf" <zfpbgg@auptbi.pbz>
 Fraqre: TPZ
@@ -873,7 +874,7 @@ choyvp pynff APArjUnabirePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:10/03/2014",
         "GVZR:21:04:06");
 
-    qbGrfg("G1",
+    qbGrfg("G12",
         "{!abFhowrpg!} =RS=OO=OSPNQ:JZ;8422 RZRENYQ QHARF EQ;ZRQVPNY ERFCBAFR;FG14;Rirag fcnjarq sebz ZNYRF J CNVA NOBIR ANIRY >35. [10/03/2014 21:04:06 NAY] CER NYREG [10/03/14 20:59:36 NAY] [Zrqvpny Cevbevgl Vasb] CEBOYRZ: noqbzvny\a\a\a" +
         "PNQ |=20\a" +
         "| Arj Unabire Pbhagl\a\a" +
@@ -887,6 +888,21 @@ choyvp pynff APArjUnabirePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:Rirag fcnjarq sebz ZNYRF J CNVA NOBIR ANIRY >35. / CER NYREG / noqbzvny",
         "QNGR:10/03/2014",
         "GVZR:21:04:06");
+
+    qbGrfg("G13",
+        "{!abFhowrpg!} =RS=OO=OSPNQ:JZ;6819 JBBQ FBEERYY EQ;GENSSVP/GENAF NPP CVAARQ;FG16;gehpx g-obarq n pne...pnyyrq yrb nobhg 20 zvaf ntb ..cbff vawhevrf..cva va ... [10/04/14 16:57:43 WNO3] [Zrqvpny Cevbevgl Vasb] CEBOYRZ: cbff cva\a\a\a" +
+        "PNQ |=20\a" +
+        "| Arj Unabire Pbhagl\a\a" +
+        ", =20\a" +
+        "c | s",
+
+        "PVGL:JVYZVATGBA",
+        "NQQE:6819 JBBQ FBEERYY EQ",
+        "PNYY:GENSSVP/GENAF NPP CVAARQ",
+        "FEP:FG16",
+        "VASB:gehpx g-obarq n pne...pnyyrq yrb nobhg 20 zvaf ntb ..cbff vawhevrf..cva va ... / cbff cva",
+        "QNGR:10/04/14",
+        "GVZR:16:57:43");
 
   }
   
