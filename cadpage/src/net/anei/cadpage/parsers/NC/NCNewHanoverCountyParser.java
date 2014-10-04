@@ -11,6 +11,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 public class NCNewHanoverCountyParser extends DispatchOSSIParser {
   
+  private static final Pattern LEAD_JUNK_PTN = Pattern.compile("^=[=A-Z]*(?=CAD:)");
+  
   public NCNewHanoverCountyParser() {
     super(CITY_CODES, "NEW HANOVER COUNTY", "NC",
           "FYI? ( CITY ADDR CALL SRC! | CH2 ADDR CITY/Y! EXTRA2 | SRC CALL ADDR EXTRA! ) INFO+");
@@ -23,6 +25,7 @@ public class NCNewHanoverCountyParser extends DispatchOSSIParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = LEAD_JUNK_PTN.matcher(body).replaceFirst("");
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
     if (!body.startsWith("CAD:")) body = "CAD:" + body;

@@ -33,12 +33,15 @@ PNQ:CHOYVP FNSRGL PUNAARY 4;9 YBTNA EQ; PU
 PNQ:JZ;6405 CHECYR ZNEGVA PG;JNGRE CEBO JVGU RYRPGEVPNY UNM;FG16;[Sver Cevbevgl Vasb] ERFCBAFR: Puneyvr ERFCBAQRE FPEVCG: Pvgvmra Nffvfg / Freivpr Pnyy. Jngre ceboyrz jvgu ryrpgevpny unmneq.Pnyyre Fgng
 PNQ:CHOYVP FNSRGL PUNAARY 5;6405 CHECYR ZNEGVA PG; JZ;9106861726
 PNQ:CHOYVP FNSRGL PUNAARY 6;6405 CHECYR ZNEGVA PG; JZ;9106861726
+PNQ:JZ;8422 RZRENYQ QHARF EQ;ZRQVPNY ERFCBAFR;FG14;Rirag fcnjarq sebz ZNYRF J CNVA NOBIR ANIRY >35. [10/03/2014 21:04:06 NAY] CER NYREG [10/03/14 20:59:36 NAY] [Zrqvpny Cevbevgl Vasb] CEBOYRZ: noqbzvny
+{!abFhowrpg!} =RS=OO=OSPNQ:JZ;8422 RZRENYQ QHARF EQ;ZRQVPNY ERFCBAFR;FG14;Rirag fcnjarq sebz ZNYRF J CNVA NOBIR ANIRY >35. [10/03/2014 21:04:06 NAY] CER NYREG [10/03/14 20:59:36 NAY] [Zrqvpny Cevbevgl Vasb] CEBOYRZ: noqbzvny\a\a\aPNQ |=20\a| Arj Unabire Pbhagl\a\a, =20\ac | s
 
 Pbagnpg: "Fpbgg, Znephf" <zfpbgg@auptbi.pbz>
 Fraqre: TPZ
  PNQ:JZ;8114 ZNEXRG FG;HAPBA ABG NYREG;FG14;JVYZVATGBA URNYGU NFFBPVNGRF;snvagvat [09/10/14 14:24:24 QUN2] ZRQVPNY CER NYREG..RZF11 PBCVRF [09/10/14 14:24:53 WYU] [Zrqvpny Cevbevgl Vasb] CEBOYRZ: # CN\e\a
 [Fpbgg,Znep] JZ;7979 ZNEXRG FG;PBZZREPVNY FGEHPGHER SVER;FG16;FRNPBNFG CLFVPNY GURENCL;FZRYYF FZBXR [09/10/14 10:14:04 OAU] [SVER CEVBEVGL VASB] ERFCBAFR: QRYGN ERFCBAQRE FPEVCG: FGEHPGHER SVER. PBZZREPVNY/VAQ\a\a\a\aZnephf Fpbgg | Sver Flfgrzf Qngn Fcrpvnyvfg\a\aSver Freivprf | Arj Unabire Pbhagl\a\a230 Tbireazrag Pragre Qevir, Fhvgr 130\a\aJvyzvatgba, AP 28403\a\a(910) 798-7031 c | (910) 798-7052 s
 [Qvfcngpu,Hfre] PNQ:JZ;801 FHGGBA FGRNZ CYNAG EQ;PBZZREVPNY/VAQHFGEVNY J UNMZNG;FG12;FHGGBA FGRNZ CYNAG;[Sver Cevbevgl Vasb] ERFCBAFR: Qrygn ERFCBAQRE FPEVCG: Fgehpgher Sver. PBZZREPVNY/VAQHFGEVNY ohvyqvat jvgu unmneq\e\a
+
 
 Pbagnpg: PbqrZrffntvat
 Fraqre: pnq@auptbi.pbz
@@ -859,6 +862,31 @@ choyvp pynff APArjUnabirePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:6405 CHECYR ZNEGVA PG",
         "PVGL:JVYZVATGBA",
         "VQ:9106861726");
+
+    qbGrfg("G11",
+        "PNQ:JZ;8422 RZRENYQ QHARF EQ;ZRQVPNY ERFCBAFR;FG14;Rirag fcnjarq sebz ZNYRF J CNVA NOBIR ANIRY >35. [10/03/2014 21:04:06 NAY] CER NYREG [10/03/14 20:59:36 NAY] [Zrqvpny Cevbevgl Vasb] CEBOYRZ: noqbzvny",
+        "PVGL:JVYZVATGBA",
+        "NQQE:8422 RZRENYQ QHARF EQ",
+        "PNYY:ZRQVPNY ERFCBAFR",
+        "FEP:FG14",
+        "VASB:Rirag fcnjarq sebz ZNYRF J CNVA NOBIR ANIRY >35. / CER NYREG / noqbzvny",
+        "QNGR:10/03/2014",
+        "GVZR:21:04:06");
+
+    qbGrfg("G1",
+        "{!abFhowrpg!} =RS=OO=OSPNQ:JZ;8422 RZRENYQ QHARF EQ;ZRQVPNY ERFCBAFR;FG14;Rirag fcnjarq sebz ZNYRF J CNVA NOBIR ANIRY >35. [10/03/2014 21:04:06 NAY] CER NYREG [10/03/14 20:59:36 NAY] [Zrqvpny Cevbevgl Vasb] CEBOYRZ: noqbzvny\a\a\a" +
+        "PNQ |=20\a" +
+        "| Arj Unabire Pbhagl\a\a" +
+        ", =20\a" +
+        "c | s",
+
+        "PVGL:JVYZVATGBA",
+        "NQQE:8422 RZRENYQ QHARF EQ",
+        "PNYY:ZRQVPNY ERFCBAFR",
+        "FEP:FG14",
+        "VASB:Rirag fcnjarq sebz ZNYRF J CNVA NOBIR ANIRY >35. / CER NYREG / noqbzvny",
+        "QNGR:10/03/2014",
+        "GVZR:21:04:06");
 
   }
   
