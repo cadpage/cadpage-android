@@ -10,19 +10,19 @@ public class NCRobesonCountyParser extends DispatchOSSIParser{
 
   public NCRobesonCountyParser() {
     super("ROBESON COUNTY", "NC",
-      "( CANCEL ADDR INFO | CALL PLACE? ADDR X/Z+? ID PRI INFO+ )");
+      "( CANCEL ADDR INFO | CALL PLACE? ADDR X/Z+? ( ID PRI | PRI ) INFO+ )");
   }
     
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("ID")) return new IdField("\\d+", true);
+    if (name.equals("ID")) return new IdField("\\d{8}", true);
     if (name.equals("PRI")) return new PriorityField("(\\d|[A-Z])", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
-  private static final Pattern ADDR_PTN = Pattern.compile("\\d+.*[A-Z].*", Pattern.CASE_INSENSITIVE);
+  private static final Pattern ADDR_PTN = Pattern.compile("\\d+.*[A-Z].*|.*/.*", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     
     @Override
