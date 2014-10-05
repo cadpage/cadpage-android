@@ -6069,8 +6069,14 @@ choyvp pynff MAMArjMrnynaqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:YNAQVAT FVGR ERDHVERQ",
         "VQ:S1622973");
 
-// ************************ CNEFR SNVYHER *****************************
-// (AMSF Cntre gb FZF zrffntr) 111-ZVA FUBRZNXRE EQ JNVCH. (KFge ZPXNL EQ/ZVYYOEVQTR EQ) .PNE EBYYRQ ACB CREFBAF GENCCRQ. #S1621677
+    qbGrfg("G66",
+        "(AMSF Cntre gb FZF zrffntr) 111-ZVA FUBRZNXRE EQ JNVCH. (KFge ZPXNL EQ/ZVYYOEVQTR EQ) .PNE EBYYRQ ACB CREFBAF GENCCRQ. #S1621677",
+        "PBQR:111-ZVA",
+        "NQQE:FUBRZNXRE EQ JNVCH",
+        "ZNQQE:FUBRZNXRE EQ JNVCH & ZPXNL EQ",
+        "K:ZPXNL EQ/ZVYYOEVQTR EQ",
+        "PNYY:PNE EBYYRQ ACB CREFBAF GENCCRQ",
+        "VQ:S1621677");
 
     qbGrfg("G67",
         "((EHNJ631, EHNJ6333) 111-ZVA (Obk -F) SVER FGNGVBA EHNJNV 5N JRYY FG EHNJNV. BSS EHNJNV JUNES FG. (KFge EHNJNV JUNES EQ/ERRIRF FG) .GRFG. #S1619402              )  \a\a" +

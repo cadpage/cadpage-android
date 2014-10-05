@@ -20,8 +20,6 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
     super(CITY_CODES, "ALLEGHENY COUNTY", "PA",
            "CODE PRI CALL CALL+? ( GPS1 GPS2 | ADDR/Z CITY! ( AT SKIP | ) ) XINFO+? SRC BOX% ID? INFO+ Units:UNIT UNIT+");
   }
-  
-  
 
   @Override
   public String adjustMapAddress(String sAddress) {

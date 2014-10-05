@@ -14,7 +14,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class AZMaricopaCountyParser extends FieldProgramParser {
   
-  private static final Pattern DELIM = Pattern.compile("\n| (?=Plat:|Block:)");
+  private static final Pattern DELIM = Pattern.compile("\n| (?=Plat:|Block:|EVENT:)");
 
   public AZMaricopaCountyParser() {
     super(CITY_CODES, "MARICOPA COUNTY", "AZ",
@@ -29,12 +29,14 @@ public class AZMaricopaCountyParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    String[] flds = DELIM.split(body);
-    if (flds.length >= 5) {
-      return parseFields(flds, data);
-    } else {
-      return super.parseMsg(body, data);
+    if (body.contains("\n")) {
+      String[] flds = DELIM.split(body);
+      if (flds.length >= 5) {
+        return parseFields(flds, data);
+      }
     }
+    
+    return super.parseMsg(body, data);
   }
   
   @Override
