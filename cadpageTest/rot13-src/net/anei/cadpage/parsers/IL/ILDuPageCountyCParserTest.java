@@ -57,7 +57,6 @@ Fraqre: <FBHGUJRFG.QVFCNGPU@FJPQ911.BET>
 (Arj Pnyy/Vapvqrag Nyreg) 2/9/2014 10:30:37 NZ 0340400145\a567  JVYYBJPERRX PG ZNC CNTR:13 \aSVER NYNEZ
 (Arj Pnyy/Vapvqrag Nyreg) 2/8/2014 10:58:35 CZ 0340390144\a415  BTQRA NI ZNC CNTR:1  \aGEBHOYR NYNEZ
 (Arj Pnyy/Vapvqrag Nyreg) 2/8/2014 5:21:02 CZ 0340390143\a215  55GU FG ZNC CNTR:13 \aQVSS OERNGUVAT
-(Arj Pnyy/Vapvqrag Nyreg) 2/8/2014 3:01:30 CZ 0340390142\a  PUSQ  ZNC CNTR:6
 (Arj Pnyy/Vapvqrag Nyreg) 2/8/2014 2:39:55 NZ 0340390140\a303  UBYZRF NI ZNC CNTR:13 \aGEBHOYR NYNEZ
 (Arj Pnyy/Vapvqrag Nyreg) 2/7/2014 2:37:05 CZ 0340380139\a215  55GU FG ZNC CNTR:13 \aHAX ANGHER
 (Arj Pnyy/Vapvqrag Nyreg) 2/7/2014 12:17:39 CZ 0340380138\a  PUSQ  ZNC CNTR:6  \aFGNAQ OL NG SQ, ZBIR HC
@@ -542,10 +541,6 @@ choyvp pynff VYQhCntrPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:13",
         "PNYY:QVSS OERNGUVAT");
 
-// ************************ CNEFR SNVYHER *****************************
-// (Arj Pnyy/Vapvqrag Nyreg) 2/8/2014 3:01:30 CZ 0340390142\a
-//   PUSQ  ZNC CNTR:6
-
     qbGrfg("G47",
         "(Arj Pnyy/Vapvqrag Nyreg) 2/8/2014 2:39:55 NZ 0340390140\a303  UBYZRF NI ZNC CNTR:13 \aGEBHOYR NYNEZ",
         "QNGR:2/8/2014",
@@ -620,11 +615,15 @@ choyvp pynff VYQhCntrPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:6",
         "PNYY:NBN UVAFQNYR/SVER NYNEZ");
 
-// ************************ CNEFR SNVYHER *****************************
-// (Arj Pnyy/Vapvqrag Nyreg) 2/5/2014 9:47:39 CZ 0340360132\a
-//   PUSQ  ZNC CNTR:6  \a
-// GERR; OEHFU; TENFF SVER\a
-// NBN UVAFQNYR SVER NYNEZ
+    qbGrfg("G55",
+        "(Arj Pnyy/Vapvqrag Nyreg) 2/5/2014 9:47:39 CZ 0340360132\a  PUSQ  ZNC CNTR:6  \aGERR; OEHFU; TENFF SVER\aNBN UVAFQNYR SVER NYNEZ",
+        "QNGR:2/5/2014",
+        "GVZR:21:47:39",
+        "VQ:0340360132",
+        "NQQE:PUSQ",
+        "ZNC:6",
+        "PNYY:GERR; OEHFU; TENFF SVER",
+        "CYNPR:NBN UVAFQNYR SVER NYNEZ");
 
     qbGrfg("G56",
         "(Arj Pnyy/Vapvqrag Nyreg) 2/4/2014 8:53:16 CZ 0340350131\a427  BTQRA NI ZNC CNTR:1  \aSVER NYNEZ",
@@ -739,11 +738,20 @@ choyvp pynff VYQhCntrPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:13",
         "PNYY:NHGB NPPVQRAG");
 
-// ************************ CNEFR SNVYHER *****************************
-// (Arj Pnyy/Vapvqrag Nyreg) 1/28/2014 11:14:01 NZ 0340280119\a
-// 221 F CEBFCRPG NI ZNC CNTR:10 \a
-// SVER NYNEZ\a
-// UBIFRGVNA ERFVQRAPR 6307892454
+    qbGrfg("G68",
+        "(Arj Pnyy/Vapvqrag Nyreg) 1/28/2014 11:14:01 NZ 0340280119\a" +
+        "221 F CEBFCRPG NI ZNC CNTR:10 \a" +
+        "SVER NYNEZ\a" +
+        "UBIFRGVNA ERFVQRAPR 6307892454",
+
+        "QNGR:1/28/2014",
+        "GVZR:11:14:01",
+        "VQ:0340280119",
+        "NQQE:221 F CEBFCRPG NI",
+        "ZNQQE:221 F CEBFCRPG NIR",
+        "ZNC:10",
+        "PNYY:SVER NYNEZ",
+        "CYNPR:UBIFRGVNA ERFVQRAPR 6307892454");
 
     qbGrfg("G69",
         "(Arj Pnyy/Vapvqrag Nyreg) 1/28/2014 7:49:56 NZ 0340280118\a31  ZBUNJX QE ZNC CNTR:4  \aFZBXR PBZVAT SEBZ TNENTR",
@@ -820,11 +828,15 @@ choyvp pynff VYQhCntrPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:10",
         "PNYY:GEBHOYR NYNEZ");
 
-// ************************ CNEFR SNVYHER *****************************
-// (Arj Pnyy/Vapvqrag Nyreg) 1/26/2014 3:11:54 CZ 0340260110\a
-// 5523  ONEPYNL PG ZNC CNTR:13 \a
-// YVSG NFFVFG\a
-// WBNAA WNAQN 630-850-9761
+    qbGrfg("G77",
+        "(Arj Pnyy/Vapvqrag Nyreg) 1/26/2014 3:11:54 CZ 0340260110\a5523  ONEPYNL PG ZNC CNTR:13 \aYVSG NFFVFG\aWBNAA WNAQN 630-850-9761",
+        "QNGR:1/26/2014",
+        "GVZR:15:11:54",
+        "VQ:0340260110",
+        "NQQE:5523  ONEPYNL PG",
+        "ZNC:13",
+        "PNYY:YVSG NFFVFG",
+        "CYNPR:WBNAA WNAQN 630-850-9761");
 
     qbGrfg("G78",
         "(Arj Pnyy/Vapvqrag Nyreg) 1/26/2014 12:21:25 CZ 0340260109\a  PUSQ  ZNC CNTR:6  \aNBN USQ/VAFVQR TNF YRNX",
@@ -863,11 +875,15 @@ choyvp pynff VYQhCntrPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:6",
         "PNYY:SVER NYNEZ");
 
-// ************************ CNEFR SNVYHER *****************************
-// (Arj Pnyy/Vapvqrag Nyreg) 1/24/2014 11:04:00 CZ 0340240105\a
-// 501  PNEYLFYR QE ZNC CNTR:13 \a
-// OHEAVAT FZRYY VA UNYYJNL\a
-// OYQT 7 NCG  9
+    qbGrfg("G82",
+        "(Arj Pnyy/Vapvqrag Nyreg) 1/24/2014 11:04:00 CZ 0340240105\a 501  PNEYLFYR QE ZNC CNTR:13 \aOHEAVAT FZRYY VA UNYYJNL\aOYQT 7 NCG  9",
+        "QNGR:1/24/2014",
+        "GVZR:23:04:00",
+        "VQ:0340240105",
+        "NQQE:501  PNEYLFYR QE",
+        "ZNC:13",
+        "PNYY:OHEAVAT FZRYY VA UNYYJNL",
+        "CYNPR:OYQT 7 NCG  9");
 
     qbGrfg("G83",
         "(Arj Pnyy/Vapvqrag Nyreg) 1/24/2014 6:23:29 CZ 0340240104\a  PUSQ  ZNC CNTR:6  \aGERR; OEHFU; TENFF SVER",

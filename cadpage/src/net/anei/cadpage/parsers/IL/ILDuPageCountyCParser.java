@@ -11,10 +11,10 @@ public class ILDuPageCountyCParser extends SmartAddressParser {
 
   public ILDuPageCountyCParser() {
     super("DUPAGE COUNTY", "IL");
-    setFieldList("DATE TIME ID ADDR MAP CALL");
+    setFieldList("DATE TIME ID ADDR MAP CALL PLACE");
   }
   
-  private static Pattern MASTER = Pattern.compile("(\\d{1,2}/\\d{1,2}/\\d{4}) (\\d{1,2}:\\d{2}:\\d{2} [AP]M) (\\d+)\n *(.*?) *(?:MAP +PAGE:(.*?) *)\n *(.*?)");
+  private static Pattern MASTER = Pattern.compile("(\\d{1,2}/\\d{1,2}/\\d{4}) (\\d{1,2}:\\d{2}:\\d{2} [AP]M) (\\d+)\n *(.*?) *(?:MAP +PAGE:(.*?) *)\n *(.*?)(?:\n(.*))?");
   
   private static SimpleDateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
   
@@ -25,9 +25,10 @@ public class ILDuPageCountyCParser extends SmartAddressParser {
     data.strDate = mat.group(1);
     setTime(TIME_FMT, mat.group(2), data);
     data.strCallId = mat.group(3);
-    parseAddress(mat.group(4), data);
+    parseAddress(mat.group(4).trim(), data);
     data.strMap = getOptGroup(mat.group(5));
-    data.strCall = mat.group(6);
+    data.strCall = mat.group(6).trim();
+    data.strPlace = getOptGroup(mat.group(7));
     return true;
   }
 
