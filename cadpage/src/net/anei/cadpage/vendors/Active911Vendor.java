@@ -361,7 +361,7 @@ class Active911Vendor extends Vendor {
       "US/NC/AlamanceCounty",             "NCAlamanceCountyParser",
       "US/NC/AlexanderCounty",            "NCAlexanderCounty",
       "US/NC/BrunswickCounty",            "NCBrunswickCounty",
-      "US/NC/CabarrusCounty",             "NCCabarrusCountyB",
+      "US/NC/CabarrusCounty",             "NCCabarrusCounty",
       "US/NC/CatawbaCounty",              "NCCatawbaCounty",
       "US/NC/Cherokee911",                "NCCherokee",
       "US/NC/ClayCounty",                 "NCClayCounty",
