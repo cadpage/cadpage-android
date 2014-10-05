@@ -40,7 +40,8 @@ public class NJOceanCountyAParser extends DispatchA9Parser {
     // Have to clean up some city fields
     Matcher match = CITY_PTN.matcher(data.strCity);
     if (match.matches()) data.strCity = match.group(1);
-    if (data.strCity.endsWith(".")) data.strCity = data.strCity.substring(0,data.strCity.length()-1).trim();
+    data.strCity = stripFieldEnd(data.strCity, ".");
+    if (data.strCity.endsWith(" Co")) data.strCity += "unty";
     return true;
   }
   
