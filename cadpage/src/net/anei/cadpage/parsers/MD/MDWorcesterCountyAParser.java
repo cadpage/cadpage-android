@@ -12,22 +12,30 @@ public class MDWorcesterCountyAParser extends DispatchOSSIParser {
  
   public MDWorcesterCountyAParser() {
     super(MDWorcesterCountyParser.CITY_LIST, "WORCESTER COUNTY", "MD",
-    		   "SRC? CALL ( CITY ADDR DIR? APT? | ADDR DIR? APT? PLACE+? CITY/Y! ) ( DATETIME | X+? INFO+? DATETIME )");
+    		   "SRC? CALL ( CITY ADDR DIR? APT? | ADDR DIR? APT? PLACE+? CITY/Y ) ( DATETIME | X+? INFO+? DATETIME )");
   }
   
   @Override
   protected boolean parseMsg(String body, Data data) {
     body = body.replace('\n', ' ');
     if (!super.parseMsg(body, data)) return false;
-    if (MDWorcesterCountyParser.VA_CITY_SET.contains(data.strCity.toUpperCase())) {
-      data.strState = "VA";
-    }
+    MDWorcesterCountyParser.fixCity(data);
     return true;
   }
   
   @Override
   public String getProgram() {
     return super.getProgram().replace("CITY", "CITY ST");
+  }
+  
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("SRC")) return new SourceField("[0-9]{1,2}00[A-Z]?|S[0-9]", true);
+    if (name.equals("DIR")) return new MyDirField();
+    if (name.equals("APT")) return new MyAptField();
+    if (name.equals("PLACE")) return new  MyPlaceField();
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} +\\d\\d:\\d\\d:\\d\\d");
+    return super.getField(name);
   }
   
   private class MyDirField extends Field {
@@ -87,15 +95,5 @@ public class MDWorcesterCountyAParser extends DispatchOSSIParser {
     public String getFieldNames() {
       return "APT PLACE";
     }
-  }
-  
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("SRC")) return new SourceField("[0-9]{1,2}00[A-Z]?|S[0-9]", true);
-    if (name.equals("DIR")) return new MyDirField();
-    if (name.equals("APT")) return new MyAptField();
-    if (name.equals("PLACE")) return new  MyPlaceField();
-    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} +\\d\\d:\\d\\d:\\d\\d");
-    return super.getField(name);
   }
 }

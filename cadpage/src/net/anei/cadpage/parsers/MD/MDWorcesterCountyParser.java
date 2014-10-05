@@ -2,9 +2,11 @@ package net.anei.cadpage.parsers.MD;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Properties;
 import java.util.Set;
 
 import net.anei.cadpage.parsers.GroupBestParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class MDWorcesterCountyParser extends GroupBestParser {
@@ -13,7 +15,16 @@ public class MDWorcesterCountyParser extends GroupBestParser {
     super(new MDWorcesterCountyAParser(), new MDWorcesterCountyBParser());
   }
   
+  public static void fixCity(Data data) {
+    data.strCity = convertCodes(data.strCity, FIX_CITY_TABLE);
+    if (VA_CITY_SET.contains(data.strCity.toUpperCase())) {
+      data.strState = "VA";
+    }
+  }
+  
   public static final String[] CITY_LIST = new String[]{
+    "POCO",       // Typo
+    "POCOMOK",    // Typo
     "POCOMOKE",
     "BERLIN",
     "OCEAN CITY",
@@ -46,14 +57,25 @@ public class MDWorcesterCountyParser extends GroupBestParser {
     "PRINCESS ANNE",
     
     // Accomack County, VA
+    "HORTOWN",     // typo
     "HORNTOWN",
     "NEW CHURCH",
-    "OAK HALL"
+    "OAK HALL",
+    "PARKSL",
+    "PARKSLEY"
   };
   
-  public static final Set<String> VA_CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
+  private static final Properties FIX_CITY_TABLE = buildCodeTable(new String[]{
+      "HORTOWN",    "HORNTOWN",
+      "PARKSL",     "PARKSLEY",
+      "POCO",       "POCOMOKE",
+      "POCOMOK",    "POCOMOKE",
+  });
+  
+  private static final Set<String> VA_CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
       "HORNTOWN",
       "NEW CHURCH",
-      "OAK HALL"
+      "OAK HALL",
+      "PARKSLEY"
   }));
 }

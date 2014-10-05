@@ -24,7 +24,9 @@ public class MDWorcesterCountyBParser extends FieldProgramParser {
     
     if (!body.startsWith("-- ")) return false;
     body = body.substring(3).trim();
-    return parseFields(body.split(" -- "), data);
+    if (!parseFields(body.split(" -- "), data)) return false;
+    MDWorcesterCountyParser.fixCity(data);
+    return true;
   }
   
   private static final Pattern STATE_ZIP_PTN = Pattern.compile(" ([A-Z]{2}), \\d{5}$");

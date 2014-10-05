@@ -73,7 +73,6 @@ Fraqre: "Fpbgg Pneevirnh" <fpneevirnh@zncyrynxryhzore.pbz>
 (Zncyr Ynxr Nzo Rznvy) ZY-NZ:2013:319\aQvfcngpurq\aNynez - Zrqvpny ~ 9730\a8583 TEVSSVGU NIR AJ , PBEVAAN GJC ( / 85GU FG AJ; Arne: Zvax)
 (Zncyr Ynxr Sver Rznvy) ZYSQ:2013:102\aQvfcngpurq\aNynez - Sver ~ 9600\a3261 QBAARYYL QE AJ , ZNCYR YNXR GJC ( QRAARFBA NIR AJ \ QVYYBA NIR AJ)
 (Zncyr Ynxr Sver Rznvy) ZYSQ:2013:101\aQvfcngpurq\aSver - Bgure ~ 9600\a1734 XRNGF NIR AJ , NYOVBA GJC ( 20GU FG AJ / 17GU FG AJ)
-(ZYSQ Genvavat) Erzvaqre.  ZYSQ Genvavat Gbavtug ng 6:30 c.z.  Tenva Ova Erfphr, qerff jnez.
 (Zncyr Ynxr Sver Rznvy) ZYSQ:2013:100\aQvfcngpurq\aNynez - Sver ~ 9600\a4885 PBHAGL EBNQ 6 AJ , NYOVBA GJC ( 50GU FG AJ / PBHAGL EBNQ 37 AJ)
 (Zncyr Ynxr Nzo Rznvy) ZY-NZ:2013:318\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a3846 85GU FG AJ , ZNCYR YNXR GJC ( QRZCFRL NIR AJ \ RAQVPBGG NIR AJ)
 (Zncyr Ynxr Nzo Rznvy) ZY-NZ:2013:317\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a12182 PBHAGL EBNQ 8 AJ , FVYIRE PERRX GJC ( 127GU FG AJ / RYYVBGG NIR AJ)
@@ -88,12 +87,9 @@ Fraqre: "Fpbgg Pneevirnh" <fpneevirnh@zncyrynxryhzore.pbz>
 (Zncyr Ynxr Nzo Rznvy) ZY-NZ:2013:311\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a12182 PBHAGL EBNQ 8 AJ , FVYIRE PERRX GJC ( 127GU FG AJ / RYYVBGG NIR AJ)
 (Zncyr Ynxr Nzo Rznvy) ZY-NZ:2013:310\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a2868 90GU FG AJ , FVYIRE PERRX GJC ( PYRZRAGN NIR AJ /)
 (Zncyr Ynxr Nzo Rznvy) ZY-NZ:2013:309\aQvfcngpurq\aZrqvpny - Qvssvphygl Oernguvat ~ 9730\a2928 80GU FG AJ , ZNCYR YNXR GJC ( PYRZRAGN NIR AJ \ QRZCFRL NIR AJ)
-(Nqqvat Gbqq Oberyy) Zrffntr; Nqqvat Gbqq Oberyy gb Npgvir 911
 (Zncyr Ynxr Nzo Rznvy) ZY-NZ:2013:308\aQvfcngpurq\aNynez - Zrqvpny ~ 9730\a27 EBFR NIR A , ZNCYR YNXR ( ABEGU FG R / QVIVFVBA FG R)
 (Zncyr Ynxr Nzo Rznvy) ZY-NZ:2013:307\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a333 2AQ FG J #035, ZNCYR YNXR ( ZNCYR NIR F /; Arne: Zncyrjbbq Znabe Rnfg Ncgf)
 (Zncyr Ynxr Nzo Rznvy) ZY-NZ:2013:306\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a7370 119GU FG AJ , PBEVAAN GJC
-(Zrrgvat Erzvaqre) Nabgure Grfg Zrffntr\a\a \a\aZYSQ Zrrgvat Zbaqnl 11/11/13 @ 19:30 Uef, Zrny ng 18:30  Fgneg pyrnavat evtf\ang 17:00
-(Grfg Zrffntr sbe ZYSQ) Grfg Zrffntr sbe ZYSQ, jr pna fraq bhg zrffntrf gb guvf r-znvy naq nyy\aqrivprf pna erprvir vg.\a\a \a\aFpbgg
 (Zncyr Ynxr Sver Rznvy) ZYSQ:2013:96\aQvfcngpurq\aNynez - Sver ~ 9600\a4440 QVYYBA NIR AJ , ZNCYR YNXR GJC ( 45GU FG AJ \ 37GU FG AJ)
 (Zncyr Ynxr Nzo Rznvy) ZY-NZ:2013:305\aQvfcngpurq\aZrqvpny - 3eq Cnegl Pnyyre ~ 9730\a11839 TENAG NIR AJ , PBEVAAN GJC ( / 117GU FG AJ)
 (Zncyr Ynxr Nzo Rznvy) ZY-NZ:2013:304\aQvfcngpurq\aZrqvpny - Nynez ~ 9730\a2246 QBAARYYL QE AJ , ZNCYR YNXR GJC ( PBHAGL EBNQ 37 AJ / 60GU FG AJ)
@@ -1040,9 +1036,6 @@ choyvp pynff ZAJevtugPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:NYOVBA GJC",
         "K:20GU FG AJ/17GU FG AJ");
 
-// ************************ CNEFR SNVYHER *****************************
-// (ZYSQ Genvavat) Erzvaqre.  ZYSQ Genvavat Gbavtug ng 6:30 c.z.  Tenva Ova Erfphr, qerff jnez.
-
     qbGrfg("G62",
         "(Zncyr Ynxr Sver Rznvy) ZYSQ:2013:100\a" +
         "Qvfcngpurq\a" +
@@ -1207,9 +1200,6 @@ choyvp pynff ZAJevtugPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ZNCYR YNXR GJC",
         "K:PYRZRAGN NIR AJ & QRZCFRL NIR AJ");
 
-// ************************ CNEFR SNVYHER *****************************
-// (Nqqvat Gbqq Oberyy) Zrffntr; Nqqvat Gbqq Oberyy gb Npgvir 911
-
     qbGrfg("G77",
         "(Zncyr Ynxr Nzo Rznvy) ZY-NZ:2013:308\aQvfcngpurq\aNynez - Zrqvpny ~ 9730\a27 EBFR NIR A , ZNCYR YNXR ( ABEGU FG R / QVIVFVBA FG R)",
         "FEP:NZ",
@@ -1241,22 +1231,6 @@ choyvp pynff ZAJevtugPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny - Bgure ~ 9730",
         "NQQE:7370 119GU FG AJ",
         "PVGL:PBEVAAN GJC");
-
-// ************************ CNEFR SNVYHER *****************************
-// (Zrrgvat Erzvaqre) Nabgure Grfg Zrffntr\a
-// \a
-//  \a
-// \a
-// ZYSQ Zrrgvat Zbaqnl 11/11/13 @ 19:30 Uef, Zrny ng 18:30  Fgneg pyrnavat evtf\a
-// ng 17:00
-
-// ************************ CNEFR SNVYHER *****************************
-// (Grfg Zrffntr sbe ZYSQ) Grfg Zrffntr sbe ZYSQ, jr pna fraq bhg zrffntrf gb guvf r-znvy naq nyy\a
-// qrivprf pna erprvir vg.\a
-// \a
-//  \a
-// \a
-// Fpbgg
 
     qbGrfg("G82",
         "(Zncyr Ynxr Sver Rznvy) ZYSQ:2013:96\a" +
