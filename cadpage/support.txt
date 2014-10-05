@@ -3771,6 +3771,29 @@ Have a nice day,
 
 ***********************************************************************
 
+Cadpage only works if you are a member of an emergency response
+organization and have arranged to have dispatch alerts sent to your phone.
+
+Cadpage will not do anything with the default, out of the box, settings.
+You have to give it some information to identify your text pages.
+
+Go into the Cadpage location settings, select a single location, and
+then see if we have a location set up for where you happen to live or
+work.  If we do, select it and see if things start working.
+
+If not, please let us know if you would like the details of setting up a
+new location.
+
+In the meantime, try using the general location setting.  Set the From:
+filter to whoever appears in the From: field of your page text messages.
+ That will usually give you some degree of functionality while you are
+waiting for full location support.
+
+Please contact us again if you still have difficulties.  The best way to
+do this is use the Email the Developer item in the main settings menu.
+
+Take care
+************************************************************************
 
 Useful search expressions
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT|X):.*\r?\n)*+(?! +"CITY:)
