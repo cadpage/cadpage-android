@@ -16,7 +16,7 @@ public class TXWylieParser extends FieldProgramParser {
   private static final Pattern BODY_PATTERN = Pattern.compile("^CITY OF WYLIE DISPATCH\\n\\n(.*)", Pattern.DOTALL);
 
   public TXWylieParser() {
-    super("WYLIE", "TX",
+    super("", "TX",
         "CALL! BOX:BOX! ADDR! CROSS_STREET(S):X CHANNEL:CH! CITY!");
   }
 
