@@ -15,7 +15,7 @@ public class ORMarionCountyBParser extends FieldProgramParser {
   }
   
   protected ORMarionCountyBParser(String defCity, String defState) {
-    super(defCity, defState, "CALL SRC DATETIME ADDR/iS UNIT ID!");
+    super(defCity, defState, "CALL SRC DATETIME ADDR/ZiS? UNIT/Z ID!");
   }
 
   @Override

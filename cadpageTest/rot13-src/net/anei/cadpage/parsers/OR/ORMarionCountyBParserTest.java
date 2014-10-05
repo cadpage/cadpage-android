@@ -3687,13 +3687,14 @@ choyvp pynff BEZnevbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:F493",
         "VQ:FZC201309090184");
 
-// ************************ CNEFR SNVYHER *****************************
-// \a
-// QEHT3\a
-// FZC\a
-// 09/09/13 15:11:36\a
-// F493\a
-// FZC201309090163
+    qbGrfg("G88",
+        "\aQEHT3\aFZC\a09/09/13 15:11:36\aF493\aFZC201309090163",
+        "PNYY:QEHT3",
+        "FEP:FZC",
+        "QNGR:09/09/13",
+        "GVZR:15:11:36",
+        "HAVG:F493",
+        "VQ:FZC201309090163");
 
     qbGrfg("G89",
         "\aGERFC1\a" +
@@ -3810,13 +3811,14 @@ choyvp pynff BEZnevbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:F649",
         "VQ:FZC201309060117");
 
-// ************************ CNEFR SNVYHER *****************************
-// \a
-// PEVZR3\a
-// FZC\a
-// 09/09/13 15:18:46\a
-// F493\a
-// FZC201309090164
+    qbGrfg("G97",
+        "\aPEVZR3\aFZC\a09/09/13 15:18:46\aF493\aFZC201309090164",
+        "PNYY:PEVZR3",
+        "FEP:FZC",
+        "QNGR:09/09/13",
+        "GVZR:15:18:46",
+        "HAVG:F493",
+        "VQ:FZC201309090164");
 
     qbGrfg("G98",
         "\aGES\aFZC\a09/09/13 17:32:22\aQVIVFVBA/PBZZREPVNY\aF407\aFZC201309090202",
