@@ -29,7 +29,6 @@ FUBRZNXRE EQ & UJL 10 10-50 GENSSVP/GENAFCBEGNGVBA VAPVQRAGF PebffFgerrgf:
 7862 F R WNZVR YA FGEHPGHER SVER PebffFgerrgf:
 34066 UVTUJNL 10 SNYYF PebffFgerrgf: UVTUJNL Z 0.51 zv J ZBPXVATOVEQ YA 0.22 zv FR ENL PBHAGL
 13630 FGRJNEG EQ NYYRETVRF / RAIRABZNGVBAF PebffFgerrgf: J 140 FG 0.54 zv A J 130 FG 0.71 zv F ENL PBHAGL
-2014 J QBAAN QE \a93LBS \aSNYYF \aPBAF OERNGUVAT
 2014 J QBAAN QE SNYYF PebffFgerrgf: F QBAAN QE 0.05 zv R YNXR QBAVCUNA EQ 0.16 zv J ENL PBHAGL
 A ENLZBER FG & J 146 FG FHFCVPVBHF / JNAGRQ (CREFBA, IRUVPYR) PebffFgerrgf: ENL PBHAGL
 3002 ZNCYRJBBQ QE NYNEZF PebffFgerrgf: RIRETERRA FG 0.09 zv J UVTUJNL B 0.22 zv R JBBQ URVTUGF
@@ -232,12 +231,6 @@ choyvp pynff ZBEnlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYYRETVRF / RAIRABZNGVBAF",
         "K:J 140 FG/0.54 zv A / J 130 FG/0.71 zv F",
         "PVGL:ENL PBHAGL");
-
-// ************************ CNEFR SNVYHER *****************************
-// 2014 J QBAAN QE \a
-// 93LBS \a
-// SNYYF \a
-// PBAF OERNGUVAT
 
     qbGrfg("G19",
         "2014 J QBAAN QE SNYYF PebffFgerrgf: F QBAAN QE 0.05 zv R YNXR QBAVCUNA EQ 0.16 zv J ENL PBHAGL",
@@ -502,9 +495,6 @@ choyvp pynff ZBEnlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:QRGNVY RZF",
         "K:F PBYYRTR FG/0.01 zv R / F PNZQRA FG/0.06 zv J",
         "PVGL:EVPUZBAQ");
-
-// ************************ CNEFR SNVYHER *****************************
-// RFSQ ZHGHNY NVQR / NFFVFG BHGFVQR NTRAPL RZF PebffFgerrgf:
 
     qbGrfg("G20",
         "8888 FYHZORE YA, Ncg. 217 10-96 ZRAGNY QVFBEQRE (ORUNIVBENY) PebffFgerrgf: PUNCRY QE 6430.22 zv AJ EVPUZBAQ",
