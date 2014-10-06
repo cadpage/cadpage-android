@@ -11,10 +11,13 @@ import net.anei.cadpage.parsers.MsgParser;
 public class COElPasoCountyAParser extends MsgParser {
   
   private static final Pattern MASTER = 
-      Pattern.compile("\\[([-A-Z0-9 ]+): *([^\\]]+?)\\] *([^~]+?)~([^~]+?)~([^#\\.]+?)\\.?#([^~]*?)~([^~]*?)~(?:x:([^~]*?)(?:   +~?|~))?(?:ALRM:([\\d ])~)?(?:CMD:([^~]*)~?)?(?:([-A-Z0-9]+))? *~*");
+      Pattern.compile("\\[([-A-Z0-9 ]+): *([^\\]]+?)\\] *([^~]+?)~([^~]+?)~([^#]+?)\\.?#([^~]*?)~([^~]*?)~(?:x:([^~]*?)(?:   +~?|~))?(?:ALRM:([\\d ])~)?(?:CMD:([^~]*)~?)?(?:([-A-Z0-9]+))? *~*");
   
   private static final Pattern MASTER2 =
-      Pattern.compile("FROM EPSO: (.*?)  +(.*?)(?:  +(.*?))?  +JURIS: (.*)");
+      Pattern.compile("INFO from EPSO: (.*?)  +(.*?)(?:  +(.*?))?  +JURIS: (.*)  ALRM: (\\d*) *CMD:(.*)");
+  
+  private static final Pattern MASTER3 = 
+      Pattern.compile("([ A-Z]+) - (.*?)  +(.*?) - (.*)");
   
   public COElPasoCountyAParser() {
     super("EL PASO COUNTY", "CO");
@@ -53,76 +56,46 @@ public class COElPasoCountyAParser extends MsgParser {
     
     match = MASTER2.matcher(body);
     if (match.matches()) {
-      setFieldList("CALL ADDR APT PLACE SRC");
+      setFieldList("CALL ADDR APT PLACE SRC PRI UNIT");
       data.strCall = match.group(1).trim();
       parseAddress(match.group(2).trim(), data);
       String place = match.group(3);
       if (place != null) {
         place = place.trim();
-        if (place.length() <= 4 || NUMERIC.matcher(place).matches()) {
-          data.strApt = append(data.strApt, "-", place);
+        String apt;
+        int pt = place.indexOf("  ");
+        if (pt >= 0) {
+          apt = place.substring(0,pt);
+          place = place.substring(pt+2);
         } else {
+          apt = place;
+          place = "";
+        }
+        if (apt.length() <= 4 || NUMERIC.matcher(apt).matches()) {
+          data.strApt = append(data.strApt, "-", apt);
           data.strPlace = place;
+        } else {
+          data.strPlace = append(apt, "  ", place);
         }
       }
       data.strSource = match.group(4).trim();
+      data.strPriority = match.group(5);
+      data.strUnit = match.group(6).trim();
       return true;
     }
     
-    if (body.startsWith("From EPSO -") && body.length() > 88  &&
-        body.charAt(36) != ' ' &&
-        body.charAt(87) == ' ' && body.charAt(88) != ' ') {
-      setFieldList("CALL ADDR APT INFO");
-      data.strCall = substring(body, 12, 35);
-      parseAddress(substring(body, 36, 87), data);
-      data.strSupp = substring(body, 88);
+    match = MASTER3.matcher(body + ' ');
+    if (match.matches()) {
+      setFieldList("SRC CALL ADDR APT INFO NAME PHONE");
+      data.strSource = match.group(1);
+      data.strCall = match.group(2);
+      parseAddress(match.group(3).trim(), data);
+      Parser p = new Parser(' ' + match.group(4));
+      data.strPhone = p.getLastOptional(" PH ");
+      data.strName = p.getLastOptional(" RP ");
+      data.strSupp = p.get();
       return true;
-    }
-    
-    // There are (at least) three different fixed length formats used by 
-    // three different agencies.  So I guess we just have to figure out
-    // which one to use
-    
-    if (body.length() >= 69 &&
-        body.charAt(4) == '-' &&
-        body.substring(30,34).equals("APT-") &&
-        body.substring(65,69).equals("DET-")) {
-
-      setFieldList("SRC ADDR APT CALL INFO");
-      data.strSource = body.substring(0,4).trim();
-      parseAddress(body.substring(5,30).trim(), data);
-      data.strApt = body.substring(34,40).trim();
-      data.strCall = body.substring(40,65).trim();
-      data.strSupp = body.substring(69);
-      return true;
-    }
-    
-    
-    if (body.length() >= 30 &&
-        body.substring(6,9).equals(" - ")) {
       
-      setFieldList("SRC CALL ADDR APT PLACE SUPP");
-      data.strSource = body.substring(0,6).trim();
-      data.strCall = substring(body, 9, 29);
-      parseAddress(substring(body, 29, 59), data);
-      data.strPlace = substring(body, 59, 74);
-      data.strSupp = substring(body, 74);
-      return true;
-    }
-    
-    if (body.length() >= 80 &&
-        body.charAt(4) == ' ' && 
-        body.charAt(5) == 'D' &&
-        Character.isDigit(body.charAt(6)) &&
-        body.substring(7,13).trim().length() == 0) {
-      
-      setFieldList("SRC PRI CALL ADDR APT INFO");
-      data.strSource = body.substring(0,4).trim();
-      data.strPriority = body.substring(5,7); 
-      data.strCall = body.substring(13,43).trim();
-      parseAddress(body.substring(43,78).trim(), data);
-      data.strSupp = substring(body, 78);
-      return true;
     }
     
     return false;
