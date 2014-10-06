@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchGlobalDispatchParser;
 
 public class MOPolkCountyParser extends DispatchGlobalDispatchParser {
   
-  private static final Pattern UNIT_PTN = Pattern.compile("[MRC]\\d+|MSHP\\d|\\d{2,3}(?:-\\d)?|SJDC|SJLL|[A-Z]{1,2}FD");
+  private static final Pattern UNIT_PTN = Pattern.compile("[MRC]\\d+|MSHP\\d|\\d{2,4}(?:-\\d)?|SJDC|SJLL|[A-Z]{1,2}FD");
   private static final Pattern CALL_CODE_PTN = Pattern.compile("/ *(\\d{1,2}-[A-Z]-\\d{1,2})$");
   private static final Pattern CITY_PTN = Pattern.compile("[A-Z ]+", Pattern.CASE_INSENSITIVE);
   

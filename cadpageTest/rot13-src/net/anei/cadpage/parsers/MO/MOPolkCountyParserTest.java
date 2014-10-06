@@ -382,12 +382,18 @@ choyvp pynff ZBCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:10/5/2014",
         "GVZR:16:29:45");
 
-// ************************ CNEFR SNVYHER *****************************
-// (EG:) UVTUJNL 13 & UVTUJNL 215 \a
-// GENSSVP/GENAFCBEGNGVBA/29-O-4 \a
-// Cevznel Vapvqrag: 14C3448 \a
-// 300 Z1770 ZFUC1 Z1780 2374 365 \a
-// Pnyy Ahzore: 268230
+    qbGrfg("G5",
+        "(EG:) UVTUJNL 13 & UVTUJNL 215 \a" +
+        "GENSSVP/GENAFCBEGNGVBA/29-O-4 \a" +
+        "Cevznel Vapvqrag: 14C3448 \a" +
+        "300 Z1770 ZFUC1 Z1780 2374 365 \a" +
+        "Pnyy Ahzore: 268230",
+
+        "VQ:14C3448/268230",
+        "NQQE:UVTUJNL 13 & UVTUJNL 215",
+        "PNYY:GENSSVP/GENAFCBEGNGVBA",
+        "PBQR:29-O-4",
+        "HAVG:300 Z1770 ZFUC1 Z1780 2374 365");
 
     qbGrfg("G6",
         "(EG:) UVTUJNL 13 & UVTUJNL 215 \a" +
@@ -908,12 +914,18 @@ choyvp pynff ZBCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:10/3/2014",
         "GVZR:16:26:30");
 
-// ************************ CNEFR SNVYHER *****************************
-// (EG:) 1203 R 559GU EQ \a
-// NFFNHYG/FRKHNY NFFNHYG/4-O-3 \a
-// Cevznel Vapvqrag: 14C3429 \a
-// 2374 Z1780 JTSQ 2362 ZFUC1 2352 2368 2361 2364 \a
-// Pnyy Ahzore: 268034
+    qbGrfg("G4",
+        "(EG:) 1203 R 559GU EQ \a" +
+        "NFFNHYG/FRKHNY NFFNHYG/4-O-3 \a" +
+        "Cevznel Vapvqrag: 14C3429 \a" +
+        "2374 Z1780 JTSQ 2362 ZFUC1 2352 2368 2361 2364 \a" +
+        "Pnyy Ahzore: 268034",
+
+        "VQ:14C3429/268034",
+        "NQQE:1203 R 559GU EQ",
+        "PNYY:NFFNHYG/FRKHNY NFFNHYG",
+        "PBQR:4-O-3",
+        "HAVG:2374 Z1780 JTSQ 2362 ZFUC1 2352 2368 2361 2364");
 
     qbGrfg("G45",
         "(EG:) 1203 R 559GU EQ \a" +
