@@ -554,6 +554,7 @@ class Active911Vendor extends Vendor {
       "US/TX/CityofDickinson",            "TXGalvestonCounty",
       "US/TX/CityofKeller",               "TXKeller",
       "US/TX/CityofCrowley",              "TXCrowley",
+      "US/TX/CityofWylie",                "TXCollinCountyA",
       "US/TX/DentonCounty",               "TXDentonCounty",
       "US/TX/FlightVector",               "TXFlightVector",
       "US/TX/FortBendCounty",             "TXFortBendCountyA",

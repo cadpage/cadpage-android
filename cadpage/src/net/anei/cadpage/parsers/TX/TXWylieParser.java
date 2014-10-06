@@ -12,12 +12,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 
 public class TXWylieParser extends FieldProgramParser {
-  private static final Pattern SUBJECT_PATTERN = Pattern.compile("^ALERT \\- (.+)");
+  private static final Pattern SUBJECT_PATTERN = Pattern.compile("ALERT \\- (.+)|String Match .*");
   private static final Pattern BODY_PATTERN = Pattern.compile("^CITY OF WYLIE DISPATCH\\n\\n(.*)", Pattern.DOTALL);
 
   public TXWylieParser() {
     super("", "TX",
-        "CALL! BOX:BOX! ADDR! CROSS_STREET(S):X CHANNEL:CH! CITY!");
+        "CALL! BOX:BOX? ADDR! CROSS_STREET(S):X CHANNEL:CH! CITY!");
   }
 
   @Override
@@ -29,8 +29,8 @@ public class TXWylieParser extends FieldProgramParser {
 protected boolean parseMsg(String subject, String body, Data data) {
 
   Matcher m = SUBJECT_PATTERN.matcher(subject);
-  if (!m.matches()) return false;
-  data.strUnit = m.group(1).trim();
+  if (!m.lookingAt()) return false;
+  data.strUnit = getOptGroup(m.group(1));
   m = BODY_PATTERN.matcher(body);
   if (!m.matches()) return false;
   body = m.group(1).trim();
