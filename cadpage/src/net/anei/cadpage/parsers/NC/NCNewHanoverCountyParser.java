@@ -143,6 +143,7 @@ public class NCNewHanoverCountyParser extends DispatchOSSIParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CB",   "CAROLINA BEACH",
       "CH",   "CASTLE HAYNE",
       "WM",   "WILMINGTON"
   });
