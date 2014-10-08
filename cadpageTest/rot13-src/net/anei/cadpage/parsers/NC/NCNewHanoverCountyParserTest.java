@@ -2219,7 +2219,7 @@ choyvp pynff APArjUnabirePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FG21",
         "PNYY:GENAFSBEZRE SVER JVER BE CBYR",
         "NQQE:78 ZLEGYR NIR",
-        "CYNPR:PO",
+        "PVGL:PNEBYVAN ORNPU",
         "VASB:THYS FGERNZ ERFGNHENAG / iru ena vagb nyvtug cbyr.. / Bhgfvqr Sver. G",
         "QNGR:09/01/14",
         "GVZR:20:39:12");

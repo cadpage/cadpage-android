@@ -254,6 +254,18 @@ public class CallHistoryActivity extends ListActivity {
   private boolean activityActive = false;
 
   @Override
+  protected void onStart() {
+    if (Log.DEBUG) Log.v("CallHistoryActivity: onStart()");
+    super.onStart();
+  }
+
+  @Override
+  protected void onStop() {
+    if (Log.DEBUG) Log.v("CallHistoryActivity: onStop()");
+    super.onStop();
+  }
+
+  @Override
   protected void onResume() { 
     if (Log.DEBUG) Log.v("CallHistoryActivity: onResume()");
     super.onResume(); 
