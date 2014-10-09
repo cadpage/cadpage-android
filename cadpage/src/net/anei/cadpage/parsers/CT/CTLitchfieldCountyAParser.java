@@ -44,8 +44,8 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
       if (gps != null) setGPSLoc(gps, data);
       
       Parser p = new Parser(sAddr);
-      data.strCall = p.getLast(',');
-      data.strPlace = p.getLast(',');
+      data.strCall = p.getLast(", ");
+      data.strPlace = p.getLast(", ");
       sAddr = p.get();
       if (sAddr.length() == 0) return false;
       parseAddressField(sAddr, data);
@@ -71,7 +71,6 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
   private void parseAddressField(String sAddr, Data data) {
     Matcher match;
     parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_ANCHOR_END, sAddr, data);
-    if (data.strCity.equals("HEMLOCK ROXBURY")) data.strCity = "ROXBURY";
     String sPlace = getPadField();
     
     
@@ -130,5 +129,6 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
       data.strApt = data.strPlace;
       data.strPlace = savePlace;
     }
+    CTLitchfieldCountyParser.fixCity(data);
   }
 }
