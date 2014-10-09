@@ -9,6 +9,7 @@ import net.anei.cadpage.parsers.ReverseCodeSet;
 import net.anei.cadpage.parsers.SmartAddressParser;
 /**
  * Craven County, NC
+ * Obsolete as of 9/15/14 - replaced by NCCravenCountyCParser
  */
 public class NCCravenCountyBParser extends SmartAddressParser {
   
@@ -33,6 +34,7 @@ public class NCCravenCountyBParser extends SmartAddressParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("CC911")) return false;
+    if (body.startsWith("Location:")) return false;
     if (internalParseMsg(body, data)) {
       if (data.strCity.equalsIgnoreCase("Jones")) data.strCity = "Jones County";
       return true;

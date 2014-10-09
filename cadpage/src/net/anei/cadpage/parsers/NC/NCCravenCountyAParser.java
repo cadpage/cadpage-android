@@ -78,6 +78,11 @@ public class NCCravenCountyAParser extends FieldProgramParser {
       }
       if (data.strCity.equalsIgnoreCase("Jones")) data.strCity = "Jones County";
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR APT CITY CALL";
+    }
   }
   
   private static final Pattern INFO_GPS_PTN = Pattern.compile("\\s*(?:E911 Info .*)?(?:(3[45]\\.\\d{4,} +-7[67]\\.\\d{4,})|-361 +-361)$");
