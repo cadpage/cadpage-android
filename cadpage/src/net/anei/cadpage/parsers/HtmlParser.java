@@ -1,8 +1,8 @@
 package net.anei.cadpage.parsers;
 
-import android.annotation.SuppressLint;
-import android.annotation.TargetApi;
-import android.os.Build;
+// import android.annotation.SuppressLint;
+// import android.annotation.TargetApi;
+// import android.os.Build;
 
 import java.io.IOException;
 import java.util.*;
@@ -135,8 +135,8 @@ import net.anei.cadpage.parsers.FieldProgramParser;
  *    
  */
 
-@TargetApi(Build.VERSION_CODES.FROYO)
-@SuppressLint("NewApi")
+// @TargetApi(Build.VERSION_CODES.FROYO)
+// @SuppressLint("NewApi")
 public class HtmlParser extends FieldProgramParser {
   private HtmlCleaner htmlCleaner = null;
   private CleanerProperties props = null;

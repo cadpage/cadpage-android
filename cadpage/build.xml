@@ -26,11 +26,12 @@
 	<property name="src2" value="src"/>
 	<property name="bin" value="bin/classes"/>
 	<property name="dist" value="dist"/>
-	<property name="select" value="net/anei/cadpage/parsers/**"/>
-	<property name="filename" value="CadpageParser"/>
-	<property name="jarfile" value="${dist}/${filename}.jar"/>
-	<property name="zipfile" value="${dist}/${filename}.zip"/>
-	<property name="zipcontent" value="MsgFormats.txt ${zipfile}"/>
+	<property name="select1" value="net/anei/cadpage/parsers/**"/>
+  <property name="select2" value="net/anei/cadpage/parsers/*"/>
+	<property name="filename1" value="CadpageParser"/>
+	<property name="filename2" value="SAParser"/>
+	<property name="jarfile1" value="${dist}/${filename1}.jar"/>
+	<property name="jarfile2" value="${dist}/${filename2}.jar"/>
 	<property name="libs" value="libs/htmlcleaner-2.7.jar" />
 	
 	<target name="clean">
@@ -44,17 +45,28 @@
 	</target>
     
     <target name="compile" depends="setup">
-        <javac srcdir="${src2}" includes="${select}" destdir="${bin}" classpath="${libs}" 
+        <javac srcdir="${src2}" includes="${select1}" destdir="${bin}" classpath="${libs}" 
         	   source="1.6" target="1.6" debug="yes" includeAntRuntime="false"/>
     </target>
 	
-	<target name="jarfile" depends="compile">
-		<jar basedir="${bin}" includes="${select}" destfile="${jarfile}"
+	<target name="jarfile1" depends="compile">
+		<jar basedir="${bin}" includes="${select1}" destfile="${jarfile1}"
 		     level="9" manifest="MANIFEST.MF">
 		    <zipfileset src="${libs}"/>
 		</jar>
 	</target>
-	
-	<target name="build" depends="jarfile" description="Build Parser Library"/>
+  
+  <target name="jarfile2" depends="compile">
+    <jar basedir="${bin}" destfile="${jarfile2}"
+         level="9" manifest="MANIFEST2.MF">
+		    <include name="net/anei/cadpage/parsers/SAPWrapper*.class"/>
+        <include name="net/anei/cadpage/parsers/SmartAddressParser*.class"/>
+        <include name="net/anei/cadpage/parsers/CodeSet*.class"/>
+        <include name="net/anei/cadpage/parsers/MsgInfo*.class"/>
+        <include name="net/anei/cadpage/parsers/MsgParser*.class"/>
+     </jar>
+  </target>
+		
+	<target name="build" depends="jarfile1,jarfile2" description="Build Parser Library"/>
 	
 </project>

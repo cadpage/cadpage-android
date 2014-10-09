@@ -83,33 +83,45 @@ public abstract class SmartAddressParser extends MsgParser {
   
   /**
    * Flag indicating that a numeric field following the address should NOT
-   * be considered an apartment number.
+   * be considered an apartment number.  Use when dispatch never includes
+   * a trailing apt.  And the following field might legitimately start
+   * with a number as "123 BLACKSTONE DR 76 YO FEMALE
    */
   public static final int FLAG_NO_IMPLIED_APT =0x0400;
   
   /**
    * Flag indicating there is cross street information following the address
    * which means logic to identify a city followed by a street suffix as as
-   * street name instead of a city should be suppressed
+   * street name instead of a city should be suppressed.
+   * Normally 123 BLACKSTONE DR PHILOMATH MAIN ST
+   * would not terminate at PHILOMATH because PHILOMATH MAIN ST looks like
+   * a valid street name.  Turning on this flag changes that.  There have
+   * been cases were turning this on fixed problems with following data that
+   * was not really a cross street, but looked like it could be a cross street
    */
   public static final int FLAG_CROSS_FOLLOWS = 0x0800;
   
   /**
    * Flag indicating that there my not be a blank delimiter between the
-   * address and the data field in front of it
+   * address and the data field in front of it. As in
+   * STRUCTURE FIRE100 BLACK ST
+   * Things are pretty bad when you have to use this
    */
   public static final int FLAG_START_FLD_NO_DELIM = 0x1000;
   
   /**
    * Flag indicating that we will accept street names with non street suffix.
-   * Only use in cases where dispatch routinely drops streets suffixes, this
-   * allows a lot of junk to get through
+   * Only use in cases where dispatch routinely drops streets suffixes.  When
+   * you have to use this, things are going to go badly and a lot of addresses
+   * are not going to parser properly.  But this is the best we can do.
    */
   public static final int FLAG_OPT_STREET_SFX = 0x2000;
   
   /**
    * Flag indicating that @ signs should be processed as at markers
-   * but the word "AT" should be ignored
+   * but the word "AT" should be ignored.  This should probably be
+   * used more often than it is.  Without it, things got south when
+   * following data inocently contains the word AT.
    */
   public static final int FLAG_AT_SIGN_ONLY = 0x4000;
   
@@ -125,12 +137,23 @@ public abstract class SmartAddressParser extends MsgParser {
   
   /**
    * Flag indicating that this call should not find a city.  That any predefined city lists
-   * or codes should be ignored
+   * or codes should be ignored.  Basically tells the parser to ignore any city codes or lists.
+   * Obviously not needed when there are no city codes/lists.  But can be useful when
+   * you have an address line that might or might not contain a city.  A parser can
+   * work with a line that might contain either
+   * STRUCTURE FIRE 1035 MAIN ST, PHILOMATH or
+   * STRUCTURE FIRE 1035 MAIN ST PHILOMATH
+   * by checking for the comma.  If found, extract city name from after the comma and turn
+   * on the FLAG_NO_CITY flag
    */
   public static final int FLAG_NO_CITY = 0x10000;
   
   /**
-   * Flag indicating that a NEAR clause should extend to the end of the input string
+   * Flag indicating that a NEAR clause should extend to the end of the input string.
+   * I'm really not sure about this one.  But here is what I think happens.
+   * Normally an address like 1035 MAIN ST NEAR THE PHILOMATH FIRE STATION
+   * would parser NEAR THE as the place name and PHILOMATH as the city.  With
+   * this flag set, NEAR THE PHILOMATH FIRE STATION goes into the place name.
    */
   public static final int FLAG_NEAR_TO_END = 0x20000;
   
@@ -147,13 +170,16 @@ public abstract class SmartAddressParser extends MsgParser {
   
   /**
    * Flag indicating that extra effort should be expended to identify
-   * implied apt fields at the end of the address field
+   * implied apt fields at the end of the address field.  Normally only
+   * numeric tokens following the address are considered apartments.  This
+   * triggers some aggressive logic to identify non-numeric information
+   * following the address and assigning it to the apt field.
    */
   public static final int FLAG_RECHECK_APT = 0x100000;
   
   /**
    * Flag indication that there is absolutely, positively, no street suffix
-   * in this address.  Used only in the incredibly wierd case where search for
+   * in this address.  Used only in the incredibly weird case where search for
    * a street suffix will mistakenly pick up a following cross street. 
    */
   public static final int FLAG_NO_STREET_SFX = 0x200000;
