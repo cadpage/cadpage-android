@@ -56,6 +56,7 @@ public class WABentonCountyParser extends FieldProgramParser {
   private static Properties CITY_CODES = buildCodeTable(new String[] {
       "BNCT BENT", "BENTON CITY",
       "BNCO BENT", "BENTON COUNTY",
+      "KENN BENT", "KENNEWICK",
       "RICH BENT", "RICHLAND",
       "WRCH BENT", "WEST RICHLAND"
   });
