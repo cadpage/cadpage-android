@@ -735,7 +735,6 @@ choyvp pynff GKJlyvrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:HGVYVGL YVARF QBJA",
         "OBK:234",
         "NQQE:OHGFPUREF OYBPX & FNVAG CNHY EQ",
-        "ZNQQE:OHGFPUREF & FNVAG CNHY EQ",
         "PU:BCF 3",
         "PVGL:FNVAG CNHY");
 

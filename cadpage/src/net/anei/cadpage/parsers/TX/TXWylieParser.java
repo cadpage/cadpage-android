@@ -18,6 +18,7 @@ public class TXWylieParser extends FieldProgramParser {
   public TXWylieParser() {
     super("", "TX",
         "CALL! BOX:BOX? ADDR! CROSS_STREET(S):X CHANNEL:CH! CITY!");
+    setupProtectedNames("BUTSCHERS BLOCK");
   }
 
   @Override
