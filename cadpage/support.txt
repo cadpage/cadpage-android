@@ -3267,7 +3267,7 @@ To enable direct pages from Active911 (to Cadpage), open Cadpage
 Settings and select
 Direct Paging Vendors > Active911.com > Register
 This will take you to a web page where you need to enter your Active911
-device Activation code, which is 115399-ZLWD
+device Activation code, which is ________________.
 
 To enable text pages, you have to get dispatch text alerts sent to your
 phone.  This isn't something you do in Cadpage.  There is someone in
