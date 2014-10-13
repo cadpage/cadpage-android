@@ -26,6 +26,7 @@ public class NYMadisonCountyGLASParser extends MsgParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Greater Lenox")) return false;
     
+    body = stripFieldStart(body, "=20\n");
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     data.strCall = match.group(1).trim();
