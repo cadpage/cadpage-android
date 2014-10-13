@@ -218,6 +218,17 @@ public class SAPWrapper extends SmartAddressParser {
         }
       }
       
+      // I didn't think of this till know, but you could use this library to
+      // implement Cadpage map address adjustments.  Whether you should or not
+      // is another question.  My adjustment logic has evolved over several years
+      // and in some cases fixes issues that Google has long since addressed itself
+      if (args[0].equals("ADJUST_MAP_ADDR")) {
+        parser.parseAddress("1300 US ST HWY 20 WO KINGS VALLEY HWY", data);
+        data.strCross = "KINGS VALLEY HWY";
+        MsgInfo info = new MsgInfo(data);
+        System.out.println(info.getMapAddress(2, null, null));
+      }
+      
       // We really do not want to do this forever do we
       break;
     }
