@@ -4,9 +4,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchB3Parser;
 
 
 
-public class WVHardyCountyAParser extends DispatchB3Parser {
+public class WVHardyCountyParser extends DispatchB3Parser {
   
-  public WVHardyCountyAParser() {
+  public WVHardyCountyParser() {
     super("HARDYCOE911:", CITY_LIST, "HARDY COUNTY", "WV");
   }
   
@@ -21,7 +21,7 @@ public class WVHardyCountyAParser extends DispatchB3Parser {
   }
   
    
-  private static final String[] CITY_LIST = new String[]{  
+  static final String[] CITY_LIST = new String[]{  
     "ARKANSAS",
     "BAKER",
     "BASORE",

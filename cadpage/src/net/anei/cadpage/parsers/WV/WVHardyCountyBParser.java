@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 public class WVHardyCountyBParser extends DispatchA48Parser {
   
   public WVHardyCountyBParser() {
-    super(CITY_LIST, "HARDY COUNTY", "WV", FieldType.NAME);
+    super(CITY_LIST, "HARDY COUNTY", "WV", FieldType.X_NAME);
     setupCallList(CALL_CODE);
   }
   
@@ -22,7 +22,9 @@ public class WVHardyCountyBParser extends DispatchA48Parser {
       "ALLERGIC REACTION",
       "BREATHING PROBLEMS",
       "CARDIAC ARREST",
+      "CHOKING",
       "DEAD ON ARRIVAL",
+      "DOMESTIC REPORT",
       "DWELLING FIRE",
       "FALL",
       "FIRE ALARM",
@@ -34,8 +36,10 @@ public class WVHardyCountyBParser extends DispatchA48Parser {
       "MOTOR VEHICLE ACCIDENT", 
       "MUTUAL AID",
       "ORDER INVESTIGATION/COMPLAINT",
+      "RUNAWAY/MISSING JUVENILE",
       "SMOKE INVESTIGATION",
       "TRANSPORT PRISONER",
+      "TRAUMATIC INJURIES",
       "TREE DOWN",
       "UNCONSIOUS PERSON",
       "VEHICLE FIRE",

@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class DispatchA48Parser extends SmartAddressParser {
   
-  public enum FieldType { NAME, X, DATE_TIME_INFO };
+  public enum FieldType { NAME, X, X_NAME, DATE_TIME_INFO };
   
   /**
    * Flag indicating the call description is a single word code
@@ -16,8 +16,8 @@ public class DispatchA48Parser extends SmartAddressParser {
   public static final int A48_ONE_WORD_CODE = 0x1;
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("As of \\d\\d?/\\d\\d?/\\d\\d \\d\\d");
-  private static final Pattern PREFIX_PTN = Pattern.compile("[-a-z0-9]+: +");
-  private static final Pattern MASTER_PTN = Pattern.compile("(?:CAD:)?As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d:\\d\\d:\\d\\d) (\\d{4}-\\d{8}) (.*)");
+  private static final Pattern PREFIX_PTN = Pattern.compile("([-a-z0-9]+: *)(.*)");
+  private static final Pattern MASTER_PTN = Pattern.compile("(?:CAD:|[-A-Za-z0-9]+:)?As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d:\\d\\d:\\d\\d) (\\d{4}-\\d{8}) (.*)");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d:\\d\\d:\\d\\d)\\b");
     
   private FieldType fieldType;
@@ -40,8 +40,8 @@ public class DispatchA48Parser extends SmartAddressParser {
   public boolean parseMsg(String subject, String body, Data data) {
     if (SUBJECT_PTN.matcher(subject).matches()) {
       Matcher match = PREFIX_PTN.matcher(body);
-      if (match.lookingAt()) body = body.substring(match.end());
-      body = "CAD:" + subject + ':' + body;
+      if (!match.matches()) return false;
+      body = match.group(1) + subject + ':' + match.group(2);
       subject = "";
     }
     data.strSource = subject;
@@ -143,6 +143,20 @@ public class DispatchA48Parser extends SmartAddressParser {
       
     case X:
       parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, extra, data);
+      break;
+      
+    case X_NAME:
+      String cross = "";
+      while (true) {
+        Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT, extra);
+        if (!res.isValid()) break;
+        res.getData(data);
+        cross = append(cross, " / ", data.strCross);
+        data.strCross = "";
+        extra = res.getLeft();
+      } 
+      data.strCross = cross;
+      data.strName = extra;
       break;
       
     case DATE_TIME_INFO:
