@@ -218,7 +218,13 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (impliedApt) flags |= FLAG_RECHECK_APT;
     if (inclCross || inclCrossNamePhone) flags |= FLAG_CROSS_FOLLOWS;
     if (noNamePhone && inclPlace) flags |= FLAG_ANCHOR_END;
+    boolean leadOne = sAddr.startsWith("1 ");
+    if (leadOne) {
+      sAddr = sAddr.substring(2).trim();
+      st = StartType.START_ADDR;
+    }
     parseAddress(st, flags, sAddr, data);
+    if (leadOne) data.strAddress = append("1", " ", data.strAddress);
     String sLeft = getLeft();
     
     // Processing what is left gets complicated
@@ -240,8 +246,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
       if (match.matches()) {
         parseAddress(match.group(1), data);
       } else {
+        sLeft = stripFieldStart(sLeft, "AT ");
         sLeft = sLeft.replace(" X ", " / ");
-        if (sLeft.endsWith(" X")) sLeft = sLeft.substring(0,sLeft.length()-2).trim();
+        sLeft = stripFieldEnd(sLeft, " X");
         data.strCross = append(data.strCross, " & ", sLeft);
       }
     } 
@@ -374,6 +381,36 @@ public class DispatchSouthernParser extends FieldProgramParser {
     }
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CODE"))  return new MyCodeField();
+    if (name.equals("PARTCODE")) return new SkipField("[MFL]D?");
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("ID")) return new IdField("\\d\\d(?:\\d\\d)?-?\\d{4,8}", true);
+    if (name.equals("NAME")) return new MyNameField();
+    if (name.equals("PHONE")) return new PhoneField("\\d{10}");
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("ID2")) return new IdField("\\d{6}-\\d{2,4}");
+    return super.getField(name);
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("1 ")) {
+        field = field.substring(2).trim();
+        int flags = FLAG_ANCHOR_END;
+        if (impliedApt) flags |= FLAG_RECHECK_APT;
+        parseAddress(StartType.START_ADDR, flags, field, data);
+        data.strAddress = append("1", " ", data.strAddress);
+      } else {
+        super.parse(field, data);
+      }
+    }
+  }
+  
   // Name field continues until it finds a phone number, call number, or time
   private static final Pattern NOT_NAME_PTN = Pattern.compile("\\d{10}|\\d\\d(?:\\d\\d)?-?\\d{5,8}|\\d\\d:\\d\\d:\\d\\d");
   private class MyNameField extends NameField {
@@ -435,19 +472,5 @@ public class DispatchSouthernParser extends FieldProgramParser {
     public String getFieldNames() {
       return "UNIT CALL GPS INFO";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CODE"))  return new MyCodeField();
-    if (name.equals("PARTCODE")) return new SkipField("[MFL]D?");
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("ID")) return new IdField("\\d\\d(?:\\d\\d)?-?\\d{4,8}", true);
-    if (name.equals("NAME")) return new MyNameField();
-    if (name.equals("PHONE")) return new PhoneField("\\d{10}");
-    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("ID2")) return new IdField("\\d{6}-\\d{2,4}");
-    return super.getField(name);
   }
 }

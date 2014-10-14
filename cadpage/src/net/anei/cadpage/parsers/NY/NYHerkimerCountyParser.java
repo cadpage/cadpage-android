@@ -28,9 +28,9 @@ public class NYHerkimerCountyParser extends DispatchB3Parser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!super.isPageMsg(body) && !body.contains("Grids:,, NY")) return false; 
+    if (!subject.contains(">")) return false;
     body = body.replaceAll("\n", " ").replaceAll(" Grids:,, NY ", " ");
-    if (body.endsWith(" MAP:")) body = body.substring(0,body.length()-5).trim();
+    body = stripFieldEnd(body, " MAP:");
     if (!super.parseMsg(subject, body, data)) return false;
     
     // See if city suffix has bled over into name
@@ -40,14 +40,33 @@ public class NYHerkimerCountyParser extends DispatchB3Parser {
   }
   
   private static final String[] CITY_LIST = new String[]{  
+    "COLD BROOK",
+    "COLUMBIA",
+    "DANUBE",
     "DEERFIELD", 
-    "LITTLE FALLS CITY",
+    "DOLGEVILLE",
     "FAIRFIELD",
-    "MIDDLEVILLE", 
-    "NORWAY", 
-    "NEWPORT", 
-    "OHIO", 
-    "POLAND", 
-    "RUSSIA" 
+    "FRANKFORT",
+    "GERMAN FLATTS",
+    "HERKIMER",
+    "ILION",
+    "LITCHFIELD",
+    "LITTLE FALLS",
+    "LITTLE FALLS CITY",
+    "MANHEIM",
+    "MIDDLEVILLE",
+    "MOHAWK",
+    "NEWPORT",
+    "NORWAY",
+    "OHIO",
+    "POLAND",
+    "RUSSIA",
+    "SALISBURY",
+    "SCHUYLER",
+    "STARK",
+    "WARREN",
+    "WEBB",
+    "WEST WINFIELD",
+    "WINFIELD"
   }; 
 }

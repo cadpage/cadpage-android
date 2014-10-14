@@ -13,7 +13,12 @@ public class NCJacksonCountyParser extends DispatchSouthernParser {
   
   
   public NCJacksonCountyParser() {
-    super(CITY_LIST, "JACKSON COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID | DSFLAG_FOLLOW_CROSS);
+    super(CITY_LIST, "JACKSON COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID | DSFLAG_LEAD_PLACE | DSFLAG_FOLLOW_CROSS);
+    setupMultiWordStreets(
+        "CAMP CR",
+        "DEER RUN",
+        "LAUREL KNOB"
+    );
   }
   
   @Override
@@ -21,10 +26,20 @@ public class NCJacksonCountyParser extends DispatchSouthernParser {
     return "Bill@mydomain.com,232@jacksonrescue.org";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_CR_CREEK;
+  }
+  
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     if (! super.parseMsg(body, data)) return false;
+    
+    if (data.strPlace.length() > 0 && isValidAddress(data.strPlace)) {
+      data.strAddress = append(data.strAddress, " & ", data.strPlace);
+      data.strPlace = "";
+    }
     
     // Weather alerts show up as dispatched calls rather than general alerts
     if (data.strSupp.startsWith("WEATHER ") || GEN_ALERT_ADDRESS_PTN.matcher(data.strAddress).matches()) {

@@ -23,6 +23,11 @@ Fraqre: UP911@urexvzrepbhagl.bet
 (RZF>RZF PNYY) 54 Snvesvryq Fg\aTevqf:,, AL K:Snvesvryq Fg\aZvqqyrivyyr Ivyyntr Fzvgu, Wbua\a5419991234 ZNC:
 (YVSG>YVSG NFFVFG/ABA RZRE RZF)\a112 A Znva Fg Tevqf:,, AL\aK:Snvesvryq Fg Fzvgu, Wbua\a5419991234 ZNC:
 
+Pbagnpg: Ureoreg Serrzna <ureos56@tznvy.pbz>
+Fraqre: UP911@urexvzrepbhagl.bet
+(RZF   >RZF PNYY) ZRRGVAT UBHFR EQ KF: FGBAR EQ JVASVRYQ PUNEYRF 3158688921 Pnq: 2014-0000053472
+(QBZRFG>QBZRFGVP) FGUL 5F KF: BNX EVQTR GRE UREXVZRE IVYYNTR QLR, YLAA 3157172718 Pnq: 2014-0000053341
+
 */
 
 choyvp pynff ALUrexvzrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -109,6 +114,35 @@ choyvp pynff ALUrexvzrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ANZR:Fzvgu, Wbua",
         "CUBAR:5419991234");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgUreoregSerrzna() {
+
+    qbGrfg("G1",
+        "(RZF   >RZF PNYY) ZRRGVAT UBHFR EQ KF: FGBAR EQ JVASVRYQ PUNEYRF 3158688921 Pnq: 2014-0000053472",
+        "PBQR:RZF",
+        "PNYY:RZF PNYY",
+        "NQQE:ZRRGVAT UBHFR EQ",
+        "ZNQQE:ZRRGVAT UBHFR EQ & FGBAR EQ",
+        "K:FGBAR EQ",
+        "PVGL:JVASVRYQ",
+        "ANZR:PUNEYRF",
+        "CUBAR:3158688921",
+        "VQ:2014-0000053472");
+
+    qbGrfg("G2",
+        "(QBZRFG>QBZRFGVP) FGUL 5F KF: BNX EVQTR GRE UREXVZRE IVYYNTR QLR, YLAA 3157172718 Pnq: 2014-0000053341",
+        "PBQR:QBZRFG",
+        "PNYY:QBZRFGVP",
+        "NQQE:FGUL 5F",
+        "ZNQQE:AL 5F & BNX EVQTR GRE",
+        "K:BNX EVQTR GRE",
+        "PVGL:UREXVZRE",
+        "ANZR:QLR, YLAA",
+        "CUBAR:3157172718",
+        "VQ:2014-0000053341");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

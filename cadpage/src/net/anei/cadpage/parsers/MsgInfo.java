@@ -41,7 +41,7 @@ public class MsgInfo {
   // Suppress conversion of various forms of CR XX to COUNTY ROAD XX
   public static final int MAP_FLG_SUPPR_CR = 0x100;
   
-  // convert CR -> CRES instead of CIR
+  // convert CR -> CREEK instead of CIR
   public static final int MAP_FLG_CR_CREEK = 0x200;
   
   // Suppress TE -> TER translation

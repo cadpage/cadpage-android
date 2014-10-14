@@ -16,8 +16,8 @@ public class DispatchA48Parser extends SmartAddressParser {
   public static final int A48_ONE_WORD_CODE = 0x1;
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("As of \\d\\d?/\\d\\d?/\\d\\d \\d\\d");
-  private static final Pattern PREFIX_PTN = Pattern.compile("([-a-z0-9]+: *)(.*)");
-  private static final Pattern MASTER_PTN = Pattern.compile("(?:CAD:|[-A-Za-z0-9]+:)?As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d:\\d\\d:\\d\\d) (\\d{4}-\\d{8}) (.*)");
+  private static final Pattern PREFIX_PTN = Pattern.compile("(?!\\d\\d:)([-a-z0-9]+: *)(.*)");
+  private static final Pattern MASTER_PTN = Pattern.compile("(?:CAD:|[-A-Za-z0-9]+:)? *As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d:\\d\\d:\\d\\d) (\\d{4}-\\d{8}) (.*)");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d:\\d\\d:\\d\\d)\\b");
     
   private FieldType fieldType;
@@ -40,8 +40,11 @@ public class DispatchA48Parser extends SmartAddressParser {
   public boolean parseMsg(String subject, String body, Data data) {
     if (SUBJECT_PTN.matcher(subject).matches()) {
       Matcher match = PREFIX_PTN.matcher(body);
-      if (!match.matches()) return false;
-      body = match.group(1) + subject + ':' + match.group(2);
+      if (match.matches()) {
+        body = match.group(1) + subject + ':' + match.group(2);
+      } else {
+        body = subject + ':' + body;
+      }
       subject = "";
     }
     data.strSource = subject;

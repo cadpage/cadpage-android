@@ -146,7 +146,7 @@ public class NCNewHanoverCountyParser extends DispatchOSSIParser {
       "CB",   "CAROLINA BEACH",
       "CH",   "CASTLE HAYNE",
       "KB",   "KURE BEACH",
-      "WB",    "WRIGHTSVILLE BEACH", 
+      "WB",   "WRIGHTSVILLE BEACH", 
       "WM",   "WILMINGTON"
   });
 }
