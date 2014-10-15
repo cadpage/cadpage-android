@@ -14,6 +14,14 @@ public class DispatchA12Parser extends FieldProgramParser {
           "CALL! Loc:ADDR Rcvd:TIME! Units:UNIT? Comments:INFO");
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new BaseCallField();
+    if (name.equals("ADDR")) return new BaseAddressField();
+    if (name.equals("UNIT")) return new BaseUnitField();
+    return super.getField(name);
+  }
+  
   private static final Pattern CALL_PTN = Pattern.compile("(.*) \\((.*)\\)");
   private class BaseCallField extends CallField {
     @Override
@@ -92,23 +100,14 @@ public class DispatchA12Parser extends FieldProgramParser {
   private class BaseUnitField extends UnitField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.lastIndexOf(' ');
-      if (pt < 0) abort();
-      super.parse(field.substring(0,pt).trim(), data);
-      data.strCallId = field.substring(pt+1);
+      Parser p = new Parser(field);
+      data.strCallId = p.getLast(' ');
+      data.strUnit = p.get();
     }
     
     @Override
     public String getFieldNames() {
       return "UNIT ID";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new BaseCallField();
-    if (name.equals("ADDR")) return new BaseAddressField();
-    if (name.equals("UNIT")) return new BaseUnitField();
-    return super.getField(name);
   }
 }
