@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class MDGarrettCountyParser extends SmartAddressParser {
   
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("CAD:([^ ]+) +(.*)");
-  private static final Pattern MASTER_PTN = Pattern.compile("(\\d\\d?:\\d\\d?:\\d\\d?) +(.*?) +DUE: *([-A-Z0-9]+) +(?:RESPONSE CODE: *(?:([A-Z0-9]+)|[^\\p{ASCII}]) +)?([A-Z]{2}\\d{10})(?: +(.*))?", Pattern.DOTALL);
+  private static final Pattern MASTER_PTN = Pattern.compile("(\\d\\d?:\\d\\d?:\\d\\d?) +(.*?) +DUE: *([-A-Z0-9]+) +(?:RESPONSE CODE: *(?:([A-Z0-9]*)|[^\\p{ASCII}]) +)?([A-Z]{2}\\d{10})(?: +(.*))?", Pattern.DOTALL);
   private static final Pattern CALL_ADDR_PTN = Pattern.compile("(.*?) (?:@!|[^\\p{ASCII}] |(\\d{2,3}[A-Z]\\d{2}[A-Z]?|\\d{5}) )(.*)");
   
   public MDGarrettCountyParser() {
