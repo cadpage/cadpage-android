@@ -1,19 +1,23 @@
 package net.anei.cadpage.parsers.KS;
 
-import java.util.regex.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SmartAddressParser;
 
 /**
  * Reno County, KS
  */
-public class KSRenoCountyParser extends FieldProgramParser {
+public class KSRenoCountyParser extends SmartAddressParser {
+  
+  private static final Pattern MASTER = Pattern.compile("(.*?)  -  (.*?)  (\\d{4}-\\d{8})");
+  private static final Pattern GPS_PTN = Pattern.compile(" (\\d+\\.\\d{6,}|-361) / (-\\d+\\.\\d{6,}|-361)(?:  |$)");
+  private static final Pattern E911_INFO_PTN = Pattern.compile(" *\\bE911 Info - Class of Service: [A-Za-z0-9]+ Special Response Info: UNC=.* Uncertainty: +Confidence: *");
+  
   public KSRenoCountyParser() {
-    super("RENO COUNTY", "KS",
-        "ADDR ( City:VENUE Type:CALL Narr:INFO Incident#:ID Latitude:GPS "
-+               " | "
-+               "Venue:VENUE Type:CALL Narr:INFO Incident#:ID )");
+    super(CITY_LIST, "RENO COUNTY", "KS");
+    setFieldList("CALL ADDR APT CITY GPS INFO ID");
   }
   
   @Override
@@ -27,44 +31,92 @@ public class KSRenoCountyParser extends FieldProgramParser {
   }
 
   @Override
-  public boolean parseMsg(String msg, Data data) {
-    msg = msg.replace("\n", "").replace("[Longitude]", ", ");
-    msg = msg.replaceAll("(?i)\\[([A-Z#]+)\\]", "$1:");
-    return super.parseMsg(msg, data);  
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("VENUE")) return new VenueField();
-    return super.getField(name);
-  }
-  
-  private static final Pattern MY_ADDRESS_PATTERN
-    = Pattern.compile("(?i)^([^/]+?) +\\/ +([A-Z0-9]+)$");
-  private static final Pattern KS61_PTN 
-    = Pattern.compile("\\bK(\\d+)\\b", Pattern.CASE_INSENSITIVE);
-  private class MyAddressField extends AddressField {
-    @Override
-    public void parse(String field, Data data) {
-      String aptField = "";
-      Matcher m = MY_ADDRESS_PATTERN.matcher(field);
-      if (m.matches()) {
-        field = m.group(1);
-        aptField = m.group(2);
-      }
-      // google doesn't understand K61 as being KS 61
-      field = KS61_PTN.matcher(field).replaceAll("KS $1");
-      super.parse(field, data);
-      data.strApt = append(data.strApt, " ", aptField);
+  public boolean parseMsg(String subject, String body, Data data) {
+    
+    if (!subject.equals("Page Notification")) return false;
+    
+    body = body.replace("\n ", "").replace("\n", "");
+    Matcher match = MASTER.matcher(body);
+    if (!match.matches()) return false;
+    data.strCall = match.group(1).trim();
+    body = match.group(2).trim();
+    data.strCallId = match.group(3);
+    
+    match = GPS_PTN.matcher(body);
+    if (match.find()) {
+      setGPSLoc(match.group(1)+','+match.group(2), data);
+      String addr = body.substring(0,match.start()).trim();
+      parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT | FLAG_ANCHOR_END, addr, data);
+      data.strSupp = body.substring(match.end()).trim();
+    } else {
+      parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT, body, data);
+      data.strSupp = getLeft();
     }
+    
+    data.strSupp = E911_INFO_PTN.matcher(data.strSupp).replaceAll(" ").trim();
+    
+    if (data.strCity.equalsIgnoreCase("COUNTY")) data.strCity = "";
+    return true;
   }
   
-  private class VenueField extends CityField {
-    @Override
-    public void parse (String field, Data data) {
-      if (field.equals("COUNTY")) return;
-      super.parse(field, data);
-    }
-  }
+  private static final String[] CITY_LIST = new String[]{
+
+    // Cities
+    "ABBYVILLE",
+    "ARLINGTON",
+    "BUHLER",
+    "HAVEN",
+    "HUTCHINSON",
+    "LANGDON",
+    "NICKERSON",
+    "PARTRIDGE",
+    "PLEVNA",
+    "PRETTY PRAIRIE",
+    "SOUTH HUTCHINSON",
+    "SYLVIA",
+    "TURON",
+    "WILLOWBROOK",
+
+    // Unincorporated communities
+    "CASTLETON",
+    "DARLOW",
+    "MEDORA",
+    "PLEASANTVIEW",
+    "ST JOE",
+    "YODER",
+   
+    // Townships
+    "ALBION TWP",
+    "BELL TWP",
+    "CASTLETON TWP",
+    "CENTER TWP",
+    "CLAY TWP",
+    "ENTERPRISE TWP",
+    "GRANT TWP",
+    "GROVE TWP",
+    "HAVEN TWP",
+    "HAYES TWP",
+    "HUNTSVILLE TWP",
+    "LANGDON TWP",
+    "LINCOLN TWP",
+    "LITTLE REVIER TWP",
+    "LODA TWP",
+    "MEDFORD TWP",
+    "MEDORA TWP",
+    "MIAMI TWP",
+    "NINNESCAH TWP",
+    "PLEVNA TWP",
+    "RENO TWP",
+    "ROSCOE TWP",
+    "SALT CREEK TWP",
+    "SUMNER TWP",
+    "SYLVIA TWP",
+    "TROY TWP",
+    "VALLEY TWP",
+    "WALNUT TWP",
+    "WESTMINISTER TWP",
+    "YODER TWP",
+    
+    "COUNTY"
+  };
 }

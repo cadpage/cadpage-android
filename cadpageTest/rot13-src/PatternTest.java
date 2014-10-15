@@ -6,10 +6,10 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE  =
-      Cnggrea.pbzcvyr("\\o\\q+\\o");
+      Cnggrea.pbzcvyr(" *\\oR911 Vasb - Pynff bs Freivpr: [N-M]+ Fcrpvny Erfcbafr Vasb: HAP= .* Hapregnvagl: +Pbasvqrapr: *");
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("1627");
+    qbGrfg("R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: HAP=         FBHGU UHGPUVAFBA PVGL YVZVGF Hapregnvagl:  Pbasvqrapr:");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

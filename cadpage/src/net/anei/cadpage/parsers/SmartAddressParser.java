@@ -1071,6 +1071,7 @@ public abstract class SmartAddressParser extends MsgParser {
     int end  = (isFlagSet(FLAG_ANCHOR_END) ? tokens.length : gpsNdx+1);
     if (result.startField != null) result.startField.end(start);
     result.addressField = new FieldSpec(start, end);
+    result.endAll = end;
     return true;
   }
 
