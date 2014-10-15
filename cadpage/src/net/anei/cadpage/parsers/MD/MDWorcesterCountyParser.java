@@ -17,8 +17,12 @@ public class MDWorcesterCountyParser extends GroupBestParser {
   
   public static void fixCity(Data data) {
     data.strCity = convertCodes(data.strCity, FIX_CITY_TABLE);
-    if (VA_CITY_SET.contains(data.strCity.toUpperCase())) {
+    String city = data.strCity.toUpperCase();
+    if (VA_CITY_SET.contains(city)) {
       data.strState = "VA";
+    }
+    else if (DE_CITY_SET.contains(city)) {
+      data.strState = "DE";
     }
   }
   
@@ -57,12 +61,23 @@ public class MDWorcesterCountyParser extends GroupBestParser {
     "PRINCESS ANNE",
     
     // Accomack County, VA
+    "CHINCOTEAGUE",
+    "GREENBACKVILLE",
     "HORTOWN",     // typo
     "HORNTOWN",
+    "MARIONVILLE",
     "NEW CHURCH",
     "OAK HALL",
     "PARKSL",
-    "PARKSLEY"
+    "PARKSLEY",
+    "TEMPERANCEVILLE",
+    
+    // Northampton County, VA
+    "EXMORE",
+    "MARIONVILLE",
+    
+    // Sussex County, DE
+    "SELBYVILLE"
   };
   
   private static final Properties FIX_CITY_TABLE = buildCodeTable(new String[]{
@@ -73,9 +88,19 @@ public class MDWorcesterCountyParser extends GroupBestParser {
   });
   
   private static final Set<String> VA_CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
+      "CHINCOTEAGUE",
+      "GREENBACKVILLE",
       "HORNTOWN",
       "NEW CHURCH",
       "OAK HALL",
-      "PARKSLEY"
+      "PARKSLEY",
+      "TEMPERANCEVILLE",
+      
+      "EXMORE",
+      "MARIONVILLE"
+  }));
+  
+  private static final Set<String> DE_CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
+      "SELBYVILLE"
   }));
 }

@@ -12,7 +12,7 @@ public class MDWorcesterCountyAParser extends DispatchOSSIParser {
  
   public MDWorcesterCountyAParser() {
     super(MDWorcesterCountyParser.CITY_LIST, "WORCESTER COUNTY", "MD",
-    		   "SRC? CALL ( CITY ADDR DIR? APT? | ADDR DIR? APT? PLACE+? CITY/Y ) ( DATETIME | X+? INFO+? DATETIME )");
+    		   "SRC? CH? CALL ( CITY ADDR DIR? APT? | ADDR DIR? APT? PLACE+? CITY/Y ) ( DATETIME | X+? INFO+? DATETIME )");
   }
   
   @Override
@@ -31,6 +31,7 @@ public class MDWorcesterCountyAParser extends DispatchOSSIParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("SRC")) return new SourceField("[0-9]{1,2}00[A-Z]?|S[0-9]", true);
+    if (name.equals("CH")) return new ChannelField("[A-Z]{1,2}", true);
     if (name.equals("DIR")) return new MyDirField();
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("PLACE")) return new  MyPlaceField();
