@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
  */
 public class CTStamfordParser extends DispatchA3Parser {
   
-  private static final Pattern PREFIX_PTN = Pattern.compile("^(?:911Fire:)?\\* +");
+  private static final Pattern PREFIX_PTN = Pattern.compile("^(?:911Fire:)?\\*\\n");
   public CTStamfordParser() {
     super(0, PREFIX_PTN, "STAMFORD", "CT");
   }
