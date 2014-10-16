@@ -94,10 +94,10 @@ Fraqre: eusqpnq@sverzbqhyrf.arg
 (PNQ Nyreg : Eha 005053) Eha: 005053 - Pnyyglcr: Zrqvpny Rzretrapl(Nycun) - Gvzr: 1831  (10/01) - Nqqerff: 3250 JNYGBA OYIQ, - Pbzzragf: \aBevtvany Ybpngvba : K BS NQNZF PNYYRE FGF FUR SRRYF JRNX NAQ NF VS FUR VF TBVAT GB CNFF BHG// 31 HAPBAFPVBHF / SNVAGVAT (ARNE).
 */
 
-choyvp pynff ZVVevfNyregCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff ZVBnxynaqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp ZVVevfNyregCnefreGrfg() {
-	  frgCnefre(arj QhzzlCnefre(), "", "ZV");
+  choyvp ZVBnxynaqPbhaglOCnefreGrfg() {
+	  frgCnefre(arj QhzzlCnefre(), "BNXYNAQ PBHAGL", "ZV");
   }
 
   @Grfg
@@ -105,6 +105,6 @@ choyvp pynff ZVVevfNyregCnefreGrfg rkgraqf OnfrCnefreGrfg {
     
   }  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ZVVevfNyregCnefreGrfg().trarengrGrfgf("G1");
+    arj ZVBnxynaqPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }
 }
