@@ -154,6 +154,7 @@ class Active911Vendor extends Vendor {
       "US/AL/ChambersCounty",             "ALChambersCounty",
       "US/AL/Cherokee",                   "ALCherokee",
       "US/AL/ChiltonCounty",              "ALChiltonCounty",
+      "US/AL/CityofHomewood",             "ALJeffersonCountyB",
       "US/AL/CoffeeCounty",               "ALCoffeeCounty",
       "US/AL/CityofPelham",               "ALPelham",
       "US/AL/Colbert",                    "ALColbertCountyParser",
