@@ -20,29 +20,6 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   
   public TXCollinCountyAParser() {
     this("COLLIN COUNTY", "TX");
-    setupMultiWordStreets(
-        "AUDIE MURPHY",
-        "BEAVER CREEK",
-        "BROKEN BEND",
-        "CANYON CREEK",
-        "CARRIAGE HOUSE",
-        "CEDAR RIDGE",
-        "CROSS TIMBERS",
-        "FATE MAIN",
-        "HONEY LOCUST",
-        "LAKE WICHITA",
-        "LUCAS BRANCH",
-        "SAINT PAUL",
-        "SMITH ACRES",
-        "SLEEPY HOLLOW",
-        "SUN VALLEY",
-        "TWIN LAKES"
-    );
-  }
-  
-  @Override
-  public int getMapFlags() {
-    return MAP_FLG_SUPPR_LA;
   }
 
   protected TXCollinCountyAParser(String defCity, String defState) {
@@ -50,11 +27,53 @@ public class TXCollinCountyAParser extends FieldProgramParser {
           "MASH UNITS:UNIT ST_RMK:INFO CFS_RMK:INFO");
     setupCallList(CALL_LIST);
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
+    setupMultiWordStreets(
+        "AUDIE MURPHY",
+        "BEAVER CREEK",
+        "BROKEN BEND",
+        "CANYON CREEK",
+        "CARRIAGE HOUSE",
+        "CEDAR RIDGE",
+        "CHINN CHAPEL",
+        "CROSS TIMBERS",
+        "FATE MAIN",
+        "FLOWER MOUND",
+        "FOREST OAKS",
+        "HONEY LOCUST",
+        "LAKE FOREST",
+        "LAKE WICHITA",
+        "LONG PRAIRIE",
+        "LUCAS BRANCH",
+        "MARBLE PASS",
+        "NORTH GRAPEVINE MILL",
+        "OLD CROSS TIMBERS",
+        "PETERS COLONY",
+        "SAINT PAUL",
+        "SHADY OAKS",
+        "SLEEPY HOLLOW",
+        "SMITH ACRES",
+        "SPRING MEADOW",
+        "SUN VALLEY",
+        "TIMBER MEADOW",
+        "TWIN LAKES",
+        "VALLEY DALE",
+        "WOLF CREEK"
+    );
   }
   
   @Override
   public String getFilter() {
     return "ccsodispatch@co.collin.tx.us,DispatchSMS@coppelltx.gov";
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "TXCollinCountyA";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
   }
 
   @Override
@@ -128,6 +147,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   private static final Pattern ID_PTN = Pattern.compile("^(\\d{8}) +");
   private static final Pattern BRACKET_PTN = Pattern.compile(" +\\{(.*?)\\} *");
   private static final Pattern STANDBY_PTN = Pattern.compile("^STANDBY(?: AT THIS TIME)?  +");
+  private static final Pattern JUNK_PTN = Pattern.compile(" (?:\"[^A-Za-z0-9]\"|\"SPECIFY(?: NATURE)?\"|\\{\\{TONE\\}\\}) ");
   private static final Pattern IN_PTN = Pattern.compile(" +IN +", Pattern.CASE_INSENSITIVE);
   private class MashField extends Field {
     
@@ -140,15 +160,18 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       data.strCallId = match.group(1);
       field = field.substring(match.end());
       
+      // If first phrase is a standby request, combine it with second term
+      field = STANDBY_PTN.matcher(field).replaceFirst("STANDBY ");
+      
+      // Cleanup other special problems
+      field = JUNK_PTN.matcher(field).replaceAll("  ");
+      
       // A field in {} is considered a place name
       match = BRACKET_PTN.matcher(field);
       if (match.find()) {
         data.strPlace = match.group(1);
         field = field.substring(0,match.start()) + "  " + field.substring(match.end());
       }
-      
-      // If first phrase is a standby request, combine it with second term
-      field = STANDBY_PTN.matcher(field).replaceFirst("STANDBY ");
       
       // Break up what is left by any double blank delimiters and see what we have to work with
       String[] flds = field.split("  +");
@@ -234,9 +257,13 @@ public class TXCollinCountyAParser extends FieldProgramParser {
         }
         
         // Otherwise first word of tail is city, rest is cross
+        // Unless city was followed by TX which needs to go
         Parser p = new Parser(tail);
         data.strCity = p.get(' ');
-        data.strCross = p.get();
+        String tCross = p.get();
+        if (!tCross.equals("TX")) {
+          data.strCross = stripFieldStart(tCross,"TX ");
+        }
         return true;
       }
       
@@ -946,6 +973,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "CARBON MONOXIDE INVESTIGATION",
       "COMERCIAL FIRE ALARM",
       "COMMERCIAL FIRE ALARM",
+      "DOMESTIC DISTURBANCE",
       "DUMPSTER FIRE",
       "DRIVING WHILE INTOXICATED",
       "EMERGENCY MEDICAL CALL",
@@ -956,12 +984,14 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "EMS - SEIZURE",
       "EMS - SICK PERSON",
       "EMS - UNCONSCIOUS PERSON",
+      "EMS CALL",
       "FIRE ALARM",
       "FIRE PUBLIC ASSIST",
       "First Responders",
       "FIRST RESPONDERS",
       "FISRT RESPONDERS",
       "GRASS FIRE",
+      "GRASS/BRUSH FIRE (LOW HAZD)",
       "INJURED PERSON",
       "INVESTIGATION",
       "INVESTIGATION-UNKNOWN SIT.",
@@ -974,22 +1004,27 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "MAJOR HIT AND RUN ACCIDENT",
       "MINOR ACCIDENT 10/50",
       "MEDIC CALL- COALITION",
+      "MEDICAL ALARM",
       "MEDICAL EMERGENCY",
       "MEDICATION OVERDOSE",
+      "MUTUAL AID,FIRE/FILL IN",
       "MUTUAL AID GRASS FIRE",
       "MUTUAL AID MEDICAL CALL",
       "MUTUAL AID SFIRE",
       "MUTUAL AID STRUCTURE FIRE",
       "NATURAL / PROPANE GAS LEAK",
       "ODOR INVESTIGATION",
+      "OVERDOSE",
       "PROPERTY PUBLIC ASSIST",
       "PUBLIC ASSIST (FD)",
       "RES. SMOKE DETECTOR PROBLEM",
       "RESCUE-TRAPED PERSON(S)",
       "RESCUE-TRAPPED PERSON(S)",
+      "RESD. FIRE ALARM",
       "RESIDENTIAL FIRE ALARM",
       "SEARCH FOR MISSING PERSON",
       "SMOKE DETECTOR ALARM",
+      "SPECIAL ASSIGNMENT",
       "STANDBY ELECTRICAL FIRE",
       "STRUCTURE FIRE",
       "TEST CALL",
@@ -1000,10 +1035,12 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "TRASH FIRE",
       "UNAUTHORIZED BURN",
       "UNAUTHORZED BURN",
+      "UNLOCK REQUEST",
       "UTILITY LINES DOWN",
       "EMS - SICK PERSON",
       "UNKNOWN FIRE",
       "VEHICLE FIRE",
+      "WATER FLOW ALARM, BUSN OR RESD",
       "WELFARE CHECK"
   );
   
@@ -1015,6 +1052,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     "COLLIN COUNTY",
     "COLONY",
     "DENTON",
+    "FLOWER MOUND",
     "FRISCO",
     "LEWISVILLE",
     "LITTLE ELM",
