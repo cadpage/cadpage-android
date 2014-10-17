@@ -21,6 +21,11 @@ public class COGoldenParser extends DispatchA34Parser {
   public String getFilter() {
     return "messaging@iamresponding.com,CADTOFIRE@CITYOFGOLDEN.NET";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
