@@ -106,7 +106,6 @@ choyvp pynff BUPyrezbagPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2601 JVYQJBBQ YA",
         "K:FE 222",
         "PVGL:GNGR GBJAFUVC",
-        "ANZR:JVERYRFF-IREVMBA(KLC)",
         "VQ:2011-0000015892");
 
     qbGrfg("G4",
@@ -297,7 +296,6 @@ choyvp pynff BUPyrezbagPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:9 Oyqt",
         "K:FE 756",
         "PVGL:SENAXYVA GBJAFUVC",
-        "ANZR:JVERYRFF-NG&G ZBOVYVGL(KLC)",
         "VQ:2012-0000089372");
 
   }

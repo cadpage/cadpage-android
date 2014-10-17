@@ -508,7 +508,8 @@ choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SNYY-O",
         "NQQE:43.770293 -101.988852",
         "ZNQQE:+43.770293,-101.988852",
-        "VASB:CNGVRAG BA PNFGYR GENVY;\aVA GUR ONQYNAQF ANGVBANY CNEX, EC JVYY ZRRG ERFCBAQREF NG GUR PNFGYR GENVYURNQ GURL JVYY UNIR GB UVXR GB TRG GB CNGVRAG",
+        "PBQR:17-O-3",
+        "VASB:CNGVRAG BA PNFGYR GENVY;\aVA GUR ONQYNAQF ANGVBANY CNEX, EC JVYY ZRRG ERFCBAQREF NG GUR PNFGYR GENVYURNQ GURL JVYY UNIR GB UVXR GB TRG GB CNGVRAG\a30-lrne-byq, Srznyr, Pbafpvbhfarff haxabja, Oernguvat fgnghf haxabja. / Haxabja fgnghf/Bgure pbqrf abg nccyvpnoyr  1. Vg'f abg xabja jura guvf unccrarq.  2. Vg'f abg xabja ubj sne fur sryy.  3. Gur ernfba sbe gur snyy vf abg xabja.  4. Vg'f abg xabja vs gurer vf FREVBHF oyrrqvat.  5. Vg'f abg xabja vs fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  6. Gur rkgrag bs ure vawhevrf vf abg xabja.  7. Vg'f haxabja vs fur vf fgvyy ba gur sybbe (tebhaq).",
         "QNGR:04/08/14",
         "GVZR:14:42");
 

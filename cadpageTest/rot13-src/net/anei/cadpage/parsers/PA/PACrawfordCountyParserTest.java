@@ -241,7 +241,6 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:YVYYL EQ & CREEL UJL",
         "K:CREEL UJL",
         "PVGL:HAVBA GJC",
-        "ANZR:JVERYRFF-NG&G ZBOVYVGL(GPF)",
         "VQ:2014-0000002866");
 
     qbGrfg("G4",
