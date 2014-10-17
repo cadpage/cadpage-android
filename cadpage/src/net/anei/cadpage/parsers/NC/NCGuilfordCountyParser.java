@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
  */
 public class NCGuilfordCountyParser extends DispatchOSSIParser {
   
-  private static final Pattern MARKER = Pattern.compile("^(?:(?:\\d{1,4}:)?[\\w@\\-\\.]+? *[\n:]|no subject / )(?=CAD:|[A-Z]{3,4};)");
+  private static final Pattern MARKER = Pattern.compile("^(?:(?:\\d{1,4}:)?[\\w@\\-\\.]+? *[\n:])?(?=CAD:|[A-Z]{3,4};)");
   
   public NCGuilfordCountyParser() {
     super("GUILFORD COUNTY", "NC",

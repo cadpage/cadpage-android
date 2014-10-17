@@ -128,6 +128,7 @@ public class Message {
   private static final Pattern[] S_M_PATTERNS = new Pattern[]{
     Pattern.compile("^SUBJ: *(.*)\n(?:MSG:)?"),
   };
+  private static final Pattern LEAD_JUNK_PTN = Pattern.compile("^no subject / ");
   
   private void preParse(String fromAddress, String subject, String body, boolean insBlank, boolean keepLeadBreak) {
     
@@ -389,6 +390,11 @@ public class Message {
       }
 
     } while (false);
+    
+    // Clean up general leading junk
+    match = LEAD_JUNK_PTN.matcher(body);
+    if (match.lookingAt()) body = trimLead(body.substring(match.end()), keepLeadBreak);
+    
     body = finish(body);
     
     // Make one last check for a message index that might have been masked
