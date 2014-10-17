@@ -15,6 +15,7 @@ public class COGoldenParser extends DispatchA34Parser {
   public COGoldenParser() {
     super("GOLDEN", "CO");
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
+    removeWords("LA");
   }
   
   @Override
