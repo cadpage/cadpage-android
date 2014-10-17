@@ -34,7 +34,7 @@ public class CTFairfieldCountyBParser extends SmartAddressParser {
     
     Matcher mat = MASTER.matcher(body);
     if (!mat.matches()) return false;
-    parseAddress(StartType.START_ADDR, mat.group(1).trim(), data);
+    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, mat.group(1).trim(), data);
     data.strCall = mat.group(2).trim();
     data.strTime = mat.group(3).trim();
     return true;
@@ -42,7 +42,8 @@ public class CTFairfieldCountyBParser extends SmartAddressParser {
   
   private static String[] CITY_LIST = new String[]{
     "EASTON",
-    "MONROE" 
+    "MONROE",
+    "TRUMBULL"
   };
   
 }
