@@ -15,6 +15,16 @@ public class DispatchA12Parser extends FieldProgramParser {
   }
   
   @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (subject.startsWith("Times -")) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      return true;
+    }
+    return super.parseMsg(body, data);
+  }
+
+  @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("ADDR")) return new BaseAddressField();
@@ -22,19 +32,20 @@ public class DispatchA12Parser extends FieldProgramParser {
     return super.getField(name);
   }
   
-  private static final Pattern CALL_PTN = Pattern.compile("(.*) \\((.*)\\)");
+  private static final Pattern CALL_PTN = Pattern.compile("(.*) ([^ ]+) \\((.*)\\)");
   private class BaseCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = CALL_PTN.matcher(field);
       if (!match.matches()) abort();
       data.strCall = match.group(1).trim();
-      data.strCode = match.group(2).trim();
+      data.strSource = match.group(2).trim();
+      data.strCode = match.group(3).trim();
     }
     
     @Override
     public String getFieldNames() {
-      return "CALL CODE";
+      return "CALL SRC CODE";
     }
   }
   

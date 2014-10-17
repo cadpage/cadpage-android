@@ -151,6 +151,7 @@ class Active911Vendor extends Vendor {
       "NZ/NI/Northland",                  "ZNZNewZealand",
       "NZ/NI/Waikato",                    "ZNZNewZealand",
       "US/AL/AthensLimestoneCounty",      "ALLimestoneCounty",
+      "US/AL/CalhounCounty",              "ALCalhounCounty",
       "US/AL/ChambersCounty",             "ALChambersCounty",
       "US/AL/Cherokee",                   "ALCherokee",
       "US/AL/ChiltonCounty",              "ALChiltonCounty",

@@ -18,8 +18,8 @@ public class MOCapeGirardeauCountyAParser extends DispatchA12Parser {
   }
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
-    if (!super.parseMsg(body, data)) return false;
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (!super.parseMsg(subject, body, data)) return false;
     if (data.strPlace.equals("Resident")) data.strPlace = "";
     else if (PLACE_NAME_PTN.matcher(data.strPlace).matches()) {
       data.strName = data.strPlace;
