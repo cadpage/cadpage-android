@@ -24,6 +24,7 @@ public class NCAlexanderCountyParser extends DispatchOSSIParser {
   public boolean parseMsg(String subject, String body, Data data) {
     if (body.length() == 0) body = subject;
     body = stripFieldStart(body, "|");
+    body = stripFieldStart(body, "no subject / ");
     return super.parseMsg(body, data);
   }
   
