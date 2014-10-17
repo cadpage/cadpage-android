@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.PA;
 
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
@@ -10,7 +11,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 public class PAClarionCountyAParser extends DispatchBParser {
  
   public PAClarionCountyAParser() {
-    super(CITY_LIST, "CLARION COUNTY", "PA");
+    super(PAClarionCountyParser.CITY_LIST, "CLARION COUNTY", "PA");
+    setupCallList(CALL_LIST);
   }
   
   @Override
@@ -26,48 +28,33 @@ public class PAClarionCountyAParser extends DispatchBParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     if (!super.parseMsg(body, data)) return false;
-    if (data.strCity.toUpperCase().endsWith(" BORO")) {
-      data.strCity = data.strCity.substring(0,data.strCity.length()-5).trim();
-    }
+    PAClarionCountyParser.fixCity(data);
     return true;
   }
   
-  private static final String[] CITY_LIST = new String[]{
-    "CALLENSBURG BORO",
-    "CLARION BORO",
-    "EAST BRADY BORO",
-    "EMLENTON BORO",
-    "FOXBURG BORO",
-    "HAWTHORN BORO",
-    "KNOX BORO",
-    "NEW BETHLEHEM BORO",
-    "RIMERSBURG BORO",
-    "SHIPPENVILLE BORO",
-    "SLIGO BORO",
-    "ST PETERSBURG BORO",
-    "STRATTANVILLE BORO",
-    
-    "ASHLAND TWP",
-    "BEAVER TWP",
-    "BRADY TWP",
-    "CLARION TWP",
-    "ELK TWP",
-    "FARMINGTON TWP",
-    "HIGHLAND TWP",
-    "KNOX TWP",
-    "LICKING TWP",
-    "LIMESTONE TWP",
-    "MADISON TWP",
-    "MILLCREEK TWP",
-    "MONROE TWP",
-    "PAINT TWP",
-    "PERRY TWP",
-    "PINEY TWP",
-    "PORTER TWP",
-    "REDBANK TWP",
-    "RICHLAND TWP",
-    "SALEM TWP",
-    "TOBY TWP",
-    "WASHINGTON TWP"
-  };
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "ACCIDENT ENTRAPMENT",
+      "ACCIDENT HIGH MECHANISM",
+      "ACCIDENT INJURIES",
+      "ACCIDENT MAJOR INCIDENT",
+      "ACCIDENT OTHER HAZARDS",
+      "ACCIDENT UNK STATUS",
+      "ELECTRICAL HAZARD",
+      "ELECTRO/LIGHTNING UNK STATUS",
+      "FIRE ALARM",
+      "FIRE ALARM COMMERCIAL/INDUST",
+      "FUEL SPILL UNKNOWN",
+      "GAS LEAK OUTSIDE COMM LINE",
+      "PUBLIC SERVICE",
+      "REFINERY/TANK FARM/FUEL STORAG",
+      "SELF DISPATCH",
+      "SERVICE CALL",
+      "SMOKE INVEST HEAVY SMOKE",
+      "STRUCTURE FIRE",
+      "TRAFFIC CONTROL",
+      "TRAFFIC /TRANS ACCIDENTS",
+      "TREE DOWN",
+      "UNCONTAINED HAZMAT",
+      "VEHICLE FIRE"
+  );
 }

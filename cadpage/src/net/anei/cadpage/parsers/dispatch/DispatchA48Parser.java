@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -17,8 +19,9 @@ public class DispatchA48Parser extends SmartAddressParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("As of \\d\\d?/\\d\\d?/\\d\\d \\d\\d");
   private static final Pattern PREFIX_PTN = Pattern.compile("(?!\\d\\d:)([-a-z0-9]+: *)(.*)");
-  private static final Pattern MASTER_PTN = Pattern.compile("(?:CAD:|[-A-Za-z0-9]+:)? *As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d:\\d\\d:\\d\\d) (\\d{4}-\\d{8}) (.*)");
+  private static final Pattern MASTER_PTN = Pattern.compile("(?:CAD:|[-A-Za-z0-9]*:)? *As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d:\\d\\d:\\d\\d) (?:([AP]M) )?(\\d{4}-\\d{8}) (.*)");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d:\\d\\d:\\d\\d)\\b");
+  private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:dd aa");
     
   private FieldType fieldType;
   private boolean dateTimeInfo; 
@@ -37,12 +40,12 @@ public class DispatchA48Parser extends SmartAddressParser {
   }
   
   @Override
-  public boolean parseMsg(String subject, String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     if (SUBJECT_PTN.matcher(subject).matches()) {
       Matcher match = PREFIX_PTN.matcher(body);
       if (match.matches()) {
         body = match.group(1) + subject + ':' + match.group(2);
-      } else {
+      } else if (!body.startsWith(":As of")) {
         body = subject + ':' + body;
       }
       subject = "";
@@ -52,9 +55,15 @@ public class DispatchA48Parser extends SmartAddressParser {
     Matcher match = MASTER_PTN.matcher(body);
     if (!match.matches()) return false;
     data.strDate = match.group(1);
-    data.strTime = match.group(2);
-    data.strCallId = match.group(3);
-    String addr = match.group(4).trim();
+    String time = match.group(2);
+    String time_qual = match.group(3);
+    if (time_qual != null) {
+      setTime(TIME_FMT, time + ' ' + time_qual, data);
+    } else {
+      data.strTime = time;
+    }
+    data.strCallId = match.group(4);
+    String addr = match.group(5).trim();
     
     Parser p = new Parser(addr);
     data.strUnit = p.getLastOptional(" Unit Org Name Area Types ");
