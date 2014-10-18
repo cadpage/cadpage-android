@@ -82,10 +82,10 @@ Ina Mnaqg Pb FB:bvy gnaxf fgehpx ol yvtugavat ner abj ba sver ba pbeare im4404/i
 Ina Mnaqg Pb FB:QBJA CBJRE YVAR IM4501 NOBHG N UNYS ZVYR BSS SZ773
 */
 
-choyvp pynff GKZpfcntrCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff GKInaFgnaqgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp GKZpfcntrCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "", "GK");
+  choyvp GKInaFgnaqgPbhaglCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "INA MNAQG PBHAGL", "GK");
   }
   
   @Grfg
@@ -94,6 +94,6 @@ choyvp pynff GKZpfcntrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj GKZpfcntrCnefreGrfg().trarengrGrfgf("G1");
+    arj GKInaFgnaqgPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

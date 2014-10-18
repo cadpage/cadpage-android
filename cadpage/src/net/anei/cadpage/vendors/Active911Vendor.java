@@ -614,6 +614,7 @@ class Active911Vendor extends Vendor {
       "US/WA/LewisCounty",                "WALewisCounty",
       "US/WA/PendOreilleCounty",          "WAPendOreilleCounty",
       "US/WA/RiverComm911",               "WAChelanCounty",
+      "US/WA/SNOCOM",                     "WASnohomishCounty",
       "US/WA/SnohomishCounty",            "WASnohomishCounty",
       "US/WA/ThurstonCounty",             "WAThurstonCounty",
       "US/WA/USAMobility",                "WAPierceCountyA",
