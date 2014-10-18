@@ -113,9 +113,9 @@ Fraqre: qrchgl71@tznvy.pbz
 (Zrffratre 911) 06/21/2014*16:28*OYF-RZF*SNYY*1910 PBIRAGEL YA*N597N/DE71*PNHGVBA: IBVC PNYYRE,~ 81 L/B *SQ*SVER*NAV/NYV*GEHRZNA,WBNA - 1910 *OYF-RZF - NZOHYNAPR *PU*DE71*610-358-3557
 */
 
-choyvp pynff CNZrffratre911CnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff CNQrynjnerPbhaglUCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp CNZrffratre911CnefreGrfg() {
+  choyvp CNQrynjnerPbhaglUCnefreGrfg() {
     frgCnefre(arj QhzzlCnefre(), "", "CN");
   }
   
@@ -125,7 +125,7 @@ choyvp pynff CNZrffratre911CnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj CNZrffratre911CnefreGrfg().trarengrGrfgf("G1");
+    arj CNQrynjnerPbhaglUCnefreGrfg().trarengrGrfgf("G1");
   }
   
 }

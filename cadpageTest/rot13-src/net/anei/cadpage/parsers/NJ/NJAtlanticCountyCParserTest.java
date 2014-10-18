@@ -102,15 +102,6 @@ Fraqre: abercyl@tgcq.bet
 (!) Pnyy: NYZ SVER ERF ; Nqqerff: 202 R  UNJF PG &  ; Ncg: ; Pvgl: Tnyybjnl Gjc ; Pebff: F 4GU NIR / QRNQ RAQ ; Cynpr: ; 39.4548719745073   -74.5225756880039 ; Aneengvir:  trareny//800 419 1730 ers 402372421 bce lfj
 (!) Pnyy: ERFC ; Nqqerff: 1419 J  PYRIRYNAQ NIR &  ; Ncg: ; Pvgl: Tnyybjnl Gjc ; Pebff: F YVIRECBBY NIR / PBHAGL OYIQ ; Cynpr: ; 39.5259050116983   -74.6530820838714 ; Aneengvir:
 
-
-
-
-
-
-
-
-
-
 Pbagnpg: Npgvir911
 Ntrapl anzr: TG: Arfpb ISP
 Ybpngvba: Unzzbagba, AW, Havgrq Fgngrf
@@ -155,9 +146,9 @@ Fraqre: abercyl@tgcq.bet
 
 */
 
-choyvp pynff AWTnyybjnlCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff AWNgynagvpPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp AWTnyybjnlCnefreGrfg() {
+  choyvp AWNgynagvpPbhaglPCnefreGrfg() {
     frgCnefre(arj QhzzlCnefre(), "TNYYBJNL", "AW");
   }
   
@@ -167,6 +158,6 @@ choyvp pynff AWTnyybjnlCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj AWTnyybjnlCnefreGrfg().trarengrGrfgf("G1");
+    arj AWNgynagvpPbhaglPCnefreGrfg().trarengrGrfgf("G1");
   }
 }
