@@ -13,7 +13,7 @@ public class NYOntarioCountyParser extends FieldProgramParser {
   
     public NYOntarioCountyParser() {
       super("ONTARIO COUNTY", "NY",
-             "CALL TIME ADDR X UNIT! INFO ID");
+             "CANCEL? CALL TIME ADDR X UNIT! INFO/N ID");
     }
     
     @Override
@@ -25,6 +25,26 @@ public class NYOntarioCountyParser extends FieldProgramParser {
 	  protected boolean parseMsg(String body, Data data) {
 	    return parseFields(body.split("\n"), data);
 	  }
+
+    @Override
+    protected Field getField(String name) {
+      if (name.equals("CANCEL")) return new InfoField("Cancel Reason:.*", true);
+      if (name.equals("CALL")) return new MyCallField();
+      if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
+      if (name.equals("ADDR")) return new MyAddressField();
+      if (name.equals("X")) return new MyCrossField();
+      return super.getField(name);
+    }
+    
+    private class MyCallField extends CallField {
+      @Override
+      public void parse(String field, Data data) {
+        if (data.strSupp.startsWith("Cancel Reason:")) {
+          field = "CANCEL - " + field;
+        }
+        super.parse(field, data);
+      }
+    }
 	  
 	  private class MyAddressField extends AddressField {
 	    @Override
@@ -51,14 +71,6 @@ public class NYOntarioCountyParser extends FieldProgramParser {
 	      super.parse(field, data);
 	    }
 	  }
-
-    @Override
-    protected Field getField(String name) {
-      if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
-      if (name.equals("ADDR")) return new MyAddressField();
-      if (name.equals("X")) return new MyCrossField();
-      return super.getField(name);
-    }
     
     @Override
     public String adjustMapAddress(String addr) {
