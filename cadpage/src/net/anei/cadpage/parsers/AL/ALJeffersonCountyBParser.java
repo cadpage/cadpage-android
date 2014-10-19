@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.AL;
 import net.anei.cadpage.parsers.dispatch.DispatchA9Parser;
 
 /**
- * Jefferson County, AL
+ * Jefferson County, AL (B)
  */
 public class ALJeffersonCountyBParser extends DispatchA9Parser {
   

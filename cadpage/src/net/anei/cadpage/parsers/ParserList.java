@@ -913,6 +913,7 @@ public class ParserList {
           ),
           new ParserCategory("Rhode Island"
               ,"RIWashingtonCounty"             ,"Washington County, RI"
+              ,"RIWestWarwick"                  ,"West Warwick, RI"
           ),
           new ParserCategory("South Carolina"
               ,"SCAndersonCounty"               ,"Anderson County, SC"
@@ -979,6 +980,7 @@ public class ParserList {
               ,"TXDecatur"                      ,"Decatur, TX"
               ,"TXDentonCounty"                 ,"Denton County, TX"
               ,"TXFlightVector"                 ,"Flight Vector, TX"
+              ,"TXFlowerMound"                  ,"Flower Mound, TX"
               ,"TXFortBendCounty"               ,"Fort Bend County, TX"
               ,"TXGainesville"                  ,"Gainesville, TX"
               ,"TXGalvestonCounty"              ,"Galveston County, TX"

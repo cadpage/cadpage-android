@@ -1,7 +1,7 @@
 cnpxntr arg.narv.pnqcntr.cnefref.GK;
 
 /* 
-Ebpxjnyy Pbhagl, GK
+Sybjre Zbhaq, GK
 */
 choyvp pynff GKSybjreZbhaqCnefreGrfg rkgraqf GKPbyyvaPbhaglNCnefreGrfg {
   
