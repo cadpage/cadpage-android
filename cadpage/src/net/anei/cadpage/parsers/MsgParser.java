@@ -324,6 +324,17 @@ public abstract class MsgParser {
   }
   
   /**
+   * Validate that call code is valid.  Also not in any way, but can be
+   * overridden by subclasses if they some call validation logic that
+   * does not involve a simple CodeSet object
+   * @param call call to be validated
+   * @return true if call is valid, false if not
+   */
+  public boolean checkCall(String call) {
+    return true;
+  }
+  
+  /**
    * Determine if message is a valid CAD message for this parser, and parse
    * all information from the message if it is
    * @param msg message to be parsed

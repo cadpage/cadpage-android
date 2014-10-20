@@ -283,7 +283,10 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   cebgrpgrq obbyrna purpxPnyyPbqr(Fgevat pnyy, ZftCnefre cnefre) {
     vs (!puxPnyyPbqrf) erghea gehr;
     vs (pnyy.yratgu() == 0 || pnyy.rdhnyf("EHA ERCBEG") || pnyy.rdhnyf("TRARENY NYREG")) erghea gehr;
+    
     vs (cnefre == ahyy) erghea gehr;
+    vs (!cnefre.purpxPnyy(pnyy)) erghea snyfr;
+    
     PbqrFrg pnyyPbqrf = cnefre.trgPnyyYvfg();
     vs (pnyyPbqrf == ahyy) erghea gehr;
     Fgevat pbqr = pnyyPbqrf.trgPbqr(pnyy);
