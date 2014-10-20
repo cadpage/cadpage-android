@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.KY;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
@@ -20,6 +21,7 @@ public class KYStatePoliceParser extends DispatchB2Parser {
   
   public KYStatePoliceParser(String defCity) {
     super(CITY_LIST, defCity, "KY");
+    setupCallList(CALL_LIST);
   }
   
   @Override
@@ -59,6 +61,91 @@ public class KYStatePoliceParser extends DispatchB2Parser {
     field = field.replace('@', '&');
     return super.parseAddrField(field, data);
   }
+  
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "911 HANGUP OR UNVERIFIED",
+      "ACCIDENT PROPERTY DAMAGE",
+      "ACCIDENT WITH INJURIES",
+      "ALARMS",
+      "ALL EMS/MEDICAL CALLS",
+      "ANIMAL COMPLAINT",
+      "ASSAULT",
+      "ATV ON HIGHWAY",
+      "BOATER ASSISTS",
+      "BOATING COMPLAINTS/VIOLATIONS",
+      "BURGLARY",
+      "CAD ERRORS/PROBLEMS",
+      "CIVIL COMPLAINT",
+      "CIVIL COMPLAINTS",
+      "COMPLIANCE CHECKS",
+      "CRIMINAL ABUSE/CHILD",
+      "CUSTODY DISPUTE",
+      "DATA DRIVEN ENFORCEMENT PROGRA",
+      "DEATH",
+      "DISTURBANCE",
+      "DOMESTIC",
+      "DRIVE OFFS",
+      "DRUG INFO",
+      "DRUG OVERDOSE",
+      "DUI COMPLAINT",
+      "EPO/DVO VIOLATION",
+      "EXTRA PATROL",
+      "FATAL TFC ACCIDENTS",
+      "FIGHT",
+      "FIRE",
+      "FIRE ALARM",
+      "FIRE STRUCTURE HOUSE OR BUSINE",
+      "FIRE STRUCTURE HOUSE OR BUSN",
+      "FORGERY",
+      "FOR INFORMATIONAL PURPOSES",
+      "GAS LEAK",
+      "HARASSMENT",
+      "HAZARDOUS MATERIALS",
+      "ILLEGAL BURNING INCIDENTS",
+      "ILLEGAL GAMBLING",
+      "INTOXICATED PERSON",
+      "INVESTIGATION FOLLOW-UP",
+      "JUVENILE BEYOND CONTROL",
+      "LOCKED OUT (CAR & HOME)",
+      "LOITERING",
+      "MENTALLY ILL PERSON",
+      "MISCELLANEOUS COMPLAINT",
+      "MISCELLANEOUS EMS CALLS",
+      "MISCELLANEOUS TRAFFIC COMPLNTS",
+      "MISSING PERSON",
+      "MOTORIST ASSIST",
+      "NO OPERATORS LICENSE",
+      "PROCESS SERVICE",
+      "PROPERTY DISPUTE",
+      "RAPE",
+      "RECKLESS DRIVER",
+      "RUN REPORT",
+      "SCHOOL VISITS",
+      "SEVERE WEATHER REPORTS/DAM",
+      "SEX OFFEND REG FAIL TO COMPLY",
+      "SEXUAL ABUSE CHILD",
+      "SHOOTING",
+      "SHOPLIFTING",
+      "SOCIAL SERVICE REFERRALS",
+      "STALKING",
+      "SUICIDE ATTEMPT OR THREAT",
+      "SURVEILLANCE/SPEC DETAILS",
+      "SUSPICIOUS INCIDENT",
+      "SUSPICIOUS PERSON",
+      "SUSPICIOUS VEHICLE",
+      "SUSP INDIVIDUAL ON SCENE (CLI)",
+      "TERRORISTIC THREATENING",
+      "THEFT COMPLAINT",
+      "THEFT OF MEDICATION",
+      "TRAFFIC CHECKPOINT",
+      "TRAFFIC HAZARD",
+      "TRESPASSING",
+      "UTILITY TROUBLE/EMERGENCIES",
+      "WANTED PERSON",
+      "WARRANT SERVICE",
+      "WELFARE CHECK",
+      "WOODLAND FIRE INCIDENTS"
+  );
 
   private static final String[] CITY_LIST = new String[]{
     
