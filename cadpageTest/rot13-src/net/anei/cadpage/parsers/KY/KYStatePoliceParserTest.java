@@ -1150,7 +1150,8 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G9",
         "XFC QEL EVQTR R-911:O&R >OHETYNEL 3894 XL 22 J CRAQYRGBA PBHAGL Znc: Tevqf:0,0 Pnq: 2014-0000016136",
-        "PNYY:O&R >OHETYNEL",
+        "PBQR:O&R",
+        "PNYY:OHETYNEL",
         "NQQE:3894 XL 22 J",
         "PVGL:CRAQYRGBA PBHAGL",
         "VQ:2014-0000016136");
@@ -5528,7 +5529,8 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "O&R >OHETYNEL 475 UREZNA TERRAR EQ KF: UJL 607 & UJL 368 BJRAGBA NAQREFBA, WRAAVSRE 5024840487 Znc: Tevqf:0,0 Pnq: 2014-0000023432",
-        "PNYY:O&R >OHETYNEL",
+        "PBQR:O&R",
+        "PNYY:OHETYNEL",
         "NQQE:475 UREZNA TERRAR EQ",
         "K:UJL 607 & UJL 368",
         "PVGL:BJRAGBA",
@@ -8571,7 +8573,8 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G48",
         "O&R >OHETYNEL 39 TERRAOEVNE EQ KF: UJL 421 A & QRNQ RAQ ZVYGBA FUNPBAN JVYYVNZF 4232768699 Znc: Tevqf:0,0 Pnq: 2014-0000012104",
-        "PNYY:O&R >OHETYNEL",
+        "PBQR:O&R",
+        "PNYY:OHETYNEL",
         "NQQE:39 TERRAOEVNE EQ",
         "K:UJL 421 A & QRNQ RAQ",
         "PVGL:ZVYGBA",

@@ -19,7 +19,11 @@ Go Figure
 
 public class DispatchB2Parser extends DispatchBParser {
   
-  private static final Pattern CODE_PATTERN = Pattern.compile("^([- /#A-Z0-9]{0,6}?|\\?) *> *"); 
+  // Flag requesting that first word of call description be considered a call
+  // code if there is not > marker
+  public static final int B2_FORCE_CALL_CODE = 1;
+  
+  private static final Pattern CODE_PATTERN = Pattern.compile("^([- /#&A-Z0-9]{0,6}?|\\?) *> *"); 
   private static final Pattern PHONE_PTN = Pattern.compile(" *((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4})$");
   private static final Pattern PHONE2_PTN = Pattern.compile("^((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4}) *");
   private static final Pattern APT_PTN = Pattern.compile("[A-Z]?\\d+[A-Z]?");
@@ -28,6 +32,7 @@ public class DispatchB2Parser extends DispatchBParser {
   private static final Pattern TRAIL_DIR_PTN = Pattern.compile(" +([NSEW]B?)$");
   
   private String prefix;
+  private int flags = 0;
 
   public DispatchB2Parser(String[] cityList, String defCity, String defState) {
     this(null, cityList, defCity, defState);
@@ -48,6 +53,12 @@ public class DispatchB2Parser extends DispatchBParser {
   public DispatchB2Parser(String prefix, String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState);
     this.prefix = prefix;
+  }
+
+  public DispatchB2Parser(String prefix, String[] cityList, String defCity, String defState, int flags) {
+    super(cityList, defCity, defState);
+    this.prefix = prefix;
+    this.flags = flags;
   }
 
   public DispatchB2Parser(String prefix, int version, String[] cityList, String defCity, String defState) {
@@ -118,6 +129,12 @@ public class DispatchB2Parser extends DispatchBParser {
     if (match.find()) {
       data.strCode = match.group(1);
       field = field.substring(match.end());
+    } else if ((flags & B2_FORCE_CALL_CODE) != 0) {
+      int pt = field.indexOf(' ');
+      if (pt >= 0) {
+        data.strCode = field.substring(0,pt);
+        field = field.substring(pt+1).trim();
+      }
     }
     
     if (address != null) {
