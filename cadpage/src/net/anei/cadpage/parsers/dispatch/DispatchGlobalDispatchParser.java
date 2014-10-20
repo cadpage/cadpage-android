@@ -19,6 +19,9 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   
   // Place name occurs between address and city name
   public static final int PLACE_FOLLOWS_ADDR = 8;
+
+  // Place name follows call description
+  public static final int PLACE_FOLLOWS_CALL = 0x10;
   
   private static final Pattern CALL_NUMBER_PTN = Pattern.compile("^Call Number: *(\\d+) +");
   private static final Pattern KEYWORD_PTN = Pattern.compile("(?:MapRegions|Description|CrossStreets|Description|Dispatch|Primary_Incident|):");
@@ -67,7 +70,8 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     if ((flags & CALL_FOLLOWS_ADDR) != 0) sb.append("( CALL! Primary_Incident:ID! | PLACE CALL! ) ");
     if ((flags & TRAIL_SRC_UNIT_ADDR) != 0) sb.append("UNIT ");
     sb.append(" | ADDR2/S");
-    sb.append((flags & CALL_FOLLOWS_ADDR) != 0 ? "XC" : "CX");
+    sb.append((flags & CALL_FOLLOWS_ADDR) != 0 ? "XC" : 
+              (flags & PLACE_FOLLOWS_CALL) != 0 ? "LX" : "CX");
     if ((flags & PLACE_FOLLOWS_ADDR) != 0) sb.append('P');
     sb.append("! )");
     return sb.toString();
@@ -120,6 +124,15 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     return "ID " + super.getProgram();
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new BaseAddressField();
+    if (name.equals("ADDR2")) return new BaseAddress2Field();
+    if (name.equals("DATE_TIME_CITY")) return new BaseDateTimeCityField();
+    if (name.equals("INFO")) return new BaseInfoField();
+    if (name.equals("ID")) return new BaseIdField();
+    return super.getField(name);
+  }
   
   @Override
   protected String getSelectValue() {
@@ -231,15 +244,5 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       data.strCallId = append(data.strCallId, "/", field);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new BaseAddressField();
-    if (name.equals("ADDR2")) return new BaseAddress2Field();
-    if (name.equals("DATE_TIME_CITY")) return new BaseDateTimeCityField();
-    if (name.equals("INFO")) return new BaseInfoField();
-    if (name.equals("ID")) return new BaseIdField();
-    return super.getField(name);
   }
 }

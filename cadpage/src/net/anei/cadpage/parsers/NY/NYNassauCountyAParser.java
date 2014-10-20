@@ -12,7 +12,7 @@ public class NYNassauCountyAParser extends FieldProgramParser {
 
   public NYNassauCountyAParser() {
     super(CITY_LIST, "NASSAU COUNTY", "NY",
-           "ADDR! CS:X! ADTNL:INFO GRID:MAP TOA:TIMEDATE");
+           "ADDR/SP! CS:X! ADTNL:INFO GRID:MAP TOA:TIMEDATE");
     setAllowDirectionHwyNames();
   }
 
@@ -42,7 +42,7 @@ public class NYNassauCountyAParser extends FieldProgramParser {
       data.strCall = data.strCall + " - " + p.get(' ');
       field = p.get('[');
       String city = p.get(']');
-      parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, field, data);
+      super.parse(field, data);
       if (city.length() > 0) data.strCity = city;
     }
     

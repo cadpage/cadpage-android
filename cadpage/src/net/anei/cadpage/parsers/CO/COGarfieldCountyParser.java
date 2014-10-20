@@ -19,14 +19,21 @@ public class COGarfieldCountyParser extends SmartAddressParser {
   private static final Pattern PLACE_PTN = Pattern.compile("^.*[a-z]");
   private static final Pattern PLACE2_PTN = Pattern.compile("^.*[A-Z]{2}(?=\\d)");
   private static final Pattern LEGAL_ADDR_PTN = Pattern.compile(".*[A-Z].*");
-  private static final Pattern FOREST_PTN = Pattern.compile("FOREST(?: SERVICE)?", Pattern.CASE_INSENSITIVE);
-  private static final Pattern ROAD_START_PTN = Pattern.compile("^(?:RD|ROAD) ", Pattern.CASE_INSENSITIVE);
   
   public COGarfieldCountyParser() {
     super("GARFIELD COUNTY", "CO");
-    setupCallList(CALL_LIST);
-    setupMultiWordStreets("CHAIR BAR");
     setFieldList("CALL PLACE ADDR APT CITY MAP ID");
+    setupCallList(CALL_LIST);
+    setupMultiWordStreets(
+        "CASTLE VALLEY",
+        "CHAIR BAR",
+        "EL DIENTE",
+        "FOREST SERVICE",
+        "GRAND VALLEY",
+        "RIVER FRONTAGE",
+        "RIVER VIEW",
+        "ST JOHN"
+    );
   }
   
   @Override
@@ -119,12 +126,6 @@ public class COGarfieldCountyParser extends SmartAddressParser {
     }
     
     parseAddress(st, flags | FLAG_ANCHOR_END | FLAG_IMPLIED_INTERSECT, body, data);
-    
-    if (FOREST_PTN.matcher(data.strPlace).matches() &&
-        ROAD_START_PTN.matcher(data.strAddress).find()) {
-      data.strAddress = data.strPlace + " " + data.strAddress;
-      data.strPlace = "";
-    }
     
     if (data.strAddress.length() == 0) {
       data.strAddress = data.strPlace;

@@ -961,7 +961,8 @@ choyvp pynff FQZvaarununPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Cntr) 951  Qryy Encvqf 2 V 29 ZZ 98QE Vawhel Nppvqrag / Ebyybire 2014-00000003",
         "FEP:951",
         "ZNC:Qryy Encvqf 2",
-        "NQQE:V 29 & ZZ 98 QE",
+        "NQQE:V 29 ZZ 98",
+        "PVGL:QRYY ENCVQF",
         "PNYY:Vawhel Nppvqrag / Ebyybire",
         "VQ:2014-00000003");
 

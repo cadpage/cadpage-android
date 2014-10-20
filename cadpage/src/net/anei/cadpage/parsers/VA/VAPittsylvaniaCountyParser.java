@@ -36,17 +36,26 @@ public class VAPittsylvaniaCountyParser extends DispatchOSSIParser {
     return super.parseMsg(body, data);
   }
   
-  private class MyIdField extends IdField {
-    public MyIdField() {
-      setPattern(Pattern.compile("\\d{10}"));
-    }
-  }
-  
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("ID")) return new IdField("\\d{10}", true);
+    if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
+  
+  private Pattern US_HWY_NN_PTN = Pattern.compile("U ?S HIGHWAY NO \\d+");
+  private class MyCrossField extends CrossField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (US_HWY_NN_PTN.matcher(field).matches()) {
+        super.parse(field, data);
+        return true;
+      } else {
+        return super.checkParse(field, data);
+      }
+    }
+  }
+ 
   
   @Override
   public String adjustMapAddress(String addr) {

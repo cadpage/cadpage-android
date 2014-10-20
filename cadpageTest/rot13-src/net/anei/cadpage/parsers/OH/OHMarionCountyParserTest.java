@@ -363,9 +363,10 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:15:08:26",
         "VQ:13-012397",
         "PNYY:FDHNQ PNYY-RLR VAWHEL",
-        "NQQE:3899 ZEA JZCBEG R",
+        "NQQE:3899 ZNEVBA-JVYYVNZFCBEG EQ R",
         "PVGL:PNYRQBAVN",
-        "K:HAVG 019 FE 309 R PY OEBPXYRFOL EQ");
+        "NCG:19",
+        "K:FE 309 R / OEBPXYRFOL EQ");
 
     qbGrfg("G3",
         "(PNQ Cntr) HAVG 104  4/30/2013 09:56:21 13-011516 FDHNQ PNYY-68LBZ ABG OERNGUVAT 437 A UVTU FG  ",
@@ -384,7 +385,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:13-011346",
         "PNYY:FDHNQ PNYY-79 LBS VYY BIREZRQVPNGRQ",
         "NQQE:3691 R ZNEF",
-        "PVGL:TNY",
+        "PVGL:TNYVBA",
         "K:GBOVNF EQ / FE 98");
 
     qbGrfg("G5",
@@ -430,7 +431,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:720 FE 98 F",
         "ZNQQE:720 BU 98 F",
         "PVGL:PNYRQBAVN",
-        "K:ZEA RQVFBA PY / FE 95 R");
+        "K:ZEA RQVFBA / FE 95 R");
 
     qbGrfg("G9",
         "(PNQ Cntr) HAVG 104 17  4/25/2013 10:17:05 13-010981 JRYY ORVAT PURPX-FRR PBZZRAGF 230 A JNGRE FG PFK N12 262053J PUHEPU FG",
@@ -462,7 +463,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2117 FE 95 R",
         "ZNQQE:2117 BU 95 R",
         "PVGL:PNYRQBAVN",
-        "K:CBYR YNAR EQ PY FE 98 F");
+        "K:CBYR YNAR EQ / FE 98 F");
 
     qbGrfg("G12",
         "(PNQ Cntr) HAVG 105  4/24/2013 08:41:39 13-010855 FDHNQ PNYY-RYQREYL SRZNYR SNYYRA ARRQF GENAFCBEGRQ 233 F RYZ FG BCRA NYYRL YBPHFG FG",
@@ -495,7 +496,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2153 FE 95 R",
         "ZNQQE:2153 BU 95 R",
         "PVGL:PNYRQBAVN",
-        "K:CBYR YNAR EQ PY FE 98 F");
+        "K:CBYR YNAR EQ / FE 98 F");
 
     qbGrfg("G15",
         "(PNQ Cntr) HAVG 100F  4/21/2013 02:34:33 13-010589 ZNYR FHOW FRVMHER  5944 FE 95 R PY FNYRZ EQ PY FE 746 A PY",
@@ -507,7 +508,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:5944 FE 95 R",
         "ZNQQE:5944 BU 95 R",
         "PVGL:PNYRQBAVN",
-        "K:FNYRZ EQ PY FE 746 A");
+        "K:FNYRZ EQ / FE 746 A");
 
     qbGrfg("G16",
         "(PNQ Cntr) HAVG 100  4/20/2013 09:16:32 13-010501 FDHNQ PNYY 233 F RYZ FG BCRA NYYRL YBPHFG FG",
@@ -654,8 +655,8 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:15:54:58",
         "VQ:13-010026",
         "PNYY:GRFG",
-        "NQQE:889 R ZEA JZCBEG OREZHQN QE",
-        "K:YVXRAF PUNCRY");
+        "NQQE:889 R ZNEVBA-JVYYVNZFCBEG EQ",
+        "K:OREZHQN QE / YVXRAF PUNCRY");
 
     qbGrfg("G31",
         "(PNQ Cntr) HAVG 100F  4/15/2013 14:52:36 13-010016 FDHNQ PNYY 2549 VAABINGVBA QE CBYR YNAR QRNQ RAQ RNFG",
@@ -677,7 +678,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:5970 FE 95 R",
         "ZNQQE:5970 BU 95 R",
         "PVGL:PNYRQBAVN",
-        "K:FNYRZ EQ PY FE 746 A");
+        "K:FNYRZ EQ / FE 746 A");
 
     qbGrfg("G33",
         "(PNQ Cntr) HAVG 100F  4/12/2013 14:09:02 13-009693 FDHNQ PNYY 4545 FE 309 R PY ZEA TNYVBA PY OEBPXYRFOL EQ",
@@ -689,7 +690,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4545 FE 309 R",
         "ZNQQE:4545 BU 309 R",
         "PVGL:PNYRQBAVN",
-        "K:ZEA TNYVBA PY / OEBPXYRFOL EQ");
+        "K:ZEA TNYVBA / OEBPXYRFOL EQ");
 
     qbGrfg("G34",
         "(PNQ Cntr) HAVG 105  4/12/2013 02:56:43 13-009649 ZRQVPNY NYNEZ-68 LRNE BYQ ZNYR 211 RNFG JBBQ INYY JURGF EVI A PY QRNQ RAQ ABEGU",
@@ -767,9 +768,10 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:20:58:54",
         "VQ:13-009392",
         "PNYY:50 LB GEBHOYR OERNGUVAT",
-        "NQQE:3899 ZEA JZCBEG R",
+        "NQQE:3899 ZNEVBA-JVYYVNZFCBEG EQ R",
         "PVGL:PNYRQBAVN",
-        "K:HAVG 019 FE 309 R PY OEBPXYRFOL EQ");
+        "NCG:19",
+        "K:FE 309 R / OEBPXYRFOL EQ");
 
     qbGrfg("G42",
         "(PNQ Cntr) HAVG 100  4/9/2013 15:30:04 13-009356 SVER 9541 R ZBENY XVEX PFK GH 262046Y FE 100",
@@ -808,7 +810,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:13-009221",
         "PNYY:75 LB ZNYR GEBHOYR OERNGUVAT",
         "NQQE:6376 R ZNEF",
-        "PVGL:TNY",
+        "PVGL:TNYVBA",
         "K:PNY ABEGU YLBAF EQ");
 
     qbGrfg("G46",
@@ -854,8 +856,8 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:4/2/2013",
         "GVZR:15:38:49",
         "VQ:13-008609",
-        "PNYY:SVER ZEA",
-        "NQQE:JZCBEG R PY & JURGFGBAR EVIRE EQ A",
+        "PNYY:SVER",
+        "NQQE:ZNEVBA-JVYYVNZFCBEG EQ R & JURGFGBAR EVIRE EQ A",
         "PVGL:PNYRQBAVN");
 
     qbGrfg("G51",
@@ -876,11 +878,9 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:4/2/2013",
         "GVZR:09:58:51",
         "VQ:13-008569",
-        "PNYY:141 JURGFGBAR",
-        "NQQE:EVIRE EQ F",
-        "ZNQQE:EVIRE EQ F & BU 95 R PY PYNEVQBA YVZVGF",
+        "NQQE:141 JURGFGBAR EVIRE EQ F",
         "PVGL:PNYRQBAVN",
-        "K:FE 95 R PY PYNEVQBA YVZVGF");
+        "K:FE 95 R / PYNEVQBA YVZVGF");
 
     qbGrfg("G53",
         "(PNQ Cntr) HAVG 100  4/2/2013 09:25:11 13-008565 SVER/VAIRFGVTNGVAT VYYRTNY OHEA 1400-O JURGF EVI A PY EBOREGF EQ ZEA JZCBEG R PY",
@@ -892,7 +892,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1400-O JURGFGBAR EVIRE EQ A",
         "ZNQQE:1400 JURGFGBAR EVIRE EQ A",
         "PVGL:PNYRQBAVN",
-        "K:EBOREGF EQ / ZEA JZCBEG R PY");
+        "K:EBOREGF EQ / ZNEVBA-JVYYVNZFCBEG EQ R");
 
     qbGrfg("G54",
         "(PNQ Cntr) HAVG 111  4/1/2013 00:25:43 13-008438 SVER NYNEZ-TRARENY SVER OHVYQVAT 203 FRPGVBA 2 3007 UNE UJL  ",
@@ -933,7 +933,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2600-O YVXRAF EQ",
         "ZNQQE:2600 YVXRAF EQ",
         "PVGL:PNYRQBAVN",
-        "K:CBYR YNAR EQ / PY ARJ EQ");
+        "K:CBYR YNAR EQ / ARJ EQ");
 
     qbGrfg("G58",
         "(PNQ Cntr) HAVG 111  3/30/2013 03:55:32 13-008279 SVER NYNEZ-RNFG SYBJ FJVGPU 2135 VAABINGVBA QE CBYR YNAR QRNQ RAQ RNFG",
@@ -963,7 +963,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:13-007991",
         "PNYY:FDHNQ PNYY",
         "NQQE:3008 ZNEGRY EQ",
-        "K:R FE 309 YVAA UVCFURE");
+        "K:R FE 309 / YVAA UVCFURE");
 
     qbGrfg("G61",
         "(PNQ Cntr) HAVG 105  3/25/2013 08:24:39 13-007789 FDHNQ PNYY-VYY SRZNYR  2596 PNYRQBAVN ABEGUREA   ",
@@ -984,7 +984,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2000-O ARJ EQ",
         "ZNQQE:2000 ARJ EQ",
         "PVGL:PNYRQBAVN",
-        "K:YVXRAF EQ PY PYNEVQBA GJC YVAR");
+        "K:YVXRAF EQ / PYNEVQBA GJC YVAR");
 
     qbGrfg("G63",
         "(PNQ Cntr) HAVG 100  3/23/2013 09:49:09 13-007635 FDHNQ PNYY 437 A UVTU FG YVOREGL FG WBUA FG",
@@ -1027,7 +1027,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:3007 FE 309 R",
         "ZNQQE:3007 BU 309 R",
         "PVGL:PNYRQBAVN",
-        "K:PFK PY 913045R FE 98 A");
+        "K:PFK / 913045R FE 98 A");
 
     qbGrfg("G67",
         "(PNQ Cntr) HAVG 105  3/21/2013 17:27:20 13-007489 FDHNQ PNYY-53 LBZ QVNORGVP VYY, SNYYRA J/ VAWHEL 5726 GVZCFBA EQ R ZBENY XVEX R JLAQG ZEA",
@@ -1045,11 +1045,12 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:3/19/2013",
         "GVZR:07:58:15",
         "VQ:13-007230",
-        "PNYY:FRPG #",
-        "NQQE:4 JNGRE SYB 3007 FE 309 R",
-        "ZNQQE:4 JNGRE SYB 3007 BU 309 R",
+        "PNYY:FRPG # 4 JNGRE SYB",
+        "NQQE:3007 FE 309 R",
+        "ZNQQE:3007 BU 309 R",
         "PVGL:PNYRQBAVN",
-        "K:HAVG 202 PFK PY 913045R FE 98 A");
+        "NCG:202",
+        "K:PFK / 913045R FE 98 A");
 
     qbGrfg("G69",
         "(PNQ Cntr) HAVG 105  3/17/2013 21:47:32 13-007086 FDHNQ PNYY-ABA VAWHEL YVSG NFFVFG 1680 FE 98 F PY  ",
@@ -1104,7 +1105,7 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2222 FE 95 R",
         "ZNQQE:2222 BU 95 R",
         "PVGL:PNYRQBAVN",
-        "K:CBYR YNAR EQ PY FE 98 F");
+        "K:CBYR YNAR EQ / FE 98 F");
 
     qbGrfg("G74",
         "(PNQ Cntr) HAVG 100F  3/13/2013 10:30:48 13-006565 SNYY - VAFVQR UBZR 3864 YVAA UVCFURE ARJ EQ FE 98",
@@ -1165,9 +1166,9 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:3/10/2013",
         "GVZR:12:11:02",
         "VQ:13-006265",
-        "PNYY:FDHNQ PNYY",
-        "NQQE:76 VYY ZNYR 4944 PNY ZHQ CVXR FE 98 A",
-        "ZNQQE:76 VYY ZNYR 4944 PNY ZHQ CVXR FG 98 A",
+        "PNYY:FDHNQ PNYY 76 VYY ZNYR",
+        "NQQE:4944 PNYRQBAVN ZHQ CVXR FE 98 A",
+        "ZNQQE:4944 PNYRQBAVN ZHQ CVXR FG 98 A",
         "PVGL:PNYRQBAVN",
         "K:ARFOVGG EQ");
 
@@ -1179,9 +1180,9 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:13-006264",
         "PNYY:FDHNQ PNYY VYY CREFBA",
         "NQQE:6145 PRZRGREL",
-        "NCG:009 FE 309 R",
         "PVGL:PNYRQBAVN",
-        "K:QRNQ RAQ RNFG");
+        "NCG:9",
+        "K:FE 309 R / QRNQ RAQ RNFG");
 
     qbGrfg("G81",
         "(PNQ Cntr) HAVG 100  3/9/2013 11:46:00 13-006170 FDHNQ PNYY, 68 LBN SRZNYR JVGU FGBZNPU CNVAF FVAPR GUHEFQNL 233 RNFG JBBQ INYY JURGF EVI A PY QRNQ RAQ ABEGU",
@@ -1189,8 +1190,8 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:3/9/2013",
         "GVZR:11:46:00",
         "VQ:13-006170",
-        "PNYY:FDHNQ PNYY,",
-        "NQQE:68 LBN SRZNYR JVGU FGBZNPU CNVAF FVAPR GUHEFQNL 233 RNFG JBBQ INYY JURGFGBAR EVIRE EQ A",
+        "PNYY:FDHNQ PNYY, 68 LBN SRZNYR JVGU FGBZNPU CNVAF FVAPR GUHEFQNL",
+        "NQQE:233 RNFG JBBQ INYY JURGFGBAR EVIRE EQ A",
         "PVGL:PNYRQBAVN",
         "K:QRNQ RAQ ABEGU");
 

@@ -504,8 +504,8 @@ choyvp pynff NEOragbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:S Zrq Rzre Cev 1",
         "HAVG:Zrq5 Y5 OP1",
         "PVGL:EBTREF",
-        "NQQE:V540 CNHYVAR JUVGNXRE FBHGU 82",
-        "ZNQQE:V 540 CNHYVAR JUVGNXRE FBHGU 82",
+        "NQQE:V540 & CNHYVAR JUVGNXRE FBHGU 82",
+        "ZNQQE:V 540 & CNHYVAR JUVGNXRE FBHGU 82",
         "VASB:Pnyy Ahzore 249 jnf perngrq sebz Pnyy Ahzore 247(Nht  1 2014 11:53CZ)",
         "ZNC:5007");
 

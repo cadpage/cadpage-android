@@ -6345,9 +6345,8 @@ choyvp pynff XLXragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G90",
         "(Sebz XPRPP) Rzbgvbany Pevfvf OEVQTR 12GU FG 1204 JURRYRE FG Pbivatgba -- 2014-00030004  /   jvgu srznyr 1227 znelynaq  fvt 2  oevqtr purpxf pyrne  nccneragyl hfrq fbzrbar ryfrf cubar  Qvfcngpu erprvirq ol havg F406  Qvfcngpu erprvirq ol havg 2P83  abj bcra 911 yvar'  guerngavat gb whzc bss gur oevqtr  pnyy pnzr sebz   8593945600  Qvfcngpu erprvirq ol havg 2P84  unf n chefr    jvyy zrrg gur bssvpref ng 13 gu  naq znelynaq  Qvfcngpu erprvirq ol havg 2P12  Qvfcngpu erprvirq ol havg 2P25  Qvfcngpu erprvirq ol havg 2P32  guerngavat gb whzc bs  gur oveqtr  pbzvat sebz 13gu fg  pbayrl onaql",
         "PNYY:Rzbgvbany Pevfvf",
-        "CYNPR:OEVQTR 12GU",
-        "NQQE:FG 1204 & JURRYRE FG",
-        "ZNQQE:XL 1204 & JURRYRE FG",
+        "CYNPR:OEVQTR",
+        "NQQE:12GU FG & 1204 JURRYRE FG",
         "PVGL:Pbivatgba",
         "VQ:2014-00030004",
         "VASB:jvgu srznyr 1227 znelynaq  fvt 2  oevqtr purpxf pyrne  nccneragyl hfrq fbzrbar ryfrf cubar  Qvfcngpu erprvirq ol havg F406  Qvfcngpu erprvirq ol havg 2P83  abj bcra 911 yvar'  guerngavat gb whzc bss gur oevqtr  pnyy pnzr sebz   8593945600  Qvfcngpu erprvirq ol havg 2P84  unf n chefr    jvyy zrrg gur bssvpref ng 13 gu  naq znelynaq  Qvfcngpu erprvirq ol havg 2P12  Qvfcngpu erprvirq ol havg 2P25  Qvfcngpu erprvirq ol havg 2P32  guerngavat gb whzc bs  gur oveqtr  pbzvat sebz 13gu fg  pbayrl onaql");

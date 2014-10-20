@@ -710,7 +710,8 @@ choyvp pynff ZQDhrraNaarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Q 2-60 JNGRE ERFPHR ABEGU BS XRAG ANEEBJF JNGRE ERFPHR OBK D02",
         "OBK:JNGRE ERFPHR 2-60",
         "PNYY:JNGRE ERFPHR",
-        "VASB:ABEGU BS XRAG ANEEBJF",
+        "CYNPR:ABEGU BS",
+        "NQQE:XRAG ANEEBJF",
         "HAVG:D02");
 
     qbGrfg("G11",
@@ -2256,14 +2257,16 @@ choyvp pynff ZQDhrraNaarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "2-60 JNGRE ERFPHR ABEGU BS XRAG ANEEBJF JNGRE ERFPHR OBK D02",
         "OBK:JNGRE ERFPHR 2-60",
         "PNYY:JNGRE ERFPHR",
-        "VASB:ABEGU BS XRAG ANEEBJF",
+        "CYNPR:ABEGU BS",
+        "NQQE:XRAG ANEEBJF",
         "HAVG:D02");
 
     qbGrfg("G44",
         "2-60 JNGRE ERFPHR ABEGU BS XRAG ANEEBJF JNGRE ERFPHR OBK D02",
         "OBK:JNGRE ERFPHR 2-60",
         "PNYY:JNGRE ERFPHR",
-        "VASB:ABEGU BS XRAG ANEEBJF",
+        "CYNPR:ABEGU BS",
+        "NQQE:XRAG ANEEBJF",
         "HAVG:D02");
 
     qbGrfg("G45",

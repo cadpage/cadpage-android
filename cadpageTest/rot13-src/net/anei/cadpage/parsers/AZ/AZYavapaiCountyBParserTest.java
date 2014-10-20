@@ -1350,8 +1350,7 @@ choyvp pynff NMLnincnvPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:10/13/13",
         "NQQE:3480 A PNPGHF QE",
         "PVGL:PUVAB INYYRL",
-        "K:J EBNQ 4",
-        "VASB:1/2 ABEGU AG PCN / 29 S / FRVMHER / YNPRENGVBA GB URNQ / OERNGUVAT",
+        "K:J EBNQ 4 1/2 ABEGU AG PCN / 29 S / FRVMHER / YNPRENGVBA GB URNQ / OERNGUVAT",
         "HAVG:R61,YY1");
 
     qbGrfg("G12",

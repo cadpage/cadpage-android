@@ -9833,8 +9833,7 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:EO4",
         "NQQE:R SNVEIVRJ NIR & JLAJBBQ QE",
         "PVGL:PNEGUNTR",
-        "K:FYVQ BSS GUR EBNQ",
-        "VASB:ERQ PNE - 4 QBBE / PCQ",
+        "VASB:FYVQ BSS GUR EBNQ / ERQ PNE - 4 QBBE / PCQ",
         "QNGR:01/05/14",
         "GVZR:14:31:52");
 

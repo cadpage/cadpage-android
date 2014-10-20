@@ -10774,8 +10774,8 @@ choyvp pynff APSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G47",
         "YFBHGUNEQ:0 BA UJL 401 1/4 Z A BS SHYYRE EQ YBHVFOHET, 05:35:28, GERR VA EBNQJNL, 1/4 ZV A BS SHYYRE EQ BAR YNAR VAGB BGURE YNAR",
-        "NQQE:BA UJL",
-        "NCG:401 1/4 Z A BS SHYYRE EQ",
+        "NQQE:BA UJL 401 1/4 Z A BS SHYYRE EQ",
+        "ZNQQE:BA UJL 401 1/4 Z & SHYYRE EQ",
         "PVGL:YBHVFOHET",
         "GVZR:05:35:28",
         "PNYY:GERR VA EBNQJNL",

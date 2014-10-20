@@ -3660,7 +3660,7 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:445K-21N",
         "PNYY:23-BIREQBFR",
         "HAVG:Z4",
-        "K:J TENAQ CXJL / A J TENAQ OYIQ",
+        "K:J TENAQ CXJL A / J TENAQ OYIQ",
         "VQ:201421228");
 
     qbGrfg("G94",
@@ -11488,7 +11488,7 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:328U-",
         "PNYY:66N01-BQBE - VAFVQR",
         "HAVG:R36",
-        "K:FU 249 / FO A RYQEVQTR CXJL",
+        "K:FU 249 FO / A RYQEVQTR CXJL",
         "VQ:201420499");
 
     qbGrfg("G76",

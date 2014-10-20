@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.OH;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
@@ -15,7 +16,8 @@ public class OHLickingCountyParser extends SmartAddressParser {
   public OHLickingCountyParser() {
     super(CITY_LIST, "LICKING COUNTY", "OH");
     setFieldList("CALL ADDR APT CITY X");
-    setupMultiWordStreets("NORTH ST");
+    setupCallList(CALL_LIST);
+    setupMultiWordStreets("SMITHS MILL", "NORTH ST");
   }
 
   @Override
@@ -88,6 +90,15 @@ public class OHLickingCountyParser extends SmartAddressParser {
   public String adjustMapAddress(String addr) {
     return addr.replace("NORTH ST RD", "NORTH ST");
   }
+  
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "CHEST PAIN",
+      "ILLNESS",
+      "ILLNESS-EMS",
+      "NATURAL GAS LEAK",
+      "SERVICE RUN",
+      "TRAFFIC ACCIDENT"
+  );
 
   private static final String[] CITY_LIST = new String[]{
       "ALEXANDRIA",

@@ -6104,7 +6104,7 @@ choyvp pynff BUYbtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:TRA RZF",
         "NQQE:3088 PE 9 A",
         "ZNQQE:3088 PBHAGL EBNQ 9 A",
-        "K:PE 57 / R GJC 219 R",
+        "K:PE 57 R / GJC 219 R",
         "ZNC:MSM1",
         "HAVG:F141",
         "VASB:65 LBN SRZNYR GEBHOYR OERNGUVAT");
@@ -6319,7 +6319,7 @@ choyvp pynff BUYbtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:TRA RZF",
         "NQQE:3088 PE 9 A",
         "ZNQQE:3088 PBHAGL EBNQ 9 A",
-        "K:PE 57 / R GJC 219 R",
+        "K:PE 57 R / GJC 219 R",
         "ZNC:MSM1",
         "HAVG:F141",
         "VASB:65 LBN SRZNYR JVGU QVSSVPHYG OERNGUVAT.");
@@ -9903,7 +9903,7 @@ choyvp pynff BUYbtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:TRA RZF",
         "NQQE:3088 PE 9 A",
         "ZNQQE:3088 PBHAGL EBNQ 9 A",
-        "K:PE 57 / R GJC 219 R",
+        "K:PE 57 R / GJC 219 R",
         "ZNC:MSM1",
         "HAVG:F22",
         "VASB:65 LBN SRZNYR GEBHOYR OERNGUVAT");
@@ -11014,7 +11014,7 @@ choyvp pynff BUYbtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:TRA RZF",
         "NQQE:1851 FE 47 J",
         "ZNQQE:1851 BU 47 J",
-        "K:PE 32 / F GJC 46 A",
+        "K:PE 32 F / GJC 46 A",
         "ZNC:OSSQ",
         "HAVG:F21",
         "VASB:ZNYR UNIVAT N FRVMHER");

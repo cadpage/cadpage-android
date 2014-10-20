@@ -5,13 +5,14 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.ReverseCodeTable;
 import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 
 public class ORYamhillCountyAParser extends DispatchA3Parser {
 
   public ORYamhillCountyAParser() {
     super("CAD:", CITY_LIST, "YAMHILL COUNTY", "OR", 
-         "INFO", FA3_NBH_INFO);
+         "INFO", FA3_NBH_CODE);
   }
   
   @Override
@@ -19,60 +20,88 @@ public class ORYamhillCountyAParser extends DispatchA3Parser {
     return "CAD@newbergoregon.gov";
   }
 
-  private static Pattern MASTER = Pattern.compile("CAD:(.*?) (\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2}:\\d{2} : pos\\d .*?)");
-  private static Pattern PRI_UNIT = Pattern.compile("(\\d) +(.*?)");
+  private static Pattern MASTER = Pattern.compile("CAD:(.*?)(?: Line\\d+=)*(\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2}:\\d{2} : pos\\d .*?)");
+  private static Pattern END_UNIT_PTN = Pattern.compile("(.*) ([^ ]*\\b(?:MAPGR|[A-Z]+\\d+))");
+  private static Pattern END_DIGIT_PTN = Pattern.compile("(.*)(\\d)");
+  private static Pattern UNK_CALL_PTN = Pattern.compile("(.*?) ((?:(?:FIRE|RES|MVC) )?[^ ]+)");
 
   @Override
   public boolean parseMsg(String body, Data data) {
 
-    Matcher mat = MASTER.matcher(body);
-    if (!mat.matches()) return false;
+    Matcher match = MASTER.matcher(body);
+    if (!match.matches()) return false;
+    String addr = match.group(1).trim();
+    String extra = match.group(2);
+    
+    // Cross street information is duplicated in both sections, but the second section is more reliable
+    // so we will do it first.
+    if (!super.parseFields(new String[] { extra }, data)) return false;
 
-    // address etc
-    parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT, mat.group(1).replace("//", "&"), data);
-    String whatsLeft = getLeft();
-
-    // code and call. if code isn't found then whole string is passed to call
-    CodeTable.Result res = CODE_TABLE.getResult(whatsLeft);
-    if (res == null) data.strCall = whatsLeft;
-    else {
-      data.strCode = res.getCode();
+    // We will work the address field from the end.  Last token should be a comma separated unit field
+    match = END_UNIT_PTN.matcher(addr);
+    if (!match.matches()) return false;
+    addr = match.group(1);
+    data.strUnit = match.group(2);
+    
+    // Call code is now at the end.  If it is in our table we have it down.  
+    match = END_DIGIT_PTN.matcher(addr);
+    if (match.matches()) {
+      addr = match.group(1);
+      data.strPriority = match.group(2);
+    }
+    CodeTable.Result res = CODE_TABLE.getResult(addr);
+    if (res != null) {
+      data.strCode = res.getCode() + data.strPriority;
       data.strCall = res.getDescription();
-      whatsLeft = whatsLeft.substring(data.strCode.length());
-      // separate priority from unit, if pat doesn't match then pass whole string to unit
-      Matcher puMat = PRI_UNIT.matcher(whatsLeft);
-      if (puMat.matches()) {
-        data.strPriority = puMat.group(1);
-        data.strCode += data.strPriority;
-        data.strUnit = puMat.group(2);
-      } else data.strUnit = whatsLeft.trim();
+      addr = res.getRemainder();
+    }
+    
+    // If not we assume a single word token unless we can identify a common two word prefix.
+    else {
+      match = UNK_CALL_PTN.matcher(addr);
+      if (!match.matches()) return false;
+      addr = match.group(1).trim();
+      data.strCall = match.group(2) + data.strPriority;
+    }
+    
+    // There may, or may not, be a source code at the new end of   text
+    match = END_UNIT_PTN.matcher(addr);
+    if (match.matches()) {
+      addr = match.group(1).trim();
+      data.strSource = match.group(2);
+    }
+    
+    // Parse address from start of line
+    
+    parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS | FLAG_RECHECK_APT, addr.replace("//", "&"), data);
+    String left = getLeft();
+    
+    // If there was not apt and no city, but we have a cross street from the second half, used the second half
+    // cross street to identify a possible apt in the leftovers stuff
+    if (data.strApt.length() ==  0 && data.strCity.length() == 0 && data.strCross.length() > 0) {
+      String word = new Parser(data.strCross).get(' ');
+      if (!left.startsWith(word)) {
+        int pt = left.indexOf(' ' + word);
+        if (pt >= 0) data.strApt = left.substring(0,pt).trim();
+      }
+    }
+    
+    // If we do not have a cross street from the second half, parser the leftovers stuff
+    // as a cross street
+    if (left.length() > 0 && data.strCross.length() == 0) {
+      parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, left, data);
     }
 
-    return super.parseFields(new String[] { mat.group(2) }, data);
+    // That's all folks
+    return true;
   }
 
   @Override
   public String getProgram() {
-    return "ADDR APT CITY CODE CALL PRI UNIT " + super.getProgram();
+    return "ADDR APT CITY SRC CODE CALL PRI UNIT " + super.getProgram();
   }
-
-  private static String[] CITY_LIST = {
-    "AMITY",
-    "CARLTON",
-    "DAYTON",
-    "DUNDEE",
-    "LAFAYETTE",
-    "HILLSBORO",
-    "MCMINVILLE",
-    "NEWBERG",
-    "SALEM",
-    "SHERIDAN",
-    "SHERWOOD",
-    "WILLAMINA",
-    "WILSONVILLE",
-    "YAMHILL"};
   
-  private static CodeTable CODE_TABLE = new CodeTable(
+  private static CodeTable CODE_TABLE = new ReverseCodeTable(
       "FIRE AIRCRFT",         "Aircraft Crash",
       "FIRE ALARM",           "Fire Alarm",
       "FIRE AL-CO",           "CO Alarm",
@@ -150,4 +179,20 @@ public class ORYamhillCountyAParser extends DispatchA3Parser {
       "TRANSFER",             "Interfacility Hospital Transfer",
       "MOVE UP",              "Medical Move Up",
       "LOCK OUT",             "Lock out");
+
+  private static String[] CITY_LIST = {
+    "AMITY",
+    "CARLTON",
+    "DAYTON",
+    "DUNDEE",
+    "LAFAYETTE",
+    "HILLSBORO",
+    "MCMINVILLE",
+    "NEWBERG",
+    "SALEM",
+    "SHERIDAN",
+    "SHERWOOD",
+    "WILLAMINA",
+    "WILSONVILLE",
+    "YAMHILL"};
 }

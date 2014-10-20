@@ -384,7 +384,8 @@ choyvp pynff JIPnoryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Fubbgvat",
         "NQQE:700 J 19GU FG",
         "PVGL:UHAGVATGBA",
-        "K:WRSSREFBA NIR & IVPG VA GUR EQ");
+        "K:WRSSREFBA NIR",
+        "VASB:IVPG VA GUR EQ");
 
     qbGrfg("G5",
         "130260283/01-26-13/20:21:56/Fgehpgher Sver/6382 UBOOF QE/YRFNTR/PNFR QE/EE GENPXF/Ehaf bss bs Eg. 2 sebz 6353./634 REG/",

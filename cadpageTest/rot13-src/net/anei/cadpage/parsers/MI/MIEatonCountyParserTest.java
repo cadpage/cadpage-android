@@ -1323,8 +1323,8 @@ choyvp pynff ZVRngbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:PBZCYNVAG SVER VAIRFGVTNGVBA",
         "NQQE:520 EBOVAFBA FG",
-        "K:A PUHEPU FG & GUR CVXR",
-        "VASB:PB NYNEZ",
+        "K:A PUHEPU FG",
+        "VASB:GUR CVXR / PB NYNEZ",
         "QNGR:05/30/14",
         "GVZR:06:47:35");
 

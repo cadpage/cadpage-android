@@ -7268,8 +7268,7 @@ choyvp pynff PGYvgpusvryqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(YPQ Zrffntr) Fgehpgher Sver (Fzbxr be Sver va Ohvyqvat)-144 JBBQOVAR FG UBHFR NPEBFF GUR FGERRG  GBEEVATGBA- *** 21:10---",
         "PNYY:Fgehpgher Sver (Fzbxr be Sver va Ohvyqvat)",
         "NQQE:144 JBBQOVAR FG",
-        "K:GUR FGERRG",
-        "CYNPR:UBHFR NPEBFF",
+        "CYNPR:UBHFR NPEBFF GUR FGERRG",
         "PVGL:GBEEVATGBA",
         "GVZR:21:10");
 

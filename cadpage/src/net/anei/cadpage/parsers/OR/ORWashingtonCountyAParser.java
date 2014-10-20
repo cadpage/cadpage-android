@@ -4,6 +4,7 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
@@ -31,6 +32,7 @@ public class ORWashingtonCountyAParser extends ORWashingtonCountyBaseParser {
     super(CITY_CODES, defCity, defState,
           "( SELECT/1 ADDR1/SC! MAP:MAP UNIT:UNIT! | " +
             "ADDRCITY SRC! ( MAP:MAP X2 | ) DASH? PLACE2 NAME2! )");
+    setupCallList(CALL_LIST);
   }
   
   @Override
@@ -119,6 +121,7 @@ public class ORWashingtonCountyAParser extends ORWashingtonCountyBaseParser {
     return super.getField(name);
   }
 
+  private static final Pattern DIR_OF_SLASH_PTN = Pattern.compile("\\b([NSEW] *OF) */ *");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -132,7 +135,8 @@ public class ORWashingtonCountyAParser extends ORWashingtonCountyBaseParser {
         city = p.getLast(' ');
         addr = p.get();
       }
-      parseAddress(StartType.START_CALL, addr, data);
+      addr = DIR_OF_SLASH_PTN.matcher(addr).replaceAll("$1 ").trim();
+      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, addr, data);
       data.strCity = convertCodes(city, CITY_CODES);
       
     }
@@ -173,6 +177,152 @@ public class ORWashingtonCountyAParser extends ORWashingtonCountyBaseParser {
       }
     }
   }
+  
+  private final static CodeSet CALL_LIST = new CodeSet(
+      "ABDOMINAL PAIN",
+      "ABDOMINL PAIN C1",
+      "AIR ALERT2:TASK",
+      "ALARM,AUDIBLE",
+      "ALARM,OTHER",
+      "ALLERGIC REACTIO",
+      "ANIMAL COMPLAINT",
+      "ARREST/CUSTODY",
+      "ASSAULT",
+      "ASSIST OUTSIDE AGENCY",
+      "ASSIST PUBLIC",
+      "ASSLT/RAPE/STAB",
+      "ATTEMPT WARRANT",
+      "BACK PAIN",
+      "BACK PAIN C1",
+      "BARKDUST FIRE",
+      "BARN FIRE",
+      "BLEEDING PROBLEM",
+      "BREATHING PROB.",
+      "BREATHING PROB",
+      "BRUSH FIRE",
+      "BURN COMPLAINT",
+      "CAD TO CAD",
+      "CARDIAC ARREST",
+      "CARD/RESP ARREST",
+      "CAR FIRE",
+      "CHEST PAIN",
+      "CHEST PAIN/HEART",
+      "CHK EXTINGUISHED",
+      "CHOKING",
+      "CIVIL",
+      "COMMERCIAL FIRE",
+      "COMMERCIAL FIRE ALARM",
+      "CONVULSION/SEIZU",
+      "CRIMINAL MISCHIEF",
+      "DEATH INVESTIGATION",
+      "DETECTOR PROBLEM",
+      "DIABETIC",
+      "DIABETIC PROBLEM",
+      "DISTURBANCE",
+      "DIZZY/VERTIGO",
+      "DOMESTIC DISTURBANCE",
+      "ELECTRICAL FIRE",
+      "EXTRA PATROL REQUEST",
+      "F/A, ALL OTHER",
+      "FALL",
+      "FALL-BRAVO RESPONSE",
+      "FALL C1",
+      "FIRE ALARM, COMM",
+      "FIRE ALARM, RESD",
+      "FIRE ALARM,RESID",
+      "FIRE INFORMATION",
+      "FIRE, SINGLE ENGINE",
+      "FIRE/STRUCTURE",
+      "FIREWORKS",
+      "FOLLOW UP CONTACT",
+      "FRAUD",
+      "GRASS FIRE",
+      "HARASSMENT",
+      "HAZARD",
+      "HEADACHE C1",
+      "HEART PROBLEMS",
+      "HEAT EXPOSURE",
+      "HIT AND RUN,NON INJURY",
+      "INCOMPLETE 911",
+      "INVALID ASSIST",
+      "JUVENILE PROBLEM",
+      "LANDING ZONE",
+      "LIFT ASSIST",
+      "LOCKOUT",
+      "MEDICAL ALARM",
+      "MEDICAL-DETAILS TO FOLLOW",
+      "MENTAL/PSYCH",
+      "MISCELLANEOUS",
+      "MISC FIRE",
+      "MISC NO FIRE",
+      "MISSING PERSON",
+      "MOVEUP",
+      "MR1",
+      "MR2",
+      "MUTUAL AID",
+      "MVA-INJURY ACCID",
+      "MVA-UKN INJURY",
+      "MVA-UNK INJURY",
+      "MVA/UNKNOWN INJ",
+      "NOISE COMPLAINT",
+      "ODOR INVESTIGATE",
+      "ORDINANCE VIOLATION",
+      "OVERDOSE/POISON",
+      "PARKING COMPLAINT",
+      "POLE FIRE",
+      "PREGNANCY/BIRTH",
+      "PRE NOTIFICATION",
+      "PROPERTY INVESTIGATION",
+      "PSYCHIATRIC",
+      "PUBLIC ASSIST",
+      "RECALL",
+      "RECALL - FALSE ALARM",
+      "REQUEST FOR K-9 UNIT",
+      "RESIDENTIAL FIRE",
+      "RESIDENTIAL FIRE ALARM",
+      "RFIRE",
+      "SEIZURES",
+      "SHOOTING",
+      "SICK PERSON",
+      "SICK PERSON C1",
+      "SICK PERSON/UNKO",
+      "SMOKE INVESTIGAT",
+      "SPILL, FUEL/UNK",
+      "STROKE",
+      "SUBJECT STOP",
+      "SUICIDE ATTEMPT",
+      "SUSPICIOUS PERSON",
+      "SUSPICIOUS VEHICLE",
+      "SUSPICIOUS VEHICLE GONE",
+      "TAI-HIGH MECHANI",
+      "TAU",
+      "*TEST ONLY",
+      "THEFT",
+      "THEFT, JUST OCCURRED",
+      "TRAFFIC COMPLAINT",
+      "TRAFFIC STOP",
+      "TRANSFER/INTERFA",
+      "TRAUMA",
+      "TRAUMA C1",
+      "TRAUMATIC INJURY",
+      "TREE FIRE",
+      "TRF ACC, INJURY",
+      "TRF ACC, NON-INJ",
+      "TRF ACC, UNK INJ",
+      "TRUCK FIRE",
+      "UNCONCIOUS/FAINT",
+      "UNCON/FAINTING",
+      "UNCONSC/FAINTING",
+      "UNCONS/UNRESPONS",
+      "UNKNOWN TYP FIRE",
+      "UNK PROB/MN DOWN",
+      "UNWANTED",
+      "VEHICLE FIRE",
+      "VIOLATION OF RESTRAINING ORDER",
+      "WATER PROBLEM",
+      "WELFARE CHECK",
+      "WIRES DOWN"
+  ); 
   
   static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ALO", "ALOHA",

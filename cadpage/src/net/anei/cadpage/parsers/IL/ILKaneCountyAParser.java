@@ -17,14 +17,51 @@ public class ILKaneCountyAParser extends DispatchA42Parser {
   private static final Pattern TRAIL_MAP_PTN = Pattern.compile(" +([A-Z]+-\\d+)$");
   private static final Pattern INFO_JUNK_PTN = Pattern.compile(" *(?:Dispatch received by unit ([A-Z0-9]+)|Call Number \\d+ was created from Call Number \\d+\\([^\\)]+?\\)) *");
   
-  
   // They have some odd 2 part street numbers that need special handling
   private static final Pattern SPEC_STREET_NBR_PTN1 = Pattern.compile("(\\b\\d{2}[NSEW]) *(\\d+) +");
   private static final Pattern SPEC_STREET_NBR_PTN2 = Pattern.compile("(.*)\\b(\\d{2}[NSEW])");
+  private static final Pattern SPEC_STREET_NBR_PTN3 = Pattern.compile("(M\\d+) *(.*)");
+  private static final Pattern SPEC_STREET_NBR_PTN4 = Pattern.compile("(?!(?:US|ST|RT|CO)\\d+)([A-Z]+)(\\d+ .*)");
+  
+  // Likewise we have to fix intersections of ST and  ROAD A-D which look like ST ROAD A-D
+  private static final Pattern ST_ROAD_AD_PTN = Pattern.compile("(.* ST) (ROAD [A-D]\\b.*)");
   
   public ILKaneCountyAParser() {
     super(ILKaneCountyParser.CITY_LIST, "KANE COUNTY", "IL");
-    setupMultiWordStreets("ROCK ROAD", "BONNIE DUNDEE");
+    setupMultiWordStreets(
+        "ANGLETARN FAIRHILLS",
+        "BIG TIMBER",
+        "BEAU BRUMMEL",
+        "BEAU BRUMMEL HILLTOP",
+        "BONNIE DUNDEE",
+        "CAPE CODE",
+        "CEDAR BREAKS",
+        "ELM RIDGE",
+        "GRAND POINTE",
+        "KING WILLIAM",
+        "LAKE MARIAN",
+        "LAKE SHORE",
+        "OAK HILL",
+        "OAK KNOLL",
+        "PINE CODE",
+        "PINE HOLLOW",
+        "PRARIE LAKES",
+        "RIVER HAVEN",
+        "ROCK ROAD", 
+        "SANDY CREEK",
+        "SLEEPY HOLLOW",
+        "SPRING HILL RING",
+        "SPRING POINT",
+        "SPRINGHILL MALL",
+        "TIMBER TRAILS",
+        "TOWN CENTER",
+        "VALLEY VIEW",
+        "VILLAGE QUARTER",
+        "WATER TOWER",
+        "WILMETTE BONNIE DUNDEE",
+        "WOOD OAKS",
+        "WOODLAND PARK"
+     );
   }
   
   @Override
@@ -37,7 +74,7 @@ public class ILKaneCountyAParser extends DispatchA42Parser {
     if (SPEC_STREET_NBR_PTN.matcher(token).matches()) return true;
     return super.isHouseNumber(token);
   }
-  private static final Pattern SPEC_STREET_NBR_PTN = Pattern.compile("(\\d{2}[NSEW])(\\d+)");
+  private static final Pattern SPEC_STREET_NBR_PTN = Pattern.compile("(\\d{2}[NSEW]\\d*)(\\d+)|(?!(?:US|ST|RT|CO)\\d+)[A-Z]+\\d+");
 
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
@@ -103,9 +140,24 @@ public class ILKaneCountyAParser extends DispatchA42Parser {
           
           body = MISSED_BLANK.matcher(body).replaceFirst(" ");
           body = body.replace("ROCK ROAD", "ROCK-ROAD");
-          parseAddress(StartType.START_PLACE, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS | flags, body, data);
+          
+          // Make a special check for what looks like ST ROAD A-D
+          // but really needs to be broken up into an address ending with ST and
+          // a cross street of ROAD A-D
+          match = ST_ROAD_AD_PTN.matcher(body);
+          if (match.matches()) {
+            parseAddress(StartType.START_PLACE, FLAG_NO_CITY | FLAG_ANCHOR_END, match.group(1), data);
+            parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_ONLY_CITY | flags, match.group(2), data);
+          }
+          
+          // Otherwise use standard address parsing logic
+          else {
+            parseAddress(StartType.START_PLACE, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS | flags, body, data);
+            data.strCross = getPadField();
+          }
+          
           data.strAddress = data.strAddress.replace("ROCK-ROAD", "ROCK ROAD");
-          data.strCross = getPadField().replace("ROCK-ROAD", "ROCK ROAD");
+          data.strCross = data.strCross.replace("ROCK-ROAD", "ROCK ROAD");
           match = NO_CROSS_PTN.matcher(data.strCross);
           if (match.matches()) {
             data.strCross = "";
@@ -127,6 +179,19 @@ public class ILKaneCountyAParser extends DispatchA42Parser {
           if (match.matches()) {
             data.strPlace = match.group(1).trim();
             data.strAddress = append(match.group(2), " ", data.strAddress);
+          }
+
+          else {
+            match = SPEC_STREET_NBR_PTN3.matcher(data.strAddress);
+            boolean found =  match.matches();
+            if (!found) {
+              match = SPEC_STREET_NBR_PTN4.matcher(data.strAddress);
+              found =  match.matches();
+            }
+            if (found) {
+              data.strPlace = append(data.strPlace, " ", match.group(1));
+              data.strAddress = match.group(2).trim();
+            }
           }
         }
     
@@ -156,9 +221,11 @@ public class ILKaneCountyAParser extends DispatchA42Parser {
         data.strCall = getLeft();
         if (data.strCall.length() == 0) return false;
       }
-    }    
+    }
+    
     // common processing
     if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
+    
     return true;
   }
 }

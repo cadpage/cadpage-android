@@ -36,6 +36,10 @@ public class CodeTable {
       return description;
     }
     
+    public void setRemainder(String remainder) {
+      this.remainder = remainder;
+    }
+    
     public String getRemainder() {
       return remainder;
     }

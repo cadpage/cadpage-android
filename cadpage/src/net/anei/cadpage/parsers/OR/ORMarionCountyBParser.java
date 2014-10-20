@@ -68,7 +68,7 @@ public class ORMarionCountyBParser extends FieldProgramParser {
   public static Pattern FIELD_CLEANUP_PATTERN = Pattern.compile(".*?\\(([^/]*,[^/]*)\\)");
   public static Pattern REMOVE_MAPBOOK_PATTERN = Pattern.compile("(.*?)(?:\\(MapBook:(\\d{4})\\))(.*?)");
   public static Pattern REMOVE_ZIP_PATTERN = Pattern.compile("(.+?)(?:[, ]+\\d{5}|,? 0)$");
-  public static Pattern INTERSECTION_CLEANUP_PATTERN = Pattern.compile("(.*),.*(&.*)");
+  public static Pattern INTERSECTION_CLEANUP_PATTERN = Pattern.compile("(.*),.*(/.*)");
 
   public class MyAddressField extends AddressField {
     @Override
@@ -103,17 +103,16 @@ public class ORMarionCountyBParser extends FieldProgramParser {
       data.strCity = p.getLastOptional(",");
       if (NUMERIC.matcher(data.strCity).matches()) data.strCity = p.getLastOptional(","); 
       data.strPlace = p.getLastOptional(", @");
-      super.parse(p.get(), data);
+
+      // remove extra city from intersection address
+      String addr = p.get();
+      Matcher intMat = INTERSECTION_CLEANUP_PATTERN.matcher(addr);
+      if (intMat.matches()) addr = intMat.group(1).trim() + " " + intMat.group(2);
+      super.parse(addr, data);
       
       // remove zipcode from city
       Matcher zipMat = REMOVE_ZIP_PATTERN.matcher(data.strCity);
       if (zipMat.matches()) data.strCity = zipMat.group(1);
-
-      // remove extra city from intersection address
-      Matcher intMat = INTERSECTION_CLEANUP_PATTERN.matcher(data.strAddress);
-      if (intMat.matches()) {
-        data.strAddress = intMat.group(1).trim() + " " + intMat.group(2);
-      }
       
       //  Remove anything following a comma that is left in the address
       int pt = data.strAddress.indexOf(',');

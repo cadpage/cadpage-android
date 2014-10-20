@@ -486,9 +486,9 @@ choyvp pynff ALNyyrtnalPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:103",
         "PNYY:NQZVAVFGENGVIR/Qbphzrag/Ybfg be Sbhaq Cebcregl/Zrffntrf",
         "NQQE:J ZNVA",
-        "ZNQQE:J ZNVA & ONEARF PG NPPRFF RYZ",
+        "ZNQQE:J ZNVA & ONEARF PG",
         "PVGL:PHON IVYYNTR",
-        "K:ONEARF PG NPPRFF RYZ",
+        "K:ONEARF PG / NPPRFF RYZ",
         "HAVG:PHO0 PHON SVER FGN");
 
     qbGrfg("G33",
@@ -654,9 +654,9 @@ choyvp pynff ALNyyrtnalPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:53",
         "PNYY:PVGVMRA NFFVFG/FREIVPR PNYY",
         "NQQE:J ZNVA",
-        "ZNQQE:J ZNVA & ONEARF PG NPPRFF RYZ",
+        "ZNQQE:J ZNVA & ONEARF PG",
         "PVGL:PHON IVYYNTR",
-        "K:ONEARF PG NPPRFF RYZ",
+        "K:ONEARF PG / NPPRFF RYZ",
         "HAVG:PHO0 PHON SVER FGN");
 
     qbGrfg("G47",

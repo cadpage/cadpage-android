@@ -10,14 +10,13 @@ public class KYOldhamCountyAParser extends DispatchEmergitechParser {
   
   public KYOldhamCountyAParser() {
     super("", 60, CITY_LIST, "OLDHAM COUNTY", "KY");
+    addSpecialWords("COLTON");
   }
   
   @Override
   public String getFilter() {
     return "dispatch@oldhamcountyky.gov,textmsg@ballardsvillefire.com";
   }
-  
-  
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -31,8 +30,6 @@ public class KYOldhamCountyAParser extends DispatchEmergitechParser {
     data.strUnit = "";
     return true;
   }
-
-
 
   private static final String[] CITY_LIST = new String[]{
     "BALLARDSVILLE",

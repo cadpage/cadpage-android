@@ -28,6 +28,16 @@ public class WVCabellCountyParser extends FieldProgramParser {
     return parseFields(body.split("/"), data);
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("");
+    if (name.equals("DATE")) return new MyDateField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
+  }
+  
   private class MyDateField extends DateField {
     public MyDateField() {
       setPattern("\\d\\d-\\d\\d-\\d\\d", true);
@@ -57,16 +67,4 @@ public class WVCabellCountyParser extends FieldProgramParser {
       return super.checkParse(field, data);
     }
   }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("");
-    if (name.equals("DATE")) return new MyDateField();
-    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
-    return super.getField(name);
-  }
-  
-  
 }

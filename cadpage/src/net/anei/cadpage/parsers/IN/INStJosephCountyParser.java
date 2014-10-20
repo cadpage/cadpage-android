@@ -18,7 +18,7 @@ public class INStJosephCountyParser extends DispatchA6Parser {
   private static Pattern DATE_ADDR_BRK = Pattern.compile(" \\d\\d/\\d\\d/\\d\\d(?<!20)(?=[A-Z0-9])");
   private static Pattern CROSS_BREAK = Pattern.compile("\\)[ A-Z0-9]+? (?:(?:RD|HW)(?! )|(?:ST|AV|TR|DR)(?![AEIOU ]))");
   private static Pattern MAP_PTN = Pattern.compile(" +([A-Z]-\\d+|\\d{2,3}-\\d{2,3})");
-  private static Pattern LEAD_DATE_TIME = Pattern.compile("^(\\d\\d?:\\d\\d[AP]M) (\\d\\d/\\d\\d/\\d{4}) ");
+  private static Pattern LEAD_DATE_TIME = Pattern.compile("^(?:(\\d\\d?:\\d\\d[AP]M) )?(\\d\\d/\\d\\d/\\d{4}) ");
   private static Pattern TRAIL_TIME = Pattern.compile(" ([012]\\d)(\\d\\d),?$");
   private static DateFormat TIME_FMT = new SimpleDateFormat("hh:mmaa");;
   
@@ -66,7 +66,8 @@ public class INStJosephCountyParser extends DispatchA6Parser {
     
     match = LEAD_DATE_TIME.matcher(body);
     if (match.find()) {
-      setTime(TIME_FMT, match.group(1), data);
+      String time = match.group(1);
+      if (time != null) setTime(TIME_FMT, time, data);
       data.strDate = match.group(2);
       body = body.substring(match.end()).trim();
     }
@@ -94,6 +95,7 @@ public class INStJosephCountyParser extends DispatchA6Parser {
       "GE", "GERMAN TWP",
       "GR", "GREEN TWP",
       "HA", "HARRIS TWP",
+      "LA", "LAKEVILLE",
       "LI", "LIBERTY TWP",
       "MA", "MADISON TWP",
       "MI", "MISHAWAKA",

@@ -3368,7 +3368,7 @@ choyvp pynff APWbuafgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Jbexvat Sver",
         "NQQE:1748 EVPUNEQFBA EQ",
         "PVGL:MROHYBA",
-        "K:NPEBFF GUR EQ");
+        "VASB:NPEBFF GUR EQ");
 
     qbGrfg("G54",
         "PNQ:BCF1;PUQ;69Q10;FGEHPGHER SVER;1748 EVPUNEQFBA EQ;NPEBFF GUR EQ;NYYV YA;ONVYRL SNEZF YA;OEBJA GRQ;05/18/2014 02:49:59;PUQ1,MRO1,NGQ1;MROH",
@@ -3377,8 +3377,8 @@ choyvp pynff APWbuafgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:69Q10",
         "PNYY:FGEHPGHER SVER",
         "NQQE:1748 EVPUNEQFBA EQ",
-        "K:NPEBFF GUR EQ / NYYV YA / ONVYRL SNEZF YA",
-        "VASB:OEBJA GRQ",
+        "K:NYYV YA / ONVYRL SNEZF YA",
+        "VASB:NPEBFF GUR EQ / OEBJA GRQ",
         "QNGR:05/18/2014",
         "GVZR:02:49:59",
         "HAVG:PUQ1,MRO1,NGQ1",

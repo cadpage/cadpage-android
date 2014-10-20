@@ -32,6 +32,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   cevingr fgngvp svany vag SYNT_CNQ_SVRYQ_RKPY_PVGL = FznegNqqerffCnefre.SYNT_CNQ_SVRYQ_RKPY_PVGL;
   cevingr fgngvp svany vag SYNT_AB_FGERRG_FSK = FznegNqqerffCnefre.SYNT_AB_FGERRG_FSK;
   cevingr fgngvp svany vag SYNT_AB_PVGL = FznegNqqerffCnefre.SYNT_AB_PVGL;
+  cevingr fgngvp svany vag SYNT_ERPURPX_NCG = FznegNqqerffCnefre.SYNT_ERPURPX_NCG;
   
   cevingr fgngvp svany Fgevat[] PVGL_YVFG = arj Fgevat[]{"XRAFOHET", "XRA GBJA", "9999", "A OEBBXSVRYQ", "OEBBXSVRYQ"};
   cevingr fgngvp svany Fgevat QRS_PVGL = "FGNGR BS ZVAQ";
@@ -48,13 +49,21 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrz() {
     
-    qbGrfg(NQQE, SYNT_AB_FGERRG_FSK | SYNT_PEBFF_SBYYBJF | SYNT_AB_PVGL, "15035 PB EQ W SHYGBA PBHAGL SNVETEBHAQF / QBIRE QE  EVG GRNZ NFFVFG SBE FGEHPGHER SVER  Xrafohet",
-        "NQQE:15035 PB EQ W");
+    qbGrfg(PNYY, "563 FG EGR 211 R",
+        "NQQE:563 FG EGR 211 R");
 
   }
 
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(PNYY, "ZRQVPNY RZRETRAPL PB.EQ. 405 & PB.EQ. 49 FBHGU BS 134 RNFG SRZNYR FHOW SNYYRA SEBZ UBEFR... UNIVAT QVSSVPHYGL OERNGUVAT",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "NQQE:PB EQ 405 & PB EQ 49");
+    
+    qbGrfg(NQQE, SYNT_PEBFF_SBYYBJF | SYNT_ERPURPX_NCG, "359 FJ FRIRAGU FG XRAFOHET UJL 99J YVAQRA YA",
+        "NQQE:359 FJ FRIRAGU FG",
+        "PVGL:XRAFOHET");
     
     qbGrfg(PNYY, SYNT_FGNEG_SYQ_ERD | SYNT_ARNE_GB_RAQ, "GENAFSBEZRE,YVARF QBJA @ ZHVEJBBQ TERRA NCGF",
            "PNYY:GENAFSBEZRE,YVARF QBJA",
@@ -787,6 +796,10 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:XRAFOHET");
     qbGrfg(NQQE, SYNT_VZCYVRQ_VAGREFRPG | SYNT_NAPUBE_RAQ, "R KK 12 UJL A  QERNZ INYYRL EQ",
         "NQQE:R KK 12 UJL & A QERNZ INYYRL EQ");
+    qbGrfg(NQQE, SYNT_VZCYVRQ_VAGREFRPG | SYNT_NAPUBE_RAQ, "ZBHAGNVA GBC EQ QVFGEVPG YVAR",
+        "NQQE:ZBHAGNVA GBC EQ & QVFGEVPG YVAR");
+    qbGrfg(NQQE, SYNT_VZCYVRQ_VAGREFRPG | SYNT_NAPUBE_RAQ, "FNYRZ URVTUGF/YVOREGL",
+        "NQQE:FNYRZ URVTUGF & YVOREGL");
   }
   
   @Grfg
