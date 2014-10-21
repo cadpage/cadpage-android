@@ -10,11 +10,12 @@ public class DispatchA40Parser extends SmartAddressParser {
 
   public DispatchA40Parser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState);
-    setFieldList("SRC CALL PLACE ADDR APT CITY X INFO");
+    setFieldList("SRC CALL PLACE ADDR APT CITY X GPS INFO");
   }
 
-  private static Pattern NAT_LOC_COM = Pattern.compile("(?:(?:([A-Z]+):)?(?:\\[[A-Z0-9]+\\])?[- ]*- Nature:? )?(.*) - Location:? *(.*?)(?: [-.] (?:Comments:?)? *(.*))?");
+  private static Pattern NAT_LOC_COM = Pattern.compile("(?:(?:([A-Za-z]+):)?(?:\\[[A-Z0-9]+\\])?[- ]*- Nature:? )?(.*) - Location:? *(.*?)(?: [-.] (?:Comments:?)? *(.*))?");
   private static Pattern DECIMAL_ADDR = Pattern.compile("(.+)\\b(\\d+\\.\\d{2} .*?)");
+  private static Pattern INFO_GPS_PTN = Pattern.compile("([-+]\\d{3}\\.\\d{6} [-+]\\d{3}\\.\\d{6}) CF= *\\d*%? *");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -65,6 +66,13 @@ public class DispatchA40Parser extends SmartAddressParser {
     // general cleanup
     if (data.strApt.equals("APT") || data.strApt.equals("RM")) data.strApt = "";
     data.strApt = append(data.strApt, "-", res.getPadField());
+    
+    // Check for GPS coordinates
+    mat = INFO_GPS_PTN.matcher(data.strSupp);
+    if (mat.lookingAt()) {
+      setGPSLoc(mat.group(1), data);
+      data.strSupp = data.strSupp.substring(mat.end());
+    }
     return true;
 
   }

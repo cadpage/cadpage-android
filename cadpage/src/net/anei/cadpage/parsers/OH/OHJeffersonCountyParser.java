@@ -6,7 +6,6 @@ public class OHJeffersonCountyParser extends DispatchA40Parser {
 
   public OHJeffersonCountyParser() {
     super(CITY_LIST, "JEFFERSON COUNTY", "OH");
-    setFieldList("UNIT PLACE ADDR APT CITY INFO CALL");
   }
 
 
