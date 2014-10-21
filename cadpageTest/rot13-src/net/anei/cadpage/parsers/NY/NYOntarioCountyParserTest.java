@@ -874,7 +874,7 @@ choyvp pynff ALBagnevbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:UBHFR SVER",
         "GVZR:10:00",
         "NQQE:23 GUVEQ CX",
-        "ZNQQE:23 GUVEQ CVXR",
+        "ZNQQE:23 GUVEQ CNEX",
         "K:OEVFGBY INYYRL ZBOVY CX & QRNQ RAQ",
         "HAVG:S01",
         "VASB:SVER VA GUR UBG JNGRE GNAX --",
