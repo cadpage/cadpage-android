@@ -55,7 +55,8 @@ public class DispatchA28Parser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       field = field.replace("//", "/");
-      if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
+      field = stripFieldStart(field, "/");
+      field = stripFieldEnd(field, "/");
       super.parse(field, data);
     }
   }

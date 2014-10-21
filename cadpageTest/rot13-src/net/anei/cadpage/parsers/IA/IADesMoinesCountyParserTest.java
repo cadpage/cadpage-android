@@ -670,7 +670,7 @@ choyvp pynff VNQrfZbvarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:09/07/2014",
         "GVZR:01:15:53",
         "NQQE:710 JUVGRJBBQ FG",
-        "K:/ ZNQVFBA NIR",
+        "K:ZNQVFBA NIR",
         "PVGL:OHEYVATGBA",
         "HAVG:N2 G79");
 
@@ -1395,7 +1395,7 @@ choyvp pynff VNQrfZbvarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:09/03/2014",
         "GVZR:17:50:52",
         "NQQE:20279 EBBFRIRYG FG",
-        "K:/ WVZGBJA EQ",
+        "K:WVZGBJA EQ",
         "PVGL:QNAIVYYR",
         "HAVG:N2 QERF");
 
@@ -1584,7 +1584,7 @@ choyvp pynff VNQrfZbvarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:04:24:53",
         "NQQE:10994-14 115 NI",
         "ZNQQE:10994 115 NIR",
-        "K:/ ZRZBEVNY CNEX EQ",
+        "K:ZRZBEVNY CNEX EQ",
         "CYNPR:FHAQBJA CYNPR NCNEGZRAGF",
         "PVGL:OHEYVATGBA",
         "HAVG:N1");

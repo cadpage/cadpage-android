@@ -43,6 +43,9 @@ public class IAWorthCountyParser extends DispatchA28Parser {
     "KENSETT",
     "LINCOLN",
     "SILVER LAKE",
-    "UNION"
+    "UNION",
+    
+    // Mitchell County
+    "SAINT ANSGAR"
   };
 }
