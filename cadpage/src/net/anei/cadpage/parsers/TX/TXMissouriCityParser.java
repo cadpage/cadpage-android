@@ -51,6 +51,8 @@ public class TXMissouriCityParser extends DispatchOSSIParser {
       "ALARM FIRE",
       "EXTINGUISHED STRUCTURE FIRE",
       "GAS ODOR INSIDE",
+      "GRASS FIRE LARGE",
+      "LOCK IN",
       "MAJOR ACCIDENT",
       "MEDICAL CALL",
       "MUTUAL AID MISC LOCATION",
@@ -59,6 +61,7 @@ public class TXMissouriCityParser extends DispatchOSSIParser {
       "SERVICE CALL ASSIST",
       "STRUCTURE FIRE",
       "TRASH FIRE",
+      "UNDETERMINED TYPE CALL",
       "UNKNOWN MAJOR MINOR ACCIDENT"
  }));
 }
