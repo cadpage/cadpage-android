@@ -319,7 +319,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern INFO_GPS_PTN = Pattern.compile("(\\+\\d{3}\\.\\d{6})(\\-\\d{3}\\.\\d{6})(?:CF=\\d+%)?(?:CALLBK=(\\(\\d{3}\\)\\d{3}-\\d{4}))?");
+  private static final Pattern INFO_GPS_PTN = Pattern.compile("(\\+\\d{3}\\.\\d{6})(\\-\\d{3}\\.\\d{6})(?:CF=\\d+%)?(?:CALLBK=(\\(\\d{3}\\)\\d{3}-\\d{4}))?|CNF=\\d*UNC=\\d*");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
@@ -331,8 +331,10 @@ public class DispatchEmergitechParser extends FieldProgramParser {
       // of the field :(
       Matcher match = INFO_GPS_PTN.matcher(field.replace(" ", ""));
       if (match.lookingAt()) {
-        setGPSLoc(match.group(1)+','+match.group(2), data);
-        data.strPhone = getOptGroup(match.group(3));
+        if (match.group(1) != null) {
+          setGPSLoc(match.group(1)+','+match.group(2), data);
+          data.strPhone = getOptGroup(match.group(3));
+        }
         
         int pos = 0;
         for (int ii = 0; ii<match.end(); ii++) {
@@ -340,7 +342,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
           pos++;
         }
         while (pos < field.length() && field.charAt(pos) == ' ') pos++;
-        field = field.substring(pos);
+        field = field.substring(pos).trim();
       }
       super.parse(field, data);
     }
