@@ -17,7 +17,7 @@ public class MIIronCountyParser extends DispatchOSSIParser {
 
   public MIIronCountyParser(String defCity, String defState) {
     super(defCity, defState,
-          "CALL ( PLACE ADDR2 | ADDR | PLACE ADDR ) X+? INFO+? UNIT");
+          "FYI? CALL MASH+? UNIT CITY INFO+");
   }
   
   @Override
@@ -40,30 +40,88 @@ public class MIIronCountyParser extends DispatchOSSIParser {
       body = match.group(1).trim();
       setDateTime(DATE_TIME_FMT, match.group(2), data);
     }
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    return data.strAddress.length() > 0;
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ADDR2")) return new MyAddress2Field();
-    if (name.equals("UNIT")) return new UnitField("[A-Z]?\\d+[A-Z]+", true);
+    if (name.equals("MASH")) return new MyMashField();
+    if (name.equals("UNIT")) return new UnitField("[A-Z]?\\d+[A-Z]+|[A-Z]+\\d+", true);
     return super.getField(name);
   }
-  
-  // Selective address field that does not accept naked streets
-  // which are probably cross streets
-  private class MyAddress2Field extends AddressField {
-    @Override
-    public boolean canFail() {
-      return true;
-    }
+
+  // General place/address/cross/apt field processor
+  private static final Pattern APT_PTN = Pattern.compile("(?:#|APT|LOT|RM|ROOM) *(.*)|\\d{1,4}[A-Z]?");
+  private class MyMashField extends Field {
+    
+    // Keep internal state so we know where we are
+    int state = 0;
     
     @Override 
-    public boolean checkParse(String field, Data data) {
-      Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, field);
-      if (res.getStatus() <= STATUS_STREET_NAME) return false;
-      res.getData(data);
-      return true;
+    public void parse(String field, Data data) {
+      
+      // Initialize state for the first field
+      if (data.strPlace.length() == 0 && data.strAddress.length() == 0) state = 0;
+      
+      // And switch on current state
+      switch (state) {
+      
+      // Assume first field is address until we have a second to compare it to
+      // We do have to save it in the address on the off chance that there is no
+      // second field
+      case 0:
+        parseAddress(field, data);
+        state++;
+        break;
+        
+      // For the second field, we need to do some work to figure out whether the
+      // first field is a place name or address.  
+      case 1:
+        
+        // Either way, we will want to increment the state 
+        state++;
+        
+        // Compare the address status of the previous field and this field
+        // If this field status is a simple street name, assume it is a 
+        // following cross street and eliminate it from consideration
+        String prevField = getRelativeField(-1);
+        int stat1 = checkAddress(prevField);
+        int stat2 = checkAddress(field);
+        if (stat2 == STATUS_STREET_NAME) stat2 = -1;
+        
+        // This field does look like a better address
+        // Save the first field in the place name and parse this one
+        // as an address
+        if (stat2 > stat1) {
+          data.strPlace = prevField;
+          data.strAddress = "";
+          parseAddress(field, data);
+          break;
+        }
+        
+        // Otherwise, address is already parsed so we will fall through
+        // to the next case to process this field
+        
+      case 2:
+        
+        // Anything else is either an apt or a cross street
+        Matcher match = APT_PTN.matcher(field);
+        if (match.matches()) {
+          String apt = match.group(1);
+          if (apt == null) apt = field;
+          data.strApt = append(data.strApt, "-", apt);
+        }
+        
+        else {
+          data.strCross = append(data.strCross, " / ", field);
+        }
+      }
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "PLACE ADDR X APT";
     }
   }
 }

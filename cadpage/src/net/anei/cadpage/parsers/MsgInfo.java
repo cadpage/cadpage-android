@@ -702,7 +702,7 @@ public class MsgInfo {
   // This method breaks those up into two separate tokens, also dropping any
   // direction qualifiers
   private static final Pattern ROUTE_PTN =
-    Pattern.compile("\\b(?:(RT|RTE|HW|HWY|HIGH|US|STH?Y?|SHY?|FM|I|CO|CR|CORD|SRT?|I)|([A-Z]{2}))-?(\\d{1,4}[A-Z]?)(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
+    Pattern.compile("\\b(?:(RT|RTE|HW|HWY|HIGH|US|STH?Y?|SHY?|FM|I|CO|CR|CORD|SRT?|I)|([A-Z]{2}|M))-?(\\d{1,4}[A-Z]?)(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern SRT_PTN = Pattern.compile("\\bS(?:RT?| ?H|TH)\\b", Pattern.CASE_INSENSITIVE);
   
   private String cleanRoutes(String sAddress) {
@@ -717,9 +717,11 @@ public class MsgInfo {
         String g1 = match.group(1);
         if (g1 == null) {
           g1 = match.group(2);
+          if (state.equals("MI") && g1.equalsIgnoreCase("M")) g1 = "MI";
           if (!g1.equals(state)) continue;
         }
-        if (g1.startsWith("ST") || g1.startsWith("SH") || g1.equals(state)) g1 = repState;
+        String g1u = g1.toUpperCase();
+        if (g1u.startsWith("ST") || g1u.startsWith("SH") || g1u.equals(state)) g1 = repState;
         String replace = g1 + ' ' + match.group(3);
         match.appendReplacement(sb, replace);
       } while (match.find());

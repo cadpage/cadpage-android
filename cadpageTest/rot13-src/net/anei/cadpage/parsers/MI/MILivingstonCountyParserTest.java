@@ -154,6 +154,7 @@ choyvp pynff ZVYvivatfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:SLV: ;HAXNPP;R Z36/CRGGLF EQ;IRUVPYR UVG N CBYR/ ZNYR EHAAVAT R/O SEBZ FPRAR [09/23/10 21:45:06 RPBBX]",
         "PNYY:HAXNPP",
         "NQQE:R Z36 & CRGGLF EQ",
+        "ZNQQE:R FGNGR 36 & CRGGLF EQ",
         "VASB:IRUVPYR UVG N CBYR/ ZNYR EHAAVAT R/O SEBZ FPRAR",
         "QNGR:09/23/10",
         "GVZR:21:45:06");
@@ -416,7 +417,8 @@ choyvp pynff ZVYvivatfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G8",
         "[] PNQ:FRVMHE;CNGUSVAQRE FPUBBY;2100 R Z36;RZRENYQ PG;[RZF] CG VF OERNGUVAT [09/19/12 14:06:52 RCREEL] [YNJ] OVQ [09/19/12 14:06:50 QQRZNA] [Zrqvpny Cevbevgl Vasb] ERFCBAFR: C1 FGN 1 4 5 7 8 ERFCBAQRE FPEVCG: 10 lrne byq, Srznyr, Pbafpvbhfarff\e\a\a",
         "PNYY:FRVMHE",
-        "NQQE:2100 R Z36",            // Qbrf abg znc - OVQ haqrsvarq
+        "NQQE:2100 R Z36", 
+        "ZNQQE:2100 R FGNGR 36",  
         "CYNPR:CNGUSVAQRE FPUBBY",
         "K:RZRENYQ PG",
         "VASB:CG VF OERNGUVAT / OVQ / 10 lrne byq, Srznyr, Pbafpvbhfarff",

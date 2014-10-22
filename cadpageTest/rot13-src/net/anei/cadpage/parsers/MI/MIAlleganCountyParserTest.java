@@ -1716,6 +1716,7 @@ choyvp pynff ZVNyyrtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "rznvy sebz lbhe flfgrz.",
 
         "NQQE:1329 Z89 UJL",
+        "ZNQQE:1329 FGNGR 89",
         "PVGL:Bgfrtb Gjc",
         "CYNPR:PVEPYR X - ZBOVY FGNGVBA",
         "K:PEBFF BNXF ZNYY / 13GU FG",
@@ -4103,6 +4104,7 @@ choyvp pynff ZVNyyrtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "rznvy sebz lbhe flfgrz.",
 
         "NQQE:1329 Z89 UJL",
+        "ZNQQE:1329 FGNGR 89",
         "PVGL:Bgfrtb Gjc",
         "CYNPR:PVEPYR X - ZBOVY FGNGVBA",
         "K:PEBFF BNXF ZNYY / 13GU FG",
@@ -9555,6 +9557,7 @@ choyvp pynff ZVNyyrtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "rznvy sebz lbhe flfgrz.",
 
         "NQQE:535 Z89 UJL",
+        "ZNQQE:535 FGNGR 89",
         "PVGL:Tha Cynva Gjc",
         "K:ULQRE PVEPYR QE / EBYYVAT ZRNQBJF QE",
         "CUBAR:(269) 685-0133",
@@ -11156,6 +11159,7 @@ choyvp pynff ZVNyyrtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "rznvy sebz lbhe flfgrz.",
 
         "NQQE:1249 Z222 yg 9",
+        "ZNQQE:1249 FGNGR 222 yg 9",
         "PVGL:Znegva Gjc",
         "CUBAR:(269) 329-8490",
         "VQ:7117",
@@ -13299,6 +13303,7 @@ choyvp pynff ZVNyyrtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "rznvy sebz lbhe flfgrz.",
 
         "NQQE:535 Z89 UJL",
+        "ZNQQE:535 FGNGR 89",
         "PVGL:Tha Cynva Gjc",
         "K:ULQRE PVEPYR QE / EBYYVAT ZRNQBJF QE",
         "CUBAR:(269) 685-0133",
@@ -13826,6 +13831,7 @@ choyvp pynff ZVNyyrtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "rznvy sebz lbhe flfgrz.",
 
         "NQQE:848 Z89 UJL",
+        "ZNQQE:848 FGNGR 89",
         "PVGL:Tha Cynva Gjc",
         "CUBAR:(269) 204-6454",
         "ZNC:TC2-Cynvajryy RZF",
@@ -14285,6 +14291,7 @@ choyvp pynff ZVNyyrtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "rznvy sebz lbhe flfgrz.",
 
         "NQQE:Z89 UJL & 8GU FG",
+        "ZNQQE:FGNGR 89 & 8GU FG",
         "PVGL:Tha Cynva Gjc",
         "ZNC:TC2-Cynvajryy RZF",
         "VQ:15625",
@@ -14424,6 +14431,7 @@ choyvp pynff ZVNyyrtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "rznvy sebz lbhe flfgrz.",
 
         "NQQE:1191 Z89 UJL",
+        "ZNQQE:1191 FGNGR 89",
         "PVGL:Tha Cynva Gjc",
         "CYNPR:ZRVWRE TNF - CYNVAJRYY",
         "K:12GU FG / EVIRE EQ",
@@ -15620,6 +15628,7 @@ choyvp pynff ZVNyyrtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "rznvy sebz lbhe flfgrz.",
 
         "NQQE:3416 Z40 UJL",
+        "ZNQQE:3416 FGNGR 40",
         "PVGL:Urngu Gjc",
         "CYNPR:UNZVYGBA SBBQ PRAGRE - URNGU GJC",
         "CUBAR:(269) 512-1139",
@@ -17923,6 +17932,7 @@ choyvp pynff ZVNyyrtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "rznvy sebz lbhe flfgrz.",
 
         "NQQE:3244 Z40 UJL",
+        "ZNQQE:3244 FGNGR 40",
         "PVGL:Urngu Gjc",
         "CUBAR:(616) 638-0309",
         "ZNC:UN1-NZE Nzohynapr",

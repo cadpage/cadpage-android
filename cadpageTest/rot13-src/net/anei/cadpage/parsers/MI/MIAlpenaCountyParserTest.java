@@ -168,6 +168,7 @@ choyvp pynff ZVNycranPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:CVN",
         "PNYY:CREFBANY VAWHEL NPPVQRAG",
         "NQQE:Z-32 JRFG - A FRPGBE", //qbrf abg znc
+        "ZNQQE:FGNGR 32 JRFG - A FRPGBE", //qbrf abg znc
         "VQ:2014-0000010450");
 
     qbGrfg("G14",

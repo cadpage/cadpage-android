@@ -882,6 +882,7 @@ public abstract class SmartAddressParser extends MsgParser {
   
   private static final Pattern US_PTN = Pattern.compile("\\b(U) (S)\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern ADDR_START_PTN = Pattern.compile("^(?:@|AT |REPORTED AT )", Pattern.CASE_INSENSITIVE);
+  private static final Pattern MARGINAL_INTERSECT_PTN = Pattern.compile(".*&.*|.*/(?!B\\b).*");
   private Result parseAddressInternal(StartType sType, int flags, String address) {
     this.flags = flags;
     lastCity = -1;
@@ -985,8 +986,8 @@ public abstract class SmartAddressParser extends MsgParser {
     // If all else fails, use the fallback parser
     parseFallback(sType, result);
     result.status = STATUS_NOTHING;
-    if (result.addressField != null && 
-        isHouseNumber(result.addressField.fldStart)) result.status = STATUS_MARGINAL;
+    if (result.addressField != null && isHouseNumber(result.addressField.fldStart) ||
+        MARGINAL_INTERSECT_PTN.matcher(address).matches()) result.status = STATUS_MARGINAL;
     return result;
   }
 
