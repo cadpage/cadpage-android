@@ -471,6 +471,7 @@ class Active911Vendor extends Vendor {
       "US/OK/CityofTulsa",                "OKTulsaB",
       "US/OK/CherokeeCounty",             "OKCherokeeCounty",
       "US/OK/LoveCounty",                 "OKLoveCounty",
+      "US/OK/MayesCounty",                "OKMayesCounty",
       "US/OR/Benton",                     "ORBentonCounty",
       "US/OR/CityofSalem",                "ORMarionCountyB",
       "US/OR/ClackamasCounty",            "ORClackamasCountyA",
