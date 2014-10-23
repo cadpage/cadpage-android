@@ -4,7 +4,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA49Parser;
 
 /*
-Lafayette Parish, LA
+Anne Arundel County, MD (ADSiCAD)
 */
 
 public class MDAnneArundelCountyADSiCADParser extends DispatchA49Parser {

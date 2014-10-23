@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Naar Nehaqry pbhagl, ZQ (Naancbyvf)
+Naar Nehaqry Pbhagl, ZQ (Naancbyvf)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Naancbyvf Sver

@@ -6,7 +6,7 @@ public class MDAnneArundelCountyParser extends GroupBestParser {
   
   public MDAnneArundelCountyParser() {
     super(new MDAnneArundelCountyFireParser(), new MDAnneArundelCountyEMSParser(), new MDAnneArundelCountyAnnapolisParser(), 
-        new MDAnneArundelCountyFireblitzParser());
+        new MDAnneArundelCountyFireblitzParser(), new MDAnneArundelCountyADSiCADParser());
   }
 
 }

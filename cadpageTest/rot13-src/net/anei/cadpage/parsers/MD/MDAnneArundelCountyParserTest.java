@@ -30,4 +30,9 @@ choyvp pynff ZQNaarNehaqryPbhaglCnefreGrfg {
       frgCnefre(arj ZQNaarNehaqryPbhaglCnefre());
     }
   }
+  choyvp fgngvp pynff GrfgNQFvPNQ rkgraqf ZQNaarNehaqryPbhaglNQFvPNQCnefreGrfg {
+    choyvp GrfgNQFvPNQ() {
+      frgCnefre(arj ZQNaarNehaqryPbhaglCnefre());
+    }
+  }
 }

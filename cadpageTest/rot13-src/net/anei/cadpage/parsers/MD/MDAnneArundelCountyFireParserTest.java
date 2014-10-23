@@ -5,7 +5,8 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Naar Nehaqry pbhagl, ZQ
+Naar Nehaqry Pbhagl, ZQ (Sver)
+
 Pbagnpg: xevfg grny <fdqzna43@tznvy.pbz>
 
 FRIREA | NAAR NEHAQRY | SVER NPGVIVGL | V-97 & ORASVRYQ | ORASVRYQ ENZC PYBFRQ QHR GB OEHFU SVER. | 31 |

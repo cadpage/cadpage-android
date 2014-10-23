@@ -7,7 +7,8 @@ vzcbeg bet.whavg.Grfg;
 
 /* Fnzcyr Neabyq Cntrf.
 *
-Naar Nehaqry Pbhagl (RZF), ZQ
+Naar Nehaqry Pbhagl, ZQ (RZF)
+
 Fraqre: sq50AAAA@nnpbhagl.bet
 
 ZRQVPNY Obk 17-7 1236 WBARF FGNGVBA EQ  [ZG PNYINEL HAVGRQ ZRGU PUHEPU] R171,CZ17 GNFRE CNGVRAG; 1145 [1/49]  /4z-5/ 
