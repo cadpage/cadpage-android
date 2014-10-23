@@ -27,7 +27,7 @@ public class VAPrinceWilliamCountyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "cc_message_notification@usamobility.net,@rsan.pwcgov.org,PWRSAN";
+    return "cc_message_notification@usamobility.net,@rsan.pwcgov.org,PWRSAN,89361";
   }
   
   private String select = null;
