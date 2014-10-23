@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.SC;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -37,11 +39,23 @@ public class SCNewberryCountyParser extends FieldProgramParser {
 
   @Override
   public Field getField(String name) {
-    if (name.equals("DATETIME")) return new DateTimeField("Date/Time Sent - (.*)", true);
+    if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("CODE")) return new MyCodeField("Event Code - (.*)", true);
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("CALL")) return new CallField("(?:Description - )?(.*)", true);
     return super.getField(name);
+  }
+  
+  private static Pattern DATE_TIME_PTN = Pattern.compile("Date/Time Sent - (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d [AP]M)");
+  private static DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
+  private class MyDateTimeField extends DateTimeField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher mat = DATE_TIME_PTN.matcher(field);
+      if (!mat.matches()) abort();
+      data.strDate = mat.group(1);
+      setTime(TIME_FMT, mat.group(2), data);
+    }
   }
 
   // crossroad follows address
