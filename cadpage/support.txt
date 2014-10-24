@@ -444,7 +444,7 @@ Jean ~ Cadpage Administrator
 ******************************************************************
 expired
 
-The only payment record I found in your name was dated _______, which means your Cadpage subscription has officially expired as of _____.  If you have made another payment since then, please provide more details.
+The only payment record I found with your email address was dated _______, which means your Cadpage subscription has officially expired as of _____.  If you have made another payment since then, please provide more details.
 
 You may find it useful to log in to wallet.google.com or paypal.com.  From there you should be able to look up your Cadpage purchase and send us the date, time and transaction ID, and whether it was PayPal or Play Store.
 
