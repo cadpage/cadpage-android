@@ -14,7 +14,7 @@ public class DispatchInfoSysParser extends FieldProgramParser {
   
   protected DispatchInfoSysParser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
-           "( CALL ADDR/SXa | CALLADDR ) ( CITY | PLACE CITY | ) INFO+");
+           "( CALL ADDR/SXa | CALLADDR ) ( CITY! | PLACE CITY/Y! | ) INFO+");
   }
   
   @Override
@@ -36,6 +36,16 @@ public class DispatchInfoSysParser extends FieldProgramParser {
       if (field.startsWith("0 ")) field = field.substring(2).trim();
       super.parse(field, data);
     }
+  }
+
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("CALL")) return new CallField("[A-Za-z0-9/]*-.*", true);
+    if (name.equals("CALLADDR")) return new MyCallAddressField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   // CALLADDR is a hybrid call address that we try if the CALL field does
@@ -76,15 +86,5 @@ public class DispatchInfoSysParser extends FieldProgramParser {
     public String getFieldNames() {
       return "MAP INFO";
     }
-  }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("CALL")) return new CallField("[A-Za-z0-9/]*-.*", true);
-    if (name.equals("CALLADDR")) return new MyCallAddressField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("PLACE")) return new MyPlaceField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
 }

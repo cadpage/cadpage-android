@@ -14,7 +14,9 @@ public class OHLorainCountyBParser extends DispatchInfoSysParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("From: MapUser")) return false;
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    data.strCall = stripFieldStart(data.strCall, "-");
+    return true;
   }
 
   private static final String[] CITY_LIST = new String[]{
