@@ -28,7 +28,7 @@ public class NJSussexCountyAParser extends SmartAddressParser {
     body = body.replace('\n', ' ');
     Matcher match = MASTER_PTN.matcher(body);
     if (!match.matches()) return false;
-    data.strCall = match.group(1).trim();
+    data.strCall = match.group(1).trim().toUpperCase();
     String call = CALL_CODES.getProperty(data.strCall);
     if (call != null) {
       data.strCode = data.strCall;
