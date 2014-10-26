@@ -550,7 +550,7 @@ public class HtmlParser extends FieldProgramParser {
   protected boolean getHtmlCleaner(String html) {
 //    int n;
     if (!getHtmlCleaner())
-        return false;
+      return false;
     root = htmlCleaner.clean(html.replaceAll(XMLNS_PATTERN_STRING, ""));
     if (root != null) {
       if (layout.isEmpty())
@@ -883,10 +883,8 @@ public class HtmlParser extends FieldProgramParser {
             if (pi.exclude().equals("") || !v.contains(pi.exclude()))
               pi.value(append(pi.value(), pi.separator(), cleanValue(v, pi)));
           }
-          else {
+          else
             pi.status(STATUS_OFFSET);
-            removeTags(tagSet, done);
-          }
         }
         done.add(tag);
       }

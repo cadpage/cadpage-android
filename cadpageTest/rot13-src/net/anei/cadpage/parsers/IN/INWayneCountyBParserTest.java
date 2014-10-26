@@ -8,223 +8,4999 @@ vzcbeg bet.whavg.Grfg;
 Jnlar Pbhagl, VA
 
 Pbagnpg: Npgvir911
-Ntrapl anzr: Obfgba Pbzzhavgl SQ., Vap.
+Ntrapl anzr: Obfgba Pbzzhavgl Sver Qrcg., Vap.
 Ybpngvba: Obfgba, VA, Havgrq Fgngrf
 Fraqre: 911@jnlarpb.hf
 
-(911 Qvfcngpu: 10-52 ng 1660 FGVTYRZNA EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067182>14-00067182</n> nf bs 9/16/2014 11:40:03</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/16/2014 11:36:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Fcevag CPF - 765-462-1477</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1660 FGVTYRZNA EQ/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1660 FGVTYRZNA EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/16/2014 11:37:10 : cbf6 : WQHXR]<oe>\aPebff fgerrgf: SBHGF EQ//FGENVTUGYVAR EQ<oe>\aSRYY 15-20 SRRG  PC BS ONPX CNVA<c>\a[09/16/2014 11:38:33 : cbf6 : WQHXR]<oe>\aYNAQRQ BA N OHFU<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/16/2014 11:37:41</gq><gq>QVF</gq><gq>1660 FGVTYRZNA EQ, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>09/16/2014 11:39:13</gq><gq>QVF</gq><gq>1660 FGVTYRZNA EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 214 F FNYRZ FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065592>14-00065592</n> nf bs 9/10/2014 19:48:06</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/10/2014 19:46:28</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>OEBBXF, FUNEBA - 765-939-7179</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>214 F FNYRZ FG/OBFGBA<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=214 F FNYRZ FG, OBFGBA, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/10/2014 19:46:53 : cbf4 : WEBOREGFBA89]<oe>\aPebff fgerrgf: J ZNVA FG//<oe>\a<oe>\aPURFG CNVA, PYNZZL<oe>\aFVPX SBE 5 QNLF<c>\a[09/10/2014 19:47:26 : cbf4 : WEBOREGFBA89]<oe>\a51 LB ZNYR<oe>\a<oe>\a[09/10/2014 19:47:54 : cbf4 : WEBOREGFBA89]<oe>\aVF PBAF NAQ NYREG<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/10/2014 19:47:16</gq><gq>QVF</gq><gq>214 F FNYRZ FG, OBFGBA</gq></ge>\a<ge><gq>OGSQ</gq><gq>09/10/2014 19:47:53</gq><gq>QVF</gq><gq>214 F FNYRZ FG, OBFGBA</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065277>14-00065277</n> nf bs 9/9/2014 20:38:07</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/09/2014 20:35:58</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/09/2014 20:36:33 : cbf6 : EQHANJNL89]<oe>\aYnaqznex Pbzzrag: ABGVSL PBHEG UBHFR FRPHEVGL BS NAL PNYYF QVFCNGPURQ QH<oe>\aYnaqznex: JNLAR PB NAARK<oe>\aPebff fgerrgf: 5GU FG//3EQ FG<oe>\a<oe>\a<oe>\aGRFG BAYL  <oe>\aGRFGVAT VFFHRF JVGU GUR CNTRE FLFGRZ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>09/09/2014 20:37:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 NYNEZ ng 4374 JBYSR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00059458>14-00059458</n> nf bs 8/19/2014 20:39:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/19/2014 20:35:53</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 NYNEZ</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Fcevag CPF - 765-462-9234</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4374 JBYSR EQ/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4374 JBYSR EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/19/2014 20:37:27 : cbf6 : NOENQYRL]<oe>\aAVPXYRFBA ERF<oe>\aXBBEFRA CEBG<oe>\a8004321429<oe>\aBC OVYYL<oe>\aFZBXR QRGRPG<c>\a[08/19/2014 20:37:38 : cbf6 : NOENQYRL]<oe>\aPebff fgerrgf: ZVAARZNA EQ//AVRJBRUARE EQ<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>OGSQ</gq><gq>08/19/2014 20:38:00</gq><gq>QVF</gq><gq>4374 JBYSR EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 TENFF ng HF 27 // HAVBA PB YVAR) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00059110>14-00059110</n> nf bs 8/18/2014 17:46:05</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/18/2014 17:42:42</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 TENFF</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JUNYYBA, PUHPX - 765-524-3095</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>HF 27 // HAVBA PB YVAR/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=HF 27 // HAVBA PB YVAR, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/18/2014 17:43:57 : cbf3 : WEBOREGFBA89]<oe>\aHF 27 // HAVBA PB YVAR<oe>\a<oe>\aFZBXR BA GUR FVQR BS GUR EBNQ, CEBONOYL N TENFF SVER<c>\a[08/18/2014 17:44:19 : cbf3 : WEBOREGFBA89]<oe>\aPBZC FNLF VG VF EVTUG VA SEBAG BS GUR HAVBA PBHAGL JNLAR PBHAGL YVAR FVTA<oe>\a<oe>\a[08/18/2014 17:45:44 : cbf5 : CZVYYRE]<oe>\aGNP3<oe>\a<oe>\a[08/18/2014 17:45:48 : cbf3 : VPEBHPU]<oe>\aGNP 3<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>OGSQ</gq><gq>08/18/2014 17:45:54</gq><gq>QVF</gq><gq>HF 27 // HAVBA PB YVAR, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 CV ng 3900 OYX F HF 27) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00058001>14-00058001</n> nf bs 8/14/2014 17:03:03</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/14/2014 16:57:17</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 CV</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>OBTTF, - 765-993-1530</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>3900 OYX F HF 27/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=3900 OYX F HF 27, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/14/2014 16:59:38 : cbf5 : WQHXR]<oe>\aFUR JERPXRQ VA GUR QVGPU FVY PNQVYNP   BU ERT  SRZNYR CBFF 10-55 VA NAQ BHG BS PBAPPVBHFARFF<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE2</gq><gq>08/14/2014 17:00:33</gq><gq>QVF</gq><gq>3900 OYX F HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-32</gq><gq>08/14/2014 17:02:04</gq><gq>RAE</gq><gq>3900 OYX F HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/14/2014 17:02:33</gq><gq>QVF</gq><gq>3900 OYX F HF 27, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu:  ng RAQFYRL EQ // HF 27) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00057154>14-00057154</n> nf bs 8/11/2014 19:08:14</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/11/2014 16:39:55</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 VAIREG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FPBGG,PUEVF - 765-265-9591</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>RAQFYRL EQ // HF 27/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=RAQFYRL EQ // HF 27, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>GJP14-0475</gq></ge>\a</gnoyr>\a<c>\a[08/11/2014 16:40:20 : cbf5 : FUNMRYONXRE]<oe>\a1430 RAQFYRL EQ<oe>\aJBEX   GEHPX BA  VGF  FVQR<c>\a[08/11/2014 16:40:41 : cbf5 : FUNMRYONXRE]<oe>\aRNFG   FVQR   BS   27  BA  RAQFYRL  EQ<oe>\a<oe>\a[08/11/2014 16:40:48 : cbf5 : FUNMRYONXRE]<oe>\aYRNXVAT    SHRY<oe>\a<oe>\a[08/11/2014 16:42:47 : cbf5 : FUNMRYONXRE]<oe>\aBHG BS  GEHPX NCCRNEF   BX  OHG  QEBCCRQ PNYY<oe>\a<oe>\a[08/11/2014 16:44:16 : cbf3 : WTEVSSVA]<oe>\aWBR PEBJR, 960-0699    QEVIVAT N JUV OBK GX JVGU PEBJR FUERQQVAT BA FVQR, UR NQI AB VAW & VF BHG BS GX    CRE 715<oe>\a<oe>\a[08/11/2014 16:48:39 : cbf5 : FUNMRYONXRE]<oe>\a85-2   10-23<oe>\a<oe>\a[08/11/2014 16:49:56 : cbf5 : FUNMRYONXRE]<oe>\a85-2  PBASVEZRQ  CQ  BAYL<oe>\a<oe>\a[08/11/2014 16:50:44 : cbf3 : WTEVSSVA]<oe>\a89600 RE, ERS SHRY YRNX<oe>\a<oe>\a[08/11/2014 16:51:41 : cbf5 : FUNMRYONXRE]<oe>\a85-2  NQI  HAVGF PNA FYBJ EHA<oe>\a<oe>\a[08/11/2014 16:53:10 : cbf5 : FUNMRYONXRE]<oe>\aULQEBYVP  YRNX  FZNYY  NAQ SVER  PNA  PBAGNVA  VG<oe>\a<oe>\a[08/11/2014 16:55:59 : cbf4 : FGONYQJVA]<oe>\aCNEQBF 76<oe>\a<oe>\a[08/11/2014 16:56:44 : cbf4 : FGONYQJVA]<oe>\aOEVATVAT N YET 10-51<oe>\a<oe>\a[08/11/2014 16:57:15 : cbf4 : FGONYQJVA]<oe>\aOHFGRQ ONPX NKRY<oe>\a<oe>\a[08/11/2014 17:15:55 : cbf4 : FGONYQJVA]<oe>\aGJP14-0475<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>TRARENY</gq><gq>Vavgvny Nffvtazrag</gq><gq>08/11/2014 16:41:07</gq><gq>FUNMRYONXRE</gq></ge>\a<ge><gq>10-50 VAIREG</gq><gq>08/11/2014 16:41:07</gq><gq>Svany Nffvtazrag</gq><gq>FUNMRYONXRE</gq></ge>\a</gnoyr><c>\a<o>Crbcyr Vaibyirq</o>\a<gnoyr obeqre=1>\a<ge><gu>Vaibyirzrag</gu><gu>Anzr</gu><gu>E/F/U/J</gu><gu>Ntr</gu><gu>QBO</gu><gu>BYA</gu></ge>\a<ge><gq></gq><gq>Pebjr, Wbfrcu</gq><gq>/Z/070/180</gq><gq>32-</gq><gq>1981-12-20</gq><gq> - </gq></ge>\a</gnoyr><c>\a<o>Iruvpyrf Vaibyirq</o>\a<gnoyr obeqre=1>\a<ge><gu>Cyngr</gu><gu>Lrne</gu><gu>Zbqry</gu><gu>IVA</gu><gu>Pbybe</gu><gu>Bjare</gu></ge>\a<ge><gq>GX422YOM</gq><gq>2010</gq><gq></gq><gq>1UGZLFXZ3NU282081</gq><gq>JUV</gq><gq> PEBJR FUERQQVAT</ge>\a</gnoyr>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE2</gq><gq>08/11/2014 16:41:21</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-14</gq><gq>08/11/2014 16:41:37</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-25</gq><gq>08/11/2014 16:41:41</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 16:43:12</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 16:43:33</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OBR81</gq><gq>08/11/2014 16:45:26</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>EZGE2</gq><gq>08/11/2014 16:49:35</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>89600</gq><gq>08/11/2014 16:49:55</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-25</gq><gq>08/11/2014 16:51:32</gq><gq>BAF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-14</gq><gq>08/11/2014 16:54:48</gq><gq>BAF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OBE84</gq><gq>08/11/2014 16:56:45</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-25</gq><gq>08/11/2014 17:56:07</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>89-23</gq><gq>08/11/2014 18:05:19</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-23</gq><gq>08/11/2014 18:17:11</gq><gq>BAF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-14</gq><gq>08/11/2014 18:20:59</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 19:04:36</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>NOSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 19:07:31</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/11/2014 19:07:31</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>QOSQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>RPSQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>TSSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>UTSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>JOSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>JZSQ</gq><gq>08/11/2014 19:07:34</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>NOSQ</gq><gq>08/11/2014 19:07:35</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 VAIREG ng RAQFYRL EQ // HF 27) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00057154>14-00057154</n> nf bs 8/11/2014 16:44:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/11/2014 16:39:55</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 VAIREG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FPBGG,PUEVF - 765-265-9591</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>RAQFYRL EQ // HF 27/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=RAQFYRL EQ // HF 27, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/11/2014 16:40:20 : cbf5 : FUNMRYONXRE]<oe>\a1430 RAQFYRL EQ<oe>\aJBEX   GEHPX BA  VGF  FVQR<c>\a[08/11/2014 16:40:41 : cbf5 : FUNMRYONXRE]<oe>\aRNFG   FVQR   BS   27  BA  RAQFYRL  EQ<oe>\a<oe>\a[08/11/2014 16:40:48 : cbf5 : FUNMRYONXRE]<oe>\aYRNXVAT    SHRY<oe>\a<oe>\a[08/11/2014 16:42:47 : cbf5 : FUNMRYONXRE]<oe>\aBHG BS  GEHPX NCCRNEF   BX  OHG  QEBCCRQ PNYY<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>TRARENY</gq><gq>Vavgvny Nffvtazrag</gq><gq>08/11/2014 16:41:07</gq><gq>FUNMRYONXRE</gq></ge>\a<ge><gq>10-50 VAIREG</gq><gq>08/11/2014 16:41:07</gq><gq>Svany Nffvtazrag</gq><gq>FUNMRYONXRE</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE2</gq><gq>08/11/2014 16:41:21</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-14</gq><gq>08/11/2014 16:41:37</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-25</gq><gq>08/11/2014 16:41:41</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 16:43:12</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 16:43:33</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAX ng 202 F FNYRZ FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00056908>14-00056908</n> nf bs 8/10/2014 18:45:05</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/10/2014 18:41:39</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>OHEPU, YRBANEQ - 765-962-7731</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>202 F FNYRZ FG/OBFGBA<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=202 F FNYRZ FG, OBFGBA, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/10/2014 18:43:45 : cbf1 : QCVGPURE]<oe>\aPebff fgerrgf: J ZNVA FG//<oe>\a<oe>\aCBFF 10-0<c>\a[08/10/2014 18:43:52 : cbf1 : QCVGPURE]<oe>\aFUR FNVQ UHFONAQ VF FYRRCVAT<oe>\a<oe>\a[08/10/2014 18:44:32 : cbf1 : QCVGPURE]<oe>\aFHOW VF LRYYVAT VF VA GUR ONPXTEBHAQ<oe>\a<oe>\a[08/10/2014 18:44:40 : cbf1 : QCVGPURE]<oe>\aZBER BS NA HAX ZRQ<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>HAXABJA CEBO</gq><gq>Vavgvny Nffvtazrag</gq><gq>08/10/2014 18:45:30</gq><gq>QCVGPURE</gq></ge>\a<ge><gq>10-52 HAX</gq><gq>08/10/2014 18:45:30</gq><gq>Svany Nffvtazrag</gq><gq>QCVGPURE</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>OGSQ</gq><gq>08/10/2014 18:44:29</gq><gq>QVF</gq><gq>202 F FNYRZ FG, OBFGBA</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: BIREQBFR ng 103 J CRNEY FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00055904>14-00055904</n> nf bs 8/6/2014 17:42:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/06/2014 17:38:58</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>BIREQBFR</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>SBPUG, - 765-935-0863</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>103 J CRNEY FG/OBFGBA<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=103 J CRNEY FG, OBFGBA, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/06/2014 17:39:28 : cbf3 : ZZNATNF]<oe>\aPebff fgerrgf: ONEEBA FG//FE 227<oe>\a<oe>\aFNLF UR GBBX 90 KNANK<c>\a[08/06/2014 17:39:39 : cbf3 : ZZNATNF]<oe>\aUR VF PBAFPVBHF OHG FYHEERQ FCRRPU<oe>\a<oe>\a[08/06/2014 17:40:11 : cbf3 : ZZNATNF]<oe>\aPebff fgerrgf: ONEEBA FG//FE 227<oe>\a<oe>\a[08/06/2014 17:41:15 : cbf3 : ZZNATNF]<oe>\aTNL SBPUG 50 L/B ZNYR<oe>\a<oe>\a[08/06/2014 17:41:21 : cbf1 : RONVYRL]<oe>\aGNP 3<oe>\a<oe>\a[08/06/2014 17:41:26 : cbf3 : ZZNATNF]<oe>\aGBBX FBZRGUVAT RYFR OHG JBA`G FNL JUNG<oe>\a<oe>\a[08/06/2014 17:41:39 : cbf3 : ZZNATNF]<oe>\aONERYL PBAFPVBHF<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>89-9</gq><gq>08/06/2014 17:40:37</gq><gq>QVF</gq><gq>103 J CRNEY FG, OBFGBA</gq></ge>\a<ge><gq>89-9</gq><gq>08/06/2014 17:40:58</gq><gq>RAE</gq><gq>103 J CRNEY FG, OBFGBA</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/06/2014 17:41:01</gq><gq>QVF</gq><gq>103 J CRNEY FG, OBFGBA</gq></ge>\a<ge><gq>EZGE1</gq><gq>08/06/2014 17:41:28</gq><gq>QVF</gq><gq>103 J CRNEY FG, OBFGBA</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 VAIREG ng SBHGF EQ // OBFGBA EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00053230>14-00053230</n> nf bs 7/28/2014 5:45:08</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/28/2014 05:42:29</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 VAIREG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Irevmba Jveryrff - 765-969-8892</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>SBHGF EQ // OBFGBA EQ/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=SBHGF EQ // OBFGBA EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/28/2014 05:42:46 : cbf1 : WZOHPXYRE]<oe>\a6200 SBHGF EQ<oe>\a<oe>\a<oe>\aVAIREGRQ<c>\a[07/28/2014 05:43:24 : cbf1 : WZOHPXYRE]<oe>\aWHFG ABEGU BS SBHGF EQ<oe>\a<oe>\a[07/28/2014 05:44:43 : cbf1 : WZOHPXYRE]<oe>\aFHOW FGNAQVAT BHGFVQR BS GUR IRU FGNGVAT UR VF BX NAQ UVF SNGURE VF BA UVF JNL<oe>\a<oe>\a[07/28/2014 05:45:03 : cbf5 : NJUNYYBA]<oe>\aOGSQ NFFVTARQ GNP 2<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>TRARENY</gq><gq>Vavgvny Nffvtazrag</gq><gq>07/28/2014 05:43:04</gq><gq>WZOHPXYRE</gq></ge>\a<ge><gq>10-50 HAX</gq><gq>07/28/2014 05:43:04</gq><gq>07/28/2014 05:43:55</gq><gq>WZOHPXYRE</gq></ge>\a<ge><gq>10-50 VAIREG</gq><gq>07/28/2014 05:43:55</gq><gq>Svany Nffvtazrag</gq><gq>WZOHPXYRE</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>89-29</gq><gq>07/28/2014 05:43:38</gq><gq>QVF</gq><gq>SBHGF EQ // OBFGBA EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-30</gq><gq>07/28/2014 05:43:40</gq><gq>QVF</gq><gq>SBHGF EQ // OBFGBA EQ, EVPUZBAQ</gq></ge>\a<ge><gq>EZGE1</gq><gq>07/28/2014 05:43:54</gq><gq>QVF</gq><gq>SBHGF EQ // OBFGBA EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-6</gq><gq>07/28/2014 05:44:25</gq><gq>QVF</gq><gq>SBHGF EQ // OBFGBA EQ, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>07/28/2014 05:44:43</gq><gq>QVF</gq><gq>SBHGF EQ // OBFGBA EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 FRVMH ng 7102 FGENVTUG YVAR CX) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00050673>14-00050673</n> nf bs 7/18/2014 20:35:05</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/18/2014 20:33:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 FRVMH</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>GHQBE, NOEVNAN - 765-960-8242</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>7102 FGENVTUG YVAR CX/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=7102 FGENVTUG YVAR CX, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/18/2014 20:33:31 : cbf1 : EQHANJNL89]<oe>\aPebff fgerrgf: HAVBA PBHAGL YVAR EQ//BYQ 122<oe>\aQHR GB<c>\a[07/18/2014 20:33:46 : cbf1 : EQHANJNL89]<oe>\aNTR 2<oe>\aFGBCCRQ OERNGVAT SBE 2 ZVA<oe>\a<oe>\a[07/18/2014 20:34:35 : cbf5 : NCVREPR]<oe>\aGNP 3<oe>\a<oe>\a[07/18/2014 20:34:36 : cbf1 : EQHANJNL89]<oe>\aIVP NQEVNAN QLR NTR 2<oe>\a<oe>\a[07/18/2014 20:34:55 : cbf1 : EQHANJNL89]<oe>\aQO <oe>\aBHG BS GUR FRVMHER<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>07/18/2014 20:33:47</gq><gq>QVF</gq><gq>7102 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>07/18/2014 20:34:13</gq><gq>QVF</gq><gq>7102 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Sbhagnva Pvgl SQ
-Ybpngvba: Sbhagnva Pvgl, VA, Havgrq Fgngrf
-Fraqre: 911@jnlarpb.hf
-
-(911 Qvfcngpu: 10-52 URNEG ng 100 A HF 27) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00068430>14-00068430</n> nf bs 9/20/2014 16:58:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/20/2014 16:54:53</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 URNEG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>TYBIRE,FNAQEN - 765-914-8809</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>100 A HF 27 #6/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=100 A HF 27, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/20/2014 16:55:14 : cbf1 : AEHUY]<oe>\aYnaqznex Pbzzrag: 7 NCGF VA OYQT, 5 HCFGNVEF<oe>\aYnaqznex: PRAGHEL 21 ERNYGL SBHAGNVA PVGL<oe>\aPebff fgerrgf: ZNVA FG//ZVYY FG<oe>\aPebff fgerrgf: OBHAQEL EQ//ZVQQYR EQ<c>\a[09/20/2014 16:55:58 : cbf1 : AEHUY]<oe>\aPC`F TS UNF UVTU OC....URNEG ENGR HC...AB PC ...NZL SVYYVATRE 43<oe>\a<oe>\a[09/20/2014 16:56:15 : cbf1 : AEHUY]<oe>\aAB CERI<oe>\a<oe>\a[09/20/2014 16:57:07 : cbf1 : AEHUY]<oe>\aUNQ PC NYY JRRX OHG ABG GBQNL    FREVTHVYY 800/GBCBZNK 50  YRKNCEB<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/20/2014 16:55:59</gq><gq>QVF</gq><gq>100 A HF 27, SBHAGNVA PVGL</gq></ge>\a<ge><gq>SPSQ</gq><gq>09/20/2014 16:57:13</gq><gq>QVF</gq><gq>100 A HF 27, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAPBA ng ZNVA FG // IVAR FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00068393>14-00068393</n> nf bs 9/20/2014 14:23:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/20/2014 14:21:29</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>ZNVA FG // IVAR FG/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=ZNVA FG // IVAR FG, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/20/2014 14:21:29 : cbf4 : VPEBHPU]<c>\a[09/20/2014 14:21:39 : cbf4 : VPEBHPU]<oe>\aZNVA FG // IVAR FG<oe>\a<oe>\a[09/20/2014 14:22:31 : cbf4 : VPEBHPU]<oe>\a66 LB SRZNYR UVTU OYBBQ CERFFHER YBFG PBAF<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>S1</gq><gq>09/20/2014 14:21:31</gq><gq>RAE</gq><gq>ZNVA FG // IVAR FG, SBHAGNVA PVGL</gq></ge>\a<ge><gq>S1</gq><gq>09/20/2014 14:22:05</gq><gq>BAF</gq><gq>ZNVA FG // IVAR FG, SBHAGNVA PVGL</gq></ge>\a<ge><gq>SPSQ</gq><gq>09/20/2014 14:22:24</gq><gq>QVF</gq><gq>ZNVA FG // IVAR FG, SBHAGNVA PVGL</gq></ge>\a<ge><gq>SPE38</gq><gq>09/20/2014 14:22:31</gq><gq>RAE</gq><gq>ZNVA FG // IVAR FG, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 SNYY ng 108 R ABEGU FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067412>14-00067412</n> nf bs 9/17/2014 1:36:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/17/2014 01:33:10</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 SNYY</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ERPXREF, EBOREG W - 765-847-5477</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>108 R ABEGU FG/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=108 R ABEGU FG, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/17/2014 01:33:29 : cbf1 : WZOHPXYRE]<oe>\aPebff fgerrgf: A HF 27//FPBGG EQ<oe>\a<oe>\aSRYY VA GUR ORQEBBZ PNAG TRG HC<c>\a[09/17/2014 01:33:46 : cbf1 : WZOHPXYRE]<oe>\aSEBAG QBBE VF HAYBPXRQ<oe>\a<oe>\a[09/17/2014 01:34:05 : cbf1 : WZOHPXYRE]<oe>\aRNFG FVQR QBBE VF HAYBPXRQ OHG UNEQ GB BCRA<oe>\a<oe>\a[09/17/2014 01:34:24 : cbf1 : WZOHPXYRE]<oe>\aFRRZF GB ORVAT UNIVAT QVSS OERNGUVAT<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/17/2014 01:33:34</gq><gq>QVF</gq><gq>108 R ABEGU FG, SBHAGNVA PVGL</gq></ge>\a<ge><gq>SPSQ</gq><gq>09/17/2014 01:35:12</gq><gq>QVF</gq><gq>108 R ABEGU FG, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065277>14-00065277</n> nf bs 9/9/2014 20:38:27</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/09/2014 20:35:58</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/09/2014 20:36:33 : cbf6 : EQHANJNL89]<oe>\aYnaqznex Pbzzrag: ABGVSL PBHEG UBHFR FRPHEVGL BS NAL PNYYF QVFCNGPURQ QH<oe>\aYnaqznex: JNLAR PB NAARK<oe>\aPebff fgerrgf: 5GU FG//3EQ FG<oe>\a<oe>\a<oe>\aGRFG BAYL  <oe>\aGRFGVAT VFFHRF JVGU GUR CNTRE FLFGRZ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>09/09/2014 20:37:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAPBA ng 5278 CNEX RYJBBQ EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065104>14-00065104</n> nf bs 9/9/2014 9:49:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/09/2014 09:43:39</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>UNYRGBA,ZVPUNRY - 765-277-1727</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>5278 CNEX RYJBBQ EQ/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=5278 CNEX RYJBBQ EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/09/2014 09:44:33 : cbf5 : FGONYQJVA]<oe>\aPebff fgerrgf: VAXR EQ//SVYOL EQ<oe>\aPebff fgerrgf: V-70//FZLEAN EQ<oe>\aSNGURE VA YNJ UNF SNYYRA NAQ UR VF 10-56<oe>\aUR VF BHG BS VG<oe>\aNAQ OYRRQVAT SEBZ GUR RNE<c>\a[09/09/2014 09:44:55 : cbf5 : FGONYQJVA]<oe>\aGBC CNEG BS GURL RNE<oe>\aABG SEBZ GUR VAARE RNE<oe>\aUR VF OERNGUVAT<oe>\a<oe>\a[09/09/2014 09:45:19 : cbf5 : FGONYQJVA]<oe>\aORRA QEHAX SBE 2 QNLF<oe>\a74 LE BYF<oe>\aJNGRE VAGBK NYFB CRE GUR PC<oe>\a<oe>\a[09/09/2014 09:46:35 : cbf5 : FGONYQJVA]<oe>\aUR VF ABG NTTVGNGRQ NAQ GURL QBAG JNAG CBYVPR<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/09/2014 09:45:24</gq><gq>QVF</gq><gq>5278 CNEX RYJBBQ EQ, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>09/09/2014 09:48:09</gq><gq>QVF</gq><gq>5278 CNEX RYJBBQ EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-0 ng 7662 NEON CX) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00064472>14-00064472</n> nf bs 9/6/2014 15:28:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/06/2014 15:24:38</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-0</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>PULRAAR FGRVARE - 765-520-1872</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>7662 NEON CX #24/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=7662 NEON CX, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/06/2014 15:25:10 : cbf1 : AEHUY]<oe>\aYnaqznex: pbhagel ergerng zbovyr ubzr cnex <oe>\aPebff fgerrgf: JUVGRJNGRE EQ//JNYYNPR EQ<oe>\aYnaqznex: pbhagel ergerng zbovyr ubzr cnex<oe>\aPebff fgerrgf: RYYVBGG EQ//PNEG EQ<c>\a[09/06/2014 15:26:02 : cbf1 : AEHUY]<oe>\aQNQ VF ABG OERNGUVAT NAQ VF PBYQ.....QNAVRY FGRVARE CERI URNEG FHETREL 6-7 LEF NTB<oe>\a<oe>\a[09/06/2014 15:26:53 : cbf1 : AEHUY]<oe>\aYNFG FRRA QNQ NA UE NTB<oe>\a<oe>\a[09/06/2014 15:27:13 : cbf1 : AEHUY]<oe>\aQNQ VF @ UVF PBZCHGRE QRFX...PC QBRFAG JNAG GB QB PCE<oe>\a<oe>\a[09/06/2014 15:27:46 : cbf1 : AEHUY]<oe>\aPC VF 15<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/06/2014 15:25:51</gq><gq>QVF</gq><gq>7662 NEON CX, SBHAGNVA PVGL</gq></ge>\a<ge><gq>89-32</gq><gq>09/06/2014 15:26:37</gq><gq>RAE</gq><gq>7662 NEON CX, SBHAGNVA PVGL</gq></ge>\a<ge><gq>89-33</gq><gq>09/06/2014 15:26:59</gq><gq>RAE</gq><gq>7662 NEON CX, SBHAGNVA PVGL</gq></ge>\a<ge><gq>SPSQ</gq><gq>09/06/2014 15:27:08</gq><gq>QVF</gq><gq>7662 NEON CX, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 FGEBXR ng 1604 J SBHAGNVA PVGL CVXR) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00063936>14-00063936</n> nf bs 9/4/2014 13:29:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/04/2014 13:26:29</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 FGEBXR</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>AVPUBYFBA, TNEL - 765-847-2729</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1604 J SBHAGNVA PVGL CVXR/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1604 J SBHAGNVA PVGL CVXR, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/04/2014 13:26:52 : cbf5 : RONVYRL]<oe>\aPebff fgerrgf: HF 27//ZNT FGHQL EQ<oe>\a<oe>\aZBGURE CBFF UNQ N FGEBXR<c>\a[09/04/2014 13:27:07 : cbf5 : RONVYRL]<oe>\aAB UK BS FGEBXR <oe>\aPBAF NG GUVF<oe>\a<oe>\a[09/04/2014 13:27:11 : cbf5 : RONVYRL]<oe>\a83 L/B SRZNYR<oe>\a<oe>\a[09/04/2014 13:27:40 : cbf5 : RONVYRL]<oe>\aABG NOYR GB ZBIR BA GUR EVTUG FVQR<oe>\a<oe>\a[09/04/2014 13:28:54 : cbf5 : RONVYRL]<oe>\aGNP 3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/04/2014 13:28:19</gq><gq>QVF</gq><gq>1604 J SBHAGNVA PVGL CVXR, SBHAGNVA PVGL</gq></ge>\a<ge><gq>SPSQ</gq><gq>09/04/2014 13:28:50</gq><gq>QVF</gq><gq>1604 J SBHAGNVA PVGL CVXR, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: ZRQVPNY NYEZ ng 306 QNIVF FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00063526>14-00063526</n> nf bs 9/3/2014 1:22:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/03/2014 01:19:26</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>ZRQVPNY NYEZ</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FUBJNYGRE, PNEY - 765-847-2136</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>306 QNIVF FG/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=306 QNIVF FG, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/03/2014 01:21:05 : cbf4 : NJUNYYBA]<oe>\aPebff fgerrgf: TERRA FG//IVAR FG<oe>\a<oe>\aQO CRE NYNEZ PBZC<oe>\a<oe>\aNYREG 1 PNYY ONPX 1 877 206 9141<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>SPSQ</gq><gq>09/03/2014 01:21:15</gq><gq>QVF</gq><gq>306 QNIVF FG, SBHAGNVA PVGL</gq></ge>\a<ge><gq>EZGE1</gq><gq>09/03/2014 01:21:32</gq><gq>QVF</gq><gq>306 QNIVF FG, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 FGEHPG ng 302 F SEBAG FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00062870>14-00062870</n> nf bs 8/31/2014 14:03:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/31/2014 14:00:19</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-847-2916</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>302 F SEBAG FG/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=302 F SEBAG FG, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/31/2014 14:01:07 : cbf4 : ZZNATNF]<oe>\aYnaqznex Pbzzrag: NCG PBZCYRK EBBZF 1-12 FRAVBE NCG OHVYQVAT 6/2010<oe>\aYnaqznex: SBHAGNVA PVGL YVBAF NCGF<oe>\aPebff fgerrgf: ZNVA FG//UNEGYRL NI<oe>\a<oe>\aSRZNYR VA NCG 2 VF GBB JRNX GB TRG BHG<oe>\a<oe>\aFZBXR VA GUR UNYYJNL FZBXR QRG TBVAT BSS<c>\a[08/31/2014 14:01:34 : cbf4 : ZZNATNF]<oe>\aPNER PRAGRE<oe>\a1-800-508-6370<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>SPSQ</gq><gq>08/31/2014 14:02:24</gq><gq>QVF</gq><gq>302 F SEBAG FG, SBHAGNVA PVGL</gq></ge>\a<ge><gq>JZSQ</gq><gq>08/31/2014 14:02:29</gq><gq>QVF</gq><gq>302 F SEBAG FG, SBHAGNVA PVGL</gq></ge>\a<ge><gq>JOSQ</gq><gq>08/31/2014 14:02:31</gq><gq>QVF</gq><gq>302 F SEBAG FG, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QVNORG ng 108 R ABEGU FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00062754>14-00062754</n> nf bs 8/31/2014 0:17:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/31/2014 00:15:12</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QVNORG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ERPXREF, EBOREG W - 765-847-5477</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>108 R ABEGU FG/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=108 R ABEGU FG, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/31/2014 00:15:54 : cbf4 : QCVGPURE]<oe>\aPebff fgerrgf: A HF 27//FPBGG EQ<oe>\a<oe>\a74 L/B Z<oe>\aFHTNE: 39<c>\a[08/31/2014 00:16:01 : cbf4 : QCVGPURE]<oe>\aQBBE HAYBPXRQ<oe>\a<oe>\a[08/31/2014 00:16:22 : cbf4 : QCVGPURE]<oe>\aUR QBRFA`G UNIR NALGUVAT GB TRG VG ONPX HC<oe>\a<oe>\a[08/31/2014 00:16:52 : cbf4 : QCVGPURE]<oe>\aPC ERD GB UNAT HC<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/31/2014 00:16:05</gq><gq>QVF</gq><gq>108 R ABEGU FG, SBHAGNVA PVGL</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/31/2014 00:16:46</gq><gq>QVF</gq><gq>108 R ABEGU FG, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 FRVMH ng 108 1/2 J ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060856>14-00060856</n> nf bs 8/24/2014 23:53:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/24/2014 23:50:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 FRVMH</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>UHTURF,TNEL - 765-520-0339</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>108 1/2 J ZNVA FG/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=108 1/2 J ZNVA FG, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/24/2014 23:50:35 : cbf1 : WZOHPXYRE]<oe>\aPebff fgerrgf: HF 27//JNYAHG FG<c>\a[08/24/2014 23:50:48 : cbf1 : WZOHPXYRE]<oe>\a30 LB FBA VF UNIVAT N FRVMHER<oe>\a<oe>\a[08/24/2014 23:50:54 : cbf1 : WZOHPXYRE]<oe>\aUK BS FRVMHERF<oe>\a<oe>\a[08/24/2014 23:51:09 : cbf1 : WZOHPXYRE]<oe>\aQRGBKVAT BSS SEBZ NYPBUBY<oe>\a<oe>\a[08/24/2014 23:51:41 : cbf1 : WZOHPXYRE]<oe>\aYLVAT BA GUR SYBBE FUNXVAT<oe>\a<oe>\a[08/24/2014 23:52:14 : cbf4 : NJUNYYBA]<oe>\aGNP 3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/24/2014 23:50:58</gq><gq>QVF</gq><gq>108 1/2 J ZNVA FG, SBHAGNVA PVGL</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/24/2014 23:52:03</gq><gq>QVF</gq><gq>108 1/2 J ZNVA FG, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 SNYY ng 111 J ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00059837>14-00059837</n> nf bs 8/21/2014 7:25:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/21/2014 07:21:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 SNYY</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>OEBBXF,NZNAQN - 937-564-2280</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>111 J ZNVA FG/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=111 J ZNVA FG, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/21/2014 07:21:46 : cbf5 : FUNMRYONXRE]<oe>\aPebff fgerrgf: HF 27//JNYAHG FG<oe>\aSRYY QBJA 20  FGNVEF<c>\a[08/21/2014 07:22:12 : cbf5 : FUNMRYONXRE]<oe>\aURNQ  ARPX NAQ  ONPX   CNVA<oe>\a<oe>\a[08/21/2014 07:22:26 : cbf5 : FUNMRYONXRE]<oe>\aZNYR VA  30`F<oe>\a<oe>\a[08/21/2014 07:24:04 : cbf5 : FUNMRYONXRE]<oe>\aFHOW   TBG  HC  NAQ  JNYXRQ  ONPX  GUR   FGNVEF<oe>\a<oe>\a[08/21/2014 07:24:16 : cbf4 : RONVYRL]<oe>\aGNP 3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/21/2014 07:22:10</gq><gq>QVF</gq><gq>111 J ZNVA FG, SBHAGNVA PVGL</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/21/2014 07:24:09</gq><gq>QVF</gq><gq>111 J ZNVA FG, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 CV ng ZVQQYR EQ // OBPXUBSRE EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00059814>14-00059814</n> nf bs 8/21/2014 4:17:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/21/2014 04:15:48</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 CV</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Irevmba Jveryrff - 765-960-8226</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>ZVQQYR EQ // OBPXUBSRE EQ/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=ZVQQYR EQ // OBPXUBSRE EQ, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/21/2014 04:16:03 : cbf2 : NFPUARVQRE]<oe>\a9100 ZVQQYR EQ<c>\a[08/21/2014 04:16:47 : cbf2 : NFPUARVQRE]<oe>\a2 IRU <oe>\aGUR FRPBAQ PNE VF VA GUR SVRYQ<oe>\a<oe>\a[08/21/2014 04:16:59 : cbf4 : QCVGPURE]<oe>\agnp 2<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>SPSQ</gq><gq>08/21/2014 04:16:43</gq><gq>QVF</gq><gq>ZVQQYR EQ // OBPXUBSRE EQ, SBHAGNVA PVGL</gq></ge>\a<ge><gq>EZGE1</gq><gq>08/21/2014 04:16:47</gq><gq>QVF</gq><gq>ZVQQYR EQ // OBPXUBSRE EQ, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 FGEHPG ng 8944 NEON CX) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00059279>14-00059279</n> nf bs 8/19/2014 10:50:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/19/2014 10:47:45</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>YBEV - 937-336-9251</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>8944 NEON CX/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=8944 NEON CX, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/19/2014 10:48:07 : cbf1 : VPEBHPU]<oe>\aPebff fgerrgf: ZNEVAR EQ//R SBHAGNVA PVGL CX<oe>\a<oe>\aTNENTR SVER<c>\a[08/19/2014 10:48:26 : cbf1 : VPEBHPU]<oe>\aFBZRUGVAT VA VG WHFG RKCYBQRQ<oe>\a<oe>\a[08/19/2014 10:48:39 : cbf1 : VPEBHPU]<oe>\aABG NGGNPURQ GB GUR ERFQ   OHG PYBFR GB N ONEA<oe>\a<oe>\a[08/19/2014 10:48:56 : cbf1 : VPEBHPU]<oe>\aYNJA RDHVCZRAG  NAQ SHRY VA GUR TNENTR<oe>\a<oe>\a[08/19/2014 10:49:40 : cbf5 : CZVYYRE]<oe>\aGNP3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>SPSQ</gq><gq>08/19/2014 10:49:50</gq><gq>QVF</gq><gq>8944 NEON CX, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: FHVPVQR NGGC ng 402 F HF 27) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00058768>14-00058768</n> nf bs 8/17/2014 10:34:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/17/2014 10:31:43</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>FHVPVQR NGGC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NG&G ZBOVYVGL - 765-725-0176</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>402 F HF 27/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=402 F HF 27, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/17/2014 10:32:54 : cbf5 : ZZNATNF]<oe>\aPebff fgerrgf: UNEGYRL NI //FBHGU FG<oe>\aYnaqznex: ZNENGUBA-SBHAGNVA PVGL <oe>\aYnaqznex Pbzzrag: 1/99<c>\a[08/17/2014 10:33:28 : cbf5 : ZZNATNF]<oe>\aGBBX GUR JUBYR OBGGYR BS KNANK NCCEBK 15-20<oe>\aNAQ PHG URE JEVFG<oe>\a<oe>\a[08/17/2014 10:33:37 : cbf5 : ZZNATNF]<oe>\aTEL PUEL GBJA NAQ PBHAGEL<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/17/2014 10:33:21</gq><gq>QVF</gq><gq>402 F HF 27, SBHAGNVA PVGL</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/17/2014 10:33:27</gq><gq>QVF</gq><gq>402 F HF 27, SBHAGNVA PVGL</gq></ge>\a<ge><gq>89-31</gq><gq>08/17/2014 10:33:50</gq><gq>QVF</gq><gq>402 F HF 27, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 5985 J SBHAGNVA PVGL CX) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00057346>14-00057346</n> nf bs 8/12/2014 12:13:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/12/2014 12:06:35</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>5985 J SBHAGNVA PVGL CX/JVYYVNZFOHET<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=5985 J SBHAGNVA PVGL CX, JVYYVNZFOHET, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/12/2014 12:06:52 : cbf5 : FGONYQJVA]<oe>\aPebff fgerrgf: PRAGRE EQ//PRAGREIVYYR EQ<c>\a[08/12/2014 12:09:37 : cbf5 : FGONYQJVA]<oe>\a35-1 10-23<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/12/2014 12:07:38</gq><gq>QVF</gq><gq>5985 J SBHAGNVA PVGL CX, JVYYVNZFOHET</gq></ge>\a<ge><gq>JZSQ</gq><gq>08/12/2014 12:08:11</gq><gq>QVF</gq><gq>5985 J SBHAGNVA PVGL CX, JVYYVNZFOHET</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/12/2014 12:12:38</gq><gq>QVF</gq><gq>5985 J SBHAGNVA PVGL CX, JVYYVNZFOHET</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu:  ng RAQFYRL EQ // HF 27) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00057154>14-00057154</n> nf bs 8/11/2014 19:09:07</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/11/2014 16:39:55</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 VAIREG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FPBGG,PUEVF - 765-265-9591</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>RAQFYRL EQ // HF 27/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=RAQFYRL EQ // HF 27, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>GJP14-0475</gq></ge>\a</gnoyr>\a<c>\a[08/11/2014 16:40:20 : cbf5 : FUNMRYONXRE]<oe>\a1430 RAQFYRL EQ<oe>\aJBEX   GEHPX BA  VGF  FVQR<c>\a[08/11/2014 16:40:41 : cbf5 : FUNMRYONXRE]<oe>\aRNFG   FVQR   BS   27  BA  RAQFYRL  EQ<oe>\a<oe>\a[08/11/2014 16:40:48 : cbf5 : FUNMRYONXRE]<oe>\aYRNXVAT    SHRY<oe>\a<oe>\a[08/11/2014 16:42:47 : cbf5 : FUNMRYONXRE]<oe>\aBHG BS  GEHPX NCCRNEF   BX  OHG  QEBCCRQ PNYY<oe>\a<oe>\a[08/11/2014 16:44:16 : cbf3 : WTEVSSVA]<oe>\aWBR PEBJR, 960-0699    QEVIVAT N JUV OBK GX JVGU PEBJR FUERQQVAT BA FVQR, UR NQI AB VAW & VF BHG BS GX    CRE 715<oe>\a<oe>\a[08/11/2014 16:48:39 : cbf5 : FUNMRYONXRE]<oe>\a85-2   10-23<oe>\a<oe>\a[08/11/2014 16:49:56 : cbf5 : FUNMRYONXRE]<oe>\a85-2  PBASVEZRQ  CQ  BAYL<oe>\a<oe>\a[08/11/2014 16:50:44 : cbf3 : WTEVSSVA]<oe>\a89600 RE, ERS SHRY YRNX<oe>\a<oe>\a[08/11/2014 16:51:41 : cbf5 : FUNMRYONXRE]<oe>\a85-2  NQI  HAVGF PNA FYBJ EHA<oe>\a<oe>\a[08/11/2014 16:53:10 : cbf5 : FUNMRYONXRE]<oe>\aULQEBYVP  YRNX  FZNYY  NAQ SVER  PNA  PBAGNVA  VG<oe>\a<oe>\a[08/11/2014 16:55:59 : cbf4 : FGONYQJVA]<oe>\aCNEQBF 76<oe>\a<oe>\a[08/11/2014 16:56:44 : cbf4 : FGONYQJVA]<oe>\aOEVATVAT N YET 10-51<oe>\a<oe>\a[08/11/2014 16:57:15 : cbf4 : FGONYQJVA]<oe>\aOHFGRQ ONPX NKRY<oe>\a<oe>\a[08/11/2014 17:15:55 : cbf4 : FGONYQJVA]<oe>\aGJP14-0475<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>TRARENY</gq><gq>Vavgvny Nffvtazrag</gq><gq>08/11/2014 16:41:07</gq><gq>FUNMRYONXRE</gq></ge>\a<ge><gq>10-50 VAIREG</gq><gq>08/11/2014 16:41:07</gq><gq>Svany Nffvtazrag</gq><gq>FUNMRYONXRE</gq></ge>\a</gnoyr><c>\a<o>Crbcyr Vaibyirq</o>\a<gnoyr obeqre=1>\a<ge><gu>Vaibyirzrag</gu><gu>Anzr</gu><gu>E/F/U/J</gu><gu>Ntr</gu><gu>QBO</gu><gu>BYA</gu></ge>\a<ge><gq></gq><gq>Pebjr, Wbfrcu</gq><gq>/Z/070/180</gq><gq>32-</gq><gq>1981-12-20</gq><gq> - </gq></ge>\a</gnoyr><c>\a<o>Iruvpyrf Vaibyirq</o>\a<gnoyr obeqre=1>\a<ge><gu>Cyngr</gu><gu>Lrne</gu><gu>Zbqry</gu><gu>IVA</gu><gu>Pbybe</gu><gu>Bjare</gu></ge>\a<ge><gq>GX422YOM</gq><gq>2010</gq><gq></gq><gq>1UGZLFXZ3NU282081</gq><gq>JUV</gq><gq> PEBJR FUERQQVAT</ge>\a</gnoyr>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE2</gq><gq>08/11/2014 16:41:21</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-14</gq><gq>08/11/2014 16:41:37</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-25</gq><gq>08/11/2014 16:41:41</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 16:43:12</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 16:43:33</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OBR81</gq><gq>08/11/2014 16:45:26</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>EZGE2</gq><gq>08/11/2014 16:49:35</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>89600</gq><gq>08/11/2014 16:49:55</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-25</gq><gq>08/11/2014 16:51:32</gq><gq>BAF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-14</gq><gq>08/11/2014 16:54:48</gq><gq>BAF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OBE84</gq><gq>08/11/2014 16:56:45</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-25</gq><gq>08/11/2014 17:56:07</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>89-23</gq><gq>08/11/2014 18:05:19</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-23</gq><gq>08/11/2014 18:17:11</gq><gq>BAF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-14</gq><gq>08/11/2014 18:20:59</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 19:04:36</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>NOSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 19:07:31</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/11/2014 19:07:31</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>QOSQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>RPSQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>TSSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>UTSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>JOSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>JZSQ</gq><gq>08/11/2014 19:07:34</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>NOSQ</gq><gq>08/11/2014 19:07:35</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 ng 6856 A HF UJL 27) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00055937>14-00055937</n> nf bs 8/6/2014 20:04:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/06/2014 20:00:50</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NGXVAF, ONEONEN - 765-847-2070</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>6856 A HF UJL 27/JVYYVNZFOHET<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=6856 A HF UJL 27, JVYYVNZFOHET, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/06/2014 20:03:04 : cbf4 : NFPUARVQRE]<oe>\aPebff fgerrgf: JNYYNPR EQ//CYRNFNAG CYNVA EQ<oe>\a81 L/B ONEONEN NGXVAF <oe>\aIBZVGVAT NAQ QVNEEURN <oe>\aIREL JRNX <oe>\aB2 2 YCZ<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>SPSQ</gq><gq>08/06/2014 20:03:43</gq><gq>QVF</gq><gq>6856 A HF UJL 27, JVYYVNZFOHET</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/06/2014 20:03:59</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 NYNEZ ng 505 GVZBGUL QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00055352>14-00055352</n> nf bs 8/4/2014 18:12:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/04/2014 18:09:58</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 NYNEZ</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>UBHFRFGRGGRE - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>505 GVZBGUL QE/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=505 GVZBGUL QE, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/04/2014 18:10:33 : cbf5 : EOCNEXRE]<oe>\aPebff fgerrgf: HF 27 A//UNZCGBA QE<c>\a[08/04/2014 18:10:43 : cbf5 : EOCNEXRE]<oe>\aERFVQRAGVNY SVER NYNEZ<oe>\aSEBAG UNYYJNL FZBXR QRGRPGBE<oe>\a<oe>\a[08/04/2014 18:10:48 : cbf5 : EOCNEXRE]<oe>\aAB NAFJRE NG GUR ERF<oe>\a<oe>\a[08/04/2014 18:11:14 : cbf5 : EOCNEXRE]<oe>\aIVIVNAG NYNEZF<oe>\aGK 877 320 3858<oe>\a<oe>\a[08/04/2014 18:11:22 : cbf5 : EOCNEXRE]<oe>\aGNXRA OL JP16<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>SPSQ</gq><gq>08/04/2014 18:11:51</gq><gq>QVF</gq><gq>505 GVZBGUL QE, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 ng 3677 J SBHAGNVA PVGL CX) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00055050>14-00055050</n> nf bs 8/3/2014 16:14:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/03/2014 16:11:50</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>QRIREF,FGRIR - 765-994-1651</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>3677 J SBHAGNVA PVGL CX/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=3677 J SBHAGNVA PVGL CX, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/03/2014 16:12:17 : cbf4 : FGONYQJVA]<oe>\aPebff fgerrgf: OENTT EQ//EBHAQ ONEA EQ<oe>\aQELRE IRAG BA SVER<c>\a[08/03/2014 16:12:38 : cbf4 : FGONYQJVA]<oe>\aRIRELBAR BHG BS GUR UBHFR<oe>\a<oe>\a[08/03/2014 16:12:44 : cbf4 : FGONYQJVA]<oe>\aSYNZRF FUBJVAT NG GUR OBGGBZ<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>SPSQ</gq><gq>08/03/2014 16:13:08</gq><gq>QVF</gq><gq>3677 J SBHAGNVA PVGL CX, SBHAGNVA PVGL</gq></ge>\a<ge><gq>JOSQ</gq><gq>08/03/2014 16:13:11</gq><gq>QVF</gq><gq>3677 J SBHAGNVA PVGL CX, SBHAGNVA PVGL</gq></ge>\a<ge><gq>JZSQ</gq><gq>08/03/2014 16:13:14</gq><gq>QVF</gq><gq>3677 J SBHAGNVA PVGL CX, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 CV ng FJ 3EQ FG // J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00054545>14-00054545</n> nf bs 8/1/2014 13:01:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/01/2014 12:59:01</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 CV</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>OELNAG,WHFGVA - 765-993-5232</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>FJ 3EQ FG // J ANGVBANY EQ/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=FJ 3EQ FG // J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>144085</gq></ge>\a</gnoyr>\a<c>\a[08/01/2014 12:59:21 : cbf5 : FUNMRYONXRE]<oe>\a200 FJ 3EQ FG<c>\a[08/01/2014 12:59:38 : cbf5 : FUNMRYONXRE]<oe>\aPC   RYQREYL  SRZ <oe>\aABG GENCCRQ<oe>\a<oe>\a[08/01/2014 12:59:48 : cbf5 : FUNMRYONXRE]<oe>\aBA  FJ 3EQ FG<oe>\a<oe>\a[08/01/2014 12:59:50 : cbf4 : FGONYQJVA]<oe>\aCBFFVOYL FBZRBAR UHEG VA GUR CP<oe>\aN GX RAIBYIRQ NYFB<oe>\a<oe>\a[08/01/2014 13:00:00 : cbf4 : FGONYQJVA]<oe>\aIRUF VA GUR GHEA YNAR<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>153</gq><gq>08/01/2014 12:59:43</gq><gq>QVF</gq><gq>FJ 3EQ FG // J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>120</gq><gq>08/01/2014 12:59:45</gq><gq>QVF</gq><gq>FJ 3EQ FG // J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>ZRQ1</gq><gq>08/01/2014 13:00:00</gq><gq>QVF</gq><gq>FJ 3EQ FG // J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>153</gq><gq>08/01/2014 13:00:03</gq><gq>RAE</gq><gq>FJ 3EQ FG // J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>SPE38</gq><gq>08/01/2014 13:00:20</gq><gq>QVF</gq><gq>FJ 3EQ FG // J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>RAT1</gq><gq>08/01/2014 13:00:25</gq><gq>QVF</gq><gq>FJ 3EQ FG // J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>SPE38</gq><gq>08/01/2014 13:00:26</gq><gq>BAF</gq><gq>FJ 3EQ FG // J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>SPE38</gq><gq>08/01/2014 13:00:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>ZRQ1</gq><gq>08/01/2014 13:00:33</gq><gq>RAE</gq><gq>FJ 3EQ FG // J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 ng 310 A JNYAHG FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00054536>14-00054536</n> nf bs 8/1/2014 12:57:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/01/2014 12:37:18</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ZNEN - 765-238-9843</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>310 A JNYAHG FG/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=310 A JNYAHG FG, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/01/2014 12:38:34 : cbf4 : FGONYQJVA]<oe>\aPebff fgerrgf: QNIVF FG//ABEGU FG<oe>\aUHFONAQ SRYY BA UVF ONPX NAQ JEVFG<oe>\aUNQ ONPX FHETREL N PCY LRNEF NTB <oe>\aNAQ UNF FGRNY EBQF VA VG <oe>\aFUR VF NSENVQ GB ZBIR UVZ<c>\a[08/01/2014 12:38:47 : cbf4 : FGONYQJVA]<oe>\aSRYY BIRE N GBL<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/01/2014 12:38:55</gq><gq>QVF</gq><gq>310 A JNYAHG FG, SBHAGNVA PVGL</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/01/2014 12:56:03</gq><gq>QVF</gq><gq>310 A JNYAHG FG, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 VAIREG ng 8500 OYX A HF 35) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00053265>14-00053265</n> nf bs 7/28/2014 9:01:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/28/2014 08:49:44</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 VAIREG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Irevmba Jveryrff - 937-670-2042</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>8500 OYX A HF 35/JVYYVNZFOHET<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=8500 OYX A HF 35, JVYYVNZFOHET, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/28/2014 08:51:05 : cbf1 : FUNMRYONXRE]<oe>\aFRZV BA  VGF  FVQR  QBJA VA  QVGPU<c>\a[07/28/2014 08:51:39 : cbf1 : FUNMRYONXRE]<oe>\aQEVIRE  UNF    UNF N URNQ  VAWHEL  NAQ  VF  GENCCRQ VAFVQR<oe>\a<oe>\a[07/28/2014 08:51:50 : cbf1 : FUNMRYONXRE]<oe>\aFRZV   VF   HC  FVQR  QBJA<oe>\a<oe>\a[07/28/2014 08:52:22 : cbf1 : FUNMRYONXRE]<oe>\aARNE   GUR   TERRAFSBEX  EVIRE/ ABG VA GUR JNGRE <oe>\aXABG  BA  URNQ   VF  OYRRQVAT<oe>\a<oe>\a[07/28/2014 08:52:55 : cbf1 : FUNMRYONXRE]<oe>\aQEVIRE  VF PBAP<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE2</gq><gq>07/28/2014 08:51:54</gq><gq>QVF</gq><gq>8500 OYX A HF 35, SBHAGNVA PVGL</gq></ge>\a<ge><gq>JZSQ</gq><gq>07/28/2014 08:51:58</gq><gq>QVF</gq><gq>8500 OYX A HF 35, SBHAGNVA PVGL</gq></ge>\a<ge><gq>89-14</gq><gq>07/28/2014 08:52:11</gq><gq>QVF</gq><gq>8500 OYX A HF 35, JVYYVNZFOHET</gq></ge>\a<ge><gq>89-25</gq><gq>07/28/2014 08:52:25</gq><gq>QVF</gq><gq>8500 OYX A HF 35, JVYYVNZFOHET</gq></ge>\a<ge><gq>ERVQ1</gq><gq>07/28/2014 08:53:05</gq><gq>QVF</gq><gq>8500 OYX A HF 35, JVYYVNZFOHET</gq></ge>\a<ge><gq>89-6</gq><gq>07/28/2014 08:53:18</gq><gq>RAE</gq><gq>8500 OYX A HF 35, JVYYVNZFOHET</gq></ge>\a<ge><gq>89-9</gq><gq>07/28/2014 08:53:24</gq><gq>RAE</gq><gq>8500 OYX A HF 35, JVYYVNZFOHET</gq></ge>\a<ge><gq>89-25</gq><gq>07/28/2014 08:53:29</gq><gq>RAE</gq><gq>8500 OYX A HF 35, JVYYVNZFOHET</gq></ge>\a<ge><gq>89-14</gq><gq>07/28/2014 08:53:31</gq><gq>RAE</gq><gq>8500 OYX A HF 35, JVYYVNZFOHET</gq></ge>\a<ge><gq>JZSQ</gq><gq>07/28/2014 08:57:26</gq><gq>OHF</gq><gq>8500 OYX A HF 35, JVYYVNZFOHET</gq></ge>\a<ge><gq>JZR21</gq><gq>07/28/2014 09:00:33</gq><gq>RAE</gq><gq>8500 OYX A HF 35, JVYYVNZFOHET</gq></ge>\a<ge><gq>SPSQ</gq><gq>07/28/2014 09:00:42</gq><gq>QVF</gq><gq>8500 OYX A HF 35, JVYYVNZFOHET</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 FGEHPG ng 5292 NEON CX) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00053025>14-00053025</n> nf bs 7/27/2014 4:56:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/27/2014 04:53:49</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Fcevag CPF - 765-259-4698</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>5292 NEON CX/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=5292 NEON CX, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/27/2014 04:54:22 : cbf1 : EOCNEXRE]<oe>\aPebff fgerrgf: VAXR EQ//ZBEEBJ EQ<c>\a[07/27/2014 04:54:31 : cbf1 : EOCNEXRE]<oe>\aubhfr ba sver va gur zvqqyr bs neon cx<oe>\acbff 2 fgbel<oe>\a<oe>\a[07/27/2014 04:55:25 : cbf1 : EOCNEXRE]<oe>\aPBZC JNF QEVIVAT CNFG. <oe>\aHAJVYYVAT GB TB PURPX NAQ FRR VS GURL`IR ORRA RINPHNGRQ.<oe>\a<oe>\a[07/27/2014 04:55:36 : cbf1 : EOCNEXRE]<oe>\aSVER NYY BIRE GUR SEBAG BS GUR ERFVQRAPR<oe>\a<oe>\a[07/27/2014 04:55:42 : cbf1 : EOCNEXRE]<oe>\aQVQA`G FRR NAL CRBCYR BHGFVQR<oe>\a<oe>\a[07/27/2014 04:55:50 : cbf1 : EOCNEXRE]<oe>\aHAFHER VS NALBAR JNF UBZR BE ABG.<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>SPSQ</gq><gq>07/27/2014 04:55:26</gq><gq>QVF</gq><gq>5292 NEON CX, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>07/27/2014 04:55:31</gq><gq>QVF</gq><gq>5292 NEON CX, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: FUBBGVAT ng 701 J PUREEL FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00052657>14-00052657</n> nf bs 7/25/2014 22:07:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/25/2014 22:04:53</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>FUBBGVAT</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>PNIVAF, PUEVFGL - 765-725-0205</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>701 J PUREEL FG/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=701 J PUREEL FG, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/25/2014 22:05:30 : cbf1 : GXBBEFRA]<oe>\aUHFONAQ NPPVQRAGNYYL FUBG UVZFRYS VA FGBZNPU<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>07/25/2014 22:06:08</gq><gq>QVF</gq><gq>701 J PUREEL FG, SBHAGNVA PVGL</gq></ge>\a<ge><gq>SPSQ</gq><gq>07/25/2014 22:06:43</gq><gq>QVF</gq><gq>701 J PUREEL FG, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 108 1/2 J ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00052608>14-00052608</n> nf bs 7/25/2014 19:00:00</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/25/2014 18:57:47</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>TVOOF, OENAQBA - 765-520-0339</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>108 1/2 J ZNVA FG/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=108 1/2 J ZNVA FG, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/25/2014 18:58:15 : cbf1 : GXBBEFRA]<oe>\aPebff fgerrgf: HF 27//JNYAHG FG<c>\a[07/25/2014 18:58:42 : cbf1 : GXBBEFRA]<oe>\a65 LB PBAPVBHF NAQ HFVAT N AROHYVMRE<oe>\a<oe>\a[07/25/2014 18:59:22 : cbf1 : GXBBEFRA]<oe>\aUNF PBCQ NAQ UNF UNQ URNEG FHETREL<oe>\a<oe>\a[07/25/2014 18:59:57 : cbf5 : ZPNVA]<oe>\agnp 3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE3</gq><gq>07/25/2014 18:58:29</gq><gq>QVF</gq><gq>108 1/2 J ZNVA FG, SBHAGNVA PVGL</gq></ge>\a<ge><gq>SPSQ</gq><gq>07/25/2014 18:59:10</gq><gq>QVF</gq><gq>108 1/2 J ZNVA FG, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 FGEHPG ng 10955 F HF 27) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00052152>14-00052152</n> nf bs 7/24/2014 9:44:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/24/2014 09:42:33</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ENAQBYCU PB - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>10955 F HF 27/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=10955 F HF 27, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/24/2014 09:42:48 : cbf4 : ZZNATNF]<oe>\aPebff fgerrgf: ZNVA FG//ZVYY FG<c>\a[07/24/2014 09:43:19 : cbf4 : ZZNATNF]<oe>\aERDHRFGVAT SHYY ERFCBAFR SEBZ SBHAGNVA PVGL NAQ N GNAXRE SEBZ JVYYVNZFOHET<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>SPSQ</gq><gq>07/24/2014 09:43:50</gq><gq>QVF</gq><gq>10955 F HF 27, SBHAGNVA PVGL</gq></ge>\a<ge><gq>JZSQ</gq><gq>07/24/2014 09:43:56</gq><gq>QVF</gq><gq>10955 F HF 27, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 FGEBXR ng 9649 ZVQQYR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00050894>14-00050894</n> nf bs 7/19/2014 18:31:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/19/2014 18:29:58</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 FGEBXR</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FGBYGMSHF, NOENZ - 765-847-5009</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>9649 ZVQQYR EQ/SBHAGNVA PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=9649 ZVQQYR EQ, SBHAGNVA PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/19/2014 18:30:33 : cbf4 : EQHANJNL89]<oe>\aPebff fgerrgf: OBPXUBSRE EQ//FPBGG EQ<oe>\a9649 zvqqyr eq<c>\a[07/19/2014 18:30:51 : cbf4 : EQHANJNL89]<oe>\aybfg gur pnyyre<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE2</gq><gq>07/19/2014 18:30:57</gq><gq>QVF</gq><gq>9649 ZVQQYR EQ, SBHAGNVA PVGL</gq></ge>\a<ge><gq>SPSQ</gq><gq>07/19/2014 18:30:57</gq><gq>QVF</gq><gq>9649 ZVQQYR EQ, SBHAGNVA PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-11 EY ng 1409 ARJ CNEVF CX) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aSPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00049686>14-00049686</n> nf bs 7/15/2014 12:10:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/15/2014 11:59:04</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-11 EY</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FCNEXF,UREZNA - 765-994-5987</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1409 ARJ CNEVF CX/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1409 ARJ CNEVF CX, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/15/2014 12:00:08 : cbf5 : FUNMRYONXRE]<oe>\aPebff fgerrgf: A 24GU FG//A 12GU FG<oe>\aCVG OHYY ZVK YBBFR VA  PC  LNEQ <oe>\aOEB  NAQ JUVGR  <oe>\aONEXVAT NG  PC NPGVAT NTTERFFVIR<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>SPR33</gq><gq>07/15/2014 12:09:30</gq><gq>QVF</gq><gq>1409 ARJ CNEVF CX, EVPUZBAQ</gq></ge>\a<ge><gq>SPR33</gq><gq>07/15/2014 12:09:38</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Creel Gjc ISQ
-Ybpngvba: Rpbabzl, VA, Havgrq Fgngrf
-Fraqre: 911@jnlarpb.hf
-Fraqre: nzbber@pb.jnlar.va.hf (Cbfgsvk Svygre Nppbhag)
-
-(911 Qvfcngpu: 10-50 VAIREG ng 10720 RPBABZL EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aRPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00068690>14-00068690</n> nf bs 9/21/2014 18:10:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/21/2014 18:06:22</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 VAIREG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>EBNQRF,QHFGVA - 765-238-9896</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>10720 RPBABZL EQ/RPBABZL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=10720 RPBABZL EQ, RPBABZL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/21/2014 18:07:38 : cbf3 : WZOHPXYRE]<oe>\aPebff fgerrgf: ONAAVAT EQ//BFOBEAR EQ<oe>\a<oe>\aVAIREGRQ IRUVPYR VA GUR QVGPU <oe>\a<oe>\aGUR SRZNYR WHZCRQ BHG BS GUR IRU NAQ TBG BA N FPBBGRE NAQ YRSG GUR FPRAR<c>\a[09/21/2014 18:08:14 : cbf3 : WZOHPXYRE]<oe>\aJUVGR SBEQ RKCYBERE VA ERT FXA512<oe>\a<oe>\a[09/21/2014 18:08:36 : cbf3 : WZOHPXYRE]<oe>\aGUR PZCYGF SEVRAQ VF GUR BAR GUNG UNF URE BA GUR FPBBGRE FUR ORTTRQ GUR PZCYG ABG GB PNYY GUR CBYVPR<oe>\a<oe>\a[09/21/2014 18:09:58 : cbf3 : WZOHPXYRE]<oe>\aUR GBBX URE GB URE UBHFR BA 4GU NAQ 2AQ VA RPBABZL  <oe>\a<oe>\aUNQ N PHG BA UNAQ<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>RPSQ</gq><gq>09/21/2014 18:09:00</gq><gq>QVF</gq><gq>10720 RPBABZL EQ, RPBABZL</gq></ge>\a<ge><gq>89-30</gq><gq>09/21/2014 18:09:09</gq><gq>RAE</gq><gq>10720 RPBABZL EQ, RPBABZL</gq></ge>\a<ge><gq>89-19</gq><gq>09/21/2014 18:09:16</gq><gq>RAE</gq><gq>10720 RPBABZL EQ, RPBABZL</gq></ge>\a<ge><gq>U3</gq><gq>09/21/2014 18:09:19</gq><gq>RAE</gq><gq>10720 RPBABZL EQ, RPBABZL</gq></ge>\a<ge><gq>89-13</gq><gq>09/21/2014 18:09:29</gq><gq>RAE</gq><gq>10720 RPBABZL EQ, RPBABZL</gq></ge>\a<ge><gq>89-29</gq><gq>09/21/2014 18:10:02</gq><gq>QVF</gq><gq>10720 RPBABZL EQ, RPBABZL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 CV ng A WNPXFBAOHET EQ // J R BYRE EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aRPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065967>14-00065967</n> nf bs 9/12/2014 6:22:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/12/2014 06:19:28</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 CV</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FABJQRA, ELNA - 765-238-7453</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>A WNPXFBAOHET EQ // J R BYRE EQ/UNTREFGBJA<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=A WNPXFBAOHET EQ // J R BYRE EQ, UNTREFGBJA, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/12/2014 06:19:50 : cbf1 : WTEVSSVA]<oe>\a7100 A WNPXFBAOHET EQ<c>\a[09/12/2014 06:20:04 : cbf1 : WTEVSSVA]<oe>\aIRU VA PBEASVRYQ    SBEQ GX<oe>\a<oe>\a[09/12/2014 06:20:25 : cbf1 : WTEVSSVA]<oe>\aYRT NAQ SBBG VAW<oe>\a<oe>\a[09/12/2014 06:20:57 : cbf1 : WTEVSSVA]<oe>\aPC VAIBY VA N JUV SBEQ GX<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>TRARENY</gq><gq>Vavgvny Nffvtazrag</gq><gq>09/12/2014 06:20:15</gq><gq>WTEVSSVA</gq></ge>\a<ge><gq>10-50 CV</gq><gq>09/12/2014 06:20:15</gq><gq>Svany Nffvtazrag</gq><gq>WTEVSSVA</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>89-6</gq><gq>09/12/2014 06:20:30</gq><gq>RAE</gq><gq>A WNPXFBAOHET EQ // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>PYOA</gq><gq>09/12/2014 06:20:51</gq><gq>QVF</gq><gq>A WNPXFBAOHET EQ // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>RPSQ</gq><gq>09/12/2014 06:21:41</gq><gq>QVF</gq><gq>A WNPXFBAOHET EQ // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>89-22</gq><gq>09/12/2014 06:22:02</gq><gq>RAE</gq><gq>A WNPXFBAOHET EQ // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>89-22</gq><gq>09/12/2014 06:22:04</gq><gq>RAE</gq><gq>A WNPXFBAOHET EQ // J R BYRE EQ, UNTREFGBJA</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 ng 10448 BFOBEA EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aRPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065650>14-00065650</n> nf bs 9/11/2014 0:11:06</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/11/2014 00:10:00</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>105-2 - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>10448 BFOBEA EQ/RPBABZL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=10448 BFOBEA EQ, RPBABZL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/11/2014 00:10:22 : cbf5 : NJUNYYBA]<oe>\aPebff fgerrgf: JVYYVNZFBA EQ//WNPXFBAOHET EQ<oe>\a<oe>\aGERR BA SVER<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>RPSQ</gq><gq>09/11/2014 00:10:36</gq><gq>QVF</gq><gq>10448 BFOBEA EQ, RPBABZL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aRPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065277>14-00065277</n> nf bs 9/9/2014 20:38:25</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/09/2014 20:35:58</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/09/2014 20:36:33 : cbf6 : EQHANJNL89]<oe>\aYnaqznex Pbzzrag: ABGVSL PBHEG UBHFR FRPHEVGL BS NAL PNYYF QVFCNGPURQ QH<oe>\aYnaqznex: JNLAR PB NAARK<oe>\aPebff fgerrgf: 5GU FG//3EQ FG<oe>\a<oe>\a<oe>\aGRFG BAYL  <oe>\aGRFGVAT VFFHRF JVGU GUR CNTRE FLFGRZ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>09/09/2014 20:37:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 VAIREG ng A FE 1 // J R BYRE EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aRPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00064802>14-00064802</n> nf bs 9/8/2014 3:02:07</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/08/2014 02:36:54</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 VAIREG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NG&G ZBOVYVGL - 337-378-8252</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>A FE 1 // J R BYRE EQ/UNTREFGBJA<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=A FE 1 // J R BYRE EQ, UNTREFGBJA, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/08/2014 02:37:34 : cbf2 : WZOHPXYRE]<oe>\a5200 A FE 1<oe>\aPebff fgerrgf: FE 38//WBARF EQ<c>\a[09/08/2014 02:37:48 : cbf2 : WZOHPXYRE]<oe>\a2 THLF YNLVAT BHG BA GUR TEBHAQ<oe>\a<oe>\a[09/08/2014 02:38:20 : cbf2 : WZOHPXYRE]<oe>\aGUR GJB THLF BHG BA GUR TEBHAQ NER GNYXVAT<oe>\a<oe>\a[09/08/2014 02:38:28 : cbf2 : WZOHPXYRE]<oe>\aPURPXVAT GUR FRPBAQ IRUVPYR ABJ<oe>\a<oe>\a[09/08/2014 02:39:14 : cbf2 : WZOHPXYRE]<oe>\aBAR CREFBA OYRRQVAT SEBZ GUR URNQ VA GUR FRPBAQ IRUVPYR OHG UR VF PBAFVBHF NF JRYY<oe>\a<oe>\a[09/08/2014 02:39:23 : cbf5 : NJUNYYBA]<oe>\aUTSQ NFFVTARQ GNP 2<oe>\a<oe>\a[09/08/2014 02:39:40 : cbf2 : WZOHPXYRE]<oe>\a4 CRBCYR GBGNY<oe>\a<oe>\a[09/08/2014 02:40:04 : cbf2 : WZOHPXYRE]<oe>\aBAR IRUVPYR VF VAIREGRQ NABGURE VF HC BA VGF FVQR<oe>\a<oe>\a[09/08/2014 02:40:49 : cbf2 : WZOHPXYRE]<oe>\a7600 A FE 1<oe>\a<oe>\a[09/08/2014 02:42:00 : cbf2 : WZOHPXYRE]<oe>\aGUR GJB CRBCYR NER FVGGVAT BHG BA GUR EBNQ NCCRNE VAGBKVPNGRQ WHFG XRRC FNLVAT GUNG GURL JNAAN YRNIR<oe>\a<oe>\a[09/08/2014 02:42:25 : cbf1 : EOCNEXRE]<oe>\aPHYOREFBA HCQNGRQ BA YBPNGVBA PUNATR<oe>\a<oe>\a[09/08/2014 02:42:57 : cbf2 : WZOHPXYRE]<oe>\aN SRZNYR VF PBZCYNVAT BS QVSSVPHYGL OERNGUVAT ABJ<oe>\a<oe>\a[09/08/2014 02:43:11 : cbf2 : WZOHPXYRE]<oe>\aPBEERPGVBA 3 CRBCYR GBGNY<oe>\a<oe>\a[09/08/2014 02:44:20 : cbf3 : GXBBEFRA]<oe>\aU5 BAR IRU QBJA BIRE RZONAXZRAG<oe>\a<oe>\a[09/08/2014 02:44:47 : cbf3 : GXBBEFRA]<oe>\a2 VAWHEVRF<oe>\a<oe>\a[09/08/2014 02:45:00 : cbf3 : GXBBEFRA]<oe>\a2 RWRPGRQ<oe>\a<oe>\a[09/08/2014 02:50:02 : cbf3 : GXBBEFRA]<oe>\aYVSRVAR BA FGNAQ OL<oe>\a<oe>\a[09/08/2014 02:51:49 : cbf5 : NJUNYYBA]<oe>\aPHYOREFBA BAF ERD N FRPBAQ GEHPX OR QVFCNGPURQ<oe>\a<oe>\a[09/08/2014 02:52:46 : cbf1 : EOCNEXRE]<oe>\aPHYOREFBA QVFCNGPU FGNEGVAT N 2AQ GEHPX<oe>\a<oe>\a[09/08/2014 02:58:23 : cbf3 : GXBBEFRA]<oe>\aYVSRYVAR JVYY NQIVFR JUVPU URYB JVYY OR RAEBHGR FUBEGYL<oe>\a<oe>\a<c>\a<o>Iruvpyrf Vaibyirq</o>\a<gnoyr obeqre=1>\a<ge><gu>Cyngr</gu><gu>Lrne</gu><gu>Zbqry</gu><gu>IVA</gu><gu>Pbybe</gu><gu>Bjare</gu></ge>\a<ge><gq>GX288ZDZ</gq><gq></gq><gq>FVYIRENQB</gq><gq></gq><gq></gq><gq> </ge>\a<ge><gq>284QQH</gq><gq></gq><gq></gq><gq></gq><gq>JUV</gq><gq> </ge>\a</gnoyr>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>89-29</gq><gq>09/08/2014 02:38:22</gq><gq>QVF</gq><gq>A FE 1 // FE 38, UNTREFGBJA</gq></ge>\a<ge><gq>PYOA</gq><gq>09/08/2014 02:38:34</gq><gq>QVF</gq><gq>A FE 1 // FE 38, UNTREFGBJA</gq></ge>\a<ge><gq>89-30</gq><gq>09/08/2014 02:38:41</gq><gq>QVF</gq><gq>A FE 1 // FE 38, UNTREFGBJA</gq></ge>\a<ge><gq>89-30</gq><gq>09/08/2014 02:38:43</gq><gq>RAE</gq><gq>A FE 1 // FE 38, UNTREFGBJA</gq></ge>\a<ge><gq>89-29</gq><gq>09/08/2014 02:38:44</gq><gq>RAE</gq><gq>A FE 1 // FE 38, UNTREFGBJA</gq></ge>\a<ge><gq>ERVQ1</gq><gq>09/08/2014 02:38:47</gq><gq>QVF</gq><gq>A FE 1 // FE 38, UNTREFGBJA</gq></ge>\a<ge><gq>89-13</gq><gq>09/08/2014 02:38:54</gq><gq>RAE</gq><gq>A FE 1 // FE 38, UNTREFGBJA</gq></ge>\a<ge><gq>UTSQ</gq><gq>09/08/2014 02:38:57</gq><gq>QVF</gq><gq>A FE 1 // FE 38, UNTREFGBJA</gq></ge>\a<ge><gq>U5</gq><gq>09/08/2014 02:39:26</gq><gq>QVF</gq><gq>A FE 1 // FE 38, UNTREFGBJA</gq></ge>\a<ge><gq>U5</gq><gq>09/08/2014 02:39:28</gq><gq>RAE</gq><gq>A FE 1 // FE 38, UNTREFGBJA</gq></ge>\a<ge><gq>89-13</gq><gq>09/08/2014 02:41:28</gq><gq>RAE</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>UTSQ</gq><gq>09/08/2014 02:42:28</gq><gq>OHF</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>U5</gq><gq>09/08/2014 02:44:10</gq><gq>BAF</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>U5</gq><gq>09/08/2014 02:44:14</gq><gq>BAF</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>89-29</gq><gq>09/08/2014 02:44:26</gq><gq>BAF</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>UNE65</gq><gq>09/08/2014 02:45:25</gq><gq>RAE</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>UNR66</gq><gq>09/08/2014 02:45:45</gq><gq>RAE</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>UNE65</gq><gq>09/08/2014 02:47:33</gq><gq>BAF</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>UNR66</gq><gq>09/08/2014 02:47:35</gq><gq>BAF</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>89-30</gq><gq>09/08/2014 02:48:54</gq><gq>BAF</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>89-30</gq><gq>09/08/2014 02:49:00</gq><gq>BAF</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>URYB</gq><gq>09/08/2014 02:49:31</gq><gq>QVF</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>PYOA</gq><gq>09/08/2014 02:51:13</gq><gq>BAF</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>PYOA</gq><gq>09/08/2014 02:51:25</gq><gq>BAF</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>89-13</gq><gq>09/08/2014 02:56:48</gq><gq>BAF</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>URYB</gq><gq>09/08/2014 02:59:21</gq><gq>RAE</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a<ge><gq>RPSQ</gq><gq>09/08/2014 03:01:16</gq><gq>QVF</gq><gq>A FE 1 // J R BYRE EQ, UNTREFGBJA</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu:  ng RAQFYRL EQ // HF 27) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aRPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00057154>14-00057154</n> nf bs 8/11/2014 19:08:59</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/11/2014 16:39:55</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 VAIREG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FPBGG,PUEVF - 765-265-9591</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>RAQFYRL EQ // HF 27/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=RAQFYRL EQ // HF 27, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>GJP14-0475</gq></ge>\a</gnoyr>\a<c>\a[08/11/2014 16:40:20 : cbf5 : FUNMRYONXRE]<oe>\a1430 RAQFYRL EQ<oe>\aJBEX   GEHPX BA  VGF  FVQR<c>\a[08/11/2014 16:40:41 : cbf5 : FUNMRYONXRE]<oe>\aRNFG   FVQR   BS   27  BA  RAQFYRL  EQ<oe>\a<oe>\a[08/11/2014 16:40:48 : cbf5 : FUNMRYONXRE]<oe>\aYRNXVAT    SHRY<oe>\a<oe>\a[08/11/2014 16:42:47 : cbf5 : FUNMRYONXRE]<oe>\aBHG BS  GEHPX NCCRNEF   BX  OHG  QEBCCRQ PNYY<oe>\a<oe>\a[08/11/2014 16:44:16 : cbf3 : WTEVSSVA]<oe>\aWBR PEBJR, 960-0699    QEVIVAT N JUV OBK GX JVGU PEBJR FUERQQVAT BA FVQR, UR NQI AB VAW & VF BHG BS GX    CRE 715<oe>\a<oe>\a[08/11/2014 16:48:39 : cbf5 : FUNMRYONXRE]<oe>\a85-2   10-23<oe>\a<oe>\a[08/11/2014 16:49:56 : cbf5 : FUNMRYONXRE]<oe>\a85-2  PBASVEZRQ  CQ  BAYL<oe>\a<oe>\a[08/11/2014 16:50:44 : cbf3 : WTEVSSVA]<oe>\a89600 RE, ERS SHRY YRNX<oe>\a<oe>\a[08/11/2014 16:51:41 : cbf5 : FUNMRYONXRE]<oe>\a85-2  NQI  HAVGF PNA FYBJ EHA<oe>\a<oe>\a[08/11/2014 16:53:10 : cbf5 : FUNMRYONXRE]<oe>\aULQEBYVP  YRNX  FZNYY  NAQ SVER  PNA  PBAGNVA  VG<oe>\a<oe>\a[08/11/2014 16:55:59 : cbf4 : FGONYQJVA]<oe>\aCNEQBF 76<oe>\a<oe>\a[08/11/2014 16:56:44 : cbf4 : FGONYQJVA]<oe>\aOEVATVAT N YET 10-51<oe>\a<oe>\a[08/11/2014 16:57:15 : cbf4 : FGONYQJVA]<oe>\aOHFGRQ ONPX NKRY<oe>\a<oe>\a[08/11/2014 17:15:55 : cbf4 : FGONYQJVA]<oe>\aGJP14-0475<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>TRARENY</gq><gq>Vavgvny Nffvtazrag</gq><gq>08/11/2014 16:41:07</gq><gq>FUNMRYONXRE</gq></ge>\a<ge><gq>10-50 VAIREG</gq><gq>08/11/2014 16:41:07</gq><gq>Svany Nffvtazrag</gq><gq>FUNMRYONXRE</gq></ge>\a</gnoyr><c>\a<o>Crbcyr Vaibyirq</o>\a<gnoyr obeqre=1>\a<ge><gu>Vaibyirzrag</gu><gu>Anzr</gu><gu>E/F/U/J</gu><gu>Ntr</gu><gu>QBO</gu><gu>BYA</gu></ge>\a<ge><gq></gq><gq>Pebjr, Wbfrcu</gq><gq>/Z/070/180</gq><gq>32-</gq><gq>1981-12-20</gq><gq> - </gq></ge>\a</gnoyr><c>\a<o>Iruvpyrf Vaibyirq</o>\a<gnoyr obeqre=1>\a<ge><gu>Cyngr</gu><gu>Lrne</gu><gu>Zbqry</gu><gu>IVA</gu><gu>Pbybe</gu><gu>Bjare</gu></ge>\a<ge><gq>GX422YOM</gq><gq>2010</gq><gq></gq><gq>1UGZLFXZ3NU282081</gq><gq>JUV</gq><gq> PEBJR FUERQQVAT</ge>\a</gnoyr>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE2</gq><gq>08/11/2014 16:41:21</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-14</gq><gq>08/11/2014 16:41:37</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-25</gq><gq>08/11/2014 16:41:41</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 16:43:12</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 16:43:33</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OBR81</gq><gq>08/11/2014 16:45:26</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>EZGE2</gq><gq>08/11/2014 16:49:35</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>89600</gq><gq>08/11/2014 16:49:55</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-25</gq><gq>08/11/2014 16:51:32</gq><gq>BAF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-14</gq><gq>08/11/2014 16:54:48</gq><gq>BAF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OBE84</gq><gq>08/11/2014 16:56:45</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-25</gq><gq>08/11/2014 17:56:07</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>89-23</gq><gq>08/11/2014 18:05:19</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-23</gq><gq>08/11/2014 18:17:11</gq><gq>BAF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-14</gq><gq>08/11/2014 18:20:59</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 19:04:36</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>NOSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 19:07:31</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/11/2014 19:07:31</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>QOSQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>RPSQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>TSSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>UTSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>JOSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>JZSQ</gq><gq>08/11/2014 19:07:34</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>NOSQ</gq><gq>08/11/2014 19:07:35</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 10048 FHTNE TEBIR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aRPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00053815>14-00053815</n> nf bs 7/30/2014 6:11:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/30/2014 06:08:29</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>UVPXRL, A - 765-886-5568</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>10048 FHTNE TEBIR EQ/UNTREFGBJA<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=10048 FHTNE TEBIR EQ, UNTREFGBJA, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/30/2014 06:08:49 : cbf1 : WQHXR]<oe>\aPebff fgerrgf: HF 35//ZRAQRAUNYY EQ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PYOA</gq><gq>07/30/2014 06:09:51</gq><gq>QVF</gq><gq>10048 FHTNE TEBIR EQ, UNTREFGBJA</gq></ge>\a<ge><gq>RPSQ</gq><gq>07/30/2014 06:10:04</gq><gq>QVF</gq><gq>10048 FHTNE TEBIR EQ, UNTREFGBJA</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 ng 9515 PNVA EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aRPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00053142>14-00053142</n> nf bs 7/27/2014 18:30:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/27/2014 18:19:25</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ENAQBYCU PB - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>9515 PNVA EQ/UNTREFGBJA<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=9515 PNVA EQ, UNTREFGBJA, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/27/2014 18:20:57 : cbf5 : NJUNYYBA]<oe>\aPebff fgerrgf: PUNEYRF EQ//CVREPR EQ<oe>\a<oe>\aN YBG BS OYX FZBXR PBZVAT SEBZ ORUVAQ GUVF ERF<c>\a[07/27/2014 18:26:23 : cbf5 : NJUNYYBA]<oe>\aRPBABZL 105 RE CBI<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>RPSQ</gq><gq>07/27/2014 18:22:13</gq><gq>QVF</gq><gq>9515 PNVA EQ, UNTREFGBJA</gq></ge>\a<ge><gq>PZ5</gq><gq>07/27/2014 18:22:23</gq><gq>RAE</gq><gq>9515 PNVA EQ, UNTREFGBJA</gq></ge>\a<ge><gq>PZ5</gq><gq>07/27/2014 18:22:29</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>RPSQ</gq><gq>07/27/2014 18:28:04</gq><gq>OHF</gq><gq>9515 PNVA EQ, UNTREFGBJA</gq></ge>\a<ge><gq>RR101</gq><gq>07/27/2014 18:29:40</gq><gq>RAE</gq><gq>9515 PNVA EQ, UNTREFGBJA</gq></ge>\a<ge><gq>RG102</gq><gq>07/27/2014 18:29:46</gq><gq>QVF</gq><gq>9515 PNVA EQ, UNTREFGBJA</gq></ge>\a<ge><gq>RG102</gq><gq>07/27/2014 18:29:51</gq><gq>RAE</gq><gq>9515 PNVA EQ, UNTREFGBJA</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 ng 9515 PNVA EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aRPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00053142>14-00053142</n> nf bs 7/27/2014 18:23:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/27/2014 18:19:25</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ENAQBYCU PB - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>9515 PNVA EQ/UNTREFGBJA<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=9515 PNVA EQ, UNTREFGBJA, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/27/2014 18:20:57 : cbf5 : NJUNYYBA]<oe>\aPebff fgerrgf: PUNEYRF EQ//CVREPR EQ<oe>\a<oe>\aN YBG BS OYX FZBXR PBZVAT SEBZ ORUVAQ GUVF ERF<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>RPSQ</gq><gq>07/27/2014 18:22:13</gq><gq>QVF</gq><gq>9515 PNVA EQ, UNTREFGBJA</gq></ge>\a<ge><gq>PZ5</gq><gq>07/27/2014 18:22:23</gq><gq>RAE</gq><gq>9515 PNVA EQ, UNTREFGBJA</gq></ge>\a<ge><gq>PZ5</gq><gq>07/27/2014 18:22:29</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 270 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aRPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00049136>14-00049136</n> nf bs 7/13/2014 0:48:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/13/2014 00:45:23</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>270 R ZNVA FG/RPBABZL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=270 R ZNVA FG, RPBABZL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/13/2014 00:45:55 : cbf1 : WEBOREGFBA89]<c>\a[07/13/2014 00:46:16 : cbf4 : GXBBEFRA]<oe>\a18 ZBF PUVYQ<oe>\a<oe>\a[07/13/2014 00:47:36 : cbf4 : GXBBEFRA]<oe>\aUNF GUEHFU NAQ VF UBG GB GUR GBHPU<oe>\a<oe>\a[07/13/2014 00:47:52 : cbf5 : TPNYYNJNL]<oe>\aPebff fgerrgf: SBHEGU FG//ZVYY FG<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PYOA</gq><gq>07/13/2014 00:46:23</gq><gq>QVF</gq><gq>270 ZNVA FG, RPBABZL</gq></ge>\a<ge><gq>RPSQ</gq><gq>07/13/2014 00:47:24</gq><gq>QVF</gq><gq>270 ZNVA FG, RPBABZL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu:  ng 174 A CBCYNE FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aRPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00048974>14-00048974</n> nf bs 7/12/2014 11:38:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/12/2014 11:36:45</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>RPBABZL RDHVCZRAG - 765-886-5611</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>174 A CBCYNE FG/RPBABZL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=174 A CBCYNE FG, RPBABZL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/12/2014 11:37:04 : cbf1 : ZPNVA]<oe>\aPebff fgerrgf: ZNVA FG//ABEGU FG<oe>\a<oe>\a59 L/B ZNYR<oe>\aPURFG CNVA<c>\a[07/12/2014 11:37:14 : cbf1 : ZPNVA]<oe>\aTNEL FNHAQREF GURER JVGU UVZ<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PYOA</gq><gq>07/12/2014 11:37:25</gq><gq>QVF</gq><gq>174 A CBCYNE FG, RPBABZL</gq></ge>\a<ge><gq>RPSQ</gq><gq>07/12/2014 11:37:41</gq><gq>QVF</gq><gq>174 A CBCYNE FG, RPBABZL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 VY OEA ng 11604 VAQVNA GENVY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aRPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00047213>14-00047213</n> nf bs 7/5/2014 22:40:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/05/2014 22:36:44</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 VY OEA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FVT 11 - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>11604 VAQVNA GENVY EQ/RPBABZL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=11604 VAQVNA GENVY EQ, RPBABZL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/05/2014 22:38:10 : cbf6 : NFPUARVQRE]<oe>\aPebff fgerrgf: WNPXFBAOHET EQ//ORNEQ EQ<oe>\aNG N ERF BCRA SVER SYNZRF 20 SRRG VA GUR NVE GURER NER ZHYGVCYR CRBCYR FGNAQVAT NEBHAQ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>RPSQ</gq><gq>07/05/2014 22:39:47</gq><gq>QVF</gq><gq>11604 VAQVNA GENVY EQ, RPBABZL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu:  ng 9926 YNPL EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aRPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00047209>14-00047209</n> nf bs 7/5/2014 21:59:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/05/2014 21:57:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>9926 YNPL EQ/UNTREFGBJA<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=9926 YNPL EQ, UNTREFGBJA, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/05/2014 21:57:27 : cbf1 : EQHANJNL89]<oe>\aPebff fgerrgf: PUNEYRF EQ//ABOOYRGG EQ<c>\a[07/05/2014 21:57:44 : cbf1 : EQHANJNL89]<oe>\aRKGERRZ QO<oe>\a<oe>\a[07/05/2014 21:58:13 : cbf1 : EQHANJNL89]<oe>\aUVFG <oe>\aPBCQ<oe>\a<oe>\a[07/05/2014 21:58:28 : cbf1 : EQHANJNL89]<oe>\aFUR VF PBAF ABJ<oe>\a<oe>\a[07/05/2014 21:59:03 : cbf1 : EQHANJNL89]<oe>\aIVP VF ZVPURYYR QHAQRE NTR 64<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PYOA</gq><gq>07/05/2014 21:58:13</gq><gq>QVF</gq><gq>9926 YNPL EQ, UNTREFGBJA</gq></ge>\a<ge><gq>RPSQ</gq><gq>07/05/2014 21:58:21</gq><gq>QVF</gq><gq>9926 YNPL EQ, UNTREFGBJA</gq></ge>\a<ge><gq>PYOA</gq><gq>07/05/2014 21:58:59</gq><gq>RAE</gq><gq>9926 YNPL EQ, UNTREFGBJA</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 10048 FHTNE TEBIR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aRPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00046834>14-00046834</n> nf bs 7/4/2014 11:46:03</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>07/04/2014 11:42:56</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>UVPXRL,EBTRE - 765-969-5589</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>10048 FHTNE TEBIR EQ/RPBABZL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=10048 FHTNE TEBIR EQ, RPBABZL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[07/04/2014 11:43:38 : cbf5 : FUNMRYONXRE]<oe>\aPebff fgerrgf: ZRAQRAUNYY EQ//HF -35<c>\a[07/04/2014 11:43:58 : cbf5 : FUNMRYONXRE]<oe>\aPBAP    NAQ  QVSS  OERNGUVAT<oe>\a<oe>\a[07/04/2014 11:44:20 : cbf5 : FUNMRYONXRE]<oe>\a72  LE BYQ  SRZ <oe>\aPBCQ  <oe>\aBA  B2<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PYOA</gq><gq>07/04/2014 11:44:45</gq><gq>QVF</gq><gq>10048 FHTNE TEBIR EQ, RPBABZL</gq></ge>\a<ge><gq>RPSQ</gq><gq>07/04/2014 11:45:22</gq><gq>QVF</gq><gq>10048 FHTNE TEBIR EQ, RPBABZL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Pragreivyyr Sver Erfphr
-Ybpngvba: Pragreivyyr, VA, Havgrq Fgngrf
-Fraqre: 911@jnlarpb.hf
-
-(911 Qvfcngpu: 10-70 ng 204 UVTUYNAQ QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00069377>14-00069377</n> nf bs 9/24/2014 1:27:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/24/2014 01:24:00</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>PURRX, EBANYQ - 765-966-2219</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>204 UVTUYNAQ QE/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=204 UVTUYNAQ QE, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/24/2014 01:25:47 : cbf4 : EQHANJNL89]<oe>\aPebff fgerrgf: IVETVAVN NI//GURERFN YA<oe>\afzbxr qrgrpgbe orrcvat rirel 30 zva <oe>\aunf abg punatrq gur onggrel va 10 lrnef <oe>\aur erd esq purpx vg bhg <oe>\apnyyre vf oyvaq<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>09/24/2014 01:26:38</gq><gq>QVF</gq><gq>204 UVTUYNAQ QE, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 9790 J HF UJL 40) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00069289>14-00069289</n> nf bs 9/23/2014 17:23:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/23/2014 17:20:05</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>BJRAF, QNIVQ - 765-855-2057</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>9790 J HF UJL 40 #33/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=9790 J HF UJL 40, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/23/2014 17:20:28 : cbf3 : FUNMRYONXRE]<oe>\aPebff fgerrgf: UVYQNOENAQ EQ//JNFUVATGBA EQ<c>\a[09/23/2014 17:20:42 : cbf3 : FUNMRYONXRE]<oe>\aXRRCF  YBBFVAT PBAP<oe>\a<oe>\a[09/23/2014 17:21:02 : cbf3 : FUNMRYONXRE]<oe>\aRAGREANY  QRSVOO JRAG BSS <oe>\aORRA  IBZVGVAT<oe>\a<oe>\a[09/23/2014 17:21:15 : cbf3 : FUNMRYONXRE]<oe>\aWHFG  FGNEGRQ   GBQNL  <oe>\a63   LE BYQ ZNYR<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE4</gq><gq>09/23/2014 17:20:57</gq><gq>QVF</gq><gq>9790 J HF UJL 40, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/23/2014 17:22:40</gq><gq>QVF</gq><gq>9790 J HF UJL 40, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 CQ ng 4600 J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00069111>14-00069111</n> nf bs 9/23/2014 8:57:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/23/2014 08:45:00</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 CQ</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>WHEL - 765-962-6511</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4600 J ANGVBANY EQ/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4600 J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/23/2014 08:45:15 : cbf5 : FGONYQJVA]<oe>\aJ HF 40 // EBHAQONEA EQ<c>\a[09/23/2014 08:45:30 : cbf5 : FGONYQJVA]<oe>\aOYX ZVAV INA VA GUR EBNQ JNL<oe>\a<oe>\a[09/23/2014 08:45:35 : cbf5 : FGONYQJVA]<oe>\aNAQ NF 10<oe>\a<oe>\a[09/23/2014 08:51:08 : cbf4 : WTEVSSVA]<oe>\a89-34 PXVAT NERN<oe>\a<oe>\a[09/23/2014 08:51:22 : cbf4 : WTEVSSVA]<oe>\aYBP VA SEG BS BYQ ANGPB<oe>\a<oe>\a[09/23/2014 08:52:10 : cbf4 : WTEVSSVA]<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//NVECBEG<oe>\aYnaqznex: ANGPB/PNEYGBA<oe>\aYnaqznex Pbzzrag:  AB JNGRE BA GUR CEBCREGL AB SVER ULQ JBEXVAT<oe>\a<oe>\a[09/23/2014 08:54:02 : cbf4 : WTEVSSVA]<oe>\aESQ HAVG BA FPA J//YVTUGF CRE 34<oe>\a<oe>\a[09/23/2014 08:55:41 : cbf4 : WTEVSSVA]<oe>\aCRE ESQ HAVG BA FPA ERD 10-52 SBE PX BHG BA 2 XVQF GUNG NER VAIBY<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>89-14</gq><gq>09/23/2014 08:46:53</gq><gq>QVF</gq><gq>J HF 40 // EBHAQONEA EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-14</gq><gq>09/23/2014 08:46:58</gq><gq>RAE</gq><gq>J HF 40 // EBHAQONEA EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-34</gq><gq>09/23/2014 08:50:52</gq><gq>QVF</gq><gq>J HF 40 // EBHAQONEA EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-34</gq><gq>09/23/2014 08:51:09</gq><gq>BAF</gq><gq>J HF 40 // EBHAQONEA EQ, EVPUZBAQ</gq></ge>\a<ge><gq>EZGE1</gq><gq>09/23/2014 08:56:25</gq><gq>QVF</gq><gq>4600 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/23/2014 08:56:47</gq><gq>QVF</gq><gq>4600 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 9790 J HF UJL 40) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00069043>14-00069043</n> nf bs 9/22/2014 23:15:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/22/2014 23:13:26</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>SRNFGRE, WRJRYY - 765-855-2162</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>9790 J HF UJL 40 #YBG 1/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=9790 J HF UJL 40, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/22/2014 23:13:47 : cbf1 : EQHANJNL89]<oe>\aPebff fgerrgf: UVYQNOENAQ EQ//JNFUVATGBA EQ<c>\a[09/22/2014 23:13:56 : cbf1 : EQHANJNL89]<oe>\aQO NAQ UNF ZF<oe>\a<oe>\a[09/22/2014 23:14:13 : cbf1 : EQHANJNL89]<oe>\aZRYVFFN OBOORGG VF GUR IVP<oe>\a<oe>\a[09/22/2014 23:14:50 : cbf1 : EQHANJNL89]<oe>\aCBFF NYFB PURFG CNVA <oe>\aUR VF UBYQVAT URE PURFG<oe>\a<oe>\a[09/22/2014 23:14:53 : cbf5 : QCVGPURE]<oe>\agnp 3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/22/2014 23:14:09</gq><gq>QVF</gq><gq>9790 J HF UJL 40, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/22/2014 23:14:49</gq><gq>QVF</gq><gq>9790 J HF UJL 40, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 4705 J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00068976>14-00068976</n> nf bs 9/22/2014 18:15:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/22/2014 18:14:11</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>QVKBA, ORGGL - 765-935-6661</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4705 J ANGVBANY EQ #ybg 45/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4705 J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/22/2014 18:14:31 : cbf1 : EQHANJNL89]<oe>\aYnaqznex: TERRA ZRNQBJ GENVYRE PBHEG<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//NVECBEG EQ<c>\a[09/22/2014 18:14:50 : cbf1 : EQHANJNL89]<oe>\aQVKBA, ORGGL<oe>\aoc 198/99<oe>\aqo <oe>\afnlvat fur uneqyl oerngu<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>09/22/2014 18:14:37</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>EZGE1</gq><gq>09/22/2014 18:14:56</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 1312 EVPR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00068766>14-00068766</n> nf bs 9/22/2014 1:52:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/22/2014 01:48:40</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FCNYQVAT GVAN - 317-987-0412</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1312 EVPR EQ/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1312 EVPR EQ, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/22/2014 01:50:02 : cbf3 : WZOHPXYRE]<oe>\aPebff fgerrgf: HF 40 J//XRYYNZ EQ<oe>\a<oe>\a77 LB S UNIVAT PURFG CNVA <oe>\a<oe>\aUK BS PUS URNEG PNGU VA WHYL <oe>\a<oe>\aGBBX AVGEB VA GUR ZBEVAT VG VF N YBAT NPGVAT AVGEB PNAG TVIR URE NABGURE BAR<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/22/2014 01:50:26</gq><gq>QVF</gq><gq>1312 EVPR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/22/2014 01:51:02</gq><gq>QVF</gq><gq>1312 EVPR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>PZ5</gq><gq>09/22/2014 01:51:12</gq><gq>QVF</gq><gq>1312 EVPR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>PZ5</gq><gq>09/22/2014 01:51:17</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: ZRQVPNY NYEZ ng 4066 FJ Z FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00068684>14-00068684</n> nf bs 9/21/2014 17:36:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/21/2014 17:31:36</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>ZRQVPNY NYEZ</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>PNAABA,BEIVY - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4066 FJ Z FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4066 FJ Z FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/21/2014 17:32:57 : cbf4 : WQHXR]<oe>\aPebff fgerrgf: UVTUYNAQ QE//<oe>\aPNER3 PRAGRE 1-855-299-9327<oe>\aNYZ NPGVINGVBA AB PBAGNPG <oe>\aERFVQRAPR<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/21/2014 17:33:36</gq><gq>QVF</gq><gq>4066 FJ Z FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/21/2014 17:35:33</gq><gq>QVF</gq><gq>4066 FJ Z FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 110 PBAVAT QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00068552>14-00068552</n> nf bs 9/21/2014 0:44:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/21/2014 00:40:38</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FZVGU, UNAANU - 865-297-7845</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>110 PBAVAT QE/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=110 PBAVAT QE, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/21/2014 00:42:09 : cbf1 : WZOHPXYRE]<oe>\aPebff fgerrgf: JBBQYNJA NI//IVETVAVN NI<oe>\a<oe>\a2 ZAGU BYQ VF UNIVAT TEHAGVAT NAQ ENFCL ERFCVENGVBAF NYY QNL <oe>\a<oe>\aUNF N SRIRE BS 101 <oe>\a<oe>\aUNF ABG ORRA NPGVAT EVTUG NYY QNL<c>\a[09/21/2014 00:42:33 : cbf1 : WZOHPXYRE]<oe>\aFRRZF GB OR TRGGVAT JBEFR FVAPR GUVF RIRVAT<oe>\a<oe>\a[09/21/2014 00:43:03 : cbf1 : WZOHPXYRE]<oe>\aUNF TBBQ PBYBE CRQ PRAGRE GBYQ URE GB PNYY 911<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/21/2014 00:42:17</gq><gq>QVF</gq><gq>110 PBAVAT QE, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/21/2014 00:43:19</gq><gq>QVF</gq><gq>110 PBAVAT QE, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 ng 4705 J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00068505>14-00068505</n> nf bs 9/20/2014 21:00:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/20/2014 20:58:37</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>IVPXREF, QRYOREG - 765-238-7045</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4705 J ANGVBANY EQ #54/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4705 J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/20/2014 20:59:20 : cbf4 : EOCNEXRE]<oe>\aYnaqznex: TERRA ZRNQBJ GENVYRE PBHEG<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//NVECBEG EQ<oe>\aSRRYF QVMML NAQ UNIVAT PURFG CNVAF BSS NAQ BA SBE GUR YNFG JRRX.<c>\a[09/20/2014 20:59:47 : cbf4 : EOCNEXRE]<oe>\a58 L/B ZNYR<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/20/2014 20:59:32</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/20/2014 20:59:37</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 107 J FPUBBY FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00068366>14-00068366</n> nf bs 9/20/2014 12:03:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/20/2014 12:00:40</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>QR`NAAR, ZNEL - 765-855-5335</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>107 J FPUBBY FG/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=107 J FPUBBY FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/20/2014 12:00:49 : cbf1 : AEHUY]<oe>\aPebff fgerrgf: ZPZVAA EQ//ZBEGBA NI<c>\a[09/20/2014 12:01:29 : cbf1 : AEHUY]<oe>\a91 LEB QO BA B2 BA 4 1/2 YVGREF ABJ....FGNEGRQ YNFGAVTUG<oe>\a<oe>\a[09/20/2014 12:01:56 : cbf1 : AEHUY]<oe>\aPC-PVAQL ULZNA/AHEFRF NVQR 5-4 GB TRG BSS CUBAR NAQ JVYY PNYY ONPX VS NAL PUNATRF<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/20/2014 12:01:12</gq><gq>QVF</gq><gq>107 J FPUBBY FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/20/2014 12:02:00</gq><gq>QVF</gq><gq>107 J FPUBBY FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/20/2014 12:02:31</gq><gq>OHF</gq><gq>107 J FPUBBY FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PIF15</gq><gq>09/20/2014 12:02:47</gq><gq>RAE</gq><gq>107 J FPUBBY FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PIP19</gq><gq>09/20/2014 12:03:00</gq><gq>RAE</gq><gq>107 J FPUBBY FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAPBA ng 308 J FLPNZBER FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00068324>14-00068324</n> nf bs 9/20/2014 7:41:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/20/2014 07:39:18</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>uvzryvpx,funeba - 937-974-8559</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>308 J FLPNZBER FG/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=308 J FLPNZBER FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/20/2014 07:39:45 : cbf1 : AEHUY]<oe>\aPebff fgerrgf: F NFU FG//JVYYBJ TEBIR EQ<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//RYVNFBA EQ<c>\a[09/20/2014 07:40:05 : cbf1 : AEHUY]<oe>\aorpxl fgebz ynlvat ba sybbe hapbaf...vf oernguvat<oe>\a<oe>\a[09/20/2014 07:40:35 : cbf1 : AEHUY]<oe>\awhfg tbg bhg bs ubfcvgny lrfgreqnl ers cbff fgebxr<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/20/2014 07:40:18</gq><gq>QVF</gq><gq>308 J FLPNZBER FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/20/2014 07:40:34</gq><gq>QVF</gq><gq>308 J FLPNZBER FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 4705 J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067975>14-00067975</n> nf bs 9/18/2014 23:35:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/18/2014 23:33:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>QBQQ,YRJVF - 765-960-8761</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4705 J ANGVBANY EQ #YBG 45/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4705 J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/18/2014 23:34:20 : cbf5 : QCVGPURE]<oe>\aYnaqznex: TERRA ZRNQBJ GENVYRE PBHEG<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//NVECBEG EQ<oe>\a<oe>\aJ/ BKLTRA BA<oe>\a70 L/B S<oe>\aPC ABG JVGU CG<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>09/18/2014 23:34:37</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>EZGE1</gq><gq>09/18/2014 23:34:40</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>EZGE1</gq><gq>09/18/2014 23:34:40</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>EZGE1</gq><gq>09/18/2014 23:34:40</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 600 A ZBEGBA NIR) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067505>14-00067505</n> nf bs 9/17/2014 11:01:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/17/2014 10:57:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>UNAQL,WNARG - 765-855-4015</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>600 A ZBEGBA NIR #37/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=600 A ZBEGBA NIR, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/17/2014 10:57:41 : cbf3 : ZZNATNF]<oe>\a<oe>\aPBCQ<oe>\a41 L/B ZNYR ORRA UNIVAT GEBHOYR SBE 3 QNLF<c>\a[09/17/2014 10:57:59 : cbf3 : ZZNATNF]<oe>\aQBBE VF HAYBPXRQ<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE2</gq><gq>09/17/2014 10:58:26</gq><gq>QVF</gq><gq>600 A ZBEGBA NIR, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/17/2014 11:00:14</gq><gq>QVF</gq><gq>600 A ZBEGBA NIR, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/17/2014 11:00:47</gq><gq>OHF</gq><gq>600 A ZBEGBA NIR, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 HAX ng JVYYBJ TEBIR EQ // HF 40) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067476>14-00067476</n> nf bs 9/17/2014 9:46:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/17/2014 09:43:07</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>UHZRF, PUEVF - 765-591-3627</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>JVYYBJ TEBIR EQ // HF 40/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=JVYYBJ TEBIR EQ // HF 40, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/17/2014 09:43:21 : cbf6 : RONVYRL]<oe>\a100 JVYYBJ TEBIR EQ<oe>\a<oe>\aIRU IF N ONPXUBR<c>\a[09/17/2014 09:43:30 : cbf6 : RONVYRL]<oe>\aIRU ERNE RAQRQ N ONPXUBR<oe>\a<oe>\a[09/17/2014 09:43:43 : cbf6 : RONVYRL]<oe>\aFRRZF QNMRQ BE QVBEVRAGRQ<oe>\a<oe>\a[09/17/2014 09:43:54 : cbf6 : RONVYRL]<oe>\aOYRRQVAT SEBZ GUR URNQ<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/17/2014 09:44:06</gq><gq>QVF</gq><gq>JVYYBJ TEBIR EQ // HF 40, PRAGREIVYYR</gq></ge>\a<ge><gq>PZ6</gq><gq>09/17/2014 09:44:34</gq><gq>QVF</gq><gq>JVYYBJ TEBIR EQ // HF 40, PRAGREIVYYR</gq></ge>\a<ge><gq>89-9</gq><gq>09/17/2014 09:45:06</gq><gq>QVF</gq><gq>JVYYBJ TEBIR EQ // HF 40, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/17/2014 09:45:31</gq><gq>QVF</gq><gq>JVYYBJ TEBIR EQ // HF 40, PRAGREIVYYR</gq></ge>\a<ge><gq>89-9</gq><gq>09/17/2014 09:45:38</gq><gq>RAE</gq><gq>JVYYBJ TEBIR EQ // HF 40, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAX ng 308 J FLNPNZBER FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067389>14-00067389</n> nf bs 9/16/2014 23:16:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/16/2014 23:13:18</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Irevmba Jveryrff - 937-974-8557</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>308 J FLNPNZBER FG/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=308 J FLNPNZBER FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/16/2014 23:14:42 : cbf4 : NOHPXYRE]<c>\a[09/16/2014 23:15:23 : cbf4 : NOHPXYRE]<oe>\aPBZR GB GUR SERAPU QBBEF<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/16/2014 23:15:05</gq><gq>QVF</gq><gq>308 J FLNPNZBER FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/16/2014 23:15:14</gq><gq>QVF</gq><gq>308 J FLNPNZBER FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: FCRNX J/BSS ng 4705 J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067305>14-00067305</n> nf bs 9/16/2014 18:06:03</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/16/2014 17:25:38</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>FCRNX J/BSS</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FUHYM,XVEXYRA - 765-969-1202</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4705 J ANGVBANY EQ #11/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4705 J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/16/2014 17:27:44 : cbf1 : GCRANENAQN]<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//NVECBEG EQ<oe>\aYnaqznex: TERRA ZRNQBJ GENVYRE PBHEG<oe>\a<oe>\aEBBZNGRF OBLSEVRAQ , QBA UBYSNPXRE, VF N PUVYQ ZBYRFGRE NAQ UR GBYQ UVZ ABG GB PBZR ONPX BIRE GB UVF UBHFR , UR GURA GUERNGRARQ GB PBZR BIRE NAQ ORNG HC GUR PNYYRE NAQ UVF CERTANAG TVEYSEVRAQ...FNVQ UR VF BA UVF JNL GURER ABJ , QEVIRF N OYX SBEQ ENATRE<c>\a[09/16/2014 17:28:33 : cbf1 : GCRANENAQN]<oe>\aQBA UBYSNPXRE YVIRF VA BUVB<oe>\a<oe>\a[09/16/2014 17:29:59 : cbf1 : GCRANENAQN]<oe>\a937-417-4966 VF QBAF PRYY<oe>\a<oe>\a[09/16/2014 17:57:57 : cbf4 : CZVYYRE]<oe>\aBGURE UNYS VF NG ZPQBANYQF...JVYY OR ONPX RAEBHGR GB CVPX HC PYBGURF NAQ JVYY OR YRNIVAT SBE GUR RIRAVAT<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>89-17</gq><gq>09/16/2014 17:28:50</gq><gq>RAE</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-17</gq><gq>09/16/2014 17:30:50</gq><gq>BAF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/16/2014 18:05:23</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>EZGE1</gq><gq>09/16/2014 18:05:29</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: FHVPVQR NGGC ng 3216 AJ O FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067200>14-00067200</n> nf bs 9/16/2014 12:10:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/16/2014 12:05:48</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>FHVPVQR NGGC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>QHFGVA YVAQFRL - 765-993-2049</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>3216 AJ O FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=3216 AJ O FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/16/2014 12:06:51 : cbf3 : AEHUY]<oe>\aPebff fgerrgf: YVPXPERRX QE//W S XRAARQL QE<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//RYVNFBA EQ<oe>\a<oe>\aNZNAQN YVAQFRL GBBX FRI GLYBARY NAQ PHGF GB URE JEVFG<c>\a[09/16/2014 12:07:55 : cbf3 : AEHUY]<oe>\a16-17 LEB SRZNYR   PBAF...FZNYY PHGF...TBG OYRRQVAT GB FGBC<oe>\a<oe>\a[09/16/2014 12:08:19 : cbf3 : AEHUY]<oe>\aFUR VF TRGGVAT GVERQ<oe>\a<oe>\a[09/16/2014 12:09:23 : cbf3 : AEHUY]<oe>\aPHG J/ENMBE OYNQR SEBZ FUNIRE....PC UNF ENMBE<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE2</gq><gq>09/16/2014 12:07:54</gq><gq>QVF</gq><gq>3216 AJ O FG, EVPUZBAQ</gq></ge>\a<ge><gq>89-27</gq><gq>09/16/2014 12:09:11</gq><gq>QVF</gq><gq>3216 AJ O FG, EVPUZBAQ</gq></ge>\a<ge><gq>89-32</gq><gq>09/16/2014 12:09:14</gq><gq>QVF</gq><gq>3216 AJ O FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/16/2014 12:09:16</gq><gq>QVF</gq><gq>3216 AJ O FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 228 JBBQYNJA NI) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067146>14-00067146</n> nf bs 9/16/2014 9:50:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/16/2014 09:47:29</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>OERRA,WREEL - 765-935-0004</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>228 JBBQYNJA NI/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=228 JBBQYNJA NI, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/16/2014 09:48:59 : cbf3 : AEHUY]<oe>\aPebff fgerrgf: PBAVAT QE//PERFGJBBQ YA<oe>\a<oe>\ajvsr vf jrnx cbff yvsg be genafcbeg ...ceri n-svo,fhtne,ba b2<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/16/2014 09:49:34</gq><gq>QVF</gq><gq>228 JBBQYNJA NI, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/16/2014 09:49:47</gq><gq>QVF</gq><gq>228 JBBQYNJA NI, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 311 R JNYAHG FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00066865>14-00066865</n> nf bs 9/15/2014 11:01:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/15/2014 10:58:52</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>LBHAT, XEVFGN - 317-800-3602</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>311 R JNYAHG FG/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=311 R JNYAHG FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/15/2014 10:59:17 : cbf5 : CZVYYRE]<oe>\aPebff fgerrgf: F ZBEGBA//F SBHGU FG<c>\a[09/15/2014 11:00:19 : cbf5 : CZVYYRE]<oe>\aTNOEVRY LBHAT 41 LB...URNEG CNGVRAG..QO...PC...PBYQ NAQ PYNZZL<oe>\a<oe>\a[09/15/2014 11:01:00 : cbf1 : VPEBHPU]<oe>\aGNP 3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/15/2014 10:59:27</gq><gq>QVF</gq><gq>311 R JNYAHG FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/15/2014 11:00:41</gq><gq>QVF</gq><gq>311 R JNYAHG FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 ng 520 J FLPNZBER FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00066237>14-00066237</n> nf bs 9/12/2014 22:18:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/12/2014 22:16:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>XREA, REVP - 765-960-6155</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>520 J FLPNZBER FG/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=520 J FLPNZBER FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/12/2014 22:16:51 : cbf5 : EQHANJNL89]<oe>\aPebff fgerrgf: ZNCYR FG//ZPZVAA EQ<oe>\a<oe>\aCBJRE YVARF NEPVAT ARNE N GERR ARKG GB GUR UBHFR ARKG QBBE<c>\a[09/12/2014 22:17:54 : cbf2 : NFPUARVQRE]<oe>\aGREEL FGBIRE GK 967-3661<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>09/12/2014 22:17:04</gq><gq>QVF</gq><gq>520 J FLPNZBER FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 300 A FNYVFOHEL EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00066234>14-00066234</n> nf bs 9/12/2014 21:56:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/12/2014 21:53:21</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ANCVRE,EBOREG - 765-993-6060</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>300 A FNYVFOHEL EQ #4/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=300 A FNYVFOHEL EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/12/2014 21:54:16 : cbf1 : NCVREPR]<oe>\aPebff fgerrgf: CRNPBPX EQ//PBYYRTR PBEARE EQ<oe>\aCBFFVOYR TNYY OYNQQRE NGGNPX<c>\a[09/12/2014 21:54:54 : cbf1 : NCVREPR]<oe>\a17 LE BYQ ZNYR<oe>\a<oe>\a[09/12/2014 21:55:26 : cbf5 : EQHANJNL89]<oe>\aGNP 3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/12/2014 21:54:35</gq><gq>QVF</gq><gq>300 A FNYVFOHEL EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/12/2014 21:55:34</gq><gq>QVF</gq><gq>300 A FNYVFOHEL EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 4705 J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00066146>14-00066146</n> nf bs 9/12/2014 16:41:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/12/2014 16:35:59</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>QVKBA, ORGGL - 765-935-6661</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4705 J ANGVBANY EQ #45/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4705 J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/12/2014 16:36:42 : cbf2 : ZPNVA]<oe>\aYnaqznex: TERRA ZRNQBJ GENVYRE PBHEG<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//NVECBEG EQ<oe>\a<oe>\aRYQREYL SRZNYR.<oe>\aQVSSVPHYGL OERNGUVAT.  OYBBQ CERFFHER RYRINGRQ<oe>\aPBHTUVAT NYBG<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE3</gq><gq>09/12/2014 16:36:51</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/12/2014 16:40:24</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/12/2014 16:40:27</gq><gq>OHF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 CV ng 1163 EVPR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00066066>14-00066066</n> nf bs 9/12/2014 12:00:03</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/12/2014 11:43:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 CV</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>YVGGYR YHI OHTF QNLPNER # 2 - 765-935-1253</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1163 EVPR EQ/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1163 EVPR EQ, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/12/2014 11:44:04 : cbf3 : ZZNATNF]<oe>\aPebff fgerrgf: HF 40 J//XRYYNZ EQ<oe>\a<oe>\aTERRA ZHFGNAT UVG PBZCF CNEXRQ PNE VA GUR CNEXVAT YBG<oe>\aHAFHER BS VAWHEVRF<c>\a[09/12/2014 11:59:20 : cbf4 : FUNMRYONXRE]<oe>\aYRT   VAWHEVRF<oe>\a<oe>\a[09/12/2014 11:59:39 : cbf4 : FUNMRYONXRE]<oe>\aFHOW EN CIRE  OL  IRU<oe>\a<oe>\a<c><c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>10-50 HAX</gq><gq>Vavgvny Nffvtazrag</gq><gq>09/12/2014 11:44:31</gq><gq>ZZNATNF</gq></ge>\a<ge><gq>10-50 CQ</gq><gq>09/12/2014 11:44:31</gq><gq>09/12/2014 11:58:46</gq><gq>ZZNATNF</gq></ge>\a<ge><gq>10-50 CV</gq><gq>09/12/2014 11:58:46</gq><gq>Svany Nffvtazrag</gq><gq>FUNMRYONXRE</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>89-9</gq><gq>09/12/2014 11:49:38</gq><gq>QVF</gq><gq>1163 EVPR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>89-9</gq><gq>09/12/2014 11:50:03</gq><gq>RAE</gq><gq>1163 EVPR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>89-9</gq><gq>09/12/2014 11:56:29</gq><gq>BAF</gq><gq>1163 EVPR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>EZGE2</gq><gq>09/12/2014 11:57:32</gq><gq>QVF</gq><gq>1163 EVPR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/12/2014 11:59:54</gq><gq>QVF</gq><gq>1163 EVPR EQ, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 ng 705 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065326>14-00065326</n> nf bs 9/10/2014 1:42:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/10/2014 01:38:29</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NZONFFNQBE URNYGUPNER YYP - 765-855-3424</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>705 R ZNVA FG #6/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=705 R ZNVA FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/10/2014 01:39:48 : cbf4 : NFPUARVQRE]<oe>\aYnaqznex: NZONFFNQBE URNYGU<oe>\aPebff fgerrgf: ZNGGVR UNEEVF EQ//<oe>\aIRAG HAVG ORQ N <oe>\aPBSSRR TEBHAQ SRPRF<c>\a[09/10/2014 01:41:15 : cbf6 : EQHANJNL89]<oe>\aEZGE ERD PISQ<oe>\a<oe>\a[09/10/2014 01:41:47 : cbf4 : NFPUARVQRE]<oe>\aPZ3 NQI<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/10/2014 01:40:13</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/10/2014 01:41:01</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PZ3</gq><gq>09/10/2014 01:41:52</gq><gq>RAE</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAPBA ng 705 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065318>14-00065318</n> nf bs 9/10/2014 0:21:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/10/2014 00:19:24</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NZONFFNQBE URNYGUPNER YYP - 765-855-3424</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>705 R ZNVA FG/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=705 R ZNVA FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/10/2014 00:20:12 : cbf6 : EQHANJNL89]<oe>\aYnaqznex: NZONFFNQBE URNYGU<oe>\aPebff fgerrgf: ZNGGVR UNEEVF EQ//<oe>\a<oe>\aJRFG HAVG  EZ 1<oe>\a<oe>\aURNQ VAWHEL VA NAQ BHG BS PBAF<c>\a[09/10/2014 00:21:00 : cbf4 : NFPUARVQRE]<oe>\aPZ3 NQI<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/10/2014 00:20:24</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/10/2014 00:20:25</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065277>14-00065277</n> nf bs 9/9/2014 20:38:13</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/09/2014 20:35:58</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/09/2014 20:36:33 : cbf6 : EQHANJNL89]<oe>\aYnaqznex Pbzzrag: ABGVSL PBHEG UBHFR FRPHEVGL BS NAL PNYYF QVFCNGPURQ QH<oe>\aYnaqznex: JNLAR PB NAARK<oe>\aPebff fgerrgf: 5GU FG//3EQ FG<oe>\a<oe>\a<oe>\aGRFG BAYL  <oe>\aGRFGVAT VFFHRF JVGU GUR CNTRE FLFGRZ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>09/09/2014 20:37:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 ng 4705 J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065228>14-00065228</n> nf bs 9/9/2014 17:19:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/09/2014 17:16:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Irevmba Jveryrff - 765-993-6935</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4705 J ANGVBANY EQ #11/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4705 J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/09/2014 17:16:51 : cbf5 : FGONYQJVA]<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//NVECBEG EQ<oe>\aYnaqznex: TERRA ZRNQBJ GENVYRE PBHEG<oe>\a<oe>\aFCNEXF PNZR BHG BS GUR YVTUG SVKGHER VAGUR XVGPURA<oe>\aABG FRRVAT NALGUVAT ABJ<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>JZG23</gq><gq>09/09/2014 17:17:46</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>JZG23</gq><gq>09/09/2014 17:17:50</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/09/2014 17:18:11</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 1571 EVPR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065209>14-00065209</n> nf bs 9/9/2014 16:09:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/09/2014 16:07:05</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Irevmba Jveryrff - 765-914-0723</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1571 EVPR EQ/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1571 EVPR EQ, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/09/2014 16:07:32 : cbf5 : FGONYQJVA]<oe>\aPebff fgerrgf: HF 40 J//XRYYNZ EQ<oe>\aARVTUOBE UNIVAT QO<c>\a[09/09/2014 16:07:41 : cbf5 : FGONYQJVA]<oe>\aBA CBEPU<oe>\a<oe>\a[09/09/2014 16:08:46 : cbf5 : FGONYQJVA]<oe>\aGNPU 3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/09/2014 16:08:00</gq><gq>QVF</gq><gq>1571 EVPR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/09/2014 16:08:22</gq><gq>QVF</gq><gq>1571 EVPR EQ, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAX ng 300 J ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065170>14-00065170</n> nf bs 9/9/2014 13:33:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/09/2014 13:29:37</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>TBBQJVA,ZNEL - 765-855-2530</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>300 J ZNVA FG/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=300 J ZNVA FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/09/2014 13:30:43 : cbf2 : ZZNATNF]<oe>\aPebff fgerrgf: NFU FG//JVYYBJ TEBIR EQ<oe>\a<oe>\aU/E 40 QVMML JRNX IBZVGVAT<oe>\a91 L/B SRZNYR<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/09/2014 13:31:06</gq><gq>QVF</gq><gq>300 J ZNVA FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/09/2014 13:32:45</gq><gq>QVF</gq><gq>300 J ZNVA FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 5149 J HF UJL 40) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065041>14-00065041</n> nf bs 9/9/2014 1:45:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/09/2014 01:44:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FNAQL - 765-966-2954</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>5149 J HF UJL 40 #16/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=5149 J HF UJL 40, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/09/2014 01:44:26 : cbf4 : NCVREPR]<oe>\aPebff fgerrgf: NVECBEG EQ//EVPR EQ<c>\a[09/09/2014 01:44:56 : cbf4 : NCVREPR]<oe>\aNQIVFVAT URE URNEG UHEGF<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>09/09/2014 01:44:50</gq><gq>QVF</gq><gq>5149 J HF UJL 40, PRAGREIVYYR</gq></ge>\a<ge><gq>EZGE1</gq><gq>09/09/2014 01:44:51</gq><gq>QVF</gq><gq>5149 J HF UJL 40, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAX ng 4171 UVTUYNAQ QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00064955>14-00064955</n> nf bs 9/8/2014 18:53:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/08/2014 18:51:13</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Irevmba Jveryrff - 765-977-7305</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4171 UVTUYNAQ QE/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4171 UVTUYNAQ QE, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/08/2014 18:51:47 : cbf5 : NFPUARVQRE]<oe>\aPebff fgerrgf: FJ A FG//F EBHAQ ONEA EQ<oe>\aQHNTUGRE UNIVAT FBZR XVAQ BS NGGNPX BA GUR SYBBE<c>\a[09/08/2014 18:52:01 : cbf5 : NFPUARVQRE]<oe>\aFUNPXVAT <oe>\aABG GNYX<oe>\a<oe>\a[09/08/2014 18:52:10 : cbf5 : NFPUARVQRE]<oe>\aSBNZ PBZVAT BHG BS URE ZBHGU<oe>\a<oe>\a[09/08/2014 18:52:21 : cbf5 : NFPUARVQRE]<oe>\aAB UK BS FRMHVERF<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE2</gq><gq>09/08/2014 18:52:49</gq><gq>QVF</gq><gq>4171 UVTUYNAQ QE, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/08/2014 18:52:49</gq><gq>QVF</gq><gq>4171 UVTUYNAQ QE, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-0 ng 4705 J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00064703>14-00064703</n> nf bs 9/7/2014 18:02:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/07/2014 16:12:35</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-0</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ZPPBYYBPU,YBEENVAR - 765-488-1688</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4705 J ANGVBANY EQ #62/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4705 J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>2014-JPPBEA-195</gq></ge>\a</gnoyr>\a<c>\a[09/07/2014 16:13:09 : cbf1 : CZVYYRE]<oe>\aYnaqznex: TERRA ZRNQBJ GENVYRE PBHEG<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//NVECBEG EQ<c>\a[09/07/2014 16:13:57 : cbf1 : CZVYYRE]<oe>\aYBEV ZPPBYYBPU<oe>\a<oe>\a[09/07/2014 16:14:42 : cbf1 : CZVYYRE]<oe>\aBA GUR SYBBE...ORGJRRA JNYY NAQ GUR QERFFRE...QNQ VF GELVAT GB TRG GB URE GB FGNEG PCE<oe>\a<oe>\a[09/07/2014 16:14:57 : cbf1 : CZVYYRE]<oe>\a51LB SRZNYR NYBG BS ZRQVPNY UVFGBEL<oe>\a<oe>\a[09/07/2014 16:15:32 : cbf1 : CZVYYRE]<oe>\aWHFG PNZR VAGB PURPX BA URE NAQ SBHAQ URE<oe>\a<oe>\a[09/07/2014 16:16:07 : cbf1 : CZVYYRE]<oe>\aSNGURE UNF WHFG TBGGRA URE BA URE ONPX VF GELVAT GB FGNEG PCE<oe>\a<oe>\a[09/07/2014 16:16:55 : cbf1 : CZVYYRE]<oe>\aPNAQVPR VF QNHTUGRE BA GUR CUBAR JVGU ZR JUVYR QNQ VF GELVAT GB PCE<oe>\a<oe>\a[09/07/2014 16:17:20 : cbf1 : CZVYYRE]<oe>\aERQ WVZZL NAQ OYHR ENATRE VA GUR QEVIR<oe>\a<oe>\a[09/07/2014 16:17:54 : cbf5 : AEHUY]<oe>\aPS1 PBZZNAQ<oe>\a<oe>\a[09/07/2014 16:18:02 : cbf1 : CZVYYRE]<oe>\aQNQ VF GELVAT GB QB PCE JVGU AB ERFCBAFR<oe>\a<oe>\a[09/07/2014 16:40:06 : cbf4 : GCRANENAQN]<oe>\aRZF # 0751<oe>\a<oe>\a[09/07/2014 17:28:55 : cbf4 : GCRANENAQN]<oe>\aENPURYYR 967-8056 VF RE SEBZ URNYGU QRCG<oe>\a<oe>\a[09/07/2014 17:42:56 : cbf4 : GCRANENAQN]<oe>\a2014-JPPBEA-195<oe>\a<oe>\a[09/07/2014 17:48:56 : cbf5 : AEHUY]<oe>\aZNYR RZCYBLRR SEBZ GUR URNYGU QRCG 76 NYFB {QVQAG PNGPU UVF ANZR}<oe>\a<oe>\a[09/07/2014 18:01:48 : cbf5 : NJUNYYBA]<oe>\aPZ4 NQI 89-300 ERD PISQ NFFVFGNAPR VA ERZBIVAT OBQL<oe>\a<oe>\a[09/07/2014 18:01:56 : cbf5 : NJUNYYBA]<oe>\aPISQ NFFVTARQ GNP 3<oe>\a<oe>\a<c><c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>10-52 HAPBA</gq><gq>Vavgvny Nffvtazrag</gq><gq>09/07/2014 17:33:01</gq><gq>CZVYYRE</gq></ge>\a<ge><gq>10-0</gq><gq>09/07/2014 17:33:01</gq><gq>Svany Nffvtazrag</gq><gq>GCRANENAQN</gq></ge>\a</gnoyr><c>\a<o>Crbcyr Vaibyirq</o>\a<gnoyr obeqre=1>\a<ge><gu>Vaibyirzrag</gu><gu>Anzr</gu><gu>E/F/U/J</gu><gu>Ntr</gu><gu>QBO</gu><gu>BYA</gu></ge>\a<ge><gq>Ivpgvz</gq><gq>ZPPBYYBPU, YBEENVAR</gq><gq>J/S/071/240</gq><gq>51-</gq><gq>1963-06-22</gq><gq>VA - 7210038996</gq></ge>\a<ge><gq>Jvgarff</gq><gq>ORYY, PNAQVPR</gq><gq>J/S/066/325</gq><gq>32-</gq><gq>1982-06-27</gq><gq>VA - 7210089725</gq></ge>\a<ge><gq>Jvgarff</gq><gq>ZPPBYYBPU, PNEY</gq><gq>J/Z/600/242</gq><gq>55-</gq><gq>1959-01-18</gq><gq>BU - EW445869</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/07/2014 16:13:46</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/07/2014 16:14:18</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/07/2014 16:14:33</gq><gq>OHF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/07/2014 16:14:43</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PIF15</gq><gq>09/07/2014 16:15:18</gq><gq>RAE</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PIP19</gq><gq>09/07/2014 16:15:50</gq><gq>RAE</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PIP19</gq><gq>09/07/2014 16:17:40</gq><gq>BAF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-32</gq><gq>09/07/2014 16:17:46</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PIF15</gq><gq>09/07/2014 16:17:56</gq><gq>BAF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-17</gq><gq>09/07/2014 16:22:10</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-32</gq><gq>09/07/2014 16:26:26</gq><gq>BAF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-5</gq><gq>09/07/2014 16:27:31</gq><gq>RAE</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-17</gq><gq>09/07/2014 16:28:37</gq><gq>BAF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-5</gq><gq>09/07/2014 16:34:03</gq><gq>BAF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PZ4</gq><gq>09/07/2014 16:46:31</gq><gq>RAE</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PZ4</gq><gq>09/07/2014 16:46:34</gq><gq>BAF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-17</gq><gq>09/07/2014 16:56:12</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PIF15</gq><gq>09/07/2014 17:09:03</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/07/2014 17:09:05</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PIP19</gq><gq>09/07/2014 17:09:08</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>89300</gq><gq>09/07/2014 17:42:21</gq><gq>BAF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PZ5</gq><gq>09/07/2014 17:57:16</gq><gq>RAE</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PZ5</gq><gq>09/07/2014 17:57:19</gq><gq>BAF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/07/2014 18:01:13</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAPBA ng 4705 J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00064703>14-00064703</n> nf bs 9/7/2014 16:15:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/07/2014 16:12:35</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ZPPBYYBPU,YBEENVAR - 765-488-1688</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4705 J ANGVBANY EQ #62/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4705 J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/07/2014 16:13:09 : cbf1 : CZVYYRE]<oe>\aYnaqznex: TERRA ZRNQBJ GENVYRE PBHEG<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//NVECBEG EQ<c>\a[09/07/2014 16:13:57 : cbf1 : CZVYYRE]<oe>\aYBEV ZPPBYYBPU<oe>\a<oe>\a[09/07/2014 16:14:42 : cbf1 : CZVYYRE]<oe>\aBA GUR SYBBE...ORGJRRA JNYY NAQ GUR QERFFRE...QNQ VF GELVAT GB TRG GB URE GB FGNEG PCE<oe>\a<oe>\a[09/07/2014 16:14:57 : cbf1 : CZVYYRE]<oe>\a51LB SRZNYR NYBG BS ZRQVPNY UVFGBEL<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/07/2014 16:13:46</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/07/2014 16:14:18</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/07/2014 16:14:33</gq><gq>OHF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/07/2014 16:14:43</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 607 R FPUBBY FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00064657>14-00064657</n> nf bs 9/7/2014 12:18:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/07/2014 12:16:13</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNEERA, ZVPUNRY - 765-855-3485</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>607 R FPUBBY FG/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=607 R FPUBBY FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/07/2014 12:16:22 : cbf2 : WQHXR]<oe>\aPebff fgerrgf: ZBEGBA NI//ZNGGVR UNEEVF EQ<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/07/2014 12:16:37</gq><gq>QVF</gq><gq>607 R FPUBBY FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/07/2014 12:17:26</gq><gq>QVF</gq><gq>607 R FPUBBY FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 407 J ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00064397>14-00064397</n> nf bs 9/6/2014 7:47:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/06/2014 07:45:29</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>WBUAFBA, QBEBGUL - 765-855-2630</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>407 J ZNVA FG/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=407 J ZNVA FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/06/2014 07:45:46 : cbf1 : AEHUY]<oe>\aPebff fgerrgf: JVYYBJ TEBIR EQ//ZPZVAA EQ<c>\a[09/06/2014 07:46:04 : cbf1 : AEHUY]<oe>\aCERI BCRA URNEG FHETREL<oe>\a<oe>\a[09/06/2014 07:46:13 : cbf1 : AEHUY]<oe>\a1 AVGEB AB ERYVRS<oe>\a<oe>\a[09/06/2014 07:46:25 : cbf1 : AEHUY]<oe>\aJRNEF N AVGEB CNGPU<oe>\a<oe>\a[09/06/2014 07:46:51 : cbf1 : AEHUY]<oe>\aCG VA GUR BGURE EBBZ<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/06/2014 07:46:09</gq><gq>QVF</gq><gq>407 J ZNVA FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/06/2014 07:46:51</gq><gq>QVF</gq><gq>407 J ZNVA FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 4705 J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00064374>14-00064374</n> nf bs 9/6/2014 1:03:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/06/2014 01:00:00</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>UHAG, LIBAAR - 765-939-1414</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4705 J ANGVBANY EQ #58/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4705 J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/06/2014 01:01:14 : cbf5 : GXBBEFRA]<oe>\aYnaqznex: TERRA ZRNQBJ GENVYRE PBHEG<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//NVECBEG EQ<oe>\a64 LB PBAPVBHF NAQ OERNGUVAT ABEZNYYL. <oe>\aFVPX JVGU SYH YVXR FLZCGBZF.<c>\a[09/06/2014 01:01:29 : cbf5 : GXBBEFRA]<oe>\aCNVA VA YBJRE PURFG NAQ FGBZNPU<oe>\a<oe>\a[09/06/2014 01:02:12 : cbf5 : GXBBEFRA]<oe>\aCYR GEHPX BHG SEBAG FRPBAQ GENVYRE BA GUR YRSG NAQ N FJVATFRG BHG SEBAGK<oe>\a<oe>\a<c><c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>10-52</gq><gq>Vavgvny Nffvtazrag</gq><gq>09/06/2014 01:02:16</gq><gq>GXBBEFRA</gq></ge>\a<ge><gq>10-52 PC</gq><gq>09/06/2014 01:02:16</gq><gq>Svany Nffvtazrag</gq><gq>GXBBEFRA</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>09/06/2014 01:02:19</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>EZGE1</gq><gq>09/06/2014 01:02:25</gq><gq>RAE</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 CQ ng 4705 J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00064331>14-00064331</n> nf bs 9/5/2014 21:27:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/05/2014 21:24:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 CQ</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ZVYYF,NYVPR - 765-965-2521</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4705 J ANGVBANY EQ/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4705 J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/05/2014 21:24:34 : cbf1 : WZOHPXYRE]<oe>\aYnaqznex: TERRA ZRNQBJ GENVYRE PBHEG<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//NVECBEG EQ<oe>\a<oe>\aZNA JNF UVG BA N ZBGBEPLPYR<c>\a[09/05/2014 21:25:00 : cbf1 : WZOHPXYRE]<oe>\aUR FGNGRF GUNG UR VF BX NAQ QBRF ABG JNAG NA NZOHYNAPR<oe>\a<oe>\a[09/05/2014 21:25:28 : cbf1 : WZOHPXYRE]<oe>\aRIRELOBQL VF SVAR NPPBEQVAT GB ZL PNYYRE<oe>\a<oe>\a[09/05/2014 21:25:49 : cbf1 : WZOHPXYRE]<oe>\aFUR FGNGRF RIRELOBQL VF GELVAT GB YRNIR<oe>\a<oe>\a[09/05/2014 21:26:14 : cbf6 : EOCNEXRE]<oe>\a2AQ PNYYRE FBZRBAR UVG FBZRBAR BA N FPBBGRE NPEBFF SEBZ TERRA ZRNQBJF. QEVIRE VF FGVYY YNLVAT BA GUR TEBHAQ. ERORPPN CBJRYY<oe>\a<oe>\a<c><c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>10-50 CV</gq><gq>Vavgvny Nffvtazrag</gq><gq>09/05/2014 21:26:40</gq><gq>WZOHPXYRE</gq></ge>\a<ge><gq>10-50 CQ</gq><gq>09/05/2014 21:26:40</gq><gq>Svany Nffvtazrag</gq><gq>WZOHPXYRE</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>89-13</gq><gq>09/05/2014 21:25:22</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/05/2014 21:26:11</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-13</gq><gq>09/05/2014 21:26:14</gq><gq>RAE</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-29</gq><gq>09/05/2014 21:26:46</gq><gq>RAE</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>ERVQ1</gq><gq>09/05/2014 21:26:55</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-29</gq><gq>09/05/2014 21:27:03</gq><gq>BAF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 ng 7374 GUERR JVGGF EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00064225>14-00064225</n> nf bs 9/5/2014 12:58:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/05/2014 12:55:19</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ENQRE TRBETR - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>7374 GUERR JVGGF EQ/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=7374 GUERR JVGGF EQ, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/05/2014 12:55:59 : cbf3 : WQHXR]<oe>\aPebff fgerrgf: FGRIRAF EQ//JVYYBJ TEBIR EQ<oe>\aNQG  1-877-238-7730<oe>\aUNYYJNL FZBXR NYZ<c>\a[09/05/2014 12:57:50 : cbf3 : WQHXR]<oe>\aG#3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>09/05/2014 12:57:56</gq><gq>QVF</gq><gq>7374 GUERR JVGGF EQ, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu:  ng 705 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00063993>14-00063993</n> nf bs 9/4/2014 17:52:05</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/04/2014 17:50:01</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NZONFFNQBE URNYGUPNER YYP - 765-855-3424</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>705 R ZNVA FG/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=705 R ZNVA FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>144966</gq></ge>\a</gnoyr>\a<c>\a[09/04/2014 17:50:56 : cbf3 : ZPNVA]<oe>\aYnaqznex: NZONFFNQBE URNYGU<oe>\aPebff fgerrgf: ZNGGVR UNEEVF EQ//<oe>\a<oe>\aAHEFR GENPL<oe>\aFZRYY BS FZBXR VA GUR FBHGU UNYY<oe>\aSVER NYNEZF TBVAT BSS.  PNA`G SVAQ GUR FBHEPR BS GUR FZBXR.  AB SVER FRRA<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE3</gq><gq>09/04/2014 17:51:22</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/04/2014 17:51:27</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a<ge><gq>NOSQ</gq><gq>09/04/2014 17:51:34</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a<ge><gq>RAT5</gq><gq>09/04/2014 17:51:42</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAX ng 111 A ZBEGBA NI) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00063273>14-00063273</n> nf bs 9/2/2014 9:21:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/02/2014 09:17:21</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Irevmba Jveryrff - 765-993-6141</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>111 A ZBEGBA NI/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=111 A ZBEGBA NI, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/02/2014 09:19:12 : cbf5 : AEHUY]<oe>\aYnaqznex: PRAGREIVYYR PUEVFGVNA PUHEPU<oe>\a<oe>\aPebff fgerrgf: CYHZ FG//ZNVA FG<oe>\a<oe>\aPRAGREIVYYR PUEVFGVNA PUHEPU   ABEGU QBBEF...ABG J/CG...RLRF BCRA..ABG ERFCBAQVAT PHG BA URNQ CBFF SRYY???<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE2</gq><gq>09/02/2014 09:19:40</gq><gq>QVF</gq><gq>111 A ZBEGBA NI, PRAGREIVYYR</gq></ge>\a<ge><gq>PZ1</gq><gq>09/02/2014 09:20:26</gq><gq>RAE</gq><gq>111 A ZBEGBA NI, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/02/2014 09:20:52</gq><gq>QVF</gq><gq>111 A ZBEGBA NI, PRAGREIVYYR</gq></ge>\a<ge><gq>89-34</gq><gq>09/02/2014 09:20:58</gq><gq>BAF</gq><gq>111 A ZBEGBA NI, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu:  ng 825 A U FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00063210>14-00063210</n> nf bs 9/2/2014 0:49:07</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/02/2014 00:39:39</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>ZNA QBJA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>QNEEVA - 765-277-6179</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>825 A U FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=825 A U FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>144886</gq></ge>\a</gnoyr>\a<c>\a[09/02/2014 00:40:32 : cbf1 : WZOHPXYRE]<oe>\aPebff fgerrgf: PURFGRE OYIQ//A 8GU FG<oe>\aPebff fgerrgf: A 24GU FG//<oe>\a<oe>\aTHL YNLVAT VA GUR NYYRL VA GUR TENFF<c>\a[09/02/2014 00:40:59 : cbf1 : WZOHPXYRE]<oe>\aFHOW YNLVAT BA UVF ONPX HAX VS UR VF OERNGUVAT QVQ ABG FGBC GB PURPX<oe>\a<oe>\a[09/02/2014 00:41:18 : cbf1 : WZOHPXYRE]<oe>\aJNF N ZVKRQ THL CBFFVOYR FUBEGF NAQ QNEX FUVEG<oe>\a<oe>\a[09/02/2014 00:41:28 : cbf1 : WZOHPXYRE]<oe>\aVA GUR NYYRL<oe>\a<oe>\a[09/02/2014 00:42:12 : cbf1 : WZOHPXYRE]<oe>\aEVTUG ORUVAQ GUR ARJ ERUNO PRAGRE ARNE GUR QBYYNE TRARENY<oe>\a<oe>\a[09/02/2014 00:42:51 : cbf1 : WZOHPXYRE]<oe>\aPNYYRE FGNGRF GUNG UR FGBCCRQ NAQ AHTTRQ UVZ UVF SNPR JNF OYHR<oe>\a<oe>\a[09/02/2014 00:42:58 : cbf1 : WZOHPXYRE]<oe>\aAB VAW BA UVZ<oe>\a<oe>\a[09/02/2014 00:43:21 : cbf1 : WZOHPXYRE]<oe>\aQVQ ABG ERFCBAQ JURA PNYYRE AHTTRQ UVZ UR JNF FJRNGVAT ERNYYL ONQ<oe>\a<oe>\a[09/02/2014 00:44:28 : cbf1 : WZOHPXYRE]<oe>\aPNYYRE VF TBVAT GB JNYX ONPX QBJA GB GUR NERN FB UR PNA FUBJ BSSVPREF JRER UR VF <oe>\a<oe>\aPBZVAT SEBZ 12GU NAQ U<oe>\a<oe>\a[09/02/2014 00:46:11 : cbf2 : EOCNEXRE]<oe>\aCRE 150, GURL NER ARNE GUR WHATYR TLZ NG GUR CYNLTEBHAQ ORUVAQ PYNFFVP ZBGBEF<oe>\a<oe>\a<c>\a<o>Iruvpyrf Vaibyirq</o>\a<gnoyr obeqre=1>\a<ge><gu>Cyngr</gu><gu>Lrne</gu><gu>Zbqry</gu><gu>IVA</gu><gu>Pbybe</gu><gu>Bjare</gu></ge>\a<ge><gq>849OJC</gq><gq></gq><gq></gq><gq></gq><gq></gq><gq> </ge>\a</gnoyr>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>150</gq><gq>09/02/2014 00:42:06</gq><gq>QVF</gq><gq>825 A U FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZRQ1</gq><gq>09/02/2014 00:42:06</gq><gq>QVF</gq><gq>825 A U FG, EVPUZBAQ</gq></ge>\a<ge><gq>154</gq><gq>09/02/2014 00:42:08</gq><gq>QVF</gq><gq>825 A U FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZRQ2</gq><gq>09/02/2014 00:43:01</gq><gq>RAE</gq><gq>825 A U FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZRQ1</gq><gq>09/02/2014 00:43:03</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>ERFP</gq><gq>09/02/2014 00:44:16</gq><gq>RAE</gq><gq>825 A U FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZRQ2</gq><gq>09/02/2014 00:45:06</gq><gq>BAF</gq><gq>825 A U FG, EVPUZBAQ</gq></ge>\a<ge><gq>154</gq><gq>09/02/2014 00:45:34</gq><gq>BAF</gq><gq>825 A U FG, EVPUZBAQ</gq></ge>\a<ge><gq>125</gq><gq>09/02/2014 00:47:08</gq><gq>BAF</gq><gq>825 A U FG, EVPUZBAQ</gq></ge>\a<ge><gq>ERFP</gq><gq>09/02/2014 00:48:28</gq><gq>BAF</gq><gq>825 A U FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/02/2014 00:48:41</gq><gq>QVF</gq><gq>825 A U FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/02/2014 00:48:43</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 ng 705 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00063208>14-00063208</n> nf bs 9/2/2014 0:49:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/02/2014 00:31:39</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NZONFFNQBE URNYGUPNER YYP - 765-855-3424</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>705 R ZNVA FG #3N/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=705 R ZNVA FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/02/2014 00:32:36 : cbf1 : WZOHPXYRE]<oe>\aYnaqznex: NZONFFNQBE URNYGU<oe>\aPebff fgerrgf: ZNGGVR UNEEVF EQ//<oe>\a<oe>\aOYRRQVAT CRES SEBZ URE GENPU BA IRAG UE VF RYRINGRQ NAQ O/C VF RYIRNGRQ<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>09/02/2014 00:32:53</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>09/02/2014 00:48:48</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 FZBXR ng JNGRE FG/ZPZVAA EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00062866>14-00062866</n> nf bs 8/31/2014 13:54:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/31/2014 13:50:17</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FZBXR</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JVFR,CUVY - 765-914-5770</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>JNGRE FG/ZPZVAA EQ/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=JNGRE FG/ZPZVAA EQ, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/31/2014 13:52:45 : cbf5 : FGONYQJVA]<oe>\aFBZRGUVAT BA SVER BA N CBYR<oe>\aUR GUVAXF<oe>\aPC VF BA N TBYS PBHEFR<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>08/31/2014 13:53:11</gq><gq>QVF</gq><gq>JNGRE FG/ZPZVAA EQ, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 311 ZHYOREEL OYIQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00062720>14-00062720</n> nf bs 8/30/2014 21:43:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/30/2014 21:41:51</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ZBFVRE, WNAR - 765-855-2791</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>311 ZHYOREEL OYIQ/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=311 ZHYOREEL OYIQ, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/30/2014 21:42:06 : cbf4 : QCVGPURE]<oe>\aPebff fgerrgf: R FPUBBY FG//R FBHGU FG<oe>\a<oe>\a73 L/B Z<c>\a[08/30/2014 21:42:53 : cbf1 : ZPNVA]<oe>\aPZ3 NQIVFRQ<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/30/2014 21:42:19</gq><gq>QVF</gq><gq>311 ZHYOREEL OYIQ, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>08/30/2014 21:42:58</gq><gq>QVF</gq><gq>311 ZHYOREEL OYIQ, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 NYNEZ ng 126 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00062555>14-00062555</n> nf bs 8/30/2014 10:11:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/30/2014 10:08:14</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 NYNEZ</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>PRAGREIVYYR YVOENEL - 765-855-5223</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>126 R ZNVA FG/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=126 R ZNVA FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/30/2014 10:08:39 : cbf6 : RONVYRL]<oe>\aYnaqznex: PRAGRE GBJAFUVC YVOENEL<oe>\aPebff fgerrgf: ZBEGBA NI//1FG FG<oe>\a<oe>\a1FG SYBBE RNFG FZBXR QRGRPGBE <oe>\aNAQ TRARENY NYNEZ<c>\a[08/30/2014 10:08:54 : cbf6 : RONVYRL]<oe>\aXBBEFRA<oe>\a800-443-8865<oe>\aBCRE 541<oe>\a<oe>\a[08/30/2014 10:10:02 : cbf1 : FUNMRYONXRE]<oe>\aAB NAFJRE BA GK<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>08/30/2014 10:10:13</gq><gq>QVF</gq><gq>126 R ZNVA FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PZ1</gq><gq>08/30/2014 10:10:35</gq><gq>QVF</gq><gq>126 R ZNVA FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAX ng 705 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00062265>14-00062265</n> nf bs 8/29/2014 12:39:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/29/2014 12:35:37</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NZONFFNQBE URNYGUPNER YYP - 765-855-3424</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>705 R ZNVA FG/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=705 R ZNVA FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/29/2014 12:36:00 : cbf3 : RONVYRL]<oe>\aYnaqznex: NZONFFNQBE URNYGU<oe>\aPebff fgerrgf: ZNGGVR UNEEVF EQ//<oe>\a<oe>\aRZCYBLRR QBJA<c>\a[08/29/2014 12:36:05 : cbf3 : RONVYRL]<oe>\aSEBAG RAGENAPR<oe>\a<oe>\a[08/29/2014 12:36:17 : cbf3 : RONVYRL]<oe>\aPBAF   NAQ OERNGUVAT CRE GUR PYREX<oe>\a<oe>\a[08/29/2014 12:36:31 : cbf3 : RONVYRL]<oe>\aVA NAQ BHG NAQ PBAF<oe>\a<oe>\a[08/29/2014 12:37:40 : cbf3 : RONVYRL]<oe>\aGNP 3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/29/2014 12:36:27</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>08/29/2014 12:38:11</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 3703 PBYYRTR PBEARE EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00061924>14-00061924</n> nf bs 8/28/2014 13:14:03</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/28/2014 13:13:05</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>QHCERR,SERQ - 765-966-4046</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>3703 PBYYRTR PBEARE EQ/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=3703 PBYYRTR PBEARE EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/28/2014 13:13:30 : cbf4 : QFHGGBA]<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//CVPXRG QE<c>\a[08/28/2014 13:13:47 : cbf4 : QFHGGBA]<oe>\a75 L/B SRZNYR<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>08/28/2014 13:13:48</gq><gq>QVF</gq><gq>3703 PBYYRTR PBEARE EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAPBA ng 705 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00061448>14-00061448</n> nf bs 8/27/2014 1:12:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/27/2014 01:08:54</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NZONFFNQBE URNYGUPNER YYP - 765-855-3424</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>705 R ZNVA FG #2N/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=705 R ZNVA FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/27/2014 01:09:39 : cbf1 : QCVGPURE]<oe>\aYnaqznex: NZONFFNQBE URNYGU<oe>\aPebff fgerrgf: ZNGGVR UNEEVF EQ//<oe>\a<oe>\aHAPBA OHG OERNGUVAT<oe>\a<oe>\aOBEA VA 1927<c>\a[08/27/2014 01:11:52 : cbf3 : NCVREPR]<oe>\agnp 4<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/27/2014 01:09:39</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>08/27/2014 01:11:29</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 CV ng 144 R VE 70) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00061324>14-00061324</n> nf bs 8/26/2014 15:27:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/26/2014 15:23:05</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 CV</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NG&G ZBOVYVGL - 618-520-2806</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>144 R VE 70/TERRAF SBEX<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=144 R VE 70, TERRAF SBEX, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/26/2014 15:24:08 : cbf6 : QFHGGBA]<oe>\aFBZRGUVAT OYRJ BSS GUR GEHPX NAQ<c>\a[08/26/2014 15:24:20 : cbf6 : QFHGGBA]<oe>\aFVYIRE SBEQ ZHFGNAT<oe>\a<oe>\a[08/26/2014 15:24:44 : cbf6 : QFHGGBA]<oe>\aARPX NAQ ONPX VAWHEVRF<oe>\a<oe>\a[08/26/2014 15:25:09 : cbf6 : QFHGGBA]<oe>\aYBAT NAQ FVYIRE FRZV  GEHPX URNQRQ RO<oe>\a<oe>\a[08/26/2014 15:26:42 : cbf6 : QFHGGBA]<oe>\aEHENY ZRGEB ABGVSVRQ<oe>\a<oe>\a<c><c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>10-50 CQ U&E</gq><gq>Vavgvny Nffvtazrag</gq><gq>08/26/2014 15:25:40</gq><gq>QFHGGBA</gq></ge>\a<ge><gq>10-50 CV</gq><gq>08/26/2014 15:25:40</gq><gq>Svany Nffvtazrag</gq><gq>QFHGGBA</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>08/26/2014 15:26:59</gq><gq>QVF</gq><gq>144 R VE 70, TERRAF SBEX</gq></ge>\a<ge><gq>EZGE1</gq><gq>08/26/2014 15:27:01</gq><gq>QVF</gq><gq>144 R VE 70, TERRAF SBEX</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 4705 J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00061198>14-00061198</n> nf bs 8/26/2014 8:54:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/26/2014 08:51:40</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>URZRAJNL, URAEL - 765-939-1414</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4705 J ANGVBANY EQ #58/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4705 J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/26/2014 08:52:51 : cbf5 : ZZNATNF]<oe>\aYnaqznex: TERRA ZRNQBJ GENVYRE PBHEG<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//NVECBEG EQ<oe>\a<oe>\aRKGERZR QVSSVPHYGL OERNGUVAT<oe>\aPBA NAQ NYREG<oe>\a44 L/B SRZNYR <oe>\aUK PBCQ<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>08/26/2014 08:53:28</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>EZGE1</gq><gq>08/26/2014 08:53:40</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 NYNEZ ng 215 R CNEXJNL QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00061192>14-00061192</n> nf bs 8/26/2014 8:35:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/26/2014 08:31:36</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 NYNEZ</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JRFGREA JNLAR UVTU FPUBBY - 765-478-5916</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>215 R CNEXJNL QE/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=215 R CNEXJNL QE, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/26/2014 08:32:45 : cbf6 : QFHGGBA]<oe>\aYnaqznex: YVAPBYA UVTU FPUBBY<oe>\aPebff fgerrgf: A YVAPBYA QE//INAQNYVN NI<oe>\aCBYR FGNGVBA FBHGU RKVG OL ZNVA BSSVPR NYNEZ<oe>\a18004321429<oe>\aBCRE S373<oe>\aXBBEFRA<c>\a<c><c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>OHFVARFF NYZ</gq><gq>Vavgvny Nffvtazrag</gq><gq>08/26/2014 08:33:50</gq><gq>QFHGGBA</gq></ge>\a<ge><gq>10-70 NYNEZ</gq><gq>08/26/2014 08:33:50</gq><gq>Svany Nffvtazrag</gq><gq>QFHGGBA</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>08/26/2014 08:34:56</gq><gq>QVF</gq><gq>215 R CNEXJNL QE, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAPBA ng 705 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00061151>14-00061151</n> nf bs 8/25/2014 23:42:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/25/2014 23:40:36</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NZONFFNQBE URNYGUPNER YYP - 765-855-3424</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>705 R ZNVA FG #O8/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=705 R ZNVA FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/25/2014 23:41:14 : cbf5 : QCVGPURE]<oe>\aYnaqznex: NZONFFNQBE URNYGU<oe>\aPebff fgerrgf: ZNGGVR UNEEVF EQ//<oe>\a<oe>\aIRAG HAVG<oe>\a<oe>\aOERNGUVAT OHG HAPBA<oe>\aPUNATR VA ZRAGNY FGNGHF<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/25/2014 23:41:25</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 23:41:31</gq><gq>QVF</gq><gq>705 R ZNVA FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAPBA ng 507 JVYYBJ TEBIR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00061106>14-00061106</n> nf bs 8/25/2014 20:16:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/25/2014 20:14:30</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NATRYN - 765-967-7150</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>507 JVYYBJ TEBIR EQ/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=507 JVYYBJ TEBIR EQ, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/25/2014 20:14:42 : cbf4 : NCVREPR]<oe>\aPebff fgerrgf: ZNCYR FG//OYHR & JUVGR OYIQ<oe>\aYnaqznex: PRAGREIVYYR UVTU FPUBBY<c>\a[08/25/2014 20:14:47 : cbf4 : NCVREPR]<oe>\aFBPPRE SVRYQF<oe>\a<oe>\a[08/25/2014 20:15:12 : cbf4 : NCVREPR]<oe>\aSRZNYR UNF TBAR QBJA HAXABJA VS FUR CNFFRQ BHG BE UNQ N FRVMHER<oe>\a<oe>\a[08/25/2014 20:15:23 : cbf4 : NCVREPR]<oe>\aVA GUR OYRNPUREF<oe>\a<oe>\a[08/25/2014 20:15:37 : cbf4 : NCVREPR]<oe>\aFUR VF PBAFP ABJ<oe>\a<oe>\a[08/25/2014 20:15:44 : cbf1 : NFPUARVQRE]<oe>\ajrfg fvqr bs gur svryq<oe>\a<oe>\a[08/25/2014 20:16:01 : cbf4 : NCVREPR]<oe>\a62 LE BYQ SRZNYR<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 20:15:39</gq><gq>QVF</gq><gq>507 JVYYBJ TEBIR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>PZ3</gq><gq>08/25/2014 20:16:00</gq><gq>RAE</gq><gq>507 JVYYBJ TEBIR EQ, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-0 ng 606 JVYYBJ TEBIR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00061067>14-00061067</n> nf bs 8/25/2014 17:07:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/25/2014 17:03:13</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-0</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>606 JVYYBJ TEBIR EQ/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=606 JVYYBJ TEBIR EQ, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/25/2014 17:03:46 : cbf5 : FGONYQJVA]<oe>\aPebff fgerrgf: ZNCYR FG//ZPZVAA EQ<oe>\aGURL PNYYRQ GUR PBEBAREF BSSVPRE NAQ GUR SHARENY UBZR<c>\a[08/25/2014 17:04:20 : cbf5 : FGONYQJVA]<oe>\aRYQREYL CREFBA <oe>\aQNHTUGRE SBHAQ URE<oe>\a<oe>\a[08/25/2014 17:04:34 : cbf5 : FGONYQJVA]<oe>\aPBEBARE JVYY OR 76<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 17:06:22</gq><gq>QVF</gq><gq>606 JVYYBJ TEBIR EQ, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 ng FGBARLOEBBX JNL) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00061065>14-00061065</n> nf bs 8/25/2014 16:59:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/25/2014 16:57:54</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FCRNEF, QRAAVF - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>FGBARLOEBBX JNL/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=FGBARLOEBBX JNL, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/25/2014 16:58:23 : cbf1 : ZZNATNF]<oe>\a<oe>\aPBZC ERPRVIRQ N QVERPG  PNYY BS NA BIREURNGRQ YVTUG SVKGHER<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 16:58:38</gq><gq>QVF</gq><gq>FGBARLOEBBX JNL, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAX ng 176 JBBQL QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060956>14-00060956</n> nf bs 8/25/2014 11:18:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/25/2014 11:09:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FGNAYRL,ANAPL - 765-277-0514</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>176 JBBQL QE/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=176 JBBQL QE, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/25/2014 11:09:50 : cbf5 : FGONYQJVA]<oe>\aPebff fgerrgf: PBAFGNAPR QE//JBYXR QE<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//RYVNFBA EQ<oe>\aZBGURE CNFFQ BHG<oe>\aABJ NJNXR<oe>\aOHG UNIVAT GEOY JNYXVAT<c>\a[08/25/2014 11:10:15 : cbf5 : FGONYQJVA]<oe>\aURNEG CEBOYRZF<oe>\a<oe>\a[08/25/2014 11:10:50 : cbf5 : FGONYQJVA]<oe>\aQNHTUGRE TRGGVAT URE VAGB N PUNVE<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/25/2014 11:10:24</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:11:07</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 11:11:08</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:11:15</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:13:49</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 11:13:52</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:13:56</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 11:14:00</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 11:14:02</gq><gq>OHF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PIF18</gq><gq>08/25/2014 11:17:37</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAX ng 176 JBBQL QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060956>14-00060956</n> nf bs 8/25/2014 11:15:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/25/2014 11:09:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FGNAYRL,ANAPL - 765-277-0514</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>176 JBBQL QE/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=176 JBBQL QE, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/25/2014 11:09:50 : cbf5 : FGONYQJVA]<oe>\aPebff fgerrgf: PBAFGNAPR QE//JBYXR QE<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//RYVNFBA EQ<oe>\aZBGURE CNFFQ BHG<oe>\aABJ NJNXR<oe>\aOHG UNIVAT GEOY JNYXVAT<c>\a[08/25/2014 11:10:15 : cbf5 : FGONYQJVA]<oe>\aURNEG CEBOYRZF<oe>\a<oe>\a[08/25/2014 11:10:50 : cbf5 : FGONYQJVA]<oe>\aQNHTUGRE TRGGVAT URE VAGB N PUNVE<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/25/2014 11:10:24</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:11:07</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 11:11:08</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:11:15</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:13:49</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 11:13:52</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:13:56</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 11:14:00</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 11:14:02</gq><gq>OHF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu:  ng 176 JBBQL QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060956>14-00060956</n> nf bs 8/25/2014 11:12:05</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/25/2014 11:09:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FGNAYRL,ANAPL - 765-277-0514</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>176 JBBQL QE/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=176 JBBQL QE, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/25/2014 11:09:50 : cbf5 : FGONYQJVA]<oe>\aPebff fgerrgf: PBAFGNAPR QE//JBYXR QE<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//RYVNFBA EQ<oe>\aZBGURE CNFFQ BHG<oe>\aABJ NJNXR<oe>\aOHG UNIVAT GEOY JNYXVAT<c>\a[08/25/2014 11:10:15 : cbf5 : FGONYQJVA]<oe>\aURNEG CEBOYRZF<oe>\a<oe>\a[08/25/2014 11:10:50 : cbf5 : FGONYQJVA]<oe>\aQNHTUGRE TRGGVAT URE VAGB N PUNVE<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/25/2014 11:10:24</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:11:07</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 11:11:08</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:11:15</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 1312 EVPR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060735>14-00060735</n> nf bs 8/24/2014 12:21:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/24/2014 12:14:37</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FCNYQVAT,GVAN - 317-987-0412</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1312 EVPR EQ/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1312 EVPR EQ, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/24/2014 12:15:12 : cbf1 : WQHXR]<oe>\aPebff fgerrgf: HF 40 J//XRYYNZ EQ<c>\a[08/24/2014 12:16:06 : cbf5 : CZVYYRE]<oe>\aGNP3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/24/2014 12:15:55</gq><gq>QVF</gq><gq>1312 EVPR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>08/24/2014 12:16:21</gq><gq>QVF</gq><gq>1312 EVPR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>08/24/2014 12:18:43</gq><gq>OHF</gq><gq>1312 EVPR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>PIF15</gq><gq>08/24/2014 12:20:00</gq><gq>QVF</gq><gq>1312 EVPR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>PIF15</gq><gq>08/24/2014 12:20:01</gq><gq>RAE</gq><gq>1312 EVPR EQ, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 1312 EVPR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060735>14-00060735</n> nf bs 8/24/2014 12:17:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/24/2014 12:14:37</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FCNYQVAT,GVAN - 317-987-0412</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1312 EVPR EQ/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1312 EVPR EQ, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/24/2014 12:15:12 : cbf1 : WQHXR]<oe>\aPebff fgerrgf: HF 40 J//XRYYNZ EQ<c>\a[08/24/2014 12:16:06 : cbf5 : CZVYYRE]<oe>\aGNP3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/24/2014 12:15:55</gq><gq>QVF</gq><gq>1312 EVPR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>08/24/2014 12:16:21</gq><gq>QVF</gq><gq>1312 EVPR EQ, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 FGEHPG ng 344 A WBUAFBA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060660>14-00060660</n> nf bs 8/24/2014 0:29:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/24/2014 00:27:30</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>YLAPU, YNHEVR - 765-478-9507</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>344 A WBUAFBA FG/QHOYVA<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=344 A WBUAFBA FG, QHOYVA, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/24/2014 00:28:03 : cbf1 : GXBBEFRA]<oe>\aPebff fgerrgf: R SENAXYVA FG//J QRYNJNER FG<c>\a[08/24/2014 00:28:33 : cbf1 : GXBBEFRA]<oe>\aPNA FRR SYNZRF VAFVQR ERF NAQ GURER VF SVER PBZVAT SEBZ HAQRE GUR ERMK<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>08/24/2014 00:28:41</gq><gq>QVF</gq><gq>344 A WBUAFBA FG, QHOYVA</gq></ge>\a<ge><gq>ZYSQ</gq><gq>08/24/2014 00:28:48</gq><gq>QVF</gq><gq>344 A WBUAFBA FG, QHOYVA</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 4705 J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060631>14-00060631</n> nf bs 8/23/2014 21:04:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/23/2014 21:01:00</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JUVGR, EBOREG - 765-462-8147</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4705 J ANGVBANY EQ #45/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4705 J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/23/2014 21:02:21 : cbf4 : WZOHPXYRE]<oe>\aUK BS PUS BA BKLTRA OC VF 223/198 <oe>\a<oe>\aWHFG ABG SRRYVAT JRYY UNIVAT FBZR QVSSVPHYG OERNGUVAT<c>\a[08/23/2014 21:02:44 : cbf2 : EOCNEXRE]<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//NVECBEG EQ<oe>\a<oe>\a[08/23/2014 21:04:02 : cbf5 : NJUNYYBA]<oe>\aGNP 3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/23/2014 21:03:00</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/23/2014 21:03:31</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 CQ ng NVECBEG EQ // HF 40) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060487>14-00060487</n> nf bs 8/23/2014 12:06:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/23/2014 11:12:18</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 CQ</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ABYGR, PUNQ - 765-914-7473</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>NVECBEG EQ // HF 40/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=NVECBEG EQ // HF 40, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>GJP14-0493</gq></ge>\a</gnoyr>\a<c>\a[08/23/2014 11:12:49 : cbf4 : QFHGGBA]<oe>\a3 IRUVPYRF VAIBYIRQ<oe>\aHAXBJA VAWHEVRF<c>\a[08/23/2014 11:13:10 : cbf1 : AEHUY]<oe>\a4 iruf<oe>\a<oe>\a[08/23/2014 11:13:11 : cbf5 : GCRANENAQN]<oe>\aZL PNYYRE NQI GURL NER 54  ,  3 IRUF<oe>\a<oe>\a[08/23/2014 11:13:23 : cbf4 : QFHGGBA]<oe>\a801 NVECBEG EQ<oe>\a<oe>\a[08/23/2014 11:13:31 : cbf5 : GCRANENAQN]<oe>\aZL PNYYRE  GNEN  EHFFRYY  265-6314<oe>\a<oe>\a[08/23/2014 11:15:29 : cbf2 : CZVYYRE]<oe>\aQEVIRE YBGGVR WBEQNA 969-3225<oe>\a<oe>\a[08/23/2014 11:18:51 : cbf4 : QFHGGBA]<oe>\aVFC GENSSVP NFFG<oe>\a<oe>\a[08/23/2014 11:20:38 : cbf5 : GCRANENAQN]<oe>\a89-5 AB PRAGREIVYYR SVER ARRQRQ<oe>\a<oe>\a[08/23/2014 11:21:06 : cbf4 : QFHGGBA]<oe>\a89-5 ERD 10-52, AB SVER ARRQRQ<oe>\a<oe>\a[08/23/2014 11:21:12 : cbf4 : QFHGGBA]<oe>\aEHENY ZRGEB RE<oe>\a<oe>\a[08/23/2014 11:25:19 : cbf5 : GCRANENAQN]<oe>\aCNEQBF  RE<oe>\a<oe>\a[08/23/2014 11:26:24 : cbf4 : QFHGGBA]<oe>\aGJP14-0493<oe>\a<oe>\a[08/23/2014 11:35:07 : 89-17 ]<oe>\aRZF 2651<oe>\a<oe>\a[08/23/2014 11:38:42 : 89-17 ]<oe>\aRZF 0751<oe>\a<oe>\a[08/23/2014 12:02:32 : cbf4 : QFHGGBA]<oe>\aONVYRLF<oe>\a<oe>\a<c><c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>10-50 HAX</gq><gq>Vavgvny Nffvtazrag</gq><gq>08/23/2014 11:13:37</gq><gq>QFHGGBA</gq></ge>\a<ge><gq>10-50 CQ</gq><gq>08/23/2014 11:13:37</gq><gq>Svany Nffvtazrag</gq><gq>QFHGGBA</gq></ge>\a</gnoyr><c>\a<o>Iruvpyrf Vaibyirq</o>\a<gnoyr obeqre=1>\a<ge><gu>Cyngr</gu><gu>Lrne</gu><gu>Zbqry</gu><gu>IVA</gu><gu>Pbybe</gu><gu>Bjare</gu></ge>\a<ge><gq>FIK656</gq><gq></gq><gq></gq><gq></gq><gq></gq><gq> </ge>\a<ge><gq>493TNQ</gq><gq></gq><gq></gq><gq></gq><gq></gq><gq> </ge>\a<ge><gq>FGO660</gq><gq></gq><gq></gq><gq></gq><gq></gq><gq> </ge>\a</gnoyr>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>89-5</gq><gq>08/23/2014 11:13:56</gq><gq>RAE</gq><gq>NVECBEG EQ // HF 40, PRAGREIVYYR</gq></ge>\a<ge><gq>89-5</gq><gq>08/23/2014 11:14:52</gq><gq>BAF</gq><gq>NVECBEG EQ // HF 40, PRAGREIVYYR</gq></ge>\a<ge><gq>89-17</gq><gq>08/23/2014 11:17:09</gq><gq>RAE</gq><gq>NVECBEG EQ // HF 40, PRAGREIVYYR</gq></ge>\a<ge><gq>89-32</gq><gq>08/23/2014 11:20:50</gq><gq>RAE</gq><gq>NVECBEG EQ // HF 40, PRAGREIVYYR</gq></ge>\a<ge><gq>EZGE1</gq><gq>08/23/2014 11:21:31</gq><gq>RAE</gq><gq>NVECBEG EQ // HF 40, PRAGREIVYYR</gq></ge>\a<ge><gq>89-32</gq><gq>08/23/2014 11:22:17</gq><gq>BAF</gq><gq>NVECBEG EQ // HF 40, PRAGREIVYYR</gq></ge>\a<ge><gq>89-32</gq><gq>08/23/2014 11:28:44</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>89-17</gq><gq>08/23/2014 11:33:30</gq><gq>BAF</gq><gq>NVECBEG EQ // HF 40, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>08/23/2014 12:05:35</gq><gq>QVF</gq><gq>NVECBEG EQ // HF 40, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 108 PBAVAT QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060404>14-00060404</n> nf bs 8/22/2014 23:40:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/22/2014 23:38:23</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FUHYGM GUBZNF - 765-935-9152</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>108 PBAVAT QE/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=108 PBAVAT QE, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/22/2014 23:38:34 : cbf1 : WEBOREGFBA89]<oe>\aPebff fgerrgf: JBBQYNJA NI//IVETVAVN NI<c>\a[08/22/2014 23:39:10 : cbf1 : WEBOREGFBA89]<oe>\aJBXR HC JVGU PC 10 ZVAHGRF NTB<oe>\a<oe>\a[08/22/2014 23:39:23 : cbf1 : WEBOREGFBA89]<oe>\a63 LB ZNYR AB URNEG UVFGBEL<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/22/2014 23:38:56</gq><gq>QVF</gq><gq>108 PBAVAT QE, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/22/2014 23:39:15</gq><gq>QVF</gq><gq>108 PBAVAT QE, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 IRUVPY ng HF 40 // ZVARENY FCEVATF EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060382>14-00060382</n> nf bs 8/22/2014 21:40:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/22/2014 21:38:34</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 IRUVPY</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FVQRYY, WBANGUNA - 765-698-8033</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>HF 40 // ZVARENY FCEVATF EQ/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=HF 40 // ZVARENY FCEVATF EQ, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/22/2014 21:39:00 : cbf6 : eocnexre]<oe>\a40 // ZVARENY FCEVATF EQ<c>\a[08/22/2014 21:39:07 : cbf6 : eocnexre]<oe>\aPNE BA SVER. PBZC VF BHG<oe>\a<oe>\a[08/22/2014 21:39:13 : cbf6 : eocnexre]<oe>\aBYQRE ZBQRY OHVPX.<oe>\a<oe>\a[08/22/2014 21:39:43 : cbf2 : GXBBEFRA]<oe>\aFZNYY CNFF PNE. JO YNARF YVAQN ZRRE 698-8033<oe>\a<oe>\a[08/22/2014 21:39:50 : cbf6 : eocnexre]<oe>\aPBZC VF GUR IRU BJARE.<oe>\a<oe>\a[08/22/2014 21:39:51 : cbf2 : GXBBEFRA]<oe>\a8800 HF 40<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>08/22/2014 21:39:37</gq><gq>QVF</gq><gq>40 // ZVARENY FCEVATF EQ, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 FGEBXR ng 3420 JVYYBJ TEBIR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060122>14-00060122</n> nf bs 8/22/2014 1:45:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/22/2014 01:43:47</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 FGEBXR</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>CREEL, PNEBYLA - 765-855-5635</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>3420 JVYYBJ TEBIR EQ/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=3420 JVYYBJ TEBIR EQ, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/22/2014 01:43:56 : cbf1 : QCVGPURE]<oe>\aPebff fgerrgf: ZPPBANUN EQ//GUERR JVGGF EQ<c>\a[08/22/2014 01:44:10 : cbf1 : QCVGPURE]<oe>\aobql vf pbyq ?<oe>\a<oe>\a[08/22/2014 01:44:14 : cbf1 : QCVGPURE]<oe>\aohg vf oernguvat<oe>\a<oe>\a[08/22/2014 01:44:21 : cbf1 : QCVGPURE]<oe>\a67 LB Z<oe>\a<oe>\a[08/22/2014 01:44:32 : cbf1 : QCVGPURE]<oe>\aYNFG FGEBXR JNF 2011<oe>\a<oe>\a[08/22/2014 01:44:51 : cbf5 : EQHANJNL89]<oe>\aGNP 3<oe>\a<oe>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>08/22/2014 01:44:18</gq><gq>QVF</gq><gq>3420 JVYYBJ TEBIR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>EZGE1</gq><gq>08/22/2014 01:44:36</gq><gq>QVF</gq><gq>3420 JVYYBJ TEBIR EQ, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 QO ng 4705 J ANGVBANY EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPISQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060048>14-00060048</n> nf bs 8/21/2014 21:07:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/21/2014 21:05:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 QO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>URZRAJNL, URAEL - 765-939-1414</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4705 J ANGVBANY EQ #YBG 58/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4705 J ANGVBANY EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/21/2014 21:06:25 : cbf6 : NOENQYRL]<oe>\aYnaqznex: TERRA ZRNQBJ GENVYRE PBHEG<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//NVECBEG EQ<c>\a<c><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/21/2014 21:06:50</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/21/2014 21:06:52</gq><gq>QVF</gq><gq>4705 J ANGVBANY EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Pnzoevqtr Pvgl SQ
-Ybpngvba: Pnzoevqtr Pvgl, VA, Havgrq Fgngrf
-Fraqre: 911@jnlarpb.hf
-Fraqre: nzbber@pb.jnlar.va.hf (Cbfgsvk Svygre Nppbhag)
-
-(911 Qvfcngpu: 10-70 ng 300 A CRNEY FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00069256>14-00069256</n> nf bs 9/23/2014 15:36:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/23/2014 15:34:13</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>QVYYBA, TREEL - 765-478-9556</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>300 A CRNEY FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=300 A CRNEY FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/23/2014 15:35:01 : cbf5 : FGONYQJVA]<oe>\aGUVAXF URE QVFUJNFURE JNF BA SVER<oe>\aVGF BHG OHG FUR JNAGF GURZ GB ERFCBAQ GB PURPX VG BHG<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PPSQ</gq><gq>09/23/2014 15:35:37</gq><gq>QVF</gq><gq>300 A CRNEY FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 2 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00068752>14-00068752</n> nf bs 9/22/2014 0:08:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/22/2014 00:05:55</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>XVAQRE, WNZRF - 765-478-4241</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>2 R ZNVA FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=2 R ZNVA FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/22/2014 00:06:10 : cbf1 : EOCNEXRE]<oe>\aYnaqznex: PBHAGEL ZNEX-SBEZRE FURYY <oe>\aPebff fgerrgf: PRAGRE FG//A PURFGAHG FG<c>\a[09/22/2014 00:06:24 : cbf1 : EOCNEXRE]<oe>\aURNEG VF ORNGVAT ERNYYL SNFG. <oe>\aJUBYR OBQL <oe>\aPUVYYF NAQ GVATYRF<oe>\a<oe>\a[09/22/2014 00:06:28 : cbf1 : EOCNEXRE]<oe>\a25 L/B ZNYR<oe>\a<oe>\a[09/22/2014 00:06:36 : cbf1 : EOCNEXRE]<oe>\aUNQ N 5 UE RARETL 2 UEF NTB<oe>\a<oe>\a[09/22/2014 00:06:56 : cbf1 : EOCNEXRE]<oe>\aURNEG CNYCVGNGVBAF VA GUR CNFG <oe>\aUVFG BS NAKVRGL NAQ QRCERFFVBA<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOFDQ</gq><gq>09/22/2014 00:07:05</gq><gq>QVF</gq><gq>2 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/22/2014 00:07:18</gq><gq>QVF</gq><gq>2 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAX ng 7 A TYRAJBBQ QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00068441>14-00068441</n> nf bs 9/20/2014 17:36:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/20/2014 17:33:14</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Irevmba Jveryrff - 765-914-0220</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>7 A TYRAJBBQ QE/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=7 A TYRAJBBQ QE, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/20/2014 17:34:05 : cbf1 : AEHUY]<oe>\aPebff fgerrgf: RZNVA FG//JUVGRJNGRE QE<oe>\aPebff fgerrgf: WNPXFBAOHET EQ//TREZNAGBJA EQ<c>\a[09/20/2014 17:35:29 : cbf1 : AEHUY]<oe>\aARVTUOBE NQWNPRAG SEBZ UVZ VA TNENTR OYRRQVAT SEBZ FBZRJURER??? VF OYVAXVAT NAQ OERNGUVAT<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>P3</gq><gq>09/20/2014 17:35:41</gq><gq>QVF</gq><gq>7 A TYRAJBBQ QE, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>P5</gq><gq>09/20/2014 17:35:49</gq><gq>RAE</gq><gq>7 A TYRAJBBQ QE, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>P3</gq><gq>09/20/2014 17:35:51</gq><gq>RAE</gq><gq>7 A TYRAJBBQ QE, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/20/2014 17:35:59</gq><gq>QVF</gq><gq>7 A TYRAJBBQ QE, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY44</gq><gq>09/20/2014 17:35:59</gq><gq>RAE</gq><gq>7 A TYRAJBBQ QE, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 ng 502 F TERRA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00068173>14-00068173</n> nf bs 9/19/2014 19:03:03</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/19/2014 18:58:31</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>WBUA UNVYRE - 765-541-8989</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>502 F TERRA FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=502 F TERRA FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/19/2014 18:59:45 : cbf1 : NOHPXYRE]<oe>\aPebff fgerrgf: F 4GU FG//F 6GU FG<oe>\aYnaqznex: FGRRYJBEXF ZRT QVIVFVBA<oe>\aPebff fgerrgf: OBLQ EQ//F JNYAHG FG<oe>\aFZBXR PBZVAT SEBZ N CVCR<c>\a[09/19/2014 19:00:01 : cbf1 : NOHPXYRE]<oe>\aCVCR BA GUR JRFG FVQR ONPX BS GUR SNPGBEL<oe>\a<oe>\a[09/19/2014 19:00:46 : cbf5 : WZOHPXYRE]<oe>\aPNOEVQTR QHOYVA ZVYGBA<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PPSQ</gq><gq>09/19/2014 19:02:15</gq><gq>QVF</gq><gq>502 F TERRA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOSQ</gq><gq>09/19/2014 19:02:23</gq><gq>QVF</gq><gq>502 F TERRA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>P5</gq><gq>09/19/2014 19:02:53</gq><gq>RAE</gq><gq>502 F TERRA FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 CV ng F FE 1 // OBLQ EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00068155>14-00068155</n> nf bs 9/19/2014 17:22:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/19/2014 17:17:46</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 CV</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ZBBERURNQ, WRAAVSRE - 765-265-4850</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>F FE 1 // OBLQ EQ/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=F FE 1 // OBLQ EQ, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/19/2014 17:18:46 : cbf3 : CZVYYRE]<oe>\a2300 F FE 1<oe>\aSBEQ RKCYBERE NAQ GBLBGN GEHPX<c>\a[09/19/2014 17:19:53 : cbf1 : VPEBHPU]<oe>\aSRZNYR VA BAR IRU VF CERTANAG ERD PURPX BHG   NAQ NABGURE FHO UNF N PHG BA UVF  SBEURNQ<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>10-50 CQ</gq><gq>Vavgvny Nffvtazrag</gq><gq>09/19/2014 17:20:22</gq><gq>CZVYYRE</gq></ge>\a<ge><gq>10-50 CV</gq><gq>09/19/2014 17:20:22</gq><gq>Svany Nffvtazrag</gq><gq>VPEBHPU</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>89-27</gq><gq>09/19/2014 17:19:18</gq><gq>QVF</gq><gq>F FE 1 // OBLQ EQ, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOFDQ</gq><gq>09/19/2014 17:21:28</gq><gq>QVF</gq><gq>F FE 1 // OBLQ EQ, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/19/2014 17:21:31</gq><gq>QVF</gq><gq>F FE 1 // OBLQ EQ, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 ng 12522 J HF 40) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067977>14-00067977</n> nf bs 9/18/2014 23:45:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/18/2014 23:42:18</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FRVTYRZNA, CNGEVPVN - 765-977-6635</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>12522 J HF 40 #YBG 37/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=12522 J HF 40, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/18/2014 23:43:39 : cbf4 : EQHANJNL89]<oe>\aYnaqznex: YRA QRY ZBOVYR UBZRF<oe>\aPebff fgerrgf: WNPXFBAOHET EQ//RNTYRJBBQ YA<oe>\aYRSG FVQR AHZOARFF  (ARPX NAQ NEZ NERN)  AB PC BE QO <oe>\aIVP ONEONEN<c>\a[09/18/2014 23:44:18 : cbf4 : EQHANJNL89]<oe>\aONEONEN PBBEZNA NTR 69<oe>\a<oe>\a[09/18/2014 23:45:03 : cbf1 : NFPUARVQRE]<oe>\aPNZO NPPVQRAGNY CYNPRQ BA PNYY QVFCNGPURE REEBE JP 17<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOFDQ</gq><gq>09/18/2014 23:44:20</gq><gq>QVF</gq><gq>12522 J HF 40, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/18/2014 23:44:37</gq><gq>QVF</gq><gq>12522 J HF 40, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/18/2014 23:44:40</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 ng 231 J SEBAG FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067684>14-00067684</n> nf bs 9/18/2014 0:27:03</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/18/2014 00:24:58</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>qbetna, yvfn - 765-478-6261</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>231 J SEBAG FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=231 J SEBAG FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/18/2014 00:25:44 : cbf6 : NOENQYRL]<oe>\auhfo cnffrq bhg ba gur sybbe<c>\a[09/18/2014 00:26:21 : cbf4 : QCVGPURE]<oe>\aPebff fgerrgf: PRAGRE FG//ZHYOREEL FG<oe>\a<oe>\a[09/18/2014 00:26:36 : cbf6 : NOENQYRL]<oe>\acg vf qvnorgvp<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOY40</gq><gq>09/18/2014 00:26:17</gq><gq>QVF</gq><gq>231 JRFG SEBAG FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/18/2014 00:26:21</gq><gq>QVF</gq><gq>231 J SEBAG FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 ng 18 UVTU FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067354>14-00067354</n> nf bs 9/16/2014 20:32:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/16/2014 20:29:51</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>LBHAT, QBHT - 765-914-3483</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>18 UVTU FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=18 UVTU FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/16/2014 20:30:38 : cbf6 : NOENQYRL]<oe>\aPebff fgerrgf: UVTU FGERRG//<oe>\aZRQ NAQ NYPUB<c>\a[09/16/2014 20:31:10 : cbf6 : NOENQYRL]<oe>\aZHFPYR FCNFZF<oe>\aABG HAPBA<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOY47</gq><gq>09/16/2014 20:31:26</gq><gq>QVF</gq><gq>18 UVTU FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/16/2014 20:31:42</gq><gq>QVF</gq><gq>18 UVTU FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 FRVMH ng 301 A TENUNZ FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067343>14-00067343</n> nf bs 9/16/2014 20:01:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/16/2014 19:56:38</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 FRVMH</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>WVZZL- EZ - 765-541-9925</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>301 A TENUNZ FG #300Q/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=301 A TENUNZ FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/16/2014 19:57:42 : cbf6 : NOENQYRL]<oe>\aYnaqznex: FGBARTNGR NCNEGZRAGF<oe>\aPebff fgerrgf: QRYNJNER FG//FUVEYVA QE<c>\a[09/16/2014 19:58:08 : cbf6 : NOENQYRL]<oe>\aYNLVAT BA GUR SYBBE QVFBEVRAGRQ<oe>\a<oe>\a[09/16/2014 19:58:28 : cbf6 : NOENQYRL]<oe>\aCBFF FRVMHER<oe>\a<oe>\a[09/16/2014 19:59:38 : cbf6 : NOENQYRL]<oe>\aERD RNEYL FUHG QBJA<oe>\a<oe>\a[09/16/2014 20:00:24 : cbf5 : NJUNYYBA]<oe>\aPNZOEVQTR PVGL 55 RE<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOFDQ</gq><gq>09/16/2014 19:58:21</gq><gq>QVF</gq><gq>301 A TENUNZ FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY44</gq><gq>09/16/2014 19:59:23</gq><gq>RAE</gq><gq>301 A TENUNZ FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY43</gq><gq>09/16/2014 19:59:42</gq><gq>RAE</gq><gq>301 A TENUNZ FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/16/2014 20:00:14</gq><gq>QVF</gq><gq>301 A TENUNZ FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 ng 214 F FRPBAQ FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067297>14-00067297</n> nf bs 9/16/2014 17:06:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/16/2014 16:58:55</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>WBUAFBA,RNEY - 765-312-1094</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>214 F FRPBAQ FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=214 F FRPBAQ FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/16/2014 17:00:13 : cbf1 : GCRANENAQN]<oe>\a<oe>\aFGEBAT FZRYY BS FZBXR SEBZ GUR ONPX BS UVF JBBQF<c>\a[09/16/2014 17:01:03 : cbf1 : GCRANENAQN]<oe>\aOL GUR CBJRE CYNAG<oe>\a<oe>\a[09/16/2014 17:01:19 : cbf1 : GCRANENAQN]<oe>\aFHAFGNGVBA VF VA UVF SEBAG LNEQ<oe>\a<oe>\a[09/16/2014 17:03:40 : cbf1 : GCRANENAQN]<oe>\aPebff fgerrgf: CYHZ FG//ZHYOREEL FG<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PPSQ</gq><gq>09/16/2014 17:05:08</gq><gq>QVF</gq><gq>214 F FRPBAQ FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: ZRQVPNY NYEZ ng 105 A TNL FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00067298>14-00067298</n> nf bs 9/16/2014 17:03:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/16/2014 16:59:51</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>ZRQVPNY NYEZ</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-478-9491</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>105 A TNL FG/CREFUVAT<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=105 A TNL FG, CREFUVAT, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/16/2014 17:01:22 : cbf3 : AEHUY]<oe>\aPebff fgerrgf: DHRRA FG//ZNVA FG<oe>\a<oe>\aOYBBQ FHTNE 37 PUNEYRAR RQEVTR 42 LEB SRZNYR ....FBA VF GURER JVGU URE     800-508-6370/PNER PRAGRE  JP8<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOY40</gq><gq>09/16/2014 17:02:34</gq><gq>QVF</gq><gq>105 A TNL FG, CREFUVAT</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/16/2014 17:02:39</gq><gq>QVF</gq><gq>105 A TNL FG, CREFUVAT</gq></ge>\a<ge><gq>QOFDQ</gq><gq>09/16/2014 17:02:46</gq><gq>QVF</gq><gq>105 A TNL FG, CREFUVAT</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 24 A TNL FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00066796>14-00066796</n> nf bs 9/15/2014 8:00:03</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/15/2014 07:58:11</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>yvatrasrygre,pneby - 765-478-3405</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>24 A TNL FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=24 A TNL FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/15/2014 07:58:36 : cbf1 : VPEBHPU]<oe>\aPebff fgerrgf: SEBAG FG//2AQ FG<oe>\a<oe>\a76 lb srznyr<c>\a[09/15/2014 07:58:44 : cbf1 : VPEBHPU]<oe>\avf pbaf naq nyreg<oe>\a<oe>\a[09/15/2014 07:59:30 : cbf1 : VPEBHPU]<oe>\acnva fgnegrq nebhaq 3 nz<oe>\a<oe>\a[09/15/2014 07:59:38 : cbf1 : VPEBHPU]<oe>\agvatyvat va nez naq wnj<oe>\a<oe>\a[09/15/2014 07:59:41 : cbf5 : CZVYYRE]<oe>\aGNP3<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PPSQ</gq><gq>09/15/2014 07:59:44</gq><gq>QVF</gq><gq>24 A TNL FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOFDQ</gq><gq>09/15/2014 07:59:53</gq><gq>QVF</gq><gq>24 A TNL FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 1000 ANGVBANY EQ-ZG NHOHEA) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00066751>14-00066751</n> nf bs 9/14/2014 23:01:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/14/2014 22:58:45</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>CRGREF, ZNEGVAN - 911-635-1328</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1000 ANGVBANY EQ-ZG NHOHEA/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1000 ANGVBANY EQ-ZG NHOHEA, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/14/2014 22:59:29 : cbf4 : NCVREPR]<oe>\aPebff fgerrgf: QNYR NI//OBHAQEL FG<oe>\apc<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOY40</gq><gq>09/14/2014 23:00:15</gq><gq>QVF</gq><gq>1000 ANGVBANY EQ-ZG NHOHEA, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/14/2014 23:00:27</gq><gq>QVF</gq><gq>1000 ANGVBANY EQ-ZG NHOHEA, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: ZRQVPNY NYEZ ng 116 F ZNEXRG FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00066618>14-00066618</n> nf bs 9/14/2014 14:23:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/14/2014 14:18:01</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>ZRQVPNY NYEZ</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>SERRQ,YNLYN - 765-478-3735</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>116 F ZNEXRG FG/CREFUVAT<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=116 F ZNEXRG FG, CREFUVAT, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/14/2014 14:20:06 : cbf4 : FGONYQJVA]<oe>\aPebff fgerrgf: ZNVA FG//XVAT<oe>\aSRYY NAQ JNAGF GB TB GB GUR UBFCVGNY<oe>\aSNYYF RIRELGVZR FUR GEVRF GB TRG HC<oe>\aYVSRYVAR <oe>\a888 289 2018<oe>\a#18743373<c>\a[09/14/2014 14:20:29 : cbf4 : FGONYQJVA]<oe>\aUNIR GURZ CHFU OHGGBA NAQ ERFRG URE NYNEZ<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOFDQ</gq><gq>09/14/2014 14:21:35</gq><gq>QVF</gq><gq>116 F ZNEXRG FG, CREFUVAT</gq></ge>\a<ge><gq>QOY44</gq><gq>09/14/2014 14:22:01</gq><gq>QVF</gq><gq>116 F ZNEXRG FG, CREFUVAT</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/14/2014 14:22:12</gq><gq>QVF</gq><gq>116 F ZNEXRG FG, CREFUVAT</gq></ge>\a<ge><gq>QOFDQ</gq><gq>09/14/2014 14:22:15</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAX ng 659 F FVKGU FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00066608>14-00066608</n> nf bs 9/14/2014 13:22:03</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/14/2014 13:18:45</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>QHQYRL, QBA - 765-478-4574</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>659 F FVKGU FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=659 F FVKGU FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/14/2014 13:19:30 : cbf1 : FUNMRYONXRE]<oe>\aPebff fgerrgf: IVAR FG//OBHAQEL FG<oe>\aNEZ  NAQ   ONPX  CNVA <oe>\aPNZR BA  FHQQRA <oe>\aIREL   FHQQRA <oe>\aUK  BS URNEG  VFFHRF<c>\a[09/14/2014 13:20:01 : cbf1 : FUNMRYONXRE]<oe>\aCERFFHER VA  WNJ   NAQ   ONPX<oe>\a<oe>\a[09/14/2014 13:20:12 : cbf1 : FUNMRYONXRE]<oe>\aVF  IBZVGVAT<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>P4</gq><gq>09/14/2014 13:20:29</gq><gq>QVF</gq><gq>659 F FVKGU FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOFDQ</gq><gq>09/14/2014 13:21:13</gq><gq>QVF</gq><gq>659 F FVKGU FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/14/2014 13:21:28</gq><gq>QVF</gq><gq>659 F FVKGU FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAPBA ng 214 FR FRPBAQ FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00066562>14-00066562</n> nf bs 9/14/2014 6:35:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/14/2014 06:32:11</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>WBUAFBA,RNEY - 765-312-1094</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>214 FR FRPBAQ FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=214 FR FRPBAQ FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/14/2014 06:32:19 : cbf5 : ZZNATNF]<oe>\aPebff fgerrgf: CYHZ FG//ZHYOREEL FG<c>\a[09/14/2014 06:32:45 : cbf5 : ZZNATNF]<oe>\aSNPR VF ERQ<oe>\a<oe>\aUR VF ZBIVAT<oe>\a<oe>\a[09/14/2014 06:33:02 : cbf5 : ZZNATNF]<oe>\a60 L/B<oe>\a<oe>\aBA BKLTRA<oe>\a<oe>\a[09/14/2014 06:33:19 : cbf5 : ZZNATNF]<oe>\aPNZR BHG BS GUR ONGUEBBZ NAQ WHFG SRYY<oe>\a<oe>\a[09/14/2014 06:33:41 : cbf5 : ZZNATNF]<oe>\aABG ERFCBAQVAT<oe>\a<oe>\a[09/14/2014 06:33:52 : cbf5 : ZZNATNF]<oe>\aGELVAT GB GNYX<oe>\a<oe>\a[09/14/2014 06:34:01 : cbf2 : RONVYRL]<oe>\agnp 3<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>P4</gq><gq>09/14/2014 06:32:49</gq><gq>QVF</gq><gq>214 FR FRPBAQ FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOFDQ</gq><gq>09/14/2014 06:34:13</gq><gq>QVF</gq><gq>214 FR FRPBAQ FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/14/2014 06:34:23</gq><gq>QVF</gq><gq>214 FR FRPBAQ FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAPBA ng WBARF FG // 40) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00066384>14-00066384</n> nf bs 9/13/2014 14:52:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/13/2014 14:47:22</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FGRRYR,ZVPURYYR - 765-541-9458</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>WBARF FG // 40/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=WBARF FG // 40, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/13/2014 14:49:01 : cbf5 : FGONYQJVA]<oe>\aWBARF FG // 40<oe>\aSRZNYR VF VA N OYX INA NCCRNEF CNFFRQ BHG<oe>\aCHXR RIRELJURER<oe>\aFUR VF ABG ZBIVAT NEBHAQ<oe>\aNG GUR BYQ CVMMN XVAT<oe>\a<oe>\aPC FCBXR JVGU N ZNA JUB FNVQ VF N 1FG ERFCBAQRE FNVQ GC PNYY 911<c>\a[09/13/2014 14:49:21 : cbf5 : FGONYQJVA]<oe>\aFUR VF VA N OYX HCBYUFGREL INA BA GUR FVQR BS GUR OHVYQVAT<oe>\a<oe>\a[09/13/2014 14:49:51 : cbf5 : FGONYQJVA]<oe>\aPC JVYY FGNL VA GUR NERN GB SYNT CCY BIRE<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>P4</gq><gq>09/13/2014 14:49:59</gq><gq>QVF</gq><gq>WBARF FG // 40, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY43</gq><gq>09/13/2014 14:51:19</gq><gq>RAE</gq><gq>WBARF FG // 40, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/13/2014 14:51:35</gq><gq>QVF</gq><gq>WBARF FG // 40, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY44</gq><gq>09/13/2014 14:51:50</gq><gq>RAE</gq><gq>WBARF FG // 40, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAPBA ng 1855 R PHZOREYNAQ FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065628>14-00065628</n> nf bs 9/10/2014 22:25:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/10/2014 22:21:16</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Irevmba Jveryrff - 765-238-8972</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1855 R PHZOREYNAQ FG/QHOYVA<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1855 R PHZOREYNAQ FG, QHOYVA, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/10/2014 22:22:13 : cbf1 : WZOHPXYRE]<oe>\aPebff fgerrgf: OBHAQEL FG//JVGG FG<oe>\a<oe>\a37 LB FBA VF ABG C<c>\a[09/10/2014 22:22:36 : cbf1 : WZOHPXYRE]<oe>\aPebff fgerrgf: JVGG FG//F SBHAQEL FG<oe>\aFcrpvny Pbzzrag:: QNHTUGRE VF 10-96 RZF ERD CQ FRAG J/ GURZ BA EHAF FRR<oe>\a<oe>\a[09/10/2014 22:23:17 : cbf1 : WZOHPXYRE]<oe>\aFBA VF ABG OERNGUVAT<oe>\a<oe>\a[09/10/2014 22:23:49 : cbf2 : EOCNEXRE]<oe>\aPBZC FNLF FUR VF FHER UR VF QRNQ.<oe>\a<oe>\a[09/10/2014 22:24:59 : cbf2 : EOCNEXRE]<oe>\aPBZC XRRCF FNLVAT ~UR`F TBAR~ ~UR`F TBAR~<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>TRARENY</gq><gq>Vavgvny Nffvtazrag</gq><gq>09/10/2014 22:22:59</gq><gq>WZOHPXYRE</gq></ge>\a<ge><gq>TRARENY</gq><gq>09/10/2014 22:22:59</gq><gq>09/10/2014 22:23:00</gq><gq>WZOHPXYRE</gq></ge>\a<ge><gq>10-52 HAPBA</gq><gq>09/10/2014 22:23:00</gq><gq>Svany Nffvtazrag</gq><gq>WEBOREGFBA89</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOFDQ</gq><gq>09/10/2014 22:22:55</gq><gq>QVF</gq><gq>1855 R PHZOREYNAQ FG, QHOYVA</gq></ge>\a<ge><gq>P6</gq><gq>09/10/2014 22:24:04</gq><gq>QVF</gq><gq>1855 R PHZOREYNAQ FG, QHOYVA</gq></ge>\a<ge><gq>89-13</gq><gq>09/10/2014 22:24:12</gq><gq>QVF</gq><gq>1855 R PHZOREYNAQ FG, QHOYVA</gq></ge>\a<ge><gq>QOY44</gq><gq>09/10/2014 22:24:31</gq><gq>RAE</gq><gq>1855 R PHZOREYNAQ FG, QHOYVA</gq></ge>\a<ge><gq>P6</gq><gq>09/10/2014 22:24:39</gq><gq>RAE</gq><gq>1855 R PHZOREYNAQ FG, QHOYVA</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/10/2014 22:24:41</gq><gq>QVF</gq><gq>1855 R PHZOREYNAQ FG, QHOYVA</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 FRVMH ng 16786 UHAAVPHG EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065606>14-00065606</n> nf bs 9/10/2014 20:50:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/10/2014 20:47:58</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 FRVMH</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>UBQBJNY, QROBENU - 765-478-4202</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>16786 UHAAVPHG EQ/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=16786 UHAAVPHG EQ, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/10/2014 20:48:45 : cbf1 : WZOHPXYRE]<oe>\a24 LB UNIVAT N FRVMHER <oe>\a<oe>\aUNF N UK BS FRVMHERF<c>\a[09/10/2014 20:49:10 : cbf1 : WZOHPXYRE]<oe>\aPBZVAT BHG BS VG NG GUVF GVZR<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOFDQ</gq><gq>09/10/2014 20:48:50</gq><gq>QVF</gq><gq>16786 UHAAVPHG EQ, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/10/2014 20:49:15</gq><gq>QVF</gq><gq>16786 UHAAVPHG EQ, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065277>14-00065277</n> nf bs 9/9/2014 20:38:10</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/09/2014 20:35:58</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/09/2014 20:36:33 : cbf6 : EQHANJNL89]<oe>\aYnaqznex Pbzzrag: ABGVSL PBHEG UBHFR FRPHEVGL BS NAL PNYYF QVFCNGPURQ QH<oe>\aYnaqznex: JNLAR PB NAARK<oe>\aPebff fgerrgf: 5GU FG//3EQ FG<oe>\a<oe>\a<oe>\aGRFG BAYL  <oe>\aGRFGVAT VFFHRF JVGU GUR CNTRE FLFGRZ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/09/2014 20:37:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>09/09/2014 20:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>09/09/2014 20:37:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAX ng 20 F SBBGR FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00065163>14-00065163</n> nf bs 9/9/2014 12:52:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/09/2014 12:49:54</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>YHZCL`F ERFGNHENAG - 765-478-6510</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>20 F SBBGR FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=20 F SBBGR FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/09/2014 12:50:15 : cbf3 : FUNMRYONXRE]<oe>\aYnaqznex: YHZCL`F ERFGNHENAG<oe>\aPebff fgerrgf: J ZNVA FG//PUHEPU FG<c>\a[09/09/2014 12:50:53 : cbf3 : FUNMRYONXRE]<oe>\aRYQREYL  SRZ  CNFFRQ BHG NAQ  ONPX PBAP  ABJ<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOY44</gq><gq>09/09/2014 12:51:26</gq><gq>QVF</gq><gq>20 F SBBGR FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/09/2014 12:51:43</gq><gq>QVF</gq><gq>20 F SBBGR FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 ng 300 A TENUNZ FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00064741>14-00064741</n> nf bs 9/7/2014 19:53:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/07/2014 19:40:16</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>LBHAT, GNFUN - 765-541-1047</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>300 A TENUNZ FG #O/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=300 A TENUNZ FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/07/2014 19:41:26 : cbf1 : EOCNEXRE]<oe>\aPebff fgerrgf: QRYNJNER FG//FUVEYVA QE<oe>\aTENAQZN SENPGHERQ N OBAR VA URE UVC N JUVYR ONPX, PBZC GUVAXF FUR UNF NABGURE SENPGHER GUNG GUR QBPGBE QVQA`G SVAQ. FUR PNA ONERYL FVG HC<oe>\a<oe>\aABA RZRETRAG<oe>\aERD FVYRAG EHA.<c>\a[09/07/2014 19:41:48 : cbf1 : EOCNEXRE]<oe>\aUVC VF OHYTVAT/CNVASHY.<oe>\a<oe>\a[09/07/2014 19:42:30 : cbf4 : NOENQYRL]<oe>\aPebff fgerrgf: QRYNJNER FG//FUVEYVA QE<oe>\a<oe>\a[09/07/2014 19:48:27 : cbf5 : NJUNYYBA]<oe>\aPebff fgerrgf: QRYNJNER FG//FUVEYVA QE<oe>\aFcrpvny Pbzzrag:: ZHYGVCYR RQTRQ JRNCBAF VA ERF<oe>\a<oe>\a[09/07/2014 19:52:02 : cbf5 : NJUNYYBA]<oe>\aPNZOEVQTR 55-4 RE<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOFDQ</gq><gq>09/07/2014 19:42:22</gq><gq>QVF</gq><gq>304 A TENUNZ FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY43</gq><gq>09/07/2014 19:43:17</gq><gq>RAE</gq><gq>304 A TENUNZ FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY43</gq><gq>09/07/2014 19:48:10</gq><gq>BAF</gq><gq>304 A TENUNZ FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOFDQ</gq><gq>09/07/2014 19:52:09</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/07/2014 19:52:18</gq><gq>QVF</gq><gq>300 A TENUNZ FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/07/2014 19:52:23</gq><gq>OHF</gq><gq>300 A TENUNZ FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 FGEBXR ng 1220 ANGVBANY EQ-ZG NHOHEA) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00064732>14-00064732</n> nf bs 9/7/2014 19:14:05</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/07/2014 19:12:31</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 FGEBXR</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>YRRXN, FUNEBA - 765-524-3972</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1220 ANGVBANY EQ-ZG NHOHEA/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1220 ANGVBANY EQ-ZG NHOHEA, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/07/2014 19:13:21 : cbf1 : EOCNEXRE]<oe>\aPebff fgerrgf: QNYR NI//OBHAQEL FG<oe>\aYnaqznex: YNXRIVRJ ERFGNHENAG<c>\a[09/07/2014 19:13:40 : cbf1 : EOCNEXRE]<oe>\a91 L/B SRZNYR GUVAXF FUR`F UNIVAT N FGEBXR<oe>\a<oe>\aPNA`G ERZRZORE NALGUVAT<oe>\a<oe>\a[09/07/2014 19:13:47 : cbf1 : EOCNEXRE]<oe>\aQBEBGUL YRRFBA VF GUR CG.<oe>\a<oe>\a[09/07/2014 19:13:48 : cbf3 : GXBBEFRA]<oe>\aPebff fgerrgf: QNYR NI//OBHAQEL FG<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PPSQ</gq><gq>09/07/2014 19:13:39</gq><gq>QVF</gq><gq>1220 ANGVBANY EQ, QHOYVA</gq></ge>\a<ge><gq>QOFDQ</gq><gq>09/07/2014 19:13:48</gq><gq>QVF</gq><gq>1220 ANGVBANY EQ-ZG NHOHEA, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-10 ng 115 F PRAGRE FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00064376>14-00064376</n> nf bs 9/6/2014 1:19:03</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/06/2014 01:14:54</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-10</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>GBAL - 765-686-5082</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>115 F PRAGRE FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=115 F PRAGRE FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/06/2014 01:16:15 : cbf1 : WZOHPXYRE]<oe>\aPebff fgerrgf: PUHEPU FG//F GUVEQ FG<oe>\aYnaqznex: PUHT-N-YHT CHO<oe>\aFHOW SRYY NAQ UVG UVF URNQ<oe>\a<oe>\aWNZRF QHAJNL UVG CG UR SRYY ONPX NAQ UVG UVF URNQ<c>\a[09/06/2014 01:16:49 : cbf1 : WZOHPXYRE]<oe>\aGUR CG VF HAPBAFVBHF <oe>\a<oe>\aWE QBGL VF GUR CG<oe>\a<oe>\a[09/06/2014 01:17:24 : cbf1 : WZOHPXYRE]<oe>\aCG VF OERNGUVAT  ABG OYRRQVAT<oe>\a<oe>\a[09/06/2014 01:17:51 : cbf1 : WZOHPXYRE]<oe>\aUR VF ZBIVAT NEBHAQ N YVGGYR OVG ABJ<oe>\a<oe>\a[09/06/2014 01:18:08 : cbf1 : WZOHPXYRE]<oe>\aGUR ONEGRAQRE VF GUR FHFCRPG NAQ UR VF FGVYY VAFVQR<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>TRARENY</gq><gq>Vavgvny Nffvtazrag</gq><gq>09/06/2014 01:17:25</gq><gq>WZOHPXYRE</gq></ge>\a<ge><gq>10-10</gq><gq>09/06/2014 01:17:25</gq><gq>Svany Nffvtazrag</gq><gq>EOCNEXRE</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>89-29</gq><gq>09/06/2014 01:17:13</gq><gq>RAE</gq><gq>115 F PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89201</gq><gq>09/06/2014 01:17:35</gq><gq>RAE</gq><gq>115 F PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOFDQ</gq><gq>09/06/2014 01:17:52</gq><gq>QVF</gq><gq>115 F PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89201</gq><gq>09/06/2014 01:18:06</gq><gq>BAF</gq><gq>115 F PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-13</gq><gq>09/06/2014 01:18:08</gq><gq>QVF</gq><gq>115 F PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/06/2014 01:18:20</gq><gq>QVF</gq><gq>115 F PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>P6</gq><gq>09/06/2014 01:18:45</gq><gq>RAE</gq><gq>115 F PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 CV ng 814 ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00064036>14-00064036</n> nf bs 9/4/2014 21:09:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/04/2014 21:06:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 CV</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FZVGU,XNGUL - 765-334-8336</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>814 ZNVA FG/CREFUVAT<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=814 ZNVA FG, CREFUVAT, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/04/2014 21:06:20 : cbf5 : NCVREPR]<oe>\aPebff fgerrgf: PBYYRTR FG//A YRR FG<oe>\apenfurq vagb n ubhfr<c>\a[09/04/2014 21:07:15 : cbf2 : QCVGPURE]<oe>\aHAPBA<oe>\a<oe>\a[09/04/2014 21:07:20 : cbf2 : QCVGPURE]<oe>\aNVE ONTF NER QRCYBLRQ<oe>\a<oe>\a[09/04/2014 21:07:26 : cbf2 : QCVGPURE]<oe>\a45 ZCU VAGB N UBFHR<oe>\a<oe>\a[09/04/2014 21:08:32 : cbf5 : NCVREPR]<oe>\agnp 2<oe>\a<oe>\a[09/04/2014 21:08:45 : cbf5 : NCVREPR]<oe>\aPebff fgerrgf: A CRNEY FG//A JNYAHG FG<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>10-50 HAX</gq><gq>Vavgvny Nffvtazrag</gq><gq>09/04/2014 21:08:57</gq><gq>NCVREPR</gq></ge>\a<ge><gq>10-50 CV</gq><gq>09/04/2014 21:08:57</gq><gq>Svany Nffvtazrag</gq><gq>NCVREPR</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOFDQ</gq><gq>09/04/2014 21:07:29</gq><gq>QVF</gq><gq>814 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/04/2014 21:08:07</gq><gq>QVF</gq><gq>814 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-28</gq><gq>09/04/2014 21:08:55</gq><gq>RAE</gq><gq>814 ZNVA FG, CREFUVAT</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: ZNA QBJA ng 217 J ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00063955>14-00063955</n> nf bs 9/4/2014 15:01:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>09/04/2014 14:56:27</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>ZNA QBJA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>SVFURE,PNAQVPR - 765-580-9264</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>217 J ZNVA FG #1/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=217 J ZNVA FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[09/04/2014 14:57:10 : cbf6 : FGONYQJVA]<oe>\aPebff fgerrgf: TERRA FG//WBARF FG<oe>\aZNYR YNLVAT BA GUR ONGUEBBZ SYBBE FUR PNAG TRG VA <oe>\aUR VF ABG ERFCBAQVAT GB URE NG NYY<oe>\aFUR PNAG TRG GUR ONGUEBBZ QBBE BCRA<c>\a[09/04/2014 14:57:31 : cbf6 : FGONYQJVA]<oe>\aNEEBA FGRRYR 29 LE BYQ ZNYR<oe>\a<oe>\a[09/04/2014 14:58:10 : cbf6 : FGONYQJVA]<oe>\aUR HFRQ GB QB UREBVA OHG FUR QBRFAG XABJ VS UR FGVYY QBRF VG<oe>\a<oe>\a[09/04/2014 14:58:57 : cbf6 : FGONYQJVA]<oe>\aFUR PNA URNE UVZ TEBNAVAT OHG FUR PNAG TRG GUR QBBE BCJA<oe>\a<oe>\a[09/04/2014 15:00:14 : cbf5 : RONVYRL]<oe>\aQBBE VF OYBPXRQ CRE P2- URF HC NTNVAFG VG<oe>\a<oe>\a[09/04/2014 15:00:19 : cbf6 : FGONYQJVA]<oe>\aAB JVAQBJ GB GUR ONGUEBBZ GB TB GUEH<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>P2</gq><gq>09/04/2014 14:58:31</gq><gq>QVF</gq><gq>217 J ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-22</gq><gq>09/04/2014 14:58:46</gq><gq>RAE</gq><gq>217 J ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-22</gq><gq>09/04/2014 14:58:48</gq><gq>RAE</gq><gq>217 J ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>P2</gq><gq>09/04/2014 14:59:06</gq><gq>BAF</gq><gq>217 J ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>09/04/2014 15:00:07</gq><gq>QVF</gq><gq>217 J ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY44</gq><gq>09/04/2014 15:00:19</gq><gq>RAE</gq><gq>217 J ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 900 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00062847>14-00062847</n> nf bs 8/31/2014 12:40:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/31/2014 12:36:54</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>OENAQ, IVPGBEVN - 765-334-8117</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>900 R ZNVA FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=900 R ZNVA FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/31/2014 12:37:18 : cbf2 : RONVYRL]<oe>\aPebff fgerrgf: PBYYRTR FG//A YRR FG<c>\a[08/31/2014 12:37:31 : cbf2 : RONVYRL]<oe>\aSRZNYR UNIVAT PC NAQ OC 240/126<oe>\a<oe>\a[08/31/2014 12:37:41 : cbf2 : RONVYRL]<oe>\aPBAF / NYREG<oe>\a<oe>\a[08/31/2014 12:38:17 : cbf2 : RONVYRL]<oe>\a57 L/B SRZNYR<oe>\a<oe>\a[08/31/2014 12:38:25 : cbf2 : RONVYRL]<oe>\aUNIVAT QVSS OERNGUVAT NYFB<oe>\a<oe>\a[08/31/2014 12:38:31 : cbf2 : RONVYRL]<oe>\aGURL NER GELVAT GB TRG URE VAGB N PUNVE<oe>\a<oe>\a[08/31/2014 12:39:01 : cbf2 : RONVYRL]<oe>\aJNF VAWHEVRQ 3 QNLF NTB,   JURA FUR SRYY BSS N EVQVAT YNJA ZBJRE ..... PC NQIVFRQ URE YRSG YRT VF VAWHEVRQ SEBZ GUNG<oe>\a<oe>\a[08/31/2014 12:39:17 : cbf2 : RONVYRL]<oe>\aFUR JNF ARIRE PURPXRQ BHG SEBZ GUR EVQVAT YNJA ZBJRE VAPVQRAG<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOY40</gq><gq>08/31/2014 12:39:12</gq><gq>QVF</gq><gq>900 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY44</gq><gq>08/31/2014 12:39:43</gq><gq>RAE</gq><gq>900 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/31/2014 12:39:48</gq><gq>QVF</gq><gq>900 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY40</gq><gq>08/31/2014 12:39:51</gq><gq>RAE</gq><gq>900 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-16 ng 16142 UHAAVPHG EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00062604>14-00062604</n> nf bs 8/30/2014 14:04:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/30/2014 13:59:13</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-16</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>PEHGPURE, WBFU - 317-874-8051</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>16142 UHAAVPHG EQ/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=16142 UHAAVPHG EQ, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/30/2014 13:59:55 : cbf6 : RONVYRL]<oe>\aPebff fgerrgf: OBLQ EQ//F SBBGR FG<oe>\a<oe>\aPC NQIVFRQ UR JNF QEVIVAT OL NAQ FNJ N ZNYR NAQ N SRZNYR SVTUGVAT VA GUR LNEQ, GUR ZNYR UNQ EVCCRQ GUR RYRPGEVP BSS GUR UBHFR NAQ GUR YVARF JRER NEPUVAT<c>\a[08/30/2014 14:00:28 : cbf6 : RONVYRL]<oe>\aZNYR GBBX BSS VA N JUVGR  UHZZRE YNFG FRRA JO BA 40<oe>\aSRZNYR JNF VA GUR QEVIR ULFGREVPNY<oe>\a<oe>\a[08/30/2014 14:01:05 : cbf6 : RONVYRL]<oe>\aSRZNYR JNF OYBAQ , FZNYY OHVYQ  <oe>\aZNYR JNF 6 SBBG QNEX UNVE, QERFFRQ AVPR<oe>\aNEZRQ J/ N UNZZRE<oe>\a<oe>\a<c>\a<o>Crbcyr Vaibyirq</o>\a<gnoyr obeqre=1>\a<ge><gu>Vaibyirzrag</gu><gu>Anzr</gu><gu>E/F/U/J</gu><gu>Ntr</gu><gu>QBO</gu><gu>BYA</gu></ge>\a<ge><gq></gq><gq>PYNLOBEA, XRIVA</gq><gq>/Z//</gq><gq>0-0</gq><gq>1978-05-22</gq><gq>VA - </gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PPSQ</gq><gq>08/30/2014 14:03:34</gq><gq>QVF</gq><gq>16142 UHAAVPHG EQ, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-22</gq><gq>08/30/2014 14:03:36</gq><gq>RAE</gq><gq>16142 UHAAVPHG EQ, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-31</gq><gq>08/30/2014 14:03:39</gq><gq>RAE</gq><gq>16142 UHAAVPHG EQ, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAPBA ng 606 A YVAPBYA QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00061446>14-00061446</n> nf bs 8/27/2014 1:07:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/27/2014 01:05:24</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>OHUY,GERAG - 765-478-4629</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>606 A YVAPBYA QE/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=606 A YVAPBYA QE, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/27/2014 01:05:37 : cbf1 : QCVGPURE]<oe>\aPebff fgerrgf: BEPUNEQ FG//PNZOEVQTR EQ<c>\a[08/27/2014 01:06:13 : cbf1 : QCVGPURE]<oe>\aFUR UNF N QAE<oe>\a<oe>\a[08/27/2014 01:06:59 : cbf1 : QCVGPURE]<oe>\a78 L/B S<oe>\aPNAPRE CG<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOFDQ</gq><gq>08/27/2014 01:06:32</gq><gq>QVF</gq><gq>606 A YVAPBYA QE, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/27/2014 01:06:40</gq><gq>QVF</gq><gq>606 A YVAPBYA QE, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 NYNEZ ng 215 R CNEXJNL QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00061192>14-00061192</n> nf bs 8/26/2014 8:36:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/26/2014 08:31:36</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 NYNEZ</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JRFGREA JNLAR UVTU FPUBBY - 765-478-5916</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>215 R CNEXJNL QE/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=215 R CNEXJNL QE, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/26/2014 08:32:45 : cbf6 : QFHGGBA]<oe>\aYnaqznex: YVAPBYA UVTU FPUBBY<oe>\aPebff fgerrgf: A YVAPBYA QE//INAQNYVN NI<oe>\aCHYY FGNGVBA FBHGU RKVG OL ZNVA BSSVPR NYNEZ<oe>\a18004321429<oe>\aBCRE S373<oe>\aXBBEFRA<c>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>OHFVARFF NYZ</gq><gq>Vavgvny Nffvtazrag</gq><gq>08/26/2014 08:33:50</gq><gq>QFHGGBA</gq></ge>\a<ge><gq>10-70 NYNEZ</gq><gq>08/26/2014 08:33:50</gq><gq>Svany Nffvtazrag</gq><gq>QFHGGBA</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>08/26/2014 08:34:56</gq><gq>QVF</gq><gq>215 R CNEXJNL QE, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/26/2014 08:35:56</gq><gq>QVF</gq><gq>215 R CNEXJNL QE, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PISQ</gq><gq>08/26/2014 08:35:58</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAX ng 176 JBBQL QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060956>14-00060956</n> nf bs 8/25/2014 11:14:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/25/2014 11:09:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FGNAYRL,ANAPL - 765-277-0514</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>176 JBBQL QE/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=176 JBBQL QE, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/25/2014 11:09:50 : cbf5 : FGONYQJVA]<oe>\aPebff fgerrgf: PBAFGNAPR QE//JBYXR QE<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//RYVNFBA EQ<oe>\aZBGURE CNFFQ BHG<oe>\aABJ NJNXR<oe>\aOHG UNIVAT GEOY JNYXVAT<c>\a[08/25/2014 11:10:15 : cbf5 : FGONYQJVA]<oe>\aURNEG CEBOYRZF<oe>\a<oe>\a[08/25/2014 11:10:50 : cbf5 : FGONYQJVA]<oe>\aQNHTUGRE TRGGVAT URE VAGB N PUNVE<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/25/2014 11:10:24</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:11:07</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 11:11:08</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:11:15</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:13:49</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 11:13:52</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:13:56</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 11:14:00</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 11:14:02</gq><gq>OHF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAX ng 176 JBBQL QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060956>14-00060956</n> nf bs 8/25/2014 11:12:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/25/2014 11:09:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FGNAYRL,ANAPL - 765-277-0514</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>176 JBBQL QE/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=176 JBBQL QE, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/25/2014 11:09:50 : cbf5 : FGONYQJVA]<oe>\aPebff fgerrgf: PBAFGNAPR QE//JBYXR QE<oe>\aPebff fgerrgf: EBHAQ ONEA EQ//RYVNFBA EQ<oe>\aZBGURE CNFFQ BHG<oe>\aABJ NJNXR<oe>\aOHG UNIVAT GEOY JNYXVAT<c>\a[08/25/2014 11:10:15 : cbf5 : FGONYQJVA]<oe>\aURNEG CEBOYRZF<oe>\a<oe>\a[08/25/2014 11:10:50 : cbf5 : FGONYQJVA]<oe>\aQNHTUGRE TRGGVAT URE VAGB N PUNVE<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>08/25/2014 11:10:24</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:11:07</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/25/2014 11:11:08</gq><gq>QVF</gq><gq>176 JBBQL QE, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 11:11:15</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 1375 F FGNGR EQ 1) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060911>14-00060911</n> nf bs 8/25/2014 9:35:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/25/2014 09:33:01</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>IVYYNTR CNAGEL - 765-478-3797</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1375 F FGNGR EQ 1/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1375 F FGNGR EQ 1, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/25/2014 09:33:16 : cbf1 : ZZNATNF]<oe>\aPebff fgerrgf: PUHEPU FG//HF 40<oe>\a<oe>\aPURFG CNVA NAQ IREL QVMML<c>\a[08/25/2014 09:33:48 : cbf1 : ZZNATNF]<oe>\aVAFVQR GUR FGBER <oe>\aFRRZF ERFGYRFF NAQ FJRNGL<oe>\a<oe>\a[08/25/2014 09:34:04 : cbf1 : ZZNATNF]<oe>\aAB AVGEB<oe>\a<oe>\a[08/25/2014 09:34:18 : cbf1 : ZZNATNF]<oe>\aPNEQVNP UK<oe>\a<oe>\a[08/25/2014 09:34:54 : cbf5 : FGONYQJVA]<oe>\aGNPU 3<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PPSQ</gq><gq>08/25/2014 09:34:05</gq><gq>QVF</gq><gq>1375 F FGNGR EQ 1, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY44</gq><gq>08/25/2014 09:34:23</gq><gq>QVF</gq><gq>1375 F FGNGR EQ 1, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 FGEHPG ng 344 A WBUAFBA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060660>14-00060660</n> nf bs 8/24/2014 0:31:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/24/2014 00:27:30</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>YLAPU, YNHEVR - 765-478-9507</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>344 A WBUAFBA FG/QHOYVA<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=344 A WBUAFBA FG, QHOYVA, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/24/2014 00:28:03 : cbf1 : GXBBEFRA]<oe>\aPebff fgerrgf: R SENAXYVA FG//J QRYNJNER FG<c>\a[08/24/2014 00:28:33 : cbf1 : GXBBEFRA]<oe>\aPNA FRR SYNZRF VAFVQR ERF NAQ GURER VF SVER PBZVAT SEBZ HAQRE GUR ERMK<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PISQ</gq><gq>08/24/2014 00:28:41</gq><gq>QVF</gq><gq>344 A WBUAFBA FG, QHOYVA</gq></ge>\a<ge><gq>ZYSQ</gq><gq>08/24/2014 00:28:48</gq><gq>QVF</gq><gq>344 A WBUAFBA FG, QHOYVA</gq></ge>\a<ge><gq>PISQ</gq><gq>08/24/2014 00:29:52</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>QOSQ</gq><gq>08/24/2014 00:30:03</gq><gq>QVF</gq><gq>344 A WBUAFBA FG, QHOYVA</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/24/2014 00:30:05</gq><gq>QVF</gq><gq>344 A WBUAFBA FG, QHOYVA</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: ZNA QBJA ng R CNEXJNL QE // A YVAPBYA QE) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00060400>14-00060400</n> nf bs 8/22/2014 23:24:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/22/2014 23:22:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>ZNA QBJA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>OENGGNVA, PBEL - 765-541-0377</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>R CNEXJNL QE // A YVAPBYA QE/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=R CNEXJNL QE // A YVAPBYA QE, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/22/2014 23:22:45 : cbf5 : WZOHPXYRE]<oe>\a200 R CNEXJNL QE<oe>\a<oe>\a<oe>\aSRZNYR YNLVAT VA GUR ZVQQYR BS GUR EBNQ HAPBA<c>\a[08/22/2014 23:22:54 : cbf5 : WZOHPXYRE]<oe>\aFABEVAT ERFC<oe>\a<oe>\a[08/22/2014 23:24:01 : cbf5 : WZOHPXYRE]<oe>\aQBRFAG ORYVRIR FUR UNF ORRA UVG QBRF ABG FRRA NAL NOENFFVBAF BA URE<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOFDQ</gq><gq>08/22/2014 23:23:05</gq><gq>QVF</gq><gq>R CNEXJNL QE // A YVAPBYA QE, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>P5</gq><gq>08/22/2014 23:23:21</gq><gq>QVF</gq><gq>R CNEXJNL QE // A YVAPBYA QE, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/22/2014 23:23:29</gq><gq>QVF</gq><gq>R CNEXJNL QE // A YVAPBYA QE, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-29</gq><gq>08/22/2014 23:23:50</gq><gq>QVF</gq><gq>R CNEXJNL QE // A YVAPBYA QE, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 FGEBXR ng 306 UNJXVAF NI) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00059517>14-00059517</n> nf bs 8/20/2014 5:01:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/20/2014 04:57:18</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 FGEBXR</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>YHRYYRA, ZNEL - 765-478-9639</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>306 UNJXVAF NI/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=306 UNJXVAF NI, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/20/2014 04:58:53 : cbf5 : NJUNYYBA]<oe>\aPebff fgerrgf: QRYNJNER FG//J ZNCYR FG<oe>\aSRRYF YVXR GUR EBBZ VF FCVAAVAT<oe>\a<oe>\aUNQ N FGEBXR 6 JRRXF NTB<oe>\a<oe>\a77 L/B SRZNYR<c>\a[08/20/2014 05:00:17 : cbf5 : NJUNYYBA]<oe>\aPBZC JNF NYREG NAQ FGNGRQ GUNG GUVF VF ABG N FRIRER NF VG JNF GUR YNFG GVZR<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PPSQ</gq><gq>08/20/2014 05:00:23</gq><gq>QVF</gq><gq>306 UNJXVAF NI, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOFDQ</gq><gq>08/20/2014 05:00:33</gq><gq>QVF</gq><gq>306 UNJXVAF NI, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 FZBXR ng 12570 J HF 40) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00059442>14-00059442</n> nf bs 8/19/2014 19:45:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/19/2014 19:42:13</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FZBXR</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNEARE, QROOVR - 765-541-2446</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>12570 J HF 40/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=12570 J HF 40, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/19/2014 19:43:31 : cbf6 : NOENQYRL]<oe>\aPebff fgerrgf: WNPXFBAOHET EQ//RNTYRJBBQ YA<c>\a[08/19/2014 19:44:15 : cbf6 : NOENQYRL]<oe>\aNSGRE YVTUGAVAT FGEVXR FZRYY BS FZBXR<oe>\aAB FZBXR IVFVOYR<oe>\a<oe>\a[08/19/2014 19:44:36 : cbf6 : NOENQYRL]<oe>\aONPX BS GUR UBHFR<oe>\a<oe>\a[08/19/2014 19:44:57 : cbf6 : NOENQYRL]<oe>\aPC NAQ 2 PUVYQERA VA GUR UBHFR<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>P5</gq><gq>08/19/2014 19:44:37</gq><gq>RAE</gq><gq>12570 J HF 40, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/19/2014 19:44:41</gq><gq>QVF</gq><gq>12570 J HF 40, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 620 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00059152>14-00059152</n> nf bs 8/18/2014 20:11:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/18/2014 20:07:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>INQNXVA, WNPDHRYVAR - 765-478-5698</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>620 R ZNVA FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=620 R ZNVA FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/18/2014 20:07:50 : cbf5 : WZOHPXYRE]<oe>\aPebff fgerrgf: A CRNEY FG//TYRAJBBQ QE<oe>\a<oe>\a<oe>\a84 LB SRZNYR VF UNIVAT PURFG CNVA <oe>\a<oe>\aUK BS QVNORGVP, URNEG CEBOYRZF ,<c>\a[08/18/2014 20:08:01 : cbf5 : WZOHPXYRE]<oe>\aFUR VF BHGFVQR EVTUG ABJ<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOY44</gq><gq>08/18/2014 20:10:02</gq><gq>RAE</gq><gq>620 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPZ53</gq><gq>08/18/2014 20:10:08</gq><gq>RAE</gq><gq>620 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/18/2014 20:10:41</gq><gq>QVF</gq><gq>620 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/18/2014 20:10:44</gq><gq>OHF</gq><gq>620 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 TENFF ng 135 R VE 70) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00059015>14-00059015</n> nf bs 8/18/2014 11:52:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/18/2014 11:49:32</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 TENFF</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ZVXR - 816-457-0923</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>135 R VE 70/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=135 R VE 70, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/18/2014 11:49:55 : cbf5 : CZVYYRE]<oe>\aPebff fgerrgf: URAEL PBHAGL YVAR//FE 1<oe>\aFZNYY TENFF SVER BA GUR FVQR BS GUR EBNQJNL...YNETR NZBHAG BS FZBXR OHG AB SVER <c>\a[08/18/2014 11:51:08 : cbf3 : VPEBHPU]<oe>\aNABGURE PNYYRE NYFB FGNGRQ GUR 135ZZ  541-2990<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PPSQ</gq><gq>08/18/2014 11:51:45</gq><gq>QVF</gq><gq>135 R VE 70, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: ZNA QBJA ng R ZNVA FG // PRAGRE FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00058743>14-00058743</n> nf bs 8/17/2014 6:35:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/17/2014 06:30:58</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>ZNA QBJA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FGRIR - 765-478-4241</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>R ZNVA FG // PRAGRE FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/17/2014 06:31:31 : cbf1 : WTEVSSVA]<oe>\aYnaqznex: FURYY - ZNVA FG <oe>\aPebff fgerrgf: PRAGRE FG//A PURFGAHG FG<oe>\aFBZRBAR YNLVAT BA FVQRJNYX BA PRAGRE FG, HAX CEBO<c>\a[08/17/2014 06:31:45 : cbf1 : WTEVSSVA]<oe>\aNPEBFF SEBZ FURYY TNF FGNG<oe>\a<oe>\a[08/17/2014 06:32:01 : cbf1 : WTEVSSVA]<oe>\a1 R ZNVA FG<oe>\a<oe>\a[08/17/2014 06:34:30 : cbf1 : WTEVSSVA]<oe>\aSRYY SEBZ N JVAQBJ<oe>\a<oe>\a[08/17/2014 06:34:41 : cbf1 : WTEVSSVA]<oe>\a15 - 20 SG   ONEYRL OERNGUVAT<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>P4</gq><gq>08/17/2014 06:32:11</gq><gq>QVF</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY44</gq><gq>08/17/2014 06:32:20</gq><gq>QVF</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/17/2014 06:32:34</gq><gq>QVF</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-22</gq><gq>08/17/2014 06:32:53</gq><gq>RAE</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-22</gq><gq>08/17/2014 06:32:55</gq><gq>RAE</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>P4</gq><gq>08/17/2014 06:33:17</gq><gq>RAE</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-14</gq><gq>08/17/2014 06:33:27</gq><gq>RAE</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPR57</gq><gq>08/17/2014 06:34:14</gq><gq>QVF</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPR57</gq><gq>08/17/2014 06:34:16</gq><gq>RAE</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY44</gq><gq>08/17/2014 06:34:40</gq><gq>RAE</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: ZNA QBJA ng R ZNVA FG // PRAGRE FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00058743>14-00058743</n> nf bs 8/17/2014 6:33:03</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/17/2014 06:30:58</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>ZNA QBJA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FGRIR - 765-478-4241</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>R ZNVA FG // PRAGRE FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/17/2014 06:31:31 : cbf1 : WTEVSSVA]<oe>\aYnaqznex: FURYY - ZNVA FG <oe>\aPebff fgerrgf: PRAGRE FG//A PURFGAHG FG<oe>\aFBZRBAR YLVAT BA FVQRJNYX BA PRAGRE FG, HAX CEBO<c>\a[08/17/2014 06:31:45 : cbf1 : WTEVSSVA]<oe>\aNPEBFF FURYY TNF FGNG<oe>\a<oe>\a[08/17/2014 06:32:01 : cbf1 : WTEVSSVA]<oe>\a1 R ZNVA FG<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>P4</gq><gq>08/17/2014 06:32:11</gq><gq>QVF</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY44</gq><gq>08/17/2014 06:32:20</gq><gq>QVF</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/17/2014 06:32:34</gq><gq>QVF</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-22</gq><gq>08/17/2014 06:32:53</gq><gq>RAE</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-22</gq><gq>08/17/2014 06:32:55</gq><gq>RAE</gq><gq>R ZNVA FG // PRAGRE FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 IRUVPY ng 134 1/2 R V-70) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00058740>14-00058740</n> nf bs 8/17/2014 5:53:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/17/2014 05:51:12</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 IRUVPY</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NG&G ZBOVYVGL - 304-839-1544</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>134 1/2 R V-70/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=134 1/2 R V-70, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/17/2014 05:52:00 : cbf1 : EQHANJNL89]<oe>\aPebff fgerrgf: URAEL PBHAGL YVAR//FE 1<oe>\aPebff fgerrgf: WNPXFBAOHET EQ//TREZNAGBJA EQ<oe>\a<oe>\afrzv j/ oenxrf ba sver<c>\a[08/17/2014 05:52:32 : cbf1 : EQHANJNL89]<oe>\aQEVIRE NCCRNERQ GB OR BHG BS GUR FRZV JNYXVAT NJNL SEBZ VG<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PPSQ</gq><gq>08/17/2014 05:52:48</gq><gq>QVF</gq><gq>134 1/2 R V-70, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 HAX ng 1007 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00058659>14-00058659</n> nf bs 8/16/2014 20:39:01</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/16/2014 20:36:27</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>TBYNL - OERNAN WBUAFBA - 765-478-5565</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1007 R ZNVA FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1007 R ZNVA FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/16/2014 20:37:02 : cbf1 : EQHANJNL89]<oe>\aYnaqznex: TBYNL PBZZHAVGL PRAGRE<oe>\aPebff fgerrgf: A YRR FG//FE 1<oe>\a<oe>\aVAFVQR <oe>\aHFR GUR ZNVA RAGENAPR NAQ GURA TB GB GUR TLZ<c>\a[08/16/2014 20:37:24 : cbf1 : EQHANJNL89]<oe>\aFUR FVGGVAT HC ABJ <oe>\aUBJRIRE UNF CNFFRQ BHG GJVPR<oe>\a<oe>\a[08/16/2014 20:37:53 : cbf1 : EQHANJNL89]<oe>\aPNYYRE VF ABG J/ GUR SRZNYR ABJ ERS RZQ<oe>\a<oe>\a[08/16/2014 20:38:52 : cbf5 : NFPUARVQRE]<oe>\aGNP 3<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>10-52 HAPBA</gq><gq>Vavgvny Nffvtazrag</gq><gq>08/16/2014 20:37:16</gq><gq>EQHANJNL89</gq></ge>\a<ge><gq>10-52 HAX</gq><gq>08/16/2014 20:37:16</gq><gq>Svany Nffvtazrag</gq><gq>EQHANJNL89</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOY40</gq><gq>08/16/2014 20:37:45</gq><gq>QVF</gq><gq>1007 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>P6</gq><gq>08/16/2014 20:38:02</gq><gq>RAE</gq><gq>1007 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/16/2014 20:38:14</gq><gq>QVF</gq><gq>1007 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY42</gq><gq>08/16/2014 20:38:55</gq><gq>RAE</gq><gq>1007 R ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 PC ng 14600 TNGRJNL EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00058102>14-00058102</n> nf bs 8/14/2014 21:38:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/14/2014 21:35:29</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 PC</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>QBG SBBQF - 765-312-0100</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>14600 TNGRJNL EQ/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=14600 TNGRJNL EQ, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/14/2014 21:36:18 : cbf1 : WZOHPXYRE]<oe>\aYnaqznex: QBG SBBQF<oe>\a<oe>\aRZCYBLRR UNIVAT PURFG CNVA <oe>\a<oe>\aIREL CNYR NAQ CNVA VF TBVAT QBJA VA UVF NEZ<c>\a[08/14/2014 21:36:40 : cbf1 : WZOHPXYRE]<oe>\a32 LB ZNYR<oe>\a<oe>\a[08/14/2014 21:37:04 : cbf1 : WZOHPXYRE]<oe>\aAB ZRQ UK<oe>\a<oe>\a[08/14/2014 21:37:22 : cbf1 : WZOHPXYRE]<oe>\aUR JNF JBEXVAT QBVAT TRARENY JNERUBHFR YNOBE<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOFDQ</gq><gq>08/14/2014 21:37:23</gq><gq>QVF</gq><gq>14600 TNGRJNL EQ, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/14/2014 21:37:29</gq><gq>QVF</gq><gq>14600 TNGRJNL EQ, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: FHVPVQNY FHO ng 16 F PURFGAHG FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00058030>14-00058030</n> nf bs 8/14/2014 18:32:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/14/2014 18:28:25</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>FHVPVQNY FHO</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Irevmba Jveryrff - 765-977-3901</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>16 F PURFGAHG FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=16 F PURFGAHG FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/14/2014 18:29:06 : cbf1 : WZOHPXYRE]<oe>\aPebff fgerrgf: R ZNVA FG//PUHEPU FG<oe>\a<oe>\a<oe>\aPZCYG 14 LB FBA GEVRQ GB PHG UVF JEVFG GUR PUVYQ VF VA GUR UBHFR<c>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>10-16</gq><gq>Vavgvny Nffvtazrag</gq><gq>08/14/2014 18:29:22</gq><gq>WZOHPXYRE</gq></ge>\a<ge><gq>FHVPVQNY FHO</gq><gq>08/14/2014 18:29:22</gq><gq>Svany Nffvtazrag</gq><gq>WZOHPXYRE</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>P5</gq><gq>08/14/2014 18:30:17</gq><gq>QVF</gq><gq>16 F PURFGAHG FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOFDQ</gq><gq>08/14/2014 18:31:06</gq><gq>QVF</gq><gq>16 F PURFGAHG FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/14/2014 18:31:11</gq><gq>QVF</gq><gq>16 F PURFGAHG FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-13</gq><gq>08/14/2014 18:31:25</gq><gq>QVF</gq><gq>16 F PURFGAHG FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 CV ng 135 J VE 70) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00057749>14-00057749</n> nf bs 8/13/2014 20:04:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/13/2014 19:57:51</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 CV</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>YRJVF, QRZNERR - 307-254-0503</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>135 J VE 70/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=135 J VE 70, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/13/2014 19:59:47 : cbf1 : WEBOREGFBA89]<oe>\a<oe>\aCVPXHC GEHPX NKYR PNZR BSS BS NA RO IRUVPYR, GUR NKYR JRAG NPEBFF GUR ZRQVNA NAQ FGEHPX N JO CNFFRATRE PNE<c>\a[08/13/2014 20:00:26 : cbf1 : WEBOREGFBA89]<oe>\aPBZC VF GENPGBE GENVYRE QEVIRE, QVQ ABG FGBC<oe>\a<oe>\a[08/13/2014 20:01:12 : cbf4 : GXBBEFRA]<oe>\aUNIR NAQERJ ZBBER JUB VF VA GUR IRU GUNG JNF FGEHPX OL N GVER. CNVA VA FGBZNPU<oe>\a<oe>\a[08/13/2014 20:01:31 : cbf4 : GXBBEFRA]<oe>\aPebff fgerrgf: URAEL PBHAGL YVAR//FE 1<oe>\a<oe>\a[08/13/2014 20:02:18 : cbf4 : GXBBEFRA]<oe>\aJO IRU VF N TEL PURI ZNYVOH NAQ RO IRU VF N JUV SBEQ S-150<oe>\a<oe>\a[08/13/2014 20:02:28 : cbf4 : GXBBEFRA]<oe>\aFGVYY CNEGVNYYL VA EBNQJNL<oe>\a<oe>\a[08/13/2014 20:03:07 : cbf4 : GXBBEFRA]<oe>\a317-430-5732  SBE JUV ZNYVOH PNYYRE (NAQERJ)<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>10-50 HAX</gq><gq>Vavgvny Nffvtazrag</gq><gq>08/13/2014 20:01:18</gq><gq>WEBOREGFBA89</gq></ge>\a<ge><gq>10-50 CV</gq><gq>08/13/2014 20:01:18</gq><gq>Svany Nffvtazrag</gq><gq>GXBBEFRA</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>89-30</gq><gq>08/13/2014 20:00:10</gq><gq>QVF</gq><gq>135 JO VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOFDQ</gq><gq>08/13/2014 20:01:43</gq><gq>QVF</gq><gq>135 J VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY44</gq><gq>08/13/2014 20:02:57</gq><gq>RAE</gq><gq>135 J VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY43</gq><gq>08/13/2014 20:03:00</gq><gq>RAE</gq><gq>135 J VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOFDQ</gq><gq>08/13/2014 20:03:04</gq><gq>OHF</gq><gq>135 J VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/13/2014 20:03:06</gq><gq>QVF</gq><gq>135 J VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPE52</gq><gq>08/13/2014 20:03:14</gq><gq>RAE</gq><gq>135 J VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPZ53</gq><gq>08/13/2014 20:03:18</gq><gq>RAE</gq><gq>135 J VE 70, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 ng 1534 A FE 1) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00057685>14-00057685</n> nf bs 8/13/2014 15:25:03</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/13/2014 15:21:39</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JEVTUG, XNERA - 765-993-2889</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1534 A FE 1/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1534 A FE 1, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/13/2014 15:23:35 : cbf6 : CZVYYRE]<oe>\aVA GUR CNEXVAT YBG VA N TENL PURIL GENVYOYNMRE CHYYVAT GENVYRE...UVF QRSVO UNF TBAR BSS 3 GVZRF...ABG UNIVAT NAL BGURE FLZCGBZF...AB QO/PC.....<c>\a[08/13/2014 15:24:11 : cbf6 : CZVYYRE]<oe>\aPebff fgerrgf: SEBAGNTR EQ//TBBFR URNIRA EQ<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOFDQ</gq><gq>08/13/2014 15:24:52</gq><gq>QVF</gq><gq>1534 A FE 1, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/13/2014 15:24:56</gq><gq>QVF</gq><gq>1534 A FE 1, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 HAX ng 137 J VE 70) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00057673>14-00057673</n> nf bs 8/13/2014 14:33:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/13/2014 14:24:24</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>WNL - 937-603-8433</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>137 J VE 70/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=137 J VE 70, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/13/2014 14:25:02 : cbf6 : CZVYYRE]<oe>\aPebff fgerrgf: URAEL PBHAGL YVAR//FE 1<oe>\aYHZORE SRYY BSS N GEHPX NAQ NABGURE FJREIRQ GB ZVFF VG<c>\a[08/13/2014 14:27:24 : cbf6 : CZVYYRE]<oe>\a2 PNEF BSS BS GUR FVQR BS GUR EBNQJNL NABGURE .....RIRELBAR BHG BS GURVE IRUVPYRF NCCRNEF FVT 54<oe>\a<oe>\a[08/13/2014 14:28:40 : cbf6 : CZVYYRE]<oe>\aPebff fgerrgf: URAEL PBHAGL YVAR//FE 1<oe>\a<oe>\a[08/13/2014 14:29:10 : cbf6 : CZVYYRE]<oe>\aWHFG JRFG BS GUR ENZC...CBFF BPP BA GUR ENZC<oe>\a<oe>\a[08/13/2014 14:31:33 : cbf5 : VPEBHPU]<oe>\a55-1 ERFCBAQVAT<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>VFC</gq><gq>08/13/2014 14:27:47</gq><gq>BAF</gq><gq>136 J VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY40</gq><gq>08/13/2014 14:29:00</gq><gq>RAE</gq><gq>137 J VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY40</gq><gq>08/13/2014 14:32:47</gq><gq>BAF</gq><gq>137 J VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/13/2014 14:32:54</gq><gq>QVF</gq><gq>137 J VE 70, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu:  ng RAQFYRL EQ // HF 27) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00057154>14-00057154</n> nf bs 8/11/2014 19:08:22</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/11/2014 16:39:55</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 VAIREG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FPBGG,PUEVF - 765-265-9591</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>RAQFYRL EQ // HF 27/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=RAQFYRL EQ // HF 27, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>GJP14-0475</gq></ge>\a</gnoyr>\a<c>\a[08/11/2014 16:40:20 : cbf5 : FUNMRYONXRE]<oe>\a1430 RAQFYRL EQ<oe>\aJBEX   GEHPX BA  VGF  FVQR<c>\a[08/11/2014 16:40:41 : cbf5 : FUNMRYONXRE]<oe>\aRNFG   FVQR   BS   27  BA  RAQFYRL  EQ<oe>\a<oe>\a[08/11/2014 16:40:48 : cbf5 : FUNMRYONXRE]<oe>\aYRNXVAT    SHRY<oe>\a<oe>\a[08/11/2014 16:42:47 : cbf5 : FUNMRYONXRE]<oe>\aBHG BS  GEHPX NCCRNEF   BX  OHG  QEBCCRQ PNYY<oe>\a<oe>\a[08/11/2014 16:44:16 : cbf3 : WTEVSSVA]<oe>\aWBR PEBJR, 960-0699    QEVIVAT N JUV OBK GX JVGU PEBJR FUERQQVAT BA FVQR, UR NQI AB VAW & VF BHG BS GX    CRE 715<oe>\a<oe>\a[08/11/2014 16:48:39 : cbf5 : FUNMRYONXRE]<oe>\a85-2   10-23<oe>\a<oe>\a[08/11/2014 16:49:56 : cbf5 : FUNMRYONXRE]<oe>\a85-2  PBASVEZRQ  CQ  BAYL<oe>\a<oe>\a[08/11/2014 16:50:44 : cbf3 : WTEVSSVA]<oe>\a89600 RE, ERS SHRY YRNX<oe>\a<oe>\a[08/11/2014 16:51:41 : cbf5 : FUNMRYONXRE]<oe>\a85-2  NQI  HAVGF PNA FYBJ EHA<oe>\a<oe>\a[08/11/2014 16:53:10 : cbf5 : FUNMRYONXRE]<oe>\aULQEBYVP  YRNX  FZNYY  NAQ SVER  PNA  PBAGNVA  VG<oe>\a<oe>\a[08/11/2014 16:55:59 : cbf4 : FGONYQJVA]<oe>\aCNEQBF 76<oe>\a<oe>\a[08/11/2014 16:56:44 : cbf4 : FGONYQJVA]<oe>\aOEVATVAT N YET 10-51<oe>\a<oe>\a[08/11/2014 16:57:15 : cbf4 : FGONYQJVA]<oe>\aOHFGRQ ONPX NKRY<oe>\a<oe>\a[08/11/2014 17:15:55 : cbf4 : FGONYQJVA]<oe>\aGJP14-0475<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>TRARENY</gq><gq>Vavgvny Nffvtazrag</gq><gq>08/11/2014 16:41:07</gq><gq>FUNMRYONXRE</gq></ge>\a<ge><gq>10-50 VAIREG</gq><gq>08/11/2014 16:41:07</gq><gq>Svany Nffvtazrag</gq><gq>FUNMRYONXRE</gq></ge>\a</gnoyr><c>\a<o>Crbcyr Vaibyirq</o>\a<gnoyr obeqre=1>\a<ge><gu>Vaibyirzrag</gu><gu>Anzr</gu><gu>E/F/U/J</gu><gu>Ntr</gu><gu>QBO</gu><gu>BYA</gu></ge>\a<ge><gq></gq><gq>Pebjr, Wbfrcu</gq><gq>/Z/070/180</gq><gq>32-</gq><gq>1981-12-20</gq><gq> - </gq></ge>\a</gnoyr><c>\a<o>Iruvpyrf Vaibyirq</o>\a<gnoyr obeqre=1>\a<ge><gu>Cyngr</gu><gu>Lrne</gu><gu>Zbqry</gu><gu>IVA</gu><gu>Pbybe</gu><gu>Bjare</gu></ge>\a<ge><gq>GX422YOM</gq><gq>2010</gq><gq></gq><gq>1UGZLFXZ3NU282081</gq><gq>JUV</gq><gq> PEBJR FUERQQVAT</ge>\a</gnoyr>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE2</gq><gq>08/11/2014 16:41:21</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-14</gq><gq>08/11/2014 16:41:37</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-25</gq><gq>08/11/2014 16:41:41</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 16:43:12</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 16:43:33</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OBR81</gq><gq>08/11/2014 16:45:26</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>EZGE2</gq><gq>08/11/2014 16:49:35</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>89600</gq><gq>08/11/2014 16:49:55</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-25</gq><gq>08/11/2014 16:51:32</gq><gq>BAF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-14</gq><gq>08/11/2014 16:54:48</gq><gq>BAF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OBE84</gq><gq>08/11/2014 16:56:45</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-25</gq><gq>08/11/2014 17:56:07</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>89-23</gq><gq>08/11/2014 18:05:19</gq><gq>RAE</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-23</gq><gq>08/11/2014 18:17:11</gq><gq>BAF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>89-14</gq><gq>08/11/2014 18:20:59</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 19:04:36</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>NOSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>08/11/2014 19:07:16</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>08/11/2014 19:07:17</gq><gq>QVF</gq><gq>RAQFYRL EQ // HF 27, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>08/11/2014 19:07:31</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/11/2014 19:07:31</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PISQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>QOSQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>RPSQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>SPSQ</gq><gq>08/11/2014 19:07:32</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>TSSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>UTSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>JOSQ</gq><gq>08/11/2014 19:07:33</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>JZSQ</gq><gq>08/11/2014 19:07:34</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>NOSQ</gq><gq>08/11/2014 19:07:35</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 HAX ng 135 R VE 70) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00056901>14-00056901</n> nf bs 8/10/2014 18:25:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/10/2014 18:22:41</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 HAX</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>GNZZREYR, NATRYN - 937-321-9488</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>135 R VE 70/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=135 R VE 70, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/10/2014 18:22:56 : cbf5 : EOCNEXRE]<oe>\aPebff fgerrgf: URAEL PBHAGL YVAR//FE 1<oe>\aZP NPPVQRAG<oe>\aZNYR UBYQVAT UVF URNQ<c>\a[08/10/2014 18:23:07 : cbf5 : EOCNEXRE]<oe>\aUR JNF YNLVAT BA GUR TEBHAQ UBYQVAT UVF URNQ<oe>\a<oe>\a[08/10/2014 18:23:16 : cbf5 : EOCNEXRE]<oe>\aBAYL FNJ GUR BAR ZP VAIBYIRQ<oe>\a<oe>\a[08/10/2014 18:24:44 : cbf1 : QCVGPURE]<oe>\a552 NAQ 553 NYY RAE<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>ERVQ1</gq><gq>08/10/2014 18:23:07</gq><gq>QVF</gq><gq>135 R VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-30</gq><gq>08/10/2014 18:23:29</gq><gq>QVF</gq><gq>135 R VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOFDQ</gq><gq>08/10/2014 18:23:49</gq><gq>QVF</gq><gq>135 R VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-29</gq><gq>08/10/2014 18:24:01</gq><gq>QVF</gq><gq>135 R VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-29</gq><gq>08/10/2014 18:24:02</gq><gq>RAE</gq><gq>135 R VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-30</gq><gq>08/10/2014 18:24:04</gq><gq>RAE</gq><gq>135 R VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/10/2014 18:24:06</gq><gq>QVF</gq><gq>135 R VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>P5</gq><gq>08/10/2014 18:24:46</gq><gq>RAE</gq><gq>135 R VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/10/2014 18:24:49</gq><gq>OHF</gq><gq>135 R VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY44</gq><gq>08/10/2014 18:24:59</gq><gq>RAE</gq><gq>135 R VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOFDQ</gq><gq>08/10/2014 18:25:02</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-52 FRVMH ng 27 J ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00056677>14-00056677</n> nf bs 8/9/2014 14:23:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/09/2014 14:21:18</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 FRVMH</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ZNQVFBA,PNEBY - 765-334-8315</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>27 J ZNVA FG/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=27 J ZNVA FG, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/09/2014 14:21:31 : cbf5 : GCRANENAQN]<oe>\aPebff fgerrgf: A PRAGRE FG//A SBBGR FG<oe>\aYnaqznex: Ab. 9 Tevyy<oe>\aYnaqznex Pbzzrag: sbezre Evuzf tebprel<c>\a[08/09/2014 14:21:44 : cbf5 : GCRANENAQN]<oe>\a10LB OBL UNIVAT N FRVMHER<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QOFDQ</gq><gq>08/09/2014 14:22:08</gq><gq>QVF</gq><gq>27 J ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/09/2014 14:22:11</gq><gq>QVF</gq><gq>27 J ZNVA FG, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-50 CV ng FE 1 // VE 70) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00056641>14-00056641</n> nf bs 8/9/2014 10:30:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/09/2014 10:25:19</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 CV</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>PBYOL, QRNAAN - 317-695-9495</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>FE 1 // VE 70/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=FE 1 // VE 70, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/09/2014 10:26:23 : cbf2 : CZVYYRE]<oe>\aFE 1 // VE 70<oe>\aBA FE 1 ARNE GUR RNFGOBHAQ ENZC...FRNGORYG VF FGHPX ...PURFG NAQ ONPX CNVA<c>\a[08/09/2014 10:26:47 : cbf2 : CZVYYRE]<oe>\aJUVGR TZP NAQ N QNEX FHI<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>10-50 CQ</gq><gq>Vavgvny Nffvtazrag</gq><gq>08/09/2014 10:27:05</gq><gq>CZVYYRE</gq></ge>\a<ge><gq>10-50 CV</gq><gq>08/09/2014 10:27:05</gq><gq>Svany Nffvtazrag</gq><gq>WQHXR</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>89-17</gq><gq>08/09/2014 10:27:37</gq><gq>QVF</gq><gq>FE 1 // VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-33</gq><gq>08/09/2014 10:28:01</gq><gq>QVF</gq><gq>FE 1 // VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>Z1</gq><gq>08/09/2014 10:28:19</gq><gq>RAE</gq><gq>FE 1 // VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-5</gq><gq>08/09/2014 10:28:21</gq><gq>RAE</gq><gq>FE 1 // VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>Z1</gq><gq>08/09/2014 10:28:34</gq><gq>BAF</gq><gq>FE 1 // VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>PPSQ</gq><gq>08/09/2014 10:29:09</gq><gq>QVF</gq><gq>FE 1 // VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>QOY44</gq><gq>08/09/2014 10:29:09</gq><gq>RAE</gq><gq>FE 1 // VE 70, PNZOEVQTR PVGL</gq></ge>\a<ge><gq>89-33</gq><gq>08/09/2014 10:29:57</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
-(911 Qvfcngpu: 10-70 ng A FE 1 // VE 70) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aPPSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00056464>14-00056464</n> nf bs 8/8/2014 17:02:02</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>08/08/2014 17:00:42</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>FRIRERAPR,EBA - 765-489-5721</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>A FE 1 // VE 70/PNZOEVQTR PVGL<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=A FE 1 // VE 70, PNZOEVQTR PVGL, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[08/08/2014 17:00:55 : cbf4 : AEHUY]<oe>\a1601 A FE 1<oe>\aPebff fgerrgf: WNPXFBAOHET EQ//TREZNAGBJA EQ<c>\a[08/08/2014 17:01:20 : cbf4 : AEHUY]<oe>\aYVARF NAQ GERR BA SVER BA FE 1  1ZVYR FBHG BS 70<oe>\a<oe>\a[08/08/2014 17:01:40 : cbf6 : WQHXR]<oe>\a1 Z FBHGU RNFG FVQR<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>PPSQ</gq><gq>08/08/2014 17:01:37</gq><gq>QVF</gq><gq>A FE 1 // VE 70, PNZOEVQTR PVGL</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00007396>14-00007396</n> nf bs 2/2/2014 19:01:13</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>02/02/2014 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>02/02/2014 19:00:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>02/02/2014 19:00:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>02/02/2014 19:00:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>02/02/2014 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>02/02/2014 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>02/02/2014 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>02/02/2014 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>02/02/2014 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>02/02/2014 19:00:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>02/02/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>02/02/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>02/02/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZG23</gq><gq>02/02/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZG23</gq><gq>02/02/2014 19:01:10</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00007197>14-00007197</n> nf bs 2/1/2014 19:05:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>02/01/2014 19:00:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>02/01/2014 19:04:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>02/01/2014 19:04:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>02/01/2014 19:04:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>02/01/2014 19:04:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>02/01/2014 19:04:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>02/01/2014 19:04:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>02/01/2014 19:04:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>02/01/2014 19:04:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>02/01/2014 19:05:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>02/01/2014 19:05:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006971>14-00006971</n> nf bs 1/31/2014 19:03:14</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/31/2014 19:00:23</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>JZG23</gq><gq>01/31/2014 19:02:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZG23</gq><gq>01/31/2014 19:02:46</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>NOSQ</gq><gq>01/31/2014 19:02:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/31/2014 19:02:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/31/2014 19:02:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/31/2014 19:03:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/31/2014 19:03:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/31/2014 19:03:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/31/2014 19:03:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu: 10-70 FZBXR ng 5324 F FE 227) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006905>14-00006905</n> nf bs 1/31/2014 14:36:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/31/2014 14:31:23</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FZBXR</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>5324 F FE 227/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=5324 F FE 227, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>140686</gq></ge>\a</gnoyr>\a<c>\a[01/31/2014 14:31:52 : cbf5 : FGONYQJVA]<oe>\aPebff fgerrgf: OHYYN EQ//BYQ 122<c>\a[01/31/2014 14:33:40 : cbf5 : FGONYQJVA]<oe>\aTREORE ERFVQRAPR]<oe>\a<oe>\a[01/31/2014 14:34:12 : cbf5 : FGONYQJVA]<oe>\aNPEBFF SEBZ GUR NVECBEG<oe>\a<oe>\a[01/31/2014 14:34:42 : cbf5 : FGONYQJVA]<oe>\aONEA GB GUR JRFG BS GUR ERFVQRAPR<oe>\a<oe>\a<c>\a<o>Pbzcynvag Punatrf</o>\a<gnoyr obeqre=1>\a<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a<ge><gq>TRARENY</gq><gq>Vavgvny Nffvtazrag</gq><gq>01/31/2014 14:36:16</gq><gq>FGONYQJVA</gq></ge>\a<ge><gq>10-70 FZBXR</gq><gq>01/31/2014 14:36:16</gq><gq>Svany Nffvtazrag</gq><gq>FGONYQJVA</gq></ge>\a</gnoyr><c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>OGSQ</gq><gq>01/31/2014 14:33:40</gq><gq>QVF</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a<ge><gq>RAT4</gq><gq>01/31/2014 14:34:00</gq><gq>QVF</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a<ge><gq>RAT3</gq><gq>01/31/2014 14:34:18</gq><gq>QVF</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a<ge><gq>HA21N</gq><gq>01/31/2014 14:34:23</gq><gq>RAE</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a<ge><gq>RAT3</gq><gq>01/31/2014 14:34:52</gq><gq>RAE</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a<ge><gq>RAT4</gq><gq>01/31/2014 14:34:56</gq><gq>RAE</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/31/2014 14:35:27</gq><gq>QVF</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu: TRARENY ng 5324 F FE 227) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006905>14-00006905</n> nf bs 1/31/2014 14:34:05</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/31/2014 14:31:23</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>TRARENY</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>5324 F FE 227/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=5324 F FE 227, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>140686</gq></ge>\a</gnoyr>\a<c>\a[01/31/2014 14:31:52 : cbf5 : FGONYQJVA]<oe>\aPebff fgerrgf: OHYYN EQ//BYQ 122<c>\a[01/31/2014 14:33:40 : cbf5 : FGONYQJVA]<oe>\aTREORE ERFVQRAPR]<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>OGSQ</gq><gq>01/31/2014 14:33:40</gq><gq>QVF</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a<ge><gq>RAT4</gq><gq>01/31/2014 14:34:00</gq><gq>QVF</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006732>14-00006732</n> nf bs 1/30/2014 21:06:08</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/30/2014 19:00:10</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/30/2014 21:05:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/30/2014 21:05:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/30/2014 21:05:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/30/2014 21:05:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/30/2014 21:05:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/30/2014 21:05:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/30/2014 21:05:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/30/2014 21:05:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/30/2014 21:05:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/30/2014 21:05:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/30/2014 21:05:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/30/2014 21:05:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006476>14-00006476</n> nf bs 1/29/2014 19:03:18</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/29/2014 19:00:13</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/29/2014 19:02:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/29/2014 19:02:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/29/2014 19:02:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/29/2014 19:02:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/29/2014 19:02:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/29/2014 19:02:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/29/2014 19:02:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/29/2014 19:02:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/29/2014 19:02:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/29/2014 19:03:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/29/2014 19:03:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/29/2014 19:03:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006274>14-00006274</n> nf bs 1/28/2014 19:08:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/28/2014 19:00:32</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/28/2014 19:07:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/28/2014 19:07:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/28/2014 19:07:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/28/2014 19:07:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/28/2014 19:07:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/28/2014 19:07:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/28/2014 19:07:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/28/2014 19:07:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/28/2014 19:07:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/28/2014 19:07:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/28/2014 19:07:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/28/2014 19:07:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP04</gq><gq>01/28/2014 19:08:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu: 10-52 YVSG ng 209 A FNYRZ FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006112>14-00006112</n> nf bs 1/28/2014 8:03:05</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/28/2014 08:00:52</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 YVSG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>EHENY ZRGEB - WVZZL - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>209 A FNYRZ FG/OBFGBA<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=209 A FNYRZ FG, OBFGBA, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[01/28/2014 08:01:47 : cbf2 : WTEVSSVA]<oe>\aPebff fgerrgf: ZNVA FG//CRNEY FG<oe>\aE/Z HAVG RE & ERD OGSQ SBE YVSG NFFVFG GB TRG CG VAFVQR ERFQ, CG VF YNETR OHVYQ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>01/28/2014 08:02:03</gq><gq>QVF</gq><gq>209 A FNYRZ FG, OBFGBA</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/28/2014 08:02:28</gq><gq>QVF</gq><gq>209 A FNYRZ FG, OBFGBA</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu: 10-52 YVSG ng 209 A FNYRZ FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006087>14-00006087</n> nf bs 1/28/2014 5:20:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/28/2014 04:54:58</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 YVSG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>PBK, EBTRE - 765-939-0998</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>209 A FNYRZ FG/OBFGBA<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=209 A FNYRZ FG, OBFGBA, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[01/28/2014 04:55:56 : cbf1 : EQHANJNL89]<oe>\aPebff fgerrgf: ZNVA FG//CRNEY FG<oe>\a<oe>\aABG UHEG WHFG ARRQF URYC HC<oe>\aUR VF GELVAT GB PENJY GB GUR QBBE GB HY VG<c>\a[01/28/2014 04:57:20 : cbf1 : EQHANJNL89]<oe>\aQBBEF NER ABJ HY<oe>\a<oe>\a[01/28/2014 04:59:15 : cbf1 : EQHANJNL89]<oe>\a914-4546 ARVTUOBE NPEBFF GUR FGERRG<oe>\a<oe>\a[01/28/2014 05:00:30 : cbf1 : EQHANJNL89]<oe>\aARVTUOBE VF 76<oe>\a<oe>\a[01/28/2014 05:18:42 : cbf2 : NFPUARVQRE]<oe>\aEZGE ERD JR GBAR BHG OSQ<oe>\a<oe>\a[01/28/2014 05:19:26 : cbf5 : QCVGPURE]<oe>\agnp 3<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>01/28/2014 04:56:12</gq><gq>QVF</gq><gq>209 A FNYRZ FG, OBFGBA</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/28/2014 05:19:17</gq><gq>QVF</gq><gq>209 A FNYRZ FG, OBFGBA</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu: 10-46 ng 518 J FBHGU FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006086>14-00006086</n> nf bs 1/28/2014 5:19:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/28/2014 04:41:17</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-46</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>cbjryy, qnaal - 765-855-5794</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>518 J FBHGU FG/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=518 J FBHGU FG, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[01/28/2014 04:43:07 : cbf1 : EQHANJNL89]<oe>\aPebff fgerrgf: ZNCYR FG//ZPZVAA EQ<oe>\a<oe>\a03 SBEQ ENATRE VF FGHPX CNEGYL VA GUR FGERRG ERD NFFVFGNAPR VA CHFUVAT VG VAGB N CNEXVAT FCNPR<oe>\aGX QVRQ NF UR JNF ONPXVAT VG BHG BS UVF QEVIR<c>\a[01/28/2014 05:12:17 : cbf2 : NFPUARVQRE]<oe>\aHANOYR GB URYC GUR PC YBPXRQ GUR XRLF VA GUR IRU.<oe>\aJURA N PZ HAVG PBZRF BA FRR VS GURL UNIR N YBPX BHG GBBY GB NFFVFG<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>155</gq><gq>01/28/2014 04:43:19</gq><gq>QVF</gq><gq>518 J FBHGU FG, PRAGREIVYYR</gq></ge>\a<ge><gq>155</gq><gq>01/28/2014 04:51:43</gq><gq>BAF</gq><gq>518 J FBHGU FG, PRAGREIVYYR</gq></ge>\a<ge><gq>155</gq><gq>01/28/2014 05:12:06</gq><gq>PBZ</gq><gq>PBZ</gq></ge>\a<ge><gq></gq><gq>01/28/2014 05:16:49</gq><gq></gq><gq>Ernpgvingrq</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/28/2014 05:18:34</gq><gq>QVF</gq><gq>518 J FBHGU FG, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006042>14-00006042</n> nf bs 1/27/2014 19:06:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/27/2014 19:00:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/27/2014 19:05:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/27/2014 19:05:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/27/2014 19:05:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/27/2014 19:05:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/27/2014 19:06:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/27/2014 19:06:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/27/2014 19:06:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/27/2014 19:06:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/27/2014 19:06:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/27/2014 19:06:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00005827>14-00005827</n> nf bs 1/26/2014 19:11:15</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/26/2014 19:00:15</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/26/2014 19:10:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/26/2014 19:10:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/26/2014 19:10:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/26/2014 19:10:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/26/2014 19:10:13</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/26/2014 19:10:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/26/2014 19:10:16</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/26/2014 19:10:18</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/26/2014 19:10:19</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/26/2014 19:10:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/26/2014 19:10:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/26/2014 19:10:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00005403>14-00005403</n> nf bs 1/24/2014 19:07:16</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/24/2014 19:00:15</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/24/2014 19:06:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/24/2014 19:06:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/24/2014 19:06:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/24/2014 19:06:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/24/2014 19:06:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/24/2014 19:06:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/24/2014 19:06:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/24/2014 19:06:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/24/2014 19:06:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UYSQ</gq><gq>01/24/2014 19:06:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/24/2014 19:06:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/24/2014 19:06:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/24/2014 19:06:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 5225 RFGRO EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00005177>14-00005177</n> nf bs 1/23/2014 21:34:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/23/2014 21:32:30</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>GHEARE, WHYVR - 765-935-4704</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>5225 RFGRO EQ/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=5225 RFGRO EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>140508</gq></ge>\a</gnoyr>\a<c>\a[01/23/2014 21:32:41 : cbf5 : NFPUARVQRE]<oe>\aPebff fgerrgf: HF 27//ORRFBA EQ<c>\a[01/23/2014 21:32:52 : cbf5 : NFPUARVQRE]<oe>\aCBFF PUVZARL SVER<oe>\a<oe>\a[01/23/2014 21:33:01 : cbf5 : NFPUARVQRE]<oe>\aUNIVAT GURZ TRG BHG BS GUR UBHFR<oe>\a<oe>\a[01/23/2014 21:33:15 : cbf5 : NFPUARVQRE]<oe>\aPYBFVAT GUR IRAG<oe>\a<oe>\a[01/23/2014 21:34:01 : cbf2 : NCVREPR]<oe>\agnp 3<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>RAT4</gq><gq>01/23/2014 21:32:57</gq><gq>QVF</gq><gq>5225 RFGRO EQ, EVPUZBAQ</gq></ge>\a<ge><gq>NOSQ</gq><gq>01/23/2014 21:33:17</gq><gq>QVF</gq><gq>5225 RFGRO EQ, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/23/2014 21:33:19</gq><gq>QVF</gq><gq>5225 RFGRO EQ, EVPUZBAQ</gq></ge>\a<ge><gq>EZGE1</gq><gq>01/23/2014 21:34:03</gq><gq>QVF</gq><gq>5225 RFGRO EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00005147>14-00005147</n> nf bs 1/23/2014 19:01:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/23/2014 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/23/2014 19:00:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/23/2014 19:00:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/23/2014 19:00:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/23/2014 19:00:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/23/2014 19:00:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/23/2014 19:00:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/23/2014 19:00:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/23/2014 19:00:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/23/2014 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/23/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/23/2014 19:00:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/23/2014 19:00:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP20</gq><gq>01/23/2014 19:01:03</gq><gq>BAF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00004882>14-00004882</n> nf bs 1/22/2014 19:22:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/22/2014 19:00:05</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[01/22/2014 19:03:00 : cbf2 : EQHANJNL89]<oe>\acntre grfg qrynlrq qhr gb spsq orvat ba n eha<oe>\a<oe>\aQNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/22/2014 19:21:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/22/2014 19:21:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/22/2014 19:21:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/22/2014 19:21:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/22/2014 19:22:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/22/2014 19:22:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/22/2014 19:22:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 6371 F PRAGREIVYYR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00004627>14-00004627</n> nf bs 1/22/2014 5:12:08</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/22/2014 05:09:13</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>UHFGRQ,XNGUL - 219-241-2995</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>6371 F PRAGREIVYYR EQ/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=6371 F PRAGREIVYYR EQ, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[01/22/2014 05:10:22 : cbf5 : ZEJEVTUG]<oe>\aPebff fgerrgf: ZRRX EQ//NOVATGBA CX<oe>\a<oe>\aPC NQI SYNZRF FUBJVAT SEBZ GUR ERFQ NTNVA<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/22/2014 05:11:41</gq><gq>QVF</gq><gq>6371 F PRAGREIVYYR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>01/22/2014 05:11:46</gq><gq>QVF</gq><gq>6371 F PRAGREIVYYR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/22/2014 05:11:54</gq><gq>QVF</gq><gq>6371 F PRAGREIVYYR EQ, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 6371 F PRAGREIVYYR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00004576>14-00004576</n> nf bs 1/21/2014 19:19:18</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/21/2014 19:16:55</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Irevmba Jveryrff - 765-960-8027</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>6371 F PRAGREIVYYR EQ/PRAGREIVYYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=6371 F PRAGREIVYYR EQ, PRAGREIVYYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[01/21/2014 19:17:13 : cbf4 : EOCNEXRE]<oe>\aPebff fgerrgf: ZRRX EQ//NOVATGBA CX<c>\a[01/21/2014 19:17:23 : cbf4 : EOCNEXRE]<oe>\aSHEANPR PNHTUG GUR EBBS BA SVER<oe>\a<oe>\a[01/21/2014 19:17:35 : cbf4 : EOCNEXRE]<oe>\aEBBS VF ABG SHYYL BA SVER, OHG GUR SVER VF TRGGVAT PYBFR.<oe>\a<oe>\a[01/21/2014 19:17:46 : cbf4 : EOCNEXRE]<oe>\aRIRELBAR VF TRGGVAT BHG BS GUR UBHFR ABJ.<oe>\a<oe>\a[01/21/2014 19:18:33 : cbf4 : EOCNEXRE]<oe>\aSVER VF PHEERAGYL NG GUR CYNPR JURER GUR PUVZARL ZRRGF GUR EBBS. PUVZARL VF BA SVER NAQ GUR EBBS VF TGGVAT ERNQL GB PNGPU.<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/21/2014 19:18:48</gq><gq>QVF</gq><gq>6371 F PRAGREIVYYR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>PISQ</gq><gq>01/21/2014 19:18:52</gq><gq>QVF</gq><gq>6371 F PRAGREIVYYR EQ, PRAGREIVYYR</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/21/2014 19:18:54</gq><gq>QVF</gq><gq>6371 F PRAGREIVYYR EQ, PRAGREIVYYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00004572>14-00004572</n> nf bs 1/21/2014 19:03:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/21/2014 19:00:00</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/21/2014 19:02:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/21/2014 19:02:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/21/2014 19:02:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/21/2014 19:02:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/21/2014 19:02:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/21/2014 19:02:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/21/2014 19:03:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/21/2014 19:03:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/21/2014 19:03:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/21/2014 19:03:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00004338>14-00004338</n> nf bs 1/20/2014 19:05:19</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/20/2014 19:00:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/20/2014 19:04:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/20/2014 19:04:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/20/2014 19:05:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/20/2014 19:05:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/20/2014 19:05:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/20/2014 19:05:13</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00004140>14-00004140</n> nf bs 1/19/2014 19:01:13</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/19/2014 19:00:25</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/19/2014 19:00:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/19/2014 19:00:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/19/2014 19:00:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/19/2014 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/19/2014 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/19/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/19/2014 19:00:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/19/2014 19:00:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/19/2014 19:00:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/19/2014 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/19/2014 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/19/2014 19:01:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00003972>14-00003972</n> nf bs 1/18/2014 19:01:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/18/2014 19:00:13</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/18/2014 19:00:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/18/2014 19:00:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/18/2014 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/18/2014 19:00:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/18/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/18/2014 19:00:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/18/2014 19:00:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/18/2014 19:00:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/18/2014 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/18/2014 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/18/2014 19:01:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/18/2014 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00003781>14-00003781</n> nf bs 1/17/2014 19:03:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/17/2014 19:00:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>OGSQ</gq><gq>01/17/2014 19:02:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/17/2014 19:02:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/17/2014 19:02:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/17/2014 19:02:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/17/2014 19:02:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/17/2014 19:02:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/17/2014 19:02:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/17/2014 19:02:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/17/2014 19:02:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/17/2014 19:02:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/17/2014 19:02:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP04</gq><gq>01/17/2014 19:02:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>NOSQ</gq><gq>01/17/2014 19:02:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00003562>14-00003562</n> nf bs 1/16/2014 19:15:09</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/16/2014 19:00:24</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/16/2014 19:14:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/16/2014 19:14:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/16/2014 19:14:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/16/2014 19:14:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/16/2014 19:14:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/16/2014 19:14:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/16/2014 19:14:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/16/2014 19:14:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/16/2014 19:14:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/16/2014 19:14:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/16/2014 19:14:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/16/2014 19:14:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00003316>14-00003316</n> nf bs 1/15/2014 19:15:14</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/15/2014 19:00:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/15/2014 19:14:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/15/2014 19:14:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/15/2014 19:14:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/15/2014 19:14:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/15/2014 19:14:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/15/2014 19:14:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/15/2014 19:15:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/15/2014 19:15:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/15/2014 19:15:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/15/2014 19:15:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/15/2014 19:15:13</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00003095>14-00003095</n> nf bs 1/14/2014 19:01:10</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/14/2014 19:00:01</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/14/2014 19:00:18</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/14/2014 19:00:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/14/2014 19:00:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/14/2014 19:00:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/14/2014 19:00:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/14/2014 19:00:27</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/14/2014 19:00:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/14/2014 19:00:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/14/2014 19:00:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/14/2014 19:00:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/14/2014 19:00:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/14/2014 19:00:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00002805>14-00002805</n> nf bs 1/13/2014 19:12:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/13/2014 19:00:41</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<HY>Ab Havgf Nffvtarq</hy>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00002806>14-00002806</n> nf bs 1/13/2014 19:06:15</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/13/2014 19:00:41</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<HY>Ab Havgf Nffvtarq</hy>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00002547>14-00002547</n> nf bs 1/12/2014 19:03:10</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/12/2014 19:00:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/12/2014 19:02:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/12/2014 19:02:16</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/12/2014 19:02:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/12/2014 19:02:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/12/2014 19:02:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/12/2014 19:02:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/12/2014 19:02:27</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/12/2014 19:02:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/12/2014 19:02:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/12/2014 19:02:34</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/12/2014 19:02:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/12/2014 19:02:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP19</gq><gq>01/12/2014 19:02:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu: 10-70 ng 7328 QVKBA EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00002532>14-00002532</n> nf bs 1/12/2014 17:25:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/12/2014 17:23:29</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>7328 QVKBA EQ/CEROYR<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=7328 QVKBA EQ, CEROYR, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[01/12/2014 17:24:05 : cbf1 : OZBBER]<oe>\airu sver zhghny nvqr<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>OGSQ</gq><gq>01/12/2014 17:24:37</gq><gq>QVF</gq><gq>7328 QVKBA EQ, CEROYR</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00002387>14-00002387</n> nf bs 1/11/2014 19:23:10</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/11/2014 19:00:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/11/2014 19:22:34</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/11/2014 19:22:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/11/2014 19:22:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/11/2014 19:22:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/11/2014 19:22:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/11/2014 19:22:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/11/2014 19:22:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/11/2014 19:22:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/11/2014 19:22:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/11/2014 19:22:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/11/2014 19:22:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/11/2014 19:23:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00002217>14-00002217</n> nf bs 1/10/2014 19:04:14</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/10/2014 19:00:15</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/10/2014 19:03:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/10/2014 19:03:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/10/2014 19:03:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/10/2014 19:03:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/10/2014 19:03:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/10/2014 19:03:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/10/2014 19:04:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/10/2014 19:04:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/10/2014 19:04:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00002005>14-00002005</n> nf bs 1/9/2014 19:04:19</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/09/2014 19:00:14</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QVIR</gq><gq>01/09/2014 19:03:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QVIR</gq><gq>01/09/2014 19:03:31</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>NOSQ</gq><gq>01/09/2014 19:03:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/09/2014 19:03:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/09/2014 19:03:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/09/2014 19:03:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/09/2014 19:03:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/09/2014 19:03:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/09/2014 19:03:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/09/2014 19:04:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/09/2014 19:04:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/09/2014 19:04:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/09/2014 19:04:16</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/09/2014 19:04:18</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00001776>14-00001776</n> nf bs 1/8/2014 19:01:16</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/08/2014 19:00:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/08/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/08/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/08/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/08/2014 19:00:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP21</gq><gq>01/08/2014 19:01:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu: 10-70 NYNEZ ng 4138 AVRJBRUARE EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00001542>14-00001542</n> nf bs 1/7/2014 21:04:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/07/2014 21:02:25</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 NYNEZ</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>TNEEVFBA RYRZRAGNEL FPUBBY - 765-962-6539</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4138 AVRJBRUARE EQ/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4138 AVRJBRUARE EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[01/07/2014 21:02:40 : cbf6 : TPNYYNJNL]<oe>\aPebff fgerrgf: JBYSR EQ//YBPHFG TEBIR EQ<c>\a[01/07/2014 21:02:52 : cbf6 : TPNYYNJNL]<oe>\aNHGBZNGVP SVER NYNEZ<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>OGSQ</gq><gq>01/07/2014 21:03:30</gq><gq>QVF</gq><gq>4138 AVRJBRUARE EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00001521>14-00001521</n> nf bs 1/7/2014 19:24:19</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/07/2014 19:00:07</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[01/07/2014 19:09:02 : cbf4 : EOCNEXRE]<oe>\aQRYNLRQ QHR GB SBHAGNVA PVGL SVER ORVAT BHG.<oe>\a<oe>\aQNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/07/2014 19:23:34</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/07/2014 19:23:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/07/2014 19:23:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/07/2014 19:23:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/07/2014 19:23:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/07/2014 19:23:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/07/2014 19:23:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/07/2014 19:23:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/07/2014 19:24:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/07/2014 19:24:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/07/2014 19:24:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/07/2014 19:24:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu: ZRQVPNY NYEZ ng 4578 JBYSR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00001393>14-00001393</n> nf bs 1/7/2014 9:51:05</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/07/2014 09:47:50</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>ZRQVPNY NYEZ</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>cvrepr erfvqrapr - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4578 JBYSR EQ/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4578 JBYSR EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[01/07/2014 09:48:59 : cbf3 : EQHANJNL89]<oe>\aPebff fgerrgf: ZVAARZNA EQ//AVRJBRUARE EQ<oe>\a<oe>\atrareny zrq nynez  ab zrq uvfg ba svyr <oe>\aab naf <oe>\axbbefra <oe>\a800-443-8865<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE2</gq><gq>01/07/2014 09:49:32</gq><gq>QVF</gq><gq>4578 JBYSR EQ, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/07/2014 09:50:13</gq><gq>QVF</gq><gq>4578 JBYSR EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00001293>14-00001293</n> nf bs 1/6/2014 19:07:16</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/06/2014 19:00:20</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/06/2014 19:06:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/06/2014 19:06:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/06/2014 19:06:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/06/2014 19:06:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/06/2014 19:06:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/06/2014 19:06:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/06/2014 19:07:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/06/2014 19:07:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/06/2014 19:07:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu: 10-50 VAIREG ng HF 27 // ORRFBA EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00001105>14-00001105</n> nf bs 1/5/2014 22:27:05</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/05/2014 22:23:21</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 VAIREG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NG&G ZBOVYVGL - 911-047-2370</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>HF 27 // ORRFBA EQ/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=HF 27 // ORRFBA EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[01/05/2014 22:24:10 : cbf5 : QCVGPURE]<oe>\aPNYYRE VF ABG FHER JURER FUR VF... NYY FUR PNA NQI FUR VF FGVYY VA JNLAR PB OHG VF BA 27<oe>\a<oe>\a765-407-0329<c>\a[01/05/2014 22:25:13 : cbf4 : ZPNVA]<oe>\aHF 27 // ORRFBA EQ<oe>\a<oe>\a[01/05/2014 22:26:58 : cbf1 : EQHANJNL89]<oe>\aGNP 2<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>01/05/2014 22:24:58</gq><gq>QVF</gq><gq>27 F ORSBER HAVBA PB, EVPUZBAQ</gq></ge>\a<ge><gq>89-7</gq><gq>01/05/2014 22:25:59</gq><gq>QVF</gq><gq>HF 27 // ORRFBA EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-7</gq><gq>01/05/2014 22:26:31</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/05/2014 22:26:34</gq><gq>QVF</gq><gq>HF 27 // ORRFBA EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-21</gq><gq>01/05/2014 22:26:45</gq><gq>QVF</gq><gq>HF 27 // ORRFBA EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-23</gq><gq>01/05/2014 22:26:47</gq><gq>QVF</gq><gq>HF 27 // ORRFBA EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00001086>14-00001086</n> nf bs 1/5/2014 19:01:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/05/2014 19:00:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/05/2014 19:00:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/05/2014 19:00:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/05/2014 19:00:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/05/2014 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/05/2014 19:00:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/05/2014 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/05/2014 19:00:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/05/2014 19:00:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/05/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/05/2014 19:00:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/05/2014 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/05/2014 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00000889>14-00000889</n> nf bs 1/4/2014 19:01:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/04/2014 19:00:04</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/04/2014 19:00:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/04/2014 19:00:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/04/2014 19:00:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/04/2014 19:00:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/04/2014 19:00:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/04/2014 19:00:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/04/2014 19:00:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/04/2014 19:00:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/04/2014 19:00:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/04/2014 19:00:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/04/2014 19:00:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/04/2014 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP04</gq><gq>01/04/2014 19:00:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00000702>14-00000702</n> nf bs 1/3/2014 19:05:14</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/03/2014 19:00:28</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/03/2014 19:04:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/03/2014 19:04:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/03/2014 19:04:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/03/2014 19:04:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/03/2014 19:04:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/03/2014 19:04:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/03/2014 19:04:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/03/2014 19:04:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/03/2014 19:04:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/03/2014 19:04:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/03/2014 19:04:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/03/2014 19:04:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP21</gq><gq>01/03/2014 19:04:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu: 10-11 ng 4577 FGENVTUG YVAR CX) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00000643>14-00000643</n> nf bs 1/3/2014 14:42:08</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/03/2014 14:36:25</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-11</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ZEF. SYRZVAT - 765-993-8473</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4577 FGENVTUG YVAR CX/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4577 FGENVTUG YVAR CX, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[01/03/2014 14:36:49 : cbf1 : WTEVSSVA]<oe>\aPebff fgerrgf: YRRQF EQ//SNEYBJ EQ<c>\a[01/03/2014 14:37:06 : cbf1 : WTEVSSVA]<oe>\aQBT SRYY VAGB VPR NAQ VF QEBJAVAT<oe>\a<oe>\a[01/03/2014 14:37:31 : cbf1 : WTEVSSVA]<oe>\aZNFGVSS<oe>\a<oe>\a[01/03/2014 14:38:25 : cbf1 : WTEVSSVA]<oe>\aPNYYRE QVFPBAA NAQ NQI URYC<oe>\a<oe>\a[01/03/2014 14:39:47 : cbf4 : RONVYRL]<oe>\a89-6 NQIVFRQ SQ ZVTUG OR ORGGRE FHVGRQ GB URYC<oe>\a<oe>\a[01/03/2014 14:41:22 : cbf5 : FUNMRYONXRE]<oe>\a85-1    76<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>89-14</gq><gq>01/03/2014 14:37:59</gq><gq>QVF</gq><gq>4577 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a<ge><gq>89-34</gq><gq>01/03/2014 14:38:06</gq><gq>QVF</gq><gq>4577 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a<ge><gq>89175</gq><gq>01/03/2014 14:38:24</gq><gq>QVF</gq><gq>4577 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/03/2014 14:41:07</gq><gq>QVF</gq><gq>4577 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00000434>14-00000434</n> nf bs 1/2/2014 19:02:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/02/2014 19:00:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/02/2014 19:01:27</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/02/2014 19:01:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/02/2014 19:01:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/02/2014 19:01:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/02/2014 19:01:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/02/2014 19:01:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/02/2014 19:01:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/02/2014 19:01:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/02/2014 19:01:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/02/2014 19:01:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>01/02/2014 19:01:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>01/02/2014 19:01:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP19</gq><gq>01/02/2014 19:02:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00000152>14-00000152</n> nf bs 1/1/2014 19:02:14</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/01/2014 19:00:17</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>01/01/2014 19:01:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>01/01/2014 19:01:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>01/01/2014 19:01:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>01/01/2014 19:01:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>01/01/2014 19:01:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>01/01/2014 19:01:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>01/01/2014 19:02:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>01/01/2014 19:02:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>01/01/2014 19:02:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>01/01/2014 19:02:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00083415>13-00083415</n> nf bs 12/31/2013 19:02:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/31/2013 19:00:10</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/31/2013 19:01:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/31/2013 19:01:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/31/2013 19:01:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/31/2013 19:01:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/31/2013 19:01:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/31/2013 19:01:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/31/2013 19:01:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/31/2013 19:01:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/31/2013 19:01:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/31/2013 19:01:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/31/2013 19:01:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/31/2013 19:01:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/31/2013 19:01:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP04</gq><gq>12/31/2013 19:02:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00083172>13-00083172</n> nf bs 12/30/2013 19:44:10</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/30/2013 19:00:27</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[12/30/2013 19:02:14 : cbf4 : EQHANJNL89]<oe>\aCNTRE GRFG QRYNLRQ QHR GB NOSQ NAQ UTSQ ORVAT BA EHAF<oe>\a<oe>\aQNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/30/2013 19:43:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/30/2013 19:43:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/30/2013 19:43:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/30/2013 19:43:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/30/2013 19:43:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/30/2013 19:44:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/30/2013 19:44:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/30/2013 19:44:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/30/2013 19:44:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00082993>13-00082993</n> nf bs 12/29/2013 19:12:09</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/29/2013 19:00:26</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/29/2013 19:11:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/29/2013 19:11:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/29/2013 19:11:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/29/2013 19:11:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/29/2013 19:11:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/29/2013 19:12:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/29/2013 19:12:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/29/2013 19:12:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00082839>13-00082839</n> nf bs 12/28/2013 19:18:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/28/2013 19:00:01</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/28/2013 19:17:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/28/2013 19:17:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/28/2013 19:17:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/28/2013 19:17:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/28/2013 19:17:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/28/2013 19:17:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/28/2013 19:17:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/28/2013 19:17:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/28/2013 19:17:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/28/2013 19:18:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/28/2013 19:18:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00082650>13-00082650</n> nf bs 12/27/2013 19:04:14</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/27/2013 19:00:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/27/2013 19:03:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/27/2013 19:03:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/27/2013 19:03:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/27/2013 19:03:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/27/2013 19:03:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/27/2013 19:03:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/27/2013 19:04:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/27/2013 19:04:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/27/2013 19:04:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00082437>13-00082437</n> nf bs 12/26/2013 19:08:15</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/26/2013 19:00:05</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[12/26/2013 19:00:45 : cbf5 : ZPNVA]<oe>\aFYVTUG QRYNL VA GRFG QHR GB JVYYVNZFOHET WHFG PYRNEVAT SEBZ GURVE PNYY<oe>\a<oe>\aQNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/26/2013 19:07:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/26/2013 19:07:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/26/2013 19:07:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/26/2013 19:07:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/26/2013 19:07:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/26/2013 19:07:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/26/2013 19:07:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/26/2013 19:07:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/26/2013 19:07:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/26/2013 19:07:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/26/2013 19:07:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/26/2013 19:07:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP21</gq><gq>12/26/2013 19:07:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00082248>13-00082248</n> nf bs 12/25/2013 19:05:16</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/25/2013 19:00:12</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/25/2013 19:04:19</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/25/2013 19:04:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/25/2013 19:04:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/25/2013 19:04:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/25/2013 19:04:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/25/2013 19:04:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/25/2013 19:04:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/25/2013 19:04:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/25/2013 19:04:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/25/2013 19:04:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/25/2013 19:04:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/25/2013 19:04:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP21</gq><gq>12/25/2013 19:04:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00082063>13-00082063</n> nf bs 12/24/2013 19:06:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/24/2013 19:00:19</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/24/2013 19:05:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/24/2013 19:05:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/24/2013 19:05:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/24/2013 19:05:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/24/2013 19:05:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/24/2013 19:05:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/24/2013 19:05:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/24/2013 19:06:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/24/2013 19:06:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/24/2013 19:06:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/24/2013 19:06:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00081881>13-00081881</n> nf bs 12/23/2013 19:06:13</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/23/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/23/2013 19:05:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/23/2013 19:05:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/23/2013 19:05:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/23/2013 19:05:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/23/2013 19:05:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/23/2013 19:05:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/23/2013 19:05:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/23/2013 19:06:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/23/2013 19:06:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/23/2013 19:06:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/23/2013 19:06:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00081672>13-00081672</n> nf bs 12/22/2013 19:05:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/22/2013 19:00:13</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QVIR</gq><gq>12/22/2013 19:04:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QVIR</gq><gq>12/22/2013 19:04:16</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>NOSQ</gq><gq>12/22/2013 19:04:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/22/2013 19:04:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/22/2013 19:04:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/22/2013 19:04:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/22/2013 19:04:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/22/2013 19:04:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/22/2013 19:04:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/22/2013 19:04:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/22/2013 19:04:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/22/2013 19:04:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/22/2013 19:04:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/22/2013 19:04:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP20</gq><gq>12/22/2013 19:05:01</gq><gq>BAF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu: 10-52 ng 103 F FNYRZ FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00081554>13-00081554</n> nf bs 12/22/2013 6:26:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/22/2013 06:22:37</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>CRTTL WRAXVAF - 513-889-8025</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>103 F FNYRZ FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=103 F FNYRZ FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[12/22/2013 06:23:52 : cbf2 : FGONYQJVA]<oe>\aVA N ERQ SBEQ SBPHF VA OBFGBA <oe>\a176 URNEG ENGR BKLTRA YRIRY VF 89<oe>\aXRRCF TVIVAT ZR URE B2 YRIRY<c>\a[12/22/2013 06:24:40 : cbf4 : RONVYRL]<oe>\aPebff fgerrgf: ZNVA FG//<oe>\aYnaqznex: CBFG BSSVPR OBFGBA<oe>\a<oe>\a[12/22/2013 06:24:52 : cbf2 : FGONYQJVA]<oe>\aFUR UNF FIG?<oe>\a<oe>\a[12/22/2013 06:25:05 : cbf2 : FGONYQJVA]<oe>\aUNQ N URNEG NOYNFVBA N LRNE NTB NG ERVQ<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE1</gq><gq>12/22/2013 06:25:07</gq><gq>QVF</gq><gq>103 F FNYRZ FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/22/2013 06:25:50</gq><gq>QVF</gq><gq>103 F FNYRZ FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00081464>13-00081464</n> nf bs 12/21/2013 19:02:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/21/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/21/2013 19:01:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/21/2013 19:01:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/21/2013 19:01:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP04</gq><gq>12/21/2013 19:01:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00081274>13-00081274</n> nf bs 12/20/2013 19:02:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/20/2013 19:00:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>JP19</gq><gq>12/20/2013 19:01:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>NOSQ</gq><gq>12/20/2013 19:01:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/20/2013 19:01:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/20/2013 19:01:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/20/2013 19:01:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/20/2013 19:01:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/20/2013 19:01:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/20/2013 19:01:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/20/2013 19:01:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/20/2013 19:02:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/20/2013 19:02:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/20/2013 19:02:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/20/2013 19:02:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu: 10-52 HAPBA ng 4333 FGENVTUG YVAR CX) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00081252>13-00081252</n> nf bs 12/20/2013 17:17:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/20/2013 17:15:21</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-993-2459</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4333 FGENVTUG YVAR CX/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=4333 FGENVTUG YVAR CX, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[12/20/2013 17:15:35 : cbf5 : WTEVSSVA]<oe>\aPebff fgerrgf: YRRQF EQ//SNEYBJ EQ<c>\a[12/20/2013 17:15:52 : cbf5 : WTEVSSVA]<oe>\aZNYR ABG  OERNGUVAT    CBFF GHEAVAT OYHR<oe>\a<oe>\a[12/20/2013 17:16:11 : cbf5 : WTEVSSVA]<oe>\aVA ORQEBBZ<oe>\a<oe>\a[12/20/2013 17:16:22 : cbf5 : WTEVSSVA]<oe>\aCG FUNAR EHFFRYY    35 LB ZNYR<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE3</gq><gq>12/20/2013 17:15:53</gq><gq>QVF</gq><gq>4333 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/20/2013 17:16:00</gq><gq>QVF</gq><gq>4333 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a<ge><gq>89-33</gq><gq>12/20/2013 17:16:32</gq><gq>QVF</gq><gq>4333 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00081015>13-00081015</n> nf bs 12/19/2013 19:05:13</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/19/2013 19:00:35</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/19/2013 19:04:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/19/2013 19:04:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/19/2013 19:04:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/19/2013 19:04:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/19/2013 19:04:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/19/2013 19:04:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/19/2013 19:04:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/19/2013 19:04:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/19/2013 19:04:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/19/2013 19:04:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/19/2013 19:04:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/19/2013 19:04:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00080765>13-00080765</n> nf bs 12/18/2013 19:10:10</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/18/2013 19:00:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/18/2013 19:09:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/18/2013 19:09:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/18/2013 19:09:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/18/2013 19:09:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/18/2013 19:09:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/18/2013 19:09:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/18/2013 19:09:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/18/2013 19:09:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/18/2013 19:09:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/18/2013 19:09:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/18/2013 19:09:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/18/2013 19:09:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00080522>13-00080522</n> nf bs 12/17/2013 19:02:10</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/17/2013 19:00:01</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>QVIR</gq><gq>12/17/2013 19:01:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QVIR</gq><gq>12/17/2013 19:01:46</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>NOSQ</gq><gq>12/17/2013 19:01:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/17/2013 19:01:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/17/2013 19:01:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/17/2013 19:01:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/17/2013 19:01:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/17/2013 19:02:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/17/2013 19:02:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/17/2013 19:02:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/17/2013 19:02:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00080289>13-00080289</n> nf bs 12/16/2013 19:26:10</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/16/2013 19:00:23</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>JP04</gq><gq>12/16/2013 19:25:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>NOSQ</gq><gq>12/16/2013 19:25:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/16/2013 19:25:27</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/16/2013 19:25:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/16/2013 19:25:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/16/2013 19:25:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/16/2013 19:25:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/16/2013 19:25:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/16/2013 19:25:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/16/2013 19:25:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/16/2013 19:25:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/16/2013 19:25:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/16/2013 19:26:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00080061>13-00080061</n> nf bs 12/15/2013 19:08:15</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/15/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>OGSQ</gq><gq>12/15/2013 19:07:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>NOSQ</gq><gq>12/15/2013 19:07:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/15/2013 19:07:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/15/2013 19:07:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/15/2013 19:07:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/15/2013 19:07:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/15/2013 19:07:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/15/2013 19:07:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/15/2013 19:07:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00079903>13-00079903</n> nf bs 12/14/2013 19:37:16</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/14/2013 19:00:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/14/2013 19:36:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/14/2013 19:36:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/14/2013 19:37:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/14/2013 19:37:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/14/2013 19:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/14/2013 19:37:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/14/2013 19:37:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/14/2013 19:37:13</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 1860 NOVATGBA CX) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00079788>13-00079788</n> nf bs 12/14/2013 6:16:07</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/14/2013 06:07:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>pnccf,qnaal - 765-277-3383</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1860 NOVATGBA CX/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=1860 NOVATGBA CX, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>136620</gq></ge>\a</gnoyr>\a<c>\a[12/14/2013 06:07:57 : cbf1 : AEHUY]<oe>\aPebff fgerrgf: EVPUZBAQ PVGL YVZVGF//FNYVFOHEL EQ<oe>\aPebff fgerrgf: J ZNVA FG//FJ N FG<c>\a[12/14/2013 06:09:02 : cbf1 : AEHUY]<oe>\aPebff fgerrgf: EVPUZBAQ PVGL YVZVGF//FNYVFOHEL EQ<oe>\a<oe>\a[12/14/2013 06:09:37 : cbf1 : AEHUY]<oe>\aonea ba sver ybsg<oe>\a<oe>\a[12/14/2013 06:09:59 : cbf1 : AEHUY]<oe>\aonea shyy bs rdhvczrag<oe>\a<oe>\a[12/14/2013 06:10:08 : cbf1 : AEHUY]<oe>\atbg gur qbtf bhg<oe>\a<oe>\a[12/14/2013 06:12:14 : cbf1 : AEHUY]<oe>\aerd obfgba,novatgba,pragreivyyr gnaxref<oe>\a<oe>\a[12/14/2013 06:15:51 : cbf1 : AEHUY]<oe>\afgbel 1/2 onea j/synzrf fubjvat sebz gur sebag<oe>\a<oe>\a[12/14/2013 06:16:02 : cbf1 : AEHUY]<oe>\aerd ec&y<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>RAT1</gq><gq>12/14/2013 06:09:09</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>RAT4</gq><gq>12/14/2013 06:09:12</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>RAT5</gq><gq>12/14/2013 06:09:14</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>ERFP</gq><gq>12/14/2013 06:09:43</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>HA21N</gq><gq>12/14/2013 06:09:45</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>HA21N</gq><gq>12/14/2013 06:10:29</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>RAT1</gq><gq>12/14/2013 06:10:40</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>FD3</gq><gq>12/14/2013 06:11:14</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>FD1</gq><gq>12/14/2013 06:11:21</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>ERFP</gq><gq>12/14/2013 06:11:30</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>ERFP</gq><gq>12/14/2013 06:11:31</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>RAT4</gq><gq>12/14/2013 06:11:32</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>RAT4</gq><gq>12/14/2013 06:11:33</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>RAT5</gq><gq>12/14/2013 06:11:58</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>PIT14</gq><gq>12/14/2013 06:13:03</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/14/2013 06:15:10</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>NOSQ</gq><gq>12/14/2013 06:15:11</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/14/2013 06:15:14</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a<ge><gq>PIT14</gq><gq>12/14/2013 06:15:23</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>HA21N</gq><gq>12/14/2013 06:15:54</gq><gq>BAF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00079715>13-00079715</n> nf bs 12/13/2013 19:01:14</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/13/2013 19:00:04</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/13/2013 19:00:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/13/2013 19:00:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/13/2013 19:00:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/13/2013 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/13/2013 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/13/2013 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/13/2013 19:00:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/13/2013 19:01:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/13/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/13/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/13/2013 19:01:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/13/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00079495>13-00079495</n> nf bs 12/12/2013 19:02:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/12/2013 19:00:12</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/12/2013 19:01:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/12/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/12/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/12/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/12/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/12/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/12/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/12/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/12/2013 19:01:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/12/2013 19:01:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/12/2013 19:01:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/12/2013 19:01:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP04</gq><gq>12/12/2013 19:01:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/12/2013 19:02:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00079288>13-00079288</n> nf bs 12/11/2013 19:07:17</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/11/2013 19:00:20</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>OGSQ</gq><gq>12/11/2013 19:06:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/11/2013 19:06:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/11/2013 19:06:13</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/11/2013 19:06:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/11/2013 19:06:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/11/2013 19:06:19</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/11/2013 19:06:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/11/2013 19:06:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/11/2013 19:06:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/11/2013 19:06:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>NOSQ</gq><gq>12/11/2013 19:06:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/11/2013 19:06:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP04</gq><gq>12/11/2013 19:06:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00079018>13-00079018</n> nf bs 12/10/2013 19:05:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/10/2013 19:00:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/10/2013 19:04:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/10/2013 19:04:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/10/2013 19:04:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/10/2013 19:04:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/10/2013 19:04:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/10/2013 19:04:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/10/2013 19:05:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/10/2013 19:05:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/10/2013 19:05:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/10/2013 19:05:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00078808>13-00078808</n> nf bs 12/9/2013 19:01:13</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/09/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/09/2013 19:00:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/09/2013 19:00:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/09/2013 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/09/2013 19:00:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/09/2013 19:00:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/09/2013 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/09/2013 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/09/2013 19:00:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/09/2013 19:00:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/09/2013 19:01:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/09/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/09/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00078390>13-00078390</n> nf bs 12/7/2013 19:03:13</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/07/2013 19:00:07</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/07/2013 19:02:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/07/2013 19:02:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/07/2013 19:02:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/07/2013 19:02:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/07/2013 19:02:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/07/2013 19:02:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/07/2013 19:02:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/07/2013 19:02:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/07/2013 19:03:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/07/2013 19:03:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00078227>13-00078227</n> nf bs 12/6/2013 19:40:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/06/2013 19:00:11</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[12/06/2013 19:02:11 : cbf5 : ZPNVA]<oe>\aQRYNL VA CNTRE GRFG QHR GB PISQ BA N PNYY<oe>\a<oe>\aQNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>JZSQ</gq><gq>12/06/2013 19:39:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/06/2013 19:39:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/06/2013 19:39:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/06/2013 19:39:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>NOSQ</gq><gq>12/06/2013 19:39:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/06/2013 19:39:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/06/2013 19:39:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/06/2013 19:39:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/06/2013 19:39:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/06/2013 19:39:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/06/2013 19:39:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/06/2013 19:39:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00078020>13-00078020</n> nf bs 12/5/2013 19:09:09</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/05/2013 19:00:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>JP19</gq><gq>12/05/2013 19:07:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/05/2013 19:08:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>NOSQ</gq><gq>12/05/2013 19:08:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/05/2013 19:08:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PS1</gq><gq>12/05/2013 19:08:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PS1</gq><gq>12/05/2013 19:08:19</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/05/2013 19:08:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/05/2013 19:08:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/05/2013 19:08:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/05/2013 19:08:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/05/2013 19:08:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/05/2013 19:08:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/05/2013 19:08:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/05/2013 19:08:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/05/2013 19:08:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu: 10-52 HAPBA ng 6152 JBYSR EQ) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00077994>13-00077994</n> nf bs 12/5/2013 17:09:04</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/05/2013 17:05:56</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>OLEQ, PBYBA - 765-914-7228</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>6152 JBYSR EQ/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=6152 JBYSR EQ, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[12/05/2013 17:06:34 : cbf6 : TPNYYNJNL]<oe>\aPebff fgerrgf: FGNGR YVAR EQ//QBERA EQ<c>\a[12/05/2013 17:06:53 : cbf6 : TPNYYNJNL]<oe>\aABG OERNGUVAT<oe>\aABG FGVSS BE PBYQ<oe>\a<oe>\a[12/05/2013 17:07:16 : cbf6 : TPNYYNJNL]<oe>\aGURL QB ABG JNAG GB GEL PCE<oe>\a<oe>\a[12/05/2013 17:07:42 : cbf6 : TPNYYNJNL]<oe>\aUNF NYBG BS URNYGU VFFHRF<oe>\a<oe>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>EZGE3</gq><gq>12/05/2013 17:06:50</gq><gq>QVF</gq><gq>6152 JBYSR EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-22</gq><gq>12/05/2013 17:06:50</gq><gq>QVF</gq><gq>6152 JBYSR EQ, EVPUZBAQ</gq></ge>\a<ge><gq>89-6</gq><gq>12/05/2013 17:07:14</gq><gq>RAE</gq><gq>6152 JBYSR EQ, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/05/2013 17:08:44</gq><gq>QVF</gq><gq>6152 JBYSR EQ, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00077804>13-00077804</n> nf bs 12/4/2013 19:01:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/04/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/04/2013 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/04/2013 19:00:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/04/2013 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/04/2013 19:00:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/04/2013 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/04/2013 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/04/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/04/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/04/2013 19:01:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/04/2013 19:01:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/04/2013 19:01:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00077590>13-00077590</n> nf bs 12/3/2013 19:02:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/03/2013 19:00:15</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/03/2013 19:01:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/03/2013 19:01:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/03/2013 19:01:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/03/2013 19:01:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/03/2013 19:01:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/03/2013 19:01:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/03/2013 19:01:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/03/2013 19:01:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/03/2013 19:01:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/03/2013 19:02:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00077360>13-00077360</n> nf bs 12/2/2013 19:08:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/02/2013 19:00:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[12/02/2013 19:00:31 : cbf5 : NFPUARVQRE]<oe>\aQRYNLRQ QHR GB RPBABZL ORVAT BA N 10-50 CV<oe>\a<oe>\aQNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/02/2013 19:07:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/02/2013 19:07:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/02/2013 19:07:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/02/2013 19:07:27</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/02/2013 19:07:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/02/2013 19:07:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/02/2013 19:07:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/02/2013 19:07:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/02/2013 19:07:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/02/2013 19:07:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/02/2013 19:07:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/02/2013 19:08:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00077120>13-00077120</n> nf bs 12/1/2013 19:08:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/01/2013 19:00:05</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>12/01/2013 19:07:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>12/01/2013 19:07:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>12/01/2013 19:07:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>12/01/2013 19:07:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>12/01/2013 19:07:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>12/01/2013 19:07:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>12/01/2013 19:07:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>12/01/2013 19:07:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>12/01/2013 19:07:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>12/01/2013 19:07:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>12/01/2013 19:08:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>12/01/2013 19:08:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00076978>13-00076978</n> nf bs 11/30/2013 19:01:10</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/30/2013 19:00:05</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>11/30/2013 19:00:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/30/2013 19:00:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/30/2013 19:00:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/30/2013 19:00:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/30/2013 19:00:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/30/2013 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/30/2013 19:00:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/30/2013 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/30/2013 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/30/2013 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>11/30/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>11/30/2013 19:01:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00076769>13-00076769</n> nf bs 11/29/2013 19:02:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/29/2013 19:00:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>OBE84</gq><gq>11/29/2013 19:01:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>NOSQ</gq><gq>11/29/2013 19:01:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/29/2013 19:01:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/29/2013 19:01:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/29/2013 19:01:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/29/2013 19:01:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/29/2013 19:01:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/29/2013 19:01:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/29/2013 19:01:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/29/2013 19:02:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00076579>13-00076579</n> nf bs 11/28/2013 19:01:15</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/28/2013 19:00:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>OGSQ</gq><gq>11/28/2013 19:00:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>NOSQ</gq><gq>11/28/2013 19:00:27</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/28/2013 19:00:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/28/2013 19:00:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/28/2013 19:00:34</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/28/2013 19:00:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/28/2013 19:00:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/28/2013 19:00:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/28/2013 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/28/2013 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>11/28/2013 19:00:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>11/28/2013 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP04</gq><gq>11/28/2013 19:00:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00076412>13-00076412</n> nf bs 11/27/2013 19:02:17</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/27/2013 19:00:22</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>11/27/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/27/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/27/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/27/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/27/2013 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/27/2013 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/27/2013 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/27/2013 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/27/2013 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/27/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>11/27/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>11/27/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP21</gq><gq>11/27/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00076172>13-00076172</n> nf bs 11/26/2013 19:05:19</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/26/2013 19:00:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>11/26/2013 19:04:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/26/2013 19:04:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/26/2013 19:04:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/26/2013 19:04:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/26/2013 19:04:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/26/2013 19:04:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/26/2013 19:04:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/26/2013 19:04:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/26/2013 19:04:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/26/2013 19:05:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>11/26/2013 19:05:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>11/26/2013 19:05:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00075908>13-00075908</n> nf bs 11/25/2013 19:01:17</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/25/2013 19:00:10</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>11/25/2013 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/25/2013 19:00:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/25/2013 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/25/2013 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/25/2013 19:01:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/25/2013 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/25/2013 19:01:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/25/2013 19:01:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/25/2013 19:01:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/25/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>11/25/2013 19:01:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00075700>13-00075700</n> nf bs 11/24/2013 19:03:09</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/24/2013 19:00:11</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>JP19</gq><gq>11/24/2013 19:02:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYGT9</gq><gq>11/24/2013 19:02:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYGT9</gq><gq>11/24/2013 19:02:47</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>NOSQ</gq><gq>11/24/2013 19:02:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/24/2013 19:02:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/24/2013 19:02:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/24/2013 19:03:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/24/2013 19:03:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/24/2013 19:03:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/24/2013 19:03:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00075489>13-00075489</n> nf bs 11/23/2013 19:06:10</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/23/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>JP04</gq><gq>11/23/2013 19:05:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>NOSQ</gq><gq>11/23/2013 19:05:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/23/2013 19:05:19</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/23/2013 19:05:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/23/2013 19:05:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/23/2013 19:05:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/23/2013 19:05:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/23/2013 19:05:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/23/2013 19:05:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/23/2013 19:05:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/23/2013 19:05:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>11/23/2013 19:05:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>11/23/2013 19:05:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00075237>13-00075237</n> nf bs 11/22/2013 19:01:14</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/22/2013 19:00:16</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>11/22/2013 19:00:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/22/2013 19:00:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/22/2013 19:00:34</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/22/2013 19:00:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/22/2013 19:00:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/22/2013 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/22/2013 19:00:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/22/2013 19:00:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/22/2013 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/22/2013 19:00:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>11/22/2013 19:00:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>11/22/2013 19:00:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP20</gq><gq>11/22/2013 19:01:03</gq><gq>BAF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00074958>13-00074958</n> nf bs 11/21/2013 19:01:14</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/21/2013 19:00:23</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>11/21/2013 19:00:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/21/2013 19:00:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/21/2013 19:00:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/21/2013 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/21/2013 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/21/2013 19:00:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/21/2013 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/21/2013 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/21/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/21/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>11/21/2013 19:01:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>11/21/2013 19:01:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00074768>13-00074768</n> nf bs 11/20/2013 19:04:16</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/20/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>11/20/2013 19:03:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/20/2013 19:03:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/20/2013 19:03:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/20/2013 19:04:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00074543>13-00074543</n> nf bs 11/19/2013 19:21:13</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/19/2013 19:00:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a[11/19/2013 19:01:46 : cbf5 : ZPNVA]<oe>\aQRYNL BA CNTRE GRFG QHR GB QHOYVA RZF WHFG QVFCNGPURQ BA N EHA<oe>\a<oe>\aQNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>JP21</gq><gq>11/19/2013 19:20:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>NOSQ</gq><gq>11/19/2013 19:20:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/19/2013 19:20:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/19/2013 19:20:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/19/2013 19:20:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/19/2013 19:20:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/19/2013 19:20:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/19/2013 19:20:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/19/2013 19:20:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/19/2013 19:20:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/19/2013 19:20:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>11/19/2013 19:20:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>11/19/2013 19:20:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>11/19/2013 19:20:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00074283>13-00074283</n> nf bs 11/18/2013 19:01:13</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/18/2013 19:00:01</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>JP16</gq><gq>11/18/2013 19:00:13</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>NOSQ</gq><gq>11/18/2013 19:00:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/18/2013 19:00:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/18/2013 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/18/2013 19:00:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/18/2013 19:00:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/18/2013 19:00:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/18/2013 19:00:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/18/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/18/2013 19:01:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00074067>13-00074067</n> nf bs 11/17/2013 19:01:13</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/17/2013 19:00:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>11/17/2013 19:00:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/17/2013 19:00:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/17/2013 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/17/2013 19:00:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/17/2013 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/17/2013 19:00:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/17/2013 19:00:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/17/2013 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/17/2013 19:00:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/17/2013 19:00:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>11/17/2013 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>11/17/2013 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00073891>13-00073891</n> nf bs 11/16/2013 19:01:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/16/2013 19:00:04</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>11/16/2013 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/16/2013 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/16/2013 19:01:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/16/2013 19:01:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/16/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/16/2013 19:01:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/16/2013 19:01:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00073705>13-00073705</n> nf bs 11/15/2013 19:07:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/15/2013 19:00:10</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>11/15/2013 19:06:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/15/2013 19:06:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/15/2013 19:06:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/15/2013 19:06:16</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/15/2013 19:06:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/15/2013 19:06:19</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/15/2013 19:06:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/15/2013 19:06:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/15/2013 19:06:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/15/2013 19:06:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>11/15/2013 19:06:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>11/15/2013 19:06:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00073509>13-00073509</n> nf bs 11/14/2013 19:01:12</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/14/2013 19:00:04</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>11/14/2013 19:00:13</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/14/2013 19:00:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/14/2013 19:00:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PS1</gq><gq>11/14/2013 19:00:19</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/14/2013 19:00:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PS1</gq><gq>11/14/2013 19:00:26</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/14/2013 19:00:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/14/2013 19:00:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/14/2013 19:00:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/14/2013 19:00:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/14/2013 19:00:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/14/2013 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>11/14/2013 19:00:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>11/14/2013 19:00:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JP20</gq><gq>11/14/2013 19:01:05</gq><gq>BAF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00073279>13-00073279</n> nf bs 11/13/2013 19:01:11</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/13/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>11/13/2013 19:00:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/13/2013 19:00:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/13/2013 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/13/2013 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/13/2013 19:01:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/13/2013 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/13/2013 19:01:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/13/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/13/2013 19:01:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00073036>13-00073036</n> nf bs 11/12/2013 19:14:17</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/12/2013 19:00:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>11/12/2013 19:13:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/12/2013 19:13:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/12/2013 19:13:34</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/12/2013 19:13:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/12/2013 19:13:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/12/2013 19:13:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/12/2013 19:13:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/12/2013 19:13:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/12/2013 19:13:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/12/2013 19:13:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>11/12/2013 19:13:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>11/12/2013 19:13:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
+(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a<obql>\a<pragre>\a<gnoyr>\a<ge><gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq>\a<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\aOGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a<gq><vzt fep="uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct" urvtug=100></gq></ge>\a</gnoyr>\a<obql>\a</pragre>\a<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00072822>13-00072822</n> nf bs 11/11/2013 19:06:10</u3>\a<gnoyr obeqre=1>\a<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/11/2013 19:00:01</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a<n uers="uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a<c>\a<c>\a<o>Havgf Nffvtarq</o>\a<gnoyr obeqre=1>\a<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a<ge><gq>NOSQ</gq><gq>11/11/2013 19:05:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>OGSQ</gq><gq>11/11/2013 19:05:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PPSQ</gq><gq>11/11/2013 19:05:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>PISQ</gq><gq>11/11/2013 19:05:27</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>QOSQ</gq><gq>11/11/2013 19:05:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>RPSQ</gq><gq>11/11/2013 19:05:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>SPSQ</gq><gq>11/11/2013 19:05:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>TSSQ</gq><gq>11/11/2013 19:05:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>UTSQ</gq><gq>11/11/2013 19:05:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>ZYSQ</gq><gq>11/11/2013 19:05:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JOSQ</gq><gq>11/11/2013 19:05:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a<ge><gq>JZSQ</gq><gq>11/11/2013 19:05:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a</gnoyr>\a<c><ue>\a</obql>\a</ugzy>
 
 */
 
 choyvp pynff VAJnlarPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp VAJnlarPbhaglOCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "JNLAR PBHAGL", "VA");
+    frgCnefre(arj VAJnlarPbhaglOCnefre("JNLAR PBHAGL", "VA"), "JNLAR PBHAGL", "VA");
   }
   
   @Grfg
   choyvp ibvq grfgCnefre() {
+    qbGrfg("G1",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00007396>14-00007396</n> nf bs 2/2/2014 19:01:13</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>02/02/2014 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>02/02/2014 19:00:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>02/02/2014 19:00:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>02/02/2014 19:00:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>02/02/2014 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>02/02/2014 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>02/02/2014 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>02/02/2014 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>02/02/2014 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>02/02/2014 19:00:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>02/02/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>02/02/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>02/02/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZG23</gq><gq>02/02/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZG23</gq><gq>02/02/2014 19:01:10</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00007396",
+        "QNGR:02/02/2014",
+        "GVZR:19:00:06",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JZG23 JZG23");
+
+    qbGrfg("G2",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00007197>14-00007197</n> nf bs 2/1/2014 19:05:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>02/01/2014 19:00:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>02/01/2014 19:04:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>02/01/2014 19:04:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>02/01/2014 19:04:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>02/01/2014 19:04:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>02/01/2014 19:04:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>02/01/2014 19:04:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>02/01/2014 19:04:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>02/01/2014 19:04:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>02/01/2014 19:05:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>02/01/2014 19:05:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00007197",
+        "QNGR:02/01/2014",
+        "GVZR:19:00:03",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PISQ QOSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G3",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006971>14-00006971</n> nf bs 1/31/2014 19:03:14</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/31/2014 19:00:23</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>JZG23</gq><gq>01/31/2014 19:02:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZG23</gq><gq>01/31/2014 19:02:46</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/31/2014 19:02:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/31/2014 19:02:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/31/2014 19:02:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/31/2014 19:03:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/31/2014 19:03:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/31/2014 19:03:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/31/2014 19:03:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00006971",
+        "QNGR:01/31/2014",
+        "GVZR:19:00:23",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:JZG23 JZG23 NOSQ OGSQ PISQ PPSQ JZSQ JOSQ ZYSQ");
+
+    qbGrfg("G4",
+        "(911 Qvfcngpu: 10-70 FZBXR ng 5324 F FE 227) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006905>14-00006905</n> nf bs 1/31/2014 14:36:04</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/31/2014 14:31:23</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FZBXR</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>5324 F FE 227/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=5324 F FE 227, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>140686</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c>\a" +
+        "[01/31/2014 14:31:52 : cbf5 : FGONYQJVA]<oe>\a" +
+        "Pebff fgerrgf: OHYYN EQ//BYQ 122<c>\a" +
+        "[01/31/2014 14:33:40 : cbf5 : FGONYQJVA]<oe>\a" +
+        "TREORE ERFVQRAPR]<oe>\a" +
+        "<oe>\a" +
+        "[01/31/2014 14:34:12 : cbf5 : FGONYQJVA]<oe>\a" +
+        "NPEBFF SEBZ GUR NVECBEG<oe>\a" +
+        "<oe>\a" +
+        "[01/31/2014 14:34:42 : cbf5 : FGONYQJVA]<oe>\a" +
+        "ONEA GB GUR JRFG BS GUR ERFVQRAPR<oe>\a" +
+        "<oe>\a" +
+        "<c>\a" +
+        "<o>Pbzcynvag Punatrf</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Pbzcynvag</gu><gu>Gvzr Nffvtarq</gu><gu>Gvzr Punatrq</gu><gu>Nffvtarq ol</gu></ge>\a" +
+        "<ge><gq>TRARENY</gq><gq>Vavgvny Nffvtazrag</gq><gq>01/31/2014 14:36:16</gq><gq>FGONYQJVA</gq></ge>\a" +
+        "<ge><gq>10-70 FZBXR</gq><gq>01/31/2014 14:36:16</gq><gq>Svany Nffvtazrag</gq><gq>FGONYQJVA</gq></ge>\a" +
+        "</gnoyr><c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/31/2014 14:33:40</gq><gq>QVF</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RAT4</gq><gq>01/31/2014 14:34:00</gq><gq>QVF</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RAT3</gq><gq>01/31/2014 14:34:18</gq><gq>QVF</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>HA21N</gq><gq>01/31/2014 14:34:23</gq><gq>RAE</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RAT3</gq><gq>01/31/2014 14:34:52</gq><gq>RAE</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RAT4</gq><gq>01/31/2014 14:34:56</gq><gq>RAE</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/31/2014 14:35:27</gq><gq>QVF</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00006905",
+        "QNGR:01/31/2014",
+        "GVZR:14:31:23",
+        "PBQR:10-70",
+        "PNYY:FZBXR",
+        "NQQE:5324 F FE 227",
+        "ZNQQE:5324 F VA 227",
+        "PVGL:EVPUZBAQ",
+        "VASB:[01/31/2014 14:31:52 : cbf5 : FGONYQJVA]\aPebff fgerrgf: OHYYN EQ//BYQ 122 [01/31/2014 14:33:40 : cbf5 : FGONYQJVA]\aTREORE ERFVQRAPR]\a\a[01/31/2014 14:34:12 : cbf5 : FGONYQJVA]\aNPEBFF SEBZ GUR NVECBEG\a\a[01/31/2014 14:34:42 : cbf5 : FGONYQJVA]\aONEA GB GUR JRFG BS GUR ERFVQRAPR Pbzcynvag Punatrf",
+        "K:OHYYN EQ/BYQ 122",
+        "HAVG:OGSQ RAT4 RAT3 HA21N RAT3 RAT4 OGSQ");
+
+    qbGrfg("G5",
+        "(911 Qvfcngpu: TRARENY ng 5324 F FE 227) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006905>14-00006905</n> nf bs 1/31/2014 14:34:05</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/31/2014 14:31:23</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>TRARENY</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>5324 F FE 227/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=5324 F FE 227, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>140686</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c>\a" +
+        "[01/31/2014 14:31:52 : cbf5 : FGONYQJVA]<oe>\a" +
+        "Pebff fgerrgf: OHYYN EQ//BYQ 122<c>\a" +
+        "[01/31/2014 14:33:40 : cbf5 : FGONYQJVA]<oe>\a" +
+        "TREORE ERFVQRAPR]<oe>\a" +
+        "<oe>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/31/2014 14:33:40</gq><gq>QVF</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RAT4</gq><gq>01/31/2014 14:34:00</gq><gq>QVF</gq><gq>5324 F FE 227, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00006905",
+        "QNGR:01/31/2014",
+        "GVZR:14:31:23",
+        "PNYY:TRARENY",
+        "NQQE:5324 F FE 227",
+        "ZNQQE:5324 F VA 227",
+        "PVGL:EVPUZBAQ",
+        "VASB:[01/31/2014 14:31:52 : cbf5 : FGONYQJVA]\aPebff fgerrgf: OHYYN EQ//BYQ 122 [01/31/2014 14:33:40 : cbf5 : FGONYQJVA]\aTREORE ERFVQRAPR]",
+        "K:OHYYN EQ/BYQ 122",
+        "HAVG:OGSQ RAT4");
+
+    qbGrfg("G6",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006732>14-00006732</n> nf bs 1/30/2014 21:06:08</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/30/2014 19:00:10</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/30/2014 21:05:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/30/2014 21:05:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/30/2014 21:05:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/30/2014 21:05:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/30/2014 21:05:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/30/2014 21:05:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/30/2014 21:05:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/30/2014 21:05:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/30/2014 21:05:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/30/2014 21:05:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/30/2014 21:05:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/30/2014 21:05:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00006732",
+        "QNGR:01/30/2014",
+        "GVZR:19:00:10",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G7",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006476>14-00006476</n> nf bs 1/29/2014 19:03:18</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/29/2014 19:00:13</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/29/2014 19:02:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/29/2014 19:02:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/29/2014 19:02:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/29/2014 19:02:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/29/2014 19:02:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/29/2014 19:02:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/29/2014 19:02:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/29/2014 19:02:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/29/2014 19:02:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/29/2014 19:03:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/29/2014 19:03:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/29/2014 19:03:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00006476",
+        "QNGR:01/29/2014",
+        "GVZR:19:00:13",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G8",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006274>14-00006274</n> nf bs 1/28/2014 19:08:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/28/2014 19:00:32</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/28/2014 19:07:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/28/2014 19:07:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/28/2014 19:07:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/28/2014 19:07:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/28/2014 19:07:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/28/2014 19:07:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/28/2014 19:07:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/28/2014 19:07:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/28/2014 19:07:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/28/2014 19:07:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/28/2014 19:07:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/28/2014 19:07:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP04</gq><gq>01/28/2014 19:08:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00006274",
+        "QNGR:01/28/2014",
+        "GVZR:19:00:32",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP04");
+
+    qbGrfg("G9",
+        "(911 Qvfcngpu: 10-52 YVSG ng 209 A FNYRZ FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006112>14-00006112</n> nf bs 1/28/2014 8:03:05</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/28/2014 08:00:52</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 YVSG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>EHENY ZRGEB - WVZZL - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>209 A FNYRZ FG/OBFGBA<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=209 A FNYRZ FG, OBFGBA, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[01/28/2014 08:01:47 : cbf2 : WTEVSSVA]<oe>\a" +
+        "Pebff fgerrgf: ZNVA FG//CRNEY FG<oe>\a" +
+        "E/Z HAVG RE & ERD OGSQ SBE YVSG NFFVFG GB TRG CG VAFVQR ERFQ, CG VF YNETR OHVYQ<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>EZGE1</gq><gq>01/28/2014 08:02:03</gq><gq>QVF</gq><gq>209 A FNYRZ FG, OBFGBA</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/28/2014 08:02:28</gq><gq>QVF</gq><gq>209 A FNYRZ FG, OBFGBA</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00006112",
+        "QNGR:01/28/2014",
+        "GVZR:08:00:52",
+        "PBQR:10-52",
+        "PNYY:YVSG",
+        "ANZR:EHENY ZRGEB  WVZZL",
+        "NQQE:209 A FNYRZ FG",
+        "PVGL:OBFGBA",
+        "VASB:[01/28/2014 08:01:47 : cbf2 : WTEVSSVA]\aPebff fgerrgf: ZNVA FG//CRNEY FG\aE/Z HAVG RE & ERD OGSQ SBE YVSG NFFVFG GB TRG CG VAFVQR ERFQ, CG VF YNETR OHVYQ",
+        "K:ZNVA FG/CRNEY FG",
+        "HAVG:EZGE1 OGSQ");
+
+    qbGrfg("G10",
+        "(911 Qvfcngpu: 10-52 YVSG ng 209 A FNYRZ FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006087>14-00006087</n> nf bs 1/28/2014 5:20:04</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/28/2014 04:54:58</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 YVSG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>PBK, EBTRE - 765-939-0998</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>209 A FNYRZ FG/OBFGBA<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=209 A FNYRZ FG, OBFGBA, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[01/28/2014 04:55:56 : cbf1 : EQHANJNL89]<oe>\a" +
+        "Pebff fgerrgf: ZNVA FG//CRNEY FG<oe>\a" +
+        "<oe>\a" +
+        "ABG UHEG WHFG ARRQF URYC HC<oe>\a" +
+        "UR VF GELVAT GB PENJY GB GUR QBBE GB HY VG<c>\a" +
+        "[01/28/2014 04:57:20 : cbf1 : EQHANJNL89]<oe>\a" +
+        "QBBEF NER ABJ HY<oe>\a" +
+        "<oe>\a" +
+        "[01/28/2014 04:59:15 : cbf1 : EQHANJNL89]<oe>\a" +
+        "914-4546 ARVTUOBE NPEBFF GUR FGERRG<oe>\a" +
+        "<oe>\a" +
+        "[01/28/2014 05:00:30 : cbf1 : EQHANJNL89]<oe>\a" +
+        "ARVTUOBE VF 76<oe>\a" +
+        "<oe>\a" +
+        "[01/28/2014 05:18:42 : cbf2 : NFPUARVQRE]<oe>\a" +
+        "EZGE ERD JR GBAR BHG OSQ<oe>\a" +
+        "<oe>\a" +
+        "[01/28/2014 05:19:26 : cbf5 : QCVGPURE]<oe>\a" +
+        "gnp 3<oe>\a" +
+        "<oe>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>EZGE1</gq><gq>01/28/2014 04:56:12</gq><gq>QVF</gq><gq>209 A FNYRZ FG, OBFGBA</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/28/2014 05:19:17</gq><gq>QVF</gq><gq>209 A FNYRZ FG, OBFGBA</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00006087",
+        "QNGR:01/28/2014",
+        "GVZR:04:54:58",
+        "PBQR:10-52",
+        "PNYY:YVSG",
+        "ANZR:PBK, EBTRE",
+        "CUBAR:765-939-0998",
+        "NQQE:209 A FNYRZ FG",
+        "PVGL:OBFGBA",
+        "VASB:[01/28/2014 04:55:56 : cbf1 : EQHANJNL89]\aPebff fgerrgf: ZNVA FG//CRNEY FG\a\aABG UHEG WHFG ARRQF URYC HC\aUR VF GELVAT GB PENJY GB GUR QBBE GB HY VG [01/28/2014 04:57:20 : cbf1 : EQHANJNL89]\aQBBEF NER ABJ HY\a\a[01/28/2014 04:59:15 : cbf1 : EQHANJNL89]\a914-4546 ARVTUOBE NPEBFF GUR FGERRG\a\a[01/28/2014 05:00:30 : cbf1 : EQHANJNL89]\aARVTUOBE VF 76\a\a[01/28/2014 05:18:42 : cbf2 : NFPUARVQRE]\aEZGE ERD JR GBAR BHG OSQ\a\a[01/28/2014 05:19:26 : cbf5 : QCVGPURE]\agnp 3",
+        "K:ZNVA FG/CRNEY FG",
+        "HAVG:EZGE1 OGSQ");
+
+    qbGrfg("G11",
+        "(911 Qvfcngpu: 10-46 ng 518 J FBHGU FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006086>14-00006086</n> nf bs 1/28/2014 5:19:04</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/28/2014 04:41:17</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-46</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>cbjryy, qnaal - 765-855-5794</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>518 J FBHGU FG/PRAGREIVYYR<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=518 J FBHGU FG, PRAGREIVYYR, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[01/28/2014 04:43:07 : cbf1 : EQHANJNL89]<oe>\a" +
+        "Pebff fgerrgf: ZNCYR FG//ZPZVAA EQ<oe>\a" +
+        "<oe>\a" +
+        "03 SBEQ ENATRE VF FGHPX CNEGYL VA GUR FGERRG ERD NFFVFGNAPR VA CHFUVAT VG VAGB N CNEXVAT FCNPR<oe>\a" +
+        "GX QVRQ NF UR JNF ONPXVAT VG BHG BS UVF QEVIR<c>\a" +
+        "[01/28/2014 05:12:17 : cbf2 : NFPUARVQRE]<oe>\a" +
+        "HANOYR GB URYC GUR PC YBPXRQ GUR XRLF VA GUR IRU.<oe>\a" +
+        "JURA N PZ HAVG PBZRF BA FRR VS GURL UNIR N YBPX BHG GBBY GB NFFVFG<oe>\a" +
+        "<oe>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>155</gq><gq>01/28/2014 04:43:19</gq><gq>QVF</gq><gq>518 J FBHGU FG, PRAGREIVYYR</gq></ge>\a" +
+        "<ge><gq>155</gq><gq>01/28/2014 04:51:43</gq><gq>BAF</gq><gq>518 J FBHGU FG, PRAGREIVYYR</gq></ge>\a" +
+        "<ge><gq>155</gq><gq>01/28/2014 05:12:06</gq><gq>PBZ</gq><gq>PBZ</gq></ge>\a" +
+        "<ge><gq></gq><gq>01/28/2014 05:16:49</gq><gq></gq><gq>Ernpgvingrq</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/28/2014 05:18:34</gq><gq>QVF</gq><gq>518 J FBHGU FG, PRAGREIVYYR</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00006086",
+        "QNGR:01/28/2014",
+        "GVZR:04:41:17",
+        "PBQR:10-46",
+        "ANZR:cbjryy, qnaal",
+        "CUBAR:765-855-5794",
+        "NQQE:518 J FBHGU FG",
+        "PVGL:PRAGREIVYYR",
+        "VASB:[01/28/2014 04:43:07 : cbf1 : EQHANJNL89]\aPebff fgerrgf: ZNCYR FG//ZPZVAA EQ\a\a03 SBEQ ENATRE VF FGHPX CNEGYL VA GUR FGERRG ERD NFFVFGNAPR VA CHFUVAT VG VAGB N CNEXVAT FCNPR\aGX QVRQ NF UR JNF ONPXVAT VG BHG BS UVF QEVIR [01/28/2014 05:12:17 : cbf2 : NFPUARVQRE]\aHANOYR GB URYC GUR PC YBPXRQ GUR XRLF VA GUR IRU.\aJURA N PZ HAVG PBZRF BA FRR VS GURL UNIR N YBPX BHG GBBY GB NFFVFG",
+        "K:ZNCYR FG/ZPZVAA EQ",
+        "HAVG:155 155 155 OGSQ");
+
+    qbGrfg("G12",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00006042>14-00006042</n> nf bs 1/27/2014 19:06:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/27/2014 19:00:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/27/2014 19:05:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/27/2014 19:05:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/27/2014 19:05:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/27/2014 19:05:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/27/2014 19:06:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/27/2014 19:06:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/27/2014 19:06:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/27/2014 19:06:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/27/2014 19:06:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/27/2014 19:06:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00006042",
+        "QNGR:01/27/2014",
+        "GVZR:19:00:09",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ");
+
+    qbGrfg("G13",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00005827>14-00005827</n> nf bs 1/26/2014 19:11:15</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/26/2014 19:00:15</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/26/2014 19:10:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/26/2014 19:10:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/26/2014 19:10:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/26/2014 19:10:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/26/2014 19:10:13</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/26/2014 19:10:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/26/2014 19:10:16</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/26/2014 19:10:18</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/26/2014 19:10:19</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/26/2014 19:10:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/26/2014 19:10:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/26/2014 19:10:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00005827",
+        "QNGR:01/26/2014",
+        "GVZR:19:00:15",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G14",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00005403>14-00005403</n> nf bs 1/24/2014 19:07:16</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/24/2014 19:00:15</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/24/2014 19:06:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/24/2014 19:06:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/24/2014 19:06:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/24/2014 19:06:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/24/2014 19:06:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/24/2014 19:06:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/24/2014 19:06:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/24/2014 19:06:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/24/2014 19:06:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UYSQ</gq><gq>01/24/2014 19:06:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/24/2014 19:06:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/24/2014 19:06:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/24/2014 19:06:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00005403",
+        "QNGR:01/24/2014",
+        "GVZR:19:00:15",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ UYSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G15",
+        "(911 Qvfcngpu:  ng 5225 RFGRO EQ) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00005177>14-00005177</n> nf bs 1/23/2014 21:34:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/23/2014 21:32:30</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>GHEARE, WHYVR - 765-935-4704</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>5225 RFGRO EQ/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=5225 RFGRO EQ, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>140508</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c>\a" +
+        "[01/23/2014 21:32:41 : cbf5 : NFPUARVQRE]<oe>\a" +
+        "Pebff fgerrgf: HF 27//ORRFBA EQ<c>\a" +
+        "[01/23/2014 21:32:52 : cbf5 : NFPUARVQRE]<oe>\a" +
+        "CBFF PUVZARL SVER<oe>\a" +
+        "<oe>\a" +
+        "[01/23/2014 21:33:01 : cbf5 : NFPUARVQRE]<oe>\a" +
+        "UNIVAT GURZ TRG BHG BS GUR UBHFR<oe>\a" +
+        "<oe>\a" +
+        "[01/23/2014 21:33:15 : cbf5 : NFPUARVQRE]<oe>\a" +
+        "PYBFVAT GUR IRAG<oe>\a" +
+        "<oe>\a" +
+        "[01/23/2014 21:34:01 : cbf2 : NCVREPR]<oe>\a" +
+        "gnp 3<oe>\a" +
+        "<oe>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>RAT4</gq><gq>01/23/2014 21:32:57</gq><gq>QVF</gq><gq>5225 RFGRO EQ, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/23/2014 21:33:17</gq><gq>QVF</gq><gq>5225 RFGRO EQ, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/23/2014 21:33:19</gq><gq>QVF</gq><gq>5225 RFGRO EQ, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>EZGE1</gq><gq>01/23/2014 21:34:03</gq><gq>QVF</gq><gq>5225 RFGRO EQ, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00005177",
+        "QNGR:01/23/2014",
+        "GVZR:21:32:30",
+        "PBQR:10-70",
+        "PNYY:FGEHPG",
+        "ANZR:GHEARE, WHYVR",
+        "CUBAR:765-935-4704",
+        "NQQE:5225 RFGRO EQ",
+        "PVGL:EVPUZBAQ",
+        "VASB:[01/23/2014 21:32:41 : cbf5 : NFPUARVQRE]\aPebff fgerrgf: HF 27//ORRFBA EQ [01/23/2014 21:32:52 : cbf5 : NFPUARVQRE]\aCBFF PUVZARL SVER\a\a[01/23/2014 21:33:01 : cbf5 : NFPUARVQRE]\aUNIVAT GURZ TRG BHG BS GUR UBHFR\a\a[01/23/2014 21:33:15 : cbf5 : NFPUARVQRE]\aPYBFVAT GUR IRAG\a\a[01/23/2014 21:34:01 : cbf2 : NCVREPR]\agnp 3",
+        "K:HF 27/ORRFBA EQ",
+        "HAVG:RAT4 NOSQ OGSQ EZGE1");
+
+    qbGrfg("G16",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00005147>14-00005147</n> nf bs 1/23/2014 19:01:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/23/2014 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/23/2014 19:00:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/23/2014 19:00:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/23/2014 19:00:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/23/2014 19:00:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/23/2014 19:00:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/23/2014 19:00:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/23/2014 19:00:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/23/2014 19:00:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/23/2014 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/23/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/23/2014 19:00:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/23/2014 19:00:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP20</gq><gq>01/23/2014 19:01:03</gq><gq>BAF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00005147",
+        "QNGR:01/23/2014",
+        "GVZR:19:00:06",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP20");
+
+    qbGrfg("G17",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00004882>14-00004882</n> nf bs 1/22/2014 19:22:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/22/2014 19:00:05</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[01/22/2014 19:03:00 : cbf2 : EQHANJNL89]<oe>\a" +
+        "cntre grfg qrynlrq qhr gb spsq orvat ba n eha<oe>\a" +
+        "<oe>\a" +
+        "QNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/22/2014 19:21:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/22/2014 19:21:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/22/2014 19:21:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/22/2014 19:21:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/22/2014 19:22:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/22/2014 19:22:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/22/2014 19:22:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00004882",
+        "QNGR:01/22/2014",
+        "GVZR:19:00:05",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "VASB:[01/22/2014 19:03:00 : cbf2 : EQHANJNL89]\acntre grfg qrynlrq qhr gb spsq orvat ba n eha\a\aQNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ");
+
+    qbGrfg("G18",
+        "(911 Qvfcngpu:  ng 6371 F PRAGREIVYYR EQ) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00004627>14-00004627</n> nf bs 1/22/2014 5:12:08</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/22/2014 05:09:13</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>UHFGRQ,XNGUL - 219-241-2995</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>6371 F PRAGREIVYYR EQ/PRAGREIVYYR<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=6371 F PRAGREIVYYR EQ, PRAGREIVYYR, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[01/22/2014 05:10:22 : cbf5 : ZEJEVTUG]<oe>\a" +
+        "Pebff fgerrgf: ZRRX EQ//NOVATGBA CX<oe>\a" +
+        "<oe>\a" +
+        "PC NQI SYNZRF FUBJVAT SEBZ GUR ERFQ NTNVA<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/22/2014 05:11:41</gq><gq>QVF</gq><gq>6371 F PRAGREIVYYR EQ, PRAGREIVYYR</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/22/2014 05:11:46</gq><gq>QVF</gq><gq>6371 F PRAGREIVYYR EQ, PRAGREIVYYR</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/22/2014 05:11:54</gq><gq>QVF</gq><gq>6371 F PRAGREIVYYR EQ, PRAGREIVYYR</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00004627",
+        "QNGR:01/22/2014",
+        "GVZR:05:09:13",
+        "PBQR:10-70",
+        "PNYY:FGEHPG",
+        "ANZR:UHFGRQ,XNGUL",
+        "CUBAR:219-241-2995",
+        "NQQE:6371 F PRAGREIVYYR EQ",
+        "PVGL:PRAGREIVYYR",
+        "VASB:[01/22/2014 05:10:22 : cbf5 : ZEJEVTUG]\aPebff fgerrgf: ZRRX EQ//NOVATGBA CX\a\aPC NQI SYNZRF FUBJVAT SEBZ GUR ERFQ NTNVA",
+        "K:ZRRX EQ/NOVATGBA CX",
+        "HAVG:NOSQ PISQ OGSQ");
+
+    qbGrfg("G19",
+        "(911 Qvfcngpu:  ng 6371 F PRAGREIVYYR EQ) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00004576>14-00004576</n> nf bs 1/21/2014 19:19:18</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/21/2014 19:16:55</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>Irevmba Jveryrff - 765-960-8027</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>6371 F PRAGREIVYYR EQ/PRAGREIVYYR<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=6371 F PRAGREIVYYR EQ, PRAGREIVYYR, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[01/21/2014 19:17:13 : cbf4 : EOCNEXRE]<oe>\a" +
+        "Pebff fgerrgf: ZRRX EQ//NOVATGBA CX<c>\a" +
+        "[01/21/2014 19:17:23 : cbf4 : EOCNEXRE]<oe>\a" +
+        "SHEANPR PNHTUG GUR EBBS BA SVER<oe>\a" +
+        "<oe>\a" +
+        "[01/21/2014 19:17:35 : cbf4 : EOCNEXRE]<oe>\a" +
+        "EBBS VF ABG SHYYL BA SVER, OHG GUR SVER VF TRGGVAT PYBFR.<oe>\a" +
+        "<oe>\a" +
+        "[01/21/2014 19:17:46 : cbf4 : EOCNEXRE]<oe>\a" +
+        "RIRELBAR VF TRGGVAT BHG BS GUR UBHFR ABJ.<oe>\a" +
+        "<oe>\a" +
+        "[01/21/2014 19:18:33 : cbf4 : EOCNEXRE]<oe>\a" +
+        "SVER VF PHEERAGYL NG GUR CYNPR JURER GUR PUVZARL ZRRGF GUR EBBS. PUVZARL VF BA SVER NAQ GUR EBBS VF TGGVAT ERNQL GB PNGPU.<oe>\a" +
+        "<oe>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/21/2014 19:18:48</gq><gq>QVF</gq><gq>6371 F PRAGREIVYYR EQ, PRAGREIVYYR</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/21/2014 19:18:52</gq><gq>QVF</gq><gq>6371 F PRAGREIVYYR EQ, PRAGREIVYYR</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/21/2014 19:18:54</gq><gq>QVF</gq><gq>6371 F PRAGREIVYYR EQ, PRAGREIVYYR</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00004576",
+        "QNGR:01/21/2014",
+        "GVZR:19:16:55",
+        "PBQR:10-70",
+        "PNYY:FGEHPG",
+        "ANZR:Irevmba Jveryrff",
+        "CUBAR:765-960-8027",
+        "NQQE:6371 F PRAGREIVYYR EQ",
+        "PVGL:PRAGREIVYYR",
+        "VASB:[01/21/2014 19:17:13 : cbf4 : EOCNEXRE]\aPebff fgerrgf: ZRRX EQ//NOVATGBA CX [01/21/2014 19:17:23 : cbf4 : EOCNEXRE]\aSHEANPR PNHTUG GUR EBBS BA SVER\a\a[01/21/2014 19:17:35 : cbf4 : EOCNEXRE]\aEBBS VF ABG SHYYL BA SVER, OHG GUR SVER VF TRGGVAT PYBFR.\a\a[01/21/2014 19:17:46 : cbf4 : EOCNEXRE]\aRIRELBAR VF TRGGVAT BHG BS GUR UBHFR ABJ.\a\a[01/21/2014 19:18:33 : cbf4 : EOCNEXRE]\aSVER VF PHEERAGYL NG GUR CYNPR JURER GUR PUVZARL ZRRGF GUR EBBS. PUVZARL VF BA SVER NAQ GUR EBBS VF TGGVAT ERNQL GB PNGPU.",
+        "K:ZRRX EQ/NOVATGBA CX",
+        "HAVG:NOSQ PISQ OGSQ");
+
+    qbGrfg("G20",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00004572>14-00004572</n> nf bs 1/21/2014 19:03:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/21/2014 19:00:00</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/21/2014 19:02:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/21/2014 19:02:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/21/2014 19:02:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/21/2014 19:02:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/21/2014 19:02:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/21/2014 19:02:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/21/2014 19:03:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/21/2014 19:03:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/21/2014 19:03:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/21/2014 19:03:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00004572",
+        "QNGR:01/21/2014",
+        "GVZR:19:00:00",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ");
+
+    qbGrfg("G21",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00004338>14-00004338</n> nf bs 1/20/2014 19:05:19</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/20/2014 19:00:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/20/2014 19:04:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/20/2014 19:04:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/20/2014 19:05:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/20/2014 19:05:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/20/2014 19:05:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/20/2014 19:05:13</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00004338",
+        "QNGR:01/20/2014",
+        "GVZR:19:00:09",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ");
+
+    qbGrfg("G22",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00004140>14-00004140</n> nf bs 1/19/2014 19:01:13</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/19/2014 19:00:25</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/19/2014 19:00:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/19/2014 19:00:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/19/2014 19:00:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/19/2014 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/19/2014 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/19/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/19/2014 19:00:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/19/2014 19:00:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/19/2014 19:00:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/19/2014 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/19/2014 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/19/2014 19:01:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00004140",
+        "QNGR:01/19/2014",
+        "GVZR:19:00:25",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G23",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00003972>14-00003972</n> nf bs 1/18/2014 19:01:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/18/2014 19:00:13</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/18/2014 19:00:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/18/2014 19:00:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/18/2014 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/18/2014 19:00:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/18/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/18/2014 19:00:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/18/2014 19:00:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/18/2014 19:00:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/18/2014 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/18/2014 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/18/2014 19:01:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/18/2014 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00003972",
+        "QNGR:01/18/2014",
+        "GVZR:19:00:13",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G24",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00003781>14-00003781</n> nf bs 1/17/2014 19:03:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/17/2014 19:00:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/17/2014 19:02:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/17/2014 19:02:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/17/2014 19:02:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/17/2014 19:02:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/17/2014 19:02:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/17/2014 19:02:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/17/2014 19:02:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/17/2014 19:02:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/17/2014 19:02:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/17/2014 19:02:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/17/2014 19:02:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP04</gq><gq>01/17/2014 19:02:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/17/2014 19:02:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00003781",
+        "QNGR:01/17/2014",
+        "GVZR:19:00:09",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP04 NOSQ");
+
+    qbGrfg("G25",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00003562>14-00003562</n> nf bs 1/16/2014 19:15:09</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/16/2014 19:00:24</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/16/2014 19:14:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/16/2014 19:14:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/16/2014 19:14:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/16/2014 19:14:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/16/2014 19:14:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/16/2014 19:14:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/16/2014 19:14:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/16/2014 19:14:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/16/2014 19:14:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/16/2014 19:14:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/16/2014 19:14:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/16/2014 19:14:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00003562",
+        "QNGR:01/16/2014",
+        "GVZR:19:00:24",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G26",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00003316>14-00003316</n> nf bs 1/15/2014 19:15:14</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/15/2014 19:00:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/15/2014 19:14:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/15/2014 19:14:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/15/2014 19:14:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/15/2014 19:14:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/15/2014 19:14:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/15/2014 19:14:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/15/2014 19:15:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/15/2014 19:15:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/15/2014 19:15:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/15/2014 19:15:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/15/2014 19:15:13</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00003316",
+        "QNGR:01/15/2014",
+        "GVZR:19:00:03",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ");
+
+    qbGrfg("G27",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00003095>14-00003095</n> nf bs 1/14/2014 19:01:10</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/14/2014 19:00:01</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/14/2014 19:00:18</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/14/2014 19:00:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/14/2014 19:00:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/14/2014 19:00:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/14/2014 19:00:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/14/2014 19:00:27</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/14/2014 19:00:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/14/2014 19:00:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/14/2014 19:00:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/14/2014 19:00:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/14/2014 19:00:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/14/2014 19:00:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00003095",
+        "QNGR:01/14/2014",
+        "GVZR:19:00:01",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G28",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00002805>14-00002805</n> nf bs 1/13/2014 19:12:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/13/2014 19:00:41</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<HY>Ab Havgf Nffvtarq</hy>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00002805",
+        "QNGR:01/13/2014",
+        "GVZR:19:00:41",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ");
+
+    qbGrfg("G29",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00002806>14-00002806</n> nf bs 1/13/2014 19:06:15</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/13/2014 19:00:41</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<HY>Ab Havgf Nffvtarq</hy>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00002806",
+        "QNGR:01/13/2014",
+        "GVZR:19:00:41",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ");
+
+    qbGrfg("G30",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00002547>14-00002547</n> nf bs 1/12/2014 19:03:10</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/12/2014 19:00:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/12/2014 19:02:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/12/2014 19:02:16</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/12/2014 19:02:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/12/2014 19:02:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/12/2014 19:02:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/12/2014 19:02:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/12/2014 19:02:27</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/12/2014 19:02:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/12/2014 19:02:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/12/2014 19:02:34</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/12/2014 19:02:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/12/2014 19:02:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP19</gq><gq>01/12/2014 19:02:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00002547",
+        "QNGR:01/12/2014",
+        "GVZR:19:00:03",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP19");
+
+    qbGrfg("G31",
+        "(911 Qvfcngpu: 10-70 ng 7328 QVKBA EQ) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00002532>14-00002532</n> nf bs 1/12/2014 17:25:04</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/12/2014 17:23:29</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>7328 QVKBA EQ/CEROYR<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=7328 QVKBA EQ, CEROYR, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[01/12/2014 17:24:05 : cbf1 : OZBBER]<oe>\a" +
+        "iru sver zhghny nvqr<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/12/2014 17:24:37</gq><gq>QVF</gq><gq>7328 QVKBA EQ, CEROYR</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00002532",
+        "QNGR:01/12/2014",
+        "GVZR:17:23:29",
+        "PBQR:10-70",
+        "NQQE:7328 QVKBA EQ",
+        "VASB:[01/12/2014 17:24:05 : cbf1 : OZBBER]\airu sver zhghny nvqr",
+        "HAVG:OGSQ");
+
+    qbGrfg("G32",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00002387>14-00002387</n> nf bs 1/11/2014 19:23:10</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/11/2014 19:00:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/11/2014 19:22:34</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/11/2014 19:22:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/11/2014 19:22:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/11/2014 19:22:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/11/2014 19:22:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/11/2014 19:22:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/11/2014 19:22:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/11/2014 19:22:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/11/2014 19:22:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/11/2014 19:22:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/11/2014 19:22:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/11/2014 19:23:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00002387",
+        "QNGR:01/11/2014",
+        "GVZR:19:00:09",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G33",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00002217>14-00002217</n> nf bs 1/10/2014 19:04:14</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/10/2014 19:00:15</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/10/2014 19:03:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/10/2014 19:03:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/10/2014 19:03:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/10/2014 19:03:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/10/2014 19:03:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/10/2014 19:03:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/10/2014 19:04:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/10/2014 19:04:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/10/2014 19:04:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00002217",
+        "QNGR:01/10/2014",
+        "GVZR:19:00:15",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ");
+
+    qbGrfg("G34",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00002005>14-00002005</n> nf bs 1/9/2014 19:04:19</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/09/2014 19:00:14</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>QVIR</gq><gq>01/09/2014 19:03:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QVIR</gq><gq>01/09/2014 19:03:31</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/09/2014 19:03:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/09/2014 19:03:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/09/2014 19:03:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/09/2014 19:03:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/09/2014 19:03:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/09/2014 19:03:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/09/2014 19:03:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/09/2014 19:04:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/09/2014 19:04:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/09/2014 19:04:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/09/2014 19:04:16</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/09/2014 19:04:18</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00002005",
+        "QNGR:01/09/2014",
+        "GVZR:19:00:14",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:QVIR QVIR NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G35",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00001776>14-00001776</n> nf bs 1/8/2014 19:01:16</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/08/2014 19:00:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/08/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/08/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/08/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/08/2014 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/08/2014 19:00:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP21</gq><gq>01/08/2014 19:01:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00001776",
+        "QNGR:01/08/2014",
+        "GVZR:19:00:09",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP21");
+
+    qbGrfg("G36",
+        "(911 Qvfcngpu: 10-70 NYNEZ ng 4138 AVRJBRUARE EQ) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00001542>14-00001542</n> nf bs 1/7/2014 21:04:04</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/07/2014 21:02:25</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 NYNEZ</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>TNEEVFBA RYRZRAGNEL FPUBBY - 765-962-6539</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4138 AVRJBRUARE EQ/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=4138 AVRJBRUARE EQ, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[01/07/2014 21:02:40 : cbf6 : TPNYYNJNL]<oe>\a" +
+        "Pebff fgerrgf: JBYSR EQ//YBPHFG TEBIR EQ<c>\a" +
+        "[01/07/2014 21:02:52 : cbf6 : TPNYYNJNL]<oe>\a" +
+        "NHGBZNGVP SVER NYNEZ<oe>\a" +
+        "<oe>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/07/2014 21:03:30</gq><gq>QVF</gq><gq>4138 AVRJBRUARE EQ, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00001542",
+        "QNGR:01/07/2014",
+        "GVZR:21:02:25",
+        "PBQR:10-70",
+        "PNYY:NYNEZ",
+        "ANZR:TNEEVFBA RYRZRAGNEL FPUBBY",
+        "CUBAR:765-962-6539",
+        "NQQE:4138 AVRJBRUARE EQ",
+        "PVGL:EVPUZBAQ",
+        "VASB:[01/07/2014 21:02:40 : cbf6 : TPNYYNJNL]\aPebff fgerrgf: JBYSR EQ//YBPHFG TEBIR EQ [01/07/2014 21:02:52 : cbf6 : TPNYYNJNL]\aNHGBZNGVP SVER NYNEZ",
+        "K:JBYSR EQ/YBPHFG TEBIR EQ",
+        "HAVG:OGSQ");
+
+    qbGrfg("G37",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00001521>14-00001521</n> nf bs 1/7/2014 19:24:19</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/07/2014 19:00:07</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[01/07/2014 19:09:02 : cbf4 : EOCNEXRE]<oe>\a" +
+        "QRYNLRQ QHR GB SBHAGNVA PVGL SVER ORVAT BHG.<oe>\a" +
+        "<oe>\a" +
+        "QNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/07/2014 19:23:34</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/07/2014 19:23:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/07/2014 19:23:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/07/2014 19:23:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/07/2014 19:23:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/07/2014 19:23:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/07/2014 19:23:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/07/2014 19:23:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/07/2014 19:24:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/07/2014 19:24:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/07/2014 19:24:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/07/2014 19:24:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00001521",
+        "QNGR:01/07/2014",
+        "GVZR:19:00:07",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "VASB:[01/07/2014 19:09:02 : cbf4 : EOCNEXRE]\aQRYNLRQ QHR GB SBHAGNVA PVGL SVER ORVAT BHG.\a\aQNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G38",
+        "(911 Qvfcngpu: ZRQVPNY NYEZ ng 4578 JBYSR EQ) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00001393>14-00001393</n> nf bs 1/7/2014 9:51:05</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/07/2014 09:47:50</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>ZRQVPNY NYEZ</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>cvrepr erfvqrapr - 765-   -</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4578 JBYSR EQ/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=4578 JBYSR EQ, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[01/07/2014 09:48:59 : cbf3 : EQHANJNL89]<oe>\a" +
+        "Pebff fgerrgf: ZVAARZNA EQ//AVRJBRUARE EQ<oe>\a" +
+        "<oe>\a" +
+        "trareny zrq nynez  ab zrq uvfg ba svyr <oe>\a" +
+        "ab naf <oe>\a" +
+        "xbbefra <oe>\a" +
+        "800-443-8865<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>EZGE2</gq><gq>01/07/2014 09:49:32</gq><gq>QVF</gq><gq>4578 JBYSR EQ, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/07/2014 09:50:13</gq><gq>QVF</gq><gq>4578 JBYSR EQ, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00001393",
+        "QNGR:01/07/2014",
+        "GVZR:09:47:50",
+        "PNYY:ZRQVPNY NYEZ",
+        "ANZR:cvrepr erfvqrapr",
+        "NQQE:4578 JBYSR EQ",
+        "PVGL:EVPUZBAQ",
+        "VASB:[01/07/2014 09:48:59 : cbf3 : EQHANJNL89]\aPebff fgerrgf: ZVAARZNA EQ//AVRJBRUARE EQ\a\atrareny zrq nynez  ab zrq uvfg ba svyr \aab naf \axbbefra \a800-443-8865",
+        "K:ZVAARZNA EQ/AVRJBRUARE EQ",
+        "HAVG:EZGE2 OGSQ");
+
+    qbGrfg("G39",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00001293>14-00001293</n> nf bs 1/6/2014 19:07:16</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/06/2014 19:00:20</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/06/2014 19:06:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/06/2014 19:06:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/06/2014 19:06:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/06/2014 19:06:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/06/2014 19:06:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/06/2014 19:06:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/06/2014 19:07:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/06/2014 19:07:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/06/2014 19:07:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00001293",
+        "QNGR:01/06/2014",
+        "GVZR:19:00:20",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ");
+
+    qbGrfg("G40",
+        "(911 Qvfcngpu: 10-50 VAIREG ng HF 27 // ORRFBA EQ) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00001105>14-00001105</n> nf bs 1/5/2014 22:27:05</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/05/2014 22:23:21</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-50 VAIREG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>NG&G ZBOVYVGL - 911-047-2370</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>HF 27 // ORRFBA EQ/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=HF 27 // ORRFBA EQ, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[01/05/2014 22:24:10 : cbf5 : QCVGPURE]<oe>\a" +
+        "PNYYRE VF ABG FHER JURER FUR VF... NYY FUR PNA NQI FUR VF FGVYY VA JNLAR PB OHG VF BA 27<oe>\a" +
+        "<oe>\a" +
+        "765-407-0329<c>\a" +
+        "[01/05/2014 22:25:13 : cbf4 : ZPNVA]<oe>\a" +
+        "HF 27 // ORRFBA EQ<oe>\a" +
+        "<oe>\a" +
+        "[01/05/2014 22:26:58 : cbf1 : EQHANJNL89]<oe>\a" +
+        "GNP 2<oe>\a" +
+        "<oe>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>EZGE1</gq><gq>01/05/2014 22:24:58</gq><gq>QVF</gq><gq>27 F ORSBER HAVBA PB, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>89-7</gq><gq>01/05/2014 22:25:59</gq><gq>QVF</gq><gq>HF 27 // ORRFBA EQ, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>89-7</gq><gq>01/05/2014 22:26:31</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/05/2014 22:26:34</gq><gq>QVF</gq><gq>HF 27 // ORRFBA EQ, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>89-21</gq><gq>01/05/2014 22:26:45</gq><gq>QVF</gq><gq>HF 27 // ORRFBA EQ, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>89-23</gq><gq>01/05/2014 22:26:47</gq><gq>QVF</gq><gq>HF 27 // ORRFBA EQ, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00001105",
+        "QNGR:01/05/2014",
+        "GVZR:22:23:21",
+        "PBQR:10-50",
+        "PNYY:VAIREG",
+        "ANZR:NG&G ZBOVYVGL",
+        "CUBAR:911-047-2370",
+        "NQQE:HF 27 & ORRFBA EQ",
+        "PVGL:EVPUZBAQ",
+        "VASB:[01/05/2014 22:24:10 : cbf5 : QCVGPURE]\aPNYYRE VF ABG FHER JURER FUR VF... NYY FUR PNA NQI FUR VF FGVYY VA JNLAR PB OHG VF BA 27\a\a765-407-0329 [01/05/2014 22:25:13 : cbf4 : ZPNVA]\aHF 27 // ORRFBA EQ\a\a[01/05/2014 22:26:58 : cbf1 : EQHANJNL89]\aGNP 2",
+        "HAVG:EZGE1 89-7 89-7 OGSQ 89-21 89-23");
+
+    qbGrfg("G41",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00001086>14-00001086</n> nf bs 1/5/2014 19:01:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/05/2014 19:00:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/05/2014 19:00:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/05/2014 19:00:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/05/2014 19:00:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/05/2014 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/05/2014 19:00:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/05/2014 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/05/2014 19:00:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/05/2014 19:00:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/05/2014 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/05/2014 19:00:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/05/2014 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/05/2014 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00001086",
+        "QNGR:01/05/2014",
+        "GVZR:19:00:03",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G42",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00000889>14-00000889</n> nf bs 1/4/2014 19:01:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/04/2014 19:00:04</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/04/2014 19:00:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/04/2014 19:00:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/04/2014 19:00:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/04/2014 19:00:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/04/2014 19:00:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/04/2014 19:00:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/04/2014 19:00:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/04/2014 19:00:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/04/2014 19:00:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/04/2014 19:00:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/04/2014 19:00:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/04/2014 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP04</gq><gq>01/04/2014 19:00:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00000889",
+        "QNGR:01/04/2014",
+        "GVZR:19:00:04",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ UTSQ TSSQ ZYSQ JOSQ JZSQ JP04");
+
+    qbGrfg("G43",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00000702>14-00000702</n> nf bs 1/3/2014 19:05:14</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/03/2014 19:00:28</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/03/2014 19:04:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/03/2014 19:04:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/03/2014 19:04:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/03/2014 19:04:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/03/2014 19:04:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/03/2014 19:04:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/03/2014 19:04:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/03/2014 19:04:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/03/2014 19:04:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/03/2014 19:04:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/03/2014 19:04:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/03/2014 19:04:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP21</gq><gq>01/03/2014 19:04:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00000702",
+        "QNGR:01/03/2014",
+        "GVZR:19:00:28",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP21");
+
+    qbGrfg("G44",
+        "(911 Qvfcngpu: 10-11 ng 4577 FGENVTUG YVAR CX) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00000643>14-00000643</n> nf bs 1/3/2014 14:42:08</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/03/2014 14:36:25</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-11</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>ZEF. SYRZVAT - 765-993-8473</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4577 FGENVTUG YVAR CX/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=4577 FGENVTUG YVAR CX, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[01/03/2014 14:36:49 : cbf1 : WTEVSSVA]<oe>\a" +
+        "Pebff fgerrgf: YRRQF EQ//SNEYBJ EQ<c>\a" +
+        "[01/03/2014 14:37:06 : cbf1 : WTEVSSVA]<oe>\a" +
+        "QBT SRYY VAGB VPR NAQ VF QEBJAVAT<oe>\a" +
+        "<oe>\a" +
+        "[01/03/2014 14:37:31 : cbf1 : WTEVSSVA]<oe>\a" +
+        "ZNFGVSS<oe>\a" +
+        "<oe>\a" +
+        "[01/03/2014 14:38:25 : cbf1 : WTEVSSVA]<oe>\a" +
+        "PNYYRE QVFPBAA NAQ NQI URYC<oe>\a" +
+        "<oe>\a" +
+        "[01/03/2014 14:39:47 : cbf4 : RONVYRL]<oe>\a" +
+        "89-6 NQIVFRQ SQ ZVTUG OR ORGGRE FHVGRQ GB URYC<oe>\a" +
+        "<oe>\a" +
+        "[01/03/2014 14:41:22 : cbf5 : FUNMRYONXRE]<oe>\a" +
+        "85-1    76<oe>\a" +
+        "<oe>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>89-14</gq><gq>01/03/2014 14:37:59</gq><gq>QVF</gq><gq>4577 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>89-34</gq><gq>01/03/2014 14:38:06</gq><gq>QVF</gq><gq>4577 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>89175</gq><gq>01/03/2014 14:38:24</gq><gq>QVF</gq><gq>4577 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/03/2014 14:41:07</gq><gq>QVF</gq><gq>4577 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00000643",
+        "QNGR:01/03/2014",
+        "GVZR:14:36:25",
+        "PBQR:10-11",
+        "ANZR:ZEF. SYRZVAT",
+        "CUBAR:765-993-8473",
+        "NQQE:4577 FGENVTUG YVAR CX",
+        "ZNQQE:4577 FGENVTUG YVAR CVXR",
+        "PVGL:EVPUZBAQ",
+        "VASB:[01/03/2014 14:36:49 : cbf1 : WTEVSSVA]\aPebff fgerrgf: YRRQF EQ//SNEYBJ EQ [01/03/2014 14:37:06 : cbf1 : WTEVSSVA]\aQBT SRYY VAGB VPR NAQ VF QEBJAVAT\a\a[01/03/2014 14:37:31 : cbf1 : WTEVSSVA]\aZNFGVSS\a\a[01/03/2014 14:38:25 : cbf1 : WTEVSSVA]\aPNYYRE QVFPBAA NAQ NQI URYC\a\a[01/03/2014 14:39:47 : cbf4 : RONVYRL]\a89-6 NQIVFRQ SQ ZVTUG OR ORGGRE FHVGRQ GB URYC\a\a[01/03/2014 14:41:22 : cbf5 : FUNMRYONXRE]\a85-1    76",
+        "K:YRRQF EQ/SNEYBJ EQ",
+        "HAVG:89-14 89-34 89175 OGSQ");
+
+    qbGrfg("G45",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00000434>14-00000434</n> nf bs 1/2/2014 19:02:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/02/2014 19:00:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/02/2014 19:01:27</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/02/2014 19:01:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/02/2014 19:01:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/02/2014 19:01:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/02/2014 19:01:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/02/2014 19:01:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/02/2014 19:01:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/02/2014 19:01:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/02/2014 19:01:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/02/2014 19:01:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>01/02/2014 19:01:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>01/02/2014 19:01:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP19</gq><gq>01/02/2014 19:02:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00000434",
+        "QNGR:01/02/2014",
+        "GVZR:19:00:09",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP19");
+
+    qbGrfg("G46",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=14-00000152>14-00000152</n> nf bs 1/1/2014 19:02:14</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>01/01/2014 19:00:17</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>01/01/2014 19:01:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>01/01/2014 19:01:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>01/01/2014 19:01:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>01/01/2014 19:01:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>01/01/2014 19:01:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>01/01/2014 19:01:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>01/01/2014 19:02:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>01/01/2014 19:02:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>01/01/2014 19:02:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>01/01/2014 19:02:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:14-00000152",
+        "QNGR:01/01/2014",
+        "GVZR:19:00:17",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ");
+
+    qbGrfg("G47",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00083415>13-00083415</n> nf bs 12/31/2013 19:02:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/31/2013 19:00:10</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/31/2013 19:01:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/31/2013 19:01:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/31/2013 19:01:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/31/2013 19:01:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/31/2013 19:01:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/31/2013 19:01:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/31/2013 19:01:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/31/2013 19:01:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/31/2013 19:01:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/31/2013 19:01:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/31/2013 19:01:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/31/2013 19:01:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/31/2013 19:01:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP04</gq><gq>12/31/2013 19:02:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00083415",
+        "QNGR:12/31/2013",
+        "GVZR:19:00:10",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP04");
+
+    qbGrfg("G48",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00083172>13-00083172</n> nf bs 12/30/2013 19:44:10</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/30/2013 19:00:27</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[12/30/2013 19:02:14 : cbf4 : EQHANJNL89]<oe>\a" +
+        "CNTRE GRFG QRYNLRQ QHR GB NOSQ NAQ UTSQ ORVAT BA EHAF<oe>\a" +
+        "<oe>\a" +
+        "QNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/30/2013 19:43:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/30/2013 19:43:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/30/2013 19:43:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/30/2013 19:43:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/30/2013 19:43:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/30/2013 19:44:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/30/2013 19:44:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/30/2013 19:44:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/30/2013 19:44:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00083172",
+        "QNGR:12/30/2013",
+        "GVZR:19:00:27",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "VASB:[12/30/2013 19:02:14 : cbf4 : EQHANJNL89]\aCNTRE GRFG QRYNLRQ QHR GB NOSQ NAQ UTSQ ORVAT BA EHAF\a\aQNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ");
+
+    qbGrfg("G49",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00082993>13-00082993</n> nf bs 12/29/2013 19:12:09</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/29/2013 19:00:26</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/29/2013 19:11:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/29/2013 19:11:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/29/2013 19:11:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/29/2013 19:11:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/29/2013 19:11:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/29/2013 19:12:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/29/2013 19:12:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/29/2013 19:12:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00082993",
+        "QNGR:12/29/2013",
+        "GVZR:19:00:26",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ");
+
+    qbGrfg("G50",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00082839>13-00082839</n> nf bs 12/28/2013 19:18:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/28/2013 19:00:01</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/28/2013 19:17:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/28/2013 19:17:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/28/2013 19:17:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/28/2013 19:17:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/28/2013 19:17:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/28/2013 19:17:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/28/2013 19:17:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/28/2013 19:17:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/28/2013 19:17:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/28/2013 19:18:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/28/2013 19:18:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00082839",
+        "QNGR:12/28/2013",
+        "GVZR:19:00:01",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ");
+
+    // NQQERFFRF PURPXRQ GB URER
     
+    qbGrfg("G51",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00082650>13-00082650</n> nf bs 12/27/2013 19:04:14</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/27/2013 19:00:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/27/2013 19:03:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/27/2013 19:03:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/27/2013 19:03:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/27/2013 19:03:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/27/2013 19:03:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/27/2013 19:03:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/27/2013 19:04:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/27/2013 19:04:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/27/2013 19:04:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00082650",
+        "QNGR:12/27/2013",
+        "GVZR:19:00:08",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ");
+
+    qbGrfg("G52",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00082437>13-00082437</n> nf bs 12/26/2013 19:08:15</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/26/2013 19:00:05</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[12/26/2013 19:00:45 : cbf5 : ZPNVA]<oe>\a" +
+        "FYVTUG QRYNL VA GRFG QHR GB JVYYVNZFOHET WHFG PYRNEVAT SEBZ GURVE PNYY<oe>\a" +
+        "<oe>\a" +
+        "QNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/26/2013 19:07:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/26/2013 19:07:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/26/2013 19:07:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/26/2013 19:07:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/26/2013 19:07:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/26/2013 19:07:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/26/2013 19:07:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/26/2013 19:07:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/26/2013 19:07:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/26/2013 19:07:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/26/2013 19:07:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/26/2013 19:07:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP21</gq><gq>12/26/2013 19:07:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00082437",
+        "QNGR:12/26/2013",
+        "GVZR:19:00:05",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "VASB:[12/26/2013 19:00:45 : cbf5 : ZPNVA]\aFYVTUG QRYNL VA GRFG QHR GB JVYYVNZFOHET WHFG PYRNEVAT SEBZ GURVE PNYY\a\aQNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP21");
+
+    qbGrfg("G53",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00082248>13-00082248</n> nf bs 12/25/2013 19:05:16</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/25/2013 19:00:12</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/25/2013 19:04:19</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/25/2013 19:04:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/25/2013 19:04:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/25/2013 19:04:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/25/2013 19:04:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/25/2013 19:04:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/25/2013 19:04:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/25/2013 19:04:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/25/2013 19:04:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/25/2013 19:04:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/25/2013 19:04:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/25/2013 19:04:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP21</gq><gq>12/25/2013 19:04:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00082248",
+        "QNGR:12/25/2013",
+        "GVZR:19:00:12",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP21");
+
+    qbGrfg("G54",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00082063>13-00082063</n> nf bs 12/24/2013 19:06:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/24/2013 19:00:19</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/24/2013 19:05:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/24/2013 19:05:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/24/2013 19:05:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/24/2013 19:05:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/24/2013 19:05:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/24/2013 19:05:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/24/2013 19:05:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/24/2013 19:06:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/24/2013 19:06:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/24/2013 19:06:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/24/2013 19:06:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00082063",
+        "QNGR:12/24/2013",
+        "GVZR:19:00:19",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ");
+
+    qbGrfg("G55",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00081881>13-00081881</n> nf bs 12/23/2013 19:06:13</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/23/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/23/2013 19:05:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/23/2013 19:05:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/23/2013 19:05:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/23/2013 19:05:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/23/2013 19:05:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/23/2013 19:05:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/23/2013 19:05:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/23/2013 19:06:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/23/2013 19:06:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/23/2013 19:06:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/23/2013 19:06:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00081881",
+        "QNGR:12/23/2013",
+        "GVZR:19:00:06",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G56",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00081672>13-00081672</n> nf bs 12/22/2013 19:05:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/22/2013 19:00:13</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>QVIR</gq><gq>12/22/2013 19:04:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QVIR</gq><gq>12/22/2013 19:04:16</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/22/2013 19:04:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/22/2013 19:04:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/22/2013 19:04:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/22/2013 19:04:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/22/2013 19:04:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/22/2013 19:04:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/22/2013 19:04:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/22/2013 19:04:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/22/2013 19:04:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/22/2013 19:04:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/22/2013 19:04:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/22/2013 19:04:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP20</gq><gq>12/22/2013 19:05:01</gq><gq>BAF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00081672",
+        "QNGR:12/22/2013",
+        "GVZR:19:00:13",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:QVIR QVIR NOSQ OGSQ PPSQ PISQ QOSQ SPSQ RPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP20");
+
+    qbGrfg("G57",
+        "(911 Qvfcngpu: 10-52 ng 103 F FNYRZ FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00081554>13-00081554</n> nf bs 12/22/2013 6:26:04</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/22/2013 06:22:37</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>CRTTL WRAXVAF - 513-889-8025</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>103 F FNYRZ FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=103 F FNYRZ FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[12/22/2013 06:23:52 : cbf2 : FGONYQJVA]<oe>\a" +
+        "VA N ERQ SBEQ SBPHF VA OBFGBA <oe>\a" +
+        "176 URNEG ENGR BKLTRA YRIRY VF 89<oe>\a" +
+        "XRRCF TVIVAT ZR URE B2 YRIRY<c>\a" +
+        "[12/22/2013 06:24:40 : cbf4 : RONVYRL]<oe>\a" +
+        "Pebff fgerrgf: ZNVA FG//<oe>\a" +
+        "Ynaqznex: CBFG BSSVPR OBFGBA<oe>\a" +
+        "<oe>\a" +
+        "[12/22/2013 06:24:52 : cbf2 : FGONYQJVA]<oe>\a" +
+        "FUR UNF FIG?<oe>\a" +
+        "<oe>\a" +
+        "[12/22/2013 06:25:05 : cbf2 : FGONYQJVA]<oe>\a" +
+        "UNQ N URNEG NOYNFVBA N LRNE NTB NG ERVQ<oe>\a" +
+        "<oe>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>EZGE1</gq><gq>12/22/2013 06:25:07</gq><gq>QVF</gq><gq>103 F FNYRZ FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/22/2013 06:25:50</gq><gq>QVF</gq><gq>103 F FNYRZ FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00081554",
+        "QNGR:12/22/2013",
+        "GVZR:06:22:37",
+        "PBQR:10-52",
+        "ANZR:CRTTL WRAXVAF",
+        "CUBAR:513-889-8025",
+        "NQQE:103 F FNYRZ FG",
+        "PVGL:EVPUZBAQ",
+        "VASB:[12/22/2013 06:23:52 : cbf2 : FGONYQJVA]\aVA N ERQ SBEQ SBPHF VA OBFGBA \a176 URNEG ENGR BKLTRA YRIRY VF 89\aXRRCF TVIVAT ZR URE B2 YRIRY [12/22/2013 06:24:40 : cbf4 : RONVYRL]\aPebff fgerrgf: ZNVA FG//\aYnaqznex: CBFG BSSVPR OBFGBA\a\a[12/22/2013 06:24:52 : cbf2 : FGONYQJVA]\aFUR UNF FIG?\a\a[12/22/2013 06:25:05 : cbf2 : FGONYQJVA]\aUNQ N URNEG NOYNFVBA N LRNE NTB NG ERVQ",
+        "K:ZNVA FG/",
+        "CYNPR:CBFG BSSVPR OBFGBA",
+        "HAVG:EZGE1 OGSQ");
+
+    qbGrfg("G58",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00081464>13-00081464</n> nf bs 12/21/2013 19:02:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/21/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/21/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/21/2013 19:01:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/21/2013 19:01:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/21/2013 19:01:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP04</gq><gq>12/21/2013 19:01:22</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00081464",
+        "QNGR:12/21/2013",
+        "GVZR:19:00:06",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP04");
+
+    qbGrfg("G59",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00081274>13-00081274</n> nf bs 12/20/2013 19:02:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/20/2013 19:00:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>JP19</gq><gq>12/20/2013 19:01:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/20/2013 19:01:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/20/2013 19:01:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/20/2013 19:01:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/20/2013 19:01:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/20/2013 19:01:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/20/2013 19:01:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/20/2013 19:01:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/20/2013 19:01:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/20/2013 19:02:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/20/2013 19:02:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/20/2013 19:02:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/20/2013 19:02:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00081274",
+        "QNGR:12/20/2013",
+        "GVZR:19:00:02",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:JP19 NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G60",
+        "(911 Qvfcngpu: 10-52 HAPBA ng 4333 FGENVTUG YVAR CX) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00081252>13-00081252</n> nf bs 12/20/2013 17:17:04</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/20/2013 17:15:21</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg> - 765-993-2459</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>4333 FGENVTUG YVAR CX/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=4333 FGENVTUG YVAR CX, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[12/20/2013 17:15:35 : cbf5 : WTEVSSVA]<oe>\a" +
+        "Pebff fgerrgf: YRRQF EQ//SNEYBJ EQ<c>\a" +
+        "[12/20/2013 17:15:52 : cbf5 : WTEVSSVA]<oe>\a" +
+        "ZNYR ABG  OERNGUVAT    CBFF GHEAVAT OYHR<oe>\a" +
+        "<oe>\a" +
+        "[12/20/2013 17:16:11 : cbf5 : WTEVSSVA]<oe>\a" +
+        "VA ORQEBBZ<oe>\a" +
+        "<oe>\a" +
+        "[12/20/2013 17:16:22 : cbf5 : WTEVSSVA]<oe>\a" +
+        "CG FUNAR EHFFRYY    35 LB ZNYR<oe>\a" +
+        "<oe>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>EZGE3</gq><gq>12/20/2013 17:15:53</gq><gq>QVF</gq><gq>4333 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/20/2013 17:16:00</gq><gq>QVF</gq><gq>4333 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>89-33</gq><gq>12/20/2013 17:16:32</gq><gq>QVF</gq><gq>4333 FGENVTUG YVAR CX, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00081252",
+        "QNGR:12/20/2013",
+        "GVZR:17:15:21",
+        "PBQR:10-52",
+        "PNYY:HAPBA",
+        "CUBAR:765-993-2459",
+        "NQQE:4333 FGENVTUG YVAR CX",
+        "ZNQQE:4333 FGENVTUG YVAR CVXR",
+        "PVGL:EVPUZBAQ",
+        "VASB:[12/20/2013 17:15:35 : cbf5 : WTEVSSVA]\aPebff fgerrgf: YRRQF EQ//SNEYBJ EQ [12/20/2013 17:15:52 : cbf5 : WTEVSSVA]\aZNYR ABG  OERNGUVAT    CBFF GHEAVAT OYHR\a\a[12/20/2013 17:16:11 : cbf5 : WTEVSSVA]\aVA ORQEBBZ\a\a[12/20/2013 17:16:22 : cbf5 : WTEVSSVA]\aCG FUNAR EHFFRYY    35 LB ZNYR",
+        "K:YRRQF EQ/SNEYBJ EQ",
+        "HAVG:EZGE3 OGSQ 89-33");
+
+    qbGrfg("G61",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00081015>13-00081015</n> nf bs 12/19/2013 19:05:13</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/19/2013 19:00:35</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/19/2013 19:04:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/19/2013 19:04:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/19/2013 19:04:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/19/2013 19:04:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/19/2013 19:04:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/19/2013 19:04:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/19/2013 19:04:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/19/2013 19:04:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/19/2013 19:04:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/19/2013 19:04:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/19/2013 19:04:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/19/2013 19:04:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00081015",
+        "QNGR:12/19/2013",
+        "GVZR:19:00:35",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G62",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00080765>13-00080765</n> nf bs 12/18/2013 19:10:10</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/18/2013 19:00:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/18/2013 19:09:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/18/2013 19:09:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/18/2013 19:09:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/18/2013 19:09:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/18/2013 19:09:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/18/2013 19:09:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/18/2013 19:09:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/18/2013 19:09:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/18/2013 19:09:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/18/2013 19:09:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/18/2013 19:09:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/18/2013 19:09:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00080765",
+        "QNGR:12/18/2013",
+        "GVZR:19:00:08",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G63",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00080522>13-00080522</n> nf bs 12/17/2013 19:02:10</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/17/2013 19:00:01</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>QVIR</gq><gq>12/17/2013 19:01:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QVIR</gq><gq>12/17/2013 19:01:46</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/17/2013 19:01:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/17/2013 19:01:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/17/2013 19:01:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/17/2013 19:01:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/17/2013 19:01:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/17/2013 19:02:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/17/2013 19:02:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/17/2013 19:02:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/17/2013 19:02:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00080522",
+        "QNGR:12/17/2013",
+        "GVZR:19:00:01",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:QVIR QVIR NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ");
+
+    qbGrfg("G64",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00080289>13-00080289</n> nf bs 12/16/2013 19:26:10</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/16/2013 19:00:23</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>JP04</gq><gq>12/16/2013 19:25:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/16/2013 19:25:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/16/2013 19:25:27</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/16/2013 19:25:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/16/2013 19:25:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/16/2013 19:25:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/16/2013 19:25:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/16/2013 19:25:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/16/2013 19:25:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/16/2013 19:25:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/16/2013 19:25:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/16/2013 19:25:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/16/2013 19:26:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00080289",
+        "QNGR:12/16/2013",
+        "GVZR:19:00:23",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:JP04 NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G65",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00080061>13-00080061</n> nf bs 12/15/2013 19:08:15</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/15/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/15/2013 19:07:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/15/2013 19:07:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/15/2013 19:07:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/15/2013 19:07:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/15/2013 19:07:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/15/2013 19:07:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/15/2013 19:07:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/15/2013 19:07:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/15/2013 19:07:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00080061",
+        "QNGR:12/15/2013",
+        "GVZR:19:00:06",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:OGSQ NOSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ");
+
+    qbGrfg("G66",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00079903>13-00079903</n> nf bs 12/14/2013 19:37:16</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/14/2013 19:00:09</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/14/2013 19:36:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/14/2013 19:36:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/14/2013 19:37:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/14/2013 19:37:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/14/2013 19:37:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/14/2013 19:37:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/14/2013 19:37:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/14/2013 19:37:13</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00079903",
+        "QNGR:12/14/2013",
+        "GVZR:19:00:09",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ");
+
+    qbGrfg("G67",
+        "(911 Qvfcngpu:  ng 1860 NOVATGBA CX) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00079788>13-00079788</n> nf bs 12/14/2013 6:16:07</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/14/2013 06:07:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-70 FGEHPG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>pnccf,qnaal - 765-277-3383</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>1860 NOVATGBA CX/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=1860 NOVATGBA CX, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>136620</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c>\a" +
+        "[12/14/2013 06:07:57 : cbf1 : AEHUY]<oe>\a" +
+        "Pebff fgerrgf: EVPUZBAQ PVGL YVZVGF//FNYVFOHEL EQ<oe>\a" +
+        "Pebff fgerrgf: J ZNVA FG//FJ N FG<c>\a" +
+        "[12/14/2013 06:09:02 : cbf1 : AEHUY]<oe>\a" +
+        "Pebff fgerrgf: EVPUZBAQ PVGL YVZVGF//FNYVFOHEL EQ<oe>\a" +
+        "<oe>\a" +
+        "[12/14/2013 06:09:37 : cbf1 : AEHUY]<oe>\a" +
+        "onea ba sver ybsg<oe>\a" +
+        "<oe>\a" +
+        "[12/14/2013 06:09:59 : cbf1 : AEHUY]<oe>\a" +
+        "onea shyy bs rdhvczrag<oe>\a" +
+        "<oe>\a" +
+        "[12/14/2013 06:10:08 : cbf1 : AEHUY]<oe>\a" +
+        "tbg gur qbtf bhg<oe>\a" +
+        "<oe>\a" +
+        "[12/14/2013 06:12:14 : cbf1 : AEHUY]<oe>\a" +
+        "erd obfgba,novatgba,pragreivyyr gnaxref<oe>\a" +
+        "<oe>\a" +
+        "[12/14/2013 06:15:51 : cbf1 : AEHUY]<oe>\a" +
+        "fgbel 1/2 onea j/synzrf fubjvat sebz gur sebag<oe>\a" +
+        "<oe>\a" +
+        "[12/14/2013 06:16:02 : cbf1 : AEHUY]<oe>\a" +
+        "erd ec&y<oe>\a" +
+        "<oe>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>RAT1</gq><gq>12/14/2013 06:09:09</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RAT4</gq><gq>12/14/2013 06:09:12</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RAT5</gq><gq>12/14/2013 06:09:14</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ERFP</gq><gq>12/14/2013 06:09:43</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>HA21N</gq><gq>12/14/2013 06:09:45</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>HA21N</gq><gq>12/14/2013 06:10:29</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RAT1</gq><gq>12/14/2013 06:10:40</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>FD3</gq><gq>12/14/2013 06:11:14</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>FD1</gq><gq>12/14/2013 06:11:21</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ERFP</gq><gq>12/14/2013 06:11:30</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ERFP</gq><gq>12/14/2013 06:11:31</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RAT4</gq><gq>12/14/2013 06:11:32</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RAT4</gq><gq>12/14/2013 06:11:33</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RAT5</gq><gq>12/14/2013 06:11:58</gq><gq>RAE</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PIT14</gq><gq>12/14/2013 06:13:03</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/14/2013 06:15:10</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/14/2013 06:15:11</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/14/2013 06:15:14</gq><gq>QVF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PIT14</gq><gq>12/14/2013 06:15:23</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a" +
+        "<ge><gq>HA21N</gq><gq>12/14/2013 06:15:54</gq><gq>BAF</gq><gq>1860 NOVATGBA CX, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00079788",
+        "QNGR:12/14/2013",
+        "GVZR:06:07:02",
+        "PBQR:10-70",
+        "PNYY:FGEHPG",
+        "ANZR:pnccf,qnaal",
+        "CUBAR:765-277-3383",
+        "NQQE:1860 NOVATGBA CX",
+        "ZNQQE:1860 NOVATGBA CVXR",
+        "PVGL:EVPUZBAQ",
+        "VASB:[12/14/2013 06:07:57 : cbf1 : AEHUY]\aPebff fgerrgf: EVPUZBAQ PVGL YVZVGF//FNYVFOHEL EQ\aPebff fgerrgf: J ZNVA FG//FJ N FG [12/14/2013 06:09:02 : cbf1 : AEHUY]\aPebff fgerrgf: EVPUZBAQ PVGL YVZVGF//FNYVFOHEL EQ\a\a[12/14/2013 06:09:37 : cbf1 : AEHUY]\aonea ba sver ybsg\a\a[12/14/2013 06:09:59 : cbf1 : AEHUY]\aonea shyy bs rdhvczrag\a\a[12/14/2013 06:10:08 : cbf1 : AEHUY]\atbg gur qbtf bhg\a\a[12/14/2013 06:12:14 : cbf1 : AEHUY]\aerd obfgba,novatgba,pragreivyyr gnaxref\a\a[12/14/2013 06:15:51 : cbf1 : AEHUY]\afgbel 1/2 onea j/synzrf fubjvat sebz gur sebag\a\a[12/14/2013 06:16:02 : cbf1 : AEHUY]\aerd ec&y",
+        "K:EVPUZBAQ PVGL YVZVGF/FNYVFOHEL EQ",
+        "HAVG:RAT1 RAT4 RAT5 ERFP HA21N HA21N RAT1 FD3 FD1 ERFP ERFP RAT4 RAT4 RAT5 PIT14 OGSQ NOSQ PISQ PIT14 HA21N");
+
+    qbGrfg("G68",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00079715>13-00079715</n> nf bs 12/13/2013 19:01:14</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/13/2013 19:00:04</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/13/2013 19:00:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/13/2013 19:00:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/13/2013 19:00:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/13/2013 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/13/2013 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/13/2013 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/13/2013 19:00:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/13/2013 19:01:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/13/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/13/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/13/2013 19:01:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/13/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00079715",
+        "QNGR:12/13/2013",
+        "GVZR:19:00:04",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G69",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00079495>13-00079495</n> nf bs 12/12/2013 19:02:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/12/2013 19:00:12</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/12/2013 19:01:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/12/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/12/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/12/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/12/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/12/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/12/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/12/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/12/2013 19:01:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/12/2013 19:01:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/12/2013 19:01:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/12/2013 19:01:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP04</gq><gq>12/12/2013 19:01:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/12/2013 19:02:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00079495",
+        "QNGR:12/12/2013",
+        "GVZR:19:00:12",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JZSQ JP04 PPSQ");
+
+    qbGrfg("G70",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00079288>13-00079288</n> nf bs 12/11/2013 19:07:17</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/11/2013 19:00:20</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/11/2013 19:06:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/11/2013 19:06:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/11/2013 19:06:13</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/11/2013 19:06:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/11/2013 19:06:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/11/2013 19:06:19</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/11/2013 19:06:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/11/2013 19:06:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/11/2013 19:06:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/11/2013 19:06:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/11/2013 19:06:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/11/2013 19:06:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP04</gq><gq>12/11/2013 19:06:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00079288",
+        "QNGR:12/11/2013",
+        "GVZR:19:00:20",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:OGSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ NOSQ PPSQ JP04");
+
+    qbGrfg("G71",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00079018>13-00079018</n> nf bs 12/10/2013 19:05:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/10/2013 19:00:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/10/2013 19:04:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/10/2013 19:04:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/10/2013 19:04:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/10/2013 19:04:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/10/2013 19:04:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/10/2013 19:04:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/10/2013 19:05:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/10/2013 19:05:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/10/2013 19:05:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/10/2013 19:05:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00079018",
+        "QNGR:12/10/2013",
+        "GVZR:19:00:08",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ");
+
+    qbGrfg("G72",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00078808>13-00078808</n> nf bs 12/9/2013 19:01:13</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/09/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/09/2013 19:00:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/09/2013 19:00:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/09/2013 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/09/2013 19:00:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/09/2013 19:00:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/09/2013 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/09/2013 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/09/2013 19:00:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/09/2013 19:00:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/09/2013 19:01:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/09/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/09/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00078808",
+        "QNGR:12/09/2013",
+        "GVZR:19:00:06",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G73",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00078390>13-00078390</n> nf bs 12/7/2013 19:03:13</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/07/2013 19:00:07</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/07/2013 19:02:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/07/2013 19:02:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/07/2013 19:02:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/07/2013 19:02:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/07/2013 19:02:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/07/2013 19:02:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/07/2013 19:02:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/07/2013 19:02:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/07/2013 19:03:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/07/2013 19:03:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00078390",
+        "QNGR:12/07/2013",
+        "GVZR:19:00:07",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ");
+
+    qbGrfg("G74",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00078227>13-00078227</n> nf bs 12/6/2013 19:40:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/06/2013 19:00:11</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[12/06/2013 19:02:11 : cbf5 : ZPNVA]<oe>\a" +
+        "QRYNL VA CNTRE GRFG QHR GB PISQ BA N PNYY<oe>\a" +
+        "<oe>\a" +
+        "QNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/06/2013 19:39:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/06/2013 19:39:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/06/2013 19:39:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/06/2013 19:39:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/06/2013 19:39:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/06/2013 19:39:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/06/2013 19:39:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/06/2013 19:39:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/06/2013 19:39:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/06/2013 19:39:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/06/2013 19:39:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/06/2013 19:39:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00078227",
+        "QNGR:12/06/2013",
+        "GVZR:19:00:11",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "VASB:[12/06/2013 19:02:11 : cbf5 : ZPNVA]\aQRYNL VA CNTRE GRFG QHR GB PISQ BA N PNYY\a\aQNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ",
+        "HAVG:JZSQ JOSQ ZYSQ UTSQ NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ");
+
+    qbGrfg("G75",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00078020>13-00078020</n> nf bs 12/5/2013 19:09:09</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/05/2013 19:00:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>JP19</gq><gq>12/05/2013 19:07:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/05/2013 19:08:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/05/2013 19:08:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/05/2013 19:08:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PS1</gq><gq>12/05/2013 19:08:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PS1</gq><gq>12/05/2013 19:08:19</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/05/2013 19:08:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/05/2013 19:08:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/05/2013 19:08:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/05/2013 19:08:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/05/2013 19:08:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/05/2013 19:08:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/05/2013 19:08:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/05/2013 19:08:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/05/2013 19:08:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00078020",
+        "QNGR:12/05/2013",
+        "GVZR:19:00:03",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:JP19 PPSQ NOSQ OGSQ PS1 PS1 PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G76",
+        "(911 Qvfcngpu: 10-52 HAPBA ng 6152 JBYSR EQ) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00077994>13-00077994</n> nf bs 12/5/2013 17:09:04</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/05/2013 17:05:56</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>10-52 HAPBA</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>OLEQ, PBYBA - 765-914-7228</gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>6152 JBYSR EQ/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=6152 JBYSR EQ, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[12/05/2013 17:06:34 : cbf6 : TPNYYNJNL]<oe>\a" +
+        "Pebff fgerrgf: FGNGR YVAR EQ//QBERA EQ<c>\a" +
+        "[12/05/2013 17:06:53 : cbf6 : TPNYYNJNL]<oe>\a" +
+        "ABG OERNGUVAT<oe>\a" +
+        "ABG FGVSS BE PBYQ<oe>\a" +
+        "<oe>\a" +
+        "[12/05/2013 17:07:16 : cbf6 : TPNYYNJNL]<oe>\a" +
+        "GURL QB ABG JNAG GB GEL PCE<oe>\a" +
+        "<oe>\a" +
+        "[12/05/2013 17:07:42 : cbf6 : TPNYYNJNL]<oe>\a" +
+        "UNF NYBG BS URNYGU VFFHRF<oe>\a" +
+        "<oe>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>EZGE3</gq><gq>12/05/2013 17:06:50</gq><gq>QVF</gq><gq>6152 JBYSR EQ, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>89-22</gq><gq>12/05/2013 17:06:50</gq><gq>QVF</gq><gq>6152 JBYSR EQ, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>89-6</gq><gq>12/05/2013 17:07:14</gq><gq>RAE</gq><gq>6152 JBYSR EQ, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/05/2013 17:08:44</gq><gq>QVF</gq><gq>6152 JBYSR EQ, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00077994",
+        "QNGR:12/05/2013",
+        "GVZR:17:05:56",
+        "PBQR:10-52",
+        "PNYY:HAPBA",
+        "ANZR:OLEQ, PBYBA",
+        "CUBAR:765-914-7228",
+        "NQQE:6152 JBYSR EQ",
+        "PVGL:EVPUZBAQ",
+        "VASB:[12/05/2013 17:06:34 : cbf6 : TPNYYNJNL]\aPebff fgerrgf: FGNGR YVAR EQ//QBERA EQ [12/05/2013 17:06:53 : cbf6 : TPNYYNJNL]\aABG OERNGUVAT\aABG FGVSS BE PBYQ\a\a[12/05/2013 17:07:16 : cbf6 : TPNYYNJNL]\aGURL QB ABG JNAG GB GEL PCE\a\a[12/05/2013 17:07:42 : cbf6 : TPNYYNJNL]\aUNF NYBG BS URNYGU VFFHRF",
+        "K:FGNGR YVAR EQ/QBERA EQ",
+        "HAVG:EZGE3 89-22 89-6 OGSQ");
+
+    qbGrfg("G77",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00077804>13-00077804</n> nf bs 12/4/2013 19:01:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/04/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/04/2013 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/04/2013 19:00:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/04/2013 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/04/2013 19:00:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/04/2013 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/04/2013 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/04/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/04/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/04/2013 19:01:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/04/2013 19:01:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/04/2013 19:01:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00077804",
+        "QNGR:12/04/2013",
+        "GVZR:19:00:06",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PISQ PPSQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ");
+
+    qbGrfg("G78",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00077590>13-00077590</n> nf bs 12/3/2013 19:02:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/03/2013 19:00:15</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/03/2013 19:01:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/03/2013 19:01:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/03/2013 19:01:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/03/2013 19:01:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/03/2013 19:01:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/03/2013 19:01:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/03/2013 19:01:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/03/2013 19:01:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/03/2013 19:01:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/03/2013 19:02:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00077590",
+        "QNGR:12/03/2013",
+        "GVZR:19:00:15",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ");
+
+    qbGrfg("G79",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00077360>13-00077360</n> nf bs 12/2/2013 19:08:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/02/2013 19:00:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[12/02/2013 19:00:31 : cbf5 : NFPUARVQRE]<oe>\a" +
+        "QRYNLRQ QHR GB RPBABZL ORVAT BA N 10-50 CV<oe>\a" +
+        "<oe>\a" +
+        "QNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/02/2013 19:07:20</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/02/2013 19:07:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/02/2013 19:07:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/02/2013 19:07:27</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/02/2013 19:07:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/02/2013 19:07:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/02/2013 19:07:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/02/2013 19:07:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/02/2013 19:07:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/02/2013 19:07:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/02/2013 19:07:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/02/2013 19:08:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00077360",
+        "QNGR:12/02/2013",
+        "GVZR:19:00:03",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "VASB:[12/02/2013 19:00:31 : cbf5 : NFPUARVQRE]\aQRYNLRQ QHR GB RPBABZL ORVAT BA N 10-50 CV\a\aQNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G80",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00077120>13-00077120</n> nf bs 12/1/2013 19:08:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>12/01/2013 19:00:05</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>12/01/2013 19:07:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>12/01/2013 19:07:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>12/01/2013 19:07:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>12/01/2013 19:07:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>12/01/2013 19:07:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>12/01/2013 19:07:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>12/01/2013 19:07:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>12/01/2013 19:07:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>12/01/2013 19:07:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>12/01/2013 19:07:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>12/01/2013 19:08:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>12/01/2013 19:08:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00077120",
+        "QNGR:12/01/2013",
+        "GVZR:19:00:05",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G81",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00076978>13-00076978</n> nf bs 11/30/2013 19:01:10</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/30/2013 19:00:05</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/30/2013 19:00:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/30/2013 19:00:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/30/2013 19:00:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/30/2013 19:00:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/30/2013 19:00:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/30/2013 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/30/2013 19:00:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/30/2013 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/30/2013 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/30/2013 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>11/30/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>11/30/2013 19:01:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00076978",
+        "QNGR:11/30/2013",
+        "GVZR:19:00:05",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G82",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00076769>13-00076769</n> nf bs 11/29/2013 19:02:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/29/2013 19:00:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>OBE84</gq><gq>11/29/2013 19:01:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/29/2013 19:01:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/29/2013 19:01:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/29/2013 19:01:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/29/2013 19:01:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/29/2013 19:01:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/29/2013 19:01:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/29/2013 19:01:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/29/2013 19:01:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/29/2013 19:02:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00076769",
+        "QNGR:11/29/2013",
+        "GVZR:19:00:02",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:OBE84 NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ");
+
+    qbGrfg("G83",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00076579>13-00076579</n> nf bs 11/28/2013 19:01:15</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/28/2013 19:00:03</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/28/2013 19:00:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/28/2013 19:00:27</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/28/2013 19:00:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/28/2013 19:00:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/28/2013 19:00:34</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/28/2013 19:00:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/28/2013 19:00:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/28/2013 19:00:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/28/2013 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/28/2013 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>11/28/2013 19:00:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>11/28/2013 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP04</gq><gq>11/28/2013 19:00:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00076579",
+        "QNGR:11/28/2013",
+        "GVZR:19:00:03",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:OGSQ NOSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP04");
+
+    qbGrfg("G84",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00076412>13-00076412</n> nf bs 11/27/2013 19:02:17</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/27/2013 19:00:22</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/27/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/27/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/27/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/27/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/27/2013 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/27/2013 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/27/2013 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/27/2013 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/27/2013 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/27/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>11/27/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>11/27/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP21</gq><gq>11/27/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00076412",
+        "QNGR:11/27/2013",
+        "GVZR:19:00:22",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP21");
+
+    qbGrfg("G85",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00076172>13-00076172</n> nf bs 11/26/2013 19:05:19</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/26/2013 19:00:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/26/2013 19:04:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/26/2013 19:04:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/26/2013 19:04:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/26/2013 19:04:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/26/2013 19:04:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/26/2013 19:04:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/26/2013 19:04:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/26/2013 19:04:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/26/2013 19:04:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/26/2013 19:05:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>11/26/2013 19:05:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>11/26/2013 19:05:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00076172",
+        "QNGR:11/26/2013",
+        "GVZR:19:00:08",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G86",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00075908>13-00075908</n> nf bs 11/25/2013 19:01:17</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/25/2013 19:00:10</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/25/2013 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/25/2013 19:00:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/25/2013 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/25/2013 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/25/2013 19:01:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/25/2013 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/25/2013 19:01:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/25/2013 19:01:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/25/2013 19:01:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/25/2013 19:01:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>11/25/2013 19:01:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00075908",
+        "QNGR:11/25/2013",
+        "GVZR:19:00:10",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ");
+
+    qbGrfg("G87",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00075700>13-00075700</n> nf bs 11/24/2013 19:03:09</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/24/2013 19:00:11</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>JP19</gq><gq>11/24/2013 19:02:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYGT9</gq><gq>11/24/2013 19:02:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYGT9</gq><gq>11/24/2013 19:02:47</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/24/2013 19:02:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/24/2013 19:02:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/24/2013 19:02:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/24/2013 19:03:00</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/24/2013 19:03:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/24/2013 19:03:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/24/2013 19:03:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00075700",
+        "QNGR:11/24/2013",
+        "GVZR:19:00:11",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:JP19 ZYGT9 ZYGT9 NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ");
+
+    qbGrfg("G88",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00075489>13-00075489</n> nf bs 11/23/2013 19:06:10</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/23/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>JP04</gq><gq>11/23/2013 19:05:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/23/2013 19:05:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/23/2013 19:05:19</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/23/2013 19:05:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/23/2013 19:05:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/23/2013 19:05:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/23/2013 19:05:28</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/23/2013 19:05:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/23/2013 19:05:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/23/2013 19:05:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/23/2013 19:05:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>11/23/2013 19:05:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>11/23/2013 19:05:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00075489",
+        "QNGR:11/23/2013",
+        "GVZR:19:00:06",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:JP04 NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G89",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00075237>13-00075237</n> nf bs 11/22/2013 19:01:14</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/22/2013 19:00:16</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/22/2013 19:00:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/22/2013 19:00:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/22/2013 19:00:34</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/22/2013 19:00:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/22/2013 19:00:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/22/2013 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/22/2013 19:00:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/22/2013 19:00:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/22/2013 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/22/2013 19:00:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>11/22/2013 19:00:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>11/22/2013 19:00:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP20</gq><gq>11/22/2013 19:01:03</gq><gq>BAF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00075237",
+        "QNGR:11/22/2013",
+        "GVZR:19:00:16",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP20");
+
+    qbGrfg("G90",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00074958>13-00074958</n> nf bs 11/21/2013 19:01:14</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/21/2013 19:00:23</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/21/2013 19:00:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/21/2013 19:00:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/21/2013 19:00:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/21/2013 19:00:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/21/2013 19:00:52</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/21/2013 19:00:54</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/21/2013 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/21/2013 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/21/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/21/2013 19:01:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>11/21/2013 19:01:06</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>11/21/2013 19:01:08</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00074958",
+        "QNGR:11/21/2013",
+        "GVZR:19:00:23",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G91",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00074768>13-00074768</n> nf bs 11/20/2013 19:04:16</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/20/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/20/2013 19:03:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/20/2013 19:03:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/20/2013 19:03:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/20/2013 19:04:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00074768",
+        "QNGR:11/20/2013",
+        "GVZR:19:00:06",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ");
+
+    qbGrfg("G92",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00074543>13-00074543</n> nf bs 11/19/2013 19:21:13</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/19/2013 19:00:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "[11/19/2013 19:01:46 : cbf5 : ZPNVA]<oe>\a" +
+        "QRYNL BA CNTRE GRFG QHR GB QHOYVA RZF WHFG QVFCNGPURQ BA N EHA<oe>\a" +
+        "<oe>\a" +
+        "QNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>JP21</gq><gq>11/19/2013 19:20:04</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/19/2013 19:20:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/19/2013 19:20:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/19/2013 19:20:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/19/2013 19:20:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/19/2013 19:20:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/19/2013 19:20:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/19/2013 19:20:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/19/2013 19:20:10</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/19/2013 19:20:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/19/2013 19:20:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>11/19/2013 19:20:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>11/19/2013 19:20:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>11/19/2013 19:20:11</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00074543",
+        "QNGR:11/19/2013",
+        "GVZR:19:00:02",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "VASB:[11/19/2013 19:01:46 : cbf5 : ZPNVA]\aQRYNL BA CNTRE GRFG QHR GB QHOYVA RZF WHFG QVFCNGPURQ BA N EHA\a\aQNVYL PBHAGL SVER CNTRE GRFG, IREVSL IVFHNY DHRF, JVYY  OR AB PNYY VA SEBZ QRCNEGZRAGF HAYRFF GBARF ABG ERPVRIRQ",
+        "HAVG:JP21 NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JZSQ");
+
+    qbGrfg("G93",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00074283>13-00074283</n> nf bs 11/18/2013 19:01:13</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/18/2013 19:00:01</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>JP16</gq><gq>11/18/2013 19:00:13</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/18/2013 19:00:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/18/2013 19:00:43</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/18/2013 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/18/2013 19:00:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/18/2013 19:00:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/18/2013 19:00:56</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/18/2013 19:00:58</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/18/2013 19:01:02</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/18/2013 19:01:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00074283",
+        "QNGR:11/18/2013",
+        "GVZR:19:00:01",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:JP16 NOSQ OGSQ PPSQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ");
+
+    qbGrfg("G94",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00074067>13-00074067</n> nf bs 11/17/2013 19:01:13</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/17/2013 19:00:08</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/17/2013 19:00:38</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/17/2013 19:00:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/17/2013 19:00:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/17/2013 19:00:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/17/2013 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/17/2013 19:00:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/17/2013 19:00:49</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/17/2013 19:00:51</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/17/2013 19:00:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/17/2013 19:00:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>11/17/2013 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>11/17/2013 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00074067",
+        "QNGR:11/17/2013",
+        "GVZR:19:00:08",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G95",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00073891>13-00073891</n> nf bs 11/16/2013 19:01:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/16/2013 19:00:04</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/16/2013 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/16/2013 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/16/2013 19:01:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/16/2013 19:01:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/16/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/16/2013 19:01:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/16/2013 19:01:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00073891",
+        "QNGR:11/16/2013",
+        "GVZR:19:00:04",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ");
+
+    qbGrfg("G96",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00073705>13-00073705</n> nf bs 11/15/2013 19:07:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/15/2013 19:00:10</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/15/2013 19:06:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/15/2013 19:06:12</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/15/2013 19:06:14</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/15/2013 19:06:16</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/15/2013 19:06:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/15/2013 19:06:19</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/15/2013 19:06:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/15/2013 19:06:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/15/2013 19:06:26</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/15/2013 19:06:29</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>11/15/2013 19:06:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>11/15/2013 19:06:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00073705",
+        "QNGR:11/15/2013",
+        "GVZR:19:00:10",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ TSSQ SPSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G97",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00073509>13-00073509</n> nf bs 11/14/2013 19:01:12</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/14/2013 19:00:04</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/14/2013 19:00:13</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/14/2013 19:00:15</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/14/2013 19:00:17</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PS1</gq><gq>11/14/2013 19:00:19</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/14/2013 19:00:24</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PS1</gq><gq>11/14/2013 19:00:26</gq><gq>ERZ</gq><gq>ERZ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/14/2013 19:00:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/14/2013 19:00:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/14/2013 19:00:36</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/14/2013 19:00:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/14/2013 19:00:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/14/2013 19:00:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>11/14/2013 19:00:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>11/14/2013 19:00:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JP20</gq><gq>11/14/2013 19:01:05</gq><gq>BAF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00073509",
+        "QNGR:11/14/2013",
+        "GVZR:19:00:04",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PS1 PISQ PS1 QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ JP20");
+
+    qbGrfg("G98",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00073279>13-00073279</n> nf bs 11/13/2013 19:01:11</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/13/2013 19:00:06</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/13/2013 19:00:53</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/13/2013 19:00:55</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/13/2013 19:00:57</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/13/2013 19:00:59</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/13/2013 19:01:01</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/13/2013 19:01:03</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/13/2013 19:01:05</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/13/2013 19:01:07</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/13/2013 19:01:09</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00073279",
+        "QNGR:11/13/2013",
+        "GVZR:19:00:06",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ");
+
+    qbGrfg("G99",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00073036>13-00073036</n> nf bs 11/12/2013 19:14:17</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/12/2013 19:00:02</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/12/2013 19:13:30</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/12/2013 19:13:32</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/12/2013 19:13:34</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/12/2013 19:13:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/12/2013 19:13:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/12/2013 19:13:39</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/12/2013 19:13:41</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/12/2013 19:13:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/12/2013 19:13:44</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/12/2013 19:13:46</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>11/12/2013 19:13:48</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>11/12/2013 19:13:50</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00073036",
+        "QNGR:11/12/2013",
+        "GVZR:19:00:02",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+
+    qbGrfg("G100",
+        "(911 Qvfcngpu:  ng 401 R ZNVA FG) <ugzy>\a" +
+        "<obql>\a" +
+        "<pragre>\a" +
+        "<gnoyr>\a" +
+        "<ge><gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq>\a" +
+        "<gu inyvta=zvqqyr><u2>Jnlar Pbhagl, VA Rzretrapl Pbzzhavpngvbaf<oe>\a" +
+        "OGSQ Sver/RZF PNQ Ybbxhcf</u2></gu>\a" +
+        "<gq><vzt fep=\"uggc://jjj.pb.jnlar.va.hf/vzntrf/Arj 911 YBTBJ.wct\" urvtug=100></gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<obql>\a" +
+        "</pragre>\a" +
+        "<u3>Pnyy Ahzore <n uers=uggc://jjj.pb.jnlar.va.hf/ptv-ova/sverrzf/ivrj_pnyy.cy?pnyyahzore=13-00072822>13-00072822</n> nf bs 11/11/2013 19:06:10</u3>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu nyvta=evtug>Qngr/Gvzr Erprvirq:</gu><gq nyvta=yrsg>11/11/2013 19:00:01</gq><gu nyvta=evtug>Pbzcynvag:</gu><gq nyvta=yrsg>CNTRE GRFG</gq></ge>\a" +
+        "<ge><gu nyvta=evtug>Pnyyre:</gu><gq nyvta=yrsg>JNLAR PB SVER NFFBP - </gq><gu nyvta=evtug>Nqqerff:</gu><gq ebjfcna=2 nyvta=yrsg>401 R ZNVA FG/EVPUZBAQ<oe>\a" +
+        "<n uers=\"uggc://zncf.tbbtyr.pbz/zncf?d=401 R ZNVA FG, EVPUZBAQ, VA\" gnetrg=ivrjybpngvba>Tbbtyr Znc</n></gq><ge><gu nyvta=evtug>Pnfr Ahzore:</gu><gq nyvta=yrsg>Abar</gnoyr>\a" +
+        "<c>\a" +
+        "<c>\a" +
+        "<o>Havgf Nffvtarq</o>\a" +
+        "<gnoyr obeqre=1>\a" +
+        "<ge><gu>Havg</gu><gu>Qngr Gvzr</gu><gu>Gra Fgnghf</gu><gu>Pbzzragf</gu></ge>\a" +
+        "<ge><gq>NOSQ</gq><gq>11/11/2013 19:05:21</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>OGSQ</gq><gq>11/11/2013 19:05:23</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PPSQ</gq><gq>11/11/2013 19:05:25</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>PISQ</gq><gq>11/11/2013 19:05:27</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>QOSQ</gq><gq>11/11/2013 19:05:31</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>RPSQ</gq><gq>11/11/2013 19:05:33</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>SPSQ</gq><gq>11/11/2013 19:05:35</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>TSSQ</gq><gq>11/11/2013 19:05:37</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>UTSQ</gq><gq>11/11/2013 19:05:40</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>ZYSQ</gq><gq>11/11/2013 19:05:42</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JOSQ</gq><gq>11/11/2013 19:05:45</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "<ge><gq>JZSQ</gq><gq>11/11/2013 19:05:47</gq><gq>QVF</gq><gq>401 R ZNVA FG, EVPUZBAQ</gq></ge>\a" +
+        "</gnoyr>\a" +
+        "<c><ue>\a" +
+        "</obql>\a" +
+        "</ugzy>",
+
+        "VQ:13-00072822",
+        "QNGR:11/11/2013",
+        "GVZR:19:00:01",
+        "PNYY:CNTRE GRFG",
+        "ANZR:JNLAR PB SVER NFFBP",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:EVPUZBAQ",
+        "HAVG:NOSQ OGSQ PPSQ PISQ QOSQ RPSQ SPSQ TSSQ UTSQ ZYSQ JOSQ JZSQ");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
