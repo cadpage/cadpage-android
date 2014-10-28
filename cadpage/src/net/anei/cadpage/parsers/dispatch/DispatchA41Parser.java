@@ -12,7 +12,7 @@ public class DispatchA41Parser extends FieldProgramParser {
   public static final int A41_FLG_NO_CALL = 1;
   public static final int  A41_FLG_ID = 2;
   
-  private static final Pattern DATE_TIME_PTN = Pattern.compile("(.*) +- From +(?:[A-Z][A-Z0-9]+ +)?(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d:\\d\\d)");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("(.*) +- From +(?:([A-Z][A-Z0-9]+) +)?(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d:\\d\\d)");
   
   private Pattern channelPattern;
   
@@ -40,8 +40,9 @@ public class DispatchA41Parser extends FieldProgramParser {
     Matcher match = DATE_TIME_PTN.matcher(body);
     if (match.matches()) {
       body = match.group(1);
-      data.strDate = match.group(2);
-      data.strTime = match.group(3);
+      data.strSource = match.group(2);
+      data.strDate = match.group(3);
+      data.strTime = match.group(4);
     } else {
       int pt = body.lastIndexOf(" - From");
       if (pt >= 0) body = body.substring(0,pt).trim();
@@ -53,7 +54,7 @@ public class DispatchA41Parser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return super.getProgram() + " DATE TIME"; 
+    return super.getProgram() + " SRC DATE TIME"; 
   }
 
   @Override

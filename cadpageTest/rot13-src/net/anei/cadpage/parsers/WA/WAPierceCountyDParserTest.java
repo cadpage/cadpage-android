@@ -972,12 +972,13 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:15 JROO EQ XC F",
         "PVGL:XRL CRAVAFHYN",
         "ZPVGL:",
-        "PU:S16",
         "K:GVRQZNA EQ XA naq 2AQ FG XF",
+        "PU:S16",
         "ZNC:163/16-320",
         "VASB:86LBS PBA/OERNGUVAT ABEZNYYLYBJRE NOQ CNVA ERPGNY OYRRQVAT",
         "VQ:1334700018",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:12/13/2013",
         "GVZR:06:40:18");
 
@@ -989,11 +990,12 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:20723 26GU FG XC F",
         "PVGL:XRL CRAVAFHYN",
         "ZPVGL:",
-        "PU:S16",
         "K:205GU NI XF naq RAQ",
+        "PU:S16",
         "ZNC:194/16-320",
         "VQ:1334800052",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:12/14/2013",
         "GVZR:12:28:27");
 
@@ -1005,13 +1007,14 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:8503 JN 16 J",
         "PVGL:TVT UNEOBE",
         "ZPVGL:",
-        "PU:S05",
         "K:FE16 PVBA J naq ENZC FE16 ECS1 J",
         "CYNPR:OL UNIRA BS ERFG",
+        "PU:S05",
         "ZNC:62/05-116",
         "VASB:GENVYRE OENXRF BA SVER/ RKGVATHVFUVAT JVGU N SVER RKGVATHVFURE 18 JURRYRE/",
         "VQ:1334800041",
         "HAVG:NVE56 O51 R51 R52 R58 R59 Z51 Z59 EU54 G44 G55 G57 MTUPUS MTUQGL",
+        "FEP:PN01",
         "QNGR:12/14/2013",
         "GVZR:09:49:09");
 
@@ -1023,12 +1026,13 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:17204 65GU FG XC F",
         "PVGL:XRL CRAVAFHYN",
         "ZPVGL:",
-        "PU:S16",
         "K:RAQ naq 173EQ NI XF",
+        "PU:S16",
         "ZNC:299/16-400",
         "VASB:50LBS/ PBA/ QVSS OERNGUVAT/ CG UNIVAT NFGUZN NGGNPX",
         "VQ:1334800039",
         "HAVG:R49 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:12/14/2013",
         "GVZR:09:20:51");
 
@@ -1040,12 +1044,13 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:17210 65GU FG XC F",
         "PVGL:XRL CRAVAFHYN",
         "ZPVGL:",
-        "PU:S16",
         "K:RAQ naq 173EQ NI XF",
+        "PU:S16",
         "ZNC:299/16-400",
         "VASB:BA QVNYLFVF, JNF SBHAQ BA GUR SYBBE GUVF ZBEAVAT, 56LBZ, OERNGUVAT, HAPBA",
         "VQ:1334800017",
         "HAVG:R49 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:12/14/2013",
         "GVZR:05:08:43");
 
@@ -1057,12 +1062,13 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:11210 149GU NIR XC A",
         "PVGL:XRL CRAVAFHYN",
         "ZPVGL:",
-        "PU:S16",
         "K:113GU FG XA naq 115GU FGPG XA",
+        "PU:S16",
         "ZNC:43/16-500",
         "VASB:FPNYC YNPRENGVBA, UK BS NHGVFZ, 4LBZ, FVOYVATF JRER ONOLFVGGVAT, FVOYVATF NER 10 NAQ 12, SRYY NAQ UVG GNOYR",
         "VQ:1334700092",
         "HAVG:R45 MXCPUS",
+        "FEP:PN01",
         "QNGR:12/13/2013",
         "GVZR:18:01:56");
 
@@ -1073,13 +1079,14 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:XRL CRAVAFHYN ZVQQYR FPUBBY - URNYGU EBBZ",
         "PVGL:XRL CRAVAFHYN",
         "ZPVGL:",
-        "PU:S16",
         "NQQE:5510 XRL CRAVAFHYN UJL A",
         "K:53EQ FG XA naq 56GU FG XA",
+        "PU:S16",
         "ZNC:83/16-230",
         "VASB:39LBS, ZRGNYVP GNFGR VA URE ZBHGU, GBATHR OHEAVAT, JUBBML, EUE, CBFF NYYRETVP ERNPGVBA",
         "VQ:1334700050",
         "HAVG:R46 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:12/13/2013",
         "GVZR:12:21:27");
 
@@ -1095,6 +1102,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:31/16-210",
         "VQ:1334700089",
         "HAVG:R46 E46 MXCPUS",
+        "FEP:PN01",
         "QNGR:12/13/2013",
         "GVZR:17:19:14");
 
@@ -1106,12 +1114,13 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:19700 JN 302",
         "PVGL:XRL CRAVAFHYN",
         "ZPVGL:",
-        "PU:S16",
         "K:194GU NI XA naq RAQ",
+        "PU:S16",
         "ZNC:40/16-500",
         "VASB:ZNFBA PB QVFC, RKGEVPNGVBA EVT, Z/N",
         "VQ:1334700034",
         "HAVG:R45",
+        "FEP:PN01",
         "QNGR:12/13/2013",
         "GVZR:09:46:16");
 
@@ -1123,12 +1132,13 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:17714 83EQ FG PG XC F",
         "PVGL:XRL CRAVAFHYN",
         "ZPVGL:",
-        "PU:S16",
         "K:176GU NIPG XF naq 177GU NIPG XF",
+        "PU:S16",
         "ZNC:332/16-400",
         "VASB:NQG NYNEZ FLFGRZ/ UNF ARIRE ORRA ORRA NPGVINGRQ TBVAT BSS / HANOYR GB FUHG VG BSS",
         "VQ:1334800092",
         "HAVG:R49 MXCPUS",
+        "FEP:PN01",
         "QNGR:12/14/2013",
         "GVZR:19:10:30");
 
@@ -1145,6 +1155,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:FGEBAT CEBCNAR FZRYY/",
         "VQ:1334800083",
         "HAVG:R44 MXCPUS",
+        "FEP:PN01",
         "QNGR:12/14/2013",
         "GVZR:17:40:26");
 
@@ -1156,12 +1167,13 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:17520 46GU FG XC F",
         "PVGL:XRL CRAVAFHYN",
         "ZPVGL:",
-        "PU:S16",
         "K:RAQ naq 180GU NI XF",
         "CYNPR:ZBOVYR BA CEV CEBC",
+        "PU:S16",
         "ZNC:265/16-400",
         "VQ:1334800108",
         "HAVG:R49 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:12/14/2013",
         "GVZR:21:30:59");
 
@@ -1178,6 +1190,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:4 LBS / QVSS OERNGUVAT / QVSS FCRNXVAT NAQ PELVAT",
         "VQ:1334900097",
         "HAVG:R44 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:12/15/2013",
         "GVZR:22:58:35");
 
@@ -1189,12 +1202,13 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:2211 YNXR QE XC F",
         "PVGL:XRL CRAVAFHYN",
         "ZPVGL:",
-        "PU:S16",
         "K:21FG FG XF naq 22AQ FGPG XF",
+        "PU:S16",
         "ZNC:195/16-320",
         "VASB:IRU BSS GUR EQJL / CBFF VAGB GUR UBHFR / EC VF PNYYVAT SEBZ N SRJ UBHFRF QBJA / URNEQ BAYL / HAXA PBYBE BE ZNXR BS IRU / HAXA VS NALOBQL VF VAWHERQ /",
         "VQ:1334900096",
         "HAVG:R47 Z47 E46 MXCPUS",
+        "FEP:PN01",
         "QNGR:12/15/2013",
         "GVZR:22:25:35");
 
@@ -1205,12 +1219,13 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:14721 TBBQEVPU QE AJ",
         "PVGL:XRL CRAVAFHYN",
         "ZPVGL:",
-        "PU:S16",
         "K:145GU FG AJ naq 148GU FGPG AJ",
+        "PU:S16",
         "ZNC:9/16-110",
         "VASB:51 LBZ, TEBHAQ YRIRY SNYY, HAX VS VAWHERQ.",
         "VQ:1335000028",
         "HAVG:R44 Z44 MXCPUS",
+        "FEP:PN02",
         "QNGR:12/16/2013",
         "GVZR:08:16:17");
   
@@ -1234,6 +1249,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009249/1424100022",
         "TCF:+47.213770,-122.547007",
         "HAVG:R32",
+        "FEP:PN02",
         "QNGR:08/29/2014",
         "GVZR:08:47:59");
 
@@ -1250,6 +1266,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009248/1424100021",
         "TCF:+47.153850,-122.570717",
         "HAVG:R22 Z22",
+        "FEP:PN02",
         "QNGR:08/29/2014",
         "GVZR:08:46:46");
 
@@ -1266,6 +1283,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009247/1424100018",
         "TCF:+47.160736,-122.560453",
         "HAVG:R22 Z22",
+        "FEP:PN02",
         "QNGR:08/29/2014",
         "GVZR:06:40:39");
 
@@ -1284,6 +1302,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009246/1424100011",
         "TCF:+47.223867,-122.539045",
         "HAVG:R31",
+        "FEP:PN01",
         "QNGR:08/29/2014",
         "GVZR:03:55:40");
 
@@ -1302,6 +1321,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009245/1424100007",
         "TCF:+47.180153,-122.549038",
         "HAVG:R24 Z21",
+        "FEP:PN01",
         "QNGR:08/29/2014",
         "GVZR:02:40:56");
 
@@ -1319,6 +1339,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009244/1424000118",
         "TCF:+47.185667,-122.560678",
         "HAVG:R24",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:21:57:01");
 
@@ -1336,6 +1357,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009243/1424000117",
         "TCF:+47.147436,-122.518234",
         "HAVG:R22 Z22",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:21:49:59");
 
@@ -1354,6 +1376,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009242/1424000116",
         "TCF:+47.182888,-122.464291",
         "HAVG:R20",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:21:48:12");
 
@@ -1374,6 +1397,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009241/1424000114",
         "TCF:+47.143084,-122.509366",
         "HAVG:R20 Z20",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:21:17:08");
 
@@ -1394,6 +1418,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009240/1424000113",
         "TCF:+47.238600,-122.530858",
         "HAVG:R31",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:21:16:13");
 
@@ -1412,6 +1437,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009239/1424000110",
         "TCF:+47.166270,-122.579763",
         "HAVG:R24 Z22",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:20:53:42");
 
@@ -1430,6 +1456,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009238/1424000092",
         "TCF:+47.168262,-122.509627",
         "HAVG:Y21",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:18:22:29");
 
@@ -1447,6 +1474,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009237/1424000090",
         "TCF:+47.228984,-122.545633",
         "HAVG:R31",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:18:12:03");
 
@@ -1464,6 +1492,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009236/1424000087",
         "TCF:+47.167094,-122.551022",
         "HAVG:R24",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:18:01:07");
 
@@ -1482,6 +1511,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009235/1424000083",
         "TCF:+47.142235,-122.564456",
         "HAVG:R22",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:17:35:38");
 
@@ -1502,6 +1532,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009234/1424000081",
         "TCF:+47.212737,-122.537440",
         "HAVG:R32",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:17:17:02");
 
@@ -1521,6 +1552,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009233/1424000079",
         "TCF:+47.180239,-122.548960",
         "HAVG:R24 Z24",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:17:06:32");
 
@@ -1540,6 +1572,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009232/1424000075",
         "TCF:+47.123143,-122.531886",
         "HAVG:R22",
+        "FEP:PN02",
         "QNGR:08/28/2014",
         "GVZR:16:20:58");
 
@@ -1558,6 +1591,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009231/1424000074",
         "TCF:+47.178286,-122.483172",
         "HAVG:Y21 Z21",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:16:19:27");
 
@@ -1576,6 +1610,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009230/1424000072",
         "TCF:+47.121524,-122.530928",
         "HAVG:R23",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:16:09:01");
 
@@ -1593,6 +1628,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009229/1424000063",
         "TCF:+47.154213,-122.562427",
         "HAVG:R22 Z24",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:14:33:24");
 
@@ -1612,6 +1648,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009228/1424000060",
         "TCF:+47.210019,-122.565754",
         "HAVG:R32 Z31",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:14:14:08");
 
@@ -1629,6 +1666,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009227/1424000058",
         "TCF:+47.170325,-122.525870",
         "HAVG:Y21 Z21",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:13:54:59");
 
@@ -1649,6 +1687,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009226/1424000052",
         "TCF:+47.164061,-122.497420",
         "HAVG:R20 Z20",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:13:04:25");
 
@@ -1668,6 +1707,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009225/1424000050",
         "TCF:+47.190448,-122.513145",
         "HAVG:Y21 Z21",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:12:31:57");
 
@@ -1684,6 +1724,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009224/1424000049",
         "TCF:+47.173897,-122.483745",
         "HAVG:Y21",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:12:24:29");
 
@@ -1702,6 +1743,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009223/1424000046",
         "TCF:+47.174730,-122.512048",
         "HAVG:R24",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:12:09:23");
 
@@ -1721,6 +1763,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009222/1424000043",
         "TCF:+47.180239,-122.548960",
         "HAVG:Y21 Z24",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:11:46:44");
 
@@ -1738,6 +1781,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009221/1424000040",
         "TCF:+47.216988,-122.536823",
         "HAVG:R32 Z31",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:11:26:49");
 
@@ -1755,6 +1799,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009220/1424000039",
         "TCF:+47.149843,-122.569955",
         "HAVG:R24 Z22",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:11:25:41");
 
@@ -1773,6 +1818,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009218/1424000034",
         "TCF:+47.216601,-122.569032",
         "HAVG:R20",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:10:40:27");
 
@@ -1789,6 +1835,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009217/1424000033",
         "TCF:+47.207880,-122.537010",
         "HAVG:O20 R22 R24 R32 Y21 Z24 Z31 MJCPUS",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:10:36:55");
 
@@ -1806,6 +1853,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009216/1424000021",
         "TCF:+47.189970,-122.509300",
         "HAVG:Y21",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:08:26:43");
 
@@ -1823,6 +1871,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009215/1424000013",
         "TCF:+47.230642,-122.561641",
         "HAVG:R32",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:06:22:20");
 
@@ -1842,6 +1891,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009214/1424000011",
         "TCF:+47.182936,-122.471620",
         "HAVG:Y21 Z21",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:05:31:38");
 
@@ -1861,6 +1911,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009213/1424000008",
         "TCF:+47.168007,-122.478952",
         "HAVG:R20",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:04:18:00");
 
@@ -1879,6 +1930,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009212/1424000005",
         "TCF:+47.192914,-122.525548",
         "HAVG:Y21 Z21",
+        "FEP:PN02",
         "QNGR:08/28/2014",
         "GVZR:02:42:20");
 
@@ -1897,6 +1949,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009211/1423900147",
         "TCF:+47.126036,-122.530845",
         "HAVG:R22 Z20",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:23:13:02");
 
@@ -1915,6 +1968,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009210/1423900146",
         "TCF:+47.120020,-122.531487",
         "HAVG:R23 Z22",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:23:11:46");
 
@@ -1934,6 +1988,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009209/1423900134",
         "TCF:+47.225833,-122.535040",
         "HAVG:R31",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:20:56:01");
 
@@ -1953,6 +2008,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009207/1423900124",
         "TCF:+47.237867,-122.531436",
         "HAVG:Z31",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:20:53:42");
 
@@ -1969,6 +2025,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009208/1423900130",
         "TCF:+47.221878,-122.557920",
         "HAVG:R32 Z21",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:20:26:25");
 
@@ -1988,6 +2045,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009207/1423900124",
         "TCF:+47.237867,-122.531436",
         "HAVG:R31 Z31",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:20:01:22");
 
@@ -2006,6 +2064,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009206/1423900121",
         "TCF:+47.151439,-122.566413",
         "HAVG:R22 Z22",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:19:29:11");
 
@@ -2023,6 +2082,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009205/1423900112",
         "TCF:+47.141324,-122.561514",
         "HAVG:O20 QVI20 R20 R22 Y21 Z21 Z22 ZNE22 ZNE23 MJCPUS MJCQIE",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:18:25:26");
 
@@ -2040,6 +2100,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009204/1423900110",
         "TCF:+47.170176,-122.545566",
         "HAVG:R24",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:18:18:49");
 
@@ -2058,6 +2119,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009203/1423900109",
         "TCF:+47.146032,-122.552655",
         "HAVG:R22 Z20",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:18:02:16");
 
@@ -2077,6 +2139,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009202/1423900105",
         "TCF:+47.182936,-122.471620",
         "HAVG:Y21 Z21",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:17:47:56");
 
@@ -2097,6 +2160,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009201/1423900099",
         "TCF:+47.142507,-122.498976",
         "HAVG:R22 Z22",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:17:08:25");
 
@@ -2116,6 +2180,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009200/1423900097",
         "TCF:+47.144064,-122.502253",
         "HAVG:R20 Z20",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:16:58:21");
 
@@ -2133,6 +2198,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009199/1423900092",
         "TCF:+47.174596,-122.507130",
         "HAVG:R20 Z20",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:16:27:21");
 
@@ -2150,6 +2216,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009198/1423900089",
         "TCF:+47.177293,-122.564468",
         "HAVG:R31 Z24",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:16:09:48");
 
@@ -2168,6 +2235,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009197/1423900087",
         "TCF:+47.121156,-122.532914",
         "HAVG:R22",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:15:54:42");
 
@@ -2185,6 +2253,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009196/1423900086",
         "TCF:+47.159432,-122.504608",
         "HAVG:R20 Z20",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:15:52:50");
 
@@ -2205,6 +2274,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009195/1423900084",
         "TCF:+47.172439,-122.514891",
         "HAVG:R24",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:15:43:11");
 
@@ -2223,6 +2293,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009193/1423900078",
         "TCF:+47.211283,-122.525498",
         "HAVG:R31 Z31",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:14:42:06");
 
@@ -2240,6 +2311,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009192/1423900071",
         "TCF:+47.226532,-122.535883",
         "HAVG:Y21",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:14:15:05");
 
@@ -2257,6 +2329,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009192/1423900071",
         "TCF:+47.226532,-122.535883",
         "HAVG:R31 GY3",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:14:13:12");
 
@@ -2275,6 +2348,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009191/1423900061",
         "TCF:+47.180721,-122.470842",
         "HAVG:Y21 Z21",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:12:42:15");
 
@@ -2294,6 +2368,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009190/1423900057",
         "TCF:+47.146212,-122.509041",
         "HAVG:R20",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:12:03:46");
 
@@ -2312,6 +2387,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009189/1423900055",
         "TCF:+47.216401,-122.525615",
         "HAVG:R32 Z31",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:11:43:08");
 
@@ -2331,6 +2407,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009188/1423900047",
         "TCF:+47.180676,-122.471296",
         "HAVG:Y21 Z21",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:11:09:31");
 
@@ -2349,6 +2426,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009187/1423900041",
         "TCF:+47.233015,-122.536637",
         "HAVG:R32",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:10:14:21");
 
@@ -2369,6 +2447,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009186/1423900040",
         "TCF:+47.141090,-122.510579",
         "HAVG:R23 Z22",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:10:10:29");
 
@@ -2387,6 +2466,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009185/1423900036",
         "TCF:+47.175266,-122.517056",
         "HAVG:R24",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:09:53:23");
 
@@ -2405,6 +2485,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009185/1423900036",
         "TCF:+47.175266,-122.517056",
         "HAVG:O20 Y21 Z21",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:09:51:52");
 
@@ -2423,6 +2504,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009184/1423900032",
         "TCF:+47.162799,-122.574020",
         "HAVG:R22 Z22",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:09:13:28");
 
@@ -2441,6 +2523,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009183/1423900031",
         "TCF:+47.206959,-122.535239",
         "HAVG:R32 Z24",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:09:08:16");
 
@@ -2459,6 +2542,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009182/1423900028",
         "TCF:+47.228726,-122.541868",
         "HAVG:Y21 Z21",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:08:56:54");
 
@@ -2477,6 +2561,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009181/1423900026",
         "TCF:+47.180692,-122.545811",
         "HAVG:R24",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:08:48:09");
 
@@ -2495,6 +2580,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009180/1423900025",
         "TCF:+47.231507,-122.535869",
         "HAVG:R32 Z31",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:08:47:07");
 
@@ -2512,6 +2598,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009179/1423900023",
         "TCF:+47.187545,-122.569658",
         "HAVG:R22 Z24",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:08:28:36");
 
@@ -2529,6 +2616,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009178/1423900021",
         "TCF:+47.177849,-122.545333",
         "HAVG:Z21",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:07:52:29");
 
@@ -2546,6 +2634,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009178/1423900021",
         "TCF:+47.177849,-122.545333",
         "HAVG:R24",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:07:48:59");
 
@@ -2563,6 +2652,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009177/1423900018",
         "TCF:+47.217554,-122.527802",
         "HAVG:R31",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:07:23:50");
 
@@ -2580,6 +2670,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009176/1423900015",
         "TCF:+47.158113,-122.533178",
         "HAVG:R22",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:07:04:55");
 
@@ -2597,6 +2688,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009175/1423900012",
         "TCF:+47.160013,-122.591426",
         "HAVG:R22 Z20",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:04:16:53");
 
@@ -2613,6 +2705,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009174/1423900011",
         "TCF:+47.171173,-122.578606",
         "HAVG:R24 Z22",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:04:10:31");
 
@@ -2631,6 +2724,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009173/1423900008",
         "TCF:+47.213770,-122.547007",
         "HAVG:R32",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:01:58:04");
 
@@ -2651,6 +2745,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009172/1423900003",
         "TCF:+47.169249,-122.501517",
         "HAVG:Y21",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:00:36:24");
 
@@ -2669,6 +2764,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009171/1423800157",
         "TCF:+47.213770,-122.547007",
         "HAVG:R32",
+        "FEP:PN02",
         "QNGR:08/26/2014",
         "GVZR:23:17:38");
 
@@ -2688,6 +2784,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009170/1423800149",
         "TCF:+47.141507,-122.515037",
         "HAVG:R20",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:21:59:44");
 
@@ -2705,6 +2802,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009169/1423800147",
         "TCF:+47.165271,-122.583420",
         "HAVG:Y21 Z22",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:21:31:44");
 
@@ -2722,6 +2820,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009168/1423800145",
         "TCF:+47.214441,-122.557850",
         "HAVG:R32",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:21:28:12");
 
@@ -2739,6 +2838,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009167/1423800143",
         "TCF:+47.241013,-122.540087",
         "HAVG:R31 Z31",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:21:15:55");
 
@@ -2758,6 +2858,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009166/1423800141",
         "TCF:+47.163821,-122.495127",
         "HAVG:R20",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:21:06:36");
 
@@ -2775,6 +2876,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009165/1423800139",
         "TCF:+47.178040,-122.574533",
         "HAVG:O20 R22 R24",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:21:00:11");
 
@@ -2793,6 +2895,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009164/1423800138",
         "TCF:+47.173130,-122.481706",
         "HAVG:Y21 Z21",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:20:57:43");
 
@@ -2811,6 +2914,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009163/1423800136",
         "TCF:+47.220789,-122.551367",
         "HAVG:R32",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:20:43:40");
 
@@ -2828,6 +2932,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009162/1423800134",
         "TCF:+47.178202,-122.523263",
         "HAVG:Y21 Z21",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:20:30:53");
 
@@ -2844,6 +2949,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009161/1423800128",
         "TCF:+47.166553,-122.499625",
         "HAVG:R20",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:19:59:03");
 
@@ -2861,6 +2967,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009160/1423800126",
         "TCF:+47.184644,-122.555223",
         "HAVG:R24",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:19:52:39");
 
@@ -2879,6 +2986,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009159/1423800124",
         "TCF:+47.201553,-122.543173",
         "HAVG:R32",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:19:19:45");
 
@@ -2896,6 +3004,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009158/1423800114",
         "TCF:+47.177653,-122.549407",
         "HAVG:R22 Z22",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:18:09:00");
 
@@ -2914,6 +3023,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009157/1423800101",
         "TCF:+47.217981,-122.537603",
         "HAVG:R32 Z21",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:17:17:18");
 
@@ -2932,6 +3042,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009156/1423800098",
         "TCF:+47.224729,-122.534785",
         "HAVG:Z31",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:17:12:20");
 
@@ -2951,6 +3062,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009155/1423800096",
         "TCF:+47.141596,-122.516575",
         "HAVG:R23",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:16:51:10");
 
@@ -2970,6 +3082,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009154/1423800095",
         "TCF:+47.141503,-122.507439",
         "HAVG:R20",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:16:48:23");
 
@@ -2989,6 +3102,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009153/1423800085",
         "TCF:+47.180194,-122.477210",
         "HAVG:Y21",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:14:37:13");
 
@@ -3006,6 +3120,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140009152/1423800079",
         "TCF:+47.157071,-122.496439",
         "HAVG:R20 Z24",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:14:12:26");
 
@@ -3030,6 +3145,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001215/1424100006",
         "TCF:+47.181398,-122.774375",
         "HAVG:R49 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/29/2014",
         "GVZR:02:00:24");
 
@@ -3047,6 +3163,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001214/1424000119",
         "TCF:+47.179181,-122.759528",
         "HAVG:R49 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:21:58:43");
 
@@ -3066,6 +3183,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001213/1424000071",
         "TCF:+47.334128,-122.749388",
         "HAVG:R46 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:16:07:21");
 
@@ -3083,6 +3201,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001212/1424000027",
         "TCF:+47.379367,-122.691737",
         "HAVG:R44 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:09:45:59");
 
@@ -3100,6 +3219,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003578/1423900074",
         "TCF:+47.253584,-122.614280",
         "HAVG:NVE56 O51 R44 R53 R54 R55 Z58 Z59 EU54 G53 G55 G57 GR16 GR17 GR9 MTUPUS MTUQGL",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:14:20:17");
 
@@ -3118,6 +3238,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003575/1423900066",
         "TCF:+47.240373,-122.604901",
         "HAVG:R53 R59 Z44",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:13:31:42");
 
@@ -3136,6 +3257,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001208/1423900051",
         "TCF:+47.359284,-122.731371",
         "HAVG:R46 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:11:31:49");
 
@@ -3155,6 +3277,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001207/1423900005",
         "TCF:+47.220888,-122.756172",
         "HAVG:R45",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:00:49:24");
 
@@ -3174,6 +3297,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001207/1423900005",
         "TCF:+47.220888,-122.756172",
         "HAVG:R49 Z47 MXCPUS",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:00:46:44");
 
@@ -3192,6 +3316,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001206/1423800151",
         "TCF:+47.337756,-122.769985",
         "HAVG:R46 MXCPUS",
+        "FEP:PN02",
         "QNGR:08/26/2014",
         "GVZR:22:24:48");
 
@@ -3210,6 +3335,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001205/1423800135",
         "TCF:+47.271706,-122.769458",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:20:36:39");
 
@@ -3228,6 +3354,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001204/1423800088",
         "TCF:+47.253603,-122.761949",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:15:49:21");
 
@@ -3247,6 +3374,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001203/1423800060",
         "TCF:+47.387098,-122.659663",
         "HAVG:R44 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:11:58:09");
 
@@ -3266,6 +3394,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001202/1423800011",
         "TCF:+47.336797,-122.776132",
         "HAVG:R46 Z44 MXCPUS",
+        "FEP:PN04",
         "QNGR:08/26/2014",
         "GVZR:05:07:28");
 
@@ -3283,6 +3412,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001201/1423700089",
         "TCF:+47.388988,-122.790674",
         "HAVG:O47 R45 Z44 Z47 E46 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:17:09:06");
 
@@ -3301,6 +3431,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001200/1423700045",
         "TCF:+47.338809,-122.747402",
         "HAVG:R46 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:10:39:46");
 
@@ -3319,6 +3450,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003539/1423700036",
         "TCF:+47.343828,-122.586417",
         "HAVG:R56 R57 Z44",
+        "FEP:PN05",
         "QNGR:08/25/2014",
         "GVZR:09:10:34");
 
@@ -3336,6 +3468,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003538/1423700031",
         "TCF:+47.365178,-122.633973",
         "HAVG:NVE56 O51 R51 R57 R58 R59 XGR14 Z44 Z51 EU54 G53 G55 G57 MTUPUS MTUQGL",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:08:38:55");
 
@@ -3355,6 +3488,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001198/1423700006",
         "TCF:+47.222968,-122.803750",
         "HAVG:R47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:02:02:57");
 
@@ -3372,6 +3506,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001197/1423600121",
         "TCF:+47.377728,-122.763285",
         "HAVG:R45 ZPZ51 MXCPUS",
+        "FEP:PN02",
         "QNGR:08/24/2014",
         "GVZR:20:59:30");
 
@@ -3390,6 +3525,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001195/1423600113",
         "TCF:+47.344833,-122.786302",
         "HAVG:R46 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:20:22:52");
 
@@ -3407,6 +3543,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001194/1423600109",
         "TCF:+47.302681,-122.778815",
         "HAVG:R46 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:20:06:41");
 
@@ -3427,6 +3564,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001193/1423600077",
         "TCF:+47.338712,-122.744716",
         "HAVG:R46 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:16:50:45");
 
@@ -3444,6 +3582,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001192/1423600050",
         "TCF:+47.212758,-122.762442",
         "HAVG:R49 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:12:22:44");
 
@@ -3460,6 +3599,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001191/1423500137",
         "TCF:+47.377740,-122.662026",
         "HAVG:R44 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:21:40:16");
 
@@ -3478,6 +3618,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001190/1423500130",
         "TCF:+47.387718,-122.702357",
         "HAVG:R44 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:20:56:47");
 
@@ -3497,6 +3638,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001189/1423500124",
         "TCF:+47.337238,-122.789448",
         "HAVG:Z44",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:20:55:05");
 
@@ -3515,6 +3657,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001188/1423500117",
         "TCF:+47.349212,-122.723295",
         "HAVG:R46 Z58 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:19:52:00");
 
@@ -3532,6 +3675,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001187/1423500114",
         "TCF:+47.228178,-122.774280",
         "HAVG:R49 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:19:28:50");
 
@@ -3550,6 +3694,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001186/1423500110",
         "TCF:+47.266506,-122.775918",
         "HAVG:R46 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:19:06:28");
 
@@ -3568,6 +3713,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001185/1423500109",
         "TCF:+47.281180,-122.795098",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:18:56:35");
 
@@ -3585,6 +3731,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001184/1423500092",
         "TCF:+47.234245,-122.797760",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:16:26:45");
 
@@ -3602,6 +3749,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001183/1423500058",
         "TCF:+47.241022,-122.796792",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:12:06:19");
 
@@ -3619,6 +3767,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001182/1423500045",
         "TCF:+47.268823,-122.768641",
         "HAVG:R47 Z47 E46 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:11:01:38");
 
@@ -3637,6 +3786,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001181/1423500005",
         "TCF:+47.254581,-122.747810",
         "HAVG:ZNE461 ZNE462",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:01:27:19");
 
@@ -3655,6 +3805,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001181/1423500005",
         "TCF:+47.254581,-122.747810",
         "HAVG:Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:01:22:44");
 
@@ -3672,6 +3823,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001180/1423400142",
         "TCF:+47.233081,-122.797511",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/22/2014",
         "GVZR:23:58:02");
 
@@ -3691,6 +3843,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001179/1423400125",
         "TCF:+47.179834,-122.768725",
         "HAVG:R49 Z47 MXCPUS",
+        "FEP:PN02",
         "QNGR:08/22/2014",
         "GVZR:20:43:40");
 
@@ -3708,6 +3861,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003489/1423400061",
         "TCF:+47.315217,-122.631056",
         "HAVG:R52 R55 Z44",
+        "FEP:PN01",
         "QNGR:08/22/2014",
         "GVZR:12:31:51");
 
@@ -3727,6 +3881,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001178/1423400004",
         "TCF:+47.241115,-122.794537",
         "HAVG:R46 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/22/2014",
         "GVZR:03:33:28");
 
@@ -3743,6 +3898,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1423400003",
         "TCF:+47.421030,-122.682410",
         "HAVG:G44",
+        "FEP:PN01",
         "QNGR:08/22/2014",
         "GVZR:03:30:18");
 
@@ -3761,6 +3917,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001176/1423300070",
         "TCF:+47.368986,-122.773329",
         "HAVG:R45 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/21/2014",
         "GVZR:16:26:49");
 
@@ -3778,6 +3935,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001175/1423300068",
         "TCF:+47.388954,-122.661311",
         "HAVG:R44 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/21/2014",
         "GVZR:16:13:37");
 
@@ -3796,6 +3954,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001174/1423300065",
         "TCF:+47.383722,-122.707749",
         "HAVG:R45 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/21/2014",
         "GVZR:15:26:08");
 
@@ -3814,6 +3973,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001173/1423200105",
         "TCF:+47.242510,-122.799751",
         "HAVG:R46 Z47 MXCPUS",
+        "FEP:PN02",
         "QNGR:08/20/2014",
         "GVZR:20:50:36");
 
@@ -3832,6 +3992,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001172/1423200088",
         "TCF:+47.349344,-122.717495",
         "HAVG:R46 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/20/2014",
         "GVZR:17:54:51");
 
@@ -3850,6 +4011,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001171/1423200085",
         "TCF:+47.286661,-122.776480",
         "HAVG:R56 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/20/2014",
         "GVZR:17:23:06");
 
@@ -3868,6 +4030,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001171/1423200085",
         "TCF:+47.286661,-122.776480",
         "HAVG:R47 Z58 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/20/2014",
         "GVZR:17:20:56");
 
@@ -3886,6 +4049,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001170/1423200082",
         "TCF:+47.340393,-122.739816",
         "HAVG:R46 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/20/2014",
         "GVZR:17:00:11");
 
@@ -3904,6 +4068,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001169/1423200076",
         "TCF:+47.374759,-122.668215",
         "HAVG:R44 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/20/2014",
         "GVZR:16:43:34");
 
@@ -3921,6 +4086,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001167/1423200031",
         "TCF:+47.356525,-122.701399",
         "HAVG:R46 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/20/2014",
         "GVZR:09:32:22");
 
@@ -3939,6 +4105,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003444/1423100084",
         "TCF:+47.343828,-122.586417",
         "HAVG:NE58 R57 Z44",
+        "FEP:PN01",
         "QNGR:08/19/2014",
         "GVZR:16:24:03");
 
@@ -3952,6 +4119,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:6 CRBCYR BA FNVYOBNG GNXVAT BA JNGRE",
         "VQ:1423100078",
         "HAVG:O51 QRFGVAL R51 R53 RAQRIBE Z58 ZNE461 ZNE462 ZNE510 ZNE511 A2782 MTUPUS MTUQGL MTUBCF",
+        "FEP:PN01",
         "QNGR:08/19/2014",
         "GVZR:15:40:48");
 
@@ -3969,6 +4137,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001164/1423100058",
         "TCF:+47.340234,-122.730509",
         "HAVG:R46 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/19/2014",
         "GVZR:12:59:45");
 
@@ -3986,6 +4155,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001163/1423100025",
         "TCF:+47.304432,-122.770613",
         "HAVG:R46 MXCPUS",
+        "FEP:PN02",
         "QNGR:08/19/2014",
         "GVZR:08:52:08");
 
@@ -4002,6 +4172,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001162/1423100021",
         "TCF:+47.263650,-122.835109",
         "HAVG:R47 UVSREL Z47 MXCPUS",
+        "FEP:PN02",
         "QNGR:08/19/2014",
         "GVZR:08:10:32");
 
@@ -4019,6 +4190,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001161/1423100014",
         "TCF:+47.173280,-122.758697",
         "HAVG:R49 Z47 MXCPUS",
+        "FEP:PN02",
         "QNGR:08/19/2014",
         "GVZR:04:11:07");
 
@@ -4038,6 +4210,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001160/1423000117",
         "TCF:+47.254015,-122.744227",
         "HAVG:R45",
+        "FEP:PN01",
         "QNGR:08/18/2014",
         "GVZR:18:28:22");
 
@@ -4057,6 +4230,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001160/1423000117",
         "TCF:+47.254015,-122.744227",
         "HAVG:R47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/18/2014",
         "GVZR:18:26:40");
 
@@ -4075,6 +4249,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001159/1423000106",
         "TCF:+47.343034,-122.717140",
         "HAVG:R46 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/18/2014",
         "GVZR:17:56:35");
 
@@ -4094,6 +4269,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001158/1423000092",
         "TCF:+47.343897,-122.730301",
         "HAVG:R46 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/18/2014",
         "GVZR:16:36:54");
 
@@ -4113,6 +4289,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001157/1423000060",
         "TCF:+47.350760,-122.704916",
         "HAVG:R45",
+        "FEP:PN01",
         "QNGR:08/18/2014",
         "GVZR:12:40:49");
 
@@ -4132,6 +4309,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001157/1423000060",
         "TCF:+47.350760,-122.704916",
         "HAVG:R46 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/18/2014",
         "GVZR:12:34:45");
 
@@ -4150,6 +4328,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001156/1423000055",
         "TCF:+47.379466,-122.655946",
         "HAVG:R44 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/18/2014",
         "GVZR:12:08:05");
 
@@ -4168,6 +4347,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001155/1423000025",
         "TCF:+47.365187,-122.757885",
         "HAVG:R45 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/18/2014",
         "GVZR:05:27:53");
 
@@ -4186,6 +4366,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001154/1423000010",
         "TCF:+47.236544,-122.810954",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN02",
         "QNGR:08/18/2014",
         "GVZR:00:44:16");
 
@@ -4203,6 +4384,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001153/1422900109",
         "TCF:+47.389148,-122.648458",
         "HAVG:R44 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/17/2014",
         "GVZR:23:45:49");
 
@@ -4221,6 +4403,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001152/1422900093",
         "TCF:+47.277079,-122.786660",
         "HAVG:R47 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/17/2014",
         "GVZR:21:17:53");
 
@@ -4239,6 +4422,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001151/1422900084",
         "TCF:+47.276037,-122.785953",
         "HAVG:R46 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/17/2014",
         "GVZR:20:02:43");
 
@@ -4257,6 +4441,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001150/1422900083",
         "TCF:+47.232457,-122.798565",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/17/2014",
         "GVZR:19:58:28");
 
@@ -4275,6 +4460,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001149/1422900035",
         "TCF:+47.265942,-122.765583",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/17/2014",
         "GVZR:11:57:54");
 
@@ -4293,6 +4479,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001148/1422900029",
         "TCF:+47.384590,-122.721715",
         "HAVG:R45 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/17/2014",
         "GVZR:11:02:43");
 
@@ -4310,6 +4497,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001147/1422800104",
         "TCF:+47.371571,-122.701837",
         "HAVG:R46 Z44 MXCPUS",
+        "FEP:PN02",
         "QNGR:08/16/2014",
         "GVZR:19:55:21");
 
@@ -4328,6 +4516,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001146/1422800097",
         "TCF:+47.280920,-122.786491",
         "HAVG:R47 Z47 E46 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/16/2014",
         "GVZR:18:36:44");
 
@@ -4346,6 +4535,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001145/1422800091",
         "TCF:+47.389148,-122.648458",
         "HAVG:R44 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/16/2014",
         "GVZR:17:58:43");
 
@@ -4365,6 +4555,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001144/1422800080",
         "TCF:+47.343897,-122.730301",
         "HAVG:R46 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/16/2014",
         "GVZR:16:05:37");
 
@@ -4383,6 +4574,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001143/1422800053",
         "TCF:+47.376830,-122.683599",
         "HAVG:R44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/16/2014",
         "GVZR:12:45:33");
 
@@ -4402,6 +4594,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001141/1422800018",
         "TCF:+47.343897,-122.730301",
         "HAVG:R46 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/16/2014",
         "GVZR:05:55:28");
 
@@ -4419,6 +4612,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001140/1422800013",
         "TCF:+47.338692,-122.746770",
         "HAVG:R46 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/16/2014",
         "GVZR:04:09:05");
 
@@ -4436,6 +4630,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001139/1422700097",
         "TCF:+47.242943,-122.806338",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/15/2014",
         "GVZR:18:01:16");
 
@@ -4455,6 +4650,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001138/1422700075",
         "TCF:+47.358959,-122.786759",
         "HAVG:R45 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/15/2014",
         "GVZR:15:30:20");
 
@@ -4473,6 +4669,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001137/1422700055",
         "TCF:+47.377914,-122.682643",
         "HAVG:R44 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/15/2014",
         "GVZR:12:38:32");
 
@@ -4491,6 +4688,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001136/1422700034",
         "TCF:+47.391565,-122.660565",
         "HAVG:R44 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/15/2014",
         "GVZR:10:03:18");
 
@@ -4509,6 +4707,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001135/1422700017",
         "TCF:+47.268682,-122.829525",
         "HAVG:UVSREL Z44 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/15/2014",
         "GVZR:08:07:05");
 
@@ -4526,6 +4725,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001134/1422600103",
         "TCF:+47.335179,-122.751255",
         "HAVG:R46 Z47 E46 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/14/2014",
         "GVZR:18:49:31");
 
@@ -4544,6 +4744,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001133/1422600035",
         "TCF:+47.375306,-122.747120",
         "HAVG:R45 MXCPUS",
+        "FEP:PN02",
         "QNGR:08/14/2014",
         "GVZR:09:43:26");
 
@@ -4562,6 +4763,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001132/1422600032",
         "TCF:+47.305184,-122.788201",
         "HAVG:Z47",
+        "FEP:PN02",
         "QNGR:08/14/2014",
         "GVZR:09:30:39");
 
@@ -4580,6 +4782,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001132/1422600032",
         "TCF:+47.305184,-122.788201",
         "HAVG:R46 MXCPUS",
+        "FEP:PN02",
         "QNGR:08/14/2014",
         "GVZR:09:29:33");
 
@@ -4598,6 +4801,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001131/1422600030",
         "TCF:+47.366396,-122.756872",
         "HAVG:R45 Z44 MXCPUS",
+        "FEP:PN02",
         "QNGR:08/14/2014",
         "GVZR:09:25:53");
 
@@ -4615,6 +4819,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001130/1422600018",
         "TCF:+47.234245,-122.797760",
         "HAVG:R47 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/14/2014",
         "GVZR:07:20:54");
 
@@ -4634,6 +4839,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001129/1422600009",
         "TCF:+47.222968,-122.803750",
         "HAVG:R47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/14/2014",
         "GVZR:02:13:42");
 
@@ -4651,6 +4857,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001128/1422500108",
         "TCF:+47.337833,-122.764998",
         "HAVG:R46 MXCPUS",
+        "FEP:PN02",
         "QNGR:08/13/2014",
         "GVZR:21:46:26");
 
@@ -4669,6 +4876,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001127/1422500080",
         "TCF:+47.268612,-122.769249",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/13/2014",
         "GVZR:18:08:01");
 
@@ -4688,6 +4896,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001126/1422500009",
         "TCF:+47.226667,-122.807105",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/13/2014",
         "GVZR:03:01:40");
 
@@ -4706,6 +4915,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001125/1422500006",
         "TCF:+47.352042,-122.701396",
         "HAVG:R46 Z44 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/13/2014",
         "GVZR:01:56:42");
 
@@ -4724,6 +4934,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001124/1422400136",
         "TCF:+47.278001,-122.763899",
         "HAVG:R47 Z47 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/12/2014",
         "GVZR:19:10:05");
 
@@ -4740,6 +4951,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400001123/1422400113",
         "TCF:+47.318916,-122.769483",
         "HAVG:R46 MXCPUS",
+        "FEP:PN01",
         "QNGR:08/12/2014",
         "GVZR:16:56:40");
 
@@ -4763,6 +4975,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006080/1424100025",
         "TCF:+47.229848,-122.164175",
         "HAVG:N15 R14 Z11",
+        "FEP:PN04",
         "QNGR:08/29/2014",
         "GVZR:09:20:03");
 
@@ -4779,6 +4992,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006079/1424100017",
         "TCF:+47.149488,-122.159305",
         "HAVG:R12",
+        "FEP:PN02",
         "QNGR:08/29/2014",
         "GVZR:06:32:59");
 
@@ -4796,6 +5010,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006078/1424100012",
         "TCF:+47.150256,-122.159954",
         "HAVG:R12 Z16",
+        "FEP:PN01",
         "QNGR:08/29/2014",
         "GVZR:04:00:07");
 
@@ -4812,6 +5027,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006077/1424100010",
         "TCF:+47.149488,-122.159305",
         "HAVG:R12",
+        "FEP:PN01",
         "QNGR:08/29/2014",
         "GVZR:03:42:59");
 
@@ -4827,6 +5043,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006076/1424100009",
         "TCF:+47.120628,-122.130394",
         "HAVG:R16 R19",
+        "FEP:PN01",
         "QNGR:08/29/2014",
         "GVZR:03:38:37");
 
@@ -4845,6 +5062,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006075/1424000131",
         "TCF:+47.151493,-122.191297",
         "HAVG:R12 Z13",
+        "FEP:PN01",
         "QNGR:08/29/2014",
         "GVZR:00:01:28");
 
@@ -4862,6 +5080,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006074/1424000129",
         "TCF:+47.177862,-122.182801",
         "HAVG:R11 Z13",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:23:53:32");
 
@@ -4880,6 +5099,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006073/1424000126",
         "TCF:+47.156396,-122.203978",
         "HAVG:R11 Z71",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:23:09:08");
 
@@ -4896,6 +5116,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006072/1424000125",
         "TCF:+47.235643,-122.254056",
         "HAVG:R18 Z13",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:23:03:23");
 
@@ -4914,6 +5135,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006071/1424000121",
         "TCF:+47.180501,-122.192936",
         "HAVG:R11 Z16",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:22:05:19");
 
@@ -4933,6 +5155,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006070/1424000115",
         "TCF:+47.232340,-122.144780",
         "HAVG:N15 R14 Z11",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:21:18:09");
 
@@ -4952,6 +5175,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006069/1424000111",
         "TCF:+47.239606,-122.266675",
         "HAVG:O11 R13 MRCPUS",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:21:12:18");
 
@@ -4970,6 +5194,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006069/1424000111",
         "TCF:+47.239299,-122.266353",
         "HAVG:R18 Z18",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:21:08:24");
 
@@ -4990,6 +5215,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006068/1424000109",
         "TCF:+47.252053,-122.297970",
         "HAVG:N114 R18 Z71",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:20:13:10");
 
@@ -5009,6 +5235,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006067/1424000106",
         "TCF:+47.179159,-122.237138",
         "HAVG:R13 Z13",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:20:02:31");
 
@@ -5027,6 +5254,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006066/1424000105",
         "TCF:+47.203334,-122.173489",
         "HAVG:R13 R15",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:19:37:24");
 
@@ -5043,6 +5271,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006065/1424000104",
         "TCF:+47.247632,-122.317462",
         "HAVG:N114 R18 Z18",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:19:35:41");
 
@@ -5060,6 +5289,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006064/1424000103",
         "TCF:+47.207221,-122.170422",
         "HAVG:R14 Z11",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:19:25:31");
 
@@ -5078,6 +5308,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006062/1424000096",
         "TCF:+47.182586,-122.190915",
         "HAVG:R11",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:18:59:27");
 
@@ -5096,6 +5327,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006062/1424000096",
         "TCF:+47.182586,-122.190915",
         "HAVG:R14",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:18:56:44");
 
@@ -5114,6 +5346,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006060/1424000086",
         "TCF:+47.250884,-122.310474",
         "HAVG:N114 R18 Z18",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:17:55:55");
 
@@ -5132,6 +5365,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006059/1424000078",
         "TCF:+47.164186,-122.159223",
         "HAVG:R12",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:16:55:04");
 
@@ -5151,6 +5385,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006058/1424000068",
         "TCF:+47.145440,-122.064122",
         "HAVG:R16 Z35",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:15:11:37");
 
@@ -5169,6 +5404,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006057/1424000066",
         "TCF:+47.173703,-122.183485",
         "HAVG:R11 Z11",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:14:56:17");
 
@@ -5187,6 +5423,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006055/1424000057",
         "TCF:+47.109862,-122.089852",
         "HAVG:R16",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:14:39:35");
 
@@ -5205,6 +5442,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006056/1424000062",
         "TCF:+47.161410,-122.117250",
         "HAVG:Z16",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:14:32:26");
 
@@ -5223,6 +5461,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006055/1424000057",
         "TCF:+47.109862,-122.089852",
         "HAVG:N19 R16",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:13:41:57");
 
@@ -5241,6 +5480,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006054/1424000044",
         "TCF:+47.140278,-122.143895",
         "HAVG:R12",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:11:49:18");
 
@@ -5258,6 +5498,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006053/1424000038",
         "TCF:+47.194744,-122.146552",
         "HAVG:R11 R113",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:10:59:33");
 
@@ -5276,6 +5517,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006052/1424000031",
         "TCF:+47.169710,-122.152395",
         "HAVG:R11 Z11",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:10:15:59");
 
@@ -5293,6 +5535,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006050/1424000010",
         "TCF:+47.122867,-122.172166",
         "HAVG:R12",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:05:24:58");
 
@@ -5310,6 +5553,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SP1400003889/1423900102",
         "TCF:+47.169727,-122.229328",
         "HAVG:Z13",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:05:06:28");
 
@@ -5328,6 +5572,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006049/1424000009",
         "TCF:+47.142262,-122.155263",
         "HAVG:R12 Z16",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:04:23:44");
 
@@ -5345,6 +5590,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006048/1424000004",
         "TCF:+47.199153,-122.227745",
         "HAVG:R13 Z13",
+        "FEP:PN02",
         "QNGR:08/28/2014",
         "GVZR:02:22:56");
 
@@ -5364,6 +5610,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006047/1424000001",
         "TCF:+47.200156,-122.229621",
         "HAVG:R13 Z13",
+        "FEP:PN02",
         "QNGR:08/28/2014",
         "GVZR:01:03:24");
 
@@ -5382,6 +5629,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006046/1423900148",
         "TCF:+47.240713,-122.296640",
         "HAVG:R18 Z18",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:23:14:06");
 
@@ -5401,6 +5649,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006045/1423900140",
         "TCF:+47.189256,-122.132017",
         "HAVG:R11 Z18",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:22:18:54");
 
@@ -5418,6 +5667,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006044/1423900138",
         "TCF:+47.135920,-122.138839",
         "HAVG:Z13",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:22:17:25");
 
@@ -5435,6 +5685,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006044/1423900138",
         "TCF:+47.135920,-122.138839",
         "HAVG:R12 Z11",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:22:13:30");
 
@@ -5453,6 +5704,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006043/1423900137",
         "TCF:+47.139860,-122.124948",
         "HAVG:R12 Z16",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:21:48:17");
 
@@ -5472,6 +5724,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006042/1423900132",
         "TCF:+47.139753,-122.090036",
         "HAVG:N19 R16 Z16",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:20:51:25");
 
@@ -5491,6 +5744,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006041/1423900126",
         "TCF:+47.170277,-122.164353",
         "HAVG:Z12",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:20:18:58");
 
@@ -5510,6 +5764,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006041/1423900126",
         "TCF:+47.170277,-122.164353",
         "HAVG:R11 Z18",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:20:15:40");
 
@@ -5526,6 +5781,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006040/1423900125",
         "TCF:+47.207010,-122.232147",
         "HAVG:R13 Z13",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:20:10:18");
 
@@ -5543,6 +5799,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400001005/1423900116",
         "TCF:+47.140826,-122.085400",
         "HAVG:Z11",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:19:11:01");
 
@@ -5560,6 +5817,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400001005/1423900116",
         "TCF:+47.140826,-122.085400",
         "HAVG:R16 Z16",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:19:07:17");
 
@@ -5578,6 +5836,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400001005/1423900116",
         "TCF:+47.138429,-122.236808",
         "HAVG:R13 Z13 MBITRA",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:18:54:23");
 
@@ -5595,6 +5854,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006038/1423900111",
         "TCF:+47.177075,-122.186972",
         "HAVG:R11 Z11",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:18:24:00");
 
@@ -5614,6 +5874,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006037/1423900106",
         "TCF:+47.236083,-122.249176",
         "HAVG:R13 Z13",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:17:51:18");
 
@@ -5630,6 +5891,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006035/1423900088",
         "TCF:+47.179268,-122.208873",
         "HAVG:R13 Z13",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:16:02:32");
 
@@ -5642,6 +5904,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:22-1145",
         "VQ:1423900081",
         "HAVG:N114 R18 Z18",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:15:30:56");
 
@@ -5660,6 +5923,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006033/1423900076",
         "TCF:+47.182179,-122.109223",
         "HAVG:Z13",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:14:34:38");
 
@@ -5678,6 +5942,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006033/1423900076",
         "TCF:+47.182179,-122.109223",
         "HAVG:R16",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:14:25:42");
 
@@ -5695,6 +5960,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400001001/1423900070",
         "TCF:+47.130529,-122.236232",
         "HAVG:PUN11",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:14:24:08");
 
@@ -5712,6 +5978,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006032/1423900075",
         "TCF:+47.156315,-122.172650",
         "HAVG:R12",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:14:21:42");
 
@@ -5730,6 +5997,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006031/1423900073",
         "TCF:+47.196889,-122.238186",
         "HAVG:R11 Z11",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:14:16:37");
 
@@ -5747,6 +6015,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400001001/1423900070",
         "TCF:+47.130529,-122.236232",
         "HAVG:Z13",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:14:09:19");
 
@@ -5764,6 +6033,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400001001/1423900070",
         "TCF:+47.130529,-122.236232",
         "HAVG:P40 R13 R40 Z40 MBIPUS MBITRA",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:14:06:43");
 
@@ -5781,6 +6051,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:TRARENY ZRQVPNY CRAQNAG NYNEZ, ZHYGVCYR GEVCF, AB UK YVFGRQ, AB XRL YBPNGVBA",
         "VQ:2539274636",
         "HAVG:R18 Z18",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:13:58:46");
 
@@ -5798,6 +6069,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006028/1423900067",
         "TCF:+47.127239,-122.134713",
         "HAVG:O11 R16 R19 Z16 MRCPUS",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:13:47:59");
 
@@ -5817,6 +6089,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006027/1423900058",
         "TCF:+47.222909,-122.318650",
         "HAVG:R18 Z18",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:12:05:26");
 
@@ -5834,6 +6107,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006026/1423900056",
         "TCF:+47.174290,-122.151886",
         "HAVG:R11 Z11",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:12:02:57");
 
@@ -5852,6 +6126,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006025/1423900050",
         "TCF:+47.212474,-122.224871",
         "HAVG:R13 Z13",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:11:27:24");
 
@@ -5869,6 +6144,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006024/1423900042",
         "TCF:+47.156315,-122.172650",
         "HAVG:R11",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:10:28:50");
 
@@ -5887,6 +6163,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006023/1423900038",
         "TCF:+47.147825,-122.130011",
         "HAVG:R12 Z16",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:09:59:21");
 
@@ -5907,6 +6184,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006022/1423900037",
         "TCF:+47.190335,-122.174081",
         "HAVG:R11 Z11",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:09:55:52");
 
@@ -5926,6 +6204,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006021/1423900035",
         "TCF:+47.167633,-122.145714",
         "HAVG:R12",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:09:43:28");
 
@@ -5942,6 +6221,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006020/1423900010",
         "TCF:+47.190288,-122.222331",
         "HAVG:R13 Z13",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:03:55:26");
 
@@ -5960,6 +6240,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006019/1423900004",
         "TCF:+47.257285,-122.304135",
         "HAVG:N114 R18 Z18",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:00:47:38");
 
@@ -5976,6 +6257,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006018/1423900002",
         "TCF:+47.173312,-122.185166",
         "HAVG:R11 Z11",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:00:28:16");
 
@@ -5994,6 +6276,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006017/1423800160",
         "TCF:+47.229616,-122.282315",
         "HAVG:R18 Z18",
+        "FEP:PN02",
         "QNGR:08/26/2014",
         "GVZR:23:40:33");
 
@@ -6011,6 +6294,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006016/1423800154",
         "TCF:+47.167676,-122.183956",
         "HAVG:R11",
+        "FEP:PN02",
         "QNGR:08/26/2014",
         "GVZR:22:35:50");
 
@@ -6029,6 +6313,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006015/1423800148",
         "TCF:+47.250231,-122.288750",
         "HAVG:R18 Z13",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:21:33:40");
 
@@ -6047,6 +6332,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006014/1423800142",
         "TCF:+47.242209,-122.287606",
         "HAVG:R18 Z18",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:21:08:44");
 
@@ -6064,6 +6350,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006013/1423800133",
         "TCF:+47.184967,-122.194186",
         "HAVG:R11 Z16",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:20:29:58");
 
@@ -6082,6 +6369,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006012/1423800129",
         "TCF:+47.170204,-122.074680",
         "HAVG:R16",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:20:00:33");
 
@@ -6102,6 +6390,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006011/1423800127",
         "TCF:+47.170277,-122.164353",
         "HAVG:R11 Z11",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:19:54:10");
 
@@ -6118,6 +6407,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006010/1423800122",
         "TCF:+47.251863,-122.315621",
         "HAVG:N114 R18 Z18",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:18:49:39");
 
@@ -6137,6 +6427,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006009/1423800113",
         "TCF:+47.204838,-122.220476",
         "HAVG:Z13",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:18:12:22");
 
@@ -6156,6 +6447,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006009/1423800113",
         "TCF:+47.204838,-122.220476",
         "HAVG:R13 Z11",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:18:08:04");
 
@@ -6172,6 +6464,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006008/1423800102",
         "TCF:+47.188023,-122.229347",
         "HAVG:O11",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:17:27:42");
 
@@ -6188,6 +6481,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006008/1423800102",
         "TCF:+47.188023,-122.229347",
         "HAVG:R11 Z11",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:17:25:50");
 
@@ -6205,6 +6499,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006007/1423800099",
         "TCF:+47.203150,-122.223898",
         "HAVG:O11 R13 Z13 MRCPUS",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:17:10:53");
 
@@ -6222,6 +6517,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006006/1423800086",
         "TCF:+47.153555,-122.148128",
         "HAVG:Z14",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:15:20:48");
 
@@ -6239,6 +6535,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006006/1423800086",
         "TCF:+47.153555,-122.148128",
         "HAVG:O11 R11 R12 R13 R19 R34 Z11 MRCPUS",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:15:18:12");
 
@@ -6257,6 +6554,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006005/1423800078",
         "TCF:+47.148255,-122.108587",
         "HAVG:R16 Z16",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:13:56:36");
 
@@ -6274,6 +6572,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006004/1423800073",
         "TCF:+47.180350,-122.233843",
         "HAVG:R13 Z13",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:13:29:58");
 
@@ -6291,6 +6590,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006003/1423800065",
         "TCF:+47.161847,-122.188179",
         "HAVG:R18 Z11",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:12:33:40");
 
@@ -6309,6 +6609,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006002/1423800063",
         "TCF:+47.221266,-122.201002",
         "HAVG:R11 Z14",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:12:25:48");
 
@@ -6327,6 +6628,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006001/1423800062",
         "TCF:+47.187415,-122.191765",
         "HAVG:R11",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:12:16:24");
 
@@ -6345,6 +6647,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006001/1423800062",
         "TCF:+47.187415,-122.191765",
         "HAVG:R11",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:12:09:48");
 
@@ -6363,6 +6666,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400006000/1423800061",
         "TCF:+47.204795,-122.220897",
         "HAVG:R13 Z13",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:11:59:06");
 
@@ -6381,6 +6685,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005999/1423800056",
         "TCF:+47.170277,-122.164353",
         "HAVG:R11 Z11",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:11:24:10");
 
@@ -6398,6 +6703,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005997/1423800047",
         "TCF:+47.192442,-122.160252",
         "HAVG:O11 Z13",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:10:37:37");
 
@@ -6416,6 +6722,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005998/1423800049",
         "TCF:+47.134720,-122.140863",
         "HAVG:R11",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:10:37:22");
 
@@ -6433,6 +6740,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005997/1423800047",
         "TCF:+47.192442,-122.160252",
         "HAVG:Z13",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:10:35:43");
 
@@ -6451,6 +6759,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005998/1423800049",
         "TCF:+47.134720,-122.140863",
         "HAVG:Z16",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:10:35:43");
 
@@ -6469,6 +6778,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005998/1423800049",
         "TCF:+47.134720,-122.140863",
         "HAVG:R14 Z13",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:10:33:22");
 
@@ -6487,6 +6797,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005996/1423800045",
         "TCF:+47.177135,-122.154528",
         "HAVG:R16",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:10:20:38");
 
@@ -6505,6 +6816,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005996/1423800045",
         "TCF:+47.177135,-122.154528",
         "HAVG:R18",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:10:19:11");
 
@@ -6529,6 +6841,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400001010/1424100024",
         "TCF:+47.080015,-122.213497",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN04",
         "QNGR:08/29/2014",
         "GVZR:09:21:11");
 
@@ -6546,6 +6859,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400001009/1424100003",
         "TCF:+47.072356,-122.169198",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/29/2014",
         "GVZR:00:49:11");
 
@@ -6564,6 +6878,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400001008/1424000098",
         "TCF:+47.071561,-122.251166",
         "HAVG:R43 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:19:00:40");
 
@@ -6581,6 +6896,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400001007/1424000029",
         "TCF:+47.123188,-122.236442",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:10:05:28");
 
@@ -6599,6 +6915,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400001006/1423900123",
         "TCF:+47.121709,-122.230704",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:19:57:53");
 
@@ -6613,6 +6930,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:75LBS PBAF, QVMMVARFF",
         "VQ:1423900114",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:18:47:38");
 
@@ -6630,6 +6948,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400001003/1423900101",
         "TCF:+47.130529,-122.236232",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:17:18:00");
 
@@ -6646,6 +6965,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400001002/1423900095",
         "TCF:+47.060411,-122.188666",
         "HAVG:OE40 R40",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:16:41:55");
 
@@ -6663,6 +6983,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400001000/1423900060",
         "TCF:+47.145609,-122.235260",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:12:25:48");
 
@@ -6681,6 +7002,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000999/1423900013",
         "TCF:+47.071202,-122.170887",
         "HAVG:R40 MBITRA",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:05:08:43");
 
@@ -6700,6 +7022,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000997/1423800040",
         "TCF:+47.134219,-122.236785",
         "HAVG:R40 MBITRA",
+        "FEP:PN02",
         "QNGR:08/26/2014",
         "GVZR:09:49:30");
 
@@ -6718,6 +7041,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000996/1423800016",
         "TCF:+47.080015,-122.213497",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN04",
         "QNGR:08/26/2014",
         "GVZR:06:57:07");
 
@@ -6736,6 +7060,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000995/1423700127",
         "TCF:+47.072403,-122.250708",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:21:40:36");
 
@@ -6755,6 +7080,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000994/1423700111",
         "TCF:+47.150101,-122.234157",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:19:45:45");
 
@@ -6774,6 +7100,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000993/1423700106",
         "TCF:+47.150253,-122.223738",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:18:52:27");
 
@@ -6793,6 +7120,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005966/1423700072",
         "TCF:+47.165505,-122.157050",
         "HAVG:R40 Z14",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:15:21:59");
 
@@ -6810,6 +7138,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000991/1423600090",
         "TCF:+47.116652,-122.230999",
         "HAVG:P40 R12 R40 R66 R72 R73 Z40 G40 MBIPUS MBITRA",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:18:05:45");
 
@@ -6828,6 +7157,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000990/1423600022",
         "TCF:+47.118280,-122.222189",
         "HAVG:OE40 R40",
+        "FEP:PN02",
         "QNGR:08/24/2014",
         "GVZR:06:54:53");
 
@@ -6846,6 +7176,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005916/1423500128",
         "TCF:+47.087794,-122.069796",
         "HAVG:R40 Z40",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:20:46:59");
 
@@ -6864,6 +7195,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000987/1423500090",
         "TCF:+47.095124,-122.199970",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:16:20:50");
 
@@ -6883,6 +7215,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001512/1423500063",
         "TCF:+46.946597,-122.419240",
         "HAVG:R170 Z40 MFCTRA",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:12:28:51");
 
@@ -6900,6 +7233,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000985/1423400104",
         "TCF:+47.125581,-122.238853",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/22/2014",
         "GVZR:17:41:13");
 
@@ -6918,6 +7252,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005879/1423400068",
         "TCF:+47.113425,-122.137845",
         "HAVG:N19 R40 Z11",
+        "FEP:PN01",
         "QNGR:08/22/2014",
         "GVZR:12:47:59");
 
@@ -6937,6 +7272,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000983/1423400002",
         "TCF:+47.080015,-122.213497",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/22/2014",
         "GVZR:00:39:09");
 
@@ -6954,6 +7290,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000982/1423300002",
         "TCF:+47.063220,-122.165175",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/21/2014",
         "GVZR:00:40:41");
 
@@ -6972,6 +7309,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000981/1423200113",
         "TCF:+47.109216,-122.222948",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/21/2014",
         "GVZR:00:39:43");
 
@@ -6990,6 +7328,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000981/1423200113",
         "TCF:+47.109216,-122.222948",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN02",
         "QNGR:08/20/2014",
         "GVZR:22:21:20");
 
@@ -7006,6 +7345,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000980/1423200094",
         "TCF:+47.097842,-122.200413",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/20/2014",
         "GVZR:18:59:44");
 
@@ -7024,6 +7364,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000979/1423200081",
         "TCF:+47.109029,-122.227680",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/20/2014",
         "GVZR:16:56:47");
 
@@ -7042,6 +7383,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000978/1423200065",
         "TCF:+47.145609,-122.235260",
         "HAVG:R13 Z13 MBITRA",
+        "FEP:PN01",
         "QNGR:08/20/2014",
         "GVZR:15:18:47");
 
@@ -7058,6 +7400,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000977/1423200063",
         "TCF:+47.093092,-122.201910",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/20/2014",
         "GVZR:14:54:03");
 
@@ -7075,6 +7418,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000976/1423200058",
         "TCF:+47.103869,-122.230417",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/20/2014",
         "GVZR:13:59:02");
 
@@ -7093,6 +7437,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000975/1423100101",
         "TCF:+47.070103,-122.173660",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/19/2014",
         "GVZR:17:50:03");
 
@@ -7109,6 +7454,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000974/1423100057",
         "TCF:+47.109502,-122.218669",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/19/2014",
         "GVZR:12:56:01");
 
@@ -7127,6 +7473,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000973/1423000071",
         "TCF:+47.100458,-122.210484",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/18/2014",
         "GVZR:13:53:27");
 
@@ -7144,6 +7491,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000972/1422900102",
         "TCF:+47.119742,-122.224281",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/17/2014",
         "GVZR:22:36:27");
 
@@ -7162,6 +7510,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000971/1422900052",
         "TCF:+47.071044,-122.178740",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/17/2014",
         "GVZR:14:27:25");
 
@@ -7180,6 +7529,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000970/1422900030",
         "TCF:+47.108152,-122.214621",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/17/2014",
         "GVZR:11:05:19");
 
@@ -7198,6 +7548,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000969/1422900022",
         "TCF:+47.150253,-122.223738",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/17/2014",
         "GVZR:09:58:10");
 
@@ -7215,6 +7566,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000968/1422900017",
         "TCF:+47.149662,-122.226463",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/17/2014",
         "GVZR:08:05:40");
 
@@ -7231,6 +7583,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000967/1422800107",
         "TCF:+47.150874,-122.228716",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN02",
         "QNGR:08/16/2014",
         "GVZR:20:24:37");
 
@@ -7247,6 +7600,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000966/1422800046",
         "TCF:+47.146120,-122.235541",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/16/2014",
         "GVZR:11:46:07");
 
@@ -7264,6 +7618,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000965/1422800030",
         "TCF:+47.145748,-122.232564",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/16/2014",
         "GVZR:08:56:13");
 
@@ -7281,6 +7636,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000964/1422700145",
         "TCF:+47.034487,-122.197742",
         "HAVG:G40",
+        "FEP:PN01",
         "QNGR:08/16/2014",
         "GVZR:00:16:57");
 
@@ -7298,6 +7654,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000964/1422700145",
         "TCF:+47.034487,-122.197742",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/15/2014",
         "GVZR:23:59:38");
 
@@ -7315,6 +7672,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000963/1422700134",
         "TCF:+47.140249,-122.238230",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/15/2014",
         "GVZR:22:27:38");
 
@@ -7332,6 +7690,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000962/1422700080",
         "TCF:+47.110749,-122.232106",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/15/2014",
         "GVZR:15:50:39");
 
@@ -7349,6 +7708,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000961/1422700061",
         "TCF:+47.071561,-122.251166",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/15/2014",
         "GVZR:13:22:51");
 
@@ -7367,6 +7727,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000960/1422700021",
         "TCF:+47.080015,-122.213497",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/15/2014",
         "GVZR:08:46:55");
 
@@ -7385,6 +7746,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000959/1422700004",
         "TCF:+47.119460,-122.235213",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN05",
         "QNGR:08/15/2014",
         "GVZR:00:53:16");
 
@@ -7403,6 +7765,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005674/1422600117",
         "TCF:+47.200038,-122.240303",
         "HAVG:R13 Z40",
+        "FEP:PN01",
         "QNGR:08/14/2014",
         "GVZR:20:12:45");
 
@@ -7420,6 +7783,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001450/1422600100",
         "TCF:+46.947870,-122.349116",
         "HAVG:Z40",
+        "FEP:PN01",
         "QNGR:08/14/2014",
         "GVZR:18:21:54");
 
@@ -7437,6 +7801,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000956/1422600089",
         "TCF:+47.139834,-122.236758",
         "HAVG:R72 Z72 MBITRA",
+        "FEP:PN02",
         "QNGR:08/14/2014",
         "GVZR:16:37:49");
 
@@ -7454,6 +7819,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000955/1422600086",
         "TCF:+47.063233,-122.188252",
         "HAVG:R40 Z91 MBITRA",
+        "FEP:PN02",
         "QNGR:08/14/2014",
         "GVZR:16:24:51");
 
@@ -7472,6 +7838,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005658/1422600083",
         "TCF:+47.185543,-122.229422",
         "HAVG:Z40",
+        "FEP:PN02",
         "QNGR:08/14/2014",
         "GVZR:16:23:23");
 
@@ -7489,6 +7856,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005660/1422600085",
         "TCF:+47.191165,-122.165775",
         "HAVG:R11 Z40",
+        "FEP:PN02",
         "QNGR:08/14/2014",
         "GVZR:16:22:02");
 
@@ -7506,6 +7874,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000952/1422500117",
         "TCF:+47.087386,-122.138238",
         "HAVG:R40 Z16 MBITRA",
+        "FEP:PN04",
         "QNGR:08/13/2014",
         "GVZR:23:15:47");
 
@@ -7524,6 +7893,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000951/1422500110",
         "TCF:+47.072309,-122.248993",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN02",
         "QNGR:08/13/2014",
         "GVZR:21:55:18");
 
@@ -7541,6 +7911,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000950/1422500083",
         "TCF:+47.092643,-122.209424",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/13/2014",
         "GVZR:18:21:33");
 
@@ -7557,6 +7928,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005627/1422500070",
         "TCF:+47.149488,-122.159305",
         "HAVG:R40 Z16",
+        "FEP:PN01",
         "QNGR:08/13/2014",
         "GVZR:16:46:03");
 
@@ -7573,6 +7945,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000948/1422500029",
         "TCF:+47.087916,-122.214470",
         "HAVG:P40 R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/13/2014",
         "GVZR:08:38:19");
 
@@ -7591,6 +7964,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000947/1422500003",
         "TCF:+47.114184,-122.227715",
         "HAVG:R13 Z13 MBITRA",
+        "FEP:PN01",
         "QNGR:08/13/2014",
         "GVZR:01:02:28");
 
@@ -7607,6 +7981,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000946/1422400159",
         "TCF:+47.053109,-122.186568",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/12/2014",
         "GVZR:23:49:49");
 
@@ -7624,6 +7999,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000945/1422400133",
         "TCF:+47.096336,-122.151277",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/12/2014",
         "GVZR:18:43:25");
 
@@ -7641,6 +8017,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000944/1422400087",
         "TCF:+47.092560,-122.156190",
         "HAVG:P40 R91 MBIPUS MBITRA",
+        "FEP:PN01",
         "QNGR:08/12/2014",
         "GVZR:14:28:19");
 
@@ -7658,6 +8035,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000944/1422400087",
         "TCF:+47.092560,-122.156190",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/12/2014",
         "GVZR:14:23:10");
 
@@ -7675,6 +8053,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005598/1422400072",
         "TCF:+47.126944,-122.092485",
         "HAVG:N19 R40 Z11",
+        "FEP:PN01",
         "QNGR:08/12/2014",
         "GVZR:12:57:51");
 
@@ -7693,6 +8072,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000942/1422400047",
         "TCF:+47.096754,-122.202950",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/12/2014",
         "GVZR:08:35:39");
 
@@ -7711,6 +8091,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000941/1422400025",
         "TCF:+47.085353,-122.192973",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN05",
         "QNGR:08/12/2014",
         "GVZR:06:01:12");
 
@@ -7727,6 +8108,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000940/1422300142",
         "TCF:+47.092560,-122.156190",
         "HAVG:R40 Z16 MBITRA",
+        "FEP:PN01",
         "QNGR:08/11/2014",
         "GVZR:20:06:04");
 
@@ -7744,6 +8126,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000939/1422300134",
         "TCF:+47.121709,-122.230704",
         "HAVG:R40 Z13 MBITRA",
+        "FEP:PN01",
         "QNGR:08/11/2014",
         "GVZR:19:19:13");
 
@@ -7761,6 +8144,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000938/1422300116",
         "TCF:+47.108910,-122.228128",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/11/2014",
         "GVZR:17:59:21");
 
@@ -7780,6 +8164,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000937/1422300063",
         "TCF:+47.070419,-122.173835",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/11/2014",
         "GVZR:13:05:06");
 
@@ -7798,6 +8183,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000936/1422300055",
         "TCF:+47.098157,-122.208667",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/11/2014",
         "GVZR:12:42:09");
 
@@ -7815,6 +8201,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000935/1422300011",
         "TCF:+47.092722,-122.156742",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/11/2014",
         "GVZR:05:36:18");
 
@@ -7832,6 +8219,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000934/1422200114",
         "TCF:+47.094614,-122.196762",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/10/2014",
         "GVZR:22:23:07");
 
@@ -7849,6 +8237,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000933/1422200099",
         "TCF:+47.118502,-122.228211",
         "HAVG:Z40",
+        "FEP:PN01",
         "QNGR:08/10/2014",
         "GVZR:20:04:13");
 
@@ -7866,6 +8255,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000933/1422200099",
         "TCF:+47.118502,-122.228211",
         "HAVG:R13 Z13 MBITRA",
+        "FEP:PN01",
         "QNGR:08/10/2014",
         "GVZR:20:01:54");
 
@@ -7885,6 +8275,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000932/1422200098",
         "TCF:+47.097689,-122.203616",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/10/2014",
         "GVZR:19:58:10");
 
@@ -7902,6 +8293,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000931/1422200083",
         "TCF:+47.097842,-122.200413",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/10/2014",
         "GVZR:17:50:34");
 
@@ -7919,6 +8311,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000929/1422100143",
         "TCF:+47.096336,-122.151277",
         "HAVG:R40 MBITRA",
+        "FEP:PN05",
         "QNGR:08/09/2014",
         "GVZR:23:13:40");
 
@@ -7937,6 +8330,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000928/1422000085",
         "TCF:+47.096754,-122.202950",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/08/2014",
         "GVZR:15:55:26");
 
@@ -7955,6 +8349,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003559/1422000069",
         "TCF:+47.053325,-122.318048",
         "HAVG:R64 Z40",
+        "FEP:PN01",
         "QNGR:08/08/2014",
         "GVZR:14:36:24");
 
@@ -7973,6 +8368,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000926/1422000001",
         "TCF:+47.100458,-122.210484",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN02",
         "QNGR:08/08/2014",
         "GVZR:00:09:11");
 
@@ -7989,6 +8385,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000925/1421900047",
         "TCF:+47.071202,-122.170887",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/07/2014",
         "GVZR:11:59:36");
 
@@ -8008,6 +8405,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005454/1421800120",
         "TCF:+47.148562,-122.113268",
         "HAVG:R40 Z13",
+        "FEP:PN01",
         "QNGR:08/06/2014",
         "GVZR:22:18:47");
 
@@ -8026,6 +8424,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RC1400005453/1421800119",
         "TCF:+47.144875,-122.186885",
         "HAVG:O11 R11 R12 R13 R14 R16 Z16 G19 G40 MRCPUS",
+        "FEP:PN01",
         "QNGR:08/06/2014",
         "GVZR:22:17:11");
 
@@ -8044,6 +8443,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000922/1421800115",
         "TCF:+47.093244,-122.202759",
         "HAVG:Z40",
+        "FEP:PN01",
         "QNGR:08/06/2014",
         "GVZR:20:56:26");
 
@@ -8062,6 +8462,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000922/1421800115",
         "TCF:+47.093244,-122.202759",
         "HAVG:R40 Z13 MBITRA",
+        "FEP:PN01",
         "QNGR:08/06/2014",
         "GVZR:20:53:16");
 
@@ -8078,6 +8479,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000921/1421800094",
         "TCF:+47.095438,-122.154536",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/06/2014",
         "GVZR:18:55:42");
 
@@ -8094,6 +8496,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000920/1421800006",
         "TCF:+47.090689,-122.145671",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN02",
         "QNGR:08/06/2014",
         "GVZR:03:15:50");
 
@@ -8111,6 +8514,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000919/1421700139",
         "TCF:+47.095170,-122.207599",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/05/2014",
         "GVZR:20:11:22");
 
@@ -8127,6 +8531,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000918/1421700087",
         "TCF:+47.070513,-122.226568",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/05/2014",
         "GVZR:15:57:52");
 
@@ -8145,6 +8550,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000917/1421700025",
         "TCF:+47.081819,-122.179974",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/05/2014",
         "GVZR:07:58:43");
 
@@ -8162,6 +8568,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000916/1421600174",
         "TCF:+47.092624,-122.207519",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN02",
         "QNGR:08/04/2014",
         "GVZR:22:41:36");
 
@@ -8179,6 +8586,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000915/1421600155",
         "TCF:+47.086839,-122.127403",
         "HAVG:R40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/04/2014",
         "GVZR:20:21:48");
 
@@ -8197,6 +8605,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000914/1421600143",
         "TCF:+47.071561,-122.251166",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/04/2014",
         "GVZR:19:28:22");
 
@@ -8213,6 +8622,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:BI1400000913/1421600133",
         "TCF:+47.098697,-122.203431",
         "HAVG:R40 Z40 MBITRA",
+        "FEP:PN01",
         "QNGR:08/04/2014",
         "GVZR:18:33:52");
 
@@ -8236,6 +8646,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000175/1424000082",
         "TCF:+46.761011,-122.064859",
         "HAVG:N86 N87 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:17:34:52");
 
@@ -8253,6 +8664,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000174/1423600058",
         "TCF:+46.758256,-122.143802",
         "HAVG:R86 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:13:54:38");
 
@@ -8272,6 +8684,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000173/1423400058",
         "TCF:+46.758156,-122.049039",
         "HAVG:MNRTRA",
+        "FEP:PN01",
         "QNGR:08/22/2014",
         "GVZR:12:13:52");
 
@@ -8291,6 +8704,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000173/1423400058",
         "TCF:+46.758156,-122.049039",
         "HAVG:N86 N87 R86 R87 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/22/2014",
         "GVZR:12:09:54");
 
@@ -8308,6 +8722,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000172/1423000039",
         "TCF:+46.754955,-122.144800",
         "HAVG:N86 N87 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/18/2014",
         "GVZR:09:37:48");
 
@@ -8326,6 +8741,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000170/1422700085",
         "TCF:+46.783426,-122.247855",
         "HAVG:N85 N86 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/15/2014",
         "GVZR:16:25:13");
 
@@ -8345,6 +8761,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000168/1422400132",
         "TCF:+46.749119,-121.928439",
         "HAVG:R87 R88 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/12/2014",
         "GVZR:18:42:18");
 
@@ -8364,6 +8781,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000167/1422300146",
         "TCF:+46.749119,-121.928439",
         "HAVG:R87 R88 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/11/2014",
         "GVZR:20:31:35");
 
@@ -8379,6 +8797,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000166/1422300065",
         "TCF:+46.799964,-122.275380",
         "HAVG:N85 N86 R85 R86 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/11/2014",
         "GVZR:13:21:50");
 
@@ -8397,6 +8816,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000165/1422300058",
         "TCF:+46.759619,-122.151555",
         "HAVG:R86 R87 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/11/2014",
         "GVZR:12:45:37");
 
@@ -8414,6 +8834,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000164/1422200068",
         "TCF:+46.799466,-122.279380",
         "HAVG:R85 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/10/2014",
         "GVZR:15:18:28");
 
@@ -8432,6 +8853,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000163/1422200051",
         "TCF:+46.757645,-121.982522",
         "HAVG:N86",
+        "FEP:PN01",
         "QNGR:08/10/2014",
         "GVZR:13:12:01");
 
@@ -8450,6 +8872,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000163/1422200051",
         "TCF:+46.757645,-121.982522",
         "HAVG:N87 N88 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/10/2014",
         "GVZR:13:09:53");
 
@@ -8467,6 +8890,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000162/1422100134",
         "TCF:+46.799466,-122.279380",
         "HAVG:OE85",
+        "FEP:PN01",
         "QNGR:08/09/2014",
         "GVZR:22:30:42");
 
@@ -8484,6 +8908,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000162/1422100134",
         "TCF:+46.799466,-122.279380",
         "HAVG:R85 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/09/2014",
         "GVZR:22:25:36");
 
@@ -8503,6 +8928,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000161/1421800118",
         "TCF:+46.745709,-121.930400",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/06/2014",
         "GVZR:22:13:59");
 
@@ -8522,6 +8948,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000160/1421800002",
         "TCF:+46.757571,-122.015357",
         "HAVG:N87 N88 Z84 MNRTRA",
+        "FEP:PN02",
         "QNGR:08/06/2014",
         "GVZR:00:48:25");
 
@@ -8537,6 +8964,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000159/1421600014",
         "TCF:+46.810788,-122.296158",
         "HAVG:R85 R86 MNRTRA",
+        "FEP:PN05",
         "QNGR:08/04/2014",
         "GVZR:02:43:24");
 
@@ -8553,6 +8981,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000158/1421500157",
         "TCF:+46.810659,-122.294970",
         "HAVG:N85 N86 R85 R86 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/03/2014",
         "GVZR:22:42:55");
 
@@ -8571,6 +9000,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000157/1421500140",
         "TCF:+46.756459,-122.065995",
         "HAVG:OE85",
+        "FEP:PN01",
         "QNGR:08/03/2014",
         "GVZR:21:27:34");
 
@@ -8589,6 +9019,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000157/1421500140",
         "TCF:+46.756459,-122.065995",
         "HAVG:G86",
+        "FEP:PN01",
         "QNGR:08/03/2014",
         "GVZR:21:06:08");
 
@@ -8607,6 +9038,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000157/1421500140",
         "TCF:+46.756459,-122.065995",
         "HAVG:R86 R87 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/03/2014",
         "GVZR:20:59:02");
 
@@ -8626,6 +9058,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000156/1421500092",
         "TCF:+46.760262,-122.038322",
         "HAVG:OE85",
+        "FEP:PN01",
         "QNGR:08/03/2014",
         "GVZR:15:14:26");
 
@@ -8645,6 +9078,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000156/1421500092",
         "TCF:+46.760262,-122.038322",
         "HAVG:N89 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/03/2014",
         "GVZR:15:12:15");
 
@@ -8662,6 +9096,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000155/1421500083",
         "TCF:+46.733877,-121.942415",
         "HAVG:N87 N88 R87 R88 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/03/2014",
         "GVZR:14:45:53");
 
@@ -8681,6 +9116,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000154/1421400101",
         "TCF:+46.760262,-122.038322",
         "HAVG:N87 N88 Z93 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/02/2014",
         "GVZR:18:02:18");
 
@@ -8700,6 +9136,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000153/1421400089",
         "TCF:+46.760262,-122.038322",
         "HAVG:N88 N89 R87 R88 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/02/2014",
         "GVZR:16:44:34");
 
@@ -8718,6 +9155,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000152/1421400074",
         "TCF:+46.799296,-122.293002",
         "HAVG:N85 YPN931 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/02/2014",
         "GVZR:14:57:54");
 
@@ -8735,6 +9173,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000151/1421400053",
         "TCF:+46.809280,-122.244662",
         "HAVG:N85 N86 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/02/2014",
         "GVZR:12:29:09");
 
@@ -8754,6 +9193,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000150/1421400049",
         "TCF:+46.760262,-122.038322",
         "HAVG:G85",
+        "FEP:PN01",
         "QNGR:08/02/2014",
         "GVZR:11:39:46");
 
@@ -8773,6 +9213,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000150/1421400049",
         "TCF:+46.760262,-122.038322",
         "HAVG:R87 R88 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/02/2014",
         "GVZR:11:38:53");
 
@@ -8789,6 +9230,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000149/1421300089",
         "TCF:+46.810788,-122.296158",
         "HAVG:G85",
+        "FEP:PN01",
         "QNGR:08/01/2014",
         "GVZR:18:47:35");
 
@@ -8805,6 +9247,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000149/1421300089",
         "TCF:+46.810788,-122.296158",
         "HAVG:R85 R86 MNRTRA",
+        "FEP:PN01",
         "QNGR:08/01/2014",
         "GVZR:18:38:07");
 
@@ -8823,6 +9266,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000148/1421100089",
         "TCF:+46.742006,-121.923321",
         "HAVG:N87 N88 Z93 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/30/2014",
         "GVZR:14:42:51");
 
@@ -8840,6 +9284,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000147/1421000095",
         "TCF:+46.806361,-122.292157",
         "HAVG:N85 OE170 OE85 OE86 R85 R86 G85 G86 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/29/2014",
         "GVZR:14:41:06");
 
@@ -8855,6 +9300,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000146/1420900166",
         "TCF:+46.799964,-122.275380",
         "HAVG:N85 N86 MNRTRA",
+        "FEP:PN04",
         "QNGR:07/28/2014",
         "GVZR:22:24:02");
 
@@ -8874,6 +9320,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000145/1420800107",
         "TCF:+46.752343,-121.937325",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/27/2014",
         "GVZR:19:33:48");
 
@@ -8893,6 +9340,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000144/1420800087",
         "TCF:+46.760262,-122.038322",
         "HAVG:N87 N88 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/27/2014",
         "GVZR:17:40:52");
 
@@ -8911,6 +9359,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000143/1420800073",
         "TCF:+46.757645,-121.982522",
         "HAVG:N87 N88 Z170 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/27/2014",
         "GVZR:15:58:30");
 
@@ -8930,6 +9379,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000142/1420800056",
         "TCF:+46.758723,-122.031249",
         "HAVG:N87 N88 R87 R88 Z60 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/27/2014",
         "GVZR:13:55:29");
 
@@ -8947,6 +9397,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000141/1420800040",
         "TCF:+46.783426,-122.247855",
         "HAVG:N85 N86 R85 R86 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/27/2014",
         "GVZR:12:41:32");
 
@@ -8961,6 +9412,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:50'F LBZ",
         "VQ:1420700058",
         "HAVG:N87 N88 R87 R88 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/26/2014",
         "GVZR:13:40:03");
 
@@ -8980,6 +9432,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000139/1420600013",
         "TCF:+46.759856,-122.033958",
         "HAVG:R87 R88 MNRTRA",
+        "FEP:PN02",
         "QNGR:07/25/2014",
         "GVZR:06:39:14");
 
@@ -8997,6 +9450,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000138/1420400060",
         "TCF:+46.761574,-122.160346",
         "HAVG:N86 N87 R86 R87 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/23/2014",
         "GVZR:14:25:23");
 
@@ -9014,6 +9468,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000137/1420300065",
         "TCF:+46.809280,-122.244662",
         "HAVG:N85 N86 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/22/2014",
         "GVZR:15:50:58");
 
@@ -9032,6 +9487,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000136/1420200128",
         "TCF:+46.749681,-121.979425",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/21/2014",
         "GVZR:18:22:52");
 
@@ -9051,6 +9507,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000135/1420200086",
         "TCF:+46.742006,-121.923321",
         "HAVG:N87 N88 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/21/2014",
         "GVZR:15:22:49");
 
@@ -9070,6 +9527,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000134/1420000069",
         "TCF:+46.760262,-122.038322",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/19/2014",
         "GVZR:14:20:32");
 
@@ -9088,6 +9546,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000133/1419900111",
         "TCF:+46.760262,-122.038322",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/18/2014",
         "GVZR:18:14:38");
 
@@ -9105,6 +9564,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000132/1419900080",
         "TCF:+46.783292,-122.271158",
         "HAVG:N85 N86 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/18/2014",
         "GVZR:15:06:46");
 
@@ -9123,6 +9583,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000131/1419700065",
         "TCF:+46.753941,-122.018415",
         "HAVG:R86",
+        "FEP:PN01",
         "QNGR:07/16/2014",
         "GVZR:13:14:42");
 
@@ -9141,6 +9602,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000131/1419700065",
         "TCF:+46.753941,-122.018415",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/16/2014",
         "GVZR:13:05:12");
 
@@ -9158,6 +9620,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000130/1419500076",
         "TCF:+46.820889,-122.264793",
         "HAVG:N85 N86 R85 R86 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/14/2014",
         "GVZR:13:48:03");
 
@@ -9175,6 +9638,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000129/1419500009",
         "TCF:+46.766291,-122.195007",
         "HAVG:R85",
+        "FEP:PN01",
         "QNGR:07/14/2014",
         "GVZR:01:52:44");
 
@@ -9192,6 +9656,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000129/1419500009",
         "TCF:+46.766291,-122.195007",
         "HAVG:N86 N87 R86 R87 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/14/2014",
         "GVZR:01:50:33");
 
@@ -9209,6 +9674,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000128/1419400119",
         "TCF:+46.772832,-122.261546",
         "HAVG:R85 R86 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/13/2014",
         "GVZR:21:47:19");
 
@@ -9226,6 +9692,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140007414/1419400084",
         "TCF:+46.799296,-122.293002",
         "HAVG:N87",
+        "FEP:PN01",
         "QNGR:07/13/2014",
         "GVZR:18:28:12");
 
@@ -9243,6 +9710,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:JC140007414/1419400084",
         "TCF:+46.799296,-122.293002",
         "HAVG:N85 N86 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/13/2014",
         "GVZR:18:22:02");
 
@@ -9262,6 +9730,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000126/1419400063",
         "TCF:+46.758723,-122.031249",
         "HAVG:N87 N88 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/13/2014",
         "GVZR:14:29:29");
 
@@ -9280,6 +9749,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000125/1419300121",
         "TCF:+46.760262,-122.038322",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/12/2014",
         "GVZR:17:35:17");
 
@@ -9298,6 +9768,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000124/1419300088",
         "TCF:+46.758271,-122.144259",
         "HAVG:N86 N87 R86 R87 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/12/2014",
         "GVZR:14:41:39");
 
@@ -9316,6 +9787,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000123/1419300062",
         "TCF:+46.755541,-122.120033",
         "HAVG:N86 N87 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/12/2014",
         "GVZR:12:20:01");
 
@@ -9335,6 +9807,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000122/1419200082",
         "TCF:+46.760262,-122.038322",
         "HAVG:N87 N88 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/11/2014",
         "GVZR:15:58:19");
 
@@ -9353,6 +9826,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001166/1419100135",
         "TCF:+46.929487,-122.432689",
         "HAVG:R176 R64 R84 R94 G85 G92 MFCNYY MFCPUS MFCTRA MFCFIP",
+        "FEP:PN01",
         "QNGR:07/10/2014",
         "GVZR:22:52:24");
 
@@ -9372,6 +9846,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000120/1418900126",
         "TCF:+46.760262,-122.038322",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/08/2014",
         "GVZR:19:31:44");
 
@@ -9390,6 +9865,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000119/1418700029",
         "TCF:+46.766563,-122.193337",
         "HAVG:N86 N87 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/06/2014",
         "GVZR:10:27:56");
 
@@ -9408,6 +9884,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000118/1418600118",
         "TCF:+46.745709,-121.930400",
         "HAVG:N87 N88 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/05/2014",
         "GVZR:18:00:36");
 
@@ -9425,6 +9902,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000117/1418500085",
         "TCF:+46.799296,-122.293002",
         "HAVG:N85 N86 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/04/2014",
         "GVZR:16:34:12");
 
@@ -9444,6 +9922,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000115/1418300031",
         "TCF:+46.760262,-122.038322",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/02/2014",
         "GVZR:08:21:50");
 
@@ -9463,6 +9942,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000114/1418200131",
         "TCF:+46.759856,-122.039473",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:07/01/2014",
         "GVZR:19:19:47");
 
@@ -9480,6 +9960,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000113/1418000082",
         "TCF:+46.782815,-122.246877",
         "HAVG:N87",
+        "FEP:PN01",
         "QNGR:06/29/2014",
         "GVZR:17:42:13");
 
@@ -9497,6 +9978,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000113/1418000082",
         "TCF:+46.782815,-122.246877",
         "HAVG:N85 N86 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/29/2014",
         "GVZR:17:36:17");
 
@@ -9516,6 +9998,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000112/1418000067",
         "TCF:+46.760262,-122.038322",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/29/2014",
         "GVZR:14:58:08");
 
@@ -9533,6 +10016,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000111/1417900110",
         "TCF:+46.745709,-121.930400",
         "HAVG:N86",
+        "FEP:PN01",
         "QNGR:06/28/2014",
         "GVZR:21:46:54");
 
@@ -9550,6 +10034,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000111/1417900110",
         "TCF:+46.745709,-121.930400",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/28/2014",
         "GVZR:21:44:59");
 
@@ -9567,6 +10052,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000110/1417800066",
         "TCF:+46.799357,-122.288072",
         "HAVG:N85 N86 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/27/2014",
         "GVZR:15:48:12");
 
@@ -9585,6 +10071,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000109/1417800049",
         "TCF:+46.760262,-122.038322",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/27/2014",
         "GVZR:13:06:13");
 
@@ -9601,6 +10088,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000107/1417600152",
         "TCF:+46.806105,-122.248850",
         "HAVG:N85 N86 R175 R176 R84 R85 G85 G86 MNRTRA",
+        "FEP:PN05",
         "QNGR:06/25/2014",
         "GVZR:23:06:33");
 
@@ -9619,6 +10107,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000106/1417300122",
         "TCF:+46.741218,-121.918404",
         "HAVG:Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/22/2014",
         "GVZR:22:06:11");
 
@@ -9638,6 +10127,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000105/1417300057",
         "TCF:+46.760262,-122.038322",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/22/2014",
         "GVZR:14:25:42");
 
@@ -9657,6 +10147,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000104/1417200133",
         "TCF:+46.763192,-122.186307",
         "HAVG:N86 N87 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/21/2014",
         "GVZR:21:40:06");
 
@@ -9673,6 +10164,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1417200066",
         "TCF:+46.748845,-122.196058",
         "HAVG:N86",
+        "FEP:PN01",
         "QNGR:06/21/2014",
         "GVZR:14:27:34");
 
@@ -9690,6 +10182,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000102/1417100091",
         "TCF:+46.749681,-121.979425",
         "HAVG:N87 N88 Z170 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/20/2014",
         "GVZR:17:59:13");
 
@@ -9706,6 +10199,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000101/1417100043",
         "TCF:+46.763153,-122.191993",
         "HAVG:MNRTRA",
+        "FEP:PN01",
         "QNGR:06/20/2014",
         "GVZR:12:17:44");
 
@@ -9722,6 +10216,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000101/1417100043",
         "TCF:+46.763153,-122.191993",
         "HAVG:N86 N87 R84 R87 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/20/2014",
         "GVZR:12:11:16");
 
@@ -9741,6 +10236,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000099/1416800044",
         "TCF:+46.745642,-121.931167",
         "HAVG:N87 N88 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/17/2014",
         "GVZR:10:53:12");
 
@@ -9760,6 +10256,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000098/1416600002",
         "TCF:+46.760262,-122.038322",
         "HAVG:OE85",
+        "FEP:PN01",
         "QNGR:06/15/2014",
         "GVZR:00:24:45");
 
@@ -9779,6 +10276,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000098/1416600002",
         "TCF:+46.760262,-122.038322",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/15/2014",
         "GVZR:00:13:30");
 
@@ -9796,6 +10294,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000097/1416300047",
         "TCF:+46.809280,-122.244662",
         "HAVG:N85 N86 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/12/2014",
         "GVZR:10:59:56");
 
@@ -9815,6 +10314,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000096/1416200117",
         "TCF:+46.760262,-122.038322",
         "HAVG:N87 N88 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/11/2014",
         "GVZR:19:13:37");
 
@@ -9833,6 +10333,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000095/1416200049",
         "TCF:+46.764637,-122.193758",
         "HAVG:N86 N87 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/11/2014",
         "GVZR:11:31:40");
 
@@ -9852,6 +10353,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000094/1416000070",
         "TCF:+46.755888,-121.968042",
         "HAVG:R87 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/09/2014",
         "GVZR:14:24:48");
 
@@ -9870,6 +10372,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000093/1415900056",
         "TCF:+46.799296,-122.293002",
         "HAVG:R85 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/08/2014",
         "GVZR:14:45:10");
 
@@ -9886,6 +10389,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000092/1415800043",
         "TCF:+46.810443,-122.233894",
         "HAVG:R84 R85 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/07/2014",
         "GVZR:11:40:56");
 
@@ -9902,6 +10406,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000091/1415800031",
         "TCF:+46.806226,-122.265762",
         "HAVG:R85 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/07/2014",
         "GVZR:10:23:04");
 
@@ -9921,6 +10426,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000090/1415700033",
         "TCF:+46.760262,-122.038322",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/06/2014",
         "GVZR:10:26:54");
 
@@ -9938,6 +10444,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000089/1415600051",
         "TCF:+46.739548,-121.966652",
         "HAVG:N87 N88 Z84 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/05/2014",
         "GVZR:12:59:47");
 
@@ -9955,6 +10462,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000088/1415300024",
         "TCF:+46.765094,-122.066354",
         "HAVG:R87 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/02/2014",
         "GVZR:08:14:40");
 
@@ -9974,6 +10482,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000087/1415200117",
         "TCF:+46.759525,-122.032152",
         "HAVG:N87 N88 MNRTRA",
+        "FEP:PN01",
         "QNGR:06/01/2014",
         "GVZR:20:54:55");
 
@@ -9996,6 +10505,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000531/1424000100",
         "TCF:+46.862851,-122.265812",
         "HAVG:S845",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:19:16:04");
 
@@ -10013,6 +10523,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000531/1424000100",
         "TCF:+46.862851,-122.265812",
         "HAVG:R83 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:19:14:34");
 
@@ -10031,6 +10542,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000175/1424000082",
         "TCF:+46.761011,-122.064859",
         "HAVG:Z84",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:17:46:13");
 
@@ -10048,6 +10560,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000530/1424000061",
         "TCF:+46.870235,-122.263754",
         "HAVG:N83 R83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:14:24:38");
 
@@ -10065,6 +10578,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001546/1423900119",
         "TCF:+46.929537,-122.334082",
         "HAVG:Z84",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:19:14:52");
 
@@ -10083,6 +10597,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000528/1423900054",
         "TCF:+46.868705,-122.266374",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:11:40:51");
 
@@ -10100,6 +10615,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000527/1423900014",
         "TCF:+46.860425,-122.278679",
         "HAVG:R83 MRNTRA",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:06:04:41");
 
@@ -10119,6 +10635,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000526/1423800131",
         "TCF:+46.867546,-122.263438",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:20:04:31");
 
@@ -10137,6 +10654,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000525/1423800125",
         "TCF:+46.866157,-122.262382",
         "HAVG:N83",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:19:32:42");
 
@@ -10155,6 +10673,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000525/1423800125",
         "TCF:+46.866157,-122.262382",
         "HAVG:Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:19:30:49");
 
@@ -10172,6 +10691,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001538/1423800118",
         "TCF:+46.893405,-122.298518",
         "HAVG:R83",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:18:33:41");
 
@@ -10189,6 +10709,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001538/1423800118",
         "TCF:+46.893405,-122.298518",
         "HAVG:Z84",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:18:31:15");
 
@@ -10208,6 +10729,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000522/1423700084",
         "TCF:+46.868130,-122.265710",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:16:46:59");
 
@@ -10227,6 +10749,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000521/1423700065",
         "TCF:+46.868130,-122.265710",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:14:36:18");
 
@@ -10244,6 +10767,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001525/1423700003",
         "TCF:+46.887374,-122.300493",
         "HAVG:R170 R171 R175 Z84 MFCTRA",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:00:37:57");
 
@@ -10262,6 +10786,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001517/1423500146",
         "TCF:+46.938327,-122.286579",
         "HAVG:N170 R170 R175 Z84 MFCNYY",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:22:28:58");
 
@@ -10279,6 +10804,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000516/1423500064",
         "TCF:+46.863614,-122.281574",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:12:27:52");
 
@@ -10295,6 +10821,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001509/1423500035",
         "TCF:+46.887374,-122.300493",
         "HAVG:N170 R171 R175 Z84 MFCNYY",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:09:24:27");
 
@@ -10311,6 +10838,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000514/1423500001",
         "TCF:+46.866792,-122.265417",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:00:17:39");
 
@@ -10327,6 +10855,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000513/1423400131",
         "TCF:+46.876328,-122.283064",
         "HAVG:N83 R84 Z84 MRNTRA",
+        "FEP:PN04",
         "QNGR:08/22/2014",
         "GVZR:22:01:08");
 
@@ -10344,6 +10873,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001496/1423300004",
         "TCF:+46.851366,-122.255019",
         "HAVG:R84 Z170 Z84 MFCNYY",
+        "FEP:PN01",
         "QNGR:08/21/2014",
         "GVZR:01:50:33");
 
@@ -10362,6 +10892,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001487/1423200005",
         "TCF:+46.878653,-122.274654",
         "HAVG:N170 R175 Z171 Z84 MFCNYY",
+        "FEP:PN05",
         "QNGR:08/20/2014",
         "GVZR:01:00:29");
 
@@ -10379,6 +10910,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000508/1423000116",
         "TCF:+46.874237,-122.273980",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/18/2014",
         "GVZR:18:24:56");
 
@@ -10399,6 +10931,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000507/1423000079",
         "TCF:+46.865343,-122.263724",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/18/2014",
         "GVZR:14:35:46");
 
@@ -10416,6 +10949,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000505/1423000005",
         "TCF:+46.874237,-122.273980",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN02",
         "QNGR:08/18/2014",
         "GVZR:00:23:27");
 
@@ -10434,6 +10968,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000504/1422800133",
         "TCF:+46.867348,-122.266693",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN02",
         "QNGR:08/16/2014",
         "GVZR:23:39:09");
 
@@ -10448,6 +10983,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:QRIVYF RYOBJ SVERGK N CGZ831PBHYRR PBZZHAVGL UBFCVGNYQVFYBPNGRQ FUBHQYRE",
         "VQ:1422800106",
         "HAVG:Z831",
+        "FEP:PN02",
         "QNGR:08/16/2014",
         "GVZR:20:05:48");
 
@@ -10465,6 +11001,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000502/1422800073",
         "TCF:+46.866067,-122.259005",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/16/2014",
         "GVZR:15:10:50");
 
@@ -10482,6 +11019,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001455/1422800003",
         "TCF:+46.871279,-122.337498",
         "HAVG:R84 Z170 Z84 MFCNYY",
+        "FEP:PN01",
         "QNGR:08/16/2014",
         "GVZR:00:36:17");
 
@@ -10501,6 +11039,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000497/1422700045",
         "TCF:+46.868130,-122.265710",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/15/2014",
         "GVZR:10:57:55");
 
@@ -10518,6 +11057,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001450/1422600100",
         "TCF:+46.947870,-122.349116",
         "HAVG:R170 R171 R172 R174 R84 Z84 FHC172 G170 G171 MFCNYY MFCPUS",
+        "FEP:PN01",
         "QNGR:08/14/2014",
         "GVZR:18:19:09");
 
@@ -10536,6 +11076,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000494/1422500107",
         "TCF:+46.866157,-122.262382",
         "HAVG:R83 MRNTRA",
+        "FEP:PN02",
         "QNGR:08/13/2014",
         "GVZR:21:38:43");
 
@@ -10555,6 +11096,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000492/1422400083",
         "TCF:+46.866271,-122.266332",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/12/2014",
         "GVZR:14:14:39");
 
@@ -10572,6 +11114,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001439/1422400053",
         "TCF:+46.910203,-122.278255",
         "HAVG:N170 R171 R175 Z84 MFCNYY",
+        "FEP:PN01",
         "QNGR:08/12/2014",
         "GVZR:09:13:05");
 
@@ -10588,6 +11131,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000490/1422300090",
         "TCF:+46.865584,-122.286202",
         "HAVG:R84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/11/2014",
         "GVZR:15:45:43");
 
@@ -10605,6 +11149,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001435/1422300086",
         "TCF:+46.863510,-122.299346",
         "HAVG:R170 R84 MFCNYY",
+        "FEP:PN01",
         "QNGR:08/11/2014",
         "GVZR:15:33:05");
 
@@ -10623,6 +11168,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001420/1422200013",
         "TCF:+46.839248,-122.215204",
         "HAVG:Z170 Z84 MFCNYY",
+        "FEP:PN01",
         "QNGR:08/10/2014",
         "GVZR:03:29:07");
 
@@ -10639,6 +11185,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001417/1422100131",
         "TCF:+46.845357,-122.261312",
         "HAVG:R170 R175 R83 Z171 Z84 MFCNYY",
+        "FEP:PN01",
         "QNGR:08/09/2014",
         "GVZR:22:12:18");
 
@@ -10656,6 +11203,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001416/1422100119",
         "TCF:+46.875501,-122.288236",
         "HAVG:R83",
+        "FEP:PN01",
         "QNGR:08/09/2014",
         "GVZR:19:46:51");
 
@@ -10673,6 +11221,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001416/1422100119",
         "TCF:+46.875501,-122.288236",
         "HAVG:R84",
+        "FEP:PN01",
         "QNGR:08/09/2014",
         "GVZR:19:43:51");
 
@@ -10690,6 +11239,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000484/1422100085",
         "TCF:+46.867342,-122.274165",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/09/2014",
         "GVZR:16:06:23");
 
@@ -10709,6 +11259,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001406/1422000110",
         "TCF:+46.888248,-122.300998",
         "HAVG:N170 N171 R175 Z84 MFCNYY",
+        "FEP:PN01",
         "QNGR:08/08/2014",
         "GVZR:18:37:12");
 
@@ -10728,6 +11279,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000481/1422000060",
         "TCF:+46.868130,-122.265710",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/08/2014",
         "GVZR:13:54:20");
 
@@ -10747,6 +11299,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000478/1421700075",
         "TCF:+46.867546,-122.263438",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/05/2014",
         "GVZR:14:27:23");
 
@@ -10763,6 +11316,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001377/1421600081",
         "TCF:+46.832196,-122.192138",
         "HAVG:R171 R84 Z171 Z84 MFCTRA",
+        "FEP:PN01",
         "QNGR:08/04/2014",
         "GVZR:13:22:19");
 
@@ -10779,6 +11333,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000475/1421600026",
         "TCF:+46.874033,-122.271898",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/04/2014",
         "GVZR:06:44:24");
 
@@ -10795,6 +11350,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000158/1421500157",
         "TCF:+46.810659,-122.294970",
         "HAVG:S845",
+        "FEP:PN01",
         "QNGR:08/03/2014",
         "GVZR:22:47:06");
 
@@ -10812,6 +11368,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001368/1421500121",
         "TCF:+46.922597,-122.331375",
         "HAVG:R84",
+        "FEP:PN01",
         "QNGR:08/03/2014",
         "GVZR:19:11:59");
 
@@ -10829,6 +11386,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000471/1421500010",
         "TCF:+46.864134,-122.265409",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN02",
         "QNGR:08/03/2014",
         "GVZR:01:48:46");
 
@@ -10846,6 +11404,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001357/1421400097",
         "TCF:+46.883295,-122.266399",
         "HAVG:Z84",
+        "FEP:PN01",
         "QNGR:08/02/2014",
         "GVZR:17:30:05");
 
@@ -10864,6 +11423,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000467/1421400080",
         "TCF:+46.865073,-122.258290",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/02/2014",
         "GVZR:15:54:31");
 
@@ -10883,6 +11443,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000466/1421300059",
         "TCF:+46.868130,-122.265710",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:08/01/2014",
         "GVZR:13:52:34");
 
@@ -10899,6 +11460,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000465/1421200138",
         "TCF:+46.869145,-122.267986",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/31/2014",
         "GVZR:21:25:07");
 
@@ -10916,6 +11478,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000463/1421100118",
         "TCF:+46.866022,-122.288242",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/30/2014",
         "GVZR:19:06:06");
 
@@ -10934,6 +11497,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001335/1421100087",
         "TCF:+46.903735,-122.296012",
         "HAVG:N170 N171 R175 Z84 MFCNYY",
+        "FEP:PN01",
         "QNGR:07/30/2014",
         "GVZR:14:34:41");
 
@@ -10952,6 +11516,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001332/1421100031",
         "TCF:+46.901561,-122.357487",
         "HAVG:Z84",
+        "FEP:PN01",
         "QNGR:07/30/2014",
         "GVZR:08:45:45");
 
@@ -10971,6 +11536,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000457/1421000169",
         "TCF:+46.867967,-122.266963",
         "HAVG:N83 MRNTRA",
+        "FEP:PN05",
         "QNGR:07/29/2014",
         "GVZR:22:16:21");
 
@@ -10988,6 +11554,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001330/1421000145",
         "TCF:+46.883295,-122.266399",
         "HAVG:R84",
+        "FEP:PN01",
         "QNGR:07/29/2014",
         "GVZR:19:51:13");
 
@@ -11005,6 +11572,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001330/1421000145",
         "TCF:+46.883295,-122.266399",
         "HAVG:R84",
+        "FEP:PN01",
         "QNGR:07/29/2014",
         "GVZR:19:43:47");
 
@@ -11025,6 +11593,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000455/1421000142",
         "TCF:+46.867174,-122.264273",
         "HAVG:Z84",
+        "FEP:PN01",
         "QNGR:07/29/2014",
         "GVZR:19:26:48");
 
@@ -11045,6 +11614,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000454/1421000140",
         "TCF:+46.867174,-122.264273",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/29/2014",
         "GVZR:19:14:09");
 
@@ -11063,6 +11633,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001323/1420900172",
         "TCF:+46.871761,-122.290850",
         "HAVG:N170 N171 R175 Z84 MFCNYY",
+        "FEP:PN04",
         "QNGR:07/28/2014",
         "GVZR:23:53:18");
 
@@ -11080,6 +11651,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001320/1420900155",
         "TCF:+46.867156,-122.284877",
         "HAVG:R84 Z170 Z84 MFCNYY",
+        "FEP:PN02",
         "QNGR:07/28/2014",
         "GVZR:21:05:09");
 
@@ -11097,6 +11669,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000450/1420900034",
         "TCF:+46.870877,-122.270255",
         "HAVG:Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/28/2014",
         "GVZR:08:50:13");
 
@@ -11114,6 +11687,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001312/1420800130",
         "TCF:+46.893778,-122.307734",
         "HAVG:R175 Z170 Z84 MFCNYY",
+        "FEP:PN01",
         "QNGR:07/27/2014",
         "GVZR:23:21:19");
 
@@ -11132,6 +11706,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000447/1420800082",
         "TCF:+46.870300,-122.266371",
         "HAVG:Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/27/2014",
         "GVZR:17:09:52");
 
@@ -11152,6 +11727,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001305/1420800054",
         "TCF:+46.884269,-122.447105",
         "HAVG:N170 N171 R172 Z84 MFCNYY",
+        "FEP:PN01",
         "QNGR:07/27/2014",
         "GVZR:13:47:36");
 
@@ -11169,6 +11745,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000444/1420700094",
         "TCF:+46.864308,-122.291910",
         "HAVG:Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/26/2014",
         "GVZR:17:56:44");
 
@@ -11186,6 +11763,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000442/1420600045",
         "TCF:+46.868977,-122.265078",
         "HAVG:Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/25/2014",
         "GVZR:11:09:55");
 
@@ -11204,6 +11782,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001280/1420500096",
         "TCF:+46.853412,-122.221859",
         "HAVG:R170 R84 MFCNYY",
+        "FEP:PN01",
         "QNGR:07/24/2014",
         "GVZR:17:00:46");
 
@@ -11222,6 +11801,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000439/1420400036",
         "TCF:+46.867060,-122.268245",
         "HAVG:Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/23/2014",
         "GVZR:10:17:55");
 
@@ -11239,6 +11819,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001268/1420300035",
         "TCF:+46.863510,-122.299346",
         "HAVG:R84 Z170 Z84 MFCNYY",
+        "FEP:PN01",
         "QNGR:07/22/2014",
         "GVZR:11:08:21");
 
@@ -11257,6 +11838,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000436/1420200115",
         "TCF:+46.866684,-122.265308",
         "HAVG:R84 Z40 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/21/2014",
         "GVZR:17:47:58");
 
@@ -11275,6 +11857,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001259/1420200070",
         "TCF:+46.937407,-122.473774",
         "HAVG:Z84",
+        "FEP:PN01",
         "QNGR:07/21/2014",
         "GVZR:14:36:19");
 
@@ -11292,6 +11875,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000433/1420200042",
         "TCF:+46.867885,-122.282822",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/21/2014",
         "GVZR:09:45:20");
 
@@ -11310,6 +11894,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000432/1420100085",
         "TCF:+46.866499,-122.263314",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/20/2014",
         "GVZR:18:52:27");
 
@@ -11324,6 +11909,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:XC1400000955/1419900116",
         "TCF:+46.867060,-122.268245",
         "HAVG:O61 R55 R76 R83",
+        "FEP:PN01",
         "QNGR:07/20/2014",
         "GVZR:11:54:06");
 
@@ -11341,6 +11927,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001250/1420000143",
         "TCF:+46.891092,-122.268479",
         "HAVG:N170 R170 R175 Z84 MFCNYY",
+        "FEP:PN01",
         "QNGR:07/19/2014",
         "GVZR:22:58:44");
 
@@ -11359,6 +11946,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:NR1400000133/1419900111",
         "TCF:+46.760262,-122.038322",
         "HAVG:Z84",
+        "FEP:PN01",
         "QNGR:07/18/2014",
         "GVZR:18:23:53");
 
@@ -11377,6 +11965,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000427/1419800107",
         "TCF:+46.866375,-122.255243",
         "HAVG:R84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/17/2014",
         "GVZR:17:17:44");
 
@@ -11394,6 +11983,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001229/1419800095",
         "TCF:+46.905377,-122.392975",
         "HAVG:N171 R172 Z84 MFCNYY",
+        "FEP:PN01",
         "QNGR:07/17/2014",
         "GVZR:15:48:22");
 
@@ -11412,6 +12002,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000425/1419700072",
         "TCF:+46.868130,-122.265710",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/16/2014",
         "GVZR:13:49:39");
 
@@ -11430,6 +12021,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000423/1419600044",
         "TCF:+46.866146,-122.267677",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/15/2014",
         "GVZR:09:36:32");
 
@@ -11447,6 +12039,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000421/1419600010",
         "TCF:+46.869058,-122.254486",
         "HAVG:N83 Z170 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/15/2014",
         "GVZR:01:03:27");
 
@@ -11465,6 +12058,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000420/1419500151",
         "TCF:+46.873195,-122.269551",
         "HAVG:N83 Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/14/2014",
         "GVZR:23:39:25");
 
@@ -11484,6 +12078,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000418/1419500043",
         "TCF:+46.864709,-122.265875",
         "HAVG:R84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/14/2014",
         "GVZR:08:51:47");
 
@@ -11504,6 +12099,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RN1400000417/1419500031",
         "TCF:+46.868871,-122.267799",
         "HAVG:Z84 MRNTRA",
+        "FEP:PN01",
         "QNGR:07/14/2014",
         "GVZR:08:24:49");
 
@@ -11527,6 +12123,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000149/1423900142",
         "TCF:+47.206460,-122.324576",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:22:56:53");
 
@@ -11545,6 +12142,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000148/1423900118",
         "TCF:+47.206760,-122.323404",
         "HAVG:N74 R74 R741 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:18:58:30");
 
@@ -11564,6 +12162,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000147/1423900063",
         "TCF:+47.205603,-122.322740",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:12:48:30");
 
@@ -11581,6 +12180,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000146/1423900043",
         "TCF:+47.197899,-122.336225",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:10:31:29");
 
@@ -11599,6 +12199,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000145/1423900007",
         "TCF:+47.199842,-122.342189",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:01:13:31");
 
@@ -11616,6 +12217,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000144/1423800090",
         "TCF:+47.212139,-122.341119",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:16:05:21");
 
@@ -11633,6 +12235,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000144/1423800090",
         "TCF:+47.212139,-122.341119",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:15:56:57");
 
@@ -11650,6 +12253,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000143/1423800071",
         "TCF:+47.206460,-122.324576",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:13:21:01");
 
@@ -11669,6 +12273,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000142/1423800010",
         "TCF:+47.206460,-122.324576",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN04",
         "QNGR:08/26/2014",
         "GVZR:04:40:13");
 
@@ -11687,6 +12292,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000141/1423500074",
         "TCF:+47.228490,-122.391164",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/23/2014",
         "GVZR:13:30:45");
 
@@ -11704,6 +12310,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000140/1423400066",
         "TCF:+47.226072,-122.375843",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/22/2014",
         "GVZR:12:44:26");
 
@@ -11723,6 +12330,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000139/1423200021",
         "TCF:+47.230959,-122.385409",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN02",
         "QNGR:08/20/2014",
         "GVZR:07:58:25");
 
@@ -11739,6 +12347,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000138/1423100079",
         "TCF:+47.206197,-122.341877",
         "HAVG:R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/19/2014",
         "GVZR:15:53:54");
 
@@ -11756,6 +12365,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000137/1423100074",
         "TCF:+47.210083,-122.336472",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/19/2014",
         "GVZR:15:13:05");
 
@@ -11776,6 +12386,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000136/1423100013",
         "TCF:+47.230818,-122.386533",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN02",
         "QNGR:08/19/2014",
         "GVZR:04:01:09");
 
@@ -11795,6 +12406,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000135/1423100003",
         "TCF:+47.234136,-122.389886",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN02",
         "QNGR:08/19/2014",
         "GVZR:00:44:10");
 
@@ -11813,6 +12425,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000134/1423000142",
         "TCF:+47.206460,-122.324576",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/18/2014",
         "GVZR:22:42:32");
 
@@ -11831,6 +12444,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000133/1423000056",
         "TCF:+47.230959,-122.385409",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/18/2014",
         "GVZR:12:14:31");
 
@@ -11849,6 +12463,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000132/1423000009",
         "TCF:+47.207069,-122.324200",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN02",
         "QNGR:08/18/2014",
         "GVZR:00:41:08");
 
@@ -11867,6 +12482,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000131/1422900042",
         "TCF:+47.218923,-122.353572",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/17/2014",
         "GVZR:12:50:12");
 
@@ -11883,6 +12499,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000130/1422800078",
         "TCF:+47.196374,-122.337054",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/16/2014",
         "GVZR:15:50:08");
 
@@ -11901,10 +12518,11 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000129/1422800004",
         "TCF:+47.206460,-122.324576",
         "HAVG:N74 O74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/16/2014",
         "GVZR:00:51:17");
 
-    qbGrfg("G1",
+    qbGrfg("G23",
         "(PNQ Cntr) QVFCNGPU:FVPX2, ZNA VYY, 2916 EVIRE EQ R #11, 14, ogja 29GU NI R naq 30GU NI R, EVIRE IVRJ EI CNEX, #11, S14, 14-740, 214, 58 LBZ, TRARENY JRNXARFF,   HANOYR GB JNYX.   ERD GK GB UBFCVGNY, 1422500034, 47.234136, -122.389886, EV1400000128, EVOYF, 2014-08-13G09:43:50, Havgf:N74, R74, MEVTRA - Sebz PN01 08/13/2014 09:46:30",
         "PBQR:FVPX2",
         "PNYY:ZNA VYY",
@@ -11920,6 +12538,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000128/1422500034",
         "TCF:+47.234136,-122.389886",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/13/2014",
         "GVZR:09:46:30");
 
@@ -11937,6 +12556,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000126/1422300066",
         "TCF:+47.210077,-122.355614",
         "HAVG:O74 OE11 R74 G74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/11/2014",
         "GVZR:13:27:28");
 
@@ -11956,6 +12576,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000125/1422200108",
         "TCF:+47.231058,-122.387493",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/10/2014",
         "GVZR:21:24:16");
 
@@ -11974,6 +12595,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000124/1422100102",
         "TCF:+47.201073,-122.351430",
         "HAVG:N74 R74 R741 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/09/2014",
         "GVZR:17:23:46");
 
@@ -11992,6 +12614,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000123/1422100068",
         "TCF:+47.210126,-122.335928",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/09/2014",
         "GVZR:13:56:35");
 
@@ -12009,6 +12632,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000122/1422100035",
         "TCF:+47.230033,-122.386868",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/09/2014",
         "GVZR:09:14:17");
 
@@ -12028,6 +12652,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000121/1422100005",
         "TCF:+47.234136,-122.389886",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/09/2014",
         "GVZR:01:02:14");
 
@@ -12046,6 +12671,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000120/1421900109",
         "TCF:+47.228880,-122.379618",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/07/2014",
         "GVZR:19:01:53");
 
@@ -12065,6 +12691,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000119/1421900025",
         "TCF:+47.205603,-122.322740",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/07/2014",
         "GVZR:08:59:58");
 
@@ -12082,6 +12709,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000118/1421900005",
         "TCF:+47.234333,-122.388903",
         "HAVG:R74 MEVTRA",
+        "FEP:PN02",
         "QNGR:08/07/2014",
         "GVZR:02:14:02");
 
@@ -12099,6 +12727,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000117/1421800099",
         "TCF:+47.213578,-122.342050",
         "HAVG:N74 R74 R741 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/06/2014",
         "GVZR:19:18:06");
 
@@ -12115,6 +12744,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000116/1421800090",
         "TCF:+47.207069,-122.324200",
         "HAVG:R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/06/2014",
         "GVZR:18:03:34");
 
@@ -12135,6 +12765,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000115/1421700135",
         "TCF:+47.229762,-122.381372",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/05/2014",
         "GVZR:19:17:28");
 
@@ -12153,6 +12784,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000113/1421700104",
         "TCF:+47.231545,-122.387048",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/05/2014",
         "GVZR:17:00:55");
 
@@ -12171,6 +12803,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000112/1421700051",
         "TCF:+47.234136,-122.389886",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/05/2014",
         "GVZR:11:49:17");
 
@@ -12188,6 +12821,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000111/1421600141",
         "TCF:+47.216505,-122.347158",
         "HAVG:R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/04/2014",
         "GVZR:19:17:02");
 
@@ -12206,6 +12840,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000110/1421600073",
         "TCF:+47.234136,-122.389886",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/04/2014",
         "GVZR:12:16:58");
 
@@ -12223,6 +12858,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000109/1421600008",
         "TCF:+47.229325,-122.387111",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN02",
         "QNGR:08/04/2014",
         "GVZR:01:18:15");
 
@@ -12240,6 +12876,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000108/1421500113",
         "TCF:+47.231493,-122.383335",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/03/2014",
         "GVZR:18:00:34");
 
@@ -12260,6 +12897,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000106/1421300067",
         "TCF:+47.207696,-122.337077",
         "HAVG:R741 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/01/2014",
         "GVZR:15:08:56");
 
@@ -12277,6 +12915,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000105/1421300064",
         "TCF:+47.213578,-122.342050",
         "HAVG:N74 R74 R741 MEVTRA",
+        "FEP:PN01",
         "QNGR:08/01/2014",
         "GVZR:14:53:06");
 
@@ -12296,6 +12935,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000104/1421200102",
         "TCF:+47.205766,-122.323251",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/31/2014",
         "GVZR:17:40:21");
 
@@ -12316,6 +12956,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000103/1420600139",
         "TCF:+47.229498,-122.381073",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN02",
         "QNGR:07/25/2014",
         "GVZR:21:31:24");
 
@@ -12334,6 +12975,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000102/1420600118",
         "TCF:+47.227314,-122.377671",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/25/2014",
         "GVZR:19:16:14");
 
@@ -12352,6 +12994,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000101/1420600066",
         "TCF:+47.208434,-122.334034",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/25/2014",
         "GVZR:13:43:31");
 
@@ -12370,6 +13013,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000100/1420500117",
         "TCF:+47.234497,-122.390079",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/24/2014",
         "GVZR:19:45:17");
 
@@ -12388,6 +13032,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000099/1420500044",
         "TCF:+47.217607,-122.355163",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/24/2014",
         "GVZR:10:27:42");
 
@@ -12406,6 +13051,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000098/1420400079",
         "TCF:+47.206460,-122.324576",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/23/2014",
         "GVZR:18:19:42");
 
@@ -12423,6 +13069,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000096/1420000073",
         "TCF:+47.231299,-122.381262",
         "HAVG:N74 R74 R741 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/19/2014",
         "GVZR:14:48:04");
 
@@ -12441,6 +13088,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000095/1420000025",
         "TCF:+47.206460,-122.324576",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/19/2014",
         "GVZR:06:45:14");
 
@@ -12460,6 +13108,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000094/1419900035",
         "TCF:+47.208832,-122.337128",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/18/2014",
         "GVZR:09:19:33");
 
@@ -12478,6 +13127,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000093/1419700128",
         "TCF:+47.206760,-122.323404",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN02",
         "QNGR:07/16/2014",
         "GVZR:20:27:35");
 
@@ -12495,6 +13145,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000092/1419500108",
         "TCF:+47.227873,-122.384318",
         "HAVG:N74 R74 R741 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/14/2014",
         "GVZR:17:46:22");
 
@@ -12513,6 +13164,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000091/1419400076",
         "TCF:+47.211906,-122.355612",
         "HAVG:O74 R74 R741 MEVTRA",
+        "FEP:PN02",
         "QNGR:07/13/2014",
         "GVZR:17:14:14");
 
@@ -12529,6 +13181,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000090/1419300150",
         "TCF:+47.217015,-122.360480",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/12/2014",
         "GVZR:21:32:08");
 
@@ -12547,6 +13200,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000089/1419300041",
         "TCF:+47.206460,-122.324576",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/12/2014",
         "GVZR:09:26:14");
 
@@ -12565,6 +13219,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000088/1419200088",
         "TCF:+47.206460,-122.324576",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/11/2014",
         "GVZR:16:34:53");
 
@@ -12583,6 +13238,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000087/1419200060",
         "TCF:+47.206460,-122.324576",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/11/2014",
         "GVZR:12:28:05");
 
@@ -12601,6 +13257,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000086/1419100120",
         "TCF:+47.234136,-122.389886",
         "HAVG:O74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/10/2014",
         "GVZR:20:23:44");
 
@@ -12619,6 +13276,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000084/1419000141",
         "TCF:+47.206950,-122.326777",
         "HAVG:N74 O74 R18 R74 R741 G74 MEVTRA",
+        "FEP:PN02",
         "QNGR:07/09/2014",
         "GVZR:21:02:24");
 
@@ -12638,6 +13296,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000083/1418800128",
         "TCF:+47.209404,-122.334198",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/07/2014",
         "GVZR:18:12:36");
 
@@ -12656,6 +13315,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000082/1418800102",
         "TCF:+47.210083,-122.336472",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/07/2014",
         "GVZR:15:18:32");
 
@@ -12675,6 +13335,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000081/1418700065",
         "TCF:+47.228089,-122.374772",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/06/2014",
         "GVZR:16:07:21");
 
@@ -12694,6 +13355,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000080/1418600156",
         "TCF:+47.209333,-122.335813",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/05/2014",
         "GVZR:22:48:59");
 
@@ -12712,6 +13374,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000079/1418600120",
         "TCF:+47.217607,-122.355163",
         "HAVG:R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/05/2014",
         "GVZR:18:16:04");
 
@@ -12731,6 +13394,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000078/1418600109",
         "TCF:+47.200614,-122.335889",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/05/2014",
         "GVZR:17:19:02");
 
@@ -12750,6 +13414,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000077/1418600082",
         "TCF:+47.212077,-122.347474",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/05/2014",
         "GVZR:13:57:56");
 
@@ -12766,6 +13431,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000076/1418500130",
         "TCF:+47.223397,-122.361370",
         "HAVG:R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/04/2014",
         "GVZR:20:09:58");
 
@@ -12785,6 +13451,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000075/1418400143",
         "TCF:+47.234136,-122.389886",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/03/2014",
         "GVZR:21:39:14");
 
@@ -12802,6 +13469,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000074/1418300128",
         "TCF:+47.213578,-122.342050",
         "HAVG:R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/02/2014",
         "GVZR:22:14:24");
 
@@ -12819,6 +13487,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000073/1418300087",
         "TCF:+47.222358,-122.375278",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/02/2014",
         "GVZR:17:42:34");
 
@@ -12835,6 +13504,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000070/1418200031",
         "TCF:+47.207107,-122.323045",
         "HAVG:N74 O74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:07/01/2014",
         "GVZR:09:54:34");
 
@@ -12851,6 +13521,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000069/1418100069",
         "TCF:+47.222358,-122.375278",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/30/2014",
         "GVZR:12:25:18");
 
@@ -12869,6 +13540,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000068/1418000116",
         "TCF:+47.195870,-122.331769",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/29/2014",
         "GVZR:22:32:49");
 
@@ -12885,6 +13557,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000067/1417700058",
         "TCF:+47.227748,-122.379108",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/26/2014",
         "GVZR:12:46:21");
 
@@ -12901,6 +13574,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000065/1417700028",
         "TCF:+47.235556,-122.392078",
         "HAVG:N74 R74 R741 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/26/2014",
         "GVZR:08:18:26");
 
@@ -12920,6 +13594,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000064/1417600104",
         "TCF:+47.206460,-122.324576",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/25/2014",
         "GVZR:17:07:17");
 
@@ -12937,6 +13612,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000063/1417400004",
         "TCF:+47.213578,-122.342050",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/23/2014",
         "GVZR:04:47:10");
 
@@ -12954,6 +13630,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000062/1417300099",
         "TCF:+47.217132,-122.358148",
         "HAVG:R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/22/2014",
         "GVZR:19:12:12");
 
@@ -12972,6 +13649,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000061/1417200102",
         "TCF:+47.202420,-122.340492",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/21/2014",
         "GVZR:19:10:31");
 
@@ -12988,6 +13666,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000060/1417200064",
         "TCF:+47.234207,-122.388782",
         "HAVG:N74 O74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/21/2014",
         "GVZR:14:01:29");
 
@@ -13008,6 +13687,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000059/1417100014",
         "TCF:+47.208971,-122.334268",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/20/2014",
         "GVZR:03:08:45");
 
@@ -13027,6 +13707,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000057/1417000025",
         "TCF:+47.206319,-122.323156",
         "HAVG:N74 R74 R741 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/19/2014",
         "GVZR:08:43:49");
 
@@ -13045,6 +13726,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000056/1416900023",
         "TCF:+47.234989,-122.390610",
         "HAVG:N74 R74 R741 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/18/2014",
         "GVZR:08:12:09");
 
@@ -13062,6 +13744,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000055/1416800117",
         "TCF:+47.228276,-122.390974",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN02",
         "QNGR:06/17/2014",
         "GVZR:22:01:08");
 
@@ -13081,6 +13764,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000054/1416700076",
         "TCF:+47.228431,-122.380527",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/16/2014",
         "GVZR:13:44:30");
 
@@ -13100,6 +13784,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000053/1416700049",
         "TCF:+47.232252,-122.387288",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/16/2014",
         "GVZR:10:21:35");
 
@@ -13119,6 +13804,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000052/1416700011",
         "TCF:+47.230377,-122.383227",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN02",
         "QNGR:06/16/2014",
         "GVZR:03:26:44");
 
@@ -13137,6 +13823,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000051/1416600039",
         "TCF:+47.216773,-122.353571",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/15/2014",
         "GVZR:09:55:56");
 
@@ -13152,6 +13839,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000050/1416500113",
         "TCF:+47.228119,-122.389106",
         "HAVG:N74 R74 R741 MEVTRA",
+        "FEP:PN04",
         "QNGR:06/14/2014",
         "GVZR:22:49:41");
 
@@ -13172,6 +13860,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000049/1416500111",
         "TCF:+47.230567,-122.381387",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN04",
         "QNGR:06/14/2014",
         "GVZR:22:21:00");
 
@@ -13191,6 +13880,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000048/1416400007",
         "TCF:+47.230377,-122.383227",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/13/2014",
         "GVZR:02:49:35");
 
@@ -13208,6 +13898,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000047/1416300044",
         "TCF:+47.219473,-122.362612",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/12/2014",
         "GVZR:10:51:26");
 
@@ -13224,6 +13915,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000046/1416200007",
         "TCF:+47.200879,-122.340882",
         "HAVG:N74 O74 R74 MEVTRA",
+        "FEP:PN02",
         "QNGR:06/11/2014",
         "GVZR:02:24:32");
 
@@ -13243,6 +13935,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000045/1416000153",
         "TCF:+47.230377,-122.383227",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN02",
         "QNGR:06/09/2014",
         "GVZR:23:09:17");
 
@@ -13260,6 +13953,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000044/1415900071",
         "TCF:+47.210207,-122.334921",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/08/2014",
         "GVZR:16:32:58");
 
@@ -13277,6 +13971,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:EV1400000043/1415900010",
         "TCF:+47.225060,-122.375877",
         "HAVG:N74 R74 MEVTRA",
+        "FEP:PN01",
         "QNGR:06/08/2014",
         "GVZR:03:04:38");
 
@@ -13302,6 +13997,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003597/1424100034",
         "TCF:+47.300714,-122.582594",
         "HAVG:Z51",
+        "FEP:PN02",
         "QNGR:08/29/2014",
         "GVZR:10:22:46");
 
@@ -13322,6 +14018,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003597/1424100034",
         "TCF:+47.300714,-122.582594",
         "HAVG:NE58 Z58",
+        "FEP:PN02",
         "QNGR:08/29/2014",
         "GVZR:10:21:39");
 
@@ -13341,6 +14038,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003596/1424100032",
         "TCF:+47.300459,-122.581023",
         "HAVG:R52 Z59",
+        "FEP:PN02",
         "QNGR:08/29/2014",
         "GVZR:10:10:08");
 
@@ -13360,6 +14058,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003595/1424100026",
         "TCF:+47.309311,-122.574334",
         "HAVG:Z59",
+        "FEP:PN04",
         "QNGR:08/29/2014",
         "GVZR:09:24:57");
 
@@ -13379,6 +14078,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003595/1424100026",
         "TCF:+47.309311,-122.574334",
         "HAVG:R51 Z51",
+        "FEP:PN04",
         "QNGR:08/29/2014",
         "GVZR:09:22:42");
 
@@ -13396,6 +14096,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003594/1424100023",
         "TCF:+47.378567,-122.541495",
         "HAVG:R56 R57 R58 Z58",
+        "FEP:PN04",
         "QNGR:08/29/2014",
         "GVZR:09:18:54");
 
@@ -13413,6 +14114,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003593/1424100016",
         "TCF:+47.322289,-122.585154",
         "HAVG:R51 Z51",
+        "FEP:PN02",
         "QNGR:08/29/2014",
         "GVZR:05:54:29");
 
@@ -13432,6 +14134,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003592/1424000130",
         "TCF:+47.264704,-122.577245",
         "HAVG:N52",
+        "FEP:PN01",
         "QNGR:08/29/2014",
         "GVZR:00:04:22");
 
@@ -13451,6 +14154,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003592/1424000130",
         "TCF:+47.264704,-122.577245",
         "HAVG:N52",
+        "FEP:PN01",
         "QNGR:08/29/2014",
         "GVZR:00:00:37");
 
@@ -13470,6 +14174,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003591/1424000091",
         "TCF:+47.309215,-122.591568",
         "HAVG:R51",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:18:20:45");
 
@@ -13487,6 +14192,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003590/1424000084",
         "TCF:+47.302903,-122.638563",
         "HAVG:O51 R51 R59 Z59",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:17:36:26");
 
@@ -13506,6 +14212,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003589/1424000069",
         "TCF:+47.260709,-122.592249",
         "HAVG:R59",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:15:51:32");
 
@@ -13524,6 +14231,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003588/1424000064",
         "TCF:+47.401958,-122.556132",
         "HAVG:R56 Z58",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:14:47:11");
 
@@ -13543,6 +14251,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003587/1424000045",
         "TCF:+47.291670,-122.591720",
         "HAVG:Z58",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:12:05:23");
 
@@ -13562,6 +14271,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003587/1424000045",
         "TCF:+47.291670,-122.591720",
         "HAVG:R52 Z51",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:12:03:59");
 
@@ -13581,6 +14291,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003586/1424000035",
         "TCF:+47.315664,-122.589487",
         "HAVG:R51 Z51",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:10:39:18");
 
@@ -13599,6 +14310,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003585/1424000025",
         "TCF:+47.308515,-122.577579",
         "HAVG:R52",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:09:12:26");
 
@@ -13617,6 +14329,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003585/1424000025",
         "TCF:+47.308515,-122.577579",
         "HAVG:R51 Z59",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:09:11:07");
 
@@ -13633,6 +14346,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003584/1424000020",
         "TCF:+47.304439,-122.593657",
         "HAVG:NE58 O51 R51 R59 Z51",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:08:16:11");
 
@@ -13649,6 +14363,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003583/1424000017",
         "TCF:+47.361319,-122.601847",
         "HAVG:NE58 Z58",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:07:20:00");
 
@@ -13666,6 +14381,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003582/1424000016",
         "TCF:+47.304756,-122.644489",
         "HAVG:R59 Z59",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:06:53:04");
 
@@ -13685,6 +14401,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003581/1424000002",
         "TCF:+47.300751,-122.583900",
         "HAVG:R52 Z51",
+        "FEP:PN02",
         "QNGR:08/28/2014",
         "GVZR:01:42:11");
 
@@ -13703,6 +14420,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003580/1423900093",
         "TCF:+47.300596,-122.581290",
         "HAVG:R59 Z59",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:16:29:45");
 
@@ -13722,6 +14440,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003579/1423900091",
         "TCF:+47.300714,-122.582594",
         "HAVG:R52 Z51",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:16:24:39");
 
@@ -13740,6 +14459,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003577/1423900072",
         "TCF:+47.389004,-122.604220",
         "HAVG:R58",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:14:15:36");
 
@@ -13758,6 +14478,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003577/1423900072",
         "TCF:+47.389004,-122.604220",
         "HAVG:R56",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:14:14:12");
 
@@ -13776,6 +14497,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003576/1423900068",
         "TCF:+47.332320,-122.583728",
         "HAVG:R51 Z51",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:13:54:02");
 
@@ -13794,6 +14516,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003575/1423900066",
         "TCF:+47.240373,-122.604901",
         "HAVG:R52",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:13:34:54");
 
@@ -13810,6 +14533,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003573/1423900062",
         "TCF:+47.308935,-122.576143",
         "HAVG:Z59",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:13:04:04");
 
@@ -13828,6 +14552,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003574/1423900064",
         "TCF:+47.392360,-122.596022",
         "HAVG:R56 Z58",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:12:55:40");
 
@@ -13844,6 +14569,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003573/1423900062",
         "TCF:+47.308935,-122.576143",
         "HAVG:NE58 O51 R51 R52 Z51",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:12:47:18");
 
@@ -13860,6 +14586,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003572/1423900049",
         "TCF:+47.322228,-122.617980",
         "HAVG:R55 R58",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:11:26:27");
 
@@ -13878,6 +14605,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003571/1423900027",
         "TCF:+47.323868,-122.653239",
         "HAVG:R55 R58 Z58",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:08:49:18");
 
@@ -13896,6 +14624,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003570/1423900020",
         "TCF:+47.321481,-122.593025",
         "HAVG:R51 Z59",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:07:47:21");
 
@@ -13913,6 +14642,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003569/1423900017",
         "TCF:+47.367909,-122.610135",
         "HAVG:N56 Z51",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:07:22:41");
 
@@ -13930,6 +14660,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003568/1423900016",
         "TCF:+47.358965,-122.626617",
         "HAVG:R58 Z58",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:07:09:43");
 
@@ -13948,6 +14679,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003567/1423800146",
         "TCF:+47.309867,-122.580587",
         "HAVG:O51 R51 R59 Z59",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:21:29:43");
 
@@ -13967,6 +14699,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003566/1423800144",
         "TCF:+47.286053,-122.556684",
         "HAVG:R52 Z51",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:21:18:56");
 
@@ -13984,6 +14717,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003565/1423800115",
         "TCF:+47.341635,-122.586600",
         "HAVG:R57 R58",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:18:16:19");
 
@@ -14002,6 +14736,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003564/1423800112",
         "TCF:+47.312083,-122.576719",
         "HAVG:R51 Z51",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:18:02:33");
 
@@ -14019,6 +14754,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003563/1423800107",
         "TCF:+47.380978,-122.597532",
         "HAVG:R56 Z58",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:17:59:37");
 
@@ -14036,6 +14772,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003562/1423800106",
         "TCF:+47.299161,-122.584107",
         "HAVG:R52",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:17:52:41");
 
@@ -14053,6 +14790,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003562/1423800106",
         "TCF:+47.299161,-122.584107",
         "HAVG:R51 Z59",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:17:51:03");
 
@@ -14071,6 +14809,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003561/1423800097",
         "TCF:+47.300459,-122.581023",
         "HAVG:R52 Z59",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:17:02:34");
 
@@ -14087,6 +14826,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003560/1423800087",
         "TCF:+47.266449,-122.597276",
         "HAVG:R52 Z59",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:15:36:12");
 
@@ -14105,6 +14845,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003559/1423800084",
         "TCF:+47.321488,-122.647565",
         "HAVG:R55 R58 Z51",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:14:32:15");
 
@@ -14124,6 +14865,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003558/1423800083",
         "TCF:+47.300459,-122.581023",
         "HAVG:R52 Z59",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:14:29:12");
 
@@ -14141,6 +14883,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003556/1423800066",
         "TCF:+47.368488,-122.629003",
         "HAVG:R58",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:12:52:24");
 
@@ -14158,6 +14901,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003556/1423800066",
         "TCF:+47.368488,-122.629003",
         "HAVG:R56",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:12:50:06");
 
@@ -14176,6 +14920,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003555/1423800043",
         "TCF:+47.383696,-122.620492",
         "HAVG:O51 R56 R58 Z58",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:10:16:19");
 
@@ -14196,6 +14941,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003554/1423800014",
         "TCF:+47.318938,-122.583517",
         "HAVG:R51 Z51",
+        "FEP:PN04",
         "QNGR:08/26/2014",
         "GVZR:06:37:33");
 
@@ -14215,6 +14961,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003553/1423800008",
         "TCF:+47.284917,-122.554424",
         "HAVG:R52 Z51",
+        "FEP:PN04",
         "QNGR:08/26/2014",
         "GVZR:04:13:57");
 
@@ -14234,6 +14981,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003552/1423700137",
         "TCF:+47.282212,-122.553161",
         "HAVG:R52 Z51",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:23:26:24");
 
@@ -14251,6 +14999,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003551/1423700129",
         "TCF:+47.402143,-122.626082",
         "HAVG:O51 R56 R58 Z58",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:21:49:56");
 
@@ -14270,6 +15019,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003550/1423700105",
         "TCF:+47.282115,-122.562504",
         "HAVG:R57 GR16",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:18:46:38");
 
@@ -14288,6 +15038,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003549/1423700104",
         "TCF:+47.313278,-122.582124",
         "HAVG:Z31 GR16 GY2 MTUNYY MTUPUS MTUQGL",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:18:39:05");
 
@@ -14306,6 +15057,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003549/1423700104",
         "TCF:+47.313278,-122.582124",
         "HAVG:NVE56 O51 R52 R56 R57 R58 R59 Z51 Z58 EU54 GY3 MTUPUS MTUQGL",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:18:31:44");
 
@@ -14324,6 +15076,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003548/1423700103",
         "TCF:+47.329277,-122.581292",
         "HAVG:R51",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:18:22:11");
 
@@ -14342,6 +15095,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003547/1423700100",
         "TCF:+47.286004,-122.605794",
         "HAVG:R51 R59 Z51",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:18:06:11");
 
@@ -14360,6 +15114,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003546/1423700093",
         "TCF:+47.302119,-122.581484",
         "HAVG:Z59",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:17:23:22");
 
@@ -14378,6 +15133,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003546/1423700093",
         "TCF:+47.302119,-122.581484",
         "HAVG:R52 Z51",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:17:21:02");
 
@@ -14396,6 +15152,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003545/1423700078",
         "TCF:+47.282712,-122.634318",
         "HAVG:R59 Z59",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:16:07:26");
 
@@ -14414,6 +15171,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003544/1423700074",
         "TCF:+47.247422,-122.620724",
         "HAVG:R51 R53 R59 Z51",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:15:33:25");
 
@@ -14433,6 +15191,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003543/1423700064",
         "TCF:+47.300459,-122.581023",
         "HAVG:R52 Z59",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:14:25:52");
 
@@ -14453,6 +15212,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003542/1423700051",
         "TCF:+47.300751,-122.583900",
         "HAVG:R52 Z51",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:12:32:48");
 
@@ -14473,6 +15233,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003541/1423700043",
         "TCF:+47.280873,-122.561949",
         "HAVG:R51 Z59",
+        "FEP:PN05",
         "QNGR:08/25/2014",
         "GVZR:10:13:07");
 
@@ -14493,6 +15254,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003540/1423700041",
         "TCF:+47.304516,-122.585321",
         "HAVG:R52 Z51",
+        "FEP:PN05",
         "QNGR:08/25/2014",
         "GVZR:09:53:58");
 
@@ -14511,6 +15273,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003537/1423700026",
         "TCF:+47.389431,-122.593494",
         "HAVG:R56 Z58",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:08:30:20");
 
@@ -14529,6 +15292,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003536/1423700025",
         "TCF:+47.302119,-122.581484",
         "HAVG:Z59",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:08:27:07");
 
@@ -14547,6 +15311,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003536/1423700025",
         "TCF:+47.302119,-122.581484",
         "HAVG:R52 Z51",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:08:25:21");
 
@@ -14566,6 +15331,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003535/1423700020",
         "TCF:+47.285954,-122.556585",
         "HAVG:R52 Z51",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:07:15:07");
 
@@ -14584,6 +15350,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003534/1423700016",
         "TCF:+47.364425,-122.613468",
         "HAVG:O51 R56 R58 Z58",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:06:37:07");
 
@@ -14603,6 +15370,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003533/1423600133",
         "TCF:+47.388788,-122.611895",
         "HAVG:R51 R57 Z58",
+        "FEP:PN02",
         "QNGR:08/24/2014",
         "GVZR:23:51:26");
 
@@ -14621,6 +15389,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003532/1423600130",
         "TCF:+47.327032,-122.590901",
         "HAVG:R51 Z51",
+        "FEP:PN02",
         "QNGR:08/24/2014",
         "GVZR:22:54:44");
 
@@ -14636,6 +15405,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003531/1423600128",
         "TCF:+47.381256,-122.599808",
         "HAVG:O51 R56 R58 Z58",
+        "FEP:PN02",
         "QNGR:08/24/2014",
         "GVZR:22:23:10");
 
@@ -14653,6 +15423,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003530/1423600119",
         "TCF:+47.369540,-122.598953",
         "HAVG:R55 R59",
+        "FEP:PN02",
         "QNGR:08/24/2014",
         "GVZR:20:53:38");
 
@@ -14671,6 +15442,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003529/1423600118",
         "TCF:+47.338340,-122.582366",
         "HAVG:R56 R57 Z58",
+        "FEP:PN02",
         "QNGR:08/24/2014",
         "GVZR:20:43:26");
 
@@ -14689,6 +15461,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003527/1423600111",
         "TCF:+47.320874,-122.593766",
         "HAVG:Z51",
+        "FEP:PN02",
         "QNGR:08/24/2014",
         "GVZR:20:28:10");
 
@@ -14707,6 +15480,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003527/1423600111",
         "TCF:+47.320874,-122.593766",
         "HAVG:R51",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:20:18:48");
 
@@ -14725,6 +15499,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003526/1423600079",
         "TCF:+47.285954,-122.556585",
         "HAVG:R52 Z59",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:17:05:57");
 
@@ -14743,6 +15518,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003525/1423600073",
         "TCF:+47.329464,-122.580783",
         "HAVG:R51 Z51",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:16:32:42");
 
@@ -14760,6 +15536,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003524/1423600070",
         "TCF:+47.291114,-122.608178",
         "HAVG:R54 Z59 GR16",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:15:40:25");
 
@@ -14778,6 +15555,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003523/1423600069",
         "TCF:+47.322600,-122.658663",
         "HAVG:R55 R58 Z58",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:15:37:05");
 
@@ -14796,6 +15574,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003522/1423600068",
         "TCF:+47.299430,-122.577635",
         "HAVG:R59 Z51",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:15:29:02");
 
@@ -14814,6 +15593,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003521/1423600062",
         "TCF:+47.383754,-122.626633",
         "HAVG:NE58 Z58",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:14:41:01");
 
@@ -14833,6 +15613,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003520/1423600060",
         "TCF:+47.304516,-122.585321",
         "HAVG:R59 Z51",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:14:27:01");
 
@@ -14852,6 +15633,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003519/1423600057",
         "TCF:+47.285954,-122.556585",
         "HAVG:O51 R51 R52 Z51",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:13:51:08");
 
@@ -14869,6 +15651,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003518/1423600051",
         "TCF:+47.303222,-122.639152",
         "HAVG:R59 Z51",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:12:39:57");
 
@@ -14887,6 +15670,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003517/1423600044",
         "TCF:+47.321481,-122.593025",
         "HAVG:R52 R55 Z59",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:11:40:03");
 
@@ -14904,6 +15688,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003516/1423600028",
         "TCF:+47.383168,-122.577846",
         "HAVG:R56 Z58",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:08:24:17");
 
@@ -14922,6 +15707,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003515/1423600027",
         "TCF:+47.296384,-122.604507",
         "HAVG:R59 Z59",
+        "FEP:PN02",
         "QNGR:08/24/2014",
         "GVZR:07:40:28");
 
@@ -14941,6 +15727,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003514/1423600018",
         "TCF:+47.300714,-122.582594",
         "HAVG:R52 Z51",
+        "FEP:PN02",
         "QNGR:08/24/2014",
         "GVZR:04:26:20");
 
@@ -14957,6 +15744,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003512/1423600007",
         "TCF:+47.279182,-122.635455",
         "HAVG:R51 R54 Z51",
+        "FEP:PN02",
         "QNGR:08/24/2014",
         "GVZR:00:50:26");
 
@@ -14976,6 +15764,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TU1400003511/1423600002",
         "TCF:+47.305457,-122.646199",
         "HAVG:R55 R59 Z59",
+        "FEP:PN02",
         "QNGR:08/24/2014",
         "GVZR:00:15:03");
 
@@ -15001,6 +15790,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003917/1424100027",
         "TCF:+47.039953,-122.342115",
         "HAVG:R94 Z95",
+        "FEP:PN02",
         "QNGR:08/29/2014",
         "GVZR:09:37:55");
 
@@ -15019,6 +15809,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003916/1424100014",
         "TCF:+47.075516,-122.328917",
         "HAVG:R95 R951",
+        "FEP:PN02",
         "QNGR:08/29/2014",
         "GVZR:04:53:58");
 
@@ -15038,6 +15829,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003915/1424100008",
         "TCF:+47.058000,-122.307621",
         "HAVG:R94 Z91",
+        "FEP:PN01",
         "QNGR:08/29/2014",
         "GVZR:03:10:33");
 
@@ -15057,6 +15849,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003914/1424100004",
         "TCF:+47.082135,-122.324402",
         "HAVG:R91 R951 Z95",
+        "FEP:PN01",
         "QNGR:08/29/2014",
         "GVZR:00:55:58");
 
@@ -15075,6 +15868,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003913/1424100001",
         "TCF:+47.095824,-122.332840",
         "HAVG:R951 Z91 Z95",
+        "FEP:PN01",
         "QNGR:08/29/2014",
         "GVZR:00:15:46");
 
@@ -15091,6 +15885,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003912/1424000127",
         "TCF:+47.043173,-122.388037",
         "HAVG:R94",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:23:32:43");
 
@@ -15107,6 +15902,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003911/1424000123",
         "TCF:+47.053430,-122.337405",
         "HAVG:O94 R94 Z95",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:22:34:29");
 
@@ -15125,6 +15921,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003910/1424000108",
         "TCF:+47.031232,-122.358055",
         "HAVG:R94",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:20:06:52");
 
@@ -15142,6 +15939,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003909/1424000099",
         "TCF:+47.065235,-122.339912",
         "HAVG:R94 R951 Z95",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:19:05:11");
 
@@ -15159,6 +15957,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003908/1424000097",
         "TCF:+47.103666,-122.299858",
         "HAVG:R91 Z91",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:18:58:31");
 
@@ -15176,6 +15975,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003907/1424000089",
         "TCF:+47.024075,-122.337063",
         "HAVG:R94 Z93",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:18:06:08");
 
@@ -15193,6 +15993,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003906/1424000076",
         "TCF:+47.003809,-122.400611",
         "HAVG:R94",
+        "FEP:PN02",
         "QNGR:08/28/2014",
         "GVZR:16:21:54");
 
@@ -15211,6 +16012,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003905/1424000070",
         "TCF:+47.065703,-122.257601",
         "HAVG:R91 Z93",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:15:52:57");
 
@@ -15228,6 +16030,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003904/1424000067",
         "TCF:+47.030424,-122.228298",
         "HAVG:R91 Z91",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:15:05:58");
 
@@ -15246,6 +16049,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003903/1424000065",
         "TCF:+47.073878,-122.336382",
         "HAVG:R94 R951 Z95",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:14:52:11");
 
@@ -15264,6 +16068,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003902/1424000053",
         "TCF:+47.058328,-122.293875",
         "HAVG:R91",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:13:08:33");
 
@@ -15282,6 +16087,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003901/1424000051",
         "TCF:+47.051916,-122.312053",
         "HAVG:R94",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:12:34:46");
 
@@ -15302,6 +16108,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003900/1424000042",
         "TCF:+47.050601,-122.308438",
         "HAVG:R94 Z91",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:11:39:48");
 
@@ -15319,6 +16126,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003899/1424000023",
         "TCF:+47.025752,-122.359554",
         "HAVG:R94 Z93",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:08:34:50");
 
@@ -15336,6 +16144,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003898/1424000015",
         "TCF:+47.053100,-122.348670",
         "HAVG:O94 R94 Z96",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:06:29:27");
 
@@ -15354,6 +16163,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003897/1424000014",
         "TCF:+47.095791,-122.331769",
         "HAVG:R91 R951 Z95",
+        "FEP:PN01",
         "QNGR:08/28/2014",
         "GVZR:06:24:17");
 
@@ -15371,6 +16181,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003896/1424000003",
         "TCF:+47.044526,-122.340713",
         "HAVG:R94 Z95",
+        "FEP:PN02",
         "QNGR:08/28/2014",
         "GVZR:02:17:42");
 
@@ -15388,6 +16199,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003895/1423900144",
         "TCF:+47.088337,-122.319438",
         "HAVG:R91 R951 Z95",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:23:01:11");
 
@@ -15405,6 +16217,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003894/1423900143",
         "TCF:+46.987127,-122.361740",
         "HAVG:O94 R93 R94 R96 Z91 G92 MTENQZ",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:22:58:38");
 
@@ -15423,6 +16236,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003893/1423900141",
         "TCF:+47.075516,-122.328917",
         "HAVG:R95 R951",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:22:22:40");
 
@@ -15440,6 +16254,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003891/1423900135",
         "TCF:+47.025393,-122.362952",
         "HAVG:R94",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:21:24:56");
 
@@ -15458,6 +16273,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003892/1423900136",
         "TCF:+47.040234,-122.297603",
         "HAVG:R94",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:21:23:55");
 
@@ -15475,6 +16291,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003891/1423900135",
         "TCF:+47.025393,-122.362952",
         "HAVG:R94",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:21:19:23");
 
@@ -15490,6 +16307,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003890/1423900127",
         "TCF:+47.074847,-122.294217",
         "HAVG:O94 R91 Z91",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:20:16:54");
 
@@ -15508,6 +16326,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003889/1423900122",
         "TCF:+47.084398,-122.330152",
         "HAVG:R951 Z91 Z95",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:19:42:41");
 
@@ -15525,6 +16344,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001546/1423900119",
         "TCF:+46.929537,-122.334082",
         "HAVG:N170 R171 Z93 MFCNYY",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:19:12:02");
 
@@ -15539,6 +16359,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:75LBS PBAF, QVMMVARFF",
         "VQ:1423900114",
         "HAVG:Z96",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:18:55:23");
 
@@ -15557,6 +16378,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003886/1423900115",
         "TCF:+47.097193,-122.312499",
         "HAVG:R91 R951 Z91",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:18:48:32");
 
@@ -15574,6 +16396,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003885/1423900107",
         "TCF:+47.050308,-122.262963",
         "HAVG:O94 R69 R91 R93 Z91 G92 MTENQZ",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:17:55:33");
 
@@ -15592,6 +16415,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003884/1423900104",
         "TCF:+47.039370,-122.344177",
         "HAVG:R94 Z95",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:17:38:26");
 
@@ -15609,6 +16433,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003883/1423900103",
         "TCF:+47.053329,-122.321500",
         "HAVG:R94 Z95",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:17:26:17");
 
@@ -15628,6 +16453,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003882/1423900094",
         "TCF:+47.051677,-122.351082",
         "HAVG:R94 Z96",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:16:30:54");
 
@@ -15646,6 +16472,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003881/1423900085",
         "TCF:+47.086650,-122.290619",
         "HAVG:Z96",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:15:49:26");
 
@@ -15664,6 +16491,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003881/1423900085",
         "TCF:+47.086650,-122.290619",
         "HAVG:R91 Z95",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:15:45:48");
 
@@ -15680,6 +16508,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003880/1423900082",
         "TCF:+47.044566,-122.220057",
         "HAVG:R94 Z91",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:15:29:22");
 
@@ -15698,6 +16527,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003879/1423900065",
         "TCF:+47.047216,-122.337688",
         "HAVG:Z95",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:13:24:11");
 
@@ -15715,6 +16545,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003878/1423900059",
         "TCF:+47.075516,-122.328917",
         "HAVG:R91",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:12:08:44");
 
@@ -15732,6 +16563,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003878/1423900059",
         "TCF:+47.075516,-122.328917",
         "HAVG:R94 R951",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:12:06:50");
 
@@ -15750,6 +16582,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003877/1423900046",
         "TCF:+47.109149,-122.344340",
         "HAVG:R91 Z95",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:11:08:40");
 
@@ -15767,6 +16600,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003876/1423900039",
         "TCF:+47.045547,-122.239122",
         "HAVG:R94 Z96",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:10:09:35");
 
@@ -15784,6 +16618,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003875/1423900033",
         "TCF:+47.053081,-122.294784",
         "HAVG:R96",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:09:40:20");
 
@@ -15802,6 +16637,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003874/1423900029",
         "TCF:+47.097193,-122.312499",
         "HAVG:R951 Z91 Z95",
+        "FEP:PN01",
         "QNGR:08/27/2014",
         "GVZR:08:59:55");
 
@@ -15819,6 +16655,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003873/1423900001",
         "TCF:+47.077243,-122.298562",
         "HAVG:R91 Z91",
+        "FEP:PN02",
         "QNGR:08/27/2014",
         "GVZR:00:06:06");
 
@@ -15837,6 +16674,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003872/1423800161",
         "TCF:+47.101465,-122.315177",
         "HAVG:R91 R951 Z91",
+        "FEP:PN02",
         "QNGR:08/26/2014",
         "GVZR:23:43:34");
 
@@ -15855,6 +16693,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003871/1423800159",
         "TCF:+47.087730,-122.313776",
         "HAVG:R91 R951 Z95",
+        "FEP:PN02",
         "QNGR:08/26/2014",
         "GVZR:23:33:34");
 
@@ -15872,6 +16711,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003870/1423800156",
         "TCF:+47.078045,-122.341990",
         "HAVG:R94 R951",
+        "FEP:PN02",
         "QNGR:08/26/2014",
         "GVZR:22:56:21");
 
@@ -15890,6 +16730,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003869/1423800155",
         "TCF:+47.087730,-122.313776",
         "HAVG:R91 R951 Z95",
+        "FEP:PN02",
         "QNGR:08/26/2014",
         "GVZR:22:51:32");
 
@@ -15910,6 +16751,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003868/1423800152",
         "TCF:+47.039075,-122.296455",
         "HAVG:R94 Z91",
+        "FEP:PN02",
         "QNGR:08/26/2014",
         "GVZR:22:30:30");
 
@@ -15927,6 +16769,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003867/1423800137",
         "TCF:+47.044566,-122.220057",
         "HAVG:R94 Z93",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:20:52:39");
 
@@ -15945,6 +16788,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003866/1423800130",
         "TCF:+47.086836,-122.310290",
         "HAVG:Z91",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:20:08:38");
 
@@ -15963,6 +16807,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003866/1423800130",
         "TCF:+47.086836,-122.310290",
         "HAVG:R91",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:20:03:16");
 
@@ -15981,6 +16826,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003865/1423800117",
         "TCF:+47.047216,-122.337688",
         "HAVG:Z95",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:18:19:41");
 
@@ -15999,6 +16845,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003864/1423800105",
         "TCF:+47.032224,-122.344636",
         "HAVG:R94",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:17:30:48");
 
@@ -16016,6 +16863,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003863/1423800093",
         "TCF:+47.089505,-122.335705",
         "HAVG:R91 R951 Z95",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:16:36:53");
 
@@ -16034,6 +16882,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003861/1423800089",
         "TCF:+47.027159,-122.369104",
         "HAVG:R94 Z93",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:15:51:41");
 
@@ -16050,6 +16899,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003860/1423800072",
         "TCF:+47.075516,-122.328917",
         "HAVG:R91",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:13:23:25");
 
@@ -16066,6 +16916,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003860/1423800072",
         "TCF:+47.075516,-122.328917",
         "HAVG:R94 R951 Z95",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:13:22:14");
 
@@ -16083,6 +16934,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003859/1423800064",
         "TCF:+46.969884,-122.212185",
         "HAVG:R92 R94 Z93",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:12:32:32");
 
@@ -16099,6 +16951,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003858/1423800059",
         "TCF:+47.080242,-122.299412",
         "HAVG:R91 Z91",
+        "FEP:PN01",
         "QNGR:08/26/2014",
         "GVZR:11:53:36");
 
@@ -16115,6 +16968,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003857/1423800030",
         "TCF:+47.025355,-122.241954",
         "HAVG:R91 R92 Z95",
+        "FEP:PN02",
         "QNGR:08/26/2014",
         "GVZR:08:23:55");
 
@@ -16133,6 +16987,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003853/1423800022",
         "TCF:+47.040035,-122.356043",
         "HAVG:Z93",
+        "FEP:PN04",
         "QNGR:08/26/2014",
         "GVZR:08:13:44");
 
@@ -16151,6 +17006,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003856/1423800025",
         "TCF:+47.073660,-122.339100",
         "HAVG:R95 R951",
+        "FEP:PN04",
         "QNGR:08/26/2014",
         "GVZR:08:07:20");
 
@@ -16169,6 +17025,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003854/1423800023",
         "TCF:+47.074541,-122.297369",
         "HAVG:R91 Z91",
+        "FEP:PN04",
         "QNGR:08/26/2014",
         "GVZR:07:43:16");
 
@@ -16187,6 +17044,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003853/1423800022",
         "TCF:+47.040035,-122.356043",
         "HAVG:R94 Z95",
+        "FEP:PN04",
         "QNGR:08/26/2014",
         "GVZR:07:42:19");
 
@@ -16205,6 +17063,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003852/1423800013",
         "TCF:+47.040035,-122.356043",
         "HAVG:R94",
+        "FEP:PN04",
         "QNGR:08/26/2014",
         "GVZR:06:18:24");
 
@@ -16225,6 +17084,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003851/1423800009",
         "TCF:+47.095668,-122.307751",
         "HAVG:R91 Z91",
+        "FEP:PN04",
         "QNGR:08/26/2014",
         "GVZR:04:25:57");
 
@@ -16244,6 +17104,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003850/1423700125",
         "TCF:+47.027699,-122.308757",
         "HAVG:R96",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:21:21:50");
 
@@ -16262,6 +17123,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003849/1423700121",
         "TCF:+47.075143,-122.314161",
         "HAVG:R91 R951 Z95",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:20:41:47");
 
@@ -16279,6 +17141,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003848/1423700102",
         "TCF:+47.052967,-122.323211",
         "HAVG:R94 Z95",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:18:11:18");
 
@@ -16297,6 +17160,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003847/1423700092",
         "TCF:+47.101193,-122.315208",
         "HAVG:R94 R951 Z96",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:17:18:59");
 
@@ -16315,6 +17179,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003846/1423700087",
         "TCF:+47.080947,-122.290761",
         "HAVG:R91 Z93",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:17:00:15");
 
@@ -16333,6 +17198,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003845/1423700080",
         "TCF:+47.036012,-122.320707",
         "HAVG:R96 Z95",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:16:16:43");
 
@@ -16350,6 +17216,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003844/1423700079",
         "TCF:+47.088423,-122.302831",
         "HAVG:R91 Z91",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:16:08:47");
 
@@ -16367,6 +17234,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003843/1423700060",
         "TCF:+47.075516,-122.328917",
         "HAVG:R95 R951",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:13:59:52");
 
@@ -16386,6 +17254,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003842/1423700049",
         "TCF:+47.078117,-122.296727",
         "HAVG:R91 Z91",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:12:04:59");
 
@@ -16406,6 +17275,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003841/1423700028",
         "TCF:+47.077704,-122.293621",
         "HAVG:R91 Z91",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:08:31:51");
 
@@ -16422,6 +17292,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003840/1423700017",
         "TCF:+47.029942,-122.370418",
         "HAVG:R94 Z93",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:06:38:22");
 
@@ -16439,6 +17310,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:FC1400001525/1423700003",
         "TCF:+46.887374,-122.300493",
         "HAVG:Z93",
+        "FEP:PN01",
         "QNGR:08/25/2014",
         "GVZR:00:40:03");
 
@@ -16458,6 +17330,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003838/1423600117",
         "TCF:+47.042411,-122.362920",
         "HAVG:R91",
+        "FEP:PN02",
         "QNGR:08/24/2014",
         "GVZR:20:38:55");
 
@@ -16477,6 +17350,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003838/1423600117",
         "TCF:+47.042411,-122.362920",
         "HAVG:R64 Z95",
+        "FEP:PN02",
         "QNGR:08/24/2014",
         "GVZR:20:37:21");
 
@@ -16494,6 +17368,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003837/1423600114",
         "TCF:+47.092984,-122.355144",
         "HAVG:OBRR70 Z95",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:20:21:34");
 
@@ -16512,6 +17387,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003836/1423600110",
         "TCF:+47.076065,-122.301489",
         "HAVG:R94",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:20:20:45");
 
@@ -16530,6 +17406,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003836/1423600110",
         "TCF:+47.076065,-122.301489",
         "HAVG:R91 Z91",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:20:17:58");
 
@@ -16548,6 +17425,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003835/1423600104",
         "TCF:+47.007334,-122.222494",
         "HAVG:R91 R92 Z91",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:19:44:09");
 
@@ -16564,6 +17442,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003834/1423600103",
         "TCF:+47.020320,-122.369502",
         "HAVG:Z95",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:19:41:40");
 
@@ -16580,6 +17459,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003834/1423600103",
         "TCF:+47.020320,-122.369502",
         "HAVG:O94 R94 Z93",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:19:38:24");
 
@@ -16598,6 +17478,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003833/1423600093",
         "TCF:+46.983478,-122.291758",
         "HAVG:R94 Z93",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:18:24:31");
 
@@ -16615,6 +17496,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003832/1423600089",
         "TCF:+47.074053,-122.252655",
         "HAVG:Z91",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:18:05:56");
 
@@ -16632,6 +17514,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003832/1423600089",
         "TCF:+47.074053,-122.252655",
         "HAVG:R91 Z95",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:18:04:24");
 
@@ -16650,6 +17533,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003831/1423600087",
         "TCF:+47.031709,-122.366190",
         "HAVG:R94 Z93",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:17:46:52");
 
@@ -16668,6 +17552,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003830/1423600074",
         "TCF:+47.065703,-122.257601",
         "HAVG:R91 Z91",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:16:36:32");
 
@@ -16687,6 +17572,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003829/1423600065",
         "TCF:+47.077707,-122.340560",
         "HAVG:Z91",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:15:11:30");
 
@@ -16706,6 +17592,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003829/1423600065",
         "TCF:+47.077707,-122.340560",
         "HAVG:R91 R951",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:14:57:37");
 
@@ -16725,6 +17612,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003828/1423600063",
         "TCF:+47.046966,-122.347050",
         "HAVG:R94 Z95",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:14:49:40");
 
@@ -16743,6 +17631,7 @@ choyvp pynff JNCvreprPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:TE1400003827/1423600059",
         "TCF:+47.052762,-122.260026",
         "HAVG:R91",
+        "FEP:PN01",
         "QNGR:08/24/2014",
         "GVZR:14:08:28");
 
