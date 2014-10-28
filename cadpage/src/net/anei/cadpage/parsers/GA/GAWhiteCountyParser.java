@@ -11,33 +11,64 @@ public class GAWhiteCountyParser extends SmartAddressParser {
 
   public GAWhiteCountyParser() {
     super("WHITE COUNTY", "GA");
-    setFieldList("CODE CALL ADDR PHONE X");
+    setFieldList("DATE TIME ID CODE CALL ADDR APT CITY");
     setupMultiWordStreets(MW_STREETS);
     setupCallList(CALL_LIST);
   }
 
-  private static Pattern MASTER = Pattern.compile("(\\d{2}[A-Z])?\\b(.*?)(?: (\\d{7}) (.*?))?");
+  private static Pattern MASTER = Pattern.compile(":As of (\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d:\\d\\d) (\\d{4}-\\d{8}) (.*)");
+  private static Pattern CODE_CALL_ADDR_PTN = Pattern.compile("([A-Z\\d]+) - (.*)");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("WHITE_CO_E911:")) return false;
-    body = body.substring(14);
-
-    Matcher mat = MASTER.matcher(body);
-    if (!mat.matches()) return false;
-
-    data.strCode = getOptGroup(mat.group(1));
-    parseAddress(StartType.START_CALL, mat.group(2).trim(), data);
-    data.strPhone = getOptGroup(mat.group(3));
-    data.strCross = getOptGroup(mat.group(4));
+    Matcher match = MASTER.matcher(body);
+    if (!match.matches()) return false;
+    data.strDate = match.group(1);
+    data.strTime = match.group(2);
+    data.strCallId = match.group(3);
+    String addr = match.group(4).trim();
+    
+    // Strip off city.  City is usually doubled up
+    int pt = addr.lastIndexOf(',');
+    if (pt >= 0) {
+      String city = addr.substring(pt+1).trim();
+      addr = addr.substring(0,pt);
+      
+      int len = city.length();
+      if (len % 2 != 0) {
+        pt = len/2;
+        if (city.charAt(pt) == ' ') {
+          String part1 = city.substring(0,pt);
+          if (part1.equals(city.substring(pt+1))) city = part1;
+        }
+      }
+      data.strCity = city;
+    }
+    
+    // Call / address comes in two forms, one with dash and one without
+    match = CODE_CALL_ADDR_PTN.matcher(addr);
+    if (match.matches()) {
+      data.strCode = match.group(1);
+      addr = match.group(2).trim();
+      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, addr, data);
+    } else {
+      pt = addr.indexOf(' ');
+      if (pt < 0) return false;
+      data.strCode = addr.substring(0,pt);
+      addr = addr.substring(pt+1).trim();
+      parseAddress(addr, data);
+    }
     return true;
   }
   
   private static String[] MW_STREETS = new String[]{
+    "AURUM HILL",
     "BARKER TRAIL",
     "BEAR GRASS",
+    "BLACK BEAR",
     "COOLEY WOODS",
     "CROOKED PINE",
+    "DORSEY BROTHERS",
     "DUKES CREEK FALLS",
     "DUNCAN BRIDGE",
     "EAST KYTLE",
@@ -45,7 +76,11 @@ public class GAWhiteCountyParser extends SmartAddressParser {
     "HERMAN WINKLER",
     "HIGHLAND FOREST",
     "HOLINESS CAMPGROUND",
+    "HOOD ACRES",
+    "HOOTENANNY HILLS",
     "HORACE FITZPATRICK",
+    "JOE FRANKLIN",
+    "LAUREL RIDGE",
     "LITTLE HAWK",
     "LITTLE ROCK",
     "LONG MOUNTAIN",
@@ -56,39 +91,47 @@ public class GAWhiteCountyParser extends SmartAddressParser {
     "OAK RIDGE",
     "OAK RIDGE",
     "PARADISE VALLEY",
+    "PINE BROOK",
+    "QUAIL RIDGE",
     "RICHARD RUSSELL SCENIC",
     "RIVER BRIDGE",
+    "ROY POWERS",
     "SAM CRAVEN",
     "SKITTS MOUNTAIN",
     "SKUNK HOLLOW",
     "SOUTH MAIN",
     "STEVE LEWIS",
     "TALL PINE",
+    "THE PINES",
     "TIN MAN",
     "TOM BELL",
     "TOWN CREEK",
     "TRAY MOUNTAIN",
     "TWIN LAKES",
+    "WEST FARM",
     "WHITE OAK"
   };
   
   private static CodeSet CALL_LIST = new CodeSet(new String[]{
-    "ACCIDENT / ENTRAPMENT",
-    "ACCIDENT / INJURIES",
-    "ACCIDENT / UNKNOWN INJURY",
-    "ALLERG ALLERGIC REACTION",
-    "ALRMCM COMMERCIAL FIRE ALARM",
-    "BRUSH / GRASS / WOODS FIRE",
-    "CHOKIN CHOKING PATIENT",
-    "COMMERCIAL FIRE",
-    "DEATH APPARENT DEATH",
-    "FAINT SYNCOPAL EPISODE (FAINTING)",
-    "FIRE ALARM",
-    "FIRE-MISCELLANEOUS / UNKNOWN",
-    "INJURY INJURY",
-    "LACER LACERATION/PUNCTURE INTENTIONA",
-    "RESIDENTIAL FIRE",
-    "UNCON UNCONSCIOUS PATIENT",
-    "VEHICLE FIRE"
+      "ABDOMINAL PAIN",
+      "ACCIDENT / UNKNOWN INJURY",
+      "ALTERED LEVEL OF CONCIOUSNESS",
+      "APPARENT DEATH",
+      "BRUSH / GRASS / WOODS FIRE",
+      "CANCER PATIENT",
+      "DIFFICULTY IN BREATHING",
+      "EVALUATE PATIENT",
+      "FRACTURE",
+      "GROUND LEVEL FALL",
+      "PATIENT FELL 6FT OR MORE",
+      "PATIENT WITH HEART PROBLEMS",
+      "RESIDENTIAL FIRE",
+      "RESIDENTIAL FIRE ALARM",
+      "SEIZURES",
+      "STROKE",
+      "SYNCOPAL EPISODE (FAINTING)",
+      "UNCONSCIOUS PATIENT",
+      "UNRESPONSIVE PATIENT",
+      
   });
 }
