@@ -89,20 +89,36 @@ public class MIEmmetCountyParser extends DispatchOSSIParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       
       // Charlevoix County
+      "BC",   "BOYNE CITY",
+      "BF",   "BOYNE FALLS",
       "CX",   "CHARLEVOIX",
+      "EJ",   "EAST JORDAN",
 
       "BVT",  "BOYNE VALLEY TWP",
       "BYT",  "BOYNE CITY",
       "CHN",  "CHANDLER TWP",
+      "CXT",  "CHARLEVOIX TWP",
+      "EVL",  "EVELINE TWP",
+      "EVG",  "EVANGELINE TWP",
       "HDS",  "HUDSON",
+      "MRN",  "MARION TWP",
+      "NRW",  "NORWOOD",
+      "PNT",  "PEAINE TWP",
+      "STH",  "SOUTH ARM TWP",
+      "STJ",  "ST JAMES TWP",
+      "WLS",  "WILSON TWP",
       
       // Cheboygan County
       "BNT",  "BENTON TWP",
+      "BRT",  "BURT TWP",
+      "INV",  "INVERNESS TWP",
       
       // Emmet County
+      "BH",   "RESORT TWP",   // ???????
       "BV",   "BAY VIEW",
       "HS",   "HARBOR SPRINGS",
-      
+
+      "ALN",  "ALANSON",
       "BRC",  "BEAR CREEK TWP",
       "CNT",  "CENTER TWP",
       "CRS",  "CROSS VILLAGE TWP",
@@ -113,7 +129,10 @@ public class MIEmmetCountyParser extends DispatchOSSIParser {
       "LTR",  "LITTLE TRAVERSE TWP",
       "MCK",  "MCKINLEY TWP",
       "MLR",  "MELROSE TWP",
+      "MPL",  "MAPLE RIVER TWP",
+      "PLL",  "PELLSTON",
       "PLS",  "PLEASANTVIEW TWP",
+      "PTS",  "PETOSKEY",
       "RDM",  "READMOND TWP",
       "RST",  "RESORT TWP",
       "SPR",  "SPRINGVALE TWP",
