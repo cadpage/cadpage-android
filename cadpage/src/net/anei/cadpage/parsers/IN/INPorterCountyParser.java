@@ -28,7 +28,6 @@ public class INPorterCountyParser extends DispatchA41Parser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("Porter SMTP Provider")) return false;
     if (!parseMsg(body, data)) return false;
     
     // Winfield TWP is in Lake county

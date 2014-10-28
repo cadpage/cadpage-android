@@ -10,25 +10,27 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DispatchA41Parser extends FieldProgramParser {
   
   public static final int A41_FLG_NO_CALL = 1;
+  public static final int  A41_FLG_ID = 2;
   
   private static final Pattern DATE_TIME_PTN = Pattern.compile("(.*) +- From +(?:[A-Z][A-Z0-9]+ +)?(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d:\\d\\d)");
   
-  private Pattern sourcePattern;
+  private Pattern channelPattern;
   
   public DispatchA41Parser(Properties cityCodes, String defCity, String defState, String sourcePattern) {
     this(cityCodes, defCity, defState, sourcePattern, 0);
   }
   
-  public DispatchA41Parser(Properties cityCodes, String defCity, String defState, String sourcePattern, int flags) {
+  public DispatchA41Parser(Properties cityCodes, String defCity, String defState, String channelPattern, int flags) {
     super(cityCodes, defCity, defState, calcProgram(flags));
-    this.sourcePattern = Pattern.compile(sourcePattern);
+    this.channelPattern = Pattern.compile(channelPattern);
   }
   
   private static String calcProgram(int flags) {
     StringBuilder sb = new StringBuilder();
     sb.append("DISPATCH:CODE! ");
-    if ((flags & A41_FLG_NO_CALL) == 0) sb.append("CALL ");
-    sb.append("( PLACE CITY/Z AT | ADDRCITY/Z ) CITY? ( SRC/Z MAPPAGE! | EMPTY? ( PLACE APT X1 | PLACE APT INT | PLACE X1 | PLACE INT | X1 | INT | ) EMPTY? ( PLACE APT SRC | PLACE SRC | SRC ) ( MAP MAPPAGE | MAPPAGE | MAP MAP2? ) ) INFO/CS+? ID1 GPS1 GPS2 ID2? Unit:UNIT UNIT+");
+    if ((flags & A41_FLG_ID) != 0) sb.append("ID ");
+    else if ((flags & A41_FLG_NO_CALL) == 0) sb.append("CALL ");
+    sb.append("( PLACE1 CITY/Z AT | ADDRCITY/Z ) CITY? ( CH/Z MAPPAGE! | EMPTY? ( PLACE2 PLACE_APT2 X1 | PLACE2 PLACE_APT2 INT | PLACE2 X1 | PLACE2 INT | X1 | INT | ) EMPTY? ( CH! | PLACE3+? PLACE_APT3 CH! ) ( MAP MAPPAGE | MAPPAGE | MAP MAP2? ) ) INFO/CS+? ID1 GPS1 GPS2 ID2? Unit:UNIT UNIT+");
     return sb.toString();
   }
 
@@ -60,13 +62,17 @@ public class DispatchA41Parser extends FieldProgramParser {
     if (name.equals("CITY")) return new BaseCityField();
     if (name.equals("AT")) return new AddressField("at +(.*)", true);
     if (name.equals("X1")) return new CrossField("btwn *(.*)", true);
-    if (name.equals("INT")) return new SkipField("<.*>", true);
-    if (name.equals("PLACE")) return new BasePlaceField();
-    if (name.equals("APT")) return new BaseAptField();
-    if (name.equals("SRC")) return new BaseSourceField();
+    if (name.equals("INT")) return new SkipField("[A-Z]* *<.*>", true);
+    if (name.equals("PLACE1")) return new BasePlaceField(1);
+    if (name.equals("PLACE2")) return new BasePlaceField(2);
+    if (name.equals("PLACE3")) return new BasePlaceField(3);
+    if (name.equals("PLACE_APT2")) return new BasePlaceAptField(2);
+    if (name.equals("PLACE_APT3")) return new BasePlaceAptField(3);
+    if (name.equals("CH")) return new BaseChannelField();
     if (name.equals("MAPPAGE")) return new SkipField("mappage,XXXX", true);
     if (name.equals("MAP2")) return new BaseMap2Field();
     if (name.equals("INFO")) return new BaseInfoField();
+    if (name.equals("ID")) return new IdField("[A-Z]{2}\\d{9}");
     if (name.equals("ID1")) return new IdField("\\d{10}", true);
     if (name.equals("ID2")) return new BaseId2Field();
     if (name.equals("UNIT")) return new BaseUnitField();
@@ -103,25 +109,58 @@ public class DispatchA41Parser extends FieldProgramParser {
       super.parse(field, data);
     }
   }
+
+  private static final Pattern APT_PTN = Pattern.compile("# *(.*)|\\d+[A-Z]?");
+  private class BasePlaceAptField extends BasePlaceField {
+    
+    public BasePlaceAptField(int placeType) {
+      super(placeType);
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+    
+    // Last place token before the source field can be an apt
+      Matcher match = APT_PTN.matcher(field);
+      if (match.matches()) {
+        String apt = match.group(1);
+        if (apt == null) apt = field;
+        if (apt.equals(data.strApt)) return;
+        if (data.strApt.length() == 0) {
+          data.strApt = apt;
+          return;
+        }
+      }
+      
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE APT";
+    }
+  }
   
+  private int lastPlaceType = 0;
   private class BasePlaceField extends PlaceField {
+    
+    private int placeType;
+    
+    public BasePlaceField(int placeType) {
+      this.placeType = placeType;
+    }
     @Override
     public void parse(String field, Data data) {
       if (field.startsWith(",")) return;
-      super.parse(field, data);
+      
+      if (data.strPlace.length() == 0) lastPlaceType = 0;
+      String sep = (placeType != lastPlaceType ? " - " : ", ");
+      lastPlaceType = placeType;
+      data.strPlace = append(data.strPlace, sep, field);
     }
   }
   
-  private class BaseAptField extends AptField {
-    @Override
-    public void parse(String field, Data data) {
-      if (data.strApt.length() > 0) return;
-      field = stripFieldStart(field, "#");
-      data.strApt = field;
-    }
-  }
-  
-  private class BaseSourceField extends SourceField {
+  private class BaseChannelField extends ChannelField {
     @Override
     public boolean canFail() {
       return true;
@@ -129,7 +168,14 @@ public class DispatchA41Parser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      if (!sourcePattern.matcher(field).matches()) return false;
+      if (!channelPattern.matcher(field).matches()) return false;
+      
+      // Look ahead 2 fields to see if anything looks like a channel field
+      // if it does, assume this is a false positive
+      for (int off = 1; off<=2; off++) {
+        String fld = getRelativeField(off);
+        if (fld.length() > 0 && channelPattern.matcher(fld).matches()) return false;
+      }
       super.parse(field, data);
       return true;
     }
