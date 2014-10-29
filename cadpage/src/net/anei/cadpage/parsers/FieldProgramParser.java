@@ -1998,6 +1998,8 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class CallField extends Field {
     
+    private String connector;
+    
     public CallField() {};
     public CallField(String pattern) {
       super(pattern);
@@ -2005,10 +2007,15 @@ public class FieldProgramParser extends SmartAddressParser {
     public CallField(String pattern, boolean hardPattern) {
       super(pattern, hardPattern);
     }
+    
+    @Override
+    public void setQual(String qual) {
+      connector = buildConnector(qual, " / ");
+    }
 
     @Override
     public void parse(String field, Data data) {
-      data.strCall = append(data.strCall, " / ", field);
+      data.strCall = append(data.strCall, connector , field);
     }
     
     @Override
@@ -3328,7 +3335,8 @@ public class FieldProgramParser extends SmartAddressParser {
     
     String result = null;
     for (char chr : qual.toCharArray()) {
-      char delChar = (chr == 'N' ? '\n' :
+      char delChar = (chr == 'D' ? '-' :
+                      chr == 'N' ? '\n' :
                       chr == 'C' ? ',' :
                       chr == 'S' ? ' ' : 0);
       if (delChar != 0) {

@@ -40,6 +40,10 @@ Pbagnpg: Wnfba Rqjneqf <wor12173@tznvy.pbz>
 Fraqre: InaprPbhagl911@inaprpbhagl.bet
 InaprPbhagl911:2726 ENYRVTU EQ URAQREFBA NPPVQRAG CREFBANY VAWHEL FCEVAG ARKGRY - PQZN ORNEC,RZF,F47
 
+Pbagnpg: Oblq Rqjneqf <obrqje@tznvy.pbz>
+Fraqre: InaprPbhagl911@inaprpbhagl.bet
+InaprPbhagl911:1691 OBOOVGG EQ XVGGERYY FGEHPGHER SVER HF PRYYHYNE OISQ,RZF,XISQ,F10,IPSQ,IPEF
+
 */
 
 choyvp pynff APInaprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -243,6 +247,18 @@ choyvp pynff APInaprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:HAXABJA CEBOYRZ (ZNA QBJA) CNFFREOL",
         "HAVG:RZF,F31,JNGXV");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOblqRqjneqf() {
+
+    qbGrfg("G1",
+        "InaprPbhagl911:1691 OBOOVGG EQ XVGGERYY FGEHPGHER SVER HF PRYYHYNE OISQ,RZF,XISQ,F10,IPSQ,IPEF",
+        "NQQE:1691 OBOOVGG EQ",
+        "PVGL:XVGGERYY",
+        "PNYY:FGEHPGHER SVER",
+        "HAVG:OISQ,RZF,XISQ,F10,IPSQ,IPEF");
+    
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
