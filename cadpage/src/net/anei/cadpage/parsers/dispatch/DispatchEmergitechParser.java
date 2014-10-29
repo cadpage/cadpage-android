@@ -319,7 +319,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern INFO_GPS_PTN = Pattern.compile("(\\+\\d{3}\\.\\d{6})(\\-\\d{3}\\.\\d{6})(?:CF=\\d+%)?(?:CALLBK=(\\(\\d{3}\\)\\d{3}-\\d{4}))?|CNF=\\d*UNC=\\d*");
+  private static final Pattern INFO_GPS_PTN = Pattern.compile("([-+]?\\d{1,3}\\.\\d{6}) *([-+]?\\d{1,3}\\.\\d{6})(?:CF=\\d+%)?(?:CALLBK=(\\(\\d{3}\\)\\d{3}-\\d{4}))?|CNF=\\d*UNC=\\d*");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {

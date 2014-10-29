@@ -562,6 +562,7 @@ class Active911Vendor extends Vendor {
       "US/TN/CampbellCounty",             "TNCampbellCounty",
       "US/TN/CumberlandCounty",           "TNCumberlandCounty",
       "US/TN/Overton",                    "TNOvertonCounty",
+      "US/TN/RoaneCounty",                "TNRoaneCounty",
       "US/TX/AngletonPD",                 "TXAngleton",
       "US/TX/AransasCounty",              "TXAransasCounty",
       "US/TX/Austin",                     "TXTravisCounty",
