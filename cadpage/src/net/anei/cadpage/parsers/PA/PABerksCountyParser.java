@@ -12,13 +12,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class PABerksCountyParser extends FieldProgramParser {
   
   public PABerksCountyParser() {
-    super("BERKS COUNTY", "PA",
+    super("BERKS COUNTY",        "PA",
            "UNITCALL! ADDR/iSXa! PLACE! X! CITY INFO DATETIME");
   }
   
   @Override
   public String getFilter() {
-    return "@berks.alertpa.org,@rsix.roamsecure.net,14100,12101";
+    return "@berks.alertpa.org,@rsix.roamsecure.net,@c-msg.net,14100,12101";
   }
 
   @Override
@@ -27,15 +27,15 @@ public class PABerksCountyParser extends FieldProgramParser {
     // Strip off message trailer
     int pt = body.indexOf("Sent by Berks County RSAN");
     if (pt >= 0) body = body.substring(0,pt).trim();
-    if (body.endsWith("=")) body = body.substring(0,body.length()-1).trim();
+    body = stripFieldEnd(body, "=");
     
     // There used to be a Muni: field label.  Which we remove from old  messages
-    body = body.replace("; Muni:", ";");
+    body = body.replace("; Muni:",        ";");
     
     return parseFields(body.split(";"), data);
   }
   
-  private static final Pattern UNIT_CALL_PTN = Pattern.compile("Unit:([-A-Z0-9]+) Status:(?:Dispatched|Enroute|Notify) (.*)");
+  private static final Pattern UNIT_CALL_PTN = Pattern.compile("Unit:([-A-Za-z0-9]+) Status:(?:Dispatched|Enroute|Notify|Arrived On Location) (.*)");
   private class MyUnitCallField extends Field {
     @Override
     public void parse(String field, Data data) {
@@ -113,22 +113,22 @@ public class PABerksCountyParser extends FieldProgramParser {
   }
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
-      "MF", "Misc",
-      "MVAENT", "Accident w/ entrapment",
-      "MVAUNK", "Accident unknown inj",
-      "MVAWITH", "Accident w/ injury",
-      "SF", "Structure Fire",
-      "RSF", "Reading Structure Fire",
-      "RAFA", "Reading Fire Alarm",
-      "REMERG", "Reading Emerge",
-      "RMISC", "Reading Misc",
-      "RBF", "Reading Brush Fire",
-      "BF", "Brush Fire",
-      "CMA", "Carbon Monoxide",
-      "AFA", "Fire Alarm",
-      "VF", "Vehicle Fire",
-      "FS", "Fire Service",
-      "FSB", "Fire Scene Standby"
+      "AFA",      "Fire Alarm",
+      "BF",       "Brush Fire",
+      "CMA",      "Carbon Monoxide",
+      "FS",       "Fire Service",
+      "FSB",      "Fire Scene Standby",
+      "MF",       "Misc",
+      "MVAENT",   "Accident w/ entrapment",
+      "MVAUNK",   "Accident unknown inj",
+      "MVAWITH",  "Accident w/ injury",
+      "RAFA",     "Reading Fire Alarm",
+      "RBF",      "Reading Brush Fire",
+      "REMERG",   "Reading Emerge",
+      "RMISC",    "Reading Misc",
+      "RSF",      "Reading StructureFire",
+      "SF",       "Structure Fire",
+      "VF",       "Vehicle Fire"
   });
   
 }
