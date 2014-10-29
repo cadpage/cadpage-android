@@ -932,6 +932,7 @@ public class ParserList {
               ,"SCJasperCounty"                 ,"Jasper County, SC"
               ,"SCKershawCounty"                ,"Kershaw County, SC"
               ,"SCLancasterCounty"              ,"Lancaster County, SC"
+              ,"SCNewberryCounty"               ,"Newberry County, SC"
               ,"SCOconeeCounty"                 ,"Oconee County, SC"
               ,"SCOrangeburgCounty"             ,"Orangeburg County, SC"
               ,"SCPickensCounty"                ,"Pickens County, SC"
