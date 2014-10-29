@@ -60,6 +60,8 @@ public class TXKellerParser extends DispatchA18Parser {
     "WESTLAKE",
     "WESTOVER HILLS",
     "WESTWORTH VILLAGE",
-    "WHITE SETTLEMENT"
+    "WHITE SETTLEMENT",
+    
+    "TARRANT COUNTY"
   };
 }

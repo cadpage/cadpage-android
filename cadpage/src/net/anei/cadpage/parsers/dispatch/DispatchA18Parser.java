@@ -1,9 +1,6 @@
 package net.anei.cadpage.parsers.dispatch;
 
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -13,12 +10,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchA18Parser extends FieldProgramParser {
   
-  private Set<String> citySet;
-  
   public DispatchA18Parser(String[] cityList, String defCity, String defState) {
-    super(defCity, defState,
+    super(cityList, defCity, defState,
           "CALL ADDR X BOX! EMPTY+? ( DASHES DATETIME SRC SRC | ) INFO+");
-    citySet = new HashSet<String>(Arrays.asList(cityList));
   }
   
   @Override
@@ -49,9 +43,11 @@ public class DispatchA18Parser extends FieldProgramParser {
 
   private static final Pattern DELIM_PTN = Pattern.compile("[-/,]");
   private static final Pattern BOX_PTN = Pattern.compile("^BOX *(\\d+)", Pattern.CASE_INSENSITIVE);
-  private static final Pattern APT_PTN = Pattern.compile("^(?:APT|LOT|#) *([-A-Z0-9]+)\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern APT2_PTN = Pattern.compile("^(\\d{1,4}[A-D]?)\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern APT3_PTN = Pattern.compile("^([A-Z](?:&[A-Z])?) +(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DIR_PTN = Pattern.compile("([NSEW]|NORTH|SOUTH|EAST|WEST)\\b *", Pattern.CASE_INSENSITIVE);
+  private static final Pattern BOUND_PTN = Pattern.compile("([NSEW]B)S?\\b *", Pattern.CASE_INSENSITIVE);
+  private static final Pattern APT_PTN = Pattern.compile("^(?:APT|LOT|#) *([-A-Z0-9]+)\\b *", Pattern.CASE_INSENSITIVE);
+  private static final Pattern APT2_PTN = Pattern.compile("^([A-Z]?\\d{1,5}[A-Z]?)\\b *", Pattern.CASE_INSENSITIVE);
+  private static final Pattern APT3_PTN = Pattern.compile("[A-Z](?:&[A-Z])?", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -64,11 +60,30 @@ public class DispatchA18Parser extends FieldProgramParser {
         field = field.substring(pt+1).trim();
       } else abort();
       
+      // Split up the address field
+      field = field.replace('@', '&');
+      String[] parts = DELIM_PTN.split(field);
+      
+      // And try to extract a city from the last fragment
+      for (int pt = parts.length-1; pt>=0; pt--) {
+        parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY | FLAG_ANCHOR_END, parts[pt].trim(), data);
+        if (data.strCity.length() > 0) {
+          String left = getStart();
+          if (data.strCity.length() > 0 && left.toUpperCase().endsWith(" IN")) {
+            left = left.substring(0,left.length()-3).trim();
+          }
+          parts[pt] = left;
+          break;
+        }
+      }
+      
+      // Now cycle through the remaining partial feild lists
       boolean first = true;
-      for (String part : DELIM_PTN.split(field)) {
+      for (String part : parts) {
         part = part.trim();
         if (part.length() == 0) continue;
         
+        // First segment contains an address and nothing else
         if (first) {
           first = false;
           parseAddress(part, data);
@@ -82,6 +97,21 @@ public class DispatchA18Parser extends FieldProgramParser {
             part = part.substring(match.end()).trim();
           }
           
+          match = DIR_PTN.matcher(part);
+          if (match.lookingAt()) {
+            data.strAddress = append(data.strAddress, " ", match.group(1));
+            part = part.substring(match.end());
+          }
+          
+          match = BOUND_PTN.matcher(part);
+          if (match.lookingAt()) {
+            String bnd = match.group(1);
+            if (!data.strAddress.toUpperCase().endsWith(bnd.toUpperCase())) {
+              data.strAddress = append(data.strAddress, " ", bnd);
+            }
+            part = part.substring(match.end());
+          }
+          
           match = APT_PTN.matcher(part);
           if (match.find()) {
             data.strApt = append(data.strApt, "-", match.group(1));
@@ -92,11 +122,6 @@ public class DispatchA18Parser extends FieldProgramParser {
           if (match.find()) {
             data.strApt = append(data.strApt, "-", match.group(1));
             part = part.substring(match.end()).trim();
-          }
-          
-          if (citySet.contains(part.toUpperCase())) {
-            if (data.strCity.length() == 0) data.strCity = part;
-            continue;
           }
           
           if (isValidAddress(part)) {
@@ -112,17 +137,10 @@ public class DispatchA18Parser extends FieldProgramParser {
             data.strApt = append(data.strApt, "-", part);
             continue;
           }
-          
-          if (data.strCity.length() == 0) {
-            match = APT3_PTN.matcher(part);
-            if (match.matches()) {
-              String city = match.group(2);
-              if (citySet.contains(city.toUpperCase())) {
-                data.strApt = append(data.strApt, "-", match.group(1));
-                data.strCity = city;
-                continue;
-              }
-            }
+          match = APT3_PTN.matcher(part);
+          if (match.matches()) {
+            data.strApt = append(data.strApt, "-", part);
+            continue;
           }
           
           data.strPlace = append(data.strPlace, " - ", part);
