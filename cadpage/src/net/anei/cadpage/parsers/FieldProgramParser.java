@@ -1998,7 +1998,7 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class CallField extends Field {
     
-    private String connector;
+    private String connector = " / ";
     
     public CallField() {};
     public CallField(String pattern) {

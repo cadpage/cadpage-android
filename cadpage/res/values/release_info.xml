@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10202014</string>
-  <string name="release_version">v1.7.48</string>
+  <string name="release_date">10292014</string>
+  <string name="release_version">v1.7.49</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -9,31 +9,35 @@ Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
 New Locations:\n
-Jefferson County, AL (alt)\n
-West Warwick, RI\n
-Flower Mound, TX\n
+Liberty County, GA\n
+Worth County, IA\n
+Anne Arundel County, MD (alt)\n
+Jefferson County, OH\n
+Mayes County, OK\n
+Newberry County, SC\n
+Tooele County, UT\n
 \n
 Location Parsing Fixes:\n
-Calhoun County, AL\n
-Fairfield County, CT\n
-Stamford, CT\n
-Effingham County, GA\n
-Kane County, IL\n
-St Joseph County, IN\n
-Reno County, KS\n
-Worcester County, MD\n
-Cape Giradeau County, MO\n
-Gasconade County, MO\n
-Nassau County, NY\n
-Transylvania County, NC\n
-Marion County, OH\n
-Lincoln County, OR\n
-Pittsylvania County, VA\n
-Washington County, OR\n
-Yamhill County, OR\n
-Centre County, PA\n
-Clarion County, PA\n
-Missouri City, TX\n
+White County, GA\n
+Porter County, IN\n
+East Feliciana Parish, LA\n
+Charlevoix County, MI\n
+Cheboygan County, MI\n
+Emmet County, MI\n
+Chippewa County, MI\n
+Iron County, MI\n
+Marquette County, MI\n
+Sussex County, NJ\n
+Ontario County, NY\n
+Berks County, PA\n
+Chester County, PA\n
+Luzerne County, PA\n
+Fort Bend County, TX\n
+Keller, TX\n
+Gregg Coounty, TX\n
+Prince William County, VA\n
+King County, WA\n
+Pierce County, WA\n
   </string>
 </resources>
   
