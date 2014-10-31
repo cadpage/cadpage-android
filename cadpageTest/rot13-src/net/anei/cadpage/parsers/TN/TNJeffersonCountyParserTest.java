@@ -27,6 +27,10 @@ Fraqre: QVFCNGPU@wrssrefbapbhaglga911.bet
 1858 A UVTUJNL 92 WRSSREFBA PVGL 06:17:46 FPURQHYRQ CNGVRAG GENAFCBEG
 1006 PNEFBA FG WRSSREFBA PVGL 08:24:45 QVNORGVP CEBOYRZF
 
+Pbagnpg: wtyt <ytwvzayrr@tznvy.pbz>
+Fraqre: QVFCNGPU@wrssrefbapbhaglga911.bet
+F: Z:QVFCNGPU:EBL ZRFFRE UJL / ZNVA FG JUVGR CVAR, 12:00:18, ZIP VAWHEVRF ZBGBE IRUVPYR PENFU BPN: 201410-49
+
 */
 
 choyvp pynff GAWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -131,6 +135,19 @@ choyvp pynff GAWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:08:24:45",
         "PNYY:QVNORGVP CEBOYRZF");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWtyt() {
+
+    qbGrfg("G1",
+        "F: Z:QVFCNGPU:EBL ZRFFRE UJL / ZNVA FG JUVGR CVAR, 12:00:18, ZIP VAWHEVRF ZBGBE IRUVPYR PENFU BPN: 201410-49",
+        "NQQE:EBL ZRFFRE UJL & ZNVA FG",
+        "PVGL:JUVGR CVAR",
+        "GVZR:12:00:18",
+        "PNYY:ZIP VAWHEVRF ZBGBE IRUVPYR PENFU",
+        "VQ:201410-49");
+
   }
   
 
