@@ -1,11 +1,16 @@
 package net.anei.cadpage.donation;
 
 import java.security.MessageDigest;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.HttpService.HttpRequest;
+import net.anei.cadpage.Log;
 import net.anei.cadpage.R;
 import net.anei.cadpage.donation.UserAcctManager;
 import android.accounts.Account;
@@ -80,7 +85,21 @@ public class UserAcctManager {
           String flds[] = line.split(",");
           if (flds.length < 2) continue;
           String stat = flds[1].trim();
-          String purchaseDate = (flds.length < 3 ? null : flds[2].trim().replace("/", ""));
+          if (!STATUS_PTN.matcher(stat).matches()) {
+            Log.e("Invalid status:" + stat);
+            return;
+          }
+          String purchaseDate  = null;
+          if (flds.length < 3) {
+            purchaseDate = flds[2].trim();
+            try {
+              DATE_FMT.parse(purchaseDate);
+            } catch (ParseException ex) {
+              Log.e(ex);
+              return;
+            }
+            purchaseDate = purchaseDate.replace("/", "");
+          }
           String sponsor = (flds.length < 4 ? null : flds[3].trim());
           DonationManager.processSubscription(stat, purchaseDate, sponsor);
         }
@@ -88,6 +107,8 @@ public class UserAcctManager {
       }
     });
   }
+  private static final Pattern STATUS_PTN = Pattern.compile("LIFE|\\d{4}");
+  private static final DateFormat DATE_FMT = new SimpleDateFormat("MM/dd/yyyy");
   
   
   /**
