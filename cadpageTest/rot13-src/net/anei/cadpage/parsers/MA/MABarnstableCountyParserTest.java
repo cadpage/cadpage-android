@@ -8,110 +8,99 @@ vzcbeg bet.whavg.Grfg;
 Oneafgnoyr Pbhagl, ZN
 
 Pbagnpg: Npgvir911
-Ntrapl anzr: Unejvpu Sver Qrcnegzrag
+Ntrapl anzr: Unejvpu SQ
 Ybpngvba: Unejvpu, ZN, Havgrq Fgngrf
 Fraqre: <qvfcngpuref@ofurevss.arg>
+Fraqre: Abezna Pynexr <a.pynexr@unejvpusver.pbz>
 
-(!) ﻿\aUnesq Qvfcngpu\a\aSQNYNEZ Ybpny\g\aQ: UNE1\g\aYbp: 76 EBHGR 28, UNEJVPU (ZNAFVBA, YLER PBGGNTR EQ/QRCBG EQ J, ORYZBAG EQ; Arne:PYNQQNTU VAA)  ( JRFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: 19 UNYYF JL, UNEJVPU (RYYVBGG JL/JVYZNF JL)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQFgehpgher Sver\g\aQ: UNE2\g\aYbp: 6 ZRNQBJ YA, UNEJVPU (CNEX/JBBQOVAR YA)  ( UNEJVPU PRAGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQNYNEZ Prageny Fgngvba\g\aQ: UNE1\g\aYbp: 31 ONLIVRJ EQ, UNEJVPU (EBHGR 28/JBBQYNAQ EQ)  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE4\g\aYbp: 469 YBAT CBAQ QE, UNEJVPU (FVQARL EQ/)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE2\g\aYbp: @UNEJVPU GENAFSRE FGNGVBA  (209 DHRRA NAAR EQ), UNEJVPU  ( UNEJVPU PRAGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: 767 EBHGR 28, UNEJVPU (WHYVRA EQ/ARRY EQ; Arne:PYRNAVAT FCRPVNYVFGF)  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQNYNEZ Prageny Fgngvba\g\aQ: UNE1\g\aYbp: 20 TERL ARPX EQ, UNEJVPU (ZBGURE TBBFR YA/FUBER EQ, FUBER EBNQ YAQT)  ( JRFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: 14 FXVCCREF QE, UNEJVPU (CNQQBPX QE/YBAT EQ)  ( UNEJVPU PRAGRE)\g\a\aAbgrf: cq nfxvat sbe riny\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQFreivpr Pnyy\g\aQ: UNE1\g\aYbp: 767 EBHGR 28, UNEJVPU (WHYVRA EQ/ARRY EQ; Arne:PYRNAVAT FCRPVNYVFGF)  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: 24 UNYYZNEX YA, UNEJVPU (FCEHPR EQ/)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQJnyx-Va\g\aQ: UNE1\g\aYbp: @UNEJVPU SVER URNQDHNEGREF  (175 FVFFBA EQ), UNEJVPU  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: 673 DHRRA NAAR EQ, UNEJVPU   ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: @BHGRE PNCR URNYGU FREIVPRF  (269 PUNGUNZ EQ), UNEJVPU  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZIN Haxabja Vawhel\g\aQ: UNE2\g\aYbp: @RKKBA FGNGVBA  (173 CYRNFNAG YNXR NI), UNEJVPU  ( UNEJVPU PRAGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQNYNEZ Prageny Fgngvba\g\aQ: UNE1\g\aYbp: 6 SERRZNA, UNEJVPU (CYRNFNAG/FABJ VAA EQ, EBHGR 28)  ( UNEJVPU CBEG)\g\a\aAbgrf: UNEOBEJNYX THRFG UBHFR\g\aAbgrf: 2AQ SYBBE FCEVAXYRE NPGVINGVBA\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE3\g\aYbp: 5 ZNEYVA EQ, UNEJVPU (CREVJVAXYR JL/FNAQCVCRE EQ)  ( FBHGU UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 2 RATYRJBBQ QE, UNEJVPU (/SBERFG; Arne:PBHAGEL ZRNQBJ OHVYQVAT N)  ( UNEJVPU PRAGRE)\g\a\aAbgrf: NCG P2\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQTnf Bqbe Angheny/Cebcnar\g\aQ: \g\aYbp: FGNAQVFU JBBQF R/ CYRNFNAG ONL EQ\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE1\g\aYbp: @ORYZBAG PBAQBF  (1 ORYZBAG EQ), UNEJVPU  ( JRFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: @JVFUVAT JRYY ZBGRY  (212 EBHGR 28), UNEJVPU  ( ABEGU UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE4\g\aYbp: 2 ORNPU CYHZ PVE, UNEJVPU (FNAQL YA/DHRRA NAAR EQ)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQPneoba Zbabkvqr/Abaflzcgbzngvp\g\aQ: UNE1\g\aYbp: 44 JNU JNU GNLFRR EQ, UNEJVPU (SVQQYREF YAQT/UHYFR CBVAG EQ)  ( UNEJVPU CBEG)\g\a\aAbgrf: PB NYNEZ SEBZ GUR SVEFG SYBBE\g\aAbgrf: ABOBQL UBZR NG GUVF GVZR\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE3\g\aYbp: 1421 BEYRNAF EQ, UNEJVPU (EBHGR 137/FCRAPR'F GENPR, , EBHGR 39; Arne:UVAXYRLF UBZR PRAGRE)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE2\g\aYbp: 111 URNQJNGREF QE, UNEJVPU (JNYYNPR EQ/; Arne:RCBPU BS UNEJVPU FRAVBE PNER)  ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE2\g\aYbp: 7 RYYRA'F JL, UNEJVPU (GBAV'F JL/ONXREF QE)  ( UNEJVPU PRAGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny Nynez\g\aQ: UNE4\g\aYbp: @SBAGNVAR ZRQVPNY PRAGRE  (525 YBAT CBAQ QE), UNEJVPU  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 328 ONAX, UNEJVPU (CNENYYRY/; Arne:EBLNY NG UNEJVPU IVYYNTR)  ( UNEJVPU PRAGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: 67 WBUA ARYFBA JL, UNEJVPU (/ONAX)  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE2\g\aYbp: 4 PNUBBA YA, UNEJVPU (A JRFGTNGR EQ/EBTREF EQ, FUBER QE)  ( ABEGU UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: EVIREFVQR QE/EBHGR 28, UNEJVPU\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQPneoba Zbabkvqr/Abaflzcgbzngvp\g\aQ: UNE1\g\aYbp: 114 CNENYYRY, UNEJVPU (ONAX/FVFFBA EQ, EBHGR 124, EBHGR 39; Arne:EBFF TYNFF)  ( UNEJVPU PRAGRE)\g\a\aAbgrf: PNER GNXRE QNA OHPXYRL 5087376380\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE4\g\aYbp: 14 JNYXRE JBBQF QE, UNEJVPU (FCEHPR EQ/)  ( RNFG UNEJVPU)\g
 (!) ﻿\aUnesq Qvfcngpu\a\aSQZIN Haxabja Vawhel\g\aQ: UNE3\g\aYbp: @FHCRE FGBC NAQ FUBC  (111 EBHGR 137), UNEJVPU  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQPneoba Zbabkvqr/Abaflzcgbzngvp\g\aQ: UNE2\g\aYbp: 395 DHRRA NAAR EQ, UNEJVPU   ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE2\g\aYbp: @RCBPU BS UNEJVPU FRAVBE PNER  (111 URNQJNGREF QE), UNEJVPU  ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE1\g\aYbp: 67 WBUA ARYFBA JL, UNEJVPU (/ONAX)  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: 6 FUBER EBNQ YAQT, UNEJVPU (/FUBER EBNQ RKG)  ( JRFG UNEJVPU)\g\a\aAbgrf: YRT CNVA\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny Nynez\g\aQ: UNE1\g\aYbp: 103 ORYZBAG EQ, UNEJVPU (JVFUVAT JRYY YA/YBJRE PBHAGL EQ)  ( JRFG UNEJVPU)\g\a\aAbgrf: AB CG PBAGNPG\g\aAbgrf: ERS # 8344639\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE2\g\aYbp: @RCBPU BS UNEJVPU FRAVBE PNER  (111 URNQJNGREF QE), UNEJVPU  ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE2\g\aYbp: 7 OYHROREEL YA, UNEJVPU (ERQ BNXF PG/NMNYRN QE, WHYVN PG)  ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: 25 FPUBBARE QE, UNEJVPU (WHYVRA EQ/)  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE2\g\aYbp: @RCBPU BS UNEJVPU FRAVBE PNER #NEOBEIVRJ EBBZ 124  (111 URNQJNGREF QE), UNEJVPU  ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 16 WBUA ARYFBA JL, UNEJVPU (/)  ( UNEJVPU CBEG)\g\a\aAbgrf: CREEL/ ERS 8310883\g\aAbgrf: FBO\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQFreivpr Pnyy\g\aQ: UNE1\g\aYbp: 7 FRNCBEG YA, UNEJVPU   ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: 333 EBHGR 28 #HAVG 6, UNEJVPU (/; Arne:EBHGR 28 NCNEGZRAGF)  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE2\g\aYbp: 130 URNQJNGREF QE, UNEJVPU (XRIVA EQ/JNYYNPR EQ)  ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE3\g\aYbp: 951 EBHGR 28, UNEJVPU (HAPYR IRAVRF EQ, QRCBG EQ/DHNXRE YA; Arne:ARJOHEL FG FBHGU FNYBA & FCN)  ( FBHGU UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQTnf Bqbe Angheny/Cebcnar\g\aQ: UNE1\g\aYbp: @JVFUVAT JRYY ZBGRY  (212 EBHGR 28), UNEJVPU  ( ABEGU UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 718 ZNVA, UNEJVPU (EBHGR 39/EBHGR 124, CYRNFNAG YNXR NI; Arne:QNAPR MBAR QBWB)  ( UNEJVPU PRAGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE2\g\aYbp: @RCBPU BS UNEJVPU FRAVBE PNER #PENAIVRJ AHEFRF FGNGVBA  (111 URNQJNGREF QE), UNEJVPU  ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQJverf/Cbyrf/Genafsbezref\g\aQ: UNE1\g\aYbp: 7 PEBFF, UNEJVPU (CYRNFNAG/EBHGR 28)  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: 10 PBYBAVNY JL, UNEJVPU (EBHGR 28/)  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZN Yvar Erfcbafr\g\aQ: \g\aYbp: @ZZ 78.7  ( EBHGR 6), QRAAVF\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE1\g\aYbp: 127 TERNG JRFGREA EQ, UNEJVPU (UVYQN'F PNEGJNL/ORYY'F ARPX EQ)  ( ABEGU UNEJVPU)\g\a\aAbgrf: NYOREGVAR AVPXREFBA, YBPX OBK BA ONPX QBBE CBFG PBQR 1624\g\aAbgrf: 84 S\g\aAbgrf: SNYY, HAVAWHERQ. FZNYY QBT VA UBHFR JUVPU ZVTUG OVGR . XRAARY VA ONPX LNEQ GB FRPHER QBT.\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE1\g\aYbp: 601 EBHGR 28, UNEJVPU (ONLIVRJ EQ/ONAX; Arne:FHAQNR FPUBBY VPR PERNZ)  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQNYNEZ Prageny Fgngvba\g\aQ: UNE1\g\aYbp: @ORYZBAG PBAQBF  (1 ORYZBAG EQ), UNEJVPU  ( JRFG UNEJVPU)\g\a\aAbgrf: TRARENY SVER NYNEZ\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE2\g\aYbp: 52 ELQRE EQ, UNEJVPU (SENAPVF EQ/)  ( ABEGU UNEJVPU)\g\a\aAbgrf: PBAQ 11\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQBqbe Bhgfvqr\g\aQ: UNE1\g\aYbp: 109 TERL ARPX EQ, UNEJVPU   ( JRFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQPneoba Zbabkvqr/Abaflzcgbzngvp\g\aQ: UNE4\g\aYbp: 16 FGNAQVFU JBBQF PVE, UNEJVPU (ZNEL JVYYRGG PG/ZNEGUN RNGBA PG)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE2\g\aYbp: 231 ZNVA, UNEJVPU (DHRRA NAAR EQ/PNERF JL)  ( ABEGU UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: 229 PUHEPU, UNEJVPU (JNFUOHEA JL/ONL EQ)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: 40 FGNAQVFU JBBQF PVE, UNEJVPU (YLQVN ONATF JL/WNFCRE ZBBER GEY; Arne:QU RAGRECEVFRF)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE2\g\aYbp: 111 URNQJNGREF QE, UNEJVPU (JNYYNPR EQ/; Arne:RCBPU BS UNEJVPU FRAVBE PNER)  ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE4\g\aYbp: 12 BYQR YNAGREA YA, UNEJVPU (/BYQR UBZRFGRNQ JL)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE2\g\aYbp: 24 QRNPBAF SBYYL EQ, UNEJVPU (; Arne:ARJ RATYNAQ BHGFVQR FUBJREF / TEF CYHZOVAT)  ( ABEGU UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE2\g\aYbp: @UNEJVPU UBHFR  (26 CYRNFNAG YNXR NI), UNEJVPU  ( UNEJVPU PRAGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQFreivpr Pnyy\g\aQ: UNE1\g\aYbp: @FUNJF (UNEJVPU)  (18 FVFFBA EQ), UNEJVPU  ( UNEJVPU CBEG)\g\a\aAbgrf: YBPX BCHG\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: \g\aYbp: PBZZHGRE YBG\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE3\g\aYbp: 4 TYRAJBBQ QE, UNEJVPU (/EBHGR 39, BEYRNAF EQ)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE2\g\aYbp: 26 PBGGBAJBBQ EQ, UNEJVPU   ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE3\g\aYbp: 4 TYRAJBBQ QE, UNEJVPU (/EBHGR 39, BEYRNAF EQ)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: \g\aYbp: 240 EVIREIVRJ QE, PUNGUNZ (FNPURZNF JL/PUVCCVAT FGBAR EQ)  ( PUNGUNZ)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE2\g\aYbp: 11 ZNEVR YA, UNEJVPU (QRAVFR YA/QRCBG)  ( ABEGU UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: @EBFRJBBQ ZNABE #EBBZ 208  (671 ZNVA), UNEJVPU  ( UNEJVPU PRAGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQJnyx-Va\g\aQ: UNE1\g\aYbp: @UNEJVPU SVER URNQDHNEGREF  (175 FVFFBA EQ), UNEJVPU  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZIN j/Vawhel\g\aQ: UNE1\g\aYbp: NOVTNVY NI/EBHGR 39, UNEJVPU\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 76 EBHGR 28, UNEJVPU (ZNAFVBA, YLER PBGGNTR EQ/QRCBG EQ J, ORYZBAG EQ; Arne:PYNQQNTU VAA)  ( JRFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE1\g\aYbp: 60 WBUA ARYFBA JL, UNEJVPU   ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: 671 ZNVA, UNEJVPU (HAPYR UNEEL'F JL/VFYNAQ CBAQ EQ; Arne:EBFRJBBQ ZNABE)  ( UNEJVPU PRAGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZN Yvar Erfcbafr\g\aQ: \g\aYbp: 383 F BEYRNAF EQ, OERJFGRE (PEBFF EQ/GNE XVYA EQ, EBHGR 39, UNEJVPU EQ)  ( OERJFGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE2\g\aYbp: 26 CYRNFNAG YNXR NI, UNEJVPU (QEHZ YA, EBHGR 124/; Arne:UNEJVPU UBHFR)  ( UNEJVPU PRAGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE2\g\aYbp: 42 YNXRIVRJ QE, UNEJVPU (/DHRRA NAAR EQ)  ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny Nynez\g\aQ: UNE2\g\aYbp: @CVAR BNXF IVYYNTR, CUNFR VVV  (300 YRVTUGBAF YA), UNEJVPU  ( UNEJVPU PRAGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny Nynez\g\aQ: UNE2\g\aYbp: @UNEJVPU UBHFR  (26 CYRNFNAG YNXR NI), UNEJVPU  ( UNEJVPU PRAGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQPneoba Zbabkvqr/Abaflzcgbzngvp\g\aQ: UNE1\g\aYbp: 2 RATYRJBBQ QE, UNEJVPU (/SBERFG; Arne:PBHAGEL ZRNQBJ OHVYQVAT N)  ( UNEJVPU PRAGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: 254 EBHGR 137, UNEJVPU (FUREJBBQ EQ/)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE2\g\aYbp: 482 CYRNFNAG YNXR NI, UNEJVPU (FRLZBHE EQ/QHXR ONYYRZ EQ, FRDHNGGBZ EQ, EBHGR 124; Arne:PPEG 5.5)  ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE2\g\aYbp: 482 CYRNFNAG YNXR NI, UNEJVPU (FRLZBHE EQ/QHXR ONYYRZ EQ, FRDHNGGBZ EQ, EBHGR 124; Arne:PPEG 5.5)  ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 74 WBUA ARYFBA JL, UNEJVPU (/ONAX)  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: @WNXR EBBARLF  (119 OEBBXF EQ), UNEJVPU  ( UNEJVPU CBEG)\g\a\aAbgrf: PBAQ 3\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQOehfu Sver Zvabe\g\aQ: UNE4\g\aYbp: 6 ZRERQVGU JL, UNEJVPU (/XVZOREYL JL)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE2\g\aYbp: 130 URNQJNGREF QE, UNEJVPU (XRIVA EQ/JNYYNPR EQ)  ( CYRNFNAG YNXR)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQNYNEZ Ybpny\g\aQ: UNE1\g\aYbp: 28 TERRA ARRQYR YA, UNEJVPU (CVAR ARRQYR YA/ORNPU EQ)  ( JRFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE1\g\aYbp: 16 WBUA ARYFBA JL, UNEJVPU (/)  ( UNEJVPU CBEG)\g\a\aAbgrf: 70S\g\aAbgrf: ERS 8118135\g\aAbgrf: CREEL\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 2 XRNAR JL, UNEJVPU (/ZVYRF)  ( UNEJVPU CBEG)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: @SBAGNVAR ZRQVPNY PRAGRE #JNYXVA PYVAVP  (525 YBAT CBAQ QE), UNEJVPU  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQPneoba Zbabkvqr/Flzcgbzngvp\g\aQ: UNE4\g\aYbp: 7 RNTYRF ARFG EQ, UNEJVPU (CYRNFNAG ONL EQ/)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: \g\aYbp: 269 PUNGUNZ EQ , UNEJVPU\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQPneoba Zbabkvqr/Abaflzcgbzngvp\g\aQ: UNE4\g\aYbp: 8 WNFCRE ZBBER GEY, UNEJVPU (/FGNAQVFU JBBQF PVE; Arne:QU RAGRECEVFRF)  ( RNFG UNEJVPU)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQNYNEZ Prageny Fgngvba\g\aQ: UNE1\g\aYbp: 115 FVFFBA EQ, UNEJVPU   ( UNEJVPU PRAGRE)\g
-(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: \g\aYbp: 646 BSS QRCBG EQ A UNEVJPU\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: 525 YBAT CBAQ QE, UNEJVPU (EBHGR 137, ZVYYREF GBYY EQ/ZVYY CBAQ EQ; Arne:SBAGNVAR ZRQVPNY PRAGRE)  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE2\g\aYbp: 152 ZNVA, UNEJVPU (QRCBG, ZNVA FG RKG/F JRFGTNGR EQ)  ( ABEGU UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: 29 YNXRJNL YA, UNEJVPU (DHNVY ARFG EHA/JNYRF EQ)  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: 34 WBUA ARYFBA JL, UNEJVPU   ( UNEJVPU PRAGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 215 YBGUEBC NI, UNEJVPU   ( ABEGU UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: @YNAQ UB  (429 EBHGR 28), UNEJVPU  ( UNEJVPU CBEG)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQFreivpr Pnyy\g\aQ: UNE3\g\aYbp: @FHCRE FGBC NAQ FUBC  (111 EBHGR 137), UNEJVPU  ( RNFG UNEJVPU)\g\a\aAbgrf: YBPX BHG PNE\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE4\g\aYbp: 9 XVZOREYL JL, UNEJVPU (/CNZRYN JL)  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: @SBAGNVAR ZRQVPNY PRAGRE  (525 YBAT CBAQ QE), UNEJVPU  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQNYNEZ Prageny Fgngvba\g\aQ: UNE1\g\aYbp: 39 QHARF EQ, UNEJVPU (ABAF EQ/OEBBXF EQ, ZBABZBL EQ)  ( UNEJVPU CBEG)\g\a\aAbgrf: SVER NYNEZ TNENTR NAQ FRPBAQ SYBBE\g\aAbgrf: UBZRBJAREF - EBTREF\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: 195 EBHGR 137, UNEJVPU (PUEVFWBORGU PVE/FPBGPU CVAR SNEZ; Arne:YVTUGUBHFR PUNEGRE FPUBBY)  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQNYNEZ Prageny Fgngvba\g\aQ: UNE1\g\aYbp: 20 TERL ARPX EQ, UNEJVPU (ZBGURE TBBFR YA/FUBER EQ, FUBER EBNQ YAQT)  ( JRFG UNEJVPU)\g\a\aAbgrf: ONFRZRAG FZBXR\g\aAbgrf: 781-729-4252\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE4\g\aYbp: 9 XVZOREYL JL, UNEJVPU (/CNZRYN JL)  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: SREAJBBQ PVE/EBHGR 39, UNEJVPU\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: @UNEJVPU SVER URNQDHNEGREF  (175 FVFFBA EQ), UNEJVPU  ( UNEJVPU CBEG)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 15 FBHGU FG, UNEJVPU (ZVYRF/URYRAN NI)  ( UNEJVPU CBEG)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 10 BYQ PBHAGL EQ, UNEJVPU   ( FBHGU UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE2\g\aYbp: 4 JNYYNPR EQ, UNEJVPU (ZNEVBA EQ/URNQJNGREF QE)  ( CYRNFNAG YNXR)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE2\g\aYbp: 321 YRVTUGBA'F YA, UNEJVPU (BNX/)  ( UNEJVPU PRAGRE)\g\a\aAbgrf: SNYY AB VAW\g\aAbgrf: 81 L/B S\g\aAbgrf: ERS P-20239389\g\aAbgrf: JVYXRL\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 2 GENPL YA, UNEJVPU (/NOVTNVY NI)  ( UNEJVPU PRAGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE4\g\aYbp: @PNCR PBQ PBBCRENGVIR ONAX  (1470 BEYRNAF EQ), UNEJVPU  ( RNFG UNEJVPU)\g\a\aAbgrf: SNYY\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE3\g\aYbp: @RZRENYQ CULFVPVNAF  (1421 BEYRNAF EQ), UNEJVPU  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 601 EBHGR 28, UNEJVPU (ONLIVRJ EQ/ONAX; Arne:FHAQNR FPUBBY VPR PERNZ)  ( UNEJVPU CBEG)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: \g\aYbp: 307 EBHGR 28\g\a\aAbgrf: PBAQ 3-4\g\aAbgrf: 3EQ CNEGL PNYY\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: 16 YNEXVA YA, UNEJVPU (OREVNU OEBBXF EQ/)  ( UNEJVPU PRAGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: 25 SERRZNA, UNEJVPU (/CYRNFNAG)  ( UNEJVPU CBEG)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZN Nccnenghf\g\aQ: \g\aYbp: @CYRNFNAG ONL AHEFVAT NAQ ERUNO  (383 F BEYRNAF EQ), OERJFGRE  ( OERJFGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE4\g\aYbp: @SBAGNVAR ZRQVPNY PRAGRE  (525 YBAT CBAQ QE), UNEJVPU  ( RNFG UNEJVPU)\g\a\aAbgrf: 1 QHCYVPNGR ERFCBAFR(F) SBHAQ\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE3\g\aYbp: 20 QEVSGJBBQ PVE, UNEJVPU (PBZZHAVGL JL/QEVSGJBBQ YA)  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: 8 UHZZVATOVEQ YA, UNEJVPU (DHRRA NAAR EQ/; Arne:Ohpxf Cbaq)  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZN Nccnenghf\g\aQ: \g\aYbp: 706 FUBER EQ, GEHEB (/EBHGR 6N; Arne:Zbba Cbaq)  ( GEHEB)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE2\g\aYbp: 356 YRVTUGBA'F YA, UNEJVPU (BNX/)  ( UNEJVPU PRAGRE)\g\a\aAbgrf: ONPX CNVA\g\aAbgrf: CNMNPXVF ERVFQRAPR\g\aAbgrf: 79 L/B Z\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: @SBAGNVAR ZRQVPNY PRAGRE  (525 YBAT CBAQ QE), UNEJVPU  ( RNFG UNEJVPU)\g\a\aAbgrf: PURFG CNVA\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZIN j/Vawhel\g\aQ: UNE1\g\aYbp: EBHGR 39/NOVTNVY NI, UNEJVPU\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQUNMZNG\g\aQ: \g\aYbp: @EBHGR 137 BA ENZC; UNEJVPU\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 132 TVYOREG YA, UNEJVPU (BYQ GNIREA YA/QBNAR EQ)  ( UNEJVPU CBEG)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE3\g\aYbp: 15 PBZCNFF QE, UNEJVPU (/PRZRGREL EQ; Arne:BKSBEQ OHVYQVAT & ERZBQRYVAT)  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQPneoba Zbabkvqr/Abaflzcgbzngvp\g\aQ: UNE4\g\aYbp: 18 PNAABA UVYY QE, UNEJVPU (ZNEL ORGU YA/SRQRENY YA)  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: @BYQ UNEJVPU YBQTVAT  (40 EBHGR 28), UNEJVPU  ( JRFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: @UNEJVPU RYRZRAGNEL FPUBBY  (263 FBHGU FG), UNEJVPU  ( UNEJVPU PRAGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: @SBAGNVAR ZRQVPNY PRAGRE  (525 YBAT CBAQ QE), UNEJVPU  ( RNFG UNEJVPU)\g\a\aAbgrf: NOQ CNVA\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQNYNEZ Ybpny\g\aQ: UNE4\g\aYbp: 95 EBHAQ PBIR EQ, UNEJVPU (EBHGR 137/PNAABA UVYY QE)  ( RNFG UNEJVPU)\g
+(ER: Evtug fvqr fprar yvtug bhg( Unybtra ohyo ohearq bhg)) QCJ unf gur ercbeg\a\aSebz: USQFG1\aCbfgrq Ng: Ghrfqnl, Bpgbore 28, 2014 11:26 NZ\aCbfgrq Gb: Ratvar 69\aPbairefngvba: Evtug fvqr fprar yvtug bhg( Unybtra ohyo ohearq bhg)\aFhowrpg: Evtug fvqr fprar yvtug bhg( Unybtra ohyo ohearq bhg)
+(ER: Punva fnj ceboyrz( Pyhgpu jba'g qvfratntr; punva nyjnlf fcvaavat)) Jvyy unir fnj gnxra gbz QCJ\a\aSebz: USQFG1\aCbfgrq Ng: Ghrfqnl, Bpgbore 28, 2014 11:21 NZ\aCbfgrq Gb: Ratvar 69\aPbairefngvba: Punva fnj ceboyrz( Pyhgpu jba'g qvfratntr; punva nyjnlf fcvaavat)\aFhowrpg: Punva fnj ceboyrz( Pyhgpu jba'g qvfratntr; punva nyjnlf fcvaavat)
+(!) ﻿\aUnesq Qvfcngpu\a\aSQNYNEZ Prageny Fgngvba\g\aQ: UNE1\g\aYbp: 15 ZVENFBY YA, UNEJVPU (YBJRE PBHAGL EQ/JRDHNFFRGG EQ)  ( UNEJVPU CBEG)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZN Yvar Erfcbafr\g\aQ: \g\aYbp: 375 OEVQTR, PUNGUNZ (/ZBEEVF VFYNAQ EQ, FVYIRE YRNS NI, ZNVA)  ( PUNGUNZ)\g\a\aAbgrf: RAT FGN 2 - YNQQRE SEBZ UD\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 30 JVAQJNEQ JX, UNEJVPU (/EVQTRCBEG QE)  ( UNEJVPU PRAGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny Nynez\g\aQ: UNE2\g\aYbp: 7 OYHROREEL YA, UNEJVPU (ERQ BNXF PG/NMNYRN QE, WHYVN PG)  ( CYRNFNAG YNXR)\g\a\aAbgrf: CRNPU,UBJNEQ  ERFVQRAPR, ZRQVPNY CRAQNAG\g\aAbgrf: AB PBAGNPG\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: 696 DHRRA NAAR EQ, UNEJVPU   ( UNEJVPU PRAGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQNYNEZ Ybpny\g\aQ: UNE1\g\aYbp: 728 ZNVA, UNEJVPU (ONAX, EBHGR 39/; Arne:FCRRQJNL TNF)  ( UNEJVPU PRAGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE1\g\aYbp: 15 FUNAABA EQ, UNEJVPU (PENAOREEL YA/QNYR EQ)  ( UNEJVPU PRAGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 28 CNGEVPVN YA, UNEJVPU   ( JRFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQFreivpr Pnyy\g\aQ: UNE3\g\aYbp: 7 QRRE ZRNQBJ EQ, UNEJVPU (ZNEFUIVRJ EQ/FHTNE UVYY QE)  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE4\g\aYbp: @SBAGNVAR ZRQVPNY PRAGRE  (525 YBAT CBAQ QE), UNEJVPU  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQTnf Bqbe Angheny/Cebcnar\g\aQ: UNE4\g\aYbp: PUHEPU/EBHGR 39, UNEJVPU\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQJverf/Cbyrf/Genafsbezref\g\aQ: UNE1\g\aYbp: 47 FNDHNGHPXRG OYHSSF EQ, UNEJVPU (FNDHNGHPXRG CG/PYVSS QE)  ( UNEJVPU CBEG)\g\a\aAbgrf: JVER NPEBFF QEVIRJNL\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE2\g\aYbp: @CYRNFNAG YNXR ZRQVPNY PRAGRE  (253 CYRNFNAG YNXR NI), UNEJVPU  ( UNEJVPU PRAGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 68 WBUA ARYFBA JL, UNEJVPU (/ONAX)  ( UNEJVPU PRAGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZN Nzo.\g\aQ: \g\aYbp: 112 PURFGAHG PVE, OERJFGRE (/FRGGYRE'F QE)  ( OERJFGRE)\g\a\aAbgrf: 1 QHCYVPNGR ERFCBAFR(F) SBHAQ\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE2\g\aYbp: 19 CEVAPR PUNEYRF QE, UNEJVPU (/OYNPX YBPU QE)  ( CYRNFNAG YNXR)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQNYNEZ Ybpny\g\aQ: UNE1\g\aYbp: 2 RATYRJBBQ QE #OYQT R, UNEJVPU (/SBERFG; Arne:PBHAGEL ZRNQBJ OHVYQVAT N)  ( UNEJVPU PRAGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: 179 TBEUNZ EQ, UNEJVPU (TBEUNZ PG/UBLG EQ)  ( UNEJVPU CBEG)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE3\g\aYbp: 182 ONL EQ, UNEJVPU (OYHR UREBA YAQT/ONL OERRMR YA)  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: @QBZVABF CVMMN  (16 EBHGR 28), UNEJVPU  ( JRFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZIN Haxabja Vawhel\g\aQ: UNE2\g\aYbp: DHRRA NAAR EQ/ZNVA, UNEJVPU\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZIN Haxabja Vawhel\g\aQ: UNE1\g\aYbp: 71 ZNVA FG RKG, UNEJVPU (/RIRETERRA JL)  ( ABEGU UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: 8 GBQL OBYR YA, UNEJVPU (OREVNU OEBBXF EQ/)  ( UNEJVPU PRAGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: @UNEJVPU CBYVPR QRCNEGZRAG  (183 FVFFBA EQ), UNEJVPU  ( UNEJVPU CBEG)\g\a\aAbgrf: RINY\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE1\g\aYbp: @UNEJVPU CBYVPR QRCNEGZRAG  (183 FVFFBA EQ), UNEJVPU  ( UNEJVPU CBEG)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: \g\aYbp: 131 QVIVFVBA, UNEJVPU (ABEGU FG/EBHGR 28)  ( QRAAVFCBEG)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE3\g\aYbp: 968 EBHGR 28, UNEJVPU (HAPYR IRAVRF EQ, QRCBG EQ/DHNXRE YA)  ( FBHGU UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: \g\aYbp: @PNCGNVAF TBYS PBHEFR  (1000 SERRZNAF JNL), OERJFGRE  ( OERJFGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE4\g\aYbp: @SBAGNVAR ZRQVPNY PRAGRE  (525 YBAT CBAQ QE), UNEJVPU  ( RNFG UNEJVPU)\g\a\aAbgrf: 33 ZBAGU BYQ\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: @UNEJVPU CBYVPR QRCNEGZRAG  (183 FVFFBA EQ), UNEJVPU  ( UNEJVPU CBEG)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny Nynez\g\aQ: UNE3\g\aYbp: 13 BPRNA, UNEJVPU (YNXR/NYQRA)  ( FBHGU UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE2\g\aYbp: 27 ORGGLF YA, UNEJVPU (JVFQBZ JL/CYRNFNAG YNXR NI, EBHGR 124)  ( UNEJVPU PRAGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-1\g\aQ: \g\aYbp: 383 F BEYRNAF EQ, OERJFGRE (PEBFF EQ/GNE XVYA EQ, EBHGR 39, UNEJVPU EQ)  ( OERJFGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQFreivpr Pnyy\g\aQ: UNE4\g\aYbp: @PIF - RNFG UNEJVPU  (148 EBHGR 137), UNEJVPU  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQFreivpr Pnyy\g\aQ: UNE1\g\aYbp: 31 SBK EHA, UNEJVPU (/TBEUNZ EQ)  ( UNEJVPU PRAGRE)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQNYNEZ Ybpny\g\aQ: UNE4\g\aYbp: 37 ORNPU CYHZ PVE, UNEJVPU (/FNAQL YA; Arne:PNCR PBQ ONOL PBZCNAL)  ( RNFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3\g\aQ: UNE1\g\aYbp: 100 QBNAR EQ, UNEJVPU (FVTANY YA/TVYOREG YA)  ( UNEJVPU CBEG)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE1\g\aYbp: 48 FGENAQ JL, UNEJVPU (CVAR YA/)  ( JRFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQJverf/Cbyrf/Genafsbezref\g\aQ: UNE2\g\aYbp: 65 FRDHNGGBZ EQ, UNEJVPU (1FG FG/3EQ FG; Arne:Ybat Cbaq)  ( CYRNFNAG YNXR)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-3 Nffvfg\g\aQ: UNE1\g\aYbp: 66 FUBER EQ, UNEJVPU (TERL ARPX EQ, FUBER EBNQ YAQT/TERRA ARRQYR YA)  ( JRFG UNEJVPU)\g
+(!) ﻿\aUnesq Qvfcngpu\a\aSQZrqvpny C-2\g\aQ: UNE2\g\aYbp: 127 URNQJNGREF QE, UNEJVPU (XRIVA EQ/JNYYNPR EQ)  ( CYRNFNAG YNXR)\g
 
 */
 
