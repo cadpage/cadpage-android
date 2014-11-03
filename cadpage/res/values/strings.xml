@@ -128,6 +128,10 @@
    <string name="pref_notif_sound_title">Notification Sound</string>
    <string name="pref_notif_sound_summary">This sound will play when a message is received</string>
 
+   <string name="pref_notif_delay_title">Alert Delay</string>
+   <string name="pref_notif_delay_summary">Cadpage alert will be delayed by: Cur value: %s </string>
+   <string name="pref_notif_delay_dialogTitle">Alert delay period (seconds)</string>
+   
    <string name="pref_vibrate_title">Vibrate</string>
    <string name="pref_vibrate_summaryon">Vibrate is on</string>
    <string name="pref_vibrate_summaryoff">Vibrate is off</string>
@@ -236,17 +240,24 @@
 
   <string name="pref_notif_repeat_times_entries_keep_repeting">Keep repeating</string>
 
-  <string name="pref_timeout_entries_disabled">Disabled</string>
-  <string name="pref_timeout_entries_10s">10 seconds</string>
-  <string name="pref_timeout_entries_20s">20 seconds</string>
-  <string name="pref_timeout_entries_30s">30 seconds</string>
-  <string name="pref_timeout_entries_1m">1 minute</string>
-  <string name="pref_timeout_entries_2m">2 minutes</string>
-  <string name="pref_timeout_entries_3m">3 minutes</string>
-  <string name="pref_timeout_entries_4m">4 minutes</string>
-  <string name="pref_timeout_entries_5m">5 minutes</string>
-  <string name="pref_timeout_entries_7m">7 minutes</string>
-  <string name="pref_timeout_entries_10m">10 minutes</string>
+  <string name="pref_disabled">Disabled</string>
+  <string name="pref_no_delay">No Delay</string>
+  <string name="pref_p5s">.5 seconds</string>
+  <string name="pref_1s">1 seconds</string>
+  <string name="pref_1p5s">1.5 seconds</string>
+  <string name="pref_2s">2 seconds</string>
+  <string name="pref_3s">3 seconds</string>
+  <string name="pref_10s">10 seconds</string>
+  <string name="pref_20s">20 seconds</string>
+  <string name="pref_30s">30 seconds</string>
+  <string name="pref_1m">1 minute</string>
+  <string name="pref_1p5m">1.5 minute</string>
+  <string name="pref_2m">2 minutes</string>
+  <string name="pref_3m">3 minutes</string>
+  <string name="pref_4m">4 minutes</string>
+  <string name="pref_5m">5 minutes</string>
+  <string name="pref_7m">7 minutes</string>
+  <string name="pref_10m">10 minutes</string>
   
   <string name="pref_vibrate_pattern_entries_normal">Normal</string>
   <string name="pref_vibrate_pattern_entries_long">Long Vibrate</string>

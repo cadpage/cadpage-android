@@ -1,7 +1,7 @@
 package net.anei.cadpage.preferences;
 
 import net.anei.cadpage.ManageNotification;
-import net.anei.cadpage.R;
+import net.anei.cadpage.SmsMessageQueue;
 import net.anei.cadpage.SmsMmsMessage;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -31,15 +31,9 @@ public class TestNotificationDialogPreference extends DialogPreference {
   @Override
   protected View onCreateDialogView() {
 
-    // Create a test SmsMmsMessage
-    String testPhone = "123-456-7890";
-
-    SmsMmsMessage message =
-      new SmsMmsMessage(testPhone, "", context.getString(R.string.pref_notif_test_title),
-          0, SmsMmsMessage.MESSAGE_TYPE_SMS);
-
     // Show notification
-    ManageNotification.show(context, message);
+    SmsMmsMessage msg = SmsMessageQueue.getInstance().getMessage(0);
+    ManageNotification.show(context, msg);
 
     return super.onCreateDialogView();
   }

@@ -168,6 +168,15 @@ public class SmsMessageQueue implements Serializable {
     for (SmsMmsMessage msg : queue) {
       if (msgId == msg.getMsgId()) return msg;
     }
+    
+    // Zero is a special case that returns a test message
+    if (msgId == 0) {
+      String testMsg = context.getString(R.string.pref_notif_test_title);
+      return new SmsMmsMessage("1234567890", testMsg, testMsg,
+                                0, SmsMmsMessage.MESSAGE_TYPE_SMS);
+    }
+    
+    // Otherwise return null
     return null;
   }
   

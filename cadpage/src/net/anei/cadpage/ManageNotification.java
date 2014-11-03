@@ -3,6 +3,7 @@ package net.anei.cadpage;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import android.annotation.TargetApi;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -14,11 +15,13 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnErrorListener;
 import android.net.Uri;
+import android.os.Build;
 import android.support.v4.app.NotificationCompat;
 
 /*
  * This class handles the Notifications (sounds/vibrate/LED)
  */
+@TargetApi(Build.VERSION_CODES.FROYO)
 public class ManageNotification {
   
   private static final int MAX_PLAYER_RETRIES = 4;
@@ -26,6 +29,18 @@ public class ManageNotification {
   private static final int NOTIFICATION_ALERT = 1337;
   
   private static MediaPlayer mMediaPlayer = null;
+  
+  private static AudioFocusManager afm = null;
+  
+  static {
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
+      try {
+        afm = (AudioFocusManager)Class.forName("net.anei.cadpage.ManageNotification$AudioFocusManagerImpl").newInstance();
+      } catch (Exception ex) {
+        throw new RuntimeException(ex);
+      }
+    }
+  }
   
   @SuppressWarnings("serial")
   private static class MediaFailureException extends RuntimeException {
@@ -47,34 +62,39 @@ public class ManageNotification {
   /*
    * The main notify method
    */
-  public static boolean show(Context context, SmsMmsMessage message) {
-    boolean result = show(context, message, true);
-    if (result) {
-      ClearAllReceiver.setCancel(context, ManagePreferences.notifyTimeout(), 
-                                 ClearAllReceiver.ClearType.NOTIFY);
-    }
-    return result;
-  }
-  
-  
-  public static boolean show(Context context, SmsMmsMessage message, boolean reminder) {
+  public static void show(Context context, SmsMmsMessage message) {
     
     // Check if notifications are enabled - if not, we're done :)
-    if (!ManagePreferences.notifyEnabled() && !ManagePreferences.notifyOverride()) return false;
+    if (!ManagePreferences.notifyEnabled() && !ManagePreferences.notifyOverride()) return;
+    
+    // Schedule notification after appropriate delay
+    ReminderReceiver.scheduleNotification(context, message);
+  }
+  
+  /**
+   * Called by ReminderReceiver when it is time to initiate a notification
+   * @param context current context
+   * @param message message this is about
+   * @param first true if this is the initial notification for this call.
+   */
+  public static void show(Context context, SmsMmsMessage message, boolean first) {
 
+    // Build and launch the notification
     Notification n = buildNotification(context, message);
+    
+    NotificationManager myNM = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
 
-    // Launch the notification
-    NotificationManager myNM =
-        (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-
-      // Seems this is needed for the number value to take effect on the Notification
-      myNM.cancel(NOTIFICATION_ALERT);
-      myNM.notify(NOTIFICATION_ALERT, n);
+    // Seems this is needed for the number value to take effect on the Notification
+    myNM.cancel(NOTIFICATION_ALERT);
+    myNM.notify(NOTIFICATION_ALERT, n);
 
     // Schedule a reminder notification
-    if (reminder && !ManagePreferences.notifyOverride()) ReminderReceiver.scheduleReminder(context, message);
-    return true;
+    if (!ManagePreferences.notifyOverride()) ReminderReceiver.scheduleReminder(context, message);
+    
+    // If this is the initial notification, schedule the timeout event
+    if (first) {
+      ClearAllReceiver.setCancel(context, ManagePreferences.notifyTimeout(), ClearAllReceiver.ClearType.NOTIFY);
+    }
   }
 
   /*
@@ -159,8 +179,27 @@ public class ManageNotification {
       }
     }
 
-    if ( ManagePreferences.notifyOverride() || ManagePreferences.notifyEnabled()) { 
+    if ( ManagePreferences.notifyOverride() || ManagePreferences.notifyEnabled()) {
+      
+      // Are we doing are own alert sound?
       if (ManagePreferences.notifyOverride()) {
+        
+        // Grab audio focus
+        if (afm != null) afm.grabAudioFocus(context);
+        
+        // Save previous volume and set volume to max
+        int restoreVol = ManagePreferences.restoreVol();
+        if (restoreVol < 0) {
+          AudioManager am = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
+          int maxVol = am.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
+          int curVol = am.getStreamVolume(AudioManager.STREAM_MUSIC);
+          if (curVol != maxVol) {
+            am.setStreamVolume(AudioManager.STREAM_MUSIC, maxVol, 0);
+            ManagePreferences.setRestoreVol(curVol);
+          }
+        }
+        
+        // Start Media Player
         startMediaPlayer(context, 0);
       } else {	 
         Uri alarmSoundURI = Uri.parse(ManagePreferences.notifySound());
@@ -205,7 +244,6 @@ public class ManageNotification {
         mMediaPlayer.prepare();
         mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
         mMediaPlayer.setLooping(true);
-        mMediaPlayer.setVolume(1.0f, 1.0f);
         listener.arm();
         mMediaPlayer.start();
       } catch (IOException ex) {
@@ -218,13 +256,24 @@ public class ManageNotification {
   /**
    * Stop media player
    */
-  private synchronized static void stopMediaPlayer() {
+  private synchronized static void stopMediaPlayer(Context context) {
     // Stop media player if running
     if (mMediaPlayer != null) {
       mMediaPlayer.stop();
       mMediaPlayer.release();
       mMediaPlayer = null;
     }
+    
+    // Restore volume if we messed it up
+    int vol = ManagePreferences.restoreVol();
+    if (vol >= 0) {
+      AudioManager am = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
+      am.setStreamVolume(AudioManager.STREAM_MUSIC, vol, 0);
+      ManagePreferences.setRestoreVol(-1);
+    }
+    
+    // And release audio focus
+    if (afm != null) afm.releaseAudioFocus(context);
   }
   
   // Media error listener
@@ -249,7 +298,7 @@ public class ManageNotification {
     public boolean onError(MediaPlayer mp, int what, int extra) {
       if (armed && what == MediaPlayer.MEDIA_ERROR_SERVER_DIED && startCnt < MAX_PLAYER_RETRIES) {
         Log.e("Restarting Media Player");
-        stopMediaPlayer();
+        stopMediaPlayer(context);
         startMediaPlayer(context, startCnt+1);
         return true;
       }
@@ -269,14 +318,13 @@ public class ManageNotification {
       (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
     myNM.cancel(NOTIFICATION_ALERT);
     
-    stopMediaPlayer();
+    stopMediaPlayer(context);
   }
 
   /**
    * Parse the user provided custom vibrate pattern into a long[]
    * 
    */
-  // TODO: tidy this up
   public static long[] parseVibratePattern(String stringPattern) {
     ArrayList<Long> arrayListPattern = new ArrayList<Long>();
     Long l;
@@ -299,7 +347,6 @@ public class ManageNotification {
       arrayListPattern.add(l);
     }
 
-    // TODO: can i just cast the whole ArrayList into long[]?
     int size = arrayListPattern.size();
     if (size > 0 && size < VIBRATE_PATTERN_MAX_PATTERN) {
       long[] pattern = new long[size];
@@ -361,10 +408,43 @@ public class ManageNotification {
    */
   public static boolean isAckNeeded() {
     
-    // If the media player is active, we *REALLY* need an acknowledge function
-    if (mMediaPlayer != null) return true;
+    // Until we figure out a way to determine if a regular notification sound
+    // is set to loop forever, we will assume that it is.
+    return true;
+//    
+//    // If the media player is active, we *REALLY* need an acknowledge function
+//    if (mMediaPlayer != null) return true;
+//    
+//    // Otherwise, we need a acknowledge function if reminders are active
+//    return ManagePreferences.notifyRepeat();
+  }
+  
+  
+  private static interface AudioFocusManager extends AudioManager.OnAudioFocusChangeListener {
     
-    // Otherwise, we need a acknowledge function if reminders are active
-    return ManagePreferences.notifyRepeat();
+    public void grabAudioFocus(Context context);
+    
+    public void releaseAudioFocus(Context context);
+    
+  }
+  
+  public static class AudioFocusManagerImpl implements AudioFocusManager {
+
+    @Override
+    public void onAudioFocusChange(int focusChange) {
+      // We want the focus and will not honor requests to give it up !!
+    }
+
+    @Override
+    public void grabAudioFocus(Context context) {
+      AudioManager am = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
+      am.requestAudioFocus(this, AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
+    }
+
+    @Override
+    public void releaseAudioFocus(Context context) {
+      AudioManager am = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
+      am.abandonAudioFocus(this);
+    }
   }
 }

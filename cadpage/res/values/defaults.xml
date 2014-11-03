@@ -13,8 +13,9 @@
    <string name="pref_flashled_default">true</string>
    <string name="pref_flashled_pattern_default">1000,1000</string>
    <string name="pref_flashled_color_default">Yellow</string>
+   <string name="pref_notif_delay_default">0</string>
    <string name="pref_notif_repeat_default">false</string>
-   <string name="pref_notif_repeat_interval_default">5</string>
+   <string name="pref_notif_repeat_interval_default">60</string>
    <string name="pref_resp_type_default">P</string>
    <string name="pref_resp_merge_default">R</string>
    <string name="pref_button1_default">1</string>

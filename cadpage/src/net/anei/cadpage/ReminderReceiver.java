@@ -10,7 +10,8 @@ public class ReminderReceiver extends BroadcastReceiver {
 
   private static final String ACTION_REMIND = "net.anei.cadpage.ACTION_REMIND";
   
-  private static String EXTRAS_MSG_ID = "net.anei.cadpage.EXTRAS_MSG_ID";
+  private static String EXTRA_MSG_ID = "net.anei.cadpage.ReminderReceiver.EXTRA_MSG_ID";
+  private static String EXTRA_START = "net.anei.cadpage.ReminderReceiver.EXTRA_START";
 
   @Override
   public void onReceive(Context context, Intent intent) {
@@ -24,17 +25,27 @@ public class ReminderReceiver extends BroadcastReceiver {
     } else if (Intent.ACTION_DELETE.equals(action)) {
 
       if (Log.DEBUG) Log.v("ReminderReceiver: cancelReminder()");
-      ReminderReceiver.cancelReminder(context);
+      ManageNotification.clear(context);
     }
   }
 
   private void processReminder(Context context, Intent intent) {
     
-    int msgId = intent.getIntExtra(EXTRAS_MSG_ID, 0);
+    int msgId = intent.getIntExtra(EXTRA_MSG_ID, 0);
     SmsMmsMessage message = SmsMessageQueue.getInstance().getMessage(msgId);
     if (message == null) return;
 
-    ReminderReceiver.scheduleReminder(context, message);
+    boolean start = intent.getBooleanExtra(EXTRA_START, true);
+    ManageNotification.show(context, message, start);
+  }
+  
+  public static void scheduleNotification(Context context, SmsMmsMessage message) {
+    long delay = ManagePreferences.notifDelay();
+    if (delay == 0L) {
+      ManageNotification.show(context, message, true);
+    } else {
+      scheduleReminder(context, message, true, delay);
+    }
   }
 
   /*
@@ -44,25 +55,28 @@ public class ReminderReceiver extends BroadcastReceiver {
    */
   public static void scheduleReminder(Context context, SmsMmsMessage message) {
     boolean reminder_notifications = ManagePreferences.notifyRepeat();
-    if (reminder_notifications) {
+    if (!reminder_notifications) return;
 
-      int reminderInterval = ManagePreferences.repeatInterval();
-      reminderInterval *= 60;
-      
-      AlarmManager myAM = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+    int reminderInterval = ManagePreferences.repeatInterval();
+    scheduleReminder(context, message, false, reminderInterval*1000L);
+  }
+  
+  private static void scheduleReminder(Context context, SmsMmsMessage message, boolean start, long interval) {
+    
+    AlarmManager myAM = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
 
-      Intent reminderIntent = new Intent(context, ReminderReceiver.class);
-      reminderIntent.setAction(ACTION_REMIND);
-      reminderIntent.putExtra(EXTRAS_MSG_ID, message.getMsgId());
+    Intent reminderIntent = new Intent(context, ReminderReceiver.class);
+    reminderIntent.setAction(ACTION_REMIND);
+    reminderIntent.putExtra(EXTRA_MSG_ID, message.getMsgId());
+    reminderIntent.putExtra(EXTRA_START, start);
 
-      PendingIntent reminderPendingIntent =
-        PendingIntent.getBroadcast(context, 0, reminderIntent, PendingIntent.FLAG_CANCEL_CURRENT);
+    PendingIntent reminderPendingIntent =
+      PendingIntent.getBroadcast(context, 0, reminderIntent, PendingIntent.FLAG_CANCEL_CURRENT);
 
-      long triggerTime = System.currentTimeMillis() + (reminderInterval * 1000);
-      if (Log.DEBUG) Log.v("ReminderReceiver: scheduled reminder notification in " + reminderInterval
-          + " seconds, count is " + 999);
-      myAM.set(AlarmManager.RTC_WAKEUP, triggerTime, reminderPendingIntent);
-    }
+    long triggerTime = System.currentTimeMillis() + interval;
+    if (Log.DEBUG) Log.v("ReminderReceiver: scheduled reminder notification in " + interval
+        + " seconds");
+    myAM.set(AlarmManager.RTC_WAKEUP, triggerTime, reminderPendingIntent);
   }
 
   /*

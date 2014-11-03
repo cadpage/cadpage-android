@@ -29,7 +29,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 33;
+  private static final int PREFERENCE_VERSION = 34;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -60,6 +60,15 @@ public class ManagePreferences {
     if (oldVersion != PREFERENCE_VERSION) {
       PreferenceManager.setDefaultValues(context, R.xml.preferences, true);
       prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
+    }
+    
+    // If old version was < 34, we need to convert the reminder repeat interval
+    // from minutes to seconds
+    if (oldVersion > 0 && oldVersion < 34) {
+      String repeatInterval = prefs.getString(R.string.pref_notif_repeat_interval_key);
+      int repeat = Integer.parseInt(repeatInterval)*60;
+      if (repeat > 120) repeat = 120;
+      prefs.putString(R.string.pref_notif_repeat_interval_key, Integer.toString(repeat));
     }
     
     // If old version was < 21, we need to reset the popup button configuration settings
@@ -424,6 +433,10 @@ public class ManagePreferences {
   
   public static boolean notifyRepeat() {
     return prefs.getBoolean(R.string.pref_notif_repeat_key);
+  }
+  
+  public static long notifDelay() {
+    return Long.parseLong(prefs.getString(R.string.pref_notif_delay_key));
   }
   
   public static int repeatInterval() {
@@ -924,6 +937,14 @@ public class ManagePreferences {
     prefs.putString(R.string.pref_last_gcm_event_type_key, newVal);
   }
   
+  public static int restoreVol() {
+    return prefs.getInt(R.string.pref_restore_vol, -1);
+  }
+  
+  public static void setRestoreVol(int newVal) {
+    prefs.putInt(R.string.pref_restore_vol, newVal);
+  }
+  
   public static void clearAll() {
     SharedPreferences.Editor settings = prefs.mPrefs.edit();
     settings.clear();
@@ -977,6 +998,7 @@ public class ManagePreferences {
         R.string.pref_notif_enabled_key,
         R.string.pref_notif_override_key,
         R.string.pref_notif_sound_key,
+        R.string.pref_notif_delay_key,
         
         R.string.pref_vibrate_key,
         R.string.pref_vibrate_pattern_key,
@@ -1064,7 +1086,8 @@ public class ManagePreferences {
         
         R.string.pref_direct_page_active_key,
         R.string.pref_last_gcm_event_type_key,
-        R.string.pref_last_gcm_event_time_key
+        R.string.pref_last_gcm_event_time_key,
+        R.string.pref_restore_vol
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();

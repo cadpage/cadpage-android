@@ -51,6 +51,14 @@
           android:entryValues="@array/pref_notif_timeout_values"
           android:defaultValue="@string/pref_notif_timeout_default"
           android:dependency="@string/pref_notif_enabled_key" />
+        <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_notif_delay_key"
+          android:title="@string/pref_notif_delay_title"
+          android:summary="@string/pref_notif_delay_summary"
+          android:entries="@array/pref_notif_delay_entries"
+          android:entryValues="@array/pref_notif_delay_values"
+          android:dialogTitle="@string/pref_notif_delay_dialogTitle"
+          android:defaultValue="@string/pref_notif_delay_default" />
         <net.anei.cadpage.preferences.TestNotificationDialogPreference
           android:key="@string/pref_notif_test_key"
           android:dialogIcon="@drawable/android:ic_dialog_alert"
@@ -119,7 +127,7 @@
           android:title="@string/pref_notif_repeat_interval_title"
           android:summary="@string/pref_notif_repeat_interval_summary"
           android:entries="@array/pref_notif_repeat_interval_entries"
-          android:entryValues="@array/pref_notif_repeat_interval_entries"
+          android:entryValues="@array/pref_notif_repeat_interval_values"
           android:dialogTitle="@string/pref_notif_repeat_interval_dialogTitle"
           android:defaultValue="@string/pref_notif_repeat_interval_default"
           android:dependency="@string/pref_notif_repeat_key" />

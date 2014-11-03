@@ -98,6 +98,11 @@
   <string name="pref_notif_test_message">Testar din notifikation nu!</string>
   <string name="pref_notif_sound_title">Notifikationsljud</string>
   <string name="pref_notif_sound_summary">Det här ljudet kommer att låta vid larm</string>
+  
+  <string name="pref_notif_delay_title">Alert Delay</string>                                               <!-- Translate -->
+  <string name="pref_notif_delay_summary">Cadpage alert will be delayed by: Cur value: %s </string>        <!-- Translate -->
+  <string name="pref_notif_delay_dialogTitle">Alert delay period (seconds)</string>                        <!-- Translate -->  
+  
   <string name="pref_vibrate_title">Vibrera</string>
   <string name="pref_vibrate_summaryon">Vibration är på</string>
   <string name="pref_vibrate_summaryoff">Vibration är av</string>
@@ -186,17 +191,24 @@
   <string name="pref_screen_category">Skärm</string>
   <string name="pref_notif_repeat_times_entries_keep_repeting">Fortsätt repetera</string>
 
-  <string name="pref_timeout_entries_disabled">Avaktiverad</string>
-  <string name="pref_timeout_entries_10s">10 sekunder</string>
-  <string name="pref_timeout_entries_20s">20 sekunder</string>
-  <string name="pref_timeout_entries_30s">30 sekunder</string>
-  <string name="pref_timeout_entries_1m">1 minut</string>
-  <string name="pref_timeout_entries_2m">2 minut</string>
-  <string name="pref_timeout_entries_3m">3 minut</string>
-  <string name="pref_timeout_entries_4m">4 minut</string>
-  <string name="pref_timeout_entries_5m">5 minut</string>
-  <string name="pref_timeout_entries_7m">7 minut</string>
-  <string name="pref_timeout_entries_10m">10 minut</string>
+  <string name="pref_disabled">Avaktiverad</string>
+  <string name="pref_no_delay">No Delay</string>               <!-- Translate -->
+  <string name="pref_p5s">.5 sekunder</string>
+  <string name="pref_1s">1 sekunder</string>
+  <string name="pref_1p5s">1.5 sekunder</string>
+  <string name="pref_2s">2 sekunder</string>
+  <string name="pref_3s">3 sekunder</string>
+  <string name="pref_10s">10 sekunder</string>
+  <string name="pref_20s">20 sekunder</string>
+  <string name="pref_30s">30 sekunder</string>
+  <string name="pref_1m">1 minut</string>
+  <string name="pref_1p5m">1.5 minut</string>
+  <string name="pref_2m">2 minut</string>
+  <string name="pref_3m">3 minut</string>
+  <string name="pref_4m">4 minut</string>
+  <string name="pref_5m">5 minut</string>
+  <string name="pref_7m">7 minut</string>
+  <string name="pref_10m">10 minut</string>
   
   <string name="pref_vibrate_pattern_entries_normal">Normal</string>
   <string name="pref_vibrate_pattern_entries_long">Lång vibration</string>
