@@ -98,6 +98,10 @@ public class DispatchA3Parser extends FieldProgramParser {
     setupInfoFields(flags);
   }
   
+  public DispatchA3Parser(String defCity, String defState, String program) {
+    this(defCity, defState, program, 0);
+  }
+  
   public DispatchA3Parser(Pattern prefixPtn, String defCity, String defState, String program) {
     this(prefixPtn, defCity, defState, program, 0);
   }
@@ -112,14 +116,28 @@ public class DispatchA3Parser extends FieldProgramParser {
     this(prefix, defCity, defState, program, 0);
   }
   
+  public DispatchA3Parser(String defCity, String defState, String program, int flags) {
+    super(defCity, defState, program);
+    setupInfoFields(flags);
+  }
+  
   public DispatchA3Parser(String prefix, String defCity, String defState, String program, int flags) {
     super(defCity, defState, program);
     setupInfoFields(flags);
     this.prefix = prefix;
   }
   
+  public DispatchA3Parser(String[] cityList, String defCity, String defState, String program) {
+    this(cityList, defCity, defState, program, 0);
+  }
+  
   public DispatchA3Parser(String prefix, String[] cityList, String defCity, String defState, String program) {
     this(prefix, cityList, defCity, defState, program, 0);
+  }
+  
+  public DispatchA3Parser(String[] cityList, String defCity, String defState, String program, int flags) {
+    super(cityList, defCity, defState, program);
+    setupInfoFields(flags);
   }
   
   public DispatchA3Parser(String prefix, String[] cityList, String defCity, String defState, String program, int flags) {
@@ -264,13 +282,16 @@ public class DispatchA3Parser extends FieldProgramParser {
   }
   
   private static final Pattern LINE_PTN = Pattern.compile("Line\\d+=");
-  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d?\\d/\\d?\\d/\\d{4}) (\\d?\\d:\\d?\\d:\\d?\\d(?: [AP]M)?) : \\w+ : \\w+\\b");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\[?\\b(\\d?\\d/\\d?\\d/\\d{4}) (\\d?\\d:\\d?\\d:\\d?\\d(?: [AP]M)?) : \\w+ : \\w+\\b\\]?");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
   private static final Pattern EXTRA_DELIM = Pattern.compile("\\*\\* EMD (?:Case Entry Finished|Case Complete|Recommended Dispatch) \\*\\*|\\bResponse Text:|\\bKey Questions:|Narrative ?:|\\bALI\\b|\\b(?=Cross Streets:|Landmark:|Geo Comment:|Landmark Comment:|NBH:|[XY] Coordinate:|Uncertainty Factor:|Confidence Factor:|\\**Nearest Address:)|Place Comment:|  +|\n| \\.\\. |\bALI\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern SKIP_PTN = Pattern.compile("UPDATED? +\\d\\d?(?:[-/]\\d\\d?){1,2}\\b.*|Uncertainty Factor:.*|Confidence Factor:.*");
   protected class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
+      
+      field = field.replace('\n', ' ');
+      
       if (data.strCall.length() > 0 && field.toUpperCase().startsWith(data.strCall.toUpperCase())) {
         data.strCall = field;
         return;
@@ -285,12 +306,14 @@ public class DispatchA3Parser extends FieldProgramParser {
         return;
       }
       
-      data.strDate = match.group(1);
-      String time = match.group(2);
-      if (time.endsWith("M")) {
-        setTime(TIME_FMT, time, data);
-      } else {
-        data.strTime = time;
+      if (data.strTime.length() == 0) {
+        data.strDate = match.group(1);
+        String time = match.group(2);
+        if (time.endsWith("M")) {
+          setTime(TIME_FMT, time, data);
+        } else {
+          data.strTime = time;
+        }
       }
      
       for (String fld1 : DATE_TIME_PTN.split(field)) {

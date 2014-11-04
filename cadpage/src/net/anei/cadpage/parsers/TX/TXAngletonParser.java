@@ -6,9 +6,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.HtmlParser;
+import net.anei.cadpage.parsers.FieldProgramHtmlParser;
 
-public class TXAngletonParser extends HtmlParser {
+public class TXAngletonParser extends FieldProgramHtmlParser {
   public TXAngletonParser() {
     super(CITY_CODE, "ANGLETON", "TX",
         "Date:DATETIME Nature:CALL Business:PLACE Address:ADDR/S Notes:INFO+ Units:UNIT",

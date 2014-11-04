@@ -3,11 +3,11 @@ package net.anei.cadpage.parsers.MO;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
-import net.anei.cadpage.parsers.HtmlParser;
+import net.anei.cadpage.parsers.FieldProgramHtmlParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
-public class MOJacksonCountyParser extends HtmlParser {
+public class MOJacksonCountyParser extends FieldProgramHtmlParser {
 //  private static int n = 1;
   
   public MOJacksonCountyParser() {

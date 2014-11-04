@@ -5,9 +5,9 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.HtmlParser;
+import net.anei.cadpage.parsers.FieldProgramHtmlParser;
 
-public class NYOswegoCountyBParser extends HtmlParser {
+public class NYOswegoCountyBParser extends FieldProgramHtmlParser {
   
   public NYOswegoCountyBParser() {
     super(CITY_CODES,
@@ -35,15 +35,12 @@ public class NYOswegoCountyBParser extends HtmlParser {
   private static final Pattern NOTE_PATTERN
     = Pattern.compile(".*?\\[.+?\\](.*)");
     */
-  private static final String stem = "/home/brennus/NYOswegoCountyB-";
-  private static int ndx = 1;
+
   @Override
   public boolean parseHtmlMsg(String subject, String body, Data data) {
     if (!getHtmlCleaner(body))
       return false;
     
-    makeFile(stem+ndx+".html");
-    ndx++;
     /*
     data.strSource = getTableCellValueWith("Location:");
     String codeCall = getTableCellValueWith("Response Type:");

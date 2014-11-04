@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers.IN;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -10,17 +8,17 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.HtmlParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 
-public class INWayneCountyBParser extends HtmlParser {
-  private static final String PROGRAM_STRING = "ID DATE TIME CODE CALL NAME PHONE ADDR APT CITY INFO X PLACE UNIT";
+public class INWayneCountyBParser extends DispatchA3Parser {
+  
+  private HtmlParser htmlParser;
+  
   INWayneCountyBParser (String defCity, String defState) {
-    super (defCity, defState, PROGRAM_STRING, LAYOUT);
-    translate (TRANSLATE);
-  }
-
-  @Override
-  public String getProgram() {
-    return PROGRAM_STRING;
+    super("WAYNE COUNTY", "IN", 
+           "ID DATETIME CALL NAME_PHONE ADDR INFO UNIT");
+    htmlParser = new HtmlParser(LAYOUT);
+    htmlParser.translate(TRANSLATE);
   }
   
   @Override
@@ -28,68 +26,92 @@ public class INWayneCountyBParser extends HtmlParser {
     return "911@wayneco.us";
   }
   
-  private static final DateFormat MY_DATE_FMT = new SimpleDateFormat("MM/dd/yy hh:mm:ss");
-  private static final Pattern COMPLAINT_PATTERN
-    = Pattern.compile("(\\d{2}\\-\\d{2})\\b *(.*)");
-  private static final Pattern CALLER_PATTERN
-    = Pattern.compile("(.*?)(\\d{3}\\-\\d{3}\\-\\d{4})?");
-  private static final Pattern NOTES_PATTERN
-    = Pattern.compile(".*?Cross streets: +([^\\[\\n]+).*", Pattern.DOTALL);
-  private static final Pattern NOTES_PATTERN_2
-    = Pattern.compile(".*?Landmark: +([^\\[\\n]+).*", Pattern.DOTALL);
   @Override
   protected boolean parseHtmlMsg(String subject, String body, Data data) {
-    
-    if (!getHtmlCleaner (body)) return false;
-   
-    data.strCallId = getValue("ID");
-    setDateTime(MY_DATE_FMT, getValue("DATETIME"), data);
-    String call = getValue("COMPLAINT");
-    Matcher m = COMPLAINT_PATTERN.matcher (call);
-    if (m.matches()) {
-      data.strCode = (m.group(1));
-      call = m.group(2);
-    }
-    data.strCall = call;
-    
-    m = CALLER_PATTERN.matcher(getValue("CALLER"));
-    if (!m.matches()) return false;
-    data.strName = m.group(1).replaceAll("\\-(?:[\\s0-9\\-]+\\-)?", "").trim();
-    data.strPhone = getOptGroup(m.group(2));
-
-    String address = getValue("ADDRESS");
-    int pt = address.indexOf('\n');
-    if (pt >= 0) address = address.substring(0,pt).trim();
-    address = address.replace("//", "/");
-    
-    pt = address.lastIndexOf(',');
-    if (pt >= 0) {
-      data.strCity = address.substring(pt+1).trim();
-      address = address.substring(0,pt).trim();
-    }
-    else {
-      pt = address.lastIndexOf('/');
-      if (pt >= 0) {
-        String city = address.substring(pt+1).trim();
-        if (CITIES.contains(city.toUpperCase())) {
-          data.strCity = city;
-          address = address.substring(0,pt).trim();
-        }
-      }
-    }
-    parseAddress (StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, address, data);
-    
-    data.strSupp = getValue("NOTES");
-    m = NOTES_PATTERN.matcher(data.strSupp);
-    if (m.matches()) data.strCross = m.group(1).replace("//", "/").trim();
-
-    m = NOTES_PATTERN_2.matcher(data.strSupp);
-    if (m.matches()) data.strPlace = m.group(1);
-    
-    data.strUnit = getValue("UNITS");
-    return true;
+    if (!subject.startsWith("911 Dispatch: ")) return false;
+    if (!htmlParser.getHtmlCleaner (body)) return false;
+    return parseFields(htmlParser.getValueArray(), data);
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("NAME_PHONE")) return new MyNamePhoneField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern CALL_PATTERN  = Pattern.compile("(\\d{2}\\-\\d{2})\\b *(.*)");
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = CALL_PATTERN.matcher(field);
+      if (match.matches()) {
+        data.strCode = match.group(1);
+        field = match.group(2).trim();
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE CALL";
+    }
+  }
+  
+  private static final Pattern NAME_PHONE_PATTERN = Pattern.compile("(.*?)\\b(\\d{3}\\-\\d{3}\\-\\d{4})");
+  private static final Pattern JUNK_PHONE_PATTERN = Pattern.compile("[- \\d]+$");
+  private class MyNamePhoneField extends NameField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = NAME_PHONE_PATTERN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        data.strPhone = match.group(2);
+      }
+      field = JUNK_PHONE_PATTERN.matcher(field).replaceFirst("");
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "NAME PHONE";
+    }
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+
+      int pt = field.indexOf('\n');
+      if (pt >= 0) field = field.substring(0,pt).trim();
+      field = field.replace("//", "/");
+      
+      pt = field.lastIndexOf(',');
+      if (pt >= 0) {
+        data.strCity = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+      }
+      else {
+        pt = field.lastIndexOf('/');
+        if (pt >= 0) {
+          String city = field.substring(pt+1).trim();
+          if (CITIES.contains(city.toUpperCase())) {
+            data.strCity = city;
+            field = field.substring(0,pt).trim();
+          }
+        }
+      }
+      parseAddress (StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " CITY";
+    }
+  }
+     
   private static final String[] LAYOUT = {
     "ID(element=a; offset=0; required)",
     "DATETIME(xpath=///*[normalize-space(.)=\"Date/Time Received:\"]/following-sibling::td[1]/; xJava)",

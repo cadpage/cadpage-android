@@ -4,11 +4,11 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Properties;
 
-import net.anei.cadpage.parsers.HtmlParser;
+import net.anei.cadpage.parsers.FieldProgramHtmlParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
-public class MOFranklinCountyParser extends HtmlParser {
+public class MOFranklinCountyParser extends FieldProgramHtmlParser {
   public MOFranklinCountyParser() {
     super(CITY_CODE,
             "FRANKLIN COUNTY",

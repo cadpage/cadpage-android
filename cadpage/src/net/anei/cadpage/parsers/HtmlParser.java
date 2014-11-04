@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers;
 // import android.annotation.SuppressLint;
 // import android.annotation.TargetApi;
 // import android.os.Build;
+import android.annotation.SuppressLint;
 
 import java.io.IOException;
 import java.util.*;
@@ -17,8 +18,6 @@ import javax.xml.xpath.XPathFactory;
 
 import org.htmlcleaner.*;
 import org.w3c.dom.NodeList;
-
-import net.anei.cadpage.parsers.FieldProgramParser;
 
 /**
  * 
@@ -137,7 +136,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 
 // @TargetApi(Build.VERSION_CODES.FROYO)
 // @SuppressLint("NewApi")
-public class HtmlParser extends FieldProgramParser {
+public class HtmlParser {
   private HtmlCleaner htmlCleaner = null;
   private CleanerProperties props = null;
   private TagNode root = null;
@@ -147,7 +146,7 @@ public class HtmlParser extends FieldProgramParser {
   private org.w3c.dom.Document doc;
   private boolean hasXPath = false;
 
-  protected static final int
+  public static final int
     STATUS_OK = 0,
     STATUS_UNINITIALIZED = 1,
     STATUS_DOMAIN = 2,
@@ -263,55 +262,8 @@ public class HtmlParser extends FieldProgramParser {
   }
   
   /* HtmlParser Constructors */
-  public HtmlParser(String defCity,
-                      String defState,
-                      String prog,
-                      String[] layoutArray) {
-    super(defCity, defState, prog);
+  public HtmlParser(String[] layoutArray) {
     createLayout(layoutArray);
-  }
-
-  public HtmlParser(String[] cityList,
-                      String defCity,
-                      String defState,
-                      String prog,
-                      String[] layoutArray) {
-    super(cityList, defCity, defState, prog);
-    createLayout(layoutArray);
-  }
-  
-  public HtmlParser(Properties cityCode,
-                      String defCity,
-                      String defState,
-                      String prog,
-                      String[] layoutArray) {
-    super(cityCode, defCity, defState, prog);
-    createLayout(layoutArray);
-  }
-
-  public HtmlParser(String defCity,
-                      String defState,
-                      String prog) {
-    super(defCity, defState, prog);
-  }
-
-  public HtmlParser(String[] cityList,
-                      String defCity,
-                      String defState,
-                      String prog) {
-    super(cityList, defCity, defState, prog);
-  }
-  
-  public HtmlParser(Properties cityCode,
-                      String defCity,
-                      String defState,
-                      String prog) {
-    super(cityCode, defCity, defState, prog);
-  }
-
-  @Override
-  public String getProgram() {
-    return getOptGroup(super.getProgram());
   }
   
   /*
@@ -545,10 +497,8 @@ public class HtmlParser extends FieldProgramParser {
    * Return true or false if htmlcleaner fails to parse
    * (haven't seen this happen yet.)
    */
-  private static final String XMLNS_PATTERN_STRING
-  = "(?is)xmlns=\\\".*?\\\"";
-  protected boolean getHtmlCleaner(String html) {
-//    int n;
+  private static final String XMLNS_PATTERN_STRING  = "(?is)xmlns=\\\".*?\\\"";
+  public boolean getHtmlCleaner(String html) {
     if (!getHtmlCleaner())
       return false;
     root = htmlCleaner.clean(html.replaceAll(XMLNS_PATTERN_STRING, ""));
@@ -682,7 +632,10 @@ public class HtmlParser extends FieldProgramParser {
   /*
    * Evaluate XPath using Java XPath engine
    */
-  private void getJXPathValue(TagNode top, ParseInfo pi) {
+// @TargetApi(Build.VERSION_CODES.FROYO)
+
+@SuppressLint("NewApi")
+private void getJXPathValue(TagNode top, ParseInfo pi) {
     NodeList nl;
 //    System.out.println("XPATH: '"+pi.xPath()+"'");
     XPath xpath = XPathFactory.newInstance().newXPath();
@@ -1042,7 +995,7 @@ public class HtmlParser extends FieldProgramParser {
   /*
    * Returns the status value for a tag
    */
-  protected int getStatus(String tag) {
+  public int getStatus(String tag) {
     return layout.get(tag).status();
   }
   
@@ -1050,7 +1003,7 @@ public class HtmlParser extends FieldProgramParser {
    * This method gets the value for a tag from the hash table
    */
 
-  protected String getValue(String tag) {
+  public String getValue(String tag) {
     return layout.get(tag).value();
   } 
   
@@ -1111,7 +1064,7 @@ public class HtmlParser extends FieldProgramParser {
   /*
    * Return an array of values in the same order as the layout entries were given 
    */
-  protected String[] getValueArray() {
+  public String[] getValueArray() {
     String[] ret = new String[layout.size()];
     Iterator<String> i = layout.keySet().iterator();
     for (int j=0; i.hasNext(); j++)
@@ -1122,7 +1075,7 @@ public class HtmlParser extends FieldProgramParser {
   /*
    * Set the translation map with values from a string array
    */
-  protected void translate(String[] arr) {
+  public void translate(String[] arr) {
     for (int i = 0; i < arr.length; i += 2)
       translate.put(arr[i], arr[i+1]);
   }
@@ -1130,7 +1083,7 @@ public class HtmlParser extends FieldProgramParser {
   /*
    * Print value of all elements with name (recursively) 
    */
-  protected void printElements(String name) {
+  public void printElements(String name) {
     TagNode[] node = root.getElementsByName(name, true);
     for (int i=0; i < node.length; i++)
       if (node[i].getText() == null)
@@ -1138,4 +1091,19 @@ public class HtmlParser extends FieldProgramParser {
       else
         System.out.println(i+": "+node[i].getText().toString().trim());
   }
+  
+  /**
+   * Convenience method to append two strings with a connector
+   * @param str1 first string
+   * @param connector connector string
+   * @param str2 second string
+   * @return appended string
+   */
+  private static String append(String str1, String connector, String str2) {
+    if (str1.length() == 0) return str2;
+    if (str2.length() == 0) return str1;
+    return str1 + connector + str2;
+  }
+  
+
 }

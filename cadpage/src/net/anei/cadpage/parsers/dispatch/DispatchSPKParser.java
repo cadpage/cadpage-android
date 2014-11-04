@@ -3,10 +3,10 @@ package net.anei.cadpage.parsers.dispatch;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
-import net.anei.cadpage.parsers.HtmlParser;
+import net.anei.cadpage.parsers.FieldProgramHtmlParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-public class DispatchSPKParser extends HtmlParser {
+public class DispatchSPKParser extends FieldProgramHtmlParser {
   private static final String FIELD_NAMES
     = "ID DATE TIME CODE CALL NAME PHONE GPS ADDR X APT CITY UNIT INFO";
   public DispatchSPKParser(String dc, String ds) {

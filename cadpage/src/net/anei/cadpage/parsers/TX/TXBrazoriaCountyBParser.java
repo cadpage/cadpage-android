@@ -7,10 +7,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.HtmlParser;
+import net.anei.cadpage.parsers.FieldProgramHtmlParser;
 
 
-public class TXBrazoriaCountyBParser extends HtmlParser {
+public class TXBrazoriaCountyBParser extends FieldProgramHtmlParser {
   public TXBrazoriaCountyBParser() {
     super(CITY_LIST,
             "BRAZORIA COUNTY",

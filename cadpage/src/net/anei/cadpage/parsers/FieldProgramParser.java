@@ -1935,7 +1935,7 @@ public class FieldProgramParser extends SmartAddressParser {
     /**
      * Check if field matches pattern criteria
      * @param field field value
-     * @return adjusted field value if match succeds, null if match fails
+     * @return adjusted field value if match succeeds, null if match fails
      */
     private String checkPattern(String field) {
       if (pattern == null) return field;

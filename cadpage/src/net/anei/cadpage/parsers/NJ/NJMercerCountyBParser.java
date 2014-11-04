@@ -4,13 +4,13 @@ import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.HtmlParser;
+import net.anei.cadpage.parsers.FieldProgramHtmlParser;
 
 
 /**
  * Mercer County, NJ
  */
-public class NJMercerCountyBParser extends HtmlParser {
+public class NJMercerCountyBParser extends FieldProgramHtmlParser {
   
   public NJMercerCountyBParser() {
     super(CITY_LIST,

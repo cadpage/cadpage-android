@@ -6,12 +6,12 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.HtmlParser;
+import net.anei.cadpage.parsers.FieldProgramHtmlParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 
-public class KYHardinCountyCParser extends HtmlParser {
+public class KYHardinCountyCParser extends FieldProgramHtmlParser {
 // private static final String STEM = "/home/brennus/html/KYHardinCountyC-S";
 // private static int ndx = 1;
   public KYHardinCountyCParser() {
