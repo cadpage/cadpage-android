@@ -1935,7 +1935,7 @@ choyvp pynff PNFnaOreaneqvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G73",
         "FBO-Q2 >628 Elna Fg - ERQP >YBP VASB:FBO >NTA ZNC:ERQ081 -GO ZNC:608 S6 >K FG:FLYINA OYIQ/FGVYYZNA NIR >ZOR264,NZE30,ZF261>YNG/YBA:34061010 /117152872",
-        "PNYY:FBO-Q2 - Fubegarff bs Oerngu",
+        "PNYY:FBO-Q2 - Oernguvat Cebo + qvss fcrnxvat",
         "NQQE:628 Elna Fg",
         "PVGL:ERQYNAQF",
         "CYNPR:FBO",
@@ -1989,7 +1989,7 @@ choyvp pynff PNFnaOreaneqvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G78",
         "FBO-Q2 >626 Rfgure Jnl - ERQP >YBP VASB:74 LBZ /FBO >NTA ZNC:ERQ045 -GO ZNC:648 O2 >K FG:J PLCERFF NIR/F PRAGRE FG >ZOR264,NZE32,ZF261>YNG/YBA:34043698 /117181995",
-        "PNYY:FBO-Q2 - Fubegarff bs Oerngu",
+        "PNYY:FBO-Q2 - Oernguvat Cebo + qvss fcrnxvat",
         "NQQE:626 Rfgure Jnl",
         "PVGL:ERQYNAQF",
         "CYNPR:74 LBZ /FBO",
@@ -2931,7 +2931,7 @@ choyvp pynff PNFnaOreaneqvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G19",
         "FBO-Q1 >9850 19gu Fg -26 EPPP >YBP VASB:QBA ZVTHRY NCGF >NTA ZNC:EP1704 -GO ZNC:572 W5 >K FG:TEBIRFVQR CY/ENZBAN NIR >ZR171,NZE20>YNG/YBA:34132749 /117590387",
-        "PNYY:FBO-Q1 - Fubegarff bs Oerngu",
+        "PNYY:FBO-Q1 - Oernguvat Cebo + abg nyreg",
         "NQQE:9850 19gu Fg",
         "NCG:26",
         "PVGL:ENAPUB PHPNZBATN",
@@ -3840,7 +3840,7 @@ choyvp pynff PNFnaOreaneqvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G15",
         "FBO-Q2 >33269 Byq Jbzna Fcevatf Eq - YHP >YBP VASB:FGN 8 >NTA ZNC:YHP0429 -GO ZNC:4481 O2 >K FG:NYYRA JNL/YNQREN NIR >R8,ZN8>YNG/YBA:34443988 /116937492",
-        "PNYY:FBO-Q2 - Fubegarff bs Oerngu",
+        "PNYY:FBO-Q2 - Oernguvat Cebo + qvss fcrnxvat",
         "NQQE:33269 Byq Jbzna Fcevatf Eq",
         "PVGL:YHPREAR INYYRL",
         "CYNPR:FGN 8",
@@ -3924,7 +3924,7 @@ choyvp pynff PNFnaOreaneqvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G23",
         "FBO-Q2 >13726 Zvfgl Cngu - IIPP >YBP VASB:FBO >NTA ZNC:IIP086 -GO ZNC:4385 T4 >K FG:NFUQNYR GRE/SVEFG FG >ZR312,NZE04,ZR313>YNG/YBA:34488942 /117363187",
-        "PNYY:FBO-Q2 - Fubegarff bs Oerngu",
+        "PNYY:FBO-Q2 - Oernguvat Cebo + qvss fcrnxvat",
         "NQQE:13726 Zvfgl Cngu",
         "PVGL:IVPGBEIVYYR",
         "CYNPR:FBO",
@@ -7684,7 +7684,7 @@ choyvp pynff PNFnaOreaneqvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G39",
         "FBO-P1 >73646 Pnyyvr Gbqq Ya - GACP >YBP VASB: >NTA ZNC:GAC140 -GO ZNC:4892 R2 >K FG:QRFREG DHRRA EQ/NQBOR EQ >R421,ZON6>YNG/YBA:34161072 /116055274",
-        "PNYY:FBO-P1 - Fubegarff bs Oerngu",
+        "PNYY:FBO-P1 - Noabezny Oernguvat",
         "NQQE:73646 Pnyyvr Gbqq Ya",
         "PVGL:29 CNYZF",
         "ZNC:GAC140 - 4892 R2",
@@ -9000,7 +9000,7 @@ choyvp pynff PNFnaOreaneqvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G25",
         "FBO-P1 >56137 Bantn Gey - LILP >YBP VASB:FBO >NTA ZNC:LIL127 -GO ZNC:4957 S4 >K FG:NPBZN GEY/PUHEPU FG >ZR41,ZN41,ZN41N>YNG/YBA:34112070 /116439546",
-        "PNYY:FBO-P1 - Fubegarff bs Oerngu",
+        "PNYY:FBO-P1 - Noabezny Oernguvat",
         "NQQE:56137 Bantn Gey",
         "PVGL:LHPPN INYYRL",
         "CYNPR:FBO",
