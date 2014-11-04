@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <!-- App Strings -->
-  <string name="cadpage_alert">Cadpage Alert!</string>                            <!-- Translate -->
+  <string name="cadpage_alert">Cadpage larm!</string>
   <string name="app_name">Cadpage</string>
   <string name="call_history">Larmhistorik:</string>
   <string name="new_text_at">Nytt larm mottaget %s</string>
@@ -99,9 +99,9 @@
   <string name="pref_notif_sound_title">Notifikationsljud</string>
   <string name="pref_notif_sound_summary">Det här ljudet kommer att låta vid larm</string>
   
-  <string name="pref_notif_delay_title">Alert Delay</string>                                               <!-- Translate -->
-  <string name="pref_notif_delay_summary">Cadpage alert will be delayed by: Cur value: %s </string>        <!-- Translate -->
-  <string name="pref_notif_delay_dialogTitle">Alert delay period (seconds)</string>                        <!-- Translate -->  
+  <string name="pref_notif_delay_title">Larmfördröjning</string>
+  <string name="pref_notif_delay_summary">Larm från Cadpage kommer att fördröjas med: Cur value: %s </string>
+  <string name="pref_notif_delay_dialogTitle">Larmfördröjningsperiod (sekunder)</string>
   
   <string name="pref_vibrate_title">Vibrera</string>
   <string name="pref_vibrate_summaryon">Vibration är på</string>
@@ -192,7 +192,7 @@
   <string name="pref_notif_repeat_times_entries_keep_repeting">Fortsätt repetera</string>
 
   <string name="pref_disabled">Avaktiverad</string>
-  <string name="pref_no_delay">No Delay</string>               <!-- Translate -->
+  <string name="pref_no_delay">Ingen fördröjning</string>
   <string name="pref_p5s">.5 sekunder</string>
   <string name="pref_1s">1 sekunder</string>
   <string name="pref_1p5s">1.5 sekunder</string>
