@@ -555,6 +555,7 @@ choyvp pynff PNFnpenzragbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SYBJVAT JNGRE ERFPHR",
         "ZNC:O6-129N1,297O1",
         "NQQE:21 NEC",
+        "ZNQQE:38.600802,-121.509487",
         "PVGL:FNPENZRAGB",
         "HAVG:OP3,R14+,R15+,OG2,Z2+,OG5,PBCGE1,QNEG,22VASB");
 
@@ -627,6 +628,7 @@ choyvp pynff PNFnpenzragbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FGVYY JNGRE ERFPHR",
         "ZNC:O6-129O2,277Q7",
         "NQQE:101 NEC",
+        "ZNQQE:38.605162,-121.492496",
         "PVGL:FNPENZRAGB",
         "HAVG:OP3,OG2,R2+,Z1+,OG5,QNEG,22VASB,22BCF,2291,");
 
@@ -653,6 +655,7 @@ choyvp pynff PNFnpenzragbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FGVYY JNGRE ERFPHR",
         "ZNC:O6-129N1,297O1",
         "NQQE:7 NEC",
+        "ZNQQE:38.600628,-121.506951",
         "PVGL:FNPENZRAGB",
         "HAVG:OP3,R14+,OG2,OG5,Z43+,QNEG,22VASB,22BCF,2291,");
 
@@ -709,6 +712,7 @@ choyvp pynff PNFnpenzragbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SYBJVAT JNGRE ERFPHR",
         "ZNC:N7-133O3,299R1",
         "NQQE:1550 NEC",
+        "ZNQQE:38.602650,-121.316600",
         "PVGL:ENAPUB PBEQBIN",
         "HAVG:FP:,QNEG,OP14,R61+,Z61+,OG62,OG65,R65+,R1");
 
@@ -2311,6 +2315,7 @@ choyvp pynff PNFnpenzragbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FCRPVNY ERFPHR",
         "ZNC:O6-129N1,297O1",
         "NQQE:21 NEC",
+        "ZNQQE:38.600802,-121.509487",
         "PVGL:FNPENZRAGB",
         "HAVG:ON:,OP2,E20+,E74+,E21,RZF22,FGN99,BCFPUVRS,2");
 
