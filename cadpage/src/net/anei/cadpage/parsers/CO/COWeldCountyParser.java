@@ -29,13 +29,14 @@ public class COWeldCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "777,888,wrc-hiplink@weldcorcc.com,9300";
+    return "wrc-hiplink@weldcorcc.com,3037046515@vzwpix.com.777,888,9300";
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (body.startsWith("Dispatch / ")) body = body.substring(11).trim();
+    body = stripFieldStart(body, "Dispatch / ");
+    body = stripFieldEnd(body, " UNSUBSCRIBE");
     return parseFields(body.split("\n"), data);
   }
   
@@ -128,6 +129,11 @@ public class COWeldCountyParser extends FieldProgramParser {
     public String getFieldNames() {
       return "CODE INFO";
     }
+  }
+  
+  @Override
+  public String adjustMapCity(String city) {
+    return convertCodes(city, MAP_CITY_TABLE);
   }
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
@@ -293,9 +299,11 @@ public class COWeldCountyParser extends FieldProgramParser {
   });
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "ARO", "WELD COUNTY",    // Greeley??
+      "ARO", "ARO",    // Greeley??
       "AUL", "AULT",
+      "BOU", "BOULDER",
       "BCO", "BOULDER COUNTY",
+      "CAM", "CAM",            // ??????
       "DAC", "DACONO",
       "EAT", "EATON",
       "ERI", "ERIE",
@@ -303,10 +311,12 @@ public class COWeldCountyParser extends FieldProgramParser {
       "EVS", "EVANSTON",
       "FIR", "FIRESTONE",
       "FRE", "FREDERICK",
+      "FTL", "FORT LUPTON",
       "GAL", "GALETON",
+      "GIL", "GILCREST",
       "GRE", "GREELEY",
       "HUD", "HUDSON",
-      "HIL", "WELD COUNTY",   // In Greeley?
+      "HIL", "HIL",   // In Greeley?
       "JOH", "JOHNSTOWN",
       "KER", "KERSEY",
       "LAF", "LAFAYETTE",
@@ -322,5 +332,11 @@ public class COWeldCountyParser extends FieldProgramParser {
       "SEV", "SEVERANCE",
       "WEL", "WELD COUNTY",
       "WIN", "WINDSOR"
+  });
+  
+  private static final Properties MAP_CITY_TABLE = buildCodeTable(new String[]{
+      "ARO", "GREELEY",
+      "CAM", "WELD COUNTY",
+      "HIL", "GREELEY"
   });
 }
