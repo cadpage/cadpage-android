@@ -100,6 +100,7 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
       "PO",  "POOLESVILLE",
       "RO",  "ROCKVILLE",
       "SS",  "SILVER SPRING",
+      "SO",  "SOMERSET",
       "TP",  "TACOMA PARK"
       
   });
