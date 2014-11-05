@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class OHLickingCountyParser extends SmartAddressParser {
   
-  private static final Pattern IAR_MASTER_PTN = Pattern.compile("([ A-Z]+)\n(.*)");
+  private static final Pattern IAR_MASTER_PTN = Pattern.compile("([- A-Z]+)\n(.*)");
   private static final Pattern MASTER_PTN1 = Pattern.compile("([^,]*), ([ A-Z]+), \\d{5}(?: +\\(;?(.*)\\)?)?");
   private static final Pattern MASTER_PTN2 = Pattern.compile("([^,]*?), ([^,/]+?)/([^,]+?), ([ A-Z]+)");
 
@@ -93,11 +93,13 @@ public class OHLickingCountyParser extends SmartAddressParser {
   
   private static final CodeSet CALL_LIST = new CodeSet(
       "CHEST PAIN",
+      "BREATHING PROBLEMS-EMS",
       "ILLNESS",
       "ILLNESS-EMS",
       "NATURAL GAS LEAK",
       "SERVICE RUN",
-      "TRAFFIC ACCIDENT"
+      "TRAFFIC ACCIDENT",
+      "UNCONSCIOUS PERSON-EMS"
   );
 
   private static final String[] CITY_LIST = new String[]{

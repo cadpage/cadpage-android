@@ -7,7 +7,6 @@ vzcbeg bet.whavg.Grfg;
 /*
 Yvpxvat Pbhagl, BU
 
-Yvpxvat Pbhagl, BU (ercynpr?)
 Pbagnpg: evpuneq fgrjneg <sversvtugvatfgrj@tznvy.pbz>
 Fraqre: abgvs@qbznva.pbz
 
@@ -23,10 +22,13 @@ Pbagnpg: Ivaprag Qnivf <qnivf.1894@tznvy.pbz>
 Pbagnpg: Ivaprag Qnivf <qnivf.1894@tznvy.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 [Zbaebr Gbjafuvc Sver]  FREIVPR EHA\aFE 161 JO (FE 161), WREFRL GJC, 43062
+(Zbaebr Gbjafuvc Sver) OERNGUVAT CEBOYRZF-RZF\e\a21 F XNFFBA FG, WBUAFGBJA, 43031 (A XNFFBA FG, R PBFUBPGBA FG/ULNGG YA)
+(Zbaebr Gbjafuvc Sver) HAPBAFPVBHF CREFBA-RZF\e\a8400 FZVGUF ZVYY EQ AJ, ARJ NYONAL, 43031
 
 Pbagnpg: Evpuneq Fgrjneg <EFgrjneg@obgfsbeq.bet>
 Fraqre: abgvs@zrpp911.bet
 (Abgvsvpngvba) ? VYYARFF-RZF 77 FBHGU FG AJ, OHEYVATGBA GJC, 43080 (ABEGU FGEQ/UBZRE EQ AJ)
+
 
 */
 
@@ -98,6 +100,19 @@ choyvp pynff BUYvpxvatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:FE 161 JO (FE 161)",
         "ZNQQE:BU 161",
         "PVGL:WREFRL GJC");
+
+    qbGrfg("G2",
+        "(Zbaebr Gbjafuvc Sver) OERNGUVAT CEBOYRZF-RZF\e\a21 F XNFFBA FG, WBUAFGBJA, 43031 (A XNFFBA FG, R PBFUBPGBA FG/ULNGG YA)",
+        "PNYY:OERNGUVAT CEBOYRZF-RZF",
+        "NQQE:21 F XNFFBA FG",
+        "PVGL:WBUAFGBJA",
+        "K:A XNFFBA FG, R PBFUBPGBA FG/ULNGG YA)");
+
+    qbGrfg("G3",
+        "(Zbaebr Gbjafuvc Sver) HAPBAFPVBHF CREFBA-RZF\e\a8400 FZVGUF ZVYY EQ AJ, ARJ NYONAL, 43031",
+        "PNYY:HAPBAFPVBHF CREFBA-RZF",
+        "NQQE:8400 FZVGUF ZVYY EQ AJ",
+        "PVGL:ARJ NYONAL");
 
   }
   
