@@ -29,7 +29,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 34;
+  private static final int PREFERENCE_VERSION = 35;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -60,6 +60,13 @@ public class ManagePreferences {
     if (oldVersion != PREFERENCE_VERSION) {
       PreferenceManager.setDefaultValues(context, R.xml.preferences, true);
       prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
+    }
+    
+    // If old version was < 35 the repeat enable key is gone and has to turn
+    // into a disabled repeat interval
+    if (oldVersion < 35) {
+      boolean repeatEnabled = prefs.getBoolean(R.string.pref_notif_repeat_key);
+      if (!repeatEnabled) prefs.putString(R.string.pref_notif_repeat_interval_key, "0");
     }
     
     // If old version was < 34, we need to convert the reminder repeat interval
@@ -374,6 +381,14 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_notif_override_key);
   }
   
+  public static boolean notifyOverrideSound() {
+    return prefs.getBoolean(R.string.pref_notif_override_sound_key);
+  }
+  
+  public static boolean notifyOverrideLoop() {
+    return prefs.getBoolean(R.string.pref_notif_override_loop_key);
+  }
+
   public static String notifySound() {
     return prefs.getString(R.string.pref_notif_sound_key);
   }
@@ -429,10 +444,6 @@ public class ManagePreferences {
       return prefs.getString(R.string.pref_flashled_pattern_key);
     }
     return prefs.getString(R.string.pref_flashled_pattern_custom_key);
-  }
-  
-  public static boolean notifyRepeat() {
-    return prefs.getBoolean(R.string.pref_notif_repeat_key);
   }
   
   public static long notifDelay() {
@@ -997,7 +1008,11 @@ public class ManagePreferences {
         
         R.string.pref_notif_enabled_key,
         R.string.pref_notif_override_key,
+        R.string.pref_notif_override_sound_key,
+        R.string.pref_notif_override_loop_key,
         R.string.pref_notif_sound_key,
+        R.string.pref_notif_repeat_interval_key,
+        R.string.pref_notif_timeout_key,
         R.string.pref_notif_delay_key,
         
         R.string.pref_vibrate_key,
@@ -1009,10 +1024,6 @@ public class ManagePreferences {
         R.string.pref_flashled_color_custom_key,
         R.string.pref_flashled_pattern_key,
         R.string.pref_flashled_pattern_custom_key,
-
-        R.string.pref_notif_repeat_key,
-        R.string.pref_notif_repeat_interval_key,
-        R.string.pref_notif_timeout_key,
 
         R.string.pref_history_limit_key,
         R.string.pref_delete_unopen_key,

@@ -33,7 +33,24 @@
           android:summary="@string/pref_notif_override_summary"
           android:summaryOn="@string/pref_notif_override_summaryon"
           android:summaryOff="@string/pref_notif_override_summaryoff"
-          android:defaultValue="false" />
+          android:defaultValue="false"
+          android:dependency="@string/pref_notif_enabled_key" />
+        <CheckBoxPreference
+          android:key="@string/pref_notif_override_sound_key"
+          android:title="@string/pref_notif_override_sound_title"
+          android:summary="@string/pref_notif_override_sound_summary"
+          android:summaryOn="@string/pref_notif_override_sound_summaryon"
+          android:summaryOff="@string/pref_notif_override_sound_summaryoff"
+          android:defaultValue="true"
+          android:dependency="@string/pref_notif_override_key" />
+        <CheckBoxPreference
+          android:key="@string/pref_notif_override_loop_key"
+          android:title="@string/pref_notif_override_loop_title"
+          android:summary="@string/pref_notif_override_loop_summary"
+          android:summaryOn="@string/pref_notif_override_loop_summaryon"
+          android:summaryOff="@string/pref_notif_override_loop_summaryoff"
+          android:defaultValue="true"
+          android:dependency="@string/pref_notif_override_key" />
         <RingtonePreference
           android:key="@string/pref_notif_sound_key"
           android:title="@string/pref_notif_sound_title"
@@ -52,13 +69,23 @@
           android:defaultValue="@string/pref_notif_timeout_default"
           android:dependency="@string/pref_notif_enabled_key" />
         <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_notif_repeat_interval_key"
+          android:title="@string/pref_notif_repeat_interval_title"
+          android:summary="@string/pref_notif_repeat_interval_summary"
+          android:entries="@array/pref_notif_repeat_interval_entries"
+          android:entryValues="@array/pref_notif_repeat_interval_values"
+          android:dialogTitle="@string/pref_notif_repeat_interval_dialogTitle"
+          android:defaultValue="@string/pref_notif_repeat_interval_default"
+          android:dependency="@string/pref_notif_enabled_key" />
+        <net.anei.cadpage.preferences.ListPreference
           android:key="@string/pref_notif_delay_key"
           android:title="@string/pref_notif_delay_title"
           android:summary="@string/pref_notif_delay_summary"
           android:entries="@array/pref_notif_delay_entries"
           android:entryValues="@array/pref_notif_delay_values"
           android:dialogTitle="@string/pref_notif_delay_dialogTitle"
-          android:defaultValue="@string/pref_notif_delay_default" />
+          android:defaultValue="@string/pref_notif_delay_default"
+          android:dependency="@string/pref_notif_enabled_key" />
         <net.anei.cadpage.preferences.TestNotificationDialogPreference
           android:key="@string/pref_notif_test_key"
           android:dialogIcon="@drawable/android:ic_dialog_alert"
@@ -113,24 +140,6 @@
           android:entryValues="@array/pref_led_pattern_values"
           android:defaultValue="@string/pref_flashled_pattern_default"
           android:dependency="@string/pref_flashled_key" />
-      </PreferenceCategory>
-      <PreferenceCategory
-        android:title="@string/pref_reminder_category_title">
-        <CheckBoxPreference
-          android:key="@string/pref_notif_repeat_key"
-          android:title="@string/pref_notif_repeat_title"
-          android:summaryOn="@string/pref_notif_repeat_summaryon"
-          android:summaryOff="@string/pref_notif_repeat_summaryoff"
-          android:defaultValue="@string/pref_notif_repeat_default" />
-        <net.anei.cadpage.preferences.ListPreference
-          android:key="@string/pref_notif_repeat_interval_key"
-          android:title="@string/pref_notif_repeat_interval_title"
-          android:summary="@string/pref_notif_repeat_interval_summary"
-          android:entries="@array/pref_notif_repeat_interval_entries"
-          android:entryValues="@array/pref_notif_repeat_interval_values"
-          android:dialogTitle="@string/pref_notif_repeat_interval_dialogTitle"
-          android:defaultValue="@string/pref_notif_repeat_interval_default"
-          android:dependency="@string/pref_notif_repeat_key" />
       </PreferenceCategory>
     </PreferenceScreen>
     

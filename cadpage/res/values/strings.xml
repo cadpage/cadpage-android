@@ -83,8 +83,8 @@
    <string name="pref_additional_title">Additional Settings</string>
    <string name="pref_additional_summary">Additional Cadpage configuration</string>
 
-   <string name="pref_notif_timeout_title">Alert Timeout</string>
-   <string name="pref_notif_timeout_summary">Alerts will stop after this time.  Cur value: %s</string>
+   <string name="pref_notif_timeout_title">Alert Duration</string>
+   <string name="pref_notif_timeout_summary">Alert notification will stop after this time.  Cur value: %s</string> 
    
    <string name="pref_timeout_title">Screen Timeout</string>
    <string name="pref_timeout_summary">The screen stay on for this time.  Cur value: %s</string>
@@ -115,7 +115,6 @@
    <!-- Category headings -->
    <string name="pref_vibrate_category_title">Vibrate Configuration</string>
    <string name="pref_flashled_category_title">LED Configuration</string>
-   <string name="pref_reminder_category_title">Reminder Configuration</string>
 
    <string name="pref_notif_enabled_title">Enable Notifications</string>
    <string name="pref_notif_enabled_summaryon">Notifications are enabled</string>
@@ -164,21 +163,29 @@
    <string name="pref_flashled_pattern_help_on">Time on:</string>
    <string name="pref_flashled_pattern_help_off">Time off:</string>
 
-   <string name="pref_notif_repeat_title">Enable Reminders</string>
-   <string name="pref_notif_repeat_summaryon">Unread message reminders are enabled</string>
-   <string name="pref_notif_repeat_summaryoff">Unread message reminders are disabled</string>
-
-   <string name="pref_notif_repeat_interval_title">Reminder Interval</string>
-   <string name="pref_notif_repeat_interval_summary">The time period between notification reminders. Cur value: %s </string>
-   <string name="pref_notif_repeat_interval_dialogTitle">Interval (minutes)</string>
+   <string name="pref_notif_repeat_interval_title">Repeat Alert Interval</string>
+   <string name="pref_notif_repeat_interval_summary">Alert will repeat at this interval. Cur value: %s </string>
+   <string name="pref_notif_repeat_interval_dialogTitle">Repeat Interval</string>
 
 <!-- Contact Notification Customization Strings -->
+
   <string name="pref_notif_default_title">Default Notifications</string>
-  <string name="pref_notif_override_title">Override Notification</string>
-  <string name="pref_notif_override_summary">Use this to play the included sound even when phone is in silent mode.</string>
-  <string name="pref_notif_override_summaryon">Notification Sounds will not play. The default sound will.</string>
-  <string name="pref_notif_override_summaryoff">Notification sounds and rules will be followed</string>
-    
+  
+  <string name="pref_notif_override_title">Override Mute and Volume Control</string>
+  <string name="pref_notif_override_summary">Use this to sound audio alert even when phone is in silent mode.</string>
+  <string name="pref_notif_override_summaryon">Alert sound will always play at full volume</string>
+  <string name="pref_notif_override_summaryoff">Alert sound will follow normal mute and volume controls</string>
+  
+  <string name="pref_notif_override_sound_title">Play Cadpage Alert Tones</string>
+  <string name="pref_notif_override_sound_summary">Play Cadpage alert tones for alarms</string>
+  <string name="pref_notif_override_sound_summaryon">Cadpage alert tones will be used</string>
+  <string name="pref_notif_override_sound_summaryoff">Configured notification will be used</string>
+  
+  <string name="pref_notif_override_loop_title">Loop Alert Sound</string>
+  <string name="pref_notif_override_loop_summary">Play alert sound in continuous loop</string>
+  <string name="pref_notif_override_loop_summaryon">Alert sound will loop continuously</string>
+  <string name="pref_notif_override_loop_summaryoff">Alert sound will play once</string>
+  
 <!-- Text-To-Speech and Voice Transcription Strings -->
   <string name="error_message">Error</string>
       

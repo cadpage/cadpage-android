@@ -54,10 +54,8 @@ public class ReminderReceiver extends BroadcastReceiver {
    * taken from user preferences.
    */
   public static void scheduleReminder(Context context, SmsMmsMessage message) {
-    boolean reminder_notifications = ManagePreferences.notifyRepeat();
-    if (!reminder_notifications) return;
-
     int reminderInterval = ManagePreferences.repeatInterval();
+    if (reminderInterval == 0) return;
     scheduleReminder(context, message, false, reminderInterval*1000L);
   }
   

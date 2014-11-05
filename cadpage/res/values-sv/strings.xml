@@ -65,8 +65,10 @@
   <string name="pref_popup_control">Alarm Popup kontroll</string>
   <string name="pref_additional_title">Ytterligare inställningar</string>
   <string name="pref_additional_summary">Ytterligare Cadpage-konfigurering</string>
-  <string name="pref_notif_timeout_title">Alarmeringstid</string>
-  <string name="pref_notif_timeout_summary">Larm kommer att tystna after denna tid.  Aktuellt värde: %s</string>
+  
+   <string name="pref_notif_timeout_title">Alert Duration</string>                                                      <!-- Translate -->
+   <string name="pref_notif_timeout_summary">Alert notification will stop after this time.  Cur value: %s</string>      <!-- Translate -->
+  
   <string name="pref_timeout_title">Skärmaktiveringstid</string>
   <string name="pref_timeout_summary">Skärmen kommer att vara aktiverad så här länge.  Aktuellt värde: %s</string>
   <string name="pref_dimscreen_title">Dimma ner Popup-fönster</string>
@@ -89,7 +91,6 @@
   <!-- Category headings -->
   <string name="pref_vibrate_category_title">Konfigurera vibration</string>
   <string name="pref_flashled_category_title">LED konfiguration</string>
-  <string name="pref_reminder_category_title">Påminnelsekonfigurering</string>
   <string name="pref_notif_enabled_title">Aktivera notifikation</string>
   <string name="pref_notif_enabled_summaryon">Notifikation är aktiverad</string>
   <string name="pref_notif_enabled_summaryoff">Notifikation är avaktiverad</string>
@@ -130,18 +131,30 @@
   <string name="pref_flashled_pattern_help">Skriv in tiden i milisekunder för att sätta på och stänga av LED</string>
   <string name="pref_flashled_pattern_help_on">Tid på:</string>
   <string name="pref_flashled_pattern_help_off">Tid av:</string>
-  <string name="pref_notif_repeat_title">Aktivera påminnelse</string>
-  <string name="pref_notif_repeat_summaryon">Påminnelse för olästa meddelanden är aktiverad</string>
-  <string name="pref_notif_repeat_summaryoff">Påminnelse för olästa meddelanden är avaktiverad</string>
-  <string name="pref_notif_repeat_interval_title">Påminnelseintervall</string>
-  <string name="pref_notif_repeat_interval_summary">Tidsperiod mellan påminnele. Aktuellt värde: %s </string>
-  <string name="pref_notif_repeat_interval_dialogTitle">Intervall (minuter)</string>
+  
+   <string name="pref_notif_repeat_interval_title">Repeat Alert Interval</string>                                      <!-- Translate -->
+   <string name="pref_notif_repeat_interval_summary">Alert will repeat at this interval. Cur value: %s </string>       <!-- Translate -->
+   <string name="pref_notif_repeat_interval_dialogTitle">Repeat Interval</string>                                      <!-- Translate -->
+  
   <!-- Contact Notification Customization Strings -->
+  
   <string name="pref_notif_default_title">Standardnotifiering</string>
-  <string name="pref_notif_override_title">Ignorera notifikation</string>
-  <string name="pref_notif_override_summary">Använd det här för att spela upp inkluderat ljud även när telefonen är i tyst läge</string>
-  <string name="pref_notif_override_summaryon">Notifikationsljud kommer ej att ljuda. Standardljud kommer att ljuda.</string>
-  <string name="pref_notif_override_summaryoff">Notifikation ljuder och regler kommer att följas</string>
+  
+  <string name="pref_notif_override_title">Override Mute and Volume Control</string>                                   <!-- Translate -->
+  <string name="pref_notif_override_summary">Use this to sound audio alert even when phone is in silent mode.</string> <!-- Translate -->
+  <string name="pref_notif_override_summaryon">Alert sound will always play at full volume</string>                    <!-- Translate -->
+  <string name="pref_notif_override_summaryoff">Alert sound will follow normal mute and volume controls</string>       <!-- Translate -->
+  
+  <string name="pref_notif_override_sound_title">Play Cadpage Alert Tones</string>                                     <!-- Translate -->
+  <string name="pref_notif_override_sound_summary">Play Cadpage alert tones for alarms</string>                        <!-- Translate -->
+  <string name="pref_notif_override_sound_summaryon">Cadpage alert tones will be used</string>                         <!-- Translate -->
+  <string name="pref_notif_override_sound_summaryoff">Configured notification will be used</string>                    <!-- Translate -->
+  
+  <string name="pref_notif_override_loop_title">Loop Alert Sound</string>                                              <!-- Translate -->
+  <string name="pref_notif_override_loop_summary">Play alert sound in continuous loop</string>                         <!-- Translate -->
+  <string name="pref_notif_override_loop_summaryon">Alert sound will loop continuously</string>                        <!-- Translate -->
+  <string name="pref_notif_override_loop_summaryoff">Alert sound will play once</string>                               <!-- Translate -->
+  
   <!-- Text-To-Speech and Voice Transcription Strings -->
   <string name="error_message">Fel</string>
   <!-- Popup Button Configuration -->

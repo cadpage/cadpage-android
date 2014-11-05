@@ -12,16 +12,14 @@
     <item>CSM</item>
     <item>C</item>
   </string-array>
-  <string-array
-    name="pref_mms_timeout_values">
+  <string-array name="pref_mms_timeout_values">
     <item>1</item>
     <item>2</item>
     <item>3</item>
     <item>5</item>
     <item>10</item>
   </string-array>
-  <string-array
-    name="pref_notif_delay_values">
+  <string-array name="pref_notif_delay_values">
     <item>0</item>
     <item>500</item>
     <item>1000</item>
@@ -29,8 +27,7 @@
     <item>2000</item>
     <item>3000</item>
   </string-array>
-  <string-array
-    name="pref_notif_delay_entries">
+  <string-array name="pref_notif_delay_entries">
     <item>@string/pref_no_delay</item>
     <item>@string/pref_p5s</item>
     <item>@string/pref_1s</item>
@@ -38,17 +35,17 @@
     <item>@string/pref_2s</item>
     <item>@string/pref_3s</item>
   </string-array>
-  <string-array
-    name="pref_notif_repeat_interval_values">
+  <string-array name="pref_notif_repeat_interval_values">
+    <item>0</item>
     <item>10</item>
     <item>20</item>
     <item>30</item>
     <item>60</item>
     <item>90</item>
     <item>120</item>
-    </string-array>
-  <string-array
-    name="pref_notif_repeat_interval_entries">
+  </string-array>
+  <string-array name="pref_notif_repeat_interval_entries">
+    <item>@string/pref_disabled</item>
     <item>@string/pref_10s</item>
     <item>@string/pref_20s</item>
     <item>@string/pref_30s</item>
@@ -98,8 +95,7 @@
     <item>@string/start_radio_item_text</item>
     <item>@string/active911_item_text</item>
   </string-array>
-  <string-array
-    name="pref_button_values">
+  <string-array name="pref_button_values">
     <item>0</item>
     <item>1</item>
     <item>2</item>

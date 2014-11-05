@@ -13,6 +13,7 @@ import android.content.res.AssetFileDescriptor;
 import android.graphics.Color;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
+import android.media.MediaPlayer.OnCompletionListener;
 import android.media.MediaPlayer.OnErrorListener;
 import android.net.Uri;
 import android.os.Build;
@@ -56,7 +57,7 @@ public class ManageNotification {
    * @return true if some kind of notification should be launched when page is received
    */
   public static boolean isNotificationEnabled() {
-    return ManagePreferences.notifyEnabled() || ManagePreferences.notifyOverride();
+    return ManagePreferences.notifyEnabled();
   }
 
   /*
@@ -65,7 +66,7 @@ public class ManageNotification {
   public static void show(Context context, SmsMmsMessage message) {
     
     // Check if notifications are enabled - if not, we're done :)
-    if (!ManagePreferences.notifyEnabled() && !ManagePreferences.notifyOverride()) return;
+    if (!ManagePreferences.notifyEnabled()) return;
     
     // Schedule notification after appropriate delay
     ReminderReceiver.scheduleNotification(context, message);
@@ -89,7 +90,7 @@ public class ManageNotification {
     myNM.notify(NOTIFICATION_ALERT, n);
 
     // Schedule a reminder notification
-    if (!ManagePreferences.notifyOverride()) ReminderReceiver.scheduleReminder(context, message);
+    ReminderReceiver.scheduleReminder(context, message);
     
     // If this is the initial notification, schedule the timeout event
     if (first) {
@@ -179,25 +180,13 @@ public class ManageNotification {
       }
     }
 
-    if ( ManagePreferences.notifyOverride() || ManagePreferences.notifyEnabled()) {
+    if ( ManagePreferences.notifyEnabled()) {
       
       // Are we doing are own alert sound?
       if (ManagePreferences.notifyOverride()) {
         
-        // Grab audio focus
-        if (afm != null) afm.grabAudioFocus(context);
-        
         // Save previous volume and set volume to max
-        int restoreVol = ManagePreferences.restoreVol();
-        if (restoreVol < 0) {
-          AudioManager am = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
-          int maxVol = am.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
-          int curVol = am.getStreamVolume(AudioManager.STREAM_MUSIC);
-          if (curVol != maxVol) {
-            am.setStreamVolume(AudioManager.STREAM_MUSIC, maxVol, 0);
-            ManagePreferences.setRestoreVol(curVol);
-          }
-        }
+        overrideVolumeControl(context);
         
         // Start Media Player
         startMediaPlayer(context, 0);
@@ -228,28 +217,69 @@ public class ManageNotification {
     return nbuild.build();
   }
 
+  /**
+   * Save current volume level and max out the volume
+   * @param context current context
+   */
+  private static void overrideVolumeControl(Context context) {
+    
+    // Grab audio focus
+    if (afm != null) afm.grabAudioFocus(context);
+    
+    // If a restore volume is already set, assume that we have already
+    // forced maximum volume and do nothing
+    int restoreVol = ManagePreferences.restoreVol();
+    if (restoreVol < 0) {
+      
+      // Otherwise get the max and current volume for the music stream
+      // If they are not equal, save the current stream volume and set
+      // it to the max value
+      AudioManager am = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
+      int maxVol = am.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
+      int curVol = am.getStreamVolume(AudioManager.STREAM_MUSIC);
+      if (curVol != maxVol) {
+        am.setStreamVolume(AudioManager.STREAM_MUSIC, maxVol, 0);
+        ManagePreferences.setRestoreVol(curVol);
+      }
+    }
+  }
+
 
   /**
    * Start up Media player to playoverride alert sound
    * @param context current context
    */
   private synchronized static void startMediaPlayer(Context context, int startCnt) {
-    if (mMediaPlayer == null) {
-      try {
+    
+    try {
+      boolean loop = ManagePreferences.notifyOverrideLoop();
+      if (mMediaPlayer == null) {
         mMediaPlayer = new MediaPlayer();
+        if (!loop) {
+          MediaOnCompletionListener listener = new MediaOnCompletionListener(context);
+          mMediaPlayer.setOnCompletionListener(listener);
+        }
         MediaErrorListener listener = new MediaErrorListener(context, startCnt);
         mMediaPlayer.setOnErrorListener(listener);
-        AssetFileDescriptor fd = context.getResources().openRawResourceFd(R.raw.generalquarter);
-        mMediaPlayer.setDataSource(fd.getFileDescriptor(), fd.getStartOffset(), fd.getLength());
+        if (ManagePreferences.notifyOverrideSound()) {
+          AssetFileDescriptor fd = context.getResources().openRawResourceFd(R.raw.generalquarter);
+          mMediaPlayer.setDataSource(fd.getFileDescriptor(), fd.getStartOffset(), fd.getLength());
+        } else {
+          Uri alarmSoundURI = Uri.parse(ManagePreferences.notifySound());
+          mMediaPlayer.setDataSource(context, alarmSoundURI);
+        }
         mMediaPlayer.prepare();
         mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
-        mMediaPlayer.setLooping(true);
+        if (loop) mMediaPlayer.setLooping(true);
         listener.arm();
         mMediaPlayer.start();
-      } catch (IOException ex) {
-        throw new MediaFailureException(ex.getMessage(), ex);
+      } else {
+        mMediaPlayer.start();
       }
+    } catch (IOException ex) {
+      throw new MediaFailureException(ex.getMessage(), ex);
     }
+    Log.v("Playback started");
   }
 
 
@@ -265,6 +295,13 @@ public class ManageNotification {
     }
     
     // Restore volume if we messed it up
+    restoreVolumeControl(context);
+  }
+
+  private static void restoreVolumeControl(Context context) {
+    
+    // If a restore volume level has been set, restore the volume to that level
+    //  and delete the restore volume level
     int vol = ManagePreferences.restoreVol();
     if (vol >= 0) {
       AudioManager am = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
@@ -274,6 +311,24 @@ public class ManageNotification {
     
     // And release audio focus
     if (afm != null) afm.releaseAudioFocus(context);
+
+  }
+  
+  // Media oncomplete listener
+  // Restore normal volume when alert playback completes
+  private static class MediaOnCompletionListener implements OnCompletionListener {
+    
+    private Context context;
+    
+    public MediaOnCompletionListener(Context context) {
+      this.context = context;
+    }
+
+    @Override
+    public void onCompletion(MediaPlayer mp) {
+      Log.v("Playback completed");
+      restoreVolumeControl(context);
+    }
   }
   
   // Media error listener
@@ -305,7 +360,6 @@ public class ManageNotification {
 
       throw new MediaFailureException("Media Player failure - what:" + what + " extra:" + extra + " cnt:" + startCnt);
     }
-    
   }
 
   // Clear a single notification
@@ -437,12 +491,14 @@ public class ManageNotification {
 
     @Override
     public void grabAudioFocus(Context context) {
+      Log.v("Grab Audio Focus");
       AudioManager am = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
       am.requestAudioFocus(this, AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
     }
 
     @Override
     public void releaseAudioFocus(Context context) {
+      Log.v("Release Audio Focus");
       AudioManager am = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
       am.abandonAudioFocus(this);
     }
