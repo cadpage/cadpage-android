@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,8 +11,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 public class NCDurhamCountyParser extends DispatchOSSIParser {
   
   public NCDurhamCountyParser() {
-    super("DURHAM COUNTY", "NC",
-           "CALL ADDR! CH? INFO+");
+    super(CITY_CODES, "DURHAM COUNTY", "NC",
+           "CALL ADDR! ( CITY!  | CODE CITY! | CH CODE? CITY! | X/Z CITY! | X/Z CODE CITY! | X/Z CH CODE? CITY! | X/Z X/Z CITY! |  X/Z X/Z CODE CITY/Y! | X/Z X/Z CH CODE? CITY! ) CH? INFO+");
   }
   
   @Override
@@ -19,57 +20,89 @@ public class NCDurhamCountyParser extends DispatchOSSIParser {
     return "CAD@durhamnc.gov";
   }
   
-  private static final Pattern UNIT_PTN = Pattern.compile("^\\{(.*?)\\}");
-  private static final Pattern JOIN_PTN = Pattern.compile("\\d\\d/\\d\\d/\\d\\d \\d\\d$|PROBLEM$");
-  
   @Override
-  public boolean parseMsg(String subject, String body, Data data) {
-    
-    boolean cadSubj = subject.startsWith("CAD:");
-    boolean cadBody = body.startsWith("CAD:");
-    boolean suspect = !cadSubj && !cadBody;
-    if (suspect) {
-      body = "CAD:" + body;
-    }
-    else {
-      if (cadSubj || subject.contains(";")) {
-        if (cadSubj) subject = subject.substring(4);
-        if (cadBody) body = body.substring(4);
-        String join = (subject.length() > 0 && JOIN_PTN.matcher(subject).find() ? ":" : "");
-        body = "CAD:" + subject + join + body;
-      }
-    }
+  public boolean parseMsg(String body, Data data) {
+    if (!body.startsWith("CAD:")) body = "CAD:" + body;
     if (!super.parseMsg(body, data)) return false;
-    if (suspect && !isPositiveId() && data.strTime.length() == 0 && data.strCross.length() == 0) return false;
-    Matcher match = UNIT_PTN.matcher(data.strSupp);
-    if (match.find()) {
-      data.strUnit = match.group(1);
-      data.strSupp = data.strSupp.substring(match.end()).trim();
-    }
+    if (!isPositiveId() && data.strCity.length() == 0 
+        && data.strTime.length() == 0 
+        && data.strCross.length() == 0) return false;
     return true;
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("CH")) return new ChannelField("\\**(OP.*?)\\**", true);
+    if (name.equals("CODE")) return new MyCodeField();
+    if (name.equals("CH")) return new MyChannelField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
+  private static final Pattern CODE_PTN = Pattern.compile("\\d{1,2}[A-Z]\\d{1,2}[A-Z]?");
+  private class MyCodeField extends CodeField {
+    MyCodeField() {
+      setPattern(CODE_PTN, true);
+    }
+  }
+  
+  private static final Pattern CHANNEL_PTN = Pattern.compile("[+*]*(OPS\\d+)[+*]*", Pattern.CASE_INSENSITIVE);
+  private class MyChannelField extends ChannelField {
+    MyChannelField() {
+      setPattern(CHANNEL_PTN, true);
+    }
+  }
+  
+  private static final Pattern INFO_PHONE_PTN = Pattern.compile("\\d{3} ?- ?\\d{3} ?- ?\\d{4}");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
+      
       if (field.length() == 0) return;
+      
+      Matcher match = CHANNEL_PTN.matcher(field);
+      if (match.matches()) {
+        String code = match.group(1);
+        if (!data.strChannel.contains(code)) {
+          data.strChannel = append(data.strChannel, "/", match.group(1));
+        }
+        return;
+      }
+      
+      if (data.strPhone.length() == 0 && INFO_PHONE_PTN.matcher(field).matches()) {
+        data.strPhone = field.replace(" ", "");
+        return;
+      }
+      
+      if (data.strCode.length() == 0 && CODE_PTN.matcher(field).matches()) {
+        data.strCode = field;
+        return;
+      }
+      
       if (isValidAddress(field)) {
         data.strCross = append(data.strCross, " & ", field);
-      } else {
-        super.parse(field, data);
+        return;
       }
+      
+      super.parse(field, data);
     }
     
     @Override
     public String getFieldNames() {
-      return "INFO X";
+      return "X PHONE CODE INFO CH";
     }
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BAHA", "BAHAMA",
+      "BUTN", "BAHAMA",   // ????
+      "CHAP", "CHAPEL HILL",
+      "DURH", "DURHAM",
+      "MORR", "MORRISVILLE",
+      "HILL", "HILLSBOROUGH",
+      "PERS", "PERSON COUNTY",
+      "ROUG", "ROUGEMONT",
+      "RTP",  "RESEARCH TRIANGLE PARK",
+      
+      "DURHAM",    "DURHAM"
+  });
 }
