@@ -348,6 +348,7 @@ choyvp pynff INZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G9",
         "Jnssyr Ubhfr 610 A ZNVA FG OYNPXFOHET;2014-017399;12:27:52;;",
+        "PNYY:NYREG",
         "NQQE:Jnssyr Ubhfr 610 A ZNVA FG", //cynpr!
         "PVGL:OYNPXFOHET",
         "VQ:2014-017399",

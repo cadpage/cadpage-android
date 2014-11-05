@@ -562,7 +562,7 @@ choyvp pynff APQnivrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ZBPXFIVYYR",
         "K:CVAR EVQTR EQ & QRNQRAQ",
         "QNGR:03/11/2013",
-        "GVZR:15:10:12",
+        "GVZR:15:10:34",
         "VASB:Zrqvpny: Ab / Unmneqf: Ab\aQrygn Qvfcngpu Yriry: 26Q01 PNQ Vapvqrag Pbqr: 26Q1 / Abg nyreg.\a1.Fur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).\aPuvrs Pbzcynvag Ahzore: 26 / 43 lrne byq, Srznyr, Pbafpvbhf, Oernguvat. Fvpx Crefba (Fcrpvsvp Qvntabfvf). Pnyyre Fgngrzrag: fvpx.",
         "CYNPR:BSS 448 CVAR EVQTR EQ",
         "PBQR:26Q1",
@@ -760,7 +760,7 @@ choyvp pynff APQnivrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ZBPXFIVYYR",
         "K:FURSSVRYQ EQ & HF UJL 64 J",
         "QNGR:03/09/2013",
-        "GVZR:14:32:16",
+        "GVZR:14:33:15",
         "VASB:Zrqvpny: Ab / Unmneqf: Ab\aOenib Qvfcngpu Yriry: 17O01 PNQ Vapvqrag Pbqr: 17O1 / CBFFVOYL QNATREBHF obql nern. / 1.Guvf unccrarq abj (yrff guna 6uef ntb). / 2.Vg'f ercbegrq gung fur sryy ng tebhaq yriry. / 3.Gur snyy jnf nppvqragny. / 4.Gurer vf ab oyrrqvat abj. / 5.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). / 6.Gur vawhel vf gb n CBFFVOYL QNATREBHF nern.\a7.Fur vf ab ybatre ba gur sybbe (tebhaq).\aPuvrs Pbzcynvag Ahzore: 17 / 83 lrne byq, Srznyr, Pbafpvbhf, Oernguvat. Snyyf. Pnyyre Fgngrzrag: SNYY.",
         "PBQR:17O1",
         "PNYY:SNYYF/ONPX VAWHEVRF(GENHZNGVP)",
@@ -1008,7 +1008,7 @@ choyvp pynff APQnivrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CUBAR:336-940-2619",
         "HAVG:23,32",
         "QNGR:03/27/2013",
-        "GVZR:08:01:11",
+        "GVZR:08:01:55",
         "CYNPR:BSS 338 SNEZVATGBA EQ");
 
     qbGrfg("G7",
@@ -1056,7 +1056,7 @@ choyvp pynff APQnivrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CUBAR:336-940-2619",
         "HAVG:23,32,FG4",
         "QNGR:03/27/2013",
-        "GVZR:08:01:11",
+        "GVZR:08:01:55",
         "CYNPR:BSS 338 SNEZVATGBA EQ");
 
     qbGrfg("G10",
@@ -1341,7 +1341,7 @@ choyvp pynff APQnivrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CUBAR:336-940-2619",
         "HAVG:23,32",
         "QNGR:03/27/2013",
-        "GVZR:08:01:11",
+        "GVZR:08:01:55",
         "CYNPR:BSS 338 SNEZVATGBA EQ");
 
     qbGrfg("G6",
@@ -1409,7 +1409,7 @@ choyvp pynff APQnivrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CUBAR:336-940-4082",
         "HAVG:24,32,FG4",
         "QNGR:03/30/2013",
-        "GVZR:05:16:09",
+        "GVZR:05:16:23",
         "CYNPR:BSS 200 OYX A UVQQRAOEBBX BSS 150 OYBX GJVA PERRX");
 
     qbGrfg("G4",
