@@ -7,6 +7,6 @@ import net.anei.cadpage.parsers.dispatch.DispatchA19Parser;
 public class TXKilgoreParser extends DispatchA19Parser {
   
   public TXKilgoreParser() {
-    super("", "TX");
+    super("KILGORE", "TX");
   }
 }

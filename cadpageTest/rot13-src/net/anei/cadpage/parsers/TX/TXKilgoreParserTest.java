@@ -53,7 +53,7 @@ Fraqre: <xsqqvfcngpu@pvglbsxvytber.pbz>
 choyvp pynff GKXvytberCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp GKXvytberCnefreGrfg() {
-    frgCnefre(arj GKXvytberCnefre(), "", "GK");
+    frgCnefre(arj GKXvytberCnefre(), "XVYTBER", "GK");
   }
   
   @Grfg
