@@ -15,7 +15,12 @@ public class NCAlamanceCountyParser extends DispatchOSSIParser {
   
   public NCAlamanceCountyParser() {
     super(CITY_CODES, "ALAMANCE COUNTY", "NC",
-           "ID?: CALL ADDR APT? CITY/Y! X X INFO+");
+           "ID?: CALL ADDR! APT? CITY/Y X X INFO+");
+  }
+
+  @Override
+  public String getFilter() {
+    return "CAD@alamance-nc.com";
   }
   
   @Override
@@ -27,11 +32,6 @@ public class NCAlamanceCountyParser extends DispatchOSSIParser {
       body = body.substring(0,pt) + subject + ' ' +  body.substring(pt);
     }
     return super.parseMsg(body, data);
-  }
-
-  @Override
-  public String getFilter() {
-    return "CAD@alamance-nc.com";
   }
   
   @Override
@@ -69,6 +69,9 @@ public class NCAlamanceCountyParser extends DispatchOSSIParser {
       "ELON",  "ELON",
       "LIB",   "LIBERTY",
       "SWEP",  "SWEPSONVILLE",
-      "SNOW",  "SNOW CAMP"
+      "SNOW",  "SNOW CAMP",
+      
+      // Guilford County
+      "WHIT",  "WHITSETT"
   });
 }
