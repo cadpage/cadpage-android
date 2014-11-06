@@ -51,7 +51,7 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
 	  public void parse(String field, Data data) {
 	    Parser p = new Parser(field);
 	    field = p.get('(');
-	    data.strPlace = p.get(')');
+	    data.strPlace = stripFieldEnd(p.get(), ")");
 	    p = new Parser(field);
 	    data.strPlace = append(p.getOptional('@'), " - ", data.strPlace);
 	    super.parse(p.get(','), data);
@@ -83,9 +83,16 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
 	public String postAdjustMapAddress(String address) {
     return address.replace("BIT_AND_SPUR", "BIT AND SPUR");
 	}
+	
+	@Override
+	public String adjustMapCity(String city) {
+	  return convertCodes(city, CITY_MAP_TABLE);
+	}
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BP",  "BETHESDA",
       "C4",  "CHEVY CHASE",
+      "CU",  "CU",
       "CV",  "CHEVY CHASE",
       "DC",  "DC",
       "FH",  "FRIENDSHIP HEIGHTS",
@@ -102,6 +109,9 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
       "SS",  "SILVER SPRING",
       "SO",  "SOMERSET",
       "TP",  "TACOMA PARK"
-      
+  });
+  
+  private static final Properties CITY_MAP_TABLE = buildCodeTable(new String[]{
+      "CU",  "KENSINGTON"
   });
 }
