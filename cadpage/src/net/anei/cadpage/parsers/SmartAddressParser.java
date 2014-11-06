@@ -1457,7 +1457,7 @@ public abstract class SmartAddressParser extends MsgParser {
             }
             
             // Otherwise, use it as the failure fallback
-            else if (failStart < 0) {
+            else if (failStart < 0 && isFlagSet(FLAG_OPT_STREET_SFX|FLAG_NO_STREET_SFX)) {
               failStart = ndx;
               failEnd = tmp;
             }

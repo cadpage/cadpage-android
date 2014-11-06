@@ -12,21 +12,22 @@ public class COJeffersonCountyAParser extends FieldProgramParser {
   
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("Alarm .*DISP:.*SCN:.*CLR:.*");
   
+  private static final Pattern MISSING_COLON_PTN = Pattern.compile("(?<= Pg)(?!:)");
+  private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Add:|Apt:|Type:|Pg:|Cross:|Units:|Radio:|Case ?#:)");
+  
 
   public COJeffersonCountyAParser() {
     super("Jefferson County", "CO",
-        "Add:ADDR! Apt:APT? Type:CALL! Pg:MAP! Cross:X? Units:UNIT? Radio:CH? Case#:ID!");
+        "Add:ADDR! Apt:APT? Bldg:APT? Loc:PLACE? Type:CALL! Pg:MAP! Cross:X? Units:UNIT? Radio:CH? Case_#:ID!");
    }
 
   @Override
   public String getFilter() {
-    return "@c-msg.net";
+    return "@c-msg.net,cadpage@westmetrofire.org";
   }
   
   @Override 
   public boolean parseMsg(String subject, String body, Data data) {
-    
-    data.strSource = subject.split("\\|")[0].trim();
     
     if (RUN_REPORT_PTN.matcher(body).matches()) {
       data.strCall = "RUN REPORT";
@@ -34,13 +35,22 @@ public class COJeffersonCountyAParser extends FieldProgramParser {
       return true;
     }
     
-    body = body.replace("Radio:", " Radio:").replace(" Pg", " Pg:").replace(" Map Pg:", " Pg:").replace("Alarm#", " Case#:");
-    return super.parseMsg(body, data);
+    body = body.replace("Map Pg", " Pg:").replace("Alarm#", " Case #:");
+    body = MISSING_COLON_PTN.matcher(body).replaceAll(":");
+    body = MISSING_BLANK_PTN.matcher(body).replaceAll(" ");
+    body = body.replace(" Case#:", " Case #:");
+    
+    if (!super.parseMsg(body, data)) return false;
+    data.strMap = stripFieldEnd(data.strMap, "-");
+    data.strCross = data.strCross.replace("no x street avail", "");
+    data.strCross = stripFieldStart(data.strCross, "/");
+    data.strCross = stripFieldEnd(data.strCross, "/");
+    return true;
   }
   
   @Override
   public String getProgram() {
-    return "SRC " + super.getProgram() + " PLACE";
+    return super.getProgram() + " PLACE";
   }
 }
   

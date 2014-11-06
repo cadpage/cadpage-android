@@ -76,6 +76,7 @@ public class Message {
   }
   
   // Patterns used to perform front end descrambling
+  private static final Pattern SUBJECT_EMAIL_PTN = Pattern.compile("Forwarded Message from ([^ ]+)");
   private static final Pattern RETURN_PTN = Pattern.compile("\r+\n|\n\r+|\r");
   private static final Pattern LEAD_BLANK = Pattern.compile("^ *\" \" +");
   private static final Pattern DISCLAIMER_PTN = Pattern.compile("\n+DISCLA| *\\[Attachment\\(s\\) removed\\]\\s*$|\n+To unsubscribe ", Pattern.CASE_INSENSITIVE);
@@ -132,6 +133,16 @@ public class Message {
   
   private void preParse(String fromAddress, String subject, String body, boolean insBlank, boolean keepLeadBreak) {
     
+    // default address and subject to obvious values
+    Matcher match = SUBJECT_EMAIL_PTN.matcher(subject);
+    if (match.matches()) {
+      parseAddress = match.group(1);
+      parseSubject = "";
+    } else {
+      parseAddress = fromAddress;
+      parseSubject = subject;
+    }
+    
     // Start by decoding common HTML sequences
     body = trimLead(body, keepLeadBreak);
     
@@ -145,12 +156,8 @@ public class Message {
     if (body.startsWith("FWD:")) body = body.substring(4).trim();
     if (body.startsWith("Begin forwarded message:")) body = body.substring(24).trim();
     
-    // default address and subject to obvious values
-    parseAddress = fromAddress;
-    parseSubject = subject;
-    
     // Remove trailing disclaimer(s)
-    Matcher match = DISCLAIMER_PTN.matcher(body);
+    match = DISCLAIMER_PTN.matcher(body);
     if (match.find()) body = body.substring(0,match.start()).trim();
     
     // Exchange has a unique set of forwarding headers, than can be chained together :()
