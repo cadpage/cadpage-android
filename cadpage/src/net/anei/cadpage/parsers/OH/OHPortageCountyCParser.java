@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 /**
- * Portage County, OH
+ * Portage County, OH (C) 
  */
 public class OHPortageCountyCParser extends SmartAddressParser {
   

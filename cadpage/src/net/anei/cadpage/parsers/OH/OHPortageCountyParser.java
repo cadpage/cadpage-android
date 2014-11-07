@@ -9,6 +9,6 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class OHPortageCountyParser extends GroupBestParser {
   
   public OHPortageCountyParser() {
-    super(new OHPortageCountyAParser(), new OHPortageCountyBParser());
+    super(new OHPortageCountyAParser(), new OHPortageCountyBParser(), new OHPortageCountyCParser());
   }
 }

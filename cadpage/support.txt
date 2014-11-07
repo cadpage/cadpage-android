@@ -418,14 +418,14 @@ Jean ~ Cadpage Administrator
 
 ******************************************************************
 
-To request a new subscription, go into Cadpage Settings and select
+To request a free subscription, go into Cadpage Settings and select
 Payment Status > I can't afford $10 this year
 
 Please add a message about why you need a free subscription.
 That generates an email to us with information we need to set up your free subscription.
 
 Take care,
-Jean Goul
+Jean ~ Cadpage Administrator
 
 ******************************************************************
 Subsequent $10 payments are set up as maintenance fees. 
