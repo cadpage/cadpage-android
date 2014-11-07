@@ -88,6 +88,9 @@ public class WVPrestonCountyParser extends DispatchA48Parser {
     "VICTORIA",
     "WEST END",
     "WHITE OAK SPRINGS",
-    "ZEVELY"
+    "ZEVELY",
+    
+    // Taylor County
+    "THORNTON"
   };
 }
