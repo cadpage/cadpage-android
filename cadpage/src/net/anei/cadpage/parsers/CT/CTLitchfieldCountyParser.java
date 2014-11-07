@@ -20,6 +20,10 @@ public class CTLitchfieldCountyParser extends GroupBestParser {
       data.strState = "MA";
       data.strCity = data.strCity.substring(0,data.strCity.length()-3).trim();
     }
+    else if (data.strCity.endsWith(" NY")) {
+      data.strState = "NY";
+      data.strCity = data.strCity.substring(0,data.strCity.length()-3).trim();
+    }
   }
 
   static String[] CITY_LIST = new String[]{
@@ -34,6 +38,7 @@ public class CTLitchfieldCountyParser extends GroupBestParser {
     "CORNWALL",
     "GAYLORDSVILLE",
     "GOSHEN",
+    "GRANBY",
     "HARTFORD",
     "HARTLAND",
     "HARWINTON",
@@ -43,6 +48,7 @@ public class CTLitchfieldCountyParser extends GroupBestParser {
     "NEW HARTFORD",
     "NEW MILFORD",
     "NEW PRESTON",
+    "NEWTOWN",
     "NORFOLK",
     "NORTH CANAAN",
     "NORTHWEST HARWINTON",
@@ -67,8 +73,12 @@ public class CTLitchfieldCountyParser extends GroupBestParser {
     "WOODBURY",
     
     "GRANVILLE MA",
+    "NEW MARLBORO MA",
     "SANDISFIELD MA",
-    "SHEFFIELD MA"
+    "SHEFFIELD MA",
+    
+    "DOVER NY",
+    "MILLERTON NY"
     
   };
 }
