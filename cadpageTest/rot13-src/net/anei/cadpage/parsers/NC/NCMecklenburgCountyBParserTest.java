@@ -351,8 +351,9 @@ choyvp pynff APZrpxyraohetPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G5",
         "6300-oyx Uneevf Grpuabybtl Oi Sver - Ebhgvar 53-Pvgvmra Nffvfg/Freivpr PnyyAbegujbbqf Ohfvarff Cl/Qrnq Raq YBAS3 Znc - 294294/T7 10072012-169\e\a",
-        "NQQE:6300-oyx Uneevf Grpuabybtl Oi Sver -",
-        "ZNQQE:6300 Uneevf Grpuabybtl Oi Sver -",
+        "NQQE:6300-oyx Uneevf Grpuabybtl Oi",
+        "ZNQQE:6300 Uneevf Grpuabybtl Oi",
+        "VASB:Sver",
         "CEV:E",
         "PBQR:53",
         "PNYY:Pvgvmra Nffvfg/Freivpr PnyyAbegujbbqf",

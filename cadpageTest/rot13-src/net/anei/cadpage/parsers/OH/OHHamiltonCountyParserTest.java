@@ -5190,7 +5190,7 @@ choyvp pynff BUUnzvygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G5",
         "UP:ABA-OERNGURE 7867 L Z P N EQ NAQE OEBBXF, XNERA S/56 19:58 USZ66 KFG: 4152 CRRJRR QE KFG2: 4151 EBHAQ OBGGBZ EQ",
-        "NQQE:7867 L Z P N EQ",
+        "NQQE:7867 LZPN EQ",
         "PVGL:NAQREFBA GJC",
         "PNYY:ABA-OERNGURE",
         "VASB:OEBBXF, XNERA S/56",
@@ -25294,7 +25294,7 @@ choyvp pynff BUUnzvygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G39",
         "UP:ABA-OERNGURE 7867 L Z P N EQ NAQE OEBBXF, XNERA S/56 19:58 USZ06 USPVASZ46 USR100 USST2 KFG: 4152 CRRJRR QE KFG2: 4151 EBHAQ OBGGBZ EQ",
-        "NQQE:7867 L Z P N EQ",
+        "NQQE:7867 LZPN EQ",
         "PVGL:NAQREFBA GJC",
         "PNYY:ABA-OERNGURE",
         "VASB:OEBBXF, XNERA S/56",

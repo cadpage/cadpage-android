@@ -228,9 +228,9 @@ choyvp pynff INUnabirePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2012-00020176",
         "HAVG:R01",
         "PNYY:IruSver",
-        "NQQE:XVATF QBZVAVBA OI QBZVABA & VAGREFGNGR 95", // Abg znccvat - ubj gb vagrecerg
-        "ZNC:E Znc 46",
-        "VASB:BIRECNFF NERN, Y FUBHYQRE, JO, PNE SVER...FZBXR...");
+        "NQQE:XVATF QBZVAVBA OI",
+        "VASB:QBZVABA/VAGREFGNGR 95 / BIRECNFF NERN, Y FUBHYQRE, JO, PNE SVER...FZBXR...",
+        "ZNC:E Znc 46");
 
     qbGrfg("G5",
         "((23274) n ) Havg:R01 HavgFgf: Vap:IruPenfu Vap#:2012-00020175 Ybp:99 A VAGREFGNGR 95 ZncErs:E Znc 46 Nqqgy:JCU2:      CYBGGVAT GB TRG 10-50 YBPNGVBA...",

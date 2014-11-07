@@ -28590,9 +28590,9 @@ choyvp pynff AWPnzqraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ERF#:FQ61",
 
         "PNYY:Z.I.N",
-        "NQQE:OREYVA EQ",
+        "NQQE:OREYVA EQ & FZVGU GR F",
+        "ZNQQE:OREYVA EQ & FZVGU GRE F",
         "PVGL:Pyrzragba",
-        "CYNPR:FZVGU GR F",
         "ZNC:10N",
         "QNGR:06/20/2014",
         "GVZR:21:30:58",

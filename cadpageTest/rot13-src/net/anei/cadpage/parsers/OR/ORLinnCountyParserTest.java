@@ -1293,7 +1293,7 @@ choyvp pynff BEYvaaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:UNMZNG VAPVQRAG",
         "NQQE:700 FJ 29GU NI",
         "ZNQQE:700 FJ 29GU NIR",
-        "CYNPR:FJ CNPVSVP OI",
+        "K:FJ CNPVSVP OI",
         "ZNC:3023",
         "HAVG:1212");
 

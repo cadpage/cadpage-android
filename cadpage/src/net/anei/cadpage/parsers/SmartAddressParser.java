@@ -382,7 +382,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "LANE", "LN",
         "DRIVE", "DR",
         "SQUARE", "SQ",
-        "BLVD", "BL", "BLV", "BVD",
+        "BLVD", "BL", "BLV", "BVD", "BV",
         "PARKWAY", "WAY", "PKWAY", "PKWY", "PKY", "PK", "PY", "FWY", "WY", "HW", "EXPW", "PW", "PKW",
         "CIRCLE", "CIR", "CL", "CI", "CR",
         "TRAIL", "TRL", "TR", "TL",
@@ -401,7 +401,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "GRN",
         "GRV",
         "LOOP",
-        "TERRACE", "TRC", "TRCE",
+        "TERRACE", "TRC", "TRCE", "TE",
         "ESTATES", "ESTS",
         "WALK",
         "CUTOFF",
@@ -447,7 +447,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_PURE_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW");
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW", "NB", "EB", "SB", "WB", "EXT", 
                                   "NORTHBOUND", "EASTBOUND", "SOUTHBOUND", "WESTBOUND");
-    setupDictionary(ID_OPT_ROAD_PFX, "OLD", "NEW", "UPPER", "LOWER");
+    setupDictionary(ID_OPT_ROAD_PFX, "OLD", "NEW", "UPPER", "LOWER", "MC");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
     setupDictionary(ID_AND_CONNECTOR, "AND");
     setupDictionary(ID_AT_MARKER, "@", "AT");
@@ -3303,4 +3303,46 @@ public abstract class SmartAddressParser extends MsgParser {
     return NOT_APT_PTN.matcher(apt).matches();
   }
   private static final Pattern NOT_APT_PTN = Pattern.compile("(?:[&/]|(?:MM|EX|NORTH|SOUTH|EAST|WEST|PRIOR|BLK|MILE|BEFORE|AFTER|RUNAWAY|OFF|FROM|NEAR|OFF)\\b).*", Pattern.CASE_INSENSITIVE);
+  
+  /**
+   * This is used by GenMultiWordStreetList.  When passed a previously passed
+   * address it returns a simple street name stripped of house numbers prefixes 
+   * and suffixes.
+   * @param address The parsed address
+   * @return null if it does not contain a normal street name 
+   * (ie, with a regular street suffix).  Otherwise returns the naked
+   * unadorned street name
+   */
+  protected String stripStreetName(String address) {
+    
+    // Do the normal split tokens processing
+    Result res = new Result(this, 0);
+    setTokenTypes(StartType.START_ADDR, address, null, res);
+    
+    // Strip off directions at end of address
+    if (tokens.length == 0) return null;
+    int sEnd = tokens.length-1;
+    while (sEnd >= 0 && isType(sEnd, ID_DIRECTION)) sEnd--;
+    
+    // If no remaining tokens, or if last token is not a regular street
+    // suffix, bail out
+    if (sEnd < 0) return null;
+    if (! isType(sEnd, ID_ROAD_SFX)) return null;
+    
+    // Not start from the beginning
+    // If first token is a house number, skip it
+    int sBeg = 0;
+    if (isHouseNumber(tokens[sBeg])) sBeg++;
+    
+    // Skip over any directions, optional prefixes, and block indicators
+    while (sBeg < sEnd && isType(sBeg, ID_DIRECTION | ID_OPT_ROAD_PFX | ID_BLOCK)) sBeg++;
+    
+    // If we have anything left, return it
+    if (sBeg >= sEnd) return null;
+    String result = "";
+    for (int ii = sBeg; ii<sEnd; ii++) {
+      result = append(result, " ", tokens[ii]);
+    }
+    return result;
+  }
 }

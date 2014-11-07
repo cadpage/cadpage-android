@@ -10,10 +10,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class OHHamiltonCountyParser extends SmartAddressParser {
-  
-  private static final Pattern MASTER = Pattern.compile("HC:(.*?)(?: \\*\\*? (.*?) \\*\\*( .*?)??)?(?: (\\d{1,2}:\\d\\d)( .*)?)?");
-  private static final Pattern APT_PTN = Pattern.compile("(.*?) +APT: *([^ ]+) +(.*)");
-  private static final Pattern ORIG_LOC_PTN = Pattern.compile(" *\\bOriginal Location : *");
  
   public OHHamiltonCountyParser() {
     super(CITY_CODES, "HAMILTON COUNTY", "OH");
@@ -23,14 +19,15 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
         "ALTA VISTA",
         "ANDERSON FERRY",
         "ASBURY HILLS",
+        "ASHLEY VIEW",
         "ASPEN POINT",
         "ASTON OAKS",
-        "ASHLEY VIEW",
         "BAYLEY PLACE",
-        "BEACON WOODS",
+        "BERKSHIRE CLUB",
         "BLUE ASH",
         "BLUE ROCK",
         "BRANCH HILL",
+        "BRANCH HILL GUINEA",
         "BREEZY VISTA",
         "BRIERLY CREEK",
         "BUNKER HILL",
@@ -39,28 +36,39 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
         "CHESTNUT RIDGE",
         "CINCINNATI MILLS",
         "CLEVES WARSAW",
+        "COMPTON RIDGE",
+        "CONCORD WOODS",
         "CORNELL PARK",
         "COUNT FLEET",
         "COUNTRY VIEW",
         "COUNTRY WOODS",
+        "CROSSING AT PARK",
         "CURLY MAPLE",
         "DARK STAR",
         "DE ARMAND",
+        "DEER CHASE",
         "DEER PARK",
         "DEERVIEW WOODS",
+        "DRY FORK",
+        "DRY RIDGE",
+        "DUGAN GAP",
+        "EAGLE RIDGE",
         "EAGLES LAKE",
         "EAST MIAMI RIVER",
         "EAST WILLOW",
         "EIGHT MILE",
         "EMERALD GLADE",
-        "FIDLERS GREE",
+        "FIDDLERS GREEN",
         "FIELDS ERTEL",
         "FIVE MILE",
         "FOREST VIEW",
+        "FORFEIT RUN",
         "FOUR MILE",
         "FOUR WORLDS",
         "FOX CHASE",
+        "FOX CUB",
         "FOX RIDGE",
+        "FOX RUN",
         "GALBRAITH POINTE",
         "GLEN EAGLE",
         "GLENDALE MILFORD",
@@ -82,8 +90,8 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
         "JAKE SWEENEY",
         "JAMISON CREEK",
         "JOHN GRAY",
-        "HICKORY TRAIL",
         "KATIES GREEN",
+        "KEMPER MEADOW",
         "KUGLER MILL",
         "LA BOITEAUX",
         "LAKE FOREST",
@@ -92,32 +100,40 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
         "MADEIRA HILLS",
         "MALLARD COVE",
         "MAPLE KNOLL TERRACE",
-        "MC LEAN",
-        "MC KINNEY",
+        "MAR DEL",
         "MERRITT GROVE",
-        "MICHAEL ANTHONY",
         "MIAMI BLUFF",
+        "MICHAEL ANTHONY",
         "MILLVILLE SHANDON",
-        "MUDDY CREEK",
         "MT ALVERNO",
         "MT CARMEL",
         "MT HOPE",
         "MT NEBO",
+        "MUDDY CREEK",
         "NORTH BEND",
-        "OLD BLUE ROCK",
+        "NORTH COMMERCE PARK",
+        "NORTH HILL",
         "OLDE GATE",
+        "PADDYS RUN",
+        "PINE MEADOW",
+        "PLEASANT RUN",
         "RAINBOW HILL",
+        "RAPID RUN",
         "RED BANK",
+        "RED BIRD",
         "REED HARTMAN",
+        "REGENCY RUN",
         "RIVER CREST",
         "RIVER WALK",
         "RONALD REAGAN",
         "ROSE PETAL",
         "ROUND BOTTOM",
+        "ROUND TOP",
         "ROWAN HILL",
         "ROYAL GLEN",
+        "SAND RUN",
         "SCHOOL SECTION",
-        "SHAKER WOODS",
+        "SHAKER POINT",
         "SHARON PARK",
         "SHAWNEE RUN",
         "SHEPHERD CREEK",
@@ -127,10 +143,9 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
         "SOUTH MILFORD",
         "SOUTH TERRACE",
         "SOUTH WHETZEL",
-        "SUSPENSION BRIDGE",
+        "SPDL BLUE ROCK",
         "SPOOKY HOLLOW",
         "SPRING HILL",
-        "SPDL BLUE ROCK",
         "SPY GLASS",
         "ST ANDREWS",
         "ST CLAIR",
@@ -140,27 +155,38 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
         "STONE BARN",
         "STONE RIDGE",
         "STONEY CULVERT",
+        "SUSPENSION BRIDGE",
         "SUTTERS MILL",
         "SYCAMORE GROVE",
-        "TIMBER RIDGE",
         "THREE RIVERS",
+        "TIMBER RIDGE",
+        "TIMBER TOP",
+        "TOWNE COMMONS",
         "TREE HEIGHTS",
-        "TRY COUNTY",
+        "TRI COUNTY",
+        "TURF WOOD",
         "UNION CENTRE",
         "VALLEY RIDGE",
+        "VAN FLEET",
+        "VAN NES",
+        "VAN ROBERTS",
         "VAN ZANDT",
+        "VIEW PLACE",
         "VIEW POINTE",
         "VILLAGE GATE",
         "VILLAGE GREEN",
         "VISTA VIEW",
         "WALDEN GLEN",
         "WAR ADMIRAL",
+        "WEST MC KELVEY",
         "WESTIN RIDGE",
         "WESTWOOD NORTHERN",
+        "WINDING BROOK",
         "WITTS MILL",
         "WOODLANDS PATH",
-        "WILLIAM HENRY HARR",
+        "ZIG ZAG",
         "ZION HILL"
+
     );
     setupDoctorNames(
         "MATT",
@@ -192,7 +218,13 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
     return WILLIAM_HENRY_HARR.matcher(addr).replaceAll("WILLIAM HENRY HARRISON");
   }
   private static final Pattern WILLIAM_HENRY_HARR = Pattern.compile("\\bWILLIAM HENRY HARR\\b", Pattern.CASE_INSENSITIVE);
+
   
+  private static final Pattern MASTER = Pattern.compile("HC:(.*?)(?: \\*\\*? (.*?) \\*\\*( .*?)??)?(?: (\\d{1,2}:\\d\\d)( .*)?)?");
+  private static final Pattern APT_PTN = Pattern.compile("(.*?) +APT: *([^ ]+) +(.*)");
+  private static final Pattern ORIG_LOC_PTN = Pattern.compile(" *\\bOriginal Location : *");
+  private static final Pattern YMCA_PTN = Pattern.compile("\\bY ?M ?C ?A\\b", Pattern.CASE_INSENSITIVE);
+
   @Override
   public boolean parseMsg(String body, Data data) {
     
@@ -209,6 +241,9 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
     String info = match.group(3);
     String time = match.group(4);
     String extra = match.group(5);
+    
+    // Clean blanks out of YMCA RD
+    addr = YMCA_PTN.matcher(addr).replaceAll("YMCA");
     
     // Old format had an asterisk delimited call field with a place
     // name in front of it and a info field behind.  There is another

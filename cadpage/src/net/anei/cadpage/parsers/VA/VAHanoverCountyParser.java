@@ -43,6 +43,13 @@ public class VAHanoverCountyParser extends FieldProgramParser {
     return "ID " + super.getProgram();
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("MAP")) return new MyMapField();
+    return super.getField(name);
+  }
+  
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -66,9 +73,9 @@ public class VAHanoverCountyParser extends FieldProgramParser {
       if (field.endsWith(",")) field = field.substring(0,field.length()-1).trim();
       field = field.substring(match.end()).trim();
       if (field.startsWith("APT")) {
-        data.strApt = field.substring(3).trim();
+        data.strApt = data.strApt = append(data.strApt, "-", field.substring(3).trim());
       } else {
-        data.strSupp = field;
+        data.strSupp = append(data.strSupp, " / ", field);
       }
     }
     
@@ -76,13 +83,6 @@ public class VAHanoverCountyParser extends FieldProgramParser {
     public String getFieldNames() {
       return "MAP APT INFO";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("MAP")) return new MyMapField();
-    return super.getField(name);
   }
 
   @Override
