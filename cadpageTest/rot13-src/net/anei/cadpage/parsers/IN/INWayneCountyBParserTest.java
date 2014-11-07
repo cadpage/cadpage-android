@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Jnlar Pbhagl, VA
+Jnlar Pbhagl, VA (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Obfgba Pbzzhavgl Sver Qrcg., Vap.
@@ -118,7 +118,7 @@ Fraqre: 911@jnlarpb.hf
 choyvp pynff VAJnlarPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp VAJnlarPbhaglOCnefreGrfg() {
-    frgCnefre(arj VAJnlarPbhaglOCnefre("JNLAR PBHAGL", "VA"), "JNLAR PBHAGL", "VA");
+    frgCnefre(arj VAJnlarPbhaglOCnefre(), "JNLAR PBHAGL", "VA");
   }
 
   @Grfg

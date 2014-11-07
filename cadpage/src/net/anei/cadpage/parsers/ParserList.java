@@ -1003,6 +1003,7 @@ public class ParserList {
               ,"TXKaufmanCounty"                ,"Kaufman County, TX"
               ,"TXKeller"                       ,"Keller, TX"
               ,"TXKendallCounty"                ,"Kendall County, TX"
+              ,"TXKilgore"						,"Kilgore, TX"
               ,"TXLaPorte"                      ,"La Porte, TX"
               ,"TXLeagueCity"                   ,"League City, TX"
               ,"TXLeonCounty"                   ,"Leon County, TX"
@@ -1131,6 +1132,7 @@ public class ParserList {
               ,"WVMineralCounty"                ,"Mineral County, WV"
               ,"WVMorganCounty"                 ,"Morgan County, WV"
               ,"WVPocahontasCounty"             ,"Pocahontas County, WV"
+              ,"WVPrestonCounty"				,"Preston County, WV"
               ,"WVRaleighCounty"                ,"Raleigh County, WV"
               ,"WVWyomingCounty"                ,"Wyoming County, WV"
           ),

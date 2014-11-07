@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.WV;
 import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
 /**
- * Hardy County, WV (B) 
+ * Preston County, WV
  */
 public class WVPrestonCountyParser extends DispatchA48Parser {
   
