@@ -299,11 +299,12 @@ public class COWeldCountyParser extends FieldProgramParser {
   });
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "ARO", "ARO",    // Greeley??
+      "ARO", "ARROWHEAD",
       "AUL", "AULT",
+      "ARI", "ARISTOCRAT ACRES",
       "BOU", "BOULDER",
       "BCO", "BOULDER COUNTY",
-      "CAM", "CAM",            // ??????
+      "CAM", "CAMFIELD",
       "DAC", "DACONO",
       "EAT", "EATON",
       "ERI", "ERIE",
@@ -316,7 +317,7 @@ public class COWeldCountyParser extends FieldProgramParser {
       "GIL", "GILCREST",
       "GRE", "GREELEY",
       "HUD", "HUDSON",
-      "HIL", "HIL",   // In Greeley?
+      "HIL", "HILL N PARK",
       "JOH", "JOHNSTOWN",
       "KER", "KERSEY",
       "LAF", "LAFAYETTE",
@@ -335,8 +336,8 @@ public class COWeldCountyParser extends FieldProgramParser {
   });
   
   private static final Properties MAP_CITY_TABLE = buildCodeTable(new String[]{
-      "ARO", "GREELEY",
-      "CAM", "WELD COUNTY",
-      "HIL", "GREELEY"
+      "ARROWHEAD",    "GREELEY",
+      "CAMFIELD",     "EATON",
+      "HILL N PARK",  "GREELEY"
   });
 }
