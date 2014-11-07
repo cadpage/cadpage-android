@@ -3795,5 +3795,5 @@ do this is use the Email the Developer item in the main settings menu.
 Take care
 ************************************************************************
 
-Useful search expressions
+Useful search expressions...
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT|X):.*\r?\n)*+(?! +"CITY:)

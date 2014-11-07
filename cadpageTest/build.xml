@@ -61,7 +61,7 @@
   <target name="commit" depends="update">
     <antcall target="export"/>
     <exec executable="svn">
-      <arg line="commit --editor-cmd='${SVNEDITOR}'"/>
+      <arg line="commit --force-interactive --editor-cmd='${SVNEDITOR}'"/>
     </exec>
   </target>
   	
