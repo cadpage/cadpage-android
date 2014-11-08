@@ -1,0 +1,11 @@
+Version 3.0 11/7/2014
+
+Fixed bug which allowing parser to return a STATUS_STREET_NAME result for a
+street name in the Multi Word Street name table that lacks a proper street suffix.
+
+Added BV and TE as recognized street suffixes.
+Added MC as an option street prefix
+
+Added logic to support utility to identify multiple word street names that
+need to be added to the multiple word street name table. 
+ 

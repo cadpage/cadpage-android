@@ -31,7 +31,7 @@ Fraqre: 40404
 choyvp pynff VAJnlarPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp VAJnlarPbhaglNCnefreGrfg() {
-    frgCnefre(arj VAJnlarPbhaglCnefre(), "JNLAR PBHAGL", "VA");
+    frgCnefre(arj VAJnlarPbhaglNCnefre(), "JNLAR PBHAGL", "VA");
   }
   
   @Grfg
