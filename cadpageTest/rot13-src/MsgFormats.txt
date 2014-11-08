@@ -5046,9 +5046,9 @@ ARPP, BU (BUARPPCnefre)
 (ARPP) [S] YI:1 NHGB NPPVQRAG VAWHEL\a/\aSVRYQF REGRY EQ/HAVBA PRZRGREL EQ\a(FL)\aKF: HAVBA PRZRGREL EQ & TERRA NEOBEF YA\a\aEPIQ NF Cubar\a\aPBZ:
 ***************************************************************************
 Cbegntr Pbhagl, BU (BUCbegntrPbhaglNCnefre)
-911@pv.eniraan.bu.hf:* 15_rqvaohet_trareny29,ZRQVPNY RZRETRAPL *\a3594,VAQEHFGEL EQ, * ,EBBGFGBJA * 89LBN ZNYR BKLTRA ZNPUVAR OEBXRA,\aGEBH
-911@pv.eniraan.bu.hf:* 15_rqvaohet_trareny29,ZRQVPNY RZRETRAPL * 4265,EBPX FCEVAT EQ, * ,Eniraan * 53 LE BYQ ZNYR QVSSVPHYGL OERNGUVAT, CB
-911@pv.eniraan.bu.hf:* 15_rqvaohet_trarenyZN,ZHGHNY NVQ * 0,CNYZLEN GBJAFUVC [RQVG], * CNYZLEN,Eniraan * 1511 GB ZRRG 2011 NG FGNGVBA 20
+911@pv.eniraan.bu.hf:ohexri: 80S-NYNEZ QEBC - SVER,6062 FG NAQERJF JNL,,NYNEZ SVER FZBXR QRG,
+911@pv.eniraan.bu.hf:Gvssnal.Orerprx: 29-ZRQVPNY RZRETRAPL,4965 FGNGR EG 14,,,
+911@pv.eniraan.bu.hf:YNAFVATRER: VASB-TRARENY VASBEZNGVBA,220 CNEX JNL,ENIRAAN CBYVPR,ENIRAAN,RQVA/CNYZ JRRXYL CNTRE GRFG,
 **************************************************************************
 Cbegntr Pbhagl, BU (P) (BUCbegntrPbhaglPCnefre)
 SEZ:znaghnsver@tznvy.pbz\aZFT:ZNAGHN-  7852 FE 14- jrysner purpx- znyr fyhzccrq bire ba pbhpu

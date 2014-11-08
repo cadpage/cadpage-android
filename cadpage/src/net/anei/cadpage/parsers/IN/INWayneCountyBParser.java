@@ -14,7 +14,7 @@ public class INWayneCountyBParser extends DispatchA3Parser {
   
   private HtmlParser htmlParser;
   
-  INWayneCountyBParser () {
+  public INWayneCountyBParser () {
     super("WAYNE COUNTY", "IN", 
            "ID DATETIME CALL NAME_PHONE ADDR INFO UNIT");
     htmlParser = new HtmlParser(LAYOUT);
