@@ -11,7 +11,7 @@ public class TXWilliamsonCountyParser extends DispatchOSSIParser {
 
   public TXWilliamsonCountyParser() {
     super(CITY_LIST, "WILLIAMSON COUNTY", "TX", 
-          "( CANCEL! | FYI? CALL! ) ADDR/S CITY! PLACE_MAP? UNIT");
+          "( CANCEL! | FYI? CALL! ) PRI? ADDR/S CITY! PLACE_MAP? UNIT");
   }
   
   @Override protected boolean parseMsg(String subject, String body, Data data) {
@@ -83,6 +83,7 @@ public class TXWilliamsonCountyParser extends DispatchOSSIParser {
 
   @Override
   public Field getField(String name) {
+    if (name.equals("PRI")) return new PriorityField("[P0-9]");
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("PLACE_MAP")) return new MyPlaceMapField();
     return super.getField(name);
