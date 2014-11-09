@@ -20,6 +20,19 @@ Have a nice day,
 -Ken
 
 **************************************************************************
+* Problems with 1.7.50 MDMontgomeryCounty and COWeldCounty
+**************************************************************************
+
+This is very puzzling, but I have two and possibly three users complaining about problems with last minute fixes that should have been in the last release.  Making me wonder is something went wrong with the build process somehow and those last minute fixes did not get included.
+
+I have no explanation for how this could have happened.  But if it did, there is a way to check on it.  Open Cadpage Location Settings and look at the "Override Location Filter" setting.  Do not try to change it, but the summary description of the setting should display the default location filter. Does that include <<<<>>>>?
+
+I plan on publishing another release later today after I fix another problem.  I am crossing my fingers and hoping that that will fix this issue.
+
+Have a nice day,
+-Ken
+
+**************************************************************************
 
 Cadpage Paging Service
 

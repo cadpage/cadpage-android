@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
  */
 public class OHPortageCountyCParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("MANTUA- +(.*?)- (.*)");
+  private static final Pattern MASTER = Pattern.compile("MANTUA ?- +(.*?)- (.*)");
 
   public OHPortageCountyCParser() {
     super("PORTAGE COUNTY", "OH");
