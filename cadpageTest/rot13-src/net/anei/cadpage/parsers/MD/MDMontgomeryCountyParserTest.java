@@ -60,6 +60,10 @@ vzcbeg bet.whavg.Grfg;
  Fraqre: 89361
  F: ZBAGTBZREL PNQ ZFT\aZBPB PNQ ZFT: * Q * 3202 * FRVMHER - NYF2 * 10107 QNEARFGBJA EQ ,ZPT  * Z731 PJRZF
 
+Pbagnpg: qvfoyrire@nby.pbz
+Fraqre: 89361
+F: ZBAGTBZREL PNQ ZFT\aZBPB PNQ ZFT: * Q * 3101 * CBGBZNP EIE - FGVYY JNGRE * EVYRLF YBPX @ 22800 P NAQ B PNANY EVIE ,ZPT  * OG731 OG714O FJ730 FJ730O Z731 CR731 Q3 OP703 RNTYR JEG PJSHYY FNE RPP GT7T
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ulnggfivyyr ISQ
 Ybpngvba: Ulnggfivyyr, ZQ, Havgrq Fgngrf
@@ -1423,6 +1427,22 @@ choyvp pynff ZQZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
 
+  @Grfg
+  choyvp ibvq grfgQvfoyrire() {
+
+    qbGrfg("G1",
+        "F: ZBAGTBZREL PNQ ZFT\a" +
+        "ZBPB PNQ ZFT: * Q * 3101 * CBGBZNP EIE - FGVYY JNGRE * EVYRLF YBPX @ 22800 P NAQ B PNANY EVIE ,ZPT  * OG731 OG714O FJ730 FJ730O Z731 CR731 Q3 OP703 RNTYR JEG PJSHYY FNE RPP GT7T",
+
+        "OBK:3101",
+        "PNYY:CBGBZNP EIE - FGVYY JNGRE",
+        "NQQE:22800 P NAQ B PNANY EVIE",
+        "ZNQQE:22800 P",
+        "CYNPR:EVYRLF YBPX",
+        "HAVG:OG731 OG714O FJ730 FJ730O Z731 CR731 Q3 OP703 RNTYR JEG PJSHYY FNE RPP GT7T");
+
+  }
+  
   @Grfg
   choyvp ibvq grfgAngvbanyVafgvghgrBsUrnyguSQ() {
 

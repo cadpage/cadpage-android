@@ -42,9 +42,7 @@ Pbagnpg: Wbfu Gncvn <WGncvn@sgyhcgbasver.pbz>
 Pbagnpg: zvxr fgenggba <zvxrefgenggba@tznvy.pbz>
 Pbagnpg: Qbht Tvyyvynaq <qtvyyvynaq88@tznvy.pbz>
 Sebz:jep-uvcyvax@jryqpbepp.pbz
-Qvfcngpu / 22\aFVCS\aQ\a13009 JPE 13\aZI3R\a2203\aSNYY..VAFVQR OHFVARFF\a
-Qvfcngpu / YNSS\aSVERFE\aQ\a711 ZRNQBJYNEX QE\aOBYSS\a22\anyernql gbarq fga 6 zag ivrj....sbe genvyre ba sver\a
-(Qvfcngpu) 22\aNGFHPV\aQ\a2651 UHTUF QE\aZI6O\a2206\agbarq zi fga 6 znyr fubg uvzfrys va gur urnq jvgu n tha\aCebDN Zrqvpny Pnfr 5590 Nobegrq  obhvyqre rzq
+Qvfcngpu / 22\aFVCS\aQ\a13009 JPE 13\aZI3R\a2203\aSNYY..VAFVQR OHFVARFF\aQvfcngpu / YNSS\aSVERFE\aQ\a711 ZRNQBJYNEX QE\aOBYSS\a22\anyernql gbarq fga 6 zag ivrj....sbe genvyre ba sver\a(Qvfcngpu) 22\aNGFHPV\aQ\a2651 UHTUF QE\aZI6O\a2206\agbarq zi fga 6 znyr fubg uvzfrys va gur urnq jvgu n tha\aCebDN Zrqvpny Pnfr 5590 Nobegrq  obhvyqre rzq
 22\aFV\aQ\a7803 ZBANEPU EQ\aZI4N\a2201\aGBARQ BHG 2224 ERS N ZNYR CNEGL JVGU N QVNORGVP FRVMHER.\aCebDN Zrqvpny Pnfr 8109 Nobegrq\2fBGURE PRAGRE RZQ'Q
 22\aGNV\aQ\a1415 IVFGN IVRJ QE; UNWRX PURIEBYRG\aZI1O\a2201\aEBYY BIRE // EC QVFP'Q ORSBER TRGGVAT SEHGURE\aEC NQIQ GURL JRER BA UJL 119 // QVQA'G TVIR QBG // FBHAQRQ
 22\aNYNEZSE\aQ\a2758 VEBAJBBQ PVE; PNZCORYY ERFVQRAPR\aZI6R\a2206\aFGA 6 NAQ 2226.  TRARENY SVER NYNEZ NAQ FZBXR QRGRPGBE.\aOBHYQRE NQIVFVAT GB PNAPRY.  CEBCRE PBQRF
@@ -52,8 +50,7 @@ Qvfcngpu / YNSS\aSVERFE\aQ\a711 ZRNQBJYNEX QE\aOBYSS\a22\anyernql gbarq fga 6 za
 
 Pbagnpg: 19703712539@gzbznvy.arg
 Pbagnpg: Qbht Tvyyvynaq <qtvyyvynaq88@tznvy.pbz>
-Qvfcngpu / TSQ \aFV\a3206 70GU NIR\aTS5\aR5\apurfg cnva\a
-TSQ\aFV\a5436 24GU FG\aTS5\aR5\aUHFONAQ SRYY, EC ABG BA FPRAR\aCebDN Zrqvpny Erpbzzraqrq Qvfcngpu Yriry = 17N03T\aLbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy. 
+Qvfcngpu / TSQ \aFV\a3206 70GU NIR\aTS5\aR5\apurfg cnva\aTSQ\aFV\a5436 24GU FG\aTS5\aR5\aUHFONAQ SRYY, EC ABG BA FPRAR\aCebDN Zrqvpny Erpbzzraqrq Qvfcngpu Yriry = 17N03T\aLbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy. 
 OPBS\aFV\aQ\a3722 ZBAGRERL CY\aOBEHS\a2224\aJVYY OR N GENAFCBEG SBE Z1 ...SRZNYR VA URE ZVQ 20'F..RAGRE GUR QBBE BA GURYRSG\aFVQR BS GUR UBHFR FYVQVAT TYNFF QBBEF &
 
 Pbagnpg: Xnyro Fgnyrl <xnyrofgnyrl@tznvy.pbz>
@@ -64,6 +61,7 @@ Se:<jep-uvcyvax@jryqpbepp.pb\aFh:Qvfcngpu\aGkg: 37\aFVCS\aQ\a31195 6GU FG\aXR\a3
 Pbagnpg: Elna Shyyre <eshyyre131@tznvy.pbz>
 Fraqre: 777
 JRYQ PBHAGL 24\aFVCS\aQ\a3222 11GU NIR ;TEBIR NCGF\aRI\a24N\aZNYR CNFFRQ BHG QX VA SEBAG BS NCG OHVYQVAT FGBC
+JRYQ PBHAGL 24\aNGFHPV\aQ\a37GU FG @ CHROYB FG;PBEARE,RIN\aRIYFN\a24\aEC ERNQL GB RAQ UVF YVSR\aCNEGL UNF CBPXRG XAVSR VF VA UVF EG CBPXRG\aONPX CNPX BA HAFHOFPEVOR
 
 Pbagnpg: Ehff Oramry <exnex911@tznvy.pbz>
 Fraqre: 93001025
@@ -2000,6 +1998,26 @@ choyvp pynff PBJryqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:RI",
         "HAVG:24N",
         "VASB:ZNYR CNFFRQ BHG QX VA SEBAG BS NCG OHVYQVAT FGBC");
+
+    qbGrfg("G1",
+        "JRYQ PBHAGL 24\a" +
+        "NGFHPV\a" +
+        "Q\a" +
+        "37GU FG @ CHROYB FG;PBEARE,RIN\a" +
+        "RIYFN\a" +
+        "24\a" +
+        "EC ERNQL GB RAQ UVF YVSR\a" +
+        "CNEGL UNF CBPXRG XAVSR VF VA UVF EG CBPXRG\a" +
+        "ONPX CNPX BA HAFHOFPEVOR",
+
+        "PBQR:NGFHPV",
+        "PNYY:NGGRZCG FHVPVQR",
+        "NQQE:37GU FG & CHROYB FG",
+        "CYNPR:PBEARE",
+        "PVGL:RINAF",
+        "ZNC:RIYFN",
+        "HAVG:24",
+        "VASB:EC ERNQL GB RAQ UVF YVSR / CNEGL UNF CBPXRG XAVSR VF VA UVF EG CBPXRG / ONPX CNPX BA");
 
   }
   

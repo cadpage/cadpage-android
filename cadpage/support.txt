@@ -1,4 +1,26 @@
 
+**************************************************************************
+* Button sizing problem
+**************************************************************************
+
+We are working on this.  It does not effect everyone, none of my phones exhibit this behavior.  But I have managed to duplicate it in an emulator which gives a way to track down what is happening.  Unfortunately this is happening in complicated logic that I wrote a couple years ago and have not changed since.  It will take me a while to track it down but I expect to have a new release that fixes it out in a day or so.
+
+Thanks for reporting this,
+-Ken
+
+**************************************************************************
+* New Ack Button
+**************************************************************************
+
+Just press the Ack button and your regular buttons will appear.
+
+One of my bright ideas that made sense at the time.  The Ack button is only supposed to appear if it is needed to turn off an audible alert, but since Android 4.1 notification sounds sometimes loop and I have no way to tell if they keep playing or not.  But lots of people do not like it and I have to at least make it optional.  An update to do that will be out in a day or so.
+
+Have a nice day,
+-Ken
+
+**************************************************************************
+
 Cadpage Paging Service
 
 Cadpage now has a very simple direct paging service.  When you register with this service Cadpage assigns you a unique dispatch email address. It is up to you to get your dispatch alerts sent to this email address. Alerts sent to this address will be forwarded to Cadpage as direct pages.
