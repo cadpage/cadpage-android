@@ -33,6 +33,8 @@ public class ManageNotification {
   
   private static AudioFocusManager afm = null;
   
+  private static boolean phoneMuted = false;
+  
   static {
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
       try {
@@ -79,6 +81,10 @@ public class ManageNotification {
    * @param first true if this is the initial notification for this call.
    */
   public static void show(Context context, SmsMmsMessage message, boolean first) {
+    
+    // Save phone muted status while we have a context to work with
+    AudioManager am = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
+    phoneMuted =  (am.getRingerMode() != AudioManager.RINGER_MODE_NORMAL);
 
     // Build and launch the notification
     Notification n = buildNotification(context, message);
@@ -462,15 +468,22 @@ public class ManageNotification {
    */
   public static boolean isAckNeeded() {
     
-    // Until we figure out a way to determine if a regular notification sound
-    // is set to loop forever, we will assume that it is.
-    return true;
-//    
-//    // If the media player is active, we *REALLY* need an acknowledge function
-//    if (mMediaPlayer != null) return true;
-//    
-//    // Otherwise, we need a acknowledge function if reminders are active
-//    return ManagePreferences.notifyRepeat();
+    // volume control is overridden, return true if notification sound is
+    // looped or is repeated
+    if (ManagePreferences.notifyOverride()) {
+      if (ManagePreferences.notifyOverrideLoop()) return true;
+      if (ManagePreferences.notifyRepeatInterval() > 0) return true;
+    }
+    
+    // If volume control is not overridden, return false if ringer is silenced
+    // return true if notification sound is repeating
+    else {
+      if (phoneMuted) return false;
+      if (ManagePreferences.notifyRepeatInterval() > 0) return true;
+    }
+    
+    // Otherwise, we really do not know, so follow user recomendation
+    return ManagePreferences.notifyReqAck();
   }
   
   

@@ -46,7 +46,6 @@
         <CheckBoxPreference
           android:key="@string/pref_notif_override_loop_key"
           android:title="@string/pref_notif_override_loop_title"
-          android:summary="@string/pref_notif_override_loop_summary"
           android:summaryOn="@string/pref_notif_override_loop_summaryon"
           android:summaryOff="@string/pref_notif_override_loop_summaryoff"
           android:defaultValue="true"
@@ -77,15 +76,6 @@
           android:dialogTitle="@string/pref_notif_repeat_interval_dialogTitle"
           android:defaultValue="@string/pref_notif_repeat_interval_default"
           android:dependency="@string/pref_notif_enabled_key" />
-        <net.anei.cadpage.preferences.ListPreference
-          android:key="@string/pref_notif_delay_key"
-          android:title="@string/pref_notif_delay_title"
-          android:summary="@string/pref_notif_delay_summary"
-          android:entries="@array/pref_notif_delay_entries"
-          android:entryValues="@array/pref_notif_delay_values"
-          android:dialogTitle="@string/pref_notif_delay_dialogTitle"
-          android:defaultValue="@string/pref_notif_delay_default"
-          android:dependency="@string/pref_notif_enabled_key" />
         <net.anei.cadpage.preferences.TestNotificationDialogPreference
           android:key="@string/pref_notif_test_key"
           android:dialogIcon="@drawable/android:ic_dialog_alert"
@@ -95,7 +85,23 @@
           android:summary="@string/pref_notif_test_summary"
           android:dependency="@string/pref_notif_enabled_key"
           android:negativeButtonText="@null" />
-      
+        <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_notif_delay_key"
+          android:title="@string/pref_notif_delay_title"
+          android:summary="@string/pref_notif_delay_summary"
+          android:entries="@array/pref_notif_delay_entries"
+          android:entryValues="@array/pref_notif_delay_values"
+          android:dialogTitle="@string/pref_notif_delay_dialogTitle"
+          android:defaultValue="@string/pref_notif_delay_default"
+          android:dependency="@string/pref_notif_enabled_key" />
+        <CheckBoxPreference
+          android:key="@string/pref_notif_req_ack_key"
+          android:title="@string/pref_notif_req_ack_title"
+          android:summaryOn="@string/pref_notif_req_ack_summaryon"
+          android:summaryOff="@string/pref_notif_req_ack_summaryoff"
+          android:defaultValue="false"
+          android:dependency="@string/pref_notif_enabled_key" />
+        
       </PreferenceCategory>
       <PreferenceCategory
         android:title="@string/pref_vibrate_category_title">

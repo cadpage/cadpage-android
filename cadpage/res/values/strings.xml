@@ -182,9 +182,12 @@
   <string name="pref_notif_override_sound_summaryoff">Configured notification will be used</string>
   
   <string name="pref_notif_override_loop_title">Loop Alert Sound</string>
-  <string name="pref_notif_override_loop_summary">Play alert sound in continuous loop</string>
   <string name="pref_notif_override_loop_summaryon">Alert sound will loop continuously</string>
   <string name="pref_notif_override_loop_summaryoff">Alert sound will play once</string>
+  
+  <string name="pref_notif_req_ack_title">Show "Ack" button if needed</string>
+  <string name="pref_notif_req_ack_summaryon">"Ack" button will be shown if it might be needed</string>
+  <string name="pref_notif_req_ack_summaryoff">"Ack" button will not appear if it might be needed</string>
   
 <!-- Text-To-Speech and Voice Transcription Strings -->
   <string name="error_message">Error</string>

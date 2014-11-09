@@ -49,8 +49,9 @@
    <string name="pref_notif_override_loop_key">override_loop</string>
    <string name="pref_popup_enabled_key">popup</string>
    <string name="pref_notif_sound_key">notifsound</string>
-   <string name="pref_notif_delay_key">notifdelay</string>
    <string name="pref_notif_test_key">notiftest</string>
+   <string name="pref_notif_req_ack_key">notifReqAck</string>
+      <string name="pref_notif_delay_key">notifdelay</string>
    <string name="pref_vibrate_key">vibrate</string>
    <string name="pref_vibrate_pattern_key">vibrate_pattern</string>
    <string name="pref_vibrate_pattern_custom_key">vibrate_pattern_custom</string>

@@ -446,11 +446,15 @@ public class ManagePreferences {
     return prefs.getString(R.string.pref_flashled_pattern_custom_key);
   }
   
-  public static long notifDelay() {
+  public static long notifyDelay() {
     return Long.parseLong(prefs.getString(R.string.pref_notif_delay_key));
   }
   
-  public static int repeatInterval() {
+  public static boolean notifyReqAck() {
+    return prefs.getBoolean(R.string.pref_notif_req_ack_key);
+  }
+  
+  public static int notifyRepeatInterval() {
     return prefs.getIntValue(R.string.pref_notif_repeat_interval_key);
   }
   
@@ -1014,6 +1018,7 @@ public class ManagePreferences {
         R.string.pref_notif_repeat_interval_key,
         R.string.pref_notif_timeout_key,
         R.string.pref_notif_delay_key,
+        R.string.pref_notif_req_ack_key,
         
         R.string.pref_vibrate_key,
         R.string.pref_vibrate_pattern_key,

@@ -40,7 +40,7 @@ public class ReminderReceiver extends BroadcastReceiver {
   }
   
   public static void scheduleNotification(Context context, SmsMmsMessage message) {
-    long delay = ManagePreferences.notifDelay();
+    long delay = ManagePreferences.notifyDelay();
     if (delay == 0L) {
       ManageNotification.show(context, message, true);
     } else {
@@ -54,7 +54,7 @@ public class ReminderReceiver extends BroadcastReceiver {
    * taken from user preferences.
    */
   public static void scheduleReminder(Context context, SmsMmsMessage message) {
-    int reminderInterval = ManagePreferences.repeatInterval();
+    int reminderInterval = ManagePreferences.notifyRepeatInterval();
     if (reminderInterval == 0) return;
     scheduleReminder(context, message, false, reminderInterval*1000L);
   }

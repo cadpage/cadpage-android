@@ -155,6 +155,10 @@
   <string name="pref_notif_override_loop_summaryon">Larmet kommer att loopa kontinuerligt</string>                        
   <string name="pref_notif_override_loop_summaryoff">Larmtonen kommer att ljuda en gång</string>                               
   
+  <string name="pref_notif_req_ack_title">Show "Ack" button if needed</string>                                  <!-- Translate -->
+  <string name="pref_notif_req_ack_summaryon">"Ack" button will be shown if it might be needed</string>         <!-- Translate -->
+  <string name="pref_notif_req_ack_summaryoff">"Ack" button will not appear if it might be needed</string>      <!-- Translate -->
+  
   <!-- Text-To-Speech and Voice Transcription Strings -->
   <string name="error_message">Fel</string>
   <!-- Popup Button Configuration -->
