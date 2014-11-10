@@ -33,7 +33,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    body = body.replace(" CN:COM ", " CN: COM:").replace(" CN:COM:", " CN: COM:");
+    body = body.replace(" CN:COM ", " CN: COM:").replace(" CN:COM:", " CN: COM:").replace("TYP:", " TYP:");
     version = body.startsWith("Location:") || body.startsWith("EID") ? "1" : "2";
     return super.parseMsg(body, data);
   }

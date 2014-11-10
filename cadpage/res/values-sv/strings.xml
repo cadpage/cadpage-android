@@ -151,7 +151,6 @@
   <string name="pref_notif_override_sound_summaryoff">Konfigurerad notifiering kommer att användas</string>                    
   
   <string name="pref_notif_override_loop_title">Loopa larmtoner</string>                                              
-  <string name="pref_notif_override_loop_summary">Spela larmtoner i en kontinuerlig loop</string>                         
   <string name="pref_notif_override_loop_summaryon">Larmet kommer att loopa kontinuerligt</string>                        
   <string name="pref_notif_override_loop_summaryoff">Larmtonen kommer att ljuda en gång</string>                               
   
