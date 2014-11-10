@@ -17,13 +17,40 @@ public class DispatchA11Parser extends FieldProgramParser {
   
   public DispatchA11Parser(Properties cityCodes, String defCity, String defState) {
     super(defCity, defState,
-          "SRC CALL PAGED ADDR UNIT UNIT INFO+");
+          "( SRC/Z UNIT/Z ID/Z PAGE_TIME | SRC CALL PAGED? ADDR UNIT UNIT! INFO+ )");
     this.cityCodes = cityCodes;
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return super.parseFields(body.split("\n"), 6, data);
+    return super.parseFields(body.split("\n"), 5, data);
+  }
+
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("PAGE_TIME")) return new BasePageTimeField();
+    if (name.equals("SRC")) return new SourceField("[-A-Z0-9]+", true);
+    if (name.equals("PAGED")) return new SkipField("PAGED", true);
+    if (name.equals("ADDR")) return new BaseAddressField();
+    if (name.equals("UNIT")) return new BaseUnitField();
+    return super.getField(name);
+  }
+  
+  private class BasePageTimeField extends Field {
+    BasePageTimeField() {
+      super("PAGED- \\d\\d\\.\\d\\d\\.\\d\\d \\d\\d/\\d\\d/\\d\\d", true);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = append(field, "\n", getRelativeField(+1));
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CALL PLACE";
+    }
   }
   
   private static final Pattern APT_PTN = Pattern.compile("(?:APT|RM|ROOM)(.*)|(?:BLDG|BUILDING|SUITE).*");
@@ -56,20 +83,13 @@ public class DispatchA11Parser extends FieldProgramParser {
   }
   
   private class BaseUnitField extends UnitField {
+    public BaseUnitField() {
+      super("[-A-Z0-9]+", true);
+    }
+    
     @Override
     public void parse(String field, Data data) {
       data.strUnit = append(data.strUnit, " ", field);
     }
   }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("SRC")) return new SourceField("[-A-Z0-9]+", true);
-    if (name.equals("PAGED")) return new SkipField("PAGED", true);
-    if (name.equals("ADDR")) return new BaseAddressField();
-    if (name.equals("UNIT")) return new BaseUnitField();
-    return super.getField(name);
-  }
-  
-  
 }
