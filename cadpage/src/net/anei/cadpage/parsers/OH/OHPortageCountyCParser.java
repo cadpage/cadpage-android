@@ -11,11 +11,11 @@ import net.anei.cadpage.parsers.SmartAddressParser;
  */
 public class OHPortageCountyCParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("MANTUA ?- +(.*?)- (.*)");
+  private static final Pattern MARKER = Pattern.compile("MANTUA[- ]+", Pattern.CASE_INSENSITIVE);
 
   public OHPortageCountyCParser() {
     super("PORTAGE COUNTY", "OH");
-    setFieldList("ADDR APT CALL");
+    setFieldList("ADDR APT CALL INFO");
   }
 
   @Override
@@ -25,10 +25,31 @@ public class OHPortageCountyCParser extends SmartAddressParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
-    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, match.group(1).trim(), data);
-    data.strCall = match.group(2).trim();
+    Matcher match = MARKER.matcher(body);
+    if (!match.lookingAt()) return false;
+    body = body.substring(match.end());
+    
+    // Hopefully, there is a anddress followed by a - separator
+    int pt = body.indexOf("- ");
+    if (pt >= 0) {
+      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, body.substring(0,pt).trim(), data);
+      data.strCall = body.substring(pt+2).trim();
+      return true;
+    }
+    
+    // No such luck, back to using the address parser to identify an address
+    Result res = parseAddress(StartType.START_CALL, body);
+    if (res.isValid()) {
+      res.getData(data);
+      String left = res.getLeft();
+      if (data.strCall.length() == 0) data.strCall = left;
+      else data.strSupp = left;
+      return true;
+    }
+    
+    // If that did not work, report this as a general alert
+    data.strCall = "GENERAL ALERT";
+    data.strPlace = body;
     return true;
   };
 }

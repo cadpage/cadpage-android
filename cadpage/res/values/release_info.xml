@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="release_date">11092014</string>
-  <string name="release_version">v1.7.51</string>
+  <string name="release_version">v1.7.52</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
+\n
+Fixed problem with buttons suddenly getting reduced to minimum size in the 
+last release.\n
 \n
 Added some additional notification options to add more flexibilty, and to give
 users some ways to avoid the problem where the text messsage alert sound overrides

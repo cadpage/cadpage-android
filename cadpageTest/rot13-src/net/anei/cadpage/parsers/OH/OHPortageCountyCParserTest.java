@@ -13,8 +13,7 @@ SEZ:znaghnsver@tznvy.pbz\aZFT:ZNAGHN-  7852 FE 14- jrysner purpx- znyr fyhzccrq 
 SEZ:znaghnsver@tznvy.pbz\aZFT:ZNAGHN- 3218 FE 82 Ybg #222 - znyr jvgu tebva cnva
 SEZ:znaghnsver@tznvy.pbz\aZFT:ZNAGHN - 4802 JNLAR EBNQ - QVSSVPHYGL OERNGUVAT
 SEZ:znaghnsver@tznvy.pbz\aZFT:ZNAGHN - 3004 UHAGVATGBA JNL - NOQBZVANY CNVA
-
-** Abg Cnefvat
+SEZ:znaghnsver@tznvy.pbz\aZFT:ZNAGHN - SVER NYNEZ 7988 VASVEZNEL EBNQ
 SEZ:znaghnsver@tznvy.pbz\aZFT:znaghn 4403 fe 303 znyr qvss oernguvat
 SEZ:znaghnsver@tznvy.pbz\aZFT:ZNAGHN- Va nern bs Pbbyrl Eq naq FE 303 sbe na bcra ohea pbzcynvag
 
@@ -51,6 +50,24 @@ choyvp pynff BUCbegntrPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZFT:ZNAGHN - 3004 UHAGVATGBA JNL - NOQBZVANY CNVA",
         "NQQE:3004 UHAGVATGBA JNL",
         "PNYY:NOQBZVANY CNVA");
+
+    qbGrfg("G5",
+        "SEZ:znaghnsver@tznvy.pbz\aZFT:ZNAGHN - SVER NYNEZ 7988 VASVEZNEL EBNQ",
+        "NQQE:7988 VASVEZNEL EBNQ",
+        "PNYY:SVER NYNEZ");
+
+    qbGrfg("G6",
+        "SEZ:znaghnsver@tznvy.pbz\aZFT:znaghn 4403 fe 303 znyr qvss oernguvat",
+        "NQQE:4403 fe 303",
+        "ZNQQE:4403 BU 303",
+        "PNYY:znyr qvss oernguvat");
+
+    qbGrfg("G7",
+        "SEZ:znaghnsver@tznvy.pbz\aZFT:ZNAGHN- Va nern bs Pbbyrl Eq naq FE 303 sbe na bcra ohea pbzcynvag",
+        "NQQE:Pbbyrl Eq naq FE 303",
+        "ZNQQE:Pbbyrl Eq & BU 303",
+        "PNYY:Va nern bs",
+        "VASB:sbe na bcra ohea pbzcynvag");
     
   }
   
