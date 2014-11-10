@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class FLHendryCountyParser extends FieldProgramParser {
 
   public FLHendryCountyParser() {
-    super(CITY_LIST, "HENDRY COUNTY", "FL", "HEADER ID CALL ADDR/S ZIP DISPATCHER SRC ( WEAPON | INFO ) ADDITIONAL STATUS PRI RECEIVED SHIPPED");
+    super(CITY_LIST, "HENDRY COUNTY", "FL", "HEADER ID CALL ADDR/S ZIP? DISPATCHER SRC? ( WEAPON | INFO ) ADDITIONAL STATUS PRI RECEIVED SHIPPED");
   }
   
   private static Pattern SPLIT = Pattern.compile("( *\n *)+");
@@ -16,6 +16,11 @@ public class FLHendryCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     return parseFields(SPLIT.split(body), data);
+  }
+  
+  @Override
+  public String getFilter() {
+    return "hcdispatch@hendrysheriff.org,smartcop@hendrysheriff.org";
   }
   
   @Override
@@ -27,9 +32,9 @@ public class FLHendryCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("HEADER")) return new SkipField("AUTOMATIC CAD NOTIFICATION - *", true);
     if (name.equals("ID")) return new IdField("CAD# *([A-Z0-9]+)", true);
-    if (name.equals("CALL")) return new CallField("Call Type *(.*?)", true);
+    if (name.equals("CALL")) return new CallField("(?:Call Type|Reference) *(.*?)", true);
     if (name.equals("ADDR")) return new AddressField("Location *(.*?)", true);
-    if (name.equals("ZIP")) return new SkipField("Zip *(?:\\d{5})?", true);
+    if (name.equals("ZIP")) return new MyCityField("Zip *(\\d{5}|)", true);
     if (name.equals("DISPATCHER")) return new SkipField("Entered by .*", true);
     if (name.equals("SRC")) return new SourceField("District *(.*?)");
     if (name.equals("WEAPON")) return new SkipField("Weapon", true);
@@ -39,6 +44,18 @@ public class FLHendryCountyParser extends FieldProgramParser {
     if (name.equals("RECEIVED")) return new SkipField("Received.*", true);
     if (name.equals("SHIPPED")) return new TimeField("Shipped.*(\\d{2}:\\d{2}:\\d{2})");
     return super.getField(name);
+  }
+ 
+  private class MyCityField extends CityField {
+    public MyCityField(String pattern, boolean hard) {
+      super(pattern, hard);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strCity.length() > 0) return;
+      super.parse(field, data);
+    }
   }
   
   private static String[] CITY_LIST = new String[]{
