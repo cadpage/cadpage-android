@@ -17,7 +17,7 @@ public class FlowLayout extends ViewGroup {
   private static final int JUSTIFY_CENTER = 3;
   private static final int JUSTIFY_FILL = 4;
   
-  private static final boolean DEBUG = false;
+  private static final boolean DEBUG = true;
 	private int mHorizontalSpacing;
 	private int mVerticalSpacing;
 	private boolean mBalance;
@@ -64,7 +64,7 @@ public class FlowLayout extends ViewGroup {
     } else {
       widthSize = realWidth;  
       childWidthSpec = 
-          MeasureSpec.makeMeasureSpec(MeasureSpec.AT_MOST, widthSize-getPaddingLeft()-getPaddingRight());
+          MeasureSpec.makeMeasureSpec(widthSize-getPaddingLeft()-getPaddingRight(), MeasureSpec.AT_MOST);
     }
     
     // Start by calculating the desired size of each child
@@ -291,8 +291,8 @@ public class FlowLayout extends ViewGroup {
           // Increase adj by the amount we increasing this view width
           // and remeasure the child with the target width and existing height
           adj += tgtWidth-child.getMeasuredWidth();
-          child.measure(MeasureSpec.makeMeasureSpec(MeasureSpec.EXACTLY, tgtWidth),
-                        MeasureSpec.makeMeasureSpec(MeasureSpec.EXACTLY, child.getMeasuredHeight()));
+          child.measure(MeasureSpec.makeMeasureSpec(tgtWidth, MeasureSpec.EXACTLY),
+                        MeasureSpec.makeMeasureSpec(child.getMeasuredHeight(), MeasureSpec.EXACTLY));
         }
       }
 	  }
