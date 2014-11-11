@@ -133,6 +133,8 @@
   </string-array>
   
   <string-array name="pref_notif_timeout_entries">
+    <item>@string/pref_10s</item>
+    <item>@string/pref_20s</item>  
     <item>@string/pref_30s</item>
     <item>@string/pref_1m</item>
     <item>@string/pref_2m</item>
@@ -144,6 +146,8 @@
   </string-array>
   <string-array
     name="pref_notif_timeout_values">
+    <item>10</item>
+    <item>20</item>
     <item>30</item>
     <item>60</item>
     <item>120</item>
