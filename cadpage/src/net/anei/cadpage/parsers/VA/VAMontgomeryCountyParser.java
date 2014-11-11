@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.VA;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 /**
@@ -8,9 +9,27 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class VAMontgomeryCountyParser extends DispatchSouthernParser {
     
   public VAMontgomeryCountyParser() {
-    super(CITY_LIST, "MONTGOMERY COUNTY", "VA", DSFLAG_FOLLOW_CROSS);
+    super(CITY_LIST, "MONTGOMERY COUNTY", "VA", DSFLAG_LEAD_PLACE | DSFLAG_FOLLOW_CROSS);
+    setupMultiWordStreets(
+        "COAL BANK HOLLOW",
+        "GREEN MEADOW",
+        "HUNT CLUB",
+        "INDUSTRIAL PARK",
+        "PATRICK HENRY",
+        "PRICES FORK",
+        "TALL OAKS",
+        "TOMS CREEK",
+        "UNIVERSITY CITY",
+        "WEST CAMPUS"
+    );
   }
   
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    body = body.replace("(BYPASS)"," BYPASS ").trim();
+    return super.parseMsg(body, data);
+  }
+
   private static final String[] CITY_LIST = new String[]{
     "ALLEGHANY SPRINGS",
     "BLACKSBURG",

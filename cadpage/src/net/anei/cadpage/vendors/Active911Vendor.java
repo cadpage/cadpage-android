@@ -625,6 +625,7 @@ class Active911Vendor extends Vendor {
       "US/VA/HenryCounty",                "VAHenryCounty",
       "US/VA/LoudounCounty",              "VALoudounCounty",
       "US/VA/MecklenburgCounty",          "VAMecklenburgCounty",
+      "US/VA/MontgomeryCounty",           "VAMontgomeryCounty",
       "US/VA/NorthumberlandCounty",       "VANorthumberland",
       "US/VA/JamesCityCounty",            "VAJamesCityCounty",
       "US/VA/PrinceWilliamCounty",        "VAPrinceWilliamCountyA",
