@@ -14,6 +14,13 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
   }
   
   @Override
+  public String adjustMapAddress(String addr) {
+    addr = PA_TPK_PTN.matcher(addr).replaceAll("PENNSYLVANIA TURNPIKE");
+    return super.adjustMapAddress(addr);
+  }
+  private static final Pattern PA_TPK_PTN = Pattern.compile("\\bPA TPK?\\b", Pattern.CASE_INSENSITIVE);
+  
+  @Override
   protected boolean parseFields(String[] fields, Data data) {
     if (!super.parseFields(fields, data)) return false;
     if (data.strCity.equals("NEW CASTLE COUNTY")) data.strState = "DE";
@@ -34,7 +41,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
     if (name.equals("CITY")) return new CityField();
     if (name.equals("X2")) return new Cross2Field();
     if (name.equals("APT")) return new BaseAptField();
-    if (name.equals("PLACE")) return new BasePlaceField();
+    if (name.equals("PLACE_DASH")) return new BasePlaceDashField();
     if (name.equals("DATE")) return new BaseDateField();
     if (name.equals("TIME")) return new BaseTimeField();
     if (name.equals("DATETIME")) return new BaseDateTimeField();
@@ -121,11 +128,9 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
   protected class CityField extends DispatchA7BaseParser.CityField {
     @Override
     public void parse(String field, Data data) {
-      
       // DOn't overwrite previous contents if this field is empty
       if (field.length() > 0) super.parse(field, data);
     }
-    
   }
   
   // X2: must contain &
@@ -180,13 +185,27 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
     }
   }
   
-  // PLACE: ignore if len <= 1
-  protected class BasePlaceField extends  PlaceField {
+  private static final Pattern PLACE_DASH_PTN = Pattern.compile("-.*|.*-|.*[^ ]-[^ ].*");
+  protected class BasePlaceDashField extends  PlaceField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = PLACE_DASH_PTN.matcher(field);
+      if (!match.matches()) return false;
+      field = stripFieldStart(field, "-");
+      field = stripFieldEnd(field, "-");
+      super.parse(field, data);
+      return true;
+    }
+    
     @Override
     public void parse(String field, Data data) {
-      if (field.length() > 1) {
-        super.parse(field, data);
-      }
+      if (field.length() == 0) return;
+      if (!checkParse(field, data)) abort();
     }
   }
   
@@ -395,6 +414,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "EFALLO", "EAST FALLOWFIELD TWP",
       "EGOSHN", "EAST GOSHEN TWP",
       "EMARLB", "EAST MARLBOROUGH TWP",
+      "ENANT",  "EAST NANTMEAL TWP",
       "ENOTT",  "EAST NOTTINGHAM TWP",
       "EPIKEL", "EAST PIKELAND TWP",
       "EWHITE", "EAST WHITELAND TWP",

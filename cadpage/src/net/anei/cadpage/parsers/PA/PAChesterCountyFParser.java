@@ -14,24 +14,30 @@ public class PAChesterCountyFParser extends PAChesterCountyBaseParser {
   private static final Pattern DELIM = Pattern.compile("(\\* )?\\*\\*");
   
   public PAChesterCountyFParser() {
-    super("CALL ADDRCITY ( CITY PLACE X APT INFO | APT INFO CITY PLACE )");
+    super("CALL ADDRCITY ( CITY ( PLACE_DASH X INFO+? DATE TIME | PLACE X APT ) | APT INFO CITY! PLACE X ) INFO+");
   }
   
   @Override
   public String getFilter() {
-    return "cad@oxfordfire.com,paging@minquas.org";
+    return "cad@oxfordfire.com,paging@minquas.org,glnf@fdcms.info";
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
-    if (!body.contains(" * ** ")) return false;
 
+    body = stripFieldEnd(body, " *");
     body = DETAILS_TO_FOLLOW.matcher(body).replaceAll("");
     body = body.replace('\n', ' ');
 
     // Split and parse by asterisk delimiters
     return parseFields(DELIM.split(body), data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("CITY")) return new MyCityField();
+    return super.getField(name);
   }
   
   private static final Pattern TRAILER = Pattern.compile(" *\\(N?V\\)$");
@@ -52,12 +58,5 @@ public class PAChesterCountyFParser extends PAChesterCountyBaseParser {
       if (field.length() == 0) return true;
       return super.checkParse(field, data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDRCITY")) return new MyAddressCityField();
-    if (name.equals("CITY")) return new MyCityField();
-    return super.getField(name);
   }
 } 

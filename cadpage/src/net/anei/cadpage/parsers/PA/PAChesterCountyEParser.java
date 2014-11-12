@@ -12,7 +12,7 @@ public class PAChesterCountyEParser extends PAChesterCountyBaseParser {
   private static final Pattern DELIM = Pattern.compile(" \\*");
   
   public PAChesterCountyEParser() {
-    super("DATE! TIME! CALL APT ADDRCITY X/Z+? CITY! PLACE NAME PHONE UNIT EMPTY? SRC?");
+    super("DATE! TIME! CALL APT ADDRCITY X/Z+? CITY! PLACE_DASH NAME PHONE UNIT EMPTY? SRC?");
   }
   
   @Override
