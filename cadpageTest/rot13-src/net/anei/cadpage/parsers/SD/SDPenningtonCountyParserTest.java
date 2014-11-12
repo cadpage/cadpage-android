@@ -51,6 +51,7 @@ Fraqre: qvfcngpu@pb.craavatgba.fq.hf
 Pbagnpg: Prfne Zrmn <snyythl173@tznvy.pbz>
 Fraqre: qvfcngpu@pb.craavatgba.fq.hf
 (.) Sver Qvfgevpgf Uvyy Pvgl ISQ | 29U1; ZRQ6 | SNYY-O | 12721 F UVTUJNL 16, CRAAPB, FQ 57745 | Arnerfg Vagre - F UVTUJNL 16 naq CVAX PNOVA EQ | 90-lrn
+(.) Sver Qvfgevpgf Uvyy Pvgl ISQ| | SVER | 12025 QRRESVRYQ EQ, CRAAPB, FQ 57745 | | 11/11/14 18:01:24 - ABEGU BS NOBIR. HC GB N ZVYR NJNL; 11/11/14 18:
 
 ******************************
 
@@ -283,6 +284,13 @@ choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:12721 F UVTUJNL 16",
         "K:F UVTUJNL 16 naq CVAX PNOVA EQ",
         "VASB:90-lrn");
+
+    qbGrfg("G2",
+        "(.) Sver Qvfgevpgf Uvyy Pvgl ISQ| | SVER | 12025 QRRESVRYQ EQ, CRAAPB, FQ 57745 | | 11/11/14 18:01:24 - ABEGU BS NOBIR. HC GB N ZVYR NJNL; 11/11/14 18:",
+        "FEP:Sver Qvfgevpgf Uvyy Pvgl ISQ",
+        "PNYY:SVER",
+        "NQQE:12025 QRRESVRYQ EQ",
+        "VASB:ABEGU BS NOBIR. HC GB N ZVYR NJNL");
 
   }
   
