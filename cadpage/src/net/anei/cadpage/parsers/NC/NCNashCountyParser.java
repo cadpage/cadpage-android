@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -21,6 +22,7 @@ public class NCNashCountyParser extends SmartAddressParser {
   public NCNashCountyParser() {
     super(CITY_LIST, "NASH COUNTY", "NC");
     setFieldList("ADDR APT CH CITY X PLACE CODE CALL NAME UNIT DATE TIME INFO");
+    setupGpsLookupTable(GPS_LOOKUP_TABLE);
     setupMultiWordStreets(
         "BEND OF THE RIVER",
         "NASHVILLE COMMONS", 
@@ -208,6 +210,29 @@ public class NCNashCountyParser extends SmartAddressParser {
     if (data.strCity.equals("EDGECOMBE CO")) data.strCity = "EDGECOMBE COUNTY";
     return true;
   }
+  
+  @Override
+  public String adjustGpsLookupAddress(String addr) {
+    Matcher match = US64_PTN.matcher(addr);
+    if (match.matches()) addr = match.group(1) + " US64";
+    return addr;
+  }
+  private static final Pattern US64_PTN = Pattern.compile("(\\d+) US ?64(?: [EW]B)?");
+  
+  private static final Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
+      "454 US64", "35.945492,-78.039942",
+      "455 US64", "35.949149,-78.023140",
+      "456 US64", "35.955508,-78.007927",
+      "457 US64", "35.966097,-77.995484",
+      "458 US64", "35.975398,-77.982828",
+      "459 US64", "35.981547,-77.967077",
+      "460 US64", "35.976349,-77.950999",
+      "461 US64", "35.974279,-77.934634",
+      "462 US64", "35.976803,-77.918041",
+      "463 US64", "35.981781,-77.895261",
+      "464 US64", "35.981860,-77.876863"
+
+  });
   
   private static final CodeTable CODE_TABLE = new CodeTable(
       
