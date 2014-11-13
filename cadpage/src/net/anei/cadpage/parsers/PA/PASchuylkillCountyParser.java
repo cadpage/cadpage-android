@@ -21,6 +21,13 @@ public class PASchuylkillCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "llewellynscanner@hotmail.com,ldaubert@hotmail.com,ldaubert@comcast.net";
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = WIDEWAKE_PTN.matcher(addr).replaceAll("WIDEAWAKE");
+    return super.adjustMapAddress(addr);
+  }
+  private static final Pattern WIDEWAKE_PTN = Pattern.compile("WIDEAWAKE");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
