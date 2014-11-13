@@ -350,7 +350,7 @@ choyvp pynff CNPurfgrePbhaglVCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:NPPVQRAG - HAXABJA VAWHEVRF",
         "NQQE:3147 RO CN GC",
-        "ZNQQE:3147 CNGU GCX",   // Pnaabg znc
+        "ZNQQE:3147 CRAAFLYINAVN GHEACVXR",
         "PVGL:JRFG CVXRYNAQ GJC",
         "K:ZHAVPVCNY OBHAQNEL & PBARFGBTN EQ",
         "OBK:4707",
@@ -472,7 +472,7 @@ choyvp pynff CNPurfgrePbhaglVCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:GEHPX SVER",
         "NQQE:3215 RO CN GC",
-        "ZNQQE:3215 CNGU GCX",  // Abg znccvat
+        "ZNQQE:3215 CRAAFLYINAVN GHEACVXR",
         "PVGL:GERQLSSEVA GJC",
         "K:TERRA YN & LRYYBJ FCEVATF EQ",
         "OBK:0528",

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11092014</string>
-  <string name="release_version">v1.7.52</string>
+  <string name="release_date">11122014</string>
+  <string name="release_version">v1.7.53</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -12,7 +12,7 @@ Fixed problem with buttons suddenly getting reduced to minimum size in the
 last release.\n
 \n
 Added some additional notification options to add more flexibilty, and to give
-users some ways to avoid the problem where the text messsage alert sound overrides
+users some ways to avoid the problem where the text message alert sound overrides
 the Cadpage alert sound.\n
 \n
 New Locations:\n
@@ -25,17 +25,22 @@ Preston County, WV\n
 \n
 Location Parsing Fixes:\n
 Jefferson County, AL\n
-Sacreamento County, CA\n
+Sacramento County, CA\n
 San Bernardino, CA\n
+Sonoma County, CA\n
 Jefferson County, CO\n
 Weld County, CO\n
 Litchfield County, CT\n
+Hendry County, FL\n
 Montgomery County, MD\n
+Sussex County, NJ\n
 Chautauqua County, NY\n
 Alamance County, NC\n
 Durham County, NC\n
+Nash County, NC\n
 Hamilton County, OH\n
 Licking County, OH\n
+Chester County, PA\n
 Williamson County, TX\n
 \n
 General fixes:\n
