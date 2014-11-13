@@ -45,6 +45,8 @@ Fhowrpg:Zrffntr sebz UvcYvax\aHavg:R001 Fgnghf:Qvfcngpurq 132P01 - Unmneq Uvtu-G
 Fhowrpg:Zrffntr sebz UvcYvax\aHavg:R001 Fgnghf:Qvfcngpurq 25F - FGEHPGHER SVER 21S 5399 J  THYS GB YNXR UJL A INA ABEGJVPX EQ / A PBZZR  
 Fhowrpg:Zrffntr sebz UvcYvax\aHavg:R001 Fgnghf:Qvfcngpurq Z9R - PNEQVNP/ERFC/QRNGU (RPUB) 20P 1 FJ 1FG CY QRNQ RAQ / FJ 3EQ FG Pelfgny
 
+QQribr@furevsspvgehf.bet: Zrffntr sebz UvcYvax / O018 O003 O001 O013 R007  41S 79 PUVANOREEL PVE Ubzbfnffn 25O - OEHFU SVER 2014-000081
+
 Pbagnpg: sversvtugre7738@lnubb.pbz
 Fraqre: qqribr@furevsspvgehf.bet
 SEZ:qqribr@furevsspvgehf.bet\aFHOW:Zrffntr sebz UvcYvax\aZFT:O001  S3Z 452 A  OEVNEPERRX CG Pelfgny Evire 25Z - ZVFP SVER 2014-00001211
@@ -529,6 +531,21 @@ choyvp pynff SYPvgehfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:25F",
         "PNYY:FGEHPGHER SVER",
         "VQ:2014-00002057");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCngevpxCemlolyfxv3() {
+
+    qbGrfg("G1",
+        "QQribr@furevsspvgehf.bet: Zrffntr sebz UvcYvax / O018 O003 O001 O013 R007  41S 79 PUVANOREEL PVE Ubzbfnffn 25O - OEHFU SVER 2014-000081",
+        "HAVG:O018 O003 O001 O013 R007",
+        "ZNC:41S",
+        "NQQE:79 PUVANOREEL PVE",
+        "PVGL:Ubzbfnffn",
+        "PBQR:25O",
+        "PNYY:OEHFU SVER",
+        "VQ:2014-000081");
 
   }
   
