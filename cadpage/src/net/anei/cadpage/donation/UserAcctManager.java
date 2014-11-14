@@ -90,7 +90,7 @@ public class UserAcctManager {
             return;
           }
           String purchaseDate  = null;
-          if (flds.length < 3) {
+          if (flds.length >= 3) {
             purchaseDate = flds[2].trim();
             try {
               DATE_FMT.parse(purchaseDate);
@@ -100,7 +100,7 @@ public class UserAcctManager {
             }
             purchaseDate = purchaseDate.replace("/", "");
           }
-          String sponsor = (flds.length < 4 ? null : flds[3].trim());
+          String sponsor = (flds.length >= 4 ? flds[3].trim() : null);
           DonationManager.processSubscription(stat, purchaseDate, sponsor);
         }
         DonationManager.instance().holdRecalc(false, "ServerQuery");
