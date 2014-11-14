@@ -19,6 +19,10 @@ Pbagnpg: qvatyr301 <qvatyr301@zfa.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 F:VAQS Z:: NYNEZ - SVER\aNqqerff: 1301 A 14GU FG, VAQVNABYN, VN\a
 
+Pbagnpg: qnirjnyxwe <qnirjnyxwe@zfa.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+F:USQ Z:2014-24613\aPnyyGlcr: SVER - JVYQ YNAQ\aNqqerff: 8600 F23 UJL, CNYZLEN GJC, VN
+
  */
 
 choyvp pynff VNJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -77,6 +81,7 @@ choyvp pynff VNJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
   
+  @Grfg
   choyvp ibvq grfgQvatyr301() {
 
     qbGrfg("G1",
@@ -87,6 +92,20 @@ choyvp pynff VNJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:VAQVNABYN",
         "FG:VN");
 
+  }
+  
+  @Grfg 
+  choyvp ibvq grfgQnirjnyxwe() {
+
+    qbGrfg("G1",
+        "F:USQ Z:2014-24613\aPnyyGlcr: SVER - JVYQ YNAQ\aNqqerff: 8600 F23 UJL, CNYZLEN GJC, VN",
+        "FEP:USQ",
+        "VQ:2014-24613",
+        "PNYY:SVER - JVYQ YNAQ",
+        "NQQE:8600 F23 UJL",
+        "PVGL:CNYZLEN GJC",
+        "FG:VN");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

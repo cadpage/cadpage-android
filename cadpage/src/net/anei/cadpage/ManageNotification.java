@@ -270,6 +270,7 @@ public class ManageNotification {
         if (ManagePreferences.notifyOverrideSound()) {
           AssetFileDescriptor fd = context.getResources().openRawResourceFd(R.raw.generalquarter);
           mMediaPlayer.setDataSource(fd.getFileDescriptor(), fd.getStartOffset(), fd.getLength());
+          fd.close();
         } else {
           Uri alarmSoundURI = Uri.parse(ManagePreferences.notifySound());
           mMediaPlayer.setDataSource(context, alarmSoundURI);
