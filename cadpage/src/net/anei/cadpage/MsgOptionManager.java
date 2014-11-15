@@ -9,9 +9,11 @@ import android.app.Activity;
 import android.app.PendingIntent;
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
@@ -638,6 +640,11 @@ public class MsgOptionManager {
     // Build and launch map request
     Uri uri = Uri.parse(searchStr);
     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+    
+    if (ManagePreferences.lockGoogleMap()) {
+      intent.setComponent(GOOGLE_MAPS_COMPONENT_NAME);
+    }
+    
     Log.w("Map Request:");
     ContentQuery.dumpIntent(intent);
     
@@ -648,6 +655,8 @@ public class MsgOptionManager {
     }
   }
   private static final Pattern GPS_LOC_PTN = Pattern.compile("[+-]?\\d+\\..*");
+  private static final ComponentName GOOGLE_MAPS_COMPONENT_NAME = 
+      new ComponentName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
 
   /**
    * Send SMS response message

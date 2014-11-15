@@ -29,7 +29,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 35;
+  private static final int PREFERENCE_VERSION = 36;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -506,6 +506,10 @@ public class ManagePreferences {
     return val.charAt(0) - '0';
   }
   
+  public static boolean lockGoogleMap() {
+    return prefs.getBoolean(R.string.pref_lock_google_map_key);
+  }
+  
   public static String reportPosition() {
     return prefs.getString(R.string.pref_report_position_key);
   }
@@ -513,6 +517,8 @@ public class ManagePreferences {
   public static void setReportPosition(String newVal) {
     prefs.putString(R.string.pref_report_position_key, newVal);
   }
+  
+  
 
   public static int historyCount() {
     return prefs.getIntValue(R.string.pref_history_limit_key);
@@ -1034,6 +1040,7 @@ public class ManagePreferences {
         R.string.pref_delete_unopen_key,
         R.string.pref_map_network_chk_key,
         R.string.pref_gps_map_option_key,
+        R.string.pref_lock_google_map_key,
         R.string.pref_report_position_key,
         
         R.string.pref_popup_enabled_key,
