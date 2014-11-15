@@ -270,7 +270,7 @@ class Active911Vendor extends Vendor {
       "US/KS/RiceCounty",                 "KSRiceCounty",
       "US/KS/SedgwickCounty",             "KSSedgwickCounty",
       "US/KS/FirePage",                   "KSWichita",
-      "US/KY/BooneCounty",                "KYBooneCounty",
+      "US/KY/BooneCounty",                "KYBooneCountyA",
       "US/KY/CampbellCounty",             "KYCampbellCounty",
       "US/KY/ErlangerPD",                 "KYErlangerDispatch",
       "US/KY/GallatinCounty",             "KYGallatinCounty",
