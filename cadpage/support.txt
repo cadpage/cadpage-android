@@ -661,6 +661,8 @@ Jean ~ Cadpage Administrator
 
 I am unable to find a payment from you.  Under what name was the payment made?  Have you recently changed your email address?  
 
+Approximately when was your last payment?  A Cadpage subscription is $10 per year.  Is it possible that your subscription has expired?
+
 It may not be necessary to locate that payment.  Go to Cadpage Settings and select Payment Status > Recalculate Payment Status
 
 If that does not work, try logging in to wallet.google.com or paypal.com.  From there you should be able to look up your Cadpage purchase and send us the date, time and transaction ID, and whether it was PayPal or Play Store.
