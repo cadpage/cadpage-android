@@ -38,18 +38,16 @@ public class KYBooneCountyAParser extends FieldProgramParser {
     return super.parseMsg(body,  data);
   }
   
-  private static final Pattern ADDR_PTN = Pattern.compile("(.*?)(?: *: @ *(.*?))?(?: *(?::APT|,) *(.*))?");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       
       // The match really can not fail
-      Matcher match = ADDR_PTN.matcher(field);
-      if (!match.matches()) abort();
-      field = match.group(1);
-      data.strPlace = getOptGroup(match.group(2));
-      String apt = getOptGroup(match.group(3));
-      super.parse(field, data);
+      Parser p = new Parser(field);
+      data.strPlace = p.getLastOptional(": @");
+      String apt = p.getLastOptional(":APT");
+      if (apt.length() == 0) apt = p.getLastOptional(',');
+      super.parse(p.get(), data);
       data.strApt = append(data.strApt, "-", apt);
     }
     

@@ -210,6 +210,7 @@ class Active911Vendor extends Vendor {
       "US/CO/NWSAlert",                   "StandardNationalWeatherService",
       "US/CO/OlatheFire",                 "Cadpage2",
       "US/CO/MorganCounty",               "COMorganCounty",
+      "US/CO/USAMobility",                "CODouglasCountyB",
       "US/CO/WeldCounty",                 "COWeldCounty",
       "US/CO/WestMetroFire",              "COJeffersonCountyA",
       "US/CT/CityofLedyard",              "CTNewLondonCounty",
