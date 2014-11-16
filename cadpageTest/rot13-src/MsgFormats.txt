@@ -1024,12 +1024,6 @@ Fna Znepbf Pbhagl, GK (GKFnaZnepbfPbhaglCnefre)
 ******************************************************************************
 * QvfcngpuN28Cnefre fhopynffrf
 *******************************************************************************
-***************************************************************************
-Oynpx Unjx Pbhagl, VN (VNOynpxUnjxPbhaglCnefre)
-10-127299 ZIN EBYYBIRE/20 UJL FRETRNAG EQ JNGREYBB
-10-124880 ZIN EBYYBIRE 1941 J 6GU FG RHERXN/ ZVGPURYY/JNGREYBB
-[] (Qvfcngpu) 12-092660 NYYRETVRF/UVIRF/FGVAT/ZRQERNPG \aErcbegrq: 09/03/2012 14:41:50 \a6615 YNSNLRGGR EQ \a4GU FG / 3 EQ FG (EN/LZBAQ EQ \aWBR GUBZR GEHPXVAT ENLZB
-[] (Qvfcngpu) 12-087578 OHEAVAT PBZCYNVAG\aErcbegrq: 08/21/2012 17:21:39\a504 F 3EQ FG\aQHOHDHR / F F PG/\aZNEFUNYY,QNIVQ Z3407  YVQ 6661 ENLZBAQ\a921
 ******************************************************************************
 Qrf Zbvarf Pbhagl, VN (VNQrfZbvarfPbhaglCnefre) 
 (Qvfcngpu vasb) 14-032101 NZOHYNAPR PNYY \a\a \a\a\a Ercbegrq: 09/08/2014 17:40:16 \a\a \a\a\a 133 TERRAOEVNE QE \a\a \a\a\a FHZZRE FG / \a\a \a\a\a OHEYVATGBA \a\a \a\a\a N1
@@ -1341,6 +1335,11 @@ Nenafnf Pbhagl, GK (GKNenafnfPbhaglCnefre)
 *******************************************************************************
 * QvfcngpuN47Cnefre fhopynffrf
 *******************************************************************************
+*******************************************************************************
+Oynpx Unjx Pbhagl, VN
+(RSE) Ercbegrq: 11/16/2014 07:47:40\a 14-113375 PBZZREPVNY NHGBZNGVP NYNEZ \a Ybp: 450 RINAFQNYR QE RINAFQNYR,VN 50707 \a F SEZ 900 T'IVYYR EQ /  ZPPBL \a QNLF VAA-RINAFQNYR #1048 \a 201 202 221 224 237 238 2T5 7X13 7A51 900S 921
+(RSE) Ercbegrq: 11/16/2014 07:47:40\a 14-113375 PBZZREPVNY NHGBZNGVP NYNEZ \a Ybp: 450 RINAFQNYR QE RINAFQNYR,VN 50707 \a F SEZ 900 T'IVYYR EQ /  ZPPBL \a QNLF VAA-RINAFQNYR #1048 \a 201 202 224 238 2T5
+(RSE) Ercbegrq: 11/15/2014 14:13:06\a 14-113114 ZIN EBYYBIRE \a Ybp: 68 SJL 380 ,VN  \a / \a ZZ68   V380 RINAFQNYR QE \a 202 238
 *******************************************************************************
 Wnfcre Pbhagl, VN (VNWnfcrePbhaglCnefre) 
 (Qvfcngpu Vasb) Ercbegrq: 10/25/2013 19:26:34\a 13-028048 Z/I NPPVQRAG CREFBANY VAWHEL \a Ybp: R RQTR BS ERNFABE ,  \a 31 NYF1 ESQ

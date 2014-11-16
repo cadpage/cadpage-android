@@ -11,6 +11,10 @@ public class DispatchA47Parser extends FieldProgramParser {
   
   private String subjectMarker;
   
+  public DispatchA47Parser(String[] cityList, String defCity, String defState) {
+    this(null, cityList, defCity, defState);
+  }
+  
   public DispatchA47Parser(String subjectMarker, String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
           "( Reported:DATETIME! ID_CALL! Loc:ADDR/S! | ID_CALL! Reported:DATETIME! ADDR/S! ) ( UNIT END | X? PLACE? UNIT! END )");
@@ -19,7 +23,7 @@ public class DispatchA47Parser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals(subjectMarker)) return false;
+    if (subjectMarker != null && !subject.equals(subjectMarker)) return false;
     
     // Convert apparent older version to new format
     
@@ -69,7 +73,7 @@ public class DispatchA47Parser extends FieldProgramParser {
         }
       }
       super.parse(field, data);
-      if (city != null && data.strCity.length() == 0) data.strCity = city;
+      if (city != null && (data.strCity.length() == 0 || data.strCity.equalsIgnoreCase("COUNTY"))) data.strCity = city;
     }
     
     @Override
