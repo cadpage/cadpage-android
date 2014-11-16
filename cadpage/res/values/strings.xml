@@ -172,12 +172,14 @@
   <string name="pref_notif_default_title">Default Notifications</string>
   
   <string name="pref_notif_override_title">Override Mute and Volume Control</string>
-  <string name="pref_notif_override_summary">Use this to sound audio alert even when phone is in silent mode.</string>
   <string name="pref_notif_override_summaryon">Alert sound will always play at full volume</string>
   <string name="pref_notif_override_summaryoff">Alert sound will follow normal mute and volume controls</string>
   
+  <string name="pref_notif_override_volume_title">Reassert volume control</string>
+  <string name="pref_notif_override_volume_summaryon">Alert sound will follow media player volume control</string>
+  <string name="pref_notif_override_volume_summaryoff">Alert sound will always play at full volume</string>
+  
   <string name="pref_notif_override_sound_title">Play Cadpage Alert Tones</string>
-  <string name="pref_notif_override_sound_summary">Play Cadpage alert tones for alarms</string>
   <string name="pref_notif_override_sound_summaryon">Cadpage alert tones will be used</string>
   <string name="pref_notif_override_sound_summaryoff">Configured notification will be used</string>
   

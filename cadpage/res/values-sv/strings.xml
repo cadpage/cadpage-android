@@ -141,12 +141,10 @@
   <string name="pref_notif_default_title">Standardnotifiering</string>
   
   <string name="pref_notif_override_title">Bortse från Mute och Volymkontroll</string>                                   
-  <string name="pref_notif_override_summary">Använd detta för att låta larmet ljuda även när telefonen är inställt på tyst läge.</string> 
   <string name="pref_notif_override_summaryon">Larmet kommer alltid att låta på full volym</string>                    
   <string name="pref_notif_override_summaryoff">Larmet kommer att låta enligt telefonens normala mute och volymkontroller.</string>       
   
   <string name="pref_notif_override_sound_title">Spela Cadpages larmtoner</string>                                     
-  <string name="pref_notif_override_sound_summary">Spela Cadpages toner för larm</string>                        
   <string name="pref_notif_override_sound_summaryon">Cadpages larmtoner kommer att användas</string>                         
   <string name="pref_notif_override_sound_summaryoff">Konfigurerad notifiering kommer att användas</string>                    
   

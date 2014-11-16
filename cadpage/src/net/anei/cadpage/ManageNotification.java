@@ -229,6 +229,9 @@ public class ManageNotification {
    */
   private static void overrideVolumeControl(Context context) {
     
+    // If user doesn not want the volume maxed out, do not do anything
+    if (ManagePreferences.notifyOverrideVolume()) return;
+    
     // Grab audio focus
     if (afm != null) afm.grabAudioFocus(context);
     

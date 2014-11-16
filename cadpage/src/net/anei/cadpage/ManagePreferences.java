@@ -381,6 +381,10 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_notif_override_key);
   }
   
+  public static boolean notifyOverrideVolume() {
+    return prefs.getBoolean(R.string.pref_notif_override_volume_key);
+  }
+  
   public static boolean notifyOverrideSound() {
     return prefs.getBoolean(R.string.pref_notif_override_sound_key);
   }
@@ -1018,6 +1022,7 @@ public class ManagePreferences {
         
         R.string.pref_notif_enabled_key,
         R.string.pref_notif_override_key,
+        R.string.pref_notif_override_volume_key,
         R.string.pref_notif_override_sound_key,
         R.string.pref_notif_override_loop_key,
         R.string.pref_notif_sound_key,

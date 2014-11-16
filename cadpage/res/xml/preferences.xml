@@ -30,15 +30,20 @@
         <CheckBoxPreference
           android:key="@string/pref_notif_override_key"
           android:title="@string/pref_notif_override_title"
-          android:summary="@string/pref_notif_override_summary"
           android:summaryOn="@string/pref_notif_override_summaryon"
           android:summaryOff="@string/pref_notif_override_summaryoff"
           android:defaultValue="false"
           android:dependency="@string/pref_notif_enabled_key" />
         <CheckBoxPreference
+          android:key="@string/pref_notif_override_volume_key"
+          android:title="@string/pref_notif_override_volume_title"
+          android:summaryOn="@string/pref_notif_override_volume_summaryon"
+          android:summaryOff="@string/pref_notif_override_volume_summaryoff"
+          android:defaultValue="false"
+          android:dependency="@string/pref_notif_override_key" />
+        <CheckBoxPreference
           android:key="@string/pref_notif_override_sound_key"
           android:title="@string/pref_notif_override_sound_title"
-          android:summary="@string/pref_notif_override_sound_summary"
           android:summaryOn="@string/pref_notif_override_sound_summaryon"
           android:summaryOff="@string/pref_notif_override_sound_summaryoff"
           android:defaultValue="true"

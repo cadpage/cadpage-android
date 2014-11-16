@@ -45,6 +45,7 @@
    <string name="pref_noShowInCall_key">noshowincall</string>
    <string name="pref_notif_enabled_key">notification</string>
    <string name="pref_notif_override_key">override</string>
+   <string name="pref_notif_override_volume_key">override_volume</string>
    <string name="pref_notif_override_sound_key">override_sound</string>
    <string name="pref_notif_override_loop_key">override_loop</string>
    <string name="pref_popup_enabled_key">popup</string>
