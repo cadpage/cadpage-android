@@ -8,6 +8,10 @@ vzcbeg bet.whavg.Grfg;
 /*    
 Oragba Pbhagl, BE
 
+Pbagnpg: Xra Pbeova
+Fraqre: "Pbeinyyvf Nyregf" <nyregf@pbeinyyvf.rnyregtbi.pbz>
+{Pbeinyyvf Nyreg} VAP:VAWHEL ZIN\aNQQ:UVTUJNL 20 naq ZC 45\aNCG:\aPVGL:CUVYBZNGU\aK:UVTUJNL 20\aZNC:585-435\aPSF:111414-239\aQVF:BQS CEBGRPGRQ YNAQ\aQVF:BQS CEBGRPGRQ YNAQ\aQVF:ORAGBA PB FB\aQVF:CUVYBZNGU SVER\aQVF:PBEINYYVF NZO 2-4-3\a
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cuvybzngu Sver & Erfphr
 Ybpngvba: Cuvybzngu, BE, Havgrq Fgngrf
@@ -276,6 +280,34 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp BEOragbaPbhaglCnefreGrfg() {
     frgCnefre(arj BEOragbaPbhaglCnefre(), "ORAGBA PBHAGL", "BE");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXraPbeova() {
+
+    qbGrfg("G1",
+        "{Pbeinyyvf Nyreg} VAP:VAWHEL ZIN\a" +
+        "NQQ:UVTUJNL 20 naq ZC 45\a" +
+        "NCG:\a" +
+        "PVGL:CUVYBZNGU\a" +
+        "K:UVTUJNL 20\a" +
+        "ZNC:585-435\a" +
+        "PSF:111414-239\a" +
+        "QVF:BQS CEBGRPGRQ YNAQ\a" +
+        "QVF:BQS CEBGRPGRQ YNAQ\a" +
+        "QVF:ORAGBA PB FB\a" +
+        "QVF:CUVYBZNGU SVER\a" +
+        "QVF:PBEINYYVF NZO 2-4-3\a",
+
+        "PNYY:VAWHEL ZIN",
+        "NQQE:UVTUJNL 20 naq ZC 45",
+        "ZNQQE:UVTUJNL 20 & ZC 45",
+        "PVGL:CUVYBZNGU",
+        "K:UVTUJNL 20",
+        "ZNC:585-435",
+        "VQ:111414-239",
+        "HAVG:BQS CEBGRPGRQ YNAQ,BQS CEBGRPGRQ YNAQ,ORAGBA PB FB,CUVYBZNGU SVER,PBEINYYVF NZO 2-4-3");
+    
   }
 
   @Grfg
