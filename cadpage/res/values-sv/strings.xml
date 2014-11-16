@@ -144,6 +144,10 @@
   <string name="pref_notif_override_summaryon">Larmet kommer alltid att låta på full volym</string>                    
   <string name="pref_notif_override_summaryoff">Larmet kommer att låta enligt telefonens normala mute och volymkontroller.</string>       
   
+  <string name="pref_notif_override_volume_title">Reassert volume control</string>                                    <!-- Translate -->
+  <string name="pref_notif_override_volume_summaryon">Alert sound will follow media player volume control</string>    <!-- Translate -->
+  <string name="pref_notif_override_volume_summaryoff">Alert sound will always play at full volume</string>           <!-- Translate -->
+  
   <string name="pref_notif_override_sound_title">Spela Cadpages larmtoner</string>                                     
   <string name="pref_notif_override_sound_summaryon">Cadpages larmtoner kommer att användas</string>                         
   <string name="pref_notif_override_sound_summaryoff">Konfigurerad notifiering kommer att användas</string>                    
