@@ -202,10 +202,10 @@ Zrqvpny; Erp Pragre; Oebnqivrj Urvtugf; znyr univat n urneg nggnpx. FDHNQ ARRQRQ
 Zrqvpny; 1420 Crccrepbea Ynar; Oebnqivrj Urvtugf; znyr jvgu uvf rlrf oheavat. FDHNQ ARRQRQ
  */
 
-choyvp pynff BUImjcvkCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff BUPhlnubtnPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp BUImjcvkCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "", "BU");
+  choyvp BUPhlnubtnPbhaglQCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "PHLNUBTN PBHAGL", "BU");
   }
   
   @Grfg
@@ -213,6 +213,6 @@ choyvp pynff BUImjcvkCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj BUImjcvkCnefreGrfg().trarengrGrfgf("G1");
+    arj BUPhlnubtnPbhaglQCnefreGrfg().trarengrGrfgf("G1");
   }
 }
