@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 /**
- * Henrey County, VA
+ * Henry County, VA
  */
 public class VAHenryCountyParser extends DispatchSouthernParser {
   
