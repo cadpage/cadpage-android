@@ -1,8 +1,10 @@
 package net.anei.cadpage.parsers.MO;
 
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
@@ -10,11 +12,13 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 public class MOBarryCountyAParser extends DispatchB2Parser {
   
+  private static final Pattern  WEATHER_PTN = Pattern.compile("BC911:(WEATHR>WEATHER .*?)(?: Cad: ([-\\d]+))?");
   private static final Pattern FARM_ROAD_PTN = Pattern.compile("\\bFARM ROAD\\b");
   private static final Pattern FR_PTN = Pattern.compile("\\bFR\\b");
  
   public MOBarryCountyAParser() {
     super("BC911:", MOBarryCountyParser.CITY_LIST, "BARRY COUNTY", "MO");
+    setupCallList(CALL_LIST);
   }
   
   @Override
@@ -24,6 +28,17 @@ public class MOBarryCountyAParser extends DispatchB2Parser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    
+    // Weather reports are occasionally mistaken for dispatch calls if we
+    // do not catch them here
+    Matcher match = WEATHER_PTN.matcher(body);
+    if (match.matches()) {
+      data.strCall = "GENERAL ALERT";
+      data.strPlace = match.group(1).trim();
+      data.strCallId = match.group(2);
+      return true;
+    }
+    
     String save = body;
     body = FARM_ROAD_PTN.matcher(body).replaceAll("FR");
     if (!super.parseMsg(body, data)) return false;
@@ -35,4 +50,24 @@ public class MOBarryCountyAParser extends DispatchB2Parser {
     }
     return true;
   }
+  
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "911 HANG UP",
+      "911 NEWTON CO",
+      "ALARMS",
+      "ASSIST",
+      "ASSIST OTHER AGENCY",
+      "BRUSH FIRE",
+      "CHECK PERSON",
+      "CHECK WELL BEING",
+      "DOMESTIC",
+      "FIRE OTHER",
+      "GENERAL INFO",
+      "MEDICAL CALL",
+      "MOTOR VEH ACC UNKNOWN INJ",
+      "MOTOR VEHICLE ACCIDENT",
+      "STRUCTURE FIRE",
+      "TEST",
+      "VEHICLE FIRE"
+  );
 }
