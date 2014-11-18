@@ -5,7 +5,6 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class MABarnstableCountyParser extends FieldProgramParser {
 
@@ -77,23 +76,4 @@ public class MABarnstableCountyParser extends FieldProgramParser {
       return super.getFieldNames() + " CITY X PLACE";
     }
   }
-  
-  private static String[] CITIES = new String[]{
-    "BARNSTABLE",
-    "BOURNE",
-    "BREWSTER",
-    "CHATHAM",
-    "DENNIS",
-    "EASTHAM",
-    "FALMOUTH",
-    "HARWICH",
-    "MASHPEE",
-    "ORLEANS",
-    "PROVINCETOWN",
-    "SANDWICH",
-    "TRURO",
-    "WELLFLEET",
-    "YARMOUTH",
-  };
-  
 }
