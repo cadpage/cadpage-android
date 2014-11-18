@@ -7,8 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSPKParser;
 
 public class INShelbyCountyParser extends DispatchSPKParser {
   public INShelbyCountyParser() {
-    super(CITY_LIST, "SHELBY COUNTY", "IN");
-    setupMultiWordStreets("SHELBY STATE");
+    super("SHELBY COUNTY", "IN");
   }
 
   private static final Pattern SHELBY_STATE_RD_PATTERN
@@ -25,53 +24,4 @@ public class INShelbyCountyParser extends DispatchSPKParser {
   public String getFilter() {
     return "ShelbyCoCAD@in.gov";
   }
-  
-  private static final String[] CITY_LIST = {
-//    Cities and towns
-    "EDINBURGH",
-    "FAIRLAND",
-    "MORRISTOWN",
-    "ST. PAUL",
-    "SHELBYVILLE",
-
-// Unincorporated towns
-    "BLUE RIDGE",
-    "BROOKFIELD",
-    "BOGGSTOWN",
-    "FLAT ROCK",
-    "FOUNTAINTOWN",
-    "GENEVA",
-    "GWYNNEVILLE",
-    "LONDON",
-    "MARIETTA",
-    "MEIKS",
-    "MOUNT AUBURN",
-    "SUGAR CREEK",
-    "WALDRON",
-
-// Townships
-    "ADDISON",
-    "BRANDYWINE",
-    "HANOVER",
-    "HENDRICKS",
-    "JACKSON",
-    "LIBERTY",
-    "MARION",
-    "MORAL",
-    "NOBLE",
-//    "SHELBY",
-    "SUGAR CREEK",
-    "UNION",
-    "VAN BUREN",
-    "WASHINGTON",
-
-// Adjacent counties
-    "SHELBY COUNTY",
-    "HANCOCK COUNTY",
-    "RUSH COUNTY",
-    "DECATUR COUNTY",
-    "BARTHOLOMEW COUNTY",
-    "JOHNSON COUNTY",
-    "MARION COUNTY"
-  };
 }

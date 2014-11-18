@@ -1,4 +1,5 @@
 package net.anei.cadpage.parsers;
+
 import java.util.Properties;
 
 import net.anei.cadpage.parsers.HtmlParser;
@@ -44,6 +45,11 @@ public FieldProgramHtmlParser(String defCity,
   protected String getValue(String tag) {
     return htmlParser.getValue(tag);
   }
+  
+  protected String[] getValueArray() {
+    return htmlParser.getValueArray();
+  }
+
   
   public String translate(String raw) {
     return htmlParser.translate(raw);

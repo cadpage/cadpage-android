@@ -6,6 +6,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
+/**
+ * Active911 identifies this vendor as Public Safety Software
+ */
 public class DispatchA33Parser extends FieldProgramParser {
 
   private static final Pattern RUN_REPORT_PATTERN = Pattern.compile("Event No: (\\d{4}-\\d{8}) (Status: ([A-Za-z]+) .*)");

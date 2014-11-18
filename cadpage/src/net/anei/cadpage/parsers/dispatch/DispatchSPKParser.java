@@ -1,59 +1,55 @@
 package net.anei.cadpage.parsers.dispatch;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-
 import net.anei.cadpage.parsers.FieldProgramHtmlParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchSPKParser extends FieldProgramHtmlParser {
-  private static final String FIELD_NAMES
-    = "ID DATE TIME CODE CALL NAME PHONE GPS ADDR X APT CITY UNIT INFO";
-  public DispatchSPKParser(String dc, String ds) {
-    this(null, dc, ds);
-  }
 
-  public DispatchSPKParser(String[] cl, String dc, String ds) {
-    super(cl, dc, ds,
-           FIELD_NAMES,
-           LAYOUT);
+  public DispatchSPKParser(String defCity, String defState) {
+    super(defCity, defState,
+         "ID DATETIME CALL ADDRCITY CITY X APT GPS PHONE NAME INFO UNIT",
+          LAYOUT);
     translate(TRANS);
   }
-
-  @Override
-  public String getProgram() {
-    return FIELD_NAMES;
-  }
   
-  private static final DateFormat MY_DATE_FMT = new SimpleDateFormat("MM/dd/yy hh:mm:ss");
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!getHtmlCleaner(body))
-      return false;
-    
-    data.strCallId = getValue("ID");
-    setDateTime(MY_DATE_FMT, getValue("DATETIME"), data);
-    String cc = getValue("CODE");
-    if (cc.contains(" - ")) {
-      int n = cc.indexOf(" - ");
-      data.strCode = cc.substring(0, n);
-      data.strCall = cc.substring(n+3);
+    if (!getHtmlCleaner(body)) return false;
+    return parseFields(getValueArray(), data); 
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("\\d{4}-\\d{8}|", true);
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d?/\\d\\d?/\\d\\d \\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("CALL")) return new BaseCallField();
+    if (name.equals("CITY")) return new BaseCityField();
+    return super.getField(name);
+  }
+  
+  private class BaseCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(" - ");
+      if (pt >= 0) {
+        data.strCode = field.substring(0,pt).trim();
+        field = field.substring(pt+3).trim();
+      }
+      super.parse(field, data);
     }
-    else
-      data.strCall = cc;
-    data.strPhone = getValue("PHONE");
-    data.strName = getValue("NAME");
-    parseAddress(StartType.START_ADDR, getValue("LOCATION"), data);
-    if (data.strCity.equals(""))
-      data.strCity = getValue("COMMUNITY");
-    data.strCross = append(data.strCross, " & ", getValue("CROSS_STREET"));
-    data.strApt = append(data.strApt, " ", getValue("APARTMENT"));
-    data.strSupp = getValue("NARRATIVE");
-    data.strUnit = getValue("UNIT");
-    data.strGPSLoc = getValue("GPS");
-
-    return true;
-    // return data.strCallId.length()>0 && cc.length()>0 && data.strAddress.length()>0;
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE CALL";
+    }
+  }
+  
+  private class BaseCityField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strCity.length() > 0) return;
+      super.parse(field, data);
+    }
   }
   
   private static final String[] LAYOUT = {

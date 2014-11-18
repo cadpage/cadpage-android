@@ -4,7 +4,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSPKParser;
 
 public class WVHardyCountyCParser extends DispatchSPKParser {
   public WVHardyCountyCParser() {
-    super(WVHardyCountyAParser.CITY_LIST, "HARDY COUNTY", "WV");
+    super("HARDY COUNTY", "WV");
   }
 
   @Override
