@@ -20,7 +20,7 @@ Go Figure
 public class DispatchB2Parser extends DispatchBParser {
   
   // Flag requesting that first word of call description be considered a call
-  // code if there is not > marker
+  // code if there is no marker
   public static final int B2_FORCE_CALL_CODE = 1;
   
   private static final Pattern CODE_PATTERN = Pattern.compile("^([- /#&A-Z0-9]{0,6}?|\\?) *> *"); 
@@ -170,6 +170,7 @@ public class DispatchB2Parser extends DispatchBParser {
       data.strName = match.group(1);
       field = field.substring(0,match.start());
     }
+    flags |= getExtraParseAddressFlags();
     parseAddress(st, flags | FLAG_NEAR_TO_END, field, data);
     String name = getLeft();
     boolean noCross = (data.strCross.length() == 0);

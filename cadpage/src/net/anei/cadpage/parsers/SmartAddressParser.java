@@ -394,6 +394,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "MALL",
         "GR",
         "GTWY", "GATEWAY",
+        "HOLW",
         "PLAZ", "PLAZA",
         "TURNPIKE", "TRNPK", "TPKE", "TRPK", "TPK", "TP",
         "PASS",
