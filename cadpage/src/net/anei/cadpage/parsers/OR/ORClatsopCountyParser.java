@@ -15,6 +15,11 @@ public class ORClatsopCountyParser extends SmartAddressParser {
     super("CLATSOP COUNTY", "OR");
     setFieldList("CALL ADDR APT PLACE INFO");
   }
+  
+  @Override
+  public String getFilter() {
+    return "@cityofseaside.us,@astoria.or.us";
+  }
 
   private static final Pattern AVE_PTN1 = Pattern.compile(".* (?:AVE|AVENUE)", Pattern.CASE_INSENSITIVE);
   private static final Pattern AVE_PTN2 = Pattern.compile("([A-Z])\\b(?: +#?(\\d+))?(?: +(.*))?", Pattern.CASE_INSENSITIVE);

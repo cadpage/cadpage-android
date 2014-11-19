@@ -476,6 +476,7 @@ class Active911Vendor extends Vendor {
       "US/OH/WarrenCountyEmergitech",     "OHFranklin",
       "US/OH/WarrenCountyLogis",          "OHWarrenCountyA",
       "US/OH/WashingtonCountySheriff",    "OHWashingtonCountyA",
+      "US/OR/CityofSeaside",              "ORClatsopCounty",
       "US/OK/CityofTulsa",                "OKTulsaB",
       "US/OK/CherokeeCounty",             "OKCherokeeCounty",
       "US/OK/LoveCounty",                 "OKLoveCounty",
