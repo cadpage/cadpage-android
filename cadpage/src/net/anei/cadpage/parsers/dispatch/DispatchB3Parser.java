@@ -60,7 +60,16 @@ public class DispatchB3Parser extends DispatchB2Parser {
     }
     
     body = subject + " @ " + body;
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    
+    if (data.strCall.equals("RUN REPORT")) {
+      int pt = data.strPlace.indexOf(" @ ");
+      if (pt >= 0) {
+        data.strCode = data.strPlace.substring(0,pt).trim();
+        data.strPlace = data.strPlace.substring(pt+3).trim();
+      }
+    }
+    return true;
   }
 
   /**

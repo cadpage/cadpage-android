@@ -657,7 +657,8 @@ choyvp pynff JIUnzcfuverPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G20",
         "(RPUBXR) UNZ2038:= QFC 10:28:24 RAE 00:00:00 NEE 00:00:00 PYE 10:30:07",
         "PNYY:EHA ERCBEG",
-        "CYNPR:RPUBXR @ = QFC 10:28:24 RAE 00:00:00 NEE 00:00:00 PYE 10:30:07");
+        "PBQR:RPUBXR",
+        "CYNPR:= QFC 10:28:24 RAE 00:00:00 NEE 00:00:00 PYE 10:30:07");
 
     qbGrfg("G21",
         "(RPUBXR>PUBXVAT IVPGVZ) UNZ2038:69 SVT QE PNCBA OEVQTR XRVGRE, FGRCUNVAR 3048562197 Pnq: 2014-0000009201",
@@ -915,7 +916,8 @@ choyvp pynff JIUnzcfuverPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G47",
         "(RFBO) UNZ2038:= QFC 16:20:44 RAE 00:00:00 NEE 00:00:00 PYE 16:27:47",
         "PNYY:EHA ERCBEG",
-        "CYNPR:RFBO @ = QFC 16:20:44 RAE 00:00:00 NEE 00:00:00 PYE 16:27:47");
+        "PBQR:RFBO",
+        "CYNPR:= QFC 16:20:44 RAE 00:00:00 NEE 00:00:00 PYE 16:27:47");
 
     qbGrfg("G48",
         "(RFBO  >FUBEGARFF BS OERNGU) UNZ2038:96 HATRE YZ UBHPURAF,WRNA 5407185675 Pnq: 2014-0000008945",
@@ -938,7 +940,8 @@ choyvp pynff JIUnzcfuverPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G50",
         "(OF) UNZ2038:= QFC 16:20:07 RAE 00:00:00 NEE 00:00:00 PYE 16:20:28",
         "PNYY:EHA ERCBEG",
-        "CYNPR:OF @ = QFC 16:20:07 RAE 00:00:00 NEE 00:00:00 PYE 16:20:28");
+        "PBQR:OF",
+        "CYNPR:= QFC 16:20:07 RAE 00:00:00 NEE 00:00:00 PYE 16:20:28");
 
     qbGrfg("G51",
         "(OF    >ONFVP FREIVPR PBZCYNVAG) UNZ2038:101 ORYSBEQ ZBHAGNVA EQ ORYSBEQ,PUEVFGVAN 3049475331 Pnq: 2014-0000008943",
@@ -1080,7 +1083,8 @@ choyvp pynff JIUnzcfuverPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G65",
         "(ZIN) UNZ2038:= QFC 08:44:54 RAE 00:00:00 NEE 00:00:00 PYE 08:54:01",
         "PNYY:EHA ERCBEG",
-        "CYNPR:ZIN @ = QFC 08:44:54 RAE 00:00:00 NEE 00:00:00 PYE 08:54:01");
+        "PBQR:ZIN",
+        "CYNPR:= QFC 08:44:54 RAE 00:00:00 NEE 00:00:00 PYE 08:54:01");
 
     qbGrfg("G66",
         "(ZIN   >ZBGBE IRUVPYR NPPVQRAG) UNZ2038:614 TNFGBA EQ OYBBZREL SRYVFN ZBENYRF 3018761651 Znc: Tevqf:0,0 Pnq: 2014-0000008697",
@@ -1370,7 +1374,8 @@ choyvp pynff JIUnzcfuverPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G18",
         "(RPUBXR) UNZ2038:= QFC 10:15:16 RAE 00:00:00 NEE 00:00:00 PYE 10:21:29",
         "PNYY:EHA ERCBEG",
-        "CYNPR:RPUBXR @ = QFC 10:15:16 RAE 00:00:00 NEE 00:00:00 PYE 10:21:29");
+        "PBQR:RPUBXR",
+        "CYNPR:= QFC 10:15:16 RAE 00:00:00 NEE 00:00:00 PYE 10:21:29");
 
     qbGrfg("G19",
         "(RPUBXR>PUBXVAT IVPGVZ) UNZ2038:69 SVT QE OYBBZREL XRVGRE, FGRCUNVAR 3048562197 Pnq: 2014-0000009201",
@@ -1424,7 +1429,8 @@ choyvp pynff JIUnzcfuverPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G24",
         "(OF) UNZ2038:= QFC 20:32:17 RAE 00:00:00 NEE 00:00:00 PYE 20:41:48",
         "PNYY:EHA ERCBEG",
-        "CYNPR:OF @ = QFC 20:32:17 RAE 00:00:00 NEE 00:00:00 PYE 20:41:48");
+        "PBQR:OF",
+        "CYNPR:= QFC 20:32:17 RAE 00:00:00 NEE 00:00:00 PYE 20:41:48");
 
     qbGrfg("G25",
         "(OF    >ONFVP FREIVPR PBZCYNVAG) UNZ2038:48 ENIRA EVQTR EQ TNABR,NZL 3048220685 Pnq: 2014-0000009143",
@@ -1555,7 +1561,8 @@ choyvp pynff JIUnzcfuverPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G38",
         "(RCNVA) UNZ2038:= QFC 18:26:49 RAE 00:00:00 NEE 00:00:00 PYE 18:35:25",
         "PNYY:EHA ERCBEG",
-        "CYNPR:RCNVA @ = QFC 18:26:49 RAE 00:00:00 NEE 00:00:00 PYE 18:35:25");
+        "PBQR:RCNVA",
+        "CYNPR:= QFC 18:26:49 RAE 00:00:00 NEE 00:00:00 PYE 18:35:25");
 
     qbGrfg("G39",
         "(RCNVA >CNVA) UNZ2038:521 J ZNVA FG EBZARL QEARP,QNJA 3047034387 Pnq: 2014-0000008952",
@@ -1775,7 +1782,8 @@ choyvp pynff JIUnzcfuverPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G3",
         "(ZIN) UNZ2038:= QFC 16:58:42 RAE 00:00:00 NEE 00:00:00 PYE 17:03:01",
         "PNYY:EHA ERCBEG",
-        "CYNPR:ZIN @ = QFC 16:58:42 RAE 00:00:00 NEE 00:00:00 PYE 17:03:01");
+        "PBQR:ZIN",
+        "CYNPR:= QFC 16:58:42 RAE 00:00:00 NEE 00:00:00 PYE 17:03:01");
 
     qbGrfg("G4",
         "(ZIN   >ZBGBE IRUVPYR NPPVQRAG) UNZ2038:13788 ABEGUJRFGREA CVXR NHTHFGN TEBFF 5409311534 Pnq: 2014-0000009212",
@@ -4120,7 +4128,8 @@ choyvp pynff JIUnzcfuverPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G48",
         "(RFBO) UNZCFUVER911:= QFC 11:19:57 RAE 00:00:00 NEE 00:00:00 PYE 11:28:48",
         "PNYY:EHA ERCBEG",
-        "CYNPR:RFBO @ = QFC 11:19:57 RAE 00:00:00 NEE 00:00:00 PYE 11:28:48");
+        "PBQR:RFBO",
+        "CYNPR:= QFC 11:19:57 RAE 00:00:00 NEE 00:00:00 PYE 11:28:48");
 
     qbGrfg("G49",
         "(RFBO  >FUBEGARFF BS OERNGU) UNZCFUVER911:12092 WREFRL ZBHAGNVA EQ CBVAGF WBUA W PBEAJRYY RYRZRAGNEL 3044925520 Znc: Tevqf:0,0 Pnq: 2014-0000004109",

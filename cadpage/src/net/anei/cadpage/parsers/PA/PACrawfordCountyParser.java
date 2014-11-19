@@ -1,22 +1,23 @@
 package net.anei.cadpage.parsers.PA;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchBParser;
+import net.anei.cadpage.parsers.dispatch.DispatchB3Parser;
 
 
-public class PACrawfordCountyParser extends DispatchBParser {
-  private static final Pattern MARKER = Pattern.compile("^(?:CRAWFORD COUNTY +911 +)?OESCAD(?:@WINDSTREAM.NET)?:|CRAWFORD COUNTY +911(?: CRAWFORD_COUNTY_911)?:|CRAWFORD_COUNTY_911:");
+public class PACrawfordCountyParser extends DispatchB3Parser {
+  
+  private static final Pattern PREFIX_PTN = Pattern.compile("(?:CRAWFORD COUNTY +911 )?(?:CRAWFORD_COUNTY_911:|OESCAD:|OESCAD@WINDSTREAM.NET:)");
 
   public PACrawfordCountyParser() {
-    super(CITY_LIST, "CRAWFORD COUNTY", "PA");
+    super(PREFIX_PTN, CITY_LIST, "CRAWFORD COUNTY", "PA");
+    removeWords("CIRCLE", "TRL");
   }
   
   @Override
   public String getFilter() {
-    return "OESCAD@WINDSTREAM.NET";
+    return "OESCAD@WINDSTREAM.NET,CRAWFORD_COUNTY_911@oescad.com";
   }
   
   @Override
@@ -26,27 +27,21 @@ public class PACrawfordCountyParser extends DispatchBParser {
   private static final Pattern WASHINGTON_STREET_EXT = Pattern.compile("\\b(WASHINGTON ST(?:REET)?) EXT?\\b");
   
   @Override
-  protected boolean isPageMsg(String body) {
-    return true;
+  protected int getExtraParseAddressFlags() {
+    return FLAG_CROSS_FOLLOWS;
   }
-  
+
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     int pt = body.indexOf(" Reply STOP ");
     if (pt >= 0) body = body.substring(0,pt).trim();
-    
-    boolean good = subject.contains(">");
-    Matcher match = MARKER.matcher(body);
-    if (match.find()) {
-      good = true;
-      body = body.substring(match.end()).trim();
-    }
-    if (!good) return false;
-    body = subject + " " + body;
-    if (!super.parseMsg(body, data)) return false;
+    if (!super.parseMsg(subject, body, data)) return false;
     if (data.strCity.toUpperCase().endsWith(" BORO")) {
       data.strCity = data.strCity.substring(0,data.strCity.length()-5).trim();
-    }
+    } else if (data.strCity.endsWith(" CO")) {
+      data.strCity += "UNTY";
+      if (data.strCity.equals("VNG COUNTY")) data.strCity = "VENANGO COUNTY";
+    } else if (data.strCity.equals("LEBOUF TWP")) data.strCity = "LEBOEUF TWP";
     
     if (data.strCallId.length() == 0) data.expectMore = true;
     return true;
@@ -102,6 +97,7 @@ public class PACrawfordCountyParser extends DispatchBParser {
     "EAST FAIRFIELD TWP",
     "EAST FALLOWFIELD TWP",
     "EAST MEAD TWP",
+    "EAST MEAD TOWNSHIP",
     "FAIRFIELD TWP",
     "GREENWOOD TWP",
     "HAYFIELD TWP",
@@ -127,6 +123,31 @@ public class PACrawfordCountyParser extends DispatchBParser {
     "WEST FALLOWFIELD TWP",
     "WEST MEAD TWP",
     "WEST SHENANGO TWP",
-    "WOODCOCK TWP"
+    "WOODCOCK TWP",
+    
+    // Ashtabula County
+    "ASHTABULA CO",
+    
+    // Erie County
+    "ERIE CO",
+    "ERIE COUNTY",
+    "LEBOUF TWP",  // Misspelled
+    "LEBOEUF TWP",
+    "SUMMMIT TWP",
+    "SUMMIT TOWNSHIP",
+    
+    // Mercer County
+    "MERCER COUNTY",
+    "MERCER CO",
+    
+    "FRENCH CREEK",
+    "SANDY LAKE",
+    
+    "DEER CREEK TWP",
+    "FRENCH CREEK TWP",
+    
+    // Venango County
+    "VNG CO",
+    "PLUM TWP"
   };
 }
