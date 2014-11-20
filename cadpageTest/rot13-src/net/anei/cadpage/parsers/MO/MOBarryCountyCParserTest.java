@@ -6,7 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 
 /*
-Oneel Pbhagl, ZB
+Oneel Pbhagl, ZB (P)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cheql Sver Cebgrpgvba Qvfgevpg

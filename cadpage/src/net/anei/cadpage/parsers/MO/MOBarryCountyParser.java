@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class MOBarryCountyParser extends GroupBestParser {
 
   public MOBarryCountyParser() {
-    super(new MOBarryCountyAParser(), new MOBarryCountyBParser());
+    super(new MOBarryCountyAParser(), new MOBarryCountyBParser(), new MOBarryCountyCParser());
   }
   
   static final String[] CITY_LIST = new String[]{

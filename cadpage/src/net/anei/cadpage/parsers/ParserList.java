@@ -467,6 +467,7 @@ public class ParserList {
               ,"MDWorcesterCounty"              ,"Worcester County, MD"
           ),
           new ParserCategory("Massachusetts"
+              ,"MABarnstableCounty"             ,"Barnstable County, MA"
               ,"MANorfolkCounty"                ,"Norfolk County, MA"
               ,"MAYarmouth"                     ,"Yarmouth, MA"
           ),
