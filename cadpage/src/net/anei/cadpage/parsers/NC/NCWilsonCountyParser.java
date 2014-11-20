@@ -26,6 +26,9 @@ public class NCWilsonCountyParser extends DispatchOSSIParser {
     if (subject.equals("Sanoca")) {
       if (body.startsWith(";")) body = "CAD:" + body.substring(1).trim();
     }
+    else if (body.startsWith("CAD:") && subject.contains(";")) {
+      body = "CAD:" + subject + ' ' + body.substring(4); 
+    }
     return super.parseMsg(body,  data);
   }
   

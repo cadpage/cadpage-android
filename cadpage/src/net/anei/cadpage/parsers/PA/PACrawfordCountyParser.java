@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.PA;
 
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchB3Parser;
 
@@ -13,6 +14,50 @@ public class PACrawfordCountyParser extends DispatchB3Parser {
   public PACrawfordCountyParser() {
     super(PREFIX_PTN, CITY_LIST, "CRAWFORD COUNTY", "PA");
     removeWords("CIRCLE", "TRL");
+    
+    // Normally DispatchB3Parser subclasses do not need the call and multiple
+    // word street lists because the subject splits them out nicely.  But
+    // Crawford County sends text alerts in the default DispatchB2Parser fallback
+    // format, so we have to cover that case as well.
+    setupCallList(CALL_LIST);
+    setupMultiWordStreets(
+        "ATLANTIC LAKE",
+        "BLOOMING VALLEY",
+        "BOCKMAN HOLLOW",
+        "BROWN HILL",
+        "CAMBRIDGE SPRINGS",
+        "CAPTAIN WILLIAMS",
+        "CONNEAUT LAKE",
+        "COUNTY LINE",
+        "DRAKE HILL",
+        "FOREST GREEN",
+        "FRENCH CREEK",
+        "GOSPEL HILL",
+        "GRANGE CENTER",
+        "GRAVEL RUN",
+        "HATCH HILL",
+        "JOHN BROWN",
+        "LEBOEUF TRAIL",
+        "LEBOEUF TRL",
+        "LITTLE COOLEY",
+        "MAPLE HILL",
+        "MORNING VIEW",
+        "MYSTIC PARK",
+        "NICKEL PLATE",
+        "OWEN HILL",
+        "PARK LANE",
+        "POST OFFICE",
+        "POST RIDGE",
+        "ROGERS FERRY",
+        "SHADY ACRES",
+        "STAR ROUTE",
+        "STEEN HILL",
+        "SWIFT HILL",
+        "TOURS END",
+        "TROY CENTER",
+        "WHITE HILL",
+        "WHITE OAK"
+    );
   }
   
   @Override
@@ -46,6 +91,69 @@ public class PACrawfordCountyParser extends DispatchB3Parser {
     if (data.strCallId.length() == 0) data.expectMore = true;
     return true;
   }
+  
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "ALLERGIC REACTION",
+      "ALTERED LOC",
+      "ASSAULT",
+      "ATV ACCIDENT",
+      "BEHAVIORAL DISORDER",
+      "BLEEDING",
+      "BRUSH FIRE",
+      "CARBON MONOXIDE INVESTIGATION",
+      "CARDIAC ARREST",
+      "CARDIAC SYMPTOMS",
+      "CHECK WELFARE",
+      "CHEST PAINS",
+      "DEBRIS ON ROADWAY",
+      "DIABETIC",
+      "DIFFICULTY BREATHING",
+      "DISABLED VEHICLE",
+      "DIZZINESS",
+      "DOMESTIC",
+      "DRILL",
+      "EMS/QRS DEPT OUT OF SERVICE",
+      "EMS TRANSPORT",
+      "FALL VICTIM",
+      "FIRE ALARM",
+      "FIRE STANDBY",
+      "FLU LIKE SYMPTOMS",
+      "GENERAL ILLNESS",
+      "GI PROBLEM",
+      "HEAD INJURY",
+      "HIT & RUN",
+      "LIFT ASSIST",
+      "MATERNITY",
+      "MEDICAL ALARM",
+      "MISC FIRE",
+      "MISSING PERSON",
+      "MVA NO INJURY",
+      "MVA UNKNOWN INJURY OR ENTRAP",
+      "MVA WITH INJURY",
+      "MVA WITH INJURY & ENTRAPMENT",
+      "NATURAL GAS LEAK",
+      "ODOR INVESTIGATION",
+      "OVERDOSE",
+      "PAIN GENERAL",
+      "PEDESTRIAN STRUCK",
+      "POSSIBLE DOA",
+      "POST SURGICAL COMPLICATION",
+      "PUBLIC SERVICE DETAIL",
+      "SEIZURES",
+      "STROKE/CVA",
+      "STRUCTURE FIRE",
+      "STRUCTURE FIRE W ENTRAPMENT",
+      "SUSPICIOUS PERSON",
+      "SYNCOPE",
+      "TRAFFIC CONTROL",
+      "TRAMATIC INJURY",
+      "TREES/WIRES DOWN URGENT",
+      "UNCONSCIOUS SUBJECT",
+      "UNKNOWN",
+      "UNKNOWN TYPE FIRE",
+      "VEHICLE FIRE",
+      "WARRANT SERVICE"
+  );
   
   private static final String[] CITY_LIST = new String[]{
     

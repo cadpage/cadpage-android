@@ -49,7 +49,6 @@ public class DispatchB3Parser extends DispatchB2Parser {
   
   @Override
  protected boolean parseMsg(String subject, String body, Data data) {
-    if (subject.length() == 0) return false;
     String tmp;
     if ((tmp = checkPrefix(body)) != null) {
       body = tmp;
@@ -59,10 +58,11 @@ public class DispatchB3Parser extends DispatchB2Parser {
       return false;
     }
     
-    body = subject + " @ " + body;
+    boolean v3 = subject.length() > 0;
+    if (v3) body = subject + " @ " + body;
     if (!super.parseMsg(body, data)) return false;
     
-    if (data.strCall.equals("RUN REPORT")) {
+    if (v3 && data.strCall.equals("RUN REPORT")) {
       int pt = data.strPlace.indexOf(" @ ");
       if (pt >= 0) {
         data.strCode = data.strPlace.substring(0,pt).trim();
