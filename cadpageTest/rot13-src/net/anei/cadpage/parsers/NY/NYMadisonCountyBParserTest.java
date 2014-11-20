@@ -40,6 +40,10 @@ Pbagnpg: zngg terra <z.terra8111@tznvy.pbz>
 Fraqre: r911@obhapr.frpherfreire.arg
 FEF1=obhapr.frpherfreire.arg=NVQm=JG=znqvfbapbhagl.al.tbi= r911@obhapr.frpherfreire.arg (911 Qvfcngpu) ZBESQ:2014:11\aQvfcngpurq\aFgehpgher Sver\a5224 EBHGR 20 , RNGBA ( PYNEX EQ /
 
+Pbagnpg: Eba Pnearl <pnearle29@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(Znqvfba Sver) ZNQNZ:2014:353\aQvfcngpurq\aFvpx Crefba\a2408 ARJGBA EQ , ZNQVFBA ( YNXRIVRJ QE / OBAARL EQ)
+
 */
 
 choyvp pynff ALZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -283,6 +287,20 @@ choyvp pynff ALZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:RNGBA",
         "K:PYNEX EQ");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEbaPnearl() {
+
+    qbGrfg("G1",
+        "(Znqvfba Sver) ZNQNZ:2014:353\aQvfcngpurq\aFvpx Crefba\a2408 ARJGBA EQ , ZNQVFBA ( YNXRIVRJ QE / OBAARL EQ)",
+        "FEP:ZNQNZ",
+        "VQ:2014:353",
+        "PNYY:Fvpx Crefba",
+        "NQQE:2408 ARJGBA EQ",
+        "PVGL:ZNQVFBA",
+        "K:YNXRIVRJ QE/OBAARL EQ");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

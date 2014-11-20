@@ -17,6 +17,7 @@ SEZ:znaghnsver@tznvy.pbz\aZFT:ZNAGHN - SVER NYNEZ 7988 VASVEZNEL EBNQ
 SEZ:znaghnsver@tznvy.pbz\aZFT:znaghn 4403 fe 303 znyr qvss oernguvat
 SEZ:znaghnsver@tznvy.pbz\aZFT:ZNAGHN- Va nern bs Pbbyrl Eq naq FE 303 sbe na bcra ohea pbzcynvag
 SEZ:znaghnsver@tznvy.pbz\aZFT:ZNAGHN- 12977 Jrfgcbvag Qevir sbe n srznyr znl unir unq n frvmher
+SEZ:znaghnsver@tznvy.pbz\aZFT:znaghn 10368 jvaguebc znyr srryvat fvpx
 
  */
 
@@ -74,7 +75,12 @@ choyvp pynff BUCbegntrPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SEZ:znaghnsver@tznvy.pbz\aZFT:ZNAGHN- 12977 Jrfgcbvag Qevir sbe n srznyr znl unir unq n frvmher",
         "NQQE:12977 Jrfgcbvag Qevir",
         "PNYY:sbe n srznyr znl unir unq n frvmher");
-   
+
+    qbGrfg("G9",
+        "SEZ:znaghnsver@tznvy.pbz\aZFT:znaghn 10368 jvaguebc znyr srryvat fvpx",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:10368 jvaguebc znyr srryvat fvpx");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

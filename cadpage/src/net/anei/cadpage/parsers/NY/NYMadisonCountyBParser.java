@@ -21,7 +21,6 @@ public class NYMadisonCountyBParser extends DispatchA13Parser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.endsWith("911 Dispatch")  && !subject.equals("Greater Lenox")) return false;
     
     // Missed right parens cause a problem.  If we find any add a closing right paren.
     body = MISMATCH_PAREN_PTN.matcher(body).replaceAll("$1)");
