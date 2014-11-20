@@ -28,6 +28,18 @@ Frqare: zrffntvat@vnzerfcbaqvat.pbz
 Fhowrpg:QRSQ\aGlcr: ERFPHR CVN Pnyyre: IREVMBA Gvzr: 05:41:17
 Fhowrpg:QRSQ\aYbpngvba: 6930 AR 56GU FG QRYN,54: @PBHAGEL YVIVAT ZBOVYR UBZR CNEX - QRYN Glcr: VAIRFGVTNGVBA PB Pnyyre: FGHNEG,PVAQL
 
+Pbagnpg: Eba Fpuvccre <eyf3703@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(Tevzrf) Ybpngvba: 6405 AJ 98GU FG WBUA Glcr: ERFQSVER NFFVTA Pnyyre: ZREVGG,WHYVR Gvzr: 08:28:52
+
+Pbagnpg: jrf unecre <fpbhg2187@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:QRSQ\aZFT:  4355 AR 26GU FG QRYN Glcr: ZRQVPNY   Pnyyre:  Gvzr: 22:04:49
+
+Pbagnpg: Avpx Fgrjneg <avpx14fgrjneg@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(WB) Ybpngvba: 505 AR ZNVA FG TEVZ Glcr: VAIRFGVTNGVBA BQBE Pnyyre: FNEN Gvzr: 21:21:13
+
 Pbagnpg: fhccbeg@npgvir911.pbz
 [PNQ] Ybpngvba: 819 JERA QE NYGB Glcr: ZRQVPNY  Pnyyre: ZPTVAAVF,JVYYVNZ & QBEVF Gvzr: 15:48:02\a
 [PNQ] Ybpngvba: 2AQ NIR FJ/5GU FG FJ NYGB Glcr: ERFPHR CVN Pnyyre: ERORE,WRSS Gvzr: 16:05:56\a
@@ -75,18 +87,6 @@ Pbagnpg: fhccbeg@npgvir911.pbz
 [PNQ] Ybpngvba: 1 CENVEVR ZRNQBJF QE NYGB: @CENVEVR ZRNQBJF - NYGB Glcr: ZRQVPNY  Pnyyre: CENVEVR ZRNQBJF ENPRGENPX NA Gvzr: 21:15:43\a
 [PNQ] Glcr: ERFPHR CVN Pnyyre: IREVMBA Gvzr: 07:12:39\a
 [PNQ] Ybpngvba: 3178 J 148GU FG F ZVGP Glcr: ZRQVPNY  Pnyyre: WBUAFBA,CNZ Gvzr: 08:43:40\a
-
-Pbagnpg: Eba Fpuvccre <eyf3703@tznvy.pbz>
-Fraqre: zrffntvat@vnzerfcbaqvat.pbz
-(Tevzrf) Ybpngvba: 6405 AJ 98GU FG WBUA Glcr: ERFQSVER NFFVTA Pnyyre: ZREVGG,WHYVR Gvzr: 08:28:52
-
-Pbagnpg: jrf unecre <fpbhg2187@tznvy.pbz>
-Fraqre: zrffntvat@vnzerfcbaqvat.pbz
-SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:QRSQ\aZFT:  4355 AR 26GU FG QRYN Glcr: ZRQVPNY   Pnyyre:  Gvzr: 22:04:49
-
-Pbagnpg: Avpx Fgrjneg <avpx14fgrjneg@tznvy.pbz>
-Fraqre: zrffntvat@vnzerfcbaqvat.pbz
-(WB) Ybpngvba: 505 AR ZNVA FG TEVZ Glcr: VAIRFGVTNGVBA BQBE Pnyyre: FNEN Gvzr: 21:21:13
 
  */
 
@@ -204,6 +204,47 @@ choyvp pynff VNCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:VAIRFGVTNGVBA PB",
         "CYNPR:PBHAGEL YVIVAT ZBOVYR UBZR CNEX - QRYN / FGHNEG,PVAQL");
       
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEbabFpuvccre() {
+
+    qbGrfg("G1",
+        "(Tevzrf) Ybpngvba: 6405 AJ 98GU FG WBUA Glcr: ERFQSVER NFFVTA Pnyyre: ZREVGG,WHYVR Gvzr: 08:28:52",
+        "FEP:Tevzrf",
+        "NQQE:6405 AJ 98GU FG",
+        "PVGL:WBUAFGBA",
+        "PNYY:ERFQSVER NFFVTA",
+        "CYNPR:ZREVGG,WHYVR",
+        "GVZR:08:28:52");
+  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgJrfUnecre() {
+
+    qbGrfg("G1",
+        "SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:QRSQ\aZFT:  4355 AR 26GU FG QRYN Glcr: ZRQVPNY   Pnyyre:  Gvzr: 22:04:49",
+        "FEP:QRSQ",
+        "NQQE:4355 AR 26GU FG",
+        "PVGL:QRYNJNER GJC",
+        "PNYY:ZRQVPNY",
+        "GVZR:22:04:49");
+   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgAvpxFgrjneg() {
+
+    qbGrfg("G1",
+        "(WB) Ybpngvba: 505 AR ZNVA FG TEVZ Glcr: VAIRFGVTNGVBA BQBE Pnyyre: FNEN Gvzr: 21:21:13",
+        "FEP:WB",
+        "NQQE:505 AR ZNVA FG",
+        "PVGL:TEVZRF",
+        "PNYY:VAIRFGVTNGVBA BQBE",
+        "CYNPR:FNEN",
+        "GVZR:21:21:13");
+
   }
   
   @Grfg
@@ -612,48 +653,7 @@ choyvp pynff VNCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:08:43:40");
    
   }
-  
-  @Grfg
-  choyvp ibvq grfgEbabFpuvccre() {
-
-    qbGrfg("G1",
-        "(Tevzrf) Ybpngvba: 6405 AJ 98GU FG WBUA Glcr: ERFQSVER NFFVTA Pnyyre: ZREVGG,WHYVR Gvzr: 08:28:52",
-        "FEP:Tevzrf",
-        "NQQE:6405 AJ 98GU FG",
-        "PVGL:WBUAFGBA",
-        "PNYY:ERFQSVER NFFVTA",
-        "CYNPR:ZREVGG,WHYVR",
-        "GVZR:08:28:52");
-  
-  }
-  
-  @Grfg
-  choyvp ibvq grfgJrfUnecre() {
-
-    qbGrfg("G1",
-        "SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:QRSQ\aZFT:  4355 AR 26GU FG QRYN Glcr: ZRQVPNY   Pnyyre:  Gvzr: 22:04:49",
-        "FEP:QRSQ",
-        "NQQE:4355 AR 26GU FG",
-        "PVGL:QRYNJNER GJC",
-        "PNYY:ZRQVPNY",
-        "GVZR:22:04:49");
-   
-  }
-  
-  @Grfg
-  choyvp ibvq grfgAvpxFgrjneg() {
-
-    qbGrfg("G1",
-        "(WB) Ybpngvba: 505 AR ZNVA FG TEVZ Glcr: VAIRFGVTNGVBA BQBE Pnyyre: FNEN Gvzr: 21:21:13",
-        "FEP:WB",
-        "NQQE:505 AR ZNVA FG",
-        "PVGL:TEVZRF",
-        "PNYY:VAIRFGVTNGVBA BQBE",
-        "CYNPR:FNEN",
-        "GVZR:21:21:13");
-
-  }
-  
+ 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj VNCbyxPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
