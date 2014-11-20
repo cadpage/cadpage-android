@@ -1185,8 +1185,16 @@ Fraqre: <gevgrpupnq@zpuq-gk.bet>
         "FEP:SQ5",
         "HAVG:Y114");
 
-// ************************ CNEFR SNVYHER *****************************
-// (PNQ Zrffntr) 14-045477 30126772 95443354 Fnjqhfg Eq / V 45 F ZIN 11OU 252J SQ 4 Y111
+    qbGrfg("G36",
+        "(PNQ Zrffntr) 14-045477 30126772 95443354 Fnjqhfg Eq / V 45 F ZIN 11OU 252J SQ 4 Y111",
+        "VQ:14-045477",
+        "TCF:+30.126772,-95.443354",
+        "NQQE:Fnjqhfg Eq & V 45 F",
+        "PNYY:ZIN",
+        "OBK:11OU",
+        "ZNC:252J",
+        "FEP:SQ 4",
+        "HAVG:Y111");
 
     qbGrfg("G37",
         "(PNQ Zrffntr) 14-045464 30112777 95378517 28601 Oveaunz Jbbqf Qe Nyyretvp Ernpgvba 11OG 293P SQ3 Y114",
