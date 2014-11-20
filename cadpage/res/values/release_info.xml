@@ -1,20 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11142014</string>
-  <string name="release_version">v1.7.54</string>
+  <string name="release_date">11202014</string>
+  <string name="release_version">v1.7.55</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
-Location Parsing Fixes:\n
-Citrus County, FL\n
-Warren County, IA\n
+New option to force use of Google Maps for map requests.\n
 \n
-General fixes:\n
-Fixed problems with payment status recalculation\n
-Problem not closing sound file after alert\n
+New option to allow alert tone to override mute control but
+not volume control.\n
+\n
+New Locations:\n
+Barnstable County, MA\n
+Barry County, MO\n
+Montgomery County, VA\n
+\n
+Location Parsing Fixes:\n
+Knox County, IN\n
+Shelby County, IN\n
+Black Hawk County, IA\n
+Boone County, KY\n
+Madison County, NY\n
+Wilson County, NC\n
+Linn County, OR\n
+Crawford County, PA\n
+Pickens County, SC\n
+Smyth County, VA\n
+Hardy County, WV\n
   </string>
 </resources>
   
