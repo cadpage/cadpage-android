@@ -5,8 +5,6 @@
 
 This is still a bit of a mystery.  We have been getting a rash of these crash reports since the 1.7.50 release, so there probably is something I did that broke things, but so far we have not figured out just what it might be.
 
-Try installing the latest version of Cadpage from the Google Play Store.  There is a slim chance that a fix I made in that version will take care of this.
-
 Does this happen consistently?  In particular, does it happen when you use the "Test Notification" button in Notification Settings twice in succession?  If the answer is no, my confidence that the latest fix will address the problem goes up considerably.
 
 Does it still crash if you change the alert sound that is played?  Or if you change the "Play Cadpage Alert" setting?
