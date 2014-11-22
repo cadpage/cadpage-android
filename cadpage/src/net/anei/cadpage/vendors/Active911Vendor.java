@@ -329,6 +329,7 @@ class Active911Vendor extends Vendor {
       "US/MI/InghamCounty",               "MIInghamCounty",
       "US/MI/IoscoCounty",                "MIIoscoCounty",
       "US/MI/LenaweeCounty",              "MILenaweeCountyB",
+      "US/MI/LuceCounty",                 "MILuceCounty",
       "US/MI/MarquetteCounty",            "MIMarquetteCounty",
       "US/MI/MidlandCounty",              "MIMidlandCounty",
       "US/MD/MontgomeryCounty",           "MDMontgomeryCounty",
