@@ -8,6 +8,6 @@ import net.anei.cadpage.parsers.dispatch.DispatchGeoconxParser;
 public class KYHancockCountyParser extends DispatchGeoconxParser {
   
   public KYHancockCountyParser() {
-    super("HANCOCK COUNTY", "KY", GCX_FLG_EMPTY_SUBJECT_OK);
+    super("HANCOCK COUNTY", "KY");
   }
 }
