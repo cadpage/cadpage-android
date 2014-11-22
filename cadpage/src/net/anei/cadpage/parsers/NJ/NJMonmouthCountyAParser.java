@@ -16,7 +16,7 @@ public class NJMonmouthCountyAParser extends DispatchA11Parser {
   
   @Override
   public String getFilter() {
-    return "MCSOPageNotification@mcsonj.org,MCSOCallComplete@MCSONJ.ORG";
+    return "MCSOPageNotification@mcsonj.org,MCSOCallComplete@MCSONJ.ORG,info@rooseveltfire.org";
   }
   
   @Override
@@ -41,6 +41,7 @@ public class NJMonmouthCountyAParser extends DispatchA11Parser {
       "16", "07728",
       "26", "MANALAPAN", // "07726",
       "32", "MILLSTONE", // "08510",
+      "41", "ROOSEVELT",
       "84", "COLTS NECK"
   });
 }

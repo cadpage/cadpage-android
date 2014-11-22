@@ -426,6 +426,7 @@ class Active911Vendor extends Vendor {
       "US/NJ/LifeCommCad",                "NJMercerCountyA",
       "US/NJ/MercerCounty",               "NJMercerCountyB",
       "US/NJ/MorrisCounty",               "NJMorrisCounty",
+      "US/NJ/MonmouthCounty",             "NJMonmouthCountyA",
       "US/NJ/Linwood",                    "Cadpage2",
       "US/NJ/NPD",                        "NJSussexCountyA",
       "US/NJ/Nwbcd",                      "NJSussexCountyA",
