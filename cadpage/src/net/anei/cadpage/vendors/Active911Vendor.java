@@ -588,6 +588,7 @@ class Active911Vendor extends Vendor {
       "US/TX/CityofFlowerMound",          "TXFlowerMound",
       "US/TX/CityofKeller",               "TXKeller",
       "US/TX/CityofCrowley",              "TXCrowley",
+      "US/TX/CityofPortAransas",          "TXPortAransas",
       "US/TX/CityofWylie",                "TXCollinCountyA",
       "US/TX/DentonCounty",               "TXDentonCounty",
       "US/TX/FlightVector",               "TXFlightVector",
