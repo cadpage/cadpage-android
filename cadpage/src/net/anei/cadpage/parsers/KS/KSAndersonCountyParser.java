@@ -6,7 +6,7 @@ public class KSAndersonCountyParser extends DispatchA33Parser {
 
 
   public KSAndersonCountyParser() {
-    super("ANDERSON COUNTY", "KS", "X");
+    super("ANDERSON COUNTY", "KS", "Closed");
   }
   
   @Override
