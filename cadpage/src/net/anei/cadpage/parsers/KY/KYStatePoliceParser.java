@@ -36,7 +36,7 @@ public class KYStatePoliceParser extends DispatchB2Parser {
   
   @Override
   public String getFilter() {
-    return "KSPCAMPBELLSBURG@P05.gov,KSPCAMPBELLSBURG@P05.org,KSPDRYRIDGEE-911@P06.gov";
+    return "KSPCAMPBELLSBURG@P05.gov,KSPCAMPBELLSBURG@P05.org,KSPDRYRIDGEE-911@P06.gov,911-CENTER@P13.gov";
   }
   
   @Override
@@ -77,6 +77,7 @@ public class KYStatePoliceParser extends DispatchB2Parser {
       "CAD ERRORS/PROBLEMS",
       "CIVIL COMPLAINT",
       "CIVIL COMPLAINTS",
+      "CO2 ALARMS",
       "COMPLIANCE CHECKS",
       "CRIMINAL ABUSE/CHILD",
       "CUSTODY DISPUTE",
@@ -144,7 +145,8 @@ public class KYStatePoliceParser extends DispatchB2Parser {
       "WANTED PERSON",
       "WARRANT SERVICE",
       "WELFARE CHECK",
-      "WOODLAND FIRE INCIDENTS"
+      "WOODLAND FIRE INCIDENTS",
+      "WOODLAND/WILDFIRE INCIDENTS"
   );
 
   private static final String[] CITY_LIST = new String[]{

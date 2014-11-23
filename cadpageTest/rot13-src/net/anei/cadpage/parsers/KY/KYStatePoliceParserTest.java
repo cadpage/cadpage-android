@@ -1075,8 +1075,6 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Pnee Sbex ISQ
 Ybpngvba: Yvggpnee, XL, Havgrq Fgngrf
 Fraqre: <911-PRAGRE@C13.tbi>
-Fraqre: <Gvz@C13.tbi>
-Fraqre: "Bfobear, Gvzbgul     (XFC)" <Gvzbgul.Bfobear@xl.tbi>
 
 1046 >NPPVQRAG JVGU VAWHEVRF F UVTUJNL 160 OEVAXYRL GRFG Znc: Tevqf:, Pnq: 2014-0000029191
 JQSVER>JBBQYNAQ/JVYQSVER VAPVQRAGF UVTUJNL 582 CVARGBC OYNVE,JRAQL 6064975447 Znc: Tevqf:, Pnq: 2014-0000028942
@@ -10642,7 +10640,6 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "JQSVER>JBBQYNAQ/JVYQSVER VAPVQRAGF UVTUJNL 582 CVARGBC OYNVE,JRAQL 6064975447 Znc: Tevqf:, Pnq: 2014-0000028942",
-        // Harkcrpgrq pnyy pbqr:JBBQYNAQ/JVYQSVER VAPVQRAGF
         "PBQR:JQSVER",
         "PNYY:JBBQYNAQ/JVYQSVER VAPVQRAGF",
         "NQQE:UVTUJNL 582",
@@ -10744,7 +10741,6 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G14",
         "PB2NYZ>PB2 NYNEZF 200 UNYRF OENAPU EQ ERQ SBK YVAQBA, QROEN 6066424079 Znc: Tevqf:, Pnq: 2014-0000028302",
-        // Harkcrpgrq pnyy pbqr:PB2 NYNEZF
         "PBQR:PB2NYZ",
         "PNYY:PB2 NYNEZF",
         "NQQE:200 UNYRF OENAPU EQ",
