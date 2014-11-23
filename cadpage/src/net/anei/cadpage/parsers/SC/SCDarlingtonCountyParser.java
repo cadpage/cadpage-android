@@ -21,7 +21,13 @@ public class SCDarlingtonCountyParser extends DispatchSouthernParser {
     "HARTSVILLE",
     "LAMAR",
     "NORTH HARTSVILLE",
-    "SOCIETY HILL"
-
+    "SOCIETY HILL",
+    
+    // Florence County
+    "FLORENCE",
+    "TIMMONSVILLE",
+    
+    // Lee County
+    "BISHOPVILLE"
   };
 }
