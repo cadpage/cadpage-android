@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.KY;
 import net.anei.cadpage.parsers.dispatch.DispatchGeoconxParser;
 
 /**
- * Marshall County, NC
+ * Hancock County, KY
  */
 public class KYHancockCountyParser extends DispatchGeoconxParser {
   

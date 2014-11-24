@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA50Parser;
 
 /**
- * Mercer County, PA
+ * Newport News, VA
  */
 public class VANewportNewsParser extends DispatchA50Parser {
   

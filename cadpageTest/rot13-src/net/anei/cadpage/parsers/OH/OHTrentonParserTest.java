@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Geragba Pbhagl, BU
+Geragba, BU
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Geragba SQ
