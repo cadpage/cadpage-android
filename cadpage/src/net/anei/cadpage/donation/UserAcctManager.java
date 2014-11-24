@@ -63,9 +63,6 @@ public class UserAcctManager {
   }
   
   public void reloadStatus(Context context) {
-
-    // Place status recalc hold until this completes successfully
-    DonationManager.instance().holdRecalc(true, "ServerQuery");
     
     // Build query with all of the possible account and phone ID's
     Uri.Builder builder = Uri.parse(context.getString(R.string.donate_server_url)).buildUpon();
@@ -80,6 +77,7 @@ public class UserAcctManager {
 
       @Override
       public void processBody(String body) {
+        DonationCalculator calc = new DonationCalculator(2);
         for (String line : body.split("<br>")) {
           
           String flds[] = line.split(",");
@@ -101,9 +99,9 @@ public class UserAcctManager {
             purchaseDate = purchaseDate.replace("/", "");
           }
           String sponsor = (flds.length >= 4 ? flds[3].trim() : null);
-          DonationManager.processSubscription(stat, purchaseDate, sponsor);
+          calc.subscription(stat, purchaseDate, sponsor);
         }
-        DonationManager.instance().holdRecalc(false, "ServerQuery");
+        calc.save();
       }
     });
   }

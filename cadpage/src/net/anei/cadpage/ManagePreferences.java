@@ -29,7 +29,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 36;
+  private static final int PREFERENCE_VERSION = 37;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -60,6 +60,26 @@ public class ManagePreferences {
     if (oldVersion != PREFERENCE_VERSION) {
       PreferenceManager.setDefaultValues(context, R.xml.preferences, true);
       prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
+    }
+    
+    // If old version was < 37, we need to clone two copies of the old paid year
+    // and purchase date settings and one  sponsor
+    if (oldVersion < 37) {
+      if (freeRider()) {
+        setPaidYear(2, 9999);
+      } else {
+        int paidYear = paidYear();
+        setPaidYear(1, paidYear);
+        setPaidYear(2, paidYear);
+      }
+      
+      String purchaseDate = purchaseDateString();
+      setPurchaseDateString(1, purchaseDate);
+      setPurchaseDateString(2, purchaseDate);
+      
+      String sponsor = sponsor();
+      if (freeSub()) sponsor = "FREE";
+      setSponsor(2, sponsor);
     }
     
     // If old version was < 35 the repeat enable key is gone and has to turn
@@ -614,34 +634,33 @@ public class ManagePreferences {
   }
   
   public static int paidYear() {
-    return prefs.getInt(R.string.pref_paid_year_key, 0);
+    return paidYear(0);
+  }
+  
+  public static int paidYear(int type) {
+    return prefs.getInt(PAID_YEAR_RES_IDS[type], 0);
   }
   
   public static void setPaidYear(int year) {
-    prefs.putInt(R.string.pref_paid_year_key, year);
+    setPaidYear(0, year);
   }
   
-  public static void setPaidYear(int year, boolean set) {
-    int curYear = paidYear();
-    if (set) {
-      if (year > curYear) {
-        prefs.putInt(R.string.pref_prev_year_key, curYear);
-        prefs.putInt(R.string.pref_paid_year_key, year);
-        prefs.putString(R.string.pref_prev_purchase_date_key, purchaseDateString());
-      }
-    } else {
-      if (year == curYear) {
-        int prevYear = prefs.getInt(R.string.pref_prev_year_key, 0);
-        prefs.putInt(R.string.pref_paid_year_key, prevYear);
-        prefs.putInt(R.string.pref_prev_year_key, 0);
-        setPurchaseDateString(prefs.getString(R.string.pref_prev_purchase_date_key, ""));
-        prefs.putString(R.string.pref_prev_purchase_date_key, "");
-      }
-    }
+  public static void setPaidYear(int type, int year) {
+    prefs.putInt(PAID_YEAR_RES_IDS[type], year);
   }
+  
+  private static final int[] PAID_YEAR_RES_IDS = new int[]{
+    R.string.pref_paid_year_key,
+    R.string.pref_paid_year_1_key,
+    R.string.pref_paid_year_2_key
+  };
   
   public static Date purchaseDate() {
-    String dateStr = prefs.getString(R.string.pref_purchase_date_key, null);
+    return purchaseDate(0);
+  }
+  
+  public static Date purchaseDate(int type) {
+    String dateStr = prefs.getString(PURCHASE_DATE_RES_IDS[type], null);
     if (dateStr == null) return null;
     try {
       return DATE_FORMAT.parse(dateStr);
@@ -651,12 +670,20 @@ public class ManagePreferences {
   }
   
   public static void setPurchaseDate(Date date) {
+    setPurchaseDate(0, date);
+  }
+  
+  public static void setPurchaseDate(int type, Date date) {
     String dateStr = DATE_FORMAT.format(date);
-    prefs.putString(R.string.pref_purchase_date_key, dateStr);
+    prefs.putString(PURCHASE_DATE_RES_IDS[type], dateStr);
   }
   
   public static String purchaseDateString() {
-    String dateStr = prefs.getString(R.string.pref_purchase_date_key, null);
+    return purchaseDateString(0);
+  }
+  
+  public static String purchaseDateString(int type) {
+    String dateStr = prefs.getString(PURCHASE_DATE_RES_IDS[type], null);
     if (dateStr == null) dateStr = currentDateString();
     return dateStr;
   }
@@ -665,19 +692,43 @@ public class ManagePreferences {
     return DATE_FORMAT.format(new Date());
   }
   
-  public static void setPurchaseDateString(String  sDate) {
-    prefs.putString(R.string.pref_purchase_date_key, sDate);
+  public static void setPurchaseDateString(String sDate) {
+    setPurchaseDateString(0, sDate);
   }
   
+  public static void setPurchaseDateString(int type, String  sDate) {
+    prefs.putString(PURCHASE_DATE_RES_IDS[type], sDate);
+  }
+  
+  private static final int[] PURCHASE_DATE_RES_IDS = new int[]{
+    R.string.pref_purchase_date_key,
+    R.string.pref_purchase_date_1_key,
+    R.string.pref_purchase_date_2_key
+  };
+  
   public static String sponsor() {
-    return prefs.getString(R.string.pref_sponsor_key, null);
+    return sponsor(0);
+  }
+  
+  public static String sponsor(int type) {
+    return prefs.getString(SPONSOR_RES_IDS[type], null);
   }
   
   public static void setSponsor(String sponsor) {
-    String oldSponsor = sponsor();
-    if (oldSponsor == null && sponsor == null) return;
-    prefs.putString(R.string.pref_sponsor_key, sponsor);
+    setSponsor(0, sponsor);
   }
+  
+  public static void setSponsor(int type, String sponsor) {
+    String oldSponsor = sponsor(type);
+    if (oldSponsor == null && sponsor == null) return;
+    prefs.putString(SPONSOR_RES_IDS[type], sponsor);
+  }
+  
+  private static final int[] SPONSOR_RES_IDS = new int[]{
+    R.string.pref_sponsor_key,
+    R.string.pref_sponsor_1_key,
+    R.string.pref_sponsor_2_key
+  };
   
   public static boolean freeRider() {
     return prefs.getBoolean(R.string.pref_free_rider_key);
@@ -1088,6 +1139,8 @@ public class ManagePreferences {
         R.string.pref_purchase_date_key,
         R.string.pref_free_rider_key,
         R.string.pref_sponsor_key,
+        R.string.pref_sponsor_1_key,
+        R.string.pref_sponsor_2_key,
         R.string.pref_free_sub_key,
         R.string.pref_auth_location_key,
         R.string.pref_auth_extra_date_key,
@@ -1097,8 +1150,10 @@ public class ManagePreferences {
         R.string.pref_auth_run_days_key,
         R.string.pref_auth_last_check_time_key,
         R.string.pref_auth_recheck_status_cnt_key,
-        R.string.pref_prev_year_key,
-        R.string.pref_prev_purchase_date_key,
+        R.string.pref_paid_year_1_key,
+        R.string.pref_purchase_date_1_key,
+        R.string.pref_paid_year_2_key,
+        R.string.pref_purchase_date_2_key,
         
         R.string.pref_registration_id_key,
         R.string.pref_prev_registration_id_key,

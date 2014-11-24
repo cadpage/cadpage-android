@@ -33,6 +33,8 @@ public class CallHistoryActivity extends ListActivity {
   
   // keep track of which message text view has opened a context menu
   private HistoryMsgTextView msgTextView = null;
+  
+  private static CallHistoryActivity mainActivity = null;
 
   /* (non-Javadoc)
    * @see android.app.Activity#onCreate(android.os.Bundle)
@@ -41,6 +43,8 @@ public class CallHistoryActivity extends ListActivity {
   protected void onCreate(Bundle savedInstanceState) {
     if (Log.DEBUG) Log.v("CallHistoryActivity: onCreate()");
     super.onCreate(savedInstanceState);
+    
+    mainActivity = this;
     
     // If initialization failure in progress, shut down without doing anything
     if (TopExceptionHandler.isInitFailure()) {
@@ -301,6 +305,12 @@ public class CallHistoryActivity extends ListActivity {
 //    this.setRequestedOrientation(orientation);
   }
   
+  @Override
+  protected void onDestroy() {
+    mainActivity = null;
+    super.onDestroy();
+  }
+
   /**
    * Launch activity
    */
@@ -346,5 +356,12 @@ public class CallHistoryActivity extends ListActivity {
     Intent intent = new Intent(context, CallHistoryActivity.class);
     intent.putExtra(EXTRA_SHUTDOWN, true);
     context.startActivity(intent);
+  }
+  
+  /**
+   * @returns main call history activity
+   */
+  public static CallHistoryActivity getMainActivity() {
+    return mainActivity;
   }
 }

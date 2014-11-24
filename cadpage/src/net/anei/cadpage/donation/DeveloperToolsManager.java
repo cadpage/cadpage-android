@@ -10,6 +10,7 @@ import java.util.GregorianCalendar;
 
 
 
+
 //import net.anei.cadpage.ContentQuery;
 import net.anei.cadpage.BugReportGenerator;
 import net.anei.cadpage.C2DMService;
@@ -19,6 +20,7 @@ import net.anei.cadpage.R;
 import net.anei.cadpage.SmsMmsMessage;
 import net.anei.cadpage.SmsMsgLogBuffer;
 import net.anei.cadpage.SmsReceiver;
+import net.anei.cadpage.billing.BillingManager;
 import android.content.Context;
 import android.content.Intent;
 import android.preference.ListPreference;
@@ -63,7 +65,6 @@ public class DeveloperToolsManager {
     "C2DM: Register",
     "C2DM: Unregister",
     "C2DM: Report",
-    "Stat: Reset",
     "Stat: Lifetime",
     "Stat: Donate paid",
     "Stat: Donate warn",
@@ -80,12 +81,13 @@ public class DeveloperToolsManager {
     "Build Test Message",
     "Status test",
     "Generate Bug Report",
-    "Active911 Account Req"
+    "Active911 Account Req",
+    "Consume all purchases"
     
   };
   
   private static final String[] valueList = new String[]{
-    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"
+    "31", "32", "33", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18"
   };
   
   private class DeveloperListPreference extends ListPreference {
@@ -108,10 +110,6 @@ public class DeveloperToolsManager {
       
       int val = Integer.parseInt(getValue().toString());
       switch (val) {
-      
-      case 0:     // Stat: Reset
-        DonationManager.instance().reloadStatus();
-        break;
       
       case 1:     // Stat: Donate free
         ManagePreferences.setAuthExemptDate(null);
@@ -238,6 +236,10 @@ public class DeveloperToolsManager {
         
       case 17:
         context.sendBroadcast(new Intent("net.anei.cadpage.REQ_ACCOUNT_INFO.Active911"));
+        break;
+        
+      case 18:    // Consume all products
+        BillingManager.instance().clearPurchaseInventory();
         break;
         
       case 31:    // C2DM Register

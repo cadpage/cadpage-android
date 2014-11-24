@@ -4,22 +4,23 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import net.anei.cadpage.Log;
 import net.anei.cadpage.ManagePreferences;
-import net.anei.cadpage.billing.BillingService.RequestPurchase;
-import net.anei.cadpage.billing.BillingService.RestoreTransactions;
-import net.anei.cadpage.billing.Consts.PurchaseState;
-import net.anei.cadpage.billing.Consts.ResponseCode;
-import net.anei.cadpage.donation.DonationManager;
+import net.anei.cadpage.donation.DonationCalculator;
+import net.anei.cadpage.billing.IabHelper;
+import net.anei.cadpage.billing.IabResult;
 
 
 public class BillingManager {
-  
-  private BillingService mService = null;
+
+  // The helper object
+  private IabHelper mHelper;
   
   private boolean supported = false;
+  
+  private boolean inProgress = false;
   
   private List<Runnable> eventQueue = null;
   
@@ -30,10 +31,6 @@ public class BillingManager {
     return supported;
   }
   
-  private BillingManager() {
-    ResponseHandler.register(new CadpageObserver());
-  }
-  
   /**
    * Initialize billing manager and associate it with an activity
    * @param context current context
@@ -41,17 +38,61 @@ public class BillingManager {
    * is not currently active
    */
   public void initialize(Context context) {
-    mService = new BillingService();
-    mService.setContext(context);
-    mService.checkBillingSupported();
+    String base64EncodedPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqFWE1ScDZE5AG6Hjolnned1BEfz0kWDw6R1Jx23LZnxBqysK7e7fp+rq+LEOso9DHfZd0xMF2DI895Y/DrWIFMRfVBwpNdDd9NJv5JBr92oVVs1VmmAOgRZlBR5puZL94LWYz6YsonmmvU7HOIlk8GKiv+zpcSIvVlyl9/J572YOw5Eyah/2aWU5R7YmDO6oar8+/n/0k0zPSF79Qjlo5u/Ph+T7izfVzzBecfn8mxUoeS6Ax6V/WXR2L/YXxiEXbvEDBPFFPHAzb+oG+LOFtu5KLOfXX8HZlPCs0YjhApXyIIn+UewBMVqUMy5yuPSTp6SpLb8Pglf/q0JDZgYD6wIDAQAB";
+
+    // Create the helper, passing it our context and the public key to verify signatures with
+    mHelper = new IabHelper(context, base64EncodedPublicKey);
+
+    // enable debug logging (for a production application, you should set this to false).
+    mHelper.enableDebugLogging(true);
+
+    // Start setup. This is asynchronous and the specified listener
+    // will be called once setup completes.
+    if (Log.DEBUG) Log.v("Starting billing setup.");
+    supported = false;
+    inProgress = true;
+    mHelper.startSetup(new IabHelper.OnIabSetupFinishedListener() {
+      public void onIabSetupFinished(IabResult result) {
+        inProgress = false;
+        if (Log.DEBUG) Log.v("Billing setup finished.");
+
+        if (!result.isSuccess()) {
+          Log.e("Problem setting up in-app billing: " + result);
+          return;
+        }
+        
+        if (mHelper == null) return;
+
+        // OK, everything s up
+        supported = true;
+
+        // Run any events that have been queued waiting for this to happen
+        if (eventQueue != null) {
+          for (Runnable event : eventQueue) event.run();
+        }
+        eventQueue = null;
+      }
+    });
+    
+    // Queue event to restore our purchase status
+    runWhenSupported(new Runnable(){
+
+      @Override
+      public void run() {
+        restoreTransactions();
+      }});
   }
   
   /**
    * Shutdown billing manager
    */
   public void destroy() {
-    if (mService != null) mService.unbind();
-    mService = null;
+    supported = false;
+    if (mHelper != null) {
+      if (Log.DEBUG) Log.v("Destroying Billing helper.");
+      mHelper.dispose();
+      mHelper = null;
+    }
   }
   
   /**
@@ -68,7 +109,7 @@ public class BillingManager {
     else {
       if (eventQueue == null) eventQueue = new ArrayList<Runnable>();
       eventQueue.add(event);
-      return mService.checkBillingSupported();
+      return true;
     }
   }
   
@@ -77,10 +118,29 @@ public class BillingManager {
    * @return true if successful
    */
   public boolean restoreTransactions() {
-    DonationManager.instance().holdRecalc(true, "RestoreTransactions");
     if (!supported) return false;
+    if (inProgress) return false;
     Log.v("Restore Billing Transactions");
-    mService.restoreTransactions();
+    inProgress = true;
+    mHelper.queryInventoryAsync(new IabHelper.QueryInventoryFinishedListener(){
+      @Override
+      public void onQueryInventoryFinished(IabResult result, Inventory inventory) {
+
+        inProgress = false;
+        if (mHelper == null) return;
+
+        if (result.isFailure()) {
+            Log.e("Failed to query inventory: " + result);
+            return;
+        }
+
+        DonationCalculator calc = new DonationCalculator(1);
+        for (Purchase purchase : inventory.getAllPurchases()) {
+          registerPurchaseState(purchase, calc);
+        }
+        calc.save();
+      }
+    });
     return true;
   }
 
@@ -107,8 +167,13 @@ public class BillingManager {
    * Request purchase of current year product
    * @param activity
    */
-  public void startPurchase(Activity activity) {
-    if (mService == null) return;
+  public void startPurchase(BillingActivity activity) {
+    if (mHelper == null) return;
+    if (inProgress) return;
+    
+    if (activity == null) return;
+    if (activity.isFinishing()) return;
+    
     int curYear = ManagePreferences.paidYear();
     String year = null;
     String purchaseDate = null;
@@ -135,47 +200,89 @@ public class BillingManager {
     
     String item = "cadpage_" + year;
     String payload = purchaseDate;
-    mService.requestPurchase(activity, item, payload); 
+    
+    Log.v("Purchase request for " + item + " payload:" + payload);
+
+    inProgress = true;
+    mHelper.launchPurchaseFlow(activity, item, 10001,
+      new IabHelper.OnIabPurchaseFinishedListener(){
+        @Override
+        public void onIabPurchaseFinished(IabResult result, Purchase purchase) {
+          inProgress = false;
+          if (mHelper == null) return;
+          if (result.isFailure()) {
+            Log.e("Purchase failure " + result);
+            return;
+          }
+          DonationCalculator calc = new DonationCalculator(1);
+          calc.load();
+          registerPurchaseState(purchase, calc);
+          calc.save();
+        }
+      }, payload);
+  }
+
+  private void registerPurchaseState(Purchase purchase, DonationCalculator calc) {
+    int purchaseState = purchase.getPurchaseState();
+    String itemId = purchase.getSku();
+    String payload = purchase.getDeveloperPayload();
+    if (Log.DEBUG) Log.v("PurchaseState:" + purchaseState + "  Item:" + itemId + "  Payload:" + payload);
+    if (itemId.startsWith("cadpage_")) {
+      String year = itemId.substring(8);
+      if (purchaseState == IabHelper.BILLING_RESPONSE_RESULT_OK) {
+        calc.subscription(year, payload, null);
+      }
+    }
+  }
+
+  public boolean handleActivityResult(int requestCode, int resultCode, Intent data) {
+    
+    Log.v("Billing request result: req:" + requestCode + " result:" + resultCode);
+    
+    if (mHelper == null) return false;
+    if (!isSupported()) return false;
+
+    // Pass on the activity result to the helper for handling
+    return mHelper.handleActivityResult(requestCode, resultCode, data);
   }
   
+  /**
+   * Clear out the complete inventory of purchasable items.  This is only 
+   * used to assist developer testing
+   */
+  public void clearPurchaseInventory() {
+    
+    if (mHelper == null) return;
+    if (inProgress) return;
+    
+    Log.v("Clear purchase inventory");
+    mHelper.queryInventoryAsync(new IabHelper.QueryInventoryFinishedListener(){
+      @Override
+      public void onQueryInventoryFinished(IabResult result, Inventory inventory) {
+        inProgress = false;
+        if (mHelper == null) return;
 
-  private class CadpageObserver extends PurchaseObserver {
+        if (result.isFailure()) {
+            Log.e("Failed to query inventory: " + result);
+            return;
+        }
 
-    @Override
-    public void onBillingSupported(boolean supported) {
-      BillingManager.this.supported = supported;
-      if (mService != null && supported && eventQueue != null) {
-        for (Runnable event : eventQueue) event.run();
-      }
-      eventQueue = null;
-    }
-
-    @Override
-    public void onPurchaseStateChange(PurchaseState purchaseState,
-                                       String itemId, long purchaseTime, 
-                                       String payload) {
-      Log.v("PurchaseState:" + purchaseState + "  Item:" + itemId + "  Payload:" + payload);
-      if (itemId.startsWith("cadpage_")) {
-        String year = itemId.substring(8);
-        if (purchaseState == PurchaseState.PURCHASED) {
-          DonationManager.processSubscription(year, payload, null);
-        } else { 
-          ManagePreferences.setPaidYear(Integer.parseInt(year), false);
+        for (Purchase purchase : inventory.getAllPurchases()) {
+          if (purchase.getSku().startsWith("cadpage_")) {
+            if (purchase.getItemType().equals(IabHelper.ITEM_TYPE_INAPP)) {
+              inProgress = true;
+              mHelper.consumeAsync(purchase, new IabHelper.OnConsumeFinishedListener(){
+                @Override
+                public void onConsumeFinished(Purchase purchase, IabResult result) {
+                  inProgress = false;
+                  Log.v("Consuming " + purchase.getSku() + " result:" + result);
+                }
+              });
+            }
+          }
         }
       }
-    }
-
-    @Override
-    public void onRequestPurchaseResponse(RequestPurchase request, ResponseCode responseCode) {
-      Log.v("Request Purchase Complete: " + responseCode);
-    }
-
-    @Override
-    public void onRestoreTransactionsResponse(RestoreTransactions request,
-                                               ResponseCode responseCode) {
-      Log.v("Restore Transactions Complete: " + responseCode);
-      if (responseCode == ResponseCode.RESULT_OK) DonationManager.instance().holdRecalc(false, "RestoreTransactions");
-    }
+    });
   }
   
   private static BillingManager instance = new BillingManager();
@@ -183,5 +290,4 @@ public class BillingManager {
   public static BillingManager instance() {
     return instance;
   }
-
 }

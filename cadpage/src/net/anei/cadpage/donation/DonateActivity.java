@@ -1,15 +1,15 @@
 package net.anei.cadpage.donation;
 
-import net.anei.cadpage.Safe40Activity;
 import net.anei.cadpage.SmsMessageQueue;
 import net.anei.cadpage.SmsMmsMessage;
+import net.anei.cadpage.billing.BillingActivity;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class DonateActivity extends Safe40Activity {
+public class DonateActivity extends BillingActivity {
   
   private static final String EXTRA_SCREEN_NAME = "net.anei.cadpage.DonateActivty.SCREEN_NAME";
   private static final String EXTRA_MSG_ID =      "net.anei.cadpage.DonateActivity.MSG_ID";

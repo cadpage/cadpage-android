@@ -104,9 +104,7 @@ class CadpageVendor extends Vendor {
   @Override
   boolean registerC2DMId(final Context context, String registrationId, boolean userReq) {
     if (!super.registerC2DMId(context, registrationId, userReq)) return false;
-    if (!DonationManager.instance().isStatusUnstable()) {
-      updateCadpageStatus(context);
-    }
+    updateCadpageStatus(context);
     return true;
   }
  
@@ -118,9 +116,6 @@ class CadpageVendor extends Vendor {
    */
   @Override
   boolean checkVendorStatus(Context context) {
-    
-    // If the current subscription status is untrustworthy, just let it go
-    if (DonationManager.instance().isStatusUnstable()) return true;
     
     // Ditto if we are just starting an uninitialized app
     if (! ManagePreferences.initialized()) return true;
