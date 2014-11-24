@@ -8,6 +8,10 @@ vzcbeg bet.whavg.Grfg;
 /*
  Orexf Pbhagl, CN
  
+Pbagnpg: Qhnar Tbbq <qhnart123@lnubb.pbz>
+Fraqre: _OYQV@orexf.nyregcn.bet
+Havg:N5853 Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 2210 PNZC FJNGNEN EQ ; SYLVAT W GENIRY PRAGRE; SBEG ZBGRY QE / ENZC P1 ; ORGURY
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jrfgrea Orexf Nzohynapr
 Ybpngvba: Jrfg Ynja, CN, Havgrq Fgngrf
@@ -4209,6 +4213,20 @@ choyvp pynff CNOrexfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp CNOrexfPbhaglCnefreGrfg() {
     frgCnefre(arj CNOrexfPbhaglCnefre(), "OREXF PBHAGL", "CN");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQhnarTbbq() {
+
+    qbGrfg("G1",
+        "Havg:N5853 Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 2210 PNZC FJNGNEN EQ ; SYLVAT W GENIRY PRAGRE; SBEG ZBGRY QE / ENZC P1 ; ORGURY",
+        "HAVG:N5853",
+        "PNYY:NYF ZRQVPNY",
+        "NQQE:2210 PNZC FJNGNEN EQ",
+        "PVGL:ORGURY",
+        "CYNPR:SYLVAT W GENIRY PRAGRE",
+        "K:SBEG ZBGRY QE / ENZC P1");
+
   }
 
   @Grfg
