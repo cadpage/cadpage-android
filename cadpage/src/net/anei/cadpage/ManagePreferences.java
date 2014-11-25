@@ -684,7 +684,6 @@ public class ManagePreferences {
   
   public static String purchaseDateString(int type) {
     String dateStr = prefs.getString(PURCHASE_DATE_RES_IDS[type], null);
-    if (dateStr == null) dateStr = currentDateString();
     return dateStr;
   }
   
