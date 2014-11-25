@@ -1,7 +1,9 @@
 package net.anei.cadpage.parsers.IA;
 
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Properties;
-import java.util.regex.Pattern;
+import java.util.Set;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -10,8 +12,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  * Polk County, IA (Grimes Fire & Rescue)
  */
 public class IAPolkCountyParser extends FieldProgramParser {
-  
-  private static final Pattern COUNTY_PTN = Pattern.compile("BOONE|DALLAS|JASPER|MADISON|MARION|STORY|WARREN");
   
   public IAPolkCountyParser() {
     super(CITY_CODES, "POLK COUNTY", "IA",
@@ -30,8 +30,8 @@ public class IAPolkCountyParser extends FieldProgramParser {
     if (!body.startsWith("Location:")) body = "Location: " + body; 
     if (!super.parseMsg(body, data)) return false;
     if (data.strName.endsWith(" CO")) data.strName += "UNTY";
-    if (COUNTY_PTN.matcher(data.strName).matches()) {
-      if (!data.strName.contains(" ")) data.strName += " COUNTY"; 
+    else if (COUNTY_SET.contains(data.strName)) data.strName += " COUNTY";
+    if (data.strName.endsWith(" COUNTY")) {
       if (data.strCity.length() == 0) {
         data.strCity = data.strName;
       } else {
@@ -141,4 +141,14 @@ public class IAPolkCountyParser extends FieldProgramParser {
       "WDSM", "WEST DES MOINES",
       "WIND", "WINDSOR HEIGHTS"
   });
+  
+  private static final Set<String> COUNTY_SET = new HashSet<String>(Arrays.asList(
+      "BOONE", 
+      "DALLAS", 
+      "JASPER", 
+      "MADISON", 
+      "MARION", 
+      "STORY", 
+      "WARREN"
+  ));
 }
