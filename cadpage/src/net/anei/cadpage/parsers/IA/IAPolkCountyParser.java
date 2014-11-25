@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.IA;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -10,9 +11,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class IAPolkCountyParser extends FieldProgramParser {
   
+  private static final Pattern COUNTY_PTN = Pattern.compile("BOONE|DALLAS|JASPER|MADISON|MARION|STORY|WARREN");
+  
   public IAPolkCountyParser() {
     super(CITY_CODES, "POLK COUNTY", "IA",
-           "Location:ADDR/S! Type:CALL! Caller:PLACE? Time:TIME%");
+           "Location:ADDR/S! Type:CALL! Caller:NAME? Time:TIME%");
   }
   
   @Override
@@ -25,7 +28,23 @@ public class IAPolkCountyParser extends FieldProgramParser {
     
     if (subject.length() > 0) data.strSource = subject;
     if (!body.startsWith("Location:")) body = "Location: " + body; 
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strName.endsWith(" CO")) data.strName += "UNTY";
+    if (COUNTY_PTN.matcher(data.strName).matches()) {
+      if (!data.strName.contains(" ")) data.strName += " COUNTY"; 
+      if (data.strCity.length() == 0) {
+        data.strCity = data.strName;
+      } else {
+        data.strPlace = append(data.strPlace, " - ", data.strName);
+      }
+     data.strName = "";
+    }
+    
+    if (data.strPlace.length() == 0 && !data.strName.contains(",")) {
+      data.strPlace = data.strName;
+      data.strName = "";
+    }
+    return true;
   }
   
   @Override
