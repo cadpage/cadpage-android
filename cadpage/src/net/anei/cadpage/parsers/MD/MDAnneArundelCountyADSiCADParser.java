@@ -21,6 +21,6 @@ public class MDAnneArundelCountyADSiCADParser extends DispatchA49Parser {
   
   @Override
   public String getFilter() {
-    return "cad@e9.com";
+    return "cad@e9.com,alerts@e9.com";
   }
 }

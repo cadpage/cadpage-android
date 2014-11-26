@@ -11,19 +11,22 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MDQueenAnnesCountyParser extends SmartAddressParser {
   
+  private static final Pattern PREFIX_PTN = Pattern.compile("^(?:qac911|QA911com):");
   private static final Pattern MARKER = Pattern.compile("^(?:(?:qac911|QA911com):\\*)?[DG] ");
   private static final Pattern UNIT_PTN = Pattern.compile(" +([A-Z]{1,2}\\d{2})$");
-  private static final Pattern BOX_PTN = Pattern.compile("(\\d{1,2}-\\d{1,2}) (.*?)((?: +(?:COMMERCIAL|MEDICAL|STILL|WATER RESCUE|RESCUE))?(?: +LOCAL)?)(?: +BOX)?");
+  private static final Pattern BOX_PTN = Pattern.compile("(\\d{1,2}-\\d{1,2}) (.*?)((?: +(?:COMMERCIAL|MEDICAL|STILL|WATER RESCUE|RESCUE))?(?: +LOCAL)?)(?: +BOX)?(?: (Q\\d{2}))?");
   private static final Pattern PAREN_PTN = Pattern.compile(" *\\((.*?)\\) *");
   private static final Pattern MA_CALL_PTN = Pattern.compile("([A-Z]{4}) +MUTUAL AID\\b.*");
   
   public MDQueenAnnesCountyParser() {
     super("QUEEN ANNES COUNTY", "MD");
-    setFieldList("BOX CALL CITY ADDR APT PLACE INFO UNIT");
+    setFieldList("BOX CALL CITY ADDR APT PLACE INFO CH UNIT");
     setupCallList(CALL_LIST);
+    addNauticalTerms();
     setupMultiWordStreets(
         "BAY BRIDGE",
         "BENNETT POINT",
+        "CASTLE HARBOR",
         "CASTLE MARINA",
         "CHANNEL MARKER",
         "CHESTER RIVER",
@@ -73,23 +76,38 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // See if part of message has been split into subject
+    if (subject.startsWith("*") && subject.endsWith("DUE")) {
+      Matcher match = PREFIX_PTN.matcher(body);
+      int pt = 0;
+      if (match.lookingAt()) pt = match.end();
+      body = body.substring(0,pt) +  subject + ':' + body.substring(pt);
+    }
 
     Matcher match = MARKER.matcher(body);
     if (match.find()) body = body.substring(match.end());
     
     // Strip UNIT from end of text
-    match = UNIT_PTN.matcher(body);
-    if (match.find()) {
-      data.strUnit = match.group(1);
-      body = body.substring(0, match.start()).trim();
-    } 
+    int pt = body.lastIndexOf("DUE:");
+    if (pt >= 0) {
+      data.strUnit = body.substring(pt+4).trim();
+      body = body.substring(0,pt).trim();
+    } else {
+      match = UNIT_PTN.matcher(body);
+      if (match.find()) {
+        data.strUnit = match.group(1);
+        body = body.substring(0, match.start()).trim();
+      }
+    }
     
     // Strip box number from front of message and box description from end
     match = BOX_PTN.matcher(body);
     if (match.matches()) {
       data.strBox = append(match.group(3).trim(), " ", match.group(1));
       body = match.group(2).trim();
+      data.strChannel = getOptGroup(match.group(4));
     }
     
     // Sometimes they put valid street names in parenthesis, which messes up
@@ -102,7 +120,7 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
     
     // For several reasons,the FLAG_AT_BOTH logic doesn't quite work, so we
     // will have to check for an @ and do the had work ourselves
-    int pt = body.indexOf('@');
+    pt = body.indexOf('@');
     if (pt < 0) {
       
       // No @ - Address parser can handle the rest
@@ -150,10 +168,16 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       if (city != null) data.strCity = city;
     }
     
-    // If not address was found, move place to info
-    if (data.strAddress.length() == 0 && data.strSupp.length() == 0) {
-      data.strSupp = data.strPlace;
+    // If not address was found, move place to address
+    if (data.strAddress.length() == 0) {
+      String addr = data.strPlace;
       data.strPlace = "";
+      pt = addr.indexOf("TRANSFER/COVER");
+      if (pt >= 0) {
+        data.strSupp = addr.substring(pt);
+        addr = addr.substring(0,pt).trim();
+      }
+      parseAddress(addr, data);
     }
 
     // Box is required, unless this was a mutual aid call
@@ -164,6 +188,7 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       "ABDOMINAL PAINS",
       "ALERT",
       "ALLERGIC/REACTION",
+      "ANIMAL BITE/ATTACK",
       "APPLIANCE FIRE",
       "ASSAULT",
       "BACK PAIN-NONTRAUMA",
@@ -183,6 +208,7 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       "DWELLING FIRE",
       "ELECTRICAL HAZARD",
       "ELEVATOR MALFUNCTION",
+      "EYE PROBLEM/INJURY",
       "FAINTING",
       "FALLS",
       "FIRE ALARM",
@@ -193,7 +219,8 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       "HAZMAT",                                                                                                                                                                                                                                                
       "HAZMAT/SMALL SPILL",
       "HEADACHE",
-      "HEART PROBLEMS",                                                                                                                                                                                                                                        
+      "HEART PROBLEMS", 
+      "HEM/LACERATION",
       "HEMORRHAGE/LACS",
       "INTENTIONAL OVERDOSE",
       "INSIDE GAS LEAK",
@@ -214,6 +241,7 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       "ODOR OF GAS OUTSIDE",
       "OUTSIDE FIRE",
       "OUTSIDE GAS LEAK",
+      "OUTSIDE ODOR OF GAS",
       "PENETRATING TRAUMA",
       "PSYCHIATRIC",
       "PSYCHIATRIC/SUICIDE",
@@ -231,12 +259,14 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       "STROKE",
       "STROKE (CVA)",
       "STROKE(CVA)<2HRS",
+      "STRUCTURE FIRE/OUT",
       "TRAILER FIRE",
       "TRAUMATIC INJURY",
       "UNCONSCIOUS",                                                                                                                                                                                                                                           
       "UNCONSCIOUS/FAINTING",
       "UNKNOWN PROBLEM",
       "VEH FIRE W/EXPOSURE",
+      "VESSEL TAKING WATER",
       "WATER RESCUE",
       "WILDLAND FIRE DAVIDSON",                                                                                                                                                                                                                                
       "WIRES DOWN",

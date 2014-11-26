@@ -535,6 +535,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_ROAD_SFX, 
         "POINT", "PT",
         "BAY",
+        "MARINA",
         "STRAIGHT",
         "ISLAND", "ISLE");
   }
