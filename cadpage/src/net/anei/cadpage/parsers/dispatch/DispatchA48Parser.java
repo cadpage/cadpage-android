@@ -49,23 +49,32 @@ public class DispatchA48Parser extends SmartAddressParser {
         body = subject + ':' + body;
       }
       subject = "";
+    } 
+    
+    // Handle case where subject was split off from main message and then discarded
+    else if (subject.length() == 0 && !body.startsWith("As of ")) {
+      body = "As of 99/99/99 99:" + body; 
     }
+    
     data.strSource = subject;
     
     Matcher match = MASTER_PTN.matcher(body);
     if (!match.matches()) return false;
     data.strDate = match.group(1);
+    if (data.strDate.startsWith("99/")) data.strDate = "";
     String time = match.group(2);
-    String time_qual = match.group(3);
-    if (time_qual != null) {
-      setTime(TIME_FMT, time + ' ' + time_qual, data);
-    } else {
-      data.strTime = time;
+    if (!time.startsWith("99:")) {
+      String time_qual = match.group(3);
+      if (time_qual != null) {
+        setTime(TIME_FMT, time + ' ' + time_qual, data);
+      } else {
+        data.strTime = time;
+      }
     }
     data.strCallId = match.group(4);
     String addr = match.group(5).trim();
     
-    Parser p = new Parser(addr);
+    Parser p = new Parser(fixCallAddress(addr));
     data.strUnit = p.getLastOptional(" Unit Org Name Area Types ");
 
     StartType st;
@@ -181,5 +190,15 @@ public class DispatchA48Parser extends SmartAddressParser {
     
     if (data.strCall.equals(data.strCode)) data.strCode = "";
     return true;
+  }
+
+  /**
+   * Can be overridden by parser subclasses to make corrections to the
+   * call/address combination
+   * @param addr
+   * @return
+   */
+  protected String fixCallAddress(String addr) {
+    return addr;
   }
 }

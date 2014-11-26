@@ -18,9 +18,4 @@ public class MOBarryCountyBParser extends DispatchA48Parser {
     if (data.strCity.equalsIgnoreCase("COUNTY")) data.strCity = "BARRY COUNTY";
     return true;
   }
-
-  @Override
-  public String getFilter() {
-    return "2002";
-  }
 }

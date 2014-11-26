@@ -44,7 +44,7 @@ public class BillingManager {
     mHelper = new IabHelper(context, base64EncodedPublicKey);
 
     // enable debug logging (for a production application, you should set this to false).
-    mHelper.enableDebugLogging(true);
+    mHelper.enableDebugLogging(true, Log.LOGTAG);
 
     // Start setup. This is asynchronous and the specified listener
     // will be called once setup completes.
@@ -186,6 +186,7 @@ public class BillingManager {
     if (curYear > 0 && !ManagePreferences.freeSub()) {
       year = Integer.toString(curYear + 1);
       purchaseDate = ManagePreferences.purchaseDateString();
+      if (purchaseDate == null) purchaseDate = ManagePreferences.currentDateString();
       String expDateYMD = year + purchaseDate.substring(0,4);
       String curDateYMD = curDate.substring(4) + curDate.substring(0,4);
       if (curDateYMD.compareTo(expDateYMD) > 0) purchaseDate = null;
