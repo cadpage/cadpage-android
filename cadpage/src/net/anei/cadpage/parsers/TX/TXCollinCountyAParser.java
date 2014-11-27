@@ -13,10 +13,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class TXCollinCountyAParser extends FieldProgramParser {
 
-  private static final Pattern TRAIL_JUNK_PTN = Pattern.compile("(?:\\[[^\\[\\]]*)?\\{[^\\{\\}]*?\\}?$");
+  private static final Pattern MASTER1 = Pattern.compile("CFS (\\d{8}) +(.*)");
+  private static final Pattern TRAIL_JUNK_PTN = Pattern.compile("(?:(?:\\[[^\\[\\]]*)?\\{[^\\{\\}]*?\\}?|\\[SENT: [:\\d]+\\])$");
   private static final Pattern CFS_ID_PTN = Pattern.compile(" CFS (\\d{8})\\b");
   private static final Pattern LEAD_DASH_PTN = Pattern.compile("^[ -]+");
-  private static final Pattern DIST_GRID_PTN = Pattern.compile("(?:\\[([A-Z]+) .*?GRID: ([A-Z]*\\d*[A-Z]?) *\\])+");
   
   public TXCollinCountyAParser() {
     this("COLLIN COUNTY", "TX");
@@ -24,7 +24,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
 
   protected TXCollinCountyAParser(String defCity, String defState) {
     super(defCity, defState,
-          "MASH UNITS:UNIT ST_RMK:INFO CFS_RMK:INFO");
+          "MASH! UNITS:UNIT ST_RMK:INFO CFS_RMK:INFO");
     setupCallList(CALL_LIST);
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
     setupMultiWordStreets(
@@ -63,7 +63,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "ccsodispatch@co.collin.tx.us,DispatchSMS@coppelltx.gov";
+    return "ccsodispatch@co.collin.tx.us,DispatchSMS@coppelltx.gov,ics.gateway@wylietexas.gov,wyliefiredispatch@gmail.com,CADPaging-NOREPLY@flower-mound.com,prosperdispatch@gmail.com";
   }
   
   @Override
@@ -79,11 +79,37 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    Matcher match = MASTER1.matcher(body);
+    if (match.matches()) {
+      
+      data.strCallId = match.group(1);
+      body = match.group(2);
+      String flds[] = body.split("  +", 3);
+      if (flds.length > 1) {
+        int s1 = checkAddress(flds[0]);
+        int s2 = checkAddress(flds[1]);
+        if (s1 > 0 || s2 > 0) {
+          if (s2 > s1) {
+            parseAddress(flds[1], data);
+            data.strCall = flds[0];
+          } else {
+            parseAddress(flds[0], data);
+            data.strCall = flds[1];
+          }
+          if (flds.length > 2) data.strSupp = flds[2];
+          return true;
+        }
+      }
+      data.strCall = "GENERAL ALERT";
+      data.strPlace = body;
+      return true;
+    }
+    
     String alert = null;
     if (body.startsWith("Message From Dispatch ")) {
       body = body.substring(22).trim();
       if (body.startsWith("MUTUAL AID")) {
-        Matcher match  = CFS_ID_PTN.matcher(body);
+        match  = CFS_ID_PTN.matcher(body);
         if (match.find()) {
           data.strCallId = match.group(1);
           parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body.substring(0,match.start()).trim(), data);
@@ -102,34 +128,14 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     }
 
     // Remove trailing ID
-    Matcher match = TRAIL_JUNK_PTN.matcher(body);
+    match = TRAIL_JUNK_PTN.matcher(body);
     if (match.find()) body = body.substring(0,match.start()).trim();
     
-    // Some variants include the source and map code in square brackets
-    // If this is one of those, extract that information and remove the
-    // square bracket construct
-    match = DIST_GRID_PTN.matcher(body);
-    if (match.find()) {
-      data.strSource = match.group(1).trim();
-      data.strMap = match.group(2).trim();
-      body = body.substring(0,match.start()) + body.substring(match.end());
-    }
-    
-    int pt = body.indexOf("CFS No: ");
-    if (pt >= 0) {
-      data.strSupp = body.substring(0,pt).trim();
-      body = body.substring(pt+8).trim();
-    }
-    
-    // It seems that the original dispatch message uses double blanks as field
-    // delimiters, but that some helpful? forwarding services are eliminating
-    // the redundant blanks.  If this text message has the original double
-    // blank delimiters, we can call parseFields to finsh things off
     body = body.replace("CFS RMK ", "CFS RMK: ");
     body = body.replaceAll(" +/ +", " / ");
     if (super.parseMsg(body, data)) {
       
-      if (data.strCity.equalsIgnoreCase("COLLIN COUNTY")) data.strCity = "";
+      if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
       if (data.strAddress.length() > 0) return true;
     }
     
@@ -144,22 +150,43 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   
   // Parse a mashup of ID, CALL, ADDR, CITY, and Cross streets all of which might
   // or might not be separated by double blank delimiters
-  private static final Pattern ID_PTN = Pattern.compile("^(\\d{8}) +");
-  private static final Pattern BRACKET_PTN = Pattern.compile(" +\\{(.*?)\\} *");
+  private static final Pattern ID_PTN = Pattern.compile("^(?:([ A-Z0-9]+)\\b)?(\\d{8}) +");
+  private static final Pattern DIST_GRID_PTN = Pattern.compile("\\[([A-Z]+) (?:DIST: ([A-Z0-9]*) )?GRID: ([A-Z]*\\d*[A-Z]?) *\\]");
+  private static final Pattern BRACKET_PTN = Pattern.compile(" +(?:\\{([^\\[\\]\\{\\}]*?)\\}|\\[([^\\[\\]\\{\\}]*?)\\]) *");
   private static final Pattern STANDBY_PTN = Pattern.compile("^STANDBY(?: AT THIS TIME)?  +");
   private static final Pattern JUNK_PTN = Pattern.compile(" (?:\"[^A-Za-z0-9]\"|\"SPECIFY(?: NATURE)?\"|\\{\\{TONE\\}\\}) ");
-  private static final Pattern IN_PTN = Pattern.compile(" +IN +", Pattern.CASE_INSENSITIVE);
+  private static final Pattern IN_PTN = Pattern.compile(" +IN +| *, +", Pattern.CASE_INSENSITIVE);
   private class MashField extends Field {
     
     @Override
     public void parse(String field, Data data) {
       
-      // Start with easy stuff.  ID is always the first token
+      // Start with easy stuff.  ID is almost always the first token
+      // Occasionally there is a call prefix in front of it
       Matcher match = ID_PTN.matcher(field);
-      if (!match.find()) abort();
-      data.strCallId = match.group(1);
+      if (!match.lookingAt()) abort();
+      String prefix = getOptGroup(match.group(1));
+      data.strCallId = match.group(2);
       field = field.substring(match.end());
       
+      // Check for one or more map grid constructs
+      match = DIST_GRID_PTN.matcher(field);
+      if (match.find()) {
+        data.strSource = match.group(1).trim();
+        data.strMap = append(getOptGroup(match.group(2)), "-", match.group(3).trim());
+        String info = field.substring(match.end()).trim();
+        field = field.substring(0,match.start()).trim();
+        
+        while ((match = DIST_GRID_PTN.matcher(info)).lookingAt()) {
+          String src = match.group(1).trim();
+          if (!data.strSource.contains(src)) data.strSource = append(data.strSource, " ", src);
+          String map = append(getOptGroup(match.group(2)), "-", match.group(3).trim());
+          if (!data.strMap.equals(map)) data.strMap = data.strMap + "/" + map;
+          info = info.substring(match.end()).trim();
+        }
+        data.strSupp = info;
+      }
+
       // If first phrase is a standby request, combine it with second term
       field = STANDBY_PTN.matcher(field).replaceFirst("STANDBY ");
       
@@ -169,7 +196,9 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       // A field in {} is considered a place name
       match = BRACKET_PTN.matcher(field);
       if (match.find()) {
-        data.strPlace = match.group(1);
+        String place = match.group(1);
+        if (place == null) place = match.group(2);
+        data.strPlace = place.trim();
         field = field.substring(0,match.start()) + "  " + field.substring(match.end());
       }
       
@@ -180,7 +209,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       case 1:
         
         parseAddr(CALL | CROSS, flds[0], data);
-        return;
+        break;
         
       case 2:
         
@@ -189,28 +218,62 @@ public class TXCollinCountyAParser extends FieldProgramParser {
         // would mark the address
         if (parseAddr(OPTIONAL | CROSS, flds[1], data)) {
           data.strCall = flds[0];
-          return;
         }
         
-        if (parseAddr(OPTIONAL | CALL, flds[0], data)) {
+        else { 
+          parseAddr(CALL, flds[0], data);
           data.strCross = flds[1];
-          return;
         }
-        
         break;
         
-      case 3:
-        
-        // Three fields breaks into call, address/city and cross
-        data.strCall = flds[0];
-        parseAddr(0, flds[1], data);
-        data.strCross = flds[2];
-        return;
-        
-      // More than 3 fields, we haven't a clue what to do.  
       default:
-        abort();
+        
+        // Three or more fields, special case if next to last field is CROSS STREETS
+        int addrPt = -1;
+        
+        for (int ii = flds.length-2; addrPt < 0 && ii>=1 && ii >= flds.length-3; ii--) {
+          if (flds[ii].equals("CROSS STREETS")) {
+            data.strCross = flds[ii+1];
+            if (ii+2 < flds.length) data.strSupp = flds[ii+2];
+            addrPt = ii-1; 
+            parseAddr((addrPt == 0 ? CALL : 0), flds[addrPt], data); 
+          }
+        }
+        
+        // Otherwise, look for address in one of the last
+        // two fields.
+        if (addrPt < 0) {
+          for (int ii = flds.length-1; addrPt < 0 && ii >= 0; ii--) {
+            int flags = OPTIONAL;
+            if (ii == 0) flags |= CALL;
+            if (ii == flds.length-1) flags |= CROSS;
+            if (parseAddr(flags, flds[ii], data)) {
+              addrPt = ii;
+              if (ii + 1 < flds.length) {
+                data.strCross = flds[ii+1];
+                for (ii = ii+2; ii < flds.length; ii++) {
+                  data.strSupp = append(data.strSupp, " - ", flds[ii]);
+                }
+              }
+            }
+          }
+        }
+        
+        if (addrPt < 0) abort();
+        
+        // ANy fields in front of address are concatenated to form call description
+        for (int ii = 0; ii < addrPt; ii++) {
+          data.strCall = append(data.strCall, " - ", flds[ii]);
+        }
+        break;
       }
+      
+      // Append the call prefix if we have one
+      data.strCall = append(prefix, " - ", data.strCall);
+      
+      // However we got them, remove leading/trailing / from cross field
+      data.strCross = stripFieldStart(data.strCross, "/");
+      data.strCross = stripFieldEnd(data.strCross, "/");
     }
     
     private static final int OPTIONAL = 1;
@@ -238,8 +301,18 @@ public class TXCollinCountyAParser extends FieldProgramParser {
         parseAddress(st, parseFlags | FLAG_ANCHOR_END, sAddress.substring(0,match.start()), data);
         
         // Now lets look at the right side of the IN keyword
-        // If we aren't handling cross streets, it is all city
+        // Check for second IN city clause
         String tail = sAddress.substring(match.end());
+        int pt = tail.indexOf(" IN ");
+        if (pt >= 0) {
+          data.strCity = tail.substring(0,pt).trim();
+          tail = tail.substring(pt+4).trim();
+          tail = stripFieldStart(tail, data.strCity);
+          if (cross) data.strCross = tail;
+          return true;
+        }
+        
+        // Otherwise, if we aren't handling cross streets, it is all city
         if (!cross) {
           data.strCity = tail;
           return true;
@@ -280,7 +353,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "ID CALL ADDR APT CITY X";
+      return "ID CALL ADDR APT CITY X SRC MAP";
     }
   }
   
@@ -969,15 +1042,29 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   });
   
   private static final CodeSet CALL_LIST = new CodeSet(
+      "ANIMAL COMPLAINT",
       "ASSIST PD",
+      "ATTEMPT SUICIDE",
+      "AUTOMATIC AID ENGINE",
+      "AUTOMATIC FIRE ALARM",
+      "CARBON MONOXIDE ALARM",
       "CARBON MONOXIDE INVESTIGATION",
       "COMERCIAL FIRE ALARM",
       "COMMERCIAL FIRE ALARM",
+      "CONTROLLED BURN",
+      "DECEASED PERSON",
+      "DISTURBANCE",
       "DOMESTIC DISTURBANCE",
+      "DOWN POWER LINE",
+      "DOWN TREE",
       "DUMPSTER FIRE",
       "DRIVING WHILE INTOXICATED",
+      "ELECTRICAL FIRE",
+      "ELEVATOR ALARM",
       "EMERGENCY MEDICAL CALL",
       "EMERGENCY MEDICAL ALARM",
+      "EMERGENCY PUBLIC ASSIST",
+      "EMERGENCY WATER CUT OFF",
       "EMS-NON EMERGENCY TRANSFER",
       "EMS - CARDIAC EMERGENCY",
       "EMS - INJURED PERSON",
@@ -989,36 +1076,55 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "EMS CALL",
       "FIRE ALARM",
       "FIRE PUBLIC ASSIST",
-      "First Responders",
+      "FIRE REPORTED OUT",
       "FIRST RESPONDERS",
       "FISRT RESPONDERS",
+      "FUEL SPILL",
       "GRASS FIRE",
       "GRASS/BRUSH FIRE (LOW HAZD)",
+      "HAZARDOUS CONDITION",
+      "HAZARDOUS MATERIALS",
       "INJURED PERSON",
       "INVESTIGATION",
       "INVESTIGATION-UNKNOWN SIT.",
       "LIFT ASSIST ONLY",
+      "LOCK-IN/OUT",
       "LOCKED VEHICLE/RESIDENCE",
+      "MAJOR",
       "MAJOR ACCIDENT",
       "MAJOR ACCIDENT (INJURIES)",
       "MAJOR ACCIDENT (MAJOR ROAD)",
       "MAJOR ACCIDENT 10/50",
       "MAJOR HIT AND RUN ACCIDENT",
       "MINOR ACCIDENT 10/50",
+      "MISSING CHILD",
       "MEDIC CALL- COALITION",
       "MEDICAL ALARM",
       "MEDICAL EMERGENCY",
       "MEDICATION OVERDOSE",
+      "MENTAL SUBJECT",
+      "MOTORIST ASSIST",
+      "MUTUAL AID",
       "MUTUAL AID,FIRE/FILL IN",
+      "MUTUAL AID AMB FOR MAJOR",
+      "MUTUAL AID AMBULANCE",
+      "MUTUAL AID ENGINE",
+      "MUTUAL AID ENGINE TO SCENE",
+      "MUTUAL AID FVFD",
       "MUTUAL AID FIRE/RESCUE REQUEST",
       "MUTUAL AID GRASS FIRE",
       "MUTUAL AID MEDICAL CALL",
+      "MUTUAL AID ON SFIRE",
       "MUTUAL AID SFIRE",
       "MUTUAL AID STRUCTURE FIRE",
+      "MUTUAL AID TRUCK TO THE SCENE",
+      "NARCOTICS INVESTIGATION",
       "NATURAL / PROPANE GAS LEAK",
+      "ODOR INSIDE STRUCTURE",
       "ODOR INVESTIGATION",
       "OVERDOSE",
       "PROPERTY PUBLIC ASSIST",
+      "PUBLIC ASSIST",
       "PUBLIC ASSIST (FD)",
       "RES. SMOKE DETECTOR PROBLEM",
       "RESCUE-TRAPED PERSON(S)",
@@ -1027,9 +1133,14 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "RESIDENTIAL FIRE ALARM",
       "SEARCH FOR MISSING PERSON",
       "SMOKE DETECTOR ALARM",
+      "SMOKE INVESTIGATION",
       "SPECIAL ASSIGNMENT",
+      "SPECIAL ASSIGNMENT \"SPECIFY\"",
       "STANDBY ELECTRICAL FIRE",
       "STRUCTURE FIRE",
+      "SUBJECT PASSED OUT",
+      "SUICIDE THREAT",
+      "SUSPICIOUS CIRCUMSTANCES",
       "TEST CALL",
       "TEST FIRE CALL",
       "TRAFFIC HAZARD",
@@ -1040,30 +1151,37 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "UNAUTHORZED BURN",
       "UNLOCK REQUEST",
       "UTILITY LINES DOWN",
-      "EMS - SICK PERSON",
+      "UNATTENDED DEATH",
       "UNKNOWN FIRE",
       "VEHICLE FIRE",
+      "WATER FLOW ALARM",
       "WATER FLOW ALARM, BUSN OR RESD",
-      "WELFARE CHECK"
+      "WATER LEAK",
+      "WELFARE CHECK",
+      "WELFARE CONCERN",
+      
+      // Manual one time call descriptions
+      "69 YOA FEMALE",
+      "AMR ASKING FOR MUTUAL AID WITH MEDIC",
+      "BE ENROUTE WITH ENGINE",
+      "MUTUAL AID CADDO MILLS",
+      "MUTUAL AID FOR PNFD WITH ENGINE TO UFIRE",
+      "MUTUAL AID FOR TRENTON FD 2 STORY SFIRE"
   );
   
   private static final String[] DOUBLE_CITY_LIST = new String[] {
-    "ANNA",
-    "AUBREY",
     "BLUE RIDGE",
-    "CELINA",
     "COLLIN COUNTY",
-    "COLONY",
-    "DENTON",
+    "COLLIN CO",
     "FLOWER MOUND",
-    "FRISCO",
-    "LEWISVILLE",
+    "GRAYSON COUNTY",
+    "GRAYSON CO",
+    "HUNT COUNTY",
+    "HUNT CO",
     "LITTLE ELM",
     "LOWRY CROSSING",
     "MC KINNEY",
-    "MELISSA",
     "PILOT POINT",
-    "PRINCETON",
     "ROYSE CITY",
     "SAINT PAUL",
     "ST PAUL",
