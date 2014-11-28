@@ -31,7 +31,7 @@ public class MOStoneCountyBParser extends DispatchA48Parser {
   private static final CodeSet CALL_LIST = new  CodeSet(
       "Allergic 1",
       "Breathing",
-      "Chest",
+      "Chest Pain",
       "Chest Pain 2",
       "Diabetic 2",
       "Fainting 1",
