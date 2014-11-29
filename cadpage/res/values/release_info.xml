@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11202014</string>
-  <string name="release_version">v1.7.55</string>
+  <string name="release_date">11292014</string>
+  <string name="release_version">v1.7.56</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
-New option to force use of Google Maps for map requests.\n
-\n
-New option to allow alert tone to override mute control but
-not volume control.\n
-\n
 New Locations:\n
-Barnstable County, MA\n
-Barry County, MO\n
-Montgomery County, VA\n
+Christian County, KY\n
+Hancock County, KY\n
+Luce County, MI\n
+Ramsey County, MN\n
+Cameron County, MO\n
+Columbus County, NC\n
+Trenton, OH\n
+Aransas County, TX\n
+Newport News, VA\n
 \n
 Location Parsing Fixes:\n
-Knox County, IN\n
-Shelby County, IN\n
-Black Hawk County, IA\n
-Boone County, KY\n
-Madison County, NY\n
-Wilson County, NC\n
-Linn County, OR\n
-Crawford County, PA\n
-Pickens County, SC\n
-Smyth County, VA\n
-Hardy County, WV\n
+Douglass County, CO\n
+Polk County, IA\n
+State Police, KY\n
+Queen Anne County, MD\n
+Stone County, MO\n
+Monmouth County, NJ\n
+Darlington County, SC\n
+Collin County, TX\n
+Montgomery County, TX\n
+Wylie, TX\n
+\n
+General Fixes:\n
+Improved Lollipop compatibility\n
+Not recognizing lifetime subscriptions\n
+Call detail window closes when screen is touched outside of window\n
   </string>
 </resources>
   
