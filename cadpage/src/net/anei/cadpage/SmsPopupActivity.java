@@ -75,9 +75,10 @@ public class SmsPopupActivity extends Safe40Activity {
     optManager = new MsgOptionManager(this);
 
     requestWindowFeature(Window.FEATURE_NO_TITLE);
+
     setContentView(R.layout.popup);
-    getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED | 
-                         WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
+    
+    getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED | WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
 
     resizeLayout();
 

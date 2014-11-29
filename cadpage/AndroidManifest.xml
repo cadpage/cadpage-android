@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
   xmlns:android="http://schemas.android.com/apk/res/android"
-  package="net.anei.cadpage" android:versionName="1.7.55B" android:versionCode="17550" >
+  package="net.anei.cadpage" android:versionName="1.7.55C" android:versionCode="17550" >
   
   <uses-sdk
-    android:targetSdkVersion="19" android:minSdkVersion="8"/>
+    android:targetSdkVersion="21" android:minSdkVersion="8"/>
       
   <permission android:name="net.anei.cadpage.RECEIVE_CADPAGE"
           android:label="@string/cadperm_title"

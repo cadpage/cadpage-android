@@ -10,6 +10,7 @@ import android.app.ListActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.DisplayMetrics;
@@ -70,7 +71,15 @@ public class CallHistoryActivity extends ListActivity {
       startActivity(intent);
     }
     
-    getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED | WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
+    // If the screen is locked, we  would like both the call history and call detail
+    // screens to override the lock screen.  This works fine up until Android 5.0
+    // at which point it seems that only one window is allowed to override the
+    // lock screen at any time.  So at that level we supress locking the main
+    // screen so the detail screen will be visible.
+    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+      getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED | 
+                           WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
+    }
     
     // Set up list heading
     TextView tv = new TextView(this);

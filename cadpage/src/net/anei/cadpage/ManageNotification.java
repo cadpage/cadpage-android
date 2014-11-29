@@ -120,6 +120,12 @@ public class ManageNotification {
     // Maximum priority
     nbuild.setPriority(NotificationCompat.PRIORITY_MAX);
     
+    // Message category
+    nbuild.setCategory(NotificationCompat.CATEGORY_CALL);
+    
+    // Set public visibility
+    nbuild.setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
+    
     // Set display icon
     nbuild.setSmallIcon(R.drawable.ic_stat_notify);
 
