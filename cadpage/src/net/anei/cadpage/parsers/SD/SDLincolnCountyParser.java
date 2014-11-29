@@ -15,7 +15,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class SDLincolnCountyParser extends FieldProgramParser {
   
   private static final Pattern GEN_ALERT_PTN = Pattern.compile("MEETING|TRAINING|DISREGARD", Pattern.CASE_INSENSITIVE);
-  private static final Pattern SUBJECT_MSG_PTN = Pattern.compile("([ A-Z0-9]+):(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SUBJECT_MSG_PTN = Pattern.compile("([ /A-Z0-9]+):(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern SRC_PTN = Pattern.compile("NONE||(?:[A-Z0-9 ]+, +)?(?:(?:CANTON|CHANCELLOR|HARRISBURG|HURLEY|LENNOX|MARION|MONROE|PARKER|SIOUX FALLS|TEA|WORTHINGTON) (?:AMB|AMBULANCE|FD|FIRE|FIRE DEPARTMENT)|TURNER COUNTY SHERIFF's OFFICE|TCSO)(?:;[ A-Z;']+)?", Pattern.CASE_INSENSITIVE);
   private static final Pattern LEAD_NUMBER = Pattern.compile("^\\d+ +(?!Y/O |YO ).*");
   private static final Pattern CALL_ID_PTN = Pattern.compile("^\\{?(\\d\\d-\\d+)\\b\\}?");
