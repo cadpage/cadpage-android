@@ -6,7 +6,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.ZftCnefre;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Fgbar Pbhagl, ZB
+Fgbar Pbhagl, ZB (O)
 
 Pbagnpg: Nyyna Pbhefrl <nyynapbhefrl@tznvy.pbz>
 Fraqre: 777

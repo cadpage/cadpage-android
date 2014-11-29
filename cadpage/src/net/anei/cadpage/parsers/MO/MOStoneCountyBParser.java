@@ -4,7 +4,7 @@ import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
 /**
- * Barry County, MO (B)
+ * Stone County, MO (B)
  */
 public class MOStoneCountyBParser extends DispatchA48Parser {
   
