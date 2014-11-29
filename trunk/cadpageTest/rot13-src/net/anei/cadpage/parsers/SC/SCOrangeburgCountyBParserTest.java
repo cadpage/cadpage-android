@@ -1,0 +1,131 @@
+cnpxntr arg.narv.pnqcntr.cnefref.FP;
+
+vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
+
+vzcbeg bet.whavg.Grfg;
+
+/*
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Cvar Uvyy Sver & Erfphr
+Ybpngvba: Benatrohet, FP, Havgrq Fgngrf
+Fraqre: <bopqvfcngpu@benatrohetpbhagl.bet>
+Fraqre: <wwrsspbng@benatrohetpbhagl.bet>
+
+:bopqvfcngpu:IRUVPYR SVER NG 155 PENTTL OYHSS QE
+:bopqvfcngpu:IRUVPYR VA GUR QVGPU ARRFRF UJL /ARRFRF PNZC EQ TEVQ 29-P1
+:bopqvfcngpu:JBBQF SVER NG OHGGREAHG FG/JBBQSBEQ EQ
+:bopqvfcngpu:IRUVPYR NPPVQRAG QENTFGEVC EQ/GRPMN QE AB VAWHEVRF
+:bopqvfcngpu:JBBQF SVER NG 5069 PBOHET YA
+:bopqvfcngpu:FGEHPGHER SVER NG 466 VIN EQ PNYYRE NQIVFRQ BS BENATR SYNZRF TEVQ 5 N3 PEBFF BS ZBANPB YA
+:wwrsspbng:Erzvaqre bs gur jbex qnl ba Znepu 29gu ortvaavat ng 9nz ng gur Ong Pnir. Gunaxf gb nalbar jub pna nggraq.
+:wwrsspbng:UNMZNG: Ynfg punapr gb ertvfgre sbe gur Grpu Erserfure ba Ncevy 5 & 6. Ertvfgengvbaf arrqrq nfnc.
+:bopqvfcngpu:cg va cnva qb gb n snyy ng 494 gbqq perrx eq
+:bopqvfcngpu:CG UNIVAT CNVA NYY BIRE NG 115 FGNSSBEQ NIR
+:wwrsspbng:Erzvaqre bs gur Svefg Erfcbaqre rknz cerc gbavtug ortvaavat ng 6cz ng Cvar Uvyy Fgngvba 1.
+:wwrsspbng:Erzvaqre gb nyy UnmZng zrzoref cyrnfr fraq lbhe FPSN Ertvfgengvba sbez gb BRF sbe gur Grpu Erserfure nfnc.
+:bopqvfcngpu:IRUVPYR IF GERR AB VAWHEVRF @ 2745 ERQZBAQ ZVYY EQ PEBFF BS FGEVPXYNAQ EQ TEVQ 3 N3
+:bopqvfcngpu:CNVA GB UVC @ 350 NEABYQ EQ/ PEBFF BS ZNTRAGN QE/ TEVQ 3-P5
+:bopqvfcngpu:OERNGUVAT CEBOYRZF @ 406 CNYZRGGB QE/ PEBFF BS WRSSPBNG OEVQTR EQ/ TEVQ 6-O3
+:bopqvfcngpu:OERNGUVAT CEBOYRZF @ 350 NEABYQ EQ/ PEBFF BS ZNTRAGN QE/ TEVQ 3-P5
+:bopqvfcngpu:NYGRERQ ZRAGNY FGNGHF @ 119 SVRYQ GJVA EQ/ TEVQ 16-Q5/ PEBFF BS ZNWRFGL FG
+:bopqvfcngpu:**JBYSGBA & ERQ FGNE GRNZ** ZIN CBFFVOYR RAGENCZRAG @ ABEGU EQ & YVZRFGBAR EQ
+:bopqvfcngpu:PURFG CNVAF @ 1623 FUVYYVATF OEVQTR EQ/ PEBFF BS CYBJ EQ/ TEVQ 31-P2
+:bopqvfcngpu:OERNXRE OBK BA SVER @ 4615 FNINAANU UJL/ TEVQ 6-O4/ PEBFF BS PNZRYVN FG/ TENAAL O'F ERFGNHENAG
+:bopqvfcngpu:JRNX/QVMML @ 120 TRARFVF EQ/ PEBFF BS TBFCRY UVYY PG/ TEVQ 31-P2
+:bopqvfcngpu:ZIN HAXABJA VAWHEVRF @ FNINAANUL UJL & BYVIRE EQ/TEVQF 6-O4/ABEGU CQ BA FPRAR UNF NQIVFRQ IRUVPYR UVG N CBJRE CBYR & CBJRE YVARF NER QBJA
+:bopqvfcngpu:1050 HAFHER BS VAWHEVRF ARNE 9931 ABEGU EQ
+:wwrsspbng:Nyy UNMZNG zrzoref cyrnfr pbagnpg BRF gbqnl, 803-533-6265.
+:bopqvfcngpu:hgvyvgl furq ba sver ng 3355 erqzbaq zvyy eq
+:wwrsspbng:Nyy UNMZNG zrzoref cyrnfr pbagnpg BRF ba gbzbeebj, 803-533-6265.
+:bopqvfcngpu:CG VA CNVA NG 405 ORNFBA EQ
+:bopqvfcngpu:CG UNIVAT CNVA GB GUR FGBZNPU NG 117 CREPUREBA FG
+:bopqvfcngpu:16 LE BYQ URZBEEUNTR GB ABFR VA ERSRERAPR SEBZ NA NFFNHYG NG ABEGU UVTU FPUBBY TEVQ BS 6 O4
+:bopqvfcngpu:PBEBANEL CEBOYRZF @ 207 YNFG QE/ PEBFF BS EHCNHY QE/ TEVQ 31-P2
+:bopqvfcngpu:cg hapbafpvbhf ng 114 jvaql cvarf eq
+:bopqvfcngpu:ZRQVPNY PNYY NG 3152 ABEGU EQ SBE CNGVRAG HAPBAFPVBHF ABG OERNGUVAT...ZRQVP HAVG SEBZ ARRFRF
+:bopqvfcngpu:ZRQVPNY PNYY NG 229 NEYVATGBA FG SBE CNVA...ZRQVP HAVG SEBZ ARRFRF
+:bopqvfcngpu:CNVA @ 2706 ARRFRF UJL
+:bopqvfcngpu:CG JRNX NG 118 SVRYQ GJVA EQ
+:bopqvfcngpu:FZBXR VA GUR NERN 2151 PNGNYVAN OYIQ
+:bopqvfcngpu:TENFF SVER NG 4947 FNINAANU UJL
+:bopqvfcngpu:HAPBAFPVBHF OERNGUVAT @ 5089 PBOHET YA BENATROHET/PEBFF FUVYYVATF OEVQTR EQ/TEVQF 31-O3/ZRQVP HAVG ERFCBAQVAT SEBZ BENATROHET
+:bopqvfcngpu:SVER NYNEZ NG 5894 ABEGU EQ
+:bopqvfcngpu:ZRQVPNY NYNEZ @ 1285 FYNO YNAQVAT EQ/ PEBFF BS PBYBARY PG/ TEVQ 16-O2
+:bopqvfcngpu:ERT ZRRGVAT @ 7:30 @ GUR FGNGVBA/FHCCRE JVYY OR FREIRQ
+:wwrsspbng:Gbavtug'f Svefg Erfcbaqre pynff unf orra pnapryyrq, cyna ba ergheavat ba Zbaqnl ng 6cz.
+:bopqvfcngpu:JRNXARFF @ 232 YVTUGAVAT EQ/ PEBFF BS JROFGRE FG/ TEVQ 6-O5
+:bopqvfcngpu:SVER NYNEZ @ 1748 FUVYYVATF OEVQTR EQ/ TEVQ 31-P3/ PEBFF BS JVYYVR EQ
+:bopqvfcngpu:IRUVPYR SVER BA FNINAANU UJL URNQRQ GB ABEJNL WHFG BHGFVQR BS ABEGU/ JUVGR IRUVPYR BA FUBHYQRE
+:bopqvfcngpu:jrnxarff @ 232 yvtugvat eq
+:bopqvfcngpu:CG JVGU N YNPRENGVBA GB GUR URNQ NG 278 ARRFRF PNZC EQ
+:bopqvfcngpu:1050 ng abegu eq & fniaanu ujl
+:bopqvfcngpu:JBBQF SVER ARNE 496 UVYY GBC PVE
+:bopqvfcngpu:TENFF GUERNGAVAT FGEHPGHER SVER NG 243 WBR CNHY QE
+:bopqvfcngpu:tenff guerngavat fgehpgher ng 243 wbr cnhy qe
+:wwrsspbng:Erzvqre bs gur Svefg Erfcbaqre pynff orvat uryq gbavtug ng Cvar Uvyy Fgngvba 1 ng 6cz.
+:bopqvfcngpu:cu10 cyrnfr purpx snk znpuvar ng gur fgngvba gunaxf qvfcngpu
+:bopqvfcngpu:cbjre yvar qbja arne gur 8900 oybpx bs abegu eq
+:bopqvfcngpu:CNVA SEBZ NFFNHYG @ 291 GJVA YNXRF EQ/ PEBFF BS JVFC EQ/ TEVQ 29-Q3/ FPRAR FRPHER
+:bopqvfcngpu:**BENATR & LRYYBJ FGNE GRNZ** BIREGHEARQ ZIN V95 ABEGUOBHAQ ZZ 87 J/ RAGENCZRAG/ TEVQ 65-N4
+:bopqvfcngpu:SVER NYNEZ @ 2466 ABEJNL EQ/ TEVQ 30-P4/ PEBFF BS FYNO YNAQVAT EQ
+:bopqvfcngpu:ZIN JVGU RAGENCZRAG BA FGNGR CNEX EQ & BYQ AHZORE FVK UJL/ TEVQ 38-Q1
+:bopqvfcngpu:n fxvyyrg ba sver ng 5080 pbohet ya pebff bs unfxryy ya
+:bopqvfcngpu:YM FRGHC 6025 JVYYVR EQ PEBFF FUVYYVTF OEVQTR EQ TEVQ 31-P2
+:bopqvfcngpu:CNVA 6025 JVYYVR EQ PEBFF FUVYYVATF OEVQTR EQ TEVQ 31-P2
+:bopqvfcngpu:TENFF SVER @ 113 WVZZL EQ/ PEBFF BS PNGNYVAN OYIQ/ TEVQ 3-O4
+:bopqvfcngpu:SVRYQ SVER @ 245 JNGRE GNAX EQ/PEBFF BS CERFREIRE EQ/TEVQF 14-P2
+:bopqvfcngpu:TENFF GUERNGRAVAT FGEHPGHER SVER @ 2765 EBFRQNYR QE/ TEVQ 31-O2/ PEBFF BS TBFCRY UVYY PG
+:bopqvfcngpu:ZIN @ FNINAANU UJL & JVFGREJBBQ PVE / TEVQ 6-O5
+:bopqvfcngpu:FGEBXR @ 103 GRNXJBBQ QE/ PEBFF BS GRPMN QE/ TEVQ 31-N1
+:bopqvfcngpu:FGEHPGHER SVER @ 240 CNAQNAHF EQ/PEBFF BS NAANCBYVF FG/BSS FUVYYVATF OEVQTR EQ/TEVQF 31-P3
+:bopqvfcngpu:PURFG CNVA @ 405 ORNFBA EQ/ TEVQ 31-P2/ PEBFF BS UVYYGBC PVE
+:bopqvfcngpu:yvsgvat nffvfgnapr @ 160 svryq gjva eq
+:bopqvfcngpu:SVER SVTUGRE NFFBPVNGVBA ZRRGVAT @ SVER FREIVPR PRAGRE GBAVTUG @ 7 C.Z.
+:bopqvfcngpu:FGEHPGHER SVER @ 606 ZNVA FG/ TEVQ 6-O4/ PEBFF BS FNYYRL EQ
+:bopqvfcngpu:**NGGRAGVBA** NYY PBHAGL SVER SVTUGREF CYRNFR OR ERZVAQRQ BS GUR SVER SVTUGRE NFFBPVNGVBA ZRRGVAT @ GUR SVER FREIVPR PRAGRE GBAVTUG @ 7 C.Z.
+:bopqvfcngpu:**BENATR FGNE GRNZ & IPSQ** BIREGHEARQ ZIN J/ RAGENCZRAG @ 939 CVARYNAQ FG/ PEBFF BS TBHCRE PG/ TEVQ 52-P4
+:bopqvfcngpu:**NGGRAGVBA** AGG115 VF ONPX VA FREIVPR
+:bopqvfcngpu:NGGRAGVBA: GNAXRE 115 BHG BS FREIVPR HAVGY SHEGURE ABGVPR!!!
+:bopqvfcngpu:ABEJNL ERDHRFGVAT 1 RATVAR & ZNA CBJRE SBE FGHEGHER SVER @ 2778 PBCR EQ ABEJNL/PEBFF PNYUBHA NIR/TEVQF 42-N1
+:bopqvfcngpu:ABEJNL ERDHRFGVAT 1 RATVAR NAQ ZNA CBJRE SBE FGEHPGHER SVER @ 2778 PBCR EQ ABEJNL/PEBFF PNYUBHA NIR/TEVQF 42-N1
+:bopqvfcngpu:ZRQVPNY PNYY NG 165 SVRYQ GJVA EQ SBE HAPBAFPVBHF..ZRQVP HAVG SEBZ ARRFRF
+:bopqvfcngpu:ZRQVP PNYY NG 120 TRARFVF EQ SBE ERFCVENGBEL QVFGERFF..ZRQVP HAVG SEBZ BOHET
+:wwrsspbng:Nal zrzoref jnagvat gb nffvfg fgnssvat Pvgl Sver Fgngvbaf ba Znepu 20 sebz 4cz - hagvy cyrnfr erfcbaq gb guvf grkg.
+:bopqvfcngpu:GRFG GBEANQB JNEAVAT SBE NYY FBHGU PNEBYVAN PBHAGVRF HAGVY 9:10 N.Z. SBE FRIRER JRNGURE NJNERARFF JRRX!!! GUVF VF N GRFG BAYL!!!
+:bopqvfcngpu:FRVMHER 2102 JBBQSBEQ EQ PEBFF UNLQRA EQ TEVQ 2-O5
+:bopqvfcngpu:FGEHPGHER SVER BA YVTUGAVAT EQ BSS FNINAANU UJL/TEVQF 6-O5
+:bopqvfcngpu:TEVQF 6 O4 PEBFF BS BYVIRE EQ
+:bopqvfcngpu:cg abg srryvat JRYY NG 1047 FGNSSBEQ NIR
+:bopqvfcngpu:QVNORGVP ERNPGVBA @ 4257 ARRFRF UJL/ PEBFF BS QNARG EQ/ TEVQ 30-N1
+:bopqvfcngpu:NPPVQRAG JVGU RAGENCZRAG V26 RNFGOBHAQ ZZ 145
+:bopqvfcngpu:TENFF SVER GUERNGVAT FGHPGHER @ 12536 ABEGU EQ
+:bopqvfcngpu:FURQ SVER GUERNGVAT FGHPGHER @257 UNEIRL YA
+:bopqvfcngpu:TENFF GUERNGRAVAT FGEHPGHER SVER @ 478 ENZOYVAT EVQTR EQ/ PEBFF BS ORNFBA EQ/ TEVQ 31-O2
+:bopqvfcngpu:TENFF SVER @ 478 ENZOYVAT EVQTR EQ/ PEBFFB S ORNFBA EQ/ TEVQ 31-O2
+:bopqvfcngpu:OERNGUVAT CEBOYRZF @ 2230 JBBQSBEQ EQ/ PEBFF BS UNLQRA EQ/ TEVQ 2-O5
+:bopqvfcngpu:fgehpgher sver @ svqqvr ya naq zrnqbjf snez eq
+:bopqvfcngpu:FGEHPGHER SVER BA UNEIRL YA ARNE ABEGU EQ/CRE PNYYRE GUVF JVYY OR NA NONAQBARQ UBHFR
+:bopqvfcngpu:ZRQVPNY PNYY NG 1824 FUVYYVATF OEVQTR EQ SBE N FGEBXR...ZRQVP HAVG SEBZ ARRFRF
+:bopqvfcngpu:LRYYBJ NAQ BENATR FGNER GRNZ IRUVPYR JVGU RAGENCZRAG NG GRR IRR EQ/RAGENCZRAG. ARRQVAT NFFG GENC CNGVRAG
+:bopqvfcngpu:BENATR FGNE GRNZ IRUVPYR NPPVQRAG JVGU VAWHEVRF NAQ RAGENCZRAG GRR IRR EQ/ PYRIRYNAQ FG
+:bopqvfcngpu:ZRQVPNY PNYY @4066 JNTBA EQ PURFG CNVAF
+:bopqvfcngpu:TENFF SVER NG 276 FNYRZ OENAPU EQ
+:bopqvfcngpu:erfcvengbel qvfgerff @ 127 fgenvtug qe
+*/
+
+choyvp pynff FPBenatrohetPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
+  
+  choyvp FPBenatrohetPbhaglOCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "BENATROHET PBHAGL", "FP");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCnefre() {
+    
+  }
+  
+  choyvp fgngvp ibvq znva(Fgevat[] netf) {
+    arj FPBenatrohetPbhaglOCnefreGrfg().trarengrGrfgf("G1");
+  }
+}
