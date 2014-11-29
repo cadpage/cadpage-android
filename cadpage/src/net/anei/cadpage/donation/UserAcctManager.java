@@ -90,11 +90,13 @@ public class UserAcctManager {
           String purchaseDate  = null;
           if (flds.length >= 3) {
             purchaseDate = flds[2].trim();
-            try {
-              DATE_FMT.parse(purchaseDate);
-            } catch (ParseException ex) {
-              Log.e(ex);
-              return;
+            if (purchaseDate.length() > 0) {
+              try {
+                DATE_FMT.parse(purchaseDate);
+              } catch (ParseException ex) {
+                Log.e(ex);
+                return;
+              }
             }
             purchaseDate = purchaseDate.replace("/", "");
           }
