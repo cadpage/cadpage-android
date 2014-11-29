@@ -105,7 +105,7 @@ public class UserAcctManager {
       }
     });
   }
-  private static final Pattern STATUS_PTN = Pattern.compile("LIFE|\\d{4}");
+  private static final Pattern STATUS_PTN = Pattern.compile("LIFE|\\d{4}", Pattern.CASE_INSENSITIVE);
   private static final DateFormat DATE_FMT = new SimpleDateFormat("MM/dd/yyyy");
   
   
