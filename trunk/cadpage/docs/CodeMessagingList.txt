@@ -1,0 +1,31 @@
+List of CodeMessaging server IP addresses
+
+This used to be the restricted list of IP addresses for CodeMessaging before
+that restriction was dropped in an attempt to resolve server push issues.  
+Keeping it here in case we ever want to reimplement it.
+
+76.12.80.80/28
+173.62.205.55
+72.44.32.0/19
+67.202.0.0/18
+75.101.128.0/17
+174.129.0.0/16
+204.236.192.0/18
+184.73.0.0/16
+184.72.128.0/17
+184.72.64.0/18
+50.16.0.0/15
+50.19.0.0/16
+107.20.0.0/14
+23.20.0.0/14
+54.242.0.0/15
+54.234.0.0/15
+54.236.0.0/15
+54.224.0.0/15
+54.224.61.208
+54.226.0.0/15
+54.208.0.0/15
+54.210.0.0/15
+54.221.0.0/16
+54.204.0.0/15 
+

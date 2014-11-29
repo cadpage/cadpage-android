@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item name="ack_item" type="id"/>
+  <item name="resp_call_item" type="id"/>
+  <item name="resp_text_item" type="id"/>
+  <item name="resp_http_item" type="id"/>
+</resources>

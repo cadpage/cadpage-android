@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="pref_enable_msg_type_entries">
+    <item>Endast SMS meddelanden</item>
+    <item>Endast MMS meddelanden</item>
+    <item>SMS och MMS meddelanden</item>
+    <item>Endast Meddelandeservice</item>
+  </string-array>
+  <string-array name="pref_gps_map_option_entries">
+    <item>När rekommenderad</item>
+    <item>Aldrig</item>
+    <item>När tillgänglig</item>
+  </string-array>
+  <string-array name="pref_resp_type_text">
+    <item>Telefonsamtal</item>
+    <item>Textat svar</item>
+  </string-array>
+  <string-array name="pref_resp_merge_text">
+    <item>Byt ut användarmeny</item>
+    <item>Lägg till användarmeny</item>
+    <item>Ignorera</item>
+  </string-array>
+  <string-array name="pref_map_network_chk_entries">
+    <item>Ansluten</item>
+    <item>Roaming</item>
+    <item>Frånkopplad</item>
+  </string-array>
+  <string-array name="pref_report_position_entries">
+    <item>Alltid</item>
+    <item>Aldrig</item>
+    <item>Fråga?</item>
+  </string-array>
+  <string-array name="email_devel_subject">
+    <item>Allmän kommentar</item>
+    <item>Meddelandeproblem</item>
+    <item>Crashrapport</item>
+    <item>Initieringsfel</item>
+    <item>Okänd användare</item>
+    <item>market problem</item>
+    <item>Gratis abonnemang</item>
+  </string-array>
+  <string-array name="email_devel_text">
+    <item>Vill du skicka ett email till utvecklarna av CadPage gällande generella fel eller kommentarer?</item>
+    <item>Vill du skicka ett email till utvecklarna av CadPage gällande fel eller problem med detta specifika meddelande?</item>
+    <item>Jösses, det verkar som att CadPage har kraschat. Vill du rapportera problemet till utvecklarna av CadPage?</item>
+    <item>Det här är riktigt illa, CadPage startar inte ens. Vill du rapportera problemet till utvecklarna av CadPage</item>
+  </string-array>
+</resources>
