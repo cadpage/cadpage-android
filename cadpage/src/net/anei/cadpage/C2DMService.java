@@ -31,6 +31,7 @@ public class C2DMService extends IntentService {
   // nothing is received for this amount of time
   private static final int REFRESH_ID_TIMEOUT = 24*60*60*1000; // 1 day
   
+  private static final String GSF_PACKAGE = "com.google.android.gsf";
   private static final String ACTION_C2DM_REGISTER = "com.google.android.c2dm.intent.REGISTER";
   private static final String ACTION_C2DM_UNREGISTER = "com.google.android.c2dm.intent.UNREGISTER";
   private static final String ACTION_C2DM_REGISTERED = "com.google.android.c2dm.intent.REGISTRATION";
@@ -537,6 +538,7 @@ public class C2DMService extends IntentService {
     }
     
     if (intent == null) return false;
+    intent.setPackage(GSF_PACKAGE);
     Log.v("C2DMService sending registration request");
     ContentQuery.dumpIntent(intent);
     intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
