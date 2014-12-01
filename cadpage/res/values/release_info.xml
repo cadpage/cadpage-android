@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11292014</string>
-  <string name="release_version">v1.7.56</string>
+  <string name="release_date">11302014</string>
+  <string name="release_version">v1.7.58</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -14,6 +14,7 @@ Hancock County, KY\n
 Luce County, MI\n
 Ramsey County, MN\n
 Cameron County, MO\n
+Stone County, MO\n
 Columbus County, NC\n
 Trenton, OH\n
 Aransas County, TX\n
@@ -27,6 +28,7 @@ Queen Anne County, MD\n
 Stone County, MO\n
 Monmouth County, NJ\n
 Darlington County, SC\n
+Lincoln County, SD\n
 Collin County, TX\n
 Montgomery County, TX\n
 Wylie, TX\n
