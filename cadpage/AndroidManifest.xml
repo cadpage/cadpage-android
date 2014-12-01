@@ -112,19 +112,10 @@
     <receiver android:name=".ReminderReceiver" />
     <receiver android:name=".C2DMRetryReceiver" />
     <service android:name=".MmsTransactionService"/>
-    <service android:name=".billing.BillingService" />
     <service android:name=".KeepAliveService"/>
     <service android:name=".HttpService"/>
     <service android:name=".TrackingService"/>
     <service android:name=".C2DMService"/>
-    
-    <receiver android:name=".billing.BillingReceiver">
-      <intent-filter>
-        <action android:name="com.android.vending.billing.IN_APP_NOTIFY" />
-        <action android:name="com.android.vending.billing.RESPONSE_CODE" />
-        <action android:name="com.android.vending.billing.PURCHASE_STATE_CHANGED" />
-      </intent-filter>
-    </receiver>
     
     <receiver android:name=".vendors.VendorReceiver">
       <intent-filter>

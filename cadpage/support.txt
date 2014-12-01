@@ -1,5 +1,18 @@
 
 **************************************************************************
+* GCM Registration abort (Service Intent Must be Explicit)
+**************************************************************************
+
+Several other users started reporting this today.  Two reported this only happened once after installing an OTA updated to Android 5.0.  But it still may be connected to the 1.7.57 Cadpage release that went out the same time.
+
+I uploaded a beta release version of Cadpage at http://www.cadpage.org/download-cadpage that rolls back the only 1.7.57 change that might have had anything to do with this.  If the problem does reoccur on your device, could you try installing the beta release and see if that addresses the issue?
+
+I do not have a real phone with Android 5.0 installed.  While testing with an emulator I was able to duplicate this crash problem.  Rolling back the change stops it from crashing, but it still does not successfully register with the Google servers.  I am hoping that it does better on a real device.
+
+Good luck,
+-Ken
+
+**************************************************************************
 * Media Player crash
 **************************************************************************
 

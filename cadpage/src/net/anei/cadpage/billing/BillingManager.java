@@ -72,15 +72,16 @@ public class BillingManager {
         }
         eventQueue = null;
       }
-    });
-    
-    // Queue event to restore our purchase status
-    runWhenSupported(new Runnable(){
 
       @Override
-      public void run() {
-        restoreTransactions();
-      }});
+      public void onIabSetupDisconnected() {
+        supported = false;
+      }
+    });
+    
+    // Restore transactions when billing connection is established
+    // Queue event to restore our purchase status
+    restoreTransactions();
   }
   
   /**
@@ -117,31 +118,36 @@ public class BillingManager {
    * Request transaction history restore
    * @return true if successful
    */
-  public boolean restoreTransactions() {
-    if (!supported) return false;
-    if (inProgress) return false;
-    Log.v("Restore Billing Transactions");
-    inProgress = true;
-    mHelper.queryInventoryAsync(new IabHelper.QueryInventoryFinishedListener(){
+  public void restoreTransactions() {
+    if (mHelper == null) return;
+    
+    Log.v("Queue Restore Billing Transactions");
+    runWhenSupported(new Runnable(){
       @Override
-      public void onQueryInventoryFinished(IabResult result, Inventory inventory) {
+      public void run() {
+        Log.v("Restore Billing Transactions");
+        inProgress = true;
+        mHelper.queryInventoryAsync(false, null, new IabHelper.QueryInventoryFinishedListener(){
+          @Override
+          public void onQueryInventoryFinished(IabResult result, Inventory inventory) {
 
-        inProgress = false;
-        if (mHelper == null) return;
+            inProgress = false;
+            if (mHelper == null) return;
 
-        if (result.isFailure()) {
-            Log.e("Failed to query inventory: " + result);
-            return;
-        }
+            if (result.isFailure()) {
+                Log.e("Failed to query inventory: " + result);
+                return;
+            }
 
-        DonationCalculator calc = new DonationCalculator(1);
-        for (Purchase purchase : inventory.getAllPurchases()) {
-          registerPurchaseState(purchase, calc);
-        }
-        calc.save();
+            DonationCalculator calc = new DonationCalculator(1);
+            for (Purchase purchase : inventory.getAllPurchases()) {
+              registerPurchaseState(purchase, calc);
+            }
+            calc.save();
+          }
+        });
       }
     });
-    return true;
   }
 
   /**
@@ -169,6 +175,7 @@ public class BillingManager {
    */
   public void startPurchase(BillingActivity activity) {
     if (mHelper == null) return;
+    if (!supported) return;
     if (inProgress) return;
     
     if (activity == null) return;
@@ -254,6 +261,7 @@ public class BillingManager {
   public void clearPurchaseInventory() {
     
     if (mHelper == null) return;
+    if (!supported) return;
     if (inProgress) return;
     
     Log.v("Clear purchase inventory");

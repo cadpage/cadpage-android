@@ -192,6 +192,13 @@ public class IabHelper {
          * @param result The result of the setup process.
          */
         public void onIabSetupFinished(IabResult result);
+        
+        /**
+         * Called to notify that previously completed setup
+         * has disconnected.  Billing should be considered offline until
+         * onIabSetup is called again
+         */
+        public void onIabSetupDisconnected();
     }
 
     /**
@@ -213,6 +220,7 @@ public class IabHelper {
             public void onServiceDisconnected(ComponentName name) {
                 logDebug("Billing service disconnected.");
                 mService = null;
+                if (listener != null) listener.onIabSetupDisconnected();
             }
 
             @Override
