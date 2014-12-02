@@ -185,6 +185,7 @@ public class DonationCalculator {
     if (!freeSub1 && freeSub2) return -1;
     
     if (purchaseDateStr == null || calc.purchaseDateStr == null) return 0;
+    if (purchaseDateStr.length() < 4 || calc.purchaseDateStr.length() < 4) return 0;
     return purchaseDateStr.substring(0,4).compareTo(calc.purchaseDateStr.substring(0,4));
   }
 }
