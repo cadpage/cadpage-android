@@ -40,6 +40,7 @@ public class IabResult {
     public String getMessage() { return mMessage; }
     public boolean isSuccess() { return mResponse == IabHelper.BILLING_RESPONSE_RESULT_OK; }
     public boolean isFailure() { return !isSuccess(); }
+    public boolean isRemoteFailure() { return mResponse == IabHelper.IABHELPER_REMOTE_EXCEPTION; }
     public String toString() { return "IabResult: " + getMessage(); }
 }
 

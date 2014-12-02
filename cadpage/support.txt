@@ -1,15 +1,43 @@
 
 **************************************************************************
+* NPE in IabHelper version 1.7.59
+**************************************************************************
+
+Shoot, this isn't supposed to happen any more...
+
+Give me a couple hours to come up with another fix.
+
+Have a nice day,
+-Ken
+
+Are you getting any reports or notices about other apps when this happens?  The basic problem is Cadpage is communicating with some other app, probably the Google Play Store, when the connection is suddenly and unexpectedly broken off.  Which would usually indicate that that other app has crashed unexpectedly.
+
+Along the same lines, to you have some kind of task manager installed.  Something that might go looking for running apps that it thinks are unneeded and killing them off?
+
+Have a nice day,
+-Ken
+
+**************************************************************************
 * GCM Registration abort (Service Intent Must be Explicit)
 **************************************************************************
 
-Several other users started reporting this today.  Two reported this only happened once after installing an OTA updated to Android 5.0.  But it still may be connected to the 1.7.57 Cadpage release that went out the same time.
+This problem is occurring in logic that is only executed when you install a new Cadpage release, or reconnect direct paging, or register with a new direct paging vendor.  So the odds are very good you will see it again.
 
-I uploaded a beta release version of Cadpage at http://www.cadpage.org/download-cadpage that rolls back the only 1.7.57 change that might have had anything to do with this.  If the problem does reoccur on your device, could you try installing the beta release and see if that addresses the issue?
+I just published a new Cadpage release that I am hoping will fix this.  Confidence is fairly high but by no means certain.  The problem is that I do not have a Android 5.0 phone.  I can run Cadpage on a 5.0 emulator and it does not crash, but it does not register successfully either.  I am hoping that is an emulator problem and that it will work properly on a real 5.0 device.
 
-I do not have a real phone with Android 5.0 installed.  While testing with an emulator I was able to duplicate this crash problem.  Rolling back the change stops it from crashing, but it still does not successfully register with the Google servers.  I am hoping that it does better on a real device.
+The release version with this fix is 1.7.59, not 1.7.58 which was published a couple hours ago to fix a different problem.  Been pushing out a lot of release the last couple days.
 
 Good luck,
+-Ken
+
+While Cadpage isn't crashing, and seems to be working well at first glance, the fact that I can not get it to work properly with a 5.0 emulator still bothers me.  I was wondering if I could get someone with a real 5.0 device to do some simple testing for me.
+
+I need someone to open Cadpage Settings and select
+Direct Paging > Reconnect Direct Paging
+
+Then use the Email the Developer setting to send us a support email.  I can tell from the event log in that email whether the registration procedure is working or not.
+
+Thanks a bunch,
 -Ken
 
 **************************************************************************

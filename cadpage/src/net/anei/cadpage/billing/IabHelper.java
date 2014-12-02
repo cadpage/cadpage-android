@@ -682,6 +682,7 @@ public class IabHelper {
             }
 
             logDebug("Consuming sku: " + sku + ", token: " + token);
+            if (mService == null) throw new RemoteException();
             int response = mService.consumePurchase(3, mContext.getPackageName(), token);
             if (response == BILLING_RESPONSE_RESULT_OK) {
                logDebug("Successfully consumed sku: " + sku);
@@ -849,6 +850,7 @@ public class IabHelper {
 
         do {
             logDebug("Calling getPurchases with continuation token: " + continueToken);
+            if (mService == null) throw new RemoteException();
             Bundle ownedItems = mService.getPurchases(3, mContext.getPackageName(),
                     itemType, continueToken);
 
@@ -923,6 +925,7 @@ public class IabHelper {
 
         Bundle querySkus = new Bundle();
         querySkus.putStringArrayList(GET_SKU_DETAILS_ITEM_LIST, skuList);
+        if (mService == null) throw new RemoteException();
         Bundle skuDetails = mService.getSkuDetails(3, mContext.getPackageName(),
                 itemType, querySkus);
 

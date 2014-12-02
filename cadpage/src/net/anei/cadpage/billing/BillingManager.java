@@ -18,6 +18,8 @@ public class BillingManager {
   // The helper object
   private IabHelper mHelper;
   
+  private static final Object LOCK = new Object();
+  
   private boolean supported = false;
   
   private boolean inProgress = false;
@@ -64,18 +66,23 @@ public class BillingManager {
         if (mHelper == null) return;
 
         // OK, everything s up
-        supported = true;
-
-        // Run any events that have been queued waiting for this to happen
-        if (eventQueue != null) {
-          for (Runnable event : eventQueue) event.run();
+        
+        synchronized (LOCK) {
+          supported = true;
+  
+          // Run any events that have been queued waiting for this to happen
+          if (eventQueue != null) {
+            for (Runnable event : eventQueue) event.run();
+          }
+          eventQueue = null;
         }
-        eventQueue = null;
       }
 
       @Override
       public void onIabSetupDisconnected() {
-        supported = false;
+        synchronized (LOCK) {
+          supported = false;
+        }
       }
     });
     
@@ -103,14 +110,16 @@ public class BillingManager {
    * false if it just isn't going to happen
    */
   public boolean runWhenSupported(Runnable event) {
-    if (isSupported()) {
-      event.run();
-      return true;
-    }
-    else {
-      if (eventQueue == null) eventQueue = new ArrayList<Runnable>();
-      eventQueue.add(event);
-      return true;
+    synchronized (LOCK) {
+      if (supported) {
+        event.run();
+        return true;
+      }
+      else {
+        if (eventQueue == null) eventQueue = new ArrayList<Runnable>();
+        eventQueue.add(event);
+        return true;
+      }
     }
   }
   
@@ -136,6 +145,10 @@ public class BillingManager {
 
             if (result.isFailure()) {
                 Log.e("Failed to query inventory: " + result);
+                if (!supported && result.isRemoteFailure()) {
+                  Log.e("Requeing restore transaction request");
+                  restoreTransactions();
+                }
                 return;
             }
 
