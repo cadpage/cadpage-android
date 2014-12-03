@@ -33,7 +33,7 @@ public class ZCAABRedDeerCountyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "reddeer911@reddeer.ca,messaging@iamresponding.com";
+    return "@reddeer.ca,messaging@iamresponding.com";
   }
   
   @Override

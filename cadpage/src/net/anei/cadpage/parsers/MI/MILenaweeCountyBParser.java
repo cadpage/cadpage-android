@@ -14,7 +14,7 @@ public class MILenaweeCountyBParser extends DispatchA9Parser {
   
   @Override
   public String getFilter() {
-    return "paula.boehm@lenawee.mi.us";
+    return "@lenawee.mi.us,@cambridgetownship.net";
   }
   
 }
