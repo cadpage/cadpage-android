@@ -123,6 +123,7 @@ public class ContentQuery {
     }
     Log.v(prefix + "Type:" + intent.getType());
     Log.v(prefix + "Data:" + intent.getDataString());
+    Log.v(prefix + "Pkg:" + intent.getPackage());
     ComponentName comp = intent.getComponent();
     Log.v(prefix + "Comp:" + (comp == null ? null : intent.getComponent().flattenToString()));
     Bundle extra = intent.getExtras();

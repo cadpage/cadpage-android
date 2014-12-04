@@ -14,6 +14,7 @@ import android.app.AlarmManager;
 import android.app.IntentService;
 import android.app.PendingIntent;
 import android.app.Service;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -542,7 +543,9 @@ public class C2DMService extends IntentService {
     Log.v("C2DMService sending registration request");
     ContentQuery.dumpIntent(intent);
     intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
-    return context.startService(intent) != null;
+    ComponentName name = context.startService(intent);
+    Log.v("Processed by " + name);
+    return name != null;
   }
   
   /**
