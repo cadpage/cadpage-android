@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA33Parser extends FieldProgramParser {
 
-  private static final Pattern RUN_REPORT_PATTERN = Pattern.compile("Event No: (\\d{4}-\\d{8}) (Status: ([A-Za-z]+) .*)");
+  private static final Pattern RUN_REPORT_PATTERN = Pattern.compile("Event No: (\\d{4}-\\d{5,8}) (Status: ([A-Za-z]+) .*)");
   
   private String closeStatus;
 
@@ -35,7 +35,7 @@ public class DispatchA33Parser extends FieldProgramParser {
     body = body.substring(0, ei).trim();
 
     // replace newlines with spaces
-    body = body.replace("\n", " ");
+    body = body.replace('\n', ' ');
     
     // detect and parse run reports, else continue    
     Matcher mat = RUN_REPORT_PATTERN.matcher(body);
@@ -56,7 +56,7 @@ public class DispatchA33Parser extends FieldProgramParser {
 
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{4}-\\d{8}", true);
+    if (name.equals("ID")) return new IdField("\\d{4}-\\d{5,8}", true);
     if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("NAME_PLACE")) { return new BaseNamePlaceField(); }
