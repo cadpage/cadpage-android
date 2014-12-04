@@ -26,7 +26,7 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "@c-msg.net";
+    return "@c-msg.net,eoccomm@montcopa.org";
   }
 
   @Override 
