@@ -56,11 +56,17 @@ public class MDWorcesterCountyParser extends GroupBestParser {
     "TAYLORVILLE",
     "WHITEON",
     
+    "BERL",
+    "SH",
+    "WHAL",
+
+    
     // Somerset County
     "WESTOVER",
     "PRINCESS ANNE",
     
     // Accomack County, VA
+    "ATLANTIC",
     "CHINCOTEAGUE",
     "GREENBACKVILLE",
     "HORTOWN",     // typo
@@ -85,9 +91,14 @@ public class MDWorcesterCountyParser extends GroupBestParser {
       "PARKSL",     "PARKSLEY",
       "POCO",       "POCOMOKE",
       "POCOMOK",    "POCOMOKE",
+      
+      "BERL",       "BERLIN",
+      "SH",         "SNOW HILL",
+      "WHAL",       "WHALEYVILLE"
   });
   
   private static final Set<String> VA_CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
+      "ATLANTIC",
       "CHINCOTEAGUE",
       "GREENBACKVILLE",
       "HORNTOWN",

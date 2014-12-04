@@ -12,7 +12,7 @@ public class MDWorcesterCountyAParser extends DispatchOSSIParser {
  
   public MDWorcesterCountyAParser() {
     super(MDWorcesterCountyParser.CITY_LIST, "WORCESTER COUNTY", "MD",
-    		   "SRC? CH? CALL ( CITY ADDR DIR? APT? | ADDR DIR? APT? PLACE+? CITY/Y ) ( DATETIME | X+? INFO+? DATETIME )");
+    		   "FYI? SRC? CH? CALL ( CITY ADDR! DIR? APT? | ADDR! DIR? APT? PLACE+? CITY/Y ) ( DATETIME | X+? INFO+? DATETIME )");
   }
   
   @Override
