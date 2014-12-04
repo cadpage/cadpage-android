@@ -1,12 +1,15 @@
 package net.anei.cadpage.parsers.OR;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class ORBentonCountyParser extends FieldProgramParser {
+  
+  private static final Pattern HIGHWAY_PTN = Pattern.compile("\\bHIGHWAY\\b", Pattern.CASE_INSENSITIVE);
   
   public ORBentonCountyParser() {
     super("BENTON COUNTY", "OR",
@@ -23,6 +26,10 @@ public class ORBentonCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     if (! subject.equals("Corvallis Alert")) return false;
     if (!parseFields(body.split("\n"), data)) return false;
+    
+    // Google has trouble with HIGHWAY 20, so change all highways to hwy
+    data.strAddress = HIGHWAY_PTN.matcher(data.strAddress).replaceAll("HWY");
+    data.strCross = HIGHWAY_PTN.matcher(data.strCross).replaceAll("HWY");
     
     // Now for some special fixes to work around Dispatch map issues
     if (data.strCity.equals("PHILOMATH")) {
@@ -73,8 +80,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
   protected String adjustGpsLookupAddress(String address, String apt) {
     address = address.toUpperCase();
     if (address.contains(" MP ")) {
-      address = address.replace("HIGHWAY", "HWY")
-                       .replace("EDDYVILLE-BLODGETT HWY ", "HWY 180 ")
+      address = address.replace("EDDYVILLE-BLODGETT HWY ", "HWY 180 ")
                        .replace("TERRITORIAL RD ",         "HWY 200 ")
                        .replace("KINGS VALLEY HWY ",       "HWY 223 ")
                        .replace("ALSEA-DEADWOOOD HWY ",    "HWY 501 ")
