@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA33Parser extends FieldProgramParser {
 
-  private static final Pattern RUN_REPORT_PATTERN = Pattern.compile("Event No: (\\d{4}-\\d{5,8}) (Status: ([A-Za-z]+) .*)");
+  private static final Pattern RUN_REPORT_PATTERN = Pattern.compile("Event No: (\\d{4}-?\\d{5,8}) (Status: ([A-Za-z]+) .*)");
   
   private String closeStatus;
 
@@ -26,11 +26,15 @@ public class DispatchA33Parser extends FieldProgramParser {
     
     int pt = body.indexOf("Event No:");
     if (pt < 0) return false;
-    if (pt > 0 && body.charAt(pt-1) != '\n') return false;
+    if (pt > 0) {
+      char chr = body.charAt(pt-1);
+      if (chr != '\n' && chr != ' ') return false;
+    }
     body = body.substring(pt);
 
     // delete event logs
     int ei = body.indexOf("\nEvent Log\n");
+    if (ei < 0) ei = body.indexOf(" Event Log ");
     if (ei < 0) return false;
     body = body.substring(0, ei).trim();
 
@@ -56,7 +60,7 @@ public class DispatchA33Parser extends FieldProgramParser {
 
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{4}-\\d{5,8}", true);
+    if (name.equals("ID")) return new IdField("\\d{4}-?\\d{5,8}", true);
     if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("NAME_PLACE")) { return new BaseNamePlaceField(); }
