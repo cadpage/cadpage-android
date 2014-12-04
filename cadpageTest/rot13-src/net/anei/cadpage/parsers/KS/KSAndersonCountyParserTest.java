@@ -115,7 +115,7 @@ choyvp pynff XFNaqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2014-07649",
         "PNYY:NPPVQRAG 10-47 / AB  VAWHEL",
-        "NQQE:2200 & JLNAQBGG",
+        "NQQE:2200 & JLNAQBGG", //zncf j/b nzcrefnaq
         "QNGR:12/03/2014",
         "GVZR:16:02:54",
         "CUBAR:(785) 448-0772",
@@ -185,7 +185,7 @@ choyvp pynff XFNaqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2014-07594",
         "PNYY:NPPVQRAG 10-48 / VAWHEL",
-        "NQQE:169 & SEPB YVAR",
+        "NQQE:169 & SEPB YVAR", //nzcrefnaq 
         "QNGR:11/29/2014",
         "GVZR:16:32:28",
         "ANZR:FNINTR, WBL  327 IVETVAVN  (785) 204-2941  YRR, PUNAPR     UBYPBZO, FUNYRA",
