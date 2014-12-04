@@ -6,6 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Jbegu Pbhagl, VN
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jbegu Pbhagl VN
 Ybpngvba: Abegujbbq , VN, Havgrq Fgngrf
@@ -91,6 +92,7 @@ Fraqre: <fjznvy@jbegupbhagl.bet>
 (Qvfcngpu vasb) 14-021225 ZRQVPNY PNYY  NZOHYNAPR ERD\a Ercbegrq: 09/08/2014 10:12:06 \a 1707 NGJBBQ EQ \a 16GU FG F / \a ABEGUJBBQ \a 9ASQ ZPN
 (Qvfcngpu vasb) 14-021149 ZRQVPNY PNYY  NZOHYNAPR ERD\a Ercbegrq: 09/07/2014 08:16:31 \a 98 8GU FG F \a 8GU FG A /  1FG NIR F \a UBGRY ABEGUJBBQ  ABEGUJBBQ \a 10 9ASQ ZPN
 (Qvfcngpu vasb) 14-021100 NFFVFGNAPR\a Ercbegrq: 09/06/2014 20:25:16 \a 607 7GU FG A \a 6GU NIR A / \a ABEGUJBBQ \a 13 9ASQ ZPN
+
  */
 
 choyvp pynff VNJbeguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -160,7 +162,7 @@ choyvp pynff VNJbeguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
           "QNGR:11/20/2014",
           "GVZR:21:45:45",
           "NQQE:UJL 9 & GUEHFU NIR",
-          "HAVG:CYLZBHGU");
+          "PVGL:CYLZBHGU");
 
       qbGrfg("G6",
           "(Qvfcngpu vasb) 14-027061 FGEHPGHER SVER ERF/PBZZREPVNY\a" +

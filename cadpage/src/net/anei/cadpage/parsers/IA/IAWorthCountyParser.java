@@ -45,6 +45,9 @@ public class IAWorthCountyParser extends DispatchA28Parser {
     "SILVER LAKE",
     "UNION",
     
+    // Cero Gorda County
+    "PLYMOUNTH",
+    
     // Mitchell County
     "SAINT ANSGAR"
   };
