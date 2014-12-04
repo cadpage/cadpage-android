@@ -120,7 +120,7 @@ choyvp pynff ZBCbcyneOyhssCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201300110152",
         "PNYY:NPPVQRAG / W2",
         "NQQE:ZNHQ",
-        "ZNQQE:ZNHQ & CC",
+        "ZNQQE:ZNHQ & CC", //qbrf abg znc. jung qbrf cc fgnaq sbe?
         "ZNC:ABEGU",
         "K:CC",
         "QNGR:11/29/2014",
@@ -221,7 +221,7 @@ choyvp pynff ZBCbcyneOyhssCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201300109365",
         "PNYY:FUBGF SVERQ",
         "NQQE:F Q",
-        "ZNQQE:F Q & & GUR GENPXF",
+        "ZNQQE:F Q & & GUR GENPXF", //v qbag rira xabj
         "K:ARNE GUR GENPXF",
         "QNGR:11/24/2014",
         "GVZR:00:29:05",
@@ -296,7 +296,7 @@ choyvp pynff ZBCbcyneOyhssCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201300108664",
         "PNYY:FUBGF SVERQ",
         "NQQE:F P",
-        "ZNQQE:F P & & GUR GENPXF",
+        "ZNQQE:F P & & GUR GENPXF", //nabgure bar bs gurfr... nooerivngvbaf
         "K:ARNE GUR GENPXF",
         "QNGR:11/18/2014",
         "GVZR:20:52:45");
