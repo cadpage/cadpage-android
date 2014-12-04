@@ -313,6 +313,7 @@ class Active911Vendor extends Vendor {
       "US/MD/WorcesterCounty",            "MDWorcesterCountyA",
       "US/MI/AlleganCounty",              "MIAlleganCounty",
       "US/MI/AlpenaCounty",               "MIAlpenaCounty",
+      "US/MI/AntrimCounty",               "MIAntrimCounty",
       "US/MI/BarryCounty",                "MIBarryCounty",
       "US/MI/BayCounty",                  "MIBayCountyB",
       "US/MI/CalhounCounty",              "MICalhounCounty",
