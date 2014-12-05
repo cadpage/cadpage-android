@@ -211,10 +211,6 @@ Fraqre: PNQ@lnqxvapbhaglap.tbi
 (1 YNXRIVRJ QE RNFG ORAQ;S Sver Bgure;trb) PNQ:36.220810, -80.511000;PNYYRE NQIVFRQ GURER VF N YVZO BA N FREIVPR YVAR, GUR YVARF NER QBJA NAQ YVZO VF BA GBC BS GURZ VA G BPN: 1309024
 (Grkg Zrffntr) PNQ:201 SNVETEBHAQ EQ RNFG ORAQ;OHEPURGGR YA K ZNEGVA NPERF FG;ZQY 06Q02-N;06 OERNGUVAT CEBOYRZF;trb:36.217372, -80.513299; BPN: 1309023
 
-Pbagnpg: Npgvir911
-Ntrapl anzr: Snyy Perrx Sver Qrcnegzrag
-Ybpngvba: Rnfg Oraq, AP, Havgrq Fgngrf
-
 */
 
 choyvp pynff APLnqxvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
