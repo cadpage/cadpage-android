@@ -13,19 +13,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class NJSomersetCountyAParser extends MsgParser {
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "BOUND B", "BOUND BROOK",
-      "BRANCHB", "BRANCHBURG",
-      "BRIDGEW", "BRIDGEWATER TWP",
-      "FRANKLI", "FRANKLIN TWP",
-      "MONTGOM", "MONTGOMERY TWP",
-      "HOPEWEL", "HOPEWELL TWP",
-      "HILLSBO", "HILLSBOROUGH TWP",
-      "PRINCET", "PRINCETON TWP",
-      "SOMERVI", "SOMERVILLE",
-      "SOUTH B", "SOUTH BOUND BROOK"
-  });
-  
   private static final Pattern MARKER = Pattern.compile("^(?:(?:/ [A-Z0-9 ]* / )?(?:[A-Za-z]+:)?(?:[[^:]*]:)?)?(?:([^: ]+):)?(\\d{8}) *:(\\d\\d/\\d\\d/\\d\\d\\d\\d) (\\d\\d:\\d\\d:\\d\\d):");
   private static final Pattern MASTER = Pattern.compile("(.*?): ([A-Z ]+)-(?! )(?:(.*) / +)?([^\\(]*)(?:\\((.*)\\))?");
   private static final Pattern ROUTE_HWY_PTN = Pattern.compile("\\b(STATE|COUNTY|US) (?:ROUTE|ROAD|HWY)(?: NO)? (\\d+)(?: HWY)?\\b");
@@ -77,6 +64,7 @@ public class NJSomersetCountyAParser extends MsgParser {
       }
       sAddr = sAddr.substring(0,match.start());
     }
+    sAddr = stripFieldEnd(sAddr, " FL %");
     parseAddress(sAddr, data);
     data.strAddress = ROUTE_HWY_PTN.matcher(data.strAddress).replaceFirst("$1 $2");
     return true;
@@ -94,4 +82,23 @@ public class NJSomersetCountyAParser extends MsgParser {
   private String null2empty(String str) {
     return str == null ? "" : str.trim();
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BERNARD", "BERNARD",
+      "BOUND B", "BOUND BROOK",
+      "BRANCHB", "BRANCHBURG",
+      "BRIDGEW", "BRIDGEWATER TWP",
+      "EAST AM", "EAST AMWELL TWP",
+      "FRANKLI", "FRANKLIN TWP",
+      "HILLSBO", "HILLSBOROUGH TWP",
+      "HOPEWEL", "HOPEWELL TWP",
+      "MANVILL", "MANVILLE",
+      "MILLSTO", "MILLSTONE",
+      "MONTGOM", "MONTGOMERY TWP",
+      "PRINCET", "PRINCETON TWP",
+      "RARITAN", "RARITAN",
+      "ROCKY H", "ROCKY HILL",
+      "SOMERVI", "SOMERVILLE",
+      "SOUTH B", "SOUTH BOUND BROOK"
+  });
 }

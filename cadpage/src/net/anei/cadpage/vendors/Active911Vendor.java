@@ -442,6 +442,7 @@ class Active911Vendor extends Vendor {
       "US/NJ/NPD",                        "NJSussexCountyA",
       "US/NJ/Nwbcd",                      "NJSussexCountyA",
       "US/NJ/OceanCounty",                "NJOceanCounty",
+      "US/NJ/SomersetCounty",             "NJSomersetCountyA",
       "US/NJ/SpartaPD",                   "NJSussexCountyA",
       "US/NJ/SussexCountySherif",         "NJSussexCountyB",
       "US/NJ/TomsRiverPolice",            "NJOceanCountyB",
