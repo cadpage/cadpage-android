@@ -63,7 +63,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
         "BAK", "BAKERSFIELD",
         "DEL", "DELANO",
         "INY", "INYOKERN",
-        "KC", "KERN COUNTY",
+        "KC",  "KERN COUNTY",
         "MCF", "MCFARLAND",
     });
 
