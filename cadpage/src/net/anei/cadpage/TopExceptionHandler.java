@@ -173,4 +173,36 @@ public class TopExceptionHandler implements Thread.UncaughtExceptionHandler {
       }});
    
   }
+  
+  /**
+   * Subclass of Thread class that catches and report any exceptions 
+   * thrown while running on this thread
+   */
+  public static class TopExceptionThread extends Thread {
+    
+    public TopExceptionThread() {
+      super();
+    }
+    
+    public TopExceptionThread(String name) {
+      super(name);
+    }
+    
+    public TopExceptionThread(Runnable runnable) {
+      super(runnable);
+    }
+    
+    @Override
+    public void run() {
+      try {
+        super.run();
+      }
+      
+      // Any exceptions that get thrown should be rethrown on the dispatch thread
+      catch (final Exception ex) {
+        reportException(ex);
+      }
+   }
+    
+  }
 }

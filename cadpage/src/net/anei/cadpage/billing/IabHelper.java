@@ -32,6 +32,8 @@ import android.util.Log;
 
 import com.android.vending.billing.IInAppBillingService;
 
+import net.anei.cadpage.TopExceptionHandler.TopExceptionThread;
+
 import org.json.JSONException;
 
 import java.util.ArrayList;
@@ -619,7 +621,7 @@ public class IabHelper {
         checkNotDisposed();
         checkSetupDone("queryInventory");
         flagStartAsync("refresh inventory");
-        (new Thread(new Runnable() {
+        (new TopExceptionThread(new Runnable() {
             public void run() {
                 IabResult result = new IabResult(BILLING_RESPONSE_RESULT_OK, "Inventory refresh successful.");
                 Inventory inv = null;
@@ -682,8 +684,12 @@ public class IabHelper {
             }
 
             logDebug("Consuming sku: " + sku + ", token: " + token);
-            if (mService == null) throw new RemoteException();
-            int response = mService.consumePurchase(3, mContext.getPackageName(), token);
+            int response;
+            try {
+              response = mService.consumePurchase(3, mContext.getPackageName(), token);
+            } catch (NullPointerException ex) {
+              throw new RemoteException();
+            }
             if (response == BILLING_RESPONSE_RESULT_OK) {
                logDebug("Successfully consumed sku: " + sku);
             }
@@ -850,9 +856,14 @@ public class IabHelper {
 
         do {
             logDebug("Calling getPurchases with continuation token: " + continueToken);
-            if (mService == null) throw new RemoteException();
-            Bundle ownedItems = mService.getPurchases(3, mContext.getPackageName(),
-                    itemType, continueToken);
+            Bundle ownedItems;
+            try {
+              ownedItems = 
+                  mService.getPurchases(3, mContext.getPackageName(), itemType, continueToken);
+            } catch (NullPointerException ex) {
+              throw new RemoteException();
+            }
+            if (ownedItems == null) break;
 
             int response = getResponseCodeFromBundle(ownedItems);
             logDebug("Owned items response: " + String.valueOf(response));
@@ -925,10 +936,12 @@ public class IabHelper {
 
         Bundle querySkus = new Bundle();
         querySkus.putStringArrayList(GET_SKU_DETAILS_ITEM_LIST, skuList);
-        if (mService == null) throw new RemoteException();
-        Bundle skuDetails = mService.getSkuDetails(3, mContext.getPackageName(),
-                itemType, querySkus);
-
+        Bundle skuDetails;
+        try {
+          skuDetails = mService.getSkuDetails(3, mContext.getPackageName(), itemType, querySkus);
+        } catch (NullPointerException ex) {
+          throw new RemoteException();
+        }
         if (!skuDetails.containsKey(RESPONSE_GET_SKU_DETAILS_LIST)) {
             int response = getResponseCodeFromBundle(skuDetails);
             if (response != BILLING_RESPONSE_RESULT_OK) {
@@ -958,7 +971,7 @@ public class IabHelper {
                               final OnConsumeMultiFinishedListener multiListener) {
         final Handler handler = new Handler();
         flagStartAsync("consume");
-        (new Thread(new Runnable() {
+        (new TopExceptionThread(new Runnable() {
             public void run() {
                 final List<IabResult> results = new ArrayList<IabResult>();
                 for (Purchase purchase : purchases) {

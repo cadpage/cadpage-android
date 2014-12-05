@@ -13,9 +13,10 @@ import javax.net.ssl.SSLSession;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
+import net.anei.cadpage.TopExceptionHandler.TopExceptionThread;
+
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
-
 import java.net.URL;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -270,7 +271,7 @@ public class HttpService extends Service {
     if (sWakeLock != null) sWakeLock.release();
   }
 
-  private final class HttpServiceThread extends Thread {
+  private final class HttpServiceThread extends TopExceptionThread {
     
     public HttpServiceThread() {
       super("HttpServiceThread");
@@ -280,32 +281,24 @@ public class HttpService extends Service {
 
     @Override
     public void run() {
-      
-      try {
-         
-        while (true) {
-          
-          // Get next request from request queue.  If there aren't any remaining
-          // entries, it is time to kill this service
-          HttpRequest req;
-          synchronized(reqQueue) {
-            req = reqQueue.poll();
-            if (req == null) {
-              stopSelf();
-              return;
-            }
+
+      while (true) {
+        
+        // Get next request from request queue.  If there aren't any remaining
+        // entries, it is time to kill this service
+        HttpRequest req;
+        synchronized(reqQueue) {
+          req = reqQueue.poll();
+          if (req == null) {
+            stopSelf();
+            return;
           }
-          
-          // Build and fire off the Http request
-          req.connect();
         }
-      } 
-      
-      // Any exceptions that get thrown should be rethrown on the dispatch thread
-      catch (final Exception ex) {
-        TopExceptionHandler.reportException(ex);
+        
+        // Build and fire off the Http request
+        req.connect();
       }
-    }
+    } 
   }
 
   /**
