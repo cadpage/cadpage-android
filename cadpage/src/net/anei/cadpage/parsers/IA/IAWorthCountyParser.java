@@ -46,7 +46,7 @@ public class IAWorthCountyParser extends DispatchA28Parser {
     "UNION",
     
     // Cero Gorda County
-    "PLYMOUNTH",
+    "PLYMOUTH",
     
     // Mitchell County
     "SAINT ANSGAR"

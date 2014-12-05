@@ -162,7 +162,8 @@ choyvp pynff VNJbeguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
           "QNGR:11/20/2014",
           "GVZR:21:45:45",
           "NQQE:UJL 9 & GUEHFU NIR",
-          "PVGL:CYLZBHGU");
+          "PVGL:CYLZBHGU",
+          "HAVG:8ZSQ ZPN2");
 
       qbGrfg("G6",
           "(Qvfcngpu vasb) 14-027061 FGEHPGHER SVER ERF/PBZZREPVNY\a" +
