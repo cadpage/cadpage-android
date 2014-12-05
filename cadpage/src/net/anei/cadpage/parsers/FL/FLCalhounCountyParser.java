@@ -36,6 +36,8 @@ public class FLCalhounCountyParser extends FieldProgramParser {
       if (field.length() == 0) {
         field = data.strPlace;
         data.strPlace = "";
+      } else {
+        if (field.equals(data.strPlace)) data.strPlace = "";
       }
       super.parse(field, data);
     }
