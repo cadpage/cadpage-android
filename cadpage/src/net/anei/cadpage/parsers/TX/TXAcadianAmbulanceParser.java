@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.TX;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.general.XXAcadianAmbulanceParser;
 
 /*
@@ -23,4 +24,9 @@ public class TXAcadianAmbulanceParser extends XXAcadianAmbulanceParser {
     return MAP_FLG_SUPPR_LA;
   }
 
+  @Override
+  public boolean parseMsg(String body, Data data) {
+    body = stripFieldStart(body, "AUS CAD SMTP Paging / ");
+    return super.parseMsg(body, data);
+  }
 }

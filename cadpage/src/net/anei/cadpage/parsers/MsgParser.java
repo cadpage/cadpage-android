@@ -767,7 +767,9 @@ public abstract class MsgParser {
        for (int cnt = 0; cnt < trailers.length; cnt++) {
          iTempPt = body.lastIndexOf(' ', iTempPt-1);
          if (iTempPt < 0) break;
-         trailers[cnt] = body.substring(iTempPt+1);
+         String key = body.substring(iTempPt+1);
+         if (ignoreCase) key = key.toUpperCase();
+         trailers[cnt] = key;
        }
        boolean found = false;
        for (int ndx = iKey+1; ndx < keyWords.length; ndx++) {

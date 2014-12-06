@@ -10,7 +10,8 @@ public class XXAcadianAmbulanceParser extends FieldProgramParser {
   
   public XXAcadianAmbulanceParser(String defState) {
     super("", defState,
-           "CALL! Loc:PLACE! Add:ADDR! APT:APT? Cross_St:X! City:CITY! Cnty:CITY! Map_Pg:MAP Dest:INFO Pt's_Name:NAME");
+          "CALL! Loc:PLACE! Add:ADDR! APT:APT? Cross_St:X! City:CITY! Cnty:CITY! Map_Pg:MAP Dest:INFO Pt's_Name:NAME", 
+          FLDPROG_IGNORE_CASE);
   }
   
   @Override
@@ -31,6 +32,13 @@ public class XXAcadianAmbulanceParser extends FieldProgramParser {
     if (!match.find()) return false;
     data.strCallId = match.group(1);
     body = body.substring(match.end());
+    
+    if (body.startsWith("Alerted:")) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      return true;
+    }
+    
     body = body.replace("Loc:", " Loc:").replace("Add:", " Add:").replace("APT:", " APT:").replace("City:", " City:").replace("Cnty:", " Cnty:");
     if (!super.parseMsg(body, data)) return false;
     
