@@ -376,6 +376,7 @@ class Active911Vendor extends Vendor {
       "US/MO/MoniteauCounty",             "MOMoniteauCounty",
       "US/MO/PikeCounty",                 "MOLincolnCounty",
       "US/MO/PolkCounty",                 "MOPolkCounty",
+      "US/MO/PoplarBluffPD",              "MOPoplarBluff",
       "US/MN/RamseyCounty",               "MNRamseyCounty",
       "US/MO/RayCounty",                  "MORayCounty",
       "US/MO/Rejis",                      "MOStLouisCountyE",
