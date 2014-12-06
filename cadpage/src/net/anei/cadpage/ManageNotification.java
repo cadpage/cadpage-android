@@ -50,9 +50,6 @@ public class ManageNotification {
     MediaFailureException(String desc) {
       super(desc);
     }
-    MediaFailureException(String desc, Throwable cause) {
-      super(desc, cause);
-    }
   }
   
   /**
@@ -281,7 +278,13 @@ public class ManageNotification {
           mMediaPlayer.setDataSource(fd.getFileDescriptor(), fd.getStartOffset(), fd.getLength());
           fd.close();
         } else {
-          Uri alarmSoundURI = Uri.parse(ManagePreferences.notifySound());
+          String soundURI = ManagePreferences.notifySound();
+          if (soundURI == null || soundURI.length() == 0) {
+            mMediaPlayer.release();
+            mMediaPlayer = null;
+            return;
+          }
+          Uri alarmSoundURI = Uri.parse(soundURI);
           mMediaPlayer.setDataSource(context, alarmSoundURI);
         }
         mMediaPlayer.prepare();
@@ -293,7 +296,18 @@ public class ManageNotification {
         mMediaPlayer.start();
       }
     } catch (IOException ex) {
-      throw new MediaFailureException(ex.getMessage(), ex);
+      
+      // Failures are fairly common and usually indicate something wrong
+      // with the selected ringtone we are trying to play.  Rather than do
+      // something drastic, we just log the error and proceed without an
+      // audio alert
+      Log.e("Media Player Failure");
+      Log.e(ex);
+      try {
+        mMediaPlayer.stop();
+      } catch (Exception ex2) {}
+      mMediaPlayer.release();
+      mMediaPlayer = null;
     }
     Log.v("Playback started");
   }
