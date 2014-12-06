@@ -25,7 +25,7 @@ public class PABerksCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
     
     // Strip off message trailer
-    int pt = body.indexOf("Sent by Berks County RSAN");
+    int pt = body.indexOf("\n\nSent ");
     if (pt >= 0) body = body.substring(0,pt).trim();
     body = stripFieldEnd(body, "=");
     
