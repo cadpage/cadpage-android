@@ -263,6 +263,7 @@ class Active911Vendor extends Vendor {
       "US/IN/PorterCounty",               "INPorterCounty",
       "US/IN/WayneCounty",                "INWayneCountyBParser",
       "US/IN/VigoCounty",                 "INVigoCounty",
+      "US/KS/AndersonCounty",             "KSAndersonCounty",
       "US/KS/BrownCounty",                "KSBrownCounty",
       "US/KS/CowleyCounty",               "KSCowleyCounty",
       "US/KS/JohnsonCounty",              "KSJohnsonCounty",
