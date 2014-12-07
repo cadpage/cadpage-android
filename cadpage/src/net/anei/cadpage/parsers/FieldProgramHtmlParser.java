@@ -50,8 +50,11 @@ public FieldProgramHtmlParser(String defCity,
     return htmlParser.getValueArray();
   }
 
-  
   public String translate(String raw) {
     return htmlParser.translate(raw);
+  }
+  
+  public void makeFile(String fn) {
+    htmlParser.makeFile(fn);
   }
 }

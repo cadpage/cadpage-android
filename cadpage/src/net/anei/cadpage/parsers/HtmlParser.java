@@ -121,6 +121,18 @@ import org.w3c.dom.NodeList;
  *      This is the highest position in an XPath array from which to use data.  A value of
  *      -1 means no higher bound.  Defaults to -1.
  *    
+ *    LABEL_BEGIN=value
+ *      When retrieving multiple data, use the element containing value as the beginning of the sequence.
+ *      
+ *    LABEL_END=value
+ *      When retrieving multiple data, use the element containing value as the end of the sequence.
+ *      
+ *    INCLUDE_BEGIN
+ *      When set, includes the element containing the LABEL_BEGIN value in the sequence.  Default: unset
+ *      
+ *    INCLUDE_END
+ *      When set, includes the element containing the LABEL_END value in the sequence.  Default: unset
+ *       
  *    REQUIRED
  *      This particular datum is required.  If not present, getHtmlCleaner(html) will return false.
  * 
@@ -178,6 +190,10 @@ public class HtmlParser {
     private String         xPath;
     private int           xBegin;
     private int           xEnd;
+    private String         labelBegin;
+    private String         labelEnd;
+    private boolean       includeBegin;
+    private boolean       includeEnd;
     private boolean       xJava;
     private int           status;
     
@@ -208,6 +224,10 @@ public class HtmlParser {
       xPath("");
       xBegin(0);
       xEnd(-1);
+      labelBegin("");
+      labelEnd("");
+      includeBegin(false);
+      includeEnd(false);
       xJava(false);
       status(STATUS_UNINITIALIZED);
     }
@@ -255,6 +275,14 @@ public class HtmlParser {
     public void xBegin(int xb) { xBegin = xb; }
     public int xEnd() { return xEnd; }
     public void xEnd(int xe) { xEnd = xe; }
+    public String labelBegin() { return labelBegin; }
+    public void labelBegin(String lb) { labelBegin = lb; }
+    public String labelEnd() { return labelEnd; }
+    public void labelEnd(String le) { labelEnd = le; }
+    public boolean includeBegin() { return includeBegin; }
+    public void includeBegin(boolean ib) { includeBegin = ib; }
+    public boolean includeEnd() { return includeEnd; }
+    public void includeEnd(boolean ie) { includeEnd = ie; }
     public boolean xJava() { return xJava; }
     public void xJava(boolean xj) { xJava = xj; }
     public int status() { return status; }
@@ -338,6 +366,10 @@ public class HtmlParser {
       pi.required(true);
     else if (c.equalsIgnoreCase("XJAVA"))
       pi.xJava(true);
+    else if (c.equalsIgnoreCase("INCLUDE_BEGIN"))
+      pi.includeBegin(true);
+    else if (c.equalsIgnoreCase("INCLUDE_END"))
+      pi.includeEnd(true);
     else
       if (c.contains("=")) {
         int ep = c.indexOf('=');
@@ -383,6 +415,10 @@ public class HtmlParser {
       pi.xBegin(Integer.parseInt(v));
     else if (a.equalsIgnoreCase("xend"))
       pi.xEnd(Integer.parseInt(v));
+    else if (a.equalsIgnoreCase("label_begin"))
+      pi.labelBegin(stringContent(v));
+    else if (a.equalsIgnoreCase("label_end"))
+      pi.labelEnd(stringContent(v));
     else
       pi.domain(a.toLowerCase()+"="+v);
   }
@@ -619,14 +655,10 @@ public class HtmlParser {
       }  catch (XPatherException e) {
         throw new RuntimeException(e.getMessage());
       }
-      for (int n=pi.xBegin(); n<node.length && (pi.xEnd() == -1 || n<=pi.xEnd()); n++) {
-//        System.out.println("'"+((TagNode)node[n]).getName()+"'");
-        String v = ((TagNode)node[n]).getText().toString();
-        if (pi.exclude().equals("") || !v.contains(pi.exclude()))
-          pi.value(append(pi.value(), pi.separator(), cleanValue(v, pi)));
-      }
+      for (int n=pi.xBegin(); n<node.length && (pi.xEnd() == -1 || n<=pi.xEnd()); n++)
+        addValue(((TagNode)node[n]).getText().toString(), pi);
+    pi.status(STATUS_OK);
     }
-    pi.status(STATUS_OK);    
   }
 
   /*
@@ -642,10 +674,11 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
     try {
       nl = (NodeList) xpath.evaluate(pi.xPath, doc, XPathConstants.NODESET);
     } catch (XPathExpressionException e) {
-      throw new RuntimeException("XPath Error");
+      e.printStackTrace();
+      throw new RuntimeException(e.getMessage());
     }
     for (int i=0; i<nl.getLength(); i++)
-      pi.value(append(pi.value, pi.separator(), cleanValue(nl.item(i).getTextContent(), pi)));
+      addValue(nl.item(i).getTextContent(), pi);
   }
   
   /*
@@ -687,7 +720,7 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
       Iterator<String> tag = tagSet.iterator();
       while (tag.hasNext()) {
         ParseInfo pi = layout.get(tag);
-        pi.status(pi.status() | STATUS_DOMAIN);
+        pi.status(STATUS_DOMAIN);
       }
       return;
     }
@@ -770,11 +803,8 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
 //      System.out.println("pi.label: "+pi.label()+"pi.row: "+pi.row()+", pi.col: "+pi.col());
       if (pi.row() != -2 && pi.col() != -2) {
         if ((pi.row() == -1 || pi.row() == rowNum)
-            && (pi.col() == -1 || pi.col() == colNum)) {
-          if (pi.exclude().equals("") || !cell.getText().toString().contains(pi.exclude()))
-            pi.value(append(pi.value, pi.separator(), cleanValue(cell.getText().toString(), pi)));
-          pi.status(STATUS_OK);
-        }
+            && (pi.col() == -1 || pi.col() == colNum))
+          addValue(cell.getText().toString(), pi);
       }
       else
         if (!pi.label().equals("")) {
@@ -827,25 +857,57 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
       String tag = t.next();
       ParseInfo pi = layout.get(tag);
       if (pi.label().equals("")) {
-        Iterator<Integer> o = pi.offset().iterator();
-        while (o.hasNext()) {
-          int os = o.next();
-          if (os < nodes.length) {
-            TagNode vnode = nodes[os];
-            String v = vnode.getText().toString();
-            if (pi.exclude().equals("") || !v.contains(pi.exclude()))
-              pi.value(append(pi.value(), pi.separator(), cleanValue(v, pi)));
+        if (pi.labelBegin().equals("")) {
+          Iterator<Integer> o = pi.offset().iterator();
+          while (o.hasNext()) {
+            int os = o.next();
+            if (os < nodes.length) {
+              TagNode vnode = nodes[os];
+              addValue(vnode.getText().toString(), pi);
+            }
+            else
+              pi.status(STATUS_OFFSET);
           }
-          else
-            pi.status(STATUS_OFFSET);
         }
+        else
+          findSequenceValue(nodes, pi);
         done.add(tag);
       }
-      pi.status(STATUS_OK);
     }
     removeTags(tagSet, done);
   }
   
+  /*
+   * Find a sequence value using labelBegin(), etc.
+   */
+  private void findSequenceValue(TagNode[] nodes, ParseInfo pi) {
+    boolean inSeq = false;
+    for (int n=0; n<nodes.length; n++) {
+      String v = nodes[n].getText().toString();
+      if (inSeq) {
+        if (v.contains(pi.labelEnd())) {
+          if (pi.includeEnd())
+            addValue(v, pi);
+          return;
+        }
+        addValue(v, pi);
+      }
+      else
+        if (v.contains(pi.labelBegin())) {
+          if (pi.includeBegin())
+            addValue(v, pi);
+          inSeq = true;
+        }
+    }
+  }
+  
+  /*
+   * Add a value to pi.value
+   */
+  private void addValue(String v, ParseInfo pi) {
+    if (pi.exclude().equals("") || !v.contains(pi.exclude()))
+      pi.value(append(pi.value(), pi.separator(), cleanValue(v, pi)));
+  }
   /*
    * Set operation:  from = from - remove
    */
@@ -877,10 +939,8 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
                 int off = n+o.next();
                 if (off >=0 && off < nodes.length) {
                   vnode = nodes[off];
-                  v = vnode.getText().toString();
-                  if (pi.exclude().equals("") || !v.contains(pi.exclude()))
-                    pi.value(append(pi.value(), pi.separator(), cleanValue(v, pi)));
-                }
+                  addValue(vnode.getText().toString(), pi);
+                 }
               }
             }
           }
@@ -925,13 +985,13 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
                 && y - testY <= pi.yMin()) {
               if (pi.multiple())
 //              System.out.println("x:"+testX+", y:"+testY+", text:"+testNode.getText().toString());
-                pi.value(append(pi.value(), pi.separator(), cleanValue(testNode.getText().toString(), pi)));
+                addValue(testNode.getText().toString(), pi);
               else {
                 int distance = (testX - x)*(testX - x) + (testY - y)*(testY - y);
                 if (del == -1 || distance < del) {
                   del = distance;
 //              System.out.println("del:"+del+", x:"+testX+", y:"+testY+", text:"+testNode.getText().toString());
-                  pi.value(cleanValue(testNode.getText().toString(), pi));
+                  addValue(testNode.getText().toString(), pi);
                 }
               }
             }
@@ -985,12 +1045,6 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
     int n = Integer.parseInt(dom.substring(e+1));
     return getElement(el, n);
   }
-
-  /*
-   * 
-   * subclass access methods.  It is strongly recommended to
-   * use getValue() with a layout to access all data.
-   */
 
   /*
    * Returns the status value for a tag
@@ -1061,6 +1115,22 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
     }
   }
 
+  /*
+   * Return a program string constructed from the (ordered) layout tag values
+   */
+  protected String getTagString() {
+    String l = "";
+    Set<String> ks = layout.keySet();
+    Iterator<String> i = ks.iterator();
+    while (i.hasNext()) {
+      l += i.next();
+      if (i.hasNext())
+        l += " ";
+    }
+    return l;
+  }
+  
+  
   /*
    * Return an array of values in the same order as the layout entries were given 
    */
