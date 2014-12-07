@@ -14,7 +14,7 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
   
   public NYMadisonCountyGLASParser() {
     super(CITY_LIST, "MADISON COUNTY", "NY",
-          "Address:ADDR! Response_Type:CALL! GLAS_DISPATCH!");
+          "Address:ADDR! Response_Type:CALL!");
   }
   
   @Override
@@ -28,7 +28,7 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
     body = body.replace("=20\n", "\n").trim();
     
     String[] flds = DELIM.split(body);
-    if (flds.length > 1) {
+    if (flds.length == 3 && flds[2].trim().equals("GLAS Dispatch")) {
       return super.parseFields(flds, data);
     }
     
@@ -78,11 +78,10 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("GLAS_DISPATCH")) return new SkipField("GLAS Dispatch", true);
     return super.getField(name);
   }
   
-  private static final Pattern MAP_PTN = Pattern.compile("\\b-(L\\d+|SUNY)\\b");
+  private static final Pattern MAP_PTN = Pattern.compile("\\b-([A-Z]*\\d+|SUNY)\\b");
   private static final Pattern CITY_TRAIL_PTN = Pattern.compile("(?:VILLAGE|CITY|HAMLET)\\b *");
   private class MyAddressField extends AddressField {
     @Override
