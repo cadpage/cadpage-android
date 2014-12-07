@@ -91,12 +91,16 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
       int pt = field.lastIndexOf(';');
       if (pt >= 0) field = field.substring(0,pt).trim();
       
+      String extra = null;
       Matcher match = MAP_PTN.matcher(field);
       if (match.find()) {
-        data.strMap = match.group(1);
+        extra = '(' + match.group(1) + ')';
         field = append(field.substring(0,match.start()), " ", field.substring(match.end()));
       }
       parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, field, data);
+      
+      if (extra != null) data.strAddress = append(data.strAddress, " ", extra);
+      
       String left = getLeft();
       if (data.strCity.length() > 0) {
         match = CITY_TRAIL_PTN.matcher(left);
@@ -116,7 +120,7 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "ADDR APT PLACE CITY MAP X";
+      return "ADDR APT PLACE CITY X";
     }
   }
   

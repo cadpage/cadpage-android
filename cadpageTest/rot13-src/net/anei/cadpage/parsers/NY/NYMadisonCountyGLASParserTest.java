@@ -274,7 +274,54 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgXlyrPnfury() {
-    
+
+    qbGrfg("G1",
+        "{Terngre Yrabk}Nqqerff: 5111 EBHGR 20 RNGBA JVYYVNZF PBEAREF EQ/ ; 5111\a\aErfcbafr Glcr: Hapbafpvbhf/Snvagvat \a\a  TYNF Qvfcngpu\a\a",
+        "NQQE:5111 EBHGR 20",
+        "PVGL:RNGBA",
+        "K:JVYYVNZF PBEAREF EQ",
+        "PNYY:Hapbafpvbhf/Snvagvat");
+
+    qbGrfg("G2",
+        "{Terngre Yrabk}Nqqerff: 9 PURANATB ZBEEVFIVYYR IVYYNTR-FHAL /R ZNVA ; 9\a\aErfcbafr Glcr: Cflpuvngvp/Fhvpvqr \a\a  TYNF Qvfcngpu\a\a",
+        "NQQE:9 PURANATB (FHAL)",
+        "ZNQQE:9 PURANATB",
+        "PVGL:ZBEEVFIVYYR",
+        "K:R ZNVA",
+        "PNYY:Cflpuvngvp/Fhvpvqr");
+
+    qbGrfg("G3",
+        "{Terngre Yrabk}Nqqerff: 20 FBHGU PVEPYR EQ FBHGU UNYY ; 20\a\aErfcbafr Glcr: Oernguvat Ceboyrz \a\a  TYNF Qvfcngpu\a\a",
+        "NQQE:20 FBHGU PVEPYR EQ",
+        "CYNPR:FBHGU UNYY",
+        "PVGL:ZBEEVFIVYYR",
+        "PNYY:Oernguvat Ceboyrz");
+
+    qbGrfg("G4",
+        "{Terngre Yrabk}Nqqerff: R PNANY PNANFGBGN IVYYNTR PYNEX/YRYNAQ T JEVTUG NI \a\aErfcbafr Glcr: Grfg Pnyy \a\a  TYNF Qvfcngpu\a\a",
+        "NQQE:R PNANY",
+        "ZNQQE:R PNANY & PYNEX",
+        "PVGL:PNANFGBGN",
+        "K:PYNEX/YRYNAQ T JEVTUG NI",
+        "PNYY:Grfg Pnyy");
+
+    qbGrfg("G5",
+        "{Terngre Yrabk}Nqqerff: 3055 JRYYRE GE YRABK-Y22 ; 3055=20\aErfcbafr Glcr: Hapbafpvbhf/Snvagvat=20\a  TYNF Qvfcngpu\a",
+        "NQQE:3055 JRYYRE GE (Y22)",
+        "ZNQQE:3055 JRYYRE GE",
+        "PVGL:YRABK",
+        "PNYY:Hapbafpvbhf/Snvagvat");
+
+    qbGrfg("G6",
+        "{Terngre Yrabk}Nqqerff: 109 RYZ JNZCFIVYYR IVYYNTR PVGGL YA/J RYZ FG BARVQN JNZCFIVYYR YVAR ; 109=20\a" +
+        "Erfcbafr Glcr: Urneg Ceboyrz=20\a" +
+        "  TYNF Qvfcngpu\a",
+
+        "NQQE:109 RYZ",
+        "PVGL:JNZCFIVYYR",
+        "K:PVGGL YA/J RYZ FG BARVQN JNZCFIVYYR YVAR",
+        "PNYY:Urneg Ceboyrz");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
