@@ -42,6 +42,15 @@ SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:ZIN - Crefbany Vawhel\e
 {Terngre Yrabk}=20\aFgebxr/PIN\a109 PYNEX , PNANFGBGN IVYYNTR ( R PUNCRY / R PNANY)
 {Terngre Yrabk}=20\aSnyyf\a@QBYYNE TRARENY (419 FBHGU CRGREOBEB FG (PNANFGBGN )
 
+Pbagnpg: "Xlyr Z. Pnfury" <xpnfury@tznvy.pbz>
+Fraqre: TPZ
+{Terngre Yrabk}Nqqerff: 5111 EBHGR 20 RNGBA JVYYVNZF PBEAREF EQ/ ; 5111\a\aErfcbafr Glcr: Hapbafpvbhf/Snvagvat \a\a  TYNF Qvfcngpu\a\a
+{Terngre Yrabk}Nqqerff: 9 PURANATB ZBEEVFIVYYR IVYYNTR-FHAL /R ZNVA ; 9\a\aErfcbafr Glcr: Cflpuvngvp/Fhvpvqr \a\a  TYNF Qvfcngpu\a\a
+{Terngre Yrabk}Nqqerff: 20 FBHGU PVEPYR EQ FBHGU UNYY ; 20\a\aErfcbafr Glcr: Oernguvat Ceboyrz \a\a  TYNF Qvfcngpu\a\a
+{Terngre Yrabk}Nqqerff: R PNANY PNANFGBGN IVYYNTR PYNEX/YRYNAQ T JEVTUG NI \a\aErfcbafr Glcr: Grfg Pnyy \a\a  TYNF Qvfcngpu\a\a
+{Terngre Yrabk}Nqqerff: 3055 JRYYRE GE YRABK-Y22 ; 3055=20\aErfcbafr Glcr: Hapbafpvbhf/Snvagvat=20\a  TYNF Qvfcngpu\a
+{Terngre Yrabk}Nqqerff: 109 RYZ JNZCFIVYYR IVYYNTR PVGGL YA/J RYZ FG BARVQN JNZCFIVYYR YVAR ; 109=20\aErfcbafr Glcr: Urneg Ceboyrz=20\a  TYNF Qvfcngpu\a
+
 */
 
 choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -261,6 +270,11 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:419 FBHGU CRGREOBEB FG",
         "PVGL:PNANFGBGN");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXlyrPnfury() {
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

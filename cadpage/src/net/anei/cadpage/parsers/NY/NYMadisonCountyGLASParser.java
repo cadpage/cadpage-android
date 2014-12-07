@@ -1,20 +1,20 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.MsgParser;
 
-
-
-public class NYMadisonCountyGLASParser extends MsgParser {
+public class NYMadisonCountyGLASParser extends FieldProgramParser {
   
+  private static final Pattern DELIM = Pattern.compile("\n+");
   private static final Pattern MASTER = Pattern.compile("(.*?)\n+(.*?)(?: *, (.*?))?(?: \\((.*?)\\)?)?");
   
   public NYMadisonCountyGLASParser() {
-    super("MADISON COUNTY", "NY");
-    setFieldList("CALL PLACE ADDR APT CITY X");
+    super(CITY_LIST, "MADISON COUNTY", "NY",
+          "Address:ADDR! Response_Type:CALL! GLAS_DISPATCH!");
   }
   
   @Override
@@ -25,10 +25,16 @@ public class NYMadisonCountyGLASParser extends MsgParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Greater Lenox")) return false;
+    body = body.replace("=20\n", "\n").trim();
     
-    body = stripFieldStart(body, "=20\n");
+    String[] flds = DELIM.split(body);
+    if (flds.length > 1) {
+      return super.parseFields(flds, data);
+    }
+    
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
+    setFieldList("CALL PLACE ADDR APT CITY X");
     data.strCall = match.group(1).trim();
     String sPart1 = match.group(2).trim();
     String sPart2 = getOptGroup(match.group(3));
@@ -68,5 +74,85 @@ public class NYMadisonCountyGLASParser extends MsgParser {
     }
     return true;
   }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("GLAS_DISPATCH")) return new SkipField("GLAS Dispatch", true);
+    return super.getField(name);
+  }
+  
+  private static final Pattern MAP_PTN = Pattern.compile("\\b-(L\\d+|SUNY)\\b");
+  private static final Pattern CITY_TRAIL_PTN = Pattern.compile("(?:VILLAGE|CITY|HAMLET)\\b *");
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      int pt = field.lastIndexOf(';');
+      if (pt >= 0) field = field.substring(0,pt).trim();
+      
+      Matcher match = MAP_PTN.matcher(field);
+      if (match.find()) {
+        data.strMap = match.group(1);
+        field = append(field.substring(0,match.start()), " ", field.substring(match.end()));
+      }
+      parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, field, data);
+      String left = getLeft();
+      if (data.strCity.length() > 0) {
+        match = CITY_TRAIL_PTN.matcher(left);
+        if (match.lookingAt()) left = left.substring(match.end());
+        
+        String city = PLACE_CITY_TABLE.getProperty(data.strCity);
+        if (city != null) {
+          data.strPlace = data.strCity;
+          data.strCity = city;
+        }
+
+      }
+      left = stripFieldStart(left, "/");
+      left = stripFieldEnd(left, "/");
+      data.strCross = left;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR APT PLACE CITY MAP X";
+    }
+  }
+  
+  private static final String[] CITY_LIST = new String[]{
+    "BRIDGEPORT",
+    "BROOKFIELD",
+    "CANASTOTA",
+    "CAZENOVIA",
+    "CAZENOVIA",
+    "CHITTENANGO",
+    "DERUYTER",
+    "DERUYTER",
+    "EARLVILLE",
+    "EATON",
+    "FENNER",
+    "GEORGETOWN",
+    "HAMILTON",
+    "HAMILTON",
+    "LEBANON",
+    "LENOX",
+    "LINCOLN",
+    "MADISON",
+    "MADISON",
+    "MORRISVILLE",
+    "MUNNSVILLE",
+    "NELSON",
+    "ONEIDA",
+    "SMITHFIELD",
+    "SOUTH HALL",
+    "STOCKBRIDGE",
+    "SULLIVAN",
+    "WAMPSVILLE"
+  };
+  
+  private static final Properties PLACE_CITY_TABLE = buildCodeTable(new String[]{
+      "SOUTH HALL",        "MORRISVILLE"
+  });
 }
 	
