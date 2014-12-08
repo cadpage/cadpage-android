@@ -1,3 +1,8 @@
+Version 5.0 12/08/2014
+
+Fixed case insensitive keyword processing to properly handle truncated keywords
+at the end of the message
+
 Version 4.0 11/14/2014
 
 Added "GR" to list of valid road suffixes

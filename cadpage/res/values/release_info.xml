@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12052014</string>
-  <string name="release_version">v1.7.62</string>
+  <string name="release_date">12082014</string>
+  <string name="release_version">v1.7.63</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
+New Locations:\n
+Cleburn County, AL\n
+Kern County, CA\n
+Cheshire, CT\n
+Anderson County, KS\n
+Antrim County, MI\n
+Poplar Bluff, MO\n
+Bethlehem, NY\n
+Nanaimo, BC, Canada\n
+\n
 Location Parsing Fixes:\n
-Worth County, IA\n
-Worcester County, MD\n
-Somerset County, NJ\n
-Benton County, OR\n
-Merion County, PA\n
-Bell County, TX\n
+Berks County, PA\n
+Overton County, TN\n
+Acadian Ambulance, TX\n
 \n
 General Fixes:\n
-Fixed another crash in new in-app purchase logic\n
+Fixed crash trying to play invalid ringtone selection while
+overriding mute/volume control\n
   </string>
 </resources>
   

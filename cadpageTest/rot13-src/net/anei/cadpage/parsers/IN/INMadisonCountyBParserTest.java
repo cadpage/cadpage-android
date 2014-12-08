@@ -7743,7 +7743,7 @@ choyvp pynff VAZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:A EG 13 & A EG 37",
         "PVGL:Aboyrfivyyr",
         "HAVG:4841, 4844, RZ1",
-        "VASB:nffvg unzvygba pb");
+        "VASB:nffvg unzvygba");
 
     qbGrfg("G95",
         "(PSF) Pnyy Glcr: Sver Vairfgvtngvba Nqqerff: J EG 128@ A PBEQ 200 J , Nyrknaqevn Havgf: 4837, SER31, SER32, SEE35, SEP1, RZ1 Vasb: YVAR QBJA - CBFF YVAR OEBXR",

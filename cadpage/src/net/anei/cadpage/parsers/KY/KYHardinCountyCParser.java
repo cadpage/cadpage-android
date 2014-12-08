@@ -30,9 +30,7 @@ public class KYHardinCountyCParser extends FieldProgramHtmlParser {
 
   @Override
   public String getProgram() {
-    return append(super.getProgram(),
-                    " ",
-                    "ID ADDR APT PLACE X CITY DATE TIME CALL PRI UNIT MAP NAME PHONE INFO");
+      return "ID ADDR APT PLACE X CITY DATE TIME CALL PRI UNIT MAP NAME PHONE INFO";
   }
   
   private static final Pattern SUBJECT_PATTERN
