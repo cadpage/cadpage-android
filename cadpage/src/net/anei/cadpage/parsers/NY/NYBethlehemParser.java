@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.NY;
 import net.anei.cadpage.parsers.dispatch.DispatchA5Parser;
 
 /**
- * Bethlehem, NJ
+ * Bethlehem, NY
  */
 public class NYBethlehemParser extends DispatchA5Parser {
     
