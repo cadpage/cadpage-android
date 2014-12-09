@@ -176,7 +176,7 @@ public class SmsReceiver extends BroadcastReceiver {
 
     // And finally, launch the main application screen
     if (process) {
-      CallHistoryActivity.launchActivity(context, notify);
+      CallHistoryActivity.launchActivity(context, notify, message);
     }
     
     // If we did not launch the application screen, do the notification stuff

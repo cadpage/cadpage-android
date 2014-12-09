@@ -28,7 +28,8 @@ public class CallHistoryActivity extends ListActivity {
   
   private static String EXTRA_NOTIFY = "net.anei.cadpage.CallHistoryActivity.NOTIFY";
   private static String EXTRA_SHUTDOWN = "net.anei.cadpage.CallHistoryActivity.SHUTDOWN";
-  private static String EXTRA_POPUP = "net.anei.cadpage.CallHistoryAcivity.POPUP";
+  private static String EXTRA_POPUP = "net.anei.cadpage.CallHistoryActivity.POPUP";
+  private static String EXTRA_MSG_ID = "net.anei.cadpage.CallHistoryActivity.MSG_ID";
   
   private static final int RELEASE_DIALOG = 1;
   
@@ -36,6 +37,8 @@ public class CallHistoryActivity extends ListActivity {
   private HistoryMsgTextView msgTextView = null;
   
   private static CallHistoryActivity mainActivity = null;
+  
+  private static int lockMsgId = -1;
 
   /* (non-Javadoc)
    * @see android.app.Activity#onCreate(android.os.Bundle)
@@ -114,6 +117,21 @@ public class CallHistoryActivity extends ListActivity {
     Log.v("CallHistoryActivity.startup()");
     ContentQuery.dumpIntent(intent);
     
+    // We have an occasional problem when an old intent is sent with the
+    // intent of restoring the Cadpage display.  But has several unfortunate
+    // side effects like immediately cancelling the wake lock
+    // Solution - when were were started with the intent of displaying a new
+    // message, ignore all extraneous intents until we find the one that
+    // displays the new page
+    if (lockMsgId >= 0) {
+      int msgId = intent.getIntExtra(EXTRA_MSG_ID, -1);
+      if (msgId != lockMsgId) {
+        Log.v("Discarding spurious intent");
+        return;
+      }
+      lockMsgId = -1;
+    }
+    
     // If this is a shutdown request, that is as far as we need to go
     if (intent.getBooleanExtra(EXTRA_SHUTDOWN, false)) {
       finish();
@@ -146,8 +164,14 @@ public class CallHistoryActivity extends ListActivity {
     
     // Otherwise, if we should automatically display a call, do it now
     else {
-      boolean force = intent.getBooleanExtra(EXTRA_POPUP, false);
-      SmsMmsMessage msg = SmsMessageQueue.getInstance().getDisplayMessage(force);
+      SmsMmsMessage msg = null;
+      int msgId = intent.getIntExtra(EXTRA_MSG_ID, -1);
+      if (msgId >= 0) {
+        msg = SmsMessageQueue.getInstance().getMessage(msgId);
+      } else {
+        boolean force = intent.getBooleanExtra(EXTRA_POPUP, false);
+        msg = SmsMessageQueue.getInstance().getDisplayMessage(force);
+      }
       if (msg != null)  {
         
         // Before we open the call display window, see if notifications were requested
@@ -163,7 +187,7 @@ public class CallHistoryActivity extends ListActivity {
         // OK, go ahead and open the call display window
         // Delay by 100 msecs in attempt to avoid a nasty badtokenException.
         final Activity context = this;
-        final int msgId = msg.getMsgId();
+        msgId = msg.getMsgId();
         new Handler().postDelayed(new Runnable(){
           @Override
           public void run() {
@@ -323,10 +347,14 @@ public class CallHistoryActivity extends ListActivity {
   /**
    * Launch activity
    */
-  public static void launchActivity(Context context, boolean notify) {
+  public static void launchActivity(Context context, boolean notify, SmsMmsMessage msg) {
     Intent intent = getLaunchIntent(context);
     if (notify) intent.putExtra(EXTRA_NOTIFY, true);
     intent.addFlags(Intent.FLAG_ACTIVITY_NO_USER_ACTION);
+    if (msg != null) {
+      lockMsgId = msg.getMsgId();
+      intent.putExtra(EXTRA_MSG_ID, lockMsgId);
+    }
     
     context.startActivity(intent);
   }
