@@ -56,6 +56,7 @@ public class MOStoneCountyBParser extends DispatchA48Parser {
   );
 
   private static final String[] CITY_LIST = new String[]{
+    "BILLINGS",
     "BLUE EYE",
     "BRANSON",
     "BRANSON WEST",
