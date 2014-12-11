@@ -364,21 +364,21 @@
   <string name="pref_reconnect_title">Återanslut direkt koppling (med. service)</string>
   <string name="pref_reconnect_summary">Återställ anslutning till aktiverad meddelandeservice</string>
   
-  <!--  Filter   settings -->  <!-- Translate on! -->
-  <string name="pref_filter_settings_title">Filter Settings</string>
-  <string name="pref_filter_settings_summary">Options to specify special handling for certain types of alerts</string>
-  <string name="pref_gen_alert_option_title">General Alert Options</string>
-  <string name="pref_gen_alert_option_summary">General alert processing\n%s</string>
-  <string name="pref_run_report_option_title">Run Report Options</string>
-  <string name="pref_run_report_option_summary">Run report processing\n%s</string>
+  <!--  Filter   settings -->  
+  <string name="pref_filter_settings_title">Filtreringsinställningar</string>
+  <string name="pref_filter_settings_summary">Val för att specificera hur vissa typer av larm ska hanteras</string>
+  <string name="pref_gen_alert_option_title">Val för General Alerts</string>
+  <string name="pref_gen_alert_option_summary">Hantering av General alert\n%s</string>
+  <string name="pref_run_report_option_title">Kör val för Report</string>
+  <string name="pref_run_report_option_summary">Hantering av Report\n%s</string>
   
-  <string name="pref_alert_option_normal">Normal processing</string>
-  <string name="pref_alert_option_no_notice">No alert</string>
-  <string name="pref_alert_option_no_popup">No popup detail</string>
-  <string name="pref_alert_option_no_notice_popup">No alert or popup detail</string>
-  <string name="pref_alert_option_ignore">Ignore</string>
-  <string name="pref_alert_option_discard">Discard</string>
-  <!-- Translate off -->
+  <string name="pref_alert_option_normal">Normal hantering</string>
+  <string name="pref_alert_option_no_notice">Inget larm</string>
+  <string name="pref_alert_option_no_popup">Inga detaljer i popup</string>
+  <string name="pref_alert_option_no_notice_popup">Inget larm och inga detaljer i popup</string>
+  <string name="pref_alert_option_ignore">Ignorera</string>
+  <string name="pref_alert_option_discard">Ångra</string>
+  
   
   <!-- Scanner Radio Interface reports -->
   <string name="scanner_not_installed">Den här funktionen förutsätter att du har vissa scannerapplikationer installerade.  Vill du installera dessa nu?</string>
