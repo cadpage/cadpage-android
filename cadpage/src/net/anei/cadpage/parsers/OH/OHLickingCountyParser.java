@@ -92,14 +92,25 @@ public class OHLickingCountyParser extends SmartAddressParser {
   }
   
   private static final CodeSet CALL_LIST = new CodeSet(
+      "ABDOMINAL PAIN-EMS",
+      "ALARM COMMERCIAL FIRE-FIRE",
       "CHEST PAIN",
       "BREATHING PROBLEMS-EMS",
+      "DIABETIC PROBLEMS-EMS",
+      "FIRE RESIDENTIAL STRUCTURE-FIRE",
+      "HEART PROBLEMS-EMS",
       "ILLNESS",
       "ILLNESS-EMS",
+      "INJURY-EMS",
       "NATURAL GAS LEAK",
+      "NATURAL GAS LEAK-FIRE",
+      "PERSONAL ASSIST-EMS",
+      "SEIZURE-EMS",
       "SERVICE RUN",
       "TRAFFIC ACCIDENT",
-      "UNCONSCIOUS PERSON-EMS"
+      "TRAFFIC ACCIDENT-EMS",
+      "UNCONSCIOUS PERSON-EMS",
+      "WORKING FIRE RESIDENTIAL-FIRE"
   );
 
   private static final String[] CITY_LIST = new String[]{
