@@ -83,6 +83,7 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
   
   private static final Pattern MAP_PTN = Pattern.compile("\\b-([A-Z]*\\d+|SUNY)\\b");
   private static final Pattern CITY_TRAIL_PTN = Pattern.compile("(?:VILLAGE|CITY|HAMLET)\\b *");
+  private static final Pattern APT_PTN = Pattern.compile("(?:APT|#) *([^ ]+) *");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -112,6 +113,12 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
         }
 
       }
+      
+      match = APT_PTN.matcher(left);
+      if (match.lookingAt()) {
+        data.strApt = append(data.strApt, " ", match.group(1));
+        left = left.substring(match.end());
+      }
       left = stripFieldStart(left, "/");
       left = stripFieldEnd(left, "/");
       data.strCross = left;
@@ -128,20 +135,16 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
     "BROOKFIELD",
     "CANASTOTA",
     "CAZENOVIA",
-    "CAZENOVIA",
     "CHITTENANGO",
-    "DERUYTER",
     "DERUYTER",
     "EARLVILLE",
     "EATON",
     "FENNER",
     "GEORGETOWN",
     "HAMILTON",
-    "HAMILTON",
     "LEBANON",
     "LENOX",
     "LINCOLN",
-    "MADISON",
     "MADISON",
     "MORRISVILLE",
     "MUNNSVILLE",
