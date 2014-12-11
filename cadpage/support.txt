@@ -109,7 +109,7 @@ And the Cadpage paging service is free if you have a paid Cadpage
 subscription, so why not try it!
 
 Thanks for your inquiry!
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ***************************************************************************
@@ -149,7 +149,7 @@ In the long run, there is an open enhancement request
 https://code.google.com/p/android/issues/detail?id=61684
 asking Google to restore third party message blocking functionality in some future version of Android.  Feel free to register your opinion there.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ****************************************************************************
@@ -174,7 +174,7 @@ asking Google to restore third party message blocking functionality in some futu
 
 If you are having other difficulties with Cadpage, please let us know.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 *****************************************************************************
@@ -188,7 +188,7 @@ Then enter the same activation code you used to register the Active911 app (____
 Once you register Cadpage with the Active911 servers, you should be able to use both the Cadpage and Active911 apps to process the same calls.  Details on how this works can be found at 
 http://www.cadpage.org/faq/cadpage-and-active911
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 
@@ -247,7 +247,7 @@ About Phone > Software Update > Check for Updates.
 
 If there is no system update available, and you got the phone from Verizon, you can try calling Verizon support and complaining that the phone can not be upgraded and the current software can not run critically needed software.  That is how my first user got Verizon to ship them a new phone.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ***************************************************************************
@@ -267,7 +267,7 @@ Use the Email the Developer setting to generate another email to us.  While this
 
 In the file manager, navigate to the Download folder on your SD card.  Exactly where this is differs from phone to phone.  The SD card might be  mounted as /sdcard or /sdcard0 or /storage/sdcard0.  Where ever it is, it should have a Download folder, which hopefully will contain a file named bugreport.cadpage.gz.  Long press that file and select it, confirm that that file has been attached to your email and send it.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ***************************************************************************
@@ -298,7 +298,7 @@ Select Single Location > General Location > Standard Cadpage Format A
 
 But, life gets so much simpler for all concerned if you switch to using direct paging, which handles all of these details.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -314,7 +314,7 @@ So what can you do, there are a few choices:
 3) You use the Handcent settings to blacklist the email/phone number dispatch uses to send you pages.  Then it nicely drops those calls back to Cadpage.
 4) You can go to our download page at http://www.cadpage.org/download-cadpage/ where we keep the most recent version of Handcent that plays nicely with Cadpage.  Install that and things should work nicely.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -362,7 +362,7 @@ At this point, Active911 will start sending you pages through the Internet data 
 
 Please let me know if you still have problems with Cadpage.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -383,7 +383,7 @@ At this point, Active911 will start sending you pages through the Internet data 
 
 Please let me know if you still have problems with Cadpage or the registration process.
 
-Take care, 
+Take care, and Happy, Safe Holidays to You and Yours! 
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -429,7 +429,7 @@ difference, but it got one user up and running.
 Double check your Active911 device configuration to confirm that it is
 configured with a page type of Cadpage (Android).
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 **********************************************************************
@@ -442,7 +442,7 @@ This could be one of two different problems.
 
 Which is your situation?
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 **********************************************************************
@@ -458,7 +458,7 @@ in any position to validate that.
 If you really cannot get the activation code from your admin you should
 probably call the Active911 support line and ask them what you can do.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ************************************************************************
@@ -471,7 +471,7 @@ Why do you need a free subscription? Do you have some hardship in paying $10 per
 
 In the interest of helping communities, we offer a free subscription to Cadpage for people who cannot afford it, and who give us a reasonable reason.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -482,7 +482,7 @@ Payment Status > I can't afford $10 this year
 Please add a message about why you need a free subscription.
 That generates an email to us with information we need to set up your free subscription.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -496,7 +496,7 @@ Your one-year anniversary for Cadpage for your department was _________.  You an
 
 Please let me know if you need any updates on your department subscription.
 
-Thanks so much for your support,
+Thanks so much for your support, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -510,7 +510,7 @@ A Cadpage subscription is $10 for one year.
 
 Please let me know how I can help you successfully continue to use Cadpage.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ********************************************************************
@@ -525,9 +525,9 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-HKUEFJFA or hkuefjfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+RYVKVEDA or ryvkveda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
-Thanks again for your support,
+Thanks again for your support, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ****************************************************************
@@ -543,7 +543,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
-Thanks so much for your support,
+Thanks so much for your support, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 *****************************************************************
@@ -558,7 +558,7 @@ Go to Cadpage settings and press Payment Status, then press "Recalculate Payment
 
 Please let us know if you ever have any problems with Cadpage.
 
-Thanks so much for your support,
+Thanks so much for your support, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -569,7 +569,7 @@ Go to Cadpage settings and press Payment Status, then press "Recalculate Payment
 
 Please let us know if you ever have any problems with Cadpage.
 
-Thanks so much for your support,
+Thanks so much for your support, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -580,7 +580,7 @@ Go to Cadpage settings and press Payment Status, then press "Recalculate Payment
 
 You no longer need the authorization code I gave you previously.
 
-Thanks so much for your support,
+Thanks so much for your support, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -597,7 +597,7 @@ If that fails, please email us again using the Cadpage app.  Go to Settings, Sel
 
 Please note, if you have changed your phone number, you will need to contact your Dispatch Center so your text messages can be sent to the correct number.
 
-Thanks so much for your support,
+Thanks so much for your support, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 *********************************************************************************
@@ -606,7 +606,7 @@ I noted that your PayPal payment amounted to only $1.00, while a Cadpage subscri
 
 If you need other payment options, or your have some hardship in paying, please let me know.
 
-Thanks for your support,
+Thanks for your support, and Happy, Safe Holidays to You and Yours!
 Jean
 
 *******************************************************************
@@ -624,7 +624,7 @@ Go to Cadpage settings and press Payment Status, then press "Recalculate Payment
 
 If this does not work, it probably means we got a phone number wrong.  In that case, they should go into Cadpage settings and press Payment Status, then I've made a PayPal payment, to send us an email.
 
-Thanks for your support,
+Thanks for your support, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -637,7 +637,7 @@ Go to Cadpage settings and press Payment Status, then press "Recalculate Payment
 
 Positive reviews from free Cadpage subscribers are much appreciated. There is an item toward the bottom of the settings menu that gets you started on writing a Cadpage review.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -648,7 +648,7 @@ Your free subscription has been extended for at least another year.
 
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -676,9 +676,9 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-HKUEFJFA or hkuefjfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+RYVKVEDA or ryvkveda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
-Thanks so much for your support,
+Thanks so much for your support, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -695,7 +695,7 @@ Is it possible that you or your department have paid for an account with Active9
 
 We are very grateful for all contributions and apologize for any complications.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 *********************************************************************
@@ -706,7 +706,7 @@ Go into Cadpage settings and press Payment Status > Recalculate Payment Status
 
 If you are having other difficulties with Cadpage, please let us know.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 **********************************************************************
@@ -718,7 +718,7 @@ Go into Cadpage settings, press Payment Status and then Recalculate Payment Stat
 
 If that fails, please contact us again.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ***********************************************************************
@@ -733,7 +733,7 @@ Go into Cadpage settings, press Payment Status and then Recalculate Payment Stat
 
 If that fails, please contact us again. 
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -748,7 +748,7 @@ Cadpage is free for direct paging users.
 
 This should only take a few seconds. If that fails, please let us know.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -768,7 +768,7 @@ Go into Cadpage settings, press Payment Status and then Recalculate Payment Stat
 
 If that fails, please contact us again. 
 
-Thanks so much for your support,
+Thanks so much for your support, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ********************************************************************
@@ -780,7 +780,7 @@ Go into Cadpage settings, press Payment Status and then Recalculate Payment Stat
 
 If that fails, please contact us again.
 
-Thanks so much for your support,
+Thanks so much for your support, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 
@@ -798,7 +798,7 @@ It is still the same great app, just limited in time until you will be reminded 
 
 Please let me know how I can help you successfully continue to use Cadpage.
 
-Thanks so much for your support,
+Thanks so much for your support, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 **************************************************************************
@@ -813,7 +813,7 @@ It is still the same great app, just limited in time until you will be reminded 
 
 Please let me know how I can help you successfully continue to use Cadpage.
 
-Thanks so much for your support,
+Thanks so much for your support, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ****************************************************************
@@ -859,7 +859,7 @@ In the interest of helping communities, we offer a  number of approved ways to r
 
 4) There is an old unsupported version of Cadpage available on the Cadpage download page at http://www.cadpage.org/download-cadpage.  This version will not bug you about paying for it.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -889,9 +889,9 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-HKUEFJFA or hkuefjfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+RYVKVEDA or ryvkveda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
-Thanks for your support,
+Thanks for your support, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -903,9 +903,9 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-HKUEFJFA or hkuefjfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+RYVKVEDA or ryvkveda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
-Thanks for your support,
+Thanks for your support, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -913,7 +913,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-HKUEFJFA or hkuefjfa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+RYVKVEDA or ryvkveda.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information needed to figure out what is wrong.
 
@@ -930,7 +930,7 @@ Please try again:  Go into Settings, press Payment Status and then Recalculate P
 
 As always, please let us know of any further difficulties. 
 
-Good Luck and thanks for your support,
+Good Luck and thanks for your support, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -988,7 +988,7 @@ You are going to have to install the regular Cadpage app first.  The free/no-sup
 
 If you install the regular version of Cadpage, you have a 30 day evaluation period that you can use to work out whatever is going wrong.  If you're lucky, and it doesn't require any code changes, you can go back to using the free version when that 30 days is up.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1052,7 +1052,7 @@ If these address really exist, you can report them to Google as a mapping proble
 
 If there is something we can change do a better job of finding the correct location, please let us know.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1141,7 +1141,7 @@ Power down your device, remove the SD card, then power it up and
 register Cadpage with Active911.  I have no idea why this would make any
 difference, but it got one user up and running.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ***************************************************************************
@@ -1179,7 +1179,7 @@ You can also try sending yourself text messages when these delays are observed t
 
 It might be worth considering switching to another messaging service.  CodeMessaging.net and Active911.com are reasonably priced and can push pages to your device without relying on text messaging and will probably fix your delay problem.  Unless the dispatch center is slow getting the pages out, in which case they have logs to prove that and some clout to take the issue up with dispatch IT people.  And Cadpage doesn't bug you about paying for a subscription when you are getting direct pages from them.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1189,7 +1189,7 @@ Take care,
 
 Whoever set up your device in Active911, and gave you the device number and activation code to use, set it up with the wrong page type.  The page type should be "Cadpage (Android)".  They should be able to fix that.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1201,7 +1201,7 @@ Take care,
 
 It looks like you have run into a new Google registration problem.  We are still trying to get a handle on how to deal with it.  Lacking any other great ideas at this point, can you try uninstalling and re-installing Cadpage.  That seems to have worked for at least one other user.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1216,7 +1216,7 @@ The latest version of Cadpage has some new logic to help alleviate, but not comp
 
 If it does not, use the Email the Developer feature to report the situation and we will see what we can do from there.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1250,7 +1250,7 @@ Next, go back to Cadpage Settings and try to register with Active911/Code Messag
 
 If that does not work, we are down to recommending a factory reset.  This a rather drastic solution, but it has, thus far, always resolved this particular problem.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1261,7 +1261,7 @@ Duplicate messages are fairly common for new Active911 users.   Some time back, 
 
 You have to talk to someone in your department about stopping the original text pages.  Probably the same person who got them sent to your phone in the first place.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1274,7 +1274,7 @@ and try installing them.
 
 If there are no updates available, your only option is to get a new phone, or root the existing phone and install your own OS.  Directions for rooting most phones can be found on the Internet.  The process isn't nearly as dangerous as it sounds.  The important thing to make an NAND backup as soon as you have the recovery partition installed.  You can use that to restore the phone to pristine unrooted status if that becomes necessary.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1302,7 +1302,7 @@ Wait until the next text pages comes in.  If it still does not trigger CadPage, 
 
 If the messages are triggering CADpage, but will not allow you to select map option: Long press the message to open the Options menu and select the "Report Problem" menu item.  This will generate an email containing all of the information we should need to track down the problem with this message.  You can get the same menu options from the call history screen by long pressing one of the call entries.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -1317,7 +1317,7 @@ Do you have Go SMS Pro or Handcent or AT&T Messenger installed?  They have prove
 
 Are you getting text pages from your dispatch center?  CadPage works by processing those text messages, if you have not arranged to have them sent to your device, CadPage will not do anything for you.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 
@@ -1331,7 +1331,7 @@ Next, open Cadpage settings and select
 Direct Paging Vendors > Active911.com > Register
 Follow the directions which including entering the two part device key.  If all goes well, Active911 will accept your registration and send a confirmation to Cadpage, which will display a note saying you are now registered for direct pages.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1342,7 +1342,7 @@ If you have calls that are not mapping, long press the call and select "Report P
 
 If Cadpage is missing calls entirely, go into settings and press the Email the Developer setting as soon as possible.  The email that generates includes information about the most recently received text message..
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 
 -Ken
 
@@ -1390,7 +1390,7 @@ To do that go bring up your System Settings and turn off the Motion menu in the 
 
 Please let me know if either of these fix your problem.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1410,7 +1410,7 @@ The Start Radio button should now launch the Scanner Radio app listening to the 
 
 This doesn't magically turn your Android device into a shortwave radio receiver.  Scanner Radio works by relaying Internet feeds from volunteers across the country who have set up audio feeds from real hardware scanners.  If no one has set this up in your area your are out of luck.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1420,7 +1420,7 @@ Everything looks like it is set up correctly. Check to make sure that the scanne
 
 If that isn't it, I need to see a copy of the system log recording one of these launch failures.  You can install any number of log viewing apps, I use Logcat myself, and use it to email a copy of the log to support@cadpage.org.  This needs to be done right after you get a call that fails to launch scanner radio.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1440,7 +1440,7 @@ In the meantime, try using the general location setting.  Set the From: filter t
 
 Please contact us again if you still have difficulties with Cadpage.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -1457,7 +1457,7 @@ The intended purpose of Cadpage is to support emergency responders who get text 
 
 Please email us again if you would like to know how to set up Cadpage for your location.  We have very little experience writing a location parser in any language other than English, but we would be happy to give it a try in your language.  We would need help with translating text.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -1480,7 +1480,7 @@ waiting for full location support.
 
 Please contact us again if you still have difficulties.  The best way to do this is use the Email the Developer item in the main settings menu.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ****************************************************************************
@@ -1527,7 +1527,7 @@ However, you will still need a messaging service like Active911 or CodeMessaging
 
 2.  If you sign up with Active911.com as your paging service, they have their own IPhone app that pretty much does what Cadpage does on Android phones.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -1543,7 +1543,7 @@ You are likely using at least one of the 2 main options for iPhone Users:
 
 We apologize for any confusion concerning these apps.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ***********************************************************************
@@ -1593,7 +1593,7 @@ Cadpage is an Android app that generally will not run on a PC system.  We do hav
 
 We don't officially support this, and it is a lot of work to set up.  But it can and has been done.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1601,7 +1601,7 @@ Take care,
 This is a known bug in Android 2.2, you can track its status at 
 http://code.google.com/p/android/issues/detail?id=10238&can=1&q=ArrayIndexOutOfBoundsException%20MotionEvent&colspec=ID%20Type%20Status%20Owner%20Summary%20Stars
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1612,7 +1612,7 @@ But nothing seems to be happening with it, unsurprising as developers aren't all
 
 If you can get a Android upgrade from your vender, most people are on 2.2 by now, I would install that.  Otherwise you might want to consider rooting your phone and installing your own Android system.  Failing that, you will probably just have to live with this.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1644,7 +1644,7 @@ Does it happen every time you get a CAD page, or only this particular message?  
 
 Something that would really help is to install an application viewer (I use LogcatVW), and use that to capture and report the contents of your system log just after a crash.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -1738,7 +1738,7 @@ Some users, at some times, have gotten text messages with the line breaks intact
 
 Someone needs to track down how these dispatch alerts get generated and talk someone into changing things.  If the unidentified forwarding service will either leave the line breaks in place, or replace them with something else, all will be well. If Dispatch can use some other character to separate data fields in the dispatch alerts, it won't matter what the forwarding service does with them.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ***************************************************************************
@@ -1807,7 +1807,7 @@ In the grasping at straws category, try cycling power on the device.  It's worke
 
 If that doesn't work, we're going to have to look at your system log.  Try installing a log view (I use LogcatVW), and use that to capture and report the contents of your system log just after you get a Cadpage alert.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ****************************************************************************
@@ -1820,7 +1820,7 @@ We haven't heard from anyone who wants to develop a Blackberry version.  That's 
 
 Thanks for your inquiry!
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ****************************************************************************
@@ -1867,7 +1867,7 @@ The latest versions of Cadpage trap the abort.  So it does not crash on you.  Bu
 
 We do have our own internal paging service now which gives you another way to workaround this issue.  Since you are a paid subscriber, you can register with that paging service and it will create a personal dispatch email address for you.  If you have your dispatch alerts sent to that email address, they will be forwarded to Cadpage through the mobile data network.  Since no text or MMS messaging is involved, any problems with processing MMS messages are sidestepped.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************************
@@ -1906,7 +1906,7 @@ This used to be a common problem, one that we have never really gotten a good ha
 
 When you have the Override Notification setting checked, Cadpage skips the usual notification procedure and instead uses the Media Player to play are specific alert tone at full volume.  One some devices, the Media Player apparently cannot play our alert ringtone and Cadpage crashes.  Exactly why only those few devices are impacted remains a mystery.  The simple workaround is to turn off the Override Notification setting in Notification Settings.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 *************************************************************************
@@ -1962,7 +1962,7 @@ Usually you can just scroll the window to get the rest of the call.
 If you long press the call and select Report Problem to send it to us, I
 might be able to tell you more about what might be going on.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ****************************************************
@@ -1980,7 +1980,7 @@ sound problems
 Restarting your phone seems to fix most odd sound problems.  That's
 about all the advice we have.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 in response to question: 
@@ -2009,7 +2009,7 @@ You can test the notification alert by going into Notification settings
 and pressing the Test Notification button.  Easier than waiting for a
 new call to come in.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************
@@ -2047,7 +2047,7 @@ servicing.  They do support custom map displays with hydrant locations.
 displays.  You would have to use their IPhone or Android app, or display their
 incident web page to see them.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 **********************************************************
@@ -2153,7 +2153,7 @@ implementing the Cadpage direct paging interface.  And thus far, they
 have expressed no interest in doing that.  Feel free to contact them
 about your wishes.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 
@@ -2168,7 +2168,7 @@ select "Report Problem" to send them to us.  If Cadpage is not picking
 up the call, using the Email the Developer feature right after Cadpage
 fails to pick up a call will usually get it to us.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ******************************************************************
@@ -2283,7 +2283,7 @@ pages out, in which case they have logs to prove that and some clout to
 take the issue up with dispatch IT people.  And Cadpage doesn't bug you
 about paying for a subscription when you are getting direct pages from them.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ***************************************************************
@@ -2293,7 +2293,7 @@ Go into Cadpage Settings and select
 Direct Paging Vendors > Reconnect Direct Paging
 That usually takes care of direct paging delays.  You, or the Active911 administrator for your department, can test this by logging in to the Active911 web site and sending yourself a test message.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 *************************************************************
@@ -2367,13 +2367,13 @@ something.  You need to long press all of the calls that are not mapping
 and select "Report Problem" to generate an email to us with details
 about that call.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 ********************************************************************************
 
 Can you long press a couple of these calls and select "Report Problem" to send them to us?
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 > I get text mesg but when i click on more info button a widow opens to show responce but nothing populates
@@ -2384,7 +2384,7 @@ Please try installing the latest Cadpage release.  I put in some logic to try to
 
 If you are experiencing some other problem, please let me know.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ********************************************************************************
@@ -2395,7 +2395,7 @@ Direct Paging Vendors > Reconnect Direct Paging
 
 You may have to try this 3-4 times before it is accepted.  If it consistently fails, use the Email the Developer feature to ask for help, the log included in that message may be helpful.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken 
 *********************************************************************************
 
@@ -2487,7 +2487,7 @@ The free version of Cadpage you are currently running is unsupported. And lacks 
 
 You need to install the regular version of Cadpage available from the Google Play Store.  Then long press the calls that are not mapping and select "Report Problem" to send them to us.  The regular version is free for the first 30 days.  If you are really lucky, you will be able to switch back to the free/unsupported version after we figure out what is wrong.  Or you can ask us for a free hardship subscription.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 **********************************************************************************
 Q: The Cadpage app will not allow me clear all messages
@@ -2539,7 +2539,7 @@ Q:  Whenever I get a call via cadpage it says "general alert" and nothing else.
 
 A:  Can you pick some of the calls that this is happening to, long press them and select "Report Problem" to send them to us.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 ************************************************************************************
 Q:  I wanted to confirm that I have this app configured correctly. I am get alerts that are not corresponding with my dept pager and think something may be wrong?
@@ -2583,7 +2583,7 @@ Also, when you pay through Google Play Store, Google takes 30% of that $10. With
 Therefore our policy is to refund subscriptions 6 months old or less. 
 I regret to say that we will not refund your $10 payment, but if you are really in a hardship situation, please let us know.
 
-Thanks for your support, and your understanding,
+Thanks for your support and your understanding,
 Jean ~ Cadpage Administrator
 
 ************************************************************************************
@@ -2595,7 +2595,7 @@ If your departments support text pages, you have to make arrangements to have th
 
 If your departments get pages through Active911, it is a simple matter to have your device added to the  device lists for both departments. 
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean, Asssistant to Ken Corbin
 
 
@@ -2725,7 +2725,7 @@ settings and select
 Direct Paging Vendors > Reconnect Direct Paging
 We do not know why, but doing this usually fixes the problem.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 ****************************************************************************
 
 notification when phone is muted
@@ -2734,7 +2734,7 @@ Go into Notification settings and check the box
 labeled, "Override Notifications.  It is not as flexible as the regular
 notificiaton process.  But it does alert you when the phone is muted.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 ****************************************************************************
 mile markers
@@ -2749,7 +2749,7 @@ the  mile markers.  Ideally you should have two sets of coordinates for
 each Interstate mile marker, one for eastbound and another for westbound
 lanes.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 **********************************************
 Q:How do I register through I am responding?
@@ -2762,7 +2762,7 @@ where you can indicate your responding status by phoning one or more
 special phone numbers.  Cadpage can be configured to call those numbers
 when you press a predefined response button.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 
 ********************************************************
@@ -2830,7 +2830,7 @@ the message as a dispatch page.  If you long press some of the general
 alerts you are getting and select "Report Problem" to send them to us,
 we will see what we have to do to fix things.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 ***********************************************************************
 re=used phone number
@@ -2858,7 +2858,7 @@ sending them.  If you do this, please include your name and/or email
 address.  We sometimes have trouble matching forwarded texts messages
 with your emails.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 *************************************************************************
 download updates
@@ -2917,7 +2917,7 @@ text page from the Active911.com website.  Go to the member information area and
 select the device tab.  Beside each configured device there is a row of
 three icons.  The middle one is used to send that device a text message.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 **************************************************************************
 Connect back to Cadpage with Active911
@@ -2985,7 +2985,7 @@ If things still do not work, or if generated test messages do not make
 it to your device, use the Email the Developer feature to send us
 another email.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ********************************************************************************
@@ -3027,7 +3027,7 @@ Active911.com, that can push pages to Cadpage without relying on text
 messages.  Which has some advantages such as allowing Cadpage to work on
 Android tablets that can not process text messages.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 
 
 **************************************************************************
@@ -3103,7 +3103,7 @@ possibly appear in your SMS message inbox.  I'm not sure quite what your
 situation is, are you receiving direct pages from one agency and text
 pages from a different agency?
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 
 *******************************************************************************
 Hi folks,
@@ -3214,8 +3214,8 @@ You may certainly use the Cadpage app long after the expiration date, if you do 
 
 Please let me know if you would like to extend the Cadpage subscriptions for your department.
 
-Thanks so much for your support,
-Happy and Safe Holidays to ALL!
+Thanks so much for your support.
+Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 ***********************************************************************
@@ -3271,7 +3271,7 @@ default message app is just going to go away.  Options are going to be
 3) switch to using a direct paging vendor (currently CodeMessaging.net
 or Active911.com) to deliver pages to Cadpage.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 
 ************************************************************************
 mapping problems
@@ -3279,7 +3279,7 @@ mapping problems
 A: Have them long press the calls that are not mapping and select "Report
 Problem" to send them to us.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 Q >  A Member is only receiving general alerts and doesn't
 > have the map option. Do you have any suggestions?
@@ -3315,7 +3315,7 @@ You need to long press all of the calls that are not mapping and select
 "Report Problem" to send them to us.  With that I can figure out what we
 need to do to fix things.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 -Ken
 ****************************************************************************
 
@@ -3419,7 +3419,7 @@ Let's see how the DEMO goes first before we tackle the payment.
 
 Please contact us again if you still have difficulties or questions concerning Cadpage.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 *********************************************************************************************8888
@@ -3583,7 +3583,7 @@ be forwarded to your device through the mobile data networks.  Since no
 text messages are involved in this, the service works on devices that
 can not process text messages.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
 
 
@@ -3606,7 +3606,7 @@ latest alerts after a few seconds.
 
 Then you have your department stop sending you the text alerts.  
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 
 ********************************************************************
 Q: will cadpage work on on straight talk service
@@ -3616,7 +3616,7 @@ mapping features, which are the primary reason why people want Cadpage,
 require an internet connection.  The Internet connection can be provided
 through a local WiFi hotspot if you do not have a carrier data plan.
 
-Take care,
+Take care, and Happy, Safe Holidays to You and Yours!
 
 ARchive of posts on Cadpage website:
 Multiple Versions ! and where's the news ?
