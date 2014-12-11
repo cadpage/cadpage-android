@@ -11,6 +11,7 @@ import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.donation.DeveloperToolsManager;
+import net.anei.cadpage.donation.UserAcctManager;
 import android.content.Context;
 import android.net.Uri;
 import android.net.Uri.Builder;
@@ -59,7 +60,7 @@ public class VendorManager {
         return true;
       }});
     
-    boolean developer = DeveloperToolsManager.instance().isDeveloper(context);
+    boolean developer = UserAcctManager.instance().isDeveloper();
     int order = 10;
     for (Vendor vendor : vendorList) {
       if (developer || vendor.isAvailable()) {

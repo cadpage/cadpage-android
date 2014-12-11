@@ -44,7 +44,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   private String parserDefState = "";
   private CheckBoxPreference overrideFilterPref;
   private net.anei.cadpage.preferences.EditTextPreference filterPref;
-  private CheckBoxPreference genAlertPref;
   
   private CheckBoxPreference overrideDefaultPref;
   private EditTextPreference defCityPref;
@@ -133,18 +132,8 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     // On top of all that, the general alert box is enabled only if the current
     // parser has a default filter OR a user filter has been specified
 
-    genAlertPref = (CheckBoxPreference)
-        findPreference(getString(R.string.pref_gen_alert_key));
     filterPref = (net.anei.cadpage.preferences.EditTextPreference)
         findPreference(getString(R.string.pref_filter_key));
-    filterPref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
-      @Override
-      public boolean onPreferenceChange(Preference preference, Object newValue) {
-        String filter = (String)newValue;
-        genAlertPref.setEnabled(filter.length() > 1 || parserFilter.length() > 0);
-        return true;
-      }
-    });
     filterPref.setDialogClosedListener(new OnDialogClosedListener(){
       @Override
       public void onDialogClosed(boolean positiveResult) {
@@ -350,7 +339,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       if (change) overrideFilterPref.setChecked(false);
       overrideFilterPref.setSummaryOff(getString(R.string.pref_override_filter_summaryoff, parserFilter));
       filterPref.setEnabled(overrideFilterPref.isChecked());
-      genAlertPref.setEnabled(true);
     }
     
     // If there is no parser filter, the override box is disabled but forced to true
@@ -359,8 +347,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       overrideFilterPref.setEnabled(false);
       overrideFilterPref.setChecked(true);
       filterPref.setEnabled(true);
-      String filter = filterPref.getText();
-      genAlertPref.setEnabled(filter.length() > 1);
     }
     
     // Any time the location parser changes, reset the override default loc setting

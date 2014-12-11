@@ -34,27 +34,8 @@ public class DeveloperToolsManager {
   // private constructor
   private DeveloperToolsManager() {}
   
-  
-  /**
-   * @return true if current user is a developer
-   * @Param context current context
-   */
-  public boolean isDeveloper(Context context) {
-    
-    // Get current user account name
-    UserAcctManager acctMgr = UserAcctManager.instance();
-    if (acctMgr == null) return false;
-    String user = acctMgr.getUser();
-    if (user == null) return false;
-    
-    // See if it is in our developer list
-    String[] developers = context.getResources().getStringArray(R.array.donate_devel_list);
-    if (developers == null) return false;
-    return Arrays.asList(developers).contains(user);
-  }
-  
   public boolean addPreference(Context context, PreferenceGroup group) {
-    if (!isDeveloper(context)) return false;
+    if (!UserAcctManager.instance().isDeveloper()) return false;
     group.addPreference(new DeveloperListPreference(context));
     
     return true;

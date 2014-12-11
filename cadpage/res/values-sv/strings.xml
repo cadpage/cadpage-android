@@ -261,9 +261,6 @@
   <string name="pref_filter_summary">Endast meddelanden från denna adress kommer att beaktas.
     Aktuellt värde: %s</string>
   <string name="pref_filter_dialog">Skriv i e-postadress för att filtrera meddelanden. Ingen adress kommer att scanna alla. Använd ett , för att separera multipla adresser.</string>
-  <string name="pref_gen_alert_title">Aktivera generellt larm</string>
-  <string name="pref_gen_alert_summaryon">Kommer aktivera generellt larm</string>
-  <string name="pref_gen_alert_summaryoff">Kommer inte aktivera generellt larm</string>
   <string name="pref_show_source_title">Visa källan till larm</string>
   <string name="pref_show_source_summaryon">Kommer att visa källan till larm</string>
   <string name="pref_show_source_summaryoff">Kommer inte att visa källan till larm</string>
@@ -366,6 +363,23 @@
   <string name="pref_direct_paging_summary">Ställ in meddelandeservice</string>
   <string name="pref_reconnect_title">Återanslut direkt koppling (med. service)</string>
   <string name="pref_reconnect_summary">Återställ anslutning till aktiverad meddelandeservice</string>
+  
+  <!--  Filter   settings -->  <!-- Translate on! -->
+  <string name="pref_filter_settings_title">Filter Settings</string>
+  <string name="pref_filter_settings_summary">Options to specify special handling for certain types of alerts</string>
+  <string name="pref_gen_alert_option_title">General Alert Options</string>
+  <string name="pref_gen_alert_option_summary">General alert processing\n%s</string>
+  <string name="pref_run_report_option_title">Run Report Options</string>
+  <string name="pref_run_report_option_summary">Run report processing\n%s</string>
+  
+  <string name="pref_alert_option_normal">Normal processing</string>
+  <string name="pref_alert_option_no_notice">No alert</string>
+  <string name="pref_alert_option_no_popup">No popup detail</string>
+  <string name="pref_alert_option_no_notice_popup">No alert or popup detail</string>
+  <string name="pref_alert_option_ignore">Ignore</string>
+  <string name="pref_alert_option_discard">Discard</string>
+  <!-- Translate off -->
+  
   <!-- Scanner Radio Interface reports -->
   <string name="scanner_not_installed">Den här funktionen förutsätter att du har vissa scannerapplikationer installerade.  Vill du installera dessa nu?</string>
   <string name="scanner_not_current">Den här funktionen förutsätter att du har en uppdaterad version av en scanner-applikation. Vill du installera den nu?

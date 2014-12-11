@@ -266,7 +266,7 @@ public class EmailDeveloperActivity extends Safe40Activity {
     // Also, since we have started overflowing the maximum single log entry
     // limit and developers are reading the log directly, let's strip out an
     // log information from the message
-    if (DeveloperToolsManager.instance().isDeveloper(context)) {
+    if (UserAcctManager.instance().isDeveloper()) {
       String msg = message;
       int pt = msg.indexOf("\n********");
       if (pt >= 0) msg = msg.substring(0,pt);

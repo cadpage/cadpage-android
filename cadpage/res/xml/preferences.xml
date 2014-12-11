@@ -434,6 +434,26 @@
         </PreferenceScreen>
       </PreferenceCategory>
     </PreferenceScreen>
+   
+    <!-- Filter settings screen -->  
+    <PreferenceScreen
+      android:title="@string/pref_filter_settings_title"
+      android:summary="@string/pref_filter_settings_summary">
+      <net.anei.cadpage.preferences.ListPreference
+         android:key="@string/pref_gen_alert_option_key"
+         android:defaultValue=""
+         android:title="@string/pref_gen_alert_option_title"
+         android:summary="@string/pref_gen_alert_option_summary"
+         android:entries="@array/pref_alert_option_text"
+         android:entryValues="@array/pref_alert_option_values"/>
+      <net.anei.cadpage.preferences.ListPreference
+         android:key="@string/pref_run_report_option_key"
+         android:defaultValue=""
+         android:title="@string/pref_run_report_option_title"
+         android:summary="@string/pref_run_report_option_summary"
+         android:entries="@array/pref_alert_option_text"
+         android:entryValues="@array/pref_alert_option_values"/>
+      </PreferenceScreen>
     
     <!-- Location settings screen -->
     <PreferenceScreen
@@ -469,13 +489,6 @@
           android:title="@string/pref_filter_title"
           android:summary="@string/pref_filter_summary"
           android:defaultValue=""/>
-      
-      <CheckBoxPreference
-          android:key="@string/pref_gen_alert_key"
-          android:title="@string/pref_gen_alert_title"
-          android:summaryOn="@string/pref_gen_alert_summaryon"
-          android:summaryOff="@string/pref_gen_alert_summaryoff"
-          android:defaultValue="@string/pref_gen_alert_default" />
       
       <CheckBoxPreference
           android:key="@string/pref_show_source_key"
@@ -560,8 +573,7 @@
           android:title="@string/pref_rev_msg_order_title"
           android:summaryOn="@string/pref_rev_msg_order_summaryon"
           android:summaryOff="@string/pref_rev_msg_order_summaryoff"
-          android:defaultValue="@string/pref_rev_msg_order_default" 
-          android:dependency="@string/pref_gen_alert_key"/>
+          android:defaultValue="@string/pref_rev_msg_order_default"/>
           
       <CheckBoxPreference
           android:key="@string/pref_split_blank_ins_key"
@@ -629,7 +641,7 @@
         android:summary="@string/pref_reconnect_summary" 
         android:order="1000"/>
     </PreferenceScreen>
-      
+    
   </PreferenceCategory>
   <PreferenceCategory
     android:key="@string/pref_other_key"

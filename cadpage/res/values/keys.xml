@@ -103,7 +103,7 @@
    <string name="pref_location_mtree_key">locationMTree</string>
    <string name="pref_override_filter_key">override_filter</string>
    <string name="pref_filter_key">filter</string>
-   <string name="pref_gen_alert_key">gen_alert</string>
+   <string name="pref_gen_alert_key">gen_alert</string>  <!-- no longer used -->
    <string name="pref_show_source_key">show_source</string>
    <string name="pref_override_default_key">overrideDefaultLoc</string>
    <string name="pref_defstate_key">defaultState</string>
@@ -128,6 +128,8 @@
    <string name="pref_textsize_key">textsize</string>
    <string name="pref_direct_paging_key">direct_paging</string>
    <string name="pref_reconnect_key">reconnect</string>
+   <string name="pref_gen_alert_option_key">general_alert_option</string>
+   <string name="pref_run_report_option_key">run_report_option</string>
    <string name="pref_last_loc_time_key">last_loc_time</string>
    <string name="pref_last_loc_acc_key">last_loc_acc</string>
    <string name="pref_direct_page_active_key">direct_page_active</string>

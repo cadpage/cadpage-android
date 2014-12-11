@@ -29,7 +29,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 37;
+  private static final int PREFERENCE_VERSION = 38;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -60,6 +60,19 @@ public class ManagePreferences {
     if (oldVersion != PREFERENCE_VERSION) {
       PreferenceManager.setDefaultValues(context, R.xml.preferences, true);
       prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
+    }
+    
+    // If old version was < 38, we need to convert the old process general alert
+    // setting to a new general alert option setting.  This gets complicated
+    // because there is no exact equivalent to old functionality which was
+    // different from direct and text pages.  We will do the best we can by
+    // assuming all alerts are direct pages if any direct paging vendor is
+    // enabled
+    if (oldVersion < 38 && oldVersion > 0) {
+      boolean oldGenAlert = prefs.getBoolean(R.string.pref_gen_alert_key) ||
+                            VendorManager.instance().isRegistered();
+      prefs.putString(R.string.pref_gen_alert_option_key, 
+                      oldGenAlert ? "" : "BHNP");
     }
     
     // If old version was < 37, we need to clone two copies of the old paid year
@@ -263,10 +276,6 @@ public class ManagePreferences {
   
   public static String filter() {
     return prefs.getString(R.string.pref_filter_key);
-  }
-  
-  public static boolean genAlert() {
-    return prefs.getBoolean(R.string.pref_gen_alert_key);
   }
   
   public static boolean showSource() {
@@ -610,6 +619,14 @@ public class ManagePreferences {
     String val =  prefs.getString(EXTRA_BUTTON_IDS[button-1]);
     if (val.length() == 0) return 0;
     return Integer.parseInt(val);
+  }
+  
+  public static FilterOptions genAlertOptions() {
+    return new FilterOptions(prefs.getString(R.string.pref_gen_alert_option_key));
+  }
+  
+  public static FilterOptions runReportOptions() {
+    return new FilterOptions(prefs.getString(R.string.pref_run_report_option_key));
   }
   
   public static Date installDate() {
@@ -1048,7 +1065,6 @@ public class ManagePreferences {
         R.string.pref_location_key,
         R.string.pref_override_filter_key,
         R.string.pref_filter_key,
-        R.string.pref_gen_alert_key,
         R.string.pref_show_source_key,
         R.string.pref_override_default_key,
         R.string.pref_defcity_key,
@@ -1132,6 +1148,9 @@ public class ManagePreferences {
         R.string.pref_xtra_resp_button1_key,
         R.string.pref_xtra_resp_button2_key,
         R.string.pref_xtra_resp_button3_key,
+        
+        R.string.pref_gen_alert_option_key,
+        R.string.pref_run_report_option_key,
 
         R.string.pref_paid_year_key,
         R.string.pref_install_date_key,

@@ -32,7 +32,6 @@
    <string name="pref_report_position_default">A</string>
    <string name="pref_screen_on_default">true</string>
    <string name="pref_override_filter_default">true</string>
-   <string name="pref_gen_alert_default">true</string>
    <string name="pref_show_source_default">false</string>
    <string name="pref_override_default_default">false</string>
    <string name="pref_loglimit_default">1</string>

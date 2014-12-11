@@ -363,7 +363,8 @@ public class MmsTransactionService extends Service {
         // If we were not supposed to pass messages through to the SMS app
         // we try to cover our tracks by deleting this message from the MMS
         // message content
-        if (!ManagePreferences.smspassthru()) qr.delete(mmsUri, null, null);
+        FilterOptions options = message.getFilterOptions();
+        if (!options.blockTextMsgEnabled()) qr.delete(mmsUri, null, null);
         
         // Pop back to the main thread to perform the rest of the CAD page 
         // message processing

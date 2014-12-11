@@ -5,6 +5,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Pattern;
 
@@ -25,6 +26,7 @@ public class UserAcctManager {
   private String[] userEmails = null;
   private String phoneNumber = null;
   private String meid = null;
+  private boolean developer = false;
   
   public void setContext(Context context) {
     this.context = context;
@@ -44,6 +46,14 @@ public class UserAcctManager {
     }
     userEmails = emailList.toArray(new String[emailList.size()]);
     
+    // See if first email is on our developer list
+    if (userEmails.length > 0) {
+      String[] developers = context.getResources().getStringArray(R.array.donate_devel_list);
+      if (developers != null) {
+        developer = Arrays.asList(developers).contains(userEmails[0]);
+      }
+    }
+
     // See if it is time to perform an automatic payment status recalculation
     DonationManager.instance().checkPaymentStatus(context);
   }
@@ -158,6 +168,14 @@ public class UserAcctManager {
       sb.append("\nOverpaid:");
       sb.append(overpaidDays);
     }
+  }
+  
+  /**
+   * @return true if current user is a developer
+   * @Param context current context
+   */
+  public boolean isDeveloper() {
+    return developer;
   }
 
   /**

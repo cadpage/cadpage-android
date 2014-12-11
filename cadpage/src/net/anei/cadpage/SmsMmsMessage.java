@@ -12,19 +12,18 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.donation.UserAcctManager;
 import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.parsers.Message;
 import net.anei.cadpage.parsers.MsgInfo;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
-
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.telephony.SmsMessage;
 import android.telephony.SmsMessage.MessageClass;
 import android.text.format.DateUtils;
-
 import static net.anei.cadpage.BroadcastBindings.*;
 
 
@@ -159,6 +158,15 @@ public class SmsMmsMessage implements Serializable {
   public String getAckURL() {
     if (ackURL == null) return null;
     return VendorManager.instance().addAccountInfo(vendorCode, ackURL);
+  }
+  
+  public FilterOptions getFilterOptions() {
+    MsgInfo info = getInfo();
+    if (info == null)  return ManagePreferences.genAlertOptions();
+    String call = info.getCall();
+    if (call.equals("GENERAL ALERT")) return ManagePreferences.genAlertOptions();
+    if (call.equals("RUN REPORT")) return ManagePreferences.runReportOptions();
+    return new FilterOptions();
   }
   
 
@@ -492,10 +500,15 @@ public class SmsMmsMessage implements Serializable {
     // yet downloaded the message body
     if (parseInfo == null) return true;
     
+    // Set up parser flags  We will process general alerts if we do anything
+    // at all with general alerts
     if (force) {
       parserFlags |= MsgParser.PARSE_FLG_FORCE;
-    } else if (ManagePreferences.genAlert()) {
-      parserFlags |= MsgParser.PARSE_FLG_GEN_ALERT;
+    } else {
+      FilterOptions genAlertOptions = ManagePreferences.genAlertOptions();
+      if (genAlertOptions.historyEnabled() || genAlertOptions.blockTextMsgEnabled()) {
+        parserFlags |= MsgParser.PARSE_FLG_GEN_ALERT;
+      }
     }
     
     // OK, that is it for flags, now lets see about getting the right parser
@@ -535,8 +548,12 @@ public class SmsMmsMessage implements Serializable {
   public MsgInfo getInfo() {
     
     // If we didn't build a parse message info object when this was constructed
-    // we never will have and pared message information
+    // we never will have and parsed message information
     if (parseInfo == null) return null;
+
+    // If we have already parsed the information, just return that
+    MsgInfo info = parseInfo.getInfo();
+    if (info != null) return info;
     
     // Early versions of the Cadpage parser were setting location to the secondary 
     // parser name which is cause subsequent attempt to parse the information with the
@@ -576,14 +593,18 @@ public class SmsMmsMessage implements Serializable {
       }
     }
     
-    // If the Message object already has been parsed, return it's information
-    // If it was never parsed for some reason, return null
-    
-    // It is almost impossible for the the parser call to fail for a
-    // message where it previously succeeded.  But if it happens
-    // try again with the general alert parser, which will never fail
-    MsgInfo info = parseInfo.getInfo();
-    if (info != null || location == null) return info;
+    // Getting here with location still set to null almost certainly means
+    // that a developer screwed up and called this method before calling
+    // isPageMsg().  But just in case there are some as yet unknown exceptions
+    // we only throw an exception if a developer is running this, otherwise
+    // we preserve previous functionality
+    if (location == null) {
+      if (UserAcctManager.instance().isDeveloper()) {
+        throw new RuntimeException("getInfo() called for unparsed msg");
+      } else {
+        return null;
+      }
+    }
     
     MsgParser parser =  ManageParsers.getInstance().getParser(location);
     parser.isPageMsg(parseInfo, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_GEN_ALERT);
@@ -902,8 +923,9 @@ public class SmsMmsMessage implements Serializable {
     intent.putExtra(EXTRA_TIME, timestamp);
     putExtraString(intent, EXTRA_LOC_CODE, location);
     
+    FilterOptions options = getFilterOptions();
     intent.putExtra(EXTRA_QUIET_MODE, 
-         !(ManagePreferences.notifyEnabled() || ManagePreferences.popupEnabled()));
+         !(options.noticeEnabled() || options.popupEnabled()));
     
     MsgInfo info = getInfo();
     if (info != null) {
