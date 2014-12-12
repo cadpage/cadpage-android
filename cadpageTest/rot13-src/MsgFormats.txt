@@ -8864,7 +8864,7 @@ Nynez Qrfp: FVPX CREFBA - OYF *\aNqqerff: 1108 F CYHZ CBVAGR QE\aZhavpvcnyvgl: H
 Nynez Qrfp: ABGVSL SVER PUVRS\aNqqerff: 2208 ZNYYNEQ YN\aZhavpvcnyvgl: HCHJPU\aVapvqrag #: #YAIS14001\aVavgvny Cevbevgl: 3\aNynez Qngr: 09/12/2014\aNynez Gvzr: 02:18\aZnc: 20S3\aPebff Fgerrgf: UNEOBHE EVQTR YN & QRNQ RAQ\aRAGEL Pbzzragf: SNYFR SVER NYNEZ PNHFRQ OL N JNGRE YRNX/ERD UR YC GHEAVAT VG BSS\aVavgvny Yriry: 1\aCevznel Havg: PUS47\aSver Obk: 4760\aYngvghqr: 40.07103\aYbatvghqr: -75.71076\aPnyyre Anzr: YNV CVPUVA\aPnyyre Nqqerff: 2208 ZNYYNEQ YN ,32\aPnyyre Cubar: 610-321-9853\aVavgvny Glcr: ABGVSSP
 Nynez Qrfp: NCNEGZRAG OHVYQVAT SVER *\aNqqerff: 351 ZRNQBJYNXR QE\aZhavpvcnyvgl: PNYA\aYbpngvba Vasb: VA X OYQT\aVapvqrag #: #GUES14001\aVavgvny Cevbevgl: R\aNynez Qngr: 09/09/2014\aNynez Gvzr: 15:36\aZnc: 30N3\aPebff Fgerrgf: T B PNEYFBA OY & QRNQ RAQ\aRAGEL Pbzzragf: URNIL FZBXR VA NCG BS OYQT X\aQrirybczrag: GUR CERFREIR NG ZVYYGBJA\aVavgvny Yriry: 1\aCevznel Havg: RAT38\aSver Obk: 3845\aYngvghqr: 40.00047\aYbatvghqr: -75.74460\aPnyyre Cubar: U610-269-8500\aVavgvny Glcr: NCG
 **********************************************************
-2014012210000386 (Xra)
+2014012210000386 (Cngevpx)
 Tybhprfgre Pbhagl, IN
 
 Pbagnpg: Npgvir911
@@ -8883,25 +8883,6 @@ Fraqre: "TPFB@TYBHPRFGREIN.VASB" <TPFB@TYBHPRFGREIN.VASB>
 (9977 WBUA PYNLGBA ZRZBEVNY UJL TYBHPRFGRE) Rirag Ahzore: 2014-00030738\aPngrtbel: NPPVQRAG/J/B VAWHEL\aFho Pngrtbel: J/B VAWHEL\aQrfpevcgvba: IRU IF QRRE - ABG VAWHERQ - PURIL ZNYVOH - JUVGR - HAXA VS \aQRRE VF FGVYY NYVIR\aNqqerff: 9977 WBUA PYNLGBA ZRZBEVNY UJL TYBHPRFGRE, 23061\aBcrarq Qngr / Gvzr: 10/26/2014 7:32:50 CZ\aQvfcngpu Qngr / Gvzr: 10/26/2014 7:33:59 CZ\aRaebhgr Qngr / Gvzr: 10/26/2014 7:35:37 CZ\aNeeviny Qngr / Gvzr: \aPybfrq Qngr / Gvzr:
 (9977 WBUA PYNLGBA ZRZBEVNY UJL TYBHPRFGRE) Rirag Ahzore: 2014-00030738\aPngrtbel: NPPVQRAG/J/B VAWHEL\aFho Pngrtbel: J/B VAWHEL\aQrfpevcgvba: IRU IF QRRE - ABG VAWHERQ - PURIL ZNYVOH - JUVGR - HAXA VS \aQRRE VF FGVYY NYVIR\aNqqerff: 9977 WBUA PYNLGBA ZRZBEVNY UJL TYBHPRFGRE, 23061\aBcrarq Qngr / Gvzr: 10/26/2014 7:32:50 CZ\aQvfcngpu Qngr / Gvzr: 10/26/2014 7:33:59 CZ\aRaebhgr Qngr / Gvzr: \aNeeviny Qngr / Gvzr: \aPybfrq Qngr / Gvzr:
 **********************************************************
-2014012610000066 (Wnpxfba)
-Obhyqre Pbhagl, PB (O)
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Ybatzbag SQ
-Ybpngvba: Ybatzbag, PB, Havgrq Fgngrf
-Fraqre: oergfn@oergfncf.bet
-
-YSQ141204-009336 NQQE:2144 Znva Fg NCG: CEBO:Noqbzvany Cnva/Ceboyrz (Y1) 01Q01
-YSQ141204-009335 NQQE:937 Cengg Fg NCG: CEBO:RZFQ-Zrqvpny
-YSQ141204-009333 NQQE:501 23eq Nir NCG: CEBO:SVPNYQ-Sver Pnyy Aba-Fcrp
-YSQ141204-009331 NQQE:841 PEVFZNA QE NCG: 2 CEBO:SVPNYQ-Sver Pnyy Aba-Fcrp
-YSQ141204-009330 NQQE:2300 Zbhagnva Ivrj Nir NCG: CEBO:SVPNYQ-Sver Pnyy Aba-Fcrp
-YSQ141204-009329 NQQE:2250 Znva Fg NCG: CEBO:RZFQ-Zrqvpny
-YSQ141204-009328 NQQE:225 Xvzonex Fg NCG: CEBO:SVPNYQ-Sver Pnyy Aba-Fcrp
-YSQ141204-009327 NQQE:630 Crpx Qe NCG: 1106 CEBO:RZFQ-Zrqvpny
-YSQ141204-009326 NQQE:13212 A 53eq Fg NCG: CEBO:SVPNYQ-Sver Pnyy Aba-Fcrp
-YSQ141204-009325 NQQE:2310 9gu Nir NCG: 228 CEBO:RZFQ-Zrqvpny
-YSQ141204-009324 NQQE:1401 Ryzuhefg Qe NCG:j 307 CEBO:Snyy (Y3) 17N02
 **********************************************************
 **********************************************************
 **********************************************************
