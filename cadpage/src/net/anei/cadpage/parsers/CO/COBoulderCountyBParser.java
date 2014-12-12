@@ -18,7 +18,7 @@ public class COBoulderCountyBParser extends FieldProgramParser {
 	}
 	
 	private static Pattern SRC_ID = Pattern.compile("([A-Z]{3,4})(\\d{6}-\\d{6}) +(.*)");
-	private static Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(BLD|INFO|TIME|UNITS):"); //("(?<! )(ADD|BLD|APT|LOC|INFO|TIME|UNITS):");
+	private static Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(BLD|INFO|TIME|UNITS):");
 
 	public boolean parseMsg(String body, Data data) {
 	  Matcher mat = SRC_ID.matcher(body);
