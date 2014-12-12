@@ -5,17 +5,12 @@ import java.util.Properties;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/**
- * This class parses messages from some as yet unidentified CAD software vendor
- **/
-
-
 
 public class MNAnokaCountyParser extends SmartAddressParser {
   
   public MNAnokaCountyParser() {
     super("ANOKA COUNTY", "MN");
-    setFieldList("SRC CALL ADDR PLACE INFO ID");
+    setFieldList("SRC CALL ADDR APT PLACE INFO ID");
   }
   
   @Override

@@ -123,14 +123,12 @@ public class CallHistoryActivity extends ListActivity {
     // Solution - when were were started with the intent of displaying a new
     // message, ignore all extraneous intents until we find the one that
     // displays the new page
-    if (lockMsgId >= 0) {
-      int msgId = intent.getIntExtra(EXTRA_MSG_ID, -1);
-      if (msgId != lockMsgId) {
-        Log.v("Discarding spurious intent");
-        return;
-      }
-      lockMsgId = -1;
+    int msgId = intent.getIntExtra(EXTRA_MSG_ID, -1);
+    if (msgId != lockMsgId) {
+      Log.v("Discarding spurious intent");
+      return;
     }
+    lockMsgId = -1;
     
     // If this is a shutdown request, that is as far as we need to go
     if (intent.getBooleanExtra(EXTRA_SHUTDOWN, false)) {
@@ -165,7 +163,6 @@ public class CallHistoryActivity extends ListActivity {
     // Otherwise, if we should automatically display a call, do it now
     else {
       SmsMmsMessage msg = null;
-      int msgId = intent.getIntExtra(EXTRA_MSG_ID, -1);
       if (msgId >= 0) {
         msg = SmsMessageQueue.getInstance().getMessage(msgId);
       } else {
