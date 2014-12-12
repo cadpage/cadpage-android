@@ -60,10 +60,10 @@ Fraqre: oqhpnq@SVER.PN.TBI
 */
 
 
-choyvp pynff PNOnefgbjCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff PNFnaOreaneqvabPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp PNOnefgbjCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "ONEFGBJ", "PN");
+  choyvp PNFnaOreaneqvabPbhaglPCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "FNA OREANEQVAB PBHAGL", "PN");
   }
   
   @Grfg
@@ -71,6 +71,6 @@ choyvp pynff PNOnefgbjCnefreGrfg rkgraqf OnfrCnefreGrfg {
  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj PNOnefgbjCnefreGrfg().trarengrGrfgf("G1");
+    arj PNFnaOreaneqvabPbhaglPCnefreGrfg().trarengrGrfgf("G1");
   }
 }
