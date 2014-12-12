@@ -251,6 +251,7 @@ class Active911Vendor extends Vendor {
       "US/ID/KootenaiCounty",             "IDKootenaiCountyParser",
       "US/IL/AdamsCounty",                "ILAdamsCounty",
       "US/IL/DownersGrove",               "ILDuPageCountyB",
+      "US/IL/FairviewHeights",            "ILStClairCountyB",
       "US/IL/GlenCarbon",                 "ILMadisonCounty",
       "US/IL/KaneCounty",                 "ILKaneCounty",
       "US/IL/OFallon",                    "ILOFallon",
