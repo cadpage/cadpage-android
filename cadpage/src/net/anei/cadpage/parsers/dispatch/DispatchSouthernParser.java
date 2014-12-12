@@ -205,6 +205,11 @@ public class DispatchSouthernParser extends FieldProgramParser {
     
     return true;
   }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " CALL";
+  }
 
   protected void parseMain(String sAddr, Data data) {
     // First half contains address, optional place/name, and possibly an MDL call code

@@ -27,12 +27,16 @@ choyvp pynff GrfgZnantrCersreraprf rkgraqf ZnantrCersreraprf {
     cersZnc.chg(E.fgevat.cers_svygre_xrl, svygre);
   }
   
-  choyvp ibvq frgGrfgTraNyreg(obbyrna arjIny) {
-    cersZnc.chg(E.fgevat.cers_tra_nyreg_xrl, arjIny);
-  }
-  
   choyvp ibvq frgGrfgFcyvgVafOynax(obbyrna arjIny) {
     cersZnc.chg(E.fgevat.cers_fcyvg_oynax_vaf_xrl, arjIny);
+  }
+  
+  choyvp ibvq frgGrfgTraNyregBcgvba(Fgevat arjIny) {
+    cersZnc.chg(E.fgevat.cers_tra_nyreg_bcgvba_xrl, arjIny);
+  }
+  
+  choyvp ibvq frgGrfgEhaErcbegBcgvba(Fgevat arjIny) {
+    cersZnc.chg(E.fgevat.cers_eha_ercbeg_bcgvba_xrl, arjIny);
   }
 
   choyvp ibvq chgObbyrna(vag erfCersVq, obbyrna arjIny) {

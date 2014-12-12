@@ -51,6 +51,7 @@ Fraqre: TPZ
 {Terngre Yrabk}Nqqerff: 3055 JRYYRE GE YRABK-Y22 ; 3055=20\aErfcbafr Glcr: Hapbafpvbhf/Snvagvat=20\a  TYNF Qvfcngpu\a
 {Terngre Yrabk}Nqqerff: 109 RYZ JNZCFIVYYR IVYYNTR PVGGL YA/J RYZ FG BARVQN JNZCFIVYYR YVAR ; 109=20\aErfcbafr Glcr: Urneg Ceboyrz=20\a  TYNF Qvfcngpu\a
 {Terngre Yrabk}Nqqerff: 102 R PUNCRY PNANFGBGN IVYYNTR # 4 QVNZBAQ,A CRGREOBEB,A CRGREOBEB/ZRPUNAVP=20\aErfcbafr Glcr: Cflpuvngvp/Fhvpvqr=20\a  TYNF Qvfcngpu\a
+{Terngre Yrabk}Nqqerff: 125 ONEYBJ OHPX/ ; 125 \a\aErfcbafr Glcr: Fvpx Crefba \a\a  TYNF Qvfcngpu\a\a
 
 */
 
@@ -333,6 +334,12 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:4",
         "K:QVNZBAQ,A CRGREOBEB,A CRGREOBEB/ZRPUNAVP",
         "PNYY:Cflpuvngvp/Fhvpvqr");
+
+    qbGrfg("G8",
+        "{Terngre Yrabk}Nqqerff: 125 ONEYBJ OHPX/ ; 125 \a\aErfcbafr Glcr: Fvpx Crefba \a\a  TYNF Qvfcngpu\a\a",
+        "NQQE:125 ONEYBJ OHPX &",
+        "ZNQQE:125 ONEYBJ OHPX",
+        "PNYY:Fvpx Crefba");
 
   }
   

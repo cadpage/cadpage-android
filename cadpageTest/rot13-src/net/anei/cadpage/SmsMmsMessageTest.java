@@ -80,7 +80,8 @@ choyvp pynff FzfZzfZrffntrGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgLbexPbhaglCnefre() {
     grfgCersf.frgGrfgYbpngvba("CNLbexPbhagl");
     grfgCersf.frgGrfgBireevqrSvygre(snyfr);
-    grfgCersf.frgGrfgTraNyreg(gehr);
+    grfgCersf.frgGrfgTraNyregBcgvba("");
+    grfgCersf.frgGrfgEhaErcbegBcgvba("");
     grfgCersf.frgGrfgFcyvgVafOynax(gehr);
     frgQrsnhygf("LBEX PBHAGL", "CN");
     frgRkcYbpPbqr("CNLbexPbhaglO");

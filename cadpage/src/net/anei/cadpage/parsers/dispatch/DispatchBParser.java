@@ -14,7 +14,7 @@ public class DispatchBParser extends FieldProgramParser {
   private static final String[] FIXED_KEYWORDS = new String[]{"Map", "Grids", "Cad"};
   private static final String[] KEYWORDS = 
     new String[]{"Loc", "Return Phone", "BOX", "Map", "Grids", "Cad"};
-  private static final Pattern REPORT_PTN = Pattern.compile(".*\\bEVENT:.* Cad: ([-0-9]+) |.* DSP >?\\d\\d:\\d\\d:\\d\\d ");
+  private static final Pattern REPORT_PTN = Pattern.compile("EVENT:.* Cad: ([-0-9]+) |.* DSP >?\\d\\d:\\d\\d:\\d\\d ");
   private static final Pattern PHONE_PTN = Pattern.compile("(?: +(?:VERIZON|AT ?& ?T MOBILITY))? +(\\d{10}|\\d{7}|\\d{3} \\d{7}|\\d{3}-\\d{4})$");
   
   int version;
