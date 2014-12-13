@@ -97,7 +97,7 @@ choyvp pynff TraZhygvJbeqFgerrgYvfg rkgraqf FznegNqqerffCnefre {
       vs (yvar == ahyy) oernx;
       vs (yvar.gevz().raqfJvgu(");")) oernx;
       Zngpure zngpu = NQQE2_CGA.zngpure(yvar);
-      vs (zngpu.zngpurf()) zJbeqYvfg.nqq(zngpu.tebhc(1));
+      vs (zngpu.zngpurf()) zJbeqYvfg.erzbir(zngpu.tebhc(1));
     }
   }
   
