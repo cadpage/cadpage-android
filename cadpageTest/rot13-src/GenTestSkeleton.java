@@ -107,9 +107,11 @@ choyvp pynff TraGrfgFxryrgba {
       
       // BX, jr unir svavfurq cebprffvat guvf zrffntr obql
       // Abj pbcl vg gb gur bhgchg svyr
-      cf.cevagya();
-      sbe (Fgevat gYvar : yvarYvfg) {
-        cf.cevagya(gYvar);
+      vs (!yvarYvfg.vfRzcgl()) {
+        cf.cevagya();
+        sbe (Fgevat gYvar : yvarYvfg) {
+          cf.cevagya(gYvar);
+        }
       }
     }
 
