@@ -23,9 +23,17 @@ public class INMadisonCountyBParser extends FieldProgramParser {
   }
   
   @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("CFS")) return false;
+    body = body.replace("Call Type:", " Call Type:");
+    body = body.replace('\n', ' ').trim();
+    return super.parseMsg(body, data);
+  }
+  
+  @Override
   public Field getField(String name) {
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
-    if (name.equals("DATETIME")) return new DateTimeField(new SimpleDateFormat("MM:dd:yyyy hh:mm:ss aa"));
+    if (name.equals("DATETIME")) return new DateTimeField(new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa"), true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("MAP1")) return new MyMap1Field();
@@ -93,12 +101,4 @@ public class INMadisonCountyBParser extends FieldProgramParser {
     return CORD_PTN.matcher(address).replaceAll("");
   }
   private static final Pattern CORD_PTN = Pattern.compile("\\bCORD\\b");
-  
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("CFS")) return false;
-    body = body.replace("Call Type:", " Call Type:");
-    body = body.replace('\n', ' ').trim();
-    return super.parseMsg(body, data);
-  }
 }
