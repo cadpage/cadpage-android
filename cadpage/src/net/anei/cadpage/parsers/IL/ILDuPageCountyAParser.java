@@ -131,6 +131,7 @@ public class ILDuPageCountyAParser extends MsgParser {
       "LW",     "LISLE- WOODRIDGE",
       "LY",     "LEYDEN",
       "LZ",     "LAKE ZURICH",
+      "ME",     "MEDINAH",
       "MED",    "MEDINAH",
       "MK",     "MAPLE PARK",
       "MP",     "MELROSE PARK",

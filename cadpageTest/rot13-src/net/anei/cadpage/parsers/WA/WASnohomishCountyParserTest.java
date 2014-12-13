@@ -23,6 +23,7 @@ Fraqre: 6245
 Pbagnpg: Npgvir911
 Fraqre: <cntrtngr@fabcnp911.hf>
 (Grkg Zrffntr) cntrtngr:** QVFC **ZHGHNY NVQ SVER !11030 RIRETERRA JNL ! !GT/G03 ! !Y72 !,ERD Y72 SBE JNGRE ERZBINY #O OYQT\e\a
+(Grkg Zrffntr) cntrtngr:** QVFC **ZBGBE IRU PBYYVFVBA PBQR ERFC !ZNYGOL EQ/FE 9 FR ,FAB !NS0217P!GT/G03 !457N-7!N74 O71 R71 CTRAQ !,2 IRU, ABA OYXVAT, EC VA N OYX IJ TEL GBL CP HAX VA\e\a
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fabubzvfu Pbhagl Sver Qvfgevpg #21
@@ -460,6 +461,17 @@ choyvp pynff JNFabubzvfuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:GT/G03",
         "HAVG:Y72",
         "VASB:ERD Y72 SBE JNGRE ERZBINY #O OYQT");
+
+    qbGrfg("G1",
+        "(Grkg Zrffntr) cntrtngr:** QVFC **ZBGBE IRU PBYYVFVBA PBQR ERFC !ZNYGOL EQ/FE 9 FR ,FAB !NS0217P!GT/G03 !457N-7!N74 O71 R71 CTRAQ !,2 IRU, ABA OYXVAT, EC VA N OYX IJ TEL GBL CP HAX VA\e\a",
+        "PNYY:ZBGBE IRU PBYYVFVBA PBQR ERFC",
+        "NQQE:ZNYGOL EQ & FE 9 FR",
+        "ZNQQE:ZNYGOL EQ & JN 9 FR",
+        "PVGL:FABUBZVFU",
+        "ZNC:NS0217P-457N-7",
+        "PU:GT/G03",
+        "HAVG:N74 O71 R71 CTRAQ",
+        "VASB:2 IRU, ABA OYXVAT, EC VA N OYX IJ TEL GBL CP HAX VA");
 
   }
 

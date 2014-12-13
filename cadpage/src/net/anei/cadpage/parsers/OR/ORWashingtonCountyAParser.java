@@ -176,6 +176,11 @@ public class ORWashingtonCountyAParser extends ORWashingtonCountyBaseParser {
         data.strName = field;
       }
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "X NAME";
+    }
   }
   
   private final static CodeSet CALL_LIST = new CodeSet(
