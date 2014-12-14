@@ -64,12 +64,12 @@ public class CASanBernardinoCountyCParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
     return super.getField(name);
   }
   
   private static final Pattern ADDR_PLACE_PTN = Pattern.compile("(.*?)\\((.*)\\)");
-  private class MyAddressField extends AddressField {
+  private class MyAddressCityField extends AddressCityField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = ADDR_PLACE_PTN.matcher(field);
