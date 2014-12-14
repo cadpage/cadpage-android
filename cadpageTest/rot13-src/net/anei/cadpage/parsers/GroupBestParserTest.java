@@ -2,7 +2,7 @@ cnpxntr arg.narv.pnqcntr.cnefref;
 
 vzcbeg arg.narv.pnqcntr.cnefref.ZftVasb.Qngn;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBNqnzfPbhaglCnefre;
-vzcbeg arg.narv.pnqcntr.cnefref.PB.PBObhyqrePbhaglCnefre;
+vzcbeg arg.narv.pnqcntr.cnefref.PB.PBObhyqrePbhaglNCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBJryqPbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBAbegutyraaRZFCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.ZQ.ZQPuneyrfPbhaglNCnefre;
@@ -102,7 +102,7 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgNyvnfrqCnefre1() {
-    frgCnefre(arj TebhcOrfgCnefre(arj PBJryqPbhaglCnefre(), arj PBObhyqrePbhaglCnefre()), "", "PB");
+    frgCnefre(arj TebhcOrfgCnefre(arj PBJryqPbhaglCnefre(), arj PBObhyqrePbhaglNCnefre()), "", "PB");
     frgRkcYbpPbqr("PBJryqPbhagl");
     qbGrfg("Jryq Pbhagl",
         "\" \" 24\aFVCS\aQ\a3211 YHCGBA NIR\aRI\a24\aZBZ VF ABG JNXVAT HC 0000 Pbasvez 0001 Ershfr GKG FGBC gb bcg-bhg",

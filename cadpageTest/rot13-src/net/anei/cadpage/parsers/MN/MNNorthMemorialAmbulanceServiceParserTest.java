@@ -1,7 +1,7 @@
 cnpxntr arg.narv.pnqcntr.cnefref.ZA;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.ZA.ZANabxnPbhaglCnefre;
+vzcbeg arg.narv.pnqcntr.cnefref.ZA.ZANabxnPbhaglNCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -75,7 +75,7 @@ Grfg #5
 choyvp pynff ZAAbeguZrzbevnyNzohynaprFreivprCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZAAbeguZrzbevnyNzohynaprFreivprCnefreGrfg() {
-    frgCnefre(arj ZANabxnPbhaglCnefre(), "NABXN PBHAGL", "ZA");
+    frgCnefre(arj ZANabxnPbhaglNCnefre(), "NABXN PBHAGL", "ZA");
   }
   
   @Grfg
