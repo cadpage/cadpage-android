@@ -172,6 +172,7 @@ class Active911Vendor extends Vendor {
       "US/AR/LifeNetEms",                 "ARGarlandCounty",
       "US/AZ/NavajoCounty",               "AZNavajoCounty",
       "US/CA/AmadorCounty",               "CAAmadorCounty",
+      "US/CA/Bducad",                     "CASanBernardinoCountyC",
       "US/CA/Btucad",                     "CAButteCounty",
       "US/CA/CalaverasCounty",            "CACalaverasCounty",
       "US/CA/CDFandGrassValleyECC",       "CAPlacerCountyParser",
