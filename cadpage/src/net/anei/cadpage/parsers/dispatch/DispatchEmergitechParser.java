@@ -197,8 +197,9 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     
     // See if this is the new fangled dash delimited format.  Makes things so much easier
     String tmp = body.substring(match.end());
-    if (tmp.startsWith("- ")) { 
-      tmp = tmp.substring(2).trim();
+    if (tmp.contains(" - Location:")) {
+      int pt = tmp.indexOf("Nature:");
+      if (pt > 0) tmp = tmp.substring(pt);
       if (tmp.endsWith(" -")) tmp = tmp + ' ';
       tmp = HOUSE_DECIMAL_PTN.matcher(tmp).replaceFirst("$1");
       return parseFields(tmp.split(" - "), 3, data);
