@@ -1,31 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12082014</string>
-  <string name="release_version">v1.7.63</string>
+  <string name="release_date">12142014</string>
+  <string name="release_version">v1.7.64</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
+New Filtering options to specify how general alerts and run reports 
+should be handled\n
+\n
 New Locations:\n
-Cleburn County, AL\n
-Kern County, CA\n
-Cheshire, CT\n
-Anderson County, KS\n
-Antrim County, MI\n
-Poplar Bluff, MO\n
-Bethlehem, NY\n
-Nanaimo, BC, Canada\n
+San Bernardino County, CA (alt)\n
+Boulder County, CO (alt)\n
+St Clair County,IL (alt)\n
+Floyd County, KY\n
+Pike County, KY\n
+Anoka County, MN (alt)\n
+Martin County, NC\n
+Warren County, TN\n
+Spokane County, WA\n
+Dinwiddie County, VA\n
 \n
 Location Parsing Fixes:\n
-Berks County, PA\n
-Overton County, TN\n
-Acadian Ambulance, TX\n
+Citrus County, FL\n
+Madison County, IN\n
+Stone County, MO\n
+Madison COunty, NY\n
+Washington County, OH\n
+Humble, TX\n
+Prince George County, VA\n
 \n
 General Fixes:\n
-Fixed crash trying to play invalid ringtone selection while
-overriding mute/volume control\n
+Occasional problem with screen not coming on when alert is received.\n
   </string>
 </resources>
   
