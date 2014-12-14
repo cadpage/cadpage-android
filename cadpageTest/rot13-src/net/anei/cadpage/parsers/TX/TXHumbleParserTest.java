@@ -52,6 +52,10 @@ Fgnghf zrffntr, Fubhyq or unaqyrq nf Trareny Nyreg
 qba'g unir gur trne gb znxr n fgevat ....obhg 20 - 30 ng tnaqre
 (Puvrs NYG) [RG] - [ ] - HAVG: R-Z29 Qvfc 18:54:04 - RAEG: 18:55:44 - BFA: 19:00:24 - GENA: 19:14:40 - @UBF: 19:33:32 - NINY: 20:12:44
 
+Pbagnpg: Jnffryy, Zvpunry <ZJnffryy@nisq.pbz>
+Fraqre: nyreg@pszft.pbz
+(Puvrs Nyreg) [SVER] R29     -- 17Q3 - Snyyf - Abg Nyreg -- 20714 Xvatf Pebja Pg Uneevf Pbhagl, GK -- Obk #:N1901 -- Pebff FGF: Xvatf Evire Qe/Qrnq Raq
+
  */
 
 choyvp pynff GKUhzoyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -439,6 +443,22 @@ choyvp pynff GKUhzoyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:337L",
         "OBK:N1901");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZvpunryJnffryy2() {
+
+    qbGrfg("G1",
+        "(Puvrs Nyreg) [SVER] R29     -- 17Q3 - Snyyf - Abg Nyreg -- 20714 Xvatf Pebja Pg Uneevf Pbhagl, GK -- Obk #:N1901 -- Pebff FGF: Xvatf Evire Qe/Qrnq Raq",
+        "FEP:SVER",
+        "HAVG:R29",
+        "PBQR:17Q3",
+        "PNYY:Snyyf - Abg Nyreg",
+        "NQQE:20714 Xvatf Pebja Pg",
+        "PVGL:Uneevf Pbhagl",
+        "OBK:N1901",
+        "K:Xvatf Evire Qe/Qrnq Raq");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

@@ -14,8 +14,8 @@ public class TXHumbleParser extends FieldProgramParser {
   private static Pattern INCIDENT_PTN = Pattern.compile(" *Incident: \\d{9} *| *\\[ \\d{9} \\] *");
   
   public TXHumbleParser() {
-    super("HUMBLE", "TX",
-           "UNIT? CALL CALL2? ADDRCITY! ( Box_#:BOX Cross_STS:X | Map:MAP PLACE Xst's:X Units:UNIT ID | Xst's:X Bldg:PLACE Key_Map:MAP! Box_#:BOX | UNIT KM:MAP Xst's:X )");
+    super(CITY_LIST, "HUMBLE", "TX",
+          "UNIT? CODE? CALL CALL2? ADDRCITY! ( Box_#:BOX Cross_STS:X | Map:MAP PLACE Xst's:X Units:UNIT ID | Xst's:X Bldg:PLACE Key_Map:MAP! Box_#:BOX | UNIT KM:MAP Xst's:X )");
   }
   
   @Override
@@ -39,7 +39,7 @@ public class TXHumbleParser extends FieldProgramParser {
       data.strSource = p.get('|');
     }
     if (!data.strSource.endsWith("FIRE") && !data.strSource.endsWith("EMS")) return false;
-    if (body.startsWith("- ")) body = body.substring(2).trim();
+    body = stripFieldStart(body,  "- ");
     body = TRAIL_DELIM.matcher(body).replaceFirst(" - ");
     
     // Split line into double dash delimited fields and process them
@@ -49,9 +49,16 @@ public class TXHumbleParser extends FieldProgramParser {
   }
   
   @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
+  }
+  
+  @Override
   public Field getField(String name) {
     if (name.equals("UNIT")) return new UnitField("(?:[A-Z]-)?[A-Z]+\\d+(?: .*)?");
+    if (name.equals("CODE")) return new CodeField("\\d+[A-Z]\\d+[A-Z]?", true);
     if (name.equals("CALL2")) return new Call2Field();
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
     return super.getField(name);
   }
   
@@ -83,8 +90,75 @@ public class TXHumbleParser extends FieldProgramParser {
     }
   }
   
-  @Override
-  public String getProgram() {
-    return "SRC " + super.getProgram();
+  private class MyAddressCityField extends AddressCityField {
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      String city = p.getLastOptional(',');
+      field = p.get();
+      if (city.equals("TX")) city = p.getLastOptional(',');
+      if (city.length() > 0) {
+        parseAddress(field, data);
+        data.strCity = city;
+      } else {
+        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
+      }
+    }
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+   
+    "HARRIS COUNTY",
+    
+    "// Cities",
+    "BAYTOWN",
+    "BELLAIRE",
+    "BUNKER HILL VILLAGE",
+    "DEER PARK",
+    "EL LAGO",
+    "FRIENDSWOOD",
+    "GALENA PARK",
+    "HEDWIG VILLAGE",
+    "HILSHIRE VILLAGE",
+    "HOUSTON",
+    "HUMBLE",
+    "HUNTERS CREEK VILLAGE",
+    "JACINTO CITY",
+    "JERSEY VILLAGE",
+    "KATY",
+    "LA PORTE",
+    "LEAGUE CITY",
+    "MISSOURI CITY",
+    "MORGAN'S POINT",
+    "NASSAU BAY",
+    "PASADENA",
+    "PEARLAND",
+    "PINEY POINT VILLAGE",
+    "SEABROOK",
+    "SHOREACRES",
+    "SOUTH HOUSTON",
+    "SOUTHSIDE PLACE",
+    "SPRING VALLEY VILLAGE",
+    "STAFFORD",
+    "TAYLOR LAKE VILLAGE",
+    "TOMBALL",
+    "WALLER",
+    "WEBSTER",
+    "WEST UNIVERSITY PLACE",
+
+    "//Census-designated places",
+    "ALDINE",
+    "ATASCOCITA",
+    "BARRETT",
+    "CHANNELVIEW",
+    "CINCO RANCH",
+    "CLOVERLEAF",
+    "CROSBY",
+    "HIGHLANDS",
+    "MISSION BEND",
+    "SHELDON",
+    "SPRING",
+    "THE WOODLANDS"
+
+  };
 }
