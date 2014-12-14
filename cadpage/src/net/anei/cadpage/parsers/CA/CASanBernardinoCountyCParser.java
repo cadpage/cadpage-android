@@ -27,7 +27,7 @@ public class CASanBernardinoCountyCParser extends FieldProgramParser {
   
   @Override
   public int getMapFlags() {
-    return MAP_FLG_PREFER_GPS | MAP_FLG_SUPPR_LA;
+    return MAP_FLG_PREFER_GPS;
   }
 
   @Override

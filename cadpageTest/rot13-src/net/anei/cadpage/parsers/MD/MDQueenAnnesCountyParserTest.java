@@ -9,6 +9,11 @@ vzcbeg bet.whavg.Grfg;
 /*
 Dhrra Naar'f Pbhagl, ZQ
 
+Pbagnpg: Senapvf Xvaanzba <SenapvfX@pubcgnaxryrpgevp.pbbc>
+Fraqre: TPZ
+Q 6-1 FZBXR QRGRPGBE 104 PUNEYRF FG YBPNY OBK D06 QHR:R64
+
+
 Pbagnpg: Npgvir911
 Fcrpvny ceboyrzf
 Fraqre: <DN911pbz@dnp.bet>
@@ -326,6 +331,19 @@ choyvp pynff ZQDhrraNaarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZQDhrraNaarfPbhaglCnefreGrfg() {
     frgCnefre(arj ZQDhrraNaarfPbhaglCnefre(), "DHRRA NAARF PBHAGL", "ZQ");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgSenapvfXvanzba() {
+
+    qbGrfg("G1",
+        "Q 6-1 FZBXR QRGRPGBE 104 PUNEYRF FG YBPNY OBK D06 QHR:R64",
+        "OBK:YBPNY 6-1",
+        "PNYY:FZBXR QRGRPGBE",
+        "NQQE:104 PUNEYRF FG",
+        "PU:D06",
+        "HAVG:R64");
+
   }
   
   @Grfg
