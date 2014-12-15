@@ -14,7 +14,7 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
   
   public NYMadisonCountyGLASParser() {
     super(CITY_LIST, "MADISON COUNTY", "NY",
-          "Address:ADDR/SXXP! Response_Type:CALL!");
+          "Address:ADDR/SXP! Response_Type:CALL!");
   }
   
   @Override

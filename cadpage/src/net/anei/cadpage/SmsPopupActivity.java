@@ -415,15 +415,19 @@ public class SmsPopupActivity extends Safe40Activity {
   /**
    * Back key pressed
    */
-@TargetApi(5)
 @Override
   public void onBackPressed() {
+  
+    // Suppress back activity if response button menu is visible
+    if (optManager.isResponseMenuVisible()) return;
+    
+    // Otherwise carry on with back function
     super.onBackPressed();
     
     // Clear any active notification and wake locks
     ClearAllReceiver.clearAll(this);
     
-    // Flag message acknowledgement
+    // Flag message acknowledgment
     message.acknowledge(this);
   }
 

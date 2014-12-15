@@ -328,6 +328,10 @@ public class MsgOptionManager {
       prepareButtons(mainButtonList);
     }
   }
+  
+  public boolean isResponseMenuVisible() {
+    return respButtonGroup.getVisibility() == View.VISIBLE;
+  }
 
   /**
    * Prepare all buttons in a button menu
