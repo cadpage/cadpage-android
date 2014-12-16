@@ -13,6 +13,11 @@ public class SCYorkCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
+  @Override
   protected boolean parseMsg(String body, Data data) {
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
@@ -24,6 +29,13 @@ public class SCYorkCountyParser extends FieldProgramParser {
       return data.parseGeneralAlert(this, body);
     }
     return false;
+  }
+
+  @Override
+  public Field getField(String name) {
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("ID")) return new MyIdField();
+    return super.getField(name);
   }
   
   private class MyCrossField extends CrossField {
@@ -49,10 +61,21 @@ public class SCYorkCountyParser extends FieldProgramParser {
       return "X PLACE CITY CALL";
     }
   }
-
-  @Override
-  public Field getField(String name) {
-    if (name.equals("X")) return new MyCrossField();
-    return super.getField(name);
+  
+  private class MyIdField extends IdField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf("***");
+      if (pt >= 0) {
+        setGPSLoc(field.substring(pt+3).trim(), data);
+        field = field.substring(0,pt).trim();
+      }
+      super.parse(field,data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ID GPS";
+    }
   }
 }
