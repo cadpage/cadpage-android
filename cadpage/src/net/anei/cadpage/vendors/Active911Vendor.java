@@ -504,6 +504,7 @@ class Active911Vendor extends Vendor {
       "US/OH/LoganCounty",                "OHLoganCounty",
       "US/OH/LorainCounty",               "OHLorainCountyB",
       "US/OH/Sebring",                    "OHMahoningCounty",
+      "US/OH/CityofGreen",                "OHSummitCountyF",
       "US/OH/TrumbullCounty",             "OHTrumbullCounty",
       "US/OH/WarrenCountyEmergitech",     "OHFranklin",
       "US/OH/WarrenCountyLogis",          "OHWarrenCountyA",

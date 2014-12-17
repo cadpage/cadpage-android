@@ -7,12 +7,12 @@ public class OHSummitCountyFParser  extends FieldProgramParser {
   
   public OHSummitCountyFParser() {
     super("SUMMIT COUNTY", "OH",
-           "CALL ADDR MAP!");
+           "CALL ADDRCITY! MAP");
   }
 
   @Override
   public String getFilter() {
-    return "fdall@ems-cad.cityofgreen.org";
+    return "fdall@ems-cad.cityofgreen.org,fs1cad@cityofgreen.org";
   }
   
   @Override
@@ -23,26 +23,33 @@ public class OHSummitCountyFParser  extends FieldProgramParser {
   
   @Override
   protected Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("MAP")) return new MapField("SS_MABAS_Zones, *(.*)", true);
     return super.getField(name);
   }
 
-  public class MyAddressField extends AddressField {
+  public class MyAddressCityField extends AddressCityField {
 
     @Override
     public void parse(String field, Data data) {
       if (field.endsWith(")")) {
         int pt = field.indexOf('(');
-        data.strCross = field.substring(pt+1,field.length()-1).trim();
+        String cross = field.substring(pt+1,field.length()-1).trim();
+        cross = stripFieldStart(cross, "/");
+        cross = stripFieldEnd(cross, "/");
+        data.strCross = cross;
         field = field.substring(0,pt).trim();
       }
       super.parse(field, data);
+      if (data.strApt.startsWith("Near:")) {
+        data.strPlace = data.strApt;
+        data.strApt = "";
+      }
     }
     
     @Override
     public String getFieldNames() {
-      return "ADDR APT X";
+      return "ADDR APT PLACE CITY X";
     }
   }
 }
