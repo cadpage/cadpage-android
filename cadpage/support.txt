@@ -145,6 +145,8 @@ You should shortly receive a registration confirmation popup that will display y
 
 Another alternative would be to use the spam blocking or blacklisting features of your message app to block messages sent from dispatch.
 
+You can also use a new "Alert Delay" setting in Notification Settings to delay the Cadpage alert notification by a few seconds.  If the Cadpage alert is delayed until after the text message alert, it will not be silenced by the text message alert.
+
 In the long run, there is an open enhancement request
 https://code.google.com/p/android/issues/detail?id=61684
 asking Google to restore third party message blocking functionality in some future version of Android.  Feel free to register your opinion there.

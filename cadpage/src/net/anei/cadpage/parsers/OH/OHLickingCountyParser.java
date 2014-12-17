@@ -9,15 +9,26 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class OHLickingCountyParser extends SmartAddressParser {
   
-  private static final Pattern IAR_MASTER_PTN = Pattern.compile("([- A-Z]+)\n(.*)");
-  private static final Pattern MASTER_PTN1 = Pattern.compile("([^,]*), ([ A-Z]+), \\d{5}(?: +\\(;?(.*)\\)?)?");
+  private static final Pattern IAR_MASTER_PTN = Pattern.compile("([-/ A-Z]+)\n(.*)");
+  private static final Pattern MASTER_PTN1 = Pattern.compile("([^,]*), ([ A-Za-z]+)(?:, \\d{5})?(?: #APT ([^ ]+))?(?: +\\((.*)\\)?)?");
   private static final Pattern MASTER_PTN2 = Pattern.compile("([^,]*?), ([^,/]+?)/([^,]+?), ([ A-Z]+)");
+  private static final Pattern MASTER_PTN3 = Pattern.compile("[^,\\(\\)]+");
 
   public OHLickingCountyParser() {
     super(CITY_LIST, "LICKING COUNTY", "OH");
-    setFieldList("CALL ADDR APT CITY X");
+    setFieldList("CALL ADDR APT CITY X PLACE");
     setupCallList(CALL_LIST);
-    setupMultiWordStreets("SMITHS MILL", "NORTH ST");
+    setupMultiWordStreets(
+      "B CANAL",
+      "BEAVER RUN",
+      "C CANAL",
+      "CANYON VILLA",
+      "CRISTLAND HILL",
+      "JEFFERSON RIDGE",
+      "NORTH ST",
+      "SMITHS MILL", 
+      "UNION STATION"
+    );
   }
 
   @Override
@@ -49,12 +60,20 @@ public class OHLickingCountyParser extends SmartAddressParser {
     
     String addr;
     String addr2 = null;
+    String apt = null;
     Matcher match = MASTER_PTN1.matcher(body);
     if (match.matches()) {
       
       addr = match.group(1).trim();
       data.strCity = match.group(2).trim();
-      data.strCross = getOptGroup(match.group(3));
+      apt = match.group(3);
+      String cross = getOptGroup(match.group(4));
+      int pt = cross.indexOf(';');
+      if (pt >= 0) {
+        data.strPlace = cross.substring(pt+1).trim();
+        cross = cross.substring(0,pt).trim();
+      }
+      data.strCross = stripFieldEnd(cross, "/");
     }
     
     else if ((match = MASTER_PTN2.matcher(body)).matches()) {
@@ -64,6 +83,10 @@ public class OHLickingCountyParser extends SmartAddressParser {
       String city2 = match.group(4).trim();
       if (!city1.equals(city2)) return false;
       data.strCity = city1;
+    }
+    
+    else if (MASTER_PTN3.matcher(body).matches()){
+      addr = body;
     }
     
     else return false;
@@ -83,6 +106,7 @@ public class OHLickingCountyParser extends SmartAddressParser {
       if (token != null) data.strAddress = data.strAddress + ' ' + token;
     }
     if (addr2 != null) data.strAddress = append(data.strAddress, " & ", addr2);
+    if (apt != null) data.strApt = append(data.strApt, "-", apt);
     return true;
   }
   
@@ -94,21 +118,29 @@ public class OHLickingCountyParser extends SmartAddressParser {
   private static final CodeSet CALL_LIST = new CodeSet(
       "ABDOMINAL PAIN-EMS",
       "ALARM COMMERCIAL FIRE-FIRE",
+      "ATTEMPT SUICIDE-EMS",
       "CHEST PAIN",
+      "CHEST PAIN-EMS",
+      "CHILDBIRTH / OB-EMS",
       "BREATHING PROBLEMS-EMS",
       "DIABETIC PROBLEMS-EMS",
+      "FIRE BARN-FIRE",
       "FIRE RESIDENTIAL STRUCTURE-FIRE",
       "HEART PROBLEMS-EMS",
       "ILLNESS",
       "ILLNESS-EMS",
       "INJURY-EMS",
+      "INVESTIGATION/SERVICE RUN-FIRE",
       "NATURAL GAS LEAK",
       "NATURAL GAS LEAK-FIRE",
+      "NON BREATHER / ARREST-EMS",
+      "OVERDOSE-EMS",
       "PERSONAL ASSIST-EMS",
       "SEIZURE-EMS",
       "SERVICE RUN",
       "TRAFFIC ACCIDENT",
       "TRAFFIC ACCIDENT-EMS",
+      "TRAFFIC ACCIDENT HIGH SPEED / ENTRAPMENT-EMS",
       "UNCONSCIOUS PERSON-EMS",
       "WORKING FIRE RESIDENTIAL-FIRE"
   );
