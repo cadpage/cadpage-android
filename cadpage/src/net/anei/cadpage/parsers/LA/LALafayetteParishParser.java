@@ -12,11 +12,22 @@ Lafayette Parish, LA
 */
 
 public class LALafayetteParishParser extends DispatchA49Parser {
+  
+  private static final Pattern TRAIL_NA_PTN = Pattern.compile("(?: +OR)? +NA$");
 
   public LALafayetteParishParser() {
     super("LAFAYETTE PARISH","LA");
   }
   
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (!super.parseMsg(body, data)) return false;
+    data.strAddress = TRAIL_NA_PTN.matcher(data.strAddress).replaceFirst("");
+    data.strCross = TRAIL_NA_PTN.matcher(data.strCross).replaceFirst("");
+    return true;
+  }
+
+
   @Override
   public String getFilter() {
     return "cadalert@lafayettela.gov,alerts@carencrofd.org";
