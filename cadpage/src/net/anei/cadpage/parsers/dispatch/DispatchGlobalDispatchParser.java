@@ -237,6 +237,11 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
       field = field.replaceAll("\\s{2,}", " ");
       data.strSupp = append(data.strSupp, ". ", field);
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "DATE TIME INFO";
+    }
   }
 
   private class BaseIdField extends IdField {

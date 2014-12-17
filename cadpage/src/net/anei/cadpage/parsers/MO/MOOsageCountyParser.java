@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchGlobalDispatchParser;
 
 public class MOOsageCountyParser extends DispatchGlobalDispatchParser {
   
-  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:[A-Z]+\\d+|RDC|RDL|RDL \\d|701|8[89]\\d|[A-Z]{1,4}FD))+$");
+  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:[A-Z]+\\d+|MOAD|MSHP|RDB|RDC|RDL|RDL \\d|RDW|STAFF|7[01]\\d|8\\d{2}|61\\d{2}|[A-Z]{1,4}FD))+$");
   private static final Pattern DASH_DIR_PTN = Pattern.compile("- *([NSEW]|[NS][EW])\\b");
   private static final Pattern CROSS_UNIT_PTN = Pattern.compile("(.* (?:[NSEW]|[NS][EW]))\\b *(.*)");
   
@@ -25,18 +25,31 @@ public class MOOsageCountyParser extends DispatchGlobalDispatchParser {
   
   @Override
   public String getFilter() {
-    return "central@fidmail.com";
+    return "sms911@socket.net";
   }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.trim().equals("Osage County EOC")) return false;
+    subject = subject.trim();
+    if (!subject.equals("OsageCo 911 EOC") && !subject.equals("OsageCounty 911/EOC")) return false;
     if (!body.contains(" CrossStreets:")) {
+      setFieldList("ADDR APT CITY CALL");
+      
       Matcher match = UNIT_PTN.matcher(body);
-      if (match.find()) {
-        data.strUnit = match.group().trim();
-        body = body.substring(0,match.start());
+      if (!match.find()) return false;
+      data.strUnit = match.group().trim();
+      body = body.substring(0,match.start());
+
+      int pt = body.indexOf("  ");
+      if (pt >= 0) {
+        data.strCall = body.substring(pt+2).trim();
+        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, body.substring(0,pt), data);
+      } else {
+        parseAddress(StartType.START_ADDR, body, data);
+        data.strCall = getLeft();
       }
+      if (data.strCity.equals("OSAGE COUNTY")) data.strCity = "";
+      return true;
     }
     
     body = DASH_DIR_PTN.matcher(body).replaceAll("$1");
@@ -57,6 +70,11 @@ public class MOOsageCountyParser extends DispatchGlobalDispatchParser {
     data.strUnit = append(data.strUnit, " ", sUnit);
     
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " UNIT";
   }
   
   private static final String[] CITY_LIST = new String[]{
