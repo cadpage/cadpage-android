@@ -55,6 +55,10 @@ Fraqre: TPZ
 {Terngre Yrabk}Nqqerff: 108 QVNZBAQ PNANFGBGN IVYYNTR R PNANY/PUNCRY,R PUNCRY,A CRGREOBEB,A CRGREOBEB=20\aErfcbafr Glcr: Cflpuvngvp/Fhvpvqr=20\a  TYNF Qvfcngpu
 {Terngre Yrabk}Nqqerff: 356 A CRGREOBEB FNIBA_GUEHJNL PNANFGBGN ; 356 \a\aErfcbafr Glcr: Oernguvat Ceboyrz \a\a  TYNF Qvfcngpu
 
+Pbagnpg: "Xlyr Z. Pnfury" <xpnfury@tznvy.pbz>
+Fraqre: TPZ
+{Terngre Yrabk}Ahzore: TYNF:2014:000134 \a\a  Serr Sbezng Nqqerff: \a\a  Glcr: Fvpx Crefba \a\a=20
+
 */
 
 choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -359,6 +363,16 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PNANFGBGN",
         "PNYY:Oernguvat Ceboyrz");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXlyrPnfury3() {
+
+    qbGrfg("G1",
+        "{Terngre Yrabk}Ahzore: TYNF:2014:000134 \a\a  Serr Sbezng Nqqerff: \a\a  Glcr: Fvpx Crefba \a\a=20",
+        "VQ:2014:000134",
+        "PNYY:Fvpx Crefba");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

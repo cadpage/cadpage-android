@@ -14,7 +14,7 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
   
   public NYMadisonCountyGLASParser() {
     super(CITY_LIST, "MADISON COUNTY", "NY",
-          "Address:ADDR/SXP! Response_Type:CALL!");
+          "( Number:ID! Free_Format_Address:ADDR! Type:CALL! | Address:ADDR/SXP! Response_Type:CALL! )");
   }
   
   @Override
@@ -26,9 +26,11 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Greater Lenox")) return false;
     body = body.replace("=20\n", "\n").trim();
+    body = stripFieldEnd(body, "=20");
     
     String[] flds = DELIM.split(body);
-    if (flds.length == 3 && flds[2].trim().equals("GLAS Dispatch")) {
+    if (flds.length == 3 && 
+        (body.startsWith("Number:") || flds[2].trim().equals("GLAS Dispatch"))) {
       return super.parseFields(flds, data);
     }
     
@@ -77,6 +79,7 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("GLAS:(\\d{4}:\\d{6})");
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
