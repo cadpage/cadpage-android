@@ -37,11 +37,23 @@ public class NJMonmouthCountyAParser extends DispatchA11Parser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "12", "07726",
-      "16", "07728",
-      "26", "MANALAPAN", // "07726",
-      "32", "MILLSTONE", // "08510",
+      "12", "ENGLISHTOWN",
+      "15", "FREEHOLD",
+      "16", "FREEHOLD",
+      "18", "HOLMDEL",
+      "19", "HOWELL",
+      "23", "MONROE",
+      "25", "LONG BRANCH",
+      "26", "MANALAPAN",
+      "28", "MARLBORO",
+      "32", "MILLSTONE",
+      "33", "MONMOUTH BEACH",
+      "36", "TINTON FALLS",
       "41", "ROOSEVELT",
-      "84", "COLTS NECK"
+      "43", "SEA BRIGHT",
+      "51", "MONROE",
+      "82", "ALLENTOWN",
+      "84", "COLTS NECK",
+      "86", "MATAWAN"
   });
 }
