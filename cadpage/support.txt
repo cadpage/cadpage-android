@@ -134,7 +134,9 @@ Thanks for reporting it,
 * Android 4.4 (Kit Kat) dispatch pages showing up in message app inbox
 ***************************************************************************
 
-That is a "feature" of the new Android 4.4 system.  There are some good reasons why Google made that change, but the bottom line is, Cadpage can no longer block dispatch text alerts from showing up in your message inbox.
+Google permanently removed the capability of apps blocking text messages from getting to the default message app in Android 4.4.  They had some good reasons for doing so, that feature was being abused by regular message apps blocking calls to competing messaging apps.  But it left Cadpage like apps that really have a legitimate reason to block text messages in a lurch.  There was a movement to request Google restore that capability in some future version of Android, but that seems increasing unlikely.
+
+While it is no longer possible for Cadpage to prevent dispatch alerts from getting to the message app inbox, there are some workaround that can be used to alleviate the issue.
 
 If you are a paid subscriber, you can try our new Cadpage paging service.  This will assign you a personal dispatch email address.  If you can have your dispatch alerts sent to this email address, they will be pushed to your phone through the mobile data network.  No text messaging is involved, so there is no problem with the text alerts showing up in our message app inbox.
 
@@ -145,11 +147,7 @@ You should shortly receive a registration confirmation popup that will display y
 
 Another alternative would be to use the spam blocking or blacklisting features of your message app to block messages sent from dispatch.
 
-You can also use a new "Alert Delay" setting in Notification Settings to delay the Cadpage alert notification by a few seconds.  If the Cadpage alert is delayed until after the text message alert, it will not be silenced by the text message alert.
-
-In the long run, there is an open enhancement request
-https://code.google.com/p/android/issues/detail?id=61684
-asking Google to restore third party message blocking functionality in some future version of Android.  Feel free to register your opinion there.
+You can also use a new "Alert Delay" setting in Notification Settings to delay the Cadpage alert notification by a few seconds.  If you message and is also sounding an audio alert, delaying the Cadpage alert so that it happens after the message app alerts prevents it from being silenced by the message app alert.
 
 Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator
