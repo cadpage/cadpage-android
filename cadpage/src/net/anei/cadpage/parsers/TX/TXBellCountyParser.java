@@ -13,7 +13,7 @@ public class TXBellCountyParser extends FieldProgramParser {
   
   public TXBellCountyParser() {
     super(CITY_CODES, "BELL COUNTY", "TX",
-        "PRI LOC:ADDR/S TYPE_CODE:CODE! SubType:CODE CALLER_NAME:NAME! CLRNUM:PHONE! TIME:TIME! Comments:INFO");
+        "PRI LOC:ADDR/S? ( EVENT_TYPE:CODE! SubType:CODE! Comments:INFO Problem:INFO | TYPE_CODE:CODE! SubType:CODE CALLER_NAME:NAME! CLRNUM:PHONE! TIME:TIME! Comments:INFO )");
     setupGpsLookupTable(GPS_TABLE);
   }
   
@@ -28,8 +28,13 @@ public class TXBellCountyParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = body.replace("Comments:", " Comments:");
     if (!super.parseMsg(body, data)) return false;
     String call = CALL_CODES.getProperty(data.strCode);
+    if (call == null) {
+      int pt = data.strCode.indexOf('-');
+      if (pt >= 0) call = CALL_CODES.getProperty(data.strCode.substring(0,pt));
+    }
     if (call == null) {
       data.strCall = data.strCode;
     } else {
@@ -88,26 +93,35 @@ public class TXBellCountyParser extends FieldProgramParser {
   private class MyCodeField extends CodeField {
     @Override
     public void parse(String field, Data data) {
+      if (field.equals("default")) return;
       data.strCode = append(data.strCode, "-", field);
     }
   }
   
-  private static final Pattern INFO_PHONE_GPS_PTN = Pattern.compile("(\\d{10}) ([-+]\\d{3}\\.\\d{6} [-+]\\d{3}\\.\\d{6})\\b *(.*)");
+  private static final Pattern INFO_UNIT_PTN = Pattern.compile("UNIT ([^ ]+) *(.*)");
+  private static final Pattern INFO_PHONE_GPS_PTN = Pattern.compile("((?:\\(\\d{3}\\) ?\\d{3}-\\d{4} +)?\\d{10}) ([-+]\\d+\\.\\d+ [-+]\\d+\\.\\d+)(?: [-+]\\d+\\.\\d+ [-+]\\d+\\.\\d+)?(?: Location Saved by LocateCall - LL\\([-+\\d:\\.,]+?\\))?(?:: EST \\d+)?(?: WPH\\d)? *(.*)");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      Matcher match = INFO_PHONE_GPS_PTN.matcher(field);
+      
+      Matcher match = INFO_UNIT_PTN.matcher(field);
+      if (match.matches()) {
+        data.strUnit = match.group(1);
+        field = match.group(2);
+      }
+      
+      match = INFO_PHONE_GPS_PTN.matcher(field);
       if (match.matches()) {
         data.strPhone = match.group(1);
         setGPSLoc(match.group(2), data);
         field = match.group(3);
       }
-      super.parse(field, data);
+      data.strSupp = append(data.strSupp, "\n", field);
     }
     
     @Override
     public String getFieldNames() {
-      return "PHONE GPS INFO";
+      return "UNIT PHONE GPS INFO";
     }
   }
   
