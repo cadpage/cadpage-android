@@ -9,12 +9,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYMadisonCountyGLASParser extends FieldProgramParser {
   
+  private static final Pattern WIERD_CHAR_PTN = Pattern.compile("=(?:20|EF|BB|BF)");
   private static final Pattern DELIM = Pattern.compile("\n+");
   private static final Pattern MASTER = Pattern.compile("(.*?)\n+(.*?)(?: *, (.*?))?(?: \\((.*?)\\)?)?");
   
   public NYMadisonCountyGLASParser() {
     super(CITY_LIST, "MADISON COUNTY", "NY",
-          "( Number:ID! Free_Format_Address:ADDR! Type:CALL! | Address:ADDR/SXP! Response_Type:CALL! )");
+          "( Address:ADDR/SXP! Response_Type:CALL! | Number:ID? Free_Format_Address:ADDR! Type:CALL! )");
   }
   
   @Override
@@ -25,13 +26,11 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Greater Lenox")) return false;
-    body = body.replace("=20\n", "\n").trim();
-    body = stripFieldEnd(body, "=20");
+    body = WIERD_CHAR_PTN.matcher(body).replaceAll("").trim();
     
-    String[] flds = DELIM.split(body);
-    if (flds.length == 3 && 
-        (body.startsWith("Number:") || flds[2].trim().equals("GLAS Dispatch"))) {
-      return super.parseFields(flds, data);
+    if (body.startsWith("Number:") || body.startsWith("Free Format Address:") ||
+        body.endsWith("GLAS Dispatch")) {
+      return super.parseFields(DELIM.split(body), data);
     }
     
     Matcher match = MASTER.matcher(body);

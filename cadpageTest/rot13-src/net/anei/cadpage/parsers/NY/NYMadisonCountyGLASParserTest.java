@@ -58,6 +58,7 @@ Fraqre: TPZ
 Pbagnpg: "Xlyr Z. Pnfury" <xpnfury@tznvy.pbz>
 Fraqre: TPZ
 {Terngre Yrabk}Ahzore: TYNF:2014:000134 \a\a  Serr Sbezng Nqqerff: \a\a  Glcr: Fvpx Crefba \a\a=20
+{Terngre Yrabk}=RS=OO=OS=20\a  Serr Sbezng Nqqerff: 9080 SRFRATRE OYIQ YRABK EBHGR 31/SFRATRE OYIQ ; 9080=20\a  Glcr: Purfg Cnva=20\a=20
 
 */
 
@@ -372,6 +373,17 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{Terngre Yrabk}Ahzore: TYNF:2014:000134 \a\a  Serr Sbezng Nqqerff: \a\a  Glcr: Fvpx Crefba \a\a=20",
         "VQ:2014:000134",
         "PNYY:Fvpx Crefba");
+
+    qbGrfg("G1",
+        "{Terngre Yrabk}=RS=OO=OS=20\a" +
+        "  Serr Sbezng Nqqerff: 9080 SRFRATRE OYIQ YRABK EBHGR 31/SFRATRE OYIQ ; 9080=20\a" +
+        "  Glcr: Purfg Cnva=20\a" +
+        "=20",
+
+        "NQQE:9080 SRFRATRE OYIQ",
+        "PVGL:YRABK",
+        "K:EBHGR 31/SFRATRE OYIQ",
+        "PNYY:Purfg Cnva");
     
   }
   
