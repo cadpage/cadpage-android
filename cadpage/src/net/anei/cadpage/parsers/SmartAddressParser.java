@@ -316,6 +316,14 @@ public abstract class SmartAddressParser extends MsgParser {
   private static final long ID_PURE_DIRECTION = 0x20000000000L;
 
   private static final long ID_NOT_STREET_NAME = 0x40000000000L;
+
+  private static final long ID_SPECIAL_STREET_FWD = 0x80000000000L;
+
+  private static final long ID_SPECIAL_STREET_FWD_END = 0x100000000000L;
+
+  private static final long ID_SPECIAL_STREET_REV = 0x200000000000L;
+
+  private static final long ID_SPECIAL_STREET_REV_END = 0x400000000000L;
   
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[A-Z]?[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
@@ -326,6 +334,10 @@ public abstract class SmartAddressParser extends MsgParser {
   // We keep two of these in case we have to search forward or backward
   private MultiWordList mWordStreetsFwd = null;
   private MultiWordList mWordStreetsRev = null;
+  
+  // List of special street names
+  private MultiWordList mWordSpecialFwd = null;
+  private MultiWordList mWordSpecialRev = null;
   
   // List of special cross street names
   private MultiWordList mWordCrossStreetsFwd = null;
@@ -639,6 +651,16 @@ public abstract class SmartAddressParser extends MsgParser {
   protected void setupMultiWordStreets(String ... names) {
     mWordStreetsFwd = new MultiWordList(+1, 0, ID_MULTIWORD, 0, names);
     mWordStreetsRev = new MultiWordList(-1, 0, ID_MULTIWORD, 0, names);
+  }
+  
+  /**
+   * Set up preloaded special street names.  These are names of legitimate streets that lack a normal 
+   * street suffix
+   * @param names special street names
+   */
+  protected void setupSpecialStreets(String ... names) {
+    mWordSpecialFwd = new MultiWordList(+1, ID_SPECIAL_STREET_FWD, ID_MULTIWORD, ID_SPECIAL_STREET_FWD_END, names);
+    mWordSpecialRev = new MultiWordList(-1, ID_SPECIAL_STREET_REV, ID_MULTIWORD, ID_SPECIAL_STREET_REV_END, names);
   }
 
   /**
@@ -1123,34 +1145,35 @@ public abstract class SmartAddressParser extends MsgParser {
               // Getting closer...
               // if the house number appears to be part of a numbered highway, bail out
               // Unless the previous word is "CO" which might be abbreviation for "COMPANY in the prefix data
-              if (findRevNumberedHwy(start, sAddr) >= 0 && !tokens[sAddr-1].equalsIgnoreCase("CO")) return false;
-              
-              // If the house numbered is followed by a numbered road suffix
-              // this starts looking chancey.  But more analysis is needed.
-              if (isType(sAddr+1, ID_NUMBERED_ROAD_SFX)) {
+              if (findRevNumberedHwy(start, sAddr) < 0 || tokens[sAddr-1].equalsIgnoreCase("CO")) {
                 
-                // If the numbered road suffix is actually the start of a numbered highway name, we are good to go
-                sEnd = findNumberedHwy(sAddr+1);
-                if (sEnd >= 0) {
-                  sEnd++;
-                  sEnd = bumpTrailingDir(sEnd);
-                  break;
-                }
-
-                // If the numbered road suffix is ST, see if it is actually the start
-                // of a street name named after saint.  if it is, we are good to go
-                if (isType(sAddr+1, ID_ST)) {
-                  if (!isType(sAddr+2, ID_DIRECTION)) {
-                    sEnd = findRoadEnd(sAddr+1, 0);
-                    if (sEnd > 0) break;
+                // If the house numbered is followed by a numbered road suffix
+                // this starts looking chancey.  But more analysis is needed.
+                if (isType(sAddr+1, ID_NUMBERED_ROAD_SFX)) {
+                  
+                  // If the numbered road suffix is actually the start of a numbered highway name, we are good to go
+                  sEnd = findNumberedHwy(sAddr+1);
+                  if (sEnd >= 0) {
+                    sEnd++;
+                    sEnd = bumpTrailingDir(sEnd);
+                    break;
                   }
+  
+                  // If the numbered road suffix is ST, see if it is actually the start
+                  // of a street name named after saint.  if it is, we are good to go
+                  if (isType(sAddr+1, ID_ST)) {
+                    if (!isType(sAddr+2, ID_DIRECTION)) {
+                      sEnd = findRoadEnd(sAddr+1, 0);
+                      if (sEnd > 0) break;
+                    }
+                  }
+                  
+                  // Otherwise, this has been confirmed as a legitimate numbered road suffix following
+                  // the house number which is a show stopper
+                  return false;
                 }
-                
-                // Otherwise, this has been confirmed as a legitimate numbered road suffix following
-                // the house number which is a show stopper
-                return false;
+                break;
               }
-              break;
             }
           }
         }
@@ -1287,8 +1310,17 @@ public abstract class SmartAddressParser extends MsgParser {
             // skip over direction and bypass
             if (sAddr > start && isType(sAddr, ID_DIRECTION)) sAddr--;
             
+            // Check for special street names
+            if (mWordSpecialRev != null) {
+              tmp = mWordSpecialRev.findEndSequence(sAddr);
+              if (tmp >= 0) {
+                sAddr = tmp;
+                break;
+              }
+            }
+            
             // See if this is a multi word street name without a suffix
-            if (isFlagSet(FLAG_OPT_STREET_SFX)) {
+            if (mWordStreetsRev != null && isFlagSet(FLAG_OPT_STREET_SFX)) {
               int save = sAddr;
               sAddr = mWordStreetsRev.findEndSequence(sAddr);
               if (sAddr != save) break;
@@ -1444,6 +1476,17 @@ public abstract class SmartAddressParser extends MsgParser {
         if (failStart < 0 && isFlagSet(FLAG_ONLY_CROSS)) {
           failEnd = mWordCrossStreetsFwd.findEndSequence(ndx);
           if (failEnd >= 0) failStart = ndx;
+        }
+        
+        // See if we have a special street name
+        if (mWordSpecialFwd != null) {
+          int tmp = mWordSpecialFwd.findEndSequence(ndx);
+          if (tmp >= 0) {
+            found = true;
+            sAddr = ndx;
+            ndx = tmp-1;
+            break;
+          }
         }
         
         // See if we have a multi-word street match
@@ -1871,6 +1914,12 @@ public abstract class SmartAddressParser extends MsgParser {
     FieldSpec lastField = startField;
     for (int ndx = srcNdx-1; ndx < tokens.length; ndx++) {
       
+      // Skip over special street names
+      if (mWordSpecialFwd != null && ndx >= 0) {
+        int tmpndx = mWordSpecialFwd.findEndSequence(ndx);
+        if (tmpndx >= 0) ndx = tmpndx;
+      }
+      
       // Skip over multiword  street names
       if (mWordStreetsFwd != null && ndx >= 0) {
         int tmpNdx = mWordStreetsFwd.findEndSequence(ndx);
@@ -2217,6 +2266,15 @@ public abstract class SmartAddressParser extends MsgParser {
     // Dummy loop that we can break out of when we find a road end
     int end;
     do {
+      
+      // See if this is start of special street name
+      if (mWordSpecialFwd != null) {
+        int tmp = mWordSpecialFwd.findEndSequence(origStart);
+        if (tmp >= 0) {
+          end = tmp;
+          break;
+        }
+      }
       
       // See if this is the start of a multi word street name
       // terminated by a proper road suffix

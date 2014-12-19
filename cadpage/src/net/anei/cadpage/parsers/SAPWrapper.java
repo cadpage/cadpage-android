@@ -73,6 +73,13 @@ public class SAPWrapper extends SmartAddressParser {
       parser.setupMultiWordStreets(mwordStreets);
     }
     
+    // This defines a list of known special street names.  These are street names that are
+    // complete in and of themselves.  Without a trailing street suffix word.
+    if (args[0].equals("SPECIAL_STREETS")) {
+      String[] mwordStreets = new String[]{"PARKWAY", "INDIANAPOLIS SPEEDWAY"};
+      parser.setupSpecialStreets(mwordStreets);
+    }
+    
     // Normally NORTH, SOUTH, EAST, and WEST are not considered actual directions that can be 
     // used to qualify street names like N, S, E and W.  Calling this adds them to the valid
     // directions list

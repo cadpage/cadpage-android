@@ -1,3 +1,11 @@
+Version 6.0 12/18/2014
+
+Added new setupSpecialStreets() method allowing parser to define street names
+should be considered valid street names without a trailing street suffix.
+
+Fixed problem not finding legitimate numbered address following a "COUNTY 911"
+construct that could be mistaken for a naked road.
+
 Version 5.0 12/08/2014
 
 Fixed case insensitive keyword processing to properly handle truncated keywords

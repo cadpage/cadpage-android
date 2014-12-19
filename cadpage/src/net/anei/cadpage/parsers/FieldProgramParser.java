@@ -108,16 +108,14 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *   
  *   Date and Date/Time fields
  *         d - replace dashes with slashes
- *         
- *   Info fields
- *         N - Connect fields with newlines instead of usual " / " connector 
- *         C - Connect fields with comma instead of usual " / " connector
- *         CS = Connect fields with comma space.  
  *
- *   Unit fields
- *         N - append to previous information with newline separator
- *         C - Connect fields with comma separator
- *         S - Connect fields with space separator
+ *   Call, Info, and Unit Fields take separator qualifiers.  There can be
+ *   multiple such character which when combined together build the connection
+ *   string used to append multiple occurrences of this data field
+ *         N - Newline
+ *         C - Comma
+ *         D - Dash
+ *         S - Space
  *         
  * SPECIAL FIELD NAMES
  * 
@@ -2418,21 +2416,30 @@ public class FieldProgramParser extends SmartAddressParser {
    * that is part of a smart address field.  If it happens to start with
    * a slash or ampersand, assume it should be part of an address intersection
    */
-  private static final Pattern SPEC_APT_INTERSECT_PTN = Pattern.compile("(?!\\d/\\d$)(?:([A-Z0-9]{1,3}) *)?(?:[&/]|AND\\b|OFF\\b) *(.*)", Pattern.CASE_INSENSITIVE);
   private class SpecialAptField extends AptField {
     @Override
     public void parse(String field, Data data) {
-      Matcher match = SPEC_APT_INTERSECT_PTN.matcher(field);
-      if (match.matches()) {
-        data.strApt = append(data.strApt, " ", getOptGroup(match.group(1)));
-        data.strAddress = append(data.strAddress, " & ", match.group(2));
-      } else if (isNotExtraApt(field)) {
-        data.strAddress = append(data.strAddress, " ", field);
-      } else {
-        data.strApt = append(data.strApt, " ", field);
-      }
+      parseTrailingApt(field, data);
     }
   }
+
+  /**
+   * Parse the data field following the address that should be considered as an address
+   * @param field
+   * @param data
+   */
+  public void parseTrailingApt(String field, Data data) {
+    Matcher match = SPEC_APT_INTERSECT_PTN.matcher(field);
+    if (match.matches()) {
+      data.strApt = append(data.strApt, " ", getOptGroup(match.group(1)));
+      data.strAddress = append(data.strAddress, " & ", match.group(2));
+    } else if (isNotExtraApt(field)) {
+      data.strAddress = append(data.strAddress, " ", field);
+    } else {
+      data.strApt = append(data.strApt, " ", field);
+    }
+  }
+  private static final Pattern SPEC_APT_INTERSECT_PTN = Pattern.compile("(?!\\d/\\d$)(?:([A-Z0-9]{1,3}) *)?(?:[&/]|AND\\b|OFF\\b) *(.*)", Pattern.CASE_INSENSITIVE);
   
   /**
    * Special Apartment field processor

@@ -50,6 +50,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
   private static final Pattern EXTRA_CROSS_PTN = Pattern.compile("(?:AND +|[/&] *)(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern CALL_BRK_PTN = Pattern.compile(" +/+ *");
+  
+  private boolean parseFieldOnly;
 
   private boolean leadDispatch;
   private boolean optDispatch;
@@ -80,6 +82,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   public DispatchSouthernParser(CodeSet callSet, String[] cityList, String defCity, String defState, int flags, String unitPtnStr) {
     super(cityList, defCity, defState, "");
+    this.parseFieldOnly = false;
     this.callSet = callSet;
     this.leadDispatch = (flags & DSFLAG_DISPATCH_ID) != 0;
     this.optDispatch = (flags & DSFLAG_OPT_DISPATCH_ID) != 0;
@@ -122,6 +125,11 @@ public class DispatchSouthernParser extends FieldProgramParser {
     sb.append(" INFO");
     defaultFieldList = sb.toString();
   }
+  
+  public DispatchSouthernParser(String[] cityList, String defState, String defCity, String program) {
+    super(cityList, defState, defCity, program);
+    this.parseFieldOnly = true;
+  }
 
   @Override
   protected void setupCallList(CodeSet callSet) {
@@ -136,61 +144,67 @@ public class DispatchSouthernParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    // Message must always start with dispatcher ID, which we promptly discard
-    if (leadDispatch || optDispatch) {
-      Matcher match = LEAD_PTN.matcher(body);
-      if (match.find()) {
-        body = body.substring(match.end()).trim();
-      } else if (!optDispatch) return false;
+    if (parseFieldOnly) {
+      if (!parseFields(body.split(";"), data)) return false;
     }
     
-    // See if this looks like one of the new comma delimited page formats
-    // If it is, let FieldProgramParser handle it.
-    Matcher match = NAKED_TIME_PTN.matcher(body);
-    if (!match.find()) return false;
-    String delim = match.group(1);
-    if (delim.charAt(0) != ' ') {
-      body = body.replace(" OCA:", delim + "OCA:");
-      if (!parseFields(body.split(delim), data)) return false;
-    }
-    
-    // Blank delimited fields get complicated
-    // We already found a time field.  Use that to split the message 
-    // into and address and extra versions 
     else {
-      setFieldList(defaultFieldList);
-      data.strTime = match.group(2);
-      String sAddr = body.substring(0,match.start()).trim();
-      String sExtra = body.substring(match.end()).trim();
-      
-      // See if there is an ID field immediate in front of the time field
-      match = ID_PTN.matcher(sAddr);
-      if (match.find()) {
-        data.strCallId = match.group();
-        sAddr = sAddr.substring(0,match.start()).trim();
-      } else if (!idOptional) return false;
-      
-      // See if there is a labeled OCA field at the end of the extra block
-      match = OCA_TRAIL_PTN.matcher(sExtra);
-      if (match.find()) {
-        data.strCallId = match.group(1).trim();
-        sExtra = sExtra.substring(0,match.start()).trim();
+      // Message must always start with dispatcher ID, which we promptly discard
+      if (leadDispatch || optDispatch) {
+        Matcher match = LEAD_PTN.matcher(body);
+        if (match.find()) {
+          body = body.substring(match.end()).trim();
+        } else if (!optDispatch) return false;
       }
       
-      if (sAddr.length() > 0) {
-        parseMain(sAddr, data);
-        parseExtra(sExtra, data);
-      } else {
-        parseExtra2(sExtra, data);
+      // See if this looks like one of the new comma delimited page formats
+      // If it is, let FieldProgramParser handle it.
+      Matcher match = NAKED_TIME_PTN.matcher(body);
+      if (!match.find()) return false;
+      String delim = match.group(1);
+      if (delim.charAt(0) != ' ') {
+        body = body.replace(" OCA:", delim + "OCA:");
+        if (!parseFields(body.split(delim), data)) return false;
+      }
+      
+      // Blank delimited fields get complicated
+      // We already found a time field.  Use that to split the message 
+      // into and address and extra versions 
+      else {
+        setFieldList(defaultFieldList);
+        data.strTime = match.group(2);
+        String sAddr = body.substring(0,match.start()).trim();
+        String sExtra = body.substring(match.end()).trim();
+        
+        // See if there is an ID field immediate in front of the time field
+        match = ID_PTN.matcher(sAddr);
+        if (match.find()) {
+          data.strCallId = match.group();
+          sAddr = sAddr.substring(0,match.start()).trim();
+        } else if (!idOptional) return false;
+        
+        // See if there is a labeled OCA field at the end of the extra block
+        match = OCA_TRAIL_PTN.matcher(sExtra);
+        if (match.find()) {
+          data.strCallId = match.group(1).trim();
+          sExtra = sExtra.substring(0,match.start()).trim();
+        }
+        
+        if (sAddr.length() > 0) {
+          parseMain(sAddr, data);
+          parseExtra(sExtra, data);
+        } else {
+          parseExtra2(sExtra, data);
+        }
       }
     }
     
     // set an call description if we do not have one
     if (data.strCall.length() == 0 && data.strSupp.length() == 0) data.strCall= "ALERT";
     
-    // Apparently there is no way to not enter a street number.  We already suppress zero
-    // but usually the extra number is 1
-    if (data.strAddress.startsWith("1 ")) {
+    // Apparently there is no way to not enter a street number, entering 0 or 1 is the accepted
+    // workaround.
+    if (data.strAddress.startsWith("1 ") || data.strAddress.startsWith("0 ")) {
       data.strAddress = data.strAddress.substring(2).trim();
       String cross = data.strCross.replace('/', '&').replace("&", " & ").replaceAll("  +", " ").trim();
       data.strAddress = append(data.strAddress, " & ", cross);
