@@ -173,6 +173,7 @@ public class COAdamsCountyParser extends FieldProgramParser {
       "ADAM TPD",  "THORNTON",
       "ADAM WES",  "WESTMINSTER",
       "ARAP ARAP", "ARAPAHOE COUNTY",
+      "JECO ARV",  "ARVADA",
       "WELD WELD", "WELD COUNTY"
   });
 }
