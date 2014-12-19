@@ -13,7 +13,7 @@ public class FLCitrusCountyParser extends SmartAddressParser {
   
   private static final Pattern TRUNC_CITY_PTN = Pattern.compile("(?: [A-Z][a-z]+)+(?: [A-Z])?$");
   private static final Pattern MASTER1 = Pattern.compile("Unit:([A-Z0-9]+) Status:Dispatched ([A-Z0-9]+) - (.*?) (\\d{2}[A-Z]) (.*)");
-  private static final Pattern MASTER2 = Pattern.compile("((?:[A-Z]+\\d+[A-Z]? )+) ([A-Z]?\\d{1,2}[A-Z]) (.*) ([A-Z0-9]+?) - (.*) (\\d{4}-\\d+)(?: +(.*))?");
+  private static final Pattern MASTER2 = Pattern.compile("((?:[A-Z]+\\d+[A-Z]? )+) ([A-Z]?\\d{1,2}[A-Z]) (.*?) ([A-Z0-9]+?) (?:- ([^-]*) )?(\\d{4}-\\d+)(?: +(.*))?");
   private static final Pattern CITY_BRK_PTN = Pattern.compile("(.*? [A-Z]+)(?: - [A-Z]{2})?([A-Z][a-z].*)");
 
   
@@ -79,7 +79,7 @@ public class FLCitrusCountyParser extends SmartAddressParser {
       data.strMap = getOptGroup(match.group(2));
       String sAddr = match.group(3).trim();
       data.strCode = match.group(4);
-      data.strCall = match.group(5);
+      data.strCall = getOptGroup(match.group(5));
       data.strCallId = match.group(6);
       data.strSupp = getOptGroup(match.group(7));
       
