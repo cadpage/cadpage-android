@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.dispatch;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -26,16 +27,21 @@ public class DispatchA48Parser extends SmartAddressParser {
   private FieldType fieldType;
   private boolean dateTimeInfo; 
   private boolean oneWordCode;
+  private Properties callCodes;
 
   public DispatchA48Parser(String[] cityList, String defCity, String defState, FieldType fieldType) {
-    this(cityList, defCity, defState, fieldType, 0);
+    this(cityList, defCity, defState, fieldType, 0, null);
+  }
+  public DispatchA48Parser(String[] cityList, String defCity, String defState, FieldType fieldType, int flags) {
+    this(cityList, defCity, defState, fieldType, flags, null);
   }
 
-  public DispatchA48Parser(String[] cityList, String defCity, String defState, FieldType fieldType, int flags) {
+  public DispatchA48Parser(String[] cityList, String defCity, String defState, FieldType fieldType, int flags, Properties callCodes) {
     super(cityList, defCity, defState);
     this.fieldType = fieldType;
     dateTimeInfo = (fieldType == FieldType.DATE_TIME_INFO);
     oneWordCode = (flags & A48_ONE_WORD_CODE) != 0;
+    this.callCodes = callCodes;
     setFieldList("SRC DATE TIME ID CODE CALL ADDR APT CITY NAME " + fieldType.toString().replace('_', ' ') + " UNIT");
   }
   
@@ -82,7 +88,13 @@ public class DispatchA48Parser extends SmartAddressParser {
     if (oneWordCode) {
       st = StartType.START_ADDR;
       flags = 0;
-      data.strCall = p.get(' ');
+      String code  = p.get(' ');
+      if (callCodes != null) {
+        data.strCode = code;
+        data.strCall = convertCodes(code, callCodes);
+      } else {
+        data.strCall = code;
+      }
     } else {
       st = StartType.START_CALL;
       flags = FLAG_START_FLD_REQ;
