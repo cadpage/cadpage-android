@@ -9,20 +9,18 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class KYOldhamCountyAParser extends DispatchEmergitechParser {
   
   public KYOldhamCountyAParser() {
-    super("", 60, CITY_LIST, "OLDHAM COUNTY", "KY");
+    super("DISPATCH:", 0, CITY_LIST, "OLDHAM COUNTY", "KY");
     addSpecialWords("COLTON");
   }
   
   @Override
   public String getFilter() {
-    return "dispatch@oldhamcountyky.gov,textmsg@ballardsvillefire.com";
+    return "DISPATCH@oldhamcounty.net";
   }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    // If preparser removed the dispatch unit, put it back
-    if (subject.length() > 0) body = '[' + subject + "]" + body; 
     if (!super.parseMsg(body, data)) return false;
     if (data.strCity.equalsIgnoreCase("LAGRANGE")) data.strCity =  "LA GRANGE";
     
@@ -46,6 +44,12 @@ public class KYOldhamCountyAParser extends DispatchEmergitechParser {
     "PEWEE VALLEY",
     "PROSPECT",
     "RIVER BLUFF",
-    "WESTPORT"
+    "WESTPORT",
+    
+    // Jefferson County
+    "LOUISVILLE",
+    
+    // Shelby County
+    "SHELBYVILLE"
   };
 }
