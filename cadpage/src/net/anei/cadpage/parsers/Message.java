@@ -1,7 +1,11 @@
 package net.anei.cadpage.parsers;
 
+import java.io.UnsupportedEncodingException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import net.anei.cadpage.Log;
+import net.anei.cadpage.mms.Base64;
 
 public class Message {
   
@@ -23,6 +27,19 @@ public class Message {
     if (fromAddress == null) fromAddress = "";
     if (subject == null) subject = "";
     if (body == null) body = "";
+    
+    // Decode base64 alerts
+    if (body.startsWith("77u/")) {
+      body = body.substring(4);
+      try {
+        byte[] tmp1 = body.getBytes("UTF-8");
+        byte[] tmp2 = Base64.decodeBase64(tmp1);
+        body = new String(tmp2);
+      } catch (UnsupportedEncodingException ex) {
+        Log.e(ex);
+      }
+    }
+
     
     if (! preParse) {
       this.parseAddress = fromAddress;

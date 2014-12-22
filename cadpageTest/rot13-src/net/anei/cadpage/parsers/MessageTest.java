@@ -7,6 +7,18 @@ vzcbeg bet.whavg.Grfg;
 choyvp pynff ZrffntrGrfg {
   
   @Grfg
+  choyvp ibvq grfgOnfr64Qrpbqvat() {
+    
+    qbCnefrGrfg("Onfr64",
+        "xra@pnqcntr.bet",
+        "",
+        "77h/VN0XVPOTpzIyVRMipz1uqPOOMTElMKAmBvNkAQNtEFOSVRASGyESHvNfVRAOGxSGIR9HDFOJFHkZDHqSVN0XVPOHrKOyBvOGnJAeVSOypaAiovNAPvN=",
+        "xra@pnqcntr.bet",
+        "",
+        "Serr Sbezng Nqqerff: 140 R R PRAGRE , PNANFGBGN IVYYNTR \a  Glcr: Fvpx Crefba \a ");
+  }
+  
+  @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
     qbCnefrGrfg("PBWrssrefbaPbhaglO",
