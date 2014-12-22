@@ -1,39 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12142014</string>
-  <string name="release_version">v1.7.64</string>
+  <string name="release_date">12222014</string>
+  <string name="release_version">v1.7.65</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
-New Filtering options to specify how general alerts and run reports 
-should be handled\n
-\n
-New Locations:\n
-San Bernardino County, CA (alt)\n
-Boulder County, CO (alt)\n
-St Clair County,IL (alt)\n
-Floyd County, KY\n
-Pike County, KY\n
-Anoka County, MN (alt)\n
-Martin County, NC\n
-Warren County, TN\n
-Spokane County, WA\n
-Dinwiddie County, VA\n
+Back key will be disabled when call detail screen is still waiting for user acknowledgement.  
+Hopefully this will stop cases where call detail screen was accidentally cleared and an old
+call accidentally selected while groping for phone.\n
 \n
 Location Parsing Fixes:\n
+Oroville, CA\n
+Morgan County, AL\n
+Adams County, CO\n
 Citrus County, FL\n
-Madison County, IN\n
-Stone County, MO\n
+Licking County, OH\n
+Sedwick County, KS\n
+Oldham County, KY\n
+Lafayette County, LA\n
+Ossage County, MO\n
+Monmouth County, NJ\n
 Madison COunty, NY\n
-Washington County, OH\n
-Humble, TX\n
-Prince George County, VA\n
+Summit County, OH\n
+York County, SC\n
+Sevier County, TN\n
+Bell County, TX\n
+Preston County, WV\n
 \n
-General Fixes:\n
-Occasional problem with screen not coming on when alert is received.\n
+Automatically decode base64 encoded alert messages\n
   </string>
 </resources>
   

@@ -62,6 +62,8 @@ Fraqre: TPZ
 {Terngre Yrabk}77h/VN0XVPOTpzIyVRMipz1uqPOOMTElMKAmBvNmZQDtE0IBEIASEFOQFRyHIRIBDH5UGlOJFHkZDHqSVRAOIRuSHxyBEF9OHxAVYSWCIIASVN0XVPOHrKOyBvOIozAioaAwnJ91pl9TLJyhqTyhMlNAPvN=
 {Terngre Yrabk}77h/VN0XVPOTpzIyVRMipz1uqPOOMTElMKAmBvNlBGtmVSWOJFOFEPODEIWFJIMWGRkSVSWRYSSIDIWFJFOFEP8tQDbtVSE5pTH6VR92MKWxo3AyY1OinKAiozyhMlNAPvN=
 {Terngre Yrabk}77h/VN0XVPOTpzIyVRMipz1uqPOOMTElMKAmBvNkAQNtEFOSVRASGyESHvNfVRAOGxSGIR9HDFOJFHkZDHqSVN0XVPOHrKOyBvOGnJAeVSOypaAiovNAPvN=
+{Terngre Yrabk}Serr Sbezng Nqqerff: 446 R PNANY PNANFGBGN IVYYNTR # R YRYNAQ T JEVTUG NI/PNANY EQ ; 446 \a\a  Glcr: Genhzngvp Vawhevrf \a\a=20
+{Terngre Yrabk}Nqqerff: 3102 VATNYYF PBEAREF EQ YVAPBYA DHNEEL EQ/ARYFBA EQ ; 3102=20\a  Glcr: Noqbzvany Cnva=20\a=20
 
 */
 
@@ -399,7 +401,25 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:140 R R PRAGRE",
         "PVGL:PNANFGBGN",
         "PNYY:Fvpx Crefba");
-  
+
+    qbGrfg("G5",
+        "{Terngre Yrabk}Serr Sbezng Nqqerff: 446 R PNANY PNANFGBGN IVYYNTR # R YRYNAQ T JEVTUG NI/PNANY EQ ; 446 \a\a" +
+        "  Glcr: Genhzngvp Vawhevrf \a\a" +
+        "=20",
+
+        "NQQE:446 R PNANY",
+        "NCG:R",
+        "PVGL:PNANFGBGN",
+        "K:YRYNAQ T JEVTUG NI/PNANY EQ",
+        "PNYY:Genhzngvp Vawhevrf");
+
+    qbGrfg("G6",
+        "{Terngre Yrabk}Nqqerff: 3102 VATNYYF PBEAREF EQ YVAPBYA DHNEEL EQ/ARYFBA EQ ; 3102=20\a  Glcr: Noqbzvany Cnva=20\a=20",
+        "NQQE:3102 VATNYYF PBEAREF EQ",
+        "PVGL:YVAPBYA",
+        "K:DHNEEL EQ/ARYFBA EQ",
+        "PNYY:Noqbzvany Cnva");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
