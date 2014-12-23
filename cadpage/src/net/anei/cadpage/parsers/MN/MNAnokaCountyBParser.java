@@ -54,7 +54,7 @@ public class MNAnokaCountyBParser extends MsgParser {
     data.strCity = p.get(20);
     
     p.check("[1] ");
-    String info = p.get();
+    String info = p.get(496);
     info = INFO_SKIP_PTN.matcher(info).replaceAll("").trim();
     if (data.strCallId.length() == 0) {
       Matcher match = TRAIL_ID_PTN.matcher(info);
@@ -64,6 +64,8 @@ public class MNAnokaCountyBParser extends MsgParser {
       }
     }
     data.strSupp = info;
+    
+    data.strCallId = append(data.strCallId, "/", p.get());
     return true;
   }
 }
