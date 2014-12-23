@@ -1,5 +1,26 @@
 
 **************************************************************************
+* The back key does not work
+**************************************************************************
+
+The regular back button no longer works when a call popup window is visible request a user response acknowledgment.  This was an attempt to fix an occasional problem where Cadpage appeared to display the wrong call when an alert was received.  After a lot of work, we determined this happened when the user was grabbing the phone to check on a new alert, and in the process accidentally touched the back button and the bottom call visible in the call history window.  Now you have to press one of the response menu buttons before the back key will work normally.
+
+There should always be a response button indicates no response so you can close the response menu without doing anything.  If whoever sets up the response buttons did not do that, you can add your own.  Detailed instructions on how to do that follow.
+
+If you want a response button that does what the back button used to do, there is a configurable close button.  In Cadpage settings, select
+Additional Buttons > Button Configuration > Response Buttons
+then one of the regular button slots to add a close button to your response button menu.
+
+If you are getting direct pages from CodeMessaging or Active911, you may have to change the "Direct Paging Message Menu" to ensure your buttons remain available when a direct page alert comes in.
+
+This is also where you would add your own, "I am not responding, please go away" button.  Pick any one of the 6 response button slots, set the Description setting to whatever text you want to appear on the button and leave the Phone/Code setting empty.
+
+Please let us know if none of these solutions work for you and we have to come up with something  else.
+
+Have a nice day,
+-Ken
+
+**************************************************************************
 * Android Anti-virus rant
 **************************************************************************
 
