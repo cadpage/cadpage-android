@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers.KY;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -9,16 +7,15 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramHtmlParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-
-
 public class KYHardinCountyCParser extends FieldProgramHtmlParser {
-// private static final String STEM = "/home/brennus/html/KYHardinCountyC-S";
+  private static final String PROGRAM = "ID ADDR APT PLACE X CITY DATE TIME CALL UNIT MAP NAME PHONE INFO";
+// private static final String STEM = "/home/brennus/html/KYHardinCountyC-";
 // private static int ndx = 1;
   public KYHardinCountyCParser() {
     super(CITY_CODE,
             "HARDIN COUNTY",
             "KY",
-            "ID ADDR APT PLACE X CITY DATE TIME CALL PRI UNIT MAP NAME PHONE INFO",
+            PROGRAM,
             LAYOUT);
     translate(TRANS);
   }
@@ -30,19 +27,20 @@ public class KYHardinCountyCParser extends FieldProgramHtmlParser {
 
   @Override
   public String getProgram() {
-      return "ID ADDR APT PLACE X CITY DATE TIME CALL PRI UNIT MAP NAME PHONE INFO";
+      return PROGRAM;
   }
   
   private static final Pattern SUBJECT_PATTERN
     = Pattern.compile("(Dispatch|Clear) Report Incident #(\\d{10})");
   private static final Pattern DIRTY_ADDR_PATTERN
     = Pattern.compile("\\d+&#\\d+;(.*)");
-  private static final DateFormat MY_DATE_FMT
-    = new SimpleDateFormat("MM/dd/yy hh:mm:ss");
+//  private static final DateFormat MY_DATE_FMT
+//    = new SimpleDateFormat("MM/dd/yy hh:mm:ss");
   protected boolean parseHtmlMsg(String subject, String body, Data data) {
     boolean isDispatch;
-    
-    if (!getHtmlCleaner(body))
+  
+//    body = body.replaceAll("<a.*?>", "").replaceAll("<A.*?>","").replace("</a>", "").replace("</A>", "");
+    if (!getHtmlCleaner(translate(body.replace("=\n", ""))))
       return false;
 
 //    makeFile(STEM+ndx+".html");
@@ -69,10 +67,15 @@ public class KYHardinCountyCParser extends FieldProgramHtmlParser {
       data.strTime = getValue("TIME");
       data.strUnit = getValue("UNIT");
       data.strPlace = append(data.strPlace, " - ", getValue("PLACE"));
+      if (data.strPlace.equals("X") || data.strPlace.equals("0"))
+        data.strPlace = "";
       data.strMap = getValue("MAP");
       data.strSupp = getValue("INFO");
     }
     else {
+      data.strPlace = getValue("CALL");
+      data.strCall = "RUN REPORT";
+      /*
       setDateTime(MY_DATE_FMT, getValue("CDATETIME"), data);
       data.strUnit = getValue("CUNIT");
       parseAddress(StartType.START_ADDR, getValue("CLOCATION"), data);
@@ -82,6 +85,7 @@ public class KYHardinCountyCParser extends FieldProgramHtmlParser {
 //      data.strPriority = getValue("CPRI");
       data.strName = getValue("CNAME");
       data.strSupp = getValue("CINFO");
+      */
     }
     
     return true;
@@ -90,16 +94,18 @@ public class KYHardinCountyCParser extends FieldProgramHtmlParser {
   private static final String[] LAYOUT = {
     // Dispatch layout
     "ADDRESS(DIV=0;ELEMENT=DIV;LABEL=/Address:/;CLOSEST)",
-    "CROSS(DIV=0;ELEMENT=DIV;LABEL=/Cross:/;OFFSET=2,3;SEPARATOR=/ / /;EXCLUDE=/:/)",
+    "CROSS(DIV=0;ELEMENT=DIV;LABEL=/Cross:/;CLOSEST;YMAX=25;MULTIPLE;SEPARATOR=///)",
     "CALL(DIV=0;ELEMENT=DIV;LABEL=/Nature:/;CLOSEST)",
     "DATE(DIV=0;ELEMENT=DIV;LABEL=/Date:/;CLOSEST)",
     "TIME(DIV=0;ELEMENT=DIV;LABEL=/Time Out:/;CLOSEST)",
     "CITY(DIV=0;ELEMENT=DIV;LABEL=/City:/;CLOSEST)",
-    "UNIT(DIV=0;ELEMENT=DIV;LABEL=/Units:/;CLOSEST)",
+    "UNIT(ELEMENT=DIV;LABEL=/Units:/;CLOSEST;MULTIPLE;VALIDATE=/[A-Z0-9]{3,5}(?:, *[A-Z0-9]{3,5})*/)",
     "PLACE(DIV=0;ELEMENT=DIV;LABEL=/Business:/;CLOSEST)",
     "MAP(DIV=0;ELEMENT=DIV;LABEL=/Neighborhood:/;CLOSEST)",
-    "INFO(DIV=0;ELEMENT=DIV;LABEL=/Notes:/;CLOSEST)",
+    "INFO(DIV=0;ELEMENT=DIV;LABEL_BEGIN=/Business:/;LABEL_END=/Notes:/)",
+
     // Clear layout
+/*
     "CDATETIME(DIV=0;ELEMENT=DIV;LABEL=/Time Received:/;CLOSEST;XMAX=200)",
     "CUNIT(DIV=0;ELEMENT=DIV;LABEL=/Unit:/;OFFSET=1)",
     "CLOCATION(DIV=0;ELEMENT=DIV;LABEL=/Location:/;CLOSEST;YMIN=0)",
@@ -109,18 +115,22 @@ public class KYHardinCountyCParser extends FieldProgramHtmlParser {
 //    "CPRI(DIV=0;ELEMENT=DIV;LABEL=/Priority:/;CLOSEST;XMIN=45;YMIN=0;XMAX=50;SEPARATOR=/ - /;MULTIPLE)",
     "CNAME(DIV=0;ELEMENT=DIV;LABEL=/Caller:/;CLOSEST)",
     "CINFO(DIV=0;ELEMENT=DIV;LABEL=/Notes:/;CLOSEST;YMAX=250;MULTIPLE)"
+*/
   };
   
   private static final Properties CITY_CODE = buildCodeTable(new String[] {
     
     // Incorporated Places
-    "ELIZ",           "ELIZABETHTOWN",
+    "ELIZABETHTON",   "ELIZABETHTON",
+    "ELIZ",           "ELIZABETHTON",
     "MULDRAUGH",      "MULDRAUGH",
     "RADCLIFF",       "RADCLIFF",
     "SON",            "SONORA",
     "UPTON",          "UPTON",
     "VINE GROVE",     "VINE GROVE",
+    "VG",             "VINE GROVE",
     "WEST POINT",     "WEST POINT",
+    "WP",             "WEST POINT",
     
     // Counties
     "CTY",            "HARDIN COUNTY",

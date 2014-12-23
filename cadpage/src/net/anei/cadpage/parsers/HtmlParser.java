@@ -1,8 +1,4 @@
 package net.anei.cadpage.parsers;
-
-// import android.annotation.SuppressLint;
-// import android.annotation.TargetApi;
-// import android.os.Build;
 import android.annotation.SuppressLint;
 
 import java.io.IOException;
@@ -146,8 +142,6 @@ import org.w3c.dom.NodeList;
  *    
  */
 
-// @TargetApi(Build.VERSION_CODES.FROYO)
-// @SuppressLint("NewApi")
 public class HtmlParser {
   private HtmlCleaner htmlCleaner = null;
   private CleanerProperties props = null;
@@ -168,7 +162,7 @@ public class HtmlParser {
     STATUS_ROW = 6,
     STATUS_COL = 7;
   
-  private class ParseInfo {
+  public class ParseInfo {
     private String        domain;
     private String        element;
     private String        label;
@@ -181,6 +175,7 @@ public class HtmlParser {
     private int           xMin;
     private int           xMax;
     private boolean       multiple;
+    private Pattern        validate;
     private boolean       required;
     private Set<Integer>   offset;
     private String         separator;
@@ -215,6 +210,7 @@ public class HtmlParser {
       xMax(100);
       yMax(2);
       multiple(false);
+      validate(null);
       required(false);
       offset(new HashSet<Integer>());
       separator(" ");
@@ -259,6 +255,8 @@ public class HtmlParser {
     public void yMax(int ym) { yMax = ym; }
     public boolean multiple() { return multiple; }
     public void multiple(boolean m) { multiple = m; }
+    public Pattern validate() { return validate; }
+    public void validate(Pattern v) { validate = v; }
     public Set<Integer> offset() { return offset; }
     public void offset(Set<Integer> o) { offset = o; }
     public String separator() { return separator; }
@@ -290,6 +288,10 @@ public class HtmlParser {
   }
   
   /* HtmlParser Constructors */
+  /*
+   *  Currently always constructed with this one
+   *  @param layoutArray String array of layout entries
+   */
   public HtmlParser(String[] layoutArray) {
     createLayout(layoutArray);
   }
@@ -305,6 +307,7 @@ public class HtmlParser {
    /*
    * This method populates the hash table with layout supplied by subclass
    * See top of file for the layout syntax.
+   * @param pArray The layout array
    */
   private void createLayout(String[] pArray) {
     for (int i=0; i<pArray.length; i++) {
@@ -317,6 +320,8 @@ public class HtmlParser {
   
   /*
    * Create layout entry for tag with instructions
+   * @param tag Tag for the layout entry
+   * @param instructions Instructions for getting the value of the entry
    */
   private void createLayoutEntry(String tag, String instructions) {
 /*
@@ -342,6 +347,8 @@ public class HtmlParser {
   /*
    * Get domain of pi and add tag to appropriate domain entry
    * or create a new entry if it doesn't exist.
+   * @param tag Tag for the layout entry
+   * @parseInfo pi parseInfo for the layout entry
    */
   private void updateDomains(String tag, ParseInfo pi) {
     String dom = pi.domain();
@@ -353,6 +360,8 @@ public class HtmlParser {
   /*
    * c contains a layout option.  Interpret it and update pi
    * accordingly.
+   * @param c layout option
+   * @param pi parseInfo for the layout entry
    */
   private void processCommand(String c, ParseInfo pi) {
 //    System.out.println("Command: \""+c+"\"");
@@ -380,6 +389,9 @@ public class HtmlParser {
   /*
    * If a is a valid attribute set a to v.  Otherwise,
    * it is a domain spec so set domain to "a=v".
+   * @param a Layout entry attribute
+   * @param v Layout entry value
+   * @param pi Layout entry parseInfo
    */
   private void processAttributeValue(String a, String v, ParseInfo pi) {
 //    System.out.println("Attribute: \""+a+"\", Value: \""+v+"\"");
@@ -419,13 +431,15 @@ public class HtmlParser {
       pi.labelBegin(stringContent(v));
     else if (a.equalsIgnoreCase("label_end"))
       pi.labelEnd(stringContent(v));
+    else if (a.equalsIgnoreCase("validate"))
+      pi.validate(Pattern.compile(stringContent(v)));
     else
       pi.domain(a.toLowerCase()+"="+v);
   }
   
   /*
-   * If v is "*" return -1, otherwise
-   * return int value.
+   * @param v String representation of integer value or "*"
+   * @return int value of v or -1 if v is "*"
    */
   private int rowColValue (String v) {
     if (v.equals("*"))
@@ -437,6 +451,8 @@ public class HtmlParser {
    * I chose '/' as the string delimiter.
    * Maybe another character would have made more sense.
    * This function merely removes the bracketing '/'s.
+   * @param delimitedString '/'-delimited String
+   * @return String value
    */
   private String stringContent(String delimitedString) {
     if (delimitedString.charAt(0) != '/'
@@ -450,6 +466,7 @@ public class HtmlParser {
   /*
    * Parse oString to get offset values and update pi
    * values and value ranges are separated by ','
+   * @param oString String containing offet(s)
    */
   private void setOffset(String oString, ParseInfo pi) {
     String[] part = oString.split(",");
@@ -460,6 +477,8 @@ public class HtmlParser {
   /*
    * oString contains an offset or a range of offsets (min - max)
    * parse it and update pi.
+   * @param oString String containing offset(s)
+   * @param pi parseInfo for layout entry
    */
   private void addOffset(String oString, ParseInfo pi) {
 //    System.out.println("addOffset(): '"+oString+"'");
@@ -497,6 +516,7 @@ public class HtmlParser {
   
   /*
    * Instantiate htmlCleaner and set reasonable looking properties
+   * @return true if success, else false
    */
   private boolean getHtmlCleaner() {
     htmlCleaner = new HtmlCleaner();
@@ -532,6 +552,8 @@ public class HtmlParser {
    * 
    * Return true or false if htmlcleaner fails to parse
    * (haven't seen this happen yet.)
+   * @param html html to parse
+   * @return true if success, else false
    */
   private static final String XMLNS_PATTERN_STRING  = "(?is)xmlns=\\\".*?\\\"";
   public boolean getHtmlCleaner(String html) {
@@ -559,6 +581,7 @@ public class HtmlParser {
   /*
    * This is where the actual values are located and put into the layout.
    * Return true or false if any required value is empty.
+   * @return true if all required layout entries have a value, else false
    */
   private boolean getValues() {
     // Must initialize pi values or values from prev. msg will be carried over
@@ -576,6 +599,7 @@ public class HtmlParser {
 
   /*
    * Initialize ParseInfo for each layout tag in keySet
+   * @param keySet String set of keys in layout
    */
   private void initializeParseInfo (Set<String> keySet) {
     Iterator<String> k = keySet.iterator();
@@ -589,6 +613,8 @@ public class HtmlParser {
   
   /*
    * Return true or false if any required entry is empty.
+   * @param keySet String set of keys in layout
+   * @return true if all required entries have values, else false
    */
   private boolean checkValues(Set<String> keySet) {
     Iterator<String> k = keySet.iterator();
@@ -609,7 +635,7 @@ public class HtmlParser {
    * but SOURCE(TABLE=5;ELEMENT=H2) would get processed in another pass.
    * This will be corrected in a future version.
    * 
-   * Returns true if NOT all tags were successfully processed.
+   * @param d domain to process
    */
   private void getDomainValues(String d) {
     Set<String> tagSet = domain.get(d);
@@ -644,6 +670,8 @@ public class HtmlParser {
 
   /*
    * Evaluate XPath to get the value
+   * @param top top-level node
+   * @param pi ParseInfo for layout entry
    */
   private void getXPathValue(TagNode top, ParseInfo pi) {
     Object[] node;
@@ -663,8 +691,9 @@ public class HtmlParser {
 
   /*
    * Evaluate XPath using Java XPath engine
+   * @param top top-level node
+   * @param pi ParseInfo for layout entry
    */
-// @TargetApi(Build.VERSION_CODES.FROYO)
 
 @SuppressLint("NewApi")
 private void getJXPathValue(TagNode top, ParseInfo pi) {
@@ -683,6 +712,7 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
   
   /*
    * Save the original values of row and col to xMin & yMin
+   * @param tagSet Set of layout tag strings
    */
   private void saveRowCol(Set<String> tagSet) {
     Iterator<String> t = tagSet.iterator();
@@ -696,6 +726,7 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
   
   /*
    * Restore previously saved row and col values
+   * @param tagSet set of layout tag strings
    */
   private void restoreRowCol(Set<String> tagSet) {
     Iterator<String> t = tagSet.iterator();
@@ -710,6 +741,8 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
    /*
    * Find values in a table where row/column info is necessary.
    * A row or col value of -1 means use all values
+   * @param top top level node (a table)
+   * @param tagSet set of tag strings using this domain
    */
   private void findTableValues(TagNode top, Set<String> tagSet) {
     int rowNum = 0, colNum = 0, rs, cs;
@@ -758,6 +791,8 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
 
   /*
    * Get the colspan attribute
+   * @param cell node for table cell (td)
+   * @return value of colspan attribute of table cell (default 1)
    */
   private int getColSpan(TagNode cell) {
     String cs = cell.getAttributeByName("colspan");
@@ -768,6 +803,8 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
   
   /*
    * Get the rowspan attribute
+   * @param cell node for table cell (td)
+   * @return value of rowspan attribute of table cell (default 1)
    */
   private int getRowSpan(TagNode cell) {
     String rs = cell.getAttributeByName("rowspan");
@@ -779,6 +816,7 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
   /*
    * Moved to the next row.  Decrement ttl for all descenders
    * or remove if reduced to 0.
+   * @param descender map of column/remaining rows affected
    */
   private void updateDescenders(Map<Integer,Integer> descender) {
     Iterator<Integer> d = descender.keySet().iterator();
@@ -792,6 +830,12 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
     }
   }
   
+  /*
+   * Find values for layout entries given by tags in tagSet for this table cell (td)
+   * @param cell table cell (td)
+   * @param rowNum row number
+   * @param colNum col number
+   */
   private void findTableCellValues(TagNode cell, int rowNum, int colNum, Set<String> tagSet) {
 //    System.out.println("findTableCellValues(): row: "+rowNum+", col: "+colNum);
 //    System.out.println("cell value: "+cell.getText().toString());
@@ -826,6 +870,9 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
   /*
    * findValues() looks for el under top and goes through the tags for this
    * domain to fill out the values.
+   * @param top top-level node for this domain
+   * @param el element name
+   * @param tagSet Set of layout entry tags using this domain
    */
   private void findValues(TagNode top, String el, Set<String> tagSet) {
 //    System.out.println("findValues(): Element: \""+el+"\"");
@@ -849,6 +896,8 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
   /* 
    * This finds values from absolute offsets.
    * Remove each label independent tag from tagSet.
+   * @param nodes Array of TagNode to use
+   * @param tagSet Set of affected layout entry tags 
    */
   private void findLabelIndependentValues(TagNode[] nodes, Set<String> tagSet) {
     Set<String> done = new HashSet<String>();
@@ -879,6 +928,8 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
   
   /*
    * Find a sequence value using labelBegin(), etc.
+   * @param nodes Array of nodes to check
+   * @param pi ParseInfo for layout entry
    */
   private void findSequenceValue(TagNode[] nodes, ParseInfo pi) {
     boolean inSeq = false;
@@ -903,13 +954,23 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
   
   /*
    * Add a value to pi.value
+   * @param v value to add
+   * @param pi ParseInfo for layout entry
    */
   private void addValue(String v, ParseInfo pi) {
     if (pi.exclude().equals("") || !v.contains(pi.exclude()))
+      if (pi.validate() != null) {
+        Matcher m = pi.validate().matcher(v);
+        if (!m.matches())
+          return;
+      }
       pi.value(append(pi.value(), pi.separator(), cleanValue(v, pi)));
   }
+  
   /*
    * Set operation:  from = from - remove
+   * @param from Set on which to operate
+   * @param remove Set of strings to remove from from
    */
   private void removeTags(Set<String> from, Set<String> remove) {
     Iterator<String> r = remove.iterator();
@@ -919,6 +980,8 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
   
   /*
    * This finds values relative to a label
+   * @param nodes Array of nodes to use
+   * @param tagSet Set of affected layout entry tags
    */
   private void findLabelDependentValues(TagNode[] nodes, Set<String> tagSet) {
     Iterator<String> t;
@@ -926,13 +989,16 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
       TagNode vnode = nodes[n];
       String v = vnode.getText().toString();
       if (!v.equals("")) {
+//        System.out.println("Checking: '"+v+"'");
         t = tagSet.iterator();
         while (t.hasNext()) {
           String tag = t.next();
           ParseInfo pi = layout.get(tag);
           if (v.contains(pi.label())) {
-            if (pi.closest())
-              findClosestInWindow(vnode, nodes, pi);
+            if (pi.closest()) {
+            if (v.equals(pi.label()))
+              new APElement(vnode, nodes, pi);
+            }
             else {
               Iterator<Integer> o = pi.offset().iterator();
               while (o.hasNext()) {
@@ -940,12 +1006,118 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
                 if (off >=0 && off < nodes.length) {
                   vnode = nodes[off];
                   addValue(vnode.getText().toString(), pi);
-                 }
+                }
               }
             }
           }
         }
       }
+    }
+  }
+  
+  private static final Pattern STYLE_TOP_PATTERN
+    = Pattern.compile(".*top\\:(\\d+)(?:px)?\\;.*");
+  private static final Pattern STYLE_LEFT_PATTERN
+    = Pattern.compile(".*left\\:(\\d+)(?:px)?\\;.*");
+  private class APElement {
+    private ParseInfo pi = null;
+    private Set<DNode> dnSet = null;
+    private DNode rn = null;
+    private class DNode {
+      private String text;
+      private int x_distance;
+      private int y_distance;
+      DNode(String t, int x, int y) {
+        text(t);
+        x_distance(x);
+        y_distance(y);
+      }
+      public String text() { return text; }
+      public void text(String t) { text = t; }
+      public int x_distance() { return x_distance; }
+      public void x_distance(int d) { x_distance = d; }
+      public int y_distance() { return y_distance; }
+      public void y_distance(int d) { y_distance = d; }
+    }
+    
+    /*
+     * Constructor
+     * @param refNode The reference node containing the label
+     * @param node Array of nodes to use
+     * @param pInfo ParseInfo for layout entry
+     */
+    APElement(TagNode refNode, TagNode[] node, ParseInfo pInfo) {
+      pi = pInfo;
+      dnSet = new LinkedHashSet<DNode>();
+      String style = refNode.getAttributeByName("style");
+      int minDistance = -1;
+      String text = "";
+      rn = new DNode(refNode.getText().toString(), findLeft(style), findTop(style));
+      for (int n=0; n<node.length; n++) {
+        if (node[n] != refNode) {
+          style = node[n].getAttributeByName("style");
+          int nodeX = findLeft(style);
+          int nodeY = findTop(style);
+          String txt = node[n].getText().toString();
+          if (nodeX != -1
+              && nodeY != -1
+              && nodeX - rn.x_distance() <= pi.xMax()
+              && rn.x_distance() - nodeX <= pi.xMin()
+              && nodeY - rn.y_distance() <= pi.yMax()
+              && rn.y_distance() - nodeY <= pi.yMin()) {
+            dnSet.add(new DNode(txt, nodeX, nodeY));
+            int d = distance(nodeX, nodeY);
+            if (minDistance == -1 || d < minDistance) {
+              minDistance = d;
+              text = txt;
+            }
+          }
+        }
+      }
+      if (pi.multiple())
+        getMultipleValue();
+      else
+        pi.value(text);
+    }
+    
+    private void getMultipleValue() {
+      Iterator<DNode> dni = dnSet.iterator();
+      while (dni.hasNext()) {
+        addValue(dni.next().text(), pi);
+      }
+    }
+    
+    /*
+     * get the square of the distance of x,y from the reference node
+     * @param x x distance
+     * @param y y distance
+     * @return square of distance from reference node 
+     */
+    private int distance(int x, int y) {
+      return (x - rn.x_distance())*(x - rn.x_distance()) + (y - rn.y_distance())*(y - rn.y_distance());
+    }
+    /*
+     * Return the top value from a style attribute or -1 if top is not found.
+     * @param style the style attribute of a node
+     * @return value of the CSS top entry or -1 if not found
+     */
+    private int findTop(String style) {
+      Matcher m = STYLE_TOP_PATTERN.matcher(style);
+      if (m.matches())
+        return Integer.parseInt(m.group(1));
+      return -1;
+    }
+
+  /*
+   * Return the left value from a style attribute or -1 if left is not found.
+   * @param style the style attribute of a node
+   * @return value of the CSS left entry or -1 if not found
+   */
+    private int findLeft(String style) {
+      Matcher m = STYLE_LEFT_PATTERN.matcher(style);
+      if (m.matches())
+        return Integer.parseInt(m.group(1));
+      return -1;
     }
   }
   
@@ -955,9 +1127,11 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
    * concatenation of all nodes in the window if multiple values are requested.  This only
    * works with elements positioned with a style attribute within the tag.
    */
+  
+  /*
   private void findClosestInWindow (TagNode node,
                                      TagNode[] allNode,
-                                    ParseInfo pi) {
+                                     ParseInfo pi) {
     String style = node.getAttributeByName("style");
     if (style == null)
       return;
@@ -966,33 +1140,32 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
         y = findTop(style);
     if (x == -1 || y == -1)
       return;
-//    System.out.println("Reference node: x:"+x+", y:"+y+", text:"+node.getText().toString());
+    if (debug) System.out.println("Reference node: x:"+x+", y:"+y+", text:"+node.getText().toString());
     for (int n=0; n<allNode.length; n++) {
       TagNode testNode = allNode[n];
       if (testNode != null) {
         String nodeText = testNode.getText().toString();
         style = testNode.getAttributeByName("style");
-        if (pi.exclude().equals("") || !nodeText.contains(pi.exclude())) {
-          if (style != null) {
-            int testX = findLeft(style),
-                testY = findTop(style);
-            if (testX != -1
-                && testY != -1
-                && (testX != x || testY != y)
-                && testX - x <= pi.xMax()
-                && x - testX <= pi.xMin()
-                && testY - y <= pi.yMax()
-                && y - testY <= pi.yMin()) {
-              if (pi.multiple())
-//              System.out.println("x:"+testX+", y:"+testY+", text:"+testNode.getText().toString());
-                addValue(testNode.getText().toString(), pi);
-              else {
-                int distance = (testX - x)*(testX - x) + (testY - y)*(testY - y);
-                if (del == -1 || distance < del) {
-                  del = distance;
+        if (style != null) {
+          int testX = findLeft(style),
+              testY = findTop(style);
+          if (testX != -1
+              && testY != -1
+              && (testX != x || testY != y)
+              && testX - x <= pi.xMax()
+              && x - testX <= pi.xMin()
+              && testY - y <= pi.yMax()
+              && y - testY <= pi.yMin()) {
+            if (debug) System.out.println("x:"+testX+", y:"+testY+", text:"+nodeText);
+            if (pi.multiple())
+              addValue(nodeText, pi);
+            else {
+              int distance = (testX - x)*(testX - x) + (testY - y)*(testY - y);
+              if (del == -1 || distance < del) {
+                del = distance;
 //              System.out.println("del:"+del+", x:"+testX+", y:"+testY+", text:"+testNode.getText().toString());
-                  addValue(testNode.getText().toString(), pi);
-                }
+              if (pi.exclude().equals("") || !nodeText.contains(pi.exclude()))
+                pi.value(translate(testNode.getText().toString()));
               }
             }
           }
@@ -1000,33 +1173,13 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
       }
     }
   }
-
-  /*
-   * Return the top value from a style attribute or -1 if top is not found.
-   */
-  private static final Pattern STYLE_TOP_PATTERN
-    = Pattern.compile(".*top\\:(\\d+)(?:px)?\\;.*");
-  private int findTop(String style) {
-    Matcher m = STYLE_TOP_PATTERN.matcher(style);
-    if (m.matches())
-      return Integer.parseInt(m.group(1));
-    return -1;
-  }
-
-/*
- * Return the left value from a style attribute or -1 if left is not found.
- */
-  private static final Pattern STYLE_LEFT_PATTERN
-    = Pattern.compile(".*left\\:(\\d+)(?:px)?\\;.*");
-  private int findLeft(String style) {
-    Matcher m = STYLE_LEFT_PATTERN.matcher(style);
-    if (m.matches())
-      return Integer.parseInt(m.group(1));
-    return -1;
-  }
-
+*/
+  
 /*
  * Remove specified text, translate and trim
+ * @param v value to clean
+ * @param pi ParseInfo for layout entry
+ * @return cleaned value
  */
   private String cleanValue(String v, ParseInfo pi) {
     if (pi.removeLabel())
@@ -1036,6 +1189,8 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
   
   /*
    * Get the top level node for a domain
+   * @param dom String representation of the domain
+   * @return top level node for domain
    */
   private TagNode getTop(String dom) {
     if (dom.equals("*"))
@@ -1048,6 +1203,8 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
 
   /*
    * Returns the status value for a tag
+   * @param tag layout entry tag
+   * @return status of layout entry
    */
   public int getStatus(String tag) {
     return layout.get(tag).status();
@@ -1055,8 +1212,9 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
   
   /*
    * This method gets the value for a tag from the hash table
+   * @param tag layout entry tag
+   * @return layout entry value
    */
-
   public String getValue(String tag) {
     return layout.get(tag).value();
   } 
@@ -1069,6 +1227,9 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
     
   /*
    * Gets the nth element of type name under root
+   * @param name element name
+   * @param n index
+   * @return nth node of type name under root
    */
   private TagNode getElement(String name, int n) {
     return getElement(root, name, n);
@@ -1076,6 +1237,10 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
 
   /*
    * Gets the nth element of type name under top
+   * @param top top level node
+   * @param name element name
+   * @param n index
+   * @return nth node of type name under top
    */
   private TagNode getElement(TagNode top, String name, int n) {
     TagNode[] l = top.getElementsByName(name, true);
@@ -1094,6 +1259,12 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
    *  
    *   
    */
+  
+  /*
+   * translate a string using data from the translation table
+   * @param original original string
+   * @return translated string
+   */
   public String translate (String original) {
     Iterator<String> i = translate.keySet().iterator();
     while (i.hasNext()) {
@@ -1105,6 +1276,7 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
 
   /*
    * Utility method to create an html file for inspection via browser
+   * @param fn file name
    */
   public void makeFile(String fn) {
     // serialize to html file
@@ -1117,6 +1289,7 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
 
   /*
    * Return a program string constructed from the (ordered) layout tag values
+   * @return space delimited list of layout tags
    */
   protected String getTagString() {
     String l = "";
@@ -1132,7 +1305,8 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
   
   
   /*
-   * Return an array of values in the same order as the layout entries were given 
+   * Return an array of values in the same order as the layout entries were given
+   * @return array of layout entry values 
    */
   public String[] getValueArray() {
     String[] ret = new String[layout.size()];
@@ -1144,6 +1318,7 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
   
   /*
    * Set the translation map with values from a string array
+   * @param arr array of string value to be translated/string to translate to pairs
    */
   public void translate(String[] arr) {
     for (int i = 0; i < arr.length; i += 2)
@@ -1151,7 +1326,8 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
   }
   
   /*
-   * Print value of all elements with name (recursively) 
+   * Print value of all elements with name (recursively)
+   * @param name name of element type
    */
   public void printElements(String name) {
     TagNode[] node = root.getElementsByName(name, true);
