@@ -81,6 +81,28 @@ Fraqre: <pbzzpragrenhfgva@npnqvna.pbz>
 (NHF PNQ FZGC Cntvat) Erfc#:20141125-0767       PBN OYF                       Aba-Rzr Ubfcvgny Gk OYF       Cflpuvngevp/Fhvpvqr Nggrzcg   Ybp:Qryy Puvyqeraf Ubfcvgny       Nqq:4900 Zhryyre Oyiq             Ncg:RE 19     Pebff Fg:Cuvybzran Fg/Oneonen Wbeqna Oyiq                            Pvgl:Nhfgva              Pagl:                              Znc Ct:NH/181F   Qrfg:Frgba Fubny Perrx Ubfcvgny    3501 Zvyyf Nir                          Nhfgva
 (NHF PNQ FZGC Cntvat) Erfc#:20141125-0631       Nyregrq:12:25:51Raebhgr:12:25:52NgFprar:13:01:31Qrcneg:13:00:00Qrfgvangvba:13:27:21
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Npnqvna Nzohynapr - Fna Nagbavb
+Ybpngvba: Fna Nagbavb, GK, Havgrq Fgngrf
+Fraqre: <pbzzpragrenhfgva@npnqvna.pbz>
+
+(NHF PNQ FZGC Cntvat) Erfc#:20141223-0416       Nyregrq:10:32:19Raebhgr:10:32:26NgFprar:10:32:32Qrcneg:10:32:43Qrfgvangvba:10:50:24
+(NHF PNQ FZGC Cntvat) Erfc#:20141223-0416                                     NYF Fpurqhyrq Gk              Erghea Genafcbeg              Ybp:Begubgvpf Cyhf                Nqq:2122 Onopbpx Eq               Ncg:fgr 102   Pebff Fg:Qbebgul Ybhvfr Qe/Zregba Zvagre                             Pvgl:Fna Nagbavb         Pagl:                              Znc Ct:FN/580S2  Qrfg:                              3110 Eraxre Qe                          Fna Nagbavb
+(NHF PNQ FZGC Cntvat) Erfc#:20141223-0252       Nyregrq:09:02:30Raebhgr:09:02:36NgFprar:09:15:05Qrcneg:09:27:11Qrfgvangvba:09:50:40
+(NHF PNQ FZGC Cntvat) Erfc#:20141223-0252                                     NYF Fpurqhyrq Gk              24 Ue Nqinapr-Fpu Gk          Ybp:                              Nqq:3110 Eraxre Qe                Ncg:          Pebff Fg:Yhmba/Nfgrebvq                                              Pvgl:Fna Nagbavb         Pagl:                              Znc Ct:FN/551S5  Qrfg:Begubgvpf Cyhf                2122 Onopbpx Eq               fgr 102   Fna Nagbavb
+(NHF PNQ FZGC Cntvat) Erfc#:20141222-0473       Nyregrq:10:46:45Raebhgr:10:46:48NgFprar:10:52:22Qrcneg:11:10:44Qrfgvangvba:11:33:07
+(NHF PNQ FZGC Cntvat) Erfc#:20141222-0473                                     Aba Yvsr Guerngravat RzretraplFvpx Crefba (Fcrpvsvp Qvnt.)  Ybp:                              Nqq:7118 Tyra Unira Qe            Ncg:          Pebff Fg:Tyra Zbag Qe/Tyra Oevne Qe                                  Pvgl:HOP                 Pagl:Orkne                         Znc Ct:FN/585R1  Qrfg:
+(NHF PNQ FZGC Cntvat) Erfc#:20141217-0043       Nyregrq:03:16:48Raebhgr:03:17:01NgFprar:03:43:01Qrcneg:03:56:18Qrfgvangvba:04:16:14
+(NHF PNQ FZGC Cntvat) Erfc#:20141217-0043                                     Rzr Fcrpvnygl Pner Gk         Certanapl/Puvyqovegu/Zvfpneel Ybp:Abegurnfg Zrgubqvfg Ubfcvgny RNqq:12412 WHQFBA EQ               Ncg:RE        Pebff Fg:GBRCCREJRVA EQ/JBBQFEVZ                                     Pvgl:Yvir Bnx            Pagl:                              Znc Ct:FN/553R3  Qrfg:Zrgebcbyvgna Zrgubqvfg Ubfcvgn1310 Zpphyybhtu Nir           RE        Fna Nagbavb
+(NHF PNQ FZGC Cntvat) Erfc#:20141217-0037                                     Aba-Rzr Ubfcvgny Gk OYF       Noqbzvany Cnvaf/ Cebo         Ybp:Oncgvfg Rzretrapl Ubfcvgny - JNqq:10811 GBJA PRAGRE QE          Ncg:RE2       Pebff Fg:Fgngr Ujl 151/Ebtref Pebffvat                               Pvgl:Fna Nagbavb         Pagl:                              Znc Ct:FN/578Q8  Qrfg:Zrgubqvfg Puvyqeraf Ubfc bs Fb7700 Syblq Phey Qe            Re        Fna Nagbavb
+(NHF PNQ FZGC Cntvat) Erfc#:20141216-1453       Nyregrq:23:17:18Raebhgr:23:17:29NgFprar:23:24:21Qrcneg:23:41:02Qrfgvangvba:00:02:55
+(NHF PNQ FZGC Cntvat) Erfc#:20141216-1453                                     Yvsr Guerngravat Rzretrapl    Oernguvat Ceboyrz             Ybp:                              Nqq:100 Pvgvonax Qe               Ncg:          Pebff Fg:Fgngr Ujl 211 F/P/F Abg Sbhaq                               Pvgl:HOP                 Pagl:Orkne                         Znc Ct:FN/610R6  Qrfg:
+(NHF PNQ FZGC Cntvat) Erfc#:20141216-1451                                     Yvsr Guerngravat Rzretrapl    Snyyf/Onpx Vawhevrf(Genhzngvp)Ybp:                              Nqq:8207 Fgntjbbq Uvyy            Ncg:          Pebff Fg:Vebatngr Bnx/Gnyba Cg                                       Pvgl:HOP                 Pagl:Orkne                         Znc Ct:546P8     Qrfg:
+(NHF PNQ FZGC Cntvat) Erfc#:20141216-1437                                     Aba-Rzr Ubfcvgny Gk OYF       Fvpx Crefba (Fcrpvsvp Qvnt.)  Ybp:Oncgvfg Rzretrapl Ubfcvgny - JNqq:10811 GBJA PRAGRE QE          Ncg:          Pebff Fg:Fgngr Ujl 151/Ebtref Pebffvat                               Pvgl:Fna Nagbavb         Pagl:                              Znc Ct:FN/578Q8  Qrfg:Fg Yhxrf Oncgvfg Ubfc UFYOU   7930 Syblq Phey Qe            104       Fna Nagbavb
+(NHF PNQ FZGC Cntvat) Erfc#:20141216-1426                                     Yvsr Guerngravat Rzretrapl    Haxabja Ceboyrz(Zna Qbja)     Ybp:                              Nqq:11334 Crpna Pnalba            Ncg:          Pebff Fg:Grknf Pnalba/Ohpx Pnalba                                    Pvgl:HOP                 Pagl:Orkne                         Znc Ct:645S4     Qrfg:
+(NHF PNQ FZGC Cntvat) Erfc#:20141216-1336       Nyregrq:19:35:47Raebhgr:19:35:58NgFprar:19:58:48Qrcneg:20:38:40Qrfgvangvba:21:06:03
+(NHF PNQ FZGC Cntvat) Erfc#:20141216-1336                                     Aba-Rzr Fcrpvnygl Pner Gk     Urzbeeuntr/Ynprengvbaf        Ybp:Zvffvba Genvyf Oncgvfg UbfcvgnNqq:3333 Erfrnepu Cynmn           Ncg:226       Pebff Fg:Vaare Pvepyr Qe/Haanzrq Fg Va Oebbxf Pvgl Onfr              Pvgl:Fna Nagbavb         Pagl:                              Znc Ct:FN/683S1  Qrfg:Havirefvgl Ubfcvgny bs Fna Nag4502 Zrqvpny Qe               vph 9131  Fna Nagbavb
+
 */
 
 choyvp pynff GKNpnqvnaNzohynaprCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -616,6 +638,153 @@ choyvp pynff GKNpnqvnaNzohynaprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:Nyregrq:12:25:51Raebhgr:12:25:52NgFprar:13:01:31Qrcneg:13:00:00Qrfgvangvba:13:27:21");
 
   }
+
+  @Grfg
+  choyvp ibvq grfgNpnqvnaNzohynaprFnaNagbavb() {
+    
+    qbGrfg("G9",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141223-0416       Nyregrq:10:32:19Raebhgr:10:32:26NgFprar:10:32:32Qrcneg:10:32:43Qrfgvangvba:10:50:24",
+        "PNYY:EHA ERCBEG",
+        "VQ:20141223-0416",
+        "CYNPR:Nyregrq:10:32:19Raebhgr:10:32:26NgFprar:10:32:32Qrcneg:10:32:43Qrfgvangvba:10:50:24");
+
+    qbGrfg("G10",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141223-0416                                     NYF Fpurqhyrq Gk              Erghea Genafcbeg              Ybp:Begubgvpf Cyhf                Nqq:2122 Onopbpx Eq               Ncg:fgr 102   Pebff Fg:Qbebgul Ybhvfr Qe/Zregba Zvagre                             Pvgl:Fna Nagbavb         Pagl:                              Znc Ct:FN/580S2  Qrfg:                              3110 Eraxre Qe                          Fna Nagbavb",
+        "VQ:20141223-0416",
+        "PNYY:NYF Fpurqhyrq Gk Erghea Genafcbeg",
+        "CYNPR:Begubgvpf Cyhf",
+        "NQQE:2122 Onopbpx Eq",
+        "NCG:fgr 102",
+        "K:Qbebgul Ybhvfr Qe/Zregba Zvagre",
+        "PVGL:Fna Nagbavb",
+        "ZNC:FN/580S2",
+        "VASB:3110 Eraxre Qe                          Fna Nagbavb");
+
+    qbGrfg("G11",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141223-0252       Nyregrq:09:02:30Raebhgr:09:02:36NgFprar:09:15:05Qrcneg:09:27:11Qrfgvangvba:09:50:40",
+        "PNYY:EHA ERCBEG",
+        "VQ:20141223-0252",
+        "CYNPR:Nyregrq:09:02:30Raebhgr:09:02:36NgFprar:09:15:05Qrcneg:09:27:11Qrfgvangvba:09:50:40");
+
+    qbGrfg("G12",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141223-0252                                     NYF Fpurqhyrq Gk              24 Ue Nqinapr-Fpu Gk          Ybp:                              Nqq:3110 Eraxre Qe                Ncg:          Pebff Fg:Yhmba/Nfgrebvq                                              Pvgl:Fna Nagbavb         Pagl:                              Znc Ct:FN/551S5  Qrfg:Begubgvpf Cyhf                2122 Onopbpx Eq               fgr 102   Fna Nagbavb",
+        "VQ:20141223-0252",
+        "PNYY:NYF Fpurqhyrq Gk 24 Ue Nqinapr-Fpu Gk",
+        "NQQE:3110 Eraxre Qe",
+        "K:Yhmba/Nfgrebvq",
+        "PVGL:Fna Nagbavb",
+        "ZNC:FN/551S5",
+        "VASB:Begubgvpf Cyhf                2122 Onopbpx Eq               fgr 102   Fna Nagbavb");
+
+   qbGrfg("G17",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141222-0473       Nyregrq:10:46:45Raebhgr:10:46:48NgFprar:10:52:22Qrcneg:11:10:44Qrfgvangvba:11:33:07",
+        "PNYY:EHA ERCBEG",
+        "VQ:20141222-0473",
+        "CYNPR:Nyregrq:10:46:45Raebhgr:10:46:48NgFprar:10:52:22Qrcneg:11:10:44Qrfgvangvba:11:33:07");
+
+    qbGrfg("G19",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141222-0473                                     Aba Yvsr Guerngravat RzretraplFvpx Crefba (Fcrpvsvp Qvnt.)  Ybp:                              Nqq:7118 Tyra Unira Qe            Ncg:          Pebff Fg:Tyra Zbag Qe/Tyra Oevne Qe                                  Pvgl:HOP                 Pagl:Orkne                         Znc Ct:FN/585R1  Qrfg:",
+        "VQ:20141222-0473",
+        "PNYY:Aba Yvsr Guerngravat RzretraplFvpx Crefba (Fcrpvsvp Qvnt.)",
+        "NQQE:7118 Tyra Unira Qe",
+        "K:Tyra Zbag Qe/Tyra Oevne Qe",
+        "PVGL:HOP, Orkne",
+        "ZNC:FN/585R1");
+
+    qbGrfg("G20",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141217-0043       Nyregrq:03:16:48Raebhgr:03:17:01NgFprar:03:43:01Qrcneg:03:56:18Qrfgvangvba:04:16:14",
+        "PNYY:EHA ERCBEG",
+        "VQ:20141217-0043",
+        "CYNPR:Nyregrq:03:16:48Raebhgr:03:17:01NgFprar:03:43:01Qrcneg:03:56:18Qrfgvangvba:04:16:14");
+
+    qbGrfg("G21",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141217-0043                                     Rzr Fcrpvnygl Pner Gk         Certanapl/Puvyqovegu/Zvfpneel Ybp:Abegurnfg Zrgubqvfg Ubfcvgny RNqq:12412 WHQFBA EQ               Ncg:RE        Pebff Fg:GBRCCREJRVA EQ/JBBQFEVZ                                     Pvgl:Yvir Bnx            Pagl:                              Znc Ct:FN/553R3  Qrfg:Zrgebcbyvgna Zrgubqvfg Ubfcvgn1310 Zpphyybhtu Nir           RE        Fna Nagbavb",
+        "VQ:20141217-0043",
+        "PNYY:Rzr Fcrpvnygl Pner Gk Certanapl/Puvyqovegu/Zvfpneel",
+        "CYNPR:Abegurnfg Zrgubqvfg Ubfcvgny R",
+        "NQQE:12412 WHQFBA EQ",
+        "NCG:RE",
+        "K:GBRCCREJRVA EQ/JBBQFEVZ",
+        "PVGL:Yvir Bnx",
+        "ZNC:FN/553R3",
+        "VASB:Zrgebcbyvgna Zrgubqvfg Ubfcvgn1310 Zpphyybhtu Nir           RE        Fna Nagbavb");
+
+    qbGrfg("G25",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141217-0037                                     Aba-Rzr Ubfcvgny Gk OYF       Noqbzvany Cnvaf/ Cebo         Ybp:Oncgvfg Rzretrapl Ubfcvgny - JNqq:10811 GBJA PRAGRE QE          Ncg:RE2       Pebff Fg:Fgngr Ujl 151/Ebtref Pebffvat                               Pvgl:Fna Nagbavb         Pagl:                              Znc Ct:FN/578Q8  Qrfg:Zrgubqvfg Puvyqeraf Ubfc bs Fb7700 Syblq Phey Qe            Re        Fna Nagbavb",
+        "VQ:20141217-0037",
+        "PNYY:Aba-Rzr Ubfcvgny Gk OYF Noqbzvany Cnvaf/ Cebo",
+        "CYNPR:Oncgvfg Rzretrapl Ubfcvgny - J",
+        "NQQE:10811 GBJA PRAGRE QE",
+        "NCG:RE2",
+        "K:Fgngr Ujl 151/Ebtref Pebffvat",
+        "PVGL:Fna Nagbavb",
+        "ZNC:FN/578Q8",
+        "VASB:Zrgubqvfg Puvyqeraf Ubfc bs Fb7700 Syblq Phey Qe            Re        Fna Nagbavb");
+
+    qbGrfg("G26",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141216-1453       Nyregrq:23:17:18Raebhgr:23:17:29NgFprar:23:24:21Qrcneg:23:41:02Qrfgvangvba:00:02:55",
+        "PNYY:EHA ERCBEG",
+        "VQ:20141216-1453",
+        "CYNPR:Nyregrq:23:17:18Raebhgr:23:17:29NgFprar:23:24:21Qrcneg:23:41:02Qrfgvangvba:00:02:55");
+
+    qbGrfg("G27",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141216-1453                                     Yvsr Guerngravat Rzretrapl    Oernguvat Ceboyrz             Ybp:                              Nqq:100 Pvgvonax Qe               Ncg:          Pebff Fg:Fgngr Ujl 211 F/P/F Abg Sbhaq                               Pvgl:HOP                 Pagl:Orkne                         Znc Ct:FN/610R6  Qrfg:",
+        "VQ:20141216-1453",
+        "PNYY:Yvsr Guerngravat Rzretrapl Oernguvat Ceboyrz",
+        "NQQE:100 Pvgvonax Qe",
+        "K:Fgngr Ujl 211 F/P/F Abg Sbhaq",
+        "PVGL:HOP, Orkne",
+        "ZNC:FN/610R6");
+
+    qbGrfg("G28",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141216-1451                                     Yvsr Guerngravat Rzretrapl    Snyyf/Onpx Vawhevrf(Genhzngvp)Ybp:                              Nqq:8207 Fgntjbbq Uvyy            Ncg:          Pebff Fg:Vebatngr Bnx/Gnyba Cg                                       Pvgl:HOP                 Pagl:Orkne                         Znc Ct:546P8     Qrfg:",
+        "VQ:20141216-1451",
+        "PNYY:Yvsr Guerngravat Rzretrapl Snyyf/Onpx Vawhevrf(Genhzngvp)",
+        "NQQE:8207 Fgntjbbq Uvyy",
+        "K:Vebatngr Bnx/Gnyba Cg",
+        "PVGL:HOP, Orkne",
+        "ZNC:546P8");
+
+    qbGrfg("G30",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141216-1437                                     Aba-Rzr Ubfcvgny Gk OYF       Fvpx Crefba (Fcrpvsvp Qvnt.)  Ybp:Oncgvfg Rzretrapl Ubfcvgny - JNqq:10811 GBJA PRAGRE QE          Ncg:          Pebff Fg:Fgngr Ujl 151/Ebtref Pebffvat                               Pvgl:Fna Nagbavb         Pagl:                              Znc Ct:FN/578Q8  Qrfg:Fg Yhxrf Oncgvfg Ubfc UFYOU   7930 Syblq Phey Qe            104       Fna Nagbavb",
+        "VQ:20141216-1437",
+        "PNYY:Aba-Rzr Ubfcvgny Gk OYF Fvpx Crefba (Fcrpvsvp Qvnt.)",
+        "CYNPR:Oncgvfg Rzretrapl Ubfcvgny - J",
+        "NQQE:10811 GBJA PRAGRE QE",
+        "K:Fgngr Ujl 151/Ebtref Pebffvat",
+        "PVGL:Fna Nagbavb",
+        "ZNC:FN/578Q8",
+        "VASB:Fg Yhxrf Oncgvfg Ubfc UFYOU   7930 Syblq Phey Qe            104       Fna Nagbavb");
+
+    qbGrfg("G31",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141216-1426                                     Yvsr Guerngravat Rzretrapl    Haxabja Ceboyrz(Zna Qbja)     Ybp:                              Nqq:11334 Crpna Pnalba            Ncg:          Pebff Fg:Grknf Pnalba/Ohpx Pnalba                                    Pvgl:HOP                 Pagl:Orkne                         Znc Ct:645S4     Qrfg:",
+        "VQ:20141216-1426",
+        "PNYY:Yvsr Guerngravat Rzretrapl Haxabja Ceboyrz(Zna Qbja)",
+        "NQQE:11334 Crpna Pnalba",
+        "K:Grknf Pnalba/Ohpx Pnalba",
+        "PVGL:HOP, Orkne",
+        "ZNC:645S4");
+
+    qbGrfg("G33",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141216-1336       Nyregrq:19:35:47Raebhgr:19:35:58NgFprar:19:58:48Qrcneg:20:38:40Qrfgvangvba:21:06:03",
+        "PNYY:EHA ERCBEG",
+        "VQ:20141216-1336",
+        "CYNPR:Nyregrq:19:35:47Raebhgr:19:35:58NgFprar:19:58:48Qrcneg:20:38:40Qrfgvangvba:21:06:03");
+
+    qbGrfg("G34",
+        "(NHF PNQ FZGC Cntvat) Erfc#:20141216-1336                                     Aba-Rzr Fcrpvnygl Pner Gk     Urzbeeuntr/Ynprengvbaf        Ybp:Zvffvba Genvyf Oncgvfg UbfcvgnNqq:3333 Erfrnepu Cynmn           Ncg:226       Pebff Fg:Vaare Pvepyr Qe/Haanzrq Fg Va Oebbxf Pvgl Onfr              Pvgl:Fna Nagbavb         Pagl:                              Znc Ct:FN/683S1  Qrfg:Havirefvgl Ubfcvgny bs Fna Nag4502 Zrqvpny Qe               vph 9131  Fna Nagbavb",
+        "VQ:20141216-1336",
+        "PNYY:Aba-Rzr Fcrpvnygl Pner Gk Urzbeeuntr/Ynprengvbaf",
+        "CYNPR:Zvffvba Genvyf Oncgvfg Ubfcvgn",
+        "NQQE:3333 Erfrnepu Cynmn",
+        "NCG:226",
+        "K:Vaare Pvepyr Qe/Haanzrq Fg Va Oebbxf Pvgl Onfr",
+        "PVGL:Fna Nagbavb",
+        "ZNC:FN/683S1",
+        "VASB:Havirefvgl Ubfcvgny bs Fna Nag4502 Zrqvpny Qe               vph 9131  Fna Nagbavb");
+
+  }
+
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj GKNpnqvnaNzohynaprCnefreGrfg().trarengrGrfgf("G1");
