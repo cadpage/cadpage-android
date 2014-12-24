@@ -9,8 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYNassauCountyElmontParser extends FieldProgramParser {
   
-  private static final Pattern DATE_TIME_PTN1 = Pattern.compile("(\\d\\d?/\\d\\d?/\\d{4}) (\\d\\d:\\d\\d)");
-  private static final Pattern DATE_TIME_PTN2 = Pattern.compile(" +(\\d\\d?/\\d\\d?) (\\d\\d:\\d\\d)$");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("(.*)\\b(\\d\\d?/\\d\\d?(?:/\\d{4})?) (\\d\\d:\\d\\d)");
 
   public NYNassauCountyElmontParser() {
     super(CITY_LIST, "NASSAU COUNTY", "NY", 
@@ -24,21 +23,22 @@ public class NYNassauCountyElmontParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    Matcher match = DATE_TIME_PTN1.matcher(subject);
+    Matcher match = DATE_TIME_PTN.matcher(subject);
     if (match.matches()) {
-      data.strDate = match.group(1);
-      data.strTime = match.group(2);
-    } else if ((match = DATE_TIME_PTN2.matcher(body)).find()) {
-      data.strDate = match.group(1);
-      data.strTime = match.group(2);
-      body = body.substring(0,match.start());
+      data.strSource = match.group(1).trim();
+      data.strDate = match.group(2);
+      data.strTime = match.group(3);
+    } else if ((match = DATE_TIME_PTN.matcher(body)).find()) {
+      body = match.group(1).trim();
+      data.strDate = match.group(2);
+      data.strTime = match.group(3);
     }
     return super.parseMsg(body, data);
   }
   
   @Override
   public String getProgram() {
-    return super.getProgram() + " DATE TIME";
+    return "SRC DATE TIME " + super.getProgram();
   }
 
   @Override
@@ -105,7 +105,8 @@ public class NYNassauCountyElmontParser extends FieldProgramParser {
   private static final Pattern INFO_ZONE_PTN = Pattern.compile(", (ZONE \\d)$");
   private static final Pattern INFO_MAP_PTN = Pattern.compile(" +(MAP +\\d+|\\d+-[A-Z]\\d)$");
   private static final Pattern CROSS_MARK_PTN = Pattern.compile("(.*?) (&(?: |$).*)");
-  private static final Pattern CONCAT_STREET_PTN = Pattern.compile("([A-Z]+(?: [\\(\\)A-Z]+)? (?:ROAD|RD|ST|AVE))(.*)"); 
+  private static final Pattern CONCAT_STREET_PTN = Pattern.compile("(.*? (?:ROAD|RD|ST|AVE|BLVD|LA|PL))(.*)"); 
+  private static final Pattern HAZMAT_PTN = Pattern.compile("(.*?)[- ]*HazMat:(.*)");
   
   private class MyInfoField extends InfoField {
     
@@ -122,7 +123,7 @@ public class NYNassauCountyElmontParser extends FieldProgramParser {
       if (inclCross) {
         Matcher match =  DASH_ZONE_PTN.matcher(field);
         if (match.matches()) {
-          data.strCross = match.group(1).trim();
+          data.strCross = match.group(1).trim().replace("-DEAD END-", "DEAD END");
           data.strUnit = match.group(2);
           data.strSupp = match.group(3).trim();
           return;
@@ -146,6 +147,14 @@ public class NYNassauCountyElmontParser extends FieldProgramParser {
         field = field.substring(0, match.start()).trim();
       }
       
+      String hazmat = "";
+      match = HAZMAT_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        hazmat = match.group(2).trim();
+        if (hazmat.length() > 0) hazmat = "Hazmat:" + hazmat;
+      }
+      
       if (inclCross) {
         Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, field);
         if (res.isValid()) {
@@ -160,19 +169,27 @@ public class NYNassauCountyElmontParser extends FieldProgramParser {
         }
         if (field.startsWith("&")) {
           field = field.substring(1).trim();
-          String cross;
-          match = CONCAT_STREET_PTN.matcher(field);
-          if (match.matches()) {
-            cross = match.group(1);
-            field = match.group(2).trim();
-          } else {
-            cross = field;
-            field = "";
+          String cross = "";
+          if (data.strCross.length() > 0) {
+            if (field.startsWith("-DEAD END-")) {
+              cross = "DEAD END";
+              field = field.substring(10).trim();
+            }
+            else {
+              match = CONCAT_STREET_PTN.matcher(field);
+              if (match.matches()) {
+                cross = match.group(1);
+                field = match.group(2).trim();
+              } else {
+                cross = field;
+                field = "";
+              }
+            }
           }
           data.strCross = append(data.strCross, " & ", cross);
         }
       }
-      
+      field = append(field, "\n", hazmat);
       super.parse(field, data);
     }
     
@@ -189,10 +206,14 @@ public class NYNassauCountyElmontParser extends FieldProgramParser {
     "ELMONT", 
     "FLORAL PARK", 
     "FRANKLIN SQUARE", 
+    "GARDEN CITY SOUTH",
     "HEMPSTEAD",
+    "LAKEVIEW",
     "LYNBROOK", 
     "MALVERNE", 
+    "NEW HYDE PARK",
     "NO VALLEY STREAM", 
+    "ROOSEVELT",
     "SO FLORAL PARK", 
     "STEWART MANOR", 
     "VALLEY STREAM",
