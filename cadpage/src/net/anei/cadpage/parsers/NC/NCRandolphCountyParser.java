@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.Properties;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -10,31 +11,50 @@ public class NCRandolphCountyParser extends FieldProgramParser {
   
   public NCRandolphCountyParser() {
     super("RANDOLPH COUNTY", "NC",
-           "SRC ( UNIT ID PLACE! PLACE+ | CALL ADDR UNIT! SKIP INFO+ )");
+          "SRC ( UNIT ID PLACE! PLACE+ | CALL ADDRCITY UNIT! SKIP INFO+ )");
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("Randolph 911 - ")) return false;
-    body = body.substring(14).trim();
+    if (body.startsWith("Randolph 911 - ")) body = body.substring(14).trim();
     return parseFields(body.split("\n"), data);
   }
   
-  private class MyAddressField extends AddressField {
+  @Override
+  public Field getField(String name) {
+    if (name.equals("SRC")) return new SourceField("[A-Z]{4}");
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("UNIT")) return new UnitField("[A-Z]+[0-9]+|\\d+-\\d+|[A-Z]+[FP]D", true);
+    if (name.equals("ID")) return new IdField("\\d{9}");
+    if (name.equals("PLACE")) return new MyPlaceField();
+    return super.getField(name);
+  }
+  
+  private class MyAddressCityField extends AddressCityField {
     
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf(';');
-      if (pt >= 0) {
-        data.strApt = field.substring(pt+1).trim();
-        field = field.substring(0, pt).trim();
+      field = stripFieldStart(field, "\"");
+      field = stripFieldEnd(field, "\"");
+      Parser p = new Parser(field);
+      String city = p.getLastOptional(',');
+      data.strCity = convertCodes(city, CITY_CODES);
+      String apt = p.getLastOptional(';');
+      if (apt.length() == 0) apt = p.getLastOptional(',');
+      parseAddress(p.get(), data);
+      if (apt.length() > 0) {
+        if (apt.startsWith("MM ")) {
+          data.strAddress = append(data.strAddress, ", ", apt);
+        } else {
+          data.strApt = append(data.strApt, "-", apt);
+        }
       }
-      super.parse(field, data);
     }
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames() + " APT";
+      return "ADDR CITY APT";
     }
   }
   
@@ -65,19 +85,24 @@ public class NCRandolphCountyParser extends FieldProgramParser {
   }
   
   @Override
-  public Field getField(String name) {
-    if (name.equals("SRC")) return new SourceField("[A-Z]{4}");
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("UNIT")) return new UnitField("[A-Z]+[0-9]+|\\d+-\\d+", true);
-    if (name.equals("ID")) return new IdField("\\d{9}");
-    if (name.equals("PLACE")) return new MyPlaceField();
-    return super.getField(name);
-  }
-  
-  @Override
   public String adjustMapAddress(String addr) {
     return CTRY_PTN.matcher(addr).replaceAll("COUNTRY");
   }
   private static final Pattern CTRY_PTN = Pattern.compile("CTRY\\b", Pattern.CASE_INSENSITIVE);
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ARC", "ARCHDALE",
+      "ASB", "ASHEBORO",
+      "ASH", "ASHEBORO",
+      "DEN", "DENTON",
+      "GRE", "GRE",          // ???
+      "LIB", "LIBERTY",
+      "RAM", "RAMSEUR",
+      "RAN", "RANDLEMAN",
+      "SEA", "SEAGROVE",
+      "SOP", "SOPHIA",
+      "THO", "THOMASVILLE",
+      "TRI", "TRINITY"
+
+  });
 }
