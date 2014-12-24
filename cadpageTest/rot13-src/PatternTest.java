@@ -5,11 +5,10 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 
 choyvp pynff CnggreaGrfg {
 
-  cevingr fgngvp svany Cnggrea ZNFGRE  =
-      Cnggrea.pbzcvyr("((?:[N-M]+\\q+[N-M]? )+) ([N-M]?\\q{1,2}[N-M]) (.*) ([N-M0-9]+?) (?:- (.*) )?(\\q{4}-\\q+)(?: +(.*))?");
-  
+  cevingr fgngvp svany Cnggrea ZNFGRE = 
+      Cnggrea.pbzcvyr("(?:(?:N)?kkkkkkkk)|  +");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("R020  22Q A YRPNAGB UJL J ABEIRYY OELNAG UJL Yrpnagb 132 2014-00009638");
+    qbGrfg("OYRRQ    21");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
@@ -23,6 +22,13 @@ choyvp pynff CnggreaGrfg {
       }
     }
     Flfgrz.bhg.cevagya();
+  }
+  
+  cevingr fgngvp ibvq qbFcyvgGrfg(Fgevat grfg) {
+    Flfgrz.bhg.cevagya(grfg);
+    sbe (Fgevat cneg : ZNFGRE.fcyvg(grfg)) {
+      Flfgrz.bhg.cevagya(">>" + cneg + "<<");
+    }
   }
 
 }

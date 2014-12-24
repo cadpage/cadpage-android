@@ -29,6 +29,7 @@ public class DispatchBCParser extends DispatchA3Parser {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("NAME_PHONE")) return new MyNamePhoneField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
@@ -88,6 +89,14 @@ public class DispatchBCParser extends DispatchA3Parser {
     @Override
     public String getFieldNames() {
       return "ADDR APT CITY ST";
+    }
+  }
+  
+  private class MyInfoField extends BaseInfoField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replaceAll("  +", " ");
+      super.parse(field, data);
     }
   }
    

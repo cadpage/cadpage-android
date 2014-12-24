@@ -127,7 +127,7 @@ You should shortly receive a registration confirmation popup that will display y
 
 Another alternative would be to use the spam blocking or blacklisting features of your message app to block messages sent from dispatch.
 
-You can also use a new "Alert Delay" setting in Notification Settings to delay the Cadpage alert notification by a few seconds.  If you message and is also sounding an audio alert, delaying the Cadpage alert so that it happens after the message app alerts prevents it from being silenced by the message app alert.
+You can also use a new "Alert Delay" setting in Notification Settings to delay the Cadpage alert notification by a few seconds.  If your message app is also sounding an audio alert, delaying the Cadpage alert so that it happens after the message app alerts prevents it from being silenced by the message app alert.
 
 Take care, and Happy, Safe Holidays to You and Yours!
 Jean ~ Cadpage Administrator

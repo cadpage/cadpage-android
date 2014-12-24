@@ -6,6 +6,12 @@ should be considered valid street names without a trailing street suffix.
 Fixed problem not finding legitimate numbered address following a "COUNTY 911"
 construct that could be mistaken for a naked road.
 
+Fixed problem misidentifying saint or doctor names starting one or two words
+after a city name.
+
+Fixed problem where logic not permitting city names following connectors or
+cross street indicators remained effective when only searching for city name.
+ 
 Version 5.0 12/08/2014
 
 Fixed case insensitive keyword processing to properly handle truncated keywords

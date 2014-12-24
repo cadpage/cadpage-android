@@ -2093,9 +2093,7 @@ public abstract class SmartAddressParser extends MsgParser {
         // Another exception is if the road suffix is "DR" and is followed
         // by a known  Doctor name
         // Or ST followed by a known Saint name
-        if (!isType(endNdx, ID_DR) || !isType(endNdx+1, ID_DOCTOR)) {
-          if (!isType(endNdx, ID_ST) || !isType(endNdx+1, ID_SAINT)) return -1;
-        }
+        if (!isNotRoadSuffix(endNdx)) return -1;
       }
     }
     
@@ -2116,7 +2114,21 @@ public abstract class SmartAddressParser extends MsgParser {
    * @return true if token at index it unambiguous street suffix
    */
   private boolean isRealRoadSuffix(int ndx) {
-    return isType(ndx, ID_ROAD_SFX) && !isType(ndx, ID_AMBIG_ROAD_SFX);
+    return isType(ndx, ID_ROAD_SFX) && !isType(ndx, ID_AMBIG_ROAD_SFX) &&
+           !isNotRoadSuffix(ndx);
+  }
+  
+  /**
+   * See if a token previously identified as a road suffix should be
+   * reclassified because it starts an acknowledged doctor or saint name
+   * @param ndx token index
+   * @return true if this is a doctor or saint name and should not be
+   * considered a road suffix
+   */
+  private boolean isNotRoadSuffix(int ndx) {
+    if (isType(ndx, ID_DR) && isType(ndx+1, ID_DOCTOR)) return true;
+    if (isType(ndx, ID_ST) && isType(ndx+1, ID_SAINT)) return true;
+    return false;
   }
   
   /**
@@ -2571,9 +2583,14 @@ public abstract class SmartAddressParser extends MsgParser {
         }
       }
       mask |= iiType;
-      if (ndx > 0 && isType(ndx-1, ID_CONNECTOR | ID_CROSS_STREET | ID_AT_MARKER) ||
-          ndx > 1 && isType(ndx-2, ID_CONNECTOR | ID_CROSS_STREET | ID_AT_MARKER) && isType(ndx-1, ID_DIRECTION)) {
-        mask &= ~ID_CITY;
+      
+      // Unless we are only looking for a city, cities are not allowed to follow
+      // connectors or cross street indicators
+      if (!isFlagSet(FLAG_ONLY_CITY) || isFlagSet(FLAG_ONLY_CROSS)) {
+        if (ndx > 0 && isType(ndx-1, ID_CONNECTOR | ID_CROSS_STREET | ID_AT_MARKER) ||
+            ndx > 1 && isType(ndx-2, ID_CONNECTOR | ID_CROSS_STREET | ID_AT_MARKER) && isType(ndx-1, ID_DIRECTION)) {
+          mask &= ~ID_CITY;
+        }
       }
     }
     

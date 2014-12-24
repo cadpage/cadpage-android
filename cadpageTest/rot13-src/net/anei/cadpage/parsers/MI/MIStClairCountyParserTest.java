@@ -59,7 +59,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/25/2013",
         "GVZR:19:18:15",
-        "VASB:RZQ Pnfr Ragel Svavfurq Puvrs Pbzcynvag Ahzore: 11 4 Pbzznaqzragf: 71-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Pubxvat\aCVYY VF FGHPX VA PYVRGAF GUEBNG");
+        "VASB:Puvrs Pbzcynvag Ahzore: 11 4 Pbzznaqzragf: 71-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Pubxvat\aCVYY VF FGHPX VA PYVRGAF GUEBNG");
 
     qbGrfg("G2",
         "PragenyQvfcngpu:13-102588 3000 TENGVBG OYIQ CV Npp Yvar16= Yvar17= Yvar18=10/25/2013 18:30:56 : cbf6 : qxnlf Pnyyf 13-102586,13-102588 ner eryngrq. 10/25/2013 18:30:48 : cbf3 : GLbhgfbf HAX BA VAWHEL 10/25/2013 18:30:21 : cbf3 : GLbhgfbf Pebff fgerrgf: ENATR EQ//TRBETVN Ynaqznex: GNPB ORYY OYHR QBQTR FGENGHF / HAX 2AQ",
@@ -80,7 +80,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/25/2013",
         "GVZR:18:20:34",
-        "VASB:RZQ Pnfr Pbzcyrgr Qrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 37-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Oernguvat Ceboyrzf Ceboyrz Fgngrzrag: GRFG GRFG / 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur unf qvssvphygl fcrnxvat orgjrra oernguf. 3. Ur vf pynzzl. 4. Ur qbrf abg unir nfguzn. 5. Ur qbrf abg unir nal fcrpvn");
+        "VASB:Qrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 37-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Oernguvat Ceboyrzf Ceboyrz Fgngrzrag: GRFG GRFG / 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur unf qvssvphygl fcrnxvat orgjrra oernguf. 3. Ur vf pynzzl. 4. Ur qbrf abg unir nfguzn. 5. Ur qbrf abg unir nal fcrpvn");
 
     qbGrfg("G4",
         "PragenyQvfcngpu:13-102585 4000 OHEGPU EQ 1 Zrqvpny Yvar16= Yvar17= Yvar18=10/25/2013 18:20:34 : cbf1 : goevpxre RZQ Pnfr Pbzcyrgr Qrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 37-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Oernguvat Ceboyrzf Ceboyrz Fgngrzrag: GRFG GRFG Xrl Dhrfgvbaf: 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur unf qvssvphygl fcrnxvat orgjrra oernguf. 3. Ur vf pynzzl. 4. Ur qbrf abg unir nfguzn. 5. Ur qbrf abg unir nal fcrpvny rdhvcz",
@@ -90,7 +90,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/25/2013",
         "GVZR:18:20:34",
-        "VASB:RZQ Pnfr Pbzcyrgr Qrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 37-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Oernguvat Ceboyrzf Ceboyrz Fgngrzrag: GRFG GRFG / 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur unf qvssvphygl fcrnxvat orgjrra oernguf. 3. Ur vf pynzzl. 4. Ur qbrf abg unir nfguzn. 5. Ur qbrf abg unir nal fcrpvny rdhvcz");
+        "VASB:Qrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 37-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Oernguvat Ceboyrzf Ceboyrz Fgngrzrag: GRFG GRFG / 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur unf qvssvphygl fcrnxvat orgjrra oernguf. 3. Ur vf pynzzl. 4. Ur qbrf abg unir nfguzn. 5. Ur qbrf abg unir nal fcrpvny rdhvcz");
 
     qbGrfg("G5",
         "PragenyQvfcngpu:13-102531 1822 FGNGR Nffvfg Cho Yvar16= Yvar17= Yvar18=10/25/2013 15:12:18 : cbf1 : goevpxre SNGURE FGHPX VA PNE NOBHG GB SNYY ARRQF URYC UR VF QVFNOYRQ",
@@ -154,7 +154,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/25/2013",
         "GVZR:11:01:19",
-        "VASB:RZQ Pnfr Pbzcyrgr Qrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 81-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Urneg Ceboyrzf / N.V.P.Q. Ceboyrz Fgngrzrag: URNEG CEBO / 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf abg oernguvat abeznyyl. 3. Ur unf qvssvphygl fcrnxvat orgjrra oernguf. 4. Ur vf punatvat pbybe. 5. Uvf pbybe punatr");
+        "VASB:Qrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 81-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Urneg Ceboyrzf / N.V.P.Q. Ceboyrz Fgngrzrag: URNEG CEBO / 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf abg oernguvat abeznyyl. 3. Ur unf qvssvphygl fcrnxvat orgjrra oernguf. 4. Ur vf punatvat pbybe. 5. Uvf pbybe punatr");
 
     qbGrfg("G12",
         "PragenyQvfcngpu:13-102411 2482 ZVPUVTNA EQ Zrqvpny Yvar16= Yvar17= Yvar18=10/25/2013 09:15:12 : cbf4 : yxbjnyfxv RZQ Pnfr Pbzcyrgr Qrgrezvanag: Abg nyreg 4 Pbzznaqzragf: 68-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fvpx Crefba (Fcrpvsvp Qvntabfvf) Ceboyrz Fgngrzrag: FVPX Xrl Dhrfgvbaf: 1. Fur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl). 2. Ure cevznel ceboyrz vf trareny jrnxarff. 10/25/2013 09:14:19 : cbf4 : yxbjnyfxv RZQ Xrl Dhrfgvbaf Svavfurq Qrgrezvanag: Abg nyreg 4 ",
@@ -163,7 +163,16 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/25/2013",
         "GVZR:09:15:12",
-        "VASB:RZQ Pnfr Pbzcyrgr Qrgrezvanag: Abg nyreg 4 Pbzznaqzragf: 68-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fvpx Crefba (Fcrpvsvp Qvntabfvf) Ceboyrz Fgngrzrag: FVPX / 1. Fur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl). 2. Ure cevznel ceboyrz vf trareny jrnxarff.\aRZQ Xrl Dhrfgvbaf Svavfurq Qrgrezvanag: Abg nyreg 4");
+        "VASB:Qrgrezvanag: Abg nyreg 4 Pbzznaqzragf: 68-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fvpx Crefba (Fcrpvsvp Qvntabfvf) Ceboyrz Fgngrzrag: FVPX / 1. Fur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl). 2. Ure cevznel ceboyrz vf trareny jrnxarff.");
+
+    qbGrfg("G12",
+        "PragenyQvfcngpu:13-102411 2482 ZVPUVTNA EQ Zrqvpny Yvar16= Yvar17= Yvar18=10/25/2013 09:15:12 : cbf4 : yxbjnyfxv RZQ Pnfr Pbzcyrgr Qrgrezvanag: Abg nyreg 4 Pbzznaqzragf: 68-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fvpx Crefba (Fcrpvsvp Qvntabfvf) Ceboyrz Fgngrzrag: FVPX Xrl Dhrfgvbaf: 1. Fur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl). 2. Ure cevznel ceboyrz vf trareny jrnxarff. 10/25/2013 09:14:19 : cbf4 : yxbjnyfxv RZQ Xrl Dhrfgvbaf Svavfurq Qrgrezvanag: Abg nyreg 4 ",
+        "VQ:13-102411",
+        "NQQE:2482 ZVPUVTNA EQ",
+        "PNYY:Zrqvpny",
+        "QNGR:10/25/2013",
+        "GVZR:09:15:12",
+        "VASB:Qrgrezvanag: Abg nyreg 4 Pbzznaqzragf: 68-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fvpx Crefba (Fcrpvsvp Qvntabfvf) Ceboyrz Fgngrzrag: FVPX / 1. Fur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl). 2. Ure cevznel ceboyrz vf trareny jrnxarff.");
 
     qbGrfg("G13",
         "PragenyQvfcngpu:13-102405 JNQUNZF EQ // CHGGLTHG EQ CV Npp Yvar16= Yvar17= Yvar18=10/25/2013 09:09:47 : cbf3 : rbireubyg CRE GEV RYRPGEVP CBYR QNZNTRQ NAQ PENPXRQ 10/25/2013 09:01:32 : cbf3 : rbireubyg Pnyyf 13-102405,13-102406 ner eryngrq. 10/25/2013 09:01:25 : cbf3 : rbireubyg 4000 JNQUNZF EQ BAR BA VGF FVQR NTNVAFG CBYR CVPXHC GEHPX NAQ YVAPBYA 4 QE JUVGR CVPXHC VF VA GUR JBBQF",
@@ -210,7 +219,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/25/2013",
         "GVZR:06:23:44",
-        "VASB:NQIVFRQ 323\aRZQ Pnfr Pbzcyrgr Qrgrezvanag: CBFFVOYL QNATREBHF obql nern 4 Pbzznaqzragf: 84-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Snyyf Ceboyrz Fgngrzrag: SNYY / 1. Guvf unccrarq abj (yrff guna 6uef ntb). 2. Vg'f ercbegrq gung fur sryy ng tebhaq yriry. 3. Gur snyy jnf nppvqragny. 4. Gurer vf fbzr oyrrqvat, abg frevbhf.");
+        "VASB:NQIVFRQ 323\aQrgrezvanag: CBFFVOYL QNATREBHF obql nern 4 Pbzznaqzragf: 84-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Snyyf Ceboyrz Fgngrzrag: SNYY / 1. Guvf unccrarq abj (yrff guna 6uef ntb). 2. Vg'f ercbegrq gung fur sryy ng tebhaq yriry. 3. Gur snyy jnf nppvqragny. 4. Gurer vf fbzr oyrrqvat, abg frevbhf.");
 
     qbGrfg("G18",
         "PragenyQvfcngpu:13-102337 927 JNFUVATGBA Fhvpvqr Yvar16= Yvar17= Yvar18=10/24/2013 23:14:28 : cbf3 : nxhuyzna Pnyyf 13-102337,13-102338 ner eryngrq. 10/24/2013 23:14:06 : cbf5 : ufuryqba PNYYRE VF FNLVAT ABJ GURL OBGU YVIR GBTRGURE 10/24/2013 23:13:44 : cbf5 : ufuryqba FUR GBBX 5-10 CVYYF, HAXABJA GLCR 10/24/2013 23:13:29 : cbf5 : ufuryqba Pebff fgerrgf: UBJNEQ//FHZZRE PNYYRE FNVQ URE SEVRAQ ANZRQ YVAQFNL JVQVXBJFXV 19 LRNE BYQ SRZNYR HAXABJA VS VG VF N FHVPVQR NGGRZCG",
@@ -240,7 +249,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/24/2013",
         "GVZR:17:18:44",
-        "VASB:RZQ Pnfr Pbzcyrgr Qrgrezvanag: NYGRERQ YRIRY BS PBAFPVBHFARFF 4 Pbzznaqzragf: 67-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fvpx Crefba (Fcrpvsvp Qvntabfvf) / 1. Fur vf qvfbevragrq. 2. Fur vf oernguvat abeznyyl. 3. Fur qbrf abg unir nal cnva. 4. Fur vf abg oyrrqvat (be ibzvgvat oybbq). 5. Fur vf ibzvgvat.\aRZQ Xrl Dhrfgvb");
+        "VASB:Qrgrezvanag: NYGRERQ YRIRY BS PBAFPVBHFARFF 4 Pbzznaqzragf: 67-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fvpx Crefba (Fcrpvsvp Qvntabfvf) / 1. Fur vf qvfbevragrq. 2. Fur vf oernguvat abeznyyl. 3. Fur qbrf abg unir nal cnva. 4. Fur vf abg oyrrqvat (be ibzvgvat oybbq). 5. Fur vf ibzvgvat.\aRZQ Xrl Dhrfgvb");
 
     qbGrfg("G21",
         "PragenyQvfcngpu:13-102222 1985 TENGVBG OYIQ Zrqvpny Yvar16= Yvar17= Yvar18=10/24/2013 16:17:17 : cbf5 : ufuryqba RZQ Pnfr Ragel Svavfurq Puvrs Pbzcynvag Ahzore: 31 4 Pbzznaqzragf: 40-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Hapbafpvbhf / Snvagvat (Arne) 10/24/2013 16:16:22 : cbf4 : goevpxre 676 NQIVFRQ 10/24/2013 16:15:50 : cbf5 : ufuryqba Ynaqznex: ZREPL SNZVYL PNER CNGVRAG JVGU YBFF BS PBAPVBHFARFF",
@@ -250,7 +259,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:10/24/2013",
         "GVZR:16:17:17",
         "CYNPR:ZREPL SNZVYL PNER CNGVRAG JVGU YBFF BS PBAPVBHFARFF",
-        "VASB:RZQ Pnfr Ragel Svavfurq Puvrs Pbzcynvag Ahzore: 31 4 Pbzznaqzragf: 40-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Hapbafpvbhf / Snvagvat (Arne)\a676 NQIVFRQ");
+        "VASB:Puvrs Pbzcynvag Ahzore: 31 4 Pbzznaqzragf: 40-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Hapbafpvbhf / Snvagvat (Arne)\a676 NQIVFRQ");
 
     qbGrfg("G22",
         "PragenyQvfcngpu:13-102222 1985 TENGVBG OYIQ Zrqvpny Yvar16= Yvar17= Yvar18=10/24/2013 16:15:50 : cbf5 : ufuryqba Ynaqznex: ZREPL SNZVYL PNER CNGVRAG JVGU YBFF BS PBAPVBHFARFF",
@@ -269,7 +278,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/24/2013",
         "GVZR:09:36:49",
-        "VASB:RZQ Erpbzzraqrq Qvfcngpu / Puneyvr Qvfcngpu Yriry: 26P02 PNQ Vapvqrag Pbqr: 26P02 Qrgrezvanag: Noabezny oernguvat 4 Pbzznaqzragf: 80-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fvpx Crefba (Fcrpvsvp Qvntabfvf) Ceboyrz Fgngrzrag: zrqvpny / 1. Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Fur vf abg oernguvat abeznyyl. 3. Fur unf bgure cnv");
+        "VASB:Puneyvr Qvfcngpu Yriry: 26P02 PNQ Vapvqrag Pbqr: 26P02 Qrgrezvanag: Noabezny oernguvat 4 Pbzznaqzragf: 80-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fvpx Crefba (Fcrpvsvp Qvntabfvf) Ceboyrz Fgngrzrag: zrqvpny / 1. Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Fur vf abg oernguvat abeznyyl. 3. Fur unf bgure cnv");
 
     qbGrfg("G24",
         "PragenyQvfcngpu:13-102084 1271 ARJ WREFRL Zrqvpny Yvar16= Yvar17= Yvar18=10/24/2013 07:33:32 : cbf4 : goevpxre 676 NQIVFRQ 10/24/2013 07:33:06 : cbf3 : qcbaxr RZQ Pnfr Pbzcyrgr Qrgrezvanag: Abg nyreg 4 Pbzznaqzragf: 80-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Hapbafpvbhf / Snvagvat (Arne) Ceboyrz Fgngrzrag: ZRQVPNY Xrl Dhrfgvbaf: 1. Vg'f abg xabja vs uvf oernguvat vf pbzcyrgryl abezny. 2. Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl). 3. Vg'f abg xabja vs ur vf punatvat",
@@ -278,7 +287,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/24/2013",
         "GVZR:07:33:32",
-        "VASB:676 NQIVFRQ\aRZQ Pnfr Pbzcyrgr Qrgrezvanag: Abg nyreg 4 Pbzznaqzragf: 80-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Hapbafpvbhf / Snvagvat (Arne) Ceboyrz Fgngrzrag: ZRQVPNY / 1. Vg'f abg xabja vs uvf oernguvat vf pbzcyrgryl abezny. 2. Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl). 3. Vg'f abg xabja vs ur vf punatvat");
+        "VASB:676 NQIVFRQ\aQrgrezvanag: Abg nyreg 4 Pbzznaqzragf: 80-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Hapbafpvbhf / Snvagvat (Arne) Ceboyrz Fgngrzrag: ZRQVPNY / 1. Vg'f abg xabja vs uvf oernguvat vf pbzcyrgryl abezny. 2. Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl). 3. Vg'f abg xabja vs ur vf punatvat");
 
     qbGrfg("G25",
         "PragenyQvfcngpu:13-101987 1266 F ENATR EQ Zrqvpny Yvar16= Yvar17= Yvar18=10/23/2013 20:14:44 : cbf1 : fpgnyyznqtr RZQ Pnfr Pbzcyrgr Qrgrezvanag: CBFFVOYL QNATREBHF obql nern 4 Pbzznaqzragf: 53-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Snyyf Ceboyrz Fgngrzrag: SNYY Xrl Dhrfgvbaf: 1. Guvf unccrarq abj (yrff guna 6uef ntb). 2. Vg'f ercbegrq gung ur sryy ng tebhaq yriry. 3. Gur ernfba sbe gur snyy vf abg xabja. 4. Gurer vf ab oyrrqvat abj. 5. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevn",
@@ -287,7 +296,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/23/2013",
         "GVZR:20:14:44",
-        "VASB:RZQ Pnfr Pbzcyrgr Qrgrezvanag: CBFFVOYL QNATREBHF obql nern 4 Pbzznaqzragf: 53-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Snyyf Ceboyrz Fgngrzrag: SNYY / 1. Guvf unccrarq abj (yrff guna 6uef ntb). 2. Vg'f ercbegrq gung ur sryy ng tebhaq yriry. 3. Gur ernfba sbe gur snyy vf abg xabja. 4. Gurer vf ab oyrrqvat abj. 5. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevn");
+        "VASB:Qrgrezvanag: CBFFVOYL QNATREBHF obql nern 4 Pbzznaqzragf: 53-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Snyyf Ceboyrz Fgngrzrag: SNYY / 1. Guvf unccrarq abj (yrff guna 6uef ntb). 2. Vg'f ercbegrq gung ur sryy ng tebhaq yriry. 3. Gur ernfba sbe gur snyy vf abg xabja. 4. Gurer vf ab oyrrqvat abj. 5. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevn");
 
     qbGrfg("G26",
         "PragenyQvfcngpu:13-101986 5615 ENIRAFJBBQ EQ Zrqvpny Yvar16= Yvar17= Yvar18=10/23/2013 20:12:34 : cbf5 : ufuryqba RZQ Pnfr Pbzcyrgr Qrgrezvanag: PUNATVAT PBYBE 4 Pbzznaqzragf: 92-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Purfg Cnva (Aba-Genhzngvp) Xrl Dhrfgvbaf: 1. Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Fur vf abg oernguvat abeznyyl. 3. Fur qbrf abg unir nal qvssvphygl fcrnxvat orgjrra oernguf. 4. Fur vf punatvat pbybe. 5. Ure pbybe punatr vf nfura. 6. Fur vf pynzz",
@@ -296,7 +305,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/23/2013",
         "GVZR:20:12:34",
-        "VASB:RZQ Pnfr Pbzcyrgr Qrgrezvanag: PUNATVAT PBYBE 4 Pbzznaqzragf: 92-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Purfg Cnva (Aba-Genhzngvp) / 1. Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Fur vf abg oernguvat abeznyyl. 3. Fur qbrf abg unir nal qvssvphygl fcrnxvat orgjrra oernguf. 4. Fur vf punatvat pbybe. 5. Ure pbybe punatr vf nfura. 6. Fur vf pynzz");
+        "VASB:Qrgrezvanag: PUNATVAT PBYBE 4 Pbzznaqzragf: 92-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Purfg Cnva (Aba-Genhzngvp) / 1. Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Fur vf abg oernguvat abeznyyl. 3. Fur qbrf abg unir nal qvssvphygl fcrnxvat orgjrra oernguf. 4. Fur vf punatvat pbybe. 5. Ure pbybe punatr vf nfura. 6. Fur vf pynzz");
 
     qbGrfg("G27",
         "PragenyQvfcngpu:13-101962 275 ZNLJBBQ HAVG 11 Zrqvpny Yvar16= Yvar17= Yvar18=10/23/2013 19:07:34 : cbf3 : yfanl RZQ Erpbzzraqrq Qvfcngpu Erfcbafr Grkg: Puneyvr Qvfcngpu Yriry: 28P11 Fhssvk: T Terngre guna ___ ubhef fvapr gur flzcgbzf fgnegrq PNQ Vapvqrag Pbqr: 28P11T Qrgrezvanag: Oernguvat abeznyyl = 35 4 Pbzznaqzragf: 71-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fgebxr (PIN) / Genafvrag Vfpurzvp Nggnpx (GVN) Ceboyrz Fgngrzrag: FGEBXR Xrl Dhrfgvbaf: 1. Fur vf pbzcyrgryl nyreg (erf",
@@ -306,7 +315,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/23/2013",
         "GVZR:19:07:34",
-        "VASB:RZQ Erpbzzraqrq Qvfcngpu / Puneyvr Qvfcngpu Yriry: 28P11 Fhssvk: T Terngre guna ___ ubhef fvapr gur flzcgbzf fgnegrq PNQ Vapvqrag Pbqr: 28P11T Qrgrezvanag: Oernguvat abeznyyl = 35 4 Pbzznaqzragf: 71-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fgebxr (PIN) / Genafvrag Vfpurzvp Nggnpx (GVN) Ceboyrz Fgngrzrag: FGEBXR / 1. Fur vf pbzcyrgryl nyreg (erf");
+        "VASB:Puneyvr Qvfcngpu Yriry: 28P11 Fhssvk: T Terngre guna ___ ubhef fvapr gur flzcgbzf fgnegrq PNQ Vapvqrag Pbqr: 28P11T Qrgrezvanag: Oernguvat abeznyyl = 35 4 Pbzznaqzragf: 71-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fgebxr (PIN) / Genafvrag Vfpurzvp Nggnpx (GVN) Ceboyrz Fgngrzrag: FGEBXR / 1. Fur vf pbzcyrgryl nyreg (erf");
 
     qbGrfg("G28",
         "PragenyQvfcngpu:13-101959 5080 TEVFJBYQ EQ Zrqvpny Yvar16= Yvar17= Yvar18=10/23/2013 18:54:47 : cbf4 : GLbhgfbf Pnyyf 13-101957,13-101959 ner eryngrq. 10/23/2013 18:54:20 : cbf3 : yfanl RZQ Xrl Dhrfgvbaf Svavfurq Qrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 53-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Purfg Cnva (Aba-Genhzngvp) Ceboyrz Fgngrzrag: PURFG CNVA Xrl Dhrfgvbaf: 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf abg oernguvat abeznyyl. 3. Ur",
@@ -315,7 +324,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/23/2013",
         "GVZR:18:54:47",
-        "VASB:Pnyyf 13-101957,13-101959 ner eryngrq.\aRZQ Xrl Dhrfgvbaf Svavfurq Qrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 53-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Purfg Cnva (Aba-Genhzngvp) Ceboyrz Fgngrzrag: PURFG CNVA / 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf abg oernguvat abeznyyl. 3. Ur");
+        "VASB:Pnyyf 13-101957,13-101959 ner eryngrq.\aQrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 53-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Purfg Cnva (Aba-Genhzngvp) Ceboyrz Fgngrzrag: PURFG CNVA / 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf abg oernguvat abeznyyl. 3. Ur");
 
     qbGrfg("G29",
         "PragenyQvfcngpu:13-101957 5080 TEVFJBYQ EQ Zrqvpny Yvar16= Yvar17= Yvar18=10/23/2013 18:54:47 : cbf4 : GLbhgfbf Pnyyf 13-101957,13-101959 ner eryngrq. 10/23/2013 18:54:20 : cbf3 : yfanl RZQ Xrl Dhrfgvbaf Svavfurq Qrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 53-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Purfg Cnva (Aba-Genhzngvp) Ceboyrz Fgngrzrag: PURFG CNVA Xrl Dhrfgvbaf: 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf abg oernguvat abeznyyl. 3. Ur",
@@ -324,7 +333,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/23/2013",
         "GVZR:18:54:47",
-        "VASB:Pnyyf 13-101957,13-101959 ner eryngrq.\aRZQ Xrl Dhrfgvbaf Svavfurq Qrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 53-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Purfg Cnva (Aba-Genhzngvp) Ceboyrz Fgngrzrag: PURFG CNVA / 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf abg oernguvat abeznyyl. 3. Ur");
+        "VASB:Pnyyf 13-101957,13-101959 ner eryngrq.\aQrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 53-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Purfg Cnva (Aba-Genhzngvp) Ceboyrz Fgngrzrag: PURFG CNVA / 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf abg oernguvat abeznyyl. 3. Ur");
 
     qbGrfg("G30",
         "PragenyQvfcngpu:13-101950 4662 CHGGLTHG EQ Zrqvpny Yvar16= Yvar17= Yvar18=10/23/2013 18:01:19 : cbf5 : ufuryqba RZQ Erpbzzraqrq Qvfcngpu Erfcbafr Grkg: Oenib Qvfcngpu Yriry: 30O01 PNQ Vapvqrag Pbqr: 30O01 Qrgrezvanag: CBFFVOYL QNATREBHF obql nern 4 Pbzznaqzragf: 29-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Genhzngvp Vawhevrf (Fcrpvsvp) Xrl Dhrfgvbaf: 1. Guvf unccrarq abj (yrff guna 6uef ntb). 2. Gurer vf ab oyrrqvat abj. 3. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 4. Gur v",
@@ -333,7 +342,7 @@ choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "QNGR:10/23/2013",
         "GVZR:18:01:19",
-        "VASB:RZQ Erpbzzraqrq Qvfcngpu / Oenib Qvfcngpu Yriry: 30O01 PNQ Vapvqrag Pbqr: 30O01 Qrgrezvanag: CBFFVOYL QNATREBHF obql nern 4 Pbzznaqzragf: 29-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Genhzngvp Vawhevrf (Fcrpvsvp) / 1. Guvf unccrarq abj (yrff guna 6uef ntb). 2. Gurer vf ab oyrrqvat abj. 3. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 4. Gur v");
+        "VASB:Oenib Qvfcngpu Yriry: 30O01 PNQ Vapvqrag Pbqr: 30O01 Qrgrezvanag: CBFFVOYL QNATREBHF obql nern 4 Pbzznaqzragf: 29-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Genhzngvp Vawhevrf (Fcrpvsvp) / 1. Guvf unccrarq abj (yrff guna 6uef ntb). 2. Gurer vf ab oyrrqvat abj. 3. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 4. Gur v");
 
   }
   

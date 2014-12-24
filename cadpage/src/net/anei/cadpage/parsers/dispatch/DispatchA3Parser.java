@@ -187,6 +187,7 @@ public class DispatchA3Parser extends FieldProgramParser {
     if (name.equals("INFO1")) return new BaseInfo1Field();
     if (name.equals("INFO")) return new BaseInfoField();
     if (name.equals("NAME")) return new BaseNameField();
+    if (name.equals("PHONE")) return new BasePhoneField();
     if (name.equals("UNIT")) return new BaseUnitField();
     return super.getField(name);
   }
@@ -284,7 +285,7 @@ public class DispatchA3Parser extends FieldProgramParser {
   private static final Pattern LINE_PTN = Pattern.compile("Line\\d+=");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\[?\\b(\\d?\\d/\\d?\\d/\\d{4}) (\\d?\\d:\\d?\\d:\\d?\\d(?: [AP]M)?) : \\w+ : \\w+\\b\\]?");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
-  private static final Pattern EXTRA_DELIM = Pattern.compile("\\*\\* EMD (?:Case Entry Finished|Case Complete|Recommended Dispatch) \\*\\*|\\bResponse Text:|\\bKey Questions:|Narrative ?:|\\bALI\\b|\\b(?=Cross Streets:|Landmark:|Geo Comment:|Landmark Comment:|NBH:|[XY] Coordinate:|Uncertainty Factor:|Confidence Factor:|\\**Nearest Address:)|Place Comment:|  +|\n| \\.\\. |\bALI\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern EXTRA_DELIM = Pattern.compile("(?:(?:\\*\\* )?EMD (?:Case Entry Finished|Case Complete|Recommended Dispatch|Key Questions Finished)(?: \\*\\*)?)|\\bResponse Text:|\\bKey Questions:|Narrative ?:|\\bALI\\b|\\b(?=Cross Streets:|Landmark:|Geo Comment:|Landmark Comment:|NBH:|[XY] Coordinate:|Uncertainty Factor:|Confidence Factor:|\\**Nearest Address:)|Place Comment:|  +|\n| \\.\\. |\bALI\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern SKIP_PTN = Pattern.compile("UPDATED? +\\d\\d?(?:[-/]\\d\\d?){1,2}\\b.*|Uncertainty Factor:.*|Confidence Factor:.*");
   protected class BaseInfoField extends InfoField {
     @Override
@@ -301,19 +302,21 @@ public class DispatchA3Parser extends FieldProgramParser {
       if (match.find()) field = field.substring(match.end()).trim();
       
       match = DATE_TIME_PTN.matcher(field);
-      if (!match.find()) {
+      if (match.find()) {
+        if (data.strTime.length() == 0) {
+          data.strDate = match.group(1);
+          String time = match.group(2);
+          if (time.endsWith("M")) {
+            setTime(TIME_FMT, time, data);
+          } else {
+            data.strTime = time;
+          }
+        }
+      }
+      else if (!EXTRA_DELIM.matcher(field).find()) {
+        if (SKIP_PTN.matcher(field).matches()) return;
         super.parse(field, data);
         return;
-      }
-      
-      if (data.strTime.length() == 0) {
-        data.strDate = match.group(1);
-        String time = match.group(2);
-        if (time.endsWith("M")) {
-          setTime(TIME_FMT, time, data);
-        } else {
-          data.strTime = time;
-        }
       }
      
       for (String fld1 : DATE_TIME_PTN.split(field)) {
@@ -416,7 +419,17 @@ public class DispatchA3Parser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern UNIT_PTN = Pattern.compile("(?:[A-Z0-9]{1,4}[0-9]|RRS|CSRS)(?:[,/](?:[A-Z]{0,3}[0-9]+[A-Z]{0,3}|[A-Z]{1,4}))*");
+  private static final Pattern BAD_PHONE_PTN = Pattern.compile("(?:\\d{3})?-   -");
+  private class BasePhoneField extends PhoneField {
+    @Override
+    public void parse(String field, Data data) {
+      if (BAD_PHONE_PTN.matcher(field).matches()) return;
+      super.parse(field, data);
+      
+    }
+  }
+  
+  private static final Pattern UNIT_PTN = Pattern.compile("(?:[A-Z0-9]{1,4}[0-9]|\\d{3}|RRS|CSRS)\\b(?:[,/][,/A-Z0-9]+)?");
   private class BaseUnitField extends UnitField {
     @Override
     public boolean canFail(){

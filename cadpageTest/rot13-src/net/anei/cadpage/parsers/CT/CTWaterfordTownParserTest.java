@@ -218,7 +218,6 @@ choyvp pynff PGJngresbeqGbjaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:WRSSREFBA NIRAHR & TVYRNQ EBNQ",
         "PNYY:SVER NYNEZ NPGVINGVBA",
         "CYNPR:GJVA UNIRAF RYQREYL UBHFVAT",
-        "CUBAR:860-   -",
         "HAVG:PB1,PB4,PB5,J11,J51,J55",
         "QNGR:02/22/2013",
         "GVZR:09:34:00",

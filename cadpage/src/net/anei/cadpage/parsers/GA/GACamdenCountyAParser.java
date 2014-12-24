@@ -12,12 +12,18 @@ import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 public class GACamdenCountyAParser extends DispatchA3Parser {
   
   public GACamdenCountyAParser() {
-    super(1, "", "CAMDEN COUNTY", "GA");
+    super(0, "", "CAMDEN COUNTY", "GA");
   }
   
   @Override
   public String getFilter() {
     return "messaging@iamresponding.com,911paging@co.camden.ga.us ";
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CITY")) return new MyCityField();
+    return super.getField(name);
   }
   
   private static final Pattern UNIT_PTN = Pattern.compile("^[^ ]*,[^ ]* ");
@@ -28,11 +34,5 @@ public class GACamdenCountyAParser extends DispatchA3Parser {
       if (match.find()) field = field.substring(match.end()).trim();
       super.parse(field, data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CITY")) return new MyCityField();
-    return super.getField(name);
   }
 }
