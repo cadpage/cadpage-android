@@ -342,6 +342,7 @@ class Active911Vendor extends Vendor {
       "US/MI/LenaweeCounty",              "MILenaweeCountyB",
       "US/MI/LuceCounty",                 "MILuceCounty",
       "US/MI/MarquetteCounty",            "MIMarquetteCounty",
+      "US/MI/MeceolaDispatch",            "MIMecostaCounty",
       "US/MI/MidlandCounty",              "MIMidlandCounty",
       "US/MI/ShiawasseeCounty",           "MIShiawasseeCounty",
       "US/MN/AnokaCounty",                "MNAnokaCounty",
