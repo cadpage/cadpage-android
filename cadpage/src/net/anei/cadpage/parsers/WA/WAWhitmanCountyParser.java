@@ -1,5 +1,9 @@
 package net.anei.cadpage.parsers.WA;
 
+import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA11Parser;
 
@@ -8,30 +12,36 @@ import net.anei.cadpage.parsers.dispatch.DispatchA11Parser;
  */
 public class WAWhitmanCountyParser extends DispatchA11Parser {
   
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("([A-Z]+)\n([A-Z0-9]+)\n(\\d{2}-\\d{6})\n(.*\nCMPLT- \\d\\d\\.\\d\\d\\.\\d\\d)",Pattern.DOTALL);
+  
   public WAWhitmanCountyParser() {
-    super("WHITMAN COUNTY", "WA");
+    super(CITY_CODES, "WHITMAN COUNTY", "WA");
   }
   
   @Override
   public String getFilter() {
-    return "markj@wsu.edu";
+    return "hiplink@whitcom.org";
   }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+
+    if (!subject.equals("test")) return false;
     
-    if (subject.startsWith("Call Complete Notification") || body.startsWith("Incident #: ")) {
+    Matcher match = RUN_REPORT_PTN.matcher(body);
+    if (match.matches()) {
       data.strCall = "RUN REPORT";
-      data.strPlace = body;
+      data.strSource = match.group(1);
+      data.strUnit = match.group(2);
+      data.strCallId = match.group(3);
+      data.strPlace = match.group(4).trim();
       return true;
     }
-    
-    if (subject.equals("test") || isPositiveId()) {
-      String[] fields = body.split("\n");
-      if (fields.length < 6) fields = body.split("  +"); 
-      return super.parseFields(fields, 6, data);
-    }
-    else return false;
+    return super.parseMsg(body, data);
   }
   
- }
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+     "CLA", "CLARKSTON",
+     "PUL", "PULMAN"
+  });
+}

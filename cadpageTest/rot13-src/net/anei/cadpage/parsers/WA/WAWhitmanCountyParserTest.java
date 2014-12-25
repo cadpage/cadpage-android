@@ -6,11 +6,11 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Juvgzna Pbhagl, JN
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Nfbgva Pbhagl Sver Qvfgevpg #1
 Ybpngvba: Pynexfgba, JN, Havgrq Fgngrf
 Fraqre: uvcyvax@juvgpbz.bet
-Fraqre: "Wnabjfxv, Znex" <znexw@jfh.rqh>
 
 (grfg) NPSQ\aSnyy\aCNTRQ\a1637 Friragu Nir,PYNEXFGBA\aNPZRQ\aPZ73
 (grfg) NPSQ\aFvpxarff\aCNTRQ\a3110 Evirefvqr Qe,PYNEXFGBA\aNPZRQ\aPZ73\aqrygn--89 lbs ab purfg cnva, irel gverq n & o, abg nyreg\a\a\asrznyr sryy guvf zbeavat bhg bs orq naq unf orra irel gverq rire fvapr, abg\ajnagvat gb rng\a\a\aSev Abi 28 19 28 04 CFG 2014 PG WXB
@@ -65,6 +65,7 @@ Fraqre: "Wnabjfxv, Znex" <znexw@jfh.rqh>
 (grfg) NPSQ\aVyyrtny Oheavat\aCNTRQ\aAvargrragu Fg & Fbyne Uvyyf Qe; nern,PYN\aNPSQ\aNPSQ\aOENIB sver naq fzbxr frra, cbffvoyr yrnirf\a\a\a\a\aFha Abi 16 14 24 52 CFG 2014 pg wza\a\a***Hfr RSQ pneq 67- Bhgfvqr Sver***\a\a>Jung vf oheavat? Ubj ynetr bs na nern?\a>Vf vg guer
 (grfg) NPSQ\aP604\a14-069141\aRAEG - 10.20.30 11/15/14\aNEEIQ- 10.23.44\aV    - 10.29.16\aPZCYG- 11.32.32
 (grfg) NPSQ\aSver Fgehpgher\a1401 Uvtuynaq Nir,PYN\aNPSQ\aPR61\aQrygn -- Oryvrirf n ohvyqyvat vf ba sver - Fzbxr pbzvat bhg bs gur fvqr naq gbc\abs gur ebbs  -- Hax vs nalbar vf vafvqr\a\a\a\aFng Abi 15 10 13 23 CFG 2014 UC PG\a\aTB GB RSQ PNEQ 69\a\aWhfg Fzbxr fb
+
 */
 
 choyvp pynff JNJuvgznaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -72,9 +73,9 @@ choyvp pynff JNJuvgznaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp JNJuvgznaPbhaglCnefreGrfg() {
     frgCnefre(arj JNJuvgznaPbhaglCnefre(), "JUVGZNA PBHAGL", "JN");
   }
-  
+
   @Grfg
-  choyvp ibvq grfgCnefre() {
+  choyvp ibvq grfgNfbgvaPbhaglSverQvfgevpg1() {
 
     qbGrfg("G1",
         "(grfg) NPSQ\aSnyy\aCNTRQ\a1637 Friragu Nir,PYNEXFGBA\aNPZRQ\aPZ73",
@@ -860,7 +861,7 @@ choyvp pynff JNJuvgznaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:NPSQ",
         "PNYY:Sver Fgehpgher",
         "NQQE:1040 Orawnzva Fg",
-        "PVGL:PYN",
+        "PVGL:PYNEXFGBA",
         "HAVG:NPSQ PR61",
         "VASB:ubhfr ba sver naq ur'f genccrq. (uneq gb haqrefgnaq)");
 
@@ -869,15 +870,16 @@ choyvp pynff JNJuvgznaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:NPSQ",
         "PNYY:Zrqvpny",
         "NQQE:1024 Jrofgre Fg",
-        "PVGL:PYN",
+        "PVGL:PYNEXFGBA",
         "HAVG:NPZRQ PZ73");
 
-// ************************ CNEFR SNVYHER *****************************
-// (grfg) NPSQ\a
-// NPSQ\a
-// 14-069831\a
-// CNTRQ- 19.17.43 11/18/14\a
-// PZCYG- 19.31.10
+    qbGrfg("G46",
+        "(grfg) NPSQ\aNPSQ\a14-069831\aCNTRQ- 19.17.43 11/18/14\aPZCYG- 19.31.10",
+        "PNYY:EHA ERCBEG",
+        "FEP:NPSQ",
+        "VQ:14-069831",
+        "HAVG:NPSQ",
+        "CYNPR:CNTRQ- 19.17.43 11/18/14\aPZCYG- 19.31.10");
 
     qbGrfg("G47",
         "(grfg) NPSQ\a" +
@@ -891,25 +893,25 @@ choyvp pynff JNJuvgznaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:NPSQ",
         "PNYY:Sver Fgehpgher",
         "NQQE:1227 Fpujrvgre Ya",
-        "PVGL:PYN",
+        "PVGL:PYNEXFGBA",
         "HAVG:NPSQ NPSQ",
         "VASB:Qrygn. Puvzarl sver. / PNYYONPX=(208)305-9690 YNG=046.388805 YBA=-117.057953 HAP=21");
 
-// ************************ CNEFR SNVYHER *****************************
-// (grfg) NPSQ\a
-// NPSQ\a
-// 14-069779\a
-// RAEG - 13.52.22 11/18/14\a
-// ERCNT- 13.54.10\a
-// PZCYG- 15.39.33
+    qbGrfg("G48",
+        "(grfg) NPSQ\aNPSQ\a14-069779\aRAEG - 13.52.22 11/18/14\aERCNT- 13.54.10\aPZCYG- 15.39.33",
+        "PNYY:EHA ERCBEG",
+        "FEP:NPSQ",
+        "VQ:14-069779",
+        "HAVG:NPSQ",
+        "CYNPR:RAEG - 13.52.22 11/18/14\aERCNT- 13.54.10\aPZCYG- 15.39.33");
 
-// ************************ CNEFR SNVYHER *****************************
-// (grfg) NPSQ\a
-// NPSQ\a
-// 14-069778\a
-// NFFTA- 13.39.51 11/18/14\a
-// RAEG - 13.42.31\a
-// PZCYG- 13.49.31
+    qbGrfg("G49",
+        "(grfg) NPSQ\aNPSQ\a14-069778\aNFFTA- 13.39.51 11/18/14\aRAEG - 13.42.31\aPZCYG- 13.49.31",
+        "PNYY:EHA ERCBEG",
+        "FEP:NPSQ",
+        "VQ:14-069778",
+        "HAVG:NPSQ",
+        "CYNPR:NFFTA- 13.39.51 11/18/14\aRAEG - 13.42.31\aPZCYG- 13.49.31");
 
     qbGrfg("G50",
         "(grfg) NPSQ\aGrfg Pnyy Sver\a2325 AR Ubcxvaf Pg; grfg pnyy,CHY\aCSQ2\aPR61\agrfg pnyy",
@@ -917,7 +919,7 @@ choyvp pynff JNJuvgznaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Grfg Pnyy Sver",
         "NQQE:2325 AR Ubcxvaf Pg",
         "CYNPR:grfg pnyy",
-        "PVGL:CHY",
+        "PVGL:CHYZNA",
         "HAVG:CSQ2 PR61",
         "VASB:grfg pnyy");
 
@@ -938,18 +940,17 @@ choyvp pynff JNJuvgznaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Vyyrtny Oheavat",
         "NQQE:Avargrragu Fg & Fbyne Uvyyf Qe",
         "CYNPR:nern",
-        "PVGL:PYN",
+        "PVGL:PYNEXFGBA",
         "HAVG:NPSQ NPSQ",
         "VASB:OENIB sver naq fzbxr frra, cbffvoyr yrnirf / Fha Abi 16 14 24 52 CFG 2014 pg wza / ***Hfr RSQ pneq 67- Bhgfvqr Sver*** / >Jung vf oheavat? Ubj ynetr bs na nern? / >Vf vg guer");
 
-// ************************ CNEFR SNVYHER *****************************
-// (grfg) NPSQ\a
-// P604\a
-// 14-069141\a
-// RAEG - 10.20.30 11/15/14\a
-// NEEIQ- 10.23.44\a
-// V    - 10.29.16\a
-// PZCYG- 11.32.32
+    qbGrfg("G52",
+        "(grfg) NPSQ\aP604\a14-069141\aRAEG - 10.20.30 11/15/14\aNEEIQ- 10.23.44\aV    - 10.29.16\aPZCYG- 11.32.32",
+        "PNYY:EHA ERCBEG",
+        "FEP:NPSQ",
+        "VQ:14-069141",
+        "HAVG:P604",
+        "CYNPR:RAEG - 10.20.30 11/15/14\aNEEIQ- 10.23.44\aV    - 10.29.16\aPZCYG- 11.32.32");
 
     qbGrfg("G53",
         "(grfg) NPSQ\a" +
@@ -966,12 +967,12 @@ choyvp pynff JNJuvgznaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:NPSQ",
         "PNYY:Sver Fgehpgher",
         "NQQE:1401 Uvtuynaq Nir",
-        "PVGL:PYN",
+        "PVGL:PYNEXFGBA",
         "HAVG:NPSQ PR61",
         "VASB:Qrygn -- Oryvrirf n ohvyqyvat vf ba sver - Fzbxr pbzvat bhg bs gur fvqr naq gbc / bs gur ebbs  -- Hax vs nalbar vf vafvqr / Fng Abi 15 10 13 23 CFG 2014 UC PG / TB GB RSQ PNEQ 69 / Whfg Fzbxr fb");
 
   }
-  
+
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj JNJuvgznaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }

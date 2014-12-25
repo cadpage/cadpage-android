@@ -688,6 +688,7 @@ class Active911Vendor extends Vendor {
       "US/WA/ValleyCom",                  "WAKingCountyC",
       "US/WA/WallaWallaCounty",           "WAWallaWallaCounty",
       "US/WA/WestPierceCounty",           "WAPierceCountyD",
+      "US/WA/WhitmanCounty",              "WAWhitmanCounty",
       "US/WI/DoorCounty",                 "WIDoorCounty",
       "US/WI/MukwonagoFire",              "WIWaukeshaCountyB",
       "US/WI/WaukeshaCounty",             "WIWaukeshaCountyA",
