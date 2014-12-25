@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE = 
-      Cnggrea.pbzcvyr("(.*)\\o(\\q\\q?/\\q\\q?(?:/\\q{4})?) (\\q\\q:\\q\\q)");
+      Cnggrea.pbzcvyr("5.*/");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("6/24/2011 08:23");
+    qbGrfg("05﻿/31");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
