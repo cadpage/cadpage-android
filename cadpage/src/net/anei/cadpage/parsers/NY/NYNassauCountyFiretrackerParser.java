@@ -39,6 +39,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
     }
     
     if (body.startsWith("*FSMFD* ") || body.startsWith("FSMFD ")) {
+      setFieldList("DATE TIME CALL ADDR APT X INFO");
       data.strSource = "FSMFD";
       Parser p = new Parser(body);
       p.get(' ');
@@ -92,6 +93,15 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
       data.strCross = "";
     }
     return true;
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("HYD")) return new HydField();
+    if (name.equals("TIME")) return new MyTimeField();
+    return super.getField(name);
   }
   
   private static final Pattern APT_PTN = Pattern.compile("\\bAPT ([^ ]+)\\b");
@@ -172,15 +182,11 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
       data.strTime = p.get(' ');
       if (data.strDate.length() == 0) data.strDate = p.get();
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("HYD")) return new HydField();
-    if (name.equals("TIME")) return new MyTimeField();
-    return super.getField(name);
+    
+    @Override
+    public String getFieldNames() {
+      return "TIME DATE";
+    }
   }
   
   @Override
