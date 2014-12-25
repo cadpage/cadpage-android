@@ -35,6 +35,8 @@ public class ManageNotification {
   
   private static boolean phoneMuted = false;
   
+  private static boolean activeNotice = false;
+  
   static {
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
       try {
@@ -89,6 +91,7 @@ public class ManageNotification {
     NotificationManager myNM = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
 
     // Seems this is needed for the number value to take effect on the Notification
+    activeNotice = true;
     myNM.cancel(NOTIFICATION_ALERT);
     myNM.notify(NOTIFICATION_ALERT, n);
 
@@ -394,6 +397,8 @@ public class ManageNotification {
 
   // Clear a single notification
   public static void clear(Context context) {
+    
+    activeNotice = false;
 
     // Clear any pending reminders
     ReminderReceiver.cancelReminder(context);
@@ -403,6 +408,13 @@ public class ManageNotification {
     myNM.cancel(NOTIFICATION_ALERT);
     
     stopMediaPlayer(context);
+  }
+  
+  /**
+   * @return true if Cadpage alert notification is active
+   */
+  public static boolean isActiveNotice() {
+    return activeNotice;
   }
 
   /**

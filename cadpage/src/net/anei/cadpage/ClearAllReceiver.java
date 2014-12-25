@@ -82,8 +82,19 @@ public class ClearAllReceiver extends BroadcastReceiver {
    * Gets the PendingIntent for a Broadcast to this class
    */
   private static PendingIntent getPendingIntent(Context context, ClearType type) {
+    Intent intent = getClearIntent(context, type);
+    return PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
+  }
+
+  /**
+   * Get intent to be broadcast to clear something
+   * @param context current context
+   * @param type clear type
+   * @return return broadcast intent
+   */
+  public static Intent getClearIntent(Context context, ClearType type) {
     Intent intent = new Intent(context, ClearAllReceiver.class);
     intent.setAction("net.anei.cadpage.ClearAllReceiver." + type);
-    return PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
+    return intent;
   }
 }

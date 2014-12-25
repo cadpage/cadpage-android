@@ -419,7 +419,7 @@ public class SmsPopupActivity extends Safe40Activity {
   public void onBackPressed() {
   
     // Suppress back activity if response button menu is visible
-    if (optManager.isResponseMenuVisible()) return;
+    if (ManageNotification.isActiveNotice()) return;
     
     // Otherwise carry on with back function
     super.onBackPressed();
