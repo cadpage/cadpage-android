@@ -15,6 +15,11 @@ public class NYNassauCountyAParser extends FieldProgramParser {
            "ADDR/SP! CS:X! ADTNL:INFO GRID:MAP TOA:TIMEDATE");
     setAllowDirectionHwyNames();
   }
+  
+  @Override
+  public String getFilter() {
+    return "@rednmxcad.com";
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
