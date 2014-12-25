@@ -41,7 +41,9 @@ public class WAWhitmanCountyParser extends DispatchA11Parser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+     "ANA", "ANATONE",
      "CLA", "CLARKSTON",
+     "LEW", "LEWISTON",
      "PUL", "PULMAN"
   });
 }
