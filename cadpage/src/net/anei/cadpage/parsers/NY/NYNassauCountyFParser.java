@@ -31,6 +31,26 @@ public class NYNassauCountyFParser extends FieldProgramParser {
     return parseFields(body.split("\n"), 6, data);
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.startsWith("CALL")) {
+      String ptn;
+      switch (name.charAt(4)) {
+      case '1':
+        ptn = "[A-Z\\.]+";
+        break;
+      case '2':
+        ptn = "[A-Z]{0,4}";
+        break;
+      default:
+        ptn = "[-/ \\.A-Z0-9]*";
+      }
+      return new MyCallField(ptn);
+    }
+    if (name.equals("TIME")) return new TimeField(TIME_FMT);
+    return super.getField(name);
+  }
+  
   private class MyCallField extends CallField {
     
     public MyCallField(String pattern) {
@@ -48,26 +68,6 @@ public class NYNassauCountyFParser extends FieldProgramParser {
       }
       data.strCall = append(data.strCall, " - ", field);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.startsWith("CALL")) {
-      String ptn;
-      switch (name.charAt(4)) {
-      case '1':
-        ptn = "[A-Z]+";
-        break;
-      case '2':
-        ptn = "[A-Z]{0,4}";
-        break;
-      default:
-        ptn = "[-/ A-Z0-9]*";
-      }
-      return new MyCallField(ptn);
-    }
-    if (name.equals("TIME")) return new TimeField(TIME_FMT);
-    return super.getField(name);
   }
 }
 
