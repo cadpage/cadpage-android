@@ -3236,9 +3236,6 @@ choyvp pynff JIEbnarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Ybbarlivyyr",
         "FG:JI");
 
-// ************************ CNEFR SNVYHER *****************************
-// (UVTU JNGRE) JR UNIR UNQ N ERCBEG ARNE 1553 CVAR TEBIR EQ.. JNGRE VA GUR EBNQJNL
-
     qbGrfg("G35",
         "(EP911 - FBO - 2014090169 - 5330 Gubebsner Eq, Pyraqrava, JI) Gurer unf orra n(a) Oernguvat Ceboyrzf ercbegrq ng 5330 Gubebsner Eq, Pyraqrava, JI FGN 700 NAQ FGN 800 1FG ERFCBAQREF 85 LE SRZNYR F.B.O.",
         "PBQR:EP911 - FBO",
@@ -3873,9 +3870,6 @@ choyvp pynff JIEbnarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:129 Wbarf Eqt",
         "PVGL:Tnaqrrivyyr",
         "FG:JI");
-
-// ************************ CNEFR SNVYHER *****************************
-// (YM PYNFF) GURER JVYY OR N YNAQVAT MBAR PYNFF NG FGNGVBA 400 GBZBEEBJ 3/29/14 NG 0900.  NAL PBHAGL SVER QRCNEGZRAG ZRZOREF NER VAIVGRQ GB NGGRAQ.
 
     qbGrfg("G21",
         "(EP911 - ZIN - 2014031221 - 3206 Puneyrfgba Eq, Tnaqrrivyyr, JI) Gurer unf orra n(a) Iruvpyr Nppvqrag ercbegrq ng 3206 Puneyrfgba Eq, Tnaqrrivyyr, JI",

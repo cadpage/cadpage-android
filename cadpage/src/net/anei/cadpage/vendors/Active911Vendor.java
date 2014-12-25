@@ -696,6 +696,7 @@ class Active911Vendor extends Vendor {
       "US/WV/HampshireCounty",            "WVHampshireCounty",
       "US/WV/LincolnCounty",              "WVLincolnCounty",
       "US/WV/RaleighCounty",              "WVRaleighCounty",
+      "US/WV/RoaneCounty",                "WVRoaneCounty",
       "US/WV/Wyoming",                    "WVWyomingCounty",
       "Utility/General/Default",          "N/A",
       "Vendor/Cadpage/Default",           "Cadpage2",
