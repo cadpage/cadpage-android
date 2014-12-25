@@ -356,6 +356,7 @@ class Active911Vendor extends Vendor {
       "US/MN/GoodhueCounty",              "MNGoodhueCounty",
       "US/MN/HennepinCounty",             "MN/HennepinCounty",
       "US/MN/MilleLacsCounty",            "Cadpage2",
+      "US/MN/MartinCounty",               "MNMartinCounty",
       "US/MN/MowerCounty",                "Cadpage2",
       "US/MN/NormanCounty",               "Cadpage2",
       "US/MN/OtterTailCounty",            "MNOtterTailCounty",

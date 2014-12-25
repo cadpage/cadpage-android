@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 public class MNMartinCountyParser extends DispatchA27Parser {
   
   public MNMartinCountyParser() {
-    super("MARTIN COUNTY", "MN", "\\d{8}");
+    super("MARTIN COUNTY", "MN", "[- /A-Z0-9]+");
   }
   
   @Override
