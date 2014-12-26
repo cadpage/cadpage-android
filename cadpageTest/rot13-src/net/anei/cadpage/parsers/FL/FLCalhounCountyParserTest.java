@@ -145,8 +145,8 @@ choyvp pynff SYPnyubhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:",
 
         "PNYY:OVT PNYY VA CEBTERFF",
-        "CYNPR:1005 FJ SYBEN ORYYR YA",
-        "NQQE:1005 FJ SYBEN ORYYR YA 0",
+        "CYNPR:1005 FJ SYBEN ORYYR YA", //guvf vfag evtug. nyfb fghneg vf va znegva pbhagl.
+        "NQQE:1005 FJ SYBEN ORYYR YA 0",// qbrf abg znc
         "PVGL:FGHNEG",
         "VQ:130000000009",
         "CEV:3",
@@ -257,7 +257,7 @@ choyvp pynff SYPnyubhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:",
 
         "PNYY:QVFGHEONAPR, CULFVPNY",
-        "NQQE:21057 AR ZVXR FGRIRAF EQ",
+        "NQQE:21057 AR ZVXR FGRIRAF EQ", //qbrf abg znc
         "VQ:140000028013",
         "CEV:3",
         "QNGR:12/04/2014",
@@ -451,7 +451,7 @@ choyvp pynff SYPnyubhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:VASBEZNGVBA",
         "NQQE:18767 AR UNLRF F & Q EQ",
-        "ZNQQE:18767 AR UNLRF F",
+        "ZNQQE:18767 AR UNLRF F", //arrqf gb or unlrf fhoqvivfvba eq gb znc
         "NCG:6",
         "VQ:140000027992",
         "CEV:8",
@@ -473,7 +473,7 @@ choyvp pynff SYPnyubhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:",
 
         "PNYY:VASBEZNGVBA",
-        "NQQE:20764 AR CNEEVFU YNXR EBNQ",
+        "NQQE:20764 AR CNEEVFU YNXR EBNQ", //univat fbzr gebhoyr jvgu gur ab pvgl guvat
         "VQ:140000027991",
         "CEV:8",
         "QNGR:12/04/2014",
@@ -517,7 +517,7 @@ choyvp pynff SYPnyubhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:FVPX CREFBA",
         "CYNPR:PNYUBHA YVOREGL ZVAVFGEL PRAGRE",
-        "NQQE:FR FE 20",
+        "NQQE:FR FE 20", //fe vf fpravp ebhgr
         "ZNQQE:FR FG 20",
         "VQ:140000027988",
         "CEV:8",
@@ -606,7 +606,7 @@ choyvp pynff SYPnyubhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:",
 
         "PNYY:PVIVY CEBPRFF",
-        "NQQE:18758 G A W ENAPU YNAR",
+        "NQQE:18758 G A W ENAPU YNAR", //qbrf abg znc
         "VQ:140000027983",
         "CEV:5",
         "QNGR:12/04/2014",

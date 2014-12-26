@@ -378,7 +378,7 @@ choyvp pynff VAZnqvfbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:12/12/2014",
         "GVZR:17:34:04",
         "NQQE:1352 R PBEQ 400 A",
-        "ZNQQE:1352 R  400 A",
+        "ZNQQE:1352 R  400 A", //rkgen fcnpr!
         "PVGL:NAQREFBA",
         "ZNC:40-20-ZP4",
         "VQ:2014-00023212 (VA0480000)",
@@ -662,7 +662,7 @@ choyvp pynff VAZnqvfbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FBE - Frk Bssraqre Ert",
         "QNGR:12/12/2014",
         "GVZR:17:06:33",
-        "NQQE:1500 F EG 13 3",
+        "NQQE:1500 F EG 13 3", //qbrf abg znc
         "CEV:Uvtu",
         "HAVG:485",
         "K:J PBEQ 100 F / JNYAHG FG");
