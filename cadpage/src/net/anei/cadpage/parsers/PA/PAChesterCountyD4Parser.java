@@ -7,13 +7,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class PAChesterCountyD4Parser extends PAChesterCountyBaseParser {
   
-  private static final Pattern DELIM = Pattern.compile(" \\*\\*?(?= |$)|\n");
-  private static final Pattern UNIT_PTN = Pattern.compile(" Primary Unit: ([^ ]+) ");
-  private static final Pattern LOC_BTWN_PTN = Pattern.compile("\n *Loc: .* btwn (.*?)(?: \\(V\\) *)?\n");
-  private static final Pattern CITY_PTN = Pattern.compile("  Municipality: ([A-Z]+) ");
+  private static final Pattern DETAILS_TO_FOLLOW = Pattern.compile("\n *DETAILS TO FOLLOW *");
+  private static final Pattern DELIM = Pattern.compile(" \\*\\*?(?= |$)");
   
   public PAChesterCountyD4Parser() {
-    super("DISPATCH TIME CALL UNK? ADDRCITY! ( X PLACE_PHONE CITY BOX! | EMPTY PLACE_PHONE CITY BOX! | PLACE ( NAME PHONE BOX! | NAME PHONE/Z BOX! | ) ) INFO+? DATE CODE ID");
+    super("DISPATCH TIME CALL EMPTY? ADDRCITY! ( X PLACE_PHONE CITY BOX! | PLACE ( NAME PHONE BOX! | NAME PHONE/Z BOX! | BOX | ) ) UNIT? INFO+? DATE CITY UNIT EMPTY");
   }
 
   @Override
@@ -24,24 +22,10 @@ public class PAChesterCountyD4Parser extends PAChesterCountyBaseParser {
     } else if (body.startsWith("Dispatch / ")) {
       body = body.substring(11).trim();
     }
-    String sExtra = null;
-    int pt = body.indexOf("** Inc History");
-    if (pt < 0) pt = body.indexOf('\n');
-    if (pt >= 0) {
-      sExtra = body.substring(pt+1).trim();
-      body = body.substring(0,pt).trim();
-    }
-    if (!parseFields(DELIM.split(body), data)) return false;
-    
-    if (sExtra != null) {
-      Parser p = new Parser(sExtra);
-      data.strUnit = p.getMatcherValue(UNIT_PTN);
-      data.strCross = p.getMatcherValue(LOC_BTWN_PTN);
-      if (data.strCity.length() == 0) {
-        data.strCity = convertCodes(p.getMatcherValue(CITY_PTN), CITY_CODES);
-      }
-    }
-    return true;
+    body = DETAILS_TO_FOLLOW.matcher(body).replaceFirst("");
+    body = body.replace("\n** ", " ** ");
+    body = body.replace("\n", "");
+    return parseFields(DELIM.split(body), data);
   }
   
   @Override
@@ -49,7 +33,25 @@ public class PAChesterCountyD4Parser extends PAChesterCountyBaseParser {
     return super.getProgram() + " UNIT X CITY";
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("DISPATCH")) return new SkipField("Dispatch", true);
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
+    if (name.equals("X")) return new CrossField(".*&.*");
+    if (name.equals("PLACE_PHONE")) return new MyPlacePhoneField();
+    if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("NAME")) return new MyNameField();
+    if (name.equals("PHONE")) return new PhoneField("\\d{3}-\\d{3}-\\d{3,4}");
+    if (name.equals("BOX")) return new BoxField("\\d{4}", true);
+    if (name.equals("UNIT")) return new UnitField("\\d{2}|", true);
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("DATE")) return new DateField("\\d\\d/\\d\\d/\\d\\d", true);
+    if (name.equals("CITY")) return new MyCityField();
+    return super.getField(name);
+  }
+  
   private static final Pattern PLACE_PTN = Pattern.compile("-.*|.*-(?:[A-Z]{2})?");
+  private static final Pattern APT_PTN = Pattern.compile("(?:APT|RM|#) *(.*)");
   private class MyPlaceField extends PlaceField {
     @Override
     public boolean canFail() {
@@ -67,13 +69,20 @@ public class PAChesterCountyD4Parser extends PAChesterCountyBaseParser {
     }
     
     private boolean checkParse(String field, Data data, boolean force) {
-      boolean result = PLACE_PTN.matcher(field).matches();
-      if (result || force) {
-        if (field.startsWith("-")) field = field.substring(1).trim();
-        if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
-        super.parse(field, data);
+      field = stripFieldStart(field, "-");
+      field = stripFieldEnd(field, "-");
+      Matcher match = APT_PTN.matcher(field);
+      if (match.matches()) {
+        data.strApt = append(data.strApt, "-", match.group(1));
+        return true;
       }
-      return result;
+      else {
+        boolean result = PLACE_PTN.matcher(field).matches();
+        if (result || force) {
+          super.parse(field, data);
+        }
+        return result;
+      }
     }
   }
   
@@ -130,17 +139,11 @@ public class PAChesterCountyD4Parser extends PAChesterCountyBaseParser {
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("DISPATCH")) return new SkipField("Dispatch", true);
-    if (name.equals("X")) return new CrossField(".*&.*");
-    if (name.equals("PLACE_PHONE")) return new MyPlacePhoneField();
-    if (name.equals("PLACE")) return new MyPlaceField();
-    if (name.equals("NAME")) return new MyNameField();
-    if (name.equals("PHONE")) return new PhoneField("\\d{3}-\\d{3}-\\d{3,4}");
-    if (name.equals("BOX")) return new BoxField("\\d{4}");
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("DATE")) return new DateField("\\d\\d/\\d\\d/\\d\\d", true);
-    return super.getField(name);
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strCity.length() > 0) return;
+      data.strCity = convertCodes(field, CITY_CODES);
+    }
   }
 } 

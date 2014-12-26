@@ -38,7 +38,6 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
     if (name.equals("ADDRPL")) return new AddressPlaceField();
     if (name.equals("ADDRCITY")) return new BaseAddressCityField();
     if (name.equals("ADDRCITY2")) return new AddressCity2Field();
-    if (name.equals("CITY")) return new CityField();
     if (name.equals("X2")) return new Cross2Field();
     if (name.equals("APT")) return new BaseAptField();
     if (name.equals("PLACE_DASH")) return new BasePlaceDashField();
@@ -82,11 +81,12 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
   }
   
   // ADDRCITY: address, citycode
+  private static final Pattern ADDR_STATION_PTN = Pattern.compile("STATION +\\d+(?: *\\([A-Z]+\\))?");
   protected class BaseAddressCityField extends AddressField {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      if (!field.contains(",")) return false;
+      if (!field.contains(",") && !ADDR_STATION_PTN.matcher(field).matches()) return false;
       parseChesterAddress(field, data);
       return true;
     }
@@ -402,10 +402,10 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
   protected static final Properties CITY_CODES = buildCodeTable(new String[]{
       "AVNDAL", "AVONDALE",
       "BIRMHM", "BIRMINGHAM TWP",
-      "DNGTWN", "DOWNINGTOWN",
       "CALN",   "CALN TWP",
       "CHARLS", "CHARLESTOWN TWP",
       "COATVL", "COATESVILLE",
+      "DNGTWN", "DOWNINGTOWN",
       "EASTW",  "EASTTOWN TWP",
       "EASTWN", "EASTTOWN TWP",
       "EBRAD",  "EAST BRADFORD TWP",
@@ -417,6 +417,8 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "ENANT",  "EAST NANTMEAL TWP",
       "ENOTT",  "EAST NOTTINGHAM TWP",
       "EPIKEL", "EAST PIKELAND TWP",
+      "EVCNTY", "EAST COVENTRY TWP",
+      "EVINCT", "EAST VINCINT TWP",
       "EWHITE", "EAST WHITELAND TWP",
       "FRNKLN", "FRANKLIN TWP",
       "HBTWP",  "HONEY BROOK TWP",
@@ -430,17 +432,19 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "MALVR",  "MALVERN",
       "MALVRN", "MALVERN",
       "NCC",    "NEW CASTLE COUNTY",
+      "NCVNTY", "NORTH COVENTRY TWP",
       "NEWLON", "NEW LONDON TWP",
       "NGARDN", "NEW GARDEN TWP",
       "OXFORD", "OXFORD",
       "PENN",   "PENN TWP",
       "PHNXVL", "PHOENIXVILLE",
-      "POCOPS", "POCOPSON TWP",
       "PNSBRY", "PENNSBURY TWP",
+      "POCOPS", "POCOPSON TWP",
       "PRKSBG", "PARKESBURG",
       "SADS",   "SADSBURY TWP",
       "SCHYKL", "SCHUYLKILL TWP",
       "SCOATV", "SOUTH COATESVILLE",
+      "SCVNTY", "SOUTH COVENTRY TWP",
       "SPRCTY", "SPRING CITY",
       "THORNB", "THORNBURY TWP",
       "TREDY",  "TREDYFFRIN TWP",
@@ -449,7 +453,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "UWCHLN", "UWCHLAN TWP",
       "VALLEY", "VALLEY TWP",
       "WALLAC", "WALLACE TWP",
-      "WVINCT", "WEST VINCENT TWP",
+      "WARWCK", "WARWICK",
       "WBRAD",  "WEST BRADFORD TWP",
       "WBRAND", "WEST BRANDYWINE TWP",
       "WCALN",  "WEST CALN TWP",
@@ -458,12 +462,13 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "WFALLO", "WEST FALLOWFIELD TWP",
       "WGOSHN", "WEST GOSHEN TWP",
       "WGROVE", "WEST GROVE",
-      "WNANT",  "WEST NANTMEAL TWP",
-      "WWHITE", "WEST WHITELAND TWP",
       "WILLIS", "WILLISTOWN TWP",
       "WMARLB", "WEST MARLBOROUGH TWP",
+      "WNANT",  "WEST NANTMEAL TWP",
       "WNOTT",  "WEST NOTTINGHAM TWP",
       "WPIKEL", "WEST PIKELAND TWP",
+      "WVINCT", "WEST VINCENT TWP",
+      "WWHITE", "WEST WHITELAND TWP",
 
       // Mongtomery county
       "MONT",        "MONTGOMERY COUNTY",

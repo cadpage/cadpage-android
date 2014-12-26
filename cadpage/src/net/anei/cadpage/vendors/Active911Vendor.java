@@ -600,6 +600,7 @@ class Active911Vendor extends Vendor {
       "US/SC/NewberryCounty",             "SCNewberryCounty",
       "US/SC/OrangeburgCounty",           "OrangeburgCounty",
       "US/SC/PickensCounty",              "SCPickensCounty",
+      "US/PA/RidgeFireCompany",           "PAChesterCountyD4",
       "US/SC/SpartanburgCounty",          "SCSpartanburgCounty",
       "US/SC/SumterCounty",               "SCSumterCounty",
       "US/SC/YorkCounty",                 "SCYorkCounty",
