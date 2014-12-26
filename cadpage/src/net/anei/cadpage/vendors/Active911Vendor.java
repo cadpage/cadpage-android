@@ -232,6 +232,7 @@ class Active911Vendor extends Vendor {
       "US/DE/NewCastleCounty",            "DENewCastleCounty",
       "US/DE/SussexCounty",               "DESussexCounty",
       "US/FL/BayCounty",                  "FLBayCounty",
+      "US/FL/CalhounCounty",              "FLCalhounCounty",
       "US/FL/CharlotteCountySheriff",     "FLCharlotteCounty",
       "US/FL/CollierCounty",              "FLCollierCounty",
       "US/FL/Hendry",                     "FLHendryCounty",
