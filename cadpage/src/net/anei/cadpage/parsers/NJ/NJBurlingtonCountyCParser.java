@@ -36,6 +36,9 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
+    // Remove extraneous character sequences
+    body = body.replace("=20", "");
+    
     // For some reason, these pages usually alter or eliminate the subject signature
     // that is required for all other A5 parser subclasses.
     String source = null;
