@@ -34,12 +34,20 @@ public class FLCalhounCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       if (field.length() == 0) {
-        field = data.strPlace;
+        field = adjustAddress(data.strPlace);
         data.strPlace = "";
       } else {
         if (field.equals(data.strPlace)) data.strPlace = "";
+        field = adjustAddress(field);
+        if (field.equals(data.strPlace)) data.strPlace = "";
       }
       super.parse(field, data);
+    }
+    
+    private String adjustAddress(String  addr) {
+      addr = stripFieldEnd(addr, " 0");
+      addr = addr.replace("HAYES S/D RD", "HAYES SUBDIVISION RD");
+      return addr;
     }
   }
   

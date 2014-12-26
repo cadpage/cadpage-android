@@ -145,8 +145,7 @@ choyvp pynff SYPnyubhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:",
 
         "PNYY:OVT PNYY VA CEBTERFF",
-        "CYNPR:1005 FJ SYBEN ORYYR YA", //guvf vfag evtug. nyfb fghneg vf va znegva pbhagl.
-        "NQQE:1005 FJ SYBEN ORYYR YA 0",// qbrf abg znc
+        "NQQE:1005 FJ SYBEN ORYYR YA",
         "PVGL:FGHNEG",
         "VQ:130000000009",
         "CEV:3",
@@ -450,8 +449,7 @@ choyvp pynff SYPnyubhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:",
 
         "PNYY:VASBEZNGVBA",
-        "NQQE:18767 AR UNLRF F & Q EQ",
-        "ZNQQE:18767 AR UNLRF F", //arrqf gb or unlrf fhoqvivfvba eq gb znc
+        "NQQE:18767 AR UNLRF FHOQVIVFVBA EQ",
         "NCG:6",
         "VQ:140000027992",
         "CEV:8",
