@@ -12,6 +12,6 @@ public class NCBeaufortCountyParser extends DispatchA19Parser {
   
   @Override
   public String getFilter() {
-    return "fireems@co.beaufort.nc.us,dbaby27810@yahoo.com,";
+    return "fireems@co.beaufort.nc.us";
   }
 }

@@ -10,21 +10,7 @@ Jnygba Pbhagl, TN
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jnygba Pbhagl Sver Erfphr
 Ybpngvba: Zbaebr, TN, Havgrq Fgngrf
-Fraqre: Fherpr Ahaanyyl <afherpr@fcvyyzna.pb.jnygba.tn.hf>
-Fraqre: Zvevnz Unyy <uzvevnz@fcvyyzna.pb.jnygba.tn.hf>
-Fraqre: Wna Wbarf <wwna@fcvyyzna.pb.jnygba.tn.hf>
-Fraqre: Urngure Fznyyzna <furngure@fcvyyzna.pb.jnygba.tn.hf>
-Fraqre: Yvfn Terrajbbq <tyvfn@fcvyyzna.pb.jnygba.tn.hf>
-Fraqre: Gnzzl Gnobar <ggnzzl@fcvyyzna.pb.jnygba.tn.hf>
-Fraqre: Natryn Snee <snatryn@fcvyyzna.pb.jnygba.tn.hf>
-Fraqre: Xriva BPneebyy <bxriva@fcvyyzna.pb.jnygba.tn.hf>
-Fraqre: Pelfgny Bypbgg <bpelfgny@fcvyyzna.pb.jnygba.tn.hf>
-Fraqre: Ryvfn Znffrl <zryvfn@fcvyyzna.pb.jnygba.tn.hf>
-Fraqre: Pngul Cerfgba <cpngul@fcvyyzna.pb.jnygba.tn.hf>
-Fraqre: Wbav Z Qnl <qwbav@fcvyyzna.pb.jnygba.tn.hf>
-Fraqre: Fnoevan Y ZpYrebl <zfnoevan@fcvyyzna.pb.jnygba.tn.hf>
-Fraqre: Nzore Urfgre <unzore@fcvyyzna.pb.jnygba.tn.hf>
-Fraqre: Nfuyrl Crnepr <cnfuyrl@fcvyyzna.pb.jnygba.tn.hf>
+Fraqre: @fcvyyzna.pb.jnygba.tn.hf
 
 VAPVQRAG # 14N002106\a\aYBAT GREZ PNQ#    822185   NPGVIR PNYY# 388\aCEVBEVGL: 1                   ERCBEGRQ: 18:46:48 12/23/14\a\a Angher: SVEFG ERFCBAQRE                             Glcr: s\aNqqerff: 1323 F ZNQVFBA NI                           Mbar: ZSQ1\a   Pvgl: ZBAEBR\a\aErfcbaqvat Havgf: R-1\a\aQverpgvbaf:\a\a\a\aPbagnpg:                                   Cubar: (470)328-2056\a\a-- \aGuvf zrffntr unf orra fpnaarq sbe ivehfrf naq\aqnatrebhf pbagrag ol ZnvyFpnaare, naq vf\aoryvrirq gb or pyrna.
 VAPVQRAG # 14J003854\a\aYBAT GREZ PNQ#    822163   NPGVIR PNYY# 370\aCEVBEVGL: 1                   ERCBEGRQ: 17:42:43 12/23/14\a\a Angher: SVEFG ERFCBAQRE                             Glcr: s\aNqqerff: 5295 UVTUGBJRE GE                           Mbar: JSQ3\a   Pvgl: BKSBEQ\a\aErfcbaqvat Havgf: R-3,QVFG2\a\aQverpgvbaf:\a\a\a\aPbagnpg: NATVYN                            Cubar: (706)567-0593\a\a-- \aGuvf zrffntr unf orra fpnaarq sbe ivehfrf naq\aqnatrebhf pbagrag ol ZnvyFpnaare, naq vf\aoryvrirq gb or pyrna.

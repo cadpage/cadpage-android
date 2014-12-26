@@ -401,6 +401,7 @@ class Active911Vendor extends Vendor {
       "US/MT/RavalliCounty",              "MTRavalliCounty",
       "US/NC/AlamanceCounty",             "NCAlamanceCountyParser",
       "US/NC/AlexanderCounty",            "NCAlexanderCounty",
+      "US/NC/BeaufortCounty",             "NCBeaufortCounty",
       "US/NC/BrunswickCounty",            "NCBrunswickCounty",
       "US/NC/CabarrusCounty",             "NCCabarrusCounty",
       "US/NC/CatawbaCounty",              "NCCatawbaCounty",
