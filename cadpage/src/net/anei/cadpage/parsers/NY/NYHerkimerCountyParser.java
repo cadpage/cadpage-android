@@ -18,7 +18,7 @@ public class NYHerkimerCountyParser extends DispatchB3Parser {
   
   @Override
   public String getFilter() {
-    return "HC911@herkimercounty.org";
+    return "HC911@herkimercounty.org,911Center@mydomain.com";
   }
   
   @Override

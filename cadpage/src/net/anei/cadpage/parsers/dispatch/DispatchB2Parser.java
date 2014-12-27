@@ -13,6 +13,7 @@ message prefixes
 
 This has been identified as Interact GIS system
 And as CAD Interactive
+And as Countryside
 Go Figure
 
 */
