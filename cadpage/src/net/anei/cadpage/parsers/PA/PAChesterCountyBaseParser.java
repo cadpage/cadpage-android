@@ -38,6 +38,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
     if (name.equals("ADDRPL")) return new AddressPlaceField();
     if (name.equals("ADDRCITY")) return new BaseAddressCityField();
     if (name.equals("ADDRCITY2")) return new AddressCity2Field();
+    if (name.equals("CITY")) return new BaseCityField();
     if (name.equals("X2")) return new Cross2Field();
     if (name.equals("APT")) return new BaseAptField();
     if (name.equals("PLACE_DASH")) return new BasePlaceDashField();
@@ -125,7 +126,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
     }
   }
   
-  protected class CityField extends DispatchA7BaseParser.CityField {
+  protected class BaseCityField extends DispatchA7BaseParser.CityField {
     @Override
     public void parse(String field, Data data) {
       // DOn't overwrite previous contents if this field is empty

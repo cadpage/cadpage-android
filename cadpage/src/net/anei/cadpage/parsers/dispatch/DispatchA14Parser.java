@@ -22,14 +22,17 @@ public class DispatchA14Parser extends FieldProgramParser {
   private ReverseCodeSet sourceSet;
   private ReverseCodeSet citySet = null;
   
-  public DispatchA14Parser(String defCity, String defState) {
-    this(null, null, defCity, defState);
+  private boolean unitInfo;
+  
+  public DispatchA14Parser(String defCity, String defState, boolean unitInfo) {
+    this(null, null, defCity, defState, unitInfo);
   }
   
-  public DispatchA14Parser(Properties cityCodes, ReverseCodeSet sourceSet, String defCity, String defState) {
+  public DispatchA14Parser(Properties cityCodes, ReverseCodeSet sourceSet, String defCity, String defState, boolean unitInfo) {
     super(cityCodes, defCity, defState,
           "ADDR1! CS:X? ADTML:CODE? TOA:TIMEDATE TYPE:INFO LOC:ADDR2/S CROSS:X2 CODE:CODE TIME:TIME");
     this.sourceSet = sourceSet;
+    this.unitInfo = unitInfo;
     
     // Build reverse code set with all of the full length city name values
     if (cityCodes != null) {
@@ -154,9 +157,11 @@ public class DispatchA14Parser extends FieldProgramParser {
 
   private static final Pattern TIME_DATE = Pattern.compile("^(\\d\\d:\\d\\d)(?: (\\d\\d[-/]\\d\\d[-/]\\d\\d))?");
   private static final Pattern ANGLE_BKT_PTN = Pattern.compile("<[^<>]*>");
-  private static final Pattern ID_PTN2 = Pattern.compile("20\\d{2}-\\d{6}(?=$|[^\\d])");
+  private static final Pattern ID_PTN2 = Pattern.compile("20\\d{2}-\\d{6}");
   private static final Pattern ID_PTN3 = Pattern.compile("(?<=^|[^\\d])(?:\\d{4}-\\d*|20\\d{0,2})$");
-  private static final Pattern CODE_PTN = Pattern.compile("\\d{1,2}-[A-Z]-\\d{1,2}[A-Z]?");
+  private static final Pattern CODE_PTN = Pattern.compile("(\\d{1,2}-[A-Z]-\\d{1,2}[A-Z]?)\\b *(.*)", Pattern.DOTALL);
+  private static final Pattern UNIT_PTN = Pattern.compile("([-A-Za-z0-9]*)(?<!-)-[- ]*(.*)", Pattern.DOTALL);
+  
   private class MyTimeDateField extends InfoField {
     
     @Override
@@ -184,10 +189,19 @@ public class DispatchA14Parser extends FieldProgramParser {
           field = field.substring(0,field.length()-src.length()).trim();
         }
       }
-      if (CODE_PTN.matcher(field).matches()) {
-        data.strCode = field;
-        field = "";
+      match = CODE_PTN.matcher(field);
+      if (match.matches()) {
+        data.strCode = match.group(1);
+        field = match.group(2);
       }
+      if (unitInfo) {
+        match = UNIT_PTN.matcher(field);
+        if (match.matches()) {
+          data.strUnit = match.group(1).replace('-',',');
+          field = match.group(2);
+        }
+      }
+      extra = stripFieldStart(extra, "-");
       field = append(field, " / ", extra);
       field = field.trim().replaceAll("  +", " ");
       super.parse(field, data);
@@ -195,7 +209,7 @@ public class DispatchA14Parser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "TIME DATE CODE SRC ID INFO";
+      return "TIME DATE CODE SRC UNIT ID INFO";
     }
   }
   

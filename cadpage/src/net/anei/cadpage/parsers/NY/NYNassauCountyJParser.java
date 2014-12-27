@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA14Parser;
 public class NYNassauCountyJParser extends DispatchA14Parser {
   
   public NYNassauCountyJParser() {
-    super("NASSAU COUNTY", "NY");
+    super("NASSAU COUNTY", "NY", true);
   }
   
   @Override

@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class NYNassauCountyDParser extends FieldProgramParser {
   
   private static final Pattern MARKER = Pattern.compile("^([^\\*]*?)\\*\\*\\*([^\\*]+?)\\*[\\* ]\\* ?");
-  private static final Pattern MISSING_DELIM = Pattern.compile("(?<=[^\\*])(?=TOA:|CS:)|(?<= \\d\\d-\\d\\d-\\d\\d)(?! ?\\*)");
+  private static final Pattern MISSING_DELIM = Pattern.compile("(?<=[^\\*])(?=TOA:)|(?<= \\d\\d-\\d\\d-\\d\\d)(?! ?\\*)");
   private static final Pattern DELIM = Pattern.compile("(?<![\\*\n])\\*");
   
   public NYNassauCountyDParser() {
@@ -21,6 +21,16 @@ public class NYNassauCountyDParser extends FieldProgramParser {
   @Override
   public String getFilter() {
     return "eastmeadowfd@eastmeadowfd.net,paging1@firerescuesystems.xohost.com,wantaghpaging@gmail.com";
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("TIMEDATE")) return new MyTimeDateField();
+    if (name.equals("UNITID")) return new MyUnitIdField();
+    return super.getField(name);
   }
   
   @Override
@@ -57,7 +67,23 @@ public class NYNassauCountyDParser extends FieldProgramParser {
     }
   }
   
-  private class MyDateTimeField extends DateTimeField {
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      // the presence of a "CS:" sequence indicates this is really 
+      // a NYNassauCountyJ message
+      if (field.contains("CS:")) abort();
+      super.parse(field, data);
+    }
+  }
+  
+  private class MyTimeDateField extends TimeDateField {
+    
+    public MyTimeDateField() {
+      super("\\d\\d:\\d\\d \\d\\d/\\d\\d/\\d\\d", true);
+    }
+    
     @Override
     public void parse(String field, Data data) {
       field = field.replace('-', '/');
@@ -113,15 +139,6 @@ public class NYNassauCountyDParser extends FieldProgramParser {
     public String getFieldNames() {
       return "INFO UNIT";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("PLACE")) return new MyPlaceField();
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    if (name.equals("UNITID")) return new MyUnitIdField();
-    return super.getField(name);
   }
   
   @Override

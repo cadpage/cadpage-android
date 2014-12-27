@@ -15,7 +15,7 @@ public class NYSuffolkCountyBParser extends DispatchA14Parser {
   private static final Pattern NK_PTN = Pattern.compile("\\bNK\\b");
  
   public NYSuffolkCountyBParser() {
-    super(NYSuffolkCountyAParser.CITY_TABLE, DISTRICT_SET, "SUFFOLK COUNTY", "NY");
+    super(NYSuffolkCountyAParser.CITY_TABLE, DISTRICT_SET, "SUFFOLK COUNTY", "NY", false);
     setupMultiWordStreets(
         "BAY SHORE",
         "BELLE TERRE",
@@ -119,7 +119,7 @@ public class NYSuffolkCountyBParser extends DispatchA14Parser {
   
   private static final PatternReplace[] FIX_INTERSECT_TABLE = new PatternReplace[]{
     new PatternReplace("(.* & )(.+ AV)(\\2E)$",                 "$1$3"),
-    new PatternReplace("(.* & )(.+) BD(\\2 BLVD)$",            "$1$3"),
+    new PatternReplace("(.* & )(.+) BD(\\2 BLVD)$",             "$1$3"),
     new PatternReplace("(.* & )(.+)(\\2)$",                     "$1$3"),
     new PatternReplace("(.* & )(.+)([NSEW] \\2)$",              "$1$3"),
     new PatternReplace("(.* AV)( & .*)(\\1E)",                  "$3$2"),
