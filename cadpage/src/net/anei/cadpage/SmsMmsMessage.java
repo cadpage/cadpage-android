@@ -606,7 +606,7 @@ public class SmsMmsMessage implements Serializable {
       }
     }
     
-    MsgParser parser =  ManageParsers.getInstance().getParser(location);
+    MsgParser parser =  ManageParsers.getInstance().getParser(location, messageBody);
     parser.isPageMsg(parseInfo, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_GEN_ALERT);
     return parseInfo.getInfo();
   }
