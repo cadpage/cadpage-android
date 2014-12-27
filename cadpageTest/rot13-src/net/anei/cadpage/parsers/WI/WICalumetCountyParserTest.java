@@ -22,4 +22,10 @@ choyvp pynff JVPnyhzrgPbhaglCnefreGrfg {
       frgCnefre(arj JVPnyhzrgPbhaglCnefre());
     }
   }
+  
+  choyvp fgngvp pynff GrfgP rkgraqf JVPnyhzrgPbhaglPCnefreGrfg {
+    choyvp GrfgP() {
+      frgCnefre(arj JVPnyhzrgPbhaglCnefre());
+    }
+  }
 }

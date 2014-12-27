@@ -1,8 +1,9 @@
 package net.anei.cadpage.parsers.WI;
 
-public class WIOutagamieCountyParser extends WICalumetCountyAParser {
-  
+import net.anei.cadpage.parsers.GroupBestParser;
+
+public class WIOutagamieCountyParser extends GroupBestParser {
   public WIOutagamieCountyParser() {
-    super("OUTAGAMIE COUNTY");
+    super(new WIOutagamieCountyAParser(), new WIOutagamieCountyBParser());
   }
 }

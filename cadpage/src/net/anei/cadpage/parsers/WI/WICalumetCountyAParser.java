@@ -13,7 +13,7 @@ public class WICalumetCountyAParser extends DispatchPrintrakParser {
   private static final Pattern HOUSE_NBR_PTN = Pattern.compile("^([NWSE])(\\d+)\\b");
   
   public WICalumetCountyAParser() {
-    super(CITY_TABLE, "CALUMET COUNTY", "WI");
+    this("CALUMET COUNTY");
   }
   
   public WICalumetCountyAParser(String county) {
