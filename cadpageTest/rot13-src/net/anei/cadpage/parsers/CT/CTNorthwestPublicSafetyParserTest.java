@@ -31,6 +31,7 @@ Pbagnpg: 2037882141@zzf.ngg.arg
 (Sebz Abegujrfg) 87 FBHGU FG  EBKOHEL PIN/FGEBXR/GVN ErsreraprGrkg: 28-P-1 EBK NZO EB RZFK Cevznel Vapvqrag: 066229 87 FBHGU FG
 (Sebz Abegujrfg) 6 OREAUNEQG ZRNQBJ YA  EBKOHEL SNYYF/SNYY IVPGVZ ErsreraprGrkg: 17-O-1 EBK NZO EB RZFK Cevznel Vapvqrag: 066274 6 OREAUNEQG ZRNQBJ YA
 (Sebz Abegujrfg) 29 EBPXL ZBHAGNVA EQ  EBKOHEL SNYYF/SNYY IVPGVZ ErsreraprGrkg: 17-Q-2T EBK NZO EB RZFK Cevznel Vapvqrag: 066264 29 EBPXL ZBHAGNVA EQ
+(Sebz Abegujrfg) 50 JRYGBA EQ  EBKOHEL SNYYF/SNYY IVPGVZ ErsreraprGrkg: 17-N-3 EBK NZO EB RZFK Cevznel Vapvqrag: 066405 50 JRYGBA EQ
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Frlzbhe Nzohynapr Nffbpvngvba
@@ -355,7 +356,16 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:17-Q-2T",
         "HAVG:EBK NZO EB RZFK",
         "VQ:066264");
-    
+
+    qbGrfg("G4",
+        "(Sebz Abegujrfg) 50 JRYGBA EQ  EBKOHEL SNYYF/SNYY IVPGVZ ErsreraprGrkg: 17-N-3 EBK NZO EB RZFK Cevznel Vapvqrag: 066405 50 JRYGBA EQ",
+        "NQQE:50 JRYGBA EQ",
+        "PVGL:EBKOHEL",
+        "PNYY:SNYYF/SNYY IVPGVZ",
+        "PBQR:17-N-3",
+        "HAVG:EBK NZO EB RZFK",
+        "VQ:066405");
+   
   }
 
   @Grfg
