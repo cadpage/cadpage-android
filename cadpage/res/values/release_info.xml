@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12222014</string>
-  <string name="release_version">v1.7.65</string>
+  <string name="release_date">12272014</string>
+  <string name="release_version">v1.7.66</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 Cadpage Paging Service is now supported!!!\n
 See http://www.cadpage.org/paging-service\n
 \n
-Back key will be disabled when call detail screen is still waiting for user acknowledgement.  
-Hopefully this will stop cases where call detail screen was accidentally cleared and an old
-call accidentally selected while groping for phone.\n
+Back key will be disabled while an active Cadpage alert notification is active.
+This is a change from previous behavior where back key
+was disabled whenver a response menu is visible.\n
 \n
 Location Parsing Fixes:\n
-Oroville, CA\n
-Morgan County, AL\n
-Adams County, CO\n
-Citrus County, FL\n
-Licking County, OH\n
-Sedwick County, KS\n
-Oldham County, KY\n
-Lafayette County, LA\n
-Ossage County, MO\n
-Monmouth County, NJ\n
-Madison COunty, NY\n
-Summit County, OH\n
-York County, SC\n
-Sevier County, TN\n
-Bell County, TX\n
-Preston County, WV\n
-\n
-Automatically decode base64 encoded alert messages\n
+Northwest Publc Safety, CT\n
+State Police, KY\n
+Anoka County, MN\n
+Herkimer County, NY\n
+Nassau County, NY\n
+Suffolk County, NY\n
+Randolph County, NC\n
+Chester County, PA\n
+Brown County, WI\n
+Calumet County, WI\n
+Outagami County, WI\n
+Winnebago County, WI\n
   </string>
 </resources>
   

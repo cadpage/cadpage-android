@@ -9,6 +9,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
+/**
+ * Base parser for centers using Countryside software
+ */
 public class DispatchA48Parser extends SmartAddressParser {
   
   public enum FieldType { NAME, X, X_NAME, DATE_TIME_INFO };
