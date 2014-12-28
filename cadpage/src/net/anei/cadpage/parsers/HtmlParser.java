@@ -958,13 +958,14 @@ private void getJXPathValue(TagNode top, ParseInfo pi) {
    * @param pi ParseInfo for layout entry
    */
   private void addValue(String v, ParseInfo pi) {
-    if (pi.exclude().equals("") || !v.contains(pi.exclude()))
+    if (pi.exclude().equals("") || !v.contains(pi.exclude())) {
       if (pi.validate() != null) {
         Matcher m = pi.validate().matcher(v);
         if (!m.matches())
           return;
       }
       pi.value(append(pi.value(), pi.separator(), cleanValue(v, pi)));
+    }
   }
   
   /*

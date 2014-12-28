@@ -351,7 +351,7 @@ choyvp pynff ZBFgbarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
     frgCnefre(arj ZBFgbarPbhaglPCnefre(), "FGBAR PBHAGL", "ZB");
   }
 
-  // @Grfg
+  @Grfg
   choyvp ibvq grfgPragenyPebffvatSverCebgrpgvbaQvfgevpg() {
 
     qbGrfg("G1",
@@ -540,7 +540,7 @@ choyvp pynff ZBFgbarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
 
-  // @Grfg
+  @Grfg
   choyvp ibvq grfgFbhgureaFgbarPbhaglSverCebgrpgvbaQvfgevpg() {
 
     qbGrfg("G2",
@@ -1853,7 +1853,7 @@ choyvp pynff ZBFgbarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
 
-  // @Grfg
+  @Grfg
   choyvp ibvq grfgZreplRZF() {
 
     qbGrfg("G1",
@@ -3263,7 +3263,7 @@ choyvp pynff ZBFgbarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
 
-  // @Grfg
+  @Grfg
   choyvp ibvq grfgFgbarPbhaglRzretraplFreivprf() {
 
     qbGrfg("G1",
