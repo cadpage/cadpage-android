@@ -3,7 +3,7 @@
 * The back key does not work
 **************************************************************************
 
-Due to a number of complaints about the new back button suppression feature, things will change in the next Cadpage release.  Instead of being suppressed whenever a response button menu is displayed, the new logic will suppress the back button only when a Cadpage alert notification is in progress.  This new logic is currently available in the current beta release which you can install from http://www.cadpage.org/download-cadpage.  I am curious what people think of it.
+That is a new feature that has proven somewhat unpopular.  The next release of Cadpage should be available in a few hours and will change the way it works.  Instead of being suppressed whenever a response button menu is displayed, the new logic will suppress the back button only when a Cadpage alert notification is in progress.
 
 The Cadpage alert notice can be cleared by pressing any Cadpage button at all. There should always be a response button indicates no response so you can close the response menu without doing anything.  If whoever sets up the response buttons did not do that, you can add your own.  Detailed instructions on how to do that follow.
 
