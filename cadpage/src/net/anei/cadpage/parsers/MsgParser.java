@@ -1341,7 +1341,7 @@ public abstract class MsgParser {
   * @param val constant string value
   * @return adjusted field value
   */
- public String stripFieldStart(String field, String val) {
+ public static String stripFieldStart(String field, String val) {
    if (field.startsWith(val)) field = field.substring(val.length()).trim();
    return field;
  }
@@ -1352,7 +1352,7 @@ public abstract class MsgParser {
   * @param val constant string value
   * @return adjusted field value
   */
- public String stripFieldEnd(String field, String val) {
+ public static String stripFieldEnd(String field, String val) {
    if (field.endsWith(val)) field = field.substring(0,field.length()-val.length()).trim();
    return field;
  }

@@ -21,6 +21,11 @@ public class WICalumetCountyAParser extends DispatchPrintrakParser {
   }
   
   @Override
+  public String getAliasCode() {
+    return "WICalumetCountyA";
+  }
+  
+  @Override
   public String getFilter() {
     return "Admin.Foxcomm@co.calumet.wi.us,finstad_rr@co.brown.wi.us";
   }
