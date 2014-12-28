@@ -2167,6 +2167,10 @@ Fraqre: Qvfcngpu@oreevrapbhagl.bet
 (Vapvqrag) Havg:NZO2000 Fgnghf:Qvfcngpurq Ybpngvba:J  HFUL 12 / NIREL EQ, 20 Guerr Bnxf Gjc Pnyy Glcr:CVN Pnyy Gvzr:09/05/2014 10:27:59 Pnyy Ahzore:2638 Dhnqenag:09 TNYVRA SQ Qvfgevpg:09-3Bnxf Nzo Aneengvir: obgu nveontf jrag hc  obgu iruvpyrf ner hcevtug  abegu fvqr
 (Vapvqrag) Havg:NZO2000 Fgnghf:Qvfcngpurq Ybpngvba:2 UVPXBEL F UVPXBEL / ZNCYR, 43 Guerr Bnxf Pnyy Glcr:C2 Pnyy Gvzr:09/02/2014 09:57:23 Pnyy Ahzore:1221 Dhnqenag:43 3BNXF SQ Qvfgevpg:43-3BNXF NZO Aneengvir: BCRE nfuyrl  gurl unir BCRA YVAR NG GUR ERFVQRAPR  hafher v
 
+V qb abg frr nalguvat gb pbzcyvpngrq.  
+Bireevqr nqqerff svryq gb fcyvg bhg gur pvgl anzr, juvpu lbh pna qb jvgu n cnggrea zngpu.
+Chg Dhnqenag: va ZNC svryq
+Chg Qvfgevpg: va FEP svryq
 
 */
 
