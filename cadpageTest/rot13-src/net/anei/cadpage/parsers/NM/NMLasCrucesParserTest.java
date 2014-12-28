@@ -115,7 +115,7 @@ PNYY NQQEPVGL CYNPR VQ VASB+
 
 Pbzcyvpngvba vf jvgu gur pebff fgerrg naq Arne: qngn va cneraf va gur nqqerff
 svryq, jvgu frzvpbybaf jvguva gur cneraf.  Znl unir gb qb lbhe bja svryq fcyvggvat
-naq pbhag arkgrq cneraf fb lbh xabj jura lbh svaq n frzvpbyba bhgbs bs gurz.
+naq pbhag arfgrq cneraf fb lbh xabj jura lbh svaq n frzvpbyba bhgbs bs gurz.
 
 */
 
