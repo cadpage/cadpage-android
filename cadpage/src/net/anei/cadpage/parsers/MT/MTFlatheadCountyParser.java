@@ -19,7 +19,7 @@ public class MTFlatheadCountyParser extends FieldProgramParser {
   
   private static final Pattern MISSED_BLANK_PTN = Pattern.compile("(?<! )(?=Call Type:)");
   
-  private static final String CITY_PTN_LIST = "(BIGFORK|CORAM|COLUMBIA FALLS|EVERGREEN|GPIA|HUNGRY HORSE|KALISPELL|LAKESIDE|MARTIN CITY|NIARADA|OLNEY|POLEBRIDGE|SOMERS|WEST GLACIER|WHITEFISH)";
+  private static final String CITY_PTN_LIST = "(BIGFORK|CORAM|COLUMBIA FALLS|ESSEX|EVERGREEN|GPIA|HUNGRY HORSE|KILA|KALISPELL|LAKESIDE|MARION|MARTIN CITY|NIARADA|OLNEY|POLEBRIDGE|SOMERS|WEST GLACIER|WHITEFISH|LAKE COUNTY)";
   private static final Pattern CITY_SPACE_PTN = Pattern.compile("(.+)" + CITY_PTN_LIST + " +(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern CITY_END_PTN = Pattern.compile(CITY_PTN_LIST + "$", Pattern.CASE_INSENSITIVE);
   
