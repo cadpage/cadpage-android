@@ -241,6 +241,7 @@ class Active911Vendor extends Vendor {
       "US/FL/PalmBeachCounty",            "FLPalmBeachCounty",
       "US/FL/RegionalPsi",                "FLBrowardCounty",
       "US/FL/SeminoleCounty",             "FLSeminoleCounty",
+      "US/GA/BarrowCounty",               "GABarrowCounty",
       "US/GA/EffinghamCounty",            "GAEffinghamCounty",
       "US/GA/HabershamCounty",            "GAHabershamCounty",
       "US/GA/RabunCounty",                "GARabunCounty",

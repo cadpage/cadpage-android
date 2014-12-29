@@ -349,6 +349,9 @@ public abstract class SmartAddressParser extends MsgParser {
   // Permanent address flags
   private boolean allowDirectionHwyNames = false;
   
+  // Special Place detection algorithm
+  private Pattern placeAddressPtn = null;
+  
   public SmartAddressParser(String[] cities, String defCity, String defState) {
     this(cities, defCity, defState, CountryCode.US);
   }
@@ -638,6 +641,17 @@ public abstract class SmartAddressParser extends MsgParser {
   
   protected void setAllowDirectionHwyNames() {
     setAllowDirectionHwyNames(true);
+  }
+  
+  /**
+   * Setup up pattern to be used to detect place names in front of address
+   * information
+   * @param placeAddressPtn Pattern to be used to identify place names leading
+   * the address.  Pattern must match complete line and specify two groups
+   * that will be identified as the place name and everything else.
+   */
+  protected void setupPlaceAddressPtn(Pattern placeAddressPtn) {
+    this.placeAddressPtn = placeAddressPtn;
   }
   
   public void setAllowDirectionHwyNames(boolean allowDirectionHwyNames) {
@@ -933,6 +947,17 @@ public abstract class SmartAddressParser extends MsgParser {
         if (match.find()) address = address.substring(match.end()).trim();
         sType = (sType == StartType.START_CALL_PLACE ? StartType.START_PLACE : StartType.START_ADDR);
         this.flags &= ~FLAG_START_FLD_REQ;
+      }
+    }
+    
+    // If a place pattern has been specified, we use it instead of the
+    // standard start address logic to identify the place prefix
+    if (sType == StartType.START_PLACE && placeAddressPtn != null) {
+      sType = StartType.START_ADDR;
+      Matcher match = placeAddressPtn.matcher(address);
+      if (match.lookingAt()) {
+        result.placePrefix = match.group().trim();
+        address = address.substring(match.end()).trim();
       }
     }
 
@@ -3034,6 +3059,7 @@ public abstract class SmartAddressParser extends MsgParser {
     private StartType startType;
     private int status = -1;
     private String callPrefix = null;
+    private String placePrefix = null;
     private String stdPrefix = null;
     private FieldSpec startField = null;
     private FieldSpec addressField = null;
@@ -3161,6 +3187,7 @@ public abstract class SmartAddressParser extends MsgParser {
       }
       
       if (callPrefix != null) data.strCall = callPrefix;
+      if (placePrefix != null) data.strPlace = placePrefix;
       
       // If no address field has been found, but we have a start field and caller
       // has requested fallback to put everything in the address field, make it so
