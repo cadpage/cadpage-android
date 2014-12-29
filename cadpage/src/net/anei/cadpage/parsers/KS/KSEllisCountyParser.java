@@ -3,10 +3,10 @@ package net.anei.cadpage.parsers.KS;
 import net.anei.cadpage.parsers.dispatch.DispatchA25Parser;
 
 
-public class KSHaysParser extends DispatchA25Parser {
+public class KSEllisCountyParser extends DispatchA25Parser {
   
-  public KSHaysParser() {
-    super("HAYS", "KS");
+  public KSEllisCountyParser() {
+    super("ELLIS COUNTY", "KS");
   }
   
   @Override

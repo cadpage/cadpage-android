@@ -632,7 +632,7 @@ class Active911Vendor extends Vendor {
       "US/TX/Gatesville",                 "TXGatesville",
       "US/TX/GreggCounty",                "TXGreggCounty",
       "US/TX/HarrisCountyEC",             "TXHarrisCountyESD1B",
-      "US/TX/HaysUSA",                    "KSHays",
+      "US/TX/HaysUSA",                    "KSEllisCounty",
       "US/TX/HuntCounty",                 "TXHuntCounty",
       "US/TX/JohnsonCounty",              "TXJohnsonCountyB",
       "US/TX/Katy",                       "TXCyCreekCommCenter",
