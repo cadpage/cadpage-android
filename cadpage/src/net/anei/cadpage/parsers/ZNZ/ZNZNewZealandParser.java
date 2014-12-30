@@ -1015,6 +1015,11 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "ANNESBROOK",
     
     // New Plymouth suburbs
-    "PORT TARANAKI"
+    "PORT TARANAKI",
+    
+    // From active911
+    "MANGAKAKAHI",
+    "TIKITERE"
+    
   };
 }
