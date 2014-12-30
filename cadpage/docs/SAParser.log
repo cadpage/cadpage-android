@@ -1,3 +1,8 @@
+Version 7.0 12/29/2014
+
+Added option to specify a regular expression pattern that will be used to 
+identify leading place names instead of the regular address start logic.
+
 Version 6.0 12/18/2014
 
 Added new setupSpecialStreets() method allowing parser to define street names

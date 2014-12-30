@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -154,6 +155,11 @@ public class SAPWrapper extends SmartAddressParser {
     // but in at least one case there were necessary, so we add an option to allow them
     if (args[0].equals("ALLOW_BAD_CHARS")) {
       parser.allowBadChars(",");
+    }
+    
+    // On rare occasions, a pattern match is the better way to identify leading place names
+    if (args[0].equals("PLACE_PATTERN")) {
+      parser.setupPlaceAddressPtn(Pattern.compile(".*? SUBDIVISION"));
     }
     
     
