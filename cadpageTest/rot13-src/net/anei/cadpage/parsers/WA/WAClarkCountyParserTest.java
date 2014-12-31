@@ -38,6 +38,9 @@ Fraqre: PERFN PNQ
 Pbagnpg: Senax Ovyyvatgba <swosbhe@tznvy.pbz>
 PERFN ZCH: R43 NEEVIRQ EBBZ NAQ PBAGRAGF SVER.... RIREL1 BHG BS GUR UBHFR.... T/20GU ARNERFG ULQENAG
 
+Pbagnpg: Zngg Uvrgre <zngguvrgre@tznvy.pbz>
+PERFN YBP: AR 259GU FG/AR 72AQ NIR PYX ZNC: 4229 BCF: BCF52  GENSSVP NPPVQRAG FHO GLCR: O1 CEV: 3 GVZR: 15:58:52 RI#: 14412187 NYNEZ: 1  Qvfc: R33,R63,JG26
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pynex Pbhagl Sver Qvfgevpg #6
 Ybpngvba: Inapbhire, JN, Havgrq Fgngrf
@@ -630,6 +633,24 @@ choyvp pynff JNPynexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:PERFN",
         "CYNPR:R43 NEEVIRQ EBBZ NAQ PBAGRAGF SVER.... RIREL1 BHG BS GUR UBHFR.... T/20GU ARNERFG ULQENAG");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZnggUvrgre() {
+
+    qbGrfg("G1",
+        "PERFN YBP: AR 259GU FG/AR 72AQ NIR PYX ZNC: 4229 BCF: BCF52  GENSSVP NPPVQRAG FHO GLCR: O1 CEV: 3 GVZR: 15:58:52 RI#: 14412187 NYNEZ: 1  Qvfc: R33,R63,JG26",
+        "FEP:PERFN",
+        "NQQE:AR 259GU FG & AR 72AQ NIR",
+        "ZNC:4229",
+        "PU:BCF52",
+        "PNYY:GENSSVP NPPVQRAG",
+        "PBQR:O1",
+        "CEV:3",
+        "GVZR:15:58:52",
+        "VQ:14412187",
+        "HAVG:R33,R63,JG26");
+    
   }
 
   @Grfg

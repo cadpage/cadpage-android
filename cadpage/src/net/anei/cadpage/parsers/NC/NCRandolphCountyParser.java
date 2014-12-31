@@ -22,11 +22,10 @@ public class NCRandolphCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("SRC")) return new SourceField("[A-Z]{4}");
+    if (name.equals("SRC")) return new SourceField("[A-Z]{4}", true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("UNIT")) return new UnitField("[A-Z]+[0-9]+|\\d+-\\d+|[A-Z]+[FP]D", true);
-    if (name.equals("ID")) return new IdField("\\d{9}");
     if (name.equals("PLACE")) return new MyPlaceField();
     return super.getField(name);
   }
