@@ -80,6 +80,7 @@ public class NCMecklenburgCountyAParser extends MsgParser {
       "Demo/Public Relations",
       "ECHO",
       "Fire", 
+      "Scheduled",
       "Scheduled BLS",
       "unkFire"
   }));
