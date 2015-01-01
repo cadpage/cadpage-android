@@ -2,9 +2,6 @@ package net.anei.cadpage.parsers.NY;
 
 import net.anei.cadpage.parsers.dispatch.DispatchA2Parser;
 
-
-
-
 public class NYOtsegoCountyParser extends DispatchA2Parser {
     
     public NYOtsegoCountyParser() {

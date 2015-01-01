@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -7,7 +10,7 @@ public class DispatchA2Parser extends FieldProgramParser {
     
     public DispatchA2Parser(String defCity, String defState) {
       super(defCity, defState,
-             "CALL PLACE ADDR SRCX? TIME? INFO+");
+             "CALL PLACE ADDR APT? SRCX? TIME? INFO+");
     }
 
 	  @Override
@@ -25,6 +28,16 @@ public class DispatchA2Parser extends FieldProgramParser {
 	    }
 	    return true;
 	  }
+
+    @Override
+    protected Field getField(String name) {
+      if (name.equals("ADDR")) return new BaseAddressField();
+      if (name.equals("APT")) return new AptField("APT *(.*)", true);
+      if (name.equals("SRCX")) return new BaseSourceCrossField();
+      if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d");
+      if (name.equals("INFO")) return new BaseInfoField();
+      return super.getField(name);
+    }
 
 	  // Address field may contains Address, station, and cross steet info
 	  private class BaseAddressField extends AddressField {
@@ -76,23 +89,26 @@ public class DispatchA2Parser extends FieldProgramParser {
       }
 	  }
 
+	  private static final Pattern TIME_INFO_PTN = Pattern.compile("(\\d\\d:\\d\\d\\b) *(.*)");
 	  private class BaseInfoField extends InfoField {
 	    @Override
 	    public void parse(String field, Data data) {
 	      if (field.equals("NARR")) return;
 	      if (field.startsWith("NARR ")) field = field.substring(5).trim();
+	      else if (data.strTime.length() == 0) {
+	        Matcher match = TIME_INFO_PTN.matcher(field);
+	        if (match.matches()) {
+            data.strTime = match.group(1);
+	          field = match.group(2);
+	        }
+	      }
 	      super.parse(field, data);
 	    }
+	    
+	    @Override
+	    public String getFieldNames() {
+	      return "TIME INFO";
+	    }
 	  }
-
-    @Override
-    protected Field getField(String name) {
-      if (name.equals("ADDR")) return new BaseAddressField();
-      if (name.equals("SRCX")) return new BaseSourceCrossField();
-      if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d");
-      if (name.equals("INFO")) return new BaseInfoField();
-      return super.getField(name);
-    }
-	  
 	}
 	
