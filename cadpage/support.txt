@@ -3,13 +3,13 @@
 * The back key does not work
 **************************************************************************
 
-That is a new feature that has proven somewhat unpopular.  The next release of Cadpage should be available in a few hours and will change the way it works.  Instead of being suppressed whenever a response button menu is displayed, the new logic will suppress the back button only when a Cadpage alert notification is in progress.
+Recent versions of Cadpage disable the back button if an alert notification is active.  This was done to avoid a problem I was having with the detail screen getting cleared when I accidentally touched the back key while pulling the phone out of my pocket.
 
-The Cadpage alert notice can be cleared by pressing any Cadpage button at all. There should always be a response button indicates no response so you can close the response menu without doing anything.  If whoever sets up the response buttons did not do that, you can add your own.  Detailed instructions on how to do that follow.
+The Cadpage alert notification can be cleared by pressing any Cadpage button at all. There should always be a response button indicates no response so you can close the response menu without doing anything.  If whoever sets up the response buttons did not do that, you can add your own.  Detailed instructions on how to do that follow.
 
 If you want a response button that does what the back button used to do, there is a configurable close button.  In Cadpage settings, select
-Additional Buttons > Button Configuration > Response Buttons
-then one of the regular button slots to add a close button to your response button menu.
+Additional Buttons > Button Configuration > Main Button Menu or Response Button menu
+then use one of the regular button slots to add a close button to the appropriate button menu.
 
 If you are getting direct pages from CodeMessaging or Active911, you may have to change the "Direct Paging Message Menu" to ensure your buttons remain available when a direct page alert comes in.
 

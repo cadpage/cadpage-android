@@ -92,6 +92,7 @@ public class PALackawannaCountyAParser extends FieldProgramParser {
       "29",   "Jefferson Twp",
       "33",   "Eynon",
       "34",   "Sturges",
+      "35",   "Scranton",
       "36",   "",              // Definitely means something??? (Dalton)
       "41",   "Forest City",
       "42",   "Vandling",
@@ -111,6 +112,7 @@ public class PALackawannaCountyAParser extends FieldProgramParser {
       "64",   "North Abington",
       "65",   "West Abington",
       "66",   "LaPlume",
+      "67",   "Moscow",
       "93",   "Old Forge",
       "94",   "Moosic",
       "95",   "Taylor",
@@ -119,6 +121,8 @@ public class PALackawannaCountyAParser extends FieldProgramParser {
       "BENTON TWP",   "Benton Twp",
       "FALLS TWP WYOMING CNTY",  "Falls Twp, Wyoming County",
       "FALLS",        "Falls Twp, Wyoming County",
+      "LAKE ARIEL",   "Lake Ariel",
+      "LUZN CNTY",    "Luzerne County",
       "LUZERNE CNTY", "Luzerne County",
       "MONROE CNTY",  "Monroe County",
       "SUSQ CNTY",    "Susquehanna County",
@@ -127,7 +131,5 @@ public class PALackawannaCountyAParser extends FieldProgramParser {
 
       // Susquehanna County
       "LENOXVILLE",   "Lenoxville"
-
- 
   });
 }
