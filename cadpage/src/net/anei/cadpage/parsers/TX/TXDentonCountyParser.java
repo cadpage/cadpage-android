@@ -13,11 +13,13 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
   
   public TXDentonCountyParser() {
     super(CITY_LIST, "DENTON COUNTY", "TX",
-          "ID?: FYI? ( ID ( DATIME ( SRC CALL ( ADDR/Z CITY! | PLACE? ADDR! X/Z+? CITY/Y ) " + 
-                                  "| CALL ( ADDR/Z ( END | UNIT | NO_MORE_CITY ) " + 
-                                         "| PLACE/Z? ADDR/Z CITY/Y! X/Z+? ( SRC UNIT? | UNIT ) ) ) " + 
-                         "| ADDR ( SRC CALL | X/Z+? CITY SRC CALL! ) ) " + 
-                    "| CALL ADDR SHORT_CITY/Y ) " + 
+          "ID?: ( CANCEL ADDR SHORT_CITY! " +
+               "| FYI? ( ID ( DATIME ( SRC CALL ( ADDR/Z CITY! | ADDR/Z END | PLACE? ADDR! X/Z+? CITY/Y ) " + 
+                                    "| CALL ( ADDR/Z ( END | UNIT | NO_MORE_CITY ) " + 
+                                           "| PLACE/Z? ADDR/Z CITY/Y! X/Z+? ( SRC UNIT? | UNIT ) ) ) " + 
+                           "| ADDR ( SRC CALL | X/Z+? CITY SRC CALL! ) ) " + 
+                      "| CALL ADDR SHORT_CITY/Y ) " +
+               ") " +
            "INFO+");
   }
   
@@ -45,11 +47,10 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     if (subject.equals("Message Forwarded by PageGate") && !body.startsWith("CAD:")) body = "CAD:" + body;
     else if (subject.length() > 0 && body.startsWith("CAD:")) {
-      if (subject.equals("FYI") || subject.equals("Update")) {
-        body = "CAD:" + subject + ": " + body.substring(4);
-      }
-      else if (SUBJECT_PTN.matcher(subject).matches()) {
-        body = "CAD:" + subject + body.substring(4);
+      String extra = null;
+      if (SUBJECT_PTN.matcher(subject).matches()) {
+        extra = "CAD:" + subject + ":";
+        if (!body.startsWith(extra)) body = extra + body.substring(4);
       }
     }
     return super.parseMsg(body, data);
@@ -61,7 +62,7 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
     if (name.equals("SHORT_CITY")) return new MyShortCityField();
     if (name.equals("ID")) return new IdField("\\d{9}", true);
     if (name.equals("DATIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d", true);
-    if (name.equals("SRC")) return new SourceField("[A-Z]{1,2}[FP]D|B\\d+");
+    if (name.equals("SRC")) return new SourceField("[A-Z]{1,2}[FP]D|B\\d+|CNTY");
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
@@ -156,12 +157,18 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ARGY", "ARGYLE",
+      "AUBR", "AUBREY",
       "BART", "BARTONVILLE",
       "CORI", "CORINTH",
       "DC",   "DENTON COUNTY",
       "DENT", "DENTON",
+      "DOUB", "DOUBLE OAK",
+      "HICK", "HICKORY CREEK",
       "LAKE", "LAKE DALLAS",
+      "LITT", "LITTLE ELM",
       "NORT", "NORTH LAKE",
+      "PILO", "PILOT POINT",
       "SANG", "SANGER"
   });
 
