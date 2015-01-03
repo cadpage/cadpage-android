@@ -58,7 +58,11 @@ class CadpageVendor extends Vendor {
     Uri.Builder builder = uri.buildUpon();
     
     String phone = UserAcctManager.instance().getPhoneNumber();
-    if (phone != null) builder.appendQueryParameter("phone", phone);
+    if (phone != null) {
+      int pt = phone.indexOf(',');
+      if (pt >= 0) phone = phone.substring(0,pt).trim();
+      builder.appendQueryParameter("phone", phone);
+    }
     
     String meid = UserAcctManager.instance().getMEID();
     if (meid != null) builder.appendQueryParameter("MEID",meid);
