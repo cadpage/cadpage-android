@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 public class MSDeSotoCountyBParser extends DispatchB2Parser {
 
   public MSDeSotoCountyBParser() {
-    super("DISPATCH:", MSDeSotoCountyParser.CITY_LIST, "DESOTO COUNTY", "MS");
+    super("DISPATCH:", MSDeSotoCountyAParser.CITY_LIST, "DESOTO COUNTY", "MS");
     setupCallList(CALL_LIST);
     setupMultiWordStreets(
         "ANSLEY PARK",

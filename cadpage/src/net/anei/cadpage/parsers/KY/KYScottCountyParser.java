@@ -1,13 +1,11 @@
 package net.anei.cadpage.parsers.KY;
 
-public class KYScottCountyParser extends KYStatePoliceParser {
+import net.anei.cadpage.parsers.GroupBestParser;
+
+
+public class KYScottCountyParser extends GroupBestParser {
   
   public KYScottCountyParser() {
-    super("SCOTT COUNTY");
-  }
-  
-  @Override
-  public String getLocName() {
-    return "Scott County, KY";
+    super(new KYScottCountyAParser(), new KYScottCountyBParser());
   }
 }
