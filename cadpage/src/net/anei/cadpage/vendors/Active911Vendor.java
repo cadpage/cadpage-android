@@ -466,6 +466,7 @@ class Active911Vendor extends Vendor {
       "US/NJ/SussexCountySherif",         "NJSussexCountyB",
       "US/NJ/TomsRiverPolice",            "NJOceanCountyB",
       "US/NJ/WayneTownship",              "NJWayneTownship",
+      "US/NM/LasCruces",                  "NMLasCruces",
       "US/NV/CityofElko",                 "NVElkoCountyA",
       "US/NV/Elko",                       "NVElkoCounty",
       "US/NV/WestWendover",               "NVElkoCountyB",
