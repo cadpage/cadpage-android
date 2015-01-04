@@ -14,12 +14,17 @@ public class MSDeSotoCountyParser extends DispatchB3Parser {
   }
   
   @Override
+  public String getFilter() {
+    return "cadalerts@eforcesoftware.com";
+  }
+  
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     body = DIR_BOUND_PTN.matcher(body).replaceAll("$1B");
     return super.parseMsg(subject, body, data);
   }
 
-  private static final String[] CITY_LIST = new String[]{
+  static final String[] CITY_LIST = new String[]{
     
     // Cities
     "HERNANDO",
