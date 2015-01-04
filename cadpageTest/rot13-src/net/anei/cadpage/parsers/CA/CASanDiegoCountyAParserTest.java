@@ -14,6 +14,9 @@ Fraqre: pnq@wcncntr.arg
 (PNQ ZRFFNTR) NYZ:1\GLC:FRVMHER               \NQE:1219 R Oneunz Qe                       \YBP:PNFVGNF QRY FBY ZUC-FZP \KFG:FE78 BA EN RO/HAANZRQ
 (PNQ ZRFFNTR) NYZ:1\GLC:YVSG NFFVFG           \NQE:3535 Yvaqn Ivfgn Qe                     \YBP:ENAPUB INYYRPVGBF ZBO RF\KFG:INYYRPVGBF QE/GVYYRL YA
 
+*** ABG CNEFVAT (zvffvat onpxfynfurf) ***
+(PNQ ZRFFNTR) NYZ:1GLC:PNEOBA ZBAVK NYNEZ    NQE:225 Nhghza Qe                           YBP:NHGHZA CNEX NCGF (225)  KFG:CVPB NI/PUVANOREEL YA                   NCGFC:NCG 39    GO:1108U7ZNC:5624N GT:. GNP 1 VAQVN  HAVGF:1471CERCYA;FZP020E
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fna Znepbf Sver
 Ybpngvba: Fna Znepbf, PN, Havgrq Fgngrf
