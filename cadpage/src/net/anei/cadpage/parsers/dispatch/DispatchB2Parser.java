@@ -35,7 +35,11 @@ public class DispatchB2Parser extends DispatchBParser {
   private int flags = 0;
 
   public DispatchB2Parser(String[] cityList, String defCity, String defState) {
-    this(null, cityList, defCity, defState);
+    this(null, cityList, defCity, defState, 0);
+  }
+
+  public DispatchB2Parser(String[] cityList, String defCity, String defState, int flags) {
+    this(null, cityList, defCity, defState, flags);
   }
 
   public DispatchB2Parser(Properties cityCodes, String defCity, String defState) {
@@ -198,11 +202,14 @@ public class DispatchB2Parser extends DispatchBParser {
       }
       
       else {
-        if (noCross && isValidAddress(name)) {
-          data.strCross = name;
-        } else {
-          data.strName = append(name, " ", data.strName);
+        if (noCross) {
+          Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, name);
+          if (res.isValid()) {
+            res.getData(data);
+            name = res.getLeft();
+          }
         }
+        data.strName = append(name, " ", data.strName);
       }
       
       // We can't turn on the FLAG_CROSS_FOLLOWS option or it will mess up followin names

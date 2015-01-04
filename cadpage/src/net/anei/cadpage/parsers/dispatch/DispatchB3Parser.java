@@ -19,6 +19,12 @@ public class DispatchB3Parser extends DispatchB2Parser {
     this.prefix = prefix;
   }
 
+  public DispatchB3Parser(String prefix, String[] cityList, String defCity, String defState, int flags) {
+    super(cityList, defCity, defState, flags);
+    setupCallList((CodeSet)null);
+    this.prefix = prefix;
+  }
+
   public DispatchB3Parser(Pattern prefixPattern, String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState);
     setupCallList((CodeSet)null);

@@ -1,42 +1,54 @@
 package net.anei.cadpage.parsers.MS;
 
-import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser;
+import java.util.regex.Pattern;
 
-public class MSDeSotoCountyParser extends SmartAddressParser {
+import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchB3Parser;
+
+public class MSDeSotoCountyParser extends DispatchB3Parser {
+  
+  private static final Pattern DIR_BOUND_PTN = Pattern.compile("\\b([NSEW])/B\\b");
 
   public MSDeSotoCountyParser() {
-    super("DESOTO COUNTY", "MS");
-    
-    setFieldList("CALL ADDR APT X NAME");
+    super("911CENTER:", CITY_LIST, "DESOTO COUNTY", "MS", B2_FORCE_CALL_CODE);
   }
   
   @Override
-  public boolean parseMsg(String subject, String body, Data data) {
-    //Disqualifiers
-    if (subject.length() == 0) return false;
-    if (!body.startsWith("911CENTER:")) return false;
-    
-    //CALL and remove 911CENTER: from body
-    data.strCall = subject;
-    body = body.substring(10);
-    
-    //ADDR
-    parseAddress(StartType.START_ADDR, body, data);
-    if (!isValidAddress()) return false;
-    body = getLeft();
-    
-    //X (CV is a street abbreviation for cove)
-    Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body);
-    if (res.isValid()) {
-      res.getData(data);
-      body = res.getLeft();
-    }
-
-    //NAME
-    data.strName = cleanWirelessCarrier(body);
-
-    return true;
+  protected boolean parseMsg(String subject, String body, Data data) {
+    body = DIR_BOUND_PTN.matcher(body).replaceAll("$1B");
+    return super.parseMsg(subject, body, data);
   }
 
+  private static final String[] CITY_LIST = new String[]{
+    
+    // Cities
+    "HERNANDO",
+    "HORN LAKE",
+    "OLIVE BRANCH",
+    "SOUTHAVEN",
+
+    // Towns
+    "WALLS",
+
+    // Villages
+    "MEMPHIS",
+
+    // Census-designated places
+    "BRIDGETOWN",
+    "LYNCHBURG",
+
+    // Unincorporated communities
+    "COCKRUM",
+    "DAYS",
+    "EUDORA",
+    "LAKE CORMORANT",
+    "LAKE VIEW",
+    "LEWISBURG",
+    "LOVE",
+    "MINERAL WELLS",
+    "NESBIT",
+    "NORFOLK",
+    "PLEASANT HILL",
+    "WEST DAYS"
+  };
 }
