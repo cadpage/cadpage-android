@@ -2392,7 +2392,7 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:XNGREVAT 2 XVQF",
         "PNYY:55O04-RYRPGEVPNY BQBE",
         "HAVG:R78",
-        "K:UNEQL GBYY EQ / AO BYQ EVYR",
+        "K:UNEQL GBYY EQ AO / BYQ EVYR",
         "VQ:20115823");
 
     qbGrfg("G29",

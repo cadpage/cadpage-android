@@ -29,7 +29,7 @@ public class GADecaturCountyParser extends SmartAddressParser {
     if (parts.length == 2) body = parts[1].trim();
     
     // Use smart address parser to get what we can
-    parseAddress(StartType.START_CALL, body, data);
+    parseAddress(StartType.START_CALL, FLAG_IGNORE_AT, body, data);
     if (data.strCall.length() == 0) {
       data.strCall = getLeft();
     } else {

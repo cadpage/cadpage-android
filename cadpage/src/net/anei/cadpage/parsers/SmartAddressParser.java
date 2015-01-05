@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 /**
  * Abstract message parser class that adds support for "smart" address parsing.
  * That is parsing logic that can be used for text formats that do not clearly 
- * deliminate where the the address portion of the message can be found. 
+ * diliminate where the the address portion of the message can be found. 
  *
  */
 public abstract class SmartAddressParser extends MsgParser {
@@ -2391,7 +2391,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // Still no luck,
       // If we are deliberately ignoring street suffixes, take what we have so far
       // Possibly incrementing the result over a road suffix that is right here.
-      if (isFlagSet(FLAG_NO_STREET_SFX)) {
+      if (option > 0 && isFlagSet(FLAG_NO_STREET_SFX)) {
         if (failIndex > 0) {
           if (isType(failIndex-1, ID_NOT_STREET_NAME)) return -1;
           if (isType(failIndex, ID_ROAD_SFX)) failIndex++;
@@ -2441,17 +2441,12 @@ public abstract class SmartAddressParser extends MsgParser {
       
     } while (false);
     
-    // if we swappend in failIndex for end, it might be negative
+    // if we swapped in failIndex for end, it might be negative
     if (end < 0) return -1;
     
-    // Check for BYPASS
-    if (isType(end, ID_BYPASS)) end++;
+    // Bump bypass and trailing direction
+    end = bumpTrailingDir(end);
     
-    // If road is followed by a direction and that direction can not be part of
-    // a following cross street, include it
-    if (isType(end, ID_DIRECTION) && !isType(end+1, ID_OF)) {
-      if (!isFlagSet(FLAG_CROSS_FOLLOWS) || end+1 == tokens.length || isComma(end+1) || findConnector(end+1)>=0) end++;
-    }
     return end;
   }
 
@@ -2740,13 +2735,26 @@ public abstract class SmartAddressParser extends MsgParser {
     // Bump pass bypass word
     if (isType(ndx, ID_BYPASS)) ndx++;
     
-    // If the following token is a direction, increment end pointer past that too
-    // unless we expected a following cross street, in which case the direction should
-    // be considered part of the following cross street
-    // unless the direction token is the last token in which case there can't be a following
-    // cross street, can there
-    // Also do not do this if the word following the direct is "OF".
-    if ((!isFlagSet(FLAG_CROSS_FOLLOWS) || ndx+1 == tokens.length) && isType(ndx, ID_DIRECTION) && !isType(ndx+1, ID_OF)) ndx++;
+    // Is there a trailing direction that is not followed by OF
+    if (isType(ndx, ID_DIRECTION) && !isType(ndx+1, ID_OF)) {
+      
+      // If direction is part of a trailing city name, the answer is no.
+      if (findEndCity(ndx) < 0) { 
+        
+        // Otherwise, if we are not concerned about the direction being part 
+        // of a following cross street name, we should include it
+        if (!isFlagSet(FLAG_CROSS_FOLLOWS)) ndx++;
+        
+        // Otherwise, see if what follows looks like a trailing street 
+        // name.  If it does not, include the direction
+        else {
+          int tmp = ndx+1;
+          while (isType(tmp, ID_OPT_ROAD_PFX)) tmp++;
+          tmp = findRoadEnd(tmp, 0);
+          if (tmp < 0) ndx++;
+        }
+      }
+    }
     return ndx;
   }
 

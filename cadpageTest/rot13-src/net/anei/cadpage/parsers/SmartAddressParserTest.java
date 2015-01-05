@@ -175,7 +175,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4062 A PE 225 J");
     
     qbGrfg(NQQE, SYNT_BAYL_PEBFF | SYNT_PEBFF_SBYYBJF, "XHLXRAQNUY EQ F EBYYVAT B",
-        "K:XHLXRAQNUY EQ");
+        "K:XHLXRAQNUY EQ F");
     
     qbGrfg(NQQE, SYNT_PURPX_FGNGHF | SYNT_NAPUBE_RAQ, "400 INYYRL ZRNQBJ PV NCG O1",
            "NQQE:400 INYYRL ZRNQBJ PV",

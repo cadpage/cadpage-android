@@ -1859,7 +1859,8 @@ choyvp pynff CNOhgyrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:IN / HAXABJA VAWHEL",
         "NQQE:20550 EBHGR 19",
         "PVGL:PENAOREEL GJC",
-        "ANZR:N XVQF CYNPR QEBC VA PUVYQ",
+        "K:N XVQF CYNPR",
+        "ANZR:QEBC VA PUVYQ",
         "CUBAR:7247723633",
         "VQ:2014-0000070349");
 
@@ -3054,8 +3055,10 @@ choyvp pynff CNOhgyrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:23O01V",
         "PNYY:Bireqbfr / Cbvfbavat (Vatrfgvb",
         "NQQE:A TERRA YA",
+        "ZNQQE:A TERRA YA & TYNQR EHA",
         "PVGL:MRYVRABCYR",
-        "ANZR:TYNQR EHA YHGURENA FREIVPR",
+        "K:TYNQR EHA",
+        "ANZR:YHGURENA FREIVPR",
         "CUBAR:7244524453",
         "VQ:2014-0000065347");
 
@@ -6826,7 +6829,8 @@ choyvp pynff CNOhgyrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER - FGEHPGHER",
         "NQQE:125 R ZNVA FG",
         "PVGL:RINAF PVGL",
-        "ANZR:ZNVA FGERRG TEVYY",
+        "K:ZNVA FGERRG",
+        "ANZR:TEVYY",
         "CUBAR:7244323220",
         "VQ:2014-0000020024");
 

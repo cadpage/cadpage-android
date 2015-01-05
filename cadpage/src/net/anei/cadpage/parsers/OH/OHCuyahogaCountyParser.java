@@ -51,7 +51,7 @@ public class OHCuyahogaCountyParser extends GroupBestParser {
       "SHAKER HEIGH",  "SHAKER HEIGHTS",
       "SOLON",         "SOLON",
       "S EUCLID",      "S EUCLID",
-      "S RUSSELL",      "S RUSSELL",
+      "S RUSSELL",     "S RUSSELL",
       "STRONGSVILLE",  "STRONGSVILLE",
       "UNIVERSITY H",  "UNIVERSITY HEIGHTS",
       "WARRENSVILLE",  "WARRENSVILLE HEIGHTS",

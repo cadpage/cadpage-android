@@ -1,3 +1,10 @@
+Version 8.0 01/04/2015
+
+Improved logic that determines if a trailing direction should be included in the address
+or if it is instead part of a trailing city name or cross street.
+
+Fixed bug in the FLAG_NO_STREET_SFX logic.
+
 Version 7.0 12/29/2014
 
 Added option to specify a regular expression pattern that will be used to 

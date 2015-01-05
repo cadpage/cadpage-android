@@ -23,6 +23,10 @@ public class DispatchB2Parser extends DispatchBParser {
   // code if there is no marker
   public static final int B2_FORCE_CALL_CODE = 1;
   
+  // Flag requesting that we tell the underlying smart address logic that cross street
+  // information will be following the main address
+  public static final int B2_CROSS_FOLLOWS = 2;
+  
   private static final Pattern CODE_PATTERN = Pattern.compile("^([- /#&A-Z0-9]{0,6}?|\\?) *> *"); 
   private static final Pattern PHONE_PTN = Pattern.compile(" *((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4})$");
   private static final Pattern PHONE2_PTN = Pattern.compile("^((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4}) *");
@@ -30,9 +34,11 @@ public class DispatchB2Parser extends DispatchBParser {
   private static final Pattern NAME_PTN = Pattern.compile(" +([A-Z]+, ?[A-Z]+(?: [A-Z]\\.?)?)$");
   private static final Pattern INTERSECT_PTN = Pattern.compile("(?:&|[NSEW]O |[NSEW][EW]? OF ).*", Pattern.CASE_INSENSITIVE);
   private static final Pattern TRAIL_DIR_PTN = Pattern.compile(" +([NSEW]B?)$");
+  private static final Pattern CROSS_LABEL_PTN = Pattern.compile("\\b(?:XS|CS|C/S)[: ] *");
   
   private String prefix;
-  private int flags = 0;
+  private boolean forceCallCode;
+  private boolean crossFollows;
 
   public DispatchB2Parser(String[] cityList, String defCity, String defState) {
     this(null, cityList, defCity, defState, 0);
@@ -62,22 +68,30 @@ public class DispatchB2Parser extends DispatchBParser {
   public DispatchB2Parser(String prefix, String[] cityList, String defCity, String defState, int flags) {
     super(cityList, defCity, defState);
     this.prefix = prefix;
-    this.flags = flags;
+    setupFlags(flags);
   }
 
   public DispatchB2Parser(String prefix, int version, String[] cityList, String defCity, String defState) {
     super(version, cityList, defCity, defState);
     this.prefix = prefix;
+    setupFlags(0);
   }
 
   public DispatchB2Parser(String prefix, Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState);
     this.prefix = prefix;
+    setupFlags(0);
   }
   
   public DispatchB2Parser(String prefix, String defCity, String defState) {
     super(defCity, defState);
     this.prefix = prefix;
+    setupFlags(0);
+  }
+  
+  private void setupFlags(int flags) {
+    forceCallCode = (flags & B2_FORCE_CALL_CODE) != 0;
+    crossFollows = (flags & B2_CROSS_FOLLOWS) != 0;
   }
   
 
@@ -133,7 +147,7 @@ public class DispatchB2Parser extends DispatchBParser {
     if (match.find()) {
       data.strCode = match.group(1);
       field = field.substring(match.end());
-    } else if ((flags & B2_FORCE_CALL_CODE) != 0) {
+    } else if (forceCallCode) {
       int pt = field.indexOf(' ');
       if (pt >= 0) {
         data.strCode = field.substring(0,pt);
@@ -174,27 +188,24 @@ public class DispatchB2Parser extends DispatchBParser {
       data.strName = match.group(1);
       field = field.substring(0,match.start());
     }
+    if (crossFollows) flags |= FLAG_CROSS_FOLLOWS;
     flags |= getExtraParseAddressFlags();
     parseAddress(st, flags | FLAG_NEAR_TO_END, field, data);
     String name = getLeft();
     boolean noCross = (data.strCross.length() == 0);
     if (name.length() > 0) {
-      int pt = name.indexOf(" XS: ");
-      if (pt >= 0) {
-        data.strApt = append(data.strApt, " ", name.substring(0,pt).trim());
-        name = name.substring(pt+5).trim();
+      match = CROSS_LABEL_PTN.matcher(name);
+      if (match.find()) {
+        data.strApt = append(data.strApt, " ", name.substring(0,match.start()).trim());
+        name = name.substring(match.start()).trim();
       }
       if (INTERSECT_PTN.matcher(name).matches()) {
         data.strAddress = append(data.strAddress, " ", name);
       } 
       else if (data.strPhone.length() == 0 && (match = PHONE2_PTN.matcher(name)).find()) {
         data.strPhone = match.group(1);
-        field = name.substring(match.end());
-        if (noCross && isValidAddress(field)) {
-          data.strCross = field;
-        } else {
-          data.strName = append(field, " ", data.strName);
-        }
+        name = name.substring(match.end());
+        parseCrossName(name, data);
       }
       
       else if ((match = APT_PTN.matcher(name)).matches()) {
@@ -202,14 +213,7 @@ public class DispatchB2Parser extends DispatchBParser {
       }
       
       else {
-        if (noCross) {
-          Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, name);
-          if (res.isValid()) {
-            res.getData(data);
-            name = res.getLeft();
-          }
-        }
-        data.strName = append(name, " ", data.strName);
+        parseCrossName(name, data);
       }
       
       // We can't turn on the FLAG_CROSS_FOLLOWS option or it will mess up followin names
@@ -225,6 +229,20 @@ public class DispatchB2Parser extends DispatchBParser {
     }
     
     return data.strAddress.length() > 0;
+  }
+
+  private void parseCrossName(String field, Data data) {
+    if (data.strCross.length() == 0) {
+      Matcher match = CROSS_LABEL_PTN.matcher(field);
+      boolean forceCross = match.lookingAt();
+      if (forceCross) field = field.substring(match.end());
+      Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, field);
+      if (forceCross || res.isValid()) {
+        res.getData(data);
+        field = res.getLeft();
+      }
+    }
+    data.strName = append(field, " ", data.strName);
   }
   
   /***

@@ -1036,8 +1036,8 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:17:27:20",
         "VQ:13-007489",
         "PNYY:FDHNQ PNYY-53 LBZ QVNORGVP VYY, SNYYRA J/ VAWHEL",
-        "NQQE:5726 GVZCFBA EQ",
-        "K:R ZBENY XVEX R JLAQG ZEA");
+        "NQQE:5726 GVZCFBA EQ R",
+        "K:ZBENY XVEX R JLAQG ZEA");
 
     qbGrfg("G68",
         "(PNQ Cntr) HAVG 100  3/19/2013 07:58:15 13-007230 FRPG # 4 JNGRE SYB  3007 FE 309 R PY HAVG 202 PFK PY 913045R FE 98 A PY",

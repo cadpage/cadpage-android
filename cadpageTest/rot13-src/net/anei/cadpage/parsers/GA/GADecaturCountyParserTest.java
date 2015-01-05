@@ -52,7 +52,7 @@ choyvp pynff TNQrpnghePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G5",
         "QT911\aOehfu Sver - 168 Funrssre Eq\aOehfu Sver ng 168 Funrssre Eq - Snprivyyr & Sbjyfgbja qvfcngpurq",
-        "PNYY:Oehfu Sver",
+        "PNYY:Oehfu Sver ng",
         "NQQE:168 Funrssre Eq",
         "VASB:- Snprivyyr & Sbjyfgbja qvfcngpurq");
 

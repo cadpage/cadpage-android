@@ -41,6 +41,7 @@ public class GALibertyCountyParser extends DispatchB2Parser {
         "WEEPING WILLOW",
         "WELLS CEMETERY"
     );
+    addRoadSuffixTerms("HIGHWAY");
   }
   
   @Override

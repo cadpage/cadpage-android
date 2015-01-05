@@ -449,7 +449,8 @@ choyvp pynff ZBOneelPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:GRFG",
         "PNYY:GRFG",
         "NQQE:GRFG FG",
-        "ANZR:KF: GRFG GRFG GRFG GRFG GRFG GRFG GRFG",
+        "ZNQQE:GRFG FG & GRFG GRFG GRFG GRFG GRFG GRFG GRFG",
+        "K:GRFG GRFG GRFG GRFG GRFG GRFG GRFG",
         "VQ:2014-0000009571");
 
     qbGrfg("G35",

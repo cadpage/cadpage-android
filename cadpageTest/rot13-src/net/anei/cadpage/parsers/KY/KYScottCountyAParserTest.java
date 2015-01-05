@@ -9,6 +9,6 @@ choyvp pynff XLFpbggPbhaglNCnefreGrfg rkgraqf XLFgngrCbyvprCnefreGrfg {
   
   choyvp XLFpbggPbhaglNCnefreGrfg() {
     frgCnefre(arj XLFpbggPbhaglNCnefre(), "FPBGG PBHAGL", "XL");
-    frgRkcYbpPbqr("XLFpbggPbhagl");
+    frgRkcYbpPbqr("XLFpbggPbhaglN");
   }
 }

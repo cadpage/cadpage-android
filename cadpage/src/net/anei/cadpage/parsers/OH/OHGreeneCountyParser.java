@@ -46,12 +46,17 @@ public class OHGreeneCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern MM_PTN = Pattern.compile("\\d+MM");
   private class MyAddressField extends AddressField {
 
     @Override
     public void parse(String field, Data data) {
 
       super.parse(field, data);
+      if (MM_PTN.matcher(data.strApt).matches()) {
+        data.strAddress = append(data.strAddress, " ", data.strApt);
+        data.strApt = "";
+      }
       if (data.strCross.equalsIgnoreCase("No Cross Streets Found")) data.strCross = "";
       if (data.strCity.equals("CAESARCREEK TWP")) data.strCity = "CAESARSCREEK TWP";
     }

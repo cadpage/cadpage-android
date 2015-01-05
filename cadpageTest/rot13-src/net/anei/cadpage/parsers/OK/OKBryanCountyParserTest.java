@@ -940,7 +940,8 @@ choyvp pynff BXOelnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ZRQ",
         "PNYY:ZRQVPNY PNYY",
         "NQQE:402 J RIRETERRA FG",
-        "ANZR:QHENAG YNAR CVREPR",
+        "K:QHENAG YNAR",
+        "ANZR:CVREPR",
         "CUBAR:5809310673",
         "VQ:2013-0000012876");
 

@@ -11,7 +11,7 @@ public class KYLaRueCountyParser extends DispatchB2Parser {
   
   private static final Pattern CALL_ID_PTN = Pattern.compile("(\\d+):(.*)");
   private static final Pattern MISSING_GT_PTN = Pattern.compile("(FIRE(?:-[A-Z])?) (FIRE)");
-  private static final Pattern AUTOMATED_MSG_PTN = Pattern.compile("(.*?)\\b((?:FIRE ALARM|[A-Z]+ FIRE) IN YOUR AREA\\.? AUTOMATED (?:MSG|MESSAGE)\\.?)");
+  private static final Pattern AUTOMATED_MSG_PTN = Pattern.compile("/?(.*\\b(?:FIRE ALARM|FIRE) IN (?:YOUR AREA\\.? )?(?:THIS IS AN )?AUTOMATED (?:MSG|MESSAGE)\\.?)");
   
   public KYLaRueCountyParser() {
     super("LARUECO911:",CITY_LIST, "LARUE COUNTY", "KY");
@@ -42,6 +42,7 @@ public class KYLaRueCountyParser extends DispatchB2Parser {
         "MARTIN MEADOW",
         "YOUNGERS CREEK"
     );
+    removeWords("TURNPIKE");
   }
   
   @Override
@@ -73,8 +74,7 @@ public class KYLaRueCountyParser extends DispatchB2Parser {
     // and automated alert message
     match = AUTOMATED_MSG_PTN.matcher(data.strName);
     if (match.matches()) {
-      data.strCross = append(data.strCross, " / ", match.group(1).trim());
-      data.strSupp = append(match.group(2).trim(), " / ", data.strSupp);
+      data.strSupp = append(match.group(1).trim(), " / ", data.strSupp);
       data.strName = "";
     }
     

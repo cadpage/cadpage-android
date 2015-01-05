@@ -4195,8 +4195,9 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:CHE",
         "PNYY:CHEFHVG",
         "NQQE:EBOVAFBA FG",
+        "ZNQQE:EBOVAFBA FG & SNEZ-GB-ZNEXRG 32",
         "PVGL:TYRA JUVGR",
-        "ANZR:SZ32",
+        "K:SZ32",
         "VQ:2014-0000025906");
 
   }

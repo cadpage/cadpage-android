@@ -6427,8 +6427,8 @@ choyvp pynff PGYvgpusvryqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G33",
         "(ABEGU PNANNA ZRQVP) ABEGU PNANNA ZRQVP ERFCBAQ GB 20 YBPHFG UVYY EQ   ABEGU PNANNA, , 87L Z SNYY, 17-Q-3 :08:52",
         "FEP:ABEGU PNANNA ZRQVP",
-        "NQQE:20 YBPHFG UVYY EQ ABEGU",
-        "PVGL:PNANNA",
+        "NQQE:20 YBPHFG UVYY EQ",
+        "PVGL:ABEGU PNANNA",
         "PNYY:87L Z SNYY",
         "PBQR:17-Q-3",
         "GVZR:08:52");
@@ -6436,8 +6436,8 @@ choyvp pynff PGYvgpusvryqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G34",
         "(ABEGU PNANNA NZO) ABEGU PNANNA NZO ERFCBAQ GB 20 YBPHFG UVYY EQ   ABEGU PNANNA, , 87L Z SNYY, 17-Q-3 :08:52",
         "FEP:ABEGU PNANNA NZO",
-        "NQQE:20 YBPHFG UVYY EQ ABEGU",
-        "PVGL:PNANNA",
+        "NQQE:20 YBPHFG UVYY EQ",
+        "PVGL:ABEGU PNANNA",
         "PNYY:87L Z SNYY",
         "PBQR:17-Q-3",
         "GVZR:08:52");
