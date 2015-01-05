@@ -18,7 +18,7 @@ public class PABlairCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "Blair Alerts";
+    return "Blair Alerts,alerts@blairalerts.com";
   }
   
   @Override
