@@ -1,30 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12272014</string>
-  <string name="release_version">v1.7.66</string>
+  <string name="release_date">01042015</string>
+  <string name="release_version">v1.8.01</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-Cadpage Paging Service is now supported!!!\n
-See http://www.cadpage.org/paging-service\n
-\n
-Back key will be disabled while an active Cadpage alert notification is active.
-This is a change from previous behavior where back key
-was disabled whenver a response menu is visible.\n
+We starting to look at ways Cadpage can receive alerts from pagers or mobile radios that can
+connect to Android devices using Bluetooth or a USB cable.  If your department uses radios with 
+this capability and you would like us to develop a Cadpage interface to them, we would like to
+hear from you.  The best way to contact us is by using the "Email the Developer" setting in
+Cadpage settings.\n
+\n 
+New Locations:\n
+Mendocino County, CA\n
+Barrow County, GA\n
+Decatur County, GA\n
+Calhoun County, FL\n
+Madison County, IN (alt)\n
+Ellis County, KS\n
+Scott County, KY\n
+Martin County, MN\n
+DeSoto County, MS (alt)\n
+Las Cruces, NM\n
+Beaufort County, NC\n
+Whitman County, WA\n
+Roane County, WV\n     
 \n
 Location Parsing Fixes:\n
-Northwest Publc Safety, CT\n
-State Police, KY\n
-Anoka County, MN\n
-Herkimer County, NY\n
-Nassau County, NY\n
-Suffolk County, NY\n
+Liberty County, GA\n
+LaRue County, KY\n
+Kentucky State Police, KY\n
+DeSoto County, MS\n
+Flathead County, MT\n
+Chanango County, NY\n
+Niagara County, NY\n
+Otsego County, NY\n
+Mecklenburg County, NC\n
 Randolph County, NC\n
-Chester County, PA\n
-Brown County, WI\n
-Calumet County, WI\n
-Outagami County, WI\n
-Winnebago County, WI\n
+Cuyahoga County, OH\n
+Green County, OH\n
+Lackawanna County, PA\n
+Loudoun County, TN\n
+Denton County, TX\n
+New Zealand\n
+\n
+General Fixes:\n
+Occasional problem with Paging Service user not getting the same dispatch Email address
+when they switch phones.
   </string>
 </resources>
   
