@@ -58,6 +58,10 @@ Pbagnpg: Nagubal Ehovb <nehovb@cuz.x12.va.hf>
 Pbagnpg: PbqrZrffntvat
 NFFVF021 T-95 11/17/2013 -55701 NFU EQ CR :(10000) ORNGEVPR FGYVARF QBJA SBE IRFG BAYL TVIRA BA RGVR 1600,010IRFG
 
+Pbagnpg: Wbua Oybffre <sverznawbua23@tznvy.pbz>
+Fraqre: 5742617686
+08:31CZ 01/05/2015 Vp# 20 PENFU010 Qf# 132001 Ny# 1 Hgy# 01/05/15-418 R PRAGRE FG YV :( 100) URAEL FGPENFU JVGU YVARF QBJA 2031,006Q71 ,AYNF1 
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Arj Pneyvfyr Sver Qrcnegzrag
 Ybpngvba: Arj Pneyvfyr, VA, Havgrq Fgngrf
@@ -983,6 +987,23 @@ choyvp pynff VAFgWbfrcuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:16:00",
         "HAVG:010");
  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbuaOybffre() {
+
+    qbGrfg("G1",
+        "08:31CZ 01/05/2015 Vp# 20 PENFU010 Qf# 132001 Ny# 1 Hgy# 01/05/15-418 R PRAGRE FG YV :( 100) URAEL FGPENFU JVGU YVARF QBJA 2031,006Q71 ,AYNF1 ",
+        "PNYY:20 PENFU010",
+        "VQ:132001-1",
+        "QNGR:01/05/2015",
+        "NQQE:418 R PRAGRE FG",
+        "PVGL:YVOREGL GJC",
+        "K:100 URAEL FG",
+        "VASB:PENFU JVGU YVARF QBJA / Q71 ,AYNF1",
+        "GVZR:20:31:00",
+        "HAVG:006");
+
   }
 
   @Grfg

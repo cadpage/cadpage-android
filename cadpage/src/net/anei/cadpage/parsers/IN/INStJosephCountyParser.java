@@ -28,7 +28,7 @@ public class INStJosephCountyParser extends DispatchA6Parser {
   
   @Override
   public String getFilter() {
-    return "@c-msg.net,alerts@etieline.com";
+    return "@c-msg.net,alerts@etieline.com,5742617686";
   }
   
   @Override
