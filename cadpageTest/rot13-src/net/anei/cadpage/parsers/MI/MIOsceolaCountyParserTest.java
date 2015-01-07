@@ -1,8 +1,8 @@
 cnpxntr arg.narv.pnqcntr.cnefref.ZV;
 
 /*
-Puvccrjn Pbhagl, ZV
-Nyvnf sbe Veba Pbhagl, ZV
+Bfprbyn Pbhagl, ZV
+Nyvnf sbe Zrpbfgn Pbhagl, ZV
 */
 
 choyvp pynff ZVBfprbynPbhaglCnefreGrfg rkgraqf ZVZrpbfgnPbhaglCnefreGrfg {

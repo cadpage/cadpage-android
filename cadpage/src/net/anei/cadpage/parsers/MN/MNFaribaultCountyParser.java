@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.MN;
 import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 
 /**
- * Blue Earth County, MN
+ * Faribault County, MN
  */
 public class MNFaribaultCountyParser extends DispatchA27Parser {
   

@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /**
- * Kosciusko County, IN
+ * Adams County, IN
  */
 public class INAdamsCountyParser extends DispatchOSSIParser {
   

@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.MI;
 
 /**
- * Mecosta County, MI
+ * Osceola County, MI
  */
 public class MIOsceolaCountyParser extends MIMecostaCountyParser {
   
