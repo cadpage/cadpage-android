@@ -226,7 +226,8 @@ choyvp pynff TNJnygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:12/23/14",
         "PNYY:SVEFG ERFCBAQRE",
         "CYNPR:YBG 7",
-        "NQQE:1296 ZNTABYVN EQT", //zncf orggre nf evqtr
+        "NQQE:1296 ZNTABYVN EQT",
+        "ZNQQE:1296 ZNTABYVN EVQTR",
         "ZNC:JSQ7",
         "PVGL:ZBAEBR",
         "HAVG:R-7,QVFG1",
