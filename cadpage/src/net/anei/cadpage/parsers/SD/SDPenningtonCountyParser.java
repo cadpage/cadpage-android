@@ -28,11 +28,12 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
     if (subject.equals(".")) return parseFields(body.split("\\|"), 4, data);
     if (subject.equalsIgnoreCase("Dispatch")) return parseFireCall(body, data);
     if (subject.equalsIgnoreCase("MEDICAL")) return parseMedicalCall(body, data);
+    if (body.startsWith(":")) return parseFields(body.substring(1).split("- "), data);
     return false;
   }
 
   // *************************************************************************
-  // Parse new pipe delimited format
+  // Parse new pipe or dash delimited format
   // *************************************************************************
   
   @Override
@@ -207,40 +208,71 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
   private static final CodeSet CALL_LIST = new CodeSet(
       "AB",
       "AB-C",
+      "AB-C",
       "ACC",
       "ACCI",
+      "ACCUI",
       "ALLERGY-C",
+      "ASLT",
       "BACK",
       "BLEED-B",
+      "BLEED-D",
       "BREATH",
       "BREATH-D1",
+      "CARDIAC",
       "CARDIAC-E",
       "CHEST",
       "CHEST-D",
+      "CIV",
+      "DIABETIC",
       "EMS",
+      "EXPOSURE-A",
       "FALARM DELTA",
       "FALARM",
       "FALL",
+      "FALL-A3",
       "FALL-B",
+      "FALL-D",
+      "FALL-D2",
       "FIRE",
+      "FUEL",
       "GRASSF",
       "HEAD",
+      "HEART-C",
+      "HEART-D",
+      "LGFIRE",
+      "MP",
+      "MUTUAL",
+      "SEIZURE",
+      "SEIZURE-C",
+      "SICK PERSON DELTA LEVEL",
       "SICK",
       "SICK-C",
+      "SICK-D",
       "SMFIRE",
-      "SICK PERSON DELTA LEVEL",
-      "AB-C",
+      "SMOKE",
+      "SRV",
       "STBY",
+      "STROKE-C",
+      "STROKE-C3",
+      "STROKE-C4",
       "STRUCF",
+      "STRUCF-D9",
+      "SUIC",
       "TRANSFER",
       "TRAUMA",
       "TRAUMA-B",
       "TRAUMA-D",
-      "UNCON",
+      "TX2",
+      "TX3",
       "UNCON CHILD",
+      "UNCON",
+      "UNCON-D",
       "UNK",
       "VEHF",
-      "VEHF-B1"
+      "VEHF-B1",
+      "VEHF-D4",
+      "WAR"
   );
   
   private static final String[] CITY_LIST = new String[]{
