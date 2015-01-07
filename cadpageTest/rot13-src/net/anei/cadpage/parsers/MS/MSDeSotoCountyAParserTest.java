@@ -210,8 +210,8 @@ choyvp pynff ZFQrFbgbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SVERFG",
         "PNYY:FGEHPGHER SVER",
         "NQQE:9305 FGNGRYVAR EQ R",
-        "NCG:U",
-        "ANZR:Oyqt 4 TREZNAGBJA EQ",
+        "NCG:U Oyqt 4",
+        "K:TREZNAGBJA EQ",
         "ZNC:12P",
         "VQ:2014-0000033740");
 

@@ -700,6 +700,7 @@ class Active911Vendor extends Vendor {
       "US/WI/WaukeshaCounty",             "WIWaukeshaCountyA",
       "US/WV/BerkeleyCounty",             "WVBerkeleyCounty",
       "US/WV/HampshireCounty",            "WVHampshireCounty",
+      "US/WV/MarionCounty",               "WVMarionCounty",
       "US/WV/LincolnCounty",              "WVLincolnCounty",
       "US/WV/RaleighCounty",              "WVRaleighCounty",
       "US/WV/RoaneCounty",                "WVRoaneCounty",

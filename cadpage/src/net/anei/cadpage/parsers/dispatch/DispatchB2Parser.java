@@ -35,6 +35,7 @@ public class DispatchB2Parser extends DispatchBParser {
   private static final Pattern INTERSECT_PTN = Pattern.compile("(?:&|[NSEW]O |[NSEW][EW]? OF ).*", Pattern.CASE_INSENSITIVE);
   private static final Pattern TRAIL_DIR_PTN = Pattern.compile(" +([NSEW]B?)$");
   private static final Pattern CROSS_LABEL_PTN = Pattern.compile("\\b(?:XS|CS|C/S)[: ] *");
+  private static final Pattern BLDG_PTN = Pattern.compile("(Bldg(?: \\d+)?)\\b *"); 
   
   private String prefix;
   private boolean forceCallCode;
@@ -199,6 +200,10 @@ public class DispatchB2Parser extends DispatchBParser {
         data.strApt = append(data.strApt, " ", name.substring(0,match.start()).trim());
         name = name.substring(match.start()).trim();
       }
+      else if ((match = BLDG_PTN.matcher(name)).lookingAt()) {
+        data.strApt = append(data.strApt, " ", match.group(1));
+        name = name.substring(match.end());
+      }
       if (INTERSECT_PTN.matcher(name).matches()) {
         data.strAddress = append(data.strAddress, " ", name);
       } 
@@ -219,7 +224,7 @@ public class DispatchB2Parser extends DispatchBParser {
       // We can't turn on the FLAG_CROSS_FOLLOWS option or it will mess up followin names
       // but if we have identified a cross street, see if the address has a trailing direction
       // symbol that should be attached to the cross street.
-      if (noCross && data.strCross.length() > 0) {
+      if (noCross && data.strApt.length() == 0 && data.strCross.length() > 0) {
         match = TRAIL_DIR_PTN.matcher(data.strAddress);
         if (match.find()) {
           data.strCross = match.group(1) + ' ' + data.strCross;

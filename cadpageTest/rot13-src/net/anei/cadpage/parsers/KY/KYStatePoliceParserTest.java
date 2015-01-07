@@ -2674,8 +2674,8 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:RZF",
         "PNYY:NYY RZF/ZRQVPNY PNYYF",
         "NQQE:RYZJBBQ FG",
-        "NCG:6",
-        "ANZR:Oyqt ZVYYVR",
+        "NCG:6 Oyqt",
+        "ANZR:ZVYYVR",
         "CUBAR:5027431349",
         "VQ:2014-0000022930");
 

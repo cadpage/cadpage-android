@@ -230,8 +230,8 @@ choyvp pynff JIUneqlPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SVER",
         "PNYY:SVER TRAREVP",
         "NQQE:100 PNYRQBAVN UGF",
-        "NCG:P8",
-        "ANZR:Oyqt WBUA ZNPNIBL",
+        "NCG:P8 Oyqt",
+        "ANZR:WBUA ZNPNIBL",
         "CUBAR:3042576202",
         "VQ:2014-0000005305");
 
@@ -240,8 +240,8 @@ choyvp pynff JIUneqlPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SVER",
         "PNYY:SVER TRAREVP",
         "NQQE:100 PNYRQBAVN UGF",
-        "NCG:P8",
-        "ANZR:Oyqt WBUA",
+        "NCG:P8 Oyqt",
+        "ANZR:WBUA",
         "CUBAR:3042576202",
         "VQ:2014-0000005305");
 

@@ -664,8 +664,8 @@ choyvp pynff ZBOneelPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ZRQ",
         "PNYY:ZRQVPNY PNYY",
         "NQQE:100 J JVYFBA FG",
-        "NCG:N3",
-        "ANZR:Oyqt FVZBA, ZNEFUN",
+        "NCG:N3 Oyqt",
+        "ANZR:FVZBA, ZNEFUN",
         "CUBAR:4176523150",
         "VQ:2014-0000011139");
 
