@@ -212,6 +212,7 @@ class Active911Vendor extends Vendor {
       "US/CO/DeltaCountyAmbulance",       "CODeltaCounty",
       "US/CO/DouglasCounty",              "CODouglasCountyA",
       "US/CO/ElPasoCounty",               "COElPasoCountyA",
+      "US/CO/GarfieldCounty",             "COGarfieldCounty",
       "US/CO/MorganCounty",               "COMorganCounty",
       "US/CO/NWSAlert",                   "StandardNationalWeatherService",
       "US/CO/OlatheFire",                 "Cadpage2",

@@ -103,7 +103,7 @@ public class Message {
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
     Pattern.compile("^(\\d) *of *(\\d):"),
     Pattern.compile("^\\(?\\((\\d)/(\\d)\\)"),
-    Pattern.compile("^ *(\\d)/(\\d) / "),
+    Pattern.compile("^ *(\\d)/(\\d)(?: / |\n\n)"),
     Pattern.compile("^\\( *(\\d) +of +(\\d) *\\)"),
     Pattern.compile("^([\\w\\.]+@[\\w\\.]+) /(\\d)/(\\d) /"),
     Pattern.compile("^(\\d)/(\\d)\n+"),
@@ -117,7 +117,8 @@ public class Message {
   };
   private static final Pattern MSG_HEADER_FINAL_PTN = Pattern.compile("^(\\d)/(\\d) +");
   private static final Pattern[] SUBJECT_HEADER_PTNS = new Pattern[]{
-    Pattern.compile("^(\\d)/(\\d)$")
+    Pattern.compile("^(\\d)/(\\d)$"),
+    Pattern.compile("^\\[(\\d)/(\\d)\\] *")
   };
   private static final Pattern OPT_OUT_PTN = Pattern.compile("TXT STOP.*$");
   private static final Pattern CONT_PTN = Pattern.compile("\\(C.* \\d\\d? of \\d\\d?");

@@ -1,29 +1,24 @@
 package net.anei.cadpage.parsers.CO;
 
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Properties;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.ReverseCodeSet;
 import net.anei.cadpage.parsers.SmartAddressParser;
-
-
-
 
 public class COGarfieldCountyParser extends SmartAddressParser {
   
   private static final Pattern ID_PTN = Pattern.compile(" +(\\d{4} \\d{8})$");
-  private static final Pattern APT_PTN = Pattern.compile(" (?:APT|RM|UNIT|#) *([^ ]+)$");
-  private static final Pattern BLK_PTN = Pattern.compile("\\bblk\\b");
-  private static final Pattern PLACE_PTN = Pattern.compile("^.*[a-z]");
-  private static final Pattern PLACE2_PTN = Pattern.compile("^.*[A-Z]{2}(?=\\d)");
-  private static final Pattern LEGAL_ADDR_PTN = Pattern.compile(".*[A-Z].*");
   
   public COGarfieldCountyParser() {
-    super("GARFIELD COUNTY", "CO");
-    setFieldList("CALL PLACE ADDR APT CITY MAP ID");
-    setupCallList(CALL_LIST);
+    super(CITY_CODES, "GARFIELD COUNTY", "CO");
+    setFieldList("ADDR APT PLACE MAP CITY X CALL ID");
     setupMultiWordStreets(
         "CASTLE VALLEY",
         "CHAIR BAR",
@@ -44,95 +39,133 @@ public class COGarfieldCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.endsWith("CAD Page")) return false;
+    if (!subject.equals("CAD Page")) return false;
     
-    // Remove optional call ID
+    // Remove the  no longer optional call ID
     Matcher match = ID_PTN.matcher(body);
-    if (match.find()) {
-      data.strCallId = match.group(1);
-      body = body.substring(0,match.start());
+    if (!match.find()) return false;
+    data.strCallId = match.group(1);
+    body = body.substring(0,match.start());
+    
+    // The last thing in the line now is the call description.
+    // See if we can pick it out with our call list
+    String call = CALL_LIST.getCode(body, true);
+    if (call != null) {
+      data.strCall = call;
+      body = body.substring(0,body.length()-call.length()).trim();
     }
     
-    // Remove apt from address before checking for city/map zone
-    match = APT_PTN.matcher(body);
-    if (match.find()) {
-      data.strApt = match.group(1);
-      body = body.substring(0,match.start()).trim();
+    // We have to count on the SAP to figure everything else out
+    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS, body, data);
+    
+    // There is almost always one or two city codes, which makes things easier
+    // But occasionally there is no city and we have to deal with that
+    if (data.strCity.length() == 0) {
+      String left = getLeft();
+      if (data.strCall.length() > 0) {
+        data.strPlace = left;
+      } else {
+        data.strCall = left;
+        if (data.strCall.length() == 0) return false;
+      }
+      return true;
+    }
+
+    // We do have a city code
+    // See if it is really a map code
+    if (MAP_CODES.contains(data.strCity.toUpperCase())) {
+      data.strMap = data.strCity;
+      data.strCity = "";
     }
     
-    // The is usually a trailing city code at this point.
-    // Unfortunately dispatch is pretty sloppy about separating
-    // these fields with blanks, so we won't count on blank separators.
-    for (int len = 2; len<=4; len++) {
-      int pt = body.length() - len;
-      if (pt >= 0) {
-        String city = CITY_CODES.getProperty(body.substring(pt));
-        if (city != null) {
-          if (city.startsWith("Z")) data.strMap = city;
-          else data.strCity = city;
-          body = body.substring(0,pt).trim();
-          break;
-        }
+    // Any pad field is a place name, or possibly an apt
+    String place = getPadField();
+    if (place.length() > 0) {
+      if (place.length() <= 2) {
+        data.strApt = append(data.strApt, "-", place);
+      } else {
+        data.strPlace = place;
       }
     }
     
-    // Usually, but not always, the word "Location marks the end off the
-    // call description.  If it isn't there, we will have to count on the
-    // smart address parser to sort it out
-    StartType st = StartType.START_CALL_PLACE;
-    int flags = FLAG_START_FLD_REQ;
-    int pt = body.indexOf(" Location ");
-    if (pt >= 0) {
-      data.strCall = body.substring(0,pt).trim();
-      body = body.substring(pt+10).trim();
-      st = StartType.START_PLACE;
-      flags = 0;
-    }
+    body = getLeft();
     
-    // Once again, dispatch is rather careless about blank separators between the call/place and address
-    // Call descriptions and place names are (usually) cammel case while address 
-    // is usually upper case (except for an occasional "blk" term that we need to capitialize)
-    // So we split them at the last lower case character
-    body = BLK_PTN.matcher(body).replaceAll("BLK");
-    match = PLACE_PTN.matcher(body);
-    boolean found = match.find();
-    if (!found) {
-      match = PLACE2_PTN.matcher(body);
-      found = match.find();
+    int flags = FLAG_ONLY_CROSS | FLAG_ONLY_CITY;
+    if (data.strCall.length() > 0) {
+      flags |= FLAG_ANCHOR_END;
+    } else {
+      if (body.length() == 0) return false;
     }
-    if (found) {
-      String place = match.group();
-      String addr = body.substring(match.end()).trim();
-      
-      // Some addresses are entered in lower case now :(
-      // If what was left for an address does not contain
-      // at least one upper case letter, abandon this effort
-      if (LEGAL_ADDR_PTN.matcher(addr).matches()) {
-        if (st == StartType.START_CALL_PLACE) {
-          String call = CALL_LIST.getCode(place.toUpperCase());
-          if (call != null) {
-            data.strCall = place.substring(0,call.length());
-            data.strPlace = place.substring(call.length()).trim();
-          } else {
-            data.strCall = place;
-          }
-        } else {
-          data.strPlace = place;
+    if (body.length() > 0) {
+      Result res = parseAddress(StartType.START_ADDR, flags, body);
+      if (data.strCall.length() > 0 || res.getCity().length() > 0) {
+        String saveCity = data.strCity;
+        res.getData(data);
+        if (MAP_CODES.contains(data.strCity.toUpperCase())) {
+          data.strMap = data.strCity;
+          data.strCity = saveCity;
         }
-        body = body.substring(match.end()).trim();
-        st = StartType.START_ADDR;
-        flags = 0;
+        body = res.getLeft();
       }
-    }
-    
-    parseAddress(st, flags | FLAG_ANCHOR_END | FLAG_IMPLIED_INTERSECT, body, data);
-    
-    if (data.strAddress.length() == 0) {
-      data.strAddress = data.strPlace;
-      data.strPlace = "";
+      if (data.strCall.length() == 0) data.strCall = body;
     }
     return true;
   }
+  
+  @Override
+  public CodeSet getCallList() {
+    return CALL_LIST;
+  }
+  
+  private static final CodeSet CALL_LIST = new ReverseCodeSet(
+      "Accident",
+      "AsstCit",
+      "AsstOA",
+      "Code",
+      "Fraud Forgery",
+      "Mutual Aid Request",
+      "Suicidal Subject",
+      "Transport",
+      "Warrant",
+      "Welfare Check",
+      
+      "EAbdominal",
+      "EAllergic Reaction ",
+      "EAssault",
+      "EBack Pain",
+      "EBleeding Non traumatic",
+      "EBreathing Difficulty",
+      "EChest Pain",
+      "EChoking",
+      "EDiabetic",
+      "EEnvironmental Emergencies",
+      "EEye Problems Injury",
+      "EFalls",
+      "EGynecology Childbirth",
+      "EHeadache",
+      "EMedical Alarm",
+      "EMental Emotional Psych",
+      "EOverdose Poisoning",
+      "ESeizures",
+      "ESick Unknown",
+      "EStabbing Gunshot",
+      "EStroke",
+      "ETrauma with Injury",
+      "EUnconscious Syncope",
+      "EUnresponsive",
+      
+      "FAlarm",
+      "FBrush",
+      "FGas Leak",
+      "FElevator Alarm",
+      "FFuel Leak",
+      "FHazMat Incident",
+      "FOdor Check",
+      "FRiver Rescue",
+      "FSmoke Check",
+      "FStructure",
+      "FVehicle Fire"
+  );
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "GS",   "GLENWOOD SPRINGS",
@@ -146,66 +179,9 @@ public class COGarfieldCountyParser extends SmartAddressParser {
       "Z3",   "Z3"
   });
   
-  private static final CodeSet CALL_LIST = new CodeSet(
-      "Accident",
-      "ACCIDENT",
-      "Code",
-      "CODE",
-      
-      "EAbdominal",
-      "EABDOMINAL",
-      "EAllergic Reaction ",
-      "EALLERGIC REACTION ",
-      "EAssault",
-      "EASSAULT",
-      "EBack Pain",
-      "EBACK PAIN",
-      "EBleeding Non traumatic",
-      "EBLEEDING NON TRAUMATIC",
-      "EBreathing Difficulty",
-      "EBREATHING DIFFICULTY",
-      "EChest Pain",
-      "ECHEST PAIN",
-      "EChoking",
-      "ECHOKING",
-      "EDiabetic",
-      "EDIABETIC",
-      "EFalls",
-      "EFALLS",
-      "EGynecology Childbirth",
-      "EGYNECOLOGY CHILDBIRTH",
-      "EMedical Alarm",
-      "EMEDICAL ALARM",
-      "EMental Emotional Psych",
-      "EMENTAL EMOTIONAL PSYCH",
-      "EOverdose Poisoning",
-      "EOVERDOSE POISONING",
-      "ESeizures",
-      "ESEIZURES",
-      "ESick Unknown",
-      "ESICK UNKNOWN",
-      "EStabbing Gunshot",
-      "ESTABBING GUNSHOT",
-      "ETrauma with Injury",
-      "ETRAUMA WITH INJURY",
-      "EUnconscious Syncope",
-      "EUNCONSCIOUS SYNCOPE",
-      
-      "FAlarm",
-      "FALARM",
-      "FBrush",
-      "FBRUSH",
-      "FGas Leak",
-      "FGAS LEAK",
-      "FOdor Check",
-      "FODOR CHECK",
-      "FRiver Rescue",
-      "FRIVER RESCUE",
-      "FSmoke Check",
-      "FSMOKE CHECK",
-      "FStructure",
-      "FSTRUCTURE",
-      "FVehicle Fire",
-      "FVEHICLE FIRE"
-  );
+  private static final Set<String> MAP_CODES = new HashSet<String>(Arrays.asList(
+      "Z1",
+      "Z2",
+      "Z3"
+  ));
 }

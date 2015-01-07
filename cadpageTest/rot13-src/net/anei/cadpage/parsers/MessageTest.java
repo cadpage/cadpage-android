@@ -9,6 +9,33 @@ choyvp pynff ZrffntrGrfg {
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
+    qbCnefrGrfg("PBTnesvryqPbhagl1",
+        "xra@pnqcntr.bet",
+        "PNQ Cntr", 
+        "1/1\a\a2505 PVFNE PG 3q TF RSnyyf 2015 00000027",
+        "xra@pnqcntr.bet",
+        "PNQ Cntr", 
+        "2505 PVFNE PG 3q TF RSnyyf 2015 00000027", 
+        1, 1);
+    
+    qbCnefrGrfg("PBTnesvryqPbhagl2",
+        "xra@pnqcntr.bet",
+        "[1/1] PNQ Cntr", 
+        "2505 PVFNE PG 3q TF RSnyyf 2015 00000027",
+        "xra@pnqcntr.bet",
+        "PNQ Cntr", 
+        "2505 PVFNE PG 3q TF RSnyyf 2015 00000027", 
+        1, 1);
+    
+    qbCnefrGrfg("PBTnesvryqPbhagl3",
+        "xra@pnqcntr.bet",
+        "[1/1] PNQ Cntr", 
+        "1/1\a\a2505 PVFNE PG 3q TF RSnyyf 2015 00000027",
+        "xra@pnqcntr.bet",
+        "PNQ Cntr", 
+        "2505 PVFNE PG 3q TF RSnyyf 2015 00000027", 
+        1, 1);
+    
     qbCnefrGrfg("APEnaqbycuPbhagl",
         "xra@pnqcntr.bet",
         "Sjq: Enaqbycu 911",
@@ -271,15 +298,6 @@ choyvp pynff ZrffntrGrfg {
         "V/Cntr PNQ[FZGC:UP1@UBJNEQPBHAGLZQ.TBI]",
         "",
         "OBK 6-13 // 8713 JRGURERQ FGBAR JNL // JBEXVAT UBHFR SVER");
-    
-    qbCnefrGrfg("PBTnesvyrPbhagl",
-        "xra@pnqcntr.bet",
-        "[1/2] PNQ Cntr",
-        "1/2\a\aROernguvat Qvssvphygl Ybpngvba  Pbybenqb Fgngr Irgrevnaf Ahefvat Ubzr851 R  5GU FG EVS EZ 142",
-        "xra@pnqcntr.bet",
-        "[1/2] PNQ Cntr",
-        "ROernguvat Qvssvphygl Ybpngvba  Pbybenqb Fgngr Irgrevnaf Ahefvat Ubzr851 R  5GU FG EVS EZ 142",
-        1, 2);
     
     qbCnefrGrfg("CNTybhprfgrePbhaglO",
         "xra@pnqcntr.bet",
