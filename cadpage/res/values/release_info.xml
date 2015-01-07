@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01042015</string>
-  <string name="release_version">v1.8.01</string>
+  <string name="release_date">01072015</string>
+  <string name="release_version">v1.8.02</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -12,41 +12,21 @@ hear from you.  The best way to contact us is by using the "Email the Developer"
 Cadpage settings.\n
 \n 
 New Locations:\n
-Mendocino County, CA\n
-Barrow County, GA\n
-Decatur County, GA\n
-Calhoun County, FL\n
-Madison County, IN (alt)\n
-Ellis County, KS\n
-Scott County, KY\n
-Martin County, MN\n
-DeSoto County, MS (alt)\n
-Las Cruces, NM\n
-Beaufort County, NC\n
-Whitman County, WA\n
-Roane County, WV\n     
+Houston County, GA\n
+Walton County, GA\n
+Adams County, MI\n
+Mecosta County, MI\n
+Osceola County, MI\n
+Faribault County, MN\n
+Marion County, WV\n
+Sheboygan County, WI\n
 \n
 Location Parsing Fixes:\n
-Liberty County, GA\n
-LaRue County, KY\n
-Kentucky State Police, KY\n
-DeSoto County, MS\n
-Flathead County, MT\n
-Chanango County, NY\n
-Niagara County, NY\n
-Otsego County, NY\n
-Mecklenburg County, NC\n
-Randolph County, NC\n
-Cuyahoga County, OH\n
-Green County, OH\n
-Lackawanna County, PA\n
-Loudoun County, TN\n
-Denton County, TX\n
-New Zealand\n
-\n
-General Fixes:\n
-Occasional problem with Paging Service user not getting the same dispatch Email address
-when they switch phones.
+Garfield County, CO\n
+St Jospeh County, IN\n
+Marshall County, IN\n
+Blair County, PA\n
+Pennington County, SD\n
   </string>
 </resources>
   
