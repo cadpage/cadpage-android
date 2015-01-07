@@ -699,6 +699,7 @@ class Active911Vendor extends Vendor {
       "US/WA/WhitmanCounty",              "WAWhitmanCounty",
       "US/WI/DoorCounty",                 "WIDoorCounty",
       "US/WI/MukwonagoFire",              "WIWaukeshaCountyB",
+      "US/WI/SheboyganCounty",            "WISheboyganCounty",
       "US/WI/WaukeshaCounty",             "WIWaukeshaCountyA",
       "US/WV/BerkeleyCounty",             "WVBerkeleyCounty",
       "US/WV/HampshireCounty",            "WVHampshireCounty",
