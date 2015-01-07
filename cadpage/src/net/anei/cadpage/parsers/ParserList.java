@@ -281,6 +281,7 @@ public class ParserList {
               ,"GAFranklinCounty"               ,"Franklin County, GA"
               ,"GAHabershamCounty"              ,"Habersham County, GA"
               ,"GAHenryCounty"                  ,"Henry County, GA"
+              ,"GAHoustonCounty"                ,"Houston County, GA"
               ,"GAJacksonCounty"                ,"Jackson County, GA"
               ,"GALibertyCounty"                ,"Liberty County, GA"
               ,"GAMaconCounty"                  ,"Macon County, GA"
