@@ -143,7 +143,7 @@ choyvp pynff VYPbbxPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:NHGB NPPVQRAG JVGU VAWHEVRF",
         "CYNPR:FO RQRAF NG BYQ BEPUNEQ",
-        "NQQE:10000 RQRAF FBHGUOBHAQ",
+        "NQQE:10000 RQRAF FBHGUOBHAQ", // qbrf abg znc
         "VQ:15-0069",
         "QNGR:01/03/2015",
         "GVZR:20:31:49",
@@ -240,7 +240,7 @@ choyvp pynff VYPbbxPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:FVPX / VAWHERQ",
         "CYNPR:PUVYVF ONE & TEVYY",
-        "NQQE:5435 GBHUL NIR",
+        "NQQE:5435 GBHUL NIR", //gurfr jbhyq znc orggre j/ gur nqqvgvba bs fxbxvr
         "VQ:15-0068",
         "QNGR:01/03/2015",
         "GVZR:19:45:31",
@@ -311,7 +311,7 @@ choyvp pynff VYPbbxPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:YBPX VA YBPX BHG UBHFR",
         "CYNPR:BNX GBJRE",
-        "NQQE:9655 JBBQF QE",
+        "NQQE:9655 JBBQF QE", //qvq lbh zrna 9655 JBBQF QE, FXBXVR
         "VQ:15-0067",
         "QNGR:01/03/2015",
         "GVZR:18:44:23",
@@ -533,7 +533,7 @@ choyvp pynff VYPbbxPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:VAIRFGVTNGVBA",
         "CYNPR:ZPPBEZVPX NAQ FPUZVPXF",
         "NQQE:4999-T8 BYQ BEPUNEQ PRAGRE",
-        "ZNQQE:4999 BYQ BEPUNEQ PRAGRE",
+        "ZNQQE:4999 BYQ BEPUNEQ PRAGRE", //qbrf abg znc. jnagf zr gb ohl n grfyn!
         "VQ:15-0062",
         "QNGR:01/03/2015",
         "GVZR:10:54:49",
