@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 public class NYHerkimerCountyBParser extends DispatchA48Parser {
   
   public NYHerkimerCountyBParser() {
-    super(CITY_LIST, "HERKIMER COUNTY", "NY", FieldType.NAME);
+    super(CITY_LIST, "HERKIMER COUNTY", "NY", FieldType.NAME, A48_OPT_ONE_WORD_CODE);
   }
   
   @Override

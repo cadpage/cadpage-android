@@ -20,6 +20,7 @@ public class DispatchA48Parser extends SmartAddressParser {
    * Flag indicating the call description is a single word code
    */
   public static final int A48_ONE_WORD_CODE = 0x1;
+  public static final int A48_OPT_ONE_WORD_CODE = 0x2;
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("As of \\d\\d?/\\d\\d?/\\d\\d \\d\\d");
   private static final Pattern PREFIX_PTN = Pattern.compile("(?!\\d\\d:)([-a-z0-9]+: *)(.*)");
@@ -30,6 +31,7 @@ public class DispatchA48Parser extends SmartAddressParser {
   private FieldType fieldType;
   private boolean dateTimeInfo; 
   private boolean oneWordCode;
+  private boolean optOneWordCode;
   private Properties callCodes;
 
   public DispatchA48Parser(String[] cityList, String defCity, String defState, FieldType fieldType) {
@@ -44,6 +46,7 @@ public class DispatchA48Parser extends SmartAddressParser {
     this.fieldType = fieldType;
     dateTimeInfo = (fieldType == FieldType.DATE_TIME_INFO);
     oneWordCode = (flags & A48_ONE_WORD_CODE) != 0;
+    optOneWordCode = (flags & A48_OPT_ONE_WORD_CODE) != 0;
     this.callCodes = callCodes;
     setFieldList("SRC DATE TIME ID CODE CALL ADDR APT CITY NAME " + fieldType.toString().replace('_', ' ') + " UNIT");
   }
@@ -88,7 +91,12 @@ public class DispatchA48Parser extends SmartAddressParser {
 
     StartType st;
     int flags;
-    if (oneWordCode) {
+    if (optOneWordCode || !oneWordCode) data.strCode = p.getOptional(" - ");
+    if (data.strCode.length() > 0) {
+      st = StartType.START_CALL;
+      flags = FLAG_START_FLD_REQ;
+    } else {
+      if (oneWordCode) return false;
       st = StartType.START_ADDR;
       flags = 0;
       String code  = p.get(' ');
@@ -98,10 +106,6 @@ public class DispatchA48Parser extends SmartAddressParser {
       } else {
         data.strCall = code;
       }
-    } else {
-      st = StartType.START_CALL;
-      flags = FLAG_START_FLD_REQ;
-      data.strCode = p.get(" - ");
     }
 
     addr = p.get();
