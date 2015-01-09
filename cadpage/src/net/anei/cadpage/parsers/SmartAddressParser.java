@@ -459,8 +459,12 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_ROUTE_PFX_PFX, "STATE", "ST", "SR", "SRT", "US", "FS", "INTERSTATE", "I", "IH", "STHWY", "STHY", "SH", "USHWY", "USHY", "CO", "CR", "CORD", "COUNTY", "CTY", "FM", "FR");
     setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "ROUTE", "HW", "HY", "HWY", "HIGHWAY", "ROAD", "RD");
     setupDictionary(ID_ROUTE_PFX, "STATE", "ST", "SR", "SRT", "US", "FS", "INTERSTATE", "I", "IH", "STHWY", "STHY", "SH", "USHWY", "USHY", "CO", "CR", "CORD", "COUNTY", "CTY", "FM", "FR", "RT", "RTE", "ROUTE", "HW", "HY", "HWY", "HIGHWAY");
-    setupDictionary(ID_ROUTE_PFX_PFX, new String[]{defState});
-    setupDictionary(ID_ROUTE_PFX, new String[]{defState});
+    setupDictionary(ID_ROUTE_PFX_PFX, defState);
+    setupDictionary(ID_ROUTE_PFX, defState);
+    if (defState.equals("MI")) {
+      setupDictionary(ID_ROUTE_PFX_PFX, "M");
+      setupDictionary(ID_ROUTE_PFX, "M");
+    }
     setupDictionary(ID_PURE_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW");
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW", "NB", "EB", "SB", "WB", "EXT", 
                                   "NORTHBOUND", "EASTBOUND", "SOUTHBOUND", "WESTBOUND");

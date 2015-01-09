@@ -11158,8 +11158,9 @@ choyvp pynff ZVNyyrtnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "gur fraqre vzzrqvngryl naq qryrgr nyy pbcvrf bs gur\a" +
         "rznvy sebz lbhe flfgrz.",
 
-        "NQQE:1249 Z222 yg 9",
-        "ZNQQE:1249 FGNGR 222 yg 9",
+        "NQQE:1249 Z222",
+        "ZNQQE:1249 FGNGR 222",
+        "NCG:yg 9",
         "PVGL:Znegva Gjc",
         "CUBAR:(269) 329-8490",
         "VQ:7117",

@@ -1,7 +1,9 @@
 package net.anei.cadpage.parsers.MI;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA9Parser;
 
 
@@ -18,6 +20,23 @@ public class MIAlleganCountyParser extends DispatchA9Parser {
   @Override
   public String getFilter() {
     return "centraldispatch@allegancounty.org";
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern MNN_HWY_PTN1 = Pattern.compile("\\bM ?(\\d+) HWY");
+  private static final Pattern MNN_HWY_PTN2 = Pattern.compile("\\bM_(\\d+) HWY");
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = MNN_HWY_PTN1.matcher(field).replaceAll("M_$1 HWY");
+      super.parse(field, data);
+      data.strAddress = MNN_HWY_PTN2.matcher(data.strAddress).replaceAll("M$1 HWY");
+    }
   }
   
   @Override

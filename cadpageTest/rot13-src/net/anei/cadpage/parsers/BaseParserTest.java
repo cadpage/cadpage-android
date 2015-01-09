@@ -81,6 +81,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     vs (guvf.cnefre != ahyy) fxvcOnqGrfg = gehr;
     guvf.cnefre = cnefre;
     vs (cnefreYbpPbqr == ahyy) cnefreYbpPbqr = cnefreZncPbqr = cnefre.trgCnefrePbqr();
+    cnefre.frgGrfgZbqr(gehr);
   }
   
   choyvp ibvq frgRkcYbpPbqr(Fgevat cnefreYbpPbqr) {

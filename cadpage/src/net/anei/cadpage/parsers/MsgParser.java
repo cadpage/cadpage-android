@@ -255,6 +255,8 @@ public abstract class MsgParser {
   // List of field terms to be used when generating tests for this parser
   private String fieldList = null;
   
+  private boolean testMode = false;
+  
   public MsgParser(String defCity, String defState) {
     this(defCity, defState, CountryCode.US);
   }
@@ -268,6 +270,14 @@ public abstract class MsgParser {
     int ipt = clsName.lastIndexOf('.');
     parserCode = clsName.substring(ipt+1, clsName.length()-6);
 
+  }
+  
+  public void setTestMode(boolean testMode) {
+    this.testMode = testMode;
+  }
+  
+  public boolean isTestMode() {
+    return testMode;
   }
   
   /**

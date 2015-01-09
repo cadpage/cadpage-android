@@ -333,6 +333,7 @@ class Active911Vendor extends Vendor {
       "US/MI/AntrimCounty",               "MIAntrimCounty",
       "US/MI/BarryCounty",                "MIBarryCounty",
       "US/MI/BayCounty",                  "MIBayCountyB",
+      "US/MI/BerrienCounty",              "MIBerrienCounty",
       "US/MI/CalhounCounty",              "MICalhounCounty",
       "US/MI/CharlevoixCounty",           "MICharlevoixCounty",
       "US/MI/CharlevoixCountyDispatch",   "MICHarlevoixCounty",

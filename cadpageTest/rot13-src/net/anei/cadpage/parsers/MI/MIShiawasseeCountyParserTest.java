@@ -783,8 +783,7 @@ choyvp pynff ZVFuvnjnffrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:NYNEZ SVER;151 A QRYNARL EQ;J Z 21;J XVAT FG;BIREFVMR EBBZ CHYY  [03/28/14 08:05:25 WBARF]\a;03/28/2014 08:04:27;FPSQ;BGSQ",
         "PNYY:NYNEZ SVER",
         "NQQE:151 A QRYNARL EQ",
-        "CYNPR:J Z 21",
-        "K:J XVAT FG",
+        "K:J Z 21 & J XVAT FG",
         "VASB:BIREFVMR EBBZ CHYY / 03/28/2014 08:04:27 / FPSQ / BGSQ",
         "QNGR:03/28/14",
         "GVZR:08:05:25");
@@ -1250,8 +1249,7 @@ choyvp pynff ZVFuvnjnffrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:NZOHYNAPR PNYY",
         "NQQE:401 A RFPBGG EQ",
-        "CYNPR:R Z 21",
-        "K:R PBCNF EQ",
+        "K:R Z 21 & R PBCNF EQ",
         "VASB:NAQERN ZPQBANYQ / Nobegrq ol Zrqvpny Cevbevgl jvgu pbqr: 1. Pnyyre uhat hc / ORYVRIRF FUR ZNL UNIR NYPBUBY CBFVBAVAT",
         "QNGR:08/01/14",
         "GVZR:02:54:26");
@@ -1784,8 +1782,7 @@ choyvp pynff ZVFuvnjnffrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:CREFBANY VAWHEL NPPVQRAG/HAXA",
         "NQQE:324 A RYZJBBQ QE",
-        "CYNPR:R Z 21",
-        "K:R ZVPUNRY QE",
+        "K:R Z 21 & R ZVPUNRY QE",
         "VASB:PBA NAQ OERNGUVAT...AB OYRRQVAT...CBFFVOYR OEBXR PBYYNE OBAR / Nobegrq ol Zrqvpny Cevbevgl jvgu pbqr: NYERNQL VA / FBA E",
         "QNGR:07/17/14",
         "GVZR:13:57:35");
@@ -1796,8 +1793,7 @@ choyvp pynff ZVFuvnjnffrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:CREFBANY VAWHEL NPPVQRAG/HAXA",
         "NQQE:324 A RYZJBBQ QE",
-        "CYNPR:R Z 21",
-        "K:R ZVPUNRY QE",
+        "K:R Z 21 & R ZVPUNRY QE",
         "VASB:PBA NAQ OERNGUVAT...AB OYRRQVAT...CBFFVOYR OEBXR PBYYNE OBAR / Nobegrq ol Zrqvpny Cevbevgl jvgu pbqr: NYERNQL VA",
         "QNGR:07/17/14",
         "GVZR:13:57:35");
