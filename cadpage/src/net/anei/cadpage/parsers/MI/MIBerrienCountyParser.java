@@ -26,7 +26,7 @@ public class MIBerrienCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("DISPATCHED")) return new SkipField("Dispatched", true);
+    if (name.equals("DISPATCHED")) return new SkipField("Dispatched|Enroute", true);
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
@@ -195,8 +195,10 @@ public class MIBerrienCountyParser extends FieldProgramParser {
     "CAMPUS CIRCLE",
     "CLEAR LAKE",
     "COMMUNITY HALL",
+    "COUNTRY AIRE",
     "COUNTRY KNOLL",
     "COUNTY LINE",
+    "DAN SMITH",
     "DANIEL BOONE",
     "DEANS HILL",
     "DEER PARK",
@@ -241,6 +243,7 @@ public class MIBerrienCountyParser extends FieldProgramParser {
     "RIVERSIDE POINTE",
     "ROCKY WEED",
     "ROSE HILL",
+    "ROYAL CURVE",
     "SHAKER FARM",
     "SINGER LAKE",
     "SPRING CREEK",
@@ -251,6 +254,7 @@ public class MIBerrienCountyParser extends FieldProgramParser {
     "ST JOSEPH",
     "STATE LINE",
     "STELTER FARM",
+    "STRAWBERRY ROW",
     "THREE OAKS",
     "TOWER HILL",
     "TOWN HALL",
@@ -258,7 +262,8 @@ public class MIBerrienCountyParser extends FieldProgramParser {
     "VALLEY VIEW",
     "WALTON E RIVERSIDE",
     "WARREN WOODS",
-    "WILD DUNES"
+    "WILD DUNES",
+    "WOODS EDGE"
  
   };
   
