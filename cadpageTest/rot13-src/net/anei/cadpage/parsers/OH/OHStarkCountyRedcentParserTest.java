@@ -17,6 +17,12 @@ Fraqre: 777
 .... (SVER) -ANGHER: RZF \a-YBPNGVBA: 10751 WBUAFGBA FG AJ -GJC \a-ORGJRRA: NXEBA / UVTUZVYY \a-PBZZRAGF: DHNQENCNYRTVP ZNYR 48 LBN NYYRETVP ERNPGVBA GB ZRQF
 .... (SVER) -ANGHER: ZHGHNY NVQ \a-YBPNGVBA: 1957 ZG RNGBA \a-PBZZRAGF: FGEHPGHER SVER PEBFF EBNQF EHQL NAQ PUHEPU
 
+Pbagnpg: zvxrny fgriraf <zfgriraf0510@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+ 1 bs 2\aSEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:SVER\aZFT:-ANGHER: RZF \a-YBPNGVBA: 10751 WBUAFGBA FG AJ -GJC \a-ORGJRRA: NXEBA / UVTUZVYY\a(Pba'g) 2 bs 2\a\a-PBZZRAGF: DHNQENCNYRTVP ZNYR 48 LBN NYYRETVP ERNPGVBA GB ZRQF(Raq)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:SVER\aZFT:-ANGHER: FGVYY NYNEZ \a-YBPNGVBA: 732 TERRAJBBQ QE -PVGL \a-ORGJRRA: YBATIVRJ / EVRF \a-PBZZRAGF: P 0 NYNEZ
+ 1 bs 2\aSEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:SVER\aZFT:-ANGHER: RZF \a-YBPNGVBA: 944 R PUREEL FG -PVGL \a-ORGJRRA: FGRVARE / FGENHFFRE\a(Pba'g) 2 bs 2\a\a-PBZZRAGF: SRZNYR YRT CNVA NSVO 78 LBN(Raq)
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pnany Shygba SQ
 Ybpngvba: Pnany Shygba, BU, Havgrq Fgngrf
@@ -550,6 +556,69 @@ choyvp pynff BUFgnexPbhaglErqpragCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:FGEHPGHER SVER PEBFF EBNQF EHQL NAQ PUHEPU");
 
  }
+  
+  @Grfg
+  choyvp ibvq grfgZvxryFgriraf() {
+
+     qbGrfg("G1",
+         " 1 bs 2\a" +
+         "SEZ:zrffntvat@vnzerfcbaqvat.pbz\a" +
+         "FHOW:SVER\a" +
+         "ZFT:-ANGHER: RZF \a" +
+         "-YBPNGVBA: 10751 WBUAFGBA FG AJ -GJC \a" +
+         "-ORGJRRA: NXEBA / UVTUZVYY\a" +
+         "(Pba'g) 2 bs 2\a\a" +
+         "-PBZZRAGF: DHNQENCNYRTVP ZNYR 48 LBN NYYRETVP ERNPGVBA GB ZRQF(Raq)",
+
+         "PNYY:RZF",
+         "NQQE:10751 WBUAFGBA FG AJ",
+         "K:NXEBA / UVTUZVYY",
+         "VASB:DHNQENCNYRTVP ZNYR 48 LBN NYYRETVP ERNPGVBA GB ZRQF");
+
+     qbGrfg("G2",
+         "SEZ:zrffntvat@vnzerfcbaqvat.pbz\a" +
+         "FHOW:SVER\a" +
+         "ZFT:-ANGHER: FGVYY NYNEZ \a" +
+         "-YBPNGVBA: 732 TERRAJBBQ QE -PVGL \a" +
+         "-ORGJRRA: YBATIVRJ / EVRF \a" +
+         "-PBZZRAGF: P 0 NYNEZ",
+
+         "PNYY:FGVYY NYNEZ",
+         "NQQE:732 TERRAJBBQ QE",
+         "K:YBATIVRJ / EVRF",
+         "VASB:P 0 NYNEZ");
+
+     qbGrfg("G3",
+         " 1 bs 2\a" +
+         "SEZ:zrffntvat@vnzerfcbaqvat.pbz\a" +
+         "FHOW:SVER\a" +
+         "ZFT:-ANGHER: RZF \a" +
+         "-YBPNGVBA: 10751 WBUAFGBA FG AJ -GJC \a" +
+         "-ORGJRRA: NXEBA / UVTUZVYY\a" +
+         "(Pba'g) 2 bs 2\a\a" +
+         "-PBZZRAGF: DHNQENCNYRTVP ZNYR 48 LBN NYYRETVP ERNPGVBA GB ZRQF(Raq)",
+
+         "PNYY:RZF",
+         "NQQE:10751 WBUAFGBA FG AJ",
+         "K:NXEBA / UVTUZVYY",
+         "VASB:DHNQENCNYRTVP ZNYR 48 LBN NYYRETVP ERNPGVBA GB ZRQF");
+
+     qbGrfg("G4",
+         " 1 bs 2\a" +
+         "SEZ:zrffntvat@vnzerfcbaqvat.pbz\a" +
+         "FHOW:SVER\a" +
+         "ZFT:-ANGHER: RZF \a" +
+         "-YBPNGVBA: 944 R PUREEL FG -PVGL \a" +
+         "-ORGJRRA: FGRVARE / FGENHFFRE\a" +
+         "(Pba'g) 2 bs 2\a\a" +
+         "-PBZZRAGF: SRZNYR YRT CNVA NSVO 78 LBN(Raq)",
+
+         "PNYY:RZF",
+         "NQQE:944 R PUREEL FG",
+         "K:FGRVARE / FGENHFFRE",
+         "VASB:SRZNYR YRT CNVA NSVO 78 LBN");
+
+  }
 
   @Grfg
   choyvp ibvq grfgPnanyShygbaSQ() {
