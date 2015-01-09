@@ -20,12 +20,13 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "dispatch@co.pennington.sd.us,dispatch@pennco.org";
+    return "dispatch@co.pennington.sd.us,dispatch@pennco.org,777";
   }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (subject.equals(".")) return parseFields(body.split("\\|"), 4, data);
+    String[] flds = body.split("\\|");
+    if (flds.length >= 4) return parseFields(body.split("\\|"), 4, data);
     if (subject.equalsIgnoreCase("Dispatch")) return parseFireCall(body, data);
     if (subject.equalsIgnoreCase("MEDICAL")) return parseMedicalCall(body, data);
     if (body.startsWith(":")) return parseFields(body.substring(1).split("- "), data);
