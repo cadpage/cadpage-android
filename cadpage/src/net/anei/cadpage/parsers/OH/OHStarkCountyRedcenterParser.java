@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 
@@ -21,6 +22,18 @@ public class OHStarkCountyRedcenterParser extends DispatchEmergitechParser {
     return "RED@sssnet.com,messaging@iamresponding.com,777";
   }
   
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    // Fix some IAR message "improvements"
+    body = body.replace(" \n-", " ");
+    if (body.startsWith("-NATURE:")) body = "RED:[XXX]" + body;
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strUnit.equals("XXX")) data.strUnit = "";
+    if (data.strName.startsWith("-")) data.strName = "";
+    return true;
+  }
+
+
   private static final String[] CITY_LIST = new String[]{
     // Cities
     "ALLIANCE",
