@@ -148,7 +148,7 @@ Ybpngvba: Phzzvat, TN, Havgrq Fgngrf
 choyvp pynff TNSbeflguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp TNSbeflguPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "SBEFLGU PBHAGL", "TN");
+    frgCnefre(arj TNSbeflguPbhaglCnefre(), "SBEFLGU PBHAGL", "TN");
   }
   
   @Grfg
