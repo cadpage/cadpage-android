@@ -167,8 +167,9 @@ choyvp pynff ZVNycranPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NYCRANPBHAGL.BET:CVN >CREFBANY VAWHEL NPPVQRAG Z-32 JRFG - A FRPGBE IREVMBA JVERYRFF Pnq: 2014-0000010450",
         "PBQR:CVN",
         "PNYY:CREFBANY VAWHEL NPPVQRAG",
-        "NQQE:Z-32 JRFG - A FRPGBE", //qbrf abg znc
-        "ZNQQE:FGNGR 32 JRFG - A FRPGBE", //qbrf abg znc
+        "NQQE:Z-32",
+        "ZNQQE:FGNGR 32",
+        "ANZR:JRFG - A FRPGBE",
         "VQ:2014-0000010450");
 
     qbGrfg("G14",

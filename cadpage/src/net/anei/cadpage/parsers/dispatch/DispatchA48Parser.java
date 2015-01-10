@@ -96,7 +96,7 @@ public class DispatchA48Parser extends SmartAddressParser {
       st = StartType.START_CALL;
       flags = FLAG_START_FLD_REQ;
     } else {
-      if (oneWordCode) return false;
+      if (!optOneWordCode && !oneWordCode) return false;
       st = StartType.START_ADDR;
       flags = 0;
       String code  = p.get(' ');
