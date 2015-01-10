@@ -41,7 +41,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   // Flag indicating call description follows address
   public static final int DSFLAG_FOLLOW_CALL = 0x200;
-  
+
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("(\\d{8});([-A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
   private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
   private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-0-9]+)$");
@@ -144,6 +145,15 @@ public class DispatchSouthernParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    Matcher match = RUN_REPORT_PTN.matcher(body);
+    if (match.matches()) {
+      data.strCall = "RUN REPORT";
+      data.strCallId = match.group(1);
+      data.strUnit = match.group(2);
+      data.strPlace = body.substring(match.end(2)).trim();
+      return true;
+    }
+    
     if (parseFieldOnly) {
       if (!parseFields(body.split(";"), data)) return false;
     }
@@ -151,7 +161,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     else {
       // Message must always start with dispatcher ID, which we promptly discard
       if (leadDispatch || optDispatch) {
-        Matcher match = LEAD_PTN.matcher(body);
+        match = LEAD_PTN.matcher(body);
         if (match.find()) {
           body = body.substring(match.end()).trim();
         } else if (!optDispatch) return false;
@@ -159,7 +169,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
       
       // See if this looks like one of the new comma delimited page formats
       // If it is, let FieldProgramParser handle it.
-      Matcher match = NAKED_TIME_PTN.matcher(body);
+      match = NAKED_TIME_PTN.matcher(body);
       if (!match.find()) return false;
       String delim = match.group(1);
       if (delim.charAt(0) != ' ') {
