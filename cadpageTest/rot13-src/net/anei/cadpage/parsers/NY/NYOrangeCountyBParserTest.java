@@ -49,8 +49,10 @@ QRCG38     GLC: FZBXR VAIRFGVTNGVBA NQ: 4 JEVTUG FG PGL: CBEG WREIVF PA: OVFUBC,
 
 Benatr Pbhagl, AL
 Pbagnpg: Obo Dhnpxraohfu <eqdhnpxraohfu@pisq-sver.bet>
+Pbagnpg: Obo Dhnpxraohfu <oboawbnad@tznvy.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 1 bs 3\aSEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Pebabzre Inyyrl\aZFT:VAP: S09121115000892 GLC: NAABHAPRZRAG NQ: 296 A CYNAX EQ PGL: ARJOHETU PA: 09P2\a(Pba'g) 2 bs 3\aPZG1: NAL ZRZOREF NINVY SBE N QRCYBLZRAG GB ANFFHN PB SEV ZBEA GB PBAGNPG PNE2 PZG2: OL PRYY GVZR: 18:21 KFG: 1 OREEL YA KFG2: 1 JRLNAGF\a(Pba'g) 3 bs 3\aYA\a\a\aGuvf zrffntr unf orra fpnaarq sbe znyjner.\a\a(Raq)
+1 bs 2\aSEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Pebabzre Inyyrl\aZFT:VAP: S09150110000030 \aGLC: ZHGHNY NVQ PNYY \aNQ: PYVAGBAQNYR SVER UBHFR \aPA:\a(Pba'g) 2 bs 2\aHYFGRE 911 \aPZG1: ERDHRFG N PERJ BS 5 SS GB FGNTR NG GUR PYVAGBAQNYR SVER UBHFR NAQ OR CERC \aPZG2: NVEQ SBE BIREUNHY GVZR: 07:18\a\a\a(Raq)
 
 Pbagnpg: Wbua Fcbfngb <wbuafcbpsq221@tznvy.pbz>
 Fraqre: @bp911.fznegzft.pbz
@@ -648,7 +650,7 @@ choyvp pynff ALBenatrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgCnefre2() {
+  choyvp ibvq grfgOboDhnpxraohfu() {
 
     qbGrfg("G1",
         "1 bs 3\a" +
@@ -670,6 +672,28 @@ choyvp pynff ALBenatrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:NAL ZRZOREF NINVY SBE N QRCYBLZRAG GB ANFFHN PB SEV ZBEA GB PBAGNPG PNE2 / OL PRYY",
         "GVZR:18:21",
         "K:1 OREEL YA & 1 JRLNAGF YA");
+
+    qbGrfg("G1",
+        "1 bs 2\a" +
+        "SEZ:zrffntvat@vnzerfcbaqvat.pbz\a" +
+        "FHOW:Pebabzre Inyyrl\a" +
+        "ZFT:VAP: S09150110000030 \a" +
+        "GLC: ZHGHNY NVQ PNYY \a" +
+        "NQ: PYVAGBAQNYR SVER UBHFR \a" +
+        "PA:\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "HYFGRE 911 \a" +
+        "PZG1: ERDHRFG N PERJ BS 5 SS GB FGNTR NG GUR PYVAGBAQNYR SVER UBHFR NAQ OR CERC \a" +
+        "PZG2: NVEQ SBE BIREUNHY GVZR: 07:18\a\a\a" +
+        "(Raq)",
+
+        "VQ:S09150110000030",
+        "PNYY:ZHGHNY NVQ PNYY",
+        "NQQE:PYVAGBAQNYR SVER UBHFR",
+        "ANZR:HYFGRE 911",
+        "PVGL:HYFGRE PBHAGL",
+        "VASB:ERDHRFG N PERJ BS 5 SS GB FGNTR NG GUR PYVAGBAQNYR SVER UBHFR NAQ OR CERC / NVEQ SBE BIREUNHY",
+        "GVZR:07:18");
 
   }
   
