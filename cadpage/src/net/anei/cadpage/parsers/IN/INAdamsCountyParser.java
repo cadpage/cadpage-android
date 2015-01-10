@@ -20,7 +20,7 @@ public class INAdamsCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "CAD@co.adams.in.us ";
+    return "CAD@co.adams.in.us";
   }
   
   @Override
