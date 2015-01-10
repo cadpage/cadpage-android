@@ -15,6 +15,11 @@ public class CTOldSaybrookParser extends FieldProgramParser {
   }
   
   @Override
+  public String getFilter() {
+    return "noreply@oldsaybrook911.com";
+  }
+  
+  @Override
   public boolean parseMsg(String body, Data data) {
     return parseFields(body.split("\n"), data);
   }
