@@ -41,7 +41,6 @@ PERFN ZCH: R43 NEEVIRQ EBBZ NAQ PBAGRAGF SVER.... RIREL1 BHG BS GUR UBHFR.... T/
 Pbagnpg: Zngg Uvrgre <zngguvrgre@tznvy.pbz>
 PERFN YBP: AR 259GU FG/AR 72AQ NIR PYX ZNC: 4229 BCF: BCF52  GENSSVP NPPVQRAG FHO GLCR: O1 CEV: 3 GVZR: 15:58:52 RI#: 14412187 NYNEZ: 1  Qvfc: R33,R63,JG26
 
-**** ABG CNEFVAT ****
 Pbagnpg: 3609072198@igrkg.pbz
 PERFN YBP: 2232 A SBEX EQ  FGEHPGHER SVER FHO GLCR: E CEV: 1 GVZR: 00:08:23 RI#: 15006105 NYNEZ: 1  HAVGF:FD96
 
@@ -659,7 +658,20 @@ choyvp pynff JNPynexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfg3609072198() {
-    
+
+    frgQrsnhygf("", "JN");
+    qbGrfg("G1",
+        "PERFN YBP: 2232 A SBEX EQ  FGEHPGHER SVER FHO GLCR: E CEV: 1 GVZR: 00:08:23 RI#: 15006105 NYNEZ: 1  HAVGF:FD96",
+        "FEP:PERFN",
+        "NQQE:2232 A SBEX EQ",
+        "PNYY:FGEHPGHER SVER",
+        "PBQR:E",
+        "CEV:1",
+        "GVZR:00:08:23",
+        "VQ:15006105",
+        "HAVG:FD96");
+    frgQrsnhygf("PYNEX PBHAGL", "JN");
+
   }
 
   @Grfg

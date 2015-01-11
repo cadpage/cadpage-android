@@ -13,9 +13,11 @@ public class WAClarkCountyParser extends FieldProgramParser {
   
   private static final Pattern GEN_ALERT_PTN = Pattern.compile("([^ ]*) *\\bMPU: *(.*)");
   
+  private String select;
+  
   public WAClarkCountyParser() {
     super(CITY_CODES, "CLARK COUNTY", "WA",
-           "SRC LOC:ADDR/S! MAP:MAP! OPS:CALL! SUB_TYPE:CODE! PRI:PRI! TIME:TIME! EV#:ID! ALARM:SKIP! Disp:UNIT!");
+           "SRC LOC:ADDR/S! ( MAP:MAP! OPS:CALL! | ) SUB_TYPE:CODE! PRI:PRI! TIME:TIME! EV#:ID! ALARM:SKIP! Disp:UNIT!");
   }
   
   @Override
@@ -42,6 +44,11 @@ public class WAClarkCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public String getSelectValue() {
+    return select;
+  }
+  
+  @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("CALL")) return new MyCallField();
@@ -51,15 +58,34 @@ public class WAClarkCountyParser extends FieldProgramParser {
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      data.strPlace = p.getLastOptional(": @");
-      data.strApt = p.getLastOptional(',');
-      super.parse(p.get(), data);
+      
+      // Next field will generally be a MAP: field.  If it is not, then this
+      // is an OOC mutual aid call.  THere is not MAP or OPS: field, the 
+      // call description is concatenated with the address, hopefully with a
+      // double blank separator, and there is no city
+      if (!getRelativeField(+1).startsWith("MAP:")) {
+        data.defCity = "";
+        int pt = field.lastIndexOf("  ");
+        if (pt >= 0) {
+          data.strCall = field.substring(pt+2).trim();
+          super.parse(field.substring(0,pt).trim(), data);
+        } else {
+          parseAddress(StartType.START_ADDR, field, data);
+          data.strCall = getLeft();
+          if (data.strCall.length() == 0) abort();
+        }
+        
+      } else {
+        Parser p = new Parser(field);
+        data.strPlace = p.getLastOptional(": @");
+        data.strApt = p.getLastOptional(',');
+        super.parse(p.get(), data);
+      }
     }
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames() + " PLACE";
+      return super.getFieldNames() + " PLACE CALL";
     }
   }
   
