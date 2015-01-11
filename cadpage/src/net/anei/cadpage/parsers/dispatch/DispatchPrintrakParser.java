@@ -72,7 +72,7 @@ public class DispatchPrintrakParser extends FieldProgramParser {
     int version = (flags & FLG_VERSION_MASK);
     String program = 
         (version == FLG_VERSION_1 ?
-            "( AD:ADDR! LOC:CITY! TIME:TIME TYP:CALL! | " +
+            "( AD:ADDR! LOC:CITY TIME:TIME TYP:CALL! | " +
               "SRC PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE CN:NAME CMT1:" + cmt1Fld +  
               " Original_Location:PLACE2? CMT2:INFO Original_Location:PLACE2? CE:INFO? CMT2:INFO CALLER_STATEMENT:INFO? STATEMENT:INFO? TIME:TIME UNTS:UNIT XST:X XST2:X UNTS:UNIT XST:X XST2:X )"
         : version == FLG_VERSION_2 ?
@@ -80,8 +80,11 @@ public class DispatchPrintrakParser extends FieldProgramParser {
         : null);    
     return setExpectFlag(program, expTerm);
   }
-  
+
+  private static final Pattern BREAK_PTN = Pattern.compile(" *\n *");
+  @Override
   protected boolean parseMsg(String body, Data data) {
+    body = BREAK_PTN.matcher(body).replaceAll(" ");
     body = body.replace(" CMTS:", " CMT1:").replace("AD:", " AD:");
     body = body.replace(" CALLER / STATEMENT:", " CALLER STATEMENT:");
     body = body.replace(" CALLER CMT2:", " CMT2:");

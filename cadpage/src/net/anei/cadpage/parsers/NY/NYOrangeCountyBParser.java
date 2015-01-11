@@ -25,7 +25,6 @@ public class NYOrangeCountyBParser extends DispatchPrintrakParser {
   public boolean parseMsg(String body, Data data) {
     int pt = body.indexOf("\n\n");
     if (pt >= 0) body = body.substring(0,pt).trim();
-    body = body.replace('\n', ' ');
     body = cleanExtendedChars(body);
     if (!super.parseMsg(body, data)) return false;
     
@@ -39,5 +38,10 @@ public class NYOrangeCountyBParser extends DispatchPrintrakParser {
       data.strCity = data.strCity.substring(0, data.strCity.length()-2).trim();
     }
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("NAME", "CITY NAME");
   }
 }
