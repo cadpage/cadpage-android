@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.dispatch;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -14,7 +15,8 @@ public class DispatchA25Parser extends FieldProgramParser {
   private static final Pattern RUN_REPORT_PTN2 = Pattern.compile("^OCC #\\d\\d-\\d+, INC #(\\d\\d-\\d+)");
   private static final Pattern MARKER = Pattern.compile("NEWOCC #OUTS  +|ALERT - OCC #OUTS +|NEW(?:INC|OCC) #([-0-9]+) +");
   private static final Pattern MISSING_DELIM = Pattern.compile(",? (?=Phone:)");
-  private static final Pattern ALTERNATE_PTN = Pattern.compile("NEW (.*)[-,] ([ A-Za-z]+)");
+  private static final Pattern ALTERNATE_PTN = Pattern.compile("NEW (?:(\\d\\d?-\\d\\d?-[A-Z]{2}) )?(.*)[-,] ([ A-Za-z]+)");
+  private static final Pattern PLACE_ADDR_PREFIX_PTN = Pattern.compile("([NSEW]B)|(.*)(?:&| and)", Pattern.CASE_INSENSITIVE);
   
   public DispatchA25Parser(String defCity, String defState) {
     super(defCity, defState,
@@ -59,17 +61,55 @@ public class DispatchA25Parser extends FieldProgramParser {
     
     match = ALTERNATE_PTN.matcher(body);
     if (match.matches()) {
-      setFieldList("CALL ADDR APT CITY");
-      String addr = match.group(1).trim();
-      data.strCity = match.group(2).trim();
-      int pt = addr.indexOf(" - ");
+      setFieldList("CODE CALL PLACE ADDR APT CITY");
+      data.strCode = getOptGroup(match.group(1));
+      String addr = match.group(2).trim();
+      data.strCity = match.group(3).trim();
+      
+      String place = "";
+      int pt = addr.lastIndexOf('@');
+      if (pt >= 0) {
+        place = addr.substring(pt+1).trim();
+        addr = addr.substring(0,pt);
+      }
+      
+      pt = addr.indexOf(" - ");
       if (pt >= 0) {
         data.strCall = addr.substring(0,pt).trim();
+        CodeSet callList = getCallList();
+        if (callList != null) {
+          String call = callList.getCode(data.strCall.toUpperCase(), true);
+          if (call != null) {
+            data.strPlace = data.strCall.substring(call.length()).trim();
+            data.strCall = data.strCall.substring(0, call.length());
+          }
+        }
         parseAddress(addr.substring(pt+3).trim(), data);
-        return true;
+      } else {
+        parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, addr, data);
+        if (data.strAddress.length() == 0) {
+          if (data.strPlace.length() == 0) return false;
+          parseAddress(data.strPlace, data);
+          data.strPlace = "";
+        }
       }
-      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, addr, data);
-      return (data.strAddress.length() > 0);
+      
+      // See if place looks like it should really be prefixed to the address
+      match = PLACE_ADDR_PREFIX_PTN.matcher(data.strPlace);
+      if (match.matches()) {
+        String tmp = match.group(1);
+        String sep = " ";
+        if (tmp == null) {
+          tmp = match.group(2).trim();
+          sep = " & ";
+        }
+        data.strAddress = append(tmp, sep, data.strAddress);
+        data.strPlace = "";
+      }
+      
+      // Append previously identified place name
+      data.strPlace = append(data.strPlace, " - ", place);
+      return true;
     }
     return false;
   }
