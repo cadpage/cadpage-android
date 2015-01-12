@@ -492,6 +492,7 @@ public class ParserList {
               ,"MIAntrimCounty"                 ,"Antrim County, MI"
               ,"MIBarryCounty"                  ,"Barry County, MI"
               ,"MIBayCounty"                    ,"Bay County, MI"
+              ,"MIBerrienCounty"                ,"Berrien County, MI"
               ,"MICalhounCounty"                ,"Calhoun County, MI"
               ,"MICharlevoixCounty"             ,"Charlevoix County, MI"
               ,"MICheboyganCounty"              ,"Cheboygan County, MI"
