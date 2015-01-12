@@ -270,6 +270,7 @@ class Active911Vendor extends Vendor {
       "US/IN/MadisonCounty",              "INMadisonCounty",
       "US/IN/PorterCounty",               "INPorterCounty",
       "US/IN/ShelbyCounty",               "INShelbyCounty",
+      "US/IL/Skokie",                     "ILCookCountyB",
       "US/IN/VigoCounty",                 "INVigoCounty",
       "US/IN/WayneCounty",                "INWayneCountyBParser",
       "US/KS/AndersonCounty",             "KSAndersonCounty",

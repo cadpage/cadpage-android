@@ -692,7 +692,7 @@ public class MsgInfo {
   
   // Clean up and NB, SB, EB, or WB words
 
-  private static final Pattern DIRBOUND_PAT = Pattern.compile("\\s*(?<![A-Z])(?:NB|SB|EB|WB)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DIRBOUND_PAT = Pattern.compile("\\s*(?:(?<![A-Z])(?:NB|SB|EB|WB)|NORTHBOUND|EASTBOUND|SOUTHBOUND|WESTBOUND)\\b", Pattern.CASE_INSENSITIVE);
   private String cleanBounds(String sAddr) {
     Matcher match = DIRBOUND_PAT.matcher(sAddr);
     return match.replaceAll("").trim();
