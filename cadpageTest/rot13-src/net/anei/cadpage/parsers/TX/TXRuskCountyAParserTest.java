@@ -982,7 +982,7 @@ choyvp pynff GKEhfxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G4",
         "1037 SZ 840;YBCRM,ZNGGURJ;9369005079;15000374;18:17:02;SVERF-TENFF-JBBQ;FZNYY CNFGHER SVER",
         "NQQE:1037 SZ 840",
-        "ZNQQE:1037 SNEZ-GB-ZNEXRG 840",
+        "ZNQQE:1037 SNEZ-GB-ZNEXRG 840", //qbrf abg znc
         "ANZR:YBCRM,ZNGGURJ",
         "CUBAR:9369005079",
         "VQ:15000374",
@@ -1018,7 +1018,7 @@ choyvp pynff GKEhfxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G8",
         "6649 SZ 13 Uraqrefba;PBEQ 416n K;15000055;23:08:04;NZOHYNAPR;PURFG CNVAF UK BS URNEG CEBOYRZF BPN: 15000055",
         "NQQE:6649 SZ 13",
-        "ZNQQE:6649 SNEZ-GB-ZNEXRG 13",
+        "ZNQQE:6649 SNEZ-GB-ZNEXRG 13", //qbrf abg znc
         "PVGL:Uraqrefba",
         "ANZR:PBEQ 416n K",
         "VQ:15000055",
@@ -1036,7 +1036,7 @@ choyvp pynff GKEhfxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G10",
         "2380 PBEQ 229Q Uraqrefba;14025307;22:42:11;NZOHYNAPR;NQIVFRF URE 71 LBN SNGURE VF HANOYR GB OERNGU BPN: 14025307",
         "NQQE:2380 PBEQ 229Q",
-        "ZNQQE:2380 PBHAGL EBNQ 229Q",
+        "ZNQQE:2380 PBHAGL EBNQ 229Q", //qbrf abg znc
         "PVGL:Uraqrefba",
         "VQ:14025307",
         "GVZR:22:42:11",
@@ -1419,7 +1419,7 @@ choyvp pynff GKEhfxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G6",
         "4 FO YNXR PUREBXRR;FZVGU,ENL ZEF;9036430670;15000279;17:22:43;NZOHYNAPR;79 LBN UHFONAQ/CNYR/HAERFCBAFVIR  TNFCVAT SBE NVE BPN: 15000279",
         "NQQE:4 FO YNXR PUREBXRR",
-        "ZNQQE:4 YNXR PUREBXRR",
+        "ZNQQE:4 YNXR PUREBXRR", //qbrf abg znc
         "ANZR:FZVGU,ENL ZEF",
         "CUBAR:9036430670",
         "VQ:15000279",
@@ -1501,7 +1501,7 @@ choyvp pynff GKEhfxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G16",
         "13380 PBEQ 2126 A;14024558;01:23:04;NZOHYNAPR;PNYYRE NQI GUNG URE UHFONAQ ARRQRQ URYC TRGGVAT BHG BS GUR ONGU GHO UR JNF QVFNOYRQ NAQ UNQ ORRA  VA BPN: 14024558",
         "NQQE:13380 PBEQ 2126 A",
-        "ZNQQE:13380 PBHAGL EBNQ 2126 A",
+        "ZNQQE:13380 PBHAGL EBNQ 2126 A", //qbrf abg znc
         "VQ:14024558",
         "GVZR:01:23:04",
         "PNYY:NZOHYNAPR",
@@ -2021,7 +2021,7 @@ choyvp pynff GKEhfxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "195 QRRE GENVY;14025048;13:14:42;ZVFFVAT CREFBA;JVSR 65 LBN GRAN ZNEGVARM UNF QRZRAGVN UNF ORRA ZVFFVAT SBE BIRE NA UBHE",
-        "NQQE:195 QRRE GENVY",
+        "NQQE:195 QRRE GENVY", //qbrf abg znc
         "VQ:14025048",
         "GVZR:13:14:42",
         "PNYY:ZVFFVAT CREFBA",

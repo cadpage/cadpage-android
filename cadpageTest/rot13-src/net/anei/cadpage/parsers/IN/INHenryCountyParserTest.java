@@ -145,7 +145,7 @@ choyvp pynff VAUraelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "FEP:NYYS",
         "PNYY:OEI - Pybfrq / Gev - 2 Ue Qrynl",
-        "NQQE:Fpubby Qrynl - Pybfvat",
+        "NQQE:Fpubby Qrynl - Pybfvat", //abg na nqqerff
         "PVGL:Arj Pnfgyr");
 
     qbGrfg("G2",
@@ -155,7 +155,7 @@ choyvp pynff VAUraelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "FEP:NYYS",
         "PNYY:VASBEZNGVBA",
-        "NQQE:Fpubby Pybfvat",
+        "NQQE:Fpubby Pybfvat", //abg na nqqerff
         "PVGL:Arj Pnfgyr",
         "VASB:Ng guvf gvzr NYY Urael Pbhagl Fpubbyf ner pybfrq.");
 
@@ -280,7 +280,7 @@ choyvp pynff VAUraelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "FEP:YVSQ",
         "PNYY:NYREG",
-        "NQQE:346 A 300R",
+        "NQQE:346 A 300R", //zncf orggre 300 R
         "PVGL:Arj Pnfgyr");
 
     qbGrfg("G14",
