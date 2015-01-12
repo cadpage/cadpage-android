@@ -110,7 +110,7 @@ choyvp pynff JVRnhPynverCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:16:48:14",
         "PVGL:Havba",
         "NQQE:V-94, 59zz, Jrfgobhaq",
-        "ZNQQE:V 94, 59zz, Jrfgobhaq",
+        "ZNQQE:V 94, 59zz",
         "PNYY:Zbgbeiruvpyr Pbyyvfvba",
         "VASB:10/50 CV");
 
@@ -228,6 +228,7 @@ choyvp pynff JVRnhPynverCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:08:14:11",
         "PVGL:Frlzbhe",
         "NQQE:Serrjnl 53 92zz Fbhguobhaq",
+        "ZNQQE:Serrjnl 53 92zz",
         "PNYY:Iruvpyr Sver",
         "VASB:iruvpyr sver");
 

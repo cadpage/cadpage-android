@@ -440,6 +440,7 @@ choyvp pynff HGFnygYnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Haxabja Ceboyrz",
         "CYNPR:ZPPYRYYNAQ FG / FHTNEZBAG QE",
         "NQQE:2225 F -",
+        "ZNQQE:2225 F",
         "FEP:PS",
         "PBQR:32Q01",
         "VASB:ARNE GENK YVAR...2AQ UNAQ GB BSP QHGL BSP..ARNE GUR F YVAR NAQ BYQ TENAVGR SHEAVGHER....CBFF RGBU ... FRR ERYNGRQ PC#: FY14-97080");
@@ -1677,7 +1678,7 @@ choyvp pynff HGFnygYnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:15:25:31",
         "PNYY:SNYY",
         "NQQE:1700 J FE 201 JRFGOBHAQ UJL",
-        "ZNQQE:1700 J HG 201 JRFGOBHAQ UJL",
+        "ZNQQE:1700 J HG 201",
         "K:2100 F",
         "FEP:PS",
         "PBQR:17O01",
@@ -1892,6 +1893,7 @@ choyvp pynff HGFnygYnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:11:40:15",
         "PNYY:IRUVPYR SVER RKGVATHVFURQ",
         "NQQE:2100 F ONATREGRE ABEGUOBHAQ UJL",
+        "ZNQQE:2100 F ONATREGRE UJL",
         "K:4000 J",
         "FEP:PS",
         "PBQR:71N01",
@@ -2687,6 +2689,7 @@ choyvp pynff HGFnygYnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:16:56:54",
         "PNYY:GENSSVP NPPVQRAG",
         "NQQE:7400 F V 15 ABEGUOBHAQ SJL",
+        "ZNQQE:7400 F V 15",
         "FEP:FS",
         "PBQR:29O01I",
         "VASB:GN JVGU VAW - PNYYOX=(435)631-0515");
@@ -2706,6 +2709,7 @@ choyvp pynff HGFnygYnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:16:54:50",
         "PNYY:GENSSVP NPPVQRAG",
         "NQQE:7400 F V 15 ABEGUOBHAQ SJL",
+        "ZNQQE:7400 F V 15",
         "FEP:FS",
         "PBQR:29O01I",
         "VASB:GN JVGU VAW - PNYYOX=(435)631-0515");

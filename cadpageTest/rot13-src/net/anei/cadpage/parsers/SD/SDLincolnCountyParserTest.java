@@ -391,6 +391,7 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:13-08212",
         "PNYY:NZO : Nzohynapr Pnyy",
         "NQQE:Pnfrl'f Trareny Fgber -",
+        "ZNQQE:Pnfrl'f Trareny Fgber",
         "PVGL:Pnagba",
         "VASB:50 lb. z. Snyyra pbzcynvavat bs xarr cnva.");
 
@@ -429,6 +430,7 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Nzohynapr Pnyy ZRQVPNY) Abar - 1100 R Ryqre, Ncg 4, Pnagba -  74 LRNE BYQ ZNYR JUB UNF SNYYRA OHG VF HAVAWHERQ, NAQ HANOYR GB FGNAQ BA UVF BJA",
         "PNYY:Nzohynapr Pnyy ZRQVPNY",
         "NQQE:1100 R Ryqre,",
+        "ZNQQE:1100 R Ryqre",
         "NCG:4",
         "PVGL:Pnagba",
         "VASB:74 LRNE BYQ ZNYR JUB UNF SNYYRA OHG VF HAVAWHERQ, NAQ HANOYR GB FGNAQ BA UVF BJA");

@@ -2272,7 +2272,7 @@ choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:JY JF",
         "PNYY:SHRY",
         "NQQE:JNFGN ERFG NERN - JO",
-        "ZNQQE:JNFGN ERFG NERN -",
+        "ZNQQE:JNFGN ERFG NERN",
         "VASB:3EQ CNEGL ECG, QVRFRY JNF PBZVAT BHG BS FRZV, OHG FRZV UNF NYERNQL YRSG; Arnerfg Vagre - VAGREFGNGR 90 naq VAGREFGNGR 90",
         "QNGR:07/31/14",
         "GVZR:10:54");
@@ -2283,7 +2283,7 @@ choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:JY JF",
         "PNYY:SHRY",
         "NQQE:JNFGN ERFG NERN - JO",
-        "ZNQQE:JNFGN ERFG NERN -",
+        "ZNQQE:JNFGN ERFG NERN",
         "VASB:Arnerfg Vagre - VAGREFGNGR 90 naq VAGREFGNGR 90",
         "QNGR:07/31/14",
         "GVZR:10:54");
@@ -2685,7 +2685,7 @@ choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:ZRQ7 29J1",
         "PNYY:FRVMHER-P",
         "NQQE:JNFGN ERFG NERN - JO",
-        "ZNQQE:JNFGN ERFG NERN -",
+        "ZNQQE:JNFGN ERFG NERN",
         "VASB:31-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat.\aJO YNARF\aEC VF ABG JVGU GUR CG. CBFF FRVMHER. C# 391-4784 877-5202 NFUYRL NAQ TNIVA\aZVTUG OR TRGGVAT BSS NG ARKG RKVG, HAX JURER GURL NER EVTUG ABJ\aABJ YY JVGU TNIVA 877-5202; Arnerfg Vagre - VAGREFGNGR 90 naq VAGREFGNGR 90",
         "QNGR:10/08/14",
         "GVZR:16:19");

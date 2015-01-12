@@ -2862,6 +2862,7 @@ choyvp pynff ALAnffnhPbhaglErqNyregCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "2AQ Nynez sbe 30 PNYVSBEAVN NIRAHR- YBAT ORNPU AL - Havg PNE83  . . 15:55:54",
         "PNYY:2AQ Nynez sbe",
         "NQQE:30 PNYVSBEAVN NIRAHR- YBAT ORNPU AL -",
+        "ZNQQE:30 PNYVSBEAVN NIRAHR- YBAT ORNPU AL",
         "NCG:PNE83",
         "GVZR:15:55:54");
 

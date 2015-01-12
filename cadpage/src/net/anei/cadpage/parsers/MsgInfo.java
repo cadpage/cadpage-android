@@ -692,10 +692,12 @@ public class MsgInfo {
   
   // Clean up and NB, SB, EB, or WB words
 
-  private static final Pattern DIRBOUND_PAT = Pattern.compile("\\s*(?:(?<![A-Z])(?:NB|SB|EB|WB)|NORTHBOUND|EASTBOUND|SOUTHBOUND|WESTBOUND)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DIRBOUND_PAT = Pattern.compile("[\\s]*(?:(?<![A-Z])(?:NB|SB|EB|WB)|NORTHBOUND|EASTBOUND|SOUTHBOUND|WESTBOUND)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern END_JUNK_PAT = Pattern.compile("[-,\\s]+(?=$| &)");
   private String cleanBounds(String sAddr) {
-    Matcher match = DIRBOUND_PAT.matcher(sAddr);
-    return match.replaceAll("").trim();
+    sAddr = DIRBOUND_PAT.matcher(sAddr).replaceAll("").trim();
+    sAddr = END_JUNK_PAT.matcher(sAddr).replaceAll("");
+    return sAddr;
   }
 
   // Google doesn't always handle single word route names like US30 or HWY10.

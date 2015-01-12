@@ -276,6 +276,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
         "NQQE:24600 V 44 RNFGOBHAQ",
+        "ZNQQE:24600 V 44",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "ZNC:HAR98",
         "QNGR:03/03/2014",
@@ -418,6 +419,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
         "NQQE:24700 V 44 RNFGOBHAQ",
+        "ZNQQE:24700 V 44",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "ZNC:HAS98",
         "QNGR:03/02/2014",
@@ -1688,6 +1690,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
         "NQQE:24223 V 44 RNFGOBHAQ",
+        "ZNQQE:24223 V 44",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "QNGR:02/09/2014",
         "GVZR:17:21:45",
@@ -1703,6 +1706,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
         "NQQE:24223 V 44 RNFGOBHAQ",
+        "ZNQQE:24223 V 44",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "QNGR:02/09/2014",
         "GVZR:17:14:54",

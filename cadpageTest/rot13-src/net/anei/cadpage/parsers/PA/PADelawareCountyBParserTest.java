@@ -10243,6 +10243,7 @@ choyvp pynff CNQrynjnerPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "53 YNXRIVRJ PG - APP  Angher: SVER-OYQ  OHVYQVAT SVER, ERF/QJRYYVAT Gvzr: 20:00:19  Abgrf: K1: INYYRL EQ   OHEAVAT BQBE   1 RATVAR 40   Vap: S14040631 Orng SVER",
         "NQQE:53 YNXRIVRJ PG -",
+        "ZNQQE:53 YNXRIVRJ PG",
         "PVGL:ARJ PNFGYR PBHAGL",
         "FG:QR",
         "PNYY:SVER-OYQ  OHVYQVAT SVER, ERF/QJRYYVAT",

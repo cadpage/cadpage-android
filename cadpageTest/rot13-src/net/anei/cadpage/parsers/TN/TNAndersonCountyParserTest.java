@@ -1633,7 +1633,7 @@ choyvp pynff GANaqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ERFP - V-75 FBHGUOBHAQ PYVAGBA, GA +Fg:ZZ123 ZIN - 252052",
         "FEP:ERFP",
         "NQQE:V-75 FBHGUOBHAQ",
-        "ZNQQE:V 75 FBHGUOBHAQ & ZZ123",
+        "ZNQQE:V 75 & ZZ123",
         "PVGL:PYVAGBA",
         "K:ZZ123",
         "PNYY:ZIN",
@@ -1787,14 +1787,14 @@ choyvp pynff GANaqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Freivpr Pnyy - Bgure - V-75 ABEGUOBHAQ ZZ 120, CBJRYY",
         "PNYY:Freivpr Pnyy - Bgure",
         "NQQE:V-75 ABEGUOBHAQ ZZ 120",
-        "ZNQQE:V 75 ABEGUOBHAQ ZZ 120",
+        "ZNQQE:V 75 ZZ 120",
         "PVGL:CBJRYY");
 
     qbGrfg("G18",
         "Freivpr Pnyy - Bgure - V-75 ABEGUOBHAQ ZZ 120, CBJRYY",
         "PNYY:Freivpr Pnyy - Bgure",
         "NQQE:V-75 ABEGUOBHAQ ZZ 120",
-        "ZNQQE:V 75 ABEGUOBHAQ ZZ 120",
+        "ZNQQE:V 75 ZZ 120",
         "PVGL:CBJRYY");
 
     qbGrfg("G19",
@@ -2072,7 +2072,7 @@ choyvp pynff GANaqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NISQ - V-75 FBHGUOBHAQ PYVAGBA, GA +Fg:ZZ123 ZIN - 252052",
         "FEP:NISQ",
         "NQQE:V-75 FBHGUOBHAQ",
-        "ZNQQE:V 75 FBHGUOBHAQ & ZZ123",
+        "ZNQQE:V 75 & ZZ123",
         "PVGL:PYVAGBA",
         "K:ZZ123",
         "PNYY:ZIN",

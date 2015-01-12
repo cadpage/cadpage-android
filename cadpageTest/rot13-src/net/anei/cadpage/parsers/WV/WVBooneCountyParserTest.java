@@ -139,7 +139,8 @@ choyvp pynff JIObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[1-11]-- - Angher: Svtug - Ybpngvba: 7275.00 FVK ZVYR EQ FVK ZVYR -",
         "HAVG:1-11",
         "PNYY:Svtug",
-        "NQQE:7275 FVK ZVYR EQ FVK ZVYR -");
+        "NQQE:7275 FVK ZVYR EQ FVK ZVYR -",
+        "ZNQQE:7275 FVK ZVYR EQ FVK ZVYR");
 
     qbGrfg("G11",
         "[1-31]-- - Angher: Qrpernfrq Yriry Bs Pbafpvbhfarff - Ybpngvba: 8.00 ZPTERJ EQ GHEGYR PERRX - Pbzzragf: 72 Z SYH GLCR FLZ, ABG PBU K OEVQTR, YNFG UBHFR JUVGR QBHOYR JVQR QRPERNFRQ YRIRY BS PBAP",

@@ -980,6 +980,7 @@ choyvp pynff ZFOvybkvCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:10/23/2014",
         "GVZR:20:00:10",
         "NQQE:2200 --",
+        "ZNQQE:2200",
         "NCG:0200",
         "VASB:NZ --- ENZBAN JBYSR -- 0200 -- 0600 NZ GUNAFX");
 

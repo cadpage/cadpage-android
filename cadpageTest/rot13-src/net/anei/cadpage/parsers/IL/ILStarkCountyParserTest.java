@@ -204,6 +204,7 @@ choyvp pynff VYFgnexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:07:02",
         "PNYY:6100 NZOHYNAPR - RZRETRAPL",
         "NQQE:949 X FR2AQ FG -",
+        "ZNQQE:949 X FR2AQ FG",
         "PVGL:TNYIN",
         "CUBAR:3098831234",
         "VASB:RYQREYL ZNYR SRRYVAT FVPX, FGNAQVAT BHGFVQR");
@@ -268,6 +269,7 @@ choyvp pynff VYFgnexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:20:43",
         "PNYY:6041 NPPVQRAG - GENSSVP - VAW HAX",
         "NQQE:949 X FR2AQ FG -",
+        "ZNQQE:949 X FR2AQ FG",
         "PVGL:TNYIN",
         "CUBAR:3095091569",
         "VASB:RZRETRAPL FREIVPR QVFCNGPU");
@@ -388,6 +390,7 @@ choyvp pynff VYFgnexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:12:13",
         "PNYY:6100 NZOHYNAPR - RZRETRAPL",
         "NQQE:949 X FR2AQ FG -",
+        "ZNQQE:949 X FR2AQ FG",
         "PVGL:TNYIN",
         "CUBAR:5678253020",
         "VASB:RZRETRAPL FREIVPR QVFCNGPU");
@@ -443,6 +446,7 @@ choyvp pynff VYFgnexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:13:53",
         "PNYY:6100 NZOHYNAPR - RZRETRAPL",
         "NQQE:403 W AR9GU FG -",
+        "ZNQQE:403 W AR9GU FG",
         "PVGL:TNYIN",
         "CUBAR:3092241551",
         "VASB:54 LBN ZNYR BIRE-ZRQ ULQEBPBQBAR IVGNYF NER FGNOYR");
@@ -896,7 +900,7 @@ choyvp pynff VYFgnexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:12:29",
         "PNYY:6040 NPPVQRAG - GENSSVP - VAWHEL",
         "NQQE:EG 78, F BS ZNEGVA'F YBQTR",
-        "ZNQQE:EG 78, & ZNEGVA'F YBQTR",
+        "ZNQQE:EG 78 & ZNEGVA'F YBQTR",
         "VASB:FRZV NAQ CBFF 2 NQQVGVBANY IRUF");
 
     qbGrfg("G74",
@@ -906,7 +910,7 @@ choyvp pynff VYFgnexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:12:29",
         "PNYY:6040 NPPVQRAG - GENSSVP - VAWHEL",
         "NQQE:EG 78, F BS ZNEGVA'F YBQTR",
-        "ZNQQE:EG 78, & ZNEGVA'F YBQTR",
+        "ZNQQE:EG 78 & ZNEGVA'F YBQTR",
         "VASB:FRZV NAQ CBFF 2 NQQVGVBANY IRUF");
 
     qbGrfg("G75",
@@ -916,6 +920,7 @@ choyvp pynff VYFgnexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:23:00",
         "PNYY:6100 NZOHYNAPR - RZRETRAPL",
         "NQQE:949 X FR2AQ FG -",
+        "ZNQQE:949 X FR2AQ FG",
         "PVGL:TNYIN",
         "CUBAR:7322618343",
         "VASB:RZRETRAPL FREIVPR QVFCNGPU");

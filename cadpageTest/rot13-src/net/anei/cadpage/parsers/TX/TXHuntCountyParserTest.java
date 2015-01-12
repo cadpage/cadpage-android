@@ -3542,7 +3542,7 @@ choyvp pynff GKUhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "PNYY:Genssvp-Genafcbegngvba Nppvqragf",
         "NQQE:V-30 RNFGOBHAQ",
-        "ZNQQE:V 30 RNFGOBHAQ & JRFG BS 1903", //qbrf abg znc
+        "ZNQQE:V 30 & JRFG BS 1903", //qbrf abg znc
         "K:JRFG BS 1903",
         "PVGL:PNQQB ZVYYF",
         "VASB:GHEARQ BIRE INA HAXABJA AHZORE BS VAWHEVRF PNYYRQ VA OL QCQ");

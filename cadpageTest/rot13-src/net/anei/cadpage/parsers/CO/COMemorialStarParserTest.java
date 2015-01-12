@@ -257,6 +257,7 @@ choyvp pynff PBZrzbevnyFgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:352-14-5450",
         "FEP:Zrzbevny Fgne",
         "NQQE:A0 0.0, J0 0.0,",
+        "ZNQQE:A0 0.0, J0 0.0",
         "CYNPR:6099.1 az, 99.41 qrt,",
         "PNYY:Ry cnfb pbhagl");
 
@@ -295,6 +296,7 @@ choyvp pynff PBZrzbevnyFgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:352-14-5437",
         "FEP:Zrzbevny Fgne",
         "NQQE:A0 0.0, J0 0.0,",
+        "ZNQQE:A0 0.0, J0 0.0",
         "CYNPR:6099.1 az, 99.41 qrt,",
         "PNYY:Ry cnfb pbhagl",
         "VASB:Gb: Zrzbevny Prageny Ubfcvgny");
@@ -521,6 +523,7 @@ choyvp pynff PBZrzbevnyFgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:352-14-5385",
         "FEP:Zrzbevny Fgne",
         "NQQE:A0 0.0, J0 0.0,",
+        "ZNQQE:A0 0.0, J0 0.0",
         "CYNPR:6099.1 az, 99.41 qrt,",
         "PNYY:Gryyre Pbhagl",
         "VASB:Gb: Zrzbevny Prageny Ubfcvgny");
@@ -607,6 +610,7 @@ choyvp pynff PBZrzbevnyFgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:352-14-5363",
         "FEP:Zrzbevny Fgne",
         "NQQE:A0 0.0, J0 0.0,",
+        "ZNQQE:A0 0.0, J0 0.0",
         "CYNPR:6099.1 az, 99.41 qrt,",
         "PNYY:Ry cnfb pbhagl");
 
@@ -690,6 +694,7 @@ choyvp pynff PBZrzbevnyFgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:352-13-5311",
         "FEP:Zrzbevny Fgne",
         "NQQE:A0 0.0, J0 0.0,",
+        "ZNQQE:A0 0.0, J0 0.0",
         "CYNPR:6099.1 az, 99.41 qrt,",
         "PNYY:Ry cnfb pbhagl",
         "VASB:Gb: Zrzbevny Prageny Ubfcvgny");
@@ -728,6 +733,7 @@ choyvp pynff PBZrzbevnyFgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:352-13-5298",
         "FEP:Zrzbevny Fgne",
         "NQQE:A0 0.0, J0 0.0,",
+        "ZNQQE:A0 0.0, J0 0.0",
         "CYNPR:6099.1 az, 99.41 qrt,",
         "PNYY:Snvecynl");
 

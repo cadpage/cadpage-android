@@ -8846,7 +8846,7 @@ choyvp pynff GAFrivrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G44",
         "0 V-40 RNFGOBHAQ 407; 2014-0046072; ZIN J/ VAWHEVRF",
         "NQQE:V-40 RNFGOBHAQ",
-        "ZNQQE:V 40 RNFGOBHAQ",
+        "ZNQQE:V 40",
         "NCG:407",
         "VQ:2014-0046072",
         "PNYY:ZIN J/ VAWHEVRF");

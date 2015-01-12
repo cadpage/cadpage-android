@@ -331,6 +331,7 @@ choyvp pynff ZGEninyyvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CDEH , ERFCBAQ GB 398 EHZZRY YNAR - UNZVYGBA; 67 LE BYQ ZNYR JVGU CBFFVOYR URNEG NGGNPX",
         "HAVG:CDEH",
         "NQQE:398 EHZZRY YNAR -",
+        "ZNQQE:398 EHZZRY YNAR",
         "PVGL:UNZVYGBA",
         "PNYY:67 LE BYQ ZNYR JVGU CBFFVOYR URNEG NGGNPX");
 

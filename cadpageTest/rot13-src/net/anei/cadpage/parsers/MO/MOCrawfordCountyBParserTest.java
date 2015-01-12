@@ -304,6 +304,7 @@ choyvp pynff ZBPenjsbeqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G5",
         "(PNYY) Ybpngvba  ZOFU - FHYYVINA    \a: ZRQVPNY GENAFSRE\aPngrtbel:\a3637 RAEBHGR GB ZOFU SBE N GENAFSRE GB ZOFU FGY",
         "NQQE:ZOFU -",
+        "ZNQQE:ZOFU",
         // ABG SBHAQ
         // cebonoyl Zvffbhev Oncgvfg Fhyyvina Ubfcvgny, juvpu tbbtyr tvirf nf 1fg fhttrfgvba
         "PVGL:FHYYVINA",

@@ -1849,6 +1849,7 @@ choyvp pynff YNYnsbhepurCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:14-17051",
         "PNYY:Sver Nynez",
         "NQQE:117 CNEX NIR,",
+        "ZNQQE:117 CNEX NIR",
         "NCG:N",
         "PVGL:GUVOBQNHK",
         "QNGR:03/10/14",

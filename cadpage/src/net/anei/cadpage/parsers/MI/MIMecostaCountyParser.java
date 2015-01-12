@@ -19,6 +19,7 @@ public class MIMecostaCountyParser extends DispatchA3Parser {
   
   private static final String UNIT_SUBPTN = "(?:\\d{3,4}|\\d*[A-Z]+\\d+|\\d+[A-Z]+|[BCEFHLMTW][RF]|BR[RF]P?|CT[RF]|LT[RF]|M[AO][RF]|RC[RF]|MOTF|BR[FT][RF]|MARE|POSSE|TEST|70)";
   private static final Pattern NAME_UNIT_PTN = Pattern.compile("(?:(?!MR )|([^:]+?) )("+UNIT_SUBPTN+"(?:,"+UNIT_SUBPTN+")*(?: OR)?)(?: |$)(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern CLEAN_CROSS_PTN = Pattern.compile("[-/ ]*(.*?)[-/ ]*");
   
 // This was a failed attempt to come up with a Name/Unit expression that was not quite a rigid as the above.  It failed to properly identify distinguish "DIKE,BEV" as a non-unit.  
 //  private static final Pattern NAME_UNIT_PTN = Pattern.compile("(?:(?!MR )|([^:]+?) )((?:[A-Z0-9]+,[A-Z0-9]+,[A-Z0-9,]+[A-Z0-9]|(?:[A-Z0-9]{1,4}|POSSE|[A-Z]+\\d+),(?:[A-Z0-9]{1,4}|POSSE|[A-Z]+\\d+)|"+UNIT_SUBPTN+")(?: OR)?)(?: |$)(.*)", Pattern.CASE_INSENSITIVE);
@@ -126,6 +127,10 @@ public class MIMecostaCountyParser extends DispatchA3Parser {
     // That was the hard part
     // We use the superclass field processing logic to handle the info section
     infoField.parse(body, data);
+    
+    // Clean up cross street info
+    match = CLEAN_CROSS_PTN.matcher(data.strCross);
+    if (match.matches()) data.strCross = match.group(1);
     
     return true;
   }

@@ -12,7 +12,7 @@ public class MOJasperCountyParser extends DispatchOSSIParser {
  
   public MOJasperCountyParser() {
     super(CITY_CODES, "JASPER COUNTY", "MO",
-           "FYI? CALL ( CHASING! | ADDR/Z END | PLACE? ADDR/Z! CITY X? X? CODE? ) INFO+");
+           "FYI? CALL ( CHASING! | ADDR/Z! END | ( PLACE ADDR/Z CITY! | ADDR/Z CITY! | ADDR/Z! ) X? X? CODE? ) INFO+");
   }
   
   @Override

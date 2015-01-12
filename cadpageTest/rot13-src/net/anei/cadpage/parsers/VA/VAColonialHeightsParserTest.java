@@ -1483,6 +1483,7 @@ choyvp pynff INPbybavnyUrvtugfCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:08/18/2014",
         "GVZR:10:59:26",
         "NQQE:V 95-ABEGUOBHAQ & ZC58",
+        "ZNQQE:V 95 & ZC58",
         "PVGL:PURFGRESVRYQ",
         "HAVG:R1");
 

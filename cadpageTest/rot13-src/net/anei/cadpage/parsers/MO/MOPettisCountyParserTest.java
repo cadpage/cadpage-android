@@ -57,7 +57,8 @@ choyvp pynff ZBCrggvfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G5",
         "CRGGVF PB FUREVSS: Fbhguobhaq HF 65/Abegu bs Prqne PerrxGenpgbe genvyre sevt havg fzbxvat - fgbccrq va gur qevivat ynar bs gur ujl",
         "PNYY:/Abegu bs Prqne PerrxGenpgbe genvyre sevt havg fzbxvat - fgbccrq va gur qevivat ynar bs gur ujl",
-        "NQQE:Fbhguobhaq HF 65");
+        "NQQE:Fbhguobhaq HF 65",
+        "ZNQQE:HF 65");
 
     qbGrfg("G6",
         "CRGGVF PB FUREVSS: 22179 Jrfgzberynaq Ebnq. EC oryvrirf fur fzryyf ryrpgevpny sver ortvaavat.",

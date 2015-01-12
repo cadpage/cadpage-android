@@ -370,6 +370,7 @@ choyvp pynff AUZreevznpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:10/02/2013",
         "GVZR:16:25:09",
         "NQQE:330 AHGGVAT EQ,",
+        "ZNQQE:330 AHGGVAT EQ",
         "NCG:20",
         "PVGL:FHANCRR",
         "VASB:49 LB SRZNYR, HAPBAFPVBHF VF OERNGUVAT");

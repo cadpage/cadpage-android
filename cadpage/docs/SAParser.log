@@ -1,3 +1,8 @@
+Version 10.0 01/12/2015
+
+Map address cleanup will now remove NORTHBOUND, EASTBOUND, SOUTHBOUND, WESTBOUND, and any trailing 
+dash or comma characters
+
 Version 9.0 01/08/2015
 
 Michigan state highways will be recognized with a "M" prefix as well as the standard
