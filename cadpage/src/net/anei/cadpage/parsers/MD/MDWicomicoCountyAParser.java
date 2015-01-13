@@ -15,7 +15,7 @@ public class MDWicomicoCountyAParser extends DispatchOSSIParser {
   
   public MDWicomicoCountyAParser() {
     super(CITY_CODES, "WICOMICO COUNTY", "MD",
-           "ID CALL ADDR CITY! X X INFO+");
+           "ID CALL ADDR! CITY X X INFO+");
   }
   
   @Override
@@ -40,7 +40,13 @@ public class MDWicomicoCountyAParser extends DispatchOSSIParser {
     
     if (!super.parseMsg(body, data)) return false;
     
-    // Delmar calls can be on either side of the state line
+    // Fix state if necessary
+    int pt = data.strCity.indexOf('/');
+    if (pt >= 0) {
+      data.strState = data.strCity.substring(pt+1);
+      data.strCity = data.strCity.substring(0,pt);
+      if (data.strState.length() == 0) data.defState = "";
+    }
     if (data.strCity.equals("DELMAR")) data.defState = "";
     return true;
   }
@@ -57,16 +63,20 @@ public class MDWicomicoCountyAParser extends DispatchOSSIParser {
       "ALLE", "ALLEN",
       "EDEN", "EDEN",
       "BIVA", "BIVALVE",
-      "DELM", "DELMAR",
+      "DELM", "DELMAR/",   // Can in either Delaware or Maryland
       "FRUI", "FRUITLAND",
+      "GALE", "GALESTOWN",
       "HEBR", "HEBRON",
+      "LAUR", "LAUREL/DE",
       "MARD", "MARDELA",
       "NANT", "NANTICOKE",
       "PARS", "PARSONBURG",
       "PITT", "PITTSVILLE",
       "POWE", "POWELLVILLE",
       "QUAN", "QUANTICO",
+      "RHOD", "RHODESDALE",
       "SALI", "SALISBURY",
+      "SEAF", "SEAFORD",
       "SHAR", "SHARPTOWN",
       "TYAS", "TYASKIN",
       "WHIT", "WHITEHAVEN",
