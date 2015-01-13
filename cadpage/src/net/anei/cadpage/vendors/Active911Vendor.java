@@ -656,6 +656,7 @@ class Active911Vendor extends Vendor {
       "US/TX/OssiCAD",                    "TXLaPorte",
       "US/TX/Rosenburg",                  "TXRosenburg",
       "US/TX/RoyseCity",                  "TXRoyseCity",
+      "US/TX/RuskCounty",                 "TXRuskCountyA",
       "US/TX/SanMarcosCounty",            "TXSanMarcosCounty",
       "US/TX/Seguin",                     "TXKeller",
       "US/TX/Smhcems",                    "TXHaysCounty",

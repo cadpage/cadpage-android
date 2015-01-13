@@ -982,7 +982,7 @@ choyvp pynff GKEhfxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G4",
         "1037 SZ 840;YBCRM,ZNGGURJ;9369005079;15000374;18:17:02;SVERF-TENFF-JBBQ;FZNYY CNFGHER SVER",
         "NQQE:1037 SZ 840",
-        "ZNQQE:1037 SNEZ-GB-ZNEXRG 840", //qbrf abg znc
+        "ZNQQE:1037 SNEZ-GB-ZNEXRG 840",
         "ANZR:YBCRM,ZNGGURJ",
         "CUBAR:9369005079",
         "VQ:15000374",
