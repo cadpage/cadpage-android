@@ -20,6 +20,11 @@ public class CTOldSaybrookParser extends FieldProgramParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
+  @Override
   public boolean parseMsg(String body, Data data) {
     return parseFields(body.split("\n"), data);
   }
