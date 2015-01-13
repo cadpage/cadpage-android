@@ -23,9 +23,18 @@ public class INHancockCountyParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    body = body.replace("\n", "");
     if (! parseFields(body.split("/"), data)) return false;
     if (data.strCity.equals("FORTVIL")) data.strCity = "FORTVILLE";
     return true;
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("MUTADDR")) return new MutualAidAddressField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("MAP")) return new MyMapField();
+    return super.getField(name);
   }
   
   private static final Pattern MUTAID_PTN = Pattern.compile("(.*)-(.*) CO");
@@ -77,6 +86,7 @@ public class INHancockCountyParser extends FieldProgramParser {
         data.strCross = data.strPlace.substring(2).trim();
         data.strPlace = "";
       }
+      else if (data.strPlace.equals("-")) data.strPlace = "";
       return true;
     }
     
@@ -91,14 +101,6 @@ public class INHancockCountyParser extends FieldProgramParser {
     public MyMapField() {
       setPattern(MAP_PTN, true);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("MUTADDR")) return new MutualAidAddressField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("MAP")) return new MyMapField();
-    return super.getField(name);
   }
   
   @Override
@@ -127,6 +129,8 @@ public class INHancockCountyParser extends FieldProgramParser {
     "JACKSON TWP",
     "SUGAR CREEK TWP",
     "VERNON TWP",
+    
+    "CHARLOTTESVILLE",
     
     // Madison County
     "PENDLETON",
