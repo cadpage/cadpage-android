@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 public class GAForsythCountyParser extends DispatchB2Parser {
 
   public GAForsythCountyParser() {
-    super(".:", CITY_LIST, "FORSYTH COUNTY", "GA");
+    super(":", CITY_LIST, "FORSYTH COUNTY", "GA");
     setupCallList(CALL_LIST);
 
   }
@@ -27,7 +27,7 @@ public class GAForsythCountyParser extends DispatchB2Parser {
     "MATT",
     "DUCKTOWN"
 
-    };
+  };
   
   private static final CodeSet CALL_LIST = new CodeSet(
      
