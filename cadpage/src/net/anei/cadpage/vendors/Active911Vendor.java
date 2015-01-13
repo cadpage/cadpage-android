@@ -262,6 +262,7 @@ class Active911Vendor extends Vendor {
       "US/IL/OFallon",                    "ILOFallon",
       "US/IN/BartholomewCounty",          "INBartholomewCounty",
       "US/IN/Bristol",                    "INElkhartCounty",
+      "US/IN/EMGSVCS",                    "INHenryCounty",
       "US/IN/HancockCounty",              "INHancockCounty",
       "US/IN/Indianapolis",               "INMarionCounty",
       "US/IN/JasperCounty",               "INJasperCounty",
