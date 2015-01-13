@@ -167,9 +167,12 @@ choyvp pynff CNCraaFgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G12",
         "23-15-41161: CraaFGNE PPG 1, Purfgahg Uvyy Ubfcvgny, 8835 Treznagbja Nirahr, Cuvynqrycuvn, CN RQ Ebbz 16. Ynfg anzr: Oebjaonpx",
-        "PNYY:TRARENY NYREG",
         "VQ:23-15-41161",
-        "CYNPR:CraaFGNE PPG 1, Purfgahg Uvyy Ubfcvgny, 8835 Treznagbja Nirahr, Cuvynqrycuvn, CN RQ Ebbz 16. Ynfg anzr: Oebjaonpx");
+        "HAVG:CraaFGNE PPG 1",
+        "PNYY:Purfgahg Uvyy Ubfcvgny",
+        "NQQE:8835 Treznagbja Nirahr",
+        "PVGL:Cuvynqrycuvn",
+        "VASB:RQ Ebbz 16. Ynfg anzr: Oebjaonpx");
 
     qbGrfg("G13",
         "23-15-41159: CraaFGNE 6, A39 58.14, J75 36.12, 18.42 az, 249.19 qrt, Purfgre Pbhagl Ubfcvgny, Gb: UHC - Ubfc bs Havi bs Craa",
@@ -401,7 +404,7 @@ choyvp pynff CNCraaFgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:+40.276667,-74.813500",
         "TCF:+40.276667,-74.813500",
         "PNYY:(FGNAQOL) Geragba Zrepre Nvecbeg",
-        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+        "VASB:2152, Gb: UHC - Ubfc bs Havi bs Craa");
 
     qbGrfg("G37",
         "23-15-41128: CraaFGNE PPG 1, Zrepl Ubfcvgny - Cuvynqrycuvn, 501 Fbhgu 54gu Fgerrg, Cuvynqrycuvn, CN, Gb: UHC - Ubfc bs Havi bs Craa",

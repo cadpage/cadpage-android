@@ -12,7 +12,7 @@ public class PAPennStarParser extends FieldProgramParser {
   
   public PAPennStarParser() {
     super("", "PA", 
-          "UNIT ( ADDR_GPS ADDR_GPS ADDR_DIST? ADDR_DEG CALL! APT? | CALL! ADDR CITY ST ) To:INFO");
+          "UNIT ( ADDR_GPS ADDR_GPS ADDR_DIST? ADDR_DEG CALL! APT? | CALL! ADDR/Z CITY/Z ST ) INFO/CS+");
   }
   
   @Override
@@ -65,7 +65,7 @@ public class PAPennStarParser extends FieldProgramParser {
     if (name.equals("ADDR_DEG")) return new MyAddressField("\\d+(?:\\.\\d+)? deg", ", ");
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("APT")) return new AptField(".{1,3}", true);
-    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("ST")) return new MyStateField();
     return super.getField(name);
   }    
   
@@ -96,11 +96,30 @@ public class PAPennStarParser extends FieldProgramParser {
     }
   }
   
-  private class MyInfoField extends InfoField {
+  private static final Pattern STATE_PTN = Pattern.compile("(PA|NJ|MD)\\b *(.*)");
+  private class MyStateField extends Field {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = STATE_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strState = match.group(1);
+      data.strSupp = match.group(2);
+      return true;
+    }
+    
     @Override
     public void parse(String field, Data data) {
-      if (field.length() == 0) return;
-      super.parse("To: " + field, data);
+      if (!checkParse(field, data)) abort();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ST INFO";
     }
   }
 }
