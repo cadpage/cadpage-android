@@ -277,6 +277,7 @@ class Active911Vendor extends Vendor {
       "US/IN/WayneCounty",                "INWayneCountyBParser",
       "US/KS/AndersonCounty",             "KSAndersonCounty",
       "US/KS/BrownCounty",                "KSBrownCounty",
+      "US/KY/BoydCounty",                 "KYBoydCounty",
       "US/KS/CowleyCounty",               "KSCowleyCounty",
       "US/KS/FirePage",                   "KSWichita",
       "US/KS/JohnsonCounty",              "KSJohnsonCounty",
