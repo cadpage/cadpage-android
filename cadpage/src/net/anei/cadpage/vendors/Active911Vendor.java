@@ -594,6 +594,7 @@ class Active911Vendor extends Vendor {
       "US/PA/Springfield",                "PADelawareCountyG",
       "US/PA/TrappeIAR",                  "PAChesterCountyL",
       "US/PA/VenangoCounty",              "PAVenagoCountyB",
+      "US/PA/WarrenCounty",               "PAWarrenCounty",
       "US/PA/WashingtonCounty",           "PAWashingonCounty",
       "US/PA/WayneCounty",                "PAWayneCounty",
       "US/PA/YorkCounty",                 "PAYorkCountyD",
