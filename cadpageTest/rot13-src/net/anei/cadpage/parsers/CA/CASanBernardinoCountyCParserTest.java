@@ -64,6 +64,7 @@ Fraqre: oqhpnq@SVER.PN.TBI
 (PNQ Cntr) ZRQ, GENSSVP PBYYVFVBA - LREZB NT FGNGVBA @ =Y(34.911808,-116.802208) ,LREZB - PEBFF:   - EN: LRE1 - ZNC: 3592_S_7/3592_S_7 - ZR402 - FO 15 AB NT FGNGVBA, EB IRU, HAX VAWHEVRF. <n uers="uggc://zncf.tbbtyr.pbz/?d=34.911808,-116.802208">Znc;</n>
 (PNQ Cntr) PYBFR: ZR401\aQFC: 12-02-13:30; NVD: 12-02-13:30; OQH Vap# 015040 Whe Vap# PNLRE000342\a Pnyy Glcr: ZGP\a Ybpngvba: LREZB NT FGNGVBA @ =Y(34.911808,-116.802208) ,LREZB
 (PNQ Cntr) ZRQ, GENSSVP PBYYVFVBA - LREZB NT FGNGVBA @ =Y(34.911808,-116.802208) ,LREZB - PEBFF:   - EN: LRE1 - ZNC: 3592_S_7/3592_S_7 - ZR401 - FO 15 AB NT FGNGVBA, EB IRU, HAX VAWHEVRF. <n uers="uggc://zncf.tbbtyr.pbz/?d=34.911808,-116.802208">Znc;</n>
+(PNQ Cntr) ZRQ, GENSSVP PBYYVFVBA - V 15 F / 36490 ZVAARBYN EQ ,LREZB - PEBFF:  - EN: LRE1 - ZNC: 3592_W_6 - ZR402 - FO NG ZZ 89.5 // [ZVAARBYN EQ ]\e\a <n uers=\"uggc://zncf.tbbtyr.pbz/?d=34.918165,-116.771648\">Znc;</n>\e\a
 
 */
 
@@ -596,6 +597,18 @@ choyvp pynff PNFnaOreaneqvabPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:ZR401",
         "VASB:FO 15 AB NT FGNGVBA, EB IRU, HAX VAWHEVRF.",
         "TCF:+34.911808,-116.802208");
+
+    qbGrfg("G47",
+        "(PNQ Cntr) ZRQ, GENSSVP PBYYVFVBA - V 15 F / 36490 ZVAARBYN EQ ,LREZB - PEBFF:  - EN: LRE1 - ZNC: 3592_W_6 - ZR402 - FO NG ZZ 89.5 // [ZVAARBYN EQ ]\e\a" +
+        " <n uers=\\\"uggc://zncf.tbbtyr.pbz/?d=34.918165,-116.771648\\\">Znc;</n>\e\a",
+
+        "PNYY:ZRQ, GENSSVP PBYYVFVBA",
+        "NQQE:V 15 F & 36490 ZVAARBYN EQ",
+        "PVGL:LREZB",
+        "ZNC:LRE1-3592_W_6",
+        "HAVG:ZR402",
+        "VASB:FO NG ZZ 89.5 // [ZVAARBYN EQ ]",
+        "TCF:+34.918165,-116.771648");
 
   }
 
