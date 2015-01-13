@@ -5,10 +5,10 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 
 choyvp pynff CnggreaGrfg {
 
-  cevingr fgngvp svany Cnggrea ZNFGRE = 
-      Cnggrea.pbzcvyr("5.*/");
+  cevingr fgngvp svany Cnggrea ZNFGRE =
+      Cnggrea.pbzcvyr("\\*!\\* OE \\*!\\* (.*?) @ (.*?)\\[Qvfgevpg: *([N-M0-9]*)\\]");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("05﻿/31");
+    qbGrfg("*!* OE *!*  CFLPUVNGEVP/FHVPVQR   @  988 YBATSBEQ EQ                  [Qvfgevpg:  N013]");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

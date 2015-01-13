@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.IL;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgParser;
@@ -12,9 +13,10 @@ public class ILDuPageCountyAParser extends MsgParser {
   private static final Pattern ZERO_ADDR_PTN1 = Pattern.compile("^0[NSEW]\\d+ ");
   private static final Pattern ZERO_ADDR_PTN2 = Pattern.compile("[NSEW]\\d+");
   
+  private static final Pattern MASTER2 = Pattern.compile("\\*!\\* BR \\*!\\* (.*?) @ (.*?)\\[District: *([A-Z0-9]*)\\]");
+  
   public ILDuPageCountyAParser() {
     super("DUPAGE COUNTY", "IL");
-    setFieldList("ID ADDR SRC UNIT CALL PLACE X CITY");
   }
   
   @Override
@@ -24,25 +26,38 @@ public class ILDuPageCountyAParser extends MsgParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("INC01 1.0 EV-XXX 0       ")) return false;
-    data.strCallId = substring(body, 25, 40);
-    String addr = substring(body, 40, 70);
-    int pt = addr.indexOf("...");
-    if (pt >= 0) addr = addr.substring(0,pt).trim();
-    if (ZERO_ADDR_PTN1.matcher(addr).find()) addr = addr.substring(1).trim();
-    parseAddress(addr, data);
-    data.strSource = substring(body,70,72);
-    data.strUnit = substring(body, 72, 76);
-    data.strCall = substring(body, 76, 96);
-    data.strPlace = substring(body, 96, 141);
-    data.strCross = append(substring(body, 141, 161), " & ", substring(body, 161, 181));
-    String city = substring(body, 347, 350);
-    if (city.endsWith("2") ||
-        city.length() > 2 && city.endsWith("U")) {
-      city = city.substring(0,city.length()-1);
+    if (body.startsWith("INC01 1.0 EV-XXX 0       ")) {
+      setFieldList("ID ADDR SRC UNIT CALL PLACE X CITY");
+      data.strCallId = substring(body, 25, 40);
+      String addr = substring(body, 40, 70);
+      int pt = addr.indexOf("...");
+      if (pt >= 0) addr = addr.substring(0,pt).trim();
+      if (ZERO_ADDR_PTN1.matcher(addr).find()) addr = addr.substring(1).trim();
+      parseAddress(addr, data);
+      data.strSource = substring(body,70,72);
+      data.strUnit = substring(body, 72, 76);
+      data.strCall = substring(body, 76, 96);
+      data.strPlace = substring(body, 96, 141);
+      data.strCross = append(substring(body, 141, 161), " & ", substring(body, 161, 181));
+      String city = substring(body, 347, 350);
+      if (city.endsWith("2") ||
+          city.length() > 2 && city.endsWith("U")) {
+        city = city.substring(0,city.length()-1);
+      }
+      data.strCity = convertCodes(city, CITY_CODES);
+      return true;
     }
-    data.strCity = convertCodes(city, CITY_CODES);
-    return true;
+    
+    Matcher match = MASTER2.matcher(body);
+    if (match.matches()) {
+      setFieldList("CALL ADDR APT UNIT");
+      data.strCall = match.group(1).trim();
+      parseAddress(match.group(2).trim(), data);
+      data.strUnit = match.group(3);
+      return true;
+    }
+    
+    return false;
   }
   
   @Override
