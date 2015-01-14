@@ -14,15 +14,15 @@ public class DEKentCountyBaseParser extends FieldProgramParser {
   
   public DEKentCountyBaseParser(String defCity, String defState, String program) {
     super(CITY_LIST, defCity, defState, program);
-    setupMultiWordStreets("SLOW AND EASY", "GUN AND ROD");
-    setupProtectedNames("SLOW AND EASY", "GUN AND ROD");
+    setupMultiWordStreets(MULTI_WORD_STREET_LIST);
+    setupProtectedNames(MULTI_WORD_STREET_LIST);
   }
   
   /**
    * Set state field if required
    * @param data parsed data object
    */
-  protected void adjustCityState(Data data) {
+   static void adjustCityState(Data data) {
     
     // Expand abbreviated city codes
     String upCity = data.strCity.toUpperCase();
@@ -43,8 +43,13 @@ public class DEKentCountyBaseParser extends FieldProgramParser {
     String state = CITY_STATE_TABLE.getProperty(data.strCity.toUpperCase());
     if (state != null) data.strState = state;
   }
+   
+  static final String[] MULTI_WORD_STREET_LIST = new String[]{
+    "GUN AND ROD",
+    "SLOW AND EASY"
+  }; 
   
-  private static final String[] CITY_LIST = new String[]{
+  static final String[] CITY_LIST = new String[]{
     
     // Cities
     "DOVER",

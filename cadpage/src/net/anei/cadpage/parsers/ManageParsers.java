@@ -196,7 +196,8 @@ public class ManageParsers {
         "VAPrinceWilliamCountyB","VAPrinceWilliamCounty",// 04/26/2014
         "TXCombine",          "TXKaufmanCounty",         // 06/03/2014
         "PAChesterCountyK",   "PAChesterCountyD1",       // 07/22/2014
-        "OHHarveysburg",      "PAWarrenCountyC"         // 08/02/2014
+        "OHHarveysburg",      "PAWarrenCountyC",         // 08/02/2014
+        "NJSalemCountyC",     "NJSalemCountyB"          // 01/14/2015
         
   });
 

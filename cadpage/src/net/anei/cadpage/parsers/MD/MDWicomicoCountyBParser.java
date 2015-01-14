@@ -1,12 +1,12 @@
 package net.anei.cadpage.parsers.MD;
 
 
-import net.anei.cadpage.parsers.dispatch.DispatchChiefWebPagingParser;
+import net.anei.cadpage.parsers.dispatch.DispatchChiefPagingParser;
 
 /**
  * Wicomico County, MD (B)
  */
-public class MDWicomicoCountyBParser extends DispatchChiefWebPagingParser {
+public class MDWicomicoCountyBParser extends DispatchChiefPagingParser {
   
   public MDWicomicoCountyBParser() {
     super(CITY_LIST, "WICOMICO COUNTY", "MD");
