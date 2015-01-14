@@ -6,6 +6,10 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Xrag Pbhagl, QR
+
+Cebonoyl bofbyrgr ercynprq ol QRXragPbhaglR
+Ynfg boirefrq pnyy 11/3/2014
+ 
 Pbagnpg: Qrjrl Gubznf <qrjrl@pbqrzrffntvat.arg>
 Sebz: xragpragre@fgngr.qr.hf
 

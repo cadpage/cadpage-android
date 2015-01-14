@@ -131,6 +131,7 @@ public class DEKentCountyBParser extends DEKentCountyBaseParser {
     }
     
     private String fixAddress(String addr) {
+      addr = addr.replace('@', '&');
       addr = PENNVILLE_PTN.matcher(addr).replaceAll("Pennsville");
       addr = FOUR_DIGIT_ZIP_PTN.matcher(addr).replaceAll("0$0");
       return addr;

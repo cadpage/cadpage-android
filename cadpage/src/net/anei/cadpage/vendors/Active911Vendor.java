@@ -232,7 +232,7 @@ class Active911Vendor extends Vendor {
       "US/DE/ChiefMsg",                   "DESussexCountyA",
       "US/DE/Dover",                      "DEKentCounty",
       "US/DE/NewCastleCounty",            "DENewCastleCounty",
-      "US/DE/SussexCounty",               "DESussexCounty",
+      "US/DE/SussexCounty",               "DESussexCountyB",
       "US/FL/BayCounty",                  "FLBayCounty",
       "US/FL/CalhounCounty",              "FLCalhounCounty",
       "US/FL/CharlotteCountySheriff",     "FLCharlotteCounty",

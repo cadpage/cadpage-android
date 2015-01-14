@@ -87,188 +87,189 @@ Ntrapl anzr: Yrjrf SQ
 Ybpngvba: Yrjrf, QR, Havgrq Fgngrf
 Fraqre: <pnq@fhffrkpbhaglqr.tbi>
 
-(PNQ Nyreg) 82NF2 Pnyy ng:29710 Rntyrf Perfg Eq    Ybp:                         Pvgl:19968 Ceboyrz:Bireqbfr/Cbvfbavat-NYF        Vap#:2014-023612 Yng:38771815Ybat:75230040QVFC:21:45:20Pebff Fg:PUVFUBYZ GE/HAANZRQ FGERRG
-(PNQ Nyreg) 82NF2 Pnyy ng:1141 Fninaanu Eq         Ybp:Uhyvat Pbir              Pvgl:19958 Ceboyrz:Freivpr Pnyy-NZO              Vap#:2014-023603 Yng:38763889Ybat:75150194QVFC:20:08:05Pebff Fg:HAXABJA/QBABINAF EQ
-(PNQ Nyreg) 82NF1 Pnyy ng:1141 Fninaanu Eq         Ybp:Uhyvat Pbir              Pvgl:19958 Ceboyrz:Freivpr Pnyy-NZO              Vap#:2014-023603 Yng:38763889Ybat:75150194QVFC:20:08:05Pebff Fg:HAXABJA/QBABINAF EQ
-(PNQ Nyreg) 82NF2 Pnyy ng:33130 A Ivyyntr Ybbc     Ybp:                         Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2014-023600 Yng:38753845Ybat:75174070QVFC:19:23:37Pebff Fg:J RQTRZBBE FG/J RQTRZBBE FG
-(PNQ Nyreg) 82NF1 Pnyy ng:30821 Rqtrjngre Qe       Ybp:                         Pvgl:19958 Ceboyrz:Zrqvpny Nyreg                 Vap#:2014-023578 Yng:38755118Ybat:75212788QVFC:16:04:47Pebff Fg:OHGGBAJBBQ QE/FLPNZBER QE
-(PNQ Nyreg) 82N   Pnyy ng:15126-15299 Pncr Urybcra Ybp:bss gur jnyx ba ornpu    Pvgl:19958 Ceboyrz:Jngre Erfphr Cevbevgl 1       Vap#:2014-023572 Yng:38780473Ybat:75102297QVFC:14:46:17Pebff Fg:HAANZRQ FGERRG/Qrnq Raq
-(PNQ Nyreg) 82NF1 Pnyy ng:15126-15299 Pncr Urybcra Ybp:bss gur jnyx ba ornpu    Pvgl:19958 Ceboyrz:Jngre Erfphr Cevbevgl 1       Vap#:2014-023572 Yng:38780473Ybat:75102297QVFC:14:46:17Pebff Fg:HAANZRQ FGERRG/Qrnq Raq
-(PNQ Nyreg) 82NFG Pnyy ng:1142 Fninaanu Eq         Ybp:ncg 107                  Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2014-023566 Yng:38762269Ybat:75151906QVFC:13:24:17Pebff Fg:A NGYNAGVP QE/IVXVATF JNL
-(PNQ Nyreg) 82FG  Pnyy ng:3511 Fninaanu Rnfg Qe    Ybp:                         Pvgl:19958 Ceboyrz:Fgehpgher Sver                Vap#:2014-023560 Yng:38746487Ybat:75154179QVFC:12:38:05Pebff Fg:JBBQF RQTR QE/XVATF UJL
-(PNQ Nyreg) 82P   Pnyy ng:30191 Juvgrunyy Qe       Ybp:                         Pvgl:19968 Ceboyrz:Erfvqragvny Erfphr            Vap#:2014-023555 Yng:38777560Ybat:75225326QVFC:12:01:39Pebff Fg:PNAGJRYY PG/PBIVATGBA PG
-(PNQ Nyreg) 82NF2 Pnyy ng:293 Ynxrfvqr Qe          Ybp:                         Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2014-023552 Yng:38739477Ybat:75165154QVFC:11:28:03Pebff Fg:UREBA PG/PENAR NIR
-(PNQ Nyreg) 82NF1 Pnyy ng:125 Qrjrl Nir            Ybp:                         Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2014-023549 Yng:38769854Ybat:75143080QVFC:11:17:07Pebff Fg:FNINAANU EQ/XVATF UJL
-(PNQ Nyreg) 82NFG Pnyy ng:17719 Pbnfgny Ujl        Ybp:Neol'f (82)              Pvgl:19958 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2014-023533 Yng:38748645Ybat:75166332QVFC:07:18:48Pebff Fg:Fninaanu Eq/Haanzrq Fgerrg
-(PNQ Nyreg) 82NF1 Pnyy ng:33000 J SNYYVAT PERRX FG Ybp:                         Pvgl:      Ceboyrz:Bireqbfr/Cbvfbavat-OYF        Vap#:2014-023526 Yng:38753837Ybat:75174681QVFC:03:31:10Pebff Fg:QBEFRL FG
-(PNQ Nyreg) 82NF2 Pnyy ng:Pnir Arpx Eq & Pbnfgny UjYbp:5 Iruvpyrf               Pvgl:19968 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-023500 Yng:38767630Ybat:75214656QVFC:18:12:58Pebff Fg:
-(PNQ Nyreg) 82O   Pnyy ng:Pnir Arpx Eq & Pbnfgny UjYbp:5 Iruvpyrf               Pvgl:19968 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-023500 Yng:38767630Ybat:75214656QVFC:18:12:58Pebff Fg:
-(PNQ Nyreg) 82NF1 Pnyy ng:18826 Pbnfgny Ujl        Ybp:Unzcgba Vaa (82)  ez215  Pvgl:19971 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2014-023494 Yng:38732714Ybat:75135402QVFC:16:53:33Pebff Fg:ZVQJNL BHGYRG QE/ENZC
-(PNQ Nyreg) 82NF1 Pnyy ng:33664 Onlivrj Zrqvpny Qe Ybp:havg 2   /QRYNJNER ONL FHPvgl:19958 Ceboyrz:Purfg Cnva-NYF                Vap#:2014-023491 Yng:38753384Ybat:75163455QVFC:15:57:06Pebff Fg:FNINAANU EQ/Qrnq Raq
-(PNQ Nyreg) 82NF2 Pnyy ng:31681 Orrpu Cyhz Pg      Ybp:                         Pvgl:19958 Ceboyrz:Purfg Cnva-NYF                Vap#:2014-023483 Yng:38744680Ybat:75198040QVFC:14:35:21Pebff Fg:ZNEL NAA QE/Qrnq Raq
-(PNQ Nyreg) 82NF1 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner, uraybPvgl:19958 Ceboyrz:Vagresnpvyyvgl/Cnyyvngvir-NYF Vap#:2014-023482 Yng:38773939Ybat:75154864QVFC:14:21:45Pebff Fg:PNANEL QE/SYNZVATB PG
-(PNQ Nyreg) 82NF1 Pnyy ng:830 Xvatf Ujl            Ybp:EVFR SVGARFF NQIRAGHER YYPvgl:19958 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2014-023456 Yng:38761675Ybat:75145272QVFC:08:30:53Pebff Fg:ENZC/F NGYNAGVP QE
-(PNQ Nyreg) 82NF2 Pnyy ng:4 Oehafjvpx Ya           Ybp:                         Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2014-023452 Yng:38744504Ybat:75201052QVFC:07:04:20Pebff Fg:OEVFGBY JNL/ABGGVATUNZ QE
-(PNQ Nyreg) 82NFG Pnyy ng:269 Ynxrfvqr Qe          Ybp:                         Pvgl:19958 Ceboyrz:Qvnorgvp Ceboyrzf-NYF         Vap#:2014-023446 Yng:38739958Ybat:75164770QVFC:03:56:04Pebff Fg:CRPNA PG/UREBA PG
-(PNQ Nyreg) 82NF1 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner fhffrkPvgl:19958 Ceboyrz:Vagresnpvyvg Riny/Genafsre-NYFVap#:2014-023445 Yng:38773939Ybat:75154864QVFC:01:58:37Pebff Fg:PNANEL QE/SYNZVATB PG
-(PNQ Nyreg) 82NFG Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner/Yrjrf Pvgl:19958 Ceboyrz:Vagresnpvyyvgl/Cnyyvngvir-NYF Vap#:2014-023437 Yng:38773939Ybat:75154864QVFC:19:15:57Pebff Fg:PNANEL QE/SYNZVATB PG
-(PNQ Nyreg) 82NF2 Pnyy ng:33711 Jrfpbngf Eq        Ybp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2014-023414 Yng:38751091Ybat:75162055QVFC:14:48:20Pebff Fg:PYNL EQ/ZNEFU EQ
-(PNQ Nyreg) 82P   Pnyy ng:33711 Jrfpbngf Eq        Ybp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2014-023414 Yng:38751091Ybat:75162055QVFC:14:48:20Pebff Fg:PYNL EQ/ZNEFU EQ
-(PNQ Nyreg) 82NFG Pnyy ng:17026 Pnqohel Pve        Ybp:Pnqohel ng Yrjrf (NffvfgrPvgl:19958 Ceboyrz:Vagresnpvyvg Riny/Genafsre-OYFVap#:2014-023403 Yng:38754676Ybat:75139991QVFC:13:34:22Pebff Fg:Qrnq Raq/Qrnq Raq
-(PNQ Nyreg) 82NFG Pnyy ng:18722 Elna Pg            Ybp:                         Pvgl:19971 Ceboyrz:Snyyf-OYF                     Vap#:2014-023395 Yng:38731683Ybat:75149330QVFC:11:55:51Pebff Fg:ZVPURYYR QE/Qrnq Raq
-(PNQ Nyreg) 82NFG Pnyy ng:34445 Xvat Fgerrg Ebj    Ybp:Snzvyl Cenpgvpr Pragre   Pvgl:19958 Ceboyrz:Purfg Cnva-NYF                Vap#:2014-023390 Yng:38743919Ybat:75149703QVFC:11:04:42Pebff Fg:XVATF UJL/Qrnq Raq
-(PNQ Nyreg) 82NF1 Pnyy ng:34134 Qbabinaf Eq        Ybp:16356 sbeerfg fg         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2014-023370 Yng:38762453Ybat:75151712QVFC:08:58:35Pebff Fg:FNINAANU EQ/PBBCRE PVE
-(PNQ Nyreg) 82FG  Pnyy ng:23021 Cvar Eq            Ybp:Cvar Ya                  Pvgl:19958 Ceboyrz:Fgehpgher Sver                Vap#:2014-023350 Yng:38671376Ybat:75155612QVFC:03:11:21Pebff Fg:BNX QE/PNZC NEEBJURNQ EQ
-(PNQ Nyreg) 82NFG Pnyy ng:15083 Blfgre Furyy Qe    Ybp:                         Pvgl:19968 Ceboyrz:Fgebxr-NYF                    Vap#:2014-023338 Yng:38783535Ybat:75226891QVFC:20:37:00Pebff Fg:ONEANPYR PG/PYNZ FURYY YA
-(PNQ Nyreg) 82NF3 Pnyy ng:117 Orror Nir            Ybp:                         Pvgl:19958 Ceboyrz:Pneqvnp/ Erfc./Qrngu- OYF     Vap#:2014-023332 Yng:38769750Ybat:75141702QVFC:19:01:16Pebff Fg:FNINAANU EQ/XVATF UJL
-(PNQ Nyreg) 82NF2 Pnyy ng:4 Orror Qe               Ybp:                         Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2014-023330 Yng:38716490Ybat:75201621QVFC:18:49:27Pebff Fg:OHAQVPXF QE/ORGB YA
-(PNQ Nyreg) 82P   Pnyy ng:17300 Jngre Ivrj Qe      Ybp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-023323 Yng:38749925Ybat:75224705QVFC:16:09:47Pebff Fg:UBYYL YA/EVQTR YVAR QE
-(PNQ Nyreg) 82NF2 Pnyy ng:17300 Jngre Ivrj Qe      Ybp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-023323 Yng:38749925Ybat:75224705QVFC:16:09:47Pebff Fg:UBYYL YA/EVQTR YVAR QE
-(PNQ Nyreg) 82N   Pnyy ng:910 Fuvryqf Nir          Ybp:Evpuneq Fuvryqf Ryrz. fpuPvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-023318 Yng:38767868Ybat:75147239QVFC:15:24:16Pebff Fg:HAXABJA/FHFFRK QE
-(PNQ Nyreg) 82NF2 Pnyy ng:31210 Rqtrjbbq Qe        Ybp:                         Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2014-023309 Yng:38750472Ybat:75205567QVFC:12:53:35Pebff Fg:PBANJNL QE/OHGGBAJBBQ QE
-(PNQ Nyreg) 82NFG Pnyy ng:35245 Uhqfba Jnl         Ybp:ornpu onovrf             Pvgl:19971 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2014-023305 Yng:38729124Ybat:75137313QVFC:12:06:54Pebff Fg:WBUA W JVYYVNZF UJL/Qrnq Raq
-(PNQ Nyreg) 82NFG Pnyy ng:1539 Fninaanu Eq         Ybp:ORROR TNFGEBRAGREBYBTL NFPvgl:      Ceboyrz:Pbaihyfvbaf/Frvmherf-NYF      Vap#:2014-023289 Yng:0       Ybat:0       QVFC:09:42:53Pebff Fg:
-(PNQ Nyreg) 82NF1 Pnyy ng:32041 Wnavpr Eq          Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2014-023286 Yng:38749792Ybat:75191009QVFC:09:05:46Pebff Fg:ANFFNH CNEX/FVUNZ EQ
-(PNQ Nyreg) 82NF2 Pnyy ng:34186 Jbbqf Rqtr Qe      Ybp:                         Pvgl:19958 Ceboyrz:Zrqvpny Nyreg                 Vap#:2014-023275 Yng:38747913Ybat:75154187QVFC:02:42:43Pebff Fg:FNINAANU RNFG QE/Qrnq Raq
-(PNQ Nyreg) 82NFG Pnyy ng:31398 Evire Eq           Ybp:Vaqvna Evire Lnpug Pyho  Pvgl:19966 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-OYFVap#:2014-023265 Yng:38595622Ybat:75199992QVFC:20:10:21Pebff Fg:JNEJVPX QE/YNLGBA QNIVF EQ
-(PNQ Nyreg) 82N   Pnyy ng:16630 Oyhr Zneyva Pg     Ybp:                         Pvgl:19958 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-023260 Yng:38760030Ybat:75116996QVFC:19:32:00Pebff Fg:GNECBA QE/Qrnq Raq
-(PNQ Nyreg) 82N   Pnyy ng:16630 Oyhr Zneyva Pg     Ybp:                         Pvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-023260 Yng:38760030Ybat:75116996QVFC:19:32:00Pebff Fg:GNECBA QE/Qrnq Raq
-(PNQ Nyreg) 82NF2 Pnyy ng:15 Purfgresvryq Qe       Ybp:                         Pvgl:19958 Ceboyrz:Urzbeeuntr/Ynprengvbaf-OYF    Vap#:2014-023253 Yng:38743226Ybat:75159512QVFC:18:11:55Pebff Fg:YNAPNFGRE YA/BKSBEQ PG
-(PNQ Nyreg) 82P   Pnyy ng:Fninaanu Eq & A Ivyyntr ZYbp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-023247 Yng:38750581Ybat:75167669QVFC:17:01:33Pebff Fg:
-(PNQ Nyreg) 82NF2 Pnyy ng:Fninaanu Eq & A Ivyyntr ZYbp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-023247 Yng:38750581Ybat:75167669QVFC:17:01:33Pebff Fg:
-(PNQ Nyreg) 82NF1  Pnyy ng: 34453 Xvat Fgerrg Ebj    Ybp: qrynjner pneqvb          Pvgl:19958  Ceboyrz:  Purfg Cnva-NYF                  Vap#: 2014-023219    Yng: 38743512    Ybat: 75149349   QVFC: 11:53:58   Pebff Fg: XVATF UJL/Qrnq Raq
-(PNQ Nyreg) 82NF2  Pnyy ng: 30912 Rqtrjngre Qe       Ybp:                          Pvgl:19958  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-OYF  Vap#: 2014-023216    Yng: 38753662    Ybat: 75210403   QVFC: 11:40:57   Pebff Fg: FLPNZBER QE/BNX PG
-(PNQ Nyreg) 82NF3  Pnyy ng: 204 Jngresbeq Qe         Ybp:                          Pvgl:19958  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-023211    Yng: 38708535    Ybat: 75174640   QVFC: 10:33:02   Pebff Fg: URNGURE QE/JROOF YNAQVAT EQ
-(PNQ Nyreg) 82NF2  Pnyy ng: 23 Pnaqyryvtug Ya        Ybp:                          Pvgl:19971  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-OYF  Vap#: 2014-023208    Yng: 38735819    Ybat: 75132922   QVFC: 10:19:30   Pebff Fg: BYQR PBNPU QE/BYQR PBNPU QE
-(PNQ Nyreg) 82NF1  Pnyy ng: 33156 A Ivyyntr Ybbc     Ybp: havg 4102                Pvgl:19958  Ceboyrz:  Oernguvat Ceboyrzf-NYF          Vap#: 2014-023206    Yng: 38754783    Ybat: 75173643   QVFC: 09:48:45   Pebff Fg: J RQTRZBBE FG/J RQTRZBBE FG
-(PNQ Nyreg) 82NFG  Pnyy ng: 108 Ghyvc Qe             Ybp:                          Pvgl:19958  Ceboyrz:  Zrqvpny Nyreg                   Vap#: 2014-023193    Yng: 38750647    Ybat: 75177978   QVFC: 07:28:04   Pebff Fg: PBNFGNY UJL/CBAQ QE
-(PNQ Nyreg) 82NFG  Pnyy ng: 1-41 Arj Obyq Fd         Ybp: NZO                      Pvgl:19971  Ceboyrz:  Onpx Cnva (Aba Genhzngvp)-OYF   Vap#: 2014-023155    Yng: 38708012    Ybat: 75085001   QVFC: 16:33:46   Pebff Fg: FPNEOBEBHTU NIRAHR RKG/Qrnq Raq
-(PNQ Nyreg) 82NF3  Pnyy ng: 4 Znlsnve Ya             Ybp:                          Pvgl:19958  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-OYF  Vap#: 2014-023143    Yng: 38742162    Ybat: 75204619   QVFC: 14:02:18   Pebff Fg: XVATF PEFT/JUVGRUNIRA JNL
-(PNQ Nyreg) 82NF1  Pnyy ng: 416 Xvatf Ujl            Ybp:                          Pvgl:19958  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-023133    Yng: 38770429    Ybat: 75140940   QVFC: 11:19:41   Pebff Fg: PBYRZNA NIR/ZNQVFBA NIR
-(PNQ Nyreg) 82NFG  Pnyy ng: 18927 Tbyqsvapu Pi       Ybp:                          Pvgl:19971  Ceboyrz:  Genhzngvp Vawhevrf-NYF          Vap#: 2014-023130    Yng: 38726653    Ybat: 75143331   QVFC: 10:46:25   Pebff Fg: QBG FCNEEBJ QE/Qrnq Raq
-(PNQ Nyreg) 82NFG  Pnyy ng: 19559 Qbr Qe             Ybp:                          Pvgl:19947  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-NYF  Vap#: 2014-023121    Yng: 38719215    Ybat: 75299687   QVFC: 09:08:17   Pebff Fg: SNJA YA/OHPX EHA
-(PNQ Nyreg) 82NF3  Pnyy ng: 1142 Fninaanu Eq         Ybp:                          Pvgl:19958  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-023106    Yng: 38764084    Ybat: 75149989   QVFC: 02:37:51   Pebff Fg: HAXABJA/QBABINAF EQ
-(PNQ Nyreg) 82NF2  Pnyy ng: 301 Bprna Ivrj Oyiq      Ybp: Uneobe Urnygu Pner uraybcPvgl:19958  Ceboyrz:  Vagresnpvyvg Riny/Genafsre-NYF  Vap#: 2014-023097    Yng: 38773939    Ybat: 75154864   QVFC: 22:09:33   Pebff Fg: PNANEL QE/SYNZVATB PG
-(PNQ Nyreg) 82NF3  Pnyy ng: 4 Znlsnve Ya             Ybp:                          Pvgl:19958  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-023096    Yng: 38742162    Ybat: 75204619   QVFC: 22:02:43   Pebff Fg: XVATF PEFT/JUVGRUNIRA JNL
-(PNQ Nyreg) 82NF1  Pnyy ng: 16391 Wbua Ebjynaq Gey   Ybp:                          Pvgl:19968  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-OYF  Vap#: 2014-023092    Yng: 38762443    Ybat: 75210529   QVFC: 20:03:24   Pebff Fg: NGGBEARL TRARENYF PG/R FNYYVR EBFF ORAQ
-(PNQ Nyreg) 82NFG  Pnyy ng: 301 Bprna Ivrj Oyiq      Ybp: Uneobe Urnygu Pner uraybcPvgl:19958  Ceboyrz:  Vagresnpvyvg Riny/Genafsre-OYF  Vap#: 2014-023080    Yng: 38773939    Ybat: 75154864   QVFC: 16:51:29   Pebff Fg: PNANEL QE/SYNZVATB PG
-(PNQ Nyreg) 82NF3  Pnyy ng: 0 Qnegzbhgu Qe & Pbnfgny Ybp: Jnjn (82)                Pvgl:19958  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-OYF  Vap#: 2014-023079    Yng: 38745084    Ybat: 75153617   QVFC: 16:48:41   Pebff Fg:
-(PNQ Nyreg) 82NF1  Pnyy ng: 301 Bprna Ivrj Oyiq      Ybp: Uneobe Urnygu Pner       Pvgl:19958  Ceboyrz:  Vagresnpvyyvgl/Cnyyvngvir-OYF   Vap#: 2014-023074    Yng: 38773939    Ybat: 75154864   QVFC: 16:15:28   Pebff Fg: PNANEL QE/SYNZVATB PG
-(PNQ Nyreg) 82NFG  Pnyy ng: 93 Oelna Qe              Ybp:                          Pvgl:19971  Ceboyrz:  Urnqnpur-OYF                    Vap#: 2014-023073    Yng: 38741463    Ybat: 75132069   QVFC: 16:11:29   Pebff Fg: FNOEVAN QE/GVSSNAL QE
-(PNQ Nyreg) 82NF2  Pnyy ng: 36 Oelna Qe              Ybp:                          Pvgl:19971  Ceboyrz:  Zrqvpny Nyreg                   Vap#: 2014-023042    Yng: 38738722    Ybat: 75136706   QVFC: 09:42:56   Pebff Fg: FNOEVAN QE/GVSSNAL QE
-(PNQ Nyreg) 82NF2  Pnyy ng: 32922 Prqne Tebir Eq     Ybp:                          Pvgl:19958  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-023033    Yng: 38719619    Ybat: 75171417   QVFC: 04:46:23   Pebff Fg: UNEZBAL EQ/JNEQ EQ
-(PNQ Nyreg) 82N    Pnyy ng: 32922 Prqne Tebir Eq     Ybp:                          Pvgl:19958  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-023033    Yng: 38719619    Ybat: 75171417   QVFC: 04:46:23   Pebff Fg: UNEZBAL EQ/JNEQ EQ
-(PNQ Nyreg) 82NF3  Pnyy ng: 1142 Fninaanu Eq         Ybp: Ncg. 107                 Pvgl:19958  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-023031    Yng: 38764084    Ybat: 75149989   QVFC: 04:12:06   Pebff Fg: HAXABJA/QBABINAF EQ
-(PNQ Nyreg) 82NFG  Pnyy ng: 305 Fnyvfohel Fg         Ybp:                          Pvgl:19971  Ceboyrz:  Oernguvat Ceboyrzf-NYF          Vap#: 2014-022999    Yng: 38695123    Ybat: 75080447   QVFC: 17:20:14   Pebff Fg: QBQQ NIR/QENCRE QE
-(PNQ Nyreg) 82NFG  Pnyy ng: 1 - 30 Byvir Nir         Ybp: naq obnqjnyx/ Nzob 82    Pvgl:19971  Ceboyrz:  Genhzngvp Vawhevrf-OYF          Vap#: 2014-022980    Yng: 38719250    Ybat: 75076473   QVFC: 13:11:16   Pebff Fg: A OBNEQJNYX/SVEFG FG
-(PNQ Nyreg) 82NFG  Pnyy ng: 0 Pncr Uraybcra Fgngr CneYbp: ovxr cngu pbhagre pybpxjvPvgl:19958  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-022970    Yng: 38775299    Ybat: 75098838   QVFC: 11:54:24   Pebff Fg: HAXABJA/HAXABJA
-(PNQ Nyreg) 82FG   Pnyy ng: 37772 Pncr Urybcra Qe    Ybp: Pncr Uraybcra Fgngr Cnex Pvgl:19958  Ceboyrz:  Nffvfg                          Vap#: 2014-022964    Yng: 38782042    Ybat: 75104199   QVFC: 09:39:51   Pebff Fg: R PNCR FUBERF QE/CBFG EQ
-(PNQ Nyreg) 82NF1  Pnyy ng: 1137 Fninaanu Eq         Ybp: Fninaanu Eq              Pvgl:19958  Ceboyrz:  Hapbafpvbhf/Snvagvat(Arne)-NYF  Vap#: 2014-022955    Yng: 38765439    Ybat: 75148555   QVFC: 08:13:29   Pebff Fg: QENXR XABYY/HAXABJA
-(PNQ Nyreg) 82NFG  Pnyy ng: 17028 Pnqohel Pve        Ybp: Pnqohel ng Yrjrf (Znva RaPvgl:19958  Ceboyrz:  Vagresnpvyvg Riny/Genafsre-NYF  Vap#: 2014-022950    Yng: 38754887    Ybat: 75140095   QVFC: 07:07:14   Pebff Fg: Qrnq Raq/Qrnq Raq
-(PNQ Nyreg) 82NF2  Pnyy ng: 31024 Zrnqbj Qe          Ybp:                          Pvgl:19958  Ceboyrz:  Zrqvpny Nyreg                   Vap#: 2014-022948    Yng: 38700795    Ybat: 75210385   QVFC: 05:23:13   Pebff Fg: FNAQL EVQTR QE/BNX PERFG QE
-(PNQ Nyreg) 82NF1  Pnyy ng: 301 Bprna Ivrj Oyiq      Ybp: Uneobe Urnygu fhffrk 251 Pvgl:19958  Ceboyrz:  Vagresnpvyyvgl/Cnyyvngvir-OYF   Vap#: 2014-022939    Yng: 38773939    Ybat: 75154864   QVFC: 01:09:38   Pebff Fg: PNANEL QE/SYNZVATB PG
-(PNQ Nyreg) 82N    Pnyy ng: Cynagngvbaf Eq & Cbfgny YYbp:                          Pvgl:19958  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-022927    Yng: 38732931    Ybat: 75153973   QVFC: 22:05:02   Pebff Fg:
-(PNQ Nyreg) 82NF3  Pnyy ng: Cynagngvbaf Eq & Cbfgny YYbp:                          Pvgl:19958  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-022927    Yng: 38732931    Ybat: 75153973   QVFC: 22:05:02   Pebff Fg:
-(PNQ Nyreg) 82NF3  Pnyy ng: 12 Ynapnfgre Ya          Ybp:                          Pvgl:19958  Ceboyrz:  Hapbafpvbhf/Snvagvat(Arne)-NYF  Vap#: 2014-022916    Yng: 38741587    Ybat: 75159262   QVFC: 20:09:28   Pebff Fg: PURFGRESVRYQ QE/QRIBA PG
-(PNQ Nyreg) 82NF3  Pnyy ng: 17192 Cvar Jngre Qe      Ybp:                          Pvgl:19958  Ceboyrz:  Freivpr Pnyy-NZO                Vap#: 2014-022915    Yng: 38751567    Ybat: 75225680   QVFC: 19:40:01   Pebff Fg: UBYYL YA/JNGRE IVRJ QE
-(PNQ Nyreg) 82NF3  Pnyy ng: 31695 Orrpu Cyhz Pg      Ybp:                          Pvgl:19958  Ceboyrz:  Qvnorgvp Ceboyrzf-NYF           Vap#: 2014-022911    Yng: 38744703    Ybat: 75197953   QVFC: 19:00:08   Pebff Fg: ZNEL NAA QE/Qrnq Raq
-(PNQ Nyreg) 82NF1  Pnyy ng: 342 Cvybggbja Eq         Ybp:                          Pvgl:19958  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-022906    Yng: 38778303    Ybat: 75145123   QVFC: 17:03:06   Pebff Fg: DHRRA NAAR NIR/BPRNA IVRJ OYIQ
-(PNQ Nyreg) 82NF1  Pnyy ng: 0 Pncr Uraybcra Fgngr CneYbp: bhg ol gur yvtugubhfr    Pvgl:19958  Ceboyrz:  Jngre Erfphr Cevbevgl 2         Vap#: 2014-022900    Yng: 38785451    Ybat: 75095408   QVFC: 16:30:34   Pebff Fg: PUNCRY YA/PUNCRY YA
-(PNQ Nyreg) 82P    Pnyy ng: 0 Pncr Uraybcra Fgngr CneYbp: bhg ol gur yvtugubhfr    Pvgl:19958  Ceboyrz:  Jngre Erfphr Cevbevgl 2         Vap#: 2014-022900    Yng: 38785451    Ybat: 75095408   QVFC: 16:30:34   Pebff Fg: PUNCRY YA/PUNCRY YA
-(PNQ Nyreg) 82NF1  Pnyy ng: Yrjrf Trbetrgbja Ujl & EnYbp:                          Pvgl:19958  Ceboyrz:  Haxabja Ceboyrz(Zna Qbja)-NYF   Vap#: 2014-022897    Yng: 38734914    Ybat: 75234011   QVFC: 16:03:29   Pebff Fg:
+(PNQ Nyreg) 82NFG Pnyy ng:11 Nirohel Pg            Ybp:                         Pvgl:19971 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-001124 Yng:38707403Ybat:75134601QVFC:15:11:52Pebff Fg:FRYOBEAR YA/Qrnq Raq
+(PNQ Nyreg) 82NF3 Pnyy ng:Yrjrf Trbetrgbja Ujl & QnYbp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2015-001106 Yng:38736624Ybat:75222615QVFC:12:52:18Pebff Fg:
+(PNQ Nyreg) 82P   Pnyy ng:Yrjrf Trbetrgbja Ujl & QnYbp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2015-001106 Yng:38736624Ybat:75222615QVFC:12:52:18Pebff Fg:
+(PNQ Nyreg) 82NF2 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner FhffrkPvgl:19958 Ceboyrz:Vagresnpvyyvgl/Cnyyvngvir-NYF Vap#:2015-001105 Yng:38773939Ybat:75154864QVFC:12:51:28Pebff Fg:PNANEL QE/SYNZVATB PG
+(PNQ Nyreg) 82O   Pnyy ng:17585 Anffnh Pbzzbaf OyiqYbp:                         Pvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-001101 Yng:38745530Ybat:75186303QVFC:12:01:31Pebff Fg:JVAREL JNL/IVARLNEQ YA
+(PNQ Nyreg) 82NF1 Pnyy ng:27 Ghegyr Qbir Qe        Ybp:                         Pvgl:19971 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-001096 Yng:38741496Ybat:75135869QVFC:11:01:10Pebff Fg:ZRYFBA EQ/QBIR XABYY QE
+(PNQ Nyreg) 82NFG Pnyy ng:18927 Tbyqsvapu Pi       Ybp:                         Pvgl:19971 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-001092 Yng:38726653Ybat:75143331QVFC:10:03:21Pebff Fg:QBG FCNEEBJ QE/Qrnq Raq
+(PNQ Nyreg) 82P   Pnyy ng:12001 Byq Ivar Oyiq      Ybp:                         Pvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-001090 Yng:38741924Ybat:75191225QVFC:09:48:02Pebff Fg:YRJRF TRBETRGBJA UJL/Qrnq Raq
+(PNQ Nyreg) 82NF2 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner ura ezPvgl:19958 Ceboyrz:Vagresnpvyvg Riny/Genafsre-NYFVap#:2015-001085 Yng:38773939Ybat:75154864QVFC:08:18:49Pebff Fg:PNANEL QE/SYNZVATB PG
+(PNQ Nyreg) 82NF2 Pnyy ng:17970 Ebovafbaivyyr Eq   Ybp:                         Pvgl:19958 Ceboyrz:Zrqvpny Nyreg                 Vap#:2015-001084 Yng:38741423Ybat:75168247QVFC:08:04:44Pebff Fg:CYNAGNGVBAF EQ/FRNFURYY OYIQ
+(PNQ Nyreg) 82NF1 Pnyy ng:31301 Erq Zvyy Pve       Ybp:                         Pvgl:19958 Ceboyrz:Pbaihyfvbaf/Frvmherf-NYF      Vap#:2015-001076 Yng:38747261Ybat:75204477QVFC:04:28:51Pebff Fg:PBIRAGEL QE/Qrnq Raq
+(PNQ Nyreg) 82NF2 Pnyy ng:4 Oehafjvpx Ya           Ybp:                         Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-001060 Yng:38744504Ybat:75201052QVFC:19:36:17Pebff Fg:OEVFGBY JNL/ABGGVATUNZ QE
+(PNQ Nyreg) 82NF3 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner UraybcPvgl:19958 Ceboyrz:Vagresnpvyyvgl/Cnyyvngvir-NYF Vap#:2015-001026 Yng:38773939Ybat:75154864QVFC:13:20:27Pebff Fg:PNANEL QE/SYNZVATB PG
+(PNQ Nyreg) 82NFG Pnyy ng:17026 Pnqohel Pve        Ybp:Pnqohel ng Yrjrf (NffvfgrPvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-001017 Yng:38754676Ybat:75139991QVFC:11:09:22Pebff Fg:Qrnq Raq/Qrnq Raq
+(PNQ Nyreg) 82NFG Pnyy ng:1309 Fninaanu Eq         Ybp:SNFG PNER ZRQVPNY NVQ HAVPvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2015-001012 Yng:38760513Ybat:75153751QVFC:10:24:57Pebff Fg:FRJRYY YA/JBBQYNAQ NIR
+(PNQ Nyreg) 82NF2 Pnyy ng:22591 Fbhgurea Cvarf Qe  Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-001010 Yng:38678296Ybat:75190004QVFC:10:20:34Pebff Fg:Qrnq Raq/TERRAOEVNE JNL
+(PNQ Nyreg) 82O   Pnyy ng:104 Frpbaq Fg            Ybp:                         Pvgl:19958 Ceboyrz:Fzbxr Vairfgvtngvba           Vap#:2015-000990 Yng:38774937Ybat:75138744QVFC:02:45:23Pebff Fg:FNINAANU EQ/ARVYF NYL
+(PNQ Nyreg) 82N   Pnyy ng:514 Fninaanu Eq          Ybp:Fninaanu Eq              Pvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-000941 Yng:38768112Ybat:75145732QVFC:14:23:06Pebff Fg:FPUBBY YA/FHFFRK QE
+(PNQ Nyreg) 82NF2 Pnyy ng:34995 Pnqohel Pve J      Ybp:qhcyrk ubzrf             Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000937 Yng:38755158Ybat:75143195QVFC:13:44:09Pebff Fg:HAANZRQ FGERRG/Qrnq Raq
+(PNQ Nyreg) 82NF1 Pnyy ng:124 Ghyvc Qe             Ybp:                         Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2015-000938 Yng:38750547Ybat:75178750QVFC:13:45:37Pebff Fg:PBNFGNY UJL/CBAQ QE
+(PNQ Nyreg) 82NF2 Pnyy ng:124 Ghyvc Qe             Ybp:                         Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2015-000938 Yng:38750547Ybat:75178750QVFC:13:45:37Pebff Fg:PBNFGNY UJL/CBAQ QE
+(PNQ Nyreg) 82NF1 Pnyy ng:34995 Pnqohel Pve J      Ybp:qhcyrk ubzrf             Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000937 Yng:38755158Ybat:75143195QVFC:13:44:09Pebff Fg:HAANZRQ FGERRG/Qrnq Raq
+(PNQ Nyreg) 82NF2 Pnyy ng:27 Xvatf Peft            Ybp:                         Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-000933 Yng:38742673Ybat:75202550QVFC:13:12:57Pebff Fg:JUVGRUNIRA JNL/OHPXVATUNZ QE
+(PNQ Nyreg) 82NF2 Pnyy ng:31317 Pbiragel Qe        Ybp:                         Pvgl:19958 Ceboyrz:Purfg Cnva-NYF                Vap#:2015-000925 Yng:38747773Ybat:75205660QVFC:11:17:24Pebff Fg:ERQ ZVYY PVE/ANFFNH QE
+(PNQ Nyreg) 82NF1 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner ebbz 1Pvgl:19958 Ceboyrz:Vagresnpvyvg Riny/Genafsre-OYFVap#:2015-000922 Yng:38773939Ybat:75154864QVFC:10:17:45Pebff Fg:PNANEL QE/SYNZVATB PG
+(PNQ Nyreg) 82NF1 Pnyy ng:418 J Sbhegu Fg          Ybp:                         Pvgl:19958 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2015-000909 Yng:38775402Ybat:75146011QVFC:08:05:21Pebff Fg:QHCBAG NIR/CNLAGRE NIR
+(PNQ Nyreg) 82NF3 Pnyy ng:17488 Fyvccre Furyy Jnl  Ybp:                         Pvgl:19958 Ceboyrz:Zrqvpny Nyreg                 Vap#:2015-000905 Yng:38747133Ybat:75181218QVFC:06:58:16Pebff Fg:PBDHVAN JNL/WNAGUVAN JNL
+(PNQ Nyreg) 82NF3 Pnyy ng:32880 Bprna Ernpu Qe     Ybp:                         Pvgl:19958 Ceboyrz:Freivpr Pnyy-NZO              Vap#:2015-000903 Yng:38740502Ybat:75170658QVFC:06:09:42Pebff Fg:PNCR QE F/Qrnq Raq
+(PNQ Nyreg) 82NF3 Pnyy ng:13 Nhghzajbbq Jnl        Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000896 Yng:38693080Ybat:75192889QVFC:02:45:03Pebff Fg:NYQREYRNS QE/NAPVRAG BNX QE
+(PNQ Nyreg) 821   Pnyy ng:31344 Erq Zvyy Qe        Ybp:                         Pvgl:19958 Ceboyrz:Nynez Pbzcnal                 Vap#:2015-000881 Yng:38758039Ybat:75204081QVFC:22:25:37Pebff Fg:CRZOEBXR EQ/FUREOEBBXR EQ
+(PNQ Nyreg) 82O   Pnyy ng:31344 Erq Zvyy Qe        Ybp:                         Pvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-000881 Yng:38758039Ybat:75204081QVFC:22:25:37Pebff Fg:CRZOEBXR EQ/FUREOEBBXR EQ
+(PNQ Nyreg) 82NF1 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu 261-N / FhfPvgl:19958 Ceboyrz:Vagresnpvyyvgl/Cnyyvngvir-NYF Vap#:2015-000870 Yng:38773939Ybat:75154864QVFC:18:45:38Pebff Fg:PNANEL QE/SYNZVATB PG
+(PNQ Nyreg) 82NF3 Pnyy ng:17488 Fyvccre Furyy Jnl  Ybp:                         Pvgl:19958 Ceboyrz:Zrqvpny Nyreg                 Vap#:2015-000861 Yng:38747133Ybat:75181218QVFC:16:49:22Pebff Fg:PBDHVAN JNL/WNAGUVAN JNL
+(PNQ Nyreg) 82NFG Pnyy ng:14914 Yrfyrl Ya          Ybp:                         Pvgl:19968 Ceboyrz:Purfg Cnva-NYF                Vap#:2015-000856 Yng:38756387Ybat:75235097QVFC:15:25:06Pebff Fg:IVAPRAG IVYYNTR QE/Qrnq Raq
+(PNQ Nyreg) 82NF1 Pnyy ng:18443 Pbnfgny Ujl        Ybp:OBHYRINEQ NHGB FNYRF VAP Pvgl:19971 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-000848 Yng:38739353Ybat:75145045QVFC:14:15:45Pebff Fg:WVSSL JNL/ZRYFBA EQ
+(PNQ Nyreg) 82NFG Pnyy ng:17028 Pnqohel Pve        Ybp:Pnqohel ng Yrjrf ONPX RAGPvgl:19958 Ceboyrz:Vagresnpvyvg Riny/Genafsre-OYFVap#:2015-000845 Yng:38754887Ybat:75140095QVFC:13:27:03Pebff Fg:Qrnq Raq/Qrnq Raq
+(PNQ Nyreg) 82NF3 Pnyy ng:17370 Pbnfgny Ujl        Ybp:Pbnfgny Ujl              Pvgl:19958 Ceboyrz:Genhzngvp Vawhevrf-OYF        Vap#:2015-000841 Yng:38748839Ybat:75178380QVFC:12:39:00Pebff Fg:PBAARPGVAT EBNQ/PBAARPGVAT EQ
+(PNQ Nyreg) 821   Pnyy ng:19500-19899 Abejbbq Fg   Ybp:                         Pvgl:19971 Ceboyrz:Ubhfr Sver                    Vap#:2015-000817 Yng:38717333Ybat:75099290QVFC:04:15:28Pebff Fg:QHAONE FG/OHEGBA NIR
+(PNQ Nyreg) 82FG  Pnyy ng:19500-19899 Abejbbq Fg   Ybp:                         Pvgl:19971 Ceboyrz:Ubhfr Sver                    Vap#:2015-000817 Yng:38717333Ybat:75099290QVFC:04:15:28Pebff Fg:QHAONE FG/OHEGBA NIR
+(PNQ Nyreg) 82NF1 Pnyy ng:16654 Wbua Ebjynaq Gey   Ybp:havg 905                 Pvgl:19968 Ceboyrz:Qvnorgvp Ceboyrzf-NYF         Vap#:2015-000814 Yng:38765091Ybat:75215132QVFC:01:01:53Pebff Fg:ZNEL ZVGPURYY PEFT/FUNEBA FYNGRE CNFF
+(PNQ Nyreg) 82P   Pnyy ng:4 Qryzne Nir             Ybp:                         Pvgl:19958 Ceboyrz:Pneoba Zbabkvqr Qrgrpgbe      Vap#:2015-000808 Yng:38781682Ybat:75139387QVFC:23:21:50Pebff Fg:PRQNE FG/Qrnq Raq
+(PNQ Nyreg) 82N   Pnyy ng:16113 Tvyyf Arpx Eq      Ybp:                         Pvgl:19958 Ceboyrz:Puvzarl Sver                  Vap#:2015-000802 Yng:38765748Ybat:75129141QVFC:22:15:26Pebff Fg:GURBQBER P SERRZNA UJL/OYNPX ZNEYVA QE
+(PNQ Nyreg) 82P   Pnyy ng:34634 Onl Pebffvat Oyiq  Ybp:                         Pvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-000779 Yng:38740950Ybat:75146915QVFC:16:22:03Pebff Fg:PBNFGNY UJL/IVYYN PVE
+(PNQ Nyreg) 82P   Pnyy ng:30777 Zbyyl O Eq         Ybp:                         Pvgl:19958 Ceboyrz:Nccyvnapr Sver                Vap#:2015-000767 Yng:38749362Ybat:75212991QVFC:15:38:11Pebff Fg:ZVYYF EVQTR EQ/ZVABF PBANJNL EQ
+(PNQ Nyreg) 82N   Pnyy ng:5 INFFNE QE              Ybp:                         Pvgl:19971 Ceboyrz:Nynez Pbzcnal                 Vap#:2015-000764 Yng:38729929Ybat:75138855QVFC:15:29:51Pebff Fg:OELA ZNJE QE/PBYTNGR QE
+(PNQ Nyreg) 82N   Pnyy ng:28410 Qrynjner Nir       Ybp:                         Pvgl:19966 Ceboyrz:Ubhfr Sver                    Vap#:2015-000746 Yng:38598677Ybat:75172604QVFC:12:07:25Pebff Fg:ONFVA EQ/ZREPRE NIR
+(PNQ Nyreg) 82NF1 Pnyy ng:1142 Fninaanu Eq         Ybp:Fninaanu Eq ncg 304      Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2015-000729 Yng:38762269Ybat:75151906QVFC:09:41:17Pebff Fg:A NGYNAGVP QE/IVXVATF JNL
+(PNQ Nyreg) 82NF1 Pnyy ng:1142 Fninaanu Eq         Ybp:ncg 107                  Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000728 Yng:38762269Ybat:75151906QVFC:09:17:14Pebff Fg:A NGYNAGVP QE/IVXVATF JNL
+(PNQ Nyreg) 821   Pnyy ng:14227 VFNNPF EQ          Ybp:                         Pvgl:19941 Ceboyrz:Fgehpgher Sver                Vap#:2015-000720 Yng:38788383Ybat:75340779QVFC:06:43:27Pebff Fg:ERLABYQF CBAQ EQ/ZVYGBA RYYRAQNYR UJL
+(PNQ Nyreg) 82FG  Pnyy ng:14227 VFNNPF EQ          Ybp:                         Pvgl:19941 Ceboyrz:Fgehpgher Sver                Vap#:2015-000720 Yng:38788383Ybat:75340779QVFC:06:43:27Pebff Fg:ERLABYQF CBAQ EQ/ZVYGBA RYYRAQNYR UJL
+(PNQ Nyreg) 82P   Pnyy ng:121 Sebag Fg             Ybp:                         Pvgl:19958 Ceboyrz:Nynez Pbzcnal                 Vap#:2015-000718 Yng:38775947Ybat:75139207QVFC:06:00:08Pebff Fg:ONAX FG/ZNEXRG FG
+(PNQ Nyreg) 82NF1 Pnyy ng:34232 Jbbqf Rqtr Qe      Ybp:Ncg. 306                 Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-000670 Yng:38747267Ybat:75155419QVFC:15:29:58Pebff Fg:FNINAANU RNFG QE/FNINAANU RNFG QE
+(PNQ Nyreg) 82NF1 Pnyy ng:224 Ynxrfvqr Qe          Ybp:                         Pvgl:19958 Ceboyrz:Freivpr Pnyy-NZO              Vap#:2015-000644 Yng:38738862Ybat:75160387QVFC:12:21:29Pebff Fg:FHFFRK PG/QBTJBBQ NIR
+(PNQ Nyreg) 82O   Pnyy ng:30887 Fnaql Evqtr Qe     Ybp:                         Pvgl:19958 Ceboyrz:Nynez Pbzcnal                 Vap#:2015-000625 Yng:38701057Ybat:75211513QVFC:09:12:44Pebff Fg:BNX PERFG QE/XABYY PG
+(PNQ Nyreg) 82P   Pnyy ng:30887 Fnaql Evqtr Qe     Ybp:                         Pvgl:19958 Ceboyrz:Nynez Pbzcnal                 Vap#:2015-000625 Yng:38701057Ybat:75211513QVFC:09:12:44Pebff Fg:BNX PERFG QE/XABYY PG
+(PNQ Nyreg) 82NF1 Pnyy ng:124 J Guveq Fg           Ybp:Zvpxrlf Zntvp            Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000565 Yng:38774749Ybat:75140234QVFC:11:49:22Pebff Fg:PURFGAHG FG/ZNEXRG FG
+(PNQ Nyreg) 82FG  Pnyy ng:31870 Pnearebf Nir       Ybp:                         Pvgl:19958 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2015-000544 Yng:38752216Ybat:75192917QVFC:08:34:56Pebff Fg:EBFRZBHAG YA/PUNOYVF YA
+(PNQ Nyreg) 82O   Pnyy ng:17275 Xvat Cuvyvc Jnl    Ybp:                         Pvgl:19958 Ceboyrz:Nynez Pbzcnal                 Vap#:2015-000543 Yng:38751293Ybat:75184356QVFC:08:31:48Pebff Fg:DHRRA NAAR JNL/DHRRA NAAR JNL
+(PNQ Nyreg) 82NF1 Pnyy ng:16871 Byr Tevfg Eha      Ybp:                         Pvgl:19968 Ceboyrz:Onpx Cnva (Aba Genhzngvp)-OYF Vap#:2015-000536 Yng:38756066Ybat:75227321QVFC:07:12:50Pebff Fg:WNLF JNL/ENAQBE QE
+(PNQ Nyreg) 82NFG Pnyy ng:19211 Ornire Qnz Eq      Ybp:                         Pvgl:      Ceboyrz:Genhzngvp Vawhevrf-OYF        Vap#:2015-000422 Yng:0       Ybat:0       QVFC:23:18:30Pebff Fg:
+(PNQ Nyreg) 82NF2 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner       Pvgl:19958 Ceboyrz:Vagresnpvyyvgl/Cnyyvngvir-OYF Vap#:2015-000411 Yng:38773939Ybat:75154864QVFC:20:14:13Pebff Fg:PNANEL QE/SYNZVATB PG
+(PNQ Nyreg) 82NF2 Pnyy ng:30757 Pbayrlf Puncry Eq  Ybp:                         Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-000405 Yng:38687504Ybat:75213181QVFC:18:01:05Pebff Fg:GHPXRL TEBIR/ZRNEF EQ
+(PNQ Nyreg) 82NF1 Pnyy ng:16947 Oynpx Zneyva Pve   Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000399 Yng:38757593Ybat:75121424QVFC:16:52:09Pebff Fg:Qrnq Raq/Qrnq Raq
+(PNQ Nyreg) 82NF2 Pnyy ng:33171 J Purfncrnxr Fg    Ybp:                         Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-000398 Yng:38750948Ybat:75172947QVFC:16:51:21Pebff Fg:QBEFRL FG/SNLRGGR FG
+(PNQ Nyreg) 82NF1 Pnyy ng:3209 Fninaanu Rnfg Qe    Ybp:                         Pvgl:19958 Ceboyrz:Pneqvnp/ Erfc./Qrngu- OYF     Vap#:2015-000393 Yng:38746942Ybat:75153552QVFC:15:46:58Pebff Fg:XVATF UJL/JBBQF RQTR QE
+(PNQ Nyreg) 82NF2 Pnyy ng:17672 Znel Naa Qe        Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000360 Yng:38744179Ybat:75197025QVFC:08:58:30Pebff Fg:FLPNZBER PG/ERARR EQ
+(PNQ Nyreg) 82NF2 Pnyy ng:17265 Zvabf Pbanjnl Eq   Ybp:Zvabf Pbanjnl Eq         Pvgl:19958 Ceboyrz:Pneqvnp/ Erfc./Qrngu- OYF     Vap#:2015-000350 Yng:38751117Ybat:75203623QVFC:05:43:28Pebff Fg:ZNQVFBA QE/PBANJNL QE
+(PNQ Nyreg) 82NF1 Pnyy ng:18 Fhes Nir              Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000344 Yng:38759111Ybat:75141103QVFC:02:05:43Pebff Fg:WRGGL CY/Qrnq Raq
+(PNQ Nyreg) 82N   Pnyy ng:1250 Xvatf Ujl           Ybp:pncr uraybcra uvtu fpubbyPvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-000322 Yng:38756653Ybat:75147804QVFC:17:01:56Pebff Fg:F NGYNAGVP QE/TVYYF ARPX EQ
+(PNQ Nyreg) 82NF2 Pnyy ng:31211 Rqtrjbbq Qe        Ybp:                         Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2015-000277 Yng:38750493Ybat:75205540QVFC:09:26:32Pebff Fg:PBANJNL QE/OHGGBAJBBQ QE
+(PNQ Nyreg) 82NF3 Pnyy ng:15 Qbir Xabyy Qe         Ybp:                         Pvgl:19971 Ceboyrz:Qvnorgvp Ceboyrzf-NYF         Vap#:2015-000267 Yng:38743078Ybat:75138652QVFC:04:51:01Pebff Fg:SNVEZBHAG YA/GHEGYR QBIR QE
+(PNQ Nyreg) 82NFG Pnyy ng:825 Xvatf Ujl            Ybp:NCG 804                  Pvgl:      Ceboyrz:Snyyf-OYF                     Vap#:2015-000260 Yng:0       Ybat:0       QVFC:23:58:59Pebff Fg:
+(PNQ Nyreg) 82NF2 Pnyy ng:825 Xvatf Ujl            Ybp:ncg 804                  Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000250 Yng:38762612Ybat:75144662QVFC:21:04:18Pebff Fg:ENZC/GURBQBER P SERRZNA UJL
+(PNQ Nyreg) 82NF1 Pnyy ng:825 Xvatf Ujl            Ybp:ncg 804                  Pvgl:19958 Ceboyrz:Zrqvpny Nyreg                 Vap#:2015-000250 Yng:38762612Ybat:75144662QVFC:21:04:18Pebff Fg:ENZC/GURBQBER P SERRZNA UJL
+(PNQ Nyreg) 82NFG Pnyy ng:19540 Pbnfgny Ujl        Ybp:Rpbab Ybqtr              Pvgl:19971 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2015-000221 Yng:38719820Ybat:75117466QVFC:12:32:30Pebff Fg:PNZRYBG QE/OYHR OVEQ YA
+(PNQ Nyreg) 82NF1 Pnyy ng:102 J Jvyq Enoovg Eha    Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000207 Yng:38757155Ybat:75160254QVFC:10:24:38Pebff Fg:CURNFNAG QE/QBIR QE
+(PNQ Nyreg) 82NF2 Pnyy ng:23 Purfgresvryq Qe       Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000204 Yng:38742551Ybat:75158427QVFC:08:32:09Pebff Fg:YNAPNFGRE YA/BKSBEQ PG
+(PNQ Nyreg) 82NF2 Pnyy ng:103 Znqvfba Qe           Ybp:                         Pvgl:19958 Ceboyrz:Bireqbfr/Cbvfbavat-NYF        Vap#:2015-000179 Yng:38750522Ybat:75201016QVFC:22:41:32Pebff Fg:ZVABF PBANJNL EQ/GBJAR PG
+(PNQ Nyreg) 82NF2 Pnyy ng:31331 Pbiragel Qe        Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000172 Yng:38748149Ybat:75205350QVFC:19:09:42Pebff Fg:ERQ ZVYY PVE/ANFFNH QE
+(PNQ Nyreg) 82NF3 Pnyy ng:421 Qhcbag Nir           Ybp:                         Pvgl:19958 Ceboyrz:Freivpr Pnyy-NZO              Vap#:2015-000165 Yng:38774045Ybat:75146296QVFC:16:47:58Pebff Fg:J SBHEGU FG/WBUAFBA FG
+(PNQ Nyreg) 82NFG Pnyy ng:Svir Cbvagf              Ybp:a/o ynar va sebag bs pernPvgl:      Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2015-000158 Yng:0       Ybat:0       QVFC:16:03:39Pebff Fg:
+(PNQ Nyreg) 82FG  Pnyy ng:Svir Cbvagf              Ybp:                         Pvgl:      Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2015-000158 Yng:0       Ybat:0       QVFC:16:03:39Pebff Fg:
+(PNQ Nyreg) 82NF3 Pnyy ng:34453 Xvat Fgerrg Ebj    Ybp:QRYNJNER PNEQVBINFPHYNE  Pvgl:19958 Ceboyrz:Purfg Cnva-NYF                Vap#:2015-000148 Yng:38743512Ybat:75149349QVFC:14:20:48Pebff Fg:XVATF UJL/Qrnq Raq
+(PNQ Nyreg) 82NF2 Pnyy ng:17028 Pnqohel Pve        Ybp:Pnqohel / hcfgnverf va zrPvgl:19958 Ceboyrz:Vagresnpvyvg Riny/Genafsre-NYFVap#:2015-000128 Yng:38754887Ybat:75140095QVFC:10:59:36Pebff Fg:Qrnq Raq/Qrnq Raq
+(PNQ Nyreg) 82NF2 Pnyy ng:221 Zbaebr Nirahr Rkg    Ybp:                         Pvgl:19958 Ceboyrz:Haxabja Ceboyrz(Zna Qbja)-OYF Vap#:2015-000127 Yng:38766376Ybat:75137448QVFC:10:54:48Pebff Fg:GURBQBER P SERRZNA UJL/Qrnq Raq
+(PNQ Nyreg) 82NF1 Pnyy ng:9 Wrssrefba Pg           Ybp:                         Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-000122 Yng:38768859Ybat:75138972QVFC:09:55:02Pebff Fg:WRSSREFBA NIR/Qrnq Raq
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Vaqvna Evire ISP
 Ybpngvba: Ybatarpx, QR, Havgrq Fgngrf
 Fraqre: <pnq@fhffrkpbhaglqr.tbi>
 
-(PNQ Nyreg) 80FG  Pnyy ng:39421 Fgneobneq Pg       Ybp:                         Pvgl:19966 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2014-023575 Yng:38626192Ybat:75142584QVFC:15:53:41Pebff Fg:TBBFR CBAQ EQ/CBEGFVQR YA
-(PNQ Nyreg) 80P   Pnyy ng:24976 Onaxf Eq           Ybp:Jvaqvat Perrx Ivyyntr    Pvgl:19966 Ceboyrz:Jverf Qbja/Nepuvat            Vap#:2014-023406 Yng:38641821Ybat:75173332QVFC:13:44:52Pebff Fg:Ehqqre Eq/Perrx Qe
-(PNQ Nyreg) 80FG  Pnyy ng:23021 Cvar Eq            Ybp:Cvar Ya                  Pvgl:19958 Ceboyrz:Fgehpgher Sver                Vap#:2014-023350 Yng:38671376Ybat:75155612QVFC:03:11:21Pebff Fg:BNX QE/PNZC NEEBJURNQ EQ
-(PNQ Nyreg) 80FG  Pnyy ng:31398 Evire Eq           Ybp:Vaqvna Evire Lnpug Pyho  Pvgl:19966 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-OYFVap#:2014-023265 Yng:38595622Ybat:75199992QVFC:20:10:21Pebff Fg:JNEJVPX QE/YNLGBA QNIVF EQ
-(PNQ Nyreg) 80P    Pnyy ng: 35356 Fhffrk Ya          Ybp:                          Pvgl:19966  Ceboyrz:  Bhgfvqr Sver                    Vap#: 2014-023212    Yng: 38623060    Ybat: 75133195   QVFC: 10:38:34   Pebff Fg: PBIR QE/Qrnq Raq
-(PNQ Nyreg) 80FG   Pnyy ng: Ubyyl Ynxr Eq & Wbua W JvYbp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-023004    Yng: 38657854    Ybat: 75189289   QVFC: 19:04:44   Pebff Fg:
-(PNQ Nyreg) 80O    Pnyy ng: 32087 Ubyyl Ynxr Eq      Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-023003    Yng: 38657816    Ybat: 75189815   QVFC: 18:49:36   Pebff Fg: CUVYYVCF OENAPU EQ/WBUA W JVYYVNZF UJL
-(PNQ Nyreg) 80P    Pnyy ng: Ybat Arpx Eq & Cbg Argf EYbp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-022984    Yng: 38628581    Ybat: 75160579   QVFC: 13:57:45   Pebff Fg:
-(PNQ Nyreg) 80FG   Pnyy ng: 26002 Wbua W Jvyyvnzf UjlYbp: Eranvffnapr/ 101N eruborgPvgl:19966  Ceboyrz:  Vagresnpvyvg Riny/Genafsre-OYF  Vap#: 2014-022872    Yng: 38630150    Ybat: 75195610   QVFC: 11:01:11   Pebff Fg: CYNMN QE/FUREJBBQ SEFG
-(PNQ Nyreg) 80FG   Pnyy ng: 25742 Nzrevpna Fg        Ybp:                          Pvgl:19966  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-022866    Yng: 38634493    Ybat: 75161578   QVFC: 09:46:58   Pebff Fg: TERNG YNXRF FG/NGYNF FG
-(PNQ Nyreg) 80P    Pnyy ng: 25864 Fnaqcvcre Pg       Ybp:                          Pvgl:19966  Ceboyrz:  Pneqvnp/Erfc./Qrngu-NYF         Vap#: 2014-022849    Yng: 38633191    Ybat: 75187947   QVFC: 04:58:52   Pebff Fg: UREBA CG/GHEAFGBAR PG
-(PNQ Nyreg) 80FG   Pnyy ng: 31288 Evire Eq           Ybp:                          Pvgl:19966  Ceboyrz:  Nhgbzngvp Sver Nynez            Vap#: 2014-022833    Yng: 38596838    Ybat: 75203467   QVFC: 21:28:32   Pebff Fg: JNEJVPX QE/YNLGBA QNIVF EQ
-(PNQ Nyreg) 80FG   Pnyy ng: 26002 Wbua W Jvyyvnzf UjlYbp: Eranvffnapr Ahefvat naq EPvgl:19966  Ceboyrz:  Vagresnpvyyvgl/Cnyyvngvir-OYF   Vap#: 2014-022738    Yng: 38630150    Ybat: 75195610   QVFC: 15:33:12   Pebff Fg: CYNMN QE/FUREJBBQ SEFG
-(PNQ Nyreg) 80FG   Pnyy ng: 25866 - 25905 Evire Oraq Ybp: 25986 Ncg 208            Pvgl:19966  Ceboyrz:  Haxabja Ceboyrz(Zna Qbja)-OYF   Vap#: 2014-022739    Yng: 38633202    Ybat: 75192490   QVFC: 15:34:47   Pebff Fg: FUBER CYNMN OYIQ/FUBER CYNMN OYIQ
-(PNQ Nyreg) 80FG   Pnyy ng: 25866 - 25905 Evire Oraq Ybp:                          Pvgl:19966  Ceboyrz:  Haxabja Ceboyrz(Zna Qbja)-OYF   Vap#: 2014-022739    Yng: 38633202    Ybat: 75192490   QVFC: 15:34:47   Pebff Fg: FUBER CYNMN OYIQ/FUBER CYNMN OYIQ
-(PNQ Nyreg) 80N    Pnyy ng: WBUA W JVYYVNZF UJL / EBFYbp:                          Pvgl:       Ceboyrz:  Genssvp/GenafcbegngvbaNpqagNYF  Vap#: 2014-022377    Yng: 38606146    Ybat: 75212589   QVFC: 10:43:30   Pebff Fg: EBFQNYR EQ
-(PNQ Nyreg) 80N    Pnyy ng: Prehyrna Ya & Evire Eq   Ybp:                          Pvgl:19966  Ceboyrz:  Bhgfvqr Sver                    Vap#: 2014-022326    Yng: 38595736    Ybat: 75174803   QVFC: 20:59:54   Pebff Fg:
-(PNQ Nyreg) 80FG   Pnyy ng: 26528 Funfgn Jnl         Ybp:                          Pvgl:19966  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-022215    Yng: 38623050    Ybat: 75101931   QVFC: 15:51:10   Pebff Fg: VAQVNA YAQT/YHPXL YA
-(PNQ Nyreg) 80FG   Pnyy ng: 25905 Xvatf Ya           Ybp:                          Pvgl:19966  Ceboyrz:  Purfg Cnva-NYF                  Vap#: 2014-022217    Yng: 38631791    Ybat: 75174824   QVFC: 16:01:36   Pebff Fg: OVFUBC FG/XAVTUGF YA
-(PNQ Nyreg) 80FG   Pnyy ng: 26594 Junesfvqr Pbir     Ybp:                          Pvgl:19966  Ceboyrz:  Purfg Cnva-NYF                  Vap#: 2014-022186    Yng: 38622641    Ybat: 75173852   QVFC: 10:56:30   Pebff Fg: PERRXJBBQ PVE/Qrnq Raq
-(PNQ Nyreg) 80FG   Pnyy ng: 35379 Fhffrk Ya          Ybp:                          Pvgl:19966  Ceboyrz:  Hapbafpvbhf/Snvagvat(Arne)-NYF  Vap#: 2014-022161    Yng: 38623127    Ybat: 75132651   QVFC: 07:11:08   Pebff Fg: PBIR QE/Qrnq Raq
-(PNQ Nyreg) 80FG   Pnyy ng: 24736 Fuberyvar Qe       Ybp:                          Pvgl:19966  Ceboyrz:  Freivpr Pnyy-NZO                Vap#: 2014-022112    Yng: 38653470    Ybat: 75207799   QVFC: 15:58:20   Pebff Fg: BPRNA CVAR OYIQ/FRNOEBBX QE
-(PNQ Nyreg) 80FG   Pnyy ng: 28192 Ynlgba Qnivf Eq    Ybp:                          Pvgl:19966  Ceboyrz:  Oernguvat Ceboyrzf-NYF          Vap#: 2014-022109    Yng: 38599924    Ybat: 75201033   QVFC: 15:26:10   Pebff Fg: W NAQ W YA/UBZR CY
-(PNQ Nyreg) 80FG   Pnyy ng: Pnzc Neebjurnq Eq & NeebjYbp:                          Pvgl:19958  Ceboyrz:  Fgehpgher Sver                  Vap#: 2014-021925    Yng: 38670376    Ybat: 75155729   QVFC: 01:55:35   Pebff Fg:
-(PNQ Nyreg) 80P    Pnyy ng: 25063 Onaxf Eq           Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-021855    Yng: 38639711    Ybat: 75174637   QVFC: 04:03:02   Pebff Fg: EHQQRE EQ/ENZC
-(PNQ Nyreg) 80O    Pnyy ng: 32 Cvarjngre Qe          Ybp:                          Pvgl:19951  Ceboyrz:  Nhgbzngvp Sver Nynez            Vap#: 2014-021826    Yng: 38656245    Ybat: 75174676   QVFC: 19:34:22   Pebff Fg: PRQNE YA/ZHYGVSYBEN QE
-(PNQ Nyreg) 80P    Pnyy ng: 35583 F Benatr Fg        Ybp: Juvgr ubhfr Terra fuhggrePvgl:19966  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-NYF  Vap#: 2014-021815    Yng: 38630302    Ybat: 75130174   QVFC: 17:22:35   Pebff Fg: F PNANY FG/CYHZ FG
-(PNQ Nyreg) 80P    Pnyy ng: 36678 Ybat Arpx Eq       Ybp: Znffrlf Ynaqvat          Pvgl:19966  Ceboyrz:  Jngre Erfphr Cevbevgl 1         Vap#: 2014-021802    Yng: 38625415    Ybat: 75102220   QVFC: 15:43:02   Pebff Fg: WNFCRE IVRJ YA/ZNFFRLF YAQT
-(PNQ Nyreg) 80FG   Pnyy ng: 25935 Cynmn Qe           Ybp: ZRQVPNY NVQ NG YBATARPX  Pvgl:19966  Ceboyrz:  Hapbafpvbhf/Snvagvat(Arne)-NYF  Vap#: 2014-021791    Yng: 38631916    Ybat: 75193786   QVFC: 13:00:15   Pebff Fg: FUBER CYNMN OYIQ/WBUA W JVYYVNZF UJL
-(PNQ Nyreg) 80FG   Pnyy ng: 30720 Zbhag Wbl Eq       Ybp: Vasbezngvba Qrfx ng gur CPvgl:19966  Ceboyrz:  Hapbafpvbhf/Snvagvat(Arne)-NYF  Vap#: 2014-021789    Yng: 38617160    Ybat: 75206310   QVFC: 12:53:56   Pebff Fg: ZVFFVBA CY/FUNEXRLF YA
-(PNQ Nyreg) 80N    Pnyy ng: 30720 Zbhag Wbl Eq       Ybp: Vasbezngvba Qrfx ng gur CPvgl:19966  Ceboyrz:  Hapbafpvbhf/Snvagvat(Arne)-NYF  Vap#: 2014-021789    Yng: 38617160    Ybat: 75206310   QVFC: 12:53:56   Pebff Fg: ZVFFVBA CY/FUNEXRLF YA
-(PNQ Nyreg) 80N    Pnyy ng: 28366 Ryvmnorgu Fg       Ybp:                          Pvgl:19966  Ceboyrz:  Bqbe Vairfgvtngvba              Vap#: 2014-021692    Yng: 38598635    Ybat: 75174136   QVFC: 12:27:16   Pebff Fg: OBJQRA FG/W WNK CY
-(PNQ Nyreg) 80FG   Pnyy ng: 27851 Puevf Qe           Ybp:                          Pvgl:19966  Ceboyrz:  Qvnorgvp Ceboyrzf-OYF           Vap#: 2014-021682    Yng: 38605746    Ybat: 75191486   QVFC: 10:12:40   Pebff Fg: YNEEL QE/Qrnq Raq
-(PNQ Nyreg) 80P    Pnyy ng: 32980 Ybat Arpx Eq       Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-021613    Yng: 38628378    Ybat: 75161261   QVFC: 15:18:42   Pebff Fg: EVQTRJBBQ EQ/CBG ARGF EQ
-(PNQ Nyreg) 80O    Pnyy ng: Onaxf Eq & Terra Eq      Ybp:                          Pvgl:19966  Ceboyrz:  Ryrpgevpny Unmneq               Vap#: 2014-021539    Yng: 38647175    Ybat: 75176767   QVFC: 17:51:04   Pebff Fg:
-(PNQ Nyreg) 80FG   Pnyy ng: 38163 Ebovafbaf Qe       Ybp: whfg va gvzr             Pvgl:19971  Ceboyrz:  Fgehpgher Sver                  Vap#: 2014-021472    Yng: 38705030    Ybat: 75084342   QVFC: 23:26:37   Pebff Fg: PBNFGNY UJL/SVFURE FG
-(PNQ Nyreg) 80FG   Pnyy ng: 38100 - 38121 Ebovafbaf QYbp: Whfg Va Gvzr             Pvgl:19971  Ceboyrz:  Fgehpgher Sver                  Vap#: 2014-021422    Yng: 38704545    Ybat: 75085090   QVFC: 13:47:29   Pebff Fg: PBNFGNY UJL/SVFURE FG
-(PNQ Nyreg) 80FG   Pnyy ng: 32711 Ybat Arpx Eq       Ybp: Prqne Gerr Zrqvpny PragrePvgl:19966  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-NYF  Vap#: 2014-021412    Yng: 38629293    Ybat: 75170170   QVFC: 12:05:43   Pebff Fg: BNX SBERFG CNEX/YNXRFUBER OYIQ
-(PNQ Nyreg) 80P    Pnyy ng: 2 - 34699 Evatobyg Nir   Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagNYF  Vap#: 2014-021290    Yng: 38617082    Ybat: 75147858   QVFC: 00:20:19   Pebff Fg: UNYS FURYY CBAQ EQ/FYBBC NIR
-(PNQ Nyreg) 80FG   Pnyy ng: 26464 Pbggbagnvy Pbir    Ybp:                          Pvgl:19966  Ceboyrz:  Hapbafpvbhf/Snvagvat(Arne)-NYF  Vap#: 2014-021282    Yng: 38624743    Ybat: 75177159   QVFC: 22:29:59   Pebff Fg: YNXRFUBER PVE/Qrnq Raq
-(PNQ Nyreg) 8010   Pnyy ng: 27344 ONL EQ             Ybp: CNENQVFR TEVYY           Pvgl:       Ceboyrz:  Snyyf-OYF                       Vap#: 2014-021281    Yng: 38611060    Ybat: 75149259   QVFC: 22:19:38   Pebff Fg: HAANZRQ FGERRG
-(PNQ Nyreg) 80FG   Pnyy ng: 27344 ONL EQ             Ybp: CNENQVFR TEVYY           Pvgl:       Ceboyrz:  Snyyf-OYF                       Vap#: 2014-021281    Yng: 38611060    Ybat: 75149259   QVFC: 22:19:38   Pebff Fg: HAANZRQ FGERRG
-(PNQ Nyreg) 80O    Pnyy ng: Onaxf Eq & Ybat Arpx Eq  Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-021279    Yng: 38632429    Ybat: 75181762   QVFC: 22:07:32   Pebff Fg:
-(PNQ Nyreg) 80O    Pnyy ng: 1 - 11 R Snezvatgba Fg   Ybp: ba gur ornpu             Pvgl:19944  Ceboyrz:  Jngre Erfphr Cevbevgl 1         Vap#: 2014-021253    Yng: 38461433    Ybat: 75051906   QVFC: 17:33:34   Pebff Fg: PBAARPGVAT EBNQ/OHAGVAT NIR
-(PNQ Nyreg) 80P    Pnyy ng: 26810 - 26881 Qvire Qhpx Ybp: 26861                    Pvgl:19966  Ceboyrz:  Nhgbzngvp Sver Nynez            Vap#: 2014-021222    Yng: 38620014    Ybat: 75101369   QVFC: 14:03:49   Pebff Fg: PHEYRJ JNL/YNAQVAT EQ
-(PNQ Nyreg) 80N    Pnyy ng: 35105 Frnunjx Ya         Ybp:                          Pvgl:19966  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-021130    Yng: 38630025    Ybat: 75138852   QVFC: 17:35:07   Pebff Fg: ONL OYIQ/FRNTHYY EQ
-(PNQ Nyreg) 80FG   Pnyy ng: 35442 Wbnaa Qe           Ybp:                          Pvgl:19966  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-NYF  Vap#: 2014-021129    Yng: 38625544    Ybat: 75130370   QVFC: 17:25:12   Pebff Fg: PBIR QE/WRAAVSRE YRR QE
-(PNQ Nyreg) 80P    Pnyy ng: 0                        Ybp: Cbg Argf Onlfvqr bssvpr oPvgl:       Ceboyrz:  Genssvp/GenafcbegngvbaNpqagNYF  Vap#: 2014-020981    Yng: 38620278    Ybat: 75151667   QVFC: 13:59:28   Pebff Fg:
-(PNQ Nyreg) 80O    Pnyy ng: 33559 Jvaqfjrcg Qe       Ybp: Ohvyqvat 11              Pvgl:19966  Ceboyrz:  Nhgbzngvp Sver Nynez            Vap#: 2014-020849    Yng: 38606600    Ybat: 75166006   QVFC: 01:31:17   Pebff Fg: FGREYVAT OYIQ/Qrnq Raq
-(PNQ Nyreg) 80FG   Pnyy ng: 32834 Grea Pbir          Ybp:                          Pvgl:19966  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-NYF  Vap#: 2014-020708    Yng: 38624376    Ybat: 75178932   QVFC: 10:19:46   Pebff Fg: YNXRFUBER PVE/YNAQYHOORE PBIR
-(PNQ Nyreg) 80P    Pnyy ng: Ybat Arpx Eq & Onaxf Eq  Ybp: vgnb fgn 80              Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagNYF  Vap#: 2014-020653    Yng: 38632429    Ybat: 75181762   QVFC: 18:04:45   Pebff Fg:
-(PNQ Nyreg) 80FG   Pnyy ng: 30512 ZBHAG WBL EQ       Ybp:                          Pvgl:       Ceboyrz:  Genssvp/GenafcbegngvbaNpqagNYF  Vap#: 2014-020651    Yng: 38620769    Ybat: 75211700   QVFC: 17:51:45   Pebff Fg: PBEQERL EQ/ZVFFVBA CY
-(PNQ Nyreg) 80P    Pnyy ng: Ybat Arpx Eq & Juvgr UbhfYbp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-020467    Yng: 38622399    Ybat: 75137002   QVFC: 19:58:29   Pebff Fg:
-(PNQ Nyreg) 80N    Pnyy ng: 34815 Wvo Fg             Ybp: Yvsg Nffvfg - Juvgr j/ TePvgl:19966  Ceboyrz:  Freivpr Pnyy-NZO                Vap#: 2014-020335    Yng: 38622046    Ybat: 75143097   QVFC: 07:31:41   Pebff Fg: FGNEOBNEQ EQ/CBEG EQ
-(PNQ Nyreg) 80FG   Pnyy ng: 24736 Fuberyvar Qe       Ybp:                          Pvgl:19966  Ceboyrz:  Freivpr Pnyy-NZO                Vap#: 2014-020235    Yng: 38653470    Ybat: 75207799   QVFC: 08:57:57   Pebff Fg: BPRNA CVAR OYIQ/FRNOEBBX QE
-(PNQ Nyreg) 80FG   Pnyy ng: 28643 Anagvpbxr Nir      Ybp:                          Pvgl:19966  Ceboyrz:  Fgebxr-NYF                      Vap#: 2014-020182    Yng: 38594884    Ybat: 75181031   QVFC: 15:50:01   Pebff Fg: ABEGU NIR/EVIRE EQ
-(PNQ Nyreg) 80FG   Pnyy ng: 28433 Zlegyr Nir         Ybp:                          Pvgl:19966  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-NYF  Vap#: 2014-020080    Yng: 38597779    Ybat: 75174451   QVFC: 15:50:25   Pebff Fg: QRYNJNER NIR/Qrnq Raq
-(PNQ Nyreg) 80O    Pnyy ng: 25285 Onaxf Eq           Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-020026    Yng: 38635396    Ybat: 75180766   QVFC: 08:41:15   Pebff Fg: EHQQRE EQ/ENZC
-(PNQ Nyreg) 80FG   Pnyy ng: 30996 Percr Zlegyr Qe    Ybp:                          Pvgl:19966  Ceboyrz:  Nhgbzngvp Sver Nynez            Vap#: 2014-019954    Yng: 38594002    Ybat: 75210758   QVFC: 12:51:48   Pebff Fg: TNMROB JNL/JNEJVPX PBIR JNL
-(PNQ Nyreg) 80N    Pnyy ng: 26002 Wbua W Jvyyvnzf UjlYbp: Eranvffnapr Ahefvat naq EPvgl:19966  Ceboyrz:  Vagresnpvyyvgl/Cnyyvngvir-NYF   Vap#: 2014-019919    Yng: 38630150    Ybat: 75195610   QVFC: 05:28:29   Pebff Fg: CYNMN QE/FUREJBBQ SEFG
-(PNQ Nyreg) 80N    Pnyy ng: CBG ARGF EQ / YBAT ARPX EYbp:                          Pvgl:       Ceboyrz:  Jverf Qbja/Nepuvat              Vap#: 2014-019917    Yng: 38628581    Ybat: 75160579   QVFC: 05:19:17   Pebff Fg: CBG ARGF EQ
-(PNQ Nyreg) 80P    Pnyy ng: CBG ARGF EQ / YBAT ARPX EYbp:                          Pvgl:       Ceboyrz:  Jverf Qbja/Nepuvat              Vap#: 2014-019917    Yng: 38628581    Ybat: 75160579   QVFC: 05:19:17   Pebff Fg: CBG ARGF EQ
-(PNQ Nyreg) 80P    Pnyy ng: 0                        Ybp: Cbg Argf Onlfvqr Rnfg TngPvgl:       Ceboyrz:  Tenff Sver                      Vap#: 2014-019788    Yng: 38623333    Ybat: 75140556   QVFC: 18:41:56   Pebff Fg:
-(PNQ Nyreg) 80O    Pnyy ng: Wbua W Jvyyvnzf Ujl & YbaYbp: Va sebag bs Zpqbanyqf    Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-019749    Yng: 38635752    Ybat: 75194091   QVFC: 11:56:43   Pebff Fg:
-(PNQ Nyreg) 80FG   Pnyy ng: 34151 Terra Ubyyl Eq     Ybp:                          Pvgl:19966  Ceboyrz:  Pneqvnp/Erfc./Qrngu-NYF         Vap#: 2014-019742    Yng: 38613613    Ybat: 75155209   QVFC: 11:27:18   Pebff Fg: VAQVNA PNOVA PERRX EQ/CVARAOEVAR EQ
-(PNQ Nyreg) 80FG   Pnyy ng: 34715 Whqqf Wrggl Qe     Ybp: Whqqf Wrggl              Pvgl:19966  Ceboyrz:  Fgehpgher Sver                  Vap#: 2014-019712    Yng: 38639607    Ybat: 75145734   QVFC: 00:38:21   Pebff Fg: PBZR NOBHG PVE/PBZR NOBHG PVE
-(PNQ Nyreg) 80O    Pnyy ng: 25935 Cynmn Qe           Ybp: Arne Qbyyne Gerr         Pvgl:19966  Ceboyrz:  Iruvpyr Sver                    Vap#: 2014-019687    Yng: 38631916    Ybat: 75193786   QVFC: 18:28:10   Pebff Fg: FUBER CYNMN OYIQ/WBUA W JVYYVNZF UJL
-(PNQ Nyreg) 80O    Pnyy ng: 26579 Enyrvtu Eq         Ybp: Ivpgbevnf Ynaqvat        Pvgl:19966  Ceboyrz:  Nccyvnapr Sver                  Vap#: 2014-019371    Yng: 38623489    Ybat: 75196290   QVFC: 15:47:35   Pebff Fg: IVPGBEVNF YNAQVAT EQ/QRIBAFUVER EQ
-(PNQ Nyreg) 80FG   Pnyy ng: 27146 Wbua W Jvyyvnzf UjlYbp:                          Pvgl:19966  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-OYF  Vap#: 2014-019369    Yng: 38605987    Ybat: 75213484   QVFC: 15:15:43   Pebff Fg: ZNTRAGN YA/NEEBJURNQ GEY
-(PNQ Nyreg) 80O    Pnyy ng: 27571 Znlsvryq Eq        Ybp:                          Pvgl:19966  Ceboyrz:  Nhgbzngvp Sver Nynez            Vap#: 2014-019331    Yng: 38623913    Ybat: 75195617   QVFC: 07:37:28   Pebff Fg: IVPGBEVNF YNAQVAT EQ/QRIBAFUVER EQ
-(PNQ Nyreg) 80FG   Pnyy ng: 32267 Pyhoubhfr Jnl      Ybp: Onljbbq Pyhoubhfr        Pvgl:19966  Ceboyrz:  Nynez Pbzcnal                   Vap#: 2014-019288    Yng: 38643734    Ybat: 75187793   QVFC: 14:58:09   Pebff Fg: TERRAF JNL/TERRAF JNL
-(PNQ Nyreg) 80FG   Pnyy ng: 10 Fvbhk Qe              Ybp:                          Pvgl:19966  Ceboyrz:  Ryrpgevpny Sver                 Vap#: 2014-019227    Yng: 38598490    Ybat: 75209153   QVFC: 22:19:55   Pebff Fg: NCNPUR NIR/PUREBXRR PG
-(PNQ Nyreg) 80O    Pnyy ng: Ybat Arpx Eq & Ehqqre Eq Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-019161    Yng: 38630217    Ybat: 75173580   QVFC: 10:28:16   Pebff Fg:
-(PNQ Nyreg) 80O    Pnyy ng: 32762 Fcevat Jngre Qe    Ybp:                          Pvgl:19966  Ceboyrz:  Nhgbzngvp Sver Nynez            Vap#: 2014-018985    Yng: 38623202    Ybat: 75182344   QVFC: 17:50:51   Pebff Fg: IVFGN QE/Qrnq Raq
-(PNQ Nyreg) 80O    Pnyy ng: 26336 Gvzoreperrx Ya     Ybp:                          Pvgl:19966  Ceboyrz:  Puvyq Ybpxrq va Iruvpyr         Vap#: 2014-018878    Yng: 38627498    Ybat: 75180791   QVFC: 16:50:16   Pebff Fg: BIREYBBX PG/OYNPX QHPX PG
-(PNQ Nyreg) 80FG   Pnyy ng: 19540 Pbnfgny Ujl        Ybp: Rpbab Ybqtr              Pvgl:19971  Ceboyrz:  Fgehpgher Sver                  Vap#: 2014-018876    Yng: 38719820    Ybat: 75117466   QVFC: 15:51:16   Pebff Fg: PNZRYBG QE/OYHR OVEQ YA
-(PNQ Nyreg) 80P    Pnyy ng: Ybat Arpx Eq & Fpubby Ya Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-018858    Yng: 38632429    Ybat: 75181762   QVFC: 12:51:28   Pebff Fg:
-(PNQ Nyreg) 80P    Pnyy ng: 25790 - 25809 Xvatf Ya   Ybp: 25859                    Pvgl:19966  Ceboyrz:  Fgehpgher Sver                  Vap#: 2014-018659    Yng: 38634244    Ybat: 75173659   QVFC: 12:09:48   Pebff Fg: CEVAPR FG/OVFUBC FG
-(PNQ Nyreg) 80N    Pnyy ng: 117 Penml Ubefr Gey      Ybp:                          Pvgl:19966  Ceboyrz:  Fgehpgher Sver                  Vap#: 2014-018618    Yng: 38612295    Ybat: 75216008   QVFC: 22:59:01   Pebff Fg: YVGGYR BJY GEY/Qrnq Raq
-(PNQ Nyreg) 80FG   Pnyy ng: 26002 Wbua W Jvyyvnzf UjlYbp: Eranvffnapr/erubo.106o   Pvgl:19966  Ceboyrz:  Vagresnpvyyvgl/Cnyyvngvir-NYF   Vap#: 2014-018595    Yng: 38630150    Ybat: 75195610   QVFC: 17:20:22   Pebff Fg: CYNMN QE/FUREJBBQ SEFG
-(PNQ Nyreg) 80FG   Pnyy ng: 28375 Pynex Nir          Ybp:                          Pvgl:19966  Ceboyrz:  Purfg Cnva-NYF                  Vap#: 2014-018559    Yng: 38598379    Ybat: 75181800   QVFC: 11:09:21   Pebff Fg: Qrnq Raq/ABEGU NIR
-(PNQ Nyreg) 80O    Pnyy ng: 24912 Pebbxrq Fgvpx Jnl  Ybp:                          Pvgl:19966  Ceboyrz:  Pneqvnp/Erfc./Qrngu-NYF         Vap#: 2014-018541    Yng: 38652196    Ybat: 75187101   QVFC: 07:07:15   Pebff Fg: QVZCYR JNL/YBO JNL
+(PNQ Nyreg) 80P   Pnyy ng:164 Grny Qe              Ybp:                         Pvgl:19966 Ceboyrz:Pneoba Zbabkvqr Qrgrpgbe      Vap#:2015-000911 Yng:38635270Ybat:75168845QVFC:08:40:49Pebff Fg:TNQJNYY QE/CVAGNVY QE
+(PNQ Nyreg) 80FG  Pnyy ng:34253 Uvyyrajbbq Eq      Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2015-000842 Yng:38612284Ybat:75152825QVFC:12:52:42Pebff Fg:ONLOREEL EQ/CVARAOEVAR EQ
+(PNQ Nyreg) 80FG  Pnyy ng:19500-19899 Abejbbq Fg   Ybp:                         Pvgl:19971 Ceboyrz:Ubhfr Sver                    Vap#:2015-000817 Yng:38717333Ybat:75099290QVFC:04:15:28Pebff Fg:QHAONE FG/OHEGBA NIR
+(PNQ Nyreg) 80FG  Pnyy ng:26559 Junesfvqr Pbir     Ybp:                         Pvgl:19966 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-NYFVap#:2015-000806 Yng:38623057Ybat:75173536QVFC:23:00:08Pebff Fg:PERRXJBBQ PVE/Qrnq Raq
+(PNQ Nyreg) 80N   Pnyy ng:28410 Qrynjner Nir       Ybp:                         Pvgl:19966 Ceboyrz:Ubhfr Sver                    Vap#:2015-000746 Yng:38598677Ybat:75172604QVFC:12:07:25Pebff Fg:ONFVA EQ/ZREPRE NIR
+(PNQ Nyreg) 80FG  Pnyy ng:14227 VFNNPF EQ          Ybp:                         Pvgl:19941 Ceboyrz:Fgehpgher Sver                Vap#:2015-000720 Yng:38788383Ybat:75340779QVFC:06:43:27Pebff Fg:ERLABYQF CBAQ EQ/ZVYGBA RYYRAQNYR UJL
+(PNQ Nyreg) 80P   Pnyy ng:27239 18gu Oyiq          Ybp:                         Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2015-000693 Yng:38614553Ybat:75165507QVFC:19:16:39Pebff Fg:ZNEVAN ONL PVE/OYHR PENO NIR
+(PNQ Nyreg) 80FG  Pnyy ng:31 Fvbhk Qe              Ybp:                         Pvgl:19966 Ceboyrz:Ubhfr Sver                    Vap#:2015-000674 Yng:38600474Ybat:75209134QVFC:15:58:16Pebff Fg:PUREBXRR PG/NCNPUR NIR
+(PNQ Nyreg) 80FG  Pnyy ng:141-157 UHQFBA NYL       Ybp:140                      Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2015-000609 Yng:38585955Ybat:75292441QVFC:01:06:19Pebff Fg:JVYFBA UJL/OBHYRINEQ NIR
+(PNQ Nyreg) 80O   Pnyy ng:34026 Naanf Jnl          Ybp:Ghaaryy Bssvprf          Pvgl:19966 Ceboyrz:Jverf Qbja/Nepuvat            Vap#:2015-000573 Yng:38627623Ybat:75158165QVFC:13:40:14Pebff Fg:CBG ARGF EQ/Qrnq Raq
+(PNQ Nyreg) 80FG  Pnyy ng:30581 ZBHAG WBL EQ       Ybp:                         Pvgl:19966 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2015-000532 Yng:38619587Ybat:75209936QVFC:06:42:43Pebff Fg:ZVFFVBA CY/FUNEXRLF YA
+(PNQ Nyreg) 80FG  Pnyy ng:34122 Terra Ubyyl Eq     Ybp:                         Pvgl:19966 Ceboyrz:Snyyf-OYF                     Vap#:2015-000489 Yng:38613617Ybat:75155806QVFC:15:32:38Pebff Fg:VAQVNA PNOVA PERRX EQ/CVARAOEVAR EQ
+(PNQ Nyreg) 80P   Pnyy ng:28152 Fybbc Nir          Ybp:                         Pvgl:19966 Ceboyrz:Fzbxr Vairfgvtngvba           Vap#:2015-000414 Yng:38612917Ybat:75145101QVFC:21:26:05Pebff Fg:EVATOBYG NIR/FYBBC PHG
+(PNQ Nyreg) 80O   Pnyy ng:26861 Qvire Qhpx Qe      Ybp:                         Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-000331 Yng:38619056Ybat:75101561QVFC:19:34:46Pebff Fg:PHEYRJ JNL/YNAQVAT EQ
+(PNQ Nyreg) 80P   Pnyy ng:26861 Qvire Qhpx Qe      Ybp:                         Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-000331 Yng:38619056Ybat:75101561QVFC:19:34:46Pebff Fg:PHEYRJ JNL/YNAQVAT EQ
+(PNQ Nyreg) 80N   Pnyy ng:Zbhag Wbl Eq & Pnaaba Eq Ybp:ebyybire & ragenc        Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2015-000295 Yng:38624650Ybat:75221859QVFC:11:38:00Pebff Fg:
+(PNQ Nyreg) 80N   Pnyy ng:34 Grphzfru Cnff         Ybp:                         Pvgl:19966 Ceboyrz:Oehfu Sver                    Vap#:2015-000237 Yng:38610630Ybat:75213334QVFC:17:08:04Pebff Fg:YVGGYR BJY GEY/PBPUVFR GEY
+(PNQ Nyreg) 80P   Pnyy ng:34865 Thaary Eq          Ybp:                         Pvgl:19966 Ceboyrz:Tnf Yrnx                      Vap#:2015-000206 Yng:38623932Ybat:75141706QVFC:09:26:23Pebff Fg:XRRYFBA FG/XRGPU PVE
+(PNQ Nyreg) 80O   Pnyy ng:Onaxf Eq & Funql Ya      Ybp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-031528 Yng:38651021Ybat:75182486QVFC:20:48:02Pebff Fg:
+(PNQ Nyreg) 80O   Pnyy ng:464 Jbbqfvqr Eq          Ybp:                         Pvgl:19966 Ceboyrz:Puvzarl Sver                  Vap#:2014-031516 Yng:38641878Ybat:75166001QVFC:18:15:14Pebff Fg:DHNVY YA/CBAQ EQ
+(PNQ Nyreg) 80P   Pnyy ng:Fnaqcvcre Qe & Wbua W JvyYbp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-031396 Yng:38664136Ybat:75189474QVFC:12:38:13Pebff Fg:
+(PNQ Nyreg) 80P   Pnyy ng:26002 Wbua W Jvyyvnzf UjlYbp:Eranvffnapr Srajvpx  219NPvgl:19966 Ceboyrz:Pneqvnp/Erfc./Qrngu-NYF       Vap#:2014-031239 Yng:38630150Ybat:75195610QVFC:12:41:51Pebff Fg:CYNMN QE/FUREJBBQ SEFG
+(PNQ Nyreg) 80O   Pnyy ng:35398 Fhffrk Ya          Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-031179 Yng:38623077Ybat:75133013QVFC:17:01:30Pebff Fg:PBIR QE/Qrnq Raq
+(PNQ Nyreg) 80O   Pnyy ng:Wbua W Jvyyvnzf Ujl & UbyYbp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-031153 Yng:38657854Ybat:75189289QVFC:11:36:33Pebff Fg:
+(PNQ Nyreg) 80FG  Pnyy ng:55 Perrx Qe              Ybp:                         Pvgl:19966 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2014-031098 Yng:38640120Ybat:75163244QVFC:17:54:31Pebff Fg:FBHGUJVAQ EQ/VFYNAQ EQ
+(PNQ Nyreg) 80P   Pnyy ng:27270 18gu Oyiq          Ybp:Oyqt 13                  Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-030890 Yng:38614082Ybat:75163640QVFC:13:54:17Pebff Fg:ZNEVAN ONL PVE/OYHR PENO NIR
+(PNQ Nyreg) 80P   Pnyy ng:24840 Eviref Rqtr Eq     Ybp:                         Pvgl:19966 Ceboyrz:Freivpr Pnyy-Sver             Vap#:2014-030765 Yng:38654219Ybat:75206196QVFC:23:08:49Pebff Fg:FUBER PG/FRNOEBBX QE
+(PNQ Nyreg) 80O   Pnyy ng:26744 Wbua W Jvyyvnzf UjlYbp:FHVGR 3/ CRAVAFHYN URNYGUPvgl:19966 Ceboyrz:Urzbeeuntr/Ynprengvbaf-NYF    Vap#:2014-030433 Yng:38601336Ybat:75270782QVFC:09:11:37Pebff Fg:ZNELYNAQ PNZC EQ/UREOREG YA
+(PNQ Nyreg) 80N   Pnyy ng:101 Fgnprl Qe            Ybp:                         Pvgl:19966 Ceboyrz:Snyyf-OYF                     Vap#:2014-030431 Yng:38619896Ybat:75196731QVFC:08:57:29Pebff Fg:WBNAAR QE/WBUA O QE
+(PNQ Nyreg) 80FG  Pnyy ng:27012 Uneobe Eq          Ybp:                         Pvgl:19966 Ceboyrz:Snyyf-OYF                     Vap#:2014-030276 Yng:38616703Ybat:75156442QVFC:10:06:13Pebff Fg:ZVAABJ YA/FNAQ CVCRE YA
+(PNQ Nyreg) 80FG  Pnyy ng:27033 Syvccre Eq         Ybp:                         Pvgl:19966 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-NYFVap#:2014-030275 Yng:38616223Ybat:75151990QVFC:09:45:19Pebff Fg:UHPXYROREEL YA/VAQVNA PNOVA PERRX EQ
+(PNQ Nyreg) 80FG  Pnyy ng:26672 Wbua W Jvyyvnzf UjlYbp:Fhowrpg Genccrq Pne ba SvPvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2014-030165 Yng:38614495Ybat:75202346QVFC:01:00:48Pebff Fg:BNX BEPUNEQ EQ/ENZC
+(PNQ Nyreg) 80FG  Pnyy ng:29141 Pbeqerl Eq         Ybp:                         Pvgl:19966 Ceboyrz:Fgno/Thafubg/Crargengvat-NYF  Vap#:2014-030077 Yng:38612515Ybat:75231847QVFC:22:39:55Pebff Fg:JVYYVNZ FGERRG EQ/PNEYBF YA
+(PNQ Nyreg) 80P   Pnyy ng:27301 Frn Oerrmr Eq      Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-030009 Yng:38613195Ybat:75137951QVFC:02:10:17Pebff Fg:J UNEOBE QE/Qrnq Raq
+(PNQ Nyreg) 80N   Pnyy ng:26672 Wbua W Jvyyvnzf UjlYbp:Eblny Snezf (80)/jrfg bs Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2014-029922 Yng:38614495Ybat:75202346QVFC:21:24:34Pebff Fg:BNX BEPUNEQ EQ/ENZC
+(PNQ Nyreg) 80FG  Pnyy ng:33196-33719 Zrepre Nir   Ybp:                         Pvgl:19966 Ceboyrz:Jngre Erfphr Cevbevgl 2       Vap#:2014-029634 Yng:38598232Ybat:75172124QVFC:13:02:08Pebff Fg:QRYNJNER NIR/PUNEYRF FG
+(PNQ Nyreg) 80FG  Pnyy ng:34246 Uhpxyroreel Ya     Ybp:ybg 755                  Pvgl:19966 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2014-029588 Yng:38616588Ybat:75152116QVFC:21:19:15Pebff Fg:UNEOBE EQ/SYVCCRE EQ
+(PNQ Nyreg) 80FG  Pnyy ng:Zbhag Wbl Eq & Pbeqerl EqYbp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-029422 Yng:38621862Ybat:75213390QVFC:18:14:49Pebff Fg:
+(PNQ Nyreg) 80FG  Pnyy ng:29234 Ubarlfhpxyr Xabyy  Ybp:                         Pvgl:19966 Ceboyrz:Pneqvnp/Erfc./Qrngu-NYF       Vap#:2014-029410 Yng:38601726Ybat:75205257QVFC:16:53:23Pebff Fg:W NAQ W YA/Qrnq Raq
+(PNQ Nyreg) 80P   Pnyy ng:35310 6 Fg               Ybp:                         Pvgl:19966 Ceboyrz:Pneqvnp/Erfc./Qrngu-NYF       Vap#:2014-029365 Yng:38626034Ybat:75133935QVFC:06:47:10Pebff Fg:ZNVA FG/5 FG
+(PNQ Nyreg) 80FG  Pnyy ng:26744 Wbua W Jvyyvnzf UjlYbp:Qe. Qnzbhav              Pvgl:19966 Ceboyrz:Purfg Cnva-NYF                Vap#:2014-029288 Yng:38612687Ybat:75204334QVFC:11:16:56Pebff Fg:ENZC/CVNSSR YA
+(PNQ Nyreg) 80FG  Pnyy ng:26189 Buaznpug Ya        Ybp:                         Pvgl:19947 Ceboyrz:Fgehpgher Sver                Vap#:2014-029198 Yng:38661776Ybat:75293807QVFC:09:58:25Pebff Fg:Qrnq Raq/CVAR YNXR QE
+(PNQ Nyreg) 80P   Pnyy ng:26064 Fpubby Ya          Ybp:ybat arpx ryrzragnel     Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-029181 Yng:38629969Ybat:75184622QVFC:06:26:38Pebff Fg:EVGGRE QE/FGRRYR QE
+(PNQ Nyreg) 80O   Pnyy ng:Wbua W Jvyyvnzf Ujl & VaqYbp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-029113 Yng:38635752Ybat:75194091QVFC:12:47:48Pebff Fg:
+(PNQ Nyreg) 80O   Pnyy ng:24815 Eviref Rqtr Eq     Ybp:                         Pvgl:19966 Ceboyrz:Tnf Yrnx                      Vap#:2014-029037 Yng:38650982Ybat:75205063QVFC:16:00:04Pebff Fg:FUBER PG/FRNOEBBX QE
+(PNQ Nyreg) 80FG  Pnyy ng:Tvnag                    Ybp:                         Pvgl:      Ceboyrz:Tnf Yrnx                      Vap#:2014-028801 Yng:0       Ybat:0       QVFC:18:35:11Pebff Fg:
+(PNQ Nyreg) 80FG  Pnyy ng:100 Grny Qe              Ybp:                         Pvgl:19966 Ceboyrz:Pneqvnp/ Erfc./Qrngu- OYF     Vap#:2014-028616 Yng:38634122Ybat:75170654QVFC:11:56:48Pebff Fg:EHQQRE EQ/JBBQQHPX QE
+(PNQ Nyreg) 80P   Pnyy ng:24775 Eviref Rqtr Eq     Ybp:                         Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-028611 Yng:38648232Ybat:75209511QVFC:10:50:27Pebff Fg:CVAR GERR PG/UNEOBE PBIR QE
+(PNQ Nyreg) 80FG  Pnyy ng:100 Grny Qe              Ybp:                         Pvgl:19966 Ceboyrz:Freivpr Pnyy-Sver             Vap#:2014-028580 Yng:38634122Ybat:75170654QVFC:00:34:00Pebff Fg:EHQQRE EQ/JBBQQHPX QE
+(PNQ Nyreg) 80P   Pnyy ng:Onl Snez Eq & Fpubby Ya  Ybp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-028397 Yng:38625750Ybat:75189224QVFC:16:18:56Pebff Fg:
+(PNQ Nyreg) 80FG  Pnyy ng:12 Jbbqyla Eq            Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-028356 Yng:38625387Ybat:75185587QVFC:11:54:22Pebff Fg:ONL SNEZ EQ/QRIVAR JNL
+(PNQ Nyreg) 80O   Pnyy ng:32968 Ybat Arpx Eq       Ybp:Cbg Argf Perrxfvqr / RAG Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-028295 Yng:38628339Ybat:75161730QVFC:20:24:44Pebff Fg:EVQTRJBBQ EQ/CBG ARGF EQ
+(PNQ Nyreg) 80FG  Pnyy ng:35697 R EVIRE QE         Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-028257 Yng:38615631Ybat:75126648QVFC:06:12:31Pebff Fg:FRN BNX YA/JUVGR UBHFR OPU
+(PNQ Nyreg) 80P   Pnyy ng:35697 R Evire Qe         Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-028257 Yng:38615631Ybat:75126648QVFC:06:12:31Pebff Fg:FRN BNX YA/JUVGR UBHFR OPU
+(PNQ Nyreg) 80FG  Pnyy ng:35320 Jbbq Qhpx Eq       Ybp:                         Pvgl:19966 Ceboyrz:Snyyf-OYF                     Vap#:2014-028238 Yng:38614365Ybat:75134815QVFC:23:06:31Pebff Fg:Qrnq Raq/JUVGR UBHFR EQ
+(PNQ Nyreg) 80FG  Pnyy ng:26955 Fhtne Fnaq Ya      Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-028137 Yng:38618649Ybat:75177389QVFC:14:37:22Pebff Fg:FUNQRYNAQ NIR/Qrnq Raq
+(PNQ Nyreg) 80FG  Pnyy ng:56 Onygvzber Nir         Ybp:                         Pvgl:19971 Ceboyrz:Fgehpgher Sver                Vap#:2014-028056 Yng:38717122Ybat:75080196QVFC:14:59:56Pebff Fg:SVEFG FG/FRPBAQ FG
+(PNQ Nyreg) 80N   Pnyy ng:25400-25599 QNAVN QE     Ybp:25471                    Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-028044 Yng:38638813Ybat:75200087QVFC:11:30:48Pebff Fg:VAQVNA ZVFFVBA EQ/Qrnq Raq
+(PNQ Nyreg) 80FG  Pnyy ng:25471 Qvnanf Ya          Ybp:Bss bs Vaqvna Zvffvba eq Pvgl:      Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-028044 Yng:0       Ybat:0       QVFC:11:30:48Pebff Fg:
+(PNQ Nyreg) 80FG  Pnyy ng:200-213 Fhffrk Nyl       Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-027901 Yng:38592871Ybat:75295100QVFC:18:31:55Pebff Fg:J FGNGR FG/J PUHEPU FG
+(PNQ Nyreg) 80P   Pnyy ng:32980 Fubccrf Ng Ybat ArpYbp:                         Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-027802 Yng:38629225Ybat:75176593QVFC:14:59:26Pebff Fg:ENZC/Qrnq Raq
+(PNQ Nyreg) 80FG  Pnyy ng:11 Pbeajnyy Eq           Ybp:                         Pvgl:19971 Ceboyrz:Fgehpgher Sver                Vap#:2014-027597 Yng:38706912Ybat:75102739QVFC:22:42:24Pebff Fg:PBIRAGEL EQ/PUNGUNZ EQ
+(PNQ Nyreg) 80P   Pnyy ng:1 Snypba Perfg Qe        Ybp:Zragbe Argjbex           Pvgl:19951 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-027521 Yng:38669003Ybat:75221244QVFC:08:23:09Pebff Fg:Ornire Qnz Eq/Jnyyf Fg
+(PNQ Nyreg) 80P   Pnyy ng:Ybat Arpx Eq & Pbir Qe   Ybp:Jbexvat Ubhfr Sver       Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-027495 Yng:38622345Ybat:75134790QVFC:20:47:33Pebff Fg:
+(PNQ Nyreg) 80P   Pnyy ng:32980 Fubccrf Ng Ybat ArpYbp:Yvatb Perrx Ncgf         Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-027433 Yng:38629225Ybat:75176593QVFC:07:36:42Pebff Fg:Qrnq Raq/ENZC
+(PNQ Nyreg) 80P   Pnyy ng:27270 18gu Oyiq          Ybp:Ohvyqva 13               Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-027354 Yng:38614082Ybat:75163640QVFC:10:33:09Pebff Fg:ZNEVAN ONL PVE/OYHR PENO NIR
+(PNQ Nyreg) 80O   Pnyy ng:27270 18gu Oyiq          Ybp:18gu Ba Gur Cravafhyn  OyPvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-027270 Yng:38614082Ybat:75163640QVFC:10:27:30Pebff Fg:ZNEVAN ONL PVE/OYHR PENO NIR
+(PNQ Nyreg) 80N   Pnyy ng:Wbua W Jvyyvnzf Ujl & BnxYbp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-027235 Yng:38614495Ybat:75202346QVFC:20:44:17Pebff Fg:
+(PNQ Nyreg) 80FG  Pnyy ng:20001 Tbyqra Nir         Ybp:                         Pvgl:19971 Ceboyrz:Genvyre Sver                  Vap#:2014-027224 Yng:38713710Ybat:75118576QVFC:18:59:25Pebff Fg:FXLIVRJ FG/GNATYRJBBQ NIR
+(PNQ Nyreg) 80FG  Pnyy ng:44 Grphzfru Cnff         Ybp:                         Pvgl:19966 Ceboyrz:Freivpr Pnyy-NZO              Vap#:2014-027035 Yng:38609485Ybat:75212701QVFC:11:02:18Pebff Fg:PBPUVFR GEY/ERQ PYBHQ GEY
+(PNQ Nyreg) 80O   Pnyy ng:24113 Wbua W Jvyyvnzf UjlYbp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2014-027014 Yng:38655810Ybat:75189246QVFC:06:04:41Pebff Fg:UBYYL YNXR EQ/ONAXF EQ
+(PNQ Nyreg) 80P   Pnyy ng:26282 Gvzoreperrx Ya     Ybp:                         Pvgl:19966 Ceboyrz:Tnf Yrnx                      Vap#:2014-026875 Yng:38626934Ybat:75178143QVFC:12:20:05Pebff Fg:Qrnq Raq/FUBERIVRJ OYIQ
+(PNQ Nyreg) 80O   Pnyy ng:26352 Gvzoreperrx Ya     Ybp:                         Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-026725 Yng:38627988Ybat:75180164QVFC:17:39:29Pebff Fg:BIREYBBX PG/OYNPX QHPX PG
+(PNQ Nyreg) 80P   Pnyy ng:24832 Wbua W Jvyyvnzf UjlYbp:Sbbq Yvba (80)           Pvgl:19966 Ceboyrz:Jnfuqbja (Shry Fcvyy)         Vap#:2014-026590 Yng:38636681Ybat:75193829QVFC:08:34:09Pebff Fg:JUVGR CVAR QE/ENZC
+(PNQ Nyreg) 80FG  Pnyy ng:36 Erubobgu Nir          Ybp:Tebggb Cvmmn (86)        Pvgl:19971 Ceboyrz:Fgehpgher Sver                Vap#:2014-026584 Yng:38716031Ybat:75083166QVFC:05:49:26Pebff Fg:GUVEQ FG/PBAARPGVAT EBNQ
+(PNQ Nyreg) 80O   Pnyy ng:25258 Onaxf Eq           Ybp:ghes znantrzrag pragre   Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-026521 Yng:38635940Ybat:75180036QVFC:09:41:47Pebff Fg:EHQQRE EQ/ENZC
+(PNQ Nyreg) 80O   Pnyy ng:26181 Nhghza Eq          Ybp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2014-026288 Yng:38627253Ybat:75198566QVFC:11:36:19Pebff Fg:OENAPU EQ/ZRFFVNU YA
+(PNQ Nyreg) 80N   Pnyy ng:26774 Zvffvba Cy         Ybp:                         Pvgl:19966 Ceboyrz:Pneqvnp/Erfc./Qrngu-NYF       Vap#:2014-026206 Yng:38621752Ybat:75208172QVFC:11:29:05Pebff Fg:ZBHAG WBL EQ/ZBHAG WBL EQ
+(PNQ Nyreg) 80FG  Pnyy ng:27933 Ynlgba Qnivf Eq    Ybp:                         Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-026192 Yng:38604420Ybat:75207721QVFC:09:06:51Pebff Fg:JVYFBA ZLEGYR YA/ONEANPYR OYIQ
+(PNQ Nyreg) 80O   Pnyy ng:34006 Naanf Jnl          Ybp:                         Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-026133 Yng:38627335Ybat:75158241QVFC:15:08:20Pebff Fg:CBG ARGF EQ/Qrnq Raq
+(PNQ Nyreg) 80O   Pnyy ng:24898 Wbua W Jvyyvnzf UjlYbp:ZpQbanyqf (80)           Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-026003 Yng:38635048Ybat:75194286QVFC:07:43:45Pebff Fg:YBAT ARPX EQ/FUBER CYNMN OYIQ
+(PNQ Nyreg) 80FG  Pnyy ng:31288 Evire Eq           Ybp:                         Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-025939 Yng:38596838Ybat:75203467QVFC:11:52:36Pebff Fg:JNEJVPX QE/YNLGBA QNIVF EQ
+(PNQ Nyreg) 80O   Pnyy ng:24780 Fuberyvar Qe       Ybp:                         Pvgl:19966 Ceboyrz:Tnf Yrnx                      Vap#:2014-025874 Yng:38654972Ybat:75209145QVFC:16:00:44Pebff Fg:FRNOEBBX QE/ORNPU PBIR QE
+(PNQ Nyreg) 80FG  Pnyy ng:25892 Fgneobneq Qe       Ybp:                         Pvgl:19966 Ceboyrz:Snyyf-OYF                     Vap#:2014-025834 Yng:38633286Ybat:75165893QVFC:06:41:33Pebff Fg:QVCYBZNG FG/SYNTFUVC QE
+(PNQ Nyreg) 80FG  Pnyy ng:13 Grphzfru Cnff         Ybp:                         Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-025789 Yng:38608685Ybat:75216222QVFC:15:05:58Pebff Fg:PUVRS WBFRCU GEY/PENML UBEFR GEY
+(PNQ Nyreg) 80P   Pnyy ng:26352 Gvzoreperrx Ya     Ybp:                         Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-025695 Yng:38627988Ybat:75180164QVFC:14:55:31Pebff Fg:BIREYBBX PG/OYNPX QHPX PG
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fhffrk Pbhagl Grpuavpny Erfphr Grnz
 Ybpngvba: Trbetrgbja, QR, Havgrq Fgngrf
-Fraqre: @pszft.pbz
+Fraqre: <pnq@fhffrkpbhaglqr.tbi>
 
 (PNQ Nyreg) GE2    Pnyy ng: 16600 - 16721 Erqqra Eq  Ybp: Erqqra Sberfg Cnexvat NerPvgl:19947  Ceboyrz:  Freivpr Pnyy-Sver               Vap#: 2014-021247    Yng: 38746078    Ybat: 75453873   QVFC: 16:39:27   Pebff Fg: J EBOOVAF EQ/UBEFR UNIRA YA
 (PNQ Nyreg) GE1    Pnyy ng: 16600 - 16721 Erqqra Eq  Ybp: Erqqra Sberfg Cnexvat NerPvgl:19947  Ceboyrz:  Freivpr Pnyy-Sver               Vap#: 2014-021247    Yng: 38746078    Ybat: 75453873   QVFC: 16:39:27   Pebff Fg: J EBOOVAF EQ/UBEFR UNIRA YA
@@ -1000,1019 +1001,970 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgYrjrfSQ() {
 
     qbGrfg("G1",
-        "(PNQ Nyreg) 82NF2 Pnyy ng:29710 Rntyrf Perfg Eq    Ybp:                         Pvgl:19968 Ceboyrz:Bireqbfr/Cbvfbavat-NYF        Vap#:2014-023612 Yng:38771815Ybat:75230040QVFC:21:45:20Pebff Fg:PUVFUBYZ GE/HAANZRQ FGERRG",
-        "FEP:82NF2",
-        "NQQE:29710 Rntyrf Perfg Eq",
-        "PVGL:ZVYGBA",
-        "PNYY:Bireqbfr/Cbvfbavat-NYF",
-        "VQ:2014-023612",
-        "TCF:+38.771815,-75.230040",
-        "GVZR:21:45:20",
-        "K:PUVFUBYZ GE/HAANZRQ FGERRG");
+        "(PNQ Nyreg) 82NFG Pnyy ng:11 Nirohel Pg            Ybp:                         Pvgl:19971 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-001124 Yng:38707403Ybat:75134601QVFC:15:11:52Pebff Fg:FRYOBEAR YA/Qrnq Raq",
+        "FEP:82NFG",
+        "NQQE:11 Nirohel Pg",
+        "PVGL:ERUBOBGU ORNPU",
+        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
+        "VQ:2015-001124",
+        "TCF:+38.707403,-75.134601",
+        "GVZR:15:11:52",
+        "K:FRYOBEAR YA/Qrnq Raq");
 
     qbGrfg("G2",
-        "(PNQ Nyreg) 82NF2 Pnyy ng:1141 Fninaanu Eq         Ybp:Uhyvat Pbir              Pvgl:19958 Ceboyrz:Freivpr Pnyy-NZO              Vap#:2014-023603 Yng:38763889Ybat:75150194QVFC:20:08:05Pebff Fg:HAXABJA/QBABINAF EQ",
-        "FEP:82NF2",
-        "NQQE:1141 Fninaanu Eq",
-        "CYNPR:Uhyvat Pbir",
+        "(PNQ Nyreg) 82NF3 Pnyy ng:Yrjrf Trbetrgbja Ujl & QnYbp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2015-001106 Yng:38736624Ybat:75222615QVFC:12:52:18Pebff Fg:",
+        "FEP:82NF3",
+        "NQQE:Yrjrf Trbetrgbja Ujl & Qn",
         "PVGL:YRJRF",
-        "PNYY:Freivpr Pnyy-NZO",
-        "VQ:2014-023603",
-        "TCF:+38.763889,-75.150194",
-        "GVZR:20:08:05",
-        "K:HAXABJA/QBABINAF EQ");
+        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
+        "VQ:2015-001106",
+        "TCF:+38.736624,-75.222615",
+        "GVZR:12:52:18");
 
     qbGrfg("G3",
-        "(PNQ Nyreg) 82NF1 Pnyy ng:1141 Fninaanu Eq         Ybp:Uhyvat Pbir              Pvgl:19958 Ceboyrz:Freivpr Pnyy-NZO              Vap#:2014-023603 Yng:38763889Ybat:75150194QVFC:20:08:05Pebff Fg:HAXABJA/QBABINAF EQ",
-        "FEP:82NF1",
-        "NQQE:1141 Fninaanu Eq",
-        "CYNPR:Uhyvat Pbir",
+        "(PNQ Nyreg) 82P   Pnyy ng:Yrjrf Trbetrgbja Ujl & QnYbp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2015-001106 Yng:38736624Ybat:75222615QVFC:12:52:18Pebff Fg:",
+        "FEP:82P",
+        "NQQE:Yrjrf Trbetrgbja Ujl & Qn",
         "PVGL:YRJRF",
-        "PNYY:Freivpr Pnyy-NZO",
-        "VQ:2014-023603",
-        "TCF:+38.763889,-75.150194",
-        "GVZR:20:08:05",
-        "K:HAXABJA/QBABINAF EQ");
+        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
+        "VQ:2015-001106",
+        "TCF:+38.736624,-75.222615",
+        "GVZR:12:52:18");
 
     qbGrfg("G4",
-        "(PNQ Nyreg) 82NF2 Pnyy ng:33130 A Ivyyntr Ybbc     Ybp:                         Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2014-023600 Yng:38753845Ybat:75174070QVFC:19:23:37Pebff Fg:J RQTRZBBE FG/J RQTRZBBE FG",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner FhffrkPvgl:19958 Ceboyrz:Vagresnpvyyvgl/Cnyyvngvir-NYF Vap#:2015-001105 Yng:38773939Ybat:75154864QVFC:12:51:28Pebff Fg:PNANEL QE/SYNZVATB PG",
         "FEP:82NF2",
-        "NQQE:33130 A Ivyyntr Ybbc",
-        "PVGL:YRJRF",
-        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
-        "VQ:2014-023600",
-        "TCF:+38.753845,-75.174070",
-        "GVZR:19:23:37",
-        "K:J RQTRZBBE FG/J RQTRZBBE FG");
-
-    qbGrfg("G5",
-        "(PNQ Nyreg) 82NF1 Pnyy ng:30821 Rqtrjngre Qe       Ybp:                         Pvgl:19958 Ceboyrz:Zrqvpny Nyreg                 Vap#:2014-023578 Yng:38755118Ybat:75212788QVFC:16:04:47Pebff Fg:OHGGBAJBBQ QE/FLPNZBER QE",
-        "FEP:82NF1",
-        "NQQE:30821 Rqtrjngre Qe",
-        "PVGL:YRJRF",
-        "PNYY:Zrqvpny Nyreg",
-        "VQ:2014-023578",
-        "TCF:+38.755118,-75.212788",
-        "GVZR:16:04:47",
-        "K:OHGGBAJBBQ QE/FLPNZBER QE");
-
-    qbGrfg("G6",
-        "(PNQ Nyreg) 82N   Pnyy ng:15126-15299 Pncr Urybcra Ybp:bss gur jnyx ba ornpu    Pvgl:19958 Ceboyrz:Jngre Erfphr Cevbevgl 1       Vap#:2014-023572 Yng:38780473Ybat:75102297QVFC:14:46:17Pebff Fg:HAANZRQ FGERRG/Qrnq Raq",
-        "FEP:82N",
-        "NQQE:15126-15299 Pncr Urybcra",
-        "ZNQQE:15126 Pncr Urybcra",
-        "CYNPR:bss gur jnyx ba ornpu",
-        "PVGL:YRJRF",
-        "PNYY:Jngre Erfphr Cevbevgl 1",
-        "VQ:2014-023572",
-        "TCF:+38.780473,-75.102297",
-        "GVZR:14:46:17",
-        "K:HAANZRQ FGERRG/Qrnq Raq");
-
-    qbGrfg("G7",
-        "(PNQ Nyreg) 82NF1 Pnyy ng:15126-15299 Pncr Urybcra Ybp:bss gur jnyx ba ornpu    Pvgl:19958 Ceboyrz:Jngre Erfphr Cevbevgl 1       Vap#:2014-023572 Yng:38780473Ybat:75102297QVFC:14:46:17Pebff Fg:HAANZRQ FGERRG/Qrnq Raq",
-        "FEP:82NF1",
-        "NQQE:15126-15299 Pncr Urybcra",
-        "ZNQQE:15126 Pncr Urybcra",
-        "CYNPR:bss gur jnyx ba ornpu",
-        "PVGL:YRJRF",
-        "PNYY:Jngre Erfphr Cevbevgl 1",
-        "VQ:2014-023572",
-        "TCF:+38.780473,-75.102297",
-        "GVZR:14:46:17",
-        "K:HAANZRQ FGERRG/Qrnq Raq");
-
-    qbGrfg("G8",
-        "(PNQ Nyreg) 82NFG Pnyy ng:1142 Fninaanu Eq         Ybp:ncg 107                  Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2014-023566 Yng:38762269Ybat:75151906QVFC:13:24:17Pebff Fg:A NGYNAGVP QE/IVXVATF JNL",
-        "FEP:82NFG",
-        "NQQE:1142 Fninaanu Eq",
-        "CYNPR:ncg 107",
-        "PVGL:YRJRF",
-        "PNYY:Snyyf-OYF",
-        "VQ:2014-023566",
-        "TCF:+38.762269,-75.151906",
-        "GVZR:13:24:17",
-        "K:A NGYNAGVP QE/IVXVATF JNL");
-
-    qbGrfg("G9",
-        "(PNQ Nyreg) 82FG  Pnyy ng:3511 Fninaanu Rnfg Qe    Ybp:                         Pvgl:19958 Ceboyrz:Fgehpgher Sver                Vap#:2014-023560 Yng:38746487Ybat:75154179QVFC:12:38:05Pebff Fg:JBBQF RQTR QE/XVATF UJL",
-        "FEP:82FG",
-        "NQQE:3511 Fninaanu Rnfg Qe",
-        "PVGL:YRJRF",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2014-023560",
-        "TCF:+38.746487,-75.154179",
-        "GVZR:12:38:05",
-        "K:JBBQF RQTR QE/XVATF UJL");
-
-    qbGrfg("G10",
-        "(PNQ Nyreg) 82P   Pnyy ng:30191 Juvgrunyy Qe       Ybp:                         Pvgl:19968 Ceboyrz:Erfvqragvny Erfphr            Vap#:2014-023555 Yng:38777560Ybat:75225326QVFC:12:01:39Pebff Fg:PNAGJRYY PG/PBIVATGBA PG",
-        "FEP:82P",
-        "NQQE:30191 Juvgrunyy Qe",
-        "PVGL:ZVYGBA",
-        "PNYY:Erfvqragvny Erfphr",
-        "VQ:2014-023555",
-        "TCF:+38.777560,-75.225326",
-        "GVZR:12:01:39",
-        "K:PNAGJRYY PG/PBIVATGBA PG");
-
-    qbGrfg("G11",
-        "(PNQ Nyreg) 82NF2 Pnyy ng:293 Ynxrfvqr Qe          Ybp:                         Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2014-023552 Yng:38739477Ybat:75165154QVFC:11:28:03Pebff Fg:UREBA PG/PENAR NIR",
-        "FEP:82NF2",
-        "NQQE:293 Ynxrfvqr Qe",
-        "PVGL:YRJRF",
-        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
-        "VQ:2014-023552",
-        "TCF:+38.739477,-75.165154",
-        "GVZR:11:28:03",
-        "K:UREBA PG/PENAR NIR");
-
-    qbGrfg("G12",
-        "(PNQ Nyreg) 82NF1 Pnyy ng:125 Qrjrl Nir            Ybp:                         Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2014-023549 Yng:38769854Ybat:75143080QVFC:11:17:07Pebff Fg:FNINAANU EQ/XVATF UJL",
-        "FEP:82NF1",
-        "NQQE:125 Qrjrl Nir",
-        "PVGL:YRJRF",
-        "PNYY:Oernguvat Ceboyrzf-NYF",
-        "VQ:2014-023549",
-        "TCF:+38.769854,-75.143080",
-        "GVZR:11:17:07",
-        "K:FNINAANU EQ/XVATF UJL");
-
-    qbGrfg("G13",
-        "(PNQ Nyreg) 82NFG Pnyy ng:17719 Pbnfgny Ujl        Ybp:Neol'f (82)              Pvgl:19958 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2014-023533 Yng:38748645Ybat:75166332QVFC:07:18:48Pebff Fg:Fninaanu Eq/Haanzrq Fgerrg",
-        "FEP:82NFG",
-        "NQQE:17719 Pbnfgny Ujl",
-        "CYNPR:Neol'f (82)",
-        "PVGL:YRJRF",
-        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
-        "VQ:2014-023533",
-        "TCF:+38.748645,-75.166332",
-        "GVZR:07:18:48",
-        "K:Fninaanu Eq/Haanzrq Fgerrg");
-
-    qbGrfg("G14",
-        "(PNQ Nyreg) 82NF1 Pnyy ng:33000 J SNYYVAT PERRX FG Ybp:                         Pvgl:      Ceboyrz:Bireqbfr/Cbvfbavat-OYF        Vap#:2014-023526 Yng:38753837Ybat:75174681QVFC:03:31:10Pebff Fg:QBEFRL FG",
-        "FEP:82NF1",
-        "NQQE:33000 J SNYYVAT PERRX FG",
-        "PNYY:Bireqbfr/Cbvfbavat-OYF",
-        "VQ:2014-023526",
-        "TCF:+38.753837,-75.174681",
-        "GVZR:03:31:10",
-        "K:QBEFRL FG");
-
-    qbGrfg("G15",
-        "(PNQ Nyreg) 82NF2 Pnyy ng:Pnir Arpx Eq & Pbnfgny UjYbp:5 Iruvpyrf               Pvgl:19968 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-023500 Yng:38767630Ybat:75214656QVFC:18:12:58Pebff Fg:",
-        "FEP:82NF2",
-        "NQQE:Pnir Arpx Eq & Pbnfgny Uj",
-        "ZNQQE:Pnir Arpx Eq & Pbnfgny Ujl",
-        "CYNPR:5 Iruvpyrf",
-        "PVGL:ZVYGBA",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-023500",
-        "TCF:+38.767630,-75.214656",
-        "GVZR:18:12:58");
-
-    qbGrfg("G16",
-        "(PNQ Nyreg) 82O   Pnyy ng:Pnir Arpx Eq & Pbnfgny UjYbp:5 Iruvpyrf               Pvgl:19968 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-023500 Yng:38767630Ybat:75214656QVFC:18:12:58Pebff Fg:",
-        "FEP:82O",
-        "NQQE:Pnir Arpx Eq & Pbnfgny Uj",
-        "ZNQQE:Pnir Arpx Eq & Pbnfgny Ujl",
-        "CYNPR:5 Iruvpyrf",
-        "PVGL:ZVYGBA",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-023500",
-        "TCF:+38.767630,-75.214656",
-        "GVZR:18:12:58");
-
-    qbGrfg("G17",
-        "(PNQ Nyreg) 82NF1 Pnyy ng:18826 Pbnfgny Ujl        Ybp:Unzcgba Vaa (82)  ez215  Pvgl:19971 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2014-023494 Yng:38732714Ybat:75135402QVFC:16:53:33Pebff Fg:ZVQJNL BHGYRG QE/ENZC",
-        "FEP:82NF1",
-        "NQQE:18826 Pbnfgny Ujl",
-        "CYNPR:Unzcgba Vaa (82)  ez215",
-        "PVGL:ERUBOBGU ORNPU",
-        "PNYY:Oernguvat Ceboyrzf-NYF",
-        "VQ:2014-023494",
-        "TCF:+38.732714,-75.135402",
-        "GVZR:16:53:33",
-        "K:ZVQJNL BHGYRG QE/ENZC");
-
-    qbGrfg("G18",
-        "(PNQ Nyreg) 82NF1 Pnyy ng:33664 Onlivrj Zrqvpny Qe Ybp:havg 2   /QRYNJNER ONL FHPvgl:19958 Ceboyrz:Purfg Cnva-NYF                Vap#:2014-023491 Yng:38753384Ybat:75163455QVFC:15:57:06Pebff Fg:FNINAANU EQ/Qrnq Raq",
-        "FEP:82NF1",
-        "NQQE:33664 Onlivrj Zrqvpny Qe",
-        "CYNPR:havg 2   /QRYNJNER ONL FH",
-        "PVGL:YRJRF",
-        "PNYY:Purfg Cnva-NYF",
-        "VQ:2014-023491",
-        "TCF:+38.753384,-75.163455",
-        "GVZR:15:57:06",
-        "K:FNINAANU EQ/Qrnq Raq");
-
-    qbGrfg("G19",
-        "(PNQ Nyreg) 82NF2 Pnyy ng:31681 Orrpu Cyhz Pg      Ybp:                         Pvgl:19958 Ceboyrz:Purfg Cnva-NYF                Vap#:2014-023483 Yng:38744680Ybat:75198040QVFC:14:35:21Pebff Fg:ZNEL NAA QE/Qrnq Raq",
-        "FEP:82NF2",
-        "NQQE:31681 Orrpu Cyhz Pg",
-        "PVGL:YRJRF",
-        "PNYY:Purfg Cnva-NYF",
-        "VQ:2014-023483",
-        "TCF:+38.744680,-75.198040",
-        "GVZR:14:35:21",
-        "K:ZNEL NAA QE/Qrnq Raq");
-
-    qbGrfg("G20",
-        "(PNQ Nyreg) 82NF1 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner, uraybPvgl:19958 Ceboyrz:Vagresnpvyyvgl/Cnyyvngvir-NYF Vap#:2014-023482 Yng:38773939Ybat:75154864QVFC:14:21:45Pebff Fg:PNANEL QE/SYNZVATB PG",
-        "FEP:82NF1",
         "NQQE:301 Bprna Ivrj Oyiq",
-        "CYNPR:Uneobe Urnygu Pner, urayb",
+        "CYNPR:Uneobe Urnygu Pner Fhffrk",
         "PVGL:YRJRF",
         "PNYY:Vagresnpvyyvgl/Cnyyvngvir-NYF",
-        "VQ:2014-023482",
+        "VQ:2015-001105",
         "TCF:+38.773939,-75.154864",
-        "GVZR:14:21:45",
+        "GVZR:12:51:28",
         "K:PNANEL QE/SYNZVATB PG");
 
-    qbGrfg("G21",
-        "(PNQ Nyreg) 82NF1 Pnyy ng:830 Xvatf Ujl            Ybp:EVFR SVGARFF NQIRAGHER YYPvgl:19958 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2014-023456 Yng:38761675Ybat:75145272QVFC:08:30:53Pebff Fg:ENZC/F NGYNAGVP QE",
-        "FEP:82NF1",
-        "NQQE:830 Xvatf Ujl",
-        "CYNPR:EVFR SVGARFF NQIRAGHER YY",
+    qbGrfg("G5",
+        "(PNQ Nyreg) 82O   Pnyy ng:17585 Anffnh Pbzzbaf OyiqYbp:                         Pvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-001101 Yng:38745530Ybat:75186303QVFC:12:01:31Pebff Fg:JVAREL JNL/IVARLNEQ YA",
+        "FEP:82O",
+        "NQQE:17585 Anffnh Pbzzbaf Oyiq",
         "PVGL:YRJRF",
-        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
-        "VQ:2014-023456",
-        "TCF:+38.761675,-75.145272",
-        "GVZR:08:30:53",
-        "K:ENZC/F NGYNAGVP QE");
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "VQ:2015-001101",
+        "TCF:+38.745530,-75.186303",
+        "GVZR:12:01:31",
+        "K:JVAREL JNL/IVARLNEQ YA");
 
-    qbGrfg("G22",
-        "(PNQ Nyreg) 82NF2 Pnyy ng:4 Oehafjvpx Ya           Ybp:                         Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2014-023452 Yng:38744504Ybat:75201052QVFC:07:04:20Pebff Fg:OEVFGBY JNL/ABGGVATUNZ QE",
+    qbGrfg("G6",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:27 Ghegyr Qbir Qe        Ybp:                         Pvgl:19971 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-001096 Yng:38741496Ybat:75135869QVFC:11:01:10Pebff Fg:ZRYFBA EQ/QBIR XABYY QE",
+        "FEP:82NF1",
+        "NQQE:27 Ghegyr Qbir Qe",
+        "PVGL:ERUBOBGU ORNPU",
+        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
+        "VQ:2015-001096",
+        "TCF:+38.741496,-75.135869",
+        "GVZR:11:01:10",
+        "K:ZRYFBA EQ/QBIR XABYY QE");
+
+    qbGrfg("G7",
+        "(PNQ Nyreg) 82NFG Pnyy ng:18927 Tbyqsvapu Pi       Ybp:                         Pvgl:19971 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-001092 Yng:38726653Ybat:75143331QVFC:10:03:21Pebff Fg:QBG FCNEEBJ QE/Qrnq Raq",
+        "FEP:82NFG",
+        "NQQE:18927 Tbyqsvapu Pi",
+        "PVGL:ERUBOBGU ORNPU",
+        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
+        "VQ:2015-001092",
+        "TCF:+38.726653,-75.143331",
+        "GVZR:10:03:21",
+        "K:QBG FCNEEBJ QE/Qrnq Raq");
+
+    qbGrfg("G8",
+        "(PNQ Nyreg) 82P   Pnyy ng:12001 Byq Ivar Oyiq      Ybp:                         Pvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-001090 Yng:38741924Ybat:75191225QVFC:09:48:02Pebff Fg:YRJRF TRBETRGBJA UJL/Qrnq Raq",
+        "FEP:82P",
+        "NQQE:12001 Byq Ivar Oyiq",
+        "PVGL:YRJRF",
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "VQ:2015-001090",
+        "TCF:+38.741924,-75.191225",
+        "GVZR:09:48:02",
+        "K:YRJRF TRBETRGBJA UJL/Qrnq Raq");
+
+    qbGrfg("G9",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner ura ezPvgl:19958 Ceboyrz:Vagresnpvyvg Riny/Genafsre-NYFVap#:2015-001085 Yng:38773939Ybat:75154864QVFC:08:18:49Pebff Fg:PNANEL QE/SYNZVATB PG",
+        "FEP:82NF2",
+        "NQQE:301 Bprna Ivrj Oyiq",
+        "CYNPR:Uneobe Urnygu Pner ura ez",
+        "PVGL:YRJRF",
+        "PNYY:Vagresnpvyvg Riny/Genafsre-NYF",
+        "VQ:2015-001085",
+        "TCF:+38.773939,-75.154864",
+        "GVZR:08:18:49",
+        "K:PNANEL QE/SYNZVATB PG");
+
+    qbGrfg("G10",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:17970 Ebovafbaivyyr Eq   Ybp:                         Pvgl:19958 Ceboyrz:Zrqvpny Nyreg                 Vap#:2015-001084 Yng:38741423Ybat:75168247QVFC:08:04:44Pebff Fg:CYNAGNGVBAF EQ/FRNFURYY OYIQ",
+        "FEP:82NF2",
+        "NQQE:17970 Ebovafbaivyyr Eq",
+        "PVGL:YRJRF",
+        "PNYY:Zrqvpny Nyreg",
+        "VQ:2015-001084",
+        "TCF:+38.741423,-75.168247",
+        "GVZR:08:04:44",
+        "K:CYNAGNGVBAF EQ/FRNFURYY OYIQ");
+
+    qbGrfg("G11",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:31301 Erq Zvyy Pve       Ybp:                         Pvgl:19958 Ceboyrz:Pbaihyfvbaf/Frvmherf-NYF      Vap#:2015-001076 Yng:38747261Ybat:75204477QVFC:04:28:51Pebff Fg:PBIRAGEL QE/Qrnq Raq",
+        "FEP:82NF1",
+        "NQQE:31301 Erq Zvyy Pve",
+        "PVGL:YRJRF",
+        "PNYY:Pbaihyfvbaf/Frvmherf-NYF",
+        "VQ:2015-001076",
+        "TCF:+38.747261,-75.204477",
+        "GVZR:04:28:51",
+        "K:PBIRAGEL QE/Qrnq Raq");
+
+    qbGrfg("G12",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:4 Oehafjvpx Ya           Ybp:                         Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-001060 Yng:38744504Ybat:75201052QVFC:19:36:17Pebff Fg:OEVFGBY JNL/ABGGVATUNZ QE",
         "FEP:82NF2",
         "NQQE:4 Oehafjvpx Ya",
         "PVGL:YRJRF",
-        "PNYY:Oernguvat Ceboyrzf-NYF",
-        "VQ:2014-023452",
+        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
+        "VQ:2015-001060",
         "TCF:+38.744504,-75.201052",
-        "GVZR:07:04:20",
+        "GVZR:19:36:17",
         "K:OEVFGBY JNL/ABGGVATUNZ QE");
 
-    qbGrfg("G23",
-        "(PNQ Nyreg) 82NFG Pnyy ng:269 Ynxrfvqr Qe          Ybp:                         Pvgl:19958 Ceboyrz:Qvnorgvp Ceboyrzf-NYF         Vap#:2014-023446 Yng:38739958Ybat:75164770QVFC:03:56:04Pebff Fg:CRPNA PG/UREBA PG",
-        "FEP:82NFG",
-        "NQQE:269 Ynxrfvqr Qe",
-        "PVGL:YRJRF",
-        "PNYY:Qvnorgvp Ceboyrzf-NYF",
-        "VQ:2014-023446",
-        "TCF:+38.739958,-75.164770",
-        "GVZR:03:56:04",
-        "K:CRPNA PG/UREBA PG");
-
-    qbGrfg("G24",
-        "(PNQ Nyreg) 82NF1 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner fhffrkPvgl:19958 Ceboyrz:Vagresnpvyvg Riny/Genafsre-NYFVap#:2014-023445 Yng:38773939Ybat:75154864QVFC:01:58:37Pebff Fg:PNANEL QE/SYNZVATB PG",
-        "FEP:82NF1",
+    qbGrfg("G13",
+        "(PNQ Nyreg) 82NF3 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner UraybcPvgl:19958 Ceboyrz:Vagresnpvyyvgl/Cnyyvngvir-NYF Vap#:2015-001026 Yng:38773939Ybat:75154864QVFC:13:20:27Pebff Fg:PNANEL QE/SYNZVATB PG",
+        "FEP:82NF3",
         "NQQE:301 Bprna Ivrj Oyiq",
-        "CYNPR:Uneobe Urnygu Pner fhffrk",
-        "PVGL:YRJRF",
-        "PNYY:Vagresnpvyvg Riny/Genafsre-NYF",
-        "VQ:2014-023445",
-        "TCF:+38.773939,-75.154864",
-        "GVZR:01:58:37",
-        "K:PNANEL QE/SYNZVATB PG");
-
-    qbGrfg("G25",
-        "(PNQ Nyreg) 82NFG Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner/Yrjrf Pvgl:19958 Ceboyrz:Vagresnpvyyvgl/Cnyyvngvir-NYF Vap#:2014-023437 Yng:38773939Ybat:75154864QVFC:19:15:57Pebff Fg:PNANEL QE/SYNZVATB PG",
-        "FEP:82NFG",
-        "NQQE:301 Bprna Ivrj Oyiq",
-        "CYNPR:Uneobe Urnygu Pner/Yrjrf",
+        "CYNPR:Uneobe Urnygu Pner Uraybc",
         "PVGL:YRJRF",
         "PNYY:Vagresnpvyyvgl/Cnyyvngvir-NYF",
-        "VQ:2014-023437",
+        "VQ:2015-001026",
         "TCF:+38.773939,-75.154864",
-        "GVZR:19:15:57",
+        "GVZR:13:20:27",
         "K:PNANEL QE/SYNZVATB PG");
 
-    qbGrfg("G26",
-        "(PNQ Nyreg) 82NF2 Pnyy ng:33711 Jrfpbngf Eq        Ybp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2014-023414 Yng:38751091Ybat:75162055QVFC:14:48:20Pebff Fg:PYNL EQ/ZNEFU EQ",
-        "FEP:82NF2",
-        "NQQE:33711 Jrfpbngf Eq",
-        "PVGL:YRJRF",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
-        "VQ:2014-023414",
-        "TCF:+38.751091,-75.162055",
-        "GVZR:14:48:20",
-        "K:PYNL EQ/ZNEFU EQ");
-
-    qbGrfg("G27",
-        "(PNQ Nyreg) 82P   Pnyy ng:33711 Jrfpbngf Eq        Ybp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2014-023414 Yng:38751091Ybat:75162055QVFC:14:48:20Pebff Fg:PYNL EQ/ZNEFU EQ",
-        "FEP:82P",
-        "NQQE:33711 Jrfpbngf Eq",
-        "PVGL:YRJRF",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
-        "VQ:2014-023414",
-        "TCF:+38.751091,-75.162055",
-        "GVZR:14:48:20",
-        "K:PYNL EQ/ZNEFU EQ");
-
-    qbGrfg("G28",
-        "(PNQ Nyreg) 82NFG Pnyy ng:17026 Pnqohel Pve        Ybp:Pnqohel ng Yrjrf (NffvfgrPvgl:19958 Ceboyrz:Vagresnpvyvg Riny/Genafsre-OYFVap#:2014-023403 Yng:38754676Ybat:75139991QVFC:13:34:22Pebff Fg:Qrnq Raq/Qrnq Raq",
+    qbGrfg("G14",
+        "(PNQ Nyreg) 82NFG Pnyy ng:17026 Pnqohel Pve        Ybp:Pnqohel ng Yrjrf (NffvfgrPvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-001017 Yng:38754676Ybat:75139991QVFC:11:09:22Pebff Fg:Qrnq Raq/Qrnq Raq",
         "FEP:82NFG",
         "NQQE:17026 Pnqohel Pve",
         "CYNPR:Pnqohel ng Yrjrf (Nffvfgr",
         "PVGL:YRJRF",
-        "PNYY:Vagresnpvyvg Riny/Genafsre-OYF",
-        "VQ:2014-023403",
+        "PNYY:Snyyf-OYF",
+        "VQ:2015-001017",
         "TCF:+38.754676,-75.139991",
-        "GVZR:13:34:22",
+        "GVZR:11:09:22",
         "K:Qrnq Raq/Qrnq Raq");
 
-    qbGrfg("G29",
-        "(PNQ Nyreg) 82NFG Pnyy ng:18722 Elna Pg            Ybp:                         Pvgl:19971 Ceboyrz:Snyyf-OYF                     Vap#:2014-023395 Yng:38731683Ybat:75149330QVFC:11:55:51Pebff Fg:ZVPURYYR QE/Qrnq Raq",
+    qbGrfg("G15",
+        "(PNQ Nyreg) 82NFG Pnyy ng:1309 Fninaanu Eq         Ybp:SNFG PNER ZRQVPNY NVQ HAVPvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2015-001012 Yng:38760513Ybat:75153751QVFC:10:24:57Pebff Fg:FRJRYY YA/JBBQYNAQ NIR",
         "FEP:82NFG",
-        "NQQE:18722 Elna Pg",
-        "PVGL:ERUBOBGU ORNPU",
-        "PNYY:Snyyf-OYF",
-        "VQ:2014-023395",
-        "TCF:+38.731683,-75.149330",
-        "GVZR:11:55:51",
-        "K:ZVPURYYR QE/Qrnq Raq");
-
-    qbGrfg("G30",
-        "(PNQ Nyreg) 82NFG Pnyy ng:34445 Xvat Fgerrg Ebj    Ybp:Snzvyl Cenpgvpr Pragre   Pvgl:19958 Ceboyrz:Purfg Cnva-NYF                Vap#:2014-023390 Yng:38743919Ybat:75149703QVFC:11:04:42Pebff Fg:XVATF UJL/Qrnq Raq",
-        "FEP:82NFG",
-        "NQQE:34445 Xvat Fgerrg Ebj",
-        "CYNPR:Snzvyl Cenpgvpr Pragre",
-        "PVGL:YRJRF",
-        "PNYY:Purfg Cnva-NYF",
-        "VQ:2014-023390",
-        "TCF:+38.743919,-75.149703",
-        "GVZR:11:04:42",
-        "K:XVATF UJL/Qrnq Raq");
-
-    qbGrfg("G31",
-        "(PNQ Nyreg) 82NF1 Pnyy ng:34134 Qbabinaf Eq        Ybp:16356 sbeerfg fg         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2014-023370 Yng:38762453Ybat:75151712QVFC:08:58:35Pebff Fg:FNINAANU EQ/PBBCRE PVE",
-        "FEP:82NF1",
-        "NQQE:34134 Qbabinaf Eq",
-        "CYNPR:16356 sbeerfg fg",
-        "PVGL:YRJRF",
-        "PNYY:Snyyf-OYF",
-        "VQ:2014-023370",
-        "TCF:+38.762453,-75.151712",
-        "GVZR:08:58:35",
-        "K:FNINAANU EQ/PBBCRE PVE");
-
-    qbGrfg("G32",
-        "(PNQ Nyreg) 82FG  Pnyy ng:23021 Cvar Eq            Ybp:Cvar Ya                  Pvgl:19958 Ceboyrz:Fgehpgher Sver                Vap#:2014-023350 Yng:38671376Ybat:75155612QVFC:03:11:21Pebff Fg:BNX QE/PNZC NEEBJURNQ EQ",
-        "FEP:82FG",
-        "NQQE:23021 Cvar Eq",
-        "CYNPR:Cvar Ya",
-        "PVGL:YRJRF",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2014-023350",
-        "TCF:+38.671376,-75.155612",
-        "GVZR:03:11:21",
-        "K:BNX QE/PNZC NEEBJURNQ EQ");
-
-    qbGrfg("G33",
-        "(PNQ Nyreg) 82NFG Pnyy ng:15083 Blfgre Furyy Qe    Ybp:                         Pvgl:19968 Ceboyrz:Fgebxr-NYF                    Vap#:2014-023338 Yng:38783535Ybat:75226891QVFC:20:37:00Pebff Fg:ONEANPYR PG/PYNZ FURYY YA",
-        "FEP:82NFG",
-        "NQQE:15083 Blfgre Furyy Qe",
-        "PVGL:ZVYGBA",
-        "PNYY:Fgebxr-NYF",
-        "VQ:2014-023338",
-        "TCF:+38.783535,-75.226891",
-        "GVZR:20:37:00",
-        "K:ONEANPYR PG/PYNZ FURYY YA");
-
-    qbGrfg("G34",
-        "(PNQ Nyreg) 82NF3 Pnyy ng:117 Orror Nir            Ybp:                         Pvgl:19958 Ceboyrz:Pneqvnp/ Erfc./Qrngu- OYF     Vap#:2014-023332 Yng:38769750Ybat:75141702QVFC:19:01:16Pebff Fg:FNINAANU EQ/XVATF UJL",
-        "FEP:82NF3",
-        "NQQE:117 Orror Nir",
-        "PVGL:YRJRF",
-        "PNYY:Pneqvnp/ Erfc./Qrngu- OYF",
-        "VQ:2014-023332",
-        "TCF:+38.769750,-75.141702",
-        "GVZR:19:01:16",
-        "K:FNINAANU EQ/XVATF UJL");
-
-    qbGrfg("G35",
-        "(PNQ Nyreg) 82NF2 Pnyy ng:4 Orror Qe               Ybp:                         Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2014-023330 Yng:38716490Ybat:75201621QVFC:18:49:27Pebff Fg:OHAQVPXF QE/ORGB YA",
-        "FEP:82NF2",
-        "NQQE:4 Orror Qe",
+        "NQQE:1309 Fninaanu Eq",
+        "CYNPR:SNFG PNER ZRQVPNY NVQ HAV",
         "PVGL:YRJRF",
         "PNYY:Oernguvat Ceboyrzf-NYF",
-        "VQ:2014-023330",
-        "TCF:+38.716490,-75.201621",
-        "GVZR:18:49:27",
-        "K:OHAQVPXF QE/ORGB YA");
+        "VQ:2015-001012",
+        "TCF:+38.760513,-75.153751",
+        "GVZR:10:24:57",
+        "K:FRJRYY YA/JBBQYNAQ NIR");
 
-    qbGrfg("G36",
-        "(PNQ Nyreg) 82P   Pnyy ng:17300 Jngre Ivrj Qe      Ybp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-023323 Yng:38749925Ybat:75224705QVFC:16:09:47Pebff Fg:UBYYL YA/EVQTR YVAR QE",
-        "FEP:82P",
-        "NQQE:17300 Jngre Ivrj Qe",
-        "PVGL:YRJRF",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-023323",
-        "TCF:+38.749925,-75.224705",
-        "GVZR:16:09:47",
-        "K:UBYYL YA/EVQTR YVAR QE");
-
-    qbGrfg("G37",
-        "(PNQ Nyreg) 82NF2 Pnyy ng:17300 Jngre Ivrj Qe      Ybp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-023323 Yng:38749925Ybat:75224705QVFC:16:09:47Pebff Fg:UBYYL YA/EVQTR YVAR QE",
+    qbGrfg("G16",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:22591 Fbhgurea Cvarf Qe  Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-001010 Yng:38678296Ybat:75190004QVFC:10:20:34Pebff Fg:Qrnq Raq/TERRAOEVNE JNL",
         "FEP:82NF2",
-        "NQQE:17300 Jngre Ivrj Qe",
+        "NQQE:22591 Fbhgurea Cvarf Qe",
         "PVGL:YRJRF",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-023323",
-        "TCF:+38.749925,-75.224705",
-        "GVZR:16:09:47",
-        "K:UBYYL YA/EVQTR YVAR QE");
+        "PNYY:Snyyf-OYF",
+        "VQ:2015-001010",
+        "TCF:+38.678296,-75.190004",
+        "GVZR:10:20:34",
+        "K:Qrnq Raq/TERRAOEVNE JNL");
 
-    qbGrfg("G38",
-        "(PNQ Nyreg) 82N   Pnyy ng:910 Fuvryqf Nir          Ybp:Evpuneq Fuvryqf Ryrz. fpuPvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-023318 Yng:38767868Ybat:75147239QVFC:15:24:16Pebff Fg:HAXABJA/FHFFRK QE",
+    qbGrfg("G17",
+        "(PNQ Nyreg) 82O   Pnyy ng:104 Frpbaq Fg            Ybp:                         Pvgl:19958 Ceboyrz:Fzbxr Vairfgvtngvba           Vap#:2015-000990 Yng:38774937Ybat:75138744QVFC:02:45:23Pebff Fg:FNINAANU EQ/ARVYF NYL",
+        "FEP:82O",
+        "NQQE:104 Frpbaq Fg",
+        "PVGL:YRJRF",
+        "PNYY:Fzbxr Vairfgvtngvba",
+        "VQ:2015-000990",
+        "TCF:+38.774937,-75.138744",
+        "GVZR:02:45:23",
+        "K:FNINAANU EQ/ARVYF NYL");
+
+    qbGrfg("G18",
+        "(PNQ Nyreg) 82N   Pnyy ng:514 Fninaanu Eq          Ybp:Fninaanu Eq              Pvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-000941 Yng:38768112Ybat:75145732QVFC:14:23:06Pebff Fg:FPUBBY YA/FHFFRK QE",
         "FEP:82N",
-        "NQQE:910 Fuvryqf Nir",
-        "CYNPR:Evpuneq Fuvryqf Ryrz. fpu",
+        "NQQE:514 Fninaanu Eq",
+        "CYNPR:Fninaanu Eq",
         "PVGL:YRJRF",
         "PNYY:Nhgbzngvp Sver Nynez",
-        "VQ:2014-023318",
-        "TCF:+38.767868,-75.147239",
-        "GVZR:15:24:16",
-        "K:HAXABJA/FHFFRK QE");
+        "VQ:2015-000941",
+        "TCF:+38.768112,-75.145732",
+        "GVZR:14:23:06",
+        "K:FPUBBY YA/FHFFRK QE");
 
-    qbGrfg("G39",
-        "(PNQ Nyreg) 82NF2 Pnyy ng:31210 Rqtrjbbq Qe        Ybp:                         Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2014-023309 Yng:38750472Ybat:75205567QVFC:12:53:35Pebff Fg:PBANJNL QE/OHGGBAJBBQ QE",
+    qbGrfg("G19",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:34995 Pnqohel Pve J      Ybp:qhcyrk ubzrf             Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000937 Yng:38755158Ybat:75143195QVFC:13:44:09Pebff Fg:HAANZRQ FGERRG/Qrnq Raq",
         "FEP:82NF2",
-        "NQQE:31210 Rqtrjbbq Qe",
-        "PVGL:YRJRF",
-        "PNYY:Oernguvat Ceboyrzf-NYF",
-        "VQ:2014-023309",
-        "TCF:+38.750472,-75.205567",
-        "GVZR:12:53:35",
-        "K:PBANJNL QE/OHGGBAJBBQ QE");
-
-    qbGrfg("G40",
-        "(PNQ Nyreg) 82NFG Pnyy ng:35245 Uhqfba Jnl         Ybp:ornpu onovrf             Pvgl:19971 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2014-023305 Yng:38729124Ybat:75137313QVFC:12:06:54Pebff Fg:WBUA W JVYYVNZF UJL/Qrnq Raq",
-        "FEP:82NFG",
-        "NQQE:35245 Uhqfba Jnl",
-        "CYNPR:ornpu onovrf",
-        "PVGL:ERUBOBGU ORNPU",
-        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
-        "VQ:2014-023305",
-        "TCF:+38.729124,-75.137313",
-        "GVZR:12:06:54",
-        "K:WBUA W JVYYVNZF UJL/Qrnq Raq");
-
-    qbGrfg("G41",
-        "(PNQ Nyreg) 82NFG Pnyy ng:1539 Fninaanu Eq         Ybp:ORROR TNFGEBRAGREBYBTL NFPvgl:      Ceboyrz:Pbaihyfvbaf/Frvmherf-NYF      Vap#:2014-023289 Yng:0       Ybat:0       QVFC:09:42:53Pebff Fg:",
-        "FEP:82NFG",
-        "NQQE:1539 Fninaanu Eq",
-        "CYNPR:ORROR TNFGEBRAGREBYBTL NF",
-        "PNYY:Pbaihyfvbaf/Frvmherf-NYF",
-        "VQ:2014-023289",
-        "TCF:0 0",
-        "GVZR:09:42:53");
-
-    qbGrfg("G42",
-        "(PNQ Nyreg) 82NF1 Pnyy ng:32041 Wnavpr Eq          Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2014-023286 Yng:38749792Ybat:75191009QVFC:09:05:46Pebff Fg:ANFFNH CNEX/FVUNZ EQ",
-        "FEP:82NF1",
-        "NQQE:32041 Wnavpr Eq",
+        "NQQE:34995 Pnqohel Pve J",
+        "CYNPR:qhcyrk ubzrf",
         "PVGL:YRJRF",
         "PNYY:Snyyf-OYF",
-        "VQ:2014-023286",
-        "TCF:+38.749792,-75.191009",
-        "GVZR:09:05:46",
-        "K:ANFFNH CNEX/FVUNZ EQ");
+        "VQ:2015-000937",
+        "TCF:+38.755158,-75.143195",
+        "GVZR:13:44:09",
+        "K:HAANZRQ FGERRG/Qrnq Raq");
 
-    qbGrfg("G43",
-        "(PNQ Nyreg) 82NF2 Pnyy ng:34186 Jbbqf Rqtr Qe      Ybp:                         Pvgl:19958 Ceboyrz:Zrqvpny Nyreg                 Vap#:2014-023275 Yng:38747913Ybat:75154187QVFC:02:42:43Pebff Fg:FNINAANU RNFG QE/Qrnq Raq",
-        "FEP:82NF2",
-        "NQQE:34186 Jbbqf Rqtr Qe",
-        "PVGL:YRJRF",
-        "PNYY:Zrqvpny Nyreg",
-        "VQ:2014-023275",
-        "TCF:+38.747913,-75.154187",
-        "GVZR:02:42:43",
-        "K:FNINAANU RNFG QE/Qrnq Raq");
-
-    qbGrfg("G44",
-        "(PNQ Nyreg) 82NFG Pnyy ng:31398 Evire Eq           Ybp:Vaqvna Evire Lnpug Pyho  Pvgl:19966 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-OYFVap#:2014-023265 Yng:38595622Ybat:75199992QVFC:20:10:21Pebff Fg:JNEJVPX QE/YNLGBA QNIVF EQ",
-        "FEP:82NFG",
-        "NQQE:31398 Evire Eq",
-        "CYNPR:Vaqvna Evire Lnpug Pyho",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-OYF",
-        "VQ:2014-023265",
-        "TCF:+38.595622,-75.199992",
-        "GVZR:20:10:21",
-        "K:JNEJVPX QE/YNLGBA QNIVF EQ");
-
-    qbGrfg("G45",
-        "(PNQ Nyreg) 82N   Pnyy ng:16630 Oyhr Zneyva Pg     Ybp:                         Pvgl:19958 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-023260 Yng:38760030Ybat:75116996QVFC:19:32:00Pebff Fg:GNECBA QE/Qrnq Raq",
-        "FEP:82N",
-        "NQQE:16630 Oyhr Zneyva Pg",
-        "PVGL:YRJRF",
-        "PNYY:Nynez Pbzcnal",
-        "VQ:2014-023260",
-        "TCF:+38.760030,-75.116996",
-        "GVZR:19:32:00",
-        "K:GNECBA QE/Qrnq Raq");
-
-    qbGrfg("G46",
-        "(PNQ Nyreg) 82N   Pnyy ng:16630 Oyhr Zneyva Pg     Ybp:                         Pvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-023260 Yng:38760030Ybat:75116996QVFC:19:32:00Pebff Fg:GNECBA QE/Qrnq Raq",
-        "FEP:82N",
-        "NQQE:16630 Oyhr Zneyva Pg",
-        "PVGL:YRJRF",
-        "PNYY:Nhgbzngvp Sver Nynez",
-        "VQ:2014-023260",
-        "TCF:+38.760030,-75.116996",
-        "GVZR:19:32:00",
-        "K:GNECBA QE/Qrnq Raq");
-
-    qbGrfg("G47",
-        "(PNQ Nyreg) 82NF2 Pnyy ng:15 Purfgresvryq Qe       Ybp:                         Pvgl:19958 Ceboyrz:Urzbeeuntr/Ynprengvbaf-OYF    Vap#:2014-023253 Yng:38743226Ybat:75159512QVFC:18:11:55Pebff Fg:YNAPNFGRE YA/BKSBEQ PG",
-        "FEP:82NF2",
-        "NQQE:15 Purfgresvryq Qe",
-        "PVGL:YRJRF",
-        "PNYY:Urzbeeuntr/Ynprengvbaf-OYF",
-        "VQ:2014-023253",
-        "TCF:+38.743226,-75.159512",
-        "GVZR:18:11:55",
-        "K:YNAPNFGRE YA/BKSBEQ PG");
-
-    qbGrfg("G48",
-        "(PNQ Nyreg) 82P   Pnyy ng:Fninaanu Eq & A Ivyyntr ZYbp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-023247 Yng:38750581Ybat:75167669QVFC:17:01:33Pebff Fg:",
-        "FEP:82P",
-        "NQQE:Fninaanu Eq & A Ivyyntr Z",
-        "PVGL:YRJRF",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-023247",
-        "TCF:+38.750581,-75.167669",
-        "GVZR:17:01:33");
-
-    qbGrfg("G49",
-        "(PNQ Nyreg) 82NF2 Pnyy ng:Fninaanu Eq & A Ivyyntr ZYbp:                         Pvgl:19958 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-023247 Yng:38750581Ybat:75167669QVFC:17:01:33Pebff Fg:",
-        "FEP:82NF2",
-        "NQQE:Fninaanu Eq & A Ivyyntr Z",
-        "PVGL:YRJRF",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-023247",
-        "TCF:+38.750581,-75.167669",
-        "GVZR:17:01:33");
-
-    qbGrfg("G50",
-        "(PNQ Nyreg) 82NF1  Pnyy ng: 34453 Xvat Fgerrg Ebj    Ybp: qrynjner pneqvb          Pvgl:19958  Ceboyrz:  Purfg Cnva-NYF                  Vap#: 2014-023219    Yng: 38743512    Ybat: 75149349   QVFC: 11:53:58   Pebff Fg: XVATF UJL/Qrnq Raq",
+    qbGrfg("G20",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:124 Ghyvc Qe             Ybp:                         Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2015-000938 Yng:38750547Ybat:75178750QVFC:13:45:37Pebff Fg:PBNFGNY UJL/CBAQ QE",
         "FEP:82NF1",
-        "NQQE:34453 Xvat Fgerrg Ebj",
-        "CYNPR:qrynjner pneqvb",
-        "PVGL:YRJRF",
-        "PNYY:Purfg Cnva-NYF",
-        "VQ:2014-023219",
-        "TCF:+38.743512,-75.149349",
-        "GVZR:11:53:58",
-        "K:XVATF UJL/Qrnq Raq");
-
-    qbGrfg("G51",
-        "(PNQ Nyreg) 82NF2  Pnyy ng: 30912 Rqtrjngre Qe       Ybp:                          Pvgl:19958  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-OYF  Vap#: 2014-023216    Yng: 38753662    Ybat: 75210403   QVFC: 11:40:57   Pebff Fg: FLPNZBER QE/BNX PG",
-        "FEP:82NF2",
-        "NQQE:30912 Rqtrjngre Qe",
-        "PVGL:YRJRF",
-        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
-        "VQ:2014-023216",
-        "TCF:+38.753662,-75.210403",
-        "GVZR:11:40:57",
-        "K:FLPNZBER QE/BNX PG");
-
-    qbGrfg("G52",
-        "(PNQ Nyreg) 82NF3  Pnyy ng: 204 Jngresbeq Qe         Ybp:                          Pvgl:19958  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-023211    Yng: 38708535    Ybat: 75174640   QVFC: 10:33:02   Pebff Fg: URNGURE QE/JROOF YNAQVAT EQ",
-        "FEP:82NF3",
-        "NQQE:204 Jngresbeq Qe",
-        "PVGL:YRJRF",
-        "PNYY:Snyyf-OYF",
-        "VQ:2014-023211",
-        "TCF:+38.708535,-75.174640",
-        "GVZR:10:33:02",
-        "K:URNGURE QE/JROOF YNAQVAT EQ");
-
-    qbGrfg("G53",
-        "(PNQ Nyreg) 82NF2  Pnyy ng: 23 Pnaqyryvtug Ya        Ybp:                          Pvgl:19971  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-OYF  Vap#: 2014-023208    Yng: 38735819    Ybat: 75132922   QVFC: 10:19:30   Pebff Fg: BYQR PBNPU QE/BYQR PBNPU QE",
-        "FEP:82NF2",
-        "NQQE:23 Pnaqyryvtug Ya",
-        "PVGL:ERUBOBGU ORNPU",
-        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
-        "VQ:2014-023208",
-        "TCF:+38.735819,-75.132922",
-        "GVZR:10:19:30",
-        "K:BYQR PBNPU QE/BYQR PBNPU QE");
-
-    qbGrfg("G54",
-        "(PNQ Nyreg) 82NF1  Pnyy ng: 33156 A Ivyyntr Ybbc     Ybp: havg 4102                Pvgl:19958  Ceboyrz:  Oernguvat Ceboyrzf-NYF          Vap#: 2014-023206    Yng: 38754783    Ybat: 75173643   QVFC: 09:48:45   Pebff Fg: J RQTRZBBE FG/J RQTRZBBE FG",
-        "FEP:82NF1",
-        "NQQE:33156 A Ivyyntr Ybbc",
-        "CYNPR:havg 4102",
+        "NQQE:124 Ghyvc Qe",
         "PVGL:YRJRF",
         "PNYY:Oernguvat Ceboyrzf-NYF",
-        "VQ:2014-023206",
-        "TCF:+38.754783,-75.173643",
-        "GVZR:09:48:45",
-        "K:J RQTRZBBE FG/J RQTRZBBE FG");
-
-    qbGrfg("G55",
-        "(PNQ Nyreg) 82NFG  Pnyy ng: 108 Ghyvc Qe             Ybp:                          Pvgl:19958  Ceboyrz:  Zrqvpny Nyreg                   Vap#: 2014-023193    Yng: 38750647    Ybat: 75177978   QVFC: 07:28:04   Pebff Fg: PBNFGNY UJL/CBAQ QE",
-        "FEP:82NFG",
-        "NQQE:108 Ghyvc Qe",
-        "PVGL:YRJRF",
-        "PNYY:Zrqvpny Nyreg",
-        "VQ:2014-023193",
-        "TCF:+38.750647,-75.177978",
-        "GVZR:07:28:04",
+        "VQ:2015-000938",
+        "TCF:+38.750547,-75.178750",
+        "GVZR:13:45:37",
         "K:PBNFGNY UJL/CBAQ QE");
 
-    qbGrfg("G56",
-        "(PNQ Nyreg) 82NFG  Pnyy ng: 1-41 Arj Obyq Fd         Ybp: NZO                      Pvgl:19971  Ceboyrz:  Onpx Cnva (Aba Genhzngvp)-OYF   Vap#: 2014-023155    Yng: 38708012    Ybat: 75085001   QVFC: 16:33:46   Pebff Fg: FPNEOBEBHTU NIRAHR RKG/Qrnq Raq",
-        "FEP:82NFG",
-        "NQQE:1-41 Arj Obyq Fd",
-        "ZNQQE:1 Arj Obyq Fd",
-        "CYNPR:NZO",
-        "PVGL:ERUBOBGU ORNPU",
-        "PNYY:Onpx Cnva (Aba Genhzngvp)-OYF",
-        "VQ:2014-023155",
-        "TCF:+38.708012,-75.085001",
-        "GVZR:16:33:46",
-        "K:FPNEOBEBHTU NIRAHR RKG/Qrnq Raq");
-
-    qbGrfg("G57",
-        "(PNQ Nyreg) 82NF3  Pnyy ng: 4 Znlsnve Ya             Ybp:                          Pvgl:19958  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-OYF  Vap#: 2014-023143    Yng: 38742162    Ybat: 75204619   QVFC: 14:02:18   Pebff Fg: XVATF PEFT/JUVGRUNIRA JNL",
-        "FEP:82NF3",
-        "NQQE:4 Znlsnve Ya",
-        "PVGL:YRJRF",
-        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
-        "VQ:2014-023143",
-        "TCF:+38.742162,-75.204619",
-        "GVZR:14:02:18",
-        "K:XVATF PEFT/JUVGRUNIRA JNL");
-
-    qbGrfg("G58",
-        "(PNQ Nyreg) 82NF1  Pnyy ng: 416 Xvatf Ujl            Ybp:                          Pvgl:19958  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-023133    Yng: 38770429    Ybat: 75140940   QVFC: 11:19:41   Pebff Fg: PBYRZNA NIR/ZNQVFBA NIR",
-        "FEP:82NF1",
-        "NQQE:416 Xvatf Ujl",
-        "PVGL:YRJRF",
-        "PNYY:Snyyf-OYF",
-        "VQ:2014-023133",
-        "TCF:+38.770429,-75.140940",
-        "GVZR:11:19:41",
-        "K:PBYRZNA NIR/ZNQVFBA NIR");
-
-    qbGrfg("G59",
-        "(PNQ Nyreg) 82NFG  Pnyy ng: 18927 Tbyqsvapu Pi       Ybp:                          Pvgl:19971  Ceboyrz:  Genhzngvp Vawhevrf-NYF          Vap#: 2014-023130    Yng: 38726653    Ybat: 75143331   QVFC: 10:46:25   Pebff Fg: QBG FCNEEBJ QE/Qrnq Raq",
-        "FEP:82NFG",
-        "NQQE:18927 Tbyqsvapu Pi",
-        "PVGL:ERUBOBGU ORNPU",
-        "PNYY:Genhzngvp Vawhevrf-NYF",
-        "VQ:2014-023130",
-        "TCF:+38.726653,-75.143331",
-        "GVZR:10:46:25",
-        "K:QBG FCNEEBJ QE/Qrnq Raq");
-
-    qbGrfg("G60",
-        "(PNQ Nyreg) 82NFG  Pnyy ng: 19559 Qbr Qe             Ybp:                          Pvgl:19947  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-NYF  Vap#: 2014-023121    Yng: 38719215    Ybat: 75299687   QVFC: 09:08:17   Pebff Fg: SNJA YA/OHPX EHA",
-        "FEP:82NFG",
-        "NQQE:19559 Qbr Qe",
-        "PVGL:TRBETRGBJA",
-        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-NYF",
-        "VQ:2014-023121",
-        "TCF:+38.719215,-75.299687",
-        "GVZR:09:08:17",
-        "K:SNJA YA/OHPX EHA");
-
-    qbGrfg("G61",
-        "(PNQ Nyreg) 82NF3  Pnyy ng: 1142 Fninaanu Eq         Ybp:                          Pvgl:19958  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-023106    Yng: 38764084    Ybat: 75149989   QVFC: 02:37:51   Pebff Fg: HAXABJA/QBABINAF EQ",
-        "FEP:82NF3",
-        "NQQE:1142 Fninaanu Eq",
-        "PVGL:YRJRF",
-        "PNYY:Snyyf-OYF",
-        "VQ:2014-023106",
-        "TCF:+38.764084,-75.149989",
-        "GVZR:02:37:51",
-        "K:HAXABJA/QBABINAF EQ");
-
-    qbGrfg("G62",
-        "(PNQ Nyreg) 82NF2  Pnyy ng: 301 Bprna Ivrj Oyiq      Ybp: Uneobe Urnygu Pner uraybcPvgl:19958  Ceboyrz:  Vagresnpvyvg Riny/Genafsre-NYF  Vap#: 2014-023097    Yng: 38773939    Ybat: 75154864   QVFC: 22:09:33   Pebff Fg: PNANEL QE/SYNZVATB PG",
+    qbGrfg("G21",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:124 Ghyvc Qe             Ybp:                         Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2015-000938 Yng:38750547Ybat:75178750QVFC:13:45:37Pebff Fg:PBNFGNY UJL/CBAQ QE",
         "FEP:82NF2",
-        "NQQE:301 Bprna Ivrj Oyiq",
-        "CYNPR:Uneobe Urnygu Pner uraybc",
+        "NQQE:124 Ghyvc Qe",
         "PVGL:YRJRF",
-        "PNYY:Vagresnpvyvg Riny/Genafsre-NYF",
-        "VQ:2014-023097",
-        "TCF:+38.773939,-75.154864",
-        "GVZR:22:09:33",
-        "K:PNANEL QE/SYNZVATB PG");
+        "PNYY:Oernguvat Ceboyrzf-NYF",
+        "VQ:2015-000938",
+        "TCF:+38.750547,-75.178750",
+        "GVZR:13:45:37",
+        "K:PBNFGNY UJL/CBAQ QE");
 
-    qbGrfg("G63",
-        "(PNQ Nyreg) 82NF3  Pnyy ng: 4 Znlsnve Ya             Ybp:                          Pvgl:19958  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-023096    Yng: 38742162    Ybat: 75204619   QVFC: 22:02:43   Pebff Fg: XVATF PEFT/JUVGRUNIRA JNL",
-        "FEP:82NF3",
-        "NQQE:4 Znlsnve Ya",
+    qbGrfg("G22",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:34995 Pnqohel Pve J      Ybp:qhcyrk ubzrf             Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000937 Yng:38755158Ybat:75143195QVFC:13:44:09Pebff Fg:HAANZRQ FGERRG/Qrnq Raq",
+        "FEP:82NF1",
+        "NQQE:34995 Pnqohel Pve J",
+        "CYNPR:qhcyrk ubzrf",
         "PVGL:YRJRF",
         "PNYY:Snyyf-OYF",
-        "VQ:2014-023096",
-        "TCF:+38.742162,-75.204619",
-        "GVZR:22:02:43",
-        "K:XVATF PEFT/JUVGRUNIRA JNL");
+        "VQ:2015-000937",
+        "TCF:+38.755158,-75.143195",
+        "GVZR:13:44:09",
+        "K:HAANZRQ FGERRG/Qrnq Raq");
 
-    qbGrfg("G64",
-        "(PNQ Nyreg) 82NF1  Pnyy ng: 16391 Wbua Ebjynaq Gey   Ybp:                          Pvgl:19968  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-OYF  Vap#: 2014-023092    Yng: 38762443    Ybat: 75210529   QVFC: 20:03:24   Pebff Fg: NGGBEARL TRARENYF PG/R FNYYVR EBFF ORAQ",
-        "FEP:82NF1",
-        "NQQE:16391 Wbua Ebjynaq Gey",
-        "PVGL:ZVYGBA",
+    qbGrfg("G23",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:27 Xvatf Peft            Ybp:                         Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-000933 Yng:38742673Ybat:75202550QVFC:13:12:57Pebff Fg:JUVGRUNIRA JNL/OHPXVATUNZ QE",
+        "FEP:82NF2",
+        "NQQE:27 Xvatf Peft",
+        "PVGL:YRJRF",
         "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
-        "VQ:2014-023092",
-        "TCF:+38.762443,-75.210529",
-        "GVZR:20:03:24",
-        "K:NGGBEARL TRARENYF PG/R FNYYVR EBFF ORAQ");
+        "VQ:2015-000933",
+        "TCF:+38.742673,-75.202550",
+        "GVZR:13:12:57",
+        "K:JUVGRUNIRA JNL/OHPXVATUNZ QE");
 
-    qbGrfg("G65",
-        "(PNQ Nyreg) 82NFG  Pnyy ng: 301 Bprna Ivrj Oyiq      Ybp: Uneobe Urnygu Pner uraybcPvgl:19958  Ceboyrz:  Vagresnpvyvg Riny/Genafsre-OYF  Vap#: 2014-023080    Yng: 38773939    Ybat: 75154864   QVFC: 16:51:29   Pebff Fg: PNANEL QE/SYNZVATB PG",
-        "FEP:82NFG",
+    qbGrfg("G24",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:31317 Pbiragel Qe        Ybp:                         Pvgl:19958 Ceboyrz:Purfg Cnva-NYF                Vap#:2015-000925 Yng:38747773Ybat:75205660QVFC:11:17:24Pebff Fg:ERQ ZVYY PVE/ANFFNH QE",
+        "FEP:82NF2",
+        "NQQE:31317 Pbiragel Qe",
+        "PVGL:YRJRF",
+        "PNYY:Purfg Cnva-NYF",
+        "VQ:2015-000925",
+        "TCF:+38.747773,-75.205660",
+        "GVZR:11:17:24",
+        "K:ERQ ZVYY PVE/ANFFNH QE");
+
+    qbGrfg("G25",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner ebbz 1Pvgl:19958 Ceboyrz:Vagresnpvyvg Riny/Genafsre-OYFVap#:2015-000922 Yng:38773939Ybat:75154864QVFC:10:17:45Pebff Fg:PNANEL QE/SYNZVATB PG",
+        "FEP:82NF1",
         "NQQE:301 Bprna Ivrj Oyiq",
-        "CYNPR:Uneobe Urnygu Pner uraybc",
+        "CYNPR:Uneobe Urnygu Pner ebbz 1",
         "PVGL:YRJRF",
         "PNYY:Vagresnpvyvg Riny/Genafsre-OYF",
-        "VQ:2014-023080",
+        "VQ:2015-000922",
         "TCF:+38.773939,-75.154864",
-        "GVZR:16:51:29",
+        "GVZR:10:17:45",
         "K:PNANEL QE/SYNZVATB PG");
 
-    qbGrfg("G66",
-        "(PNQ Nyreg) 82NF3  Pnyy ng: 0 Qnegzbhgu Qe & Pbnfgny Ybp: Jnjn (82)                Pvgl:19958  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-OYF  Vap#: 2014-023079    Yng: 38745084    Ybat: 75153617   QVFC: 16:48:41   Pebff Fg:",
+    qbGrfg("G26",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:418 J Sbhegu Fg          Ybp:                         Pvgl:19958 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2015-000909 Yng:38775402Ybat:75146011QVFC:08:05:21Pebff Fg:QHCBAG NIR/CNLAGRE NIR",
+        "FEP:82NF1",
+        "NQQE:418 J Sbhegu Fg",
+        "PVGL:YRJRF",
+        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
+        "VQ:2015-000909",
+        "TCF:+38.775402,-75.146011",
+        "GVZR:08:05:21",
+        "K:QHCBAG NIR/CNLAGRE NIR");
+
+    qbGrfg("G27",
+        "(PNQ Nyreg) 82NF3 Pnyy ng:17488 Fyvccre Furyy Jnl  Ybp:                         Pvgl:19958 Ceboyrz:Zrqvpny Nyreg                 Vap#:2015-000905 Yng:38747133Ybat:75181218QVFC:06:58:16Pebff Fg:PBDHVAN JNL/WNAGUVAN JNL",
         "FEP:82NF3",
-        "NQQE:Qnegzbhgu Qe & Pbnfgny",
-        "CYNPR:Jnjn (82)",
+        "NQQE:17488 Fyvccre Furyy Jnl",
+        "PVGL:YRJRF",
+        "PNYY:Zrqvpny Nyreg",
+        "VQ:2015-000905",
+        "TCF:+38.747133,-75.181218",
+        "GVZR:06:58:16",
+        "K:PBDHVAN JNL/WNAGUVAN JNL");
+
+    qbGrfg("G28",
+        "(PNQ Nyreg) 82NF3 Pnyy ng:32880 Bprna Ernpu Qe     Ybp:                         Pvgl:19958 Ceboyrz:Freivpr Pnyy-NZO              Vap#:2015-000903 Yng:38740502Ybat:75170658QVFC:06:09:42Pebff Fg:PNCR QE F/Qrnq Raq",
+        "FEP:82NF3",
+        "NQQE:32880 Bprna Ernpu Qe",
+        "PVGL:YRJRF",
+        "PNYY:Freivpr Pnyy-NZO",
+        "VQ:2015-000903",
+        "TCF:+38.740502,-75.170658",
+        "GVZR:06:09:42",
+        "K:PNCR QE F/Qrnq Raq");
+
+    qbGrfg("G29",
+        "(PNQ Nyreg) 82NF3 Pnyy ng:13 Nhghzajbbq Jnl        Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000896 Yng:38693080Ybat:75192889QVFC:02:45:03Pebff Fg:NYQREYRNS QE/NAPVRAG BNX QE",
+        "FEP:82NF3",
+        "NQQE:13 Nhghzajbbq Jnl",
+        "PVGL:YRJRF",
+        "PNYY:Snyyf-OYF",
+        "VQ:2015-000896",
+        "TCF:+38.693080,-75.192889",
+        "GVZR:02:45:03",
+        "K:NYQREYRNS QE/NAPVRAG BNX QE");
+
+    qbGrfg("G30",
+        "(PNQ Nyreg) 821   Pnyy ng:31344 Erq Zvyy Qe        Ybp:                         Pvgl:19958 Ceboyrz:Nynez Pbzcnal                 Vap#:2015-000881 Yng:38758039Ybat:75204081QVFC:22:25:37Pebff Fg:CRZOEBXR EQ/FUREOEBBXR EQ",
+        "FEP:821",
+        "NQQE:31344 Erq Zvyy Qe",
+        "PVGL:YRJRF",
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2015-000881",
+        "TCF:+38.758039,-75.204081",
+        "GVZR:22:25:37",
+        "K:CRZOEBXR EQ/FUREOEBBXR EQ");
+
+    qbGrfg("G31",
+        "(PNQ Nyreg) 82O   Pnyy ng:31344 Erq Zvyy Qe        Ybp:                         Pvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-000881 Yng:38758039Ybat:75204081QVFC:22:25:37Pebff Fg:CRZOEBXR EQ/FUREOEBBXR EQ",
+        "FEP:82O",
+        "NQQE:31344 Erq Zvyy Qe",
+        "PVGL:YRJRF",
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "VQ:2015-000881",
+        "TCF:+38.758039,-75.204081",
+        "GVZR:22:25:37",
+        "K:CRZOEBXR EQ/FUREOEBBXR EQ");
+
+    qbGrfg("G32",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu 261-N / FhfPvgl:19958 Ceboyrz:Vagresnpvyyvgl/Cnyyvngvir-NYF Vap#:2015-000870 Yng:38773939Ybat:75154864QVFC:18:45:38Pebff Fg:PNANEL QE/SYNZVATB PG",
+        "FEP:82NF1",
+        "NQQE:301 Bprna Ivrj Oyiq",
+        "CYNPR:Uneobe Urnygu 261-N / Fhf",
+        "PVGL:YRJRF",
+        "PNYY:Vagresnpvyyvgl/Cnyyvngvir-NYF",
+        "VQ:2015-000870",
+        "TCF:+38.773939,-75.154864",
+        "GVZR:18:45:38",
+        "K:PNANEL QE/SYNZVATB PG");
+
+    qbGrfg("G33",
+        "(PNQ Nyreg) 82NF3 Pnyy ng:17488 Fyvccre Furyy Jnl  Ybp:                         Pvgl:19958 Ceboyrz:Zrqvpny Nyreg                 Vap#:2015-000861 Yng:38747133Ybat:75181218QVFC:16:49:22Pebff Fg:PBDHVAN JNL/WNAGUVAN JNL",
+        "FEP:82NF3",
+        "NQQE:17488 Fyvccre Furyy Jnl",
+        "PVGL:YRJRF",
+        "PNYY:Zrqvpny Nyreg",
+        "VQ:2015-000861",
+        "TCF:+38.747133,-75.181218",
+        "GVZR:16:49:22",
+        "K:PBDHVAN JNL/WNAGUVAN JNL");
+
+    qbGrfg("G34",
+        "(PNQ Nyreg) 82NFG Pnyy ng:14914 Yrfyrl Ya          Ybp:                         Pvgl:19968 Ceboyrz:Purfg Cnva-NYF                Vap#:2015-000856 Yng:38756387Ybat:75235097QVFC:15:25:06Pebff Fg:IVAPRAG IVYYNTR QE/Qrnq Raq",
+        "FEP:82NFG",
+        "NQQE:14914 Yrfyrl Ya",
+        "PVGL:ZVYGBA",
+        "PNYY:Purfg Cnva-NYF",
+        "VQ:2015-000856",
+        "TCF:+38.756387,-75.235097",
+        "GVZR:15:25:06",
+        "K:IVAPRAG IVYYNTR QE/Qrnq Raq");
+
+    qbGrfg("G35",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:18443 Pbnfgny Ujl        Ybp:OBHYRINEQ NHGB FNYRF VAP Pvgl:19971 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-000848 Yng:38739353Ybat:75145045QVFC:14:15:45Pebff Fg:WVSSL JNL/ZRYFBA EQ",
+        "FEP:82NF1",
+        "NQQE:18443 Pbnfgny Ujl",
+        "CYNPR:OBHYRINEQ NHGB FNYRF VAP",
+        "PVGL:ERUBOBGU ORNPU",
+        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
+        "VQ:2015-000848",
+        "TCF:+38.739353,-75.145045",
+        "GVZR:14:15:45",
+        "K:WVSSL JNL/ZRYFBA EQ");
+
+    qbGrfg("G36",
+        "(PNQ Nyreg) 82NFG Pnyy ng:17028 Pnqohel Pve        Ybp:Pnqohel ng Yrjrf ONPX RAGPvgl:19958 Ceboyrz:Vagresnpvyvg Riny/Genafsre-OYFVap#:2015-000845 Yng:38754887Ybat:75140095QVFC:13:27:03Pebff Fg:Qrnq Raq/Qrnq Raq",
+        "FEP:82NFG",
+        "NQQE:17028 Pnqohel Pve",
+        "CYNPR:Pnqohel ng Yrjrf ONPX RAG",
+        "PVGL:YRJRF",
+        "PNYY:Vagresnpvyvg Riny/Genafsre-OYF",
+        "VQ:2015-000845",
+        "TCF:+38.754887,-75.140095",
+        "GVZR:13:27:03",
+        "K:Qrnq Raq/Qrnq Raq");
+
+    qbGrfg("G37",
+        "(PNQ Nyreg) 82NF3 Pnyy ng:17370 Pbnfgny Ujl        Ybp:Pbnfgny Ujl              Pvgl:19958 Ceboyrz:Genhzngvp Vawhevrf-OYF        Vap#:2015-000841 Yng:38748839Ybat:75178380QVFC:12:39:00Pebff Fg:PBAARPGVAT EBNQ/PBAARPGVAT EQ",
+        "FEP:82NF3",
+        "NQQE:17370 Pbnfgny Ujl",
+        "CYNPR:Pbnfgny Ujl",
+        "PVGL:YRJRF",
+        "PNYY:Genhzngvp Vawhevrf-OYF",
+        "VQ:2015-000841",
+        "TCF:+38.748839,-75.178380",
+        "GVZR:12:39:00",
+        "K:PBAARPGVAT EBNQ/PBAARPGVAT EQ");
+
+    qbGrfg("G38",
+        "(PNQ Nyreg) 821   Pnyy ng:19500-19899 Abejbbq Fg   Ybp:                         Pvgl:19971 Ceboyrz:Ubhfr Sver                    Vap#:2015-000817 Yng:38717333Ybat:75099290QVFC:04:15:28Pebff Fg:QHAONE FG/OHEGBA NIR",
+        "FEP:821",
+        "NQQE:19500-19899 Abejbbq Fg",
+        "ZNQQE:19500 Abejbbq Fg",
+        "PVGL:ERUBOBGU ORNPU",
+        "PNYY:Ubhfr Sver",
+        "VQ:2015-000817",
+        "TCF:+38.717333,-75.099290",
+        "GVZR:04:15:28",
+        "K:QHAONE FG/OHEGBA NIR");
+
+    qbGrfg("G39",
+        "(PNQ Nyreg) 82FG  Pnyy ng:19500-19899 Abejbbq Fg   Ybp:                         Pvgl:19971 Ceboyrz:Ubhfr Sver                    Vap#:2015-000817 Yng:38717333Ybat:75099290QVFC:04:15:28Pebff Fg:QHAONE FG/OHEGBA NIR",
+        "FEP:82FG",
+        "NQQE:19500-19899 Abejbbq Fg",
+        "ZNQQE:19500 Abejbbq Fg",
+        "PVGL:ERUBOBGU ORNPU",
+        "PNYY:Ubhfr Sver",
+        "VQ:2015-000817",
+        "TCF:+38.717333,-75.099290",
+        "GVZR:04:15:28",
+        "K:QHAONE FG/OHEGBA NIR");
+
+    qbGrfg("G40",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:16654 Wbua Ebjynaq Gey   Ybp:havg 905                 Pvgl:19968 Ceboyrz:Qvnorgvp Ceboyrzf-NYF         Vap#:2015-000814 Yng:38765091Ybat:75215132QVFC:01:01:53Pebff Fg:ZNEL ZVGPURYY PEFT/FUNEBA FYNGRE CNFF",
+        "FEP:82NF1",
+        "NQQE:16654 Wbua Ebjynaq Gey",
+        "CYNPR:havg 905",
+        "PVGL:ZVYGBA",
+        "PNYY:Qvnorgvp Ceboyrzf-NYF",
+        "VQ:2015-000814",
+        "TCF:+38.765091,-75.215132",
+        "GVZR:01:01:53",
+        "K:ZNEL ZVGPURYY PEFT/FUNEBA FYNGRE CNFF");
+
+    qbGrfg("G41",
+        "(PNQ Nyreg) 82P   Pnyy ng:4 Qryzne Nir             Ybp:                         Pvgl:19958 Ceboyrz:Pneoba Zbabkvqr Qrgrpgbe      Vap#:2015-000808 Yng:38781682Ybat:75139387QVFC:23:21:50Pebff Fg:PRQNE FG/Qrnq Raq",
+        "FEP:82P",
+        "NQQE:4 Qryzne Nir",
+        "PVGL:YRJRF",
+        "PNYY:Pneoba Zbabkvqr Qrgrpgbe",
+        "VQ:2015-000808",
+        "TCF:+38.781682,-75.139387",
+        "GVZR:23:21:50",
+        "K:PRQNE FG/Qrnq Raq");
+
+    qbGrfg("G42",
+        "(PNQ Nyreg) 82N   Pnyy ng:16113 Tvyyf Arpx Eq      Ybp:                         Pvgl:19958 Ceboyrz:Puvzarl Sver                  Vap#:2015-000802 Yng:38765748Ybat:75129141QVFC:22:15:26Pebff Fg:GURBQBER P SERRZNA UJL/OYNPX ZNEYVA QE",
+        "FEP:82N",
+        "NQQE:16113 Tvyyf Arpx Eq",
+        "PVGL:YRJRF",
+        "PNYY:Puvzarl Sver",
+        "VQ:2015-000802",
+        "TCF:+38.765748,-75.129141",
+        "GVZR:22:15:26",
+        "K:GURBQBER P SERRZNA UJL/OYNPX ZNEYVA QE");
+
+    qbGrfg("G43",
+        "(PNQ Nyreg) 82P   Pnyy ng:34634 Onl Pebffvat Oyiq  Ybp:                         Pvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-000779 Yng:38740950Ybat:75146915QVFC:16:22:03Pebff Fg:PBNFGNY UJL/IVYYN PVE",
+        "FEP:82P",
+        "NQQE:34634 Onl Pebffvat Oyiq",
+        "PVGL:YRJRF",
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "VQ:2015-000779",
+        "TCF:+38.740950,-75.146915",
+        "GVZR:16:22:03",
+        "K:PBNFGNY UJL/IVYYN PVE");
+
+    qbGrfg("G44",
+        "(PNQ Nyreg) 82P   Pnyy ng:30777 Zbyyl O Eq         Ybp:                         Pvgl:19958 Ceboyrz:Nccyvnapr Sver                Vap#:2015-000767 Yng:38749362Ybat:75212991QVFC:15:38:11Pebff Fg:ZVYYF EVQTR EQ/ZVABF PBANJNL EQ",
+        "FEP:82P",
+        "NQQE:30777 Zbyyl O Eq",
+        "PVGL:YRJRF",
+        "PNYY:Nccyvnapr Sver",
+        "VQ:2015-000767",
+        "TCF:+38.749362,-75.212991",
+        "GVZR:15:38:11",
+        "K:ZVYYF EVQTR EQ/ZVABF PBANJNL EQ");
+
+    qbGrfg("G45",
+        "(PNQ Nyreg) 82N   Pnyy ng:5 INFFNE QE              Ybp:                         Pvgl:19971 Ceboyrz:Nynez Pbzcnal                 Vap#:2015-000764 Yng:38729929Ybat:75138855QVFC:15:29:51Pebff Fg:OELA ZNJE QE/PBYTNGR QE",
+        "FEP:82N",
+        "NQQE:5 INFFNE QE",
+        "PVGL:ERUBOBGU ORNPU",
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2015-000764",
+        "TCF:+38.729929,-75.138855",
+        "GVZR:15:29:51",
+        "K:OELA ZNJE QE/PBYTNGR QE");
+
+    qbGrfg("G46",
+        "(PNQ Nyreg) 82N   Pnyy ng:28410 Qrynjner Nir       Ybp:                         Pvgl:19966 Ceboyrz:Ubhfr Sver                    Vap#:2015-000746 Yng:38598677Ybat:75172604QVFC:12:07:25Pebff Fg:ONFVA EQ/ZREPRE NIR",
+        "FEP:82N",
+        "NQQE:28410 Qrynjner Nir",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Ubhfr Sver",
+        "VQ:2015-000746",
+        "TCF:+38.598677,-75.172604",
+        "GVZR:12:07:25",
+        "K:ONFVA EQ/ZREPRE NIR");
+
+    qbGrfg("G47",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:1142 Fninaanu Eq         Ybp:Fninaanu Eq ncg 304      Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2015-000729 Yng:38762269Ybat:75151906QVFC:09:41:17Pebff Fg:A NGYNAGVP QE/IVXVATF JNL",
+        "FEP:82NF1",
+        "NQQE:1142 Fninaanu Eq",
+        "CYNPR:Fninaanu Eq ncg 304",
+        "PVGL:YRJRF",
+        "PNYY:Oernguvat Ceboyrzf-NYF",
+        "VQ:2015-000729",
+        "TCF:+38.762269,-75.151906",
+        "GVZR:09:41:17",
+        "K:A NGYNAGVP QE/IVXVATF JNL");
+
+    qbGrfg("G48",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:1142 Fninaanu Eq         Ybp:ncg 107                  Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000728 Yng:38762269Ybat:75151906QVFC:09:17:14Pebff Fg:A NGYNAGVP QE/IVXVATF JNL",
+        "FEP:82NF1",
+        "NQQE:1142 Fninaanu Eq",
+        "CYNPR:ncg 107",
+        "PVGL:YRJRF",
+        "PNYY:Snyyf-OYF",
+        "VQ:2015-000728",
+        "TCF:+38.762269,-75.151906",
+        "GVZR:09:17:14",
+        "K:A NGYNAGVP QE/IVXVATF JNL");
+
+    qbGrfg("G49",
+        "(PNQ Nyreg) 821   Pnyy ng:14227 VFNNPF EQ          Ybp:                         Pvgl:19941 Ceboyrz:Fgehpgher Sver                Vap#:2015-000720 Yng:38788383Ybat:75340779QVFC:06:43:27Pebff Fg:ERLABYQF CBAQ EQ/ZVYGBA RYYRAQNYR UJL",
+        "FEP:821",
+        "NQQE:14227 VFNNPF EQ",
+        "PVGL:RYYRAQNYR",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2015-000720",
+        "TCF:+38.788383,-75.340779",
+        "GVZR:06:43:27",
+        "K:ERLABYQF CBAQ EQ/ZVYGBA RYYRAQNYR UJL");
+
+    qbGrfg("G50",
+        "(PNQ Nyreg) 82FG  Pnyy ng:14227 VFNNPF EQ          Ybp:                         Pvgl:19941 Ceboyrz:Fgehpgher Sver                Vap#:2015-000720 Yng:38788383Ybat:75340779QVFC:06:43:27Pebff Fg:ERLABYQF CBAQ EQ/ZVYGBA RYYRAQNYR UJL",
+        "FEP:82FG",
+        "NQQE:14227 VFNNPF EQ",
+        "PVGL:RYYRAQNYR",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2015-000720",
+        "TCF:+38.788383,-75.340779",
+        "GVZR:06:43:27",
+        "K:ERLABYQF CBAQ EQ/ZVYGBA RYYRAQNYR UJL");
+
+    qbGrfg("G51",
+        "(PNQ Nyreg) 82P   Pnyy ng:121 Sebag Fg             Ybp:                         Pvgl:19958 Ceboyrz:Nynez Pbzcnal                 Vap#:2015-000718 Yng:38775947Ybat:75139207QVFC:06:00:08Pebff Fg:ONAX FG/ZNEXRG FG",
+        "FEP:82P",
+        "NQQE:121 Sebag Fg",
+        "PVGL:YRJRF",
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2015-000718",
+        "TCF:+38.775947,-75.139207",
+        "GVZR:06:00:08",
+        "K:ONAX FG/ZNEXRG FG");
+
+    qbGrfg("G52",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:34232 Jbbqf Rqtr Qe      Ybp:Ncg. 306                 Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-000670 Yng:38747267Ybat:75155419QVFC:15:29:58Pebff Fg:FNINAANU RNFG QE/FNINAANU RNFG QE",
+        "FEP:82NF1",
+        "NQQE:34232 Jbbqf Rqtr Qe",
+        "CYNPR:Ncg. 306",
         "PVGL:YRJRF",
         "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
-        "VQ:2014-023079",
-        "TCF:+38.745084,-75.153617",
-        "GVZR:16:48:41");
+        "VQ:2015-000670",
+        "TCF:+38.747267,-75.155419",
+        "GVZR:15:29:58",
+        "K:FNINAANU RNFG QE/FNINAANU RNFG QE");
 
-    qbGrfg("G67",
-        "(PNQ Nyreg) 82NF1  Pnyy ng: 301 Bprna Ivrj Oyiq      Ybp: Uneobe Urnygu Pner       Pvgl:19958  Ceboyrz:  Vagresnpvyyvgl/Cnyyvngvir-OYF   Vap#: 2014-023074    Yng: 38773939    Ybat: 75154864   QVFC: 16:15:28   Pebff Fg: PNANEL QE/SYNZVATB PG",
+    qbGrfg("G53",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:224 Ynxrfvqr Qe          Ybp:                         Pvgl:19958 Ceboyrz:Freivpr Pnyy-NZO              Vap#:2015-000644 Yng:38738862Ybat:75160387QVFC:12:21:29Pebff Fg:FHFFRK PG/QBTJBBQ NIR",
         "FEP:82NF1",
+        "NQQE:224 Ynxrfvqr Qe",
+        "PVGL:YRJRF",
+        "PNYY:Freivpr Pnyy-NZO",
+        "VQ:2015-000644",
+        "TCF:+38.738862,-75.160387",
+        "GVZR:12:21:29",
+        "K:FHFFRK PG/QBTJBBQ NIR");
+
+    qbGrfg("G54",
+        "(PNQ Nyreg) 82O   Pnyy ng:30887 Fnaql Evqtr Qe     Ybp:                         Pvgl:19958 Ceboyrz:Nynez Pbzcnal                 Vap#:2015-000625 Yng:38701057Ybat:75211513QVFC:09:12:44Pebff Fg:BNX PERFG QE/XABYY PG",
+        "FEP:82O",
+        "NQQE:30887 Fnaql Evqtr Qe",
+        "PVGL:YRJRF",
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2015-000625",
+        "TCF:+38.701057,-75.211513",
+        "GVZR:09:12:44",
+        "K:BNX PERFG QE/XABYY PG");
+
+    qbGrfg("G55",
+        "(PNQ Nyreg) 82P   Pnyy ng:30887 Fnaql Evqtr Qe     Ybp:                         Pvgl:19958 Ceboyrz:Nynez Pbzcnal                 Vap#:2015-000625 Yng:38701057Ybat:75211513QVFC:09:12:44Pebff Fg:BNX PERFG QE/XABYY PG",
+        "FEP:82P",
+        "NQQE:30887 Fnaql Evqtr Qe",
+        "PVGL:YRJRF",
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2015-000625",
+        "TCF:+38.701057,-75.211513",
+        "GVZR:09:12:44",
+        "K:BNX PERFG QE/XABYY PG");
+
+    qbGrfg("G56",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:124 J Guveq Fg           Ybp:Zvpxrlf Zntvp            Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000565 Yng:38774749Ybat:75140234QVFC:11:49:22Pebff Fg:PURFGAHG FG/ZNEXRG FG",
+        "FEP:82NF1",
+        "NQQE:124 J Guveq Fg",
+        "CYNPR:Zvpxrlf Zntvp",
+        "PVGL:YRJRF",
+        "PNYY:Snyyf-OYF",
+        "VQ:2015-000565",
+        "TCF:+38.774749,-75.140234",
+        "GVZR:11:49:22",
+        "K:PURFGAHG FG/ZNEXRG FG");
+
+    qbGrfg("G57",
+        "(PNQ Nyreg) 82FG  Pnyy ng:31870 Pnearebf Nir       Ybp:                         Pvgl:19958 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2015-000544 Yng:38752216Ybat:75192917QVFC:08:34:56Pebff Fg:EBFRZBHAG YA/PUNOYVF YA",
+        "FEP:82FG",
+        "NQQE:31870 Pnearebf Nir",
+        "PVGL:YRJRF",
+        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
+        "VQ:2015-000544",
+        "TCF:+38.752216,-75.192917",
+        "GVZR:08:34:56",
+        "K:EBFRZBHAG YA/PUNOYVF YA");
+
+    qbGrfg("G58",
+        "(PNQ Nyreg) 82O   Pnyy ng:17275 Xvat Cuvyvc Jnl    Ybp:                         Pvgl:19958 Ceboyrz:Nynez Pbzcnal                 Vap#:2015-000543 Yng:38751293Ybat:75184356QVFC:08:31:48Pebff Fg:DHRRA NAAR JNL/DHRRA NAAR JNL",
+        "FEP:82O",
+        "NQQE:17275 Xvat Cuvyvc Jnl",
+        "PVGL:YRJRF",
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2015-000543",
+        "TCF:+38.751293,-75.184356",
+        "GVZR:08:31:48",
+        "K:DHRRA NAAR JNL/DHRRA NAAR JNL");
+
+    qbGrfg("G59",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:16871 Byr Tevfg Eha      Ybp:                         Pvgl:19968 Ceboyrz:Onpx Cnva (Aba Genhzngvp)-OYF Vap#:2015-000536 Yng:38756066Ybat:75227321QVFC:07:12:50Pebff Fg:WNLF JNL/ENAQBE QE",
+        "FEP:82NF1",
+        "NQQE:16871 Byr Tevfg Eha",
+        "PVGL:ZVYGBA",
+        "PNYY:Onpx Cnva (Aba Genhzngvp)-OYF",
+        "VQ:2015-000536",
+        "TCF:+38.756066,-75.227321",
+        "GVZR:07:12:50",
+        "K:WNLF JNL/ENAQBE QE");
+
+    qbGrfg("G60",
+        "(PNQ Nyreg) 82NFG Pnyy ng:19211 Ornire Qnz Eq      Ybp:                         Pvgl:      Ceboyrz:Genhzngvp Vawhevrf-OYF        Vap#:2015-000422 Yng:0       Ybat:0       QVFC:23:18:30Pebff Fg:",
+        "FEP:82NFG",
+        "NQQE:19211 Ornire Qnz Eq",
+        "PNYY:Genhzngvp Vawhevrf-OYF",
+        "VQ:2015-000422",
+        "TCF:0 0",
+        "GVZR:23:18:30");
+
+    qbGrfg("G61",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:301 Bprna Ivrj Oyiq      Ybp:Uneobe Urnygu Pner       Pvgl:19958 Ceboyrz:Vagresnpvyyvgl/Cnyyvngvir-OYF Vap#:2015-000411 Yng:38773939Ybat:75154864QVFC:20:14:13Pebff Fg:PNANEL QE/SYNZVATB PG",
+        "FEP:82NF2",
         "NQQE:301 Bprna Ivrj Oyiq",
         "CYNPR:Uneobe Urnygu Pner",
         "PVGL:YRJRF",
         "PNYY:Vagresnpvyyvgl/Cnyyvngvir-OYF",
-        "VQ:2014-023074",
+        "VQ:2015-000411",
         "TCF:+38.773939,-75.154864",
-        "GVZR:16:15:28",
+        "GVZR:20:14:13",
         "K:PNANEL QE/SYNZVATB PG");
 
-    qbGrfg("G68",
-        "(PNQ Nyreg) 82NFG  Pnyy ng: 93 Oelna Qe              Ybp:                          Pvgl:19971  Ceboyrz:  Urnqnpur-OYF                    Vap#: 2014-023073    Yng: 38741463    Ybat: 75132069   QVFC: 16:11:29   Pebff Fg: FNOEVAN QE/GVSSNAL QE",
-        "FEP:82NFG",
-        "NQQE:93 Oelna Qe",
-        "PVGL:ERUBOBGU ORNPU",
-        "PNYY:Urnqnpur-OYF",
-        "VQ:2014-023073",
-        "TCF:+38.741463,-75.132069",
-        "GVZR:16:11:29",
-        "K:FNOEVAN QE/GVSSNAL QE");
-
-    qbGrfg("G69",
-        "(PNQ Nyreg) 82NF2  Pnyy ng: 36 Oelna Qe              Ybp:                          Pvgl:19971  Ceboyrz:  Zrqvpny Nyreg                   Vap#: 2014-023042    Yng: 38738722    Ybat: 75136706   QVFC: 09:42:56   Pebff Fg: FNOEVAN QE/GVSSNAL QE",
+    qbGrfg("G62",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:30757 Pbayrlf Puncry Eq  Ybp:                         Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-000405 Yng:38687504Ybat:75213181QVFC:18:01:05Pebff Fg:GHPXRL TEBIR/ZRNEF EQ",
         "FEP:82NF2",
-        "NQQE:36 Oelna Qe",
-        "PVGL:ERUBOBGU ORNPU",
-        "PNYY:Zrqvpny Nyreg",
-        "VQ:2014-023042",
-        "TCF:+38.738722,-75.136706",
-        "GVZR:09:42:56",
-        "K:FNOEVAN QE/GVSSNAL QE");
-
-    qbGrfg("G70",
-        "(PNQ Nyreg) 82NF2  Pnyy ng: 32922 Prqne Tebir Eq     Ybp:                          Pvgl:19958  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-023033    Yng: 38719619    Ybat: 75171417   QVFC: 04:46:23   Pebff Fg: UNEZBAL EQ/JNEQ EQ",
-        "FEP:82NF2",
-        "NQQE:32922 Prqne Tebir Eq",
+        "NQQE:30757 Pbayrlf Puncry Eq",
         "PVGL:YRJRF",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-023033",
-        "TCF:+38.719619,-75.171417",
-        "GVZR:04:46:23",
-        "K:UNEZBAL EQ/JNEQ EQ");
+        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
+        "VQ:2015-000405",
+        "TCF:+38.687504,-75.213181",
+        "GVZR:18:01:05",
+        "K:GHPXRL TEBIR/ZRNEF EQ");
 
-    qbGrfg("G71",
-        "(PNQ Nyreg) 82N    Pnyy ng: 32922 Prqne Tebir Eq     Ybp:                          Pvgl:19958  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-023033    Yng: 38719619    Ybat: 75171417   QVFC: 04:46:23   Pebff Fg: UNEZBAL EQ/JNEQ EQ",
-        "FEP:82N",
-        "NQQE:32922 Prqne Tebir Eq",
-        "PVGL:YRJRF",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-023033",
-        "TCF:+38.719619,-75.171417",
-        "GVZR:04:46:23",
-        "K:UNEZBAL EQ/JNEQ EQ");
-
-    qbGrfg("G72",
-        "(PNQ Nyreg) 82NF3  Pnyy ng: 1142 Fninaanu Eq         Ybp: Ncg. 107                 Pvgl:19958  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-023031    Yng: 38764084    Ybat: 75149989   QVFC: 04:12:06   Pebff Fg: HAXABJA/QBABINAF EQ",
-        "FEP:82NF3",
-        "NQQE:1142 Fninaanu Eq",
-        "CYNPR:Ncg. 107",
-        "PVGL:YRJRF",
-        "PNYY:Snyyf-OYF",
-        "VQ:2014-023031",
-        "TCF:+38.764084,-75.149989",
-        "GVZR:04:12:06",
-        "K:HAXABJA/QBABINAF EQ");
-
-    qbGrfg("G73",
-        "(PNQ Nyreg) 82NFG  Pnyy ng: 305 Fnyvfohel Fg         Ybp:                          Pvgl:19971  Ceboyrz:  Oernguvat Ceboyrzf-NYF          Vap#: 2014-022999    Yng: 38695123    Ybat: 75080447   QVFC: 17:20:14   Pebff Fg: QBQQ NIR/QENCRE QE",
-        "FEP:82NFG",
-        "NQQE:305 Fnyvfohel Fg",
-        "PVGL:ERUBOBGU ORNPU",
-        "PNYY:Oernguvat Ceboyrzf-NYF",
-        "VQ:2014-022999",
-        "TCF:+38.695123,-75.080447",
-        "GVZR:17:20:14",
-        "K:QBQQ NIR/QENCRE QE");
-
-    qbGrfg("G74",
-        "(PNQ Nyreg) 82NFG  Pnyy ng: 1 - 30 Byvir Nir         Ybp: naq obnqjnyx/ Nzob 82    Pvgl:19971  Ceboyrz:  Genhzngvp Vawhevrf-OYF          Vap#: 2014-022980    Yng: 38719250    Ybat: 75076473   QVFC: 13:11:16   Pebff Fg: A OBNEQJNYX/SVEFG FG",
-        "FEP:82NFG",
-        "NQQE:1 - 30 Byvir Nir",
-        "ZNQQE:1 Byvir Nir",
-        "CYNPR:naq obnqjnyx/ Nzob 82",
-        "PVGL:ERUBOBGU ORNPU",
-        "PNYY:Genhzngvp Vawhevrf-OYF",
-        "VQ:2014-022980",
-        "TCF:+38.719250,-75.076473",
-        "GVZR:13:11:16",
-        "K:A OBNEQJNYX/SVEFG FG");
-
-    qbGrfg("G75",
-        "(PNQ Nyreg) 82NFG  Pnyy ng: 0 Pncr Uraybcra Fgngr CneYbp: ovxr cngu pbhagre pybpxjvPvgl:19958  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-022970    Yng: 38775299    Ybat: 75098838   QVFC: 11:54:24   Pebff Fg: HAXABJA/HAXABJA",
-        "FEP:82NFG",
-        "NQQE:Pncr Uraybcra Fgngr Cne",
-        "ZNQQE:Pncr Uraybcra Fgngr Cne & HAXABJA",
-        "CYNPR:ovxr cngu pbhagre pybpxjv",
-        "PVGL:YRJRF",
-        "PNYY:Snyyf-OYF",
-        "VQ:2014-022970",
-        "TCF:+38.775299,-75.098838",
-        "GVZR:11:54:24",
-        "K:HAXABJA/HAXABJA");
-
-    qbGrfg("G76",
-        "(PNQ Nyreg) 82FG   Pnyy ng: 37772 Pncr Urybcra Qe    Ybp: Pncr Uraybcra Fgngr Cnex Pvgl:19958  Ceboyrz:  Nffvfg                          Vap#: 2014-022964    Yng: 38782042    Ybat: 75104199   QVFC: 09:39:51   Pebff Fg: R PNCR FUBERF QE/CBFG EQ",
-        "FEP:82FG",
-        "NQQE:37772 Pncr Urybcra Qe",
-        "CYNPR:Pncr Uraybcra Fgngr Cnex",
-        "PVGL:YRJRF",
-        "PNYY:Nffvfg",
-        "VQ:2014-022964",
-        "TCF:+38.782042,-75.104199",
-        "GVZR:09:39:51",
-        "K:R PNCR FUBERF QE/CBFG EQ");
-
-    qbGrfg("G77",
-        "(PNQ Nyreg) 82NF1  Pnyy ng: 1137 Fninaanu Eq         Ybp: Fninaanu Eq              Pvgl:19958  Ceboyrz:  Hapbafpvbhf/Snvagvat(Arne)-NYF  Vap#: 2014-022955    Yng: 38765439    Ybat: 75148555   QVFC: 08:13:29   Pebff Fg: QENXR XABYY/HAXABJA",
+    qbGrfg("G63",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:16947 Oynpx Zneyva Pve   Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000399 Yng:38757593Ybat:75121424QVFC:16:52:09Pebff Fg:Qrnq Raq/Qrnq Raq",
         "FEP:82NF1",
-        "NQQE:1137 Fninaanu Eq",
-        "CYNPR:Fninaanu Eq",
+        "NQQE:16947 Oynpx Zneyva Pve",
         "PVGL:YRJRF",
-        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
-        "VQ:2014-022955",
-        "TCF:+38.765439,-75.148555",
-        "GVZR:08:13:29",
-        "K:QENXR XABYY/HAXABJA");
-
-    qbGrfg("G78",
-        "(PNQ Nyreg) 82NFG  Pnyy ng: 17028 Pnqohel Pve        Ybp: Pnqohel ng Yrjrf (Znva RaPvgl:19958  Ceboyrz:  Vagresnpvyvg Riny/Genafsre-NYF  Vap#: 2014-022950    Yng: 38754887    Ybat: 75140095   QVFC: 07:07:14   Pebff Fg: Qrnq Raq/Qrnq Raq",
-        "FEP:82NFG",
-        "NQQE:17028 Pnqohel Pve",
-        "CYNPR:Pnqohel ng Yrjrf (Znva Ra",
-        "PVGL:YRJRF",
-        "PNYY:Vagresnpvyvg Riny/Genafsre-NYF",
-        "VQ:2014-022950",
-        "TCF:+38.754887,-75.140095",
-        "GVZR:07:07:14",
+        "PNYY:Snyyf-OYF",
+        "VQ:2015-000399",
+        "TCF:+38.757593,-75.121424",
+        "GVZR:16:52:09",
         "K:Qrnq Raq/Qrnq Raq");
 
-    qbGrfg("G79",
-        "(PNQ Nyreg) 82NF2  Pnyy ng: 31024 Zrnqbj Qe          Ybp:                          Pvgl:19958  Ceboyrz:  Zrqvpny Nyreg                   Vap#: 2014-022948    Yng: 38700795    Ybat: 75210385   QVFC: 05:23:13   Pebff Fg: FNAQL EVQTR QE/BNX PERFG QE",
+    qbGrfg("G64",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:33171 J Purfncrnxr Fg    Ybp:                         Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-000398 Yng:38750948Ybat:75172947QVFC:16:51:21Pebff Fg:QBEFRL FG/SNLRGGR FG",
         "FEP:82NF2",
-        "NQQE:31024 Zrnqbj Qe",
+        "NQQE:33171 J Purfncrnxr Fg",
         "PVGL:YRJRF",
-        "PNYY:Zrqvpny Nyreg",
-        "VQ:2014-022948",
-        "TCF:+38.700795,-75.210385",
-        "GVZR:05:23:13",
-        "K:FNAQL EVQTR QE/BNX PERFG QE");
+        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
+        "VQ:2015-000398",
+        "TCF:+38.750948,-75.172947",
+        "GVZR:16:51:21",
+        "K:QBEFRL FG/SNLRGGR FG");
 
-    qbGrfg("G80",
-        "(PNQ Nyreg) 82NF1  Pnyy ng: 301 Bprna Ivrj Oyiq      Ybp: Uneobe Urnygu fhffrk 251 Pvgl:19958  Ceboyrz:  Vagresnpvyyvgl/Cnyyvngvir-OYF   Vap#: 2014-022939    Yng: 38773939    Ybat: 75154864   QVFC: 01:09:38   Pebff Fg: PNANEL QE/SYNZVATB PG",
+    qbGrfg("G65",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:3209 Fninaanu Rnfg Qe    Ybp:                         Pvgl:19958 Ceboyrz:Pneqvnp/ Erfc./Qrngu- OYF     Vap#:2015-000393 Yng:38746942Ybat:75153552QVFC:15:46:58Pebff Fg:XVATF UJL/JBBQF RQTR QE",
         "FEP:82NF1",
-        "NQQE:301 Bprna Ivrj Oyiq",
-        "CYNPR:Uneobe Urnygu fhffrk 251",
+        "NQQE:3209 Fninaanu Rnfg Qe",
         "PVGL:YRJRF",
-        "PNYY:Vagresnpvyyvgl/Cnyyvngvir-OYF",
-        "VQ:2014-022939",
-        "TCF:+38.773939,-75.154864",
-        "GVZR:01:09:38",
-        "K:PNANEL QE/SYNZVATB PG");
+        "PNYY:Pneqvnp/ Erfc./Qrngu- OYF",
+        "VQ:2015-000393",
+        "TCF:+38.746942,-75.153552",
+        "GVZR:15:46:58",
+        "K:XVATF UJL/JBBQF RQTR QE");
 
-    qbGrfg("G81",
-        "(PNQ Nyreg) 82N    Pnyy ng: Cynagngvbaf Eq & Cbfgny YYbp:                          Pvgl:19958  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-022927    Yng: 38732931    Ybat: 75153973   QVFC: 22:05:02   Pebff Fg:",
-        "FEP:82N",
-        "NQQE:Cynagngvbaf Eq & Cbfgny Y",
-        "PVGL:YRJRF",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-022927",
-        "TCF:+38.732931,-75.153973",
-        "GVZR:22:05:02");
-
-    qbGrfg("G82",
-        "(PNQ Nyreg) 82NF3  Pnyy ng: Cynagngvbaf Eq & Cbfgny YYbp:                          Pvgl:19958  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-022927    Yng: 38732931    Ybat: 75153973   QVFC: 22:05:02   Pebff Fg:",
-        "FEP:82NF3",
-        "NQQE:Cynagngvbaf Eq & Cbfgny Y",
-        "PVGL:YRJRF",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-022927",
-        "TCF:+38.732931,-75.153973",
-        "GVZR:22:05:02");
-
-    qbGrfg("G83",
-        "(PNQ Nyreg) 82NF3  Pnyy ng: 12 Ynapnfgre Ya          Ybp:                          Pvgl:19958  Ceboyrz:  Hapbafpvbhf/Snvagvat(Arne)-NYF  Vap#: 2014-022916    Yng: 38741587    Ybat: 75159262   QVFC: 20:09:28   Pebff Fg: PURFGRESVRYQ QE/QRIBA PG",
-        "FEP:82NF3",
-        "NQQE:12 Ynapnfgre Ya",
-        "PVGL:YRJRF",
-        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
-        "VQ:2014-022916",
-        "TCF:+38.741587,-75.159262",
-        "GVZR:20:09:28",
-        "K:PURFGRESVRYQ QE/QRIBA PG");
-
-    qbGrfg("G84",
-        "(PNQ Nyreg) 82NF3  Pnyy ng: 17192 Cvar Jngre Qe      Ybp:                          Pvgl:19958  Ceboyrz:  Freivpr Pnyy-NZO                Vap#: 2014-022915    Yng: 38751567    Ybat: 75225680   QVFC: 19:40:01   Pebff Fg: UBYYL YA/JNGRE IVRJ QE",
-        "FEP:82NF3",
-        "NQQE:17192 Cvar Jngre Qe",
-        "PVGL:YRJRF",
-        "PNYY:Freivpr Pnyy-NZO",
-        "VQ:2014-022915",
-        "TCF:+38.751567,-75.225680",
-        "GVZR:19:40:01",
-        "K:UBYYL YA/JNGRE IVRJ QE");
-
-    qbGrfg("G85",
-        "(PNQ Nyreg) 82NF3  Pnyy ng: 31695 Orrpu Cyhz Pg      Ybp:                          Pvgl:19958  Ceboyrz:  Qvnorgvp Ceboyrzf-NYF           Vap#: 2014-022911    Yng: 38744703    Ybat: 75197953   QVFC: 19:00:08   Pebff Fg: ZNEL NAA QE/Qrnq Raq",
-        "FEP:82NF3",
-        "NQQE:31695 Orrpu Cyhz Pg",
-        "PVGL:YRJRF",
-        "PNYY:Qvnorgvp Ceboyrzf-NYF",
-        "VQ:2014-022911",
-        "TCF:+38.744703,-75.197953",
-        "GVZR:19:00:08",
-        "K:ZNEL NAA QE/Qrnq Raq");
-
-    qbGrfg("G86",
-        "(PNQ Nyreg) 82NF1  Pnyy ng: 342 Cvybggbja Eq         Ybp:                          Pvgl:19958  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-022906    Yng: 38778303    Ybat: 75145123   QVFC: 17:03:06   Pebff Fg: DHRRA NAAR NIR/BPRNA IVRJ OYIQ",
-        "FEP:82NF1",
-        "NQQE:342 Cvybggbja Eq",
+    qbGrfg("G66",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:17672 Znel Naa Qe        Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000360 Yng:38744179Ybat:75197025QVFC:08:58:30Pebff Fg:FLPNZBER PG/ERARR EQ",
+        "FEP:82NF2",
+        "NQQE:17672 Znel Naa Qe",
         "PVGL:YRJRF",
         "PNYY:Snyyf-OYF",
-        "VQ:2014-022906",
-        "TCF:+38.778303,-75.145123",
-        "GVZR:17:03:06",
-        "K:DHRRA NAAR NIR/BPRNA IVRJ OYIQ");
+        "VQ:2015-000360",
+        "TCF:+38.744179,-75.197025",
+        "GVZR:08:58:30",
+        "K:FLPNZBER PG/ERARR EQ");
 
-    qbGrfg("G87",
-        "(PNQ Nyreg) 82NF1  Pnyy ng: 0 Pncr Uraybcra Fgngr CneYbp: bhg ol gur yvtugubhfr    Pvgl:19958  Ceboyrz:  Jngre Erfphr Cevbevgl 2         Vap#: 2014-022900    Yng: 38785451    Ybat: 75095408   QVFC: 16:30:34   Pebff Fg: PUNCRY YA/PUNCRY YA",
+    qbGrfg("G67",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:17265 Zvabf Pbanjnl Eq   Ybp:Zvabf Pbanjnl Eq         Pvgl:19958 Ceboyrz:Pneqvnp/ Erfc./Qrngu- OYF     Vap#:2015-000350 Yng:38751117Ybat:75203623QVFC:05:43:28Pebff Fg:ZNQVFBA QE/PBANJNL QE",
+        "FEP:82NF2",
+        "NQQE:17265 Zvabf Pbanjnl Eq",
+        "CYNPR:Zvabf Pbanjnl Eq",
+        "PVGL:YRJRF",
+        "PNYY:Pneqvnp/ Erfc./Qrngu- OYF",
+        "VQ:2015-000350",
+        "TCF:+38.751117,-75.203623",
+        "GVZR:05:43:28",
+        "K:ZNQVFBA QE/PBANJNL QE");
+
+    qbGrfg("G68",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:18 Fhes Nir              Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000344 Yng:38759111Ybat:75141103QVFC:02:05:43Pebff Fg:WRGGL CY/Qrnq Raq",
         "FEP:82NF1",
-        "NQQE:Pncr Uraybcra Fgngr Cne",
-        "ZNQQE:Pncr Uraybcra Fgngr Cne & PUNCRY YA",
-        "CYNPR:bhg ol gur yvtugubhfr",
+        "NQQE:18 Fhes Nir",
         "PVGL:YRJRF",
-        "PNYY:Jngre Erfphr Cevbevgl 2",
-        "VQ:2014-022900",
-        "TCF:+38.785451,-75.095408",
-        "GVZR:16:30:34",
-        "K:PUNCRY YA/PUNCRY YA");
+        "PNYY:Snyyf-OYF",
+        "VQ:2015-000344",
+        "TCF:+38.759111,-75.141103",
+        "GVZR:02:05:43",
+        "K:WRGGL CY/Qrnq Raq");
 
-    qbGrfg("G88",
-        "(PNQ Nyreg) 82P    Pnyy ng: 0 Pncr Uraybcra Fgngr CneYbp: bhg ol gur yvtugubhfr    Pvgl:19958  Ceboyrz:  Jngre Erfphr Cevbevgl 2         Vap#: 2014-022900    Yng: 38785451    Ybat: 75095408   QVFC: 16:30:34   Pebff Fg: PUNCRY YA/PUNCRY YA",
-        "FEP:82P",
-        "NQQE:Pncr Uraybcra Fgngr Cne",
-        "ZNQQE:Pncr Uraybcra Fgngr Cne & PUNCRY YA",
-        "CYNPR:bhg ol gur yvtugubhfr",
+    qbGrfg("G69",
+        "(PNQ Nyreg) 82N   Pnyy ng:1250 Xvatf Ujl           Ybp:pncr uraybcra uvtu fpubbyPvgl:19958 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-000322 Yng:38756653Ybat:75147804QVFC:17:01:56Pebff Fg:F NGYNAGVP QE/TVYYF ARPX EQ",
+        "FEP:82N",
+        "NQQE:1250 Xvatf Ujl",
+        "CYNPR:pncr uraybcra uvtu fpubby",
         "PVGL:YRJRF",
-        "PNYY:Jngre Erfphr Cevbevgl 2",
-        "VQ:2014-022900",
-        "TCF:+38.785451,-75.095408",
-        "GVZR:16:30:34",
-        "K:PUNCRY YA/PUNCRY YA");
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "VQ:2015-000322",
+        "TCF:+38.756653,-75.147804",
+        "GVZR:17:01:56",
+        "K:F NGYNAGVP QE/TVYYF ARPX EQ");
 
-    qbGrfg("G89",
-        "(PNQ Nyreg) 82NF1  Pnyy ng: Yrjrf Trbetrgbja Ujl & EnYbp:                          Pvgl:19958  Ceboyrz:  Haxabja Ceboyrz(Zna Qbja)-NYF   Vap#: 2014-022897    Yng: 38734914    Ybat: 75234011   QVFC: 16:03:29   Pebff Fg:",
+    qbGrfg("G70",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:31211 Rqtrjbbq Qe        Ybp:                         Pvgl:19958 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2015-000277 Yng:38750493Ybat:75205540QVFC:09:26:32Pebff Fg:PBANJNL QE/OHGGBAJBBQ QE",
+        "FEP:82NF2",
+        "NQQE:31211 Rqtrjbbq Qe",
+        "PVGL:YRJRF",
+        "PNYY:Oernguvat Ceboyrzf-NYF",
+        "VQ:2015-000277",
+        "TCF:+38.750493,-75.205540",
+        "GVZR:09:26:32",
+        "K:PBANJNL QE/OHGGBAJBBQ QE");
+
+    qbGrfg("G71",
+        "(PNQ Nyreg) 82NF3 Pnyy ng:15 Qbir Xabyy Qe         Ybp:                         Pvgl:19971 Ceboyrz:Qvnorgvp Ceboyrzf-NYF         Vap#:2015-000267 Yng:38743078Ybat:75138652QVFC:04:51:01Pebff Fg:SNVEZBHAG YA/GHEGYR QBIR QE",
+        "FEP:82NF3",
+        "NQQE:15 Qbir Xabyy Qe",
+        "PVGL:ERUBOBGU ORNPU",
+        "PNYY:Qvnorgvp Ceboyrzf-NYF",
+        "VQ:2015-000267",
+        "TCF:+38.743078,-75.138652",
+        "GVZR:04:51:01",
+        "K:SNVEZBHAG YA/GHEGYR QBIR QE");
+
+    qbGrfg("G72",
+        "(PNQ Nyreg) 82NFG Pnyy ng:825 Xvatf Ujl            Ybp:NCG 804                  Pvgl:      Ceboyrz:Snyyf-OYF                     Vap#:2015-000260 Yng:0       Ybat:0       QVFC:23:58:59Pebff Fg:",
+        "FEP:82NFG",
+        "NQQE:825 Xvatf Ujl",
+        "CYNPR:NCG 804",
+        "PNYY:Snyyf-OYF",
+        "VQ:2015-000260",
+        "TCF:0 0",
+        "GVZR:23:58:59");
+
+    qbGrfg("G73",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:825 Xvatf Ujl            Ybp:ncg 804                  Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000250 Yng:38762612Ybat:75144662QVFC:21:04:18Pebff Fg:ENZC/GURBQBER P SERRZNA UJL",
+        "FEP:82NF2",
+        "NQQE:825 Xvatf Ujl",
+        "CYNPR:ncg 804",
+        "PVGL:YRJRF",
+        "PNYY:Snyyf-OYF",
+        "VQ:2015-000250",
+        "TCF:+38.762612,-75.144662",
+        "GVZR:21:04:18",
+        "K:ENZC/GURBQBER P SERRZNA UJL");
+
+    qbGrfg("G74",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:825 Xvatf Ujl            Ybp:ncg 804                  Pvgl:19958 Ceboyrz:Zrqvpny Nyreg                 Vap#:2015-000250 Yng:38762612Ybat:75144662QVFC:21:04:18Pebff Fg:ENZC/GURBQBER P SERRZNA UJL",
         "FEP:82NF1",
-        "NQQE:Yrjrf Trbetrgbja Ujl & En",
+        "NQQE:825 Xvatf Ujl",
+        "CYNPR:ncg 804",
         "PVGL:YRJRF",
-        "PNYY:Haxabja Ceboyrz(Zna Qbja)-NYF",
-        "VQ:2014-022897",
-        "TCF:+38.734914,-75.234011",
-        "GVZR:16:03:29");
+        "PNYY:Zrqvpny Nyreg",
+        "VQ:2015-000250",
+        "TCF:+38.762612,-75.144662",
+        "GVZR:21:04:18",
+        "K:ENZC/GURBQBER P SERRZNA UJL");
+
+    qbGrfg("G75",
+        "(PNQ Nyreg) 82NFG Pnyy ng:19540 Pbnfgny Ujl        Ybp:Rpbab Ybqtr              Pvgl:19971 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2015-000221 Yng:38719820Ybat:75117466QVFC:12:32:30Pebff Fg:PNZRYBG QE/OYHR OVEQ YA",
+        "FEP:82NFG",
+        "NQQE:19540 Pbnfgny Ujl",
+        "CYNPR:Rpbab Ybqtr",
+        "PVGL:ERUBOBGU ORNPU",
+        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
+        "VQ:2015-000221",
+        "TCF:+38.719820,-75.117466",
+        "GVZR:12:32:30",
+        "K:PNZRYBG QE/OYHR OVEQ YA");
+
+    qbGrfg("G76",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:102 J Jvyq Enoovg Eha    Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000207 Yng:38757155Ybat:75160254QVFC:10:24:38Pebff Fg:CURNFNAG QE/QBIR QE",
+        "FEP:82NF1",
+        "NQQE:102 J Jvyq Enoovg Eha",
+        "PVGL:YRJRF",
+        "PNYY:Snyyf-OYF",
+        "VQ:2015-000207",
+        "TCF:+38.757155,-75.160254",
+        "GVZR:10:24:38",
+        "K:CURNFNAG QE/QBIR QE");
+
+    qbGrfg("G77",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:23 Purfgresvryq Qe       Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000204 Yng:38742551Ybat:75158427QVFC:08:32:09Pebff Fg:YNAPNFGRE YA/BKSBEQ PG",
+        "FEP:82NF2",
+        "NQQE:23 Purfgresvryq Qe",
+        "PVGL:YRJRF",
+        "PNYY:Snyyf-OYF",
+        "VQ:2015-000204",
+        "TCF:+38.742551,-75.158427",
+        "GVZR:08:32:09",
+        "K:YNAPNFGRE YA/BKSBEQ PG");
+
+    qbGrfg("G78",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:103 Znqvfba Qe           Ybp:                         Pvgl:19958 Ceboyrz:Bireqbfr/Cbvfbavat-NYF        Vap#:2015-000179 Yng:38750522Ybat:75201016QVFC:22:41:32Pebff Fg:ZVABF PBANJNL EQ/GBJAR PG",
+        "FEP:82NF2",
+        "NQQE:103 Znqvfba Qe",
+        "PVGL:YRJRF",
+        "PNYY:Bireqbfr/Cbvfbavat-NYF",
+        "VQ:2015-000179",
+        "TCF:+38.750522,-75.201016",
+        "GVZR:22:41:32",
+        "K:ZVABF PBANJNL EQ/GBJAR PG");
+
+    qbGrfg("G79",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:31331 Pbiragel Qe        Ybp:                         Pvgl:19958 Ceboyrz:Snyyf-OYF                     Vap#:2015-000172 Yng:38748149Ybat:75205350QVFC:19:09:42Pebff Fg:ERQ ZVYY PVE/ANFFNH QE",
+        "FEP:82NF2",
+        "NQQE:31331 Pbiragel Qe",
+        "PVGL:YRJRF",
+        "PNYY:Snyyf-OYF",
+        "VQ:2015-000172",
+        "TCF:+38.748149,-75.205350",
+        "GVZR:19:09:42",
+        "K:ERQ ZVYY PVE/ANFFNH QE");
+
+    qbGrfg("G80",
+        "(PNQ Nyreg) 82NF3 Pnyy ng:421 Qhcbag Nir           Ybp:                         Pvgl:19958 Ceboyrz:Freivpr Pnyy-NZO              Vap#:2015-000165 Yng:38774045Ybat:75146296QVFC:16:47:58Pebff Fg:J SBHEGU FG/WBUAFBA FG",
+        "FEP:82NF3",
+        "NQQE:421 Qhcbag Nir",
+        "PVGL:YRJRF",
+        "PNYY:Freivpr Pnyy-NZO",
+        "VQ:2015-000165",
+        "TCF:+38.774045,-75.146296",
+        "GVZR:16:47:58",
+        "K:J SBHEGU FG/WBUAFBA FG");
+
+    qbGrfg("G81",
+        "(PNQ Nyreg) 82NFG Pnyy ng:Svir Cbvagf              Ybp:a/o ynar va sebag bs pernPvgl:      Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2015-000158 Yng:0       Ybat:0       QVFC:16:03:39Pebff Fg:",
+        "FEP:82NFG",
+        "NQQE:Svir Cbvagf",
+        "CYNPR:a/o ynar va sebag bs pern",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
+        "VQ:2015-000158",
+        "TCF:0 0",
+        "GVZR:16:03:39");
+
+    qbGrfg("G82",
+        "(PNQ Nyreg) 82FG  Pnyy ng:Svir Cbvagf              Ybp:                         Pvgl:      Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2015-000158 Yng:0       Ybat:0       QVFC:16:03:39Pebff Fg:",
+        "FEP:82FG",
+        "NQQE:Svir Cbvagf",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
+        "VQ:2015-000158",
+        "TCF:0 0",
+        "GVZR:16:03:39");
+
+    qbGrfg("G83",
+        "(PNQ Nyreg) 82NF3 Pnyy ng:34453 Xvat Fgerrg Ebj    Ybp:QRYNJNER PNEQVBINFPHYNE  Pvgl:19958 Ceboyrz:Purfg Cnva-NYF                Vap#:2015-000148 Yng:38743512Ybat:75149349QVFC:14:20:48Pebff Fg:XVATF UJL/Qrnq Raq",
+        "FEP:82NF3",
+        "NQQE:34453 Xvat Fgerrg Ebj",
+        "CYNPR:QRYNJNER PNEQVBINFPHYNE",
+        "PVGL:YRJRF",
+        "PNYY:Purfg Cnva-NYF",
+        "VQ:2015-000148",
+        "TCF:+38.743512,-75.149349",
+        "GVZR:14:20:48",
+        "K:XVATF UJL/Qrnq Raq");
+
+    qbGrfg("G84",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:17028 Pnqohel Pve        Ybp:Pnqohel / hcfgnverf va zrPvgl:19958 Ceboyrz:Vagresnpvyvg Riny/Genafsre-NYFVap#:2015-000128 Yng:38754887Ybat:75140095QVFC:10:59:36Pebff Fg:Qrnq Raq/Qrnq Raq",
+        "FEP:82NF2",
+        "NQQE:17028 Pnqohel Pve",
+        "CYNPR:Pnqohel / hcfgnverf va zr",
+        "PVGL:YRJRF",
+        "PNYY:Vagresnpvyvg Riny/Genafsre-NYF",
+        "VQ:2015-000128",
+        "TCF:+38.754887,-75.140095",
+        "GVZR:10:59:36",
+        "K:Qrnq Raq/Qrnq Raq");
+
+    qbGrfg("G85",
+        "(PNQ Nyreg) 82NF2 Pnyy ng:221 Zbaebr Nirahr Rkg    Ybp:                         Pvgl:19958 Ceboyrz:Haxabja Ceboyrz(Zna Qbja)-OYF Vap#:2015-000127 Yng:38766376Ybat:75137448QVFC:10:54:48Pebff Fg:GURBQBER P SERRZNA UJL/Qrnq Raq",
+        "FEP:82NF2",
+        "NQQE:221 Zbaebr Nirahr Rkg",
+        "PVGL:YRJRF",
+        "PNYY:Haxabja Ceboyrz(Zna Qbja)-OYF",
+        "VQ:2015-000127",
+        "TCF:+38.766376,-75.137448",
+        "GVZR:10:54:48",
+        "K:GURBQBER P SERRZNA UJL/Qrnq Raq");
+
+    qbGrfg("G86",
+        "(PNQ Nyreg) 82NF1 Pnyy ng:9 Wrssrefba Pg           Ybp:                         Pvgl:19958 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-OYFVap#:2015-000122 Yng:38768859Ybat:75138972QVFC:09:55:02Pebff Fg:WRSSREFBA NIR/Qrnq Raq",
+        "FEP:82NF1",
+        "NQQE:9 Wrssrefba Pg",
+        "PVGL:YRJRF",
+        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
+        "VQ:2015-000122",
+        "TCF:+38.768859,-75.138972",
+        "GVZR:09:55:02",
+        "K:WRSSREFBA NIR/Qrnq Raq");
 
   }
 
@@ -2020,924 +1972,965 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgVaqvnaEvireISP() {
 
     qbGrfg("G1",
-        "(PNQ Nyreg) 80FG  Pnyy ng:39421 Fgneobneq Pg       Ybp:                         Pvgl:19966 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2014-023575 Yng:38626192Ybat:75142584QVFC:15:53:41Pebff Fg:TBBFR CBAQ EQ/CBEGFVQR YA",
-        "FEP:80FG",
-        "NQQE:39421 Fgneobneq Pg",
+        "(PNQ Nyreg) 80P   Pnyy ng:164 Grny Qe              Ybp:                         Pvgl:19966 Ceboyrz:Pneoba Zbabkvqr Qrgrpgbe      Vap#:2015-000911 Yng:38635270Ybat:75168845QVFC:08:40:49Pebff Fg:TNQJNYY QE/CVAGNVY QE",
+        "FEP:80P",
+        "NQQE:164 Grny Qe",
         "PVGL:ZVYYFOBEB",
-        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
-        "VQ:2014-023575",
-        "TCF:+38.626192,-75.142584",
-        "GVZR:15:53:41",
-        "K:TBBFR CBAQ EQ/CBEGFVQR YA");
+        "PNYY:Pneoba Zbabkvqr Qrgrpgbe",
+        "VQ:2015-000911",
+        "TCF:+38.635270,-75.168845",
+        "GVZR:08:40:49",
+        "K:TNQJNYY QE/CVAGNVY QE");
 
     qbGrfg("G2",
-        "(PNQ Nyreg) 80P   Pnyy ng:24976 Onaxf Eq           Ybp:Jvaqvat Perrx Ivyyntr    Pvgl:19966 Ceboyrz:Jverf Qbja/Nepuvat            Vap#:2014-023406 Yng:38641821Ybat:75173332QVFC:13:44:52Pebff Fg:Ehqqre Eq/Perrx Qe",
-        "FEP:80P",
-        "NQQE:24976 Onaxf Eq",
-        "CYNPR:Jvaqvat Perrx Ivyyntr",
+        "(PNQ Nyreg) 80FG  Pnyy ng:34253 Uvyyrajbbq Eq      Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2015-000842 Yng:38612284Ybat:75152825QVFC:12:52:42Pebff Fg:ONLOREEL EQ/CVARAOEVAR EQ",
+        "FEP:80FG",
+        "NQQE:34253 Uvyyrajbbq Eq",
         "PVGL:ZVYYFOBEB",
-        "PNYY:Jverf Qbja/Nepuvat",
-        "VQ:2014-023406",
-        "TCF:+38.641821,-75.173332",
-        "GVZR:13:44:52",
-        "K:Ehqqre Eq/Perrx Qe");
+        "PNYY:Fgehpgher Sver",
+        "VQ:2015-000842",
+        "TCF:+38.612284,-75.152825",
+        "GVZR:12:52:42",
+        "K:ONLOREEL EQ/CVARAOEVAR EQ");
 
     qbGrfg("G3",
-        "(PNQ Nyreg) 80FG  Pnyy ng:23021 Cvar Eq            Ybp:Cvar Ya                  Pvgl:19958 Ceboyrz:Fgehpgher Sver                Vap#:2014-023350 Yng:38671376Ybat:75155612QVFC:03:11:21Pebff Fg:BNX QE/PNZC NEEBJURNQ EQ",
+        "(PNQ Nyreg) 80FG  Pnyy ng:19500-19899 Abejbbq Fg   Ybp:                         Pvgl:19971 Ceboyrz:Ubhfr Sver                    Vap#:2015-000817 Yng:38717333Ybat:75099290QVFC:04:15:28Pebff Fg:QHAONE FG/OHEGBA NIR",
         "FEP:80FG",
-        "NQQE:23021 Cvar Eq",
-        "CYNPR:Cvar Ya",
-        "PVGL:YRJRF",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2014-023350",
-        "TCF:+38.671376,-75.155612",
-        "GVZR:03:11:21",
-        "K:BNX QE/PNZC NEEBJURNQ EQ");
+        "NQQE:19500-19899 Abejbbq Fg",
+        "ZNQQE:19500 Abejbbq Fg",
+        "PVGL:ERUBOBGU ORNPU",
+        "PNYY:Ubhfr Sver",
+        "VQ:2015-000817",
+        "TCF:+38.717333,-75.099290",
+        "GVZR:04:15:28",
+        "K:QHAONE FG/OHEGBA NIR");
 
     qbGrfg("G4",
-        "(PNQ Nyreg) 80FG  Pnyy ng:31398 Evire Eq           Ybp:Vaqvna Evire Lnpug Pyho  Pvgl:19966 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-OYFVap#:2014-023265 Yng:38595622Ybat:75199992QVFC:20:10:21Pebff Fg:JNEJVPX QE/YNLGBA QNIVF EQ",
+        "(PNQ Nyreg) 80FG  Pnyy ng:26559 Junesfvqr Pbir     Ybp:                         Pvgl:19966 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-NYFVap#:2015-000806 Yng:38623057Ybat:75173536QVFC:23:00:08Pebff Fg:PERRXJBBQ PVE/Qrnq Raq",
         "FEP:80FG",
-        "NQQE:31398 Evire Eq",
-        "CYNPR:Vaqvna Evire Lnpug Pyho",
+        "NQQE:26559 Junesfvqr Pbir",
         "PVGL:ZVYYFOBEB",
-        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-OYF",
-        "VQ:2014-023265",
-        "TCF:+38.595622,-75.199992",
-        "GVZR:20:10:21",
-        "K:JNEJVPX QE/YNLGBA QNIVF EQ");
+        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-NYF",
+        "VQ:2015-000806",
+        "TCF:+38.623057,-75.173536",
+        "GVZR:23:00:08",
+        "K:PERRXJBBQ PVE/Qrnq Raq");
 
     qbGrfg("G5",
-        "(PNQ Nyreg) 80P    Pnyy ng: 35356 Fhffrk Ya          Ybp:                          Pvgl:19966  Ceboyrz:  Bhgfvqr Sver                    Vap#: 2014-023212    Yng: 38623060    Ybat: 75133195   QVFC: 10:38:34   Pebff Fg: PBIR QE/Qrnq Raq",
-        "FEP:80P",
-        "NQQE:35356 Fhffrk Ya",
+        "(PNQ Nyreg) 80N   Pnyy ng:28410 Qrynjner Nir       Ybp:                         Pvgl:19966 Ceboyrz:Ubhfr Sver                    Vap#:2015-000746 Yng:38598677Ybat:75172604QVFC:12:07:25Pebff Fg:ONFVA EQ/ZREPRE NIR",
+        "FEP:80N",
+        "NQQE:28410 Qrynjner Nir",
         "PVGL:ZVYYFOBEB",
-        "PNYY:Bhgfvqr Sver",
-        "VQ:2014-023212",
-        "TCF:+38.623060,-75.133195",
-        "GVZR:10:38:34",
-        "K:PBIR QE/Qrnq Raq");
+        "PNYY:Ubhfr Sver",
+        "VQ:2015-000746",
+        "TCF:+38.598677,-75.172604",
+        "GVZR:12:07:25",
+        "K:ONFVA EQ/ZREPRE NIR");
 
     qbGrfg("G6",
-        "(PNQ Nyreg) 80FG   Pnyy ng: Ubyyl Ynxr Eq & Wbua W JvYbp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-023004    Yng: 38657854    Ybat: 75189289   QVFC: 19:04:44   Pebff Fg:",
+        "(PNQ Nyreg) 80FG  Pnyy ng:14227 VFNNPF EQ          Ybp:                         Pvgl:19941 Ceboyrz:Fgehpgher Sver                Vap#:2015-000720 Yng:38788383Ybat:75340779QVFC:06:43:27Pebff Fg:ERLABYQF CBAQ EQ/ZVYGBA RYYRAQNYR UJL",
         "FEP:80FG",
-        "NQQE:Ubyyl Ynxr Eq & Wbua W Jv",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-023004",
-        "TCF:+38.657854,-75.189289",
-        "GVZR:19:04:44");
+        "NQQE:14227 VFNNPF EQ",
+        "PVGL:RYYRAQNYR",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2015-000720",
+        "TCF:+38.788383,-75.340779",
+        "GVZR:06:43:27",
+        "K:ERLABYQF CBAQ EQ/ZVYGBA RYYRAQNYR UJL");
 
     qbGrfg("G7",
-        "(PNQ Nyreg) 80O    Pnyy ng: 32087 Ubyyl Ynxr Eq      Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-023003    Yng: 38657816    Ybat: 75189815   QVFC: 18:49:36   Pebff Fg: CUVYYVCF OENAPU EQ/WBUA W JVYYVNZF UJL",
-        "FEP:80O",
-        "NQQE:32087 Ubyyl Ynxr Eq",
+        "(PNQ Nyreg) 80P   Pnyy ng:27239 18gu Oyiq          Ybp:                         Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2015-000693 Yng:38614553Ybat:75165507QVFC:19:16:39Pebff Fg:ZNEVAN ONL PVE/OYHR PENO NIR",
+        "FEP:80P",
+        "NQQE:27239 18gu Oyiq",
         "PVGL:ZVYYFOBEB",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-023003",
-        "TCF:+38.657816,-75.189815",
-        "GVZR:18:49:36",
-        "K:CUVYYVCF OENAPU EQ/WBUA W JVYYVNZF UJL");
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2015-000693",
+        "TCF:+38.614553,-75.165507",
+        "GVZR:19:16:39",
+        "K:ZNEVAN ONL PVE/OYHR PENO NIR");
 
     qbGrfg("G8",
-        "(PNQ Nyreg) 80P    Pnyy ng: Ybat Arpx Eq & Cbg Argf EYbp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-022984    Yng: 38628581    Ybat: 75160579   QVFC: 13:57:45   Pebff Fg:",
-        "FEP:80P",
-        "NQQE:Ybat Arpx Eq & Cbg Argf E",
+        "(PNQ Nyreg) 80FG  Pnyy ng:31 Fvbhk Qe              Ybp:                         Pvgl:19966 Ceboyrz:Ubhfr Sver                    Vap#:2015-000674 Yng:38600474Ybat:75209134QVFC:15:58:16Pebff Fg:PUREBXRR PG/NCNPUR NIR",
+        "FEP:80FG",
+        "NQQE:31 Fvbhk Qe",
         "PVGL:ZVYYFOBEB",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-022984",
-        "TCF:+38.628581,-75.160579",
-        "GVZR:13:57:45");
+        "PNYY:Ubhfr Sver",
+        "VQ:2015-000674",
+        "TCF:+38.600474,-75.209134",
+        "GVZR:15:58:16",
+        "K:PUREBXRR PG/NCNPUR NIR");
 
     qbGrfg("G9",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 26002 Wbua W Jvyyvnzf UjlYbp: Eranvffnapr/ 101N eruborgPvgl:19966  Ceboyrz:  Vagresnpvyvg Riny/Genafsre-OYF  Vap#: 2014-022872    Yng: 38630150    Ybat: 75195610   QVFC: 11:01:11   Pebff Fg: CYNMN QE/FUREJBBQ SEFG",
+        "(PNQ Nyreg) 80FG  Pnyy ng:141-157 UHQFBA NYL       Ybp:140                      Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2015-000609 Yng:38585955Ybat:75292441QVFC:01:06:19Pebff Fg:JVYFBA UJL/OBHYRINEQ NIR",
         "FEP:80FG",
-        "NQQE:26002 Wbua W Jvyyvnzf Ujl",
-        "CYNPR:Eranvffnapr/ 101N eruborg",
+        "NQQE:141-157 UHQFBA NYL",
+        "ZNQQE:141 UHQFBA NYL",
+        "CYNPR:140",
         "PVGL:ZVYYFOBEB",
-        "PNYY:Vagresnpvyvg Riny/Genafsre-OYF",
-        "VQ:2014-022872",
-        "TCF:+38.630150,-75.195610",
-        "GVZR:11:01:11",
-        "K:CYNMN QE/FUREJBBQ SEFG");
+        "PNYY:Fgehpgher Sver",
+        "VQ:2015-000609",
+        "TCF:+38.585955,-75.292441",
+        "GVZR:01:06:19",
+        "K:JVYFBA UJL/OBHYRINEQ NIR");
 
     qbGrfg("G10",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 25742 Nzrevpna Fg        Ybp:                          Pvgl:19966  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-022866    Yng: 38634493    Ybat: 75161578   QVFC: 09:46:58   Pebff Fg: TERNG YNXRF FG/NGYNF FG",
-        "FEP:80FG",
-        "NQQE:25742 Nzrevpna Fg",
+        "(PNQ Nyreg) 80O   Pnyy ng:34026 Naanf Jnl          Ybp:Ghaaryy Bssvprf          Pvgl:19966 Ceboyrz:Jverf Qbja/Nepuvat            Vap#:2015-000573 Yng:38627623Ybat:75158165QVFC:13:40:14Pebff Fg:CBG ARGF EQ/Qrnq Raq",
+        "FEP:80O",
+        "NQQE:34026 Naanf Jnl",
+        "CYNPR:Ghaaryy Bssvprf",
         "PVGL:ZVYYFOBEB",
-        "PNYY:Snyyf-OYF",
-        "VQ:2014-022866",
-        "TCF:+38.634493,-75.161578",
-        "GVZR:09:46:58",
-        "K:TERNG YNXRF FG/NGYNF FG");
+        "PNYY:Jverf Qbja/Nepuvat",
+        "VQ:2015-000573",
+        "TCF:+38.627623,-75.158165",
+        "GVZR:13:40:14",
+        "K:CBG ARGF EQ/Qrnq Raq");
 
     qbGrfg("G11",
-        "(PNQ Nyreg) 80P    Pnyy ng: 25864 Fnaqcvcre Pg       Ybp:                          Pvgl:19966  Ceboyrz:  Pneqvnp/Erfc./Qrngu-NYF         Vap#: 2014-022849    Yng: 38633191    Ybat: 75187947   QVFC: 04:58:52   Pebff Fg: UREBA CG/GHEAFGBAR PG",
-        "FEP:80P",
-        "NQQE:25864 Fnaqcvcre Pg",
+        "(PNQ Nyreg) 80FG  Pnyy ng:30581 ZBHAG WBL EQ       Ybp:                         Pvgl:19966 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2015-000532 Yng:38619587Ybat:75209936QVFC:06:42:43Pebff Fg:ZVFFVBA CY/FUNEXRLF YA",
+        "FEP:80FG",
+        "NQQE:30581 ZBHAG WBL EQ",
         "PVGL:ZVYYFOBEB",
-        "PNYY:Pneqvnp/Erfc./Qrngu-NYF",
-        "VQ:2014-022849",
-        "TCF:+38.633191,-75.187947",
-        "GVZR:04:58:52",
-        "K:UREBA CG/GHEAFGBAR PG");
+        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
+        "VQ:2015-000532",
+        "TCF:+38.619587,-75.209936",
+        "GVZR:06:42:43",
+        "K:ZVFFVBA CY/FUNEXRLF YA");
 
     qbGrfg("G12",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 31288 Evire Eq           Ybp:                          Pvgl:19966  Ceboyrz:  Nhgbzngvp Sver Nynez            Vap#: 2014-022833    Yng: 38596838    Ybat: 75203467   QVFC: 21:28:32   Pebff Fg: JNEJVPX QE/YNLGBA QNIVF EQ",
+        "(PNQ Nyreg) 80FG  Pnyy ng:34122 Terra Ubyyl Eq     Ybp:                         Pvgl:19966 Ceboyrz:Snyyf-OYF                     Vap#:2015-000489 Yng:38613617Ybat:75155806QVFC:15:32:38Pebff Fg:VAQVNA PNOVA PERRX EQ/CVARAOEVAR EQ",
+        "FEP:80FG",
+        "NQQE:34122 Terra Ubyyl Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Snyyf-OYF",
+        "VQ:2015-000489",
+        "TCF:+38.613617,-75.155806",
+        "GVZR:15:32:38",
+        "K:VAQVNA PNOVA PERRX EQ/CVARAOEVAR EQ");
+
+    qbGrfg("G13",
+        "(PNQ Nyreg) 80P   Pnyy ng:28152 Fybbc Nir          Ybp:                         Pvgl:19966 Ceboyrz:Fzbxr Vairfgvtngvba           Vap#:2015-000414 Yng:38612917Ybat:75145101QVFC:21:26:05Pebff Fg:EVATOBYG NIR/FYBBC PHG",
+        "FEP:80P",
+        "NQQE:28152 Fybbc Nir",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Fzbxr Vairfgvtngvba",
+        "VQ:2015-000414",
+        "TCF:+38.612917,-75.145101",
+        "GVZR:21:26:05",
+        "K:EVATOBYG NIR/FYBBC PHG");
+
+    qbGrfg("G14",
+        "(PNQ Nyreg) 80O   Pnyy ng:26861 Qvire Qhpx Qe      Ybp:                         Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-000331 Yng:38619056Ybat:75101561QVFC:19:34:46Pebff Fg:PHEYRJ JNL/YNAQVAT EQ",
+        "FEP:80O",
+        "NQQE:26861 Qvire Qhpx Qe",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "VQ:2015-000331",
+        "TCF:+38.619056,-75.101561",
+        "GVZR:19:34:46",
+        "K:PHEYRJ JNL/YNAQVAT EQ");
+
+    qbGrfg("G15",
+        "(PNQ Nyreg) 80P   Pnyy ng:26861 Qvire Qhpx Qe      Ybp:                         Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2015-000331 Yng:38619056Ybat:75101561QVFC:19:34:46Pebff Fg:PHEYRJ JNL/YNAQVAT EQ",
+        "FEP:80P",
+        "NQQE:26861 Qvire Qhpx Qe",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "VQ:2015-000331",
+        "TCF:+38.619056,-75.101561",
+        "GVZR:19:34:46",
+        "K:PHEYRJ JNL/YNAQVAT EQ");
+
+    qbGrfg("G16",
+        "(PNQ Nyreg) 80N   Pnyy ng:Zbhag Wbl Eq & Pnaaba Eq Ybp:ebyybire & ragenc        Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2015-000295 Yng:38624650Ybat:75221859QVFC:11:38:00Pebff Fg:",
+        "FEP:80N",
+        "NQQE:Zbhag Wbl Eq & Pnaaba Eq",
+        "CYNPR:ebyybire & ragenc",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
+        "VQ:2015-000295",
+        "TCF:+38.624650,-75.221859",
+        "GVZR:11:38:00");
+
+    qbGrfg("G17",
+        "(PNQ Nyreg) 80N   Pnyy ng:34 Grphzfru Cnff         Ybp:                         Pvgl:19966 Ceboyrz:Oehfu Sver                    Vap#:2015-000237 Yng:38610630Ybat:75213334QVFC:17:08:04Pebff Fg:YVGGYR BJY GEY/PBPUVFR GEY",
+        "FEP:80N",
+        "NQQE:34 Grphzfru Cnff",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Oehfu Sver",
+        "VQ:2015-000237",
+        "TCF:+38.610630,-75.213334",
+        "GVZR:17:08:04",
+        "K:YVGGYR BJY GEY/PBPUVFR GEY");
+
+    qbGrfg("G18",
+        "(PNQ Nyreg) 80P   Pnyy ng:34865 Thaary Eq          Ybp:                         Pvgl:19966 Ceboyrz:Tnf Yrnx                      Vap#:2015-000206 Yng:38623932Ybat:75141706QVFC:09:26:23Pebff Fg:XRRYFBA FG/XRGPU PVE",
+        "FEP:80P",
+        "NQQE:34865 Thaary Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Tnf Yrnx",
+        "VQ:2015-000206",
+        "TCF:+38.623932,-75.141706",
+        "GVZR:09:26:23",
+        "K:XRRYFBA FG/XRGPU PVE");
+
+    qbGrfg("G19",
+        "(PNQ Nyreg) 80O   Pnyy ng:Onaxf Eq & Funql Ya      Ybp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-031528 Yng:38651021Ybat:75182486QVFC:20:48:02Pebff Fg:",
+        "FEP:80O",
+        "NQQE:Onaxf Eq & Funql Ya",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
+        "VQ:2014-031528",
+        "TCF:+38.651021,-75.182486",
+        "GVZR:20:48:02");
+
+    qbGrfg("G20",
+        "(PNQ Nyreg) 80O   Pnyy ng:464 Jbbqfvqr Eq          Ybp:                         Pvgl:19966 Ceboyrz:Puvzarl Sver                  Vap#:2014-031516 Yng:38641878Ybat:75166001QVFC:18:15:14Pebff Fg:DHNVY YA/CBAQ EQ",
+        "FEP:80O",
+        "NQQE:464 Jbbqfvqr Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Puvzarl Sver",
+        "VQ:2014-031516",
+        "TCF:+38.641878,-75.166001",
+        "GVZR:18:15:14",
+        "K:DHNVY YA/CBAQ EQ");
+
+    qbGrfg("G21",
+        "(PNQ Nyreg) 80P   Pnyy ng:Fnaqcvcre Qe & Wbua W JvyYbp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-031396 Yng:38664136Ybat:75189474QVFC:12:38:13Pebff Fg:",
+        "FEP:80P",
+        "NQQE:Fnaqcvcre Qe & Wbua W Jvy",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
+        "VQ:2014-031396",
+        "TCF:+38.664136,-75.189474",
+        "GVZR:12:38:13");
+
+    qbGrfg("G22",
+        "(PNQ Nyreg) 80P   Pnyy ng:26002 Wbua W Jvyyvnzf UjlYbp:Eranvffnapr Srajvpx  219NPvgl:19966 Ceboyrz:Pneqvnp/Erfc./Qrngu-NYF       Vap#:2014-031239 Yng:38630150Ybat:75195610QVFC:12:41:51Pebff Fg:CYNMN QE/FUREJBBQ SEFG",
+        "FEP:80P",
+        "NQQE:26002 Wbua W Jvyyvnzf Ujl",
+        "CYNPR:Eranvffnapr Srajvpx  219N",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Pneqvnp/Erfc./Qrngu-NYF",
+        "VQ:2014-031239",
+        "TCF:+38.630150,-75.195610",
+        "GVZR:12:41:51",
+        "K:CYNMN QE/FUREJBBQ SEFG");
+
+    qbGrfg("G23",
+        "(PNQ Nyreg) 80O   Pnyy ng:35398 Fhffrk Ya          Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-031179 Yng:38623077Ybat:75133013QVFC:17:01:30Pebff Fg:PBIR QE/Qrnq Raq",
+        "FEP:80O",
+        "NQQE:35398 Fhffrk Ya",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2014-031179",
+        "TCF:+38.623077,-75.133013",
+        "GVZR:17:01:30",
+        "K:PBIR QE/Qrnq Raq");
+
+    qbGrfg("G24",
+        "(PNQ Nyreg) 80O   Pnyy ng:Wbua W Jvyyvnzf Ujl & UbyYbp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-031153 Yng:38657854Ybat:75189289QVFC:11:36:33Pebff Fg:",
+        "FEP:80O",
+        "NQQE:Wbua W Jvyyvnzf Ujl & Uby",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
+        "VQ:2014-031153",
+        "TCF:+38.657854,-75.189289",
+        "GVZR:11:36:33");
+
+    qbGrfg("G25",
+        "(PNQ Nyreg) 80FG  Pnyy ng:55 Perrx Qe              Ybp:                         Pvgl:19966 Ceboyrz:Hapbafpvbhf/Snvagvat(Arne)-NYFVap#:2014-031098 Yng:38640120Ybat:75163244QVFC:17:54:31Pebff Fg:FBHGUJVAQ EQ/VFYNAQ EQ",
+        "FEP:80FG",
+        "NQQE:55 Perrx Qe",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
+        "VQ:2014-031098",
+        "TCF:+38.640120,-75.163244",
+        "GVZR:17:54:31",
+        "K:FBHGUJVAQ EQ/VFYNAQ EQ");
+
+    qbGrfg("G26",
+        "(PNQ Nyreg) 80P   Pnyy ng:27270 18gu Oyiq          Ybp:Oyqt 13                  Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-030890 Yng:38614082Ybat:75163640QVFC:13:54:17Pebff Fg:ZNEVAN ONL PVE/OYHR PENO NIR",
+        "FEP:80P",
+        "NQQE:27270 18gu Oyiq",
+        "CYNPR:Oyqt 13",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "VQ:2014-030890",
+        "TCF:+38.614082,-75.163640",
+        "GVZR:13:54:17",
+        "K:ZNEVAN ONL PVE/OYHR PENO NIR");
+
+    qbGrfg("G27",
+        "(PNQ Nyreg) 80P   Pnyy ng:24840 Eviref Rqtr Eq     Ybp:                         Pvgl:19966 Ceboyrz:Freivpr Pnyy-Sver             Vap#:2014-030765 Yng:38654219Ybat:75206196QVFC:23:08:49Pebff Fg:FUBER PG/FRNOEBBX QE",
+        "FEP:80P",
+        "NQQE:24840 Eviref Rqtr Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Freivpr Pnyy-Sver",
+        "VQ:2014-030765",
+        "TCF:+38.654219,-75.206196",
+        "GVZR:23:08:49",
+        "K:FUBER PG/FRNOEBBX QE");
+
+    qbGrfg("G28",
+        "(PNQ Nyreg) 80O   Pnyy ng:26744 Wbua W Jvyyvnzf UjlYbp:FHVGR 3/ CRAVAFHYN URNYGUPvgl:19966 Ceboyrz:Urzbeeuntr/Ynprengvbaf-NYF    Vap#:2014-030433 Yng:38601336Ybat:75270782QVFC:09:11:37Pebff Fg:ZNELYNAQ PNZC EQ/UREOREG YA",
+        "FEP:80O",
+        "NQQE:26744 Wbua W Jvyyvnzf Ujl",
+        "CYNPR:FHVGR 3/ CRAVAFHYN URNYGU",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Urzbeeuntr/Ynprengvbaf-NYF",
+        "VQ:2014-030433",
+        "TCF:+38.601336,-75.270782",
+        "GVZR:09:11:37",
+        "K:ZNELYNAQ PNZC EQ/UREOREG YA");
+
+    qbGrfg("G29",
+        "(PNQ Nyreg) 80N   Pnyy ng:101 Fgnprl Qe            Ybp:                         Pvgl:19966 Ceboyrz:Snyyf-OYF                     Vap#:2014-030431 Yng:38619896Ybat:75196731QVFC:08:57:29Pebff Fg:WBNAAR QE/WBUA O QE",
+        "FEP:80N",
+        "NQQE:101 Fgnprl Qe",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Snyyf-OYF",
+        "VQ:2014-030431",
+        "TCF:+38.619896,-75.196731",
+        "GVZR:08:57:29",
+        "K:WBNAAR QE/WBUA O QE");
+
+    qbGrfg("G30",
+        "(PNQ Nyreg) 80FG  Pnyy ng:27012 Uneobe Eq          Ybp:                         Pvgl:19966 Ceboyrz:Snyyf-OYF                     Vap#:2014-030276 Yng:38616703Ybat:75156442QVFC:10:06:13Pebff Fg:ZVAABJ YA/FNAQ CVCRE YA",
+        "FEP:80FG",
+        "NQQE:27012 Uneobe Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Snyyf-OYF",
+        "VQ:2014-030276",
+        "TCF:+38.616703,-75.156442",
+        "GVZR:10:06:13",
+        "K:ZVAABJ YA/FNAQ CVCRE YA");
+
+    qbGrfg("G31",
+        "(PNQ Nyreg) 80FG  Pnyy ng:27033 Syvccre Eq         Ybp:                         Pvgl:19966 Ceboyrz:Fvpx Crefba(Fcrpvsvp Qvnt)-NYFVap#:2014-030275 Yng:38616223Ybat:75151990QVFC:09:45:19Pebff Fg:UHPXYROREEL YA/VAQVNA PNOVA PERRX EQ",
+        "FEP:80FG",
+        "NQQE:27033 Syvccre Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-NYF",
+        "VQ:2014-030275",
+        "TCF:+38.616223,-75.151990",
+        "GVZR:09:45:19",
+        "K:UHPXYROREEL YA/VAQVNA PNOVA PERRX EQ");
+
+    qbGrfg("G32",
+        "(PNQ Nyreg) 80FG  Pnyy ng:26672 Wbua W Jvyyvnzf UjlYbp:Fhowrpg Genccrq Pne ba SvPvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2014-030165 Yng:38614495Ybat:75202346QVFC:01:00:48Pebff Fg:BNX BEPUNEQ EQ/ENZC",
+        "FEP:80FG",
+        "NQQE:26672 Wbua W Jvyyvnzf Ujl",
+        "CYNPR:Fhowrpg Genccrq Pne ba Sv",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
+        "VQ:2014-030165",
+        "TCF:+38.614495,-75.202346",
+        "GVZR:01:00:48",
+        "K:BNX BEPUNEQ EQ/ENZC");
+
+    qbGrfg("G33",
+        "(PNQ Nyreg) 80FG  Pnyy ng:29141 Pbeqerl Eq         Ybp:                         Pvgl:19966 Ceboyrz:Fgno/Thafubg/Crargengvat-NYF  Vap#:2014-030077 Yng:38612515Ybat:75231847QVFC:22:39:55Pebff Fg:JVYYVNZ FGERRG EQ/PNEYBF YA",
+        "FEP:80FG",
+        "NQQE:29141 Pbeqerl Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Fgno/Thafubg/Crargengvat-NYF",
+        "VQ:2014-030077",
+        "TCF:+38.612515,-75.231847",
+        "GVZR:22:39:55",
+        "K:JVYYVNZ FGERRG EQ/PNEYBF YA");
+
+    qbGrfg("G34",
+        "(PNQ Nyreg) 80P   Pnyy ng:27301 Frn Oerrmr Eq      Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-030009 Yng:38613195Ybat:75137951QVFC:02:10:17Pebff Fg:J UNEOBE QE/Qrnq Raq",
+        "FEP:80P",
+        "NQQE:27301 Frn Oerrmr Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2014-030009",
+        "TCF:+38.613195,-75.137951",
+        "GVZR:02:10:17",
+        "K:J UNEOBE QE/Qrnq Raq");
+
+    qbGrfg("G35",
+        "(PNQ Nyreg) 80N   Pnyy ng:26672 Wbua W Jvyyvnzf UjlYbp:Eblny Snezf (80)/jrfg bs Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2014-029922 Yng:38614495Ybat:75202346QVFC:21:24:34Pebff Fg:BNX BEPUNEQ EQ/ENZC",
+        "FEP:80N",
+        "NQQE:26672 Wbua W Jvyyvnzf Ujl",
+        "CYNPR:Eblny Snezf (80)/jrfg bs",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
+        "VQ:2014-029922",
+        "TCF:+38.614495,-75.202346",
+        "GVZR:21:24:34",
+        "K:BNX BEPUNEQ EQ/ENZC");
+
+    qbGrfg("G36",
+        "(PNQ Nyreg) 80FG  Pnyy ng:33196-33719 Zrepre Nir   Ybp:                         Pvgl:19966 Ceboyrz:Jngre Erfphr Cevbevgl 2       Vap#:2014-029634 Yng:38598232Ybat:75172124QVFC:13:02:08Pebff Fg:QRYNJNER NIR/PUNEYRF FG",
+        "FEP:80FG",
+        "NQQE:33196-33719 Zrepre Nir",
+        "ZNQQE:33196 Zrepre Nir",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Jngre Erfphr Cevbevgl 2",
+        "VQ:2014-029634",
+        "TCF:+38.598232,-75.172124",
+        "GVZR:13:02:08",
+        "K:QRYNJNER NIR/PUNEYRF FG");
+
+    qbGrfg("G37",
+        "(PNQ Nyreg) 80FG  Pnyy ng:34246 Uhpxyroreel Ya     Ybp:ybg 755                  Pvgl:19966 Ceboyrz:Oernguvat Ceboyrzf-NYF        Vap#:2014-029588 Yng:38616588Ybat:75152116QVFC:21:19:15Pebff Fg:UNEOBE EQ/SYVCCRE EQ",
+        "FEP:80FG",
+        "NQQE:34246 Uhpxyroreel Ya",
+        "CYNPR:ybg 755",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Oernguvat Ceboyrzf-NYF",
+        "VQ:2014-029588",
+        "TCF:+38.616588,-75.152116",
+        "GVZR:21:19:15",
+        "K:UNEOBE EQ/SYVCCRE EQ");
+
+    qbGrfg("G38",
+        "(PNQ Nyreg) 80FG  Pnyy ng:Zbhag Wbl Eq & Pbeqerl EqYbp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-029422 Yng:38621862Ybat:75213390QVFC:18:14:49Pebff Fg:",
+        "FEP:80FG",
+        "NQQE:Zbhag Wbl Eq & Pbeqerl Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
+        "VQ:2014-029422",
+        "TCF:+38.621862,-75.213390",
+        "GVZR:18:14:49");
+
+    qbGrfg("G39",
+        "(PNQ Nyreg) 80FG  Pnyy ng:29234 Ubarlfhpxyr Xabyy  Ybp:                         Pvgl:19966 Ceboyrz:Pneqvnp/Erfc./Qrngu-NYF       Vap#:2014-029410 Yng:38601726Ybat:75205257QVFC:16:53:23Pebff Fg:W NAQ W YA/Qrnq Raq",
+        "FEP:80FG",
+        "NQQE:29234 Ubarlfhpxyr Xabyy",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Pneqvnp/Erfc./Qrngu-NYF",
+        "VQ:2014-029410",
+        "TCF:+38.601726,-75.205257",
+        "GVZR:16:53:23",
+        "K:W NAQ W YA/Qrnq Raq");
+
+    qbGrfg("G40",
+        "(PNQ Nyreg) 80P   Pnyy ng:35310 6 Fg               Ybp:                         Pvgl:19966 Ceboyrz:Pneqvnp/Erfc./Qrngu-NYF       Vap#:2014-029365 Yng:38626034Ybat:75133935QVFC:06:47:10Pebff Fg:ZNVA FG/5 FG",
+        "FEP:80P",
+        "NQQE:35310 6 Fg",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Pneqvnp/Erfc./Qrngu-NYF",
+        "VQ:2014-029365",
+        "TCF:+38.626034,-75.133935",
+        "GVZR:06:47:10",
+        "K:ZNVA FG/5 FG");
+
+    qbGrfg("G41",
+        "(PNQ Nyreg) 80FG  Pnyy ng:26744 Wbua W Jvyyvnzf UjlYbp:Qe. Qnzbhav              Pvgl:19966 Ceboyrz:Purfg Cnva-NYF                Vap#:2014-029288 Yng:38612687Ybat:75204334QVFC:11:16:56Pebff Fg:ENZC/CVNSSR YA",
+        "FEP:80FG",
+        "NQQE:26744 Wbua W Jvyyvnzf Ujl",
+        "CYNPR:Qe. Qnzbhav",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Purfg Cnva-NYF",
+        "VQ:2014-029288",
+        "TCF:+38.612687,-75.204334",
+        "GVZR:11:16:56",
+        "K:ENZC/CVNSSR YA");
+
+    qbGrfg("G42",
+        "(PNQ Nyreg) 80FG  Pnyy ng:26189 Buaznpug Ya        Ybp:                         Pvgl:19947 Ceboyrz:Fgehpgher Sver                Vap#:2014-029198 Yng:38661776Ybat:75293807QVFC:09:58:25Pebff Fg:Qrnq Raq/CVAR YNXR QE",
+        "FEP:80FG",
+        "NQQE:26189 Buaznpug Ya",
+        "PVGL:TRBETRGBJA",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2014-029198",
+        "TCF:+38.661776,-75.293807",
+        "GVZR:09:58:25",
+        "K:Qrnq Raq/CVAR YNXR QE");
+
+    qbGrfg("G43",
+        "(PNQ Nyreg) 80P   Pnyy ng:26064 Fpubby Ya          Ybp:ybat arpx ryrzragnel     Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-029181 Yng:38629969Ybat:75184622QVFC:06:26:38Pebff Fg:EVGGRE QE/FGRRYR QE",
+        "FEP:80P",
+        "NQQE:26064 Fpubby Ya",
+        "CYNPR:ybat arpx ryrzragnel",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "VQ:2014-029181",
+        "TCF:+38.629969,-75.184622",
+        "GVZR:06:26:38",
+        "K:EVGGRE QE/FGRRYR QE");
+
+    qbGrfg("G44",
+        "(PNQ Nyreg) 80O   Pnyy ng:Wbua W Jvyyvnzf Ujl & VaqYbp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-029113 Yng:38635752Ybat:75194091QVFC:12:47:48Pebff Fg:",
+        "FEP:80O",
+        "NQQE:Wbua W Jvyyvnzf Ujl & Vaq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
+        "VQ:2014-029113",
+        "TCF:+38.635752,-75.194091",
+        "GVZR:12:47:48");
+
+    qbGrfg("G45",
+        "(PNQ Nyreg) 80O   Pnyy ng:24815 Eviref Rqtr Eq     Ybp:                         Pvgl:19966 Ceboyrz:Tnf Yrnx                      Vap#:2014-029037 Yng:38650982Ybat:75205063QVFC:16:00:04Pebff Fg:FUBER PG/FRNOEBBX QE",
+        "FEP:80O",
+        "NQQE:24815 Eviref Rqtr Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Tnf Yrnx",
+        "VQ:2014-029037",
+        "TCF:+38.650982,-75.205063",
+        "GVZR:16:00:04",
+        "K:FUBER PG/FRNOEBBX QE");
+
+    qbGrfg("G46",
+        "(PNQ Nyreg) 80FG  Pnyy ng:Tvnag                    Ybp:                         Pvgl:      Ceboyrz:Tnf Yrnx                      Vap#:2014-028801 Yng:0       Ybat:0       QVFC:18:35:11Pebff Fg:",
+        "FEP:80FG",
+        "NQQE:Tvnag",
+        "PNYY:Tnf Yrnx",
+        "VQ:2014-028801",
+        "TCF:0 0",
+        "GVZR:18:35:11");
+
+    qbGrfg("G47",
+        "(PNQ Nyreg) 80FG  Pnyy ng:100 Grny Qe              Ybp:                         Pvgl:19966 Ceboyrz:Pneqvnp/ Erfc./Qrngu- OYF     Vap#:2014-028616 Yng:38634122Ybat:75170654QVFC:11:56:48Pebff Fg:EHQQRE EQ/JBBQQHPX QE",
+        "FEP:80FG",
+        "NQQE:100 Grny Qe",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Pneqvnp/ Erfc./Qrngu- OYF",
+        "VQ:2014-028616",
+        "TCF:+38.634122,-75.170654",
+        "GVZR:11:56:48",
+        "K:EHQQRE EQ/JBBQQHPX QE");
+
+    qbGrfg("G48",
+        "(PNQ Nyreg) 80P   Pnyy ng:24775 Eviref Rqtr Eq     Ybp:                         Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-028611 Yng:38648232Ybat:75209511QVFC:10:50:27Pebff Fg:CVAR GERR PG/UNEOBE PBIR QE",
+        "FEP:80P",
+        "NQQE:24775 Eviref Rqtr Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2014-028611",
+        "TCF:+38.648232,-75.209511",
+        "GVZR:10:50:27",
+        "K:CVAR GERR PG/UNEOBE PBIR QE");
+
+    qbGrfg("G49",
+        "(PNQ Nyreg) 80FG  Pnyy ng:100 Grny Qe              Ybp:                         Pvgl:19966 Ceboyrz:Freivpr Pnyy-Sver             Vap#:2014-028580 Yng:38634122Ybat:75170654QVFC:00:34:00Pebff Fg:EHQQRE EQ/JBBQQHPX QE",
+        "FEP:80FG",
+        "NQQE:100 Grny Qe",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Freivpr Pnyy-Sver",
+        "VQ:2014-028580",
+        "TCF:+38.634122,-75.170654",
+        "GVZR:00:34:00",
+        "K:EHQQRE EQ/JBBQQHPX QE");
+
+    qbGrfg("G50",
+        "(PNQ Nyreg) 80P   Pnyy ng:Onl Snez Eq & Fpubby Ya  Ybp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-028397 Yng:38625750Ybat:75189224QVFC:16:18:56Pebff Fg:",
+        "FEP:80P",
+        "NQQE:Onl Snez Eq & Fpubby Ya",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
+        "VQ:2014-028397",
+        "TCF:+38.625750,-75.189224",
+        "GVZR:16:18:56");
+
+    qbGrfg("G51",
+        "(PNQ Nyreg) 80FG  Pnyy ng:12 Jbbqyla Eq            Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-028356 Yng:38625387Ybat:75185587QVFC:11:54:22Pebff Fg:ONL SNEZ EQ/QRIVAR JNL",
+        "FEP:80FG",
+        "NQQE:12 Jbbqyla Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2014-028356",
+        "TCF:+38.625387,-75.185587",
+        "GVZR:11:54:22",
+        "K:ONL SNEZ EQ/QRIVAR JNL");
+
+    qbGrfg("G52",
+        "(PNQ Nyreg) 80O   Pnyy ng:32968 Ybat Arpx Eq       Ybp:Cbg Argf Perrxfvqr / RAG Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-028295 Yng:38628339Ybat:75161730QVFC:20:24:44Pebff Fg:EVQTRJBBQ EQ/CBG ARGF EQ",
+        "FEP:80O",
+        "NQQE:32968 Ybat Arpx Eq",
+        "CYNPR:Cbg Argf Perrxfvqr / RAG",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
+        "VQ:2014-028295",
+        "TCF:+38.628339,-75.161730",
+        "GVZR:20:24:44",
+        "K:EVQTRJBBQ EQ/CBG ARGF EQ");
+
+    qbGrfg("G53",
+        "(PNQ Nyreg) 80FG  Pnyy ng:35697 R EVIRE QE         Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-028257 Yng:38615631Ybat:75126648QVFC:06:12:31Pebff Fg:FRN BNX YA/JUVGR UBHFR OPU",
+        "FEP:80FG",
+        "NQQE:35697 R EVIRE QE",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2014-028257",
+        "TCF:+38.615631,-75.126648",
+        "GVZR:06:12:31",
+        "K:FRN BNX YA/JUVGR UBHFR OPU");
+
+    qbGrfg("G54",
+        "(PNQ Nyreg) 80P   Pnyy ng:35697 R Evire Qe         Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-028257 Yng:38615631Ybat:75126648QVFC:06:12:31Pebff Fg:FRN BNX YA/JUVGR UBHFR OPU",
+        "FEP:80P",
+        "NQQE:35697 R Evire Qe",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2014-028257",
+        "TCF:+38.615631,-75.126648",
+        "GVZR:06:12:31",
+        "K:FRN BNX YA/JUVGR UBHFR OPU");
+
+    qbGrfg("G55",
+        "(PNQ Nyreg) 80FG  Pnyy ng:35320 Jbbq Qhpx Eq       Ybp:                         Pvgl:19966 Ceboyrz:Snyyf-OYF                     Vap#:2014-028238 Yng:38614365Ybat:75134815QVFC:23:06:31Pebff Fg:Qrnq Raq/JUVGR UBHFR EQ",
+        "FEP:80FG",
+        "NQQE:35320 Jbbq Qhpx Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Snyyf-OYF",
+        "VQ:2014-028238",
+        "TCF:+38.614365,-75.134815",
+        "GVZR:23:06:31",
+        "K:Qrnq Raq/JUVGR UBHFR EQ");
+
+    qbGrfg("G56",
+        "(PNQ Nyreg) 80FG  Pnyy ng:26955 Fhtne Fnaq Ya      Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-028137 Yng:38618649Ybat:75177389QVFC:14:37:22Pebff Fg:FUNQRYNAQ NIR/Qrnq Raq",
+        "FEP:80FG",
+        "NQQE:26955 Fhtne Fnaq Ya",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2014-028137",
+        "TCF:+38.618649,-75.177389",
+        "GVZR:14:37:22",
+        "K:FUNQRYNAQ NIR/Qrnq Raq");
+
+    qbGrfg("G57",
+        "(PNQ Nyreg) 80FG  Pnyy ng:56 Onygvzber Nir         Ybp:                         Pvgl:19971 Ceboyrz:Fgehpgher Sver                Vap#:2014-028056 Yng:38717122Ybat:75080196QVFC:14:59:56Pebff Fg:SVEFG FG/FRPBAQ FG",
+        "FEP:80FG",
+        "NQQE:56 Onygvzber Nir",
+        "PVGL:ERUBOBGU ORNPU",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2014-028056",
+        "TCF:+38.717122,-75.080196",
+        "GVZR:14:59:56",
+        "K:SVEFG FG/FRPBAQ FG");
+
+    qbGrfg("G58",
+        "(PNQ Nyreg) 80N   Pnyy ng:25400-25599 QNAVN QE     Ybp:25471                    Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-028044 Yng:38638813Ybat:75200087QVFC:11:30:48Pebff Fg:VAQVNA ZVFFVBA EQ/Qrnq Raq",
+        "FEP:80N",
+        "NQQE:25400-25599 QNAVN QE",
+        "ZNQQE:25400 QNAVN QE",
+        "CYNPR:25471",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "VQ:2014-028044",
+        "TCF:+38.638813,-75.200087",
+        "GVZR:11:30:48",
+        "K:VAQVNA ZVFFVBA EQ/Qrnq Raq");
+
+    qbGrfg("G59",
+        "(PNQ Nyreg) 80FG  Pnyy ng:25471 Qvnanf Ya          Ybp:Bss bs Vaqvna Zvffvba eq Pvgl:      Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-028044 Yng:0       Ybat:0       QVFC:11:30:48Pebff Fg:",
+        "FEP:80FG",
+        "NQQE:25471 Qvnanf Ya",
+        "CYNPR:Bss bs Vaqvna Zvffvba eq",
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "VQ:2014-028044",
+        "TCF:0 0",
+        "GVZR:11:30:48");
+
+    qbGrfg("G60",
+        "(PNQ Nyreg) 80FG  Pnyy ng:200-213 Fhffrk Nyl       Ybp:                         Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-027901 Yng:38592871Ybat:75295100QVFC:18:31:55Pebff Fg:J FGNGR FG/J PUHEPU FG",
+        "FEP:80FG",
+        "NQQE:200-213 Fhffrk Nyl",
+        "ZNQQE:200 Fhffrk Nyl",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2014-027901",
+        "TCF:+38.592871,-75.295100",
+        "GVZR:18:31:55",
+        "K:J FGNGR FG/J PUHEPU FG");
+
+    qbGrfg("G61",
+        "(PNQ Nyreg) 80P   Pnyy ng:32980 Fubccrf Ng Ybat ArpYbp:                         Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-027802 Yng:38629225Ybat:75176593QVFC:14:59:26Pebff Fg:ENZC/Qrnq Raq",
+        "FEP:80P",
+        "NQQE:32980 Fubccrf Ng Ybat Arp",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "VQ:2014-027802",
+        "TCF:+38.629225,-75.176593",
+        "GVZR:14:59:26",
+        "K:ENZC/Qrnq Raq");
+
+    qbGrfg("G62",
+        "(PNQ Nyreg) 80FG  Pnyy ng:11 Pbeajnyy Eq           Ybp:                         Pvgl:19971 Ceboyrz:Fgehpgher Sver                Vap#:2014-027597 Yng:38706912Ybat:75102739QVFC:22:42:24Pebff Fg:PBIRAGEL EQ/PUNGUNZ EQ",
+        "FEP:80FG",
+        "NQQE:11 Pbeajnyy Eq",
+        "PVGL:ERUBOBGU ORNPU",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2014-027597",
+        "TCF:+38.706912,-75.102739",
+        "GVZR:22:42:24",
+        "K:PBIRAGEL EQ/PUNGUNZ EQ");
+
+    qbGrfg("G63",
+        "(PNQ Nyreg) 80P   Pnyy ng:1 Snypba Perfg Qe        Ybp:Zragbe Argjbex           Pvgl:19951 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-027521 Yng:38669003Ybat:75221244QVFC:08:23:09Pebff Fg:Ornire Qnz Eq/Jnyyf Fg",
+        "FEP:80P",
+        "NQQE:1 Snypba Perfg Qe",
+        "CYNPR:Zragbe Argjbex",
+        "PVGL:UNEORFBA",
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2014-027521",
+        "TCF:+38.669003,-75.221244",
+        "GVZR:08:23:09",
+        "K:Ornire Qnz Eq/Jnyyf Fg");
+
+    qbGrfg("G64",
+        "(PNQ Nyreg) 80P   Pnyy ng:Ybat Arpx Eq & Pbir Qe   Ybp:Jbexvat Ubhfr Sver       Pvgl:19966 Ceboyrz:Fgehpgher Sver                Vap#:2014-027495 Yng:38622345Ybat:75134790QVFC:20:47:33Pebff Fg:",
+        "FEP:80P",
+        "NQQE:Ybat Arpx Eq & Pbir Qe",
+        "CYNPR:Jbexvat Ubhfr Sver",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2014-027495",
+        "TCF:+38.622345,-75.134790",
+        "GVZR:20:47:33");
+
+    qbGrfg("G65",
+        "(PNQ Nyreg) 80P   Pnyy ng:32980 Fubccrf Ng Ybat ArpYbp:Yvatb Perrx Ncgf         Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-027433 Yng:38629225Ybat:75176593QVFC:07:36:42Pebff Fg:Qrnq Raq/ENZC",
+        "FEP:80P",
+        "NQQE:32980 Fubccrf Ng Ybat Arp",
+        "CYNPR:Yvatb Perrx Ncgf",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "VQ:2014-027433",
+        "TCF:+38.629225,-75.176593",
+        "GVZR:07:36:42",
+        "K:Qrnq Raq/ENZC");
+
+    qbGrfg("G66",
+        "(PNQ Nyreg) 80P   Pnyy ng:27270 18gu Oyiq          Ybp:Ohvyqva 13               Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-027354 Yng:38614082Ybat:75163640QVFC:10:33:09Pebff Fg:ZNEVAN ONL PVE/OYHR PENO NIR",
+        "FEP:80P",
+        "NQQE:27270 18gu Oyiq",
+        "CYNPR:Ohvyqva 13",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2014-027354",
+        "TCF:+38.614082,-75.163640",
+        "GVZR:10:33:09",
+        "K:ZNEVAN ONL PVE/OYHR PENO NIR");
+
+    qbGrfg("G67",
+        "(PNQ Nyreg) 80O   Pnyy ng:27270 18gu Oyiq          Ybp:18gu Ba Gur Cravafhyn  OyPvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-027270 Yng:38614082Ybat:75163640QVFC:10:27:30Pebff Fg:ZNEVAN ONL PVE/OYHR PENO NIR",
+        "FEP:80O",
+        "NQQE:27270 18gu Oyiq",
+        "CYNPR:18gu Ba Gur Cravafhyn  Oy",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2014-027270",
+        "TCF:+38.614082,-75.163640",
+        "GVZR:10:27:30",
+        "K:ZNEVAN ONL PVE/OYHR PENO NIR");
+
+    qbGrfg("G68",
+        "(PNQ Nyreg) 80N   Pnyy ng:Wbua W Jvyyvnzf Ujl & BnxYbp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-027235 Yng:38614495Ybat:75202346QVFC:20:44:17Pebff Fg:",
+        "FEP:80N",
+        "NQQE:Wbua W Jvyyvnzf Ujl & Bnx",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
+        "VQ:2014-027235",
+        "TCF:+38.614495,-75.202346",
+        "GVZR:20:44:17");
+
+    qbGrfg("G69",
+        "(PNQ Nyreg) 80FG  Pnyy ng:20001 Tbyqra Nir         Ybp:                         Pvgl:19971 Ceboyrz:Genvyre Sver                  Vap#:2014-027224 Yng:38713710Ybat:75118576QVFC:18:59:25Pebff Fg:FXLIVRJ FG/GNATYRJBBQ NIR",
+        "FEP:80FG",
+        "NQQE:20001 Tbyqra Nir",
+        "PVGL:ERUBOBGU ORNPU",
+        "PNYY:Genvyre Sver",
+        "VQ:2014-027224",
+        "TCF:+38.713710,-75.118576",
+        "GVZR:18:59:25",
+        "K:FXLIVRJ FG/GNATYRJBBQ NIR");
+
+    qbGrfg("G70",
+        "(PNQ Nyreg) 80FG  Pnyy ng:44 Grphzfru Cnff         Ybp:                         Pvgl:19966 Ceboyrz:Freivpr Pnyy-NZO              Vap#:2014-027035 Yng:38609485Ybat:75212701QVFC:11:02:18Pebff Fg:PBPUVFR GEY/ERQ PYBHQ GEY",
+        "FEP:80FG",
+        "NQQE:44 Grphzfru Cnff",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Freivpr Pnyy-NZO",
+        "VQ:2014-027035",
+        "TCF:+38.609485,-75.212701",
+        "GVZR:11:02:18",
+        "K:PBPUVFR GEY/ERQ PYBHQ GEY");
+
+    qbGrfg("G71",
+        "(PNQ Nyreg) 80O   Pnyy ng:24113 Wbua W Jvyyvnzf UjlYbp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2014-027014 Yng:38655810Ybat:75189246QVFC:06:04:41Pebff Fg:UBYYL YNXR EQ/ONAXF EQ",
+        "FEP:80O",
+        "NQQE:24113 Wbua W Jvyyvnzf Ujl",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
+        "VQ:2014-027014",
+        "TCF:+38.655810,-75.189246",
+        "GVZR:06:04:41",
+        "K:UBYYL YNXR EQ/ONAXF EQ");
+
+    qbGrfg("G72",
+        "(PNQ Nyreg) 80P   Pnyy ng:26282 Gvzoreperrx Ya     Ybp:                         Pvgl:19966 Ceboyrz:Tnf Yrnx                      Vap#:2014-026875 Yng:38626934Ybat:75178143QVFC:12:20:05Pebff Fg:Qrnq Raq/FUBERIVRJ OYIQ",
+        "FEP:80P",
+        "NQQE:26282 Gvzoreperrx Ya",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Tnf Yrnx",
+        "VQ:2014-026875",
+        "TCF:+38.626934,-75.178143",
+        "GVZR:12:20:05",
+        "K:Qrnq Raq/FUBERIVRJ OYIQ");
+
+    qbGrfg("G73",
+        "(PNQ Nyreg) 80O   Pnyy ng:26352 Gvzoreperrx Ya     Ybp:                         Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-026725 Yng:38627988Ybat:75180164QVFC:17:39:29Pebff Fg:BIREYBBX PG/OYNPX QHPX PG",
+        "FEP:80O",
+        "NQQE:26352 Gvzoreperrx Ya",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2014-026725",
+        "TCF:+38.627988,-75.180164",
+        "GVZR:17:39:29",
+        "K:BIREYBBX PG/OYNPX QHPX PG");
+
+    qbGrfg("G74",
+        "(PNQ Nyreg) 80P   Pnyy ng:24832 Wbua W Jvyyvnzf UjlYbp:Sbbq Yvba (80)           Pvgl:19966 Ceboyrz:Jnfuqbja (Shry Fcvyy)         Vap#:2014-026590 Yng:38636681Ybat:75193829QVFC:08:34:09Pebff Fg:JUVGR CVAR QE/ENZC",
+        "FEP:80P",
+        "NQQE:24832 Wbua W Jvyyvnzf Ujl",
+        "CYNPR:Sbbq Yvba (80)",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Jnfuqbja (Shry Fcvyy)",
+        "VQ:2014-026590",
+        "TCF:+38.636681,-75.193829",
+        "GVZR:08:34:09",
+        "K:JUVGR CVAR QE/ENZC");
+
+    qbGrfg("G75",
+        "(PNQ Nyreg) 80FG  Pnyy ng:36 Erubobgu Nir          Ybp:Tebggb Cvmmn (86)        Pvgl:19971 Ceboyrz:Fgehpgher Sver                Vap#:2014-026584 Yng:38716031Ybat:75083166QVFC:05:49:26Pebff Fg:GUVEQ FG/PBAARPGVAT EBNQ",
+        "FEP:80FG",
+        "NQQE:36 Erubobgu Nir",
+        "CYNPR:Tebggb Cvmmn (86)",
+        "PVGL:ERUBOBGU ORNPU",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2014-026584",
+        "TCF:+38.716031,-75.083166",
+        "GVZR:05:49:26",
+        "K:GUVEQ FG/PBAARPGVAT EBNQ");
+
+    qbGrfg("G76",
+        "(PNQ Nyreg) 80O   Pnyy ng:25258 Onaxf Eq           Ybp:ghes znantrzrag pragre   Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-026521 Yng:38635940Ybat:75180036QVFC:09:41:47Pebff Fg:EHQQRE EQ/ENZC",
+        "FEP:80O",
+        "NQQE:25258 Onaxf Eq",
+        "CYNPR:ghes znantrzrag pragre",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2014-026521",
+        "TCF:+38.635940,-75.180036",
+        "GVZR:09:41:47",
+        "K:EHQQRE EQ/ENZC");
+
+    qbGrfg("G77",
+        "(PNQ Nyreg) 80O   Pnyy ng:26181 Nhghza Eq          Ybp:                         Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagNYFVap#:2014-026288 Yng:38627253Ybat:75198566QVFC:11:36:19Pebff Fg:OENAPU EQ/ZRFFVNU YA",
+        "FEP:80O",
+        "NQQE:26181 Nhghza Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
+        "VQ:2014-026288",
+        "TCF:+38.627253,-75.198566",
+        "GVZR:11:36:19",
+        "K:OENAPU EQ/ZRFFVNU YA");
+
+    qbGrfg("G78",
+        "(PNQ Nyreg) 80N   Pnyy ng:26774 Zvffvba Cy         Ybp:                         Pvgl:19966 Ceboyrz:Pneqvnp/Erfc./Qrngu-NYF       Vap#:2014-026206 Yng:38621752Ybat:75208172QVFC:11:29:05Pebff Fg:ZBHAG WBL EQ/ZBHAG WBL EQ",
+        "FEP:80N",
+        "NQQE:26774 Zvffvba Cy",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Pneqvnp/Erfc./Qrngu-NYF",
+        "VQ:2014-026206",
+        "TCF:+38.621752,-75.208172",
+        "GVZR:11:29:05",
+        "K:ZBHAG WBL EQ/ZBHAG WBL EQ");
+
+    qbGrfg("G79",
+        "(PNQ Nyreg) 80FG  Pnyy ng:27933 Ynlgba Qnivf Eq    Ybp:                         Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-026192 Yng:38604420Ybat:75207721QVFC:09:06:51Pebff Fg:JVYFBA ZLEGYR YA/ONEANPYR OYIQ",
+        "FEP:80FG",
+        "NQQE:27933 Ynlgba Qnivf Eq",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2014-026192",
+        "TCF:+38.604420,-75.207721",
+        "GVZR:09:06:51",
+        "K:JVYFBA ZLEGYR YA/ONEANPYR OYIQ");
+
+    qbGrfg("G80",
+        "(PNQ Nyreg) 80O   Pnyy ng:34006 Naanf Jnl          Ybp:                         Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-026133 Yng:38627335Ybat:75158241QVFC:15:08:20Pebff Fg:CBG ARGF EQ/Qrnq Raq",
+        "FEP:80O",
+        "NQQE:34006 Naanf Jnl",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Nhgbzngvp Sver Nynez",
+        "VQ:2014-026133",
+        "TCF:+38.627335,-75.158241",
+        "GVZR:15:08:20",
+        "K:CBG ARGF EQ/Qrnq Raq");
+
+    qbGrfg("G81",
+        "(PNQ Nyreg) 80O   Pnyy ng:24898 Wbua W Jvyyvnzf UjlYbp:ZpQbanyqf (80)           Pvgl:19966 Ceboyrz:Genssvp/GenafcbegngvbaNpqagOYFVap#:2014-026003 Yng:38635048Ybat:75194286QVFC:07:43:45Pebff Fg:YBAT ARPX EQ/FUBER CYNMN OYIQ",
+        "FEP:80O",
+        "NQQE:24898 Wbua W Jvyyvnzf Ujl",
+        "CYNPR:ZpQbanyqf (80)",
+        "PVGL:ZVYYFOBEB",
+        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
+        "VQ:2014-026003",
+        "TCF:+38.635048,-75.194286",
+        "GVZR:07:43:45",
+        "K:YBAT ARPX EQ/FUBER CYNMN OYIQ");
+
+    qbGrfg("G82",
+        "(PNQ Nyreg) 80FG  Pnyy ng:31288 Evire Eq           Ybp:                         Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-025939 Yng:38596838Ybat:75203467QVFC:11:52:36Pebff Fg:JNEJVPX QE/YNLGBA QNIVF EQ",
         "FEP:80FG",
         "NQQE:31288 Evire Eq",
         "PVGL:ZVYYFOBEB",
-        "PNYY:Nhgbzngvp Sver Nynez",
-        "VQ:2014-022833",
+        "PNYY:Nynez Pbzcnal",
+        "VQ:2014-025939",
         "TCF:+38.596838,-75.203467",
-        "GVZR:21:28:32",
+        "GVZR:11:52:36",
         "K:JNEJVPX QE/YNLGBA QNIVF EQ");
 
-    qbGrfg("G13",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 26002 Wbua W Jvyyvnzf UjlYbp: Eranvffnapr Ahefvat naq EPvgl:19966  Ceboyrz:  Vagresnpvyyvgl/Cnyyvngvir-OYF   Vap#: 2014-022738    Yng: 38630150    Ybat: 75195610   QVFC: 15:33:12   Pebff Fg: CYNMN QE/FUREJBBQ SEFG",
-        "FEP:80FG",
-        "NQQE:26002 Wbua W Jvyyvnzf Ujl",
-        "CYNPR:Eranvffnapr Ahefvat naq E",
+    qbGrfg("G83",
+        "(PNQ Nyreg) 80O   Pnyy ng:24780 Fuberyvar Qe       Ybp:                         Pvgl:19966 Ceboyrz:Tnf Yrnx                      Vap#:2014-025874 Yng:38654972Ybat:75209145QVFC:16:00:44Pebff Fg:FRNOEBBX QE/ORNPU PBIR QE",
+        "FEP:80O",
+        "NQQE:24780 Fuberyvar Qe",
         "PVGL:ZVYYFOBEB",
-        "PNYY:Vagresnpvyyvgl/Cnyyvngvir-OYF",
-        "VQ:2014-022738",
-        "TCF:+38.630150,-75.195610",
-        "GVZR:15:33:12",
-        "K:CYNMN QE/FUREJBBQ SEFG");
+        "PNYY:Tnf Yrnx",
+        "VQ:2014-025874",
+        "TCF:+38.654972,-75.209145",
+        "GVZR:16:00:44",
+        "K:FRNOEBBX QE/ORNPU PBIR QE");
 
-    qbGrfg("G14",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 25866 - 25905 Evire Oraq Ybp: 25986 Ncg 208            Pvgl:19966  Ceboyrz:  Haxabja Ceboyrz(Zna Qbja)-OYF   Vap#: 2014-022739    Yng: 38633202    Ybat: 75192490   QVFC: 15:34:47   Pebff Fg: FUBER CYNMN OYIQ/FUBER CYNMN OYIQ",
+    qbGrfg("G84",
+        "(PNQ Nyreg) 80FG  Pnyy ng:25892 Fgneobneq Qe       Ybp:                         Pvgl:19966 Ceboyrz:Snyyf-OYF                     Vap#:2014-025834 Yng:38633286Ybat:75165893QVFC:06:41:33Pebff Fg:QVCYBZNG FG/SYNTFUVC QE",
         "FEP:80FG",
-        "NQQE:25866 - 25905 Evire Oraq",
-        "ZNQQE:25866 Evire Oraq",
-        "CYNPR:25986 Ncg 208",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Haxabja Ceboyrz(Zna Qbja)-OYF",
-        "VQ:2014-022739",
-        "TCF:+38.633202,-75.192490",
-        "GVZR:15:34:47",
-        "K:FUBER CYNMN OYIQ/FUBER CYNMN OYIQ");
-
-    qbGrfg("G15",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 25866 - 25905 Evire Oraq Ybp:                          Pvgl:19966  Ceboyrz:  Haxabja Ceboyrz(Zna Qbja)-OYF   Vap#: 2014-022739    Yng: 38633202    Ybat: 75192490   QVFC: 15:34:47   Pebff Fg: FUBER CYNMN OYIQ/FUBER CYNMN OYIQ",
-        "FEP:80FG",
-        "NQQE:25866 - 25905 Evire Oraq",
-        "ZNQQE:25866 Evire Oraq",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Haxabja Ceboyrz(Zna Qbja)-OYF",
-        "VQ:2014-022739",
-        "TCF:+38.633202,-75.192490",
-        "GVZR:15:34:47",
-        "K:FUBER CYNMN OYIQ/FUBER CYNMN OYIQ");
-
-    qbGrfg("G16",
-        "(PNQ Nyreg) 80N    Pnyy ng: WBUA W JVYYVNZF UJL / EBFYbp:                          Pvgl:       Ceboyrz:  Genssvp/GenafcbegngvbaNpqagNYF  Vap#: 2014-022377    Yng: 38606146    Ybat: 75212589   QVFC: 10:43:30   Pebff Fg: EBFQNYR EQ",
-        "FEP:80N",
-        "NQQE:WBUA W JVYYVNZF UJL & EBF",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
-        "VQ:2014-022377",
-        "TCF:+38.606146,-75.212589",
-        "GVZR:10:43:30",
-        "K:EBFQNYR EQ");
-
-    qbGrfg("G17",
-        "(PNQ Nyreg) 80N    Pnyy ng: Prehyrna Ya & Evire Eq   Ybp:                          Pvgl:19966  Ceboyrz:  Bhgfvqr Sver                    Vap#: 2014-022326    Yng: 38595736    Ybat: 75174803   QVFC: 20:59:54   Pebff Fg:",
-        "FEP:80N",
-        "NQQE:Prehyrna Ya & Evire Eq",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Bhgfvqr Sver",
-        "VQ:2014-022326",
-        "TCF:+38.595736,-75.174803",
-        "GVZR:20:59:54");
-
-    qbGrfg("G18",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 26528 Funfgn Jnl         Ybp:                          Pvgl:19966  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-022215    Yng: 38623050    Ybat: 75101931   QVFC: 15:51:10   Pebff Fg: VAQVNA YAQT/YHPXL YA",
-        "FEP:80FG",
-        "NQQE:26528 Funfgn Jnl",
+        "NQQE:25892 Fgneobneq Qe",
         "PVGL:ZVYYFOBEB",
         "PNYY:Snyyf-OYF",
-        "VQ:2014-022215",
-        "TCF:+38.623050,-75.101931",
-        "GVZR:15:51:10",
-        "K:VAQVNA YAQT/YHPXL YA");
+        "VQ:2014-025834",
+        "TCF:+38.633286,-75.165893",
+        "GVZR:06:41:33",
+        "K:QVCYBZNG FG/SYNTFUVC QE");
 
-    qbGrfg("G19",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 25905 Xvatf Ya           Ybp:                          Pvgl:19966  Ceboyrz:  Purfg Cnva-NYF                  Vap#: 2014-022217    Yng: 38631791    Ybat: 75174824   QVFC: 16:01:36   Pebff Fg: OVFUBC FG/XAVTUGF YA",
+    qbGrfg("G85",
+        "(PNQ Nyreg) 80FG  Pnyy ng:13 Grphzfru Cnff         Ybp:                         Pvgl:19966 Ceboyrz:Nynez Pbzcnal                 Vap#:2014-025789 Yng:38608685Ybat:75216222QVFC:15:05:58Pebff Fg:PUVRS WBFRCU GEY/PENML UBEFR GEY",
         "FEP:80FG",
-        "NQQE:25905 Xvatf Ya",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Purfg Cnva-NYF",
-        "VQ:2014-022217",
-        "TCF:+38.631791,-75.174824",
-        "GVZR:16:01:36",
-        "K:OVFUBC FG/XAVTUGF YA");
-
-    qbGrfg("G20",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 26594 Junesfvqr Pbir     Ybp:                          Pvgl:19966  Ceboyrz:  Purfg Cnva-NYF                  Vap#: 2014-022186    Yng: 38622641    Ybat: 75173852   QVFC: 10:56:30   Pebff Fg: PERRXJBBQ PVE/Qrnq Raq",
-        "FEP:80FG",
-        "NQQE:26594 Junesfvqr Pbir",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Purfg Cnva-NYF",
-        "VQ:2014-022186",
-        "TCF:+38.622641,-75.173852",
-        "GVZR:10:56:30",
-        "K:PERRXJBBQ PVE/Qrnq Raq");
-
-    qbGrfg("G21",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 35379 Fhffrk Ya          Ybp:                          Pvgl:19966  Ceboyrz:  Hapbafpvbhf/Snvagvat(Arne)-NYF  Vap#: 2014-022161    Yng: 38623127    Ybat: 75132651   QVFC: 07:11:08   Pebff Fg: PBIR QE/Qrnq Raq",
-        "FEP:80FG",
-        "NQQE:35379 Fhffrk Ya",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
-        "VQ:2014-022161",
-        "TCF:+38.623127,-75.132651",
-        "GVZR:07:11:08",
-        "K:PBIR QE/Qrnq Raq");
-
-    qbGrfg("G22",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 24736 Fuberyvar Qe       Ybp:                          Pvgl:19966  Ceboyrz:  Freivpr Pnyy-NZO                Vap#: 2014-022112    Yng: 38653470    Ybat: 75207799   QVFC: 15:58:20   Pebff Fg: BPRNA CVAR OYIQ/FRNOEBBX QE",
-        "FEP:80FG",
-        "NQQE:24736 Fuberyvar Qe",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Freivpr Pnyy-NZO",
-        "VQ:2014-022112",
-        "TCF:+38.653470,-75.207799",
-        "GVZR:15:58:20",
-        "K:BPRNA CVAR OYIQ/FRNOEBBX QE");
-
-    qbGrfg("G23",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 28192 Ynlgba Qnivf Eq    Ybp:                          Pvgl:19966  Ceboyrz:  Oernguvat Ceboyrzf-NYF          Vap#: 2014-022109    Yng: 38599924    Ybat: 75201033   QVFC: 15:26:10   Pebff Fg: W NAQ W YA/UBZR CY",
-        "FEP:80FG",
-        "NQQE:28192 Ynlgba Qnivf Eq",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Oernguvat Ceboyrzf-NYF",
-        "VQ:2014-022109",
-        "TCF:+38.599924,-75.201033",
-        "GVZR:15:26:10",
-        "K:W NAQ W YA/UBZR CY");
-
-    qbGrfg("G24",
-        "(PNQ Nyreg) 80FG   Pnyy ng: Pnzc Neebjurnq Eq & NeebjYbp:                          Pvgl:19958  Ceboyrz:  Fgehpgher Sver                  Vap#: 2014-021925    Yng: 38670376    Ybat: 75155729   QVFC: 01:55:35   Pebff Fg:",
-        "FEP:80FG",
-        "NQQE:Pnzc Neebjurnq Eq & Neebj",
-        "PVGL:YRJRF",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2014-021925",
-        "TCF:+38.670376,-75.155729",
-        "GVZR:01:55:35");
-
-    qbGrfg("G25",
-        "(PNQ Nyreg) 80P    Pnyy ng: 25063 Onaxf Eq           Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-021855    Yng: 38639711    Ybat: 75174637   QVFC: 04:03:02   Pebff Fg: EHQQRE EQ/ENZC",
-        "FEP:80P",
-        "NQQE:25063 Onaxf Eq",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-021855",
-        "TCF:+38.639711,-75.174637",
-        "GVZR:04:03:02",
-        "K:EHQQRE EQ/ENZC");
-
-    qbGrfg("G26",
-        "(PNQ Nyreg) 80O    Pnyy ng: 32 Cvarjngre Qe          Ybp:                          Pvgl:19951  Ceboyrz:  Nhgbzngvp Sver Nynez            Vap#: 2014-021826    Yng: 38656245    Ybat: 75174676   QVFC: 19:34:22   Pebff Fg: PRQNE YA/ZHYGVSYBEN QE",
-        "FEP:80O",
-        "NQQE:32 Cvarjngre Qe",
-        "PVGL:UNEORFBA",
-        "PNYY:Nhgbzngvp Sver Nynez",
-        "VQ:2014-021826",
-        "TCF:+38.656245,-75.174676",
-        "GVZR:19:34:22",
-        "K:PRQNE YA/ZHYGVSYBEN QE");
-
-    qbGrfg("G27",
-        "(PNQ Nyreg) 80P    Pnyy ng: 35583 F Benatr Fg        Ybp: Juvgr ubhfr Terra fuhggrePvgl:19966  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-NYF  Vap#: 2014-021815    Yng: 38630302    Ybat: 75130174   QVFC: 17:22:35   Pebff Fg: F PNANY FG/CYHZ FG",
-        "FEP:80P",
-        "NQQE:35583 F Benatr Fg",
-        "CYNPR:Juvgr ubhfr Terra fuhggre",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-NYF",
-        "VQ:2014-021815",
-        "TCF:+38.630302,-75.130174",
-        "GVZR:17:22:35",
-        "K:F PNANY FG/CYHZ FG");
-
-    qbGrfg("G28",
-        "(PNQ Nyreg) 80P    Pnyy ng: 36678 Ybat Arpx Eq       Ybp: Znffrlf Ynaqvat          Pvgl:19966  Ceboyrz:  Jngre Erfphr Cevbevgl 1         Vap#: 2014-021802    Yng: 38625415    Ybat: 75102220   QVFC: 15:43:02   Pebff Fg: WNFCRE IVRJ YA/ZNFFRLF YAQT",
-        "FEP:80P",
-        "NQQE:36678 Ybat Arpx Eq",
-        "CYNPR:Znffrlf Ynaqvat",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Jngre Erfphr Cevbevgl 1",
-        "VQ:2014-021802",
-        "TCF:+38.625415,-75.102220",
-        "GVZR:15:43:02",
-        "K:WNFCRE IVRJ YA/ZNFFRLF YAQT");
-
-    qbGrfg("G29",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 25935 Cynmn Qe           Ybp: ZRQVPNY NVQ NG YBATARPX  Pvgl:19966  Ceboyrz:  Hapbafpvbhf/Snvagvat(Arne)-NYF  Vap#: 2014-021791    Yng: 38631916    Ybat: 75193786   QVFC: 13:00:15   Pebff Fg: FUBER CYNMN OYIQ/WBUA W JVYYVNZF UJL",
-        "FEP:80FG",
-        "NQQE:25935 Cynmn Qe",
-        "CYNPR:ZRQVPNY NVQ NG YBATARPX",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
-        "VQ:2014-021791",
-        "TCF:+38.631916,-75.193786",
-        "GVZR:13:00:15",
-        "K:FUBER CYNMN OYIQ/WBUA W JVYYVNZF UJL");
-
-    qbGrfg("G30",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 30720 Zbhag Wbl Eq       Ybp: Vasbezngvba Qrfx ng gur CPvgl:19966  Ceboyrz:  Hapbafpvbhf/Snvagvat(Arne)-NYF  Vap#: 2014-021789    Yng: 38617160    Ybat: 75206310   QVFC: 12:53:56   Pebff Fg: ZVFFVBA CY/FUNEXRLF YA",
-        "FEP:80FG",
-        "NQQE:30720 Zbhag Wbl Eq",
-        "CYNPR:Vasbezngvba Qrfx ng gur C",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
-        "VQ:2014-021789",
-        "TCF:+38.617160,-75.206310",
-        "GVZR:12:53:56",
-        "K:ZVFFVBA CY/FUNEXRLF YA");
-
-    qbGrfg("G31",
-        "(PNQ Nyreg) 80N    Pnyy ng: 30720 Zbhag Wbl Eq       Ybp: Vasbezngvba Qrfx ng gur CPvgl:19966  Ceboyrz:  Hapbafpvbhf/Snvagvat(Arne)-NYF  Vap#: 2014-021789    Yng: 38617160    Ybat: 75206310   QVFC: 12:53:56   Pebff Fg: ZVFFVBA CY/FUNEXRLF YA",
-        "FEP:80N",
-        "NQQE:30720 Zbhag Wbl Eq",
-        "CYNPR:Vasbezngvba Qrfx ng gur C",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
-        "VQ:2014-021789",
-        "TCF:+38.617160,-75.206310",
-        "GVZR:12:53:56",
-        "K:ZVFFVBA CY/FUNEXRLF YA");
-
-    qbGrfg("G32",
-        "(PNQ Nyreg) 80N    Pnyy ng: 28366 Ryvmnorgu Fg       Ybp:                          Pvgl:19966  Ceboyrz:  Bqbe Vairfgvtngvba              Vap#: 2014-021692    Yng: 38598635    Ybat: 75174136   QVFC: 12:27:16   Pebff Fg: OBJQRA FG/W WNK CY",
-        "FEP:80N",
-        "NQQE:28366 Ryvmnorgu Fg",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Bqbe Vairfgvtngvba",
-        "VQ:2014-021692",
-        "TCF:+38.598635,-75.174136",
-        "GVZR:12:27:16",
-        "K:OBJQRA FG/W WNK CY");
-
-    qbGrfg("G33",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 27851 Puevf Qe           Ybp:                          Pvgl:19966  Ceboyrz:  Qvnorgvp Ceboyrzf-OYF           Vap#: 2014-021682    Yng: 38605746    Ybat: 75191486   QVFC: 10:12:40   Pebff Fg: YNEEL QE/Qrnq Raq",
-        "FEP:80FG",
-        "NQQE:27851 Puevf Qe",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Qvnorgvp Ceboyrzf-OYF",
-        "VQ:2014-021682",
-        "TCF:+38.605746,-75.191486",
-        "GVZR:10:12:40",
-        "K:YNEEL QE/Qrnq Raq");
-
-    qbGrfg("G34",
-        "(PNQ Nyreg) 80P    Pnyy ng: 32980 Ybat Arpx Eq       Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-021613    Yng: 38628378    Ybat: 75161261   QVFC: 15:18:42   Pebff Fg: EVQTRJBBQ EQ/CBG ARGF EQ",
-        "FEP:80P",
-        "NQQE:32980 Ybat Arpx Eq",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-021613",
-        "TCF:+38.628378,-75.161261",
-        "GVZR:15:18:42",
-        "K:EVQTRJBBQ EQ/CBG ARGF EQ");
-
-    qbGrfg("G35",
-        "(PNQ Nyreg) 80O    Pnyy ng: Onaxf Eq & Terra Eq      Ybp:                          Pvgl:19966  Ceboyrz:  Ryrpgevpny Unmneq               Vap#: 2014-021539    Yng: 38647175    Ybat: 75176767   QVFC: 17:51:04   Pebff Fg:",
-        "FEP:80O",
-        "NQQE:Onaxf Eq & Terra Eq",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Ryrpgevpny Unmneq",
-        "VQ:2014-021539",
-        "TCF:+38.647175,-75.176767",
-        "GVZR:17:51:04");
-
-    qbGrfg("G36",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 38163 Ebovafbaf Qe       Ybp: whfg va gvzr             Pvgl:19971  Ceboyrz:  Fgehpgher Sver                  Vap#: 2014-021472    Yng: 38705030    Ybat: 75084342   QVFC: 23:26:37   Pebff Fg: PBNFGNY UJL/SVFURE FG",
-        "FEP:80FG",
-        "NQQE:38163 Ebovafbaf Qe",
-        "CYNPR:whfg va gvzr",
-        "PVGL:ERUBOBGU ORNPU",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2014-021472",
-        "TCF:+38.705030,-75.084342",
-        "GVZR:23:26:37",
-        "K:PBNFGNY UJL/SVFURE FG");
-
-    qbGrfg("G37",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 38100 - 38121 Ebovafbaf QYbp: Whfg Va Gvzr             Pvgl:19971  Ceboyrz:  Fgehpgher Sver                  Vap#: 2014-021422    Yng: 38704545    Ybat: 75085090   QVFC: 13:47:29   Pebff Fg: PBNFGNY UJL/SVFURE FG",
-        "FEP:80FG",
-        "NQQE:38100 - 38121 Ebovafbaf Q",
-        "ZNQQE:38100 Ebovafbaf Q",
-        "CYNPR:Whfg Va Gvzr",
-        "PVGL:ERUBOBGU ORNPU",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2014-021422",
-        "TCF:+38.704545,-75.085090",
-        "GVZR:13:47:29",
-        "K:PBNFGNY UJL/SVFURE FG");
-
-    qbGrfg("G38",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 32711 Ybat Arpx Eq       Ybp: Prqne Gerr Zrqvpny PragrePvgl:19966  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-NYF  Vap#: 2014-021412    Yng: 38629293    Ybat: 75170170   QVFC: 12:05:43   Pebff Fg: BNX SBERFG CNEX/YNXRFUBER OYIQ",
-        "FEP:80FG",
-        "NQQE:32711 Ybat Arpx Eq",
-        "CYNPR:Prqne Gerr Zrqvpny Pragre",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-NYF",
-        "VQ:2014-021412",
-        "TCF:+38.629293,-75.170170",
-        "GVZR:12:05:43",
-        "K:BNX SBERFG CNEX/YNXRFUBER OYIQ");
-
-    qbGrfg("G39",
-        "(PNQ Nyreg) 80P    Pnyy ng: 2 - 34699 Evatobyg Nir   Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagNYF  Vap#: 2014-021290    Yng: 38617082    Ybat: 75147858   QVFC: 00:20:19   Pebff Fg: UNYS FURYY CBAQ EQ/FYBBC NIR",
-        "FEP:80P",
-        "NQQE:2 - 34699 Evatobyg Nir",
-        "ZNQQE:2 Evatobyg Nir",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
-        "VQ:2014-021290",
-        "TCF:+38.617082,-75.147858",
-        "GVZR:00:20:19",
-        "K:UNYS FURYY CBAQ EQ/FYBBC NIR");
-
-    qbGrfg("G40",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 26464 Pbggbagnvy Pbir    Ybp:                          Pvgl:19966  Ceboyrz:  Hapbafpvbhf/Snvagvat(Arne)-NYF  Vap#: 2014-021282    Yng: 38624743    Ybat: 75177159   QVFC: 22:29:59   Pebff Fg: YNXRFUBER PVE/Qrnq Raq",
-        "FEP:80FG",
-        "NQQE:26464 Pbggbagnvy Pbir",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Hapbafpvbhf/Snvagvat(Arne)-NYF",
-        "VQ:2014-021282",
-        "TCF:+38.624743,-75.177159",
-        "GVZR:22:29:59",
-        "K:YNXRFUBER PVE/Qrnq Raq");
-
-    qbGrfg("G41",
-        "(PNQ Nyreg) 8010   Pnyy ng: 27344 ONL EQ             Ybp: CNENQVFR TEVYY           Pvgl:       Ceboyrz:  Snyyf-OYF                       Vap#: 2014-021281    Yng: 38611060    Ybat: 75149259   QVFC: 22:19:38   Pebff Fg: HAANZRQ FGERRG",
-        "FEP:8010",
-        "NQQE:27344 ONL EQ",
-        "CYNPR:CNENQVFR TEVYY",
-        "PNYY:Snyyf-OYF",
-        "VQ:2014-021281",
-        "TCF:+38.611060,-75.149259",
-        "GVZR:22:19:38",
-        "K:HAANZRQ FGERRG");
-
-    qbGrfg("G42",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 27344 ONL EQ             Ybp: CNENQVFR TEVYY           Pvgl:       Ceboyrz:  Snyyf-OYF                       Vap#: 2014-021281    Yng: 38611060    Ybat: 75149259   QVFC: 22:19:38   Pebff Fg: HAANZRQ FGERRG",
-        "FEP:80FG",
-        "NQQE:27344 ONL EQ",
-        "CYNPR:CNENQVFR TEVYY",
-        "PNYY:Snyyf-OYF",
-        "VQ:2014-021281",
-        "TCF:+38.611060,-75.149259",
-        "GVZR:22:19:38",
-        "K:HAANZRQ FGERRG");
-
-    qbGrfg("G43",
-        "(PNQ Nyreg) 80O    Pnyy ng: Onaxf Eq & Ybat Arpx Eq  Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-021279    Yng: 38632429    Ybat: 75181762   QVFC: 22:07:32   Pebff Fg:",
-        "FEP:80O",
-        "NQQE:Onaxf Eq & Ybat Arpx Eq",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-021279",
-        "TCF:+38.632429,-75.181762",
-        "GVZR:22:07:32");
-
-    qbGrfg("G44",
-        "(PNQ Nyreg) 80O    Pnyy ng: 1 - 11 R Snezvatgba Fg   Ybp: ba gur ornpu             Pvgl:19944  Ceboyrz:  Jngre Erfphr Cevbevgl 1         Vap#: 2014-021253    Yng: 38461433    Ybat: 75051906   QVFC: 17:33:34   Pebff Fg: PBAARPGVAT EBNQ/OHAGVAT NIR",
-        "FEP:80O",
-        "NQQE:1 - 11 R Snezvatgba Fg",
-        "ZNQQE:1 R Snezvatgba Fg",
-        "CYNPR:ba gur ornpu",
-        "PVGL:SRAJVPX VFYNAQ",
-        "PNYY:Jngre Erfphr Cevbevgl 1",
-        "VQ:2014-021253",
-        "TCF:+38.461433,-75.051906",
-        "GVZR:17:33:34",
-        "K:PBAARPGVAT EBNQ/OHAGVAT NIR");
-
-    qbGrfg("G45",
-        "(PNQ Nyreg) 80P    Pnyy ng: 26810 - 26881 Qvire Qhpx Ybp: 26861                    Pvgl:19966  Ceboyrz:  Nhgbzngvp Sver Nynez            Vap#: 2014-021222    Yng: 38620014    Ybat: 75101369   QVFC: 14:03:49   Pebff Fg: PHEYRJ JNL/YNAQVAT EQ",
-        "FEP:80P",
-        "NQQE:26810 - 26881 Qvire Qhpx",
-        "ZNQQE:26810 Qvire Qhpx",
-        "CYNPR:26861",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Nhgbzngvp Sver Nynez",
-        "VQ:2014-021222",
-        "TCF:+38.620014,-75.101369",
-        "GVZR:14:03:49",
-        "K:PHEYRJ JNL/YNAQVAT EQ");
-
-    qbGrfg("G46",
-        "(PNQ Nyreg) 80N    Pnyy ng: 35105 Frnunjx Ya         Ybp:                          Pvgl:19966  Ceboyrz:  Snyyf-OYF                       Vap#: 2014-021130    Yng: 38630025    Ybat: 75138852   QVFC: 17:35:07   Pebff Fg: ONL OYIQ/FRNTHYY EQ",
-        "FEP:80N",
-        "NQQE:35105 Frnunjx Ya",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Snyyf-OYF",
-        "VQ:2014-021130",
-        "TCF:+38.630025,-75.138852",
-        "GVZR:17:35:07",
-        "K:ONL OYIQ/FRNTHYY EQ");
-
-    qbGrfg("G47",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 35442 Wbnaa Qe           Ybp:                          Pvgl:19966  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-NYF  Vap#: 2014-021129    Yng: 38625544    Ybat: 75130370   QVFC: 17:25:12   Pebff Fg: PBIR QE/WRAAVSRE YRR QE",
-        "FEP:80FG",
-        "NQQE:35442 Wbnaa Qe",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-NYF",
-        "VQ:2014-021129",
-        "TCF:+38.625544,-75.130370",
-        "GVZR:17:25:12",
-        "K:PBIR QE/WRAAVSRE YRR QE");
-
-    qbGrfg("G48",
-        "(PNQ Nyreg) 80P    Pnyy ng: 0                        Ybp: Cbg Argf Onlfvqr bssvpr oPvgl:       Ceboyrz:  Genssvp/GenafcbegngvbaNpqagNYF  Vap#: 2014-020981    Yng: 38620278    Ybat: 75151667   QVFC: 13:59:28   Pebff Fg:",
-        "FEP:80P",
-        "ZNQQE:+38.620278,-75.151667",
-        "CYNPR:Cbg Argf Onlfvqr bssvpr o",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
-        "VQ:2014-020981",
-        "TCF:+38.620278,-75.151667",
-        "GVZR:13:59:28");
-
-    qbGrfg("G49",
-        "(PNQ Nyreg) 80O    Pnyy ng: 33559 Jvaqfjrcg Qe       Ybp: Ohvyqvat 11              Pvgl:19966  Ceboyrz:  Nhgbzngvp Sver Nynez            Vap#: 2014-020849    Yng: 38606600    Ybat: 75166006   QVFC: 01:31:17   Pebff Fg: FGREYVAT OYIQ/Qrnq Raq",
-        "FEP:80O",
-        "NQQE:33559 Jvaqfjrcg Qe",
-        "CYNPR:Ohvyqvat 11",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Nhgbzngvp Sver Nynez",
-        "VQ:2014-020849",
-        "TCF:+38.606600,-75.166006",
-        "GVZR:01:31:17",
-        "K:FGREYVAT OYIQ/Qrnq Raq");
-
-    qbGrfg("G50",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 32834 Grea Pbir          Ybp:                          Pvgl:19966  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-NYF  Vap#: 2014-020708    Yng: 38624376    Ybat: 75178932   QVFC: 10:19:46   Pebff Fg: YNXRFUBER PVE/YNAQYHOORE PBIR",
-        "FEP:80FG",
-        "NQQE:32834 Grea Pbir",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-NYF",
-        "VQ:2014-020708",
-        "TCF:+38.624376,-75.178932",
-        "GVZR:10:19:46",
-        "K:YNXRFUBER PVE/YNAQYHOORE PBIR");
-
-    qbGrfg("G51",
-        "(PNQ Nyreg) 80P    Pnyy ng: Ybat Arpx Eq & Onaxf Eq  Ybp: vgnb fgn 80              Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagNYF  Vap#: 2014-020653    Yng: 38632429    Ybat: 75181762   QVFC: 18:04:45   Pebff Fg:",
-        "FEP:80P",
-        "NQQE:Ybat Arpx Eq & Onaxf Eq",
-        "CYNPR:vgnb fgn 80",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
-        "VQ:2014-020653",
-        "TCF:+38.632429,-75.181762",
-        "GVZR:18:04:45");
-
-    qbGrfg("G52",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 30512 ZBHAG WBL EQ       Ybp:                          Pvgl:       Ceboyrz:  Genssvp/GenafcbegngvbaNpqagNYF  Vap#: 2014-020651    Yng: 38620769    Ybat: 75211700   QVFC: 17:51:45   Pebff Fg: PBEQERL EQ/ZVFFVBA CY",
-        "FEP:80FG",
-        "NQQE:30512 ZBHAG WBL EQ",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
-        "VQ:2014-020651",
-        "TCF:+38.620769,-75.211700",
-        "GVZR:17:51:45",
-        "K:PBEQERL EQ/ZVFFVBA CY");
-
-    qbGrfg("G53",
-        "(PNQ Nyreg) 80P    Pnyy ng: Ybat Arpx Eq & Juvgr UbhfYbp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-020467    Yng: 38622399    Ybat: 75137002   QVFC: 19:58:29   Pebff Fg:",
-        "FEP:80P",
-        "NQQE:Ybat Arpx Eq & Juvgr Ubhf",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-020467",
-        "TCF:+38.622399,-75.137002",
-        "GVZR:19:58:29");
-
-    qbGrfg("G54",
-        "(PNQ Nyreg) 80N    Pnyy ng: 34815 Wvo Fg             Ybp: Yvsg Nffvfg - Juvgr j/ TePvgl:19966  Ceboyrz:  Freivpr Pnyy-NZO                Vap#: 2014-020335    Yng: 38622046    Ybat: 75143097   QVFC: 07:31:41   Pebff Fg: FGNEOBNEQ EQ/CBEG EQ",
-        "FEP:80N",
-        "NQQE:34815 Wvo Fg",
-        "CYNPR:Yvsg Nffvfg - Juvgr j/ Te",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Freivpr Pnyy-NZO",
-        "VQ:2014-020335",
-        "TCF:+38.622046,-75.143097",
-        "GVZR:07:31:41",
-        "K:FGNEOBNEQ EQ/CBEG EQ");
-
-    qbGrfg("G55",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 24736 Fuberyvar Qe       Ybp:                          Pvgl:19966  Ceboyrz:  Freivpr Pnyy-NZO                Vap#: 2014-020235    Yng: 38653470    Ybat: 75207799   QVFC: 08:57:57   Pebff Fg: BPRNA CVAR OYIQ/FRNOEBBX QE",
-        "FEP:80FG",
-        "NQQE:24736 Fuberyvar Qe",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Freivpr Pnyy-NZO",
-        "VQ:2014-020235",
-        "TCF:+38.653470,-75.207799",
-        "GVZR:08:57:57",
-        "K:BPRNA CVAR OYIQ/FRNOEBBX QE");
-
-    qbGrfg("G56",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 28643 Anagvpbxr Nir      Ybp:                          Pvgl:19966  Ceboyrz:  Fgebxr-NYF                      Vap#: 2014-020182    Yng: 38594884    Ybat: 75181031   QVFC: 15:50:01   Pebff Fg: ABEGU NIR/EVIRE EQ",
-        "FEP:80FG",
-        "NQQE:28643 Anagvpbxr Nir",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Fgebxr-NYF",
-        "VQ:2014-020182",
-        "TCF:+38.594884,-75.181031",
-        "GVZR:15:50:01",
-        "K:ABEGU NIR/EVIRE EQ");
-
-    qbGrfg("G57",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 28433 Zlegyr Nir         Ybp:                          Pvgl:19966  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-NYF  Vap#: 2014-020080    Yng: 38597779    Ybat: 75174451   QVFC: 15:50:25   Pebff Fg: QRYNJNER NIR/Qrnq Raq",
-        "FEP:80FG",
-        "NQQE:28433 Zlegyr Nir",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-NYF",
-        "VQ:2014-020080",
-        "TCF:+38.597779,-75.174451",
-        "GVZR:15:50:25",
-        "K:QRYNJNER NIR/Qrnq Raq");
-
-    qbGrfg("G58",
-        "(PNQ Nyreg) 80O    Pnyy ng: 25285 Onaxf Eq           Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-020026    Yng: 38635396    Ybat: 75180766   QVFC: 08:41:15   Pebff Fg: EHQQRE EQ/ENZC",
-        "FEP:80O",
-        "NQQE:25285 Onaxf Eq",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-020026",
-        "TCF:+38.635396,-75.180766",
-        "GVZR:08:41:15",
-        "K:EHQQRE EQ/ENZC");
-
-    qbGrfg("G59",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 30996 Percr Zlegyr Qe    Ybp:                          Pvgl:19966  Ceboyrz:  Nhgbzngvp Sver Nynez            Vap#: 2014-019954    Yng: 38594002    Ybat: 75210758   QVFC: 12:51:48   Pebff Fg: TNMROB JNL/JNEJVPX PBIR JNL",
-        "FEP:80FG",
-        "NQQE:30996 Percr Zlegyr Qe",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Nhgbzngvp Sver Nynez",
-        "VQ:2014-019954",
-        "TCF:+38.594002,-75.210758",
-        "GVZR:12:51:48",
-        "K:TNMROB JNL/JNEJVPX PBIR JNL");
-
-    qbGrfg("G60",
-        "(PNQ Nyreg) 80N    Pnyy ng: 26002 Wbua W Jvyyvnzf UjlYbp: Eranvffnapr Ahefvat naq EPvgl:19966  Ceboyrz:  Vagresnpvyyvgl/Cnyyvngvir-NYF   Vap#: 2014-019919    Yng: 38630150    Ybat: 75195610   QVFC: 05:28:29   Pebff Fg: CYNMN QE/FUREJBBQ SEFG",
-        "FEP:80N",
-        "NQQE:26002 Wbua W Jvyyvnzf Ujl",
-        "CYNPR:Eranvffnapr Ahefvat naq E",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Vagresnpvyyvgl/Cnyyvngvir-NYF",
-        "VQ:2014-019919",
-        "TCF:+38.630150,-75.195610",
-        "GVZR:05:28:29",
-        "K:CYNMN QE/FUREJBBQ SEFG");
-
-    qbGrfg("G61",
-        "(PNQ Nyreg) 80N    Pnyy ng: CBG ARGF EQ / YBAT ARPX EYbp:                          Pvgl:       Ceboyrz:  Jverf Qbja/Nepuvat              Vap#: 2014-019917    Yng: 38628581    Ybat: 75160579   QVFC: 05:19:17   Pebff Fg: CBG ARGF EQ",
-        "FEP:80N",
-        "NQQE:CBG ARGF EQ & YBAT ARPX E",
-        "PNYY:Jverf Qbja/Nepuvat",
-        "VQ:2014-019917",
-        "TCF:+38.628581,-75.160579",
-        "GVZR:05:19:17",
-        "K:CBG ARGF EQ");
-
-    qbGrfg("G62",
-        "(PNQ Nyreg) 80P    Pnyy ng: CBG ARGF EQ / YBAT ARPX EYbp:                          Pvgl:       Ceboyrz:  Jverf Qbja/Nepuvat              Vap#: 2014-019917    Yng: 38628581    Ybat: 75160579   QVFC: 05:19:17   Pebff Fg: CBG ARGF EQ",
-        "FEP:80P",
-        "NQQE:CBG ARGF EQ & YBAT ARPX E",
-        "PNYY:Jverf Qbja/Nepuvat",
-        "VQ:2014-019917",
-        "TCF:+38.628581,-75.160579",
-        "GVZR:05:19:17",
-        "K:CBG ARGF EQ");
-
-    qbGrfg("G63",
-        "(PNQ Nyreg) 80P    Pnyy ng: 0                        Ybp: Cbg Argf Onlfvqr Rnfg TngPvgl:       Ceboyrz:  Tenff Sver                      Vap#: 2014-019788    Yng: 38623333    Ybat: 75140556   QVFC: 18:41:56   Pebff Fg:",
-        "FEP:80P",
-        "ZNQQE:+38.623333,-75.140556",
-        "CYNPR:Cbg Argf Onlfvqr Rnfg Tng",
-        "PNYY:Tenff Sver",
-        "VQ:2014-019788",
-        "TCF:+38.623333,-75.140556",
-        "GVZR:18:41:56");
-
-    qbGrfg("G64",
-        "(PNQ Nyreg) 80O    Pnyy ng: Wbua W Jvyyvnzf Ujl & YbaYbp: Va sebag bs Zpqbanyqf    Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-019749    Yng: 38635752    Ybat: 75194091   QVFC: 11:56:43   Pebff Fg:",
-        "FEP:80O",
-        "NQQE:Wbua W Jvyyvnzf Ujl & Yba",
-        "CYNPR:Va sebag bs Zpqbanyqf",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-019749",
-        "TCF:+38.635752,-75.194091",
-        "GVZR:11:56:43");
-
-    qbGrfg("G65",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 34151 Terra Ubyyl Eq     Ybp:                          Pvgl:19966  Ceboyrz:  Pneqvnp/Erfc./Qrngu-NYF         Vap#: 2014-019742    Yng: 38613613    Ybat: 75155209   QVFC: 11:27:18   Pebff Fg: VAQVNA PNOVA PERRX EQ/CVARAOEVAR EQ",
-        "FEP:80FG",
-        "NQQE:34151 Terra Ubyyl Eq",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Pneqvnp/Erfc./Qrngu-NYF",
-        "VQ:2014-019742",
-        "TCF:+38.613613,-75.155209",
-        "GVZR:11:27:18",
-        "K:VAQVNA PNOVA PERRX EQ/CVARAOEVAR EQ");
-
-    qbGrfg("G66",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 34715 Whqqf Wrggl Qe     Ybp: Whqqf Wrggl              Pvgl:19966  Ceboyrz:  Fgehpgher Sver                  Vap#: 2014-019712    Yng: 38639607    Ybat: 75145734   QVFC: 00:38:21   Pebff Fg: PBZR NOBHG PVE/PBZR NOBHG PVE",
-        "FEP:80FG",
-        "NQQE:34715 Whqqf Wrggl Qe",
-        "CYNPR:Whqqf Wrggl",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2014-019712",
-        "TCF:+38.639607,-75.145734",
-        "GVZR:00:38:21",
-        "K:PBZR NOBHG PVE/PBZR NOBHG PVE");
-
-    qbGrfg("G67",
-        "(PNQ Nyreg) 80O    Pnyy ng: 25935 Cynmn Qe           Ybp: Arne Qbyyne Gerr         Pvgl:19966  Ceboyrz:  Iruvpyr Sver                    Vap#: 2014-019687    Yng: 38631916    Ybat: 75193786   QVFC: 18:28:10   Pebff Fg: FUBER CYNMN OYIQ/WBUA W JVYYVNZF UJL",
-        "FEP:80O",
-        "NQQE:25935 Cynmn Qe",
-        "CYNPR:Arne Qbyyne Gerr",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Iruvpyr Sver",
-        "VQ:2014-019687",
-        "TCF:+38.631916,-75.193786",
-        "GVZR:18:28:10",
-        "K:FUBER CYNMN OYIQ/WBUA W JVYYVNZF UJL");
-
-    qbGrfg("G68",
-        "(PNQ Nyreg) 80O    Pnyy ng: 26579 Enyrvtu Eq         Ybp: Ivpgbevnf Ynaqvat        Pvgl:19966  Ceboyrz:  Nccyvnapr Sver                  Vap#: 2014-019371    Yng: 38623489    Ybat: 75196290   QVFC: 15:47:35   Pebff Fg: IVPGBEVNF YNAQVAT EQ/QRIBAFUVER EQ",
-        "FEP:80O",
-        "NQQE:26579 Enyrvtu Eq",
-        "CYNPR:Ivpgbevnf Ynaqvat",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Nccyvnapr Sver",
-        "VQ:2014-019371",
-        "TCF:+38.623489,-75.196290",
-        "GVZR:15:47:35",
-        "K:IVPGBEVNF YNAQVAT EQ/QRIBAFUVER EQ");
-
-    qbGrfg("G69",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 27146 Wbua W Jvyyvnzf UjlYbp:                          Pvgl:19966  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-OYF  Vap#: 2014-019369    Yng: 38605987    Ybat: 75213484   QVFC: 15:15:43   Pebff Fg: ZNTRAGN YA/NEEBJURNQ GEY",
-        "FEP:80FG",
-        "NQQE:27146 Wbua W Jvyyvnzf Ujl",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
-        "VQ:2014-019369",
-        "TCF:+38.605987,-75.213484",
-        "GVZR:15:15:43",
-        "K:ZNTRAGN YA/NEEBJURNQ GEY");
-
-    qbGrfg("G70",
-        "(PNQ Nyreg) 80O    Pnyy ng: 27571 Znlsvryq Eq        Ybp:                          Pvgl:19966  Ceboyrz:  Nhgbzngvp Sver Nynez            Vap#: 2014-019331    Yng: 38623913    Ybat: 75195617   QVFC: 07:37:28   Pebff Fg: IVPGBEVNF YNAQVAT EQ/QRIBAFUVER EQ",
-        "FEP:80O",
-        "NQQE:27571 Znlsvryq Eq",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Nhgbzngvp Sver Nynez",
-        "VQ:2014-019331",
-        "TCF:+38.623913,-75.195617",
-        "GVZR:07:37:28",
-        "K:IVPGBEVNF YNAQVAT EQ/QRIBAFUVER EQ");
-
-    qbGrfg("G71",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 32267 Pyhoubhfr Jnl      Ybp: Onljbbq Pyhoubhfr        Pvgl:19966  Ceboyrz:  Nynez Pbzcnal                   Vap#: 2014-019288    Yng: 38643734    Ybat: 75187793   QVFC: 14:58:09   Pebff Fg: TERRAF JNL/TERRAF JNL",
-        "FEP:80FG",
-        "NQQE:32267 Pyhoubhfr Jnl",
-        "CYNPR:Onljbbq Pyhoubhfr",
+        "NQQE:13 Grphzfru Cnff",
         "PVGL:ZVYYFOBEB",
         "PNYY:Nynez Pbzcnal",
-        "VQ:2014-019288",
-        "TCF:+38.643734,-75.187793",
-        "GVZR:14:58:09",
-        "K:TERRAF JNL/TERRAF JNL");
+        "VQ:2014-025789",
+        "TCF:+38.608685,-75.216222",
+        "GVZR:15:05:58",
+        "K:PUVRS WBFRCU GEY/PENML UBEFR GEY");
 
-    qbGrfg("G72",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 10 Fvbhk Qe              Ybp:                          Pvgl:19966  Ceboyrz:  Ryrpgevpny Sver                 Vap#: 2014-019227    Yng: 38598490    Ybat: 75209153   QVFC: 22:19:55   Pebff Fg: NCNPUR NIR/PUREBXRR PG",
-        "FEP:80FG",
-        "NQQE:10 Fvbhk Qe",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Ryrpgevpny Sver",
-        "VQ:2014-019227",
-        "TCF:+38.598490,-75.209153",
-        "GVZR:22:19:55",
-        "K:NCNPUR NIR/PUREBXRR PG");
-
-    qbGrfg("G73",
-        "(PNQ Nyreg) 80O    Pnyy ng: Ybat Arpx Eq & Ehqqre Eq Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-019161    Yng: 38630217    Ybat: 75173580   QVFC: 10:28:16   Pebff Fg:",
-        "FEP:80O",
-        "NQQE:Ybat Arpx Eq & Ehqqre Eq",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-019161",
-        "TCF:+38.630217,-75.173580",
-        "GVZR:10:28:16");
-
-    qbGrfg("G74",
-        "(PNQ Nyreg) 80O    Pnyy ng: 32762 Fcevat Jngre Qe    Ybp:                          Pvgl:19966  Ceboyrz:  Nhgbzngvp Sver Nynez            Vap#: 2014-018985    Yng: 38623202    Ybat: 75182344   QVFC: 17:50:51   Pebff Fg: IVFGN QE/Qrnq Raq",
-        "FEP:80O",
-        "NQQE:32762 Fcevat Jngre Qe",
+    qbGrfg("G86",
+        "(PNQ Nyreg) 80P   Pnyy ng:26352 Gvzoreperrx Ya     Ybp:                         Pvgl:19966 Ceboyrz:Nhgbzngvp Sver Nynez          Vap#:2014-025695 Yng:38627988Ybat:75180164QVFC:14:55:31Pebff Fg:BIREYBBX PG/OYNPX QHPX PG",
+        "FEP:80P",
+        "NQQE:26352 Gvzoreperrx Ya",
         "PVGL:ZVYYFOBEB",
         "PNYY:Nhgbzngvp Sver Nynez",
-        "VQ:2014-018985",
-        "TCF:+38.623202,-75.182344",
-        "GVZR:17:50:51",
-        "K:IVFGN QE/Qrnq Raq");
-
-    qbGrfg("G75",
-        "(PNQ Nyreg) 80O    Pnyy ng: 26336 Gvzoreperrx Ya     Ybp:                          Pvgl:19966  Ceboyrz:  Puvyq Ybpxrq va Iruvpyr         Vap#: 2014-018878    Yng: 38627498    Ybat: 75180791   QVFC: 16:50:16   Pebff Fg: BIREYBBX PG/OYNPX QHPX PG",
-        "FEP:80O",
-        "NQQE:26336 Gvzoreperrx Ya",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Puvyq Ybpxrq va Iruvpyr",
-        "VQ:2014-018878",
-        "TCF:+38.627498,-75.180791",
-        "GVZR:16:50:16",
+        "VQ:2014-025695",
+        "TCF:+38.627988,-75.180164",
+        "GVZR:14:55:31",
         "K:BIREYBBX PG/OYNPX QHPX PG");
-
-    qbGrfg("G76",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 19540 Pbnfgny Ujl        Ybp: Rpbab Ybqtr              Pvgl:19971  Ceboyrz:  Fgehpgher Sver                  Vap#: 2014-018876    Yng: 38719820    Ybat: 75117466   QVFC: 15:51:16   Pebff Fg: PNZRYBG QE/OYHR OVEQ YA",
-        "FEP:80FG",
-        "NQQE:19540 Pbnfgny Ujl",
-        "CYNPR:Rpbab Ybqtr",
-        "PVGL:ERUBOBGU ORNPU",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2014-018876",
-        "TCF:+38.719820,-75.117466",
-        "GVZR:15:51:16",
-        "K:PNZRYBG QE/OYHR OVEQ YA");
-
-    qbGrfg("G77",
-        "(PNQ Nyreg) 80P    Pnyy ng: Ybat Arpx Eq & Fpubby Ya Ybp:                          Pvgl:19966  Ceboyrz:  Genssvp/GenafcbegngvbaNpqagOYF  Vap#: 2014-018858    Yng: 38632429    Ybat: 75181762   QVFC: 12:51:28   Pebff Fg:",
-        "FEP:80P",
-        "NQQE:Ybat Arpx Eq & Fpubby Ya",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "VQ:2014-018858",
-        "TCF:+38.632429,-75.181762",
-        "GVZR:12:51:28");
-
-    qbGrfg("G78",
-        "(PNQ Nyreg) 80P    Pnyy ng: 25790 - 25809 Xvatf Ya   Ybp: 25859                    Pvgl:19966  Ceboyrz:  Fgehpgher Sver                  Vap#: 2014-018659    Yng: 38634244    Ybat: 75173659   QVFC: 12:09:48   Pebff Fg: CEVAPR FG/OVFUBC FG",
-        "FEP:80P",
-        "NQQE:25790 - 25809 Xvatf Ya",
-        "ZNQQE:25790 Xvatf Ya",
-        "CYNPR:25859",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2014-018659",
-        "TCF:+38.634244,-75.173659",
-        "GVZR:12:09:48",
-        "K:CEVAPR FG/OVFUBC FG");
-
-    qbGrfg("G79",
-        "(PNQ Nyreg) 80N    Pnyy ng: 117 Penml Ubefr Gey      Ybp:                          Pvgl:19966  Ceboyrz:  Fgehpgher Sver                  Vap#: 2014-018618    Yng: 38612295    Ybat: 75216008   QVFC: 22:59:01   Pebff Fg: YVGGYR BJY GEY/Qrnq Raq",
-        "FEP:80N",
-        "NQQE:117 Penml Ubefr Gey",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2014-018618",
-        "TCF:+38.612295,-75.216008",
-        "GVZR:22:59:01",
-        "K:YVGGYR BJY GEY/Qrnq Raq");
-
-    qbGrfg("G80",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 26002 Wbua W Jvyyvnzf UjlYbp: Eranvffnapr/erubo.106o   Pvgl:19966  Ceboyrz:  Vagresnpvyyvgl/Cnyyvngvir-NYF   Vap#: 2014-018595    Yng: 38630150    Ybat: 75195610   QVFC: 17:20:22   Pebff Fg: CYNMN QE/FUREJBBQ SEFG",
-        "FEP:80FG",
-        "NQQE:26002 Wbua W Jvyyvnzf Ujl",
-        "CYNPR:Eranvffnapr/erubo.106o",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Vagresnpvyyvgl/Cnyyvngvir-NYF",
-        "VQ:2014-018595",
-        "TCF:+38.630150,-75.195610",
-        "GVZR:17:20:22",
-        "K:CYNMN QE/FUREJBBQ SEFG");
-
-    qbGrfg("G81",
-        "(PNQ Nyreg) 80FG   Pnyy ng: 28375 Pynex Nir          Ybp:                          Pvgl:19966  Ceboyrz:  Purfg Cnva-NYF                  Vap#: 2014-018559    Yng: 38598379    Ybat: 75181800   QVFC: 11:09:21   Pebff Fg: Qrnq Raq/ABEGU NIR",
-        "FEP:80FG",
-        "NQQE:28375 Pynex Nir",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Purfg Cnva-NYF",
-        "VQ:2014-018559",
-        "TCF:+38.598379,-75.181800",
-        "GVZR:11:09:21",
-        "K:Qrnq Raq/ABEGU NIR");
-
-    qbGrfg("G82",
-        "(PNQ Nyreg) 80O    Pnyy ng: 24912 Pebbxrq Fgvpx Jnl  Ybp:                          Pvgl:19966  Ceboyrz:  Pneqvnp/Erfc./Qrngu-NYF         Vap#: 2014-018541    Yng: 38652196    Ybat: 75187101   QVFC: 07:07:15   Pebff Fg: QVZCYR JNL/YBO JNL",
-        "FEP:80O",
-        "NQQE:24912 Pebbxrq Fgvpx Jnl",
-        "PVGL:ZVYYFOBEB",
-        "PNYY:Pneqvnp/Erfc./Qrngu-NYF",
-        "VQ:2014-018541",
-        "TCF:+38.652196,-75.187101",
-        "GVZR:07:07:15",
-        "K:QVZCYR JNL/YBO JNL");
 
   }
 

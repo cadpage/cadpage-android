@@ -24,8 +24,17 @@ public class DEKentCountyBaseParser extends FieldProgramParser {
    */
   protected void adjustCityState(Data data) {
     
+    // Expand abbreviated city codes
+    String upCity = data.strCity.toUpperCase();
+    
+    String city = CITY_CODES.getProperty(upCity);
+    if (city != null) {
+      data.strCity = city;
+      upCity = city.toUpperCase();
+    }
+    
     // Some city names are subdivisons or apartment complexes
-    String city = PLACE_NAMES.getProperty(data.strCity.toUpperCase());
+    city = PLACE_NAMES.getProperty(upCity);
     if (city != null) {
       data.strPlace = append(data.strPlace, " - ", data.strCity);
       data.strCity = city;
@@ -95,6 +104,9 @@ public class DEKentCountyBaseParser extends FieldProgramParser {
     "PENNSVILLE",
     "ROCK HALL",
     
+    // Somerset County, MD
+    "PRINCESS ANNE",
+    
     // Sussex County
     "BETHANY BEACH", 
     "BETHEL", 
@@ -103,29 +115,41 @@ public class DEKentCountyBaseParser extends FieldProgramParser {
     "DAGSBORO", 
     "DELMAR",
     "DEWEY BEACH", 
-    "ELENDALE", 
+    "ELLENDALE", 
     "FENWICK ISLAND", 
     "FRANKFORD", 
     "GEORGETOWN",
-    "GREENWOOD", 
+    "GREENWOOD",
+    "GUMBORO",
     "HARBESON",
     "HENLOPEN ACRES", 
     "LAUREL", 
     "LEWES", 
-    "MILFORD", 
+    "LINCOLN",
+    "LONG NECK",
+    "MILFORD",
+    "MILB",           // abbrv for MILLSBORO
     "MILLSBORO",
     "MILLVILLE", 
     "MILTON", 
+    "OAK ORCHARD",
     "OCEAN VIEW", 
     "REHOBOTH",
-    "REHOBOTH BEACH", 
+    "REHOBOTH BEACH",
+    "ROXANA",
     "SEAFORD", 
     "SELBYVILLE",
     "SLAUGHTER BEACH", 
     "SOUTH BETHANY",
     
     // Wicomico County, MD
+    "FRUITLAND",
     "PARSONSBURG",
+    "PITTSVILLE",
+    "SALISBURY",
+    
+    // Worcester County, MD
+    "BISHOPVILLE",
     
     // Neighborhood names in the PLACE_NAMES table
     "ANGOLA BY THE BAY",
@@ -231,6 +255,11 @@ public class DEKentCountyBaseParser extends FieldProgramParser {
 
   protected static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(CITY_LIST));
   
+  // Abbreviated city codes
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "MILB",        "Millsboro"
+  });
+  
   // Out of state municipalities
   private static final Properties CITY_STATE_TABLE = buildCodeTable(new String[]{
       
@@ -251,8 +280,17 @@ public class DEKentCountyBaseParser extends FieldProgramParser {
       "MILLINGTON",   "MD",
       "ROCK HALL",    "MD",
       
+      // Somerset County
+      "PRINCESS ANNE","MD",
+      
       // Wicomico County
-      "PARSONSBURG",  "MD"
+      "FRUITLAND",    "MD",
+      "PARSONSBURG",  "MD",
+      "PITTSVILLE",   "MD",
+      "SALISBURY",    "MD",
+      
+      // Worcester County
+      "BISHOPVILLE",  "MD"
 
   });
   
