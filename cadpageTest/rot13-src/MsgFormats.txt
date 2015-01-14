@@ -1797,6 +1797,16 @@ Pnebyvar Pbhagl, ZQ (ZQPnebyvarPbhaglCnefre)
 (Puvrs NYG) [CZ13] 26 N-Fvpx Crefba -- 520 Xree Nir Qragba - KFgf: Qrnq Raq / Qnssva Ya
 (Puvrs NYG) [200 Sver] Jverf Qbja -- 22542 Qbire Oevqtr Eq Cerfgba - KFgf: Cbcyne Arpx Eq, Gnalneq Eq / Orguyrurz Eq
 (Puvrs NYG) [200 Sver] 17 N-Snyyf -- 21182 Znefu Perrx Eq Cerfgba - KFgf: Senmvre Arpx Eq / Orguyrurz Eq
+***************************************************************************
+Jbeprfgre Pbhagl, ZQ (ZQJbeprfgrePbhaglOCnefre)
+(Puvrs NYG) [800 Sver] -- Genssvp Genafcbegngvba Npp --  -- Jbeprfgre Ujl & crreyrff Eq Fubjryy ZQ, 21862
+(Puvrs NYG) [800 Sver] -- Genssvp Genafcbegngvba Npp -- Ba Eg 90 Jrfg Bs Eg 113 -- Bprna Rkcl & jbeprfgre Ujl Oreyva ZQ, 21811
+(Puvrs NYG) [800 Sver] -- Fgehpgher Sver Rkgvathvfurq -- Juvgr Ubefr Genvyre Cnex -- 11647-1 Ornhpunzc Eq Oreyva ZQ, 21811
+*******************************************************************************
+Fnyrz Pbhagl, AW (AWFnyrzPbhaglOCnefre) 
+(Puvrs NYG) [FGN:7] -- NYF -- 118 R Cvggfsvryq Fg Craafivyyr Gbjafuvc AW - Pebff FGF:Fcnexf Nir -- Pnyyre: QNHYGBA 
+(Puvrs NYG) [FGN:7] -- Zbgbe Iruvpyr Nppvqrag -- 1163 F Oebnqjnl Jnl Craafivyyr Gbjafuvc AW - Pebff FGF:Sernf Eq -- Pnyyre: WNPX XHTYRE 9352515
+(Puvrs NYG) [FGN:7] -- ZIP -- Awgc Fbhgu Zz 1-4.5 Awgc Pnearlf Cbvag Gbjafuvc AW -- Pnyyre: FUNJA UNZZRYY 6178168
 *******************************************************************************
 *******************************************************************************
 *QvfcngpuPvfpbCnefre fhopynffrf
@@ -4282,11 +4292,6 @@ Jnfuvatgba Pbhagl, ZQ (ZQJnfuvatgbaPbhaglCnefre)
 ZNCYRIVYYR EQ / PURJFIVYYR EQ - CVP, CREF VAWHEL PBYYVFVBA - PB16,EFDR7,E79,FB20 - 1106957 15:38
 73 F ZNVA FG - SNYYF,ONPX VAWHEVRF - E79 - 1106940 12:07 2aq NYREG!
 14518 ZNELYNAQ NIR - FGEBXR - SNN4,E79,PB9 - 1106937 11:31
-***************************************************************************
-Jbeprfgre Pbhagl, ZQ (ZQJbeprfgrePbhaglOCnefre)
-(Puvrs NYG) [800 Sver] -- Genssvp Genafcbegngvba Npp --  -- Jbeprfgre Ujl & crreyrff Eq Fubjryy ZQ, 21862
-(Puvrs NYG) [800 Sver] -- Genssvp Genafcbegngvba Npp -- Ba Eg 90 Jrfg Bs Eg 113 -- Bprna Rkcl & jbeprfgre Ujl Oreyva ZQ, 21811
-(Puvrs NYG) [800 Sver] -- Fgehpgher Sver Rkgvathvfurq -- Juvgr Ubefr Genvyre Cnex -- 11647-1 Ornhpunzc Eq Oreyva ZQ, 21811
 ***************************************************************************
 Gnyobg Pbhagl, ZQ (ZQGnyobgPbhaglCnefre)
 Gnyobg 911:*Q 61 O-NOQBZVANY CNVA 319 YVAQRA NIR G60
@@ -8445,11 +8450,6 @@ Syngurnq Pbhagl, ZG
 Pbagnpg: Qnir Qrqzna <qqrqzna@xnyvfcryy.pbz>
 Fraqre: 911@syngurnqbrf.zg.tbi<znvygb:911@syngurnqbrf.zg.tbi>
 *ONPXHC HAVG QVFCNGPU*\aHavg: 734\aYbp: 310 FHAAL IVRJ  YA - XNYVFCRYY \aGlcr: Pbebare\aQvfcngpu erprvirq ol havg 734 AHEFVAT FHCREIVFBE ERD'Q PBEBARE PNYY Q
-*********************************************************
-Fnyrz Pbhagl, AW (svk?)
-Pbagnpg: Zvxr Jneare <ZJneare@oqnory.pbz>
-Fraqre: nyreg@pszft.pbz
-(Puvrs NYG) [FGN:7] --  Zbgbe Iru Penfu - Frevbhf Ebhgr 540&ol Cnff Eq Znaavatgba Zln Uhss 6282865
 **********************************************************
 Purfgre Pbhagl, CN (svtherf)
 Pbagnpg: zvxrj <zvxrj@jrafryfnhgbzbgvir.pbz>

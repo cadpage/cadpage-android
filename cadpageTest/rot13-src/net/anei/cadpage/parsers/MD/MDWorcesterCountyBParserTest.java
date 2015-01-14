@@ -30,7 +30,8 @@ choyvp pynff ZQJbeprfgrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:800 Sver",
         "PNYY:Genssvp Genafcbegngvba Npp",
         "NQQE:Jbeprfgre Ujl & crreyrff Eq",
-        "PVGL:Fubjryy");
+        "PVGL:Fubjryy",
+        "FG:ZQ");
 
     qbGrfg("G2",
         "(Puvrs NYG) [800 Sver] -- Genssvp Genafcbegngvba Npp -- Ba Eg 90 Jrfg Bs Eg 113 -- Bprna Rkcl & jbeprfgre Ujl Oreyva ZQ, 21811",
@@ -38,7 +39,8 @@ choyvp pynff ZQJbeprfgrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Genssvp Genafcbegngvba Npp",
         "CYNPR:Ba Eg 90 Jrfg Bs Eg 113",
         "NQQE:Bprna Rkcl & jbeprfgre Ujl",
-        "PVGL:Oreyva");
+        "PVGL:Oreyva",
+        "FG:ZQ");
 
     qbGrfg("G3",
         "(Puvrs NYG) [800 Sver] -- Fgehpgher Sver Rkgvathvfurq -- Juvgr Ubefr Genvyre Cnex -- 11647-1 Ornhpunzc Eq Oreyva ZQ, 21811",
@@ -47,7 +49,8 @@ choyvp pynff ZQJbeprfgrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:Juvgr Ubefr Genvyre Cnex",
         "NQQE:11647-1 Ornhpunzc Eq",
         "ZNQQE:11647 Ornhpunzc Eq",
-        "PVGL:Oreyva");
+        "PVGL:Oreyva",
+        "FG:ZQ");
 
     qbGrfg("G4",
         "(Puvrs NYG) [800 Sver] -- Genssvp Genafcbegngvba Npp -- (f)arjcbeg (a) -- Bprna Cxjl & arjcbeg Qe Oreyva ZQ, 21811",
@@ -55,7 +58,8 @@ choyvp pynff ZQJbeprfgrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Genssvp Genafcbegngvba Npp",
         "CYNPR:(f)arjcbeg (a)",
         "NQQE:Bprna Cxjl & arjcbeg Qe",
-        "PVGL:Oreyva");
+        "PVGL:Oreyva",
+        "FG:ZQ");
 
     qbGrfg("G5",
         "(Puvrs NYG) [800 Sver] -- Sver Nynez -- (f)grny Onl (a) -- 8 Jngref Rqtr Pg Oreyva ZQ, 21811",
@@ -63,7 +67,8 @@ choyvp pynff ZQJbeprfgrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver Nynez",
         "CYNPR:(f)grny Onl (a)",
         "NQQE:8 Jngref Rqtr Pg",
-        "PVGL:Oreyva");
+        "PVGL:Oreyva",
+        "FG:ZQ");
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
