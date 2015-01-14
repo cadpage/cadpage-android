@@ -229,6 +229,7 @@ class Active911Vendor extends Vendor {
       "US/CT/Uconn",                      "CTTollandCountyB",
       "US/CT/Valleyshore911",             "CTMiddlesexCounty",
       "US/CT/WaterfordFD",                "CTWaterfordTownParser",
+      "US/DE/CADCentral",                 "DEKentCountyE",
       "US/DE/ChiefMsg",                   "DESussexCountyA",
       "US/DE/Dover",                      "DEKentCounty",
       "US/DE/NewCastleCounty",            "DENewCastleCounty",

@@ -32,6 +32,9 @@ public class DEKentCountyAParser extends DEKentCountyBaseParser {
     if (body.startsWith("-")) return false;
     if (body.contains(" -- ")) return false;
     
+    // And variant E pages
+    if (body.startsWith("Call Type:")) return false;
+    
     boolean good = subject.equals("!|K") || subject.equals("K") || subject.equals("CAD");
     if (!parseFields(splitMsg(body), data)) return false;
     adjustCityState(data);

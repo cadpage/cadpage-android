@@ -68,6 +68,7 @@ choyvp pynff QRXragPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgOnqZft() {
     qbOnqGrfg("(*)[QvPevfgbsneb,Gubznf]   Nalbar urnqvat gb pbasrerapr gbzbeebj zbeavat, RW unf nfxrq gung jr zrrg nebhaq 07:45 fb jr pna or ba ebnq ol 08:00.  Unir gjb fgbcf gb znxr ba jnl qbja.");
+    qbOnqGrfg("(!) Pnyy Glcr: 6Q2 Oernguvat Ceboyrzf\aNqqerff: 200 URZYBPX JNL, Fzlean :  Qri/Fho: Ubyyl Uvyy Rfgngrf \aKfg'f: QRNQ RAQ / UBYYL UVYY QE");
   }
   
   @Grfg
