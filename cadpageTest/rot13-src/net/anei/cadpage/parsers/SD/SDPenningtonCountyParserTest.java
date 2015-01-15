@@ -70,6 +70,10 @@ Pbagnpg: Wrerzl Jnyyn <wrerzl.jnyyn@tznvy.pbz>
 Fraqre: 777
 .... (JC) Sver Qvfgevpgf Juvfcrevat Cvarf ISQ 1| ZRQ6 JC | NPPV | GNANTRE QE / FUREVQNA YNXR EQ | | | 01/08/15 10:12:31 - 2014 OHVPX IF. HAX; 01/08/15 10:13:19 - PNFR #/ 6801; 01/08/15 10:13:39 - GURL UNIR UNQ AB IBVPR PBAGNPG JVGU GUR CREFBA BA FPRAR; 01/08/15 10:18:39 - 2AQ EC / GVZ ENHREG 390-8455; 01/08/15 10:19:02 - FHOWRPG VA GUR OHVPX VF BHG PBYQ; 01/08/15 10:19:08 - UVG N GERR | | Arnerfg Vagre - FUREVQNA YNXR EQ naq GNANTRE QE | 01/08/15 10:11
 
+Pbagnpg: Xlyr ZpPnor <xlyr@pynazppnor.arg>
+Fraqre: 74121
+(1/2).: Sver Qvfgevpgf Unljneq ISQ- 29X1 UJ - SNYY - 13784 OBETYHZ EQ, CRAAPB, FQ 57751 - 84-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. - - Abar - - Arnerfg Vagre
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Vagrevbe ISQ
 Ybpngvba: Vagrevbe, FQ, Havgrq Fgngrf
@@ -554,6 +558,19 @@ choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:2014 OHVPX IF. HAX\aPNFR #/ 6801\aGURL UNIR UNQ AB IBVPR PBAGNPG JVGU GUR CREFBA BA FPRAR\a2AQ EC / GVZ ENHREG 390-8455\aFHOWRPG VA GUR OHVPX VF BHG PBYQ\aUVG N GERR; Arnerfg Vagre - FUREVQNA YNXR EQ naq GNANTRE QE",
         "QNGR:01/08/15",
         "GVZR:10:11");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXlyrZpPnor() {
+
+    qbGrfg("G1",
+        "(1/2).: Sver Qvfgevpgf Unljneq ISQ- 29X1 UJ - SNYY - 13784 OBETYHZ EQ, CRAAPB, FQ 57751 - 84-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. - - Abar - - Arnerfg Vagre",
+        "FEP:Sver Qvfgevpgf Unljneq ISQ",
+        "HAVG:29X1 UJ",
+        "PNYY:SNYY",
+        "NQQE:13784 OBETYHZ EQ",
+        "VASB:84-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat.; Arnerfg Vagre");
 
   }
 
