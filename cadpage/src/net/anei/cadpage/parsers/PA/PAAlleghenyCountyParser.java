@@ -18,7 +18,7 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
   
   public PAAlleghenyCountyParser() {
     super(CITY_CODES, "ALLEGHENY COUNTY", "PA",
-           "CODE PRI CALL CALL+? ( GPS1 GPS2 | ADDR/Z CITY! ( AT SKIP | ) ) XINFO+? SRC BOX% ID? INFO+ Units:UNIT UNIT+");
+           "CODE PRI CALL CALL+? ( GPS1 GPS2! | ADDR/Z CITY/Y! ( AT SKIP | ) ) XINFO+? SRC BOX% ID? INFO+ Units:UNIT UNIT+");
   }
 
   @Override
@@ -29,8 +29,6 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
   }
   private static final Pattern ARCH_ST_EXT = Pattern.compile("\\b(ARCH ST) EXT\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern BUTLER_STREET_EXT = Pattern.compile("\\b(BUTLER ST(?:REET)?) EXT\\b", Pattern.CASE_INSENSITIVE);
-
-
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -95,6 +93,8 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
 
   @Override
   public Field getField(String name) {
+    if (name.equals("CODE")) return new CodeField("[A-Z0-9]+", true);
+    if (name.equals("PRI")) return new PriorityField("[A-Z]\\d|\\d[A-Z]", true);
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("GPS1")) return new GPSField(1, "[-+]\\d+\\.\\d+");
