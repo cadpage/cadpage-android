@@ -563,7 +563,7 @@ choyvp pynff BUFgnexPbhaglErqpragCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "-PBZZRAGF: SRZNYR SNYY YVSG NFFVFG 62 LBS",
 
         "PNYY:RZF",
-        "NQQE:1012 A ZVYNA FG",
+        "NQQE:1012 ZVYNA FG A",
         "K:ZNEXRG / PVGL YVZVGF",
         "VASB:SRZNYR SNYY YVSG NFFVFG 62 LBS");
 

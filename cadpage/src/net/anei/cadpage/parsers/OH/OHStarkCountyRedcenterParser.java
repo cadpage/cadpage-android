@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.OH;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
@@ -30,8 +32,18 @@ public class OHStarkCountyRedcenterParser extends DispatchEmergitechParser {
     if (!super.parseMsg(body, data)) return false;
     if (data.strUnit.equals("XXX")) data.strUnit = "";
     if (data.strName.startsWith("-")) data.strName = "";
+    
+    // Fix streets that should have trailing direction
+    data.strAddress = fixAddress(data.strAddress);
+    data.strCross = fixAddress(data.strCross);
     return true;
   }
+  
+  private String fixAddress(String addr) {
+    return REV_DIR_STREET_PTN.matcher(addr).replaceAll("$2 $1");
+    
+  }
+  private static final Pattern REV_DIR_STREET_PTN = Pattern.compile("\\b([NSEW]) (MILAN ST)\\b");
 
 
   private static final String[] CITY_LIST = new String[]{

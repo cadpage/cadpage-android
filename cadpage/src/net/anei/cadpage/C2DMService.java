@@ -321,14 +321,15 @@ public class C2DMService extends IntentService {
     String infoUrl = intent.getStringExtra("info_url"); 
     
     // See if we need to correct for character set problems
-    String charset = intent.getStringExtra("charset");
-    if (charset != null && charset.length() > 0 && !charset.equals("UTF-8")) {
-      try {
-        content = new String(content.getBytes(charset), "UTF-8");
-      } catch (UnsupportedEncodingException e) {
-        Log.e("charset " + charset + " not supported");
-      }
-    }
+    // Seems to be no longer necessary
+//    String charset = intent.getStringExtra("charset");
+//    if (charset != null && charset.length() > 0 && !charset.equals("UTF-8")) {
+//      try {
+//        content = new String(content.getBytes(charset), "UTF-8");
+//      } catch (UnsupportedEncodingException e) {
+//        Log.e("charset " + charset + " not supported");
+//      }
+//    }
     
     // If page includes a server receive time, and page has arrived within
     // a reasonable window of that time, reset the refresh ID timer.
