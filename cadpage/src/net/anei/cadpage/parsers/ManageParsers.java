@@ -197,7 +197,8 @@ public class ManageParsers {
         "TXCombine",          "TXKaufmanCounty",         // 06/03/2014
         "PAChesterCountyK",   "PAChesterCountyD1",       // 07/22/2014
         "OHHarveysburg",      "PAWarrenCountyC",         // 08/02/2014
-        "NJSalemCountyC",     "NJSalemCountyB"          // 01/14/2015
+        "NJSalemCountyC",     "NJSalemCountyB",          // 01/14/2015
+        "NVWinnemuccaCounty", "NVHumboldtCounty"        // 01/17/2015
         
   });
 

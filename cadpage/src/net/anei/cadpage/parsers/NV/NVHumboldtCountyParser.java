@@ -3,17 +3,17 @@ package net.anei.cadpage.parsers.NV;
 import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 
 /**
- * Winnemucca County, NV
+ * Humbolt County, NV
  */
-public class NVWinnemuccaCountyParser extends DispatchA20Parser {
+public class NVHumboldtCountyParser extends DispatchA20Parser {
   
-  public NVWinnemuccaCountyParser() {
-    super("WINNEMUCCA COUNTY", "NV");
+  public NVHumboldtCountyParser() {
+    super("HUMBOLDT COUNTY", "NV");
   }
   
   @Override
   public String getFilter() {
-    return "hcsodispatch@hcsonv.com";
+    return "hcsodispatch795@gmail.com,hcsodispatch@hcsonv.com";
   }
   
   @Override

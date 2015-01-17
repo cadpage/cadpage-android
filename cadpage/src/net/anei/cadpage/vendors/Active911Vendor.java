@@ -484,6 +484,7 @@ class Active911Vendor extends Vendor {
       "US/NV/CityofElko",                 "NVElkoCountyA",
       "US/NV/Elko",                       "NVElkoCounty",
       "US/NV/WestWendover",               "NVElkoCountyB",
+      "US/NV/WinnemuccaCityFD",           "NVHumboldtCounty",
       "US/NY/Albany",                     "NYAlbanyCountyC",
       "US/NY/AlleganyCounty911",          "NYAlleganyCounty",
       "US/NY/BCFA",                       "NYSuffolkCountyB",

@@ -612,7 +612,7 @@ public class ParserList {
           new ParserCategory("Nevada"
               ,"NVClarkCounty"                  ,"Clark County, NV"
               ,"NVElkoCounty"                   ,"Elko County, NV"
-              ,"NVWinnemuccaCounty"             ,"Winnemucca County, NV"
+              ,"NVHumboldtCounty"               ,"Humboldt County, NV"
           ),
           new ParserCategory("New Hampshire"
               ,"NHGraftonCounty"                ,"Grafton County, NH"
