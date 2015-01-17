@@ -32,7 +32,7 @@ public class NCForsythCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "forsythcountyfir@bellsouth.net,lfdalltext@lewisvillefire.com,gfdpaging@griffithfire.com,pgfr32@triad.rr.com";
+    return "forsythcountyfir@bellsouth.net,lfdalltext@lewisvillefire.com,gfdpaging@griffithfire.com,pgfr32@triad.rr.com,fces@triad.twcbc.com";
   }
 
   @Override
@@ -51,6 +51,14 @@ public class NCForsythCountyParser extends FieldProgramParser {
       parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddress, data);
     }
     return true;
+  }
+
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("PRI")) return new MyPriorityField();
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
   }
   
   @Override
@@ -113,12 +121,14 @@ public class NCForsythCountyParser extends FieldProgramParser {
       super.parse(field, data);
     }
   }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("PRI")) return new MyPriorityField();
-    return super.getField(name);
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldStart(field, "/");
+      field = stripFieldEnd(field, "/");
+      super.parse(field, data);
+    }
   }
   
   @Override

@@ -428,6 +428,7 @@ class Active911Vendor extends Vendor {
       "US/NC/DurhamCounty",               "NCDurhamCounty",
       "US/NC/EdgecombeCounty",            "NCEdgecombeCounty",
       "US/NC/FranklinCounty",             "NCFranklinCounty",
+      "US/NC/ForsythCounty",              "NCForsynthCounty",
       "US/NC/GastonCounty",               "NCGastonCounty",
       "US/NC/GatesCounty",                "NCGatesCountyParser",
       "US/NC/GuilfordCounty",             "NCGuilfordCounty",
