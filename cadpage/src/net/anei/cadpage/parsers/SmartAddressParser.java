@@ -954,6 +954,13 @@ public abstract class SmartAddressParser extends MsgParser {
       }
     }
     
+    // A start type of START_ADDR is incompatible with the FLAG_AT_BOTH flag.  If both are
+    // set, switch flag to FLAG_AT_PLACE
+    if (sType == StartType.START_ADDR && isFlagSet(FLAG_AT_BOTH)) {
+      this.flags &= ~FLAG_AT_BOTH;
+      this.flags |= FLAG_AT_PLACE;
+    }
+    
     // If a place pattern has been specified, we use it instead of the
     // standard start address logic to identify the place prefix
     if (sType == StartType.START_PLACE && placeAddressPtn != null) {
