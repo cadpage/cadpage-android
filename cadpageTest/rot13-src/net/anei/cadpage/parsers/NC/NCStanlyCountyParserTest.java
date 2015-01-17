@@ -43,6 +43,10 @@ R29-10-50 CV/R ERQ PEBFF EQ/A BNX EVQTR EQ/BNX
 R10-PURFG CNVAF/113 ZBEAVAT QBIR YA/BNX/[CEBDN] ERFCBAFR: Puneyvr Dhrfgvbaf: 46-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Purfg Cnva (Aba-Genhzngvp) Pbqr: 10-P-1: Noabez
 R31-HAPBAFPVBHF/SNVAGVAT/113 ZBEAVAT QBIR YA/BNX/[CEBDN] ERFCBAFR: Puneyvr Dhrfgvbaf: 45-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Hapbafpvbhf / Snvagvat (Arne) Pbqr: 31
 
+Pbagnpg: Qnavry Vfraubhe <q.vfraubhe8799@tznvy.pbz>
+Fraqre: PNQ@fgnaylpbhaglap.tbi
+(R21-URZBEEUNTR/YNPRENGVBAF/2325 HF 52 ABEGU/NYO/QVFG) PNQ:R21-URZBEEUNTR/YNPRENGVBAF/2325 HF 52 ABEGU/NYO/QVFG: 5949.63 sg/XABYYJBBQ PVE/RYYVF FG
+
 */
 
 choyvp pynff APFgnaylPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -218,6 +222,19 @@ choyvp pynff APFgnaylPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:BNXOBEB",
         "VASB:ERFCBAFR: Puneyvr Dhrfgvbaf: 45-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Hapbafpvbhf / Snvagvat (Arne) Pbqr: 31");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnavryVfraubhe2() {
+
+    qbGrfg("G1",
+        "(R21-URZBEEUNTR/YNPRENGVBAF/2325 HF 52 ABEGU/NYO/QVFG) PNQ:R21-URZBEEUNTR/YNPRENGVBAF/2325 HF 52 ABEGU/NYO/QVFG: 5949.63 sg/XABYYJBBQ PVE/RYYVF FG",
+        "PNYY:R21-URZBEEUNTR/YNPRENGVBAF",
+        "NQQE:2325 HF 52 ABEGU",
+        "PVGL:NYORZNEYR",
+        "CYNPR:QVFG: 5949.63 sg",
+        "K:XABYYJBBQ PVE & RYYVF FG");
+    
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

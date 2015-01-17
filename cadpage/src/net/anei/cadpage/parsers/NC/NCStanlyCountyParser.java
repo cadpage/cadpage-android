@@ -15,20 +15,20 @@ public class NCStanlyCountyParser extends DispatchOSSIParser {
   
   public NCStanlyCountyParser() {
     super(CITY_CODES, "STANLY COUNTY", "NC",
-           "CALL ADDR/Z+? CITY! X+? INFO+");
+           "CALL ADDR/Z+? CITY! ( X | PLACE X | ) X+? INFO+");
     setDelimiter('/');
   }
   
   @Override
   public String getFilter() {
-    return "CAD@sclg.gov";
+    return "CAD@sclg.gov,CAD@stanlycountync.gov";
   }
   
   @Override
-  public boolean parseMsg(String subject, String body, Data data) {
+  public boolean parseMsg(String body, Data data) {
     if (!body.startsWith("CAD:")) body = "CAD:" + body;
     addressList.clear();
-    return super.parseMsg(subject, body, data);
+    return super.parseMsg(body, data);
   }
   
   // Things get complicated here, the address field just accumulates fields
