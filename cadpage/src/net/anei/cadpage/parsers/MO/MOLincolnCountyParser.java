@@ -42,6 +42,7 @@ public class MOLincolnCountyParser extends DispatchA25Parser {
       "CITIZEN ASSIST/SERVICE CALL",
       "CONVULSIONS/SEIZURES",
       "DOMESTIC DISTURBANCE/VIOLENCE",
+      "ELECTRICAL HAZARD",
       "FALLS",
       "HEART PROBLEMS/A.I.C.D.",
       "HEMORRHAGE/LACERATION",
