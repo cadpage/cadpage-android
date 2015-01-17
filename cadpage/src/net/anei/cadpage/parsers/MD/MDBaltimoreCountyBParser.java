@@ -53,12 +53,14 @@ public class MDBaltimoreCountyBParser extends FieldProgramParser {
   }
   
   private static final Pattern UPDATED_LOC = Pattern.compile("[ \\*/]*\\bUPDATED LOC\\b[ \\*/]*");
+  private static final Pattern DIR_BOUND = Pattern.compile("\\b([NSEW])/B\\b");
   private static final Pattern APT_MARKER = Pattern.compile(" +(APT|ROOM|RM|BLDG|SUITE|CONDO) +");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       
       field = UPDATED_LOC.matcher(field).replaceAll("");
+      field = DIR_BOUND.matcher(field).replaceAll("$1B");
       field = field.replace('@', '&');
       
       String apt = "";
