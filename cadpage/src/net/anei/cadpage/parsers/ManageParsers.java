@@ -198,7 +198,8 @@ public class ManageParsers {
         "PAChesterCountyK",   "PAChesterCountyD1",       // 07/22/2014
         "OHHarveysburg",      "PAWarrenCountyC",         // 08/02/2014
         "NJSalemCountyC",     "NJSalemCountyB",          // 01/14/2015
-        "NVWinnemuccaCounty", "NVHumboldtCounty"        // 01/17/2015
+        "NVWinnemuccaCounty", "NVHumboldtCounty",        // 01/17/2015
+        "VAGraysonCounty",    "VAGalax"                 // 01/17/2015
         
   });
 

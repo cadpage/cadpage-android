@@ -11,7 +11,7 @@ public class DispatchDAPROParser extends FieldProgramParser {
   
   private static final String PROGRAM_STR = "ADDR/SCXa! CFS:ID? INFO:INFO? Run:ID? CROSS:X";
   
-  private static final Pattern MARKER = Pattern.compile("^([-A-Z0-9]+) +(?:(\\d\\d:\\d\\d) +)?");
+  private static final Pattern MARKER = Pattern.compile("([-A-Z0-9]+) +(?:(\\d\\d:\\d\\d) +)?");
 
 
   public DispatchDAPROParser(String defCity, String defState) {
@@ -34,7 +34,7 @@ public class DispatchDAPROParser extends FieldProgramParser {
     String alertBody = body;
     
     Matcher match = MARKER.matcher(body);
-    if (!match.find()) {
+    if (!match.lookingAt()) {
       if (!mark) return false;
       data.strCall = "GENERAL ALERT";
       data.strPlace = alertBody;
@@ -69,9 +69,25 @@ public class DispatchDAPROParser extends FieldProgramParser {
   
   @Override 
   public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("ID")) return new BaseIdField();
     if (name.equals("X")) return new BaseCrossField();
     return super.getField(name);
+  }
+  
+  private static final Pattern ADDR_DISREGARD_PTN = Pattern.compile("[-A-Z0-9]+ DISREGARD PAGE \\d\\d?:\\d\\d +");
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      String cancel = null;
+      Matcher match = ADDR_DISREGARD_PTN.matcher(field);
+      if (match.lookingAt()) {
+        cancel = match.group();
+        field = field.substring(match.end());
+      }
+      super.parse(field, data);
+      if (cancel != null) data.strCall = cancel + data.strCall;
+    }
   }
   
   private static final Pattern ID_PTN = Pattern.compile("((?:\\d{4}-)?\\d{6}),? *(.*)");
