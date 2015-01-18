@@ -15,6 +15,7 @@ public class SCOrangeburgCountyParser extends SmartAddressParser {
   private static final Pattern INTERSECT_PTN = Pattern.compile(" *INTERSECTION (?:OF ) *");
   private static final Pattern GRID_PTN = Pattern.compile("\\bGRIDS?[ :]+(?:ON )?(\\d{1,2}[ -][A-Z]\\d{1,2})\\b");;
   private static final Pattern CROSS_PTN = Pattern.compile("(.*)\\bCROSS (?:OF )?+(.*)");
+  private static final Pattern MM_PTN = Pattern.compile("(MM *\\d+)[ \\.]*(.*)");
  
   public SCOrangeburgCountyParser() {
     super(CITY_CODES, "ORANGEBURG COUNTY", "SC");
@@ -125,6 +126,13 @@ public class SCOrangeburgCountyParser extends SmartAddressParser {
         data.strCross = append(data.strCross, " & ", fld);
       } 
       else {
+        if (data.strCity.length() == 0 && data.strSupp.length() == 0) {
+          match = MM_PTN.matcher(fld);
+          if (match.matches()) {
+            data.strAddress = append(data.strAddress, " ", match.group(1));
+            fld = match.group(2);
+          }
+        }
         data.strSupp = append(data.strSupp, " / ", fld);
       }
     }
