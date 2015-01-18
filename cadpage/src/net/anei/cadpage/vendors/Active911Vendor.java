@@ -390,6 +390,7 @@ class Active911Vendor extends Vendor {
       "US/MO/CityofBranson",              "MOBranson",
       "US/MO/CityofCameron",              "MOCameron",
       "US/MO/CityofFestus",               "MOFestusB",
+      "US/MO/CityofMonett",               "MOMonett",
       "US/MO/ClintonCounty",              "MOClintonCounty",
       "US/MO/ColeCounty",                 "MOJeffersonCounty",
       "US/MO/CrawfordCounty",             "MOCrawfordCountyB",
