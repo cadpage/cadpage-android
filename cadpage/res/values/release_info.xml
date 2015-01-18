@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01142015</string>
-  <string name="release_version">v1.8.03</string>
+  <string name="release_date">01162015</string>
+  <string name="release_version">v1.8.06</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -10,36 +10,26 @@ connect to Android devices using Bluetooth or a USB cable.  If your department u
 this capability and you would like us to develop a Cadpage interface to them, we would like to
 hear from you.  The best way to contact us is by using the "Email the Developer" setting in
 Cadpage settings.\n
-\n 
+\n
+v1.8.06\n
 New Locations:\n
-Old Saybrook, CT\n
-Henry County, IN\n
-Cook County, IL (alt)\n
-Berrien County, MI\n
-Atlantic County, NJ\n
-Warren County, PA\n
-Rusk County, TX\n
+Humboldt County, NV (was Winnemucca County, NV)\n
+Galax, VA (was Grayson County, VA)\n
 \n
 Location Parsing Fixes:\n
-Kent County, DE\n
-DuPage County, IL\n
-Hancock County, IN\n
+Garrett County, MD\n
+Forsyth County, NC\n
+Stanley County, NC\n
+Orangeburg County, SC\n
+
+\n
+v1.8.05\n
+New Locations:\n
+Atlantic County, NJ (Alt)\n
+\n
+Location Parsing Fixes:\n
 Baltimore County, MD\n
 Talbot County, MD\n
-Wicomico County, MD\n
-Jasper County, MO\n
-Lincoln County, MO\n
-Herkimer County, NY\n
-Madison County, NY\n
-Orange County, NY\n
-Yadkin County, NC\n
-Stark County, OH\n
-Allegheny County, PA\n
-Blair County, PA\n
-PennStar, PA\n
-Pennington County, SD\n
-Clark County, WA\n
-Sweden\n
   </string>
 </resources>
   
