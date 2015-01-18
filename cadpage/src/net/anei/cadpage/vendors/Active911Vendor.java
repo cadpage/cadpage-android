@@ -222,6 +222,7 @@ class Active911Vendor extends Vendor {
       "US/CO/WestMetroFire",              "COJeffersonCountyA",
       "US/CT/Cheshire",                   "CTCheshire",
       "US/CT/CityofLedyard",              "CTNewLondonCounty",
+      "US/CT/CityofStamford",             "CTStamford",
       "US/CT/DMS",                        "CTFairfieldCountyB",
       "US/CT/EastLyme",                   "CTEastLyme",
       "US/CT/Groton",                     "CTGroton",
