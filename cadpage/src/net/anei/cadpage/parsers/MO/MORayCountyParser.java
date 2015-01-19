@@ -15,7 +15,8 @@ public class MORayCountyParser extends SmartAddressParser {
   private static final Pattern CROSS_DELIM_PTN = Pattern.compile(" +(\\d+(?:\\.\\d+)? mi [NSEW]{1,2})\\b");
   
   public MORayCountyParser() {
-    super(CITY_TABLE, "RAY COUNTY", "MO");
+    super("RAY COUNTY", "MO");
+    setFieldList("ADDR APT CALL X CITY");
   }
   
   @Override
@@ -41,31 +42,17 @@ public class MORayCountyParser extends SmartAddressParser {
       sLeft = sLeft.substring(match.end()).trim();
     }
     
-    // The new format is to have city name at end of string and call description
-    // following the address.  If there is not trailing field, assume it
-    // is a city
-    if (sLeft.length() == 0 || isCity(sLeft)) {
-      setFieldList("ADDR APT CALL X CITY");
-      data.strCity = sLeft;
-      String call = CALL_TABLE.getCode(sAddr, true);
-      if (call != null) {
-        data.strCall = call;
-        sAddr = sAddr.substring(0, sAddr.length()-call.length()).trim();
-        parseAddress(StartType.START_ADDR, FLAG_NO_CITY | FLAG_ANCHOR_END, sAddr, data);
-      }
-      
-      else {
-        parseAddress(StartType.START_ADDR, FLAG_NO_CITY, sAddr, data);
-        data.strCall = getLeft();
-      }
+    data.strCity = sLeft;
+    String call = CALL_TABLE.getCode(sAddr, true);
+    if (call != null) {
+      data.strCall = call;
+      sAddr = sAddr.substring(0, sAddr.length()-call.length()).trim();
+      parseAddress(StartType.START_ADDR, FLAG_NO_CITY | FLAG_ANCHOR_END, sAddr, data);
     }
     
-    // Old format the city follows the address and the call description 
-    // is at the end of the text
     else {
-      setFieldList("ADDR APT CITY X CALL");
-      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
-      data.strCall = sLeft;
+      parseAddress(StartType.START_ADDR, FLAG_NO_CITY, sAddr, data);
+      data.strCall = getLeft();
     }
     
     // No matter how we got it, a call with out a call description is a failure
@@ -82,10 +69,12 @@ public class MORayCountyParser extends SmartAddressParser {
       "10-100 SUICIDAL PERSON / ATTEMPTED",
       "10-50 TRAFFIC/TRANSPORTATION INCIDENTS",
       "10-50 TRAFFIC/TRANSPORT INCIDENT (CRASH)",
+      "10-50 TRAFFIC & TRANSPORTATION INCIDENTS",
       "10-96 MENTAL DISORDER (BEHAVIORAL)",
       "ABDOMINAL PAIN / PROBLEMS",
       "ALARMS",
       "ALLERGIES / ENVENOMATIONS",
+      "ANIMAL",
       "ANIMAL BITES / ATTACKS",
       "ASSAULT/SEXUAL ASSAULT",
       "BACK PAIN (NON TRAUMATIC / NON RECENT)",
@@ -94,11 +83,13 @@ public class MORayCountyParser extends SmartAddressParser {
       "CHEST PAIN (NON-TRAUMATIC)",
       "CONVULSIONS / SEIZURES",
       "DETAIL EMS",
+      "DETAIL FIRE",
       "DIABETIC PROBLEM",
       "DISTURBANCE / NUISANCE",
       "DOMESTIC DISTURBANCE / VIOLENCE",
       "FALLS",
       "FIRE ALARM",
+      "GAS LEAK / GAS ODOR (NATURAL & LP GAS)",
       "JUVENILE",
       "HEART PROBLEMS / A.I.C.D.",
       "HEMORRHAGE / LACERATIONS",
@@ -116,6 +107,7 @@ public class MORayCountyParser extends SmartAddressParser {
       "STROKE (CVA) / TRANSIENT ATTACK (TIA)",
       "STRUCTURE FIRE",
       "SUSPICIOUS / WANTED (PERSON, VEHICLE)",
+      "TEST CALL",
       "TRAFFIC/TRANSPORTATION INCIDENTS",
       "TRAUMATIC INJURIES (SPECIFIC)",
       "TRANSFER/INTERFACILITY/PALLIATIVE CARE",
@@ -123,23 +115,4 @@ public class MORayCountyParser extends SmartAddressParser {
       "UNKNOWN PROBLEM (MAN DOWN)",
       "VEHICLE FIRE"
   );
-  
-  private static final String[] CITY_TABLE = new String[]{
-      "CAMDEN",
-      "CRYSTAL LAKES",
-      "ELMIRA",
-      "EXCELSIOR SPRINGS",
-      "FLEMING",
-      "HARDIN",
-      "HENRIETTA",
-      "HOMESTEAD",
-      "HOMESTEAD VILLAGE",
-      "LAWSON",
-      "ORRICK",
-      "RAYVILLE",
-      "RICHMOND",
-      "STET",
-      "WOOD HEIGHTS",
-      "RAY COUNTY"
-  };
 }
