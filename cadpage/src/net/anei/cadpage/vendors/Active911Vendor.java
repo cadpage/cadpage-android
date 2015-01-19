@@ -358,6 +358,7 @@ class Active911Vendor extends Vendor {
       "US/MI/MarquetteCounty",            "MIMarquetteCounty",
       "US/MI/MeceolaDispatch",            "MIMecostaCounty",
       "US/MI/MidlandCounty",              "MIMidlandCounty",
+      "US/MD/SaintMarysCounty",           "MDSaintMarysCounty",
       "US/MI/ShiawasseeCounty",           "MIShiawasseeCounty",
       "US/MN/AnokaCounty",                "MNAnokaCounty",
       "US/MN/BeckerCounty",               "MNBeckerCounty",

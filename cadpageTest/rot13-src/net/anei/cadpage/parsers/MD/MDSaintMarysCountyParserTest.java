@@ -117,6 +117,13 @@ FG ZNEL'F PBHAGL TBIREAZRAG C (54070) PNQ\e\a: 06:28:39*Fvpx Crefba*FBHGU EVQTR*
 FG ZNEL'F PBHAGL TBIREAZRAG C (65438) PNQ\e\a: 19:20:59*Bireqbfr/Cbvfbavat*YRKVATGBA RFGNGRF*20598 GERRGBC EQ*UVYYFVQR QE*UREZNAIVYYR*NYF FG39*4 lbz* fgbc
 FG ZNEL'F PBHAGL TBIREAZRAG C (54820) PNQ400CNTR\e\a: 13:12:54*Ynaqvat Mbar*CBGBZNP ZBGBE FCRRQJNL*27963 OHQQF PERRX EQ*QRYBMVRE YA*OHQQF PERRX*PB2* fgbc
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Fbybzbaf Ibyhagrre Erfphr Fdhnq  SQ
+Ybpngvba: Fbybzbaf, ZQ, Havgrq Fgngrf
+Fraqre: zcyhf@pb.fnvag-znelf.zq.hf
+
+(PNQ) 23:50:27*ZIN FREVBHF*45051 CNGHKRAG ORNPU EQ VAGREFRPGA*B,�U�\e1%=V9%�\e<�\e<�́ZQ܁1Y�ZC���5Y�́ZQ̨
+
  */
 
 choyvp pynff ZQFnvagZnelfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -1037,15 +1044,18 @@ choyvp pynff ZQFnvagZnelfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:QRYBMVRE YA / OHQQF PERRX",
         "CYNPR:CBGBZNP ZBGBE FCRRQJNL",
         "HAVG:PB2");
-        
-    /* Erghearq ol Npgvir911
-        "GVZR: 19:20:59",
-        "PNYY: Bireqbfr/Cbvfbavat",
-        "NQQE: YRKVATGBA RFGNGRF",
-        "K: 20598 GERRGBC EQ & UVYYFVQR QE",
-        "VASB: UREZNAIVYYR * NYF FG39 * 4 lbz",
-        "ZNQQE: YRKVATGBA RFGNGRF & 20598 GERRGBC EQ");
-    **/
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgFbybzbafIbyhagrreErfphrFdhnqSQ() {
+
+    qbGrfg("G1",
+        "(PNQ) 23:50:27*ZIN FREVBHF*45051 CNGHKRAG ORNPU EQ VAGREFRPGA*B,�U�\e1%=V9%�\e<�\e<�́ZQ܁1Y�ZC���5Y�́ZQ̨",
+        "GVZR:23:50:27",
+        "PNYY:ZIN FREVBHF",
+        "NQQE:45051 CNGHKRAG ORNPU EQ",
+        "K:B,�U�\a1%=V9%�\a<�\a<�́ZQ܁1Y�ZC���5Y�́ZQ̨");
 
   }
 
