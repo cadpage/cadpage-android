@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01162015</string>
-  <string name="release_version">v1.8.06</string>
+  <string name="release_date">01182015</string>
+  <string name="release_version">v1.8.07</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -11,12 +11,17 @@ this capability and you would like us to develop a Cadpage interface to them, we
 hear from you.  The best way to contact us is by using the "Email the Developer" setting in
 Cadpage settings.\n
 \n
+v1.8.07\n
+Location Fixes:\n
+Stamford, CT\n
+Lenoir County, PA\n
+\n
 v1.8.06\n
 New Locations:\n
 Humboldt County, NV (was Winnemucca County, NV)\n
 Galax, VA (was Grayson County, VA)\n
 \n
-Location Parsing Fixes:\n
+Location Fixes:\n
 Garrett County, MD\n
 Forsyth County, NC\n
 Stanley County, NC\n
@@ -27,7 +32,7 @@ v1.8.05\n
 New Locations:\n
 Atlantic County, NJ (Alt)\n
 \n
-Location Parsing Fixes:\n
+Location Fixes:\n
 Baltimore County, MD\n
 Talbot County, MD\n
   </string>
