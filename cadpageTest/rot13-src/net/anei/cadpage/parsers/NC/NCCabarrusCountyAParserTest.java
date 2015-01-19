@@ -1053,7 +1053,7 @@ choyvp pynff APPnoneehfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:OEHFU SVER",
         "NQQE:12450 TERL PBZZREPVNY QE",
         "PVGL:ZVQYNAQ",
-        "CYNPR:AP UJL 24-27 J",
+        "K:AP UJL 24-27 J",
         "FEP:SF",
         "HAVG:PBCF3,SBER,SF",
         "VASB:14091145");

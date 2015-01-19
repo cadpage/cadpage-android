@@ -12016,8 +12016,8 @@ choyvp pynff PBQbhtynfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PE2014-00001700 (Nhgb Nvq), 2014-00000156 (03950)  : Gvzr: 8/19/2014 8:17:43 CZ",
 
         "PNYY:S ZRQVPNY NFFVFG",
-        "NQQE:42350 PBHAGL EQ",
-        "NCG:17-21",
+        "NQQE:42350 PBHAGL EQ 17-21",
+        "ZNQQE:42350 PBHAGL EBNQ 17-21",
         "PVGL:Ryvmnorgu",
         "ZNC:NN46",
         "K:NHTHFGN NIR / BNXJBBQ FG",
@@ -12039,8 +12039,8 @@ choyvp pynff PBQbhtynfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PE2014-00001700 (Nhgb Nvq), 2014-00000156 (03950)  : Gvzr: 8/19/2014 8:17:43 CZ",
 
         "PNYY:S ZRQVPNY NFFVFG",
-        "NQQE:42350 PBHAGL EQ",
-        "NCG:17-21",
+        "NQQE:42350 PBHAGL EQ 17-21",
+        "ZNQQE:42350 PBHAGL EBNQ 17-21",
         "PVGL:Ryvmnorgu",
         "ZNC:NN46",
         "K:NHTHFGN NIR / BNXJBBQ FG",

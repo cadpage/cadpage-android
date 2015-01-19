@@ -354,8 +354,8 @@ choyvp pynff ZVYranjrrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:06:05",
         "NQQE:16132 PB EQ A",
         "ZNQQE:16132 PBHAGL EBNQ A",
-        "K:PB EQ 16",
-        "VASB:PB EQ 16-3 / cbffvoyr fgebxr");
+        "K:PB EQ 16 / PB EQ 16-3",
+        "VASB:cbffvoyr fgebxr");
 
     qbGrfg("G16",
         "(!) Sver  10:10 540 SHYGBA J ZHYOREEL FG, R ZHYOREEL FG / J JNYAHG FG, R JNYAHG FG  EVG GRNZ ERDHRFGRQ SBE N UBHFR SVER VA JNHFRBA  Bhg bs Pbhagl",

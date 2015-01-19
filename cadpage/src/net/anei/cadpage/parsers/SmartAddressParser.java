@@ -191,6 +191,13 @@ public abstract class SmartAddressParser extends MsgParser {
   public static final int FLAG_AND_NOT_CONNECTOR = 0x400000;
   
   /**
+   * Flag indicating that directions generally follow rather 
+   * than lead the street name.  This only really matters when
+   * a direction is found between two street names
+   */
+  public static final int FLAG_PREF_TRAILING_DIR = 0x800000;
+  
+  /**
    * Flag indicating that @ and at should be treated as cross street markers
    */
   public static final int FLAG_AT_MEANS_CROSS = 0x800000;
@@ -443,7 +450,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "RUN", "LANE", "PARK", "POINT", "RIDGE", "CREEK", "MILL", "BRIDGE", "HILLS",
         "HILL", "TRACE", "STREET", "MILE", "BAY", "NOTCH", "END", "LOOP", "ESTATES",
         "SQUARE", "WALK", "CIRCLE", "GROVE", "HT", "HTS", "HEIGHTS", "BEND", "VALLEY",
-        "WAY", "GATEWAY", "KNOLL", "COVE", "ARCH", "BYPASS");
+        "WAY", "GATEWAY", "KNOLL", "COVE", "ARCH", "BYPASS", "ESTS", "ESTATES");
     
     
     setupDictionary(ID_NUMBERED_ROAD_SFX, 
@@ -1670,11 +1677,13 @@ public abstract class SmartAddressParser extends MsgParser {
         // This logic should also be suppressed if we are parsing cross streets
         // and the following address is a special cross street name
         if (result.insertAmp >= 0) {
-          if (isType(result.insertAmp-1, ID_DIRECTION) &&
-              !isType(result.insertAmp, ID_PURE_DIRECTION) &&
-              !isType(result.addressField.fldEnd-1, ID_DIRECTION) &&
-              (!isFlagSet(FLAG_ONLY_CROSS) ||  mWordCrossStreetsFwd.findEndSequence(result.insertAmp) < 0)) {
-              result.insertAmp--;
+          if (!isFlagSet(FLAG_PREF_TRAILING_DIR) || isType(sAddr, ID_DIRECTION)) {
+            if (isType(result.insertAmp-1, ID_DIRECTION) &&
+                !isType(result.insertAmp, ID_PURE_DIRECTION) &&
+                !isType(result.addressField.fldEnd-1, ID_DIRECTION) &&
+                (!isFlagSet(FLAG_ONLY_CROSS) ||  mWordCrossStreetsFwd.findEndSequence(result.insertAmp) < 0)) {
+                result.insertAmp--;
+            }
           }
           if (parseToEnd) return true;
         }
@@ -2462,6 +2471,7 @@ public abstract class SmartAddressParser extends MsgParser {
   }
 
   private void setTokenTypes(StartType sType, String address, String gpsCoords, Result result) {
+    
     // Parse line into tokens and categorize each token
     // While we are doing this, identify the index of the last city
     // And see if we have a keyword flagging the start of the address
@@ -2636,6 +2646,11 @@ public abstract class SmartAddressParser extends MsgParser {
       else mask |= ID_NUMBER | ID_ALPHA_ROUTE;
     }
     
+    // dull numbers separated by a dash might be a dual hwy number
+    else if (DUAL_NUMBER_HWY_PTN.matcher(token).matches()) {
+      mask |= ID_ALPHA_ROUTE;
+    }
+    
     // Some states use alpha route numbers.  This token is a candidate if
     // it hasn't been designated as anything else
     // it is one or two characters long
@@ -2653,6 +2668,7 @@ public abstract class SmartAddressParser extends MsgParser {
     tokenType[ndx] =  mask;
   }
   private static final Pattern ROUTE_NUMBER_PTN = Pattern.compile("(?!IN|OF)[A-Z]{1,2}|\\d+[ABHNSEW]?");
+  private static final Pattern DUAL_NUMBER_HWY_PTN = Pattern.compile("\\d{1,3}-\\d{1,3}");
   
   private boolean isAtSign(int ndx) {
     if (! isType(ndx, ID_AT_MARKER)) return false;
@@ -2754,7 +2770,7 @@ public abstract class SmartAddressParser extends MsgParser {
         
         // Otherwise, if we are not concerned about the direction being part 
         // of a following cross street name, we should include it
-        if (!isFlagSet(FLAG_CROSS_FOLLOWS)) ndx++;
+        if (!isFlagSet(FLAG_CROSS_FOLLOWS) || isFlagSet(FLAG_PREF_TRAILING_DIR)) ndx++;
         
         // Otherwise, see if what follows looks like a trailing street 
         // name.  If it does not, include the direction

@@ -1,3 +1,13 @@
+Version 11.0 01/18/2015
+
+Added FLAG_PREF_TRAILING_DIR flag.  This should be used when street directions are routinely
+attached to the end of a street name rather than the beginning.  It is only checked when
+a single direction is found between two valid street names.
+
+Added ESTS and ESTATES to list of words that might or might not be street suffixes.
+
+Will now recognize dual numbers separated by a dash as a possible dual highway number.
+
 Version 10.0 01/12/2015
 
 Map address cleanup will now remove NORTHBOUND, EASTBOUND, SOUTHBOUND, WESTBOUND, and any trailing 
