@@ -153,6 +153,7 @@ public class NCJohnstonCountyParser extends DispatchOSSIParser {
       "KENL", "KENLY",
       "MICR", "MICRO",
       "MIDD", "MIDDLESEX",
+      "NEWT", "NEWTON GROVE",
       "PINE", "PINE LEVEL",
       "PRIN", "PRINCETON",
       "RALE", "RALEIGH",
