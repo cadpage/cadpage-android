@@ -1,9 +1,27 @@
 cnpxntr arg.narv.pnqcntr.cnefref.VQ;
 
-choyvp pynff VQYvapbyaPbhaglCnefreGrfg rkgraqf VQTbbqvatPbhaglCnefreGrfg {
+vzcbeg bet.whavg.rkcrevzragny.ehaaref.Rapybfrq;
+vzcbeg bet.whavg.ehaare.EhaJvgu;
+
+/*
+Yvapbya Pbhagl, VQ
+
+*/
+
+
+@EhaJvgu(Rapybfrq.pynff)
+choyvp pynff VQYvapbyaPbhaglCnefreGrfg {
   
-  choyvp VQYvapbyaPbhaglCnefreGrfg() {
-    frgCnefre(arj VQYvapbyaPbhaglCnefre(), "YVAPBYA PBHAGL", "VQ");
-    frgRkcYbpPbqr("VQYvapbyaPbhagl");
+  choyvp fgngvp pynff GrfgN rkgraqf VQYvapbyaPbhaglNCnefreGrfg {
+    choyvp GrfgN() {
+      frgCnefre(arj VQYvapbyaPbhaglCnefre());
+    }
   }
+  
+  choyvp fgngvp pynff GrfgO rkgraqf VQYvapbyaPbhaglOCnefreGrfg {
+    choyvp GrfgO() {
+      frgCnefre(arj VQYvapbyaPbhaglCnefre());
+    }
+  }
+  
 }

@@ -1,8 +1,10 @@
 package net.anei.cadpage.parsers.ID;
 
-public class IDTwinFallsCountyParser extends IDGoodingCountyParser {
+import net.anei.cadpage.parsers.GroupBestParser;
+
+public class IDTwinFallsCountyParser extends GroupBestParser {
   
   public IDTwinFallsCountyParser() {
-    super("TWIN FALLS COUNTY", "ID");
+   super(new IDTwinFallsCountyAParser(), new IDTwinFallsCountyBParser());
   }
 }
