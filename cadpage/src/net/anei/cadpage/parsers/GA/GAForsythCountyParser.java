@@ -1,6 +1,10 @@
 package net.anei.cadpage.parsers.GA;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.CodeSet;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 
@@ -12,6 +16,14 @@ public class GAForsythCountyParser extends DispatchB2Parser {
 
   }
  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    Matcher match = MISSING_GT_PTN.matcher(body);
+    if (match.matches()) body = match.group(1) + '>' + match.group(2);
+    return super.parseMsg(body, data);
+  }
+  private static final Pattern MISSING_GT_PTN = Pattern.compile("(:\\d+[A-Z]++ *+)([^>].*)");
+
   private static final String[] CITY_LIST = new String[]{
     "ALPHARETTA",
     "BROOKWOOD",
