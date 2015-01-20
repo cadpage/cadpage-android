@@ -20,8 +20,13 @@ vzcbeg arg.narv.pnqcntr.cnefref.FznegNqqerffCnefre;
  */
 choyvp pynff TraZhygvJbeqFgerrgYvfg rkgraqf FznegNqqerffCnefre {
   
-  choyvp TraZhygvJbeqFgerrgYvfg() guebjf VBRkprcgvba {
+  obbyrna hfrPebff = gehr;
+  
+  choyvp TraZhygvJbeqFgerrgYvfg(Fgevat[] netf) guebjf VBRkprcgvba {
     fhcre("", "");
+    
+    // Frg qrsnhygf naq cebprff nethzragf
+    frghcNetf(netf);
     
     // Nfx sbe gur cnefre pbqr
     Flfgrz.ree.cevag("Ragre cnefre pbqr:");
@@ -64,8 +69,17 @@ choyvp pynff TraZhygvJbeqFgerrgYvfg rkgraqf FznegNqqerffCnefre {
     cevagYvfg(zJbeqYvfg);
   }
 
+  cevingr ibvq frghcNetf(Fgevat[] netf) {
+    sbe (Fgevat net : netf) {
+      net = net.gbHccrePnfr();
+      vs (net.rdhnyf("KBA")) hfrPebff = gehr;
+      vs (net.rdhnyf("KBSS")) hfrPebff = snyfr;
+    }
+  }
+
   
-  cevingr fgngvp svany Cnggrea NQQE_CGA = Cnggrea.pbzcvyr(" +\"NQQE:(.*)\".*");
+  cevingr fgngvp svany Cnggrea NQQE_CGA = Cnggrea.pbzcvyr(" +\"(NQQE|K):(.*)\".*");
+  cevingr fgngvp svany Cnggrea NQQE_FCYVG_CGA = Cnggrea.pbzcvyr("[/&]");
 
   cevingr ibvq cebprffGrfgPynff(OhssrerqErnqre ve, Frg<Fgevat> zJbeqYvfg) guebjf VBRkprcgvba {
     // Ernq guebhtu gur grfg pynff ybbxvat sbe NQQE: yvarf
@@ -75,10 +89,13 @@ choyvp pynff TraZhygvJbeqFgerrgYvfg rkgraqf FznegNqqerffCnefre {
       vs (yvar == ahyy) oernx;
       Zngpure zngpu = NQQE_CGA.zngpure(yvar);
       vs (zngpu.zngpurf()) {
-        sbe (Fgevat cneg : zngpu.tebhc(1).fcyvg("&")) {
-          Fgevat fgevcNqqerff = fgevcFgerrgAnzr(cneg.gevz());
-          vs (fgevcNqqerff != ahyy && fgevcNqqerff.pbagnvaf(" ")) {
-            zJbeqYvfg.nqq(fgevcNqqerff);
+        vs (hfrPebff || !zngpu.tebhc(1).rdhnyf("K")) {
+          
+          sbe (Fgevat cneg : NQQE_FCYVG_CGA.fcyvg(zngpu.tebhc(2))) {
+            Fgevat fgevcNqqerff = fgevcFgerrgAnzr(cneg.gevz());
+            vs (fgevcNqqerff != ahyy && fgevcNqqerff.pbagnvaf(" ")) {
+              zJbeqYvfg.nqq(fgevcNqqerff.gbHccrePnfr());
+            }
           }
         }
       }
@@ -133,7 +150,7 @@ choyvp pynff TraZhygvJbeqFgerrgYvfg rkgraqf FznegNqqerffCnefre {
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) guebjf VBRkprcgvba {
-    arj TraZhygvJbeqFgerrgYvfg();
+    arj TraZhygvJbeqFgerrgYvfg(netf);
   }
 
 }

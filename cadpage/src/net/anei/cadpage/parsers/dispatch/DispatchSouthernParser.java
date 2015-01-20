@@ -404,8 +404,10 @@ public class DispatchSouthernParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       field = field.replace(" X ", " / ");
-      if (field.startsWith("X ")) field = field.substring(2).trim();
-      if (field.endsWith(" X")) field = field.substring(0,field.length()-2).trim();
+      field = stripFieldStart(field, "X ");
+      field = stripFieldEnd(field, " X");
+      field = stripFieldStart(field, "*");
+      field = field.replace("/ *", "/ ");
       super.parse(field, data);
     }
   }
