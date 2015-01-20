@@ -164,6 +164,7 @@ public class NCJohnstonCountyParser extends DispatchOSSIParser {
       "WEND", "WENDELL",
       "WILL", "WILLOW SPRING",
       "WILS", "WILSON",
+      "WISM", "WILSON'S MILLS",
       "ZEBU", "ZEBULON"
   });
 }
