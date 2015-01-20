@@ -32,7 +32,17 @@ public class PAFranklinCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("*")) return false;
+    do {
+      if (body.startsWith("* ")) {
+        body = body.substring(2).trim();
+        break;
+      }
+      
+      if (subject.equals("*")) break;
+      
+      return false;
+    } while (false);
+    
     if (body.endsWith("*")) body = body + ' ';
     if (!parseFields(body.split("\\* "), data)) return false;
     if (data.strCity.endsWith(" BORO")) data.strCity = data.strCity.substring(0,data.strCity.length()-5).trim();
