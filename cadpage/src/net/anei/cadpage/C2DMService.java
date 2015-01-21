@@ -1,6 +1,5 @@
 package net.anei.cadpage;
 
-import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
@@ -288,6 +287,7 @@ public class C2DMService extends IntentService {
     
     // Reconstruct message from data from intent fields
     String from = intent.getStringExtra("sender");
+    if (from == null) from = intent.getStringExtra("originally_from");
     if (from == null) from = "GCM";
     String subject = intent.getStringExtra("subject");
     if (subject == null) subject = "";
@@ -317,7 +317,10 @@ public class C2DMService extends IntentService {
     if (ackReq == null) ackReq = "";
     
     String callId = intent.getStringExtra("call_id");
+    if (callId == null) callId = intent.getStringExtra("id");
     String serverTime = intent.getStringExtra("unix_time");
+    if (serverTime ==  null) serverTime = intent.getStringExtra("unix_timestamp");
+    // agency code = intent.getStringExtra("agency_code");
     String infoUrl = intent.getStringExtra("info_url"); 
     
     // See if we need to correct for character set problems

@@ -610,7 +610,7 @@ class Active911Vendor extends Vendor {
       "US/PA/TrappeIAR",                  "PAChesterCountyL",
       "US/PA/VenangoCounty",              "PAVenagoCountyB",
       "US/PA/WarrenCounty",               "PAWarrenCounty",
-      "US/PA/WashingtonCounty",           "PAWashingonCounty",
+      "US/PA/WashingtonCounty",           "PAWashingtonCounty",
       "US/PA/WayneCounty",                "PAWayneCounty",
       "US/PA/YorkCounty",                 "PAYorkCountyD",
       "US/RI/CityofWestWarwick",          "RIWestWarwick",

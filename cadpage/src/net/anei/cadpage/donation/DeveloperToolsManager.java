@@ -63,12 +63,13 @@ public class DeveloperToolsManager {
     "Status test",
     "Generate Bug Report",
     "Active911 Account Req",
-    "Consume all purchases"
+    "Consume all purchases",
+    "Test C2DM MSG"
     
   };
   
   private static final String[] valueList = new String[]{
-    "31", "32", "33", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18"
+    "31", "32", "33", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19",
   };
   
   private class DeveloperListPreference extends ListPreference {
@@ -221,6 +222,19 @@ public class DeveloperToolsManager {
         
       case 18:    // Consume all products
         BillingManager.instance().clearPurchaseInventory();
+        break;
+        
+      case 19:    // Build a specific C2DM page message
+        Intent intent = new Intent(context, C2DMService.class);
+        intent.setAction("com.google.android.c2dm.intent.RECEIVE");
+        intent.putExtra("vendor", "Active911");
+        
+        intent.putExtra("originally_from", "kencx@peak.org");
+        intent.putExtra("subject", "CAD Page");
+        intent.putExtra("content", ":06D1, E0, BREATHING - NOT ALERT, 1398 MISSOURI AVE, BRG, btwn CRITCHFIELD DR and CRITCHFIELD DR, WMD1, E81504, E150012572, SBRG150000195, Unit:8161 - From 405 01/20/2015 16:04:08\r\n\r\n");
+        intent.putExtra("format", "US/PA/WashingtonCounty,US/PA/AlleghenyCounty,Utility/General/Default");
+        
+        context.startService(intent);
         break;
         
       case 31:    // C2DM Register
