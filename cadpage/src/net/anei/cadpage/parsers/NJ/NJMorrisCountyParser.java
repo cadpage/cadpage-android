@@ -12,10 +12,11 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class NJMorrisCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER_PTN = 
-    Pattern.compile("(?:((?:Recall|Cancel) Reason: .*|\\*Completed\\*)\n)?(.*?) \\[([-A-Za-z ]+)(?:\\.*\\d+)?\\] \\(([-A-Z0-9\\\\/ ]+)\\) - (.*)", Pattern.DOTALL);
+    Pattern.compile("(.*?) \\[([-A-Za-z ]+)(?:\\.*\\d+)?\\] \\(([-A-Z0-9\\\\/ ]+)\\) - (.*)", Pattern.DOTALL);
   
+  private static final Pattern ADDR_ZIP_PTN = Pattern.compile("(.*), *\\d{5}");
   private static final Pattern PLACE_CODE_PTN = Pattern.compile("\\(\\d+\\)");
-  private static final Pattern ID_TIME_PTN = Pattern.compile("([A-Z]\\d{6,}) +(\\d\\d:\\d\\d)");
+  private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(?:([A-Z]\\d{6,}) +)?(\\d\\d:\\d\\d)$");
   
   public NJMorrisCountyParser() {
     super(OOC_CITY_LIST, "MORRIS COUNTY", "NJ");
@@ -33,9 +34,23 @@ public class NJMorrisCountyParser extends SmartAddressParser {
     Matcher match = MASTER_PTN.matcher(body);
     if (!match.matches()) return false;
     
-    String sRecall = getOptGroup(match.group(1));
-    String sAddress = match.group(2).trim();
-    if (sAddress.startsWith("***")) sAddress = sAddress.substring(3).trim();
+    String sAddress = match.group(1).trim();
+    String city = match.group(2).trim();
+    data.strCall = match.group(3).trim();
+    String sExtra = match.group(4);
+    
+    int pt = sAddress.indexOf('\n');
+    if (pt >= 0) {
+      data.strCall = append(data.strCall, " - ", sAddress.substring(0,pt).trim());
+      sAddress = sAddress.substring(pt+1).trim();
+    }
+    
+    sAddress = stripFieldStart(sAddress, "***");
+    
+    // Strip off trailing zip code
+    match = ADDR_ZIP_PTN.matcher(sAddress);
+    if (match.matches()) sAddress = match.group(1).trim();
+    
     Parser p = new Parser(sAddress);
     data.strPlace = p.getOptional(',');
     Matcher match2 = PLACE_CODE_PTN.matcher(data.strPlace);
@@ -47,12 +62,19 @@ public class NJMorrisCountyParser extends SmartAddressParser {
     data.strApt = append(data.strApt, " - ", p.getLastOptional(" BLDG "));
     parseAddress(p.get(), data);
     
-    String city = match.group(3).trim();
+    // A numeric place name is probably a street number that got separated from
+    // it's street name
+    if (data.strPlace.length() > 0 && NUMERIC.matcher(data.strPlace).matches()) {
+      if (data.strAddress.length() == 0 || !Character.isDigit(data.strAddress.charAt(0))) {
+        data.strAddress = append(data.strPlace, " ", data.strAddress);
+        data.strPlace = "";
+      }
+    }
+
+    // Clean up the city name
     city = stripFieldEnd(city, " Boro");
     city = stripFieldEnd(city, " Bor");
     data.strCity = convertCodes(city,  CITY_CODES);
-    data.strCall = append(match.group(4).trim(), " - ", sRecall);
-    String sExtra = match.group(5);
     
     // Special handling required for OOC mutual aid calls
     if (data.strAddress.endsWith(" COUNTY") && data.strPlace.length() > 0) {
@@ -82,16 +104,19 @@ public class NJMorrisCountyParser extends SmartAddressParser {
     }
     if (data.strCity.endsWith(" Co")) data.strCity += "unty";
     
+    
+    // Strip ID and time from end extra data
+    match = ID_TIME_PTN.matcher(sExtra);
+    if (match.find()) {
+      sExtra = sExtra.substring(0,match.start()).trim();
+      data.strCallId = getOptGroup(match.group(1));
+      data.strTime = match.group(2);
+    }
+    
     String[] flds = sExtra.split("\n");
     if (flds.length > 1) {
       data.strUnit = flds[0].trim();
       int last = flds.length-1;
-      match = ID_TIME_PTN.matcher(flds[last].trim());
-      if (match.matches()) {
-        data.strCallId = match.group(1);
-        data.strTime =match.group(2);
-        last--;
-      }
       if (last > 0) {
         String line = flds[last];
         if (line.startsWith("Response Code: ")) {
@@ -100,20 +125,14 @@ public class NJMorrisCountyParser extends SmartAddressParser {
         }
       }
       for (int ndx = 1; ndx <= last; ndx++) {
-        String fld = flds[ndx].trim();
-        if (fld.length() > 0) {
-          data.strSupp = append(data.strSupp, " / ", fld);
-        }
+        data.strSupp = append(data.strSupp, " / ", flds[ndx].trim());
       }
     }
     
     else {
       p = new Parser(sExtra);
-      sExtra = p.getLastOptional(" - ");
+      data.strUnit = p.getLastOptional(" - ");
       data.strSupp = p.get();
-      p = new Parser(sExtra);
-      data.strUnit = p.get(' ');
-      data.strTime = p.get();
     }
     return true;
   }
