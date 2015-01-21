@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 QhCntr Pbhagl, VY
 
+Pbagnpg: Wbfu Nqreubyg <hfzp4507@tznvy.pbz>
+Fraqre: TPZ (npgvir911)
+VAP01 1.0 RI-KKK 0       SJT1501200001831700 JRFGREA QE                 V073NHGBZNGVP SVER NYNEZPBAFGNE CYNFGVP                                                                                                  S500P 5P                                                                                        4                  7439361 SJT150120000170JP
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Onegyrgg Sver Cebgrpgvba Qvfgevpg (VY/QP)
 Ybpngvba: Onegyrgg, VY, Havgrq Fgngrf
@@ -2352,6 +2356,20 @@ choyvp pynff VYQhCntrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp VYQhCntrPbhaglNCnefreGrfg() {
     frgCnefre(arj VYQhCntrPbhaglNCnefre(), "QHCNTR PBHAGL", "VY");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbuaNyqreubyg() {
+
+    qbGrfg("G1",
+        "VAP01 1.0 RI-KKK 0       SJT1501200001831700 JRFGREA QE                 V073NHGBZNGVP SVER NYNEZPBAFGNE CYNFGVP                                                                                                  S500P 5P                                                                                        4                  7439361 SJT150120000170JP",
+        "VQ:SJT150120000183",
+        "NQQE:1700 JRFGREA QE",
+        "HAVG:V073",
+        "PNYY:NHGBZNGVP SVER NYNEZ",
+        "CYNPR:PBAFGNE CYNFGVP",
+        "PVGL:JRFG PUVPNTB");
+    
   }
 
   @Grfg
