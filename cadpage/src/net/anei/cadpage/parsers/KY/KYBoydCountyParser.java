@@ -1,76 +1,170 @@
 package net.anei.cadpage.parsers.KY;
 
+import java.util.Enumeration;
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
-public class KYBoydCountyParser extends SmartAddressParser {
+public class KYBoydCountyParser extends DispatchB2Parser {
   
-  private static final Pattern MASTER = Pattern.compile("BC911:([A-Z0-9]{3}) (?:([-A-Z ]+\\*) )?(.*)");
-  private static final Pattern FRK_ST_PTN = Pattern.compile("\\bFRK ST\\b"); 
-  private static final Pattern STRAIGHT_CRK_PTN = Pattern.compile("\\bSTRAIGHT CRK(?: RD)?\\b");
- 
   public KYBoydCountyParser() {
-    super("BOYD COUNTY", "KY");
-    setFieldList("UNIT CALL ADDR APT X INFO NAME");
+    super("BC911:", CITY_LIST, "BOYD COUNTY", "KY", B2_FORCE_CALL_CODE);
+    setupCallList(CALL_LIST);
+    setupSpecialStreets(
+        "BARBAQUE SPUR",
+        "COURT OF THREE SISTERS"
+    );
+    setupMultiWordStreets(
+        "BEAR CREEK",
+        "BOY SCOUT",
+        "CARL PERKINS",
+        "CHESTNUT HILL",
+        "DOG RDG ROBERTS",
+        "HICKORY HILLS",
+        "HOODS CREEK",
+        "HUFF HOLLOW",
+        "KIRBY FLATS",
+        "LAKE BONITA",
+        "MARTIN LUTHER KING",
+        "MEADE SPRINGER",
+        "TWIN RIDGE"
+    );
   }
   
   @Override
-  public String getFilter() {
-    return "BC911@BOYD.KY";
-  }
-  
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
-    
-    data.strUnit = match.group(1);
-    String call = match.group(2);
-    String addr = match.group(3);
-    
-    StartType st = StartType.START_CALL;
-    if (call != null) {
-      data.strCall = call.trim();
-      st = StartType.START_ADDR;
+  protected boolean parseAddrField(String field, Data data) {
+    int pt = field.indexOf("* ");
+    if (pt >= 0) {
+      field = field.substring(0,pt)+" @ "+field.substring(pt+2);
     }
-    
-    addr = FRK_ST_PTN.matcher(addr).replaceAll("FORK RD");
-    addr = STRAIGHT_CRK_PTN.matcher(addr).replaceAll("STRAIGHT CREEK RD");
-    int flags = 0;
-    String extra = "";
-    int pt = addr.indexOf(" Apt: ");
-    if (pt > 0) {
-      flags = FLAG_ANCHOR_END;
-      String info = addr.substring(pt+6).trim();
-      addr = addr.substring(0,pt).trim();
+    field = fixAddress(field);
+    return super.parseAddrField(field, data);
+  }
+  
+  private static String fixAddress(String addr) {
+    Matcher match = STREET_FIX_PTN.matcher(addr);
+    if (match.find()) {
+      StringBuffer sb = new StringBuffer();
+      do {
+        String street = match.group().toUpperCase();
+        String replace = STREET_FIX_TABLE.getProperty(street);
+        if (replace == null) replace = STREET_FIX_TABLE.getProperty(street + " RD");
+        if (replace != null) street = replace;
+        match.appendReplacement(sb, street);
+      } while (match.find());
+      match.appendTail(sb);
+      addr = sb.toString();
+    }
+    return addr;
+  }
 
-      Parser p = new Parser(info);
-      data.strApt = p.getOptional(" Bldg");
-      if (data.strApt.length() == 0) data.strApt = p.get(' ');
-      extra = p.get();
+  // Table of street abbreviations that need to be expanded.
+  // Streets abbreviations ending with RD will match a text string with or without
+  // the RD suffix
+  private static final Properties STREET_FIX_TABLE = buildCodeTable(new String[]{
+      "ALLEY BR RD",           "ALLEY BRANCH RD",
+      "FRK ST",                "FORK RD",
+      "JOHNSONS FRK RD",       "JOHNSONS FORK RD",
+      "STRAIGHT CRK RD",       "STRAIGHT CREEK RD",
+      "WHITES CRK RD",         "WHITES CREEK RD"
+  });
+  
+  // Master street abbreviation pattern.  Built at class load time from STREET_FIX_TABLE.
+  private static Pattern STREET_FIX_PTN;
+  static {
+    StringBuilder sb = new StringBuilder("\\b(");
+    boolean first = true;
+    Enumeration<?> e = STREET_FIX_TABLE.propertyNames();
+    while (e.hasMoreElements()) {
+      String key = (String)e.nextElement();
+      if (first) first = false;
+      else sb.append('|');
+      sb.append(key);
+      if (key.endsWith(" RD")) {
+        sb.append('|');
+        sb.append(key.substring(0,key.length()-3));
+      }
     }
-    
-    parseAddress(st, flags | FLAG_IMPLIED_INTERSECT, addr, data);
-    if (flags == 0) extra = getLeft();
-    
-    Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, extra);
-    if (res.isValid()) {
-      res.getData(data);
-      extra = res.getLeft();
-    }
-    
-    if (extra.contains(",")) {
-      data.strName = extra;
-    } else {
-      data.strSupp = extra;
-    }
-    
-    data.strAddress = FRK_ST_PTN.matcher(data.strAddress).replaceAll("FORK RD");
-    
-    return true;
+    sb.append(")\\b");
+    STREET_FIX_PTN = Pattern.compile(sb.toString(), Pattern.CASE_INSENSITIVE);
   }
+
+  @Override
+  public String adjustMapCity(String city) {
+    city = convertCodes(city, CITY_TABLE);
+    return super.adjustMapCity(city);
+  }
+  
+  private static final Properties CITY_TABLE = buildCodeTable(new String[]{
+      "ENGLAND HILL",    "CATLETTSBURG",
+  });
+  
+  private static final String[] CITY_LIST = new String[]{
+
+    // Cities
+    "ASHLAND",
+    "CATLETTSBURG",
+
+    // Census-designated places
+    "CANNONSBURG",
+    "WESTWOOD",
+
+    // Unincorporated communities
+    "BURNAUGH",
+    "COALTON",
+    "DURBIN",
+    "IRONVILLE",
+    "KAVANAUGH",
+    "LOCKWOOD",
+    "MEADS",
+    "NORMAL",
+    "PRINCESS",
+    "ROCKDALE",
+    "RUSH",
+    "SUMMIT",
+    "SUMMITT", 
+    "UNITY",
+    
+    // Neighborhoods
+    "ENGLAND HILL"
+  };
+  
+  private CodeSet CALL_LIST = new CodeSet(
+      "ACCIDENT-INJURY",
+      "ACCIDENT-INJURY ROAD CLEAR",
+      "ACCIDENT-NO INJURY",
+      "ALARM-UNKNOWN",
+      "CHECK WELFARE",
+      "DOMESTIC-INPROGRESS",
+      "EMS-CARDIAC ARREST",
+      "EMS-CHEST PAIN",
+      "EMS-FALL",
+      "EMS-LIFTING ASSISTANCE",
+      "EMS-MEDICAL EMERGENCY",
+      "EMS-PAIN/SWELLING",
+      "EMS-SHORTNESS OF BREATH",
+      "EMS-UNCONSCIOUS/PASSED OUT",
+      "EMS-UNRESPONSIVE",
+      "FIRE-ALARM",
+      "FIRE-ALARM COMMERCIAL",
+      "FIRE-BRUSH FIRE",
+      "FIRE-ELECTRICAL",
+      "FIRE-FUEL SPILL/LEAK",
+      "FIRE-HAZ MAT",
+      "FIRE-PUBLIC ASSIST",
+      "FIRE-RESCUE",
+      "FIRE-STRUCTURE",
+      "FIRE-TRASH/DUMP",
+      "FIRE-TREE REMOVAL",
+      "FIRE-UNKNOWN SMOKE / AREA",
+      "FIRE-UTILITY LINE/TRANSFORMER",
+      "SUICIDE-THREATS/ATTEMPT",
+      "SUSP CIRCUMSTANCES-1-8HRS",
+      "TRAINING-WEEKLY PT",
+      "WEAPON VIOLATION-DISCHARGING"
+  );
 }
