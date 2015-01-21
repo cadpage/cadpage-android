@@ -366,6 +366,19 @@ public abstract class MsgParser {
     // If all parsers failed, return false
     if (data == null) return false;
     
+    // The people running the show at Prince William County in VA are absolutely
+    // totally adamant that unstructured information never ever ever be visible
+    // to the end users.  To the point where they will refuse to send dispatch
+    // information to services who will not guarantee this.  So we will do
+    // are part to go with the flow....
+    if (msg.getAddress().contains("pwcgov.org")) {
+      data.strSupp = "";
+      String call = data.strCall;
+      if (call.equals("GENERAL ALERT") || call.equals("RUN REPORT")) {
+        data.strPlace = "";
+      }
+    }
+    
     // Save parser code and information object in message so we won't have to
     // go through all of this again
     msg.setInfo(new MsgInfo(data));
