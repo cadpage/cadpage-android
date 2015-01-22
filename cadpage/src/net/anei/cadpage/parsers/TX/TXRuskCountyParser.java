@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers.TX;
 
-import java.util.Properties;
-
 import net.anei.cadpage.parsers.GroupBestParser;
 
 /**
