@@ -11,7 +11,7 @@ public class GAJacksonCountyParser extends DispatchBParser {
   
   @Override
   public String getFilter() {
-    return "93001,777";
+    return "93001,777,JACKSONE911@jacksoncountygov.com";
   }
   
   @Override
