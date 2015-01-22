@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01202015</string>
-  <string name="release_version">v1.8.09</string>
+  <string name="release_date">01222015</string>
+  <string name="release_version">v1.8.10</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-We starting to look at ways Cadpage can receive alerts from pagers or mobile radios that can
-connect to Android devices using Bluetooth or a USB cable.  If your department uses radios with 
-this capability and you would like us to develop a Cadpage interface to them, we would like to
-hear from you.  The best way to contact us is by using the "Email the Developer" setting in
-Cadpage settings.\n
+v1.8.10\n
+New Locations:\n
+Forsyth County, GA\n
+HillsDale County, MI\n 
+Lenoir County, NC (alt)\n
+Helotes, TX\n
+Rusk County, TX (alt)\n
+\n
+Location Fixes:\n
+Boyd County, KY\n
 \n
 v1.8.09\n
 Location Fixes:\n
