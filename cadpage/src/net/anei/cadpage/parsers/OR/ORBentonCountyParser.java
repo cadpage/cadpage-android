@@ -489,6 +489,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
       "HWY 501 MP 8",                 "44.30016811900,-123.63734864800",
       "HWY 501 MP 9",                 "44.29708259800,-123.65049069200",
       
+      // Apt location info src: gis.co.benton.or.us/GISDataDownload/Address/FireMapBooks/PhilomathMaps/
       // Forest Meadows trailer park
       "1284 N 19TH ST APT:1",         "44.553062,-123.356871",
       "1284 N 19TH ST APT:2",         "44.553222,-123.357285",
