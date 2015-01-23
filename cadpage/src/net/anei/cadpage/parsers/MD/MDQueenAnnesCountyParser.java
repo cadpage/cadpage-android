@@ -24,47 +24,82 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
     setupCallList(CALL_LIST);
     addNauticalTerms();
     setupMultiWordStreets(
+        "BATTS NECK",
         "BAY BRIDGE",
+        "BAY CITY",
         "BENNETT POINT",
+        "BUSCHS FRONTAGE",
         "CASTLE HARBOR",
         "CASTLE MARINA",
         "CHANNEL MARKER",
+        "CHESTER RIVER BEACH",
         "CHESTER RIVER",
         "CHESTER STATION",
         "CHESTERVILLE BRIDGE",
+        "CHEWS MANOR",
         "CHURCH HILL",
+        "CLABBER HILL",
+        "CLAIBORNE FIELDS",
         "COX NECK",
         "COX SAWMILL",
         "CRAB ALLEY",
+        "CREEKSIDE COMMONS",
         "DOUBLE CREEK POINT",
+        "DUCK PUDDLE",
         "DULIN CLARK",
+        "FLAT IRON SQUARE",
+        "GOLDEN EYE",
+        "GRANNY BRANCH",
         "GRASONVILLE CEMETERY",
+        "GREAT NECK",
+        "HESS FRONTAGE",
         "HICKORY RIDGE",
+        "HIGH BRIDGE",
         "HOUGHTON HOUSE",
+        "HOUSE POINT",
+        "JOHN BROWN",
+        "JOHN PATRICK",
+        "KENT MANOR",
         "KENT NARROWS",
         "KING STORE",
+        "LITTLE CREEK",
         "LITTLE KIDWELL",
+        "LITTLE NECK",
         "LOG CANOE",
+        "LONG POINT",
         "LOVE POINT",
         "MACUM CREEK",
         "MARION QUIMBY",
         "MONROE MANOR",
+        "NICHOLS MANOR",
         "OLD LOVE POINT",
         "OUTLET CENTER",
         "OYSTER COVE",
         "PERRYS CORNER",
+        "PINE COVE",
+        "PINEY CREEK",
         "PINEY NARROWS",
         "PRICE STATION",
+        "PROSPECT BAY",
+        "QUAKER NECK",
         "QUEEN ANNE",
+        "QUEEN MARY",
         "QUEEN NEVA",
+        "QUEEN VICTORIA",
+        "RABBIT HILL",
+        "RED LION BRANCH",
+        "RIVER VIEW",
         "ROLLING BRIDGE",
-        "SCHOOL HOUSE",
         "SAYERS FOREST",
+        "SCHOOL HOUSE",
+        "SHOPPING CENTER",
         "THOMPSON CREEK",
         "WEB FOOT",
         "WELLS COVE",
-        "WINDSWEPT FARM",
         "WHITE HOUSE",
+        "WHITE MARSH",
+        "WINDSWEPT FARM",
+        "WOODS EDGE",
         "WYE HARBOR",
         "WYE MILLS"
     );
@@ -123,9 +158,15 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
     pt = body.indexOf('@');
     if (pt < 0) {
       
-      // No @ - Address parser can handle the rest
-      parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ, body, data);
-      data.strSupp = getLeft();
+      // No @ -  If there is a TRANSFER/COVER tag, it marks the end of the address 
+      pt = body.indexOf("TRANSFER/COVER");
+      if (pt >= 0) {
+        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, body.substring(0,pt).trim(), data);
+        data.strSupp = body.substring(pt).trim();
+      } else {
+        parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ, body, data);
+        data.strSupp = getLeft();
+      }
     } 
     
     else {
@@ -172,11 +213,6 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
     if (data.strAddress.length() == 0) {
       String addr = data.strPlace;
       data.strPlace = "";
-      pt = addr.indexOf("TRANSFER/COVER");
-      if (pt >= 0) {
-        data.strSupp = addr.substring(pt);
-        addr = addr.substring(0,pt).trim();
-      }
       parseAddress(addr, data);
     }
 
@@ -230,10 +266,12 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       "LOCK OUT OF VEHICLE",
       "LOCK OUT",
       "MLTPL DWELLING FIRE",
+      "MVC/NOT ALERT",
       "MVC INVOLVING A BUS",
       "MVC UNKNOWN INJURIES",
       "MVC W/ENTRAPMENT",
       "MVC W/INJURIES",
+      "MVC W/MINOR INJURIES",
       "MVC W/PEDESTRIAN",
       "MVC W/ROLLOVER",
       "NEAR FAINTING",  
@@ -276,14 +314,17 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       "VEHICLE FIRE",
       
       "AACO MUTUAL AID",
+      "CARO MUTUAL AID",
       "KENT MUTUAL AID",
       "KENT MUTUAL AID MEDICAL",
       "KM06 MUTUAL AID MEDICAL",
-      "MUTUAL AID"
+      "MUTUAL AID",
+      "OTHE MUTUAL AID"
   );
   
   private static final Properties MA_CITY_TABLE = buildCodeTable(new String[]{
       "AACO", "ANNE ARUNDEL COUNTY",
+      "CARO", "CAROLINE COUNTY",
       "KENT", "KENT",
   });
 }
