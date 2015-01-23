@@ -520,6 +520,7 @@ class Active911Vendor extends Vendor {
       "US/OH/ButlerCountySheriff",        "OHButlerCountyA",
       "US/OH/ChampaignCounty",            "OHChampaignCounty",
       "US/OH/CityofFairfield",            "OHFairfield",
+      "US/OH/CityofOxford",               "OHOxford",
       "US/OH/CityofTrenton",              "OHTrenton",
       "US/OH/CityofVandalia",             "OHMontgomeryCountyB",
       "US/OH/CityofXenia",                "OHGreeneCounty",
