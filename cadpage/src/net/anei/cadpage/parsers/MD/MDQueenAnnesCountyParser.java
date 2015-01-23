@@ -261,6 +261,7 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       "STROKE",
       "STROKE (CVA)",
       "STROKE(CVA)<2HRS",
+      "STROKE(CVA)>2HRS",
       "STRUCTURE FIRE/OUT",
       "TRAILER FIRE",
       "TRAUMATIC INJURY",

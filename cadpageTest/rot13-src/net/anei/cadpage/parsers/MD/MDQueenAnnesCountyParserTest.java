@@ -19,6 +19,10 @@ Fcrpvny ceboyrzf
 Fraqre: <DN911pbz@dnp.bet>
 {*Q 5-1  FRVMHERF FGN 5, PUHEPU UVYY ISQ @316 ZNVA FG SBPNY FRVMHER D05 QHR}DN911pbz:N5 C600
 
+Pbagnpg: QW <qwjuvgol@lnubb.pbz>
+Fraqre: DN911pbz@dnp.bet
+(*T 5-2  FGEBXR(PIN)>2UEF 210 ENOOVG UVYY EQ ABG NYREG D05 QHR) DN911pbz:FH59
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Tenfbaivyyr SQ
 Ybpngvba: Tenfbaivyyr, ZQ, Havgrq Fgngrf
@@ -359,6 +363,20 @@ choyvp pynff ZQDhrraNaarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:D05",
         "HAVG:N5 C600");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQW() {
+
+    qbGrfg("G1",
+        "(*T 5-2  FGEBXR(PIN)>2UEF 210 ENOOVG UVYY EQ ABG NYREG D05 QHR) DN911pbz:FH59",
+        "OBK:5-2",
+        "PNYY:FGEBXR(PIN)>2UEF",
+        "NQQE:210 ENOOVG UVYY EQ",
+        "VASB:ABG NYREG",
+        "PU:D05",
+        "HAVG:FH59");
+
   }
 
   @Grfg
