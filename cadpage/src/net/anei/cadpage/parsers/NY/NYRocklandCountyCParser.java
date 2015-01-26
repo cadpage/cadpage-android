@@ -1,10 +1,15 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class NYRocklandCountyCParser extends FieldProgramParser {
+  
+  private static Pattern MARKER = Pattern.compile("ACR# +(\\d+) / +");
   
   public NYRocklandCountyCParser() {
     super("ROCKLAND COUNTY", "NY",
@@ -18,8 +23,22 @@ public class NYRocklandCountyCParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.startsWith("ACR# ")) return false;
-    data.strCallId = subject.substring(5).trim();
+    do {
+      if (subject.startsWith("ACR# ")) {;
+        data.strCallId = subject.substring(5).trim();
+        break;
+      }
+      
+      Matcher match = MARKER.matcher(body);
+      if (match.lookingAt()) {
+        data.strCallId = match.group(1);
+        body = body.substring(match.end());
+        break;
+      }
+      
+      return false;
+    } while (false);
+    
     if (body.startsWith("Add:")) body = "Addr:" + body.substring(4);
     return parseFields(body.split("\n"), data);
   }
