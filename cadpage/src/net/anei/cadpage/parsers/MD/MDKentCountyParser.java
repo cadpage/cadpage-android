@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.MD;
 
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 
@@ -35,6 +36,23 @@ public class MDKentCountyParser extends FieldProgramParser {
     return "911@kentgov.org";
   }
   
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strBox.equals("QA")) {
+      data.strCity = "QUEEN ANNES COUNTY";
+    }
+    else if (data.strBox.equals("OOC")) {
+      data.defCity = "";
+    }
+    return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " CITY";
+  }
+
   private static final CodeSet CALL_LIST = new CodeSet(
       "ALLERGIC REACTION",
       "APPLIANCE FIRE",
