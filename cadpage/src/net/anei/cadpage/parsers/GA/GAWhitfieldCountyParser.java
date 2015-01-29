@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
+/** Obsolete as of 1/27/2015 */
 
 public class GAWhitfieldCountyParser extends SmartAddressParser {
 
