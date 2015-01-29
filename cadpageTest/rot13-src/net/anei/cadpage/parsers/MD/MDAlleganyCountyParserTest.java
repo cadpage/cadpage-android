@@ -2668,7 +2668,7 @@ choyvp pynff ZQNyyrtnalPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:09:04",
         "VQ:002178",
         "PNYY:OHFVARFF SVER",
-        "CYNPR:XVATFSBEQ CYNAG -",
+        "CYNPR:XVATFSBEQ CYNAG",
         "NQQE:EG 46",
         "OBK:SZVA",
         "HAVG:PB22 R191 R361 N351");
@@ -2923,7 +2923,7 @@ choyvp pynff ZQNyyrtnalPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:09:05",
         "VQ:002178",
         "PNYY:OHFVARFF SVER",
-        "CYNPR:XVATFSBEQ CYNAG -",
+        "CYNPR:XVATFSBEQ CYNAG",
         "NQQE:EG 46",
         "OBK:SZVA",
         "HAVG:PB22 R191 R361 N351");
@@ -5001,9 +5001,8 @@ choyvp pynff ZQNyyrtnalPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:07:39",
         "VQ:001208",
         "PNYY:YBPNY BGURE SVER",
-        "CYNPR:YBJRF BS NYYRTNAL",
-        "NQQE:PBHAGL 1211 ANGVBANY UJL",
-        "ZNQQE:PBHAGL EBNQ 1211 ANGVBANY UJL",
+        "CYNPR:YBJRF BS NYYRTNAL PBHAGL",
+        "NQQE:1211 ANGVBANY UJL",
         "OBK:S0202",
         "HAVG:PB02");
 
