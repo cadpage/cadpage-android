@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Juvgrsvryq Pbhagl, TN (O)
+Juvgsvryq Pbhagl, TN (O)
 
 Pbagnpg: Zvxr Pnql <zvxrpnqltn@tznvy.pbz>
 Fraqre: CntrTngr@juvgsvryqpbhagltn.pbz

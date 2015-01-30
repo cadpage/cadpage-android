@@ -86,7 +86,7 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
         "WELSH HILL",
         "YELLOW ROW"
     );
-    setupPlaceAddressPtn(Pattern.compile("(LOWES OF ALLEGANY COUNTY)|(.*) - "), false);
+    setupPlaceAddressPtn(Pattern.compile("(LOWES OF ALLEGANY COUNTY)|(.*) - "));
   }
   
   @Override
