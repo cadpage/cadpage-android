@@ -20,6 +20,20 @@ public class NYMadisonCountyBParser extends DispatchA13Parser {
   }
 
   @Override
+  protected boolean parseHtmlMsg(String subject, String body, Data data) {
+    body = body.trim();
+    if (body.startsWith("<!DOCTYPE HTML ")) {
+      int pt = body.indexOf("<p>=EF=BB=BF");
+      if (pt < 0) return false;
+      pt += 12;
+      int pt2 = body.indexOf("</p>", pt);
+      if (pt2 < 0) return false;
+      body = body.substring(pt, pt2).trim();
+    }
+    return super.parseHtmlMsg(subject, body, data);
+  }
+
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
     // Missed right parens cause a problem.  If we find any add a closing right paren.
@@ -27,9 +41,8 @@ public class NYMadisonCountyBParser extends DispatchA13Parser {
 
     if (!super.parseMsg(body, data)) return false;
     
-    if (data.strCity.endsWith(" VIL")) {
-      data.strCity = data.strCity.substring(0,data.strCity.length()-4).trim();
-    }
+    data.strCity = stripFieldEnd(data.strCity, " VIL");
+    data.strCity = stripFieldEnd(data.strCity," VILLAGE");
     return true;
 
   }
@@ -41,35 +54,78 @@ public class NYMadisonCountyBParser extends DispatchA13Parser {
     }
     return city;
   }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
+  }
+  
+  private class MyAddressField extends BaseAddressField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("@") || field.contains("(")) {
+        super.parse(field, data);
+      } else {
+        String place = "";
+        int pt = field.lastIndexOf(';');
+        if (pt >= 0) {
+          place = field.substring(pt+1).trim();
+          field = field.substring(0,pt).trim();
+          if (field.startsWith(place)) place = "";
+        }
+        parseAddress(StartType.START_PLACE, FLAG_CROSS_FOLLOWS, field, data);
+        data.strCross = getLeft();
+        data.strCross = stripFieldStart(data.strCross, "/");
+        data.strCross = stripFieldEnd(data.strCross, "/");
+        
+        if (data.strPlace.length() > 0 && data.strCity.length() == 0) {
+          parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY | FLAG_ANCHOR_END, data.strPlace, data);
+          data.strPlace = getStart();
+        }
+        data.strPlace = append(data.strPlace, " - ", place);
+        data.strCross = stripFieldEnd(data.strCross, data.strCity);
+      }
+    }
+  }
 
   private static final String[] CITY_LIST = new String[]{
     "BRIDGEPORT",
     "BROOKFIELD",
     "CANASTOTA",
     "CANASTOTA VIL",
+    "CANASTOTA VILLAGE",
     "CAZENOVIA",
     "CAZENOVIA VIL",
+    "CAZENOVIA VILLAGE",
     "CHITTENANGO",
     "DERUYTER",
     "EARLVILLE",
     "EARLVILLE VIL",
+    "EARLVILLE VILLAGE",
     "EATON",
     "FENNER",
     "GEORGETOWN",
     "HAMILTON",
     "HAMILTON VIL",
+    "HAMILTON VILLAGE",
     "LEBANON",
     "LENOX",
     "LINCOLN",
     "MADISON",
     "MADISON VIL",
+    "MADISON VILLAGE",
+    "MADISON COUNTY",
     "MORRISVILLE",
     "MORRISVILLE VIL",
+    "MORRISVILLE VILLAGE",
     "MORRISVILLE VILLAGE-SUNY",
     "MUNNSVILLE",
     "MUNNSVILLE VIL",
+    "MUNNSVILLE VILLAGE",
     "NELSON",
     "NELSON VIL",
+    "NELSON VILLAGE",
     "ONEIDA",
     "ONEIDA CITY",
     "SMITHFIELD",
