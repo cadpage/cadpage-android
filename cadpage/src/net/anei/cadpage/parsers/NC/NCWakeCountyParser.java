@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.NC;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -24,8 +25,28 @@ public class NCWakeCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("WCPS")) return false;
-    return parseFields(body.split("\n"), data);
+    if (!parseFields(body.split("\n"), data)) return false;
+    
+    // See if this is an OOC mutual aid call with an odd address convention
+    // if it is, try to extract the real address from the comments.
+    String county = stripFieldEnd(data.strCity, " COUNTY");
+    if (county.length() < data.strCity.length()) {
+      if (data.strAddress.endsWith(' ' + county + " CO WAY")) {
+        String[] parts = data.strSupp.split(" / ");
+        for (int ii = 0; ii<parts.length-1; ii++) {
+          if (INFO_ADDR_MARK_PTN.matcher(parts[ii].trim()).matches()) {
+            Result res = parseAddress(StartType.START_OTHER, FLAG_NO_IMPLIED_APT | FLAG_IGNORE_AT | FLAG_NO_CITY, parts[ii+1].trim());
+            if (res.isValid()) {
+              data.strPlace = data.strAddress;
+              res.getData(data);
+            }
+          }
+        }
+      }
+    }
+    return true;
   }
+  private static final Pattern INFO_ADDR_MARK_PTN = Pattern.compile("\\. : [A-Z]{4}");
   
   private class MyCallField extends CallField {
     @Override
@@ -78,6 +99,12 @@ public class NCWakeCountyParser extends FieldProgramParser {
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
+  }
+  
+  @Override
+  public String adjustMapCity(String city) {
+    city = convertCodes(city.toUpperCase(), MAP_CITY_TABLE);
+    return super.adjustMapCity(city);
   }
   
   private static final CodeTable CALL_CODES = new StandardCodeTable(
@@ -150,37 +177,52 @@ public class NCWakeCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "AN",     "ANGIER",
-      "WCAN",   "ANGIER",
       "AP",     "APEX",
-      "WCAP",   "APEX",
       "CA",     "CARY",
+      "FV",     "FUQUAY-VARINA",
+      "GR",     "GARNER",
+      "HS",     "HOLLY SPRINGS",
+      "KD",     "KNIGHTDALE",
+      "MV",     "MORRISVILLE",
+      "RA",     "RALEIGH",
+      "RDU",    "RDU",
+      "RO",     "ROLESVILLE",
+      "ST",     "ST",
+      "WD",     "WENDELL",
+      "WF",     "WAKE FOREST",
+      "ZB",     "ZEBULON",
+      
+      "WCAN",   "ANGIER",
+      "WCAP",   "APEX",
       "WCCA",   "CARY",
       "WCCL",   "CLAYTON",
       "WCCR",   "CREEDMOOR",
       "WCDU",   "DURHAM",
-      "FV",     "FUQUAY-VARINA",
       "WCFV",   "FUQUAY-VARINA",
-      "GR",     "GARNER",
       "WCGR",   "GARNER",
-      "HS",     "HOLLY SPRINGS",
       "WCHS",   "HOLLY SPRINGS",
-      "KD",     "KNIGHTDALE",
       "WCKD",   "KNIGHTDALE",
-      "MV",     "MORRISVILLE",
       "WCMV",   "MORRISVILLE",
       "WCNH",   "NEW HILL",
-      "RA",     "RALEIGH",
       "WCRA",   "WAKE COUNTY", // "RALEIGH",
-      "RDU",    "RDU",
-      "RO",     "ROLESVILLE",
       "WCRO",   "ROLESVILLE",
-      "WF",     "WAKE FOREST",
-      "WCWF",   "WAKE FOREST",
-      "WD",     "WENDELL",
       "WCWD",   "WENDELL",
+      "WCWF",   "WAKE FOREST",
       "WCWS",   "WILLOW SPRINGS",
       "WCYV",   "YOUNGSVILLE",
-      "ZB",     "ZEBULON",
-      "WCZB",   "ZEBULON"
+      "WCZB",   "ZEBULON",
+      
+      "CC",     "CHATHAM COUNTY",
+      "DC",     "DURHAM COUNTY",
+      "FC",     "FRANKLIN COUNTY",
+      "GC",     "GRANVILLE COUNTY",
+      "JC",     "JOHNSTON COUNTY",
+      
+
+  });
+  
+  private static final Properties MAP_CITY_TABLE = buildCodeTable(new String[]{
+      "RDU",     "MORRISVILLE",
+      "ST",      "NORTH CAROLINA STATE UNIVERSITY"
   });
 }
