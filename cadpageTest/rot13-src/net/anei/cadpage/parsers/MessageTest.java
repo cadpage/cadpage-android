@@ -9,6 +9,14 @@ choyvp pynff ZrffntrGrfg {
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
+    qbCnefrGrfg("APWbuafgbaPbhagl",
+        "xra@pnqcntr.bet",
+        "JPCF",
+        "Sebz:PNQ@wbuafgbaap.pbz Zft:PNQ:Havgf Erfcbaq Pbqr 1;620 JNXR PBHAGL YVAR EQ; MROH",
+        "PNQ@wbuafgbaap.pbz",
+        "JPCF",
+        "PNQ:Havgf Erfcbaq Pbqr 1;620 JNXR PBHAGL YVAR EQ; MROH");
+    
     qbCnefrGrfg("PBTnesvryqPbhagl1",
         "xra@pnqcntr.bet",
         "PNQ Cntr", 

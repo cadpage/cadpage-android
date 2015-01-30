@@ -10,6 +10,9 @@ Juvgsvryq Pbhagl, TN (O)
 Pbagnpg: Zvxr Pnql <zvxrpnqltn@tznvy.pbz>
 Fraqre: CntrTngr@juvgsvryqpbhagltn.pbz
 (Nf bs 1/27/15 07) :Nf bs 1/27/15 07:33:38 2015-00009992 S15 - SVER NYNEZ 1250 PEBFF CYNVAF GEY, QNYGBA QNYGBA Havg Bet Anzr Nern Glcrf QR5 QNYG QS5_3, QS5_2, QS5_1G1, QS5_1, QS1_2 RAT QR1 QNYGBA SVER QRCG FGNGVBA 1 QS1_2 RAT QFD1 QNYGBA
+(Nf bs 1/29/15 20) :Nf bs 1/29/15 20:05:29 2015-00011389 S30 - BHGFVQR SVER(OEHFU,JBBQF,RGP.) Pynex FG, QNYGBA QNYGBA Havg Bet Anzr Nern Glcrf QR1 QN
+(Nf bs 1/29/15 18) :Nf bs 1/29/15 18:20:20 2015-00011335 S12 - FS-PBZZREPVNY/VAQHFGEVNY/FPUBB 1516 J Jnyahg NI, QNYGBA QNYGBA Havg Bet Anzr Nern Glcr
+(Nf bs 1/29/15 00) :Nf bs 1/29/15 00:22:23 2015-00010885 S31 - BHGFVQR SVER JVGU RKCBFHERF Ubyyljbbq QE, QNYGBA QNYGBA Havg Bet Anzr Nern Glcrf ONGG
 
 Pbagnpg: sversvtugre1050 <sversvtugre1050@tznvy.pbz>
 Fraqre: CntrTngr@juvgsvryqpbhagltn.pbz
@@ -36,6 +39,39 @@ choyvp pynff TNJuvgsvryqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1250 PEBFF CYNVAF GEY",
         "PVGL:QNYGBA",
         "HAVG:QR5 QNYG QS5_3, QS5_2, QS5_1G1, QS5_1, QS1_2 RAT QR1 QNYGBA SVER QRCG FGNGVBA 1 QS1_2 RAT QFD1 QNYGBA");
+
+    qbGrfg("G2",
+        "(Nf bs 1/29/15 20) :Nf bs 1/29/15 20:05:29 2015-00011389 S30 - BHGFVQR SVER(OEHFU,JBBQF,RGP.) Pynex FG, QNYGBA QNYGBA Havg Bet Anzr Nern Glcrf QR1 QN",
+        "QNGR:1/29/15",
+        "GVZR:20:05:29",
+        "VQ:2015-00011389",
+        "PBQR:S30",
+        "PNYY:BHGFVQR SVER(OEHFU,JBBQF,RGP.)",
+        "NQQE:Pynex FG",
+        "PVGL:QNYGBA",
+        "HAVG:QR1 QN");
+
+    qbGrfg("G3",
+        "(Nf bs 1/29/15 18) :Nf bs 1/29/15 18:20:20 2015-00011335 S12 - FS-PBZZREPVNY/VAQHFGEVNY/FPUBB 1516 J Jnyahg NI, QNYGBA QNYGBA Havg Bet Anzr Nern Glcr",
+        "QNGR:1/29/15",
+        "GVZR:18:20:20",
+        "VQ:2015-00011335",
+        "PBQR:S12",
+        "PNYY:FS-PBZZREPVNY/VAQHFGEVNY/FPUBB",
+        "NQQE:1516 J Jnyahg NI",
+        "ZNQQE:1516 J Jnyahg NIR",
+        "PVGL:QNYGBA");
+
+    qbGrfg("G4",
+        "(Nf bs 1/29/15 00) :Nf bs 1/29/15 00:22:23 2015-00010885 S31 - BHGFVQR SVER JVGU RKCBFHERF Ubyyljbbq QE, QNYGBA QNYGBA Havg Bet Anzr Nern Glcrf ONGG",
+        "QNGR:1/29/15",
+        "GVZR:00:22:23",
+        "VQ:2015-00010885",
+        "PBQR:S31",
+        "PNYY:BHGFVQR SVER JVGU RKCBFHERF",
+        "NQQE:Ubyyljbbq QE",
+        "PVGL:QNYGBA",
+        "HAVG:ONGG");
 
   }
   

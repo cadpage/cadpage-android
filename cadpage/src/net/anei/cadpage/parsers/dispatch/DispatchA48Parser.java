@@ -148,13 +148,7 @@ public class DispatchA48Parser extends SmartAddressParser {
         if (st == StartType.START_ADDR){
           parseAddress(addr, data);
         } else {
-          pt = addr.lastIndexOf(',');
-          if (pt >= 0) {
-            data.strCall = addr.substring(0,pt).trim();
-            parseAddress(addr.substring(pt+1).trim(), data);
-          } else {
-            parseAddress(st, flags | FLAG_NO_CITY | FLAG_ANCHOR_END, addr, data);
-          }
+          parseAddress(st, flags | FLAG_NO_CITY | FLAG_ANCHOR_END, addr, data);
         }
         
         // Check for duplicated city/address

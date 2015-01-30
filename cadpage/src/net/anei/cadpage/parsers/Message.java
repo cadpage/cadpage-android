@@ -129,7 +129,7 @@ public class Message {
     Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?((?:[\\w.!\\-]+\\w|\\\"[\\w\\.!\\- ]+\\\")@[-\\w\\.]+)[\\s:]"),
     Pattern.compile("^\\*\\d+: \\*([-\\w]+@[-\\w\\.]+) +"),
     Pattern.compile("^[^\n]*\\bFr: *(\\S+@\\S+)\\s+"),
-    Pattern.compile("^From: *(\\S+@\\S+) +"),
+    Pattern.compile("^From: *(\\S+@\\S+) +(?:Msg: *)?"),
     Pattern.compile("sentto-[-\\d]+ *= *([-\\.\\w]+@[-\\.\\w]+) +"),
     Pattern.compile("^[\\d\\.]+=([-_a-z0-9\\.]+@[-_a-z0-9\\.]+) +"),
     Pattern.compile("SRS1=[A-Za-z0-9\\.]+=AIDz=WT=[A-Za-z0-9\\.]+= ([A-Za-z0-9\\.]+@[A-Za-z0-9\\.]+)")

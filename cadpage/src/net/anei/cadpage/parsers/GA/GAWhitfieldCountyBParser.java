@@ -7,6 +7,10 @@ public class GAWhitfieldCountyBParser extends DispatchA48Parser {
   public GAWhitfieldCountyBParser() {
     super(CITY_LIST, "WHITFIELD COUNTY", "GA", FieldType.NAME);
     setupCallList(CALL_LIST);
+    setupMultiWordStreets(
+        "CROSS PLAINS",
+        "KIMBERLY PARK"
+    );
   }
   
   @Override
@@ -16,10 +20,12 @@ public class GAWhitfieldCountyBParser extends DispatchA48Parser {
   
   private static final String[] CALL_LIST = new String[]{
     "BREATHING PROBLEMS",
+    "FIRE ALARM",
     "M.V. ACCIDENT W/INJURIES",
     "M.V. ACCIDENT W/PEDESTRIAN",
+    "OUTSIDE FIRE WITH EXPOSURES",
+    "OUTSIDE FIRE(BRUSH,WOODS,ETC.)",
     "SF-COMMERCIAL/INDUSTRIAL/SCHOO",
-    "FIRE ALARM",
     "VEHICLE FIRE - CMV"
   };
   
