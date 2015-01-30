@@ -79,7 +79,7 @@ public class DispatchA13Parser extends FieldProgramParser {
   private static final Pattern APT_PREFIX_PTN = Pattern.compile("^(?:APT|RM|ROOM) *");
   private static final Pattern APT_PTN = Pattern.compile("(?:APT|RM|ROOM) *(.*)|BLDG?.*|.* FLR|.* FLOOR");
   private static final Pattern BREAK_PTN = Pattern.compile(" *(?:[,;]) *");
-  private class BaseAddressField extends AddressField {
+  protected class BaseAddressField extends AddressField {
     
     @Override
     public void parse(String field, Data data) {
