@@ -1698,6 +1698,10 @@ public class StandardCodeTable extends CodeTable {
    * @return expanded code
    */
   private String expand(String code) {
+    
+    // Start by removing spurious dashes
+    code = code.replace("-",  "");
+        
     if (code.length() == 0 || !Character.isDigit(code.charAt(0))) return code;
     
     if (code.length() < 3) {

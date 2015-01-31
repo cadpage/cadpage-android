@@ -5,20 +5,29 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.StandardCodeTable;
 
 
 public class NYSuffolkCountyFiretrackerParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("^\\*\\* ?([A-Z ]+) ?\\*\\* \\[([- A-Z0-9]+)\\] ");
+  private static final Pattern MARKER = Pattern.compile("^\\*\\* ?([A-Z ]+) ?\\*\\* \\[([- A-Z0-9]+)\\] +(?:\\(([- A-Z0-9]+)\\) +)?");
   
   public NYSuffolkCountyFiretrackerParser() {
-    super(CITY_LIST, "SUFFOLK COUNTY", "NY", 
+    this("SUFFOLK COUNTY", "NY");
+  }
+  public NYSuffolkCountyFiretrackerParser(String defCity, String defState) {
+    super(CITY_LIST, defCity, defState, 
            "ADDR/S! C/S:X? TOA:TIME? Add't_Info:INFO");
   }
   
   @Override
   public String getFilter() {
     return "dispatch@firetracker.net";
+  }
+  
+  @Override
+  public   String getAliasCode() {
+    return "NYSuffolkCountyFiretracker";
   }
   
   @Override
@@ -29,7 +38,12 @@ public class NYSuffolkCountyFiretrackerParser extends FieldProgramParser {
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
     data.strSource = match.group(1).trim();
-    data.strCall = match.group(2).trim();
+    data.strCode = match.group(2).trim();
+    data.strCall = getOptGroup(match.group(3));
+    if (data.strCall.length() == 0) {
+      data.strCall = CODE_TABLE.getCodeDescription(data.strCode);
+      if (data.strCall == null) data.strCall = data.strCode;
+    }
     body = body.substring(match.end()).trim();
     
     int pt = body.lastIndexOf('[');
@@ -42,7 +56,7 @@ public class NYSuffolkCountyFiretrackerParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return "SRC CALL " + super.getProgram();
+    return "SRC CODE CALL " + super.getProgram();
   }
   
   private static final Pattern DATE_PTN = Pattern.compile(" +(\\d\\d?/\\d\\d?/\\d{4})$");
@@ -69,9 +83,12 @@ public class NYSuffolkCountyFiretrackerParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  private static final StandardCodeTable CODE_TABLE = new StandardCodeTable();
+  
   private static final String[] CITY_LIST = new String[]{
     "MASTIC BEACH",
     "SHIRLEY",
-    "SMITH POINT"
+    "SMITH POINT",
+    "WILLISTON PARK"
   };
 }
