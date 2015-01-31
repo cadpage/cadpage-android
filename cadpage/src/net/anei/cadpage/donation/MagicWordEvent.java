@@ -1,7 +1,9 @@
 package net.anei.cadpage.donation;
 
 import net.anei.cadpage.C2DMService;
+import net.anei.cadpage.ManageBluetooth;
 import net.anei.cadpage.ManagePreferences;
+import net.anei.cadpage.ManageUsb;
 import net.anei.cadpage.R;
 import android.app.Activity;
 
@@ -34,6 +36,22 @@ public class MagicWordEvent extends DonateQueryEvent {
     // Special word that nobody knows about that will reset the C2DM registration code
     if (input.equalsIgnoreCase("ZAPIT")) {
       C2DMService.unregister(activity);
+      return true;
+    }
+    
+    // More special words to help roger test Testra connectivity
+    if (input.equalsIgnoreCase("USB1")) {
+      ManageUsb.instance().probe(activity);
+      return true;
+    }
+    
+    if (input.equalsIgnoreCase("BT1")) {
+      ManageBluetooth.instance().enableDiscovery(activity);
+      return true;
+    }
+    
+    if (input.equalsIgnoreCase("BT2")) {
+      ManageBluetooth.instance().probe(activity);
       return true;
     }
     

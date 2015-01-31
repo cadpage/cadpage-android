@@ -3,10 +3,12 @@ package net.anei.cadpage.donation;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+
+
+
 
 
 
@@ -15,13 +17,14 @@ import java.util.GregorianCalendar;
 import net.anei.cadpage.BugReportGenerator;
 import net.anei.cadpage.C2DMService;
 import net.anei.cadpage.ContentQuery;
+import net.anei.cadpage.ManageBluetooth;
 import net.anei.cadpage.ManagePreferences;
-import net.anei.cadpage.R;
 import net.anei.cadpage.SmsMmsMessage;
 import net.anei.cadpage.SmsMsgLogBuffer;
 import net.anei.cadpage.SmsReceiver;
+import net.anei.cadpage.ManageUsb;
 import net.anei.cadpage.billing.BillingManager;
-import android.content.Context;
+import android.app.Activity;
 import android.content.Intent;
 import android.preference.ListPreference;
 import android.preference.PreferenceGroup;
@@ -34,15 +37,17 @@ public class DeveloperToolsManager {
   // private constructor
   private DeveloperToolsManager() {}
   
-  public boolean addPreference(Context context, PreferenceGroup group) {
+  public boolean addPreference(Activity context, PreferenceGroup group) {
     if (!UserAcctManager.instance().isDeveloper()) return false;
     group.addPreference(new DeveloperListPreference(context));
-    
     return true;
   }
   
   
   private static final String[] entryList = new String[]{
+    "Probe USB",
+    "Discover Bluetooth",
+    "Probe Bluetooth",
     "C2DM: Register",
     "C2DM: Unregister",
     "C2DM: Report",
@@ -69,14 +74,15 @@ public class DeveloperToolsManager {
   };
   
   private static final String[] valueList = new String[]{
-    "31", "32", "33", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19",
+    "100", "101", "102",
+    "31", "32", "33", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19"
   };
   
   private class DeveloperListPreference extends ListPreference {
     
-    private Context context;
+    private Activity context;
 
-    public DeveloperListPreference(Context context) {
+    public DeveloperListPreference(Activity context) {
       super(context);
       this.context = context;
       setTitle("Developer Debug Tools");
@@ -247,6 +253,18 @@ public class DeveloperToolsManager {
         
       case 33:    // C2DM: Report
         C2DMService.emailRegistrationId(context);
+        break;
+        
+      case 100: // USB Probe
+        ManageUsb.instance().probe(context);
+        break;
+        
+      case 101: // Bluetooth discovery
+        ManageBluetooth.instance().enableDiscovery(context);
+        break;
+        
+      case 102: // Bluetooth probe
+        ManageBluetooth.instance().probe(context);
         break;
       }
       DonationManager.instance().reset();

@@ -1,5 +1,6 @@
 package net.anei.cadpage.donation;
 
+import net.anei.cadpage.ManageBluetooth;
 import net.anei.cadpage.SmsMessageQueue;
 import net.anei.cadpage.SmsMmsMessage;
 import net.anei.cadpage.billing.BillingActivity;
@@ -29,6 +30,11 @@ public class DonateActivity extends BillingActivity {
 
   @Override
   protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    
+    if (resultCode >= ManageBluetooth.BLUETOOTH_REQ) {
+      if (ManageBluetooth.instance().onActivityResult(this, requestCode, resultCode)) return;
+    }
+    
     super.onActivityResult(requestCode, resultCode, data);
     if (resultCode == RESULT_OK) {
       setResult(RESULT_OK);

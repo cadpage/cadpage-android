@@ -304,6 +304,11 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       ManagePreferences.setScannerIntent(scanIntent);
       return;
     }
+    
+    if (resultCode >= ManageBluetooth.BLUETOOTH_REQ) {
+      if (ManageBluetooth.instance().onActivityResult(this, requestCode, resultCode)) return;
+    }
+   
     super.onActivityResult(requestCode, resultCode, data);
   }
   
