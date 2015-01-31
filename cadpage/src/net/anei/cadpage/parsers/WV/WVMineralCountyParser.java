@@ -11,7 +11,63 @@ public class WVMineralCountyParser extends FieldProgramParser {
   
   public WVMineralCountyParser() {
     super(CITY_LIST, "MINERAL COUNTY", "WV",
-           "SRCID DATETIME ALERTED CALL ADDR!");
+           "SRCID DATETIME STATUS CALL/SDS ADDR!");
+    setupMultiWordStreets(
+        "BELL BABB",
+        "BIBLE CHURCH",
+        "BRIDGE HOLLOW",
+        "CABIN RUN",
+        "CHAZ DEREMER",
+        "CUT OFF",
+        "DOUBLE CRIBBS",
+        "DRY RUN",
+        "EAST PIEDMONT",
+        "FORT ASHBY",
+        "FOXES HOLLOW",
+        "FRIED MEAT RIDGE",
+        "GOLDEN CROSS",
+        "GRAYSON GAP",
+        "HERSHEY HOLLOW",
+        "HICKORY HILL",
+        "HIDDEN VIEW",
+        "HOOKER HOLLOW",
+        "HOOKER HOLLOW",
+        "HORSESHOE RUN",
+        "JAKE STAGGERS",
+        "MAPLE HOLLOW",
+        "MILL RUN",
+        "MUD RUN",
+        "NETHKIN HILL",
+        "NORTH MAIN",
+        "ORCHARD MUSE",
+        "PARRILL HLLW",
+        "PARRILL HOLLOW",
+        "PATTERSON CREEK",
+        "PATTERSONS CREEK",
+        "PATTERSONS CREEK",
+        "PHILLIP VINCENT",
+        "PIN OAK",
+        "RAVEN RIDGE",
+        "REESES MILL",
+        "ROCKLAND FARM",
+        "RV BROWN",
+        "SAINT CLOUD",
+        "SOUTH CHURCH",
+        "SOUTH FOXS HOLLOW",
+        "SOUTH MAIN",
+        "SOUTH VALLEY VIEW",
+        "SOUTH WATER",
+        "ST CLOUD",
+        "STATE CLOUD",
+        "SUNNY BROOK",
+        "SUSAN FLEEK",
+        "SWEET SERENITY",
+        "WEBBS FARM",
+        "WEST HAMPSHIRE",
+        "WEST PIEDMONT",
+        "WHITE WAY",
+        "WHITE WILLOW"
+   );
   }
   
   @Override
@@ -26,7 +82,7 @@ public class WVMineralCountyParser extends FieldProgramParser {
     return parseFields(flds, 5, data);
   }
 
-  private static final Pattern SOURCE_ID_PTN = Pattern.compile("(?:\\?\\?\\? )?([A-Z]{3,5}):(\\d{4}:\\d{4})");
+  private static final Pattern SOURCE_ID_PTN = Pattern.compile("(?:\\?\\?\\? )?([A-Z][A-Z0-9]{2,4})\\.?:(\\d{4}:\\d{4})");
   private class SourceIdField extends Field {
     @Override
     public void parse(String field, Data data) {
@@ -42,6 +98,25 @@ public class WVMineralCountyParser extends FieldProgramParser {
     }
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("SRCID")) return new SourceIdField();
+    if (name.equals("DATETIME")) return new MyDateTimeField();
+    if (name.equals("STATUS")) return new MyStatusField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern STATUS_PTN = Pattern.compile("ALERTED|(ENROUTE|ON SCENE|RETURN TO QUARTERS|TRANSPORT|STANDBY/STAGE|PENDING|COMPLETED)");
+  private class MyStatusField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = STATUS_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strCall = getOptGroup(match.group(1));
+    }
+  }
+  
   private class MyDateTimeField extends DateTimeField {
     public MyDateTimeField() {
       super("\\d{4}-\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d", true);
@@ -53,45 +128,114 @@ public class WVMineralCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern RT_DOT_PTN = Pattern.compile("\\bRT\\. *", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SPEC_CROSS_PTN = Pattern.compile("\\(([^\\(\\)]*);\\)");
+  private static final Pattern STATION_PTN = Pattern.compile("(STATION +\\d+)( +.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern ADDR_DELIM = Pattern.compile(" *[,;] *");
+  private static final Pattern INTERSECTION_PTN = Pattern.compile("INTERSECTI?ON (?:OF )? *(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern APT_PTN = Pattern.compile("(?:APT|LOT|#) *#?([^ ]+)");
   private static final Pattern NEXT_TO_PTN = Pattern.compile("NEXT TO (.*) INTERSECTION", Pattern.CASE_INSENSITIVE);
+  private static final Pattern CROSS_PREFIX_PTN = Pattern.compile("(?:ACROSS FROM|FROM|NEAR|OFF|ON|TO) +(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern NO_CROSS_PREFIX_PTN = Pattern.compile("(?:TURN|PASS|PAST) .*", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      if (field.endsWith("(;)")) field = field.substring(0,field.length()-3).trim();
-      String[] parts = ADDR_DELIM.split(field);
-      int ndx = 0;
-      Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, parts[0]);
-      if (parts.length > 1) {
-        Result res2= parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, parts[1]);
-        if (res2.getStatus() > res.getStatus()) {
-          ndx = 1;
-          res = res2;
-          data.strPlace = parts[0];
-        }
-      }
-      res.getData(data);
-      data.strSupp = res.getLeft();
       
-      for (ndx++; ndx < parts.length; ndx++) {
-        String part = parts[ndx];
-        String upPart = part.toUpperCase();
-        if (upPart.equals("MNRL WV")) continue;
-        if (upPart.startsWith("BETWEEN ")) {
-          data.strCross = append(data.strCross, " / ", part.substring(8).trim());
-          continue;
-        }
-        if (isCity(upPart)) {
-          data.strCity = part;
-          continue;
-        }
-        Matcher match = NEXT_TO_PTN.matcher(part);
-        if (match.matches()) {
-          data.strAddress = data.strAddress + " & " + match.group(1);
-          continue;
-        }
-        data.strSupp = append(data.strSupp, " / ", part);
+      if (data.strCall.endsWith("INFORMATION")) {
+        data.strPlace = field;
+        return;
       }
+      
+      field = RT_DOT_PTN.matcher(field).replaceAll("RT ");
+      
+      String cross = "";
+      Matcher match = SPEC_CROSS_PTN.matcher(field);
+      if (match.find()) {
+        cross = match.group(1).trim();
+        field = field.substring(0,match.start()) + field.substring(match.end());
+      }
+      
+      match = STATION_PTN.matcher(field);
+      if (match.matches()) field = match.group(1) + ',' + match.group(2);
+      
+      // Split address into component parts
+      field = field.replace("(;)", "");
+      String[] parts = ADDR_DELIM.split(field);
+      
+      // Figuring out where the address is can be tricky.
+      int addrNdx = -1;
+      boolean foundPart = false;
+      
+      // If there is only one part, it must be the address
+      if (parts.length == 1) {
+        addrNdx = 0;
+        match = INTERSECTION_PTN.matcher(parts[0]);
+        if (match.matches()) parts[0] = match.group(1);
+      }
+      
+      // Otherwise, check the next 2 parts to see if they contain anything
+      // we would recognize as something that should follow an address;
+      else {
+        for (int ndx = 1; ndx<= 2; ndx++) {
+          if (ndx >= parts.length) break;
+          if (processPart(parts[ndx], false, data)) {
+            foundPart = true;
+            addrNdx = ndx-1;
+            break;
+          }
+        }
+      }
+      
+      // If there is only one suspected address thingie, parse it as such
+      if (addrNdx == 0) {
+        StartType st = parts.length == 1 ? StartType.START_PLACE : StartType.START_ADDR;
+        parseAddress(st, FLAG_IMPLIED_INTERSECT | FLAG_AT_SIGN_ONLY | FLAG_NO_IMPLIED_APT, parts[addrNdx], data);
+        data.strSupp = append(getLeft(), " / ", data.strSupp);
+        if (data.strAddress.length() == 0) {
+          parseAddress(data.strPlace, data);
+          data.strPlace = "";
+        }
+        addrNdx = 1;
+      }
+      
+      // No such luck.  We will have to check both the first two parts to see
+      // which one looks like a better address;
+      else {
+        Result res1 = parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_AT_SIGN_ONLY | FLAG_NO_IMPLIED_APT | FLAG_CHECK_STATUS, parts[0]);
+        Result res2 = parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_AT_SIGN_ONLY | FLAG_NO_IMPLIED_APT | FLAG_CHECK_STATUS, parts[1]);
+        boolean placeIntersect = res1.getStatus() == STATUS_STREET_NAME && res2.getStatus() == STATUS_STREET_NAME && res1.getLeft().length() == 0 && res2.getLeft().length() == 0; 
+        addrNdx = 0;
+        if (placeIntersect || res2.getStatus() > res1.getStatus()) {
+          data.strPlace = parts[0];
+          res1 = res2;
+          addrNdx = 1;
+        } else if (foundPart) {
+          data.strPlace = parts[1];
+          addrNdx = 1;
+        }
+        if (foundPart) addrNdx++;
+        res1.getData(data);
+        data.strSupp = append(res1.getLeft(), " / ", data.strSupp);
+        
+        // If we identified the first two parts as simple street names, merge
+        // together as an intersection
+        if (placeIntersect) {
+          match = CROSS_PREFIX_PTN.matcher(data.strAddress);
+          if (match.matches()) data.strAddress = match.group(1);
+          data.strAddress = append(data.strPlace, " & ", data.strAddress);
+          data.strPlace = "";
+        }
+      }
+      
+
+      // OK, we got the address and possible the thing after the address
+      // not process everything else
+      for (int ndx = addrNdx+1; ndx < parts.length; ndx++) {
+        processPart(parts[ndx], true, data);
+      }
+      
+      data.strCross = append(data.strCross, " / ", cross);
+      
       if (data.strCity.equalsIgnoreCase("MCOOLE")) data.strCity = "MCCOOLE";
       else if (data.strCity.equalsIgnoreCase("FROST BURG")) data.strCity = "FROSTBURG";
       if (data.strCity.equalsIgnoreCase("WESTERNPORT") ||
@@ -99,19 +243,50 @@ public class WVMineralCountyParser extends FieldProgramParser {
           data.strCity.equalsIgnoreCase("FROSTBURG")) data.strState = "MD";
     }
     
+    private boolean processPart(String part, boolean forceInfo, Data data) {
+      String upPart = part.toUpperCase();
+      if (upPart.equals("MNRL WV")) return true;
+      if (upPart.startsWith("BETWEEN ")) {
+        data.strCross = append(data.strCross, " / ", part.substring(8).trim());
+        return true;
+      }
+      Matcher match = APT_PTN.matcher(upPart);
+      if (match.matches()) {
+        data.strApt = append(data.strApt, "-", match.group(1));
+        return true;
+      }
+      match = NEXT_TO_PTN.matcher(part);
+      if (match.matches()) {
+        data.strAddress = data.strAddress + " & " + match.group(1);
+        return true;
+      }
+      if (data.strCity.length() == 0  && !isValidAddress(part)) {
+        Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, part);
+        if (res.isValid()) {
+          res.getData(data);
+          data.strSupp = append(data.strSupp, ", ", res.getLeft());
+          return true;
+        }
+      }
+      
+      if (!forceInfo) return false;
+      
+      if (!NO_CROSS_PREFIX_PTN.matcher(part).matches() && isValidAddress(part)) {
+        match = CROSS_PREFIX_PTN.matcher(part);
+        if (match.matches()) part = match.group(1);
+        
+        data.strCross = append(data.strCross, " / ", part);
+      } else {
+        data.strSupp = append(data.strSupp, ", ", part);
+      }
+      return true;
+      
+    }
+    
     @Override
     public String getFieldNames() {
       return "PLACE ADDR APT CITY ST X INFO";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("SRCID")) return new SourceIdField();
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    if (name.equals("ALERTED")) return new SkipField("ALERTED", true);
-    if (name.equals("ADDR")) return new MyAddressField();
-    return super.getField(name);
   }
   
   private static final String[] CITY_LIST = new String[]{
@@ -129,7 +304,6 @@ public class WVMineralCountyParser extends FieldProgramParser {
     "BURLINGTON",
     "CHAMPWOOD",
     "CLAYSVILLE",
-    "CROSS",
     "DANS RUN",
     "EMORYVILLE",
     "FOOTE STATION",
@@ -162,6 +336,9 @@ public class WVMineralCountyParser extends FieldProgramParser {
     "FROSTBURG",
     "MCOOLE",
     "MCCOOLE",
-    "WESTERNPORT"
+    "WESTERNPORT",
+    
+    // Grant County
+    "MAYSVILLE"
   };
 }
