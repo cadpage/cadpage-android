@@ -228,6 +228,8 @@ public class MsgOptionManager {
     }
     
     // Next see if they requested any custom menus, and if they did, set those up
+    String vendor = message.getVendorCode();
+    boolean active911 = vendor != null && vendor.equals("Active911");
     String respMenu = message.getResponseMenu();
     if (respMenu != null) {
       for (String btnDef : respMenu.split(";")) {
@@ -237,8 +239,8 @@ public class MsgOptionManager {
           respCode = btnDef.substring(0,pt).trim();
           respDesc = btnDef.substring(pt+1).trim();
         } else {
-          respCode = "";
           respDesc = btnDef.trim();
+          respCode = active911 && respDesc.length() > 0 ? respDesc.substring(0,1) : "";
         }
         if (respCode.length() > 0) {
           respButtonList.add(new ButtonHandler(R.id.resp_http_item, respDesc, respCode, respButtonGroup));
