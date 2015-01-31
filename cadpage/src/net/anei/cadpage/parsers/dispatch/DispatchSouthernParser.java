@@ -41,6 +41,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   // Flag indicating call description follows address
   public static final int DSFLAG_FOLLOW_CALL = 0x200;
+  
+  // Flag indicating optional unit designation preceedes call ID
+  public static final int DSFLAG_LEAD_UNIT = 0x400;
 
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("(\\d{8});([-A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
@@ -64,17 +67,22 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private boolean noNamePhone;
   private boolean impliedApt;
   private boolean inclCall;
+  private boolean leadUnitId;
   private CodeSet callSet;
   private Pattern unitPtn;
   
   private String defaultFieldList;
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState) {
-    this(null, cityList, defCity, defState, DSFLAG_DISPATCH_ID);
+    this(null, cityList, defCity, defState, DSFLAG_DISPATCH_ID, null);
   }
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState, int flags) {
-    this(null, cityList, defCity, defState, flags);
+    this(null, cityList, defCity, defState, flags, null);
+  }
+  
+  public DispatchSouthernParser(String[] cityList, String defCity, String defState, int flags, String unitPtnStr) {
+    this(null, cityList, defCity, defState, flags, unitPtnStr);
   }
   
   public DispatchSouthernParser(CodeSet callSet, String[] cityList, String defCity, String defState, int flags) {
@@ -95,6 +103,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     this.impliedApt = (flags & DSFLAG_NO_IMPLIED_APT) == 0;
     this.noNamePhone = (flags & DSFLAG_NO_NAME_PHONE) != 0;
     this.inclCall = (flags & DSFLAG_FOLLOW_CALL) != 0;
+    this.leadUnitId = (flags & DSFLAG_LEAD_UNIT) != 0;
     this.unitPtn = (unitPtnStr == null ? null : Pattern.compile(unitPtnStr));
     
     
@@ -107,6 +116,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (inclCross || inclCrossNamePhone) sb.append(" X?");
     if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE?");
     sb.append(" CODE+? PARTCODE?");
+    if (leadUnitId) sb.append(" UNIT?");
     sb.append(" ID");
     if (idOptional) sb.append('?');
     sb.append(" TIME");
@@ -120,6 +130,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     sb.append(inclCross || inclCrossNamePhone ? " CITY X" : " X CITY");
     if (inclCall) sb.append(" CALL");
     if (!inclCross && !noNamePhone) sb.append(" NAME PHONE");
+    if (leadUnitId) sb.append(" UNIT");
     sb.append(" CODE ID TIME");
     if (unitId) sb.append(" UNIT");
     if (!inclCall) sb.append(" CALL");
