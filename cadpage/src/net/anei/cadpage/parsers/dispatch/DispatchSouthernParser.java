@@ -223,6 +223,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
     // set an call description if we do not have one
     if (data.strCall.length() == 0 && data.strSupp.length() == 0) data.strCall= "ALERT";
     
+    // Remove any asterisks from cross street info
+    data.strCross = data.strCross.replace("*", "");
+    
     // Apparently there is no way to not enter a street number, entering 0 or 1 is the accepted
     // workaround.
     if (data.strAddress.startsWith("1 ") || data.strAddress.startsWith("0 ")) {

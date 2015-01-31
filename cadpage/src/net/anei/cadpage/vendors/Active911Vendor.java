@@ -723,6 +723,7 @@ class Active911Vendor extends Vendor {
       "US/WA/USAMobility",                "WAPierceCountyA",
       "US/WA/ValleyCom",                  "WAKingCountyC",
       "US/WA/WallaWallaCounty",           "WAWallaWallaCounty",
+      "US/VA/WarrenCounty",               "VAWarrenCounty",
       "US/WA/WestPierceCounty",           "WAPierceCountyD",
       "US/WA/WhitmanCounty",              "WAWhitmanCounty",
       "US/WI/DoorCounty",                 "WIDoorCounty",

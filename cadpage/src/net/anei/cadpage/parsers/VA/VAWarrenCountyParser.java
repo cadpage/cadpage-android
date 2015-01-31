@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
  */
 public class VAWarrenCountyParser extends DispatchSouthernParser {
   
-  private static final Pattern VERIFY_X_PTN = Pattern.compile("\\*([ A-Z0-9]+?) +\\(Verify\\)");
+  private static final Pattern VERIFY_X_PTN = Pattern.compile(" *\\(Verify\\) *");
   
   public VAWarrenCountyParser() {
     super(CITY_LIST, "WARREN COUNTY", "VA", DSFLAG_OPT_DISPATCH_ID | DSFLAG_FOLLOW_CROSS);
@@ -24,7 +24,7 @@ public class VAWarrenCountyParser extends DispatchSouthernParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     if (!super.parseMsg(body, data)) return false;
-    data.strCross = VERIFY_X_PTN.matcher(data.strCross).replaceAll("$1").trim();
+    data.strCross = VERIFY_X_PTN.matcher(data.strCross).replaceAll(" ").trim();
     return true;
   }
 
