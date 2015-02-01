@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.IN;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
@@ -12,12 +14,12 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
   
   public INKosciuskoCountyParser() {
     super(CITY_CODES, "KOSCIUSKO COUNTY", "IN",
-           "( CANCEL | FYI CALL ) ADDR! APT? CITY END");
+           "( CANCEL | FYI CALL ) ADDR! ( END | APTPLACE? CITY/Y END )");
   }
   
   @Override
   public String getFilter() {
-    return "CAD@co.marshall.in.us,CAD@kcgov.local";
+    return "CAD@co.marshall.in.us,CAD@kcgov.local,CAD@kcgov.com";
   }
   
   @Override
@@ -43,14 +45,32 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CANCEL")) return new CallField("CANCEL", true);
+    if (name.equals("APTPLACE")) return new MyAptPlaceField();
     return super.getField(name);
+  }
+  
+  private static final Pattern APT_MARK_PTN = Pattern.compile("\\(S\\) \\(N\\)|\\([NS]\\)");
+  private class MyAptPlaceField extends AptField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = APT_MARK_PTN.matcher(field);
+      if (match.find()) {
+        data.strPlace = field.substring(match.end()).trim();
+        field = field.substring(0,match.start()).trim();
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "APT PLACE";
+    }
   }
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "952",  "MARION",
       "AKRN", "AKRON",
       "ATW",  "ATWOOD",
-      "BOUR", "BOURBON",
       "BREM", "BREMEN",
       "BRK",  "BURKET",
       "CLAY", "CLAYPOOL",
@@ -66,6 +86,7 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
       "MILF", "MILFORD",
       "NAPP", "NAPPANEE",
       "NW",   "NORTH WEBSTER",
+      "PIE",  "PIERCETON",
       "PIER", "PIERCETON",
       "PLY",  "PLYMOUTH",
       "ROA",  "ROANN",
@@ -74,6 +95,7 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
       "SL",   "SILVER LAKE",
       "SWHT", "SOUTH WHITLEY",
       "SYR",  "SYRACUSE",
+      "TIPP", "TIPPECANOE",
       "WAR",  "WARSAW",
       "WL",   "WINONA LAKE"
       
