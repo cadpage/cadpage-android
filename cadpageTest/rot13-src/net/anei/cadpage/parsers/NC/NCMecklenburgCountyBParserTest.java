@@ -97,7 +97,7 @@ choyvp pynff APZrpxyraohetPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:13538 Vqyrsvryq Ya",
         "CEV:P",
         "PBQR:30",
-        "PNYY:Genhzngvp vawhevrf,",
+        "PNYY:Genhzngvp vawhevrf",
         "K:fcrpvspVqyr Qe / Zvyyf Raq Pe",
         "HAVG:Zu212",
         "ZNC:381381/Q8",

@@ -55,7 +55,7 @@ public class PALancasterCountyParser extends FieldProgramParser {
         data.strCall = field.substring(0,match.start()).trim();
         data.strCity = field.substring(match.end()).trim();
       } else {
-        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ONLY_CITY | FLAG_ANCHOR_END, field, data);
+        parseAddress(StartType.START_CALL, FLAG_ONLY_CITY | FLAG_ANCHOR_END, field, data);
         if (data.strCity.length() == 0) abort();
       }
       data.strCity = stripFieldStart(data.strCity, "DAUPHIN ");

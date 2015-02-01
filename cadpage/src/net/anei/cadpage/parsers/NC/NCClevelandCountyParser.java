@@ -197,10 +197,12 @@ public class NCClevelandCountyParser extends DispatchOSSIParser {
   
   private static final Set<String> CALL_SET = new HashSet<String>(Arrays.asList(new String[]{
       "10-50 PI",
+      "50PD",
       "A B PAIN",
       "ALREACT",
       "AN/BITE",
       "ASSAULT",
+      "ASSIST O",
       "AST/EMS",
       "BACK PAI",
       "C/R/ARRE",
@@ -245,6 +247,7 @@ public class NCClevelandCountyParser extends DispatchOSSIParser {
       "STROKE",
       "TRAUMA",
       "UNCONSCI",
+      "UNDER CONTROL",
       "UNK MED"
   }));
 }

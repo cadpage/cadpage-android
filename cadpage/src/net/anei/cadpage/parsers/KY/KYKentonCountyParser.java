@@ -92,6 +92,7 @@ public class KYKentonCountyParser extends SmartAddressParser {
         "VALLEY VIEW",
         "WALTON NICHOLSON"
         );
+    removeWords("HILLS");
   }
   
   @Override

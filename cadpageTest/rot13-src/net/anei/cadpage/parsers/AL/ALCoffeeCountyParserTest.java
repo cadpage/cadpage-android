@@ -1244,7 +1244,7 @@ choyvp pynff NYPbssrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Nzohynapr Pnyy",
         "NQQE:712 Tybire Nir",
-        "NCG:YBG 602",
+        "NCG:602",
         "PVGL:Ragrecevfr",
         "FEP:Ragrecevfr Sver Qrcnegzrag",
         "VQ:201400086131",
@@ -1263,7 +1263,7 @@ choyvp pynff NYPbssrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Nzohynapr Pnyy",
         "NQQE:712 Tybire Nir",
-        "NCG:YBG 602",
+        "NCG:602",
         "PVGL:Ragrecevfr",
         "FEP:Ragrecevfr Sver Qrcnegzrag",
         "VQ:201400086131",
@@ -1282,7 +1282,7 @@ choyvp pynff NYPbssrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Nzohynapr Pnyy",
         "NQQE:712 Tybire Nir",
-        "NCG:YBG 602",
+        "NCG:602",
         "PVGL:Ragrecevfr",
         "FEP:Ragrecevfr Sver Qrcnegzrag",
         "VQ:201400086131",

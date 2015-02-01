@@ -12,11 +12,10 @@ public class ILStClairCountyAParser extends FieldProgramParser {
   private static final String MSG_PREFIX = "Fire Run";
   private static final Pattern PTN_GARBAGE = Pattern.compile("^(\\p{ASCII}+)");
   private static final Pattern PTN_GARBAGE_PRE = Pattern.compile("(\\p{ASCII}+)$");
-  private static final Pattern PTN_CROSS_STREET = Pattern.compile("\\(/?(.*)\\) ");
   
   public ILStClairCountyAParser() {
-    super(CITY_LIST, "ST CLAIR COUNTY", "IL",
-           "Response_Type:CALL! Location:ADDRCITY/S! Cross:X? Creation_Time:DATETIME! Agency:SRC");
+    super("ST CLAIR COUNTY", "IL",
+           "Response_Type:CALL! Location:ADDRCITY! Creation_Time:DATETIME! Agency:SRC");
   }
    
   @Override
@@ -49,22 +48,8 @@ public class ILStClairCountyAParser extends FieldProgramParser {
     // Put delimiter in front of Location label
     body = body.replace(" Location:", "\nLocation:");
     
-    // Add label for Cross street
-    Matcher crossMatch = PTN_CROSS_STREET.matcher(body);
-    if(crossMatch.find()) {
-      body = body.substring(0, crossMatch.start()) + "\nCross:" + crossMatch.group(1) + body.substring(crossMatch.end());
-    }
-    
     String[] fields = body.split("[\n\t]");
-    if (!parseFields(fields, data)) return false;
-    
-    if (data.strAddress.startsWith("@") && data.strCross.length() > 0) {
-      data.strPlace = data.strAddress.substring(1).trim();
-      data.strAddress = "";
-      parseAddress(data.strCross, data);
-      data.strCross = "";
-    }
-    return true;
+    return parseFields(fields, data);
   }
   
   @Override
@@ -81,52 +66,60 @@ public class ILStClairCountyAParser extends FieldProgramParser {
     
   }
   
+  private static final Pattern PTN_CROSS_STREET = Pattern.compile("(.*?)\\(/?(.*)\\)(.*?)");
   private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*, .*), *\\d{5}(?: +#(.*))?");
   private static final Pattern PTN_FULL_ADDR2 = Pattern.compile("(\\d+ )+#([^ ]+) +(.*)");
+  private static final Pattern PTN_APT = Pattern.compile("(.*)# *([^ ]+) (.*)");
   private class MyAddressField extends AddressCityField {
     
     @Override 
     public void parse(String field, Data data) {
-      String apt = "";
-      Matcher m = PTN_FULL_ADDR.matcher(field);   // This will match address, city, and zip
-      if (m.matches()) {
-        field = m.group(1).trim();                       // Remove the zipcode
-        apt = getOptGroup(m.group(2));
-      } 
-      if ((m = PTN_FULL_ADDR2.matcher(field)).matches()) {
-        field = m.group(1) + m.group(3);
-        apt = append(m.group(2), "-", apt);
+      
+      // Add label for Cross street
+      String cross = "";
+      Matcher match = PTN_CROSS_STREET.matcher(field);
+      if(match.matches()) {
+        field = append(match.group(1).trim(), " ", match.group(3).trim());
+        cross = match.group(2).trim();
+        cross = stripFieldStart(cross, "/");
+        cross = stripFieldEnd(cross, "/");
       }
+      
+      if (field.startsWith("@")) {
+        field = field.substring(1).trim();
+        if (cross.length() > 0) {
+          data.strPlace = field;
+          field = cross;
+          cross = "";
+        }
+      }
+      data.strCross = cross;
+      
+      String apt = "";
+      match = PTN_FULL_ADDR.matcher(field);   // This will match address, city, and zip
+      if (match.matches()) {
+        field = match.group(1).trim();                       // Remove the zipcode
+        apt = getOptGroup(match.group(2));
+      } 
+      else if ((match = PTN_FULL_ADDR2.matcher(field)).matches()) {
+        field = match.group(1) + match.group(3);
+        apt = append(match.group(2), "-", apt);
+      }
+      
+      // Then there are the free floating apt fields behind the street number :(
+      match = PTN_APT.matcher(field);
+      if (match.matches()) {
+        field = append(match.group(1).trim(), " ", match.group(3).trim());
+        data.strApt = append(match.group(2), "-", apt);
+      }
+      
       super.parse(field, data);
       data.strApt = append(data.strApt, "-", apt);
     }
-   
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " X";
+    }
   }
-  
-  private static final String[] CITY_LIST = {
-    "BELLEVILLE",
-    "CAHOKIA",
-    "CANTEEN",
-    "CASEYVILLE",
-    "CENTREVILLE",
-    "DUPO",
-    "EAST ST. LOUIS",
-    "ENGLEMANN",
-    "FREEBURG",
-    "LEBANON",
-    "LENZBURG",
-    "MARISSA",
-    "MASCOUTAH",
-    "MILLSTADT",
-    "NEW ATHENS",
-    "O'FALLON",
-    "PRAIRIE DU LONG",
-    "SHILOH VALLEY", 
-    "SMITHTON", 
-    "SAINT CLAIRE", 
-    "STITES", 
-    "STOOKEY", 
-    "SUGAR LOAF", 
-    "SWANSEA"
-  };
 }

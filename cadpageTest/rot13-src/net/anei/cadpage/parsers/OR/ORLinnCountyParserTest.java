@@ -4245,7 +4245,8 @@ choyvp pynff BEYvaaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G20",
         "(VPBZ/400 abgvsvpngvba) PBAIHY/FRVMHERF/33464 RNTYR EQ OYQT 60/GNATRAG VAQHFGEVNY CNEX/3822T7112/",
         "PNYY:PBAIHY/FRVMHERF",
-        "NQQE:33464 RNTYR EQ OYQT 60",
+        "NQQE:33464 RNTYR EQ",
+        "NCG:OYQT 60",
         "CYNPR:GNATRAG VAQHFGEVNY CNEX",
         "ZNC:3822T",
         "HAVG:7112");

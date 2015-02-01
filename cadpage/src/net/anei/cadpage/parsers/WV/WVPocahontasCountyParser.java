@@ -49,6 +49,20 @@ public class WVPocahontasCountyParser extends DispatchEmergitechParser {
   public String getProgram() {
     return super.getProgram().replace("APT", "APT X");
   }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace(';', ' ').trim();
+      super.parse(field, data);
+    }
+  }
 
   private static final String[] CITY_LIST = new String[]{
 

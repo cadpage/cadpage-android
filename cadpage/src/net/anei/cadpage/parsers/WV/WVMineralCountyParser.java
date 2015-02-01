@@ -187,9 +187,11 @@ public class WVMineralCountyParser extends FieldProgramParser {
       }
       
       // If there is only one suspected address thingie, parse it as such
+      int flags = FLAG_IMPLIED_INTERSECT | FLAG_AT_SIGN_ONLY | FLAG_NO_IMPLIED_APT;
+      if (data.strCity.length() > 0) flags |= FLAG_NO_CITY;
       if (addrNdx == 0) {
         StartType st = parts.length == 1 ? StartType.START_PLACE : StartType.START_ADDR;
-        parseAddress(st, FLAG_IMPLIED_INTERSECT | FLAG_AT_SIGN_ONLY | FLAG_NO_IMPLIED_APT, parts[addrNdx], data);
+        parseAddress(st, flags, parts[addrNdx], data);
         data.strSupp = append(getLeft(), " / ", data.strSupp);
         if (data.strAddress.length() == 0) {
           parseAddress(data.strPlace, data);
@@ -201,9 +203,11 @@ public class WVMineralCountyParser extends FieldProgramParser {
       // No such luck.  We will have to check both the first two parts to see
       // which one looks like a better address;
       else {
-        Result res1 = parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_AT_SIGN_ONLY | FLAG_NO_IMPLIED_APT | FLAG_CHECK_STATUS, parts[0]);
-        Result res2 = parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_AT_SIGN_ONLY | FLAG_NO_IMPLIED_APT | FLAG_CHECK_STATUS, parts[1]);
-        boolean placeIntersect = res1.getStatus() == STATUS_STREET_NAME && res2.getStatus() == STATUS_STREET_NAME && res1.getLeft().length() == 0 && res2.getLeft().length() == 0; 
+        flags |= FLAG_CHECK_STATUS;
+        Result res1 = parseAddress(StartType.START_ADDR, flags, parts[0]);
+        Result res2 = parseAddress(StartType.START_ADDR, flags, parts[1]);
+        boolean placeIntersect = res1.getStatus() == STATUS_STREET_NAME && res2.getStatus() == STATUS_STREET_NAME && 
+                                 res1.getLeft().length() == 0 && res2.getLeft().length() == 0; 
         addrNdx = 0;
         if (placeIntersect || res2.getStatus() > res1.getStatus()) {
           data.strPlace = parts[0];

@@ -34,8 +34,8 @@ choyvp pynff ALEraffrynrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "SEZ:erafpbocf3@tznvy.pbz\aZFT:PUNEYVR RZF FGEBXR FHTNE UVYY NCGF 400 ZPPURFARL NIR RKG OYQT 16 NCG 8 GBJA BS OEHAFJVPX  -02",
         "PNYY:PUNEYVR RZF FGEBXR FHTNE UVYY NCGF",
-        "NQQE:400 ZPPURFARL NIR RKG OYQT 16",
-        "NCG:8",
+        "NQQE:400 ZPPURFARL NIR RKG",
+        "NCG:OYQT 16 NCG 8",
         "PVGL:GBJA BS OEHAFJVPX");
 
     qbGrfg("G2",
@@ -51,7 +51,7 @@ choyvp pynff ALEraffrynrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "SEZ:erafpbocf3@tznvy.pbz\aZFT:NYCUN qrgrezvanag SNYYF / ONPX VAWHEVRF, 68 ZG CYRNFNAG NIRGbja bs OEHAFJVPX - 7",
-        "PNYY:NYCUN qrgrezvanag SNYYF / ONPX VAWHEVRF,",
+        "PNYY:NYCUN qrgrezvanag SNYYF / ONPX VAWHEVRF",
         "NQQE:68 ZG CYRNFNAG NIR",
         "PVGL:Gbja bs OEHAFJVPX");
 

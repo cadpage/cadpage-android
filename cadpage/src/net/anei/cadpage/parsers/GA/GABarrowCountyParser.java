@@ -18,7 +18,7 @@ public class GABarrowCountyParser extends SmartAddressParser {
       super("BARROW COUNTY", "GA");
       setupCallList(CALL_LIST);
       setupMultiWordStreets(MW_STREETS);
-      setupPlaceAddressPtn(SUBDIVISION_PTN);
+      setupPlaceAddressPtn(SUBDIVISION_PTN, true);
       setFieldList("CODE CALL PLACE ADDR APT X NAME ID INFO");
   }
   

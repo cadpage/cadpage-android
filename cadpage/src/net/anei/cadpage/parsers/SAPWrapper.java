@@ -159,7 +159,7 @@ public class SAPWrapper extends SmartAddressParser {
     
     // On rare occasions, a pattern match is the better way to identify leading place names
     if (args[0].equals("PLACE_PATTERN")) {
-      parser.setupPlaceAddressPtn(Pattern.compile(".*? SUBDIVISION"));
+      parser.setupPlaceAddressPtn(Pattern.compile(".*? SUBDIVISION"), true);
     }
     
     

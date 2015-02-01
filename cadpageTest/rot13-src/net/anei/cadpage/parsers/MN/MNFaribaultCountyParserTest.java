@@ -1289,8 +1289,8 @@ choyvp pynff ZASnevonhygPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Havg(f) erfcbaqrq: \a" +
         "ORC319GU",
 
-        "PNYY:Nffvfg ng Ujl 169",
-        "NQQE:EE Genpxf",
+        "PNYY:Nffvfg",
+        "NQQE:Ujl 169 & EE Genpxf",
         "FEP:Oyhr Rnegu CQ",
         "VQ:201400005796",
         "QNGR:12/23/2014",
@@ -1305,8 +1305,8 @@ choyvp pynff ZASnevonhygPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Havg(f) erfcbaqrq: \a" +
         "ORC303PO",
 
-        "PNYY:Genssvp Fgbc ng Ujl 169",
-        "NQQE:EE Genpxf",
+        "PNYY:Genssvp Fgbc",
+        "NQQE:Ujl 169 & EE Genpxf",
         "FEP:Oyhr Rnegu CQ",
         "VQ:201400005795",
         "QNGR:12/23/2014",
@@ -1453,8 +1453,8 @@ choyvp pynff ZASnevonhygPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Havg(f) erfcbaqrq: \a" +
         "ORC303PO",
 
-        "PNYY:Genssvp Fgbc ng 1fg",
-        "NQQE:Yrynaq Cxjl",
+        "PNYY:Genssvp Fgbc",
+        "NQQE:1fg & Yrynaq Cxjl",
         "FEP:Oyhr Rnegu CQ",
         "VQ:201400005791",
         "QNGR:12/23/2014",

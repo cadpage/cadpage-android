@@ -1677,8 +1677,8 @@ choyvp pynff ZQQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G90",
         "(PG) QBE911:ZBGBE IRU. PBYYVFVBA ZVYR 90 J @4146 BPRNA TGJL YVAX OBK:61-2 QHR:ER61-1 RA61-1 C101 N11-1 :QP",
         "PNYY:ZBGBE IRU. PBYYVFVBA",
-        "CYNPR:4146 BPRNA TGJL",
-        "NQQE:90 J",
+        "CYNPR:ZVYR 90 J",
+        "NQQE:4146 BPRNA TGJL",
         "PVGL:YVAXJBBQ",
         "OBK:61-2",
         "HAVG:ER61-1 RA61-1 C101 N11-1");

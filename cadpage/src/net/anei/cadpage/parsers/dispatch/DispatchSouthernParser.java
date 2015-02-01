@@ -54,7 +54,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
   private static final Pattern EXTRA_CROSS_PTN = Pattern.compile("(?:AND +|[/&] *)(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern CALL_BRK_PTN = Pattern.compile(" +/+ *");
-  
+  private static final Pattern VERIFY_X_PTN = Pattern.compile(" *\\(Verify\\) *");
+
   private boolean parseFieldOnly;
 
   private boolean leadDispatch;
@@ -109,7 +110,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     
     // Program string needs to be built at run time
     StringBuilder sb = new StringBuilder();
-    sb.append("ADDR/S");
+    sb.append("ADDR/S2");
     if (impliedApt) sb.append('6');
     if (inclPlace) sb.append('P');
     if (inclCall) sb.append(" CALL");
@@ -223,8 +224,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
     // set an call description if we do not have one
     if (data.strCall.length() == 0 && data.strSupp.length() == 0) data.strCall= "ALERT";
     
-    // Remove any asterisks from cross street info
+    // Remove any asterisks or verify markers from cross street info
     data.strCross = data.strCross.replace("*", "");
+    data.strCross = VERIFY_X_PTN.matcher(data.strCross).replaceAll(" ").trim();
     
     // Apparently there is no way to not enter a street number, entering 0 or 1 is the accepted
     // workaround.
@@ -257,7 +259,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (data.strCode.length() == 0) data.strCode = p.getLastOptional(" LDL ");
     sAddr = p.get();
     StartType st = (inclPlace ? StartType.START_PLACE : StartType.START_ADDR);
-    int flags = 0;
+    int flags = FLAG_AT_SIGN_ONLY;
     if (impliedApt) flags |= FLAG_RECHECK_APT;
     if (inclCross || inclCrossNamePhone) flags |= FLAG_CROSS_FOLLOWS;
     if (noNamePhone && inclPlace) flags |= FLAG_ANCHOR_END;
@@ -396,7 +398,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     data.strCode = p.getLastOptional(" MDL ");
     if (data.strCode.length() == 0) data.strCode =p.getLastOptional(" FDL ");
     sExtra = p.get();
-    parseAddress(StartType.START_CALL, FLAG_RECHECK_APT, sExtra, data);
+    parseAddress(StartType.START_CALL, FLAG_AT_SIGN_ONLY | FLAG_RECHECK_APT, sExtra, data);
     data.strSupp = getLeft();
   }
   
@@ -428,25 +430,25 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("CODE"))  return new MyCodeField();
     if (name.equals("PARTCODE")) return new SkipField("[MFL]D?");
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("ID")) return new IdField("\\d\\d(?:\\d\\d)?-?\\d{4,8}", true);
-    if (name.equals("NAME")) return new MyNameField();
+    if (name.equals("NAME")) return new BaseNameField();
     if (name.equals("PHONE")) return new PhoneField("\\d{10}");
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
-    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("INFO")) return new BaseInfoField();
     if (name.equals("ID2")) return new IdField("\\d{6}-\\d{2,4}");
     return super.getField(name);
   }
   
-  private class MyAddressField extends AddressField {
+  protected class BaseAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       if (field.startsWith("1 ")) {
         field = field.substring(2).trim();
-        int flags = FLAG_ANCHOR_END;
+        int flags = FLAG_AT_SIGN_ONLY | FLAG_ANCHOR_END;
         if (impliedApt) flags |= FLAG_RECHECK_APT;
         parseAddress(StartType.START_ADDR, flags, field, data);
         data.strAddress = append("1", " ", data.strAddress);
@@ -458,7 +460,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   // Name field continues until it finds a phone number, call number, or time
   private static final Pattern NOT_NAME_PTN = Pattern.compile("\\d{10}|\\d\\d(?:\\d\\d)?-?\\d{5,8}|\\d\\d:\\d\\d:\\d\\d");
-  private class MyNameField extends NameField {
+  class BaseNameField extends NameField {
     @Override
     public boolean canFail() {
       return true;
@@ -488,7 +490,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     }
   }
   
-  private class MyInfoField extends InfoField {
+  protected class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       

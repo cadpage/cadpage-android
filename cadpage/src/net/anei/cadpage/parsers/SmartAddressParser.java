@@ -200,7 +200,20 @@ public abstract class SmartAddressParser extends MsgParser {
   /**
    * Flag indicating that @ and at should be treated as cross street markers
    */
-  public static final int FLAG_AT_MEANS_CROSS = 0x800000;
+  public static final int FLAG_AT_MEANS_CROSS = 0x1000000;
+  
+  /** 
+   * Flag indicating city name may occur before @ sign.  This is only signficant
+   * if FLAG_AT_PLACE or FLAG_AT_BOTH have been specified
+   */
+  public static final int FLAG_AT_INCL_CITY = 0x2000000;
+  
+  /**
+   * Flag indicating we are looking for anything in this line *EXCEPT* an address
+   * this is used internally by the @ mark processing.  It is not expected to
+   * ever be used in the real world.
+   */
+  public static final int FLAG_NO_ADDRESS = 0x4000000;
   
   public static final int STATUS_TRIVIAL = 5;
   public static final int STATUS_FULL_ADDRESS = 4;
@@ -245,7 +258,7 @@ public abstract class SmartAddressParser extends MsgParser {
   private static final long ID_AT_MARKER = 0x800L;
   
   // Bitmask bit indicating token had a preceding @ character
-  private static final long ID_INCL_AT_MARKER = 0x1000L;
+  // private static final long ID_INCL_AT_MARKER = 0x1000L;    *** AVAILABLE ***
   
   // Bitmask bit indicating token is an apartment selector
   private static final long ID_APT = 0x2000L;
@@ -358,6 +371,7 @@ public abstract class SmartAddressParser extends MsgParser {
   
   // Special Place detection algorithm
   private Pattern placeAddressPtn = null;
+  private boolean placeAddressPtnExcl = false;
   
   public SmartAddressParser(String[] cities, String defCity, String defState) {
     this(cities, defCity, defState, CountryCode.US);
@@ -484,11 +498,11 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_ST, "ST");
     setupDictionary(ID_MILE_MARKER, "MM", "MP");
     
-    setupDictionary(ID_CROSS_STREET, "XS:", "X:", "C/S:", "C/S");
+    setupDictionary(ID_CROSS_STREET, "XS:", "X:", "C/S:", "C/S");    //  Warning!  Must match CROSS_MARK_PTN
     setupDictionary(ID_NEAR, "NEAR", "ACROSS");
-    setupDictionary(ID_APT, "APT:", "APT", "APTS", "#", "SP", "RM", "SUITE", "STE", "SUITE:", "ROOM", "ROOM:", "LOT", "UNIT");
+    setupDictionary(ID_APT, "APT:", "APT", "APTS", "#APT", "#", "SP", "RM", "SUITE", "STE", "SUITE:", "ROOM", "ROOM:", "LOT", "#LOT", "UNIT");
     setupDictionary(ID_APT_SOFT, "APT", "APTS", "SUITE", "ROOM", "LOT", "UNIT");
-    setupDictionary(ID_FLOOR, "FLOOR", "FLR", "FL");
+    setupDictionary(ID_FLOOR, "FLOOR", "FLR", "FL", "BLDG");
     setupDictionary(ID_STREET_NAME_PREFIX, "HIDDEN", "LAKE", "MT", "MOUNT", "SUNKEN");
     setupDictionary(ID_NOT_ADDRESS, "YOM", "YOF", "YO");
     setupDictionary(ID_SINGLE_WORD_ROAD, "TURNPIKE");
@@ -658,11 +672,15 @@ public abstract class SmartAddressParser extends MsgParser {
    * Setup up pattern to be used to detect place names in front of address
    * information
    * @param placeAddressPtn Pattern to be used to identify place names leading
-   * the address.  Pattern must match complete line and specify two groups
-   * that will be identified as the place name and everything else.
+   * the address.  Pattern may specify groups, in which case the first group
+   * that returns a non-null result will become the place name.
+   * @param placeAddressPtnExcl true if the pattern match should be the only way
+   * to identify a place name.  False if regular logic will be used should the
+   * pattern match fail.
    */
-  protected void setupPlaceAddressPtn(Pattern placeAddressPtn) {
+  protected void setupPlaceAddressPtn(Pattern placeAddressPtn, boolean placeAddressPtnExcl) {
     this.placeAddressPtn = placeAddressPtn;
+    this.placeAddressPtnExcl = placeAddressPtnExcl;
   }
   
   public void setAllowDirectionHwyNames(boolean allowDirectionHwyNames) {
@@ -883,28 +901,190 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   protected Result parseAddress(StartType sType, int flags, String address) {
     address = address.trim();
-    Result result = parseAddressInternal(sType, flags, address);
+    this.flags = flags;
+
+    // If we have a call dictionary, and address starts with a call, search
+    // the dictionary to see if address line starts with matching call.  This logic
+    // should be suppressed if we are starting with a call description and the address
+    // contains an @
+    String callPrefix = null;
+    if ((sType == StartType.START_CALL && (isFlagSet(FLAG_AT_PLACE|FLAG_AT_BOTH|FLAG_IGNORE_AT) || !address.contains("@")) ||
+         sType == StartType.START_CALL_PLACE) 
+         && callDictionary != null) {
+      String call = callDictionary.getCode(address.toUpperCase(), !isFlagSet(FLAG_START_FLD_NO_DELIM));
+      if (call != null) {
+        
+        // We have a match.  Store the call (without the trailing space)
+        // in the result call prefix.  Remove the call prefix from the address
+        // line, and set the start type to start with the address
+        callPrefix = address.substring(0,call.length());
+        address = address.substring(call.length()).trim();
+        int pt = call.length();
+        while (pt < address.length() && CodeSet.DELIMS.indexOf(address.charAt(pt)) >= 0) pt++;
+        Matcher match = ADDR_START_PTN.matcher(address);
+        if (match.find()) address = address.substring(match.end()).trim();
+        sType = (sType == StartType.START_CALL_PLACE ? StartType.START_PLACE : StartType.START_ADDR);
+        flags &= ~FLAG_START_FLD_REQ;
+        this.flags = flags;
+      }
+    }
     
+    // A start type of START_ADDR is incompatible with the FLAG_AT_BOTH flag.  If both are
+    // set, switch flag to FLAG_AT_PLACE
+    if (sType == StartType.START_ADDR && isFlagSet(FLAG_AT_BOTH)) {
+      flags &= ~FLAG_AT_BOTH;
+      flags |= FLAG_AT_PLACE;
+      this.flags = flags;
+    }
+    
+    // If we are not ignoring at signs, see if we have one
+    String prefix = null;
+    String specPlace = null;
+    Result result = null;
+    if (!isFlagSet(FLAG_IGNORE_AT | FLAG_AT_MEANS_CROSS | FLAG_ONLY_CITY)  &&
+        (sType != StartType.START_ADDR || isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH))) {
+      Pattern ptn = (isFlagSet(FLAG_AT_SIGN_ONLY) ? AT2_PTN : AT1_PTN);
+      Matcher match = ptn.matcher(address);
+      if (match.find()) {
+        
+        // Find the first cross street marker
+        int crossPos = Integer.MAX_VALUE;
+        Matcher mat2 = CROSS_MARK_PTN.matcher(address);
+        if (mat2.find()) crossPos = mat2.start();
+        
+        boolean atPlace = isFlagSet(FLAG_AT_PLACE);
+        boolean atBoth = isFlagSet(FLAG_AT_BOTH);
+        boolean atIncCity = isFlagSet(FLAG_AT_INCL_CITY);
+        
+        // It makes a difference if there is a second AT mark in the field so lets
+        // look ahead and see if we have one
+        int atStart = match.start();
+        int atEnd = match.end();
+        int nextStart = -1;
+        int nextEnd = -1;
+        boolean atMult = match.find();
+        if (atMult) {
+          nextStart = match.start();
+          nextEnd = match.end();
+        }
+        
+        // Go into loop checking results at different break points.
+        do {
+          
+          // @ markers beyond the first cross street marker do not count
+          if (atStart >= crossPos) break;
+          
+          // We got one.  Use it to split address into two pieces 
+          String part1 = address.substring(0,atStart).trim();
+          String part2 = address.substring(atEnd).trim();
+          
+          // Try one or both pieces as an address
+          Result res1 = null, res2 = null;
+          if (atPlace || atBoth) {
+            StartType st = sType == StartType.START_PLACE ? StartType.START_ADDR : sType;
+            int tFlags = flags | FLAG_ANCHOR_END;
+            if (!atIncCity) tFlags |= FLAG_NO_CITY;
+            if (atBoth || atMult) tFlags |= FLAG_CHECK_STATUS;
+            res1 = parseAddressInternal1(st, tFlags, part1);
+          }
+          if (!atPlace || atBoth) {
+            int tFlags = flags;
+            if (atBoth || atMult) tFlags |= FLAG_CHECK_STATUS;
+            res2 = parseAddressInternal1(StartType.START_ADDR, tFlags, part2);
+          }
+          
+          // If FLAG_AT_BOTH was set, we tried both pieces and need to determine which one is better
+          if (res1 != null && res2 != null) {
+            if (res1.getStatus() >  res2.getStatus()) {
+              res2 = null;
+            } else {
+              res1  = null;
+            }
+          }
+          
+          // AT this point, one and only one of res1 and res2 will be non-null.  Use it to 
+          // determine the final result
+          String tmpPrefix, tmpSpecPlace;
+          Result tmpResult;
+          if (res1 != null) {
+            tmpPrefix = null;
+            tmpResult = res1;
+            tmpSpecPlace = part2;
+          } else {
+            if (sType == StartType.START_ADDR) sType = StartType.START_PLACE;
+            tmpPrefix = part1;
+            tmpResult = res2;
+            tmpSpecPlace = null;
+          }
+          
+          // OK, not the final result, now we compare the previous loop results to determine
+          // the real final result
+          if (result == null || tmpResult.getStatus() > result.getStatus()) {
+            prefix = tmpPrefix;
+            result = tmpResult;
+            specPlace = tmpSpecPlace;
+          }
+          
+          // Continue checking further @ breaks until we get a valid address or
+          // run out of breaks
+          atStart = nextStart;
+          atEnd = nextEnd;
+          if (atStart < 0 || result.isValid()) break;
+          if (match.find()) {
+            nextStart = match.start();
+            nextEnd = match.end();
+          } else {
+            nextStart = nextEnd = -1;
+          }
+        } while (true);
+      }
+    }
+    
+
+    if (result == null) result = parseAddressInternal1(sType, flags, address);
+    
+    result.startType = sType;
     result.flags = flags;
+    result.callPrefix = callPrefix;
+    
+    // Some consistency checks
+    if (prefix != null) {
+      if (result.startField != null) throw new RuntimeException("Inconsistent prefix parse result");
+      result.stdPrefix = prefix;
+    }
+    if (specPlace != null) { 
+      if (result.placePrefix != null || result.placeField != null) throw new RuntimeException("Inconsistent place parse result");
+      result.trailPlace = specPlace;
+    }
+    
+    // If we were really parsing cross streets, switch address index to cross street index
+    if (isFlagSet(FLAG_ONLY_CROSS)) {
+      result.crossField = result.addressField;
+      result.addressField = null;
+    }
+    return result;
+  }
+  private static Pattern CROSS_MARK_PTN = Pattern.compile("\\b(?:XS?:|C/S:|C/S\\b)", Pattern.CASE_INSENSITIVE);
+  private static Pattern AT1_PTN = Pattern.compile("@|(?: REPORTED *)?\\bAT\\b(?!&T)", Pattern.CASE_INSENSITIVE);
+  private static Pattern AT2_PTN = Pattern.compile("@");
+  
+  
+  protected Result parseAddressInternal1(StartType sType, int flags, String address) {
+
+    Result result = parseAddressInternal2(sType, flags, address);
     
     // Now is where we use the result to compute the true prefix and leftover segments
-    result.stdPrefix = "";
     result.left = "";
     result.mBlankLeft = false;
     result.commaLeft = false;
     
     if (result.startField != null) {
-      
-      // If prefix ends with some variation of "REPORTED AT" drop the 
-      // REPORTED (AT has already been dropped)
       int tmp = result.startField.fldEnd;
-      if (tmp > 0 && isAtSign(tmp) && tokens[tmp-1].equalsIgnoreCase("REPORTED")) tmp--;
-      
       if (tmp > 0) {
         if (tmp >= tokenPos.length) {
           result.stdPrefix = saveAddress;
         } else {
-          result.stdPrefix = saveAddress.substring(0,tokenPos[tmp]).trim();
+          result.stdPrefix = stripFieldEnd(saveAddress.substring(0,tokenPos[tmp]).trim(), ",");
         }
       }
     }
@@ -922,60 +1102,31 @@ public abstract class SmartAddressParser extends MsgParser {
       }
     }
     
-    // If we were really parsing cross streets, switch address index to cross street index
-    if (isFlagSet(FLAG_ONLY_CROSS)) {
-      result.crossField = result.addressField;
-      result.addressField = null;
-    }
     return result;
   }
   
-  private static final Pattern US_PTN = Pattern.compile("\\b(U) (S)\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern ADDR_START_PTN = Pattern.compile("^(?:@|AT |REPORTED AT )", Pattern.CASE_INSENSITIVE);
-  private static final Pattern MARGINAL_INTERSECT_PTN = Pattern.compile(".*&.*|.*/(?!B\\b).*");
-  private Result parseAddressInternal(StartType sType, int flags, String address) {
-    this.flags = flags;
+  private Result parseAddressInternal2(StartType sType, int flags, String address) {
     lastCity = -1;
+    this.flags = flags;
     Result result = new Result(this, flags);
     boolean onlyCity = isFlagSet(FLAG_ONLY_CITY);
-
-    // If we have a call dictionary, and address starts with a call, search
-    // the dictionary to see if address line starts with matching call.  This logic
-    // should be suppressed if we are starting with a call description and the address
-    // contains an @
-    if ((sType == StartType.START_CALL && (isFlagSet(FLAG_AT_PLACE|FLAG_AT_BOTH|FLAG_IGNORE_AT) || !address.contains("@")) ||
-         sType == StartType.START_CALL_PLACE) 
-         && callDictionary != null) {
-      String call = callDictionary.getCode(address.toUpperCase(), !isFlagSet(FLAG_START_FLD_NO_DELIM));
-      if (call != null) {
-        
-        // We have a match.  Store the call (without the trailing space)
-        // in the result call prefix.  Remove the call prefix from the address
-        // line, and set the start type to start with the address
-        result.callPrefix = address.substring(0,call.length());
-        address = address.substring(call.length()).trim();
-        Matcher match = ADDR_START_PTN.matcher(address);
-        if (match.find()) address = address.substring(match.end()).trim();
-        sType = (sType == StartType.START_CALL_PLACE ? StartType.START_PLACE : StartType.START_ADDR);
-        this.flags &= ~FLAG_START_FLD_REQ;
-      }
-    }
-    
-    // A start type of START_ADDR is incompatible with the FLAG_AT_BOTH flag.  If both are
-    // set, switch flag to FLAG_AT_PLACE
-    if (sType == StartType.START_ADDR && isFlagSet(FLAG_AT_BOTH)) {
-      this.flags &= ~FLAG_AT_BOTH;
-      this.flags |= FLAG_AT_PLACE;
-    }
     
     // If a place pattern has been specified, we use it instead of the
     // standard start address logic to identify the place prefix
     if (sType == StartType.START_PLACE && placeAddressPtn != null) {
-      sType = StartType.START_ADDR;
       Matcher match = placeAddressPtn.matcher(address);
       if (match.lookingAt()) {
-        result.placePrefix = match.group().trim();
+        sType = StartType.START_ADDR;
+        result.placePrefix = null;
+        for (int ii = 1; ii<= match.groupCount(); ii++) {
+          result.placePrefix = match.group(ii);
+          if (result.placePrefix != null) break;
+        }
+        if (result.placePrefix == null) result.placePrefix = match.group();
+        result.placePrefix = result.placePrefix.trim();
         address = address.substring(match.end()).trim();
+      } else {
+        if (placeAddressPtnExcl) sType = StartType.START_ADDR;
       }
     }
 
@@ -987,18 +1138,22 @@ public abstract class SmartAddressParser extends MsgParser {
     address = address.trim();
     if (address.length() == 0) return result;
     
+    // Check some stuff that will not apply to city only parse requests
+    String gpsCoords = null;
+    if (!onlyCity) {
+    
     // Before we do anything else, see if we can find some GPS coordinates
     // in this address.  If we do find them, they will need to be protected
     // from being broken into separate tokens
-    String gpsCoords = null;
-    Matcher match = MsgParser.GPS_PATTERN.matcher(address);
-    if (match.find()) gpsCoords = match.group();
-    
-    // Look for and compress any US symbols
-    address = US_PTN.matcher(address).replaceAll("$1$2");
-    
-    // Strip leading zeros from starting numeric tokens
-    if (!onlyCity) address = stripLeadingZero(address);
+      Matcher match = MsgParser.GPS_PATTERN.matcher(address);
+      if (match.find()) gpsCoords = match.group();
+      
+      // Look for and compress any US symbols
+      address = US_PTN.matcher(address).replaceAll("$1$2");
+      
+      // Strip leading zeros from starting numeric tokens
+      address = stripLeadingZero(address);
+    }
 
     // Set up token list and types
     setTokenTypes(sType, address, gpsCoords, result);
@@ -1011,14 +1166,19 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // If we are looking for a city and nothing else, parseToCity can find it
     // If the city has to start and end the field, check that that start index is zero
-    if (onlyCity && ! isFlagSet(FLAG_ONLY_CROSS)) {
-      if (parseStartToCity(0, result)) {
-        if (sType != StartType.START_ADDR || result.cityField.fldStart == 0) {
+    boolean noAddress = isFlagSet(FLAG_NO_ADDRESS);
+    if (noAddress || onlyCity && ! isFlagSet(FLAG_ONLY_CROSS)) {
+      int req = 0;
+      if (isFlagSet(FLAG_START_FLD_REQ) && sType != StartType.START_ADDR) req++;
+      if (parseStartToCity(req, noAddress, result)) {
+        if (result.cityField == null || sType != StartType.START_ADDR || result.cityField.fldStart == 0) {
           result.status = STATUS_TRIVIAL;
           return result;
         }
         result.cityField = null;
       } 
+      
+      // Otherwise assign entire field to start field if there is one
       if (result.startField != null) {
         result.startField.end(tokens.length);
       } else {
@@ -1032,7 +1192,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // We have a number of basic patters that we will recognize
     // Try each one until we find one that works
     result.status = STATUS_TRIVIAL;
-    if (parseTrivialAddress(result, false)) return result;
+    if (parseTrivialAddress(result, false, false)) return result;
     if (!isFlagSet(FLAG_ONLY_CROSS)) {
       if (parseGPSCoords(result, gpsCoords)) return result;
       result.status = STATUS_FULL_ADDRESS;
@@ -1049,15 +1209,21 @@ public abstract class SmartAddressParser extends MsgParser {
     }
 
     result.status = STATUS_TRIVIAL;
-    if (parseTrivialAddress(result, true)) return result;
+    if (parseTrivialAddress(result, true, false)) return result;
 
-    // If all else fails, use the fallback parser
-    parseFallback(sType, result);
+    // If all else fails, try the trivial parser in override status mode
+    // if that fails, use the fallback parser
+    if (!parseTrivialAddress(result, true, true)) {
+      parseFallback(sType, result);
+    }
     result.status = STATUS_NOTHING;
     if (result.addressField != null && isHouseNumber(result.addressField.fldStart) ||
         MARGINAL_INTERSECT_PTN.matcher(address).matches()) result.status = STATUS_MARGINAL;
     return result;
   }
+  private static final Pattern US_PTN = Pattern.compile("\\b(U) (S)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern ADDR_START_PTN = Pattern.compile("^(?:@|AT |REPORTED AT )", Pattern.CASE_INSENSITIVE);
+  private static final Pattern MARGINAL_INTERSECT_PTN = Pattern.compile(".*&.*|.*/(?!B\\b).*");
 
   /**
    * Called after address has been parsed
@@ -1104,8 +1270,11 @@ public abstract class SmartAddressParser extends MsgParser {
    * We handle the dead simple case where the address starts at the 
    * beginning of the text and we have found a city to mark the end
    * of the address (would that life were always this simple
+   * @param result returns the parsed results if successful
+   * @param skipPad true if processing should continue when pad field or implied intersection has been requested
+   * @param overrideCheckStatus true if processing should continue when check status has been requested
    */
-  private boolean parseTrivialAddress(Result result, boolean skipPad) {
+  private boolean parseTrivialAddress(Result result, boolean skipPad, boolean overrideCheckStatus) {
     
     // If start address is not fixed somewhere, this cannot possibly work
     if (startAddress < 0) return false;
@@ -1169,7 +1338,6 @@ public abstract class SmartAddressParser extends MsgParser {
     int start = startAddress >= 0 ? startAddress : startNdx;
     int sAddr = start;
     int sEnd = -1;
-    boolean flexAt = isFlagSet(FLAG_AT_BOTH);
     boolean locked = false;
     while (true) {
       while (true) {
@@ -1177,7 +1345,7 @@ public abstract class SmartAddressParser extends MsgParser {
         if (isType(sAddr, ID_CROSS_STREET)) return false;
         
         // See if this token looks like a house number, and is not followed by an invalid address token or a connector 
-        if (isHouseNumber(sAddr) && !isType(sAddr+1, ID_NOT_ADDRESS | ID_AT_MARKER | ID_INCL_AT_MARKER | ID_NUMBER_SUFFIX) && findConnector(sAddr+1)<0) {
+        if (isHouseNumber(sAddr) && !isType(sAddr+1, ID_NOT_ADDRESS | ID_NUMBER_SUFFIX) && findConnector(sAddr+1)<0) {
           
           // And is not followed by another number, unless that number is followed by a numbered road suffix
           if (!isHouseNumber(sAddr+1) || isType(sAddr+2, ID_NUMBERED_ROAD_SFX)) {
@@ -1223,12 +1391,10 @@ public abstract class SmartAddressParser extends MsgParser {
         
         // Not a house  number.  If the start address field is locked, bail out
         if (startAddress >= 0 || locked) return false;
-        if (flexAt && isType(sAddr, ID_INCL_AT_MARKER)) return false;
         
         // Otherwise move on to the next token
         // If we encounter a flexible @ sign, lock in the start of the address field
         sAddr++;
-        if (flexAt && isAtSign(sAddr)) locked = true;
       }
       
       // OK, we found a house number!!
@@ -1281,7 +1447,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // not accept "N OF" type connectors here
     int tmp = findConnector(sEnd);
     if (tmp == sEnd+1) {
-      findCrossStreetEnd(tmp, result);
+      findCrossStreetEnd(tmp, false, result);
     }
     
     // But there might be some additional cross street info we can parse
@@ -1307,7 +1473,6 @@ public abstract class SmartAddressParser extends MsgParser {
     int sAddr;
     int ndx;
     
-    boolean flexAt = isFlagSet(FLAG_AT_BOTH);
     boolean atStart = false;
 
     // If address starts at beginning of field, find end of address and
@@ -1324,12 +1489,11 @@ public abstract class SmartAddressParser extends MsgParser {
       int start = startNdx;
       ndx = start;
       while (true) {
-        if (flexAt && isAtSign(ndx)) atStart = true;
         ndx++;
         if (ndx >= tokens.length) return false;
         if (isType(ndx, ID_CROSS_STREET)) return false;
 
-        if (atStart || flexAt && isType(ndx, ID_INCL_AT_MARKER)) {
+        if (atStart) {
           sAddr = ndx;
           ndx = startIntersection(sAddr);;
           if (ndx < 0) return false;
@@ -1479,7 +1643,6 @@ public abstract class SmartAddressParser extends MsgParser {
   private boolean parseNakedRoad(Result result) {
     
     result.reset(startAddress);
-    boolean flexAt = isFlagSet(FLAG_AT_BOTH);
     boolean atStart = false;
     boolean padField = isFlagSet(FLAG_ANY_PAD_FIELD);
     
@@ -1494,7 +1657,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // and city was found
 
     int sAddr, ndx;
-    if (!flexAt && startAddress >= 0) {
+    if (startAddress >= 0) {
       sAddr = ndx = startAddress;
       while (isType(ndx, ID_OPT_ROAD_PFX)) ndx++;
       ndx = findRoadEnd(ndx, 0);
@@ -1553,13 +1716,11 @@ public abstract class SmartAddressParser extends MsgParser {
           }
         }
         
-        
-        if (flexAt && isAtSign(ndx)) atStart = true;
         ndx++;
         sAddr = ndx - 1;
         if (ndx >= tokens.length) break;
         if (isType(ndx, ID_CROSS_STREET)) break;
-        if (atStart || flexAt && isType(ndx, ID_INCL_AT_MARKER)) {
+        if (atStart) {
           start = sAddr = ndx;
           ndx = findRoadEnd(sAddr, 0);
           ndx--;
@@ -1743,37 +1904,14 @@ public abstract class SmartAddressParser extends MsgParser {
       // If there is a cross street indicator, use it to set up the cross street
       for (int ndx = 0; ndx<endAddr; ndx++) {
         if (isType(ndx, ID_CROSS_STREET)) {
-          result.crossField = new FieldSpec(ndx+1, endAddr);
           endAddr = ndx;
-        }
-      }
-      
-      // if @ is used as a fixed start address marker (default operation)
-      // then we would have used one to set startAddress and no longer need
-      // to worry about it
-      
-      // If @ is being used as an Optional start address marker, startAddress
-      // would not be set and we have to look through the token string to
-      // see if we find a @ marker
-      int stIndex = (isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0);
-      if (!isFlagSet(FLAG_IGNORE_AT)) {
-        if (startAddress < 0 && isFlagSet(FLAG_AT_BOTH)) {
-          for (int ndx = stIndex; ndx < endAddr; ndx++) {
-            if (isAtSign(ndx)) {
-              result.addressField = new FieldSpec(ndx+1, endAddr);
-              endAddr = ndx;
-              break;
-            } else if (isType(ndx, ID_INCL_AT_MARKER)) {
-              result.addressField = new FieldSpec(ndx, endAddr);
-              endAddr = ndx;
-              break;
-            }
-          }
+          findCrossStreetEnd(ndx+1, true, result);
         }
       }
       
       // We are really getting desperate, but see if there is a valid house number
       // in here, and if there is set the start address to it
+      int stIndex = (isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0);
       if (result.addressField == null && startAddress < 0) {
         for (int ndx = stIndex; ndx < endAddr-1; ndx++) {
           if (isHouseNumber(ndx) && !isType(ndx+1, ID_NOT_ADDRESS)) {
@@ -1800,7 +1938,9 @@ public abstract class SmartAddressParser extends MsgParser {
     // at the end of it.  If that fails, see if last token is an apt
     if (!crossOnly && !parseToCity && result.addressField != null) {
       int sAddr = result.addressField.fldStart;
-      if (!parseAddressToCity(sAddr, sAddr+2, result)) {
+      int reserve = 1;
+      if (isHouseNumber(sAddr)) reserve++;
+      if (!parseAddressToCity(sAddr, sAddr+reserve, result)) {
         int tmpNdx = result.addressField.fldEnd-1;
         if (tmpNdx > 0) {
           if (isType(tmpNdx-1,ID_APT)) {
@@ -1819,29 +1959,10 @@ public abstract class SmartAddressParser extends MsgParser {
     // If we don't have an address, but are parsing to end of field,  see if we can
     // find a city at end of field
     else if (isFlagSet(FLAG_ANCHOR_END) && result.startField != null) {
-      if (parseStartToCity(0, result)) endAddr = result.startField.fldEnd;
+      if (parseStartToCity(0, true, result)) endAddr = result.startField.fldEnd;
     }
-    
     
     if (result.startField != null && startAddress < 0) result.startField.end(endAddr);
-    
-    
-    // We aren't done yet.
-    // if @ are being used to mark a place name, see if we can find one
-    // in what we have for an address and split the rest into a place name
-    if (isFlagSet(FLAG_AT_BOTH | FLAG_AT_PLACE) && result.addressField != null) {
-      for (int ndx = result.addressField.fldStart; ndx<result.addressField.fldEnd; ndx++) {
-        if (isAtSign(ndx)) {
-          result.addressField.fldStart = ndx+1;
-          if (result.startField != null) result.startField.end(ndx);
-          break;
-        } else if (isType(ndx, ID_INCL_AT_MARKER)) {
-          result.addressField.fldStart = ndx;
-          if (result.startField != null) result.startField.end(ndx);
-          break;
-        }
-      }
-    }
   }
   
   /**
@@ -1887,7 +2008,7 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   private boolean parseAddressToCity(int stAddr, int srcNdx, Result result) {
     FieldSpec addressField = new FieldSpec(stAddr);
-    if (!parseToCity(addressField, true, srcNdx, result)) return false;
+    if (!parseToCity(addressField, true, false, srcNdx, result)) return false;
     result.addressField = addressField;
     if (result.startField != null) result.startField.optionalEnd(stAddr);
     return true;
@@ -1902,7 +2023,7 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   private boolean parsePadToCity(int start, Result result) {
     FieldSpec padField = new FieldSpec(start);
-    if (!parseToCity(padField, false, start, result)) return false;
+    if (!parseToCity(padField, false, false, start, result)) return false;
     result.padField = padField;
     return true;
   }
@@ -1914,19 +2035,20 @@ public abstract class SmartAddressParser extends MsgParser {
    * @return true if city was found and all pertinent information was found.
    * False if not city was found and  nothing was changed in result
    */
-  private boolean parseStartToCity(int start, Result result) {
-    return parseToCity(result.startField, false, start, result);
+  private boolean parseStartToCity(int start, boolean optCity, Result result) {
+    return parseToCity(result.startField, false, optCity, start, result);
   }
-    
   
   /**
    * See if we can parse an address from a known starting point to a city
    * @param fldSpec previous field being parsed
    * @param addr true if fldSpec is destined to be an address field spec
+   * @param optCity true if a successful result should  be returned if we find anything
+   * at all, even if no city is located
    * @param srcNdx start looking for city here
    * @return true if  city was identified and all fields have been set
    */
-  private boolean parseToCity(FieldSpec fldSpec, boolean addr, int srcNdx, Result result) {
+  private boolean parseToCity(FieldSpec fldSpec, boolean addr, boolean optCity, int srcNdx, Result result) {
     
     // If we are doing a cross only parse without a city, answer is always no
     boolean crossOnly = isFlagSet(FLAG_ONLY_CROSS);
@@ -1941,14 +2063,11 @@ public abstract class SmartAddressParser extends MsgParser {
     boolean nearToEnd = isFlagSet(FLAG_NEAR_TO_END);
 
     if (srcNdx >= tokens.length) return false;
-    if (!parseToEnd && !nearToEnd && lastCity < srcNdx) return false;
-    
-    boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
+    if (!optCity && !parseToEnd && !nearToEnd && lastCity < srcNdx) return false;
     
     // Notice: If the FLAG_ANY_PAD_FIELD was set, some of these fields might have
     // been found before the PAD field, in which case we don't want to disturb
     // them.
-    FieldSpec placeField = null;
     FieldSpec aptField = null;
     FieldSpec crossField = null;
     FieldSpec nearField = null;
@@ -1981,26 +2100,14 @@ public abstract class SmartAddressParser extends MsgParser {
       int endCity = findEndCity(tmpNdx);
       if (endCity >= 0) {
         if (!anchorEnd || endCity == tokens.length) {
-          lastField.end(ndx);
-          if (placeField != null) result.placeField = placeField;
-          if (aptField != null) {
-            result.aptToken = aptToken;
-            result.aptField = aptField;
-          }
-          if (crossField != null) result.crossField = crossField;
-          if (nearField != null && nearField.fldEnd-nearField.fldStart > 1) result.nearField = nearField;
-          result.cityField = new FieldSpec(tmpNdx, endCity);
-          result.endAll = endCity;
-          if (fldSpec != null) fldSpec.end(startField.fldEnd);
           
-          // If there is a pad field, it might have the misfortune to be a 
-          // place name that includes a local city name.  So we will call
-          // ourselves recursively in an attempt to find another city name
-          // behind this one
-          if (isFlagSet(FLAG_PAD_FIELD) && endCity < tokens.length) {
-            parseToCity(fldSpec, addr, endCity, result);
-          }
-          return true;
+          // Close out the last field and save the
+          // city location in results and jump out of the loop
+          // There is logic at the end of the the loop to save all of
+          // the working field variables when the city field has been set
+          lastField.end(ndx);
+          result.cityField = new FieldSpec(tmpNdx, endCity);
+          break;
         }
       }
       
@@ -2009,19 +2116,6 @@ public abstract class SmartAddressParser extends MsgParser {
       
       // Only check for fun stuff if it isn't inside a pad field
       if (!padField) {
-        
-        // Check for place name
-        if (flexAt && placeField == null) {
-          if (isAtSign(tmpNdx)) {
-            lastField.end(ndx);
-            ndx = tmpNdx;
-            lastField = placeField = new FieldSpec(ndx+1);
-          } else if (isType(ndx, ID_INCL_AT_MARKER)) {
-            lastField.end(ndx);
-            ndx = tmpNdx;
-            lastField = placeField = new FieldSpec(ndx);
-          }
-        }
 
         // Special stuff not checked for in cross street only parse
         if (!crossOnly) {
@@ -2069,24 +2163,69 @@ public abstract class SmartAddressParser extends MsgParser {
       ndx = tmpNdx;
     }
     
+    // End of loop, check for different success conditions
+    // Obviously finding a city is a successful outcome
+    if (result.cityField != null) {
+      result.endAll = result.cityField.fldEnd;
+    }
+    
     // If we are parsing to end of field, return successful status
     // If we are still processing a NEAR field and the FLAG_NEAR_TO_END
     // flag was set, do likewise
-    if (parseToEnd ||
+    else if (parseToEnd ||
         nearToEnd && nearField != null && nearField == lastField) {
       lastField.end(tokens.length);
-      if (placeField != null) result.placeField = placeField;
-      if (aptField != null) {
-        result.aptField = aptField;
-        result.aptToken = aptToken;
-      }
-      if (crossField != null) result.crossField = crossField;
-      if (nearField != null) result.nearField = nearField;
       result.endAll = tokens.length;
-      if (fldSpec != null) fldSpec.end(startField.fldEnd);
-      return true;
     }
-    return false;
+    
+    // If the city is optional, see if we can close out whatever was last opened
+    else if (optCity) {
+      if (lastField == startField) {
+        startField.end(tokens.length);
+        result.endAll = tokens.length;
+      }
+      else if (lastField == aptField) {
+        int ndx = lastField.fldStart;
+        if (aptToken) {
+          String apt = getAptValue(tokens[ndx]);
+          ndx++;
+          Long tokFlgs = dictionary.get(apt);
+          if (tokFlgs != null && (tokFlgs.longValue() & ID_FLOOR) != 0) ndx++;
+        }
+        else {
+          if (isType(ndx, ID_FLOOR)) ndx += 2;
+          else ndx++;
+        }
+        lastField.end(ndx);
+        result.endAll = ndx;
+      }
+      else if (lastField == crossField) {
+        findCrossStreetEnd(lastField.fldStart, true, result);
+        crossField  = result.crossField;
+      }
+    }
+    
+    // Otherwise return failure
+    else return false;
+    
+    // We are successful!!
+    // Now is when we save all of the working variables back into the result object
+    if (aptField != null) {
+      result.aptToken = aptToken;
+      result.aptField = aptField;
+    }
+    if (crossField != null) result.crossField = crossField;
+    if (nearField != null && nearField.fldEnd-nearField.fldStart > 1) result.nearField = nearField;
+    if (fldSpec != null) fldSpec.end(startField.fldEnd);
+    
+    // If we did fin a city and there is a pad field, it might have the misfortune to be a 
+    // place name that includes a local city name.  So we will call
+    // ourselves recursively in an attempt to find another city name
+    // behind this one
+    if (result.cityField != null && isFlagSet(FLAG_PAD_FIELD) && result.cityField.fldEnd < tokens.length) {
+      parseToCity(fldSpec, addr, false, result.cityField.fldEnd, result);
+    }
+    return true;
   }
   
   /**
@@ -2213,33 +2352,6 @@ public abstract class SmartAddressParser extends MsgParser {
     
     if (result.endAll >= tokens.length) return;
     
-    // check for optional place marker
-    if (isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH)) {
-      if (isAtSign(result.endAll)) {
-        result.endAll++;
-        result.placeField = new FieldSpec(result.endAll);
-      }
-      else if (isType(result.endAll, ID_INCL_AT_MARKER)) {
-        result.placeField = new FieldSpec(result.endAll);
-      }
-      
-      // Alas, we don't have any way to guess at how long the place name
-      // might be.  Default to one word, unless we find another marker
-      // further down the road
-      if (result.placeField != null) {
-        result.endAll++;
-        for (int ndx = result.endAll; ndx < tokens.length; ndx++) {
-          if (isType(result.endAll, ID_NOT_ADDRESS)) break;
-          if (isType(ndx, ID_APT | ID_CROSS_STREET) ||
-              isAptToken(ndx)) {
-            result.endAll = ndx;
-            break;
-          }
-        }
-        result.placeField.end(result.endAll);
-      }
-    }
-    
     // First lets look for an apartment
     int ndx = result.endAll;
     if (isComma(ndx)) ndx++;
@@ -2259,15 +2371,16 @@ public abstract class SmartAddressParser extends MsgParser {
     // Now see if we are at a cross street indicator.  If not, nothing to find
     if (! isType(result.endAll, ID_CROSS_STREET)) return;
     
-    findCrossStreetEnd(result.endAll+1, result);
+    findCrossStreetEnd(result.endAll+1, true, result);
   }
 
   /**
    * Locate end of cross street field
-   * @param sCross
-   * @param result
+   * @param sCross start of prospectivce cross streeet information
+   * @param force true if cross street information is required
+   * @param result parse results
    */
-  private void findCrossStreetEnd(int sCross, Result result) {
+  private void findCrossStreetEnd(int sCross, boolean force, Result result) {
 
     int sEnd = sCross;
     int ndx = sEnd;
@@ -2285,7 +2398,10 @@ public abstract class SmartAddressParser extends MsgParser {
       ndx = tmp;
     }
     
-    // Success, save the cross street location
+    // If we did not find anything, grab everything that is left
+    if (force && sEnd <= sCross) sEnd = tokens.length;
+    
+    // Save the cross street location if found
     if (sEnd > sCross) {
       result.crossField = new FieldSpec(sCross, sEnd);
       result.endAll = sEnd;
@@ -2545,28 +2661,15 @@ public abstract class SmartAddressParser extends MsgParser {
     saveAddress = address;
     
     tokenType = new long[tokens.length];
-    boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
-    boolean ignoreAt = isFlagSet(FLAG_IGNORE_AT);
     
     if (sType == StartType.START_ADDR) startAddress = 0; 
     else result.startField = new FieldSpec(0); 
     
-    boolean setStart = (startAddress < 0 || flexAt);
     boolean pastAddr = false; 
     for (int ndx = 0; ndx < tokens.length; ndx++) {
-      setType(ndx, setStart, pastAddr);
+      setType(ndx, pastAddr);
       if (isType(ndx, ID_CROSS_STREET | ID_APT)) {
         pastAddr = true;
-        setStart = false;
-      }
-      if (setStart && !flexAt && !ignoreAt) {
-        if (isAtSign(ndx)) {
-          result.startField.end(ndx);
-          startAddress = ndx + 1;
-        } else if (isType(ndx, ID_INCL_AT_MARKER)) {
-          result.startField.end(ndx);
-          startAddress = ndx;
-        }
       }
       if (isType(ndx, ID_CITY)) lastCity = ndx;
     }
@@ -2584,7 +2687,7 @@ public abstract class SmartAddressParser extends MsgParser {
       Pattern.compile("\\.?(?:\\s+|(?<! )(?=[/&,])|(?<=[/&,:])(?! )|(?<=\\.)(?![ \\d])|,)");
 
   // Identify token type
-  private void setType(int ndx, boolean checkAt, boolean pastAddr) {
+  private void setType(int ndx, boolean pastAddr) {
     String token = tokens[ndx];
     
     // If token contains any illegal characters, flag it as a non-address token
@@ -2596,13 +2699,7 @@ public abstract class SmartAddressParser extends MsgParser {
       return;
     }
     
-    // If token is longer than 1 char and starts with an @
-    // Strip off the @ and add the ID_INCL_START_MARK flag
     long mask = 0;
-    if (checkAt && token.length() > 1 && token.charAt(0) == '@') {
-      tokens[ndx] = token = token.substring(1);
-      mask = ID_INCL_AT_MARKER;
-    }
     
     // If token ends with a numeric comparison character, set the relation flag
     char chr = token.charAt(token.length()-1);
@@ -2620,7 +2717,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // as at signs to connectors
       if (isFlagSet(FLAG_AT_MEANS_CROSS)) {
         if ((iiType & ID_AT_MARKER) != 0) {
-          iiType = (iiType & ~ID_AT_MARKER) | ID_CONNECTOR;
+          if (!isFlagSet(FLAG_AT_SIGN_ONLY) || tokens[ndx].equals("@")) iiType |= ID_CONNECTOR;
         }
       }
       mask |= iiType;
@@ -2628,8 +2725,8 @@ public abstract class SmartAddressParser extends MsgParser {
       // Unless we are only looking for a city, cities are not allowed to follow
       // connectors or cross street indicators
       if (!isFlagSet(FLAG_ONLY_CITY) || isFlagSet(FLAG_ONLY_CROSS)) {
-        if (ndx > 0 && isType(ndx-1, ID_CONNECTOR | ID_CROSS_STREET | ID_AT_MARKER) ||
-            ndx > 1 && isType(ndx-2, ID_CONNECTOR | ID_CROSS_STREET | ID_AT_MARKER) && isType(ndx-1, ID_DIRECTION)) {
+        if (ndx > 0 && isType(ndx-1, ID_CONNECTOR | ID_CROSS_STREET) ||
+            ndx > 1 && isType(ndx-2, ID_CONNECTOR | ID_CROSS_STREET) && isType(ndx-1, ID_DIRECTION)) {
           mask &= ~ID_CITY;
         }
       }
@@ -2669,12 +2766,6 @@ public abstract class SmartAddressParser extends MsgParser {
   }
   private static final Pattern ROUTE_NUMBER_PTN = Pattern.compile("(?!IN|OF)[A-Z]{1,2}|\\d+[ABHNSEW]?");
   private static final Pattern DUAL_NUMBER_HWY_PTN = Pattern.compile("\\d{1,3}-\\d{1,3}");
-  
-  private boolean isAtSign(int ndx) {
-    if (! isType(ndx, ID_AT_MARKER)) return false;
-    if (!isFlagSet(FLAG_AT_SIGN_ONLY)) return true;
-    return tokens[ndx].equals("@");
-  }
   
   private boolean isComma(int ndx) {
     if (ndx >= tokens.length) return false;
@@ -3096,6 +3187,7 @@ public abstract class SmartAddressParser extends MsgParser {
     private String callPrefix = null;
     private String placePrefix = null;
     private String stdPrefix = null;
+    private String trailPlace = null;
     private FieldSpec startField = null;
     private FieldSpec addressField = null;
     private FieldSpec placeField = null;
@@ -3204,6 +3296,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // to the last word of the start field.  if we find a match for either pattern
       // move the digits and everything following them to the address field
       startFld = stdPrefix;
+      if (startFld == null) startFld = "";
       if ((flags & FLAG_START_FLD_NO_DELIM) != 0) {
         Pattern searchPtn = null;
         if (data.strAddress.length() == 0) {
@@ -3246,6 +3339,12 @@ public abstract class SmartAddressParser extends MsgParser {
         case START_OTHER:
           break;
         }
+      }
+      
+      if (trailPlace != null) {
+        Result res = parent.parseAddress(StartType.START_PLACE, flags | FLAG_START_FLD_REQ | FLAG_IGNORE_AT | FLAG_NO_ADDRESS, trailPlace);
+        res.getData(data);
+        left = res.getLeft();
       }
     
       // We do the NEAR field last, because it requires a lot of special treatment

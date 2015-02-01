@@ -63,6 +63,11 @@ public class ALChiltonCountyParser extends DispatchSouthernPlusParser {
   }
   
   @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_IGNORE_AT;
+  }
+
+  @Override
   protected String adjustGpsLookupAddress(String address) {
     Matcher match = I_65_GPS_PTN.matcher(address);
     if (match.matches()) return match.group(1);

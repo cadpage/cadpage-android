@@ -17,7 +17,7 @@ public class LAJeffersonParishParser extends FieldProgramParser {
   
   public LAJeffersonParishParser() {
     super(CITY_CODES, "JEFFERSON PARISH", "LA",
-        "CODE CALL ADDR CITY! ( AT CITY | ) X? SRC MAP INFO+ Units:UNIT UNIT+");
+        "CODE CALL ADDR CITY! ( AT CITY | ) X? SRC MAP MAPPAGE? XXXX? INFO+ Units:UNIT UNIT+");
   }
   
   @Override
@@ -46,7 +46,7 @@ public class LAJeffersonParishParser extends FieldProgramParser {
   private class MyAddressField extends AddressField {
     @Override
     public String getFieldNames() {
-      return "PLACE " + super.getFieldNames();
+      return "PLACE " + super.getFieldNames() + " UNIT";
     }
   }
   
@@ -108,6 +108,8 @@ public class LAJeffersonParishParser extends FieldProgramParser {
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("SRC")) return new SourceField("[A-Z0-9]{3}", true);
     if (name.equals("MAP")) return new MapField("[A-Z0-9]{3,6}", true);
+    if (name.equals("MAPPAGE")) return new SkipField("mappage", true);
+    if (name.equals("XXXX")) return new SkipField("XXXX?", true);
     if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }

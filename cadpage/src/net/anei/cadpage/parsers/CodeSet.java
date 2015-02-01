@@ -12,6 +12,8 @@ import java.util.TreeSet;
  */
 public class CodeSet {
   
+  public static final String DELIMS = " ,;";
+  
   private TreeSet<String> codeSet = new TreeSet<String>(new Comparator<String>(){
     @Override
     public int compare(String str1, String str2) {
@@ -74,7 +76,7 @@ public class CodeSet {
       if (code.startsWith(key)) {
         if (!reqSpace) return key;
         int len = key.length();
-        if (len == code.length() || code.charAt(len) == ' ') return key;
+        if (len == code.length() || DELIMS.indexOf(code.charAt(len))>=0) return key;
       }
       if (!code.startsWith(minCode)) break;
     }

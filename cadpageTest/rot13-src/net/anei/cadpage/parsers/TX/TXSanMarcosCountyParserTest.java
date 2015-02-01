@@ -1921,7 +1921,7 @@ choyvp pynff GKFnaZnepbfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Sver- Nffvfg RZF",
         "NQQE:1416 Jbaqre Jbeyq Qe",
-        "NCG:YBG 17",
+        "NCG:17",
         "PVGL:Fna Znepbf",
         "FEP:Fna Znepbf Sver Qrcg.",
         "VQ:140000073536",

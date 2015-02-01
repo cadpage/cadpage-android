@@ -81,7 +81,7 @@ abstract public class DispatchA37Parser extends SmartAddressParser {
    */
   protected boolean parseLocationField(String field, Data data) {
     if (checkCity) {
-      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
+      parseAddress(StartType.START_ADDR, FLAG_IGNORE_AT | FLAG_ANCHOR_END, field, data);
     } else {
       parseAddress(field, data);
     }

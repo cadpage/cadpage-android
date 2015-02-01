@@ -796,7 +796,7 @@ choyvp pynff BUUvtuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:VAWHERQ",
         "NQQE:2220 FGNGR EGR 73",
         "ZNQQE:2220 FGNGR 73",
-        "NCG:OY QT GEYE",
+        "NCG:OYQT GEYE",
         "PVGL:WNPXFBA GJC",
         "VASB:ZNYR FHOWRPG FJBYYRA GRFGVPYRF NAQ FGBZNPU CNVA");
 

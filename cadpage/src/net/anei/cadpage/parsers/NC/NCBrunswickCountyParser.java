@@ -63,7 +63,7 @@ public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
     return super.getField(name);
   }
   
-  private class MyAddressField extends AddressField {
+  private class MyAddressField extends BaseAddressField {
     @Override
     public void parse(String field, Data data) {
       field = fixParenField(field, true);

@@ -16,7 +16,7 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
   private static final Pattern SPECIAL_CITY_PTN = Pattern.compile("(.*?) +([A-Z]{4})");
   private static final Pattern APT_PTN = Pattern.compile(", *(?:APT:? *)?([A-Z0-9]+)$");
   private static final Pattern COMMA_DELIM = Pattern.compile(",(?=BOX:|TIME:|NOTES:)");
-  private static final Pattern START_UNIT_MARK_PTN = Pattern.compile("(?:[A-Z0-9,]+,)?\\d+-\\d .*");
+  private static final Pattern START_UNIT_MARK_PTN = Pattern.compile("(?:[A-Z0-9,]+,)?\\d+-\\d[ ,].*");
   private static final Pattern CITY_COLON_PTN = Pattern.compile(" ([A-Z]{4}):");
   
   public PAMontgomeryCountyCParser() {

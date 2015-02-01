@@ -71,7 +71,7 @@ public class MSBiloxiParser extends DispatchA37Parser {
     // Check for slash addr slash call pattern
     match = SLASH_ADDR_PTN.matcher(field);
     if (match.matches()) {
-      parseAddress(StartType.START_ADDR, match.group(1).trim(), data);
+      parseAddress(StartType.START_ADDR, FLAG_AT_SIGN_ONLY, match.group(1).trim(), data);
       data.strPlace = getLeft();
       appendCall(match.group(2).trim(), data);
       return true;
@@ -93,12 +93,13 @@ public class MSBiloxiParser extends DispatchA37Parser {
       String left = match.group(2);
       int pt = addr.indexOf('/');
       if (pt >= 0) {
-        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END | FLAG_CHECK_STATUS, addr.substring(0,pt).trim(), data);
+        parseAddress(StartType.START_ADDR, FLAG_AT_SIGN_ONLY | FLAG_ANCHOR_END | FLAG_CHECK_STATUS, addr.substring(0,pt).trim(), data);
         data.strPlace = addr.substring(pt+1).trim();
       } else {
-        Result res = parseAddress(StartType.START_PLACE, addr);
+        Result res = parseAddress(StartType.START_PLACE, FLAG_AT_SIGN_ONLY, addr);
         if (res.isValid()) {
           res.getData(data);
+          data.strPlace = stripFieldEnd(data.strPlace, " AT");
           String place = res.getLeft();
           if (place.startsWith("&") || place.startsWith("/")) {
             data.strAddress = data.strAddress + " &" + place.substring(1);
@@ -128,11 +129,11 @@ public class MSBiloxiParser extends DispatchA37Parser {
   private void parseAddressField(String addr, Data data) {
     int pt = addr.indexOf('/');
     if (pt >= 0) {
-      parseAddress(StartType.START_ADDR, FLAG_OPT_STREET_SFX, addr.substring(0,pt).trim(), data);
+      parseAddress(StartType.START_ADDR, FLAG_AT_SIGN_ONLY | FLAG_OPT_STREET_SFX, addr.substring(0,pt).trim(), data);
       data.strPlace = getLeft();
       appendCall(addr.substring(pt+1).trim(), data);
     } else {
-      Result res = parseAddress(StartType.START_OTHER, FLAG_OPT_STREET_SFX | FLAG_AND_NOT_CONNECTOR, addr);
+      Result res = parseAddress(StartType.START_OTHER, FLAG_AT_SIGN_ONLY | FLAG_OPT_STREET_SFX | FLAG_AND_NOT_CONNECTOR, addr);
       if (!res.isValid()) {
         data.strSupp = addr;
       } else {

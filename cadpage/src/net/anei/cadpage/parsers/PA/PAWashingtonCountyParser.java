@@ -57,8 +57,12 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
     @Override
     public void parse(String fld, Data data) {
       Parser p = new Parser(fld);
-      data.strPlace = p.getLastOptional(":");
-      if (data.strPlace.startsWith("@")) data.strPlace = data.strPlace.substring(1).trim(); 
+      while (true) {
+        String place = p.getLastOptional(':');
+        if (place.length() == 0) break;
+        if (place.startsWith("@")) place = place.substring(1).trim();
+        data.strPlace = append(place, " - ", data.strPlace);
+      }
       data.strCity = convertCodes(p.getLast(' '), CITY_CODES); 
       fld = p.get();
       super.parse(fld, data);

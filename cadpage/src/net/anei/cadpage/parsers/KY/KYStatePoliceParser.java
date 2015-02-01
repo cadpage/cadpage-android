@@ -19,6 +19,11 @@ public class KYStatePoliceParser extends DispatchB2Parser {
     this("");
   }
   
+  @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_AT_PLACE;
+  }
+
   public KYStatePoliceParser(String defCity) {
     super(CITY_LIST, defCity, "KY", B2_CROSS_FOLLOWS);
     setupCallList(CALL_LIST);

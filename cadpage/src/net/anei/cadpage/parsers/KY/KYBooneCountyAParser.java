@@ -45,6 +45,7 @@ public class KYBooneCountyAParser extends FieldProgramParser {
       data.strPlace = p.getLastOptional(": @");
       String apt = p.getLastOptional(":APT");
       if (apt.length() == 0) apt = p.getLastOptional(',');
+      if (apt.length() == 0) apt = p.getLastOptional(':');
       super.parse(p.get(), data);
       data.strApt = append(data.strApt, "-", apt);
     }

@@ -24,6 +24,10 @@ public class PADauphinCountyParser extends FieldProgramParser {
   public PADauphinCountyParser() {
     super(CITY_CODES, "DAUPHIN COUNTY", "PA",
            "( SELECT/SPECIAL UNIT CALL ADDR/S! | UNIT_CALL EVENT:ID? Box:BOX! Loc:ADDR/S XSts:X Event_Type:CALL Class:PRI Disp:UNIT )", FLDPROG_IGNORE_CASE);
+    
+    // BLDG is a suffix???
+    removeWords("BLDG");
+    addRoadSuffixTerms("BLDG");
   }
   
   @Override

@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class NYRocklandCountyBParser extends SmartAddressParser {
   
   private static final Pattern MASTER = Pattern.compile("([^ ]+) +- +(.*?) +CROSS: *(.*?) +\\d\\d:\\d\\d \\d\\d.*");
-  private static final Pattern ADDR_PTN = Pattern.compile("(.*?)   (?:(\\d{7}) - )?+(.*?)");
+  private static final Pattern ADDR_PTN = Pattern.compile("(.*?)   (?:(\\d+) - )?+(.*?)");
   
   public NYRocklandCountyBParser() {
     super(CITY_CODES, "ROCKLAND COUNTY","NY");
@@ -32,6 +32,7 @@ public class NYRocklandCountyBParser extends SmartAddressParser {
     data.strUnit = match.group(1);
     String sAddr = match.group(2).trim();
     data.strCross = match.group(3).trim();
+    if (data.strCross.equals("NO CROSS STREETS FOUND")) data.strCross = "";
     
     match = ADDR_PTN.matcher(sAddr);
     if (match.matches()) {
@@ -39,7 +40,7 @@ public class NYRocklandCountyBParser extends SmartAddressParser {
       data.strCallId = getOptGroup(match.group(2));
       sAddr = match.group(3);
       
-      Result res = parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, sAddr);
+      Result res = parseAddress(StartType.START_PLACE, FLAG_AT_SIGN_ONLY | FLAG_ANCHOR_END, sAddr);
       if (!res.isValid()) {
         data.strAddress = sAddr;
       } else {
@@ -48,7 +49,7 @@ public class NYRocklandCountyBParser extends SmartAddressParser {
     }
     
     else {
-      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, sAddr, data);
+      parseAddress(StartType.START_CALL, FLAG_AT_SIGN_ONLY | FLAG_ANCHOR_END, sAddr, data);
     }
     return true;
   }

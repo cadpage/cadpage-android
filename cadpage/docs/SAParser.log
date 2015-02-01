@@ -1,3 +1,7 @@
+Version 12.0 02/01/2015
+
+Major rewrite of the logic handling @ (or AT) splits.
+
 Version 11.0 01/18/2015
 
 Added FLAG_PREF_TRAILING_DIR flag.  This should be used when street directions are routinely

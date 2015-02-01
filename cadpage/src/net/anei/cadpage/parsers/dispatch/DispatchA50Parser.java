@@ -13,7 +13,7 @@ public class DispatchA50Parser extends FieldProgramParser {
   
   public DispatchA50Parser(Properties callCodes, Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState,
-          "Location:ADDR/S? EID:ID! TYPE_CODE:CALL! CALLER_NAME:NAME CALLER_ADDR:ADDR/S TIME:TIME");
+          "Location:ADDR/2S? EID:ID! TYPE_CODE:CALL! CALLER_NAME:NAME CALLER_ADDR:ADDR/S TIME:TIME");
     this.callCodes =  callCodes;
   }
   
@@ -46,7 +46,7 @@ public class DispatchA50Parser extends FieldProgramParser {
       super.parse(field, data);
       data.strApt = append(data.strApt, "-", apt);
 
-      Result res = parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY | FLAG_ANCHOR_END, sPlace);
+      Result res = parseAddress(StartType.START_OTHER, FLAG_IGNORE_AT | FLAG_ONLY_CITY | FLAG_ANCHOR_END, sPlace);
       if (res.isValid()) {
         res.getData(data);
         sPlace = res.getStart();

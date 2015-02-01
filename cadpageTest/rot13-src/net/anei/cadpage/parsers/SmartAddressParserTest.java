@@ -33,6 +33,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   cevingr fgngvp svany vag SYNT_AB_FGERRG_FSK = FznegNqqerffCnefre.SYNT_AB_FGERRG_FSK;
   cevingr fgngvp svany vag SYNT_AB_PVGL = FznegNqqerffCnefre.SYNT_AB_PVGL;
   cevingr fgngvp svany vag SYNT_ERPURPX_NCG = FznegNqqerffCnefre.SYNT_ERPURPX_NCG;
+  cevingr fgngvp svany vag SYNT_VTABER_NG = FznegNqqerffCnefre.SYNT_VTABER_NG;
   
   cevingr fgngvp svany Fgevat[] PVGL_YVFG = arj Fgevat[]{"XRAFOHET", "XRA GBJA", "9999", "A OEBBXSVRYQ", "OEBBXSVRYQ"};
   cevingr fgngvp svany Fgevat QRS_PVGL = "FGNGR BS ZVAQ";
@@ -50,6 +51,8 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrz() {
 
+    qbGrfg(NQQE, SYNT_BAYL_PVGL, "GRRCRR ZUC");
+    
   }
 
   @Grfg
@@ -605,6 +608,9 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(PNYY, "JURER VF ZL 34 OBBX",
         "PNYY:JURER VF ZL",
         "NQQE:34 OBBX");
+    qbGrfg(NQQE, "FBZRJURER VA GUR JBEYQ KF: OYNPX FG / J TRBETR NIR ZBER FGHSS",
+        "NQQE:FBZRJURER VA GUR JBEYQ",
+        "K:OYNPX FG / J TRBETR NIR");
   }
   
   @Grfg
@@ -634,16 +640,11 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgSyrkNgNqqerff() {
-    qbGrfg(PNYY, SYNT_NG_OBGU, "OVT UBZR @ XRAF YNFG UBHFR @ OVT ERQ XRA GBJA",
-        "PNYY:OVT UBZR",
-        "NQQE:XRAF YNFG UBHFR",
-        "CYNPR:OVT ERQ",
-        "PVGL:XRA GBJA");
-    qbGrfg(PNYY, SYNT_NG_OBGU, "OVT UBZR @XRAF YNFG UBHFR @OVT ERQ XRA GBJA",
-        "PNYY:OVT UBZR",
-        "NQQE:XRAF YNFG UBHFR",
-        "CYNPR:OVT ERQ",
-        "PVGL:XRA GBJA");
+//    qbGrfg(PNYY, SYNT_NG_OBGU, "OVT UBZR @ XRAF YNFG UBHFR @ OVT ERQ XRA GBJA",
+//        "PNYY:OVT UBZR",
+//        "NQQE:XRAF YNFG UBHFR",
+//        "CYNPR:OVT ERQ",
+//        "PVGL:XRA GBJA");
     qbGrfg(PNYY, SYNT_NG_OBGU, "OVT UBZR @1000 A GUVEQ NIR",
         "PNYY:OVT UBZR",
         "NQQE:1000 A GUVEQ NIR");
@@ -656,12 +657,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(PNYY, SYNT_NG_OBGU, "CEBOYRZ 250 A 28GU FG @PBYHZOVN CVPGHERF NCG 5 NJNL",
         "PNYY:CEBOYRZ",
         "NQQE:250 A 28GU FG",
-        "CYNPR:PBYHZOVN CVPGHERF",
-        "NCG:5");
-    qbGrfg(PNYY, SYNT_NG_OBGU, "CEBOYRZ 250 A 28GU FG @ PBYHZOVN CVPGHERF NCG 5 NJNL",
-        "PNYY:CEBOYRZ",
-        "NQQE:250 A 28GU FG",
-        "CYNPR:PBYHZOVN CVPGHERF",
+        "CYNPR:PBYHZOVN CVPGHERF", 
         "NCG:5");
     qbGrfg(PNYY, SYNT_NG_OBGU, "ZL CEBOYRZ NAQREFBA EQ/CRGRE FG @OVT GBC KF: WBUA EQ NAQ WVYY FG NJNL",
         "PNYY:ZL CEBOYRZ",
@@ -676,11 +672,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(PNYY, SYNT_NG_OBGU, "LBHE CEBOYRZ A TERRA UVYY EQ @PYRZVAGVAR WBUAFBA",
         "PNYY:LBHE CEBOYRZ",
         "NQQE:A TERRA UVYY EQ",
-        "CYNPR:PYRZVAGVAR");
-    qbGrfg(PNYY, SYNT_NG_OBGU, "LBHE CEBOYRZ A TERRA UVYY EQ @ PYRZVAGVAR WBUAFBA",
-        "PNYY:LBHE CEBOYRZ",
-        "NQQE:A TERRA UVYY EQ",
-        "CYNPR:PYRZVAGVAR");
+        "CYNPR:PYRZVAGVAR WBUAFBA");
     qbGrfg(PNYY, SYNT_NG_OBGU | SYNT_NAPUBE_RAQ, "GENAFSRE FGNGVBA 46 @1902 PUHEPU PERRX EQ",
         "PNYY:GENAFSRE FGNGVBA 46", 
         "NQQE:1902 PUHEPU PERRX EQ");
@@ -1064,7 +1056,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:WRNA TBHY & CNHY T TRGGL");
     qbGrfg(BGURE, SYNT_BCG_FGERRG_FSK, "25376 cbgbznp ryqreyl znyr sryy uvg urnq vf pbafpvbhf",
         "NQQE:25376 cbgbznp");
-    qbGrfg(NQQE, SYNT_BCG_FGERRG_FSK, "j ynxr naq a untnqbea   jnfuqbja   ng fprar bs cqn",
+    qbGrfg(NQQE, SYNT_BCG_FGERRG_FSK | SYNT_VTABER_NG, "j ynxr naq a untnqbea   jnfuqbja   ng fprar bs cqn",
         "NQQE:j ynxr naq a untnqbea");
     qbGrfg(PNYY, SYNT_AB_VZCYVRQ_NCG | SYNT_BCG_FGERRG_FSK, "FVPX CREFBA 1234 WRNA TBHY J ORUVAQ UBHFR",
         "PNYY:FVPX CREFBA",
