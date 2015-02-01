@@ -34,7 +34,7 @@ public class INStJosephCountyParser extends DispatchA6Parser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    // This is going to be interesting.  Different departments get radically differnt page formats, 
+    // This is going to be interesting.  Different departments get radically different page formats, 
     // but they all share the same sender space, and all have some features in common.  All of which
     // makes me thing they are originating from the  same dispatch center with some interesting post
     // generation changes.  We will try to handle them all in one text parser
