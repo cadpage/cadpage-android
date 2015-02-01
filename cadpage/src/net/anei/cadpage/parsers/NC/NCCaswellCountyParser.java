@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class NCCaswellCountyParser extends DispatchSouthernParser {
 
   public NCCaswellCountyParser() {
-    super(CITY_LIST, "CASWELL COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_NO_NAME_PHONE);
+    super(CITY_LIST, "CASWELL COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID | DSFLAG_NO_NAME_PHONE);
     
     
   }

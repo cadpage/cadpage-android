@@ -391,6 +391,7 @@ class Active911Vendor extends Vendor {
       "US/MO/ADSiCad",                    "MOLawrenceCounty",
       "US/MO/AndrewCounty",               "Cadpage2",
       "US/MO/BarryCounty",                "MOBarryCounty",
+      "US/NC/CaswellCounty",              "NCCaswellCounty",
       "US/MO/ChristianCounty",            "MOChristianCounty",
       "US/MO/CityofBranson",              "MOBranson",
       "US/MO/CityofCameron",              "MOCameron",
