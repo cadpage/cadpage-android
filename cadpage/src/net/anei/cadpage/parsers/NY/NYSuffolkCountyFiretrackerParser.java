@@ -89,6 +89,17 @@ public class NYSuffolkCountyFiretrackerParser extends FieldProgramParser {
     "MASTIC BEACH",
     "SHIRLEY",
     "SMITH POINT",
+    
+    // Nassau County
+    "ALBERTSON",
+    "EAST WILLISTON",
+    "GARDEN CITY PARK",
+    "MANHASSET LAKEVILLE",
+    "MINEOLA",
+    "NEW HYDE PARK",
+    "PORT WASHINGTON",
+    "ROSYLN",
+    "WESTBURY",
     "WILLISTON PARK"
   };
 }
