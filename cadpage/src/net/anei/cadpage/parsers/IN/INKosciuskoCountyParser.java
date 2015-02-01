@@ -39,8 +39,15 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
     // A city starting with a digit probably means this is a Marshall County page
     // In any case we don't want to accept it
     if (data.strCity.length() > 0 && Character.isDigit(data.strCity.charAt(0))) return false;
+    
+    // Rule out a special Douglas County construct that might slip through
+    if (data.strCall.equals("CANCEL") &&
+        data.strCity.length() == 0 &&
+        data.strPlace.length() == 0 &&
+        CITY_CODE_PTN.matcher(data.strApt).matches()) return false;
     return true;
   }
+  private static final Pattern CITY_CODE_PTN = Pattern.compile("[A-Z]{4}");
   
   @Override
   public Field getField(String name) {
