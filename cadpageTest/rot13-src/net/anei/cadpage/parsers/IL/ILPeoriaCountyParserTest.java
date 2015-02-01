@@ -31,6 +31,10 @@ Pbagnpg: Qnygba Pneyfba <qnpneyfba12@tznvy.pbz>
 Fraqre: svercntr@crbevntbi.bet
 03/19/13 { 1900}R FG WHQR PG We=CU :( 5700) A TNYRAN EQ 3CGL JBBQSBEQ NPP VAW HAX 1726,007
 
+Pbagnpg: Qna Cnegy <qcnegy@tznvy.pbz>
+Fraqre: svercntr@crbevntbi.bet
+01/18/15 6100 J RIRERGG ZPXVAYRL QVEXFRA CX We=PB :( 5700) J ZVQQYR EQ TNGR 10 FHOW UVG URNQ OYRRQVAT 1022,004
+
 */
 
 choyvp pynff VYCrbevnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -196,6 +200,22 @@ choyvp pynff VYCrbevnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:17:26",
         "HAVG:007");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnaCnegy() {
+
+    qbGrfg("G1",
+        "01/18/15 6100 J RIRERGG ZPXVAYRL QVEXFRA CX We=PB :( 5700) J ZVQQYR EQ TNGR 10 FHOW UVG URNQ OYRRQVAT 1022,004",
+        "QNGR:01/18/15",
+        "NQQE:6100 J RIRERGG ZPXVAYRL QVEXFRA CX",
+        "ZNQQE:6100 J RIRERGG ZPXVAYRL QVEXFRA CXJL",
+        "PVGL:CRBEVN PBHAGL",
+        "K:5700 J ZVQQYR EQ",
+        "VASB:TNGR 10 FHOW UVG URNQ OYRRQVAT",
+        "GVZR:10:22",
+        "HAVG:004");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

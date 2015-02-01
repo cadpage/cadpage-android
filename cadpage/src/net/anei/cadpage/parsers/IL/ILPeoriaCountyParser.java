@@ -27,6 +27,13 @@ public class ILPeoriaCountyParser extends DispatchA6Parser {
     return super.parseMsg(body, data);
   }
   
+  @Override
+  public String adjustMapAddress(String address) {
+    address = PK_PTN.matcher(address).replaceAll("PKWY");
+    return super.adjustMapAddress(address);
+  }
+  private static final Pattern PK_PTN = Pattern.compile("\\bPK\\b", Pattern.CASE_INSENSITIVE);
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[] {
     "BA", "BARTONVILLE",
     "BE", "BELLEVUE",
