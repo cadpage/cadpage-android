@@ -2,6 +2,8 @@
 
 package net.anei.cadpage.parsers.NC;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 /**
@@ -18,6 +20,14 @@ public class NCCaswellCountyParser extends DispatchSouthernParser {
   public String getFilter() {
     return "@caswellcountync.gov";
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = EXT_PTN.matcher(addr).replaceAll("EXD");
+    addr = addr.replace("GATEWOOD RD EXD", "GATEWOOD EXD");
+    return super.adjustMapAddress(addr);
+  }
+  private static final Pattern EXT_PTN = Pattern.compile("\\bEXT\\b", Pattern.CASE_INSENSITIVE);
   
   private static final String[] CITY_LIST = new String[]{
     
