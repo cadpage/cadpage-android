@@ -1629,7 +1629,7 @@ choyvp pynff PBZbagebfrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:NPPVQRAG",
         "NQQE:21400 oybpx uvtujnl 550",
-        "ZNQQE:21400 uvtujnl 550",
+        "ZNQQE:21400 uvtujnl 550", 
         "PVGL:Evqtjnl",
         "VQ:877224",
         "HAVG:BYS",
