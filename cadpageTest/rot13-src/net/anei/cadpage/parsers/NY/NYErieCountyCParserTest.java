@@ -90,6 +90,7 @@ choyvp pynff ALRevrPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G9",
         "Revr_Nyreg 8202 R RQRA EQ NCG: 3 RQRA HCCRE- HFR QBBE BA YRSG FVQR BS OYQT,  SRZNYR- OERNGUVAT OHG HAERFCBAFVIR-35, 41 GB UNYY ARR  <ABERCYL>",
+        "PNYY:NYREG",
         "NQQE:8202 R RQRA EQ",
         "NCG:3",
         "PVGL:RQRA",

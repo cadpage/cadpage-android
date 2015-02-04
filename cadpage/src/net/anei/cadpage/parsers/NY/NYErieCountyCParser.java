@@ -34,10 +34,18 @@ public class NYErieCountyCParser extends SmartAddressParser {
       body = body.substring(0,pt).trim();
     }
     
-    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_IGNORE_AT | FLAG_NO_IMPLIED_APT, body, data);
+    parseAddress(StartType.START_CALL, FLAG_IGNORE_AT | FLAG_NO_IMPLIED_APT, body, data);
     data.strSupp = getLeft();
     if (!isValidAddress()) {
       return data.parseGeneralAlert(this, saveBody);
+    }
+    if (data.strCall.length() == 0) {
+      if (data.strSupp.length() > 0 && data.strSupp.length() <= 40) {
+        data.strCall = data.strSupp;
+        data.strSupp = "";
+      } else {
+        data.strCall = "ALERT";
+      }
     }
     
     pt = data.strCall.indexOf(':');
@@ -51,7 +59,8 @@ public class NYErieCountyCParser extends SmartAddressParser {
   
   private static final String[] CITY_LIST = new String[]{
     "EDEN",
+    "KENMORE",
     "TONAWANDA TOWN",
-    "WEST SENECA",
+    "WEST SENECA"
   };
 }
