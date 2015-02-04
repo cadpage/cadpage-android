@@ -8,8 +8,9 @@ vzcbeg bet.whavg.Grfg;
 Fg Ybhvf Pbhagl, ZB (irefvba P)
  
 Pbagnpg:  Xriva Uraqrefba <fvmmrhc1@tznvy.pbz>
-Fraqre: 93001020
+Fraqre: 93001
 09 Pneqvnp Neerfg DQ NG:6865 Cnexre Eq KFG:CNEGEVQTR EHA QE/ZNLSNVE CYNMN FUBCCVAT PGE 37 5110,84QA9,84QA9,84QA9,5117,EPQA12
+Nynez Pbzzrepvny NG:11300 Qhaa Eq KFG:NEPUVIRF QE/PYNHQVAR QE 51 5100,5102,5110,51QA3,51QA1,3025
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Sybevffnag Inyyrl Sver Qvfgevpg
@@ -2182,7 +2183,15 @@ choyvp pynff ZBFgYbhvfPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:CNEGEVQTR EHA QE/ZNLSNVE CYNMN FUBCCVAT PGE",
         "FEP:37",
         "HAVG:5110,84QA9,84QA9,84QA9,5117,EPQA12");
-    
+
+    qbGrfg("G2",
+        "Nynez Pbzzrepvny NG:11300 Qhaa Eq KFG:NEPUVIRF QE/PYNHQVAR QE 51 5100,5102,5110,51QA3,51QA1,3025",
+        "PNYY:Nynez Pbzzrepvny",
+        "NQQE:11300 Qhaa Eq",
+        "K:NEPUVIRF QE/PYNHQVAR QE",
+        "FEP:51",
+        "HAVG:5100,5102,5110,51QA3,51QA1,3025");
+   
   }
 
   @Grfg
