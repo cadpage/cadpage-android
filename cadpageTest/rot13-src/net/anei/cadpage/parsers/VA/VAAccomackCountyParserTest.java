@@ -1771,12 +1771,12 @@ choyvp pynff INNppbznpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgAvoyrg1() {
 
     qbGrfg("G1",
-        "RFIN911 PNQ:FGEBXR;31410 PUVAPBGRNTHR EQ;ARJP;N26;P4;CRNEY QE;PBNEQGBJA EQ;201500759\\2f",
+        "RFIN911 PNQ:FGEBXR;31410 PUVAPBGRNTHR EQ;ARJP;N26;P4;CRNEY QE;PBNEQGBJA EQ;201500759",
         "PNYY:FGEBXR",
         "NQQE:31410 PUVAPBGRNTHR EQ",
         "ZNC:N26,P4",
         "K:CRNEY QE & PBNEQGBJA EQ",
-        "VASB:201500759");
+        "VQ:201500759");
  
   }
 

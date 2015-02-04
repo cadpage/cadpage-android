@@ -14,11 +14,13 @@ Pbagnpg: Pnzreba Qvexf <pqaerzg@tznvy.pbz>
 Pbagnpg: qnivq yn pryyr <qynpryyr5170@tznvy.pbz>
 
 Pbagnpg: Ziczrqvp 3 <ziczrqvp3@tznvy.pbz>
+Pbagnpg: Ziczrqvp 6 <ziczrqvp6@tznvy.pbz>
 Fraqre: CntvatFreivpr@fvepbzz.pbz
 1 bs 2\aSEZ:CntvatFreivpr@fvepbzz.pbz\aZFT:1/19/2015 1922\aRIRAG # 1501190236 ZIE039\aZRQ - ZRQVPNY PNYY\aCEVBEVGL 1 \aYBPNGVBA 1521 CBCYNE\a(Pba'g) 2 bs 2\aNIR\aPVGL GJVA SNYYF\aNCG \aCERZVFR \aPBZZRAG 70 LB SRZNYR\aSRYY, ARRQF N YVSG NFFVFG\a(Raq)
 1 bs 2\aSEZ:CntvatFreivpr@fvepbzz.pbz\aZFT:1/20/2015 0825\aRIRAG # 1501200040 ZIE039\aNYZ - ZRQVPNY NYNEZ\aCEVBEVGL 1 \aYBPNGVBA 834 20GU NIR\a(Pba'g) 2 bs 2\aR\aPVGL WREBZR\aNCG \aCERZVFR \aPBZZRAG 67 LBS-SRYY\aYRSG SBBG VF FJBYYRA\aOEBHVFVAT NAQ OYBBQ BA UR...\a(Raq)
-1 bs 2\aSEZ:CntvatFreivpr@fvepbzz.pbz\aZFT:1/20/2015 0844\aRIRAG # 1501200045 ZIE039\aZRQ - ZRQVPNY PNYY\aCEVBEVGL 1 \aYBPNGVBA 623 JVAQRZRER\a(Pba'g) 2 bs 2\aQE\aPVGL GJVA SNYYF\aNCG 101\aCERZVFR \aPBZZRAG ***** ER-BCRARQ RIRAG ZIE039 1501190118\a\7f(bcrarq 01/1...\a(Raq)
+1 bs 2\aSEZ:CntvatFreivpr@fvepbzz.pbz\aZFT:1/20/2015 0844\aRIRAG # 1501200045 ZIE039\aZRQ - ZRQVPNY PNYY\aCEVBEVGL 1 \aYBPNGVBA 623 JVAQRZRER\a(Pba'g) 2 bs 2\aQE\aPVGL GJVA SNYYF\aNCG 101\aCERZVFR \aPBZZRAG ***** ER-BCRARQ RIRAG ZIE039 1501190118\a       (bcrarq 01/1...\a(Raq)
 1 bs 2\aSEZ:CntvatFreivpr@fvepbzz.pbz\aZFT:1/20/2015 0918\aRIRAG # 1501200082 ZIE039\aZRQ - ZRQVPNY PNYY\aCEVBEVGL 1 \aYBPNGVBA 1828 OEVQTRIVRJ\a(Pba'g) 2 bs 2\aOYIQ\aPVGL GJVA SNYYF\aNCG 226\aCERZVFR OEVQTRIVRJ RFGNGRF\aPBZZRAG 90 LBS-AHZOARFF VA URE NEZ\aFUBEG BS OERNGU\aPBAF\aEC VF ABG...\a(Raq)
+1 bs 2\aSEZ:CntvatFreivpr@fvepbzz.pbz\aZFT:2/3/2015 1745\aRIRAG # 1502030196 ZIE039\aNPPH - NPPVQRAG J/HAXABJA V...\aYBPNGVBA CURNFNAG\a(Pba'g) 2 bs 2\aEQ/JNFUVATGBA FG\aPVGL \aNCG \aCERZVFR \aPBZZRAG 2 IRU PENFU\a(Raq)
 
 Pbagnpg: Pnzreba Qvexf <pqaerzg@tznvy.pbz>
 Fraqre: CntvatFreivpr@fvepbzz.pbz
@@ -104,7 +106,7 @@ choyvp pynff VQTbbqvatPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG 101\a" +
         "CERZVFR \a" +
         "PBZZRAG ***** ER-BCRARQ RIRAG ZIE039 1501190118\a" +
-        "\\7f(bcrarq 01/1...\a" +
+        "       (bcrarq 01/1...\a" +
         "(Raq)",
 
         "QNGR:1/20/2015",
@@ -116,7 +118,7 @@ choyvp pynff VQTbbqvatPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:623 JVAQRZRER QE",
         "NCG:101",
         "PVGL:GJVA SNYYF",
-        "VASB:***** ER-BCRARQ RIRAG ZIE039 1501190118 / \\7f(bcrarq 01/1...");
+        "VASB:***** ER-BCRARQ RIRAG ZIE039 1501190118 / (bcrarq 01/1...");
 
     qbGrfg("G4",
         "1 bs 2\a" +
@@ -148,6 +150,29 @@ choyvp pynff VQTbbqvatPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:GJVA SNYYF",
         "CYNPR:OEVQTRIVRJ RFGNGRF",
         "VASB:90 LBS-AHZOARFF VA URE NEZ / FUBEG BS OERNGU / PBAF / EC VF ABG...");
+
+    qbGrfg("G1",
+        "1 bs 2\a" +
+        "SEZ:CntvatFreivpr@fvepbzz.pbz\a" +
+        "ZFT:2/3/2015 1745\a" +
+        "RIRAG # 1502030196 ZIE039\a" +
+        "NPPH - NPPVQRAG J/HAXABJA V...\a" +
+        "YBPNGVBA CURNFNAG\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "EQ/JNFUVATGBA FG\a" +
+        "PVGL \a" +
+        "NCG \a" +
+        "CERZVFR \a" +
+        "PBZZRAG 2 IRU PENFU\a" +
+        "(Raq)",
+
+        "QNGR:2/3/2015",
+        "GVZR:17:45",
+        "VQ:1502030196",
+        "FEP:ZIE039",
+        "PNYY:NPPH - NPPVQRAG J/HAXABJA V...",
+        "NQQE:CURNFNAG EQ & JNFUVATGBA FG",
+        "VASB:2 IRU PENFU");
 
   }
   

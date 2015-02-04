@@ -23,7 +23,7 @@ abstract public class DispatchA22Parser extends FieldProgramParser {
   
   public DispatchA22Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState,
-           "DATETIME! UNITS:UNIT? EVENT_#:IDSRC! CALL! ( PRIORITY:PRI! LOCATION:ADDR! CITY:CITY APT:APT PREMISE:PLACE? COMMENT:INFO | ADDR CITY! APT:APT ) INFO+");
+           "DATETIME! UNITS:UNIT? EVENT_#:IDSRC! CALL! PRIORITY:PRI? ( LOCATION:ADDR! CITY:CITY APT:APT PREMISE:PLACE? COMMENT:INFO | ADDR CITY! APT:APT ) INFO+");
   }
   
   @Override
