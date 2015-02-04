@@ -14,8 +14,8 @@ public class NYErieCountyCParser extends SmartAddressParser {
   private static final Pattern TRAIL_JUNK = Pattern.compile("[\\. ]+$");
   
   public NYErieCountyCParser() {
-    super("ERIE COUNTY", "NY");
-    setFieldList("CALL ADDR APT INFO X PLACE");
+    super(CITY_LIST, "ERIE COUNTY", "NY");
+    setFieldList("CALL ADDR APT CITY INFO X PLACE");
   }
 
   @Override
@@ -34,7 +34,7 @@ public class NYErieCountyCParser extends SmartAddressParser {
       body = body.substring(0,pt).trim();
     }
     
-    parseAddress(StartType.START_CALL, FLAG_IGNORE_AT, body, data);
+    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_IGNORE_AT | FLAG_NO_IMPLIED_APT, body, data);
     data.strSupp = getLeft();
     if (!isValidAddress()) {
       return data.parseGeneralAlert(this, saveBody);
@@ -48,4 +48,10 @@ public class NYErieCountyCParser extends SmartAddressParser {
     
     return true;
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    "EDEN",
+    "TONAWANDA TOWN",
+    "WEST SENECA",
+  };
 }
