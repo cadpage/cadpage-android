@@ -53,7 +53,7 @@ public class MDTalbotCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "msg@cfmsg.com,alert@cfmsg.com,Talbot911@talbotdes.org,777";
+    return "msg@cfmsg.com,alert@cfmsg.com,Talbot911@talbotdes.org,777,4702193527";
   }
 
   @Override

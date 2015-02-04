@@ -30,6 +30,12 @@ Pbagnpg: Tenunz Abeohel <tabeohel@obaqpne.pbz>
 GNYOBGQRF  Gnyobg911:*Q 22 P-HAPBAFPVBHF/SNVAG 4474 OBBAR PERRX EQ NYREG J NOAEZY OERNG G20 Grkg HAFHOFPEVOR gb bcg bhg
 GNYOBGQRF  Gnyobg911:*Q 30 ERFVQRAGVNY SVER 4301 YBIREF YA FVATYR G30 Grkg HAFHOFPEVOR gb bcg bhg
 
+Pbagnpg: Tenunz Abeohel <tabeohel@obaqpne.pbz>
+Fraqre: 4702193527
+GNYOBGQRF  Gnyobg911:*Q 21 P-OERNGUVAT CEBOYRZF 101 GUVEQ FG NOABEZNY OERNGUVAT G20 Grkg HAFHOFPEVOR gb bcg bhg
+GNYOBGQRF  Gnyobg911:*Q 22 P-HAPBAFPVBHF/SNVAG 4474 OBBAR PERRX EQ NYREG J NOAEZY OERNG G20 Grkg HAFHOFPEVOR gb bcg bhg
+GNYOBGQRF  Gnyobg911:*Q 30 ERFVQRAGVNY SVER 4301 YBIREF YA FVATYR G30 Grkg HAFHOFPEVOR gb bcg bhg 
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Gnyobg QRF
 Ybpngvba: Rnfgba, ZQ, Havgrq Fgngrf
@@ -338,6 +344,37 @@ choyvp pynff ZQGnyobgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:FVATYR",
         "HAVG:G30");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgTenuzAbeohel() {
+
+    qbGrfg("G1",
+        "GNYOBGQRF  Gnyobg911:*Q 21 P-OERNGUVAT CEBOYRZF 101 GUVEQ FG NOABEZNY OERNGUVAT G20 Grkg HAFHOFPEVOR gb bcg bhg",
+        "OBK:21",
+        "CEV:P",
+        "PNYY:OERNGUVAT CEBOYRZF",
+        "NQQE:101 GUVEQ FG",
+        "VASB:NOABEZNY OERNGUVAT",
+        "HAVG:G20");
+
+    qbGrfg("G2",
+        "GNYOBGQRF  Gnyobg911:*Q 22 P-HAPBAFPVBHF/SNVAG 4474 OBBAR PERRX EQ NYREG J NOAEZY OERNG G20 Grkg HAFHOFPEVOR gb bcg bhg",
+        "OBK:22",
+        "CEV:P",
+        "PNYY:HAPBAFPVBHF/SNVAG",
+        "NQQE:4474 OBBAR PERRX EQ",
+        "VASB:NYREG J NOAEZY OERNG",
+        "HAVG:G20");
+
+    qbGrfg("G3",
+        "GNYOBGQRF  Gnyobg911:*Q 30 ERFVQRAGVNY SVER 4301 YBIREF YA FVATYR G30 Grkg HAFHOFPEVOR gb bcg bhg ",
+        "OBK:30",
+        "PNYY:ERFVQRAGVNY SVER",
+        "NQQE:4301 YBIREF YA",
+        "VASB:FVATYR",
+        "HAVG:G30");
+
   }
 
   @Grfg
