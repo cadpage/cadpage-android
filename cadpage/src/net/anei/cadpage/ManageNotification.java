@@ -391,7 +391,8 @@ public class ManageNotification {
         return true;
       }
 
-      throw new MediaFailureException("Media Player failure - what:" + what + " extra:" + extra + " cnt:" + startCnt);
+      Log.e(new MediaFailureException("Media Player failure - what:" + what + " extra:" + extra + " cnt:" + startCnt));
+      return true;
     }
   }
 
