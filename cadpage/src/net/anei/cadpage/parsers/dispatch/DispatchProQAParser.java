@@ -15,17 +15,40 @@ public class DispatchProQAParser extends FieldProgramParser {
   private static final Pattern MARKER = Pattern.compile("\\bRun#");
   private static final Pattern UNASSIGNED_MARKER = Pattern.compile("RC:Job# *[^ ]* *\\(Run# (\\d+)\\) at [0-9:]+ was unassigned\\.");
   private static final Pattern RUN_REPORT_MARKER = Pattern.compile("^(?:was Canceled:| ?(?:CALL:)?\\d\\d:\\d\\d/ ?(?:DISP:)?\\d\\d:\\d\\d/ ?(?:ENR:)?\\d\\d:\\d\\d/ ?(?:ATS:)?\\d\\d:\\d\\d/?)");
+  private static final Pattern PRIORITY_MARKER = Pattern.compile("RC:([A-Za-z \\-]*)/.*");
+  
+  private boolean singleSlashDelim;
+  private final Pattern delimPattern;
+  private boolean usePriorityField = false;
   
   protected DispatchProQAParser(String defCity, String defState, String program) {
-    super(defCity, defState, program);
+    this(defCity, defState, program, false);
   }
   
   protected DispatchProQAParser(Properties cityCodes, String defCity, String defState, String program) {
-    super(cityCodes, defCity, defState, program);
+    this(cityCodes, defCity, defState, program, false);
   }
   
   protected DispatchProQAParser(String[] cityList, String defCity, String defState, String program) {
+    this(cityList, defCity, defState, program, false);
+  }
+
+  protected DispatchProQAParser(String defCity, String defState, String program, boolean singleSlashDelim) {
+    super(defCity, defState, program);
+    this.singleSlashDelim = singleSlashDelim;
+    delimPattern = Pattern.compile(singleSlashDelim ? "/" : "/+");
+  }
+  
+  protected DispatchProQAParser(Properties cityCodes, String defCity, String defState, String program, boolean singleSlashDelim) {
+    super(cityCodes, defCity, defState, program);
+    this.singleSlashDelim = singleSlashDelim;
+    delimPattern = Pattern.compile(singleSlashDelim ? "/" : "/+");
+  }
+  
+  protected DispatchProQAParser(String[] cityList, String defCity, String defState, String program, boolean singleSlashDelim) {
     super(cityList, defCity, defState, program);
+    this.singleSlashDelim = singleSlashDelim;
+    delimPattern = Pattern.compile(singleSlashDelim ? "/" : "/+");
   }
 
   @Override
@@ -39,6 +62,12 @@ public class DispatchProQAParser extends FieldProgramParser {
       return true;
     }
 
+    // If usePriorityField and priority is present in 1st field, grab it
+    if (usePriorityField) {
+      match = PRIORITY_MARKER.matcher(body);
+      if (match.matches()) data.strPriority = match.group(1).trim();
+    }
+    
     // Parse run number from first field
     match = MARKER.matcher(body);
     if (!match.find()) return false;
@@ -47,31 +76,65 @@ public class DispatchProQAParser extends FieldProgramParser {
     if (pt2 < 0) return false;
     
     data.strCallId = body.substring(pt, pt2).trim();
-    do { pt2++; } while (pt2 < body.length() && body.charAt(pt2) == '/');
+    pt2++;
+    if (!singleSlashDelim) { 
+      while (pt2 < body.length() && body.charAt(pt2) == '/') pt2++;
+    }
     body = body.substring(pt2).trim();
     if (RUN_REPORT_MARKER.matcher(body).find()) {
       data.strCall = "RUN REPORT";
       data.strPlace = body;
+      data.strPriority = "";
       return true;
     }
     body = body.replace("ProQA comments:", "/");
 
     // Everything else is variable
-    String[] lines = body.split("/+");
+//    String[] lines = body.split("/+");
+    String[] lines = delimPattern.split(body);
     return parseFields(lines, data);
   }
   
   @Override
   public String getProgram() {
-    return "ID " + super.getProgram() + " CALL PLACE";
+    return "ID " + super.getProgram() + " CALL PLACE PRI";
+  }
+
+  /*
+   * Sets usePriorityField to check for a priority in the first field
+   */
+  protected void usePriorityField() {
+    usePriorityField = true;
   }
   
+  private static final Pattern CROSS_PATTERN = Pattern.compile(".*?X=(.*)");
+  private static final Pattern UNKNOWN_PATTERN = Pattern.compile("(?i).*<unknown>.*");
   protected class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       if (field.equals("<PROQA_DET>")) return;
       if (field.equals("<PROQA_SCRIPT>")) return;
+      Matcher m = UNKNOWN_PATTERN.matcher(field);
+      if (m.matches())
+        return;
+      m = CROSS_PATTERN.matcher(field);
+      if (m.matches()) {
+        String[] cross = m.group(1).split("&");
+        for (int i=0; i<cross.length; i++)
+          addCross(cross[i].trim(), data);
+        return;
+      }
       super.parse(field, data);
+    }
+  
+    private void addCross(String field, Data data) {
+      if (!field.contains("Unknown Street"))
+        data.strCross = append(data.strCross, "/", field);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return append(super.getFieldNames(), " ", "X");
     }
   }
   

@@ -51,7 +51,7 @@ choyvp pynff ALZbaebrPbhaglEhenyZrgebCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:134",
         "CEV:3",
         "PNYY:VAWHEL- ABA NPHGR",
-        "VASB:93 LBS SRYY NAQ PHG NOBIR RLR....UNF OYBBQ VA RLR / <Haxabja>");
+        "VASB:93 LBS SRYY NAQ PHG NOBIR RLR....UNF OYBBQ VA RLR");
 
     qbGrfg("G4",
         "EP:Eha# 20174/4 ZVGPURYY FG/K=Qrynznvar&Oneoreel///Cevbevgl 1/31Q3 - HAPBAFPVBHF/SNVAGVAT - ABG NYREG/YBPV:  RAGEL: 29 LB ZNYR CNFFRQ BHG -ABJ NJNXR-ABG NYREG KFG: ogja ONEOREEL GR",

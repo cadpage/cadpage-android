@@ -373,6 +373,7 @@ class Active911Vendor extends Vendor {
       "US/MN/Edina",                      "MNEdina",
       "US/MN/FaribaultCounty",            "MNFaribaultCounty",
       "US/MN/GoodhueCounty",              "MNGoodhueCounty",
+      "US/MN/HealtheastMedTran",          "MNMinneapolisStPaulB",
       "US/MN/HennepinCounty",             "MN/HennepinCounty",
       "US/MN/MilleLacsCounty",            "Cadpage2",
       "US/MN/MartinCounty",               "MNMartinCounty",
