@@ -7,9 +7,20 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class NJBergenCountyBParser extends SmartAddressParser {
+  
+  
   public NJBergenCountyBParser() {
-    super("BERGEN COUNTY", "NJ");
+    this("BERGEN COUNTY", "NJ");
+  }
+  
+  protected NJBergenCountyBParser(String defCity, String defState) {
+    super(defCity, defState);
     setFieldList("ID UNIT CALL ADDR PLACE APT CITY INFO");
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "NJBergenCountyB";
   }
   
   @Override
@@ -18,7 +29,7 @@ public class NJBergenCountyBParser extends SmartAddressParser {
   }
   
   private static final Pattern SUBJECT_PATTERN
-    = Pattern.compile("(I\\-\\d{4}\\-\\d{6})\\s*(.*)");
+    = Pattern.compile("([A-Z]{1,4}\\-\\d{4}\\-\\d{6})\\s*(.*)");
   private static final Pattern BODY_PATTERN
     = Pattern.compile("\\s*([A-Z]+) +@\\s*(.*?)\\s*,\\s*(.*?)\\s*(?:\\-|$)\\s*(.*)");
   @Override
