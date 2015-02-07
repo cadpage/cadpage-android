@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class CASantaClaraCountyAParser extends FieldProgramParser {
 
-  private static final Pattern MARKER = Pattern.compile("^EMDC#(M\\d{9})");
+  private static final Pattern MARKER = Pattern.compile("^([A-Z0-9 ]{4})#(M\\d{9})");
   
   public CASantaClaraCountyAParser() {
     super(CITY_CODES, "SANTA CLARA COUNTY", "CA",
@@ -33,8 +33,9 @@ public class CASantaClaraCountyAParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    data.strCallId = match.group(1);
+    if (!match.lookingAt()) return false;
+    data.strSource = match.group(1).trim();
+    data.strCallId = match.group(2);
     body = body.substring(match.end()).trim();
     body = body.replace('\n', ' ');
     return super.parseMsg(body, data);
@@ -42,7 +43,15 @@ public class CASantaClaraCountyAParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return "ID " + super.getProgram();
+    return "SRC ID " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("CALL")) return new MyCallField();
+    return super.getField(name);
   }
   
   private static final Pattern ADDR_PAREN_PTN = Pattern.compile(" *\\([^\\(\\)]*\\) *");
@@ -60,19 +69,21 @@ public class CASantaClaraCountyAParser extends FieldProgramParser {
     }
   }
   
-  private class MyCallField extends CallField {
+  private class MyPlaceField extends PlaceField {
     @Override
     public void parse(String field, Data data) {
-      if (field.endsWith("/NONE")) field = field.substring(0,field.length()-5).trim();
+      field = stripFieldStart(field,  "@");
+      if (field.equals("NONE")) return;
       super.parse(field, data);
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("CALL")) return new MyCallField();
-    return super.getField(name);
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldEnd(field, "/NONE");
+      super.parse(field, data);
+    }
   }
   
   @Override
@@ -87,7 +98,10 @@ public class CASantaClaraCountyAParser extends FieldProgramParser {
   private static final Pattern EX_PTN = Pattern.compile("\\bEX\\b", Pattern.CASE_INSENSITIVE);
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CO", "",               // County??
       "CU", "CUPERTINO",
+      "GI", "GILROY",
+      "MH", "MORGAN HILL",
       "SC", "SANTA CLARA",
       "SJ", "SAN JOSE" 
   });
