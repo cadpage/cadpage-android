@@ -65,8 +65,9 @@ public class NCHarnettCountyParser extends GroupBestParser {
     "LINDEN",
     "ANGIER",
     "BENSON",
-    "FUQUAY VARINA",
-    "FUQUAY-VARINA",
+    
+    // Cumberland County
+    "FAYETTEVILLE",
     
     // Lee County
     "BROADWAY",
@@ -77,6 +78,9 @@ public class NCHarnettCountyParser extends GroupBestParser {
     "SOUTHERN PINES",
     
     // Wake County
-    "HOLLY SPRINGS"
+    "HOLLY SPRINGS",
+    "FUQUAY",
+    "FUQUAY VARINA",
+    "FUQUAY-VARINA",
   };
 }

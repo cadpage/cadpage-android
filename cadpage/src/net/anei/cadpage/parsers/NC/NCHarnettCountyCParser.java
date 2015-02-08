@@ -10,9 +10,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class NCHarnettCountyCParser extends FieldProgramParser {
   
+  String select;
+  
   public NCHarnettCountyCParser() {
     super(NCHarnettCountyParser.CITY_LIST, "HARNETT COUNTY", "NC",
-           "CITY/Y X X EMPTY EMPTY CALL! EMPTY EMPTY EMPTY UNIT%");
+           "( SELECT/DASHFMT ID ADDR APT+? CITY/Y X/Z+? EMPTY EMPTY+? CALL EMPTY+? UNIT " +
+           "| CITY/Y X X EMPTY EMPTY CALL! EMPTY EMPTY EMPTY UNIT% INFO+ " +
+           "| ID ADDR CITY/Y X/Z+? CALL UNIT! END )");
   }
   
   @Override
@@ -22,6 +26,26 @@ public class NCHarnettCountyCParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return parseFields(body.split("\n"), data);
+    select = "";
+    String[] flds = body.split("\n");
+    if (flds.length == 1) {
+      select = "DASHFMT";
+      if (body.endsWith("-")) body += ' ';
+      flds = body.split(" - ");
+    }
+    return parseFields(flds, data);
+  }
+  
+  
+  
+  @Override
+  protected String getSelectValue() {
+    return select;
+  }
+
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("\\d{4}-\\d{6}", true);
+    return super.getField(name);
   }
 }
