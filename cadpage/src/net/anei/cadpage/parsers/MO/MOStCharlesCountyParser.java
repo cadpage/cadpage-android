@@ -1,13 +1,10 @@
 package net.anei.cadpage.parsers.MO;
 
-
 import java.util.Properties;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-
-
 
 public class MOStCharlesCountyParser extends FieldProgramParser {
   
@@ -26,15 +23,26 @@ public class MOStCharlesCountyParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     
-    // Dispatch sends a fixed length field format and a variable lenght field format.
+    // Dispatch sends a fixed length field format and a variable length field format.
     // Try the variable format first
     if (super.parseMsg(body, data)) return true;
     
     // Otherwise reset things and try the fixed field format
     data.initialize(this);
-    setFieldList("ID INFO CALL ADDR PLACE APT X MAP CH SRC UNIT");
     
     FParser p = new FParser(body);
+    
+    // Check for special New Notification format
+    if (p.check("New Notification:")) {
+      setFieldList("CALL ADDR APT INFO");
+      data.strCall = p.get(26);
+      parseAddress(p.get(31), data);
+      if (p.getOptional(" [Notification] ", 26, 28) == null) return false;
+      data.strSupp = p.get();
+      return true;
+    }
+    
+    setFieldList("ID INFO CALL ADDR PLACE APT X MAP CH SRC UNIT");
     
     // Skip optional ID: label
     p.check("ID:");
@@ -43,12 +51,15 @@ public class MOStCharlesCountyParser extends FieldProgramParser {
     if (! ID_PTN.matcher(data.strCallId).matches()) return false;
 
     data.strSupp = p.get(8);
-    data.strCall = p.get(25);;
+    int fLen = p.checkAhead("APT:", 101, 100);
+    if (fLen < 0) return false;
+    fLen -= 75; 
+    data.strCall = p.get(fLen);
     parseAddress(p.get(50), data);
     data.strPlace = p.get(25);
-
-    p.setOptional();
     if (!p.check("APT:")) return false;
+    
+    p.setOptional();
     data.strApt = p.getOptional("X ST:", 5, 16);
     if (data.strApt == null) return false;
     data.strCross = p.get(30);

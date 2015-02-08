@@ -1489,6 +1489,19 @@ public abstract class MsgParser {
    }
 
    /**
+    * Check for fixed marker value somewhere ahead of text
+    * @param marker fixed marker value
+    * @param offsets possible offsets to check value
+    * @return offset where marker was found, or -1 if nothing matched
+    */
+   public int checkAhead(String marker, int ... offsets) {
+     for (int offset : offsets) {
+       if (checkAhead(offset, marker)) return offset;
+     }
+     return -1;
+   }
+
+   /**
     * Check for fixed label value
     * @param offset of expected label value
     * @param marker expected label value
