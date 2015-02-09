@@ -630,7 +630,6 @@ choyvp pynff BEQrfpuhgrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp BEQrfpuhgrfPbhaglCnefreGrfg() {
     frgCnefre(arj BEQrfpuhgrfPbhaglCnefre(), "QRFPUHGRF PBHAGL", "BE");
   }
-  
 
   @Grfg
   choyvp ibvq grfgErqzbaqSverErfphr() {
@@ -4382,8 +4381,7 @@ choyvp pynff BEQrfpuhgrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:OEHFU SVER UVTU EVFX ERFCBAFR",
         "CEV:OU",
         "HAVG:366,342,312,344,343",
-        "NQQE:BYQ ORAQ ERQZBAQ UJL",
-        "CYNPR:/FJNYYRL EQ",
+        "NQQE:BYQ ORAQ ERQZBAQ UJL & FJNYYRL EQ",
         "ZNC:1612FJ",
         "GVZR:19:37:57");
 

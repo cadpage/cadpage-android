@@ -4550,7 +4550,8 @@ choyvp pynff VAFgWbfrcuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:11/26/2014",
         "NQQE:64261 ZNCYR EQ",
         "PVGL:YNXRIVYYR",
-        "VASB:ARJ EQ 0N/vc Q51 5101 Q42 RA42 YNCNM 1660 401 Q71 FD51 ZBOY1 GN51 GN71BA ZNCYR - ONEA BA SVER / [tnentr sver] Fgehpgher Sver. / Vap# 41 gur Sver Vap GLCR Punatrq ol PC006, 2911 / Ceri Vap Glcr = FGEHP005, Arj Vap Glcr = 69Q08 / Q51 ,Q61 ,Q71 ,YNCNM,IRFG ,ZBOY1,5101 ,7101 ,401 ,Q42 ,Q19 ,1660 ,FD51 ,RA42 ,FD42 ,FPNYY,GN51 ,GN71 ,GN42 ,GN151",
+        "K:22000 ARJ EQ",
+        "VASB:0N/vc Q51 5101 Q42 RA42 YNCNM 1660 401 Q71 FD51 ZBOY1 GN51 GN71BA ZNCYR - ONEA BA SVER / [tnentr sver] Fgehpgher Sver. / Vap# 41 gur Sver Vap GLCR Punatrq ol PC006, 2911 / Ceri Vap Glcr = FGEHP005, Arj Vap Glcr = 69Q08 / Q51 ,Q61 ,Q71 ,YNCNM,IRFG ,ZBOY1,5101 ,7101 ,401 ,Q42 ,Q19 ,1660 ,FD51 ,RA42 ,FD42 ,FPNYY,GN51 ,GN71 ,GN42 ,GN151",
         "GVZR:08:18:00",
         "HAVG:006");
 
@@ -6789,7 +6790,8 @@ choyvp pynff VAFgWbfrcuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:01/07/2015",
         "NQQE:64910 XRAVYJBEGU EQ",
         "PVGL:YNXRIVYYR",
-        "VASB:ARJ EQ Z ABFROYRRQ / Q51 ,ZBOY1",
+        "K:20000 ARJ EQ",
+        "VASB:Z ABFROYRRQ / Q51 ,ZBOY1",
         "GVZR:02:38:00",
         "HAVG:014");
 

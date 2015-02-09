@@ -11,7 +11,10 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
   public ORDeschutesCountyParser() {
     super("DESCHUTES COUNTY", "OR",
           "CALL PRI UNITSRC ADDR! MAP TIME");
-    setupMultiWordStreets("CATTLE DRIVE");
+    setupMultiWordStreets(
+        "CATTLE DRIVE",
+        "OLD BEND REDMOND"
+    );
   }
   
   @Override

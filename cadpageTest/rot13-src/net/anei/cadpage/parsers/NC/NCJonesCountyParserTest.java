@@ -9673,7 +9673,8 @@ choyvp pynff APWbarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FVPX CREFBA (FCRPVSVP QVNTABFVF)",
         "HAVG:CKRZF1,GERZF1",
         "QNGR:08/02/2014",
-        "GVZR:16:21:57");
+        "GVZR:16:21:57",
+        "VASB:PBYQ FJRNGF, SRRYVAT FVPX");
 
     qbGrfg("G92",
         "Pbzzhavpngvba:1523 PUVADHNCVA PUNCRY EQ GERAGBA XRAARQL YA UJL 58 A R-FVPX 26 - FVPX CREFBA (FCRPVSVP QVNTABFVF) Yvar16= Yvar17= Yvar18=",
