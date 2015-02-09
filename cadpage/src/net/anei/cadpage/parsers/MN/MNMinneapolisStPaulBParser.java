@@ -4,7 +4,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- Minneapolis/St. Paul B, MN
+ Minneapolis/St Paul, MN (B)
  **/
 public class MNMinneapolisStPaulBParser extends DispatchProQAParser {  
   public MNMinneapolisStPaulBParser() {

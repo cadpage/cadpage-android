@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /**
- * Kosciusko County, IN
+ * Douglas County, IN
  */
 public class INDouglasCountyParser extends DispatchOSSIParser {
   
