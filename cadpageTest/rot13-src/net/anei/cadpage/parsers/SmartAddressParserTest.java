@@ -58,6 +58,9 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
     
+    qbGrfg(NQQE, "ARJ FG ORLBAQ NFU",
+        "NQQE:ARJ FG");
+    
     qbGrfg(CYNPR, "FRIVRE PBHAGL 911 BSSVPR / PRAGENY QVFC 245 OEHPR FG XRAFOHET",
         "CYNPR:FRIVRE PBHAGL 911 BSSVPR / PRAGENY QVFC",
         "NQQE:245 OEHPR FG",

@@ -1659,7 +1659,6 @@ public abstract class SmartAddressParser extends MsgParser {
     int sAddr, ndx;
     if (startAddress >= 0) {
       sAddr = ndx = startAddress;
-      while (isType(ndx, ID_OPT_ROAD_PFX)) ndx++;
       ndx = findRoadEnd(ndx, 0);
       if (ndx < 0) return false;
     }
@@ -2431,7 +2430,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // original start position and some will used the prefix adjusted start
     // position
     int origStart = start;
-    if (isType(start, ID_OPT_ROAD_PFX)) start++;
+    while (isType(start, ID_OPT_ROAD_PFX)) start++;
     
     // If we are out of tokens, the answer is no
     if (origStart >= tokens.length) return -1; 

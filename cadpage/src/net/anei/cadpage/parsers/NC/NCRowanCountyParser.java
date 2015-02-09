@@ -12,7 +12,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   
   public NCRowanCountyParser() {
     super(CITY_CODES, "ROWAN COUNTY", "NC",
-           "FYI? CALL ADDR! ( OPTPLACE INFO+ | X/Z+? CITY XPLACE+? MAP? CH? UNIT )");
+           "FYI? CALL ADDR! ( OPTPLACE INFO+ | X/Z+? CITY XPLACE+? MAP_CH_UNIT MAP_CH_UNIT+? ) INFO+");
   }
   
   @Override
@@ -33,22 +33,33 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
       if (!ok) return false;
       data.defCity = "";
     }
+    
+    if (data.strCity.equals("OUT OF COUNTY")) {
+      data.defCity = "";
+    }
+
     return data.strAddress.length() > 0;
+  }
+  
+  @Override
+  public String adjustMapCity(String city) {
+    if (city.equals("OUT OF COUNTY")) return "";
+    return city;
   }
   
   @Override
   protected Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("OPTPLACE")) return new OptionalPlaceField();
+    if (name.equals("OPTPLACE")) return new MyOptionalPlaceField();
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("XPLACE")) return new MyCrossPlaceField();
-    if (name.equals("MAP")) return new MapField("\\d{4}", true);
-    if (name.equals("CH")) return new ChannelField("OPS.*", true);
+    if (name.equals("MAP_CH_UNIT")) return new MyMapChannelUnitField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
-  private static final Pattern BAD_CALL_PTN = Pattern.compile("[^ ]/[^ ]");
+  private static final Pattern BAD_CALL_PTN = Pattern.compile("[^ ]/[^ ]+/[^ ]");
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
@@ -56,22 +67,29 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
       super.parse(field, data);
     }
   }
-  
+
+  private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*)(?: - |~)(.*)");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf(" - ");
-      if (pt >= 0) {
-        data.strCity = field.substring(pt+3).trim();
-        field  = field.substring(0,pt).trim();
+      Matcher match = ADDR_CITY_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        data.strCity = match.group(2).trim();
+        if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
       }
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " CITY";
     }
   }
   
   // Special place field that only triggers if there is no city field
   // further downstream.  This indicates an out of county mutual aid call
-  private class OptionalPlaceField extends PlaceField {
+  private class MyOptionalPlaceField extends MyPlaceField {
     
     @Override
     public boolean canFail() {
@@ -81,15 +99,17 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
     @Override
     public boolean checkParse(String field, Data data) {
       
-      // Only valid if we detect a downstream city field (length <= 4)
+      // Only valid if there is no downstream city field
       for (int ndx = 0; ; ndx++) {
         String fld = getRelativeField(ndx);
         if (fld.length() == 0) break;
-        if (fld.length() <= 4) return false;
+        if (fld.length() <= 4) {
+          if (CITY_CODES.getProperty(fld) != null) return false;
+        }
       }
       
       // But sometimes the first 4 characters are a city code
-      if (data.strCity.length() == 0 && field.length() >= 8 && field.substring(4,8).equals("DIST")) {
+      if (data.strCity.length() == 0 && field.length() >= 4) {
         String city = CITY_CODES.getProperty(field.substring(0,4));
         if (city != null) {
           data.strCity = city;
@@ -104,7 +124,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
       
     @Override
     public String getFieldNames() {
-      return "CITY PLACE";
+      return "CITY " + super.getFieldNames();
     }
   }
   
@@ -132,19 +152,8 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   }
   
   private static final Pattern CODE_DESC_PTN = Pattern.compile("(\\d{1,2}[A-Z]\\d{1,2}) +(.*)");
-  private class MyCrossPlaceField extends Field {
-    
-    @Override 
-    public boolean canFail() {
-      return true;
-    }
-
-    @Override
-    public boolean checkParse(String field, Data data) {
-      if (field.length() <= 5) return false;
-      parse(field, data);
-      return true;
-    }
+  private static final Pattern APT_PTN = Pattern.compile("(?:APT|ROOM|LOT) *(.*)");
+  private class MyCrossPlaceField extends MyPlaceField {
     
     @Override
     public void parse(String field, Data data) {
@@ -155,22 +164,155 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
       if (match.matches()) {
         data.strCode = match.group(1);
         data.strSupp = match.group(2);
+        return;
+      }
+      
+      // See if is an apt/lot number
+      match = APT_PTN.matcher(field);
+      if (match.matches()) {
+        data.strApt = append(data.strApt, "-", match.group(1));
+        return;
       }
       
       // See if this looks like a set of cross streets
-      else if (isValidAddress(field)) {
+      if (field.endsWith("CREEK") || field.endsWith("XING") || isValidAddress(field)) {
         data.strCross = append(data.strCross, " / ", field);
+        return;
       } 
       
       // Otherwise it is a place field
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE INFO " + super.getFieldNames() + " X";
+    }
+  }
+  
+  private static final Pattern MAP_PTN = Pattern.compile("\\d{3,4}");
+  private static final Pattern CHANNEL_PTN = Pattern.compile("OPS.*");
+  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]+\\d+[A-Z]?|\\d+[A-Z]+\\d|[A-z0-9]+,[A-Z0-9,]+|DCC");
+  private class MyMapChannelUnitField extends Field {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (data.strMap.length() == 0) {
+        Matcher match = MAP_PTN.matcher(field);
+        if (match.matches()) {
+          data.strMap = field;
+          return true;
+        }
+      }
+      
+      if (data.strChannel.length() == 0) {
+        Matcher match = CHANNEL_PTN.matcher(field);
+        if (match.matches()) {
+          data.strChannel = field;
+          return true;
+        }
+      }
+      
+      if (data.strUnit.length() == 0) {
+        Matcher match = UNIT_PTN.matcher(field);
+        if (match.matches()) {
+          data.strUnit = field;
+          return true;
+        }
+      }
+      
+      if (field.startsWith("**")) {
+        data.strSupp = field;
+        return true;
+      }
+      
+      return false;
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "MAP CH UNIT INFO";
+    }
+  }
+  
+  /**
+   * Handles the common place field processinging common to both the MyOptionalPlaceField and
+   * MyCrossPlaceField classes
+   */
+  private static final Pattern PLACE_PTN = Pattern.compile("(.*)\\(S\\)(.*)\\(N\\)(.*)");
+  private abstract class MyPlaceField extends PlaceField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = PLACE_PTN.matcher(field);
+      if (match.matches()) {
+        for (int ii = 1; ii<=3; ii++) {
+          processPart(match.group(ii).trim(), data);
+        }
+      }
+      
       else {
-        data.strPlace = append(data.strPlace, " - ", field);
+        processPart(field, data);
+      }
+    }
+
+    private void processPart(String part, Data data) {
+      if (part.length() == 0) return;
+      
+      boolean apt = false;
+      
+      Matcher match = APT_PTN.matcher(part);
+      if (match.matches()) {
+        apt = true;
+        part = match.group(1);
+      }
+      
+      else if (part.length() <= 4 && NUMERIC.matcher(part).matches()) {
+        apt = true;
+      }
+      
+      if (apt) {
+        if (!part.equals(data.strApt)) data.strApt = append(data.strApt, "-", part);
+      }
+      
+      else if (data.strPlace.length() == 0) {
+        data.strPlace = part;
+      }
+      
+      else if (!part.equals(data.strPlace)) {
+        if (part.length() > 5 || part.contains(" ") || part.equals("MM")) {
+          data.strPlace = append(data.strPlace, " - ", part);
+        } else {
+          data.strApt = append(data.strApt, "-", part);
+        }
       }
     }
     
     @Override
     public String getFieldNames() {
-      return "CODE INFO PLACE X";
+      return "PLACE APT";
+    }
+  }
+  
+  private static final Pattern INFO_CHANNEL_PTN = Pattern.compile("Radio Channel: *(.*)");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = INFO_CHANNEL_PTN.matcher(field);
+      if (match.matches()) {
+        data.strChannel = match.group(1);
+        return;
+      }
+      super.parse(field, data);
     }
   }
   
@@ -183,6 +325,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
       "FATH", "FAITH",
       "GOLD", "GOLD HILL",
       "GRQY", "GRANITE QUARRY",
+      "KAN",  "KANNAPOLIS",
       "KANN", "KANNAPOLIS",
       "LAND", "LANDIS",
       "MOCK", "MOCKSVILLE",
@@ -192,6 +335,12 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
       "ROCK", "ROCKWELL",
       "SALS", "SALISBURY",
       "SPEN", "SPENCER",
-      "WOOD", "WOODLEAF"
+      "WOOD", "WOODLEAF",
+      
+      // Cabarrus County, NC
+      "CON",  "CONCORD",
+      
+      // Out of County
+      "OOC",  "OUT OF COUNTY"
   }); 
 }

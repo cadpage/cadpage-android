@@ -1,3 +1,7 @@
+Version 13.0 02/08/2015
+
+Fixed problem not recognizing NEW ST as a standalone street name
+
 Version 12.0 02/01/2015
 
 Major rewrite of the logic handling @ (or AT) splits.
