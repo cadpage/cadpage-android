@@ -12,9 +12,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class SDPenningtonCountyParser extends FieldProgramParser {
   
+  private static final Pattern VALID_ADDRESS_PTN = Pattern.compile("[+-]?\\d+\\..*|\\d+ .*|MM .*|EXIT .*|.*&.*", Pattern.CASE_INSENSITIVE);
+  
+  private boolean nextIntersect;
+  
   public SDPenningtonCountyParser() {
     super(CITY_LIST, "PENNINGTON COUNTY", "SD",
-          "SRC UNIT CALL ADDR! X? INFO+? DATETIME END");
+          "SRC UNIT CALL ADDR! INFODATETIME+");
     setupCallList(CALL_LIST);
   }
 
@@ -24,13 +28,43 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    nextIntersect = false;
     String[] flds = body.split("\\|");
-    if (flds.length >= 4) return parseFields(body.split("\\|"), 4, data);
-    if (subject.equalsIgnoreCase("Dispatch")) return parseFireCall(body, data);
-    if (subject.equalsIgnoreCase("MEDICAL")) return parseMedicalCall(body, data);
-    if (body.startsWith(":")) return parseFields(body.substring(1).split("- "), data);
-    return false;
+    if (flds.length >= 4) {
+      if (!parseFields(body.split("\\|"), 4, data)) return false;
+    }
+    else if (subject.equalsIgnoreCase("Dispatch")) {
+      if (!parseFireCall(body, data)) return false;
+    }
+    else if (subject.equalsIgnoreCase("MEDICAL")) {
+      if (!parseMedicalCall(body, data)) return false;
+    }
+    else if (body.startsWith(":")) {
+      if (!parseFields(body.substring(1).split("- "), data)) return false;
+    }
+    else return false;
+    
+    // They do things strangely
+    // If address looks like a place name, and we have a valid looking intersection in the
+    // cross street field, swap things around
+    if (data.strCross.contains("/") && !VALID_ADDRESS_PTN.matcher(data.strAddress).matches()) {
+      data.strPlace = data.strAddress;
+      data.strAddress = "";
+      parseAddress(data.strCross, data);
+      data.strCross = "";
+    }
+    return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("ADDR", "PLACE ADDR");
   }
 
   // *************************************************************************
@@ -41,9 +75,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new CrossField("Nearest Inter - *(.*)", true);
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d\\d \\d\\d:\\d\\d", true);
+    if (name.equals("INFODATETIME")) return new MyInfoDateTimeField();
     return super.getField(name);
   }
   
@@ -55,7 +87,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*?) *, *([A-Z ]+?) *, SD(?: +\\d{5})?");
+  private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*?) *, *([A-Z ]+?) *, +SD(?: +\\d{5})?");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -74,22 +106,56 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern INFO_DATE_TIME_PTN = Pattern.compile("\\d\\d/\\d\\d/\\d\\d \\d\\d:\\d\\d:\\d\\d - *(.*)");
-  private static final String TRUNC_DATE_TIME_MARK = "NN/NN/NN NN:NN:NN -";
-  private class MyInfoField extends InfoField {
+  private static final Pattern INFO_INTERSECT_PTN= Pattern.compile("Nearest Inter +- *(.*)");
+  private static final Pattern INFO_AND_PTN = Pattern.compile("\\bAND\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern INFO_DATE_TIME_PTN = Pattern.compile("(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d(?::\\d\\d)?)(?: +- *(.*))?");
+  private static final String TRUNC_DATE_TIME_MARK = "NN/NN/NN NN:NN:NN";
+  private class MyInfoDateTimeField extends InfoField {
     @Override
     public void parse(String field, Data data) {
+      
+      Matcher match = INFO_INTERSECT_PTN.matcher(field);
+      if (match.matches()) {
+        nextIntersect = true;
+        field = match.group(1);
+      }
+      
+      else if (field.equals("Nearest Inter") || field.equals("Nearest  Inter")) {
+        nextIntersect = true;
+        return;
+      }
+      
+      if (nextIntersect) {
+        nextIntersect = false;
+        field = INFO_AND_PTN.matcher(field).replaceAll("/");
+        field  = stripFieldStart(field, "/");
+        field = stripFieldEnd(field, "/");
+        data.strCross = append(data.strCross, " / ", field);
+        return;
+      }
+      
+      // What makes this complicated is that sometimes fields are split by | and contain " - "  markers
+      // and sometimes they are split by " - " markers.  We have to cover both cases
+      String connect = "\n";
       for (String part : field.split(";")) {
         part = part.trim();
         if (part.length() == 0) continue;
         if (part.equalsIgnoreCase("None")) continue;
-        Matcher match = INFO_DATE_TIME_PTN.matcher(part);
+        match = INFO_DATE_TIME_PTN.matcher(part);
         if (match.matches()) {
-          data.strSupp = append(data.strSupp, "\n", match.group(1));
+          data.strDate = match.group(1);
+          data.strTime = match.group(2);
+          data.strSupp = append(data.strSupp, "\n", getOptGroup(match.group(3)));
         }
         else if (TRUNC_DATE_TIME_MARK.startsWith(part.replaceAll("\\d", "N"))) continue;
-        else data.strSupp = append(data.strSupp, "; ", part);
+        else data.strSupp = append(data.strSupp, connect, part);
+        connect = "; ";
       }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "INFO X DATE TIME";
     }
   }
 
@@ -224,8 +290,11 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "CARDIAC-E",
       "CHEST",
       "CHEST-D",
+      "CHOKE",
       "CIV",
       "DIABETIC",
+      "DIABETIC-C",
+      "ELEVATOR",
       "EMS",
       "EXPOSURE-A",
       "FALARM DELTA",
@@ -235,6 +304,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "FALL-B",
       "FALL-D",
       "FALL-D2",
+      "FIGHT",
       "FIRE",
       "FUEL",
       "GRASSF",
@@ -244,13 +314,17 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "LGFIRE",
       "MP",
       "MUTUAL",
+      "PG-C",
+      "POISON",
       "SEIZURE",
       "SEIZURE-C",
+      "SEIZURE-D2",
       "SICK PERSON DELTA LEVEL",
       "SICK",
       "SICK-C",
       "SICK-D",
       "SMFIRE",
+      "SMFIRE-B1B",
       "SMOKE",
       "SRV",
       "STBY",
@@ -258,6 +332,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "STROKE-C3",
       "STROKE-C4",
       "STRUCF",
+      "STRUCF-D4",
       "STRUCF-D9",
       "SUIC",
       "TRANSFER",
@@ -268,6 +343,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "TX3",
       "UNCON CHILD",
       "UNCON",
+      "UNCON-C",
       "UNCON-D",
       "UNK",
       "VEHF",
