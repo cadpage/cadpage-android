@@ -117,7 +117,7 @@ choyvp pynff APZvgpuryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1959 UNYYGBJA EQ",
         "PNYY:NYNEZF",
         "QNGR:05/27/2014",
-        "GVZR:15:09:20",
+        "GVZR:15:09:12",
         "VASB:SVER NYNEZ");
 
     qbGrfg("G9",
@@ -192,7 +192,7 @@ choyvp pynff APZvgpuryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NAABHAPRZRAG",
         "QNGR:05/19/2014",
         "GVZR:15:31:53",
-        "VASB:Cnexjnl S`E jvyy or ubfgvat GE jvyqrearff ortvaavat Fng Znl 24Gu naq 25gu pynffrf ortva ng 08:00 ng cnexjnl fgngvba 2 05/19/2014 05");
+        "VASB:Cnexjnl S`E jvyy or ubfgvat GE jvyqrearff ortvaavat Fng Znl 24Gu naq 25gu pynffrf ortva ng 08:00 ng cnexjnl fgngvba 2");
 
     qbGrfg("G17",
         "Zvgpuryy911:* 13681 226 FBHGU* * * * * SNYY* * * * * * * * 05/22/2014 20:49:39 : cbf1 : MCRGREFBA6274 80 FBZR LBS SEBZ FGNAQ CBFVGVBA AB FREVBHF OYRRQVAT. ORRA QVFBERVARAGRQ. OVT CHZ C ABG BA URE URNQ. NG GRZCYR. UNCCRA WHFG ABJ. 17-O-1*",
@@ -208,7 +208,7 @@ choyvp pynff APZvgpuryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NAABHAPRZRAG",
         "QNGR:05/19/2014",
         "GVZR:15:31:53",
-        "VASB:Cnexjnl S`E jvyy or ubfgvat GE jvyqrearff ortvaavat Fng Znl 24Gu naq 25gu pynffrf ortva ng 08:00 ng cnexjnl fgngvba 2 05/19/2014 05:48:");
+        "VASB:Cnexjnl S`E jvyy or ubfgvat GE jvyqrearff ortvaavat Fng Znl 24Gu naq 25gu pynffrf ortva ng 08:00 ng cnexjnl fgngvba 2");
 
     qbGrfg("G19",
         "Zvgpuryy911:* 247 JBBQF EQ* * * * * SNYY* * * * * * * * 05/21/2014 12:17:54 : cbf1 : OLBHAT9346 24 le snyy sebz fgnaqvat cbff 17-o-1*",
@@ -250,8 +250,8 @@ choyvp pynff APZvgpuryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Zvgpuryy911:* PBHAGL JVQR* * * * * NAABHAPRZRAG* * * * * * * * 05/18/2014 21:25:26 : cbf1 : WFGNZRL3340 612 ERDHRFGVAT ZNZN BA FGNAQOL 05/17/2014 11:50:12 : cbf1 : olbhat9346 Cnexjnl S`E jvyy or ubfgvat GE jvyqrearff ortvaavat Fng Znl 24Gu",
         "NQQE:PBHAGL JVQR",
         "PNYY:NAABHAPRZRAG",
-        "QNGR:05/18/2014",
-        "GVZR:21:25:26",
+        "QNGR:05/17/2014",
+        "GVZR:11:50:12",
         "VASB:612 ERDHRFGVAT ZNZN BA FGNAQOL\aCnexjnl S`E jvyy or ubfgvat GE jvyqrearff ortvaavat Fng Znl 24Gu");
 
   }

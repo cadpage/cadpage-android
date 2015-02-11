@@ -218,7 +218,9 @@ choyvp pynff FPFhzgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:FUNECLF CBBY & YVOREGL FG",
         "PVGL:Fhzgre",
         "HAVG:N19,N55",
-        "VASB:Zrqvpny: Ab / Unmneqf: Ab / 06/07/2014 23:04:08 : cbf6 :",
+        "QNGR:06/07/2014",
+        "GVZR:23:04:08",
+        "VASB:Zrqvpny: Ab / Unmneqf: Ab",
         "PNYY:Fhfcvpvbhf Crefba");
 
     qbGrfg("G16",

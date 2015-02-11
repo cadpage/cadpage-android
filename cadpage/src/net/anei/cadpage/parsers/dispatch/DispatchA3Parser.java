@@ -1,9 +1,13 @@
 package net.anei.cadpage.parsers.dispatch;
 
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -282,9 +286,30 @@ public class DispatchA3Parser extends FieldProgramParser {
     }
   }
   
+  /**
+   * Find first INFO related keyword in line
+   * @param line line to be searched
+   * @return position of first INFO related keyword.  If none found
+   * returns line length.
+   */
+  protected int findInfoBreak(String line) {
+    Matcher match = DATE_TIME_PTN.matcher(line);
+    if (match.find()) return match.start();
+    match = EXTRA_DELIM.matcher(line);
+    while (match.find()) {
+      if (match.group().trim().length() > 0) return match.start();
+      
+    }
+    match = TRUNC_DATE_TIME_PTN.matcher(line);
+    if (match.find()) return match.start();
+    return line.length();
+  }
+  
   private static final Pattern LINE_PTN = Pattern.compile("Line\\d+=");
-  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\[?\\b(\\d?\\d/\\d?\\d/\\d{4}) (\\d?\\d:\\d?\\d:\\d?\\d(?: [AP]M)?) : \\w+ : \\w+\\b\\]?");
-  private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\[?\\b(\\d?\\d/\\d?\\d/\\d{4}) (\\d?\\d:\\d?\\d:\\d\\d(?: [AP]M)?)(?: : pos\\d+ : \\w+\\b\\]?|$| :$| : po?s?\\d*$| : pos\\d+ :$)");
+  private static final Pattern TRUNC_DATE_TIME_PTN = Pattern.compile(" (?:0?[1-9]|1[0-2])/[\\d /:]*(?: [AP])?$|  (?:0?[1-9]|1[0-2])$");
+  private static final DateFormat DATE_TIME_FMT1 = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+  private static final DateFormat DATE_TIME_FMT2 = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa");
   private static final Pattern EXTRA_DELIM = Pattern.compile("(?:(?:\\*\\* )?EMD (?:Case Entry Finished|Case Complete|Recommended Dispatch|Key Questions Finished)(?: \\*\\*)?)|\\bResponse Text:|\\bKey Questions:|Narrative ?:|\\bALI\\b|\\b(?=Cross Streets:|Landmark:|Geo Comment:|Landmark Comment:|NBH:|[XY] Coordinate:|Uncertainty Factor:|Confidence Factor:|\\**Nearest Address:)|Place Comment:|  +|\n| \\.\\. |\bALI\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern SKIP_PTN = Pattern.compile("UPDATED? +\\d\\d?(?:[-/]\\d\\d?){1,2}\\b.*|Uncertainty Factor:.*|Confidence Factor:.*");
   protected class BaseInfoField extends InfoField {
@@ -301,28 +326,50 @@ public class DispatchA3Parser extends FieldProgramParser {
       Matcher match = LINE_PTN.matcher(field);
       if (match.find()) field = field.substring(match.end()).trim();
       
-      match = DATE_TIME_PTN.matcher(field);
-      if (match.find()) {
-        if (data.strTime.length() == 0) {
-          data.strDate = match.group(1);
-          String time = match.group(2);
-          if (time.endsWith("M")) {
-            setTime(TIME_FMT, time, data);
-          } else {
-            data.strTime = time;
-          }
-        }
-      }
-      else if (!EXTRA_DELIM.matcher(field).find()) {
-        if (SKIP_PTN.matcher(field).matches()) return;
-        super.parse(field, data);
-        return;
+      // If we have a time set going into this, do not mess with it
+      boolean lockTime = data.strDate.length() == 0 && data.strTime.length() > 0;
+      Date time = null;
+      if (data.strDate.length() > 0 && data.strTime.length() > 0) {
+        try {
+          time = DATE_TIME_FMT1.parse(data.strDate + ' ' + data.strTime);
+        } catch (ParseException ex) {
+          ex.printStackTrace();
+        } 
       }
      
-      for (String fld1 : DATE_TIME_PTN.split(field)) {
-        infoInfoField.setBreak();
+      int lastPos = 0;
+      List<String> parts = new ArrayList<String>();
+      match = DATE_TIME_PTN.matcher(field);
+      while (match.find()) {
+        if (!lockTime) {
+          String timeStr = match.group(1) + ' ' + match.group(2);
+          DateFormat dfmt = timeStr.endsWith("M") ? DATE_TIME_FMT2 : DATE_TIME_FMT1;
+          Date ttime;
+          try {
+            ttime = dfmt.parse(timeStr);
+          } catch (ParseException ex) {
+            throw new RuntimeException(ex);
+          }
+          if (time == null || ttime.before(time)) {
+            time = ttime;
+            timeStr = DATE_TIME_FMT1.format(time);
+            data.strDate = timeStr.substring(0,10);
+            data.strTime = timeStr.substring(11);
+          }
+        }
+        parts.add(field.substring(lastPos, match.start()));
+        lastPos = match.end();
+      }
+      String last = field.substring(lastPos);
+      match = TRUNC_DATE_TIME_PTN.matcher(last);
+      if (match.find()) last = last.substring(0,match.start()).trim();
+      if (last.length() > 0) parts.add(last);
+      
+      for (String fld1 : parts) {
         String gps = null;
-        for (String fld2 : EXTRA_DELIM.split(fld1)) { 
+        String[] parts2 = EXTRA_DELIM.split(fld1);
+        if (parts.size() > 1 || parts2.length > 1) infoInfoField.setBreak();
+        for (String fld2 : parts2) { 
           fld2 = fld2.trim();
           if (fld2.length() == 0) continue;
           

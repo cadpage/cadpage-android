@@ -220,7 +220,7 @@ choyvp pynff PGJngresbeqGbjaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:GJVA UNIRAF RYQREYL UBHFVAT",
         "HAVG:PB1,PB4,PB5,J11,J51,J55",
         "QNGR:02/22/2013",
-        "GVZR:09:34:00",
+        "GVZR:09:31:09",
         "VASB:j55 erfc. erdhrfgvat pb 4\afzbxr qrgrpgbe npgvingvba");
 
     qbGrfg("G6",
@@ -251,7 +251,7 @@ choyvp pynff PGJngresbeqGbjaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CUBAR:860-501-1674",
         "HAVG:PB4,J100",
         "QNGR:02/26/2013",
-        "GVZR:23:45:56",
+        "GVZR:23:43:59",
         "VASB:rzf znfgrefba gb fprar\aPnyyf 2013-008106,2013-008108 ner eryngrq.");
 
   }

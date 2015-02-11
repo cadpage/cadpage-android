@@ -6,14 +6,10 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.dispatch.DispatchA3AParser;
 
 
-public class NCNashCountyParser extends SmartAddressParser {
-  
-  private static final Pattern DATE_TIME_PTN = Pattern.compile(" (\\d\\d?/\\d\\d?/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) : pos\\d+ : [A-Z0-9]+\\b",Pattern.CASE_INSENSITIVE); 
-  private static final Pattern DATE_TIME_PTN2 = Pattern.compile(" (\\d\\d?/\\d\\d?/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)\\b");
-  private static final Pattern DATE_TIME_PTN3 = Pattern.compile(" \\d\\d?/[\\d /:]*(?:p|po|pos\\d*)?(?: :)?$|  \\d{1,2}$");
+public class NCNashCountyParser extends DispatchA3AParser {
   
   private static final Pattern CHANNEL_PTN = Pattern.compile("TAC.*", Pattern.CASE_INSENSITIVE);
   private static final Pattern UNIT_PTN = Pattern.compile("(?!FIRES)(?:\\b(?:\\d*[A-Z]*\\d+[A-Z]?|\\d+-\\d+|[A-Z]*EMS|[A-Z]*FIRE|[A-Z]*RES|[A-Z]*CEM|DOT|(?:BRUSH|EMS|PPO|Nash Car|UNIT|RESCUE|ENG|SQD) ?\\d+)\\b,?)+");
@@ -21,7 +17,7 @@ public class NCNashCountyParser extends SmartAddressParser {
   
   public NCNashCountyParser() {
     super(CITY_LIST, "NASH COUNTY", "NC");
-    setFieldList("ADDR APT CH CITY X PLACE CODE CALL NAME UNIT DATE TIME INFO");
+    setFieldList("ADDR APT CH CITY X PLACE CODE CALL NAME UNIT " + getFieldList());
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
     setupMultiWordStreets(
         "ADOLPHUS T BOONE",
@@ -117,7 +113,7 @@ public class NCNashCountyParser extends SmartAddressParser {
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMain(String body, Data data) {
   
     body = stripFieldStart(body, "/ ");
     body = body.replace("\n", "  ");
@@ -125,29 +121,6 @@ public class NCNashCountyParser extends SmartAddressParser {
     body = body.substring(8);
     boolean mBlankFmt = body.startsWith("  ");
     body = body.trim();
-    
-    Matcher match = DATE_TIME_PTN.matcher(body);
-    if (match.find()) {
-      data.strDate = match.group(1);
-      data.strTime = match.group(2);
-      String info = body.substring(match.end()).trim();
-      body = body.substring(0,match.start());
-      match = DATE_TIME_PTN3.matcher(info);
-      if (match.find()) info = info.substring(0,match.start()).trim();
-      for (String tmp : DATE_TIME_PTN.split(info)) {
-        data.strSupp = append(data.strSupp, "\n", tmp.trim());
-      }
-    } 
-    
-    else if ((match = DATE_TIME_PTN2.matcher(body)).find()) {
-      data.strDate = match.group(1);
-      data.strTime = match.group(2);
-      body = body.substring(0,match.start());
-    } 
-    
-    else if ((match = DATE_TIME_PTN3.matcher(body)).find()) {
-      body = body.substring(0,match.start());
-    } 
     
     // If we are lucky, we can count on the fields being separated by multiple blanks
     if (mBlankFmt) {
@@ -216,7 +189,7 @@ public class NCNashCountyParser extends SmartAddressParser {
       // Check for a Landmark Comment: info field
       if (spt < ept) {
         lastFld = flds[ept-1];
-        match = COMMENT_LABEL_PTN.matcher(lastFld);
+        Matcher match = COMMENT_LABEL_PTN.matcher(lastFld);
         if (match.matches()) {
           String info = match.group(1);
           if (info == null) {
@@ -255,7 +228,7 @@ public class NCNashCountyParser extends SmartAddressParser {
       // the call description.  We could put in a long description table to do 
       // this, but since the single blank format is no longer used, we will not
       // bother, instead just leave the call description in the info field.
-      match = COMMENT_LABEL_PTN.matcher(left);
+      Matcher match = COMMENT_LABEL_PTN.matcher(left);
       if (match.find()) {
         data.strSupp = append(match.group(1), "\n", data.strSupp);
         left = left.substring(0,match.start()).trim();
