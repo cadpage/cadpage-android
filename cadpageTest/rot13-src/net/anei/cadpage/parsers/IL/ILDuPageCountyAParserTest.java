@@ -2742,7 +2742,7 @@ choyvp pynff VYQhCntrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:12A512 OREARE QE",
         "HAVG:N011",
         "PNYY:FVPX CREFBA",
-        "PVGL:RA");
+        "PVGL:RYTVA");
 
     qbGrfg("G52",
         "*!* OE *!*  FVPX CREFBA           @  12A512 OREARE QE                 [Qvfgevpg:  N011]",
