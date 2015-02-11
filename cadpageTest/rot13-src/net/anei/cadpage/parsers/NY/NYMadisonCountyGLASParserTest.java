@@ -65,6 +65,7 @@ Fraqre: TPZ
 {Terngre Yrabk}Serr Sbezng Nqqerff: 446 R PNANY PNANFGBGN IVYYNTR # R YRYNAQ T JEVTUG NI/PNANY EQ ; 446 \a\a  Glcr: Genhzngvp Vawhevrf \a\a=20
 {Terngre Yrabk}Nqqerff: 3102 VATNYYF PBEAREF EQ YVAPBYA DHNEEL EQ/ARYFBA EQ ; 3102=20\a  Glcr: Noqbzvany Cnva=20\a=20
 {Terngre Yrabk}\aCflpuvngvp/Fhvpvqr\a\a519 F ZNVA PNANFGBGN IVYYNTR ENFONPU/ZBHAG CYRNFNAG EQ,FRARPN GEACX,FRARPN GEACX
+{Terngre Yrabk}\aNoqbzvany Cnva\a\a100 SENAPRF # A EBOREGF/OEHAB EQ=20\a
 
 */
 
@@ -427,7 +428,13 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:519 F ZNVA",
         "PVGL:PNANFGBGN",
         "K:ENFONPU/ZBHAG CYRNFNAG EQ,FRARPN GEACX,FRARPN GEACX");
- 
+
+    qbGrfg("G8",
+        "{Terngre Yrabk}\aNoqbzvany Cnva\a\a100 SENAPRF # A EBOREGF/OEHAB EQ=20\a",
+        "PNYY:Noqbzvany Cnva",
+        "NQQE:100 SENAPRF",
+        "K:A EBOREGF/OEHAB EQ");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

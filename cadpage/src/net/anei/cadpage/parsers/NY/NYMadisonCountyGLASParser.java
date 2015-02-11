@@ -52,10 +52,16 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
        data.strCity = p.get(')');
      }
     } else if (sPart2.length() == 0 && sPart3.length() == 0) {
-      parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, sPart1, data);
-      String left = getLeft();
-      if (data.strCity.length() > 0) left = stripFieldStart(left, "VILLAGE ");
-      data.strCross = left;
+      int pt = sPart1.indexOf('#');
+      if (pt >= 0) {
+        parseAddress(sPart1.substring(0,pt).trim(), data);
+        data.strCross = sPart1.substring(pt+1).trim();
+      } else {
+        parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, sPart1, data);
+        String left = getLeft();
+        if (data.strCity.length() > 0) left = stripFieldStart(left, "VILLAGE ");
+        data.strCross = left;
+      }
     } else {
       parseAddress(sPart1.replace("\\", "&"), data);
       data.strCity = sPart2;
