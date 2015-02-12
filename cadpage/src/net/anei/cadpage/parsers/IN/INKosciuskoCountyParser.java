@@ -89,6 +89,7 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
       "KIM",  "KIMMELL",
       "LAR",  "LARWILL",
       "LEES", "LEESBURG",
+      "MEN",  "MENTONE",
       "MENT", "MENTONE",
       "MILF", "MILFORD",
       "NAPP", "NAPPANEE",
@@ -103,6 +104,7 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
       "SWHT", "SOUTH WHITLEY",
       "SYR",  "SYRACUSE",
       "TIPP", "TIPPECANOE",
+      "WA",   "WARSAW",
       "WAR",  "WARSAW",
       "WL",   "WINONA LAKE"
       
