@@ -87,7 +87,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*?) *, *([A-Z ]+?) *, +SD(?: +\\d{5})?");
+  private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*?) *, *([A-Za-z ]+?) *, +SD(?: +\\d{5})?");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -246,9 +246,9 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
   }
 
   private void fixCity(Data data) {
-    if (data.strCity.equals("PENNCO")) data.strCity = "";
-    else if (data.strCity.equals("JACKCO")) data.strCity = "JACKSON COUNTY";
-    else if (data.strCity.equals("MEADCO")) data.strCity = "MEADE COUNTY";
+    if (data.strCity.equalsIgnoreCase("PENNCO")) data.strCity = "";
+    else if (data.strCity.equalsIgnoreCase("JACKCO")) data.strCity = "JACKSON COUNTY";
+    else if (data.strCity.equalsIgnoreCase("MEADCO")) data.strCity = "MEADE COUNTY";
   }
   
 
