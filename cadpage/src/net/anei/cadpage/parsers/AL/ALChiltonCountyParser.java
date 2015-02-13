@@ -14,7 +14,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernPlusParser;
 
 public class ALChiltonCountyParser extends DispatchSouthernPlusParser {
   
-  private static final Pattern GENERAL_ALERT_PTN = Pattern.compile("Unit ([ A-Za-z0-9]+) Status Note: .* - (\\d+) -.*");
+  private static final Pattern GENERAL_ALERT_PTN = Pattern.compile("CFS: *(\\d+);Unit: *(.*?);Status: *(.*?);Note: *(.*)");
   private static final Pattern ADDR_EXIT_PTN = Pattern.compile("(\\d+ +EXIT) +(.*)");
 
   public ALChiltonCountyParser() {
@@ -41,9 +41,9 @@ public class ALChiltonCountyParser extends DispatchSouthernPlusParser {
     Matcher match = GENERAL_ALERT_PTN.matcher(body);
     if (match.matches()) {
       data.strCall = "GENERAL ALERT";
-      data.strUnit = match.group(1).trim();
-      data.strCallId = match.group(2);
-      data.strPlace = body;
+      data.strCallId = match.group(1);
+      data.strUnit = match.group(2);
+      data.strSupp = append(match.group(3), " - ", match.group(4));
       return true;
     }
     
