@@ -5,7 +5,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 public class GAWhitfieldCountyBParser extends DispatchA48Parser {
   
   public GAWhitfieldCountyBParser() {
-    super(CITY_LIST, "WHITFIELD COUNTY", "GA", FieldType.NONE);
+    super(CITY_LIST, "WHITFIELD COUNTY", "GA", FieldType.X);
     setupCallList(CALL_LIST);
     setupMultiWordStreets(
         "CROSS PLAINS",
@@ -20,6 +20,7 @@ public class GAWhitfieldCountyBParser extends DispatchA48Parser {
   
   private static final String[] CALL_LIST = new String[]{
     "BREATHING PROBLEMS",
+    "ELECTRICAL & APPLIANCE FIRES",
     "FIRE ALARM",
     "M.V. ACCIDENT W/INJURIES",
     "M.V. ACCIDENT W/PEDESTRIAN",

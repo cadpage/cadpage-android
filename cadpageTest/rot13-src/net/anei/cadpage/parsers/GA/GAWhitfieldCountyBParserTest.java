@@ -21,6 +21,7 @@ Fraqre: CntrTngr@juvgsvryqpbhagltn.pbz
 Pbagnpg: Puevf Nhyg <pnhyg3@tznvy.pbz>
 Fraqre: CntrTngr@juvgsvryqpbhagltn.pbz
 (Nf bs 2/12/15 19) :Nf bs 2/12/15 19:49:46\a2015-00018130\aS15 - SVER NYNEZ\a816 Jnyahg Fdhner OYIQ, QNYGBA\aQNYGBA
+(Nf bs 2/13/15 16) 35:25\a2015-00018536\aS40 - RYRPGEVPNY & NCCYVNAPR SVERF\a304 Ina Ohera QE, QNYGBA\aQNYGBA\aZbbayvtug QE\aEvqtrperfg QE
 
 */
 
@@ -113,6 +114,24 @@ choyvp pynff TNJuvgsvryqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER NYNEZ",
         "NQQE:816 Jnyahg Fdhner OYIQ",
         "PVGL:QNYGBA");
+
+    qbGrfg("G1",
+        "(Nf bs 2/13/15 16) 35:25\a" +
+        "2015-00018536\a" +
+        "S40 - RYRPGEVPNY & NCCYVNAPR SVERF\a" +
+        "304 Ina Ohera QE, QNYGBA\a" +
+        "QNYGBA\a" +
+        "Zbbayvtug QE\a" +
+        "Evqtrperfg QE",
+
+        "QNGR:2/13/15",
+        "GVZR:16:35:25",
+        "VQ:2015-00018536",
+        "PBQR:S40",
+        "PNYY:RYRPGEVPNY & NCCYVNAPR SVERF",
+        "NQQE:304 Ina Ohera QE",
+        "PVGL:QNYGBA",
+        "K:Zbbayvtug QE & Evqtrperfg QE");
    
   }
   

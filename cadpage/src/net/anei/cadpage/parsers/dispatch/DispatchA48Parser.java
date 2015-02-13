@@ -27,7 +27,7 @@ public class DispatchA48Parser extends FieldProgramParser {
       }
     }, 
     
-    X("X", "X") {
+    X("X+", "X") {
       @Override
       public void parse(DispatchA48Parser parser, String field, Data data) {
         parser.parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, field, data);
