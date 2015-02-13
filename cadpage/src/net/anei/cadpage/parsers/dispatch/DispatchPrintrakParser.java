@@ -72,8 +72,9 @@ public class DispatchPrintrakParser extends FieldProgramParser {
     int version = (flags & FLG_VERSION_MASK);
     String program = 
         (version == FLG_VERSION_1 ?
-            "( AD:ADDR! LOC:CITY TIME:TIME TYP:CALL! | " +
-              "SRC PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE CN:NAME CMT1:" + cmt1Fld +  
+            "( TIME:TIME_INFO! TYP:CALL " +
+            "| AD:ADDR! LOC:CITY TIME:TIME_INFO! TYP:CALL " +
+            "| PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE CN:NAME CMT1:" + cmt1Fld +  
               " Original_Location:PLACE2? CMT2:INFO Original_Location:PLACE2? CE:INFO? CMT2:INFO CALLER_STATEMENT:INFO? STATEMENT:INFO? TIME:TIME UNTS:UNIT XST:X XST2:X UNTS:UNIT XST:X XST2:X )"
         : version == FLG_VERSION_2 ?
             "TYP:CALL! LOC:PLACE! AD:ADDR/S! XST:X! CMT1:INFO! UNTS:UNIT!"
@@ -81,14 +82,40 @@ public class DispatchPrintrakParser extends FieldProgramParser {
     return setExpectFlag(program, expTerm);
   }
 
-  private static final Pattern BREAK_PTN = Pattern.compile(" *\n *");
+  private static final Pattern BREAK_PTN = Pattern.compile(" *[\n\t]+ *");
+  private static final Pattern SRC_PTN = Pattern.compile("([^:]+?) +([A-Z0-9]+:.*)");
   @Override
   protected boolean parseMsg(String body, Data data) {
     body = BREAK_PTN.matcher(body).replaceAll(" ");
+    Matcher match = SRC_PTN.matcher(body);
+    if (match.matches()) {
+      data.strSource = match.group(1);
+      body = match.group(2);
+    }
     body = body.replace(" CMTS:", " CMT1:").replace("AD:", " AD:");
     body = body.replace(" CALLER / STATEMENT:", " CALLER STATEMENT:");
     body = body.replace(" CALLER CMT2:", " CMT2:");
     return super.parseMsg(body.trim(), data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new BaseAddressField();
+    if (name.equals("APT")) return new BaseAptField();
+    if (name.equals("PLACE")) return new BasePlaceField();
+    if (name.equals("TIME")) return new BaseTimeField();
+    if (name.equals("TIME_INFO")) return new BaseTimeInfoField();
+    if (name.equals("CALL2")) return new BaseCall2Field();
+    if (name.equals("PLACE2")) return new BasePlace2Field();
+    if (name.equals("INFO")) return new BaseInfoField();
+    if (name.equals("UNIT")) return new BaseUnitField();
+    if (name.equals("X")) return new BaseCrossField();
+    return super.getField(name);
   }
   
   private static final Pattern APT_PTN = Pattern.compile("\\b(?:APT|RM|UNIT) +([-A-Z0-9]+)$", Pattern.CASE_INSENSITIVE);
@@ -148,6 +175,23 @@ public class DispatchPrintrakParser extends FieldProgramParser {
     }
   }
   
+  private class BaseTimeInfoField extends TimeField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(' ');
+      if (pt >= 0) {
+        data.strSupp = append(data.strSupp, " / ", field.substring(pt+1).trim());
+        field = field.substring(0,pt).trim();
+      }
+      super.parse(field, data);
+    }
+    
+    @Override 
+    public String getFieldNames() {
+      return "TIME INFO";
+    }
+  }
+  
   private class BaseCall2Field extends CallField {
     @Override
     public void parse(String field, Data data) {
@@ -202,19 +246,5 @@ public class DispatchPrintrakParser extends FieldProgramParser {
       if (field.startsWith("UNKNOWN /")) field = field.substring(9).trim();
       super.parse(field, data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new BaseAddressField();
-    if (name.equals("APT")) return new BaseAptField();
-    if (name.equals("PLACE")) return new BasePlaceField();
-    if (name.equals("TIME")) return new BaseTimeField();
-    if (name.equals("CALL2")) return new BaseCall2Field();
-    if (name.equals("PLACE2")) return new BasePlace2Field();
-    if (name.equals("INFO")) return new BaseInfoField();
-    if (name.equals("UNIT")) return new BaseUnitField();
-    if (name.equals("X")) return new BaseCrossField();
-    return super.getField(name);
   }
 }

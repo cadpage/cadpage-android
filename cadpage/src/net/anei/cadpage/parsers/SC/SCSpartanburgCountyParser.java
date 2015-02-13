@@ -20,22 +20,22 @@ public class SCSpartanburgCountyParser extends DispatchPrintrakParser {
     return "911info@spartanburgcounty.org";
   }
   
-  // Our source field ha a station source and a call ID
-  private class MySourceField extends SourceField {
-    
-    @Override
-    public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      data.strSource = p.get("-");
-      data.strCallId = p.get();
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "SRC ID";
-    }
+  private static final Pattern SRC_PTN = Pattern.compile("([A-Z0-9]+) *- ");
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    Matcher match = SRC_PTN.matcher(body);
+    if (match.lookingAt()) body = match.group(1) + " INC:" + body.substring(match.end());
+    return super.parseMsg(body, data);
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+
   // Call fields have silly ... brackets
   private static final Pattern CALL_PTN = Pattern.compile("\\.*(.*?)\\.*");
   private class MyCallField extends CallField {
@@ -57,13 +57,5 @@ public class SCSpartanburgCountyParser extends DispatchPrintrakParser {
       if (match.matches()) field = match.group(1);
       super.parse(field, data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("SRC")) return new MySourceField();
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
 }
