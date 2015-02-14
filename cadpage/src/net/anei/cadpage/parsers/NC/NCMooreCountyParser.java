@@ -1,10 +1,10 @@
 package net.anei.cadpage.parsers.NC;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
+import net.anei.cadpage.parsers.dispatch.DispatchSouthernPlusParser;
 
 
-public class NCMooreCountyParser extends DispatchSouthernParser {
+public class NCMooreCountyParser extends DispatchSouthernPlusParser {
   
   public NCMooreCountyParser() {
     super(CITY_LIST, "MOORE COUNTY", "NC", DSFLAG_NO_NAME_PHONE | DSFLAG_ID_OPTIONAL | DSFLAG_UNIT | DSFLAG_NO_IMPLIED_APT);
@@ -16,9 +16,9 @@ public class NCMooreCountyParser extends DispatchSouthernParser {
   }
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     body = body.replace('@', '&');
-    return super.parseMsg(body, data);
+    return super.parseMsg(subject, body, data);
   }
   
   private static final String[] CITY_LIST = new String[]{
