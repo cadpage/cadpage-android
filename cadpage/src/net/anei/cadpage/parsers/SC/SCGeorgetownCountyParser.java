@@ -136,7 +136,6 @@ public class SCGeorgetownCountyParser extends DispatchA52Parser {
       "GVEH",   "Vehicle Fire ",
       "GVEHC",  "Commercial Vehicle Fire ",
       "GVOMIT", "Vomiting",
-      "GWEAKN", "Weakness/Dizziness",
-
+      "GWEAKN", "Weakness/Dizziness"
   });
 }
