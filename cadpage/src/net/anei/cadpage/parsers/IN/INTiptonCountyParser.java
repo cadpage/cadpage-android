@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.IN;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 public class INTiptonCountyParser extends DispatchOSSIParser {
@@ -12,6 +13,14 @@ public class INTiptonCountyParser extends DispatchOSSIParser {
   @Override
   public String getFilter() {
     return "CAD@tipco.com";
+  }
+  
+  @Override
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (subject.equals("CAD TEXT") && !body.startsWith("CAD:")) {
+      body = "CAD:" + body;
+    }
+    return super.parseMsg(body, data);
   }
   
   @Override
