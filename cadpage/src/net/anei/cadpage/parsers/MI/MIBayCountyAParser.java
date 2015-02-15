@@ -62,7 +62,7 @@ public class MIBayCountyAParser extends SmartAddressParser {
       
       pt = cityInfo.indexOf("  ");
       if (pt >= 0) {
-        data.strCity = cityInfo.substring(0,pt).trim();
+        data.strCity = cityInfo.substring(0,pt).trim().replace(".", "");
         data.strSupp = cityInfo.substring(pt+2).trim();
       } else {
         parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, cityInfo, data);
@@ -123,7 +123,7 @@ public class MIBayCountyAParser extends SmartAddressParser {
     "KAWKAWLIN TWP",
     "MERRITT TWP",
     "MONITOR TWP",
-    "MT. FOREST TWP",
+    "MT FOREST TWP",
     "PINCONNING TWP",
     "PORTSMOUTH TWP",
     "WILLIAMS TWP"
@@ -131,15 +131,19 @@ public class MIBayCountyAParser extends SmartAddressParser {
   
   private static final CodeSet CALL_SET = new CodeSet(
       "CITIZEN",
+      "CO SICK O",
       "CO ONLY",
       "COMFIRE",
       "FIRE ALARM",
+      "GAS IN",
       "MED",
       "PIA",
+      "POLE",
       "SMOKE",
       "STRUCTURE",
       "SUICIDE",
       "TEST",
+      "VEH FIRE",
       "WIRE"
   );
 }
