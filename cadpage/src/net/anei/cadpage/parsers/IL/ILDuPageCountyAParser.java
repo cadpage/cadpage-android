@@ -4,11 +4,10 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-
-public class ILDuPageCountyAParser extends MsgParser {
+public class ILDuPageCountyAParser extends FieldProgramParser {
   
   private static final Pattern ZERO_ADDR_PTN1 = Pattern.compile("^0[NSEW]\\d+ ");
   private static final Pattern ZERO_ADDR_PTN2 = Pattern.compile("[NSEW]\\d+");
@@ -16,7 +15,8 @@ public class ILDuPageCountyAParser extends MsgParser {
   private static final Pattern MASTER2 = Pattern.compile("\\*!\\* BR \\*!\\* (.*?) @ (.*?)\\[District: *([A-Z0-9]*)\\]");
   
   public ILDuPageCountyAParser() {
-    super("DUPAGE COUNTY", "IL");
+    super(CITY_CODES, "DUPAGE COUNTY", "IL",
+          "CALL:CALL! PLACE:PLACE! ADDR:ADDR! CITY:CITY! ID:ID! PRI:PRI! DATE:SKIP! TIME:SRC! MAP:MAP! UNIT:UNIT! INFO:INFO! INFO/N+");
   }
   
   @Override
@@ -26,6 +26,9 @@ public class ILDuPageCountyAParser extends MsgParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    if (body.startsWith("CALL:")) return parseFields(body.split("\n"), 9, data);
+    
     if (body.startsWith("INC01 1.0 EV-XXX 0       ")) {
       setFieldList("ID ADDR SRC UNIT CALL PLACE X CITY");
       data.strCallId = substring(body, 25, 40);
