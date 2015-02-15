@@ -328,6 +328,7 @@ class Active911Vendor extends Vendor {
       "US/MD/ADSiCAD",                    "MDAnneArundelCountyADSiCADParser",
       "US/MD/BaltimoreCountyCmsg",        "MDBaltimoreCountyB",
       "US/MD/CalvertCounty",              "MDCalvertCounty",
+      "US/MD/CarrollCounty",              "PAAdamsCountyA",
       "US/MD/CecilCounty",                "Cadpage2",
       "US/MD/CharlesCounty",              "MDCharlesCountyA",
       "US/MD/ChiefAlert",                 "MDCarolineCounty",
