@@ -17,8 +17,12 @@ public class INTiptonCountyParser extends DispatchOSSIParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (subject.equals("CAD TEXT") && !body.startsWith("CAD:")) {
-      body = "CAD:" + body;
+    if (!body.startsWith("CAD:")) {
+      if (subject.equals("CAD TEXT")) {
+        body = "CAD:" + body;
+      } else if (subject.contains(";") && !subject.contains(":")) {
+        body = "CAD:" + subject + ':' + body;
+      }
     }
     return super.parseMsg(body, data);
   }
