@@ -37,13 +37,29 @@ public class WAWhitmanCountyParser extends DispatchA11Parser {
       data.strPlace = match.group(4).trim();
       return true;
     }
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    String state = CITY_ST_TABLE.getProperty(data.strCity);
+    if (state != null) data.strState = state;
+    return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("CITY", "CITY ST");
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
      "ANA", "ANATONE",
      "CLA", "CLARKSTON",
+     "CLT", "COLTON",
+     "GEN", "GENESSEE",
      "LEW", "LEWISTON",
-     "PUL", "PULMAN"
+     "PUL", "PULMAN",
+     "UNI", "UNIONTOWN"
+  });
+  
+  private static final Properties CITY_ST_TABLE = buildCodeTable(new String[]{
+    "GENESEE",    "ID",
+    "LEWISTON",   "ID"
   });
 }
