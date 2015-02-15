@@ -1018,6 +1018,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "PORT TARANAKI",
     
     // From active911
+    "ARKLES BAY",
     "MANGAKAKAHI",
     "TIKITERE"
     
