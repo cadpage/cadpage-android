@@ -545,6 +545,7 @@ Ntrapl anzr: Fg. Puneyrf Pbhagl Qvfcngpu naq Nynez
 Ybpngvba: jragmivyyr, ZB, Havgrq Fgngrf
 Fraqre: <qvfcngpu@fppqn.bet>
 
+VQ:091914-36126        17N3 Pvgvmra Nffvfg Ab Va3777 Qrkgre Qe                                    /RYZ CBVAG EQ            NCG:     K FG:QRRESVRYQ QE/FNYRZ QE         ZNC:RR 14-34  PUY:     Fg Puneyrf Pvgl               Havgf:9432,94 FPPSQ\e\a
 VQ:091914-36118        Sver - Erfvqragvny       1846 Unpxznaa Ubyybj Qe                           JVYYBJF BA CRVAR RFGF/CRVNCG:     K FG:FPUEBRQRE TEBIR QE/JBBQFBA GENZNC:TTT 12-27 PUY:04   Jragmivyyr                    Havgf:9801,9800,9809,9814,9806,Z06,9834,9842,9224,98 SCQ4,Z9608,8914
 VQ:091914-36128        29O1 ZIN Vawhevrf        Obbarf Yvpx Eq & F Svsgu Fg                                                NCG:     K FG:                              ZNC:PP 18-49  PUY:     Fg Puneyrf Pvgl               Havgf:9420
 VQ:091914-36126        17N3 Pvgvmra Nffvfg Ab Va3777 Qrkgre Qe                                    /RYZ CBVAG EQ            NCG:     K FG:QRRESVRYQ QE/FNYRZ QE         ZNC:RR 14-34  PUY:     Fg Puneyrf Pvgl               Havgf:9432,94 FPPSQ
@@ -6164,6 +6165,17 @@ choyvp pynff ZBFgPuneyrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgFgPuneyrfPbhaglQvfcngpuNaqNynez() {
+
+    qbGrfg("G0",
+        "VQ:091914-36126        17N3 Pvgvmra Nffvfg Ab Va3777 Qrkgre Qe                                    /RYZ CBVAG EQ            NCG:     K FG:QRRESVRYQ QE/FNYRZ QE         ZNC:RR 14-34  PUY:     Fg Puneyrf Pvgl               Havgf:9432,94 FPPSQ\e\a",
+        "VQ:091914-36126",
+        "PNYY:17N3 Pvgvmra Nffvfg Ab Va",
+        "NQQE:3777 Qrkgre Qe",
+        "CYNPR:/RYZ CBVAG EQ",
+        "K:QRRESVRYQ QE/FNYRZ QE",
+        "ZNC:RR 14-34",
+        "FEP:Fg Puneyrf Pvgl",
+        "HAVG:9432,94 FPPSQ");
 
     qbGrfg("G1",
         "VQ:091914-36118        Sver - Erfvqragvny       1846 Unpxznaa Ubyybj Qe                           JVYYBJF BA CRVAR RFGF/CRVNCG:     K FG:FPUEBRQRE TEBIR QE/JBBQFBA GENZNC:TTT 12-27 PUY:04   Jragmivyyr                    Havgf:9801,9800,9809,9814,9806,Z06,9834,9842,9224,98 SCQ4,Z9608,8914",
