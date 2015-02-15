@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02102015</string>
-  <string name="release_version">v1.8.13</string>
+  <string name="release_date">02142015</string>
+  <string name="release_version">v1.8.14</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.14\n
+Location Fixes:\n
+Chilton County, AL\n
+Broward County, FL\n
+Whitfield County, GA\n
+DuPage County, IL\n
+Kane County, IL\n
+Knox County, IN\n
+Tipton County, IN\n
+Kosciusko County, IN\n
+Madison County, NY\n
+Moore County, NC\n
+Nash County, NC\n
+Georgetown County, SC\n
+Pennington County, SD\n
+\n      
 v1.8.13\n
 New Locations:\n
 Douglas County, IN\n
@@ -67,17 +83,6 @@ v1.8.09\n
 Location Fixes:\n
 Prince Georges County, MD\n
 Morris County, NJ\n
-\n
-v1.8.08\n
-Location Fixes:\n
-Gooding County, ID\n
-Jerome County, ID\n
-Lincoln County, ID\n
-Twin Falls County, ID\n
-Ray County, MO\n
-Johnston County, NC\n
-Sampson County, NC\n
-Franklin County, PA\n
   </string>
 </resources>
   

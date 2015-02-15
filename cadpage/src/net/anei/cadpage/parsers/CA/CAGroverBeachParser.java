@@ -34,7 +34,16 @@ public class CAGroverBeachParser extends DispatchA22Parser {
     Matcher match = MARKER.matcher(body);
     if (!match.lookingAt()) return false;
     body = body.substring(match.end()).trim();
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    int pt = data.strAddress.lastIndexOf(',');
+    if (pt >= 0) {
+      String city = CITY_CODES.getProperty(data.strAddress.substring(pt+1).trim());
+      if (city != null) {
+        data.strCity = city;
+        data.strAddress = data.strAddress.substring(0,pt).trim();
+      }
+    }
+    return true;
   }
 
   private static Properties CITY_CODES = buildCodeTable(new String[]{

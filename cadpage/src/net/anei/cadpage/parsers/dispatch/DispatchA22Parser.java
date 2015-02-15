@@ -23,7 +23,7 @@ abstract public class DispatchA22Parser extends FieldProgramParser {
   
   public DispatchA22Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState,
-           "DATETIME! UNITS:UNIT? ( EVENT_#:IDSRC! | SRC ) CALL! PRIORITY:PRI? ( LOCATION:ADDRCITY! CITY:CITY APT:APT PREMISE:PLACE? COMMENT:INFO | ADDR CITY! APT:APT ) INFO+");
+           "DATETIME! UNITS:UNIT? ( EVENT_#:IDSRC! | SRC ) CALL! PRIORITY:PRI? ( LOCATION:ADDR! CITY:CITY APT:APT PREMISE:PLACE? COMMENT:INFO | ADDR CITY! APT:APT ) INFO+");
   }
   
   @Override
@@ -48,7 +48,6 @@ abstract public class DispatchA22Parser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("IDSRC")) return new MyIdSourceField();
-    if (name.equals("CITY")) return new MyCityField();
     return super.getField(name);
   }
   
@@ -67,14 +66,6 @@ abstract public class DispatchA22Parser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "ID SRC";
-    }
-  }
-  
-  private class MyCityField extends CityField {
-    @Override
-    public void parse(String field, Data data) {
-      if (field.length() == 0) return;
-      super.parse(field, data);
     }
   }
 }
