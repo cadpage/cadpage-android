@@ -186,8 +186,11 @@ public class DispatchB2Parser extends DispatchBParser {
     field = cleanWirelessCarrier(field, true);
     match = NAME_PTN.matcher(field);
     if (match.find()) {
-      data.strName = match.group(1);
-      field = field.substring(0,match.start());
+      String name = match.group(1);
+      if (!notName(name)) {
+        data.strName = match.group(1);
+        field = field.substring(0,match.start());
+      }
     }
     if (crossFollows) flags |= FLAG_CROSS_FOLLOWS;
     flags |= getExtraParseAddressFlags();
@@ -255,5 +258,14 @@ public class DispatchB2Parser extends DispatchBParser {
    */
   protected Pattern getCallPattern() {
     return null;
+  }
+
+  /**
+   * Method that can be called to indicate that something that looks like a name really is not a name value
+   * @param name field we have tentatively identified as a name value
+   * @return true if this should not be considered a name, false otherwise
+   */
+  protected boolean notName(String name) {
+    return false;
   }
 }
