@@ -293,6 +293,7 @@ Ntrapl anzr: Fjrrg Ubzr Sver Qvfgevpg
 Ybpngvba: Fjrrg Ubzr, BE, Havgrq Fgngrf
 Fraqre: <yvaa911@yvaafurevss.bet>
 
+(VPBZ/400 abgvsvpngvba) HAX CEBO (zna qbja)/1400 9GU NI VAGREFRPGA/ANAQVAN FG/60602221/
 (VPBZ/400 abgvsvpngvba) QVNORGVP CEBO/4836 UJL 20/59662221/
 (VPBZ/400 abgvsvpngvba) PBAIHY/FRVMHERF/1995 TENCR FG/61622221/
 (VPBZ/400 abgvsvpngvba) NOQBZ CNVA/CEBO/1283 44GU NI HAVG T4/JNTBA JURRY ZBOVYR CNEX/60652221/
@@ -2595,6 +2596,15 @@ choyvp pynff BEYvaaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgFjrrgUbzrSverQvfgevpg() {
+
+    qbGrfg("G0",
+        "(VPBZ/400 abgvsvpngvba) HAX CEBO (zna qbja)/1400 9GU NI VAGREFRPGA/ANAQVAN FG/60602221/",
+        "PNYY:HAX CEBO (zna qbja)",
+        "NQQE:1400 9GU NI",
+        "ZNQQE:1400 9GU NIR",
+        "K:ANAQVAN FG",
+        "ZNC:6060",
+        "HAVG:2221");
 
     qbGrfg("G1",
         "(VPBZ/400 abgvsvpngvba) QVNORGVP CEBO/4836 UJL 20/59662221/",

@@ -42,6 +42,10 @@ Pbagnpg: xlyr bfobear <bfobear1777@tznvy.pbz>
 Fraqre: Pvfpb.Cntvat@IvtbPbhagl.VA.Tbi
 (SNYY) Ybp:6502 A QRR FG Tevq:0080 Havgf:E-1 Ezx:81 LRNEF S ;SNYY
 
+Pbagnpg: Ovyy Znegva <zrqvp221@tznvy.pbz>
+Fraqre: Pvfpb.Cntvat@IvtbPbhagl.VA.Tbi
+(OERNGUVAT QVSSVPHYGL) Ybp:704 F 18GU FG Tevq:0716 Havgf:RP-2 Z-8 Ezx:78 Lrnef S ;oernguvat qvssvphygl
+
 ***/
 
 choyvp pynff VAIvtbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -218,6 +222,19 @@ choyvp pynff VAIvtbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:0080",
         "HAVG:E-1",
         "VASB:81 LRNEF S ;SNYY");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOvyyZnegva() {
+
+    qbGrfg("G1",
+        "(OERNGUVAT QVSSVPHYGL) Ybp:704 F 18GU FG Tevq:0716 Havgf:RP-2 Z-8 Ezx:78 Lrnef S ;oernguvat qvssvphygl",
+        "PNYY:OERNGUVAT QVSSVPHYGL",
+        "NQQE:704 F 18GU FG",
+        "ZNC:0716",
+        "HAVG:RP-2 Z-8",
+        "VASB:78 Lrnef S ;oernguvat qvssvphygl");
 
   }
   
