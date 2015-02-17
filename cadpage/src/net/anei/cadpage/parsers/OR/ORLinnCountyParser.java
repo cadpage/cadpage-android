@@ -217,7 +217,16 @@ public class ORLinnCountyParser extends FieldProgramParser {
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
+      if (data.strPriority.length() == 0 && field.startsWith("cadresponse:")) {
+        data.strPriority = field.substring(12).trim();
+        return;
+      }
       data.strSupp = append(data.strSupp, "/", field);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PRI INFO";
     }
   }
   
@@ -239,6 +248,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
       "ALLRGY/HIVES/MED REACT/STING",
       "ANIMAL BITES/ATTACKS",
       "APARTMENT FIRE",
+      "ASSIST OUTSIDE AGENCY - FIRE",
       "ASSLT/RAPE",
       "BACK PAIN",
       "BREATH PROB",
@@ -257,6 +267,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
       "FALLS/BACK INJURIES",
       "GRASS FIRE",
       "HAZMAT INCIDENT",
+      "HEADACHE",
       "HEART PROB",
       "HEMORRHAGE/LACERATIONS",
       "HOUSE FIRE",
@@ -264,20 +275,24 @@ public class ORLinnCountyParser extends FieldProgramParser {
       "MEDICAL TRANSFER",
       "MOVE UP (MUTUAL AID)",
       "MUTUAL AID TO SCENE",
+      "MVC-INJURY",
       "OB/CHILD BIRTH",                                                                                                                        
       "O D/INGESTION/POISONING",                                                                                                               
       "ODOR INVEST",                                                                                                                           
       "OTH STRCT FIRE",                                                                                                                        
       "POST FIRE INVEST",                                                                                                                      
       "PSYC/SUICIDE ATTEMPT",                                                                                                                  
-      "PUBLIC ASSISTANCE",                                                                                                                     
+      "PUBLIC ASSISTANCE",  
+      "PWR/TELE POLE FIRE",
       "SICK PERSON",                                                                                                                           
       "SMALL FIRE",                                                                                                                            
-      "SMOKE INVEST",                                                                                                                          
+      "SMOKE INVEST",                               
+      "STAB/G S WOUND",
       "STANDBY",                                                                                                                               
       "STROKE/CVA",                                                                                                                            
       "TRAF COLLISION",                                                                                                                        
-      "TRAUMA INJ",                                                                                                                            
+      "TRAUMA INJ",
+      "TREE FIRE",
       "TRUCK FIRE",                                                                                                                            
       "UNCONC/FAINTING",                                                                                                                       
       "UNK PROB (man down)",   
