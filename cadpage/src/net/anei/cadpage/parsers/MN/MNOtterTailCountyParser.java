@@ -14,7 +14,7 @@ public class MNOtterTailCountyParser extends DispatchA27Parser {
   
   @Override
   public String getFilter() {
-    return "noreply@co.ottertail.mn.us";
+    return "noreply@co.ottertail.mn.us,noreply@cisusa.org";
   }
 
   private static final String[] CITY_LIST = new String[]{
