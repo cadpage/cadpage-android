@@ -295,11 +295,6 @@ public class DispatchA3Parser extends FieldProgramParser {
   protected int findInfoBreak(String line) {
     Matcher match = DATE_TIME_PTN.matcher(line);
     if (match.find()) return match.start();
-    match = EXTRA_DELIM.matcher(line);
-    while (match.find()) {
-      if (match.group().trim().length() > 0) return match.start();
-      
-    }
     match = TRUNC_DATE_TIME_PTN.matcher(line);
     if (match.find()) return match.start();
     return line.length();

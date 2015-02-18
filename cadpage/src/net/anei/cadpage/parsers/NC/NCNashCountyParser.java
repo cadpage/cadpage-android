@@ -1,6 +1,9 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Properties;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -12,12 +15,14 @@ import net.anei.cadpage.parsers.dispatch.DispatchA3AParser;
 public class NCNashCountyParser extends DispatchA3AParser {
   
   private static final Pattern CHANNEL_PTN = Pattern.compile("TAC.*", Pattern.CASE_INSENSITIVE);
-  private static final Pattern UNIT_PTN = Pattern.compile("(?!FIRES)(?:\\b(?:\\d*[A-Z]*\\d+[A-Z]?|\\d+-\\d+|[A-Z]*EMS|[A-Z]*FIRE|[A-Z]*RES|[A-Z]*CEM|DOT|(?:BRUSH|EMS|PPO|Nash Car|UNIT|RESCUE|ENG|SQD) ?\\d+)\\b,?)+");
-  private static final Pattern COMMENT_LABEL_PTN = Pattern.compile("(?:Landmark|Place) Comment: *(.*)|NBH: *(.*)");
+  private static final Pattern HAZARD_PTN = Pattern.compile("Hazards: .*");
+  private static final Pattern UNIT_PTN = Pattern.compile("(?!FIRES)(?:\\b(?:\\d*[A-Z]*\\d+[A-Z]?|\\d+-\\d+|[A-Z]*EMS|[A-Z]*FIR?E|[A-Z]*FD|[A-Z]*RES|[A-Z]*CEM|[A-Z]CSO|DOT|TOISN|(?:BRUSH|EMS|PPO|Nash Car|UNIT|RESCUE|ENG|SQD) ?\\d+)\\b,?)+");
+  private static final Pattern PHONE_PTN = Pattern.compile("\\d{3}-\\d{3}-\\d{4}");
+  private static final Pattern COMMENT_LABEL_PTN = Pattern.compile("(?:Geo|Landmark|Place) Comment: *(.*)|NBH: *(.*)");
   
   public NCNashCountyParser() {
     super(CITY_LIST, "NASH COUNTY", "NC");
-    setFieldList("ADDR APT CH CITY X PLACE CODE CALL NAME UNIT " + getFieldList());
+    setFieldList("ADDR APT CH CITY X PLACE CODE CALL NAME UNIT PHONE INFO " + getFieldList());
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
     setupMultiWordStreets(
         "ADOLPHUS T BOONE",
@@ -153,56 +158,72 @@ public class NCNashCountyParser extends DispatchA3AParser {
       }
       
       // Now lets start working from the end.
+      // First check for a special info field
+      String lastFld = flds[--ept];
+      if (HAZARD_PTN.matcher(lastFld).matches()) {
+        data.strSupp = lastFld;
+        if (spt > ept) return false;
+        lastFld = flds[--ept];
+      }
+      
       // Check for (possibly multiple) unit fields 
       // at end.
-      String lastFld;
       while (true) {
-        lastFld = flds[--ept];
         if (spt > ept) return false;
         if (!UNIT_PTN.matcher(lastFld).matches()) break;
         data.strUnit = append(lastFld.replace(' ', '_'), ",", data.strUnit);
+        lastFld = flds[--ept];
       }
       
-      // That is preceded either
-      // a) a call code followed by an optional name, or
-      // b) a long call description
-      
-      // Check for call code in last field
-      // or next to last field.  If found in next to last field
-      // last field is name
-      int codePt = ept;
-      String call = CODE_TABLE.getMatch(lastFld);
-      if (call == null &&  spt < ept) call = CODE_TABLE.getMatch(flds[--codePt]);
-      if (call != null) {
-        data.strCode = flds[codePt];
-        data.strCall = call;
-        if (codePt < ept) data.strName = cleanWirelessCarrier(lastFld);
-        ept = codePt;
-      }
-    
-      // If we did not find a recognized call code, treat last field as 
-      // long call description
-      else {
-        data.strCall = lastFld;
+      // This may be preceded by a phone number
+      if (PHONE_PTN.matcher(lastFld).matches()) {
+        data.strPhone = lastFld;
+        if (spt > ept) return false;
+        lastFld = flds[--ept];
       }
       
-      // Check for a Landmark Comment: info field
-      if (spt < ept) {
-        lastFld = flds[ept-1];
+      // Or a empty "252-   -    " phone number which will be split across two fields
+      else if (lastFld.equals("-") && flds[ept-1].equals("252-")) {
+        ept--;
+        if (spt > ept) return false;
+        lastFld = flds[--ept];
+      }
+      
+      // Which may be preceded by a name
+      if (!CALL_SET.contains(lastFld)) {
+        if (!lastFld.equals("UNK")) data.strName = cleanWirelessCarrier(lastFld);
+        if (spt > ept) return false;
+        lastFld = flds[--ept];
+      }
+      
+      // Which is preceded by a call description
+      data.strCall = lastFld;
+      if (spt > ept) return false;
+      lastFld = flds[--ept];
+      
+      // Which may be preceded by a call code
+      if (CODE_TABLE.getResult(lastFld, true) != null) {
+        data.strCode = lastFld;
+        if (spt > ept) return false;
+        lastFld = flds[--ept];
+      }
+      
+      // Check for a Geo|Place|Landmark Comment: info field
+      while (true) {
         Matcher match = COMMENT_LABEL_PTN.matcher(lastFld);
-        if (match.matches()) {
-          String info = match.group(1);
-          if (info == null) {
-            data.strPlace = match.group(2);
-          } else {
-            data.strSupp = append(match.group(1), "\n", data.strSupp);
-          }
-          ept--;
+        if (!match.matches()) break;
+        String info = match.group(1);
+        if (info == null) {
+          data.strPlace = match.group(2);
+        } else {
+          data.strSupp = append(info, "\n", data.strSupp);
         }
+        if (spt > ept) return false;
+        lastFld = flds[--ept];
       }
       
       // Anything that hasn't been processed is a cross street
-      for (int ii = spt; ii < ept; ii++) {
+      for (int ii = spt; ii <= ept; ii++) {
         data.strCross = append(data.strCross, " / ", flds[ii]);
       }
     }
@@ -267,6 +288,11 @@ public class NCNashCountyParser extends DispatchA3AParser {
     return true;
   }
   
+  @Override
+  public boolean checkCall(String call) {
+    return CALL_SET.contains(call);
+  }
+
   @Override
   public String adjustGpsLookupAddress(String addr) {
     Matcher match = US64_PTN.matcher(addr);
@@ -394,6 +420,80 @@ public class NCNashCountyParser extends DispatchA3AParser {
 
   );
   
+  private static final Set<String> CALL_SET = new HashSet<String>(Arrays.asList(
+      "ABDOMINAL PAIN",
+      "ABDOMINAL PAINS/PROBLEMS - COLD",
+      "ABDOMINAL PAINS/PROBLEMS - HOT",
+      "ALLERGIES,REACTIONS,ENVENOMATIONS-HOT",
+      "ALL FIRE RELATED ALARMS",
+      "ALL LARGE VEHICLE RELATED FIRES - INCLUDING TRACTOR TRAILERS",
+      "ALL LAW ENFORCEMENT REALTED ALARMS-COLD",
+      "ALL SMALL VEHICLE RELATED FIRES",
+      "ANY OUTSIDE FIRE,GRASS,BRUSH, GRILL, DOG HOUSE, PUMP HOUSE",
+      "BREATHING DIFFICULTY",
+      "BREATHING PROBLEMS-EMERGENCY",
+      "CARDIAC OR RESPIRATORY ARREST-HOT",
+      "CHEST PAIN",
+      "CHEST PAIN NON-TRAUMATIC-EMERGENCY",
+      "CHOKING-EMERGENCY",
+      "CONVALESCENT TRANSFER",
+      "DIABETIC PROBLEMS-EMERGENCY",
+      "DIABETIC PROBLEMS-ROUTINE",
+      "ELECTRICAL HAZZARD OUSIDE/AWAY FROM A STRUCTURE",
+      "ELECTROCUTION/LIGHTNING",
+      "EMERGENCY FIRE DISPATCH",
+      "EMERGENCY MEDICAL DISPATCH",
+      "FALLS-EMERGENCY",
+      "FALLS-LIFTING ASST. ROUTINE - EMS ONLY",
+      "FUEL SPILL",
+      "FIGHTS/PHYSICAL/SEXUAL ASSALT W/ INJUR-HOT (FRSP & EMS ONLY)",
+      "FIRE ALARM",
+      "GAS LEAK",
+      "GAS LEAK/GAS ODOR/ NATURAL OR LP GAS LEAK",
+      "HEADACHE-EMERGENCY",
+      "HEADACHE-ROUTINE",
+      "HEART PROBLEMS",
+      "HEART PROBLEMS/AICD-EMERGENCY",
+      "HEMORRHAGE/LACERATIONS/BLEEDING-EMERGENCY",
+      "LOCK-IN/OUT, WELFARE CHECK, SECURITY CHECKS-COLD -SPECIFY",
+      "LOCK-IN/OUT, WELFARE CHECK, SECURITY CHECKS-HOT -SPECIFY",
+      "MENTAL DISORDER/BEHAVIOR PROBLEMS/SUICIDAL-HOT FRSP&EMS",
+      "MOTOR VEH ACCIDENT PROPERTY DAMAGE ONLY VEH OVERTURNED",
+      "MOTOR VEH ACCIDENT WITH INJURIES NO ONE PINNED -HOT",
+      "MOTOR VEHICLE ACCIDENT WITH INJURIES-COLD",
+      "MOTOR VEHICLE ACCIDENT WITH PROPERTY DAMAGE ONLY",
+      "MOTOR VEHICLE ACC WITH INJURIES-UNK/PIN IN-HOT",
+      "MUTUAL AID ASSIST ANOTHER DEPT - FIRE & EMS ONLY",
+      "MVA PERSON INJURED",
+      "MVA PERSON PINNED",
+      "NON-TRAUMATIC OR NON-RECENT TRAUMA-COLD",
+      "OB/CHILDBIRTH/MISCARR-HOT",
+      "OD/POISONING-EMERGENCY",
+      "OUTSIDE FIRE",
+      "PATIENT TRANSFER ROUTINE/EMERGENCY - SPECIFY IN NARRATIVE",
+      "SCALDS/BURNS ETC.-HOT",
+      "SEIZURES",
+      "SEIZURES/CONVULSIONS-EMERGENCY",
+      "SEIZURES/CONVULSIONS-ROUTINE",
+      "SERV CALL",
+      "SERVICE/CITIZEN ASSISTANCE CALLS/",
+      "SHOOTING,STABBING, OR OTHER PENETRATING TRAUMA-EMERGENCY",
+      "SICK CALL-EMERGENCY",
+      "SICK CALL-ROUTINE",
+      "SMOKE INVESTIGATION OUTSIDE OF A STRUCTURE",
+      "STROKE/CVA-EMERGENCY",
+      "STRUCTURE FIRE",
+      "SUBJECT FALLEN",
+      "TRAFFIC VIOLATION/COMPLAINT/HAZARD/LIVESTOCK/-COLD",
+      "TRAUMATIC INJURIES SPECIFIC/ EMERG",
+      "TRAUMATIC INJURIES SPECIFIC/ ROUTINE",
+      "UNCONSCIOUS/FAINTING-EMERGENCY",
+      "UNKNOWN PROBLEM/PERSON DOWN -HOT (EMS RELATED)",
+      "UNRESPONSIVE PERSON",
+      "WARRANT SERV",
+      "WATER RESCUE"
+  ));
+  
   private static final String[] CITY_LIST = new String[]{
     
       //  Cities
@@ -433,8 +533,12 @@ public class NCNashCountyParser extends DispatchA3AParser {
       // Franklin County
       "LOUISBURG",
       
+      // Halifax county
+      "HOLLISTER",
+      
       // Wilson County
       "ELM CITY",
+      "SIMS",
       "WILSON",
       
       // Counties
