@@ -218,14 +218,12 @@ Fraqre: "Npgvir 911" <abercyl@orgurycq.pbz>
 (SQ RZF PNYY ng 99 Terrajbbq Ni, Orgury, 06801) Abgvsvpngvba sebz Npgvir 911:\a\aSQ RZF PNYY ng 99 Terrajbbq Ni, Orgury, 06801\a\aOrgury RZF - 201500000160\a\aGvzr ercbegrq: 2/13/2015 3:28:07 CZ\aGvzr pbzcyrgrq: 2/13/2015 4:13:42 CZ\a\aHavg(f) erfcbaqrq: \aN2\aPZ erdhrfg nzohynapr sbe 61 l/bz qvmml,qvssvphygl oernguvat. 6R1 403O\a  <<Ybtf>>16:13:43 q419:Vapvqrag Pybfrq
 (SQ RZF PNYY ng 27 Sne Ubevmbaf Qe, Orgury, 06801) Abgvsvpngvba sebz Npgvir 911:\a\aSQ RZF PNYY ng 27 Sne Ubevmbaf Qe, Orgury, 06801\a\aFgbal Uvyy RZF - 201500000106\a\aGvzr ercbegrq: 2/13/2015 3:36:26 CZ\a\a\aHavg(f) erfcbaqrq: \aN3\aPZ erdhrfg nzohynapr sbe 28 l/b/s ibzvgvat .N-26-2-11
 (SQ SVER PNYY ng 20 Juvgr Fg, Qnaohel, ) Abgvsvpngvba sebz Npgvir 911:\a\aSQ SVER PNYY ng 20 Juvgr Fg, Qnaohel, \a\aOrgury Sver Qrcnegzrag - 201500000057\a\aGvzr ercbegrq: 2/13/2015 3:56:56 CZ\a\a\aHavg(f) erfcbaqrq: \aGJE\aQnaohel erdhrfgrq n gbjre sbe n cbffvoyr fgehpgher sver. 419U
-
-QvfcngpuN27Cnefre fhopynff
 */
 
 choyvp pynff PGOrguryCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp PGOrguryCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "ORGURY", "PG");
+    frgCnefre(arj PGOrgunyCnefre(), "ORGURY", "PG");
   }
   
   @Grfg
