@@ -30,7 +30,7 @@ public class NCEdgecombeCountyParser extends SmartAddressParser {
     if (!match.matches()) return false;
     body = match.group(1).trim();
     
-    parseAddress(StartType.START_ADDR, body, data);
+    parseAddress(StartType.START_ADDR, body.replace(" @ ", " / ").replace("//", "/"), data);
     body = getLeft();
     if (body.length() == 0) return false;
     
@@ -92,6 +92,10 @@ public class NCEdgecombeCountyParser extends SmartAddressParser {
     "UPPER TOWN CREEK TWP",
     
     // Pitt County
-    "FOUNTAIN"
+    "FOUNTAIN",
+    "GREENVILLE",
+    
+    // Wilson County
+    "ELM CITY"
   };
 }
