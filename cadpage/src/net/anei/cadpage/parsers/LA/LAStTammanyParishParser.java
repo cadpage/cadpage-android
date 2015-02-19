@@ -54,12 +54,19 @@ public class LAStTammanyParishParser extends FieldProgramParser {
     return true;
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("SRC_X")) return new MySourceCrossField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
+    return super.getField(name);
+  }
+  
   /***
    * MySourceCrossField - Extracts from the field that contains the source the 
    * cross streee and source.  It also checks for an optional GRID field.  Grid is
    * then stored in MAP.
    */
-  private static final Pattern SOURCE_X_PTN = Pattern.compile("(STA [0-9]+) ?(GRID [0-9]+)? XS");
+  private static final Pattern SOURCE_X_PTN = Pattern.compile("(STA [^ ]+) ?(?:GRID (\\d+))? XS");
   private class MySourceCrossField extends SourceField {
     
     @Override
@@ -75,17 +82,10 @@ public class LAStTammanyParishParser extends FieldProgramParser {
     @Override 
     public void parse(String field, Data data) {
       Matcher sourceMatch = SOURCE_X_PTN.matcher(field);
-      if(sourceMatch.find()) {
+      if(sourceMatch.lookingAt()) {
         data.strSource = sourceMatch.group(1).trim();
+        data.strMap = getOptGroup(sourceMatch.group(2));
         data.strCross = field.substring(sourceMatch.end()).trim();
-        
-        // Check to see if GRID field is there
-        if(sourceMatch.groupCount() > 1) {
-          String grid = sourceMatch.group(2);
-          if(grid != null && grid.length() > 0) {
-            data.strMap = grid.substring(4).trim();   // Remove GRID prefix
-          }
-        }
       }
     }
     
@@ -99,12 +99,6 @@ public class LAStTammanyParishParser extends FieldProgramParser {
       return true;
     }
     
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("SRC_X")) return new MySourceCrossField();
-    return super.getField(name);
   }
 
   // Lookup table for Google city designations

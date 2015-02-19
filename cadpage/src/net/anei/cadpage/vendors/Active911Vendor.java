@@ -325,6 +325,7 @@ class Active911Vendor extends Vendor {
       "US/LA/JeffersonParish",            "LAJeffersonParish",
       "US/LA/LafayetteParish",            "LALafayetteParish",
       "US/LA/LafourcheParish",            "LALafourcheParish",
+      "US/LA/StTammanyParish",            "LAStTammanyParish",
       "US/LA/TerrebonneParish",           "LATerrebonneParish",
       "US/LA/WestBatonRougeCouncil",      "LAWestBatonRougeParish",
       "US/MD/ADSiCAD",                    "MDAnneArundelCountyADSiCADParser",
