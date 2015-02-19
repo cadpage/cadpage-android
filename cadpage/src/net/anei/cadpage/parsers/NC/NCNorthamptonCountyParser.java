@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 public class NCNorthamptonCountyParser extends DispatchA3Parser {
   
   public NCNorthamptonCountyParser() {
-    super(1, "Northampton911:* ", "NORTHAMPTON COUNTY", "NC");
+    super(1, "Northampton911:*", "NORTHAMPTON COUNTY", "NC");
   }
   
   @Override
