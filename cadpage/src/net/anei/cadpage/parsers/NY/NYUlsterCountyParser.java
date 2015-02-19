@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -26,7 +27,7 @@ public class NYUlsterCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
 
-    body = body.replace('\n', ' ');
+    body = body.replace("\n", "");
     Matcher match = MARKER.matcher(body);
     if (match.find()) body = body.substring(match.end()).trim();
     if (!super.parseMsg(body, data)) return false;
@@ -74,13 +75,32 @@ public class NYUlsterCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
     if (name.equals("DATE")) return new DateField("\\d\\d/\\d\\d/\\d{4}", true);
     if (name.equals("TIME")) return new MyTimeField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strCall = convertCodes(field, CALL_CODES);
+    }
+  }
+  
+  private static final Properties CALL_CODES = buildCodeTable(new String[]{
+      "Autoalarm",  "Automatic Alarm (Smoke Detector Activation)",
+      "Crit/345",   "Medical",
+      "Elec/Outdr", "Tree on Wires",
+      "Haz Mat",    "Hazardous Materials Call",
+      "Med Alarm",  "Lifeline activation (Medical)",
+      "PDAA",       "Property Damage Auto Accident",
+      "PIAA/040",   "Vehicle Accident w/injuries",
+      "Public Svc", "Public Service Call",
+      "Struct Fir", "Structure Fire",
+      "Unkwn Fire", "Unknown Type of Fire",
+      "Veh Fire",   "Vehicle Fire"
+      
+  });
 }
-
-
-
-

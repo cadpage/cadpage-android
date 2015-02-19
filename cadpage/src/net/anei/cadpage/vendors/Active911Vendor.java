@@ -529,6 +529,7 @@ class Active911Vendor extends Vendor {
       "US/NY/SCFRESpaging",               "NYSuffolkCountyA",
       "US/NY/SCFRESprinting",             "N/A",
       "US/NY/StLawrenceCounty",           "NYStLawrenceCounty",
+      "US/NY/UlsterCounty",               "NYUlsterCounty",
       "US/NY/WayneCounty",                "NYWayneCountyB",
       "US/NY/WestchesterCounty",          "NYWestchesterCounty",
       "US/OH/BelmontCounty",              "OHBelmontCounty",
