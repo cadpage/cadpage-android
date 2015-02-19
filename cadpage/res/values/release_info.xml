@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02142015</string>
-  <string name="release_version">v1.8.14</string>
+  <string name="release_date">02192015</string>
+  <string name="release_version">v1.8.15</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.15\n
+Location Fixes:\n
+Tipton County, IN\n
+DuPage County, IL\n
+Bay County, MI\n
+Ulster County, NY\n
+Guilford County, NC\n
+Edgecombe County, NC\n
+Nash County, NC\n
+Knox County, OH\n
+Linn County, OR\n
+Luzerne County, PA\n
+Snyder County, PA\n
+Whitman County, WA\n
+\n      
 v1.8.14\n
 Location Fixes:\n
 Chilton County, AL\n
@@ -78,11 +93,6 @@ Rusk County, TX (alt)\n
 \n
 Location Fixes:\n
 Boyd County, KY\n
-\n
-v1.8.09\n
-Location Fixes:\n
-Prince Georges County, MD\n
-Morris County, NJ\n
   </string>
 </resources>
   

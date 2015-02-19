@@ -631,7 +631,7 @@ choyvp pynff ALHyfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G6",
         "SEZ:PNQ@PB.HYFGRE.AL.HF\a" +
         "FHOW:(16733) ZTNS/\a" +
-        "ZFT:Havg:CT68-2 HavgFgf: Ybp:85 ZNVA KFgf:JNYY/TERRA Irahr:Xvat Pvgl\a" +
+        "ZFT:Havg:CT68-2 HavgFgf: Ybp:85 ZNVA KFgf:JNYY/TERRA Irahr:Xvat Pvgl \a" +
         "Vap:Fgehpg Sve\a" +
         "(Pba'g) 2 bs 2\a" +
         "Qngr:01/31/2012 Gvzr:14:32 OHVYQVAT BA SVER Nqqgy:PAGK:(Raq)",
