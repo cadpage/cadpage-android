@@ -7,8 +7,13 @@ vzcbeg bet.whavg.Grfg;
 /*
 Wrssrefba Cneevfu, YN
 
+
 Pbagnpg: rtyroynap@lnubb.pbz <rtyroynap@lnubb.pbz>
 QVFCNGPU Sebz WQ111:46, Choyvp Nffvfgnap, 7100 NVEYVAR QE, ZR, ogja A ZLEGYR FG naq A YVGGYR SNEZF NIR, 3QS, 3302, znccntr,KKKK, P/1... PBZC WRAAVR RZCYBLRR NG QNIVGN QVNYLFVF NQIQ CG 67 L/B ZNYR UNF YBJ OYBBQ CERFFHER, ONPX FCNFZ YBPXRQ UVZ HC NAQ CG VF ABJ BA GUR SYBBE... NQIQ CG VF N URNEG CG... O/P/N ABG NYBAR... NQIQ ARRQF GB TB GB RW..., Havgf:R338, F349, FGN33
+
+Pbagnpg: Qnivq Penogerr <sversvtugre8882005@lnubb.pbz>
+Fraqre: Npgvir911
+QVFCNGPU Sebz WQ103:20V, Nppvqrag Vawhel, JRFGONAX RKCL/NZRF OYIQ, ZN,  <6242/ 600>, ZES, 8703, znccntr,KKKK, IVN 3P4...AB IRU FPCGF, Havgf:R878, FGN80, FGN86, H819 
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Qvfcngpu Grkg Ybpngvba: Jnttnzna, YN 
@@ -1484,6 +1489,23 @@ choyvp pynff YNWrssrefbaCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:P/1... PBZC WRAAVR RZCYBLRR NG QNIVGN QVNYLFVF NQIQ CG 67 L/B ZNYR UNF YBJ OYBBQ CERFFHER / ONPX FCNFZ YBPXRQ UVZ HC NAQ CG VF ABJ BA GUR SYBBE... NQIQ CG VF N URNEG CG... O/P/N ABG NYBAR... NQIQ ARRQF GB TB GB RW...",
         "HAVG:R338,F349,FGN33");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnivqPenogerr() {
+
+    qbGrfg("G1",
+        "QVFCNGPU Sebz WQ103:20V, Nppvqrag Vawhel, JRFGONAX RKCL/NZRF OYIQ, ZN,  <6242/ 600>, ZES, 8703, znccntr,KKKK, IVN 3P4...AB IRU FPCGF, Havgf:R878, FGN80, FGN86, H819 ",
+        "PBQR:20V",
+        "PNYY:Nppvqrag Vawhel",
+        "NQQE:JRFGONAX RKCL & NZRF OYIQ",
+        "HAVG:R878,FGN80,FGN86,H819",
+        "PVGL:Zneereb",
+        "K:<6242/ 600>",
+        "FEP:ZES",
+        "ZNC:8703",
+        "VASB:IVN 3P4...AB IRU FPCGF");
+
   }
 
   @Grfg

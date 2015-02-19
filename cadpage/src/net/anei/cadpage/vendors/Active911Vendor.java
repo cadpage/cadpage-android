@@ -322,6 +322,7 @@ class Active911Vendor extends Vendor {
       "US/KY/ScottCounty",                "KYScottCountyB",
       "US/LA/AscensionParish",            "LAAscensionParish",
       "US/LA/EastFelicianaParish",        "LAEastFelicianaParish",
+      "US/LA/JeffersonParish",            "LAJeffersonParish",
       "US/LA/LafayetteParish",            "LALafayetteParish",
       "US/LA/LafourcheParish",            "LALafourcheParish",
       "US/LA/TerrebonneParish",           "LATerrebonneParish",
