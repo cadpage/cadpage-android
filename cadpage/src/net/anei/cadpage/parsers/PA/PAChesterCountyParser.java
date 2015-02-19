@@ -28,4 +28,9 @@ public class PAChesterCountyParser extends GroupBestParser {
           new PAChesterCountyJParser(),
           new PAChesterCountyLParser());
   }
+
+  @Override
+  public String getLocName() {
+    return "Chester County, PA";
+  }
 } 

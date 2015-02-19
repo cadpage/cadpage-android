@@ -180,7 +180,6 @@ Fraqre: "XZ-911" <xz911nyreg@tznvy.pbz>
 (Nzo 160@08:51) Urvqryoret Gjc 3247 F 5GU NIR Zrq Pynff2 Rzbgvbany Ceboyrz N160 Sver-Obk 35-01 RZF-Obk 160-4\a\aGb hafhofpevor ercyl FGBC
 (Nzo 160@06:22) Fbhgu Yronaba Gjc 325 UBZRFGRNQ QE Zrq Pynff3 NOQBZVANY CNVA **2AQ NYREG** N160 Sver-Obk 26-02 RZF-Obk 160-5\a\aGb hafhofpevor ercyl FGBC
 (Nzo 160@06:18) Fbhgu Yronaba Gjc 325 UBZRFGRNQ QE Zrq Pynff3 NOQBZVANY CNVA N160 Sver-Obk 26-02 RZF-Obk 160-5\a\aGb hafhofpevor ercyl FGBC
-(Frnepu Grnz #66@17:59) CFC SENPXIVYYR Na Haxabja NFFVFG CFC FH66 Sver-Obk RZF-Obk\a\aGb hafhofpevor ercyl FGBC
 (Nzo 160@13:27) Zvyyperrx Gjc 425 PBPNYVPB EQ Zrq Pynff3 QBN NzoPb150 N160 Sver-Obk 34-03 RZF-Obk 150-3\a\aGb hafhofpevor ercyl FGBC
 (Nzo 160@12:33) Fbhgu Yronaba Gjc 442 BYQR ZRNQBJ YA Zrq Pynff1 Pneqvnp Neerfg 190 pbire 160/ N160 Sver-Obk 26-02 RZF-Obk 160-5\a\aGb hafhofpevor ercyl FGBC
 (SNFC@12:33) Fbhgu Yronaba Gjc 442 BYQR ZRNQBJ YA Zrq Pynff1 Pneqvnp Neerfg 190 pbire 160/ 198ZH Sver-Obk 26-02 RZF-Obk 160-5\a\aGb hafhofpevor ercyl FGBC
@@ -230,6 +229,11 @@ choyvp pynff CNYronabaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     frgCnefre(arj CNYronabaPbhaglCnefre(), "YRONABA PBHAGL", "CN");
   }
   
+  @Grfg
+  choyvp ibvq grfgOnqZft() {
+    qbOnqGrfg("Obql:Abgvsvpngvba: Wraa Bss Sebz POJ-grnpuvat @ Sev Sro 20, 2015 (wbireubyg41@tznvy.pbz)");
+  }
+ 
   @Grfg
   choyvp ibvq grfgCnefre() {
 
@@ -1516,11 +1520,6 @@ choyvp pynff CNYronabaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NOQBZVANY CNVA",
         "OBK:Sver:26-02 RZF:160-5",
         "HAVG:N160");
-
-    qbGrfg("G40",
-        "(Frnepu Grnz #66@17:59) CFC SENPXIVYYR Na Haxabja NFFVFG CFC FH66 Sver-Obk RZF-Obk\a\aGb hafhofpevor ercyl FGBC",
-        "NQQE:CFC SENPXIVYYR Na Haxabja NFFVFG CFC FH66 Sver-Obk",
-        "PNYY:RZF-Obk");
 
     qbGrfg("G41",
         "(Nzo 160@13:27) Zvyyperrx Gjc 425 PBPNYVPB EQ Zrq Pynff3 QBN NzoPb150 N160 Sver-Obk 34-03 RZF-Obk 150-3\a\a" +

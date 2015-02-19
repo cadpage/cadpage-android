@@ -176,7 +176,8 @@ public class PALebanonCountyParser extends SmartAddressParser {
     
     data.strCall = (sCallPfx == null ? "" : sCallPfx) + sCall;
     
-    return true;
+    // Make some validity checks to require **SOMETHING** beyond a simple call prefix match
+    return data.strCity.length() > 0 || data.strBox.length() > 0 || data.strUnit.length() > 0;
   }
 
 }
