@@ -39,6 +39,10 @@ Pnyy: 9 Fho: ZIN 95 WHQFBA CY Pebff: EBLNY EBNQ / UNEINEQ NIR - MBAR 2   12/22 1
 Pnyy: 9 Fho: ZIN A PRAGER NIR Pebff: JVYFBA YN - MBAR 2   12/22 14:23
 Pnyy: 8 Fho: PNEO 65 BPRNAFVQR EBNQ Pebff: ARJ LBEX NIR / FHAEVFR UJL - MBAR 4  JVGU NVQRQ 12/22 23:16
 
+Pbagnpg: Elna Fhyyvina <cbtb135@tznvy.pbz>
+Fraqre: eipsq@erqazkpnq.pbz
+Pnyy: 10 Fho: NHGB 222 FHAEVFR UJL Pebff: IVYYNTR (A) NIR / CNEX (A) NIR - MBAR 4 XNFUV FGRNXUBHFR TRA SVER/AB CREZVG 02/18 14:59
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ryzbag SQ
 Ybpngvba: Ryzbag, AL, Havgrq Fgngrf
@@ -580,6 +584,21 @@ choyvp pynff ALAnffnhPbhaglRyzbagCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:12/22",
         "GVZR:23:16");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgElnaFhyvina() {
+
+    qbGrfg("G1",
+        "Pnyy: 10 Fho: NHGB 222 FHAEVFR UJL Pebff: IVYYNTR (A) NIR / CNEX (A) NIR - MBAR 4 XNFUV FGRNXUBHFR TRA SVER/AB CREZVG 02/18 14:59",
+        "QNGR:02/18",
+        "GVZR:14:59",
+        "PNYY:10 / NHGB",
+        "NQQE:222 FHAEVFR UJL",
+        "K:IVYYNTR (A) NIR / CNEX (A) NIR",
+        "VASB:XNFUV FGRNXUBHFR TRA SVER/AB CREZVG",
+        "HAVG:MBAR 4");
+
   }
 
   @Grfg
