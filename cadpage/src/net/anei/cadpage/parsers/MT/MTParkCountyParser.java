@@ -13,6 +13,11 @@ public class MTParkCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public String getFilter() {
+    return "page@parkcounty.org";
+  }
+  
+  @Override
   protected boolean parseMsg(String body, Data data) {
     return parseFields(body.split(";"), data);
   }
@@ -20,7 +25,7 @@ public class MTParkCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("PLACE_X")) return new PlaceXField();
-    if (name.equals("ID")) return new IdField("COMM14CAD\\d{6}", true);
+    if (name.equals("ID")) return new IdField("COMM\\d{2}CAD\\d{6}", true);
     if (name.equals("CH")) return new ChannelField("PTAC\\d", true);
     return super.getField(name);
   }
