@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Jvaqunz Pbhagl, PG (Inevnag P)
+Jvaqunz Pbhagl, PG (P)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: JPZU

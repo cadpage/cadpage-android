@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA22Parser;
 
 /*
-Paso Robles, CA
+Grover Beach, CA
  */
 
 public class CAGroverBeachParser extends DispatchA22Parser {
