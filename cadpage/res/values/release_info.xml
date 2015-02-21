@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02192015</string>
-  <string name="release_version">v1.8.15</string>
+  <string name="release_date">02212015</string>
+  <string name="release_version">v1.8.16</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.16\n
+New Locations:\n
+Windham County, CT (alt)\n
+Grover Beach, MN\n
+Eden Prairie, MN\n
+Stafford, TX\n
+\n
+Location Fixes:\n
+Benton County, AR\n
+Elbert County, CO\n
+Stake County, IN\n
+St Tamany Parish, LA\n
+Park County, MT\n
+Onondaga County, NY\n
+Carter County, OK\n
+Lebanon County, PA\n
+Roanoke City, VA\n
+\n
+General Fixes:\n
+Partial workaround for problem with Active911 servers not completing registration process.
+\n
 v1.8.15\n
 Location Fixes:\n
 Tipton County, IN\n
@@ -82,17 +103,6 @@ Mineral County, WV\n
 \n
 General Fixes:\n
 Fixed problem reporting response status to new Active911 alert server.\n
-\n      
-v1.8.10\n
-New Locations:\n
-Forsyth County, GA\n
-HillsDale County, MI\n 
-Lenoir County, NC (alt)\n
-Helotes, TX\n
-Rusk County, TX (alt)\n
-\n
-Location Fixes:\n
-Boyd County, KY\n
   </string>
 </resources>
   
