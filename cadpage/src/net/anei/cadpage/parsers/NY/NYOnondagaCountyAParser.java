@@ -24,7 +24,7 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "e9web1@ongov.net,messaging@emergencysmc.com,@notifyatonce.net";
+    return "e9web1@ongov.net,messaging@emergencysmc.com,@notifyatonce.net,messaging@iamresponding.com";
   }
 
   @Override
