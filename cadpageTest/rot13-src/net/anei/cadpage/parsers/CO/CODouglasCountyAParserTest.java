@@ -30,6 +30,12 @@ Fraqre:@abgvslngbapr.arg
 (Qvfcngpu) Pnyy: S ZIN HAX VAW Ybpngvba: A  FGNGR UVTUJNL 83 / R  FGNGR UVTUJNL 86 1ABS Znc: NT36P Havgf: R184 ZRQ181 KKK181  Pbzzba Anzr: Gvzr: 08/22
 (Qvfcngpu) S ZRQVPNY NFFVFG YBP: 131 YNENZVR PG, Pnfgyr Ebpx\aZnc: NV33P Pybfrfg K:\aQRNQ RAQ / YBFG ZRNQBJ GEY  \aHavgf: R153, ZRQ181 Ane: \aYBP Anzr
 
+Pbagnpg: Yhxr Oenaqg <yhxrwoenaqg@tznvy.pbz>
+Fraqre: RSCQ@abgvslnyy.pbz
+Obql: 1 bs 3\a
+SEZ:RSCQ@abgvslnyy.pbz\aFHOW:ABGVSLnyy zft\aZFT:qpfb@qbhtynf.pb.hf FHOWRPG: Qvfcngpu OBQL: S ZRQVPNY NFFVFG YBP: 296 MNAR PG, Ryvmnorgu\a(Pba'g) 2 bs 3\aZnc: NV44 Pybfrfg K: MNAR YA, J YBTNA FG / QRNQ RAQ Havgf: R271, RBCF1, ZRQ271 Ane: YBP Anzr: : NQQY: PE 2015-00000336 (Nhgb Nvq),\a(Pba'g) 3 bs 3\a2015-00000130 (03930) : Gvzr: 2/21/2015 10:31:04 NZ(Raq)
+1 bs 3\aSEZ:RSCQ@abgvslnyy.pbz\aFHOW:ABGVSLnyy zft\aZFT:qpfb@qbhtynf.pb.hf FHOWRPG: Qvfcngpu OBQL: NFFVFG SVER YBP: 35612 EHAAVAT OEBBX YA,\a(Pba'g) 2 bs 3\aRyvmnorgu Znc: NU45 Pybfrfg K: FNQQYRJBBQ EQ / FNQQYRJBBQ EQ Havgf: RP41 Ane: Pnyy Ahzore 887 jnf perngrq sebz Pnyy Ahzore886 FZBXR SEBZ\a(Pba'g) 3 bs 3\aRYRPGEVPNY VAFVQR TNENTR UHFONAQ BHGFVQR.. YBP Anzr: : NQQY: PE 2015-00002072 (PB0200000) : Gvzr: 2/21/2015 1:53:39 NZ(Raq)
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pnfgyr Ebpx SQ
 Ybpngvba: Pnfgyr Ebpx, PB, Havgrq Fgngrf
@@ -884,6 +890,31 @@ choyvp pynff PBQbhtynfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:QRNQ RAQ / YBFG ZRNQBJ GEY",
         "HAVG:R153, ZRQ181");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgYhxrOenaqg() {
+
+    qbGrfg("G1",
+        "1 bs 3\a" +
+        "SEZ:RSCQ@abgvslnyy.pbz\a" +
+        "FHOW:ABGVSLnyy zft\a" +
+        "ZFT:qpfb@qbhtynf.pb.hf FHOWRPG: Qvfcngpu OBQL: NFFVFG SVER YBP: 35612 EHAAVAT OEBBX YA,\a" +
+        "(Pba'g) 2 bs 3\a" +
+        "Ryvmnorgu Znc: NU45 Pybfrfg K: FNQQYRJBBQ EQ / FNQQYRJBBQ EQ Havgf: RP41 Ane: Pnyy Ahzore 887 jnf perngrq sebz Pnyy Ahzore886 FZBXR SEBZ\a" +
+        "(Pba'g) 3 bs 3\a" +
+        "RYRPGEVPNY VAFVQR TNENTR UHFONAQ BHGFVQR.. YBP Anzr: : NQQY: PE 2015-00002072 (PB0200000) : Gvzr: 2/21/2015 1:53:39 NZ(Raq)",
+
+        "PNYY:NFFVFG SVER",
+        "NQQE:35612 EHAAVAT OEBBX YA",
+        "PVGL:Ryvmnorgu",
+        "ZNC:NU45",
+        "K:FNQQYRJBBQ EQ / FNQQYRJBBQ EQ",
+        "HAVG:RP41",
+        "VASB:Pnyy Ahzore 887 jnf perngrq sebz Pnyy Ahzore886 FZBXR SEBZ RYRPGEVPNY VAFVQR TNENTR UHFONAQ BHGFVQR.. / PE 2015-00002072 (PB0200000)",
+        "QNGR:02/21/2015",
+        "GVZR:01:53:39");
+   
   }
 
   @Grfg

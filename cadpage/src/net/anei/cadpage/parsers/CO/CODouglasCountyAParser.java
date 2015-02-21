@@ -13,6 +13,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CODouglasCountyAParser extends FieldProgramParser {
   
+  private static final String WRAPPER_MARK = " SUBJECT: Dispatch BODY: ";
   private static final Pattern TRAIL_ID_PTN = Pattern.compile(" +(\\d{4}-\\d{8})$");
   private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Time:)");
 
@@ -35,13 +36,19 @@ public class CODouglasCountyAParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@notifyall.com,@notifyatonce.com,dcso@douglas.co.us";
+    return "@notifyall.com,@notifyatonce.com,dcso@douglas.co.us,EFPD@notifyall.com";
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("Dispatch")) return false;
+    // One agency gets calls with nested message wrappers.  Normal preparsing took care of 
+    // the outermost wrapper, but we have to deal with the inner wrapper here
+    if (!subject.equals("Dispatch")) {
+      int pt = body.indexOf(WRAPPER_MARK);
+      if (pt < 0) return false;
+      body = body.substring(pt+WRAPPER_MARK.length()).trim();
+    }
     Matcher match = TRAIL_ID_PTN.matcher(body);
     if (match.find()) {
       data.strCallId = match.group(1);
