@@ -536,8 +536,23 @@ abstract class Vendor {
     // If we are enabled, nothing needs to be done
     if (enabled) return true;
     
+    // Active911 is currently sending an unrecognizable registration confirmation message
+    // which sucks.  As a partial remediation turn the vendor enabled switch on if we
+    // have and account from a previous registration :(
+    // We are messing with UI stuff, so need to do this on the UI thread
+    if (account != null) {
+      CadPageApplication.getMainHandler().post(new Runnable(){
+        @Override
+        public void run() {
+          enabled = true;
+          saveStatus();
+          reportStatusChange();
+        }
+      });
+    }
+    
     // Otherwise send a reg_query to this vendor
-    sendRegQuery(context, ManagePreferences.registrationId());
+    else sendRegQuery(context, ManagePreferences.registrationId());
     return true;
   }
   
