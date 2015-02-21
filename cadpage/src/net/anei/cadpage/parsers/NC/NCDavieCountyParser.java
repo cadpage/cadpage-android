@@ -28,7 +28,7 @@ public class NCDavieCountyParser extends DispatchA3Parser {
 
   @Override
   protected String getSponsorDateString() {
-    return "02172014";
+    return "02212015";
   }
 
   @Override
