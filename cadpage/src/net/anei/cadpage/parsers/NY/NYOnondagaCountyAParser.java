@@ -19,7 +19,7 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
 
   public NYOnondagaCountyAParser() {
     super(CITY_CODES, "ONONDAGA COUNTY", "NY",
-           "ADDR/SXP! XTS:X! P:PRI Lev:SKIP X:INFO Disp:UNIT%");
+           "ADDR/SXa XTS:X! P:PRI Lev:SKIP X:INFO Disp:UNIT%");
   }
   
   @Override
@@ -31,7 +31,7 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     // Some services split message into subject and message
-    if (subject.startsWith("CAD MSG")) {
+    if (subject.startsWith("CAD MSG") || subject.startsWith("I/CAD MSG")) {
       body = subject + " " + body;
     }
     
@@ -52,6 +52,14 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
   public String getProgram() {
     return "SRC TIME " + super.getProgram();
   }
+
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
   
   private static final Pattern ADDR_COUNTY_PTN = Pattern.compile(" +(CAY|COR|MAD|OND|ONO|OSW)$");
   private static final Pattern ADDR_ZIP_PTN = Pattern.compile(" +(13\\d{3})$");
@@ -69,14 +77,27 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
       if (pt >= 0) {
         sPlace = field.substring(pt+1).trim();
         field = field.substring(0,pt).trim();
-        if (sPlace.startsWith("@")) sPlace = sPlace.substring(1).trim();
+        sPlace = stripFieldStart(sPlace, "@");
       }
+      String apt = "";
+      pt = field.lastIndexOf(',');
+      if (pt >= 0) {
+        apt = field.substring(pt+1).trim();
+        field = field.substring(0,pt);
+        match = X_APT_PTN.matcher(apt);
+        if (match.matches()) {
+          String tmp = match.group(1);
+          if (tmp != null) apt = tmp;
+        }
+      }
+      
       if (field.startsWith("/")) {
-        data.strAddress = field;
+        data.strCity = convertCodes(field.substring(1).trim(), CITY_CODES);
       } else {
         super.parse(field, data);
       }
-      data.strPlace = append(data.strPlace, " / ", sPlace);
+      data.strApt = append(data.strApt, "-", apt);
+      if (!sPlace.equals("EST")) data.strPlace = append(data.strPlace, " - ", sPlace);
       match = ADDR_ZIP_PTN.matcher(data.strAddress);
       if (match.find()) {
         if (data.strCity.length() == 0) data.strCity = match.group(1);
@@ -85,58 +106,83 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern EXPANDED_DASH_APT_PTN = Pattern.compile("\\b([A-Z]|\\d{1,4}) - ([A-Z]|\\d{1,4})\\b");
+  private static final Pattern X_APT_PTN = Pattern.compile("(?:APT|RM|ROOM|SUITE|LOT|#)[-:/# ]*(.*)|\\d+(?: *- *[A-Z0-9]+)?", Pattern.CASE_INSENSITIVE);
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
       String cross = p.get(',');
-      if (data.strAddress.startsWith("/")) {
-        if (data.strCity.length() == 0) {
-          data.strCity = convertCodes(data.strAddress.substring(1).trim(), CITY_CODES);
-        }
-        data.strAddress = "";
-        parseAddress(cross, data);
-      } else {
-        super.parse(cross, data);
-      }
       String place = p.get(',');
-      if (place.startsWith("APT ")) {
-        data.strApt = place.substring(4).trim();
-      } else {
-        if (place.startsWith("IFO")) place = place.substring(3).trim();
-        data.strPlace = append(data.strPlace , " / ", place);
-      }
       String call = p.get();
       if (call.length() == 0) abort();
-      if (call.endsWith("-")) call = call.substring(0,call.length()-1).trim();
+      
+      if (data.strAddress.length() == 0) {
+        Result res = parseAddress(StartType.START_ADDR, FLAG_NO_CITY, place);
+        if (res.getStatus() > STATUS_STREET_NAME) {
+          res.getData(data);;
+          place = stripFieldStart(res.getLeft(), "-");
+        } else {
+          parseAddress(cross, data);
+          cross = "";
+        }
+      }
+      super.parse(cross, data);
+      
+      place = EXPANDED_DASH_APT_PTN.matcher(place).replaceAll("$1-$2");
+      for (String part : place.split(" - ")) {
+        part = part.trim();
+        Matcher match = X_APT_PTN.matcher(part);
+        if (match.matches()) {
+          String apt = match.group(1);
+          if (apt == null) apt =  part.replace(" ", "");
+          if (apt.length() > 0) {
+            if (apt.contains(data.strApt)) {
+              data.strApt = apt;
+            }
+            else if (!data.strApt.contains(apt)) {
+              data.strApt = append(data.strApt, "-", apt);
+            }
+          }
+        } else {
+          part = stripFieldStart(part, "IFO");
+          data.strPlace = append(data.strPlace , " - ", part);
+        }
+      }
+      
+      call = stripFieldEnd(call, "-");
       data.strCall = call;
     }
     
     @Override
     public String getFieldNames() {
-      return "X CALL";
+      return "ADDR X APT PLACE CALL";
     }
   }
 
   // Remove redundant date/time from info field
-  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b\\d\\d/\\d\\d \\d\\d:\\d\\d:\\d\\d:\\b");
+  private static final Pattern INFO_MAP_GPS_PTN = Pattern.compile("(?:[A-Z]{1,2} SECTOR|CELL = \\d+ SECTOR = \\d+?) +([-+]?\\d{3}\\.\\d{6} [-+]?\\d{3}\\.\\d{6})\\b *");
+  private static final Pattern INFO_DATE_TIME_PTN = Pattern.compile("\\b\\d\\d/\\d\\d \\d\\d:\\d\\d:\\d\\d\\b");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      Matcher match = DATE_TIME_PTN.matcher(field);
+      Matcher match = INFO_MAP_GPS_PTN.matcher(field);
+      if (match.lookingAt()) {
+        setGPSLoc(match.group(1), data);
+        field = field.substring(match.end());
+      }
+      
+      match = INFO_DATE_TIME_PTN.matcher(field);
       if (match.find()) {
-        field = append(field.substring(0,match.start()).trim(), " ", field.substring(match.end()));
+        field = append(field.substring(0,match.start()).trim(), " ", field.substring(match.end()).trim());
       }
       super.parse(field, data);
     }
-  }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
+    
+    @Override
+    public String getFieldNames() {
+      return "GPS INFO";
+    }
   }
   
   @Override
@@ -148,9 +194,15 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
   private static final Pattern ROUTE_11_PTN = Pattern.compile("\\b(?:RT|ROUTE) *11\\b");
   private static final Pattern ROUTE_20_PTN = Pattern.compile("\\b(?:RT|ROUTE) *20\\b");
   
+  @Override
+  public String adjustMapCity(String city) {
+    if (city.equalsIgnoreCase("ONONDAGA NATION")) city = "ONONDAGA COUNTY";
+    return city;
+  }
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       
-      // Cayuga County
+      // Cahyuga County
       "OCAU", "AUBURN CITY",
       "OTAR", "AURELIUS",
       "OTBT", "BRUTUS",
@@ -167,7 +219,7 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
       "OTMO", "MORAVIA",
       "OTNI", "NILES",
       "OTOW", "OWASCO",
-      "OTSE", "SENNETT",
+      "OTSE", "SENNETT",                // << old >>
       "OTSM", "SUMMERHILL",
       "OTSN", "SEMPRONIUS",
       "OTSO", "SCIPIO",
@@ -184,7 +236,7 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
       "OVPO", "PORT BYRON",
       "OVUS", "UNION SPRINGS",
       "OVWE", "WEEDSPORT",
-      
+
       // Cortland County
       "OCCO", "CORTLAND CITY",
       "OTCN", "CINCINNATUS",
@@ -205,161 +257,159 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
       "OVHO", "HOMER",
       "OVMC", "MCGRAW",
       "OVMR", "MARATHON",
+    
       
       // Madison County
-      "OCON", "ONEIDA CITY",
-      "OTBK", "BROOKFIELD",
-      "OTCZ", "CAZENOVIA",
-      "OTDR", "DERUYTER TOWN",
-      "OTEA", "EATON",
-      "OTFE", "FENNER",
-      "OTGE", "GEORGETOWN",
-      "OTHM", "HAMILTON",
-      "OTLB", "LEBANON",
-      "OTLI", "LINCOLN",
-      "OTLN", "LENOX",
-      "OTMD", "MADISON",
-      "OTNE", "NELSON",
-      "OTSF", "SMITHFIELD",
-      "OTSK", "STOCKBRIDGE",
-      "OTSV", "SULLIVAN",
-      "OVCH", "CHITTENANGO",
-      "OVCN", "CANASTOTA",
-      "OVCZ", "CAZENOVIA",
-      "OVDR", "DERUYTER",
-      "OVEA", "EARLVILLE",
-      "OVHM", "HAMILTON",
-      "OVMD", "MADISON",
-      "OVMU", "MUNNSVILLE",
-      "OVMV", "MORRISVILLE",
-      "OVWM", "WAMPSVILLE",
-      
-      // Oneida County
-      "OCRO", "ROME CITY",
-      "OCSH", "SHERRILL CITY",
-      "OCUT", "UTICA CITY",
-      "OTAN", "AUBURN",
-      "OTAU", "AUGUSTA",
-      "OTAV", "AVA",
-      "OTBO", "BOONVILLE",
-      "OTBR", "BRIDGEWATER",
-      "OTCM", "CAMDEN",
-      "OTDE", "DERUYTER",
-      "OTFO", "FORESTPORT",
-      "OTFR", "FLORENCE",
-      "OTFY", "FLOYD",
-      "OTKI", "KIRKLAND ",
-      "OTLE", "LEE",
-      "OTML", "MARSHALL",
-      "OTMY", "MARCY",
-      "OTNH", "NEW HARTFORD",
-      "OTPS", "PARIS",
-      "OTRE", "REMSEN",
-      "OTSA", "SANGERFIELD",
-      "OTSE", "STEUBEN",
-      "OTTR", "TRENTON",
-      "OTVE", "VERNON",
-      "OTVI", "VIENNA",
-      "OTVR", "VERONA",
-      "OTWE", "WESTMORELAND",
-      "OTWH", "WHITESTOWN",
-      "OTWS", "WESTERN",
-      "OVBA", "BARNEVELD",
-      "OVBO", "BOONVILLE",
-      "OVBR", "BRIDGEWATER",
-      "OVCA", "CAMDEN",
-      "OVCI", "CLINTON",
-      "OVCY", "CLAYVILLE",
-      "OVHP", "HOLLAND PATENT",
-      "OVNH", "NEW HARTFORD",
-      "OVNY", "NEW YORK MILLS",
-      "OVOC", "ONEIDA CASTLE",
-      "OVOF", "ORISKANY FALLS",
-      "OVOR", "ORISKANY",
-      "OVPR", "PREBLE",
-      "OVRE", "REMSEN",
-      "OVSY", "SYLVAN BEACH",
-      "OVVE", "VERNON",
-      "OVWA", "WATERVILLE",
-      "OVWH", "WHITESBORO",
-      "OVYO", "YORKVILLE",
-      
-      // Onondaga County
-      "NAT",  "ONONDAGA NATION",
-      "SYR",  "SYRACUSE CITY",
-      "SYR",  "SYRACUSE CITY",
-      "TCI",  "CICERO",
-      "TCL",  "CLAY",
-      "TCM",  "CAMILLUS",
-      "TDW",  "DEWITT",
-      "TEB",  "ELBRIDGE",
-      "TFB",  "FABIUS",
-      "TGD",  "GEDDES",
-      "TLF",  "LAFAYETTE",
-      "TLY",  "LYSANDER",
-      "TMA",  "MANLIUS",
-      "TMR",  "MARCELLUS",
-      "TON",  "ONONDAGA",
-      "TOT",  "OTISCO",
-      "TPO",  "POMPEY",
-      "TSK",  "SKANEATELES",
-      "TSL",  "SALINA",
-      "TSP",  "SPAFFORD",
-      "TTU",  "TULLY",
-      "TVB",  "VAN BUREN",
-      "TVB",  "VANBUREN",
-      "VBV",  "BALDWINSVILLE",
-      "VCM",  "CAMILLUS",
-      "VEB",  "ELBRIDGE",
-      "VES",  "EAST SYRACUSE",
-      "VFB",  "FABIUS",
-      "VFY",  "FAYETTEVILLE",
-      "VJR",  "JORDAN",
-      "VLV",  "LIVERPOOL",
-      "VMA",  "MANLIUS",
-      "VMI",  "MINOA",
-      "VMR",  "MARCELLUS",
-      "VNS",  "NORTH SYRACUSE",
-      "VSK",  "SKANEATELES",
-      "VSV",  "SOLVAY",
-      "VTU",  "TULLY",
-      
-      // Oswego County
-      "OCFU", "FULTON CITY",
-      "OCOS", "OSWEGO CITY",
-      "OTAL", "ALBION",
-      "OTAM", "AMBOY",
-      "OTBY", "BOYLSTON",
-      "OTCS", "CONSTANTIA",
-      "OTGR", "GRANBY",
-      "OTHN", "HANNIBAL",
-      "OTHS", "HASTINGS",
-      "OTHV", "NEW HAVEN",
-      "OTMI", "MINETTO",
-      "OTMX", "MEXICO",
-      "OTOR", "ORWELL",
-      "OTOS", "OSWEGO",
-      "OTPA", "PARISH",
-      "OTPL", "PALERMO",
-      "OTRF", "REDFIELD",
-      "OTRI", "RICHLAND",
-      "OTSB", "SCRIBA",
-      "OTSC", "SANDY CREEK",
-      "OTSH", "SCHROEPPEL",
-      "OTVL", "VOLNEY",
-      "OTWM", "WEST MONROE",
-      "OTWT", "WILLIAMSTOWN",
-      "OVAT", "ALTMAR",
-      "OVCL", "CLEVELAND",
-      "OVCS", "CENTRAL SQUARE",
-      "OVHN", "HANNIBAL",
-      "OVLA", "LACONA",
-      "OVMX", "MEXICO",
-      "OVPA", "PARISH",
-      "OVPF", "PHOENIX",
-      "OVPU", "PULASKI",
-      "OVSC", "SANDY CREEK",
+       "OCON", "ONEIDA CITY",
+       "OTBK", "BROOKFIELD",
+       "OTCZ", "CAZENOVIA",
+       "OTDR", "DERUYTER TOWN",
+       "OTEA", "EATON",
+       "OTFE", "FENNER",
+       "OTGE", "GEORGETOWN",
+       "OTHM", "HAMILTON",
+       "OTLB", "LEBANON",
+       "OTLI", "LINCOLN",
+       "OTLN", "LENOX",
+       "OTMD", "MADISON",
+       "OTNE", "NELSON",
+       "OTSF", "SMITHFIELD",
+       "OTSK", "STOCKBRIDGE",
+       "OTSV", "SULLIVAN",
+       "OVCH", "CHITTENANGO",
+       "OVCN", "CANASTOTA",
+       "OVCZ", "CAZENOVIA",
+       "OVDR", "DERUYTER",
+       "OVEA", "EARLVILLE",
+       "OVHM", "HAMILTON",
+       "OVMD", "MADISON",
+       "OVMU", "MUNNSVILLE",
+       "OVMV", "MORRISVILLE",
+       "OVWM", "WAMPSVILLE",
 
+       // Oneida County
+       "OCRO", "ROME CITY",
+       "OCSH", "SHERRILL CITY",
+       "OCUT", "UTICA CITY",
+       "OTAN", "AUBURN",
+       "OTAU", "AUGUSTA",
+       "OTAV", "AVA",
+       "OTBO", "BOONVILLE",
+       "OTBR", "BRIDGEWATER",
+       "OTCM", "CAMDEN",
+       "OTDE", "DERUYTER",
+       "OTFO", "FORESTPORT",
+       "OTFR", "FLORENCE",
+       "OTFY", "FLOYD",
+       "OTKI", "KIRKLAND ",
+       "OTLE", "LEE",
+       "OTML", "MARSHALL",
+       "OTMY", "MARCY",
+       "OTNH", "NEW HARTFORD",
+       "OTPS", "PARIS",
+       "OTRE", "REMSEN",
+       "OTSA", "SANGERFIELD",
+       "OTSE", "SKANEATELES",    // Was Steuben
+       "OTTR", "TRENTON",
+       "OTVE", "VERNON",
+       "OTVI", "VIENNA",
+       "OTVR", "VERONA",
+       "OTWE", "WESTMORELAND",
+       "OTWH", "WHITESTOWN",
+       "OTWS", "WESTERN",
+       "OVBA", "BARNEVELD",
+       "OVBO", "BOONVILLE",
+       "OVBR", "BRIDGEWATER",
+       "OVCA", "CAMDEN",
+       "OVCI", "CLINTON",
+       "OVCY", "CLAYVILLE",
+       "OVHP", "HOLLAND PATENT",
+       "OVNH", "NEW HARTFORD",
+       "OVNY", "NEW YORK MILLS",
+       "OVOC", "ONEIDA CASTLE",
+       "OVOF", "ORISKANY FALLS",
+       "OVOR", "ORISKANY",
+       "OVPR", "PREBLE",
+       "OVRE", "REMSEN",
+       "OVSY", "SYLVAN BEACH",
+       "OVVE", "VERNON",
+       "OVWA", "WATERVILLE",
+       "OVWH", "WHITESBORO",
+       "OVYO", "YORKVILLE",
+       
+       // Onondaga County
+       "NAT",  "ONONDAGA NATION",
+       "SYR",  "SYRACUSE CITY",
+       "TCI",  "CICERO",
+       "TCL",  "CLAY",
+       "TCM",  "CAMILLUS",
+       "TDW",  "DEWITT",
+       "TEB",  "ELBRIDGE",
+       "TFB",  "FABIUS",
+       "TGD",  "GEDDES",
+       "TLF",  "LAFAYETTE",
+       "TLY",  "LYSANDER",
+       "TMA",  "MANLIUS",
+       "TMR",  "MARCELLUS",
+       "TON",  "ONONDAGA",
+       "TOT",  "OTISCO",
+       "TPO",  "POMPEY",
+       "TSK",  "SKANEATELES",
+       "TSL",  "SALINA",
+       "TSP",  "SPAFFORD",
+       "TTU",  "TULLY",
+       "TVB",  "VANBUREN",
+       "VBV",  "BALDWINSVILLE",
+       "VCM",  "CAMILLUS",
+       "VEB",  "ELBRIDGE",
+       "VES",  "EAST SYRACUSE",
+       "VFB",  "FABIUS",
+       "VFY",  "FAYETTEVILLE",
+       "VJR",  "JORDAN",
+       "VLV",  "LIVERPOOL",
+       "VMA",  "MANLIUS",
+       "VMI",  "MINOA",
+       "VMR",  "MARCELLUS",
+       "VNS",  "NORTH SYRACUSE",
+       "VSK",  "SKANEATELES",
+       "VSV",  "SOLVAY",
+       "VTU",  "TULLY",
+
+       // Oswego County
+       "OCFU", "FULTON CITY",
+       "OCOS", "OSWEGO CITY",
+       "OTAL", "ALBION",
+       "OTAM", "AMBOY",
+       "OTBY", "BOYLSTON",
+       "OTCS", "CONSTANTIA",
+       "OTGR", "GRANBY",
+       "OTHN", "HANNIBAL",
+       "OTHS", "HASTINGS",
+       "OTHV", "NEW HAVEN",
+       "OTMI", "MINETTO",
+       "OTMX", "MEXICO",
+       "OTOR", "ORWELL",
+       "OTOS", "OSWEGO",
+       "OTPA", "PARISH",
+       "OTPL", "PALERMO",
+       "OTRF", "REDFIELD",
+       "OTRI", "RICHLAND",
+       "OTSB", "SCRIBA",
+       "OTSC", "SANDY CREEK",
+       "OTSH", "SCHROEPPEL",
+       "OTVL", "VOLNEY",
+       "OTWM", "WEST MONROE",
+       "OTWT", "WILLIAMSTOWN",
+       "OVAT", "ALTMAR",
+       "OVCL", "CLEVELAND",
+       "OVCS", "CENTRAL SQUARE",
+       "OVHN", "HANNIBAL",
+       "OVLA", "LACONA",
+       "OVMX", "MEXICO",
+       "OVPA", "PARISH",
+       "OVPF", "PHOENIX",
+       "OVPU", "PULASKI",
+       "OVSC", "SANDY CREEK"
   });
   
 }
