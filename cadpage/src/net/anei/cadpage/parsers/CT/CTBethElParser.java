@@ -6,10 +6,10 @@ import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
  * Bethal, CT
  */
 
-public class CTBethalParser extends DispatchA27Parser {
+public class CTBethElParser extends DispatchA27Parser {
   
-  public CTBethalParser() {
-    super("BETHAL", "CT", "[A-Z]+\\d+");
+  public CTBethElParser() {
+    super("BETHEL", "CT", "[A-Z]+\\d+|[A-Z]+EMS|[A-Z]+FD|TWR");
   }
   
   @Override
