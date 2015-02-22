@@ -10,7 +10,6 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Hzngvyyn Eheny Sver Cebgrpgvba Qvfgevpg
 Ybpngvba: Hzngvyyn, BE, Havgrq Fgngrf
 Fraqre: abgvsvre@hzngvyynpbhagl.arg
-Fraqre: 12807-5AmeTnTm7AaeH2D6@nyreg.npgvir911.pbz
 
 (Qvfcngpurq Pnyy (HSQ09880)) 821 6GU FG, Hzngvyyn, BE * PNEYFBA'F HZNGVYYN QEHT * V FG/W FG *  * ZIN *  * #01502170125 * Freivpr Pynff: OHFA\aSrznyr jnf uvg ol n pne.
 (Qvfcngpurq Pnyy (HSQ09880)) 28458 UVTUJNL 730, Hzngvyyn, BE *  * /FBHGUFUBER QE *  * RZF *  * #01502170036 * \a\a54 lb srznyr fgngrf  fur unf orra qevaxvat naq vf qrgbkv
@@ -86,14 +85,12 @@ Fraqre: 12807-5AmeTnTm7AaeH2D6@nyreg.npgvir911.pbz
 (Qvfcngpurq Pnyy (HSQ09880)) 28458 UVTUJNL 730, Hzngvyyn, BE *  * / *  * RZF *  * #01412200046 * Freivpr Pynff: ERFQ\a\a54/S/hapbapvbhf. \aFur vf oernguvat.
 (Qvfcngpurq Pnyy (HSQ09880)) 421 7GU FG, Hzngvyyn, BE *  * R FG/S FG *  * RZF *  * #01412200044 * 59 lbs jvgu ybj oybbq fhtne  28 gnxra 2 tyhpbfr gnof P&O\a\aPryyhyne R9
 (Qvfcngpurq Pnyy (HSQ09880)) 290 JVYYNZRGGR NIR, Hzngvyyn, BE * YVSRJNLF * YRJVF FG/LNXVZN FG *  * SNSN *  * #01412190186 * Chyy fgngvba sver nynez
-(Npgvir911 Zrffntr) \aPNYY : Njneqf Onadhrg\aCYNPR : Fgngvba #2\aVASB : Gbavtug vf gur njneqf onadhrg ng 1800 ng fgngvba #2. Cyrnfr oevat n fvqr naq n qrffreg. Snzvyl vf jrypbzr. "Havsbez" vf gur arj fjrngfuvegf.\aCyrnfr or ba gvzr, znal crbcyr arrq gb yrnir ol 1845 sbe fpubby riragf.
 (Qvfcngpurq Pnyy (HSQ09880)) OHPXF YA/UVTUJNL 730, Hzngvyyn, BE *  * UVTUJNL 730 *  * SVER *  * #01412180135 * \aErcbegf gung gurer jnf fzbxr pbzvat sebz haqre gur rnirf
 (Qvfcngpurq Pnyy (HSQ09880)) 1671 8GU FG, Hzngvyyn, BE *  * HZNGVYYN EVIRE EQ *  * RZF *  * #01412180113 * \a\a60 l/b znyr jub vf univat n frvmher.
 (Qvfcngpurq Pnyy (HSQ09880)) 33945 ORNPU FUBER QE, Urezvfgba, BE *  * UNG EBPX *  * RZF *  * #01412180046 * 75 lbs Pbafpvbhf univat gebhoyr oernguvat gnxvat nyohgreby, a
 (Qvfcngpurq Pnyy (HSQ09880)) 631 Q FG, Hzngvyyn, BE *  * 7GU FG/8GU FG *  * SFGE *  * #01412170127 * \aZbovyr shyy bs fzbxr -  ab synzrf  frra - rirelobql vf bhg bs gur u
 (Qvfcngpurq Pnyy (HSQ09880)) 3200 ORNPU NPPRFF EQ, Hzngvyyn, BE *  *  *  * SVER *  * #01412160043 * Trareny Sver nynez ng ybpngvba ab erfcbafvoyrf ernpurq
 (Qvfcngpurq Pnyy (HSQ09880)) 401 6GU FG, Hzngvyyn, BE * YNZCYVTUGRE * R FG/S FG *  * RZF *  * #01412140174 * Ryqreyl srznyr snyyra naq cbffvoyr oebxra naxyr.
-(Npgvir911 Zrffntr) \aPNYY : SS1/SS2 Npnqrzl\aCYNPR : \aVASB : Gur SS1/SS2 Npnqrzl fxvyyf qnl fpurqhyrq sbe gbzbeebj unf orra cbfgcbarq va yvtug bs gur arrq sbe crefbaary sbe gur gerr ybg naq gur nqqvgvbany oheqra vg znl cynpr ba rnpu bs lbh qhevat guvf ohfl gvzr bs lrne. Jr jvyy erfpurqhyr gbzbeebj'f fxvyyf sbe Wnahnel. Cyrnfr xrrc jbexvat ba lbhe pheevphyhz. Znal bs lbh nera'g sne sebz orvat qbar, gur erfg bs lbh pna znxr vg jvgu whfg n yvggyr rkgen rssbeg.
 (Qvfcngpurq Pnyy (HSQ09880)) 131 6GU FG, Hzngvyyn, BE * FNZF TBGGN FGBC * UVTUJNL 730/N FG *  * RZF *  * #01412130084 * 28 lbz P&O  unf rkgerzr fgbznpu cnva, ibzvggvat j
 (Qvfcngpurq Pnyy (HSQ09880)) 8 PBYHZOVN OYIQ, Hzngvyyn, BE *  * CBZBAB QE/QBF CNYBF PG *  * RZF *  * #01412110007 * 42 lbs, gbbx zrqf naq jbxr hc univat n frvmher.
 (Qvfcngpurq Pnyy (HSQ09880)) 180 UVTUJNL 730, Hzngvyyn, BE *  * / *  * RZF *  * #01412090030 * \a\aFhowrpg rnfgobhaq fvqr ba unaqf naq xarrf.
@@ -103,7 +100,6 @@ Fraqre: 12807-5AmeTnTm7AaeH2D6@nyreg.npgvir911.pbz
 (Qvfcngpurq Pnyy (HSQ09880)) 807 PURABJVGU NIR, Hzngvyyn, BE *  * EVB FRAQN QE *  * RZF *  * #01412050004 * \a\a83/Z/oyrrq sebz gur urnq, sryy bhg bs orq.\aP&O
 (Qvfcngpurq Pnyy (HSQ09880)) 1331 7GU FG, Hzngvyyn, BE *  * LREKN/FYBNA NIR *  * RZF *  * #01412040237 * Freivpr Pynff: ERFQ 78 lb znyr fho abezny grzc, pnaabg trg uvz e
 (Qvfcngpurq Pnyy (HSQ09880)) 33948 EVIRE IVRJ QE, Urezvfgba, BE *  *  *  * RZF *  * #01412040168 * \a\a72 l/b znyr jub vf pbashfrq naq abg znxvat frafr.  Cngvrag vf pbapf
-(Npgvir911 Zrffntr) \aPNYY : Qevyy\aCYNPR : Fgngvba 1\aVASB : Qevyy vf ng Fgngvba 1 ng 1900 uef. Nffbpvngvba ohfvarff naq gerr ybg znvagranapr. Cyrnfr nggraq nf gurer vf gvzr frafvgvir ohfvarff sbe gur Nffbpvngvba naq cerc sbe gur jrrxraq gerr fnyrf.
 (Qvfcngpurq Pnyy (HSQ09880)) 82911 ORNPU NPPRFF EQ, Hzngvyyn, BE * GJB EVIREF PBEERPGVBANY VAFGVGHG * EBKOHEL EQ/UVTUJNL 730 *  * RZF *  * #01412020183 * Freivpr Pynff:
 (Qvfcngpurq Pnyy (HSQ09880)) 15 ZNEGVA QE, Hzngvyyn, BE * NATRY NFVNA ZNEG * PNEBYVAN EQ *  * RZF *  * #01412020140 * Freivpr Pynff: ERFQ\a53 LB znyr jub vf srryvat qvmm
 (Qvfcngpurq Pnyy (HSQ09880)) UVTUJNL 395 A/UVTUJNL 730, Hzngvyyn, BE *  * UVTUJNL 730 *  * SVER *  * #01412010067 * \agjvtf fzbyqrevat  ol gur Zpanel qnz fvta.

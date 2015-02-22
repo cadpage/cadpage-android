@@ -13,6 +13,16 @@ public class MSHernandoParser extends DispatchB2Parser {
   public MSHernandoParser() {
     super("E-911:", MSDeSotoCountyAParser.CITY_LIST, "HERNANDO", "MS");
     setupCallList(CALL_LIST);
+    setupMultiWordStreets(
+        "BLACK HAWK",
+        "GRAYS CREEK",
+        "GREEN DUCK",
+        "GREEN MEADOW",
+        "GREEN VILLAGE",
+        "LITTLE DOG",
+        "ROBERTSON GIN",
+        "VALLEY GATE"
+    );
   }
   
   private static final CodeSet CALL_LIST = new CodeSet(
