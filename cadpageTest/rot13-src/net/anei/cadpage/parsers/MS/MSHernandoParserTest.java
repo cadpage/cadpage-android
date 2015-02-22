@@ -52,8 +52,9 @@ choyvp pynff ZFUreanaqbCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "R-911:JP >JRYSNER PBAPREA AO 55 F/B ERFG NERN JRNGUREFGBA,WREEL 9018287574 Pnq: 2015-0000003764",
         "PBQR:JP",
-        "PNYY:JRYSNER PBAPREA AO", 
-        "NQQE:55 F & B ERFG NERN", //qbrf abg znc
+        "PNYY:JRYSNER PBAPREA", 
+        "NQQE:AO 55 FB ERFG NERN", //qbrf abg znc
+        "ZNQQE:55 & ERFG NERN", //qbrf abg znc
         "ANZR:JRNGUREFGBA,WREEL",
         "CUBAR:9018287574",
         "VQ:2015-0000003764");
@@ -73,8 +74,9 @@ choyvp pynff ZFUreanaqbCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G3",
         "R-911:ZINV >NPPVQRAG J/VAWHEVRF FO 55 A/B OET UREEVAT,XRVGU 9014930757 Pnq: 2015-0000003634",
         "PBQR:ZINV",
-        "PNYY:NPPVQRAG J/VAWHEVRF FO",
-        "NQQE:55 A & B OET", //qbrf abg znc
+        "PNYY:NPPVQRAG J/VAWHEVRF",
+        "NQQE:FO 55 AB OET", //qbrf abg znc
+        "ZNQQE:55 & OET",
         "ANZR:UREEVAT,XRVGU",
         "CUBAR:9014930757",
         "VQ:2015-0000003634");
@@ -280,8 +282,9 @@ choyvp pynff ZFUreanaqbCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G21",
         "R-911:ZINV >NPPVQRAG J/VAWHEVRF AO 55 A/B PBYQJNGRE NYOEVGGBA, WRERZL 3183553450 Pnq: 2015-0000000436",
         "PBQR:ZINV",
-        "PNYY:NPPVQRAG J/VAWHEVRF AO",
-        "NQQE:55 A & B PBYQJNGRE",
+        "PNYY:NPPVQRAG J/VAWHEVRF",
+        "NQQE:AO 55 AB PBYQJNGRE",
+        "ZNQQE:55 & PBYQJNGRE",
         "ANZR:NYOEVGGBA, WRERZL",
         "CUBAR:3183553450",
         "VQ:2015-0000000436");
@@ -348,10 +351,11 @@ choyvp pynff ZFUreanaqbCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G27",
         "R-911:PBZCE >PBZCYNVAG-ERPXYRFF QEVIVAT A/O 55 ARNE ZZ 275 KF: YBIR EQ UREANAQB OEBJA, OREIVPN 6016305530 Pnq: 2014-0000060936",
         "PBQR:PBZCE",
-        "PNYY:PBZCYNVAG-ERPXYRFF QEVIVAT A/O",
-        "NQQE:55 ARNE ZZ 275",
-        "ZNQQE:55 & ZZ 275",
+        "PNYY:PBZCYNVAG-ERPXYRFF QEVIVAT",
+        "NQQE:AO 55",
+        "ZNQQE:55 & YBIR EQ",
         "K:YBIR EQ",
+        "CYNPR:ARNE ZZ 275",
         "PVGL:UREANAQB",
         "ANZR:OEBJA, OREIVPN",
         "CUBAR:6016305530",
