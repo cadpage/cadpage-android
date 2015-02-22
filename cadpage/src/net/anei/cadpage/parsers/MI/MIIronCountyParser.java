@@ -47,7 +47,7 @@ public class MIIronCountyParser extends DispatchOSSIParser {
   @Override
   public Field getField(String name) {
     if (name.equals("MASH")) return new MyMashField();
-    if (name.equals("UNIT")) return new UnitField("[A-Z]?\\d+[A-Z]+|[A-Z]+\\d+", true);
+    if (name.equals("UNIT")) return new UnitField("(?!FS\\d+)(?:[A-Z]?\\d+[A-Z]+|[A-Z]+\\d+)", true);
     return super.getField(name);
   }
 
