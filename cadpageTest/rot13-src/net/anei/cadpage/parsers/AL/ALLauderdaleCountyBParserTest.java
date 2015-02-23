@@ -1,134 +1,29 @@
 cnpxntr arg.narv.pnqcntr.cnefref.NY;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.NY.NYSyberaprCnefreGrfg;
+vzcbeg arg.narv.pnqcntr.cnefref.NY.NYYnhqreqnyrPbhaglOCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
 /*
 Syberapr, NY
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Xvyyra Sver
 Ybpngvba: Xvyyra, NY, Havgrq Fgngrf
-Fraqre: YP911 Nyregf <pbas-1038466347@rireoevqtr.arg>
+Fraqre: @rireoevqtr.arg
 Fraqre: YP911 Abgvsvpngvba <pbas-1035781387@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-1035793747@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-1035568097@rireoevqtr.arg>
-Fraqre: YP911 Abgvsvpngvba <pbas-1032198107@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1023154067@rireoevqtr.arg>
-Fraqre: YP911 Abgvsvpngvba <pbas-1022331167@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1010664307@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-986829927@rireoevqtr.arg>
-Fraqre: YP911 Jrngure Nyreg <pbas-986091107@rireoevqtr.arg>
-Fraqre: YP911 Jrngure Nyreg <pbas-976035677@rireoevqtr.arg>
-Fraqre: YP911 Abgvsvpngvba <pbas-961825697@rireoevqtr.arg>
-Fraqre: YP911 Abgvsvpngvba <pbas-961738187@rireoevqtr.arg>
-Fraqre: YP911 Jrngure Nyreg <pbas-961435937@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-938933207@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-926497607@rireoevqtr.arg>
-Fraqre: YP911 Jrngure Nyreg <pbas-865205297@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-864244597@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-863730697@rireoevqtr.arg>
-Fraqre: YP911 Abgvsvpngvba <pbas-860877137@rireoevqtr.arg>
-Fraqre: YP911 Abgvsvpngvba <pbas-860822427@rireoevqtr.arg>
-Fraqre: YP911 Jrngure Nyreg <pbas-851158917@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-800399307@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-787700197@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-787691077@rireoevqtr.arg>
-Fraqre: YP911 Jrngure Nyreg <pbas-776697427@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-746176607@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-738418797@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-736493947@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-725225087@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-722422827@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-720642047@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-710764187@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-674022327@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-664856767@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-629357907@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-622934907@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-589950657@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-567293307@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-534004467@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-518588807@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-507562987@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-467233957@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-327817147@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-277112587@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-272692077@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-249195137@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-207804627@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-180261727@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-177189197@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-1848495058@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-1848479398@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-1841303038@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-1829181678@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1808874518@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1700275028@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-1690580928@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1684969508@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1680473188@rireoevqtr.arg>
-Fraqre: YP911 Abgvsvpngvba <pbas-1679745538@rireoevqtr.arg>
-Fraqre: YP911 Abgvsvpngvba <pbas-1672074658@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1671247028@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-1596954388@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1555647248@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1553329978@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1535358358@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1532586678@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1531012168@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-1508649638@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1480436338@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-1421809788@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1397389768@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1395676048@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1379271608@rireoevqtr.arg>
-Fraqre: 911cntvat <911cntvat@syberaprny.bet>
-Fraqre: 911 Nyregf <pbas-1375184268@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1368137888@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1361829858@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1361698678@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1361217458@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1360108708@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1359185138@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1330320108@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1313420748@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1313112198@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1300917728@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1298604078@rireoevqtr.arg>
-Fraqre: YP911 Nyregf <pbas-1298580778@rireoevqtr.arg>
-Fraqre: 911 Nyregf <pbas-1294971748@rireoevqtr.arg>
 
 (SXY15020016 RI- SQ-NFFVFG) Cev- XYISQ Nqqerff- PBHAGL EQ 404 PAGL Gvzr- 01:02 Pebff Fgerrgf- PBHAGL EQ 63/PBHAGL EQ 406 Rirag Glcr- SQ-NFFVFG Er-  2008 ZBHAGNVARRE, FGENAQRQ BA PB EQ 404, 2015 PEI VA SEBAG BS URE GUNG URE SEVRAQF VA, Rirag fgnpxrq ng: 02/21/15 00:55:05, NQIVFRQ YN21 OL CK, UR NQIVFRQ 10-6 @ GUVF GVZR, NNN NYFB QVQ NQIVFR GURL JRER RA EBHGR GB SRZNYR
-(JRNGURE HCQNGR) AJF UNF NQIVFRQ 1/10GU GB 1/4GU BS NA VAPU BS ENVA FGVYY GB PBZR NAQ JVYY SERRMR BA PBAGNPG. GUR GRZCRENGHER JVYY ABG ORTVA GB JNEZ HC HAGVY NSGRE ZVQAVTUG. HFR PNHGVBA BA EBNQJNLF QHR GB RKGERZRYL VPL PBAQGVBAF
-(Pnyyf) V unir crbcyr ba fgnaqol va pregnva nernf sbe erfcbafr gbavtug. Sbe nyy pnyyf gbavtug cyrnfr pbzr hc ba enqvb vs lbh ner erfcbaqvat. Jr qb abg arrq ohg n srj gb erfcbaq gb zrqvpnyf. Bayl gubfr gung ner pybfr. Gunax Gerag      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=219O1666NQ508S4642359R8495925QS28221293QR6R3Q48P     Cyrnfr pyvpx gb pbasvez
-(Pnyyf Sevqnl Avtug) Hagvy 8nz Fng jr jvyy eha NYY RZF pnyyf jvgu gur nzohynapr. Jr znl or noyr gb trg gb fprar rnfvre jvgu n 4 jurry qevir iruvpyr. Cyrnfr gnxr lbhe gvzr erfcbaqvat gb NYY pnyyf. Jr nyy arrq gb fgnl fnsr. Gunaxf Gerag      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=822NR77RO9Q627S9OQN1PRPP40S86P6S04N86N02PN5202Q1     Cyrnfr pyvpx gb pbasvez
-(JRNGURE HCQNGR) YNHQREQNYR PB JVYY ERZNVA @ NEBHAQ 25 QRTERRF JVGU BAR ZBER ONGPU BS CERPVCVGNGVBA NSSRPGVAT ZNVAYL GUR JRFGREA CNEG BS GUR PBHAGL. FUBHYQ PYVZO NOBIR SERRMVAT NSGRE ZVQAVTUG NAQ JNEZ HC BIRE GUR ARKG GJB QNLF JVGU 1 1/2 GB 2 VAPURF BS ENVA CBFFVOYR
 (STE15020039 RI- SVER-NYNEZ) Cev-  Nqqerff- 7820 PBHAGL EQ 73 PAGL Gvzr- 09:31 Pebff Fgerrgf- PBHAGL EQ 175/PBHAGL EQ 34 Rirag Glcr- SVER-NYNEZ Er-  NYG# 256-810-5836 -087.535737 +34.930687, SVER NYNEZF, SVER NYNEZF XRRC TBVAT BSS, AB FZBXR VA GUR ERFVQRAPR
-(JVAGRE JK HCQNGR) Nf bs 8nz: Orgjrra abba-3c nagvpvcngrq fabj jvgu n fyrrg zvkgher.  3c-6c genafvgvba gb fyrrg/serrmvat enva.  6c-zvqavtug fubhyq genafvgvba gb nyy enva.  Ntnva or pnershy ba ebnqf naq nqivfr bs nal punatrf va ebnq pbaqvgvbaf be cerpvc punatrf. Qvfcngpu
 (STE15020037 RI- SVER-FGEHPGHER) Cev-  Nqqerff- 8624 PBHAGL EQ 94 PAGL Gvzr- 01:44 Pebff Fgerrgf- PBHAGL EQ 338/PBHAGL EQ 340 Rirag Glcr- SVER-FGEHPGHER Er-  NYG# 256-443-1763 -087.525759 +35.001208, SRZNYR PNYYRE NQIVFRQ GUNG SEBZ ORAGF NAQ QRAGF GURER VF N QVEG EBNQ JURER SVER VF, SEBZ ORAGF NAQ QRAGF PNA FRR SVER, 455 PBHAGL EQ 94
 (SXY15020015 RI- SVER-FGEHPGHER) Cev- XYISQ Nqqerff- 300 ORRPUJBBQ QE PAGL Gvzr- 11:42 Pebff Fgerrgf- PBHAGL EQ 63/PBHAGL EQ 65 Rirag Glcr- SVER-FGEHPGHER Er-  NYG# 478-279-5651 -087.481685 +34.871196, PNYYRE ERCBEGVAT FGEHPGHER SVER, HAXABJA JUNG VF BA SVER
-(Jvagre Fgbez Jngpu-Ynhqreqnyr Pb) Jvagre Fgbez Jngpu vffhrq Sroehnel 19 ng 10:22NZ PFG hagvy Sroehnel 19 ng 11:00NZ PFG ol AJF
-(Jvagre Fgbez Jngpu-Ynhqreqnyr Pb) Jvagre Fgbez Jngpu vffhrq Sroehnel 19 ng 4:22NZ PFG hagvy Sroehnel 21 ng 6:00NZ PFG ol AJF
-(Pba'g) Grzcf ba Fngheqnl fubhyq evfr nobir serrmvat.  Cyrnfr hfr pnhgvba ba ebnqjnlf, nf vpl cngpurf fgvyy erznva.  Nf nyjnlf, jr nccerpvngr lbhe ercbegf bs ebnq pbaqvgvbaf.  Ynhqreqnyr 911
-(Jrngure Hcqngr) Va gur zbeavat, grzcrengherf jvyy or irel ybj jvgu gur jvaq puvyy sbepnfgrq gb or -3.  Grzcf ner abg rkcrpgrq gb trg vagb gur 20'f. Guhefqnl avtug, fabj jvyy ortva &nzc; eha guebhtu Sevqnl naq cbffvoyl Fngheqnl, raqvat nf enva...
-(Jvagre Fgbez Jngpu-Ynhqreqnyr Pb) Jvagre Fgbez Jngpu vffhrq Sroehnel 18 ng 3:03CZ PFG hagvy Sroehnel 21 ng 9:00NZ PFG ol AJF
 (SZY15020010 RI- SVER-NYNEZ) Cev-  Nqqerff- 135 RYGBA QNEOL EQ PAGL Gvzr- 06:43 Pebff Fgerrgf- / Rirag Glcr- SVER-NYNEZ Er-  SVER NYNEZ
 (SXY15020014 RI- ZQ-SHYY-NEERFG) Cev- XYISQ Nqqerff- 7222 QNYRJBBQ FG PAGL Gvzr- 18:03 Pebff Fgerrgf- ZNEL YRR QE/QRNQ RAQ Rirag Glcr- ZQ-SHYY-NEERFG Er-  NYG# 256-415-2709 -087.585840 +34.846251, CNFFRQ BHG, SHYY NEERFG, 20 LBS
-(Jvagre Fgbez Jneavat-Ynhqreqnyr Pb) Jvagre Fgbez Jneavat vffhrq Sroehnel 16 ng 3:09CZ PFG hagvy Sroehnel 17 ng 12:00NZ PFG ol AJF
-(Ebcr Pynff Gbavtug) Qhr gb vpl pbaqvgvbaf  gur Ebcr pynff sbe gbavtug unf orra erfpurqhyrq sbe Zbaqnl Sro 23eq @ 6. Fbeel sbe nal vapbairavrapr. Ybbx sbejneq gb frrvat lbh ng pynff arkg jrrx. Gerag      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=O1SS54O9O4SRN3R37690O78N185P344QQN86NRO09RS6R79N     Cyrnfr pyvpx gb pbasvez
-(Onfvp Ebcr Erserfure Pynff 6cz gbavtug) Guvf pynff vf sbe NYY CREFBAARY. Sbe gur pregvsvrq ebcr crefbaary lbh jvyy erprvir Ebcr Erfphr Erserfure perqvg naq gubfr gung ner abg pregvsvrq jvyy erprvir n Onfvf Ebcr pregvsvpngr. Cyrnfr geniry fnsr gb gur pynff. Vs lbh pnaabg or gurer ng 6 whfg trg gurer nfnc. Gunaxf Gerag      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=4S0R209N1R646Q670170207R5S960NO84S9P31886061NN80     Cyrnfr pyvpx gb pbasvez
-(Jrngure hcqngr pbagvahrq) Or pnershy jura bhg ba gur ebnqjnlf, jngpu sbe cbjre yvarf &nzc; gerr yvzof qbja &nzc; ercbeg nal punatrf va ebnq pbaqvgvbaf be bgure jrngure eryngrq riragf. Gunaxf
-(JRNGURE HCQNGR) Pbagvahr gb or Jrngure njner.  Cerpvcvgngvba jvyy pbagvahr gb snyy hagvy nsgre qnex. Gurer jvyy nyfb or jvaqf 15-20 zcu nsgre qnex.  Nal zbvfgher yrsg jvyy serrmr qhr gb gur grzcf gbavtug orvat va gur hccre grraf.
-(Jvagre Fgbez Jneavat-Ynhqreqnyr Pb) Jvagre Fgbez Jneavat vffhrq Sroehnel 16 ng 4:07NZ PFG hagvy Sroehnel 16 ng 12:00CZ PFG ol AJF
 (SXY15020012 RI- ZQ-SNYY-ZVABE) Cev- XYISQ Nqqerff- 341 OEVQTR EQ XVYY Gvzr- 19:17 Pebff Fgerrgf- CEVINGR QEVIR/FPUBBY YA Rirag Glcr- ZQ-SNYY-ZVABE Er-  NYG# 256-394-1256 -087.532432 +34.866185, Rirag fgnpxrq ng: 02/14/15 19:16:36, 81 LBS, SNYY J VAWHEVRF, YBPXRQ VAFVQR ERFVQRAPR
 (SSE15020170 RI- SVER-FGEHPGHER) Cev- SSE Nqqerff- 4104 SYBERAPR OYIQ SYBE Gvzr- 13:08 Pebff Fgerrgf- PBHAGL EQ 367/PEBFFBIRE Rirag Glcr- SVER-FGEHPGHER Er-  NYG# 931-698-5071 -087.586291 +34.842936, GENVYRE BA SVER, ** Rirag SXY15020009 genafsreerq ba hcqngr ol 9118833 ba 911qvfc02
 (SXY15020009 RI- SVER-FGEHPGHER) Cev- XYISQ Nqqerff- 4104 UJL 72 PAGL Gvzr- 13:08 Pebff Fgerrgf- PBHAGL EQ 473/NPPRFF EQ Rirag Glcr- SVER-FGEHPGHER Er-  NYG# 931-698-5071 -087.586291 +34.842936, GENVYRE BA SVER
-(Jvagre Fgbez Jngpu-Ynhqreqnyr Pb) Jvagre Fgbez Jngpu vffhrq Sroehnel 14 ng 5:11NZ PFG hagvy Sroehnel 15 ng 9:00NZ PFG ol AJF
-(Unhagrq Ubhfr Sevqnl Avtug) Fgvyy arrq uryc gbzbeebj avtug ng UU. Cyrnfr pnyy be grkg zr vs lbh pna uryc.  Gunaxf Gerag      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=RO8788S3PS93493R46PO768NO9P1Q05Q8481ORO2454RP37N     Cyrnfr pyvpx gb pbasvez
 (SXY15020008 RI- JERPX-VAWHEL) Cev- XYISQ Nqqerff- PBHAGL EQ 63/UJL 43 PAGL Gvzr- 16:33 Pebff Fgerrgf- PBHAGL EQ 63/UJL 43 Rirag Glcr- JERPX-VAWHEL Er-  XVYYRA SVER NQIVFRQ JERPX JVGU OYBPXNTR AB VAWHEVRF
-(fgngvba 2 & fgngvba 1 pbqr) Gur Ureevat Gehpx vf abj ng fgngvba 2 nybat jvgu Ratvar 8N. Gurer vf n xrl obk orfvqr gur qbbe naq gur pbqr vf 9117. Tb ol naq ybbx ng gur fgngvba naq frr ubj avpr vg vf. Nyfb gurer vf n arj pbqr obk ba fgngvba 1 gb bcra gb onl qbbe. Vg vf va gur fnzr ybpngvba naq gur pbqr vf 91170 lbh qb abg unir gb uvg gur cbhaq # fvta gunax lbh nyy sbe jung lbh       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=1RN574NP30293R2P7NPSO4N8865766Q536R54P17QNNQR27R     Cyrnfr pyvpx gb pbasvez
 (STE15020019 RI- SVER-FGEHPGHER) Cev-  Nqqerff- 30 PBHAGL EQ 354 PAGL Gvzr- 17:54 Pebff Fgerrgf- CEVINGR QEVIR/PBHAGL EQ 47 Rirag Glcr- SVER-FGEHPGHER Er-  NYG# 256-577-8480 -087.585776 +34.846251, FGEHPHGER SVER
 (SXY15020007 RI- SVER-FGEHPGHER) Cev- XYISQ Nqqerff- 4051 UJL 72 XVYY: @NEK ZBEGVF Gvzr- 15:23 Pebff Fgerrgf- / Rirag Glcr- SVER-FGEHPGHER Er-  NYG# 256-565-4114 -087.556572 +34.856690, FGEHPHGER, SVER, FZBXR IVFVOYR
 (SXY15020006 RI- SVER-FGEHPGHER) Cev- XYISQ Nqqerff- 4051 UJL 72 XVYY: @HAPYR PUNEYVRF Gvzr- 13:55 Pebff Fgerrgf- / Rirag Glcr- SVER-FGEHPGHER Er-  NYG# 256-443-1001 -087.496898 +34.859662, NEKZBGBEVF FZBXR PBZVAT REBZ OHVYQVAT
@@ -136,33 +31,25 @@ Fraqre: 911 Nyregf <pbas-1294971748@rireoevqtr.arg>
 (SXY15020003 RI- ZQ-SHYY-NEERFG) Cev- XYISQ Nqqerff- 316 PBYYRTR FG XVYY Gvzr- 14:28 Pebff Fgerrgf- BEPUNEQ FG/WBARF NI Rirag Glcr- ZQ-SHYY-NEERFG Er-  NYG# 256-577-0656 -087.556593 +34.856690, 77 LBZ SHYY NEERFG
 (SXY15020002 RI- ZQ-YVSG-NFFVFG) Cev- XYISQ Nqqerff- 1937 YVATREYBFG EQ PAGL Gvzr- 11:55 Pebff Fgerrgf- PRQNE CBVAG YA/QRNQ RAQ Rirag Glcr- ZQ-YVSG-NFFVFG Er-  RZF ERDHRFG YVSG NFFVG
 (SPF15020006 RI- SVER-FGEHPGHER) Cev-  Nqqerff- 570 PBHAGL EQ 415 PAGL Gvzr- 01:42 Pebff Fgerrgf- PBHAGL EQ 33/QRNQ RAQ Rirag Glcr- SVER-FGEHPGHER Er-  NYG# 256-366-4190 -087.436881 +34.819139, UBHFR SVER, 2 CREFBA OHEARQ
-(HETRAG!! Sverjbexf Qrgnvy Sro 7gu) V unq gur qngrf jebat ba gur Sverjbexf ng GC. Vg vf gbzbeebj FNGHEQNL SRO 7GU. V arrq nalbar ninvynoyr gb grkg zr be pnyy zr NFNC. Gunaxf Gerag      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=R8QP8Q436R3239QS305001280N51O33R3QS298512537P92N     Cyrnfr pyvpx gb pbasvez
 (SPF15020005 RI- SVER-NYNEZ) Cev-  Nqqerff- 1165 PBHAGL EQ 413 PAGL Gvzr- 21:26 Pebff Fgerrgf- PBHAGL EQ 412/QRNQ RAQ Rirag Glcr- SVER-NYNEZ Er-  XRLCNQ NPGVINGVBA BS GUR SVER NYNEZ
 (SZY15020003 RI- JERPX-VAWHEL) Cev-  Nqqerff- 1701 PBHAGL EQ 323 FGSY Gvzr- 08:16 Pebff Fgerrgf- / Rirag Glcr- JERPX-VAWHEL Er-  NYG# 858-254-9086 -087.624099 +34.836895
 (STE15020004 RI- SVER-FGEHPGHER) Cev-  Nqqerff- 1570 PBHAGL EQ 36 PAGL Gvzr- 08:42 Pebff Fgerrgf- PBHAGL EQ 73/PBHAGL EQ 392 Rirag Glcr- SVER-FGEHPGHER Er-  NPEBFF GUR EBNQ SEBZ OERNGUREVPX, UBHFR BA SVER, CEBONOYL ABG NG UBZR
-(Zrrgvat gbavtug) Erzvaqre erthyne zrrgvat gbavtug ng 7cz. V unir frireny guvatf V arrq gb qvfphff cyrnfr rirelbar cyrnfr nggraq.      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=5546NP0951SS333QQP1NO8R8NPO0OR7471QRNQ458382P952     Cyrnfr pyvpx gb pbasvez
 (STE15020002 RI- JERPX-VAWHEL) Cev-  Nqqerff- 5841 PBHAGL EQ 25 PAGL Gvzr- 07:46 Pebff Fgerrgf- UJL 64/PBHAGL EQ 388 Rirag Glcr- JERPX-VAWHEL Er-  JERPX VA QVGPU, AB BAR ZBIVAT NVE ONTF QRCYBLRQ
 (SXY15020001 RI- JERPX-VAWHEL) Cev- XYISQ Nqqerff- 1364 PBHAGL EQ 25 PAGL Gvzr- 13:05 Pebff Fgerrgf- OEVQTRJBBQ QE/CEVINGR QEVIR Rirag Glcr- JERPX-VAWHEL Er-  NYG# 256-394-6573 -087.527435 +34.866657, JERPX JVGU VAWHEL NAQ RAGENCZRAG
 (SXY15010011 RI- JERPX-VAWHEL) Cev- XYISQ Nqqerff- PBHAGL EQ 465/GHEGYR PBIR EQ PAGL Gvzr- 20:42 Pebff Fgerrgf- PBHAGL EQ 465/GHEGYR PBIR EQ Rirag Glcr- JERPX-VAWHEL Er-  NYG# 256-740-1465 -087.533741 +34.854383, Rirag fgnpxrq ng: 01/26/15 20:41:39, JERPX VAWHEVRF, Qhcyvpngr Rirag:Ybpngvba = PBHAGL EQ 465/GHEGYR PBIR EQ PAGL, Pebff Fgerrg 1 = PBHAGL EQ 465, Pebff Fgerrg 2 = GHEGYR PBIR EQ, Glcr = JERPX-VAWHEL - , Fhoglcr = OYBPXNTR, Pnyyre Cu Ahzore = (256) 572-5066, Pnyyre Nqqerff = 20 GBJRE EQ XVYYRA, Pnyy Fbhepr = NAV/NYV, Nynez Yriry = 0, NYG# 256-335-4529 -087.533698 +34.854351, JERPX, VAWHVERF, Raq bs Qhcyvpngr Rirag qngn
 (SPF15010022 RI- SVER-FGEHPGHER) Cev-  Nqqerff- 210 PBHAGL EQ 426 PAGL Gvzr- 10:49 Pebff Fgerrgf- PBHAGL EQ 31/PBHAGL EQ 68 Rirag Glcr- SVER-FGEHPGHER Er-  NYG# 256-394-5522 -087.481685 +34.871196, QELRE BA SVER
 (SXY15010010 RI- SVER-FGEHPGHER) Cev- XYISQ Nqqerff- 113 ZNHYQVA NI PAGL Gvzr- 09:58 Pebff Fgerrgf- BNXJBBQ FG/QNYRJBBQ FG Rirag Glcr- SVER-FGEHPGHER Er-  NYG# 256-740-7848 -087.624743 +34.835919, FZRYY BS FZBXR VA ERFVQRAPR
-(Onadhrg Gvpxrgf) Vs lbh jnag onadhrg gvpxrgf V arrq gb xabj ol 3cz gbqnl naq trg zbarl ghearq va. Cyrnfr pbagnpg zr ol gura. Gunaxf Gerag      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=4NO2N1QQ9O562R9947Q0676ORN79S82P5511Q01R06P5O2N9     Cyrnfr pyvpx gb pbasvez
 (SXY15010009 RI- JERPX-VAWHEL) Cev- XYISQ Nqqerff- 4021 SYBERAPR OYIQ PAGL: @TNEERGG PUVEBCENPGVP Gvzr- 18:20 Pebff Fgerrgf- / Rirag Glcr- JERPX-VAWHEL Er-  NYG# 256-810-1300 -087.556701 +34.856937, JERPX, CBFFVOYR VAWHEL
 (SXY15010008 RI- ZQ-YVSG-NFFVFG) Cev- XYISQ Nqqerff- 701 YBPXR FVK EQ XVYY: @UHAGRE'F EVQTR NCNEGZRAGF Gvzr- 20:01 Pebff Fgerrgf- CRQRA FG/UJL 72 Rirag Glcr- ZQ-YVSG-NFFVFG Er-  NCG P7, NG GUR ERDHRFG BS RZF, YVSG NFFVFG
 (SXY15010006 RI- SQ-NFFVFG) Cev- XYISQ Nqqerff- 701 YBPXR FVK EQ XVYY: @UHAGRE'F EVQTR NCNEGZRAGF Gvzr- 15:50 Pebff Fgerrgf- CRQRA FG/UJL 72 Rirag Glcr- SQ-NFFVFG Er-  NCG P7, RZF ERDHRFG SBE YVSG NFFVFG
-(Zngg Ubyqraf tenaqzbgure) Zngg'f tenaqzbgure cnffrq njnl gbqnl. Neenatrzragf gb sbyybj.      uggcf://qra2.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=4O042QQ39OSS05382P6N30NPO524Q15NS3R6N0656O6N912S     Cyrnfr pyvpx gb pbasvez
 (UJL 43 BCRAVAT) UJL 43 jvyy or bcravat nyy 4 ynarf ba GUHEFQNL. V arrq rirelbar gung jvyy  or ninvynoyr gb zbavgbe sbe pnyyf rfcrpvnyyl qhevat gur avtuggvzr qhr gb gur cbffvoyr vffhrf naq pbashfvba gung znl bpphe jvgu guvf. Gunaxf Gerag      uggcf://qra2.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=N2N562Q050QP601PN9S10N89317S83017826711R5N61O084     Cyrnfr pyvpx gb pbasvez
-(Erfcbafr sbe Jrqarfqnl) Nyy gehpxf unir orra zbirq onpx gb gur fgngvba.      uggcf://qra2.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=N1O8OQ6NR6R9PP8478977SQQ02561RQ0072R40R4S06RP039     Cyrnfr pyvpx gb pbasvez
-(Erfcbafr sbe Jrq 1/21) Erfcbafr gehpxf unir orra zbirq gb Znvagranapr Onea sbe gbqnl. Va gur rirag bs n Pnyy ercbeg gb Znvagranapr Onea gb trg n gehpx abg gur fgngvba qhr gb pbheg va frffvba naq cnexvat vffhrf. Ng gur raq bs gur qnl gur gehpxf jvyy or zbirq onpx gb gur fgngvba.Gunaxf      uggcf://qra2.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=R35SQR3PO96R9N11ON22205O4P5SO6483P2495NQQ8987951     Cyrnfr pyvpx gb pbasvez
 (STE15010025 RI- SVER-NYNEZ) Cev-  Nqqerff- 2019 PBHAGL EQ 394 PAGL: @YNHQREQNYR PUEVFGVNA AHEFVAT UBZR Gvzr- 13:29 Pebff Fgerrgf- PBHAGL EQ 395/PBHAGL EQ 397 Rirag Glcr- SVER-NYNEZ Er-  ZRPUNAVPNY EBBZ
 (STE15010020 RI- SVER-NYNEZ) Cev-  Nqqerff- 260 ZVYAREF PUNCRY EQ PAGL: @RY ERCBFB Gvzr- 16:08 Pebff Fgerrgf- PBHAGL EQ 8/QRNQ RAQ Rirag Glcr- SVER-NYNEZ Er-  MBAR 51 TRARENY SVER NYNEZ
-(YPNISQ Naahny Onadhrg) Gur Nffbpvngvba Onadhrg va Fng Wna31fg. Vs lbh arrq gvpxrgf cyrnfr yrg zr xabj nfnc. Gunaxf Qro      uggcf://qra2.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=P72763N1S56ROS1N4NO3O914N33QQNS8278N4O99Q0486RRO     Cyrnfr pyvpx gb pbasvez
 (SPF15010010 RI- JERPX-VAWHEL) Cev-  Nqqerff- PBHAGL EQ 111 PAGL Gvzr- 23:02 Pebff Fgerrgf- PBHAGL EQ 33/PBHAGL EQ 419 Rirag Glcr- JERPX-VAWHEL Er-  NYG# 256-349-3138 -087.481685 +34.871196, IRUVPYR JRAG VA N QVGPU, PBHAGL EQ 111, JERPX, ZNYR VF OYRRQVAT ERNYYL ONQ, PBHAGL EQ 111 BSS PE 33, Qhcyvpngr Rirag:Ybpngvba = PBHAGL EQ 33/PBHAGL EQ 111 PAGL, Pebff Fgerrg 1 = PBHAGL EQ 33, Pebff Fgerrg 2 = PBHAGL EQ 111, Glcr = JERPX-VAWHEL - , Fhoglcr = OYBPXNTR, Pnyyre Cu Ahzore = (256) 476-9549, Pnyyre Nqqerff = 22525 PB EQ 150 GBJA PERRX, Pnyy Fbhepr = NAV/NYV, Nynez Yriry = 0, NYG# 256-349-3138 -087.416410 +34.816092, PNYYRE ERCBEGVAT JERPX, GUBHTUG GUR BPPHCNAGF JRER GENCCRQ, JRAG ONPX GB IRUVPYR NAQ QEVIRE VF BHG, NAQ FGNGVAT GUNG UR VF ABG UHEG, NAQ CBYVPR NER BA GUR JNL, CKRQ NFG NAQ GURL UNIR ABG ERP'Q NAL PNYYF, Raq bs Qhcyvpngr Rirag qngn, NFG ABGVSVRQ, SVER NAQ RZF JVYY ARRQ GB FGNTR SBE YNFB, ** Pnfr ahzore KECQ1501115 unf orra nffvtarq sbe ETCQ:CQ, ** CBYVPR Vapvqrag Pbzznaq Gvzrf 01/15/15 23:06:51 &tg;&tg;&tg;&tg; Va gur Nern (10-81), FGNGR UNF 1 UE GB 1.5 UEF, ** Pnfr ahzore KSPF1500011 unf orra nffvtarq sbe PFISQ:SVER, FPRAR FNSR, RKGEVPNGVBA ARRQRQ, QEVIRE YRSG FPRAR, HAXABJA QVERPGVBA, BS GENIRY, SRZNYR ORVAT PBZONGVIR, NQHYG SRZNYR VF VA GUR IRUVPYR, *****************************, PBBEQVANGRF: YBA -87:25:41.2792 YNG 34:49:33.4933, *****************************
 (SZY15010008 RI- SVER-FGEHPGHER) Cev-  Nqqerff- 6001 PBHAGL EQ 47 FGSY: @EVIRE PUHEPU Gvzr- 15:22 Pebff Fgerrgf- / Rirag Glcr- SVER-FGEHPGHER Er-  NYG# 256-366-7439 -087.623649 +34.873288, FGEHPGHER SVER, ARNE, PUHEPU
 (PNAPRYYNGVBA BS JVAGRE JRNGURE NQIVFBEL) GUR JRNGURE RIRAG UNF ORRA PNAPRYYRQ--OHG OR NJNER GUNG JR NER FGVYY ERPRVIVAT FABJSNYY NAQ GURER PBHYQ OR YVZVGRQ IVFVOVYVGL, RFCRPVNYYL VA GUR RNFG RAQ BS GUR PBHAGL.  HFR PNHGVBA.
 (JK NQVFBEL) YNHQREQNYR PB VF HAQRE N JVAGRE JK NQIVFBEL HAGVY 6 CZ
 (STE15010018 RI- SVER-NYNEZ) Cev-  Nqqerff- 260 ZVYAREF PUNCRY EQ PAGL: @RY ERCBFB Gvzr- 09:14 Pebff Fgerrgf- PBHAGL EQ 8/QRNQ RAQ Rirag Glcr- SVER-NYNEZ Er-  TRARENY JNGRE SYBJ
-(Ercnvef nebhaq Fgngvba) Gur frcgvp flfgrz nebhaq Gbja Unyy vf haqre ercnve. Hfr gur RKVG gb trg gb gur Fgngvba. Cyrnfr hfr pnhgvba naq jngpu sbe nal iruvpyrf gung znl or rkvgvat vs lbh ner ragrevat.      uggcf://qra2.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=131N30Q65638339R23N90R767ON1NON38R26S1N574Q3O70O     Cyrnfr pyvpx gb pbasvez
 (STE15010012 RI- SVER-NYNEZ) Cev-  Nqqerff- 260 ZVYAREF PUNCRY EQ PAGL: @RY ERCBFB Gvzr- 18:14 Pebff Fgerrgf- PBHAGL EQ 8/QRNQ RAQ Rirag Glcr- SVER-NYNEZ Er-  JNJGRESYBJ NYNEZ
 (SXY15010005 RI- SVER-NYNEZ) Cev- XYISQ Nqqerff- 4051 UJL 72 XVYY: @HAPYR PUNEYVRF Gvzr- 14:05 Pebff Fgerrgf- / Rirag Glcr- SVER-NYNEZ Er-  SVER NYNEZ, FUBJVAT QHNY ZBQHYVNE, FCEVAXYRE EVFR
 (SXY15010004 RI- JERPX-VAWHEL) Cev- XYISQ Nqqerff- UJL 72/PBHAGL EQ 71 XVYY Gvzr- 07:47 Pebff Fgerrgf- UJL 72/PBHAGL EQ 71 Rirag Glcr- JERPX-VAWHEL Er-  NYG# 256-710-5799 -087.556701 +34.856937, JERPX J/RWRPGVBA
@@ -712,10 +599,10 @@ Fraqre: YP911 Nyregf <pbas-804915567@rireoevqtr.arg>
 (SSE15020181 RI- ZQ-PURFG-CNVA) Cev- SSE Nqqerff- 1850 QNEOL QE SYBE: @ZBAGERNG Gvzr- 23:06 Pebff Fgerrgf- QRPNGHE NI/UBYVQNL QE Rirag Glcr- ZQ-PURFG-CNVA Er-  FCRPVNY NQQERFF PBZZRAG:, ********************UVTUEVFR****************************, NCG 110, NYNEZ PBZCNAL NQIVFRQ SRZNYR ARRQF URE URNEG PURPXRQ BHG
 */
 
-choyvp pynff NYSyberaprCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff NYYnhqreqnyrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp NYSyberaprCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "", "NY");
+  choyvp NYYnhqreqnyrPbhaglOCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "YNHQREQNYR PBHAGL", "NY");
   }
   
   @Grfg
@@ -724,6 +611,6 @@ choyvp pynff NYSyberaprCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj NYSyberaprCnefreGrfg().trarengrGrfgf("G1");
+    arj NYYnhqreqnyrPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }
 }
