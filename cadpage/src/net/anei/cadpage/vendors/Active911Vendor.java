@@ -721,6 +721,7 @@ class Active911Vendor extends Vendor {
       "US/UT/BoxElderCounty",             "UTBoxElderCounty",
       "US/UT/SaltLakeCounty",             "UTSaltLakeCounty",
       "US/VA/AlbermarleCounty",           "VAAlbermarleCounty",
+      "US/VA/Alexandria",                 "VAAlexandria",
       "US/VA/AppomattoxCounty",           "VAAppomattoxCounty",
       "US/VA/BrunswickCounty",            "VABrunswickCounty",
       "US/VA/CityofRoanoke",              "VARoanokeCity",
