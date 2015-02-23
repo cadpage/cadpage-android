@@ -15,9 +15,4 @@ public class ORUmatillaCountyParser extends DispatchA20Parser {
   public String getFilter() {
     return "notifier@umatillacounty.net";
   }
-  
-  @Override
-  public int getMapFlags() {
-    return MAP_FLG_SUPPR_LA;
-  }
 }

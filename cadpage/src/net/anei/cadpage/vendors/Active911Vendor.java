@@ -595,6 +595,7 @@ class Active911Vendor extends Vendor {
       "US/OR/PortlandAMR",                "ORClackamasCountyC",
       "US/OR/PrinevillePD",               "ORCrookCounty",
       "US/OR/ShermanCounty",              "ORShermanCounty",
+      "US/OR/UmatillaCounty",             "ORUmatillaCounty",
       "US/OR/WashingtonCounty",           "ORWashingtonCounty",
       "US/OR/WheelerCounty",              "ORWheelerCounty",
       "US/OR/Woodburn",                   "ORMarionCounty",
