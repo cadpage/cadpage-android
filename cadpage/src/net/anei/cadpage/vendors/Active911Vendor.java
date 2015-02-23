@@ -266,6 +266,7 @@ class Active911Vendor extends Vendor {
       "US/ID/BlaineCounty",               "IDBlaineCounty",
       "US/ID/KootenaiCounty",             "IDKootenaiCountyParser",
       "US/IL/AdamsCounty",                "ILAdamsCounty",
+      "US/IL/CityofJoppa",                "ILMassacCounty",
       "US/IL/DownersGrove",               "ILDuPageCountyB",
       "US/IL/DupageCounty",               "ILDuPageCountyA",
       "US/IL/FairviewHeights",            "ILStClairCountyB",
