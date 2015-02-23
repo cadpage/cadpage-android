@@ -14,11 +14,6 @@ public class VAAlexandriaParser extends FieldProgramParser {
     super("ALEXANDRIA", "VA",
            "CALL:CALL! ADDR:ADDR! APT:APT! X-ST:X! UNIT:UNIT! INC#:ID! GPS:GPS! City:CITY? INFO:INFO!");
   }
-  
-  @Override
-  public int getMapFlags() {
-    return MAP_FLG_PREFER_GPS;
-  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
