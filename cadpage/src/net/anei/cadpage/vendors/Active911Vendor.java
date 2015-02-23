@@ -413,7 +413,7 @@ class Active911Vendor extends Vendor {
       "US/MO/CityofFestus",               "MOFestusB",
       "US/MO/CityofMonett",               "MOMonett",
       "US/MO/ClintonCounty",              "MOClintonCounty",
-      "US/MO/ColeCounty",                 "MOJeffersonCounty",
+      "US/MO/ColeCounty",                 "MOColeCounty",
       "US/MO/CrawfordCounty",             "MOCrawfordCountyB",
       "US/MO/FranklinCounty",             "MOFranklinCounty",
       "US/MO/GreeneCounty",               "MOGreeneCounty",
