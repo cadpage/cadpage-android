@@ -306,6 +306,7 @@ class Active911Vendor extends Vendor {
       "US/KY/BooneCounty",                "KYBooneCountyA",
       "US/KY/CampbellCounty",             "KYCampbellCounty",
       "US/KY/ChristianCounty",            "KYChristianCounty",
+      "US/KY/ClarkCounty",                "KYClarkCounty",
       "US/KY/ErlangerPD",                 "KYErlangerDispatch",
       "US/KY/GallatinCounty",             "KYGallatinCounty",
       "US/KY/HancockCounty",              "KYHancockCounty",
