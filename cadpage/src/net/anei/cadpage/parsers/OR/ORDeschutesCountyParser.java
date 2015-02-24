@@ -10,7 +10,7 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
   
   public ORDeschutesCountyParser() {
     super("DESCHUTES COUNTY", "OR",
-          "CALL PRI UNITSRC ADDR! MAP TIME");
+          "CALL+? PRI UNITSRC ADDR! MAP TIME");
     setupMultiWordStreets(
         "CATTLE DRIVE",
         "OLD BEND REDMOND"
@@ -25,6 +25,7 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    body = body.replace('\n', ' ');
     // Normally broken by dash field separators.
     // but a dash with a space on both side is probably a "REAL" dash and
     // needs to be projected from our parsing breaks
@@ -35,7 +36,11 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
     body = body.replace("20-22", "20%%22");
     body = body.replace("FOIN-FOLLETTE", "FOIN%%FOLLETTE");
     body = body.replace("Headache-No", "Headache%%No");
-    return parseFields(body.split("-"), 4, data);
+    body = body.replace("9-1-1", "9%%1%%1");
+    if (body.startsWith("--")) body = "-XXXX-" +  body.substring(3);
+    if (!parseFields(body.split("-"), 4, data)) return false;
+    if (data.strPriority.equals("XXXX")) data.strPriority = "";
+    return true;
   }
   
   @Override
@@ -52,7 +57,8 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
-      super.parse(field.replace("%%", "-"), data);
+      field = field.replace("%%", "-");
+      data.strCall = append(data.strCall, " - ", field);
     }
   }
   
