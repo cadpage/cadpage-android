@@ -52,6 +52,11 @@ public class MDWicomicoCountyAParser extends DispatchOSSIParser {
   }
   
   @Override
+  public String getProgram() {
+    return super.getProgram().replace("CITY", "CITY ST");
+  }
+  
+  @Override
   protected Field getField(String name) {
     if (name.equals("ID")) return new IdField("\\d{10}", true);
     return super.getField(name);
