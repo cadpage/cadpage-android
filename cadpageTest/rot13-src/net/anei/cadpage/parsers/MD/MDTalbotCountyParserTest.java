@@ -37,6 +37,10 @@ GNYOBGQRF  Gnyobg911:*Q 22 P-HAPBAFPVBHF/SNVAG 4474 OBBAR PERRX EQ NYREG J NOAEZ
 GNYOBGQRF  Gnyobg911:*Q 30 ERFVQRAGVNY SVER 4301 YBIREF YA FVATYR G30 Grkg HAFHOFPEVOR gb bcg bhg 
 GNYOBGQRF  Gnyobg911:*Q 62U ERFVQRAGVNY SVER 7513 RNFGBA PYHO QE FVATYR G60 Grkg HAFHOFPEVOR gb bcg bhg
 
+Pbagnpg: zvar <qrjf98@lnubb.pbz>
+Fraqre: 4702193527
+GNYOBGQRF  Gnyobg911:*T PNE NFFVFG SVER 8636 GHPXNUBR EQ P300 Grkg HAFHOFPEVOR gb bcg bhg
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Gnyobg QRF
 Ybpngvba: Rnfgba, ZQ, Havgrq Fgngrf
@@ -383,6 +387,18 @@ choyvp pynff ZQGnyobgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:7513 RNFGBA PYHO QE",
         "VASB:FVATYR",
         "HAVG:G60");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZvar() {
+
+    qbGrfg("G1",
+        "GNYOBGQRF  Gnyobg911:*T PNE NFFVFG SVER 8636 GHPXNUBR EQ P300 Grkg HAFHOFPEVOR gb bcg bhg",
+        "OBK:PNE",
+        "PNYY:NFFVFG SVER",
+        "NQQE:8636 GHPXNUBR EQ",
+        "HAVG:P300");
 
   }
 
