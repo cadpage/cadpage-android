@@ -9,41 +9,74 @@ public class TNClayCountyParser extends DispatchB2Parser {
   public TNClayCountyParser() {
     super(CITY_LIST, "CLAY COUNTY", "TN");
     setupCallList(CALL_LIST);
+    setupMultiWordStreets(
+        "AMOS MCLERRAN",
+        "B THOMPSON",
+        "BETT BUFORD",
+        "BILLIE HILL",
+        "CLAY COUNTY",
+        "DRY MILL CREEK",
+        "FIRE HALL",
+        "IN ROADWAY",
+        "JAMES WHITE",
+        "JIM SHORT",
+        "JOE STONE",
+        "KNOB CREEK",
+        "MAYFIELD BROWN",
+        "MOSS ARCOT",
+        "NEELEY CREEK",
+        "PEA RIDGE FIRETOWER",
+        "ROCK SPRINGS",
+        "ROSS BOLES",
+        "SCOTT HOLLOW",
+        "UNION HILL"
+    );
   }
   
+  @Override
+  protected boolean isPageMsg(String body) {
+    return body.contains(">") && body.contains(" Cad:");
+  }
+
+  @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_AT_MEANS_CROSS;
+  }
+
+
   private static final CodeSet CALL_LIST = new CodeSet(
-      "1006",      "BUSY",
-      "1043",      "WANT OFFICER",
-      "1045",      "VEHICLE ACCIDENT-PD",
-      "1046",      "VEHICLE ACCIDENT-INJURY", 
-      "1047",      "AMBULANCE NEEDED",
-      "1049",      "DRIVING WHILE DRUNK",
-      "1055B",     "RAPE",
-      "1056",      "PROWLER",
-      "1057",      "ALARM",
-      "1058",      "PUBLIC DRUNK",
-      "1082",      "SERVING WARRANT",
-      "1083",      "DOMESTIC VIOLENCE",
-      "1086A",     "DOMESTIC W/WEAPONS",
-      "1096",      "LARCENY",
-      "4-WHEE",    "4-WHEELER/MOTORCYCLE/ATV",
-      "ANIMAL",    "ANIMAL",
-      "CHESTP",    "CHEST PAIN",
-      "DEBRIS",    "DEBRIS",
-      "DIABET",    "DIABETIC", 
-      "FALLEN",    "FALL",
-      "HEART",     "HEART ATTACK",
-      "MOTAST",    "MOTORIST ASSIST",
-      "RECKLE",    "RECKLESS DRIVER",
-      "SEIZUR",    "SEIZURES",
-      "SICK",      "SICKNESS (GENERAL)",
-      "SOB",       "SHORT OF BREATH",
-      "STROKE",    "STROKE",
-      "SUSVEH",    "SUSPICIOUS VEHICLE",
-      "TEST",      "TEST CALL",
-      "UNLOCK",    "UNLOCK CAR DOOR",
-      "WATER",     "WATER OUTAGE",
-      "WELFAR",    "WELFARE CHECK"
+      "4-WHEELER/MOTORCYCLE/ATV",
+      "ALARM",
+      "AMBULANCE NEEDED",
+      "ANIMAL OR LIVESTOCK CALL",
+      "BUSY",
+      "CHEST PAIN",
+      "DEBRIS",
+      "DIABETIC", 
+      "DOMESTIC VIOLENCE",
+      "DOMESTIC W/WEAPONS",
+      "DRIVING WHILE DRUNK",
+      "FALL",
+      "HEART ATTACK",
+      "LARCENY",
+      "MOTORIST ASSIST",
+      "PROWLER",
+      "PUBLIC DRUNK",
+      "RAPE",
+      "RECKLESS DRIVER",
+      "SEIZURES",
+      "SERVING WARRANT",
+      "SHORT OF BREATH",
+      "SICKNESS (GENERAL)",
+      "STROKE",
+      "SUSPICIOUS VEHICLE",
+      "TEST CALL",
+      "UNLOCK CAR DOOR",
+      "VEHICLE ACCIDENT-INJURY", 
+      "VEHICLE ACCIDENT-PD",
+      "WANT OFFICER",
+      "WATER OUTAGE",
+      "WELFARE CHECK"
   );
 
   private static final String[] CITY_LIST = new String[]{
