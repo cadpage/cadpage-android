@@ -370,7 +370,7 @@ public abstract class MsgParser {
     // totally adamant that unstructured information never ever ever be visible
     // to the end users.  To the point where they will refuse to send dispatch
     // information to services who will not guarantee this.  So we will do
-    // are part to go with the flow....
+    // our part to go with the flow....
     if (msg.getAddress().contains("pwcgov.org")) {
       data.strSupp = "";
       String call = data.strCall;
