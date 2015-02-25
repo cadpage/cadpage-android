@@ -224,7 +224,7 @@ Fraqre: "Npgvir 911" <abercyl@orgurycq.pbz>
 choyvp pynff PGOrguryCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp PGOrguryCnefreGrfg() {
-    frgCnefre(arj PGOrguRyCnefre(), "ORGURY", "PG");
+    frgCnefre(arj PGOrguryCnefre(), "ORGURY", "PG");
   }
 
   @Grfg

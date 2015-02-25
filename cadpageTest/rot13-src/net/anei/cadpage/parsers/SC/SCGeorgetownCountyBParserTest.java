@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Trbetrgbja Pbhagl. FP
+Trbetrgbja Pbhagl. FP (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Trbetrgbja Pbhagl Furevss

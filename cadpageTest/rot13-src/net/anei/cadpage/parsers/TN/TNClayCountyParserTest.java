@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
-Naqrefba Pbhagl, GA
+Pynl Pbhagl, GA
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pynl Pbhagl R911

@@ -3,12 +3,12 @@ package net.anei.cadpage.parsers.CT;
 import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 
 /**
- * Bethal, CT
+ * Bethel, CT
  */
 
-public class CTBethElParser extends DispatchA27Parser {
+public class CTBethelParser extends DispatchA27Parser {
   
-  public CTBethElParser() {
+  public CTBethelParser() {
     super("BETHEL", "CT", "[A-Z]+\\d+|[A-Z]+EMS|[A-Z]+FD|TWR");
   }
   

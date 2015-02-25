@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 
 /**
- * Georgetown County, SC
+ * Georgetown County, SC (B)
  */
 public class SCGeorgetownCountyBParser extends DispatchPrintrakParser {
   

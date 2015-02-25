@@ -7,6 +7,6 @@ import net.anei.cadpage.parsers.GroupBestParser;
  */
 public class ORMultnomahCountyParser extends GroupBestParser {
   public ORMultnomahCountyParser() {
-    super(new ORMultnomahCountyAParser(), new ORMultnomahCountyBParser());
+    super(new ORMultnomahCountyAParser(), new ORMultnomahCountyBParser(), new ORMultnomahCountyCParser());
   }
 }

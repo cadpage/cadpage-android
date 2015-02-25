@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Mossac County, IL
+ * Massac County, IL
  */
 public class ILMassacCountyParser extends FieldProgramParser {
   

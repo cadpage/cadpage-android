@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Zhygabznu Pbhagl, BE
+Zhygabznu Pbhagl, BE (P) 
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zbhagnva Jnir F.N.E.
