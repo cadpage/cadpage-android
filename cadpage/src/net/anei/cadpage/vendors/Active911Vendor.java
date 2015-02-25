@@ -431,6 +431,7 @@ class Active911Vendor extends Vendor {
       "US/MO/Rejis",                      "MOStLouisCountyE",
       "US/MO/SouthernBoone",              "MOBooneCounty",
       "US/MO/StCharlesCounty",            "MOStCharlesCounty",
+      "US/MO/StLouisCounty",              "MOStLouisCountyC",
       "US/MO/StoneCounty",                "MOStoneCounty",
       "US/MS/Biloxi",                     "MSBiloxi",
       "US/MS/CityofHernando",             "MSHernando",
