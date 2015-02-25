@@ -50,13 +50,15 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
-
-    qbGrfg(NQQE, SYNT_BAYL_PVGL, "GRRCRR ZUC");
-    
   }
 
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(PNYY, SYNT_FGNEG_SYQ_ERD, "PURFG CNVA (ABA GENHZNGVP) 935 UJL 28 KF: PBZZBAF QE ZHYOREEL PBK.QRNAAN",
+        "PNYY:PURFG CNVA (ABA GENHZNGVP)",
+        "NQQE:935 UJL 28",
+        "K:PBZZBAF QE");
     
     qbGrfg(NQQE, "ARJ FG ORLBAQ NFU",
         "NQQE:ARJ FG");

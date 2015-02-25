@@ -553,6 +553,7 @@ class Active911Vendor extends Vendor {
       "US/OH/CityofTrenton",              "OHTrenton",
       "US/OH/CityofVandalia",             "OHMontgomeryCountyB",
       "US/OH/CityofXenia",                "OHGreeneCounty",
+      "US/OH/ClermontCounty",             "OHClermontCounty",
       "US/OH/DarkeCountySheriff",         "OHDarkeCounty",
       "US/OH/Fairfield",                  "OHFairfieldCounty",
       "US/OH/GeaugaCounty",               "OHGeaugaCountyB",

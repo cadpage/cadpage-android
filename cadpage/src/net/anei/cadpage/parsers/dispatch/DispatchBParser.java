@@ -375,6 +375,7 @@ public class DispatchBParser extends FieldProgramParser {
         "CHEST PAIN - SEVERE SOB",
         "CHEST PAIN-CLAMMY",
         "CHEST PAIN DIFF SPEAK BTW BRE",
+        "CHEST PAIN (NON TRAUMATIC)",
         "CHEST PAIN (NON-TRAUMATIC)",
         "CHEST PAIN/RESPIRATORY DISTRES",
         "CHEST PAINS",

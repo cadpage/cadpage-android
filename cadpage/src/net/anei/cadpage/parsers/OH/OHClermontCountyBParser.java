@@ -14,7 +14,7 @@ public class OHClermontCountyBParser extends DispatchA1Parser {
   
   @Override
   public String getFilter() {
-    return "utcc@union-township.oh.us";
+    return "dispatcher@safety-center.org,utcc@union-township.oh.us";
   }
   
   @Override
