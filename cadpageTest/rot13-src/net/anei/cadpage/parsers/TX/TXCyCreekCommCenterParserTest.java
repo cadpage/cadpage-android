@@ -97,6 +97,7 @@ Fraqre: 93001028
 Pbagnpg: Wbr Xvss <wgxvss@tznvy.pbz>
 Fraqre: PbzzPragre@pprzf.pbz
 PbzzPragre@pprzf.pbz: ab fhowrpg / 05/20 17:04 J SZ 1960-UP/IRGRENAF ZRZBEVN, ; Znc:331J- Fho: Ang:32Q01-HAX CEBOYRZ - HAX YVSR FG Havgf:Z522 Q52 K-Fg:IRGRENAF ZRZBEVNY
+PbzzPragre@pprzf.pbz / ab fhowrpg / 02/25 13:37 FCEVAT PLCERFF EQ-UP/FU 249 F, ; Znc:329A- Fho: Ang:29O01-ZIV - VAWHEVRF Havgf:Z511 SB368R Q52 K-Fg:FU 249 FO OHIVATUNHFR
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jrfg V-10 Qhgl Perj
@@ -2579,7 +2580,18 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:32Q01-HAX CEBOYRZ - HAX YVSR FG",
         "HAVG:Z522 Q52",
         "K:IRGRENAF ZRZBEVNY");
-    
+
+    qbGrfg("G2",
+        "PbzzPragre@pprzf.pbz / ab fhowrpg / 02/25 13:37 FCEVAT PLCERFF EQ-UP/FU 249 F, ; Znc:329A- Fho: Ang:29O01-ZIV - VAWHEVRF Havgf:Z511 SB368R Q52 K-Fg:FU 249 FO OHIVATUNHFR",
+        "QNGR:02/25",
+        "GVZR:13:37",
+        "NQQE:FCEVAT PLCERFF EQ & FU 249 F",
+        "ZNQQE:FCEVAT PLCERFF EQ & GK 249 F",
+        "ZNC:329A-",
+        "PNYY:29O01-ZIV - VAWHEVRF",
+        "HAVG:Z511 SB368R Q52",
+        "K:FU 249 FO / OHIVATUNHFR");
+ 
   }
 
   @Grfg

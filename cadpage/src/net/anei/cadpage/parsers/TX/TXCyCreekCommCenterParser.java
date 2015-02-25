@@ -14,7 +14,7 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
   
   private static final Pattern PART_MARKER = Pattern.compile("^\\d\\d:\\d\\d ");
   private static final Pattern DATE_PTN = Pattern.compile("(\\d+)/(\\d+)");
-  private static final Pattern MARKER = Pattern.compile("^(?:/ )?(?:(\\d\\d/\\d\\d) )?(?:(\\d\\d:\\d\\d) )?(?:Inc: *(\\d*);)?");
+  private static final Pattern MARKER = Pattern.compile("^(?:/ (?:no subject / )?)?(?:(\\d\\d/\\d\\d) )?(?:(\\d\\d:\\d\\d) )?(?:Inc: *(\\d*);)?");
   private static final Pattern MISSED_COLON_PTN = Pattern.compile("(?<=Map)(?=\\d)");
   private static final Pattern TRAILER = Pattern.compile(" +(\\d{8,}) *$");
   
@@ -71,10 +71,8 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
     
     data.strSource = subject;
     
-    if (body.startsWith("/ ")) body = body.substring(2).trim();
-    
     Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;  // Never happens anymore
+    if (!match.lookingAt()) return false;  // Never happens anymore
     data.strDate = getOptGroup(match.group(1));
     data.strTime = getOptGroup(match.group(2));
     data.strCallId = getOptGroup(match.group(3));
