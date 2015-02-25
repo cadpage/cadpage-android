@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.KY;
 
 import net.anei.cadpage.parsers.CodeSet;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 
@@ -9,11 +10,37 @@ public class KYLoganCountyParser extends DispatchB2Parser {
   
   public KYLoganCountyParser() {
     super("911-CENTER:",CITY_LIST, "LOGAN COUNTY", "KY");
+    setupMultiWordStreets(
+        "JAMES ROSE",
+        "KENNY STRATTON"
+   );
   }
   
   @Override
   public String getFilter() {
     return "911-CENTER@logancounty.ky.gov";
+  }
+
+  @Override
+  protected boolean parseAddrField(String field, Data data) {
+    field = field.replace('@', '&').replace(" AT ", " & ");
+    return super.parseAddrField(field, data);
+  }
+
+  @Override
+  protected CodeSet buildCallList() {
+    return new CodeSet(
+        "UNKNOWN",
+        "ALARM",
+        "AUTOMOBILE ACCIDENT",
+        "AUTOMOBILE ACCIDENT W/INJURIES",
+        "FIRE BRUSH",
+        "LIFTING ASSISTANCE",
+        "CHEST PAIN",
+        "DIFF BREATHING, SOA",
+        "MEDICAL / ALL OTHER",
+        "SMOKE INVESTIGATION"
+    );
   }
   
   private static final String[] CITY_LIST = new String[]{
@@ -22,23 +49,5 @@ public class KYLoganCountyParser extends DispatchB2Parser {
     "LEWISBURG",
     "OLMSTEAD",
     "RUSSELLVILLE"
-    };
-
-  @Override
-  protected CodeSet buildCallList() {
-    return new CodeSet(
-        
-        "?",        "UNKNOWN",
-        "304",      "ALARM",
-        "1045",     "AUTOMOBILE ACCIDENT",
-        "1046",     "AUTOMOBILE ACCIDENT W/INJURIES",
-        "F1",       "FIRE BRUSH",
-        "LA",       "LIFTING ASSISTANCE",
-        "M01",      "CHEST PAIN",
-        "M05",      "DIFF BREATHING",
-        "M10",      "MEDICAL / ALL OTHER",
-        "SMOKEI",   "SMOKE INVESTIGATION"
-
-    );
-  }
+  };
 }

@@ -320,6 +320,7 @@ class Active911Vendor extends Vendor {
       "US/KY/KSPP9",                      "KYStatePolice",
       "US/KY/LarueCounty",                "KYLaRueCounty",
       "US/KY/LawrenceCounty",             "KYLawrenceCounty",
+      "US/KY/LoganCounty",                "KYLoganCounty",
       "US/KY/Louisville",                 "KYLouisville",
       "US/KY/MadisonCounty",              "KYMadisonCounty",
       "US/KY/MarshallCountyFire",         "KYMarshallCounty",
