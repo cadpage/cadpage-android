@@ -61,7 +61,7 @@ Fraqre: shypbynaq.ybpny
 choyvp pynff BUShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp BUShygbaPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "SHYGBA PBHAGL", "BU");
+    frgCnefre(arj BUShygbaPbhaglCnefre(), "SHYGBA PBHAGL", "BU");
   }
   
   @Grfg
