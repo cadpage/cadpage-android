@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02212015</string>
-  <string name="release_version">v1.8.16</string>
+  <string name="release_date">02252015</string>
+  <string name="release_version">v1.8.17</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.17\n
+New Locations:\n
+Stockton, CA\n
+Bethel, CT\n
+Massac County, IL\n
+Clark County, KY\n
+Hernando, MS\n
+Multnomah County, OR (alt)\n
+Umatilla County, OR\n
+Georgetown County, SC (alt)\n
+Clay County, TN\n
+Harris County, TX\n
+\n
+Location Fixes:\n
+Hennepin County, MN\n
+St Louis County, MO\n
+Clermont County, OH\n
+Deschutes County, OR\n
+Missouri City, TX\n
+Canmore, AB, Canada\n
+\n      
 v1.8.16\n
 New Locations:\n
 Windham County, CT (alt)\n
@@ -86,23 +107,6 @@ Kosciusko County, IN\n
 Nassau County, NY\n
 Suffolk County, NY\n
 Warren County, VA\n
-\n      
-v1.8.11\n
-Location Fixes:\n
-Jackson County, GA\n
-Winfield County, GA\n
-Allegany County, MD\n
-Dorchester County, MD\n
-Kent County, MD\n
-Queen Annes County, MD\n
-Rockland County, NY\n
-Wake County, NC\n
-Loudoun County, TN\n
-Franklin County, VA\n
-Mineral County, WV\n
-\n
-General Fixes:\n
-Fixed problem reporting response status to new Active911 alert server.\n
   </string>
 </resources>
   
