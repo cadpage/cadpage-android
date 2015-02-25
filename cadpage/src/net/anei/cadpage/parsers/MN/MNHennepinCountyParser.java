@@ -109,6 +109,7 @@ public class MNHennepinCountyParser extends FieldProgramParser {
       "NHP", "NEW HOPE",
       "ORO", "ORONO",
       "OSE", "OSSEO",
+      "OTS", "OTSEGO",
       "PLY", "PLYMOUTH",
       "RAM", "RAMSEY COUNTY",
       "RCH", "RICHFIELD",
