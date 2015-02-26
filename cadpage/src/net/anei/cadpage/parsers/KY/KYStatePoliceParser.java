@@ -704,23 +704,6 @@ public class KYStatePoliceParser extends DispatchB2Parser {
     "STOPOVER",
     "VARNEY",
     "VIRGIE",
-
-    // Scott County
-    "SCOTT",
-    "SCOTT CO",
-    "SCOTT COUNTY",
-    "GEORGETOWN",
-    "SADIEVILLE",
-    "STAMPING GROUND",
-    
-    // Trimble County
-    "TRIMBLE",
-    "TRIMBLE CO",
-    "TRIMBLE COUNTY",
-    "BEDFORD",
-    "LOCUST",
-    "MILTON",
-    "WISES LANDING",
     
     // Robertson county
     "ROBERTSON",
@@ -729,6 +712,14 @@ public class KYStatePoliceParser extends DispatchB2Parser {
     "KENTONTOWN",
     "MOUNT OLIVET",
     "PIQUA",
+
+    // Scott County
+    "SCOTT",
+    "SCOTT CO",
+    "SCOTT COUNTY",
+    "GEORGETOWN",
+    "SADIEVILLE",
+    "STAMPING GROUND",
     
     // Shelby County
     "SHELBY",
@@ -754,7 +745,28 @@ public class KYStatePoliceParser extends DispatchB2Parser {
     "SIMPSONVILLE",
     "SOUTHVILLE",
     "TODDS POINT",
-    "WADDY"
+    "WADDY",
+    
+    // Simpson County
+    "SIMPSON",
+    "SIMPSON CO",
+    "SIMPSON COUNTY",
+    "FRANKLIN",
+    "GOLD CITY",
+    "MIDDLETON",
+    "NEOSHEO",
+    "PRICES MILL",
+    "PROVIDENCE",
+    "SALMONS",
+    
+    // Trimble County
+    "TRIMBLE",
+    "TRIMBLE CO",
+    "TRIMBLE COUNTY",
+    "BEDFORD",
+    "LOCUST",
+    "MILTON",
+    "WISES LANDING"
   };
 
 
