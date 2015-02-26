@@ -74,7 +74,7 @@ public class DispatchA27Parser extends FieldProgramParser {
     return super.getField(name);
   }
   
-  private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*?, [^,]*?),(?: \\d{5})?(?:, *([-+]?\\d+\\.\\d{4,}, *[-+]?\\d+\\.\\d{4,}))?");
+  private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*?, [^,]*?),(?: (?:\\d{5}|))?(?:, *([-+]?\\d+\\.\\d{4,}, *[-+]?\\d+\\.\\d{4,}))?");
   protected class BaseAddressField extends AddressCityField {
     
     @Override 

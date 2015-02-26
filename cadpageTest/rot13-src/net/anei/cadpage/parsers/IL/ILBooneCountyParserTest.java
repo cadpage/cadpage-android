@@ -280,10 +280,11 @@ choyvp pynff VYObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:Sver/Fzbxr Vairfgvtngvba ng V90 Zz 24 Jo, ORYIVQRER, , +42.2316920, -088.783199\a\aObbar Pagl Qvfg2 Sver Qrcg - 201500000051\a\aGvzr ercbegrq: 02/07/2015 5:04:12 CZ\aGvzr pbzcyrgrq: 02/07/2015 5:28:07 CZ\a\aHavg(f) erfcbaqrq: \a00000302\a00000341\a00000373\aR911 PYNFF: JEYF  YBP: 5166 SREA UVYY EQ - AJ  YNG: +42.2316920  YBA: -088.783199\a  <<Ybtf>>17:04:01 00000531:iru sver 190 ao zz 24; 17:06:34 00000531:pbee- v90; 17:19:50 00000531:341- qebir nyy gur jnl gb verar, pbhyg abg ybpngr iruvpry; 17:28:08 00000531:Vapvqrag Pybfrq");
 
     qbGrfg("G26",
-        "(Sver/Fzbxr Vairfgvtngvba ng 5166 SREA UVYY EQ - AJ, ORYIVQRER, , +42.2316920, -088.783199) <sbag  snpr=\"Gnubzn\" fvmr=\"2\" pbybe=\"Oynpx\">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Sver/Fzbxr Vairfgvtngvba ng 5166 SREA UVYY EQ - AJ, ORYIVQRER, , +42.2316920, -088.783199<oe><oe>Obbar Pagl Qvfg2 Sver Qrcg - 201500000051<oe><oe>Gvzr ercbegrq: 02/07/2015 5:04:12 CZ<oe></o><oe><oe>Havg(f) erfcbaqrq: <oe>R911 PYNFF: JEYF  YBP: 5166 SREA UVYY EQ - AJ  YNG: +42.2316920  YBA: -088.783199<oe>  <<Ybtf>>17:04:01 00000531:iru sver 190 ao zz 24<oe></sbag>",
+        "(Sver/Fzbxr Vairfgvtngvba ng 5166 SREA UVYY EQ - AJ, ORYIVQRER, , +42.2316920, -088.783199) <sbag  snpr=\\\"Gnubzn\\\" fvmr=\\\"2\\\" pbybe=\\\"Oynpx\\\">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Sver/Fzbxr Vairfgvtngvba ng 5166 SREA UVYY EQ - AJ, ORYIVQRER, , +42.2316920, -088.783199<oe><oe>Obbar Pagl Qvfg2 Sver Qrcg - 201500000051<oe><oe>Gvzr ercbegrq: 02/07/2015 5:04:12 CZ<oe></o><oe><oe>Havg(f) erfcbaqrq: <oe>R911 PYNFF: JEYF  YBP: 5166 SREA UVYY EQ - AJ  YNG: +42.2316920  YBA: -088.783199<oe>  <<Ybtf>>17:04:01 00000531:iru sver 190 ao zz 24<oe></sbag>",
         "PNYY:Sver/Fzbxr Vairfgvtngvba",
-        "NQQE:5166 SREA UVYY EQ - AJ, ORYIVQRER, +42.2316920", //uru
-        "PVGL:-088.783199",
+        "NQQE:5166 SREA UVYY EQ - AJ",
+        "PVGL:ORYIVQRER",
+        "TCF:+42.231692,-88.783199",
         "FEP:Obbar Pagl Qvfg2 Sver Qrcg",
         "VQ:201500000051",
         "QNGR:02/07/2015",
