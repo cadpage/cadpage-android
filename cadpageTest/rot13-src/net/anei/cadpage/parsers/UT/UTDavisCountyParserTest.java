@@ -80,4 +80,8 @@ choyvp pynff HGQnivfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
           "NQQE:78 J 800 A",
           "VASB:.FHVPVQNY GELVAT GB TRG N XAVSR");
   }
+  
+  choyvp fgngvp svany ibvq znva(Fgevat[] netf) {
+    arj HGQnivfPbhaglCnefreGrfg().trarengrGrfgf("G1");
+  }
 }
