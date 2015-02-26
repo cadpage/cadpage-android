@@ -548,6 +548,7 @@ class Active911Vendor extends Vendor {
       "US/NY/UlsterCounty",               "NYUlsterCounty",
       "US/NY/WayneCounty",                "NYWayneCountyB",
       "US/NY/WestchesterCounty",          "NYWestchesterCounty",
+      "US/OH/AllenCounty",                "OHAllenCounty",
       "US/OH/BelmontCounty",              "OHBelmontCounty",
       "US/OH/ButlerCountySheriff",        "OHButlerCountyA",
       "US/OH/ChampaignCounty",            "OHChampaignCounty",
