@@ -5,7 +5,8 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Zneyobeb CQ, AW
+Zneyobeb, AW
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Eboregfivyyr ISP #1
 Ybpngvba: Zbetnaivyyr, AW, Havgrq Fgngrf
