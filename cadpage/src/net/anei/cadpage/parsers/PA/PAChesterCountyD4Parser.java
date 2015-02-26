@@ -11,7 +11,7 @@ public class PAChesterCountyD4Parser extends PAChesterCountyBaseParser {
   private static final Pattern DELIM = Pattern.compile(" \\*\\*?(?= |$)");
   
   public PAChesterCountyD4Parser() {
-    super("DISPATCH TIME CALL EMPTY? ADDRCITY! ( X PLACE_PHONE CITY BOX! | PLACE ( NAME PHONE BOX! | NAME PHONE/Z BOX! | BOX | ) ) UNIT? INFO+? DATE CITY UNIT EMPTY");
+    super("DISPATCH TIME CALL EMPTY? ADDRCITY! ( X PLACE_PHONE CITY BOX! | PLACE ( NAME PHONE BOX! | NAME PHONE/Z BOX! | BOX | ) ) UNIT? INFO+? DATE CITY X? UNIT EMPTY");
   }
 
   @Override
