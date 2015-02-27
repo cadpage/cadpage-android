@@ -12,7 +12,7 @@ public class NCDurhamCountyParser extends DispatchOSSIParser {
   
   public NCDurhamCountyParser() {
     super(CITY_CODES, "DURHAM COUNTY", "NC",
-           "CALL ADDR! ( CITY!  | CODE CITY! | CH CODE? CITY! | X/Z CITY! | X/Z CODE CITY! | X/Z CH CODE? CITY! | X/Z X/Z CITY! |  X/Z X/Z CODE CITY/Y! | X/Z X/Z CH CODE? CITY! ) CH? INFO+");
+           "CALL ADDR! ( CITY!  | CODE CITY! | CH CODE? CITY! | X/Z CITY! | X/Z CODE CITY! | X/Z CH CODE? CITY! | X/Z X/Z CITY! |  X/Z X/Z CODE CITY/Y! | X/Z X/Z CH CODE? CITY! | ) UNIT? CH? INFO+");
   }
   
   @Override
@@ -34,6 +34,7 @@ public class NCDurhamCountyParser extends DispatchOSSIParser {
   public Field getField(String name) {
     if (name.equals("CODE")) return new MyCodeField();
     if (name.equals("CH")) return new MyChannelField();
+    if (name.equals("UNIT")) return new UnitField("(?:[A-Z]+\\d+|\\d+SQ|[A-Z]+FD)(?:,[,A-Z0-9]+)?", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
@@ -95,13 +96,17 @@ public class NCDurhamCountyParser extends DispatchOSSIParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "BAHA", "BAHAMA",
       "BUTN", "BAHAMA",   // ????
+      "CARY", "CARY",
       "CHAP", "CHAPEL HILL",
+      "CHAT", "CHATHAM COUNTY",
       "DURH", "DURHAM",
       "MORR", "MORRISVILLE",
       "HILL", "HILLSBOROUGH",
       "PERS", "PERSON COUNTY",
+      "RALE", "RALEIGH",
       "ROUG", "ROUGEMONT",
       "RTP",  "RESEARCH TRIANGLE PARK",
+      "WAKE", "WAKE COUNTY",
       
       "DURHAM",    "DURHAM"
   });

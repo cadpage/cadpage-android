@@ -738,6 +738,7 @@ class Active911Vendor extends Vendor {
       "US/TX/WylieFireDispatch",          "TXWylie",
       "US/UT/BoxElderCounty",             "UTBoxElderCounty",
       "US/UT/SaltLakeCounty",             "UTSaltLakeCounty",
+      "US/UT/TooeleCounty",               "UTTooeleCounty",
       "US/VA/AlbermarleCounty",           "VAAlbermarleCounty",
       "US/VA/Alexandria",                 "VAAlexandria",
       "US/VA/AppomattoxCounty",           "VAAppomattoxCounty",
