@@ -318,6 +318,7 @@ public class ParserList {
           ),
           new ParserCategory("Illinois"
               ,"ILAdamsCounty"                  ,"Adams County, IL"
+              ,"ILBooneCounty"                  ,"Boone County, IL"
               ,"ILChampaignUrbana"              ,"Champaign-Urbana, IL"
               ,"ILCookCounty"                   ,"Cook County, IL"
               ,"ILDuPageCounty"                 ,"DuPage County, IL"
@@ -452,6 +453,7 @@ public class ParserList {
               ,"LAJeffersonParish"              ,"Jefferson Parish, LA"
               ,"LALafayetteParish"              ,"Lafayette Parish, LA"
               ,"LALafourcheParish"              ,"Lafourche Parish, LA"
+              ,"LAOuachitaParish"               ,"Ouachita Parish, LA"
               ,"LAStCharlesParish"              ,"St Charles Parish, LA"
               ,"LAStTammanyParish"              ,"St Tammany Parish, LA"
               ,"LATerrebonneParish"             ,"Terrebonne Parish, LA"
