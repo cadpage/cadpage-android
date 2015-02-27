@@ -15,6 +15,9 @@ public class TXKaufmanCountyParser extends DispatchSouthernParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = stripFieldStart(body, "Dispatch:");
+    int pt = body.indexOf("\n");
+    if (pt >= 0) body = body.substring(0,pt).trim();
     body = body.replace('@', '&');
     return super.parseMsg(body, data);
   }
