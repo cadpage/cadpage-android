@@ -10,13 +10,23 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class ORColumbiaCountyParser extends FieldProgramParser {
 
   public ORColumbiaCountyParser() {
-    super("COLUMBIA COUNTY", "OR", "CALL! ADDR! PLACE? ( CH! MAP_TIME! | MAP_TIME! ) X:X?");
+    super("COLUMBIA COUNTY", "OR", 
+          "CALL! ( ADDR_TIME | ADDR! PLACE? ( CH! MAP_TIME! | MAP_TIME! ) ) X:X?");
   }
 
-  private static Pattern MUTUAL_AID_FORMAT = Pattern.compile("([A-Z0-9]+) (mutual aid to [A-Z0-9]+) at (.*?)(?:; *(.*?))? (for .*?)\\.");
+  private static Pattern ID_PTN = Pattern.compile("(\\d{8}) +");
+  private static Pattern MUTUAL_AID_FORMAT = Pattern.compile("([,A-Z0-9]+) (mutual aid to [A-Z0-9]+) at (.*?)(?:; *(.*?))? (for .*?)\\.");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    // Strip off optional leading ID
+    Matcher match = ID_PTN.matcher(body);
+    if (match.lookingAt()) {
+      data.strCallId = match.group(1);
+      body = body.substring(match.end());
+    }
+    
     // "mutual aid to" format
     Matcher mafMat = MUTUAL_AID_FORMAT.matcher(body);
     if (mafMat.matches()) {
@@ -32,11 +42,17 @@ public class ORColumbiaCountyParser extends FieldProgramParser {
 
     return super.parseFields(body.split("\n"), data);
   }
+  
+  @Override
+  public String getProgram() {
+    return "ID " +  super.getProgram();
+  }
 
   @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDR_TIME")) return new MyAddressTimeField();
     if (name.equals("MAP_TIME")) return new MyMapTimeField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("CH")) return new ChannelField("TAC.*", true);
@@ -82,7 +98,34 @@ public class ORColumbiaCountyParser extends FieldProgramParser {
     public String getFieldNames() {
       return "CITY ADDR APT";
     }
-
+  }
+  
+  private static final Pattern ADDR_TIME_PTN = Pattern.compile("(.*) (\\d{2}:\\d{2}:\\d{2})");
+  private class MyAddressTimeField extends MyAddressField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = ADDR_TIME_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strTime = match.group(2);
+      super.parse(match.group(1).trim(), data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " TIME";
+    }
   }
 
   private static Pattern MAP_TIME = Pattern.compile("(?:Map )?(.*?) +(\\d{2}:\\d{2}:\\d{2})");
@@ -119,13 +162,18 @@ public class ORColumbiaCountyParser extends FieldProgramParser {
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
-      data.strCross = field.replace(",", "/");
+      field = field.replace(',', '/');
+      field = stripFieldEnd(field, "/");
+      field = stripFieldStart(field, "/");
+      super.parse(field, data);
     }
   }
   
   //All codes excluding COL, MUL, and SCA are conjectures based on the format of the aforementioned three
   private static Properties CITY_CODES = buildCodeTable(new String[]{
+      "CC",  "COLUMBIA CITY",
       "CLA", "CLATSKAINE",
+      "CLT", "CLATSKANIE",
       "COL", "COLUMBIA",
       "MUL", "MULTNOMAH",
       "PRE", "PRESCOTT",
