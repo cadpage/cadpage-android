@@ -14,6 +14,69 @@ public class OHSummitCountyParser extends GroupBestParser {
            new OHSummitCountyCParser(),
            new OHSummitCountyDParser(),
            new OHSummitCountyEParser(),
-           new OHSummitCountyFParser());
+           new OHSummitCountyFParser(),
+           new OHSummitCountyGParser());
   }
+  
+  static final String[] CITY_LIST = new String[]{
+    
+    // Cities
+    "AKRON",
+    "BARBERTON",
+    "CAYAHOGA FALLS",
+    "FAIRLAWN",
+    "GREEN",
+    "HUDSON",
+    "MACEDONIA",
+    "MONROE FALLS",
+    "NEW FRANKLIN",
+    "NORTON",
+    "STOW",
+    "TALLMADGE",
+    "TWINSBURG",
+    
+    // Villages
+    "BOSTON HEIGHTS",
+    "CLINTON",
+    "LAKEMORE",
+    "MOGADORE",
+    "NORTHFIELD",
+    "PENINSULA",
+    "REMINDERVILLE",
+    "RICHFIELD",
+    "SILVER LAKE",
+    
+    // Townships
+    "BATH",
+    "BOSTON",
+    "COPLEY",
+    "COVENTRY",
+    "NORTHFIELD CENTER",
+    "RICHFIELD",
+    "SAGAMORE HILLS",
+    "SPRINGFIELD",
+    "TWINSBURG",
+    "BATH TWP",
+    "BOSTON TWP",
+    "COPLEY TWP",
+    "COVENTRY TWP",
+    "NORTHFIELD CENTER TWP",
+    "RICHFIELD TWP",
+    "SAGAMORE HILLS TWP",
+    "SPRINGFIELD TWP",
+    "TWINSBURG TWP",
+    "BATH TNSP",
+    "BOSTON TNSP",
+    "COPLEY TNSP",
+    "COVENTRY TNSP",
+    "NORTHFIELD CENTER TNSP",
+    "RICHFIELD TNSP",
+    "SAGAMORE HILLS TNSP",
+    "SPRINGFIELD TNSP",
+    "TWINSBURG TNSP",
+    
+    
+    // Medina County
+    "WADSWORTH"  
+  };
 }

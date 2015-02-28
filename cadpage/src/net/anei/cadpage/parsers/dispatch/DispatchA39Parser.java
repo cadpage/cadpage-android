@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA39Parser extends FieldProgramParser {
 
-  private static final String PROGRAM_STR = "( ADDR CALLINFO | CALL ADDR/iS5XXa! ) INFO+";
+  private static final String PROGRAM_STR = "( ADDR/S CALLINFO | CALL ADDR/iS5XXa! ) INFO+";
 
   public DispatchA39Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState, PROGRAM_STR);

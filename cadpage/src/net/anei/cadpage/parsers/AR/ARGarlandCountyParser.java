@@ -126,6 +126,7 @@ public class ARGarlandCountyParser extends DispatchProQAParser {
   private static final String[] CITY_LIST = new String[]{
     "MOUNTAIN PINE",
     "FOUNTAIN LAKE",
+    "JESSEVILLE",  // Misspelled
     "JESSIEVILLE",
     "LONSDALE",
     "HOT SPRINGS",

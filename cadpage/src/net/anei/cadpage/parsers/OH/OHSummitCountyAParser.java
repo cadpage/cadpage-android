@@ -15,7 +15,7 @@ public class OHSummitCountyAParser extends FieldProgramParser {
   }
   
   OHSummitCountyAParser(String defCity, String defState) {
-    super(CITY_LIST, defCity, defState,
+    super(OHSummitCountyParser.CITY_LIST, defCity, defState,
            "HNUM ADDR PLACE NAME? CITY CALL! INFO");
   }
   
@@ -128,7 +128,7 @@ public class OHSummitCountyAParser extends FieldProgramParser {
     @Override
     public boolean checkParse(String field, Data data) {
       String upField = field.toUpperCase();
-      for (String city : CITY_LIST) {
+      for (String city : OHSummitCountyParser.CITY_LIST) {
         if (upField.startsWith(city)) {
           data.strCity = field.substring(0,city.length());
           String unit = field.substring(city.length()).trim();
@@ -187,48 +187,4 @@ public class OHSummitCountyAParser extends FieldProgramParser {
   }
   private static final Pattern PAREN_DIR_PTN = Pattern.compile("(?<=^| )([^&\\d]*) \\(([NSEW])\\)");
   private static final Pattern CLEVE_MASS_PTN = Pattern.compile("\\bCleve-Mass\\b", Pattern.CASE_INSENSITIVE);
-  
-  private static final String[] CITY_LIST = new String[]{
-    
-    // Cities
-    "AKRON",
-    "BARBERTON",
-    "CAYAHOGA FALLS",
-    "FAIRLAWN",
-    "GREEN",
-    "HUDSON",
-    "MACEDONIA",
-    "MONROE FALLS",
-    "NEW FRANKLIN",
-    "NORTON",
-    "STOW",
-    "TALLMADGE",
-    "TWINSBURG",
-    
-    // Villages
-    "BOSTON HEIGHTS",
-    "CLINTON",
-    "LAKEMORE",
-    "MOGADORE",
-    "NORTHFIELD",
-    "PENINSULA",
-    "REMINDERVILLE",
-    "RICHFIELD",
-    "SILVER LAKE",
-    
-    // Townships
-    "BATH",
-    "BOSTON",
-    "COPLEY",
-    "COVENTRY",
-    "NORTHFIELD CENTER",
-    "RICHFIELD",
-    "SAGAMORE HILLS",
-    "SPRINGFIELD",
-    "TWINSBURG",
-    
-    
-    // Medina County
-    "WADSWORTH"  
-  };
 }

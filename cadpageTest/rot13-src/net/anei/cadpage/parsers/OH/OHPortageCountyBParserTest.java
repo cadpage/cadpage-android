@@ -213,7 +213,7 @@ choyvp pynff BUCbegntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G17",
         "(Qvfcngpu Zrffntr) 6766  INVE EQ   \aNonaqbarq ubhfr cbffvoyl ba sver",
-        "NQQE:6766  INVE EQ",
+        "NQQE:6766 INVE EQ",
         "PNYY:Nonaqbarq ubhfr cbffvoyl ba sver");
 
     qbGrfg("G18",
@@ -346,8 +346,8 @@ choyvp pynff BUCbegntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G38",
         "(Qvfcngpu Zrffntr)  \e8233  CNEX NI  \ejver qbja, abegu bs fpubby ba Cnex Nir",
-        "NQQE:8233  CNEX NI",
-        "ZNQQE:8233  CNEX NIR",
+        "NQQE:8233 CNEX NI",
+        "ZNQQE:8233 CNEX NIR",
         "PNYY:jver qbja",
         "VASB:abegu bs fpubby ba Cnex Nir");
 
