@@ -3,6 +3,7 @@ package net.anei.cadpage;
 import java.util.HashMap;
 
 import android.annotation.TargetApi;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.hardware.usb.UsbAccessory;
@@ -19,6 +20,8 @@ import android.os.Build;
 
 public class ManageUsb {
   
+  private static final String ACTION_USB_PERMISSION = "net.anei.cadpage.ManageUsb.USB_PERMISSION";
+ 
   private UsbProbeInterface realUsb;
   
   private ManageUsb() {
@@ -59,6 +62,7 @@ public class ManageUsb {
   public static class ManageUsbReal implements UsbProbeInterface {
     
     private UsbManager mgr = null;
+    private CommDevice commDevice = null;
     
     public void probe(Context context) {
       Log.v("Starting USB Probe");
@@ -79,6 +83,7 @@ public class ManageUsb {
           UsbDevice usbDev = devMap.get(devKey);
           Log.v("Device Key:" + devKey);
           dumpUsbDevice(usbDev);
+          connectDevice(context, usbDev);
         }
       }
     }
@@ -115,6 +120,8 @@ public class ManageUsb {
     
     public void onReceive(Context context, Intent intent) {
       if (mgr == null) return;
+      ContentQuery.dumpIntent(intent);
+      
       String action = intent.getAction();
       if (action == null) return;
       if (action.equals(UsbManager.ACTION_USB_ACCESSORY_ATTACHED) || action.equals(UsbManager.ACTION_USB_ACCESSORY_DETACHED)) {
@@ -125,10 +132,62 @@ public class ManageUsb {
       else if (action.equals(UsbManager.ACTION_USB_DEVICE_ATTACHED) || action.equals(UsbManager.ACTION_USB_DEVICE_DETACHED)) {
         Log.v(action);
         UsbDevice dev = (UsbDevice)intent.getParcelableExtra(UsbManager.EXTRA_DEVICE);
-        Log.v(dev == null ? "null" : dev.toString());
+        Log.v("Device:" + dev);
+        
+        if (dev != null && commDevice != null) {
+          UsbDevice dev2 = commDevice.getDevice();
+          if (dev2 != null && dev.getDeviceName().equals(dev.getDeviceName())) {
+            commDevice.close();
+            commDevice = null;
+          }
+        }
       }
-      
-      
+      else if (action.equals(ACTION_USB_PERMISSION)) {
+        synchronized (this) {
+          UsbDevice device = (UsbDevice) intent.getParcelableExtra(UsbManager.EXTRA_DEVICE);
+          UsbAccessory accessory = (UsbAccessory) intent.getParcelableExtra(UsbManager.EXTRA_ACCESSORY);
+          
+          if (device != null) {
+            if (intent.getBooleanExtra(UsbManager.EXTRA_PERMISSION_GRANTED, false)) {
+              Log.w("Permission granted for USB device:" + device);
+              connectDevice(context, device);
+            } else {
+              Log.w("Permission deined for USB device:" + device);
+            }
+          }
+          
+          else if (accessory != null) {
+            if (intent.getBooleanExtra(UsbManager.EXTRA_PERMISSION_GRANTED, false)) {
+              Log.w("Permission granted for USB accessory:" + accessory);
+            }
+            else {
+              Log.w("Permission denied for USB accessory:" + accessory);
+            }
+          }
+        }
+      }
+    }
+    
+    private static final int SEPURA_VENDOR_ID = 0x403;
+    private static final int SEPURA_PRODUCT_ID = 0x6001;
+    
+    private void connectDevice(Context context, UsbDevice device) {
+      if (device.getVendorId() == SEPURA_VENDOR_ID && device.getProductId() == SEPURA_PRODUCT_ID) {
+        
+        // If we do not have permission to use this device, ask for it
+        if (!mgr.hasPermission(device)) {
+          Intent intent = new Intent(ACTION_USB_PERMISSION);
+          intent.setClass(context, UsbReceiver.class);
+          PendingIntent pIntent = PendingIntent.getBroadcast(context, 0, intent, 0);
+          mgr.requestPermission(device, pIntent);
+          return;
+        }
+        
+        if (commDevice == null) {
+          commDevice = new CommDevice(mgr, device);
+          if (!commDevice.start()) commDevice = null;
+        }
+      }
     }
   }
   

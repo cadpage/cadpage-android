@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
   xmlns:android="http://schemas.android.com/apk/res/android"
-  package="net.anei.cadpage" android:versionName="1.8.18" android:versionCode="18180" >
+  package="net.anei.cadpage" android:versionName="1.8.18A" android:versionCode="18180" >
   
   <uses-sdk
     android:targetSdkVersion="21" android:minSdkVersion="8"/>
@@ -93,6 +93,22 @@
         <category android:name="net.anei.cadpage" />
       </intent-filter>
     </receiver>
+
+    <receiver android:name=".UsbReceiver">
+      <intent-filter>
+        <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+        <meta-data android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+                   android:resource="@xml/accessory_filter" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+        <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                   android:resource="@xml/device_filter" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="net.anei.cadpage.ManageUsb.USB_PERMISSION" />
+      </intent-filter>
+      </receiver>
     
     <receiver android:name=".ExternalEventReceiver">
       <intent-filter>
