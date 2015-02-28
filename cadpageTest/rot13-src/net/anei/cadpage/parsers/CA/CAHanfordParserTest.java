@@ -12,6 +12,9 @@ Ntrapl anzr: Unasbeq Sver Qrcg.
 Ybpngvba: Unasbeq, PN, Havgrq Fgngrf
 Fraqre: @pvglbsunasbeqpn.pbz
 
+(Qvfcngpurq Pnyy (USQN911)) 680 J UNASBEQ NEZBAN EQ, Unasbeq, PN * PURIEBA * F 12GU NIR/10 1/2 NIR *  * MSNYNEZ * 52 * #01502080049 * YNHAQEL ZSN // VAGREVBE 582-0888
+(Qvfcngpurq Pnyy (USQN911)) F 12GU NIR/J UNASBEQ NEZBAN EQ, Unasbeq, PN *  * J UNASBEQ NEZBAN EQ *  * MGNVAW * 52 * #01502070262 * ABA VAW / 2 IRUF VAIBYIRQ / OYH QBQTR ZNTAHZ  IF. JUV SBEQ S-150 / GURER VF EQ OYX \e\a\e\aPryyhyne R911 Pnyy: \e\aYng:36.313366  Yba:-119.67246\e\aFreivpr Pynff: JCU2\e\a\e\a
+
 (Qvfcngpurq Pnyy (USQN911)) 250 F 12GU NIR, Unasbeq, PN * JNYZNEG * TYRAQNYR NIR/GENK *  * MNZO * 45 * #140212259 * phfgbzre univat qvssvphygl oernguvat // gurl ner va gur fnyba gung vf pybfrfg gb gur fbhgu ragenapr
 (Qvfcngpurq Pnyy (USQN911)) 126 R RVTUGU FG, Unasbeq, PN *  * A UNEEVF FG/A OEBJA FG *  * MNZO * 42N * #140212198 * ZNYR CBFFVOYL UNIVAT N FRVMHER...\aPryyhyne R911 Pnyy: \aYng:36.327881  Yba:-119.64491\aFreivpr Pynff: JCU2
 (Qvfcngpurq Pnyy (USQN911)) 136 R RVTUGU FG, Unasbeq, PN *  * A UNEEVF FG/A OEBJA FG *  * MNZO * 42N * #140212198 * ZNYR CBFFVOYL UNIVAT N FRVMHER...\aPryyhyne R911 Pnyy: \aYng:36.327881  Yba:-119.64491\aFreivpr Pynff: JCU2
@@ -120,6 +123,38 @@ choyvp pynff PNUnasbeqCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCnefre() {
+
+    qbGrfg("K1",
+        "(Qvfcngpurq Pnyy (USQN911)) 680 J UNASBEQ NEZBAN EQ, Unasbeq, PN * PURIEBA * F 12GU NIR/10 1/2 NIR *  * MSNYNEZ * 52 * #01502080049 * YNHAQEL ZSN // VAGREVBE 582-0888",
+        "HAVG:USQN911",
+        "NQQE:680 J UNASBEQ NEZBAN EQ",
+        "PVGL:Unasbeq",
+        "CYNPR:PURIEBA",
+        "K:F 12GU NIR/10 1/2 NIR",
+        "PBQR:MSNYNEZ",
+        "PNYY:Sver Nynez",
+        "ZNC:52",
+        "VQ:01502080049",
+        "VASB:YNHAQEL ZSN // VAGREVBE 582-0888");
+
+    qbGrfg("K2",
+        "(Qvfcngpurq Pnyy (USQN911)) F 12GU NIR/J UNASBEQ NEZBAN EQ, Unasbeq, PN *  * J UNASBEQ NEZBAN EQ *  * MGNVAW * 52 * #01502070262 * ABA VAW / 2 IRUF VAIBYIRQ / OYH QBQTR ZNTAHZ  IF. JUV SBEQ S-150 / GURER VF EQ OYX \e\a" +
+        "\e\a" +
+        "Pryyhyne R911 Pnyy: \e\a" +
+        "Yng:36.313366  Yba:-119.67246\e\a" +
+        "Freivpr Pynff: JCU2\e\a" +
+        "\e\a",
+
+        "HAVG:USQN911",
+        "NQQE:F 12GU NIR & J UNASBEQ NEZBAN EQ",
+        "PVGL:Unasbeq",
+        "K:J UNASBEQ NEZBAN EQ",
+        "PBQR:MGNVAW",
+        "PNYY:Genssvp Nppvqrag jvgu Vawhel",
+        "ZNC:52",
+        "VQ:01502070262",
+        "TCF:+36.313366,-119.672460",
+        "VASB:ABA VAW / 2 IRUF VAIBYIRQ / OYH QBQTR ZNTAHZ / IF. JUV SBEQ S-150 / GURER VF EQ OYX");
 
     qbGrfg("G1",
         "(Qvfcngpurq Pnyy (USQN911)) 250 F 12GU NIR, Unasbeq, PN * JNYZNEG * TYRAQNYR NIR/GENK *  * MNZO * 45 * #140212259 * phfgbzre univat qvssvphygl oernguvat // gurl ner va gur fnyba gung vf pybfrfg gb gur fbhgu ragenapr",

@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.AR;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -14,6 +15,7 @@ public class ARGarlandCountyParser extends DispatchProQAParser {
   public ARGarlandCountyParser() {
     super(CITY_LIST, "GARLAND COUNTY", "AR",
            "PRI ADDR! APT? ( PLACE CITY/Z ZIP | CITY/Z ZIP | ( PLACE CITY | CITY | ) CALL+? ) INFO+");
+    setupGpsLookupTable(GPS_LOOKUP_TABLE);
   }
   
   @Override
@@ -116,13 +118,18 @@ public class ARGarlandCountyParser extends DispatchProQAParser {
     }
   }
   
+  private static final Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
+      "215 HWY 290",   "+34.412122,-93.089761",
+      "1144 HWY 290",  "+34.402439,-93.065960"
+  });
+  
   private static final String[] CITY_LIST = new String[]{
-    "HOT SPRINGS",
     "MOUNTAIN PINE",
     "FOUNTAIN LAKE",
     "JESSIEVILLE",
     "LONSDALE",
     "HOT SPRINGS",
+    "HOT SPRINGS VILLAGE",
     "LAKE HAMILTON",
     "PEARCY",
     "PINEY",
@@ -134,6 +141,13 @@ public class ARGarlandCountyParser extends DispatchProQAParser {
     "WHITTINGTON TWP",
     
     // Hot springs county
-    "BONNERDALE"
+    "BONNERDALE",
+    "MALVERN",
+    
+    // Montgomery County
+    "STORY",
+    
+    // Saline County
+    "BENTON"
   };
 }
