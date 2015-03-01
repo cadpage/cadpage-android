@@ -11,6 +11,8 @@ Ntrapl anzr: Ivyyntr SQ
 Ybpngvba: Ubhfgba, GK, Havgrq Fgngrf
 Fraqre: "=?HGS-8?O?IxMRVRSfMKW0?=" <pbagnpg@ivyyntrsver.bet>
 
+(NYREG) PNYY: NHGBZNGVP NVQ (USQ)\e\aCYNPR: \e\aNQQE: 361  a_cbfg_bnx_ya\e\aPEBFF: zrzbevny qe\e\aPVGL:  UBHFGBA\e\aVQ: 2015-0130\e\aQNGR: 1/25/2015\e\aGVZR: \e\aZNC:    Xrl Znc: 491u\e\aHAVG:      Y1\e\aVASB: q28, ncg sver fjgnp11   \e\a\e\a\e\aCERCYNA:
+
 (=?HGS-8?O?DHkSHyD=?=) PNYY: Snyy Ivpgvz\aCYNPR: ubzr qrcbg\aNQQE: 8400 XNGL_SERRJNL\aPEBFF: PRAGENY ZRZBEVNY CNEX \aPVGL: fcevat inyyrl\aVQ: 2015-0305\aQNGR: 2/28/2015\aGVZR: \aZNC: X 3   Xrl Znc: 491-o \aHAVG:  E1   R2 \aVASB:  RAGENAPR BSS SRRQRE EBNQ ORGJRRA JVEG NAQ JRFG ZRZBEVNY CNEX.\a                     4 1/2” Fgrnzref ba ulqenagf\a\a\a\aCERCYNA:
 (=?HGS-8?O?DHkSHyD=?=) PNYY: NHGBZNGVP NVQ (USQ)\aCYNPR: bnxf bs jbbq ynxr ncgf\aNQQE: 21 gnatyrjvyqr\aPEBFF: jbbqynxr\aPVGL:  UBHFGBA\aVQ: 2015-0304\aQNGR: 2/28/2015\aGVZR: \aZNC:    Xrl Znc: 490 g\aHAVG:      Y1\aVASB: q83 ncg sver fjeb10   \a\a\aCERCYNA:
 (=?HGS-8?O?DHkSHyD=?=) PNYY: Sver Nynez - Ohfvarff\aCYNPR: FCEVAT OENAPU NQZVA OYQT\aNQQE: 955 PNZCORYY_EQ\aPEBFF: TNLYBEQ\aPVGL: URQJVT\aVQ: 2015-0303\aQNGR: 2/28/2015\aGVZR: \aZNC: T 3   Xrl Znc: 490 p\aHAVG:     R2 \aVASB: yrnqrefuvc ohvyqvat, nhqvoyr nynez,  sebz tnlybeq, svefg ohvyqvat ba yrsg. \asebz xngl sejl, svefg ohvyqvat ba evtug. \a\aFcevat Oenapu Vaq Fpubby Qvfgevpg Nqzvavfgengvba Ohvyqvat.  \aCERCYNA:
@@ -121,6 +123,32 @@ choyvp pynff GKIvyyntrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
     @Grfg
     choyvp ibvq grfgCnefre() {
+
+      qbGrfg("G0",
+          "(NYREG) PNYY: NHGBZNGVP NVQ (USQ)\e\a" +
+          "CYNPR: \e\a" +
+          "NQQE: 361  a_cbfg_bnx_ya\e\a" +
+          "PEBFF: zrzbevny qe\e\a" +
+          "PVGL:  UBHFGBA\e\a" +
+          "VQ: 2015-0130\e\a" +
+          "QNGR: 1/25/2015\e\a" +
+          "GVZR: \e\a" +
+          "ZNC:    Xrl Znc: 491u\e\a" +
+          "HAVG:      Y1\e\a" +
+          "VASB: q28, ncg sver fjgnp11   \e\a" +
+          "\e\a" +
+          "\e\a" +
+          "CERCYNA:",
+
+          "PNYY:NHGBZNGVP NVQ (USQ)",
+          "NQQE:361  a cbfg bnx ya",
+          "K:zrzbevny qe",
+          "PVGL:UBHFGBA",
+          "VQ:2015-0130",
+          "QNGR:1/25/2015",
+          "ZNC:491u",
+          "HAVG:Y1",
+          "VASB:q28, ncg sver fjgnp11   \a\a\aCERCYNA:");
 
       qbGrfg("G1",
           "(=?HGS-8?O?DHkSHyD=?=) PNYY: Snyy Ivpgvz\a" +
