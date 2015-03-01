@@ -323,17 +323,6 @@ public class C2DMService extends IntentService {
     // agency code = intent.getStringExtra("agency_code");
     String infoUrl = intent.getStringExtra("info_url"); 
     
-    // See if we need to correct for character set problems
-    // Seems to be no longer necessary
-//    String charset = intent.getStringExtra("charset");
-//    if (charset != null && charset.length() > 0 && !charset.equals("UTF-8")) {
-//      try {
-//        content = new String(content.getBytes(charset), "UTF-8");
-//      } catch (UnsupportedEncodingException e) {
-//        Log.e("charset " + charset + " not supported");
-//      }
-//    }
-    
     // If page includes a server receive time, and page has arrived within
     // a reasonable window of that time, reset the refresh ID timer.
     // If there is no server receive time, always reset the refresh ID timer
@@ -346,19 +335,22 @@ public class C2DMService extends IntentService {
     // Add to log buffer
     if (!SmsMsgLogBuffer.getInstance().add(message)) return;
     
+    // If we are checking for split direct pages, pass this to the message accumulator
+    // It will be responsible for calling SmsReceiver.processCadPage()
+    if (ManagePreferences.splitDirectPage()) {
+      SmsMsgAccumulator.instance().addMsg(this, message, true);
+    }
+    
     // See if the current parser will accept this as a CAD page
-    boolean isPage = message.isPageMsg(SmsMmsMessage.PARSE_FLG_FORCE);
-    
-    // This should never happen, 
-    if (!isPage) return;
-    
-    // Process the message on the main thread
-    CadPageApplication.getMainHandler().post(new Runnable(){
-      @Override
-      public void run() {
-        SmsReceiver.processCadPage(C2DMService.this, message);
-      }
-    });
+    else {
+      boolean isPage = message.isPageMsg(SmsMmsMessage.PARSE_FLG_FORCE);
+      
+      // This should never happen, 
+      if (!isPage) return;
+      
+      // Process the message on the main thread
+      SmsReceiver.processCadPage(message);
+    }
   }
   
   @Override

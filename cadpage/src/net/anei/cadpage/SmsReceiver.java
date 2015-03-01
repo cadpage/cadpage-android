@@ -1,11 +1,8 @@
 package net.anei.cadpage;
 
-import android.app.AlarmManager;
-import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.telephony.SmsMessage;
 import android.telephony.TelephonyManager;
 import android.telephony.SmsMessage.MessageClass;
@@ -13,9 +10,6 @@ import android.telephony.SmsMessage.MessageClass;
 public class SmsReceiver extends BroadcastReceiver {
   
   private static final String ACTION_SMS_RECEIVED = "android.provider.Telephony.SMS_RECEIVED";
-  
-  private static final String EXTRA_TIMEOUT = "net.anei.cadpage.SmsReceive.MSG_TIMEOUT";
-  private static final String EXTRA_TIMEOUT_ID = "net.anei.cadapge.SmsReceive.TIMEOUT_ID";
 
   @Override
   public synchronized void onReceive(Context context, Intent intent) {
@@ -25,69 +19,51 @@ public class SmsReceiver extends BroadcastReceiver {
     // If initialization failure in progress, shut down without doing anything
     if (TopExceptionHandler.isInitFailure()) return;
     
-    // If one of our message accumulator timeouts has tripped, report it
-    SmsMsgAccumulator accumulator = SmsMsgAccumulator.instance();
-    if (intent.getBooleanExtra(EXTRA_TIMEOUT, false)) {
-      long id = intent.getLongExtra(EXTRA_TIMEOUT_ID, 0);
-      if (id != 0) accumulator.timeout(id);
-    }
-    
-    // Otherwise pick up and process a new message
-    else {
-       
-      // Otherwise convert Intent into an SMS/MSS message
-      SmsMmsMessage message = null;
-      if (ACTION_SMS_RECEIVED.equals(intent.getAction())) {
-        SmsMessage[] messages = getMessagesFromIntent(intent);
-        if (messages == null) return;
-        message = new SmsMmsMessage( messages,System.currentTimeMillis());
-        if (message.getMessageBody().length() == 0) return;
-        
-        // See if this is a vendor discovery query.  If it is, make it go away
-        if (message.isDiscoveryQuery(context)) {
-          abortBroadcast();
-          return;
-        }
-        
-        // Save message for future test or error reporting use
-        // If message is rejected as duplicate, don't do anything except call
-        // abortbroadcast to keep it from going to anyone else
-        if (! SmsMsgLogBuffer.getInstance().add(message)) {
-          if (! ManagePreferences.smspassthru()) abortBroadcast();
-          return;
-        }
+    // Otherwise convert Intent into an SMS/MSS message
+    SmsMmsMessage message = null;
+    if (ACTION_SMS_RECEIVED.equals(intent.getAction())) {
+      SmsMessage[] messages = getMessagesFromIntent(intent);
+      if (messages == null) return;
+      message = new SmsMmsMessage( messages,System.currentTimeMillis());
+      if (message.getMessageBody().length() == 0) return;
+      
+      // See if this is a vendor discovery query.  If it is, make it go away
+      if (message.isDiscoveryQuery(context)) {
+        abortBroadcast();
+        return;
       }
       
-      // If we didn't get a message, bail out
-      if (message == null) return;
-      
-      // If this was an incomplete MMS message picked up by the process last
-      // message option, bail out
-      if (message.getMessageBody() == null) return;
-      
-      // Class 0 SMS, let the system handle this
-      if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS &&
-          message.getMessageClass() == MessageClass.CLASS_0) return;
-      
-      // Pass message to accumulator
-      // If the accumulator accepted it, and we aren't passing messages to the
-      // default messaging app, abort broadcast to any further receivers
-      boolean grabbed = accumulator.addMsg(message);
-      if (grabbed) {
-        FilterOptions options = message.getFilterOptions();
-        if (options.blockTextMsgEnabled()) abortBroadcast();
+      // Save message for future test or error reporting use
+      // If message is rejected as duplicate, don't do anything except call
+      // abortbroadcast to keep it from going to anyone else
+      if (! SmsMsgLogBuffer.getInstance().add(message)) {
+        if (! ManagePreferences.smspassthru()) abortBroadcast();
+        return;
       }
     }
-      
-    // Set or clear any timeouts requested by msg accumulator
-    long id = accumulator.startTimeoutId();
-    if (id > 0) setReminder(context, id, false);
-    id = accumulator.cancelTimeoutId();
-    if (id > 0) setReminder(context, id, true);
     
-    // See if we have a live message to process, and if so, do it
-    SmsMmsMessage msg = accumulator.nextMsg();
-    if (msg != null) processCadPage(context, msg);
+    // If we didn't get a message, bail out
+    if (message == null) return;
+    
+    // If this was an incomplete MMS message picked up by the process last
+    // message option, bail out
+    if (message.getMessageBody() == null) return;
+    
+    // Class 0 SMS, let the system handle this
+    if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS &&
+        message.getMessageClass() == MessageClass.CLASS_0) return;
+    
+    // Pass message to accumulator
+    // If the accumulator accepted it, and we aren't passing messages to the
+    // default messaging app, abort broadcast to any further receivers
+    boolean grabbed = SmsMsgAccumulator.instance().addMsg(context, message);
+    if (grabbed) {
+      FilterOptions options = message.getFilterOptions();
+      if (options.blockTextMsgEnabled()) abortBroadcast();
+    }
+    
+    // That is all we have to do.  SmsMsgAccumulator passes complete
+    // messages to processCadPage when it has them
   }
 
   /**
@@ -121,37 +97,23 @@ public class SmsReceiver extends BroadcastReceiver {
     }
     return msgs;
   }
-
-
+  
   /**
-   * Set up an alarm to timeout and process a reconstructed message if the
-   * expected other parts of the page never show up
-   * @param msgTimeout timeout interval in seconds
+   * Final Cadpage processing. Called by any message processor once it is
+   * determined this is a real Cadpage alert
+   * @param message Cadpage message
    */
-  private void setReminder(Context context, long id, boolean cancel) {
+  public static void processCadPage(final SmsMmsMessage message) {
     
-
-    Intent intent = new Intent("android.provider.Telephony.SMS_RECEIVED");
-    intent.setClass(context, SmsReceiver.class);
-    intent.putExtra(EXTRA_TIMEOUT, true);
-    intent.putExtra(EXTRA_TIMEOUT_ID, id);
-    
-    // We don't really use it, but it keeps the alarm intents functionally distinct
-    intent.setData(Uri.parse("Cadpage://" + id));
-
-    int flags = (cancel ? PendingIntent.FLAG_NO_CREATE : PendingIntent.FLAG_ONE_SHOT);
-    PendingIntent pendIntent =
-      PendingIntent.getBroadcast(context, 0, intent, flags);
-    if (cancel) {
-      if (pendIntent != null) pendIntent.cancel();
-    } else {
-      AlarmManager myAM = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
-      int msgTimeout = ManagePreferences.partMsgTimeout();
-      long triggerTime = System.currentTimeMillis() + (msgTimeout * 1000);
-      myAM.set(AlarmManager.RTC_WAKEUP, triggerTime, pendIntent);
-    }
+    // We can be called on different working threads and need to find a 
+    // context and get back on the working thread.
+    CadPageApplication.getMainHandler().post(new Runnable(){
+      @Override
+      public void run() {
+        SmsReceiver.processCadPage(CadPageApplication.getContext(), message);
+      }
+    });
   }
-
 
   /**
    * Final process of message once we have determined it is a CAD page message
@@ -159,7 +121,7 @@ public class SmsReceiver extends BroadcastReceiver {
    * @param context current context
    * @param message message to be processed
    */
-  public static void processCadPage(Context context, SmsMmsMessage message) {
+  private static void processCadPage(Context context, SmsMmsMessage message) {
     
     // If we are ignoring this message, drop out
     FilterOptions options = message.getFilterOptions();

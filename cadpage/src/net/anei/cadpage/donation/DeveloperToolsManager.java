@@ -201,7 +201,7 @@ public class DeveloperToolsManager {
         if (!isPage) return;
         
         // Process the message
-        SmsReceiver.processCadPage(context, message);
+        SmsReceiver.processCadPage(message);
         break;
         
       case 15:    // Situation specific status test

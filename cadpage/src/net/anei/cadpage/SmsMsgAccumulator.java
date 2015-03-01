@@ -5,8 +5,11 @@ import java.util.LinkedList;
 import java.util.List;
 
 import net.anei.cadpage.parsers.MsgParser;
-
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 
 /**
  * This class is responsible for processing incoming SMS text messages so they
@@ -15,22 +18,10 @@ import android.content.Context;
  */
 public class SmsMsgAccumulator {
   
-  private List<MessageList> msgQueue = new LinkedList<MessageList>();
-  
-  private SmsMmsMessage nextMsg = null;
-  private long startTimeoutId = 0;
-  private long cancelTimeoutId = 0;
-  
-  private Context context;
-  
+  private static final String TIMEOUT_ACTION = "net.anei.cadpage.SmsMsgAccumalator.TIMEOUT_ACTION";
+  private static final String EXTRA_TIMEOUT_ID = "net.anei.cadapge.SmsMsgAccumulator.TIMEOUT_ID";
 
-  /**
-   * Constructor - checks for save file and if found restores message status from it
-   * @param context
-   */
-  private SmsMsgAccumulator(Context context) {
-    this.context = context;
-  }
+  private List<MessageList> msgQueue = new LinkedList<MessageList>();
   
   /**
    * Add new text message to message accumulator
@@ -38,11 +29,19 @@ public class SmsMsgAccumulator {
    * @return true if message was accepted, which means receiver should abort
    * the message broadcast unless configured to not do so.
    */
-  public boolean addMsg(SmsMmsMessage newMsg) {
-    
-    // Reset timeout request
-    startTimeoutId = 0;
-    cancelTimeoutId = 0;
+  public synchronized boolean addMsg(Context context, SmsMmsMessage newMsg) {
+    return addMsg(context, newMsg, false);
+  }
+  
+  /**
+   * Add new text message to message accumulator
+   * @param context current context
+   * @param newMsg message to be added
+   * @force true to force processing of msg (like for GCM messages)
+   * @return true if message was accepted, which means receiver should abort
+   * the message broadcast unless configured to not do so.
+   */
+  public synchronized boolean addMsg(Context context, SmsMmsMessage newMsg, boolean force) {
     
     // First step is to see if this msg matches any of the currently 
     // accumulating messages
@@ -66,9 +65,9 @@ public class SmsMsgAccumulator {
       // and cancel any pending timeout for this list
       // If the queue is empty, release the KeepAliveService lock
       if (curList.isComplete()) {
-        nextMsg = curList.getMessage();
+        SmsReceiver.processCadPage(curList.getMessage());
         msgQueue.remove(curList);
-        cancelTimeoutId = curList.getTimeoutId();
+        setReminder(context, curList.getTimeoutId(), true);
         if (msgQueue.isEmpty()) KeepAliveService.unregister(context, this);
       }
       
@@ -77,7 +76,8 @@ public class SmsMsgAccumulator {
     }
     
     // See if the current parser will handle this message
-    boolean isPage = newMsg.isPageMsg();
+    int flags = (force ? SmsMmsMessage.PARSE_FLG_FORCE : 0);
+    boolean isPage = newMsg.isPageMsg(flags);
     
     // If not a cad page (or general alert), we're done with this
     if (! isPage) return false;
@@ -95,12 +95,12 @@ public class SmsMsgAccumulator {
       }
       MessageList list = new MessageList(newMsg);
       msgQueue.add(list);
-      startTimeoutId = list.getTimeoutId();
+      setReminder(context, list.getTimeoutId(), false);
       return true;
     }
     
     // Otherwise simply pass this message into the output queue
-    nextMsg = newMsg;
+    SmsReceiver.processCadPage(newMsg);
     return true;
   }
   
@@ -137,14 +137,37 @@ public class SmsMsgAccumulator {
   }
 
   /**
-   * Should be called when a timeout with the id of id expires
-   * @param id timeout ID
+   * Set up an alarm to timeout and process a reconstructed message if the
+   * expected other parts of the page never show up
+   * @param msgTimeout timeout interval in seconds
    */
-  public void timeout(long id) {
+  private void setReminder(Context context, long id, boolean cancel) {
+
+    Intent intent = new Intent(TIMEOUT_ACTION);
+    intent.setClass(context, SmsMsgAccumulatorService.class);
+    intent.putExtra(EXTRA_TIMEOUT_ID, id);
     
-    // Reset timeout request
-    startTimeoutId = 0;
-    cancelTimeoutId = 0;
+    // We don't really use it, but it keeps the alarm intents functionally distinct
+    intent.setData(Uri.parse("Cadpage://" + id));
+
+    int flags = (cancel ? PendingIntent.FLAG_NO_CREATE : PendingIntent.FLAG_ONE_SHOT);
+    PendingIntent pendIntent = PendingIntent.getService(context, 0, intent, flags);
+    if (cancel) {
+      if (pendIntent != null) pendIntent.cancel();
+    } else {
+      AlarmManager myAM = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+      int msgTimeout = ManagePreferences.partMsgTimeout();
+      long triggerTime = System.currentTimeMillis() + (msgTimeout * 1000);
+      myAM.set(AlarmManager.RTC_WAKEUP, triggerTime, pendIntent);
+    }
+  }
+
+  public synchronized void handleIntent(Context context, Intent intent) {
+    
+    // Make sure this is the correct action and retrieve timeout ID
+    if (!TIMEOUT_ACTION.equals(intent.getAction())) return;
+    long id = intent.getLongExtra(EXTRA_TIMEOUT_ID, 0);
+    if (id == 0) return;
     
     // If nothing in queue, nothing to worry about
     if (msgQueue.isEmpty()) return;
@@ -153,7 +176,7 @@ public class SmsMsgAccumulator {
     // accumulating messages
     for (MessageList list : msgQueue) {
       if (list.getTimeoutId() == id) {
-        nextMsg = list.getMessage();
+        SmsReceiver.processCadPage(list.getMessage());
         msgQueue.remove(list);
         break;
       }
@@ -161,34 +184,6 @@ public class SmsMsgAccumulator {
     
     // If we removed everything, cancel the keep alive service
     if (msgQueue.isEmpty()) KeepAliveService.unregister(context, this);
-  }
-  
-  /**
-   * @return next available message if there is one, null otherwise
-   */
-  public SmsMmsMessage nextMsg() {
-    SmsMmsMessage result = nextMsg;
-    nextMsg = null;
-    return result;
-  }
-  
-  /**
-   * This should be called after a call to addMsg.  If it returns a
-   * non-zero timeout ID, a timeout timer should be started with this ID.
-   * @return timeout ID
-   */
-  public long startTimeoutId() {
-    return startTimeoutId;
-  }
-  
-  /**
-   * This should be called after a call to addMsg.  If it returns a
-   * non-zero timeout ID, an existing timeout timer should be with this ID
-   * should be canceled
-   * @return timeout ID
-   */
-  public long cancelTimeoutId() {
-    return cancelTimeoutId;
   }
   
   /**
@@ -333,11 +328,7 @@ public class SmsMsgAccumulator {
     }
   }
   
-  private static SmsMsgAccumulator instance = null;
-  
-  public static void setup(Context context) {
-    instance = new SmsMsgAccumulator(context);
-  }
+  private static SmsMsgAccumulator instance = new SmsMsgAccumulator();
   
   public static SmsMsgAccumulator instance() {
     return instance;

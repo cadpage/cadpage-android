@@ -310,6 +310,10 @@ public class ManagePreferences {
     return prefs.getIntValue(R.string.pref_loglimit_key);
   }
   
+  public static boolean splitDirectPage() {
+    return prefs.getBoolean(R.string.pref_split_direct_page_key);
+  }
+  
   public static int partMsgTimeout() {
     return prefs.getIntValue(R.string.pref_msgtimeout_key);
   }
@@ -1073,6 +1077,7 @@ public class ManagePreferences {
         R.string.pref_timeout_key,
         R.string.pref_mms_timeout_key,
         R.string.pref_loglimit_key,
+        R.string.pref_split_direct_page_key,
         R.string.pref_msgtimeout_key,
         R.string.pref_split_min_msg_key,
         R.string.pref_rev_msg_order_key,

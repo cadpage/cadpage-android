@@ -33,10 +33,7 @@ public class KeepAliveService extends Service {
    */
   public static void register(Context context, Object id, int icon, int title, int text) {
     synchronized (listenerEntryQueue) {
-      ListenerEntry entry = new ListenerEntry();
-      entry.context = context;
-      entry.id = id;
-      listenerEntryQueue.add(entry);
+      listenerEntryQueue.add(id);
       
       Intent intent = new Intent(context, KeepAliveService.class);
       intent.putExtra("STOP", false);
@@ -54,27 +51,15 @@ public class KeepAliveService extends Service {
    */
   public static void unregister(Context context, Object id) {
     synchronized (listenerEntryQueue) {
-      ListenerEntry entry = null;
-      for (ListenerEntry tmp : listenerEntryQueue) {
-        if (tmp.context == context && tmp.id == id) {
-          entry = tmp;
-          break;
-        }
-      }
-      if (entry == null) throw new RuntimeException("KeepAlive listener not registered");
-      listenerEntryQueue.remove(entry);
+      if (!listenerEntryQueue.contains(id)) throw new RuntimeException("KeepAlive listener not registered");
+      listenerEntryQueue.remove(id);
       
       Intent intent = new Intent(context, KeepAliveService.class);
       context.stopService(intent);
     }
   }
   
-  private static class ListenerEntry {
-    Context context;
-    Object id;
-  }
-  
-  private static List<ListenerEntry> listenerEntryQueue = new ArrayList<ListenerEntry>();
+  private static List<Object> listenerEntryQueue = new ArrayList<Object>();
 
   @Override
   public IBinder onBind(Intent intent) {

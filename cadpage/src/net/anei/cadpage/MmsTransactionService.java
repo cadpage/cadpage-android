@@ -371,7 +371,7 @@ public class MmsTransactionService extends Service {
         mainHandler.post(new Runnable(){
           @Override
           public void run() {
-            SmsReceiver.processCadPage(MmsTransactionService.this, message);
+            SmsReceiver.processCadPage(message);
           }});
       }
     }

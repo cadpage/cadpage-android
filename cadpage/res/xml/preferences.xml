@@ -549,6 +549,13 @@
           android:entryValues="@array/pref_loglimit_values"
           android:dialogTitle="@string/pref_loglimit_title"
           android:defaultValue="@string/pref_loglimit_default"/>
+          
+      <CheckBoxPreference
+          android:key="@string/pref_split_direct_page_key"
+          android:title="@string/pref_split_direct_page_title"
+          android:summaryOn="@string/pref_split_direct_page_summaryon"
+          android:summaryOff="@string/pref_split_direct_page_summaryoff"
+          android:defaultValue="@string/pref_split_direct_page_default"/>
       
       <net.anei.cadpage.preferences.EditTextPreference  
           android:dialogTitle="@string/pref_msgtimeout_title"
