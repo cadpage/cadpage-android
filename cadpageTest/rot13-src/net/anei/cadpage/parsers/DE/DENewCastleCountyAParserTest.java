@@ -107,6 +107,11 @@ choyvp pynff QRArjPnfgyrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
+  choyvp ibvq grfgOnqZft() {
+    qbOnqGrfg("[Onvyrl (Puvrs),Senax]Nyy zrzoref gung yvir va gbja yvzvgf, cyrnfr erzrzore gb ibgr gbzbeebj ng gur Gbja Unyy. Gurer ner frireny cbfvgvbaf gung ner orvat pbagrfgrq. N ynetr tebhc bs zrzoref jvgu gurve snzvyvrf jvyy or zrrgvat ng fgngvba 27 ng 18:00 ubhef fb jr pna jnyx qbja gb gbja unyy nf n tebhc naq fubj bhe fhccbeg. Qnlpner jvyy or cebivqrq ng gur fgngvba sbe nalbar jub arrqf vg.\aGunaxf 27-8");
+  }
+  
+  @Grfg
   choyvp ibvq grfgCnefre() {
 
     qbGrfg("G1",
