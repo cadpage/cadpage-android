@@ -348,6 +348,7 @@ class Active911Vendor extends Vendor {
       "US/MD/Fastalert",                  "MDCarrollCountyB",
       "US/MD/GarrettCounty",              "MDGarrettCounty",
       "US/MD/Fireblitz",                  "MDPrinceGeorgesCountyFireBiz",
+      "US/MD/Firetech",                   "MDCharlesCounty",
       "US/MD/HarfordCounty",              "Cadpage2",
       "US/MD/MontgomeryCounty",           "MDMontgomeryCounty",
       "US/MD/PrinceGeorgesCounty",        "MDPrinceGeorgesCounty",

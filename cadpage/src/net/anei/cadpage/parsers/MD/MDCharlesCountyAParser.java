@@ -26,8 +26,44 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
 
 
   public MDCharlesCountyAParser() {
-    super( "CHARLES COUNTY", "MD");
+    super("CHARLES COUNTY", "MD");
     setFieldList("CALL CITY UNIT ADDR APT PLACE CODE MAP INFO ID TIME");
+    setupMultiWordStreets(
+        "ANIMAL SHELTER",
+        "BEL ALTON NEWTOWN",
+        "BENT OAK",
+        "BROOMS ISLAND",
+        "BRYAN POINT",
+        "CAMERON RIDGE",
+        "CHIPPING WOOD",
+        "COBB ISLAND",
+        "GOLDEN BEACH",
+        "HALLOWING POINT",
+        "JW WILLIAMS",
+        "KEMPSFORD FIELD",
+        "LAUREL RIDGE",
+        "MASON SPRINGS",
+        "MASONS SPRING",
+        "MATTAWOMAN BEANTOWN",
+        "MEADOW OVERLOOK",
+        "NORTH SOLOMONS ISLAND",
+        "OAK GLEN",
+        "PEP RALLY",
+        "PORT TOBACCO",
+        "POST OFFICE",
+        "POTOMAC RIVER",
+        "PRINCE FREDERICK",
+        "RIVERS EDGE",
+        "ROCK POINT",
+        "ROCK PT",
+        "SEA GULL BEACH",
+        "SMOKEHOUSE ROW",
+        "SOLOMONS ISLAND",
+        "ST FLORIAN",
+        "SWAN POINT",
+        "THOMPSONS CORNER",
+        "TURTLE DOVE"
+    );
   }
   
   @Override
@@ -145,6 +181,7 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
   private static final CodeSet CALL_LIST = new CodeSet(
       "AFA SF DWELLING",
       "ASSIST THE AMBULANCE",
+      "ASSIST THE POLICE",
       "BOAT AT MARINA OR MARINA FIRE",
       "BOAT DISTRESS NOT TAKING ON WATER",
       "BURN ALS",
@@ -166,6 +203,10 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
       "PERSON NOT BREATHING BLS",
       "SEIZURES ALS",
       "SEIZURES BLS",
+      "SHOOTING ALS",
+      "SHOOTING BLS",
+      "SICK PERSON ALS",
+      "SICK PERSON BLS",
       "SIT FND CALL CANCELLED NO UNIT ENROUTE",
       "STROKE ALS",
       "STROKE BLS",
@@ -173,12 +214,15 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
       "STRUC, ODOR OF SMOKE - NO FIRE, M/F DWELLING, TOWNHOUSE, APARTMENT, COMMERCIAL BLDG, MULTI FAMILY HOUSE, BUILDING",
       "STRUC ODOR OF SMOKE SF DWELLING",
       "TRANSFER (2) ENGINES",
+      "TRANSFER BLS",
       "TRANSFER FIRE",
+      "TRAUMATIC INJURY BLS",
       "TROUBLE BREATHING ALS",
       "UNCONSCIOUS ALS",
       "UNCONSCIOUS BLS",
       "WIRES DOWN/ARCING PRINCE",
       "WORKING FIRE ALERT",
+      "WORKING INCIDENT ALERT",
       
       // Old stuff
       "ASSIST THE AMBULANCE, MISC"
