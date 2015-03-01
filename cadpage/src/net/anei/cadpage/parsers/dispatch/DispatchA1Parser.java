@@ -15,7 +15,7 @@ public class DispatchA1Parser extends FieldProgramParser {
   
   public DispatchA1Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState, 
-           "ALRM_LVL:PRI? RUN_CARD:BOX? LOC:SKIP PLACE? ADDR! APT? CITY BTWN:X COM:INFO INFO+? CT:INFO INFO+? UNITS:UNIT");
+           "ALRM_LVL:PRI? RUN_CARD:BOX? LOC:SKIP PLACE? ADDR! APT? CITY BTWN:X COM:INFO INFO+? CT:INFO INFO+? UNITS:UNIT RPT_#:EMPTY ID");
   }
   
   @Override
@@ -36,6 +36,7 @@ public class DispatchA1Parser extends FieldProgramParser {
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("ID")) return new IdField("F=(.*)");
     return super.getField(name);
   }
   
