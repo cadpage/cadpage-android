@@ -42,7 +42,7 @@ public class FLBayCountyParser extends FieldProgramParser {
   
 
   // Need some special logic to handle the optional AM/PM indicator
-  private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d{1,2}/\\d{1,2}/\\d{4}) (\\d{1,2}:\\d{2}:\\d{2}) *(AM|PM)?");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d{1,2}/\\d{1,2}/\\d\\d(?:\\d\\d)?) (\\d{1,2}:\\d{2}:\\d{2}) *(AM|PM)?");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa"); 
   private class MyDateTimeField extends DateTimeField {
     @Override
