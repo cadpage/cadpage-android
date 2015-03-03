@@ -31,7 +31,7 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@c-msg.net";
+    return "@c-msg.net,carrollalert@carroll911.mygbiz.com";
   }
   
   @Override
