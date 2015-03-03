@@ -90,7 +90,7 @@ public class ALLauderdaleCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Properties CITY_TABLE = buildCodeTable(new String[]{
+  static final Properties CITY_TABLE = buildCodeTable(new String[]{
       "CNTY", "",
       "ANDE", "ANDERSON",
       "FLOR", "FLORENCE",

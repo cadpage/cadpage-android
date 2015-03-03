@@ -156,6 +156,7 @@ class Active911Vendor extends Vendor {
       "US/AL/ChambersCounty",             "ALChambersCounty",
       "US/AL/Cherokee",                   "ALCherokee",
       "US/AL/ChiltonCounty",              "ALChiltonCounty",
+      "US/AL/CityofFlorence",             "ALLauderdaleCountyB",
       "US/AL/CityofHomewood",             "ALJeffersonCountyB",
       "US/AL/CityofPelham",               "ALPelham",
       "US/AL/CleburneCounty",             "ALCleburneCounty",
