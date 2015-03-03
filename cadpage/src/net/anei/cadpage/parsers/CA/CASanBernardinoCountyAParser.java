@@ -731,6 +731,7 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
       "SZ-C1",      "Seizures - focal / not alert",
       "SZ-C2",      "Seizures - pregnancy",
       "SZ-C3",      "Seizures - diabetic",
+      "SZ-C4",      "/No longer seizing, is breathing",
       "SZ-D1",      "Seizures - not breathing",
       "SZ-D2",      "Seizures - multiple",
       "SZ-D3",      "Seizures - agonal reps",

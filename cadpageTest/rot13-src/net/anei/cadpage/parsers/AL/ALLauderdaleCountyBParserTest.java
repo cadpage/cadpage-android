@@ -8,6 +8,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Ynhqreqnyr Pbhagl, NY (O) (Syberapr, NY) 
 
+Pbagnpg:  Fgrir Jngxvaf <ongpuvrs11@tznvy.pbz>
+Fraqre: 89361
+F: SMP15030001 RI- SQ-NFFVFG\aCev- MPISQ Nqqerff- 5360 PBHAGL EQ 7 PAGL Gvzr- 14:00 Pebff Fgerrgf- PBHAGL EQ 118/CEVINGR QEVIR Rirag Glcr- SQ-NFFVFG Er-  RZF BA FPRAR ERDHRFG SVER SBE YVSG NFFVFG
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Xvyyra Sver
 Ybpngvba: Xvyyra, NY, Havgrq Fgngrf
@@ -322,6 +326,24 @@ choyvp pynff NYYnhqreqnyrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp NYYnhqreqnyrPbhaglOCnefreGrfg() {
     frgCnefre(arj NYYnhqreqnyrPbhaglOCnefre(), "YNHQREQNYR PBHAGL", "NY");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFgrirJngxvaf() {
+
+    qbGrfg("G1",
+        "F: SMP15030001 RI- SQ-NFFVFG\a" +
+        "Cev- MPISQ Nqqerff- 5360 PBHAGL EQ 7 PAGL Gvzr- 14:00 Pebff Fgerrgf- PBHAGL EQ 118/CEVINGR QEVIR Rirag Glcr- SQ-NFFVFG Er-  RZF BA FPRAR ERDHRFG SVER SBE YVSG NFFVFG",
+
+        "VQ:SMP15030001",
+        "FEP:MPISQ",
+        "NQQE:5360 PBHAGL EQ 7",
+        "ZNQQE:5360 PBHAGL EBNQ 7",
+        "GVZR:14:00",
+        "K:PBHAGL EQ 118/CEVINGR QEVIR",
+        "PNYY:SQ-NFFVFG",
+        "VASB:RZF BA FPRAR ERDHRFG SVER SBE YVSG NFFVFG");
+    
   }
 
   @Grfg

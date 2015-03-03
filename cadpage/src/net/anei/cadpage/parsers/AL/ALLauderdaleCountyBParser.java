@@ -19,7 +19,7 @@ public class ALLauderdaleCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "911paging@florenceal.org,911paging";
+    return "@everbridge.net,89361";
   }
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("([A-Z]{2,3}\\d{8}) EV- +.*");
