@@ -12,16 +12,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class ALLauderdaleCountyParser extends FieldProgramParser {
   
-  private static final Properties CITY_TABLE = buildCodeTable(new String[]{
-      "CNTY", "",
-      "ANDE", "ANDERSON",
-      "FLOR", "FLORENCE",
-      "KILL", "KILLEN",
-      "LEX",  "LEXINGTON",
-      "ROGE", "ROGERSVILLE",
-      "STFL", "ST FLORIAN"
-  });
-  
   public ALLauderdaleCountyParser() {
     super(CITY_TABLE, "LAUDERDALE COUNTY", "AL",
         "PRI:SRC! AD:ADDR/S TIME:SKIP! EV:CALL! CS1:X CS2:X RE:INFO");
@@ -42,6 +32,14 @@ public class ALLauderdaleCountyParser extends FieldProgramParser {
       data.strCross = "";
     }
     return true;
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   // Address field must parse : @<place name> syntax
@@ -92,11 +90,15 @@ public class ALLauderdaleCountyParser extends FieldProgramParser {
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
-  }
+  private static final Properties CITY_TABLE = buildCodeTable(new String[]{
+      "CNTY", "",
+      "ANDE", "ANDERSON",
+      "FLOR", "FLORENCE",
+      "KILL", "KILLEN",
+      "LEX",  "LEXINGTON",
+      "LEXI", "LEXINGTON",
+      "ROGE", "ROGERSVILLE",
+      "STFL", "ST FLORIAN",
+      "WATL", "WATERLOO"
+  });
 }
