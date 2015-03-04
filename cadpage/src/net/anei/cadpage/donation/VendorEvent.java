@@ -10,7 +10,7 @@ import net.anei.cadpage.vendors.VendorManager;
     with text messages.  
 
  */
-public class VendorEvent extends DonateScreenEvent {
+public abstract class VendorEvent extends DonateScreenEvent {
 
   /*
    * There are two different class instances based on this class that have different enable

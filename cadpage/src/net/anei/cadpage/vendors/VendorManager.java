@@ -470,7 +470,9 @@ public class VendorManager {
    * @param context current context
    */
   public void  registerTextPageVendor(Context context) {
-    VendorActivity.launchActivity(context, lastTextPageVendor);
+    if (lastTextPageVendor != null) {
+      VendorActivity.launchActivity(context, lastTextPageVendor);
+    }
   }
   
   /**
