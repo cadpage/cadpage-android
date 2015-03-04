@@ -10,7 +10,6 @@ import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.SmsPopupUtils;
-import net.anei.cadpage.donation.DeveloperToolsManager;
 import net.anei.cadpage.donation.UserAcctManager;
 import android.content.Context;
 import android.net.Uri;

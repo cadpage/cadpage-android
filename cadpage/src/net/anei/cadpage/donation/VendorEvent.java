@@ -10,7 +10,7 @@ import net.anei.cadpage.vendors.VendorManager;
     with text messages.  
 
  */
-public abstract class VendorEvent extends DonateScreenEvent {
+public class VendorEvent extends DonateScreenEvent {
 
   /*
    * There are two different class instances based on this class that have different enable
@@ -24,16 +24,11 @@ public abstract class VendorEvent extends DonateScreenEvent {
   
   int status;
   
-  protected VendorEvent(int status) {
+  private VendorEvent(int status) {
     super(AlertStatus.GREEN, R.string.vendor_title, R.string.vendor_text,
-           status == 1 ? new DonateEvent[]{
-              VendorRegisterEvent.instance(),
-              VendorHelpEvent.instance(),
-              VendorIgnoreEvent.instance()
-           } : new DonateEvent[]{
-              VendorRegisterEvent.instance(),
-              VendorHelpEvent.instance(),
-           });
+          VendorRegisterEvent.instance(status),
+          VendorHelpEvent.instance(status)
+    );
     this.status = status;
   }
 
@@ -45,5 +40,14 @@ public abstract class VendorEvent extends DonateScreenEvent {
   @Override
   protected Object[] getTextParms(int type) {
     return new Object[]{VendorManager.instance().getTextPageVendorName()};
+  }
+  
+  private static VendorEvent[] instances = new VendorEvent[]{
+    new VendorEvent(1),
+    new VendorEvent(2)
+  };
+  
+  public static VendorEvent instance(int status) {
+    return instances[status-1];
   }
 }

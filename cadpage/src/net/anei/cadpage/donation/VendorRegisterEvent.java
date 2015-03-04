@@ -6,23 +6,36 @@ import net.anei.cadpage.vendors.VendorManager;
 
 /**
 Register for direct paging
+This also takes two forms, depending on how it was launched
  */
 public class VendorRegisterEvent extends DonateEvent {
   
-  public VendorRegisterEvent() {
+  int status;
+  
+  private VendorRegisterEvent(int status) {
     super(AlertStatus.GREEN, R.string.vendor_register_title);
+    this.status = status;
   }
 
   @Override
   protected void doEvent(Activity activity) {
-    VendorManager.instance().registerTextPageVendor(activity);
+    
+    // We could not have gotten here without findTextPageVendor() returning
+    // true in the recent past, and presumably it will again.  But there are
+    // some side effects that may have been lost if Cadpage has been restarted
+    // since then, so we call it again to make sure everything is kosher
+    if (VendorManager.instance().findTextPageVendor(status)) {
+      VendorManager.instance().registerTextPageVendor(activity);
+    }
     closeEvents(activity);
   }
   
-  private static final VendorRegisterEvent instance = new VendorRegisterEvent();
+  private static VendorRegisterEvent[] instances = new VendorRegisterEvent[]{
+    new VendorRegisterEvent(1),
+    new VendorRegisterEvent(2)
+  };
   
-  public static VendorRegisterEvent instance() {
-    return instance;
+  public static final VendorRegisterEvent instance(int status) {
+    return instances[status-1];
   }
-
 }

@@ -122,7 +122,7 @@ public abstract class DonateScreenBaseEvent extends DonateEvent {
     
     // Except for Vendor1Event which isn't in the main menu.   So we will invoke it
     // as well
-    Vendor1Event.instance();
+    VendorEvent.instance(1);
     
     DonateScreenBaseEvent event = screenEventMap.get(classname);
     if (event == null) {

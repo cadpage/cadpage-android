@@ -14,15 +14,18 @@ import net.anei.cadpage.R;
  */
 public class VendorHelpEvent extends DonateScreenEvent {
   
-  public VendorHelpEvent() {
+  private VendorHelpEvent(int status) {
     super(AlertStatus.GREEN, R.string.vendor_help_title, R.string.vendor_help_text,
-           VendorRegisterEvent.instance());
+           VendorRegisterEvent.instance(status));
   }
   
-  private static final VendorHelpEvent instance = new VendorHelpEvent();
+  private static final VendorHelpEvent[] instances = new VendorHelpEvent[]{
+    new VendorHelpEvent(1),
+    new VendorHelpEvent(2)
+  };
   
-  public static VendorHelpEvent instance() {
-    return instance;
+  public static VendorHelpEvent instance(int status) {
+    return instances[status-1];
   }
 
 }

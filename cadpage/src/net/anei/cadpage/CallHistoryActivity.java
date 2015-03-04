@@ -2,7 +2,7 @@ package net.anei.cadpage;
 
 import net.anei.cadpage.donation.DonateActivity;
 import net.anei.cadpage.donation.DonationManager;
-import net.anei.cadpage.donation.Vendor1Event;
+import net.anei.cadpage.donation.VendorEvent;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -154,7 +154,7 @@ public class CallHistoryActivity extends ListActivity {
       
       // If not, see if we have discovered a direct page vendor sending us text pages
       else {
-        Vendor1Event event = Vendor1Event.instance();
+        VendorEvent event = VendorEvent.instance(1);
         if (event.isEnabled()) DonateActivity.launchActivity(this, event, null);
 
       }

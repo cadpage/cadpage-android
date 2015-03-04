@@ -12,7 +12,7 @@ public class DonateExemptEvent extends DonateScreenEvent {
 
   protected DonateExemptEvent() {
     super(AlertStatus.YELLOW, R.string.donate_exempt_title, R.string.donate_exempt_text,
-           Vendor2Event.instance(),
+           VendorEvent.instance(2),
            DonateResetMarketEvent.instance(),
            MagicWordEvent.instance());
   }
