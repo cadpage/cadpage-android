@@ -276,9 +276,9 @@
   <string name="pref_loglimit_title">Gräns för meddelanderapport</string>
   <string name="pref_loglimit_summary">Antal meddelanden som inkluderas i felrapport\nAktuellt värde : %s</string>
   
-  <string name="pref_split_direct_page_title">Check for Split Direct Pages</string>                                    <!-- Translate -->
-  <string name="pref_split_direct_page_summaryon">Direct pages will be checked for split alert messages</string>       <!-- Translate -->
-  <string name="pref_split_direct_page_summaryoff">Direct pages will be not checked for split alert messages</string>  <!-- Translate -->
+  <string name="pref_split_direct_page_title">Kolla efter delade larmmeddelanden från meddelandeservice</string>                                   
+  <string name="pref_split_direct_page_summaryon">Larmmeddelanden från meddelandeservice kommer att kontrolleras så att de ej är uppdelade</string>       
+  <string name="pref_split_direct_page_summaryoff">Larmmedelanden från meddelandeservice kommer inte att kontrolleras om de är uppdelade</string>  
   
   <string name="pref_msgtimeout_title">Timeout för delade meddelanden</string>
   <string name="pref_msgtimeout_summary">Timeout för multipla meddelanden\nAktuellt värde: %s</string>
