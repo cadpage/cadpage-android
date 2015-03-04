@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.WA;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,13 +12,13 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class WAYakimaCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER = 
-    Pattern.compile("(?:(\\d\\d\\.\\d\\d\\.\\d\\d) (\\d\\d/\\d\\d/\\d\\d)|\\*\\*\\.\\*\\*\\.\\*\\* \\*\\*/\\*\\*/\\*\\*) (.*?) ([A-Z]{2}[FP]D|AMR|ALS|SCOM|PRAM)((?: +(?:[A-Z]+\\d+[A-Z]?|AOA|[A-Z]{1,2}DC))+)(?: +(.*))?");
+    Pattern.compile("(?:(\\d\\d\\.\\d\\d\\.\\d\\d) (\\d\\d/\\d\\d/\\d\\d)|\\*\\*\\.\\*\\*\\.\\*\\* \\*\\*/\\*\\*/\\*\\*) ([^@]*?) (?:@ )?([A-Z]{2}[FP]D|AMR|ALS|SCOM|PRAM)((?: +(?:[A-Z]+\\d+[A-Z]?|AOA|[A-Z]{1,2}DC))+)(?: +(.*))?");
   private static final Pattern APT_MARK_PTN = Pattern.compile(" +(?:APT|ROOM) +", Pattern.CASE_INSENSITIVE);
   
   public WAYakimaCountyParser() {
     super("YAKIMA COUNTY", "WA");
     setup();
-    setFieldList("TIME DATE CALL ADDR APT PLACE SRC UNIT INFO");
+    setFieldList("TIME DATE CALL ADDR APT PLACE SRC CITY UNIT INFO");
   }
   
   @Override
@@ -34,6 +35,8 @@ public class WAYakimaCountyParser extends SmartAddressParser {
     data.strDate = getOptGroup(match.group(2));
     String sAddr = match.group(3).trim();
     data.strSource = match.group(4);
+    String city = CITY_CODES.getProperty(data.strSource);
+    if (city != null) data.strCity = city;
     data.strUnit = match.group(5).trim();
     data.strSupp = getOptGroup(match.group(6));
     
@@ -52,6 +55,11 @@ public class WAYakimaCountyParser extends SmartAddressParser {
       data.strPlace = place;
     }
     data.strApt = append(data.strApt, "-", p.get());
+    
+    if (data.strAddress.length() == 0) {
+      parseAddress(data.strPlace, data);
+      data.strPlace = "";
+    }
     return true;
   }
   
@@ -63,13 +71,14 @@ public class WAYakimaCountyParser extends SmartAddressParser {
 
   private void setup() {
     setupCallList(
-      "Alarm Business",
-      
+      "911 HANG UP",
       "ACCIDENT HITRUN",
       "ACCIDENT INJURY",
       "ACCIDENT NO INJ",
       "ACCIDENT UNKNOW",
       "AGENCY ASSIST",
+      "ALARM BUSINESS",
+      "ASSAULT WEAPON",
       "CITIZEN ASSIST",
       "EMR ALARM MED",
       "EMR AMB",
@@ -85,6 +94,7 @@ public class WAYakimaCountyParser extends SmartAddressParser {
       "FIRE ALARM RES",
       "FIRE ALARM 1",
       "FIRE ALARM 2",
+      "FIRE APPLIANCE",
       "FIRE AUTO ALARM",
       "FIRE AUTO ALM 1",
       "FIRE AUTO ALM 2",
@@ -105,7 +115,22 @@ public class WAYakimaCountyParser extends SmartAddressParser {
       "FIRE TRASH GARB",
       "FIRE VEHICLE",
       "PAGED",
+      "ROBBERY",
+      "SUSPICIOUS CIRC",
       "WELFARE CHECK"
     );
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "GRFD", "GRANGER",
+      "GVFD", "GRANDVIEW",
+      "MBFD", "MABTON",
+      "SEFD", "SELAH",
+      "SSFD", "SUNNYSIDE",
+      "TPFD", "TOPPENISH",
+      "YKFD", "YAKIMA",
+      "YKPD", "YAKIMA",
+      "WPFD", "WAPATO",
+      "ZIFD", "ZILLAH"
+  });
 }

@@ -779,6 +779,7 @@ class Active911Vendor extends Vendor {
       "US/VA/WarrenCounty",               "VAWarrenCounty",
       "US/WA/WestPierceCounty",           "WAPierceCountyD",
       "US/WA/WhitmanCounty",              "WAWhitmanCounty",
+      "US/WA/YakimaCounty",               "WAYakimaCounty",
       "US/WI/DoorCounty",                 "WIDoorCounty",
       "US/WI/MukwonagoFire",              "WIWaukeshaCountyB",
       "US/WI/SheboyganCounty",            "WISheboyganCounty",
