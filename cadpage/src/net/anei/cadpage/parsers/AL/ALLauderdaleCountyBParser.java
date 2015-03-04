@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class ALLauderdaleCountyBParser extends FieldProgramParser {
   
   public ALLauderdaleCountyBParser() {
-    super(ALLauderdaleCountyParser.CITY_TABLE, "LAUDERDALE COUNTY", "AL",
+    super(ALLauderdaleCountyAParser.CITY_TABLE, "LAUDERDALE COUNTY", "AL",
         "Pri:SRC? Address:ADDR/S! Time:TIME! Cross_Streets:X! Event_Type:CALL! Re:INFO!");
     setBreakChar('-');
   }
