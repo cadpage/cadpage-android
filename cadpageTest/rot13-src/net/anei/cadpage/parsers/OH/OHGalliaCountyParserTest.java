@@ -191,7 +191,7 @@ choyvp pynff BUTnyyvnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:012-2503",
         "PNYY:SVER",
         "NQQE:12723 EVCYRL EQ",
-        "PVGL:ZNFBA PBHAGL",
+        "PVGL:ZNFBA PBHAGL", //qbrf abg znc
         "FG:JI",
         "VASB:ZNFBA PB ERD ZNACBJRE BA N ERXVAQYR");
 
@@ -286,8 +286,8 @@ choyvp pynff BUTnyyvnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:012-3302",
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:544 SENAXYVA PRZRGREL EQ",
-        "PVGL:UHAGVATGBA",
-        "ANZR:GJC",
+        "PVGL:UHAGVATGBA", //uhagvatgba gjc? (zncf svar)
+        "ANZR:GJC", 
         "VASB:PNYYRE ERCBEGF GUNG UV F 60 L/B ZBGURE VF UNIVAT ANHFRN, IBZVGVAT, PBASHFVBA, YRGUN ETVP, CBFFVOYR ZNYAHGEVGVBA, FUR VF N PNAPRE CNGVRAG.");
 
     qbGrfg("G19",
