@@ -818,6 +818,7 @@ public class DispatchBParser extends FieldProgramParser {
         "NON EMERG TRANSPORT",
         "NON EMERG TRANSPORT DPD///TEST",
         "NON EMERG TRANSPORT DPD/TEST",
+        "NON EMERGENCY RUN",
         "NON-SPECIFIC DIAGNOSIS",
         "NO OPERATORS LICENSE",
         "OBSCENE/THREATENING PHONE",

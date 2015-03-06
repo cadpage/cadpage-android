@@ -23,6 +23,7 @@ public class NCMaconCountyParser extends DispatchB2Parser {
     if (match.lookingAt()) {
       body = PRIMARY_PREFIX + body.substring(match.end());
     }
+    body = stripFieldEnd(body, " Stop");
     return super.parseMsg(body, data);
   }
 
