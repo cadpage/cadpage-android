@@ -533,6 +533,7 @@ class Active911Vendor extends Vendor {
       "US/NY/CityofColden",               "NYErieCountyRedAlert",
       "US/NY/Erie",                       "NYErieCountyF",
       "US/NY/FireRescueSystems",          "NYSuffolkCountyBFI",
+      "US/NY/FultonCounty",               "NYFultonCounty",
       "US/NY/JeffersonCounty",            "NYJeffersonCounty",
       "US/NY/Lewis911",                   "NYLewisCounty",
       "US/NY/MadisonCounty",              "NYMadisonCountyB",

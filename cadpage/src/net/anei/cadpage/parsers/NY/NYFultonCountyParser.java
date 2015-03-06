@@ -14,7 +14,7 @@ public class NYFultonCountyParser extends FieldProgramParser {
     
     public NYFultonCountyParser() {
       super(CITY_LIST, "FULTON COUNTY", "NY",
-             "SKIP CALL ADDR CITY PLACE DATE TIME! GPS");
+             "SKIP CALL CALL/CS+? ADDR/Z ( EMPTY CITY | CITY ) PLACE DATE TIME! GPS");
     }
     
     @Override
@@ -87,19 +87,20 @@ public class NYFultonCountyParser extends FieldProgramParser {
 	  
 	  
 	  private static final String[] CITY_LIST = new String[]{
-      "GLOVERSVILLE",
-      "JOHNSTOWN",
-      "BROADALBIN",
-      "DOLGEVILLE",
-      "MAYFIELD",
-      "NORTHVILLE",
       "BLEECKER",
       "BROADALBIN",
+      "BROADALBIN",
       "CAROGA",
+      "DOLGEVILLE",
       "EPHRATAH",
+      "GALWAY",
+      "GLOVERSVILLE",
+      "JOHNSTOWN",
       "JOHNSTOWN",
       "MAYFIELD",
+      "MAYFIELD",
       "NORTHAMPTON",
+      "NORTHVILLE",
       "OPPENHEIM",
       "PERTH",
       "STRATFORD",
@@ -110,6 +111,7 @@ public class NYFultonCountyParser extends FieldProgramParser {
       "V DOLGEVILLE",
       "V MAYFIELD",
       "V NORTHVILLE",
+      "T AMSTERDAM",
       "T BLEECKER",
       "T BROADALBIN",
       "T CAROGA",
