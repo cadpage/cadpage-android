@@ -11,7 +11,7 @@ public class TXNuecesCountyParser extends FieldProgramParser {
   
   public TXNuecesCountyParser() {
     super("NUECES COUNTY", "TX",
-           "( NCFIRE:IDCALL | CALL! ) ALRM:SKIP! PRI:PRI! ESZ:ADDR! EV:ID");
+           "CALL! ALRM:SKIP! PRI:PRI! ESZ:UNIT! TIME:TIME? EV:ID");
   }
   
   @Override
@@ -23,6 +23,8 @@ public class TXNuecesCountyParser extends FieldProgramParser {
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA;
   }
+  
+  private static final Pattern SRC_ID_PTN = Pattern.compile("([A-Z]+):? +(\\d{10}) +");
  
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
@@ -35,42 +37,76 @@ public class TXNuecesCountyParser extends FieldProgramParser {
       }
       return false;
     } while (false);
-    return super.parseMsg(body, data);
+    
+    Matcher match = SRC_ID_PTN.matcher(body);
+    if (match.lookingAt()) {
+      data.strSource = match.group(1);
+      data.strCallId = match.group(2);
+      body = body.substring(match.end());
+    }
+    
+    body = body.replace("TIME:", " TIME:");
+    if (!super.parseMsg(body, data)) return false;
+    return data.strAddress.length() > 0;
   }
   
-  private class MyIdCallField extends CallField {
-    
+  @Override
+  public String getProgram() {
+    return "SRC ID " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("TIME")) return new MyTimeField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern UNIT_PTN = Pattern.compile("(?:(\\d+)|-1)(?:[ /]+(.*))?");
+  private class MyUnitField extends MyAddressField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf(' ');
-      if (pt < 0) abort();
-      data.strCallId = field.substring(0,pt).trim();
-      data.strCall = field.substring(pt+1).trim();
+      Matcher match = UNIT_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strUnit = getOptGroup(match.group(1));
+      String addr = match.group(2);
+      if (addr != null) super.parse(addr, data);
     }
     
     @Override
     public String getFieldNames() {
-      return "ID CALL";
+      return "UNIT " + super.getFieldNames();
     }
   }
   
-  private static final Pattern ADDR_UNIT_PTN = Pattern.compile("(?:(\\d+)|-1)[ /]+(.*)");
+  private static final Pattern TIME_PTN = Pattern.compile("(\\d\\d:\\d\\d:\\d\\d) +(.*)");
+  private class MyTimeField extends MyAddressField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = TIME_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strTime = match.group(1);
+      super.parse(match.group(2), data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "TIME " + super.getFieldNames();
+    }
+  }
+  
   private static final Pattern ADDR_APT_PTN = Pattern.compile("(.*)[,:] *([-A-Z0-9]+)");
-  private class MyAddressField extends AddressField {
+  private abstract class MyAddressField extends AddressField {
 
     @Override
     public void parse(String field, Data data) {
-      Matcher match = ADDR_UNIT_PTN.matcher(field);
-      if (!match.matches()) abort();
-      data.strUnit = getOptGroup(match.group(1));
-      field = match.group(2);
       int pt = field.indexOf(": @");
       if (pt >= 0) {
         data.strPlace = field.substring(pt+3).trim().replace(": @", " - ");
         field = field.substring(0,pt);
       }
       String apt = "";
-      match = ADDR_APT_PTN.matcher(field);
+      Matcher match = ADDR_APT_PTN.matcher(field);
       if (match.matches()) {
         field = match.group(1).trim();
         apt = match.group(2);
@@ -100,14 +136,7 @@ public class TXNuecesCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "UNIT ADDR CITY APT PLACE";
+      return "ADDR CITY APT PLACE";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("IDCALL")) return new MyIdCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    return super.getField(name);
   }
 }
