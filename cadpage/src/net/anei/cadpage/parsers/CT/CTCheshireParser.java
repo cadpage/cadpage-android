@@ -35,6 +35,7 @@ public class CTCheshireParser extends SmartAddressParser {
     data.strUnit = getOptGroup(match.group(1));
     String addr = match.group(2).trim();
     data.strCallId = getOptGroup(match.group(3));
+    if (data.strUnit.length() == 0 && data.strCallId.length() == 0) return false;
     
     parseAddress(StartType.START_ADDR, addr, data);
     data.strCall = getLeft();

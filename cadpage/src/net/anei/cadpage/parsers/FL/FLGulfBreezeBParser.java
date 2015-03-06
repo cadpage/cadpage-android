@@ -27,6 +27,9 @@ public class FLGulfBreezeBParser extends MsgParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     if (subject.length() == 0) return false;
     
+    // Eliminate the FLGulfBreezeA messages
+    if (subject.equals("FIRE PAGE")) return false;
+    
     // Strip out GPS coordinates
     Matcher match = GPS_MARK_PTN.matcher(body);
     if (match.find()) {

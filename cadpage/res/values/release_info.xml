@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02262015</string>
-  <string name="release_version">v1.8.18</string>
+  <string name="release_date">03062015</string>
+  <string name="release_version">v1.8.19</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.19\n
+Added option to enable split message merge logic for direct paging.  This should almost never be
+necessary.  Direct paging is triggered by SMTP messages for which there are no length restrictions, 
+so it is never necessary to split long alerts into multiple messages.  Despite this, and everyone\'s
+best efforts, some of the dispatch alerts going through Active911 continue to be broken up into 
+multiple messages.  For departments suffering through this, turning on this option will be a big help.\n
+\n
+New Locations:\n
+Boone County, IL\n
+Ouachita Parish, LA\n
+Pierce County, WA (alt)\n
+\n
+Location Fixes:\n
+Lauderdale County, AL\n
+Teller County, CO\n
+Cheshire, CT\n
+Bay County, FL\n
+Erlanger County, KY\n
+Charles County, MD\n
+Fulton County, NY\n
+Durham County, NC\n
+Columbia County, OR\n
+Adams County, PA\n
+Bucks County, PA\n
+Northumberland County, PA\n
+Overton County, TN\n
+Kaufman County, TX\n
+Nueces County, TX\n
+Rosenburg, TX\n
+Yakima County, WA\n 
+\n
+General Fixes:\n
+Force close in rare circumstances when upgrading direct paging vendor text messaging to direct paging.\n
+\n      
 v1.8.18\n
 New Locations:\n
 Park County, CO\n
@@ -89,30 +123,7 @@ Madison County, NY\n
 Moore County, NC\n
 Nash County, NC\n
 Georgetown County, SC\n
-Pennington County, SD\n
-\n      
-v1.8.13\n
-New Locations:\n
-Douglas County, IN\n
-Jefferson County, IN\n
-Minneapolis/St Paul, MN (alt)\n
-Essex County, NJ\n
-Marion County, OH (alt)\n
-\n
-Location Fixes:\n
-Jerome County, ID\n
-Twin Falls County, ID\n
-Peoria County, IL\n
-Jefferson County, LA\n
-Talbot County, MD\n
-ST Charles County, MO\n
-Erie County, NY\n
-Cadwell County, NC\n
-Cleveland County, NC\n
-Harnett County, NC\n
-Rowan County, NC\n
-Venango County, PA\n
-Pennington County, SD\n
+Pennington County, SD
   </string>
 </resources>
   
