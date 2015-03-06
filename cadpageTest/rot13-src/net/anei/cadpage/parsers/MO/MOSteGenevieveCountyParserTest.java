@@ -210,7 +210,8 @@ choyvp ibvq grfgFgrTrarivrirSverQrcnegzrag() {
   qbGrfg("G16",
       "(SVER ZVFP) Ybp:4 FGR TRARIVRIR PVGL Tevq:7101 Havgf:7100 Ezx:FGR TRA",
       "PNYY:SVER ZVFP",
-      "NQQE:4 FGR TRARIVRIR PVGL", //ABG RABHTU VASB
+      "NQQE:4",
+      "NCG:TRARIVRIR PVGL",
       "ZNC:7101",
       "HAVG:7100",
       "VASB:FGR TRA");
@@ -550,7 +551,8 @@ choyvp ibvq grfgFgrTrarivrirSverQrcnegzrag() {
   qbGrfg("G61",
       "(SVER ZVFP) Ybp:4 FGR TRARIVRIR PVGL Tevq:7101 Havgf:7100 Ezx:* 4 7101 * AB ERS",
       "PNYY:SVER ZVFP",
-      "NQQE:4 FGR TRARIVRIR PVGL", //ABG ZNCCVAT
+      "NQQE:4",
+      "NCG:TRARIVRIR PVGL",
       "ZNC:7101",
       "HAVG:7100",
       "VASB:* 4 7101 * AB ERS");

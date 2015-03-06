@@ -50,10 +50,22 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
+    
+    qbGrfg(PNYY, SYNT_FGNEG_SYQ_ERD, "ZBGBEVFG NFFVFG MNPUNEL FG KF: A PUHEPU FG XRAFOHET",
+        "PNYY:ZBGBEVFG NFFVFG", 
+        "NQQE:MNPUNEL FG", 
+        "K:A PUHEPU FG", 
+        "PVGL:XRAFOHET");
   }
 
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(PNYY, SYNT_FGNEG_SYQ_ERD, "ZBGBEVFG NFFVFG MNPUNEL FG KF: A PUHEPU FG XRAFOHET",
+        "PNYY:ZBGBEVFG NFFVFG", 
+        "NQQE:MNPUNEL FG", 
+        "K:A PUHEPU FG", 
+        "PVGL:XRAFOHET");
     
     qbGrfg(PNYY, SYNT_FGNEG_SYQ_ERD, "PURFG CNVA (ABA GENHZNGVP) 935 UJL 28 KF: PBZZBAF QE ZHYOREEL PBK.QRNAAN",
         "PNYY:PURFG CNVA (ABA GENHZNGVP)",

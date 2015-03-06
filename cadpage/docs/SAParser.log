@@ -1,3 +1,10 @@
+Version 14 03/05/2015
+
+Added new FLAG_STRICT_SUFFIX flag
+
+Fixed some issues about when street names that should have a street suffix can
+be considered terminated by the cross street or apt marker
+
 Version 13.0 02/08/2015
 
 Fixed problem not recognizing NEW ST as a standalone street name

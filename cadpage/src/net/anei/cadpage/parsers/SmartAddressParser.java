@@ -215,6 +215,14 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_NO_ADDRESS = 0x4000000;
   
+  /**
+   * Normally, a street name that should be ended with a street suffix will be
+   * considered safely terminated by a cross street or apt marker.  This flag
+   * requires that street names end in proper street suffixes to be accepted
+   */
+  public static final int FLAG_STRICT_SUFFIX = 0x8000000;
+  
+  // Status codes that might be returned
   public static final int STATUS_TRIVIAL = 5;
   public static final int STATUS_FULL_ADDRESS = 4;
   public static final int STATUS_INTERSECTION = 3;
@@ -764,7 +772,7 @@ public abstract class SmartAddressParser extends MsgParser {
    * numeric value in which higher values indicate better addresses
    */
   protected int checkAddress(String address, int extra) {
-    return parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_NO_CITY, address).getStatus(extra);
+    return parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_STRICT_SUFFIX | FLAG_NO_CITY, address).getStatus(extra);
   }
   
   /**
@@ -784,7 +792,7 @@ public abstract class SmartAddressParser extends MsgParser {
    * @return true if valid address
    */
   protected boolean isValidAddress(String address, int extra) {
-    return parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_NO_CITY, address).isValid(extra);
+    return parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_STRICT_SUFFIX| FLAG_NO_CITY, address).isValid(extra);
   }
   
   /**
@@ -1736,7 +1744,7 @@ public abstract class SmartAddressParser extends MsgParser {
           // Don't do this if we are looking for an implied intersection
           if (!startHwy && !suppressSTLookahead && isType(ndx, ID_ST)) {
             if (!isType(ndx+1, ID_DIRECTION)) {
-              int sEnd = findRoadEnd(ndx, 0);
+              int sEnd = findRoadEnd(ndx, 0, true);
               if (sEnd > 0) {
                 found = true;
                 sAddr = ndx;
@@ -2418,6 +2426,21 @@ public abstract class SmartAddressParser extends MsgParser {
    * @return index of token past end of road name if successful, -1 otherwise
    */
   private int findRoadEnd(int start, int option) {
+    return findRoadEnd(start, option, isFlagSet(FLAG_ONLY_CROSS | FLAG_STRICT_SUFFIX));
+  }
+
+  /**
+   * See if we can identify a road name starting at a given index
+   * @param start starting index
+   * @param option - option controlling how we will deal with a suffixless street search
+   *                  0 - No suffixless street names accepted
+   *                  1 - only multiword suffixless street names accepted
+   *                  2 - any suffixless street name accepted
+   *                  3 - Only identified multiword or numbered highway names accepted
+   * @param strict do not permit early termination wihtout a proper suffix
+   * @return index of token past end of road name if successful, -1 otherwise
+   */
+  private int findRoadEnd(int start, int option, boolean strict) {
     
     // Skip over BLOCK indicator
     if (isType(start, ID_BLOCK)) start++;
@@ -2564,7 +2587,10 @@ public abstract class SmartAddressParser extends MsgParser {
           end++; 
           break; 
         }
-        if (isType(end, ID_CROSS_STREET)) break;
+        if (isType(end, ID_CROSS_STREET|ID_APT) && !isType(end, ID_APT_SOFT)) {
+          if (strict) return -1;
+          break;
+        }
         
         // A numeric token is acceptable only if it is the last token in the street name
         good = false;
