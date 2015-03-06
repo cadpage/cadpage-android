@@ -247,6 +247,7 @@ class Active911Vendor extends Vendor {
       "US/FL/CalhounCounty",              "FLCalhounCounty",
       "US/FL/CharlotteCountySheriff",     "FLCharlotteCounty",
       "US/FL/CollierCounty",              "FLCollierCounty",
+      "US/FL/GulfBreezePolice",           "FLGulfBreezeB",
       "US/FL/Hendry",                     "FLHendryCounty",
       "US/FL/LongboatKey",                "FLManateeCounty",
       "US/FL/ManateeCounty",              "FLManateeCounty",

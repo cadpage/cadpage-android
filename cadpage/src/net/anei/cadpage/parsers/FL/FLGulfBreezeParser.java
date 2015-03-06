@@ -12,15 +12,16 @@ public class FLGulfBreezeParser extends SmartAddressParser {
 
   public FLGulfBreezeParser() {
     super("GULF COUNTY", "FL");
-    setFieldList("DATE TIME CALL ADDR APT CITY INFO");
-    setupMultiWordStreets(MW_STREETS);
+    setFieldList("DATE TIME ADDR APT CITY PLACE X CALL");
   }
 
   private static final Pattern NON_PRINT = Pattern.compile("[^\\p{Print}]");
+  private static final Pattern TRAIL_JUNK_PTN = Pattern.compile("[ \\|\\[\\]\\(]+$");
   private static final Pattern ASTERISK_TRIMMER = Pattern.compile("\\**(.*?)\\**");
   private static final Pattern DATE_TIME_BODY = Pattern.compile("(\\d{1,2}/\\d{1,2}/\\d{4}) (\\d{1,2}:\\d{2}:\\d{2} [AP]M)\n(.*)", Pattern.DOTALL);
   private static final Pattern MED_CALL = Pattern.compile("(.*?)MED CALL:? (.*?)\\.(.*)");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
+  private static final Pattern PLACE_PTN = Pattern.compile("(.*?\\(.*\\))(.*)");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -35,8 +36,9 @@ public class FLGulfBreezeParser extends SmartAddressParser {
 
     // trim trailing disclaimer
     int ni = body.indexOf("\n");
-    if (ni != -1) body = body.substring(0, ni).trim();
+    if (ni >= 0) body = body.substring(0, ni).trim();
 
+    body = TRAIL_JUNK_PTN.matcher(body).replaceFirst("");  // Misc trailing junk
     body = NON_PRINT.matcher(body).replaceAll(""); // remove non ascii
     body = ASTERISK_TRIMMER.matcher(body).replaceAll(""); // remove leading and trailing ***
 
@@ -50,11 +52,24 @@ public class FLGulfBreezeParser extends SmartAddressParser {
     }
 
     // try parseAddress on body
-    Result res = parseAddress(StartType.START_CALL, body);
-    if (res.getStatus() >= STATUS_FULL_ADDRESS) {
+    Result res = parseAddress(StartType.START_ADDR, body);
+    if (res.getStatus() >= STATUS_INTERSECTION) {
       res.getData(data);
-      if (data.strCall.length() == 0) data.strCall = res.getLeft();
-      else data.strSupp = res.getLeft();
+      String left = res.getLeft();
+      mat = PLACE_PTN.matcher(left);
+      if (mat.matches()) {
+        data.strPlace = mat.group(1);
+        left = mat.group(2).trim();
+      }
+      if (left.startsWith("X2[")) {
+        left = left.substring(3).trim();
+        int pt = left.indexOf(']');
+        if (pt >= 0) {
+          data.strCross = left.substring(0,pt).trim();
+          left = left.substring(pt+1).trim();
+        }
+      }
+      data.strCall = left;
       return true;
     }
 
@@ -62,16 +77,4 @@ public class FLGulfBreezeParser extends SmartAddressParser {
     data.strPlace = body;
     return true;
   }
-  
-  private static final String[] MW_STREETS = new String[]{
-    "AUTUMN BRZ",
-    "BLOCK GULF BREEZE",
-    "CRANE COVE",
-    "GULF BREEZE",
-    "PENSACOLA BEACH",
-    "PINE TREE",
-    "SAN CARLOS",
-    "VIA DE LUNA"
-  };
-  
 }
