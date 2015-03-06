@@ -15,6 +15,12 @@ public class PANorthumberlandCountyParser extends DispatchA45Parser {
     return "@northumberland.alertpa.org";
   }
   
+  @Override
+  public String adjustMapCity(String city) {
+    if (city.equals("POINT TWP")) city += ",NORTHUMBERLAND COUNTY";
+    return city;
+  }
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CBB", "BENTON",
       "CBC", "BRIAR CREEK TWP",
