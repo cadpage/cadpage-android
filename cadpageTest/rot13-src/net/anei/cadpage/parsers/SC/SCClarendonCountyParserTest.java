@@ -191,7 +191,7 @@ choyvp pynff FPPyneraqbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G12",
         "NZREVPNA CBAGBBA 1141 UJL 260 ZNAAVAT 07:56:41 NPGVINGRQ SVER NYNEZ",
-        "NQQE:NZREVPNA CBAGBBA 1141 UJL 260",
+        "NQQE:NZREVPNA CBAGBBA 1141 UJL 260",  //zncf, ohg
         "PVGL:ZNAAVAT",
         "GVZR:07:56:41",
         "PNYY:NPGVINGRQ SVER NYNEZ");
@@ -326,7 +326,7 @@ choyvp pynff FPPyneraqbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G32",
         "115FO 115 F V-95 ZNAAVAT 05:27:59 IRUVPYR NPPVQRAG YNJ BAYL",
         "NQQE:115FO 115 F V-95",
-        "ZNQQE:115 115 F V 95",
+        "ZNQQE:115 115 F V 95", //abg rira jura v erzbir gur qbhoyr 115
         "PVGL:ZNAAVAT",
         "GVZR:05:27:59",
         "PNYY:IRUVPYR NPPVQRAG YNJ BAYL");
@@ -353,7 +353,7 @@ choyvp pynff FPPyneraqbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G36",
         "103FO 103 F V-95 FHZZREGBA 16:15:37 IRUVPYR SVER",
         "NQQE:103FO 103 F V-95",
-        "ZNQQE:103 103 F V 95",
+        "ZNQQE:103 103 F V 95", //cbvagf v qbag guvax gb gur evtug cynpr
         "PVGL:FHZZREGBA",
         "GVZR:16:15:37",
         "PNYY:IRUVPYR SVER");

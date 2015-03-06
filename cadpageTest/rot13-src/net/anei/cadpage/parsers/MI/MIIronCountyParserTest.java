@@ -2950,7 +2950,7 @@ choyvp pynff ZVVebaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:CV NPPVQRAG",
         "CYNPR:ZNPXVANP OEVQTR",
         "NQQE:415 V-75",
-        "ZNQQE:415 V 75",
+        "ZNQQE:415 V 75", //abcr
         "HAVG:U46S",
         "PVGL:ZBENA GJC");
 
@@ -2959,14 +2959,14 @@ choyvp pynff ZVVebaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:CV NPPVQRAG",
         "CYNPR:ZNPXVANP OEVQTR",
         "NQQE:415 V-75",
-        "ZNQQE:415 V 75",
+        "ZNQQE:415 V 75", //abcr
         "HAVG:U46R",
         "PVGL:ZBENA GJC");
 
     qbGrfg("G6",
         "PNQ:SVER NYNEZ;8222 TERRA FURQ YA;SBERFG QE;U29S;ZNPXVANP VFYNAQ",
         "PNYY:SVER NYNEZ",
-        "NQQE:8222 TERRA FURQ YA",
+        "NQQE:8222 TERRA FURQ YA", //univat gebhoyr jvgu guvf bar
         "K:SBERFG QE",
         "HAVG:U29S",
         "PVGL:ZNPXVANP VFYNAQ");
@@ -3049,7 +3049,7 @@ choyvp pynff ZVVebaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G16",
         "PNQ:CV NPPVQRAG;SF5102;U46R;ZBENA GJC",
         "PNYY:CV NPPVQRAG",
-        "NQQE:SF5102",
+        "NQQE:SF5102", //??
         "HAVG:U46R",
         "PVGL:ZBENA GJC");
 
