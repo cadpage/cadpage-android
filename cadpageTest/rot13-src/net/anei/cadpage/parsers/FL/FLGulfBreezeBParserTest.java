@@ -6,7 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 
-Thys Oerrmr, SY
+Thys Oerrmr, SY (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Thys Oerrmr Sver - Erfphr
