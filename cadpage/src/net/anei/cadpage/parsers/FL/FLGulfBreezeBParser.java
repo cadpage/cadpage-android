@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.ReverseCodeSet;
 public class FLGulfBreezeBParser extends MsgParser {
 
   public FLGulfBreezeBParser() {
-    super("GULF COUNTY", "FL");
+    super("GULF BREEZE", "FL");
     setFieldList("ADDR APT PLACE X CALL ID UNIT GPS INFO");
   }
 

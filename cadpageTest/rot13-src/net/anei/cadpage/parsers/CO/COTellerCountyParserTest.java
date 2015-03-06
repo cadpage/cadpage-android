@@ -6,111 +6,88 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 
+Gryyre Pbhagl, PB
+
 Pbagnpg: Npgvir911
-Ntrapl anzr: AR Gryyre Pbhagl Sver
-Ybpngvba: Jbbqynaq Cnex, PB, Havgrq Fgngrf
+Ntrapl anzr: Pevccyr Perrx CQ
+Ybpngvba: Pevccyr Perrx, PB, Havgrq Fgngrf
 Fraqre: <rcg@rcg911.vasb>
 
-CEBO:Nynez Pnyy                    NQQ:570 Crzoebbx Qe                                                                 NCG:     YBP:
-CEBO:911 Zrqvpny                   NQQ:205 R Xryyrlf Eq                                                                NCG:     YBP:
-CEBO:Qvfchgr / Qvfgheonapr         NQQ:281 J Qrjryy Eq                                                                 NCG:     YBP:
-Nqq:16  Fcehpr Pve                     Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:17N01T
-Nqq:16  Fcehpr Pve                     Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:17N01T
-CEBO:911 Zrqvpny                   NQQ:500 Sberfg Rqtr Pve                                                             NCG:N    YBP:
-CEBO:911 Zrqvpny                   NQQ:1040 Jvagreterra Pg                                                             NCG:     YBP:
-CEBO:911 Zrqvpny                   NQQ:380 Cnenqvfr Pve                                                                NCG:NCG NYBP:
-CEBO:Zrqvpny                       NQQ:140 Ryx Tebir Ya                                                                NCG:     YBP:
-CEBO:Zrqvpny                       NQQ:911 Gnznenp Cxjl                                                                NCG:     YBP:JCCQ                JCCQ
-CEBO:911 Zrqvpny                   NQQ:1101 R Ujl 24                                                                   NCG:     YBP:
-CEBO:Zrqvpny                       NQQ:Qb Vg Orfg                                                                      NCG:     YBP:
-CEBO:911 Zrqvpny                   NQQ:19570 R Ujl 24                                                                  NCG:24   YBP:JIGP                JIGP
-CEBO:Fpubby Cngeby                 NQQ:Fpubby Cngeby                                                                   NCG:     YBP:
-CEBO:911 Zrqvpny                   NQQ:1340 Gryrznex Qe                                                                NCG:     YBP:
-CEBO:Fhfcvpvbhf Vapvqrag           NQQ:151 Cnagure Jnl                                                                 NCG:     YBP:JCUF (Jbbqynaq Cnex JCUF (Jbbqynaq Cnex Uvtu Fpubby FBHGU)
-CEBO:911 Zrqvpny                   NQQ:313 Ncevy Fha Pg                                                                NCG:     YBP:
-Nqq:1701 Aninwb Gey                    Ceboyrz:Fhfcvpvbhf Pvephzfgnapr            Ybp:                                                                      Pbqr:
-CEBO:911 Pnyy                      NQQ:963 Ynsnlrggr Nir                                                               NCG:     YBP:
-Nqq:124 Oyhr Fcehpr Gey                Ceboyrz:Pneqvnp/Erfcvgbel Neerfg           Ybp:                                                                      Pbqr:09R01
-Nqq:ujl 24/ pe 5                       Ceboyrz:911 Zrqvpny                        Ybp:                                                                      Pbqr:
-Nqq:ujl 24/ pe 5                       Ceboyrz:Genssvp Nppvqrag                   Ybp:                                                                      Pbqr:
-Nqq:330 Fhzzre Unira Qe                Ceboyrz:Nynez Sver                         Ybp:                                                                      Pbqr:
-Nqq:1 - 299 Pblbgr Gey                 Ceboyrz:Sver                               Ybp:                                                                      Pbqr:
-Nqq:1 - 299 Pblbgr Gey                 Ceboyrz:Sver                               Ybp:                                                                      Pbqr:
-CEBO:Zrqvpny                       NQQ:430 J Uraevrggn Nir                                                             NCG:     YBP:
-CEBO:911 Unat Hc                   NQQ:920 Cnenqvfr Ybqtr Ynar                                                         NCG:     YBP:RAG SRQRENY PERQVG HRAG SRQRENY PERQVG HAVBA
-CEBO:911 Zrqvpny                   NQQ:311 Cnagure Pg                                                                  NCG:     YBP:
-CEBO:911 Zrqvpny                   NQQ:313 Ncevy Fha Pg                                                                NCG:     YBP:
-Nqq:24 rqybjr                          Ceboyrz:Genssvp Fgbc                       Ybp:                                                                      Pbqr:
-Nqq:1920  Pbhagl Eq 31                 Ceboyrz:Fzbxr Ercbeg                       Ybp:                                                                      Pbqr:
-CEBO:911 Zrqvpny                   NQQ:404 R Zvqynaq Nir                                                               NCG:     YBP:
-CEBO:Nffvfg Sver Qrcnegzrag        NQQ:730 R Uvtujnl 24                                                                NCG:     YBP:
-Nqq:1871 Pb Eq 21                      Ceboyrz:Nynez Sver                         Ybp:                                                                      Pbqr:
-Nqq:1871 Pb Eq 21                      Ceboyrz:Nynez Sver                         Ybp:                                                                      Pbqr:
-Nqq:425 Pbeq 21                        Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:
-CEBO:Jrysner Purpx                 NQQ:500 J Fbhgu Nir                                                                 NCG:N    YBP:
-CEBO:911 Zrqvpny                   NQQ:620 Erq Ohssnyb Tei                                                             NCG:     YBP:
-Nqq:235  Hgr Ge                        Ceboyrz:Hgvyvgl Ceboyrz                    Ybp:                                                                      Pbqr:
-CEBO:Ehanjnl Whiravyr              NQQ:611 F Snveivrj Fg                                                               NCG:     YBP:
-CEBO:Nynez Pnyy                    NQQ:723 J Ujl 24                                                                    NCG:     YBP:Pbhagel Ybqtr       Pbhagel Ybqtr
-Nqq:29 Vyyvav Qe                       Ceboyrz:Ybpxbhg                            Ybp:                                                                      Pbqr:
-Nqq:1869 Pbeq 21                       Ceboyrz:Pvgvmra Nffvfg                     Ybp:                                                                      Pbqr:
-Nqq:1869 Pbeq 21                       Ceboyrz:Pvgvmra Nffvfg                     Ybp:                                                                      Pbqr:
-CEBO:Nynez Pnyy                    NQQ:309 R Ynxr Nir                                                                  NCG:     YBP:
-CEBO:Zrqvpny                       NQQ:707 J OBJZNA NIR                                                                NCG:     YBP:
-Nqq:Ujl 24 Naq Cvxrf Crnx Ertvbany     Ceboyrz:Qbzrfgvp Ivbyrapr                  Ybp:                                                                      Pbqr:
-Nqq:Ujl 24 Naq Cvxrf Crnx Ertvbany     Ceboyrz:Qbzrfgvp Ivbyrapr                  Ybp:                                                                      Pbqr:
-Nqq:1022 J Ujl 24                      Ceboyrz:Snyy                               Ybp:                                                                      Pbqr:17N01
-CEBO:911 Pnyy                      NQQ:1301 R Uvtujnl 24                                                               NCG:O    YBP:
-Nqq:2206 Fcehpr Eq                     Ceboyrz:Fzbxr Ercbeg                       Ybp:                                                                      Pbqr:
-Nqq:2206 Fcehpr Eq                     Ceboyrz:Fzbxr Ercbeg                       Ybp:                                                                      Pbqr:
-CEBO:Zrqvpny Genafcbeg             NQQ:311 Rzrefba Pg                                                                  NCG:     YBP:
-CEBO:Nffvfg Sver Qrcnegzrag        NQQ:761 Pbyhzovar Ivyyntr Qe                                                        NCG:N    YBP:
-CEBO:Nffvfg Sver Qrcnegzrag        NQQ:729 Pbhagel Qe                                                                  NCG:     YBP:
-CEBO:SVER FREIVPR PNYY             NQQ:345 Pvepyr Qevir Nir                                                            NCG:     YBP:
-CEBO:Zrqvpny                       NQQ:550 Terrajnl Pg                                                                 NCG:Q    YBP:
-CEBO:911 Zrqvpny                   NQQ:19570 R Ujl 24                                                                  NCG:55   YBP:
-Nqq:13250 Znttvr Ynar                  Ceboyrz:Oernguvat Ceboyrzf                 Ybp:                                                                      Pbqr:06R01
-Nqq:13250 Znttvr Ynar                  Ceboyrz:Oernguvat Ceboyrzf                 Ybp:                                                                      Pbqr:06R01
-CEBO:911 Zrqvpny                   NQQ:1220 J Oebjavat Nir                                                             NCG:PNYYOYBP:
-CEBO:Whiravyr Pbzcynvag            NQQ:524 R 24 Ujl                                                                    NCG:     YBP:ZpQbanyqf           ZpQbanyqf
-CEBO:Fhvpvqny Cnegl                NQQ:16420 24 Ujl                                                                    NCG:     YBP:JCCQ                JCCQ
-CEBO:Fhvpvqny Cnegl                NQQ:640 A Pbenyvar Fg                                                               NCG:8    YBP:
-CEBO:911 Zrqvpny                   NQQ:610 A Pbenyvar Fg                                                               NCG:8    YBP:
-CEBO:911 Pnyy                      NQQ:319 Ncevy Fha Pg                                                                NCG:     YBP:
-CEBO:911 Zrqvpny                   NQQ:710 Crzoebbx Qe                                                                 NCG:     YBP:
-Nqq:Enzcneg Enatr Erfreibve            Ceboyrz:Fzbxr Ercbeg                       Ybp:                                                                      Pbqr:
-Nqq:220 Fhaaljbbq Ya                   Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:01P05
-Nqq:220 Fhaaljbbq Ya                   Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:01P05
-Nqq:67 zz 90 rnfg fvqr bs ebnq         Ceboyrz:Fzbxr Ercbeg                       Ybp:                                                                      Pbqr:
-Nqq:2605 Fhaaljbbq Nir                 Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:26N10
-Nqq:2605 Fhaaljbbq Nir                 Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:26N10
-CEBO:911 Zrqvpny                   NQQ:604 F Cnex Fg                                                                   NCG:     YBP:
-CEBO:Nynez Pnyy                    NQQ:100 Fnqqyr Pyho Ni                                                              NCG:     YBP:jbbqynaq uneqjner   jbbqynaq uneqjner
-CEBO:SVER FREIVPR PNYY             NQQ:700 J Ujl 24                                                                    NCG:     YBP:
-Nqq:1933  Pbhagl Eq 782                Ceboyrz:Genhzngvp Vawhevrf                 Ybp:                                                                      Pbqr:30O01
-Nqq:1933  Pbhagl Eq 782                Ceboyrz:Genhzngvp Vawhevrf                 Ybp:                                                                      Pbqr:30O01
-Nqq:1933  Pbhagl Eq 782                Ceboyrz:Qbzrfgvp Ivbyrapr                  Ybp:                                                                      Pbqr:
-Nqq:1933  Pbhagl Eq 782                Ceboyrz:Qbzrfgvp Ivbyrapr                  Ybp:                                                                      Pbqr:
-CEBO:911 Zrqvpny                   NQQ:1521 Perfgivrj Jnl                                                              NCG:     YBP:
-Nqq:141 Trbetrf Ya                     Ceboyrz:Fvpxarff                           Ybp:                                                                      Pbqr:26P02
-CEBO:Genssvp Nppvqrag              NQQ:Onyqjva / Thaavfba                                                              NCG:     YBP:
-Nqq:Uvtujnl 24r/ Onq Ebpx              Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:19Q01
-CEBO:911 Zrqvpny                   NQQ:814 Zvfgl Cvarf Pve                                                             NCG:     YBP:
-Nqq:207 Ehgtref Cy                     Ceboyrz:Inaqnyvfz                          Ybp:                                                                      Pbqr:
-Nqq:207 Ehgtref Cy                     Ceboyrz:Inaqnyvfz                          Ybp:                                                                      Pbqr:
-CEBO:Zrqvpny                       NQQ:140 Ryx Tebir Ya                                                                NCG:     YBP:
-Nqq:220 Fhaaljbbq Ya                   Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:17N01T
-Nqq:Jc Jngre Gbjre Ba Zvqynaq          Ceboyrz:Sver                               Ybp:                                                                      Pbqr:
-Nqq:Jc Jngre Gbjre Ba Zvqynaq          Ceboyrz:Sver                               Ybp:                                                                      Pbqr:
-Nqq:Jc Jngre Gbjre Ba Zvqynaq          Ceboyrz:Sver                               Ybp:                                                                      Pbqr:
-Nqq:5567  Pbhagl Eq 78                 Ceboyrz:Nyyretl/Zrqvpny Ernpgvba/Fgvat     Ybp:Pnzc Ryvz           Pnzc Ryvz                                         Pbqr:02Q02
-Nqq:5567  Pbhagl Eq 78                 Ceboyrz:Nyyretl/Zrqvpny Ernpgvba/Fgvat     Ybp:Pnzc Ryvz           Pnzc Ryvz                                         Pbqr:02Q02
-Nqq:ujl 24 wbuafgbaf uvyy              Ceboyrz:Erqqv                              Ybp:                                                                      Pbqr:
-Nqq:2213 A Enzcneg Enatr Eq            Ceboyrz:Genssvp Nppvqrag                   Ybp:                                                                      Pbqr:
-Nqq:2213 A Enzcneg Enatr Eq            Ceboyrz:Genssvp Nppvqrag                   Ybp:                                                                      Pbqr:
-Nqq:361 Pelfgny Crnx Eq                Ceboyrz:Zrqvpny                            Ybp:Sybevffnag Urvtugf  Sybevffnag Urvtugf                                Pbqr:26N11
-Nqq:2213 A Enzcneg Enatr Eq            Ceboyrz:Genssvp Nppvqrag                   Ybp:                                                                      Pbqr:
-CEBO:911 Zrqvpny                   NQQ:19600 R UJL 24 cnexvat ybg                                                      NCG:     YBP:
+Nqq: 601 R Tnyran Fg                    Tbyq Xvat Zga Vaa                  Ceboyrz: Pbzzrepvny Sver Nynez              Pvgl: Pevccyr Perrx
+Nqq: 325 R TNYRAN NIR                                                      Ceboyrz: Zrqvpny                            Pvgl: Pevccyr Perrx
+Nqq: Grfg Gbarf                                                            Ceboyrz: Grfg                               Pvgl: Pevccyr Perrx
+Nqq: 401 Ivpgbe Nir                                                        Ceboyrz: Zrqvpny                            Pvgl: IVPGBE
+Nqq187 OYHR FCEHPR EQ                                                    CeboyrzZrqvpny                            PvglQVIVQR
+Nqq700 A N FG                         Pevccyr Perrx Pner Pragre          CeboyrzZrqvpny                            PvglPevccyr Perrx
+Nqq77 Erq Pybhq Eq                                                       CeboyrzZrqvpny                            PvglPevccyr Perrx
+Nqq318 Juvgvat Nir                                                       CeboyrzZrqvpny                            PvglPevccyr Perrx
+Nqq317 A 2aq Fg                                                          CeboyrzZrqvpny                            PvglPevccyr Perrx                      Abgr Gehr
+Nqq101 R Oraargg Nir                  Cbyvpr Qrcnegzrag                  CeboyrzGrfg                               PvglPevccyr Perrx                      Abgr Gehr
+Nqq147 R ORAARGG NIR                  Pevccyr Perrx Nzohynapr(aba-rz     CeboyrzGrfg                               PvglPevccyr Perrx                      Abgr Snyfr
+Nqq256 R ORAARGG NIR             CeboyrzZrqvpny
+Nqq209 R Cvxrf Crnx Nir          CeboyrzZrqvpny
+Nqq1101 Pbhagl Eq 1              CeboyrzZrqvpny
+Nqq602 O Ivpgbe Ni               CeboyrzZrqvpny
+Nqq256 R Oraargg Nir             CeboyrzZrqvpny
+Nqq146 Purebxrr Cy               CeboyrzZrqvpny
+Nqq325 R Tnyran Nir              CeboyrzZrqvpny
+Nqq301 R Oraargg Nir             CeboyrzZrqvpny
+Nqq1000 F 4gu Fg                 CeboyrzZrqvpny
+NqqGrfg                          CeboyrzGrfg
+Nqq233 R Oraargg Nir             CeboyrzZrqvpny
+Nqq147 R ORAARGG NIR - JNYX VA   CeboyrzJnyx-va
+Nqq6947 Gryyre 1                 CeboyrzZrqvpny
+NqqGhaary                        CeboyrzFgnaqol Zrqvpny
+Nqq147 R ORAARGG NIR             CeboyrzJnyx-va
+NqqGrfg Gbarf                    CeboyrzGrfg
+Nqq218 J Rngba Nir               CeboyrzZrqvpny
+Nqq604 Cbegynaq Nir              CeboyrzZrqvpny
+Nqq106 F 4gu Fg                  CeboyrzZrqvpny
+Nqq1104 Ivpgbe Nir               CeboyrzTnf Bqbe
+Nqq442 R Oraargg Nir             CeboyrzZrqvpny
+Nqq325 R Tnyran Fg               CeboyrzZrqvpny
+Nqq65 Neebj Ebpx Pve             CeboyrzZrqvpny
+Nqq305 J Rngba Nir               CeboyrzZrqvpny
+Nqq119 R Rngba Nir               CeboyrzZrqvpny
+Nqq101 R Oraargg Nir             CeboyrzZrqvpny
+NqqGpeq1 Naq Cbegynaq Qe         CeboyrzZrqvpny
+Nqq67f                           CeboyrzFgnaqol Zrqvpny
+Nqq311 Znva Fg                   CeboyrzZrqvpny
+Nqq700 A N Fg                    CeboyrzZrqvpny
+Nqq328 J Tbyqra Nir              CeboyrzErfvqragvny Sver Nynez
+Nqq67 Nccvna Jnl                 CeboyrzNtrapl Nffvfg
+Nqq162 F Cvaba Pve               CeboyrzZrqvpny
+Nqq210 R Oraargg Nir             CeboyrzZrqvpny
+Nqq504 Pnyyr Qry Fby             CeboyrzZrqvpny
+Nqq504 PNYYR QRY FBY             CeboyrzZrqvpny
+Nqq504 Pnyyr Qr Yn Vyyhivn       CeboyrzZrqvpny
+Nqq1800 Pnypvgr Qe               CeboyrzZrqvpny
+Nqq0 R Oraargg Nir               CeboyrzZrqvpny
+Nqq200 R Oraargg Nir             CeboyrzZrqvpny
+NqqR Tbyqra Nir                  CeboyrzOybbq Qenj
+NqqUjl 67 - Tvyyrggr Syngf       CeboyrzGenssvp Nppvqrag
+Nqq55 Nqnve Pve                  CeboyrzZrqvpny
+NqqFvyire Fg                     CeboyrzZrqvpny
+Nqq9871 Ujl 67                   CeboyrzFgehpgher Sver - Erfvqragvny
+Nqq160 Qhr Fbhgu Eq              CeboyrzZrqvpny
+Nqq101 R Oraargg Nir             CeboyrzJnyx-va
+NqqGhaaryy                       CeboyrzFgnaqol Zrqvpny
+Nqq123 R Znl Nir                 CeboyrzPbzzrepvny Sver Nynez
+Nqq119 Pneobangr Fg              CeboyrzZrqvpny
+NqqZnfbavp & 3eq                 CeboyrzZrqvpny
+Nqq123 A 3eq Fg                  CeboyrzGenssvp Nppvqrag
+NqqPb Eq 100 Ng Pb Eq 71         CeboyrzGenssvp Nppvqrag
+NqqFgnaqol Ng Ghaary             CeboyrzVasbezngvba
+Nqq233 R ORAARGG NIR             CeboyrzZrqvpny
+NqqPbeq 112 / Pbeq 11            CeboyrzGenssvp Nppvqrag
+Nqq147 R Oraargg Nir             CeboyrzJnyx-va
+NqqA 2aq Fg & R Oraargg Nir      CeboyrzZrqvpny
+Nqq101 R JNEERA NIR              CeboyrzTnf Bqbe
+Nqq404 F N Fg                    CeboyrzZrqvpny
+Nqq106 A 3eq Fg                  CeboyrzZrqvpny
+Nqq734 Ubefrfubr Qe              CeboyrzZrqvpny
+NqqFurys Eq.  - Pbhagl Yvar      CeboyrzGenssvp Nppvqrag
+Nqq6947 Pbeq 1                   CeboyrzZrqvpny
 
  */
 
@@ -119,573 +96,409 @@ choyvp pynff PBGryyrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp PBGryyrePbhaglCnefreGrfg() {
     frgCnefre(arj PBGryyrePbhaglCnefre(), "GRYYRE PBHAGL", "PB");
   }
-  
+
   @Grfg
-  choyvp ibvq grfgARGryyrePbhaglSver() {
+  choyvp ibvq grfgPevccyrPerrxCQ() {
 
     qbGrfg("G1",
-        "CEBO:Nynez Pnyy                    NQQ:570 Crzoebbx Qe                                                                 NCG:     YBP:",
-        "PNYY:Nynez Pnyy",
-        "NQQE:570 Crzoebbx Qe");
+        "Nqq: 601 R Tnyran Fg                    Tbyq Xvat Zga Vaa                  Ceboyrz: Pbzzrepvny Sver Nynez              Pvgl: Pevccyr Perrx",
+        "NQQE:601 R Tnyran Fg",
+        "CYNPR:Tbyq Xvat Zga Vaa",
+        "PNYY:Pbzzrepvny Sver Nynez",
+        "PVGL:Pevccyr Perrx");
 
     qbGrfg("G2",
-        "CEBO:911 Zrqvpny                   NQQ:205 R Xryyrlf Eq                                                                NCG:     YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:205 R Xryyrlf Eq");
+        "Nqq: 325 R TNYRAN NIR                                                      Ceboyrz: Zrqvpny                            Pvgl: Pevccyr Perrx",
+        "NQQE:325 R TNYRAN NIR",
+        "PNYY:Zrqvpny",
+        "PVGL:Pevccyr Perrx");
 
     qbGrfg("G3",
-        "CEBO:Qvfchgr / Qvfgheonapr         NQQ:281 J Qrjryy Eq                                                                 NCG:     YBP:",
-        "PNYY:Qvfchgr / Qvfgheonapr",
-        "NQQE:281 J Qrjryy Eq");
+        "Nqq: Grfg Gbarf                                                            Ceboyrz: Grfg                               Pvgl: Pevccyr Perrx",
+        "NQQE:Grfg Gbarf",
+        "PNYY:Grfg",
+        "PVGL:Pevccyr Perrx");
 
     qbGrfg("G4",
-        "Nqq:16  Fcehpr Pve                     Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:17N01T",
-        "NQQE:16  Fcehpr Pve",
+        "Nqq: 401 Ivpgbe Nir                                                        Ceboyrz: Zrqvpny                            Pvgl: IVPGBE",
+        "NQQE:401 Ivpgbe Nir",
         "PNYY:Zrqvpny",
-        "PBQR:17N01T");
+        "PVGL:IVPGBE");
 
     qbGrfg("G5",
-        "Nqq:16  Fcehpr Pve                     Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:17N01T",
-        "NQQE:16  Fcehpr Pve",
+        "Nqq187 OYHR FCEHPR EQ                                                    CeboyrzZrqvpny                            PvglQVIVQR",
+        "NQQE:187 OYHR FCEHPR EQ",
         "PNYY:Zrqvpny",
-        "PBQR:17N01T");
+        "PVGL:QVIVQR");
 
     qbGrfg("G6",
-        "CEBO:911 Zrqvpny                   NQQ:500 Sberfg Rqtr Pve                                                             NCG:N    YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:500 Sberfg Rqtr Pve",
-        "NCG:N");
+        "Nqq700 A N FG                         Pevccyr Perrx Pner Pragre          CeboyrzZrqvpny                            PvglPevccyr Perrx",
+        "NQQE:700 A N FG",
+        "CYNPR:Pevccyr Perrx Pner Pragre",
+        "PNYY:Zrqvpny",
+        "PVGL:Pevccyr Perrx");
 
     qbGrfg("G7",
-        "CEBO:911 Zrqvpny                   NQQ:1040 Jvagreterra Pg                                                             NCG:     YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:1040 Jvagreterra Pg");
+        "Nqq77 Erq Pybhq Eq                                                       CeboyrzZrqvpny                            PvglPevccyr Perrx",
+        "NQQE:77 Erq Pybhq Eq",
+        "PNYY:Zrqvpny",
+        "PVGL:Pevccyr Perrx");
 
     qbGrfg("G8",
-        "CEBO:911 Zrqvpny                   NQQ:380 Cnenqvfr Pve                                                                NCG:NCG NYBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:380 Cnenqvfr Pve",
-        "NCG:NCG N");
+        "Nqq318 Juvgvat Nir                                                       CeboyrzZrqvpny                            PvglPevccyr Perrx",
+        "NQQE:318 Juvgvat Nir",
+        "PNYY:Zrqvpny",
+        "PVGL:Pevccyr Perrx");
 
     qbGrfg("G9",
-        "CEBO:Zrqvpny                       NQQ:140 Ryx Tebir Ya                                                                NCG:     YBP:",
+        "Nqq317 A 2aq Fg                                                          CeboyrzZrqvpny                            PvglPevccyr Perrx                      Abgr Gehr",
+        "NQQE:317 A 2aq Fg",
         "PNYY:Zrqvpny",
-        "NQQE:140 Ryx Tebir Ya");
+        "PVGL:Pevccyr Perrx");
 
     qbGrfg("G10",
-        "CEBO:Zrqvpny                       NQQ:911 Gnznenp Cxjl                                                                NCG:     YBP:JCCQ                JCCQ",
-        "PNYY:Zrqvpny",
-        "NQQE:911 Gnznenp Cxjl",
-        "CYNPR:JCCQ");
+        "Nqq101 R Oraargg Nir                  Cbyvpr Qrcnegzrag                  CeboyrzGrfg                               PvglPevccyr Perrx                      Abgr Gehr",
+        "NQQE:101 R Oraargg Nir",
+        "CYNPR:Cbyvpr Qrcnegzrag",
+        "PNYY:Grfg",
+        "PVGL:Pevccyr Perrx");
 
     qbGrfg("G11",
-        "CEBO:911 Zrqvpny                   NQQ:1101 R Ujl 24                                                                   NCG:     YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:1101 R Ujl 24");
+        "Nqq147 R ORAARGG NIR                  Pevccyr Perrx Nzohynapr(aba-rz     CeboyrzGrfg                               PvglPevccyr Perrx                      Abgr Snyfr",
+        "NQQE:147 R ORAARGG NIR",
+        "CYNPR:Pevccyr Perrx Nzohynapr(aba-rz",
+        "PNYY:Grfg",
+        "PVGL:Pevccyr Perrx");
 
     qbGrfg("G12",
-        "CEBO:Zrqvpny                       NQQ:Qb Vg Orfg                                                                      NCG:     YBP:",
-        "PNYY:Zrqvpny",
-        "NQQE:Qb Vg Orfg");
+        "Nqq256 R ORAARGG NIR             CeboyrzZrqvpny",
+        "NQQE:256 R ORAARGG NIR",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G13",
-        "CEBO:911 Zrqvpny                   NQQ:19570 R Ujl 24                                                                  NCG:24   YBP:JIGP                JIGP",
-        "PNYY:911 Zrqvpny",
-        "NQQE:19570 R Ujl 24",
-        "NCG:24",
-        "CYNPR:JIGP");
+        "Nqq209 R Cvxrf Crnx Nir          CeboyrzZrqvpny",
+        "NQQE:209 R Cvxrf Crnx Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G14",
-        "CEBO:Fpubby Cngeby                 NQQ:Fpubby Cngeby                                                                   NCG:     YBP:",
-        "PNYY:Fpubby Cngeby",
-        "NQQE:Fpubby Cngeby");
+        "Nqq1101 Pbhagl Eq 1              CeboyrzZrqvpny",
+        "NQQE:1101 Pbhagl Eq 1",
+        "ZNQQE:1101 PBHAGL EBNQ 1",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G15",
-        "CEBO:911 Zrqvpny                   NQQ:1340 Gryrznex Qe                                                                NCG:     YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:1340 Gryrznex Qe");
+        "Nqq602 O Ivpgbe Ni               CeboyrzZrqvpny",
+        "NQQE:602 O Ivpgbe Ni",
+        "ZNQQE:602 O Ivpgbe Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G16",
-        "CEBO:Fhfcvpvbhf Vapvqrag           NQQ:151 Cnagure Jnl                                                                 NCG:     YBP:JCUF (Jbbqynaq Cnex JCUF (Jbbqynaq Cnex Uvtu Fpubby FBHGU)",
-        "PNYY:Fhfcvpvbhf Vapvqrag",
-        "NQQE:151 Cnagure Jnl",
-        "CYNPR:JCUF (Jbbqynaq Cnex");
+        "Nqq256 R Oraargg Nir             CeboyrzZrqvpny",
+        "NQQE:256 R Oraargg Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G17",
-        "CEBO:911 Zrqvpny                   NQQ:313 Ncevy Fha Pg                                                                NCG:     YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:313 Ncevy Fha Pg");
+        "Nqq146 Purebxrr Cy               CeboyrzZrqvpny",
+        "NQQE:146 Purebxrr Cy",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G18",
-        "Nqq:1701 Aninwb Gey                    Ceboyrz:Fhfcvpvbhf Pvephzfgnapr            Ybp:                                                                      Pbqr:",
-        "NQQE:1701 Aninwb Gey",
-        "PNYY:Fhfcvpvbhf Pvephzfgnapr");
+        "Nqq325 R Tnyran Nir              CeboyrzZrqvpny",
+        "NQQE:325 R Tnyran Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G19",
-        "CEBO:911 Pnyy                      NQQ:963 Ynsnlrggr Nir                                                               NCG:     YBP:",
-        "PNYY:911 Pnyy",
-        "NQQE:963 Ynsnlrggr Nir");
+        "Nqq301 R Oraargg Nir             CeboyrzZrqvpny",
+        "NQQE:301 R Oraargg Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G20",
-        "Nqq:124 Oyhr Fcehpr Gey                Ceboyrz:Pneqvnp/Erfcvgbel Neerfg           Ybp:                                                                      Pbqr:09R01",
-        "NQQE:124 Oyhr Fcehpr Gey",
-        "PNYY:Pneqvnp/Erfcvgbel Neerfg",
-        "PBQR:09R01");
+        "Nqq1000 F 4gu Fg                 CeboyrzZrqvpny",
+        "NQQE:1000 F 4gu Fg",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G21",
-        "Nqq:ujl 24/ pe 5                       Ceboyrz:911 Zrqvpny                        Ybp:                                                                      Pbqr:",
-        "NQQE:ujl 24 & pe 5",
-        "ZNQQE:ujl 24 & PBHAGL EBNQ 5",
-        "PNYY:911 Zrqvpny");
+        "NqqGrfg                          CeboyrzGrfg",
+        "NQQE:Grfg",
+        "PNYY:Grfg");
 
     qbGrfg("G22",
-        "Nqq:ujl 24/ pe 5                       Ceboyrz:Genssvp Nppvqrag                   Ybp:                                                                      Pbqr:",
-        "NQQE:ujl 24 & pe 5",
-        "ZNQQE:ujl 24 & PBHAGL EBNQ 5",
-        "PNYY:Genssvp Nppvqrag");
+        "Nqq233 R Oraargg Nir             CeboyrzZrqvpny",
+        "NQQE:233 R Oraargg Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G23",
-        "Nqq:330 Fhzzre Unira Qe                Ceboyrz:Nynez Sver                         Ybp:                                                                      Pbqr:",
-        "NQQE:330 Fhzzre Unira Qe",
-        "PNYY:Nynez Sver");
+        "Nqq147 R ORAARGG NIR - JNYX VA   CeboyrzJnyx-va",
+        "NQQE:147 R ORAARGG NIR - JNYX VA",
+        "PNYY:Jnyx-va");
 
     qbGrfg("G24",
-        "Nqq:1 - 299 Pblbgr Gey                 Ceboyrz:Sver                               Ybp:                                                                      Pbqr:",
-        "NQQE:1 - 299 Pblbgr Gey",
-        "ZNQQE:1 Pblbgr Gey",
-        "PNYY:Sver");
+        "Nqq6947 Gryyre 1                 CeboyrzZrqvpny",
+        "NQQE:6947 Gryyre 1",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G25",
-        "Nqq:1 - 299 Pblbgr Gey                 Ceboyrz:Sver                               Ybp:                                                                      Pbqr:",
-        "NQQE:1 - 299 Pblbgr Gey",
-        "ZNQQE:1 Pblbgr Gey",
-        "PNYY:Sver");
+        "NqqGhaary                        CeboyrzFgnaqol Zrqvpny",
+        "NQQE:Ghaary",
+        "PNYY:Fgnaqol Zrqvpny");
 
     qbGrfg("G26",
-        "CEBO:Zrqvpny                       NQQ:430 J Uraevrggn Nir                                                             NCG:     YBP:",
-        "PNYY:Zrqvpny",
-        "NQQE:430 J Uraevrggn Nir");
+        "Nqq147 R ORAARGG NIR             CeboyrzJnyx-va",
+        "NQQE:147 R ORAARGG NIR",
+        "PNYY:Jnyx-va");
 
     qbGrfg("G27",
-        "CEBO:911 Unat Hc                   NQQ:920 Cnenqvfr Ybqtr Ynar                                                         NCG:     YBP:RAG SRQRENY PERQVG HRAG SRQRENY PERQVG HAVBA",
-        "PNYY:911 Unat Hc",
-        "NQQE:920 Cnenqvfr Ybqtr Ynar",
-        "CYNPR:RAG SRQRENY PERQVG H");
+        "NqqGrfg Gbarf                    CeboyrzGrfg",
+        "NQQE:Grfg Gbarf",
+        "PNYY:Grfg");
 
     qbGrfg("G28",
-        "CEBO:911 Zrqvpny                   NQQ:311 Cnagure Pg                                                                  NCG:     YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:311 Cnagure Pg");
+        "Nqq218 J Rngba Nir               CeboyrzZrqvpny",
+        "NQQE:218 J Rngba Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G29",
-        "CEBO:911 Zrqvpny                   NQQ:313 Ncevy Fha Pg                                                                NCG:     YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:313 Ncevy Fha Pg");
+        "Nqq604 Cbegynaq Nir              CeboyrzZrqvpny",
+        "NQQE:604 Cbegynaq Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G30",
-        "Nqq:24 rqybjr                          Ceboyrz:Genssvp Fgbc                       Ybp:                                                                      Pbqr:",
-        "NQQE:24 rqybjr",
-        "PNYY:Genssvp Fgbc");
+        "Nqq106 F 4gu Fg                  CeboyrzZrqvpny",
+        "NQQE:106 F 4gu Fg",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G31",
-        "Nqq:1920  Pbhagl Eq 31                 Ceboyrz:Fzbxr Ercbeg                       Ybp:                                                                      Pbqr:",
-        "NQQE:1920  Pbhagl Eq 31",
-        "ZNQQE:1920  PBHAGL EBNQ 31",
-        "PNYY:Fzbxr Ercbeg");
+        "Nqq1104 Ivpgbe Nir               CeboyrzTnf Bqbe",
+        "NQQE:1104 Ivpgbe Nir",
+        "PNYY:Tnf Bqbe");
 
     qbGrfg("G32",
-        "CEBO:911 Zrqvpny                   NQQ:404 R Zvqynaq Nir                                                               NCG:     YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:404 R Zvqynaq Nir");
+        "Nqq442 R Oraargg Nir             CeboyrzZrqvpny",
+        "NQQE:442 R Oraargg Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G33",
-        "CEBO:Nffvfg Sver Qrcnegzrag        NQQ:730 R Uvtujnl 24                                                                NCG:     YBP:",
-        "PNYY:Nffvfg Sver Qrcnegzrag",
-        "NQQE:730 R Uvtujnl 24");
+        "Nqq325 R Tnyran Fg               CeboyrzZrqvpny",
+        "NQQE:325 R Tnyran Fg",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G34",
-        "Nqq:1871 Pb Eq 21                      Ceboyrz:Nynez Sver                         Ybp:                                                                      Pbqr:",
-        "NQQE:1871 Pb Eq 21",
-        "ZNQQE:1871 PBHAGL EBNQ 21",
-        "PNYY:Nynez Sver");
+        "Nqq65 Neebj Ebpx Pve             CeboyrzZrqvpny",
+        "NQQE:65 Neebj Ebpx Pve",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G35",
-        "Nqq:1871 Pb Eq 21                      Ceboyrz:Nynez Sver                         Ybp:                                                                      Pbqr:",
-        "NQQE:1871 Pb Eq 21",
-        "ZNQQE:1871 PBHAGL EBNQ 21",
-        "PNYY:Nynez Sver");
+        "Nqq305 J Rngba Nir               CeboyrzZrqvpny",
+        "NQQE:305 J Rngba Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G36",
-        "Nqq:425 Pbeq 21                        Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:",
-        "NQQE:425 Pbeq 21",
-        "ZNQQE:425 PBHAGL EBNQ 21",
+        "Nqq119 R Rngba Nir               CeboyrzZrqvpny",
+        "NQQE:119 R Rngba Nir",
         "PNYY:Zrqvpny");
 
     qbGrfg("G37",
-        "CEBO:Jrysner Purpx                 NQQ:500 J Fbhgu Nir                                                                 NCG:N    YBP:",
-        "PNYY:Jrysner Purpx",
-        "NQQE:500 J Fbhgu Nir",
-        "NCG:N");
+        "Nqq101 R Oraargg Nir             CeboyrzZrqvpny",
+        "NQQE:101 R Oraargg Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G38",
-        "CEBO:911 Zrqvpny                   NQQ:620 Erq Ohssnyb Tei                                                             NCG:     YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:620 Erq Ohssnyb Tei");
+        "NqqGpeq1 Naq Cbegynaq Qe         CeboyrzZrqvpny",
+        "NQQE:Gpeq1 Naq Cbegynaq Qe",
+        "ZNQQE:Gpeq1 & Cbegynaq Qe",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G39",
-        "Nqq:235  Hgr Ge                        Ceboyrz:Hgvyvgl Ceboyrz                    Ybp:                                                                      Pbqr:",
-        "NQQE:235  Hgr Ge",
-        "PNYY:Hgvyvgl Ceboyrz");
+        "Nqq67f                           CeboyrzFgnaqol Zrqvpny",
+        "NQQE:67f",
+        "PNYY:Fgnaqol Zrqvpny");
 
     qbGrfg("G40",
-        "CEBO:Ehanjnl Whiravyr              NQQ:611 F Snveivrj Fg                                                               NCG:     YBP:",
-        "PNYY:Ehanjnl Whiravyr",
-        "NQQE:611 F Snveivrj Fg");
+        "Nqq311 Znva Fg                   CeboyrzZrqvpny",
+        "NQQE:311 Znva Fg",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G41",
-        "CEBO:Nynez Pnyy                    NQQ:723 J Ujl 24                                                                    NCG:     YBP:Pbhagel Ybqtr       Pbhagel Ybqtr",
-        "PNYY:Nynez Pnyy",
-        "NQQE:723 J Ujl 24",
-        "CYNPR:Pbhagel Ybqtr");
+        "Nqq700 A N Fg                    CeboyrzZrqvpny",
+        "NQQE:700 A N Fg",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G42",
-        "Nqq:29 Vyyvav Qe                       Ceboyrz:Ybpxbhg                            Ybp:                                                                      Pbqr:",
-        "NQQE:29 Vyyvav Qe",
-        "PNYY:Ybpxbhg");
+        "Nqq328 J Tbyqra Nir              CeboyrzErfvqragvny Sver Nynez",
+        "NQQE:328 J Tbyqra Nir",
+        "PNYY:Erfvqragvny Sver Nynez");
 
     qbGrfg("G43",
-        "Nqq:1869 Pbeq 21                       Ceboyrz:Pvgvmra Nffvfg                     Ybp:                                                                      Pbqr:",
-        "NQQE:1869 Pbeq 21",
-        "ZNQQE:1869 PBHAGL EBNQ 21",
-        "PNYY:Pvgvmra Nffvfg");
+        "Nqq67 Nccvna Jnl                 CeboyrzNtrapl Nffvfg",
+        "NQQE:67 Nccvna Jnl",
+        "PNYY:Ntrapl Nffvfg");
 
     qbGrfg("G44",
-        "Nqq:1869 Pbeq 21                       Ceboyrz:Pvgvmra Nffvfg                     Ybp:                                                                      Pbqr:",
-        "NQQE:1869 Pbeq 21",
-        "ZNQQE:1869 PBHAGL EBNQ 21",
-        "PNYY:Pvgvmra Nffvfg");
+        "Nqq162 F Cvaba Pve               CeboyrzZrqvpny",
+        "NQQE:162 F Cvaba Pve",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G45",
-        "CEBO:Nynez Pnyy                    NQQ:309 R Ynxr Nir                                                                  NCG:     YBP:",
-        "PNYY:Nynez Pnyy",
-        "NQQE:309 R Ynxr Nir");
+        "Nqq210 R Oraargg Nir             CeboyrzZrqvpny",
+        "NQQE:210 R Oraargg Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G46",
-        "CEBO:Zrqvpny                       NQQ:707 J OBJZNA NIR                                                                NCG:     YBP:",
-        "PNYY:Zrqvpny",
-        "NQQE:707 J OBJZNA NIR");
+        "Nqq504 Pnyyr Qry Fby             CeboyrzZrqvpny",
+        "NQQE:504 Pnyyr Qry Fby",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G47",
-        "Nqq:Ujl 24 Naq Cvxrf Crnx Ertvbany     Ceboyrz:Qbzrfgvp Ivbyrapr                  Ybp:                                                                      Pbqr:",
-        "NQQE:Ujl 24 Naq Cvxrf Crnx Ertvbany",
-        "ZNQQE:Ujl 24 & Cvxrf Crnx Ertvbany",
-        "PNYY:Qbzrfgvp Ivbyrapr");
+        "Nqq504 PNYYR QRY FBY             CeboyrzZrqvpny",
+        "NQQE:504 PNYYR QRY FBY",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G48",
-        "Nqq:Ujl 24 Naq Cvxrf Crnx Ertvbany     Ceboyrz:Qbzrfgvp Ivbyrapr                  Ybp:                                                                      Pbqr:",
-        "NQQE:Ujl 24 Naq Cvxrf Crnx Ertvbany",
-        "ZNQQE:Ujl 24 & Cvxrf Crnx Ertvbany",
-        "PNYY:Qbzrfgvp Ivbyrapr");
+        "Nqq504 Pnyyr Qr Yn Vyyhivn       CeboyrzZrqvpny",
+        "NQQE:504 Pnyyr Qr Yn Vyyhivn",
+        "ZNQQE:504 Pnyyr Qr Ya Vyyhivn",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G49",
-        "Nqq:1022 J Ujl 24                      Ceboyrz:Snyy                               Ybp:                                                                      Pbqr:17N01",
-        "NQQE:1022 J Ujl 24",
-        "PNYY:Snyy",
-        "PBQR:17N01");
+        "Nqq1800 Pnypvgr Qe               CeboyrzZrqvpny",
+        "NQQE:1800 Pnypvgr Qe",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G50",
-        "CEBO:911 Pnyy                      NQQ:1301 R Uvtujnl 24                                                               NCG:O    YBP:",
-        "PNYY:911 Pnyy",
-        "NQQE:1301 R Uvtujnl 24",
-        "NCG:O");
+        "Nqq0 R Oraargg Nir               CeboyrzZrqvpny",
+        "NQQE:R Oraargg Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G51",
-        "Nqq:2206 Fcehpr Eq                     Ceboyrz:Fzbxr Ercbeg                       Ybp:                                                                      Pbqr:",
-        "NQQE:2206 Fcehpr Eq",
-        "PNYY:Fzbxr Ercbeg");
+        "Nqq200 R Oraargg Nir             CeboyrzZrqvpny",
+        "NQQE:200 R Oraargg Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G52",
-        "Nqq:2206 Fcehpr Eq                     Ceboyrz:Fzbxr Ercbeg                       Ybp:                                                                      Pbqr:",
-        "NQQE:2206 Fcehpr Eq",
-        "PNYY:Fzbxr Ercbeg");
+        "NqqR Tbyqra Nir                  CeboyrzOybbq Qenj",
+        "NQQE:R Tbyqra Nir",
+        "PNYY:Oybbq Qenj");
 
     qbGrfg("G53",
-        "CEBO:Zrqvpny Genafcbeg             NQQ:311 Rzrefba Pg                                                                  NCG:     YBP:",
-        "PNYY:Zrqvpny Genafcbeg",
-        "NQQE:311 Rzrefba Pg");
+        "NqqUjl 67 - Tvyyrggr Syngf       CeboyrzGenssvp Nppvqrag",
+        "NQQE:Ujl 67 - Tvyyrggr Syngf",
+        "PNYY:Genssvp Nppvqrag");
 
     qbGrfg("G54",
-        "CEBO:Nffvfg Sver Qrcnegzrag        NQQ:761 Pbyhzovar Ivyyntr Qe                                                        NCG:N    YBP:",
-        "PNYY:Nffvfg Sver Qrcnegzrag",
-        "NQQE:761 Pbyhzovar Ivyyntr Qe",
-        "NCG:N");
+        "Nqq55 Nqnve Pve                  CeboyrzZrqvpny",
+        "NQQE:55 Nqnve Pve",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G55",
-        "CEBO:Nffvfg Sver Qrcnegzrag        NQQ:729 Pbhagel Qe                                                                  NCG:     YBP:",
-        "PNYY:Nffvfg Sver Qrcnegzrag",
-        "NQQE:729 Pbhagel Qe");
+        "NqqFvyire Fg                     CeboyrzZrqvpny",
+        "NQQE:Fvyire Fg",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G56",
-        "CEBO:SVER FREIVPR PNYY             NQQ:345 Pvepyr Qevir Nir                                                            NCG:     YBP:",
-        "PNYY:SVER FREIVPR PNYY",
-        "NQQE:345 Pvepyr Qevir Nir");
+        "Nqq9871 Ujl 67                   CeboyrzFgehpgher Sver - Erfvqragvny",
+        "NQQE:9871 Ujl 67",
+        "PNYY:Fgehpgher Sver - Erfvqragvny");
 
     qbGrfg("G57",
-        "CEBO:Zrqvpny                       NQQ:550 Terrajnl Pg                                                                 NCG:Q    YBP:",
-        "PNYY:Zrqvpny",
-        "NQQE:550 Terrajnl Pg",
-        "NCG:Q");
+        "Nqq160 Qhr Fbhgu Eq              CeboyrzZrqvpny",
+        "NQQE:160 Qhr Fbhgu Eq",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G58",
-        "CEBO:911 Zrqvpny                   NQQ:19570 R Ujl 24                                                                  NCG:55   YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:19570 R Ujl 24",
-        "NCG:55");
+        "Nqq101 R Oraargg Nir             CeboyrzJnyx-va",
+        "NQQE:101 R Oraargg Nir",
+        "PNYY:Jnyx-va");
 
     qbGrfg("G59",
-        "Nqq:13250 Znttvr Ynar                  Ceboyrz:Oernguvat Ceboyrzf                 Ybp:                                                                      Pbqr:06R01",
-        "NQQE:13250 Znttvr Ynar",
-        "PNYY:Oernguvat Ceboyrzf",
-        "PBQR:06R01");
+        "NqqGhaaryy                       CeboyrzFgnaqol Zrqvpny",
+        "NQQE:Ghaaryy",
+        "PNYY:Fgnaqol Zrqvpny");
 
     qbGrfg("G60",
-        "Nqq:13250 Znttvr Ynar                  Ceboyrz:Oernguvat Ceboyrzf                 Ybp:                                                                      Pbqr:06R01",
-        "NQQE:13250 Znttvr Ynar",
-        "PNYY:Oernguvat Ceboyrzf",
-        "PBQR:06R01");
+        "Nqq123 R Znl Nir                 CeboyrzPbzzrepvny Sver Nynez",
+        "NQQE:123 R Znl Nir",
+        "PNYY:Pbzzrepvny Sver Nynez");
 
     qbGrfg("G61",
-        "CEBO:911 Zrqvpny                   NQQ:1220 J Oebjavat Nir                                                             NCG:PNYYOYBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:1220 J Oebjavat Nir",
-        "NCG:PNYYO");
+        "Nqq119 Pneobangr Fg              CeboyrzZrqvpny",
+        "NQQE:119 Pneobangr Fg",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G62",
-        "CEBO:Whiravyr Pbzcynvag            NQQ:524 R 24 Ujl                                                                    NCG:     YBP:ZpQbanyqf           ZpQbanyqf",
-        "PNYY:Whiravyr Pbzcynvag",
-        "NQQE:524 R 24 Ujl",
-        "ZNQQE:524 R Ujl 24",
-        "CYNPR:ZpQbanyqf");
+        "NqqZnfbavp & 3eq                 CeboyrzZrqvpny",
+        "NQQE:Znfbavp & 3eq",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G63",
-        "CEBO:Fhvpvqny Cnegl                NQQ:16420 24 Ujl                                                                    NCG:     YBP:JCCQ                JCCQ",
-        "PNYY:Fhvpvqny Cnegl",
-        "NQQE:16420 24 Ujl",
-        "ZNQQE:16420 Ujl 24",
-        "CYNPR:JCCQ");
+        "Nqq123 A 3eq Fg                  CeboyrzGenssvp Nppvqrag",
+        "NQQE:123 A 3eq Fg",
+        "PNYY:Genssvp Nppvqrag");
 
     qbGrfg("G64",
-        "CEBO:Fhvpvqny Cnegl                NQQ:640 A Pbenyvar Fg                                                               NCG:8    YBP:",
-        "PNYY:Fhvpvqny Cnegl",
-        "NQQE:640 A Pbenyvar Fg",
-        "NCG:8");
+        "NqqPb Eq 100 Ng Pb Eq 71         CeboyrzGenssvp Nppvqrag",
+        "NQQE:Pb Eq 100 Ng Pb Eq 71",
+        "ZNQQE:PBHAGL EBNQ 100 Ng PBHAGL EBNQ 71",
+        "PNYY:Genssvp Nppvqrag");
 
     qbGrfg("G65",
-        "CEBO:911 Zrqvpny                   NQQ:610 A Pbenyvar Fg                                                               NCG:8    YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:610 A Pbenyvar Fg",
-        "NCG:8");
+        "NqqFgnaqol Ng Ghaary             CeboyrzVasbezngvba",
+        "NQQE:Fgnaqol Ng Ghaary",
+        "PNYY:Vasbezngvba");
 
     qbGrfg("G66",
-        "CEBO:911 Pnyy                      NQQ:319 Ncevy Fha Pg                                                                NCG:     YBP:",
-        "PNYY:911 Pnyy",
-        "NQQE:319 Ncevy Fha Pg");
+        "Nqq233 R ORAARGG NIR             CeboyrzZrqvpny",
+        "NQQE:233 R ORAARGG NIR",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G67",
-        "CEBO:911 Zrqvpny                   NQQ:710 Crzoebbx Qe                                                                 NCG:     YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:710 Crzoebbx Qe");
+        "NqqPbeq 112 / Pbeq 11            CeboyrzGenssvp Nppvqrag",
+        "NQQE:Pbeq 112 & Pbeq 11",
+        "ZNQQE:PBHAGL EBNQ 112 & PBHAGL EBNQ 11",
+        "PNYY:Genssvp Nppvqrag");
 
     qbGrfg("G68",
-        "Nqq:Enzcneg Enatr Erfreibve            Ceboyrz:Fzbxr Ercbeg                       Ybp:                                                                      Pbqr:",
-        "NQQE:Enzcneg Enatr Erfreibve",
-        "PNYY:Fzbxr Ercbeg");
+        "Nqq147 R Oraargg Nir             CeboyrzJnyx-va",
+        "NQQE:147 R Oraargg Nir",
+        "PNYY:Jnyx-va");
 
     qbGrfg("G69",
-        "Nqq:220 Fhaaljbbq Ya                   Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:01P05",
-        "NQQE:220 Fhaaljbbq Ya",
-        "PNYY:Zrqvpny",
-        "PBQR:01P05");
+        "NqqA 2aq Fg & R Oraargg Nir      CeboyrzZrqvpny",
+        "NQQE:A 2aq Fg & R Oraargg Nir",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G70",
-        "Nqq:220 Fhaaljbbq Ya                   Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:01P05",
-        "NQQE:220 Fhaaljbbq Ya",
-        "PNYY:Zrqvpny",
-        "PBQR:01P05");
+        "Nqq101 R JNEERA NIR              CeboyrzTnf Bqbe",
+        "NQQE:101 R JNEERA NIR",
+        "PNYY:Tnf Bqbe");
 
     qbGrfg("G71",
-        "Nqq:67 zz 90 rnfg fvqr bs ebnq         Ceboyrz:Fzbxr Ercbeg                       Ybp:                                                                      Pbqr:",
-        "NQQE:67 zz 90 rnfg fvqr bs ebnq",
-        "PNYY:Fzbxr Ercbeg");
+        "Nqq404 F N Fg                    CeboyrzZrqvpny",
+        "NQQE:404 F N Fg",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G72",
-        "Nqq:2605 Fhaaljbbq Nir                 Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:26N10",
-        "NQQE:2605 Fhaaljbbq Nir",
-        "PNYY:Zrqvpny",
-        "PBQR:26N10");
+        "Nqq106 A 3eq Fg                  CeboyrzZrqvpny",
+        "NQQE:106 A 3eq Fg",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G73",
-        "Nqq:2605 Fhaaljbbq Nir                 Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:26N10",
-        "NQQE:2605 Fhaaljbbq Nir",
-        "PNYY:Zrqvpny",
-        "PBQR:26N10");
+        "Nqq734 Ubefrfubr Qe              CeboyrzZrqvpny",
+        "NQQE:734 Ubefrfubr Qe",
+        "PNYY:Zrqvpny");
 
     qbGrfg("G74",
-        "CEBO:911 Zrqvpny                   NQQ:604 F Cnex Fg                                                                   NCG:     YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:604 F Cnex Fg");
+        "NqqFurys Eq.  - Pbhagl Yvar      CeboyrzGenssvp Nppvqrag",
+        "NQQE:Furys Eq  - Pbhagl Yvar",
+        "PNYY:Genssvp Nppvqrag");
 
     qbGrfg("G75",
-        "CEBO:Nynez Pnyy                    NQQ:100 Fnqqyr Pyho Ni                                                              NCG:     YBP:jbbqynaq uneqjner   jbbqynaq uneqjner",
-        "PNYY:Nynez Pnyy",
-        "NQQE:100 Fnqqyr Pyho Ni",
-        "ZNQQE:100 Fnqqyr Pyho Nir",
-        "CYNPR:jbbqynaq uneqjner");
-
-    qbGrfg("G76",
-        "CEBO:SVER FREIVPR PNYY             NQQ:700 J Ujl 24                                                                    NCG:     YBP:",
-        "PNYY:SVER FREIVPR PNYY",
-        "NQQE:700 J Ujl 24");
-
-    qbGrfg("G77",
-        "Nqq:1933  Pbhagl Eq 782                Ceboyrz:Genhzngvp Vawhevrf                 Ybp:                                                                      Pbqr:30O01",
-        "NQQE:1933  Pbhagl Eq 782",
-        "ZNQQE:1933  PBHAGL EBNQ 782",
-        "PNYY:Genhzngvp Vawhevrf",
-        "PBQR:30O01");
-
-    qbGrfg("G78",
-        "Nqq:1933  Pbhagl Eq 782                Ceboyrz:Genhzngvp Vawhevrf                 Ybp:                                                                      Pbqr:30O01",
-        "NQQE:1933  Pbhagl Eq 782",
-        "ZNQQE:1933  PBHAGL EBNQ 782",
-        "PNYY:Genhzngvp Vawhevrf",
-        "PBQR:30O01");
-
-    qbGrfg("G79",
-        "Nqq:1933  Pbhagl Eq 782                Ceboyrz:Qbzrfgvp Ivbyrapr                  Ybp:                                                                      Pbqr:",
-        "NQQE:1933  Pbhagl Eq 782",
-        "ZNQQE:1933  PBHAGL EBNQ 782",
-        "PNYY:Qbzrfgvp Ivbyrapr");
-
-    qbGrfg("G80",
-        "Nqq:1933  Pbhagl Eq 782                Ceboyrz:Qbzrfgvp Ivbyrapr                  Ybp:                                                                      Pbqr:",
-        "NQQE:1933  Pbhagl Eq 782",
-        "ZNQQE:1933  PBHAGL EBNQ 782",
-        "PNYY:Qbzrfgvp Ivbyrapr");
-
-    qbGrfg("G81",
-        "CEBO:911 Zrqvpny                   NQQ:1521 Perfgivrj Jnl                                                              NCG:     YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:1521 Perfgivrj Jnl");
-
-    qbGrfg("G82",
-        "Nqq:141 Trbetrf Ya                     Ceboyrz:Fvpxarff                           Ybp:                                                                      Pbqr:26P02",
-        "NQQE:141 Trbetrf Ya",
-        "PNYY:Fvpxarff",
-        "PBQR:26P02");
-
-    qbGrfg("G83",
-        "CEBO:Genssvp Nppvqrag              NQQ:Onyqjva / Thaavfba                                                              NCG:     YBP:",
-        "PNYY:Genssvp Nppvqrag",
-        "NQQE:Onyqjva & Thaavfba");
-
-    qbGrfg("G84",
-        "Nqq:Uvtujnl 24r/ Onq Ebpx              Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:19Q01",
-        "NQQE:Uvtujnl 24r & Onq Ebpx",
-        "PNYY:Zrqvpny",
-        "PBQR:19Q01");
-
-    qbGrfg("G85",
-        "CEBO:911 Zrqvpny                   NQQ:814 Zvfgl Cvarf Pve                                                             NCG:     YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:814 Zvfgl Cvarf Pve");
-
-    qbGrfg("G86",
-        "Nqq:207 Ehgtref Cy                     Ceboyrz:Inaqnyvfz                          Ybp:                                                                      Pbqr:",
-        "NQQE:207 Ehgtref Cy",
-        "PNYY:Inaqnyvfz");
-
-    qbGrfg("G87",
-        "Nqq:207 Ehgtref Cy                     Ceboyrz:Inaqnyvfz                          Ybp:                                                                      Pbqr:",
-        "NQQE:207 Ehgtref Cy",
-        "PNYY:Inaqnyvfz");
-
-    qbGrfg("G88",
-        "CEBO:Zrqvpny                       NQQ:140 Ryx Tebir Ya                                                                NCG:     YBP:",
-        "PNYY:Zrqvpny",
-        "NQQE:140 Ryx Tebir Ya");
-
-    qbGrfg("G89",
-        "Nqq:220 Fhaaljbbq Ya                   Ceboyrz:Zrqvpny                            Ybp:                                                                      Pbqr:17N01T",
-        "NQQE:220 Fhaaljbbq Ya",
-        "PNYY:Zrqvpny",
-        "PBQR:17N01T");
-
-    qbGrfg("G90",
-        "Nqq:Jc Jngre Gbjre Ba Zvqynaq          Ceboyrz:Sver                               Ybp:                                                                      Pbqr:",
-        "NQQE:Jc Jngre Gbjre Ba Zvqynaq",
-        "PNYY:Sver");
-
-    qbGrfg("G91",
-        "Nqq:Jc Jngre Gbjre Ba Zvqynaq          Ceboyrz:Sver                               Ybp:                                                                      Pbqr:",
-        "NQQE:Jc Jngre Gbjre Ba Zvqynaq",
-        "PNYY:Sver");
-
-    qbGrfg("G92",
-        "Nqq:Jc Jngre Gbjre Ba Zvqynaq          Ceboyrz:Sver                               Ybp:                                                                      Pbqr:",
-        "NQQE:Jc Jngre Gbjre Ba Zvqynaq",
-        "PNYY:Sver");
-
-    qbGrfg("G93",
-        "Nqq:5567  Pbhagl Eq 78                 Ceboyrz:Nyyretl/Zrqvpny Ernpgvba/Fgvat     Ybp:Pnzc Ryvz           Pnzc Ryvz                                         Pbqr:02Q02",
-        "NQQE:5567  Pbhagl Eq 78",
-        "ZNQQE:5567  PBHAGL EBNQ 78",
-        "PNYY:Nyyretl/Zrqvpny Ernpgvba/Fgvat",
-        "CYNPR:Pnzc Ryvz",
-        "PBQR:02Q02");
-
-    qbGrfg("G94",
-        "Nqq:5567  Pbhagl Eq 78                 Ceboyrz:Nyyretl/Zrqvpny Ernpgvba/Fgvat     Ybp:Pnzc Ryvz           Pnzc Ryvz                                         Pbqr:02Q02",
-        "NQQE:5567  Pbhagl Eq 78",
-        "ZNQQE:5567  PBHAGL EBNQ 78",
-        "PNYY:Nyyretl/Zrqvpny Ernpgvba/Fgvat",
-        "CYNPR:Pnzc Ryvz",
-        "PBQR:02Q02");
-
-    qbGrfg("G95",
-        "Nqq:ujl 24 wbuafgbaf uvyy              Ceboyrz:Erqqv                              Ybp:                                                                      Pbqr:",
-        "NQQE:ujl 24 wbuafgbaf uvyy",
-        "PNYY:Erqqv");
-
-    qbGrfg("G96",
-        "Nqq:2213 A Enzcneg Enatr Eq            Ceboyrz:Genssvp Nppvqrag                   Ybp:                                                                      Pbqr:",
-        "NQQE:2213 A Enzcneg Enatr Eq",
-        "PNYY:Genssvp Nppvqrag");
-
-    qbGrfg("G97",
-        "Nqq:2213 A Enzcneg Enatr Eq            Ceboyrz:Genssvp Nppvqrag                   Ybp:                                                                      Pbqr:",
-        "NQQE:2213 A Enzcneg Enatr Eq",
-        "PNYY:Genssvp Nppvqrag");
-
-    qbGrfg("G98",
-        "Nqq:361 Pelfgny Crnx Eq                Ceboyrz:Zrqvpny                            Ybp:Sybevffnag Urvtugf  Sybevffnag Urvtugf                                Pbqr:26N11",
-        "NQQE:361 Pelfgny Crnx Eq",
-        "PNYY:Zrqvpny",
-        "CYNPR:Sybevffnag Urvtugf",
-        "PBQR:26N11");
-
-    qbGrfg("G99",
-        "Nqq:2213 A Enzcneg Enatr Eq            Ceboyrz:Genssvp Nppvqrag                   Ybp:                                                                      Pbqr:",
-        "NQQE:2213 A Enzcneg Enatr Eq",
-        "PNYY:Genssvp Nppvqrag");
-
-    qbGrfg("G100",
-        "CEBO:911 Zrqvpny                   NQQ:19600 R UJL 24 cnexvat ybg                                                      NCG:     YBP:",
-        "PNYY:911 Zrqvpny",
-        "NQQE:19600 R UJL 24 cnexvat ybg");
+        "Nqq6947 Pbeq 1                   CeboyrzZrqvpny",
+        "NQQE:6947 Pbeq 1",
+        "ZNQQE:6947 PBHAGL EBNQ 1",
+        "PNYY:Zrqvpny");
 
   }
-  
+
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj PBGryyrePbhaglCnefreGrfg().trarengrGrfgf("G1");
   }

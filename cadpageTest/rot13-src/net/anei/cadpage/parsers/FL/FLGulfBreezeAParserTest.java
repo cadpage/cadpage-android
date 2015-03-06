@@ -55,7 +55,7 @@ Fraqre: "TOSECTGEZ@thysoerrmrsy.tbi" <TOSECTGEZ@thysoerrmrsy.tbi>
 choyvp pynff SYThysOerrmrNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp SYThysOerrmrNCnefreGrfg() {
-    frgCnefre(arj SYThysOerrmrNCnefre(), "THYS PBHAGL", "SY");
+    frgCnefre(arj SYThysOerrmrNCnefre(), "THYS OERRMR", "SY");
   }
 
   @Grfg

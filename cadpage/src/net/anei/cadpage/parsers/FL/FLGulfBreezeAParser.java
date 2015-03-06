@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class FLGulfBreezeAParser extends SmartAddressParser {
 
   public FLGulfBreezeAParser() {
-    super("GULF COUNTY", "FL");
+    super("GULF BREEZE", "FL");
     setFieldList("DATE TIME ADDR APT CITY PLACE X CALL");
   }
 

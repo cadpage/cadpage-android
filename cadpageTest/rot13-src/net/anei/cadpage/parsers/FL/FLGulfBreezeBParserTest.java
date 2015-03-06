@@ -73,7 +73,7 @@ Fraqre: abercyl@thysoerrmrcbyvpr.pbz
 choyvp pynff SYThysOerrmrOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp SYThysOerrmrOCnefreGrfg() {
-    frgCnefre(arj SYThysOerrmrOCnefre(), "THYS PBHAGL", "SY");
+    frgCnefre(arj SYThysOerrmrOCnefre(), "THYS OERRMR", "SY");
   }
 
   @Grfg
