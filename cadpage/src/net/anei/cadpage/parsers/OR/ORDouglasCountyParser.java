@@ -43,13 +43,13 @@ public class ORDouglasCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern CITY_APT_PTN = Pattern.compile("([A-Z]{2}) #(.*)");
+  private static final Pattern CITY_APT_PTN = Pattern.compile("(?:([A-Z]{2}) )?#(.*)");
   private class MyCityAptField extends CityField {
     @Override
     public boolean checkParse(String field, Data data) {
       Matcher match = CITY_APT_PTN.matcher(field);
       if (!match.matches()) return false;
-      super.parse(match.group(1), data);
+      super.parse(getOptGroup(match.group(1)), data);
       data.strApt = append(data.strApt, "-", match.group(2).trim());
       return true;
     }
