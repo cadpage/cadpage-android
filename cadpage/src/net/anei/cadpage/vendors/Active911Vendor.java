@@ -772,6 +772,7 @@ class Active911Vendor extends Vendor {
       "US/WA/CityofFife",                 "WAPierceCountyC",
       "US/WA/KingCounty",                 "WAKingCountyA",
       "US/WA/LewisCounty",                "WALewisCounty",
+      "US/WA/OkanoganCounty",             "WAOkanoganCounty",
       "US/WA/PendOreilleCounty",          "WAPendOreilleCounty",
       "US/WA/RiverComm911",               "WAChelanCounty",
       "US/WA/SNOCOM",                     "WASnohomishCounty",

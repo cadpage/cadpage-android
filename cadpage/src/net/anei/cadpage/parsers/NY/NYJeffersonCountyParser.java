@@ -16,11 +16,67 @@ public class NYJeffersonCountyParser extends FieldProgramParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
     body = body.replace('\n', ' ').replaceAll("  +", " ");
-    String[] flds = body.split("\\|", -1);
-    if (flds.length != 3) return false;
+
+    // Fixed stuff messed up by IAR edits :(
+    String[] flds;
+    if (subject.equals("So. Jeff. Rescue")) {
+      data.strSource = subject;
+      if (body.endsWith("/") || body.endsWith(":")) body += ' ';
+      body = body.replace(" : ", ":");
+      
+      flds = new String[3];
+      
+      // Generally split by " / ".  With some special checks to see if there
+      // is a legitimate slash sequence in the address or info fields
+      int pt1 = body.indexOf(" / ");
+      if (pt1 < 0) return false;
+      flds[0] = body.substring(0,pt1).trim();
+      
+      int pt2 = body.indexOf(" / ", pt1+3);
+      if (pt2 < 0) return false;
+      
+      int pt3 = body.indexOf(" / ", pt2+3);
+      if (pt3 >= 0) {
+        if (!body.substring(pt1+3,pt2).contains(":") &
+            body.substring(pt2+3,pt3).contains(":")) {
+          pt2 = pt3;
+        }
+      }
+      flds[1] = body.substring(pt1+3,pt2).trim();
+      flds[2] = body.substring(pt2+3).trim();
+    }
+    
+    // Normal parsing
+    else {
+      
+      if (subject.startsWith("[")) {
+        int pt = subject.indexOf(']');
+        if (pt < 0) return false;
+        data.strSource = subject.substring(1,pt).trim();
+        subject = subject.substring(pt+1).trim();
+      }
+      
+      if (subject.startsWith("DISPATCH:")) {
+        data.strUnit = subject.substring(9).trim();
+      }
+      else if (subject.startsWith("DISPATCH") && subject.contains("Incident #:")) {
+        data.strCall = "RUN REPORT";
+        data.strPlace = '(' + subject + ") " + body;
+        return true;
+      }
+      
+      flds = body.split("\\|", -1);
+      if (flds.length != 3) return false;
+    }
     return parseFields(flds, data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC UNIT " + super.getProgram();
   }
   
   private static final Pattern ADDR_PTN = Pattern.compile("\\(.\\)$");
@@ -38,7 +94,7 @@ public class NYJeffersonCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "ADDR PLACE CITY";
+      return "ADDR APT PLACE CITY";
     }
   }
   
