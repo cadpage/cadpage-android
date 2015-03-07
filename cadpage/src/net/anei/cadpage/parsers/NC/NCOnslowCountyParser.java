@@ -39,6 +39,7 @@ public class NCOnslowCountyParser extends DispatchOSSIParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = stripFieldStart(body,  "/ no subject /");
     selectValue = (body.contains("[") ? "CALL" : null);
     return super.parseMsg(body, data);
   }
