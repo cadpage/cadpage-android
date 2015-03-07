@@ -32,16 +32,19 @@ public class OHCuyahogaCountyCParser extends FieldProgramParser {
     return super.getField(name);
   }
 
-  private static Pattern CODE_CALL = Pattern.compile("(\\d{3})-(.*?)");
-
   private class MyCodeCallField extends Field {
 
     @Override
     public void parse(String field, Data data) {
-      Matcher mat = CODE_CALL.matcher(field);
-      if (!mat.matches()) abort();
-      data.strCode = mat.group(1);
-      data.strCall = mat.group(2);
+      int pt = field.indexOf('-');
+      if (pt < 0) abort();
+      data.strCode = field.substring(0,pt).trim();
+      field = field.substring(pt+1).trim();
+      pt = field.indexOf('-');
+      if (pt >= 0 && field.substring(0,pt).trim().equals(data.strCode)) {
+        field = field.substring(pt+1).trim();
+      }
+      data.strCall = field;
     }
 
     @Override
