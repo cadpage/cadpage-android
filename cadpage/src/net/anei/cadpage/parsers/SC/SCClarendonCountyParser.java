@@ -14,6 +14,16 @@ public class SCClarendonCountyParser extends SmartAddressParser {
   
   public SCClarendonCountyParser() {
     super(CITY_LIST, "CLARENDON COUNTY", "SC");
+    setupMultiWordStreets(
+        "ANN WORSHAM",
+        "JACKS CREEK",
+        "MILL CREEK",
+        "MW RICKENBAKER",
+        "PLOWDEN MILL",
+        "SAM NEXSEN",
+        "SNOWY RIVER",
+        "WA GAMBLE"
+    );
   }
   
   @Override
@@ -25,7 +35,11 @@ public class SCClarendonCountyParser extends SmartAddressParser {
       data.strTime = match.group(2);
       data.strCall = match.group(3).trim();
       
-      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, addr, data);
+      parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, addr, data);
+      if (data.strAddress.length() == 0) {
+        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, data.strPlace, data);
+        data.strPlace = "";
+      }
       if (data.strAddress.contains("&")) {
         data.strAddress = stripFieldStart(data.strAddress, "1 ");
         return true;
