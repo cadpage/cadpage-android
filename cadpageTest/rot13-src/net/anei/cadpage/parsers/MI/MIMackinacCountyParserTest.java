@@ -1,17 +1,15 @@
 cnpxntr arg.narv.pnqcntr.cnefref.ZV;
 
-vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-
 /*
 Znpxvanp Pbhagl, ZV
 Nyvnf sbe Veba Pbhagl, ZV
 */
 
-choyvp pynff ZVZnpxvanpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff ZVZnpxvanpPbhaglCnefreGrfg rkgraqf ZVVebaPbhaglCnefreGrfg {
   
   choyvp ZVZnpxvanpPbhaglCnefreGrfg() {
-    frgCnefre(arj ZVPuvccrjnPbhaglCnefre(), "ZNPXVANP PBHAGL", "ZV");
-    frgRkcYbpPbqr("ZVZnpvanpPbhagl");
+    frgCnefre(arj ZVZnpxvanpPbhaglCnefre(), "ZNPXVANP PBHAGL", "ZV");
+    frgRkcYbpPbqr("ZVZnpxvanpPbhagl");
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

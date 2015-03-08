@@ -375,6 +375,5 @@ public class MmsTransactionService extends Service {
           }});
       }
     }
-
   }
 }
