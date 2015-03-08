@@ -116,6 +116,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *         C - Comma
  *         D - Dash
  *         S - Space
+ *         L - Slash
  *         
  * SPECIAL FIELD NAMES
  * 
@@ -3345,7 +3346,8 @@ public class FieldProgramParser extends SmartAddressParser {
       char delChar = (chr == 'D' ? '-' :
                       chr == 'N' ? '\n' :
                       chr == 'C' ? ',' :
-                      chr == 'S' ? ' ' : 0);
+                      chr == 'S' ? ' ' : 
+                      chr == 'L' ? '/' : 0);
       if (delChar != 0) {
         if (result == null) result = "";
         result += delChar;
