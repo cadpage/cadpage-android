@@ -765,6 +765,7 @@ class Active911Vendor extends Vendor {
       "US/VA/FranklinCounty",             "VAFranklinCountyB",
       "US/VA/Galax",                      "VAGalax",
       "US/VA/GloucesterCounty",           "VAGloucesterCounty",
+      "US/VA/GoochlandCounty",            "VAGoochlandCounty",
       "US/VA/Hanover",                    "VAHanoverCounty",
       "US/VA/HenryCounty",                "VAHenryCounty",
       "US/VA/JamesCityCounty",            "VAJamesCityCounty",
