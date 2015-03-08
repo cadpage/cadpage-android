@@ -263,6 +263,7 @@ class Active911Vendor extends Vendor {
       "US/GA/SouthsideFire",              "GAChathamCounty",
       "US/GA/WaltonCounty",               "GAWaltonCounty",
       "US/GA/WhiteCounty",                "GAWhiteCounty",
+      "US/IA/CerroGordoCounty",           "IACerroGordoCounty",
       "US/IA/CityofBurlington",           "IADesMoinesCounty",
       "US/IA/PolkCounty",                 "IAPolkCounty",
       "US/IA/WorthCounty",                "IAWorthCounty",
