@@ -7,6 +7,16 @@ vzcbeg bet.whavg.Grfg;
 choyvp pynff ZrffntrGrfg {
   
   @Grfg
+  choyvp ibvq grfgceboyrz() {
+    
+    qbCnefrGrfg("CNZreprePbhagl",
+        "\"9-1-1\"@zpp.pb.zrepre.cn.hf (VCF V/Cntr Abgvsvpngvba) Ybpngvba: A OEBNQ FG/YVAPBYA NIR TEBI RVQ: 2360315 GLCR PBQR: ZIH PNYYRE ANZR: YNEEL TENPR PNYYRE NQQE: 522 R ZNVA FG R",
+        "\"9-1-1\"@zpp.pb.zrepre.cn.hf",
+        "VCF V/Cntr Abgvsvpngvba",
+        "Ybpngvba: A OEBNQ FG/YVAPBYA NIR TEBI RVQ: 2360315 GLCR PBQR: ZIH PNYYRE ANZR: YNEEL TENPR PNYYRE NQQE: 522 R ZNVA FG R");
+  }
+  
+  @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
     qbCnefrGrfg("ZQUbjneqPbhagl",
@@ -662,8 +672,8 @@ choyvp pynff ZrffntrGrfg {
     qbCnefrGrfg("ZVZbovyrZrqvpnyEfcbafr",
         "ceif=10825513qo=znvytubfg@zbovyrzrqvpny.bet (<PNQ> - cneg 1 bs 1) Pbatenghyngvbaf gb Znel Erzvatgba!",
         "znvytubfg@zbovyrzrqvpny.bet",
-        "<PNQ> - cneg 1 bs 1",
-        "Pbatenghyngvbaf gb Znel Erzvatgba!");
+        "<PNQ>",
+        "Pbatenghyngvbaf gb Znel Erzvatgba!", 1, 1);
     
     qbCnefrGrfg("APFheelPbhagl",
         "FP911-PnyyNyreg!!@pb.fheel.ap.hf F: Z:FP911 - Pnyy Nyreg!!:Pnyy Ahzore - 110430-103* Nqqerff - 1020 ARJFBZR FG* Pvgl - ZBHAG NVEL* Pnyy Glcr - NPPVQRAG CV* *",

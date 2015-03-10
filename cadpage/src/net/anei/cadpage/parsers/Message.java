@@ -96,7 +96,7 @@ public class Message {
   private static final Pattern SUBJECT_EMAIL_PTN = Pattern.compile("Forwarded Message from ([^ ]+)");
   private static final Pattern RETURN_PTN = Pattern.compile("\r+\n|\n\r+|\r");
   private static final Pattern LEAD_BLANK = Pattern.compile("^ *\" \" +");
-  private static final Pattern FORWARD_PTN = Pattern.compile("\\(?(?:FWD?|Begin forwarded message):(?: *\\))? *");
+  private static final Pattern FORWARD_PTN = Pattern.compile("(?:FWD?|Begin forwarded message): *");
   private static final Pattern LEAD_UNDERSCORE_PTN = Pattern.compile("\n*_{5,}\n+");
   private static final Pattern DISCLAIMER_PTN = Pattern.compile("\n+DISCLA| *\\[Attachment\\(s\\) removed\\]\\s*$|\n+To unsubscribe ", Pattern.CASE_INSENSITIVE);
   private static final Pattern EXCHANGE_FWD_PTN = Pattern.compile("^(?:_{5,}\n+|-{5,}\n++)?(?:\\[FWD?:.*\\] *\n+)?(?:--+(?:Original Message)?--+\n)?From: *(.*?)\n(?:\\[?mailto:.*\\] *\n)?(?:Date:.*\n)?(?:Sent:.*\n)?(?:To:.*\n)?(?:Subject: (.*)\n)?(?:To:.*\n)?(?:Reply-To:.*\n)?(?:Importance:.*\n)?(?:Auto forwarded by a Rule\n)?(?!\\S*$)");
@@ -104,14 +104,14 @@ public class Message {
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
     Pattern.compile("^(\\d) *of *(\\d):"),
-    Pattern.compile("^\\(?\\((\\d)/(\\d)\\)"),
+//    Pattern.compile("^\\(?\\((\\d)/(\\d)\\)"),
     Pattern.compile("^ *(\\d)/(\\d)(?: / |\n\n)"),
-    Pattern.compile("^\\( *(\\d) +of +(\\d) *\\)"),
+//    Pattern.compile("^\\( *(\\d) +of +(\\d) *\\)"),
     Pattern.compile("^([\\w\\.]+@[\\w\\.]+) /(\\d)/(\\d) /"),
     Pattern.compile("^(\\d)/(\\d)\n+"),
     Pattern.compile("^(\\d)/(\\d)(?![/\\d])"),
     Pattern.compile("^(\\d)/(\\d)(?=\\d{3,}:)"),  // This one is scarry !!!
-    Pattern.compile("\\[(\\d) of (\\d)\\]$"),
+   Pattern.compile("\\[(\\d) of (\\d)\\]$"),
     Pattern.compile(":(\\d)of(\\d)$"),
     Pattern.compile("_(\\d) of (\\d)$"),
     Pattern.compile("^[A-Z]+ +\\((\\d)/(\\d)\\) +(.*?) +STOP$"),
@@ -120,15 +120,20 @@ public class Message {
   private static final Pattern MSG_HEADER_FINAL_PTN = Pattern.compile("^(\\d)/(\\d) +");
   private static final Pattern[] SUBJECT_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(\\d)/(\\d)$"),
-    Pattern.compile("^\\[(\\d)/(\\d)\\] *")
+    Pattern.compile("^(\\d) *of *(\\d)\\b *"),
+    Pattern.compile(" *(?:- part )?\\b(\\d) *of *(\\d)$"),
+    Pattern.compile("^\\[(\\d)(?:/|of| +of +)(\\d)\\] *"),
+    Pattern.compile("^\\((\\d)(?:/|of| +of +)(\\d)\\) *"),
+    Pattern.compile(" *\\[(\\d)(?:/|of| +of +)(\\d)\\]$"),
   };
   private static final Pattern OPT_OUT_PTN = Pattern.compile("TXT STOP.*$");
   private static final Pattern CONT_PTN = Pattern.compile("\\(C.* \\d\\d? of \\d\\d?");
   
   private static final Pattern[] EMAIL_PATTERNS = new Pattern[]{ 
-    Pattern.compile("^(?:\\*.*\\*)?([-\\w\\.]+@[-\\w\\.]+)(?: +/ +/ +)"),
+    Pattern.compile("^(?:\\*.*\\*)?([-\\w\\.]+@[-\\w]+\\.[-\\w\\.]+)(?: +/ +/ +)"),
     Pattern.compile(" - Sender: *([-\\w\\.]+@[-\\w\\.]+) *\n"),
-    Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?((?:[\\w.!\\-]+\\w|\\\"[\\w\\.!\\- ]+\\\")@[-\\w\\.]+)[\\s:]"),
+    Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?((?:[\\w.!\\-]+\\w|\\\"[\\w\\.!\\- ]+\\\")@[-\\w]+\\.[-\\w\\.]+)[\\s:]"),
+    Pattern.compile("^((?:[-\\w\\.]+)@[-\\w]+) *+(?=\\()"),
     Pattern.compile("^\\*\\d+: \\*([-\\w]+@[-\\w\\.]+) +"),
     Pattern.compile("^[^\n]*\\bFr: *(\\S+@\\S+)\\s+"),
     Pattern.compile("^From: *(\\S+@\\S+) +(?:Msg: *)?"),
@@ -136,7 +141,7 @@ public class Message {
     Pattern.compile("^[\\d\\.]+=([-_a-z0-9\\.]+@[-_a-z0-9\\.]+) +"),
     Pattern.compile("SRS1=[A-Za-z0-9\\.]+=AIDz=WT=[A-Za-z0-9\\.]+= ([A-Za-z0-9\\.]+@[A-Za-z0-9\\.]+)")
   };
-  private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)(?:\\n|: )");
+  private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@\\w+\\.[\\w\\.]+)(?:\\n|: )");
   private static final Pattern FRM_TAG_PATTERN = Pattern.compile("\n *FRM:");
   private static final Pattern MULTI_MSG_MASTER_PATTERN = Pattern.compile("1 of \\d FRM:(.*?) SUBJ:(.*?) MSG:(.*)\\(End\\)");
   private static final Pattern MULTI_MSG_BREAK_PATTERN = Pattern.compile(" \\(Con't\\) \\d of \\d ");
@@ -154,13 +159,13 @@ public class Message {
   private void preParse(String fromAddress, String subject, String body, boolean insBlank, boolean keepLeadBreak) {
     
     // default address and subject to obvious values
+    parseSubject = "";
     Matcher match = SUBJECT_EMAIL_PTN.matcher(subject);
     if (match.matches()) {
       parseAddress = match.group(1);
-      parseSubject = "";
     } else {
       parseAddress = fromAddress;
-      parseSubject = subject;
+      addSubject(subject);
     }
     
     // Start by decoding common HTML sequences
@@ -171,6 +176,9 @@ public class Message {
     
     // Change spurious '¡' characters back to the @ there were originally intended to be
     body = body.replace('¡', '@');
+    
+    // Clean up leading subject in parens
+    body = cleanParenSubject(body);
     
     // Drop FWD: prefix
     match = FORWARD_PTN.matcher(body);
@@ -462,6 +470,36 @@ public class Message {
    */
   public String finish(String body) {
 
+    body = cleanParenSubject(body);
+    
+    Matcher match = EMAIL_PFX_PATTERN.matcher(body);
+    if (match.find()) {
+      parseAddress = match.group(1).trim();
+      body = trimLead(body.substring(match.end()), true);
+    }
+    
+    if (body.startsWith("MSG:")) body = trimLead(body.substring(4), true);
+    
+    match = FWD_PTN.matcher(parseSubject);
+    if (match.find()) parseSubject = parseSubject.substring(match.end()).trim();
+    
+    // Last check, if we ended up with no message, use the last subject as the message
+    if (body.length() == 0) {
+      int pt = parseSubject.lastIndexOf('|');
+      if (pt >= 0) {
+        body = parseSubject.substring(pt+1);
+        parseSubject = parseSubject.substring(0,pt);
+      } else {
+        body = parseSubject;
+        parseSubject = "";
+      }
+    }
+    
+    parseSubject = MsgParser.decodeHtmlSequence(parseSubject);
+    return body;
+  }
+
+  private String cleanParenSubject(String body) {
     // Finally, leading values in square or round brackets are turned into
     // message subjects.  There may be more than one of these, in which case
     // only the last is retained
@@ -491,42 +529,7 @@ public class Message {
       }
       if (pt2 >= body.length()) break;
     }
-    
     body = trimLead(body.substring(pt1), true);
-    Matcher match = EMAIL_PFX_PATTERN.matcher(body);
-    if (match.find()) {
-      parseAddress = match.group(1).trim();
-      body = trimLead(body.substring(match.end()), true);
-    }
-    
-    if (body.startsWith("MSG:")) body = trimLead(body.substring(4), true);
-    
-    match = FWD_PTN.matcher(parseSubject);
-    if (match.find()) parseSubject = parseSubject.substring(match.end()).trim();
-    
-    // Last check, if we ended up with no message, use the last subject as the message
-    if (body.length() == 0) {
-      int pt = parseSubject.lastIndexOf('|');
-      if (pt >= 0) {
-        body = parseSubject.substring(pt+1);
-        parseSubject = parseSubject.substring(0,pt);
-      } else {
-        body = parseSubject;
-        parseSubject = "";
-      }
-    }
-    
-    for (Pattern ptn : SUBJECT_HEADER_PTNS) {
-      match = ptn.matcher(parseSubject);
-      if (match.find()) {
-        msgIndex = match.group(1).charAt(0)-'0';
-        msgCount = match.group(2).charAt(0)-'0';
-        if (match.start() == 0) parseSubject = parseSubject.substring(match.end()).trim();
-        else parseSubject = parseSubject.substring(0,match.start()).trim();
-      }
-    }
-    
-    parseSubject = MsgParser.decodeHtmlSequence(parseSubject);
     return body;
   }
   
@@ -537,6 +540,17 @@ public class Message {
   }
   
   private void addSubject(String subject) {
+    if (subject.length() == 0) return;
+    
+    for (Pattern ptn : SUBJECT_HEADER_PTNS) {
+      Matcher match = ptn.matcher(subject);
+      if (match.find()) {
+        msgIndex = match.group(1).charAt(0)-'0';
+        msgCount = match.group(2).charAt(0)-'0';
+        if (match.start() == 0) subject = subject.substring(match.end()).trim();
+        else subject = subject.substring(0,match.start()).trim();
+      }
+    }
     if (subject.length() == 0) return;
     if (parseSubject.length() == 0) parseSubject = subject;
     else parseSubject = parseSubject + '|' + subject;

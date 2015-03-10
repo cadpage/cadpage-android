@@ -24,6 +24,11 @@ public class ILMadisonCountyParser extends DispatchA9Parser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    if (!body.startsWith("Rip and Run Report")) {
+      int pt = body.indexOf('\n');
+      if (pt < 0) return false;
+      body = body.substring(pt+1).trim();
+    }
     body = TRAILING_BLANK_PTN.matcher(body).replaceAll("\n");
     return super.parseMsg(body, data);
   }

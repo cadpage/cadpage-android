@@ -21,7 +21,7 @@ public class WICalumetCountyBParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.startsWith("Gold Cross Alert - ")) return false;
+    if (!subject.startsWith("Gold Cross Alert")) return false;
     if (!body.startsWith("RC:")) return false;
     body = body.substring(3).trim();
     return parseFields(body.split("/"), 5, data);
