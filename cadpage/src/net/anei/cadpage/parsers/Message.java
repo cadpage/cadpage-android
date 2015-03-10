@@ -96,6 +96,8 @@ public class Message {
   private static final Pattern SUBJECT_EMAIL_PTN = Pattern.compile("Forwarded Message from ([^ ]+)");
   private static final Pattern RETURN_PTN = Pattern.compile("\r+\n|\n\r+|\r");
   private static final Pattern LEAD_BLANK = Pattern.compile("^ *\" \" +");
+  private static final Pattern FORWARD_PTN = Pattern.compile("\\(?(?:FWD?|Begin forwarded message):(?: *\\))? *");
+  private static final Pattern LEAD_UNDERSCORE_PTN = Pattern.compile("\n*_{5,}\n+");
   private static final Pattern DISCLAIMER_PTN = Pattern.compile("\n+DISCLA| *\\[Attachment\\(s\\) removed\\]\\s*$|\n+To unsubscribe ", Pattern.CASE_INSENSITIVE);
   private static final Pattern EXCHANGE_FWD_PTN = Pattern.compile("^(?:_{5,}\n+|-{5,}\n++)?(?:\\[FWD?:.*\\] *\n+)?(?:--+(?:Original Message)?--+\n)?From: *(.*?)\n(?:\\[?mailto:.*\\] *\n)?(?:Date:.*\n)?(?:Sent:.*\n)?(?:To:.*\n)?(?:Subject: (.*)\n)?(?:To:.*\n)?(?:Reply-To:.*\n)?(?:Importance:.*\n)?(?:Auto forwarded by a Rule\n)?(?!\\S*$)");
   private static final Pattern FWD_PTN = Pattern.compile("^FWD?:");
@@ -171,8 +173,12 @@ public class Message {
     body = body.replace('¡', '@');
     
     // Drop FWD: prefix
-    if (body.startsWith("FWD:")) body = body.substring(4).trim();
-    if (body.startsWith("Begin forwarded message:")) body = body.substring(24).trim();
+    match = FORWARD_PTN.matcher(body);
+    if (match.lookingAt()) body = body.substring(match.end()).trim();
+    
+    // Drop leading underscore line
+    match = LEAD_UNDERSCORE_PTN.matcher(body);
+    if (match.lookingAt()) body = body.substring(match.end());
     
     // Remove trailing disclaimer(s)
     match = DISCLAIMER_PTN.matcher(body);

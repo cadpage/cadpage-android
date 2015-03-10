@@ -44,11 +44,19 @@ public class MDHowardCountyParser extends FieldProgramParser {
     return "SRC ID " + super.getProgram();
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("BOX")) return new  MyBoxField();
+    return super.getField(name);
+  }
+  
   private class MyAddressField extends AddressField {
 
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith("EVENT: ")) {
+      while (field.startsWith("EVENT: ")) {
         field = field.substring(7).trim();
         int pt = field.indexOf(' ');
         if (pt < 0) {
@@ -83,6 +91,9 @@ public class MDHowardCountyParser extends FieldProgramParser {
       Matcher match = TRAIL_JUNK_PTN.matcher(call);
       if (match.find()) call = call.substring(0,match.start()).trim();
       data.strCall =  call;
+      
+      String unit = UNIT_CODES.getProperty(data.strCall);
+      if (unit != null) data.strUnit = unit;
 
       data.strTime = p.get(' ');
       
@@ -100,7 +111,7 @@ public class MDHowardCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "CALL TIME";
+      return "CALL UNIT TIME";
     }
   }
   
@@ -122,18 +133,81 @@ public class MDHowardCountyParser extends FieldProgramParser {
   }
   
   @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("BOX")) return new  MyBoxField();
-    return super.getField(name);
-  }
-  
-  @Override
   public String adjustMapAddress(String sAddress) {
     return NS_PTN.matcher(sAddress).replaceAll("");
   }
   private static Pattern NS_PTN = Pattern.compile("\\bNS\\b", Pattern.CASE_INSENSITIVE);
+  
+  private static final Properties UNIT_CODES = buildCodeTable(new String[]{
+
+      "AIR-LARGE",              "BX_ALM",
+      "AIR-SMALL",              "BX_ALM",
+      "APPLIANCE-APPLIANCE",    "BX_ALM",
+      "FIRE-BARN",              "BX_ALM",
+      "FIRE-BUSINESS",          "BX_ALM",
+      "FIRE-HEALTHCARE",        "BX_ALM",
+      "FIRE-HIGHOCC/ASSEMBLY",  "BX_ALM",
+      "FIRE-HIGHRISE",          "BX_ALM",
+      "FIRE-HOUSE",             "BX_ALM",
+      "FIRE-JAIL",              "BX_ALM",
+      "FIRE-MULTIFAMILY",       "BX_ALM",
+      "FIRE-OUTBLDG",           "BX_ALM",
+      "GASLEAK-INSIDE/HIGHOCC", "BX_ALM",
+      "GASLEAK-INSIDE/HOUSE",   "BX_ALM",
+      "INVEST-ELECTRICAL",      "BX_ALM",
+      "INVEST-FIRE/OUT",        "BX_ALM",
+      "LANDFILL-LANDFILL",      "BX_ALM",
+      "ODOR-SMOKE/INSIDE",      "BX_ALM",
+      "RAIL-CARFIRE",           "BX_ALM",
+      "RAIL-FREIGHT",           "BX_ALM",
+      "RAIL-PASSNGR",           "BX_ALM",
+      "RAIL-TANKFIRE",          "BX_ALM",
+      "RAIL-TANKLEAK",          "BX_ALM",
+      "SMOKE-HIGHRISE",         "BX_ALM",
+      "SMOKE-INSIDE/HIGHOCC",   "BX_ALM",
+      "SMOKE-INSIDE/HOUSE",     "BX_ALM",
+      
+      "BUS-UNKNOWN",            "SER_ACC",
+      "RAIL-PED",               "SER_ACC",
+      "RAIL-VSAUTO",            "SER_ACC",
+      "RESCUE-AUTOVS",          "SER_ACC",
+      "RESCUE-BARIATRIC",       "SER_ACC",
+      "RESCUE-EJECTED",         "SER_ACC",
+      "RESCUE-HAZMAT",          "SER_ACC",
+      "RESCUE-HEAVYRESCUE",     "SER_ACC",
+      "RESCUE-INJURIES",        "SER_ACC",
+      "RESCUE-MACHINERY",       "SER_ACC",
+      "RESCUE-MASCAS",          "SER_ACC",
+      "RESCUE-MULTIPLE",        "SER_ACC",
+      "RESCUE-NOTALERT",        "SER_ACC",
+      "RESCUE-RESFIRE",         "SER_ACC",
+      "RESCUE-TRAPPED",         "SER_ACC",
+      
+      "CAVEIN-CAVEIN",          "SPEC_OPS",
+      "COLLAPSE-COLLAPSE",      "SPEC_OPS",
+      "COLLAPSE-VEHICLE",       "SPEC_OPS",
+      "CONFINED-CONFINED",      "SPEC_OPS",
+      "HAZMAT-HAZMATF",         "SPEC_OPS",
+      "HAZMAT-HAZNO",           "SPEC_OPS",
+      "HAZMAT-NOFIRE",          "SPEC_OPS",
+      "INVPKG",                 "SPEC_OPS",
+      "TECHRES-TECHRES",        "SPEC_OPS",
+      
+      "ALFIRE-BUSC",            "UNIT_MISC",
+      "ALFIRE-RES",             "UNIT_MISC",
+      "BRUSH-BRUSH",            "UNIT_MISC",
+      "CO-NOSYMP",              "UNIT_MISC",
+      "CO-SYMPTOMS",            "UNIT_MISC",
+      "LOCKR-LOCKR",            "UNIT_MISC",
+      "LOCKV-ANIMAL",           "UNIT_MISC",
+      "MISC-default",           "UNIT_MISC",
+      "MUTAID-MAFIRE",          "UNIT_MISC",
+      "ODOR-OUTSIDE",           "UNIT_MISC",
+      "RESCUE-UNKNOWN",         "UNIT_MISC",
+      "TRANSFER-ENGINE",        "UNIT_MISC",
+      "VEHICLE-AUTO",           "UNIT_MISC",
+      "VEHICLE-TRUCK",          "UNIT_MISC"
+  });
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ANNJ", "ANNAPOLIS JUNCTION",
