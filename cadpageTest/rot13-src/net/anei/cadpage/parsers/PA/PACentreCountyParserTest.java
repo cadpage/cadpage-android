@@ -8,6 +8,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Prager Pbhagl, CN
 
+Pbagnpg: Xnlyn Sbfgre <xssbfgre79@tznvy.pbz>
+Fraqre: nyregf@prager.rnyreg911.pbz
+(Prager Pbhagl Nyregf) OBK 2531; RZF-FVPX/HAXABJA OYF; 450 JNHCRYNAV QE [@URNEGUFVQR ZNABE AHEFVAT UBZR [_FGNGR PBYYRTR;
+
 Pbagnpg: Zngg Ovftnvre <zovftnvre@tznvy.pbz>
 Fraqre: nyregf@prager.rnyreg911.pbz
 
@@ -480,6 +484,19 @@ choyvp pynff CNPragerPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp CNPragerPbhaglCnefreGrfg() {
     frgCnefre(arj CNPragerPbhaglCnefre(), "PRAGER PBHAGL", "CN");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXlynSbfgre() {
+
+    qbGrfg("G1",
+        "(Prager Pbhagl Nyregf) OBK 2531; RZF-FVPX/HAXABJA OYF; 450 JNHCRYNAV QE [@URNEGUFVQR ZNABE AHEFVAT UBZR [_FGNGR PBYYRTR;",
+        "OBK:2531",
+        "PNYY:RZF-FVPX/HAXABJA OYF",
+        "NQQE:450 JNHCRYNAV QE",
+        "CYNPR:URNEGUFVQR ZNABE AHEFVAT UBZR",
+        "PVGL:FGNGR PBYYRTR");
+
   }
   
   @Grfg
