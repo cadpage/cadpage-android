@@ -45,6 +45,7 @@ PNQ:218 PYNL UVYY EQ;6;OERNGUVAT CEBOYRZF;06P01N
 Pbagnpg: Crgre Zntrr <sver.rzf.32@tznvy.pbz>
 Fraqre: PNQ@bafybjpbhaglap.tbi
 PNQ@bafybjpbhaglap.tbi / ab fhowrpg / PNQ:413 URAQREFBA PG;FGEHPGHER SVER;GPSQ;18O
+PNQ@bafybjpbhaglap.tbi / ab fhowrpg / PNQ:3894 JVYZVATGBA UJL;IREBAN DHVPX ZNEG;BQBE;ISQ;19O
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Evpuynaqf Erfphr
@@ -574,7 +575,15 @@ choyvp pynff APBafybjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FGEHPGHER SVER",
         "FEP:GPSQ",
         "HAVG:18O");
-    
+
+    qbGrfg("G2",
+        "PNQ@bafybjpbhaglap.tbi / ab fhowrpg / PNQ:3894 JVYZVATGBA UJL;IREBAN DHVPX ZNEG;BQBE;ISQ;19O",
+        "NQQE:3894 JVYZVATGBA UJL",
+        "CYNPR:IREBAN DHVPX ZNEG",
+        "PNYY:BQBE",
+        "FEP:ISQ",
+        "HAVG:19O");
+   
   }
   
   @Grfg
