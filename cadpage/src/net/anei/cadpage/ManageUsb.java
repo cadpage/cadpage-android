@@ -119,7 +119,7 @@ public class ManageUsb {
     }
     
     public void onReceive(Context context, Intent intent) {
-      if (mgr == null) return;
+      if (mgr == null) mgr = (UsbManager) context.getSystemService(Context.USB_SERVICE);
       ContentQuery.dumpIntent(intent);
       
       String action = intent.getAction();
@@ -134,11 +134,17 @@ public class ManageUsb {
         UsbDevice dev = (UsbDevice)intent.getParcelableExtra(UsbManager.EXTRA_DEVICE);
         Log.v("Device:" + dev);
         
-        if (dev != null && commDevice != null) {
-          UsbDevice dev2 = commDevice.getDevice();
-          if (dev2 != null && dev.getDeviceName().equals(dev.getDeviceName())) {
-            commDevice.close();
-            commDevice = null;
+        if (action.equals(UsbManager.ACTION_USB_DEVICE_ATTACHED)) {
+          connectDevice(context, dev);
+        }
+        
+        else {
+          if (dev != null && commDevice != null) {
+            UsbDevice dev2 = commDevice.getDevice();
+            if (dev2 != null && dev.getDeviceName().equals(dev.getDeviceName())) {
+              commDevice.close();
+              commDevice = null;
+            }
           }
         }
       }
@@ -172,6 +178,9 @@ public class ManageUsb {
     private static final int SEPURA_PRODUCT_ID = 0x6001;
     
     private void connectDevice(Context context, UsbDevice device) {
+      
+      if (commDevice != null) return;
+      
       if (device.getVendorId() == SEPURA_VENDOR_ID && device.getProductId() == SEPURA_PRODUCT_ID) {
         
         // If we do not have permission to use this device, ask for it

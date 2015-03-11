@@ -80,6 +80,7 @@ public class CommDevice {
     new Thread("CommInThread"){
       @Override
       public void run() {
+        Log.v("CommInThread running");
         byte[] buffer = new byte[1];
         while (open) {
           int cnt = connect.bulkTransfer(inEndPoint, buffer, 1, 0);
@@ -100,22 +101,20 @@ public class CommDevice {
   private void send(String s) {
     Log.w("DevOut:" + s);
     
-    final byte[] buffer;
     try {
-      buffer = (s + "\r\n").getBytes("UTF-8");
+      final byte[] buffer = (s + "\r\n").getBytes("UTF-8");
+      new Thread("CommOutThread"){
+        @Override
+        public void run() {
+          Log.v("DevOut transferring " + buffer.length + " bytes");
+          int cnt = connect.bulkTransfer(outEndPoint, buffer, buffer.length, 0);
+          Log.w("DevOut transfered " + cnt + " bytes");
+        }
+      }.start();
     } catch (UnsupportedEncodingException ex) {
       ex.printStackTrace();
       return;
     }
-    new Thread("CommOutThread"){
-      @Override
-      public void run() {
-        int cnt = connect.bulkTransfer(outEndPoint, buffer, buffer.length, 0);
-        if (cnt < buffer.length) {
-          Log.w("DevOut transfer returned:" + cnt);
-        }
-      }
-    }.start();
   }
   
   public UsbDevice getDevice() {

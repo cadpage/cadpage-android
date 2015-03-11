@@ -205,6 +205,9 @@ public class FieldProgramParser extends SmartAddressParser {
   // True if any of our program steps contain a tag
   private boolean parseTags = false;
   
+  // True if any programs steps are empty tags
+  private boolean emptyTags = false;
+  
   // List of tags on the main path
   private String[] tagList = null;
   
@@ -416,7 +419,7 @@ public class FieldProgramParser extends SmartAddressParser {
     // First pass through the field terms, constructing the appropriate field
     // and program step that will be used.
     for (int ndx = 0; ndx < fieldTerms.length; ndx++) {
-      FieldTermInfo info = new FieldTermInfo(fieldTerms[ndx], breakChar);
+      FieldTermInfo info = new FieldTermInfo(fieldTerms[ndx]);
       if (anyOrder) {
         if (info.tag == null) throw new RuntimeException("Any order fields must have a keyword: " + fieldTerms[ndx]);
         if (info.optional) {
@@ -425,7 +428,7 @@ public class FieldProgramParser extends SmartAddressParser {
       }
       if (ignoreCase & info.tag != null) info.tag = info.tag.toUpperCase(); 
       infoList[ndx] = info;
-      fieldSteps[ndx] = new Step(info.tag, (info.branch ? null : info.name), info.qual, info.trigger, info.required, info.optional);
+      fieldSteps[ndx] = new Step(info);
     }
 
     // Initialize stuff, and link the heading link to the first step
@@ -841,9 +844,10 @@ public class FieldProgramParser extends SmartAddressParser {
     boolean repeat = false;
     boolean optional = false;
     boolean branch = false;
+    boolean emptyTag = false;
     char trigger = 0;
     
-    FieldTermInfo(String fieldTerm, char breakChar) {
+    FieldTermInfo(String fieldTerm) {
       
       // If this is a conditional branch, just set the branch flag and return
       // The branch will be expanded later
@@ -852,19 +856,23 @@ public class FieldProgramParser extends SmartAddressParser {
         return;
       }
       
-      int len = fieldTerm.length();
-      int st = fieldTerm.indexOf(breakChar);
+      int st = fieldTerm.indexOf("%EMPTY");
       if (st > 0) {
         tag = fieldTerm.substring(0,st).replace('_', ' ');
+        emptyTag = true;
+      } else {
+        st = fieldTerm.indexOf(':');
+        if (st > 0) tag = fieldTerm.substring(0,st).replace('_', ' ');
       }
       st++;
       
       // parse field or tag name
+      int len = fieldTerm.length();
       int pt = st;
       while (pt < len && 
              (Character.isJavaIdentifierPart(fieldTerm.charAt(pt)) || fieldTerm.charAt(pt)=='-')) pt++;
       
-      name = fieldTerm.substring(st, pt);  
+      name = fieldTerm.substring(st, pt);
       
       // parse field qualifier, if it exists
       if (pt >= len) return;
@@ -1118,6 +1126,7 @@ public class FieldProgramParser extends SmartAddressParser {
     private char trigger;
     private EReqStatus required;
     private boolean optional;
+    private boolean emptyTag;
     
     private Field field;
     private StepLink succLink = new StepLink(0);
@@ -1133,26 +1142,25 @@ public class FieldProgramParser extends SmartAddressParser {
     
     /**
      * Constructor
-     * @param tag field tag
-     * @param field Field processed by this step (can be null)
-     * @param required required status
-     * @param optional optional flag setting
+     * @param FieldTermInfo object describing this node
      */
-    public Step(String tag, String name, String qual, char trigger, EReqStatus required, boolean optional) {
-      this.tag = tag;
-      this.name = name;
-      this.qual = qual;
-      this.trigger = trigger;
+    public Step(FieldTermInfo info) {
+      this.tag = info.tag;
+      this.name = info.name;
+      this.qual = info.qual;
+      this.trigger = info.trigger;
       field = null;
       if (name != null){ 
         field = getField(name);
         field.setQual(qual);
         field.setTrigger(trigger);
       }
-      this.required = required;
-      this.optional = (tag != null) && optional;
+      this.required = info.required;
+      this.optional = (tag != null) && info.optional;
+      this.emptyTag = info.emptyTag;
       
       if (tag != null) parseTags = true;
+      if (emptyTag) emptyTags = true; 
     }
 
     /**
@@ -1167,6 +1175,7 @@ public class FieldProgramParser extends SmartAddressParser {
       this.field = null;
       this.required = null;
       this.optional = false;
+      this.emptyTag = false;
     }
 
     // integer code used to mark steps that have been processed during a full step scan
@@ -1468,8 +1477,8 @@ public class FieldProgramParser extends SmartAddressParser {
           // If this is an option tagged step, take failure branch
           // if tags do not match, otherwise process this step
           if (tag != null && failLink != null) {
-            if (! tag.equals(curTag)) return state.link(failLink);
-            curFld = curVal;
+            if (! matchTag(curTag, curFld)) return state.link(failLink);
+            curFld = emptyTag ? "" : curVal;
             break;
           }
           
@@ -1480,10 +1489,10 @@ public class FieldProgramParser extends SmartAddressParser {
           
           // If data field is tagged, search the program steps for one with
           // a matching tag
-          if (curTag != null) {
+          if (curTag != null || emptyTags) {
             boolean skipReq = false;
             procStep = startStep;
-            while (procStep != null && !curTag.equals(procStep.tag)) {
+            while (procStep != null && !procStep.matchTag(curTag, curFld)) {
               if (procStep.required == EReqStatus.REQUIRED) skipReq = true;;
               procStep = procStep.getNextStep();
             }
@@ -1504,7 +1513,7 @@ public class FieldProgramParser extends SmartAddressParser {
               }
               
               // Otherwise we are ready to process this step
-              curFld = curVal;
+              curFld = procStep.emptyTag ? "" : curVal;
               break;
             }
             
@@ -1621,6 +1630,18 @@ public class FieldProgramParser extends SmartAddressParser {
       
       // Jump to the next step
       return state.link(success ? succLink : failLink);
+    }
+    
+    /**
+     * Determine if tagged node matches field information
+     * @param tag field tag information if it exists, null otherwise
+     * @param field full contents of data field
+     * @return true if node tag matches this information, false otherwise
+     */
+    public boolean matchTag(String tag, String field) {
+      if (this.tag == null) return false;
+      if (this.emptyTag) return this.tag.equals(field);
+      return tag != null && this.tag.equals(tag);
     }
     
     /**

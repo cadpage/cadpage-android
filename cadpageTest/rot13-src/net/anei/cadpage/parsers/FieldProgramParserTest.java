@@ -21,7 +21,22 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
-
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRzcglGnt() {
+    
+    qbSvryqGrfg("G1", "PNYY NQQE PVGL OYHR%RZCGL NCG",
+        "KPNYY;KNQQE;OYHR;KNCG",
+        "PNYY:KPNYY",
+        "NQQE:KNQQE",
+        "NCG:KNCG");
+    
+    qbSvryqGrfg("G2", "KPNYY%RZCGL! PNYY KNQQE%RZCGL! NQQE KNCG%RZCGL! NCG KPVGL%RZCGL! PVGL",
+        "OVT;ONQ;JBYS;KPNYY;GUR PNYY;KNQQE;CVAR FG & OYNAX;KNCG;KPVGL;JERA",
+        "PNYY:GUR PNYY",
+        "NQQE:CVAR FG & OYNAX",
+        "PVGL:JERA");
   }
   
   @Grfg

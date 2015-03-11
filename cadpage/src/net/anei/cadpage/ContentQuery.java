@@ -140,7 +140,7 @@ public class ContentQuery {
   
   private static void dumpBundle(String prefix, Bundle bundle) {
     for (String key : bundle.keySet()) {
-      dumpKeyValue(prefix, key, bundle.getString(key));
+      dumpKeyValue(prefix, key, bundle.get(key));
     }
   }
   

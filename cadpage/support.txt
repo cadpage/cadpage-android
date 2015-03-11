@@ -1,14 +1,3 @@
-*************************************************************************
-* Active911 registration problems
-*************************************************************************
-
-So, latest news.  Something is broken with the Active911 service.  When you attempt to register Cadpage with Active911, everything looks like it works, and you actually do succeed in registering everything with their servers.  But a critical confirmation message from their servers back to Cadpage has been corrupted and is not recognizable.  The net effect is that you have succeeded in registering for Active911 direct pages, and those direct pages will be sent to Cadpage.  But Cadpage is not aware of that and will not give you credit for being registered with Active911.
-
-Active911 is aware of the problem, and they told me fixing it would be a priority.  But it isn't fixed yet, and they probably will not have anyone working on it until at least Monday.  I will try to get a Cadpage release out today that will recognize and accept the corrupted confirmation message.  But that will only work for users like you who had a previous Active911 connection and recently unregistered it.  New Cadpage users are still out of luck.
-
-Good luck,
--Ken
-
 **************************************************************************
 * The back key does not work
 **************************************************************************
