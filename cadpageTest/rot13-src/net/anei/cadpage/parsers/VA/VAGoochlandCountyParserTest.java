@@ -118,7 +118,7 @@ choyvp pynff INTbbpuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G6",
         "PNQ:NOQBZVANY CNVA;3420 PBGGBAGNVY PUFR;QNIVF ZVYY EQ",
         "PNYY:NOQBZVANY CNVA",
-        "NQQE:3420 PBGGBAGNVY PUFR",
+        "NQQE:3420 PBGGBAGNVY PUFR", //jnagf "pbggbagnvy punfr eq
         "K:QNIVF ZVYY EQ");
 
     qbGrfg("G7",

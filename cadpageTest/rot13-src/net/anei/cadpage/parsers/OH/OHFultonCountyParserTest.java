@@ -71,7 +71,7 @@ choyvp pynff BUShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "([916]- ANGHER) SVER - NYNEZ YBPNGVBA: 500 R VAQHFGEVNY CXJL SNLRGGR ORGJRRA A SNLRGGR / SNLRGGR PBEC YVZVGF",
         "HAVG:916",
         "PNYY:SVER - NYNEZ",
-        "NQQE:500 R VAQHFGEVNY CXJL",
+        "NQQE:500 R VAQHFGEVNY CXJL", //qbrf abg znc
         "PVGL:SNLRGGR",
         "K:A SNLRGGR / SNLRGGR PBEC YVZVGF");
 
@@ -79,7 +79,7 @@ choyvp pynff BUShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "([932]- ANGHER) NPPVQRAG - VAWHEL - AB BU1 YBPNGVBA: HF 20 / HF 127 TBEUNZ GJC PBZZRAGF: K-084.328479 L+041.662977 PS100 HAP16919",
         "HAVG:932",
         "PNYY:NPPVQRAG - VAWHEL - AB BU1",
-        "NQQE:HF 20 & HF 127",
+        "NQQE:HF 20 & HF 127", //qbrf abg znc
         "PVGL:TBEUNZ GJC",
         "VASB:K-084.328479 L+041.662977 PS100 HAP16919");
 
@@ -196,7 +196,7 @@ choyvp pynff BUShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "([919]- ANGHER) VYY FHOWRPG YBPNGVBA: 25212 HF 20 TBEUNZ GJC ORGJRRA SNLRGGR PBEC YVZVGF / HF 127 PBZZRAGF: K L PS HAP PUEBAVP URCNGVGVF PHEERAG IBZVGVAT NAQ QVNEEURN",
         "HAVG:919",
         "PNYY:VYY FHOWRPG",
-        "NQQE:25212 HF 20",
+        "NQQE:25212 HF 20", //qbrf abg znc
         "PVGL:TBEUNZ GJC",
         "K:SNLRGGR PBEC YVZVGF / HF 127",
         "VASB:K L PS HAP PUEBAVP URCNGVGVF PHEERAG IBZVGVAT NAQ QVNEEURN");
@@ -205,7 +205,7 @@ choyvp pynff BUShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "([930]- ANGHER) VYY FHOWRPG YBPNGVBA: 310 J TNZOYR EQ FHVGR: S41 SNLRGGR ORGJRRA TBEUNZ F / SNLRGGR PBEC J PBZZRAGF: K-084.343071 L+041.587994 PS0 HAP00000",
         "HAVG:930",
         "PNYY:VYY FHOWRPG",
-        "NQQE:310 J TNZOYR EQ",
+        "NQQE:310 J TNZOYR EQ", //qbrf abg znc
         "NCG:S41",
         "PVGL:SNLRGGR",
         "K:TBEUNZ F / SNLRGGR PBEC J",
@@ -235,7 +235,7 @@ choyvp pynff BUShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "([927]- ANGHER) NOQBZVANY CNVA YBPNGVBA: 25212 HF 20 TBEUNZ GJC ORGJRRA SNLRGGR PBEC YVZVGF / HF 127 PBZZRAGF: K L PS HAP",
         "HAVG:927",
         "PNYY:NOQBZVANY CNVA",
-        "NQQE:25212 HF 20",
+        "NQQE:25212 HF 20", //qbrf abg znc
         "PVGL:TBEUNZ GJC",
         "K:SNLRGGR PBEC YVZVGF / HF 127",
         "VASB:K L PS HAP");
