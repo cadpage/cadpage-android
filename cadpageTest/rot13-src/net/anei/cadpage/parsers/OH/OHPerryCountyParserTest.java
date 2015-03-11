@@ -71,7 +71,8 @@ choyvp pynff BUCreelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:RFG7",
         "PNYY:FDHNQ EHA - 29",
-        "NQQE:8098 FNYG YVPX GJC EQ 390 FR",  //qbrf abg znc, ab znggre ubj v chg vg.
+        "NQQE:8098 FNYG YVPX GJC EQ 390 FR",
+        "ZNQQE:8098 GBJAFUVC UJL 390 FR",
         "PVGL:FNYG YVPX GJC",
         "VASB:78 LBZ OERNGUVAT HAERFCBAFVIR\aZ204 ERD NQQVGVBANY CREFBAARY SEBZ FG270");
 
@@ -185,7 +186,8 @@ choyvp pynff BUCreelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Creel911:[RFG2]- ANGHER: FDHNQ EHA - 29 YBPNGVBA: 6738 ZBAEBR GJC EQ 1008 FR ZBAEBR GJC PBZZRAGF: 40 LRNE BYQ ZNYR CBFFVOYL FHPVQVNY",
         "HAVG:RFG2",
         "PNYY:FDHNQ EHA - 29",
-        "NQQE:6738 ZBAEBR GJC EQ 1008 FR", //qbrf abg znc
+        "NQQE:6738 ZBAEBR GJC EQ 1008 FR",
+        "ZNQQE:6738 GBJAFUVC UJL 1008 FR",
         "PVGL:ZBAEBR GJC",
         "VASB:40 LRNE BYQ ZNYR CBFFVOYL FHPVQVNY");
 
@@ -210,7 +212,7 @@ choyvp pynff BUCreelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Creel911:[RFG10]- YBPNGVBA: 2536 FGNGR EGR 345 AR CVXR GJC PBZZRAGF: 51 LBZ PVEEBFVF BS YVIRE FGBZNPU CNVAF",
         "HAVG:RFG10",
         "NQQE:2536 FGNGR EGR 345 AR",
-        "ZNQQE:2536 FGNGR 345 AR", //gebhoyr znccvat
+        "ZNQQE:2536 FGNGR 345 AR",
         "PVGL:CVXR GJC",
         "PNYY:51 LBZ PVEEBFVF BS YVIRE FGBZNPU CNVAF");
 
@@ -353,7 +355,8 @@ choyvp pynff BUCreelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:RFG2",
         "PNYY:FDHNQ EHA - 29",
-        "NQQE:3812 WNPXFBA GJC EQ 235 FJ", //pna abg znc
+        "NQQE:3812 WNPXFBA GJC EQ 235 FJ",
+        "ZNQQE:3812 GBJAFUVC UJL 235 FJ",
         "PVGL:WNPXFBA GJC",
         "VASB:(740)407-2668 +039.710137 -082.294035\a25 LNE BYQ SRZNYR FRIRERYL VYY");
 
