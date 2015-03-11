@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.OH;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 public class OHPerryCountyParser extends DispatchEmergitechParser {
@@ -7,6 +9,13 @@ public class OHPerryCountyParser extends DispatchEmergitechParser {
   public OHPerryCountyParser() {
     super("Perry911:", 0, CITY_LIST, "PERRY COUNTY", "OH");
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = TWP_RD_PTN.matcher(addr).replaceAll("TOWNSHIP HWY");
+    return super.adjustMapAddress(addr);
+  }
+  private static final Pattern TWP_RD_PTN = Pattern.compile("\\b(?:MONDAY CREEK|SALT LICK|[A-Z]+) TWP RD\\b");
   
   private static final String[] CITY_LIST = new String[] { 
     
