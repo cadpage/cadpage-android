@@ -587,10 +587,9 @@ choyvp pynff TNGvsgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G50",
         "911-PRAGRE:70R >RYRPGEVPNY SVER PUHYN OEBBXSVRYQ EQ&OBJRA EQ KF: OBJRA EQ GVSGBA WRANL Pnq: 2015-0000007680",
-        // Harkcrpgrq pnyy pbqr:RYRPGEVPNY SVER PUHYN
         "PBQR:70R",
-        "PNYY:RYRPGEVPNY SVER PUHYN",
-        "NQQE:OEBBXSVRYQ EQ & OBJRA EQ",
+        "PNYY:RYRPGEVPNY SVER",
+        "NQQE:PUHYN OEBBXSVRYQ EQ & OBJRA EQ",
         "K:OBJRA EQ",
         "PVGL:GVSGBA",
         "ANZR:WRANL",
@@ -778,7 +777,6 @@ choyvp pynff TNGvsgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G69",
         "911-PRAGRE:70R >RYRPGEVPNY SVER 1193 WNPBO UNYY EQ KF: ZG BYVIR PUHEPU EQ GVSGBA ONGGRA, TNEL Znc: Tevqf:0,0 Pnq: 2015-0000006468",
-        // Harkcrpgrq pnyy pbqr:RYRPGEVPNY SVER
         "PBQR:70R",
         "PNYY:RYRPGEVPNY SVER",
         "NQQE:1193 WNPBO UNYY EQ",
@@ -789,7 +787,6 @@ choyvp pynff TNGvsgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G70",
         "911-PRAGRE:70R >RYRPGEVPNY SVER 168 PBYDHVGG PBHAGL YVAR EQ KF: ZVGPURYY FGBER EQ BZRTN ZE TNAQL Znc: Tevqf:0,0 Pnq: 2015-0000006368",
-        // Harkcrpgrq pnyy pbqr:RYRPGEVPNY SVER
         "PBQR:70R",
         "PNYY:RYRPGEVPNY SVER",
         "NQQE:168 PBYDHVGG PBHAGL YVAR EQ",

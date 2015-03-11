@@ -262,6 +262,7 @@ class Active911Vendor extends Vendor {
       "US/GA/HabershamCounty",            "GAHabershamCounty",
       "US/GA/RabunCounty",                "GARabunCounty",
       "US/GA/SouthsideFire",              "GAChathamCounty",
+      "US/GA/TiftCounty",                 "GATiftCounty",
       "US/GA/WaltonCounty",               "GAWaltonCounty",
       "US/GA/WhiteCounty",                "GAWhiteCounty",
       "US/IA/CerroGordoCounty",           "IACerroGordoCounty",

@@ -9,6 +9,34 @@ public class GATiftCountyParser extends DispatchB2Parser {
   public GATiftCountyParser() {
     super("911-CENTER:", CITY_LIST, "TIFT COUNTY", "GA");
     setupCallList(CALL_LIST);
+    setupMultiWordStreets(
+        "BILL BOWEN",
+        "CHULA BROOKFIELD",
+        "COLQUITT COUNTY LINE",
+        "FERRY LAKE",
+        "FOREST LAKE",
+        "JACOB HALL",
+        "JOHN ORR",
+        "LONG PINE",
+        "MAGNOLIA INDUSTRIAL",
+        "MARTIN L KING JR",
+        "MITCHELL STORE",
+        "MT OLIVE CHURCH",
+        "OMEGA ELDORADO",
+        "PINE LAKE",
+        "POST OAK",
+        "RIVER CHURCH",
+        "TC GORDON",
+        "TIFTON ELDORADO",
+        "TY TY OMEGA",
+        "TY TY SPARKS",
+        "TY TY WHIDDON MILL",
+        "VANCEVILLE COUNTY LINE",
+        "WESLEY CHAPEL",
+        "WESLEY RIGDON",
+        "WHIDDON MILL",
+        "ZION HOPE"
+    );
   }
   
   @Override
@@ -33,6 +61,7 @@ public class GATiftCountyParser extends DispatchB2Parser {
       "ACCIDENT WITH INJURIES",
       "BOMB THREAT",
       "ELECTRICAL HAZARD",
+      "ELECTRICAL FIRE",
       "FIRE",
       "FIRE ALARM",
       "FIRE - GRASS",
