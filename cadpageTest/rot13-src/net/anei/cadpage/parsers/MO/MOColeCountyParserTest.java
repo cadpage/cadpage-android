@@ -562,7 +562,7 @@ choyvp pynff ZBPbyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:Pbqr 3",
         "CYNPR:WPPP",
         "NQQE:8200 AB ZBER IVPGVZF EQ",
-        "ZNQQE:8200 & ZBER IVPGVZF EQ",
+        "ZNQQE:8200 & ZBER IVPGVZF EQ", //zncf, ohg ab zber ivpgvzf eq vf evtug-b
         "PVGL:WRSSREFBA PVGL",
         "PNYY:Haxabja Ceboyrz",
         "VASB:FBZRBAR PBYYNCFRQ. ABJ VA ZRQ HAVG.",
