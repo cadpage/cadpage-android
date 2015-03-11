@@ -11,6 +11,11 @@ Prager Pbhagl, CN
 Pbagnpg: Xnlyn Sbfgre <xssbfgre79@tznvy.pbz>
 Fraqre: nyregf@prager.rnyreg911.pbz
 (Prager Pbhagl Nyregf) OBK 2531; RZF-FVPX/HAXABJA OYF; 450 JNHCRYNAV QE [@URNEGUFVQR ZNABE AHEFVAT UBZR [_FGNGR PBYYRTR;
+(Prager Pbhagl Nyregf) OBK 2511; RZF-PURFG CNVA/URNEG CEBOYRZF-NYF ?; 1613 A NGUREGBA FG [#O [@ZRQ RKCERFF [_CNGGBA GJC;\a.
+(Prager Pbhagl Nyregf) OBK 2542; RZF-PURFG CNVA/URNEG CEBOYRZF-NYF ?; 373 ORAARE CVXR [@JNYZNEG - ORAARE CVXR [_PBYYRTR GJC;\a.
+(Prager Pbhagl Nyregf) OBK 2542; RZF-FGEBXR/PIN-NYF ?; 168 NOREQRRA YA [_PBYYRTR GJC;\a.
+(Prager Pbhagl Nyregf) OBK 2535; RZF-SNYYF/NPPVQRAGF NYF; 2811 J JUVGRUNYY EQ [_SRETHFBA GJC;\a.
+(Prager Pbhagl Nyregf) OBK 2535; SVER-IRUVPYR PENFU HAXABJA VAWHEVRF; 237 R CVAR TEBIR EQ [_SRETHFBA GJC;\a.
 
 Pbagnpg: Zngg Ovftnvre <zovftnvre@tznvy.pbz>
 Fraqre: nyregf@prager.rnyreg911.pbz
@@ -496,6 +501,44 @@ choyvp pynff CNPragerPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:450 JNHCRYNAV QE",
         "CYNPR:URNEGUFVQR ZNABE AHEFVAT UBZR",
         "PVGL:FGNGR PBYYRTR");
+
+    qbGrfg("G2",
+        "(Prager Pbhagl Nyregf) OBK 2511; RZF-PURFG CNVA/URNEG CEBOYRZF-NYF ?; 1613 A NGUREGBA FG [#O [@ZRQ RKCERFF [_CNGGBA GJC;\a.",
+        "OBK:2511",
+        "PNYY:RZF-PURFG CNVA/URNEG CEBOYRZF-NYF ?",
+        "NQQE:1613 A NGUREGBA FG",
+        "NCG:O",
+        "CYNPR:ZRQ RKCERFF",
+        "PVGL:CNGGBA GJC");
+
+    qbGrfg("G3",
+        "(Prager Pbhagl Nyregf) OBK 2542; RZF-PURFG CNVA/URNEG CEBOYRZF-NYF ?; 373 ORAARE CVXR [@JNYZNEG - ORAARE CVXR [_PBYYRTR GJC;\a.",
+        "OBK:2542",
+        "PNYY:RZF-PURFG CNVA/URNEG CEBOYRZF-NYF ?",
+        "NQQE:373 ORAARE CVXR",
+        "CYNPR:JNYZNEG - ORAARE CVXR",
+        "PVGL:PBYYRTR GJC");
+
+    qbGrfg("G4",
+        "(Prager Pbhagl Nyregf) OBK 2542; RZF-FGEBXR/PIN-NYF ?; 168 NOREQRRA YA [_PBYYRTR GJC;\a.",
+        "OBK:2542",
+        "PNYY:RZF-FGEBXR/PIN-NYF ?",
+        "NQQE:168 NOREQRRA YA",
+        "PVGL:PBYYRTR GJC");
+
+    qbGrfg("G5",
+        "(Prager Pbhagl Nyregf) OBK 2535; RZF-SNYYF/NPPVQRAGF NYF; 2811 J JUVGRUNYY EQ [_SRETHFBA GJC;\a.",
+        "OBK:2535",
+        "PNYY:RZF-SNYYF/NPPVQRAGF NYF",
+        "NQQE:2811 J JUVGRUNYY EQ",
+        "PVGL:SRETHFBA GJC");
+
+    qbGrfg("G6",
+        "(Prager Pbhagl Nyregf) OBK 2535; SVER-IRUVPYR PENFU HAXABJA VAWHEVRF; 237 R CVAR TEBIR EQ [_SRETHFBA GJC;\a.",
+        "OBK:2535",
+        "PNYY:SVER-IRUVPYR PENFU HAXABJA VAWHEVRF",
+        "NQQE:237 R CVAR TEBIR EQ",
+        "PVGL:SRETHFBA GJC");
 
   }
   

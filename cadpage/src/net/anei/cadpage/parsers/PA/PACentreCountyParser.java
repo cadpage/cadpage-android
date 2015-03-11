@@ -18,6 +18,9 @@ public class PACentreCountyParser extends FieldProgramParser {
     // check subj
     if (!subject.equals("Centre County Alerts")) return false;
 
+    int pt = body.indexOf('.');
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    
     // kill non ascii
     body = NON_ASCII.matcher(body).replaceAll("");
 

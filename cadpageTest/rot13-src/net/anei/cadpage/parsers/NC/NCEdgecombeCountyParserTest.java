@@ -25,6 +25,7 @@ Ntrapl anzr: Onggyrobeb Pbzzhavgl ISQ
 Ybpngvba: Onggyrobeb, AP, Havgrq Fgngrf
 Fraqre: <RqtrpbzorPrageny@pb.rqtrpbzor.ap.hf>
 
+RqtrpbzorPrageny:BYQ ONGGYROBEB EQ // ZBEAVAT FGNE PU EQ ONGGYROBEB Genssvp/Genafcbegngvba Nppvqragf 9SE ANFU
 RqtrpbzorPrageny:5746 CRNEFNYY FG ONGGYROBEB SVER NYNEZ NPGVINGVBA 12SQ1,18SQ1,31,9SQ ANFU1
 RqtrpbzorPrageny:5590 ZBEAVAT FGNE PUHEPU EQ ONGGYROBEB Oernguvat Ceboyrzf 31,9SQ ANFU1,JUVGNXREF1
 RqtrpbzorPrageny:NEEBJURNQ YA EBPXL ZBHAG TENFF SVER 12SQ1,1905,19SQ1,9SQ ANFU1,EBPXLZG1
@@ -84,6 +85,7 @@ Ybpngvba: Gneobeb, AP, Havgrq Fgngrf
 Fraqre: <RqtrpbzorPrageny@pb.rqtrpbzor.ap.hf>
 Fraqre: <Rqtrpbzor911@pb.rqtrpbzor.ap.hf>
 
+RqtrpbzorPrageny:WRAXVAF SNEZ EQ @ AP 43 F EBPXL ZBHAG Genssvp/Genafcbegngvba Nppvqragf 21SQ1,41,ZRQVP 3,CVARGBCF1
 RqtrpbzorPrageny:100 DIP OYIQ EBPXL ZBHAG SVER NYNEZ NPGVINGVBA 17SQ1,19SQ1,21SQ1
 RqtrpbzorPrageny:549 GNYY BNXF EQ GNEOBEB Hapbafpvbhf/Snvagvat 21SE,GNEOBEB1
 RqtrpbzorPrageny:404 BYQ JVYFBA EQ CVARGBCF FGEHPGHER SVER 14SQ1,15SQ1,17SQ1,21SQ1,22SQ1,CVARGBCF1
@@ -357,6 +359,14 @@ choyvp pynff APRqtrpbzorPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgOnggyrobebPbzzhavglISQ() {
+
+    qbGrfg("K1",
+        "RqtrpbzorPrageny:BYQ ONGGYROBEB EQ // ZBEAVAT FGNE PU EQ ONGGYROBEB Genssvp/Genafcbegngvba Nppvqragf 9SE ANFU",
+        "NQQE:BYQ ONGGYROBEB EQ & ZBEAVAT FGNE PU EQ",
+        "ZNQQE:BYQ ONGGYROBEB EQ & ZBEAVAT FGNE PUHEPU EQ",
+        "PVGL:ONGGYROBEB",
+        "PNYY:Genssvp/Genafcbegngvba Nppvqragf",
+        "HAVG:9SE ANFU");
 
     qbGrfg("G1",
         "RqtrpbzorPrageny:5746 CRNEFNYY FG ONGGYROBEB SVER NYNEZ NPGVINGVBA 12SQ1,18SQ1,31,9SQ ANFU1",
@@ -665,6 +675,14 @@ choyvp pynff APRqtrpbzorPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgYrjvfPbzzhavglSQ() {
+
+    qbGrfg("K1",
+        "RqtrpbzorPrageny:WRAXVAF SNEZ EQ @ AP 43 F EBPXL ZBHAG Genssvp/Genafcbegngvba Nppvqragf 21SQ1,41,ZRQVP 3,CVARGBCF1",
+        "NQQE:WRAXVAF SNEZ EQ & AP 43 F",
+        "ZNQQE:WRAXVAF SNEZ EQ & FGNGR 43 F",
+        "PVGL:EBPXL ZBHAG",
+        "PNYY:Genssvp/Genafcbegngvba Nppvqragf",
+        "HAVG:21SQ1,41,ZRQVP 3,CVARGBCF1");
 
     qbGrfg("G1",
         "RqtrpbzorPrageny:100 DIP OYIQ EBPXL ZBHAG SVER NYNEZ NPGVINGVBA 17SQ1,19SQ1,21SQ1",
