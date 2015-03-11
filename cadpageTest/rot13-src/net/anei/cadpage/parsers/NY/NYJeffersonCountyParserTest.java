@@ -1043,7 +1043,18 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:H:",
         "PVGL:UBHAFSVRYQ",
         "VASB:PNE UVG N CBFGNY GEHPX NAQ N PNE. 2 CRBCYR VAWHVERQ PNYYONPX=(315)783-17");
-    
+
+    qbGrfg("G1",
+        "JVERF/GERR QBJA|8898 FGNGR EBHGR 178; H::URAQREFBA(G)|JVER QBJA\a\aPNYYONPX=(315)767-0619 YNG=+043.846071 YBA=-076.184778 H",
+        "PNYY:JVERF/GERR QBJA",
+        "NQQE:8898 FGNGR EBHGR 178",
+        "ZNQQE:8898 FGNGR 178",
+        "CYNPR:H:",
+        "PVGL:URAQREFBA",
+        "VASB:JVER QBJA",
+        "CUBAR:(315)767-0619",
+        "TCF:+43.846071,-76.184778");
+   
   }
 
   @Grfg
