@@ -113,18 +113,21 @@ choyvp pynff INTbbpuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:Hcqngr: ;PURFG CNVA BE URNEG CEBOYRZ;3420 PBGGBAGNVY PUFR;QNIVF ZVYY EQ",
         "PNYY:PURFG CNVA BE URNEG CEBOYRZ",
         "NQQE:3420 PBGGBAGNVY PUFR",
+        "ZNQQE:3420 PBGGBAGNVY PUNFR EQ",
         "K:QNIVF ZVYY EQ");
 
     qbGrfg("G6",
         "PNQ:NOQBZVANY CNVA;3420 PBGGBAGNVY PUFR;QNIVF ZVYY EQ",
         "PNYY:NOQBZVANY CNVA",
-        "NQQE:3420 PBGGBAGNVY PUFR", //jnagf "pbggbagnvy punfr eq
+        "NQQE:3420 PBGGBAGNVY PUFR",
+        "ZNQQE:3420 PBGGBAGNVY PUNFR EQ",
         "K:QNIVF ZVYY EQ");
 
     qbGrfg("G7",
         "PNQ:SLV: ;NOQBZVANY CNVA;3420 PBGGBAGNVY PUFR;QNIVF ZVYY EQ",
         "PNYY:NOQBZVANY CNVA",
         "NQQE:3420 PBGGBAGNVY PUFR",
+        "ZNQQE:3420 PBGGBAGNVY PUNFR EQ",
         "K:QNIVF ZVYY EQ");
 
     qbGrfg("G8",
