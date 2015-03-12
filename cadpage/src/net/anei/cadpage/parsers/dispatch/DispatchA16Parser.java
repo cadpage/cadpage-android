@@ -3,6 +3,8 @@ package net.anei.cadpage.parsers.dispatch;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -31,6 +33,7 @@ public class DispatchA16Parser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  private static final Pattern CITY_ST_PTN = Pattern.compile("(.*), *([A-Z]{2})");
   private class MyCityField extends CityField {
     @Override
     public boolean checkParse(String field, Data data) {
@@ -43,19 +46,18 @@ public class DispatchA16Parser extends FieldProgramParser {
     }
     
     public boolean doParse(String field, Data data, boolean force) {
-      String state = null;
-      int pt = field.indexOf(',');
-      if (pt >= 0) {
-        state = field.substring(pt+1).trim();
-        field = field.substring(0,pt).trim();
+      Matcher match = CITY_ST_PTN.matcher(field);
+      if (match.matches()) {
+        super.parse(match.group(1).trim(), data);;
+        data.strState = match.group(2);
+        return true;
       }
       if (force) {
         super.parse(field, data);
-      } else {
-        if (!super.checkParse(field, data)) return false;
-      }
-      if (state != null) data.strState = state;
-      return true;
+        return true;
+      } 
+      
+      return super.checkParse(field, data);
     }
     
     @Override

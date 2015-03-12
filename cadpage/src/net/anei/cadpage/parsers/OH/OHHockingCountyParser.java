@@ -16,10 +16,17 @@ public class OHHockingCountyParser extends DispatchA16Parser {
     return "hockingcounty911@gmail.com";
   }
   
+  @Override
+  public String adjustMapCity(String city) {
+    if (city.equalsIgnoreCase("SOUTH BLOOMING")) city = "SOUTH BLOOMINGVILLE";
+    return city;
+  }
+
   private static final String[] CITY_LIST = new String[]{
 
     // Cities
     "LOGAN",
+    "WEST LOGAN",
 
     // Villages
     "BUCHTEL",
@@ -49,9 +56,13 @@ public class OHHockingCountyParser extends DispatchA16Parser {
     "EWING",
     "ILESBORO",
     "SAND RUN",
+    "SOUTH BLOOMING",
     "SOUTH BLOOMINGVILLE",
     "UNION FURNACE",
-    "SOUTH PERRY"
+    "SOUTH PERRY",
+    
+    // Athens County
+    "NELSONVILLE"
   };
 }
   
