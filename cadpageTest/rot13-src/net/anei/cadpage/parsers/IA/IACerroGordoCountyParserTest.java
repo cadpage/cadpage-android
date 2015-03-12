@@ -80,7 +80,7 @@ choyvp pynff VNPreebTbeqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver",
         "NQQE:Guehfu Ni & 190 Fg",
         "ZNQQE:Guehfu Nir & 190 Fg",
-        "PVGL:Preeb Tbeqb Pbhagl",
+        "PVGL:Preeb Tbeqb Pbhagl", //unu. zncf vs guvf vfag urer
         "VQ:PTFB201407053",
         "VASB:Pnapry cntr");
 
@@ -166,7 +166,7 @@ choyvp pynff VNPreebTbeqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY: Pbyyvfvba;NQQE: Tebhfr Ni / 210 Fg;PVGL: Preeb Tbeqb Pbhagl;VQ: PTFB201500626",
         "PNYY:Pbyyvfvba",
         "NQQE:Tebhfr Ni & 210 Fg",
-        "ZNQQE:Tebhfr Nir & 210 Fg",
+        "ZNQQE:Tebhfr Nir & 210 Fg", //qbrf abg znc
         "PVGL:Preeb Tbeqb Pbhagl",
         "VQ:PTFB201500626");
 
@@ -206,7 +206,7 @@ choyvp pynff VNPreebTbeqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Pbyyvfvba",
         "NQQE:Arggyr Ni & 150 Fg",
         "ZNQQE:Arggyr Nir & 150 Fg",
-        "PVGL:Preeb Tbeqb Pbhagl",
+        "PVGL:Preeb Tbeqb Pbhagl", //zncf vs guvf vf abg urer
         "VQ:PTFB201500268",
         "VASB:PNE EBYYBIRE BA VGF FVQR, BHG BS GUR PNE, 1 VAWHEL");
 
@@ -215,7 +215,7 @@ choyvp pynff VNPreebTbeqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny",
         "NQQE:Xvyyqrre Ni & 120 Fg",
         "ZNQQE:Xvyyqrre Nir & 120 Fg",
-        "PVGL:Preeb Tbeqb Pbhagl",
+        "PVGL:Preeb Tbeqb Pbhagl", //zncf vs guvf vf abg urer
         "VQ:PTFB201500177");
 
   }
