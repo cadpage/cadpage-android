@@ -7,6 +7,6 @@ import net.anei.cadpage.parsers.GroupBestParser;
  */
 public class CASanDiegoCountyParser extends GroupBestParser {
   public CASanDiegoCountyParser() {
-    super(new CASanDiegoCountyAParser(), new CASanDiegoCountyBParser());
+    super(new CASanDiegoCountyAParser(), new CASanDiegoCountyBParser(), new CASanDiegoCountyCParser());
   }
 }
