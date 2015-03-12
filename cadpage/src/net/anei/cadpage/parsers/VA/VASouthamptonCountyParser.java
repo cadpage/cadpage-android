@@ -19,6 +19,11 @@ public class VASouthamptonCountyParser extends DispatchOSSIParser {
     return "@shso.org";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
   private String select;
 
   @Override
