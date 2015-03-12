@@ -2207,24 +2207,24 @@ choyvp pynff APCvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "(911 Sver Pnyy) >>NQQERFF: 0 - >>ABGRF: 3211 FHZZRE CY 3",
-        "PNYY:PBASVEZRQ SVER",
+        "PNYY:JBEXVAT VAPVQRAG",
         "NQQE:3211 FHZZRE CY 3");
 
     qbGrfg("G2",
         "[911 Sver Pnyy] >>NQQERFF: 0  -   >>ABGRF: 305 NYVPR QE // ERQ PEBFF ABGVSVRQ // THP RYRPGEVP ABGVSVRQ // FNZ FZVGU ABGVSVRQ",
-        "PNYY:PBASVEZRQ SVER",
+        "PNYY:JBEXVAT VAPVQRAG",
         "VASB:ERQ PEBFF ABGVSVRQ // THP RYRPGEVP ABGVSVRQ // FNZ FZVGU ABGVSVRQ",
         "NQQE:305 NYVPR QE");
 
     qbGrfg("G3",
         "(911 Sver Pnyy) >>NQQERFF: 113  EVQTR CY  >>ABGRF: NCG 18",
-        "PNYY:PBASVEZRQ SVER",
+        "PNYY:JBEXVAT VAPVQRAG",
         "NQQE:113  EVQTR CY",
         "NCG:18");
 
     qbGrfg("G4",
         "(911 Sver Pnyy) >>NQQERFF: 0  -   >>ABGRF: 450 OHEEVATGBA EQ",
-        "PNYY:PBASVEZRQ SVER",
+        "PNYY:JBEXVAT VAPVQRAG",
         "NQQE:450 OHEEVATGBA EQ");
 
   }
@@ -19381,7 +19381,7 @@ choyvp pynff APCvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G78",
         "(911 Sver Pnyy) >>NQQERFF: 0  -   >>ABGRF: 4113 OEVQTR PG O",
-        "PNYY:PBASVEZRQ SVER",
+        "PNYY:JBEXVAT VAPVQRAG",
         "NQQE:4113 OEVQTR PG O");
 
   }

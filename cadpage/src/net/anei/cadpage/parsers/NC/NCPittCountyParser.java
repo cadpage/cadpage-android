@@ -32,7 +32,7 @@ public class NCPittCountyParser extends FieldProgramParser {
     Matcher match = CONFIRM_FIRE_MARKER.matcher(body);
     if (match.matches()) {
       setFieldList("CALL ADDR APT INFO");
-      data.strCall = "CONFIRMED FIRE";
+      data.strCall = "WORKING INCIDENT";
       String addr = match.group(1);
       String apt = null;
       if (addr == null) {
