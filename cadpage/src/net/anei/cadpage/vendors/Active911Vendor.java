@@ -200,6 +200,7 @@ class Active911Vendor extends Vendor {
       "US/CA/PlacerCounty",               "CAPlacerCounty",
       "US/CA/SacramentoFire",             "CASacramentoCounty",
       "US/CA/SanBernardinoCounty",        "CASanBernardinoCountyA",
+      "US/CA/SanDiegoCounty",             "CASanDiegoCountyC",
       "US/CA/SantaClaraCademail",         "CASantaClaraCountyA",
       "US/CA/SantaClaraCounty",           "CASantaClaraCountyB",
       "US/CA/SantaCruzCounty",            "CASantaCruzCounty",
