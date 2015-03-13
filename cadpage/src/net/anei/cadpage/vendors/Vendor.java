@@ -218,6 +218,13 @@ abstract class Vendor {
     }
     return clientVersion;
   }
+  
+  /**
+   * @return true if user is allowed to set up a button configuration with no More Info button
+   */
+  public boolean infoButtonOptional() {
+    return false;
+  }
 
   /**
    * Return vendor specific text label to use for the More Info button

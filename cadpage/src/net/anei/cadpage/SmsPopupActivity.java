@@ -72,8 +72,6 @@ public class SmsPopupActivity extends Safe40Activity {
   protected void onCreate(Bundle bundle) {
     super.onCreate(bundle);
     
-    optManager = new MsgOptionManager(this);
-
     requestWindowFeature(Window.FEATURE_NO_TITLE);
 
     setContentView(R.layout.popup);
@@ -88,10 +86,6 @@ public class SmsPopupActivity extends Safe40Activity {
     messageTV = (TextView) findViewById(R.id.MessageTextView);
     messageTV.setAutoLinkMask(Linkify.WEB_URLS);
     messageReceivedTV = (TextView) findViewById(R.id.HeaderTextView);
-
-    // Set up regular button list
-    optManager.setupButtons((ViewGroup)findViewById(R.id.RespButtonLayout),
-                            (ViewGroup)findViewById(R.id.RegButtonLayout));
 
     // Enable long-press context menu
     mainLL = (LinearLayout)findViewById(R.id.MainLinearLayout);
@@ -252,9 +246,11 @@ public class SmsPopupActivity extends Safe40Activity {
 
     // Store message
     message = newMessage;
-    
-    optManager.setMessage(message);
-    optManager.prepareButtons();
+
+    // Set up regular button list
+    optManager = new MsgOptionManager(this, message);
+    optManager.setupButtons((ViewGroup)findViewById(R.id.RespButtonLayout),
+                            (ViewGroup)findViewById(R.id.RegButtonLayout));
     
     info = message.getInfo();
 
@@ -371,7 +367,7 @@ public class SmsPopupActivity extends Safe40Activity {
   public boolean onCreateOptionsMenu(Menu menu) {
     super.onCreateOptionsMenu(menu);
     
-    optManager.createMenu(menu, true);
+    if (optManager != null) optManager.createMenu(menu, true);
     return true;
   }
 
@@ -380,7 +376,7 @@ public class SmsPopupActivity extends Safe40Activity {
    */
   @Override
   public boolean onPrepareOptionsMenu(Menu menu) {
-    optManager.prepareMenu(menu);
+    if (optManager != null) optManager.prepareMenu(menu);
     return true;
   }
 
@@ -389,7 +385,7 @@ public class SmsPopupActivity extends Safe40Activity {
    */
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
-    if (optManager.menuItemSelected(item.getItemId(), true)) return true;
+    if (optManager != null && optManager.menuItemSelected(item.getItemId(), true)) return true;
     return super.onOptionsItemSelected(item);
   }
 
@@ -400,7 +396,6 @@ public class SmsPopupActivity extends Safe40Activity {
   public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
     super.onCreateContextMenu(menu, v, menuInfo);
     optManager.createMenu(menu, true);
-    optManager.prepareMenu(menu);
   }
 
   /*

@@ -185,11 +185,10 @@ public class DeveloperToolsManager {
         break;
         
       case 14:    // Build test message
-        
         SmsMmsMessage message = 
-          new SmsMmsMessage("Active911", "Test Message", "The SKy is falling", System.currentTimeMillis(),
-                            "Cadpage", "Active911", "ARNL2/5/5", "https://cadpageweb.appspot.com/lookup", 
-                            null, null, null);
+          new SmsMmsMessage("CodeMessaging", "Test Message", "The SKy is falling", System.currentTimeMillis(),
+                            "Cadpage", "CodeMessaging", "ARNL2/5/5", "https://cadpageweb.appspot.com/lookup", 
+                            null, null, "http://peak.org");
         
         // Add to log buffer
         if (!SmsMsgLogBuffer.getInstance().add(message)) return;

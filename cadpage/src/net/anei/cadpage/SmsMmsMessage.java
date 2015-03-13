@@ -804,6 +804,16 @@ public class SmsMmsMessage implements Serializable {
     if (url.length() > 0) return url;
     return null;
   }
+  
+  /**
+   * @return true if user is allowed to set up a button configuration with no More Info button
+   */
+  public boolean infoButtonOptional() {
+    if (vendorCode != null) {
+      return VendorManager.instance().infoButtonOptional(vendorCode);
+    } 
+    return false;
+  }
 
   /**
    * Get the "More Info" button title resource ID specific to this message

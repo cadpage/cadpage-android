@@ -174,6 +174,16 @@ public class VendorManager {
     if (vendor != null) return vendor.getClientVersion();
     return "0-" +  CadPageApplication.getVersionCode();
   }
+  
+  /**
+   * @return true if user is allowed to set up a button configuration with no More Info button
+   */
+  public boolean infoButtonOptional(String vendorCode) {
+    Vendor vendor = findVendor(vendorCode);
+    if (vendor != null) return vendor.infoButtonOptional();
+    // TODO Auto-generated method stub
+    return false;
+  }
 
   /**
    * Return vendor specific text label to use for the More Info button

@@ -31,6 +31,11 @@ class CodeMessagingVendor extends Vendor {
   }
 
   @Override
+  public boolean infoButtonOptional() {
+    return true;
+  }
+  
+  @Override
   int getMoreInfoResId() {
     return R.string.response_check_text;
   }

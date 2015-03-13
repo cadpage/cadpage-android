@@ -45,21 +45,9 @@ public class MsgOptionManager {
   // Broadcast receiver logging results of text send messages
   private SendSMSReceiver receiver = null;;
   
-  public MsgOptionManager(Activity activity) {
-    this(activity, null);
-  }
-  
   public MsgOptionManager(Activity activity, SmsMmsMessage message) {
     this.activity = activity;
     this.message = message;
-  }
-  
-  public void setMessage(SmsMmsMessage message) {
-    this.message = message;
-    
-    // If we are in the process of building button lists for the call display
-    // then we have to set up a response array with this message
-    if (respButtonGroup != null) setupResponseButtons();
   }
 
   /**
@@ -77,6 +65,8 @@ public class MsgOptionManager {
       menu.removeItem(R.id.resp_menu_item);
       menu.removeItem(R.id.close_item);
     }
+    
+    prepareMenu(menu);
   }
   
   /**
@@ -148,11 +138,18 @@ public class MsgOptionManager {
   public void setupButtons(ViewGroup respButtonGroup, ViewGroup mainButtonGroup) {
     this.respButtonGroup = respButtonGroup;
     this.mainButtonGroup = mainButtonGroup;
-    
-    // If we have a message, use it to set up the response menu
-    if (message != null) setupResponseButtons();
 
     // Setup the regular button list
+    setupMainButtons(mainButtonGroup);
+    
+    // set up the response menu
+    setupResponseButtons();
+    
+    // And finalize the transient display status of all visible buttons
+    prepareButtons();
+  }
+
+  private void setupMainButtons(ViewGroup mainButtonGroup) {
     boolean hasMoreInfo = false;
     mainButtonList.clear();
     mainButtonGroup.removeAllViews();
@@ -164,7 +161,8 @@ public class MsgOptionManager {
     }
     
     // If user doesn't have a More info button configured, add it at the end
-    if (!hasMoreInfo) {
+    // Unless the paging vendor specifically requests otherwise
+    if (!hasMoreInfo && !(message != null && message.infoButtonOptional())) {
       mainButtonList.add(new ButtonHandler(R.id.more_info_item, R.string.more_info_item_text, mainButtonGroup));
     }
   }
@@ -309,7 +307,7 @@ public class MsgOptionManager {
   /**
    * Make any last minute corrections to button statuses
    */
-  public void prepareButtons() {
+  private void prepareButtons() {
     
     // First step is to see which button menu should be visible
     // If we do not have a response button menu, then force main menu display mode

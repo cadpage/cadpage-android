@@ -266,7 +266,6 @@ public class CallHistoryActivity extends ListActivity {
     msgTextView = (HistoryMsgTextView)view;
     MsgOptionManager optMgr = new MsgOptionManager(this, msgTextView.getMessage());
     optMgr.createMenu(menu, false);
-    optMgr.prepareMenu(menu);
   }
 
 
