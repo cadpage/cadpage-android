@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03062015</string>
-  <string name="release_version">v1.8.19</string>
+  <string name="release_date">03132015</string>
+  <string name="release_version">v1.8.20</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.20\n      
+New Locations:\n
+Fairbanks, AK\n
+San Diego County, CA (alt)\n
+Tift County, GA\n
+Mackinac County, MI\n
+Cole County, MO\n
+Washington City, MO\n
+Fulton County, OH\n
+Gallia County, OH\n
+Hocking County, OH\n
+Hamilton County, OH (alt)\n
+Summit County, OH (alt)\n
+Calrendon County, SC\n
+Alexandria, VA\n
+Culpeper County, VA\n
+Goochland County, VA\n
+Southampton County, VA\n
+Stafford County, VA\n
+Okanagon County, WA\n
+\n
+Location Fixes:\n
+Cleburn County, AL\n
+Howard County, MD\n
+Hennepin County, MN\n
+Hanover, NH\n
+Jeferson County, NY\n
+Onslow County, NC\n
+Cuyahoga County, OH\n
+Douglas County, OR\n
+Barzoria County, TX\n
+\n
 v1.8.19\n
 Added option to enable split message merge logic for direct paging.  This should almost never be
 necessary.  Direct paging is triggered by SMTP messages for which there are no length restrictions, 
@@ -93,37 +125,6 @@ Roanoke City, VA\n
 \n
 General Fixes:\n
 Partial workaround for problem with Active911 servers not completing registration process.
-\n
-v1.8.15\n
-Location Fixes:\n
-Tipton County, IN\n
-DuPage County, IL\n
-Bay County, MI\n
-Ulster County, NY\n
-Guilford County, NC\n
-Edgecombe County, NC\n
-Nash County, NC\n
-Knox County, OH\n
-Linn County, OR\n
-Luzerne County, PA\n
-Snyder County, PA\n
-Whitman County, WA\n
-\n      
-v1.8.14\n
-Location Fixes:\n
-Chilton County, AL\n
-Broward County, FL\n
-Whitfield County, GA\n
-DuPage County, IL\n
-Kane County, IL\n
-Knox County, IN\n
-Tipton County, IN\n
-Kosciusko County, IN\n
-Madison County, NY\n
-Moore County, NC\n
-Nash County, NC\n
-Georgetown County, SC\n
-Pennington County, SD
   </string>
 </resources>
   
