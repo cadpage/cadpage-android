@@ -33,6 +33,10 @@ Pbagnpg: ELNA Ryyvbgg <eief402@tznvy.pbz>
 Fraqre: UnyvsnkPbR911@UnyvsnkAP911.pbz
 UnyvsnkPbR911:* 407 UNEEVF FG* * * EBNABXR ENCVQF* * * * * JERPX-CRQVF* * * * P180,P183,Q192,RZF4,RZF6Q* * * * *
 
+Pbagnpg: wnlonearf73 <wnlonearf73@ubgznvy.pbz>
+Fraqre: TPZ
+UnyvsnkPbR911:*\a205 ZNQVFBA FG*\a*\a*\aEBNABXR ENCVQF*\a*\a*\a*\a*\aRZF PNYY*\a*\a*\a*\aRZF4,RZF6N*\a*\a*\a*\a*
+
 */
 
 choyvp pynff APUnyvsnkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -176,6 +180,18 @@ choyvp pynff APUnyvsnkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:JERPX-CRQVF",
         "HAVG:P180,P183,Q192,RZF4,RZF6Q");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWnlOnearf73() {
+
+    qbGrfg("G1",
+        "UnyvsnkPbR911:*\a205 ZNQVFBA FG*\a*\a*\aEBNABXR ENCVQF*\a*\a*\a*\a*\aRZF PNYY*\a*\a*\a*\aRZF4,RZF6N*\a*\a*\a*\a*",
+        "NQQE:205 ZNQVFBA FG",
+        "PVGL:EBNABXR ENCVQF",
+        "PNYY:RZF PNYY",
+        "HAVG:RZF4,RZF6N");
+   
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

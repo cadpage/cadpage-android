@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 public class NCHalifaxCountyParser extends DispatchA3Parser {
   
   public NCHalifaxCountyParser() {
-    super(0, "HalifaxCoE911:* ", "HALIFAX COUNTY", "NC");
+    super(0, "HalifaxCoE911:*", "HALIFAX COUNTY", "NC");
   }
   
   @Override
