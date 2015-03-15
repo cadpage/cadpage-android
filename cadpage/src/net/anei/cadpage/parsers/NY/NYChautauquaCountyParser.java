@@ -11,7 +11,7 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
   private static final Pattern MARKER1 = Pattern.compile("^CHAUTAUQUA_COUNTY_SHERIFF \\(([A-Z ]+)\\) +");
   private static final Pattern MARKER2 = Pattern.compile("^(\\d\\d:\\d\\d)[ ;]+");
   private static final Pattern MASTER1 = Pattern.compile("([ A-Z0-9]+?)  +([A-Z]+\\d+) +(.*) +\\*([ A-Z0-9]+) (\\d{4}-\\d{8})");
-  private static final Pattern DELIM = Pattern.compile(" *(?<= ); ");
+  private static final Pattern DELIM = Pattern.compile(" *(?<= ); | +\\n");
   private static final Pattern NOT_APT_PTN = Pattern.compile("CSX.*");
   
   public NYChautauquaCountyParser() {
@@ -49,9 +49,10 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
       body = body.substring(match.end()).trim();
     }
     
+    if (body.startsWith("New Call")) body = '*' + body;
     if (body.startsWith("*")) {
-      body = body.substring(1).trim().replace(" C/T/V ", " C/T/V:");
-      if (body.endsWith(";")) body = body.substring(0,body.length()-1);
+      body = body.substring(1).trim().replace("C/T/V ", "C/T/V:");
+      body = stripFieldEnd(body, ";");
       if (!parseFields(DELIM.split(body),data)) return false;
       if (data.strApt.length() > 0 && NOT_APT_PTN.matcher(data.strApt).matches()) {
         data.strAddress = append(data.strAddress, " & ", data.strApt);
