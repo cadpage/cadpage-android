@@ -28,6 +28,9 @@ public class Message {
     if (subject == null) subject = "";
     if (body == null) body = "";
     
+    // Remove byte order mark from start of text
+    if (body.length() > 0 && body.charAt(0) == 0xFEFF) body = body.substring(1);
+    
     // Decode base64 alerts
     if (body.startsWith("77u/")) {
       body = body.substring(4);
