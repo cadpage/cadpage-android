@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Senaxyva Pbhagl, CN
 
+Pbagnpg: Tnel Fhzzref <sstnezl@tznvy.pbz>
+Fraqre: <CntrTngr@senaxyvaqrf.hf>
+* 8356 FGBGGYRZLRE EBNQ* * * JNFUVATGBA GJC* * * * * SYBBQVAT* * * * RAT 2-1,ERF RAT 2* * * * *\e\a
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jrfg Fuber RZF
 Ybpngvba: Punzorefohet, CN, Havgrq Fgngrf
@@ -2196,6 +2200,18 @@ choyvp pynff CNSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp CNSenaxyvaPbhaglCnefreGrfg() {
     frgCnefre(arj CNSenaxyvaPbhaglCnefre(), "SENAXYVA PBHAGL", "CN");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgTnelFhzzref() {
+
+    qbGrfg("G1",
+        "* 8356 FGBGGYRZLRE EBNQ* * * JNFUVATGBA GJC* * * * * SYBBQVAT* * * * RAT 2-1,ERF RAT 2* * * * *\e\a",
+        "NQQE:8356 FGBGGYRZLRE EBNQ",
+        "PVGL:JNFUVATGBA GJC",
+        "PNYY:SYBBQVAT",
+        "HAVG:RAT 2-1,ERF RAT 2");
+   
   }
 
   @Grfg

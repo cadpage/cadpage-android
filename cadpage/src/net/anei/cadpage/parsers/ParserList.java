@@ -555,7 +555,7 @@ public class ParserList {
               ,"MNGoodhueCounty"                ,"Goodhue County, MN"
               ,"MNHennepinCounty"               ,"Hennepin County, MN"
               ,"MNMartinCounty"                 ,"Martin County, MN"
-              ,"MNMcleodCounty"                 ,"Mcleod County, MN"
+              ,"MNMcLeodCounty"                 ,"McLeod County, MN"
               ,"MNMinneapolisStPaul"            ,"Minneapolis/St Paul, MN"
               ,"MNOlmstedCounty"                ,"Olmsted County, MN"
               ,"MNOtterTailCounty"              ,"Otter Tail County, MN"

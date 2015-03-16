@@ -84,7 +84,7 @@ PNYY: Zrqvpny;CYNPR: Fg. Znel'f Pner Pragre;NQQE: 551 4gu Fg A Jvafgrq;PVGL: Jva
 choyvp pynff ZAZpYrbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZAZpYrbqPbhaglCnefreGrfg() {
-    frgCnefre(arj ZAZpyrbqPbhaglCnefre(), "ZPYRBQ PBHAGL", "ZA");
+    frgCnefre(arj ZAZpYrbqPbhaglCnefre(), "ZPYRBQ PBHAGL", "ZA");
   }
 
   @Grfg
