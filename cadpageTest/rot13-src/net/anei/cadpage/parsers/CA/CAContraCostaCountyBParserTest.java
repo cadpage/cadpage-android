@@ -135,10 +135,10 @@ gb gur nqqerff (guvf nccneragyl vf ubj gurl qb vagrefrpgvbaf)
 
  */
 
-choyvp pynff PNFnaEnzbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff PNPbagenPbfgnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp PNFnaEnzbaCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "FNA ENZBA", "PN");
+  choyvp PNPbagenPbfgnPbhaglOCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "PBAGEN PBFGN PBHAGL", "PN");
   }
   
   @Grfg
@@ -147,6 +147,6 @@ choyvp pynff PNFnaEnzbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj PNFnaEnzbaCnefreGrfg().trarengrGrfgf("G1");
+    arj PNPbagenPbfgnPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }
 }
