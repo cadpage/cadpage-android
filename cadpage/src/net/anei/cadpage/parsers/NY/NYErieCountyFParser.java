@@ -29,7 +29,7 @@ public class NYErieCountyFParser extends FieldProgramParser {
     if (!body.startsWith("*")) return false;
     body = body.substring(1).trim();
     body = body.replace("EAST & WEST", "EAST AND WEST");
-    return parseFields(body.split("~"), 4, data);
+    return parseFields(body.split("~",-1), 4, data);
   }
   
   @Override
