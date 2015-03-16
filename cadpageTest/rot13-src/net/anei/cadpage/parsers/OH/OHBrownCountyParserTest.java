@@ -46,7 +46,7 @@ choyvp pynff BUOebjaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Nyreg: FVPX CREFBA (FCRPVSVP QVNT)) \aNYEZ YIY: 1 \aYBP: QRRESVRYQ GBJAUBHFR \aNCNEGZRAGF \a455 J ZNVA FG \aNCG 703 \aZG BENO \aOGJA: A/N & A/N\a\aEPIQ NF Cubar\a\aPBZ",
         "PNYY:FVPX CREFBA (FCRPVSVP QVNT)",
         "CEV:1",
-        "CYNPR:NCNEGZRAGF",
+        "CYNPR:QRRESVRYQ GBJAUBHFR - NCNEGZRAGF",
         "NQQE:455 J ZNVA FG",
         "NCG:703",
         "PVGL:ZG BENO");

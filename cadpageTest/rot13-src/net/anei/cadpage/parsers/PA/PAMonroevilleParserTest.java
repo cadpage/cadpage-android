@@ -310,7 +310,8 @@ choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Nppvqrag - Haxabja Vawhel",
         "CYNPR:WBAARG CYNMN",
         "NQQE:4099 JVYYVNZ CRAA UJL",
-        "PVGL:JRFG OBHAQ",
+        "NCG:JRFG OBHAQ",
+        "PVGL:ZBAEBRIVYYR",
         "K:QHSS EQ & PRAGRE EQ");
 
     qbGrfg("G17",
@@ -669,9 +670,8 @@ choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Sver-Nynez Npgvingvba",
         "CEV:1",
-        "NQQE:CYHZ CHOYVP JBEXF",
-        "ZNQQE:CYHZ CHOYVP JBEXF & CRAQYRGBA QE",
-        "NCG:EQ",
+        "NQQE:CYHZ CHOYVP JBEXF EQ",
+        "ZNQQE:CYHZ CHOYVP JBEXF EQ & CRAQYRGBA QE",
         "PVGL:CVGGFOHETU",
         "K:CRAQYRGBA QE");
 
@@ -845,8 +845,8 @@ choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Nyreg: Snyy) NYEZ YIY: 1\aYBP:\a279 PRAGRE EQ\aEZ 243\aZBAEBRIVYYR\aOGJA: A/N & BYQ JVYYVNZ CRAA UJL\aQNGR/GVZR: 10/21/2014 22:32:35",
         "PNYY:Snyy",
         "CEV:1",
-        "CYNPR:EZ 243",
         "NQQE:279 PRAGRE EQ",
+        "NCG:243",
         "PVGL:ZBAEBRIVYYR",
         "K:BYQ JVYYVNZ CRAA UJL");
 
@@ -901,8 +901,8 @@ choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Nyreg: Snyy) NYEZ YIY: 1\aYBP:\a700 ORNGGL EQ\aEZ 162\aZBAEBRIVYYR\aOGJA: PNEYGBA YA & A/N\aQNGR/GVZR: 10/20/2014 15:37:53",
         "PNYY:Snyy",
         "CEV:1",
-        "CYNPR:EZ 162",
         "NQQE:700 ORNGGL EQ",
+        "NCG:162",
         "PVGL:ZBAEBRIVYYR",
         "K:PNEYGBA YA");
 
@@ -920,7 +920,8 @@ choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "CYNPR:FRVZNAF JRFGVATUBHFR",
         "NQQE:841 BYQ SENAXFGBJA EQ",
-        "PVGL:1FG OYQT",
+        "NCG:1FG OYQT",
+        "PVGL:ZBAEBRIVYYR",
         "K:QEVIRJNL");
 
     qbGrfg("G72",
@@ -964,8 +965,8 @@ choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Hapbafpvbhf",
         "CEV:1",
-        "CYNPR:OHF FGBC",
         "NQQE:BYQ JVYYVNZ CRAA UJL & ORNGGL EQ",
+        "NCG:OHF FGBC",
         "PVGL:ZBAEBRIVYYR",
         "K:TYRAJBBQ QE & ORNGGL EQ");
 
@@ -995,8 +996,8 @@ choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Sver-Nynez Npgvingvba",
         "CEV:1",
-        "CYNPR:OYQT 1",
         "NQQE:4185 VINAUBR QE",
+        "NCG:OYQT 1",
         "PVGL:ZBAEBRIVYYR",
         "K:SBK CYNA EQ");
 

@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.dispatch;
 
 import java.util.Properties;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -8,14 +9,21 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchA1Parser extends FieldProgramParser {
+  
+  private Set<String> citySet = null;
 
   public DispatchA1Parser(String defCity, String defState) {
-    this(null, defCity, defState);
+    this((Properties)null, defCity, defState);
+  }
+  
+  public DispatchA1Parser(Set<String> citySet, String defCity, String defState) {
+    this((Properties)null, defCity, defState);
+    this.citySet = citySet;
   }
   
   public DispatchA1Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState, 
-           "ALRM_LVL:PRI? RUN_CARD:BOX? LOC:SKIP PLACE? ADDR! APT? CITY BTWN:X INCIDENT:ID? COM:INFO INFO+? CT:INFO INFO+? UNITS:UNIT RPT_#:EMPTY ID");
+           "ALRM_LVL:PRI? RUN_CARD:BOX? LOC:PLACE PLACE2? ADDR! APT? CITY BTWN:X INCIDENT:ID? COM:INFO INFO+? CT:INFO INFO+? UNITS:UNIT RPT_#:EMPTY ID");
   }
   
   @Override
@@ -31,7 +39,7 @@ public class DispatchA1Parser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("BOX")) return new MyBoxField();
-    if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("PLACE2")) return new MyPlace2Field();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("X")) return new MyCrossField();
@@ -48,7 +56,7 @@ public class DispatchA1Parser extends FieldProgramParser {
     }
   }
   
-  private class MyPlaceField extends PlaceField {
+  private class MyPlace2Field extends PlaceField {
 
     @Override
     public boolean canFail() {
@@ -57,21 +65,45 @@ public class DispatchA1Parser extends FieldProgramParser {
 
     @Override
     public boolean checkParse(String field, Data data) {
-
-      // If first or second following field starts with BTWN: this must be an address
-      // followed by a city
-      if (getRelativeField(1).startsWith("BTWN:")) return false;
-      if (getRelativeField(2).startsWith("BTWN:")) return false;
       
-      // If next field looks like an apartment, and third field starts with BTWN:, 
-      // then this must be an address followed by apartment and city
-      String aptFld = getRelativeField(1);
-      if ((aptFld.length()<=3 || aptFld.startsWith("APT") || aptFld.startsWith("LOT"))&& 
-           getRelativeField(3).startsWith("BTWN:")) return false;
+      // If this looks like a box field, make do with that
+      if (checkBoxField(field, data)) return true;
       
-      // Otherwise, we can be a place field
+      // Otherwise there are a lot of things to check
+      do {
+  
+        // If first or second following field starts with BTWN: this must be an address
+        // followed by a city
+        if (getRelativeField(1).startsWith("BTWN:")) return false;
+        if (getRelativeField(2).startsWith("BTWN:")) return false;
+        
+        // If next field looks like an apartment, this must be an address
+        String next = getRelativeField(1);
+        if (APT_PATTERN.matcher(next).matches()) return false;
+        
+        // Empty strings should be counted as an apt
+        if (next.length() == 0) return false;
+        
+        // If the field beyond that looks like an apt, then the next field is the
+        // address line and we are an apt.
+        String next2 = getRelativeField(2);
+        if (APT_PATTERN.matcher(next2).matches()) break;
+        
+        // Looks like a tossup.  We need to do an address comparison.  This will be
+        // treated as the place name unless the we are a better address then the next field
+        int chk1 = checkAddress(field);
+        if (chk1 > STATUS_MARGINAL && chk1 > checkAddress(next)) return false;
+        
+      } while (false);
+      
+      // OK, parse this as a place field
       parse(field, data);
       return true;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "BOX PLACE";
     }
   }
   
@@ -79,25 +111,23 @@ public class DispatchA1Parser extends FieldProgramParser {
   // in front of it makes a better address
   private class MyAddressField extends AddressField {
     @Override
-    public void parse(String field, Data data) {
+    public boolean checkParse(String field, Data data) {
       if (data.strPlace.length() > 0) {
         int chk1 = checkAddress(data.strPlace);
         if (chk1 > STATUS_MARGINAL && chk1 > checkAddress(field)) {
           String tmp = data.strPlace;
-          data.strPlace = field;
-          field = tmp;
+          data.strPlace = "";
+          super.parse(tmp, data);
+          return false;
         }
       }
       super.parse(field, data);
-      
-      if (data.strPlace.startsWith("BOX ")) {
-        data.strBox = append(data.strBox, " / ", data.strPlace.substring(4).trim());
-        data.strPlace = "";
-      }
+      return true;
     }
   }
   
-  private static final Pattern APT_PATTERN = Pattern.compile("(?:APT|ROOM|RM)[-:]? *(.*)|(LOT *.*|.* (?:APT|ROOM|RM|\\bHALLWAY\\b).*)");
+  private static final Pattern APT_PATTERN = Pattern.compile("(?:APT|ROOM|RM)[-:]? *(.*)|(LOT *.*|.* (?:APT|ROOM|RM|bHALLWAY)\\b.*|\\d+[A-Z]?|[A-Z])");
+  private static final Pattern CITY_PATTERN = Pattern.compile("[ A-Za-z]+");
   private class MyAptField extends AptField {
 
     @Override
@@ -107,16 +137,51 @@ public class DispatchA1Parser extends FieldProgramParser {
 
     @Override
     public boolean checkParse(String field, Data data) {
-      Matcher match = APT_PATTERN.matcher(field);
-      if (match.matches()) {
-        field = match.group(1);
-        if (field == null) field = match.group(2);
-      }
-      else if (field.length() > 3 && !field.contains("#")) return false; 
+
+      // See if this looks like a box field
+      if (checkBoxField(field, data)) return true;
+
+      // At this point, we are either an apt or a city, and there are different ways to figure out
+      // just which it is
+      do {
+        
+        // If it looks like an apt, so be it
+        Matcher match = APT_PATTERN.matcher(field);
+        if (match.matches()) {
+          field = match.group(1);
+          if (field == null) field = match.group(2);
+          break;
+        }
+        
+        // If next field does not start with BTWN, it must be a city and we must be an apt
+        if (!getRelativeField(+1).startsWith("BTWN:")) break;
+        
+        // Check to see if this could possibly be a city
+        if (!CITY_PATTERN.matcher(field).matches()) break;
+        
+        // If we were not given a city set, assume this is a city
+        if (citySet == null) return false;
+        
+        // Otherwise, use it to check to see if this is a city or not
+        if (citySet.contains(field.toUpperCase())) return false;
+        
+      } while (false);
+      
       parse(field, data);
       return true;
     }
   }
+  
+  private boolean checkBoxField(String field, Data data) {
+    Matcher match = BOX_PTN.matcher(field);
+    if (!match.find()) return false;
+    if (match.start() == 0) field = field.substring(match.end()).trim();
+    if (!data.strBox.contains(field)) {
+      data.strBox = append(data.strBox, " / ", field);
+    }
+    return true;
+  }
+  private static final Pattern BOX_PTN = Pattern.compile("\\bBO?X\\b");
   
   private class MyCrossField extends CrossField {
     @Override

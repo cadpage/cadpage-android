@@ -22,12 +22,19 @@ public class OHClermontCountyAParser extends DispatchB2Parser {
     super(CITY_LIST, "CLERMONT COUNTY", "OH", B2_CROSS_FOLLOWS);
     setupCallList(CALL_LIST);
     setupMultiWordStreets(
+        "AMBER HILL",
         "AMELIA OLIVE BRANCH",
         "APPLE FARM",
+        "ARNOLD PALMER",
+        "BACH BUXTON",
+        "BACH GROVE",
+        "BACK RUN",
         "BARDWELL WEST",
         "BARRICK LOW",
         "BATAVIA MEADOWS",
+        "BAY MEADOW",
         "BEAR CREEK",
+        "BEES RUN",
         "BELFAST OWENSVILLE",
         "BETHEL CONCORD",
         "BETHEL HYGIENE",
@@ -42,40 +49,61 @@ public class OHClermontCountyAParser extends DispatchB2Parser {
         "BRUSHY FORK",
         "CEDAR LAKE",
         "CEDAR RIDGE",
+        "CHARLES SNIDER",
+        "CHARTER OAK",
+        "CHESTNUT VIEW",
         "CLERMONT CENTER",
         "CLERMONT COLLEGE",
         "CLERMONT MEADOW",
         "CLERMONTVILLE LAUREL",
+        "CLUB HOUSE",
         "COLONEL MOSBY",
         "COUNTRY LAKE",
+        "COUNTRY VIEW",
+        "CRANE SCHOOLHOUSE",
+        "CREEK KNOLL",
+        "CROSS CREEK",
         "DELA PALMA",
         "DRY RUN",
         "EAGLE RIDGE",
         "EAST BAUMAN",
         "EAST FILAGER",
-        "EAST FORK",
         "EAST FORK HILLS",
+        "EAST FORK",
         "EDENTON PLEASANT PLAIN",
+        "ELM CORNER",
+        "ELSTON HOCKSTOCK",
+        "FAGINS RUN",
         "FAIR OAK",
         "FELICITY CEDRON RURAL",
+        "FOX HUNT",
+        "FRANK WILLIS MEMORIAL",
         "FRANKLIN LAUREL",
         "FRANKLIN MEADOWS",
         "FREE SOIL",
+        "FRUIT RIDGE",
         "GARRISON SPURLING",
         "GLANCY CORNER MARATHON",
         "GLEN ECHO",
         "GOLDEN AGE",
+        "GOLDEN MEADOW",
         "GOODWIN SCHOOLHOUSE PT ISA",
+        "HAL COR",
         "HALF ACRE",
         "HAPPY HOLLOW",
         "HAW TREE",
         "HEALTH PARTNERS",
+        "HEDGE ROW",
         "HENNINGS MILL",
         "HERITAGE WOODS",
+        "HICKORY WOODS",
         "HILL STATION",
+        "HOLLOW CREEK",
+        "HOME WOOD",
+        "HOPPER HILL FARMS",
         "HOPPER HILL",
-        "I275 NB EXIT WARDS CORNER",
-        "I275 SB EXIT WARDS CORNER",
+        "HOPPER RIDGE",
+        "IDLETT HILL",
         "IRETON TREES",
         "JACOB LIGHT",
         "JAMES E SAULS SR",
@@ -92,20 +120,30 @@ public class OHClermontCountyAParser extends DispatchB2Parser {
         "LAUREL POINT ISABEL",
         "LAUREL PT ISABEL",
         "LAYCOCK CUTOFF",
+        "LEGEND OAKS",
         "LEGENDARY TRAILS",
         "LIBERTY WOODS",
+        "LIGHTS POINTE",
         "LINDALE MT HOLLY",
+        "LINDALE NICHOLSVILLE",
+        "LINDEN CREEK",
         "LINK SIDE",
+        "LITTLE CREEK",
+        "LITTLE INDIAN",
         "LITTLE RIVER",
         "LOCUST CORNER",
+        "LOCUST HILL",
         "LONG LEAF",
         "LOST LAKE",
+        "LOVELAND MIAMIVILLE",
+        "LUCY RUN CEMETERY",
         "LUCY RUN",
         "MAPLE CREEK",
         "MARATHON EDENTON",
         "MEADOW VIEW",
         "MERWIN TEN MILE",
         "MISS ROYAL PASS",
+        "MONASSAS RUN",
         "MOORE MARATHON",
         "MOSCOW CEMETERY",
         "MT HOLLY",
@@ -114,17 +152,24 @@ public class OHClermontCountyAParser extends DispatchB2Parser {
         "MT VERNON",
         "NEVER REST",
         "NEVILLE PENN SCHOOLHOUSE",
+        "NEWTONSVILLE HUTCHINSON",
         "NINE MILE TOBASCO",
         "NORFOLK PINE",
+        "NORTH BAY",
+        "NUMBER 5",
         "NUMBER 9",
         "OAK BARK",
+        "OAK CORNER",
         "OAK DALE",
         "OAK LAND",
+        "OAK TREE",
         "OAKLAND FARM",
+        "ORCHARD LAKE",
         "OTTER CREEK",
         "PAR FORE",
         "PEBBLE BROOKE",
         "PIN OAK",
+        "PLEASANT VIEW",
         "POND RUN",
         "RIVER VALLEY",
         "ROBIN HILL",
@@ -132,11 +177,18 @@ public class OHClermontCountyAParser extends DispatchB2Parser {
         "ROLLING KNOLL",
         "ROTH RIDGE",
         "SALTAIR CROSSING",
+        "SAND TRAP",
+        "SANTA MARIA",
         "SHADOW LAWN",
+        "SHADY GLEN",
+        "SHALLOW CREEK",
+        "SMITH LANDING",
         "SOUTH TIMBER CREEK",
+        "SPRING GROVE",
         "ST ANDREWS",
         "ST LOUIS",
         "STANTON HALL",
+        "STONELICK WILLIAMS CORNER",
         "STONELICK WOODS",
         "STUMPY LANE",
         "SULPHUR SPRINGS",
@@ -145,19 +197,27 @@ public class OHClermontCountyAParser extends DispatchB2Parser {
         "TALL OAKS",
         "TALL TREES",
         "TAYLOR LANE",
+        "TECHNE CENTER",
+        "TEN MILE",
         "TODDS RUN FOSTER",
         "TRAVERSE CREEK",
+        "TRI RIDGE",
         "TRIPLE 2 FARMS",
         "TWIN BRIDGES",
         "VALLEY FORGE",
         "WARDS CORNER",
         "WATKINS HILL",
         "WEST FORK RIDGE",
+        "WEST HOLLY",
         "WHITE OAK",
         "WILD ROSE",
         "WILL O EE",
+        "WILLIAMSBURG BANTAM",
+        "WILMINGTON WOODVILLE",
         "WILSON DUNHAM HILL",
         "WOLFPEN PLEASANT HILL",
+        "WOOD COVE",
+        "WOODBURY GLEN",
         "WOODED RUN"
     );
   }
@@ -172,7 +232,8 @@ public class OHClermontCountyAParser extends DispatchB2Parser {
     body = body.replace("CAD#","Cad:");
 
     body = stripFieldStart(body,"/ ");
-    body = stripFieldStart(body,"911-CENTER:");
+    boolean mark = body.startsWith("911-CENTER:");
+    if (mark) body = body.substring(11).trim();
     
     // Check for return phone message pattern
     Matcher match = RETURN_PHONE_PTN.matcher(body);
@@ -184,12 +245,46 @@ public class OHClermontCountyAParser extends DispatchB2Parser {
       if (res.isValid()) res.getData(data);
       return true;
     }
-    if (!super.parseMsg(body, data)) return false;
+    if (!super.parseMsg(body, data) && 
+        !(mark && parseFallback(body, data))) return false;
     if (data.strCity.length() == 0) {
       if (data.strName.equals("WARCO COMM")) data.strCity = "WARREN COUNTY";
     }
     if (KY_CITY_SET.contains(data.strCity)) data.strState = "KY";
     return true;
+  }
+
+  private static final Pattern START_UNIT_PTN = Pattern.compile("([A-HJ-Z]\\d+|STA ?\\d+) +");
+  private static final Pattern RESPOND_TO_PTN = Pattern.compile("(?:(.*?) )?RESPOND (?:TO )?(.*?)(?: IN (.*?))?(?: FOR (.*))?");
+  private boolean parseFallback(String body, Data data) {
+    setFieldList("UNIT CALL ADDR APT CITY INFO");
+    data.initialize(this);
+    
+    Matcher match = START_UNIT_PTN.matcher(body);
+    if (match.lookingAt()) {
+      data.strUnit = match.group(1);
+      body = body.substring(match.end());
+    }
+    
+    match = RESPOND_TO_PTN.matcher(body);
+    if (match.matches()) {
+      data.strCall = getOptGroup(match.group(1));
+      String addr = match.group(2).trim();
+      String city = match.group(3);
+      String call = match.group(4);
+      if (city != null) data.strCity = convertCodes(city.trim(), CITY_ABRV_TABLE);
+      if (call != null) data.strCall = append(data.strCall, " - ", call);
+      int flags = 0;
+      if (call != null) flags = FLAG_ANCHOR_END;
+      if (city != null) flags = (FLAG_NO_CITY | FLAG_ANCHOR_END);
+      parseAddress(StartType.START_ADDR, flags, addr, data);
+      if (data.strCall.length() == 0) data.strCall = getLeft();
+      else data.strSupp = getLeft();
+    } else {
+      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body, data);
+      data.strSupp = getLeft();
+    }
+    return data.strCall.length() > 0 && data.strAddress.length() > 0;
   }
   
   @Override
@@ -216,6 +311,7 @@ public class OHClermontCountyAParser extends DispatchB2Parser {
   
   private static final CodeSet CALL_LIST = new CodeSet(
       "ALLERGIES/ENVENOMATIONS",
+      "ANIMAL BITES/ATTACKS",
       "APPLIANCE FIRE",
       "ASSAULT/SEXUAL ASSAULT",
       "BREATHING PROBLEMS",
@@ -228,6 +324,7 @@ public class OHClermontCountyAParser extends DispatchB2Parser {
       "DIABETIC PROBLEMS",
       "DUMPSTER FIRE",
       "DUMPSTER FIRE W/EXPOSURE",
+      "REQ CC FIRE INV TEAM",
       "ELECTRICAL FIRE",
       "ELECTRICAL FIRE INSIDE",
       "EMERGENCY TO PROPERTY",
@@ -238,21 +335,31 @@ public class OHClermontCountyAParser extends DispatchB2Parser {
       "FIRE INFORMATION",
       "FIRE OR EMS TRANSFER",
       "FIRE TEST TONE",
+      "GAS LEAK",
       "GAS LEAK INSIDE",
       "GAS LEAK OUTSIDE",
+      "HEART PROBLEMS/A.I.C.D.",
       "HEMORRHAGE/LACERATIONS",
+      "INVESTIGATE STRUCTURE FIRE",
       "MDC TEST",
       "MED GENERIC DO NOT DELETE",
       "MISCELLANEOUS FIRE REQUEST",
       "MUTUAL AID",
       "OVERDOSE/POISONING (INGESTION)",
       "POSSIBLE OPEN BURN",
+      "PREGNANCY/CHILDBIRTH/MISCARRIA",
       "PSYCH/ABNRML BEHVR/SUICIDE",
+      "RESCUE/ENTRAPMENT",
       "Return Phone: 5137322231",
       "SICK PERSON (SPECIFIC DIAG)",
       "SMOKE IN THE AREA",
+      "SMOKE ODOR INSIDE",
+      "STAB/GUNSHOT/PENETRATNG TRAUMA",
+      "STRUCT FIRE INV DPSS/HENRIQUES",
       "STRUCTURE FIRE",
+      "STRUCTURE FIRE INV",
       "STRUCTURE FIRE W/ENTRAPMENT",
+      "TEST CALL FOR FIRE",
       "TRAFF OR TRANSPT ACC/MVA W/INJ",
       "TRANSF/INERFC/PALLIATIVE CARE",
       "TRAUMATIC INJURIES, SPECIFIC",
@@ -385,5 +492,9 @@ public class OHClermontCountyAParser extends DispatchB2Parser {
   private static final Properties CITY_MAP_TABLE = buildCodeTable(new String[]{
       "EAST BATAVIA HEIGHTS",     "BATAVIA",
       "LOCUST LAKE",              "AMELIA"
+  });
+  
+  private static final Properties CITY_ABRV_TABLE = buildCodeTable(new String[]{
+      "WMBURG",    "WILLIAMSBURG"
   });
 }
