@@ -13,13 +13,22 @@ public class NJSussexCountyAParser extends SmartAddressParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("[A-Z]{1,5}-?[A-Z]?\\d{4}-?\\d{5,6}");
   private static final Pattern MASTER_PTN = 
-    Pattern.compile("([-A-Za-z0-9 ]+) @ ([^,]+?) *, ([^-]*) -(?: (.*?)[-\\.]*)?(?: +Active Units: *(.*))?"); 
+    Pattern.compile("([-A-Za-z0-9 ]+) @ ([^,]+?) *(?:, ([^-\\.]*)(?:\\. -| -|\\.)| )(?: (.*?)[-\\.]*)?(?: +Active Units: *(.*))?"); 
   private static final Pattern END_STAR_PTN = Pattern.compile("([A-Z0-9])\\*");
   private static final Pattern LEAD_INFO_JUNK_PTN = Pattern.compile("^[-\\*\\. ]+");
   
   public NJSussexCountyAParser() {
-    super(CITY_LIST, "SUSSEX COUNTY", "NJ");
+    this("SUSSEX COUNTY", "NJ");
+  }
+  
+  public NJSussexCountyAParser(String defCity, String defState) {
+    super(CITY_LIST, defCity, defState);
     setFieldList("ID CODE CALL ADDR APT CITY INFO UNIT");
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "NJSussexCountyA";
   }
   
   @Override
@@ -43,7 +52,7 @@ public class NJSussexCountyAParser extends SmartAddressParser {
     }
     
     parseAddress(StartType.START_ADDR, FLAG_NO_CITY | FLAG_ANCHOR_END | FLAG_RECHECK_APT, match.group(2).trim(), data);
-    String city = stripFieldEnd(match.group(3).trim(), ".");
+    String city = getOptGroup(match.group(3));
     String sInfo = getOptGroup(match.group(4));
     data.strUnit = getOptGroup(match.group(5));
     
