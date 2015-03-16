@@ -3,9 +3,9 @@ package net.anei.cadpage.parsers.MN;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-public class MNMcleodCountyParser extends FieldProgramParser {
+public class MNMcLeodCountyParser extends FieldProgramParser {
   
-  public MNMcleodCountyParser() {
+  public MNMcLeodCountyParser() {
     super(CITY_LIST, "MCLEOD COUNTY", "MN",
         "CALL:CALL! PLACE:PLACE? ADDR:ADDR/S! CITY:CITY? ID:ID! PRI:PRI! INFO:INFO");
   }

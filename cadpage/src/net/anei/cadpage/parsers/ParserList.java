@@ -372,6 +372,7 @@ public class ParserList {
           ),
           new ParserCategory("Iowa"
               ,"IABlackHawkCounty"              ,"Black Hawk County, IA"
+              ,"IACerroGordoCounty"             ,"Cerro Gordo County, IA"
               ,"IADesMoinesCounty"              ,"Des Moines County, IA"
               ,"IADickinsonCounty"              ,"Dickinson County, IA"
               ,"IAJacksonCounty"                ,"Jackson County, IA"
@@ -554,6 +555,7 @@ public class ParserList {
               ,"MNGoodhueCounty"                ,"Goodhue County, MN"
               ,"MNHennepinCounty"               ,"Hennepin County, MN"
               ,"MNMartinCounty"                 ,"Martin County, MN"
+              ,"MNMcleodCounty"                 ,"Mcleod County, MN"
               ,"MNMinneapolisStPaul"            ,"Minneapolis/St Paul, MN"
               ,"MNOlmstedCounty"                ,"Olmsted County, MN"
               ,"MNOtterTailCounty"              ,"Otter Tail County, MN"
@@ -866,6 +868,7 @@ public class ParserList {
               ,"OHMuskingumCounty"              ,"Muskingum County, OH"
               ,"OHNECC"                         ,"NECC, OH"
               ,"OHOxford"                       ,"Oxford, OH"
+              ,"OHPerryCounty"                  ,"Perry County, OH"
               ,"OHPortageCounty"                ,"Portage County, OH"
               ,"OHShelbyCounty"                 ,"Shelby County, OH"            
               ,"OHStarkCounty"                  ,"Stark County, OH"
