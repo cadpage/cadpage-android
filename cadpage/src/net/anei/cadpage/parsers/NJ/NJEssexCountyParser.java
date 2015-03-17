@@ -1,6 +1,6 @@
 package net.anei.cadpage.parsers.NJ;
 
-public class NJEssexCountyParser extends NJBergenCountyBParser {
+public class NJEssexCountyParser extends NJSussexCountyAParser {
   
   public NJEssexCountyParser() {
     super("ESSEX COUNTY", "NJ");

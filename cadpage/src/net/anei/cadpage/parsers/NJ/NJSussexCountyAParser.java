@@ -13,7 +13,7 @@ public class NJSussexCountyAParser extends SmartAddressParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("[A-Z]{1,5}-?[A-Z]?\\d{4}-?\\d{5,6}");
   private static final Pattern MASTER_PTN = 
-    Pattern.compile("([-A-Za-z0-9 ]+) @ ([^,]+?) *(?:, ([^-\\.]*)(?:\\. -| -|\\.)| )(?: (.*?)[-\\.]*)?(?: +Active Units: *(.*))?"); 
+    Pattern.compile("([-/A-Za-z0-9 ]+) @ ([^,]+?) *(?:, ([^-\\.]*)(?:\\. -| -|\\.)| )(?: (.*?)[-\\.]*)?(?: +Active Units: *(.*))?"); 
   private static final Pattern END_STAR_PTN = Pattern.compile("([A-Z0-9])\\*");
   private static final Pattern LEAD_INFO_JUNK_PTN = Pattern.compile("^[-\\*\\. ]+");
   
@@ -38,9 +38,13 @@ public class NJSussexCountyAParser extends SmartAddressParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    
-    if (! SUBJECT_PTN.matcher(subject).matches()) return false;
-    data.strCallId = subject;
+
+    subject = stripFieldStart(subject, "(");
+    subject = stripFieldEnd(subject, ")");
+    if (!subject.equals("Fire Department")) {
+      if (! SUBJECT_PTN.matcher(subject).matches()) return false;
+      data.strCallId = subject;
+    }
     body = body.replace('\n', ' ');
     Matcher match = MASTER_PTN.matcher(body);
     if (!match.matches()) return false;
