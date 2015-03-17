@@ -28,6 +28,11 @@ public class CASacramentoCountyParser extends MsgParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (!subject.equals("CAD PAGE-Do not reply")) return false;
@@ -50,6 +55,11 @@ public class CASacramentoCountyParser extends MsgParser {
     data.strCity = convertCodes(match.group(6), CITY_CODES);
     data.strUnit = match.group(7).trim();
     return true;
+  }
+  
+  @Override
+  public String adjustMapCity(String city) {
+    return convertCodes(city, MAP_CITY_TABLE);
   }
   
   private static final Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
@@ -281,23 +291,49 @@ public class CASacramentoCountyParser extends MsgParser {
   );
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ANT", "ANTELOPE",
       "ARD", "ARDEN-ARCADE",
+      "CAR", "CARMICHAEL",
       "CIT", "CITRUS HEIGHTS",
       "CLF", "SACRAMENTO",           // ????
+      "COS", "COSUMNES",       
+      "COU", "COURTLAND",
+      "DEL", "DELTA",
+      "EEG", "EAST ELK GROVE",
       "ELK", "ELK GROVE",
+      "FAI", "FAIR OAKS",
       "FOL", "FOLSOM",
+      "FRU", "FRUITRIDGE MANOR",
+      "GAL", "GALT",
       "GCY", "GALT",
       "HER", "HERALD",
-      "LAG", "HOOD",                // ???
+      "ISL", "ISLETON",
+      "LAG", "LAGUNA",
+      "MCC", "MCCLELLAN",
+      "NAT", "NATOMAS",
       "NHI", "NORTH HIGHLANDS",
+      "ORA", "ORANGEVALE",
+      "PAC", "PACIFIC",
+      "PLA", "PLACER",
+      "PLG", "PLEASANT GROVE",
+      "RCN", "RANCHO NORTH",
       "RCO", "RANCHO CORDOVA",
-      "RI",  "WALNUT GROVE",        // ????
+      "RCS", "RANCHO SOUTH",
+      "RDF", "RIVER DELTA",
+      "RI",  "RANDALL ISLAND",
+      "RIO", "RIO LINDA",
       "RMU", "RANCHO MURIETA",
       "SAC", "SACRAMENTO",
-      "SSC", "SACRAMENTO",          // ????
+      "SSC", "S SACRAMENTO",
       "VIN", "VINEYARD",
       "WAL", "WALNUT GROVE",
-      "WLT", "WILTON"
-
+      "WIL", "WILTON",
+      "WLT", "WILTON",
+      "WSC", "WEST SACRAMENTO"
+  });
+  
+  private static final Properties MAP_CITY_TABLE = buildCodeTable(new String[]{
+      "COSUMNES",   "SLOUGHHOUSE",
+      "PACIFIC",    "SACRAMENTO"
   });
 }
