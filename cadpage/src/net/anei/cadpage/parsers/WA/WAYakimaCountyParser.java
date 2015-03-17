@@ -125,6 +125,7 @@ public class WAYakimaCountyParser extends SmartAddressParser {
       "GRFD", "GRANGER",
       "GVFD", "GRANDVIEW",
       "MBFD", "MABTON",
+      "NAFD", "NACHES",
       "SEFD", "SELAH",
       "SSFD", "SUNNYSIDE",
       "TPFD", "TOPPENISH",
