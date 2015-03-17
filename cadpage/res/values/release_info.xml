@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03132015</string>
-  <string name="release_version">v1.8.20</string>
+  <string name="release_date">03172015</string>
+  <string name="release_version">v1.8.21</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.21\n
+New Locations:\n
+Cerro Gordo County, IA\n
+McLeod County, MN\n
+Perry County, OH\n
+\n
+Location Fixes:\n
+Sacramento County, CA\n
+Manatee County, FL\n
+Kerlanger Dispatch, KY\n
+Allegany County, MD\n
+Bergen County, NJ\n
+Essex County, NJ\n
+Erie County, NY\n
+Halifax County, NC\n
+Henderson County, NC\n
+Clermont County, OH\n
+Brown County, OH\n
+Loveland, OH\n
+Adams County, PA\n
+Monroeville, PA\n
+Washington County, PA\n
+\n
+General Fixes:\n
+"Check Response" button for CodeMessaging alerts will no longer when the "More Info"
+button is not configured.\n
+\n
 v1.8.20\n      
 New Locations:\n
 Fairbanks, AK\n
@@ -103,28 +130,7 @@ St Louis County, MO\n
 Clermont County, OH\n
 Deschutes County, OR\n
 Missouri City, TX\n
-Canmore, AB, Canada\n
-\n      
-v1.8.16\n
-New Locations:\n
-Windham County, CT (alt)\n
-Grover Beach, MN\n
-Eden Prairie, MN\n
-Stafford, TX\n
-\n
-Location Fixes:\n
-Benton County, AR\n
-Elbert County, CO\n
-Stake County, IN\n
-St Tamany Parish, LA\n
-Park County, MT\n
-Onondaga County, NY\n
-Carter County, OK\n
-Lebanon County, PA\n
-Roanoke City, VA\n
-\n
-General Fixes:\n
-Partial workaround for problem with Active911 servers not completing registration process.
+Canmore, AB, Canada
   </string>
 </resources>
   
