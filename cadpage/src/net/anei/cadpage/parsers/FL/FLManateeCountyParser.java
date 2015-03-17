@@ -63,6 +63,7 @@ public class FLManateeCountyParser extends FieldProgramParser {
       }
       p = new Parser(stripFieldEnd(p.get(), " EA"));
       String apt = p.getLastOptional(',');
+      if (apt.length() == 0) apt = p.getLastOptional(';');
       super.parse(p.get(), data);
       data.strApt = append(data.strApt, "-", apt);
     }
