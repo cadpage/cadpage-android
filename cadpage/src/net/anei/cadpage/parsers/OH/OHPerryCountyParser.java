@@ -11,6 +11,11 @@ public class OHPerryCountyParser extends DispatchEmergitechParser {
   }
   
   @Override
+  public String getFilter() {
+    return "@perrycountyohio.net";
+  }
+  
+  @Override
   public String adjustMapAddress(String addr) {
     addr = TWP_RD_PTN.matcher(addr).replaceAll("TOWNSHIP HWY");
     return super.adjustMapAddress(addr);
