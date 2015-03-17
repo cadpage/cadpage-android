@@ -10,9 +10,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NCHendersonCountyParser extends SmartAddressParser {
   
-  private static final Pattern ID_PTN = Pattern.compile("^(?:HCSO PageGate Service:)?(\\d{8}) +");
+  private static final Pattern ID_PTN = Pattern.compile("^(?:HCSO ?PageGate ?Service:)?(\\d{8}) +");
   private static final Pattern LINE_PTN = Pattern.compile(" Line\\d+=");
-  private static final Pattern UNIT_PTN = Pattern.compile(" +([-#,A-Z0-9#]+)$");
+  private static final Pattern UNIT_PTN = Pattern.compile(" +([-#,A-Z0-9#]+)$", Pattern.CASE_INSENSITIVE);
   private static final Pattern PHONE_PTN = Pattern.compile(" +(?:(\\d{3}-\\d{3}-\\d{4}(?: *[xX]\\d+)?)|\\d{3}- -)$");
   
   public NCHendersonCountyParser() {
@@ -47,7 +47,7 @@ public class NCHendersonCountyParser extends SmartAddressParser {
     // Look for and remove UNIT term
     match = UNIT_PTN.matcher(body);
     if (!match.find()) return false;
-    data.strUnit = match.group(1);
+    data.strUnit = match.group(1).toUpperCase();
     body = body.substring(0, match.start());
     
     // Look for and remove PHONE
@@ -61,15 +61,32 @@ public class NCHendersonCountyParser extends SmartAddressParser {
     // We have to fudge the BLKD RD call because it makes the
     // city look like part of a new road name
     body = body.replace("//", "/").replace("BLKD RD", "BLKD-RD").replace("PWR LN", "PWR-LN").replace("LIFE LN", "LIFE-LN");
-    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD_EXCL_CITY, body, data);
-    data.strApt = append(data.strApt, "-", getPadField());
-    body = getLeft().replace("BLKD-RD", "BLKD RD").replace("PWR-LN", "PWR LN").replace("LIFE-LN", "LIFE LN");
+    
+    // THere is *ALWAYS* a city name
+    // When we do not find one, the usual reason is a malformed address
+    Result res1 = parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD_EXCL_CITY, body);
+    if (res1.getCity().length() == 0) {
+      Result res2 = parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY, body);
+      if (res2.getCity().length() > 0) {
+        res1 = null;
+        res2.getData(data);
+        parseAddress(res2.getStart(), data);
+        body = res2.getLeft();
+      }
+    }
+    if (res1 != null) {
+      res1.getData(data);
+      data.strApt = append(data.strApt, "-", res1.getPadField());
+      body = res1.getLeft();
+    }
+    
+    body = body.replace("BLKD-RD", "BLKD RD").replace("PWR-LN", "PWR LN").replace("LIFE-LN", "LIFE LN");
     
     // Split what is left into call description and name
     CodeTable.Result res = CALL_TABLE.getResult(body);
     if (res != null) {
       data.strCall = res.getDescription();
-      data.strName = res.getRemainder();
+      data.strName = cleanWirelessCarrier(res.getRemainder());
       String code = res.getCode();
       char chr = code.charAt(0);
       if (chr == 'C' || Character.isDigit(chr)) {
@@ -296,6 +313,11 @@ public class NCHendersonCountyParser extends SmartAddressParser {
     "CRAB CREEK",
     "EDNEYVILLE",
     "GREEN RIVER",
-    "HOOPERS CREEK"
+    "HOOPERS CREEK",
+    
+    "OUTSIDE COUNTY",
+    
+    // Buncombe County
+    "ARDEN"
   };
 }

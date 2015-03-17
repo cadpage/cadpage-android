@@ -370,7 +370,9 @@ public class MsgInfo {
     
     // Add city if specified, default city otherwise
     String city = getMapCity();
-    if (city.equalsIgnoreCase("OUT OF COUNTY") || city.equalsIgnoreCase("OUT OF AREA")) city = "";
+    if (city.equalsIgnoreCase("OUT OF COUNTY") ||
+        city.equalsIgnoreCase("OUTSIDE COUNTY") ||
+        city.equalsIgnoreCase("OUT OF AREA")) city = "";
     else if (city.length() == 0) {
       city = (overrideCity != null ? overrideCity : defCity);
     } else if (overrideCity == null && (parser.getMapFlags() & MAP_FLG_ADD_DEFAULT_CNTY) != 0 &&

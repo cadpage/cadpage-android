@@ -479,6 +479,7 @@ class Active911Vendor extends Vendor {
       "US/NC/GuilfordCounty",             "NCGuilfordCounty",
       "US/NC/HarnettCounty",              "NCHarnettCountyC",
       "US/NC/Havelock",                   "NCHavelock",
+      "US/NC/HendersonCounty",            "NCHendersonCounty",
       "US/NC/IredellCounty",              "NCIredellCounty",
       "US/NC/JacksonCounty",              "NCJacksonCounty",
       "US/NC/JohnstonCounty",             "NCJohnstonCounty",

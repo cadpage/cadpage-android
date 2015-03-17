@@ -35,7 +35,10 @@ UnyvsnkPbR911:* 407 UNEEVF FG* * * EBNABXR ENCVQF* * * * * JERPX-CRQVF* * * * P1
 
 Pbagnpg: wnlonearf73 <wnlonearf73@ubgznvy.pbz>
 Fraqre: TPZ
-UnyvsnkPbR911:*\a205 ZNQVFBA FG*\a*\a*\aEBNABXR ENCVQF*\a*\a*\a*\a*\aRZF PNYY*\a*\a*\a*\aRZF4,RZF6N*\a*\a*\a*\a*
+(*) UnyvsnkPbR911:*\a205 ZNQVFBA FG*\a*\a*\aEBNABXR ENCVQF*\a*\a*\a*\a*\aRZF PNYY*\a*\a*\a*\aRZF4,RZF6N*\a*\a*\a*\a*
+(*) UnyvsnkPbR911:*\a1781 NHERYVNA FCEVATF EQ*\a*\a*\aJRYQBA*\a*\a*\a*\a*\aRZF PNYY*\a*\a*\a*\aRZF4,RZF8N-,RF300*\a*\a*\a*\a*\a
+(*) UnyvsnkPbR911:*\a205 ZNQVFBA FG*\a*\a*\aEBNABXR ENCVQF*\a*\a*\a*\a*\aRZF PNYY*\a*\a*\a*\aRZF4,RZF6N*\a*\a*\a*\a*\a
+(*) UnyvsnkPbR911:*\a211 GNLYBE FG*\a*\a*\aEBNABXR ENCVQF*\a*\a*\a*\a*\aRZF PNYY*\a*\a*\a*\aRZF4,RZF6Q*\a*\a*\a*\a*\a
 
 */
 
@@ -186,12 +189,33 @@ choyvp pynff APUnyvsnkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgWnlOnearf73() {
 
     qbGrfg("G1",
-        "UnyvsnkPbR911:*\a205 ZNQVFBA FG*\a*\a*\aEBNABXR ENCVQF*\a*\a*\a*\a*\aRZF PNYY*\a*\a*\a*\aRZF4,RZF6N*\a*\a*\a*\a*",
+        "{*} UnyvsnkPbR911:*\a205 ZNQVFBA FG*\a*\a*\aEBNABXR ENCVQF*\a*\a*\a*\a*\aRZF PNYY*\a*\a*\a*\aRZF4,RZF6N*\a*\a*\a*\a*",
         "NQQE:205 ZNQVFBA FG",
         "PVGL:EBNABXR ENCVQF",
         "PNYY:RZF PNYY",
         "HAVG:RZF4,RZF6N");
-   
+
+    qbGrfg("G2",
+        "{*} UnyvsnkPbR911:*\a1781 NHERYVNA FCEVATF EQ*\a*\a*\aJRYQBA*\a*\a*\a*\a*\aRZF PNYY*\a*\a*\a*\aRZF4,RZF8N-,RF300*\a*\a*\a*\a*\a",
+        "NQQE:1781 NHERYVNA FCEVATF EQ",
+        "PVGL:JRYQBA",
+        "PNYY:RZF PNYY",
+        "HAVG:RZF4,RZF8N-,RF300");
+
+    qbGrfg("G3",
+        "{*} UnyvsnkPbR911:*\a205 ZNQVFBA FG*\a*\a*\aEBNABXR ENCVQF*\a*\a*\a*\a*\aRZF PNYY*\a*\a*\a*\aRZF4,RZF6N*\a*\a*\a*\a*\a",
+        "NQQE:205 ZNQVFBA FG",
+        "PVGL:EBNABXR ENCVQF",
+        "PNYY:RZF PNYY",
+        "HAVG:RZF4,RZF6N");
+
+    qbGrfg("G4",
+        "{*} UnyvsnkPbR911:*\a211 GNLYBE FG*\a*\a*\aEBNABXR ENCVQF*\a*\a*\a*\a*\aRZF PNYY*\a*\a*\a*\aRZF4,RZF6Q*\a*\a*\a*\a*\a",
+        "NQQE:211 GNLYBE FG",
+        "PVGL:EBNABXR ENCVQF",
+        "PNYY:RZF PNYY",
+        "HAVG:RZF4,RZF6Q");
+  
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
