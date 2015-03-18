@@ -2238,14 +2238,11 @@ public class FieldProgramParser extends SmartAddressParser {
         parse(field, data);
       }
       
-      // If smart parser is being used, invoke it to parse the field, but do not
-      // pass the FLAG_ANCHOR_END flag which would invalidate the results.
-      // If the address should be anchored at the end, and there is any text left
-      // following the address, return false
+      // If smart parser is being used, invoke it to parse the field, adding 
+      // FLAG_CHECK_STATUS to make sure we try to validate the field result
       else {
-        Result res = parseAddress(startType, field);
+        Result res = parseAddress(startType, parseFlags | FLAG_CHECK_STATUS, field);
         if (!res.isValid()) return false;
-        if ((parseFlags & FLAG_ANCHOR_END) != 0 && res.getLeft().length() > 0) return false;
         
         // Looks good, lets parse out the data
         res.getData(data);

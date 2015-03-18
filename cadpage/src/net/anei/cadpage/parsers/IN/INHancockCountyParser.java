@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.IN;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -13,7 +14,7 @@ public class INHancockCountyParser extends FieldProgramParser {
   
   public INHancockCountyParser() {
     super(CITY_LIST, "HANCOCK COUNTY", "IN",
-           "CALL ( MUTADDR INFO | CALL+? ADDR/SXP CITY? X/Z+? MAP ) UNIT! INFO+");
+           "CALL ( MUTADDR INFO | CALL+? ADDR/S5XP CITY? X/Z+? MAP ) UNIT! INFO+");
   }
   
   @Override
@@ -56,11 +57,25 @@ public class INHancockCountyParser extends FieldProgramParser {
   
   // Address class, special case if field after address starts with &
   // make it a cross road rather than an place name
+  private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*)[-/&] *(.*)");
   private class MyAddressField extends AddressField {
     
     @Override
     public boolean checkParse(String field, Data data) {
       field = field.replace(".", " ").trim().replaceAll("  +", " ");
+      
+      // Sometimes odd delimiter is used to identify city
+      String city = null;
+      Matcher match = ADDR_CITY_PTN.matcher(field);
+      if (match.matches()) {
+        city = match.group(2);
+        if (isCity(city)) {
+          field = match.group(1).trim();
+        } else {
+          city = null;
+        }
+      }
+      
       if (!super.checkParse(field, data)) {
         
         // OK, this wasn't recognized as an address.  Let's check the next field
@@ -87,6 +102,10 @@ public class INHancockCountyParser extends FieldProgramParser {
         data.strPlace = "";
       }
       else if (data.strPlace.equals("-")) data.strPlace = "";
+      
+      if (city != null) data.strCity = city;
+      data.strCity = convertCodes(data.strCity.toUpperCase(), MISSPELLED_CITY_TABLE);
+      if (data.strCity.endsWith(" CO")) data.strCity += "UNTY"; 
       return true;
     }
     
@@ -131,11 +150,24 @@ public class INHancockCountyParser extends FieldProgramParser {
     "VERNON TWP",
     
     "CHARLOTTESVILLE",
+    "NEW PALESTINE",
     
     // Madison County
+    "INGALS",   // (Misspelled INGALLS)
+    "INGALLS",
     "PENDLETON",
     
     // Marion County
-    "CUMBERLAND"
+    "CUMBERLAND",
+    
+    // Shelby County
+    "SHELBY CO",
+    "SHELBY",
+    "FOUNTAINTOWN",
+    "MORRISTOWN"
   };
+  
+  private static final Properties MISSPELLED_CITY_TABLE = buildCodeTable(new String[]{
+      "INGALS",     "INGALLS"
+  });
 }
