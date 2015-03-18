@@ -989,6 +989,7 @@ Ntrapl anzr: Yrznl SverCebgrpgvba Qvfgevpg
 Ybpngvba: Fg. Ybhvf, ZB, Havgrq Fgngrf
 Fraqre: <qvfcngpu@ppr911.bet>
 
+(PNQ Cntvat) 26 Fvpx Pnfr DQ NG:777 Evire Pvgl Pnfvab Oyiq KFG:EVIRE PVGL OYIQ/EVIRE PVGL OYIQ 16 1614,1137,16QA2
 (PNQ Cntvat) 26N1 Fvpx Pnfr NG:190 Xvatfgba Qe KFG:PYLQR NIR/PNEEVATGBA YA 16 1617,16QA2,1614,1137
 (PNQ Cntvat) 26 Fvpx Pnfr DQ NG:190 Xvatfgba Qe KFG:PYLQR NIR/PNEEVATGBA YA 16 1614,1137,16QA2
 (PNQ Cntvat) 25 Cflpu *Abg Frpher* DQ NG:718 Errq Nir KFG:ONLYRFF NIR/JRVFF NIR 16 1617,1614,16QA2
@@ -2196,6 +2197,7 @@ Ntrapl anzr: Fg. Pynve Sver Cebgrpgvba Qvfgevpg
 Ybpngvba: Fg. Pynve, ZB, Havgrq Fgngrf
 Fraqre: <qvfcngpu@ppr911.bet>
 
+(PNQ Cntvat) 29 ZIN Erfphr Cre CQ NG:Abegu Freivpr Eq J / Gnt-n-ybat Eq KFG: 83 8315,83QA,8316,8302,83QA1,FPNzo3,FPNzo3,EPQA0,EPQA038319006 91038728
 (PNQ Cntvat) Yrnx Tnf Vafvqr Erfvqragvny NG:261 R Rhpyvq Fg KFG:ZNAVBA FG/ONAQL FG Senaxyva 8315
 (PNQ Cntvat) Purpx Gur Fzbxr Qrgrpgbe Erf NG:325 A Ynl Nir KFG:J ABEGU FG/ONQRE FG 83 8315,83QA1
 (PNQ Cntvat) 25 Cflpu *Abg Frpher* DQ NG:105 Fcevatsvryq Eq J KFG:UNZVYGBA FG/PRQNE FG 83 8318,FPNzo3,83QA3
@@ -10832,6 +10834,15 @@ choyvp pynff ZBFgYbhvfPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgYrznlSverCebgrpgvbaQvfgevpg() {
+
+    qbGrfg("K1",
+        "(PNQ Cntvat) 26 Fvpx Pnfr DQ NG:777 Evire Pvgl Pnfvab Oyiq KFG:EVIRE PVGL OYIQ/EVIRE PVGL OYIQ 16 1614,1137,16QA2",
+        "PBQR:26",
+        "PNYY:Fvpx Pnfr",
+        "NQQE:777 Evire Pvgl Pnfvab Oyiq",
+        "K:EVIRE PVGL OYIQ/EVIRE PVGL OYIQ",
+        "FEP:16",
+        "HAVG:1614,1137,16QA2");
 
     qbGrfg("G1",
         "(PNQ Cntvat) 26N1 Fvpx Pnfr NG:190 Xvatfgba Qe KFG:PYLQR NIR/PNEEVATGBA YA 16 1617,16QA2,1614,1137",
@@ -20784,6 +20795,15 @@ choyvp pynff ZBFgYbhvfPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgFgPynveSverCebgrpgvbaQvfgevpg() {
+
+    qbGrfg("K1",
+        "(PNQ Cntvat) 29 ZIN Erfphr Cre CQ NG:Abegu Freivpr Eq J / Gnt-n-ybat Eq KFG: 83 8315,83QA,8316,8302,83QA1,FPNzo3,FPNzo3,EPQA0,EPQA038319006 91038728",
+        "PBQR:29",
+        "PNYY:ZIN Erfphr Cre CQ",
+        "NQQE:Abegu Freivpr Eq J & Gnt-n-ybat Eq",
+        "FEP:83",
+        "HAVG:8315,83QA,8316,8302,83QA1,FPNzo3,FPNzo3,EPQA0,EPQA0",
+        "TCF:+38.319006,-91.038728");
 
     qbGrfg("G1",
         "(PNQ Cntvat) Yrnx Tnf Vafvqr Erfvqragvny NG:261 R Rhpyvq Fg KFG:ZNAVBA FG/ONAQL FG Senaxyva 8315",
