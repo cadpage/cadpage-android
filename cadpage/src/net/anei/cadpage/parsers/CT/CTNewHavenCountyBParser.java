@@ -146,7 +146,9 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
         // If we didn't find one, we will have to use the smart address parser to figure out where
         // the cross street information ends
         else {
-          Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, sExtra);
+          int flags = FLAG_ONLY_CROSS;
+          if (data.strCity.length() == 0) flags |= FLAG_ONLY_CITY;
+          Result res = parseAddress(StartType.START_ADDR, flags, sExtra);
           if (res.isValid()) {
             res.getData(data);
             sExtra = res.getLeft();

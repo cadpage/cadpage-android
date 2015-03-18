@@ -25,6 +25,7 @@ public class CTTollandCountyBParser extends CTNewHavenCountyBParser {
     "COVENTRY",
     "MANSFIELD",
     "STORRS",
-    "WILLINGTON"
+    "WILLINGTON",
+    "WINDHAM"
   };
 }
