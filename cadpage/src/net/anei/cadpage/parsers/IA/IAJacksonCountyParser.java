@@ -18,7 +18,7 @@ public class IAJacksonCountyParser extends FieldProgramParser {
   
   public IAJacksonCountyParser() {
     super(CITY_LIST, "JACKSON COUNTY", "IA",
-           "CALL! Reported:DATETIME? ADDR/S! X? ( UNIT | ( CITY | PLACECITY | PLACE CITY ) UNIT )");
+           "( Reported:DATETIME CALL! Loc:ADDR/S! X? PLACE? UNIT | CALL! Reported:DATETIME? ADDR/S! X? ( UNIT | ( CITY | PLACECITY | PLACE CITY ) UNIT ) )");
   }
   
   @Override
@@ -27,13 +27,53 @@ public class IAJacksonCountyParser extends FieldProgramParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
-    Matcher match = CALL_ID_PATTERN.matcher(body);
-    if (! match.find()) return false;
-    data.strCallId = match.group(1);
-    body = body.substring(match.end()).trim();
+    if (!subject.equals("Dispatch Center")) return false;
     return parseFields(body.split("\n"), data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("PLACECITY")) return new PlaceCityField();
+    if (name.equals("UNIT")) return new UnitField("[A-Z]*\\d+(?: +[A-Z]*\\d+)*", true);
+    return super.getField(name);
+  }
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      Matcher match = CALL_ID_PATTERN.matcher(field);
+      if (! match.find()) abort();
+      data.strCallId = match.group(1);
+      field = field.substring(match.end()).trim();
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern ADDR_ST_ZIP_PTN = Pattern.compile("(.*), *([A-Z]{2})(?: +(\\d{5}))?");
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      String zip = null;
+      Matcher match = ADDR_ST_ZIP_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        data.strState = match.group(2);
+        zip = match.group(3);
+      }
+      super.parse(field, data);
+      if (zip != null && data.strCity.length() == 0) data.strCity = zip;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " ST";
+    }
   }
   
   private class MyCrossField extends CrossField {
@@ -48,10 +88,15 @@ public class IAJacksonCountyParser extends FieldProgramParser {
       }
       
       if (field.contains("/")) {
-        parse(field, data);
+        super.parse(field, data);
         return true;
       } 
       return super.checkParse(field, data);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
   
@@ -78,14 +123,6 @@ public class IAJacksonCountyParser extends FieldProgramParser {
   }
   
   @Override
-  public Field getField(String name) {
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("PLACECITY")) return new PlaceCityField();
-    if (name.equals("UNIT")) return new UnitField("[A-Z]*\\d+(?: +[A-Z]*\\d+)*", true);
-    return super.getField(name);
-  }
-  
-  @Override
   public String getProgram() {
     return "ID " + super.getProgram();
   }
@@ -95,6 +132,7 @@ public class IAJacksonCountyParser extends FieldProgramParser {
     "BALDWIN",
     "BELLEVUE",
     "LA MOTTE",
+    "LAMOTTE",
     "MAQUOKETA",
     "MILES",
     "MONMOUTH",
@@ -191,6 +229,8 @@ public class IAJacksonCountyParser extends FieldProgramParser {
     "WASHINGTON TWP",
     
     // Clinton County
-    "CLINTON"
+    "CLINTON COUNTY",
+    "CLINTON",
+    "DELMAR"
   };
 }
