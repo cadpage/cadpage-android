@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.AL;
 
+import java.util.Properties;
+
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchB3Parser;
@@ -13,6 +15,7 @@ public class ALStClairCountyParser extends DispatchB3Parser {
     super("911CENTRAL:", CITY_LIST, "ST CLAIR COUNTY", "AL");
     setupCallList(CALL_LIST);
     setupMultiWordStreets(MSTREET_LIST);
+    setupSaintNames("CLAIR");
   }
   
   @Override
@@ -24,8 +27,23 @@ public class ALStClairCountyParser extends DispatchB3Parser {
       body = "911CENTRAL:" + body.substring(13);
     }
     body = body.replace('@', '&');
-    return super.parseMsg(subject, body, data);
+    if (!super.parseMsg(subject, body, data)) return false;
+    if (data.strCall.endsWith(" END OF")) {
+      data.strCall = data.strCall.substring(0,data.strCall.length()-7).trim();
+      data.strAddress = "END OF " + data.strAddress;
+    }
+    data.strCity = convertCodes(data.strCity, MISSPELLED_CITY_TABLE);
+    return true;
   }
+  
+  @Override
+  public String adjustMapCity(String city) {
+    return convertCodes(city, MAP_CITY_TABLE);
+  }
+  
+  private static Properties MAP_CITY_TABLE = buildCodeTable(new String[]{
+      "DAVIS LAKE",    "SPRINGFIELD"
+  });
   
   private static final String[] MSTREET_LIST = new String[]{
     "ANDERSON HILL",
@@ -169,6 +187,7 @@ public class ALStClairCountyParser extends DispatchB3Parser {
     "ASHVILLE",
     "BRANCHVILLE",
     "COOL SPRINGS",
+    "DAVIS LAKE",
     "LEEDS",
     "MARGARET",
     "MOODY",
@@ -177,9 +196,14 @@ public class ALStClairCountyParser extends DispatchB3Parser {
     "PINEDALE SHORES",
     "RAGLAND",
     "RIVERSIDE",
+    "SPRINGIVLLE",   // Misspelled
     "SPRINGVILLE",
     "STEELE",
     "TRUSSVILLE",
     "VINCENT"
   };
+  
+  private static final Properties MISSPELLED_CITY_TABLE = buildCodeTable(new String[]{
+      "SPRINGIVLLE",    "SPRINGVILLE"
+  });
 }
