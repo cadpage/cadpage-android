@@ -108,6 +108,10 @@ Pbagnpg: Senaxvr Cvaavk <znfxznaa29@lnubb.pbz>
 Fraqre: PNQ@cfsq.pbz
 PNQ@cfsq.pbz: ab fhowrpg / PNQ:ENAQ;ENAQ;1;ZHGHNY;5524 RQTNE EQ;GBONPPB EQ
 
+Pbagnpg: Whyvna Sver <whyvnaisq36@tznvy.pbz>
+Fraqre: PNQ@terrafobeb-ap.tbi. 
+PNQ:WHYA;FG36;1;ZRQ;7015 OBOOL WRNA EQ;FZVGUJBBQ EQ;WHYVNA 
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ubearlgbja SQ
 Fraqre: "Ubearlgbja Sver Qrcnegzrag" <ugsqfgn29@abegufgngr.arg>
@@ -2166,6 +2170,20 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:GBONPPB EQ");
     frgQrsnhygf("THVYSBEQ PBHAGL", "AP");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWhyvnaSver() {
+
+    qbGrfg("G1",
+        "PNQ:WHYA;FG36;1;ZRQ;7015 OBOOL WRNA EQ;FZVGUJBBQ EQ;WHYVNA",
+        "FEP:WHYA-FG36",
+        "CEV:1",
+        "PNYY:ZRQ",
+        "NQQE:7015 OBOOL WRNA EQ",
+        "K:FZVGUJBBQ EQ",
+        "PVGL:WHYVNA");
+
   }
 
   @Grfg

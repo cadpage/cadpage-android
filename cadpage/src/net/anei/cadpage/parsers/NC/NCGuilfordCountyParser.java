@@ -19,7 +19,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
   
   public NCGuilfordCountyParser() {
     super("GUILFORD COUNTY", "NC",
-          "FYI? ID? ( CALL2 ADDR! | PRI/Z MUTUAL ADDR! | ( SRC SRC PRI | PRI? ) CODE? CALL ADDR! ) CODE? CITY? ( NAME ID | ID? ) EXTRA? ( X X? | PLACE X X? | ) ( PRI UNIT? SRC SRC | ) XINFO+? UNIT CITY? INFO+");
+          "FYI? ID? ( CALL2 ADDR! | PRI/Z MUTUAL ADDR! | ( SRC SRC PRI | PRI? ) CODE? CALL ADDR! ) CODE? CITY? ( NAME ID | ID? ) EXTRA? ( X X? | PLACE X X? | ) CITY? ( PRI UNIT? SRC SRC | ) XINFO+? UNIT CITY? INFO+");
   }
   
   @Override
