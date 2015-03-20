@@ -31,6 +31,10 @@ F:PNQ Z:21:08 #038431 ZRQVPNY RZRETRAPL 13103 DHNEEL EVQTR EQ FJ  OBK:S0902 QHR:
 F:PNQ Z:21:02 #038765 FGEBXR/PIN 14512 ONEGBA OYIQ FJ  OBK:S0904 QHR:N396\a \a 
 F:PNQ Z:00:02 #038632 ZRQVPNY RZRETRAPL 15201 GENVY EVQTR EQ FJ  OBK:S0903 QHR:PB09 N396\a \a
 
+Pbagnpg: Ovyy Cevpr <jucevpr@irevmba.arg>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+06:53 #012470 SYHR SVER 155 SEBFG NIR OBK:S1604 QHR:R162 R171 TPR81 R152 R181 GE16 GE2 FD16 N355
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ryyrefyvr ISQ
 Ybpngvba: Ryyrefyvr, ZQ, Havgrq Fgngrf
@@ -810,6 +814,20 @@ choyvp pynff ZQNyyrtnalPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:S0903",
         "HAVG:PB09 N396");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOvyyCevpr() {
+
+    qbGrfg("G1",
+        "06:53 #012470 SYHR SVER 155 SEBFG NIR OBK:S1604 QHR:R162 R171 TPR81 R152 R181 GE16 GE2 FD16 N355",
+        "GVZR:06:53",
+        "VQ:012470",
+        "PNYY:SYHR SVER",
+        "NQQE:155 SEBFG NIR",
+        "OBK:S1604",
+        "HAVG:R162 R171 TPR81 R152 R181 GE16 GE2 FD16 N355");
+    
   }
 
   @Grfg
