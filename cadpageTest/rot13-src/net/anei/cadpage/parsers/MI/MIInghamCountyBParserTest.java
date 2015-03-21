@@ -6,7 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 
 /*
-Vatunz Pbhagl, ZV
+Vatunz Pbhagl, ZV (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Vatunz Pbhagl Rzretrapl Znantrzrag
