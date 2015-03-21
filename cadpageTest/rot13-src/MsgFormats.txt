@@ -9334,18 +9334,6 @@ Fraqre: "FEISCQ Cntvat" <feisver@qncntr.arg>
 (VCF V/Cntr Abgvsvpngvba) ZR NYNEZ: 1 YBP: 2600 PNZVAB ENZBA FE: @NG&G URNQDHNEGREF KFG1: OVFUBC QE KFG2: RKRPHGVIR CXJL ZNC: J17P 1577 464 GVZR: 13:40:40 RZQ: qrsnhyg CYNPR: FNA ENZBA YNG: 37.7675015702981 YBAT: -121.962877256121 FGN: 34 /PNQ vCntr
 (VCF V/Cntr Abgvsvpngvba) ZR NYNEZ: 1 YBP: 186 FGBAR INYYRL JNL PGL KFG1: ENATRE PG KFG2: QRNQ RAQ ZNC: D15P 1559 498 GVZR: 11:23:23 RZQ: qrsnhyg CYNPR: NYNZB YNG: 37.8581838024571 YBAT: -122.027716885809 FGN: 32 /PNQ vCntr
 **********************************************************
-2014042210001263 (Cngevpx)
-Pbagnpg: Npgvir911
-Ntrapl anzr: Rytva SQ
-Ybpngvba: Rytva, VY, Havgrq Fgngrf
-Fraqre: Qvfcngpu@Pvglbsrytva.bet
-
-(!) SVER: WRSSREFBA NIR@ OEBBX FG , Rytva: : Ab Pebff Fgerrgf Sbhaq: Havgf: R1, G1, R5, N5, R6, OP1 Aneengvir:pnyyre fnlf byq erpllpyvat snpvyvgl ng wrssrefba naq evire ba sver
-(!) SVER: 1915 ZNEX NIR, Rytva: : QRNQ RAQ / ZNEYRAR NIR: Havgf: R2, G2, R3, N4, R6, OP1, 502N Aneengvir:fzbxr znl or pbzvat sez onfrzrag hafher\abcf 2
-(!) SVER: 79 PYBPX GBJRE CYM, Rytva: Znzn Ybh'f Fuevzc & OOD Fzbxrubhfr: HAXABJA / ANGVBANY FG, F TEBIR NIR: Havgf: R1, G1, R4, R5, N5, OP1, S101, 101O, 102O, 301O, 401O, 981O, 987O Aneengvir:sver va ood cvg\apnyyre qvfpbaarpgrq\apnyyre qvfpbaarpgrq\anggrzcgvat pnyy onpx\ag1 sebz funyrf & fhzzvg
-(!) SVER: 79 PYBPX GBJRE CYM, Rytva: Znzn Ybh'f Fuevzc & OOD Fzbxrubhfr: HAXABJA / ANGVBANY FG, F TEBIR NIR: Havgf: R1, G1, R4, R5, N5, OP1, 101O, 102O, 301O, 401O Aneengvir:sver va ood cvg\apnyyre qvfpbaarpgrq\apnyyre qvfpbaarpgrq\anggrzcgvat pnyy onpx\ag1 sebz funyrf & fhzzvg
-(!) SVER: 412 OYHSS PVGL OYIQ, Rytva: Byqr Gbjar Vaa: TENPR FG / RYVMNORGU FG: Havgf: R1, G2, R5, N5, R6, OP1, 401N Aneengvir:fzryy oheavat  naq cvcrf qevccvat jngre sebz onfrzrag\aab synzrf frra\aunivat rirelbar rkvg\acntr frag
-(!) SVER: 412 OYHSS PVGL OYIQ, Rytva: Byqr Gbjar Vaa: TENPR FG / RYVMNORGU FG: Havgf: R1, G2, R5, N5, R6, OP1 Aneengvir:fzryy oheavat  naq cvcrf qevccvat jngre sebz onfrzrag\aab synzrf frra\aunivat rirelbar rkvg
 **********************************************************
 **********************************************************
 **********************************************************

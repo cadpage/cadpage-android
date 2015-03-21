@@ -278,6 +278,7 @@ class Active911Vendor extends Vendor {
       "US/IL/CityofJoppa",                "ILMassacCounty",
       "US/IL/DownersGrove",               "ILDuPageCountyB",
       "US/IL/DupageCounty",               "ILDuPageCountyA",
+      "US/IL/CityofElgin",                "ILElgin",
       "US/IL/FairviewHeights",            "ILStClairCountyB",
       "US/IL/GlenCarbon",                 "ILMadisonCounty",
       "US/IL/KaneCounty",                 "ILKaneCounty",
