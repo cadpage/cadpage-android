@@ -74,6 +74,9 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
       if (city.toUpperCase().startsWith("INTERSTATE")) city = "";
       data.strCity = city;
       field = p.get().replace('@', '&');
+      
+      // Check for dash delimited city
+      field = checkDashCity(field, data);
       parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT | FLAG_ANCHOR_END, field, data);
       if (!data.strApt.contains(apt)) data.strApt = append(data.strApt, "-", apt);
     }
@@ -82,6 +85,19 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
     public String getFieldNames() {
       return super.getFieldNames() + " ST";
     }
+  }
+
+  static String checkDashCity(String field, Data data) {
+    String city;
+    if (data.strCity.length() == 0) {
+      int pt = field.lastIndexOf('-');
+      city = field.substring(pt+1).trim();
+      if (CITY_SET.contains(city.toUpperCase())) {
+        data.strCity = city;
+        field = field.substring(0,pt).trim();
+      }
+    }
+    return field;
   }
   
   private static final Pattern PLACE_APT_PTN = Pattern.compile("(.*?)[-, ]*(?:\\b(?:RM|ROOM|APT|LOT|COTTAGE|SUITE)\\b|(?<!REF) #)[ #]*(.+)", Pattern.CASE_INSENSITIVE);
@@ -177,7 +193,7 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
   }
   
   private static final Pattern DEMOTE_CITY_PTN = 
-      Pattern.compile(".*\\b(?:TRAILER PARK|PLAZA|(SHOP(?:PING)? (?:CTR|CENTER))|APARTMENTS|APTS|CONDOS|TOWNHOUSES|TWNHSES|MALL|PROFESSIONAL|HOUSE|CENTER)\\b.*", Pattern.CASE_INSENSITIVE);
+      Pattern.compile(".*\\b(?:TRAILER PARK|PLAZA|(SHOP(?:PING)? (?:CTR|CENTER))|APARTMENTS|APTS|CONDOS|TOWNHOUSES|TWNHSES|MALL|PROFESSIONAL|HOUSE|CENTER|TOWER|CLUB|AIRPORT)\\b.*", Pattern.CASE_INSENSITIVE);
   static void fixCity(Data data) {
     
     // Sometimes the city field obviously should not be a city
@@ -194,9 +210,25 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
       data.strCity = getMapCity(data.strCity);
     }
     
+    String upCity = data.strCity.toUpperCase();
+    String tmp = MISSPELLED_CITIES.getProperty(upCity);
+    if (tmp != null) {
+      data.strCity = tmp;
+      upCity = tmp.toUpperCase();
+    }
+    
+    if (upCity.endsWith(" CO")) {
+      if (data.strCity.endsWith("O")) {
+        data.strCity += "UNTY";
+      } else {
+        data.strCity += "unty";
+      }
+      upCity = data.strCity.toUpperCase();
+    }
+    
     // Some cities are in other states
     if (data.strState.length() == 0) {
-      String st = CITY_ST_TABLE.getProperty(data.strCity);
+      String st = CITY_ST_TABLE.getProperty(upCity);
       if (st != null) data.strState = st;
     }
   }
@@ -270,6 +302,7 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
       "PORT PENN",
       "ROCKLAND",
       "SMYRNA",
+      "SPRING VALLEY",
       "ST GEORGES",
       "STANTON",
       "TALLEYVILLE",
@@ -281,27 +314,52 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
       "WOODDALE",
       "YORKLYN",
       
+      "CHESTER CO",
       "CHESTER COUNTY",
+      "DELAWARE CO",
       "DELAWARE COUNTY",
+        "BETHEL TWNSHP",
+        "BETHEL TWP",
+        "GARNET VALLEY",
+        "UPPER CHI",
+        "UPPER CHICHESTER TWP",
+        "UPPER CHI TWNSHP",
+      "GLOUCESTER CO",
       "GLOUCESTER COUNTY",
+      "SALEM CO",
       "SALEM COUNTY",
+      "KENT CO",
       "KENT COUNTY",
+      "CECIL CO",
       "CECIL COUNTY"
   )); 
   
+  private static final Properties MISSPELLED_CITIES = buildCodeTable(new String[]{
+      "BETHEL TWNSHP",          "Bethel Twp",
+      "UPPER CHI",              "Upper Chichester Twp",
+      "UPPER CHI TWNSHP",       "Upper Chichester Twp"
+  });
+  
   private static final Properties CITY_ST_TABLE = buildCodeTable(new String[]{
-      "CHESTER COUNTY",     "PA",
-      "DELAWARE COUNTY",    "PA",
-      "GLOUCESTER COUNTY",  "NJ",
-      "SALEM COUNTY",       "NJ",
-      "CECIL COUNTY",       "MD"
+      "CHESTER COUNTY",         "PA",
+      "DELAWARE COUNTY",        "PA",
+        "BETHEL TWP",           "PA",
+        "GARNET VALLEY",        "PA",
+        "UPPER CHICHESTER TWP", "PA",
+      "GLOUCESTER COUNTY",      "NJ",
+      "SALEM COUNTY",           "NJ",
+      "CECIL COUNTY",           "MD"
   });
   
   private static final Properties MAP_CITY_TABLE = buildCodeTable(new String[]{
+      
+      "GOVERNORS SQUARE",             "Bear",
   
       "ASHBOURNE HILLS",              "Claymont",
       "BNAI BRITH HOUSE",             "Claymont",
+      "BRANDYWINE CORPORATE CENTER",  "Claymont",
       "KNOLLWOOD",                    "Claymont",
+      "NAAMANS APARTMENTS",           "Claymont",
       "NORTHTOWNE PLAZA",             "Claymont",
       "RADNOR WOODS",                 "Claymont",
       "RIVERSIDE",                    "Claymont",
@@ -309,7 +367,12 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
       "STONEYBROOK APARTMENTS",       "Claymont",
       "TRI STATE MALL UPPER LEVEL",   "Claymont",
       "WATER VIEW COURT APARTMENTS",  "Claymont",
+      "WHITNEY PRESIDENTIAL TOWER 2000","Claymont",
       "WOODSTREAM GARDEN APARTMENTS", "Claymont",
+      
+      "ELSMERE PARK APARTMENTS",      "Elsmere",
+      
+      "STONEWOLD",                    "Greenville",
       
       "ADARE VILLAGE",                "Hockessin",
       "AUTUMNWOOD",                   "Hockessin",
@@ -327,17 +390,28 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
       "SNUG HILL",                    "Hockessin",
       "STENNING WOODS",               "Hockessin",
       "STUYVESANT HILLS",             "Hockessin",
+      "THORNBERRY",                   "Hockessin",
       "WALNUT HILL",                  "Hockessin",
       "WELLINGTON HILLS",             "Hockessin",
       "WESTWOODS",                    "Hockessin",
       
+      "EVERGREEN FARMS",              "Middletown",
+      "LONG MEADOW",                  "Middletown",
+      
       "ARBOR PLACE",                  "New Castle",
+      "EDEN PARK GARDENS",            "New Castle",
       "GARFIELD PARK",                "New Castle",
+      "HARES CORNER",                 "New Castle",
       "JEFFERSON FARMS",              "New Castle",
       "HOLLOWAY TERRACE",             "New Castle",
+      "IVYRIDGE",                     "New Castle",
+      "LLANGOLLEN ESTATES",           "New Castle",
+      "MALLARD POINTE",               "New Castle",
       "MINQUADALE TRAILER PARK",      "New Castle",
+      "NEW CASTLE COUNTY AIRPORT",    "New Castle",
       "OAKMONT",                      "New Castle",
       "OVERVIEW GARDENS",             "New Castle",
+      "PENN ACRES",                   "New Castle",
       "ROSE HILL",                    "New Castle",
       "SIMONDS GARDENS",              "New Castle",
       "SWANWYCK",                     "New Castle",
@@ -348,6 +422,7 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
       "CARRINGTON WAY APARTMENTS",    "Newark",
       "CHERRY HILL",                  "Newark",
       "CHESTNUT VALLEY",              "Newark",
+      "DELAPLANE MANOR",              "Newark",
       "FAIRFIELD",                    "Newark",
       "FOXWOOD APARTMENTS",           "Newark",
       "GEORGE READ VILLAGE",          "Newark",
@@ -358,26 +433,35 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
       "PENCADER CORPORATE CENTER",    "Newark",
       "PEOPLES PLAZA",                "Newark",
       "POLLY DRUMMOND SHOPPING CENTER","Newark",
+      "RIDGEWOOD GLEN",               "Newark",
       "TODD ESTATES",                 "Newark",
       "UNIVERSITY OF DELAWARE",       "Newark",
       "VICTORIA MEWS APTS",           "Newark",
       "WOODLAND VILLAGE",             "Newark",
   
       "AUGUSTINE PROFESSIONAL CENTER","Wilmington",
+      "AUGUSTINE RIDGE",              "Wilmington",
       "BALLYMEADE",                   "Wilmington",
+      "BARLEY MILL PLAZA",            "Wilmington",
       "BELVEDERE",                    "Wilmington",
       "BRANDON",                      "Wilmington",
       "BRANDYWOOD",                   "Wilmington",
+      "BROOKLAND TERRACE",            "Wilmington",
       "CARILLON CROSSING",            "Wilmington",
       "CEDAR HEIGHTS",                "Wilmington",
       "CHATHAM",                      "Wilmington",
       "COLONIAL HEIGHTS",             "Wilmington",
       "COLONIAL WOODS",               "Wilmington",
+      "CONCORD GALLERY",              "Wilmington",
       "CONCORD PLAZA",                "Wilmington",
+      "COUNTRY GATES",                "Wilmington",
       "CRANSTON HEIGHTS",             "Wilmington",
       "DEER VALLEY",                  "Wilmington",
+      "DEVON",                        "Wilmington",
       "DREXEL",                       "Wilmington",
+      "DUNLINDEN ACRES",              "Wilmington",
       "DUNLEITH",                     "Wilmington",
+      "FOREST BROOK GLEN",            "Wilmington",
       "FOULK WOODS",                  "Wilmington",
       "FOULKSTONE PLAZA",             "Wilmington",
       "FURNACE CREEK HOLLOW",         "Wilmington",
@@ -399,11 +483,15 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
       "NORTHWOOD",                    "Wilmington",
       "OAK LANE MANOR",               "Wilmington",
       "OWLS NEST",                    "Wilmington",
+      "PALADIN CLUB",                 "Wilmington",
       "PARK PLACE TRAILER PARK",      "Wilmington",
+      "PENNROSE",                     "Wilmington",
       "PLEASANT HILLS",               "Wilmington",
       "RAMBLEWOOD",                   "Wilmington",
+      "RICHARDSON PARK",              "Wilmington",
       "SILVERBROOK APARTMENTS",       "Wilmington",
       "ST. GEORGES COURT APARTMENTS", "Wilmington",
+      "STRATFORD APARTMENTS",         "Wilmington",
       "SUMMIT CHASE",                 "Wilmington",
       "ROCKLAND CENTER",              "Wilmington",
       "SILVIEW",                      "Wilmington",
@@ -414,11 +502,13 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
       "VILLAGE OF HERSHEY RUN CONDOS","Wilmington",
       "WINDYBUSH",                    "Wilmington",
       "WINTERSET FARMS TRAILER PARK", "Wilmington",
+      "WOODCREST",                    "Wilmington",
       "WOODLAND APARTMENTS",          "Wilmington",
       "WYCLIFFE",                     "Wilmington",
       "WYNNWOOD",                     "Wilmington",
       
-      "MANOR PARK",                   "Wilmingon Manor"
+      "LEEDOM ESTATES",               "Wilmington Manor",
+      "MANOR PARK",                   "Wilmington Manor"
       
   });
 }

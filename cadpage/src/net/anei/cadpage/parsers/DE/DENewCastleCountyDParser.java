@@ -28,7 +28,7 @@ public class DENewCastleCountyDParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return super.getProgram().replace("CITY", "PLACE CITY");
+    return super.getProgram().replace("CITY", "PLACE CITY ST");
   }
   
   @Override
@@ -42,6 +42,7 @@ public class DENewCastleCountyDParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       field = field.replace('@', '&');
+      field = DENewCastleCountyEParser.checkDashCity(field, data);
       super.parse(field, data);
     }
   }
