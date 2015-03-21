@@ -820,7 +820,8 @@ choyvp pynff ZQNyyrtnalPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgOvyyCevpr() {
 
     qbGrfg("G1",
-        "06:53 #012470 SYHR SVER 155 SEBFG NIR OBK:S1604 QHR:R162 R171 TPR81 R152 R181 GE16 GE2 FD16 N355",
+        "{Pbzcnal 16} 06:53 #012470 SYHR SVER 155 SEBFG NIR OBK:S1604 QHR:R162 R171 TPR81 R152 R181 GE16 GE2 FD16 N355",
+        "FEP:16",
         "GVZR:06:53",
         "VQ:012470",
         "PNYY:SYHR SVER",

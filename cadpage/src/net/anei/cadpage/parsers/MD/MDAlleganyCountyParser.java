@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MDAlleganyCountyParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("CAD|Company +([^ ]+)|");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("CAD|Company +([^ ]+)");
   private static final Pattern MARKER = Pattern.compile("(\\d\\d:\\d\\d) #(\\d+) +");
   private static final Pattern MASTER2 = Pattern.compile("(\\d\\d:\\d\\d:\\d\\d?) +(.*) ([A-Z]{2}\\d{10})");
   

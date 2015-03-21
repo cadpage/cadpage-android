@@ -7,8 +7,7 @@ public class DENewCastleCountyParser extends GroupBestParser {
   
   public DENewCastleCountyParser() {
     super(new DENewCastleCountyAParser(),
-           new DENewCastleCountyBParser(),
-           new DENewCastleCountyCParser());
+           new DENewCastleCountyBParser());
   }
 }
 
