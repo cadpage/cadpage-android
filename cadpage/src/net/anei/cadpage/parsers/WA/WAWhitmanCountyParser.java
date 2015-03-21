@@ -24,9 +24,7 @@ public class WAWhitmanCountyParser extends DispatchA11Parser {
   }
   
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-
-    if (!subject.equals("test")) return false;
+  protected boolean parseMsg(String body, Data data) {
     
     Matcher match = RUN_REPORT_PTN.matcher(body);
     if (match.matches()) {
@@ -38,7 +36,7 @@ public class WAWhitmanCountyParser extends DispatchA11Parser {
       return true;
     }
     if (!super.parseMsg(body, data)) return false;
-    String state = CITY_ST_TABLE.getProperty(data.strCity);
+    String state = CITY_ST_TABLE.getProperty(data.strCity.toUpperCase());
     if (state != null) data.strState = state;
     return true;
   }
@@ -50,6 +48,7 @@ public class WAWhitmanCountyParser extends DispatchA11Parser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
      "ANA", "ANATONE",
+     "ASO", "ASOTIN",
      "CLA", "CLARKSTON",
      "CLT", "COLTON",
      "GEN", "GENESSEE",
@@ -60,6 +59,7 @@ public class WAWhitmanCountyParser extends DispatchA11Parser {
   
   private static final Properties CITY_ST_TABLE = buildCodeTable(new String[]{
     "GENESEE",    "ID",
-    "LEWISTON",   "ID"
+    "LEWISTON",   "ID",
+    "MOSCOW",     "ID"
   });
 }

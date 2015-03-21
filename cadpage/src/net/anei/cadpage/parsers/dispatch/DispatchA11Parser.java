@@ -30,7 +30,7 @@ public class DispatchA11Parser extends FieldProgramParser {
   protected Field getField(String name) {
     if (name.equals("PAGE_TIME")) return new BasePageTimeField();
     if (name.equals("SRC")) return new SourceField("[-A-Z0-9]+", true);
-    if (name.equals("PAGED")) return new SkipField("PAGED", true);
+    if (name.equals("PAGED")) return new SkipField("PAGED|ASSGN", true);
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("UNIT")) return new BaseUnitField();
     return super.getField(name);
@@ -89,7 +89,9 @@ public class DispatchA11Parser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
-      data.strUnit = append(data.strUnit, " ", field);
+      if (!field.equals(data.strUnit)) {
+        data.strUnit = append(data.strUnit, " ", field);
+      }
     }
   }
 }
