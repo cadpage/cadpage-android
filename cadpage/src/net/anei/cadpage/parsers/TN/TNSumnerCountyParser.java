@@ -12,4 +12,9 @@ public class TNSumnerCountyParser extends DispatchA3Parser {
     super("", "SUMNER COUNTY", "TN",
            "EMPTY ADDR APT UNK CITY PLACE CALL! INFO+");
   }
+  
+  @Override
+  public String getFilter() {
+    return "E911@sumnersheriff.com";
+  }
 }

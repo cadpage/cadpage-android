@@ -17,6 +17,10 @@ Fraqre: r911@fhzarefurevss.pbz
  
 Pbagnpg: ebool.xybgm@tznvy.pbz <ebool.xybgm@tznvy.pbz>
 * 3571 GLERR FCEVATF EQ* * * URAQREFBAIVYYR* UNEEVATGBA CIG UBYYB* ORA NYOREG EQ* FHZARE* * BIREQBFR* * * * * * Yvar16=* Yvar17=* Yvar18=*
+ 
+Pbagnpg: Eba Jvyyf <eraabi81@tznvy.pbz>
+Fraqre: R911@fhzarefurevss.pbz
+* 130 QRAAVF EQ* * * URAQREFBAIVYYR* GJB INYYRL EQ* * FHZARE* * NYNEZ SVER* * * * * * Yvar16=* Yvar17=* Yvar18=*
 
 */
 
@@ -78,6 +82,18 @@ choyvp pynff GAFhzarePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ORA NYOREG EQ",
         "VASB:FHZARE / BIREQBFR");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEbaJvyyf() {
+
+    qbGrfg("G1",
+        "* 130 QRAAVF EQ* * * URAQREFBAIVYYR* GJB INYYRL EQ* * FHZARE* * NYNEZ SVER* * * * * * Yvar16=* Yvar17=* Yvar18=*",
+        "NQQE:130 QRAAVF EQ",
+        "PVGL:URAQREFBAIVYYR",
+        "CYNPR:GJB INYYRL EQ",
+        "VASB:FHZARE / NYNEZ SVER");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
