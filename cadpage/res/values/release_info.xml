@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03172015</string>
-  <string name="release_version">v1.8.21</string>
+  <string name="release_date">03212015</string>
+  <string name="release_version">v1.8.22</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.22\n
+Location Fixes:\n
+St Clair County, AL\n
+Tolland County, CT\n
+New Castle County, DE\n
+Dougherty County, GA\n
+Hancock County, IN\n
+Lake County, IN\n
+Jackson County, IA\n
+Ingham County, MI\n
+Middlesex County, NJ\n
+Guilford County, NC\n
+Washington County, OR\n
+Whitman County, WA\n
+\n      
 v1.8.21\n
 New Locations:\n
 Cerro Gordo County, IA\n
@@ -109,28 +124,7 @@ Davis County, UT (alt)\n
 \n
 Location Fixes:\n
 Berks County, PA\n
-Cy Creek Comm Center, TX\n
-\n      
-v1.8.17\n
-New Locations:\n
-Stockton, CA\n
-Bethel, CT\n
-Massac County, IL\n
-Clark County, KY\n
-Hernando, MS\n
-Multnomah County, OR (alt)\n
-Umatilla County, OR\n
-Georgetown County, SC (alt)\n
-Clay County, TN\n
-Harris County, TX\n
-\n
-Location Fixes:\n
-Hennepin County, MN\n
-St Louis County, MO\n
-Clermont County, OH\n
-Deschutes County, OR\n
-Missouri City, TX\n
-Canmore, AB, Canada
+Cy Creek Comm Center, TX
   </string>
 </resources>
   

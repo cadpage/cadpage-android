@@ -3807,7 +3807,7 @@ choyvp pynff JNJuvgznaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(grfg) NPSQ\aGrfg Pnyy Sver\aCNTRQ\a1720 rvtugrragu nir, yrjvfgba vqnub,YRJVFGBA\aNPSQ\aP604\agrfg grfg grfg",
         "FEP:NPSQ",
         "PNYY:Grfg Pnyy Sver",
-        "NQQE:1720 rvtugrragu nir",
+        "NQQE:1720 rvtugrragu nir, yrjvfgba vqnub",
         "PVGL:YRJVFGBA",
         "FG:VQ",
         "HAVG:NPSQ P604",
