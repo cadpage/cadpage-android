@@ -8,7 +8,7 @@ public class GADoughertyCountyParser extends DispatchOSSIParser {
   
   public GADoughertyCountyParser() {
     super("DOUGHERTY COUNTY", "GA",
-         "CALL ADDR X! INFO+");
+         "CALL ADDR X! X? INFO+");
   }
   
   @Override
