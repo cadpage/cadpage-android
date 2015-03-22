@@ -140,6 +140,17 @@ Fraqre: <cbegynaqpbzz@nze-rzf.pbz>
 (IvfvPNQ Rznvy) HAVG: 267     NFFVTARQ CBFG: 1 - Bertba Pvgl (BPFP)
 (IvfvPNQ Rznvy) HAVG: 267     NFFVTARQ CBFG: 4 - Obbarf Sreel/Xehfr Jnl
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Ghnyngva Inyyrl Sver  Erfphr
+Ybpngvba: Gvtneq, BE, Havgrq Fgngrf
+Fraqre: <cbegynaqpbzz@nze-rzf.pbz>
+
+(IvfvPNQ Rznvy) HAVG: Z52      VAP#: 4728473       EPQ: 12:34:58     QFC: 12:35:12     RAE: 12:35:36     FGT:              BAF:              JCG:              PYE: 12:45:56
+(IvfvPNQ Rznvy)              HAVG: Z52       VAP#: 4728473                                    V 5 F & Fj Jvyfbaivyyr Eq                 Jvyfbaivyyr        MVC: 97070       KFG:                                           CEV:10 Yvsr G
+(IvfvPNQ Rznvy) ** HAVG PYRNE **  ** NINVYNOYR SBE NFFVTAZRAG **   HAVG:Z52           VAP#: 4728345     PYE: 08:26:19
+(IvfvPNQ Rznvy) BOGNVA CG. FVTANGHER       HAVG:Z52            VAP#: 4728345        EPQ: 07:36:59     QFC: 07:37:07     RAE: 07:38:17     FGT:              BAF: 07:46:02     JCG:              GEN: 07:56:37     NGQ: 08:15:32
+(IvfvPNQ Rznvy)              HAVG: Z52       VAP#: 4728345                                    10910 Fj Jvyfbaivyyr Eq        9          Jvyfbaivyyr        MVC: 97070       KFG: FJ Jvyynzrggr Jnl R/FJ Bepuneq Qe         CEV:10 Yvsr G
+
 */
 
 choyvp pynff BEJnfuvatgbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -943,7 +954,53 @@ choyvp pynff BEJnfuvatgbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:HAVG: 267     NFFVTARQ CBFG: 4 - Obbarf Sreel/Xehfr Jnl");
 
   }
-  
+
+  @Grfg
+  choyvp ibvq grfgGhnyngvaInyyrlSverErfphr2() {
+
+    qbGrfg("G1",
+        "(IvfvPNQ Rznvy) HAVG: Z52      VAP#: 4728473       EPQ: 12:34:58     QFC: 12:35:12     RAE: 12:35:36     FGT:              BAF:              JCG:              PYE: 12:45:56",
+        "PNYY:EHA ERCBEG",
+        "VQ:4728473",
+        "HAVG:Z52",
+        "CYNPR:HAVG: Z52      VAP#: 4728473       EPQ: 12:34:58     QFC: 12:35:12     RAE: 12:35:36     FGT:              BAF:              JCG:              PYE: 12:45:56");
+
+    qbGrfg("G2",
+        "(IvfvPNQ Rznvy)              HAVG: Z52       VAP#: 4728473                                    V 5 F & Fj Jvyfbaivyyr Eq                 Jvyfbaivyyr        MVC: 97070       KFG:                                           CEV:10 Yvsr G",
+        "HAVG:Z52",
+        "VQ:4728473",
+        "NQQE:V 5 F & Fj Jvyfbaivyyr Eq",
+        "PVGL:Jvyfbaivyyr",
+        "CEV:10",
+        "PNYY:Yvsr G");
+
+    qbGrfg("G3",
+        "(IvfvPNQ Rznvy) ** HAVG PYRNE **  ** NINVYNOYR SBE NFFVTAZRAG **   HAVG:Z52           VAP#: 4728345     PYE: 08:26:19",
+        "PNYY:EHA ERCBEG",
+        "VQ:4728345",
+        "HAVG:Z52",
+        "CYNPR:** HAVG PYRNE **  ** NINVYNOYR SBE NFFVTAZRAG **   HAVG:Z52           VAP#: 4728345     PYE: 08:26:19");
+
+    qbGrfg("G4",
+        "(IvfvPNQ Rznvy) BOGNVA CG. FVTANGHER       HAVG:Z52            VAP#: 4728345        EPQ: 07:36:59     QFC: 07:37:07     RAE: 07:38:17     FGT:              BAF: 07:46:02     JCG:              GEN: 07:56:37     NGQ: 08:15:32",
+        "PNYY:EHA ERCBEG",
+        "VQ:4728345",
+        "HAVG:Z52",
+        "CYNPR:BOGNVA CG. FVTANGHER       HAVG:Z52            VAP#: 4728345        EPQ: 07:36:59     QFC: 07:37:07     RAE: 07:38:17     FGT:              BAF: 07:46:02     JCG:              GEN: 07:56:37     NGQ: 08:15:32");
+
+    qbGrfg("G5",
+        "(IvfvPNQ Rznvy)              HAVG: Z52       VAP#: 4728345                                    10910 Fj Jvyfbaivyyr Eq        9          Jvyfbaivyyr        MVC: 97070       KFG: FJ Jvyynzrggr Jnl R/FJ Bepuneq Qe         CEV:10 Yvsr G",
+        "HAVG:Z52",
+        "VQ:4728345",
+        "NQQE:10910 Fj Jvyfbaivyyr Eq",
+        "NCG:9",
+        "PVGL:Jvyfbaivyyr",
+        "K:FJ Jvyynzrggr Jnl R/FJ Bepuneq Qe",
+        "CEV:10",
+        "PNYY:Yvsr G");
+
+  }
+ 
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj BEJnfuvatgbaPbhaglPCnefreGrfg().trarengrGrfgf("G1");
