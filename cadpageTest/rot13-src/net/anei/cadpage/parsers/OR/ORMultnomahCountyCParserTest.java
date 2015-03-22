@@ -99,10 +99,6 @@ Ybpngvba: Terfunz, BE, Havgrq Fgngrf
 (119) 119;90290 H.F. 26;Tbireazrag Pnzc;14-071;PPFB 7.14.14@22:10 Zvffvat 51lbs, zvffvba qbar @Terra Evire PT bss Fnyzba Evire Eq. ZJ31
 (911) 911;90290 H.F. 26;Tbireazrag Pnzc;14-071;PPFB 7.14.14@17:00 Zvffvat 51lbs, FZNYY PBZF grnz. Mvt Mnt Enatre Fgngvba ZC41 UJL26. ZJ31 503-780-4145.
 
-Cerggl onfvP PNYY NQQE PVGL VQ VASB
-VQ vf fbzrgvzrf pbzovarq jvgu vasb svryq.
-VASB svryq *hfhnyyl* fgnegf bhg jvgu n qngr/gvzr
-
 */
 
 choyvp pynff BEZhygabznuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
