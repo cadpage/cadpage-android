@@ -44,6 +44,8 @@ public class NYSuffolkCountyBParser extends DispatchA14Parser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    body = stripFieldStart(body, "/ no subject / ");
+    
     // Rule out version A pages
     if (body.startsWith("TYPE:")) return false;
     
