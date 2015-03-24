@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Frivre Pbhagl, GA
 
+Pbagnpg: Zvpunry Uhfxrl <ztuhfxrl@tznvy.pbz>
+Fraqre: Prageny_Qvfcngpu@frivrepbhaglga.bet
+EVIRE QVIVQR EQ / SENAXYVA YA FRIVREIVYYR; 2015-0010318; OEHFU SVER\e\a
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Frivre Pbhagl SQ (FRI-PB)
 Ybpngvba: Frivreivyyr, GA, Havgrq Fgngrf
@@ -1202,6 +1206,18 @@ choyvp pynff GAFrivrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp GAFrivrePbhaglCnefreGrfg() {
     frgCnefre(arj GAFrivrePbhaglCnefre(), "FRIVRE PBHAGL", "GA");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZvpunryUhfxrl() {
+
+    qbGrfg("G1",
+        "EVIRE QVIVQR EQ / SENAXYVA YA FRIVREIVYYR; 2015-0010318; OEHFU SVER\e\a",
+        "NQQE:EVIRE QVIVQR EQ & SENAXYVA YA",
+        "PVGL:FRIVREIVYYR",
+        "VQ:2015-0010318",
+        "PNYY:OEHFU SVER");
+    
   }
 
   @Grfg
