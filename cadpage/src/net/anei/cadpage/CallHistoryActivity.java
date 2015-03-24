@@ -8,6 +8,8 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ListActivity;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Build;
@@ -32,6 +34,7 @@ public class CallHistoryActivity extends ListActivity {
   private static String EXTRA_MSG_ID = "net.anei.cadpage.CallHistoryActivity.MSG_ID";
   
   private static final int RELEASE_DIALOG = 1;
+  private static final int CONFIRM_DELETE_ALL_DIALOG = 2;
   
   // keep track of which message text view has opened a context menu
   private HistoryMsgTextView msgTextView = null;
@@ -213,6 +216,19 @@ public class CallHistoryActivity extends ListActivity {
         .setMessage(releaseId)
         .setPositiveButton(android.R.string.ok, null)
         .create();
+        
+      case CONFIRM_DELETE_ALL_DIALOG:
+        return new AlertDialog.Builder(this)
+        .setIcon(R.drawable.ic_launcher)
+        .setTitle(R.string.confirm_delete_all_title)
+        .setMessage(R.string.confirm_delete_all_text)
+        .setPositiveButton(R.string.yes, new OnClickListener(){
+          @Override
+          public void onClick(DialogInterface dialog, int which) {
+            SmsMessageQueue.getInstance().clearAll();
+          }})
+        .setNegativeButton(R.string.no, null)
+        .create();
     }
     
     return super.onCreateDialog(id);
@@ -237,16 +253,24 @@ public class CallHistoryActivity extends ListActivity {
    */
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
+    
     // Handle item selection
 	  SmsMessageQueue msgQueue = SmsMessageQueue.getInstance();
     switch (item.getItemId()) {
+    
     case R.id.settings_item:
       Intent intent = new Intent(this, SmsPopupConfigActivity.class);
       startActivity(intent);
       return true;
+      
+    case R.id.markallopened_item:
+      msgQueue.markAllRead();
+      return true;
+      
     case R.id.clearall_item:
-    	msgQueue.clearAll();
+      showDialog(CONFIRM_DELETE_ALL_DIALOG);
     	return true;
+    	
     case R.id.exit_item:
     	this.finish();
     	return true;

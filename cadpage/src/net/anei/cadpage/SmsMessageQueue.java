@@ -193,6 +193,17 @@ public class SmsMessageQueue implements Serializable {
   }
   
   /**
+   * Mark all messages as opened
+   */
+  public void markAllRead() {
+    if (Log.DEBUG) Log.v("SmsMessageQueue: markAllOpened");
+    for (Iterator<SmsMmsMessage> itr = queue.iterator(); itr.hasNext(); ) {
+      itr.next().setRead(true);
+    }
+    notifyDataChange();
+  }
+  
+  /**
    * Remove all expendable (read and not locked) messages
    */
   public void clearAll() {

@@ -384,7 +384,10 @@
     applications</string>
 
   <string name="exit">Exit</string>
+  <string name="markallopened_text">Mark All Read</string>
   <string name="clearall_text">Clear All</string>
+  <string name="confirm_delete_all_title">Delete all Calls?</string>
+  <string name="confirm_delete_all_text">Do you really want to delete all call history?</string>
   <string name="pref_passthrusms_title">Pass Calls through to SMS Client</string>
   <string name="pref_passthrusms_summaryoff">Do not pass Cadpage calls to SMS Client</string>
   <string name="pref_passthrusms_summaryon">Pass all calls through to default SMS Client
@@ -480,7 +483,7 @@
   
   <string name="tracking_prompt_title">Enable Position Tracking</string>
   <string name="tracking_prompt_text">Would you like Cadpage to report your real time position to other responders?</string>
-  <string name="tracking_btn_yes">Yes</string>
-  <string name="tracking_btn_no">No</string>
+  <string name="yes">Yes</string>
+  <string name="no">No</string>
   <string name="remember_text">Remember this decision?</string>
 </resources>

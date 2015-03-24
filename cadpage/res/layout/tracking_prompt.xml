@@ -48,13 +48,13 @@
       android:id="@+id/TrackingYesBtn"
       android:layout_height="wrap_content"
       android:layout_weight="1"
-      android:text="@string/tracking_btn_yes"
+      android:text="@string/yes"
       android:layout_width="fill_parent" />
     <Button
       android:id="@+id/TrackingNoBtn"
       android:layout_height="wrap_content"
       android:layout_weight="1"
-      android:text="@string/tracking_btn_no"
+      android:text="@string/no"
       android:layout_width="fill_parent" />
   </LinearLayout>
   <CheckBox
