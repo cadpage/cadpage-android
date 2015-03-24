@@ -315,7 +315,10 @@
   <string name="pref_publish_pages_summaryon">Larmärenden kommer att publiceras för 3:e partsapplikation</string>
   <string name="pref_publish_pages_summaryoff">Larmärenden kommer inte publiceras för 3:e partsapplikation</string>
   <string name="exit">Avsluta</string>
+  <string name="markallopened_text">Mark All Read</string>                  <!-- Translate -->
   <string name="clearall_text">Rensa Alla</string>
+  <string name="confirm_delete_all_title">Delete all Calls?</string>         <!-- Translate -->
+  <string name="confirm_delete_all_text">Do you really want to delete all call history?</string>   <!-- Translate -->
   <string name="pref_passthrusms_title">Släpp igenom larm till SMS-klienten</string>
   <string name="pref_passthrusms_summaryoff">Släpp inte igenom larm till SMS-klienten</string>
   <string name="pref_passthrusms_summaryon">Släpper igenom larm till SMS-klienten</string>
@@ -393,7 +396,7 @@
   <string name="tracking_text">Välj för att avbryta positionsspårning</string>
   <string name="tracking_prompt_title">Koppla till positionsspårning</string>
   <string name="tracking_prompt_text">Vill du att Cadpage ska rapportera din position till andra enheter i realtid?</string>
-  <string name="tracking_btn_yes">Ja</string>
-  <string name="tracking_btn_no">Nej</string>
+  <string name="yes">Ja</string>
+  <string name="no">Nej</string>
   <string name="remember_text">Komma ihåg ditt val?</string>
 </resources>
