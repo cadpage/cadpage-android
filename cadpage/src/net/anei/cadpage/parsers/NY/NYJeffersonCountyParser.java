@@ -12,13 +12,11 @@ public class NYJeffersonCountyParser extends FieldProgramParser {
   
   public NYJeffersonCountyParser() {
     super("JEFFERSON COUNTY", "NY",
-          "CALL ADDR! INFO+");
+          "CALL ADDR! INFO");
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    
-    body = body.replace('\n', ' ').replaceAll("  +", " ");
 
     // Fixed stuff messed up by IAR edits :(
     String[] flds;
@@ -79,6 +77,13 @@ public class NYJeffersonCountyParser extends FieldProgramParser {
     return "SRC UNIT " + super.getProgram();
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+  
   private static final Pattern ADDR_PTN = Pattern.compile("\\(.\\)$");
   private class MyAddressField extends AddressField {
     
@@ -98,44 +103,36 @@ public class NYJeffersonCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern CALLBACK_PTN = Pattern.compile("\\bCALLBACK=([^ ]*) LAT=([^ ]*) LON=([^ ]*)");
-  private static final Pattern LATLON_PTN = Pattern.compile("LAT:([^ ]*) +LON:([-+\\.0-9]*)");
+  private static final Pattern MSPACE_PTN = Pattern.compile("  +");
+  private static final Pattern CALLBACK_PTN = Pattern.compile("(?:CALLBACK=([^ ]*) +)?LAT[:=]([-+]?[\\.0-9]*) LON[:=]([-+]?[\\.0-9]*).*");
+  private static final Pattern TURN_OFF_PTN = Pattern.compile("\\d{5}-\\d{3}-\\d{4} \\d\\d/\\d\\d \\d\\d:\\d\\d:\\d\\d .*");
+  private static final Pattern TURN_ON_PTN = Pattern.compile("\\d\\d:\\d\\d:\\d\\d \\d\\d/\\d\\d/\\d{4} - .*");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      int cutoff = field.length();
-      Matcher match = CALLBACK_PTN.matcher(field);
-      if (match.find()) {
-        cutoff = Math.min(cutoff, match.start());
-        data.strPhone = match.group(1);
-        setGPSLoc(append(match.group(2), " ", match.group(3)), data);
-      }
-      
-      if (data.strGPSLoc.length() == 0) {
-        match = LATLON_PTN.matcher(field);
+      boolean include = true;
+      for (String part : field.split("\n")) {
+        part = MSPACE_PTN.matcher(part.trim()).replaceAll(" ");
+        Matcher match = CALLBACK_PTN.matcher(part);
         if (match.find()) {
-          cutoff = Math.min(cutoff, match.start());
-          setGPSLoc(append(match.group(1), " ", match.group(2)), data);
+          String phone = match.group(1);
+          if (phone != null) data.strPhone = phone;
+          setGPSLoc(append(match.group(2), ",", match.group(3)), data);
+          include = false;
+          continue;
         }
+        if (include) {
+          include = !TURN_OFF_PTN.matcher(part).matches();
+        } else {
+          include = TURN_ON_PTN.matcher(part).matches();
+        }
+        if (include) data.strSupp = append(data.strSupp, "\n", part);
       }
-
-      int pt = field.indexOf(":ProQA");
-      if (pt >= 0) cutoff = Math.min(cutoff, pt);
-      
-      field = field.substring(0,cutoff).trim();
-      super.parse(field, data);
     }
     
     @Override
     public String getFieldNames() {
       return "INFO PHONE GPS";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
 }
