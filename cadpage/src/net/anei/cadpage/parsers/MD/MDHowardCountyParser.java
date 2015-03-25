@@ -13,7 +13,7 @@ public class MDHowardCountyParser extends FieldProgramParser {
   
   public MDHowardCountyParser() {
     super(CITY_CODES, "HOWARD COUNTY", "MD",
-           "ADDR/S! TYPE:CALL! BEAT/BOX:BOX");
+           "ADDR/S! TYPE:CALL! BEAT/BOX:BOX Disp:UNIT");
   }
   
   @Override
@@ -24,6 +24,7 @@ public class MDHowardCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
+    body = body.replace("=20", " ").trim();
     do {
       if (subject.startsWith("CAD") || subject.startsWith("hCAD")) break;
       
@@ -32,11 +33,17 @@ public class MDHowardCountyParser extends FieldProgramParser {
         break;
       }
       if (body.startsWith("EVENT: ")) break;
+      
       if (isPositiveId()) break;
       return false;
     } while (false);
     
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strUnit.length() == 0) {
+      String unit = UNIT_CODES.getProperty(data.strCall);
+      if (unit != null) data.strUnit = unit;
+    }
+    return true;
   }
   
   @Override
@@ -66,14 +73,17 @@ public class MDHowardCountyParser extends FieldProgramParser {
         data.strCallId = field.substring(0,pt);
         field = field.substring(pt+1).trim();
       }
-      if (field.startsWith("Location:")) field = field.substring(9).trim();
+      field = stripFieldStart(field, "Location:");
       Parser p = new Parser(field);
       String sAddr = p.get(": @");
       data.strPlace = p.get().replace(": @", " - ");
-      p = new Parser(sAddr);
-      p.getLastOptional(':');
-      data.strApt = p.getLastOptional(',');
-      super.parse(p.get(), data);
+      if (!sAddr.endsWith(")")) {
+        p = new Parser(sAddr);
+        p.getLastOptional(':');
+        data.strApt = p.getLastOptional(',');
+        sAddr = p.get();
+      }
+      super.parse(sAddr, data);
     }
     
     @Override
@@ -91,9 +101,6 @@ public class MDHowardCountyParser extends FieldProgramParser {
       Matcher match = TRAIL_JUNK_PTN.matcher(call);
       if (match.find()) call = call.substring(0,match.start()).trim();
       data.strCall =  call;
-      
-      String unit = UNIT_CODES.getProperty(data.strCall);
-      if (unit != null) data.strUnit = unit;
 
       data.strTime = p.get(' ');
       
@@ -193,20 +200,21 @@ public class MDHowardCountyParser extends FieldProgramParser {
       "INVPKG",                 "SPEC_OPS",
       "TECHRES-TECHRES",        "SPEC_OPS",
       
-      "ALFIRE-BUSC",            "UNIT_MISC",
-      "ALFIRE-RES",             "UNIT_MISC",
-      "BRUSH-BRUSH",            "UNIT_MISC",
-      "CO-NOSYMP",              "UNIT_MISC",
-      "CO-SYMPTOMS",            "UNIT_MISC",
-      "LOCKR-LOCKR",            "UNIT_MISC",
-      "LOCKV-ANIMAL",           "UNIT_MISC",
-      "MISC-default",           "UNIT_MISC",
-      "MUTAID-MAFIRE",          "UNIT_MISC",
-      "ODOR-OUTSIDE",           "UNIT_MISC",
-      "RESCUE-UNKNOWN",         "UNIT_MISC",
-      "TRANSFER-ENGINE",        "UNIT_MISC",
-      "VEHICLE-AUTO",           "UNIT_MISC",
-      "VEHICLE-TRUCK",          "UNIT_MISC"
+      "ALFIRE-BUSC",            "MISC",
+      "ALFIRE-RES",             "MISC",
+      "BRUSH-BRUSH",            "MISC",
+      "CO-NOSYMP",              "MISC",
+      "CO-SYMPTOMS",            "MISC",
+      "GASLEAK-OUTSIDE",        "MISC",
+      "LOCKR-LOCKR",            "MISC",
+      "LOCKV-ANIMAL",           "MISC",
+      "MISC-default",           "MISC",
+      "MUTAID-MAFIRE",          "MISC",
+      "ODOR-OUTSIDE",           "MISC",
+      "RESCUE-UNKNOWN",         "MISC",
+      "TRANSFER-ENGINE",        "MISC",
+      "VEHICLE-AUTO",           "MISC",
+      "VEHICLE-TRUCK",          "MISC"
   });
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
