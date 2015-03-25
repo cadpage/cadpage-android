@@ -11,4 +11,9 @@ public class ORClackamasCountyParser extends GroupBestParser {
     super(new ORClackamasCountyAParser(), new ORClackamasCountyBParser(),
           new ORClackamasCountyCParser());
   }
+  
+  @Override
+  public String getLocName() {
+    return "Clackamas County, OR";
+  }
 }
