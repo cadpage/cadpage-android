@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Arj Mrnynaq
 
+Pbagnpg: Qba ZpReyvpu <qba.zpreyvpu@ibqnsbar.pb.am>
+Fraqre: TPZ
+(FVYI907, FVYI901, NYON851) CSN-FGEH (Nynez Glcr GUREZNY) (Obk -P90-07) UREZNA CNPVSVP FBHGU LNEQ ZN1\\115 SBHAQEL EQ FVYIREQNYR. (KFge VATBG CY/) (k-396771647 l-201941647) #S1813962
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Gvenh Sver Oevtnqr
 Ybpngvba: Gvenh, Jnvxngb, Arj Mrnynaq
@@ -533,6 +537,25 @@ choyvp pynff MAMArjMrnynaqCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp MAMArjMrnynaqCnefreGrfg() {
     frgCnefre(arj MAMArjMrnynaqCnefre(), "", "");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQbaZpreyvpu() {
+
+    qbGrfg("G1",
+        "(FVYI907, FVYI901, NYON851) CSN-FGEH (Nynez Glcr GUREZNY) (Obk -P90-07) UREZNA CNPVSVP FBHGU LNEQ ZN1\\115 SBHAQEL EQ FVYIREQNYR. (KFge VATBG CY/) (k-396771647 l-201941647) #S1813962",
+        "HAVG:FVYI907, FVYI901, NYON851",
+        "PBQR:CSN-FGEH",
+        "OBK:-P90-07",
+        "CYNPR:UREZNA CNPVSVP FBHGU LNEQ ZN1\\115",
+        "NQQE:SBHAQEL EQ",
+        "ZNQQE:SBHAQEL EQ & VATBG CY",
+        "PVGL:FVYIREQNYR",
+        "K:VATBG CY",
+        "PNYY:Nynez Glcr GUREZNY",
+        "TCF:-36.623738,+174.685767",
+        "VQ:S1813962");
+
   }
 
   @Grfg
