@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03212015</string>
-  <string name="release_version">v1.8.22</string>
+  <string name="release_date">03252015</string>
+  <string name="release_version">v1.8.23</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.23\n
+New menu option to mark all calls as read\n
+Now requires user confirmation before deleting all call history\n
+\n
+Loation Fixes:\n
+Dougherty COunty, GA\n
+Howard County, MD\n
+St Charles County, MO\n
+Suffolk County, NY\n
+\n      
 v1.8.22\n
 Location Fixes:\n
 St Clair County, AL\n
@@ -44,7 +54,7 @@ Monroeville, PA\n
 Washington County, PA\n
 \n
 General Fixes:\n
-"Check Response" button for CodeMessaging alerts will no longer when the "More Info"
+"Check Response" button for CodeMessaging alerts will no longer appear when the "More Info"
 button is not configured.\n
 \n
 v1.8.20\n      
@@ -111,20 +121,7 @@ Rosenburg, TX\n
 Yakima County, WA\n 
 \n
 General Fixes:\n
-Force close in rare circumstances when upgrading direct paging vendor text messaging to direct paging.\n
-\n      
-v1.8.18\n
-New Locations:\n
-Park County, CO\n
-Logan County, KY\n
-Dodge County, MN\n
-Marlboro, NJ\n
-Allen County, OH\n
-Davis County, UT (alt)\n
-\n
-Location Fixes:\n
-Berks County, PA\n
-Cy Creek Comm Center, TX
+Force close in rare circumstances when upgrading direct paging vendor text messaging to direct paging.
   </string>
 </resources>
   
