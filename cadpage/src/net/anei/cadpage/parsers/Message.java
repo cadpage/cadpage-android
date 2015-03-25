@@ -133,7 +133,7 @@ public class Message {
   private static final Pattern CONT_PTN = Pattern.compile("\\(C.* \\d\\d? of \\d\\d?");
   
   private static final Pattern[] EMAIL_PATTERNS = new Pattern[]{ 
-    Pattern.compile("^(?:\\*.*\\*)?([-\\w\\.]+@[-\\w]+\\.[-\\w\\.]+)(?: +/ +/ +)"),
+    Pattern.compile("^(?:\\*.*\\*)?([-\\w\\.]+@[-\\w]+\\.[-\\w\\.]+)(?: +/ +(?:no subject +)?/ +)"),
     Pattern.compile(" - Sender: *([-\\w\\.]+@[-\\w\\.]+) *\n"),
     Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?((?:[\\w.!\\-]+\\w|\\\"[\\w\\.!\\- ]+\\\")@[-\\w]+\\.[-\\w\\.]+)[\\s:]"),
     Pattern.compile("^((?:[-\\w\\.]+)@[-\\w]+) *+(?=\\()"),
