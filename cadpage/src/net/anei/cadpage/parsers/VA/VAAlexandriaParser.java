@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.VA;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,8 +12,8 @@ public class VAAlexandriaParser extends FieldProgramParser {
   private static final Pattern MISSING_COMMA_PTN = Pattern.compile("(?=ADDR:|APT:|X-ST:|TAC:|City:|INFO:)");
   
   public VAAlexandriaParser() {
-    super("ALEXANDRIA", "VA",
-           "CALL:CALL! ADDR:ADDR! APT:APT! X-ST:X! UNIT:UNIT! INC#:ID! GPS:GPS! City:CITY? INFO:INFO!");
+    super(CITY_CODES, "ALEXANDRIA", "VA",
+           "CALL:CALL! ADDR:ADDR/S! APT:APT! X-ST:X! UNIT:UNIT! INC#:ID! GPS:GPS! City:CITY? INFO:INFO!");
   }
 
   @Override
@@ -27,6 +28,7 @@ public class VAAlexandriaParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("GPS")) return new MyGPSField();
+    if (name.equals("CITY")) return new MyCityField();
     return super.getField(name);
   }
   
@@ -34,8 +36,14 @@ public class VAAlexandriaParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
-      super.parse(p.get(" btwn "), data);
+      field = p.get(" btwn ");
       data.strCross = append(p.get(" and "), " / ", p.get());
+      
+      p = new Parser(field);
+      data.strPlace = p.getLastOptional(": @");
+      String apt = p.getLastOptional(',');
+      super.parse(p.get(), data);
+      data.strApt = append(data.strApt, "-", apt);
     }
   }
   
@@ -57,4 +65,38 @@ public class VAAlexandriaParser extends FieldProgramParser {
       super.parse(field,data);
     }
   }
+  
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() == 0) return;
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ALEX", "ALEXANDRIA",
+      "ANDL", "ANNANDALE",
+      "ARLN", "ARLINGTON",
+      "BRKE", "BURKE",
+      "CENT", "CENTREVILLE",
+      "CHAN", "CHANTILLY",
+      "CLFT", "CLIFTON",
+      "DLLS", "DULLES",
+      "DUNN", "DUNN LORING",
+      "FLCH", "FALLS CHURCH",
+      "FRFX", "FAIRFAX",
+      "FTBV", "FORT BELVOIR",
+      "FXST", "FAIRFAX STATION",
+      "GTFL", "GREAT FALLS",
+      "HRND", "HERNDON",
+      "LRTN", "LORTON",
+      "MCLN", "MCLEAN",
+      "OKTN", "OAKTON",
+      "RSTN", "RESTON",
+      "SFLD", "SPRINGFIELD",
+      "STLG", "STERLING",
+      "VNNA", "VIENNA"
+
+  });
 }
