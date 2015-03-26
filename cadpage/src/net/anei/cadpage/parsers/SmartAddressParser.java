@@ -2915,7 +2915,12 @@ public abstract class SmartAddressParser extends MsgParser {
   private boolean isRoadToken(int ndx) {
     
     // If reserved single word name, answer is yes
-    if (isType(ndx, ID_SINGLE_WORD_ROAD)) return true;
+    // Unless it is also an optional street suffix followed by a 
+    // real street suffix
+    if (isType(ndx, ID_SINGLE_WORD_ROAD)) {
+      if (isType(ndx, ID_AMBIG_ROAD_SFX) && isType(ndx+1, ID_ROAD_SFX)) return false;
+      return true;
+    }
     
     // If illegal char, answer is no
     if (isType(ndx, ID_NOT_ADDRESS | ID_CONNECTOR)) return false;
