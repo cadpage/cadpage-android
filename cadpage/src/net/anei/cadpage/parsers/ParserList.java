@@ -324,6 +324,7 @@ public class ParserList {
               ,"ILChampaignUrbana"              ,"Champaign-Urbana, IL"
               ,"ILCookCounty"                   ,"Cook County, IL"
               ,"ILDuPageCounty"                 ,"DuPage County, IL"
+              ,"ILElgin"                        ,"Elgin, IL"
               ,"ILIroquoisCounty"               ,"Iroquois County, IL"
               ,"ILKaneCounty"                   ,"Kane County, IL"
               ,"ILKankakeeCounty"               ,"Kankakee County, IL"

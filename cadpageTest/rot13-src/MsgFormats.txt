@@ -3467,10 +3467,15 @@ Pnynirenf Pbhagl, PN (PNPnynirenfPbhaglCnefre)
 (PNQ Cntr) Vap# 007256: 5489 GBANCNU EQ ,PNYNIRENF_PBHAGL :Znc  2647/32N_001: YNG/YBAT K: -120 22.6286  L: 38 10.1916: ZRQVPNY: 77 LB S SI CBFF SK NAXYR: 43 R4480 Q4494
 (PNQ Cntr) Vap# 007104: ANGHENY OEVQTRF @ =Y(38.051636,-120.470996) ,PNYNIRENF_PBHAGL :Znc  509/37O_005: YNG/YBAT K: -120 28.2597  L: 38 3.09816: ZRQ, GENSSVP PBYYVFVBA: ZIN: 24 22 R4452
 ***************************************************************************
-Pbagen Pbfgn Pbhagl, PN (PNPbagenPbfgnPbhaglCnefre)
+Pbagen Pbfgn Pbhagl, PN (PNPbagenPbfgnPbhaglNCnefre)
 VASB CNTR Sver-Fgehp Pbzzy 719 Green Pnyvsbeavn Qe Jnyahg Perrx D101,R103,R115,R117,G141,R105,
 VASB CNTR *RZF-CQ P3 1581 Pbapbeq Nir Pbapbeq NZEN310,FD6
 VASB CNTR *RZF-CQ P3 5450 Ybhvfvnan Qe Pbapbeq NZEN310,R122
+***************************************************************************
+Pbagen Pbfgn Pbhagl, PN (O) (PNPbagenPbfgnPbhaglOCnefre) 
+(VCF V/Cntr Abgvsvpngvba) NN NYNEZ: 1 YBP: 11801 OYBBZVATGBA JNL NYPB KFG1: CHGANZ PG KFG2: SRAJVPX JNL ZNC: M17O 1582 447 GVZR: 16:16:21 RZQ: NYPB CYNPR: QHOYVA YNG: 37.7208683176024 YBAT: -121.945583325345 FGN: NYPB16 /PNQ vCntr
+(VCF V/Cntr Abgvsvpngvba) ZR NYNEZ: 1 KFG1: WNFZVAR JNL KFG2: PNZVAB GNFFNWNEN EQ ZNC: H19P 1594 476 GVZR: 15:51:01 RZQ: qrsnhyg CYNPR: OYNPXUNJX YNG: YBAT: FGN: 35 /PNQ vCntr
+(VCF V/Cntr Abgvsvpngvba) ZR NYNEZ: 1 YBP: 4171 ERRQYNAQ PVE FE KFG1: JENATYRE EQ KFG2: OYHRTENFF JNL ZNC: I18N 1587 473 GVZR: 14:47:17 RZQ: qrsnhyg CYNPR: FNA ENZBA YNG: 37.7908703039757 YBAT: -121.927626135034 FGN: 35 /PNQ vCntr
 ***************************************************************************
 Ry Qbenqb Pbhagl, PN (PNRyQbenqbPbhaglCnefre)
 (PNQ Cntr) 15-Znl-2011/16:10:27: UNM, RYRPGEVPNY: Vap# 010021: 5537 ZBETNA ENAPU YBBC ,TRBETRGBJA  TRBPUS TRBRAT Z61 61; ; K: -120 50.5096  L: 38 54.859
@@ -4074,6 +4079,11 @@ Qhcntr Pbhagl, VY (P) (VYQhCntrPbhaglPCnefre)
 (Arj Pnyy/Vapvqrag Nyreg) 2/19/2014 5:03:27 CZ 0340500187\a  PUSQ  ZNC CNTR:6  \aOBK
 (Arj Pnyy/Vapvqrag Nyreg) 2/19/2014 4:50:42 CZ 0340500186\a  PUSQ  ZNC CNTR:6  \aGERR; OEHFU; TENFF SVER
 (Arj Pnyy/Vapvqrag Nyreg) 2/19/2014 3:47:49 CZ 0340500185\a  PUSQ  ZNC CNTR:6  \aSVER NYNEZ
+****************************************************************************
+Rytva, VY (VYRytvaCnefre)
+(!) JNGE: 1550 QHAPNA NIR, Rytva: Qhapna/V90: Ab Pebff Fgerrgf Sbhaq: Havgf: R1, R2, N2, N4, OP1, OBNG2, 101P, 502N, 901N, 918P, QVIR2, QVIR21 Aneengvir:pna frr n juvgr pne va gur evire\apna bayl frr gur gbc bs gur pne\apnyyre fnj vg sebz jo v90 cnffvat ..
+(!) SVER: 402 PBATQBA NIR, Rytva: : YBTNA NIR / PRQNE NIR: Havgf:  Aneengvir:jnfuvat znpuvar va onfrzrag ba sver\agbc bs jnfuvat znpuvar vf ba sver\asver vf bhg, ohg jnfuvat znpu..
+(!) SVER: 1130 LRJ PG, Rytva: : QRNQ RAQ / CBCYNE PERRX QE: Havgf: R1, G1, R5, N5, R6, OP1, 201O, 401O, 921O Aneengvir:genfu pna oheavat\a5 sg sebz n ubhfr\aAneengvir nqqrq sebz nffbpvngrq Pnyy #: 714 - qhzcgfgre ba sver
 ****************************************************************************
 Vebdhbvf Pbhagl, VY (VYVebdhbvfPbhaglCnefre) 
 Snvgu Cynpr, Qnasbegu / Ryyra ZpXvooba, 88 / Snyy, Yrsg Uvc Cnva
@@ -5578,6 +5588,11 @@ Oragba Pbhagl, BE (BEOragbaPbhaglCnefre)
 (Pbeinyyvf Nyreg) VAP: PBQR 1 ZRQVPNY\aNQQ:1740 ZNVA FG\aNCG:\aPVGL:CUVYBZNGU\aK:A 17GU FG * A 18GU FG\aZNC:540-365\aPSF:0907010-119\aQVF:CUVYBZNGU SVER
 (Pbeinyyvf Nyreg) VAP:PBZZ SVER NYNEZ\aNQQ:421 F 19GU FG\aNCG:\aPVGL:CUVYBZNGU\aK:NFU FG * PRQNE FG\aZNC:540-360\aPSF:100410-188\aQVF:CUVYBZNGU SVER\aQVF:CUV
 ***************************************************************************
+Pynpxnznf Pbhagl, BE (Q) (BEPynpxnznfPbhaglQCnefre) 
+YVSG NFFVFG  05:46:24 22530 FR ZBEEVFBA FG[UFR  Qg: ST  Mar: 7124  Tq: 5406N FR 224GU NIR & AR EBOREGF NIR / OYBPX:<800> R71 ET #3779 Frag ol: QC7
+PU1  05:03:00 R CBJRYY OYIQ / FR EBOREGF NIR  Qg: ST  Mar: 7160  Tq: 5506N 101-129 R CBJRYY OYIQ/1-198 FR EBOREGF N / OYBPX:<00, 100> R71 Z327 ET #3778 Frag ol: QC7
+GN1  22:24:06 AR SNVEIVRJ CXJL / AR TYVFNA FG  Qg: ST  Mar: 7106  Tq: 5305O 20501-20699 AR TYVFNA FG/501-1499 AR SNV / OYBPX:<500, 20700> Pu: BCF1 R71 Z331 ET #3770 Frag ol: QC7
+***************************************************************************
 Pyngfbc Pbhagl, BE (BEPyngfbcPbhaglCnefre) 
 (Sver Pnyy) 317 6GU NIR/SVER VAIRFGVTNGVBA
 (Sver Pnyy) RZRET ZRQVPNY ERFCBAFR/FRVMHER
@@ -5649,10 +5664,15 @@ ZIN UVTUJNL 22 Urob  YBFG PNYYRE  BAR YNAR OYBPXRQ  OYRRQVAT SEBZ UNAQ  FVATYR I
 Haxabja 18900 PNCR YBBXBHG EQ Fnaqynxr  QBRFAG NCCRNE GB OR FCNEXVAT  UNIR GB QEVIR BIRE VG  YNLVAT BA GUR TEBHAQ  Pnyy #: 1454 - R911 Vasb - Pynff bs Freivpr: ERFQ  CBJRE YVAR NPEBFF EBNQ  R911 Vasb - Pynff bs Freivpr: ERFQ
 Zrqvpny 12555 BYQ JBBQF EQ Pybireqnyr  Ceboyrz: PURFG CNVA.  Cngvrag Vasb: 1 cngvrag(f); 91 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  91 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Purfg Cnva (Aba-Genhzngvp).  CebDN Zrqvpny Pnfr Ragel unf orra pbzcyrgrq; Qvfcngpu Pbqr: 10--
 ***************************************************************************
-Jnfuvatgba Pbhagl, BE (BEJnfuvatgbaPbhaglCnefre)
+Jnfuvatgba Pbhagl, BE (BEJnfuvatgbaPbhaglNCnefre)
 ZIN-HXA VAWHEL FJ GHNYNGVA INYYRL UJ/FJ331FG NI (33098 GHNYNGVA INYYRL/331FG) UVY ZNC: 5377Q HAVG: P2 R01 E8
 NOQBZVANY CNVA 985 A QNIVF FG (QRNQ RAQ & A 10GU NI) PBA ZNC: 5375Q HAVG ZRGJN FGN8
 OERNGUVAT CEBO 39470 FJ TRVTRE EQ (FJ YNSBYYRGG EQ & SREA UVYY EQ) PBA ZNC: 5574O HAVG: ZRGJN FGN8
+***************************************************************************
+Jnfuvatgba Pbhagl, BE (Q) (BEJnfuvatgbaPbhaglQCnefre) 
+(CJ150790151) CHEFHVG (CHE)<oe/><n uers="uggc://zncf.nccyr.pbz/?d=45.5324460645768%2p-122.842264613296" > AJ FHAFRG UJ JO/AJ ORGUNAL OI, ORNIREGBA, BE (FHAFRG/1711 ORGUNAL)</n><oe/>HAVGF: 5302, 5325, 5329, 5453, 5727<oe/>VAP: 150790151<oe/>QNERN: OI<oe/>ZNC: 5386N<oe/>EQ: 626005<oe/>ORNG/FGNGVBA: O1<oe/>uggc://zncf.nccyr.pbz/?d=45.5324460645768,-122.842264613296
+(CJ150781268) EBOOREL (EBO)<oe/><n uers="uggc://zncf.nccyr.pbz/?d=45.4956991424749%2p-122.851334081329" > 3280 FJ 170GU NI #413, ORNIREGBA, BE (FJ UREVGNTR PG & FJ ALFFRA EQ)</n><oe/>HAVGF: <oe/>VAP: 150781268<oe/>QNERN: OI<oe/>ZNC: 5585Q<oe/>EQ: 611405<oe/>ORNG/FGNGVBA: O1<oe/>uggc://zncf.nccyr.pbz/?d=45.4956991424749,-122.851334081329
+(CJ150770985) GES NPP, VAWHEL (GNV)<oe/><n uers="uggc://zncf.nccyr.pbz/?d=45.4864240193843%2p-122.771085228844" > FJ ORNIREGBA UVYYF UJ/FJ 91FG NI, CBEGYNAQ, BE (9100 ORNIREGBA UVYYFQNYR/4698 91FG)</n><oe/>HAVGF: 6139, 6232, 6262<oe/>VAP: 150770985<oe/>QNERN: OI<oe/>ZNC: 5689O<oe/>EQ: 620405<oe/>ORNG/FGNGVBA: O3<oe/>uggc://zncf.nccyr.pbz/?d=45.4864240193843,-122.771085228844
 ***************************************************************************
 Lnzuvyy Pbhagl, BE (O) (BELnzuvyyPbhaglOCnefre) 
 LPBZ:14050475* 327 FJ NQNZF FG* * * ZPZVAAIVYYR* FR 1FG FG* FR UNAQYRL FG* 7568* * * HAPBAF / SNVAGVAT* * * R1,Z10* * * * *
