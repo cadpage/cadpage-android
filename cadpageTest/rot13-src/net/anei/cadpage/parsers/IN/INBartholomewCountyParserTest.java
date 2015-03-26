@@ -27,6 +27,7 @@ SLV: ;CREFBA VYY FVPX;4951 R 550 A;PYVS;A WBUA FG;A 250 R;06/12/2014 23:42:05   
 SLV: ;CBFFVOYR FGEBXR;13689 A 575 R;UBCR;R 800 A;R 900 A;06/12/2014 05:38:39   - Svyr Zrffratre Ybtva
 SLV: ;VYYRTNY OHEA;7974 A JNFUVATGBA FG;PYVS;R CBCYNE FG;R 550 A;06/09/2014 17:03:51  - Svyr Zrffratre Ybtva
 SLV: ;CREFBA VYY FVPX;6550 A EVIRE EQ;PBY;EVIRE EQ;EVIRE EQ;03/19/2015 08:38:32   - Svyr Zrffratre Ybtva
+SLV: ;IRUVPYR SVER BCRA;10080 A HF 31;PBY;J 650 A;V65;03/26/2015 08:32:34   - Svyr Zrffratre Ybtva
 
 Pbagnpg: Puevf Punzoref <puevf@puevfpcubgbtencul.pbz>
 Fraqre: opcntvat@onegubybzrj.va.tbi
@@ -295,7 +296,16 @@ choyvp pynff VAOnegubybzrjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:EVIRE EQ & EVIRE EQ",
         "QNGR:03/19/2015",
         "GVZR:08:38:32");
-  
+
+    qbGrfg("G5",
+        "SLV: ;IRUVPYR SVER BCRA;10080 A HF 31;PBY;J 650 A;V65;03/26/2015 08:32:34   - Svyr Zrffratre Ybtva",
+        "PNYY:IRUVPYR SVER BCRA",
+        "NQQE:10080 A HF 31",
+        "PVGL:PBYHZOHF",
+        "K:J 650 A & V65",
+        "QNGR:03/26/2015",
+        "GVZR:08:32:34");
+ 
   }
   
   @Grfg
