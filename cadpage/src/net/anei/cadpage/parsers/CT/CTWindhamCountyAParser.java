@@ -14,7 +14,7 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
   private static final Pattern CHANNEL_PTN = Pattern.compile("(?:^| +)(UHF-\\d|\\d\\d\\.\\d\\d|\\d{3}|\\b(?:KILLINGLY|UNION) \\d{3}|HIGH-BAND) +");
   private static final Pattern PRIORITY_PTN = Pattern.compile("^PRI +(\\d) +");
   private static final Pattern TIME_PTN = Pattern.compile("\\d\\d:\\d\\d");
-  private static final Pattern RESERVE_CALL_PTN = Pattern.compile("\\b(?:CALL FROM|ALERT|ALARM)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern RESERVE_CALL_PTN = Pattern.compile(".*(?:CALL FROM|ALERT|ALARM|APPLIANCE FIRE|FALL INJURY|INJURED PERSON|LIFT ASSIST|VEHICLE ACCIDENT)\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern APT_PTN = Pattern.compile("(?:APT|APARTMENT|ROOM|RM|UNIT|LOT)[- ]*(.*)|\\d{1,5}|[A-Z]|[A-Z]-?\\d{1,5}|.* (?:FLR|FLOOR)|WING .*", Pattern.CASE_INSENSITIVE);
       
 
@@ -78,14 +78,19 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
       String reserveCall = "";
       int flags = FLAG_START_FLD_REQ;
       match = RESERVE_CALL_PTN.matcher(sAddr);
-      if (match.find()) {
-        reserveCall =  sAddr.substring(0,match.end()).replaceAll(" +", " ");
+      if (match.lookingAt()) {
+        reserveCall = match.group();
         sAddr = sAddr.substring(match.end()).trim();
-        if (!reserveCall.toUpperCase().endsWith("FROM")) flags = 0;
+        flags = 0;
       }
       parseAddress(StartType.START_CALL, flags | FLAG_IGNORE_AT | FLAG_ANCHOR_END, sAddr, data);
+      if (reserveCall.length() > 0 && data.strAddress.length() == 0) {
+        parseAddress(data.strCall, data);
+        data.strCall = "";
+      }
       data.strCall = append(reserveCall, " ", data.strCall);
     }
+    data.strCall = data.strCall.replaceAll("  +", " ");
     
     String city = CITY_SET.getCode(sPlaceCity.toUpperCase(), true);
     if (city != null) {
@@ -130,7 +135,83 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
   }
   
   private static final String[] MWORD_STREET_LIST = new String[]{
-    "KILLINGLY COMMONS"
+    "ALL HALLOWS",
+    "ALLEN HILL",
+    "ASHFORD CENTER",
+    "BAILEY HILL",
+    "BARBER HILL",
+    "BARLOW CEMETERY",
+    "BARTLETT MEADOW",
+    "BEAVER DAM",
+    "BLACK ROCK",
+    "BLACKMER DOWNS",
+    "BRAATEN HILL",
+    "BRANDY HILL",
+    "BREAKNECK HILL",
+    "BREAULTS LANDING",
+    "BUCK HILL",
+    "BULL HILL",
+    "BUNGAY HILL",
+    "CAMP YANKEE",
+    "CENTRE PIKE",
+    "CHENEY MILL",
+    "CHESTNUT HILL",
+    "CHRISTIAN HILL",
+    "CLEAR VIEW",
+    "CONNECTICUT MILLS",
+    "COOK HILL",
+    "COTTON BRIDGE",
+    "COUNTRY CLUB",
+    "COUNTY HOME",
+    "CRYSTAL POND",
+    "DEER MEADOW",
+    "DEWING SCHOOL",
+    "DOG HILL",
+    "ENGLISH NEIGHBORHOOD",
+    "FABYAN WOODSTOCK",
+    "FIRE TOWER",
+    "FOUR SEASONS",
+    "GENERAL LYON",
+    "GRAND VIEW",
+    "GREEN ACRES",
+    "INDIAN SPRINGS",
+    "KILLINGLY COMMONS",
+    "LAKE VIEW",
+    "LAUREL HILL",
+    "LAUREL POINT",
+    "LITTLE BUNGEE HILL",
+    "LOUISA VIENS",
+    "LOWELL DAVIS",
+    "MARGARET HENRY",
+    "MASON HILL",
+    "MILL BRIDGE",
+    "MOOSUP POND",
+    "OLEAROS HILL",
+    "PAINE DISTRICT",
+    "PARENT HILL",
+    "PINE CREST",
+    "PLEASANT VIEW",
+    "PORTER PLAIN",
+    "PROVIDENCE PIKE BAILEY HILL",
+    "QUADDICK MOUNTAIN",
+    "QUADDICK TOWN FARM",
+    "RILEY CHASE",
+    "ROCKY HILL",
+    "SAND DAM",
+    "SAW MILL HILL",
+    "SHEPARD HILL",
+    "SNAKE MEADOW",
+    "SPRAGUE HILL",
+    "SPRING HILL",
+    "STERLING HILL",
+    "SUMNER HILL",
+    "SUNSET HILL",
+    "THOMPSON HILL",
+    "TUCKER DISTRICT",
+    "TUFT HILL",
+    "VALLEY VIEW",
+    "WHIP POOR WILL"
+    
   };
   
   private static final ReverseCodeSet CITY_SET = new ReverseCodeSet(
