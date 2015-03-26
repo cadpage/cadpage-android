@@ -185,7 +185,7 @@ choyvp pynff ALYvivatfgbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:5502 ZG ZBEEVF EQ 44",
         "CYNPR:GUR ZVAG",
         "K:CREEL EQ/CNEX EQ",
-        "PVGL:YRVPRFGR",
+        "PVGL:YRVPRFGR", //jnagf zg zbeevf
         "VASB:PUVYQ ABG ERGHEARQ NG 1800 UEF CRE CCJEX / NAQ RK ABG NAFJREVAT CUBAR",
         "CEV:4",
         "ANZR:EVIREF,CNHY,Y",
@@ -306,7 +306,7 @@ choyvp pynff ALYvivatfgbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:YBPX BHG",
         "NQQE:4324 PNYRQBAVN NIBA EQ",
         "K:UNAQFBZR YNXR QE/GRYRCUBAR EQ",
-        "PVGL:PNYRQBAV",
+        "PVGL:PNYRQBAV", //pnyrqbavn
         "VASB:OYX CH EBNQ FVQR",
         "CEV:3",
         "ANZR:FZVGU,SERQ",
@@ -399,7 +399,7 @@ choyvp pynff ALYvivatfgbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:29Q2",
         "NQQE:TEVSSVGU EQ & UNYIBEFRA",
-        "K:UNYIBEFRA EQ/TEVSSVGU EQ",
+        "K:UNYIBEFRA EQ/TEVSSVGU EQ", //qbrf abg znc
         "PVGL:TRAR SNYYF",
         "VASB:ZIN EBYY BIRE HAX IVP BE GENCCRQ",
         "CEV:1",
