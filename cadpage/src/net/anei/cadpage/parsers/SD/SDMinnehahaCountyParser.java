@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class SDMinnehahaCountyParser extends SmartAddressParser {
   
   private static final Pattern CAD_MSG_PTN = 
-    Pattern.compile("(?:((?:[A-Z]{2} +)+))?(?:(\\d{3}) +)?(?:((?:[A-Z]{2} +)+))?(?:(Quad \\d{3,4}) - ([A-Z]{2})|(Baltic \\d{1,2}|Brandon[- ]\\d{1,2}|Colton City|Colton \\d{1,2}|Dell Rapids \\d|Garretson \\d{1,2}|Splitrock \\d{1,2}|Valley Springs \\d{1,2}))? +(.+?)(?: (C\\d))?(?: (\\d{4}-\\d{8}))?");
+    Pattern.compile("(?:((?:[A-Z]{2} +)+))?(?:(\\d{3}) +)?(?:((?:[A-Z]{2} +)+))?(?:(Quad \\d{3,4}) - ([A-Z]{2})|(\\d{4}-\\d{8}(?:, *\\d{4}-\\d{8})*)|(Baltic \\d{1,2}|Brandon[- ]\\d{1,2}|Colton City|Colton \\d{1,2}|Dell Rapids \\d|Garretson \\d{1,2}|Splitrock \\d{1,2}|Valley Springs \\d{1,2}))? *\\b(.+?)(?: (C\\d))?(?: (\\d{4}-\\d{8}))?");
   private static final Pattern DISPATCH_MSG_PTN = 
       Pattern.compile("(.*?) +(\\d{4}-\\d{8})((?:  Dispatch received by unit ([^ ]+))+)");
   
@@ -41,10 +41,12 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
       data.strSource = getOptGroup(match.group(2));
       data.strMap = getOptGroup(match.group(4));
       String sCityCode = getOptGroup(match.group(5));
-      if (data.strMap.length() == 0) data.strMap = getOptGroup(match.group(6));
-      String sAddrFld = match.group(7);
-      data.strCode = getOptGroup(match.group(8));
-      data.strCallId = getOptGroup(match.group(9));
+      data.strCallId = getOptGroup(match.group(6));
+      if (data.strMap.length() == 0) data.strMap = getOptGroup(match.group(7));
+      String sAddrFld = match.group(8);
+      data.strCode = getOptGroup(match.group(9));
+      String id = match.group(10);
+      if (id != null) data.strCallId = id;
       
       // Almost everything is optional, but we have to have some standards
       // If we don't have a map or a call ID, reject this
