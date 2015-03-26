@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
+//  Map pages can be found at http://maps.co.benton.or.us/gisdata/Address/FireMapBooks/
 
 public class ORBentonCountyParser extends FieldProgramParser {
   
