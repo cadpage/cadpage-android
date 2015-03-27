@@ -4,6 +4,7 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -16,11 +17,12 @@ public class NDCassCountyParser extends SmartAddressParser {
   public NDCassCountyParser() {
     super(CITY_CODES, "CASS COUNTY", "ND");
     setFieldList("CALL ADDR APT CITY ST PLACE DATE TIME ID INFO UNIT");
+    setupCallList(CALL_LIST);
   }
   
   @Override
   public String getFilter() {
-    return "dispatch@rrrdc.or";
+    return "dispatch@rrrdc.or,dispatch@cityoffargo.com";
   }
   
   @Override
@@ -34,6 +36,7 @@ public class NDCassCountyParser extends SmartAddressParser {
     String sAddr = body.substring(0,match.start()).trim();
     String sInfo = body.substring(match.end()).trim();
     
+    sAddr = sAddr.replace("\\", "&");
     parseAddress(StartType.START_CALL, FLAG_IMPLIED_INTERSECT, sAddr, data);
     
     int pt = data.strCity.indexOf('/');
@@ -60,6 +63,28 @@ public class NDCassCountyParser extends SmartAddressParser {
     }
     return true;
   }
+  
+  private static CodeSet CALL_LIST = new CodeSet(
+      "ACCIDENT - INJURY",
+      "ACCIDENT - PROPERTY",
+      "ARCING WIRE/TRANSFORMER FIRE",
+      "BKOA",
+      "CARBON MONOXIDE DETECTOR",
+      "COMMERCIAL FIRE",
+      "GAS LEAK",
+      "GRASS FIRE",
+      "IMPAIRED DRIVER",
+      "MISC",
+      "MISC FIRE",
+      "MUTUAL AID FIRE",
+      "RESCUE",
+      "RESIDENTIAL FIRE",
+      "SUICIDAL PERSON",
+      "VEHICLE FIRE",
+      "WATER BREAK/WASHED OUT ROAD",
+      "X - MEDICAL",
+      "X - MEDICAL-SEND FIRE"
+  );
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ABSA", "ABSARAKA/ND",
@@ -110,6 +135,7 @@ public class NDCassCountyParser extends SmartAddressParser {
       "HITT", "HITTERDAL/MN",
       "HOLY", "HOLY CROSS TOWNSHIP/MN",
       "HOPE", "HOPE/ND",
+      "HORA", "HORACE",
       "HUMB", "HUMBOLDT TOWNSHIP/MN",
       "HUNT", "HUNTER/ND",
       "KEEN", "KEENE TOWNSHIP/MN",
@@ -154,6 +180,12 @@ public class NDCassCountyParser extends SmartAddressParser {
       "WHEA", "WHEATLAND/ND",   // Changed from MN
       "WILD", "WILD RICE/ND",
       "WOLV", "WOLVERTON/MN",
+      
+      "RICHCO",          "RICHLAND COUNTY",
+      "ROTHSAY",         "ROTHSAY/MN",
+      "WILKCO",          "WILKIN COUNTY/MN",
+      "WILKCO ROTHSAY",  "ROTHSAY/MN",
+      "WOLVERTON",       "WOLVERTON/MN"
 
   });
 }

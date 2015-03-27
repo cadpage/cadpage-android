@@ -1298,7 +1298,7 @@ If you are getting direct pages from Active911 or CodeMessaging, you should cont
 
 The following is a list for users who are getting regular text pages. This is a long list. Take it one step at a time. The important steps are the last two.  They send us information about your text pages so we can figure out what is wrong.
 
-Are you getting text pages from your dispatch center?  CadPage works by processing those text messages, if you have not arranged to have them sent to your device, CadPage will not do anything for you.
+Are alerts showing up in your message inbox.  If not then they probably are not being sent to your device and you need to talk to someone in your department about fixing that.
 
 Do you have Go SMS Pro or Handcent or AT&T Messenger installed?  They have proven to be incompatible with Cadpage. We keep the most recent version of Handcent that works with Cadpage on our Download page at http://www.cadpage.org/download-cadpage/
 
