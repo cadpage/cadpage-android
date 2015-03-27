@@ -19,36 +19,40 @@ public class NYJeffersonCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
 
     // Fixed stuff messed up by IAR edits :(
-    String[] flds;
+    String[] flds = null;
     if (subject.equals("So. Jeff. Rescue")) {
       data.strSource = subject;
-      if (body.endsWith("/") || body.endsWith(":")) body += ' ';
-      body = body.replace(" : ", ":");
-      
-      flds = new String[3];
-      
-      // Generally split by " / ".  With some special checks to see if there
-      // is a legitimate slash sequence in the address or info fields
-      int pt1 = body.indexOf(" / ");
-      if (pt1 < 0) return false;
-      flds[0] = body.substring(0,pt1).trim();
-      
-      int pt2 = body.indexOf(" / ", pt1+3);
-      if (pt2 < 0) return false;
-      
-      int pt3 = body.indexOf(" / ", pt2+3);
-      if (pt3 >= 0) {
-        if (!body.substring(pt1+3,pt2).contains(":") &
-            body.substring(pt2+3,pt3).contains(":")) {
-          pt2 = pt3;
+      do {
+        String work = body;
+        if (work.endsWith("/") || work.endsWith(":")) work += ' ';
+        work = work.replace(" : ", ":");
+        
+        String[] tFlds = new String[3];
+        
+        // Generally split by " / ".  With some special checks to see if there
+        // is a legitimate slash sequence in the address or info fields
+        int pt1 = work.indexOf(" / ");
+        if (pt1 < 0) break;
+        tFlds[0] = work.substring(0,pt1).trim();
+        
+        int pt2 = work.indexOf(" / ", pt1+3);
+        if (pt2 < 0) break;
+        
+        int pt3 = work.indexOf(" / ", pt2+3);
+        if (pt3 >= 0) {
+          if (!work.substring(pt1+3,pt2).contains(":") &
+              work.substring(pt2+3,pt3).contains(":")) {
+            pt2 = pt3;
+          }
         }
-      }
-      flds[1] = body.substring(pt1+3,pt2).trim();
-      flds[2] = body.substring(pt2+3).trim();
+        tFlds[1] = work.substring(pt1+3,pt2).trim();
+        tFlds[2] = work.substring(pt2+3).trim();
+        flds = tFlds;
+      } while (false);
     }
     
     // Normal parsing
-    else {
+    if (flds == null) {
       
       if (subject.startsWith("[")) {
         int pt = subject.indexOf(']');
