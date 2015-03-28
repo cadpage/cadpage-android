@@ -3186,6 +3186,8 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class TimeDateField extends Field {
     
+    boolean convertDashes = false;
+    
     public TimeDateField() {};
     public TimeDateField(String pattern) {
       super(pattern);
@@ -3193,13 +3195,21 @@ public class FieldProgramParser extends SmartAddressParser {
     public TimeDateField(String pattern, boolean hardPattern) {
       super(pattern, hardPattern);
     }
+    
+    @Override
+    public void setQual(String qual) {
+      convertDashes = qual != null && qual.contains("d");
+      super.setQual(qual);
+    }
 
     @Override
     public void parse(String field, Data data) {
       int pt = field.indexOf(' ');
       if (pt < 0) abort();
       data.strTime = field.substring(0,pt).trim();
-      data.strDate = field.substring(pt+1).trim();
+      String date = field.substring(pt+1).trim();
+      if (convertDashes) date = date.replace('-', '/');
+      data.strDate = date;
     }
     
     @Override
