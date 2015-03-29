@@ -15,7 +15,7 @@ public class DispatchA16Parser extends FieldProgramParser {
   
   public DispatchA16Parser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
-          "CALL ( DATETIME2!  UNIT? PLACE? ADDR/Z! CITY | ( PLACENAME ADDR/Z CITY | ADDR/ZS CITY | PLACENAME? ADDR! ) INFO+? ( UNIT DATETIME1? | DATETIME1 ) INFO+ )");
+          "CALL ( DATETIME2!  UNIT? PLACE? ADDR/Z! CITY | ( PLACENAME ADDR/Z CITY | ADDR/ZS CITY | PLACENAME? ADDR! ) INFO+? ( UNIT DATETIME1? | DATETIME1 ) ) INFO+");
   }
   
   @Override
