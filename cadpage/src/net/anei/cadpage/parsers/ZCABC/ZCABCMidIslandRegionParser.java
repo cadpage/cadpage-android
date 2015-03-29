@@ -10,8 +10,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class ZCABCMidIslandRegionParser extends FieldProgramParser {
   
-  private static final Pattern SRC_PTN = Pattern.compile("(BEAVER CREEK|CAMPBELL RIVER|CHERRY CREEK|COMOX|COURTENAY|CUMBERLAND|DENMAN ISLAND|FANNY BAY|HORNBY ISLAND|OYSTER RIVER|PT ALBERNI|SPROAT LAKE|TOFINO) *(.*)");
+  private static final Pattern SRC_PTN = Pattern.compile("(BEAVER CREEK|CAMPBELL RIVER|CHERRY CREEK|COMOX|COURTENAY|CUMBERLAND|DENMAN ISLAND|FANNY BAY|HORNBY ISLAND|OYSTER RIVER|PT ALBERNI|SPROAT LAKE|TOFINO|UNION BAY) *(.*)");
   private static final Pattern GPS_PTN = Pattern.compile("\\(?([-+]?[\\d:\\.]+),([-+]?[\\d:\\.]+)\\)");
+  private static final Pattern TRAIL_GPS_PTN = Pattern.compile("(.*)\\{(.*)\\}");
+  private static final Pattern GPS_PTN2 = Pattern.compile("([-+]?\\d+)(\\d{6}),([-+]?\\d+)(\\d{6})");
 
   public ZCABCMidIslandRegionParser() {
     this("", "BC");
@@ -89,6 +91,19 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
       body = body.substring(0, newLine);
     }
     
+    // Process trailing GPS coordinates
+    match = TRAIL_GPS_PTN.matcher(body);
+    if (match.matches()) {
+      body = match.group(1).trim();
+      String gps = match.group(2).replace(" ", "");
+      gps = gps.replace(" ", "");
+      match = GPS_PTN2.matcher(gps);
+      if (match.matches()) {
+        setGPSLoc(match.group(1)+'.'+match.group(2)+','+match.group(3)+'.'+match.group(4), data);
+      }
+    }
+
+    
     // GPS coordinates contain a comma which must be escaped
     body = GPS_PTN.matcher(body).replaceAll("($1|$2)");
     
@@ -98,7 +113,7 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return "SRC " + super.getProgram();
+    return "SRC " + super.getProgram() + " GPS";
   }
   
   @Override
@@ -109,6 +124,7 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
   }
 
   private static final Pattern ADDR_GPS_PTN = Pattern.compile("(.*?) *(\\([^\\)A-Za-z]+\\))");
+  private static final Pattern ADDR_SPEC_PTN = Pattern.compile("(.*)\\{(.*)\\}");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -117,6 +133,11 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
       if (match.matches()) {
         data.strCall = append(data.strCall, " / ", match.group(1));
         data.strAddress = match.group(2).replace('|', ',');
+      }
+      
+      else if ((match = ADDR_SPEC_PTN.matcher(field)).matches()) {
+        data.strCall = append(data.strCall, " / ", match.group(1).trim());
+        parseAddress(match.group(2).trim(), data);
       }
 
       else if(data.strCall.length() > 0) {
@@ -189,6 +210,7 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
       "FIRST RESPONDER DELAY B/C",
       "FIRST RESPONDER DELAY D/E",
       "FIRST RESPONDER UNKNOWN",
+      "FUEL - LEAK/SPILL/OTH",
       "FUEL - LEAK/SPILL/OTH NON EMER",
       "FUEL - LEAK/SPILL/OTHER NON EMERG",
       "FUEL - LEAK/SPILL/OTHER",
