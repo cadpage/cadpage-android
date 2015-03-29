@@ -77,6 +77,7 @@ ebDN Qrgrezvanag: 30O01 - *OYF UBG** - CBFFVOYL QNATREBHF obql nern R142150015 1
 Pbagnpg: nwz2117 <nwz2117@lnubb.pbz>
 Fraqre: TPZ
 12951 CNEX URNQ EQ - [CRPGBAIVYYR EQ - TNYVYRR EQ] - CVP, CREF VAWHEL PBYYVFVBA, CRQ FGEHPX - PB4,E59 - CebDN Qrgrezvanag: 29O02 - **OYF UBG*- FREVBHF urzbeeuntr R150870017 1506282 08:49 2aq NYREG!<oe>
+14817 ANGVBANY CVXR - [FCVPXYRE EQ - EBPXQNYR EQ] - BOIVBHF PBQR TENL - E49,RZF1810,C491,PB4,P4,R42 - CebDN Qrgrezvanag: 31Q03 - *\*NYF UBG*- Abg nyreg R150870015 1506278 08:25\a
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Funecfohet Sver Pbzcnal
@@ -673,6 +674,16 @@ choyvp pynff ZQJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:CebDN Qrgrezvanag: 29O02 - **OYF UBG*- FREVBHF urzbeeuntr R150870017 - 2aq NYREG!",
         "VQ:1506282",
         "GVZR:08:49");
+
+    qbGrfg("G1",
+        "14817 ANGVBANY CVXR - [FCVPXYRE EQ - EBPXQNYR EQ] - BOIVBHF PBQR TENL - E49,RZF1810,C491,PB4,P4,R42 - CebDN Qrgrezvanag: 31Q03 - **NYF UBG*- Abg nyreg R150870015 1506278 08:25\a",
+        "NQQE:14817 ANGVBANY CVXR",
+        "K:FCVPXYRE EQ & EBPXQNYR EQ",
+        "PNYY:BOIVBHF PBQR TENL",
+        "HAVG:E49,RZF1810,C491,PB4,P4,R42",
+        "VASB:CebDN Qrgrezvanag: 31Q03 - **NYF UBG*- Abg nyreg R150870015",
+        "VQ:1506278",
+        "GVZR:08:25");
     
   }
 

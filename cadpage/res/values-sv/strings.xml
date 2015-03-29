@@ -315,10 +315,10 @@
   <string name="pref_publish_pages_summaryon">Larmärenden kommer att publiceras för 3:e partsapplikation</string>
   <string name="pref_publish_pages_summaryoff">Larmärenden kommer inte publiceras för 3:e partsapplikation</string>
   <string name="exit">Avsluta</string>
-  <string name="markallopened_text">Mark All Read</string>                  <!-- Translate -->
+  <string name="markallopened_text">Markera alla lästa</string>                  
   <string name="clearall_text">Rensa Alla</string>
-  <string name="confirm_delete_all_title">Delete all Calls?</string>         <!-- Translate -->
-  <string name="confirm_delete_all_text">Do you really want to delete all call history?</string>   <!-- Translate -->
+  <string name="confirm_delete_all_title">Ta bort alla larm?</string>         
+  <string name="confirm_delete_all_text">Vill du verkligen ta bort hela larmhistoriken?</string>   
   <string name="pref_passthrusms_title">Släpp igenom larm till SMS-klienten</string>
   <string name="pref_passthrusms_summaryoff">Släpp inte igenom larm till SMS-klienten</string>
   <string name="pref_passthrusms_summaryon">Släpper igenom larm till SMS-klienten</string>
