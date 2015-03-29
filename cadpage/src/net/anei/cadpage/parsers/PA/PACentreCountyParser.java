@@ -10,13 +10,18 @@ public class PACentreCountyParser extends FieldProgramParser {
   public PACentreCountyParser() {
     super("CENTRE COUNTY", "PA", "BOX CALL ADDR! NAME INFO+");
   }
+  
+  @Override
+  public String getFilter() {
+    return "alerts@centre.ealert911.com,CENTRECOUNTY911";
+  }
 
   private static final Pattern NON_ASCII = Pattern.compile("[^\\x00-\\x7f]");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     // check subj
-    if (!subject.equals("Centre County Alerts")) return false;
+    if (subject.length() > 0 && !subject.equals("Centre County Alerts")) return false;
 
     int pt = body.indexOf('.');
     if (pt >= 0) body = body.substring(0,pt).trim();
