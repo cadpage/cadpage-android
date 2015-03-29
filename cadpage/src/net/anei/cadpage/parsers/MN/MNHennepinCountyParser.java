@@ -16,11 +16,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class MNHennepinCountyParser extends FieldProgramParser {
   
-  private static final Pattern FIELD_PTN = Pattern.compile("; *([A-Z]+)-");
+  private static final Pattern FIELD_PTN = Pattern.compile(";\\s*([A-Z]+)-");
   
   public MNHennepinCountyParser() {
     super(CITY_LIST, "HENNEPIN COUNTY", "MN",
-          "NAME LOC:ADDR CITY:CITY EVTYPE:CALL COMMENTS:INFO");
+          "NAME LOC:ADDR! CITY:CITY? EVTYPE:CALL! COMMENTS:INFO");
   }
   
   @Override
@@ -153,6 +153,7 @@ public class MNHennepinCountyParser extends FieldProgramParser {
   }
   
   private static final Pattern INFO_CROSS_PTN = Pattern.compile(".*: ?cross streets ?: *(.*?)");
+  private static final Pattern INFO_UNIT_PTN = Pattern.compile("Resources required for this event are: *(.*)");
   private static final Pattern INFO_JUNK_PTN = Pattern.compile("\\d+ Nearby Events found .*");
   private class MyInfoField extends InfoField {
     @Override
@@ -164,6 +165,11 @@ public class MNHennepinCountyParser extends FieldProgramParser {
           Matcher match = INFO_CROSS_PTN.matcher(part);
           if (match.matches()) {
             data.strCross = match.group(1).trim();
+            continue;
+          }
+          match = INFO_UNIT_PTN.matcher(part);
+          if (match.matches()) {
+            data.strUnit = append(data.strUnit, " ", match.group(1));
             continue;
           }
           if (INFO_JUNK_PTN.matcher(part).matches()) continue;
@@ -181,7 +187,7 @@ public class MNHennepinCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "X INFO";
+      return "X INFO UNIT";
     }
   }
   
