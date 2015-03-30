@@ -7,6 +7,7 @@ public class NYLivingstonCountyParser extends GroupBestParser {
   
   public NYLivingstonCountyParser() {
     super(new NYLivingstonCountyAParser(),
-           new NYLivingstonCountyBParser());
+           new NYLivingstonCountyBParser(),
+           new NYLivingstonCountyCParser());
   }
 }

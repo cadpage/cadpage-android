@@ -19,4 +19,11 @@ choyvp pynff ALYvivatfgbaPbhaglCnefreGrfg {
       frgCnefre(arj ALYvivatfgbaPbhaglCnefre());
     }
   }
+  
+  choyvp fgngvp pynff GrfgP rkgraqf ALYvivatfgbaPbhaglPCnefreGrfg {
+    choyvp GrfgP() {
+      frgCnefre(arj ALYvivatfgbaPbhaglCnefre());
+    }
+  }
+  
 }
