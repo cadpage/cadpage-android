@@ -281,7 +281,7 @@ choyvp pynff ALFhssbyxPbhaglXCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G20",
         "14- Iruvpyr Sver \a** YBAT VFYNAQ RKCERFFJNL & YBAT VFYNAQ RKCERFFJNL**VFYNAQVN\a GBN: 10:09 03-21-15",
         "PNYY:14- Iruvpyr Sver",
-        "NQQE:YBAT VFYNAQ RKCERFFJNL & YBAT VFYNAQ RKCERFFJNL",
+        "NQQE:YBAT VFYNAQ RKCERFFJNL & YBAT VFYNAQ RKCERFFJNL", //qbrf abg znc
         "PVGL:VFYNAQVN",
         "GVZR:10:09",
         "QNGR:03/21/15");

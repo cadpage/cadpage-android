@@ -503,7 +503,7 @@ choyvp pynff PNLbybPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "(NYREG) IRUHAX Iru Npp Hax Vawhevrf   Serqrevpxf Qe / Ehffryy Oyiq                      HAVGF:ONG26,NZE26,R26ZNC:C13O      [1] Zhygv-Ntrapl YNJ Vapvqrag #: 15044887,[2] IRU GP / HAX VAWHEVRF  [Funerq],[3] Rkgreany Pnfr Ahzore 'JAS  1500146' nqqrq sbe JAS. [Funerq],",
         "PNYY:IRUHAX Iru Npp Hax Vawhevrf",
-        "NQQE:Serqrevpxf Qe & Ehffryy Oyiq",
+        "NQQE:Serqrevpxf Qe & Ehffryy Oyiq",  //qbrf abg znc
         "HAVG:ONG26,NZE26,R26ZNC:C13O",
         "VASB:Zhygv-Ntrapl YNJ Vapvqrag #: 15044887,\aIRU GP / HAX VAWHEVRF  [Funerq],\aRkgreany Pnfr Ahzore 'JAS  1500146' nqqrq sbe JAS.");
 
@@ -695,8 +695,8 @@ choyvp pynff PNLbybPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G29",
         "(NYREG) IRUNPP Iru Npp j/ Vawhevrf    Pe 29n / Pe 92r                                   HAVGF:NZE30,ONG26,R26ZNC:Z14       [1] [1] BIREGHEARQ IRU - BAR ZNYR BPPHCNAGF OYRRQVAT SEBZ GUR URNQ - IRU VF N AVFFNA 4Q[Funerq],[2] Zhygv-Ntrapl YNJ Vapvqrag #: 15037887,[3] ****  NZE NQIVFRQ   **** [Funerq],[4] Rkgreany Pnfr Ahzore 'JAS  1500121' nqqrq sbe JAS. [Funerq],[5] Rkgreany Pnfr Ahzore 'JCY  1500017' nqqrq sbe JCY. [Funerq],",
         "PNYY:IRUNPP Iru Npp j/ Vawhevrf",
-        "NQQE:Pe 29n & Pe 92r",
-        "ZNQQE:PBHAGL EBNQ 29n & PBHAGL EBNQ 92r",
+        "NQQE:Pe 29n & Pe 92r", 
+        "ZNQQE:PBHAGL EBNQ 29n & PBHAGL EBNQ 92r", //qbrf abg znc
         "HAVG:NZE30,ONG26,R26ZNC:Z14",
         "VASB:BIREGHEARQ IRU - BAR ZNYR BPPHCNAGF OYRRQVAT SEBZ GUR URNQ - IRU VF N AVFFNA 4Q[Funerq],\aZhygv-Ntrapl YNJ Vapvqrag #: 15037887,\a****  NZE NQIVFRQ   **** [Funerq],\aRkgreany Pnfr Ahzore 'JAS  1500121' nqqrq sbe JAS. [Funerq],\aRkgreany Pnfr Ahzore 'JCY  1500017' nqqrq sbe JCY.");
 
