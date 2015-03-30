@@ -241,8 +241,8 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     Fgevat npgZncNqqe = "";
     Fgevat npgZncPvgl = "";
     vs (puxZncNqqe) {
-      Fgevat ybatZncNqqe = vasb.trgZncNqqerff(2, "KKKK", "KK");
-      npgZncNqqe = vasb.trgOnfrZncNqqerff(2);
+      Fgevat ybatZncNqqe = vasb.trgZncNqqerff(snyfr, "KKKK", "KK");
+      npgZncNqqe = vasb.trgOnfrZncNqqerff();
       vs (ybatZncNqqe != ahyy && !ybatZncNqqe.fgnegfJvgu(npgZncNqqe)) npgZncNqqe = ybatZncNqqe;
       vs (npgZncNqqe.rdhnyf(vasb.trgNqqerff())) npgZncNqqe = "";
       
@@ -641,7 +641,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     vs (fGlcr.rdhnyf("CYNPR")) erghea vasb.trgCynpr();
     vs (fGlcr.rdhnyf("NQQE")) erghea vasb.trgNqqerff();
     vs (fGlcr.rdhnyf("ZNQQE")) {
-      Fgevat nqqe = vasb.trgOnfrZncNqqerff(2);
+      Fgevat nqqe = vasb.trgOnfrZncNqqerff();
       vs (nqqe.rdhnyf(vasb.trgNqqerff())) nqqe = "";
       erghea nqqe;
     }

@@ -77,6 +77,8 @@ public class MsgInfo {
   private String defState;
   private MsgParser.CountryCode countryCode;
   private boolean preferGPSLoc;
+  private boolean mapPageAvailable;
+  private String mapPageURL;
   
   // Flag set when parser determines that message is incomplete
   // and another part should be expected
@@ -130,6 +132,8 @@ public class MsgInfo {
     public String defState;
     public MsgParser.CountryCode countryCode;
     public boolean preferGPSLoc;
+    public boolean mapPageAvailable;
+    public String mapPageURL;
     
     public boolean expectMore;
 
@@ -174,6 +178,8 @@ public class MsgInfo {
       defState="";
       countryCode = MsgParser.CountryCode.US;
       preferGPSLoc = false;
+      mapPageAvailable = false;
+      mapPageURL = null;
       
       this.parser = parser;
       if (parser != null) {
@@ -285,6 +291,8 @@ public class MsgInfo {
     countryCode = info.countryCode;
     expectMore = info.expectMore;
     preferGPSLoc = info.preferGPSLoc;
+    mapPageAvailable = info.mapPageAvailable;
+    mapPageURL = info.mapPageURL;
     
     parserCode = info.parserCode;
     parser = info.parser;
@@ -348,18 +356,17 @@ public class MsgInfo {
   
   /**
    * Calculate map search string to be passed to Google maps
-   * @param useGPSOption GPS preference option
-   *    1 - Follow parser preference (default)
-   *    2 - Always use street address
-   *    3 - Always use GPS coordinates when available
+   * @param useGPS true to request GPS map coordinates, 
+   *  false to request regular street map address
    * @param overrideCity if non-null, this value should override parser default city
    * @param overrideState if non-null, this value should override parser default state
    * @return return mapping address or null if there is no map address
    */
-  public String getMapAddress(int useGPSOption, String overrideCity, String overrideState) {
+  public String getMapAddress(boolean useGPS, String overrideCity, String overrideState) {
+    if (useGPS) return (strGPSLoc.length() == 0 ? null : strGPSLoc);
     
     // if there is no base address, return null
-    String mapAddr = getBaseMapAddress(useGPSOption);
+    String mapAddr = getBaseMapAddress();
     if (mapAddr.length() == 0) return null;
     
     // If there is a GPS pattern in this, don't append anything
@@ -413,15 +420,7 @@ public class MsgInfo {
   private static final Pattern NO_DIGIT_PTN = Pattern.compile("\\bNO *(\\d+)");
   private static final Pattern CROSS_DELIM = Pattern.compile("(?<=..)[&/,@]| - | AND ", Pattern.CASE_INSENSITIVE);
   private static final Pattern DEAD_END_PTN = Pattern.compile("END OF .*|DEAD END", Pattern.CASE_INSENSITIVE);
-  public String getBaseMapAddress(int useGPSOption) {
-    
-    // If we do not have an address, return the GPS coordinates
-    if (strAddress.length() == 0) return strGPSLoc;
-    
-    // See if we should return the GPS coordinates
-    if (useGPSOption != 2 && strGPSLoc.length() > 0) {
-      if (useGPSOption == 3 || preferGPSLoc) return strGPSLoc;
-    }
+  public String getBaseMapAddress() {
     
     if (strBaseMapAddress != null) return strBaseMapAddress;
 
@@ -1054,7 +1053,15 @@ public class MsgInfo {
   }
 
   public boolean isPreferGPSLoc() {
-    return preferGPSLoc && strGPSLoc.length() > 0;
+    return preferGPSLoc;
+  }
+  
+  public boolean isMapPageAvailable() {
+    return mapPageAvailable;
+  }
+  
+  public String getMapPageURL() {
+    return mapPageURL;
   }
   
   /**

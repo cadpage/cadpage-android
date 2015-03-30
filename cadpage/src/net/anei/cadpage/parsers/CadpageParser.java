@@ -111,7 +111,7 @@ public class CadpageParser  extends CadpageParserBase {
     append(sb, "GPS", info.getGPSLoc(), delim);
     if (info.isPreferGPSLoc()) append(sb, "REC_GPS", "Y", delim);
     if (inclMapAddr) {
-      append(sb, "MADDR", info.getBaseMapAddress(2), delim);
+      append(sb, "MADDR", info.getBaseMapAddress(), delim);
       String mapCity = info.getMapCity();
       if (!mapCity.equals(info.getCity())) {
         append(sb, "MCITY", mapCity, delim);

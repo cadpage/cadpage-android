@@ -29,7 +29,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 38;
+  private static final int PREFERENCE_VERSION = 39;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -618,6 +618,14 @@ public class ManagePreferences {
     R.string.pref_xtra_resp_button3_key
   };
   
+  public static boolean altMapButton() {
+    return prefs.getBoolean(R.string.pref_alt_map_button_key);
+  }
+  
+  public static boolean mapPageButton() {
+    return prefs.getBoolean(R.string.pref_map_page_button_key);
+  }
+  
   public static final int EXTRA_BUTTON_CNT = EXTRA_BUTTON_IDS.length;
   public static int extraButton(int button) {
     String val =  prefs.getString(EXTRA_BUTTON_IDS[button-1]);
@@ -1134,6 +1142,9 @@ public class ManagePreferences {
         R.string.pref_button4_key,
         R.string.pref_button5_key,
         R.string.pref_button6_key,
+        
+        R.string.pref_alt_map_button_key,
+        R.string.pref_map_page_button_key,
         
         R.string.pref_resp_type_key,
         R.string.pref_resp_merge_key,

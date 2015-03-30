@@ -148,6 +148,6 @@ choyvp pynff ZftVasbGrfg {
     qngn.cnefre = arj TrarenyCnefre();
     
     ZftVasb vasb = arj ZftVasb(qngn);
-    nffregRdhnyf(gvgyr, erfhyg, vasb.trgZncNqqerff(2, ahyy, ahyy));
+    nffregRdhnyf(gvgyr, erfhyg, vasb.trgZncNqqerff(snyfr, ahyy, ahyy));
   }
 }

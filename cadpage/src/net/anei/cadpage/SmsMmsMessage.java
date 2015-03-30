@@ -914,8 +914,7 @@ public class SmsMmsMessage implements Serializable {
       defCity = ManagePreferences.defaultCity();
       defState = ManagePreferences.defaultState();
     }
-    int gps_option = ManagePreferences.gpsMapOption();
-    return info.getMapAddress(gps_option, defCity, defState);
+    return info.getMapAddress(useGPS, defCity, defState);
   }
   
   /**

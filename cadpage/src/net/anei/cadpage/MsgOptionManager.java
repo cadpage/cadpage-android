@@ -59,6 +59,11 @@ public class MsgOptionManager {
   public void createMenu(Menu menu, boolean display) {
     MenuInflater inflater = activity.getMenuInflater();
     inflater.inflate(R.menu.message_menu, menu);
+    
+    // map_item is a dummy placeholder that should never appear. map_addr_item
+    // and map_gps_item do the real mapping
+    menu.removeItem(R.id.map_item);
+    
     if (display) {
       menu.removeItem(R.id.open_item);
     } else {
@@ -157,15 +162,91 @@ public class MsgOptionManager {
       int itemNdx = ManagePreferences.popupButton(btn);
       if (itemNdx == 0) continue;
       if (itemNdx == 9) hasMoreInfo = true;
-      mainButtonList.add(new ButtonHandler(ITEM_ID_LIST[itemNdx], ITEM_TEXT_LIST[itemNdx], mainButtonGroup));
+      addRegularButton(itemNdx, mainButtonList, mainButtonGroup);
     }
     
     // If user doesn't have a More info button configured, add it at the end
     // Unless the paging vendor specifically requests otherwise
     if (!hasMoreInfo && !(message != null && message.infoButtonOptional())) {
-      mainButtonList.add(new ButtonHandler(R.id.more_info_item, R.string.more_info_item_text, mainButtonGroup));
+      addRegularButton(9, mainButtonList, mainButtonGroup);
     }
   }
+
+  /**
+   * Construct a regular button handler and add it to the button handler list and view group
+   * @param itemNdx index of requested button
+   * @param buttonList button handler list
+   * @param buttonGroup view group
+   */
+  private void addRegularButton(int itemNdx, List<ButtonHandler> buttonList, ViewGroup buttonGroup) {
+    
+    // The map button can expand to multiple buttons
+    if (itemNdx == 2) {
+      //  First step is to see which map buttons are active
+      boolean addrActive = (message.getMapAddress(false) != null);
+      boolean gpsActive = (message.getMapAddress(true) != null);
+      
+      // If none are, that add a dummy Map button that simply serves
+      // as a disabled placeholder
+      if (!addrActive && !gpsActive) {
+        addMapButton(1, buttonList, buttonGroup);
+      }
+      
+      // If only one map button is active, add that
+      else if (!gpsActive) {
+        addMapButton(2, buttonList, buttonGroup);
+      }
+      else if (!addrActive) {
+        addMapButton(3, buttonList, buttonGroup);
+      }
+
+      // If both map buttons are active, things get complicated
+      // We always add the preferred map button first
+      // The non-preferred alternate button is only added if requested
+      else {
+        int gpsMapOption = ManagePreferences.gpsMapOption();
+        boolean prefGPS = (gpsMapOption == 2 ? false :
+                           gpsMapOption == 3 ? true :
+                           message.getInfo().isPreferGPSLoc());
+        addMapButton((prefGPS ? 3 : 2), buttonList, buttonGroup);
+        if (ManagePreferences.altMapButton()) {
+          addMapButton((prefGPS ? 2 : 3), buttonList, buttonGroup);
+        }
+      }
+      
+      // Add map page button requested and available
+      if (ManagePreferences.mapPageButton() && message.getInfo().isMapPageAvailable()) {
+        addMapButton(4, buttonList, buttonGroup);
+      }
+    }
+    
+    // Otherwise create create the appropriate button
+    else {
+      buttonList.add(new ButtonHandler(ITEM_ID_LIST[itemNdx], ITEM_TEXT_LIST[itemNdx], buttonGroup));
+    }
+  }
+  
+  /**
+   * Create a specialized map button handler and add it to button handler list and view group
+   * @param type map button type 1 - Map, 2 - Map Addr, 3 - Map GPS, 4 - Map Page
+   * @param buttonList
+   * @param buttonGroup
+   */
+  private void addMapButton(int type, List<ButtonHandler> buttonList, ViewGroup buttonGroup) {
+    buttonList.add(new ButtonHandler(MAP_ITEM_ID_LIST[type-1], MAP_ITEM_TEXT_LIST[type-1], buttonGroup));
+  }
+  static final int[] MAP_ITEM_ID_LIST = new int[]{
+    R.id.map_item,
+    R.id.map_addr_item,
+    R.id.map_gps_item,
+    R.id.map_page_item
+  }; 
+  static final int[] MAP_ITEM_TEXT_LIST = new int[]{
+    R.string.map_item_text,
+    R.string.map_addr_item_text,
+    R.string.map_gps_item_text,
+    R.string.map_page_item_text
+  }; 
   
   /**
    * Setup up the response button menu.  This is called when we finally have
@@ -300,7 +381,7 @@ public class MsgOptionManager {
     for (int btn = 1; btn <= ManagePreferences.EXTRA_BUTTON_CNT; btn++) {
       int itemNdx = ManagePreferences.extraButton(btn);
       if (itemNdx == 0) continue;
-      respButtonList.add(new ButtonHandler(ITEM_ID_LIST[itemNdx], ITEM_TEXT_LIST[itemNdx], respButtonGroup));
+      addRegularButton(itemNdx, respButtonList, respButtonGroup);
     }
   }
 
@@ -455,9 +536,24 @@ public class MsgOptionManager {
       item.setVisible(respButtonList.size() > 1);
       break;
     
-    // Disable map item if we have no address
+    // Map button is a dummy placeholder that should always be disabled
     case R.id.map_item:
-      item.setEnabled(message.getInfo().getMapAddress(2, "", "") != null);
+      item.setEnabled(false);
+      break;
+      
+    // Map Address button should be enabled if we have a map street address
+    case R.id.map_addr_item:
+      item.setEnabled(message.getMapAddress(false) != null);
+      break;
+      
+    // Ditto for map GPS address
+    case R.id.map_gps_item:
+      item.setEnabled(message.getMapAddress(true) != null);
+      break;
+      
+    // Map page address enabled if we have a map page URL
+    case R.id.map_page_item:
+      item.setEnabled(message.getInfo().getMapPageURL() != null);
       break;
     
     // Change label on toggle lock item depending on current lock state
@@ -531,8 +627,12 @@ public class MsgOptionManager {
       SmsPopupActivity.launchActivity(activity, message);
       return true;
       
-    case R.id.map_item:
+    case R.id.map_addr_item:
       mapMessage(activity, false);
+      return true;
+      
+    case R.id.map_gps_item:
+      mapMessage(activity, true);
       return true;
       
     case R.id.toggle_lock_item:

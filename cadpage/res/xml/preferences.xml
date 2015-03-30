@@ -312,7 +312,20 @@
               android:entries="@array/pref_button_text"
               android:entryValues="@array/pref_button_values"
               android:dialogTitle="@string/pref_button3_title"/>
-          </PreferenceScreen>
+            <CheckBoxPreference
+              android:key="@string/pref_alt_map_button_key"
+              android:title="@string/pref_alt_map_button_title"
+              android:summaryOn="@string/pref_alt_map_button_summaryon"
+              android:summaryOff="@string/pref_alt_map_button_summaryoff"
+              android:defaultValue="true" />
+            <CheckBoxPreference
+              android:enabled="false"
+              android:key="@string/pref_map_page_button_key"
+              android:title="@string/pref_map_page_button_title"
+              android:summaryOn="@string/pref_map_page_button_summaryon"
+              android:summaryOff="@string/pref_map_page_button_summaryoff"
+              android:defaultValue="true" />
+            </PreferenceScreen>
           <PreferenceScreen
             android:title="@string/pref_resp_button_config_title"
             android:summary="@string/pref_resp_button_config_summary">

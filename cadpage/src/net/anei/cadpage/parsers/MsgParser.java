@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers;
 
+import java.net.URL;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -676,7 +677,6 @@ public abstract class MsgParser {
     
     return locName;
   }
-
  
  /** 
   * General purpose parser for formats where there is not a clear delimiter

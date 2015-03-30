@@ -239,7 +239,7 @@ public class SAPWrapper extends SmartAddressParser {
         parser.parseAddress("1300 US ST HWY 20 WO KINGS VALLEY HWY", data);
         data.strCross = "KINGS VALLEY HWY";
         MsgInfo info = new MsgInfo(data);
-        System.out.println(info.getMapAddress(2, null, null));
+        System.out.println(info.getMapAddress(false, null, null));
       }
       
       // We really do not want to do this forever do we
