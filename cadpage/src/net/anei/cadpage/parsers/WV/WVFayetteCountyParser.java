@@ -15,19 +15,23 @@ public class WVFayetteCountyParser extends FieldProgramParser {
   public WVFayetteCountyParser() {
     super(CITY_CODES, "FAYETTE COUNTY", "WV", "SRC ( STA UNIT PLACE+ | CALL ADDRCITY UNIT STA! INFO+ )");
   }
+  
+  @Override
+  public String getFilter() {
+    return "kwhite@fayettecounty911wv.org,Fayette_911@wv.org";
+  }
 
   private static Pattern DELIM = Pattern.compile(" *\n *");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Message from HipLink")) return false;
     return parseFields(DELIM.split(body), data);
   }
 
   @Override
   public Field getField(String name) {
     if (name.equals("SRC")) return new MySourceField("[^ ]*");
-    if (name.equals("STA")) return new MySourceField("STA[^ ]+");
+    if (name.equals("STA")) return new MySourceField("(?:STA|SP)[^ ]+");
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("PLACE")) return new MyPlaceField();
@@ -89,10 +93,17 @@ public class WVFayetteCountyParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BEC", "BECKLEY",    // ????
+      "FAY", "FAYETTEVILLE",
       "GAL", "GAULEY BRIDGE",
+      "GLJ", "GLEN JEAN",
+      "KIN", "KINGSTON",
+      "MIN", "MINDEN",
       "MTH", "MT HOPE",
       "OAK", "OAK HILL",
       "PAX", "PAX",
-      "SCA", "SCARBRO"
+      "PRI", "PRINCE",
+      "SCA", "SCARBRO",
+      "THU", "THURMOND"
   });
 }
