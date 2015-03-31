@@ -545,6 +545,7 @@ class Active911Vendor extends Vendor {
       "US/NY/Albany",                     "NYAlbanyCountyC",
       "US/NY/AlleganyCounty911",          "NYAlleganyCounty",
       "US/NY/BCFA",                       "NYSuffolkCountyB",
+      "US/NY/CentralIslip",               "NYSuffolkCountyK",
       "US/NY/ChiliFD",                    "NYMonroeCounty",
       "US/NY/CityofBethlehem",            "NYBethlehem",
       "US/NY/CityofColden",               "NYErieCountyRedAlert",
