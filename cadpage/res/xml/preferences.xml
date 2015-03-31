@@ -319,7 +319,6 @@
               android:summaryOff="@string/pref_alt_map_button_summaryoff"
               android:defaultValue="true" />
             <CheckBoxPreference
-              android:enabled="false"
               android:key="@string/pref_map_page_button_key"
               android:title="@string/pref_map_page_button_title"
               android:summaryOn="@string/pref_map_page_button_summaryon"

@@ -635,6 +635,10 @@ public class MsgOptionManager {
       mapMessage(activity, true);
       return true;
       
+    case R.id.map_page_item:
+      viewMapPage(activity);
+      return true;
+      
     case R.id.toggle_lock_item:
       message.toggleLocked();
       return true;
@@ -713,7 +717,7 @@ public class MsgOptionManager {
   /**
    * Request map location for message
    * @param context current context
-   * @param useGPS use GPS location in preference to regular address
+   * @param useGPS use GPS location instead regular address
    */
   private void  mapMessage(Context context, boolean useGPS)  {
     if (Log.DEBUG) Log.v("Request Received to Map Call");
@@ -760,6 +764,20 @@ public class MsgOptionManager {
   private static final Pattern GPS_LOC_PTN = Pattern.compile("[+-]?\\d+\\..*");
   private static final ComponentName GOOGLE_MAPS_COMPONENT_NAME = 
       new ComponentName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
+  
+  private void viewMapPage(Context context) {
+    String url = message.getInfo().getMapPageURL();
+    if (url == null) return;
+    
+    Uri uri = Uri.parse(url);
+    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+    try {
+      context.startActivity(intent);
+    } catch (ActivityNotFoundException ex) {
+      Log.e(ex);
+    }
+  }
 
   /**
    * Send SMS response message

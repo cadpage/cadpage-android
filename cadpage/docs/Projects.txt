@@ -6,7 +6,6 @@ Supra Radio Interface
 Display Map Pages for Benton County
 Disabling Cadpage should block GCM alerts (#2253)
 Do not launch scanner when phone is muted or call in progress? (#2417)
-Map Addr & Map GPS buttons
 Check out Android 5.0 functionality
 
 ** Short Term **
