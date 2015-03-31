@@ -373,7 +373,7 @@ class Active911Vendor extends Vendor {
       "US/MD/StMarysCounty",              "MDStMarysCounty",
       "US/MD/WashingtonCounty",           "MDWashingtonCounty",
       "US/MD/WicomicoCounty",             "MDWicomicoCountyA",
-      "US/MD/WorcesterCounty",            "MDWorcesterCountyA",
+      "US/MD/WorcesterCounty",            "MDWorcesterCountyA,MDOceanCity",
       "US/ME/YorkCounty",                 "MEYorkCounty",
       "US/MI/AlleganCounty",              "MIAlleganCounty",
       "US/MI/AlpenaCounty",               "MIAlpenaCounty",

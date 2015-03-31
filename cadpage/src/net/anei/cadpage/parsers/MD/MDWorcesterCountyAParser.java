@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.MD;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -20,12 +21,14 @@ public class MDWorcesterCountyAParser extends DispatchOSSIParser {
     body = body.replace('\n', ' ');
     if (!super.parseMsg(body, data)) return false;
     MDWorcesterCountyParser.fixCity(data);
+    String unit = CALL_UNIT_TABLE.getProperty(data.strCall);
+    if (unit != null) data.strUnit = unit;
     return true;
   }
   
   @Override
   public String getProgram() {
-    return super.getProgram().replace("CITY", "CITY ST");
+    return super.getProgram().replace("CALL", "CALL UNIT").replace("CITY", "CITY ST");
   }
   
   @Override
@@ -97,4 +100,69 @@ public class MDWorcesterCountyAParser extends DispatchOSSIParser {
       return "APT PLACE";
     }
   }
+  
+  private static final Properties CALL_UNIT_TABLE = buildCodeTable(new String[]{
+      "ABDOMINAL PAIN PROBLEMS",        "MEDICAL",
+      "AIRCRAFT STANDBY",               "PUBLIC_SERVICE_CALLS",
+      "ALLERGIC REACTIONS",             "MEDICAL",
+      "ANIMAL BITES ATTACKS",           "MEDICAL",
+      "ASSAULT SEXUAL ASSAULT",         "MEDICAL",
+      "AST FM EOD W/ EXPLOSIVE DEV",    "PUBLIC_SERVICE_CALLS",
+      "BACK PAIN",                      "MEDICAL",
+      "BOAT FIRE",                      "FIRE_ALARM",
+      "BREATHING PROBLEMS",             "MEDICAL",
+      "BRUSH FIRE",                     "AUTO",
+      "BUILDING FIRE",                  "FIRE_ALARM",
+      "BURNS EXPLOSION",                "AUTO",
+      "CARBON MONOXIDE DET ACTIVATION", "AUTO",
+      "CARBON MONOXIDE INHALATION HA",  "AUTO",
+      "CARDIAC OR RESPIRATORY ARREST",  "CPR",
+      "CHEST PAIN",                     "MEDICAL",
+      "CHOKING",                        "CPR",
+      "CONVULSIONS SEIZURES",           "MEDICAL",
+      "DIABETIC PROBLEMS",              "MEDICAL",
+      "DROWNING DIVING SCUBA ACCIDEN",  "WATER_RESCUE",
+      "ECD DEPLOYMENT",                 "MEDICAL",
+      "ELECTRICAL HAZARD",              "AUTO",
+      "ELECTROCUTION LIGHTNING",        "AUTO",
+      "ELEV RESCUE WITHOUT",            "MEDICAL",
+      "EXPLOSION REPORT OF AN EXPLOS",  "FIRE_ALARM",
+      "EYE PROBLEMS INJURIES",          "MEDICAL",
+      "FALLS",                          "MEDICAL",
+      "FIRE ALARM ACTIVATION",          "AUTO",
+      "GAS LEAK",                       "AUTO",
+      "HAZMAT INCIDENT",                "AUTO",
+      "HEADACHE",                       "MEDICAL",
+      "HEART PROBLEMS AICD",            "MEDICAL",
+      "HEAT COLD EXPOSURE",             "MEDICAL",
+      "HEMORRHAGE",                     "MEDICAL",
+      "HOUSE FIRE",                     "FIRE_ALARM",
+      "INACCESSIBLE OTHR ENTRAPMENTS",  "AUTO",
+      "INVESTIGATE SMOKE ODOR ETC",     "AUTO",
+      "LIQUID SPILL",                   "PUBLIC_SERVICE_CALLS",
+      "NON EMERGENCY TRANSPORT BY EMS", "MEDICAL",
+      "OVERDOSE POISONING",             "MEDICAL",
+      "PREGNANCY CHILDBIR MISCARRIAG",  "MEDICAL",
+      "PRESUMED DEAD ON ARRIVAL",       "MEDICAL",
+      "PSYCHIATRIC ABNORMAL BEHAVIOR",  "MEDICAL",
+      "PUBLIC SERVICE EMS",             "MEDICAL",
+      "PUBLIC SERVICE FIRE",            "PUBLIC_SERVICE_CALLS",
+      "SAM BOX ACTIVATION",             "AUTO",
+      "SICK PERSON",                    "MEDICAL",
+      "SOMEONE LOCKED IN OUT RES VEH",  "PUBLIC_SERVICE_CALLS",
+      "STAB GUNSHOT PENETRATING TRAU",  "MEDICAL",
+      "STANDBY EMS OR FIRE CREW",       "MEDICAL",
+      "STROKE CVA",                     "MEDICAL",
+      "TRAFFIC TRANSPORTATION ACCDTS",  "AUTO",
+      "TRAINING DRILL FOR FIRE DEPT",   "PUBLIC_SERVICE_CALLS",
+      "TRANSFER INTERFACILITY",         "MEDICAL",
+      "TRASH FIRE W OR W/O EXPOSURE",   "AUTO",
+      "TRAUMATIC INJURIES",             "MEDICAL",
+      "UNCONSCIOUS FAINTING",           "MEDICAL",
+      "UNKNOWN PROBLEM MAN DOWN",       "MEDICAL",
+      "UNKNOWN TYPE FIRE",              "AUTO",
+      "UTILITY POLE FIRE",              "AUTO",
+      "VEHICLE FIRE",                   "AUTO",
+      "WATER/WASTEWATER EMERGENCY",     "AUTO"
+  });
 }
