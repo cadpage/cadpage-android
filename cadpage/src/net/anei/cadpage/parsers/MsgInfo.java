@@ -50,6 +50,9 @@ public class MsgInfo {
   // Preserve STATE HIGHWAY construct
   public static final int MAP_FLG_KEEP_STATE_HIGHWAY = 0x800;
   
+  // Parse may return map page information
+  public static final int MAP_FLG_MAP_PAGES = 0x100;
+  
 
   private String strCall;
   private String strPlace;
@@ -188,6 +191,7 @@ public class MsgInfo {
         this.defState = parser.getDefaultState();
         this.countryCode = parser.getCountryCode();
         this.preferGPSLoc = (parser.getMapFlags() & MAP_FLG_PREFER_GPS) != 0;
+        this.mapPageAvailable = (parser.getMapFlags() & MAP_FLG_MAP_PAGES) != 0;
       }
       
       strBaseMapAddress = null;
@@ -298,6 +302,10 @@ public class MsgInfo {
     parser = info.parser;
     strBaseMapAddress = info.strBaseMapAddress;
     strMapCity = info.strMapCity;
+    
+    if (parser != null & mapPageAvailable && mapPageURL == null) {
+      mapPageURL = parser.getMapPageURL(this); 
+    }
   }
   
   /**
@@ -352,6 +360,20 @@ public class MsgInfo {
 
   public boolean noCall() {
     return strCall.length() == 0 || strCall.equals("ALERT");
+  }
+  
+  
+  /**
+   * Calculate map search string to be passed to Google maps
+   * @param overrideCity if non-null, this value should override parser default city
+   * @param overrideState if non-null, this value should override parser default state
+   * @return return mapping address or null if there is no map address
+   */
+  public String getMapAddress(String overrideCity, String overrideState) {
+    boolean prefGPSLoc = isPreferGPSLoc();
+    String result = getMapAddress(prefGPSLoc, overrideCity, overrideState);
+    if (result != null) return result;
+    return getMapAddress(!prefGPSLoc, overrideCity, overrideState);
   }
   
   /**

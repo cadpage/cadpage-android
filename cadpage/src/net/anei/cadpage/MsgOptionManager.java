@@ -204,10 +204,7 @@ public class MsgOptionManager {
       // We always add the preferred map button first
       // The non-preferred alternate button is only added if requested
       else {
-        int gpsMapOption = ManagePreferences.gpsMapOption();
-        boolean prefGPS = (gpsMapOption == 2 ? false :
-                           gpsMapOption == 3 ? true :
-                           message.getInfo().isPreferGPSLoc());
+        boolean prefGPS = message.isPreferGPSLoc();
         addMapButton((prefGPS ? 3 : 2), buttonList, buttonGroup);
         if (ManagePreferences.altMapButton()) {
           addMapButton((prefGPS ? 2 : 3), buttonList, buttonGroup);
@@ -215,7 +212,7 @@ public class MsgOptionManager {
       }
       
       // Add map page button requested and available
-      if (ManagePreferences.mapPageButton() && message.getInfo().isMapPageAvailable()) {
+      if (ManagePreferences.mapPageButton() && message.isMapPageAvailable()) {
         addMapButton(4, buttonList, buttonGroup);
       }
     }
@@ -553,7 +550,7 @@ public class MsgOptionManager {
       
     // Map page address enabled if we have a map page URL
     case R.id.map_page_item:
-      item.setEnabled(message.getInfo().getMapPageURL() != null);
+      item.setEnabled(message.getMapPageURL() != null);
       break;
     
     // Change label on toggle lock item depending on current lock state
@@ -732,7 +729,7 @@ public class MsgOptionManager {
       searchStr = "geo:0,0?q=" + searchStr;
       
       // Add real address as title
-      String addr = message.getInfo().getAddress();
+      String addr = message.getAddress();
       if (addr.length() > 0) {
         searchStr = searchStr + '(' + addr + ')';
       }
@@ -766,7 +763,7 @@ public class MsgOptionManager {
       new ComponentName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
   
   private void viewMapPage(Context context) {
-    String url = message.getInfo().getMapPageURL();
+    String url = message.getMapPageURL();
     if (url == null) return;
     
     Uri uri = Uri.parse(url);

@@ -120,5 +120,15 @@ public class BroadcastBindings {
   // (String) URL for additional Info
   public static final String EXTRA_PARSE_INFO_URL =     PREFIX + "EXTRA_INFO_URL";
   
+  // (boolean) Parser has determined that GPS coordinates are more reliable that street address mapping
+  public static final String EXTRA_PREFER_GPS =         PREFIX + "EXTRA_PREFER_GPS";
+  
+  // (boolean) some calls may have a MAP_PAGE_URL item
+  public static final String EXTRA_MAP_PAGE_AVAIL =     PREFIX + "EXTRA_MAP_PAGE_AVAIL";
+  
+  // (string) URL to display map page for this call
+  public static final String EXTRA_MAP_PAGE_URL =       PREFIX + "EXTRA_MAP_PAGE_URL";
+  
+  
 
 }

@@ -51,7 +51,7 @@ public class HistoryMsgTextView extends TextView {
     String text = DateFormat.getLongDateFormat(context).format(time) + " " +
                   DateFormat.getTimeFormat(context).format(time) +
                   (msg.isLocked() ? " (Locked)" : "") +
-                  "\n" + msg.getInfo().getTitle();
+                  "\n" + msg.getTitle();
     float ftextSize = Integer.parseInt(ManagePreferences.textSize());
     this.setTextSize(ftextSize);
     setText(text);

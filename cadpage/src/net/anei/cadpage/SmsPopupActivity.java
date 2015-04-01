@@ -265,89 +265,102 @@ public class SmsPopupActivity extends Safe40Activity {
     // Update TextView that contains the timestamp for the incoming message
     String headerText;
     String timeStamp = message.getFormattedTimestamp(this).toString();
-    if (ManagePreferences.showSource()) { 
-      String source = info.getSource();
+    if (ManagePreferences.showSource()) {
+      String source = "";
+      if (info != null) source = info.getSource();
       if (source.length() == 0) source = message.getLocation();
       headerText = getString(R.string.src_text_at, source, timeStamp);//
     } else { 
       headerText = getString(R.string.new_text_at, timeStamp);
     }
-
-    // Set the from, message and header views
-    StringBuilder sb = new StringBuilder(info.getTitle());
-    fromTV.setText(sb.toString());
-    if (info.noCall()) fromTV.setMaxLines(2);
-    sb = new StringBuilder();
-    if (info.getPlace().length() > 0) {
-      sb.append(info.getPlace());
-      sb.append('\n');
-    }
-    sb.append(info.getAddress());
-    String appt = info.getApt();
-    if (appt.length() > 0) {
-      sb.append(' ');
-      sb.append(getString(R.string.apt_label));
-      sb.append(appt);
-    }
-    String delim="\n";
-    if (info.getCity().length() > 0) {
-      sb.append(delim);
-      delim = ", ";
-      sb.append(info.getCity());
-    }
-    if (info.getState().length() > 0) {
-      sb.append(delim);
-      sb.append(info.getState());
-    }
-    if (info.getCross().length() > 0) {
-      sb.append('\n');
-      sb.append(getString(R.string.cross_label));
-      sb.append(info.getCross());
-    }
-    if (info.getMap().length() > 0) {
-      sb.append('\n');
-      sb.append(getString(R.string.map_label));
-      sb.append(info.getMap());
-    }
-    if (info.getBox().length() > 0) {
-      sb.append('\n');
-      sb.append(getString(R.string.box_label));
-      sb.append(info.getBox());
-    }
-    if (info.getUnit().length() > 0) {
-      sb.append('\n');
-      sb.append(getString(R.string.units_label));
-      sb.append(info.getUnit());
-    }
-    if (ManagePreferences.showPersonal()) {
-      if (info.getName().length() > 0) {
+    
+    String detailText;
+    
+    // Special case if we have no parsed information (which is just about impossible)
+    if (info == null) {
+      detailText = message.getTitle();
+    } 
+    
+    // Otherwise do things normally
+    else {
+  
+      // Set the from, message and header views
+      StringBuilder sb = new StringBuilder(info.getTitle());
+      fromTV.setText(sb.toString());
+      if (info.noCall()) fromTV.setMaxLines(2);
+      sb = new StringBuilder();
+      if (info.getPlace().length() > 0) {
+        sb.append(info.getPlace());
         sb.append('\n');
-        sb.append(getString(R.string.name_label));
-        sb.append(info.getName());
       }
-      if (info.getPhone().length() > 0) {
+      sb.append(info.getAddress());
+      String appt = info.getApt();
+      if (appt.length() > 0) {
+        sb.append(' ');
+        sb.append(getString(R.string.apt_label));
+        sb.append(appt);
+      }
+      String delim="\n";
+      if (info.getCity().length() > 0) {
+        sb.append(delim);
+        delim = ", ";
+        sb.append(info.getCity());
+      }
+      if (info.getState().length() > 0) {
+        sb.append(delim);
+        sb.append(info.getState());
+      }
+      if (info.getCross().length() > 0) {
         sb.append('\n');
-        sb.append(getString(R.string.phone_label));
-        sb.append(info.getPhone());
+        sb.append(getString(R.string.cross_label));
+        sb.append(info.getCross());
       }
+      if (info.getMap().length() > 0) {
+        sb.append('\n');
+        sb.append(getString(R.string.map_label));
+        sb.append(info.getMap());
+      }
+      if (info.getBox().length() > 0) {
+        sb.append('\n');
+        sb.append(getString(R.string.box_label));
+        sb.append(info.getBox());
+      }
+      if (info.getUnit().length() > 0) {
+        sb.append('\n');
+        sb.append(getString(R.string.units_label));
+        sb.append(info.getUnit());
+      }
+      if (ManagePreferences.showPersonal()) {
+        if (info.getName().length() > 0) {
+          sb.append('\n');
+          sb.append(getString(R.string.name_label));
+          sb.append(info.getName());
+        }
+        if (info.getPhone().length() > 0) {
+          sb.append('\n');
+          sb.append(getString(R.string.phone_label));
+          sb.append(info.getPhone());
+        }
+      }
+      if (info.getChannel().length() > 0) {
+        sb.append('\n');
+        sb.append(getString(R.string.channel_label));
+        sb.append(info.getChannel());
+      }
+      if (info.getSupp().length() >0) {
+        sb.append('\n');
+        sb.append(getString(R.string.info_label));
+        sb.append(info.getSupp());
+      }
+      if (info.getCallId().length() >0) {
+        sb.append('\n');
+        sb.append(getString(R.string.call_id_label));
+        sb.append(info.getCallId());
+      }
+      detailText = sb.toString();
     }
-    if (info.getChannel().length() > 0) {
-      sb.append('\n');
-      sb.append(getString(R.string.channel_label));
-      sb.append(info.getChannel());
-    }
-    if (info.getSupp().length() >0) {
-      sb.append('\n');
-      sb.append(getString(R.string.info_label));
-      sb.append(info.getSupp());
-    }
-    if (info.getCallId().length() >0) {
-      sb.append('\n');
-      sb.append(getString(R.string.call_id_label));
-      sb.append(info.getCallId());
-    }
-    messageTV.setText(sb.toString());
     messageReceivedTV.setText(headerText);
+    messageTV.setText(detailText);
     
     // There used to be a call to myFinish() that was invoked if this method was
     // passed a message that was not a CAD page.  I am about as certain as I can

@@ -593,6 +593,7 @@ public abstract class MsgParser {
    * MAP_FLG_SUPPR_CR supress CR -> CIR adjustment
    * MAP_FLG_CR_CREEK convert CR to CREEK instead of CIR
    * MAP_FLG_SUPPR_TE suppress TE -> TER adjustment
+   * MAP_FLG_MAP_PAGES parser may return map page information
    */
   public int getMapFlags() {
     return 0;
@@ -608,7 +609,14 @@ public abstract class MsgParser {
   public static final int MAP_FLG_CR_CREEK = MsgInfo.MAP_FLG_CR_CREEK;
   public static final int MAP_FLG_SUPPR_TE = MsgInfo.MAP_FLG_SUPPR_TE;
   public static final int MAP_FLG_KEEP_STATE_HIGHWAY = MsgInfo.MAP_FLG_KEEP_STATE_HIGHWAY;
+  public static final int MAP_FLG_MAP_PAGES = MsgInfo.MAP_FLG_MAP_PAGES;
   
+  /**
+   * @return map page URL associated with this call
+   */
+  public String getMapPageURL(MsgInfo info) {
+    return null;
+  }
 
   /**
    * Convenience method to identify a page message by checking to see if

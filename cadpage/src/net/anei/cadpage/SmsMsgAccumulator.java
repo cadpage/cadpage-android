@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+import net.anei.cadpage.parsers.MsgInfo;
 import net.anei.cadpage.parsers.MsgParser;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -122,15 +123,18 @@ public class SmsMsgAccumulator {
     if (ManagePreferences.splitMinMsg() > 1) return true;
     
     // If the message parser decided more data was needed, return true;
-    if (msg.getInfo().isExpectMore()) return true;
-    
-    // If this was parsed as a general alert call, and the accumulate messages
-    // in reverse order was set, return true.  If messages are coming in in 
-    // reverse order and we get the last part first, the we won't know if
-    // this is a real CAD page until the first part is received, so we have to
-    // treat everything as a potential CAD page.
-    if (msg.getInfo().getCall().equals("GENERAL ALERT") &&
-        ManagePreferences.revMsgOrder()) return true;
+    MsgInfo info = msg.getInfo();
+    if (info != null) { 
+      if (info.isExpectMore()) return true;
+      
+      // If this was parsed as a general alert call, and the accumulate messages
+      // in reverse order was set, return true.  If messages are coming in in 
+      // reverse order and we get the last part first, the we won't know if
+      // this is a real CAD page until the first part is received, so we have to
+      // treat everything as a potential CAD page.
+      if (info.getCall().equals("GENERAL ALERT") &&
+          ManagePreferences.revMsgOrder()) return true;
+    }
     
     // Otherwise the answer is no
     return false;
@@ -298,7 +302,7 @@ public class SmsMsgAccumulator {
       if (msg == null) return true;
       
       boolean isPage = msg.isPageMsg(MsgParser.PARSE_FLG_SKIP_FILTER);
-      if (isPage && !msg.getInfo().isExpectMore()) return true;
+      if (isPage && !msg.isExpectMore()) return true;
       
       // If not, return false;
       return false;

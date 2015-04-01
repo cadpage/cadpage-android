@@ -13,6 +13,7 @@ vzcbeg wnin.hgvy.ertrk.Zngpure;
 vzcbeg wnin.hgvy.ertrk.Cnggrea;
 
 vzcbeg arg.narv.pnqcntr.cnefref.ZftVasb.Qngn;
+vzcbeg arg.narv.pnqcntr.cnefref.ZftCnefre.PbhagelPbqr;
 
 vzcbeg bet.whavg.Orsber;
 vzcbeg bet.whavg.Grfg;
@@ -234,18 +235,12 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       nffregRdhnyf(gvgyr + ":zncCnefre", cnefreZncPbqr, vasb.trgCnefre().trgCnefrePbqr());
     }
     
-    // Pnyphyngr ercbegrq znc nqqerff.  TCF pbbeqvangr pbairefvba qbrfa'g trg
-    // unaqyrq ol gur erthyne trgOnfrZncNqqerff() zrgubq.  Jr jvyy qrgrpg vg
-    // ol pnyyvat trgZncNqqerff() naq hfvat vgf erfhygf vs vg qbrfa'g fgneg jvgu
-    // gur inyhr erghearq ol trgOnfrZncNqqerff()
+    // Pnyphyngr ercbegrq znc nqqerff.
     Fgevat npgZncNqqe = "";
     Fgevat npgZncPvgl = "";
     vs (puxZncNqqe) {
-      Fgevat ybatZncNqqe = vasb.trgZncNqqerff(snyfr, "KKKK", "KK");
-      npgZncNqqe = vasb.trgOnfrZncNqqerff();
-      vs (ybatZncNqqe != ahyy && !ybatZncNqqe.fgnegfJvgu(npgZncNqqe)) npgZncNqqe = ybatZncNqqe;
+      npgZncNqqe = trgOnfrZncNqqerff(vasb);
       vs (npgZncNqqe.rdhnyf(vasb.trgNqqerff())) npgZncNqqe = "";
-      
       npgZncPvgl = vasb.trgZncPvgl();
       vs (npgZncPvgl.rdhnyf(vasb.trgPvgl())) npgZncPvgl = "";
     }
@@ -641,7 +636,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     vs (fGlcr.rdhnyf("CYNPR")) erghea vasb.trgCynpr();
     vs (fGlcr.rdhnyf("NQQE")) erghea vasb.trgNqqerff();
     vs (fGlcr.rdhnyf("ZNQQE")) {
-      Fgevat nqqe = vasb.trgOnfrZncNqqerff();
+      Fgevat nqqe = trgOnfrZncNqqerff(vasb);
       vs (nqqe.rdhnyf(vasb.trgNqqerff())) nqqe = "";
       erghea nqqe;
     }
@@ -671,6 +666,33 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     vs (fGlcr.rdhnyf("HEY")) erghea vasb.trgVasbHEY();
     vs (fGlcr.rdhnyf("YBPPBQR")) erghea vasb.trgCnefre().trgCnefrePbqr();
     ryfr guebj arj EhagvzrRkprcgvba("Xrljbeq " + fGlcr + " vf abg qrsvarq");
+  }
+  
+  Fgevat trgOnfrZncNqqerff(ZftVasb vasb) {
+    Fgevat nqqe = vasb.trgZncNqqerff(snyfr, "KKKK", "KK");
+    vs (nqqe == ahyy) {
+      nqqe = vasb.trgZncNqqerff(gehr,  "KKKK", "KK");
+      vs (nqqe == ahyy) nqqe = "";
+      erghea nqqe;
+    }
+    PbhagelPbqr pbhagelPbqr = vasb.trgPbhagelPbqr();
+    vs (pbhagelPbqr != PbhagelPbqr.HF) {
+      Fgevat pbhagel = pbhagelPbqr.gbFgevat();
+      vs (nqqe.raqfJvgu("," + pbhagel)) {
+        nqqe = nqqe.fhofgevat(0,nqqe.yratgu()-pbhagel.yratgu()-1);
+      }
+    }
+    Fgevat fgngr = vasb.trgFgngr();
+    vs (fgngr.yratgu() == 0) fgngr = "KK";
+    vs (nqqe.raqfJvgu("," + fgngr)) {
+      nqqe = nqqe.fhofgevat(0,nqqe.yratgu()-fgngr.yratgu()-1);
+    }
+    Fgevat pvgl = vasb.trgZncPvgl();
+    vs (pvgl.yratgu() == 0) pvgl = "KKKK";
+    vs (nqqe.raqfJvgu("," + pvgl)) {
+      nqqe = nqqe.fhofgevat(0,nqqe.yratgu()-pvgl.yratgu()-1);
+    }
+    erghea nqqe;
   }
   
   /**

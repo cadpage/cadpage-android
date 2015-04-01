@@ -52,6 +52,8 @@ public class CadpageParserBase  extends FieldProgramParser{
     setMap("URL");
     setMap("CO");
     setMap("REC_GPS");
+    setMap("MP_AVAIL");
+    setMap("MP_URL");
     setMap("PARSER");
     setMap("DATETIME");
     setMap("TIMEDATE");
@@ -75,6 +77,8 @@ public class CadpageParserBase  extends FieldProgramParser{
     if (name.equals("MCITY")) return new MapCityField();
     if (name.equals("CO")) return new CountryField();
     if (name.equals("REC_GPS")) return new PreferGPSField();
+    if (name.equals("MP_AVAIL")) return new MapPageAvailField();
+    if (name.equals("MP_URL")) return new MapPageURLField();
     if (name.equals("PARSER")) return new ParserField();
     return super.getField(name);
   }
@@ -113,10 +117,24 @@ public class CadpageParserBase  extends FieldProgramParser{
     }
   }
   
+  private class MapPageAvailField extends SkipField {
+    @Override 
+    public void parse(String field, Data data) {
+      data.mapPageAvailable = (field.length() > 0 && "YES".startsWith(field));
+    }
+  }
+  
   private class MapAddressField extends SkipField {
     @Override
     public void parse(String field, Data data) {
       data.strBaseMapAddress = field;
+    }
+  }
+  
+  private class MapPageURLField extends SkipField {
+    @Override
+    public void parse(String field, Data data) {
+      data.mapPageURL = (field.length() > 0 ? field : null);
     }
   }
   

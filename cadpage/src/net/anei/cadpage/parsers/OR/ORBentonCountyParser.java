@@ -4,6 +4,7 @@ import java.util.Properties;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 //  Map pages can be found at http://maps.co.benton.or.us/gisdata/Address/FireMapBooks/
@@ -21,6 +22,11 @@ public class ORBentonCountyParser extends FieldProgramParser {
   @Override
   public String getFilter() {
     return "Corvallis Alerts,alerts@corvallis.ealertgov.com";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_MAP_PAGES;
   }
 
   @Override
@@ -47,6 +53,22 @@ public class ORBentonCountyParser extends FieldProgramParser {
     
     return true;
   }
+  
+  // List of streets that extend wholly or partly into a region that Google does
+  // not recognize as part of Philomath
+  private static final String[] NOT_IN_PHILOMATH = new String[]{
+    "BANKS",
+    "BREWSTER",
+    "BEAVER CREEK",
+    "BLUEROCK",
+    "DECKER",
+    "GRASS HEIGHTS",
+    "LINVILLE",
+    "MARYS PEAK",
+    "NEUMAN",
+    "PETERSON",
+    "STARR CREEK"
+  };
   
   private class MyAddressField extends AddressField {
     @Override
@@ -721,21 +743,185 @@ public class ORBentonCountyParser extends FieldProgramParser {
       "1400 APPLEGATE ST APT:1370",   "44.538874,-123.366783",
       
   });
+
+  @Override
+  public String getMapPageURL(MsgInfo info) {
+    String map = info.getMap();
+    if (map.length() == 0) return null;
+    String page = MAP_PAGE_TABLE.getProperty(map);
+    if (page == null) return null;
+    return MAP_PAGE_BASE + page;
+  }
+
+  private static final String MAP_PAGE_BASE = "http://maps.co.benton.or.us/gisdata/Address/FireMapBooks/";
+  private static final Properties MAP_PAGE_TABLE = buildCodeTable(new String[]{
+      "435-330", "PhilomathMaps/435-330.pdf",
+      "435-345", "PhilomathMaps/435-345.pdf",
+      "435-375", "PhilomathMaps/435-375.pdf",
+      "435-390", "PhilomathMaps/435-390.pdf",
+      "435-405", "PhilomathMaps/435-405.pdf",
+      "435-420", "PhilomathMaps/435-420.pdf",
+      "435-435", "PhilomathMaps/435-435.pdf",
+      "450-330", "PhilomathMaps/450-330.pdf",
+      "450-345", "PhilomathMaps/450-345.pdf",
+      "450-360", "PhilomathMaps/450-360.pdf",
+      "450-375", "PhilomathMaps/450-375.pdf",
+      "450-390", "PhilomathMaps/450-390.pdf",
+      "450-405", "PhilomathMaps/450-405.pdf",
+      "450-420", "PhilomathMaps/450-420.pdf",
+      "465-330", "PhilomathMaps/465-330.pdf",
+      "465-345", "PhilomathMaps/465-345.pdf",
+      "465-360", "PhilomathMaps/465-360.pdf",
+      "465-375", "PhilomathMaps/465-375.pdf",
+      "465-390", "PhilomathMaps/465-390.pdf",
+      "465-405", "PhilomathMaps/465-405.pdf",
+      "465-420", "PhilomathMaps/465-420.pdf",
+      "465-435", "PhilomathMaps/465-435.pdf",
+      "480-330", "PhilomathMaps/480-330.pdf",
+      "480-345", "PhilomathMaps/480-345.pdf",
+      "480-360", "PhilomathMaps/480-360.pdf",
+      "480-375", "PhilomathMaps/480-375.pdf",
+      "480-390", "PhilomathMaps/480-390.pdf",
+      "480-405", "PhilomathMaps/480-405.pdf",
+      "480-420", "PhilomathMaps/480-420.pdf",
+      "480-435", "PhilomathMaps/480-435.pdf",
+      "480-450", "PhilomathMaps/480-450.pdf",
+      "480-465", "PhilomathMaps/480-465.pdf",
+      "480-480", "PhilomathMaps/480-480.pdf",
+      "495-330", "PhilomathMaps/495-330.pdf",
+      "495-345", "PhilomathMaps/495-345.pdf",
+      "495-360", "PhilomathMaps/495-360.pdf",
+      "495-375", "PhilomathMaps/495-375.pdf",
+      "495-390", "PhilomathMaps/495-390.pdf",
+      "495-405", "PhilomathMaps/495-405.pdf",
+      "495-420", "PhilomathMaps/495-420.pdf",
+      "495-435", "PhilomathMaps/495-435.pdf",
+      "495-450", "PhilomathMaps/495-450.pdf",
+      "495-465", "PhilomathMaps/495-465.pdf",
+      "495-480", "PhilomathMaps/495-480.pdf",
+      "500-435", "PhilomathMaps/500-435-ins.pdf",
+      "500-440", "PhilomathMaps/500-440-ins.pdf",
+      "505-435", "PhilomathMaps/505-435-ins.pdf",
+      "510-315", "PhilomathMaps/510-315.pdf",
+      "510-330", "PhilomathMaps/510-330.pdf",
+      "510-345", "PhilomathMaps/510-345.pdf",
+      "510-360", "PhilomathMaps/510-360.pdf",
+      "510-375", "PhilomathMaps/510-375.pdf",
+      "510-390", "PhilomathMaps/510-390.pdf",
+      "510-405", "PhilomathMaps/510-405.pdf",
+      "510-420", "PhilomathMaps/510-420.pdf",
+      "510-435", "PhilomathMaps/510-435.pdf",
+      "510-450", "PhilomathMaps/510-450.pdf",
+      "510-465", "PhilomathMaps/510-465.pdf",
+      "510-480", "PhilomathMaps/510-480.pdf",
+      "525-300", "PhilomathMaps/525-300.pdf",
+      "525-315", "PhilomathMaps/525-315.pdf",
+      "525-330", "PhilomathMaps/525-330.pdf",
+      "525-345", "PhilomathMaps/525-345.pdf",
+      "525-360", "PhilomathMaps/525-360.pdf",
+      "525-375", "PhilomathMaps/525-375.pdf",
+      "525-390", "PhilomathMaps/525-390.pdf",
+      "525-405", "PhilomathMaps/525-405.pdf",
+      "525-420", "PhilomathMaps/525-420.pdf",
+      "525-435", "PhilomathMaps/525-435.pdf",
+      "525-450", "PhilomathMaps/525-450.pdf",
+      "535-345", "PhilomathMaps/535-345.pdf",
+      "535-355", "PhilomathMaps/535-355.pdf",
+      "535-360", "PhilomathMaps/535-360-ins.pdf",
+      "535-360", "PhilomathMaps/535-360.pdf",
+      "535-375", "PhilomathMaps/535-375.pdf",
+      "540-300", "PhilomathMaps/540-300.pdf",
+      "540-315", "PhilomathMaps/540-315.pdf",
+      "540-330", "PhilomathMaps/540-330.pdf",
+      "540-335", "PhilomathMaps/540-335-ins.pdf",
+      "540-340", "PhilomathMaps/540-340-ins.pdf",
+      "540-345", "PhilomathMaps/540-345-ins.pdf",
+      "540-345", "PhilomathMaps/540-345.pdf",
+      "540-350", "PhilomathMaps/540-350-ins.pdf",
+      "540-355", "PhilomathMaps/540-355-ins.pdf",
+      "540-360", "PhilomathMaps/540-360-ins.pdf",
+      "540-360", "PhilomathMaps/540-360.pdf",
+      "540-365", "PhilomathMaps/540-365-ins.pdf",
+      "540-370", "PhilomathMaps/540-370-ins.pdf",
+      "540-375", "PhilomathMaps/540-375-ins.pdf",
+      "540-375", "PhilomathMaps/540-375.pdf",
+      "540-380", "PhilomathMaps/540-380-ins.pdf",
+      "540-390", "PhilomathMaps/540-390.pdf",
+      "540-400", "PhilomathMaps/540-400.pdf",
+      "540-405", "PhilomathMaps/540-405-ins.pdf",
+      "540-405", "PhilomathMaps/540-405.pdf",
+      "540-420", "PhilomathMaps/540-420.pdf",
+      "540-435", "PhilomathMaps/540-435.pdf",
+      "545-335", "PhilomathMaps/545-335-ins.pdf",
+      "545-340", "PhilomathMaps/545-340-ins.pdf",
+      "545-345", "PhilomathMaps/545-345-ins.pdf",
+      "545-350", "PhilomathMaps/545-350-ins.pdf",
+      "545-355", "PhilomathMaps/545-355-ins.pdf",
+      "545-360", "PhilomathMaps/545-360-ins.pdf",
+      "545-365", "PhilomathMaps/545-365-ins.pdf",
+      "545-370", "PhilomathMaps/545-370-ins.pdf",
+      "545-375", "PhilomathMaps/545-375-ins.pdf",
+      "545-380", "PhilomathMaps/545-380-ins.pdf",
+      "545-385", "PhilomathMaps/545-385-ins.pdf",
+      "550-325", "PhilomathMaps/550-325-ins.pdf",
+      "550-330", "PhilomathMaps/550-330-ins.pdf",
+      "550-335", "PhilomathMaps/550-335-ins.pdf",
+      "550-365", "PhilomathMaps/550-365-ins.pdf",
+      "550-370", "PhilomathMaps/550-370-ins.pdf",
+      "550-370", "PhilomathMaps/550-370.pdf",
+      "550-375", "PhilomathMaps/550-375-ins.pdf",
+      "550-380", "PhilomathMaps/550-380-ins.pdf",
+      "550-385", "PhilomathMaps/550-385-ins.pdf",
+      "555-325", "PhilomathMaps/555-325-ins.pdf",
+      "555-330", "PhilomathMaps/555-330-ins.pdf",
+      "555-330", "PhilomathMaps/555-330.pdf",
+      "555-345", "PhilomathMaps/555-345.pdf",
+      "555-360", "PhilomathMaps/555-360-ins.pdf",
+      "555-360", "PhilomathMaps/555-360.pdf",
+      "555-375", "PhilomathMaps/555-375.pdf",
+      "555-390", "PhilomathMaps/555-390.pdf",
+      "555-405", "PhilomathMaps/555-405.pdf",
+      "555-420", "PhilomathMaps/555-420.pdf",
+      "555-435", "PhilomathMaps/555-435.pdf",
+      "555-450", "PhilomathMaps/555-450.pdf",
+      "555-465", "PhilomathMaps/555-465.pdf",
+      "555-480", "PhilomathMaps/555-480.pdf",
+      "560-325", "PhilomathMaps/560-325-ins.pdf",
+      "570-330", "PhilomathMaps/570-330.pdf",
+      "570-345", "PhilomathMaps/570-345.pdf",
+      "570-360", "PhilomathMaps/570-360.pdf",
+      "570-375", "PhilomathMaps/570-375.pdf",
+      "570-390", "PhilomathMaps/570-390.pdf",
+      "570-405", "PhilomathMaps/570-405.pdf",
+      "570-420", "PhilomathMaps/570-420.pdf",
+      "570-435", "PhilomathMaps/570-435.pdf",
+      "570-450", "PhilomathMaps/570-450.pdf",
+      "585-360", "PhilomathMaps/585-360.pdf",
+      "585-375", "PhilomathMaps/585-375.pdf",
+      "585-390", "PhilomathMaps/585-390.pdf",
+      "585-405", "PhilomathMaps/585-405.pdf",
+      "585-420", "PhilomathMaps/585-420.pdf",
+      "585-435", "PhilomathMaps/585-435.pdf",
+      "585-450", "PhilomathMaps/585-450.pdf",
+      "585-465", "PhilomathMaps/585-465.pdf",
+      "585-480", "PhilomathMaps/585-480.pdf",
+      "600-390", "PhilomathMaps/600-390.pdf",
+      "600-405", "PhilomathMaps/600-405.pdf",
+      "600-420", "PhilomathMaps/600-420.pdf",
+      "600-435", "PhilomathMaps/600-435.pdf",
+      "600-450", "PhilomathMaps/600-450.pdf",
+      "600-465", "PhilomathMaps/600-465.pdf",
+      "600-480", "PhilomathMaps/600-480.pdf",
+      "615-375", "PhilomathMaps/615-375.pdf",
+      "615-390", "PhilomathMaps/615-390.pdf",
+      "615-405", "PhilomathMaps/615-405.pdf",
+      "615-420", "PhilomathMaps/615-420.pdf",
+      "615-435", "PhilomathMaps/615-435.pdf",
+      "615-450", "PhilomathMaps/615-450.pdf",
+      "630-390", "PhilomathMaps/630-390.pdf",
+      "630-405", "PhilomathMaps/630-405.pdf",
+      "630-435", "PhilomathMaps/630-435.pdf",
+      "630-450", "PhilomathMaps/630-450.pdf"
+  });
   
-  // List of streets that extend wholly or partly into a region that Google does
-  // not recognize as part of Philomath
-  private static final String[] NOT_IN_PHILOMATH = new String[]{
-    "BANKS",
-    "BREWSTER",
-    "BEAVER CREEK",
-    "BLUEROCK",
-    "DECKER",
-    "GRASS HEIGHTS",
-    "LINVILLE",
-    "MARYS PEAK",
-    "NEUMAN",
-    "PETERSON",
-    "STARR CREEK"
-  };
- 
 }

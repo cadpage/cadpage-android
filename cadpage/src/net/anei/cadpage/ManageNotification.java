@@ -208,10 +208,10 @@ public class ManageNotification {
       }
     }
 
-    String call = message.getInfo().getTitle();
+    String call = message.getTitle();
     nbuild.setContentTitle(context.getString(R.string.cadpage_alert));
     nbuild.setContentText(call);
-    nbuild.setStyle(new NotificationCompat.InboxStyle().addLine(call).addLine(message.getInfo().getAddress()));
+    nbuild.setStyle(new NotificationCompat.InboxStyle().addLine(call).addLine(message.getAddress()));
     nbuild.setWhen(message.getIncidentDate().getTime());
 
     // The default intent when the notification is clicked (Inbox)

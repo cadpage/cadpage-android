@@ -753,10 +753,6 @@ public class SmsMmsMessage implements Serializable {
   public String getFromAddress() {
     return fromAddress;
   }
-
-  public String getAddress() {
-    return (parseInfo == null ? fromAddress : parseInfo.getAddress());
-  }
   
   public String getLocation() {
     return location;
@@ -797,8 +793,7 @@ public class SmsMmsMessage implements Serializable {
    */
   public String getInfoURL() {
     if (infoURL != null) return VendorManager.instance().addAccountInfo(vendorCode, infoURL);
-    if (parseInfo == null) return null;
-    MsgInfo info = parseInfo.getInfo();
+    MsgInfo info = getInfo();
     if (info == null) return null;
     String url = info.getInfoURL();
     if (url.length() > 0) return url;
@@ -825,6 +820,66 @@ public class SmsMmsMessage implements Serializable {
       if (resId > 0) return resId;
     }
     return  R.string.more_info_item_text;
+  }
+  
+  /**
+   * @return true if GPS coordinate mapping should be preferred
+   */
+  public boolean isPreferGPSLoc() {
+    
+    int gpsMapOption = ManagePreferences.gpsMapOption();
+    if (gpsMapOption == 2) return false;
+    if (gpsMapOption == 3) return true;
+    
+    MsgInfo info = getInfo();
+    if (info == null) return false;
+    return info.isPreferGPSLoc();
+  }
+  
+  /**
+   * @return true if parser can return map pages
+   */
+  public boolean isMapPageAvailable() {
+    MsgInfo info = getInfo();
+    if (info == null) return false;
+    return info.isMapPageAvailable();
+  }
+  
+  /**
+   * @return message title text
+   */
+  public String getTitle() {
+    MsgInfo info = getInfo();
+    if (info != null) return info.getTitle();
+    if (messageBody != null) return messageBody;
+    return "";
+  }
+  
+  /**
+   * @return message address information
+   */
+  public String getAddress() {
+    MsgInfo info = getInfo();
+    if (info == null) return "";
+    return info.getAddress();
+  }
+  
+  /**
+   * @return true if message expects more information to follow
+   */
+  public boolean isExpectMore() {
+    MsgInfo info = getInfo();
+    if (info == null) return false;
+    return info.isExpectMore();
+  }
+  
+  /**
+   * @return map page URL or null if one does not exist
+   */
+  public String getMapPageURL() {
+    MsgInfo info = getInfo();
+    if (info == null) return null;
+    return info.getMapPageURL();
   }
   
   /**
@@ -898,11 +953,29 @@ public class SmsMmsMessage implements Serializable {
   }
 
   /**
+   * Compute map search address use the default GPS map option
+   */
+  public String getMapAddress() {
+    return getMapAddress(true, false);
+  }
+
+  /**
    * Compute map search address
    * @param useGPS true to use GPS location in preference to regular address
    * @return map search string or null if not available
    */
   public String getMapAddress(boolean useGPS) {
+    return getMapAddress(false, useGPS);
+  }
+
+  /**
+   * Compute map search address
+   * @param defUseGPS true to use default GPS preference option.  If this is
+   * true, useGPS is ignored. 
+   * @param useGPS true to use GPS location in preference to regular address
+   * @return map search string or null if not available
+   */
+  private String getMapAddress(boolean defUseGPS, boolean useGPS) {
     
     if (parseInfo == null) return null;
     MsgInfo info = parseInfo.getInfo();
@@ -914,6 +987,7 @@ public class SmsMmsMessage implements Serializable {
       defCity = ManagePreferences.defaultCity();
       defState = ManagePreferences.defaultState();
     }
+    if (defUseGPS) return info.getMapAddress(defCity, defState);
     return info.getMapAddress(useGPS, defCity, defState);
   }
   
@@ -947,7 +1021,7 @@ public class SmsMmsMessage implements Serializable {
       putExtraString(intent, EXTRA_PARSE_ADDRESS, info.getAddress());
       putExtraString(intent, EXTRA_PARSE_CITY, info.getCity());
       putExtraString(intent, EXTRA_PARSE_STATE, info.getState());
-      String mapAddress = getMapAddress(false);
+      String mapAddress = getMapAddress();
       if (mapAddress != null) {
         putExtraString(intent, EXTRA_PARSE_MAP_ADDRESS, mapAddress);
       }
@@ -965,6 +1039,9 @@ public class SmsMmsMessage implements Serializable {
       putExtraString(intent, EXTRA_PARSE_DISP_DATE, info.getDate());
       putExtraString(intent, EXTRA_PARSE_DISP_TIME, info.getTime());
       putExtraString(intent, EXTRA_PARSE_INFO_URL, info.getInfoURL());
+      intent.putExtra(EXTRA_PREFER_GPS, info.isPreferGPSLoc());
+      intent.putExtra(EXTRA_MAP_PAGE_AVAIL, info.isMapPageAvailable());
+      putExtraString(intent, EXTRA_MAP_PAGE_URL, info.getMapPageURL());
     }
     
     Log.v("Broadcasting intent");
