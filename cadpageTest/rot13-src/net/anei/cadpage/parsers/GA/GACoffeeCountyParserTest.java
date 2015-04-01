@@ -74,7 +74,29 @@ choyvp pynff TNPbssrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgQhfgvaEnvyrl() {
-    
+
+    qbGrfg("G1",
+        "PBSSRR911:1070F > SVER FGEHPGHER 102 SENAPVF YA BYQ NKFBA",
+        "PBQR:1070F",
+        "PNYY:SVER FGEHPGHER",
+        "NQQE:102 SENAPVF YA",
+        "ANZR:BYQ NKFBA");
+
+    qbGrfg("G2",
+        "PBSSRR911:1070F > SVER FGEHPGHER 759 FHTNEFNAQ EQ 8501711 XNZREN EQ / UNEIRL IVPXREF EQ",
+        "PBQR:1070F",
+        "PNYY:SVER FGEHPGHER",
+        "NQQE:759 FHTNEFNAQ EQ",
+        "K:XNZREN EQ / UNEIRL IVPXREF EQ",
+        "CUBAR:8501711");
+
+    qbGrfg("G3",
+        "PBSSRR911:1050V > NPPVQRAG JVGU VAWHEVRF ORGURY FGBER/ JVYYNPBBPURR UJL 4124718",
+        "PBQR:1050V",
+        "PNYY:NPPVQRAG JVGU VAWHEVRF",
+        "NQQE:ORGURY FGBER & JVYYNPBBPURR UJL",
+        "CUBAR:4124718");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
