@@ -27,6 +27,10 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Fb. Wrss. Erfphr) ZIN-CV|81 & VXRLF PEBFFVAT EQ:RYYVFOHET(G)|
 (Fb. Wrss. Erfphr) FVPX CREFBA|1490 PBHAGL EBHGR 122:RYYVFOHET(G)|QBEBGUL FPUELIRE ERFVQRAPR.  315-387-3088.  89 LB SRZNYR FGNGRF URE XVQARL NER ABG JB
 
+Pbagnpg: Funja Ylapu <funjaylapu60@lnubb.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(Uraqrefba Sver & Nzohynapr) SVER NYNEZ|5771 AHGGVAT FGERRG EQ:URAQREFBA(G)|ab fzbxr be synzrf  nynez jvyy abg fuhg bss\a\a03315-938-7219 02/10 22:55:26
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Nqnzf SQ
 Ybpngvba: Nqnzf, AL, Havgrq Fgngrf
@@ -1196,6 +1200,20 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:RYYVFOHET",
         "VASB:QBEBGUL FPUELIRE ERFVQRAPR. 315-387-3088. 89 LB SRZNYR FGNGRF URE XVQARL NER ABG JB");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFunjaYlapu() {
+
+    qbGrfg("G1",
+        "(Uraqrefba Sver & Nzohynapr) SVER NYNEZ|5771 AHGGVAT FGERRG EQ:URAQREFBA(G)|ab fzbxr be synzrf  nynez jvyy abg fuhg bss\a\a" +
+        "03315-938-7219 02/10 22:55:26",
+
+        "PNYY:SVER NYNEZ",
+        "NQQE:5771 AHGGVAT FGERRG EQ",
+        "PVGL:URAQREFBA",
+        "VASB:ab fzbxr be synzrf nynez jvyy abg fuhg bss\a03315-938-7219 02/10 22:55:26");
+    
   }
 
   @Grfg
