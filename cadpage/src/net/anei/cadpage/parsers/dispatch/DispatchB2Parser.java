@@ -37,7 +37,7 @@ public class DispatchB2Parser extends DispatchBParser {
   private static final Pattern CROSS_LABEL_PTN = Pattern.compile("\\b(?:XS|CS|C/S)[: ] *");
   private static final Pattern BLDG_PTN = Pattern.compile("(Bldg(?: \\d+)?)\\b *"); 
   
-  private String prefix;
+  private String[] prefixList;
   private boolean forceCallCode;
   private boolean crossFollows;
 
@@ -63,34 +63,31 @@ public class DispatchB2Parser extends DispatchBParser {
 
   public DispatchB2Parser(String prefix, String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState);
-    this.prefix = prefix;
+    this.prefixList = prefix.split("\\|\\|");
   }
 
   public DispatchB2Parser(String prefix, String[] cityList, String defCity, String defState, int flags) {
     super(cityList, defCity, defState);
-    this.prefix = prefix;
-    setupFlags(flags);
+    setup(prefix, flags);
   }
 
   public DispatchB2Parser(String prefix, int version, String[] cityList, String defCity, String defState) {
     super(version, cityList, defCity, defState);
-    this.prefix = prefix;
-    setupFlags(0);
+    setup(prefix, 0);
   }
 
   public DispatchB2Parser(String prefix, Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState);
-    this.prefix = prefix;
-    setupFlags(0);
+    setup(prefix,0);
   }
   
   public DispatchB2Parser(String prefix, String defCity, String defState) {
     super(defCity, defState);
-    this.prefix = prefix;
-    setupFlags(0);
+    setup(prefix, 0);
   }
   
-  private void setupFlags(int flags) {
+  private void setup(String prefix, int flags) {
+    prefixList = (prefix == null ? null : prefix.split("\\|\\|"));
     forceCallCode = (flags & B2_FORCE_CALL_CODE) != 0;
     crossFollows = (flags & B2_CROSS_FOLLOWS) != 0;
   }
@@ -99,12 +96,19 @@ public class DispatchB2Parser extends DispatchBParser {
   @Override
  protected boolean parseMsg(String body, Data data) {
     
-    if (prefix != null) {
-      if (!body.startsWith(prefix)) return false;
-      body = body.substring(prefix.length()).trim();
+    if (prefixList != null) {
+      boolean found = false;
+      for (String prefix : prefixList) {
+        if (body.startsWith(prefix)) {
+          found = true;
+          body = body.substring(prefix.length()).trim();
+          break;
+        }
+      }
+      if (!found) return false;
     }
     if (super.parseMsg(body, data)) return true;
-    if (prefix == null) return false;
+    if (prefixList == null) return false;
     data.parseGeneralAlert(this, body);
     return true;
   }
@@ -112,7 +116,7 @@ public class DispatchB2Parser extends DispatchBParser {
   
   @Override
   protected boolean isPageMsg(String body) {
-    if (prefix != null) return true;
+    if (prefixList != null) return true;
     return super.isPageMsg(body);
   }
   

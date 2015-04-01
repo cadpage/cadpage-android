@@ -9,12 +9,12 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 public class GACoffeeCountyParser extends DispatchB2Parser {
 
   public GACoffeeCountyParser() {
-    super("911-CENTER:", "COFFEE COUNTY", "GA");
+    super("COFFEE911:||911-CENTER:", "COFFEE COUNTY", "GA");
   }
   
   @Override
   public String getFilter() {
-    return "911-CENTER@coffeecountygov.com";
+    return "911-CENTER@coffeecountygov.com,COFFEE911@coffeecountygov.com";
   }
 
   @Override
