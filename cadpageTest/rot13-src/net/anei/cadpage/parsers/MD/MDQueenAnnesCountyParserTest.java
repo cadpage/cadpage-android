@@ -23,49 +23,14 @@ Pbagnpg: QW <qwjuvgol@lnubb.pbz>
 Fraqre: DN911pbz@dnp.bet
 (*T 5-2  FGEBXR(PIN)>2UEF 210 ENOOVG UVYY EQ ABG NYREG D05 QHR) DN911pbz:FH59
 
+Pbagnpg: Trar Gubznf <trgubznf.67@tznvy.pbz>
+Fraqre: ep.578@p-zft.arg
+Q 4-2 URNEG CEBOYRZF 205 NEZFGEBAT FG PNEQVNP UVFGBEL D04 QHR:Z40
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Tenfbaivyyr SQ
 Ybpngvba: Tenfbaivyyr, ZQ, Havgrq Fgngrf
-Fraqre: zft80S79Q@p-zft.arg
-Fraqre: ep.569@p-zft.arg
-Fraqre: zft6N61Q3@p-zft.arg
-Fraqre: zft3OSO88@p-zft.arg
-Fraqre: zft77N48R@p-zft.arg
-Fraqre: zft847992@p-zft.arg
-Fraqre: zft34N81R@p-zft.arg
-Fraqre: zft7S4635@p-zft.arg
-Fraqre: zft323907@p-zft.arg
-Fraqre: zft18Q6R@p-zft.arg
-Fraqre: zft97652P@p-zft.arg
-Fraqre: zft971727@p-zft.arg
-Fraqre: zft3N297S@p-zft.arg
-Fraqre: zft47ONO8@p-zft.arg
-Fraqre: zft92N758@p-zft.arg
-Fraqre: zft3655S6@p-zft.arg
-Fraqre: zft3655S0@p-zft.arg
-Fraqre: zft6S1N21@p-zft.arg
-Fraqre: zft3Q83S0@p-zft.arg
-Fraqre: zft2QS12Q@p-zft.arg
-Fraqre: zft4N2S49@p-zft.arg
-Fraqre: zft190P64@p-zft.arg
-Fraqre: zft3RR413@p-zft.arg
-Fraqre: zft20NOR4@p-zft.arg
-Fraqre: zft153Q35@p-zft.arg
-Fraqre: zft4SQ397@p-zft.arg
-Fraqre: zft40420N@p-zft.arg
-Fraqre: zft2QS2SS@p-zft.arg
-Fraqre: zft4N7R7P@p-zft.arg
-Fraqre: zft860045@p-zft.arg
-Fraqre: zft6751P6@p-zft.arg
-Fraqre: zft460R3Q@p-zft.arg
-Fraqre: zft8P65QO@p-zft.arg
-Fraqre: zft303O82@p-zft.arg
-Fraqre: zft303O77@p-zft.arg
-Fraqre: zftN2P2@p-zft.arg
-Fraqre: zft7NQ965@p-zft.arg
-Fraqre: zft5N0QR6@p-zft.arg
-Fraqre: zft3PR771@p-zft.arg
-Fraqre: zft85Q50O@p-zft.arg
+Fraqre: @p-zft.arg
 
 Q 1-15 BQBE BS TNF VAFVQR 800 NOEHMMV QE OBK D01 QHR:R14 R25 R32 R92 GJ1 GX2 E1 RG1 GA2 GA9 C1 C300 RZF3 P1
 Q 2-63 JNGRE ERFPHR VPR UBHFR CBVAG QE JNGRE ERFPHR OBK D02 QHR:R32 E2 N2 C300 GOG40 SO9 SO2 SO1 RZF3 P2
@@ -399,6 +364,20 @@ choyvp pynff ZQDhrraNaarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:ABG NYREG",
         "PU:D05",
         "HAVG:FH59");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgTrarGubznf() {
+
+    qbGrfg("G1",
+        "Q 4-2 URNEG CEBOYRZF 205 NEZFGEBAT FG PNEQVNP UVFGBEL D04 QHR:Z40",
+        "OBK:4-2",
+        "PNYY:URNEG CEBOYRZF",
+        "NQQE:205 NEZFGEBAT FG",
+        "VASB:PNEQVNP UVFGBEL",
+        "PU:D04",
+        "HAVG:Z40");
 
   }
 
