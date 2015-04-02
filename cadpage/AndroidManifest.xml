@@ -63,7 +63,7 @@
     <activity android:name=".TrackingPromptActivity" android:theme="@style/Cadpage_Dialog" android:screenOrientation="user"/>
     <activity android:name=".donation.DonateActivity" android:theme="@style/Cadpage_Dialog" android:screenOrientation="user"/>
     <activity android:name=".vendors.VendorActivity" android:theme="@style/Cadpage_Dialog" android:screenOrientation="user"/>
-    <activity android:name=".vendors.NoticeActivity"/>
+    <activity android:name="net.anei.cadpage.NoticeActivity"/>
     <receiver android:name=".SmsReceiver">
       <intent-filter android:priority="2147483647">
         <action android:name="android.provider.Telephony.SMS_RECEIVED" />

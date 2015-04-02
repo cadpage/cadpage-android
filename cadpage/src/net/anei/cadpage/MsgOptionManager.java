@@ -774,7 +774,7 @@ public class MsgOptionManager {
     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
     switch (mapPageStatus) {
     case ADOBE:
-      intent.setClassName("com.adobe.reader", "come.adobe.reader.AdobeReader");
+      intent.setClassName("com.adobe.reader", "com.adobe.reader.AdobeReader");
       break;
 
     case ANY:
@@ -788,11 +788,13 @@ public class MsgOptionManager {
     } catch (ActivityNotFoundException ex) {
       switch (mapPageStatus) {
       case ADOBE:
+        NoticeActivity.showMissingReaderNotice(context, R.string.missing_map_page_reader_adobe, "com.adobe.reader");
         break;
         
       case ANY:
+        Log.e(ex);
+        ContentQuery.dumpIntent(intent);
       }
-      Log.e(ex);
     }
   }
 

@@ -6,6 +6,7 @@ import net.anei.cadpage.ContentQuery;
 import net.anei.cadpage.EmailDeveloperActivity;
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.Log;
+import net.anei.cadpage.NoticeActivity;
 import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.ManagePreferences;
@@ -739,7 +740,7 @@ abstract class Vendor {
   private void showNotice(Context context, int msgId, String extra) {
     String title = context.getString(titleId);
     String message = context.getString(msgId, title, extra);
-    NoticeActivity.showNotice(context, message);
+    NoticeActivity.showVendorNotice(context, message);
   }
   
   /**

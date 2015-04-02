@@ -23,11 +23,6 @@ public class ORBentonCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "Corvallis Alerts,alerts@corvallis.ealertgov.com";
   }
-  
-  @Override
-  public int getMapFlags() {
-    return MAP_FLG_MAP_PAGES | MAP_FLG_ADOBE_MAP_PAGE;
-  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -743,6 +738,11 @@ public class ORBentonCountyParser extends FieldProgramParser {
       "1400 APPLEGATE ST APT:1370",   "44.538874,-123.366783",
       
   });
+  
+  @Override
+  public MapPageStatus getMapPageStatus() {
+    return MapPageStatus.ADOBE;
+  }
 
   @Override
   public String getMapPageURL(MsgInfo info) {

@@ -412,4 +412,11 @@
   <string name="yes">Ja</string>
   <string name="no">Nej</string>
   <string name="remember_text">Komma ihåg ditt val?</string>
+    
+  <!-- Missing map page reader dialog -->
+  <string name="missing_map_page_reader_title">Missing Map Page Reader</string>      <!-- Translate -->
+  <string name="missing_map_page_reader_text">      <!-- Translate -->
+      %1$s is required to view these map pages.  Would you like to install %1$s now.
+  </string>
+  <string name="missing_map_page_reader_adobe">Adobe Reader</string>
 </resources>

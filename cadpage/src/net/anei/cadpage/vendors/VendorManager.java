@@ -8,6 +8,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.C2DMService;
 import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.ManagePreferences;
+import net.anei.cadpage.NoticeActivity;
 import net.anei.cadpage.R;
 import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.donation.UserAcctManager;
@@ -301,7 +302,7 @@ public class VendorManager {
     else if (error.equals("PHONE_REGISTRATION_ERROR_HARD")) resId = R.string.vendor_phone_registration_error_hard_error;
     else resId = R.string.vendor_registration_error;
     String errMsg = context.getString(resId, error);
-    NoticeActivity.showNotice(context, errMsg);
+    NoticeActivity.showVendorNotice(context, errMsg);
     
   }
   

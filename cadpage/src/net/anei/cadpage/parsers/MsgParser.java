@@ -609,8 +609,6 @@ public abstract class MsgParser {
   public static final int MAP_FLG_CR_CREEK = MsgInfo.MAP_FLG_CR_CREEK;
   public static final int MAP_FLG_SUPPR_TE = MsgInfo.MAP_FLG_SUPPR_TE;
   public static final int MAP_FLG_KEEP_STATE_HIGHWAY = MsgInfo.MAP_FLG_KEEP_STATE_HIGHWAY;
-  public static final int MAP_FLG_MAP_PAGES = MsgInfo.MAP_FLG_MAP_PAGES;
-  public static final int MAP_FLG_ADOBE_MAP_PAGE = MsgInfo.MAP_FLG_ADOBE_MAP_PAGE;
   
   public enum MapPageStatus { ANY, ADOBE };
   

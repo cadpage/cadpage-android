@@ -49,13 +49,6 @@ public class MsgInfo {
   
   // Preserve STATE HIGHWAY construct
   public static final int MAP_FLG_KEEP_STATE_HIGHWAY = 0x800;
-  
-  // Parse may return map page information
-  public static final int MAP_FLG_MAP_PAGES = 0x1000;
-  
-  // Map pages must be displayed with Adobe Reader
-  public static final int MAP_FLG_ADOBE_MAP_PAGE = 0x2000;
-  
 
   private String strCall;
   private String strPlace;
