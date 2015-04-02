@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import java.net.URL;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -594,6 +593,7 @@ public abstract class MsgParser {
    * MAP_FLG_CR_CREEK convert CR to CREEK instead of CIR
    * MAP_FLG_SUPPR_TE suppress TE -> TER adjustment
    * MAP_FLG_MAP_PAGES parser may return map page information
+   * MAP_FLG_ADOBE_MAP_PAGE Map pages must be displayed with Adobe Reader
    */
   public int getMapFlags() {
     return 0;
@@ -610,6 +610,19 @@ public abstract class MsgParser {
   public static final int MAP_FLG_SUPPR_TE = MsgInfo.MAP_FLG_SUPPR_TE;
   public static final int MAP_FLG_KEEP_STATE_HIGHWAY = MsgInfo.MAP_FLG_KEEP_STATE_HIGHWAY;
   public static final int MAP_FLG_MAP_PAGES = MsgInfo.MAP_FLG_MAP_PAGES;
+  public static final int MAP_FLG_ADOBE_MAP_PAGE = MsgInfo.MAP_FLG_ADOBE_MAP_PAGE;
+  
+  public enum MapPageStatus { ANY, ADOBE };
+  
+  /**
+   * @return Enum that determines which view must be used to view map pages<br>
+   * null if no map pages will ever be returned.
+   * MAP_PAGE_STATUS.ANY if any viewer may be used to read map pages
+   * MAP_PAGE_STATUS.ADOBE if Adobe ready must be used to view map pages
+   */
+  public MapPageStatus getMapPageStatus() {
+    return null;
+  }
   
   /**
    * @return map page URL associated with this call

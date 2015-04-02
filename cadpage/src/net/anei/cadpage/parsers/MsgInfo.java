@@ -51,7 +51,10 @@ public class MsgInfo {
   public static final int MAP_FLG_KEEP_STATE_HIGHWAY = 0x800;
   
   // Parse may return map page information
-  public static final int MAP_FLG_MAP_PAGES = 0x100;
+  public static final int MAP_FLG_MAP_PAGES = 0x1000;
+  
+  // Map pages must be displayed with Adobe Reader
+  public static final int MAP_FLG_ADOBE_MAP_PAGE = 0x2000;
   
 
   private String strCall;
@@ -80,7 +83,7 @@ public class MsgInfo {
   private String defState;
   private MsgParser.CountryCode countryCode;
   private boolean preferGPSLoc;
-  private boolean mapPageAvailable;
+  private MsgParser.MapPageStatus mapPageStatus;
   private String mapPageURL;
   
   // Flag set when parser determines that message is incomplete
@@ -135,7 +138,7 @@ public class MsgInfo {
     public String defState;
     public MsgParser.CountryCode countryCode;
     public boolean preferGPSLoc;
-    public boolean mapPageAvailable;
+    MsgParser.MapPageStatus mapPageStatus;
     public String mapPageURL;
     
     public boolean expectMore;
@@ -181,7 +184,7 @@ public class MsgInfo {
       defState="";
       countryCode = MsgParser.CountryCode.US;
       preferGPSLoc = false;
-      mapPageAvailable = false;
+      mapPageStatus = null;
       mapPageURL = null;
       
       this.parser = parser;
@@ -191,7 +194,7 @@ public class MsgInfo {
         this.defState = parser.getDefaultState();
         this.countryCode = parser.getCountryCode();
         this.preferGPSLoc = (parser.getMapFlags() & MAP_FLG_PREFER_GPS) != 0;
-        this.mapPageAvailable = (parser.getMapFlags() & MAP_FLG_MAP_PAGES) != 0;
+        this.mapPageStatus = parser.getMapPageStatus();
       }
       
       strBaseMapAddress = null;
@@ -295,7 +298,7 @@ public class MsgInfo {
     countryCode = info.countryCode;
     expectMore = info.expectMore;
     preferGPSLoc = info.preferGPSLoc;
-    mapPageAvailable = info.mapPageAvailable;
+    mapPageStatus = info.mapPageStatus;
     mapPageURL = info.mapPageURL;
     
     parserCode = info.parserCode;
@@ -303,7 +306,7 @@ public class MsgInfo {
     strBaseMapAddress = info.strBaseMapAddress;
     strMapCity = info.strMapCity;
     
-    if (parser != null & mapPageAvailable && mapPageURL == null) {
+    if (parser != null && mapPageStatus != null && mapPageURL == null) {
       mapPageURL = parser.getMapPageURL(this); 
     }
   }
@@ -1078,8 +1081,8 @@ public class MsgInfo {
     return preferGPSLoc;
   }
   
-  public boolean isMapPageAvailable() {
-    return mapPageAvailable;
+  public MsgParser.MapPageStatus getMapPageStatus() {
+    return mapPageStatus;
   }
   
   public String getMapPageURL() {

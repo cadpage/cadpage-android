@@ -26,7 +26,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
   
   @Override
   public int getMapFlags() {
-    return MAP_FLG_MAP_PAGES;
+    return MAP_FLG_MAP_PAGES | MAP_FLG_ADOBE_MAP_PAGE;
   }
 
   @Override

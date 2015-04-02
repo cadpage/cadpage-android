@@ -124,7 +124,7 @@ public class BroadcastBindings {
   public static final String EXTRA_PREFER_GPS =         PREFIX + "EXTRA_PREFER_GPS";
   
   // (boolean) some calls may have a MAP_PAGE_URL item
-  public static final String EXTRA_MAP_PAGE_AVAIL =     PREFIX + "EXTRA_MAP_PAGE_AVAIL";
+  public static final String EXTRA_MAP_PAGE_STATUS =     PREFIX + "EXTRA_MAP_PAGE_STATUS";
   
   // (string) URL to display map page for this call
   public static final String EXTRA_MAP_PAGE_URL =       PREFIX + "EXTRA_MAP_PAGE_URL";

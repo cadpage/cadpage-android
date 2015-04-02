@@ -839,10 +839,10 @@ public class SmsMmsMessage implements Serializable {
   /**
    * @return true if parser can return map pages
    */
-  public boolean isMapPageAvailable() {
+  public MsgParser.MapPageStatus getMapPageStatus() {
     MsgInfo info = getInfo();
-    if (info == null) return false;
-    return info.isMapPageAvailable();
+    if (info == null) return null;
+    return info.getMapPageStatus();
   }
   
   /**
@@ -1040,7 +1040,10 @@ public class SmsMmsMessage implements Serializable {
       putExtraString(intent, EXTRA_PARSE_DISP_TIME, info.getTime());
       putExtraString(intent, EXTRA_PARSE_INFO_URL, info.getInfoURL());
       intent.putExtra(EXTRA_PREFER_GPS, info.isPreferGPSLoc());
-      intent.putExtra(EXTRA_MAP_PAGE_AVAIL, info.isMapPageAvailable());
+      MsgParser.MapPageStatus mapPageStatus = info.getMapPageStatus();
+      if (mapPageStatus != null) {
+        putExtraString(intent, EXTRA_MAP_PAGE_STATUS, mapPageStatus.toString());
+      }
       putExtraString(intent, EXTRA_MAP_PAGE_URL, info.getMapPageURL());
     }
     

@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.donation.DonationManager;
+import net.anei.cadpage.parsers.MsgParser.MapPageStatus;
 import android.app.Activity;
 import android.app.PendingIntent;
 import android.content.ActivityNotFoundException;
@@ -212,7 +213,7 @@ public class MsgOptionManager {
       }
       
       // Add map page button requested and available
-      if (ManagePreferences.mapPageButton() && message.isMapPageAvailable()) {
+      if (ManagePreferences.mapPageButton() && message.getMapPageStatus() != null) {
         addMapButton(4, buttonList, buttonGroup);
       }
     }
@@ -763,15 +764,34 @@ public class MsgOptionManager {
       new ComponentName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
   
   private void viewMapPage(Context context) {
+    MapPageStatus mapPageStatus = message.getMapPageStatus();
+    if (mapPageStatus == null) return;
     String url = message.getMapPageURL();
     if (url == null) return;
     
     Uri uri = Uri.parse(url);
     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+    switch (mapPageStatus) {
+    case ADOBE:
+      intent.setClassName("com.adobe.reader", "come.adobe.reader.AdobeReader");
+      break;
+
+    case ANY:
+      break;
+    }
+    
+    Log.w("Launching Map Page Viewer");
+    ContentQuery.dumpIntent(intent);
     try {
       context.startActivity(intent);
     } catch (ActivityNotFoundException ex) {
+      switch (mapPageStatus) {
+      case ADOBE:
+        break;
+        
+      case ANY:
+      }
       Log.e(ex);
     }
   }
@@ -806,6 +826,7 @@ public class MsgOptionManager {
     try {
       sms.sendTextMessage(target, null, message, sentPI, deliveredPI);
     } catch (NullPointerException ex) {
+      
       Log.e(ex);
     }
   }
