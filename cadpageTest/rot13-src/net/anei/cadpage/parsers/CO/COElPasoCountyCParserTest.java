@@ -118,7 +118,7 @@ choyvp pynff PBRyCnfbPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NPPVQRAG VAWHEL   V-25 Zz 133                           *Ncg/Ybp:        133                              *Pebff:                                        VASBFO   ,",
         "PNYY:NPPVQRAG VAWHEL",
         "NQQE:V-25 Zz 133",
-        "ZNQQE:V 25 Zz 133",
+        "ZNQQE:V 25 Zz 133", //zvyr znexre
         "NCG:133",
         "VASB:FO");
 

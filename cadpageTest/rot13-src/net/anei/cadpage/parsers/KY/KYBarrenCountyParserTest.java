@@ -1873,7 +1873,7 @@ choyvp pynff XLOneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ANZR:ONYYNEQ ZNEX");
 
   }
-
+//urer
   @Grfg
   choyvp ibvq grfgUvfrivyyrPbzzhavglISQ() {
 
@@ -2678,15 +2678,15 @@ choyvp pynff XLOneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911-PRAGRE:SVRYQ SVER - SVRYQ/OEHFU PHZOREYNAQ CXL 6063056345 ONXRE ENAQL",
         "PNYY:SVRYQ SVER - SVRYQ/OEHFU",
         "NQQE:PHZOREYNAQ CXL",
-        "ZNQQE:PHZOREYNAQ CXJL",
+        "ZNQQE:PHZOREYNAQ CXJL", //abg rabhtu vasb
         "CUBAR:6063056345",
         "ANZR:ONXRE ENAQL");
 
     qbGrfg("G9",
         "911-PRAGRE:1046 ZIN JVGU VAWHEVRF CNEX PVGL TYNFTBJ EQ 2704046124 QEVCCVAT FCEVATF EQ FNPERL WBUA",
         "PNYY:1046 ZIN JVGU VAWHEVRF",
-        "NQQE:CNEX PVGL TYNFTBJ EQ",
-        "ZNQQE:CNEX PVGL TYNFTBJ EQ & QEVCCVAT FCEVATF EQ",
+        "NQQE:CNEX PVGL TYNFTBJ EQ", 
+        "ZNQQE:CNEX PVGL TYNFTBJ EQ & QEVCCVAT FCEVATF EQ", //qbrf abg znc
         "CUBAR:2704046124",
         "K:QEVCCVAT FCEVATF EQ",
         "ANZR:FNPERL WBUA");
