@@ -13,10 +13,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class LAAscensionParishParser extends FieldProgramParser {
   
+  private static final Pattern MISSING_DELIM = Pattern.compile("(?<!\n)(?=Call Type:|Common Name:|Additional Location Info:|Status:|District:|Beat)");
+  
   
   public LAAscensionParishParser() {
     super("ASCENSION PARISH", "LA",
-          "ID! Call_Type:CALL! Nature_of_Call:INFO! Date/Time:DATETIME! Address:ADDRCITY! PLACE Location_Info:INFO/N! Cross_Streets:X! Adtl_Loc_Info:INFO? Quadrant:MAP Assigned_Units:UNIT Radio_Channel:CH? Narrative:INFO/N+");
+          "( ID1! Call_Type:CALL! Nature_of_Call:INFO! Date/Time:DATETIME! Address:ADDRCITY! PLACE Location_Info:INFO/N! Cross_Streets:X! Adtl_Loc_Info:INFO? Quadrant:MAP Assigned_Units:UNIT Radio_Channel:CH? " +
+          "| Call_Time:DATETIME! Call_Type:CALL! Address:ADDRCITY! Common_Name:PLACE! Closest_Intersection:X! Additional_Location_Info:INFO! Nature_of_Call:INFO/N! Assigned_Units:UNIT! Priority:PRI! Status:SKIP! Quadrant:MAP! District:MAP/D! Beat:MAP/D! CFS_Number:SKIP! Primary_Incident:ID2! ) Narrative:INFO/N+");
   }
   
   @Override
@@ -31,13 +34,15 @@ public class LAAscensionParishParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    body = MISSING_DELIM.matcher(body).replaceAll("\n");
     if (!subject.equals("Dispatch")) return false;
     return super.parseFields(body.split("\n"), data);
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("Incident No. *(\\d{4}-\\d{8}|\\d*)(?: +\\(.*\\))?", true);
+    if (name.equals("ID1")) return new IdField("Incident No. *(\\d{4}-\\d{8}|\\d*)(?: +\\(.*\\))?", true);
+    if (name.equals("ID2")) return new IdField("(\\d{4}-\\d{8}) *\\([A-Z0-9]+\\)|()", true);
     if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("X")) return new MyCrossField();
