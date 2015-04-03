@@ -77,15 +77,15 @@ public class MsgInfo {
   private MsgParser.CountryCode countryCode;
   private boolean preferGPSLoc;
   private MsgParser.MapPageStatus mapPageStatus;
-  private String mapPageURL;
   
   // Flag set when parser determines that message is incomplete
   // and another part should be expected
   private boolean expectMore;
   
-  // Cached map address & map city
+  // Cached map address & map city & map page URL
   private String strBaseMapAddress = null;
   private String strMapCity = null;
+  private String mapPageURL = null;
   
   // Parser code of parser used to create this information block
   private String parserCode;
@@ -132,7 +132,6 @@ public class MsgInfo {
     public MsgParser.CountryCode countryCode;
     public boolean preferGPSLoc;
     MsgParser.MapPageStatus mapPageStatus;
-    public String mapPageURL;
     
     public boolean expectMore;
 
@@ -140,6 +139,7 @@ public class MsgInfo {
     public MsgParser parser;
     public String strBaseMapAddress;
     public String strMapCity;
+    public String mapPageURL;
     
     public Data(MsgParser parser) {
       initialize(parser);
@@ -178,7 +178,6 @@ public class MsgInfo {
       countryCode = MsgParser.CountryCode.US;
       preferGPSLoc = false;
       mapPageStatus = null;
-      mapPageURL = null;
       
       this.parser = parser;
       if (parser != null) {
@@ -192,6 +191,7 @@ public class MsgInfo {
       
       strBaseMapAddress = null;
       strMapCity = null;
+      mapPageURL = null;
     }
     
     /**
@@ -292,16 +292,12 @@ public class MsgInfo {
     expectMore = info.expectMore;
     preferGPSLoc = info.preferGPSLoc;
     mapPageStatus = info.mapPageStatus;
-    mapPageURL = info.mapPageURL;
     
     parserCode = info.parserCode;
     parser = info.parser;
     strBaseMapAddress = info.strBaseMapAddress;
     strMapCity = info.strMapCity;
-    
-    if (parser != null && mapPageStatus != null && mapPageURL == null) {
-      mapPageURL = parser.getMapPageURL(this); 
-    }
+    mapPageURL = info.mapPageURL;
   }
   
   /**
@@ -1079,6 +1075,9 @@ public class MsgInfo {
   }
   
   public String getMapPageURL() {
+    if (mapPageURL == null && parser != null && mapPageStatus != null) {
+      mapPageURL = parser.getMapPageURL(this); 
+    }
     return mapPageURL;
   }
   
