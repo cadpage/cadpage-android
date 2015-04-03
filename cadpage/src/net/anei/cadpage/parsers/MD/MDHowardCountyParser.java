@@ -18,7 +18,7 @@ public class MDHowardCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "Rc.261@c-msg.net";
+    return "@c-msg.net,dwalton@howardcountymd.gov,hc1@howardcountymd.gov,@iamresponding.com";
   }
 
   @Override
