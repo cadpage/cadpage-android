@@ -194,13 +194,13 @@
   <string name="pref_code_callback5_title">Knapp 5 Telefon/Kod</string>
   <string name="pref_code_callback6_title">Knapp 6 Telefon/Kod</string>
     
-  <string name="pref_alt_map_button_title">Include Alternate Map Button</string>  <!-- Translate -->
-  <string name="pref_alt_map_button_summaryon">Alternate map button will be included</string>  <!-- Translate -->
-  <string name="pref_alt_map_button_summaryoff">Alternate map button will not be included</string>  <!-- Translate -->
+  <string name="pref_alt_map_button_title">Inkludera alternativ kartsökningknapp</string>  
+  <string name="pref_alt_map_button_summaryon">Alternativ kartsökningsknapp kommer att inkluderas</string>
+  <string name="pref_alt_map_button_summaryoff">Alternativ kartsökningsknapp kommer inte att inkluderas</string> 
   
-  <string name="pref_map_page_button_title">Include Map Page Button</string>  <!-- Translate -->
-  <string name="pref_map_page_button_summaryon">Map page button will be included</string>  <!-- Translate -->
-  <string name="pref_map_page_button_summaryoff">Map page button will not be included</string>  <!-- Translate -->
+  <string name="pref_map_page_button_title">Inkludera kartsökningsknapp</string> 
+  <string name="pref_map_page_button_summaryon">Kartsökningsknapp kommer att inkluderas</string>
+  <string name="pref_map_page_button_summaryoff">Kartsökningsknapp kommer inte att inkluderas</string> 
   
   
   <!-- Other new prefs -->
@@ -340,9 +340,9 @@
   <string name="ack_item_text">Ack</string>
   <string name="resp_menu_item_text">Kvittensmeny</string>
   <string name="map_item_text">Karta</string>
-  <string name="map_addr_item_text">Map Addr</string> <!-- Translate -->
-  <string name="map_gps_item_text">Map GPS</string> <!-- Translate -->
-  <string name="map_page_item_text">Map Page</string> <!-- Translate -->
+  <string name="map_addr_item_text">Sök adress</string>
+  <string name="map_gps_item_text">Sök koordinat</string>
+  <string name="map_page_item_text">Sök sida </string> 
   <string name="lock_item_text">Lås</string>
   <string name="unlock_item_text">Lås upp</string>
   <string name="delete_item_text">Ta bort</string>
@@ -414,9 +414,9 @@
   <string name="remember_text">Komma ihåg ditt val?</string>
     
   <!-- Missing map page reader dialog -->
-  <string name="missing_map_page_reader_title">Missing Map Page Reader</string>      <!-- Translate -->
+  <string name="missing_map_page_reader_title">Saknar läsare för kartsidessök</string> 
   <string name="missing_map_page_reader_text">      <!-- Translate -->
       %1$s is required to view these map pages.  Would you like to install %1$s now.
   </string>
-  <string name="missing_map_page_reader_adobe">Adobe Reader</string>
+  <string name="missing_map_page_reader_adobe">Adobe Reader</string>  <!-- Translate -->
 </resources>

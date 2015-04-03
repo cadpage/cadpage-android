@@ -45,6 +45,9 @@ public class ORBentonCountyParser extends FieldProgramParser {
           break;
         }
       }
+      
+      // Addresses on Airport east of Belfountain should be reported as in Corvallis
+      if (EAST_AIRPORT_PTN.matcher(data.strAddress).matches()) data.strCity = "CORVALLIS";
     }
     
     return true;
@@ -65,6 +68,8 @@ public class ORBentonCountyParser extends FieldProgramParser {
     "PETERSON",
     "STARR CREEK"
   };
+  
+  private static final Pattern EAST_AIRPORT_PTN = Pattern.compile("\\d{4} +(?:SW +)?AIRPORT\\b.*");
   
   private class MyAddressField extends AddressField {
     @Override
