@@ -750,6 +750,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
     
     // Look for an address specific map page first
     String addr = adjustGpsLookupAddress(info.getAddress(), "");
+    if (addr == null) addr = info.getAddress();
     String url = MAP_PAGE_ADDR_TABLE.getProperty(addr);
     if (url != null) return MAP_PAGE_BASE + url;
     

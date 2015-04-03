@@ -1075,10 +1075,13 @@ public class MsgInfo {
   }
   
   public String getMapPageURL() {
-    if (mapPageURL == null && parser != null && mapPageStatus != null) {
-      mapPageURL = parser.getMapPageURL(this); 
+    if (mapPageURL == null) {
+      if (parser != null && mapPageStatus != null) {
+        mapPageURL = parser.getMapPageURL(this);
+      }
+      if (mapPageURL == null) mapPageURL = "";
     }
-    return mapPageURL;
+    return mapPageURL.length() == 0 ? null : mapPageURL;
   }
   
   /**
