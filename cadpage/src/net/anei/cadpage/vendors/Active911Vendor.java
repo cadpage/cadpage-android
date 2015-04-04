@@ -746,6 +746,7 @@ class Active911Vendor extends Vendor {
       "US/TX/KaufmanCounty",              "TXKaufmanCounty",
       "US/TX/KendallCounty",              "TXKendallCounty",
       "US/TX/LeonCounty",                 "TXLeonCounty",
+      "US/TX/LubbockCounty",              "TXLubbockCounty",
       "US/TX/Lufkin",                     "TXLufkin",
       "US/TX/ManvelPD",                   "TXBrazoriaCountyA",
       "US/TX/Midlothian",                 "TXKeller",
