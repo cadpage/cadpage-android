@@ -2,6 +2,8 @@
 package net.anei.cadpage.parsers;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.List;
@@ -398,7 +400,7 @@ public abstract class SmartAddressParser extends MsgParser {
   public SmartAddressParser(Properties cityCodes, String defCity, String defState, 
                             CountryCode code) {
     this(defCity, defState, code);
-    if (cityCodes != null) setupCities(getKeywords(cityCodes));
+    if (cityCodes != null) setupCities(cityCodes);
     this.cityCodes = cityCodes;
   }
   
@@ -626,9 +628,21 @@ public abstract class SmartAddressParser extends MsgParser {
   /**
    * Set up predefined city code tables or lists
    */
-  private void setupCities(String[] cities) {
+  protected void setupCities(String[] cities) {
+    setupCities(Arrays.asList(cities));
+  }
+  
+  protected void setupCities(Properties cityCodes) {
+    setupCities(getKeywords(cityCodes));
+  }
+  
+  protected void setupCities(Collection<String> cities) {
     if (cities == null) return;
-    mWordCities = new MultiWordList(+1, ID_CITY, ID_MULTIWORD, ID_COMPLETE, cities);
+    if (mWordCities ==  null) {
+      mWordCities = new MultiWordList(+1, ID_CITY, ID_MULTIWORD, ID_COMPLETE, cities);
+    } else {
+      mWordCities.addNames(+1, cities);
+    }
   }
   
   private void setupDictionary(long bitMask, String ... args) {
@@ -3078,6 +3092,20 @@ public abstract class SmartAddressParser extends MsgParser {
      * @param nameList list of possibly multiword names to be added to list
      */
     public MultiWordList(int dir, long idFlag, long incompFlag, long completeFlag, String[] nameList) {
+      this(dir, idFlag, incompFlag, completeFlag, Arrays.asList(nameList));
+    }
+    
+    /**
+     * Create a multiword list
+     * @param dir search direction +1 for forward search, -1 for backward search
+     * @param idFlag token flag used to objects in this list.  If zero any
+     * token will be considered to be at least a single word match
+     * @param incompFlag token flag used to mark beginning of multiword sequences
+     * @param completeFlag token flag used to mark complete single word sequence.
+     * Not used if idFlag is zero
+     * @param nameList list of possibly multiword names to be added to list
+     */
+    public MultiWordList(int dir, long idFlag, long incompFlag, long completeFlag, Collection<String> nameList) {
       this.dir = (dir < 0 ? -1 : 1);
       this.idFlag = idFlag;
       this.incompFlag = incompFlag;
@@ -3085,8 +3113,12 @@ public abstract class SmartAddressParser extends MsgParser {
 
       addNames(dir, nameList);
     }
-
+    
     public void addNames(int dir, String[] nameList) {
+      addNames(dir, Arrays.asList(nameList));
+    }
+
+    public void addNames(int dir, Collection<String> nameList) {
       
       long flags1 = idFlag | incompFlag;
       long flags2 = idFlag | completeFlag;

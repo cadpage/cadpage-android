@@ -44,6 +44,7 @@ public class DispatchA50Parser extends FieldProgramParser {
       }
       field = stripFieldEnd(field, ": EST");
       super.parse(field, data);
+      data.strAddress = stripFieldEnd(data.strAddress, "-");
       data.strApt = append(data.strApt, "-", apt);
 
       Result res = parseAddress(StartType.START_OTHER, FLAG_IGNORE_AT | FLAG_ONLY_CITY | FLAG_ANCHOR_END, sPlace);
