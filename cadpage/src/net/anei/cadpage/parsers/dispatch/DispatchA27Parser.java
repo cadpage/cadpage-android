@@ -177,5 +177,5 @@ public class DispatchA27Parser extends FieldProgramParser {
       }
     }
   }
-  private static final Pattern GPS_PTN = Pattern.compile("E911 CLASS: [A-Z]+LOC: .*?LAT: ([-+]?\\d+\\.\\d{6})LON: ([-+]?\\d+\\.\\d{6})Lec:[a-z]{4}");
+  private static final Pattern GPS_PTN = Pattern.compile("E911 CLASS: *[A-Z]+\\d*(?: *LOC: .*?LAT: ([-+]?\\d+\\.\\d{6})0? *LON: ([-+]?\\d+\\.\\d{6})(?: *Lec:[a-z]{4})?)?");
 }

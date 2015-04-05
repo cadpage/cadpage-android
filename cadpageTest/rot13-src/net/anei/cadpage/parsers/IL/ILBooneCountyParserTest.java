@@ -12,6 +12,8 @@ Ntrapl anzr: Obbar Pbhagl Sver Cebgrpgvba Qvfgevpg #2
 Ybpngvba: Oryivqrer, VY, Havgrq Fgngrf
 Fraqre: Obbar Pbhagl Npgvir 911 <abercyl@pvf.pbz>
 
+{Nzohynapr Pnyy ng 1222 Ehol, Oryivqrer, 61008, +42.2550910, -088.844439} <sbag  snpr=\"Gnubzn\" fvmr=\"2\" pbybe=\"Oynpx\">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Nzohynapr Pnyy ng 1222 Ehol, Oryivqrer, 61008, +42.2550910, -088.844439<oe><oe>Oryivqrer (Pvgl) Sver Qrcg - 201500000616<oe><oe>Gvzr ercbegrq: 03/26/2015 10:05:56 CZ<oe></o><oe><oe>Havg(f) erfcbaqrq: <oe>R911 PYNFF: JEYF  YBP: 320 J YBPHFG FG - AJ  YNG: +42.2550910  YBA: -088.844439<oe>  <<Ybtf>>22:03:23 00000516:ubg naq fjrngvat  3 ubhef ntb  65   obar pnapre pbafgvcngrq sbe 3 jrrxf; 22:03:36 00000516:qvmml vs fgnaq hc<oe></sbag>
+
 (Sver/Fzbxr Nynez ng 10022 Eryyfjbbq Qe, Oryivqrer, 61008) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Sver/Fzbxr Nynez ng 10022 Eryyfjbbq Qe, Oryivqrer, 61008<oe><oe>Obbar Pagl Qvfg2 Sver Qrcg - 201500000063<oe><oe>Gvzr ercbegrq: 02/20/2015 9:17:16 CZ<oe>Gvzr pbzcyrgrq: 02/20/2015 9:56:32 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>00000301<oe>00000302<oe>00000373<oe>00000392<oe>  <<Ybtf>>21:17:37 00000520:pbirevat fzbxr/urng qrgrpgbe; 21:17:42 00000520:ab nafjre sbe xrlf; 21:18:17 00000520:cerzvfr xrl cnq#3743; 21:19:01 00000520:ubzrbjare/Wrss & Oneo Zppbl gk/815-885-3767  gk/847-867-9959; 21:26:58 00000511:392 bhg vairfgvtngvat - qbrf abg nccrne nalbar ubzr - fvatyr gjb fgbel; 21:31:07 00000511:392/fzbxr va ubhfr; 21:34:18 00000511:392/qvfertneq 2aq cntr - ubzrbjaref jrer pbbxvat; 21:34:27 00000511:302/373 ergheavat; 21:56:32 00000511:Vapvqrag Pybfrq<oe></sbag>
 (Sver/Fzbxr Vairfgvtngvba ng 10022 Eryyfjbbq Qe, Oryivqrer, 61008) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Sver/Fzbxr Vairfgvtngvba ng 10022 Eryyfjbbq Qe, Oryivqrer, 61008<oe><oe>Obbar Pagl Qvfg2 Sver Qrcg - 201500000063<oe><oe>Gvzr ercbegrq: 02/20/2015 9:17:16 CZ<oe></o><oe><oe>Havg(f) erfcbaqrq: <oe>  <<Ybtf>>21:17:37 00000520:pbirevat fzbxr/urng qrgrpgbe; 21:17:42 00000520:ab nafjre sbe xrlf; 21:18:17 00000520:cerzvfr xrl cnq#3743; 21:19:01 00000520:ubzrbjare/Wrss & Oneo Zppbl gk/815-885-3767  gk/847-867-9959<oe></sbag>
 (Pneoba Zbabkvqr Nynez ng 9938 Ybirevqtr Eq, Tneqra Cenvevr, 61038) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Pneoba Zbabkvqr Nynez ng 9938 Ybirevqtr Eq, Tneqra Cenvevr, 61038<oe><oe>Obbar Pagl Qvfg2 Sver Qrcg - 201500000062<oe><oe>Gvzr ercbegrq: 02/20/2015 12:41:15 CZ<oe>Gvzr pbzcyrgrq: 02/20/2015 1:18:37 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>00000341<oe>  <<Ybtf>>12:42:24 00000531:ab flzcgbzf, jvyy or yrnivat gur ubhfr; 13:18:37 00000531:Vapvqrag Pybfrq<oe></sbag>
@@ -64,6 +66,18 @@ choyvp pynff VYObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgCnefre() {
+
+    qbGrfg("K1",
+        "{Nzohynapr Pnyy ng 1222 Ehol, Oryivqrer, 61008, +42.2550910, -088.844439} <sbag  snpr=\\\"Gnubzn\\\" fvmr=\\\"2\\\" pbybe=\\\"Oynpx\\\">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Nzohynapr Pnyy ng 1222 Ehol, Oryivqrer, 61008, +42.2550910, -088.844439<oe><oe>Oryivqrer (Pvgl) Sver Qrcg - 201500000616<oe><oe>Gvzr ercbegrq: 03/26/2015 10:05:56 CZ<oe></o><oe><oe>Havg(f) erfcbaqrq: <oe>R911 PYNFF: JEYF  YBP: 320 J YBPHFG FG - AJ  YNG: +42.2550910  YBA: -088.844439<oe>  <<Ybtf>>22:03:23 00000516:ubg naq fjrngvat  3 ubhef ntb  65   obar pnapre pbafgvcngrq sbe 3 jrrxf; 22:03:36 00000516:qvmml vs fgnaq hc<oe></sbag>",
+        "PNYY:Nzohynapr Pnyy",
+        "NQQE:1222 Ehol",
+        "PVGL:Oryivqrer",
+        "TCF:+42.255091,-88.844439",
+        "FEP:Oryivqrer (Pvgl) Sver Qrcg",
+        "VQ:201500000616",
+        "QNGR:03/26/2015",
+        "GVZR:22:05:56",
+        "VASB:<<Ybtf>>22:03:23 00000516:ubg naq fjrngvat  3 ubhef ntb  65   obar pnapre pbafgvcngrq sbe 3 jrrxf; 22:03:36 00000516:qvmml vs fgnaq hc");
 
     qbGrfg("G1",
         "(Sver/Fzbxr Nynez ng 10022 Eryyfjbbq Qe, Oryivqrer, 61008) <sbag  snpr=\"Gnubzn\" fvmr=\"2\" pbybe=\"Oynpx\">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Sver/Fzbxr Nynez ng 10022 Eryyfjbbq Qe, Oryivqrer, 61008<oe><oe>Obbar Pagl Qvfg2 Sver Qrcg - 201500000063<oe><oe>Gvzr ercbegrq: 02/20/2015 9:17:16 CZ<oe>Gvzr pbzcyrgrq: 02/20/2015 9:56:32 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>00000301<oe>00000302<oe>00000373<oe>00000392<oe>  <<Ybtf>>21:17:37 00000520:pbirevat fzbxr/urng qrgrpgbe; 21:17:42 00000520:ab nafjre sbe xrlf; 21:18:17 00000520:cerzvfr xrl cnq#3743; 21:19:01 00000520:ubzrbjare/Wrss & Oneo Zppbl gk/815-885-3767  gk/847-867-9959; 21:26:58 00000511:392 bhg vairfgvtngvat - qbrf abg nccrne nalbar ubzr - fvatyr gjb fgbel; 21:31:07 00000511:392/fzbxr va ubhfr; 21:34:18 00000511:392/qvfertneq 2aq cntr - ubzrbjaref jrer pbbxvat; 21:34:27 00000511:302/373 ergheavat; 21:56:32 00000511:Vapvqrag Pybfrq<oe></sbag>",
@@ -133,7 +147,7 @@ choyvp pynff VYObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500000060",
         "QNGR:02/19/2015",
         "GVZR:07:44:58",
-        "VASB:R911 PYNFF: JEYF  YBP: 4974 FUNGGHPX EQ - FR  YNG: +42.2255550  YBA: -088.747215\a<<Ybtf>>07:44:06 00000524:2 iru; 07:44:07 00000524:haqre; 07:44:12 00000524:tneqra cenvevr eq; 07:44:36 00000524:erq sbeq sbphf/gblg pnzel oyx; 07:44:41 00000524:w3 qevire vf fubbx hc");
+        "VASB:<<Ybtf>>07:44:06 00000524:2 iru; 07:44:07 00000524:haqre; 07:44:12 00000524:tneqra cenvevr eq; 07:44:36 00000524:erq sbeq sbphf/gblg pnzel oyx; 07:44:41 00000524:w3 qevire vf fubbx hc");
 
     qbGrfg("G9",
         "(Sver/Fzbxr Vairfgvtngvba ng 11856 Onapunel Eq, Oryivqrer, 61008) <sbag  snpr=\"Gnubzn\" fvmr=\"2\" pbybe=\"Oynpx\">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Sver/Fzbxr Vairfgvtngvba ng 11856 Onapunel Eq, Oryivqrer, 61008<oe><oe>Obbar Pagl Qvfg2 Sver Qrcg - 201500000059<oe><oe>Gvzr ercbegrq: 02/19/2015 4:21:22 NZ<oe>Gvzr pbzcyrgrq: 02/19/2015 4:50:45 NZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>00000301<oe>00000341<oe>00000370<oe>00000372<oe>00000373<oe>00000392<oe>  <<Ybtf>>04:21:08 00000529:sheanpr vf ubg; 04:21:13 00000529:fzryyf fbzrguvat oheavat; 04:50:45 00000521:Vapvqrag Pybfrq<oe></sbag>",
@@ -220,7 +234,7 @@ choyvp pynff VYObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500000055",
         "QNGR:02/15/2015",
         "GVZR:10:27:07",
-        "VASB:R911 PYNFF: JCU2  YBP: 1140 F Nccyrgba Eq - AR Frpgbe  YNG: +042.275648  YBA: -088.850899\a<<Ybtf>>10:27:14 00000728:frzv gehpx fzbxvat cerggl onq; 10:27:18 00000728:chyyrq bss gb gur fvqr bs gur ebnq");
+        "VASB:<<Ybtf>>10:27:14 00000728:frzv gehpx fzbxvat cerggl onq; 10:27:18 00000728:chyyrq bss gb gur fvqr bs gur ebnq");
 
     qbGrfg("G19",
         "(Nzohynapr Pnyy ng 2378 Fdhnj Cenvevr Eq, ORYIVQRER, 61008) <sbag  snpr=\"Gnubzn\" fvmr=\"2\" pbybe=\"Oynpx\">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Nzohynapr Pnyy ng 2378 Fdhnj Cenvevr Eq, ORYIVQRER, 61008<oe><oe>Obbar Pagl Qvfg2 Sver Qrcg - 201500000054<oe><oe>Gvzr ercbegrq: 02/10/2015 11:46:21 CZ<oe>Gvzr pbzcyrgrq: 02/11/2015 12:30:38 NZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>00000341<oe>R911 PYNFF: IBVC<oe>  <<Ybtf>>23:42:17 00000529:81 lb w5 sryy va gho; 23:42:23 00000529:hax ba vawhevrf; 23:42:27 00000529:hanoyr gb trg ure hc; 00:30:38 00000510:Vapvqrag Pybfrq<oe></sbag>",
@@ -237,7 +251,7 @@ choyvp pynff VYObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500000054",
         "QNGR:02/10/2015",
         "GVZR:23:46:21",
-        "VASB:R911 PYNFF: IBVC\a<<Ybtf>>23:42:17 00000529:81 lb w5 sryy va gho; 23:42:23 00000529:hax ba vawhevrf; 23:42:27 00000529:hanoyr gb trg ure hc");
+        "VASB:<<Ybtf>>23:42:17 00000529:81 lb w5 sryy va gho; 23:42:23 00000529:hax ba vawhevrf; 23:42:27 00000529:hanoyr gb trg ure hc");
 
     qbGrfg("G21",
         "(Nzohynapr Pnyy ng Ynjeraprivyyr Eq/Tneqra Cenvevr, Tneqra Cenvevr, 61038) <sbag  snpr=\"Gnubzn\" fvmr=\"2\" pbybe=\"Oynpx\">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Nzohynapr Pnyy ng Ynjeraprivyyr Eq/Tneqra Cenvevr, Tneqra Cenvevr, 61038<oe><oe>Obbar Pagl Qvfg2 Sver Qrcg - 201500000053<oe><oe>Gvzr ercbegrq: 02/08/2015 4:28:05 NZ<oe>Gvzr pbzcyrgrq: 02/08/2015 4:39:29 NZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>00000341<oe>00000343<oe>00000390<oe>  <<Ybtf>>04:24:42 00000511:pne bss gur raq bs ynjeraprivyyr ba tneqra cenvevr - ol gur snez; 04:25:17 00000511:nyy fznfurq hc - haxabja jura unccrarq; 04:26:08 00000511:ol gur ahefrel cebcregl; 04:35:15 00000511:390/BA FPA; 04:39:30 00000516:Vapvqrag Pybfrq<oe></sbag>",
@@ -272,7 +286,7 @@ choyvp pynff VYObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500000052",
         "QNGR:02/07/2015",
         "GVZR:17:59:28",
-        "VASB:Unzzre Gvzr Fcbegf\aR911 PYNFF: JCU2  YBP: 400 J YBPHFG FG - J  YNG: +42.2747790  YBA: -088.867056\a<<Ybtf>>17:55:35 00000515:2 fabjzbovyrf  naq bar vf ebyyrq bire bgure vf pybfr gb gur ebnq; 17:57:52 00000515:20f5 nqi bs pnyy craqvat");
+        "VASB:Unzzre Gvzr Fcbegf\a<<Ybtf>>17:55:35 00000515:2 fabjzbovyrf  naq bar vf ebyyrq bire bgure vf pybfr gb gur ebnq; 17:57:52 00000515:20f5 nqi bs pnyy craqvat");
 
     qbGrfg("G25",
         "(Sver/Fzbxr Vairfgvtngvba ng V90 Zz 24 Jo, ORYIVQRER, , +42.2316920, -088.783199) <sbag  snpr=\"Gnubzn\" fvmr=\"2\" pbybe=\"Oynpx\">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Sver/Fzbxr Vairfgvtngvba ng V90 Zz 24 Jo, ORYIVQRER, , +42.2316920, -088.783199<oe><oe>Obbar Pagl Qvfg2 Sver Qrcg - 201500000051<oe><oe>Gvzr ercbegrq: 02/07/2015 5:04:12 CZ<oe>Gvzr pbzcyrgrq: 02/07/2015 5:28:07 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>00000302<oe>00000341<oe>00000373<oe>R911 PYNFF: JEYF  YBP: 5166 SREA UVYY EQ - AJ  YNG: +42.2316920  YBA: -088.783199<oe>  <<Ybtf>>17:04:01 00000531:iru sver 190 ao zz 24; 17:06:34 00000531:pbee- v90; 17:19:50 00000531:341- qebir nyy gur jnl gb verar, pbhyg abg ybpngr iruvpry; 17:28:08 00000531:Vapvqrag Pybfrq<oe></sbag>",
@@ -290,7 +304,7 @@ choyvp pynff VYObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500000051",
         "QNGR:02/07/2015",
         "GVZR:17:04:12",
-        "VASB:R911 PYNFF: JEYF  YBP: 5166 SREA UVYY EQ - AJ  YNG: +42.2316920  YBA: -088.783199\a<<Ybtf>>17:04:01 00000531:iru sver 190 ao zz 24");
+        "VASB:<<Ybtf>>17:04:01 00000531:iru sver 190 ao zz 24");
 
     qbGrfg("G27",
         "(Pneoba Zbabkvqr Nynez ng 9222 Uhore Eq, Oryivqrer, 61008) <sbag  snpr=\"Gnubzn\" fvmr=\"2\" pbybe=\"Oynpx\">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Pneoba Zbabkvqr Nynez ng 9222 Uhore Eq, Oryivqrer, 61008<oe><oe>Obbar Pagl Qvfg2 Sver Qrcg - 201500000050<oe><oe>Gvzr ercbegrq: 02/06/2015 2:50:30 CZ<oe>Gvzr pbzcyrgrq: 02/06/2015 3:21:47 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>00000341<oe>  <<Ybtf>>14:50:47 00000531:pneoba zbabkvqr nynez tbvat bss, fur unq urnqnpur lrfgreqnl naq fyrcg sbe sbhe ubhef; 14:51:04 00000531:n jrrx ntb bar bs gur nynezf cbccrq bhg bs gur jnyy; 14:51:23 00000531:nynezf unir orra tbvat bss; 14:51:31 00000531:pbzcy vf bhgfvqr jvgu ure qbtf; 15:21:29 00000514:ab pb qrgrpgrq; 15:21:44 00000514:bjaref unir orra nqivfrq gb trg pb zbavgbef svkrq; 15:21:48 00000514:Vapvqrag Pybfrq<oe></sbag>",
@@ -325,7 +339,7 @@ choyvp pynff VYObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500000049",
         "QNGR:02/06/2015",
         "GVZR:10:38:25",
-        "VASB:R911 PYNFF: JCU2  YBP: 4950 EG 173 - FR  YNG: +42.3274140  YBA: -088.846435\a<<Ybtf>>10:37:58 00000514:3 iruvpyrf; 10:38:02 00000514:vawhevrf; 10:38:09 00000514:fbzrbar unf fznyy puvyq va iruvpyr");
+        "VASB:<<Ybtf>>10:37:58 00000514:3 iruvpyrf; 10:38:02 00000514:vawhevrf; 10:38:09 00000514:fbzrbar unf fznyy puvyq va iruvpyr");
 
     qbGrfg("G31",
         "(Tnf Yrnx Vairfgvtngvba ng 3533 Byvir Qe, Oryivqrer, 61008) <sbag  snpr=\"Gnubzn\" fvmr=\"2\" pbybe=\"Oynpx\">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Tnf Yrnx Vairfgvtngvba ng 3533 Byvir Qe, Oryivqrer, 61008<oe><oe>Obbar Pagl Qvfg2 Sver Qrcg - 201500000047<oe><oe>Gvzr ercbegrq: 02/04/2015 8:35:39 CZ<oe>Gvzr pbzcyrgrq: 02/04/2015 8:57:51 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>00000341<oe>  <<Ybtf>>20:32:37 00000529:cbff tnf yrnx va xvgpura; 20:33:35 00000529:bqbe bs tnf; 20:57:51 00000521:Vapvqrag Pybfrq<oe></sbag>",

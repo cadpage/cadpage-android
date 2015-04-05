@@ -390,7 +390,7 @@ public abstract class SmartAddressParser extends MsgParser {
   public SmartAddressParser(String[] cities, String defCity, String defState, 
                             CountryCode code) {
     this(defCity, defState, code);
-    setupCities(cities);
+    if (cities != null) setupCities(cities);
   }
   
   public SmartAddressParser(Properties cityCodes, String defCity, String defState) {
