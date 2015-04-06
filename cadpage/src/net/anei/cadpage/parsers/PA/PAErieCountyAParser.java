@@ -12,8 +12,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 public class PAErieCountyAParser extends DispatchB2Parser {
   
-  private static final Pattern MARKER2 = Pattern.compile("^[0-9A-Z]+ ?>");
-  private static final Pattern CITY_SUFFIX = Pattern.compile("^(?:BORO|CITY|VILLAGE|TWP|CO)\\b *");
+  private static final Pattern MARKER2 = Pattern.compile("[0-9A-Z]+ ?>");
+  private static final Pattern MASTER3 = Pattern.compile("([ A-Za-z]+) / ([A-Z0-9]+ *> *[^:>]*?)>(.*)");
+  private static final Pattern CITY_SUFFIX = Pattern.compile("(?:BORO|CITY|VILLAGE|TWP|CO)\\b *");
  
   public PAErieCountyAParser() {
     super(PAErieCountyParser.CITY_LIST, "ERIE COUNTY", "PA");
@@ -62,10 +63,17 @@ public class PAErieCountyAParser extends DispatchB2Parser {
       }
       
       if (subject.length() > 0) {
-        if (MARKER2.matcher(body).find()) {
+        if (MARKER2.matcher(body).lookingAt()) {
           data.strSource = subject;
           break;
         }
+      }
+      
+      Matcher match = MASTER3.matcher(body);
+      if (match.matches()) {
+        data.strSource = match.group(1).trim();
+        body = match.group(2) + '@' + match.group(3);
+        break;
       }
       
       return false;
@@ -75,7 +83,7 @@ public class PAErieCountyAParser extends DispatchB2Parser {
     boolean result = super.parseMsg(body, data);
     if (result) {
       Matcher match = CITY_SUFFIX.matcher(data.strName);
-      if (match.find()) data.strName = data.strName.substring(match.end());
+      if (match.lookingAt()) data.strName = data.strName.substring(match.end());
       result =  
           (data.strCross.length() > 0 || 
            data.strCallId.length() > 0);
