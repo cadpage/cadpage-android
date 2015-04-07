@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.CO;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -39,6 +42,8 @@ public class COArchuletaCountyParser extends FieldProgramParser {
         data.strState = city;
         city = p.getLastOptional(',');
       }
+      city = city.toUpperCase();
+      if (COUNTY_NAME_SET.contains(city)) city += " COUNTY";
       data.strCity = city;
       super.parse(p.get(), data);
     }
@@ -48,4 +53,15 @@ public class COArchuletaCountyParser extends FieldProgramParser {
       return super.getFieldNames() + " CITY ST";
     }
   }
+  
+  private static final Set<String> COUNTY_NAME_SET = new HashSet<String>(Arrays.asList(
+      "ARCHULETA",
+      "CONEJOS",
+      "HINSDALE",
+      "LA PLATA",
+      "MINERAL",
+      "RIO ARRIBA",
+      "RIO GRANDE",
+      "SAN JUAN"
+  )); 
 }

@@ -215,6 +215,7 @@ class Active911Vendor extends Vendor {
       "US/CA/Suisun",                     "CASuisun",
       "US/CA/YoloCounty",                 "CAYoloCountyB",
       "US/CO/AdamsCounty",                "COAdamsCounty",
+      "US/CO/ArchuletaCounty",            "COArchuletaCounty",
       "US/CO/Bretsaps",                   "COBoulderCountyB",
       "US/CO/CityofDurango",              "COLaPlataCounty",
       "US/CO/CityofGolden",               "COGolden",
