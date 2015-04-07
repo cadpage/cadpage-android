@@ -273,8 +273,7 @@ choyvp pynff ZAPneirePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201300000380",
         "QNGR:08/22/2013",
         "GVZR:10:17:17",
-        "HAVG:00000200",
-        "VASB:R911 PYNFF: COKO");
+        "HAVG:00000200");
 
     qbGrfg("G2",
         "(Zrqvpny-rzf ng Ujl 5/Znexrg Oyiq, Punaunffra, 55317) Abgvsvpngvba sebz PVF Npgvir 911:\a\a" +
@@ -767,7 +766,7 @@ choyvp pynff ZAPneirePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:08/07/2013",
         "GVZR:00:10:21",
         "HAVG:00000200",
-        "VASB:R911 PYNFF: COKO Ncg 218");
+        "VASB:Ncg 218");
 
     qbGrfg("G29",
         "(Nffvfg Bgure Ntrapl-sver ng , , ) Abgvsvpngvba sebz PVF Npgvir 911:\a\a" +
@@ -878,8 +877,7 @@ choyvp pynff ZAPneirePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201300000347",
         "QNGR:08/02/2013",
         "GVZR:12:51:01",
-        "HAVG:00000201",
-        "VASB:R911 PYNFF: OHFA");
+        "HAVG:00000201");
 
     qbGrfg("G35",
         "(Zrqvpny-rzf ng 416 Zbax Pg, Punaunffra, 55317) Abgvsvpngvba sebz PVF Npgvir 911:\a\a" +

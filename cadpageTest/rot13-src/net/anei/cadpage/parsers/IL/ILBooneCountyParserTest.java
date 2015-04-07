@@ -286,7 +286,8 @@ choyvp pynff VYObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500000052",
         "QNGR:02/07/2015",
         "GVZR:17:59:28",
-        "VASB:Unzzre Gvzr Fcbegf\a<<Ybtf>>17:55:35 00000515:2 fabjzbovyrf  naq bar vf ebyyrq bire bgure vf pybfr gb gur ebnq; 17:57:52 00000515:20f5 nqi bs pnyy craqvat");
+        "CYNPR:Unzzre Gvzr Fcbegf",
+        "VASB:<<Ybtf>>17:55:35 00000515:2 fabjzbovyrf  naq bar vf ebyyrq bire bgure vf pybfr gb gur ebnq; 17:57:52 00000515:20f5 nqi bs pnyy craqvat");
 
     qbGrfg("G25",
         "(Sver/Fzbxr Vairfgvtngvba ng V90 Zz 24 Jo, ORYIVQRER, , +42.2316920, -088.783199) <sbag  snpr=\"Gnubzn\" fvmr=\"2\" pbybe=\"Oynpx\">Abgvsvpngvba sebz Obbar Pbhagl Npgvir 911:<oe><oe><o>Sver/Fzbxr Vairfgvtngvba ng V90 Zz 24 Jo, ORYIVQRER, , +42.2316920, -088.783199<oe><oe>Obbar Pagl Qvfg2 Sver Qrcg - 201500000051<oe><oe>Gvzr ercbegrq: 02/07/2015 5:04:12 CZ<oe>Gvzr pbzcyrgrq: 02/07/2015 5:28:07 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>00000302<oe>00000341<oe>00000373<oe>R911 PYNFF: JEYF  YBP: 5166 SREA UVYY EQ - AJ  YNG: +42.2316920  YBA: -088.783199<oe>  <<Ybtf>>17:04:01 00000531:iru sver 190 ao zz 24; 17:06:34 00000531:pbee- v90; 17:19:50 00000531:341- qebir nyy gur jnl gb verar, pbhyg abg ybpngr iruvpry; 17:28:08 00000531:Vapvqrag Pybfrq<oe></sbag>",

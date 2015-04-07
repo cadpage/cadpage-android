@@ -394,7 +394,8 @@ choyvp pynff ZAOyhrRneguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:09/24/2014",
         "GVZR:01:54:08",
         "HAVG:ZXS2903",
-        "VASB:Uvtuynaq Uvyyf Ncgf\aR911 PYNFF: ERFQNCG U1360 lrne byq znyrpurfg cnvaf sbe ynfg 15 zvafqvss oernguvat nyy gur gvzr");
+        "CYNPR:Uvtuynaq Uvyyf Ncgf",
+        "VASB:NCG U1360 lrne byq znyrpurfg cnvaf sbe ynfg 15 zvafqvss oernguvat nyy gur gvzr");
 
     qbGrfg("G17",
         "(Sver Nynez ng 512 Qhoyva Pg, Znaxngb, 56001) Abgvsvpngvba sebz PVF Npgvir911:\a\a" +

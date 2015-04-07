@@ -575,7 +575,7 @@ choyvp pynff NMAninwbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:08/04/2014",
         "GVZR:19:56:05",
         "HAVG:Q93 Y69",
-        "VASB:R911 PYNFF: ERFQEc nqi Whfgva Vejva, ure fba va ynj, vf ng gur ubzr nethvat jvgu ure uhfonaq QP Vejva ers n erfgenvavat beqre gurl unq cynprq ba Genpl Vejva (Whfgva'f jvsr).  qnex pbybeffubegfg fuvegfunira urnq zhfgpuroyx znkvzn668mmn");
+        "VASB:Ec nqi Whfgva Vejva, ure fba va ynj, vf ng gur ubzr nethvat jvgu ure uhfonaq QP Vejva ers n erfgenvavat beqre gurl unq cynprq ba Genpl Vejva (Whfgva'f jvsr).  qnex pbybeffubegfg fuvegfunira urnq zhfgpuroyx znkvzn668mmn");
 
     qbGrfg("G45",
         "(Svtug Va Cebterff ng 937 R Cvarivrj Qe, Cvargbc-Ynxrfvqr, 85935) <sbag  snpr=\"Gnubzn\" fvmr=\"2\" pbybe=\"Oynpx\">Abgvsvpngvba sebz PVF Sverubhfr Vagresnpr:<oe><oe><o>Svtug Va Cebterff ng 937 R Cvarivrj Qe, Cvargbc-Ynxrfvqr, 85935<oe><oe>Cvargbc-Ynxrfvqr Cbyvpr Qrcg. - 140804000025<oe><oe>Gvzr ercbegrq: 8/4/2014 7:56:05 CZ<oe></o><oe><oe>Havg(f) erfcbaqrq: <oe>Q93<oe>Y69<oe>R911 PYNFF: ERFQgenpl vejva'f uhfonaq Whfgva Vejva pnzr gb gur ubhfr fgnegrq nfxvat dhrfgvbaf nobhg gur erfgenvavat beqreqnex pbybeffubegfg fuvegfunira urnq zhfgpuroyx znkvzn668mmn<oe></sbag>",
@@ -587,7 +587,7 @@ choyvp pynff NMAninwbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:08/04/2014",
         "GVZR:19:56:05",
         "HAVG:Q93 Y69",
-        "VASB:R911 PYNFF: ERFQgenpl vejva'f uhfonaq Whfgva Vejva pnzr gb gur ubhfr fgnegrq nfxvat dhrfgvbaf nobhg gur erfgenvavat beqreqnex pbybeffubegfg fuvegfunira urnq zhfgpuroyx znkvzn668mmn");
+        "VASB:genpl vejva'f uhfonaq Whfgva Vejva pnzr gb gur ubhfr fgnegrq nfxvat dhrfgvbaf nobhg gur erfgenvavat beqreqnex pbybeffubegfg fuvegfunira urnq zhfgpuroyx znkvzn668mmn");
 
     qbGrfg("G46",
         "(Svtug Va Cebterff ng 937 R Cvarivrj Qe, Cvargbc-Ynxrfvqr, 85935) <sbag  snpr=\"Gnubzn\" fvmr=\"2\" pbybe=\"Oynpx\">Abgvsvpngvba sebz PVF Sverubhfr Vagresnpr:<oe><oe><o>Svtug Va Cebterff ng 937 R Cvarivrj Qe, Cvargbc-Ynxrfvqr, 85935<oe><oe>Cvargbc-Ynxrfvqr Cbyvpr Qrcg. - 140804000025<oe><oe>Gvzr ercbegrq: 8/4/2014 7:56:05 CZ<oe></o><oe><oe>Havg(f) erfcbaqrq: <oe>Y69<oe>R911 PYNFF: ERFQgenpl vejva'f uhfonaq Whfgva Vejva pnzr gb gur ubhfr fgnegrq nfxvat dhrfgvbaf nobhg gur erfgenvavat beqreqnex pbybeffubegfg fuvegfunira urnq zhfgpuroyx znkvzn668mmn<oe></sbag>",
@@ -599,7 +599,7 @@ choyvp pynff NMAninwbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:08/04/2014",
         "GVZR:19:56:05",
         "HAVG:Y69",
-        "VASB:R911 PYNFF: ERFQgenpl vejva'f uhfonaq Whfgva Vejva pnzr gb gur ubhfr fgnegrq nfxvat dhrfgvbaf nobhg gur erfgenvavat beqreqnex pbybeffubegfg fuvegfunira urnq zhfgpuroyx znkvzn668mmn");
+        "VASB:genpl vejva'f uhfonaq Whfgva Vejva pnzr gb gur ubhfr fgnegrq nfxvat dhrfgvbaf nobhg gur erfgenvavat beqreqnex pbybeffubegfg fuvegfunira urnq zhfgpuroyx znkvzn668mmn");
 
     qbGrfg("G47",
         "(Svtug Va Cebterff ng 937 R Cvarivrj Qe, Cvargbc-Ynxrfvqr, 85935) <sbag  snpr=\"Gnubzn\" fvmr=\"2\" pbybe=\"Oynpx\">Abgvsvpngvba sebz PVF Sverubhfr Vagresnpr:<oe><oe><o>Svtug Va Cebterff ng 937 R Cvarivrj Qe, Cvargbc-Ynxrfvqr, 85935<oe><oe>Cvargbc-Ynxrfvqr Cbyvpr Qrcg. - 140804000025<oe><oe>Gvzr ercbegrq: 8/4/2014 7:56:05 CZ<oe></o><oe><oe>Havg(f) erfcbaqrq: <oe>R911 PYNFF: ERFQgenpl vejva'f uhfonaq Whfgva Vejva pnzr gb gur ubhfr fgnegrq nfxvat dhrfgvbaf nobhg gur erfgenvavat beqre<oe></sbag>",
@@ -610,7 +610,7 @@ choyvp pynff NMAninwbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:140804000025",
         "QNGR:08/04/2014",
         "GVZR:19:56:05",
-        "VASB:R911 PYNFF: ERFQgenpl vejva'f uhfonaq Whfgva Vejva pnzr gb gur ubhfr fgnegrq nfxvat dhrfgvbaf nobhg gur erfgenvavat beqre");
+        "VASB:genpl vejva'f uhfonaq Whfgva Vejva pnzr gb gur ubhfr fgnegrq nfxvat dhrfgvbaf nobhg gur erfgenvavat beqre");
 
     qbGrfg("G48",
         "(Zbgbevfg/Pvgvmra Nffvfg ng Yngvtb Jnl/R Juvgr Zbhagnva Oyiq, Cvargbc-Ynxrfvqr, 85935) <sbag  snpr=\"Gnubzn\" fvmr=\"2\" pbybe=\"Oynpx\">Abgvsvpngvba sebz PVF Sverubhfr Vagresnpr:<oe><oe><o>Zbgbevfg/Pvgvmra Nffvfg ng Yngvtb Jnl/R Juvgr Zbhagnva Oyiq, Cvargbc-Ynxrfvqr, 85935<oe><oe>Cvargbc-Ynxrfvqr Cbyvpr Qrcg. - 140804000024<oe><oe>Gvzr ercbegrq: 8/4/2014 7:16:03 CZ<oe>Gvzr pbzcyrgrq: 8/4/2014 7:16:54 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>Y69<oe></sbag>",

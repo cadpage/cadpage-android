@@ -142,7 +142,7 @@ public class DispatchA27Parser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "UNIT GPS INFO";
+      return "UNIT PLACE GPS INFO";
     }
   }
   
@@ -154,6 +154,8 @@ public class DispatchA27Parser extends FieldProgramParser {
    */
   private void parseUnitField(boolean runReport, String field, Data data) {
     boolean info = false;
+    boolean chkGPS = false;
+    String gps = null;
     for (String token : field.split("\n")) {
       token = token.trim();
       if (token.length() == 0) continue;
@@ -170,12 +172,38 @@ public class DispatchA27Parser extends FieldProgramParser {
       } else if (!runReport) {
         Matcher match = GPS_PTN.matcher(token);
         if (match.lookingAt()) {
-          setGPSLoc(match.group(1)+','+match.group(2), data);
+          data.strPlace = append(data.strPlace, " - ", data.strSupp);
+          data.strSupp = "";
+          gps = match.group(1);
+          if (gps != null) { 
+            setGPSLoc(gps+','+match.group(2), data);
+            gps = null;
+          } else {
+            chkGPS = true;
+          }
           token = token.substring(match.end()).trim();
         }
-        data.strSupp = append(data.strSupp, "\n", token);
+        else if (chkGPS) {
+          if (token.startsWith("LOC: ")) continue;
+          if (token.startsWith("LAT: ")) {
+            gps = token.substring(5).trim();
+            continue;
+          }
+          if (gps != null && token.startsWith("LON: ")) {
+            setGPSLoc(gps+','+token.substring(5).trim(), data);
+            continue;
+          }
+          if ((match = GPS_TRAIL_PTN.matcher(token)).lookingAt()) {
+            token = token.substring(match.end()).trim();
+            chkGPS = false;
+          } else {
+            chkGPS = false;
+          }
+        }
+        if (!token.equals(".")) data.strSupp = append(data.strSupp, "\n", token);
       }
     }
   }
-  private static final Pattern GPS_PTN = Pattern.compile("E911 CLASS: *[A-Z]+\\d*(?: *LOC: .*?LAT: ([-+]?\\d+\\.\\d{6})0? *LON: ([-+]?\\d+\\.\\d{6})(?: *Lec:[a-z]{4})?)?");
+  private static final Pattern GPS_PTN = Pattern.compile("E911 CLASS: *[A-Z]{1,4}\\d*(?: *LOC: .*?LAT: ([-+]?\\d+\\.\\d{6})0? *LON: ([-+]?\\d+\\.\\d{6})(?: *Lec:[a-z]{3,4})?)?");
+  private static final Pattern GPS_TRAIL_PTN = Pattern.compile("Lec:[a-z]{3,4}");
 }

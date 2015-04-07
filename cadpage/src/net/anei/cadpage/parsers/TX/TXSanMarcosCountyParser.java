@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 public class TXSanMarcosCountyParser extends DispatchA27Parser {
   
   public TXSanMarcosCountyParser() {
-    super("SAN MARCOS COUNTY", "TX", "\\d{8}");
+    super("SAN MARCOS COUNTY", "TX", "\\d{8}|[A-Z]+\\d+");
   }
   
   @Override

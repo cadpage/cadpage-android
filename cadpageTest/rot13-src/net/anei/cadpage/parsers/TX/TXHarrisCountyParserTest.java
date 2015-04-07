@@ -2231,7 +2231,7 @@ choyvp pynff GKUneevfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/19/2015",
         "GVZR:13:15:10",
         "HAVG:23683885",
-        "VASB:vasb; 38le byq srznyr univat purfg cnvaf naq qvssvphygl oernguvat\a.\aunf n uvfgbel bs urneg nggnpxf naq nfguzn\a.\aqvfc:");
+        "VASB:vasb; 38le byq srznyr univat purfg cnvaf naq qvssvphygl oernguvat\aunf n uvfgbel bs urneg nggnpxf naq nfguzn\aqvfc:");
 
     qbGrfg("G25",
         "(Nzohynapr Arrqrq ng 3444 Pbbxf Eq, Znefunyy, ) Abgvsvpngvba sebz PVF Npgvir 911:\a\a" +
@@ -2268,7 +2268,7 @@ choyvp pynff GKUneevfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500000539",
         "QNGR:02/19/2015",
         "GVZR:11:09:21",
-        "VASB:Z1\avasb;  ryqreyl srznyr  sryy ynfg avtug naq vawherq ure yrt hanoyr gb fgnaq\a.\a3eq ubhfr ba yrsg erq oevpx");
+        "VASB:Z1\avasb;  ryqreyl srznyr  sryy ynfg avtug naq vawherq ure yrt hanoyr gb fgnaq\a3eq ubhfr ba yrsg erq oevpx");
 
     qbGrfg("G27",
         "(Nzohynapr Arrqrq ng 8017 Ujl59f Ujl, Znefunyy, ) Abgvsvpngvba sebz PVF Npgvir 911:\a\a" +
@@ -3049,7 +3049,7 @@ choyvp pynff GKUneevfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500000519",
         "QNGR:02/17/2015",
         "GVZR:06:07:37",
-        "VASB:Z2\avasb; 56le byq znyr pbcq cngvrag univat gebhoyr oernguvat naq srryvat cnva va evtug fvqr\a.\aqvfc:");
+        "VASB:Z2\avasb; 56le byq znyr pbcq cngvrag univat gebhoyr oernguvat naq srryvat cnva va evtug fvqr\aqvfc:");
 
     qbGrfg("G73",
         "(Nzohynapr Arrqrq ng 4412 Erory Ya, Znefunyy, ) Abgvsvpngvba sebz PVF Npgvir 911:\a\a" +
@@ -3602,7 +3602,7 @@ choyvp pynff GKUneevfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500000105",
         "QNGR:02/15/2015",
         "GVZR:23:25:11",
-        "VASB:R1\avasb; pbzcyg nqi fur erprvirq n cubar pnyy nobhg na ue ntb sebz n ryqreyl znyr fhow bgvf bavx nobhg n fhow gelvat gb trg vagb uvf onpx qbbe; nqi fur unf orra pnyyvat naq hanoyr gb ernpu uvz\a.\avasb: bssvpre erd SQ gb qb tnf ernqvat ers fgebat fzryy");
+        "VASB:R1\avasb; pbzcyg nqi fur erprvirq n cubar pnyy nobhg na ue ntb sebz n ryqreyl znyr fhow bgvf bavx nobhg n fhow gelvat gb trg vagb uvf onpx qbbe; nqi fur unf orra pnyyvat naq hanoyr gb ernpu uvz\avasb: bssvpre erd SQ gb qb tnf ernqvat ers fgebat fzryy");
 
     qbGrfg("G105",
         "(Sver ng R Nhfgva/Fgrcuraf, Znefunyy, ) Abgvsvpngvba sebz PVF Npgvir 911:\a\a" +
