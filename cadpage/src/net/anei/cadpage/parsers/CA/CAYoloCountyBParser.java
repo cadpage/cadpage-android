@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgParser;
 
 /**
- * Yolo County, CA
+ * Yolo County, CA (B)
  */
 public class CAYoloCountyBParser extends MsgParser {
   

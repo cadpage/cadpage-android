@@ -21,6 +21,7 @@ public class NYSuffolkCountyAllParser extends GroupBestParser {
         new NYSuffolkCountyGParser(),
         new NYSuffolkCountyHParser(),
         new NYSuffolkCountyIParser(),
+        new NYSuffolkCountyKParser(),
         new NYSuffolkCountyFiretrackerParser(),
         new NYDixHillsParser()
     });

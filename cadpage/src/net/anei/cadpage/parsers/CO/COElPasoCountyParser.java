@@ -9,7 +9,9 @@ public class COElPasoCountyParser extends GroupBestParser {
   
 
   public COElPasoCountyParser() {
-    super(new COElPasoCountyAParser(), new COElPasoCountyBParser());
+    super(new COElPasoCountyAParser(),
+        new COElPasoCountyBParser(),
+        new COElPasoCountyCParser());
    }
 }
   

@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Fhssbyx Pbhagl, AL (inevnag X)
+Fhssbyx Pbhagl, AL (X)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Prageny Vfyvc SQ
