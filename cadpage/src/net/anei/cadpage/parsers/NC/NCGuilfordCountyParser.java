@@ -19,7 +19,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
   
   public NCGuilfordCountyParser() {
     super("GUILFORD COUNTY", "NC",
-          "FYI? ID? ( CALL2 ADDR! | PRI/Z MUTUAL ADDR! | ( SRC SRC PRI | PRI? ) CODE? CALL ADDR! ) CODE? CITY? ( NAME ID | ID? ) EXTRA? ( X X? | PLACE X X? | ) CITY? ( PRI UNIT? SRC SRC | ) XINFO+? UNIT CITY? INFO+");
+          "FYI? ID? ( CALL PRI ADDR EXTRA? X/Z+? UNIT INFO+ | ( CALL2 ADDR! | PRI/Z MUTUAL ADDR! | ( SRC SRC PRI | PRI? ) CODE? CALL ADDR! ) CODE? CITY? ( NAME ID | ID? ) EXTRA? ( X X? | PLACE X X? | ) CODE? CITY? ( PRI UNIT? SRC SRC | ) XINFO+? UNIT CITY? INFO+ )");
   }
   
   @Override
@@ -47,7 +47,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
 
   @Override
   public String getProgram() {
-    return super.getProgram().replace("SRC", "SRC CITY");
+    return super.getProgram() + " CITY";
   }
 
   @Override
@@ -61,7 +61,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     if (name.equals("EXTRA")) return new ExtraField();
     if (name.equals("CODE")) return new MyCodeField();
     if (name.equals("XINFO")) return new CrossInfoField();
-    if (name.equals("UNIT")) return new UnitField("[A-Z]+\\d+(?:,[A-Z]+\\d+)*", true);
+    if (name.equals("UNIT")) return new UnitField("(?:[A-Z]+\\d+|[A-Z]{1,3}FD)(?:,(?:[A-Z]+\\d+|[A-Z]{1,3}FD))*", true);
     return super.getField(name);
   }
 
@@ -183,7 +183,9 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
       }
       String city = CITY_CODES.getProperty(field);
       if (city != null) {
-        data.strCity = city;;
+        data.strCity = city;
+      } else if (CITY_SET.contains(field)) {
+        data.strCity = field;
       } else if (field.startsWith("TAC ")) {
         data.strChannel = field;
       } else if (data.strCode.length() == 0 && CODE_PTN.matcher(field).matches()) {
