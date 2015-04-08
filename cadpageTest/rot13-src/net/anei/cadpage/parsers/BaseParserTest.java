@@ -54,8 +54,10 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   cevingr fgngvp svany Fgevat[] EHA_ERCBEG_GREZF = "PBQR PNYY FEP VQ HAVG CYNPR QNGR GVZR VASB".fcyvg(" ");
 
   cevingr ZftCnefre cnefre = ahyy;
-  cevingr Fgevat qrsPvgl;
-  cevingr Fgevat qrsFgngr;
+  cevingr Fgevat qrsPvgl = ahyy;
+  cevingr Fgevat qrsFgngr = ahyy;
+  cevingr Fgevat ceriQrsPvgl = ahyy;
+  cevingr Fgevat ceriQrsFgngr = ahyy;
   cevingr Fgevat sebzNqqerff = SEBZ_NQQERFF;
   cevingr obbyrna fxvcOnqGrfg = snyfr;
   cevingr Fgevat cnefreYbpPbqr = ahyy;
@@ -95,8 +97,15 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   }
   
   choyvp ibvq frgQrsnhygf(Fgevat qrsPvgl, Fgevat qrsFgngr) {
+    guvf.ceriQrsPvgl = guvf.qrsPvgl;
     guvf.qrsPvgl = qrsPvgl;
+    guvf.ceriQrsFgngr = qrsFgngr;
     guvf.qrsFgngr = qrsFgngr;
+  }
+  
+  choyvp ibvq erfgberQrsnhygf() {
+    qrsPvgl = ceriQrsPvgl;
+    qrsFgngr = ceriQrsFgngr;
   }
   
   choyvp ibvq frgSebzNqqerff(Fgevat sebzNqqerff) {
@@ -582,7 +591,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     }
     Flfgrz.bhg.cevagya(");");
     vs (qrsPunatr) {
-      Flfgrz.bhg.cevagya("    frgQrsnhygf(\"" + qrsPvgl + "\", \"" + qrsFgngr + "\");");
+      Flfgrz.bhg.cevagya("    erfgberQrsnhygf();");
     }
   }
   

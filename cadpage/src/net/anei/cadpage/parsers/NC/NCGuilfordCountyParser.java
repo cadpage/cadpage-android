@@ -18,13 +18,22 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
   private static final Pattern MARKER = Pattern.compile("^(?:(?:\\d{1,4}:)?[\\w@\\-\\.]+? *[\n:])?(?=CAD:|[A-Z]{3,4};)");
   
   public NCGuilfordCountyParser() {
-    super("GUILFORD COUNTY", "NC",
-          "FYI? ID? ( CALL PRI ADDR EXTRA? X/Z+? UNIT INFO+ | ( CALL2 ADDR! | PRI/Z MUTUAL ADDR! | ( SRC SRC PRI | PRI? ) CODE? CALL ADDR! ) CODE? CITY? ( NAME ID | ID? ) EXTRA? ( X X? | PLACE X X? | ) CODE? CITY? ( PRI UNIT? SRC SRC | ) XINFO+? UNIT CITY? INFO+ )");
+    this("GUILFORD COUNTY", "NC");
+  }
+  
+  protected NCGuilfordCountyParser(String defCity, String defState) {
+    super(defCity, defState,
+          "FYI? ID? ( CALL PRI ADDR EXTRA? X/Z+? UNIT INFO+ | ( CALL2 ADDR! | PRI/Z MUTUAL ADDR! | ( SRC SRC PRI | PRI? ) CODE? CALL ADDR! ) CODE? CITY? ( PLACE ID | ID? ) EXTRA? ( X X? | PLACE X X? | ) CODE? CITY? ( PRI UNIT? SRC SRC | ) XINFO+? UNIT CITY? INFO+ )");
   }
   
   @Override
   public String getFilter() {
     return "@edispatches.com,93001,firedistrict13@listserve.com,CAD@greensboro-nc.gov,mhfd38all@listserve.com,@summerfieldfire.com";
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "NCGilfordCounty";
   }
   
   @Override
@@ -53,7 +62,8 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("ID")) return new IdField("\\d{7,}", true);
-    if (name.equals("CALL2")) return new Call2Field();
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("CALL2")) return new MyCall2Field();
     if (name.equals("MUTUAL")) return new MutualField();
     if (name.equals("SRC")) return new MySourceField();
     if (name.equals("PRI")) return new PriorityField("\\d", true);
@@ -64,8 +74,18 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     if (name.equals("UNIT")) return new UnitField("(?:[A-Z]+\\d+|[A-Z]{1,3}FD)(?:,(?:[A-Z]+\\d+|[A-Z]{1,3}FD))*", true);
     return super.getField(name);
   }
+  
+  private static final Pattern BAD_CALL_PTN = Pattern.compile("\\d{1,2}[A-Z]\\d{1,2}[A-Z]?+ .*|FYI:|Update:");
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      // Reject anything that looks like a NCRowanCounty page
+      if (BAD_CALL_PTN.matcher(field).matches()) abort();
+      super.parse(field, data);
+    }
+  }
 
-  private class Call2Field extends CallField {
+  private class MyCall2Field extends MyCallField {
     
     @Override
     public boolean canFail() {
@@ -181,6 +201,10 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
         data.strApt = append(data.strApt, " - ", match.group(1));
         return;
       }
+      
+      // If we stumble across a Rowan County city code, abort
+      if (BAD_CITY_CODES.contains(field)) abort();
+      
       String city = CITY_CODES.getProperty(field);
       if (city != null) {
         data.strCity = city;
@@ -203,19 +227,41 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     }
   }
   
+  // These are the city codes used by the Rowan County, NC location parser
+  // Finding any of them is grounds to reject this text message
+  private static final Set<String> BAD_CITY_CODES = new HashSet<String>(Arrays.asList(new String[]{
+      "CHGV",
+      "CLVD",
+      "ESPN",
+      "FATH",
+      "GOLD",
+      "GRQY",
+      "KANN",
+      "LAND",
+      "MOOR",
+      "ROCK",
+      "SALS",
+      "SPEN",
+      "WOOD"
+  }));
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "A",    "ARCHDALE",
       "ALAM", "ALAMANCE COUNTY",
+      "ARC",  "ARCHDALE",
       "B",    "BROWN SUMMIT",
       "BUR",  "BURLINGTON",
+      "CL",   "CLEMMONS",
       "CLI",  "CLIMAX",
       "COL",  "COLFAX",
       "DAVI", "DAVIDSON COUNTY",
+      "DEN",  "DENTON",
       "E",    "ELON",
       "EDEN", "EDEN",
       "FORS", "FORSYTH COUNTY",
       "G",    "GREENSBORO",
       "GI",   "GIBSONVILLE",
+      "GREE", "GREENSBORO",
       "GUIL", "GUILFORD COUNTY",
       "H",    "HIGH POINT",
       "HP",   "HIGH POINT",
@@ -224,19 +270,27 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
       "K",    "KERNERSVILLE",
       "KV",   "KERNERSVILLE",
       "L",    "LIBERTY",
+      "LEX",  "LEXINGTON",
+      "LIN",  "LINWOOD",
       "M",    "MCLEANSVILLE",
+      "NL",   "NEW LONDON",
       "OAK",  "OAK RIDGE",
       "P",    "PLEASANT GARDEN",
       "RAN",  "RANDLEMAN",
       "RAND", "RANDOLPH COUNTY",
       "REI",  "REIDSVILLE",
       "ROCK", "ROCKINGHAM COUNTY",
+      "RWC",  "ROWAN COUNTY",
       "SE",   "SEDALIA",
       "ST",   "STOKESDALE",
       "SU",   "SUMMERFIELD",
       "T",    "THOMASVILLE",
+      "THA",  "THOMASVILLE",
+      "TROY", "TROY",
       "W",    "WHITSETT",
-      "X",    "UNIDENTIFIED"
+      "WELC", "WELCOME",
+      "WS",   "WINSTON SALEM",
+      "X",    "UNIDENTIFIED",
   });
   
   private static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(
