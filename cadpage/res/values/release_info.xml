@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03292015</string>
-  <string name="release_version">v1.8.24</string>
+  <string name="release_date">04082015</string>
+  <string name="release_version">v1.8.25</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.25\n
+New Mapping button options and added ability to display department map pages.  
+See the FAQ page for all of the details.\n
+\n
+New Locations\n
+Yolo County, CA (alt)\n
+El Paso County, CA (alt)\n
+Archuleta County, CO\n
+Barren County, KY\n
+Livingston County, NY (alt)\n
+Suffolk County, NY (alt)\n
+Mercer County, OH\n
+Fort Worth, TX\n
+Lubbock County, TX\n
+Skamania County, WA\n
+\n
+Location Fixes:\n
+Navajo County, AZ\n
+Coffee County, GA\n
+Boone County, IL\n
+Boone County, KY\n
+Campbell County, KY\n
+Christian County, KY\n
+Ascension County, LA\n
+Calhoun County, MI\n
+Blue Earth County, MN\n
+Faribault County, MN\n
+Otter Tail County, MN\n
+Davidson County, NC\n
+Guilford County, NC\n
+Rowan County, NC\n
+Erie County, PA\n
+Mercer County, PA\n
+Harris County, TX\n
+San Marcos County, TX\n
+Fayette County, WV\n
+\n
 v1.8.24\n
 Location Fixes:\n
 Windham County, CT\n
@@ -68,39 +105,7 @@ Washington County, PA\n
 \n
 General Fixes:\n
 "Check Response" button for CodeMessaging alerts will no longer appear when the "More Info"
-button is not configured.\n
-\n
-v1.8.20\n      
-New Locations:\n
-Fairbanks, AK\n
-San Diego County, CA (alt)\n
-Tift County, GA\n
-Mackinac County, MI\n
-Cole County, MO\n
-Washington City, MO\n
-Fulton County, OH\n
-Gallia County, OH\n
-Hocking County, OH\n
-Hamilton County, OH (alt)\n
-Summit County, OH (alt)\n
-Calrendon County, SC\n
-Alexandria, VA\n
-Culpeper County, VA\n
-Goochland County, VA\n
-Southampton County, VA\n
-Stafford County, VA\n
-Okanagon County, WA\n
-\n
-Location Fixes:\n
-Cleburn County, AL\n
-Howard County, MD\n
-Hennepin County, MN\n
-Hanover, NH\n
-Jeferson County, NY\n
-Onslow County, NC\n
-Cuyahoga County, OH\n
-Douglas County, OR\n
-Barzoria County, TX
+button is not configured.
   </string>
 </resources>
   
