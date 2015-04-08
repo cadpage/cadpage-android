@@ -71,7 +71,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     if (name.equals("EXTRA")) return new ExtraField();
     if (name.equals("CODE")) return new MyCodeField();
     if (name.equals("XINFO")) return new CrossInfoField();
-    if (name.equals("UNIT")) return new UnitField("(?:[A-Z]+\\d+|[A-Z]{1,3}FD)(?:,(?:[A-Z]+\\d+|[A-Z]{1,3}FD))*", true);
+    if (name.equals("UNIT")) return new UnitField("(?!OPS)(?:[A-Z]+\\d+|[A-Z]{1,3}FD)(?:,(?:[A-Z]+\\d+|[A-Z]{1,3}FD))*", true);
     return super.getField(name);
   }
   
@@ -203,6 +203,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
       }
       
       // If we stumble across a Rowan County city code, abort
+      if (BAD_INFO_PTN.matcher(field).matches()) abort();
       if (BAD_CITY_CODES.contains(field)) abort();
       
       String city = CITY_CODES.getProperty(field);
@@ -226,6 +227,9 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
       return "X CITY INFO CODE CH CALL";
     }
   }
+  
+  // Token pattern that only occur in Rowan County calls, which also should force an automatic rejectd
+  private static final Pattern BAD_INFO_PTN = Pattern.compile("OPS\\d{1,2}");
   
   // These are the city codes used by the Rowan County, NC location parser
   // Finding any of them is grounds to reject this text message

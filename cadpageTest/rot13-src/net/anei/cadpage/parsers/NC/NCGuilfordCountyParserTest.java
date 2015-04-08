@@ -3987,6 +3987,13 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
+  choyvp ibvq grfgOnqZft() {
+    // Jr jnag gb erwrpg nalguvat gung APEbjnaPbhagl jvyy npprcg
+    qbOnqGrfg("PNQ:69Q6 FGEHPGHER SVER;116 JUVGRF ZVYY EQ");
+    qbOnqGrfg("PNQ:SVER QRCG FREIVPR NFFVTAZRAG;QRCBG FG/OBFG PVE;EBPX;7001;BCF12");
+  }
+ 
+  @Grfg
   choyvp ibvq grfgWrssOblref() {
 
     qbGrfg("G1",
@@ -18269,12 +18276,6 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   /***** Qnivqfba Pbhagl grfgf *****/
-  
-  @Grfg
-  choyvp ibvq grfgOnqZft() {
-    // Jr jnag gb erwrpg nalguvat gung APEbjnaPbhagl jvyy npprcg
-    qbOnqGrfg("PNQ:69Q6 FGEHPGHER SVER;116 JUVGRF ZVYY EQ");
-  }
   
   @Grfg
   choyvp ibvq grfgCnefre() {
