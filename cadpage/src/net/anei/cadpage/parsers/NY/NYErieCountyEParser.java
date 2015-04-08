@@ -26,8 +26,8 @@ public class NYErieCountyEParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (msg.getAddress().equals("ALERT@ERIE.GOV")) return parseErieMsg(body, data);
-    if (subject.equals("Call") || msg.getAddress().startsWith("9300")) return parseDepewMsg(body, data); 
+    if (msg.getFromAddress().equals("ALERT@ERIE.GOV")) return parseErieMsg(body, data);
+    if (subject.equals("Call") || msg.getFromAddress().startsWith("9300")) return parseDepewMsg(body, data); 
     return false;
   }
 

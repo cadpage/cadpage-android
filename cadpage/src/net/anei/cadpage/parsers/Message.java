@@ -53,7 +53,7 @@ public class Message {
     }
   }
   
-  public String getAddress() {
+  public String getFromAddress() {
     return parseAddress;
   }
   

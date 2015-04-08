@@ -29,7 +29,7 @@ public class NJGloucesterCountyAParser extends DispatchProphoenixParser {
   
   @Override
   protected Data parseMsg(Message msg, int parseFlags) {
-    fromAddress = msg.getAddress();
+    fromAddress = msg.getFromAddress();
     return super.parseMsg(msg, parseFlags);
   }
 

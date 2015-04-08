@@ -489,7 +489,7 @@ public class SmsMmsMessage implements Serializable {
     if (!force && !skipFilter && ManagePreferences.overrideFilter()) {
       String filter = ManagePreferences.filter();
       if (filter.length() > 1) {
-        if (!MsgParser.matchFilter(getAddress(), filter)) return false;
+        if (!MsgParser.matchFilter(getFromAddress(), filter)) return false;
         parserFlags |= MsgParser.PARSE_FLG_POSITIVE_ID;
       }
       parserFlags |= MsgParser.PARSE_FLG_SKIP_FILTER;
@@ -1000,7 +1000,7 @@ public class SmsMmsMessage implements Serializable {
     Intent intent = new Intent(ACTION);
     intent.putExtra(EXTRA_MSG_ID, msgId);
     intent.putExtra(EXTRA_REPUBLISH, republish);
-    putExtraString(intent, EXTRA_FROM, getAddress());
+    putExtraString(intent, EXTRA_FROM, getFromAddress());
     putExtraString(intent, EXTRA_SUBJECT, getSubject());
     putExtraString(intent, EXTRA_MESSAGE, getMessageBody());
     intent.putExtra(EXTRA_TIME, timestamp);
@@ -1071,7 +1071,7 @@ public class SmsMmsMessage implements Serializable {
     sb.append(fromAddress);
 
     sb.append("\nEff From:");
-    sb.append(getAddress());
+    sb.append(getFromAddress());
     
     sb.append("\nType:");
     sb.append(messageType);

@@ -828,7 +828,7 @@ choyvp pynff ZrffntrGrfg {
                              Fgevat rkcSebz, Fgevat rkcFhowrpg, Fgevat rkcObql, 
                              vag rkcVaqrk, vag rkcPbhag) {
     Zrffntr zft = arj Zrffntr(gehr, sebz, fhowrpg, obql, gehr, snyfr);
-    nffregRdhnyf(gvgyr + ":SEBZ", rkcSebz, zft.trgNqqerff());
+    nffregRdhnyf(gvgyr + ":SEBZ", rkcSebz, zft.trgSebzNqqerff());
     nffregRdhnyf(gvgyr + ":FHOW", rkcFhowrpg, zft.trgFhowrpg());
     nffregRdhnyf(gvgyr + ":OBQL", rkcObql, zft.trgZrffntrObql());
     nffregRdhnyf(gvgyr + ":VAQRK", rkcVaqrk, zft.trgZftVaqrk());

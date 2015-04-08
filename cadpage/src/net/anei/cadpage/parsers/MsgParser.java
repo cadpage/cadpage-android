@@ -371,7 +371,7 @@ public abstract class MsgParser {
     // to the end users.  To the point where they will refuse to send dispatch
     // information to services who will not guarantee this.  So we will do
     // our part to go with the flow....
-    if (msg.getAddress().contains("pwcgov.org")) {
+    if (msg.getFromAddress().contains("pwcgov.org")) {
       data.strSupp = "";
       String call = data.strCall;
       if (call.equals("GENERAL ALERT") || call.equals("RUN REPORT")) {
@@ -406,7 +406,7 @@ public abstract class MsgParser {
     // If parser filter is not being overridden, and the message address does not
     // match the parser filter, message should be rejected
     boolean overrideFilter = (parseFlags & PARSE_FLG_SKIP_FILTER) != 0;
-    if (! overrideFilter && ! matchFilter(msg.getAddress(), filter)) return null;
+    if (! overrideFilter && ! matchFilter(msg.getFromAddress(), filter)) return null;
     
     // Save parse flags for future reference (again)
     // We have to do this again because the GroupBestParser will call 

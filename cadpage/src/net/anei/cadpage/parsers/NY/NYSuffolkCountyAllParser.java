@@ -26,4 +26,9 @@ public class NYSuffolkCountyAllParser extends GroupBestParser {
         new NYDixHillsParser()
     });
   }
+
+  @Override
+  public String getLocName() {
+    return "Suffolk County, NY";
+  }
 }
