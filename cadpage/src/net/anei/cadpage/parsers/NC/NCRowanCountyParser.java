@@ -12,7 +12,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   
   public NCRowanCountyParser() {
     super(CITY_CODES, "ROWAN COUNTY", "NC",
-           "FYI? CALL ADDR! ( OPTPLACE INFO+ | X/Z+? CITY XPLACE+? MAP_CH_UNIT MAP_CH_UNIT+? ) INFO+");
+           "FYI? CALL ADDR! ( OPTPLACE | X/Z+? CITY XPLACE+? MAP_CH_UNIT MAP_CH_UNIT+? ) INFO+");
   }
   
   @Override
@@ -55,11 +55,12 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("XPLACE")) return new MyCrossPlaceField();
     if (name.equals("MAP_CH_UNIT")) return new MyMapChannelUnitField();
+    if (name.equals("ID")) return new IdField("\\d{8}");
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
-  private static final Pattern BAD_CALL_PTN = Pattern.compile("[^ ]/[^ ]+/[^ ]");
+  private static final Pattern BAD_CALL_PTN = Pattern.compile("[^ ]/[^ ]+/[^ ]|^[A-Z]\\d+[A-Z]?-");
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
@@ -69,6 +70,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   }
 
   private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*)(?: - |~)(.*)");
+  private static final Pattern BAD_CITY_PTN = Pattern.compile("[NSEW]|[NS][EW]");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -76,6 +78,9 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
       if (match.matches()) {
         field = match.group(1).trim();
         data.strCity = match.group(2).trim();
+        
+        // Cities that look like directions is a feature of Davidson County alerts
+        if (BAD_CITY_PTN.matcher(data.strCity).matches()) abort();
         if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
       }
       super.parse(field, data);
@@ -116,7 +121,12 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
           field = field.substring(4).trim();
         }
       }
-      parse(field, data);
+      
+      if (ID_PTN.matcher(field).matches()) {
+        data.strCallId = field;
+      } else {
+        parse(field, data);
+      }
       
       // We don't know what county this is, but we now it is not Rowan County
       return true;
@@ -192,7 +202,8 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   
   private static final Pattern MAP_PTN = Pattern.compile("\\d{3,4}");
   private static final Pattern CHANNEL_PTN = Pattern.compile("OPS.*");
-  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]+\\d+[A-Z]?|\\d+[A-Z]+\\d|[A-z0-9]+,[A-Z0-9,]+|DCC");
+  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]+\\d+[A-Z]?|\\d+[A-Z]+\\d|[A-z0-9]+,[A-Z0-9,]+|[A-Z]{2}|DCC");
+  private static final Pattern ID_PTN = Pattern.compile("\\d{8}");
   private class MyMapChannelUnitField extends Field {
     
     @Override
@@ -226,6 +237,11 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
         }
       }
       
+      if (ID_PTN.matcher(field).matches()) {
+        data.strCallId = field;
+        return true;
+      }
+      
       if (field.startsWith("**")) {
         data.strSupp = field;
         return true;
@@ -241,7 +257,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
 
     @Override
     public String getFieldNames() {
-      return "MAP CH UNIT INFO";
+      return "MAP CH UNIT ID INFO";
     }
   }
   
