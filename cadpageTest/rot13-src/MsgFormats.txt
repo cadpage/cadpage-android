@@ -9426,26 +9426,6 @@ QNERN: S2 \aVAP: 1509500000019 \aGLCR: ERFPHR\aQRFP: ERFPHR \aCEV: 1 \aNQQERFF: 
 QNERN: S2 \aVAP: 1509500000018 \aGLCR: ERFPHR\aQRFP: ERFPHR \aCEV: 1 \aNQQERFF: 1010 A FRCHYIRQN OY, ZNA\aCYNPR: (PNER FGNGVBA ZRQVPNY) \aQRGNVY: GRKG:91 LEF SRZNYR PURFG CNVA, \FBHEPR:OHFA\aYNG: 01781036\aYBAT: 06441476\aCEV HAVG:R22\a, R22, E21
 QNERN: S3 \aVAP: 1509500000017 \aGLCR: ERFPHR\aQRFP: ERFPHR \aCEV: 1 \aNQQERFF: 632 J BNX NI, RYF\aCYNPR: (YBZN IVFGN FG & UVYYPERFG FG) \aQRGNVY: GRKG:81 LEF VYY SRZNYR \FBHEPR:ERFQ\aYNG: 01795706\aYBAT: 06433293\aCEV HAVG:R31\a, R31, 1500000636
 **********************************************************
-2014060110000335 (Wnpxfba)
-Jnfugranj Pbhagl, ZV
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Qrkgre Nern SQ
-Ybpngvba: Qrkgre, ZV, Havgrq Fgngrf
-Fraqre: PNQ cntvat <pnqcntvat@rzretragurnygu.bet>
-
-(Zrffntr sebz Qvfcngpu) 508110 / QVFC 18:12:56 / RAE 18:14:01 / BAF 18:23:50 / NIY 18:28:28 /
-(Angher:52O1-NYNEZ FVATYR ERF) 4100 INYRAGVAR EQ-JR / JUVGZBER YNXR, ZV, 48189 / / KL: 42.400992 -83.813392 / 1 / Pebff:8200 ZREEVYY EQ-JR / / / 18:12:59 / /
-(Zrffntr sebz Qvfcngpu) 508105 / QVFC 17:24:02 / RAE 17:25:29 / BAF 17:35:35 / NIY 18:09:57 /
-(Angher:05N1-ONPX CNVA-ABA GENHZNGVP) 9735 CBEGNTR YNXR NI-QG / CVAPXARL, ZV, 48169 / / KL: 42.423338 -83.908447 / Pebff:8700 BEPUNEQ EQ-QG / / / 17:24:06 / Pnyy fuvccrq gb Sver (GWJ) / Nzof Cevbevgl: 3-VZZRQVNGR / Nzohynapr Vapvqrag: 5052338 / 35 S [GWJ] / ONPX NAQ TEBVA CNVA [GWJ] / /
-(Zrffntr sebz Qvfcngpu) 508042 / QVFC 22:51:57 / RAE 22:53:46 / NIY 22:55:51 /
-(Angher:26Q1-FVPX CREFBA-ABG NYREG) 6949 JVYFBA FG-QK / QRKGRE, ZV, 48130 / / KL: 42.3289179 -83.8675867 / Pebff:3600 ELNA QE-QK / 70 / / 22:52:01 / ONOL IBZZVGVAT (RZQ) / CNYR VA PBYBE (RZQ) / 2 ZBAGUF YVFFYRFF (RZQ) / Pnyy fuvccrq gb Sver (RZQ) / Nzof Cevbevgl: 1-RZRETRAPL - YVSR GUERNG / Nzohynapr Vapvqrag: 5051918 / /
-(Zrffntr sebz Qvfcngpu) 508002 / QVFC 12:35:17 / NIY 12:46:32 /
-(Zrffntr sebz Qvfcngpu) 508002 / QVFC 12:35:17 / NIY 12:46:36 /
-(Angher:69Q6-FGEHPGHER SVER ERFVQRAG FVATYR) 3445 EBOVAJBBQ QE-FP / NAA NEOBE, ZV, 48103 / / KL: 42.308824 -83.798111 / 1 / Pebff:1700 JNTARE EQ A-FP / / 12:35:20 / Nzohynapr freivpr vapvqrag 5051570 [NAA] / Nzohynapr pnapryyrq sbe: PNAPRYYRQ OL SV / ERXVAQYR (NAA) / /
-(Zrffntr sebz Qvfcngpu) 507968 / QVFC 05:50:43 / NIY 06:49:13 /
-(Angher:69Q6-FGEHPGHER SVER ERFVQRAG FVATYR) 3445 EBOVAJBBQ QE-FP / NAA NEOBE, ZV, 48103 / / KL: 42.308824 -83.798111 / 1 / Pebff:1700 JNTARE EQ A-FP / / 05:50:46 / IVFVOYR SYNZRF CRE JPFQ (GEJ) / QEVIVAT OL (GEJ) / Nzohynapr freivpr vapvqrag 5051379 [GEJ] / /
-(Zrffntr sebz Qvfcngpu) 507950 / QVFC 23:23:58 / BAF 23:49:31 / NIY 02:58:52 /
 **********************************************************
 **********************************************************
 **********************************************************
