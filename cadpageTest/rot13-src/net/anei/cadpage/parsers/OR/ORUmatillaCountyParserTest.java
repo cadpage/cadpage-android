@@ -1263,9 +1263,9 @@ choyvp pynff BEHzngvyynPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Genafsre gb BFC ertneqvat na nppvqrag FO ba gur Pby",
 
         "HAVG:HSQ09880",
-        "NQQE:(HAXABJA NQQERFF)",
         "PVGL:Hzngvyyn",
-        "CYNPR:V-82 PBYHZOVN EVIRE",
+        "NQQE:V-82 PBYHZOVN EVIRE",
+        "ZNQQE:V 82 PBYHZOVN EVIRE",
         "PBQR:ZIN",
         "VQ:01502060203",
         "PNYY:Genafsre gb BFC ertneqvat na nppvqrag FO ba gur Pby");
@@ -5257,9 +5257,8 @@ choyvp pynff BEHzngvyynPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pryyhyne R911 Pn",
 
         "HAVG:CESQ",
-        "NQQE:(HAXABJA NQQERFF)",
         "PVGL:Cvybg Ebpx",
-        "CYNPR:GUR OVXR CVG",
+        "NQQE:GUR OVXR CVG",
         "PBQR:RZF",
         "VQ:01502070082",
         "PNYY:21 lbz jerpxrq ba zbgbeplpyr",
