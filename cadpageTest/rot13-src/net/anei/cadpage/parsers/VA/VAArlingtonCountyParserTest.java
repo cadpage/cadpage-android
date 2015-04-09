@@ -113,10 +113,10 @@ Fraqre: <ejnyyre@neyvatgbain.hf>
 (Rznvy Pbcl Zrffntr Sebz Uvcyvax) QVFCNGPU:NYYRET, 7504, 1480 PELFGNY QE, NP, Havgf:Z105, R105Z, RZ111\aFrag ol nqzva  Fha Zne 29 23:00:50 2015
 (Rznvy Pbcl Zrffntr Sebz Uvcyvax) QVFCNGPU:VAWHEL, 7904, 1912 F YBEGBA FG, NP, Havg:RZ111\aFrag ol nqzva  Fha Zne 29 21:22:10 2015
 */
-choyvp pynff INNeyvatgbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff INNeyvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp INNeyvatgbaCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "NEYVATGBA", "IN");
+  choyvp INNeyvatgbaPbhaglCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "NEYVATGBA PBHAGL", "IN");
   }
   
   @Grfg
@@ -125,7 +125,7 @@ choyvp pynff INNeyvatgbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat netf[]) {
-    arj INNeyvatgbaCnefreGrfg().trarengrGrfgf("G1");
+    arj INNeyvatgbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
   
