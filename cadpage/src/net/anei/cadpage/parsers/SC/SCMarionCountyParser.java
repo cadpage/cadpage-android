@@ -17,18 +17,18 @@ public class SCMarionCountyParser extends DispatchB2Parser {
   }
   
   private static final CodeSet CALL_LIST = new CodeSet(
-      "MEDALA",      "MEDICAL ALARM",
-      "BRUFIR",      "BRUSH FIRE",
-      "RESPDI",      "RESPIRATORY DISTRESS",
-      "MVA",         "MOTOR VEHICLE ACCIDENT",
-      "FIRALC",      "FIRE ALARM COMMERCIAL",
-      "CARARR",      "CARDIAC ARREST",
-      "PAIN",        "PAIN",
-      "FIRALR",      "FIRE ALARM RESIDENTIAL",
-      "STRUC",       "STRUCTURE FIRE",
-      "INVEST",      "INVESTIGATION",
-      "UNCONC",      "UNCONSCIOUS-UNREPONSIVE",
-      "STRFCO",      "STRUCTURE FIRE (COMMERCIAL)"
+      "MEDICAL ALARM",
+      "BRUSH FIRE",
+      "RESPIRATORY DISTRESS",
+      "MOTOR VEHICLE ACCIDENT",
+      "FIRE ALARM COMMERCIAL",
+      "CARDIAC ARREST",
+      "PAIN",
+      "FIRE ALARM RESIDENTIAL",
+      "STRUCTURE FIRE",
+      "INVESTIGATION",
+      "UNCONSCIOUS-UNREPONSIVE",
+      "STRUCTURE FIRE (COMMERCIAL)"
   );
 
   private static final String[] CITY_LIST = new String[]{

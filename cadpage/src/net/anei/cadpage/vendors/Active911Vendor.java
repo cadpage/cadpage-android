@@ -707,6 +707,7 @@ class Active911Vendor extends Vendor {
       "US/SC/HartsvilleFD",               "SCDarlingtonCounty",
       "US/SC/JasperCounty",               "SCJasperCounty",
       "US/SC/LancasterCounty",            "SCLancasterCounty",
+      "US/SC/MarionCounty",               "SCMarionCounty",
       "US/SC/NewberryCounty",             "SCNewberryCounty",
       "US/SC/OrangeburgCounty",           "SCOrangeburgCounty",
       "US/SC/PickensCounty",              "SCPickensCounty",

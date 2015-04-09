@@ -14,7 +14,6 @@ Fraqre: "XZ-911" <xz911nyreg@tznvy.pbz>
 Fraqre: <argzba@yronabarzn.bet>
 
 (Fgn 12@17:35) Fjngnen Gjc 221 ZBBER EQ FS - Qjryyvat Sver RYRPGEVPNY SVER st3 cbyr sver obk va freivpr NG47 R10 R9 CG47 E42 E47 G42 GX12 Sver-Obk 47-01 RZF-Obk 190-20\a\aGb hafhofpevor ercyl FGBC
-(Evc naq Eha Ercbeg)
 (Fgn 12@17:31) Fjngnen Gjc 221 ZBBER EQ FS - Qjryyvat Sver RYRPGEVPNY SVER st3 E47 NG47 CG47 NzoPb190 R9 E42 G42 GX12 Sver-Obk 47-01 RZF-Obk 190-20\a\aGb hafhofpevor ercyl FGBC
 (Fgn 12@06:21) Havba Gjc 1549 FHRQORET EQ FS - Qjryyvat Sver Cbffvoyr Ryrpgevpny Sver ST 3 CG46 NG46 E10 FPUG21-11 G11 CG45 NzoPb190 GX12 Sver-Obk 46-02 RZF-Obk 190-18\a\aGb hafhofpevor ercyl FGBC
 (Fgn 12@20:03) Havba Gjc 37 UBBIRE QE FS - Qjryyvat Sver Puvzarl Sver ST-4 R11 G11 R10 R41-1 R75 GX12 E10 G41 CG46 CG47 NzoPb190 Sver-Obk 11-01 RZF-Obk 190-18\a\aGb hafhofpevor ercyl FGBC
