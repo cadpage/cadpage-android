@@ -80,10 +80,10 @@ Fraqre: vevzffrp@snvesvryq.pn.tbi
  */
 
 
-choyvp pynff PNSnvesvryqCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff PNFbynabPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp PNSnvesvryqCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "SNVESVRYQ", "PN");
+  choyvp PNFbynabPbhaglCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "FBYNAB PBHAGL", "PN");
   }
   
   @Grfg
@@ -92,6 +92,6 @@ choyvp pynff PNSnvesvryqCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj PNSnvesvryqCnefreGrfg().trarengrGrfgf("G1");
+    arj PNFbynabPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
