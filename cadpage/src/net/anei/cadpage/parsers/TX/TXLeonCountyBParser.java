@@ -6,8 +6,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class TXLeonCountyBParser extends FieldProgramParser{
 
   public TXLeonCountyBParser() {
-    super("LEON COUNTY", "TX",
-      "Call_Type:CALL! City:CITY! Address:ADDRCALL!");
+    this("LEON COUNTY", "TX");
+  }
+
+  protected TXLeonCountyBParser(String defCity, String defState) {
+    super(defCity, defState,
+          "Call_Type:CALL! City:CITY! Address:ADDRCALL!");
   }
 
   public String getFilter() {
