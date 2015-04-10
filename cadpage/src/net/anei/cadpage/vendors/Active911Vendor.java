@@ -210,6 +210,7 @@ class Active911Vendor extends Vendor {
       "US/CA/ShastaCom911",               "CAShastaCountyB",
       "US/CA/ShastaCounty",               "CAShastaCountyA",
       "US/CA/SonomaCounty",               "CASonomaCounty",
+      "US/CA/SouthBay",                   "CALosAngelesCountyB",
       "US/CA/StanislausCounty",           "CAStanislausCounty",
       "US/CA/Stockton",                   "CAStockton",
       "US/CA/Suisun",                     "CASuisun",
