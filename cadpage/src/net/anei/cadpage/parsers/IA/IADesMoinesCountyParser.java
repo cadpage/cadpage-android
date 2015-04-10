@@ -1,12 +1,12 @@
 package net.anei.cadpage.parsers.IA;
 
-import net.anei.cadpage.parsers.dispatch.DispatchA28Parser;
+import net.anei.cadpage.parsers.dispatch.DispatchA47Parser;
 
 
-public class IADesMoinesCountyParser extends DispatchA28Parser {
+public class IADesMoinesCountyParser extends DispatchA47Parser {
   
   public IADesMoinesCountyParser() {
-    super(CITY_LIST, "DES MOINES COUNTY", "IA");
+    super("Dispatch info", CITY_LIST, "DES MOINES COUNTY", "IA");
   }
   
   @Override
