@@ -34,6 +34,7 @@ abstract public class DispatchA37Parser extends SmartAddressParser {
   }
   
   private void setFieldList() {
+    if (prefix != null) prefix += ':';
     String fieldList = "ID CALL CODE DATE TIME ADDR APT";
     if (checkCity) fieldList += " CITY";
     setFieldList(fieldList);
@@ -41,16 +42,19 @@ abstract public class DispatchA37Parser extends SmartAddressParser {
 
   // Separate and parse DispatchID, CALLID, CALL, DATE, TIME and Location/Message fields
   private static final Pattern MASTER_PATTERN
-    = Pattern.compile("([^:]+):\\s*(?:Call\\s*\\#\\s*((?:\\d{2}-|[A-Z]{2})?[\\d]+?))?\\s*(?:\\-\\s*(.+?)\\-\\s+)?\\s*(\\d\\d?\\/\\d\\d?\\/\\d{4})\\s+(\\d{2}\\:\\d{2}\\:\\d{2})\\s*(?:(Location|Message)\\:\\s*(.*?))?");
+    = Pattern.compile("(?:Call\\s*#\\s*((?:[A-Z]?\\d{2}-|[A-Z]{2})?\\d+?)?)?\\s*(?:\\-\\s*(.+?)\\-\\s+)?\\s*(\\d\\d?/\\d\\d?/\\d{4})\\s+(\\d{2}:\\d{2}:\\d{2})\\s*(?:(Location|Message):\\s*(.*?))?");
   public boolean parseMsg(String body, Data data) {
+    if (prefix != null) {
+      if (!body.startsWith(prefix)) return false;
+      body = body.substring(prefix.length()).trim();
+    }
     Matcher m = MASTER_PATTERN.matcher(body);
     if (!m.matches()) return false;
-    if (!m.group(1).equals(prefix)) return false;
-    data.strCallId = getOptGroup(m.group(2));
-    parseCallField(getOptGroup(m.group(3)), data);
-    data.strDate = m.group(4);
-    data.strTime = m.group(5);
-    return parseDataField(m.group(6), getOptGroup(m.group(7)), data);
+    data.strCallId = getOptGroup(m.group(1));
+    parseCallField(getOptGroup(m.group(2)), data);
+    data.strDate = m.group(3);
+    data.strTime = m.group(4);
+    return parseDataField(m.group(5), getOptGroup(m.group(6)), data);
   }
 
   // Call field is a call type followed by optional call code
