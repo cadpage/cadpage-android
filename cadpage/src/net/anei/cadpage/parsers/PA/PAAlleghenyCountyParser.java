@@ -15,10 +15,11 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
   private static final String MARKER = "ALLEGHENY COUNTY 911 :";
   private static final Pattern TRAILER_PTN = Pattern.compile(" - From \\d+ (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)$");
   private static final Pattern MOVE_UP_PTN = Pattern.compile("MOVE-UP: +([A-Z0-9]+) +to +([A-Z0-9]+)\\.?");
+  private static final Pattern MOVE_UP_UNIT_PTN = Pattern.compile("\\b([A-Z0-9]+) +to +");
   
   public PAAlleghenyCountyParser() {
     super(CITY_CODES, "ALLEGHENY COUNTY", "PA",
-           "CODE PRI CALL CALL+? ( GPS1 GPS2! | ADDR/Z CITY/Y! ( DUP_ADDR CITY | ) ( AT SKIP | ) ) XINFO+? SRC BOX% ID? INFO+ Units:UNIT UNIT+");
+           "CODE PRI CALL CALL+? ( GPS1 GPS2! XINFO+? SRC | ADDR/Z CITY/Y! ( DUP_ADDR CITY | ) ( AT SKIP | ) XINFO+? SRC | PLACE AT CITY? XINFO+? SRC | SRC ) BOX? ID? INFO+ Units:UNIT UNIT+");
     setupCities(EXTRA_CITY_LIST);
   }
 
@@ -46,7 +47,7 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
         break;
       }
       
-      if (body.startsWith("MOVE-UP:")) break;
+      if (body.startsWith("MOVE-UP")) break;
       
       if (subject.endsWith(" Station")) break;
         
@@ -83,8 +84,19 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
       return true;
     }
     
+    // MOVE-UPS is an even specialer case
+    if (body.startsWith("MOVE-UPS:")) {
+      setFieldList("CALL UNIT DATE TIME");
+      data.strCall = body;
+      match = MOVE_UP_UNIT_PTN.matcher(body);
+      while (match.find()) {
+        data.strUnit = append(data.strUnit, " ", match.group(1));
+      }
+      return true;
+    }
+    
     body = body.replace(" Unit:", " Units:");
-    return parseFields(body.split(","), 7, data);
+    return parseFields(body.split(","), 5, data);
   }
   
   @Override
@@ -104,7 +116,8 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
     if (name.equals("DUP_ADDR")) return new MyDupAddressField();
     if (name.equals("AT")) return new MyAtField();
     if (name.equals("XINFO")) return new MyCrossInfoField();
-    if (name.equals("BOX")) return new BoxField("[A-Z]?\\d{5,}(?: +[A-Z]?\\d{5,})*|[A-Z]{2,3}\\d{2,3}", true);
+    if (name.equals("SRC")) return new SourceField("[A-Z]{3}\\d");
+    if (name.equals("BOX")) return new BoxField("\\d{5,6}(?: \\d{5,6})*|[A-Z]\\d{5}|[A-Z]{2,3}\\d{2,3}|\\d{3}[A-Z]\\d{2}", true);
     if (name.equals("ID")) return new IdField("[A-Z]\\d{9}", true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("UNIT")) return new MyUnitField();
@@ -130,6 +143,7 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
   private class MyCityField extends CityField {
     @Override
     public boolean checkParse(String field, Data data) {
+      if (field.endsWith(" TOWN")) field = field.substring(0,field.length()-4) + "TWP";
       if (super.checkParse(field, data)) return true;
       if (field.startsWith("<") && field.endsWith(">")) return true;
       return false;
@@ -207,6 +221,7 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
   
   private static Properties CITY_CODES = buildCodeTable(new String[]{
       "ALE", "ALEPPO",
+      "AS",  "ASPINWALL",
       "ASP", "ASPINWALL",
       "AVA", "AVALON",
       "BAH", "BEN AVON HEIGHTS",
@@ -344,6 +359,7 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
     "FREEPORT",
     
     // Butler County
-    "ADAMS TWP"
+    "ADAMS TWP",
+    "MIDDLESEX TWP"
   };
 }
