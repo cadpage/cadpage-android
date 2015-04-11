@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers;
 import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
@@ -278,6 +279,13 @@ public class FieldProgramParser extends SmartAddressParser {
     setProgram(programStr, flags);
   }
   
+  @Override
+  protected void setupCities(Collection<String> cities) {
+    super.setupCities(cities);
+    if (this.cities == null) this.cities = new HashSet<String>();
+    this.cities.addAll(cities);
+  }
+
   /**
    * Set the character used to mark the end of  keyword
    * @param breakChar new break character
@@ -2325,9 +2333,11 @@ public class FieldProgramParser extends SmartAddressParser {
     public boolean checkParse(String field, Data data) {
       if (cityCodes != null) {
         String city = cityCodes.getProperty(field);
-        if (city == null) return false;
-        data.strCity = city;
-        return true;
+        if (city != null) {
+          data.strCity = city;
+          return true;
+        }
+        if (cities == null) return false;
       }
       
       // Otherwise we must have a cities list

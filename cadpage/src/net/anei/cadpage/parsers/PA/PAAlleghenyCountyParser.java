@@ -18,7 +18,8 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
   
   public PAAlleghenyCountyParser() {
     super(CITY_CODES, "ALLEGHENY COUNTY", "PA",
-           "CODE PRI CALL CALL+? ( GPS1 GPS2! | ADDR/Z CITY/Y! ( AT SKIP | ) ) XINFO+? SRC BOX% ID? INFO+ Units:UNIT UNIT+");
+           "CODE PRI CALL CALL+? ( GPS1 GPS2! | ADDR/Z CITY/Y! ( DUP_ADDR CITY | ) ( AT SKIP | ) ) XINFO+? SRC BOX% ID? INFO+ Units:UNIT UNIT+");
+    setupCities(EXTRA_CITY_LIST);
   }
 
   @Override
@@ -100,6 +101,7 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
     if (name.equals("GPS1")) return new GPSField(1, "[-+]\\d+\\.\\d+");
     if (name.equals("GPS2")) return new GPSField(2, "[-+]\\d+\\.\\d+");
     if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("DUP_ADDR")) return new MyDupAddressField();
     if (name.equals("AT")) return new MyAtField();
     if (name.equals("XINFO")) return new MyCrossInfoField();
     if (name.equals("BOX")) return new BoxField("[A-Z]?\\d{5,}(?: +[A-Z]?\\d{5,})*|[A-Z]{2,3}\\d{2,3}", true);
@@ -131,6 +133,18 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
       if (super.checkParse(field, data)) return true;
       if (field.startsWith("<") && field.endsWith(">")) return true;
       return false;
+    }
+  }
+  
+  private class MyDupAddressField extends SkipField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return field.equals(getRelativeField(-2));
     }
   }
   
@@ -322,8 +336,14 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
       "WOA", "WHITE OAK",
       "WTK", "WHITAKER",
       "WVW", "WEST VIEW",
-      
-      // Butler County
-      "ADAMS TWP",    "ADAMS TWP"
   });
+  
+  private static final String[] EXTRA_CITY_LIST = new String[]{
+    
+    // Armstrong County
+    "FREEPORT",
+    
+    // Butler County
+    "ADAMS TWP"
+  };
 }
