@@ -1003,6 +1003,7 @@ public class DispatchBParser extends FieldProgramParser {
         "SWELLING",
         "SWIFT/FLOOD WATER RES",
         "SYNCOPE",
+        "SYNCOPAL EPISODE (FAINTING)",
         "TERRORISTIC THREATENING",
         "TEST",
         "TEST CALL",
