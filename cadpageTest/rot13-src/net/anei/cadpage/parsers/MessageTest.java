@@ -8,16 +8,18 @@ choyvp pynff ZrffntrGrfg {
   
   @Grfg
   choyvp ibvq grfgceboyrz() {
-    
-    qbCnefrGrfg("CNZreprePbhagl",
-        "\"9-1-1\"@zpp.pb.zrepre.cn.hf (VCF V/Cntr Abgvsvpngvba) Ybpngvba: A OEBNQ FG/YVAPBYA NIR TEBI RVQ: 2360315 GLCR PBQR: ZIH PNYYRE ANZR: YNEEL TENPR PNYYRE NQQE: 522 R ZNVA FG R",
-        "\"9-1-1\"@zpp.pb.zrepre.cn.hf",
-        "VCF V/Cntr Abgvsvpngvba",
-        "Ybpngvba: A OEBNQ FG/YVAPBYA NIR TEBI RVQ: 2360315 GLCR PBQR: ZIH PNYYRE ANZR: YNEEL TENPR PNYYRE NQQE: 522 R ZNVA FG R");
   }
   
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
+    
+    qbCnefrGrfg("ZFYnhqreqnyrPbhagl",
+        "xra@pnqcntr.bet",
+        "",
+        "SEZ:R911@zrevqvnazf.bet\aFHOW:(17167) DFRPBSE\aZFT:Oehfu Sver/Pbhagl-6955 XVAT EQ-ZREVQVNA-VA GUR NERN, JBBQF BA SVER-ONV-O-",
+        "R911@zrevqvnazf.bet",
+        "(17167) DFRPBSE",
+        "Oehfu Sver/Pbhagl-6955 XVAT EQ-ZREVQVNA-VA GUR NERN, JBBQF BA SVER-ONV-O-");
     
     qbCnefrGrfg("ZBFgPuneyrfPbhagl",
         "xra@pnqcntr.bet",

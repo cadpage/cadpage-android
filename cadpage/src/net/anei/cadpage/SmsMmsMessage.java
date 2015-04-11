@@ -751,6 +751,7 @@ public class SmsMmsMessage implements Serializable {
   }
   
   public String getFromAddress() {
+    if (parseInfo != null) return parseInfo.getFromAddress();
     return fromAddress;
   }
   
