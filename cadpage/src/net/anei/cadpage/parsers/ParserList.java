@@ -578,6 +578,7 @@ public class ParserList {
               ,"MSDeSotoCounty"                 ,"DeSoto County, MS"
               ,"MSHernando"                     ,"Hernando, MS"
               ,"MSLafayetteCounty"			      	,"Lafayette County, MS"
+              ,"MSLauderdaleCounty"             ,"Lauderdale County, MS"
               ,"MSMarionCounty"                 ,"Marion County, MS"
               ,"MSNeshobaCounty"                ,"Neshoba County, MS"
               ,"MSNewtonCounty"                 ,"Newton County, MS"

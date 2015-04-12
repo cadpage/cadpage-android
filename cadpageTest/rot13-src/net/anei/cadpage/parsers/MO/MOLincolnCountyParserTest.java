@@ -20,6 +20,7 @@ SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Ryforeel Sver\aZFT:ARJ Genssvp/Genafcbeg N
 SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Ryforeel Sver\aZFT:ARJ Nynez 123 Jrypu Qe, Ryforeel6
 SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Ryforeel Sver\aZFT:ARJ Hapbafpvbhf/Snvagvat (Arne) 205 Qhobvf Fg, Ryforeelr
 SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Ryforeel Sver\aZFT:ARJ 19-10-II Ryrpgevpny Unmneq Nhfgba Urvam Erfvqrapr - 10 Ubzrcynpr Ya, Ryforeel
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\a FHOW:Ryforeel Sver\a ZFT:ARJ Zbgbe Iruvpyr Nppvqrag Ercbeg Byq Ujl 79 ARNE UJL Z, Ryforeel 
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Yvapbya Pbhagl Sver Cebgrpgvba Qvfgevpg
@@ -261,6 +262,13 @@ choyvp pynff ZBYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Ryrpgevpny Unmneq",
         "CYNPR:Nhfgba Urvam Erfvqrapr",
         "NQQE:10 Ubzrcynpr Ya",
+        "PVGL:Ryforeel");
+
+    qbGrfg("G12",
+        "SEZ:zrffntvat@vnzerfcbaqvat.pbz\a FHOW:Ryforeel Sver\a ZFT:ARJ Zbgbe Iruvpyr Nppvqrag Ercbeg Byq Ujl 79 ARNE UJL Z, Ryforeel ",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Ercbeg",
+        "NQQE:Byq Ujl 79",
+        "ZNQQE:Byq Ujl 79 & UJL Z",
         "PVGL:Ryforeel");
 
   }

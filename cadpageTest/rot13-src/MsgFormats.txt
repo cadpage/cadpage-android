@@ -4668,6 +4668,9 @@ Pnyubha Pbhagl, ZF (ZFPnyubhaPbhaglCnefre)
 (Qvfcngpu Nyreg) NZOHYNAPR\aPNYUBHA PBHAGL AHEFVAT UBZR\a152 OHEXR-PP EQ\aNcg 139O\aPNYUBHA PVGL\aAbgr: 93 LE BYQ SRZNYR, ZNIVF ZRTNA, SRYY NAQ UNF PHG BA EVTUG RLR NAQ RLR NAQ OEHVFR BA SNPVNY NERN. PUF AHEFVAT  UBZR EZ 139O BA ARJ FVQR
 (Qvfcngpu Nyreg) PP/QREZN RZE\a205 QNIVF FG\aNcg O\aPNYUBHA PVGL\aAbgr: PNYYRE NQI 47 LE BYQ SRZNYR OERNGUVAT OHG HAERFCBAFVIR.
 ****************************************************************************
+Ynhqreqnyr Pbhagl, ZF (ZFYnhqreqnyrPbhaglCnefre)
+SEZ:R911@zrevqvnazf.bet\aFHOW:(17167) DFRPBSE\aZFT:Oehfu Sver/Pbhagl-6955 XVAT EQ-ZREVQVNA-VA GUR NERN, JBBQF BA SVER-ONV-O-
+****************************************************************************
 Arjgba Pbhagl, ZF (ZFArjgbaPbhaglCnefre)
 NYNEZ-SVER HSQ () Ybp:3391 UJL 494 [@EBOVAFBA WBFU & PNFRL Epiq: 10:29:10 13004716
 ZRQVPNY PNYY HSE () Ybp:103 ZNFBA FG Epiq: 09:7:16 13004713
@@ -8964,12 +8967,6 @@ Nyrknaqre Qnyr <fhacbvagr@tznvy.pbz>
 Fraqre: SQ3@fyptbi.pbz
 SEZ:SQ3@fyptbi.pbz\aZFT:ABG OERNGUVAT NG NYY  23:44:41\a700 F 600 R  Qg:   Ma: 5NS  Tq:\a600 R\aTP5 Z5 TP588 PS #8955\aFrag ol: SQ3
 **********************************************************
-Ynhqreqnyr pbhagl, ZF
-Pbagnpg: ovtj170 <ovtj170@nvz.pbz>
-SEZ:R911@zrevqvnazf.bet\aFHOW:(17167) DFRPBSE\aZFT:Oehfu Sver/Pbhagl-6955 XVAT EQ-ZREVQVNA-VA GUR NERN, JBBQF BA SVER-ONV-O-
-
-ONV - Qrcnegzrag
-O - Havg (oehfu evt)
 **********************************************************
 **********************************************************
 **********************************************************
