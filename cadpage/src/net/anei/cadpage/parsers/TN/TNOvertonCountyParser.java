@@ -111,6 +111,7 @@ public class TNOvertonCountyParser extends DispatchB2Parser {
       "POWER OUTAGE",
       "RECKLESS DRIVING",
       "SERVING WARRANT",
+      "S.O.B >DYSPNEA",
       "S.O.B >SHORTNESS OF BREATH",
       "SHOPLIFTER",
       "SHOULDER INJURY",
