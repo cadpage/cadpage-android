@@ -127,8 +127,16 @@ public class MDHowardCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       int pt = field.indexOf(' ');
       if (pt >= 0) {
-        data.strSupp = append(data.strSupp, " / ", field.substring(pt+1).trim());
+        String extra = field.substring(pt+1).trim();
         field = field.substring(0,pt);
+        
+        extra = stripFieldEnd(extra, " --");
+        String alarm = ALARM_CODES.getProperty(extra);
+        if (alarm != null) {
+          data.strSupp = append(alarm, "\n", data.strSupp);
+        } else {
+          data.strSupp = append(data.strSupp, "\n", extra);
+        }
       }
       super.parse(field, data);
     }
@@ -144,6 +152,13 @@ public class MDHowardCountyParser extends FieldProgramParser {
     return NS_PTN.matcher(sAddress).replaceAll("");
   }
   private static Pattern NS_PTN = Pattern.compile("\\bNS\\b", Pattern.CASE_INSENSITIVE);
+  
+  private static final Properties ALARM_CODES = buildCodeTable(new String[]{
+      "Alarm Level 0", "1st Alarm",
+      "Alarm Level 1", "Task Force",
+      "Alarm Level 2", "2nd Alarm",
+      "Alarm level 3", "3rd Alarm"
+  });
   
   private static final Properties UNIT_CODES = buildCodeTable(new String[]{
 
