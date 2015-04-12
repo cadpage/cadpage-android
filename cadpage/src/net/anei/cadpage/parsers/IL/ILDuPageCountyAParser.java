@@ -13,6 +13,7 @@ public class ILDuPageCountyAParser extends FieldProgramParser {
   private static final Pattern ZERO_ADDR_PTN2 = Pattern.compile("[NSEW]\\d+");
   
   private static final Pattern MASTER2 = Pattern.compile("\\*!\\* BR \\*!\\* (.*?) @ (.*?)\\[District: *([A-Z0-9]*)\\]");
+  private static final Pattern CALL_ID_PTN = Pattern.compile("([A-Z]{3})\\d+");
   
   public ILDuPageCountyAParser() {
     super(CITY_CODES, "DUPAGE COUNTY", "IL",
@@ -27,9 +28,12 @@ public class ILDuPageCountyAParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (body.startsWith("CALL:")) return parseFields(body.split("\n"), 9, data);
+    Matcher match;
+    if (body.startsWith("CALL:")) {
+      if (!parseFields(body.split("\n"), 9, data)) return false;
+    }
     
-    if (body.startsWith("INC01 1.0 EV-XXX 0       ")) {
+    else if (body.startsWith("INC01 1.0 EV-XXX 0       ")) {
       setFieldList("ID ADDR SRC UNIT CALL PLACE X CITY");
       data.strCallId = substring(body, 25, 40);
       String addr = substring(body, 40, 70);
@@ -48,19 +52,25 @@ public class ILDuPageCountyAParser extends FieldProgramParser {
         city = city.substring(0,city.length()-1);
       }
       data.strCity = convertCodes(city, CITY_CODES);
-      return true;
     }
     
-    Matcher match = MASTER2.matcher(body);
-    if (match.matches()) {
+    else if ((match = MASTER2.matcher(body)).matches()) {
       setFieldList("CALL ADDR APT UNIT");
       data.strCall = match.group(1).trim();
       parseAddress(match.group(2).trim(), data);
       data.strUnit = match.group(3);
-      return true;
     }
     
-    return false;
+    else return false;
+    
+    match = CALL_ID_PTN.matcher(data.strCallId);
+    if (match.matches()) data.strSource = match.group(1);
+    return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("ID", "SRC ID");
   }
   
   @Override
