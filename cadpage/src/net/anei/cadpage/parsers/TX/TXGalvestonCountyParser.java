@@ -17,19 +17,37 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
           "ADDR/aS8CI! INFO+");
     setupCallList(CALL_LIST);
     setupMultiWordStreets(
+        "ALGOA FRNDSWD",
+        "ANDERSON WAYS",
+        "B BAR",
+        "BLIMP BASE",
         "BOB SMITH",
         "CAPTAIN BLIGH",
         "CAPTAIN HOOK",
+        "COUNTRY MEADOW",
         "COVE VIEW",
         "EDWARD TEACH",
+        "FRANCIS DRAKE",
+        "HALF MOON",
+        "HENRY MORGAN",
+        "IKE FRANK",
         "JAMAICA BEACH",
         "JAMAICA COVE",
+        "JAMAICA INN",
+        "JEAN LAFITTE",
+        "JOHN SILVER",
         "JOLLY ROGER",
-        "HALF MOON",
+        "LEWIS SCOTT",
+        "LONE PINE",
         "MOBY DICK",
+        "MORNING GLORY",
         "PONCE DE LEON",
         "SAN LOUIS PASS",
-        "SPANISH MAIN");
+        "SAN LUIS PASS",
+        "SNOWY EGRET",
+        "SPANISH MAIN",
+        "TWIN CREEK"
+    );
   }
   
   @Override
@@ -123,6 +141,7 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
       "AUTO PEDESTRIAN ACCIDENT",
       "BOMB THREAT",
       "BONFIRE",
+      "BURNS",
       "CANCEL",
       "CHEST PAINS",
       "CHOKE",
@@ -140,22 +159,28 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
       "GRASS FIRE",
       "HAZMAT",
       "INJURED PERSON",
+      "INJURY TO A CHILD",
       "LANDING ZONE",
       "LINE DOWN",
       "MAJOR ACCIDENT",
+      "MARINE RELATED",
       "MEDICAL ALARM",
       "MEDICAL ASSIST",
       "MUTUAL AID",
       "OVERDOSE",
       "POLE FIRE",
+      "RESCUE",
       "SEIZURE",
       "SICK CALL",
       "SMOKE INVESTIGATION",
       "STROKE",
       "STRUCTURE FIRE",
+      "SUICIDE ATTEMPTED OR COMPLETED",
       "TRAFFIC STOP",
       "UNCONSCIOUS PERSON",
-      "UNKNOWN REQUIRES EMS"
+      "UNKNOWN REQUIRES EMS",
+      "VEHICLE FIRE",
+      "WASH DOWN"
 
   );
 }

@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04092015</string>
-  <string name="release_version">v1.8.26</string>
+  <string name="release_date">04122015</string>
+  <string name="release_version">v1.8.27</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.27\n
+New Locations:\n
+Lauderdale County, MS\n
+\n
+Location Fixes:\n
+Jackson County, GA\n
+DuPage County, IL\n
+Des Moines County, IA\n
+Howard County, MD\n
+Rockingham County, NC\n
+Allegheny County, PA\n
+Aransas County, TX\n
+\n
+General Fixes:\n
+Recently introduced problem filtering on email addresses that were included 
+in the message text.\n
+\n      
 v1.8.26\n
 Restored Swedish translation of new map button labels.\n
 \n      
@@ -66,49 +83,7 @@ Loation Fixes:\n
 Dougherty COunty, GA\n
 Howard County, MD\n
 St Charles County, MO\n
-Suffolk County, NY\n
-\n      
-v1.8.22\n
-Location Fixes:\n
-St Clair County, AL\n
-Tolland County, CT\n
-New Castle County, DE\n
-Dougherty County, GA\n
-Hancock County, IN\n
-Lake County, IN\n
-Jackson County, IA\n
-Ingham County, MI\n
-Middlesex County, NJ\n
-Guilford County, NC\n
-Washington County, OR\n
-Whitman County, WA\n
-\n      
-v1.8.21\n
-New Locations:\n
-Cerro Gordo County, IA\n
-McLeod County, MN\n
-Perry County, OH\n
-\n
-Location Fixes:\n
-Sacramento County, CA\n
-Manatee County, FL\n
-Kerlanger Dispatch, KY\n
-Allegany County, MD\n
-Bergen County, NJ\n
-Essex County, NJ\n
-Erie County, NY\n
-Halifax County, NC\n
-Henderson County, NC\n
-Clermont County, OH\n
-Brown County, OH\n
-Loveland, OH\n
-Adams County, PA\n
-Monroeville, PA\n
-Washington County, PA\n
-\n
-General Fixes:\n
-"Check Response" button for CodeMessaging alerts will no longer appear when the "More Info"
-button is not configured.
+Suffolk County, NY
   </string>
 </resources>
   
