@@ -11,6 +11,11 @@ public class TXAransasCountyParser extends DispatchA46Parser {
   }
   
   @Override
+  public String getFilter() {
+    return "@outbound.globalmailrelay.com,PTS@ptssolutions.com";
+  }
+  
+  @Override
   public String adjustMapAddress(String addr) {
     addr = BYPASS_35_PTN.matcher(addr).replaceAll("State 35$1 Business");
     return super.adjustMapAddress(addr);
@@ -19,7 +24,7 @@ public class TXAransasCountyParser extends DispatchA46Parser {
   
   @Override
   public String adjustMapCity(String city) {
-    if (city.equals("N Ocl")) return "Rockport";
+    if (city.equals("N Ocl") || city.equals("S Ocl")) return "Rockport";
     return super.adjustMapCity(city);
   }
 }
