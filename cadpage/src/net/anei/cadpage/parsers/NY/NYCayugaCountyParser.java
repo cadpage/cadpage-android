@@ -1,208 +1,133 @@
 package net.anei.cadpage.parsers.NY;
 
-import java.util.regex.Matcher;
+import java.util.Properties;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.CodeSet;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-
-
-public class NYCayugaCountyParser extends SmartAddressParser {
+public class NYCayugaCountyParser extends FieldProgramParser {
   
-  private static final Pattern MARKER1 = Pattern.compile(" +(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d) (\\d{4}-\\d{8}) ([A-Z ]+)$", Pattern.CASE_INSENSITIVE);
-  private static final Pattern MARKER2 = Pattern.compile("^(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d) +");
-  private static final Pattern MISSED_BLANK_PTN = Pattern.compile("([^ ])(SENNETT )", Pattern.CASE_INSENSITIVE);
-  private static final Pattern PLACE_PTN = Pattern.compile("^[ A-Z]*[A-Z](?=\\d)");
-
+  private static final Pattern DELIM = Pattern.compile("  +");
+  
   public NYCayugaCountyParser() {
-    super(CITY_LIST, "CAYUGA COUNTY", "NY");
-    setupMultiWordStreets("WEST LAKE", "GRANT AVENUE");
+    super(CITY_LIST, "CAYUGA COUNTY", "NY",
+          "ADDR_PFX+? ADDR/iSC INFO/N+? UNIT DATETIME!");
+    setupCallList(CALL_LIST);
+    setupMultiWordStreets(
+        "BAPTIST HILL",
+        "BUCK POINT",
+        "BURTIS POINT",
+        "CENTER STREET",
+        "CHERRY STREET",
+        "CHESTNUT RIDGE",
+        "COUNTY HOUSE",
+        "COUNTY LINE",
+        "FRANKLIN STREET",
+        "GENESEE STREET",
+        "GRANT AVENUE",
+        "JOHN SMITH",
+        "MUTTON HILL",
+        "PINE RIDGE",
+        "SAND BEACH",
+        "SUNSET BEACH",
+        "TOWN HALL",
+        "TWELVE CORNERS",
+        "WEEDSPORT SENNETT",
+        "WEST LAKE",
+        "WHITE BIRCH"
+    );
   }
   
   @Override
   public String getFilter() {
-    return "cayuga911@co.cayuga.ny.us,cayuga911@nameservices.net,cayuga911@www.cayugacounty.us,messaging@iamresponding.com,dspingler@cayugacounty.us,911cad@cayugacounty.us";
+    return "911cad@cayugacounty.us";
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("From 911 Center")) return false;
+    return parseFields(DELIM.split(body), data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR_PFX")) return new MyAddressPrefixField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d\\d \\d\\d:\\d\\d", true);
+    return super.getField(name);
+  }
+  
+  // Directions in the street address tend to be followed by an extraneous 
+  // double blank which splits the address into multiple fields that we have to
+  // merge back together
+  private static final Pattern TRAIL_DIR_PTN = Pattern.compile(".* [NSEW]");
+  private class MyAddressPrefixField extends SkipField {
     
-    // First try to parse older format page
-    Matcher match = MARKER2.matcher(body);
-    if (match.find()) {
-      setFieldList("DATE TIME PLACE ADDR CITY CALL X INFO");
-      
-      data.strDate = match.group(1);
-      data.strTime = match.group(2);
-      body = body.substring(match.end());
-      
-      // They do not leave spaces between place names and street numbers :(
-      StartType st = StartType.START_PLACE;
-      match = PLACE_PTN.matcher(body);
-      if (match.find()) {
-        data.strPlace = match.group();
-        body = body.substring(match.end());
-        st = StartType.START_ADDR;
-      }
-      
-      // See if we can split off a cross street keyword
-      String cross = null;
-      int pt = body.indexOf(" BETWEEN ");
-      if (pt >= 0) {
-        cross = body.substring(pt+9).trim();
-        body = body.substring(0,pt).trim();
-      }
-      
-      // See if there is a comma separating the address from the city.
-      // If what follows the comma is not a recognized city, assume it is extraneous
-      String extra = "";
-      pt = body.indexOf(',');
-      if (pt >= 0) {
-        Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, body.substring(pt+1).trim());
-        if (res.isValid()) {
-          parseAddress(st, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, body.substring(0,pt).trim(), data);
-          res.getData(data);
-          extra = res.getLeft();
-        } else {
-          pt = -1;
-        }
-      } 
-      
-      if (pt < 0) { 
-        parseAddress(st, FLAG_IMPLIED_INTERSECT, body, data);
-        extra = getLeft();
-      }
-      
-      // Things change if we have identified a cross street segment
-      // What is left of extra is the call description
-      // what follows the BETWEEN keyword is a cross street and supplemental info
-      if (cross != null) {
-        data.strCall = extra;
-        pt = cross.indexOf(',');
-        if (pt >= 0) {
-          data.strCross = cross.substring(0,pt).trim();
-          data.strSupp = cross.substring(pt+1).trim();
-        } else {
-          parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, cross);
-          data.strSupp = getLeft();
-        }
-      }
-      
-      // Otherwise Try to split extra into call description and supp info
-      else {
-        getCallInfoFields(extra, data);
-      }
-      
-      cleanCityName(data);
+    @Override
+    public boolean canFail() {
       return true;
     }
     
-    // Try to parse new format page
-    boolean good;
-    String saveBody = body;
-    match = MARKER1.matcher(body);
-    if (match.find()) {
-      good = true;
-      data.strDate = match.group(1);
-      data.strTime = match.group(2);
-      data.strCallId = match.group(3);
-      data.strName = match.group(4).trim();
-      
-      body = body.substring(0,match.start());
-      if (body.endsWith(" Uncertainty:  Confidence:")) {
-        body = body.substring(0,body.length()-26).trim();
-      }
-    } else {
-      good = subject.equals("From 911 Center") || subject.equals("From911Center");
+    public boolean checkParse(String field, Data data) {
+      if (!TRAIL_DIR_PTN.matcher(field).matches()) return false;
+      data.strAddress = append(data.strAddress, " ", field);
+      return true;
     }
-    
-    if (good) {
-      setFieldList("ADDR APT PLACE CITY X CALL INFO DATE TIME ID NAME");
-
-      // Sometimes blanks are missing between address and city name :(
-      body = MISSED_BLANK_PTN.matcher(body).replaceFirst("$1 $2");
-      
-      // Warning extreme ugliness ahead
-      // The occasionally include a place name between the address and
-      // the city, which would normally be handled by a pad field.  But
-      // they also routinely drop the street suffix.  Which really messes
-      // things up if we are searching for a pad field.
-      
-      // SO, we will do an initial parse address without the pad field
-      // then try to reparse the parsed address field to see if we
-      // can find a place name in it
-      parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, body, data);
-      if (data.strCity.length() == 0) {
-        data.parseGeneralAlert(this, saveBody);
-        return true;
-      }
-      body = getLeft();
-      
-      String address = data.strAddress;
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = append(data.strAddress, " ", field);
       data.strAddress = "";
-      parseAddress(StartType.START_ADDR, address, data);
-      data.strPlace = getLeft();
-      
-      // Next come cross street information, which might come in multiple parts
-      // separated by a comma
-      String cross = "";
-      while (true) {
-        int pt = body.indexOf(',');
-        if (pt < 0) break;
-        String tmp = body.substring(0,pt).trim();
-        if (!isValidAddress(tmp)) break;
-        cross = append(cross, ", ", tmp);
-        body = body.substring(pt+1).trim();
-      }
-      Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_NO_CITY, body);
-      if (res.isValid()) {
-        res.getData(data);
-        body = res.getLeft();
-      }
-      data.strCross = append(cross, ", ", data.strCross);
-      
-      // Get call description 
-      getCallInfoFields(body, data);
-      
-      // Clean up city name issues
-      cleanCityName(data);
-      
-      return true;
-    }
-    
-    return false;
-  }
-
-  /**
-   * Extract call and info fields from long call description
-   * @param field long call description field
-   * @param data parsed data information object
-   */
-  private void getCallInfoFields(String field, Data data) {
-    int pt;
-    pt = field.indexOf("  ");
-    if (pt >= 0 && pt <= 30) {
-      data.strCall = field.substring(0,pt);
-      data.strSupp = field.substring(pt+2).trim();
-    } else if (field.length() <= 30) {
-      data.strCall = field;
-    } else {
-      data.strSupp = field;
-    }
-    
-    data.strSupp = data.strSupp.replaceAll("   +", "  ");
-  }
-
-  /**
-   * Cleanup up city name issues
-   * @param data parsed data information object
-   */
-  private void cleanCityName(Data data) {
-    if (data.strCity.toUpperCase().endsWith(" ONONDAGA COUNTY")) {
-      data.strCity = data.strCity.substring(0,data.strCity.length()-16).trim();
+      super.parse(field, data);
+      data.strCity = convertCodes(data.strCity, MISTYPED_CITIES);
     }
   }
+  
+  private static final Pattern INFO_JUNK_PTN = Pattern.compile("E911 Info - .*|.* Uncertainity:|Confidence:.*");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (INFO_JUNK_PTN.matcher(field).matches()) return;
+      super.parse(field, data);
+    }
+  }
+  
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "ALARM - CO",
+      "ALARM - FIRE",
+      "ALARM - MEDICAL",
+      "ASSIST BY EMS",
+      "ASSIST BY FIRE",
+      "BLEEDING",
+      "CARDIAC",
+      "CHOKING",
+      "CITIZEN ASSIST - FIRE",
+      "DIFFICULTY BREATHING/SOB",
+      "DOA",
+      "FAINTING",
+      "GAS LEAK",
+      "GENERAL ILLNESS",
+      "HAZARD - FIRE",
+      "INJURY FROM A FALL",
+      "MEDICAL EMERGENCY",
+      "MVAPI",
+      "OUTSIDE FIRE",
+      "OVERDOSE",
+      "PAIN - GENERAL",
+      "PERSONAL INJURY",
+      "SEIZURES",
+      "SERVICE CALL",
+      "STROKE",
+      "STRUCTURE FIRE",
+      "SUICIDE",
+      "UNCONSCIOUS PERSON",
+      "VEHICLE FIRE"
+  );
   
   private static final String[] CITY_LIST = new String[]{
     "AUBURN",
@@ -223,6 +148,7 @@ public class NYCayugaCountyParser extends SmartAddressParser {
     "PORT BYRON",
     "MONTEZUMA",
     "MORAVIA", 
+    "MORAVIL",              // Typo
     "NILES", 
     "OWASCO",
     "SCIPIO",
@@ -243,5 +169,9 @@ public class NYCayugaCountyParser extends SmartAddressParser {
     
     "WAYNE COUNTY"
   };
+  
+  private static Properties MISTYPED_CITIES = buildCodeTable(new String[]{
+      "MORAVIL",      "MORAVIA"
+  });
 }
 	
