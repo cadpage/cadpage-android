@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA16Parser;
 
 /**
@@ -14,6 +15,12 @@ public class OHHockingCountyParser extends DispatchA16Parser {
   @Override
   public String getFilter() {
     return "hockingcounty911@gmail.com";
+  }
+
+  @Override
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("Imc Solutions Page")) return false;
+    return super.parseMsg(body, data);
   }
   
   @Override
@@ -62,7 +69,9 @@ public class OHHockingCountyParser extends DispatchA16Parser {
     "SOUTH PERRY",
     
     // Athens County
-    "NELSONVILLE"
+    "NELSONVILLE",
+    
+    "PERRY COUNTY"
   };
 }
   

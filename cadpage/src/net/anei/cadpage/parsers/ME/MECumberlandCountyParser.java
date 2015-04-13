@@ -22,9 +22,11 @@ public class MECumberlandCountyParser extends DispatchA16Parser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
+    if (!subject.equals("Imc Solutions Page")) return false;
+    
     // Superclass parser doesn't recognize full state name
     body = MAINE_PTN.matcher(body).replaceFirst(", ME");
-    return super.parseMsg(subject, body, data);
+    return super.parseMsg(body, data);
   }
   private static final Pattern MAINE_PTN = Pattern.compile(", *Maine$");
 
