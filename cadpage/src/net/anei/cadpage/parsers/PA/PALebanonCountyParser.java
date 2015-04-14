@@ -11,7 +11,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class PALebanonCountyParser extends SmartAddressParser {
   
-  private static final Pattern DATE_TIME_PREFIX_PTN = Pattern.compile("^(\\d{7}) +(\\d\\d:\\d\\d:\\d\\d) +(\\d\\d-\\d\\d-\\d\\d) +[-A-Z0-9]+ +ALPHA +\\d+ +");
+  private static final Pattern DATE_TIME_PREFIX_PTN = Pattern.compile("(\\d{7}) +(\\d\\d:\\d\\d:\\d\\d) +(\\d\\d-\\d\\d-\\d\\d) +[-A-Z0-9]+ +ALPHA +\\d+ +");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("([ A-Za-z0-9]+)@(\\d\\d:\\d\\d)");
+  private static final Pattern SRC_TIME_PFX_PTN = Pattern.compile("([ A-Za-z0-9]+)@(\\d\\d:\\d\\d) / +");
   private static final Pattern COUNTY_PREFIX_PTN = Pattern.compile("^(DAUPHIN|LANCASTER)(?: CO(?:UNTY)?)?[ /]", Pattern.CASE_INSENSITIVE);
   private static final Pattern[] CITY_PTNS = new Pattern[]{
     Pattern.compile("^(.* Township)[ =]", Pattern.CASE_INSENSITIVE),
@@ -39,17 +41,28 @@ public class PALebanonCountyParser extends SmartAddressParser {
   }
 
   @Override 
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
     
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
     
     // Remove date/time prefix
     Matcher match = DATE_TIME_PREFIX_PTN.matcher(body);
-    if (match.find()) {
+    if (match.lookingAt()) {
       data.strSource = match.group(1);
       data.strTime = match.group(2);
       data.strDate = match.group(3).replace('-', '/');
+      body = body.substring(match.end());
+    }
+    
+    else if ((match = SUBJECT_PTN.matcher(subject)).matches()) {
+      data.strSource = match.group(1).toUpperCase().replace(" ", "");
+      data.strTime = match.group(2);
+    }
+    
+    else if ((match = SRC_TIME_PFX_PTN.matcher(body)).lookingAt()) {
+      data.strSource = match.group(1).toUpperCase().replace(" ", "");
+      data.strTime = match.group(2);
       body = body.substring(match.end());
     }
     
