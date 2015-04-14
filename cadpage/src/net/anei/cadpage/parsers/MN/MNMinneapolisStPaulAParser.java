@@ -24,7 +24,7 @@ public class MNMinneapolisStPaulAParser extends DispatchPrintrakParser {
 
   @Override
   public String getFilter() {
-    return "logis-emergin-paging@logis.org";
+    return "@logis.org";
   }
   
   @Override
