@@ -204,17 +204,17 @@ public class DeveloperToolsManager {
         break;
         
       case 15:    // Situation specific status test
-        ManagePreferences.setPaidYear(2013);
-        ManagePreferences.setInstallDate(buildDate("10162013"));
-        ManagePreferences.setPurchaseDateString(null);
+        ManagePreferences.setPaidYear(2014);
+        ManagePreferences.setInstallDate(buildDate("04102105"));
+        ManagePreferences.setPurchaseDateString("05072014");
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setSponsor(null);
         ManagePreferences.setFreeSub(false);
         ManagePreferences.setAuthLocation(null);
         ManagePreferences.setAuthExemptDate(null);
         ManagePreferences.setAuthExemptDate(null);
-        ManagePreferences.setAuthRunDays(319);
-        ManagePreferences.setAuthLastCheckTime(1407860387389L);
+        ManagePreferences.setAuthRunDays(0);
+        ManagePreferences.setAuthLastCheckTime(1428710173450L);
         break;
         
       case 16:    // generate bug report

@@ -268,7 +268,10 @@ public class DonationManager {
         limbo = jReleaseDate.diffDays(jExpireDate) >= 0;
       }
     }
-    daysTillExpire = Math.max(daysTillDemoEnds, daysTillSubExpire);
+    daysTillExpire = daysTillSubExpire;
+    if (!paidSubReq && daysTillDemoEnds > daysTillExpire) {
+      daysTillExpire = daysTillDemoEnds;
+    }
     
     // OK, we have calculated all of the intermediate stuff.  Now use that to
     // determine the overall status
