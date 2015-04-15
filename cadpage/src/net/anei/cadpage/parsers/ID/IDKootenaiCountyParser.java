@@ -12,14 +12,12 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
   
   public IDKootenaiCountyParser() {
     super(CITY_CODES, "KOOTENAI COUNTY", "ID",
-          "SRC CALL ADDR UNIT+? CH! INFO+");
+          "SRC CALL ADDR UNIT! UNIT/S+? INFO/N+? CH INFO/N+");
   }
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (body.startsWith("KOOTENAI COUNTY SHERIFF ")) {
-      body = body.substring(24).trim();
-    }
+    body = stripFieldStart(body, "KOOTENAI COUNTY SHERIFF ");
     int pt = body.indexOf("\nSent by CLI");
     if (pt >= 0) body = body.substring(0,pt).trim();
     
@@ -29,8 +27,8 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new  MyAddressField();
-    if (name.equals("UNIT")) return new MyUnitField();
-    if (name.equals("CH")) return new ChannelField("|OPS.*");
+    if (name.equals("UNIT")) return new UnitField("(?!OPS)(?:[A-Z]|[A-Z]+\\d+[A-Z]*|[A-Z]*DOL[A-Z]*)");
+    if (name.equals("CH")) return new MyChannelField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
@@ -55,20 +53,38 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
     }
   }
   
-  private class MyUnitField extends UnitField {
+  private static final Pattern CH_PTN = Pattern.compile("OPS *(?:CHANNEL +)?([^ ]+) *(.*)", Pattern.CASE_INSENSITIVE);
+  private class MyChannelField extends ChannelField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = CH_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strChannel = "OPS" + match.group(1);
+      data.strSupp = append(data.strSupp, "\n", match.group(2));
+      return true;
+    }
+    
     @Override
     public void parse(String field, Data data) {
-      data.strUnit = append(data.strUnit, " ", field);
+      if (!checkParse(field, data)) abort();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CH INFO";
     }
   }
   
-  // INFO field skips anything starting with a date/time
-  private static Pattern DATE_TIME_PTN = Pattern.compile("^\\d\\d:\\d\\d:\\d\\d: \\d\\d/\\d\\d/\\d\\d\\d\\d\\b");
   private static Pattern GPS_PTN = Pattern.compile("CALLBACK=([-0-9\\(\\)]+) LAT=([-+]?\\d+\\.\\d{4,}) LON=([-+]?\\d+\\.\\d{4,}) UNC=\\d+");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (DATE_TIME_PTN.matcher(field).matches()) return;
       
       Matcher match = GPS_PTN.matcher(field);
       if (match.matches()) {
