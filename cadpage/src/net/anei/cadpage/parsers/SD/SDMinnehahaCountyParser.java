@@ -10,17 +10,21 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class SDMinnehahaCountyParser extends SmartAddressParser {
   
+
+  private static final String MAP_PTN_STR = "\\b(Baltic \\d{1,2}|Brandon[- ]\\d{1,2}|Colton City|Colton \\d{1,2}|Crooks \\d{1,2}|Dell Rapids \\d|Garretson \\d{1,2}|Lyons \\d{1,2}|Splitrock \\d{1,2}|Valley Springs \\d{1,2})\\b";
   private static final Pattern CAD_MSG_PTN = 
-    Pattern.compile("(?:((?:[A-Z]{2} +)+))?(?:(\\d{3}) +)?(?:((?:[A-Z]{2} +)+))?(?:(Quad \\d{3,4}) - ([A-Z]{2})|(\\d{4}-\\d{8}(?:, *\\d{4}-\\d{8})*)|(Baltic \\d{1,2}|Brandon[- ]\\d{1,2}|Colton City|Colton \\d{1,2}|Dell Rapids \\d|Garretson \\d{1,2}|Splitrock \\d{1,2}|Valley Springs \\d{1,2}))? *\\b(.+?)(?: (C\\d))?(?: (\\d{4}-\\d{8}))?");
+    Pattern.compile("(?:((?:[A-Z]{2} +)+))?(?:(\\d{3}) +)?(?:((?:[A-Z]{2} +)+))?(?:(Quad \\d{3,4}) - ([A-Z]{2})|(\\d{4}-\\d{8}(?:, *\\d{4}-\\d{8})*)|" + MAP_PTN_STR + ")? *\\b(.+?)(?: (C\\d))?(?: (\\d{4}-\\d{8}))?");
   private static final Pattern DISPATCH_MSG_PTN = 
       Pattern.compile("(.*?) +(\\d{4}-\\d{8})((?:  Dispatch received by unit ([^ ]+))+)");
   
+  private static final Pattern LEAD_MAP_PTN = Pattern.compile('^' + MAP_PTN_STR);
+  private static final Pattern TRAIL_MAP_PTN = Pattern.compile(MAP_PTN_STR + '$');
   private static final Pattern MM_PTN = Pattern.compile("( MM \\d+)([^\\d ])");
   private static final Pattern MM_PTN2 = Pattern.compile("^MM \\d+");
  
   public SDMinnehahaCountyParser() {
     super(CITY_CODES, "MINNEHAHA COUNTY", "SD");
-    setFieldList("SRC UNIT MAP ADDR APT PLACE CITY CALL CODE ID");
+    setFieldList("SRC UNIT MAP ADDR APT PLACE UNIT CITY CALL CODE ID");
   }
   
   @Override
@@ -80,7 +84,7 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
       if (data.strCity.length() == 0) {
         match = CITY_PTN.matcher(data.strCall);
         if (match.matches()) {
-          data.strPlace = match.group(1);
+          pad = match.group(1);
           String city = match.group(2);
           data.strCall = match.group(3);
           if (city.equals("DR")) {
@@ -91,6 +95,17 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
         }
       }
 
+      if (data.strMap.length() == 0) {
+        match = TRAIL_MAP_PTN.matcher(pad);
+        if (match.find()) {
+          data.strMap = match.group(1);
+          pad = pad.substring(0,match.start()).trim();
+        }
+        else if ((match = LEAD_MAP_PTN.matcher(data.strCall)).lookingAt()) {
+          data.strMap = match.group(1);
+          data.strCall = data.strCall.substring(match.end()).trim();
+        }
+      }
       if (pad.length() <= 4) {
         data.strApt = append(data.strApt, "-", pad);
       } else if (pad.startsWith("MM ")) {
@@ -125,6 +140,8 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
       "HU", "HUMBOLT",
       "LY", "LYONS",
       "RE", "RENNER",
+      "SF", "SIOUX FALLS",
+      "SH", "SHERMAN",
       "VS", "VALLEY SPRINGS",
       "SR", "SPLIT ROCK",
       "EM", ""
