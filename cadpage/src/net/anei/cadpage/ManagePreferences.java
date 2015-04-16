@@ -1061,12 +1061,12 @@ public class ManagePreferences {
    * @param sb StringBuilder object where message is constructed
    */
   public static void addConfigInfo(Context context, StringBuilder sb) {
-    sb.append(String.format("\n\n----------\nSysinfo - %s\nModel: %s\nStatus: %s%s\n\n",
+    sb.append(String.format("\n\n----------\nSysinfo: %s\nModel: %s\nStatus: %s%s\n\n",
         Build.FINGERPRINT, Build.MODEL, 
         DonationManager.instance().status().toString(),
         DonationManager.instance().isPaidSubscriber()?"/Paid":""));
     
-    sb.append("Preference Configuration:\n");
+    sb.append("Preference_Configuration:\n");
 
     // Array of preference keys to include in email
     final int[] pref_keys = {

@@ -1063,7 +1063,7 @@ public class SmsMmsMessage implements Serializable {
    * @param sb String builder holding message being constructed
    */
   public void addMessageInfo(Context context, StringBuilder sb) {
-    sb.append("\n\nMessage Contents\n");
+    sb.append("\n\nMessage_Contents:\n");
     
     sb.append("Time:");
     sb.append(DATE_TIME_FMT.format(timestamp));
@@ -1071,7 +1071,7 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\nFrom:");
     sb.append(fromAddress);
 
-    sb.append("\nEff From:");
+    sb.append("\nEff_From:");
     sb.append(getFromAddress());
     
     sb.append("\nType:");
@@ -1082,7 +1082,7 @@ public class SmsMmsMessage implements Serializable {
     
     sb.append("\nSubject:");
     sb.append(subject);
-    sb.append("\nEff Subject:");
+    sb.append("\nEff_Subject:");
     sb.append(getSubject());
     
     sb.append("\nBody:");
@@ -1094,7 +1094,7 @@ public class SmsMmsMessage implements Serializable {
       }
     }
     
-    sb.append("\nEff Body:");
+    sb.append("\nEff_Body:");
     sb.append(getMessageBody());
     
     sb.append("\nLocation:");
@@ -1105,13 +1105,13 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\nmmsMsgId:");
     sb.append(mmsMsgId);
     
-    sb.append("\nC2DM Loc:");
+    sb.append("\nC2DM_Loc:");
     sb.append(reqLocation);
     
     sb.append("\nVendorCode:");
     sb.append(vendorCode);
     if (missingParsers != null) {
-      sb.append("\nMissing Active911 Parsers:");
+      sb.append("\nMissing_Active911_Parsers:");
       sb.append(missingParsers);
     }
     
@@ -1127,9 +1127,9 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\ninfoURL:");
     sb.append(infoURL);
     
-    sb.append("\nCall ID:");
+    sb.append("\nCall_ID:");
     sb.append(callId);
-    sb.append("\nServer Time:");
+    sb.append("\nServer_Time:");
     sb.append(serverTime);
     
     if (getMsgCount() >= 0) {
@@ -1139,9 +1139,9 @@ public class SmsMmsMessage implements Serializable {
       sb.append(getMsgCount());
     }
     
-    sb.append("\nSend time:");
+    sb.append("\nSend_time:");
     sb.append(sentTime);
-    sb.append("\nRec time: ");
+    sb.append("\nRec_time: ");
     sb.append(timestamp);
     
     sb.append('\n');

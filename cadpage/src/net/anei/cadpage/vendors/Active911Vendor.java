@@ -54,6 +54,12 @@ class Active911Vendor extends Vendor {
   }
 
   @Override
+  protected Uri buildRequestUri(String req, String registrationId) {
+    if (req.equals("profile")) return getBaseURI().buildUpon().appendPath("node").appendPath("3#").build();
+    return super.buildRequestUri(req, registrationId);
+  }
+
+  @Override
   boolean isVendorAddress(String address) {
     if (address.startsWith("+")) address =address.substring(1);
     return PHONE_SET.contains(address);
