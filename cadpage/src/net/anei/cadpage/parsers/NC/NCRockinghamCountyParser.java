@@ -12,7 +12,7 @@ public class NCRockinghamCountyParser extends DispatchOSSIParser {
   
   public NCRockinghamCountyParser() {
     super(CITY_CODES, "ROCKINGHAM COUNTY", "NC",
-           "ID?: FYI? ( ADDR/Z CITY X/Z+? CALL UNIT | CALL ADDR APT? X/Z+? ( CITY ID? APT2? ( CODE UNIT? CH? | UNIT CH? | CH | PLACE CODE UNIT? CH? | PLACE UNIT CH? | PLACE CH | ) | ID CODE? UNIT? CH? | CODE UNIT? CH? | UNIT CH? | CH ) ) INFO+");
+          "ID?: FYI? ( ADDR/Z CITY X/Z+? CALL UNIT | CALL ADDR APT? X/Z+? ( CITY ID? APT2? ( CODE UNIT? CH? | UNIT CH? | CH | PLACE CODE UNIT? CH? | PLACE UNIT CH? | PLACE CH | ) | ID CODE? UNIT? CH? | CODE UNIT? CH? | UNIT CH? | CH ) ) INFO+");
   }
   
   @Override

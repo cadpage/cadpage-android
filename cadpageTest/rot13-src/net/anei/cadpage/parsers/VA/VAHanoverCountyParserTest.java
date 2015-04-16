@@ -18,6 +18,10 @@ Fhowrpg:(21777) n\aHavg:R12 HavgFgf: Vap#:2010-00000919 Vap:ZINAbVaw Ybp:36 F VA
 [(5243]  n ) Havg:R07 HavgFgf: Vap#:2012-00031927 Vap:IruPenfu Ybp:PBYQ UNEOBE EQ/ORYY PERRX ZncErs:E Znc 1594 3 IRU ZIN, HAXAJ VAWHEVRF Nqqgy:BAR BA EVTUG
 [(3875]  n ) Havg:R07 HavgFgf: Vap#:2012-00031920 Vap:BhgFznyy Ybp:ZRPUNAVPFIVYYR GC/PBYBAL ZncErs:E Znc 1592   VA GUR ZRQVNA FZBXVAT Nqqgy:
 
+Pbagnpg: oevnaculeg <oevnaculeg@zfa.pbz>
+Fraqre: r911@cf400.unabirein.bet
+SEZ:r911@cf400.unabirein.bet\aFHOW:(1652) n\aZFT:Havg:Z04 HavgFgf: Vap#:2015-00084610 Vap:Noqbzvany Ybp:305 F GNLYBE FG ZncErs:E Znc 82-4 Nqqgy:IBVC:
+
 Pbagnpg: fhccbeg@npgvir911.pbz
 Ntrapl anzr: Nfuynaq Ibyhagrre Sver Pbzcnal Ybpngvba: Nfuynaq, IN 
 Fraqre: r911@cf400.unabirein.bet
@@ -192,6 +196,23 @@ choyvp pynff INUnabirePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
             "ZNC:E Znc 1592",
             "VASB:VA GUR ZRQVNA FZBXVAT");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOelnaCuleg() {
+
+    qbGrfg("G1",
+        "SEZ:r911@cf400.unabirein.bet\a" +
+        "FHOW:(1652) n\a" +
+        "ZFT:Havg:Z04 HavgFgf: Vap#:2015-00084610 Vap:Noqbzvany Ybp:305 F GNLYBE FG ZncErs:E Znc 82-4 Nqqgy:IBVC:",
+
+        "VQ:2015-00084610",
+        "HAVG:Z04",
+        "PNYY:Noqbzvany",
+        "NQQE:305 F GNLYBE FG",
+        "VASB:IBVC:",
+        "ZNC:E Znc 82-4");
+
   }
   
   @Grfg

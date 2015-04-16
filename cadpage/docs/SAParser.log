@@ -1,3 +1,10 @@
+Version 15 04/16/2015
+
+Added logic to prevent a number followed by an XS: indicator from being
+interpreted as a street address
+
+Fixed some odd problems parsing naked street names
+
 Version 14 03/05/2015
 
 Added new FLAG_STRICT_SUFFIX flag

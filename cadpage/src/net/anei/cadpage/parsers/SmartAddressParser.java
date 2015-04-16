@@ -1367,7 +1367,7 @@ public abstract class SmartAddressParser extends MsgParser {
         if (isType(sAddr, ID_CROSS_STREET)) return false;
         
         // See if this token looks like a house number, and is not followed by an invalid address token or a connector 
-        if (isHouseNumber(sAddr) && !isType(sAddr+1, ID_NOT_ADDRESS | ID_NUMBER_SUFFIX) && findConnector(sAddr+1)<0) {
+        if (isHouseNumber(sAddr) && !isType(sAddr+1, ID_NOT_ADDRESS | ID_NUMBER_SUFFIX | ID_CROSS_STREET) && findConnector(sAddr+1)<0) {
           
           // And is not followed by another number, unless that number is followed by a numbered road suffix
           if (!isHouseNumber(sAddr+1) || isType(sAddr+2, ID_NUMBERED_ROAD_SFX)) {
@@ -1736,65 +1736,70 @@ public abstract class SmartAddressParser extends MsgParser {
             }
           }
         }
-        
-        ndx++;
-        sAddr = ndx - 1;
-        if (ndx >= tokens.length) break;
-        if (isType(ndx, ID_CROSS_STREET)) break;
-        if (atStart) {
-          start = sAddr = ndx;
-          ndx = findRoadEnd(sAddr, 0);
-          ndx--;
-          if (ndx >= 0) found = true;
-          break;
-        }
-        
-        if (isType(ndx, ID_ROAD_SFX) && !isType(sAddr, ID_NOT_ADDRESS|ID_NOT_STREET_NAME) && findConnector(sAddr)<0) {
-          boolean startHwy = checkNumberedHwy(ndx) || 
-                             ndx > start && findNumberedHwy(ndx-1) >= 0 ||
-                             (isType(ndx, ID_AMBIG_ROAD_SFX) && (isType(ndx+1, ID_ROAD_SFX)));
+
+        // The rest of the checks can only happen after we have passed at least
+        // one token
+        if (ndx > start) {
           
-          // If street suffix was ST, see if it might be the beginning of a street name
-          // Don't do this if we are looking for an implied intersection
-          if (!startHwy && !suppressSTLookahead && isType(ndx, ID_ST)) {
-            if (!isType(ndx+1, ID_DIRECTION)) {
-              int sEnd = findRoadEnd(ndx, 0, true);
-              if (sEnd > 0) {
-                found = true;
-                sAddr = ndx;
-                ndx = sEnd-1;
-                break;
+          sAddr = ndx - 1;
+          if (ndx >= tokens.length) break;
+          if (isType(ndx, ID_CROSS_STREET)) break;
+          if (atStart) {
+            start = sAddr = ndx;
+            ndx = findRoadEnd(sAddr, 0);
+            ndx--;
+            if (ndx >= 0) found = true;
+            break;
+          }
+          
+          if (isType(ndx, ID_ROAD_SFX) && !isType(sAddr, ID_NOT_ADDRESS|ID_NOT_STREET_NAME) && findConnector(sAddr)<0) {
+            boolean startHwy = checkNumberedHwy(ndx) || 
+                               ndx > start && findNumberedHwy(ndx-1) >= 0 ||
+                               (isType(ndx, ID_AMBIG_ROAD_SFX) && (isType(ndx+1, ID_ROAD_SFX)));
+            
+            // If street suffix was ST, see if it might be the beginning of a street name
+            // Don't do this if we are looking for an implied intersection
+            if (!startHwy && !suppressSTLookahead && isType(ndx, ID_ST)) {
+              if (!isType(ndx+1, ID_DIRECTION)) {
+                int sEnd = findRoadEnd(ndx, 0, true);
+                if (sEnd > 0) {
+                  found = true;
+                  sAddr = ndx;
+                  ndx = sEnd-1;
+                  break;
+                }
               }
             }
-          }
-
-          // OK, this is a legitimate street suffix
-          // Check the multiple word street list to find the start of the
-          // street name.  If not found, assume a one word street name.
-          if (!startHwy) {
-            found = true;
-            
-            // Assume one word street name, unless first word is an ambiguous suffix
-            // in which case we keep expanding the street name
-            while (sAddr > start && findConnector(sAddr-1)<0 && isAmbigRoadSuffix(sAddr)) {
-              sAddr--;
+  
+            // OK, this is a legitimate street suffix
+            // Check the multiple word street list to find the start of the
+            // street name.  If not found, assume a one word street name.
+            if (!startHwy) {
+              found = true;
+              
+              // Assume one word street name, unless first word is an ambiguous suffix
+              // in which case we keep expanding the street name
+              while (sAddr > start && findConnector(sAddr-1)<0 && isAmbigRoadSuffix(sAddr)) {
+                sAddr--;
+              }
+              break; 
             }
-            break; 
+          }
+          
+          int tmp = findRevNumberedHwy(start, ndx);
+          if (tmp >= 0) {
+            sAddr = tmp;
+            found = true;
+            break;
+          }
+          
+          if (isRoadToken(ndx)) {
+            sAddr = ndx;
+            found = true;
+            break;
           }
         }
-        
-        int tmp = findRevNumberedHwy(start, ndx);
-        if (tmp >= 0) {
-          sAddr = tmp;
-          found = true;
-          break;
-        }
-        
-        if (isRoadToken(ndx)) {
-          sAddr = ndx;
-          found = true;
-          break;
-        }
+        ndx++;
       }
       
       // When we break out of this loop, see if we found a real street name
