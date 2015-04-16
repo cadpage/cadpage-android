@@ -20,7 +20,7 @@ public class COLaPlataCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "hiplink@ci.durango.co.us ";
+    return "hiplink@ci.durango.co.us,durangogov.org";
   }
 
   @Override
