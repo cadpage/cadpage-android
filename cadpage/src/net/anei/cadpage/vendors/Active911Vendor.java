@@ -731,6 +731,7 @@ class Active911Vendor extends Vendor {
       "US/SD/MinnehahaCounty",            "SDMinnehahaCounty",
       "US/TN/BedfordCounty",              "TNBedfordCounty",
       "US/TN/CampbellCounty",             "TNCampbellCounty",
+      "US/TN/CarterCounty",               "TNCarterCounty",
       "US/TN/ClayCounty",                 "TNClayCounty",
       "US/TN/CumberlandCounty",           "TNCumberlandCounty",
       "US/TN/Overton",                    "TNOvertonCounty",

@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchGeoconxParser;
 public class TNCarterCountyParser extends DispatchGeoconxParser {
   
   public TNCarterCountyParser() {
-    super("CARTER COUNTY", "TN", GCX_FLG_NAME_PHONE);
+    super("CARTER COUNTY", "TN");
   }
   
   @Override
