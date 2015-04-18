@@ -5,10 +5,10 @@ import net.anei.cadpage.parsers.dispatch.DispatchA9Parser;
 /**
  *Bentonville, AR
  */
-public class ARBentonvilleParser extends DispatchA9Parser {
+public class ARBentonCountyCParser extends DispatchA9Parser {
   
-  public ARBentonvilleParser() {
-    super("BENTONVILLE", "AR");
+  public ARBentonCountyCParser() {
+    super("BENTON COUNTY", "AR");
   }
   
   @Override

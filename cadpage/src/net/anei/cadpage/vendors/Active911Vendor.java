@@ -179,6 +179,7 @@ class Active911Vendor extends Vendor {
       "US/AL/TalladegaCounty",            "ALTalladega",
       "US/AL/Tallapoosa911",              "StandardA",
       "US/AR/BentonCounty",               "ARBentonCountyA",
+      "US/AR/Bentonville",                "ARBentonCountyC",
       "US/AR/CityofRogers",               "ARBentonCountyB",
       "US/AR/LifeNetEms",                 "ARGarlandCounty",
       "US/AZ/NavajoCounty",               "AZNavajoCounty",

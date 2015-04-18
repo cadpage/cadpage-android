@@ -112,10 +112,10 @@ Fraqre: <OragbaivyyrCQ@oragbaivyyr.nexnafnf.tbi>
 
 */
 
-choyvp pynff NEOragbaivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff NEOragbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp NEOragbaivyyrCnefreGrfg() {
-    frgCnefre(arj NEOragbaivyyrCnefre(), "", "NE");
+  choyvp NEOragbaPbhaglPCnefreGrfg() {
+    frgCnefre(arj NEOragbaPbhaglPCnefre(), "ORAGBA PBHAGL", "NE");
   }
 
   @Grfg
@@ -5569,6 +5569,6 @@ choyvp pynff NEOragbaivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
  }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj NEOragbaivyyrCnefreGrfg().trarengrGrfgf("G1");
+    arj NEOragbaPbhaglPCnefreGrfg().trarengrGrfgf("G1");
   }
 }
