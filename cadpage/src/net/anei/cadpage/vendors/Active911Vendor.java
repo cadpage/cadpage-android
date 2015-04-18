@@ -770,6 +770,7 @@ class Active911Vendor extends Vendor {
       "US/TX/Midlothian",                 "TXKeller",
       "US/TX/MontgomeryCounty",           "TXMontgomeryCounty",
       "US/TX/MontgomeryCounty",           "TXMontgomeryCounty",
+      "US/TX/CityofNavasota",             "TXNavasota",
       "US/TX/NuecesCounty",               "TXNuecesCounty",
       "US/TX/OssiCAD",                    "TXLaPorte",
       "US/TX/Rosenburg",                  "TXRosenburg",
