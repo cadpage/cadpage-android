@@ -91,7 +91,7 @@ choyvp pynff PNFbynabPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:N911",
         "NQQE:RO V80 & TERRA INYYRL EQ BSS",
-        "ZNQQE:V 80 & TERRA INYYRL EQ &", //zncf j/b gung ynfg nzcrefnaq
+        "ZNQQE:V 80 & TERRA INYYRL EQ",
         "PVGL:Snvesvryq",
         "K:TERRA INYYRL EQ BSS",
         "PBQR:10 70I",
@@ -259,7 +259,7 @@ choyvp pynff PNFbynabPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:N911",
         "NQQE:FO V680 & TBYQ UVYY EQ BSS",
-        "ZNQQE:V 680 & TBYQ UVYY EQ &", //&&&&&&
+        "ZNQQE:V 680 & TBYQ UVYY EQ",
         "PVGL:Snvesvryq",
         "K:TBYQ UVYY EQ BSS",
         "PBQR:10 70I",
@@ -342,7 +342,7 @@ choyvp pynff PNFbynabPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpurq Pnyy (N911)) JO V80/FO V680 BA, Snvesvryq, PN *  * FO V680 BA *  * 10 70I * 648 * #01503300110 * IRU CBFF PNGPUVAT BA SVER",
         "HAVG:N911",
         "NQQE:JO V80 & FO V680 BA",
-        "ZNQQE:V 80 & V 680 BA", //abcr
+        "ZNQQE:V 80 & V 680",
         "PVGL:Snvesvryq",
         "K:FO V680 BA",
         "PBQR:10 70I",
@@ -394,7 +394,7 @@ choyvp pynff PNFbynabPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpurq Pnyy (N911)) JO V80/FHVFHA CXJL BSS, Snvesvryq, PN *  * FHVFHA CXJL BSS *  * 10 70 * 439 * #01503280021 * UBZRYRFF PNZC SVER - BA GUR FHVFHA INYYRL RKVG",
         "HAVG:N911",
         "NQQE:JO V80 & FHVFHA CXJL BSS",
-        "ZNQQE:V 80 & FHVFHA CXJL &",
+        "ZNQQE:V 80 & FHVFHA CXJL",
         "PVGL:Snvesvryq",
         "K:FHVFHA CXJL BSS",
         "PBQR:10 70",
@@ -566,7 +566,7 @@ choyvp pynff PNFbynabPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:N911",
         "NQQE:RO V80 & ERQ GBC EQ BSS",
-        "ZNQQE:V 80 & ERQ GBC EQ &",
+        "ZNQQE:V 80 & ERQ GBC EQ",
         "PVGL:Snvesvryq",
         "K:ERQ GBC EQ BSS",
         "PBQR:10 70I",
@@ -712,7 +712,7 @@ choyvp pynff PNFbynabPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:N911",
         "NQQE:RO V80 & A GRKNF FG BSS",
-        "ZNQQE:V 80 & A GRKNF FG &",
+        "ZNQQE:V 80 & A GRKNF FG",
         "PVGL:Snvesvryq",
         "K:A GRKNF FG BSS",
         "PBQR:10 70I",
@@ -785,7 +785,7 @@ choyvp pynff PNFbynabPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:N911",
         "NQQE:FO V680 & TBYQ UVYY EQ BSS",
-        "ZNQQE:V 680 & TBYQ UVYY EQ &",
+        "ZNQQE:V 680 & TBYQ UVYY EQ",
         "PVGL:Snvesvryq",
         "K:TBYQ UVYY EQ BSS",
         "PBQR:10 70",
@@ -876,7 +876,7 @@ choyvp pynff PNFbynabPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpurq Pnyy (N911)) JO V80/FHVFHA INYYRL EQ BSS, Snvesvryq, PN *  * FHVFHA CXJL BSS *  * 10 70 * 439 * #01503120049 * TEA BE TEL IRU CBFF SVER BE FGRNZ",
         "HAVG:N911",
         "NQQE:JO V80 & FHVFHA INYYRL EQ BSS",
-        "ZNQQE:V 80 & FHVFHA INYYRL EQ &",
+        "ZNQQE:V 80 & FHVFHA INYYRL EQ",
         "PVGL:Snvesvryq",
         "K:FHVFHA CXJL BSS",
         "PBQR:10 70",
@@ -888,7 +888,7 @@ choyvp pynff PNFbynabPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpurq Pnyy (N911)) JO V80/FHVFHA CXJL BSS, Snvesvryq, PN *  * FHVFHA CXJL BSS *  * 10 70 * 439 * #01503120049 * TEA BE TEL IRU CBFF SVER BE FGRNZ",
         "HAVG:N911",
         "NQQE:JO V80 & FHVFHA CXJL BSS",
-        "ZNQQE:V 80 & FHVFHA CXJL &",
+        "ZNQQE:V 80 & FHVFHA CXJL",
         "PVGL:Snvesvryq",
         "K:FHVFHA CXJL BSS",
         "PBQR:10 70",

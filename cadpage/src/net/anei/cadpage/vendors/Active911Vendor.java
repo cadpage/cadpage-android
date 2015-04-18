@@ -188,6 +188,7 @@ class Active911Vendor extends Vendor {
       "US/CA/Btucad",                     "CAButteCounty",
       "US/CA/CalaverasCounty",            "CACalaverasCounty",
       "US/CA/CDFandGrassValleyECC",       "CAPlacerCountyParser",
+      "US/CA/CityofFairfield",            "CASolanoCounty",
       "US/CA/CityofNapa",                 "CANapa",
       "US/CA/CityofPasoRobles",           "CAPasoRobles",
       "US/CA/CityofRocklin",              "CARocklin",

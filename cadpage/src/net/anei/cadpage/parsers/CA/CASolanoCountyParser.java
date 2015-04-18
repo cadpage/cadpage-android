@@ -16,4 +16,10 @@ public class CASolanoCountyParser extends DispatchA20Parser {
     return "irimssec@fairfield.ca.gov";
   }
   
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = stripFieldEnd(addr, " OFF");
+    addr = stripFieldEnd(addr, " ON");
+    return super.adjustMapAddress(addr);
+  }
 }
