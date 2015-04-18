@@ -170,6 +170,7 @@ class Active911Vendor extends Vendor {
       "US/AL/CoffeeCounty",               "ALCoffeeCounty",
       "US/AL/Colbert",                    "ALColbertCountyParser",
       "US/AL/Hoover",                     "ALHoover",
+      "US/AL/LeeCounty",                  "ALLeeCounty",
       "US/AL/MarshallCounty",             "ALMarshallCounty",
       "US/AL/MobileCounty",               "ALMobileCounty",
       "US/AL/MorganCounty",               "ALMorganCounty",
