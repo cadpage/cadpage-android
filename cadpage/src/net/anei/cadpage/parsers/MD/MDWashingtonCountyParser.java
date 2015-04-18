@@ -55,6 +55,8 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     
     // Split body into fields separated by  -
     if (!parseFields(DELIM.split(body), data)) return false;
+    
+    data.strCity = convertCodes(data.strCity, MISSPELLED_CITIES);
     String state = CITY_STATE_TABLE.getProperty(data.strCity.toUpperCase());
     if (state != null) data.strState = state;
     return true;
@@ -78,23 +80,44 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  private static final Pattern APT_PTN = Pattern.compile("(?:APT|ROOM|RM|SUITE|LOT)\\b *(.*)");
+  private static final Pattern BOX_PTN = Pattern.compile("(.*)\\bBOX +([^ ]+(?: [A-Z])?)");
   private class MyAddressField extends AddressField {
     
     @Override
     public void parse(String field, Data data) {
-      
+
+      // Strip trailing box
+      Matcher match = BOX_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        data.strBox = match.group(2);
+      }
+
       // First field contains option M/A county, address and optional place name
       Parser p = new Parser(field);
       String maCounty = p.getOptional(" CO, ");
       if (maCounty.length() > 0) maCounty = convertCodes(maCounty, COUNTY_CODES);
       super.parse(p.get(','), data);
-      data.strPlace = append(data.strPlace, " - ", p.get());
+      String place = p.get();
+      p = new Parser(place);
+      String city = p.getLast(',');
+      if (isCity(city)) {
+        data.strCity = city;
+        place = p.get();
+      }
+      match = APT_PTN.matcher(place);
+      if (match.matches()) {
+        data.strApt = append(data.strApt, "-", match.group(1));
+      } else {
+        data.strPlace = append(data.strPlace, " - ", place);
+      }
       if (data.strCity.length() == 0) data.strCity = maCounty;
     }
     
     @Override
     public String getFieldNames() {
-      return "ADDR PLACE CITY ST";
+      return "ADDR APT PLACE CITY BOX";
     }
   }
   
@@ -194,8 +217,18 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     }
   }
   
+  @Override
+  public String adjustMapCity(String city) {
+    if (city.equalsIgnoreCase("ROHRERSVILLE")) city = "";
+    return city;
+  }
+  
   private static final String[] CITY_LIST = new String[]{
+    
+    // City
     "HAGERSTOWN",
+
+    // Towns
     "BOONSBORO",
     "CLEAR SPRING",
     "FUNKSTOWN",
@@ -204,9 +237,71 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     "SHARPSBURG",
     "SMITHSBURG",
     "WILLIAMSPORT",
+
+    // Census-designated places
+    "CASCADE",
+    "CAVETOWN",
+    "CHEWSVILLE",
+    "FORT RITCHIE",
+    "FOUNTAINHEAD-ORCHARD HILLS",
+    "HALFWAY",
+    "HIGHFIELD",
+    "HIGHFIELD-CASCADE",
+    "LEITERSBURG",
+    "LONG MEADOW",
+    "LONGMEADOW",
+    "MAUGANSVILLE",
+    "MOUNT AETNA",
+    "MOUNT LENA",
+    "ORCARD HILLS",
+    "PARAMOUNT-LONG MEADOW",
+    "ROBINWOOD",
+    "ROHRERSVILLE",
+    "SAINT JAMES",
+    "SAN MAR",
+    "WILSON-CONOCOCHEAGUE",
+
+    // Unincorporated communities
+    "ANTIETAM",
+    "BEAVER CREEK",
+    "BENEVOLA",
+    "BIG POOL",
+    "BROADFORDING",
+    "BROWNSVILLE",
+    "BURTNER",
+    "CEARFOSS",
+    "CEDAR GROVE",
+    "DARGAN",
+    "DOWNSVILLE",
+    "EAKLES MILLS",
+    "FAIRPLAY",
+    "FAIRVIEW",
+    "GAPLAND",
+    "HUYETT",
+    "INDIAN SPRINGS",
+    "JUGTOWN",
+    "MAPLEVILLE",
+    "MERCERSVILLE",
+    "PECKTONVILLE",
+    "PEN MAR",
+    "PINESBURG",
+    "RINGGOLD",
+    "SAMPLES MANOR",
+    "SANDY HOOK",
+    "SPIELMAN",
+    "TREGO",
+    "VAN LEAR",
+    "WEVERTON",
+    "WOODMONT",
     
+    // Franklin County
     "GREENCASTLE",
-    "THURMONT"
+    "THURMONT",
+    "WASH TWP",
+    "WASHINGTON TWNSP",
+    
+    // Jefferson County
+    "SHEPHERDSTOWN"
   };
   
   private static final Properties COUNTY_CODES = buildCodeTable(new String[]{
@@ -220,16 +315,23 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
       "MOR", "MORGAN COUNTY"
   });
   
+  private static final Properties MISSPELLED_CITIES = buildCodeTable(new String[]{
+      "WASH TWP",         "WASHINGTON TWP",
+      "WASHINGTON TWNSP", "WASHINGTON TWP"
+  });
+  
   private static final Properties CITY_STATE_TABLE = buildCodeTable(new String[]{
       
       "GREENCASTLE",      "PA",
       "FRANKLIN COUNTY",  "PA",
       "FULTON COUNTY",    "PA",
+      "WASHINGTON TWP",   "PA",
       
       "LOUDOUN COUNTY",   "VA",
       
       "BERKELEY COUNTY",  "WV",
       "JEFFERSON COUNTY", "WV",
-      "MORGAN COUNTY",    "WV"
+      "MORGAN COUNTY",    "WV",
+      "SHEPHERDSTOWN",    "WV"
   });
 }
