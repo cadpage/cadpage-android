@@ -202,7 +202,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
       if (pt > 0) tmp = tmp.substring(pt);
       if (tmp.endsWith(" -")) tmp = tmp + ' ';
       tmp = HOUSE_DECIMAL_PTN.matcher(tmp).replaceFirst("$1");
-      return parseFields(tmp.split(" - "), 3, data);
+      return parseFields(tmp.split(" - "), data);
     }
     
     // There are usually 2 extraneous blanks.  The first one tends to fall in the

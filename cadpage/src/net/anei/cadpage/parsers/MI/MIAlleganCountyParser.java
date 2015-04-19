@@ -19,7 +19,7 @@ public class MIAlleganCountyParser extends DispatchA9Parser {
   
   @Override
   public String getFilter() {
-    return "centraldispatch@allegancounty.org";
+    return "@allegancounty.org";
   }
   
   @Override

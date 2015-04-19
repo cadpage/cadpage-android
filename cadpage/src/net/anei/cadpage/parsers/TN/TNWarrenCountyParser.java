@@ -31,22 +31,8 @@ public class TNWarrenCountyParser extends DispatchEmergitechParser {
     data.strUnit = match.group(1);
     body = body.substring(match.end());
     body = body.replace(" W INJURY", " W-INJURY");
-    int pt = body.indexOf(" NEAR ");
-    if (pt >= 0) body = body.substring(0,pt) + '&' + body.substring(pt+6);
-    
-    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_IGNORE_AT, body, data);
-    if (data.strAddress.length() == 0) {
-      data.strPlace = data.strCall;
-      data.strCall = "GENERAL ALERT";
-    } else {
-      setFieldList("CALL ADDR APT INFO");
-      data.strSupp = getLeft();
-    }
-    data.strCall = data.strCall.replace("W-INJURY", "W/INJURY");
-    data.strPlace = data.strPlace.replace("W-INJURY", "W/INJURY");
-    if (pt > 0) {
-      data.strAddress = data.strAddress.replace(" & ", " NEAR ");
-    }
+    data.strCall = "GENERAL ALERT";
+    data.strPlace = body;
     return true;
   }
 
@@ -74,7 +60,10 @@ public class TNWarrenCountyParser extends DispatchEmergitechParser {
     "ROCK ISLAND",
     "SMARTT",
     "VERVILLA",
-    "WAYSIDE"
+    "WAYSIDE",
+    
+    // DeKalb County
+    "SMITHVILLE"
 
   };
 }
