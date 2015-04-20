@@ -6,7 +6,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Puneyrf Pbhagl, ZQ
+Puneyrf Pbhagl, ZQ (P)
 
 Pbagnpg: Rqjneq Pnir <rkcybere77727@tznvy.pbz>
 Fraqre: fzf.qvfcngpu@ppzrqvphavg.bet

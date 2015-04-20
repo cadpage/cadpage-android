@@ -4,7 +4,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA16Parser;
 
 /**
- * Hocking County, OH
+ * Hollis, NH
  */
 public class NHHollisParser extends DispatchA16Parser {
 

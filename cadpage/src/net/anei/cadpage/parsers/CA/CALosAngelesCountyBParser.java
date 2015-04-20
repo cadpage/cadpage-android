@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Los Angeles County, CA
+ * Los Angeles County, CA (B)
  */
 public class CALosAngelesCountyBParser extends FieldProgramParser {
   

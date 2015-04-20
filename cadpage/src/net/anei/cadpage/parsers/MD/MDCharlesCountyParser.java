@@ -7,7 +7,8 @@ public class MDCharlesCountyParser extends GroupBestParser {
   
   public MDCharlesCountyParser() {
     super(new MDCharlesCountyAParser(),
-           new MDCharlesCountyBParser());
+           new MDCharlesCountyBParser(),
+           new MDCharlesCountyCParser());
   }
   
 }

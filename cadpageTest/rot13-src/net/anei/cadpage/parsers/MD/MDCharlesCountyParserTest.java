@@ -4,7 +4,7 @@ vzcbeg bet.whavg.rkcrevzragny.ehaaref.Rapybfrq;
 vzcbeg bet.whavg.ehaare.EhaJvgu;
 
 /*    
-Prpvy Pbhagl, ZQ
+Puneyrf Pbhagl, ZQ
 
 */
 
@@ -20,6 +20,12 @@ choyvp pynff ZQPuneyrfPbhaglCnefreGrfg {
   
   choyvp fgngvp pynff GrfgO rkgraqf ZQPuneyrfPbhaglOCnefreGrfg {
     choyvp GrfgO() {
+      frgCnefre(arj ZQPuneyrfPbhaglCnefre());
+    }
+  }
+  
+  choyvp fgngvp pynff GrfgP rkgraqf ZQPuneyrfPbhaglPCnefreGrfg {
+    choyvp GrfgP() {
       frgCnefre(arj ZQPuneyrfPbhaglCnefre());
     }
   }

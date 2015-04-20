@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Lauderdale County, AL
+ * Lauderdale County, AL (B)
  */
 public class ALLauderdaleCountyBParser extends FieldProgramParser {
   
