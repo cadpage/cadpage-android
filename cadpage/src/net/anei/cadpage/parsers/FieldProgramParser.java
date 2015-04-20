@@ -1501,8 +1501,16 @@ public class FieldProgramParser extends SmartAddressParser {
             boolean skipReq = false;
             procStep = startStep;
             while (procStep != null && !procStep.matchTag(curTag, curFld)) {
-              if (procStep.required == EReqStatus.REQUIRED) skipReq = true;;
-              procStep = procStep.getNextStep();
+              
+              // Follow the failure branch if this is a tagged step with a 
+              // failure branch.  Otherwise check required status and follow
+              // the normal step sequence
+              if (procStep.tag != null && procStep.failLink != null) {
+                procStep = procStep.failLink.step;
+              } else {
+                if (procStep.required == EReqStatus.REQUIRED) skipReq = true;;
+                procStep = procStep.getNextStep();
+              }
             }
             
             // Did we find one

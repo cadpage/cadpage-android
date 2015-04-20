@@ -515,6 +515,11 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:200 CVAR FG",
         "VQ:888",
         "PNYY:NYREG");
+    
+    qbSvryqGrfg("G10", "PNYY:PNYY! CYNPR:CYNPR? ( NQQE:NQQE CEV:CEV! HAVG:HAVG! | CEV:CEV? HAVG:HAVG? )",
+        "PNYY:ONQ FGHSS;HAVG:K1",
+        "PNYY:ONQ FGHSS",
+        "HAVG:K1");
   }
   
   @Grfg
