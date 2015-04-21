@@ -20,7 +20,7 @@ public class NYOnondagaCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "sta2adi@mcfd.org";
+    return "adi@mcfd.org";
   }
   
   @Override
