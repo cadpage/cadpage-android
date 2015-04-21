@@ -1,7 +1,7 @@
 Version 16 04/20/2015
 
 Fixed logic checking for a tagged field match to follow the failure branch
-of a tagged step if there is one.
+when the branch decision depends on a tag match.
 
 Version 15 04/16/2015
 

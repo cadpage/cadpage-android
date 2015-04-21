@@ -1,10 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04122015</string>
-  <string name="release_version">v1.8.27</string>
+  <string name="release_date">04202015</string>
+  <string name="release_version">v1.8.28</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.28\n
+New Locations:\n
+Lee County, AL\n
+Los Angeles County, CA (alt)\n
+Solano County, CA\n
+Cook County, IL (alt)\n
+Charles County, MD (alt)\n
+Washtenaw County, MI\n
+Macon County, MO\n
+Hollis, NH\n
+Marion County, SC\n
+Carter County, TN\n
+Navasota, TX\n
+Wharton, TX\n
+\n
+Location Fixes:\n
+La Plata County, CO\n
+Kent County, DE\n
+Kootenai County, ID\n
+Kosciusko County, IN\n
+St Charles County, LA\n
+Washington County, MD\n
+Minneapolis-St Paul, MN\n
+Morris County, NJ\n
+Cayuga County, NY\n
+Lebanon County, PA\n
+Richland County, SC\n
+Minnehaha County, SD\n
+Warren County, TN\n
+Denton County, TX\n
+\n
+General Fixes:\n
+Cadpage was not always warning users of pending subscripton expiration when
+Cadage Paging Service was active.\n
+Fixed Active911 User Profile feature.\n
+\n
 v1.8.27\n
 New Locations:\n
 Lauderdale County, MS\n
@@ -73,17 +109,7 @@ Cass County, ND\n
 Hocking County, OH\n
 Minnehaha County, SD\n
 Alexandria, VA\n
-Mid Island Region, BC, Canada\n
-\n
-v1.8.23\n
-New menu option to mark all calls as read\n
-Now requires user confirmation before deleting all call history\n
-\n
-Loation Fixes:\n
-Dougherty COunty, GA\n
-Howard County, MD\n
-St Charles County, MO\n
-Suffolk County, NY
+Mid Island Region, BC, Canada
   </string>
 </resources>
   
