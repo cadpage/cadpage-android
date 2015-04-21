@@ -164,12 +164,14 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
       "DC",   "DENTON COUNTY",
       "DENT", "DENTON",
       "DOUB", "DOUBLE OAK",
+      "FRIS", "FRISCO",
       "HICK", "HICKORY CREEK",
       "LAKE", "LAKE DALLAS",
       "LITT", "LITTLE ELM",
       "NORT", "NORTH LAKE",
       "PILO", "PILOT POINT",
-      "SANG", "SANGER"
+      "SANG", "SANGER",
+      "TROP", "TROPHY CLUB"
   });
 
   private static final String[] CITY_LIST = new String[]{
@@ -182,6 +184,7 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
       "COPPER CANYON",
       "CORINTH",
       "CORRAL CITY",
+      "CROSSROADS",
       "CROSS ROADS",
       "DALLAS",
       "DENTON",
