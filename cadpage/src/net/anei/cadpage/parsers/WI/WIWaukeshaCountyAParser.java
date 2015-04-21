@@ -90,7 +90,7 @@ public class WIWaukeshaCountyAParser extends FieldProgramParser {
   
   @Override
   public String adjustMapAddress(String addr) {
-    addr = NW_ADDR_PTN.matcher(addr).replaceFirst("$1$2");
+    addr = NW_ADDR_PTN.matcher(addr).replaceFirst("$2");
     return addr;
   }
   private static final Pattern NW_ADDR_PTN = Pattern.compile("([NESW]\\d+[NESW]) +(.*)");
