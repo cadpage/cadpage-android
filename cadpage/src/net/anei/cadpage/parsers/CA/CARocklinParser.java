@@ -24,13 +24,17 @@ public class CARocklinParser extends DispatchA20Parser {
   }
 
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
+      "BOMB",     "BOMB THREAT",
       "CALARM",   "COMMERCIAL FIRE ALARM",
       "CGAS",     "COMMERCIAL GAS LEAK",
+      "CO",       "CARBON MONIXIDE ALARM",
       "CSTRUC",   "COMMERCIAL STRUCT FIRE",
+      "CSTRUH",   "COMMERCIAL STRUCTURE FIRE - HIGH",
+      "CSTRUL",   "COMMERCIAL STRUCTURE FIRE – LOW",
       "FINV",     "FINV",
+      "FLOOD",    "FLOODING INCIDENT",
+      "FTEST",    "FIRE TEST INCIDENT",
       "FTRASH",   "TRASH FIRE",
-      
-      
       "FVEH",     "VEHICLE FIRE",
       "FVSUMM",   "VEG FIRE SUMMER",
       "FVWIN",    "VEG FIRE WINTER",
@@ -43,14 +47,19 @@ public class CARocklinParser extends DispatchA20Parser {
       "MUTAID",   "MUTUAL AID REQ",
       "PAST",     "PUBLIC ASSIST",
       "PLANE",    "PLANE CRASH",
-      "POLICE",   "LAW ASSIST",
+      "POLICE",   "POLICE ASSIST",
       "RALARM",   "RESIDENTIAL FIRE ALARM",
+      "RESCUE",   "TECHNICIAL RESCUE",
       "RGAS",     "RESIDENTIAL GAS LEAK",
       "RSTRUCT",  "RESIDENTIAL STRUCT FIRE",
+      "RSTRUH",   "RESIDENTIAL STRUCTURE FIRE - HIGH",
+      "RSTRUL",   "RESIDENTIAL STRUCTURE FIRE - LOW",
       "RWATER",   "WATER RESCUE",
       "STRIKE",   "STRIKE TEAM REQ",
       "TRAIN",    "TRAIN WRECK",
       "VAF",      "VEHICLE ACC (HIGH)",
-      "VAL",      "VEHICLE ACC (LOW)"
+      "VAH",      "VEHICLE ACCIDENT - HIGH",
+      "VAL",      "VEHICLE ACC (LOW)",
+      "VEGHI",    "VEGETATION FIRE - HIGH"
   });
 }
