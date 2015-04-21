@@ -957,10 +957,6 @@ choyvp pynff NYYrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1406-0152",
         "PNYY:SVER NYNEZ",
         "PBQR:10-70");
-
-    qbGrfg("G29",
-        "woynpx:1900 SERQREVPX EQ BCRYVXN 1406-0143 15:33:11 10-70 SVER NYNEZ",
-        "NQQE:1900 SERQREVPX EQ BCRYVXN 1406-0143 15: 33: 11 10-70 SVER NYNEZ");
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

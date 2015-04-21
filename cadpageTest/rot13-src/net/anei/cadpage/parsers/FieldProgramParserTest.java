@@ -21,6 +21,11 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
+    
+    qbSvryqGrfg("G10", "PNYY:PNYY! CYNPR:CYNPR? ( NQQE:NQQE CEV:CEV! HAVG:HAVG! | CEV:CEV? HAVG:HAVG? )",
+        "PNYY:ONQ FGHSS;HAVG:K1",
+        "PNYY:ONQ FGHSS",
+        "HAVG:K1");
   }
   
   @Grfg

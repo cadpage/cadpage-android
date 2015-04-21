@@ -342,7 +342,7 @@ public class FieldProgramParser extends SmartAddressParser {
     // Construct a head link and tail node and compile the tokens between them
     this.startLink = new StepLink(0);
     Step tail = new Step();
-    compile(this.startLink, program, tail, null);
+    compile(this.startLink, program, tail, null, false);
     
     // Make a cleanup pass through all of the defined steps
     // removing any skip steps and
@@ -408,8 +408,9 @@ public class FieldProgramParser extends SmartAddressParser {
    * @param failStep If not null, the step that should be jumped to if
    * a data stream cannot be matched to the program.  If null, no attempt 
    * will be made to validate the data stream.
+   * @param nextFail true if fail step should be used as the next step link
    */
-  private void compile(StepLink headLink, String program, Step tail, Step failStep) {
+  private void compile(StepLink headLink, String program, Step tail, Step failStep, boolean nextFail) {
     
     // Empty string is a special, easily handled, case
     if (program.length() == 0) {
@@ -503,6 +504,11 @@ public class FieldProgramParser extends SmartAddressParser {
             
             // Failure link jumps to failure step, reversing the index adjustment
             step.getFailLink().setLink(failStep, -delta, branchStep);
+            
+            // And the forward tag search path should jump to the failure step
+            // except for the last branch of a conditional step which uses the
+            // normal next step link
+            if (nextFail) step.setNextStep(failStep);
             
             // Success link can go two different ways
             // if the decision step is the first step, success links to the next step
@@ -726,12 +732,15 @@ public class FieldProgramParser extends SmartAddressParser {
       // We need a temporary skip step with no data increment to link 
       // each conditional branch chains to the next.  Except for the
       // last one which will be given the original failure link
-      Step linkStep = (++cnt == branchTerms.length ? brFailStep : new Step());
+      // The branch exist step will also use this skip step as the next step
+      // link, except for the last branch which uses the normal null next step
+      boolean lastStep = (++cnt == branchTerms.length);
+      Step linkStep = lastStep ? brFailStep : new Step();
       
       // Each branch will be compiled using the branch head step as the
       // start step, the branch tail step as the tail step, and the new
       // link step as the branch failure step
-      compile(branchHead.getSuccLink(), branchTerm, branchTail, linkStep);
+      compile(branchHead.getSuccLink(), branchTerm, branchTail, linkStep, !lastStep);
       branchHead = linkStep;
     }
     
@@ -1501,16 +1510,16 @@ public class FieldProgramParser extends SmartAddressParser {
             boolean skipReq = false;
             procStep = startStep;
             while (procStep != null && !procStep.matchTag(curTag, curFld)) {
-              
-              // Follow the failure branch if this is a tagged step with a 
-              // failure branch.  Otherwise check required status and follow
-              // the normal step sequence
-              if (procStep.tag != null && procStep.failLink != null) {
-                procStep = procStep.failLink.step;
-              } else {
-                if (procStep.required == EReqStatus.REQUIRED) skipReq = true;;
-                procStep = procStep.getNextStep();
+              if (procStep.required == EReqStatus.REQUIRED) {
+                
+                // Skipping over a required field is OK only if a tagged
+                // decision node of a conditional branch that is not
+                // the last branch
+                if (procStep.tag == null || procStep.nextStepLink == null) {
+                  skipReq = true;;
+                }
               }
+              procStep = procStep.getNextStep();
             }
             
             // Did we find one
