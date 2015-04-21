@@ -2015,7 +2015,15 @@ public class FieldProgramParser extends SmartAddressParser {
      * @return true if we are processing the last field
      */
     protected boolean isLastField() {
-      return index == fieldList.length - 1;
+      return isLastField(+1);
+    }
+    
+    /**
+     * @param ndx 
+     * @return true if we are ndx fields from the end of the message
+     */
+    protected boolean isLastField(int ndx) {
+      return index + ndx == fieldList.length;
     }
     
     /**
