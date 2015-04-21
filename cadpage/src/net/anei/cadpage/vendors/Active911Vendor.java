@@ -309,6 +309,7 @@ class Active911Vendor extends Vendor {
       "US/IN/JasperCounty",               "INJasperCounty",
       "US/IN/JeffersonCounty",            "INJeffersonCounty",
       "US/IN/KnoxCounty",                 "INKnoxCounty",
+      "US/IN/KosciuskoCounty",            "INKosciuskoCounty",
       "US/IN/LakeCounty",                 "INLakeCounty",
       "US/IN/MadisonCounty",              "INMadisonCounty",
       "US/IN/PorterCounty",               "INPorterCounty",

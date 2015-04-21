@@ -14,7 +14,7 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
   
   public INKosciuskoCountyParser() {
     super(CITY_CODES, "KOSCIUSKO COUNTY", "IN",
-           "( CANCEL | FYI CALL ) ADDR! ( END | APTPLACE? CITY/Y END )");
+           "( CANCEL | FYI CALL ) COUNTY? ( CITY ADDR | ADDR! ( END | APTPLACE? CITY/Y END ) )");
   }
   
   @Override
@@ -52,8 +52,32 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CANCEL")) return new CallField("CANCEL", true);
+    if (name.equals("COUNTY")) return new MyCountyField();
     if (name.equals("APTPLACE")) return new MyAptPlaceField();
     return super.getField(name);
+  }
+  
+  private static final Pattern COUNTY_PTN = Pattern.compile("1 ([A-Z ]+) CO\\b *(.*)");
+  private class MyCountyField extends CityField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = COUNTY_PTN.matcher(field);
+      if (!match.matches()) return false;
+      String city = match.group(2).trim();
+      if (city.length() == 0) city = match.group(1).trim() + " COUNTY";
+      data.strCity = city;
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
   }
   
   private static final Pattern APT_MARK_PTN = Pattern.compile("\\(S\\) \\(N\\)|\\([NS]\\)");
@@ -73,6 +97,13 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
       return "APT PLACE";
     }
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = EXT_PTN.matcher(addr).replaceAll("EXD");
+    return super.adjustMapAddress(addr);
+  }
+  private static final Pattern EXT_PTN = Pattern.compile("(?<=CENTER ST )EXT\\b");
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "952",  "MARION",
@@ -93,6 +124,7 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
       "MENT", "MENTONE",
       "MILF", "MILFORD",
       "NAPP", "NAPPANEE",
+      "N",    "NORTH WEBSTER",
       "NW",   "NORTH WEBSTER",
       "PIE",  "PIERCETON",
       "PIER", "PIERCETON",
@@ -103,10 +135,11 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
       "SL",   "SILVER LAKE",
       "SWHT", "SOUTH WHITLEY",
       "SYR",  "SYRACUSE",
+      "SYRA", "SYRACUSE",
       "TIPP", "TIPPECANOE",
+      "W",    "WARSAW",
       "WA",   "WARSAW",
       "WAR",  "WARSAW",
       "WL",   "WINONA LAKE"
-      
   });
 }
