@@ -1305,11 +1305,6 @@ Phlnubtn Pbhagl, BU (O) (BUPhlnubtnPbhaglOCnefre)
 (Qvfcngpu Nyreg: PQ-14-000817) PQ-14-000817\aS11 SVER VA OHVYQVAT\a4521  SEHVGYNAQ QE\a\aCNEZN BU \aNtrapvrf nffvtarq:
 (Qvfcngpu Nyreg: PQ-14-000815) PQ-14-000815\aS32 ZRQVPNY RZRETRAPL\a7231  YNAPRYBG QE\a\aCNEZN BU \aNtrapvrf nffvtarq:
 *******************************************************************************
-Snvesvryq, BU (BUSnvesvryqCnefre)
-(Qvfcngpu Nyreg: CQ-14-050249) CQ-14-050249\aZRQVP ZRQVP\a4730  QVKVR UJ\a\aSNVESVRYQ BU 45014\aNtrapvrf nffvtarq: \a67 S CNFFRQ BHG
-(Qvfcngpu Nyreg: CQ-14-050239) CQ-14-050239\aZRQVP ZRQVP\a116  UVTU EVQTR PG\aJBBQFVQR QE\aSNVESVRYQ BU 45014\aNtrapvrf nffvtarq: \a67 Z FGNCYRF VA URNQ/OYRRQVAT SRRYVAT VYY
-(Qvfcngpu Nyreg: CQ-14-050237) CQ-14-050237\aZRQVP ZRQVP\a4  OEHFUONPX PG\aNAANAQNYR QE\aSNVESVRYQ BU 45014\aNtrapvrf nffvtarq: \aRYQREYL S PBASHFRQ
-*******************************************************************************
 *******************************************************************************
 * QvfcngpuN45Cnefre fhopynffrf
 *******************************************************************************
@@ -5501,6 +5496,11 @@ Phlnubtn Pbhagl, BU (P) (BUPhlnubtnPbhaglPCnefre)
 Ratyrjbbq, BU (BURatyrjbbqCnefre)
 PNQ@ratyrjbbq.bu.hf\aFHOW:<Ab Fhowrpg>\aZFT:\a622 RR98 RZ98 BC72:12:31:00-53O:R53:2 IRU NPP HAX VAW:@9200 A ZNVA FG,QNLGBA:SQP FBHGU JNYY\a\aPNQ@ratyrjbbq.bu.hf\aFHOW:<Ab Fhowrpg>\aZFT:\a630 632 RZ98:16:10:00-45:R45:ZRQVP/FHVPVQNY FHOWRPG:@9000 A ZNVA FG HAVG 300,QNLGBA: 
 PNQ@ratyrjbbq.bu.hf\aFHOW:<Ab Fhowrpg>\aZFT:\a622 RR98 RZ98 BC72:12:31:00-53O:R53:2 IRU NPP HAX VAW:@9200 A ZNVA FG,QNLGBA:SQP FBHGU JNYY 
+*******************************************************************************
+Snvesvryq, BU (BUSnvesvryqCnefre)
+FDHNQ EHA (S), 2500 YNAPNFGRE-GUBEAIVYYR EQ AR, CYRNFNAG GJC, BU  43130, ONEEL QE AR//CYRNFNAG JNL AR, SRZNYR SRRYVAT QVMML NAQ QBHOYR IVFVBA, UNQ FGREVBQ VAWRPGVBAF NEBHAQ 1300 UEF, 83 LBS,
+FDHNQ EHA (S), 114 NPNQRZL FG # 212, CYRNFNAGIVYYR, BU  43148, F ZNVA FG//YVAPBYA NIR, ERS # 707-184-030, ZRQVPNY NYREG NYNEZ ,,
+NHGB NPPVQRAG VAWHEL (S), 720 ENVAOBJ QE AJ, TERRASVRYQ GJC, BU  43130, YNAPNFGRE-XVEXREFIVYYR EQ AJ//ENVAOBJ QE AR, J/B GUVF F39-- ORGJRRA GUR PNYYREF F43 NAQ FE-158 -- HAXABJA UBJ ZNAL IRUF -- HAXABJA VAWHEVRF,
 ***************************************************************************
 Trnhtn pbhagl, BU (BUTrnhtnPbhaglNCnefre)
 TRNHTN PBHAGL FUREVSS (Grkg Zrffntr) ERFPHR VF ARRQRQ NG - 11 ybvf ya ryqreyl srznyr ibzvgvat naq fvpx GKG FGBC gb bcg-bhg
