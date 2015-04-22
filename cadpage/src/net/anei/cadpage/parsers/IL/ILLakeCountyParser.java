@@ -26,5 +26,7 @@ public class ILLakeCountyParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "DP",  "DEER PARK",
+      "LB",  "LAKE BARRINGTON"
   });
 }
