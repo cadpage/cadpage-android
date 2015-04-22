@@ -4352,9 +4352,9 @@ Uneqva Pbhagl, XL (XLUneqvaPbhaglCnefre)
 (Vapvqrag: 2013026796) \aAngher: SVER BGURE\aNqqerff: 6107 F JVYFBA EQ\aPebff: FGNQVHZ QE & OYNPX ENIRAF PG\aGvzrbhg: Zba Znl 06 02:14:00 HGP 2013\aVasb: [05/06/13 02:13:43 FRLZBHEF]\aUNIR NA VFFHR JVGU SHEANPR, FZRYY BS TNF VA GUR ERFVQRAPR\aPNYYRE NQI GUNG URE FHO CHZC UNF DHVG JBEXVAT NAQ GUNG ZNL\aQVFG: 364.89 SG
 ***************************************************************************
 Xragba Pbhagl, XL (XLXragbaPbhaglCnefre)
-Fhowrpg:Sebz XPRPP\aAba-Erfcbafvir   1188 SNE UVYYF QE 22 / 2013-00006025 Cnex Uvyyf  hapbapvbhf hax vs oernguvat  znyr sbhaq va gur o
-Fhowrpg:Sebz XPRPP\aChzc Onfrzrag   809 NEYVATGBA EQ / 2013-00000515 Cnex Uvyyf  ONFRZRAG SYBBQVAT  NOREQRRA EQ / QVKVR UJ
-Fhowrpg:Sebz XPRPP\aSver - Fgehpgher Sver    1072 YNJGBA EQ / 2013-00000102 Cnex Uvyyf  va gur onfrzrag  UVYYPERFG YA / NHQHOBA EQ
+(Sebz XPRPP) Snyy ; ERTRAPL ZNABE XPCQ ; 11725 ; ; ; ZNQVFBA ; CVXR ; ; Xragba Pbhagl ; ; 2015-00000802 ;  SRZNYR SRYY VA EBBZ 2 CBFF ONPX VAWHEL  ; ; ; ; ; ; Ab Pebff Fgerrgf Sbhaq ; 464
+(Sebz XPRPP) Vyy/Aba-Fcrpvsvp ; ; 11417 ; ; ; FGNSSBEQFOHET ; EQ ; ; Xragba Pbhagl ; ; 2015-00000801 ;  79S VYYIBZVGVAT JRNX ARRQF GENAFCBEG GB UBFC  ; ; ; ; ; ; ZNIREVPX EQ / IVFNYVN EQ ; 464 452
+(Sebz XPRPP) Nynez-Pneoba Zbabkvqr Qrgrpgbe ; ; 6338 ; ; ; FGBARZVYY ; QE ; ; Vaqrcraqrapr ; ; 2015-00000800 ;  erf ahzore 8593566338  yrvgu erf  ; ; ; ; ; ; TVAZVYY PG / FGNOYRJNGPU QE ; 452
 ***************************************************************************
 Ybhvfivyyr, XL (XLYbhvfivyyrCnefre)
 (VCF V/Cntr Abgvsvpngvba) Ybpngvba: F 4GU FG/J BNX FG YIVY GLCR PBQR: 12Q02 FHO GLCR: qrsnhyg GVZR: 13:37:05 Pbzzragf:  FRVMHER CebDN qvfcngpu pbqr: 12Q02 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jub unf unq n frvmher. Gur cngvrag vf n 49-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. PBAGVAHBHF be ZHYGVCYR frvmherf. PBAGVAHBHF be ZHYGVCYR frvmherf. 49-50 LBS TEA FUVEG, OYX WNPXRG, GNA CNAGF, NG OHF FGBC WHFG PBZVAT BHG BS FRVMHER, ABG NYREG 2081-1/PURFGAHG 
@@ -9465,22 +9465,6 @@ Nynez Qrfp: ABGVSL SVER PUVRS\aNqqerff: 2208 ZNYYNEQ YN\aZhavpvcnyvgl: HCHJPU\aV
 Nynez Qrfp: NCNEGZRAG OHVYQVAT SVER *\aNqqerff: 351 ZRNQBJYNXR QE\aZhavpvcnyvgl: PNYA\aYbpngvba Vasb: VA X OYQT\aVapvqrag #: #GUES14001\aVavgvny Cevbevgl: R\aNynez Qngr: 09/09/2014\aNynez Gvzr: 15:36\aZnc: 30N3\aPebff Fgerrgf: T B PNEYFBA OY & QRNQ RAQ\aRAGEL Pbzzragf: URNIL FZBXR VA NCG BS OYQT X\aQrirybczrag: GUR CERFREIR NG ZVYYGBJA\aVavgvny Yriry: 1\aCevznel Havg: RAT38\aSver Obk: 3845\aYngvghqr: 40.00047\aYbatvghqr: -75.74460\aPnyyre Cubar: U610-269-8500\aVavgvny Glcr: NCG
 **********************************************************
 **********************************************************
-2014092510000071 (Cngevpx)
-Tenlf Uneobe Pbhagl, JN
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Pvgl bs Bprna Fuberf SQ
-Ybpngvba: Bprna Fuberf, JN, Havgrq Fgngrf
-Fraqre: abercyl@tu911.bet
-
-(74NPZ - ZRQEFC - 583 OYHR JVAT YC FR ,BPF  )  VAFHYVA ERNPGVBA, VF P/O 74 LBZ \aKfg:  QHPX YNXR QE FR & YNXR VFYNAQ NI F\a#BS00554 1017
-(74NPZ - ZRQEFC - 312 ABEGU ENMBE PYNZ QE FJ ,BPF  )  RLRF EBYYVAT ONPX VA URNQ, FYHZCRQ BIRE, VF OERN, FUNXVAT 40 LBS \aKfg:  UBEFR PYNZ FG FJ & TRBQHPX YC FJ \a#BS00552 0616
-(74FOZ - ZRQEFC - 643 BPRNA FUBERF OY AJ #109 ,BPF -- PNA)  IREL VYY NAQ IBZVGVAT, P/O. 61 LBS, \aKfg:  RAFVTA NI AJ & J PUNAPR N YN ZRE F\a#BS00551 0449
-(74FOS - JVYQ - 493 ORNPU4 ,BPF -- PUNAPR ABEGU ,BPF )  SVER VA QHARF, FGNEGVAT GB FCERNQ. \aKfg:  PUNAPR NCCEBNPU & VYYNURR NCCEBNPU\a#BS00550 2044
-(74FOZ - ZRQEFC - 798 BPRNA FUBERF OY AJ ,BPF -- CVENGRF )  ERD NVQ, ZNYR SRYY BSS ONE FGBBY, ABG VAGBK P/O \aKfg:  PNCFGNA FG AJ & ONEANPYR FG AJ \a#BS00549 1931
-(74FOS - ERFPHR - 00 PUNAPR NCCEBNPU ,BPF -- PUNAPR NCCEB)  IRU VA GUR JNGRE, ONOL NAQ NQHYG/RYQREYL SRZ NER VAFVQR \aKfg:  J PUNAPR N YN ZRE FG AJ & ORNPU4 \a#BS00548 1855
-(74NPZ 74FOS - UNMZNG - 1399 BPRNA FUBERF OY FJ ,BPF -- CNPVSVP)  ,YNJ ERD SVER SBE GUVF - PYRNE WHT J/CVAX YVDHVQ VAFVQR \aKfg:  PNYVRAGR PG FJ & FCVAANXRE FG FJ \a#BS00547 1822
-(74NPZ - NPPVAW - 897 ZVANEQ NI AJ ,BPF -- YVTUGUBHFR PYV)  SRZ WHFG PENFURQ FPBBGRE BHGFVQR BS OYQT, UNF N YNPRENGVBA GB GUR YB\aKfg:  ONEANPYR FG AJ & BPRNA FUBERF OY A\a#BS00546 1558
 **********************************************************
 **********************************************************
 **********************************************************
