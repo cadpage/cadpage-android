@@ -3,10 +3,10 @@ Add timeout to Scanner Radio Startup (#4484)
 Supra Radio Interface
 
 ** On Deck **
-Display Map Pages for Benton County
 Disabling Cadpage should block GCM alerts (#2253)
 Do not launch scanner when phone is muted or call in progress? (#2417)
 Check out Android 5.0 functionality
+Upgrade to latest supported GCM protocol
 
 ** Short Term **
 Suppress audio alert if call in progress (#3118)
