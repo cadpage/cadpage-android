@@ -1,42 +1,16 @@
 package net.anei.cadpage.parsers.OH;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA44Parser;
 
-public class OHFairfieldParser extends FieldProgramParser {
+public class OHFairfieldParser extends DispatchA44Parser {
 
   public OHFairfieldParser() {
-    super("BUTLER COUNTY", "OH",
-          "CALL ADDR CITY ST? X! INFO/CS+");
+    super("BUTLER COUNTY", "OH");
   }
   
   @Override
   public String getFilter() {
-    return "dispatch@co.fairfield.oh.us";
+    return "firedispatch@fairfield-city.org";
   }
   
-  @Override
-  public boolean parseMsg(String body, Data data) {
-    if (body.endsWith(",")) body += ' ';
-    return parseFields(body.split(", "), data);
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new CallField(".* \\([EF]\\)", true);
-    if (name.equals("ST")) return new StateField("([A-Z]{2})(?: +\\d{5})?", true);
-    if (name.equals("X")) return new MyCrossField();
-    return super.getField(name);
-  }
-  
-  private class MyCrossField extends CrossField {
-    @Override
-    public void parse(String field, Data data) {
-      if (!field.contains("//")) abort();
-      field = field.replace("//", "/");
-      field = stripFieldStart(field, "/");
-      field = stripFieldEnd(field, "/");
-      super.parse(field, data);
-    }
-  }
 }
