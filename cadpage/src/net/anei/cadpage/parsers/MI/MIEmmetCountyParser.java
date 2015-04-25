@@ -24,6 +24,11 @@ public class MIEmmetCountyParser extends DispatchOSSIParser {
   public String getAliasCode() {
     return "MIEmmetCounty";
   }
+  
+  @Override
+  public String getFilter() {
+    return "CAD@cce911.com";
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
