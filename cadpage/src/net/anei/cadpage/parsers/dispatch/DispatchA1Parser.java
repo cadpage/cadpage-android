@@ -44,7 +44,7 @@ public class DispatchA1Parser extends FieldProgramParser {
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("ID")) return new IdField("F=(.*)");
+    if (name.equals("ID")) return new IdField("[E|F]=(.*)");
     return super.getField(name);
   }
   
