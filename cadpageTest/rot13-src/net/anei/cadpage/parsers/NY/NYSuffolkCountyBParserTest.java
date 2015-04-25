@@ -113,6 +113,7 @@ cntvat2@svererfphrflfgrzf.kbubfg.pbz / ab fhowrpg / *** ZI - Zbgbe Iruvpyr Nppvq
 Pbagnpg: Wbua Snmvb <snmvb.w@frgnhxrgsq.pbz>
 Fraqre: cntvat2@svererfphrflfgrzf.kbubfg.pbz
 ***13 - FGEHPGHER SVER*** CVHF 130 BYQ SVRYQ EQ FRGNHXRG PF: OENZOYRGLR YA GBN: 12:02 04/23/15 52-O-1F NHGBZNGVP NYNEZ  2015-000969 Fgngvba 1
+***23 - ZVFP PNYY*** CNERAG YBPNGVBA 197 ZNVA FG FRGNHXRG GBN: 11:00 04/24/15 52-P-3P PNEOBA ZBABKVQR 2015-000977 UD
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cbeg Wrssrefba SQ
@@ -1788,6 +1789,18 @@ choyvp pynff ALFhssbyxPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:04/23/15",
         "PBQR:52-O-1F",
         "VASB:NHGBZNGVP NYNEZ / Fgngvba 1");
+
+    qbGrfg("G2",
+        "***23 - ZVFP PNYY*** CNERAG YBPNGVBA 197 ZNVA FG FRGNHXRG GBN: 11:00 04/24/15 52-P-3P PNEOBA ZBABKVQR 2015-000977 UD",
+        "VQ:2015-000977",
+        "PNYY:23 - ZVFP PNYY",
+        "CYNPR:CNERAG YBPNGVBA",
+        "NQQE:197 ZNVA FG",
+        "PVGL:FRGNHXRG",
+        "GVZR:11:00",
+        "QNGR:04/24/15",
+        "PBQR:52-P-3P",
+        "VASB:PNEOBA ZBABKVQR / UD");
 
   }
 
