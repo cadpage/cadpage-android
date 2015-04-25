@@ -12,33 +12,18 @@ public class NYSuffolkCountyBParser extends DispatchA14Parser {
   
   private static final Pattern LETTER_PTN = Pattern.compile("[A-Z]");
   private static final Pattern DIR_SLASH_BOUND_PTN = Pattern.compile("\\b([NSEW])/B\\b");
+  private static final Pattern DOUBLE_CALL_PTN = Pattern.compile("\\*\\*\\*([\\w ]+)\\*\\*\\* +\\*\\*\\*([\\w ]+) *\\*\\*\\* +([A-Z]{4}) +");
   private static final Pattern NK_PTN = Pattern.compile("\\bNK\\b");
  
   public NYSuffolkCountyBParser() {
     super(NYSuffolkCountyAParser.CITY_TABLE, DISTRICT_SET, "SUFFOLK COUNTY", "NY", false);
-    setupMultiWordStreets(
-        "BAY SHORE",
-        "BELLE TERRE",
-        "COUNTY LINE",
-        "GREAT EAST NECK",
-        "GREAT NECK",
-        "HALF HOLLOW",
-        "HILL CRESCENT",
-        "INDIAN HEAD",
-        "LITTLE EAST NECK",
-        "LONG ISLAND",
-        "PARK CENTER",
-        "PINE TREE",
-        "SWEET HOLLOW",
-        "VAN COTT",
-        "YACHT CLUB"
-    );
+    setupMultiWordStreets(MWORD_STREET_LIST);
     removeWords("ESTATES", "HEIGHTS", "SQUARE");
   }
   
   @Override
   public String getFilter() {
-    return "@firerescuesystems.xohost.com,scmproducts@optonline.net,paging@bcfa.xohost.com,alarms@ronkonkomafd.net,paging@babyloncentral.info";
+    return "@firerescuesystems.xohost.com,scmproducts@optonline.net,paging@bcfa.xohost.com,alarms@ronkonkomafd.net,paging@babyloncentral.info,paging@setauketfd.info";
   }
 
   @Override
@@ -51,7 +36,22 @@ public class NYSuffolkCountyBParser extends DispatchA14Parser {
     
     body = DIR_SLASH_BOUND_PTN.matcher(body).replaceAll("$1B");
     
+    String code = null;
+    Matcher match = DOUBLE_CALL_PTN.matcher(body);
+    if (match.lookingAt()) {
+      String call = match.group(1).trim();
+      String call2 = match.group(2).trim();
+      if (!call.equalsIgnoreCase(call2)) call = call + " - " + call2;
+      code = match.group(3);
+      body = "***" + call + "***" + body.substring(match.end());
+    }
+    
     if (!super.parseMsg(body, data)) return false;
+    
+    if (code != null) {
+      data.strCall = append(data.strCall, " - ", data.strCode);
+      data.strCode = code;
+    }
     
     // restore AVENUE X street names that got split up by address logic
     if (data.strAddress.endsWith(" AVENUE") && LETTER_PTN.matcher(data.strApt).matches()) {
@@ -132,15 +132,91 @@ public class NYSuffolkCountyBParser extends DispatchA14Parser {
     new PatternReplace("(.* & .* AV)[A-DF-Z].+",                "$1E"),
     new PatternReplace("(.* & .* ST)[B-DF-HJ-NPQSTV-Z].+",      "$1"),
   };
+  
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "A ROUND POND",
+    "ALTA VISTA",
+    "BAY SHORE",
+    "BELLE TERRE",
+    "BUENA VISTA",
+    "C MYRTLE",
+    "CEDAR GROVE",
+    "CIDER MILL",
+    "COUNTY LINE",
+    "DARK HOLLOW",
+    "DE KAY",
+    "DEER PARK",
+    "DEER SHORE",
+    "DIX HILLS",
+    "ELLEN SUE",
+    "FIRE ISLAND",
+    "FLEETS POINT",
+    "GREAT E NECK",
+    "GREAT EAST NECK",
+    "GREAT NECK",
+    "GREAT NK",
+    "HALF HOLLOW",
+    "HARBOR HILLS",
+    "HARBOR S",
+    "HILL CRESCENT",
+    "HUNTINGTON FARMS",
+    "INDIAN HEAD",
+    "LAKE PARK",
+    "LAKE SHORE",
+    "LAWRENCE HILL",
+    "LIA COMMACK",
+    "LIA LONG ISLAND",
+    "LITTLE EAST NECK",
+    "LONG ISLAND",
+    "MEADOW WOOD",
+    "MOTTS HOLLOW",
+    "NORTH OCEAN",
+    "NORTHERN STATE",
+    "O DEER PARK",
+    "O SCHMEELK",
+    "O SCUDDER",
+    "OAK BEACH",
+    "OAK PARK",
+    "OPP RUTH",
+    "PARK CENTER",
+    "PATCHOGUE YAPHANK",
+    "PEPPER E",
+    "PINE ACRES",
+    "PINE TREE",
+    "PRINCESS TREE",
+    "QUAIL RUN",
+    "ROUND POND",
+    "SEA COURT",
+    "SEAMANS NECK",
+    "SHEEP PASTURE",
+    "SOUTHERN STATE",
+    "SUNKEN MEADOW",
+    "SUNRISE SERVICE",
+    "SUNRISE SVC",
+    "SWAN LAKE",
+    "SWEET HOLLOW",
+    "THE ARCHES",
+    "TOWN HOUSE",
+    "TROLLEY LINE",
+    "VAN BUREN",
+    "VAN COTT",
+    "VILLAGE OAKS",
+    "VILLAGE WOODS",
+    "WALT WHITMAN",
+    "WIND WATCH",
+    "YACHT CLUB"
+  };
 
   private static final ReverseCodeSet DISTRICT_SET = new ReverseCodeSet(
       "AMITYVILLE FD",
       "BABYLON FD",
       "COPIAGUE FD",
       "DEER PARK FIRE DISTRICT",
+      "NORTH AMITYVILLE FC",
       "NORTH BABYLON FC",
       "NORTH LINDENHURST",
       "PT JEFFERSON",
+      "South Farmingdale Fd",
       "WEST BABYLON FIRE DEPT"
   );
 }

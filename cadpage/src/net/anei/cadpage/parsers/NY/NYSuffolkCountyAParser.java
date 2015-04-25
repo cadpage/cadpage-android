@@ -357,7 +357,9 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "WYANDA",  "WYANDANCH",
       "YAPHAN",  "YAPHANK",
       
-      "E NORTHPORT",    "E NORTHPORT"
+      "E NORTHPORT",    "E NORTHPORT",
+      "SETAUKET",       "SETAUKET",
+      "SO FARMINGDALE", "SOUTH FARMINGDALE"
 
   });
 }

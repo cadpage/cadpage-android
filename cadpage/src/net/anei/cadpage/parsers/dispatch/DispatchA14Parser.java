@@ -20,6 +20,7 @@ public class DispatchA14Parser extends FieldProgramParser {
   private static final Pattern ID_PTN = Pattern.compile("^(\\d{4}-\\d{6}) ");
   
   private ReverseCodeSet sourceSet;
+  private Properties cityCodes = null;
   private ReverseCodeSet citySet = null;
   
   private boolean unitInfo;
@@ -35,10 +36,13 @@ public class DispatchA14Parser extends FieldProgramParser {
     this.unitInfo = unitInfo;
     
     // Build reverse code set with all of the full length city name values
+    this.cityCodes = cityCodes;
     if (cityCodes != null) {
-      citySet = new ReverseCodeSet();
       List<String> cityList = new ArrayList<String>();
-      for (Object city : cityCodes.values()) cityList.add((String)city);
+      for (Object code : cityCodes.keySet()) {
+        cityList.add((String)code);
+        cityList.add(cityCodes.getProperty((String)code));
+      }
       citySet = new ReverseCodeSet(cityList.toArray(new String[cityList.size()]));
     }
   }
@@ -95,6 +99,7 @@ public class DispatchA14Parser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR1")) return new MyAddressField1();
+    if (name.equals("X")) return new MyCrossField();
     if (name.equals("TIMEDATE")) return new MyTimeDateField();
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("ADDR2")) return new MyAddressField2();
@@ -102,56 +107,74 @@ public class DispatchA14Parser extends FieldProgramParser {
     return super.getField(name);
   }
     
-  private static final Pattern PLACE_ADDR_PTN = Pattern.compile("(.*)[;\\*](.*)");
+  private static final Pattern ADDR_PLACE_PTN = Pattern.compile("(.*[;\\*@] *)(.*)");
+  private static final Pattern PLACE_MARK_PTN = Pattern.compile("(.*)[;\\*@]");
   private class MyAddressField1 extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      
-      // See if we have a trailing place name
-      StartType st = StartType.START_PLACE;
-      int pt = field.indexOf('@');
-      if (pt >= 0) {
-        st = StartType.START_ADDR;
-        data.strPlace = field.substring(pt+1).trim();
-        field = field.substring(0,pt).trim();
-        field = stripFieldEnd(field, ":");
-      }
       
       // If we have a city set, use it to strip a full city name from the
       // end of the field
       if (citySet != null) {
         String city = citySet.getCode(field);
         if (city != null) {
-          data.strCity = city;
+          data.strCity = convertCodes(city, cityCodes);
           field = field.substring(0,field.length()-city.length());
         }
       }
       
-      // There are a couple different ways to split up the name and place
-      // fields.  Look for the last     semicolon or asterisk
-      if (st == StartType.START_PLACE){
-        Matcher match = PLACE_ADDR_PTN.matcher(field);
-        if (match.matches()) {
-          st = StartType.START_ADDR;
-          data.strPlace = match.group(1).trim();;
-          field = match.group(2).trim();
-        }
+      String placePrefix = "";
+      Matcher match = ADDR_PLACE_PTN.matcher(field);
+      if  (match.matches()) {
+        placePrefix = match.group(1);
+        field = match.group(2);
       }
       
       // And sometimes a place name is in parens
+      StartType st = StartType.START_PLACE;
       if (field.startsWith("(")) {
-        pt = field.lastIndexOf(')');
+        st = StartType.START_ADDR;
+        int pt = field.lastIndexOf(')');
         if (pt > 0) {
-          data.strPlace = append(data.strPlace, " ", field.substring(0,pt+1));
+          data.strPlace = field.substring(0,pt+1);
           field = field.substring(pt+1).trim();
         }
       }
       parseAddress(st, FLAG_START_FLD_NO_DELIM | FLAG_RECHECK_APT | FLAG_ANCHOR_END | FLAG_NO_CITY, field, data);
+      
+      // If we found a place name ending with &, treat it like an unrecognzied street name intersection
+      if (st == StartType.START_PLACE && data.strPlace.endsWith("&")) {
+        data.strAddress = append(stripFieldEnd(data.strPlace, "&"), " & ", data.strAddress);
+        data.strPlace = "";
+      }
+      
+      // Strip off a place marking delimiter.  We can't trust these to parse because they frequently are followed by
+      // a longer place name.  But if they do end up at the end of the place name, strip them off
+      data.strPlace = (placePrefix + data.strPlace).trim();
+      match = PLACE_MARK_PTN.matcher(data.strPlace);
+      if (match.matches()) data.strPlace = match.group(1).trim();
     }
     
     @Override
     public String getFieldNames() {
-      return "ADDR APT CITY PLACE";
+      return "PLACE ADDR APT CITY";
+    }
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(" ZONE ");
+      if (pt >= 0) {
+        data.strMap = field.substring(pt+6).trim();
+        field = field.substring(0,pt).trim();
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "X MAP";
     }
   }
 
@@ -229,6 +252,7 @@ public class DispatchA14Parser extends FieldProgramParser {
     return "ID CALL " + super.getProgram();
   }
   
+  private static final Pattern ADDR_MARK_PTN = Pattern.compile(" (?:(C/?S:?)|(APT)) ", Pattern.CASE_INSENSITIVE);
   private class MyAddressField2 extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -239,13 +263,51 @@ public class DispatchA14Parser extends FieldProgramParser {
         field = field.substring(0,pt).trim();
         field = stripFieldEnd(field, ":");
       }
-      super.parse(field, data);
+      
+      Matcher match = ADDR_MARK_PTN.matcher(field);
+      if (match.find()) {
+        super.parse(field.substring(0,match.start()).trim(), data);
+        int last = -1;
+        boolean cross = false;
+        do {
+          if (last >= 0) {
+            appendField(cross, field.substring(last, match.start()), data);
+          }
+          last = match.end();
+          cross = match.group(1) != null;
+        } while (match.find());
+        appendField(cross, field.substring(last), data);
+      }
+      
+      else {
+        super.parse(field, data);
+      }
+    }
+    
+    private void appendField(boolean cross, String fld, Data data) {
+      fld = fld.trim();
+      if (cross) {
+        fld = stripFieldStart(fld, "/");
+        fld = stripFieldEnd(fld, "/");
+        data.strCross = append(data.strCross, " / ", fld);
+      }  else {
+        data.strApt = append(data.strApt, "-", fld);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR CITY APT X PLACE";
     }
   }
   
   private class MyCrossField2 extends CrossField {
     @Override
     public void parse(String field, Data data) {
+      field = stripFieldStart(field, "/");
+      field = stripFieldEnd(field, "/");
+      if (field.length() == 0) return;
+      
       data.strCross = "";
       super.parse(field, data);
     }
