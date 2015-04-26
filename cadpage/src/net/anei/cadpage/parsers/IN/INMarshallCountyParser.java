@@ -14,7 +14,7 @@ public class INMarshallCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "cad@co.marshall.in.us,5742617686";
+    return "cad@co.marshall.in.us,5742617686,5742081200";
   }
   
   @Override
