@@ -1205,6 +1205,7 @@ public class ParserList {
               ,"WAChelanCounty"                 ,"Chelan County, WA"
               ,"WAClarkCounty"                  ,"Clark County, WA"
               ,"WAGrantCounty"                  ,"Grant County, WA"
+              ,"WAGraysHarborCounty"            ,"Grays Harbor County, WA"
               ,"WAJeffersonCounty"              ,"Jefferson County, WA"
               ,"WAKingCounty"                   ,"King County, WA"
               ,"WALewisCounty"                  ,"Lewis County, WA"

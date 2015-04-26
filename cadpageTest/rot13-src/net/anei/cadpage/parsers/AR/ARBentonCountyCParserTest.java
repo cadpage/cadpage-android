@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Oragbaivyyr, NE
+Oragba Pbhagl, NE (P) 
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Oragbaivyyr SQ
