@@ -5,7 +5,6 @@ Supra Radio Interface
 ** On Deck **
 Disabling Cadpage should block GCM alerts (#2253)
 Do not launch scanner when phone is muted or call in progress? (#2417)
-Check out Android 5.0 functionality
 Upgrade to latest supported GCM protocol
 
 ** Short Term **
