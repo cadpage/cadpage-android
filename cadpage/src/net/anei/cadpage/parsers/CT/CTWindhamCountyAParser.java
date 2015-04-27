@@ -23,6 +23,7 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
     setFieldList("SRC UNIT CH PRI CALL ADDR PLACE APT CITY X TIME");
     setupMultiWordStreets(MWORD_STREET_LIST);
     addRoadSuffixTerms("DRIVE");
+    removeWords("BUS");
   }
   
   @Override

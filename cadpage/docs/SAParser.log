@@ -1,3 +1,8 @@
+Version 17 04/27/2015
+
+Added "EXPY" to list of road suffixes.
+Added "BUS" to list of recognized street direction terms
+
 Version 16 04/20/2015
 
 Fixed logic checking for a tagged field match to follow the failure branch

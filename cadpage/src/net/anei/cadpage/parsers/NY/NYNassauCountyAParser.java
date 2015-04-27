@@ -14,6 +14,7 @@ public class NYNassauCountyAParser extends FieldProgramParser {
     super(CITY_LIST, "NASSAU COUNTY", "NY",
            "ADDR/SP! CS:X! ADTNL:INFO GRID:MAP TOA:TIMEDATE");
     setAllowDirectionHwyNames();
+    setupMultiWordStreets(MWORD_STREET_LIST);
   }
   
   @Override
@@ -95,6 +96,35 @@ public class NYNassauCountyAParser extends FieldProgramParser {
     if (name.equals("TIMEDATE")) return new MyTimeDateField();
     return super.getField(name);
   }
+  
+  private static final String[] MWORD_STREET_LIST = new  String[]{
+    "B GATE",
+    "GLEN COVE",
+    "HARBOR HILL",
+    "HARBOR PARK",
+    "HIGH HOLLOW",
+    "HITCHCOCK (E)",
+    "HITCHCOCK (W)",
+    "INDUSTRIAL PARK",
+    "JOHN BEAN",
+    "LONG ISLAND",
+    "MAIN CAMPUS",
+    "MIDDLE NECK",
+    "NORTHERN STATE",
+    "O ANDOVER",
+    "PARK (E)",
+    "PINE (S)",
+    "PLANTING FIELD",
+    "PORT WASHINGTON",
+    "RED GROUND",
+    "ROUND HILL",
+    "SERVICE (S)",
+    "SHORE (W)",
+    "SPRING HILL",
+    "ST MARKS",
+    "STORE HILL"
+ 
+  };
   
   private static final String[] CITY_LIST = new String[]{
     "EAST HILLS",

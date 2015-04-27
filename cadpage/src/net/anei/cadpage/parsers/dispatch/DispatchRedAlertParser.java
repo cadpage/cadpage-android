@@ -11,7 +11,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DispatchRedAlertParser extends SmartAddressParser {
   
   private static final Pattern TIME_MARK = Pattern.compile("\\. ?\\. ?([\\d:]+)$");
+  private static final Pattern EXTRA_INTERSECT_PTN = Pattern.compile("(?:AND |[/&]).*", Pattern.CASE_INSENSITIVE);
   private static final Pattern CODE_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Z]-?\\d{1,2}[A-Z]?\\b");
+  private static final Pattern XSTREET_PTN = Pattern.compile("(.*)\\(X-Streets:(.*)\\)");
+  private static final Pattern DIR_BOUND_PTN = Pattern.compile("#?\\b([NSEW])/(B)D?\\b");
 
   
   public DispatchRedAlertParser(String defCity, String defState) {
@@ -21,7 +24,7 @@ public class DispatchRedAlertParser extends SmartAddressParser {
   
   public DispatchRedAlertParser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState);
-    setFieldList("CALL CODE INFO ADDR APT CITY BOX X PLACE TIME");
+    setFieldList("CALL CODE INFO ADDR APT CITY BOX X MAP PLACE TIME");
   }
 
   @Override
@@ -33,7 +36,7 @@ public class DispatchRedAlertParser extends SmartAddressParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     // Strip off leading slash
-    if (body.startsWith("/")) body = body.substring(1).trim();
+    body = stripFieldStart(body, "/");
     
     // Look for the trailing time signature
     // If we find it, strip it off.
@@ -63,7 +66,7 @@ public class DispatchRedAlertParser extends SmartAddressParser {
     }
     
     body = "TYPE:" + body.replace("c/s:", "CROSS:").replace(" c/s ", " CROSS:").replace(" CS:", " CROSS:").replace(" Box ", " Box:").replace(" B:", " O:").replaceAll("\\s+", " ");
-    Properties props = parseMessage(body, new String[]{"TYPE","LOC","CROSS","Box", "O", "- S"});
+    Properties props = parseMessage(body, new String[]{"TYPE","LOC","CROSS","Box", "Map", "O", "- S"});
     
     String sAddress = props.getProperty("LOC");
     if (sAddress == null) {
@@ -72,42 +75,57 @@ public class DispatchRedAlertParser extends SmartAddressParser {
       sAddress = sAddress.replace("C/O","C%O");
       parseAddress(StartType.START_CALL, sAddress, data);
       if (data.strAddress.length() == 0) return false;
-      data.strSupp = getLeft();
+      String info = getLeft();
+      if (EXTRA_INTERSECT_PTN.matcher(info).matches()) {
+        data.strAddress = data.strAddress + ' ' + info;
+        info = "";
+      }
       data.strCall = data.strCall.replace("C%O", "C/O");
       data.strAddress = data.strAddress.replace("C%O", "C/O");
-      data.strSupp = data.strSupp.replace("C%O", "C/O");
+      info = info.replace("C%O", "C/O");
+      data.strSupp = append(data.strSupp, " / ", info);
     } else {
-      if (sAddress.startsWith("intersection of ")) sAddress = sAddress.substring(16);
-      if (sAddress.contains(",")){
-        int indx = sAddress.indexOf(",");
-        data.strCity = sAddress.substring(indx + 1).trim();
-        sAddress = sAddress.substring(0,indx).trim();
+      sAddress = stripFieldStart(sAddress, "intersection of ");
+      pt = sAddress.indexOf(",");
+      if (pt >= 0) {
+        data.strCity = sAddress.substring(pt+1).trim();
+        sAddress = sAddress.substring(0,pt).trim();
       }
+      
+      sAddress = DIR_BOUND_PTN.matcher(sAddress).replaceAll("$1$2");
+      
+      // Check for X-Streets term
+      match = XSTREET_PTN.matcher(sAddress);
+      if (match.matches()) {
+        sAddress = match.group(1).trim();
+        data.strCross = match.group(2).trim();
+      }
+      
       // Protect C/O sequence form being treated as an intersection
       int flags = FLAG_ANCHOR_END;
       if (data.strCity.length() > 0) flags |= FLAG_NO_CITY;
-      parseAddress(StartType.START_PLACE, flags, sAddress.replace("C/O", "C%O"), data);
+      sAddress = sAddress.replace("C/O", "C%%O");
+      parseAddress(StartType.START_PLACE, flags, sAddress, data);
       if (data.strAddress.length() == 0) {
         data.strAddress = data.strPlace;
         data.strPlace = "";
       }
-      data.strAddress = data.strAddress.replace("C%O", "C/O");
+      data.strAddress = data.strAddress.replace("%%", "/");
       
       String sCall = props.getProperty("TYPE", "");
       int ipt = sCall.indexOf(':');
       if (ipt >= 0) {
-        data.strCall= sCall.substring(0,ipt).trim();
-        data.strSupp= sCall.substring(ipt+1).trim();
-        match = CODE_PATTERN.matcher(data.strSupp);
+        String info = sCall.substring(ipt+1).trim();
+        sCall = sCall.substring(0,ipt).trim();
+        match = CODE_PATTERN.matcher(info);
         if (match.find()) {
-          data.strCode = data.strSupp.substring(match.start(), match.end());
-          data.strSupp = cutOut(data.strSupp, match.start(), match.end());
-          if (data.strSupp.startsWith("- ")) data.strSupp = data.strSupp.substring(2).trim();
+          data.strCode = info.substring(match.start(), match.end());
+          info = cutOut(info, match.start(), match.end());
         }
-      } else {
-        data.strCall = sCall;
+        info = stripFieldStart(info, "- ");
+        data.strSupp = append(info, " / ", data.strSupp);
       }
-      data.strCall = data.strCall.replaceAll("\\. \\.", "-");
+      data.strCall = sCall.replaceAll("\\. \\.", "-");
     }
 
     data.strPlace = append(data.strPlace, " - ", props.getProperty("O", ""));
@@ -115,14 +133,26 @@ public class DispatchRedAlertParser extends SmartAddressParser {
     String sCross = props.getProperty("CROSS");
     if (sCross != null) {
       ok = true;
-      pt = sCross.indexOf(',');
-      if (pt >= 0) {
-        data.strSupp = append(data.strSupp, " / ", sCross.substring(pt+1).trim());
-        sCross = sCross.substring(0,pt).trim();
-      }
+      sCross = stripFieldStart(sCross, "BET ");
+      sCross = stripTrailInfo(sCross, data);
       data.strCross = sCross;
+    }
+    
+    String sMap = props.getProperty("Map");
+    if (sMap != null) {
+      sMap = stripTrailInfo(sMap, data);
+      data.strMap = sMap;
     }
 
     return ok;
+  }
+  
+  private String stripTrailInfo(String field, Data data) {
+    int pt = field.indexOf(',');
+    if (pt >= 0) {
+      data.strSupp = append(data.strSupp, " / ", field.substring(pt+1).trim());
+      field = field.substring(0,pt).trim();
+    }
+    return field;
   }
 }

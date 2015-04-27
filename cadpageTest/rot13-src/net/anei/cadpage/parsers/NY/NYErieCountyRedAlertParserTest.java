@@ -629,8 +629,9 @@ choyvp pynff ALRevrPbhaglErqNyregCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Fcrpvny Rdhvc - Z/N, RATVAR: onea sver ob chzcre & gnaxre  pb gnxre  ng Funec fg (K-Fgerrgf: Trarffrr), Pbapbeq . . 14:12:29",
         "PNYY:Fcrpvny Rdhvc - Z/N, RATVAR",
         "VASB:onea sver ob chzcre & gnaxre pb gnxre",
-        "NQQE:Funec fg (K-Fgerrgf: Trarffrr)",
-        "ZNQQE:Funec fg",
+        "NQQE:Funec fg",
+        "ZNQQE:Funec fg & Trarffrr",
+        "K:Trarffrr",
         "PVGL:Pbapbeq",
         "GVZR:14:12:29");
 

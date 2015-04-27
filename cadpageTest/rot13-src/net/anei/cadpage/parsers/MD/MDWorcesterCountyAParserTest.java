@@ -3326,7 +3326,7 @@ choyvp pynff ZQJbeprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:QVFG: 6.42 sg",
         "CYNPR:FUBER FGBC",
         "PVGL:OREYVA",
-        "VASB:BPRNA RKCL / PNGUNTR EQ",
+        "K:BPRNA RKCL & PNGUNTR EQ",
         "QNGR:11/17/2014",
         "GVZR:10:38:24");
 
@@ -4508,7 +4508,7 @@ choyvp pynff ZQJbeprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:QVFG: 6.42 sg",
         "CYNPR:FUBER FGBC",
         "PVGL:OREYVA",
-        "VASB:BPRNA RKCL / PNGUNTR EQ",
+        "K:BPRNA RKCL & PNGUNTR EQ",
         "QNGR:11/17/2014",
         "GVZR:10:38:24");
 
@@ -4520,7 +4520,7 @@ choyvp pynff ZQJbeprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:QVFG: 6.42 sg",
         "CYNPR:FUBER FGBC",
         "PVGL:OREYVA",
-        "VASB:BPRNA RKCL / PNGUNTR EQ",
+        "K:BPRNA RKCL & PNGUNTR EQ",
         "QNGR:11/17/2014",
         "GVZR:10:37:28");
 
