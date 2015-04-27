@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04202015</string>
-  <string name="release_version">v1.8.28</string>
+  <string name="release_date">04272015</string>
+  <string name="release_version">v1.8.29</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.29\n
+New Location:\n
+Benton County, AR (alt)\n
+Grays Harbor County, WA\n
+\n
+Location Fixes:\n
+Rocklin, CA\n
+Marshall County, IN\n
+St Joseph County, IN\n
+Allegany County, MD\n
+Worcester County, MD\n
+Erie County, NY\n
+Nassau County, NY\n
+Onondaga County, NY\n
+Fairfield County, OH\n
+Monroeville, PA\n
+Tarrant County, TX\n
+Mineral County, WV\n
+Waukesha County, WI\n
+\n
+General Fixes:\n
+Fixed problem with Widget display in Android 5.0\n
+\n      
 v1.8.28\n
 New Locations:\n
 Lee County, AL\n
@@ -96,20 +119,7 @@ Erie County, PA\n
 Mercer County, PA\n
 Harris County, TX\n
 San Marcos County, TX\n
-Fayette County, WV\n
-\n
-v1.8.24\n
-Location Fixes:\n
-Windham County, CT\n
-New Castle County, DE\n
-Butler County, KS\n
-Hennepin County, MN\n
-Jefferson County, NY\n
-Cass County, ND\n
-Hocking County, OH\n
-Minnehaha County, SD\n
-Alexandria, VA\n
-Mid Island Region, BC, Canada
+Fayette County, WV
   </string>
 </resources>
   
