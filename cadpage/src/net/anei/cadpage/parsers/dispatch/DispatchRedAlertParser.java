@@ -11,7 +11,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DispatchRedAlertParser extends SmartAddressParser {
   
   private static final Pattern TIME_MARK = Pattern.compile("\\. ?\\. ?([\\d:]+)$");
-  private static final Pattern EXTRA_INTERSECT_PTN = Pattern.compile("(?:AND |[/&]).*", Pattern.CASE_INSENSITIVE);
+  private static final Pattern LEAD_INTERSECT_PTN = Pattern.compile(".*(?: AND|[/&])", Pattern.CASE_INSENSITIVE);
+  private static final Pattern TRAIL_INTERSECT_PTN = Pattern.compile("(?:AND |[/&]).*", Pattern.CASE_INSENSITIVE);
   private static final Pattern CODE_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Z]-?\\d{1,2}[A-Z]?\\b");
   private static final Pattern XSTREET_PTN = Pattern.compile("(.*)\\(X-Streets:(.*)\\)");
   private static final Pattern DIR_BOUND_PTN = Pattern.compile("#?\\b([NSEW])/(B)D?\\b");
@@ -76,7 +77,7 @@ public class DispatchRedAlertParser extends SmartAddressParser {
       parseAddress(StartType.START_CALL, sAddress, data);
       if (data.strAddress.length() == 0) return false;
       String info = getLeft();
-      if (EXTRA_INTERSECT_PTN.matcher(info).matches()) {
+      if (TRAIL_INTERSECT_PTN.matcher(info).matches()) {
         data.strAddress = data.strAddress + ' ' + info;
         info = "";
       }
@@ -108,6 +109,10 @@ public class DispatchRedAlertParser extends SmartAddressParser {
       parseAddress(StartType.START_PLACE, flags, sAddress, data);
       if (data.strAddress.length() == 0) {
         data.strAddress = data.strPlace;
+        data.strPlace = "";
+      }
+      if (LEAD_INTERSECT_PTN.matcher(data.strPlace).matches()) {
+        data.strAddress = data.strPlace + ' ' + data.strAddress;
         data.strPlace = "";
       }
       data.strAddress = data.strAddress.replace("%%", "/");

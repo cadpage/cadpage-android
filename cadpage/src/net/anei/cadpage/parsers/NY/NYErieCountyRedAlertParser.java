@@ -15,10 +15,8 @@ public class NYErieCountyRedAlertParser extends DispatchRedAlertParser {
   
   public NYErieCountyRedAlertParser() {
     super("ERIE COUNTY","NY");
-    setupMultiWordStreets(
-        "BOSTON STATE",
-        "LOWER EAST HILL"
-    );
+    setupMultiWordStreets(MWORD_STREET_LIST);
+    addRoadSuffixTerms("TW");
   }
 
   @Override
@@ -42,4 +40,36 @@ public class NYErieCountyRedAlertParser extends DispatchRedAlertParser {
     return TW_PTN.matcher(addr).replaceAll("THRUWAY");
   }
   private static final Pattern TW_PTN = Pattern.compile("\\bTW\\b", Pattern.CASE_INSENSITIVE);
+  
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "ARMOR DUELLS",
+    "BACK CREEK",
+    "BIG TREE",
+    "BOSTON COLDEN",
+    "BOSTON CROSS",
+    "BOSTON STATE",
+    "BROWN HILL",
+    "CHESTNUT RIDGE",
+    "EAST EDEN",
+    "EAST HILL",
+    "EDEN EVANS CNTR",
+    "END OF",
+    "GOWANDA STATE",
+    "HAYES HOLLOW",
+    "HAYES HOLLOW(E)",
+    "HIDDEN HOLLOW",
+    "HOLLAND GLENWOOD",
+    "LA SALLE",
+    "LAKE HEIGHTS",
+    "LAKE SHORE",
+    "LEDGES PARK",
+    "LOWER EAST HILL",
+    "MURRAY HILL",
+    "NEW YORK STATE",
+    "POLISH HILL",
+    "SENECA BROOK",
+    "SOUTH PARK",
+    "VALLEY CIRCLE",
+    "VALLEY VIEW"
+  };
 }
