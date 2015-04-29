@@ -531,6 +531,7 @@ class Active911Vendor extends Vendor {
       "US/NC/WilkesCounty",               "NCWilkesCounty",
       "US/NC/WilsonCounty",               "NCWilsonCounty",
       "US/NC/YadkinCounty",               "NCYadkinCounty",
+      "US/ND/PierceCounty",               "NDPierceCounty",
       "US/NH/Hanover",                    "NHHanover,Cadpage2",
       "US/NH/HollisDispatch",             "NHHollis",
       "US/NH/LRMFA",                      "NHGraftonCounty",
