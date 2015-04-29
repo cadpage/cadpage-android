@@ -27,6 +27,18 @@ public class ILLakeCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "DP",  "DEER PARK",
-      "LB",  "LAKE BARRINGTON"
+      "LB",  "LAKE BARRINGTON",
+      "LZU", "LAKE ZURICH",
+      "LZ",  "LAKE ZURICH",
+      "HW",  "HAWTHORN WOODS",
+      "NB",  "NORTH BARRINGTON",
+      "LG",  "LONG GROVE",
+      "BA",  "BARRINGTON",
+      "BH",  "BARRINGTON HILLS",
+      "WA",  "WAUCONDA",
+      "MUU", "MUNDELEIN",
+      "KD",  "KILDEER",
+      "LS",  "LINCOLNSHIRE"
+     
   });
 }
