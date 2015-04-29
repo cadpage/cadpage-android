@@ -14,7 +14,7 @@ public class NHHollisParser extends DispatchA16Parser {
 
   @Override
   public String getFilter() {
-    return "hdispatch4@hollisnh.org";
+    return "@hollisnh.org,@gmail.com";
   }
 
   @Override
