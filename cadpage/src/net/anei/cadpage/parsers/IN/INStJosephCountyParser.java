@@ -65,7 +65,7 @@ public class INStJosephCountyParser extends DispatchA6Parser {
     }
     
     match = LEAD_DATE_TIME.matcher(body);
-    if (match.find()) {
+    if (match.lookingAt()) {
       String time = match.group(1);
       if (time != null) setTime(TIME_FMT, time, data);
       data.strDate = match.group(2);

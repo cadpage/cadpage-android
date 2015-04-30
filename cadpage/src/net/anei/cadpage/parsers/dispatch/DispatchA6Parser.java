@@ -62,7 +62,7 @@ public class DispatchA6Parser extends SmartAddressParser {
       if (data.strUnit.length() == 0) data.strUnit = match.group(2);
       
       body = match.replaceAll(" / ").replaceAll("  +", " ").trim();
-      if (body.endsWith("/")) body = body.substring(0,body.length()-1).trim();
+      body = stripFieldEnd(body, "/");
     }
     
     Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body);
