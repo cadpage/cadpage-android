@@ -130,7 +130,7 @@ public class Message {
     Pattern.compile(" *\\[(\\d)(?:/|of| +of +)(\\d)\\]$"),
   };
   private static final Pattern OPT_OUT_PTN = Pattern.compile("TXT STOP.*$");
-  private static final Pattern CONT_PTN = Pattern.compile("\\(C.* \\d\\d? of \\d\\d?");
+  private static final Pattern CONT_PTN = Pattern.compile(" ?\\(C.* \\d\\d? of \\d\\d?");
   
   private static final Pattern[] EMAIL_PATTERNS = new Pattern[]{ 
     Pattern.compile("^(?:\\*.*\\*)?([-\\w\\.]+@[-\\w]+\\.[-\\w\\.]+)(?: +/ +(?:no subject +)?/ +)"),
