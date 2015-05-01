@@ -18,6 +18,8 @@ QT911\aFGEHPGHER SVER \aFGEHPGHER SVER ** 140 SYBEVQN NIR ** SNPRIVYYR QVFGEVFG 
 
 Fraqre: 50911
 QT911\aRZF\a1760 OBBFGRE PYHO EQ****ERD BS RZF
+QT911\asnyy\a4478 SNPRIVYYR UJL .. 68 LE BYQ ZNYR SNYYRA.. PURFG CNVA QVSS OERNGUVAT.. RZF ERD 1FG ERFCBAQREF
+QT911\aJrrxyl Cntre Grfg\aGuvf vf n jrrxyl grfg bs gur Qrpnghe-Tenql 911 cntvat naq Nzrevyreg flfgrz.
 
 */
 
@@ -38,9 +40,9 @@ choyvp pynff TNQrpnghePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "QT911\aFGEHPGHER SVER\aFGEHPGHER SVER ** 140 SYBEVQN NIR ** SNPRIVYYR QVFGEVFG **",
-        "PNYY:FGEHPGHER SVER **",
+        "PNYY:FGEHPGHER SVER",
         "NQQE:140 SYBEVQN NIR",
-        "VASB:** SNPRIVYYR QVFGEVFG **");
+        "VASB:SNPRIVYYR QVFGEVFG **");
 
     qbGrfg("G3",
         "QT911\aSNYY  ARRQ 1FG ERFCBAQREF  964 OBBFGRE PYHO EBNQ CRE RZF",
@@ -55,15 +57,32 @@ choyvp pynff TNQrpnghePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G5",
         "QT911\aOehfu Sver - 168 Funrssre Eq\aOehfu Sver ng 168 Funrssre Eq - Snprivyyr & Sbjyfgbja qvfcngpurq",
-        "PNYY:Oehfu Sver ng",
+        "PNYY:Oehfu Sver",
         "NQQE:168 Funrssre Eq",
-        "VASB:- Snprivyyr & Sbjyfgbja qvfcngpurq");
+        "VASB:Oehfu Sver ng 168 Funrssre Eq - Snprivyyr & Sbjyfgbja qvfcngpurq");
 
     qbGrfg("G6",
         "QT911\aFGEHPGHER SVER \aFGEHPGHER SVER ** 140 SYBEVQN NIR ** SNPRIVYYR QVFGEVFG **\a>-------> arryfabyrf <--------<",
-        "PNYY:FGEHPGHER SVER **",
+        "PNYY:FGEHPGHER SVER",
         "NQQE:140 SYBEVQN NIR",
-        "VASB:** SNPRIVYYR QVFGEVFG **");
+        "VASB:SNPRIVYYR QVFGEVFG **");
+
+    qbGrfg("G7",
+        "QT911\aRZF\a1760 OBBFGRE PYHO EQ****ERD BS RZF",
+        "PNYY:RZF",
+        "NQQE:1760 OBBFGRE PYHO EQ",
+        "VASB:ERD BS RZF");
+
+    qbGrfg("G8",
+        "QT911\asnyy\a4478 SNPRIVYYR UJL .. 68 LE BYQ ZNYR SNYYRA.. PURFG CNVA QVSS OERNGUVAT.. RZF ERD 1FG ERFCBAQREF",
+        "PNYY:snyy",
+        "NQQE:4478 SNPRIVYYR UJL",
+        "VASB:68 LE BYQ ZNYR SNYYRA.. PURFG CNVA QVSS OERNGUVAT.. RZF ERD 1FG ERFCBAQREF");
+
+    qbGrfg("G3",
+        "QT911\aJrrxyl Cntre Grfg\aGuvf vf n jrrxyl grfg bs gur Qrpnghe-Tenql 911 cntvat naq Nzrevyreg flfgrz.",
+        "PNYY:Jrrxyl Cntre Grfg",
+        "VASB:Guvf vf n jrrxyl grfg bs gur Qrpnghe-Tenql 911 cntvat naq Nzrevyreg flfgrz.");
     
   }
   
