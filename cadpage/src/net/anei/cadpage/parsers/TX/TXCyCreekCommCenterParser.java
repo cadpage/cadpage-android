@@ -20,7 +20,7 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
   
   public TXCyCreekCommCenterParser() {
     super("HARRIS COUNTY", "TX",
-          "Inc:ID? ADDR! Map:MAP! Sub:PLACE? Juris:SRC? Nat:CALL! Units:UNIT! X-St:X");
+          "Inc:ID? ADDR! Map:MAP! Sub:PLACE? Juris:SRC? Nat:CALL! Units:UNIT% X-St:X");
   }
   
   @Override

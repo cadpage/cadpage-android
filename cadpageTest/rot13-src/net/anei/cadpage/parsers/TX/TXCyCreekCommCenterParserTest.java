@@ -98,6 +98,7 @@ Pbagnpg: Wbr Xvss <wgxvss@tznvy.pbz>
 Fraqre: PbzzPragre@pprzf.pbz
 PbzzPragre@pprzf.pbz: ab fhowrpg / 05/20 17:04 J SZ 1960-UP/IRGRENAF ZRZBEVN, ; Znc:331J- Fho: Ang:32Q01-HAX CEBOYRZ - HAX YVSR FG Havgf:Z522 Q52 K-Fg:IRGRENAF ZRZBEVNY
 PbzzPragre@pprzf.pbz / ab fhowrpg / 02/25 13:37 FCEVAT PLCERFF EQ-UP/FU 249 F, ; Znc:329A- Fho: Ang:29O01-ZIV - VAWHEVRF Havgf:Z511 SB368R Q52 K-Fg:FU 249 FO OHIVATUNHFR
+PbzzPragre@pprzf.pbz / ab fhowrpg / 05/01 14:04 7203 BNXJBBQ TYRA OYIQ-UP, PBGGNTRF NG PLCERFFJBBQ ; CBBY Znc:330Y- Fho:BNXJBBQ TYRA Ang:27Q03T-TFJ - PRAGENY JBHAQF Havg
 
 Pbagnpg: Ybev Oebnqevpx <yoebnqevpx@pprzf.pbz>
 Fraqre: PbzzPragre@pprzf.pbz
@@ -2595,6 +2596,16 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:29O01-ZIV - VAWHEVRF",
         "HAVG:Z511 SB368R Q52",
         "K:FU 249 FO / OHIVATUNHFR");
+
+    qbGrfg("G3",
+        "PbzzPragre@pprzf.pbz / ab fhowrpg / 05/01 14:04 7203 BNXJBBQ TYRA OYIQ-UP, PBGGNTRF NG PLCERFFJBBQ ; CBBY Znc:330Y- Fho:BNXJBBQ TYRA Ang:27Q03T-TFJ - PRAGENY JBHAQF Havg",
+        "QNGR:05/01",
+        "GVZR:14:04",
+        "NQQE:7203 BNXJBBQ TYRA OYIQ",
+        "CYNPR:PBGGNTRF NG PLCERFFJBBQ - BNXJBBQ TYRA",
+        "NCG:CBBY",
+        "ZNC:330Y-",
+        "PNYY:27Q03T-TFJ - PRAGENY JBHAQF");
  
   }
   
