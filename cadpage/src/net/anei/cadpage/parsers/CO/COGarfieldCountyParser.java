@@ -14,20 +14,41 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class COGarfieldCountyParser extends SmartAddressParser {
   
-  private static final Pattern ID_PTN = Pattern.compile(" +(\\d{4} \\d{8})$");
+  private static final Pattern ID_PTN = Pattern.compile(" +(\\d{4}[- ]\\d{8})$");
   
   public COGarfieldCountyParser() {
     super(CITY_CODES, "GARFIELD COUNTY", "CO");
     setFieldList("ADDR APT PLACE MAP CITY X CALL ID");
     setupMultiWordStreets(
+        "BAKER HILL",
+        "BENT CREEK",
+        "BLACK SULPHUR",
         "CASTLE VALLEY",
         "CHAIR BAR",
+        "COAL MINE",
+        "D J",
+        "EAGLES NEST",
         "EL DIENTE",
         "FOREST SERVICE",
         "GRAND VALLEY",
+        "GREEN MESA",
+        "HIDDEN VALLEY",
+        "LITTLE ECHO",
+        "MEADOW CREEK",
+        "MEL RAY",
+        "MINERAL SPRINGS",
+        "MOUNT SOPRIS",
+        "QUEEN CITY",
+        "RED MOUNTAIN",
         "RIVER FRONTAGE",
         "RIVER VIEW",
-        "ST JOHN"
+        "SILVER OAK",
+        "SOCCER FIELD",
+        "SPRING WAGON",
+        "ST JOHN",
+        "STONE QUARRY",
+        "WILLOW CREEK",
+        "WILLOW VIEW"
     );
   }
   
@@ -39,7 +60,7 @@ public class COGarfieldCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("CAD Page")) return false;
+    if (!subject.equals("CAD Page") && !subject.equals("EverBridge CAD Page")) return false;
     
     // Remove the  no longer optional call ID
     Matcher match = ID_PTN.matcher(body);
@@ -56,7 +77,7 @@ public class COGarfieldCountyParser extends SmartAddressParser {
     }
     
     // We have to count on the SAP to figure everything else out
-    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS, body, data);
+    parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS, body, data);
     
     // There is almost always one or two city codes, which makes things easier
     // But occasionally there is no city and we have to deal with that
@@ -124,34 +145,46 @@ public class COGarfieldCountyParser extends SmartAddressParser {
       "Code",
       "Fraud Forgery",
       "Mutual Aid Request",
+      "Shots Fired",
       "Suicidal Subject",
+      "Transient",
       "Transport",
       "Warrant",
       "Welfare Check",
       
       "EAbdominal",
-      "EAllergic Reaction ",
+      "EAllergic Reaction",
+      "EAnimal Bites",
       "EAssault",
       "EBack Pain",
       "EBleeding Non traumatic",
+      "EBleeding/Non traumatic",
       "EBreathing Difficulty",
       "EChest Pain",
       "EChoking",
       "EDiabetic",
       "EEnvironmental Emergencies",
       "EEye Problems Injury",
+      "EEye Problems/Injury",
       "EFalls",
       "EGynecology Childbirth",
+      "EGynecology/Childbirth",
       "EHeadache",
       "EMedical Alarm",
       "EMental Emotional Psych",
+      "EMental/Emotional/Psych",
+      "ENeurological/Head Injuries",
       "EOverdose Poisoning",
+      "EOverdose/Poisoning",
       "ESeizures",
       "ESick Unknown",
+      "ESick/Unknown",
       "EStabbing Gunshot",
+      "EStabbing/Gunshot",
       "EStroke",
       "ETrauma with Injury",
       "EUnconscious Syncope",
+      "EUnconscious/Syncope",
       "EUnresponsive",
       
       "FAlarm",
@@ -159,8 +192,11 @@ public class COGarfieldCountyParser extends SmartAddressParser {
       "FGas Leak",
       "FElevator Alarm",
       "FFuel Leak",
+      "FGas Well Fire",
       "FHazMat Incident",
       "FOdor Check",
+      "FPower Pole",
+      "FRescue Assignment",
       "FRiver Rescue",
       "FSmoke Check",
       "FStructure",
@@ -168,6 +204,7 @@ public class COGarfieldCountyParser extends SmartAddressParser {
   );
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CARB", "CARBONDALE",
       "GS",   "GLENWOOD SPRINGS",
       "NC",   "NEW CASTLE",
       "PARA", "PARACHUTE",
