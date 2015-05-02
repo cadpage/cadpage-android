@@ -12,7 +12,7 @@ public class CTWindhamCountyCParser extends FieldProgramParser {
 
   public CTWindhamCountyCParser() {
     super("WINDHAM COUNTY", "CT",
-          "CITY ADDR CALL X! INFO/N+");
+          "CITY ADDR PLACE APT CALL CALL+? X! TIME");
   }
   
   @Override
@@ -23,24 +23,38 @@ public class CTWindhamCountyCParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    return parseFields(body.split(" \\\\ "), data);
+    String[] flds = body.split(" \\\\ ");
+    return parseFields(flds, data);
   }
-  
+
   @Override
   public Field getField(String name) {
     if (name.equals("X")) return new MyCrossField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     return super.getField(name);
   }
   
   private static final Pattern CROSS_PTN = Pattern.compile("\\(X-STS +(?:Map ([^ ]+) +)?(.*)\\)");
   private class MyCrossField extends CrossField {
+    
     @Override
-    public void parse(String field, Data data) {
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
       Matcher match = CROSS_PTN.matcher(field);
-      if (!match.matches()) abort();
+      if (!match.matches()) return false;
       String map = match.group(1);
       if (map != null && !map.equals("-1")) data.strMap = map;
       data.strCross = match.group(2).replace('\\', '/').replace(".", "").trim();
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
     
     @Override
