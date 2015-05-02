@@ -922,7 +922,6 @@ choyvp pynff VYYnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
   
-  //url pbzcvyre guvf vf gur znva pynff
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj VYYnxrPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }

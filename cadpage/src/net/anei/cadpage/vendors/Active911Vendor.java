@@ -299,6 +299,7 @@ class Active911Vendor extends Vendor {
       "US/IL/FairviewHeights",            "ILStClairCountyB",
       "US/IL/GlenCarbon",                 "ILMadisonCounty",
       "US/IL/KaneCounty",                 "ILKaneCounty",
+      "US/IL/LakeCounty",                 "ILLakeCounty ",
       "US/IL/OFallon",                    "ILOFallon",
       "US/IL/Skokie",                     "ILCookCountyB",
       "US/IN/BartholomewCounty",          "INBartholomewCounty",
