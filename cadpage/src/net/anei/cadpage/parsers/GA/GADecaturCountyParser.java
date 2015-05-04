@@ -17,7 +17,7 @@ public class GADecaturCountyParser extends SmartAddressParser {
   }
   
   private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<![ \\*])(?=\\*)");
-  private static final Pattern JUNK_PTN = Pattern.compile("^[- \\*\\.]+");
+  private static final Pattern JUNK_PTN = Pattern.compile("^(?:[- \\*\\.]+|AT +)", Pattern.CASE_INSENSITIVE);
   
   public boolean parseMsg(String body, Data data) {
     if (!body.startsWith("DG911\n")) return false;
@@ -48,17 +48,44 @@ public class GADecaturCountyParser extends SmartAddressParser {
         body = JUNK_PTN.matcher(body).replaceFirst("");
       }
       
-      //  One time they put both the call and address in the first part :(
+      //  Occasionally both the call and address in the first part,
+      //  in either order :(
+      //  Now they have done twice in a different order :( :(
       else {
         pt = data.strCall.lastIndexOf(" - ");
         if (pt >= 0) {
-          String addr = data.strCall.substring(pt+3).trim();
-          if (isValidAddress(addr)) {
-            data.strCall = data.strCall.substring(0,pt).trim();
-            parseAddress(addr, data);
+          String part1 = data.strCall.substring(0,pt).trim();
+          String part2 = data.strCall.substring(pt+3).trim();
+          if (body.startsWith(part1)) {
+            body = body.substring(part1.length()).trim();
+            body = JUNK_PTN.matcher(body).replaceFirst("");
+          }
+          if (body.startsWith(part2)) {
+            body = body.substring(part2.length()).trim();
+            body = JUNK_PTN.matcher(body).replaceFirst("");
+          }
+          if (isValidAddress(part1)) {
+            parseAddress(part1, data);
+            data.strCall = part2;
             data.strSupp = body;
             return true;
+          } else if (isValidAddress(part2)) {
+           parseAddress(part2, data);
+           data.strCall = part1;
+           data.strSupp = body;
+           return true;
           }
+        }
+      }
+      
+      // And sometimes the first line contains the address :(
+      if (isValidAddress(data.strCall)) {
+        parseAddress(data.strCall, data);
+        if (body.length() <= 40) {
+          data.strCall = body;
+        } else {
+          data.strCall = "ALERT";
+          data.strSupp = body;
         }
       }
     }
