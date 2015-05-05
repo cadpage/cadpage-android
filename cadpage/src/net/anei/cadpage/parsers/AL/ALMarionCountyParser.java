@@ -88,6 +88,12 @@ public class ALMarionCountyParser extends FieldProgramParser {
     "SOUTH HALEYVILLE",
 
     // Ghost town
-    "PIKEVILLE"
+    "PIKEVILLE",
+    
+    //missed places
+    "SHOTTSVILLE",
+    "SHILOH",
+    "BYRD", 
+    "PEA RIDGE"
   };
 }
