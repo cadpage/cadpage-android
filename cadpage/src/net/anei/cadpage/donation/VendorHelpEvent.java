@@ -16,7 +16,8 @@ public class VendorHelpEvent extends DonateScreenEvent {
   
   private VendorHelpEvent(int status) {
     super(AlertStatus.GREEN, R.string.vendor_help_title, R.string.vendor_help_text,
-           VendorRegisterEvent.instance(status));
+           VendorRegisterEvent.instance(status),
+           VendorIgnoreEvent.instance());
   }
   
   private static final VendorHelpEvent[] instances = new VendorHelpEvent[]{

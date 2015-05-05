@@ -15,7 +15,7 @@ public class VendorIgnoreEvent extends DonateEvent {
   
    @Override
   public boolean isEnabled() {
-    return super.isEnabled();
+    return true;
   }
 
   @Override
