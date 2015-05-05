@@ -15,7 +15,7 @@ public class FLCalhounCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "woody@usa-software.com,calhouncad@gmail.com";
+    return "woody@usa-software.com,calhouncad@gmail.com,CalhounCAD@CalhounSheriff.com";
   }
   
   @Override

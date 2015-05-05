@@ -1199,11 +1199,15 @@ public abstract class MsgParser {
   */
  public static Properties buildCodeTable(String[] table) {
    Properties props = new Properties();
-   for (int ndx = 0; ndx < table.length-1; ndx+=2) {
-     props.put(table[ndx], table[ndx+1]);
-   }
+   addCodeTable(props, table);
    return props;
  }
+
+public static void addCodeTable(Properties props, String[] table) {
+  for (int ndx = 0; ndx < table.length-1; ndx+=2) {
+     props.put(table[ndx], table[ndx+1]);
+   }
+}
  
  /**
   * Look for an abbreviated form of a full street name.  If found, expand it to the full
