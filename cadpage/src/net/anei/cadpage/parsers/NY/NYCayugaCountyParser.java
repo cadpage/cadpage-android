@@ -16,8 +16,10 @@ public class NYCayugaCountyParser extends FieldProgramParser {
           "ADDR_PFX+? ADDR/iSC INFO/N+? UNIT DATETIME!");
     setupCallList(CALL_LIST);
     setupMultiWordStreets(
+        "BAPTIST CORNERS",
         "BAPTIST HILL",
         "BUCK POINT",
+        "BUCKLEY HILL",
         "BURTIS POINT",
         "CENTER STREET",
         "CHERRY STREET",
@@ -27,6 +29,7 @@ public class NYCayugaCountyParser extends FieldProgramParser {
         "FRANKLIN STREET",
         "GENESEE STREET",
         "GRANT AVENUE",
+        "HIDDEN BROOK",
         "JOHN SMITH",
         "MUTTON HILL",
         "PINE RIDGE",
@@ -37,6 +40,7 @@ public class NYCayugaCountyParser extends FieldProgramParser {
         "WEEDSPORT SENNETT",
         "WEST LAKE",
         "WHITE BIRCH"
+
     );
   }
   
@@ -114,6 +118,7 @@ public class NYCayugaCountyParser extends FieldProgramParser {
       "GENERAL ILLNESS",
       "HAZARD - FIRE",
       "INJURY FROM A FALL",
+      "INVESTIGATE - FIRE",
       "MEDICAL EMERGENCY",
       "MVAPI",
       "OUTSIDE FIRE",
