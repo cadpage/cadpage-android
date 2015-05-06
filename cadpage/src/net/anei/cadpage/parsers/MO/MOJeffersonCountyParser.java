@@ -25,7 +25,7 @@ public class MOJeffersonCountyParser extends FieldProgramParser {
       address = callerAddress;
       callerAddress = null;
     }
-    if (address == null) return false;
+    if (address == null) return true;
     
     if (callerAddress == null) {
       parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, address, data);
@@ -41,7 +41,7 @@ public class MOJeffersonCountyParser extends FieldProgramParser {
       }
       else if (res2.getStatus() > stat1) {
         res2.getData(data);
-        if (address.startsWith("@")) address = address.substring(1).trim();
+        address = stripFieldStart(address, "@");
         data.strPlace = append(address, " - ", data.strPlace);
       }
       else {
@@ -58,6 +58,13 @@ public class MOJeffersonCountyParser extends FieldProgramParser {
       }
     }
     return true;
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CADDR")) return new MyCallerAddressField();
+    return super.getField(name);
   }
   
   private class MyAddressField extends AddressField {
@@ -109,15 +116,8 @@ public class MOJeffersonCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return null;
+      return "ADDR APT CITY INFO";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("CADDR")) return new MyCallerAddressField();
-    return super.getField(name);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
@@ -131,7 +131,9 @@ public class MOJeffersonCountyParser extends FieldProgramParser {
     "PEV",  "PEVELY",
     "CCTY", "CRYSTAL CITY",
     "KMM",  "KIMMSWICK",
-    "OLYV", "OLYMPIAN VILLAGE ",
+    "OLYV", "OLYMPIAN VILLAGE",
+    "SLCO", "ST LOUIS COUNTY",
+    "WACO", "",   // ???
 
     "ARNOLD",           "ARNOLD",
     "BYRNES MILL",      "BYRNES MILL",

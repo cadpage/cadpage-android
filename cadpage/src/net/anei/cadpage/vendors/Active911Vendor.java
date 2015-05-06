@@ -460,6 +460,7 @@ class Active911Vendor extends Vendor {
       "US/MO/FranklinCounty",             "MOFranklinCounty",
       "US/MO/GreeneCounty",               "MOGreeneCounty",
       "US/MO/JeffersonCity",              "MOJeffersonCity",
+      "US/MO/JeffersonCounty",            "MOJeffersonCounty",
       "US/MO/LincolnCounty",              "MOLincolnCounty",
       "US/MO/MaconCounty",                "MOMaconCounty",
       "US/MO/MarshfieldFire",             "MOWebsterCounty",
