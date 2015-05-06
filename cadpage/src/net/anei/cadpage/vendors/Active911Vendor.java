@@ -204,6 +204,7 @@ class Active911Vendor extends Vendor {
       "US/CA/Kern",                       "CAKernCounty",
       "US/CA/LakeCounty",                 "CALakeCounty",
       "US/CA/LifecommCellPaging",         "CASanJoaquinCounty",
+      "US/CA/MarinCountySheriff",         "CAMarinCounty",
       "US/CA/MendocinoCounty",            "CAMendocinoCounty",
       "US/CA/Monterey",                   "CAMontereyCountyParser",
       "US/CA/OrovillePD",                 "CAOroville",
