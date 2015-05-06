@@ -1194,11 +1194,6 @@ Pnyy#  -SVER- 4/10/2015 08:04:57       Ybpngvba: 9300 OYBPX BS FGNGR UVTUJNL 6 A
 *******************************************************************************
 * QvfcngpuN38Cnefre fhopynffrf
 *******************************************************************************
-*******************************************************************************
-Yvzrfgbar Pbhagl, NY (NYYvzrfgbarPbhaglCnefre)
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-01448\a PnyyGlcr: R-Purfg Cnva (abar Genhzngvp)\a Nqqerff: 21063 ZLEGYRJBBQ QE, 333, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-01203\a PnyyGlcr: R-Purfg Cnva (abar Genhzngvp)\a Nqqerff: 19797 RYXGBA EQ, 333, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-01179\a PnyyGlcr: R-Noqbzvany Cnva / Ceboyrzf\a Nqqerff: 21063 ZLEGYRJBBQ QE, 333, NY
 ***************************************************************************
 Jneera Pbhagl, VN (VNJneeraPbhaglCnefre)
 F:VAQS Z:PSF#: 2013-01188\aPnyyGlcr: ZRQVPNY / NZOHYNAPR PNYY\aNqqerff: 1203 A R FG, VN
@@ -3444,6 +3439,11 @@ Yrr Pbhagl, NY (NYYrrPbhaglCnefre)
 1504-1037;700IS(QF)03:21:38|700IS(VAS)03:22:06|700IS(VAS)03:25:35|700IS(VAS)03:30:24|700IS(PY)03:45:25|
 2722 YRR EQ 188 NHOHEA;1504-1037;10-52 NZOHYNAPR ARRQRQ;trb:32.5839251267849, -85.6099089967961;2 lbz univat na nfguzn nggnpx
 1504-0835;700IS(QF)11:38:24|700IS(VAS)11:38:28|700IS(VAS)11:39:21|700IS(VAS)11:53:14|700IS(PY)12:27:54|
+***************************************************************************
+Yvzrfgbar Pbhagl, NY (NYYvzrfgbarPbhaglCnefre)
+(Zbgbe Iruvpyr Pbyyvfvba) 7GU FG NEQSQ
+(Certnanapl/Puvyqovegu/Zvfpneevntr) 26981 6GU FG, NEQZBER, NY 35739 NEQSQ
+(Fvpx Crefba (Fcrpvsvp Qvntabfvf)) 28335 PRQNE UVYY EQ, NEQZBER, NY 35739 NEQSQ
 ***************************************************************************
 Znqvfba Pbhagl, NY (NYZnqvfbaPbhaglCnefre)
 VCF V/Cntr Abgvsvpngvba / Ybp: 7583 JNYY GEVNAN UJL ZQPB: @HETRAG ZRQPNER RIG#: P1009726 GLCR: Z GVZR: 13:36:55
