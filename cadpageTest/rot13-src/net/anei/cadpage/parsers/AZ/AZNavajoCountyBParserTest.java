@@ -157,10 +157,10 @@ Fraqre: @pv.fubj-ybj.pn.hf
 (Qvfcngpurq Pnyy ()) UJL 61/R BS TRARENY FGBER *  *  *  * PURFG CN *  * 61LBS UNIVAT PURFG CNVA, UK BS BCRA URNEG FHET VA GUR CNFG/BA UJL 61 BA GBC BS GUR UVYY, R BS GUR FGNAQSBEQ TRARENY FGBER/YBBX SBE N JUVG GBLG FRQNA, GURL JVYY YRNQ GUR NZOHYNAPR VA
 */
 
-choyvp pynff NMFubjYbjCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff NMAninwbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp NMFubjYbjCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "FUBJ YBJ", "NM");
+  choyvp NMAninwbPbhaglOCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "ANINWB PBHAGL", "NM");
   }
 
   @Grfg
@@ -169,6 +169,6 @@ choyvp pynff NMFubjYbjCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj NMFubjYbjCnefreGrfg().trarengrGrfgf("G1");
+    arj NMAninwbPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }
 }
