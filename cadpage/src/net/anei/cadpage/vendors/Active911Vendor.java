@@ -472,6 +472,7 @@ class Active911Vendor extends Vendor {
       "US/MO/PolkCounty",                 "MOPolkCounty",
       "US/MO/PoplarBluffPD",              "MOPoplarBluff",
       "US/MO/RayCounty",                  "MORayCounty",
+      "US/MO/Raytown",                    "MOJacksonCountyB",
       "US/MO/Rejis",                      "MOStLouisCountyE",
       "US/MO/SouthernBoone",              "MOBooneCounty",
       "US/MO/StCharlesCounty",            "MOStCharlesCounty",
