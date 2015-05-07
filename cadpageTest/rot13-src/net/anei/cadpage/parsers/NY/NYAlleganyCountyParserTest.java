@@ -210,7 +210,7 @@ choyvp pynff ALNyyrtnalPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:BQBE (FGENATR/HAXABJA)",
         "NQQE:17 TERRA",
         "PVGL:PHON IVYYNTR",
-        "K:ZRQOHEL NIR R ZNVA",
+        "K:ZRQOHEL NIR / R ZNVA",
         "HAVG:PHO0 PHON SVER FGN 502 PHON CQ");
 
     qbGrfg("G10",
@@ -429,7 +429,7 @@ choyvp pynff ALNyyrtnalPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PVGVMRA NFFVFG/FREIVPR PNYY",
         "NQQE:9 UNEQL",
         "PVGL:PHON IVYYNTR",
-        "K:FVOYRL NIR ZNCYR",
+        "K:FVOYRL NIR / ZNCYR",
         "HAVG:PHO0 PHON SVER FGN");
 
     qbGrfg("G28",

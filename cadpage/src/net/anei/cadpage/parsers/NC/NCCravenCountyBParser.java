@@ -16,6 +16,7 @@ public class NCCravenCountyBParser extends SmartAddressParser {
   private static final Pattern UNIT_PTN = Pattern.compile("(?:(?:EMSA|STA ?\\d+[A-Z]?|Headquarters) +)+");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{8}\\b");
   private static final Pattern GPS_PTN = Pattern.compile("\\b\\s*(?:E911 Info .*)?(?:(3[45]\\.\\d{4,} +-7[67]\\.\\d{4,})|-361 +-361)\\b");
+  private static final Pattern OFF_HWY_PTN = Pattern.compile("OFF +HWY +\\d+\\b");
   
   public NCCravenCountyBParser() {
     super(CITY_LIST, "CRAVEN COUNTY", "NC");
@@ -73,7 +74,7 @@ public class NCCravenCountyBParser extends SmartAddressParser {
       return parseAddressAndCall(addr, data);
     }
     
-    // If we find GPS coordinates in the forward section, the separate the
+    // If we find GPS coordinates in the forward section, they separate the
     // address from the call description
     setFieldList("UNIT ADDR APT CITY GPS CALL ID INFO");
     data.strSupp = trail;
@@ -81,7 +82,7 @@ public class NCCravenCountyBParser extends SmartAddressParser {
     if (match.find()) {
       String gps = match.group(1);
       if (gps != null) setGPSLoc(gps,data);
-      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, addr.substring(0,match.start()).trim(), data);
+      parseOnlyAddress(addr.substring(0,match.start()).trim(), data);
       data.strCall = addr.substring(match.end()).trim();
       return true;
     }
@@ -89,17 +90,33 @@ public class NCCravenCountyBParser extends SmartAddressParser {
     return parseAddressAndCall(addr, data);
   }
 
-  protected boolean parseAddressAndCall(String addr, Data data) {
+  private boolean parseAddressAndCall(String addr, Data data) {
     String call = CALL_SET.getCode(addr);
     if (call != null) {
       data.strCall = call;
       addr = addr.substring(0,addr.length()-call.length()).trim();
-      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, addr, data);
+      parseOnlyAddress(addr, data);
       return true;
     }
-    parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, addr, data);
-    data.strCall = getLeft();
+    
+    Matcher match = OFF_HWY_PTN.matcher(addr);
+    if (match.lookingAt()) {
+      data.strAddress = match.group();
+      data.strCall = addr.substring(match.end()).trim();
+    } else {
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, addr, data);
+      data.strCall = getLeft();
+    }
     return (data.strCall.length() > 0);
+  }
+  
+  private void parseOnlyAddress(String addr, Data data) {
+    Matcher match = OFF_HWY_PTN.matcher(addr);
+    if (match.matches()) {
+      data.strAddress = addr;
+    } else {
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, addr, data);
+    }
   }
   
   @Override

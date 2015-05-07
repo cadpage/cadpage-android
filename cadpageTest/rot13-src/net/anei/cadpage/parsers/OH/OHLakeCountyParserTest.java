@@ -476,7 +476,7 @@ choyvp pynff BUYnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybpngvba: 2629 ZBEAVATFGNE QE ZN Pebff Fgerrgf: JVAGREUNIRA QE QEVIRJNL GLCR PBQR: PURFG Fho Glcr: CNVAF GVZR: 10:21:45",
         "NQQE:2629 ZBEAVATFGNE QE",
         "PVGL:ZNQVFBA",
-        "K:JVAGREUNIRA QE QEVIRJNL",
+        "K:JVAGREUNIRA QE / QEVIRJNL",
         "PNYY:PURFG - CNVAF",
         "GVZR:10:21:45");
 

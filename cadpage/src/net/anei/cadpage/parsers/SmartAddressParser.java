@@ -1843,10 +1843,12 @@ public abstract class SmartAddressParser extends MsgParser {
       int mark = result.endAll;
       if (!isType(mark, ID_MILE_MARKER) && findConnector(mark)<0) {
         
-        boolean parseToEnd = !padField && parseAddressToCity(sAddr, ndx+1, result);
+        boolean parseToEnd = !padField && parseAddressToCity(sAddr, ndx, result);
         if (parseToEnd) {
-          result.insertAmp = mark;
-          ndx = result.endAll;
+          if (ndx < result.endAll) {
+            result.insertAmp = mark;
+            ndx = result.endAll;
+          }
         } else {
           ndx = findRoadEnd(ndx, 0);
           if (ndx >= 0) {

@@ -18,6 +18,9 @@ public class KSButlerCountyParser extends FieldProgramParser {
   public KSButlerCountyParser() {
     super(CITY_LIST, "BUTLER COUNTY", "KS",
            "CALL! ADDRESS:ADDR/iS! MAP_PAGE:MAP CROSS_ST:X MAP_PAGE:MAP NAME:NAME RP_PHONE_NUMBER:PHONE NARR:INFO");
+    setupSpecialStreets(
+        "TRAFFICWAY",
+        "TRAFFIC WAY");
   }
   
   @Override
@@ -64,6 +67,39 @@ public class KSButlerCountyParser extends FieldProgramParser {
     return true;
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern ADDR_HWY_PTN = Pattern.compile("(?!\\d+ )(([NS][EW] +)?(?![NS][EW] ).*?) ([NS][EW] +)?(HWY +\\d+)", Pattern .CASE_INSENSITIVE);
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      // There is one implied intersection combination that the SAP just cannot handle 
+      Matcher match = ADDR_HWY_PTN.matcher(field);
+      if (match.matches()) {
+        String part1 = match.group(1).trim();
+        String pfx1 = match.group(2);
+        String pfx2 = match.group(3);
+        String part2 = match.group(4).trim();
+        if (pfx2 != null) {
+          if (pfx1 == null) {
+            part1 = pfx2 + part1;
+          } else {
+            part2 = pfx2 + part2;
+          }
+        }
+        data.strAddress = part1 + " & " + part2;
+      } else {
+        super.parse(field, data);
+      }
+    }
+  }
+  
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
@@ -74,12 +110,6 @@ public class KSButlerCountyParser extends FieldProgramParser {
     public String getFieldNames() {
       return "CODE INFO";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
   
   private static final String[] CITY_LIST = new String[]{

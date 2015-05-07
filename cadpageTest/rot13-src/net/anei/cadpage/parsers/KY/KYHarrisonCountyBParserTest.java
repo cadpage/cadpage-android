@@ -1,5 +1,7 @@
 cnpxntr arg.narv.pnqcntr.cnefref.XL;
 
+vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
+
 vzcbeg bet.whavg.Grfg;
 
 
@@ -110,7 +112,7 @@ UNEEVFBA_PBHAGL_911:P OHEA>PBAGEBY OHEA 1089 FNYRZ CXR XRYYV QBLYR 8595882700 Pn
 UNEEVFBA_PBHAGL_911:P OHEA>PBAGEBY OHEA 257 ABEGUFVQR QE PLAGUVNAN PUNEYRF URQTRF 8592988863 Znc: Tevqf:0,0 Pnq: 2015-0000007947
 */
 
-choyvp pynff XLUneevfbaPbhaglOCnefreGrfg rkgraqf XLFgngrCbyvprCnefreGrfg {
+choyvp pynff XLUneevfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp XLUneevfbaPbhaglOCnefreGrfg() {
     frgCnefre(arj QhzzlCnefre(), "UNEEVFBA PBHAGL", "XL");
