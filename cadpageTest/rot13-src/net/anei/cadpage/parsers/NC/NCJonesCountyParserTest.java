@@ -4261,7 +4261,7 @@ choyvp pynff APWbarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G31",
         "Pbzzhavpngvba: 9 ZVGPURYY JBBGRA NCGF XVAFGBA 800 R JNFUVATGBA NIR S-BGURES BGURE SVER Yvar16= Yvar17= Yvar18=",
-        "NQQE:9 ZVGPURYY JBBGRA",
+        "NQQE:9 ZVGPURYY JBBGRA NCGF",
         "PVGL:XVAFGBA",
         "K:800 R JNFUVATGBA NIR",
         "PBQR:S-BGURES",
@@ -4532,7 +4532,7 @@ choyvp pynff APWbarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G63",
         "Pbzzhavpngvba: 13 ZVGPURYY JBBGRA NCGF O XVAFGBA 800 R JNFUVATGBA NIR R-OERNGUVAT 6 - OERNGUVAT CEBOYRZF Yvar16= Yvar17= Yvar18=",
-        "NQQE:13 ZVGPURYY JBBGRA",
+        "NQQE:13 ZVGPURYY JBBGRA NCGF",
         "NCG:O",
         "PVGL:XVAFGBA",
         "K:800 R JNFUVATGBA NIR",
@@ -4557,7 +4557,7 @@ choyvp pynff APWbarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G66",
         "Pbzzhavpngvba: 7 ZVGPURYY JBBGRA NCGF U XVAFGBA 800 R JNFUVATGBA NIR R-PBAIHYFVBA 12 - PBAIHYFVBAF/FRVMHERF Yvar16= Yvar17= Yvar18=",
-        "NQQE:7 ZVGPURYY JBBGRA",
+        "NQQE:7 ZVGPURYY JBBGRA NCGF",
         "NCG:U",
         "PVGL:XVAFGBA",
         "K:800 R JNFUVATGBA NIR",

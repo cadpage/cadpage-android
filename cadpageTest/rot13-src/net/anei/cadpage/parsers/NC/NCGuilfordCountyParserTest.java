@@ -14867,7 +14867,8 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1505 OEVQSBEQ CXJL",
         "NCG:2Z",
         "PVGL:TERRAFOBEB",
-        "K:OEVQSBEQ YNXR PVE & NOOVATGBA CYNPR NCGF (QEVIRJNL)");
+        "K:OEVQSBEQ YNXR PVE",
+        "VASB:NOOVATGBA CYNPR NCGF (QEVIRJNL)");
 
     qbGrfg("G73",
         "(Grkg Zrffntr) PNQ:NPPVQRAG JVGU CREFBANY VAWHEL;221 V-40R\\OHF 85A;TERRAFOBEB",

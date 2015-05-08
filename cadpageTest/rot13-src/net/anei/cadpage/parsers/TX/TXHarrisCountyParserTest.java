@@ -3574,7 +3574,7 @@ choyvp pynff GKUneevfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "vasb: 80 lbn srznyr univat frirer fgbznpu cnva, unf orra irel fvpx yngryl; fur vf ba bkltra",
 
         "PNYY:Nzohynapr Arrqrq",
-        "NQQE:2800 Ivpgbel Qe & Bnx Znabe",
+        "NQQE:2800 Ivpgbel Qe & Bnx Znabe Ncgf",
         "ZNQQE:2800 Ivpgbel Qe",
         "NCG:115",
         "PVGL:Znefunyy",

@@ -1324,9 +1324,9 @@ choyvp pynff ZQQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PG) QBE911:HAXABJA CEBOYRZ 6206 FUVYBU PUHEPU UHEYBP EQ @FUVYBU UBHFR FE NCGF NCG 107 UHEY OBK:6-3 QHR:C600 N6-1 :QP",
         "PNYY:HAXABJA CEBOYRZ",
         "NQQE:6206 FUVYBU PUHEPU UHEYBP EQ",
-        "NCG:NCG 107",
+        "NCG:107",
         "PVGL:UHEYBPX",
-        "CYNPR:FUVYBU UBHFR FE",
+        "CYNPR:FUVYBU UBHFR FE NCGF",
         "OBK:6-3",
         "HAVG:C600 N6-1");
 
@@ -1342,9 +1342,9 @@ choyvp pynff ZQQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PG) QBE911:HAXABJA CEBOYRZ 6206 FUVYBU PUHEPU UHEYBP EQ @FUVYBU UBHFR FE NCGF NCG 107 UHEY OBK:6-3 QHR:C600 N6-1 :QP",
         "PNYY:HAXABJA CEBOYRZ",
         "NQQE:6206 FUVYBU PUHEPU UHEYBP EQ",
-        "NCG:NCG 107",
+        "NCG:107",
         "PVGL:UHEYBPX",
-        "CYNPR:FUVYBU UBHFR FE",
+        "CYNPR:FUVYBU UBHFR FE NCGF",
         "OBK:6-3",
         "HAVG:C600 N6-1");
 

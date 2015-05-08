@@ -3278,8 +3278,8 @@ choyvp pynff NYGnyynqrtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G88",
         "506 GNYYNQRTN QBJAF NCGF NCG P GNYYNQRTN; 2014-047181; 10:25:46; RZF - HAPBAFPVBHF-HAERFCBAFVIR-FLAPBCR",
-        "NQQE:506 GNYYNQRTN QBJAF",
-        "NCG:NCG P",
+        "NQQE:506 GNYYNQRTN QBJAF NCGF",
+        "NCG:P",
         "PVGL:GNYYNQRTN",
         "VQ:2014-047181",
         "GVZR:10:25:46",
@@ -5085,8 +5085,7 @@ choyvp pynff NYGnyynqrtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G31",
         "1 FHAFRG NCGF 6 PUVYQREFOHET;2014-048339;17:55:15;RZF - OERNGUVAT QVSSVPHYGL;56 LEB S QVSS OERNGUVAT",
-        "NQQE:FHAFRG",
-        "NCG:6",
+        "NQQE:FHAFRG NCGF 6",
         "PVGL:PUVYQREFOHET",
         "VQ:2014-048339",
         "GVZR:17:55:15",
@@ -5686,8 +5685,8 @@ choyvp pynff NYGnyynqrtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G99",
         "10 UHAGRE TYRA NCGF NCG 10 PUVYQREFOHET; 2014-043775; 01:56:43; RZF - FVPX-HAXABJA",
-        "NQQE:10 UHAGRE TYRA",
-        "NCG:NCG 10",
+        "NQQE:10 UHAGRE TYRA NCGF",
+        "NCG:10",
         "PVGL:PUVYQREFOHET",
         "VQ:2014-043775",
         "GVZR:01:56:43",
@@ -5695,7 +5694,7 @@ choyvp pynff NYGnyynqrtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G100",
         "6 FHAFRG NCGF PUVYQREFOHET; 2014-043706; 19:58:20; RZF - FVPX-HAXABJA",
-        "NQQE:6 FHAFRG",
+        "NQQE:6 FHAFRG NCGF",
         "PVGL:PUVYQREFOHET",
         "VQ:2014-043706",
         "GVZR:19:58:20",

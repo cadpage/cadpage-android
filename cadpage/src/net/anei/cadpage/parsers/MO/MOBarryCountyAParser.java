@@ -56,6 +56,7 @@ public class MOBarryCountyAParser extends DispatchB2Parser {
       "911 NEWTON CO",
       "ALARMS",
       "ASSIST",
+      "ASSIST A PERSON",
       "ASSIST OTHER AGENCY",
       "BRUSH FIRE",
       "CHECK PERSON",

@@ -37,6 +37,7 @@ public class NCJonesCountyParser extends DispatchA3Parser {
 
   private static final Pattern MASTER = Pattern.compile("(.*?)(?: +(\\d{5}))?(?: +Geo Comment:(.*?))? +([EFL]-[^ ]+|TRAFFIC STOP)\\b(.*?)(?: +([,A-Z0-9]*(?:[A-Z]+\\d+|FD|[^L]EMS|NCHP)))?");
   private static final Pattern LEAD_DOTS = Pattern.compile("^[ \\.]+");
+  private static final Pattern ADDR_APTS = Pattern.compile("(.* APTS) +([^ ]+)");
   private static final Pattern CLEAN_CROSS = Pattern.compile("[ /]*(.*?)[ /]*");
 
   private class MyMashField extends Field {
@@ -62,6 +63,11 @@ public class NCJonesCountyParser extends DispatchA3Parser {
 
       addr = addr.replace("//", "&").replace(" N/S ", " ").replace(" E/W ", " ");
       parseAddress(StartType.START_ADDR, FLAG_PREF_TRAILING_DIR | FLAG_RECHECK_APT| FLAG_CROSS_FOLLOWS, addr, data);
+      mat = ADDR_APTS.matcher(data.strAddress);
+      if (mat.matches()) {
+        data.strAddress = mat.group(1);
+        data.strApt = append(mat.group(2), "-", data.strApt);
+      }
 
       // if no city has been selected yet, check whatsLeft for the city and extract it.
       String whatsLeft = getLeft();
