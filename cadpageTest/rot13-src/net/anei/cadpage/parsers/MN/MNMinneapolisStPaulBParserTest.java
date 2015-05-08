@@ -103,31 +103,6 @@ EP:Eha#1205/PNYY:23:12/QVFC:23:29/RAE:23:29/NGF:23:34/GEN:23:47/NGQ:00:15/ZVYRF:
 EP:Oenib/Eha# 1208/NYF/Snyyf/2000 BNXQNYR NIR//310 N/JRFG FG CNHY/00:06/<Haxabja>/81 Z SNYY/ URNQ YNP/////K=Zraqbgn Eq R&Haxabja Fgerrg jvgu VQ 164564
 EP:Puneyvr/Eha# 1207/NYF/Qvnorgvp Ceboyrzf/1945 BNXQNYR NIR//114/JRFG FG CNHY/23:37/<Haxabja>/74 S QVNORGVP/ YRGUNETVP/////K=Haxabja Fgerrg jvgu VQ 197126&Haxabja Fgerrg jvgu VQ 164566
 
-QvfcngpuCebDNCnefre fhopynfff
-
-Gur onfr cnefre pynff jvyy abg unaqyr gur cevbevgl pbqr ng gur fgneg bs gur zrffntr, vg vtaberf rirelguvat hch gb
-naq vapyhqvat gur Eha# fvtangher.  Lbh jvyy unir gb unaqyr gung va cnefrZft(), gura bireevqr trgCebtenz() gb
-nqq FEP gb gb gur cebtenz fgevat.  Yrg'f nyfb erzbir zhygvcyr oynaxf va cnefrZft().
-
-PNYY PNYY PNYY2+? NQQE *( CYNPR NCG/M PVGL | NCG PVGL | CYNPR? PVGL/L ) GVZR! VASB+
-
-PNYY2 vf pnyy svryq  jvgu fcrpvsvp inyvqngvba cnggrea zngpuvat Bireqbfr|Vatrfgvba
-be nalguvat ryfr jr svaq gung vaibyirf cnegf n n pnyy qrfevcgvba gung jnf ragrerq
-jvgu rzorqqrq fynffurf.
-Nyfb nccraq jvgu "/" vafgrnq bs hfhny " / "
-
-NCG svryq inyvqngba nalguvat yrff guna 6 punef
-
-Arrq pvgl yvfg
-
-Nyfb, cnefre jvyy arrq gb bireevqr trgYbpAnzr() gb erghea n avpr cnefre anzr.  Jr unir 
-gb qb guvf nalgvzr gur ybpngvba cnefre anzr pnaabg or qrevirq sebz gur qrsnhyg
-pbhagl naq fgngr
-
-Nqq inyvqngvba Cnggrea sbe GVZR.
-
-Bireevqr VASB svryq, purpx sbe K= fvtangher naq nffvta nf pebff fgerrg
-
 */
 
 choyvp pynff ZAZvaarncbyvfFgCnhyOCnefreGrfg rkgraqf OnfrCnefreGrfg {

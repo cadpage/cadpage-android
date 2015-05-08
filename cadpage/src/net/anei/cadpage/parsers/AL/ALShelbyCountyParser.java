@@ -15,8 +15,8 @@ public class ALShelbyCountyParser extends FieldProgramParser {
   private static final Pattern PREFIX_PTN = Pattern.compile("^(?:NEW - |Arns Alert\n) *", Pattern.CASE_INSENSITIVE);
   
   public ALShelbyCountyParser() {
-    super(CITY_CODES, "SHELBY COUNTY", "AL",
-           "( ID DATETIME | DATETIME ID ) SRC_UNIT CALL ADDR! APT X NAME");
+    super("SHELBY COUNTY", "AL",
+          "( ID DATETIME | DATETIME ID ) SRC_UNIT CALL ADDR! APT X NAME");
   }
   
   @Override
@@ -75,6 +75,7 @@ public class ALShelbyCountyParser extends FieldProgramParser {
   private static final Pattern ADDR_PLACE_PTN = Pattern.compile("(LL\\([-+,0-9\\.:]+\\) *|[^:]+): ?@?(.*)");
   private static final Pattern ADDR_APT_PTN = Pattern.compile("[ ,:]+(?:(?:APT|RM|ROOM|UNIT|SUITE?)(?![A-Z]) *([^ ]+(?: +FLR? *[^ ]+)?)|((?:LOT|FL) *[^ ]+)|(?<=,) *(\\d+[A-Z]?))$");
   private static final Pattern ADDR_UNIT_PTN = Pattern.compile("^[A-Z]{2}FD\\b");
+  private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*?) *\\b([A-Z][A-Z0-9]{3}) ([A-Z]{3})");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -82,7 +83,9 @@ public class ALShelbyCountyParser extends FieldProgramParser {
       // Check special city src: @place:address pattern
       Matcher match = ADDR_SPECIAL_PTN.matcher(field);
       if (match.matches()) {
-        data.strCity = convertCodes(match.group(1), CITY_CODES);
+        String city = match.group(1);
+        String city2 = stripCity(city, data);
+        if (city2.length() > 0) data.strCity = city;
         String place = match.group(2).trim();
         String addr = getOptGroup(match.group(3));
         match = ADDR_UNIT_PTN.matcher(place);
@@ -148,11 +151,46 @@ public class ALShelbyCountyParser extends FieldProgramParser {
           field = field.substring(0,match.start()).trim();
         }
       }
+      
+      // Check for a comma separated Apt, which may include it's own city name
+      if (!field.startsWith("LL")) {
+        int pt = field.lastIndexOf(',');
+        if (pt >= 0) {
+          String apt = field.substring(pt+1).trim();
+          apt = stripFieldStart(apt, "#");
+          field = field.substring(0,pt).trim();
+          apt = stripCity(apt, data);
+          if (data.strApt.length() == 0) {
+            data.strApt = apt;
+          } else {
+            if (!apt.equals(data.strApt)) {
+              if (!Pattern.compile("\\b" + apt + "\\b").matcher(data.strApt).find()) {
+                data.strApt = append(apt,  "-",  data.strApt);
+              }
+            }
+          }
+        }
+      }
 
       // Process city code and something that we are ignoring
-      String saveCity = data.strCity;
+      field = stripCity(field, data);
       parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
-      if (saveCity.length() > 0) data.strCity = saveCity;
+    }
+    
+    private String stripCity(String field, Data data) {
+      Matcher match = ADDR_CITY_PTN.matcher(field);
+      if (match.matches()) {
+        String city = CITY_CODES.getProperty(match.group(3));
+        if (city == null || city.endsWith(" COUNTY")) {
+          String subcity = CITY_SUBCODES.getProperty(match.group(2));
+          if (subcity != null) city = subcity;
+        }
+        if (city != null) {
+          data.strCity = city;
+          field = match.group(1);
+        }
+      }
+      return field;
     }
     
     @Override
@@ -196,88 +234,76 @@ public class ALShelbyCountyParser extends FieldProgramParser {
   
   @Override
   public String adjustMapAddress(String sAddress) {
-    return sAddress.replace("EGG AND BUTTER", "EGG_AND_BUTTER");
+    sAddress = sAddress.replace("EGG AND BUTTER", "EGG_AND_BUTTER");
+    sAddress = CLFS_PTN.matcher(sAddress).replaceAll("CLIFFS");
+    return super.adjustMapAddress(sAddress);
   }
+  private static final Pattern CLFS_PTN = Pattern.compile("\\bCLFS\\b", Pattern.CASE_INSENSITIVE);
 
   @Override
   public String postAdjustMapAddress(String sAddress) {
     return sAddress.replace("EGG_AND_BUTTER", "EGG AND BUTTER");
   }
-
+  
+  @Override
+  public String adjustMapCity(String city) {
+    if (city.equals("CAHABA VALLEY")) city = "BIRMINGHAM";
+    return city;
+  }
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      
-      "ALA",      "ALABASTER",
-      "ALAB ALA", "ALABASTER",
-      "CALE ALA", "ALABASTER",
-      "CALJ ALA", "ALABASTER",
-      "SAGN ALA", "ALABASTER",
-      "WSHE ALA", "ALABASTER",
-      
-      "BFD",      "BRIERFIELD",
-      "BFLD BFD", "BRIERFIELD",
-      "BRIR BFD", "BRIERFIELD",
-      
-      "BHM",       "BIRMINGHAM",
-      "CVAL BHM",  "BIRMINGHAM",
-
-      "CAL",      "CALERA",
-      "CALE CAL", "CALERA",
-      "CALJ CAL", "CALERA",
-      "SUMH CAL", "CALERA",
-
-      "COL",      "COLUMBIANA",
-      "COLU COL", "COLUMBIANA",
-      "FOUR COL", "COLUMBIANA",
-      "KING COL", "COLUMBIANA",
-      "NONE COL", "COLUMBIANA",
-      "SAGN COL", "COLUMBIANA",
-      "SUMH COL", "COLUMBIANA",
-      
-      "BMH",      "BIRMINGHAM",
-      "CVAL BMH", "BIRMINGHAM",
-      
-      "HRP",      "HARPERSVILLE",
-      "HARP HRP", "HARPERSVILLE",
-      "WESJ HRP", "WESTOVER",
-      "WILJ HRP", "HARPERSVILLE",
-      
-      "ALAB MAY", "ALABASTER",
-
-      "MON",      "MONTEVALLO",
-      "ALMT MON", "MONTEVALLO",
-      "CALE MON", "MONTEVALLO",
-      "CALJ MON", "MONTEVALLO",
-      "DRYV MON", "MONTEVALLO",
-      "MONT MON", "MONTEVALLO",
-      "PEAR MON", "MONTEVALLO",
-      "UOFM MON", "MONTEVALLO",
-      "WILT MON", "WILTON",
-      "WSHE MON", "MONTEVALLO",
-      
-      "HEL",      "HELENA",
-      "HELN HEL", "HELENA",
-      
-      "PEAR MAY", "MONTEVALLO",
-      
-      "SHE",      "SHELBY",
-      "SHEL SHE", "SHELBY",
-
-      "STE",      "STERRETT",
-      "CHEL STE", "STERRETT",
-      "WESJ STE", "WESTOVER",
-      "WEST STE", "WESTOVER",
-      
-      "WIL",      "WILSONVILLE",
-      "FOUR WIL", "WILSONVILLE",
-      "WESJ WIL", "WILSONVILLE",
-      "WILJ WIL", "WILSONVILLE",
-      "WILS WIL", "WILSONVILLE"
-      
-//      "NONE", "",
-//      "PELH", "PELHAM",
-//      "SAGN", "SAGINAW",
-//      "SHEL", "SHELBY",
-//      "SUMH", "", 
-      
+      "ALA", "ALABASTER",
+      "BES", "BESSEMER",
+      "BFD", "BRIERFIELD",
+      "BIB", "BIBB COUNTY",      
+      "BHM", "BIRMINGHAM",
+      "CAL", "CALERA",
+      "CHL", "CHELSEA",
+      "COL", "COLUMBIANA",
+      "HEL", "HELENA",
+      "HOV", "HOOVER",
+      "HRP", "HARPERSVILLE",
+      "JEF", "JEFFERSON COUNTY",
+      "LEE", "LEEDS",
+      "MAY", "MAYLENE",
+      "MON", "MONTEVALLO",
+      "PEH", "PELHAM",
+      "SAG", "SAGINAW",
+      "SHE", "SHELBY",
+      "STE", "STERRETT",
+      "VES", "VESTAVIA HILLS",
+      "VAN", "VANDIVER",
+      "VIN", "VINCENT",
+      "WES", "WESTOVER",
+      "WIL", "WILSONVILLE",
+  });
+  
+  private static final Properties CITY_SUBCODES = buildCodeTable(new String[]{
+      "ALAB", "ALABASTER",
+      "BFLD", "BRIERFIELD",
+      "BHAM", "BIRMINGHAM",
+      "CALE", "CALERA",
+      "CALJ", "CALERA",
+      "CHEJ", "CHELSEA",
+      "CHEL", "CHELSEA",
+      "COLU", "COLUMBIANA",
+      "CVAL", "CAHABA VALLEY",
+      "DUNN", "DUNNAVANT",
+      "HARJ", "HARPERSVILLE",
+      "HARP", "HARPERSVILLE",
+      "HELN", "HELENA",
+      "HOOV", "HOOVER",
+      "LEED", "LEEDS",
+      "MONT", "MONTEVALLO",
+      "PELH", "PELHAM",
+      "SAGN", "SAGINAW",
+      "SHEL", "SHELBY",
+      "VAND", "VANDIVER",
+      "VEST", "VESTAVIA HILLS",
+      "VINC", "VINCENT",
+      "VINJ", "VINCENT",
+      "WEST", "WESTOVER",
+      "WILJ", "WILSONVILLE",
+      "WILS", "WILSONVILLE"
   });
 }

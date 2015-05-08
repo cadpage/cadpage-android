@@ -18,7 +18,7 @@ public class NCWilsonCountyParser extends DispatchOSSIParser {
 
   @Override
   public String getFilter() {
-    return "CAD@Wilson-co.com,930010";
+    return "@Wilson-co.com,930010";
   }
   
   @Override
