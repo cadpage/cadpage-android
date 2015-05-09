@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgParser;
 
 /**
- * Amador County, CA
+ * Marin County, CA
  */
 public class CAMarinCountyParser extends MsgParser {
   

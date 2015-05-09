@@ -164,6 +164,7 @@ public class ParserList {
               ,"CAKernCounty"                   ,"Kern County, CA"
               ,"CALakeCounty"                   ,"Lake County, CA"
               ,"CALosAngelesCounty"             ,"Los Angeles County, CA"
+              ,"CAMarinCounty"                  ,"Marin County, CA"
               ,"CAMendocinoCounty"              ,"Mendocino County, CA"
               ,"CAMontereyCounty"               ,"Monterey County, CA"
               ,"CANapa"                         ,"Napa, CA"
@@ -331,6 +332,7 @@ public class ParserList {
               ,"ILIroquoisCounty"               ,"Iroquois County, IL"
               ,"ILKaneCounty"                   ,"Kane County, IL"
               ,"ILKankakeeCounty"               ,"Kankakee County, IL"
+              ,"ILLakeCounty"                   ,"Lake County, IL"
               ,"ILMadisonCounty"                ,"Madison County, IL"
               ,"ILMassacCounty"                 ,"Massac County, IL"
               ,"ILMcHenryCounty"                ,"McHenry County, IL"
@@ -636,7 +638,8 @@ public class ParserList {
           ),
           new ParserCategory("Montana"
               ,"MTFlatheadCounty"               ,"Flathead County, MT"
-              ,"MTLewisAndClarkCounty"          ,"Lewis &amp; Clark County, MT"
+              ,"MTGallatinCounty"               ,"Gallatin County, MT"
+              ,"MTLewisAndClarkCounty"          ,"Lewis And Clark County, MT"
               ,"MTParkCounty"                   ,"Park County, MT"
               ,"MTRavalliCounty"                ,"Ravalli County, MT"
           ),
@@ -825,6 +828,7 @@ public class ParserList {
           ),
           new ParserCategory("North Dakota"
               ,"NDCassCounty"                   ,"Cass County, ND"
+              ,"NDPierceCounty"                 ,"Pierce County, ND"
           ),
           new ParserCategory("Ohio"
               ,"OHAllenCounty"                  ,"Allen County, OH"
@@ -1281,6 +1285,7 @@ public class ParserList {
               ,"ZAUGeneral"                     ,"Generic Location"
               ,"ZAUGeneralSlash"                ,"Generic (slash field separator)"
               ,"ZAUGeneralDash"                 ,"Generic (dash field separator)"
+              ,"ZAUMountBarker"                 ,"Mount Barker, AU"
               ,"ZAUCadpage2"                    ,"Standard Cadpage Format B"
               ,"ZAUCadpage3"                    ,"Standard Cadpage Format C"
           ),
