@@ -8,7 +8,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class MTGallatinCountyParser extends SmartAddressParser {
-  MTGallatinCountyParser() {
+  
+  public MTGallatinCountyParser() {
     super(CITY_CODES, "GALLATIN COUNTY", "MT");
     setFieldList("SRC CALL PRI ADDR APT CITY PLACE GPS MAP UNIT INFO");
   }

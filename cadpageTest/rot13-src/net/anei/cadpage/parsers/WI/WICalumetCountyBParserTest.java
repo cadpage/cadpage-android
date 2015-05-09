@@ -17,6 +17,10 @@ Fraqre: mbyy@tbyqpebff.bet
 [Tbyq Pebff Nyreg - cneg 1 bs 1]  EP:Eha#14945/PNYY:20:31/QVFC:20:31/RAE:20:32/NGF:20:32/GEN:20:50/NGQ:21:30/BQBZ NGF:0.1/BQBZ NGQ:22.7/ZVYRF:      22.6
 (Tbyq Pebff Nyreg - cneg 1 bs 1) EP:210 F CNEXJNL QE//OEVYYVBA/Aba Rzretrapl/Fvpx Crefba/ABA-RZRETRAPL/SRZNYR QVSSVPHYGL OERNGUVAT 81LBN/<Abar>/Eha# 16362/16:28/
 
+Pbagnpg: Nzore Bfbjfxv <nbfbjfxv@tbyqpebff.bet>
+Fraqre: QbAbgErcyl@tbyqpebff.bet
+Fhowrpg:Tbyq Pebff Nyreg - cneg 1 bs 1\aEP:2915 A ZRNQR FG/162 ZRNQR FG/NCCYRGBA/Aba Rzretrapl/Fvpx Crefba/OBJRY BOFG/<Abar>/Eha# 7742/
+
 ** Abg Cnefvat **
 (Tbyq Pebff Nyreg - cneg 1 bs 1) EP:Wbo# 0028-N (Eha# 12637) Nyreg: Fcrpvny Vafgehpgvbaf: QBRF ABG TRBPBQR - ERFCBAFR MBAR VF 34-PVGL BS
 
@@ -86,6 +90,21 @@ choyvp pynff JVPnyhzrgPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Aba Rzretrapl / Fvpx Crefba / ABA-RZRETRAPL / SRZNYR QVSSVPHYGL OERNGUVAT 81LBN",
         "VQ:16362",
         "GVZR:16:28");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgNzoreBfbjfxv() {
+
+    qbGrfg("G1",
+        "Fhowrpg:Tbyq Pebff Nyreg - cneg 1 bs 1\a" +
+        "EP:2915 A ZRNQR FG/162 ZRNQR FG/NCCYRGBA/Aba Rzretrapl/Fvpx Crefba/OBJRY BOFG/<Abar>/Eha# 7742/",
+
+        "NQQE:2915 A ZRNQR FG",
+        "CYNPR:162 ZRNQR FG",
+        "PVGL:NCCYRGBA",
+        "PNYY:Aba Rzretrapl / Fvpx Crefba / OBJRY BOFG",
+        "VQ:7742");
 
   }
   

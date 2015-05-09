@@ -11,7 +11,7 @@ public class WICalumetCountyBParser extends FieldProgramParser {
   
   public WICalumetCountyBParser() {
     super("CALUMET COUNTY", "WI",
-          "ADDR APT CITY CALL CALL+? NONE! ID TIME ");
+          "ADDR PLACE CITY CALL CALL+? NONE! ID TIME ");
   }
   
   @Override

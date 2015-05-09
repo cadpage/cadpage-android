@@ -22,6 +22,7 @@ QT911\asnyy\a4478 SNPRIVYYR UJL .. 68 LE BYQ ZNYR SNYYRA.. PURFG CNVA QVSS OERNG
 QT911\aJrrxyl Cntre Grfg\aGuvf vf n jrrxyl grfg bs gur Qrpnghe-Tenql 911 cntvat naq Nzrevyreg flfgrz.
 QT911\a648 Jnhgnhtn Eq \aSbjyfgbja, Prageny, Nggnchythf, & Pyvznk qvfcngpurq. HFR PNHGVBA vgrzf va gur ohvyqvat cbffvoyl rkcybfvir cre gur pnyyre.
 QT911\a648 Jnhgnhtn Eq - Haxabja Sver \a648 Jnhgnhtn Eq-arkg qbbe gb guvf nqqerff,ohvyqvat ba sver pbagnvavat puvpxraf,ynja zbjref naq tnf.
+QT911\a400 f jnfuvatgba fg\aprageny naq oynpxwnpx zhghny nvq erdhrfg bs ocf pbzr bss fubgjryy bagb jnfuvatgba... fgehpgher sver
 
 */
 
@@ -103,6 +104,12 @@ choyvp pynff TNQrpnghePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Haxabja Sver",
         "NQQE:648 Jnhgnhtn Eq",
         "VASB:arkg qbbe gb guvf nqqerff,ohvyqvat ba sver pbagnvavat puvpxraf,ynja zbjref naq tnf.");
+
+    qbGrfg("G6",
+        "QT911\a400 f jnfuvatgba fg\aprageny naq oynpxwnpx zhghny nvq erdhrfg bs ocf pbzr bss fubgjryy bagb jnfuvatgba... fgehpgher sver",
+        "PNYY:NYREG",
+        "NQQE:400 f jnfuvatgba fg",
+        "VASB:prageny naq oynpxwnpx zhghny nvq erdhrfg bs ocf pbzr bss fubgjryy bagb jnfuvatgba... fgehpgher sver");
    
   }
   

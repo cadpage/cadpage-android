@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">05032015</string>
-  <string name="release_version">v1.8.30</string>
+  <string name="release_date">05092015</string>
+  <string name="release_version">v1.8.31</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.31\n
+New Location:\n
+Marin County, CA\n
+Lake County, IL\n
+Jackson County, MO (alt)\n
+Pierce County, ND\n
+Mount Barker, Australia\n
+\n
+Location Fixes:\n
+Limestone County, AL\n
+Jefferson County, MO\n
+Waukesha County, WI\n
+\n
+General Fixes:
+The word "APTS" was being incorrectly removed from
+most address fields.\n 
+\n      
 v1.8.30\n
 Location Fixes:\n
 Garfield County, CO\n
@@ -90,10 +107,7 @@ Aransas County, TX\n
 \n
 General Fixes:\n
 Recently introduced problem filtering on email addresses that were included 
-in the message text.\n
-\n      
-v1.8.26\n
-Restored Swedish translation of new map button labels.
+in the message text.
   </string>
   <string name="special_release_title">
       Cadpage needs your help!
@@ -105,7 +119,6 @@ to real devices running those old versions and are looking for some helpful
 users who can do some advance testing for us.\n
 \n
 If you can help us out, use the Email the Developer setting to contact us. 
-      
   </string>
 </resources>
   
