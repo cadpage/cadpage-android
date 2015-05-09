@@ -1,0 +1,23 @@
+Cadpage Parser Ticket Handling
+
+The Cadpage and Cadpage-out queues are used to handle new parser requests.  Do not assign tickets to these queues under any circumstances!!!  Any parser related ticket should be assigned to me.   I will decide if an existing parser can be fixed or upgraded to handle the request, if not I will put it in the Cadpage queue as a new location parser request.
+
+Any ticket assigned to me that is not in one of these two queues will be considered a parser fix request.  These always have the highest priority.
+
+Feel free to adjust the priority of any tickets in these two queues in response to changing circumstances.  With the exception of the priority 2 status which has a special meaning. Removing tickets from the queues, basically taking them out of the Cadpage parser queue, can be done, but make sure I know about it.  Otherwise we  may end up implementing both a Cadpage and a non-Cadpage parser for the same location.
+
+Priority 2 tickets are a special category that is reserved for parsers that are exceptionally easy to implement as Cadpage parser.  They require few, if any programming skills.  I usually have Jeanie do them.  If anyone else wants to learn how to do them I will be happy to set up some training for them.  Since they are so easy to implement as Cadpage parsers, be reluctant to pull them out and implement them some other way.
+
+When I am working on parsers, the following, somewhat odd, prioritization scheme is used.
+
+Priority 1 are the highest priority, generally implement in chronological date order.  Since there are a fair number of these, and since you frequently want a a ticket pushed through ahead of everything else, there is a separate queuing system based on me moving the ticket notification email into a separate high priority folder, then implementing those tickets in the order the email notification was received.  When that folder is empty, we go back to doing priority 1 tickets in chronological (based on creation date) order.
+
+Priority 5 tickets are next, in chronological order.
+
+Priority 2 tickets are next, just because I can get more of them done in a limited amount of time.
+
+Priority 3 and 4 form the lowest level queue.   Tickets were to be implemented in chronological order, with priority 4 tickets getting a 30 day boost over priority 3 tickets.
+
+That was the original plan.  In reality, tickets get boosted to priority 1 status faster than I can implement them, so they are the only ones that get done.  At least by me.  Jeanie does the priority 2 tickets when she has time.  And I'm training Sarah on the priority 5 tickets.  The priority 3 and 4 tickets are the proverbial black hole queue, which will basically take forever until a way is found to get more resources involved in implementing them.
+
+The Cadpage and Cadpage-out queues help track the implementation status.   Tickets are originally assigned to Cadpage when it is determined that a new parser is needed.  Jeanie creates a test skeleton with all of the call information from the raw report and puts the ticket in Cadpage-out.  When I have time, I grab tickets from Cadpage-out and write the parser class, then assign them back to Jeanie.  Jeanie performs some final integration steps which mostly have to do with adding them into Cadpage app parser list.  Then switches the ticket to the Parser queue and assigns it to someone from Active911 to finish updating the status of all of the departments that will be using that parser.

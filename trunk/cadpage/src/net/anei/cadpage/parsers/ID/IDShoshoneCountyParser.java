@@ -1,0 +1,49 @@
+package net.anei.cadpage.parsers.ID;
+
+
+import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA16Parser;
+/**
+ * Shoshone county, CT
+ */
+public class IDShoshoneCountyParser extends DispatchA16Parser {
+  
+  public IDShoshoneCountyParser() {
+    super(CITY_LIST, "SHOSHONE COUNTY", "ID");
+  }
+
+  @Override
+  public String getFilter() {
+    return "administrator@shoshoneso.com";
+  }
+
+  @Override
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("Imc Solutions Page")) return false;
+    return super.parseMsg(body, data);
+  }
+  
+  private static final String[] CITY_LIST= new String[]{
+    
+    //  Cities
+    "KELLOGG",
+    "MULLAN",
+    "OSBURN",
+    "PINEHURST",
+    "SMELTERVILLE",
+    "WALLACE",
+    "WARDNER",
+    
+    // Unincorporated communities
+    "AVERY",
+    "BIG CREEK",
+    "BURKE",
+    "CATALDO",
+    "CLARKIA",
+    "ENAVILLE",
+    "MURRAY",
+    "PINE CREEK",
+    "KINGSTON",
+    "SILVERTON"
+  };
+}

@@ -1,0 +1,79 @@
+Cool features under consideration
+
+*******************************************************************************
+Where possible, Cadpage should show the reported incident time instead of the
+time the page was received.
+Implemented in 4 phases
+1) Write infrastructer to parse date and time from text pages (done)
+2) Write code to calculate incident date from parsed date/time and display that
+   (mostly done)
+3) Run through all of the documented messages format in msgFormat.txt and make
+   that all of their parsers are handling the date/time fields.
+   a) For classes derived from FieldProgramParser, this can be done by
+      adding DATE or TIME fields, or having existing date/time fields extend
+      DateFile, TimeField, or DateTime field instead of SkipField.
+   b) Other classes just parse fields into data.strDate and  data.strTime
+   c) Test classes are a trick.  Rather than modify all of the test cases that
+      now parse date/time fields, I found it faster to delete all of the
+      test cases, regenerate them, make sure the run successfully of course,
+      and then compare the new code to the baseline to make sure that nothing 
+      changed that we didn't want to change.
+      Generating test cases is one of the tricks to speed up parser writing.  
+      Most parser test clases can be run as standalone applications.  When run
+      in this  mode, they read a list of test pages terminated by a blank line
+      and output Java code to test that page.  Of course, the test always works
+      because it was build to test the current results, so you have to hand
+      check the results, but it is a lot faster than building test casses 
+      yourself.
+4) For text formats that do not include the incident date or time, we can try
+   to derive the incident date/time from the message send time.  This is a
+   millasecond timer that is delivered with the message.  It's starting epoch
+   is unknown, converting it to a Java Date will require some experimentation.
+   And I've seen the send and receive times differ by an hour, which implies 
+   there might b time zone issues that need to be resolved.  I'm thinking this
+   phase will add to new config settings.  Once to turn on message time reporting,
+   the default will be to report the message received time like we do now.  And
+   another which will be clock adjustment that will be applied to the send time.
+   We may get away with just making this an integer number of hours, or we might
+   have to adjust by hours and minutes to make of for discrepancies between 
+   different system clocks.
+*******************************************************************************
+Two new call button requests
+Close App - closes the entire Cadpage app
+Raw Msg/Fmt Msg - toggles between current display and a raw mode display that
+displays the text message as it was received.  Put subject in parenthesis in
+front of the actual text body. 
+
+We call them buttons, but it they are really menu items that users can configure
+as buttons.  Guts of the item processing logic is in SmsMmsMessage.  There is
+clever logic that lets us logic to set up either Buttons or menu items depending
+on what is being set up.  You can figure it out.
+
+One complication is that the Raw/Fmt toggle should be global toggle that applies
+to all displays rather than a flag attached to an individual message.  Which
+probably means it should be implemented as a preference so it retains its value
+if the OS kills and restarts Cadpage.  Which gets is into ManagePreferences and
+the somewhat unorthodox way that we handle preferences.         
+*******************************************************************************
+Issue #28.  Add some kind of feature to notify users when a new version 
+of CadPage is available (Derrick)
+*******************************************************************************
+Toggle menu item that switches the popup display between the current formated
+display and a raw unformatted message display.  Useful if user want to look for
+information in the message that isn't picked up by our parsers.
+*******************************************************************************
+Add option to display phone numbers in the call description.  Very few formats
+include callback phone numbers, and I'm not sure putting them on the display
+screen is a good idea, but some users might want it.  Any phone number in the
+call description should automatically convert to a link that initiates the 
+phone call.
+*******************************************************************************
+Add some logic to identify repeat pages for same incident.  Usually this will
+just replace the previous entry in the history list, but some parsers will
+combine information from both calls.  (That last is harder that it sounds, we have
+to keep information from the original message somewhere). 
+*******************************************************************************
+Set up a comprehensive test suite!!!!!
+*******************************************************************************
+Comprehensive user manual would be nice
+*******************************************************************************
