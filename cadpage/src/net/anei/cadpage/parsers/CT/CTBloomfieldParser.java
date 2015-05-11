@@ -10,5 +10,10 @@ public class CTBloomfieldParser extends DispatchRedAlertParser {
   
   public CTBloomfieldParser() {
     super("BLOOMFIELD","CT");
+    setupMultiWordStreets(
+        "BLUE HILLS",
+        "COTTAGE GROVE",
+        "WEST DUDLEY TOWN"
+   );
   }
 }

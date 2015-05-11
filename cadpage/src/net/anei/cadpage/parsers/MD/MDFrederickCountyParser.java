@@ -4,6 +4,7 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -15,6 +16,25 @@ public class MDFrederickCountyParser extends FieldProgramParser {
   public MDFrederickCountyParser(){
     super(CITY_CODES, "FREDERICK COUNTY", "MD",
           "CT:ADDR! TIME:TIME? ESZ:BOX? MAP:MAP Disp:UNIT");
+    setupCallList(CALL_LIST);
+    setupMultiWordStreets(
+        "BAUST CHURCH",
+        "BEL AIRE",
+        "FRANCIS SCOTT KEY",
+        "FRIENDS CREEK",
+        "GREEN VALLEY",
+        "HARPERS FERRY",
+        "KEEP TRYST",
+        "KEMPTOWN CHURCH",
+        "MAPLE TERRACE",
+        "PEACH ORCHARD",
+        "PLEASANT VALLEY",
+        "POINT OF ROCKS",
+        "SPRING FOREST",
+        "TAYLORS VALLEY",
+        "TOLL HOUSE",
+        "VILLAGE GATE"
+     );
   }
 
   @Override
@@ -44,6 +64,18 @@ public class MDFrederickCountyParser extends FieldProgramParser {
             data.strBox.length() > 0 ||
             data.strMap.length() > 0 ||
             data.strUnit.length() > 0;
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("UNIT")) return new MyUnitField();
+    return super.getField(name);
   }
   
   // Address field gets complicated
@@ -179,17 +211,62 @@ public class MDFrederickCountyParser extends FieldProgramParser {
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("UNIT")) return new MyUnitField();
-    return super.getField(name);
-  }
-  
-  @Override
-  public String getProgram() {
-    return "SRC " + super.getProgram();
-  }
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "ABDOMINAL PAIN",
+      "AMBULANCE TRANSFER",
+      "ASSIST PATIENT - NON-EMERGENCY RESPONSE",
+      "AUTOMATIC MEDICAL ALARM",
+      "BACK PAIN /",
+      "CARDIAC PATIENT",
+      "CHEST PAIN",
+      "COMMERCIAL FIRE ALARM / AUTOMATIC",
+      "COMMERCIAL FIRE ALARM / WATERFLOW",
+      "DECREASED LEVEL OF CONSCIOUSNESS",
+      "ENGINE TRANSFER",
+      "EXPIRED PERSON",
+      "FLOODING CONDITION",
+      "HAZMAT INCIDENT (SPECIFY)",
+      "HEMORRHAGE",
+      "HOUSE / APPLIANCE FIRE (STRUCTURE PRE-ALERT)",
+      "HOUSE / FIRE-VISIBLE",
+      "HOUSE / ODOR",
+      "HOUSE / SMOKE",
+      "INJURED PERSON /",
+      "INJURED PERSON",
+      "INJURED PERSON (SPECIFY NATURE)",
+      "INJURY FROM VEHICLE ACCIDENT",
+      "Mutual Aid: AUTOMATIC MEDICAL ALARM / default WACO:",
+      "Mutual Aid: CARDIAC PATIENT / default WACO:",
+      "Mutual Aid: COMMERCIAL FIRE ALARM / AUTOMATIC LOCO:",
+      "Mutual Aid: ENGINE TRANSFER / default JECO:",
+      "Mutual Aid: HEMORRHAGE CACO:",
+      "Mutual Aid: HOUSE / FIRE-VISIBLE CACO:",
+      "Mutual Aid: HOUSE / FIRE-VISIBLE LOCO:",
+      "Mutual Aid: HOUSE / FIRE-VISIBLE WACO:",
+      "Mutual Aid: INJURED PERSON / default WACO:",
+      "Mutual Aid: LARGE NON-DWELLING FIRE / BARN LOCO:",
+      "Mutual Aid: OUTSIDE INVESTIGATION",
+      "Mutual Aid: PEDESTRIAN STRUCK / default WACO:",
+      "Mutual Aid: RESIDENTIAL FIRE ALARM / default WACO:",
+      "Mutual Aid: STROKE / default ADCO:",
+      "Mutual Aid: VEHICLE ACCIDENT / default WACO:",
+      "Mutual Aid: VEHICLE ACCIDENT WITH ENTRAPMENT / default ADCO:",
+      "OUTSIDE INVESTIGATION",
+      "OVERDOSE BLS",
+      "PERSON FIRE (INSIDE)",
+      "SERVICE CALL - SPECIFY",
+      "SICK PERSON",
+      "SPECIFY NATURE",
+      "STROKE",
+      "TROUBLE BREATHING",
+      "TRUCK TRANSFER",
+      "UNCONSCIOUS DIABETIC",
+      "UNCONSCIOUS PERSON",
+      "UNKNOWN MEDICAL EMERGENCY",
+      "VEHICLE ACCIDENT",
+      "VEHICLE ACCIDENT WITH ENTRAPMENT",
+      "WOODS FIRE"
+  );
   
   private static final Properties CITY_CODES = 
     buildCodeTable(new String[]{
@@ -236,9 +313,5 @@ public class MDFrederickCountyParser extends FieldProgramParser {
         "WASHCO", "Washington County,MD", 
         "WASH CO", "Washington County,MD", 
         "WOOD","Woodsboro",
-        
-
-
-
   });
 }

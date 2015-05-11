@@ -508,7 +508,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_ST, "ST");
     setupDictionary(ID_MILE_MARKER, "MM", "MP");
     
-    setupDictionary(ID_CROSS_STREET, "XS:", "X:", "C/S:", "C/S");    //  Warning!  Must match CROSS_MARK_PTN
+    setupDictionary(ID_CROSS_STREET, "XS:", "X:", "C/S:", "C/S", "XSTR");    //  Warning!  Must match CROSS_MARK_PTN
     setupDictionary(ID_NEAR, "NEAR", "ACROSS");
     setupDictionary(ID_APT, "APT:", "APT", "#APT", "#", "SP", "RM", "SUITE", "STE", "SUITE:", "ROOM", "ROOM:", "LOT", "#LOT", "UNIT");
     setupDictionary(ID_APT_SOFT, "APT", "APTS", "SUITE", "ROOM", "LOT", "UNIT");
@@ -1086,7 +1086,7 @@ public abstract class SmartAddressParser extends MsgParser {
     }
     return result;
   }
-  private static Pattern CROSS_MARK_PTN = Pattern.compile("\\b(?:XS?:|C/S:|C/S\\b)", Pattern.CASE_INSENSITIVE);
+  private static Pattern CROSS_MARK_PTN = Pattern.compile("\\b(?:XS?:|C/S:|C/S\\b|XSTR\\b)", Pattern.CASE_INSENSITIVE);
   private static Pattern AT1_PTN = Pattern.compile("@|(?: REPORTED *)?\\bAT\\b(?!&T)", Pattern.CASE_INSENSITIVE);
   private static Pattern AT2_PTN = Pattern.compile("@");
   
@@ -1168,7 +1168,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // in this address.  If we do find them, they will need to be protected
     // from being broken into separate tokens
       Matcher match = MsgParser.GPS_PATTERN.matcher(address);
-      if (match.find()) gpsCoords = match.group();
+      if (match.find()) gpsCoords = match.group().trim();
       
       // Look for and compress any US symbols
       address = US_PTN.matcher(address).replaceAll("$1$2");

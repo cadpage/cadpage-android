@@ -1,3 +1,10 @@
+Version 20 05/10/2015
+
+Added "XSTR" to list of keywords that identify the start of a cross street
+
+Fixed problem with the GPS location pattern match not always picking up a 
+leading sign.
+
 Version 19 05/08/2015
 
 Fixed problem stripping the word "APTS" from end of address fields

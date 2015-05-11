@@ -71,12 +71,16 @@ public class DispatchA7BaseParser extends FieldProgramParser {
       sAddr = sAddr.substring(0,match.start());
     }
     
+    String city = "";
     int pt = sAddr.indexOf(" at ");
     if (pt >= 0) {
       String place = sAddr.substring(0,pt).trim();
       sAddr = sAddr.substring(pt+4).trim();
-      pt = place.indexOf(',');
-      if (pt >= 0) place = place.substring(0,pt).trim();
+      pt = place.lastIndexOf(',');
+      if (pt >= 0) {
+        city = place.substring(pt+1).trim();
+        place = place.substring(0,pt).trim();
+      }
       match = APT_MARK.matcher(place);
       if (match.find()) {
         data.strApt = match.group(1);
@@ -91,13 +95,13 @@ public class DispatchA7BaseParser extends FieldProgramParser {
       sAddr = sAddr.substring(0,match.start());
     }
     
+    String place = "";
     match = PLACE_MARK.matcher(sAddr);
     if (match.find()) {
-      data.strPlace = append(data.strPlace, " - ", sAddr.substring(match.end()).trim());
+      place = sAddr.substring(match.end()).trim();
       sAddr = sAddr.substring(0,match.start()).trim();
     }
     
-    String city = "";
     pt = sAddr.lastIndexOf(',');
     if (pt >= 0) { 
       city = sAddr.substring(pt+1).trim();
@@ -113,33 +117,45 @@ public class DispatchA7BaseParser extends FieldProgramParser {
     
     else {
       parseAddress(sAddr, data);
-      data.strCity = getCity(city);
+      parseCity(city, data);
     }
+    data.strPlace = append(data.strPlace, " - ", place);
   }
   private static final Pattern ADDR_TRAIL_MARK = Pattern.compile(" *\\([A-Z]{1,2}\\)?$");
   private static final Pattern CROSS_MARK = Pattern.compile(" X/| s?btwn[: ]");
-  private static final Pattern APT_MARK = Pattern.compile(" *-? *\\bAPT(?!S) *#? *([^ ]+)$");
+  private static final Pattern APT_MARK = Pattern.compile(" *-? *\\bAPT(?!S) *#? *([^ ,]+)$");
   private static final Pattern PLACE_MARK = Pattern.compile(" -+ ");
 
   /**
-   * Convert city code to a city name
+   * Parase city code to a city name
    * @param cityCode numeric city code
-   * @return name of city
+   * @param data - parsed data results
    */
-  protected String getCity(String cityCode) {
+  private void parseCity(String cityCode, Data data) {
     if (cityIndex != null) {
       Matcher match = CITY_CODE_PTN.matcher(cityCode);
       if (match.matches()) {
-        int iCity = Integer.parseInt(match.group(1));
+        String city = match.group(1);
+        int iCity = Integer.parseInt(city);
         iCity = iCity - initCityIndex;
-        if (iCity < 0 || iCity >= cityIndex.length) return "";
-        return cityIndex[iCity];
+        if (iCity >= 0 && iCity < cityIndex.length) {
+          city = cityIndex[iCity];
+        } else {
+          city = "";
+        }
+        data.strCity = city;
+        String place = match.group(2);
+        if (!JUNK_PTN.matcher(place).matches()) {
+          data.strPlace = append(data.strPlace, " - ", place);
+        }
+        return;
       }
     }
-    if (cityCodes != null) return convertCodes(cityCode, cityCodes);
-    return cityCode;
+    if (cityCodes != null) cityCode = convertCodes(cityCode, cityCodes);
+    data.strCity = cityCode;
   }
-  private static final Pattern CITY_CODE_PTN = Pattern.compile("(\\d{1,2})\\b.*");
+  private static final Pattern CITY_CODE_PTN = Pattern.compile("(\\d{1,2})\\b *(.*)");
+  private static final Pattern JUNK_PTN = Pattern.compile("[^A-Za-z0-9]+|[a-z]");
   
   private class A7AddressField extends AddressField {
     @Override

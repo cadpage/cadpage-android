@@ -13,6 +13,19 @@ public class NYSuffolkCountyCParser extends DispatchRedAlertParser {
   
   public NYSuffolkCountyCParser() {
     super("SUFFOLK COUNTY","NY");
+    setupMultiWordStreets(
+        "CAPTAINS NECK",
+        "CRANE NECK",
+        "CROOKED HILL",
+        "HEALTH SCIENCES",
+        "LOUIS KOSSUTH",
+        "NORTH MAGEE",
+        "NORTH SEA",
+        "PAUMANACK VILLAGE",
+        "SEBONIC INLET",
+        "TIMBER RIDGE",
+        "VETERANS MEMORIAL"
+    );
   }
   
   @Override

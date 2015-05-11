@@ -15,7 +15,14 @@ public class CTNewHavenCountyAParser extends DispatchRedAlertParser {
   
   public CTNewHavenCountyAParser() {
     super(CITY_LIST, "NEW HAVEN COUNTY", "CT");
-    setupMultiWordStreets("BLOCK ISLAND");
+    setupMultiWordStreets(
+        "BLOCK ISLAND",
+        "BOSTON POST",
+        "CHESTNUT GROVE",
+        "LEDGE HILL",
+        "LONG HILL",
+        "THISTLE ROCK"
+    );
   }
   
   @Override

@@ -18,12 +18,12 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
   private static final Pattern SRC_MARKER = Pattern.compile("^([A-Z]+[0-9]+)[, ]");
   
   public PABucksCountyAParser() {
-    super("SRC type:CALL! Box:BOX? adr:ADDR! aai:INFO box:BOX map:MAP tm:TIME% TEXT:INFO? Run:UNIT");
+    super("SRC type:CALL! Box:BOX? adr:ADDR! aai:AAI box:BOX map:MAP tm:TIME% TEXT:INFO? Run:UNIT");
   }
   
   @Override
   public String getFilter() {
-    return "8276,@bnn.us,iamresponding.com,Bucks RSAN,@alert.bucksema.org,1210";
+    return "8276,@bnn.us,iamresponding.com,Bucks RSAN,@alert.bucksema.org,1210,mss@co.bucks.pa.us";
   }
 
   @Override
@@ -54,7 +54,7 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
     }
     
     body = NAKED_DATE_TIME.matcher(body).replaceFirst(" tm: $0");
-    body = body.replace(" Adr:", " adr:").replace(" stype:", " type:").replace(" saai:", " aai:").trim();
+    body = body.replace(" Adr:", " adr:").replace(" stype:", " type:").replace(" saai:", " aai:").replace(" Text:", " aai:").trim();
     if (super.parseMsg(body, data)) {
       if (mark2 && data.strUnit.length() == 0) {
         data.strUnit = data.strSource;
@@ -88,6 +88,17 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
     return "UNIT " + super.getProgram();
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("AAI")) return new MyAaiField();
+    if (name.equals("BOX")) return new MyBoxField();
+    if (name.equals("TIME")) return new MyTimeField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+  
   private class MyCallField extends CallField {
     
     @Override
@@ -98,41 +109,124 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
     }
   }
   
+  private static final Pattern CROSS_MARK_PTN = Pattern.compile("\\b(XSTRT:|low xst:)", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     
     @Override
     public void parse(String sAddr, Data data) {
       
       // Not the usual parseAddress method, this one is in the PABucksCountyBaseParser class
+      sAddr = CROSS_MARK_PTN.matcher(sAddr).replaceFirst("btwn:");
       parseAddressA7(sAddr, data);
+      int pt = data.strCity.indexOf(',');
+      if (pt >= 0) {
+        data.strState = data.strCity.substring(pt+1);
+        data.strCity = data.strCity.substring(0,pt);
+      }
     }
     
     @Override
     public String getFieldNames() {
-      return "PLACE " + super.getFieldNames() + " CITY X";
+      return "PLACE " + super.getFieldNames() + " CITY ST X";
     }
   }
   
+  private static final Pattern COMMA_PTN = Pattern.compile(" *,+ *");
+  private static final Pattern DASH_PTN = Pattern.compile(" *- *");
+  private static final Pattern XSTR_PTN = Pattern.compile("(?:XST(?:R[ST]?)?|XST|XCROSS|XSTREET|X)[-: ]+(.*)");
   private static final Pattern COVER_PTN = Pattern.compile("\\bCV +[A-Z]?(\\d)\\d\\d[A-Z]?\\b");
-  private class MyInfoField extends InfoField {
+  private class MyAaiField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      Matcher match = COVER_PTN.matcher(field);
-      if (match.find()) {
-        String code = match.group(1);
-        switch (code.charAt(0)-'0') {
-        case 3:
-          data.strCity = "MONTGOMERY COUNTY";
-          break;
+
+      // If the address does not look like an address, we may want to replace it
+      // with something in this field.
+      boolean checkAddress = data.strPlace.length() == 0 &&
+                             data.strCity.length() == 0 &&
+                             !isValidAddress(data.strAddress);
+      
+      // Look for GPS coordinates
+      field = setGPSLoc(field, data);
+      
+      String result = "";
+      for (String part : COMMA_PTN.split(field)) {
+        
+        if (part.startsWith("BOX ")) {
+          data.strBox = part.substring(4).trim();
+          continue;
         }
+        
+        Matcher match = XSTR_PTN.matcher(part);
+        if (match.matches()) {
+          data.strCross = append(data.strCross, " / ", match.group(1));
+          continue;
+        }
+        
+        if (data.strCity.length() == 0) {
+          // here we will check for a dash separator :(
+          String city = null;
+          String[] pts = DASH_PTN.split(part);
+          if (pts.length == 2) {
+            city = getOutsideCity(pts[0]);
+            if (city != null) {
+              part = pts[1];
+            } else {
+              city = getOutsideCity(pts[1]);
+              if (city != null) part = pts[0];
+            }
+          } else {
+            city = getOutsideCity(part);
+            if (city != null) part = null;
+          }
+          if (city != null) {
+            int pt = city.indexOf(',');
+            if (pt >= 0) {
+              data.strState = city.substring(pt+1).trim();
+              city = city.substring(0,pt).trim();
+            }
+            data.strCity = city;
+            if (part == null) continue;
+          }
+        }
+        
+        if (part.equals("NY") || part.equals("NJ")) {
+          data.strState = part;
+          continue;
+        }
+        
+        if (checkAddress && isValidAddress(part)) {
+          data.strPlace = data.strAddress;
+          data.strAddress = "";
+          parseAddress(part, data);
+          continue;
+        }
+        
+        match = COVER_PTN.matcher(field);
+        if (match.find()) {
+          String code = match.group(1);
+          switch (code.charAt(0)-'0') {
+          case 3:
+            data.strCity = "MONTGOMERY COUNTY";
+            break;
+          }
+        }
+        
+        result = append(result, ", ", part);
       }
-      if (field.startsWith(",")) field = field.substring(1).trim();
-      super.parse(field, data);
+      super.parse(result, data);
     }
     
     @Override
     public String getFieldNames() {
-      return "INFO CITY";
+      return "PLACE BOX ADDR CITY ST X GPS INFO";
+    }
+  }
+  
+  private class MyBoxField extends BoxField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() == 0) return;
+      super.parse(field, data);
     }
   }
     
@@ -156,13 +250,19 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("TIME")) return new MyTimeField();
-    return super.getField(name);
+  private static final Pattern LEAD_COMMA_PTN = Pattern.compile("^[, ]+");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      field = setGPSLoc(field, data);
+      field = LEAD_COMMA_PTN.matcher(field).replaceFirst("");
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "GPS INFO";
+    }
   }
   
   private static final Properties TYPE_CODES = buildCodeTable(new String[]{

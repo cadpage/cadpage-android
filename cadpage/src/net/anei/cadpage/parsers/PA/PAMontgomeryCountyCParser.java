@@ -46,7 +46,7 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
     }
     
     // If body ends with dash,remove it
-    if (body.endsWith("-")) body = body.substring(0,body.length()-1).trim();
+    body = stripFieldEnd(body, "-");
     
     // Process Date/Time/ID marker
     boolean dateTimeMark = false;
@@ -191,7 +191,7 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames() + " APT PLACE";
+      return super.getFieldNames() + " APT PLACE CITY";
     }
   }
 

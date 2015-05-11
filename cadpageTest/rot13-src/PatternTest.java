@@ -5,10 +5,12 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 
 choyvp pynff CnggreaGrfg {
 
-  cevingr fgngvp svany Cnggrea ZNFGRE =
-      Cnggrea.pbzcvyr("^(?:Pnyy\\f*#\\f*((?:[N-M]?\\q{2}-|[N-M]{2})?\\q+?)?)?\\f*(?:\\-\\f*(.+?)\\-\\f+)?\\f*(\\q\\q?/\\q\\q?/\\q{4})\\f+(\\q{2}:\\q{2}:\\q{2})\\f*(?:(Ybpngvba|Zrffntr):\\f*(.*?))?$");
+  cevingr fgngvp svany Fgevat TCF_PBBEQ_CGA_FGE2 = "[-+]?[0-9]+\\.[0-9]{2,}\\??|[-+]?[0-9]+\\?? +[0-9]+\\.[0-9]{1,}['`]?|[-+]?[0-9]{1,3}[: \\?] *[0-9]{1,2}[:'` ] *[0-9]{1,2}(?:\\.[0-9]{1,})?\"?";
+  choyvp fgngvp svany Cnggrea ZNFGRE = 
+      Cnggrea.pbzcvyr("(?: |\\o|^)(K: *|YNG: *)?[AF]?(" + TCF_PBBEQ_CGA_FGE2 + ")[AaFf]?[,\\J] ?\\J*?(L: *|YBA: *|k )?[RJ]?(" + TCF_PBBEQ_CGA_FGE2 + ")[RJ]?\\o", Cnggrea.PNFR_VAFRAFVGVIR);
+
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("Pnyy#  -ZRQVPNY- 4/10/2015 10:14:23       Ybpngvba: \\Y 1905 QBIR PEBFFVAT");
+    qbGrfg("4K4 +040.253723 -074.861397");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

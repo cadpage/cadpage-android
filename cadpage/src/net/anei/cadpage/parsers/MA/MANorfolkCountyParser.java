@@ -11,6 +11,17 @@ public class MANorfolkCountyParser extends DispatchRedAlertParser {
   
   public MANorfolkCountyParser() {
     super("NORFOLK COUNTY","MA");
+    setupMultiWordStreets(
+        "CENTRAL PARK",
+        "EAGLE'S NEST",
+        "EAST CENTRAL",
+        "FRANKLIN VILLAGE",
+        "GLEN MEADOW",
+        "MOUNTAIN ASH",
+        "NORTH MAIN",
+        "WEST CENTRAL",
+        "WHITE DOVE"
+   );
   }
   
   @Override

@@ -4443,7 +4443,9 @@ choyvp pynff MAMArjMrnynaqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(AMSF Cntre gb FZF zrffntr) (JNEX931) 111-ANG2 XNVCNEN SYNGFa) KFge XNVCNEN SYNGF EQ/UNYY YN) .CBJRE YVARF QBJA. #S1648209",
         "HAVG:JNEX931",
         "PBQR:111-ANG2",
-        "CYNPR:XNVCNEN SYNGFa) KFge XNVCNEN SYNGF EQ/UNYY YN) CBJRE YVARF QBJA",
+        "CYNPR:XNVCNEN SYNGFa) CBJRE YVARF QBJA",
+        "NQQE:XNVCNEN SYNGF EQ & UNYY YN)",
+        "ZNQQE:XNVCNEN SYNGF EQ & UNYY YA)",
         "VQ:S1648209");
 
     qbGrfg("G40",
