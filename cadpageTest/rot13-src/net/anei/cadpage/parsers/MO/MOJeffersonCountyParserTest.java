@@ -21,6 +21,10 @@ Pbagnpg: qneg73 <qneg73@lnubb.pbz>
 Fraqre: WrssPb911 <911@wrsspb911.bet
 Fhowrpg:{VCF V/Cntr Abgvsvpngvba}  Ybpngvba: 37 JBBQTYRA NCGF PAGL GLCR PBQR: FHVPVQR FHOWRPG PNYYRE NQQE:  Pbzzragf:   PNEQ 74266 ZNC 195  Qvfc: 7037,7434
 
+Pbagnpg: zscqpuvrsrggr <zscqpuvrsrggr@lnubb.pbz>
+Fraqre: 911@wrsspb911.bet
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: FGNGR EQ M/FGNGR EQ N PAGL GLCR PBQR: IRUNPP VAWHEL PNYYRE NQQE:  Pbzzragf:   PNEQ 67210 ZNC 4 5 Qvfc: 6724\e\a
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Qrfbgb Eheny Sver Cebgrpgvba Qvfgevpg
 Ybpngvba: Qrfbgb, ZB, Havgrq Fgngrf
@@ -1440,6 +1444,19 @@ choyvp pynff ZBWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:PNEQ 74266 ZNC 195",
         "HAVG:7037,7434");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZscqpuvrsrggr() {
+
+    qbGrfg("G1",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: FGNGR EQ M/FGNGR EQ N PAGL GLCR PBQR: IRUNPP VAWHEL PNYYRE NQQE:  Pbzzragf:   PNEQ 67210 ZNC 4 5 Qvfc: 6724\e\a",
+        "NQQE:FGNGR EQ M & FGNGR EQ N",
+        "ZNQQE:FGNGR M & FGNGR N",
+        "PNYY:IRUNPP VAWHEL",
+        "VASB:PNEQ 67210 ZNC 4 5",
+        "HAVG:6724");
+
   }
 
   @Grfg
