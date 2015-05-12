@@ -1,9 +1,14 @@
 Version 20 05/10/2015
 
-Added "XSTR" to list of keywords that identify the start of a cross street
+Added "XSTR" and "X" to list of keywords that identify the start of a cross street.
+
+Fixed logic so that cross street keywords at the end of the data field will not be
+treated as cross street keywords.
 
 Fixed problem with the GPS location pattern match not always picking up a 
 leading sign.
+
+setupProtectedName() names will now be protected throughout the smart address parsing logic
 
 Version 19 05/08/2015
 

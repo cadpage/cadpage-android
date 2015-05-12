@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">05092015</string>
-  <string name="release_version">v1.8.31</string>
+  <string name="release_date">05112015</string>
+  <string name="release_version">v1.8.32</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.32\n
+Location Fixes:\n
+Bucks County, PA\n
+\n      
 v1.8.31\n
 New Location:\n
 Marin County, CA\n
@@ -90,24 +94,7 @@ Denton County, TX\n
 General Fixes:\n
 Cadpage was not always warning users of pending subscripton expiration when
 Cadage Paging Service was active.\n
-Fixed Active911 User Profile feature.\n
-\n
-v1.8.27\n
-New Locations:\n
-Lauderdale County, MS\n
-\n
-Location Fixes:\n
-Jackson County, GA\n
-DuPage County, IL\n
-Des Moines County, IA\n
-Howard County, MD\n
-Rockingham County, NC\n
-Allegheny County, PA\n
-Aransas County, TX\n
-\n
-General Fixes:\n
-Recently introduced problem filtering on email addresses that were included 
-in the message text.
+Fixed Active911 User Profile feature.
   </string>
   <string name="special_release_title">
       Cadpage needs your help!
