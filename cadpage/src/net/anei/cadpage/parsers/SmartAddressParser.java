@@ -508,7 +508,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_ST, "ST");
     setupDictionary(ID_MILE_MARKER, "MM", "MP");
     
-    setupDictionary(ID_CROSS_STREET, "XS:", "X:", "C/S:", "C/S", "XSTR");    //  Warning!  Must match CROSS_MARK_PTN
+    setupDictionary(ID_CROSS_STREET, "XS:", "X:", "C/S:", "C/S", "XSTR", "X");    //  Warning!  Must match CROSS_MARK_PTN
     setupDictionary(ID_NEAR, "NEAR", "ACROSS");
     setupDictionary(ID_APT, "APT:", "APT", "#APT", "#", "SP", "RM", "SUITE", "STE", "SUITE:", "ROOM", "ROOM:", "LOT", "#LOT", "UNIT");
     setupDictionary(ID_APT_SOFT, "APT", "APTS", "SUITE", "ROOM", "LOT", "UNIT");
@@ -951,6 +951,9 @@ public abstract class SmartAddressParser extends MsgParser {
       }
     }
     
+    // Convert any protected names in address line
+    address = protectNames(address);
+    
     // A start type of START_ADDR is incompatible with the FLAG_AT_BOTH flag.  If both are
     // set, switch flag to FLAG_AT_PLACE
     if (sType == StartType.START_ADDR && isFlagSet(FLAG_AT_BOTH)) {
@@ -1084,9 +1087,18 @@ public abstract class SmartAddressParser extends MsgParser {
       result.crossField = result.addressField;
       result.addressField = null;
     }
+    
+    // Clean up any protected names in any fields
+    if (result.startFld != null) result.startFld = unprotectNames(result.startFld);
+    if (result.left != null) result.left = unprotectNames(result.left);
+    if (result.tokens != null) {
+      for (int ii = 0; ii<result.tokens.length; ii++) {
+        result.tokens[ii] = unprotectNames(result.tokens[ii]);
+      }
+    }
     return result;
   }
-  private static Pattern CROSS_MARK_PTN = Pattern.compile("\\b(?:XS?:|C/S:|C/S\\b|XSTR\\b)", Pattern.CASE_INSENSITIVE);
+  private static Pattern CROSS_MARK_PTN = Pattern.compile("\\b(?:XS?:|C/S:|C/S\\b|XSTR\\b|X\\b)", Pattern.CASE_INSENSITIVE);
   private static Pattern AT1_PTN = Pattern.compile("@|(?: REPORTED *)?\\bAT\\b(?!&T)", Pattern.CASE_INSENSITIVE);
   private static Pattern AT2_PTN = Pattern.compile("@");
   
@@ -2167,7 +2179,7 @@ public abstract class SmartAddressParser extends MsgParser {
           }
           
           // Check for cross street marker
-          if (crossField == null && isType(tmpNdx, ID_CROSS_STREET)) {
+          if (crossField == null && ndx < tokens.length-1 && isType(tmpNdx, ID_CROSS_STREET)) {
             lastField.end(ndx);
             ndx = tmpNdx;
             lastField = crossField = new FieldSpec(ndx+1);

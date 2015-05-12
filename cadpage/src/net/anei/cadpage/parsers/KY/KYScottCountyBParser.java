@@ -29,6 +29,7 @@ public class KYScottCountyBParser extends SmartAddressParser {
         "WILDERNESS COVE",
         "WOODLAKE STAMPING GROUND"
     );
+    removeWords("X");
   }
   
   @Override
@@ -39,7 +40,7 @@ public class KYScottCountyBParser extends SmartAddressParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("nws email")) return false;
-    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_IGNORE_AT | FLAG_EMPTY_ADDR_OK, body, data);
+    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_IGNORE_AT | FLAG_EMPTY_ADDR_OK | FLAG_RECHECK_APT, body, data);
     if (data.strCity.length() == 0) return false;
     data.strSupp = getLeft();
     return true;

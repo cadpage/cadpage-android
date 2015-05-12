@@ -152,6 +152,7 @@ choyvp pynff CNPurfgrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:7440 YNAPNFGRE CX",
         "ZNQQE:7440 YNAPNFGRE CVXR",
         "PVGL:UBPXRFFVA",
+        "FG:QR",
         "VASB:ERD NZO232----NFFVFG APP19 J/AHZREBHF CG'F VA NPPG");
 
     qbGrfg("G3",

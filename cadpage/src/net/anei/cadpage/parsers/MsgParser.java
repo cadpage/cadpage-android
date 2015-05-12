@@ -973,7 +973,7 @@ public abstract class MsgParser {
   * @return customized map address
   */
  public String adjustMapAddress(String sAddress) {
-   return applyPatternReplaceList(protectList, sAddress);
+   return protectNames(sAddress);
  }
 
  /**
@@ -983,7 +983,25 @@ public abstract class MsgParser {
   * @return adjusted map search address
   */
  public String postAdjustMapAddress(String sAddress) {
-   return applyPatternReplaceList(reverseProtectList, sAddress);
+   return unprotectNames(sAddress);
+ }
+ 
+ /**
+  * Protect any declared protected names in string field
+  * @param String field
+  * @return protected string field
+  */
+ protected String protectNames(String field) {
+   return applyPatternReplaceList(protectList, field);
+ }
+
+ /**
+  * Restore any previously protected names in string field
+  * @param protected string field
+  * @return original unprotected string field
+  */
+ protected String unprotectNames(String field) {
+   return applyPatternReplaceList(reverseProtectList, field);
  }
  
  private String applyPatternReplaceList(PatternReplace[] prList, String sAddress) {

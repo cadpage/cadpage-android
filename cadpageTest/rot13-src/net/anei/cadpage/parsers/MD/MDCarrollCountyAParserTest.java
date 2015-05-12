@@ -4479,9 +4479,9 @@ choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G34",
         "PG:ZN 17-39 14746 ARJ JVAQFBE EQ; QYBP 9O  OBK:SP QHR:K109 [10]",
-        "PNYY:ZN",
+        "PNYY:ZN - QYBP",
         "OBK:17-39",
-        "NQQE:14746 ARJ JVAQFBE EQ; QYBP",
+        "NQQE:14746 ARJ JVAQFBE EQ",
         "PVGL:SERQREVPX PBHAGL",
         "PU:9O",
         "HAVG:K109");
@@ -5757,12 +5757,13 @@ choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G34",
         "PG:ZN 4567 SVFPNY EQ K OEBPXORPX NAQ FGRYGM EQ;QVEG OVXR NPP NCG BCF4  OBK:LP QHR:K79 R72 [41]",
-        "PNYY:ZN - K OEBPXORPX NAQ FGRYGM EQ;QVEG OVXR NPP NCG BCF4",
+        "PNYY:ZN - QVEG OVXR NPP NCG BCF4",
         "NQQE:4567 SVFPNY EQ",
+        "K:OEBPXORPX NAQ FGRYGM EQ",
         "PVGL:LBEX PBHAGL",
         "FG:CN",
         "HAVG:K79 R72");
-
+ 
     qbGrfg("G35",
         "PG:NYNEZ 1 4137 TENIR EHA EQ ZVYY OBK:0705 QHR:R72 [03]",
         "PBQR:NYNEZ 1",

@@ -12,6 +12,7 @@ public class MOJeffersonCityParser extends FieldProgramParser {
   public MOJeffersonCityParser() {
     super("JEFFERSON CITY", "MO",
           "CALL UNIT ADDR/S6! X INFO+");
+    removeWords("X");
   }
   
   @Override

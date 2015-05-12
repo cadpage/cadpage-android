@@ -109,19 +109,43 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
     }
   }
   
-  private static final Pattern CROSS_MARK_PTN = Pattern.compile("\\b(XSTRT:|low xst:)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern MULT_COMMA_PTN = Pattern.compile(",,+");
+  private static final Pattern BAD_CITY_PTN = Pattern.compile(".*[-\\*].*|.*? .*? .*? .*? .*");
+  private static final Pattern CROSS_MARK_PTN = Pattern.compile("\\b(XSTRT:|low xst:|XSTS[,: ])", Pattern.CASE_INSENSITIVE);
+  private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=#)");
+  private static final Pattern PLACE_ADDR_PTN = Pattern.compile("([^,]+),([^,]+)");
+  
   private class MyAddressField extends AddressField {
     
     @Override
     public void parse(String sAddr, Data data) {
       
       // Not the usual parseAddress method, this one is in the PABucksCountyBaseParser class
+      sAddr = MULT_COMMA_PTN.matcher(sAddr).replaceAll(",");
       sAddr = CROSS_MARK_PTN.matcher(sAddr).replaceFirst("btwn:");
+      sAddr = MISSING_BLANK_PTN.matcher(sAddr).replaceAll(" ");
       parseAddressA7(sAddr, data);
-      int pt = data.strCity.indexOf(',');
-      if (pt >= 0) {
-        data.strState = data.strCity.substring(pt+1);
-        data.strCity = data.strCity.substring(0,pt);
+      
+      if (data.strCity.length() > 0) {
+        if (BAD_CITY_PTN.matcher(data.strCity).matches()) {
+          String city = data.strCity;
+          data.strCity = "";
+          parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, city, data);
+          data.strSupp = append(data.strSupp, " / ", getLeft());
+        }
+        
+        int pt = data.strCity.indexOf(',');
+        if (pt >= 0) {
+          data.strState = data.strCity.substring(pt+1);
+          data.strCity = data.strCity.substring(0,pt);
+        }
+        data.strCity = stripFieldEnd(data.strCity, " BORO");
+      }
+      
+      Matcher match = PLACE_ADDR_PTN.matcher(data.strAddress);
+      if (match.matches()) {
+        data.strPlace = append(match.group(1).trim(), " - ", data.strPlace);
+        data.strAddress = match.group(2).trim();
       }
     }
     
@@ -131,7 +155,7 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
     }
   }
   
-  private static final Pattern COMMA_PTN = Pattern.compile(" *,+ *");
+  private static final Pattern COMMA_PTN = Pattern.compile(" *,[ ,]*");
   private static final Pattern DASH_PTN = Pattern.compile(" *- *");
   private static final Pattern XSTR_PTN = Pattern.compile("(?:XST(?:R[ST]?)?|XST|XCROSS|XSTREET|X)[-: ]+(.*)");
   private static final Pattern COVER_PTN = Pattern.compile("\\bCV +[A-Z]?(\\d)\\d\\d[A-Z]?\\b");
@@ -251,11 +275,14 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
   }
   
   private static final Pattern LEAD_COMMA_PTN = Pattern.compile("^[, ]+");
+  private static final Pattern TRAIL_COMMA_PTN = Pattern.compile("[, ]+$");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       field = setGPSLoc(field, data);
       field = LEAD_COMMA_PTN.matcher(field).replaceFirst("");
+      field = TRAIL_COMMA_PTN.matcher(field).replaceFirst("");
+      field = COMMA_PTN.matcher(field).replaceAll(", ");
       super.parse(field, data);
     }
     

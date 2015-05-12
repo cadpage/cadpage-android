@@ -116,8 +116,18 @@ public class DispatchA7BaseParser extends FieldProgramParser {
     }
     
     else {
-      parseAddress(sAddr, data);
       parseCity(city, data);
+      
+      // Check for a second city abbreviation
+      pt = sAddr.lastIndexOf(',');
+      if (pt >= 0) {
+        city = cityCodes.getProperty(sAddr.substring(pt+1).trim());
+        if (city != null) {
+          data.strCity = city;
+          sAddr = sAddr.substring(0,pt).trim();
+        }
+      }
+      parseAddress(StartType.START_ADDR, FLAG_NO_CITY | FLAG_ANCHOR_END, sAddr, data);
     }
     data.strPlace = append(data.strPlace, " - ", place);
   }

@@ -2145,9 +2145,9 @@ choyvp pynff CNPurfgrePbhaglQ4CnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(1110 ONYGVZBER CX, PUQF ) Qvfcngpu ** 12:31 ** OHVYQVAT SVER * ** 1110 ONYGVZBER CX, PUQF SEQ, 86   (AI) ** JLAQUNZ TNEQRAF VAA- ** QPSE **  **  ** 02/14/15 **  **  **",
         "GVZR:12:31",
         "PNYY:OHVYQVAT SVER",
-        "NQQE:1110 ONYGVZBER CX, PUQF SEQ",
-        "ZNQQE:1110 ONYGVZBER CVXR, PUQF SEQ",
-        "PVGL:TYRAZBBER",
+        "NQQE:1110 ONYGVZBER CX",
+        "ZNQQE:1110 ONYGVZBER CVXR",
+        "PVGL:PUNQQF SBEQ",
         "CYNPR:JLAQUNZ TNEQRAF VAA",
         "VASB:QPSE",
         "QNGR:02/14/15");

@@ -15,6 +15,7 @@ public class NVElkoCountyAParser extends DispatchA9Parser {
     
   public NVElkoCountyAParser() {
     super(null,"ELKO COUNTY", "NV");
+    setupProtectedNames("P X RANCH");
   }
   
   @Override

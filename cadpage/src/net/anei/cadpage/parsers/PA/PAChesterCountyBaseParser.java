@@ -23,7 +23,8 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
   @Override
   protected boolean parseFields(String[] fields, Data data) {
     if (!super.parseFields(fields, data)) return false;
-    if (data.strCity.equals("NEW CASTLE COUNTY")) data.strState = "DE";
+    String state = OOC_CITIES.getProperty(data.strCity);
+    if (state != null) data.strState = state;
     return true;
   }
   
@@ -405,6 +406,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "BIRMHM", "BIRMINGHAM TWP",
       "CALN",   "CALN TWP",
       "CHARLS", "CHARLESTOWN TWP",
+      "CHDS FRD", "CHADDS FORD",
       "COATVL", "COATESVILLE",
       "DNGTWN", "DOWNINGTOWN",
       "EASTW",  "EASTTOWN TWP",
@@ -424,6 +426,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "FRNKLN", "FRANKLIN TWP",
       "HBTWP",  "HONEY BROOK TWP",
       "HGHLND", "HIGHLAND TWP",
+      "HKSN",   "HOCKESSIN",
       "KNTSQR", "KENNETT SQUARE",
       "KNTTWP", "KENNETT TWP",
       "LDNBRT", "LANDENBERG",
@@ -476,6 +479,10 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "MONTC",       "MONTGOMERY COUNTY",
       "UPPER POTTS", "UPPER POTTSGROVE TWP",
       "UPPER PROV",  "UPPER PROVIDENCE TWP",
-
+  });
+  
+  private static final Properties OOC_CITIES = buildCodeTable(new String[]{
+      "NEW CASTLE COUNTY",      "DE",
+      "HOCKESSIN",              "DE"
   });
 } 

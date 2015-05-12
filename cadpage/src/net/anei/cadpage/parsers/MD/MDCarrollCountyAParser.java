@@ -65,6 +65,14 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
   public String getProgram() {
     return "SRC " + super.getProgram();
   }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("BOX")) return new MyBoxField();
+    return super.getField(name);
+  }
 
   private static final Pattern MA_PTN = Pattern.compile("^(?:MA|MUTUAL AID ALARM) (?:BOX |[A-Z]{2} )?(?:(\\d{1,2}-\\d{1,2}(?:-\\d{1,2})?) )?|^([A-Z]+) +(\\d+-\\d+) +");
   private static final Pattern MA_SEPARATOR_PTN = Pattern.compile(" +- +| */ *| *; *");
@@ -78,7 +86,7 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
     public void parse(String fld, Data data) {
       
       fld = fld.replaceAll("/+ */+", "/");
-      if (fld.endsWith("/")) fld = fld.substring(0,fld.length()-1).trim();
+      fld = stripFieldEnd(fld, "/");
 
       // The rules all change for mutual aid calls
       Matcher match = MA_PTN.matcher(fld);
@@ -151,10 +159,19 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
             }
           }
           
-          // Parse place and address, anything following is the rest of the call
-          parseAddress(StartType.START_PLACE, fld, data);
-          String call = getLeft();
-          if (call.startsWith("/")) call = call.substring(1).trim();
+          String call;
+          int pt = fld.indexOf(';');
+          if (pt >= 0) {
+            call = fld.substring(pt+1).trim();
+            fld = fld.substring(0,pt).trim();
+            parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, fld, data);
+          }
+          
+          else {
+            parseAddress(StartType.START_PLACE, fld, data);
+            call = getLeft();
+          }
+          call = stripFieldStart(call, "/");
           
           if (data.strPlace.endsWith("/")) {
             data.strAddress = append(data.strPlace.substring(0,data.strPlace.length()-1).trim(), " & ", data.strAddress);
@@ -163,7 +180,6 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
           
           // Otherwise, just take the leftover stuff as the call description
           // If there isn't anything left over, grab the leading place field instead
-          if (call.startsWith(";")) call = call.substring(1).trim();
           if (call.length() == 0) {
             call = data.strPlace;
             data.strPlace = "";
@@ -273,14 +289,6 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
     public String getFieldNames() {
       return "BOX CITY ST";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("BOX")) return new MyBoxField();
-    return super.getField(name);
   }
   
   @Override

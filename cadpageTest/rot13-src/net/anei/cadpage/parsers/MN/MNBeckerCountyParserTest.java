@@ -3460,7 +3460,9 @@ choyvp pynff ZAOrpxrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 14PSF011792\a PnyyGlcr: Sver\a Nqqerff: F FVQR K BYQ CEBWRPGF, ZA",
         "VQ:14PSF011792",
         "PNYY:Sver",
-        "NQQE:F FVQR K BYQ CEBWRPGF",
+        "NQQE:F FVQR",
+        "ZNQQE:F FVQR & BYQ CEBWRPGF",
+        "K:BYQ CEBWRPGF",
         "FG:ZA");
 
     qbGrfg("G85",

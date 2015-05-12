@@ -109,26 +109,10 @@ public class PABucksCountyBaseParser extends DispatchA7Parser {
     /*76*/ "WARWICK TWP",
     /*77*/ "WEST ROCKHILL TWP",
     /*78*/ "WRIGHTSTOWN TWP",
-    /*79*/ "YARDLEY",
-    /*80*/ "",
-    /*81*/ "",
-    /*82*/ "",
-    /*83*/ "DOYLESTOWN",
-    /*84*/ "",
-    /*85*/ "DOYLESTOWN",
-    /*86*/ "DOYLESTOWN",
-    /*87*/ "",
-    /*88*/ "",
-    /*89*/ "",
-    /*90*/ "",
-    /*91*/ "",
-    /*92*/ "",
-    /*93*/ "",
-    /*94*/ "",
-    /*95*/ "",
-    /*96*/ "",
-    /*97*/ "",
-    /*98*/ "QUAKERTOWN",
+    /*79*/ "YARDLEY"
+    
+    // City numbers from 81-99 are used by county wide agencies and could be 
+    // anywhere in the county.  So we just leave them out of the table.
   };
   
   protected String getOutsideCity(String code) {
@@ -137,9 +121,12 @@ public class PABucksCountyBaseParser extends DispatchA7Parser {
   
   // City codes is only used for out of county mutual aid calls
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BRYN ATHE",        "BRYN ATHYN",
       "EWING TWP",        "EWING TWP,NJ",
       "EWING TWP NJ",     "EWING TWP,NJ",
       "EWING NJ",         "EWING TWP,NJ",
+      "DELA TWP",         "DELAWARE TWP",
+      "HATFIL",           "HATFIELD",
       "HATFIELD TWP",     "HATFIELD TWP",
       "HOPEWELL TWP",     "HOPEWELL TWP",
       "HORSHAM TWP",      "HORSHAM TWP",
@@ -147,15 +134,25 @@ public class PABucksCountyBaseParser extends DispatchA7Parser {
       "LAWRENCEVILLE",    "LAWRENCEVILLE,NJ",
       "LAWRENCEVILLE NJ", "LAWRENCEVILLE,NJ",
       "LOWER MILFORD TWP","LOWER MILFORD TWP",
+      "LOWER MORELAND",   "LOWER MORELAND TWP",
+      "LSAUC TWP",        "LOWER SAUCON TWP",
+      "LWR SAU",          "LOWER SAUCON TWP",
+      "LWR SAUCON",       "LOWER SAUCON TWP",
+      "LOWER SAUCO",      "LOWER SAUCON TWP",
       "LOWER SAUCON",     "LOWER SAUCON TWP",
       "LOWER SAUCON TAP", "LOWER SAUCON TWP",
       "LOWER SAUCON TWN", "LOWER SAUCON TWP",
       "LOWER SAUCON TWP", "LOWER SAUCON TWP",
+      "LWR SAU",          "LOWER SAUCON TWP",
       "MONTGOMERY TWP",   "MONTGOMERY TWP",
+      "MONTG TWP",        "MONTGOMERY TWP",
       "MONTGO TWP",       "MONTGOMERY TWP",
       "MONT TWP",         "MONTGOMERY TWP",
       "PENNSBURG",        "PENNSBURG",
       "SALFORD TWP",      "SALFORD TWP",
-      "UPPER SOUTHAMPTON TWP", "UPPER SOUTHAMPTON TWP"
+      "UPPER HANOVE",     "UPPER HANOVER TWP",
+      "UPPRE HANNOVER",   "UPPER HANOVER TWP",
+      "UPPER SOUTHAMPTON TWP", "UPPER SOUTHAMPTON TWP",
+      "UPRSAUC",          "UPPER SAUCON TWP"
   });
 }

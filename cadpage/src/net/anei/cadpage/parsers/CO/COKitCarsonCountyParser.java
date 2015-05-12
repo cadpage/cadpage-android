@@ -12,6 +12,7 @@ public class COKitCarsonCountyParser extends FieldProgramParser {
   public COKitCarsonCountyParser() {
     super(CITY_LIST, "KIT CARSON COUNTY", "CO",
            "EVENT:UNIT! TIME:DATETIME! TYPE:CALL! LOC:ADDR/S! TXT:INFO!");
+    removeWords("X");
   }
   
   @Override
