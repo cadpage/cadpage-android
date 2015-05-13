@@ -58,6 +58,7 @@ public class INHancockCountyParser extends FieldProgramParser {
   // Address class, special case if field after address starts with &
   // make it a cross road rather than an place name
   private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*)[-/&] *(.*)");
+  private static final Pattern BOX_PLACE_PTN = Pattern.compile("(R\\d+B\\d+[A-Z]?(?:-\\d+)?)\\b *(.*)");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -101,7 +102,17 @@ public class INHancockCountyParser extends FieldProgramParser {
         data.strCross = data.strPlace.substring(2).trim();
         data.strPlace = "";
       }
-      else if (data.strPlace.equals("-")) data.strPlace = "";
+      match = BOX_PLACE_PTN.matcher(data.strPlace);
+      if (match.matches()) {
+        if (match.group(2).equals(data.strCity)) {
+          data.strBox = match.group(1);
+        } else {
+          data.strBox = data.strPlace;
+        }
+        data.strPlace = "";
+      }
+      
+      data.strPlace = stripFieldStart(data.strPlace, "-");
       
       if (city != null) data.strCity = city;
       data.strCity = convertCodes(data.strCity.toUpperCase(), MISSPELLED_CITY_TABLE);
@@ -111,7 +122,7 @@ public class INHancockCountyParser extends FieldProgramParser {
     
     @Override 
     public String getFieldNames() {
-      return super.getFieldNames() + " X";
+      return "ADDR APT CITY BOX PLACE X";
     }
   }
   
