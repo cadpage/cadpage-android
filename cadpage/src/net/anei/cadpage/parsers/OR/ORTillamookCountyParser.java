@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.OR;
 
 import java.util.Properties;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
@@ -11,6 +12,18 @@ public class ORTillamookCountyParser extends SmartAddressParser {
   public ORTillamookCountyParser() {
     super(CITY_LIST, "TILLAMOOK COUNTY", "OR");
     setFieldList("CALL ADDR APT PLACE CITY INFO");
+    setupCallList(CALL_LIST);
+    setupMultiWordStreets(
+        "BIG TROUT",
+        "CAPE KIWANDA",
+        "CAPE LOOKOUT",
+        "CEDAR CREEK",
+        "DORY POINTE",
+        "EAST BEAVER CREEK",
+        "MOON CREEK",
+        "NESTUCCA RIDGE",
+        "WHISKEY CREEK"
+    );
   }
   
   @Override
@@ -21,17 +34,29 @@ public class ORTillamookCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     body = body.replace('\n', ' ');
-    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_IGNORE_AT, body, data);
-    if (data.strCity.length() == 0) return false;
-    data.strSupp = getLeft();
-    
-    String city = CITY_PLACE_TABLE.getProperty(data.strCity.toUpperCase());
-    if (city != null) {
-      data.strPlace = data.strCity;
-      data.strCity = city;
+    int pt = body.length();
+    while (true) {
+      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_IGNORE_AT, body.substring(0,pt), data);
+      if (data.strCity.length() > 0) break;
+      if (!isValidAddress()) return false;
+      pt = data.strCall.length();
+      data.strCall = data.strAddress = data.strApt = data.strCross = "";
     }
+    data.strSupp = getLeft() + body.substring(pt);
     return isValidAddress();
   }
+  
+  @Override
+  public String adjustMapCity(String city) {
+    String city2 = CITY_PLACE_TABLE.getProperty(city.toUpperCase());
+    if (city2 != null) city = city2;
+    return city;
+  }
+  private static final Properties CITY_PLACE_TABLE = buildCodeTable(new String[]{
+      "BLAINE",           "Beaver",
+      "SANDLAKE",         "Cloverdale",
+      "CASCADE HEAD",     "Siuslaw National Forest"
+  });
   
   private static final String[] CITY_LIST = new String[]{
 
@@ -49,8 +74,10 @@ public class ORTillamookCountyParser extends SmartAddressParser {
     "BAYOCEAN",
     "BAYSIDE GARDENS",
     "BEAVER",
+    "BLAINE",
     "BRIGHTON",
     "CAPE MEARES",
+    "CASCADE HEAD",
     "CASTLE ROCK",
     "CLOVERDALE",
     "DOLPH",
@@ -78,11 +105,22 @@ public class ORTillamookCountyParser extends SmartAddressParser {
     "TWIN ROCKS",
     "WATSECO",
     "WOODS"
-   
   };
   
-  private static final Properties CITY_PLACE_TABLE = buildCodeTable(new String[]{
-      "SANDLAKE",         "Cloverdale"
-  });
- 
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "ASSIST",
+      "DISTURBANCE",
+      "FIRE",
+      "FIRE ALARM",
+      "HAZ-MAT",
+      "MAN DOWN",
+      "MEDICAL",
+      "MVA",
+      "REC ACCIDENT",
+      "ROAD HAZARD",
+      "SUICIDAL",
+      "TOW",
+      "UNKNOWN",
+      "WATER RESCUE"
+  );
 }
