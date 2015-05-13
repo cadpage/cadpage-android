@@ -474,14 +474,14 @@ choyvp pynff GKYhoobpxPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1406 P E 3300",
         "PNYY:Qvssvphygl fcrnxvat orgjrra oernguf",
         "PBQR:10-Q-2",
-        "VASB:FUBHYQ UNIR RFPBEG NG SEBAG ZNVA QBBEF CebDN pbzzragf: URNEG NGGNPX");
+        "VASB:FUBHYQ UNIR RFPBEG NG SEBAG ZNVA QBBEF / URNEG NGGNPX");
 
     qbGrfg("G63",
         "(RZF Pnyy - cneg 1 bs 1) EP:1406 PBHAGL EBNQ 3300/10-Q-2 Qvssvphygl fcrnxvat orgjrra oernguf/FUBHYQ UNIR RFPBEG NG SEBAG ZNVA QBBEF CebDN pbzzragf: URNEG NGGNPX",
         "NQQE:1406 PBHAGL EBNQ 3300",
         "PNYY:Qvssvphygl fcrnxvat orgjrra oernguf",
         "PBQR:10-Q-2",
-        "VASB:FUBHYQ UNIR RFPBEG NG SEBAG ZNVA QBBEF CebDN pbzzragf: URNEG NGGNPX");
+        "VASB:FUBHYQ UNIR RFPBEG NG SEBAG ZNVA QBBEF / URNEG NGGNPX");
 
     qbGrfg("G64",
         "(RZF Pnyy - cneg 1 bs 1) EP:1406 PBHAGL EBNQ 3300/Haxabja Ceboyrz (Zna Qbja)/FUBHYQ UNIR RFPBEG NG SEBAG ZNVA QBBEF",
@@ -506,7 +506,7 @@ choyvp pynff GKYhoobpxPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:15410 A SZ 400",
         "ZNQQE:15410 A SNEZ-GB-ZNEXRG 400",
         "PNYY:30O1-Ivgny Obql Nern Vaw.",
-        "VASB:abegu bs envyebnq genpxf va fyngba bss vaqhfgevny qevir / va gur onea / yrsg unaq 470-6558 CebDN pbzzragf: xvpxrq va gur urnq ol ubefr");
+        "VASB:abegu bs envyebnq genpxf va fyngba bss vaqhfgevny qevir / va gur onea / yrsg unaq 470-6558 / xvpxrq va gur urnq ol ubefr");
 
     qbGrfg("G68",
         "(RZF Pnyy - cneg 1 bs 1) EP:207 PURFGAHG FG/Snyyf/",
@@ -586,7 +586,7 @@ choyvp pynff GKYhoobpxPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:12820 R UVTUJNL 62",
         "PNYY:Abg nyreg",
         "PBQR:31-Q-3",
-        "VASB:GENVYBE- GNAVFU JUVGR / JVGU OEBJA NAQ PNE CBEG / TERL QBQTR NAQ N OYNPX PNE NAQ N GEHPX / NAQ GJB PNZCREF. -NYG YBP CebDN pbzzragf: NYG YBP");
+        "VASB:GENVYBE- GNAVFU JUVGR / JVGU OEBJA NAQ PNE CBEG / TERL QBQTR NAQ N OYNPX PNE NAQ N GEHPX / NAQ GJB PNZCREF. -NYG YBP / NYG YBP");
 
     qbGrfg("G81",
         "(RZF Pnyy - cneg 1 bs 1) EP:12820 R UVTUJNL 62/Hapbafpvbhf/Snvagvat (Arne)/GENVYBE- GNAVFU JUVGR/ JVGU OEBJA NAQ PNE CBEG/ TERL QBQTR NAQ N OYNPX PNE NAQ N GEHPX/ NAQ GJB PNZCREF. -NYG YBP",

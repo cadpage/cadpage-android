@@ -212,7 +212,30 @@ Fraqre: <qvfcngpu@zbaebrbuvb.bet>
 (PNQ Cntr) 14-411304\aZrqvpny Nvq | Fdhnq Pnyy\a346 BYQ FG HAVG Q\a\aK bs PBZZHAVGL CNEX |& PBZZHAVGL CNEX\aYbp Vasb: <NYREG<SVERPBQR>1><9>, \aBjare: \aGvzr Bhg: 8/22/2014@21:17:36
 (PNQ Cntr) 14-411298\aZrqvpny Nvq | Fdhnq Pnyy\a210 ZBHAG CYRNFNAG QE\aNCG 111\aK bs ABEGUJRFGREA NIR |& FRZVANEL QE\aYbp Vasb: <NYREG<SVERPBQR>1><9>, \aBjare: ZBHAG CYRNFNAG CYNPR\aGvzr Bhg: 8/22/2014@19:52:21
 
-Arrqf gb or erohvyg
+Cerggl fvzcyr SvryqCEbtenzCnefre
+Purpx fhowrpg
+fcyvg ol \a
+VQ PNYY NQQE VASB PEBFF! Ybp_Vasb:VASB! Bjare:CYNPR! Gvzr_Bhg:QNGRGVZR
+
+Inyvqngvba cnggreaf jurer nccebevngr
+
+Bireevqr PNYY svryq
+Fgevc | sebz ortvaavat bs svryq
+punatr erznvavat | gb qnfu.
+
+Bireevqr NQQE svryq
+punatr @ gb &
+
+Bireevqr VASB svryq
+Purpx sbe boivbhf NCG svryqf
+
+Bireevqr K svryq
+Zhfg fgneg jvgu "K bs" naq pbagnva &
+punatr |& gb &
+Fgevc yrnqvat be genvyvat &
+
+Bireevqr QNGRGVZR svryq
+Hfr cnggrea zngpu gb fcyvg qngr naq gvzr svryqf
 
  */
 choyvp pynff BUZbaebrCnefreGrfg rkgraqf OnfrCnefreGrfg {

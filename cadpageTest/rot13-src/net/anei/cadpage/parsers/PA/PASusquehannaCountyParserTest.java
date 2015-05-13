@@ -15,6 +15,10 @@ OEHFU >OEHFU SVER UNEZBAL EQ TERNG ORAQ TNYYRYYV,WBUA Znc: Tevqf:, Pnq: 2012-000
 JVERF >JVERF QBJA FE 11 TERNG ORAQ NAGUBAL Znc: Tevqf:, Pnq: 2012-0000006114 (UFS)
 17 >SNYYF 1004 UNEZBAL EQ TERNG ORAQ PFG - YVAX GB YVSR Znc: Tevqf:, Pnq: 2012-0000006142 (UFS)
 
+Pbagnpg: zuvaqf <zuvaqf@rcvk.arg>
+Fraqre: ErnqlAbgvsl_1XCY@fhfdpb.nyregcn.bet
+26 >FVPX CREFBA 435 FE 858 EHFU Znc: Tevqf:, Pnq: 2015-0000006025 (ZZR) Gvzr: 1150
+
 */
 
 choyvp pynff CNFhfdhrunaanPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -72,6 +76,20 @@ choyvp pynff CNFhfdhrunaanPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ANZR:PFG - YVAX GB YVSR",
         "VQ:2012-0000006142",
         "VASB:(UFS)");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZuvaqf() {
+
+    qbGrfg("G1",
+        "26 >FVPX CREFBA 435 FE 858 EHFU Znc: Tevqf:, Pnq: 2015-0000006025 (ZZR) Gvzr: 1150",
+        "PNYY:FVPX CREFBA",
+        "NQQE:435 FE 858",
+        "ZNQQE:435 CN 858",
+        "ANZR:EHFU",
+        "VQ:2015-0000006025",
+        "VASB:(ZZR) Gvzr: 1150");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
