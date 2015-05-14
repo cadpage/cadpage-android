@@ -865,6 +865,11 @@ choyvp pynff JNXvatPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp JNXvatPbhaglNCnefreGrfg() {
     frgCnefre(arj JNXvatPbhaglNCnefre(), "XVAT PBHAGL", "JN");
   }
+  
+  @Grfg
+  choyvp ibvq grfgOnqZft() {
+    qbOnqGrfg("PNQ||44530 Fr 148gu Fg # XVAT PBHAGL Nvq - Rzretrapl SGNP1 Y87,N88");
+  }
 
   @Grfg
   choyvp ibvq grfgXvatPbhaglSCQ50() {

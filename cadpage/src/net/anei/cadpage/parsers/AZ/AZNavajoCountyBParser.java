@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers.AZ;
 
-import java.util.Properties;
-
 import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 
 /**
@@ -10,14 +8,11 @@ import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 public class AZNavajoCountyBParser extends DispatchA20Parser {
   
   public AZNavajoCountyBParser() {
-    super(CALL_CODES, "NAVAJO COUNTY", "AZ");
+    super("NAVAJO COUNTY", "AZ");
   }
   
   @Override
   public String getFilter() {
-    return "@cityofhanfordca.com";
+    return "@ci.show-low.ca.us";
   }
-  
-  private static final Properties CALL_CODES = buildCodeTable(new String[]{
-  });
 }

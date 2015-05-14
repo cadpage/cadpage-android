@@ -61,6 +61,7 @@ public class WAKingCountyAParser extends MsgParser {
   
   private static final Pattern COMP_MASTER = Pattern.compile("([^#]+) # ([^ ]*) (.*?) (FT[A-Z0-9]+) ([A-Z0-9,]+)");
   private boolean parseCompressedMsg(String body, Data data) {
+    if (body.startsWith("CAD||")) return false;
     Matcher match = COMP_MASTER.matcher(body);
     if (!match.matches()) return false;
     parseAddress(match.group(1).trim(), data);
