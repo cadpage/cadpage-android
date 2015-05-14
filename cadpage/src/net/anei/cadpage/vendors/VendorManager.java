@@ -269,9 +269,8 @@ public class VendorManager {
   /**
    * Called by CD2MReceiver when phone is unregistered from C2DM services
    * @param context current context
-   * @param registrationId old registration ID
    */
-  public void unregisterC2DMId(Context context, String registrationId) {
+  public void unregisterC2DMId(Context context) {
     
     // New rules, we always have to have a valid registration ID
     // so we always request a new one
@@ -300,6 +299,7 @@ public class VendorManager {
     else if (error.equals("AUTHENTICATION_FAILED")) resId = R.string.vendor_authentication_failed_error;
     else if (error.equals("PHONE_REGISTRATION_ERROR")) resId = R.string.vendor_phone_registration_error_error;
     else if (error.equals("PHONE_REGISTRATION_ERROR_HARD")) resId = R.string.vendor_phone_registration_error_hard_error;
+    else if (error.equals("TOO_MANY_REGISTRATIONS")) resId = R.string.vendor_too_many_registrations_error;
     else resId = R.string.vendor_registration_error;
     String errMsg = context.getString(resId, error);
     NoticeActivity.showVendorNotice(context, errMsg);

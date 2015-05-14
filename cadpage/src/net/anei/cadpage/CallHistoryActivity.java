@@ -1,5 +1,8 @@
 package net.anei.cadpage;
 
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
+
 import net.anei.cadpage.donation.DonateActivity;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.VendorEvent;
@@ -35,6 +38,7 @@ public class CallHistoryActivity extends ListActivity {
   
   private static final int RELEASE_DIALOG = 1;
   private static final int CONFIRM_DELETE_ALL_DIALOG = 2;
+  private static final int PLAY_SERVICES_REQUEST_DIALOG = 3;
   
   // keep track of which message text view has opened a context menu
   private HistoryMsgTextView msgTextView = null;
@@ -68,10 +72,23 @@ public class CallHistoryActivity extends ListActivity {
     int width = displaymetrics.widthPixels;
     ManagePreferences.setScreenSize(""+width+"X"+height);
     
+    if (!ManagePreferences.useOldGcm()) {
+      int resultCode = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(this);
+      if (resultCode != ConnectionResult.SUCCESS) {
+        if (GoogleApiAvailability.getInstance().isUserResolvableError(resultCode)) {
+          Log.w("Google Play Services Recoverable error: " + resultCode);
+          GoogleApiAvailability.getInstance().getErrorDialog(this, resultCode, PLAY_SERVICES_REQUEST_DIALOG).show();
+        } else {
+          Log.w("Google Play Services are not available: " + resultCode);
+        }
+      }
+    }
+    
     // If preferences have never been initialized, bring up the preference
     // screen to initialize them now.  This is necessary because the new
     // preference retrieval logic throws an exception if any requested preference
-    // hasn't been initialized.
+    // hasn't been initialized.  (We get a way with calling useOldGcm() above
+    // because it returns a boolean result)
     if (! ManagePreferences.initialized()) {
       Intent intent = new Intent(this, SmsPopupConfigActivity.class);
       startActivity(intent);

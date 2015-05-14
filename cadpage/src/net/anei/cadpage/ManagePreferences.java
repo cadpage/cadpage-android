@@ -1049,6 +1049,15 @@ public class ManagePreferences {
     prefs.putInt(R.string.pref_restore_vol, newVal);
   }
   
+  public static boolean useOldGcm() {
+    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.GINGERBREAD) return true;
+    return prefs.getBoolean(R.string.pref_use_old_gcm);
+  }
+  
+  public static void setUseOldGcm(boolean newVal) {
+    prefs.putBoolean(R.string.pref_use_old_gcm, newVal);
+  }
+  
   public static void clearAll() {
     SharedPreferences.Editor settings = prefs.mPrefs.edit();
     settings.clear();
@@ -1204,7 +1213,9 @@ public class ManagePreferences {
         R.string.pref_direct_page_active_key,
         R.string.pref_last_gcm_event_type_key,
         R.string.pref_last_gcm_event_time_key,
-        R.string.pref_restore_vol
+        R.string.pref_restore_vol,
+        
+        R.string.pref_use_old_gcm
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();
