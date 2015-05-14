@@ -521,6 +521,7 @@ class Active911Vendor extends Vendor {
       "US/NC/JohnstonCounty",             "NCJohnstonCounty",
       "US/NC/LenoirCounty",               "NCLenoirCountyB",
       "US/NC/LincolnCounty",              "NCLincolnCounty",
+      "US/NC/CityofLumberton",            "NCLumberton",
       "US/NC/MecklenburgCounty",          "NCMecklenburgCounty",
       "US/NC/MitchellCounty",             "NCMitchellCounty",
       "US/NC/NashCounty",                 "NCNashCounty",
