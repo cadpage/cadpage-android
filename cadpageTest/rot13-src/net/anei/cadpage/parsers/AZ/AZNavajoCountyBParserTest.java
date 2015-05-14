@@ -160,7 +160,7 @@ Fraqre: @pv.fubj-ybj.pn.hf
 choyvp pynff NMAninwbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp NMAninwbPbhaglOCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "ANINWB PBHAGL", "NM");
+    frgCnefre(arj NMAninwbPbhaglOCnefre(), "ANINWB PBHAGL", "NM");
   }
 
   @Grfg
