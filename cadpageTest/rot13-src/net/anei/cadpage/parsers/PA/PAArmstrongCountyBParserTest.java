@@ -1347,7 +1347,7 @@ choyvp pynff CNNezfgebatPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Aneengvir Gvzr~Aneengvir",
 
         "NQQE:1202 FHTNE UBYYBJ EQ",
-        "PVGL:XVFXV GJC",
+        "PVGL:XVFXVZVARGNF GJC",
         "K:FUNSSRE EQ / UBYYL QE",
         "ZNC:140-106-3",
         "VQ:14136",
@@ -1398,7 +1398,7 @@ choyvp pynff CNNezfgebatPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Aneengvir Gvzr~Aneengvir",
 
         "NQQE:1202 FHTNE UBYYBJ EQ",
-        "PVGL:XVFXV GJC",
+        "PVGL:XVFXVZVARGNF GJC",
         "K:FUNSSRE EQ / UBYYL QE",
         "ZNC:140-106-3",
         "VQ:14136",

@@ -11,6 +11,7 @@ public class PAArmstrongCountyBParser extends DispatchA9Parser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "LEECHBURG BORO",    "LEECHBURG",
+      "KISKI TWP",         "KISKIMINETAS TWP",
       "KITTG BORO",        "KITTANNING"
   });
   
