@@ -1004,7 +1004,7 @@ choyvp pynff AWBprnaPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
           "HAVG:OYRRQ",
           "PNYY:Oyrrqvat",
           "NQQE:123  GHPXNUBR EBNQ",
-          "PVGL:PBEOVA PVGL", //zncf gb znezben
+          "PVGL:PBEOVA PVGL",
           "FG:AW",
           "VASB:GRFG");
 
@@ -1020,7 +1020,7 @@ choyvp pynff AWBprnaPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
           "VQ:PQ-15-07107",
           "HAVG:NYGZRA",
           "PNYY:NYGRERQ ZRAGNY FGNGHF",
-          "NQQE:99999  EBHGR 50", //npghnyyl gnxrf zr gb gur 50
+          "NQQE:99999  EBHGR 50",
           "PVGL:PBEOVA PVGL",
           "FG:AW",
           "VASB:FGN 20\aGRFGVAT NPGVIR 9-1-1");

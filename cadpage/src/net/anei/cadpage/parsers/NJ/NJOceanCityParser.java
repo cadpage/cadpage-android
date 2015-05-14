@@ -12,5 +12,4 @@ public class NJOceanCityParser extends DispatchA44Parser {
   public String getFilter() {
     return "ocpd@ocnj.us";
   }
-
 }
