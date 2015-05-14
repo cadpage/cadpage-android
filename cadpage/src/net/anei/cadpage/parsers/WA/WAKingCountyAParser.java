@@ -29,39 +29,45 @@ public class WAKingCountyAParser extends MsgParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (body.length() < 102) return false;
-    if (body.charAt(50) != '#') return false;
-    if (!isStartField(body, 61, false)) return false;
-    int endCity = isStartField(body, 91) ? 61 : 96;
-    if (!isStartField(body, endCity+30)) return false;
-    if (!isStartField(body, endCity+40)) return false;
+    if (parseNormalMsg(body, data)) return true;
+    data.initialize(this);
+    return parseCompressedMsg(body, data);
+  }
+  
+  private boolean parseNormalMsg(String body, Data data) {
     
-    // Retrieve GPS coordinates
+    // Retrieve GPS coordinates from end of message
     Matcher match = GPS_PTN.matcher(body);
     if (match.find()) {
       data.strGPSLoc = '+' + match.group(1) + '.' + match.group(2) + ",-" + match.group(3) + '.' + match.group(4);
       body = body.substring(0,match.start());
-      if (body.length() < 102) return false;
     }
     
-    parseAddress(substring(body, 0, 50), data);
-    data.strApt = substring(body, 51, 60);
-    data.strCity = substring(body, 61, endCity);
-    data.strCall = substring(body, endCity, endCity+29);
-    String channel = substring(body, endCity+30, endCity+39);
+    FParser p = new FParser(body);
+    parseAddress(p.get(50), data);
+    if (!p.check("#")) return false;
+    data.strApt = p.get(10);
+    if (p.check(" ")) return false;
+    
+    if (p.lookahead(34,1).length() == 0 && p.lookahead(35,1).length() == 1) data.strCity = p.get(35);
+    data.strCall = p.get(29);
+    if (!p.check(" ")) return false;
+    String channel = p.get(9);
     if (channel.startsWith("FT")) data.strChannel = channel;
-    data.strUnit = substring(body, endCity+40);
+    if (!p.check(" ") || p.check(" ")) return false;
+    data.strUnit = p.get();
     return true;
   }
   
-  private boolean isStartField(String body, int pt) {
-    return isStartField(body, pt, true);
-  }
-  
-  private boolean isStartField(String body, int pt, boolean leadBlankReq) {
-    if (body.length() <= pt) return false;
-    if (body.charAt(pt) == ' ') return false;
-    if (leadBlankReq && body.charAt(pt-1) != ' ') return false;
+  private static final Pattern COMP_MASTER = Pattern.compile("([^#]+) # ([^ ]*) (.*?) (FT[A-Z0-9]+) ([A-Z0-9,]+)");
+  private boolean parseCompressedMsg(String body, Data data) {
+    Matcher match = COMP_MASTER.matcher(body);
+    if (!match.matches()) return false;
+    parseAddress(match.group(1).trim(), data);
+    data.strApt = match.group(2);
+    data.strCall = match.group(3).trim();
+    data.strChannel = match.group(4);
+    data.strUnit = match.group(5).trim();
     return true;
   }
 }
