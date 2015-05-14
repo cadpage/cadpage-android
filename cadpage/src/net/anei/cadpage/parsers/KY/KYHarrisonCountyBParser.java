@@ -9,6 +9,24 @@ public class KYHarrisonCountyBParser extends DispatchB2Parser {
   
   public KYHarrisonCountyBParser() {
     super("HARRISON_COUNTY_911:", CITY_LIST, "HARRISON COUNTY", "KY");
+    setupMultiWordStreets(
+        "BOWMANS MILL",
+        "DIVIDING RIDGE",
+        "FARMER TRAIL",
+        "GRAYS RUN",
+        "HINTON SADIEVILLE",
+        "INDIAN CREEK",
+        "KELLER WAITS",
+        "LICKING VALLEY",
+        "MOUTH OF CEDAR",
+        "NEWTOWN LEESBURG",
+        "OAK RIDGE",
+        "ODDVILLE SUNRISE",
+        "OFF ANTIOCH RICHLAND",
+        "SNAKE LICK",
+        "STRINGTOWN WEBBER",
+        "WAGNORS CHAPEL"
+    );
   }
   
   @Override
