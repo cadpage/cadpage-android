@@ -134,6 +134,10 @@ public class KYStatePoliceParser extends DispatchB2Parser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    // Reject KYHarrisonCountyB alerts
+    if (body.startsWith("HARRISON_COUNTY_911")) return false;
+    
     Matcher match = PREFIX_PTN.matcher(body);
     srcFound = match.lookingAt();
     if (srcFound) body = body.substring(match.end());

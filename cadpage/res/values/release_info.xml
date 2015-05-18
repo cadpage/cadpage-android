@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">05112015</string>
-  <string name="release_version">v1.8.32</string>
+  <string name="release_date">05118015</string>
+  <string name="release_version">v1.8.33</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.33\n
+New Locations:\n
+Marion County, AL\n
+Grand County, CO\n
+Mitchell County, IA\n
+Harvey County, KS\n
+Harrison County, KY\n
+Ocean City, NJ\n
+Lumberton, NC\n
+Armstrong County, PA (alt)\n
+Hoopewell, VA\n
+\n
+Location Fixes:\n
+Hancock County, IN\n
+Branson, MO\n
+Lauderdale County, MS\n
+Marklboro, NJ\n
+Cuyahoga County, OH\n
+Fairfield, OH\n
+Tillamook County, OR\n
+Bucks County, PA\n
+King County, WA\n
+\n      
 v1.8.32\n
 Location Fixes:\n
 Bucks County, PA\n
@@ -58,43 +81,7 @@ Mineral County, WV\n
 Waukesha County, WI\n
 \n
 General Fixes:\n
-Fixed problem with Widget display in Android 5.0\n
-\n      
-v1.8.28\n
-New Locations:\n
-Lee County, AL\n
-Los Angeles County, CA (alt)\n
-Solano County, CA\n
-Cook County, IL (alt)\n
-Charles County, MD (alt)\n
-Washtenaw County, MI\n
-Macon County, MO\n
-Hollis, NH\n
-Marion County, SC\n
-Carter County, TN\n
-Navasota, TX\n
-Wharton, TX\n
-\n
-Location Fixes:\n
-La Plata County, CO\n
-Kent County, DE\n
-Kootenai County, ID\n
-Kosciusko County, IN\n
-St Charles County, LA\n
-Washington County, MD\n
-Minneapolis-St Paul, MN\n
-Morris County, NJ\n
-Cayuga County, NY\n
-Lebanon County, PA\n
-Richland County, SC\n
-Minnehaha County, SD\n
-Warren County, TN\n
-Denton County, TX\n
-\n
-General Fixes:\n
-Cadpage was not always warning users of pending subscripton expiration when
-Cadage Paging Service was active.\n
-Fixed Active911 User Profile feature.
+Fixed problem with Widget display in Android 5.0
   </string>
   <string name="special_release_title">
       Cadpage needs your help!
