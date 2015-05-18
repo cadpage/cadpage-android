@@ -1,13 +1,11 @@
 package net.anei.cadpage.parsers.KY;
 
-public class KYHarrisonCountyParser extends KYStatePoliceParser {
+import net.anei.cadpage.parsers.GroupBestParser;
+
+
+public class KYHarrisonCountyParser extends GroupBestParser {
   
   public KYHarrisonCountyParser() {
-    super("HARRISON COUNTY");
-  }
-  
-  @Override
-  public String getLocName() {
-    return "Harrison County, KY";
+    super(new KYHarrisonCountyAParser(), new KYHarrisonCountyBParser());
   }
 }

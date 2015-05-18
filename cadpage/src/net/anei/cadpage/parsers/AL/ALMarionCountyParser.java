@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Baldwin County, AL
+ * Marion County, AL
  */
 public class ALMarionCountyParser extends FieldProgramParser {
   
