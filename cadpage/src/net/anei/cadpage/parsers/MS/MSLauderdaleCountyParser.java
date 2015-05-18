@@ -13,7 +13,7 @@ public class MSLauderdaleCountyParser extends FieldProgramParser {
 
   public MSLauderdaleCountyParser() {
     super(CITY_LIST, "LAUDERDALE COUNTY", "MS",
-          "CALL ADDR/Z+? CITY INFO SRC UNIT!");
+          "CALL ADDR/Z+? CITY INFO/N+? SRC UNIT!");
   }
   
   @Override
