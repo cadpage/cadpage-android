@@ -212,7 +212,9 @@ choyvp pynff BUPhlnubtnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:S32",
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:12944  YVFG YA",
-        "PVGL:CNEZN");
+        "PVGL:CNEZN",
+        "HAVG:SQ");
+    
 
     qbGrfg("G12",
         "(Qvfcngpu Nyreg: PQ-14-000739) PQ-14-000739\aS32 ZRQVPNY RZRETRAPL\a5520  OEBNQIVRJ EQ\a\aCNEZN BU \aNtrapvrf nffvtarq:",
@@ -319,7 +321,8 @@ choyvp pynff BUPhlnubtnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:S32",
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:7377  EVQTR EQ",
-        "PVGL:CNEZN");
+        "PVGL:CNEZN",
+        "HAVG:SQ");
 
     qbGrfg("G25",
         "(Qvfcngpu Nyreg: PQ-14-000594) PQ-14-000594\aS32 ZRQVPNY RZRETRAPL\a7377  EVQTR EQ\a\aCNEZN BU \aNtrapvrf nffvtarq:",
@@ -428,7 +431,8 @@ choyvp pynff BUPhlnubtnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:S32",
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:5608  UBYYLJBBQ QE",
-        "PVGL:CNEZN");
+        "PVGL:CNEZN",
+        "HAVG:SQ");
 
     qbGrfg("G38",
         "(Qvfcngpu Nyreg: PQ-14-000360) PQ-14-000360\aS70 SVER NYNEZ\a7260  EVQTR EQ\a\aCNEZN BU \aNtrapvrf nffvtarq:",
@@ -460,7 +464,8 @@ choyvp pynff BUPhlnubtnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:S32",
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:6905  EVQTR EQ",
-        "PVGL:CNEZN");
+        "PVGL:CNEZN",
+        "HAVG:SQ");
 
     qbGrfg("G42",
         "(Qvfcngpu Nyreg: PQ-14-000347) PQ-14-000347\aS32 ZRQVPNY RZRETRAPL\a6905  EVQTR EQ\a\aCNEZN BU \aNtrapvrf nffvtarq:",
@@ -489,7 +494,8 @@ choyvp pynff BUPhlnubtnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:S41",
         "PNYY:PBZOHFG/SYNZ FCVYYF & YRNXF",
         "NQQE:11110 J CYRNFNAG INYYRL EQ",
-        "PVGL:CNEZN");
+        "PVGL:CNEZN",
+        "HAVG:SQ");
 
     qbGrfg("G45",
         "(Qvfcngpu Nyreg: PQ-14-000330) PQ-14-000330\a" +
@@ -829,6 +835,7 @@ choyvp pynff BUPhlnubtnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:7895  OHPXFGBAR PG",
         "PVGL:CNEZN",
+        "HAVG:SQ",
         "CUBAR:440-843-1313");
 
     qbGrfg("G84",
@@ -837,7 +844,8 @@ choyvp pynff BUPhlnubtnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:S32",
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:6200  FGNGR EQ",
-        "PVGL:CNEZN");
+        "PVGL:CNEZN",
+        "HAVG:SQ");
 
     qbGrfg("G85",
         "(Qvfcngpu Nyreg: PQ-13-051279) PQ-13-051279\aS32 ZRQVPNY RZRETRAPL\a6200  FGNGR EQ\a\aCNEZN BU \aNtrapvrf nffvtarq:  SQ",
@@ -845,7 +853,8 @@ choyvp pynff BUPhlnubtnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:S32",
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:6200  FGNGR EQ",
-        "PVGL:CNEZN");
+        "PVGL:CNEZN",
+        "HAVG:SQ");
 
     qbGrfg("G86",
         "(Qvfcngpu Nyreg: PQ-13-051233) PQ-13-051233\aS32 ZRQVPNY RZRETRAPL\a7377  EVQTR EQ\a\aCNEZN BU \aNtrapvrf nffvtarq:",

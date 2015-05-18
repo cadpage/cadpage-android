@@ -10,7 +10,7 @@ public class DispatchA44Parser extends FieldProgramParser {
 
   protected DispatchA44Parser(String defCity, String defState) {
     super(defCity, defState, 
-          "ID UNIT_CALL ADDR X! CITY_ST Agencies_assigned:SKIP! INFO+");
+          "ID CODE_CALL ADDR X! CITY_ST Agencies_assigned:UNIT! INFO+");
   }
 
   @Override
@@ -22,27 +22,27 @@ public class DispatchA44Parser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new IdField("[A-Z]{2}-\\d{2}-\\d+", true);
-    if (name.equals("UNIT_CALL")) return new MyUnitCallField();
+    if (name.equals("CODE_CALL")) return new MyCodeCallField();
     if (name.equals("CITY_ST")) return new MyCityStateField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
 
-  private static Pattern UNIT_CALL = Pattern.compile("([A-Z]+\\d*) +(.*?)");
+  private static Pattern CODE_CALL_PTN = Pattern.compile("([^ ]+) +(.*?)");
 
-  private class MyUnitCallField extends Field {
+  private class MyCodeCallField extends Field {
 
     @Override
     public void parse(String field, Data data) {
-      Matcher mat = UNIT_CALL.matcher(field);
+      Matcher mat = CODE_CALL_PTN.matcher(field);
       if (!mat.matches()) abort();
-      data.strUnit = mat.group(1);
+      data.strCode = mat.group(1);
       data.strCall = mat.group(2);
     }
 
     @Override
     public String getFieldNames() {
-      return "UNIT CALL";
+      return "CODE CALL";
     }
   }
 

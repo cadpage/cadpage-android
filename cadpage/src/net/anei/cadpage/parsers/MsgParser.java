@@ -907,10 +907,26 @@ public abstract class MsgParser {
   * from being treated as individual name values, usually because they 
   * contain the word "AND".
   */
- private static class PatternReplace {
+ public static class PatternReplace {
    private Pattern pattern;
    boolean reverse;
    
+   
+   /**
+    * Constructor
+    * @param name  String containing pattern to match.  Any expression matching this 
+    * pattern will have blanks changed to underscores
+    */
+   public PatternReplace(String name) {
+     this(name, false);
+   }
+   
+   /**
+    * Constructor
+    * @param name  String containing pattern to match.  Any expression matching this 
+    * pattern will have blanks changed to underscores or vice versa
+    * @param reverse false to change blanks to underscores, true to change underscores to blanks
+    */
    public PatternReplace(String name, boolean reverse) {
      if (reverse) name = name.replace(' ', '_');
      pattern = Pattern.compile("\\b" + name + "\\b", Pattern.CASE_INSENSITIVE);
@@ -935,6 +951,44 @@ public abstract class MsgParser {
      }
      return address;
    }
+   
+   /**
+    * Construct array of PatternReplace objects
+    * @param patterns array of patterns to match
+    * @return array of constructed PatternReplace objects
+    */
+   public static PatternReplace[] buildArray(String ... patterns) {
+     return buildArray(patterns, false);
+   }
+   
+   /**
+    * Construct array of PatternReplace objects
+    * @param patterns array of patterns to match
+    * @param reverse false to convert blank to underscore, true to convert underscore to blank
+    * @return array of constructed PatternReplace objects
+    */
+   public static PatternReplace[] buildArray(String[] patterns, boolean reverse) {
+     PatternReplace[] result = new PatternReplace[patterns.length];
+     for (int jj = 0; jj < patterns.length; jj++) {
+      result[jj] = new PatternReplace(patterns[jj], reverse); 
+     }
+     return result;
+   }
+
+   /**
+    * Apply array of PatternReplace objects to line
+    * @param line line to be converted
+    * @param patterns array of PatternReplace objects to apply to line
+    * @return final result
+    */
+   public static String replaceArray(String line, PatternReplace[] patterns) {
+     if (patterns != null) {
+       for (PatternReplace pr : patterns) {
+         line = pr.replace(line);
+       }
+     }
+     return line;
+   }
  }
  
  private PatternReplace[] protectList = null;
@@ -947,12 +1001,9 @@ public abstract class MsgParser {
   * @param nameList list of street names that need to be protected
   */
  protected void setupProtectedNames(String ... nameList) {
-   protectList = new PatternReplace[nameList.length];
-   reverseProtectList = new PatternReplace[nameList.length];
-   for (int jj = 0; jj<nameList.length; jj++) {
-     protectList[jj] = new PatternReplace(nameList[jj], false);
-     reverseProtectList[jj] = new PatternReplace(nameList[jj], true);
-   }
+   
+   protectList = PatternReplace.buildArray(nameList, false);
+   reverseProtectList = PatternReplace.buildArray(nameList, true);
  }
  
  /**
@@ -992,7 +1043,7 @@ public abstract class MsgParser {
   * @return protected string field
   */
  protected String protectNames(String field) {
-   return applyPatternReplaceList(protectList, field);
+   return PatternReplace.replaceArray(field,  protectList);
  }
 
  /**
@@ -1001,17 +1052,8 @@ public abstract class MsgParser {
   * @return original unprotected string field
   */
  protected String unprotectNames(String field) {
-   return applyPatternReplaceList(reverseProtectList, field);
+   return PatternReplace.replaceArray(field,  reverseProtectList);
  }
- 
- private String applyPatternReplaceList(PatternReplace[] prList, String sAddress) {
-   if (prList != null) {
-     for (PatternReplace pr : prList) {
-       sAddress = pr.replace(sAddress);
-     }
-   }
-   return sAddress;
-}
 
 /**
   * Perform parser specific conversions to city field before it is used to 
