@@ -5259,7 +5259,7 @@ choyvp pynff CNOhpxfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Raq)",
 
         "HAVG:E4",
-        "PNYY:EPBI - PBIRE (Bhg bs Pbhagl)",
+        "PNYY:EPBI - PBIRE (BHG BS PBHAGL)",
         "CYNPR:ZBAGPB FGN 8",
         "NQQE:636 ERQ YVBA EQ KFG: CUVYZBAG NIR",
         "PVGL:YBJRE ZBERYNAQ GJC",
@@ -47454,7 +47454,7 @@ choyvp pynff CNOhpxfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:E34",
         "FEP:FGN34",
-        "PNYY:EPBI - PBIRE (Bhg bs Pbhagl)",
+        "PNYY:EPBI - PBIRE (BHG BS PBHAGL)",
         "NQQE:ZBAGPB FGN18N",
         "PVGL:ZBAGTBZREL GJC",
         "GVZR:10:44:31",
