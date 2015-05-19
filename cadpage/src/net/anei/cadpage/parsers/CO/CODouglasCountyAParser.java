@@ -25,7 +25,7 @@ public class CODouglasCountyAParser extends FieldProgramParser {
     super(defCity, defState,
            "( Call:CALL! Location:ADDRCH/SXa! Map:MAP Units:UNITX! Common_Name:PLACE Time:DATETIME Narrative:INFO? Nature_Of_Call:INFO | " +
              "Call_Type:CALLID! Common_Name:PLACE! Location:ADDR/SXXx! Call_Time:DATETIME! Narrative:INFO Nature_Of_Call:INFO | " +
-             "CALL! LOC:ADDRCITY/Sxa! ( Closest_X:X Map:MAP! | Map:MAP! Closest_X:X? ) Units:UNIT! Nar:INFO LOC_Name:PLACE ADDL:INFO CR:ID3 Time:DATETIME3 )");
+             "CALL! LOC:ADDRCITY/Sxa! ( Closest_X:X! Map:MAP | Map:MAP! Closest_X:X? ) Units:UNIT Nar:INFO LOC_Name:PLACE ADDL:INFO CR:ID3 Time:DATETIME3 )");
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
   }
   
@@ -38,6 +38,8 @@ public class CODouglasCountyAParser extends FieldProgramParser {
   public String getFilter() {
     return "@notifyall.com,@notifyatonce.com,dcso@douglas.co.us,EFPD@notifyall.com";
   }
+  
+  private static final Pattern MASTER1 = Pattern.compile("([- /\\(\\)A-Z0-9]+) LOC: ([- /@A-Z0-9]+)(?:, ([ A-Za-z]+))?");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -46,10 +48,20 @@ public class CODouglasCountyAParser extends FieldProgramParser {
     // the outermost wrapper, but we have to deal with the inner wrapper here
     if (!subject.equals("Dispatch")) {
       int pt = body.indexOf(WRAPPER_MARK);
-      if (pt < 0) return false;
-      body = body.substring(pt+WRAPPER_MARK.length()).trim();
+      if (pt >= 0) body = body.substring(pt+WRAPPER_MARK.length()).trim();
     }
-    Matcher match = TRAIL_ID_PTN.matcher(body);
+    
+    // Check for short format
+    Matcher match = MASTER1.matcher(body);
+    if (match.matches()) {
+      setFieldList("CALL ADDR APT CITY");
+      data.strCall = match.group(1).trim();
+      parseAddress(match.group(2).trim().replace('@', '&'), data);
+      data.strCity = getOptGroup(match.group(3));
+      return true;
+    }
+    
+    match = TRAIL_ID_PTN.matcher(body);
     if (match.find()) {
       data.strCallId = match.group(1);
       body = body.substring(0,match.start());
