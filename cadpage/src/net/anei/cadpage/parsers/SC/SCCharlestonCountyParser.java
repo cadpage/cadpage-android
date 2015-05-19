@@ -25,44 +25,63 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
   public boolean parseMsg(String subject, String body, Data data) {
     
     // See if we can parse this as a fixed field message
-    if (parseFixedFieldMsg(subject, body, data)) return true;
-    body = body.replace(" Op Channel:", " Cmd Channel:").replace(" Cmnd Channel:", " Cmd Channel:");
-    if (! super.parseMsg(body, data)) return false;
+    if (!parseFixedFieldMsg(subject, body, data)) {
+      
+      // No luck, try it as a variable length field message
+      data.initialize(this);
+      body = body.replace(" Op Channel:", " Cmd Channel:")
+                 .replace(" Cmnd Channel:", " Cmd Channel:")
+                 .replace(" X Streets:", " X Street:");
+      if (! super.parseMsg(body, data)) return false;
+    }
     if (data.strCall.length() == 0) return false;
     if (data.strAddress.length() == 0) return false;
+    data.strChannel = stripFieldStart(data.strChannel, "_");
     return true;
   }
 
   private boolean parseFixedFieldMsg(String subject, String body, Data data) {
     if (!subject.equals("Dispatch Info")) return false;
-    if (body.length() < 87) return false;
-    if (!body.substring(34,43).equals("District ")) return false;
-    if (!body.substring(84,87).equals("XS:")) return false;
-    if (body.length() >= 130 &&
-        !body.substring(121,130).equals("Apt/Bldg:")) return false;
-    if (body.length() >= 187 &&
-        !body.substring(173,187).equals("Location Name:")) return false;
-    if (body.length() < 130) data.expectMore = true;
+    FParser p = new FParser(body);
     
-    data.strUnit = getField(body, 0, 14);
-    data.strCallId = getField(body, 14,34);
-    data.strSource = getField(body, 43, 46);
-    data.strCall = getField(body, 46, 54);
-    data.strCode = getField(body, 54, 64);
-    parseAddress(getField(body, 64, 84), data);
-    data.strCross = getField(body, 87, 121);
-    data.strApt = getField(body, 130, 143);
-    data.strSupp = getField(body, 143, 173);
-    data.strPlace = getField(body, 187, 9999);
+    if (p.check("*")) {
+      setFieldList("CALL ADDR APT X CH UNIT");
+      data.strCall = p.get(28);
+      if (!p.check(" ") || p.check(" ")) return false;
+      parseAddress(p.get(39), data);
+      if (!p.check(" ")) return false;
+      if (!p.check("X Streets:")) return false;
+      data.strCross = p.get(39);
+      p.setOptional();
+      if (!p.check(" ")) return false;
+      if (!p.check("Cmd Channel:")) return false;
+      data.strChannel = p.get(30);
+      if (!p.check("Unit Assigned:")) return false;
+      data.strUnit = p.get();
+      if (body.length() < 176) data.expectMore = true;
+      return true;
+    }
     
-    return true;
-  }
-  
-  private static String getField(String body, int start, int end) {
-    int len = body.length();
-    if (start > len) start = len;
-    if (end > len) end = len;
-    return body.substring(start, end).trim();
+    else {
+      setFieldList("UNIT ID SRC CALL CODE ADDR X APT INFO PLACE");
+      data.strUnit = p.get(14);
+      data.strCallId = p.get(20);
+      if (!p.check("District ")) return false;
+      data.strSource = p.get(3);
+      data.strCall = p.get(8);
+      data.strCode = p.get(10);
+      parseAddress(p.get(20), data);
+      if (!p.check("XS:")) return false;
+      data.strCross = p.get(34);
+      p.setOptional();
+      if (!p.check("Apt/Bldg:")) return false;
+      data.strApt = p.get(13);
+      data.strSupp = p.get(30);
+      if (!p.check("Location Name:")) return false;
+      data.strPlace = p.get();
+      if (body.length() < 130) data.expectMore = true;
+      return true;
+    }
   }
 
   private static final Pattern PREFIX_PTN = 
@@ -70,23 +89,19 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
   private class PrefixField extends CallField {
     
     @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
+    public void parse(String field, Data data) {
       Matcher match = PREFIX_PTN.matcher(field);
-      if (!match.matches()) return false;
-      data.strCallId = match.group(1);
-      data.strSource = match.group(2);
-      parse(match.group(3), data);
-      return true;
+      if (match.matches()) {
+        data.strCallId = match.group(1);
+        data.strSource = match.group(2);
+        field =  match.group(3);
+      }
+      super.parse(field, data);
     }
 
     @Override
     public String getFieldNames() {
-      return "ID SRC";
+      return "ID SRC CALL";
     }
   }
   

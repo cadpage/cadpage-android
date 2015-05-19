@@ -12,8 +12,8 @@ public class MSLauderdaleCountyParser extends FieldProgramParser {
   private static final Pattern SUBJECT_PTN = Pattern.compile("\\((\\d+)\\) *([A-Z]+)");
 
   public MSLauderdaleCountyParser() {
-    super("LAUDERDALE COUNTY", "MS",
-          "CALL ADDR CITY INFO SRC UNIT!");
+    super(CITY_LIST, "LAUDERDALE COUNTY", "MS",
+          "CALL ADDR/Z+? CITY INFO/N+? SRC UNIT!");
   }
   
   @Override
@@ -32,7 +32,11 @@ public class MSLauderdaleCountyParser extends FieldProgramParser {
     if (!match.matches()) return false;
     data.strCallId = match.group(1);
     
-    return parseFields(body.split("-"), data);
+    if (!parseFields(body.split("-"), data)) return false;
+    String addr = data.strAddress;
+    data.strAddress = "";
+    parseAddress(addr, data);
+    return true;
   }
   
   @Override
@@ -42,7 +46,39 @@ public class MSLauderdaleCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("SRC")) return new SourceField("[A-Z]{3}", true);
     return super.getField(name);
   }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strAddress = append(data.strAddress, "-", field);
+    }
+  }
+  
+  private static final String[] CITY_LIST = new String[]{
+
+      // Cities
+      "MERIDIAN",
+      
+      // Town
+      "MARION",
+      
+      // Census designated places
+      "COLLINSVILLE",
+      "LAUDERDALE",
+      "MERIDIAN STATION",
+      "NELLIEBURG",
+      "TOOMSUBA",
+      
+      // Unincorporated communities
+      "BAILEY",
+      "DALEVILLE",
+      "KEWANEE",
+      "RUSSELL",
+      "WHYNOT",
+      "ZERO"
+  };
 }
