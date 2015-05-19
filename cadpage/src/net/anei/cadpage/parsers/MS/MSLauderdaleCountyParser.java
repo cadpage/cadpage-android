@@ -13,7 +13,7 @@ public class MSLauderdaleCountyParser extends FieldProgramParser {
 
   public MSLauderdaleCountyParser() {
     super(CITY_LIST, "LAUDERDALE COUNTY", "MS",
-          "CALL ADDR/Z+? CITY INFO/N+? SRC UNIT!");
+          "CALL ( ADDR/Z CITY | ADDR/Z ADDR/Z CITY | ADDR/Z ADDR/Z ADDR/Z CITY | ADDR/Z ) INFO/N+? SRC UNIT!");
   }
   
   @Override
@@ -56,6 +56,12 @@ public class MSLauderdaleCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       data.strAddress = append(data.strAddress, "-", field);
     }
+  }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = stripFieldEnd(addr, " INTERSECTN");
+    return super.adjustMapAddress(addr);
   }
   
   private static final String[] CITY_LIST = new String[]{
