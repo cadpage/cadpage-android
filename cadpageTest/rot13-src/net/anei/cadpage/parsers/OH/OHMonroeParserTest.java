@@ -212,40 +212,3569 @@ Fraqre: <qvfcngpu@zbaebrbuvb.bet>
 (PNQ Cntr) 14-411304\aZrqvpny Nvq | Fdhnq Pnyy\a346 BYQ FG HAVG Q\a\aK bs PBZZHAVGL CNEX |& PBZZHAVGL CNEX\aYbp Vasb: <NYREG<SVERPBQR>1><9>, \aBjare: \aGvzr Bhg: 8/22/2014@21:17:36
 (PNQ Cntr) 14-411298\aZrqvpny Nvq | Fdhnq Pnyy\a210 ZBHAG CYRNFNAG QE\aNCG 111\aK bs ABEGUJRFGREA NIR |& FRZVANEL QE\aYbp Vasb: <NYREG<SVERPBQR>1><9>, \aBjare: ZBHAG CYRNFNAG CYNPR\aGvzr Bhg: 8/22/2014@19:52:21
 
-Cerggl fvzcyr SvryqCEbtenzCnefre
-Purpx fhowrpg
-fcyvg ol \a
-VQ PNYY NQQE VASB PEBFF! Ybp_Vasb:VASB! Bjare:CYNPR! Gvzr_Bhg:QNGRGVZR
-
-Inyvqngvba cnggreaf jurer nccebevngr
-
-Bireevqr PNYY svryq
-Fgevc | sebz ortvaavat bs svryq
-punatr erznvavat | gb qnfu.
-
-Bireevqr NQQE svryq
-punatr @ gb &
-
-Bireevqr VASB svryq
-Purpx sbe boivbhf NCG svryqf
-
-Bireevqr K svryq
-Zhfg fgneg jvgu "K bs" naq pbagnva &
-punatr |& gb &
-Fgevc yrnqvat be genvyvat &
-
-Bireevqr QNGRGVZR svryq
-Hfr cnggrea zngpu gb fcyvg qngr naq gvzr svryqf
-
  */
 choyvp pynff BUZbaebrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp BUZbaebrCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "ZBAEBR", "BU");
+    frgCnefre(arj BUZbaebrCnefre(), "ZBAEBR", "BU");
   }
   
   @Grfg
-  choyvp ibvq grfgCnefre() {
+  choyvp ibvq grfgZbaebrCQ() {
+
+    qbGrfg("G1",
+        "(PNQ Cntr) 14-412235\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "190 UREVGNTR TERRA QE\a" +
+        "ZRQVPNY NVQ\a" +
+        "K bs TNGR UBHFR PG & YNXRFUBER QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@21:33:20",
+
+        "VQ:14-412235",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:190 UREVGNTR TERRA QE",
+        "VASB:ZRQVPNY NVQ",
+        "K:TNGR UBHFR PG & YNXRFUBER QE",
+        "QNGR:9/6/2014",
+        "GVZR:21:33:20");
+
+    qbGrfg("G2",
+        "(PNQ Cntr) 14-412234\a" +
+        " | Abvfr/Ybhq Zhfvp/Sverjbexf/Rgp\a" +
+        "OEVQYR CNFF JNL@OHTTLJUVC PG\a" +
+        "ABVFR/YBHQ ZHFVP/SVERJBEXF/FRIRENY PNYYREF ERCBEGVAT SVERJBEXF VA GUR NERN/HAFHER GURL NER PBZVAT SEBZ\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@21:25:55",
+
+        "VQ:14-412234",
+        "PNYY:Abvfr/Ybhq Zhfvp/Sverjbexf/Rgp",
+        "NQQE:OEVQYR CNFF JNL & OHTTLJUVC PG",
+        "VASB:ABVFR/YBHQ ZHFVP/SVERJBEXF/FRIRENY PNYYREF ERCBEGVAT SVERJBEXF VA GUR NERN/HAFHER GURL NER PBZVAT SEBZ",
+        "QNGR:9/6/2014",
+        "GVZR:21:25:55");
+
+    qbGrfg("G3",
+        "(PNQ Cntr) 14-412233\a" +
+        " | Nynez Qebc - Ohfvarff\a" +
+        "901 CERZVHZ BHGYRG QE\a" +
+        "NYNEZ QEBC - OHFVARFF/SEBAG QBBE ZBGVBA\a" +
+        "K bs JX EBOVAFBA QE & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: XNL WRJRYREF BHGYRG\a" +
+        "Gvzr Bhg: 9/6/2014@21:21:00",
+
+        "VQ:14-412233",
+        "PNYY:Nynez Qebc - Ohfvarff",
+        "NQQE:901 CERZVHZ BHGYRG QE",
+        "VASB:NYNEZ QEBC - OHFVARFF/SEBAG QBBE ZBGVBA",
+        "K:JX EBOVAFBA QE",
+        "CYNPR:XNL WRJRYREF BHGYRG",
+        "QNGR:9/6/2014",
+        "GVZR:21:21:00");
+
+    qbGrfg("G4",
+        "(PNQ Cntr) 14-412232\a" +
+        " | Ohfvarff Purpx\a" +
+        "412 BYQ FG\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs PBZZHAVGL CNEX & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR PBZZHAVGL CNEX\a" +
+        "Gvzr Bhg: 9/6/2014@21:15:16",
+
+        "VQ:14-412232",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:412 BYQ FG",
+        "VASB:OHFVARFF PURPX",
+        "K:PBZZHAVGL CNEX",
+        "CYNPR:ZBAEBR PBZZHAVGL CNEX",
+        "QNGR:9/6/2014",
+        "GVZR:21:15:16");
+
+    qbGrfg("G5",
+        "(PNQ Cntr) 14-412231\a" +
+        " | Ohfvarff Purpx\a" +
+        "560 F ZNVA FG HAVG 0617\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs JZ TEBGU QE & PNEFBA EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@21:15:09",
+
+        "VQ:14-412231",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:560 F ZNVA FG",
+        "NCG:0617",
+        "VASB:OHFVARFF PURPX",
+        "K:JZ TEBGU QE & PNEFBA EQ",
+        "QNGR:9/6/2014",
+        "GVZR:21:15:09");
+
+    qbGrfg("G6",
+        "(PNQ Cntr) 14-412230\a" +
+        " | Ohfvarff Purpx\a" +
+        "6307 UNZ YRO EQ\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs PEBFFVATF OYIQ & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR PEBFFVATF CNEX\a" +
+        "Gvzr Bhg: 9/6/2014@21:15:00",
+
+        "VQ:14-412230",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:6307 UNZ YRO EQ",
+        "ZNQQE:6307 UNZVYGBA YRONABA EQ",
+        "VASB:OHFVARFF PURPX",
+        "K:PEBFFVATF OYIQ",
+        "CYNPR:ZBAEBR PEBFFVATF CNEX",
+        "QNGR:9/6/2014",
+        "GVZR:21:15:00");
+
+    qbGrfg("G7",
+        "(PNQ Cntr) 14-412229\a" +
+        " | Gerfcnffvat\a" +
+        "400 CERZVHZ BHGYRG QE\a" +
+        "GERFCNFFVAT\a" +
+        "K bs JX EBOVAFBA QE & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: PURYFRN-ZBAEBR UBYQVATF\a" +
+        "Gvzr Bhg: 9/6/2014@20:42:43",
+
+        "VQ:14-412229",
+        "PNYY:Gerfcnffvat",
+        "NQQE:400 CERZVHZ BHGYRG QE",
+        "VASB:GERFCNFFVAT",
+        "K:JX EBOVAFBA QE",
+        "CYNPR:PURYFRN-ZBAEBR UBYQVATF",
+        "QNGR:9/6/2014",
+        "GVZR:20:42:43");
+
+    qbGrfg("G8",
+        "(PNQ Cntr) 14-412228\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "545 JBBQFQNYR QE\a" +
+        "ZRQVPNY NVQ\a" +
+        "K bs PERRX PG & PHY QR FNP\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@20:18:02",
+
+        "VQ:14-412228",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:545 JBBQFQNYR QE",
+        "VASB:ZRQVPNY NVQ",
+        "K:PERRX PG & PHY QR FNP",
+        "QNGR:9/6/2014",
+        "GVZR:20:18:02");
+
+    qbGrfg("G9",
+        "(PNQ Cntr) 14-412227\a" +
+        " | Gursg Pnyy\a" +
+        "865 CERZVHZ BHGYRG QE\a" +
+        "GURSG PNYY\a" +
+        "K bs JX EBOVAFBA QE & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: GEHR ERYVTVBA OENAQ WRNAF\a" +
+        "Gvzr Bhg: 9/6/2014@20:16:06",
+
+        "VQ:14-412227",
+        "PNYY:Gursg Pnyy",
+        "NQQE:865 CERZVHZ BHGYRG QE",
+        "VASB:GURSG PNYY",
+        "K:JX EBOVAFBA QE",
+        "CYNPR:GEHR ERYVTVBA OENAQ WRNAF",
+        "QNGR:9/6/2014",
+        "GVZR:20:16:06");
+
+    qbGrfg("G10",
+        "(PNQ Cntr) 14-412226\a" +
+        " | Nppvqrag-Aba-Vawhel\a" +
+        "UNZ YRO EQ@NZREVPNA JNL\a" +
+        "NPPVQRAG-ABA-VAWHEL\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@20:04:22",
+
+        "VQ:14-412226",
+        "PNYY:Nppvqrag-Aba-Vawhel",
+        "NQQE:UNZ YRO EQ & NZREVPNA JNL",
+        "ZNQQE:UNZVYGBA YRONABA EQ & NZREVPNA JNL",
+        "VASB:NPPVQRAG-ABA-VAWHEL",
+        "QNGR:9/6/2014",
+        "GVZR:20:04:22");
+
+    qbGrfg("G11",
+        "(PNQ Cntr) 14-412225\a" +
+        " | Nggrzcg Gb Ybpngr\a" +
+        "479 EVATYVAT NIR\a" +
+        "NGGRZCG GB YBPNGR\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@19:21:11",
+
+        "VQ:14-412225",
+        "PNYY:Nggrzcg Gb Ybpngr",
+        "NQQE:479 EVATYVAT NIR",
+        "VASB:NGGRZCG GB YBPNGR",
+        "QNGR:9/6/2014",
+        "GVZR:19:21:11");
+
+    qbGrfg("G12",
+        "(PNQ Cntr) 14-412224\a" +
+        " | Nppvqrag-Aba-Vawhel\a" +
+        "UNZ YRO EQ@V 75\a" +
+        "NPPVQRAG-ABA-VAWHEL\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@19:06:19",
+
+        "VQ:14-412224",
+        "PNYY:Nppvqrag-Aba-Vawhel",
+        "NQQE:UNZ YRO EQ & V 75",
+        "ZNQQE:UNZVYGBA YRONABA EQ & V 75",
+        "VASB:NPPVQRAG-ABA-VAWHEL",
+        "QNGR:9/6/2014",
+        "GVZR:19:06:19");
+
+    qbGrfg("G13",
+        "(PNQ Cntr) 14-412223\a" +
+        " | Nynez Qebc - Ohfvarff\a" +
+        "301 CERZVHZ BHGYRG QE\a" +
+        "NYNEZ QEBC - OHFVARFF\a" +
+        "K bs JX EBOVAFBA QE & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: FNXF BSS 5GU NIRAHR\a" +
+        "Gvzr Bhg: 9/6/2014@18:18:13",
+
+        "VQ:14-412223",
+        "PNYY:Nynez Qebc - Ohfvarff",
+        "NQQE:301 CERZVHZ BHGYRG QE",
+        "VASB:NYNEZ QEBC - OHFVARFF",
+        "K:JX EBOVAFBA QE",
+        "CYNPR:FNXF BSS 5GU NIRAHR",
+        "QNGR:9/6/2014",
+        "GVZR:18:18:13");
+
+    qbGrfg("G14",
+        "(PNQ Cntr) 14-412222\a" +
+        " | Qehax Qevire/Crefba Pbzcynvag\a" +
+        "F ZNVA FG@FGVYYCNFF JNL\a" +
+        "QEHAX QEVIRE/CREFBA PBZCYNVAG\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@17:49:55",
+
+        "VQ:14-412222",
+        "PNYY:Qehax Qevire/Crefba Pbzcynvag",
+        "NQQE:F ZNVA FG & FGVYYCNFF JNL",
+        "VASB:QEHAX QEVIRE/CREFBA PBZCYNVAG",
+        "QNGR:9/6/2014",
+        "GVZR:17:49:55");
+
+    qbGrfg("G15",
+        "(PNQ Cntr) 14-412221\a" +
+        " | Jneenag Freirq\a" +
+        "3350 F ZNVA FG HAVG 30\a" +
+        "JNEENAG FREIRQ\a" +
+        "K bs BKSBEQ FGNGR EQ & UNZ ZVQQ EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@17:39:50",
+
+        "VQ:14-412221",
+        "PNYY:Jneenag Freirq",
+        "NQQE:3350 F ZNVA FG",
+        "NCG:30",
+        "VASB:JNEENAG FREIRQ",
+        "K:BKSBEQ FGNGR EQ & UNZ ZVQQ EQ",
+        "QNGR:9/6/2014",
+        "GVZR:17:39:50");
+
+    qbGrfg("G16",
+        "(PNQ Cntr) 14-412220\a" +
+        " | Qvfgheonapr\a" +
+        "3350 F ZNVA FG HAVG 63\a" +
+        "QVFGHEONAPR\a" +
+        "K bs BKSBEQ FGNGR EQ & UNZ ZVQQ EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@17:17:41",
+
+        "VQ:14-412220",
+        "PNYY:Qvfgheonapr",
+        "NQQE:3350 F ZNVA FG",
+        "NCG:63",
+        "VASB:QVFGHEONAPR",
+        "K:BKSBEQ FGNGR EQ & UNZ ZVQQ EQ",
+        "QNGR:9/6/2014",
+        "GVZR:17:17:41");
+
+    qbGrfg("G17",
+        "(PNQ Cntr) 14-412219\a" +
+        " | Ohfvarff Purpx\a" +
+        "1501 EBQRA CNEX QE\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs UNZ ZVQQ EQ & PBYQ JNGRE QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: FCRRQJNL \a" +
+        "Gvzr Bhg: 9/6/2014@17:10:49",
+
+        "VQ:14-412219",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:1501 EBQRA CNEX QE",
+        "VASB:OHFVARFF PURPX",
+        "K:UNZ ZVQQ EQ & PBYQ JNGRE QE",
+        "CYNPR:FCRRQJNL",
+        "QNGR:9/6/2014",
+        "GVZR:17:10:49");
+
+    qbGrfg("G18",
+        "(PNQ Cntr) 14-412218\a" +
+        " | Nynez Qebc - Erfvqragvny\a" +
+        "61 GNYY BNXF QE\a" +
+        "NYNEZ QEBC - ERFVQRAGVNY/TNENTR QBBE ZBGVBA/FGRCUNAVR SVFORPX ERFVQRAPR\a" +
+        "K bs OHPXRLR QE & TENAAL FZVGU YA\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: SVFORPX\a" +
+        "Gvzr Bhg: 9/6/2014@16:46:19",
+
+        "VQ:14-412218",
+        "PNYY:Nynez Qebc - Erfvqragvny",
+        "NQQE:61 GNYY BNXF QE",
+        "VASB:NYNEZ QEBC - ERFVQRAGVNY/TNENTR QBBE ZBGVBA/FGRCUNAVR SVFORPX ERFVQRAPR",
+        "K:OHPXRLR QE & TENAAL FZVGU YA",
+        "CYNPR:SVFORPX",
+        "QNGR:9/6/2014",
+        "GVZR:16:46:19");
+
+    qbGrfg("G19",
+        "(PNQ Cntr) 14-412217\a | Unenffzrag\a417 EVATYVAT NIR\aUNENFFZRAG\aK bs ONVYRL & \aYbp Vasb: \aBjare: \aGvzr Bhg: 9/6/2014@15:41:04",
+        "VQ:14-412217",
+        "PNYY:Unenffzrag",
+        "NQQE:417 EVATYVAT NIR",
+        "VASB:UNENFFZRAG",
+        "K:ONVYRL",
+        "QNGR:9/6/2014",
+        "GVZR:15:41:04");
+
+    qbGrfg("G20",
+        "(PNQ Cntr) 14-412213\a" +
+        " | Nppvqrag-Aba-Vawhel\a" +
+        "412 BYQ FG\a" +
+        "2 IRU NPP: FVYIRE TENAQ CEVK - OYHR PVIVP/ABA VAWHEL\a" +
+        "K bs PBZZHAVGL CNEX & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR PBZZHAVGL CNEX\a" +
+        "Gvzr Bhg: 9/6/2014@13:05:33",
+
+        "VQ:14-412213",
+        "PNYY:Nppvqrag-Aba-Vawhel",
+        "NQQE:412 BYQ FG",
+        "VASB:2 IRU NPP: FVYIRE TENAQ CEVK - OYHR PVIVP/ABA VAWHEL",
+        "K:PBZZHAVGL CNEX",
+        "CYNPR:ZBAEBR PBZZHAVGL CNEX",
+        "QNGR:9/6/2014",
+        "GVZR:13:05:33");
+
+    qbGrfg("G21",
+        "(PNQ Cntr) 14-412212\a" +
+        " | Nppvqrag-Cevingr Cebcregl\a" +
+        "3033 UREVGNTR TERRA QE\a" +
+        "PNYYRE PNZR BHG GB FRR FUR UNF N OEBXRA GNVYVTUG JURER FBZRBAR UNQ UVG URE - BGURE IRUVPYR TBAR NGG/AB QRFPEVCGVBA - PNYYYRE VF VA N FVYIRE YRKHF/ARNE TERNG PYVCF \a" +
+        "K bs UNZ YRO EQ & ZNPERNQL NIR\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: XEBTRE\a" +
+        "Gvzr Bhg: 9/6/2014@12:53:44",
+
+        "VQ:14-412212",
+        "PNYY:Nppvqrag-Cevingr Cebcregl",
+        "NQQE:3033 UREVGNTR TERRA QE",
+        "VASB:PNYYRE PNZR BHG GB FRR FUR UNF N OEBXRA GNVYVTUG JURER FBZRBAR UNQ UVG URE - BGURE IRUVPYR TBAR NGG/AB QRFPEVCGVBA - PNYYYRE VF VA N FVYIRE YRKHF/ARNE TERNG PYVCF",
+        "K:UNZ YRO EQ & ZNPERNQL NIR",
+        "CYNPR:XEBTRE",
+        "QNGR:9/6/2014",
+        "GVZR:12:53:44");
+
+    qbGrfg("G22",
+        "(PNQ Cntr) 14-412211\a" +
+        " | Nynez Qebc - Erfvqragvny\a" +
+        "723 TEVSSVA YA\a" +
+        "YBPNGVBA - ONPX Z SEBAG VAGJREVB TERNG EBBZ \a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@12:43:45",
+
+        "VQ:14-412211",
+        "PNYY:Nynez Qebc - Erfvqragvny",
+        "NQQE:723 TEVSSVA YA",
+        "VASB:YBPNGVBA - ONPX Z SEBAG VAGJREVB TERNG EBBZ",
+        "QNGR:9/6/2014",
+        "GVZR:12:43:45");
+
+    qbGrfg("G23",
+        "(PNQ Cntr) 14-412210\a" +
+        " | SBYYBJ\a" +
+        "233 F ZNVA FG\a" +
+        "CQ YBOOL: CRESBEZ RYVZVANGVBA CEVAGF SBE PSF: 14-412172\a" +
+        "K bs PUHEPU FG & YRONABA FG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR CQ\a" +
+        "Gvzr Bhg: 9/6/2014@11:19:19",
+
+        "VQ:14-412210",
+        "PNYY:SBYYBJ",
+        "NQQE:233 F ZNVA FG",
+        "VASB:CQ YBOOL: CRESBEZ RYVZVANGVBA CEVAGF SBE PSF: 14-412172",
+        "K:PUHEPU FG & YRONABA FG",
+        "CYNPR:ZBAEBR CQ",
+        "QNGR:9/6/2014",
+        "GVZR:11:19:19");
+
+    qbGrfg("G24",
+        "(PNQ Cntr) 14-412209\a" +
+        " | SBYYBJ\a" +
+        "379 EVATYVAT NIR\a" +
+        "SBYYBJ\a" +
+        "K bs FVYIRE XVAT QE & ONVYRL\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@10:57:49",
+
+        "VQ:14-412209",
+        "PNYY:SBYYBJ",
+        "NQQE:379 EVATYVAT NIR",
+        "VASB:SBYYBJ",
+        "K:FVYIRE XVAT QE & ONVYRL",
+        "QNGR:9/6/2014",
+        "GVZR:10:57:49");
+
+    qbGrfg("G25",
+        "(PNQ Cntr) 14-412208\a" +
+        " | Gursg Pnyy\a" +
+        "400 EVATYVAT NIR\a" +
+        "CEBE GURSG PNYY - IRU GURSG SEBZ BIREAVTUG\a" +
+        "K bs ONVYRL & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@10:38:23",
+
+        "VQ:14-412208",
+        "PNYY:Gursg Pnyy",
+        "NQQE:400 EVATYVAT NIR",
+        "VASB:CEBE GURSG PNYY - IRU GURSG SEBZ BIREAVTUG",
+        "K:ONVYRL",
+        "QNGR:9/6/2014",
+        "GVZR:10:38:23");
+
+    qbGrfg("G26",
+        "(PNQ Cntr) 14-412207\a | Sver Pnyy\aV 75@26ZZ\a2 IRU - CBFF VAWHEL\aK bs  & \aYbp Vasb: \aBjare: \aGvzr Bhg: 9/6/2014@10:33:20",
+        "VQ:14-412207",
+        "PNYY:Sver Pnyy",
+        "NQQE:V 75 & 26ZZ",
+        "VASB:2 IRU - CBFF VAWHEL",
+        "QNGR:9/6/2014",
+        "GVZR:10:33:20");
+
+    qbGrfg("G27",
+        "(PNQ Cntr) 14-412206\a" +
+        " | Fhfc Crefba/Pne/Npgvivgl\a" +
+        "143 NAAR EQ\a" +
+        "FHFC CREFBA/PNE/NPGVIVGL - INPNAG ERFVQRAPR\a" +
+        "K bs YNXRIVRJ QE & QNMRL QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@10:22:48",
+
+        "VQ:14-412206",
+        "PNYY:Fhfc Crefba/Pne/Npgvivgl",
+        "NQQE:143 NAAR EQ",
+        "VASB:FHFC CREFBA/PNE/NPGVIVGL - INPNAG ERFVQRAPR",
+        "K:YNXRIVRJ QE & QNMRL QE",
+        "QNGR:9/6/2014",
+        "GVZR:10:22:48");
+
+    qbGrfg("G28",
+        "(PNQ Cntr) 14-412205\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "225 OEVGGBA YA\a" +
+        "245 - ULCBGRAFVBA SRZ 90 LB - ARRQF GENAFCBEG \a" +
+        "K bs ZG CYRNFNAG UBZR & GRAARFFRR NIR\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBHAG CYRNFNAG ERGVERZRAG IVYYNT\a" +
+        "Gvzr Bhg: 9/6/2014@09:53:19",
+
+        "VQ:14-412205",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:225 OEVGGBA YA",
+        "VASB:245 - ULCBGRAFVBA SRZ 90 LB - ARRQF GENAFCBEG",
+        "K:ZG CYRNFNAG UBZR & GRAARFFRR NIR",
+        "CYNPR:ZBHAG CYRNFNAG ERGVERZRAG IVYYNT",
+        "QNGR:9/6/2014",
+        "GVZR:09:53:19");
+
+    qbGrfg("G29",
+        "(PNQ Cntr) 14-412204\a" +
+        " | Zranpvat/Vagvzvqngvba\a" +
+        "1275 UNZ YRO EQ\a" +
+        "GUERNG SEBZ ZVGPU YRVFM (FGRC SNGURE BS GUR FUVSG YRNQ) ZNQR YNFG AVTUG GBJ GUR PNYYRE - GUR GUERNG JNF WHFG GBYQ GB GUR ZNANTRE  SEBZ UVZ \a" +
+        "K bs V 75 & PBEEVQBE CNEX QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: OHETRE XVAT\a" +
+        "Gvzr Bhg: 9/6/2014@09:09:19",
+
+        "VQ:14-412204",
+        "PNYY:Zranpvat/Vagvzvqngvba",
+        "NQQE:1275 UNZ YRO EQ",
+        "ZNQQE:1275 UNZVYGBA YRONABA EQ",
+        "VASB:GUERNG SEBZ ZVGPU YRVFM (FGRC SNGURE BS GUR FUVSG YRNQ) ZNQR YNFG AVTUG GBJ GUR PNYYRE - GUR GUERNG JNF WHFG GBYQ GB GUR ZNANTRE  SEBZ UVZ",
+        "K:V 75 & PBEEVQBE CNEX QE",
+        "CYNPR:OHETRE XVAT",
+        "QNGR:9/6/2014",
+        "GVZR:09:09:19");
+
+    qbGrfg("G30",
+        "(PNQ Cntr) 14-412203\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "500 TNGRJNL OYIQ\a" +
+        "35 ZNYR - URNEG CEBOYRZF - SEBAG QBBE\a" +
+        "K bs UNZ YRO EQ & UNZVYGBA YRONABA EBNQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: UBZR QRCBG FVGR\a" +
+        "Gvzr Bhg: 9/6/2014@09:05:06",
+
+        "VQ:14-412203",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:500 TNGRJNL OYIQ",
+        "VASB:35 ZNYR - URNEG CEBOYRZF - SEBAG QBBE",
+        "K:UNZ YRO EQ & UNZVYGBA YRONABA EBNQ",
+        "CYNPR:UBZR QRCBG FVGR",
+        "QNGR:9/6/2014",
+        "GVZR:09:05:06");
+
+    qbGrfg("G31",
+        "(PNQ Cntr) 14-412202\a" +
+        " | Gursg Pnyy\a" +
+        "3049 NCCYRXABYY YA\a" +
+        "OERNX VA SEBZ BIRE AVTUG - FBPPRE ONT & CYNL FGNGVBA FGBYRA - ONPX QBBE JNF CBFF RAGEL \a" +
+        "K bs JVARFNC YA & TENAAL FZVGU YA\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@08:34:30",
+
+        "VQ:14-412202",
+        "PNYY:Gursg Pnyy",
+        "NQQE:3049 NCCYRXABYY YA",
+        "VASB:OERNX VA SEBZ BIRE AVTUG - FBPPRE ONT & CYNL FGNGVBA FGBYRA - ONPX QBBE JNF CBFF RAGEL",
+        "K:JVARFNC YA & TENAAL FZVGU YA",
+        "QNGR:9/6/2014",
+        "GVZR:08:34:30");
+
+    qbGrfg("G32",
+        "(PNQ Cntr) 14-412201\a" +
+        " | SBYYBJ\a" +
+        "2 RNFG NIR HAVG N\a" +
+        "SBYYBJ\a" +
+        "K bs UNZ YRO EQ & PBHEGYNAQ QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: VTN RKCERFF\a" +
+        "Gvzr Bhg: 9/6/2014@08:31:37",
+
+        "VQ:14-412201",
+        "PNYY:SBYYBJ",
+        "NQQE:2 RNFG NIR",
+        "NCG:N",
+        "VASB:SBYYBJ",
+        "K:UNZ YRO EQ & PBHEGYNAQ QE",
+        "CYNPR:VTN RKCERFF",
+        "QNGR:9/6/2014",
+        "GVZR:08:31:37");
+
+    qbGrfg("G33",
+        "(PNQ Cntr) 14-412200\a" +
+        " | Ohfvarff Purpx\a" +
+        "560 F ZNVA FG HAVG 0617\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs JZ TEBGU QE & PNEFBA EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@08:04:54",
+
+        "VQ:14-412200",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:560 F ZNVA FG",
+        "NCG:0617",
+        "VASB:OHFVARFF PURPX",
+        "K:JZ TEBGU QE & PNEFBA EQ",
+        "QNGR:9/6/2014",
+        "GVZR:08:04:54");
+
+    qbGrfg("G34",
+        "(PNQ Cntr) 14-412199\a" +
+        " | Ohfvarff Purpx\a" +
+        "6307 UNZ YRO EQ\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs PEBFFVATF OYIQ & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR PEBFFVATF CNEX\a" +
+        "Gvzr Bhg: 9/6/2014@08:04:40",
+
+        "VQ:14-412199",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:6307 UNZ YRO EQ",
+        "ZNQQE:6307 UNZVYGBA YRONABA EQ",
+        "VASB:OHFVARFF PURPX",
+        "K:PEBFFVATF OYIQ",
+        "CYNPR:ZBAEBR PEBFFVATF CNEX",
+        "QNGR:9/6/2014",
+        "GVZR:08:04:40");
+
+    qbGrfg("G35",
+        "(PNQ Cntr) 14-412198\a" +
+        " | Ohfvarff Purpx\a" +
+        "412 BYQ FG\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs PBZZHAVGL CNEX & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR PBZZHAVGL CNEX\a" +
+        "Gvzr Bhg: 9/6/2014@08:04:30",
+
+        "VQ:14-412198",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:412 BYQ FG",
+        "VASB:OHFVARFF PURPX",
+        "K:PBZZHAVGL CNEX",
+        "CYNPR:ZBAEBR PBZZHAVGL CNEX",
+        "QNGR:9/6/2014",
+        "GVZR:08:04:30");
+
+    qbGrfg("G36",
+        "(PNQ Cntr) 14-412197\a" +
+        " | Nffvfg Bgure Ntrapl\a" +
+        "1 GERAGBA OEVQTR\a" +
+        "618 JRFG NOREQRRA - 2 SRZNYRF ORNGVAT BA PNYYREF QBBE/JBZRA CBFF VAGBKVPNGRQ\a" +
+        "K bs BKSBEQ FGNGR EQ & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@07:59:23",
+
+        "VQ:14-412197",
+        "PNYY:Nffvfg Bgure Ntrapl",
+        "NQQE:1 GERAGBA OEVQTR",
+        "VASB:618 JRFG NOREQRRA - 2 SRZNYRF ORNGVAT BA PNYYREF QBBE/JBZRA CBFF VAGBKVPNGRQ",
+        "K:BKSBEQ FGNGR EQ",
+        "QNGR:9/6/2014",
+        "GVZR:07:59:23");
+
+    qbGrfg("G37",
+        "(PNQ Cntr) 14-412196\a" +
+        " | Qvfgheonapr\a" +
+        "3209 F ZNVA FG\a" +
+        "RZCYBLRR - WRSS TERRA - IREONYYL FPERNZVAT & GUERNGRAVAT BGURE RZCYBLRFF/ERSHFVAT GB YRNIR - RFPBEG BSS CEBCREGL\a" +
+        "K bs QVNZBAQ YBBC & BKSBEQ FGNGR EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZPQBANYQF\a" +
+        "Gvzr Bhg: 9/6/2014@06:38:18",
+
+        "VQ:14-412196",
+        "PNYY:Qvfgheonapr",
+        "NQQE:3209 F ZNVA FG",
+        "VASB:RZCYBLRR - WRSS TERRA - IREONYYL FPERNZVAT & GUERNGRAVAT BGURE RZCYBLRFF/ERSHFVAT GB YRNIR - RFPBEG BSS CEBCREGL",
+        "K:QVNZBAQ YBBC & BKSBEQ FGNGR EQ",
+        "CYNPR:ZPQBANYQF",
+        "QNGR:9/6/2014",
+        "GVZR:06:38:18");
+
+    qbGrfg("G38",
+        "(PNQ Cntr) 14-412195\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "F ZNVA FG@YRONABA FG\a" +
+        "GENSSVP FGBC-PNE BE CREFBA\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@05:55:58",
+
+        "VQ:14-412195",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:F ZNVA FG & YRONABA FG",
+        "VASB:GENSSVP FGBC-PNE BE CREFBA",
+        "QNGR:9/6/2014",
+        "GVZR:05:55:58");
+
+    qbGrfg("G39",
+        "(PNQ Cntr) 14-412194\a" +
+        " | Ohfvarff Purpx\a" +
+        "461 BKSBEQ FGNGR EQ\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs YBPHFG FG & ZNVA FG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: FCRRQJNL\a" +
+        "Gvzr Bhg: 9/6/2014@05:48:37",
+
+        "VQ:14-412194",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:461 BKSBEQ FGNGR EQ",
+        "VASB:OHFVARFF PURPX",
+        "K:YBPHFG FG & ZNVA FG",
+        "CYNPR:FCRRQJNL",
+        "QNGR:9/6/2014",
+        "GVZR:05:48:37");
+
+    qbGrfg("G40",
+        "(PNQ Cntr) 14-412193\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "UNZ YRO EQ@TNEIRE EQ\a" +
+        "GENSSVP FGBC - SVY5332\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@05:37:18",
+
+        "VQ:14-412193",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:UNZ YRO EQ & TNEIRE EQ",
+        "ZNQQE:UNZVYGBA YRONABA EQ & TNEIRE EQ",
+        "VASB:GENSSVP FGBC - SVY5332",
+        "QNGR:9/6/2014",
+        "GVZR:05:37:18");
+
+    qbGrfg("G41",
+        "(PNQ Cntr) 14-412192\a" +
+        " | Ohfvarff Purpx\a" +
+        "330 YRONABA FG\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs RNFG NIR & PBABIN QE\a" +
+        "Ybp Vasb: Qvrfry Shry naq Tnfbyvar fgberq sbe Ynja Zbjref va Erpgbel Furq/Tnentr\a" +
+        "Bjare: BHE YNQL BS FBEEBJF PUHEPU\a" +
+        "Gvzr Bhg: 9/6/2014@04:22:21",
+
+        "VQ:14-412192",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:330 YRONABA FG",
+        "VASB:OHFVARFF PURPX / Qvrfry Shry naq Tnfbyvar fgberq sbe Ynja Zbjref va Erpgbel Furq/Tnentr",
+        "K:RNFG NIR & PBABIN QE",
+        "CYNPR:BHE YNQL BS FBEEBJF PUHEPU",
+        "QNGR:9/6/2014",
+        "GVZR:04:22:21");
+
+    qbGrfg("G42",
+        "(PNQ Cntr) 14-412191\a" +
+        " | Nynez Qebc - Ohfvarff\a" +
+        "301 YNJGBA NIR\a" +
+        "NYNEZ QEBC - OHFVARFF/FUBJVAT RAGEL RKVG PRAGENY BIREURNQ QBBE\a" +
+        "K bs UNZ YRO EQ & QRNQ RAQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: MBERFPB RDHVCZRAG PBZCNAL\a" +
+        "Gvzr Bhg: 9/6/2014@03:49:18",
+
+        "VQ:14-412191",
+        "PNYY:Nynez Qebc - Ohfvarff",
+        "NQQE:301 YNJGBA NIR",
+        "VASB:NYNEZ QEBC - OHFVARFF/FUBJVAT RAGEL RKVG PRAGENY BIREURNQ QBBE",
+        "K:UNZ YRO EQ & QRNQ RAQ",
+        "CYNPR:MBERFPB RDHVCZRAG PBZCNAL",
+        "QNGR:9/6/2014",
+        "GVZR:03:49:18");
+
+    qbGrfg("G43",
+        "(PNQ Cntr) 14-412190\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "1280 UNZ YRO EQ\a" +
+        "GENSSVP FGBC - SLQ2324\a" +
+        "K bs V 75 & PBEEVQBE CNEX QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR FURYY FGNGVBA/CBCRLRF ERFGNHENAG\a" +
+        "Gvzr Bhg: 9/6/2014@03:43:47",
+
+        "VQ:14-412190",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:1280 UNZ YRO EQ",
+        "ZNQQE:1280 UNZVYGBA YRONABA EQ",
+        "VASB:GENSSVP FGBC - SLQ2324",
+        "K:V 75 & PBEEVQBE CNEX QE",
+        "CYNPR:ZBAEBR FURYY FGNGVBA/CBCRLRF ERFGNHENAG",
+        "QNGR:9/6/2014",
+        "GVZR:03:43:47");
+
+    qbGrfg("G44",
+        "(PNQ Cntr) 14-412189\a" +
+        " | Fhfc Crefba/Pne/Npgvivgl\a" +
+        "1250 UNZ YRO EQ\a" +
+        "FHFC CREFBA/PNE/NPGVIVGL\a" +
+        "K bs V 75 & PBEEVQBE CNEX QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: FGBAL EVQTR/PBLBGR EVQTR\a" +
+        "Gvzr Bhg: 9/6/2014@03:37:48",
+
+        "VQ:14-412189",
+        "PNYY:Fhfc Crefba/Pne/Npgvivgl",
+        "NQQE:1250 UNZ YRO EQ",
+        "ZNQQE:1250 UNZVYGBA YRONABA EQ",
+        "VASB:FHFC CREFBA/PNE/NPGVIVGL",
+        "K:V 75 & PBEEVQBE CNEX QE",
+        "CYNPR:FGBAL EVQTR/PBLBGR EVQTR",
+        "QNGR:9/6/2014",
+        "GVZR:03:37:48");
+
+    qbGrfg("G45",
+        "(PNQ Cntr) 14-412188\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "3350 F ZNVA FG\a" +
+        "GENSSVP FGBC - TQF4766\a" +
+        "K bs BKSBEQ FGNGR EQ & UNZ ZVQQ EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@02:31:09",
+
+        "VQ:14-412188",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:3350 F ZNVA FG",
+        "VASB:GENSSVP FGBC - TQF4766",
+        "K:BKSBEQ FGNGR EQ & UNZ ZVQQ EQ",
+        "QNGR:9/6/2014",
+        "GVZR:02:31:09");
+
+    qbGrfg("G46",
+        "(PNQ Cntr) 14-412187\a" +
+        " | Ohfvarff Purpx\a" +
+        "1001 A ZNVA FG\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs TNEIRE EQ & TERRAGERR EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: OHPXYRL OEBGUREF\a" +
+        "Gvzr Bhg: 9/6/2014@02:29:57",
+
+        "VQ:14-412187",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:1001 A ZNVA FG",
+        "VASB:OHFVARFF PURPX",
+        "K:TNEIRE EQ & TERRAGERR EQ",
+        "CYNPR:OHPXYRL OEBGUREF",
+        "QNGR:9/6/2014",
+        "GVZR:02:29:57");
+
+    qbGrfg("G47",
+        "(PNQ Cntr) 14-412186\a" +
+        " | Qroevf Va Ebnqjnl\a" +
+        "A ZNVA FG@GBQUHAGRE EQ\a" +
+        "QROEVF VA EBNQJNL\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@02:18:00",
+
+        "VQ:14-412186",
+        "PNYY:Qroevf Va Ebnqjnl",
+        "NQQE:A ZNVA FG & GBQUHAGRE EQ",
+        "VASB:QROEVF VA EBNQJNL",
+        "QNGR:9/6/2014",
+        "GVZR:02:18:00");
+
+    qbGrfg("G48",
+        "(PNQ Cntr) 14-412185\a" +
+        " | Fhfc Crefba/Pne/Npgvivgl\a" +
+        "F ZNVA FG@CVAGN NIR\a" +
+        "CRQRFGEVNA\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@02:17:12",
+
+        "VQ:14-412185",
+        "PNYY:Fhfc Crefba/Pne/Npgvivgl",
+        "NQQE:F ZNVA FG & CVAGN NIR",
+        "VASB:CRQRFGEVNA",
+        "QNGR:9/6/2014",
+        "GVZR:02:17:12");
+
+    qbGrfg("G49",
+        "(PNQ Cntr) 14-412184\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "F ZNVA FG@BKSBEQ FGNGR EQ\a" +
+        "GENSSVP FGBC - TSP6146\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@01:57:03",
+
+        "VQ:14-412184",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:F ZNVA FG & BKSBEQ FGNGR EQ",
+        "VASB:GENSSVP FGBC - TSP6146",
+        "QNGR:9/6/2014",
+        "GVZR:01:57:03");
+
+    qbGrfg("G50",
+        "(PNQ Cntr) 14-412183\a" +
+        " | Ohfvarff Purpx\a" +
+        "1250 UNZ YRO EQ\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs V 75 & PBEEVQBE CNEX QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: FGBAL EVQTR/PBLBGR EVQTR\a" +
+        "Gvzr Bhg: 9/6/2014@01:38:06",
+
+        "VQ:14-412183",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:1250 UNZ YRO EQ",
+        "ZNQQE:1250 UNZVYGBA YRONABA EQ",
+        "VASB:OHFVARFF PURPX",
+        "K:V 75 & PBEEVQBE CNEX QE",
+        "CYNPR:FGBAL EVQTR/PBLBGR EVQTR",
+        "QNGR:9/6/2014",
+        "GVZR:01:38:06");
+
+    qbGrfg("G51",
+        "(PNQ Cntr) 14-412182\a" +
+        " | Ohfvarff Purpx\a" +
+        "OERNQRA QE@YRONABA FG\a" +
+        "PURPXVAT NERN OHFVARFFARF\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@01:37:49",
+
+        "VQ:14-412182",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:OERNQRA QE & YRONABA FG",
+        "VASB:PURPXVAT NERN OHFVARFFARF",
+        "QNGR:9/6/2014",
+        "GVZR:01:37:49");
+
+    qbGrfg("G52",
+        "(PNQ Cntr) 14-412181\a" +
+        " | Fhfc Crefba/Pne/Npgvivgl\a" +
+        "1038 YRONABA FG\a" +
+        "BPPHCVRQ FHFCVPVBHF IRUVPYR\a" +
+        "K bs OERNQRA QE & QRNQ RAQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: UHFGYRE UBYYLJBBQ\a" +
+        "Gvzr Bhg: 9/6/2014@01:34:57",
+
+        "VQ:14-412181",
+        "PNYY:Fhfc Crefba/Pne/Npgvivgl",
+        "NQQE:1038 YRONABA FG",
+        "VASB:BPPHCVRQ FHFCVPVBHF IRUVPYR",
+        "K:OERNQRA QE & QRNQ RAQ",
+        "CYNPR:UHFGYRE UBYYLJBBQ",
+        "QNGR:9/6/2014",
+        "GVZR:01:34:57");
+
+    qbGrfg("G53",
+        "(PNQ Cntr) 14-412180\a" +
+        " | Ohfvarff Purpx\a" +
+        "1501 EBQRA CNEX QE\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs UNZ ZVQQ EQ & PBYQ JNGRE QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: FCRRQJNL \a" +
+        "Gvzr Bhg: 9/6/2014@01:33:02",
+
+        "VQ:14-412180",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:1501 EBQRA CNEX QE",
+        "VASB:OHFVARFF PURPX",
+        "K:UNZ ZVQQ EQ & PBYQ JNGRE QE",
+        "CYNPR:FCRRQJNL",
+        "QNGR:9/6/2014",
+        "GVZR:01:33:02");
+
+    qbGrfg("G54",
+        "(PNQ Cntr) 14-412179\a" +
+        " | Qvfgheonapr\a" +
+        "3126 UNEEVFBA FG\a" +
+        "YNETR TEBHC CBFFVOYL SVTUGVAT VA GUR NERN/FRIRENY FHOWRPGF ABJ TBVAT GBJNEQF IREVGL CXJL\a" +
+        "K bs QRNQ RAQ & SBEERE FG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: FPBGGVRF GNIREA\a" +
+        "Gvzr Bhg: 9/6/2014@01:05:57",
+
+        "VQ:14-412179",
+        "PNYY:Qvfgheonapr",
+        "NQQE:3126 UNEEVFBA FG",
+        "VASB:YNETR TEBHC CBFFVOYL SVTUGVAT VA GUR NERN/FRIRENY FHOWRPGF ABJ TBVAT GBJNEQF IREVGL CXJL",
+        "K:QRNQ RAQ & SBEERE FG",
+        "CYNPR:FPBGGVRF GNIREA",
+        "QNGR:9/6/2014",
+        "GVZR:01:05:57");
+
+    qbGrfg("G55",
+        "(PNQ Cntr) 14-412178\a" +
+        " | Hajnagrq Crefba/Thrfg\a" +
+        "1225 UNZ YRO EQ\a" +
+        "HAJNAGRQ CREFBA/\a" +
+        "K bs V 75 & PBEEVQBE CNEX QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: JNSSYR UBHFR\a" +
+        "Gvzr Bhg: 9/6/2014@01:04:47",
+
+        "VQ:14-412178",
+        "PNYY:Hajnagrq Crefba/Thrfg",
+        "NQQE:1225 UNZ YRO EQ",
+        "ZNQQE:1225 UNZVYGBA YRONABA EQ",
+        "VASB:HAJNAGRQ CREFBA",
+        "K:V 75 & PBEEVQBE CNEX QE",
+        "CYNPR:JNSSYR UBHFR",
+        "QNGR:9/6/2014",
+        "GVZR:01:04:47");
+
+    qbGrfg("G56",
+        "(PNQ Cntr) 14-412177\a" +
+        " | Hajnagrq Crefba/Thrfg\a" +
+        "3205 UNEEVFBA FG\a" +
+        "HAJNAGRQ CREFBA/CNHOYB YNMBAB\a" +
+        "K bs SBEERE FG & BKSBEQ FGNGR EQ\a" +
+        "Ybp Vasb: Obgu Puevfgbcure Tenunz naq Wnzvr Ehguresbeq unir Urcngvgvf O\a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@00:13:05",
+
+        "VQ:14-412177",
+        "PNYY:Hajnagrq Crefba/Thrfg",
+        "NQQE:3205 UNEEVFBA FG",
+        "VASB:HAJNAGRQ CREFBA/CNHOYB YNMBAB / Obgu Puevfgbcure Tenunz naq Wnzvr Ehguresbeq unir Urcngvgvf O",
+        "K:SBEERE FG & BKSBEQ FGNGR EQ",
+        "QNGR:9/6/2014",
+        "GVZR:00:13:05");
+
+    qbGrfg("G57",
+        "(PNQ Cntr) 14-412176\a" +
+        " | Ohfvarff Purpx\a" +
+        "70 RAGRECEVFR QE\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs QRNQ RAQ & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ULOYNFG\a" +
+        "Gvzr Bhg: 9/6/2014@00:08:50",
+
+        "VQ:14-412176",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:70 RAGRECEVFR QE",
+        "VASB:OHFVARFF PURPX",
+        "K:QRNQ RAQ",
+        "CYNPR:ULOYNFG",
+        "QNGR:9/6/2014",
+        "GVZR:00:08:50");
+
+    qbGrfg("G58",
+        "(PNQ Cntr) 14-412175\a" +
+        " | Choyvp Nffvfg/Jrysner Purpx/Vasbezngvba\a" +
+        "4700 LNAXRR EQ\a" +
+        "CHOYVP NFFVFG/XRLF YBPXRQ VA PNE\a" +
+        "K bs PNEFBA EQ & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@23:48:27",
+
+        "VQ:14-412175",
+        "PNYY:Choyvp Nffvfg/Jrysner Purpx/Vasbezngvba",
+        "NQQE:4700 LNAXRR EQ",
+        "VASB:CHOYVP NFFVFG/XRLF YBPXRQ VA PNE",
+        "K:PNEFBA EQ",
+        "QNGR:9/5/2014",
+        "GVZR:23:48:27");
+
+    qbGrfg("G59",
+        "(PNQ Cntr) 14-412174\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "UNZ YRO EQ@RNFG NIR\a" +
+        "GENSSVP FGBC - SGA9473\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@23:46:32",
+
+        "VQ:14-412174",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:UNZ YRO EQ & RNFG NIR",
+        "ZNQQE:UNZVYGBA YRONABA EQ & RNFG NIR",
+        "VASB:GENSSVP FGBC - SGA9473",
+        "QNGR:9/5/2014",
+        "GVZR:23:46:32");
+
+    qbGrfg("G60",
+        "(PNQ Cntr) 14-412173\a" +
+        " | Ohfvarff Purpx\a" +
+        "6 RNFG NIR\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs PBHEGYNAQ QE & RYZ FG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR YVOENEL NAQ PBZZHAVGL PRAGRE\a" +
+        "Gvzr Bhg: 9/5/2014@23:26:09",
+
+        "VQ:14-412173",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:6 RNFG NIR",
+        "VASB:OHFVARFF PURPX",
+        "K:PBHEGYNAQ QE & RYZ FG",
+        "CYNPR:ZBAEBR YVOENEL NAQ PBZZHAVGL PRAGRE",
+        "QNGR:9/5/2014",
+        "GVZR:23:26:09");
+
+    qbGrfg("G61",
+        "(PNQ Cntr) 14-412172\a" +
+        " | Ohetynel\a" +
+        "2020 NCCYREVQTR PG\a" +
+        "OHETYNEL\a" +
+        "K bs PHY QR FNP & JVARFNC YA\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@22:59:45",
+
+        "VQ:14-412172",
+        "PNYY:Ohetynel",
+        "NQQE:2020 NCCYREVQTR PG",
+        "VASB:OHETYNEL",
+        "K:PHY QR FNP & JVARFNC YA",
+        "QNGR:9/5/2014",
+        "GVZR:22:59:45");
+
+    qbGrfg("G62",
+        "(PNQ Cntr) 14-412171\a" +
+        " | 911 unat hc pnyy\a" +
+        "601 HAVBA EQ\a" +
+        "911 UNAT HC PNYY\a" +
+        "K bs GENQREF JBEYQ & ENPVAB\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: GENQREF JBEYQ\a" +
+        "Gvzr Bhg: 9/5/2014@21:58:58",
+
+        "VQ:14-412171",
+        "PNYY:911 unat hc pnyy",
+        "NQQE:601 HAVBA EQ",
+        "VASB:911 UNAT HC PNYY",
+        "K:GENQREF JBEYQ & ENPVAB",
+        "CYNPR:GENQREF JBEYQ",
+        "QNGR:9/5/2014",
+        "GVZR:21:58:58");
+
+    qbGrfg("G63",
+        "(PNQ Cntr) 14-412170\a" +
+        " | Ohfvarff Purpx\a" +
+        "1501 EBQRA CNEX QE\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs UNZ ZVQQ EQ & PBYQ JNGRE QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: FCRRQJNL \a" +
+        "Gvzr Bhg: 9/5/2014@21:42:11",
+
+        "VQ:14-412170",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:1501 EBQRA CNEX QE",
+        "VASB:OHFVARFF PURPX",
+        "K:UNZ ZVQQ EQ & PBYQ JNGRE QE",
+        "CYNPR:FCRRQJNL",
+        "QNGR:9/5/2014",
+        "GVZR:21:42:11");
+
+    qbGrfg("G64",
+        "(PNQ Cntr) 14-412169\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "UNZ ZVQQ EQ@EBPURFGRE UVYYF QE\a" +
+        "GENSSVP FGBC - \a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@21:02:31",
+
+        "VQ:14-412169",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:UNZ ZVQQ EQ & EBPURFGRE UVYYF QE",
+        "ZNQQE:UNZVYGBA ZVQQYRGBJA EQ & EBPURFGRE UVYYF QE",
+        "VASB:GENSSVP FGBC",
+        "QNGR:9/5/2014",
+        "GVZR:21:02:31");
+
+    qbGrfg("G65",
+        "(PNQ Cntr) 14-412168\a" +
+        " | Ohfvarff Purpx\a" +
+        "6307 UNZ YRO EQ\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs PEBFFVATF OYIQ & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR PEBFFVATF CNEX\a" +
+        "Gvzr Bhg: 9/5/2014@20:47:53",
+
+        "VQ:14-412168",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:6307 UNZ YRO EQ",
+        "ZNQQE:6307 UNZVYGBA YRONABA EQ",
+        "VASB:OHFVARFF PURPX",
+        "K:PEBFFVATF OYIQ",
+        "CYNPR:ZBAEBR PEBFFVATF CNEX",
+        "QNGR:9/5/2014",
+        "GVZR:20:47:53");
+
+    qbGrfg("G66",
+        "(PNQ Cntr) 14-412167\a" +
+        " | Qvfnoyrq Iruvpyr\a" +
+        "UNZ YRO EQ@NZREVPNA JNL\a" +
+        "QVFNOYRQ IRUVPYR\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@20:32:13",
+
+        "VQ:14-412167",
+        "PNYY:Qvfnoyrq Iruvpyr",
+        "NQQE:UNZ YRO EQ & NZREVPNA JNL",
+        "ZNQQE:UNZVYGBA YRONABA EQ & NZREVPNA JNL",
+        "VASB:QVFNOYRQ IRUVPYR",
+        "QNGR:9/5/2014",
+        "GVZR:20:32:13");
+
+    qbGrfg("G67",
+        "(PNQ Cntr) 14-412166\a" +
+        " | Ohfvarff Purpx\a" +
+        "412 BYQ FG\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs PBZZHAVGL CNEX & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR PBZZHAVGL CNEX\a" +
+        "Gvzr Bhg: 9/5/2014@20:23:11",
+
+        "VQ:14-412166",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:412 BYQ FG",
+        "VASB:OHFVARFF PURPX",
+        "K:PBZZHAVGL CNEX",
+        "CYNPR:ZBAEBR PBZZHAVGL CNEX",
+        "QNGR:9/5/2014",
+        "GVZR:20:23:11");
+
+    qbGrfg("G68",
+        "(PNQ Cntr) 14-412165\a" +
+        " | Ohfvarff Purpx\a" +
+        "560 F ZNVA FG HAVG 0617\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs JZ TEBGU QE & PNEFBA EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@20:23:02",
+
+        "VQ:14-412165",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:560 F ZNVA FG",
+        "NCG:0617",
+        "VASB:OHFVARFF PURPX",
+        "K:JZ TEBGU QE & PNEFBA EQ",
+        "QNGR:9/5/2014",
+        "GVZR:20:23:02");
+
+    qbGrfg("G69",
+        "(PNQ Cntr) 14-412164\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "3009 F ZNVA FG\a" +
+        "GENSSVP FGBC - TSD4382\a" +
+        "K bs QVNZBAQ YBBC & BKSBEQ FGNGR EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBBFR YBQTR #501\a" +
+        "Gvzr Bhg: 9/5/2014@20:12:20",
+
+        "VQ:14-412164",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:3009 F ZNVA FG",
+        "VASB:GENSSVP FGBC - TSD4382",
+        "K:QVNZBAQ YBBC & BKSBEQ FGNGR EQ",
+        "CYNPR:ZBBFR YBQTR #501",
+        "QNGR:9/5/2014",
+        "GVZR:20:12:20");
+
+    qbGrfg("G70",
+        "(PNQ Cntr) 14-412163\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "F ZNVA FG@CVAGN NIR\a" +
+        "GENSSVP FGBC - SLX4061\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@19:32:53",
+
+        "VQ:14-412163",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:F ZNVA FG & CVAGN NIR",
+        "VASB:GENSSVP FGBC - SLX4061",
+        "QNGR:9/5/2014",
+        "GVZR:19:32:53");
+
+    qbGrfg("G71",
+        "(PNQ Cntr) 14-412162\a" +
+        " | Arvtuobe Pbzcynvag-Qvfchgr\a" +
+        "1005 JNFUVATGBA FG\a" +
+        "ARVTUOBE PBZCYNVAG\a" +
+        "K bs ORA UNEEVFBA FG & TBEQBA FG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@19:13:28",
+
+        "VQ:14-412162",
+        "PNYY:Arvtuobe Pbzcynvag-Qvfchgr",
+        "NQQE:1005 JNFUVATGBA FG",
+        "VASB:ARVTUOBE PBZCYNVAG",
+        "K:ORA UNEEVFBA FG & TBEQBA FG",
+        "QNGR:9/5/2014",
+        "GVZR:19:13:28");
+
+    qbGrfg("G72",
+        "(PNQ Cntr) 14-412161\a" +
+        " | Qehax Qevire/Crefba Pbzcynvag\a" +
+        "UNZ ZVQQ EQ@BKSBEQ FGNGR EQ\a" +
+        "QEHAX QEVIRE/CREFBA PBZCYNVAG\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@19:08:15",
+
+        "VQ:14-412161",
+        "PNYY:Qehax Qevire/Crefba Pbzcynvag",
+        "NQQE:UNZ ZVQQ EQ & BKSBEQ FGNGR EQ",
+        "ZNQQE:UNZVYGBA ZVQQYRGBJA EQ & BKSBEQ FGNGR EQ",
+        "VASB:QEHAX QEVIRE/CREFBA PBZCYNVAG",
+        "QNGR:9/5/2014",
+        "GVZR:19:08:15");
+
+    qbGrfg("G73",
+        "(PNQ Cntr) 14-412160\a" +
+        " | Nynez Qebc - Ohfvarff\a" +
+        "920 QRARRA NIR\a" +
+        "NYNEZ QEBC - OHFVARFF/ERNE QBBE GB JNERUBHFR ZBGVBA\a" +
+        "K bs TNEIRE EQ & ERRQ EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: PENAR NZREVPN FREIVPRF\a" +
+        "Gvzr Bhg: 9/5/2014@18:28:00",
+
+        "VQ:14-412160",
+        "PNYY:Nynez Qebc - Ohfvarff",
+        "NQQE:920 QRARRA NIR",
+        "VASB:NYNEZ QEBC - OHFVARFF/ERNE QBBE GB JNERUBHFR ZBGVBA",
+        "K:TNEIRE EQ & ERRQ EQ",
+        "CYNPR:PENAR NZREVPN FREIVPRF",
+        "QNGR:9/5/2014",
+        "GVZR:18:28:00");
+
+    qbGrfg("G74",
+        "(PNQ Cntr) 14-412159\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "1 ZVQQYRGBJA\a" +
+        "ZRQVPNY NVQ\a" +
+        "K bs ZVQQYRGBJA & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@18:19:57",
+
+        "VQ:14-412159",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:1 ZVQQYRGBJA",
+        "VASB:ZRQVPNY NVQ",
+        "K:ZVQQYRGBJA",
+        "QNGR:9/5/2014",
+        "GVZR:18:19:57");
+
+    qbGrfg("G75",
+        "(PNQ Cntr) 14-412158\a" +
+        " | Puvyq Phfgbql Qvfchgr/Vasbezngvba\a" +
+        "233 F ZNVA FG\a" +
+        "PUVYQ PHFGBQL IVFVGNGVBA RKPUNATR/PBZCYNVANAG NQIVFRQ ZNEYN EBTREF QVQ ABG OEVAT QNAAL EBTREF GB GUR FPURQHYRQ QEBC BSS NG GUR CQ NAQ ERDHRFG VG OR QBPHZRAGRQ\a" +
+        "K bs PUHEPU FG & YRONABA FG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR CQ\a" +
+        "Gvzr Bhg: 9/5/2014@18:13:42",
+
+        "VQ:14-412158",
+        "PNYY:Puvyq Phfgbql Qvfchgr/Vasbezngvba",
+        "NQQE:233 F ZNVA FG",
+        "VASB:PUVYQ PHFGBQL IVFVGNGVBA RKPUNATR/PBZCYNVANAG NQIVFRQ ZNEYN EBTREF QVQ ABG OEVAT QNAAL EBTREF GB GUR FPURQHYRQ QEBC BSS NG GUR CQ NAQ ERDHRFG VG OR QBPHZRAGRQ",
+        "K:PUHEPU FG & YRONABA FG",
+        "CYNPR:ZBAEBR CQ",
+        "QNGR:9/5/2014",
+        "GVZR:18:13:42");
+
+    qbGrfg("G76",
+        "(PNQ Cntr) 14-412157\a" +
+        " | Qbzrfgvp\a" +
+        "20 BYQ FG HAVG P\a" +
+        "QBZRFGVP/CBFFVOYR QVFGHEONAPR ORGJRRA TNEL ZBUA NAQ PURYFRN ORNPU JUB VF RAEBHGR GB GUR NCG SEBZ ZNFBA/QEVIVAT N OYNPX SBEQ RKCRQVGVBA\a" +
+        "K bs QRNQ RAQ & RYZ FG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@17:56:23",
+
+        "VQ:14-412157",
+        "PNYY:Qbzrfgvp",
+        "NQQE:20 BYQ FG",
+        "NCG:P",
+        "VASB:QBZRFGVP/CBFFVOYR QVFGHEONAPR ORGJRRA TNEL ZBUA NAQ PURYFRN ORNPU JUB VF RAEBHGR GB GUR NCG SEBZ ZNFBA/QEVIVAT N OYNPX SBEQ RKCRQVGVBA",
+        "K:QRNQ RAQ & RYZ FG",
+        "QNGR:9/5/2014",
+        "GVZR:17:56:23");
+
+    qbGrfg("G77",
+        "(PNQ Cntr) 14-412156\a" +
+        " | Ohfvarff Purpx\a" +
+        "1501  EBQRA CNEX QE\a" +
+        "FCRRQJNL\a" +
+        "K bs UNZ ZVQQ EQ & PBYQ JNGRE QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: FCRRQJNL \a" +
+        "Gvzr Bhg: 9/5/2014@16:52:34",
+
+        "VQ:14-412156",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:1501  EBQRA CNEX QE",
+        "VASB:FCRRQJNL",
+        "K:UNZ ZVQQ EQ & PBYQ JNGRE QE",
+        "CYNPR:FCRRQJNL",
+        "QNGR:9/5/2014",
+        "GVZR:16:52:34");
+
+    qbGrfg("G78",
+        "(PNQ Cntr) 14-412155\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "1 GERAGBA\a" +
+        "ZRQVPNY NVQ\a" +
+        "K bs GERAGBA & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@16:43:13",
+
+        "VQ:14-412155",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:1 GERAGBA",
+        "VASB:ZRQVPNY NVQ",
+        "K:GERAGBA",
+        "QNGR:9/5/2014",
+        "GVZR:16:43:13");
+
+    qbGrfg("G79",
+        "(PNQ Cntr) 14-412154\a" +
+        " | Ohfvarff Purpx\a" +
+        "400 CERZVHZ BHGYRG QE\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs JX EBOVAFBA QE & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: PURYFRN-ZBAEBR UBYQVATF\a" +
+        "Gvzr Bhg: 9/5/2014@16:36:11",
+
+        "VQ:14-412154",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:400 CERZVHZ BHGYRG QE",
+        "VASB:OHFVARFF PURPX",
+        "K:JX EBOVAFBA QE",
+        "CYNPR:PURYFRN-ZBAEBR UBYQVATF",
+        "QNGR:9/5/2014",
+        "GVZR:16:36:11");
+
+    qbGrfg("G80",
+        "(PNQ Cntr) 14-412153\a" +
+        " | Ohfvarff Purpx\a" +
+        "2380 F ZNVA FG\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs RYZ TEBIR & OHRAN NIR\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: QBYYNE TRARENY\a" +
+        "Gvzr Bhg: 9/5/2014@15:42:47",
+
+        "VQ:14-412153",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:2380 F ZNVA FG",
+        "VASB:OHFVARFF PURPX",
+        "K:RYZ TEBIR & OHRAN NIR",
+        "CYNPR:QBYYNE TRARENY",
+        "QNGR:9/5/2014",
+        "GVZR:15:42:47");
+
+    qbGrfg("G81",
+        "(PNQ Cntr) 14-412152\a" +
+        " | Navzny Pbzcynvag\a" +
+        "856 ZNFBA EQ\a" +
+        "NAVZNY PBZCYNVAG/PBJ VA GUR EBNQJNL\a" +
+        "K bs V 75 & OHGYRE JNEERA EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: QNEYRAR\a" +
+        "Gvzr Bhg: 9/5/2014@15:41:28",
+
+        "VQ:14-412152",
+        "PNYY:Navzny Pbzcynvag",
+        "NQQE:856 ZNFBA EQ",
+        "VASB:NAVZNY PBZCYNVAG/PBJ VA GUR EBNQJNL",
+        "K:V 75 & OHGYRE JNEERA EQ",
+        "CYNPR:QNEYRAR",
+        "QNGR:9/5/2014",
+        "GVZR:15:41:28");
+
+    qbGrfg("G82",
+        "(PNQ Cntr) 14-412151\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "UNZ ZVQQ EQ@GBQUHAGRE EQ\a" +
+        "GENSSVP FGBC - \a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@14:07:35",
+
+        "VQ:14-412151",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:UNZ ZVQQ EQ & GBQUHAGRE EQ",
+        "ZNQQE:UNZVYGBA ZVQQYRGBJA EQ & GBQUHAGRE EQ",
+        "VASB:GENSSVP FGBC",
+        "QNGR:9/5/2014",
+        "GVZR:14:07:35");
+
+    qbGrfg("G83",
+        "(PNQ Cntr) 14-412150\a" +
+        " | Sbetrel\a" +
+        "359 FGBAR EVQTR YA\a" +
+        "CQ YBOOL: URE UHFONAQ FGBYR URE PURPXF (ABG N WBVAG NPPBHAG) NAQ SBETRQ URE ANZR GB HFR/FUR UNF PBCVRF BS UVF CHEPUNFRF NAQ URE SBETRQ FVTANGVER\a" +
+        "K bs GJVA PBIR QE & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@13:26:55",
+
+        "VQ:14-412150",
+        "PNYY:Sbetrel",
+        "NQQE:359 FGBAR EVQTR YA",
+        "VASB:CQ YBOOL: URE UHFONAQ FGBYR URE PURPXF (ABG N WBVAG NPPBHAG) NAQ SBETRQ URE ANZR GB HFR/FUR UNF PBCVRF BS UVF CHEPUNFRF NAQ URE SBETRQ FVTANGVER",
+        "K:GJVA PBIR QE",
+        "QNGR:9/5/2014",
+        "GVZR:13:26:55");
+
+    qbGrfg("G84",
+        "(PNQ Cntr) 14-412149\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "UNZ ZVQQ EQ@GBQUHAGRE EQ\a" +
+        "GENSSVP FGBC-PNE BE CREFBA\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@13:22:10",
+
+        "VQ:14-412149",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:UNZ ZVQQ EQ & GBQUHAGRE EQ",
+        "ZNQQE:UNZVYGBA ZVQQYRGBJA EQ & GBQUHAGRE EQ",
+        "VASB:GENSSVP FGBC-PNE BE CREFBA",
+        "QNGR:9/5/2014",
+        "GVZR:13:22:10");
+
+    qbGrfg("G85",
+        "(PNQ Cntr) 14-412148\a" +
+        " | Erpxyrff Bcrengbe-Iruvpyr\a" +
+        "PVAPVAANGV QNLGBA EQ@R TNEIRE EQ\a" +
+        "OYHR GNHEHF - AB CYNGR BA IRUVPYR - TBVA GBJ 63\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@13:15:38",
+
+        "VQ:14-412148",
+        "PNYY:Erpxyrff Bcrengbe-Iruvpyr",
+        "NQQE:PVAPVAANGV QNLGBA EQ & R TNEIRE EQ",
+        "VASB:OYHR GNHEHF - AB CYNGR BA IRUVPYR - TBVA GBJ 63",
+        "QNGR:9/5/2014",
+        "GVZR:13:15:38");
+
+    qbGrfg("G86",
+        "(PNQ Cntr) 14-412147\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "UNZ ZVQQ EQ@EBPURFGRE UVYYF QE\a" +
+        "GENSSVP FGBC-PNE BE CREFBA\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@12:52:00",
+
+        "VQ:14-412147",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:UNZ ZVQQ EQ & EBPURFGRE UVYYF QE",
+        "ZNQQE:UNZVYGBA ZVQQYRGBJA EQ & EBPURFGRE UVYYF QE",
+        "VASB:GENSSVP FGBC-PNE BE CREFBA",
+        "QNGR:9/5/2014",
+        "GVZR:12:52:00");
+
+    qbGrfg("G87",
+        "(PNQ Cntr) 14-412146\a" +
+        " | Nppvqrag-Aba-Vawhel\a" +
+        "BKSBEQ FGNGR EQ@F ZNVA FG\a" +
+        "NPPVQRAG-ABA-VAWHEL\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@12:44:06",
+
+        "VQ:14-412146",
+        "PNYY:Nppvqrag-Aba-Vawhel",
+        "NQQE:BKSBEQ FGNGR EQ & F ZNVA FG",
+        "VASB:NPPVQRAG-ABA-VAWHEL",
+        "QNGR:9/5/2014",
+        "GVZR:12:44:06");
+
+    qbGrfg("G88",
+        "(PNQ Cntr) 14-412145\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "3350 F ZNVA FG\a" +
+        "GENSSVP FGBC-PNE BE CREFBA\a" +
+        "K bs BKSBEQ FGNGR EQ & UNZ ZVQQ EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@12:31:49",
+
+        "VQ:14-412145",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:3350 F ZNVA FG",
+        "VASB:GENSSVP FGBC-PNE BE CREFBA",
+        "K:BKSBEQ FGNGR EQ & UNZ ZVQQ EQ",
+        "QNGR:9/5/2014",
+        "GVZR:12:31:49");
+
+    qbGrfg("G89",
+        "(PNQ Cntr) 14-412144\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "PEBFFVATF OYIQ@UNZ YRO EQ\a" +
+        "GENSSVP FGBC-PNE BE CREFBA\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@12:27:25",
+
+        "VQ:14-412144",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:PEBFFVATF OYIQ & UNZ YRO EQ",
+        "ZNQQE:PEBFFVATF OYIQ & UNZVYGBA YRONABA EQ",
+        "VASB:GENSSVP FGBC-PNE BE CREFBA",
+        "QNGR:9/5/2014",
+        "GVZR:12:27:25");
+
+    qbGrfg("G90",
+        "(PNQ Cntr) 14-412143\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "1001 YBTVFGVPF JNL\a" +
+        "CNFRQ SRZ - 60 - FRVMHER \a" +
+        "K bs FNYMZNA & QRNQ RAQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: UNLARRQYR\a" +
+        "Gvzr Bhg: 9/5/2014@12:10:29",
+
+        "VQ:14-412143",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:1001 YBTVFGVPF JNL",
+        "VASB:CNFRQ SRZ - 60 - FRVMHER",
+        "K:FNYMZNA & QRNQ RAQ",
+        "CYNPR:UNLARRQYR",
+        "QNGR:9/5/2014",
+        "GVZR:12:10:29");
+
+    qbGrfg("G91",
+        "(PNQ Cntr) 14-412142\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "A ZNVA FG@GBQUHAGRE EQ\a" +
+        "GENSSVP FGBC-PNE BE CREFBA\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@11:54:37",
+
+        "VQ:14-412142",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:A ZNVA FG & GBQUHAGRE EQ",
+        "VASB:GENSSVP FGBC-PNE BE CREFBA",
+        "QNGR:9/5/2014",
+        "GVZR:11:54:37");
+
+    qbGrfg("G92",
+        "(PNQ Cntr) 14-412141\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "A ZNVA FG@GBQUHAGRE EQ\a" +
+        "GENSSVP FGBC-PNE BE CREFBA\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@11:35:38",
+
+        "VQ:14-412141",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:A ZNVA FG & GBQUHAGRE EQ",
+        "VASB:GENSSVP FGBC-PNE BE CREFBA",
+        "QNGR:9/5/2014",
+        "GVZR:11:35:38");
+
+    qbGrfg("G93",
+        "(PNQ Cntr) 14-412140\a" +
+        " | SBYYBJ\a" +
+        "2 RNFG NIR HAVG N\a" +
+        "SBYYBJ\a" +
+        "K bs UNZ YRO EQ & PBHEGYNAQ QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: VTN RKCERFF\a" +
+        "Gvzr Bhg: 9/5/2014@11:18:30",
+
+        "VQ:14-412140",
+        "PNYY:SBYYBJ",
+        "NQQE:2 RNFG NIR",
+        "NCG:N",
+        "VASB:SBYYBJ",
+        "K:UNZ YRO EQ & PBHEGYNAQ QE",
+        "CYNPR:VTN RKCERFF",
+        "QNGR:9/5/2014",
+        "GVZR:11:18:30");
+
+    qbGrfg("G94",
+        "(PNQ Cntr) 14-412139\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "A ZNVA FG@GBQUHAGRE EQ\a" +
+        "GENSSVP FGBC-PNE BE CREFBA\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@11:11:21",
+
+        "VQ:14-412139",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:A ZNVA FG & GBQUHAGRE EQ",
+        "VASB:GENSSVP FGBC-PNE BE CREFBA",
+        "QNGR:9/5/2014",
+        "GVZR:11:11:21");
+
+    qbGrfg("G95",
+        "(PNQ Cntr) 14-412138\a" +
+        " | Ohfvarff Purpx\a" +
+        "5 NZREVPNA JNL\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs YRONABA FG & UNZ YRO EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR QEL PYRNAVAT\a" +
+        "Gvzr Bhg: 9/5/2014@11:07:30",
+
+        "VQ:14-412138",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:5 NZREVPNA JNL",
+        "VASB:OHFVARFF PURPX",
+        "K:YRONABA FG & UNZ YRO EQ",
+        "CYNPR:ZBAEBR QEL PYRNAVAT",
+        "QNGR:9/5/2014",
+        "GVZR:11:07:30");
+
+    qbGrfg("G96",
+        "(PNQ Cntr) 14-412137\a" +
+        " | Gursg Pnyy\a" +
+        "1250 UNZ YRO EQ\a" +
+        "PNYYRE PYNVZF FBZRBAR FGBYR UVF FCNER GVER SEBZ UVF GENVYRE - NSG JEVGRA BA GEHPX/OYHR GEHPX \a" +
+        "K bs  & UNZ ZVQQ EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: FGBAL EVQTR SHRY QRFX\a" +
+        "Gvzr Bhg: 9/5/2014@10:51:37",
+
+        "VQ:14-412137",
+        "PNYY:Gursg Pnyy",
+        "NQQE:1250 UNZ YRO EQ",
+        "ZNQQE:1250 UNZVYGBA YRONABA EQ",
+        "VASB:PNYYRE PYNVZF FBZRBAR FGBYR UVF FCNER GVER SEBZ UVF GENVYRE - NSG JEVGRA BA GEHPX/OYHR GEHPX",
+        "K:UNZ ZVQQ EQ",
+        "CYNPR:FGBAL EVQTR SHRY QRFX",
+        "QNGR:9/5/2014",
+        "GVZR:10:51:37");
+
+    qbGrfg("G97",
+        "(PNQ Cntr) 14-412136\a" +
+        " | Ohfvarff Purpx\a" +
+        "2804 F ZNVA FG\a" +
+        "OHFVARFF PURPX\a" +
+        "K bs QVNZBAQ YBBC & BKSBEQ FGNGR EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: FCBEGF OBJY\a" +
+        "Gvzr Bhg: 9/5/2014@10:25:36",
+
+        "VQ:14-412136",
+        "PNYY:Ohfvarff Purpx",
+        "NQQE:2804 F ZNVA FG",
+        "VASB:OHFVARFF PURPX",
+        "K:QVNZBAQ YBBC & BKSBEQ FGNGR EQ",
+        "CYNPR:FCBEGF OBJY",
+        "QNGR:9/5/2014",
+        "GVZR:10:25:36");
+
+    qbGrfg("G98",
+        "(PNQ Cntr) 14-412135\a" +
+        " | Arvtuobe Pbzcynvag-Qvfchgr\a" +
+        "6447 GBQUHAGRE EQ\a" +
+        "ARVTUOBE PBZCYNVAG-QVFCHGRARVTUOBE QVFCHGR; ORYVRIR ARVTUOBE YNJERAPR FUNPXRYSBEQ VF UVGGVAT TBYS ONYYF VAGB UVF SNEZ SVRYQ. ZE. ZPXVAYRL UNF FCBXRA GB ZE. FUNPXRYSBEQ NOBHG GUVF NAQ UNF NFXRQ UVZ GB FGBC ORSBER. \a" +
+        "K bs QBEBGUL YA & LNAXRR EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@10:17:43",
+
+        "VQ:14-412135",
+        "PNYY:Arvtuobe Pbzcynvag-Qvfchgr",
+        "NQQE:6447 GBQUHAGRE EQ",
+        "VASB:ARVTUOBE PBZCYNVAG-QVFCHGRARVTUOBE QVFCHGR; ORYVRIR ARVTUOBE YNJERAPR FUNPXRYSBEQ VF UVGGVAT TBYS ONYYF VAGB UVF SNEZ SVRYQ. ZE. ZPXVAYRL UNF FCBXRA GB ZE. FUNPXRYSBEQ NOBHG GUVF NAQ UNF NFXRQ UVZ GB FGBC ORSBER.",
+        "K:QBEBGUL YA & LNAXRR EQ",
+        "QNGR:9/5/2014",
+        "GVZR:10:17:43");
+
+    qbGrfg("G99",
+        "(PNQ Cntr) 14-412134\a" +
+        " | Genssvp Pbzcynvag/Pbageby/Ebnq Oybpxrq,rgp\a" +
+        "6447 GBQUHAGRE EQ\a" +
+        "GENSSVP PBZCYNVAG/PBAGEBY/EBNQ OYBPXRQ,RGP - QRGNVY CRE N2\a" +
+        "K bs QBEBGUL YA & LNAXRR EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@10:14:29",
+
+        "VQ:14-412134",
+        "PNYY:Genssvp Pbzcynvag/Pbageby/Ebnq Oybpxrq,rgp",
+        "NQQE:6447 GBQUHAGRE EQ",
+        "VASB:GENSSVP PBZCYNVAG/PBAGEBY/EBNQ OYBPXRQ,RGP - QRGNVY CRE N2",
+        "K:QBEBGUL YA & LNAXRR EQ",
+        "QNGR:9/5/2014",
+        "GVZR:10:14:29");
+
+    qbGrfg("G100",
+        "(PNQ Cntr) 14-412133\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "A ZNVA FG@BIREOEBBX QE\a" +
+        "GENSSVP FGBC-PNE BE CREFBA\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@10:06:58",
+
+        "VQ:14-412133",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:A ZNVA FG & BIREOEBBX QE",
+        "VASB:GENSSVP FGBC-PNE BE CREFBA",
+        "QNGR:9/5/2014",
+        "GVZR:10:06:58");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgPvglBsZbaebr() {
+
+    qbGrfg("G1",
+        "(PNQ Cntr) 14-412207\a" +
+        "Iruvpyr Sver | Sver Pnyy\a" +
+        "V 75@26ZZ\a" +
+        "IRU FGEHPX N JNYY - CBFF VAWHEL - BFC BA FPRAR/FDHNQ ERDHRFGRQ OL BFC\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/6/2014@10:33:20",
+
+        "VQ:14-412207",
+        "PNYY:Iruvpyr Sver - Sver Pnyy",
+        "NQQE:V 75 & 26ZZ",
+        "VASB:IRU FGEHPX N JNYY - CBFF VAWHEL - BFC BA FPRAR/FDHNQ ERDHRFGRQ OL BFC",
+        "QNGR:9/6/2014",
+        "GVZR:10:33:20");
+
+    qbGrfg("G2",
+        "(PNQ Cntr) 14-412127\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "225 OEVGGBA YA HAVG 243\a" +
+        "2AQ - RZCYBLRR CNFFRQ BHG ZNYR - 20 LB  - OHFVARFF NERN \a" +
+        "K bs ZG CYRNFNAG UBZR & GRAARFFRR NIR\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@08:37:44",
+
+        "VQ:14-412127",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:225 OEVGGBA YA",
+        "NCG:243",
+        "VASB:2AQ - RZCYBLRR CNFFRQ BHG ZNYR - 20 LB  - OHFVARFF NERN",
+        "K:ZG CYRNFNAG UBZR & GRAARFFRR NIR",
+        "QNGR:9/5/2014",
+        "GVZR:08:37:44");
+
+    qbGrfg("G3",
+        "(PNQ Cntr) 14-412116\a" +
+        " | Nppvqrag-Aba-Vawhel\a" +
+        "UNZ YRO EQ@A ZNVA FG\a" +
+        "FRZV & PNE - HAXABJA VAWHEVRF \a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/5/2014@05:57:29",
+
+        "VQ:14-412116",
+        "PNYY:Nppvqrag-Aba-Vawhel",
+        "NQQE:UNZ YRO EQ & A ZNVA FG",
+        "ZNQQE:UNZVYGBA YRONABA EQ & A ZNVA FG",
+        "VASB:FRZV & PNE - HAXABJA VAWHEVRF",
+        "QNGR:9/5/2014",
+        "GVZR:05:57:29");
+
+    qbGrfg("G4",
+        "(PNQ Cntr) 14-412111\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "225 OEVGGBA YA\a" +
+        "81 L/B/S ERFCVGBEL QVFGERFF/FUBEGARFF BS OERNGU/UVFGBEL BS CR\a" +
+        "K bs ZG CYRNFNAG UBZR & GRAARFFRR NIR\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBHAG CYRNFNAG ERGVERZRAG IVYYNT\a" +
+        "Gvzr Bhg: 9/5/2014@03:19:43",
+
+        "VQ:14-412111",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:225 OEVGGBA YA",
+        "VASB:81 L/B/S ERFCVGBEL QVFGERFF/FUBEGARFF BS OERNGU/UVFGBEL BS CR",
+        "K:ZG CYRNFNAG UBZR & GRAARFFRR NIR",
+        "CYNPR:ZBHAG CYRNFNAG ERGVERZRAG IVYYNT",
+        "QNGR:9/5/2014",
+        "GVZR:03:19:43");
+
+    qbGrfg("G5",
+        "(PNQ Cntr) 14-412098\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "1020 BKSBEQ FGNGR EQ\a" +
+        "ZRQVPNY NVQ/PUVYQ 2 L/B JVGU HAPBAGEBYYNOYR ABFR OYRRQ\a" +
+        "K bs WHQL QE & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/4/2014@20:59:56",
+
+        "VQ:14-412098",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:1020 BKSBEQ FGNGR EQ",
+        "VASB:ZRQVPNY NVQ/PUVYQ 2 L/B JVGU HAPBAGEBYYNOYR ABFR OYRRQ",
+        "K:WHQL QE",
+        "QNGR:9/4/2014",
+        "GVZR:20:59:56");
+
+    qbGrfg("G6",
+        "(PNQ Cntr) 14-412092\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "260 FRZVANEL QE\a" +
+        "ZRQVPNY NVQ/SRZNYR SNYYRA VA ONGUGHO, ABG VAWHERQ CRE ZG CYRNFNAG FRPHEVGL BA FPRAR\a" +
+        "K bs VAQVNAN NIR & QRNQ RAQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZC/ ZPXVOORA\a" +
+        "Gvzr Bhg: 9/4/2014@19:46:41",
+
+        "VQ:14-412092",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:260 FRZVANEL QE",
+        "VASB:ZRQVPNY NVQ/SRZNYR SNYYRA VA ONGUGHO, ABG VAWHERQ CRE ZG CYRNFNAG FRPHEVGL BA FPRAR",
+        "K:VAQVNAN NIR & QRNQ RAQ",
+        "CYNPR:ZC/ ZPXVOORA",
+        "QNGR:9/4/2014",
+        "GVZR:19:46:41");
+
+    qbGrfg("G7",
+        "(PNQ Cntr) 14-412088\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "1198 SBEERE FG HAVG N\a" +
+        "ZRQVPNY NVQ/63 L/B ZNYR JVGU FRIRER NOQBZVANY CNVA NAQ IREL JRNX\a" +
+        "K bs WHQL QE & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/4/2014@19:27:01",
+
+        "VQ:14-412088",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:1198 SBEERE FG",
+        "NCG:N",
+        "VASB:ZRQVPNY NVQ/63 L/B ZNYR JVGU FRIRER NOQBZVANY CNVA NAQ IREL JRNX",
+        "K:WHQL QE",
+        "QNGR:9/4/2014",
+        "GVZR:19:27:01");
+
+    qbGrfg("G8",
+        "(PNQ Cntr) 14-412069\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "858 CERZVHZ BHGYRG QE\a" +
+        "ZNYR - SRRYF SNVAG, YVTUGURNQRQ, YVXR UR JNAGF GB CNFF BHG - VF PBAPVHF \a" +
+        "K bs JX EBOVAFBA QE & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: THRFF SNPGBEL\a" +
+        "Gvzr Bhg: 9/4/2014@12:36:21",
+
+        "VQ:14-412069",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:858 CERZVHZ BHGYRG QE",
+        "VASB:ZNYR - SRRYF SNVAG, YVTUGURNQRQ, YVXR UR JNAGF GB CNFF BHG - VF PBAPVHF",
+        "K:JX EBOVAFBA QE",
+        "CYNPR:THRFF SNPGBEL",
+        "QNGR:9/4/2014",
+        "GVZR:12:36:21");
+
+    qbGrfg("G9",
+        "(PNQ Cntr) 14-412065\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "225 OEVGGBA YA HAVG 243\a" +
+        "RZCYBLLRR - FRVMHER 2AF OHFVA\a" +
+        "K bs ZG CYRNFNAG UBZR & GRAARFFRR NIR\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/4/2014@11:34:17",
+
+        "VQ:14-412065",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:225 OEVGGBA YA",
+        "NCG:243",
+        "VASB:RZCYBLLRR - FRVMHER 2AF OHFVA",
+        "K:ZG CYRNFNAG UBZR & GRAARFFRR NIR",
+        "QNGR:9/4/2014",
+        "GVZR:11:34:17");
+
+    qbGrfg("G10",
+        "(PNQ Cntr) 14-412062\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "1001 YBTVFGVPF JNL\a" +
+        "20 LB ZNYR YVTUGURNQRQ,  ANHFRVHF - HC SEBAG BSSVPR \a" +
+        "K bs FNYMZNA & QRNQ RAQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: UNLARRQYR\a" +
+        "Gvzr Bhg: 9/4/2014@10:00:39",
+
+        "VQ:14-412062",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:1001 YBTVFGVPF JNL",
+        "VASB:20 LB ZNYR YVTUGURNQRQ,  ANHFRVHF - HC SEBAG BSSVPR",
+        "K:FNYMZNA & QRNQ RAQ",
+        "CYNPR:UNLARRQYR",
+        "QNGR:9/4/2014",
+        "GVZR:10:00:39");
+
+    qbGrfg("G11",
+        "(PNQ Cntr) 14-412022\a" +
+        " | Fdhnq Pnyy\a" +
+        "104 ABEGUJRFGREA NIR\a" +
+        "63 L/B ZNYR QVNORGVP\a" +
+        "K bs VAQVNAN QE & ZHFXVATHZ PVE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZC/ JLNGG\a" +
+        "Gvzr Bhg: 9/3/2014@18:17:31",
+
+        "VQ:14-412022",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:104 ABEGUJRFGREA NIR",
+        "VASB:63 L/B ZNYR QVNORGVP",
+        "K:VAQVNAN QE & ZHFXVATHZ PVE",
+        "CYNPR:ZC/ JLNGG",
+        "QNGR:9/3/2014",
+        "GVZR:18:17:31");
+
+    qbGrfg("G12",
+        "(PNQ Cntr) 14-412012\a" +
+        " | Choyvp Nffvfg/Jrysner Purpx/Vasbezngvba\a" +
+        "428 BKSBEQ FGNGR EQ\a" +
+        "CHOYVP NFFVFG/JRYSNER PURPX/VASBEZNGVBA, PURPX BA JRYSNER BS J/S CNEXRQ VA YBG, TBG VAGB N OYX PURIL GENPXRE, FGVYY VA CNEXVAT YBG UNQ GEBHOYR JNYXVAT VA FGBER CBFFVOYL VAGBKVPNGRQ.\a" +
+        "K bs YBPHFG FG & ZNVA FG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: XEBTRE\a" +
+        "Gvzr Bhg: 9/3/2014@16:22:24",
+
+        "VQ:14-412012",
+        "PNYY:Choyvp Nffvfg/Jrysner Purpx/Vasbezngvba",
+        "NQQE:428 BKSBEQ FGNGR EQ",
+        "VASB:CHOYVP NFFVFG/JRYSNER PURPX/VASBEZNGVBA, PURPX BA JRYSNER BS J/S CNEXRQ VA YBG, TBG VAGB N OYX PURIL GENPXRE, FGVYY VA CNEXVAT YBG UNQ GEBHOYR JNYXVAT VA FGBER CBFFVOYL VAGBKVPNGRQ.",
+        "K:YBPHFG FG & ZNVA FG",
+        "CYNPR:XEBTRE",
+        "QNGR:9/3/2014",
+        "GVZR:16:22:24");
+
+    qbGrfg("G13",
+        "(PNQ Cntr) 14-412004\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "1038 YRONABA FG\a" +
+        "RZCYBLRR-URNEG ERY VFFHR\a" +
+        "K bs OERNQRA QE & QRNQ RAQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: UHFGYRE UBYYLJBBQ\a" +
+        "Gvzr Bhg: 9/3/2014@14:01:34",
+
+        "VQ:14-412004",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:1038 YRONABA FG",
+        "VASB:RZCYBLRR-URNEG ERY VFFHR",
+        "K:OERNQRA QE & QRNQ RAQ",
+        "CYNPR:UHFGYRE UBYYLJBBQ",
+        "QNGR:9/3/2014",
+        "GVZR:14:01:34");
+
+    qbGrfg("G14",
+        "(PNQ Cntr) 14-411993\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "3100 F ZNVA FG\a" +
+        "PNG OVGR \a" +
+        "K bs QVNZBAQ YBBC & BKSBEQ FGNGR EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZVQQYRGBJA CNIVYVBA\a" +
+        "Gvzr Bhg: 9/3/2014@10:20:50",
+
+        "VQ:14-411993",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:3100 F ZNVA FG",
+        "VASB:PNG OVGR",
+        "K:QVNZBAQ YBBC & BKSBEQ FGNGR EQ",
+        "CYNPR:ZVQQYRGBJA CNIVYVBA",
+        "QNGR:9/3/2014",
+        "GVZR:10:20:50");
+
+    qbGrfg("G15",
+        "(PNQ Cntr) 14-411991\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "1 GERAGBA\a" +
+        "QVNORGVP RYQREYL SRZNYR\a" +
+        "K bs GERAGBA & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/3/2014@09:44:50",
+
+        "VQ:14-411991",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:1 GERAGBA",
+        "VASB:QVNORGVP RYQREYL SRZNYR",
+        "K:GERAGBA",
+        "QNGR:9/3/2014",
+        "GVZR:09:44:50");
+
+    qbGrfg("G16",
+        "(PNQ Cntr) 14-411986\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "6500 UNZ YRO EQ\a" +
+        "PURFG CNVAF/ SRZNYR ZRRG NG FRP TNGR\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: KREBK\a" +
+        "Gvzr Bhg: 9/3/2014@07:53:39",
+
+        "VQ:14-411986",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:6500 UNZ YRO EQ",
+        "ZNQQE:6500 UNZVYGBA YRONABA EQ",
+        "VASB:PURFG CNVAF/ SRZNYR ZRRG NG FRP TNGR",
+        "CYNPR:KREBK",
+        "QNGR:9/3/2014",
+        "GVZR:07:53:39");
+
+    qbGrfg("G17",
+        "(PNQ Cntr) 14-411985\a" +
+        " | Nppvqrag-Aba-Vawhel\a" +
+        "6898 UNZ ZVQQ EQ\a" +
+        "NPP VAWHEVRF\a" +
+        "K bs PVGL YVZVGF & TNEQRA ZNABE UBZR\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: TNEQRA ZNABE AHEFVAT UBZR\a" +
+        "Gvzr Bhg: 9/3/2014@07:51:29",
+
+        "VQ:14-411985",
+        "PNYY:Nppvqrag-Aba-Vawhel",
+        "NQQE:6898 UNZ ZVQQ EQ",
+        "ZNQQE:6898 UNZVYGBA ZVQQYRGBJA EQ",
+        "VASB:NPP VAWHEVRF",
+        "K:PVGL YVZVGF & TNEQRA ZNABE UBZR",
+        "CYNPR:TNEQRA ZNABE AHEFVAT UBZR",
+        "QNGR:9/3/2014",
+        "GVZR:07:51:29");
+
+    qbGrfg("G18",
+        "(PNQ Cntr) 14-411975\a" +
+        " | Sver Nynez\a" +
+        "6 RNFG NIR\a" +
+        "SVER NYNEZ\a" +
+        "K bs PBHEGYNAQ QE & RYZ FG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR YVOENEL NAQ PBZZHAVGL PRAGRE\a" +
+        "Gvzr Bhg: 9/3/2014@01:11:37",
+
+        "VQ:14-411975",
+        "PNYY:Sver Nynez",
+        "NQQE:6 RNFG NIR",
+        "VASB:SVER NYNEZ",
+        "K:PBHEGYNAQ QE & RYZ FG",
+        "CYNPR:ZBAEBR YVOENEL NAQ PBZZHAVGL PRAGRE",
+        "QNGR:9/3/2014",
+        "GVZR:01:11:37");
+
+    qbGrfg("G19",
+        "(PNQ Cntr) 14-411969\a" +
+        " | Fdhnq Pnyy\a" +
+        "2415 F ZNVA FG\a" +
+        "FDHNQ PNYY/ZRQ NYREG-866 885 5600\a" +
+        "K bs RYZ TEBIR & OHRAN NIR\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/2/2014@23:10:39",
+
+        "VQ:14-411969",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:2415 F ZNVA FG",
+        "VASB:FDHNQ PNYY/ZRQ NYREG-866 885 5600",
+        "K:RYZ TEBIR & OHRAN NIR",
+        "QNGR:9/2/2014",
+        "GVZR:23:10:39");
+
+    qbGrfg("G20",
+        "(PNQ Cntr) 14-411960\a" +
+        " | Genssvp Fgbc-pne be crefba\a" +
+        "A ZNVA FG@BIREOEBBX QE\a" +
+        "GENSSVP FGBC-PNE BE CREFBA\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/2/2014@21:13:32",
+
+        "VQ:14-411960",
+        "PNYY:Genssvp Fgbc-pne be crefba",
+        "NQQE:A ZNVA FG & BIREOEBBX QE",
+        "VASB:GENSSVP FGBC-PNE BE CREFBA",
+        "QNGR:9/2/2014",
+        "GVZR:21:13:32");
+
+    qbGrfg("G21",
+        "(PNQ Cntr) 14-411949\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "1 ONYSBEQ PG\a" +
+        "NOQBZVANY & PURFG CNVA SRZ - 38 \a" +
+        "K bs PENAOEBBX QE & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/2/2014@19:07:31",
+
+        "VQ:14-411949",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:1 ONYSBEQ PG",
+        "VASB:NOQBZVANY & PURFG CNVA SRZ - 38",
+        "K:PENAOEBBX QE",
+        "QNGR:9/2/2014",
+        "GVZR:19:07:31");
+
+    qbGrfg("G22",
+        "(PNQ Cntr) 14-411941\a" +
+        " | Nppvqrag-Aba-Vawhel\a" +
+        "BKSBEQ FGNGR EQ@UNZ ZVQQ EQ\a" +
+        "2 IRU - ERQ INA & ERQ ZNKVZN - HAXABJA VAWHEVRF\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/2/2014@13:57:43",
+
+        "VQ:14-411941",
+        "PNYY:Nppvqrag-Aba-Vawhel",
+        "NQQE:BKSBEQ FGNGR EQ & UNZ ZVQQ EQ",
+        "ZNQQE:BKSBEQ FGNGR EQ & UNZVYGBA ZVQQYRGBJA EQ",
+        "VASB:2 IRU - ERQ INA & ERQ ZNKVZN - HAXABJA VAWHEVRF",
+        "QNGR:9/2/2014",
+        "GVZR:13:57:43");
+
+    qbGrfg("G23",
+        "(PNQ Cntr) 14-411938\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "2415 F ZNVA FG\a" +
+        "RAGRE SEBZ TENANQN/ZRNYF BA JURRYF SBHAQ PYVRAG BA GUR SYBBE\a" +
+        "K bs RYZ TEBIR & OHRAN NIR\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/2/2014@12:27:10",
+
+        "VQ:14-411938",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:2415 F ZNVA FG",
+        "VASB:RAGRE SEBZ TENANQN/ZRNYF BA JURRYF SBHAQ PYVRAG BA GUR SYBBE",
+        "K:RYZ TEBIR & OHRAN NIR",
+        "QNGR:9/2/2014",
+        "GVZR:12:27:10");
+
+    qbGrfg("G24",
+        "(PNQ Cntr) 14-411931\a" +
+        " | Sver Nynez\a" +
+        "80 GRVY GERR PG\a" +
+        "SVER VAIRFGVTNGVBA/AB XRLUBYQRE PBAGNPGRQ/FRPBAQ SYBBE FZBXR 7 NYNZEF\a" +
+        "K bs PHY QR FNP & RNFGBA ZNABE QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: YHPERGVN\a" +
+        "Gvzr Bhg: 9/2/2014@09:54:58",
+
+        "VQ:14-411931",
+        "PNYY:Sver Nynez",
+        "NQQE:80 GRVY GERR PG",
+        "VASB:SVER VAIRFGVTNGVBA/AB XRLUBYQRE PBAGNPGRQ/FRPBAQ SYBBE FZBXR 7 NYNZEF",
+        "K:PHY QR FNP & RNFGBA ZNABE QE",
+        "CYNPR:YHPERGVN",
+        "QNGR:9/2/2014",
+        "GVZR:09:54:58");
+
+    qbGrfg("G25",
+        "(PNQ Cntr) 14-411922\a" +
+        " | Fdhnq Pnyy\a" +
+        "342 BYQ FG HAVG N\a" +
+        "55 L/B SRZNYR JVGU FRIRER IBZVGGVAT\a" +
+        "K bs PBZZHAVGL CNEX & PBZZHAVGL CNEX\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/2/2014@02:45:10",
+
+        "VQ:14-411922",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:342 BYQ FG",
+        "NCG:N",
+        "VASB:55 L/B SRZNYR JVGU FRIRER IBZVGGVAT",
+        "K:PBZZHAVGL CNEX & PBZZHAVGL CNEX",
+        "QNGR:9/2/2014",
+        "GVZR:02:45:10");
+
+    qbGrfg("G26",
+        "(PNQ Cntr) 14-411908\a" +
+        " | Fdhnq Pnyy\a" +
+        "1280 UNZ YRO EQ\a" +
+        "FDHNQ PNYY/ ZNYR JVGU IRVA OYRRQ\a" +
+        "K bs V 75 & PBEEVQBE CNEX QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR FURYY FGNGVBA/CBCRLRF ERFGNHENAG\a" +
+        "Gvzr Bhg: 9/1/2014@22:04:26",
+
+        "VQ:14-411908",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:1280 UNZ YRO EQ",
+        "ZNQQE:1280 UNZVYGBA YRONABA EQ",
+        "VASB:FDHNQ PNYY/ ZNYR JVGU IRVA OYRRQ",
+        "K:V 75 & PBEEVQBE CNEX QE",
+        "CYNPR:ZBAEBR FURYY FGNGVBA/CBCRLRF ERFGNHENAG",
+        "QNGR:9/1/2014",
+        "GVZR:22:04:26");
+
+    qbGrfg("G27",
+        "(PNQ Cntr) 14-411896\a" +
+        " | Nppvqrag-Aba-Vawhel\a" +
+        "BKSBEQ FGNGR EQ@UNZ ZVQQ EQ\a" +
+        "NPPVQRAG - 1 IRU & 2 ZBGBEPLPYRF - BA BKSBEQ FGNGR EVTUG BSS ENZC SEBZ 4 - ABA VAWHEL\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/1/2014@17:03:43",
+
+        "VQ:14-411896",
+        "PNYY:Nppvqrag-Aba-Vawhel",
+        "NQQE:BKSBEQ FGNGR EQ & UNZ ZVQQ EQ",
+        "ZNQQE:BKSBEQ FGNGR EQ & UNZVYGBA ZVQQYRGBJA EQ",
+        "VASB:NPPVQRAG - 1 IRU & 2 ZBGBEPLPYRF - BA BKSBEQ FGNGR EVTUG BSS ENZC SEBZ 4 - ABA VAWHEL",
+        "QNGR:9/1/2014",
+        "GVZR:17:03:43");
+
+    qbGrfg("G28",
+        "(PNQ Cntr) 14-411890\a" +
+        " | Sver Pnyy\a" +
+        "1 ZVQQYRGBJA\a" +
+        "ZVQQYRGBJA ZN - 2950 JVYOREUNZ\a" +
+        "K bs ZVQQYRGBJA & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/1/2014@15:57:33",
+
+        "VQ:14-411890",
+        "PNYY:Sver Pnyy",
+        "NQQE:1 ZVQQYRGBJA",
+        "VASB:ZVQQYRGBJA ZN - 2950 JVYOREUNZ",
+        "K:ZVQQYRGBJA",
+        "QNGR:9/1/2014",
+        "GVZR:15:57:33");
+
+    qbGrfg("G29",
+        "(PNQ Cntr) 14-411886\a" +
+        "Erfvqragvny Tnf Yrnx | Sver Pnyy\a" +
+        "341 ZNAVGRR FG\a" +
+        "EBBS PBYYNCFRQ BA N ERFVQRAPR/ERFVQRAGF NER PBAPREARQ NOBHG N TNF YVAR GUNG EHAF ARNE GUR SVERCYNPR GUNG PBYYNCFRQ\a" +
+        "K bs YBPHFG FG & QRNQ RAQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/1/2014@13:18:40",
+
+        "VQ:14-411886",
+        "PNYY:Erfvqragvny Tnf Yrnx - Sver Pnyy",
+        "NQQE:341 ZNAVGRR FG",
+        "VASB:EBBS PBYYNCFRQ BA N ERFVQRAPR/ERFVQRAGF NER PBAPREARQ NOBHG N TNF YVAR GUNG EHAF ARNE GUR SVERCYNPR GUNG PBYYNCFRQ",
+        "K:YBPHFG FG & QRNQ RAQ",
+        "QNGR:9/1/2014",
+        "GVZR:13:18:40");
+
+    qbGrfg("G30",
+        "(PNQ Cntr) 14-411884\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "908 WBL QE\a" +
+        "74 L/B SRZNYR JVGU FRIRER PBAFGVCNGVBA\a" +
+        "K bs FGVYYCNFF JNL & ENAQL YA\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/1/2014@12:44:00",
+
+        "VQ:14-411884",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:908 WBL QE",
+        "VASB:74 L/B SRZNYR JVGU FRIRER PBAFGVCNGVBA",
+        "K:FGVYYCNFF JNL & ENAQL YA",
+        "QNGR:9/1/2014",
+        "GVZR:12:44:00");
+
+    qbGrfg("G31",
+        "(PNQ Cntr) 14-411873\a" +
+        "Pbzzrepvny Sver nynez | Sver Nynez\a" +
+        "120 FRANGR QE\a" +
+        "PBZZREPVNY SVER NYNEZ FUBJVAT TRARENY NPGVINGVBA\a" +
+        "K bs UNZ YRO EQ & QRNQ RAQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: PBZSBEG VAA\a" +
+        "Gvzr Bhg: 9/1/2014@07:33:35",
+
+        "VQ:14-411873",
+        "PNYY:Pbzzrepvny Sver nynez - Sver Nynez",
+        "NQQE:120 FRANGR QE",
+        "VASB:PBZZREPVNY SVER NYNEZ FUBJVAT TRARENY NPGVINGVBA",
+        "K:UNZ YRO EQ & QRNQ RAQ",
+        "CYNPR:PBZSBEG VAA",
+        "QNGR:9/1/2014",
+        "GVZR:07:33:35");
+
+    qbGrfg("G32",
+        "(PNQ Cntr) 14-411862\a" +
+        " | Fdhnq Pnyy\a" +
+        "207 OREANEQ QE\a" +
+        "ZNYR 42 L/B VA ERFC QVFGERFF\a" +
+        "K bs ZNFBA NIR & RGURY QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 9/1/2014@01:55:37",
+
+        "VQ:14-411862",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:207 OREANEQ QE",
+        "VASB:ZNYR 42 L/B VA ERFC QVFGERFF",
+        "K:ZNFBA NIR & RGURY QE",
+        "QNGR:9/1/2014",
+        "GVZR:01:55:37");
+
+    qbGrfg("G33",
+        "(PNQ Cntr) 14-411849\a" +
+        " | Nffnhyg\a" +
+        "2085 NCCYREVQTR PG\a" +
+        "NFFNHYG/ SRZNYR 14 L/B FCENLRQ J/ CRCCRE FCENL\a" +
+        "K bs PHY QR FNP & JVARFNC YA\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/31/2014@22:11:28",
+
+        "VQ:14-411849",
+        "PNYY:Nffnhyg",
+        "NQQE:2085 NCCYREVQTR PG",
+        "VASB:NFFNHYG/ SRZNYR 14 L/B FCENLRQ J/ CRCCRE FCENL",
+        "K:PHY QR FNP & JVARFNC YA",
+        "QNGR:8/31/2014",
+        "GVZR:22:11:28");
+
+    qbGrfg("G34",
+        "(PNQ Cntr) 14-411838\a" +
+        "Zhghny Nvq | Sver Pnyy\a" +
+        "1 ZVQQYRGBJA\a" +
+        "3553 PBZZREPR - ST 7 - EBBZ SVER \a" +
+        "K bs ZVQQYRGBJA & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/31/2014@20:26:54",
+
+        "VQ:14-411838",
+        "PNYY:Zhghny Nvq - Sver Pnyy",
+        "NQQE:1 ZVQQYRGBJA",
+        "VASB:3553 PBZZREPR - ST 7 - EBBZ SVER",
+        "K:ZVQQYRGBJA",
+        "QNGR:8/31/2014",
+        "GVZR:20:26:54");
+
+    qbGrfg("G35",
+        "(PNQ Cntr) 14-411800\a" +
+        " | Fdhnq Pnyy\a" +
+        "328 GNAONEX QE\a" +
+        "FDHNQ PNYY/ SRZNYR J/ QVSSVPHYGL OERNGUVAT\a" +
+        "K bs WNPBOF FG & ONVYRL FG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/30/2014@23:25:17",
+
+        "VQ:14-411800",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:328 GNAONEX QE",
+        "VASB:FDHNQ PNYY/ SRZNYR J/ QVSSVPHYGL OERNGUVAT",
+        "K:WNPBOF FG & ONVYRL FG",
+        "QNGR:8/30/2014",
+        "GVZR:23:25:17");
+
+    qbGrfg("G36",
+        "(PNQ Cntr) 14-411797\a" +
+        " | Nppvqrag-Aba-Vawhel\a" +
+        "YNJGBA@UNZ YRO EQ\a" +
+        "NPPVQRAG-ABA-VAWHEL/ CBFF 6 IRUVPYRF\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/30/2014@22:19:59",
+
+        "VQ:14-411797",
+        "PNYY:Nppvqrag-Aba-Vawhel",
+        "NQQE:YNJGBA & UNZ YRO EQ",
+        "ZNQQE:YNJGBA & UNZVYGBA YRONABA EQ",
+        "VASB:NPPVQRAG-ABA-VAWHEL/ CBFF 6 IRUVPYRF",
+        "QNGR:8/30/2014",
+        "GVZR:22:19:59");
+
+    qbGrfg("G37",
+        "(PNQ Cntr) 14-411796\a" +
+        " | Fdhnq Pnyy\a" +
+        "231 EVATYVAT NIR\a" +
+        "FDHNQ PNYY/SRZNYR J/ HAXABJA VYYARFF\a" +
+        "K bs YVOREGL GJC YVAR & FVYIRE XVAT QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/30/2014@22:09:33",
+
+        "VQ:14-411796",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:231 EVATYVAT NIR",
+        "VASB:FDHNQ PNYY/SRZNYR J/ HAXABJA VYYARFF",
+        "K:YVOREGL GJC YVAR & FVYIRE XVAT QE",
+        "QNGR:8/30/2014",
+        "GVZR:22:09:33");
+
+    qbGrfg("G38",
+        "(PNQ Cntr) 14-411772\a" +
+        " | Fhvpvqr be Nggrzcg\a" +
+        "3025 ZNPVAGBFU YA\a" +
+        "PNYYRE UNF N CB - JVSR - NFUYRL PBEARYY - FYVG UVJ\a" +
+        "K bs JVARFNC YA & TENAAL FZVGU YA\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/30/2014@13:58:06",
+
+        "VQ:14-411772",
+        "PNYY:Fhvpvqr be Nggrzcg",
+        "NQQE:3025 ZNPVAGBFU YA",
+        "VASB:PNYYRE UNF N CB - JVSR - NFUYRL PBEARYY - FYVG UVJ",
+        "K:JVARFNC YA & TENAAL FZVGU YA",
+        "QNGR:8/30/2014",
+        "GVZR:13:58:06");
+
+    qbGrfg("G39",
+        "(PNQ Cntr) 14-411756\a" +
+        " | Fdhnq Pnyy\a" +
+        "255 ENLZBAQ QE\a" +
+        "75 L/B ZNYR PUNATR VA ZRAGNY FGNGHF\a" +
+        "K bs QBHTYNF NIR & FNAQF NIR\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/30/2014@05:24:45",
+
+        "VQ:14-411756",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:255 ENLZBAQ QE",
+        "VASB:75 L/B ZNYR PUNATR VA ZRAGNY FGNGHF",
+        "K:QBHTYNF NIR & FNAQF NIR",
+        "QNGR:8/30/2014",
+        "GVZR:05:24:45");
+
+    qbGrfg("G40",
+        "(PNQ Cntr) 14-411738\a" +
+        " | Fdhnq Pnyy\a" +
+        "2404 ZVAARFBGN FG\a" +
+        "FDHNQ PNYY/ SRZNYR 27 L/B J/ FCVAROVSVQN/ CBFF PUBXVAT\a" +
+        "K bs OHRAN NIR & TENANQN NIR\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/29/2014@21:49:40",
+
+        "VQ:14-411738",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:2404 ZVAARFBGN FG",
+        "VASB:FDHNQ PNYY/ SRZNYR 27 L/B J/ FCVAROVSVQN/ CBFF PUBXVAT",
+        "K:OHRAN NIR & TENANQN NIR",
+        "QNGR:8/29/2014",
+        "GVZR:21:49:40");
+
+    qbGrfg("G41",
+        "(PNQ Cntr) 14-411713\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "428 BKSBEQ FGNGR EQ\a" +
+        "OYHR PURIL FHVYOIRENQB - CNFFRQ BHG 41 LB \a" +
+        "K bs YBPHFG FG & ZNVA FG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: XEBTRE\a" +
+        "Gvzr Bhg: 8/29/2014@16:07:52",
+
+        "VQ:14-411713",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:428 BKSBEQ FGNGR EQ",
+        "VASB:OYHR PURIL FHVYOIRENQB - CNFFRQ BHG 41 LB",
+        "K:YBPHFG FG & ZNVA FG",
+        "CYNPR:XEBTRE",
+        "QNGR:8/29/2014",
+        "GVZR:16:07:52");
+
+    qbGrfg("G42",
+        "(PNQ Cntr) 14-411689\a" +
+        " | Fdhnq Pnyy\a" +
+        "342 BYQ FG HAVG N\a" +
+        "SRZNYR55L/B PBCQ CNGVRAG/ IBZVGGVAT OYBBQ\a" +
+        "K bs PBZZHAVGL CNEX & PBZZHAVGL CNEX\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/29/2014@04:49:59",
+
+        "VQ:14-411689",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:342 BYQ FG",
+        "NCG:N",
+        "VASB:SRZNYR55L/B PBCQ CNGVRAG/ IBZVGGVAT OYBBQ",
+        "K:PBZZHAVGL CNEX & PBZZHAVGL CNEX",
+        "QNGR:8/29/2014",
+        "GVZR:04:49:59");
+
+    qbGrfg("G43",
+        "(PNQ Cntr) 14-411654\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "5873 UNZ ZVQQ EQ\a" +
+        "FVPX GB QVMML - UVTU OYBBQ CERFFHER \a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: WREEL PBHPU/PBHPUF PNZCREF\a" +
+        "Gvzr Bhg: 8/28/2014@14:56:02",
+
+        "VQ:14-411654",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:5873 UNZ ZVQQ EQ",
+        "ZNQQE:5873 UNZVYGBA ZVQQYRGBJA EQ",
+        "VASB:FVPX GB QVMML - UVTU OYBBQ CERFFHER",
+        "CYNPR:WREEL PBHPU/PBHPUF PNZCREF",
+        "QNGR:8/28/2014",
+        "GVZR:14:56:02");
+
+    qbGrfg("G44",
+        "(PNQ Cntr) 14-411653\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "1201 YBTVFGVPF JNL\a" +
+        "ZNYR 40 OEBXRA NEZ - SEBAG \a" +
+        "K bs QRNQ RAQ & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: OYHR OHSSNYB\a" +
+        "Gvzr Bhg: 8/28/2014@14:04:36",
+
+        "VQ:14-411653",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:1201 YBTVFGVPF JNL",
+        "VASB:ZNYR 40 OEBXRA NEZ - SEBAG",
+        "K:QRNQ RAQ",
+        "CYNPR:OYHR OHSSNYB",
+        "QNGR:8/28/2014",
+        "GVZR:14:04:36");
+
+    qbGrfg("G45",
+        "(PNQ Cntr) 14-411651\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "669 OEVGGBA YA\a" +
+        "ZRQVPNY NVQ/78/L/B/S \a" +
+        "K bs QRARRA NIR & PNAGREOHEL PG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: JVYYVNZ\a" +
+        "Gvzr Bhg: 8/28/2014@13:50:56",
+
+        "VQ:14-411651",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:669 OEVGGBA YA",
+        "VASB:ZRQVPNY NVQ/78/L/B/S",
+        "K:QRARRA NIR & PNAGREOHEL PG",
+        "CYNPR:JVYYVNZ",
+        "QNGR:8/28/2014",
+        "GVZR:13:50:56");
+
+    qbGrfg("G46",
+        "(PNQ Cntr) 14-411634\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "945 R TNEIRE EQ\a" +
+        "ZRQVPNY NVQ/CREFBA VA TRARENY CNVA\a" +
+        "K bs 2 AQ PHEIR & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/28/2014@06:41:27",
+
+        "VQ:14-411634",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:945 R TNEIRE EQ",
+        "VASB:ZRQVPNY NVQ/CREFBA VA TRARENY CNVA",
+        "K:2 AQ PHEIR",
+        "QNGR:8/28/2014",
+        "GVZR:06:41:27");
+
+    qbGrfg("G47",
+        "(PNQ Cntr) 14-411620\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "454 ZNVAEVAT NIR\a" +
+        "ZRQVPNY NVQ\a" +
+        "K bs WNPBOF & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/28/2014@00:06:48",
+
+        "VQ:14-411620",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:454 ZNVAEVAT NIR",
+        "VASB:ZRQVPNY NVQ",
+        "K:WNPBOF",
+        "QNGR:8/28/2014",
+        "GVZR:00:06:48");
+
+    qbGrfg("G48",
+        "(PNQ Cntr) 14-411591\a" +
+        " | Nppvqrag-Jvgu Vawhevrf\a" +
+        "UNZ ZVQQ EQ@EBPURFGRE UVYYF QE\a" +
+        "NPPVQRAG-JVGU VAWHEVRF\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/27/2014@13:49:25",
+
+        "VQ:14-411591",
+        "PNYY:Nppvqrag-Jvgu Vawhevrf",
+        "NQQE:UNZ ZVQQ EQ & EBPURFGRE UVYYF QE",
+        "ZNQQE:UNZVYGBA ZVQQYRGBJA EQ & EBPURFGRE UVYYF QE",
+        "VASB:NPPVQRAG-JVGU VAWHEVRF",
+        "QNGR:8/27/2014",
+        "GVZR:13:49:25");
+
+    qbGrfg("G49",
+        "(PNQ Cntr) 14-411587\a" +
+        " | Gursg Pnyy\a" +
+        "705 OHRAN NIR\a" +
+        "CEVBE GURSG: PNYYRE WHFG ABGVPRQ GUNG URE OBLSEVRAQF ZBGBEPLPYR UNF ORRA FGBYRA \a" +
+        "K bs ZVAARFBGN FG & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/27/2014@12:57:03",
+
+        "VQ:14-411587",
+        "PNYY:Gursg Pnyy",
+        "NQQE:705 OHRAN NIR",
+        "VASB:CEVBE GURSG: PNYYRE WHFG ABGVPRQ GUNG URE OBLSEVRAQF ZBGBEPLPYR UNF ORRA FGBYRA",
+        "K:ZVAARFBGN FG",
+        "QNGR:8/27/2014",
+        "GVZR:12:57:03");
+
+    qbGrfg("G50",
+        "(PNQ Cntr) 14-411592\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "1 ONYSBEQ PG\a" +
+        "SRZ 38 LB NOQBZVANY CNVA \a" +
+        "K bs PENAOEBBX QE & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/27/2014@14:13:34",
+
+        "VQ:14-411592",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:1 ONYSBEQ PG",
+        "VASB:SRZ 38 LB NOQBZVANY CNVA",
+        "K:PENAOEBBX QE",
+        "QNGR:8/27/2014",
+        "GVZR:14:13:34");
+
+    qbGrfg("G51",
+        "(PNQ Cntr) 14-411574\a" +
+        " | Fdhnq Pnyy\a" +
+        "1 ZVQQYRGBJA\a" +
+        "ZRQVPNY NVQ - 751 XRAFVATGBA - QVSS OERNGUVAT\a" +
+        "K bs ZVQQYRGBJA & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/27/2014@10:30:08",
+
+        "VQ:14-411574",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:1 ZVQQYRGBJA",
+        "VASB:ZRQVPNY NVQ - 751 XRAFVATGBA - QVSS OERNGUVAT",
+        "K:ZVQQYRGBJA",
+        "QNGR:8/27/2014",
+        "GVZR:10:30:08");
+
+    qbGrfg("G52",
+        "(PNQ Cntr) 14-411568\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "6086 INYYRLOEBBX QE\a" +
+        "ZRQVPNY NVQ - CBFF FGEBXR BE URNEG CEBOYRZ - PNAG JNYX BE FGNAQ\a" +
+        "K bs BNXYNJA QE & UBYYLOEBBX QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/27/2014@09:04:28",
+
+        "VQ:14-411568",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:6086 INYYRLOEBBX QE",
+        "VASB:ZRQVPNY NVQ - CBFF FGEBXR BE URNEG CEBOYRZ - PNAG JNYX BE FGNAQ",
+        "K:BNXYNJA QE & UBYYLOEBBX QE",
+        "QNGR:8/27/2014",
+        "GVZR:09:04:28");
+
+    qbGrfg("G53",
+        "(PNQ Cntr) 14-411559\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "3500 FNYMZNA EQ\a" +
+        "ZNYR YBJ OYBBQ FHTNE - 2AQ SYBBE RAGRE RZRETRAPL QBBE\a" +
+        "K bs QRNQ RAQ & UNZ YRO EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: XBUYF QVFGEVOHGVBA PRAGRE\a" +
+        "Gvzr Bhg: 8/27/2014@06:45:24",
+
+        "VQ:14-411559",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:3500 FNYMZNA EQ",
+        "VASB:ZNYR YBJ OYBBQ FHTNE - 2AQ SYBBE RAGRE RZRETRAPL QBBE",
+        "K:QRNQ RAQ & UNZ YRO EQ",
+        "CYNPR:XBUYF QVFGEVOHGVBA PRAGRE",
+        "QNGR:8/27/2014",
+        "GVZR:06:45:24");
+
+    qbGrfg("G54",
+        "(PNQ Cntr) 14-411556\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "5414 UNAXVAF EQ\a" +
+        "ZRQVPNY NVQ\a" +
+        "K bs YFIY JRFG PURFGRE EQ & PEBFFVATF OYIQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: UNJGUBEA TYRA\a" +
+        "Gvzr Bhg: 8/27/2014@03:35:16",
+
+        "VQ:14-411556",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:5414 UNAXVAF EQ",
+        "VASB:ZRQVPNY NVQ",
+        "K:YFIY JRFG PURFGRE EQ & PEBFFVATF OYIQ",
+        "CYNPR:UNJGUBEA TYRA",
+        "QNGR:8/27/2014",
+        "GVZR:03:35:16");
+
+    qbGrfg("G55",
+        "(PNQ Cntr) 14-411550\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "2072 NCCYRXABYY YA\a" +
+        "ZRQVPNY NVQ\a" +
+        "K bs PHY QR FNP & JVARFNC YA\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/27/2014@01:27:19",
+
+        "VQ:14-411550",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:2072 NCCYRXABYY YA",
+        "VASB:ZRQVPNY NVQ",
+        "K:PHY QR FNP & JVARFNC YA",
+        "QNGR:8/27/2014",
+        "GVZR:01:27:19");
+
+    qbGrfg("G56",
+        "(PNQ Cntr) 14-411528\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "669 OEVGGBA YA\a" +
+        "ZRQVPNY NVQ\a" +
+        "K bs QRARRA NIR & PNAGREOHEL PG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: JVYYVNZ\a" +
+        "Gvzr Bhg: 8/26/2014@18:05:24",
+
+        "VQ:14-411528",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:669 OEVGGBA YA",
+        "VASB:ZRQVPNY NVQ",
+        "K:QRARRA NIR & PNAGREOHEL PG",
+        "CYNPR:JVYYVNZ",
+        "QNGR:8/26/2014",
+        "GVZR:18:05:24");
+
+    qbGrfg("G57",
+        "(PNQ Cntr) 14-411526\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "1 ZVQQYRGBJA\a" +
+        "ZRQVPNY NVQ - ZVQQYRGBJA ZN - QVSS OERNGUVAT\a" +
+        "K bs ZVQQYRGBJA & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/26/2014@17:40:06",
+
+        "VQ:14-411526",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:1 ZVQQYRGBJA",
+        "VASB:ZRQVPNY NVQ - ZVQQYRGBJA ZN - QVSS OERNGUVAT",
+        "K:ZVQQYRGBJA",
+        "QNGR:8/26/2014",
+        "GVZR:17:40:06");
+
+    qbGrfg("G58",
+        "(PNQ Cntr) 14-411520\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "3100 F ZNVA FG\a" +
+        "FHTNE UVTU - ZNYR 35 LB \a" +
+        "K bs  & \a" +
+        "Ybp Vasb: UNMNEQF\a" +
+        "Bjare: ZVQQYRGBJA CNIVYVBA\a" +
+        "Gvzr Bhg: 8/26/2014@13:55:24",
+
+        "VQ:14-411520",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:3100 F ZNVA FG",
+        "VASB:FHTNE UVTU - ZNYR 35 LB / UNMNEQF",
+        "CYNPR:ZVQQYRGBJA CNIVYVBA",
+        "QNGR:8/26/2014",
+        "GVZR:13:55:24");
+
+    qbGrfg("G59",
+        "(PNQ Cntr) 14-411516\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "1924 ZVPURYYR YA\a" +
+        "CBFF FGEBXR - 69 LB ZNYR \a" +
+        "K bs XRYFRL GENVY & UNVYRL YA\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/26/2014@12:46:20",
+
+        "VQ:14-411516",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:1924 ZVPURYYR YA",
+        "VASB:CBFF FGEBXR - 69 LB ZNYR",
+        "K:XRYFRL GENVY & UNVYRL YA",
+        "QNGR:8/26/2014",
+        "GVZR:12:46:20");
+
+    qbGrfg("G60",
+        "(PNQ Cntr) 14-411512\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "669 OEVGGBA YA\a" +
+        "VAWHERQ SEBZ N SNYY 78 LB SNYY \a" +
+        "K bs QRARRA NIR & PNAGREOHEL PG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: JVYYVNZ\a" +
+        "Gvzr Bhg: 8/26/2014@11:45:29",
+
+        "VQ:14-411512",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:669 OEVGGBA YA",
+        "VASB:VAWHERQ SEBZ N SNYY 78 LB SNYY",
+        "K:QRARRA NIR & PNAGREOHEL PG",
+        "CYNPR:JVYYVNZ",
+        "QNGR:8/26/2014",
+        "GVZR:11:45:29");
+
+    qbGrfg("G61",
+        "(PNQ Cntr) 14-411510\a" +
+        " | Fdhnq Pnyy\a" +
+        "233 F ZNVA FG\a" +
+        "FDHNQ PNYY\a" +
+        "K bs PUHEPU FG & YRONABA FG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: ZBAEBR CQ\a" +
+        "Gvzr Bhg: 8/26/2014@10:46:20",
+
+        "VQ:14-411510",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:233 F ZNVA FG",
+        "VASB:FDHNQ PNYY",
+        "K:PUHEPU FG & YRONABA FG",
+        "CYNPR:ZBAEBR CQ",
+        "QNGR:8/26/2014",
+        "GVZR:10:46:20");
+
+    qbGrfg("G62",
+        "(PNQ Cntr) 14-411493\a" +
+        "Erfvqragvny Fgehpgher sver | Sver Pnyy\a" +
+        "V 75@ERFG NERN\a" +
+        "ERFVQRAGVNY FGEHPGHER SVER\a" +
+        "K bs  & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/26/2014@04:27:47",
+
+        "VQ:14-411493",
+        "PNYY:Erfvqragvny Fgehpgher sver - Sver Pnyy",
+        "NQQE:V 75 & ERFG NERN",
+        "VASB:ERFVQRAGVNY FGEHPGHER SVER",
+        "QNGR:8/26/2014",
+        "GVZR:04:27:47");
+
+    qbGrfg("G63",
+        "(PNQ Cntr) 14-411483\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "3100 YBPHFG FG\a" +
+        "ZRQVPNY NVQ\a" +
+        "K bs ZNAVGRR FG & FGNGBA FG\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/25/2014@23:04:21",
+
+        "VQ:14-411483",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:3100 YBPHFG FG",
+        "VASB:ZRQVPNY NVQ",
+        "K:ZNAVGRR FG & FGNGBA FG",
+        "QNGR:8/25/2014",
+        "GVZR:23:04:21");
+
+    qbGrfg("G64",
+        "(PNQ Cntr) 14-411476\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "1 ONYSBEQ PG\a" +
+        "ZRQVPNY NVQ/38 L/0/S FUBEGARFF BS OERNGU NOQBZVANY CNVA\a" +
+        "K bs PENAOEBBX QE & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/25/2014@20:01:18",
+
+        "VQ:14-411476",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:1 ONYSBEQ PG",
+        "VASB:ZRQVPNY NVQ/38 L/0/S FUBEGARFF BS OERNGU NOQBZVANY CNVA",
+        "K:PENAOEBBX QE",
+        "QNGR:8/25/2014",
+        "GVZR:20:01:18");
+
+    qbGrfg("G65",
+        "(PNQ Cntr) 14-411473\a" +
+        " | Fhvpvqr be Nggrzcg\a" +
+        "456 ZNVAEVAT NIR\a" +
+        "FHVPVQR BE NGGRZCG\a" +
+        "K bs WNPBOF & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/25/2014@18:50:30",
+
+        "VQ:14-411473",
+        "PNYY:Fhvpvqr be Nggrzcg",
+        "NQQE:456 ZNVAEVAT NIR",
+        "VASB:FHVPVQR BE NGGRZCG",
+        "K:WNPBOF",
+        "QNGR:8/25/2014",
+        "GVZR:18:50:30");
+
+    qbGrfg("G66",
+        "(PNQ Cntr) 14-411472\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "210 ZBHAG CYRNFNAG QE HAVG 117\a" +
+        "YVSG NFFVFG\a" +
+        "K bs ABEGUJRFGREA NIR & FRZVANEL QE\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/25/2014@18:39:44",
+
+        "VQ:14-411472",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:210 ZBHAG CYRNFNAG QE",
+        "NCG:117",
+        "VASB:YVSG NFFVFG",
+        "K:ABEGUJRFGREA NIR & FRZVANEL QE",
+        "QNGR:8/25/2014",
+        "GVZR:18:39:44");
+
+    qbGrfg("G67",
+        "(PNQ Cntr) 14-411471\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "0 BYQ BKSBEQ FGNGR EQ\a" +
+        "FHOWRPG VA GUR JNGRE/SEVRAQ UNFA'G FRRA UVZ VA 8-9 ZVAF\a" +
+        "K bs  & BKSBEQ FGNGR EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/25/2014@18:31:09",
+
+        "VQ:14-411471",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:BYQ BKSBEQ FGNGR EQ",
+        "ZNQQE:BYQ BKSBEQ FGNGR EQ & BKSBEQ FGNGR EQ",
+        "VASB:FHOWRPG VA GUR JNGRE/SEVRAQ UNFA'G FRRA UVZ VA 8-9 ZVAF",
+        "K:BKSBEQ FGNGR EQ",
+        "QNGR:8/25/2014",
+        "GVZR:18:31:09");
+
+    qbGrfg("G68",
+        "(PNQ Cntr) 14-411470\a" +
+        "Unmneqbhf zngrevny fvghngvba | Sver Pnyy\a" +
+        "23 ARJ TNEIRE EQ\a" +
+        "S-150 YRNXVAT SHRY VA GUR ONPX YBG\a" +
+        "K bs UNZ YRO EQ & TNEIRE EQ\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: FCRRQJNL\a" +
+        "Gvzr Bhg: 8/25/2014@18:01:28",
+
+        "VQ:14-411470",
+        "PNYY:Unmneqbhf zngrevny fvghngvba - Sver Pnyy",
+        "NQQE:23 ARJ TNEIRE EQ",
+        "VASB:S-150 YRNXVAT SHRY VA GUR ONPX YBG",
+        "K:UNZ YRO EQ & TNEIRE EQ",
+        "CYNPR:FCRRQJNL",
+        "QNGR:8/25/2014",
+        "GVZR:18:01:28");
+
+    qbGrfg("G69",
+        "(PNQ Cntr) 14-411463\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "3033 UREVGNTR TERRA QE\a" +
+        "RYQREYL ZNYR QBJA VA GUR CNEXVAT YBG/UK BS URNEG CEBOYRZF\a" +
+        "K bs UNZ YRO EQ & ZNPERNQL NIR\a" +
+        "Ybp Vasb: \a" +
+        "Bjare: XEBTRE\a" +
+        "Gvzr Bhg: 8/25/2014@12:13:21",
+
+        "VQ:14-411463",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:3033 UREVGNTR TERRA QE",
+        "VASB:RYQREYL ZNYR QBJA VA GUR CNEXVAT YBG/UK BS URNEG CEBOYRZF",
+        "K:UNZ YRO EQ & ZNPERNQL NIR",
+        "CYNPR:XEBTRE",
+        "QNGR:8/25/2014",
+        "GVZR:12:13:21");
+
+    qbGrfg("G70",
+        "(PNQ Cntr) 14-411460\a" +
+        "Pbzzrepvny Sver nynez | Sver Nynez\a" +
+        "102 CERZVHZ BHGYRG QE\a" +
+        "PBZZREPVNY SVER NYNEZ/TRARENY NPGVINGVBA\a" +
+        "K bs JX EBOVAFBA QE & \a" +
+        "Ybp Vasb: \a" +
+        "Bjare: YBSG BHGYRG\a" +
+        "Gvzr Bhg: 8/25/2014@10:50:08",
+
+        "VQ:14-411460",
+        "PNYY:Pbzzrepvny Sver nynez - Sver Nynez",
+        "NQQE:102 CERZVHZ BHGYRG QE",
+        "VASB:PBZZREPVNY SVER NYNEZ/TRARENY NPGVINGVBA",
+        "K:JX EBOVAFBA QE",
+        "CYNPR:YBSG BHGYRG",
+        "QNGR:8/25/2014",
+        "GVZR:10:50:08");
+
+    qbGrfg("G71",
+        "(PNQ Cntr) 14-411445\a" +
+        " | Nppvqrag-Jvgu Vawhevrf\a" +
+        "V 75@EG 129\a" +
+        "NPPVQRAG-JVGU VAWHEVRF\a" +
+        "K bs  |& \a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/25/2014@04:48:01",
+
+        "VQ:14-411445",
+        "PNYY:Nppvqrag-Jvgu Vawhevrf",
+        "NQQE:V 75 & EG 129",
+        "VASB:NPPVQRAG-JVGU VAWHEVRF / <NYREG<SVERPBQR>1><9>,",
+        "QNGR:8/25/2014",
+        "GVZR:04:48:01");
+
+    qbGrfg("G72",
+        "(PNQ Cntr) 14-411429\a" +
+        "Sver Vairfgvtngvba | Sver Pnyy\a" +
+        "UNZ ZVQQ EQ@NCCYRXABYY YA\a" +
+        "SVER VAIRFGVTNGVBA\a" +
+        "K bs  |& \a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/24/2014@22:19:15",
+
+        "VQ:14-411429",
+        "PNYY:Sver Vairfgvtngvba - Sver Pnyy",
+        "NQQE:UNZ ZVQQ EQ & NCCYRXABYY YA",
+        "ZNQQE:UNZVYGBA ZVQQYRGBJA EQ & NCCYRXABYY YA",
+        "VASB:SVER VAIRFGVTNGVBA / <NYREG<SVERPBQR>1><9>,",
+        "QNGR:8/24/2014",
+        "GVZR:22:19:15");
+
+    qbGrfg("G73",
+        "(PNQ Cntr) 14-411422\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "669 OEVGGBA YA\a" +
+        "ZRQVPNY NYNEZ/78 L/B SRZNYR ERFVQRAG/NYNEZ PB ERPRVIVAT AB ERFCBAFR BIRE GUR NYNEZ HAVG BE CUBAR\a" +
+        "K bs QRARRA NIR |& PNAGREOHEL PG\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: JVYYVNZ\a" +
+        "Gvzr Bhg: 8/24/2014@19:10:08",
+
+        "VQ:14-411422",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:669 OEVGGBA YA",
+        "VASB:ZRQVPNY NYNEZ/78 L/B SRZNYR ERFVQRAG/NYNEZ PB ERPRVIVAT AB ERFCBAFR BIRE GUR NYNEZ HAVG BE CUBAR / <NYREG<SVERPBQR>1><9>,",
+        "K:QRARRA NIR & PNAGREOHEL PG",
+        "CYNPR:JVYYVNZ",
+        "QNGR:8/24/2014",
+        "GVZR:19:10:08");
+
+    qbGrfg("G74",
+        "(PNQ Cntr) 14-411417\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "225 OEVGGBA YA\a" +
+        "ERUNO HAVG EZ 110/ZNYR ERFVQRAG UNIVAT QVSSVPHYGL OERNGUVAT\a" +
+        "K bs ZG CYRNFNAG UBZR |& GRAARFFRR NIR\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: ZBHAG CYRNFNAG ERGVERZRAG IVYYNT\a" +
+        "Gvzr Bhg: 8/24/2014@17:47:54",
+
+        "VQ:14-411417",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:225 OEVGGBA YA",
+        "VASB:ERUNO HAVG EZ 110/ZNYR ERFVQRAG UNIVAT QVSSVPHYGL OERNGUVAT / <NYREG<SVERPBQR>1><9>,",
+        "K:ZG CYRNFNAG UBZR & GRAARFFRR NIR",
+        "CYNPR:ZBHAG CYRNFNAG ERGVERZRAG IVYYNT",
+        "QNGR:8/24/2014",
+        "GVZR:17:47:54");
+
+    qbGrfg("G75",
+        "(PNQ Cntr) 14-411415\a" +
+        "Erfvqragvny Sver nynez | Sver Nynez\a" +
+        "980 ERQ SBK PG\a" +
+        "ERFVQRAGVNY SVER NYNEZ/FZBXR QRGRPGBE NPGVINGVBA\a" +
+        "K bs ENAQL YA |& PHY QR FNP\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/24/2014@17:10:43",
+
+        "VQ:14-411415",
+        "PNYY:Erfvqragvny Sver nynez - Sver Nynez",
+        "NQQE:980 ERQ SBK PG",
+        "VASB:ERFVQRAGVNY SVER NYNEZ/FZBXR QRGRPGBE NPGVINGVBA / <NYREG<SVERPBQR>1><9>,",
+        "K:ENAQL YA & PHY QR FNP",
+        "QNGR:8/24/2014",
+        "GVZR:17:10:43");
+
+    qbGrfg("G76",
+        "(PNQ Cntr) 14-411405\a" +
+        " | Nppvqrag-Jvgu Vawhevrf\a" +
+        "1225 UNZ YRO EQ\a" +
+        "NPPVQRAG-JVGU VAWHEVRF\a" +
+        "K bs V 75 |& PBEEVQBE CNEX QE\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: JNSSYR UBHFR\a" +
+        "Gvzr Bhg: 8/24/2014@12:54:44",
+
+        "VQ:14-411405",
+        "PNYY:Nppvqrag-Jvgu Vawhevrf",
+        "NQQE:1225 UNZ YRO EQ",
+        "ZNQQE:1225 UNZVYGBA YRONABA EQ",
+        "VASB:NPPVQRAG-JVGU VAWHEVRF / <NYREG<SVERPBQR>1><9>,",
+        "K:V 75 & PBEEVQBE CNEX QE",
+        "CYNPR:JNSSYR UBHFR",
+        "QNGR:8/24/2014",
+        "GVZR:12:54:44");
+
+    qbGrfg("G77",
+        "(PNQ Cntr) 14-411403\a" +
+        " | Fdhnq Pnyy\a" +
+        "6322 TERRAGERR EQ\a" +
+        "FDHNQ PNYY/SRZNYR CBFF OEBXRA YRT SEBZ N SNYY\a" +
+        "K bs ANBZV YA |& HAVBA EQ\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: TERRAGERR FGNOYRF\a" +
+        "Gvzr Bhg: 8/24/2014@11:33:01",
+
+        "VQ:14-411403",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:6322 TERRAGERR EQ",
+        "VASB:FDHNQ PNYY/SRZNYR CBFF OEBXRA YRT SEBZ N SNYY / <NYREG<SVERPBQR>1><9>,",
+        "K:ANBZV YA & HAVBA EQ",
+        "CYNPR:TERRAGERR FGNOYRF",
+        "QNGR:8/24/2014",
+        "GVZR:11:33:01");
+
+    qbGrfg("G78",
+        "(PNQ Cntr) 14-411389\a" +
+        " | Fdhnq Pnyy\a" +
+        "50 GRVY GERR PG\a" +
+        "FDHNQ PNYY/ZNXYR 16 L/B HAERFCBAFVIR\a" +
+        "K bs PHY QR FNP |& RNFGBA ZNABE QE\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: WBL NAQ PUEVF ONVYRL\a" +
+        "Gvzr Bhg: 8/24/2014@07:31:27",
+
+        "VQ:14-411389",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:50 GRVY GERR PG",
+        "VASB:FDHNQ PNYY/ZNXYR 16 L/B HAERFCBAFVIR / <NYREG<SVERPBQR>1><9>,",
+        "K:PHY QR FNP & RNFGBA ZNABE QE",
+        "CYNPR:WBL NAQ PUEVF ONVYRL",
+        "QNGR:8/24/2014",
+        "GVZR:07:31:27");
+
+    qbGrfg("G79",
+        "(PNQ Cntr) 14-411388\a" +
+        " | Fdhnq Pnyy\a" +
+        "22 VAQVNAN NIR\a" +
+        "911 UNAT HC/BA PNYYONPX AB NAFJRE/ FUBEGARFF BS OERNGU/ SRZNYR\a" +
+        "K bs GRAARFFRR NIR |& ABEGUJRFGREA NIR\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: ZC/ XVEXCNGEVPX\a" +
+        "Gvzr Bhg: 8/24/2014@06:09:18",
+
+        "VQ:14-411388",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:22 VAQVNAN NIR",
+        "VASB:911 UNAT HC/BA PNYYONPX AB NAFJRE/ FUBEGARFF BS OERNGU/ SRZNYR / <NYREG<SVERPBQR>1><9>,",
+        "K:GRAARFFRR NIR & ABEGUJRFGREA NIR",
+        "CYNPR:ZC/ XVEXCNGEVPX",
+        "QNGR:8/24/2014",
+        "GVZR:06:09:18");
+
+    qbGrfg("G80",
+        "(PNQ Cntr) 14-411376\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "230 UREVGNTR TERRA QE\a" +
+        "78 L/B ZNYR JVGU UK BS PBCQ UNIVAT QVSSVPHYGL OERNGUVAT NAQ RYRINGRQ URNEG ENGR\a" +
+        "K bs TNGR UBHFR PG |& YNXRFUBER QE\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/23/2014@23:11:50",
+
+        "VQ:14-411376",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:230 UREVGNTR TERRA QE",
+        "VASB:78 L/B ZNYR JVGU UK BS PBCQ UNIVAT QVSSVPHYGL OERNGUVAT NAQ RYRINGRQ URNEG ENGR / <NYREG<SVERPBQR>1><9>,",
+        "K:TNGR UBHFR PG & YNXRFUBER QE",
+        "QNGR:8/23/2014",
+        "GVZR:23:11:50");
+
+    qbGrfg("G81",
+        "(PNQ Cntr) 14-411366\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "3100 F ZNVA FG\a" +
+        "ZNYR ERFVQRAG JVGU RYRINGRQ OYBBQ FHTNE\a" +
+        "K bs QVNZBAQ YBBC |& BKSBEQ FGNGR EQ\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: ZVQQYRGBJA CNIVYVBA\a" +
+        "Gvzr Bhg: 8/23/2014@21:06:38",
+
+        "VQ:14-411366",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:3100 F ZNVA FG",
+        "VASB:ZNYR ERFVQRAG JVGU RYRINGRQ OYBBQ FHTNE / <NYREG<SVERPBQR>1><9>,",
+        "K:QVNZBAQ YBBC & BKSBEQ FGNGR EQ",
+        "CYNPR:ZVQQYRGBJA CNIVYVBA",
+        "QNGR:8/23/2014",
+        "GVZR:21:06:38");
+
+    qbGrfg("G82",
+        "(PNQ Cntr) 14-411357\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "468 NQYRE NIR\a" +
+        "ZRQVPNY NYNEZ SEBZ GUR ERFVQRAPR/ERFVQRAG UNF UK BS PUS, FRVMHERF, CNEXVAFBAF NAQ YHAT PNAPRE/AB PBAGNPG PBHYQ OR ZNQR OL NYNEZ PB\a" +
+        "K bs ONVYRL |& WNPBOF FG\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/23/2014@18:12:54",
+
+        "VQ:14-411357",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:468 NQYRE NIR",
+        "VASB:ZRQVPNY NYNEZ SEBZ GUR ERFVQRAPR/ERFVQRAG UNF UK BS PUS, FRVMHERF, CNEXVAFBAF NAQ YHAT PNAPRE/AB PBAGNPG PBHYQ OR ZNQR OL NYNEZ PB / <NYREG<SVERPBQR>1><9>,",
+        "K:ONVYRL & WNPBOF FG",
+        "QNGR:8/23/2014",
+        "GVZR:18:12:54");
+
+    qbGrfg("G83",
+        "(PNQ Cntr) 14-411344\a" +
+        " | Fdhnq Pnyy\a" +
+        "225 OEVGGBA YA\a" +
+        "FDHNQ PNYY/NAQRE 251/ SRZNYR J/ NQOQBZVANY CNVA\a" +
+        "K bs ZG CYRNFNAG UBZR |& GRAARFFRR NIR\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: ZBHAG CYRNFNAG ERGVERZRAG IVYYNT\a" +
+        "Gvzr Bhg: 8/23/2014@12:19:14",
+
+        "VQ:14-411344",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:225 OEVGGBA YA",
+        "VASB:FDHNQ PNYY/NAQRE 251/ SRZNYR J/ NQOQBZVANY CNVA / <NYREG<SVERPBQR>1><9>,",
+        "K:ZG CYRNFNAG UBZR & GRAARFFRR NIR",
+        "CYNPR:ZBHAG CYRNFNAG ERGVERZRAG IVYYNT",
+        "QNGR:8/23/2014",
+        "GVZR:12:19:14");
+
+    qbGrfg("G84",
+        "(PNQ Cntr) 14-411341\a" +
+        " | Fdhnq Pnyy\a" +
+        "500 FRZVANEL QE\a" +
+        "TNENTR/ YVSG NFFG\a" +
+        "K bs QRNQ RAQ |& CNKGBA PVE\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: ZBHAG CYRNFNAG PBAQBZVAVHZF\a" +
+        "Gvzr Bhg: 8/23/2014@11:18:04",
+
+        "VQ:14-411341",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:500 FRZVANEL QE",
+        "VASB:TNENTR/ YVSG NFFG / <NYREG<SVERPBQR>1><9>,",
+        "K:QRNQ RAQ & CNKGBA PVE",
+        "CYNPR:ZBHAG CYRNFNAG PBAQBZVAVHZF",
+        "QNGR:8/23/2014",
+        "GVZR:11:18:04");
+
+    qbGrfg("G85",
+        "(PNQ Cntr) 14-411338\a" +
+        " | Fdhnq Pnyy\a" +
+        "225 OEVGGBA YA\a" +
+        "Q26 NFG YVIVAT-GAA NIR/ URNEG SNVYHER\a" +
+        "K bs ZG CYRNFNAG UBZR |& GRAARFFRR NIR\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: ZBHAG CYRNFNAG ERGVERZRAG IVYYNT\a" +
+        "Gvzr Bhg: 8/23/2014@10:41:44",
+
+        "VQ:14-411338",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:225 OEVGGBA YA",
+        "VASB:Q26 NFG YVIVAT-GAA NIR/ URNEG SNVYHER / <NYREG<SVERPBQR>1><9>,",
+        "K:ZG CYRNFNAG UBZR & GRAARFFRR NIR",
+        "CYNPR:ZBHAG CYRNFNAG ERGVERZRAG IVYYNT",
+        "QNGR:8/23/2014",
+        "GVZR:10:41:44");
+
+    qbGrfg("G86",
+        "(PNQ Cntr) 14-411336\a" +
+        " | Fdhnq Pnyy\a" +
+        "3100 F ZNVA FG\a" +
+        "FDHNQ PNYY/ SRZNYR 61 L/B ERNPGVBA GB ZRQF\a" +
+        "K bs  |& \a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: ZVQQYRGBJA CNIVYVBA\a" +
+        "Gvzr Bhg: 8/23/2014@10:02:10",
+
+        "VQ:14-411336",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:3100 F ZNVA FG",
+        "VASB:FDHNQ PNYY/ SRZNYR 61 L/B ERNPGVBA GB ZRQF / <NYREG<SVERPBQR>1><9>,",
+        "CYNPR:ZVQQYRGBJA CNIVYVBA",
+        "QNGR:8/23/2014",
+        "GVZR:10:02:10");
+
+    qbGrfg("G87",
+        "(PNQ Cntr) 14-411326\a" +
+        " | Fdhnq Pnyy\a" +
+        "7165 PNEFBA EQ\a" +
+        "FDHNQ PNYY 50 L/B SRZNYR QVNORGVP/ HAERFCBAFVIR\a" +
+        "K bs PVGL YVZVGF |& LNAXRR EQ\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/23/2014@07:03:10",
+
+        "VQ:14-411326",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:7165 PNEFBA EQ",
+        "VASB:FDHNQ PNYY 50 L/B SRZNYR QVNORGVP/ HAERFCBAFVIR / <NYREG<SVERPBQR>1><9>,",
+        "K:PVGL YVZVGF & LNAXRR EQ",
+        "QNGR:8/23/2014",
+        "GVZR:07:03:10");
+
+    qbGrfg("G88",
+        "(PNQ Cntr) 14-411324\a" +
+        " | Fdhnq Pnyy\a" +
+        "3100 F ZNVA FG\a" +
+        "78 L/B SRZNYR QVFBEVRAGRQ/ FYHEERQ FCRRPU\a" +
+        "K bs  |& \a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: ZVQQYRGBJA CNIVYVBA\a" +
+        "Gvzr Bhg: 8/23/2014@05:53:41",
+
+        "VQ:14-411324",
+        "PNYY:Fdhnq Pnyy",
+        "NQQE:3100 F ZNVA FG",
+        "VASB:78 L/B SRZNYR QVFBEVRAGRQ/ FYHEERQ FCRRPU / <NYREG<SVERPBQR>1><9>,",
+        "CYNPR:ZVQQYRGBJA CNIVYVBA",
+        "QNGR:8/23/2014",
+        "GVZR:05:53:41");
+
+    qbGrfg("G89",
+        "(PNQ Cntr) 14-411323\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "6086 INYYRLOEBBX QE\a" +
+        "ZRQVPNY NVQ\a" +
+        "K bs BNXYNJA QE |& UBYYLOEBBX QE\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/23/2014@05:17:41",
+
+        "VQ:14-411323",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:6086 INYYRLOEBBX QE",
+        "VASB:ZRQVPNY NVQ / <NYREG<SVERPBQR>1><9>,",
+        "K:BNXYNJA QE & UBYYLOEBBX QE",
+        "QNGR:8/23/2014",
+        "GVZR:05:17:41");
+
+    qbGrfg("G90",
+        "(PNQ Cntr) 14-411316\a" +
+        "Zrqvpny Nvq | 911 unat hc pnyy\a" +
+        "2703 F ZNVA FG\a" +
+        "911 UNAT HC PNYY SEBZ ZNVA OHFVARFF CUBAR 424-0276\a" +
+        "K bs  |& \a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: ZNVA ONE\a" +
+        "Gvzr Bhg: 8/23/2014@01:37:41",
+
+        "VQ:14-411316",
+        "PNYY:Zrqvpny Nvq - 911 unat hc pnyy",
+        "NQQE:2703 F ZNVA FG",
+        "VASB:911 UNAT HC PNYY SEBZ ZNVA OHFVARFF CUBAR 424-0276 / <NYREG<SVERPBQR>1><9>,",
+        "CYNPR:ZNVA ONE",
+        "QNGR:8/23/2014",
+        "GVZR:01:37:41");
+
+    qbGrfg("G91",
+        "(PNQ Cntr) 14-411311\a" +
+        "Zrqvpny Nvq | \a" +
+        "3100 F ZNVA FG\a" +
+        "NFFVFG PEVFVF JBEXRE ERS GB PYNL PBEAJRYY\a" +
+        "K bs  |& \a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: ZVQQYRGBJA CNIVYVBA\a" +
+        "Gvzr Bhg: 8/22/2014@22:51:43",
+
+        "VQ:14-411311",
+        "PNYY:Zrqvpny Nvq",
+        "NQQE:3100 F ZNVA FG",
+        "VASB:NFFVFG PEVFVF JBEXRE ERS GB PYNL PBEAJRYY / <NYREG<SVERPBQR>1><9>,",
+        "CYNPR:ZVQQYRGBJA CNIVYVBA",
+        "QNGR:8/22/2014",
+        "GVZR:22:51:43");
+
+    qbGrfg("G92",
+        "(PNQ Cntr) 14-411304\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "346 BYQ FG HAVG Q\a\a" +
+        "K bs PBZZHAVGL CNEX |& PBZZHAVGL CNEX\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: \a" +
+        "Gvzr Bhg: 8/22/2014@21:17:36",
+
+        "VQ:14-411304",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:346 BYQ FG",
+        "NCG:Q",
+        "VASB:<NYREG<SVERPBQR>1><9>,",
+        "K:PBZZHAVGL CNEX & PBZZHAVGL CNEX",
+        "QNGR:8/22/2014",
+        "GVZR:21:17:36");
+
+    qbGrfg("G93",
+        "(PNQ Cntr) 14-411298\a" +
+        "Zrqvpny Nvq | Fdhnq Pnyy\a" +
+        "210 ZBHAG CYRNFNAG QE\a" +
+        "NCG 111\a" +
+        "K bs ABEGUJRFGREA NIR |& FRZVANEL QE\a" +
+        "Ybp Vasb: <NYREG<SVERPBQR>1><9>, \a" +
+        "Bjare: ZBHAG CYRNFNAG CYNPR\a" +
+        "Gvzr Bhg: 8/22/2014@19:52:21",
+
+        "VQ:14-411298",
+        "PNYY:Zrqvpny Nvq - Fdhnq Pnyy",
+        "NQQE:210 ZBHAG CYRNFNAG QE",
+        "NCG:111",
+        "VASB:<NYREG<SVERPBQR>1><9>,",
+        "K:ABEGUJRFGREA NIR & FRZVANEL QE",
+        "CYNPR:ZBHAG CYRNFNAG CYNPR",
+        "QNGR:8/22/2014",
+        "GVZR:19:52:21");
 
   }
   
