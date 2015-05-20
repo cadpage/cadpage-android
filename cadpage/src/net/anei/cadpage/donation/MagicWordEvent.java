@@ -39,6 +39,17 @@ public class MagicWordEvent extends DonateQueryEvent {
       return true;
     }
     
+    // Special words to toggle support for new/old GCM protocol
+    if (input.equalsIgnoreCase("OLDGCM")) {
+      ManagePreferences.setUseOldGcm(true);
+      return true;
+    }
+    
+    if (input.equalsIgnoreCase("NEWGCM")) {
+      ManagePreferences.setUseOldGcm(false);
+      return true;
+    }
+    
     // More special words to help roger test Testra connectivity
     if (input.equalsIgnoreCase("USB1")) {
       ManageUsb.instance().probe(activity);

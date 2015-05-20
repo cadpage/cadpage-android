@@ -48,7 +48,8 @@ Make sure you are downloading it into your Eclipse workspace.
 
 7)  Go back to eclipse and import the two Cadpage projects.
 File-> Import-> General -> Existing Projects into Workspace.
-Browse-> Workspace -> cadpage -> cadpage. click okay, and then finish.  Now do the same for cadpageTest.
+Browse-> Workspace -> cadpage -> <project>. click okay, and then finish.
+You need to do this for the google-play-services-base, google-play-services-gcm, cadpage, and cadpageTest projects.
 
 If you are just doing parsers, you won't be running much of the Android SDK, but you need the libraries to get project to compile.
 

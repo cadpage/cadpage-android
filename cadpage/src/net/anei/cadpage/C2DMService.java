@@ -1,8 +1,13 @@
 package net.anei.cadpage;
 
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
+
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GooglePlayServicesUtil;
+import com.google.android.gms.gcm.GoogleCloudMessaging;
 
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.donation.DonationManager;
@@ -17,6 +22,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.PowerManager;
 import android.os.SystemClock;
 
@@ -44,6 +50,8 @@ public class C2DMService extends IntentService {
   private static PowerManager.WakeLock sWakeLock;
 
   private static final Random RANDOM = new Random();
+  
+  private static GoogleCloudMessaging gcm = null; 
 
   public C2DMService() {
     super("C2DMService");
@@ -61,19 +69,33 @@ public class C2DMService extends IntentService {
     
     Log.v("C2DMReceiver: onReceive()");
     
-    if (ACTION_C2DM_REGISTERED.equals(intent.getAction())) {
-      handleRegistration(intent);
-    }
-    
-    else if (ACTION_C2DM_RECEIVE.equals(intent.getAction())) {
-      handleMessage(intent);
-    }
-    
-    else if (ACTION_RETRY_REGISTER.equals(intent.getAction())) {
+    if (ACTION_RETRY_REGISTER.equals(intent.getAction())) {
       retryRegisterRequest(intent);
     }
- }
+    
+    if (isNewGCMActive(this)) {
+      String type = getGCM().getMessageType(intent);
+      if (GoogleCloudMessaging.MESSAGE_TYPE_MESSAGE.equals(type)) {
+        handleMessage(intent);
+      }
+    }
+    
+    else {
+      
+      if (ACTION_C2DM_REGISTERED.equals(intent.getAction())) {
+        handleRegistration(intent);
+      }
+      
+      else if (ACTION_C2DM_RECEIVE.equals(intent.getAction())) {
+        handleMessage(intent);
+      }
+    }
+  }
 
+  /**
+   * Handle registration status intent.  These only happen with the old GCM protocol
+   * @param intent received intent
+   */
   private void handleRegistration(final Intent intent) {
     
     // Dump intent info
@@ -87,109 +109,23 @@ public class C2DMService extends IntentService {
         
         String error = intent.getStringExtra("error");
         if (error != null) {
-          Log.w("C2DM registration failed: " + error);
-          error = retryRegistration(error);
-          if (error != null) {
-            ManagePreferences.setRegistrationId(null);
-            ManagePreferences.setRegisterReqActive(false);
-            VendorManager.instance().failureC2DMId(C2DMService.this, error);
-          }
-          EmailDeveloperActivity.logSnapshot(C2DMService.this, "GCM Registration failure report");
+          registrationFailure(error);
           return;
         }
         
         String regId = intent.getStringExtra("unregistered");
         if (regId != null) {
-          Log.w("C2DM registration cancelled: " + regId);
-          ManagePreferences.setRegistrationId(null);
-          ManagePreferences.setRegisterReqActive(false);
-          VendorManager.instance().unregisterC2DMId(C2DMService.this, regId);
-          EmailDeveloperActivity.logSnapshot(C2DMService.this, "GCM Registration unregister report");
+          registrationCancelled();
           return;
         }
         
         regId = intent.getStringExtra("registration_id");
         if (regId != null) {
-          Log.w("C2DM registration succeeded: " + regId);
-          boolean change = ManagePreferences.setRegistrationId(regId);
-          ManagePreferences.setRegisterReqActive(false);
-          VendorManager.instance().registerC2DMId(C2DMService.this, change, regId);
+          registrationSuccess(regId);
           return;
         }
       }
     });
-  }
-  
-  /**
-   * Called after a registration error has been reported
-   * @param error
-   * @return error status to be reported to user or null if request
-   * has been rescheduled and no error status should be reported
-   */
-  private String retryRegistration(String error) {
-    
-    // We can only recover from the SERVICE_NOT_AVAILABLE error
-    // Lately PHONE_REGISTRATION_ERROR appears to be a recoverable error
-    // But we can at least check to make sure there is an identifiable user account
-    // Google is having problems with some systems returning AUTHENTICATION_FAILED status for unknown
-    // reasons, so we will try to generate a bug report to help them out
-    if (!error.equals("SERVICE_NOT_AVAILABLE")) {
-      if (!error.equals("PHONE_REGISTRATION_ERROR")) {
-        if (error.equals("AUTHENTICATION_FAILED")) BugReportGenerator.generate();
-        return error;
-      }
-      if (UserAcctManager.instance().getUser() == null) return "AUTHENTICATION_FAILED";
-    }
-    
-    // See if request should be rescheduled
-    int req = ManagePreferences.registerReq();
-    int delayMS = ManagePreferences.reregisterDelay();
-    if (req == 0 || delayMS == 0) return error;
-
-    // Since PHONE_REGISTRATION_ERROR isn't really recoverable, 
-    // we will give up on it when we hit the maximum delay time
-    if (delayMS == MAX_REREGISTER_DELAY && error.equals("PHONE_REGISTRATION_ERROR")) {
-      Log.v("C2DMService terminating registration retries");
-      ManagePreferences.setRegisterReq(0);
-      ManagePreferences.setReregisterDelay(0);
-      return error + "_HARD";
-    }
-    
-    // If it should compute how long to delay before reissuing the request.  Since we are
-    // potentially running in synch with thousands of other requesters trying to overload
-    // Google's server, we add a randomizing factor into the actual delay time so we don't
-    // all hit it at once.
-    int realDelayMS = delayMS/2 + RANDOM.nextInt(delayMS); 
-    Intent retryIntent = new Intent(ACTION_RETRY_REGISTER);
-    retryIntent.setClass(this, C2DMRetryReceiver.class);
-    PendingIntent retryPendingIntent = PendingIntent.getBroadcast(this, 0, retryIntent, 0);
-    AlarmManager am = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
-    am.set(AlarmManager.ELAPSED_REALTIME, SystemClock.elapsedRealtime() + realDelayMS, retryPendingIntent);
-    Log.v("Rescheduling request in " + realDelayMS + " / " + delayMS + " msecs");
-    ContentQuery.dumpIntent(retryIntent);
-    return null;
-  }
-
-  /**
-   * Called when the retry register event scheduled by retryRegistration() goes off.
-   * This is where we actually do the followup registration request
-   */
-  private void retryRegisterRequest(Intent intent) {
-    Log.w("Processing C2DM Retry request");
-    ContentQuery.dumpIntent(intent);
-
-    // Get the registration information
-    int req = ManagePreferences.registerReq();
-    int delayMS = ManagePreferences.reregisterDelay();
-    if (req == 0 || delayMS == 0) return;
-    
-    // Double the delay that will be invoked if this request also fails
-    // subject to an absolute maximum value
-    delayMS *= 2;
-    if (delayMS > MAX_REREGISTER_DELAY) delayMS = MAX_REREGISTER_DELAY;
-    
-    // Fire off the request
-    startRegisterRequest(this, req, delayMS);
   }
 
   private void handleMessage(final Intent intent) {
@@ -472,32 +408,32 @@ public class C2DMService extends IntentService {
    * Request a new C2DM registration ID
    * @param context current context
    * @param auto true if this is an automatically generated registration request
-   * @return true if register request was initiated, false if there is not
+   * @return true if register request was initiated, false if there is no
    * component to handle C2DM registrations
    */
   public static boolean register(Context context, boolean auto) {
+    Log.w("GCM Register Request");
     return startRegisterRequest(context, 1, auto);
   }
 
-  
   /**
    * Request that current C2DM registration be dropped
    * @param context current context
    */
   public static boolean unregister(Context context) {
+    Log.w("GCM Unregister request");
     ManagePreferences.setRegistrationId(null);
     boolean result = startRegisterRequest(context, 2, true);
     EmailDeveloperActivity.logSnapshot(context, "General Unregister Request");
     return result;
   }
   
-  
   /**
    * Launch initial GCM register/unregister request
    * @param context current context
    * @param reqCode 1 - register, 2 - unregister
    * @param auto true if this is an automatically generated registration request
-   * @return true if request was initiated
+   * @return true if request was initiated by user
    */
   private static boolean startRegisterRequest(Context context, int reqCode, boolean auto) {
     
@@ -522,26 +458,183 @@ public class C2DMService extends IntentService {
   private static boolean startRegisterRequest(Context context, int reqCode, int delayMS) {
 
     ManagePreferences.setReregisterDelay(delayMS);
-    Intent intent = null;
-    switch (reqCode) {
-    case 1:
-      intent = new Intent(ACTION_C2DM_REGISTER);
-      intent.putExtra("sender", GCM_PROJECT_ID);
-      break;
+    
+    if (isNewGCMActive(context)) {
       
-    case 2:
-      intent = new Intent(ACTION_C2DM_UNREGISTER);
-      break;
+      // Register and Unregister are blocking methods that must be run 
+      // off of the UI thread
+      new AsyncTask<Integer, Void, String>() {
+        @Override
+        protected String doInBackground(Integer... parms) {
+          try {
+            switch (parms[0]) {
+            case 1:
+              String regid = getGCM().register(GCM_PROJECT_ID);
+              return "REG:" + regid;
+              
+            case 2:
+              getGCM().unregister();
+              return "URG:";
+            }
+          } catch (IOException ex) {
+            return "FAI:" + ex.getMessage();
+          }
+          return "???";
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+          if (result.startsWith("REG:")) {
+            registrationSuccess(result.substring(4));
+          } else if (result.startsWith("URG:")) {
+            registrationCancelled();
+          } else if (result.startsWith("FAI:")) {
+            registrationFailure(result.substring(4));
+          }
+        }
+      }.execute(reqCode);
+      return true;
+    }
+      
+    else {
+      Intent intent = null;
+      switch (reqCode) {
+      case 1:
+        intent = new Intent(ACTION_C2DM_REGISTER);
+        intent.putExtra("sender", GCM_PROJECT_ID);
+        break;
+        
+      case 2:
+        intent = new Intent(ACTION_C2DM_UNREGISTER);
+        break;
+      }
+      
+      if (intent == null) return false;
+      intent.setPackage(GSF_PACKAGE);
+      Log.v("C2DMService sending registration request");
+      ContentQuery.dumpIntent(intent);
+      intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
+      ComponentName name = context.startService(intent);
+      Log.v("Processed by " + name);
+      return name != null;
+    }
+  }
+  
+  /**
+   * Check to make sure everything is Kopesetic with the new Play Services based
+   * GCM protocol
+   * @param context current context
+   * @return true if everything is OK.  false to use old fallback protocol
+   */
+  private static boolean isNewGCMActive(Context context) {
+    if (ManagePreferences.useOldGcm()) return false;
+    return (GooglePlayServicesUtil.isGooglePlayServicesAvailable(context) ==  ConnectionResult.SUCCESS);
+  }
+
+  private static void registrationSuccess(String regId) {
+    Log.w("C2DM registration succeeded: " + regId);
+    boolean change = ManagePreferences.setRegistrationId(regId);
+    ManagePreferences.setRegisterReqActive(false);
+    VendorManager.instance().registerC2DMId(CadPageApplication.getContext(), change, regId);
+  }
+
+  private static void registrationCancelled() {
+    Log.w("C2DM registration cancelled");
+    Context context = CadPageApplication.getContext();
+    ManagePreferences.setRegistrationId(null);
+    ManagePreferences.setRegisterReqActive(false);
+    VendorManager.instance().unregisterC2DMId(context);
+    EmailDeveloperActivity.logSnapshot(context, "GCM Registration unregister report");
+  }
+
+  private static void registrationFailure(String error) {
+    Log.w("C2DM registration failed: " + error);
+    Context context = CadPageApplication.getContext();
+    error = retryRegistration(error);
+    if (error != null) {
+      ManagePreferences.setRegistrationId(null);
+      ManagePreferences.setRegisterReqActive(false);
+      VendorManager.instance().failureC2DMId(context, error);
+    }
+    EmailDeveloperActivity.logSnapshot(context, "GCM Registration failure report");
+  }
+
+  private static synchronized GoogleCloudMessaging getGCM() {
+    if (gcm == null) gcm = GoogleCloudMessaging.getInstance(CadPageApplication.getContext());
+    return gcm;
+  }
+  
+  /**
+   * Called after a registration error has been reported
+   * @param error
+   * @return error status to be reported to user or null if request
+   * has been rescheduled and no error status should be reported
+   */
+  private static String retryRegistration(String error) {
+    
+    // We can only recover from the SERVICE_NOT_AVAILABLE error
+    // Lately PHONE_REGISTRATION_ERROR appears to be a recoverable error
+    // But we can at least check to make sure there is an identifiable user account
+    // Google is having problems with some systems returning AUTHENTICATION_FAILED status for unknown
+    // reasons, so we will try to generate a bug report to help them out
+    if (!error.equals("SERVICE_NOT_AVAILABLE")) {
+      if (!error.equals("PHONE_REGISTRATION_ERROR")) {
+        if (error.equals("AUTHENTICATION_FAILED")) BugReportGenerator.generate();
+        return error;
+      }
+      if (UserAcctManager.instance().getUser() == null) return "AUTHENTICATION_FAILED";
     }
     
-    if (intent == null) return false;
-    intent.setPackage(GSF_PACKAGE);
-    Log.v("C2DMService sending registration request");
+    // See if request should be rescheduled
+    int req = ManagePreferences.registerReq();
+    int delayMS = ManagePreferences.reregisterDelay();
+    if (req == 0 || delayMS == 0) return error;
+
+    // Since PHONE_REGISTRATION_ERROR isn't really recoverable, 
+    // we will give up on it when we hit the maximum delay time
+    if (delayMS == MAX_REREGISTER_DELAY && error.equals("PHONE_REGISTRATION_ERROR")) {
+      Log.v("C2DMService terminating registration retries");
+      ManagePreferences.setRegisterReq(0);
+      ManagePreferences.setReregisterDelay(0);
+      return error + "_HARD";
+    }
+    
+    // If it should compute how long to delay before reissuing the request.  Since we are
+    // potentially running in synch with thousands of other requesters trying to overload
+    // Google's server, we add a randomizing factor into the actual delay time so we don't
+    // all hit it at once.
+    Context context = CadPageApplication.getContext();
+    int realDelayMS = delayMS/2 + RANDOM.nextInt(delayMS); 
+    Intent retryIntent = new Intent(ACTION_RETRY_REGISTER);
+    retryIntent.setClass(context, C2DMRetryReceiver.class);
+    PendingIntent retryPendingIntent = PendingIntent.getBroadcast(context, 0, retryIntent, 0);
+    AlarmManager am = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
+    am.set(AlarmManager.ELAPSED_REALTIME, SystemClock.elapsedRealtime() + realDelayMS, retryPendingIntent);
+    Log.v("Rescheduling request in " + realDelayMS + " / " + delayMS + " msecs");
+    ContentQuery.dumpIntent(retryIntent);
+    return null;
+  }
+
+  /**
+   * Called when the retry register event scheduled by retryRegistration() goes off.
+   * This is where we actually do the followup registration request
+   */
+  private void retryRegisterRequest(Intent intent) {
+    Log.w("Processing C2DM Retry request");
     ContentQuery.dumpIntent(intent);
-    intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
-    ComponentName name = context.startService(intent);
-    Log.v("Processed by " + name);
-    return name != null;
+
+    // Get the registration information
+    int req = ManagePreferences.registerReq();
+    int delayMS = ManagePreferences.reregisterDelay();
+    if (req == 0 || delayMS == 0) return;
+    
+    // Double the delay that will be invoked if this request also fails
+    // subject to an absolute maximum value
+    delayMS *= 2;
+    if (delayMS > MAX_REREGISTER_DELAY) delayMS = MAX_REREGISTER_DELAY;
+    
+    // Fire off the request
+    startRegisterRequest(this, req, delayMS);
   }
   
   /**
