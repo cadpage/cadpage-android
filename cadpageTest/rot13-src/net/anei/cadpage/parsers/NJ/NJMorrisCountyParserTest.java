@@ -77,6 +77,10 @@ Pbagnpg: Fnagnavryybt <Fnagnavryybt@ubgznvy.pbz>
 Fraqre: Qvfcngpu@pb.zbeevf.aw.hf 
 172 XVATF UJL [Ebkohel....36] (PURFG CNVA) - 3681,3682,3683,8000\aSRZNYR PURFG CNVAF\a2aq Cnegl, 1 Cngvrag, 50 lrne(f) Srznyr, Pbafpvbhf, Oernguvat\aNYF\aR
 
+Pbagnpg: Furyyrl Fibobqn <qbirefdhnq509@lnubb.pbz>
+Fraqre: Qvfcngpu
+SEZ:Qvfcngpu \a ZFT:27 J OYNPXJRYY FG, 07801 [Qbire Gbja.09] (PBZZEY NYZ) - 4991\a PBZZ SVER NYNEZ 1FG SYE - 8626841743\a S151390019 16:22
+
 Pbagnpg: PbqrZrffntvat
 Fraqre: qvfcngpu@pb.zbeevf.aw.hf
 50, OLENZ NIR, 07801 [Qbire Gbja.09] (SNYYF) - R4910 ARVTUOBE SRYY QBJA FGRCF 3eq Cnegl, 1 Cngvrag, 83 lrne(f) Znyr, Pbafpvbhf, Oernguvat R150190032 11:40
@@ -2225,6 +2229,25 @@ choyvp pynff AWZbeevfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:3681,3682,3683,8000",
         "VASB:SRZNYR PURFG CNVAF / 2aq Cnegl, 1 Cngvrag, 50 lrne(f) Srznyr, Pbafpvbhf, Oernguvat / NYF / R");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFuryyrlFibobqn() {
+
+    qbGrfg("G1",
+        "SEZ:Qvfcngpu \a" +
+        " ZFT:27 J OYNPXJRYY FG, 07801 [Qbire Gbja.09] (PBZZEY NYZ) - 4991\a" +
+        " PBZZ SVER NYNEZ 1FG SYE - 8626841743\a" +
+        " S151390019 16:22",
+
+        "NQQE:27 J OYNPXJRYY FG",
+        "PVGL:Qbire Gbja",
+        "PNYY:PBZZEY NYZ",
+        "HAVG:4991",
+        "VASB:PBZZ SVER NYNEZ 1FG SYE - 8626841743",
+        "VQ:S151390019",
+        "GVZR:16:22");
+    
   }
   
   @Grfg

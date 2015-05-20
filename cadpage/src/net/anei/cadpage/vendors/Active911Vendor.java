@@ -616,6 +616,7 @@ class Active911Vendor extends Vendor {
       "US/OH/ChampaignCounty",            "OHChampaignCounty",
       "US/OH/CityofFairfield",            "OHFairfield",
       "US/OH/CityofGreen",                "OHSummitCountyF",
+      "US/OH/CityofMonroe",               "OHMonroe",
       "US/OH/CityofNorwood",              "OHHamiltonCountyB",
       "US/OH/CityofOxford",               "OHOxford",
       "US/OH/CityofTrenton",              "OHTrenton",
