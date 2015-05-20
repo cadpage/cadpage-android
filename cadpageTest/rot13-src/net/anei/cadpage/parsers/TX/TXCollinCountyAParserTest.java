@@ -31,6 +31,10 @@ Pbagnpg: Wrss Revpxfba <wrevpxfba919@tznvy.pbz>
 Fraqre: snezrefivyyrsq+pns_=7042218878=igrkg.pbz@tznvy.pbz
 12053430  SVEFG ERFCBAQREF  1878 PBHAGL EBNQ 655 VA PBYYVA PBHAGL   {OENAAHZ ERF # 1518}   CEVINGR EBNQ 5398 / PBHAGL EBNQ 653  [ RFF V  {PNQ001 23:00}
 
+Pbagnpg: puevfcevpr02@ubgznvy.pbz
+Fraqre: QvfcngpuFZF@pbccryygk.tbi
+(Zrffntr Sebz Qvfcngpu) 15014218 ZRQVPNY RZRETRAPL 513 RQVAOHETU YA VA PBCCRYY TERRAJVPU YA / F PBCCRYY EQ [PSQ QVFG: 1 TEVQ: 103O] HAVGF: R121 Z121 FG EZX: <ABAR> PSF EZX 20:54 64 / SRZNYR FYVCCRQ NAQ SRYY JUVYR J {JF-CBF1 20:54}
+
 Ebpxjnyy Pbhagl, GK
 Pbagnpg: "Xraargu Uryzna" <xraarguu@sngrsver.pbz>
 Fraqre: vpf.tngrjnl@jlyvrgrknf.tbi
@@ -1525,6 +1529,24 @@ choyvp pynff GKPbyyvaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:SNGRSQ",
         "GVZR:13:31",
         "VASB:18 JURRYRE BA SVER JO YNARF");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPuevfCevpr02() {
+
+    qbGrfg("G1",
+        "(Zrffntr Sebz Qvfcngpu) 15014218 ZRQVPNY RZRETRAPL 513 RQVAOHETU YA VA PBCCRYY TERRAJVPU YA / F PBCCRYY EQ [PSQ QVFG: 1 TEVQ: 103O] HAVGF: R121 Z121 FG EZX: <ABAR> PSF EZX 20:54 64 / SRZNYR FYVCCRQ NAQ SRYY JUVYR J {JF-CBF1 20:54}",
+        "VQ:15014218",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "NQQE:513 RQVAOHETU YA",
+        "PVGL:PBCCRYY",
+        "K:TERRAJVPU YA / F PBCCRYY EQ",
+        "FEP:PSQ",
+        "ZNC:1-103O",
+        "HAVG:R121 Z121",
+        "VASB:64 / SRZNYR FYVCCRQ NAQ SRYY JUVYR J",
+        "GVZR:20:54");
     
   }
   
