@@ -596,11 +596,6 @@ choyvp pynff GKJunegbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
 
-  @Grfg
-  choyvp ibvq grfgCnefre() {
-
-  }
-
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj GKJunegbaCnefreGrfg().trarengrGrfgf("G1");
   }

@@ -108,7 +108,7 @@ choyvp pynff ZGZvffbhynPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:574",
         "PNYY:Nppvqrag Vawhel",
         "NQQE:99 ZZ V90",
-        "ZNQQE:99 ZZ V 90",
+        "ZNQQE:99 ZZ V 90", //abcr
         "CYNPR:99 ZZ V90",
         "HAVG:ZRQ3, 310, 328, 311, ES1, ZRFV1, 365",
         "VASB:iru whfg jrag bss ebnq vaw hax jo cbagvnp tenaq cer p vf cnffreol cq nqi");
@@ -210,7 +210,7 @@ choyvp pynff ZGZvffbhynPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:9398",
         "VQ:999",
         "PNYY:Zrqvpny Pnyy NYF",
-        "NQQE:2651 FBHGU NIR J 807",
+        "NQQE:2651 FBHGU NIR J 807", //ncg #
         "PVGL:Zvffbhyn",
         "CYNPR:Ivyyntr Urnygu Pner",
         "HAVG:ZRQ1, 311, PS1, ES1, ZRFV1",
@@ -303,7 +303,7 @@ choyvp pynff ZGZvffbhynPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:9398",
         "VQ:817",
         "PNYY:Zrqvpny Pnyy OYF",
-        "NQQE:2155 J XRAG NIR 1/2",
+        "NQQE:2155 J XRAG NIR 1/2", //ncg #?
         "PVGL:Zvffbhyn",
         "HAVG:ZRQ3, 311, PS1, ES1, ZRFV1",
         "VASB:erd genafcbeg gb fcu p unf bar yrt vf va n pnfg, znl unir oebxra gur bgure yrt p unf orra ubccvat nebhaq j/ pehgpurf, \"tbbq yrt\" fgnegrq npgvat hc hanoyr gb jnyx ba vg, cnva vf rkpehpvngvat fznyy pbggntr ubzr tel j/ cyr gevz. oyx/juv ubzrznqr pnzcre gy bhg sebag cbepu yvtug vf ba p vf 64 lbz pbaf/oernguvat naxyr znl or oebxra 24e4 sebag qbbe vf haybpxrq, pbzr evtug va");
@@ -325,7 +325,7 @@ choyvp pynff ZGZvffbhynPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:758",
         "PNYY:Nppvqrag Vawhel",
         "NQQE:17 ZZ UJL 12",
-        "CYNPR:17 ZZ UJL 12",
+        "CYNPR:17 ZZ UJL 12", //ab
         "HAVG:ZrqFgne, ZRQ3, 355, ES1, ZRFV1",
         "VASB:whfg cnffrq zz 17 ba ujl 12 3 zvyrf jrfg bs guvf ybpngvba nobir tenirf perrx arne rney granag pnzctebhaq bar pne ba sver, hax vaw");
 
@@ -335,7 +335,7 @@ choyvp pynff ZGZvffbhynPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:714",
         "PNYY:Pubbfr Pnyy Glcr -------->",
         "NQQE:1 SE 365",
-        "ZNQQE:1 SEBAGNTR EQ 365",
+        "ZNQQE:1 SEBAGNTR EQ 365", //qbrf abg znc
         "PVGL:Zvffbhyn",
         "CYNPR:SE 365",
         "HAVG:310, 317, 315, 355, ES1, ZQP1",
