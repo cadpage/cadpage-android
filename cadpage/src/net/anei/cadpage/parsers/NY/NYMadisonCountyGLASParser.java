@@ -11,11 +11,23 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
   
   private static final Pattern WIERD_CHAR_PTN = Pattern.compile("=(?:20|EF|BB|BF)");
   private static final Pattern DELIM = Pattern.compile("\n+");
-  private static final Pattern MASTER = Pattern.compile("(.*?)\n+(.*?)(?: *, (.*?))?(?: \\((.*?)\\)?)?");
+  private static final Pattern MASTER = Pattern.compile("(.*?)\n+(.*?)(?: \\((.*?)\\)?)?");
   
   public NYMadisonCountyGLASParser() {
     super(CITY_LIST, "MADISON COUNTY", "NY",
           "Number:ID? Address:ADDR! Type:CALL!");
+    setupMultiWordStreets(
+        "DITCH BANK",
+        "INDIAN OPENING",
+        "INGALLS CORNERS",
+        "LELAND G WRIGHT",
+        "MOUNT PLEASANT",
+        "NORTH COURT",
+        "ONEIDA LAKE",
+        "SOUTH CIRCLE",
+        "SOUTH PETERBORO",
+        "WILLIAMS CORNERS"
+    );
   }
   
   @Override
@@ -36,11 +48,17 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
     
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
-    setFieldList("CALL PLACE ADDR APT CITY X");
+    setFieldList("CALL NAME PLACE ADDR APT CITY X");
     data.strCall = match.group(1).trim();
     String sPart1 = match.group(2).trim();
-    String sPart2 = getOptGroup(match.group(3));
-    String sPart3 = getOptGroup(match.group(4));
+    String sPart3 = getOptGroup(match.group(3));
+    String sPart2 = "";
+    int pt = sPart1.lastIndexOf(", ");
+    if (pt >= 0) {
+      sPart2 = sPart1.substring(pt+2).trim();
+      sPart1 = sPart1.substring(0,pt).trim();
+    }
+    
     if (sPart1.startsWith("@")) {
      data.strPlace = sPart1.substring(1).trim(); 
      if (sPart2.length() > 0) {
@@ -52,18 +70,21 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
        data.strCity = p.get(')');
      }
     } else if (sPart2.length() == 0 && sPart3.length() == 0) {
-      int pt = sPart1.indexOf('#');
+      pt = sPart1.indexOf('#');
       if (pt >= 0) {
-        parseAddress(sPart1.substring(0,pt).trim(), data);
+        parseAddress(StartType.START_OTHER, FLAG_ANCHOR_END, sPart1.substring(0,pt).trim(), data);
+        data.strName = getStart();
         data.strCross = sPart1.substring(pt+1).trim();
       } else {
-        parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, sPart1, data);
+        parseAddress(StartType.START_OTHER, FLAG_CROSS_FOLLOWS, sPart1, data);
+        data.strName = getStart();
         String left = getLeft();
         if (data.strCity.length() > 0) left = stripFieldStart(left, "VILLAGE ");
         data.strCross = left;
       }
     } else {
-      parseAddress(sPart1.replace("\\", "&"), data);
+      parseAddress(StartType.START_OTHER, FLAG_ANCHOR_END, sPart1.replace("\\", "&"), data);
+      data.strName = getStart();
       data.strCity = sPart2;
       if (sPart3.startsWith("/")) sPart3 = sPart3.substring(1).trim();
       if (sPart3.startsWith(",")) {
@@ -73,8 +94,14 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
       }
     }
     
+    // If name but no address, convert name as address
+    if (data.strName.length() > 0 && data.strAddress.length() == 0) {
+      parseAddress(data.strName, data);
+      data.strName = "";
+    }
+    
     // Check for truncated VILLAGE following city
-    int pt = data.strCity.lastIndexOf(' ');
+    pt = data.strCity.lastIndexOf(' ');
     if (pt >= 0) {
       String last = data.strCity.substring(pt+1).trim().toUpperCase();
       for (String city : new String[]{"VILLAGE", "INSIDE"}) {
@@ -119,13 +146,6 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
       if (data.strCity.length() > 0) {
         match = CITY_TRAIL_PTN.matcher(left);
         if (match.lookingAt()) left = left.substring(match.end());
-        
-        String city = PLACE_CITY_TABLE.getProperty(data.strCity);
-        if (city != null) {
-          data.strPlace = data.strCity;
-          data.strCity = city;
-        }
-
       }
       
       match = APT_PTN.matcher(left);
@@ -143,6 +163,15 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
       return "ADDR APT PLACE CITY X";
     }
   }
+  
+  @Override
+  public String adjustMapCity(String city) {
+    return convertCodes(city.toUpperCase(), MAP_CITY_TABLE);
+  }
+  
+  private static final Properties MAP_CITY_TABLE = buildCodeTable(new String[]{
+      "SOUTH HALL",        "MORRISVILLE"
+  });
   
   private static final String[] CITY_LIST = new String[]{
     "BRIDGEPORT",
@@ -170,9 +199,5 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
     "SULLIVAN",
     "WAMPSVILLE"
   };
-  
-  private static final Properties PLACE_CITY_TABLE = buildCodeTable(new String[]{
-      "SOUTH HALL",        "MORRISVILLE"
-  });
 }
 	

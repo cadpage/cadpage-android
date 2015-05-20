@@ -66,6 +66,7 @@ Fraqre: TPZ
 {Terngre Yrabk}Nqqerff: 3102 VATNYYF PBEAREF EQ YVAPBYA DHNEEL EQ/ARYFBA EQ ; 3102=20\a  Glcr: Noqbzvany Cnva=20\a=20
 {Terngre Yrabk}\aCflpuvngvp/Fhvpvqr\a\a519 F ZNVA PNANFGBGN IVYYNTR ENFONPU/ZBHAG CYRNFNAG EQ,FRARPN GEACX,FRARPN GEACX
 {Terngre Yrabk}\aNoqbzvany Cnva\a\a100 SENAPRF # A EBOREGF/OEHAB EQ=20\a
+{Terngre Yrabk}\aNynez - Zrqvpny\a\aNeabyq, Tvyoreg 3008 GNT EQ, YRABK ( GNT EQ YRABK FHYYVINA YVAR/VAQVNA BCRAVAT EQ,GNPXNOHEL EQ )
 
 */
 
@@ -309,8 +310,8 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G3",
         "{Terngre Yrabk}Nqqerff: 20 FBHGU PVEPYR EQ FBHGU UNYY ; 20\a\aErfcbafr Glcr: Oernguvat Ceboyrz \a\a  TYNF Qvfcngpu\a\a",
         "NQQE:20 FBHGU PVEPYR EQ",
-        "CYNPR:FBHGU UNYY",
-        "PVGL:ZBEEVFIVYYR",
+        "PVGL:FBHGU UNYY",
+        "ZPVGL:ZBEEVFIVYYR",
         "PNYY:Oernguvat Ceboyrz");
 
     qbGrfg("G4",
@@ -434,6 +435,14 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Noqbzvany Cnva",
         "NQQE:100 SENAPRF",
         "K:A EBOREGF/OEHAB EQ");
+
+    qbGrfg("G9",
+        "{Terngre Yrabk}\aNynez - Zrqvpny\a\aNeabyq, Tvyoreg 3008 GNT EQ, YRABK ( GNT EQ YRABK FHYYVINA YVAR/VAQVNA BCRAVAT EQ,GNPXNOHEL EQ )",
+        "PNYY:Nynez - Zrqvpny",
+        "ANZR:Neabyq, Tvyoreg",
+        "NQQE:3008 GNT EQ",
+        "PVGL:YRABK",
+        "K:GNT EQ YRABK FHYYVINA YVAR/VAQVNA BCRAVAT EQ,GNPXNOHEL EQ");
 
   }
   
