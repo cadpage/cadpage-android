@@ -12,7 +12,7 @@ public class MILakeCountyParser extends DispatchOSSIParser {
   
   public MILakeCountyParser() {
     super(CITY_CODES, "LAKE COUNTY", "MI",
-          "FYI CALL ADDR! ( END | X+? CITY! END )");
+          "FYI CALL ADDR! ( END | X/Z+? CITY! END )");
   }
   
   @Override
