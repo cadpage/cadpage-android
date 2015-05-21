@@ -77,7 +77,6 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
     data.strTime = getOptGroup(match.group(2));
     data.strCallId = getOptGroup(match.group(3));
     body = body.substring(match.end()).trim();
-    if (data.strDate.length() == 0 && data.strTime.length() == 0) return false;
     
     match = TRAILER.matcher(body);
     if (match.find()) {
