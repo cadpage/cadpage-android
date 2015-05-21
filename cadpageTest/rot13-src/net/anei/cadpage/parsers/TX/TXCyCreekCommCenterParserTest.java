@@ -107,6 +107,7 @@ PbzzPragre@pprzf.pbz / ab fhowrpg / 03/23 15:07 22919 FGVYY CBAQ QE-UP, ; Znc:29
 Pbagnpg: Qba Fgnzcf <qbapfgnzcf@tznvy.pbz>
 Fraqre: 777149553392
 Nffvtarq gb Vapvqrag 201523353 FGHROARE NVEYVAR EQ/ZVGGYRFGRQ, ; Znc:330I- Fho: Ang:69-YVTUG FGEHPGHER VAPVQRAG Havgf:Q10; R34; GJ11 K-Fg:14895 - 14899 FGHROARE
+Nffvtarq gb Vapvqrag 201523388 5219 J SZ 1960, ENAQNYYF TEBPREL FGBER; Znc:370Q- Fho: Ang:31-HAPBAFPVBHF / SNVAGVAT Havgf:Z51; R11; SB370 K-Fg:ZVTUGL BNX QE
 
 Pbagnpg: PUEVF PENQL <cisq6347@lnubb.pbz>
 Fraqre: PbzzPragre@pprzf.pbz
@@ -1751,6 +1752,17 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:69-YVTUG FGEHPGHER VAPVQRAG",
         "HAVG:Q10; R34; GJ11",
         "K:14895 - 14899 FGHROARE");
+
+    qbGrfg("G2",
+        "Nffvtarq gb Vapvqrag 201523388 5219 J SZ 1960, ENAQNYYF TEBPREL FGBER; Znc:370Q- Fho: Ang:31-HAPBAFPVBHF / SNVAGVAT Havgf:Z51; R11; SB370 K-Fg:ZVTUGL BNX QE",
+        "NQQE:5219 J SZ 1960",
+        "ZNQQE:5219 J SNEZ-GB-ZNEXRG 1960",
+        "CYNPR:ENAQNYYF TEBPREL FGBER",
+        "ZNC:370Q-",
+        "PNYY:31-HAPBAFPVBHF / SNVAGVAT",
+        "HAVG:Z51; R11; SB370",
+        "K:ZVTUGL BNX QE",
+        "VQ:201523388");
 
   }
   
