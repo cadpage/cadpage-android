@@ -14,7 +14,8 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
   
   private static final Pattern PART_MARKER = Pattern.compile("^\\d\\d:\\d\\d ");
   private static final Pattern DATE_PTN = Pattern.compile("(\\d+)/(\\d+)");
-  private static final Pattern MARKER = Pattern.compile("^(?:/ (?:no subject / )?)?(?:(\\d\\d/\\d\\d) )?(?:(\\d\\d:\\d\\d) )?(?:Inc: *(\\d*);)?");
+  private static final Pattern MARKER1 = Pattern.compile("(?:/ (?:no subject / )?)?(?:(\\d\\d/\\d\\d) )?(?:(\\d\\d:\\d\\d) )?(?:Inc: *(\\d*);)?");
+  private static final Pattern MARKER2 = Pattern.compile("Assigned to Incident (\\d{9}) +");
   private static final Pattern MISSED_COLON_PTN = Pattern.compile("(?<=Map)(?=\\d)");
   private static final Pattern TRAILER = Pattern.compile(" +(\\d{8,}) *$");
   
@@ -71,7 +72,7 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
     
     data.strSource = subject;
     
-    Matcher match = MARKER.matcher(body);
+    Matcher match = MARKER1.matcher(body);
     if (!match.lookingAt()) return false;  // Never happens anymore
     data.strDate = getOptGroup(match.group(1));
     data.strTime = getOptGroup(match.group(2));
@@ -82,6 +83,14 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
     if (match.find()) {
       data.strCallId = match.group(1);
       body = body.substring(0,match.start());
+    }
+    
+    if (data.strCallId.length() == 0) {
+      match = MARKER2.matcher(body);
+      if (match.lookingAt()) {
+        data.strCallId = match.group(1);
+        body = body.substring(match.end());
+      }
     }
     
     if (body.startsWith("Repage:")) body = body.substring(7).trim();
