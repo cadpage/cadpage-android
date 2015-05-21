@@ -490,6 +490,7 @@ class Active911Vendor extends Vendor {
       "US/MS/DesotoCounty",               "MSDeSotoCountyA",
       "US/MS/Southaven",                  "MSDesotoCountyB",
       "US/MT/GallatinCounty",             "MTGallatinCounty",
+      "US/MT/MissoulaCounty",             "MTMissoulaCounty",
       "US/MT/ParkCounty",                 "MTParkCounty",
       "US/MT/RavalliCounty",              "MTRavalliCounty",
       "US/NC/AlamanceCounty",             "NCAlamanceCountyParser",

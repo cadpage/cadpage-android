@@ -99,8 +99,17 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
     if (!super.parseMsg(body, data)) return false;
     
     if (data.strCity.length() == 0 && data.strCall.contains("MA-MUTUAL AID")) data.strCity = "HOUSTON";
+    
+    // Misspelled street name check
+    data.strAddress = fixAddress(data.strAddress);
+    data.strCross = fixAddress(data.strCross);
     return true;
   }
+  
+  private static String fixAddress(String addr) {
+    return MITTLESTED_PTN.matcher(addr).replaceAll("MITTLESTEDT");
+  }
+  private static final Pattern MITTLESTED_PTN = Pattern.compile("\\bMITTLESTED\\b");
   
   @Override
   public String getProgram() {
