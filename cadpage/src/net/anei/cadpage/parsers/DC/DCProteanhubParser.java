@@ -29,6 +29,11 @@ public class DCProteanhubParser extends FieldProgramParser {
   public String getLocName() {
     return "Protean Hub, DC";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

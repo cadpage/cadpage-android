@@ -262,6 +262,7 @@ class Active911Vendor extends Vendor {
       "US/CT/WaterfordFD",                "CTWaterfordTownParser",
       "US/CT/WindhamCounty",              "CTWindhamCountyA",
       "US/CT/Wpdpaging",                  "CTWindhamCountyC",
+      "US/DC/Proteanhub",                 "DCProteanhub",
       "US/DE/CADCentral",                 "DEKentCountyE",
       "US/DE/ChiefMsg",                   "DESussexCountyA",
       "US/DE/Dover",                      "DEKentCounty",
