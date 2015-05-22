@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 
 /**
- * Allegan County, MI
+ * Lake County, MI
  */
 public class MILakeCountyParser extends DispatchOSSIParser {
   

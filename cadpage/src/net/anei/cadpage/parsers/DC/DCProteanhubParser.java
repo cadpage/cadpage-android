@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Delmar DE
+ * Proteanhub, DC
  */
 
 public class DCProteanhubParser extends FieldProgramParser {

@@ -247,6 +247,9 @@ public class ParserList {
               ,"CTWaterfordTown"                ,"Waterford Town, CT"
               ,"CTWindhamCounty"                ,"Windham County, CT"
           ),
+          new ParserCategory("District of Columbia"
+              ,"DCProteanhub"                   ,"Proteanhub, DC"
+          ),
           new ParserCategory("Delaware"
               ,"DEDelmar"                       ,"Delmar, DE"
               ,"DEKentCounty"                   ,"Kent County, DE"
@@ -320,7 +323,8 @@ public class ParserList {
               ,"IDGoodingCounty"                ,"Gooding County, ID"
               ,"IDJeromeCounty"                 ,"Jerome County, ID"
               ,"IDKootenaiCounty"               ,"Kootenai County, ID"
-              ,"IDLincolnCounty"                ,"Lincoln County, ID"           
+              ,"IDLincolnCounty"                ,"Lincoln County, ID" 
+              ,"IDMadisonCounty"                ,"Madison County, ID"
               ,"IDShoshoneCounty"               ,"Shoshone County, ID"
               ,"IDTwinFallsCounty"              ,"Twin Falls County, ID"
           ),
@@ -533,6 +537,7 @@ public class ParserList {
               ,"MIIoscoCounty"                  ,"Iosco County, MI"
               ,"MIIronCounty"                   ,"Iron County, MI"
               ,"MIIsabellaCounty"               ,"Isabella County, MI"
+              ,"MILakeCounty"                   ,"Lake County, MI"
               ,"MILeelanauCounty"               ,"Leelanau County, MI"
               ,"MILenaweeCounty"                ,"Lenawee County, MI"
               ,"MILivingstonCounty"             ,"Livingston County, MI"
@@ -644,6 +649,7 @@ public class ParserList {
               ,"MTFlatheadCounty"               ,"Flathead County, MT"
               ,"MTGallatinCounty"               ,"Gallatin County, MT"
               ,"MTLewisAndClarkCounty"          ,"Lewis And Clark County, MT"
+              ,"MTMissoulaCounty"               ,"Missoula County, MT"
               ,"MTParkCounty"                   ,"Park County, MT"
               ,"MTRavalliCounty"                ,"Ravalli County, MT"
           ),
@@ -883,6 +889,7 @@ public class ParserList {
               ,"OHMedinaCounty"                 ,"Medina County, OH"
               ,"OHMercerCounty"                 ,"Mercer County, OH"
               ,"OHMiamiCounty"                  ,"Miami County, OH"
+              ,"OHMonroe"                       ,"Monroe, OH"
               ,"OHMontgomeryCounty"             ,"Montgomery County, OH"
               ,"OHMorrowCounty"                 ,"Morrow County, OH"
               ,"OHMuskingumCounty"              ,"Muskingum County, OH"
