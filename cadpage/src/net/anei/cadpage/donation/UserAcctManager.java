@@ -34,6 +34,8 @@ public class UserAcctManager {
     phoneNumber = tMgr.getLine1Number();
     if (phoneNumber == null) phoneNumber = tMgr.getVoiceMailNumber();
     if (phoneNumber != null) {
+      int pt = phoneNumber.indexOf(',');
+      if (pt >= 0) phoneNumber = phoneNumber.substring(0,pt).trim();
       phoneNumber = cleanName(phoneNumber);
       if (phoneNumber.startsWith("+")) phoneNumber = phoneNumber.substring(1);
       if (phoneNumber.startsWith("1")) phoneNumber = phoneNumber.substring(1);
