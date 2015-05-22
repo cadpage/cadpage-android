@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">05118015</string>
-  <string name="release_version">v1.8.33</string>
+  <string name="release_date">05212015</string>
+  <string name="release_version">v1.8.34</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.34\n
+Direct Paging has been upgraded to use the latest Google messaging protocol.
+This should have no impact on users.  But you encounter any unexpected problems
+with direct paging, please report them.\n
+\n
+New Location:\n
+Protean Hub, DC\n
+Madison County, ID\n
+Lake County, MI\n
+Missoula County, MT\n
+Monroe, OH\n
+\n
+Location Fixes:\n
+Douglas County, CO\n
+Isabella County, MI\n
+Lauderdale County, MS\n
+Madison County, NY\n
+Steuben County, NY\n
+Charleston County, SC\n
+Cy Creek Comm Center, TX\n
+\n      
 v1.8.33\n
 New Locations:\n
 Marion County, AL\n
@@ -58,41 +79,7 @@ Hollis, NH\n
 Steuben County, NY\n
 Washington County, OH\n
 CyCreek Comm Center, TX\n
-Waukesha County, WI\n
-\n      
-v1.8.29\n
-New Location:\n
-Benton County, AR (alt)\n
-Grays Harbor County, WA\n
-\n
-Location Fixes:\n
-Rocklin, CA\n
-Marshall County, IN\n
-St Joseph County, IN\n
-Allegany County, MD\n
-Worcester County, MD\n
-Erie County, NY\n
-Nassau County, NY\n
-Onondaga County, NY\n
-Fairfield County, OH\n
-Monroeville, PA\n
-Tarrant County, TX\n
-Mineral County, WV\n
-Waukesha County, WI\n
-\n
-General Fixes:\n
-Fixed problem with Widget display in Android 5.0
-  </string>
-  <string name="special_release_title">
-      Cadpage needs your help!
-  </string>
-  <string name="special_release_text">
-We are planning some major changes in the near future want to make sure they
-will be compatible with older versions of Android.  We no longer have access
-to real devices running those old versions and are looking for some helpful 
-users who can do some advance testing for us.\n
-\n
-If you can help us out, use the Email the Developer setting to contact us. 
+Waukesha County, WI
   </string>
 </resources>
   

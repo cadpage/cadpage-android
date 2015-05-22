@@ -226,15 +226,6 @@ public class CallHistoryActivity extends ListActivity {
     switch (id) {
 
       case RELEASE_DIALOG:
-        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.FROYO) {
-          return new AlertDialog.Builder(this)
-          .setIcon(R.drawable.ic_launcher)
-          .setTitle(R.string.special_release_title)
-          .setMessage(R.string.special_release_text)
-          .setPositiveButton(android.R.string.ok, null)
-          .create();
-        }
-        
         int releaseId = (DonationManager.instance().isFreeVersion() ? R.string.free_release_text : R.string.release_text);
         return new AlertDialog.Builder(this)
         .setIcon(R.drawable.ic_launcher)
