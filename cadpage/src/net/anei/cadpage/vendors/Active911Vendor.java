@@ -296,6 +296,7 @@ class Active911Vendor extends Vendor {
       "US/ID/BlaineCounty",               "IDBlaineCounty",
       "US/ID/KootenaiCounty",             "IDKootenaiCountyParser",
       "US/IA/MitchellCountySheriff",      "IAMitchellCounty",
+      "US/ID/MadisonCounty",              "IDMadisonCounty",
       "US/IL/AdamsCounty",                "ILAdamsCounty",
       "US/IL/BooneCounty",                "ILBooneCounty",
       "US/IL/CityofElgin",                "ILElgin",
