@@ -70,6 +70,7 @@ Fraqre: TPZ
 {Terngre Yrabk}\aPurfg Cnva\a\aErasre, Wbua & Pbafgnapr 7814 YNXRCBEG EQ, FHYYVINA ( PURFGAHG EVQTR EQ )
 {Terngre Yrabk}\aNynez - Zrqvpny\aFGBARYRVTU FRAVBE NCGF 400 YNZO NI, PNANFGBGN IVYYNTR # 248 ( QRCCBYVGV NI )
 {Terngre Yrabk}\aCflpuvngvp/Fhvpvqr\a241 F CRGREOBEB, PNANFGBN IVYYNTR # 2 ( ENVYEBNQ/GUR GREENPR )
+{Terngre Yrabk}\aFvpx Crefba\a\aYRABK YNAQVAT 3462 PBAVSRE QE, YRABK # 28 ( /ZNETHREVGR QE )=20
 
 */
 
@@ -472,6 +473,15 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PNANFGBN",
         "NCG:2",
         "K:ENVYEBNQ/GUR GREENPR");
+
+    qbGrfg("G13",
+        "{Terngre Yrabk}\aFvpx Crefba\a\aYRABK YNAQVAT 3462 PBAVSRE QE, YRABK # 28 ( /ZNETHREVGR QE )=20",
+        "PNYY:Fvpx Crefba",
+        "ANZR:YRABK YNAQVAT",
+        "NQQE:3462 PBAVSRE QE",
+        "NCG:28",
+        "PVGL:YRABK",
+        "K:ZNETHREVGR QE");
 
   }
   

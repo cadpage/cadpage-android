@@ -108,6 +108,7 @@ Pbagnpg: Qba Fgnzcf <qbapfgnzcf@tznvy.pbz>
 Fraqre: 777149553392
 Nffvtarq gb Vapvqrag 201523353 FGHROARE NVEYVAR EQ/ZVGGYRFGRQ, ; Znc:330I- Fho: Ang:69-YVTUG FGEHPGHER VAPVQRAG Havgf:Q10; R34; GJ11 K-Fg:14895 - 14899 FGHROARE
 Nffvtarq gb Vapvqrag 201523388 5219 J SZ 1960, ENAQNYYF TEBPREL FGBER; Znc:370Q- Fho: Ang:31-HAPBAFPVBHF / SNVAGVAT Havgf:Z51; R11; SB370 K-Fg:ZVTUGL BNX QE
+Nffvtarq gb Vapvqrag 201523432 5711 YBEVABJBBQF QE, ; Znc:370U- Fho:TERRAJBBQ SBERFG Ang:26-FVPX CREFBA Havgf:Z53; R11 K-Fg:PUNZCVBA SBERFG QE
 
 Pbagnpg: PUEVF PENQL <cisq6347@lnubb.pbz>
 Fraqre: PbzzPragre@pprzf.pbz
@@ -1763,6 +1764,16 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:Z51; R11; SB370",
         "K:ZVTUGL BNX QE",
         "VQ:201523388");
+
+    qbGrfg("G3",
+        "Nffvtarq gb Vapvqrag 201523432 5711 YBEVABJBBQF QE, ; Znc:370U- Fho:TERRAJBBQ SBERFG Ang:26-FVPX CREFBA Havgf:Z53; R11 K-Fg:PUNZCVBA SBERFG QE",
+        "NQQE:5711 YBEVABJBBQF QE",
+        "CYNPR:TERRAJBBQ SBERFG",
+        "ZNC:370U-",
+        "PNYY:26-FVPX CREFBA",
+        "HAVG:Z53; R11",
+        "K:PUNZCVBA SBERFG QE",
+        "VQ:201523432");
 
   }
   
