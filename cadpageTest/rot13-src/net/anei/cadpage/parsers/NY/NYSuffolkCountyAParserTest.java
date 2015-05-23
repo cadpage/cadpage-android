@@ -113,6 +113,11 @@ Pbagnpg: Revp Zrffznaa <revp.zrffznaa@tznvy.pbz>
 Fraqre: cntvat@fpserf.pbz
 GLCR: NYNEZF YBP: 492 ZBAGNHX UJL RZBEVP : @ FGBAL OEBBX CRQVNGEVPF  PEBFF: NGYNAGVP NI / NQRYNVQR NI PBQR: 52-P-3F GVZR: 14:14:52
 
+Pbagnpg: flszrqvp7682 <flszrqvp7682@lnubb.pbz>
+Fraqre: cntvat@fpserf.pbz
+GLCR: GENHZNGVP VAWHEL (FCRPVSVP) YBP: 23 UNJXVAF NI TBEQBU : @TBEQBA URVTUGF SQ (UD)  PEBFF: EBFR YA / FZVGU YA PBQR: 30-N-1 GVZR: 20:24:43
+GLCR: GENSSVP / GENAFCBEGNGVBA VAPVQRAGF   PEBFF: TERRAOEVNE PG / FGENGUZBER BA TERRA QE PBQR: 29-Q-5K GVZR: 20:31:49
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Oeragjbbq Sver Qrcnegzrag
 Ybpngvba: Oeragjbbq, AL, Havgrq Fgngrf
@@ -3844,6 +3849,29 @@ choyvp pynff ALFhssbyxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:NGYNAGVP NI / NQRYNVQR NI",
         "PBQR:52-P-3F",
         "GVZR:14:14:52");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFlszrqvp7682() {
+
+    qbGrfg("G1",
+        "GLCR: GENHZNGVP VAWHEL (FCRPVSVP) YBP: 23 UNJXVAF NI TBEQBU : @TBEQBA URVTUGF SQ (UD)  PEBFF: EBFR YA / FZVGU YA PBQR: 30-N-1 GVZR: 20:24:43",
+        "PNYY:GENHZNGVP VAWHEL (FCRPVSVP)",
+        "NQQE:23 UNJXVAF NI",
+        "ZNQQE:23 UNJXVAF NIR",
+        "PVGL:TBEQBA URVTUGF",
+        "CYNPR:TBEQBA URVTUGF SQ (UD)",
+        "K:EBFR YA / FZVGU YA",
+        "PBQR:30-N-1",
+        "GVZR:20:24:43");
+
+    qbGrfg("G2",
+        "GLCR: GENSSVP / GENAFCBEGNGVBA VAPVQRAGF   PEBFF: TERRAOEVNE PG / FGENGUZBER BA TERRA QE PBQR: 29-Q-5K GVZR: 20:31:49",
+        "PNYY:GENSSVP / GENAFCBEGNGVBA VAPVQRAGF",
+        "NQQE:TERRAOEVNE PG & FGENGUZBER BA TERRA QE",
+        "PBQR:29-Q-5K",
+        "GVZR:20:31:49");
 
   }
 

@@ -71,6 +71,7 @@ Fraqre: TPZ
 {Terngre Yrabk}\aNynez - Zrqvpny\aFGBARYRVTU FRAVBE NCGF 400 YNZO NI, PNANFGBGN IVYYNTR # 248 ( QRCCBYVGV NI )
 {Terngre Yrabk}\aCflpuvngvp/Fhvpvqr\a241 F CRGREOBEB, PNANFGBN IVYYNTR # 2 ( ENVYEBNQ/GUR GREENPR )
 {Terngre Yrabk}\aFvpx Crefba\a\aYRABK YNAQVAT 3462 PBAVSRE QE, YRABK # 28 ( /ZNETHREVGR QE )=20
+{Terngre Yrabk}\aOernguvat Ceboyrz\aJnyynpr, Trenyq & Qbaan 3398 EBHGR 31, YRABK ( BYQ BEPUNEQ EQ/JVYFBA PBIR EQ )
 
 */
 
@@ -482,6 +483,14 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:28",
         "PVGL:YRABK",
         "K:ZNETHREVGR QE");
+
+    qbGrfg("G14",
+        "{Terngre Yrabk}\aOernguvat Ceboyrz\aJnyynpr, Trenyq & Qbaan 3398 EBHGR 31, YRABK ( BYQ BEPUNEQ EQ/JVYFBA PBIR EQ )",
+        "PNYY:Oernguvat Ceboyrz",
+        "ANZR:Jnyynpr, Trenyq & Qbaan",
+        "NQQE:3398 EBHGR 31",
+        "PVGL:YRABK",
+        "K:BYQ BEPUNEQ EQ/JVYFBA PBIR EQ");
 
   }
   
