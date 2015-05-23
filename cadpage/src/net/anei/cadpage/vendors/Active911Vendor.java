@@ -612,6 +612,7 @@ class Active911Vendor extends Vendor {
       "US/NY/Ronkonkoma",                 "NYSuffolkCountyB",
       "US/NY/SCFRESpaging",               "NYSuffolkCountyA",
       "US/NY/SCFRESprinting",             "N/A",
+      "US/NY/SteubenCounty",              "NYSteubenCounty",
       "US/NY/StLawrenceCounty",           "NYStLawrenceCounty",
       "US/NY/UlsterCounty",               "NYUlsterCounty",
       "US/NY/WayneCounty",                "NYWayneCountyB",
