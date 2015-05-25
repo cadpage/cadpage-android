@@ -843,6 +843,7 @@ class Active911Vendor extends Vendor {
       "US/VA/Hopewell",                   "VAHopewell",
       "US/VA/JamesCityCounty",            "VAJamesCityCounty",
       "US/VA/LoudounCounty",              "VALoudounCounty",
+      "US/VA/LouisaCounty",               "VALouisaCounty",
       "US/VA/MecklenburgCounty",          "VAMecklenburgCounty",
       "US/VA/MontgomeryCounty",           "VAMontgomeryCounty",
       "US/VA/NewportNews",                "VANewportNews",

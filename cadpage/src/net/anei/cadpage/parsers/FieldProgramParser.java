@@ -3420,12 +3420,18 @@ public class FieldProgramParser extends SmartAddressParser {
     return (result != null ? result : defConnector);
   }
   
+  private String select;
+  
   protected String getSelectValue(Data data) {
     return getSelectValue();
   }
   
+  protected void setSelectValue(String select) {
+    this.select = select;
+  }
+  
   protected String getSelectValue() {
-    return "";
+    return select;
   }
   
   /**
