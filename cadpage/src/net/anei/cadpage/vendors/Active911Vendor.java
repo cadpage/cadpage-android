@@ -259,6 +259,7 @@ class Active911Vendor extends Vendor {
       "US/CT/OldSaybrook",                "CTOldSaybrook",
       "US/CT/Uconn",                      "CTTollandCountyB",
       "US/CT/Valleyshore911",             "CTMiddlesexCounty",
+      "US/CA/VRECC",                      "CASanJoaquinCounty",
       "US/CT/WaterfordFD",                "CTWaterfordTownParser",
       "US/CT/WindhamCounty",              "CTWindhamCountyA",
       "US/CT/Wpdpaging",                  "CTWindhamCountyC",

@@ -14,9 +14,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class CASanJoaquinCountyParser extends FieldProgramParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile(".*? Dispatched:.*?Enroute:.*?On Scene:.*?AOR:.*|.* +Disp:.*?Resp:.*?On Scene:.*?TX:.*?Dest:.*|.*  +\\d\\d:\\d\\d:\\d{10}");
-  private static final Pattern MASTER1 = Pattern.compile("(?:((?![A-Z]{3}-\\d+)[A-Z][-A-Z0-9]*+) ++)?+((?:[A-Z]{3}-\\d{6}|\\d{8})(?=  )|\\d{8}-\\d{6}) *(.*?)  +(.*?)(?:  +(.*?))?Bldg: *(.*?)Apt: *(.*?)(?:Assigned Units: *(.*))?");
+  private static final Pattern RUN_REPORT_PTN1 = Pattern.compile("([-A-Z0-9]+) +(?:(\\d{8}|[A-Z]{3}-\\d{6}) +)?Dispatched:.*?Enroute:.*?On Scene:.*?AOR:.*");
+  private static final Pattern RUN_REPORT_PTN2 = Pattern.compile("RUN REPORT CAD ?#(\\d{8}|[A-Z]{3}-\\d{6}) +([-\\(\\)A-Z0-9]{1,10}) *(?:Dispatched:.*Enroute:.*On Scene:.*AOR:|Disp:.*Resp:.*On Scene:.*TX:.*Dest:.*AOR:).*");
+  private static final Pattern MASTER1 = Pattern.compile("(?:((?![A-Z]{3}-\\d+)[A-Z][-\\(\\)A-Z0-9]*+) ++)?+((?:[A-Z]{3}-\\d{6}|\\d{8})(?=  )|\\d{8}-\\d{6}) *(.*?)  +(.*?)(?:  +(.*?))?Bldg: *(.*?)Apt: *(.*?)(?:Assigned Units: *(.*))?");
   private static final Pattern MASTER2 = Pattern.compile("(?:([A-Z][-A-Z0-9]*+) ++)?+(\\d{8}) {5}([^ ].*)");
+  private static final Pattern UNIT_GPS_CH_PTN = Pattern.compile("(.*?)GPS:(\\d{2})(\\d{6}) +&(\\d{3})(\\d{6})\\b *(.*)");
+  private static final Pattern CHANNEL_PTN = Pattern.compile("(.*?) *((?:CMD |XSJ ).*)");
   
   public CASanJoaquinCountyParser() {
     super("SAN JOAQUIN COUNTY", "CA",
@@ -30,21 +33,256 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "LifecomCellPaging@amr.net";
+    return "LifecomCellPaging@amr.net,VRECC.CAD@donotreply.com";
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    Matcher match = MAP_ADDR_PTN.matcher(addr);
+    if (match.matches()) addr = match.group(1);
+    return super.adjustMapAddress(addr);
+  }
+  private static final Pattern MAP_ADDR_PTN = Pattern.compile("[1-3] - +(.*)");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     
     // First see if this looks like a run report
-    if (RUN_REPORT_PTN.matcher(body).matches()) {
+    Matcher match = RUN_REPORT_PTN1.matcher(body); 
+    if (match.matches()) {
       data.strCall = "RUN REPORT";
       data.strPlace = body;
+      data.strUnit = match.group(1);
+      data.strCallId = getOptGroup(match.group(2));
       return true;
     }
     
+    match = RUN_REPORT_PTN2.matcher(body);
+    if (match.matches()) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      data.strCallId = match.group(1);
+      data.strUnit = match.group(2);
+      return true;
+    }
+    
+    // Try the fixed format fields first
+    do {
+      FParser p = new FParser(body);
+      String unit = p.get(10);
+      String callId = p.get(15);
+      String call;
+      boolean variant1 = p.check("Loc:");
+      if (variant1) {
+        call = "ALERT";
+      } else {
+        call = p.get(30);
+        if (!p.check("Loc:")) break;
+      }
+      String place = p.get(50);
+      String addr = p.get(50);
+      
+      String cross, apt1, apt2, city, respPlan, left;
+      if (variant1) {
+        cross = p.get(20);
+        if (!p.check("Bldg:")) break;
+        apt1 = p.get(10);
+        if (!p.check("Apt:")) break;
+        apt2 = p.get(10);
+        if (!p.check("City:")) break;
+        city = p.get();
+
+        setFieldList("UNIT ID CALL PLACE ADDR X APT CITY");
+        respPlan = left = "";
+      }
+      
+      else {
+        if (!p.check("City:")) break;
+        city = p.get(15);
+        cross = p.get(20);
+        if (!p.check("Bldg:")) break;
+        apt1 = p.get(10);
+        if (!p.check("Apt:")) break;
+        apt2 = p.get(10);
+        if (!p.check("Assigned Units:Resp Plan:")) break;
+        respPlan = p.get(50);
+        if (respPlan.length() > 0) respPlan = "Resp Plan:" + respPlan;
+        if (!p.check("All Units Assigned:")) break;
+        left = p.get();
+      }
+      
+      setFieldList("UNIT ID CALL PLACE ADDR CITY X APT INFO GPS CH");
+      data.strUnit = unit;
+      data.strCallId = callId;
+      data.strCall = call;
+      data.strPlace = place;
+      parseAddress(addr, data);
+      data.strCity = city;
+      data.strCross = cleanCrossField(cross);
+      data.strApt = append(apt1, "-", data.strApt);
+      data.strApt = append(data.strApt, "-", apt2);
+      data.strSupp = respPlan;
+      
+      String channel;
+      if ((match = UNIT_GPS_CH_PTN.matcher(left)).matches()) {
+        addUnitField(match.group(1), data);
+        setGPSLoc(match.group(2)+'.'+match.group(3)+','+match.group(4)+'.'+match.group(5), data);
+        channel = match.group(6);
+      }
+      else if ((match = CHANNEL_PTN.matcher(left)).matches()) {
+        addUnitField(match.group(1), data);
+        channel = match.group(2);
+      }
+      else {
+        addUnitField(left, data);
+        channel = "";
+      }
+      data.strChannel = channel.replaceAll("  +", " ");
+      return true;
+    } while (false);
+    
+    do {
+      FParser p = new FParser(body);
+      String unit = p.get(10);
+      if (p.check(",You have been assigned to post at:")) {
+        setFieldList("UNIT CALL ADDR INFO");
+        data.strUnit = unit;
+        data.strCall = "Post assignment";
+        data.strAddress = p.get(80);
+        data.strSupp = p.get();
+        return true;
+      }
+      if (!p.check("CAD ID#:")) break;
+      String callId = p.get(10);
+      if (p.check("*SECURITY CHECK - 20 MINUTES*")) {
+        setFieldList("UNIT ID CALL INFO");
+        data.strUnit = unit;
+        data.strCallId = callId;
+        data.strCall = "SECURITY CHECK - 20 MINUTES";
+        data.strSupp = p.get();
+        return true;
+        
+      }
+      boolean variant1 = p.check("     Run(PCR#):Loc:");
+      if (!variant1) {
+        if (!p.check("Run(PCR#):")) break;
+        callId = append(callId, "/", p.get(8));
+        if (p.check("*RUN REPORT*Tcr/")) {
+          data.strUnit = unit;
+          data.strCallId = callId;
+          data.strCall = "RUN REPORT";
+          data.strPlace = body;
+          return true;
+        }
+      }
+      String place = p.get(50);
+      String addr = p.get(30);
+
+      String call, cross, apt1, apt2, city, gps, map;
+      if (variant1) {
+        call = "ALERT";
+        cross = p.get(40);
+        if (!p.check("Bldg:")) break;
+        apt1 = p.get(10);
+        if (!p.check("Apt:")) break;
+        apt2 = p.get(10);
+        if (!p.check("City:")) break;
+        city = p.get();
+        gps = map = "";
+        setFieldList("UNIT ID PLACE ADDR X CALL APT CITY APT");
+
+      }
+      
+      else {
+        if (p.check("**CANCEL RESPONSE**")) {
+          call = "CANCEL - " + p.get(15);
+          if (!p.check("Tcr/")) break;
+
+          setFieldList("UNIT ID PLACE ADDR APT CALL");
+          data.strUnit = unit;
+          data.strCallId = callId;
+          data.strPlace = place;
+          parseAddress(addr, data);
+          data.strCall = call;
+          return true;
+        }
+        boolean addrChange = p.check("**RESPONSE ADDRESS CHANGE**");
+        if (!addrChange && !p.check("**NEW CALL ASSIGNMENT**")) break;
+        if (!p.check("X:")) break;
+        cross = p.get(40);
+        call = p.get(30);
+        if (!p.check(" ")) break;
+        call = append(call, "/", p.get(30));
+        city = p.get(15);
+        if (addrChange) {
+          if (p.get(20).length() > 0) break;
+          if (!p.check("Apt#:")) break;
+        } else { 
+          if (!p.check("Apt #")) break;
+        }
+        apt2 = p.get(10);
+        if (!p.check("BLDG#")) break;
+        if (addrChange && !p.check(":")) break;
+        apt1 = p.get(10);
+        if (!p.check("GPS:")) break;
+        gps = p.get(2)+'.'+p.get(6);
+        if (!p.check("  &")) break;
+        gps = gps+','+p.get(3)+'.'+p.get(6);
+        if (addrChange) {
+          map = "";
+        } else {
+          if (!p.check("      ProQA Code:Map:")) break;
+          map = p.get();
+        }
+        
+        setFieldList("UNIT ID PLACE ADDR X CALL CITY APT GPS MAP");
+      }
+      data.strUnit = unit;
+      data.strCallId = callId;
+      data.strPlace = place;
+      parseAddress(addr, data);
+      data.strCross = cleanCrossField(cross);
+      data.strCall = call;
+      data.strCity = city;
+      data.strApt = append(apt1, "-", data.strApt);
+      data.strApt = append(data.strApt, "-", apt2);
+      setGPSLoc(gps, data);
+      data.strMap = map;
+      return true;
+    } while (false);
+    
+    do {
+      FParser p = new FParser(body);
+      String call = p.get(30);
+      String place = p.get(30);
+      String addr = p.get(50);
+      String city = p.get(12);
+      if (!p.check("CAD #")) break;
+      String callId = p.get(16);
+      String unit = p.get(10);
+      if (!p.check("Bldg:")) break;
+      String apt1 = p.get(10);
+      if (!p.check("Apt:")) break;
+      String apt2 = p.get(10);
+      String cross = p.get(30);
+      String source = p.get(30);
+      
+      setFieldList("CALL PLACE ADDR CITY ID UNIT PLACE APT X SRC");
+      data.strCall = call;
+      data.strPlace = place;
+      parseAddress(addr, data);
+      data.strCity = city;
+      data.strCallId = callId;
+      data.strUnit = unit;
+      data.strApt = append(apt1, "-", data.strApt);
+      data.strApt = append(data.strApt, "-", apt2);
+      data.strCross = cleanCrossField(cross);
+      data.strSource = source;
+      return true;
+    } while (false);
+    
     // There are two types of CAD page, check for the first one
-    Matcher match = MASTER1.matcher(body);
+    match = MASTER1.matcher(body);
     if (match.matches()) {
       setFieldList("UNIT ID CALL ADDR X MAP PLACE APT UNIT");
       addUnitField(getOptGroup(match.group(1)), data);
@@ -78,25 +316,6 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
         parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, sAddr, data);
         data.strCross = cleanCrossField(getLeft());
       }
-      return true;
-    }
-    
-    // OK, time to try the fixed field formats :(
-    if (substring(body,122,127).equals("CAD #") &&
-        substring(body,153,158).equals("Bldg:") && 
-        substring(body,168,172).equals("Apt:") && 
-        substring(body,242,256).equals("Response Plan:")) {
-      setFieldList("CALL PLACE ADDR CITY ID UNIT PLACE APT X SRC");
-      data.strCall = substring(body,0,30);
-      data.strPlace = substring(body,30,60);
-      parseAddress(substring(body,60,110), data);
-      data.strCity = substring(body,110,122);
-      data.strCallId = substring(body,127,143);
-      addUnitField(substring(body,143,153), data);
-      data.strPlace = append(data.strPlace, " - ", substring(body,158,162));
-      data.strApt = substring(body,172,182);
-      data.strCross = cleanCrossField(substring(body,182,212));
-      data.strSource = substring(body,212,242);
       return true;
     }
     
@@ -183,8 +402,18 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
+      Matcher match = CHANNEL_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        data.strChannel = match.group(2);
+      }
       field = cleanCrossField(field);
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "X CH";
     }
   }
   

@@ -1402,7 +1402,6 @@ public static void addCodeTable(Properties props, String[] table) {
    return substring(body, st, Integer.MAX_VALUE);
  }
  
- 
  /**
   * Convience method to extract substring from string which might not
   * be long enough to contain the full substring
@@ -1412,10 +1411,22 @@ public static void addCodeTable(Properties props, String[] table) {
   * @return substring
   */
  public static String substring(String body, int st, int end) {
+   return untrimmedSubstring(body,st,end).trim();
+ }
+ 
+ /**
+  * Convience method to extract substring from string which might not
+  * be long enough to contain the full substring
+  * @param body original string
+  * @param st start position
+  * @param end end position
+  * @return substring
+  */
+ public static String untrimmedSubstring(String body, int st, int end) {
    int len = body.length();
    if (st >= len) return "";
    if (end > len) end = len;
-   return body.substring(st, end).trim();
+   return body.substring(st, end);
  }
 
  /**
