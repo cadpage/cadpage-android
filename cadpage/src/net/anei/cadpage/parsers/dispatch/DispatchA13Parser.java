@@ -12,25 +12,48 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchA13Parser extends FieldProgramParser {
   
+  // Construct flag indicating address field may contain a leading place/name field
+  public static final int A13_FLG_LEAD_PLACE_NAME = 1;
+  
   private static final String PROGRAM = "SRCID? DISPATCHED CALL! ADDR X:GPS1 Y:GPS2";
   
   private Properties cityCodes = null;
   private boolean checkCity;
+  private boolean leadPlaceName;
   
   public DispatchA13Parser(String defCity, String defState) {
-    super(defCity, defState, PROGRAM);
-    checkCity = false;
+    this(defCity, defState, 0);
   }
   
   public DispatchA13Parser(Properties cityCodes, String defCity, String defState) {
-    super(cityCodes, defCity, defState, PROGRAM);
-    this.cityCodes = cityCodes;
-    this.checkCity = (cityCodes != null);
+    this(cityCodes, defCity, defState, 0);
   }
   
   public DispatchA13Parser(String[] cityList, String defCity, String defState) {
+    this(cityList, defCity, defState, 0);
+  }
+  
+  public DispatchA13Parser(String defCity, String defState, int flags) {
+    super(defCity, defState, PROGRAM);
+    checkCity = false;
+    setupFlags(flags);
+  }
+  
+  public DispatchA13Parser(Properties cityCodes, String defCity, String defState, int flags) {
+    super(cityCodes, defCity, defState, PROGRAM);
+    this.cityCodes = cityCodes;
+    this.checkCity = (cityCodes != null);
+    setupFlags(flags);
+  }
+  
+  public DispatchA13Parser(String[] cityList, String defCity, String defState, int flags) {
     super(cityList, defCity, defState, PROGRAM);
     this.checkCity = (cityList != null);
+    setupFlags(flags);
+  }
+  
+  private void setupFlags(int flags) {
+    leadPlaceName = ((flags & A13_FLG_LEAD_PLACE_NAME) != 0);
   }
 
   @Override
@@ -74,11 +97,13 @@ public class DispatchA13Parser extends FieldProgramParser {
   }
   
   // Address field contains address, city, and possibly cross streets
+  // and now an optional leading place name :(
   private static final Pattern NUMBER_COMMA_PTN = Pattern.compile("([-\\d]+), *(.*)");
   private static final Pattern STATE_PTN = Pattern.compile("[A-Z]{2}");
   private static final Pattern APT_PREFIX_PTN = Pattern.compile("^(?:APT|RM|ROOM) *");
   private static final Pattern APT_PTN = Pattern.compile("(?:APT|RM|ROOM) *(.*)|BLDG?.*|.* FLR|.* FLOOR");
   private static final Pattern BREAK_PTN = Pattern.compile(" *(?:[,;]) *");
+  private static final Pattern INCOMPLETE_NAME_PTN = Pattern.compile("[A-Z][A-Za-z]*");
   protected class BaseAddressField extends AddressField {
     
     @Override
@@ -131,11 +156,24 @@ public class DispatchA13Parser extends FieldProgramParser {
       // a cross street
       else {
         String addr = null;
+        boolean incomplete = false;
         for (String fld : BREAK_PTN.split(sPart1)) {
+          fld = stripApt(fld, data);
+          if (fld.length() == 0) continue;
+          
+          // First part is goign to be parsed as an address
+          // If we are looking for leading name, it might contain a comma
           if (addr == null) {
             addr = fld;
+            if (leadPlaceName && INCOMPLETE_NAME_PTN.matcher(fld).matches()) incomplete = true;
             continue;
           }
+          if (incomplete) {
+            addr = addr + ", " + fld;
+            incomplete = false;
+            continue;
+          }
+          
           match = APT_PTN.matcher(fld);
           if (match.matches()) {
             String apt = match.group(1);
@@ -173,11 +211,23 @@ public class DispatchA13Parser extends FieldProgramParser {
           data.strCross = append(data.strCross, " / ", fld);
         }
         
-        addr = stripApt(addr, data);
-        if (data.strCity.length() > 0) {
+        if (!leadPlaceName && data.strCity.length() > 0) {
           parseAddress(addr, data);
         } else {
-          parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, addr, data);
+          StartType st = (leadPlaceName ? StartType.START_OTHER : StartType.START_ADDR);
+          parseAddress(st, FLAG_IGNORE_AT | FLAG_ANCHOR_END, addr, data);
+          String place = getStart();
+          if (place.length() > 0) {
+            if (data.strAddress.length() == 0) {
+              parseAddress(place, data);
+            }
+            else if (checkPlace(place)) {
+              data.strPlace = place;
+            }
+            else {
+              data.strName = place;
+            }
+          }
           
           // another oddity, sometimes the same city occurs at the end of
           // both streets in an intersection, so will try to eliminate the
@@ -301,7 +351,7 @@ public class DispatchA13Parser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "PLACE ADDR CITY ST APT X INFO";
+      return "PLACE NAME ADDR CITY ST APT X INFO";
     }
   }
   

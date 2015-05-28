@@ -11,12 +11,13 @@ public class NYMadisonCountyBParser extends DispatchA13Parser {
   private static final Pattern MISMATCH_PAREN_PTN = Pattern.compile("(\\([^\\)]*)(?=\\()");
   
   public NYMadisonCountyBParser() {
-    super(CITY_LIST, "MADISON COUNTY", "NY");
+    super(CITY_LIST, "MADISON COUNTY", "NY", A13_FLG_LEAD_PLACE_NAME);
+    removeWords("COUNTY");
   }
   
   @Override
   public String getFilter() {
-    return "e-911@co.madison.ny.us,e911@madisoncounty.ny.go,messaging@iamresponding.com,e911@bounce.secureserver.net";
+    return "e-911@co.madison.ny.us,e911@madisoncounty.ny.go,messaging@iamresponding.com,e911@bounce.secureserver.net,e911@madisoncounty.ny.gov";
   }
 
   @Override
