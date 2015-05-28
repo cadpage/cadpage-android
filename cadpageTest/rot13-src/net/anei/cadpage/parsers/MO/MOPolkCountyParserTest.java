@@ -811,7 +811,7 @@ choyvp pynff ZBCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Qvfc: 10/3/2014 18:03:15",
 
         "NQQE:HAXABJA",
-        "ZNQQE:HAXABJA & F 243EQ EQ 6393.32 zv J R 490GU EQ 6393.32 zv J",
+        "ZNQQE:HAXABJA & F 243EQ EQ",
         "CYNPR:UVPXBEL PBHAGL ZB",
         "PNYY:JURNGYNAQ NERN",
         "HAVG:RZF ERDHRFG- RZRETRAPL",
@@ -1089,7 +1089,7 @@ choyvp pynff ZBCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Qvfc: 10/3/2014 06:47:59",
 
         "NQQE:HAXABJA",
-        "ZNQQE:HAXABJA & F 243EQ EQ 6393.32 zv J R 490GU EQ 6393.32 zv J",
+        "ZNQQE:HAXABJA & F 243EQ EQ",
         "CYNPR:HAXABJA ZB",
         "PNYY:BHG BS PBHAGL",
         "HAVG:RZF ERDHRFG- RZRETRAPL",
@@ -2645,7 +2645,7 @@ choyvp pynff ZBCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:258168",
         "NQQE:HAXABJA",
-        "ZNQQE:HAXABJA & F 243EQ EQ 6393.32 zv J R 490GU EQ 6393.32 zv J",
+        "ZNQQE:HAXABJA & F 243EQ EQ",
         "CYNPR:UVPXBEL PBHAGL ZB",
         "PNYY:CVGGFOHET NERN",
         "HAVG:SVER FGEHPGHER ERFVQRAGVNY",
@@ -5048,7 +5048,7 @@ choyvp pynff ZBCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Qvfc: 9/23/2014 11:54:14",
 
         "NQQE:HAXABJA",
-        "ZNQQE:HAXABJA & F 243EQ EQ 6393.32 zv J R 490GU EQ 6393.32 zv J",
+        "ZNQQE:HAXABJA & F 243EQ EQ",
         "CYNPR:HAXABJA ZB",
         "PNYY:BHG BS PBHAGL",
         "HAVG:PNYY ONPX",
