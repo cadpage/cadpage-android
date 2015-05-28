@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">05212015</string>
-  <string name="release_version">v1.8.34</string>
+  <string name="release_date">05282015</string>
+  <string name="release_version">v1.8.35</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+V1.8.35\n
+Location Fixes:\n
+Napa, CA\n
+Warren County, MO\n
+Morris County, NJ\n
+Madison County, NY\n
+Louisa County, VA\n
+\n      
 v1.8.34\n
 Direct Paging has been upgraded to use the latest Google messaging protocol.
 This should have no impact on users.  But you encounter any unexpected problems
@@ -68,18 +76,7 @@ Waukesha County, WI\n
 \n
 General Fixes:
 The word "APTS" was being incorrectly removed from
-most address fields.\n 
-\n      
-v1.8.30\n
-Location Fixes:\n
-Garfield County, CO\n
-Windham County, CT\n
-Decatur County, GA\n
-Hollis, NH\n
-Steuben County, NY\n
-Washington County, OH\n
-CyCreek Comm Center, TX\n
-Waukesha County, WI
+most address fields. 
   </string>
 </resources>
   
