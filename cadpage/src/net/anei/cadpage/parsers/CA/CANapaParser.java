@@ -10,7 +10,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class CANapaParser extends FieldProgramParser {
 
   public CANapaParser() {
-    super(CITY_CODES, "NAPA", "CA", "Location:ADDR/S! TYPE_CODE:CALL! CALLER_NAME:NAME! CALLER_ADDR:SKIP! TIME:TIME!");
+    super(CITY_CODES, "NAPA", "CA", 
+          "Location:ADDR/S? MUN:CITY? TIME:TIME! EVT_#:ID! EV_TYPE:CALL!");
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA | MAP_FLG_PREFER_GPS;
   }
 
   @Override
@@ -21,36 +27,76 @@ public class CANapaParser extends FieldProgramParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("TIME")) return new TimeField("\\d{2}:\\d{2}:\\d{2}");
+    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("TIME")) return new TimeField("\\d{2}:\\d{2}:\\d{2}", true);
+    if (name.equals("CALL")) return new MyCallField();
     return super.getField(name);
   }
 
-  private static Pattern ADDR_APT_PLACE_APT_PLACE = Pattern.compile("(.*?)(?:,(.*?))?(?:: (?:@(.*?))?(?:#(.*?))?(?:@(.*?))?)?"); // we dont know if @ or # comes first
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      Matcher mat = ADDR_APT_PLACE_APT_PLACE.matcher(field);
-      if (!mat.matches()) abort();
-      super.parse(mat.group(1), data);
-      data.strApt = append(getOptGroup(mat.group(2)), ", ", getOptGroup(mat.group(4)));
-      data.strPlace = append(getOptGroup(mat.group(3)), ", ", getOptGroup(mat.group(5)));
+      int pt = field.indexOf(": @");
+      if (pt >= 0) {
+        data.strPlace = field.substring(pt+3).trim();
+        field = field.substring(0,pt).trim();
+      }
+      pt = field.indexOf(',');
+      if (pt >= 0) {
+        data.strApt = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+      }
+      super.parse(field, data);
+      
+      pt = data.strAddress.indexOf(": alias");
+      if (pt >= 0) {
+        data.strAddress = data.strAddress.substring(0,pt).trim() + " (" + data.strAddress.substring(pt+7).trim() + ')';
+      }
     }
 
     @Override
     public String getFieldNames() {
-      return "ADDR CITY APT PLACE";
+      return super.getFieldNames() + " PLACE";
+    }
+  }
+  
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() == 0) return;
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern CALL_GPS_PTN = Pattern.compile("(.*?) \\(LAT: *([\\d\\.]+) *LON: *(-[\\d\\.]+)\\)");
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = CALL_GPS_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        setGPSLoc(match.group(2) + ',' + match.group(3), data);
+      }
+      data.strCall = field;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CALL GPS";
     }
   }
 
   private static final Properties CITY_CODES = buildCodeTable(new String[] {
-    "AMC", "AMERICAN CANYON",
-    "CNTY CST", "CALISTOGA COUNTY",
+    "AMC",       "AMERICAN CANYON",
+    "ANG",       "ANGWIN",
+    "CNTY",      "NAPA COUNTY",
+    "CNTY CST",  "CALISTOGA COUNTY",
     "CNTY NAPA", "NAPA COUNTY",
-    "CST", "CALISTOGA",
-    "DRP", "DEER PARK",
-    "NAPA", "NAPA",
-    "STH", "ST HELENA",
-    "YNT", "YOUNTVILLE"
+    "CST",       "CALISTOGA",
+    "DRP",       "DEER PARK",
+    "NAPA",      "NAPA",
+    "STH",       "ST HELENA",
+    "YNT",        "YOUNTVILLE"
   });
   
 }

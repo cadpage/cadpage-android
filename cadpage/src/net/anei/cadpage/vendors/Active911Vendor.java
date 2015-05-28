@@ -210,6 +210,7 @@ class Active911Vendor extends Vendor {
       "US/CA/MarinCountySheriff",         "CAMarinCounty",
       "US/CA/MendocinoCounty",            "CAMendocinoCounty",
       "US/CA/Monterey",                   "CAMontereyCountyParser",
+      "US/CA/CityofNapa",                 "CANapa",
       "US/CA/OrovillePD",                 "CAOroville",
       "US/CA/PlacerCounty",               "CAPlacerCounty",
       "US/CA/SacramentoFire",             "CASacramentoCounty",
