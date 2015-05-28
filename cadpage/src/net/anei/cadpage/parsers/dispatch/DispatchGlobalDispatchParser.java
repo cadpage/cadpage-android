@@ -31,6 +31,7 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   private Pattern unitPtn;
   private boolean leadStuff;
   private boolean trailStuff;
+  private boolean placeFollowsAddress;
   
   private String select;
   
@@ -59,6 +60,7 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     this.unitPtn = unitPtn;
     leadStuff = (flags & LEAD_SRC_UNIT_ADDR) != 0;
     trailStuff = (flags & TRAIL_SRC_UNIT_ADDR) != 0;
+    placeFollowsAddress = (flags & PLACE_FOLLOWS_ADDR) != 0;
   }
   
   private static final String calcAddressTerm(int flags, boolean inclCity) {
@@ -200,6 +202,15 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
         data.strUnit = sba[2].toString();
       }
       super.parse(field, data);
+      
+      // If we place follows the address, see if it looks more like an
+      // extension of the address
+      if (placeFollowsAddress) {
+        if (data.strPlace.startsWith("&") || data.strPlace.startsWith("/")) {
+          data.strAddress = append(data.strAddress, " & ", data.strPlace.substring(1).trim());
+          data.strPlace = "";
+        }
+      }
     }
     
     @Override
@@ -250,4 +261,16 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
       data.strCallId = append(data.strCallId, "/", field);
     }
   }
+
+  @Override
+  public String adjustMapAddress(String sAddress, boolean cross) {
+    if (cross) {
+      Matcher match = X_MI_MARK_PTN.matcher(sAddress);
+      if (match.find()) sAddress = sAddress.substring(0,match.start());
+    }
+    return super.adjustMapAddress(sAddress, cross);
+  }
+  private static final Pattern X_MI_MARK_PTN = Pattern.compile(" +\\d+\\.\\d+ mi\\b");
+  
+  
 }
