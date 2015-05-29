@@ -823,6 +823,7 @@ class Active911Vendor extends Vendor {
       "US/TX/Stationalerting",            "TXFortBendCountyB",
       "US/TX/TarrantCounty",              "TXTarrantCounty",
       "US/TX/VillageFire",                "TXVillage",
+      "US/TX/WalkerCounty",               "TXWalkerCounty",
       "US/TX/West",                       "TXMclennanCounty",
       "US/TX/Wilco",                      "TXWilliamsonCounty",
       "US/TX/WylieFireDispatch",          "TXWylie",
