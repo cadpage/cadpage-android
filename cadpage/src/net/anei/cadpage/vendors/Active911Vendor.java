@@ -293,6 +293,7 @@ class Active911Vendor extends Vendor {
       "US/GA/WhiteCounty",                "GAWhiteCounty",
       "US/IA/CerroGordoCounty",           "IACerroGordoCounty",
       "US/IA/CityofBurlington",           "IADesMoinesCounty",
+      "US/IA/CityofMaquoketa",            "IAJacksonCounty",
       "US/IA/PolkCounty",                 "IAPolkCounty",
       "US/IA/WorthCounty",                "IAWorthCounty",
       "US/ID/BlaineCounty",               "IDBlaineCounty",

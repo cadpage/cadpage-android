@@ -67,6 +67,16 @@ public class IAJacksonCountyParser extends FieldProgramParser {
         zip = match.group(3);
       }
       super.parse(field, data);
+      
+      // If no city found, see if it was separated from teh address with a dash
+      int pt = data.strAddress.lastIndexOf('-');
+      if (pt >= 0) {
+        String city = data.strAddress.substring(pt+1).trim();
+        if (isCity(city)) {
+          data.strCity = city;
+          data.strAddress = data.strAddress.substring(0,pt).trim();
+        }
+      }
       if (zip != null && data.strCity.length() == 0) data.strCity = zip;
     }
     
