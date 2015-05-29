@@ -2417,6 +2417,14 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class AddressCityField extends AddressField {
     
+    public AddressCityField() {};
+    public AddressCityField(String pattern) {
+      super(pattern);
+    }
+    public AddressCityField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
+    
     private Field cityField = new CityField(); 
     
     @Override
