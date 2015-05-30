@@ -243,6 +243,7 @@ class Active911Vendor extends Vendor {
       "US/CO/Fountain",                   "COElPasoCountyC",
       "US/CO/GarfieldCounty",             "COGarfieldCounty",
       "US/CO/GrandCounty",                "COGrandCounty",
+      "US/CO/Metcom911",                  "COArapahoeCounty",
       "US/CO/MorganCounty",               "COMorganCounty",
       "US/CO/NWSAlert",                   "StandardNationalWeatherService",
       "US/CO/OlatheFire",                 "COMontroseCounty",
