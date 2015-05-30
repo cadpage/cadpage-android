@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.CO;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.ReverseCodeSet;
@@ -11,12 +12,18 @@ public class COArapahoeCountyParser extends FieldProgramParser {
   
   public COArapahoeCountyParser() {
     super("ARAPAHOE COUNTY", "CO",
-           "HEAD? ID ( MAP ( GPS1 | ADDR/Z GPS1 ) | ADDR/Z? MAP GPS1 ) GPS2 APT BLDG PLACE CALL UNIT! INFO+");
+           "HEAD? ID ( MAP ( GPS1 | ADDR/Z GPS1 ) | ADDR/Z? MAP GPS1 ) GPS2 DUP_ADDR? APT BLDG PLACE CALL UNIT! INFO+");
+    setupSpecialStreets("BROADWAY", "BROADWAY CIR");
   }
   
   @Override
   public String getFilter() {
     return "metcomdispatch@metcom911.org";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
   }
   
   private static final Pattern MASTER = Pattern.compile("(?:(?:Comment: (.*) )?Info Only: )?(?:([A-Z]{1,2}-\\d{2}-[A-Z](?:-[A-Z])?) )?(.*?) *([A-Z][,A-Z0-9]+)");
@@ -33,18 +40,19 @@ public class COArapahoeCountyParser extends FieldProgramParser {
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     
-    setFieldList("INFO MAP ADDR APT CALL UNIT");
+    setFieldList("INFO MAP ADDR APT PLACE CALL UNIT");
     data.strSupp = getOptGroup(match.group(1));
     data.strMap = getOptGroup(match.group(2));
     body = match.group(3).trim();
     data.strUnit = match.group(4);
     
     String call = CALL_LIST.getCode(body, true);
+    if (call != null) body = body.substring(0,body.length()-call.length()).trim();
+    parseAddress(StartType.START_ADDR, body, data);
     if (call != null) {
       data.strCall = call;
-      parseAddress(body.substring(0,body.length()-call.length()).trim(), data);
+      data.strPlace = getLeft();
     } else {
-      parseAddress(StartType.START_ADDR, body, data);
       data.strCall = getLeft();
       if (data.strCall.length() == 0) return false;
     }
@@ -58,6 +66,7 @@ public class COArapahoeCountyParser extends FieldProgramParser {
     if (name.equals("MAP")) return new MapField("[A-Z]{1,2}-\\d{2}-[A-Z](?:-[A-Z])?", true);
     if (name.equals("GPS1")) return new MyGPSField(1);
     if (name.equals("GPS2")) return new MyGPSField(2);
+    if (name.equals("DUP_ADDR")) return new MyDupAddrField();
     if (name.equals("BLDG")) return new MyBuildingField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
@@ -87,6 +96,22 @@ public class COArapahoeCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       if (!checkParse(field, data)) abort();
+    }
+  }
+  
+  private class MyDupAddrField extends SkipField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (data.strAddress.length() > 0) {
+        if (field.equals(data.strAddress)) return true;
+        if (field.equals(getRelativeField(-2))) return true;
+      }
+      return false;
     }
   }
   
@@ -128,13 +153,14 @@ public class COArapahoeCountyParser extends FieldProgramParser {
     }
   }
   
+  @Override
+  public CodeSet getCallList() {
+    return CALL_LIST;
+  }
+  
   private static final ReverseCodeSet CALL_LIST = new ReverseCodeSet(
-      "10 GREENWOOD POINT APTS BLDG 10 Hemorrhage/Lacerations",
-      "10 GREENWOOD POINT APTS BLDG 10 x21D-Hemorrhage/Lacerations",
-      "(3960 BROADWAY) Alarm-CO No Sick Parties",
       "Abdominal Pain/Problem",
-      "A ENGLEWOOD POST ACUTE AND REHAB Medical Assist",
-      "A GOLDEN NUGGET APARTMENTS (201 BELLEVIEW) Traumatic Injuries (Specific)",
+      "Air Alert 2 Inflight Emergency",
       "Alarm-CO No Sick Parties",
       "Alarm-Fire Alarm Commercial",
       "Alarm-Fire Alarm Residential",
@@ -145,33 +171,14 @@ public class COArapahoeCountyParser extends FieldProgramParser {
       "Assist - Lock In (Child/Pet)",
       "Assist - Lock Out",
       "Assist - Other Agency Assist",
-      "Ave VILLAGE PLAZA LOFTS Resc - Confined Space Rescue",
+      "Assist - Public Assist",
       "Back Pain (Non-Traumatic)",
-      "BANK OF THE WEST (HAMPDEN AVE) Alarm-Fire Alarm Commercial",
-      "BLDG 1 KIMBERLY WOODS APTS BLDG 1 Medical Assist",
       "Breathing Problems",
       "Cardiac or Respiratory Arrest",
-      "CARMEL PARK APTS (135 BELLEVIEW) Medical Assist",
-      "CARMEL PARK Cardiac or Respiratory Arrest",
-      "CENTENNIAL AIRPORT-7800 S PEORIA ST Air Alert 2 Inflight Emergency",
-      "CH-ENGLEWOOD FIRST ASSEMBLY CHURCH Falls",
       "Chest Pain (Non-Traumatic)",
-      "COIT CLEANING SERVICE Alarm-Fire Alarm Commercial",
       "Convulsions/Seizures",
-      "COURTNEY DOWNS APTS (JAMISON DR) Fire - Appliance Fire",
-      "CRAIG FAMILY HOUSING BUILDING Breathing Problems",
-      "CRAIG HOSP PARKING GARAGE Falls",
-      "CREATIVE INSTALLATION SOLUTIONS INC. Alarm-Fire Alarm Commercial",
       "Driveway Eye Problems/ Injuries",
-      "E470 NB AT 64TH",
       "Electrical Hazard",
-      "Element Hotel SF - Comm Str Fire Reported",
-      "ELEPHANT BAR SF - Comm Str Fire Reported",
-      "ENGLEWOOD POST ACUTE AND REHAB Medical Assist",
-      "E RIVERSTONE RESIDENTIAL Cardiac or Respiratory Arrest",
-      "E RIVERSTONE RESIDENTIAL x9E-Cardiac/Resp Arrest",
-      "EXTENDED STAY AMERICA (YOSEMITE ST) SF1C - Commercial Str Fire",
-      "EXTENDED STAY AMERICA (YOSEMITE ST) SF - Comm Str Fire Reported",
       "Falls",
       "Fire - Appliance Fire",
       "Fire - BBQ Grill Fire",
@@ -183,33 +190,16 @@ public class COArapahoeCountyParser extends FieldProgramParser {
       "Fuel Spill Small",
       "Gas - Commercial Leak/Odor",
       "Gas - Residential Leak/Odor",
-      "GATEWAY Medical Assist",
-      "GOLDEN NUGGET APARTMENTS (201 BELLEVIEW) Traumatic Injuries (Specific)",
-      "GREENWOOD POINT APTS BLDG 10 Hemorrhage/Lacerations",
       "HazMat",
       "Heart Problems/ A.I.C.D",
-      "HOSP-SWEDISH MEDICAL CENTER Assist - Public Assist",
-      "HOSP-SWEDISH MEDICAL CENTER Sick Person (Spec. Diagnosis)",
-      "HOUR FITNESS (OSWEGO ST) Gas - Commercial Leak/Odor",
-      "I70 EB AT AIRPARK Chest Pain (Non-Traumatic)",
+      "Hemorrhage/Lacerations",
       "Invest - Lighting Strike",
+      "Invest - Odor Commercial",
       "Invest - Odor Outside",
       "Invest - Smoke Inside",
       "Invest - Smoke Outside",
-      "JENNIFER JO APARTMENTS Medical Assist",
-      "JULIA TEMPLE CENTER Hemorrhage/Lacerations",
-      "KIMBERLY WOODS APTS BLDG 1 Hemorrhage/Lacerations",
-      "KIMBERLY WOODS APTS BLDG 1 Medical Assist",
-      "KING SOOPERS - BELLVIEW & FEDERAL (EFD) Assault/Sexual Assault",
-      "LINCOLN SQUARE LOFTS (NORTH BLDG) Gas - Commercial Leak/Odor",
       "Line Down / Transformer",
-      "LODGE AT WILLOW CREEK, THE (BLDG 25) Gas - Commercial Leak/Odor",
-      "MAGGIANOS Fire - Outside Fire",
-      "MEADOW GOLD DAIRY Medical Assist",
       "Medical Assist",
-      "METROPOLITAN AT LINCOLN STN APTS (BLDG 3) Gas - Commercial Leak/Odor",
-      "MM 313 I70 EB MVA Traffic Pedestrian Acciden",
-      "MONTEREY APTS Assist - Lock Out",
       "MVA Extrication",
       "MVA Highway",
       "MVA Injuries",
@@ -218,28 +208,24 @@ public class COArapahoeCountyParser extends FieldProgramParser {
       "MVA Unknown Injuries",
       "MVA Vehicle Into Building",
       "Overdose/Poisoning (Ingestion)",
-      "PARK GUELL CONDOS (BLDG P) SF - Multi-Fam Str Fire Report",
       "Psych/Abn Behavior/Suicide Att",
-      "RIVERSTONE RESIDENTIAL Cardiac or Respiratory Arrest",
-      "RIVERSTONE RESIDENTIAL Invest - Odor Commercial",
-      "SCH-SAINT MARYS ACADEMY SF - Comm Str Fire Reported",
+      "Resc - Confined Space Rescue",
       "SF - Comm Str Fire Reported",
+      "SF - Multi-Fam Str Fire Report",
       "SF - Outbuilding Fire",
       "SF - Res Str Fire Reported",
+      "SF1C - Commercial Str Fire",
       "Sick Person (Spec. Diagnosis)",
-      "SIMON CENTER Falls",
       "Stab/Gunshot/Penetrating Traum",
       "Standby In The Area",
-      "STRASBURG FIRE STATION 81 Assist - Other Agency Assist",
-      "STRASBURG FIRE STATION 81 Traumatic Injuries (Specific)",
       "Stroke(CVA)",
       "Test Call (Do Not Dispatch )",
+      "Traffic Pedestrian Acciden",
       "Traumatic Injuries (Specific)",
       "Unconscious/Fainting (Near)",
-      "VILLAGE LOFTS Gas - Commercial Leak/Odor",
-      "VIRIDIAN SF - Multi-Fam Str Fire Report",
-      "WATERWAY CARWASH (QUEBEC ST) Gas - Commercial Leak/Odor",
       "x1A-Abdominal Pain/Problems",
-      "x26A-Sick Person"
+      "x21D-Hemorrhage/Lacerations",
+      "x26A-Sick Person",
+      "x9E-Cardiac/Resp Arrest"
   );
 }
