@@ -556,8 +556,8 @@ choyvp pynff GKPlSnveCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(CNTVAT ZRFFNTR SEBZ PNQ) PSZ06 / ZRQVPNY PNYY /12118 Ynthan Greenpr Qe FNTB CNEX YA/Ab K Fgerrg Sbhaq / /FHO:YNXRF BA RYQEVQTR ABEGU /ZNC:409J /HAVGF NFFVTARQ:PSZ06",
         "HAVG:PSZ06",
         "PNYY:ZRQVPNY PNYY",
-        "NQQE:12118 Ynthan Greenpr",
-        "K:Qe FNTB CNEX YA",
+        "NQQE:12118 Ynthan Greenpr Qe",
+        "K:FNTB CNEX YA",
         "PVGL:YNXRF BA RYQEVQTR ABEGU",
         "ZNC:409J");
 

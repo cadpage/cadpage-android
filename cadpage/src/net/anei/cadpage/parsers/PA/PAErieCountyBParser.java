@@ -19,6 +19,10 @@ public class PAErieCountyBParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    // Rule out PAErieCountyA messages
+    if (body.startsWith("ERIE911:")) return false;
+    
     if (body.endsWith(" -")) body = body + ' ';
     String[] flds = body.split(" - ", -1);
     return parseFields(flds, 3, data);

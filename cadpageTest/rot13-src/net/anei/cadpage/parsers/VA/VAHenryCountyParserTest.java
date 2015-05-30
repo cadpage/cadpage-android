@@ -1548,8 +1548,8 @@ choyvp pynff INUraelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G49",
         "27 EVQTRJNL GREENPR QE 2 EVQTRJNL RTTYRFGBA SNYYF EQ K QRNQ RAQ 2014060882 17:14:38 -PURFG CNVAF 1",
-        "NQQE:27 EVQTRJNL GREENPR",
-        "NCG:QE 2",
+        "NQQE:27 EVQTRJNL GREENPR QE",
+        "NCG:2",
         "PVGL:EVQTRJNL",
         "K:RTTYRFGBA SNYYF EQ / QRNQ RAQ",
         "VQ:2014060882",

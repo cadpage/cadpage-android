@@ -597,8 +597,7 @@ choyvp pynff VYXnarPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OS FVPX CREFBA 18 BNX GREENPR PG, ONGNIVN 9/5/2013 16:09:53",
         "FEP:OS",
         "PNYY:FVPX CREFBA",
-        "NQQE:18 BNX GREENPR",
-        "NCG:PG",
+        "NQQE:18 BNX GREENPR PG",
         "PVGL:ONGNIVN",
         "QNGR:9/5/2013",
         "GVZR:16:09:53");

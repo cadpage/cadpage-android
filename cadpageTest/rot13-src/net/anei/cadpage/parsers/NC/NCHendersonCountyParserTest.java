@@ -5842,8 +5842,7 @@ choyvp pynff APUraqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G27",
         "UPFB CntrTngr Freivpr:15022610 165 CBGGREL GREENPR GEY SYNG EBPX FGEBXR/GVN QN1,RZF#1 Yvar16= Yvar17= Yvar18=",
         "VQ:15022610",
-        "NQQE:165 CBGGREL GREENPR",
-        "NCG:GEY",
+        "NQQE:165 CBGGREL GREENPR GEY",
         "PVGL:SYNG EBPX",
         "PNYY:FGEBXR/GVN",
         "HAVG:QN1,RZF#1");
@@ -7163,8 +7162,7 @@ choyvp pynff APUraqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G79",
         "UPFB CntrTngr Freivpr:15017593 173 XNYZVN GREENPR PG URAQREFBAIVYYR FVPX CREFA RUF1,RZF#4 Yvar16= Yvar17= Yvar18=",
         "VQ:15017593",
-        "NQQE:173 XNYZVN GREENPR",
-        "NCG:PG",
+        "NQQE:173 XNYZVN GREENPR PG",
         "PVGL:URAQREFBAIVYYR",
         "PNYY:FVPX CREFA",
         "HAVG:RUF1,RZF#4");
@@ -11296,8 +11294,7 @@ choyvp pynff APUraqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G54",
         "UPFB CntrTngr Freivpr:15023270 9 CBGGREL GREENPR GEY SYNG EBPX FVPX CREFA OE1,RZF#3 Yvar16= Yvar17= Yvar18=",
         "VQ:15023270",
-        "NQQE:9 CBGGREL GREENPR",
-        "NCG:GEY",
+        "NQQE:9 CBGGREL GREENPR GEY",
         "PVGL:SYNG EBPX",
         "PNYY:FVPX CREFA",
         "HAVG:OE1,RZF#3");
@@ -11411,8 +11408,7 @@ choyvp pynff APUraqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G67",
         "UPFB CntrTngr Freivpr:15022610 165 CBGGREL GREENPR GEY SYNG EBPX FGEBXR/GVN OE1,QN1,RZF#1 Yvar16= Yvar17= Yvar18=",
         "VQ:15022610",
-        "NQQE:165 CBGGREL GREENPR",
-        "NCG:GEY",
+        "NQQE:165 CBGGREL GREENPR GEY",
         "PVGL:SYNG EBPX",
         "PNYY:FGEBXR/GVN",
         "HAVG:OE1,QN1,RZF#1");
