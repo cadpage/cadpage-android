@@ -15,7 +15,8 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
   private static final Pattern PART_MARKER = Pattern.compile("^\\d\\d:\\d\\d ");
   private static final Pattern DATE_PTN = Pattern.compile("(\\d+)/(\\d+)");
   private static final Pattern MARKER1 = Pattern.compile("(?:/ (?:no subject / )?)?(?:(\\d\\d/\\d\\d) )?(?:(\\d\\d:\\d\\d) )?(?:Inc: *(\\d*);)?");
-  private static final Pattern MARKER2 = Pattern.compile("Assigned to Incident (\\d{9}) +");
+  private static final Pattern MARKER2 = Pattern.compile("(?:Assigned to Incident|Status Changed to Available|Resend Incident Information) (\\d{9}) +");
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("Unit: *([^ ]*) +Dispatched:.*");
   private static final Pattern MISSED_COLON_PTN = Pattern.compile("(?<=Map)(?=\\d)");
   private static final Pattern TRAILER = Pattern.compile(" +(\\d{8,}) *$");
   
@@ -91,6 +92,14 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
         data.strCallId = match.group(1);
         body = body.substring(match.end());
       }
+    }
+    
+    match = RUN_REPORT_PTN.matcher(body);
+    if (match.matches()) {
+      data.strCall = "RUN REPORT";
+      data.strUnit = match.group(1);
+      data.strPlace = body;
+      return true;
     }
     
     if (body.startsWith("Repage:")) body = body.substring(7).trim();
