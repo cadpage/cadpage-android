@@ -26,6 +26,11 @@ Pbagnpg: Wbr Errq <wzerrq1959@irevmba.arg>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Perfprag) Purfg Cnva - 11 Fbhgu Jnfuvatgba Fgerrg -  -
 
+Pbagnpg: Wbua J. Uhcc VVV <wuhccvvv@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(Perfprag) Qvnorgvp Rzretrapl - 10510 RNFG YNXR EBNQ - PRZRGREL EBNQ & ABEGU ZVYY FGERRG
+(Perfprag) Snyy Ivpgvz - 41 OREAJBBQ QEVIR - UHGPUVAFBA QEVIR & YBJEL YNAR
+
 Trareny nyregf!
 2AQ GNC ZRQVPNY NYNEZ  32 JRFG CRNEY FGERRG.  QEVIRE ARRQRQ
 2AQ GNC RZF FPV NYOVBA SEBAG RAGENAPR PURFG CNVA.  QP/JPR.
@@ -127,6 +132,23 @@ choyvp pynff CNRevrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Purfg Cnva",
         "NQQE:11 Fbhgu Jnfuvatgba Fgerrg");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbuaJUhccVVV() {
+
+    qbGrfg("G1",
+        "(Perfprag) Qvnorgvp Rzretrapl - 10510 RNFG YNXR EBNQ - PRZRGREL EBNQ & ABEGU ZVYY FGERRG",
+        "PNYY:Qvnorgvp Rzretrapl",
+        "NQQE:10510 RNFG YNXR EBNQ",
+        "K:PRZRGREL EBNQ & ABEGU ZVYY FGERRG");
+
+    qbGrfg("G2",
+        "(Perfprag) Snyy Ivpgvz - 41 OREAJBBQ QEVIR - UHGPUVAFBA QEVIR & YBJEL YNAR",
+        "PNYY:Snyy Ivpgvz",
+        "NQQE:41 OREAJBBQ QEVIR",
+        "K:UHGPUVAFBA QEVIR & YBJEL YNAR");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

@@ -14,15 +14,14 @@ public class PAErieCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "wececc@verizon.net";
+    return "wececc@verizon.net,messaging@iamresponding.com";
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     if (body.endsWith(" -")) body = body + ' ';
     String[] flds = body.split(" - ", -1);
-    if (flds.length < 4) return false;
-    return parseFields(flds, data);
+    return parseFields(flds, 3, data);
   }
   
   
