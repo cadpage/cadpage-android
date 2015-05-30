@@ -198,6 +198,7 @@ public class ParserList {
           ),
           new ParserCategory("Colorado"
               ,"COAdamsCounty"                  ,"Adams County, CO"
+              ,"COArapahoeCounty"               ,"Arapahoe County"
               ,"COArchuletaCounty"              ,"Archuleta County, CO"
               ,"COBoulderCounty"                ,"Boulder County, CO"
               ,"CODeltaCounty"                  ,"Delta County, CO"
@@ -1262,6 +1263,7 @@ public class ParserList {
           new ParserCategory("Wisconsin"
               ,"WIBrownCounty"                  ,"Brown County, WI"
               ,"WICalumetCounty"                ,"Calumet County, WI"
+              ,"WIDaneCounty"                   ,"Dane County, WI"
               ,"WIDoorCounty"                   ,"Door County, WI"
               ,"WIEauClaire"                    ,"Eau Claire, WI"
               ,"WIKenoshaCounty"                ,"Kenosha County, WI"
