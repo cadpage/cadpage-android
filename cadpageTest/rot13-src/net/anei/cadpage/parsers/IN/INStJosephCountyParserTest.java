@@ -64,6 +64,8 @@ Fraqre: 5742617686
 10:50CZ 01/30/2015 Vp# 24 PBZZS010 Qf# 132001 Ny# 1 Hgy# T-393 01/30/15-67266 FE 23 UJ YV :(29600) DHVAPL EQHAX ZRQVPNY SEBZ YNAQZNEX FRPHEVGL 2235,006CRE NYENZ PBZCNAL AB NAF NG CERZVFR 2236,0064002 RA EBHGR 2238,0104002 ERD'Q 2AQ QVFCNGPU 2241,010Q71 ,ZR10 ,AYNF1
 01:05NZ 01/31/2015 ->Vap Nqqe = 67266 FE 23 UJRdhvc = Q71Perngr = 22 35 43Nftarq = 22 50 41Rebhgr = 22 52 17Fprar  = 22 53 29Genafc =Neevir =Ninvy  =  1 05 43Ecg # = 15-10000013
 10:11CZ 01/24/2015 ->Vap Nqqe = 00504 JNFUVATGBA FGRdhvc = Q71Perngr = 20 46 56Nftarq = 20 47 50Rebhgr = 20 55 31Fprar  = 21 06 24Genafc =Neevir =Ninvy  = 22 11 20Ecg # = 15-10000012
+07:20CZ 05/29/2015 Vp# 29 PENFU010 Qf# 132001 Ny# 1 Hgy# 366-367 05/29/15-64000 FE 23 UJ YV :(29000) ARJ EQCV 1921,010Q71 ,ZR10 ,AYNF1
+07:46CZ 05/29/2015 ->Vap Nqqe = 64000 FE 23 UJRdhvc = Q71Perngr = 19 21 07Nftarq = 19 21 49Rebhgr = 19 27 02Fprar  = 19 29 17Genafc =Neevir =Ninvy  = 19 47 21Ecg # = 15-10000042
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Craa Gjc SQ
@@ -804,6 +806,25 @@ choyvp pynff VAFgWbfrcuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "10:11CZ 01/24/2015 ->Vap Nqqe = 00504 JNFUVATGBA FGRdhvc = Q71Perngr = 20 46 56Nftarq = 20 47 50Rebhgr = 20 55 31Fprar  = 21 06 24Genafc =Neevir =Ninvy  = 22 11 20Ecg # = 15-10000012",
         "PNYY:EHA ERCBEG",
         "CYNPR:10:11CZ 01/24/2015 ->Vap Nqqe = 00504 JNFUVATGBA FGRdhvc = Q71Perngr = 20 46 56Nftarq = 20 47 50Rebhgr = 20 55 31Fprar  = 21 06 24Genafc =Neevir =Ninvy  = 22 11 20Ecg # = 15-10000012");
+
+    qbGrfg("G5",
+        "07:20CZ 05/29/2015 Vp# 29 PENFU010 Qf# 132001 Ny# 1 Hgy# 366-367 05/29/15-64000 FE 23 UJ YV :(29000) ARJ EQCV 1921,010Q71 ,ZR10 ,AYNF1",
+        "PNYY:29 PENFU010",
+        "VQ:132001-1",
+        "ZNC:366-367",
+        "QNGR:05/29/2015",
+        "NQQE:64000 FE 23 UJ",
+        "ZNQQE:64000 VA 23",
+        "PVGL:YVOREGL GJC",
+        "K:29000 ARJ EQ",
+        "VASB:CV / Q71 ,ZR10 ,AYNF1",
+        "GVZR:19:20:00",
+        "HAVG:010");
+
+    qbGrfg("G6",
+        "07:46CZ 05/29/2015 ->Vap Nqqe = 64000 FE 23 UJRdhvc = Q71Perngr = 19 21 07Nftarq = 19 21 49Rebhgr = 19 27 02Fprar  = 19 29 17Genafc =Neevir =Ninvy  = 19 47 21Ecg # = 15-10000042",
+        "PNYY:EHA ERCBEG",
+        "CYNPR:07:46CZ 05/29/2015 ->Vap Nqqe = 64000 FE 23 UJRdhvc = Q71Perngr = 19 21 07Nftarq = 19 21 49Rebhgr = 19 27 02Fprar  = 19 29 17Genafc =Neevir =Ninvy  = 19 47 21Ecg # = 15-10000042");
 
   }
 
