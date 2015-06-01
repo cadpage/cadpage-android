@@ -196,7 +196,7 @@ public class TXBrazosCountyParser extends FieldProgramParser {
       }
       m = GPS_PATTERN.matcher(field);
       if (m.matches()) {
-        setGPSLoc(m.group(2).trim()+","+m.group(1).trim(), data);
+        setGPSLoc(m.group(2)+","+m.group(1), data);
         return;
       }      
       m = UNIT_PATTERN.matcher(field);

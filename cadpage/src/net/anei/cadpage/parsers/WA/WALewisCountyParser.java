@@ -118,6 +118,7 @@ public class WALewisCountyParser extends FieldProgramParser {
   }
   
   private static final Pattern GPS_PTN = Pattern.compile("[-+]?\\d{8,9}");
+  private static final Pattern GPS_PTN2 = Pattern.compile("[-+]?\\d*");
   private class MyGPSField extends GPSField {
     
     public MyGPSField(int type) {
@@ -126,10 +127,13 @@ public class WALewisCountyParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
-      if (!GPS_PTN.matcher(field).matches()) abort();
-      int pt = field.length()-6;
-      field = field.substring(0,pt) + '.' + field.substring(pt);
-      super.parse(field, data);
+      if (GPS_PTN.matcher(field).matches()) {
+        int pt = field.length()-6;
+        field = field.substring(0,pt) + '.' + field.substring(pt);
+        super.parse(field, data);
+      } else {
+        if (!GPS_PTN2.matcher(field).matches()) abort();
+      }
     }
   }
 }
