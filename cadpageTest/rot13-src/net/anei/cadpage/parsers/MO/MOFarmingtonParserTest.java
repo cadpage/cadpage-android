@@ -183,7 +183,7 @@ choyvp pynff ZBSnezvatgbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OHETYNEL NYNEZ\aJRORE EQ\aPBYHZOVN FG & PBYYRTR NIR\a\aNHQVOYR NYNEZ FBHAQVAT",
         "PNYY:OHETYNEL NYNEZ",
         "NQQE:JRORE EQ",
-        "ZNQQE:JRORE EQ & PBYHZOVN FG",
+        "ZNQQE:JRORE EQ & PBYHZOVN FG", //qbrf abg znc
         "K:PBYHZOVN FG & PBYYRTR NIR",
         "VASB:NHQVOYR NYNEZ FBHAQVAT");
 
@@ -245,7 +245,7 @@ choyvp pynff ZBSnezvatgbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G14",
         "1050 W1\a67AO CNFG WBUA QRRER\a\a111F",
         "PNYY:1050 W1",
-        "NQQE:67AO CNFG WBUA QRRER",
+        "NQQE:67AO CNFG WBUA QRRER", //qbrf abg znc
         "ZNQQE:67 CNFG WBUA QRRER",
         "VASB:111F");
 

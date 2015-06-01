@@ -6359,7 +6359,7 @@ choyvp pynff NYWrssrefbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "A:54 lbs",
 
         "PNYY:Zrqvpny Frvmher",
-        "NQQE:407 2AQ FG",
+        "NQQE:407 2AQ FG", //qbrf abg znc
         "PVGL:Wrssrefba Pbhagl",
         "K:PVEPYR QE / 6GU NIR",
         "HAVG:ZVABE",
@@ -8189,7 +8189,7 @@ choyvp pynff NYWrssrefbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny Snyy",
         "NQQE:5527 CNEXIVRJ GEP",
         "ZNQQE:5527 CNEXIVRJ GEPR",
-        "HAVG:FLYFC",
+        "HAVG:FLYFC", //vf guvf n pvgl pbqr?
         "QNGR:5/28/2015",
         "GVZR:06:19:55",
         "VQ:969/2015-00000608 (00124)",
@@ -11367,7 +11367,7 @@ choyvp pynff NYWrssrefbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Aneengvir nqqrq sebz nffbpvngrq Pnyy #: 270 - ..",
 
         "PNYY:Zrqvpny ZIN/Bireghearq",
-        "NQQE:78R & TERRAGBC",
+        "NQQE:78R & TERRAGBC", //qbrf abg znc
         "HAVG:R1002",
         "QNGR:5/28/2015",
         "GVZR:15:34:23",
