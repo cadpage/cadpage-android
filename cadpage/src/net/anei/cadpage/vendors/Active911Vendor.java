@@ -778,6 +778,7 @@ class Active911Vendor extends Vendor {
       "US/TX/AransasCounty",              "TXAransasCounty",
       "US/TX/Austin",                     "TXTravisCounty",
       "US/TX/BellCounty",                 "TXBellCounty",
+      "US/TX/CityofBryan",                "TXBrazosCounty",
       "US/TX/Carrollton",                 "TXCarrollton",
       "US/TX/CityofCrowley",              "TXCrowley",
       "US/TX/CityofDickinson",            "TXGalvestonCounty",
