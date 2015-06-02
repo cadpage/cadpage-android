@@ -24,6 +24,10 @@ SEZ:WNPXFBAR911@wnpxfbapbhagltbi.pbz\aZFT:WNPXFBAR911:1070 >SVER UVTUJNL 332&ZPA
 1 bs 2\aSEZ:WNPXFBAR911@wnpxfbapbhagltbi.pbz\aZFT:WNPXFBAR911:1070 >SVER 2261 OVYY JEVTUG EQ KF: CBFFHZ PERRX EQ WRSSREFBA GUBZNF FPBGG 7066548135\a(Pba'g) 2 bs 2\aZnc:S7/S8 Tevqf:0,0 Pnq: 2015-0000035599(Raq)
 1 bs 2\aSEZ:WNPXFBAR911@wnpxfbapbhagltbi.pbz\aZFT:WNPXFBAR911:FVT18 >FLAPBCNY RCVFBQR (SNVAGVAT) 142 ZHECULF WPG CRAQRETENFF GBAL UHZCUEVRF\a(Pba'g) 2 bs 2\a6788656854 Pnq: 2015-0000043655(Raq)
 
+Pbagnpg: Ynjerapr Qrrfr <ynjeraprwrssrefbasver@tznvy.pbz>
+Fraqre: 777
+WNPXFBA PB FB WNPXFBAR911:FVT3 >PURFG CNVA/ERFCVENGBEL QVFGERF 95 BNX YA KF: CRNPUGERR EQ WRSSREFBA FVZZF WNARG 7063512392 Znc: Tevqf:0,0 Pnq: 2015-0000064512
+
 */
 
 choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -37,6 +41,7 @@ choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "WNPXFBAR911:1070 >SVER 1382 JVYUVGR EQ KF: CNLARIVYYR EQ WRSSREFBA JVRE, TVYOREG Y & FHR 7063678650 Znc: Tevqf:0,0 Pnq: 2012-0000049643",
+        "PBQR:1070",
         "PNYY:SVER",
         "NQQE:1382 JVYUVGR EQ",
         "K:CNLARIVYYR EQ",
@@ -47,6 +52,7 @@ choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "WNPXFBAR911:1050V >NPPVQRAG - VAWHEVRF 3835 NCCYR INYYRL EQ OVYY Pnq: 2012-0000049719",
+        "PBQR:1050V",
         "PNYY:NPPVQRAG - VAWHEVRF",
         "NQQE:3835 NCCYR INYYRL EQ",
         "ANZR:OVYY",
@@ -54,6 +60,7 @@ choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G3",
         "WNPXFBAR911:FVT16 >FGEBXR/PIN CNGVRAG 87 ORAQ QE KF: PBZZREPR EQ WRSSREFBA SYBLQ CNHYFBA 7066148432 Znc:U6 Tevqf:0,0 Pnq: 2012-0000053376",
+        "PBQR:FVT16",
         "PNYY:FGEBXR/PIN CNGVRAG",
         "NQQE:87 ORAQ QE",
         "K:PBZZREPR EQ",
@@ -65,6 +72,7 @@ choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "WNPXFBAR911:FVT3 >PURFG CNVA/ERFCVENGBEL QVFGERF 95 J T YRTT EQ KF: ENSBEQ JVYFBA EQ PBZZREPR YRTT, WREEL 7063675387 Pnq: 2012-0000055115",
+        "PBQR:FVT3",
         "PNYY:PURFG CNVA/ERFCVENGBEL QVFGERF",
         "NQQE:95 J T YRTT EQ",
         "K:ENSBEQ JVYFBA EQ",
@@ -75,6 +83,7 @@ choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G5",
         "WNPXFBAR911:FVT3 >PURFG CNVA/ERFCVENGBEL QVFGERF 4513 F NCCYR INYYRL EQ KF: RQTRSVRYQ QE PBZZREPR UBZNA, WNERQ 7062026827 Znc: Tevqf:0,0 Pnq: 2012-0000054782",
+        "PBQR:FVT3",
         "PNYY:PURFG CNVA/ERFCVENGBEL QVFGERF",
         "NQQE:4513 F NCCYR INYYRL EQ",  // Znccrq gb ybpngvba sne sebz pebff fgerrg
         "K:RQTRSVRYQ QE",
@@ -90,6 +99,7 @@ choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "WNPXFBAR911:FVT10 >PBAIHYFVBA/FRVMHER 8408 WNPXFBA GENVY EQ KF: XVYRL QE UBFPUGBA QBIR, UBENPR 7066541149 Znc:R5/S5 Tevqf:0,0 Pnq: 2014-0000013903",
+        "PBQR:FVT10",
         "PNYY:PBAIHYFVBA/FRVMHER",
         "NQQE:8408 WNPXFBA GENVY EQ",
         "K:XVYRL QE",
@@ -103,6 +113,7 @@ choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SEZ:WNPXFBAR911@wnpxfbapbhagltbi.pbz\a" +
         "ZFT:WNPXFBAR911:1070 >SVER UVTUJNL 332&ZPARNY EQ KF: ZPARNY EQ UBFPUGBA PURELVN 5868726026 Pnq: 2015-0000009044",
 
+        "PBQR:1070",
         "PNYY:SVER",
         "NQQE:UVTUJNL 332 & ZPARNY EQ",
         "K:ZPARNY EQ",
@@ -118,6 +129,7 @@ choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Pba'g) 2 bs 2\a" +
         "Znc:S7/S8 Tevqf:0,0 Pnq: 2015-0000035599(Raq)",
 
+        "PBQR:1070",
         "PNYY:SVER",
         "NQQE:2261 OVYY JEVTUG EQ",
         "K:CBFFHZ PERRX EQ",
@@ -134,6 +146,7 @@ choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Pba'g) 2 bs 2\a" +
         "6788656854 Pnq: 2015-0000043655(Raq)",
 
+        "PBQR:FVT18",
         "PNYY:FLAPBCNY RCVFBQR (SNVAGVAT)",
         "NQQE:142 ZHECULF WPG",
         "PVGL:CRAQRETENFF",
@@ -141,6 +154,22 @@ choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CUBAR:6788656854",
         "VQ:2015-0000043655");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgYnjeraprQrrfr() {
+
+    qbGrfg("G1",
+        "WNPXFBA PB FB WNPXFBAR911:FVT3 >PURFG CNVA/ERFCVENGBEL QVFGERF 95 BNX YA KF: CRNPUGERR EQ WRSSREFBA FVZZF WNARG 7063512392 Znc: Tevqf:0,0 Pnq: 2015-0000064512",
+        "PBQR:FVT3",
+        "PNYY:PURFG CNVA/ERFCVENGBEL QVFGERF",
+        "NQQE:95 BNX YA",
+        "K:CRNPUGERR EQ",
+        "PVGL:WRSSREFBA",
+        "ANZR:FVZZF WNARG",
+        "CUBAR:7063512392",
+        "VQ:2015-0000064512");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

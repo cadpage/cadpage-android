@@ -1,22 +1,17 @@
 package net.anei.cadpage.parsers.GA;
 
-import net.anei.cadpage.parsers.dispatch.DispatchBParser;
+import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 
-public class GAJacksonCountyParser extends DispatchBParser {
+public class GAJacksonCountyParser extends DispatchB2Parser {
 
   public GAJacksonCountyParser() {
-    super(CITY_LIST, "JACKSON COUNTY", "GA");
+    super("JACKSONE911:||JACKSON CO SO JACKSONE911:", CITY_LIST, "JACKSON COUNTY", "GA");
   }
   
   @Override
   public String getFilter() {
     return "93001,777,14101,JACKSONE911@jacksoncountygov.com";
-  }
-  
-  @Override
-  protected boolean isPageMsg(String body) {
-    return body.startsWith("JACKSONE911:");
   }
   
   private static final String[] CITY_LIST = new String[]{
