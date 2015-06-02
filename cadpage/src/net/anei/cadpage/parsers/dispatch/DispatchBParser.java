@@ -16,6 +16,7 @@ public class DispatchBParser extends FieldProgramParser {
     new String[]{"Loc", "Return Phone", "BOX", "Map", "Grids", "Cad"};
   private static final Pattern REPORT_PTN = Pattern.compile("EVENT:.* Cad: ([-0-9]+) |.* DSP >?\\d\\d:\\d\\d:\\d\\d ");
   private static final Pattern PHONE_PTN = Pattern.compile("(?: +(?:VERIZON|AT ?& ?T MOBILITY))? +(\\d{10}|\\d{7}|\\d{3} \\d{7}|\\d{3}-\\d{4})$");
+  private static final Pattern RETURN_PHONE_PTN = Pattern.compile("([-0-9]+) *");
   
   int version;
   
@@ -85,10 +86,19 @@ public class DispatchBParser extends FieldProgramParser {
     body = "Loc: " + body;
     Properties props = parseMessage(body, KEYWORDS);
     
-    if (!parseAddrField(props.getProperty("Loc", ""), data)) return false;
-    
+    String addr = props.getProperty("Loc", "");
     String phone = props.getProperty("Return Phone");
-    if (phone != null) data.strPhone = phone;
+    if (addr.length() == 0) {
+      if (phone == null) return false;
+      match = RETURN_PHONE_PTN.matcher(phone);
+      if (!match.lookingAt()) return false;
+      data.strPhone = match.group(1);
+      addr = phone.substring(match.end());
+    } else {
+      if (phone != null) data.strPhone = phone;
+    }
+    if (!parseAddrField(addr, data)) return false;
+    
     data.strBox = props.getProperty("BOX", "");
     data.strMap = props.getProperty("Map", "");
     String callId = props.getProperty("Cad");

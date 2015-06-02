@@ -228,7 +228,7 @@ public class DispatchB2Parser extends DispatchBParser {
         parseCrossName(name, data);
       }
       
-      // We can't turn on the FLAG_CROSS_FOLLOWS option or it will mess up followin names
+      // We can't turn on the FLAG_CROSS_FOLLOWS option or it will mess up following names
       // but if we have identified a cross street, see if the address has a trailing direction
       // symbol that should be attached to the cross street.
       if (noCross && data.strApt.length() == 0 && data.strCross.length() > 0) {
