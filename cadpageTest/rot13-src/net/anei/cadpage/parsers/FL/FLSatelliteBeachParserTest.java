@@ -132,7 +132,7 @@ choyvp pynff SYFngryyvgrOrnpuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:Sver - Erfphr Pnyy",
         "VQ:2015-00000585",
         "HAVG:R55 474",
-        "TCF:+28.185881,-80.592949");
+        "TCF:+28.185881,-80.592949"); 
 
     qbGrfg("G3",
         "(PNQ Abgvsvpngvba) Nqqerff: 725 F EBOVA JNL Pvgl: FNGRYYVGR ORNPU Pebff: Cynpr: Pnyy: Sver - Erfphr Pnyy Vapvqrag #: 2015-00000584 Angher: Havg: R55 473  Vasb:  Qvfcngpure: zwbuafba TCF: 28.1597009990001 -80.593081496",
@@ -141,7 +141,7 @@ choyvp pynff SYFngryyvgrOrnpuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:Sver - Erfphr Pnyy",
         "VQ:2015-00000584",
         "HAVG:R55 473",
-        "TCF:+28.159701,-80.593081");
+        "TCF:+28.159701,-80.593081"); 
 
     qbGrfg("G4",
         "(PNQ Abgvsvpngvba) Nqqerff: 1405 UVTUJNL N1N 701 Pvgl: FNGRYYVGR ORNPU Pebff: Cynpr: Rzrenyq Fuberf Pbaqbzvavhz Pnyy: Sver - Erfphr Pnyy Vapvqrag #: 2015-00000583 Angher: PURFG CNVAF\a" +
