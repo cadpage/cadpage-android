@@ -456,6 +456,7 @@ class Active911Vendor extends Vendor {
       "US/MN/OtterTailCounty",            "MNOtterTailCounty",
       "US/MN/PenningtonCounty",           "MNPenningtonCounty",
       "US/MN/RamseyCounty",               "MNRamseyCounty",
+      "US/MN/ScottCounty",                "MNScottCounty",
       "US/MN/SherburneCounty",            "MNSherburneCounty",
       "US/MN/StPaul",                     "MNMinneapolisStPaul",
       "US/MN/WabashaCounty",              "MNWabashaCounty",
