@@ -127,7 +127,7 @@ choyvp pynff TNWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "WNFCREPB911:Erghea Cubar:    4684930 SNYY   SNYY 456 ZPRYURARL FGVYRF EQ SERRQBAVN EQ/PYNL EQ Znc:V10 Tevqf:0,0 Pnq: 2015-0000008059",
         "PBQR:SNYY",
         "PNYY:SNYY",
-        "NQQE:456 ZPRYURARL FGVYRF EQ",
+        "NQQE:456 ZPRYURARL FGVYRF EQ", //qbrf abg znc
         "K:SERRQBAVN EQ / PYNL EQ",
         "CUBAR:4684930",
         "ZNC:V10",
@@ -148,7 +148,7 @@ choyvp pynff TNWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1050CV",
         "PNYY:NPPVQRAG J/CBFFVOYR VAWHEVRF",
         "NQQE:UVTUJNL 212",
-        "ZNQQE:UVTUJNL 212 & R FZVGUOBEB EQ",
+        "ZNQQE:UVTUJNL 212 & R FZVGUOBEB EQ", //qbrf abg znc,
         "K:R FZVGUOBEB EQ",
         "CUBAR:4684930",
         "ZNC:T6,",
@@ -187,7 +187,7 @@ choyvp pynff TNWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "WNFCREPB911:Erghea Cubar:    4684930 1057   UVG NAQ EHA PVGL UNYY Pnq: 2015-0000007909",
         "PBQR:1057",
         "PNYY:UVG NAQ EHA",
-        "NQQE:PVGL UNYY",
+        "NQQE:PVGL UNYY", //qbrf abg znc
         "CUBAR:4684930",
         "VQ:2015-0000007909");
 

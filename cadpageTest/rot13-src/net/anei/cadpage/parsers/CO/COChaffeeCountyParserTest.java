@@ -162,7 +162,7 @@ choyvp pynff PBPunssrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:PS15000098",
         "PBQR:NYNS",
         "PNYY:Nynez Sver",
-        "NQQE:16110 A SBEGL EQ",
+        "NQQE:16110 A SBEGL EQ", //qbrf abg znc
         "PVGL:ANGUEBC");
 
     qbGrfg("G10",

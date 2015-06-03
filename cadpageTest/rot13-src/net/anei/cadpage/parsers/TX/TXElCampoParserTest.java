@@ -167,7 +167,7 @@ choyvp pynff GKRyPnzcbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:226919",
         "PNYY:TENFF SVER / BGURE GLCR BS SVER",
         "NQQE:HF 59AO F PE 357",
-        "ZNQQE:HF 59 F PBHAGL EBNQ 357",
+        "ZNQQE:HF 59 F PBHAGL EBNQ 357", //qbrf abg znc
         "FEP:RPCQ",
         "VASB:OEHFU SVER:");
 
