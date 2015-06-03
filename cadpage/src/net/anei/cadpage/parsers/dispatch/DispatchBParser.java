@@ -236,6 +236,7 @@ public class DispatchBParser extends FieldProgramParser {
         "ABUSE/ABANDONMENT/NEGLECT",
         "ACCIDENT - BOAT",
         "ACCIDENT - INJURIES",
+        "ACCIDENT - NO INJURIES",
         "ACCIDENT INJURIES",
         "ACCIDENT INJURIES UNKNOWN",
         "ACCIDENT MVA WITH INJURIES",
