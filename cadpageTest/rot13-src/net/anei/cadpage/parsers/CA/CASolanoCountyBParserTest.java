@@ -98,7 +98,7 @@ choyvp pynff PNFbynabPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Inpn Qvfg. 64 | Genhzn | Tvofba Pnalba Eq / Sehvgi...) Inpn Qvfg. 64 | Genhzn | Tvofba Pnalba Eq / Sehvginyr | ovplpyvfg qbja | 14:42",
         "HAVG:64",
         "PNYY:Genhzn",
-        "NQQE:Tvofba Pnalba Eq & Sehvginyr",
+        "NQQE:Tvofba Pnalba Eq & Sehvginyr", //qbrf abg znc
         "VASB:ovplpyvfg qbja",
         "GVZR:14:42");
 
@@ -147,7 +147,7 @@ choyvp pynff PNFbynabPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Inpn Qvfg. 67 | Zrqvpny Nvq |Eq 4144 Crnprshy Tyra...) Inpn Qvfg. 67 | Zrqvpny Nvq |Eq 4144 Crnprshy Tyra Eq | 88lb znyr uvtu grzc | 22:12",
         "HAVG:67",
         "PNYY:Zrqvpny Nvq",
-        "NQQE:Eq 4144 Crnprshy Tyra Eq",
+        "NQQE:Eq 4144 Crnprshy Tyra Eq", //zncf jvgu gur EQ va sebag
         "VASB:88lb znyr uvtu grzc",
         "GVZR:22:12");
 
@@ -213,7 +213,7 @@ choyvp pynff PNFbynabPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:68",
         "PNYY:Erfphr",
         "NQQE:UJ-128 & Chgnu Perrx Eq",
-        "ZNQQE:UJL 128 & Chgnu Perrx Eq",
+        "ZNQQE:UJL 128 & Chgnu Perrx Eq", //qbrf abg znc
         "VASB:Jngre Erfphr",
         "GVZR:18:15");
 
@@ -269,7 +269,7 @@ choyvp pynff PNFbynabPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Inpn Qvfg. Fgn65 | Zrqvpny Nvq | 4516 Ubyqrare Eq ...) Inpn Qvfg. Fgn65 | Zrqvpny Nvq | 4516 Ubyqrare Eq ng Fvreen Fpubby | ynprengvba gb gur nez | 13:35",
         "HAVG:65",
         "PNYY:Zrqvpny Nvq",
-        "NQQE:4516 Ubyqrare Eq ng Fvreen Fpubby",
+        "NQQE:4516 Ubyqrare Eq ng Fvreen Fpubby",  //cynpr vapyhqrq
         "VASB:ynprengvba gb gur nez",
         "GVZR:13:35");
 
@@ -301,7 +301,7 @@ choyvp pynff PNFbynabPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Inpn Qvfg. Fgn65 | Genssvp Pbyyvfvba | Sbk Eq / Ek...) Inpn Qvfg. Fgn65 | Genssvp Pbyyvfvba | Sbk Eq / EkE Genpxf | Iruvpyr Qvkba / Inpnivyyr | Genva | 21:44",
         "HAVG:65",
         "PNYY:Genssvp Pbyyvfvba",
-        "NQQE:Sbk Eq & EkE Genpxf",
+        "NQQE:Sbk Eq & EkE Genpxf", //qbrf abg znc
         "VASB:Iruvpyr Qvkba / Inpnivyyr / Genva",
         "GVZR:21:44");
 
