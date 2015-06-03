@@ -606,7 +606,8 @@ choyvp pynff AWFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G11",
         "(FGSQ-2014000075) SYM @ 905 CNEGEVQTR Ebnq  , FGVYYJNGRE - 78 LBS SNYY IVPGVZ",
         "VQ:FGSQ-2014000075",
-        "PNYY:SYM",
+        "PBQR:SYM",
+        "PNYY:SVER YNAQVAT MBAR",
         "NQQE:905 CNEGEVQTR Ebnq",
         "PVGL:FGVYYJNGRE",
         "VASB:78 LBS SNYY IVPGVZ");
@@ -614,7 +615,8 @@ choyvp pynff AWFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G12",
         "(FGSQ-2014000074) SYM @ 913 ZVQQYRIVYYR Ebnq  , FGVYYJNGRE - 15 SBBG SNYY SEBZ YNQQRE 15 SRRG URNQ/YRT VAWHEL",
         "VQ:FGSQ-2014000074",
-        "PNYY:SYM",
+        "PBQR:SYM",
+        "PNYY:SVER YNAQVAT MBAR",
         "NQQE:913 ZVQQYRIVYYR Ebnq",
         "PVGL:FGVYYJNGRE",
         "VASB:15 SBBG SNYY SEBZ YNQQRE 15 SRRG URNQ/YRT VAWHEL");
@@ -705,7 +707,8 @@ choyvp pynff AWFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G22",
         "(FGSQ-2014000063) SYM @ 931 FJNEGFJBBQ Ebnq  , FGVYYJNGRE - YM SBE UNZCGBA NPEBFF SEBZ SVER UBHFR",
         "VQ:FGSQ-2014000063",
-        "PNYY:SYM",
+        "PBQR:SYM",
+        "PNYY:SVER YNAQVAT MBAR",
         "NQQE:931 FJNEGFJBBQ Ebnq",
         "PVGL:FGVYYJNGRE",
         "VASB:YM SBE UNZCGBA NPEBFF SEBZ SVER UBHFR");
@@ -2596,7 +2599,8 @@ choyvp pynff AWFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G9",
         "(FOR2014-000130) FO @ 30 QRYY EBNQ  , FGNAUBCR - PNYYRE ERCBEGF FUR FRRF FZBXR PBZVAT SEBZ GUR ONPX LNEQ BS QRYY EBNQ. FUR PNA ABG FRR GUR FBHEPR BS GUR FZBXR BE NAL SYNZRF.",
         "VQ:FOR2014-000130",
-        "PNYY:FO",
+        "PBQR:FO",
+        "PNYY:FGNAQOL",
         "NQQE:30 QRYY EBNQ",
         "PVGL:FGNAUBCR",
         "VASB:PNYYRE ERCBEGF FUR FRRF FZBXR PBZVAT SEBZ GUR ONPX LNEQ BS QRYY EBNQ. FUR PNA ABG FRR GUR FBHEPR BS GUR FZBXR BE NAL SYNZRF");
@@ -2697,7 +2701,8 @@ choyvp pynff AWFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G4",
         "(FOR2014-000135) ZN @  BHG BS GBJA  , BHG BS GBJA - 13 CBVAG CYRNFNAG EBNQ (UBCNGPBAT)- RYQREYL SRZNYR SNYY IVPGVZ.",
         "VQ:FOR2014-000135",
-        "PNYY:ZN",
+        "PBQR:ZN",
+        "PNYY:ZHGHNY NVQ",
         "NQQE:13 CBVAG CYRNFNAG EBNQ",
         "PVGL:UBCNGPBAT",
         "VASB:RYQREYL SRZNYR SNYY IVPGVZ");
@@ -2707,7 +2712,8 @@ choyvp pynff AWFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G14",
         "(FOR2014-000124) ZN @  BHG BS GBJA  , BHG BS GBJA - RZF ZHGHNY NVQ VAGB UBCNGPBAT; 32 XLABE NIR SBE N 66 LRNE BYQ ZNYR SRRYVAT VYY.",
         "VQ:FOR2014-000124",
-        "PNYY:ZN - RZF ZHGHNY NVQ VAGB UBCNGPBAT;",
+        "PBQR:ZN",
+        "PNYY:ZHGHNY NVQ - RZF ZHGHNY NVQ VAGB UBCNGPBAT;",
         "NQQE:32 XLABE NIR",
         "VASB:SBE N 66 LRNE BYQ ZNYR SRRYVAT VYY");
     frgQrsnhygf("FHFFRK PBHAGL", "AW");
@@ -2716,7 +2722,8 @@ choyvp pynff AWFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G17",
         "(FOR2014-000120) ZN @  BHG BS GBJA  , BHG BS GBJA - 37 FGRIRAF GENVY UBCNGPBAT...62 L/B ZNYR FLAPBCR",
         "VQ:FOR2014-000120",
-        "PNYY:ZN",
+        "PBQR:ZN",
+        "PNYY:ZHGHNY NVQ",
         "NQQE:37 FGRIRAF GENVY",
         "PVGL:UBCNGPBAT",
         "VASB:62 L/B ZNYR FLAPBCR");
@@ -2726,7 +2733,8 @@ choyvp pynff AWFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G18",
         "(FOR2014-000119) ZN @  BHG BS GBJA  , BHG BS GBJA - 327 QHCBAG NIR UBCNGPBAT, SNYY IVPGVZ, U...\aNpgvir Havgf: GBARF FO RZF",
         "VQ:FOR2014-000119",
-        "PNYY:ZN",
+        "PBQR:ZN",
+        "PNYY:ZHGHNY NVQ",
         "NQQE:327 QHCBAG NIR",
         "PVGL:UBCNGPBAT",
         "VASB:SNYY IVPGVZ, U",
@@ -2737,7 +2745,8 @@ choyvp pynff AWFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G19",
         "(FOR2014-000119) ZN @  BHG BS GBJA  , BHG BS GBJA - 327 QHCBAG NIR UBCNGPBAT, SNYY IVPGVZ, URNQ VAWHEL,.",
         "VQ:FOR2014-000119",
-        "PNYY:ZN",
+        "PBQR:ZN",
+        "PNYY:ZHGHNY NVQ",
         "NQQE:327 QHCBAG NIR",
         "PVGL:UBCNGPBAT",
         "VASB:SNYY IVPGVZ, URNQ VAWHEL,");
@@ -2747,7 +2756,8 @@ choyvp pynff AWFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G23",
         "(FOR2014-000114) ZN @  BHG BS GBJA  , BHG BS GBJA - 13 FDHVER EQ (UBCNGPBAT)- 74 L/B ZNYR CBFFVOYR FGEBXR.",
         "VQ:FOR2014-000114",
-        "PNYY:ZN",
+        "PBQR:ZN",
+        "PNYY:ZHGHNY NVQ",
         "NQQE:13 FDHVER EQ",
         "PVGL:UBCNGPBAT",
         "VASB:74 L/B ZNYR CBFFVOYR FGEBXR");
