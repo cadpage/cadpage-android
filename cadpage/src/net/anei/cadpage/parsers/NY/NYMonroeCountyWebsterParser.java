@@ -14,7 +14,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA7BaseParser;
  */
 public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
   
-  private static final Pattern MARKER = Pattern.compile("^([A-Z]{4}) +B:([ 0-9A-Z]{4})? +(\\d[A-Z]?) +");
+  private static final Pattern MARKER = Pattern.compile("^([A-Z]{4}) +B:([ 0-9A-Z]{4})? +(\\d[A-Z]?|E) +");
   
   public NYMonroeCountyWebsterParser() {
     super(CITY_CODES, "MONROE COUNTY", "NY",
@@ -51,12 +51,14 @@ public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
     addr = SPENCERPRT_PTN.matcher(addr).replaceAll("SPENCERPORT");
     addr = OGDENPARMATL_PTN.matcher(addr).replaceAll("OGDEN PARMA TOWN LINE");
     addr = RI_PTN.matcher(addr).replaceAll("RISE");
+    addr = XG_PTN.matcher(addr).replaceAll("XING");
     return addr;
   }
   private static final Pattern PK_PATTERN = Pattern.compile("\\bPK\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern SPENCERPRT_PTN = Pattern.compile("\\bSPENCERPRT\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern OGDENPARMATL_PTN = Pattern.compile("\\bOGDEN PARMA T ?L\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern RI_PTN = Pattern.compile("\\bRI\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern XG_PTN = Pattern.compile("\\bXG\\b", Pattern.CASE_INSENSITIVE);
   
   @Override
   public String getProgram() {
@@ -151,6 +153,9 @@ public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
       "WEB", "WEBSTER",
       "WHE", "WHEATLAND",
       "WLM", "WILLIAMSON",
+      
+      // Livingston County
+      "CALE", "CALEDONIA",
       
       // Ontario County
       "ION", "IONIA"

@@ -260,6 +260,6 @@ public class NJSussexCountyAParser extends SmartAddressParser {
       "PUMPOUT",  "PUMPOUT",
       "SB",       "STANDBY",
       "STRUCT",   "STRUCTURE FIRE",
-      "TRANSF",   "TRANSFER",
+      "TRANSF",   "TRANSFER"
   });
 }
