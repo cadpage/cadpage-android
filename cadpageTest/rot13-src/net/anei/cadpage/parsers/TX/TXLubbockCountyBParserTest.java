@@ -124,7 +124,7 @@ choyvp pynff GKYhoobpxPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "(RZF Pnyy - cneg 1 bs 1) EP:305 J 1FG FG/Purfg Cnva (Aba-Genhzngvp)",
-        "NQQE:305 J 1FG FG",
+        "NQQE:305 J 1FG FG", //v frevbhfyl unaq fpebyyrq gur cntr gb jurer guvf nqqerff jnf, naq vg xrrcf gnxvat zr gb n qvssrerag cynpr. fb sehfgengvat.
         "PNYY:Purfg Cnva (Aba-Genhzngvp)");
 
     qbGrfg("G2",

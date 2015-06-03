@@ -107,7 +107,7 @@ choyvp pynff NYYvzrfgbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G6",
         "(Bhgfvqr Sver) HCCRE RYXGBA EQ / RYRNABE YA, RYXZBAG, NY 35620 NEQSQ",
         "PNYY:Bhgfvqr Sver",
-        "NQQE:HCCRE RYXGBA EQ & RYRNABE YA",
+        "NQQE:HCCRE RYXGBA EQ & RYRNABE YA", //QBRF ABG ZNC
         "PVGL:RYXZBAG",
         "FG:NY",
         "HAVG:NEQSQ");
@@ -246,7 +246,7 @@ choyvp pynff NYYvzrfgbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zbgbe Iruvpyr Pbyyvfvba) ORGURY EQ / NY UJL 251, RYXZBAG, NY 35620 NYUN; NEQSQ; BTISQ",
         "PNYY:Zbgbe Iruvpyr Pbyyvfvba",
         "NQQE:ORGURY EQ & NY UJL 251",
-        "ZNQQE:ORGURY EQ & NY 251",
+        "ZNQQE:ORGURY EQ & NY 251", //qbrf abg znc
         "PVGL:RYXZBAG",
         "FG:NY",
         "HAVG:NYUN NEQSQ BTISQ");

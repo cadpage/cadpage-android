@@ -204,7 +204,7 @@ choyvp pynff PNZbagrpvgbCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G17",
         "(Ivfvpnq Zrffntr) VAPVQRAG QVFCNGPU Nhgbzngvp Nvq IAP Oernxref Jnl / Bprna Nir",
         "PNYY:Nhgbzngvp Nvq IAP",
-        "NQQE:Oernxref Jnl & Bprna Nir");
+        "NQQE:Oernxref Jnl & Bprna Nir"); //qbrf abg znc
 
     qbGrfg("G18",
         "(Ivfvpnq Zrffntr) VAPVQRAG QVFCNGPU Vairfgvtngvba 199 Pnaba Ivrj Eq",

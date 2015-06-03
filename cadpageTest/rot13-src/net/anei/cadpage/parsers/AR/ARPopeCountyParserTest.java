@@ -411,7 +411,7 @@ choyvp pynff NECbcrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G28",
         "\aYbpngvba: 1128 R 9GU FG 62, Ehffryyivyyr\aPebff Fgerrg:  F BFJRTB NIR / R 8GU FG\aGlcr:  ERFCVENGBEL QVFGERFF\aHavgf: R4, 133~",
         "NQQE:1128 R 9GU FG 62",
-        "PVGL:Ehffryyivyyr",
+        "PVGL:Ehffryyivyyr", 
         "K:F BFJRTB NIR / R 8GU FG",
         "PNYY:ERFCVENGBEL QVFGERFF",
         "HAVG:R4, 133");
