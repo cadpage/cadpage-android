@@ -132,7 +132,7 @@ choyvp pynff TNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "WRSSREFBAPBHAGLPRAGENY:JRNGU JRNGURE ERYNGRQ 2YRF BHGFVQR TENATR 4782060137 EBOREG TBQBJA",
         "PBQR:JRNGU",
         "PNYY:JRNGURE ERYNGRQ",
-        "NQQE:2YRF BHGFVQR TENATR",
+        "NQQE:2YRF BHGFVQR TENATR", //yvxrf 2 yrf zhpu orggre
         "CUBAR:4782060137",
         "ANZR:EBOREG TBQBJA");
 
@@ -223,7 +223,7 @@ choyvp pynff TNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "WRSSREFBAPBHAGLPRAGENY:ERFCVE ERFCVENGBEL QVFGERFF 21390 UVTUJNL 1 A 7064661572 CBH CBJRY",
         "PBQR:ERFCVE",
         "PNYY:ERFCVENGBEL QVFGERFF",
-        "NQQE:21390 UVTUJNL 1 A",
+        "NQQE:21390 UVTUJNL 1 A", //qbrf abg znc
         "CUBAR:7064661572",
         "ANZR:CBH CBJRY");
 
@@ -282,7 +282,7 @@ choyvp pynff TNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "WRSSREFBAPBHAGLPRAGENY:HAERFC SNVAGVAT / HAERFCBFVIR 1020 JNFUVATGBA FG",
         "PBQR:HAERFC",
         "PNYY:SNVAGVAT / HAERFCBFVIR",
-        "NQQE:1020 JNFUVATGBA FG");
+        "NQQE:1020 JNFUVATGBA FG"); //jnagf pvgl
 
     qbGrfg("G23",
         "WRSSREFBAPBHAGLPRAGENY:ZINV NHGB NPPVQRAG JVGU VAWHEVRF UVTUJNL 17 A 7065646311",

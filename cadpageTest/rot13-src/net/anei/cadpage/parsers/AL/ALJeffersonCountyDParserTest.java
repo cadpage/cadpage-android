@@ -573,7 +573,7 @@ choyvp pynff NYWrssrefbaPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G24",
         "(Qvfcngpu) Nqqerff3EQ NIR A@ 22AQ FG A , Ovezvatunz\a" +
         "PnyyglcrZRQ\a" +
-        "K:Ab Pebff Fgerrgf Sbhaq\a" +
+        "K:Ab Pebff Fgerrgf Sbhaq\a" + 
         "Havgf:R6, E206\a" +
         "Perngrq:5/29/2015 10:20:13 NZ  # \a" +
         "CevVap 2015-00023539 (OSEF)\a" +
