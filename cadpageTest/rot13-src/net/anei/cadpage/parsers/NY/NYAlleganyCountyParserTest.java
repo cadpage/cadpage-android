@@ -558,8 +558,7 @@ choyvp pynff ALNyyrtnalPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2014-00018498",
         "PBQR:132",
         "PNYY:GENSSVP IVBYNGVBA/PBZCYNVAG/UNMNEQ-GERRF/YVARF QBJA",
-        "NQQE:PBHAGL EBNQ",
-        "NCG:7Q",
+        "NQQE:PBHAGL EBNQ 7Q",
         "HAVG:PHO0 PHON SVER FGN");
 
     qbGrfg("G39",

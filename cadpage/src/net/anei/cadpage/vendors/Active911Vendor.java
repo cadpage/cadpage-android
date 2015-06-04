@@ -787,6 +787,7 @@ class Active911Vendor extends Vendor {
       "US/TX/Carrollton",                 "TXCarrollton",
       "US/TX/CityofCrowley",              "TXCrowley",
       "US/TX/CityofDickinson",            "TXGalvestonCounty",
+      "US/TX/CityofElCampo",              "TXElCampo",
       "US/TX/CityofFlowerMound",          "TXFlowerMound",
       "US/TX/CityofKeller",               "TXKeller",
       "US/TX/CityofNavasota",             "TXNavasota",

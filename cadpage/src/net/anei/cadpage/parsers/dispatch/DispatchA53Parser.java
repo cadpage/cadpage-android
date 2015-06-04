@@ -34,7 +34,7 @@ public class DispatchA53Parser extends SmartAddressParser {
     
     //CALL ADDR
     data.strCall = fields[0].trim();
-    parseAddress(fields[1].trim(), data);
+    parseAddress(fields[1].trim().replace('@', '&'), data);
     
     //X?
     if (fields.length == 4) data.strCross = fields[2].trim();

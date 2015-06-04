@@ -166,8 +166,8 @@ choyvp pynff GKRyPnzcbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PSF# 226919 - TENFF SVER / BGURE GLCR BS SVER) TENFF SVER / BGURE GLCR BS SVER,  HF 59AO F PE 357,  - RPCQ 443\a\aOEHFU SVER:",
         "VQ:226919",
         "PNYY:TENFF SVER / BGURE GLCR BS SVER",
-        "NQQE:HF 59AO F PE 357",
-        "ZNQQE:HF 59 F PBHAGL EBNQ 357", //qbrf abg znc
+        "NQQE:HF 59AO & F PE 357",
+        "ZNQQE:HF 59 & F PBHAGL EBNQ 357",
         "FEP:RPCQ",
         "VASB:OEHFU SVER:");
 
@@ -723,8 +723,8 @@ choyvp pynff GKRyPnzcbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PSF# 226437 - NZOHYNAPR PNYY) NZOHYNAPR PNYY,  HF59FO @ SZ 441,  - RPCQ 443\a\aHapbafpvbhf znyr\a\aNZOHYNAPR PNYY:\aFUBER FGBC FGBER",
         "VQ:226437",
         "PNYY:NZOHYNAPR PNYY",
-        "NQQE:HF59FO @ SZ 441",
-        "ZNQQE:HF 59 @ SNEZ-GB-ZNEXRG 441",
+        "NQQE:HF59FO & SZ 441",
+        "ZNQQE:HF 59 & SNEZ-GB-ZNEXRG 441",
         "FEP:RPCQ",
         "VASB:Hapbafpvbhf znyr\a\aNZOHYNAPR PNYY:\aFUBER FGBC FGBER");
 
@@ -775,8 +775,8 @@ choyvp pynff GKRyPnzcbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PSF# 226407 - ZNWBE ZBGBE IRUVPYR PENFU) ZNWBE ZBGBE IRUVPYR PENFU,  PE 357 @ SZ 1300,  - RPCQ 443\a\aZNWBE ZBGBE IRUVPYR PENFU:",
         "VQ:226407",
         "PNYY:ZNWBE ZBGBE IRUVPYR PENFU",
-        "NQQE:PE 357 @ SZ 1300",
-        "ZNQQE:PBHAGL EBNQ 357 @ SNEZ-GB-ZNEXRG 1300",
+        "NQQE:PE 357 & SZ 1300",
+        "ZNQQE:PBHAGL EBNQ 357 & SNEZ-GB-ZNEXRG 1300",
         "FEP:RPCQ",
         "VASB:ZNWBE ZBGBE IRUVPYR PENFU:");
 
@@ -945,7 +945,7 @@ choyvp pynff GKRyPnzcbCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:226323",
         "PNYY:NZOHYNAPR PNYY",
-        "NQQE:J YBBC @ J WNPXFBA",
+        "NQQE:J YBBC & J WNPXFBA",
         "FEP:RPCQ",
         "VASB:NZOHYNAPR PNYY: HAPBAPFPVBHF SRZNYR, 63 LBN, OYX XVN");
 

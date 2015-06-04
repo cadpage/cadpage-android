@@ -2560,7 +2560,7 @@ public abstract class SmartAddressParser extends MsgParser {
         // Yet another special case Texas FM number highways can be terminated
         // with a street suffix :(
         if (tokens[start].equalsIgnoreCase("FM")) {
-          if (isType(end+1, ID_ROAD_SFX)) end++;
+          if (isType(end+1, ID_ROAD_SFX) && !isType(end+2, ID_ALPHA_ROUTE)) end++;
         }
         end++;
         
@@ -2823,7 +2823,7 @@ public abstract class SmartAddressParser extends MsgParser {
     
     tokenType[ndx] =  mask;
   }
-  private static final Pattern ROUTE_NUMBER_PTN = Pattern.compile("(?!IN|OF)[A-Z]{1,2}|\\d+[ABHNSEW]?");
+  private static final Pattern ROUTE_NUMBER_PTN = Pattern.compile("(?!IN|OF)[A-Z]{1,2}|\\d+[ABDHNSEW]?|\\d+[NSEW]B");
   private static final Pattern DUAL_NUMBER_HWY_PTN = Pattern.compile("\\d{1,3}-\\d{1,3}");
   
   private boolean isComma(int ndx) {
