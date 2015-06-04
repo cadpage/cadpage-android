@@ -17,6 +17,11 @@ public class FLSatelliteBeachParser extends FieldProgramParser {
     return "newworld@satellitebeach.org";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
   private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Call:)");
   
   @Override
