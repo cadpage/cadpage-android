@@ -269,7 +269,8 @@ choyvp pynff PNFbynabPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Inpn Qvfg. Fgn65 | Zrqvpny Nvq | 4516 Ubyqrare Eq ...) Inpn Qvfg. Fgn65 | Zrqvpny Nvq | 4516 Ubyqrare Eq ng Fvreen Fpubby | ynprengvba gb gur nez | 13:35",
         "HAVG:65",
         "PNYY:Zrqvpny Nvq",
-        "NQQE:4516 Ubyqrare Eq ng Fvreen Fpubby",  //cynpr vapyhqrq
+        "NQQE:4516 Ubyqrare Eq",
+        "CYNPR:Fvreen Fpubby",
         "VASB:ynprengvba gb gur nez",
         "GVZR:13:35");
 

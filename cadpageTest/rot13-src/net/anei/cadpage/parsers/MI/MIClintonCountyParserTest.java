@@ -1580,7 +1580,7 @@ choyvp pynff ZVPyvagbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G5",
         "PNQ:Z57/RYL;ZHGHNY NVQ;1;NFFVFG CREEVAGBA SVER Z57 NAQ RYL UJL EVTUG NG GUR VAGREFRPGVBA 2 IRU CVN ERD ZNCYR ENCVQF SVER GB FRG HC YM [05/15/15 19:20:40 PUEVIVN]",
         "NQQE:Z57 & RYL",
-        "ZNQQE:FGNGR 57 & RYL",  //qbrf abg znc
+        "ZNQQE:FGNGR 57 & RYL",  //qbrf abg znc - bhg bs pbhagl
         "PNYY:ZHGHNY NVQ",
         "CEV:1",
         "VASB:NFFVFG CREEVAGBA SVER Z57 NAQ RYL UJL EVTUG NG GUR VAGREFRPGVBA 2 IRU CVN ERD ZNCYR ENCVQF SVER GB FRG HC YM",
@@ -1773,7 +1773,7 @@ choyvp pynff ZVPyvagbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "PNQ:4451 A PNEYNAQ EQ;J WHQQIVYYR EQ;ZHGHNY NVQ;1;Rirag fcnjarq sebz QVNORGVP CEBOYRZF 1. [05/20/2015 14:27:17 OHATR] 80 LE BYQ SRZNYR QVNORGVP HAERFCBAFVIR ZZE NYFB ERFCBAQVAT [05/20/15 14:22:28 XRZC] YNETR CREFBA, JVYY ARRQ NQQVGBVANY SBE YVSG NFFVFG [05/20/15 14:22:48 XRZC]",
-        "NQQE:4451 A PNEYNAQ EQ", //qbrf abg znc
+        "NQQE:4451 A PNEYNAQ EQ", //qbrf abg znc - bhg bs pbhagl
         "K:J WHQQIVYYR EQ",
         "PNYY:ZHGHNY NVQ",
         "CEV:1",
