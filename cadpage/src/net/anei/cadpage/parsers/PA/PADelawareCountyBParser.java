@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.PA;
 
-import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -24,7 +23,7 @@ public class PADelawareCountyBParser extends FieldProgramParser {
   private String select;
   
   public PADelawareCountyBParser() {
-    super(CITY_CODES, "DELAWARE COUNTY", "PA",
+    super(PADelawareCountyParser.CITY_CODES, "DELAWARE COUNTY", "PA",
           "( SELECT/1 ADDR CITY/Z? CALL DATE TIME ID INFO/N+? ALERT! END " +
           "| ADDR2/S X1:XADDR? X2:X? Nature:CALL2! Time:TIME2 Notes:INFO? Inc:ID2 )");
   }
@@ -103,7 +102,7 @@ public class PADelawareCountyBParser extends FieldProgramParser {
         if (place.length() == 0) break;
         place = stripFieldStart(place, "@");
         if (!place.endsWith(" CO") && !place.endsWith(" CO.") && !place.endsWith(" MD")) {
-          String city = CITY_CODES.getProperty(place);
+          String city = PADelawareCountyParser.CITY_CODES.getProperty(place);
           Result res = parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY | FLAG_ANCHOR_END, place);
           city = res.getCity();
           if (city.length() > 0) {
@@ -237,75 +236,4 @@ public class PADelawareCountyBParser extends FieldProgramParser {
       return "ID BOX";
     }
   }
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "AL", "ALDAN",
-      "AS", "ASTON TWP",
-      "BE", "BETHEL TWP",
-      "BM", "BIRMINGHAM TWP",
-      "BR", "BROOKHAVEN",
-      "CC", "CHESTER",
-      "CF", "CHADDS FORD TWP",
-      "CH", "CHESTER HEIGHTS",
-      "CL", "CLIFTON HEIGHTS",
-      "CN", "CONCORD TWP",
-      "CO", "COLLINGDALE",
-      "CW", "COLWYN",
-      "DB", "DARBY",
-      "DT", "DARBY TWP",
-      "ED", "EDDYSTONE",
-      "EG", "EDGEMONT TWP",
-      "EL", "EAST LANSDOWNE",
-      "ES TN", "ESSINGTON", // SECTION OF TINICUM TWP
-      "FL", "FOLCROFT",
-      "GL", "GLENOLDEN",
-      "HV", "HAVERFORD TWP",
-      "LA", "LANSDOWNE",
-      "LC", "LOWER CHICHESTER TWP",
-      "LM", "LOWER MERION TWP",  // In montgomery conty
-      "LS TN", "LESTER", // SECTION OF TINICUM TWP
-      "MB", "MILLBOURNE",
-      "MD", "MIDDLETOWN TWP",
-      "ME", "MEDIA",
-      "MH", "MARCUS HOOK",
-      "MO", "MORTON",
-      "MP", "MARPLE TWP",
-      "NP", "NETHER PROVIDENCE TWP",
-      "NT", "NEWTOWN TWP",
-      "NW", "NORWOOD",
-      "PK", "PARKSIDE",
-      "PP", "PROSPECT PARK",
-      "RN", "RADNOR TWP",
-      "RP", "RIDLEY PARK",
-      "RT", "RIDLEY TWP",
-      "RU", "RUTLEDGE",
-      "RV", "ROSE VALLEY",
-      "SH", "SHARON HILL",
-      "SP", "SPRINGFIELD TWP",
-      "SW", "SWARTHMORE",
-      "TB", "THORNBURY TWP",
-      "TC", "CHESTER TWP",
-      "TD", "TREDYFFRIN TWP",
-      "TN", "TINICUM TWP",
-      "TR", "TRAINER",
-      "UC", "UPPER CHICHESTER TWP",
-      "UD", "UPPER DARBY TWP",
-      "UL", "UPLAND",
-      "UP", "UPPER PROVIDENCE TWP",
-      "WT", "WILLISTOWN TWP",
-      "YE", "YEADON",
-      
-      "MONTCO",       "MONTGOMERY COUNTY",
-      "UMT MONTCO",   "UPPER MERION TWP",
-      
-      "NCC",          "NEW CASTLE COUNTY",
-      "NC",           "NEW CASTLE COUNTY",
-      "NEW CASTLE",   "NEW CASTLE COUNTY",
-      
-      "LOWER MERION",      "LOWER MERION TWP",
-      "LOWER MERION TWP",  "LOWER MERION TWP",
-      "UPPER MERION",      "UPPER MERION TWP",
-      "UPPER MERION TWP",  "UPPER MERION TWP"
-    
-  });
 }
