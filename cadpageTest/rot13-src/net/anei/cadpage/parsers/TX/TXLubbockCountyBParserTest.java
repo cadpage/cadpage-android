@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
-HZP Urnygu, GK (Yhoobpx Pbhagl)
+Yhoobpx Pbhagl, GK (O) (HZP Urnygu)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Vqnybh RZF

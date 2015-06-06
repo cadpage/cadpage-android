@@ -8,6 +8,6 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class UTDavisCountyParser extends GroupBestParser {
   
   public UTDavisCountyParser() {
-    super(new UTDavisCountyAParser(), new UTDavisCountyBParser());
+    super(new UTDavisCountyAParser(), new UTDavisCountyBParser(), new UTDavisCountyDParser());
   }
 }

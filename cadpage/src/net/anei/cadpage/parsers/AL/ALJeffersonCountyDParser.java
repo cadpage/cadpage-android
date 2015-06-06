@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Jefferson County, AL
+ * Jefferson County, AL (D)
  */
 public class ALJeffersonCountyDParser extends FieldProgramParser {
   

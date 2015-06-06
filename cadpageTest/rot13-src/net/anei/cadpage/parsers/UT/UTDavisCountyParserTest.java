@@ -21,5 +21,10 @@ choyvp pynff HGQnivfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     }
   }
   
+  choyvp fgngvp pynff GrfgQ rkgraqf HGQnivfPbhaglQCnefreGrfg {
+    choyvp GrfgQ() {
+      frgCnefre(arj HGQnivfPbhaglCnefre());
+    }
+  }
  
 }

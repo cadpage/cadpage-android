@@ -6,7 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 
 /*
-Bnxynaq Pbhagl, ZV
+Bnxynaq Pbhagl, ZV (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Bnxynaq GJC SQ

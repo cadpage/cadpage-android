@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 /**
- * Bell County, TX
+ * Van Zandt County, TX
  */
 public class TXVanZandtCountyParser extends SmartAddressParser {
   

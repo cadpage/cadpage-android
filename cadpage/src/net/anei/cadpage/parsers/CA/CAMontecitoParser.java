@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 /**
- * Butte County, CA
+ * Montecito, CA
  */
 public class CAMontecitoParser extends SmartAddressParser {
   

@@ -21,4 +21,19 @@ choyvp pynff NYWrssrefbaPbhaglCnefreGrfg {
       frgCnefre(arj NYWrssrefbaPbhaglCnefre());
     }
   }
+  
+  
+  choyvp fgngvp pynff GrfgP rkgraqf NYWrssrefbaPbhaglPCnefreGrfg {
+    choyvp GrfgP() {
+      frgCnefre(arj NYWrssrefbaPbhaglCnefre());
+    }
+  }
+  
+  
+  choyvp fgngvp pynff GrfgQ rkgraqf NYWrssrefbaPbhaglQCnefreGrfg {
+    choyvp GrfgQ() {
+      frgCnefre(arj NYWrssrefbaPbhaglCnefre());
+    }
+  }
+  
 }

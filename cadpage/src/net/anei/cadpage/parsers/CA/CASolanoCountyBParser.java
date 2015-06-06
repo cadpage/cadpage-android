@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Solano County, CA
+ * Solano County, CA (B)
  */
 public class CASolanoCountyBParser extends FieldProgramParser {
   
