@@ -594,7 +594,7 @@ class Active911Vendor extends Vendor {
       "US/NJ/SomersetCounty",             "NJSomersetCountyA",
       "US/NJ/SouthbrunswickPD",           "NJSouthBrunswick",
       "US/NJ/SpartaPD",                   "NJSussexCountyA",
-      "US/NJ/SussexCountySherif",         "NJSussexCountyB",
+      "US/NJ/SussexCountySheriff",        "NJSussexCountyB",
       "US/NJ/TomsRiverPolice",            "NJOceanCountyB",
       "US/NJ/WayneTownship",              "NJWayneTownship",
       "US/NM/LasCruces",                  "NMLasCruces",
