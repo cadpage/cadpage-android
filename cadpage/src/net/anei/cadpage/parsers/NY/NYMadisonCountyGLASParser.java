@@ -12,7 +12,8 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
   private static final Pattern WIERD_CHAR_PTN = Pattern.compile("=(?:20|EF|BB|BF)");
   private static final Pattern DELIM = Pattern.compile("\n+");
   private static final Pattern MASTER = Pattern.compile("(.*?)\n+(.*?)(?: \\((.*?)\\)?)?");
-  private static final Pattern CITY_APT_PTN = Pattern.compile("(.*?)(?:(?:VILLAGE|HAMLET))?(?:(?: +APT| *#) *([^ ]+))?");
+  private static final Pattern CITY_APT_PTN = Pattern.compile("(.*?)(?:(?:VILLAGE|HAMLET))?(?: +APT | *#(?:APT )?) *(.+)");
+  private static final Pattern APT_PTN = Pattern.compile("\\d[^ ]*|[A-Z]");
 
   public NYMadisonCountyGLASParser() {
     super(CITY_LIST, "MADISON COUNTY", "NY",
@@ -44,90 +45,145 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
     body = body.replace("Response Type:", "Type:");
     
     if (body.startsWith("Number:") || body.startsWith("Address:")) {
-      return super.parseFields(DELIM.split(body), data);
+      if (!super.parseFields(DELIM.split(body), data)) return false;
     }
     
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
-    setFieldList("CALL NAME PLACE ADDR APT CITY X");
-    data.strCall = match.group(1).trim();
-    String sPart1 = match.group(2).trim();
-    String sPart3 = getOptGroup(match.group(3));
-    String sPart2 = "";
-    int pt = sPart1.lastIndexOf(", ");
-    if (pt >= 0) {
-      sPart2 = sPart1.substring(pt+2).trim();
-      sPart1 = sPart1.substring(0,pt).trim();
-    }
-    
-    if (sPart1.startsWith("@")) {
-     data.strPlace = sPart1.substring(1).trim(); 
-     if (sPart2.length() > 0) {
-       parseAddress(sPart2.replace("\\", "&"), data);
-       data.strCross = sPart3;
-     } else {
-       Parser p = new Parser(sPart3);
-       parseAddress(p.get('(').replace("\\", "&"), data);
-       data.strCity = p.get(')');
-     }
-    } else if (sPart2.length() == 0 && sPart3.length() == 0) {
-      pt = sPart1.indexOf('#');
-      if (pt >= 0) {
-        parseAddress(StartType.START_OTHER, FLAG_ANCHOR_END, sPart1.substring(0,pt).trim(), data);
-        data.strName = getStart();
-        data.strCross = sPart1.substring(pt+1).trim();
-      } else {
-        parseAddress(StartType.START_OTHER, FLAG_CROSS_FOLLOWS, sPart1, data);
-        data.strName = getStart();
-        String left = getLeft();
-        if (data.strCity.length() > 0) left = stripFieldStart(left, "VILLAGE ");
-        data.strCross = left;
-      }
-    } else {
-      parseAddress(StartType.START_OTHER, FLAG_ANCHOR_END, sPart1.replace("\\", "&"), data);
-      data.strName = getStart();
+    else {
+      Matcher match = MASTER.matcher(body);
+      if (!match.matches()) return false;
+      setFieldList("CALL NAME PLACE ADDR APT CITY X");
+      data.strCall = match.group(1).trim();
+      String sPart1 = match.group(2).trim();
+      String sPart3 = getOptGroup(match.group(3));
       
-      match = CITY_APT_PTN.matcher(sPart2);
-      if (match.matches()) {
-        sPart2 = match.group(1).trim();
-        String apt = match.group(2);
-        if (apt != null) {
+      if (sPart1.startsWith("@")) {
+        data.strPlace = sPart1.substring(1).trim(); 
+        String sPart2 = "";
+        int pt = sPart1.indexOf(", ");
+        if (pt >= 0) {
+          sPart2 = sPart1.substring(pt+2).trim();
+          sPart1 = sPart1.substring(0,pt).trim();
+        }
+        if (sPart2.length() > 0) {
+          parseAddress(sPart2.replace("\\", "&"), data);
+          data.strCross = stripFieldStart(sPart3, "/");
+        } else {
+          Parser p = new Parser(sPart3);
+          parseAddress(p.get('(').replace("\\", "&"), data);
+          data.strCity = p.get(')');
+         }
+      } 
+      
+      else {
+        
+        match = CITY_APT_PTN.matcher(sPart1);
+        if (match.matches()) {
+          sPart1 = match.group(1).trim();
+          String sPart2 = match.group(2).trim();
+          String apt = "";
+          if (sPart2.endsWith(" VILLAGE")) {
+            sPart2 = sPart2.substring(0,sPart2.length() - 8).trim();
+            int pt = sPart2.lastIndexOf(',');
+            if (pt < 0) return false;
+            data.strCity = sPart2.substring(pt+1).trim();
+            apt = sPart2.substring(0,pt).trim(); 
+            data.strCross = stripFieldStart(sPart3, "/");
+          } else if (sPart3.length() == 0) {
+            data.strCross = stripFieldStart(sPart2, "/");
+          } else { 
+            data.strCross = stripFieldStart(sPart3, "/");
+            if (!APT_PTN.matcher(sPart2).matches()) {
+              data.strName = sPart2;
+            } else {
+              apt = sPart2;
+            }
+          }
+          
+          StartType st = data.strName.length() > 0 ? StartType.START_ADDR : StartType.START_OTHER;
+          sPart1 = sPart1.replace("\\", "&");
+          if (data.strCity.length() == 0) {
+            int pt = sPart1.lastIndexOf(',');
+            if (pt >= 0) {
+              String city = sPart1.substring(pt+1).trim();
+              if (isCity(city)) {
+                data.strCity = city;
+                sPart1 = sPart1.substring(0,pt).trim();
+              }
+            }
+          }
+          int flags = FLAG_ANCHOR_END;
+          if (data.strCity.length() > 0) flags |= FLAG_NO_CITY;
+          parseAddress(st, flags, sPart1, data);
+          if (st == StartType.START_OTHER) data.strName = getStart();
           data.strApt = append(data.strApt, "-", apt);
         }
+        
+        else {
+          String sPart2 = "";
+          int pt = sPart1.lastIndexOf(", ");
+          if (pt >= 0) {
+            sPart2 = sPart1.substring(pt+2).trim();
+            sPart1 = sPart1.substring(0,pt).trim();
+          }
+        
+          if (sPart2.length() == 0 && sPart3.length() == 0) {
+            pt = sPart1.indexOf('#');
+            if (pt >= 0) {
+              sPart1 = sPart1.replace("\\", "&");
+              parseAddress(StartType.START_OTHER, FLAG_ANCHOR_END, sPart1.substring(0,pt).trim(), data);
+              data.strName = getStart();
+              data.strCross = sPart1.substring(pt+1).trim();
+            } else {
+              parseAddress(StartType.START_OTHER, FLAG_CROSS_FOLLOWS, sPart1, data);
+              data.strName = getStart();
+              String left = getLeft();
+              if (data.strCity.length() > 0) left = stripFieldStart(left, "VILLAGE ");
+              data.strCross = left;
+            }
+          } else {
+            sPart1 = sPart1.replace("\\", "&");
+            parseAddress(StartType.START_OTHER, FLAG_ANCHOR_END, sPart1, data);
+            data.strName = getStart();
+            data.strCity = sPart2;
+          }
+          
+          // If name but no address, convert name as address
+          if (data.strName.length() > 0 && data.strAddress.length() == 0) {
+            parseAddress(data.strName, data);
+            data.strName = "";
+          }
+  
+          if (sPart3.length() > 0) {
+            if (sPart3.startsWith("/")) sPart3 = sPart3.substring(1).trim();
+            if (sPart3.startsWith(",")) {
+              data.strCity = sPart3.substring(1).trim();
+            } else {
+              data.strCross = sPart3;
+            }
+          }
+        }
       }
-      data.strCity = sPart2;
       
-      if (sPart3.startsWith("/")) sPart3 = sPart3.substring(1).trim();
-      if (sPart3.startsWith(",")) {
-        data.strCity = sPart3.substring(1).trim();
-      } else {
-        data.strCross = sPart3;
+      if (data.strName.length() > 0 && data.strPlace.length() == 0 &&
+          checkPlace(data.strName)) {
+        data.strPlace = data.strName;
+        data.strName = "";
       }
-    }
-    
-    // If name but no address, convert name as address
-    if (data.strName.length() > 0 && data.strAddress.length() == 0) {
-      parseAddress(data.strName, data);
-      data.strName = "";
-    }
-    
-    if (data.strName.length() > 0 && data.strPlace.length() == 0 &&
-        checkPlace(data.strName)) {
-      data.strPlace = data.strName;
-      data.strName = "";
-    }
-    
-    // Check for truncated VILLAGE following city
-    pt = data.strCity.lastIndexOf(' ');
-    if (pt >= 0) {
-      String last = data.strCity.substring(pt+1).trim().toUpperCase();
-      for (String city : new String[]{"VILLAGE", "INSIDE", "HAMLET"}) {
-        if (city.startsWith(last)) {
-          data.strCity = data.strCity.substring(0,pt).trim();
-          break;
+      
+      // Check for truncated VILLAGE following city
+      int pt = data.strCity.lastIndexOf(' ');
+      if (pt >= 0) {
+        String last = data.strCity.substring(pt+1).trim().toUpperCase();
+        for (String city : new String[]{"VILLAGE", "INSIDE", "HAMLET"}) {
+          if (city.startsWith(last)) {
+            data.strCity = data.strCity.substring(0,pt).trim();
+            break;
+          }
         }
       }
     }
+    
+    if (data.strCity.equalsIgnoreCase("CANASTOA")) data.strCity = "CANASTOTA";
     return true;
   }
   
@@ -192,6 +248,7 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
   private static final String[] CITY_LIST = new String[]{
     "BRIDGEPORT",
     "BROOKFIELD",
+    "CANASTOA",   // Misspelled
     "CANASTOTA",
     "CAZENOVIA",
     "CHITTENANGO",
@@ -215,5 +272,4 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
     "SULLIVAN",
     "WAMPSVILLE"
   };
-}
-	
+}	
