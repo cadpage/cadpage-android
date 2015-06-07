@@ -5305,10 +5305,15 @@ SEZ:vzcnpgcntvat@pb.shygba.al.hf\aZFT:CRE RZF SNYYF 4602 FGNGR UJL 30 G CREGU NQ
 SEZ:vzcnpgcntvat@pb.shygba.al.hf\aZFT:CRE ZIN CV 4635 FGNGR UJL 30 G CREGU URFF TNF FGNGVBA 01/28/2013 1705 -1 -1
 SEZ:vzcnpgcntvat@pb.shygba.al.hf\aZFT:OEB SVER FGEHPGHER 248 EROVFM EQ G OEBNQNYOVA 01/03/2013 1043
 ***************************************************************************
-Wrssrefba Pbhagl, AL (ALWrssefbaPbhaglCnefre)
+Wrssrefba Pbhagl, AL (ALWrssrefbaPbhaglNCnefre)
 OERNGUVAT CEBOY|18077 ERRQ CBVAG EQ:BEYRNAF(G)|77 LB ZNYR QVSS OERNGUVAT
 NOQBZVANY CNVA|18081 ERRQ CBVAG EQ:BEYRNAF(G)|79S  :CebDN Zrqvpny Pnfr Ragel Svavfurq Lbh ner erfcbaqvat gb n cngvrag jvgu noqbzvany cnva.  Gur cngvrag vf n  79-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat.  Noqbzvany Cnva / Ceboyrzf.  Pnyyre Fgngrzrag: NOQBZVANY CNVA.
 NFFVFG-RZF|V 81 ZZ 176 A:NYRKNAQEVN(G)|1 zvyr fbhgu bs 50 va gur abegu obhaq ynar   iruvpyr nccrnef gb or fghpx va zrqvha    haxa9bj vs bpphcvrq  :3Q63 ERDHRFGVAT RZF ERFCBAQ.  BAR SRZNYR BPPHCNAG PBZCYNVAVAT BS JEVFG CNVA.
+***************************************************************************
+Wrssrefba Pbhagl, AL (O) (ALWrssrefbaPbhaglOCnefre) 
+.... (GJSQ 46) BHGQBBE SVER\a23147 FJNA EQ; JNGREGBJA PBEERPGVBANY\aOEBJA UBHFR NPEBFF SEBZ PBEERPGVBANY SNPVYVGL BA FJNA EBNQ BHGQBBE SVER ARNE 2\aFGEHPGHERF N TNENTR NAQ UBHFR J/IRUVPYRF NEBHAQ YVTUGF BA VAFVQR UBHFR - QVQA'G\aFRR NALBAR NGGRAQVAT GUR SVER\a22:32:21 06/04/2015 - SERMMB F\a4672 NPX\a22:33:43 06/04/2015 - SERMMB F\a4602 RA\a22:38:32 06/04/2015 - SERMMB F\a4602 NF\aPnyy glcr s erbcrarq ol SERMMB F ng 22:39:53 06/04/15
+.... (GJSQ 46) FGEBXR\a21558 SYBENY QEVIR\a80 L/S FYHE FCRRPU \a\aPNYYONPX=(315)783-4349
+.... (GJSQ 46) HAPBAF/SNVAGVAT\a22825 PBHAGL EBHGR 67; JNGREGBJA SVER QRCG\aNG SVER FGNGVBA NG TNENTR FNYR/50'F SRZNYR GEBHOYR OERNGUVAT/CNFFRQ BHG\a\aPNYYONPX=(315)783-8592
 ***************************************************************************
 Yvivatfgba Pbhagl, AL (ALYvivatfgbaPbhaglCnefre)
 (Nhgbzngvp E&E Abgvsvpngvba) \a  \aVapvqrag Ahzore  : 2012-00001594                    BEV: RZFTRARFR     Fgngvba:  \aVapvqrag Glcr  . :  5N2 R 5N2                  Cevbevgl: 4  \aVapvqrag Ybpngvba: 182 YVZN EQ                                          Irahr: I/TRARFRB  \aYbpngrq Orgjrra  : XVZOREYL QE/VIL YA \a\aPnyy Gvzr- 13:55:50                                Qngr- 12/12/2012  \aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga- \a\aNern: CQTR              Frpgvba :    1         Orng  . :  TCQ        Znc . . :  \aTevq:                   Dhnqenag: TRAS         Qvfgevpg: TRAN \a\aCubar Ahzore: (585) 243-3772                Pnyy Fbhepr: R911 \a\aPnyyre. . . : FURYYL FGHRJR \a\aAngher bs Pnyy : EBBQ ERF CNVA SEBZ ZBIVAT GB PUNVE 71 LB \a\aNqqvgvbany Vasb  \a  ONPX CNVA  \a  ERFQ: \a\aNqqerff Purpxf \a\aNqqvgvbany Vap#f: \a\aGur Pnyy Gnxre vf ZBEEVF JRAQL Y  \aGur Qvfcngpure vf ZBEEVF JRAQL Y
