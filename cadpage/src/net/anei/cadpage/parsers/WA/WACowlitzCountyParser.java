@@ -54,7 +54,7 @@ public class WACowlitzCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern INFO_GPS_PTN = Pattern.compile("([-+]?\\d+\\.\\d{6} +[-+]?\\d}\\d{6})[- ]+(.*)");
+  private static final Pattern INFO_GPS_PTN = Pattern.compile("([-+]?\\d+\\.\\d{6} +[-+]?\\d+\\.\\d{6})[- ]+(.*)");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
@@ -66,6 +66,11 @@ public class WACowlitzCountyParser extends FieldProgramParser {
         field = match.group(2);
       }
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "GPS INFO";
     }
   }
   
