@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -36,7 +39,8 @@ public class NYSteubenCountyParser extends SmartAddressParser {
   private static final Pattern PAREN_PTN = Pattern.compile("\\((?!CVA)([^a-z]*?|.*; Near:.*)\\)");
   private static final Pattern MASTER6 = Pattern.compile("(.*?) T/(NELSON)(.*)");
   
-  private static final Pattern CITY_PTN = Pattern.compile("(?:, ([ A-Z]+))?(?: (?:TOWN|VILLAGE)|(?<= DUNDEE)(?<! IN DUNDEE) )(?! RD\\b)(?: OF)?/?");
+  private static final Pattern CITY_PTN1 = Pattern.compile(" (?:TOWN|VILLAGE) OF ([ A-Z]+) ; ");
+  private static final Pattern CITY_PTN2 = Pattern.compile("(?:, ([ A-Z]+))?(?: (?:TOWN|VILLAGE)|(?<= DUNDEE)(?<! IN DUNDEE) )(?! RD\\b)(?: OF)?/?");
   private static final Pattern CODE_CALL_PTN = Pattern.compile("\\b(?:(\\d{1,2}[A-Z](?:\\d{1,2}[A-Z]?| \\d+-\\d+))[- ]+|(?=FD ))");
   
   
@@ -136,10 +140,16 @@ public class NYSteubenCountyParser extends SmartAddressParser {
         data.strCross = append(data.strCross, ", ", cleanCross(cross));
       }
       
+      // <addr> TOWN/VILLAGE OF <city> ; <info>
+      if ((match = CITY_PTN1.matcher(body)).find()) {
+        parseAddress(body.substring(0,match.start()).trim(), data);
+        data.strCity = match.group(1).trim();
+        info = body.substring(match.end()).trim();
+      }
+      
       // <addr>, <city> <info>
       // <addr> <city> <info>
-      match = CITY_PTN.matcher(body);
-      if (match.find()) {
+      else if ((match = CITY_PTN2.matcher(body)).find()) {
         String addr = body.substring(0,match.start()).trim();
         String city = match.group(1);
         info = body.substring(match.end()).trim();
@@ -160,8 +170,15 @@ public class NYSteubenCountyParser extends SmartAddressParser {
       
       // Getting desperate, but see if we can find a code/call signature
       else if ((match = CODE_CALL_PTN.matcher(body)).find()) {
-        data.strSupp = append(data.strSupp, " / ", body.substring(0,match.start())).trim();
-        info = body.substring(match.start());
+        int pt = match.start();
+        String addr = body.substring(0,pt).trim();
+        info = body.substring(pt);
+        Result res = parseAddress(StartType.START_ADDR, FLAG_IGNORE_AT, addr);
+        if (res.isValid()) {
+          res.getData(data);
+          addr = res.getLeft();
+        } 
+        data.strSupp = append(data.strSupp, " / ", addr);
       }
       
       // Anything else is just a info
@@ -177,7 +194,7 @@ public class NYSteubenCountyParser extends SmartAddressParser {
     
     // See if there is another city in the rest of the information, even
     // if we have already found one city
-    match = CITY_PTN.matcher(info);
+    match = CITY_PTN2.matcher(info);
     if (match.find()) {
       String part = info.substring(0,match.start()).trim();
       String city = match.group(1);
@@ -220,7 +237,8 @@ public class NYSteubenCountyParser extends SmartAddressParser {
     data.strCall = data.strCall + call;
     data.strSupp = append(data.strSupp, " / ", info);
     
-    if (data.strCity.equalsIgnoreCase("NELSON")) data.strState = "PA";
+    if (PA_CITIES.contains(data.strCity.toUpperCase())) data.strState = "PA";
+    
     return true;
   }
 
@@ -284,7 +302,15 @@ public class NYSteubenCountyParser extends SmartAddressParser {
     "WOODHULL",
     
     // Yates County
-    "DUNDEE"
+    "DUNDEE",
+    
+    // Tiaoga County
+    "DEERFIELD"
   };
+  
+  private static final Set<String> PA_CITIES = new HashSet<String>(Arrays.asList(new String[]{
+      "DEERFIELD",
+      "NELSON"
+  }));
 }
 	
