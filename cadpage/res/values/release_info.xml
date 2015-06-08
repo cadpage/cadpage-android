@@ -1,16 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">05302015</string>
-  <string name="release_version">v1.8.36</string>
+  <string name="release_date">06072015</string>
+  <string name="release_version">v1.8.37</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.37\n
+New Locations:\n
+Jefferson County, AL (alt)\n
+Pope County, AR\n
+Montecito, CA\n
+Solano County, CA\n
+Satellite Beach, FL\n
+Jasper County, GA\n
+Jefferson County, GA\n
+Clinton County, MI\n
+Oakland County, MI (alt)\n
+Scott County, MN\n
+Farmington, MO\n
+Jefferson County, NY\n
+Lexington County, SC\n
+Brazos County, TX\n
+El Campo, TX\n
+Lubbock County, TX\n
+Walker County, TX\n
+Van Zandt County, TX\n
+Davis County, UT (alt)\n
+Cowletz County, WA\n
+\n
+Location Fixes:\n
+Jackson County, GA\n
+Frederick County, MD\n
+Sussex County, NJ\n
+Madison County, NY\n
+Monroe County, NY\n
+Lewis County, WA\n
+\n      
 v1.8.36\n
 New Locations:\n
 Arapahoe County, CO\n
 Dane County, WI\n
 \n
-LocationFixes:\n
+Location Fixes:\n
 Jackson County, IA\n
 Erie County, PA\n
 Cy Creek Comm Center, TX\n
@@ -66,11 +97,7 @@ Cuyahoga County, OH\n
 Fairfield, OH\n
 Tillamook County, OR\n
 Bucks County, PA\n
-King County, WA\n
-\n      
-v1.8.32\n
-Location Fixes:\n
-Bucks County, PA
+King County, WA
   </string>
 </resources>
   
