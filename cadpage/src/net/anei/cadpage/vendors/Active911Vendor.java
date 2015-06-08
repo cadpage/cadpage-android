@@ -739,6 +739,7 @@ class Active911Vendor extends Vendor {
       "US/PA/LowerAlsaceFC",              "PABerksCounty",
       "US/PA/LuzerneCounty",              "PALuzerneCounty",
       "US/PA/Lvh",                        "PALehighCountyB",
+      "US/PA/LycomingCounty",             "PALycomingCounty",
       "US/PA/MercerCounty",               "PAMercerCounty",
       "US/PA/MessiahEMS",                 "PAGrantham",
       "US/PA/Monroeville",                "PAMonroville",
