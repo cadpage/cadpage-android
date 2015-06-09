@@ -188,14 +188,14 @@ choyvp pynff ALBagnevbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PBQR:33N1",
         "PNYY:Genafsre/Vagresnpvyvgl/Cnyyvngvir Pner",
-        "NQQE:SSGU",
+        "NQQE:SSGU", //gurer ner fb znal bs gurfr
         "VASB:8S SRIRE NOQBZ CNVA/ARRQF RINY/FNY YBPX",
         "HAVG:N12");
 
     qbGrfg("G12",
         "(Pnqcntr) PNYY: 0-\aNQQE: TTU\aPVGL: \aVASB: 33Z AB FCRPF CFLPU\aHAVG: N07\aIA: (4.3.20141007)",
         "PNYY:NYREG",
-        "NQQE:TTU",
+        "NQQE:TTU", //gurl ner ubfcvgnyf znlor?
         "VASB:33Z AB FCRPF CFLPU",
         "HAVG:N07");
 
