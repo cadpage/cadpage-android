@@ -11,10 +11,10 @@ import net.anei.cadpage.parsers.MsgParser;
 public class COElPasoCountyAParser extends MsgParser {
   
   private static final Pattern MASTER = 
-      Pattern.compile("\\[([-A-Z0-9 ]+): *([^\\]]+?)\\] *([^~]+?)~([^~]+?)~([^#]+?)\\.?#([^~]*?)~([^~]*?)~(?:x:([^~]*?)(?:   +~?|~))?(?:ALRM:([\\d ])~)?(?:CMD:([^~]*)~?)?(?:([-A-Z0-9]+))? *~*");
+      Pattern.compile("\\[([-A-Z0-9 ]+): *([^\\]]+?)\\] *([^~]+?)~([^~]+?)~([^#]+?)\\.?#([^~]*?)~([^~]*?)~(?:x:([^~]*?)(?:   +~?|~))?(?:ALRM:([\\d ])~)?(?:CMD:([^~]*)~?)?(?:([-A-Z0-9]+))?(?: +[A-Z0-9]+)? *~*");
   
   private static final Pattern MASTER2 =
-      Pattern.compile("INFO from EPSO: (.*?)  +(.*?)(?:  +(.*?))?  +JURIS: (.*)  ALRM: (\\d*) *CMD:(.*)");
+      Pattern.compile("INFO from EPSO: (.*?)  (.*?)  (.*?)  (.*?)  +(?:JURIS: )?(.*?)(?:  ALRM: (\\d*))?(?: *CMD:(.*))?");
   
   private static final Pattern MASTER3 = 
       Pattern.compile("([ A-Z]+) - (.*?)  +(.*?) - (.*)");
@@ -59,28 +59,11 @@ public class COElPasoCountyAParser extends MsgParser {
       setFieldList("CALL ADDR APT PLACE SRC PRI UNIT");
       data.strCall = match.group(1).trim();
       parseAddress(match.group(2).trim(), data);
-      String place = match.group(3);
-      if (place != null) {
-        place = place.trim();
-        String apt;
-        int pt = place.indexOf("  ");
-        if (pt >= 0) {
-          apt = place.substring(0,pt);
-          place = place.substring(pt+2);
-        } else {
-          apt = place;
-          place = "";
-        }
-        if (apt.length() <= 4 || NUMERIC.matcher(apt).matches()) {
-          data.strApt = append(data.strApt, "-", apt);
-          data.strPlace = place;
-        } else {
-          data.strPlace = append(apt, "  ", place);
-        }
-      }
-      data.strSource = match.group(4).trim();
-      data.strPriority = match.group(5);
-      data.strUnit = match.group(6).trim();
+      data.strApt = match.group(3).trim();
+      data.strPlace = match.group(4).trim();
+      data.strSource = match.group(5).trim();
+      data.strPriority = getOptGroup(match.group(6));
+      data.strUnit = getOptGroup(match.group(7));
       return true;
     }
     
@@ -96,6 +79,17 @@ public class COElPasoCountyAParser extends MsgParser {
       data.strSupp = p.get();
       return true;
       
+    }
+    
+    FParser p = new FParser(body);
+    if (p.check("From EPSO -")) {
+      setFieldList("CALL ADDR APT INFO");
+      data.strCall = p.get(24);
+      if (!p.check(" ") || p.check(" ")) return false;
+      parseAddress(p.get(50), data);
+      if (!p.check("  ") || p.check(" ")) return false;
+      data.strSupp = p.get();
+      return true;
     }
     
     return false;
