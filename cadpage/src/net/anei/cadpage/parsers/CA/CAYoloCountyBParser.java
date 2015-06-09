@@ -16,7 +16,7 @@ public class CAYoloCountyBParser extends MsgParser {
   
   public CAYoloCountyBParser() {
     super("YOLO COUNTY", "CA");
-    setFieldList("CALL ADDR APT UNIT INFO GPS");
+    setFieldList("CALL ADDR APT UNIT MAP INFO GPS");
   }
   
   @Override
@@ -65,7 +65,13 @@ public class CAYoloCountyBParser extends MsgParser {
     p.setOptional();
     p.check("_");
     if (p.check("UNITS:")) {
-      data.strUnit = p.get();
+      String unit = p.get();
+      int pt = unit.indexOf("MAP:");
+      if (pt >= 0) {
+        data.strMap = unit.substring(pt+4).trim();
+        unit = unit.substring(0,pt).trim();
+      }
+      data.strUnit = unit;
     } else if (p.check("#")) {
       data.strApt = p.get();
     } else return false;
