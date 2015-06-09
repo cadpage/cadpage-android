@@ -8,5 +8,5 @@ Specification-Title: Cadpage Parsing Library
 Specification-Version: 1.0
 Specification-Vendor: Cadpage
 Implementation-Title: net.anei.cadpage.parsers
-Implementation-Version: 1.8.37
+Implementation-Version: 1.8.37A
 Implementation-Vendor: Cadpage 
