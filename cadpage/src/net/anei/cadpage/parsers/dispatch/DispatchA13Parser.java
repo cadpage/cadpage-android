@@ -104,6 +104,7 @@ public class DispatchA13Parser extends FieldProgramParser {
   private static final Pattern APT_PTN = Pattern.compile("(?:APT|RM|ROOM) *(.*)|BLDG?.*|.* FLR|.* FLOOR");
   private static final Pattern BREAK_PTN = Pattern.compile(" *(?:[,;]) *");
   private static final Pattern INCOMPLETE_NAME_PTN = Pattern.compile("[A-Z][A-Za-z]*");
+  private static final Pattern TRAIL_NAME_PTN = Pattern.compile("(.*) # ([A-Z][-a-z]+)");
   protected class BaseAddressField extends AddressField {
     
     @Override
@@ -157,7 +158,22 @@ public class DispatchA13Parser extends FieldProgramParser {
       else {
         String addr = null;
         boolean incomplete = false;
+        boolean startName = false;
         for (String fld : BREAK_PTN.split(sPart1)) {
+          
+          if (startName) {
+            incomplete = true;
+            startName = false;
+          }
+          
+          if (addr != null && leadPlaceName && data.strName.length() == 0) {
+            match = TRAIL_NAME_PTN.matcher(fld);
+            if (match.matches()) {
+              fld = match.group(1).trim();
+              data.strName = match.group(2).trim();
+              startName = true;
+            }
+          }
           fld = stripApt(fld, data);
           if (fld.length() == 0) continue;
           
@@ -169,7 +185,11 @@ public class DispatchA13Parser extends FieldProgramParser {
             continue;
           }
           if (incomplete) {
-            addr = addr + ", " + fld;
+            if (data.strName.length() > 0) {
+              data.strName = append(data.strName, ", ", fld);
+            } else {
+              addr = addr + ", " + fld;
+            }
             incomplete = false;
             continue;
           }

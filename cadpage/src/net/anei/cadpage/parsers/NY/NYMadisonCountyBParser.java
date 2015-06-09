@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -62,9 +63,25 @@ public class NYMadisonCountyBParser extends DispatchA13Parser {
     return super.getField(name);
   }
   
+  private static final Pattern OOC_ADDR_PTN = Pattern.compile("([ A-Z]+ COUNTY), \\((.*)\\) ; (.*)", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends BaseAddressField {
     @Override
     public void parse(String field, Data data) {
+      
+      Matcher match = OOC_ADDR_PTN.matcher(field);
+      if (match.matches()) {
+        data.strCity = match.group(1).trim();
+        data.strCross = match.group(2).trim();
+        String addr = match.group(3).trim();
+        int pt = addr.lastIndexOf(',');
+        if (pt >= 0) {
+          data.strCity = addr.substring(pt+1).trim();
+          addr = addr.substring(0,pt).trim();
+        }
+        parseAddress(addr, data);
+        return;
+      }
+      
       if (field.startsWith("@") || field.contains("(")) {
         super.parse(field, data);
       } else {
