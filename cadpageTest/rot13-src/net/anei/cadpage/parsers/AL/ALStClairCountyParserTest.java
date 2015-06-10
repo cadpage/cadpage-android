@@ -3581,7 +3581,7 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ZRQ",
         "PNYY:ZRQVPNY PNYY",
         "NQQE:59 YBJYNAQ YA",
-        "NCG:O Oyqt",
+        "NCG:O",
         "K:E VAG & 38 NATHF FG",
         "PVGL:GEHFFIVYYR",
         "ANZR:OVYYL BQBZ",

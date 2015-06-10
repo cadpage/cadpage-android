@@ -182,7 +182,7 @@ choyvp pynff FPZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:VAIRFG",
         "PNYY:VAIRFGVTNGVBA",
         "NQQE:607 FZVGU FG",
-        "NCG:O Oyqt",
+        "NCG:O",
         "PVGL:ZNEVBA",
         "ANZR:W ZPDRRA");
 
@@ -229,7 +229,7 @@ choyvp pynff FPZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:CNVA",
         "PNYY:CNVA",
         "NQQE:921 WBARF NIR",
-        "NCG:Q Oyqt",
+        "NCG:Q",
         "PVGL:ZNEVBA",
         "ANZR:PBIVATGBA, OERAQN WBLPR");
 

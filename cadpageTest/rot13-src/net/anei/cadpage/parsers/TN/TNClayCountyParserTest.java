@@ -724,7 +724,7 @@ choyvp pynff GAPynlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FBO",
         "PNYY:FUBEG BS OERNGU",
         "NQQE:933 TNVARFOBEB UJL",
-        "NCG:U3 Oyqt",
+        "NCG:U3",
         "PVGL:PRYVAN",
         "ANZR:CRAAVATGBA PNEBY",
         "VQ:2015-0000001635");

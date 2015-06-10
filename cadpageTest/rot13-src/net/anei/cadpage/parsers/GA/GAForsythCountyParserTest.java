@@ -117,7 +117,7 @@ choyvp pynff TNSbeflguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:33SN",
         "PNYY:SVER NYNEZ",
         "NQQE:2615 CRNPUGERR CXJL",
-        "NCG:270 Oyqt",
+        "NCG:270",
         "K:ZNGUVF NVECBEG CXJL",
         "ANZR:FHJNARR NYYVPNAPR SVER//BCRE 3",
         "CUBAR:7709341120",
@@ -131,8 +131,8 @@ choyvp pynff TNSbeflguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:5390 ZPTVAAVF SREEL EQ",
         "K:SNVEPEBSG QE",
         "PVGL:NYCUNERGGN",
-        "ANZR:ZE FGNYNPXE 7 7401179",
-        "CUBAR:7707401279",
+        "ANZR:ZE FGNYNPXE 7",
+        "CUBAR:7401179 7707401279",
         "ZNC:4051",
         "VQ:2015-0000000882");
 

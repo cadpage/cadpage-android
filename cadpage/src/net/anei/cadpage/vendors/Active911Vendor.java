@@ -788,6 +788,7 @@ class Active911Vendor extends Vendor {
       "US/TN/RoaneCounty",                "TNRoaneCounty",
       "US/TN/SevierCounty",               "TNSevierCounty",
       "US/TN/WarrenCounty",               "TNWarrenCounty",
+      "US/TN/WilliamsonCounty",           "TNWilliamsonCountyB",
       "US/TX/Acadian",                    "TXAcadianAmbulance",
       "US/TX/AngletonPD",                 "TXAngleton",
       "US/TX/AransasCounty",              "TXAransasCounty",

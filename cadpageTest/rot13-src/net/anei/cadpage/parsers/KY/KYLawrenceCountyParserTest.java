@@ -293,7 +293,7 @@ choyvp pynff XLYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ZINV",
         "PNYY:ZIN J/VAWHEVRF",
         "NQQE:SNYYFOHET UJL",
-        "NCG:23 2204",
+        "NCG:23-2204",
         "VQ:2014-0000001947");
 
     qbGrfg("G27",

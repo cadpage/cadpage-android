@@ -543,7 +543,7 @@ choyvp pynff CNYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:06Q",
         "PNYY:OERNGUVAT CEBOYRZF QRYGN",
         "NQQE:916 ZBHAG WNPXFBA EQ",
-        "NCG:1 Oyqt",
+        "NCG:1",
         "K:JNEEVBE GEY",
         "PVGL:ABEGU ORNIRE GJC",
         "ANZR:NEABYQ, AVPBYR",

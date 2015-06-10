@@ -1092,7 +1092,7 @@ choyvp pynff BXOelnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:YVSG",
         "PNYY:YVSG NFFVFG",
         "NQQE:1511 YNEXFCHE",
-        "NCG:703 Oyqt",
+        "NCG:703",
         "PVGL:QHENAG",
         "ANZR:YVSRYVAR",
         "CUBAR:8882892018",

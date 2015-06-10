@@ -123,7 +123,7 @@ choyvp pynff XFZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1097",
         "PNYY:QBZRFGVP QVFGHEONAPR",
         "NQQE:302 F JNFUVATGBA FG",
-        "NCG:2 Oyqt",
+        "NCG:2",
         "PVGL:UVYYFOBEB",
         "VQ:2014-0000004703");
 

@@ -28,14 +28,15 @@ public class DispatchB2Parser extends DispatchBParser {
   public static final int B2_CROSS_FOLLOWS = 2;
   
   private static final Pattern CODE_PATTERN = Pattern.compile("^([- /#&A-Z0-9]{0,6}?|\\?) *> *"); 
-  private static final Pattern PHONE_PTN = Pattern.compile(" *((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4})$");
+  private static final Pattern PHONE_PTN = Pattern.compile("[ /]*((?<!\\d)(?:(?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4}\\b *)+)[ /]*");
   private static final Pattern PHONE2_PTN = Pattern.compile("^((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4}) *");
-  private static final Pattern APT_PTN = Pattern.compile("[A-Z]?\\d+[A-Z]?");
   private static final Pattern NAME_PTN = Pattern.compile(" +([A-Z]+, ?[A-Z]+(?: [A-Z]\\.?)?)$");
   private static final Pattern INTERSECT_PTN = Pattern.compile("(?:&|[NSEW]O |[NSEW][EW]? OF ).*", Pattern.CASE_INSENSITIVE);
   private static final Pattern TRAIL_DIR_PTN = Pattern.compile(" +([NSEW]B?)$");
   private static final Pattern CROSS_LABEL_PTN = Pattern.compile("\\b(?:XS|CS|C/S)[: ] *");
-  private static final Pattern BLDG_PTN = Pattern.compile("(Bldg(?: \\d+)?)\\b *"); 
+  private static final Pattern APT1_PTN = Pattern.compile("Apt: *(\\S+) *");
+  private static final Pattern BLDG_PTN = Pattern.compile("Bldg(?: (\\d+))?\\b *"); 
+  private static final Pattern APT2_PTN = Pattern.compile("[A-Z]?\\d+[A-Z]?");
   
   private String[] prefixList;
   private boolean forceCallCode;
@@ -181,51 +182,68 @@ public class DispatchB2Parser extends DispatchBParser {
       flags = 0;
     }
 
+    // look for a phone number.  If found it will either be at the end of
+    // the message, or it will mark the end of the address
+    String left = null;
     match = PHONE_PTN.matcher(field);
     if (match.find()) {
-      data.strPhone = match.group(1);
+      data.strPhone = match.group(1).trim();
+      left = field.substring(match.end());
       field = field.substring(0,match.start());
+      if (left.length() == 0) left = null;
     }
     
-    field = cleanWirelessCarrier(field, true);
-    match = NAME_PTN.matcher(field);
-    if (match.find()) {
-      String name = match.group(1);
-      if (!notName(name)) {
-        data.strName = match.group(1);
-        field = field.substring(0,match.start());
-      }
+    if (left != null) {
+      left = stripTrailName(left, data);
+    } else {
+      field = stripTrailName(field, data);
     }
+    
     if (crossFollows) flags |= FLAG_CROSS_FOLLOWS;
+    if (left != null) flags |=  FLAG_ANCHOR_END;
     flags |= getExtraParseAddressFlags();
     parseAddress(st, flags | FLAG_NEAR_TO_END, field, data);
-    String name = getLeft();
+    if (left == null) {
+      left = getLeft();
+    }
+    data.strApt = stripFieldEnd(data.strApt, " Bldg");
+    
     boolean noCross = (data.strCross.length() == 0);
-    if (name.length() > 0) {
-      match = CROSS_LABEL_PTN.matcher(name);
-      if (match.find()) {
-        data.strApt = append(data.strApt, " ", name.substring(0,match.start()).trim());
-        name = name.substring(match.start()).trim();
-      }
-      else if ((match = BLDG_PTN.matcher(name)).lookingAt()) {
-        data.strApt = append(data.strApt, " ", match.group(1));
-        name = name.substring(match.end());
-      }
-      if (INTERSECT_PTN.matcher(name).matches()) {
-        data.strAddress = append(data.strAddress, " ", name);
+    if (left.length() > 0) {
+
+      if ((flags & FLAG_ANCHOR_END) == 0 && INTERSECT_PTN.matcher(left).matches()) {
+        data.strAddress = append(data.strAddress, " ", left);
+        left = "";
       } 
-      else if (data.strPhone.length() == 0 && (match = PHONE2_PTN.matcher(name)).find()) {
-        data.strPhone = match.group(1);
-        name = name.substring(match.end());
-        parseCrossName(name, data);
-      }
       
-      else if ((match = APT_PTN.matcher(name)).matches()) {
-        data.strApt = append(data.strApt, " ", name);
+      match = APT1_PTN.matcher(left);
+      if (match.lookingAt()) {
+        data.strApt = append(data.strApt, "-", match.group(1));
+        left = left.substring(match.end());
+      }
+      match = BLDG_PTN.matcher(left);
+      if (match.lookingAt()) {
+        data.strApt = append(data.strApt, " Bldg ", getOptGroup(match.group(1)));
+        left = left.substring(match.end());
+      }
+
+      match = CROSS_LABEL_PTN.matcher(left);
+      if (match.find()) {
+        data.strApt = append(data.strApt, "-", left.substring(0,match.start()).trim());
+        left = left.substring(match.start()).trim();
+      }
+//      else if (data.strPhone.length() == 0 && (match = PHONE2_PTN.matcher(name)).find()) {
+//        data.strPhone = match.group(1);
+//        name = name.substring(match.end());
+//        parseCrossName(name, data);
+//      }
+      
+      if ((match = APT2_PTN.matcher(left)).matches()) {
+        data.strApt = append(data.strApt, "-", left);
       }
       
       else {
-        parseCrossName(name, data);
+        parseCrossName(left, data);
       }
       
       // We can't turn on the FLAG_CROSS_FOLLOWS option or it will mess up following names
@@ -241,6 +259,22 @@ public class DispatchB2Parser extends DispatchBParser {
     }
     
     return data.strAddress.length() > 0;
+  }
+
+  private String stripTrailName(String field, Data data) {
+    
+    field = cleanWirelessCarrier(field, true);
+    
+    Matcher match;
+    match = NAME_PTN.matcher(field);
+    if (match.find()) {
+      String name = match.group(1);
+      if (!notName(name)) {
+        data.strName = match.group(1);
+        field = field.substring(0,match.start());
+      }
+    }
+    return field;
   }
 
   private void parseCrossName(String field, Data data) {

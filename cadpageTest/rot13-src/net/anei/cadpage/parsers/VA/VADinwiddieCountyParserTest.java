@@ -415,7 +415,7 @@ choyvp pynff INQvajvqqvrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:527",
         "PNYY:HAPBAFPVBHF/HAERFCBAFVIR",
         "NQQE:6107 QHAPNA EQ",
-        "NCG:W Oyqt",
+        "NCG:W",
         "K:OBLQGBA CYNAX EQ",
         "PVGL:CRGREFOHET",
         "CUBAR:8044905101",

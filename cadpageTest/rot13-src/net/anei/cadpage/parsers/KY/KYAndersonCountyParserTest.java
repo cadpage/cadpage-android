@@ -198,7 +198,7 @@ choyvp pynff XLNaqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:Z",
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:1139 IREFNVYYRF EQ",
-        "NCG:16 Oyqt",
+        "NCG:16",
         "K:UVYYGBC QE",
         "PVGL:YNJERAPROHET");
 
@@ -284,7 +284,7 @@ choyvp pynff XLNaqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:Z",
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:1141 IREFNVYYRF EQ",
-        "NCG:28 Oyqt",
+        "NCG:28",
         "K:UVYYGBC QE",
         "PVGL:YNJERAPROHET");
 
@@ -729,7 +729,7 @@ choyvp pynff XLNaqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:Z",
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:1141 IREFNVYYRF EQ",
-        "NCG:38 Oyqt",
+        "NCG:38",
         "K:UVYYGBC QE",
         "PVGL:YNJERAPROHET");
 
@@ -870,7 +870,7 @@ choyvp pynff XLNaqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:Z",
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:1141 IREFNVYYRF EQ",
-        "NCG:25 Oyqt",
+        "NCG:25",
         "K:UVYYGBC QE",
         "PVGL:YNJERAPROHET");
 

@@ -3325,7 +3325,7 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:PVINF",
         "PNYY:PVIVY NFFVFG",
         "NQQE:104 JVYQEBFR PG",
-        "NCG:12 Oyqt",
+        "NCG:12",
         "PVGL:PBNY PVGL",
         "ANZR:ENPURY FGBIRE",
         "VQ:2014-0000069225");
@@ -4533,7 +4533,7 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FRVMH",
         "PNYY:FRVMHERF",
         "NQQE:135 J ZNVA FG",
-        "NCG:2 Oyqt",
+        "NCG:2",
         "PVGL:FBCUVN",
         "ANZR:NATRY UNMR",
         "VQ:2014-0000060171");
@@ -4570,7 +4570,7 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:NFGBQ",
         "PNYY:NFFVFG BGURE QRCG",
         "NQQE:301 QNAVRYF QE",
-        "NCG:301 Oyqt",
+        "NCG:301",
         "PVGL:FBCUVN",
         "ANZR:NZNAQN P/B WNA PNER",
         "VQ:2014-0000058096");
@@ -5734,7 +5734,7 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FVPX",
         "PNYY:FVPX",
         "NQQE:QNAVRYF QE",
-        "NCG:15 Oyqt",
+        "NCG:15",
         "PVGL:FBCUVN",
         "ANZR:ZNEVR FGNPRL",
         "VQ:2014-0000067526");
@@ -5816,7 +5816,7 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FVPX",
         "PNYY:FVPX",
         "NQQE:150 ZNCYR FG",
-        "NCG:601 Oyqt",
+        "NCG:601",
         "PVGL:FBCUVN",
         "ANZR:FBAVN YVIRYL",
         "VQ:2014-0000066891");
@@ -5923,7 +5923,7 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:CNVA",
         "PNYY:FCRPVSL -(V.R. -NEZ/YRT)",
         "NQQE:150 ZNCYR FG",
-        "NCG:601 Oyqt",
+        "NCG:601",
         "PVGL:FBCUVN",
         "ANZR:FBAVN YVIRYL",
         "VQ:2014-0000065697");
@@ -6095,7 +6095,7 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ZRAGN",
         "PNYY:ZRAGNY/RZBGVBANY/CF",
         "NQQE:624 WBUAFGBJA EQ",
-        "NCG:216 Oyqt",
+        "NCG:216",
         "PVGL:ORPXYRL",
         "ANZR:NATRYB TBBQNEQ",
         "VQ:2014-0000064407");
@@ -6253,7 +6253,7 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FRVMH",
         "PNYY:FRVMHERF",
         "NQQE:320 OEBNQJNL FG",
-        "NCG:320 Oyqt",
+        "NCG:320",
         "PVGL:ORPXYRL",
         "ANZR:ORPXL PBPUENA",
         "VQ:2014-0000070156");

@@ -398,7 +398,7 @@ choyvp pynff CNWhavngnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:RZQNYZ",
         "PNYY:ZRQVPNY NYNEZ",
         "NQQE:58 UBANZNA UBHFR QE",  // Abg znccvat
-        "NCG:213 Oyqt",
+        "NCG:213",
         "K:BSS RNFG ZNVA FG",
         "PVGL:GUBZCFBAGBJA",
         "ANZR:UBANZNA UBHFR NZPRFG NYNEZ",
@@ -447,7 +447,7 @@ choyvp pynff CNWhavngnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:RPCN",
         "PNYY:PURFG CNVA",
         "NQQE:372 RNFG FNYRZ EQ",
-        "NCG:5 Oyqt",
+        "NCG:5",
         "K:EG 333 GB EG 235",
         "PVGL:QRYNJNER",
         "ANZR:RYVMNORGU",

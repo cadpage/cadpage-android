@@ -116,7 +116,7 @@ choyvp pynff INPnebyvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FVPX",
         "PNYY:FVPX",
         "NQQE:18080 N C UVYY OYIQ",
-        "NCG:10 Oyqt",
+        "NCG:10",
         "K:JNTBA JURRY YA",
         "PVGL:OBJYVAT TERRA",
         "ZNC:54",

@@ -526,8 +526,7 @@ choyvp pynff XLYnEhrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:28 F JNYGREF NIR",
         "K:15",
         "PVGL:UBQTRAIVYYR",
-        "ANZR:BCG 55 ERS 2",
-        "CUBAR:159-1905");
+        "ANZR:BCG 55 ERS 2159-1905");
 
     qbGrfg("G30",
         "1208:YNEHRPB911:SVER-N SVER - NYNEZ 28 F JNYGREF NIR 8008360142 15 SVER NYNEZ VA LBHE NERN. NHGBZNGRQ ZFT",
@@ -696,8 +695,7 @@ choyvp pynff XLYnEhrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:28 F JNYGREF NIR",
         "K:15",
         "PVGL:UBQTRAIVYYR",
-        "ANZR:55 ERS 2",
-        "CUBAR:159-1905");
+        "ANZR:55 ERS 2159-1905");
 
     qbGrfg("G47",
         "1180:YNEHRPB911:SVER-N SVER - NYNEZ 28 F JNYGREF NIR 8008360142 15 SVER NYNEZ VA LBHE NERN. NHGBZNGRQ ZFT",
@@ -726,8 +724,7 @@ choyvp pynff XLYnEhrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:28 F JNYGREF NIR",
         "K:15",
         "PVGL:UBQTRAIVYYR",
-        "ANZR:12 ERS 2",
-        "CUBAR:159-1905");
+        "ANZR:12 ERS 2159-1905");
 
     qbGrfg("G50",
         "1170:YNEHRPB911:SVER-N SVER - NYNEZ 28 F JNYGREF NIR 8008360142 15 SVER NYNEZ VA LBHE NERN. NHGBZNGRQ ZFT",
@@ -2242,8 +2239,7 @@ choyvp pynff XLYnEhrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:28 F JNYGREF NIR",
         "K:15",
         "PVGL:UBQTRAIVYYR",
-        "ANZR:12 ERS 2",
-        "CUBAR:159-1905");
+        "ANZR:12 ERS 2159-1905");
 
     qbGrfg("G39",
         "197:YNEHRPB911:1046 >ZIN JVGU VAWHEVRF NYYRAF URNGVAT KF: 10,15,16 UBQTRAIVYYR NG&G ZBOVYVGL Pnq: 2014-0000007924",

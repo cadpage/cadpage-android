@@ -14,9 +14,11 @@ public class DispatchB3Parser extends DispatchB2Parser {
   private Pattern prefixPattern = null;
 
   public DispatchB3Parser(String prefix, String[] cityList, String defCity, String defState) {
-    super(cityList, defCity, defState);
-    setupCallList((CodeSet)null);
-    this.prefix = prefix;
+    this(prefix, cityList, defCity, defState, 0);
+  }
+
+  public DispatchB3Parser(String prefix, String defCity, String defState, int flags) {
+    this(prefix, null, defCity, defState, flags);
   }
 
   public DispatchB3Parser(String prefix, String[] cityList, String defCity, String defState, int flags) {
