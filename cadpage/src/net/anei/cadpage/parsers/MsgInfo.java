@@ -49,7 +49,10 @@ public class MsgInfo {
   
   // Preserve STATE HIGHWAY construct
   public static final int MAP_FLG_KEEP_STATE_HIGHWAY = 0x800;
+  
+  public enum MsgType { PAGE, GEN_ALERT, RUN_REPORT };
 
+  private MsgType msgType;
   private String strCall;
   private String strPlace;
   private String strAddress;
@@ -105,6 +108,7 @@ public class MsgInfo {
    *
    */
   public static class Data {
+    public MsgType msgType;
     public String strCall;
     public String strPlace;
     public String strAddress;
@@ -151,6 +155,7 @@ public class MsgInfo {
     public void initialize(MsgParser parser) {
       expectMore = false;
       
+      msgType = MsgType.PAGE;
       strCall = "";
       strPlace = "";
       strAddress = "";
@@ -202,8 +207,8 @@ public class MsgInfo {
      */
     public boolean parseGeneralAlert(MsgParser parser, String message) {
       initialize(parser);
-      strCall = "GENERAL ALERT";
-      strPlace = message;
+      msgType = MsgType.GEN_ALERT;
+      strSupp = message;
       return true;
     }
     
@@ -216,9 +221,9 @@ public class MsgInfo {
     public boolean parseRunReport(MsgParser parser, String message) {
       String saveCallId = strCallId;
       initialize(parser);
-      strCall = "RUN REPORT";
+      msgType = MsgType.RUN_REPORT;
       strCallId = saveCallId;
-      strPlace = message;
+      strSupp = message;
       return true;
     }
     
@@ -229,8 +234,8 @@ public class MsgInfo {
      */
     public int score() {
       int result = 0;
-      if (strCall.equals("GENERAL ALERT")) result += 0;
-      else if (strCall.equals("RUN REPORT")) result += 20000;
+      if (msgType == MsgType.GEN_ALERT || strCall.equals("GENERAL ALERT")) result += 0;
+      else if (msgType == MsgType.RUN_REPORT || strCall.equals("RUN REPORT")) result += 20000;
       else if (strCall.length() == 0 || strCall.equals("ALERT")) result += 40000;
       else result += 42000;
       if (strAddress.length() > 0) result += 10000;
@@ -264,6 +269,7 @@ public class MsgInfo {
    * @param info data object containing all message information
    */
   public MsgInfo(Data info) {
+    msgType = info.msgType;
     strCall = info.strCall;
     strPlace = info.strPlace;
     strAddress = info.strAddress;
@@ -298,6 +304,13 @@ public class MsgInfo {
     strBaseMapAddress = info.strBaseMapAddress;
     strMapCity = info.strMapCity;
     mapPageURL = info.mapPageURL;
+  }
+  
+  /**
+   * @return message type
+   */
+  public MsgType getMsgType() {
+    return msgType;
   }
   
   /**
@@ -1107,6 +1120,7 @@ public class MsgInfo {
   public void addMessageInfo(StringBuilder sb) {
     sb.append("\n\nParser Info");
     
+    addInfo(sb, "Type", msgType.toString());
     addInfo(sb, "Call", strCall);
     addInfo(sb, "Place", strPlace);
     addInfo(sb, "Addr", strAddress);
