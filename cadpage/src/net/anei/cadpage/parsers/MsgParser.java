@@ -15,6 +15,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 /**
  * This class is responsible for parsing useful information from an SMS page message
@@ -373,8 +374,8 @@ public abstract class MsgParser {
     // our part to go with the flow....
     if (msg.getFromAddress().contains("pwcgov.org")) {
       data.strSupp = "";
-      String call = data.strCall;
-      if (call.equals("GENERAL ALERT") || call.equals("RUN REPORT")) {
+      if (data.msgType == MsgType.GEN_ALERT || data.msgType == MsgType.RUN_REPORT ||
+          data.strCall.equals("GENERAL ALERT") || data.strCall.equals("RUN REPORT")) {
         data.strPlace = "";
       }
     }
@@ -429,8 +430,10 @@ public abstract class MsgParser {
       // general alerts, and we aren't running in a test class, change this to
       // an outright failure
       if ((parseFlags & PARSE_FLG_TEST_MODE) == 0) {
-        if (!parseGenAlert && data.strCall.equals("GENERAL ALERT")) return null;
-        if (!parseRunReport && data.strCall.equals("RUN REPORT")) return null;
+        if (!parseGenAlert && 
+            (data.msgType == MsgType.GEN_ALERT || data.strCall.equals("GENERAL ALERT"))) return null;
+        if (!parseRunReport && 
+            (data.msgType == MsgType.RUN_REPORT || data.strCall.equals("RUN REPORT"))) return null;
       }
       return data;
     }

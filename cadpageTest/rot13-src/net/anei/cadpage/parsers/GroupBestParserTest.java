@@ -1,6 +1,7 @@
 cnpxntr arg.narv.pnqcntr.cnefref;
 
 vzcbeg arg.narv.pnqcntr.cnefref.ZftVasb.Qngn;
+vzcbeg arg.narv.pnqcntr.cnefref.ZftVasb.ZftGlcr;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBNqnzfPbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBObhyqrePbhaglNCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBJryqPbhaglCnefre;
@@ -45,9 +46,9 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G17",
         "(PNQ Zrffntr) 13-008577 - 7) 04/16/2013 18:45:46 18:45:46.000-[7] [Abgvsvpngvba] [Jbbqynaqf Sver]-Ceboyrz punatrq sebz Snyy gb Hapbafpvbhf/Snvagvat ol Jbbqynaqf Sver [Funerq]",
-        "PNYY:TRARENY NYREG",
+        "GLCR:TRA_NYREG",
         "VQ:13-008577 - 7",
-        "CYNPR:[Jbbqynaqf Sver]-Ceboyrz punatrq sebz Snyy gb Hapbafpvbhf/Snvagvat ol Jbbqynaqf Sver",
+        "VASB:[Jbbqynaqf Sver]-Ceboyrz punatrq sebz Snyy gb Hapbafpvbhf/Snvagvat ol Jbbqynaqf Sver",
         "QNGR:04/16/2013",
         "GVZR:18:45:46");
     
@@ -57,8 +58,8 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "HAVG: YF6 ; YNGR GHEA-NEBHAQ ;CYRNFR PNYY YVSRPBZZ JVGU LBHE FGNGHF ; (#1\e\a",
         "HAVG:YF6",
-        "PNYY:TRARENY NYREG",
-        "CYNPR:YNGR GHEA-NEBHAQ ;CYRNFR PNYY YVSRPBZZ JVGU LBHE FGNGHF ; (#1");
+        "GLCR:TRA_NYREG",
+        "VASB:YNGR GHEA-NEBHAQ ;CYRNFR PNYY YVSRPBZZ JVGU LBHE FGNGHF ; (#1");
   }
   
   @Grfg
@@ -344,13 +345,17 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   cevingr ibvq qbGrfg(ZftCnefre cnefre, vag syntf, Fgevat nqqerff, Fgevat obql,
-                      Fgevat rkcCnefre, Fgevat rkcPnyy, Fgevat rkcCynpr) {
+                      Fgevat rkcCnefre, Fgevat rkcPnyy, Fgevat rkcVasb) {
     
     GrfgZrffntr zft = arj GrfgZrffntr(nqqerff, obql);
     nffregGehr("snvy", cnefre.vfCntrZft(zft, syntf));
+    ZftGlcr zftGlcr = zft.trgVasb().trgZftGlcr();
+    Fgevat pnyy = zft.trgVasb().trgPnyy();
+    vs (zftGlcr == ZftGlcr.TRA_NYREG) pnyy = "TRARENY NYREG";
+    vs (zftGlcr == ZftGlcr.EHA_ERCBEG)pnyy = "EHA ERCBEG"; 
     nffregRdhnyf("cnefre", rkcCnefre, zft.trgYbpngvbaPbqr());
-    nffregRdhnyf("pnyy", rkcPnyy, zft.trgVasb().trgPnyy());
-    nffregRdhnyf("cynpr", rkcCynpr, zft.trgVasb().trgCynpr());
+    nffregRdhnyf("pnyy", rkcPnyy, pnyy);
+    nffregRdhnyf("cynpr", rkcVasb, zft.trgVasb().trgFhcc());
   }
   
   @Grfg
@@ -443,7 +448,7 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
         vs (!obql.fgnegfJvgu(xrl)) erghea snyfr;
       }
       vs (obql.pbagnvaf("EHA ERCBEG")) {
-        qngn.fgePnyy = "EHA ERCBEG";
+        qngn.zftGlcr = ZftGlcr.EHA_ERCBEG;
       } ryfr {
         qngn.fgePnyy = anzr;
       }

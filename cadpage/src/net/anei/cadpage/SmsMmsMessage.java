@@ -163,9 +163,9 @@ public class SmsMmsMessage implements Serializable {
   public FilterOptions getFilterOptions() {
     MsgInfo info = getInfo();
     if (info == null)  return ManagePreferences.genAlertOptions();
-    String call = info.getCall();
-    if (call.equals("GENERAL ALERT")) return ManagePreferences.genAlertOptions();
-    if (call.equals("RUN REPORT")) return ManagePreferences.runReportOptions();
+    MsgInfo.MsgType msgType = info.getMsgType();
+    if (msgType == MsgInfo.MsgType.GEN_ALERT) return ManagePreferences.genAlertOptions();
+    if (msgType == MsgInfo.MsgType.RUN_REPORT) return ManagePreferences.runReportOptions();
     return new FilterOptions();
   }
   
@@ -1016,7 +1016,7 @@ public class SmsMmsMessage implements Serializable {
       putExtraString(intent, EXTRA_LOC_CITY, info.getDefCity());
       putExtraString(intent, EXTRA_LOC_STATE, info.getDefState());
       putExtraString(intent, EXTRA_PARSE_CALL_CODE, info.getCode());
-      putExtraString(intent, EXTRA_PARSE_CALL, info.getCall());
+      putExtraString(intent, EXTRA_PARSE_CALL, info.getExtendedCall());
       putExtraString(intent, EXTRA_PARSE_INFO, info.getSupp());
       putExtraString(intent, EXTRA_PARSE_PLACE, info.getPlace());
       putExtraString(intent, EXTRA_PARSE_ADDRESS, info.getAddress());

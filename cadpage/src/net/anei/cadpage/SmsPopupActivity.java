@@ -293,70 +293,75 @@ public class SmsPopupActivity extends Safe40Activity {
         sb.append(info.getPlace());
         sb.append('\n');
       }
-      sb.append(info.getAddress());
-      String appt = info.getApt();
-      if (appt.length() > 0) {
-        sb.append(' ');
-        sb.append(getString(R.string.apt_label));
-        sb.append(appt);
+      String addr = info.getAddress();
+      String apt = info.getApt();
+      if (apt.length() > 0) {
+        if (addr.length() > 0) addr = addr + ' ';
+        addr = addr + getString(R.string.apt_label) + apt;
       }
-      String delim="\n";
-      if (info.getCity().length() > 0) {
-        sb.append(delim);
-        delim = ", ";
-        sb.append(info.getCity());
+      if (addr.length() > 0) {
+        sb.append(addr);
+        sb.append('\n');
       }
-      if (info.getState().length() > 0) {
-        sb.append(delim);
-        sb.append(info.getState());
+      String city = info.getCity();
+      String st = info.getState();
+      if (st.length() > 0) {
+        if (city.length() > 0) city += ", ";
+        city += st;
+      }
+      if (city.length() > 0) {
+        sb.append(city);
+        sb.append('\n');
       }
       if (info.getCross().length() > 0) {
-        sb.append('\n');
         sb.append(getString(R.string.cross_label));
         sb.append(info.getCross());
+        sb.append('\n');
       }
       if (info.getMap().length() > 0) {
-        sb.append('\n');
         sb.append(getString(R.string.map_label));
         sb.append(info.getMap());
+        sb.append('\n');
       }
       if (info.getBox().length() > 0) {
-        sb.append('\n');
         sb.append(getString(R.string.box_label));
         sb.append(info.getBox());
+        sb.append('\n');
       }
       if (info.getUnit().length() > 0) {
-        sb.append('\n');
         sb.append(getString(R.string.units_label));
         sb.append(info.getUnit());
+        sb.append('\n');
       }
       if (ManagePreferences.showPersonal()) {
         if (info.getName().length() > 0) {
-          sb.append('\n');
           sb.append(getString(R.string.name_label));
           sb.append(info.getName());
+          sb.append('\n');
         }
         if (info.getPhone().length() > 0) {
-          sb.append('\n');
           sb.append(getString(R.string.phone_label));
           sb.append(info.getPhone());
+          sb.append('\n');
         }
       }
       if (info.getChannel().length() > 0) {
-        sb.append('\n');
         sb.append(getString(R.string.channel_label));
         sb.append(info.getChannel());
+        sb.append('\n');
       }
       if (info.getSupp().length() >0) {
-        sb.append('\n');
-        sb.append(getString(R.string.info_label));
         sb.append(info.getSupp());
+        sb.append('\n');
       }
       if (info.getCallId().length() >0) {
-        sb.append('\n');
         sb.append(getString(R.string.call_id_label));
         sb.append(info.getCallId());
+        sb.append('\n');
       }
+      
+      // Remove trailing \n
+      sb.setLength(sb.length()-1);
       detailText = sb.toString();
     }
     messageReceivedTV.setText(headerText);

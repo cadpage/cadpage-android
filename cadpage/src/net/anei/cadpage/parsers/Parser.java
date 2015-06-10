@@ -15,6 +15,7 @@ import java.io.PrintStream;
  *        service.  Should not be necessary if page is coming directly from 
  *        dispatch CAD software
  *    G - Messages should be parsed as general alerts if not recognized as CAD pages
+ *    N - Generate new format (may be incompatible with older clients)
  *    - - Read flags from STDIN
  * FMT=<format code>
  *    format code is the parser format code.  Default or - to read from stdin
@@ -81,8 +82,9 @@ public class Parser {
       if (parser != null) {
         int flags = MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER;
         if (tFlags.contains("G")) flags |= MsgParser.PARSE_FLG_GEN_ALERT;
+        boolean compatMode = !tFlags.contains("N");
         if (parser.isPageMsg(msg, flags)) {
-          System.out.println(CadpageParser.formatInfo(msg.getInfo(), "\n", true));
+          System.out.println(CadpageParser.formatInfo(msg.getInfo(), "\n", true, compatMode));
         }
       }
       System.out.println(EOD_MARKER);

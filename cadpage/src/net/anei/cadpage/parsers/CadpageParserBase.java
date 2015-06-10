@@ -2,8 +2,11 @@ package net.anei.cadpage.parsers;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 /**
  * Base class for the two CadpageParser classes
@@ -24,6 +27,7 @@ public class CadpageParserBase  extends FieldProgramParser{
   }
   
   private void initMap() {
+    setMap("TYPE");
     setMap("PRI");
     setMap("DATE");
     setMap("TIME");
@@ -71,6 +75,8 @@ public class CadpageParserBase  extends FieldProgramParser{
   
   @Override
   public Field getField(String name) {
+    if (name.equals("TYPE")) return new TypeField();
+    if (name.equals("CALL")) return new MyCallField();
     if (name.equals("DCITY")) return new DefCityField();
     if (name.equals("DST")) return new DefStateField();
     if (name.equals("MADDR")) return new MapAddressField();
@@ -81,6 +87,31 @@ public class CadpageParserBase  extends FieldProgramParser{
     if (name.equals("MP_URL")) return new MapPageURLField();
     if (name.equals("PARSER")) return new ParserField();
     return super.getField(name);
+  }
+  
+  private class TypeField extends SkipField {
+    @Override
+    public void parse(String field, Data data) {
+      try {
+        data.msgType = MsgType.valueOf(field);
+      } catch (IllegalArgumentException ex) {}
+    }
+  }
+  
+  private static final Pattern SPEC_CALL_PTN = Pattern.compile("(GENERAL ALERT|RUN REPORT)(?: - +(.*))?");
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = SPEC_CALL_PTN.matcher(field);
+      if (match.matches()) {
+        String mType = match.group(1);
+        if (mType.equals("GENERAL ALERT")) data.msgType = MsgInfo.MsgType.GEN_ALERT;
+        else data.msgType = MsgInfo.MsgType.RUN_REPORT;
+        field = match.group(2);
+        if (field == null) return;
+      }
+      super.parse(field, data);
+    }
   }
 
   // And something to save the default city and state

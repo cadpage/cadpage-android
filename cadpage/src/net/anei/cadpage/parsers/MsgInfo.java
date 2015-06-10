@@ -304,6 +304,19 @@ public class MsgInfo {
     strBaseMapAddress = info.strBaseMapAddress;
     strMapCity = info.strMapCity;
     mapPageURL = info.mapPageURL;
+    
+    // Convert old General ALert or Run report convention to new standard
+    if (msgType == MsgType.PAGE) {
+      if (strCall.equals("GENERAL ALERT")) msgType = MsgType.GEN_ALERT;
+      else if (strCall.equals("RUN REPORT")) msgType = MsgType.RUN_REPORT;
+      if (msgType != MsgType.PAGE) {
+        strCall = "";
+        if (strSupp.length() == 0) {
+          strSupp = strPlace;
+          strPlace = "";
+        }
+      }
+    }
   }
   
   /**
@@ -325,6 +338,18 @@ public class MsgInfo {
    */
   public String getCall() {
     return strCall;
+  }
+  
+  /**
+   * @return extended call description
+   */
+  public String getExtendedCall() {
+    if (msgType != MsgType.GEN_ALERT && msgType != MsgType.RUN_REPORT) return strCall;
+    String call = msgType == MsgType.GEN_ALERT ? "GENERAL ALERT" : "RUN REPORT";
+    if (strCall.length() > 0) {
+      call = call + " - " + strCall;
+    }
+    return call;
   }
   
   /**
@@ -358,12 +383,13 @@ public class MsgInfo {
     if (noCall() && strSupp.length() > 0) {
       sb.append(strSupp);
     } else {
-      sb.append(strCall);
+      sb.append(getExtendedCall());
     }
     return sb.toString();
   }
 
   public boolean noCall() {
+    if (msgType == MsgType.GEN_ALERT || msgType == MsgType.RUN_REPORT) return false;
     return strCall.length() == 0 || strCall.equals("ALERT");
   }
   

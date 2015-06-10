@@ -3479,16 +3479,20 @@ choyvp pynff CNOhpxfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrz() {
 
-    qbGrfg("G6",
-        "[911 Qngn] 08/19/13  10:18:34 ~GB~ VAG1 SEBZ SF01:\a" +
-        "FGN19,NAL NINVY PUVRS BSP CUBAR SVER PBZZ/639     \a" +
-        "                                                         \a\a\a",
+    qbGrfg("G1",
+        "(Vzcbegnag zrffntr sebz Ohpxf Pbhagl EFNA) FGN10,NAL PUVRS PNYY SVER ENQVB\a\a" +
+        "Frag ol zff911 Ohpxf gb FGN10, zff911 Ohpxf (Ibvpr/Snk Qvnyre, R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ohpxf Pbhagl EFNA",
+
+        "GLCR:TRA_NYREG",
+        "FEP:FGN10",
+        "VASB:NAL PUVRS PNYY SVER ENQVB");
+
+    qbGrfg("G17",
+        "(Vzcbegnag zrffntr sebz Ohpxf Pbhagl EFNA) FGN10,NAL PUVRS PNYY SVER ENQVB\a\aFrag ol zff911 Ohpxf gb FGN10, zff911 Ohpxf (Ibvpr/Snk Qvnyre, R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ohpxf Pbhagl EFNA",
 
         "PNYY:TRARENY NYREG",
-        "FEP:FGN19",
-        "CYNPR:NAL NINVY PUVRS BSP CUBAR SVER PBZZ/639",
-        "QNGR:08/19/13",
-        "GVZR:10:18:34");
+        "FEP:FGN10",
+        "CYNPR:NAL PUVRS PNYY SVER ENQVB");
 
   }
 

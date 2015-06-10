@@ -15,7 +15,7 @@
    <string name="name_label">Name:</string>
    <string name="phone_label">Phone:</string>
    <string name="channel_label">Channel:</string>
-   <string name="info_label">Info:</string>
+   <!-- string name="info_label">Info:</string -->
    <string name="call_id_label">CID:</string>
    
 <!--  Permission strings -->

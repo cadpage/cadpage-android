@@ -132,7 +132,7 @@ public class SmsMsgAccumulator {
       // reverse order and we get the last part first, the we won't know if
       // this is a real CAD page until the first part is received, so we have to
       // treat everything as a potential CAD page.
-      if (info.getCall().equals("GENERAL ALERT") &&
+      if (info.getMsgType() == MsgInfo.MsgType.GEN_ALERT &&
           ManagePreferences.revMsgOrder()) return true;
     }
     

@@ -1,0 +1,20 @@
+General Alert and Run Report call handing.
+
+A run report is a message from dispatch that closes out a previously dispatched
+call.  While not an absolute requirement, a call with time reports (dispatch time, 
+en route time, arival time, returning time, etc...) is a pretty positive indication
+that this message is a run report.
+
+A general alert is more ambiguous.  Generally, any message that we can identify 
+as coming from the dispatch center but cannot identify as a run report or dispatch
+alert should be reported as a general alert.
+
+The old way of handling these had a number of disadvantages.  Starting with the
+next Cadpage update, a new MsgType enum has been added to the parsed data structures.
+It defaults to PAGE which is correct for normal calls.  It should be set to
+GEN_ALERT or RUN_REPORT to indicate a general alert or run report call.  All
+of the other fields should be set to normally parsed values.  Any any data that
+does not fit in other fields can be saved in the strSupp (INFO) field.
+
+If a run report does have dispatch times, these should be formatted in the INFO 
+field, one line per time entry, close to the beginning of the reported information.

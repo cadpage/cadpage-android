@@ -77,14 +77,19 @@ public class CadpageParser  extends CadpageParserBase {
    * @param inclMapAddr true if base map address should be included.  This should only be used
    * when the target is a IPhone or IPad.  Android phones can take care of this themselves
    * and dumb phones users would only be confused.
+   * @compatMode compatibility mode option.  If set, generates a text string that is
+   * compatible with older client versions
    * @return
    */
-  public static String formatInfo(MsgInfo info, String delim, boolean inclMapAddr) {
+  public static String formatInfo(MsgInfo info, String delim, boolean inclMapAddr, boolean compatMode) {
     StringBuilder sb = new StringBuilder();
+    MsgInfo.MsgType msgType = info.getMsgType();
+    if (!compatMode && msgType != MsgInfo.MsgType.PAGE) append(sb, "TYPE", msgType, delim);
     append(sb, "PRI", info.getPriority(), delim);
     append(sb, "DATE", info.getDate(), delim);
     append(sb, "TIME", info.getTime(), delim);
-    append(sb, "CALL", info.getCall(), delim);
+    String call = (compatMode ? info.getExtendedCall() : info.getCall());
+    append(sb, "CALL", call, delim);
     append(sb, "PLACE", info.getPlace(), delim);
     append(sb, "ADDR", info.getAddress(), delim);
     append(sb, "CITY", info.getCity(), delim);
@@ -124,6 +129,11 @@ public class CadpageParser  extends CadpageParserBase {
     if (parser != null) append(sb, "PARSER", parser.getParserCode(), delim);
     
     return sb.toString();
+  }
+  
+  private static void append(StringBuilder sb, String key, Object value, String delim) {
+    String sVal = value == null ? null : value.toString();
+    append(sb, key, sVal, delim);
   }
   
   private static void append(StringBuilder sb, String key, String value, String delim) {

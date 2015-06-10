@@ -75,10 +75,10 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
     } else return false;
     
     //  See if the general alert data (in the place field) has a leading station code
-    match = SRC_MARKER.matcher(data.strPlace);
+    match = SRC_MARKER.matcher(data.strSupp);
     if (match.find()) {
       data.strSource = match.group(1);
-      data.strPlace = data.strPlace.substring(match.end()).trim();
+      data.strSupp = data.strSupp.substring(match.end()).trim();
     }
     return true;
   }
