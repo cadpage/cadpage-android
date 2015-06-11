@@ -528,13 +528,17 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     ZftVasb vasb = zft.trgVasb();
     ZftGlcr zftGlcr = vasb.trgZftGlcr();
     Fgevat[] grezf;
-    vs (zftGlcr == ZftGlcr.TRA_NYREG || zftGlcr == ZftGlcr.EHA_ERCBEG) {
-      grezf = EHA_ERCBEG_GREZF;
-    }
-    ryfr vs (svryqAnzrf != ahyy) {
+    vs (svryqAnzrf != ahyy) {
       grezf = svryqAnzrf.fcyvg(" +");
     } ryfr {
       grezf = trgGrfgGrezf();
+      vs (grezf == ahyy) {
+        vs (zftGlcr == ZftGlcr.TRA_NYREG || zftGlcr == ZftGlcr.EHA_ERCBEG) {
+          grezf = EHA_ERCBEG_GREZF;
+        } ryfr {
+          guebj arj EhagvzrRkprcgvba("Ab svryq grez yvfg qrsvarq");
+        }
+      }
     }
     
     // Frr vs jr arrq gb punatr gur qrsnhygf
@@ -603,8 +607,10 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   
   cevingr Fgevat[] trgGrfgGrezf() {
     
-    Fgevat cebt = "GLCR " + cnefre.trgCebtenz();
+    Fgevat cebt = cnefre.trgCebtenz();
+    vs (cebt == ahyy) erghea ahyy;
     
+    cebt = "GLCR " + cebt;
     Yvfg<Fgevat> grezYvfg = arj NeenlYvfg<Fgevat>();
     Frg<Fgevat> grezFrg = arj UnfuFrg<Fgevat>();
     sbe (Fgevat grez : cebt.fcyvg(" +")) {
