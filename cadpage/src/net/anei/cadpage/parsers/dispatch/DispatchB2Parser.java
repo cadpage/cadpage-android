@@ -29,7 +29,6 @@ public class DispatchB2Parser extends DispatchBParser {
   
   private static final Pattern CODE_PATTERN = Pattern.compile("^([- /#&A-Z0-9]{0,6}?|\\?) *> *"); 
   private static final Pattern PHONE_PTN = Pattern.compile("[ /]*((?<!\\d)(?:(?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4}\\b *)+)[ /]*");
-  private static final Pattern PHONE2_PTN = Pattern.compile("^((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4}) *");
   private static final Pattern NAME_PTN = Pattern.compile(" +([A-Z]+, ?[A-Z]+(?: [A-Z]\\.?)?)$");
   private static final Pattern INTERSECT_PTN = Pattern.compile("(?:&|[NSEW]O |[NSEW][EW]? OF ).*", Pattern.CASE_INSENSITIVE);
   private static final Pattern TRAIL_DIR_PTN = Pattern.compile(" +([NSEW]B?)$");
