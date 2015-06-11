@@ -6,7 +6,8 @@ vzcbeg bet.whavg.Grfg;
 
 
 /*
-Bnxynaq Pbhagl, ZV
+Bnxynaq Pbhagl, ZV (P)
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pvgl bs Ebpurfgre Uvyyf Sver Erfphr
 Ybpngvba: Ebpurfgre Uvyyf, ZV, Havgrq Fgngrf
@@ -112,17 +113,13 @@ Fraqre: ab_ercyl_pyrzvf@bnxtbi.pbz
 (uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~o951- / CV / A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~o951- /CV/A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273
 (uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~1-0rq / CV / A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~1-0rq /CV/A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273
 (uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~sp6r7 / CV / A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~sp6r7 /CV/A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273
+
 */
 
 choyvp pynff ZVBnxynaqPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZVBnxynaqPbhaglPCnefreGrfg() {
-	  frgCnefre(arj QhzzlCnefre(), "BNXYNAQ PBHAGL", "ZV");
-  }
-  
-  @Grfg
-  choyvp ibvq grfgCnefre() {
-
+	  frgCnefre(arj ZVBnxynaqPbhaglPCnefre(), "BNXYNAQ PBHAGL", "ZV");
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
