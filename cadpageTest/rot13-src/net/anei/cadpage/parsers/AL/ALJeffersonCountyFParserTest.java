@@ -1,11 +1,13 @@
 cnpxntr arg.narv.pnqcntr.cnefref.NY;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.NY.NYIrybpvglcfCnefreGrfg;
+vzcbeg arg.narv.pnqcntr.cnefref.NY.NYWrssrefbaPbhaglSCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
 /*
+Wrssrefba Pbhagl, NY (S)
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Gehffivyyr Sver naq Erfphr
 Ybpngvba: Gehffivyyr, NY, Havgrq Fgngrf
@@ -77,20 +79,16 @@ Fraqre: "nhgbznvyre@irybpvglcf.pbz" <nhgbznvyre@irybpvglcf.pbz>
 (PURFG CNVA  {06/02/2015 Nhgbzngrq Rznvy}) PNYY: PURFG CNVA\aCYNPR: NPNQRZL FCBEGF NAQ BHGQBBEF\aNQQE: 1612 TNQFQRA UJL\aPVGL: GEHFFIVYYR\aVQ: 2015-06-09991\aCEV: 1\aQNGR: 06/02/2015\aGVZR: 12:43:42\aZNC: I 9\aHAVG: 365,ONG 1,RAT 1,E1\aVASB: PEBFF FGERRG BS EBBFRIRYG QEVIR\a24 LB ZNYR VA N TENL 4 QBBE C/H VA CNEXVAT YBG ORUVAQ XSP
 (PURFG CNVA  {06/02/2015 Nhgbzngrq Rznvy}) PNYY: PURFG CNVA\aCYNPR: NPNQRZL FCBEGF NAQ BHGQBBEF\aNQQE: 1612 TNQFQRA UJL\aPVGL: GEHFFIVYYR\aVQ: 2015-06-09991\aCEV: 1\aQNGR: 06/02/2015\aGVZR: 12:43:42\aZNC: I 9\aHAVG: \aVASB: PEBFF FGERRG BS EBBFRIRYG QEVIR\a[PZBEEVF 6/2/2015 1:04:12 CZ]\aCEG\a\a[PZBEEVF 6/2/2015 12:50:35 CZ]\a365 NQIVFRQ UR JNF SYNTTRQ QBJA\a\a24 LB ZNYR VA N TENL 4 QBBE C/H VA CNEXVAT YBG ORUVAQ XSP\aQvfcngpurq: 6/2/2015 12:44:58 CZ\a\aRaebhgr: 6/2/2015 12:44:58 CZ\a\aBa Fprar: 6/2/2015 12:46:30 CZ\a\aBa Fprar BX: \a\aYrsg Fprar: \a\aNeevirq: \a\aPyrnerq: 6/2/2015 1:03:50 CZ
 (PURFG CNVA  {06/02/2015 Nhgbzngrq Rznvy}) PNYY: PURFG CNVA\aCYNPR: NPNQRZL FCBEGF NAQ BHGQBBEF\aNQQE: 1612 TNQFQRA UJL\aPVGL: GEHFFIVYYR\aVQ: 2015-06-09991\aCEV: 1\aQNGR: 06/02/2015\aGVZR: 12:43:42\aZNC: I 9\aHAVG: ONG 1,RAT 1,E1\aVASB: PEBFF FGERRG BS EBBFRIRYG QEVIR\a[PZBEEVF 6/2/2015 1:04:12 CZ]\aCEG\a\a[PZBEEVF 6/2/2015 12:50:35 CZ]\a365 NQIVFRQ UR JNF SYNTTRQ QBJA\a\a24 LB ZNYR VA N TENL 4 QBBE C/H VA CNEXVAT YBG ORUVAQ XSP
+
 */
 
-choyvp pynff NYIrybpvglcfCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff NYWrssrefbaPbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp NYIrybpvglcfCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "", "NY");
-  }
-  
-  @Grfg
-  choyvp ibvq grfgCnefre() {
-
+  choyvp NYWrssrefbaPbhaglSCnefreGrfg() {
+    frgCnefre(arj NYWrssrefbaPbhaglSCnefre(), "WRSSREFBA PBHAGL", "NY");
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj NYIrybpvglcfCnefreGrfg().trarengrGrfgf("G1");
+    arj NYWrssrefbaPbhaglSCnefreGrfg().trarengrGrfgf("G1");
   }
 }

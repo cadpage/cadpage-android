@@ -23,7 +23,7 @@ public class COJeffersonCountyAParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "@c-msg.net,cadpage@westmetrofire.org";
+    return "@c-msg.net,@westmetrofire.org";
   }
   
   @Override 
