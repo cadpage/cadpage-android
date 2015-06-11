@@ -773,7 +773,7 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NHGB NYNEZ/SVER",
         "NQQE:111 ZNEXRGCYNPR OYIQ",
         "PVGL:ZBAEBR GJC",
-        "ANZR:FRPHEVGL FREIVPR  PB., 8717",
+        "ANZR:FRPHEVGL FREIVPR PB., 8717",
         "VQ:2011-0000005983");
 
     qbGrfg("G8",

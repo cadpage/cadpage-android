@@ -132,6 +132,7 @@ public class DispatchB2Parser extends DispatchBParser {
    */
   protected boolean parseAddrField(String field, Data data) {
     
+    field = field.replaceAll("  +", " ");
     String address = null;
     if (field.length() == 0) return false;
     
