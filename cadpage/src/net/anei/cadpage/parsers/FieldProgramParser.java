@@ -15,6 +15,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 /**
  * This is a general purpose programmable field parser.  It can be used as a
@@ -118,6 +119,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *         D - Dash
  *         S - Space
  *         L - Slash
+ *         
+ *   Skip fields
+ *         G - Mark call as general alert
+ *         R - Mark call as run report
  *         
  * SPECIAL FIELD NAMES
  * 
@@ -2484,6 +2489,31 @@ public class FieldProgramParser extends SmartAddressParser {
       parseTrailingApt(field, data);
     }
   }
+  
+  /**
+   * Building field processor
+   */
+  public class BuildingField extends Field {
+    
+    public BuildingField() {};
+    public BuildingField(String pattern) {
+      super(pattern);
+    }
+    public BuildingField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() == 0) return;
+      data.strApt = append(data.strApt, " ", "Bldg " + field);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "APT";
+    }
+  }
 
   /**
    * Parse the data field following the address that should be considered as an address
@@ -3300,6 +3330,9 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class SkipField extends Field {
     
+    boolean genAlert = false;
+    boolean runReport = false;
+    
     public SkipField() {};
     public SkipField(String pattern) {
       super(pattern);
@@ -3309,7 +3342,17 @@ public class FieldProgramParser extends SmartAddressParser {
     }
 
     @Override
+    public void setQual(String qual) {
+      if (qual != null) {
+        genAlert = qual.contains("G");
+        runReport = qual.contains("R");
+      }
+      super.setQual(qual);
+    }
+    @Override
     public void parse(String field, Data data) {
+      if (runReport) data.msgType = MsgType.RUN_REPORT;
+      else if (genAlert) data.msgType = MsgType.GEN_ALERT;
     }
     
     @Override
@@ -3459,6 +3502,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("ADDRCITY")) return new AddressCityField();
     if (name.equals("APT")) return new AptField();
     if (name.equals("APT2")) return new Apt2Field();
+    if (name.equals("BLDG")) return new BuildingField();
     if (name.equals("X")) return new CrossField();
     if (name.equals("BOX")) return new BoxField();
     if (name.equals("UNIT")) return new UnitField();
