@@ -18,10 +18,11 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
   public MDMontgomeryCountyParser() {
     super(CITY_CODES, "MONTGOMERY COUNTY", "MD",
           "BOX CALL ADDR UNIT!");
+    setupProtectedNames("BIT AND SPUR");
   }
   
 	public String getFilter() {
-		return "rc.355@c-msg.net,MC Emergency Network,@mcen.montgomerycountymd.gov,411911,89361,MCEN";
+		return "rc.355@c-msg.net,MC Emergency Network,@mcen.montgomerycountymd.gov,411911,89361,MCEN,@everbridge.net";
 	}
 	
 	@Override
@@ -76,13 +77,11 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
 	
 	@Override
 	public String adjustMapAddress(String address) {
-	  return address.replace("BIT AND SPUR", "BIT_AND_SPUR");
+	  Matcher match = NUMBERED_INTERSECT_PTN.matcher(address);
+	  if (match.matches()) address = match.group(1) + match.group(2);
+	  return super.adjustMapAddress(address);
 	}
-	
-	@Override
-	public String postAdjustMapAddress(String address) {
-    return address.replace("BIT_AND_SPUR", "BIT AND SPUR");
-	}
+	private static final Pattern NUMBERED_INTERSECT_PTN = Pattern.compile("\\d+ +(.*? & )\\d+ (.*)");
 	
 	@Override
 	public String adjustMapCity(String city) {
@@ -101,7 +100,7 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
       "HC",  "HOWARD COUNTY",
       "KE",  "KENSINGTON",
       "LA",  "LAYTONSVILLE",
-      "MCG", "",
+      "MCG", "MONTGOMERY COUNTY",
       "NC",  "NORTH CHEVY CHASE",
       "PG",  "PRINCE GEORGES COUNTY",
       "PO",  "POOLESVILLE",
