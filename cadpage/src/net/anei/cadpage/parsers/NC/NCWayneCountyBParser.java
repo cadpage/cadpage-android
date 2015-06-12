@@ -11,6 +11,6 @@ public class NCWayneCountyBParser extends DispatchA13Parser {
   
   @Override
   public String getFilter() {
-    return "CC_Message_Notification@usamobility.net,waynecounty911@waynegov.com";
+    return "waynecounty911@waynegov.com";
   }
 }
