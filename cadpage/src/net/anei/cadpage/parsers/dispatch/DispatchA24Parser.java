@@ -12,25 +12,19 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA24Parser extends FieldProgramParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("; Disp: ?\\d\\d:\\d\\d;");
-  
   private static final Pattern UNIT_PTN = Pattern.compile("\\bUNIT: *([- A-Z0-9]+?) *[;\\n ] *", Pattern.CASE_INSENSITIVE);
   
   
   public DispatchA24Parser(String defCity, String defState) {
     super(defCity, defState,
-           "UNIT:UNIT CALL:CALL! PLACE:PLACE! ADDR:ADDR! BLDG:APT APT:APT CITY:CITY! XSTREETS:X ID:ID% DATE:DATE% TIME:TIME% UNIT:UNIT INFO:INFO");
+           "UNIT:UNIT? ( CALL:CALL! ( PLACE:PLACE! ADDR:ADDR! BLDG:APT APT:APT CITY:CITY! XSTREETS:X ID:ID% DATE:DATE% TIME:TIME% UNIT:UNIT | ID:ID? ) INFO:INFO " +
+                      "| ID:ID! INFO/RN+ )");
   }
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    
-    if (RUN_REPORT_PTN.matcher(body).find()) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
-      return true;
-    }
-    
+
+    body = stripFieldEnd(body, "(#1");
     String[] flds = body.split("\n");
     if (flds.length < 3) flds = body.split(";");
     if (flds.length >= 3) {
@@ -48,6 +42,12 @@ public class DispatchA24Parser extends FieldProgramParser {
     return true;
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("TIME")) return new MyTimeField();
+    return super.getField(name);
+  }
+  
   private class MyTimeField extends TimeField {
     @Override
     public void parse(String field, Data data) {
@@ -55,11 +55,5 @@ public class DispatchA24Parser extends FieldProgramParser {
       if (pt >= 0) field = field.substring(0,pt).trim();
       super.parse(field, data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("TIME")) return new MyTimeField();
-    return super.getField(name);
   }
 }

@@ -807,9 +807,9 @@ Puneybggr Pbhagl, SY (SYPuneybggrPbhaglCnefre)
 (PPFB SVER PNYY) PNYY: SVER ERFVQRAGVNY FGEHPGHER SVER\eCYNPR: \eNQQE: 29213 GNZNLB QE\ePVGL: CHAGN TBEQN\eVQ: 1304-010957\eCEV: 1\eQNGR: 04/18/2013\eGVZR: 14:00:03\eZNC:  \eHAVG: 0314\eVASB: [04/18/2013 14:02:07 : cbf8 : YWnzrf]  [Pnyyf 1304-010957,1304-010958 ner eryngrq.]  Pebff fgerrgf: QRNQ RAQ//YNSNLRGGR FG    ZHYPU BA SVER ORUVAQ GENVYRE .... SVER UNF FCERNQ NAQ VF ABJ ZRYGVAT IVALY FVQVAT BA GUR ERFVQRAPR ..  UBHFR VF INPNAG ...
 *******************************************************************************
 Zrepre Pbhagl, AW (AWZreprePbhaglCnefre)
-HAVG: 794 ; PNYY: Frvmherf - NYF ; CYNPR: ZP Whavbe Fravbe Uvt; NQQE: 1050 Rqvaohet Eq ; OYQT: ; NCG: ; PVGL: Unzvygba ; KFGERRGF: Uhturf Qe/Qrnq Raq ; VQ: 11132012-0051953 ; QNGR: 11/13; GVZR: 12:55; (zft11)
-HAVG: 793 ; PNYY: Genhzn - NYF ; CYNPR: ; NQQE: 23 Ovggare Eq ; OYQT: ; NCG: ; PVGL: Zvyyfgbar (Fb) ; KFGERRGF: Qrnq Raq/Eboovaf Eq ; VQ: 11132012-0051957 ; QNGR: 11/13; GVZR: 13:37; (zft11)
-HAVG: 793 ; PNYY: Fgebxr/PIN - NYF ; CYNPR: NEPNQVN AHEFVAT UBZR; NQQE: 1503 Fgngr Ujl 33 ; OYQT: ; NCG: 221O ; PVGL: Unzvygba ; KFGERRGF: Raqvpbgg Eq/Perfg Nir ; VQ: 11132012-0051950 ; QNGR: 11/13; GVZR: 12:30; (zft11)
+HAVG:R15-2 ;PNYY:Fgebxr/PIN - NYF ;CYNPR: ;NQQE:8 Unepbheg Cy ; OYQT: ;NCG: ;PVGL:Unzvygba ; KFGERRGF:Unepbheg Qe/Qrnq Raq ; VQ:06122015-0026273 ;QNGR:06/12;GVZR:13:08; VASB:ENQVB:Fbhgu Erfcbafr 1 :Gnp 3 ERZNEXF: ;
+HAVG:R15 ; PNYY: ERFCBAFR PURPX; VASB: LBH UNIR NA NFFVTAZRAG - PBAGNPG PRAGENY ;(#1
+HAVG:R15 ;PNYY:Erfcvengbel - NYF ;CYNPR: ;NQQE:59 Unepbheg Qe ; OYQT: ;NCG: ;PVGL:Unzvygba ; KFGERRGF:Zrerqvgu Eq/Unepbheg Cy ; VQ:06102015-0025923 ;QNGR:06/10;GVZR:20:02; VASB:ENQVB:Fbhgu Erfcbafr 1 :Gnp 3 ERZNEXF: ;
 *******************************************************************************
 *******************************************************************************
 * QvfcngpuN25Cnefre fhopynffrf

@@ -18,7 +18,13 @@ public class NJMercerCountyAParser extends DispatchA24Parser {
   
   @Override
   public String getFilter() {
-    return "noreply_lifecomm@verizon.net";
+    return "noreply_lifecomm@verizon.net,central@mercercounty.org";
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   private static final Pattern INFO_GPS_PTN = Pattern.compile("^Longitude: ([+-]\\d+\\.\\d+),Latitude: ([+-]\\d+\\.\\d+),");
@@ -30,19 +36,19 @@ public class NJMercerCountyAParser extends DispatchA24Parser {
         setGPSLoc(match.group(1) + ',' + match.group(2), data);
         field = field.substring(match.end()).trim();
       }
+      
+      if (field.startsWith("RADIO:")) {
+        field = field.substring(6).trim();
+        field = stripFieldEnd(field, "REMARKS:");
+        data.strChannel = field;
+        return;
+      }
       super.parse(field, data);
     }
     
     @Override
     public String getFieldNames() {
-      return "GPS INFO";
+      return "CH GPS INFO";
     }
   }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
-  }
-
 }
