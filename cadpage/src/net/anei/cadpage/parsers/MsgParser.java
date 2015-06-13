@@ -1655,8 +1655,6 @@ public static void addCodeTable(Properties props, String[] table) {
    /**
     * Constructor 
     * @param line string to be parsed out
-    * @param smart boolean flag requesting a smart parser that will not 
-    * prematurely break up matched brackets
     */
    public Parser(String line) {
      init(line);
@@ -1725,8 +1723,18 @@ public static void addCodeTable(Properties props, String[] table) {
     * @return everything up to next occurrence of delimiter without breaking
     * up matched parens
     */
-   public   String getSmart(char delim) {
+   public String getSmart(char delim) {
      return get(delim, false, false, true);
+   }
+   
+   /**
+    * @return next item enclosed in parenthesis.  If not found return empty string
+    */
+   public String getParenItem() {
+     skipBlanks();
+     if (spt >= ept || line.charAt(spt) != '(') return "";
+     spt++;
+     return getSmart(')');
    }
    
    /**
@@ -1751,6 +1759,25 @@ public static void addCodeTable(Properties props, String[] table) {
     */
    public String getLastRequired(char delim) {
      return getLast(delim, false, true, false);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @return everything up to next occurrence of delimiter without breaking
+    * up matched parens
+    */
+   public String getLastSmart(char delim) {
+     return getLast(delim, false, false, true);
+   }
+   
+   /**
+    * @return next item enclosed in parenthesis.  If not found return empty string
+    */
+   public String getLastParenItem() {
+     skipLastBlanks();
+     if (spt >= ept || line.charAt(ept-1) != ')') return "";
+     ept--;
+     return getLastSmart('(');
    }
    
    /**
@@ -1826,8 +1853,7 @@ public static void addCodeTable(Properties props, String[] table) {
    }
    
    /**
-    * @param delim delimiter
-    * @return everything up to next occurrence of delimiter
+    * @return Everything left
     */
    public String get() {
      return get(-1, 0, false, false);
@@ -1929,7 +1955,7 @@ public static void addCodeTable(Properties props, String[] table) {
    
    private int lastIndexOf(String delim, boolean smart) {
      if (!smart) return line.lastIndexOf(delim, ept-delim.length());
-     return smartIndexOf(delim);
+     return smartLastIndexOf(delim);
    }
    
    private int lastIndexOf(char delim, boolean smart) {
@@ -1939,8 +1965,8 @@ public static void addCodeTable(Properties props, String[] table) {
    
    private int smartLastIndexOf(String delim) {
      int nest = 0;
-     int tmp = ept;
-     while (tmp >= 0) {
+     int tmp = ept-1;
+     while (tmp >= spt) {
        if (line.charAt(tmp) == ')') nest++;
        if (nest == 0 && line.substring(tmp).startsWith(delim)) return tmp;
        if (line.charAt(tmp) == '(') nest--;

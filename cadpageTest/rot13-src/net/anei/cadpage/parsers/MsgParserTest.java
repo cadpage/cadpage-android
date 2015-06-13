@@ -15,12 +15,10 @@ choyvp pynff ZftCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
-    
-    qbXrlGrfg("G5",
-        "WHAX PNYY : ZL PNYY ARJ GLCR : URYYB BYQ GLCR : BAR GVZR BYQ",
-        "PNYY:ZL PNYY",
-        "ARJ GLCR:URYYB",
-        "BYQ GLCR:BAR GVZR BYQ");
+    Cnefre cnefre = arj Cnefre("");
+    cnefre.vavg("OVGPU (URYYB (QBYYL))");
+    nffregRdhnyf("CCAR1", "URYYB (QBYYL)", cnefre.trgYnfgCneraVgrz());
+    nffregRdhnyf("CCAR2", "OVGPU", cnefre.trg());
   }
   
   @Grfg
@@ -79,6 +77,20 @@ choyvp pynff ZftCnefreGrfg {
     nffregRdhnyf("GC1", "Fbzrguvat", cnefre.trg(cga));
     nffregRdhnyf("GC2", "ryfr pbzrf", cnefre.trg(cga));
     nffregRdhnyf("GC3", "sebz urer", cnefre.trg(cga));
+    
+    cnefre.vavg("FBZRQNL");
+    nffregRdhnyf("GCAA1", "", cnefre.trgCneraVgrz());
+    nffregRdhnyf("GCAA2", "", cnefre.trgYnfgCneraVgrz());
+    nffregRdhnyf("GCAA3", "FBZRQNL", cnefre.trg());
+    
+    cnefre.vavg("OVT # (URYYB (QBYYL)) OLR");
+    nffregRdhnyf("CCAF1", "OVT", cnefre.trg('#'));
+    nffregRdhnyf("CCAF2", "URYYB (QBYYL)", cnefre.trgCneraVgrz());
+    nffregRdhnyf("CCAF3", "OLR", cnefre.trg());
+    
+    cnefre.vavg("OVGPU (URYYB (QBYYL))");
+    nffregRdhnyf("CCAR1", "URYYB (QBYYL)", cnefre.trgYnfgCneraVgrz());
+    nffregRdhnyf("CCAR2", "OVGPU", cnefre.trg());
   }
   
   cevingr fgngvp Fgevat[] XRLJBEQF = arj Fgevat[]{"PNYY", "ARJ GLCR", "BYQ GLCR", "VASB"};

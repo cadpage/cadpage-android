@@ -236,7 +236,7 @@ Fraqre: jnlarpbhagl911@jnlartbi.pbz
 choyvp pynff APJnlarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp APJnlarPbhaglPCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "JNLAR PBHAGL", "AP");
+    frgCnefre(arj APJnlarPbhaglPCnefre(), "JNLAR PBHAGL", "AP");
   }
   
   @Grfg
