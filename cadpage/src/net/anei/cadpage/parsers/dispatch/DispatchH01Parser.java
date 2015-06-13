@@ -16,7 +16,7 @@ public class DispatchH01Parser extends HtmlProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new BaseAddressField();
-    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} +\\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d\\d(?:\\d\\d)? +\\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("NOTES")) return new BaseNotesField();
     if (name.equals("RR_NOTES")) return new RunReportNotes();
     return super.getField(name);
