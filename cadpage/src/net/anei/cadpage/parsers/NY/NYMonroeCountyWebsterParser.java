@@ -100,6 +100,7 @@ public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
       "BRO", "BROCKPORT",
       "BRS", "BRISTOL",
       "CAL", "CALEDONIA",
+      "CALE","CALEDONIA",
       "CHI", "CHILI",
       "CHU", "CHURCHVILLE",
       "CLA", "CLARKSON",
