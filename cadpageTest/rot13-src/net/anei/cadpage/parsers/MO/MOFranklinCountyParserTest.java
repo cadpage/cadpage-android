@@ -227,7 +227,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<oe>Fpnaarq ol LUGV FCNZ sverjnyy\a" +
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
-        "NQQE:UVTUJNL NG, SEAXYA PAGL & UVTUJNL B",
+        "NQQE:UVTUJNL NG & UVTUJNL B",
         "PVGL:SENAXYVA PBHAGL",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "ZNC:HAR33P",
@@ -700,7 +700,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<oe>Fpnaarq ol LUGV FCNZ sverjnyy\a" +
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
-        "NQQE:R UVTUJNL 50, HAVBA & CENVEVR QRYY EQ",
+        "NQQE:R UVTUJNL 50 & CENVEVR QRYY EQ",
         "PVGL:HAVBA",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "ZNC:HAS31",
@@ -718,7 +718,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<oe>Fpnaarq ol LUGV FCNZ sverjnyy\a" +
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
-        "NQQE:R UVTUJNL 50, HAVBA & CENVEVR QRYY EQ",
+        "NQQE:R UVTUJNL 50 & CENVEVR QRYY EQ",
         "PVGL:HAVBA",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "ZNC:HAS31",
@@ -754,7 +754,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<oe>Fpnaarq ol LUGV FCNZ sverjnyy\a" +
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
-        "NQQE:A UVTUJNL 47, HAVBA & R UVTUJNL 50",
+        "NQQE:A UVTUJNL 47 & R UVTUJNL 50",
         "PVGL:HAVBA",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "ZNC:HAS21",
@@ -791,7 +791,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<oe>Fpnaarq ol LUGV FCNZ sverjnyy\a" +
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
-        "NQQE:UVTUJNL 47, SEAXYA PAGL & PYRNEIVRJ EQ",
+        "NQQE:UVTUJNL 47 & PYRNEIVRJ EQ",
         "PVGL:SENAXYVA PBHAGL",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "ZNC:HAR22O",
@@ -885,7 +885,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<oe>Fpnaarq ol LUGV FCNZ sverjnyy\a" +
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
-        "NQQE:QNAVRYF RFGNGRF QE, SEAXYA PAGL & PYRNEIVRJ EQ",
+        "NQQE:QNAVRYF RFGNGRF QE & PYRNEIVRJ EQ",
         "PVGL:SENAXYVA PBHAGL",
         "PNYY:BHGFVQR SVER PBAGEBYYRQ OHEA",
         "ZNC:HAS22O",
@@ -1431,7 +1431,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<oe>Fpnaarq ol LUGV FCNZ sverjnyy\a" +
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
-        "NQQE:UVTUJNL 47, SEAXYA PAGL & PBYYRTR EQ",
+        "NQQE:UVTUJNL 47 & PBYYRTR EQ",
         "PVGL:SENAXYVA PBHAGL",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "ZNC:HAS20O",
@@ -1449,7 +1449,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<oe>Fpnaarq ol LUGV FCNZ sverjnyy\a" +
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
-        "NQQE:UVTUJNL 47, SEAXYA PAGL & PBYYRTR EQ",
+        "NQQE:UVTUJNL 47 & PBYYRTR EQ",
         "PVGL:SENAXYVA PBHAGL",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "ZNC:HAR20O",
@@ -1580,7 +1580,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<oe>Fpnaarq ol LUGV FCNZ sverjnyy\a" +
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
-        "NQQE:R UVTUJNL 50, HAVBA & CENVEVR QRYY EQ",
+        "NQQE:R UVTUJNL 50 & CENVEVR QRYY EQ",
         "PVGL:HAVBA",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "ZNC:HAR31",
@@ -1899,7 +1899,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<oe>Fpnaarq ol LUGV FCNZ sverjnyy\a" +
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
-        "NQQE:UVTUJNL I, SEAXYA PAGL & FG WBUAF EQ",
+        "NQQE:UVTUJNL I & FG WBUAF EQ",
         "PVGL:SENAXYVA PBHAGL",
         "PNYY:PVGVMRA NFFG/FREIVPR PNYY ABAZRQVPNY NFFVFGNAPR",
         "ZNC:HAS33O",

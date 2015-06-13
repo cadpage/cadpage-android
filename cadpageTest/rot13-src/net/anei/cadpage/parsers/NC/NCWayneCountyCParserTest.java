@@ -238,11 +238,6 @@ choyvp pynff APJnlarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp APJnlarPbhaglPCnefreGrfg() {
     frgCnefre(arj APJnlarPbhaglPCnefre(), "JNLAR PBHAGL", "AP");
   }
-  
-  @Grfg
-  choyvp ibvq grfgSnvy() {
-    snvy("Arrqf gb or vzcyrzragrq");
-  }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj APJnlarPbhaglPCnefreGrfg().trarengrGrfgf("G1");
