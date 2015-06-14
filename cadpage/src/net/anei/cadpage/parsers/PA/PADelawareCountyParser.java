@@ -18,7 +18,8 @@ public class PADelawareCountyParser extends GroupBestParser {
           new PADelawareCountyDParser(),
           new PADelawareCountyEParser(),
           new PADelawareCountyFParser(),
-          new PADelawareCountyGParser());
+          new PADelawareCountyGParser(),
+          new PADelawareCountyHParser());
   }
   
   static final Properties CITY_CODES = buildCodeTable(new String[]{

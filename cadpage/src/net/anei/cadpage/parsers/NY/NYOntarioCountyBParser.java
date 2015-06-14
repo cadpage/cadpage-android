@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 /**
- * Ontario County, NY
+ * Ontario County, NY (B)
  */
 public class NYOntarioCountyBParser extends FieldProgramParser {
   

@@ -203,6 +203,7 @@ public class ParserList {
               ,"COArapahoeCounty"               ,"Arapahoe County"
               ,"COArchuletaCounty"              ,"Archuleta County, CO"
               ,"COBoulderCounty"                ,"Boulder County, CO"
+              ,"COChaffeeCounty"                ,"Chaffee County, CO"
               ,"CODeltaCounty"                  ,"Delta County, CO"
               ,"CODouglasCounty"                ,"Douglas County, CO"
               ,"COElPasoCounty"                 ,"El Paso County, CO"
@@ -417,7 +418,8 @@ public class ParserList {
               ,"KSLeavenworthCounty"            ,"Leavenworth County, KS"
               ,"KSMarionCounty"                 ,"Marion County, KS"
               ,"KSMiamiCounty"                  ,"Miami County, KS"
-              ,"KSMontgomeryCounty"             ,"Montgonery County, KS"
+              ,"KSMontgomeryCounty"             ,"Montgomery County, KS"
+              ,"KSMortonCounty"                 ,"Morton County, KS"
               ,"KSNeoshoCounty"                 ,"Neosho County, KS"
               ,"KSRenoCounty"                   ,"Reno County, KS"
               ,"KSRiceCounty"                   ,"Rice County, KS"
@@ -521,6 +523,7 @@ public class ParserList {
           ),
           new ParserCategory("Massachusetts"
               ,"MABarnstableCounty"             ,"Barnstable County, MA"
+              ,"MADukesCounty"                  ,"Dukes County, MA"
               ,"MANorfolkCounty"                ,"Norfolk County, MA"
               ,"MAYarmouth"                     ,"Yarmouth, MA"
           ),
@@ -997,6 +1000,7 @@ public class ParserList {
               ,"PALebanonCounty"                ,"Lebanon County, PA"
               ,"PALehighCounty"                 ,"Lehigh County, PA"
               ,"PALuzerneCounty"                ,"Luzerne County, PA"
+              ,"PALycomingCounty"               ,"Lycoming County, PA"
               ,"PAMercerCounty"                 ,"Mercer County, PA"
               ,"PAMifflinCounty"                ,"Mifflin County, PA"
               ,"PAMonroeCounty"                 ,"Monroe County, PA"

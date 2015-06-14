@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
- Bagnevb Pbhagl, AL
+Bagnevb Pbhagl, AL (O)
  
 Pbagnpg: Npgvir911
 Ntrapl anzr: Svatre Ynxrf Nzohynapr
