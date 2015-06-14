@@ -27,4 +27,4 @@ public class MOFranklinCountyParser extends DispatchH01Parser {
     if (name.equals("MARK")) return new SkipField("Franklin Co Response Email Report", true);
     return super.getField(name);
   }
- }
+}

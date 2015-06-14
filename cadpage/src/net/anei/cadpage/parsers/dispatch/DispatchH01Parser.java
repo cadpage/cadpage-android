@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -9,14 +10,21 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchH01Parser extends HtmlProgramParser {
   
+  private Properties cityCodes;
+  
   public DispatchH01Parser(String defCity, String defState, String program) {
+    this(null, defCity, defState, program);
+  }
+  
+  public DispatchH01Parser(Properties cityCodes, String defCity, String defState, String program) {
     super(defCity, defState, program);
+    this.cityCodes = cityCodes;
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new BaseAddressField();
-    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d\\d(?:\\d\\d)? +\\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d?/\\d\\d?/\\d\\d(?:\\d\\d)? +\\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("NOTES")) return new BaseNotesField();
     if (name.equals("RR_NOTES")) return new RunReportNotes();
     return super.getField(name);
@@ -78,6 +86,7 @@ public class DispatchH01Parser extends HtmlProgramParser {
       }
       
       if (city != null) {
+        if (cityCodes != null) city = convertCodes(city, cityCodes);
         data.strCity = city;
       } else if (zip != null) {
         data.strCity = zip;
