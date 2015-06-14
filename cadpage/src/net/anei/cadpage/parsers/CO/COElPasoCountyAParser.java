@@ -92,6 +92,17 @@ public class COElPasoCountyAParser extends MsgParser {
       return true;
     }
     
+    if (p.check("FCFES : ~")) {
+      setFieldList("CALL ADDR APT INFO");
+      data.strCall = p.get(40);
+      if (!p.check("~")) return false;
+      parseAddress(p.get(30), data);
+      data.strApt = p.get(5);
+      if (!p.check("~")) return false;
+      data.strSupp = p.get();
+      return true;
+    }
+    
     return false;
   }
 }

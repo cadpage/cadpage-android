@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Ry Cnfb Pbhagl, PB
 
+Unaqyrf Npgvir911 cnefref 
+HF/PB/RyCnfbPbhagl
+HF/PB/PvglbsSbegPnefba
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Znavgbh Fcevatf SQ
 Ybpngvba: Znavgbh Fcevatf, PB, Havgrq Fgngrf
@@ -1154,6 +1158,80 @@ VASB sebz RCFB: Gbeanqb  yvpbgg Ujl / Fvyire Obaargg Cg      WHEVF: Ryyvpbgg  NY
 VASB sebz RCFB: JNYQB Sybbqvat  0 J Ujl 24 Ba Enzc / Znavgbh Nir    24/ZNAVGBH (jrfg raq bs Znavgbh Fcevatf)  WHEVF: RCFB Havapbecbengrq Nern  NYEZ: 1 PZQ:
 VASB sebz RCFB: Sver, Fzbxr Vairfgvtngvba  38 58'43 / 104 53'49      WHEVF: Nve Sbepr Npnqrzl  NYEZ: 1 PZQ:
 VASB sebz RCFB: Bqbe (abg fzbxr)  13710 Fgehguref Eq    Tyrarntyr Rkrphgvir Pragre  WHEVF: Jrfpbgg  NYEZ: 1 PZQ:
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Sbeg Pnefba Sver & Rzretrapl Freivprf
+Ybpngvba: Sbeg Pnefba, PB, Havgrq Fgngrf
+Fraqre: <rcg@rcg911.vasb>
+
+SPSRF : ~Genhzngvp Vawhel                        ~Cpzf Nvesvryq                      ~
+SPSRF : ~T-ZRQVPNY                               ~0 Ujl 115 Bss Zz27                 ~
+SPSRF : ~JS -  Oehfu/Tenff Zvk                   ~Ynetr Vzcnpg Nern                  ~
+SPSRF : ~Genafsre                                ~Havirefvgl Ubfcvgny                ~
+SPSRF : ~Fvpx Crefba                             ~Unee Nir / Tenaqfgnss Fg           ~
+SPSRF : ~NY - Fzbxr Qrg Npgvivngvba              ~9459 Jnesvtugre Eq                 ~
+SPSRF : ~Nffnhyg                                 ~4893 Xvg Pnefba Qe            N    ~
+SPSRF : ~Genafsre                                ~2135 Fbhgutngr Eq                  ~
+SPSRF : ~Nffnhyg                                 ~6875 BYQ UBFCVGNY FG          O    ~
+SPSRF : ~Cflpuvngevp                             ~756 JRGMRY NIR                     ~
+SPSRF : ~Genafsre                                ~7500 J Pbpuenar Pve                ~
+SPSRF : ~Cflpuvngevp                             ~6875 BYQ UBFCVGNY FG          O    ~
+SPSRF : ~Fgnaqol                                 ~10gu Tebhc                         ~
+SPSRF : ~Bireqbfr                                ~6909 Zpznuba Fg               O    ~
+SPSRF : ~NY - Fhcreivfbel Nynez                  ~9662 Nvesvryq Eq                   ~
+SPSRF : ~NY - Fhcreivfbel Nynez                  ~7412 Onq Gbrym Eq                  ~
+SPSRF : ~NY - Fhcreivfbel Nynez                  ~9649 Nvesvryq Eq                   ~
+SPSRF : ~Vasbezngvba Sver Pnyy                   ~Bhgfvqr Bs Tngr 1                  ~
+SPSRF : ~Genhzngvp Vawhel                        ~6954 Nyonarfr Fg              N    ~
+SPSRF : ~Fvpx Crefba                             ~2700 Puevfgvr Fg                   ~
+SPSRF : ~Noqbzvany Cnva                          ~1805 Jrgmry Ni                     ~
+SPSRF : ~Genssvp Nppvqrag                        ~Xur Fnau Fg / Onexryrl Nir         ~
+SPSRF : ~Cflpuvngevp                             ~8160 Cvhgr Eq                 132  ~
+SPSRF : ~Fgnaqol                                 ~9604 Nvesvryq Eq                   ~
+SPSRF : ~NY - PB Qrgrpgbe Npgvingvba             ~5925 Jner Fg                  N    ~
+SPSRF : ~NY - Fhcreivfbel Nynez                  ~1210 Rinaf Fg                      ~
+SPSRF : ~NY - PB Qrgrpgbe Npgvingvba             ~5635 Pureobhet Pve            N    ~
+SPSRF : ~Cflpuvngevp                             ~1554 Veba Svtugre Qe          118  ~
+SPSRF : ~T-ZRQVPNY                               ~Cpzf 4 Pbeare                      ~
+SPSRF : ~Urzbeeuntr/Ynprengvbaf                  ~6012 Aryfba Oyiq                   ~
+SPSRF : ~Fvpx Crefba                             ~8160 Cvhgr Eq                 YBG 2~
+SPSRF : ~NY - Sver Nynez Trareny                 ~9110 Ohggf Eq                      ~
+SPSRF : ~NY - PB Qrgrpgbe Npgvingvba             ~7273 Thnqnypnany Pve          O    ~
+SPSRF : ~NY - Sver Nynez Trareny                 ~1925 Fcrpxre Nir                   ~
+SPSRF : ~Urzbeeuntr/Ynprengvbaf                  ~8160 CVHGR EQ                 182  ~
+SPSRF : ~T-ZRQVPNY                               ~1800 Jrgmry Nir                    ~
+SPSRF : ~Cflpuvngevp                             ~4729 Orypure Fg                    ~
+SPSRF : ~NY - Sver Nynez Trareny                 ~221 Grivf Fg                       ~
+SPSRF : ~Fvpx Crefba                             ~7814 Yvtug Svtugre Qe              ~
+SPSRF : ~Genssvp Nppvqrag                        ~Aryfba Oyiq / Zvavpx Nir           ~
+SPSRF : ~Genssvp Nppvqrag                        ~Cpzf Pbagbazrag Nern               ~
+SPSRF : ~Cflpuvngevp                             ~6011 ARYFBA OYIQ                   ~
+SPSRF : ~T-ZRQVPNY                               ~4633 Fghzcs Eq                     ~
+SPSRF : ~Noqbzvany Cnva                          ~1047 Vejva Qe                 115O ~
+SPSRF : ~Cflpuvngevp                             ~4508 Uhturf Pg                     ~
+SPSRF : ~Urneg Ceboyrzf                          ~7481 Qriraf Fg                     ~
+SPSRF : ~Fgebxr                                  ~Ipp                                ~
+SPSRF : ~Genhzngvp Vawhel                        ~10012 Ghexrl Perrx                 ~
+SPSRF : ~NY - Fzbxr Qrg Npgvivngvba              ~9469 Jnesvtugre Eq                 ~
+SPSRF : ~Genhzngvp Vawhel                        ~Cpzf Pbagbazrag Nern               ~
+SPSRF : ~Fvpx Crefba                             ~758 Jrgmry Nir                119  ~
+SPSRF : ~Nffnhyg                                 ~6083 NETBAAR YBBC             P    ~
+SPSRF : ~Fgebxr                                  ~8160 CVHGR EQ                 47   ~
+SPSRF : ~Oernguvat Ceboyrzf                      ~6068 Netbaar Ybbc             N    ~
+SPSRF : ~Pbaihyfvbaf                             ~0 Veba Ubefr Cnex                  ~
+SPSRF : ~NY - Sver Nynez Trareny                 ~8010 Oraargg Fg                    ~
+SPSRF : ~UM - Pbzohfgnoyr Yvdhvq Fcvyy           ~8300 Bpbaaryy Oyiq                 ~
+SPSRF : ~Choyvp Freivpr Pnyyf                    ~3900 Zntengu Nir                   ~
+SPSRF : ~NY - Sver Nynez Trareny                 ~9420 Jnesvtugre Eq                 ~
+SPSRF : ~Urnqnpur                                ~4855 Xvg Pnefba Qe            O    ~
+SPSRF : ~Nffnhyg                                 ~5636 Pureobhet Pve            O    ~
+SPSRF : ~NY- Cnary Gebhoyr                       ~6237 Zrxbat Fg                     ~
+SPSRF : ~Snyyf                                   ~2254 Zntengu Nir              p    ~
+SPSRF : ~CHO - Jngre Ceboyrz                     ~9600 Nvesvryq Eq                   ~
+SPSRF : ~UM - Tnf Yrnx angheny tnf/YCT           ~5567 Zpphyybhtu Pve                ~
+SPSRF : ~JS -  Oehfu/Tenff Zvk                   ~E119                               ~
+SPSRF : ~Fvpx Crefba                             ~8160 CVHGR EQ                 195  ~
+SPSRF : ~CHO - Bqbe Vairfgvtngvba                ~8300 Bpbaaryy Oyiq                 ~
 
 */
 
@@ -12150,6 +12228,374 @@ choyvp pynff PBRyCnfbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:Tyrarntyr Rkrphgvir Pragre",
         "FEP:Jrfpbgg",
         "CEV:1");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgSbegPnefbaSverRzretraplFreivprf() {
+
+    qbGrfg("G1",
+        "SPSRF : ~Genhzngvp Vawhel                        ~Cpzf Nvesvryq                      ~",
+        "PNYY:Genhzngvp Vawhel",
+        "NQQE:Cpzf Nvesvryq");
+
+    qbGrfg("G2",
+        "SPSRF : ~T-ZRQVPNY                               ~0 Ujl 115 Bss Zz27                 ~",
+        "PNYY:T-ZRQVPNY",
+        "NQQE:Ujl 115 Bss Zz27",
+        "ZNQQE:Ujl 115 & Zz27");
+
+    qbGrfg("G3",
+        "SPSRF : ~JS -  Oehfu/Tenff Zvk                   ~Ynetr Vzcnpg Nern                  ~",
+        "PNYY:JS -  Oehfu/Tenff Zvk",
+        "NQQE:Ynetr Vzcnpg Nern");
+
+    qbGrfg("G4",
+        "SPSRF : ~Genafsre                                ~Havirefvgl Ubfcvgny                ~",
+        "PNYY:Genafsre",
+        "NQQE:Havirefvgl Ubfcvgny");
+
+    qbGrfg("G5",
+        "SPSRF : ~Fvpx Crefba                             ~Unee Nir / Tenaqfgnss Fg           ~",
+        "PNYY:Fvpx Crefba",
+        "NQQE:Unee Nir & Tenaqfgnss Fg");
+
+    qbGrfg("G6",
+        "SPSRF : ~NY - Fzbxr Qrg Npgvivngvba              ~9459 Jnesvtugre Eq                 ~",
+        "PNYY:NY - Fzbxr Qrg Npgvivngvba",
+        "NQQE:9459 Jnesvtugre Eq");
+
+    qbGrfg("G7",
+        "SPSRF : ~Nffnhyg                                 ~4893 Xvg Pnefba Qe            N    ~",
+        "PNYY:Nffnhyg",
+        "NQQE:4893 Xvg Pnefba Qe",
+        "NCG:N");
+
+    qbGrfg("G8",
+        "SPSRF : ~Genafsre                                ~2135 Fbhgutngr Eq                  ~",
+        "PNYY:Genafsre",
+        "NQQE:2135 Fbhgutngr Eq");
+
+    qbGrfg("G9",
+        "SPSRF : ~Nffnhyg                                 ~6875 BYQ UBFCVGNY FG          O    ~",
+        "PNYY:Nffnhyg",
+        "NQQE:6875 BYQ UBFCVGNY FG",
+        "NCG:O");
+
+    qbGrfg("G10",
+        "SPSRF : ~Cflpuvngevp                             ~756 JRGMRY NIR                     ~",
+        "PNYY:Cflpuvngevp",
+        "NQQE:756 JRGMRY NIR");
+
+    qbGrfg("G11",
+        "SPSRF : ~Genafsre                                ~7500 J Pbpuenar Pve                ~",
+        "PNYY:Genafsre",
+        "NQQE:7500 J Pbpuenar Pve");
+
+    qbGrfg("G12",
+        "SPSRF : ~Cflpuvngevp                             ~6875 BYQ UBFCVGNY FG          O    ~",
+        "PNYY:Cflpuvngevp",
+        "NQQE:6875 BYQ UBFCVGNY FG",
+        "NCG:O");
+
+    qbGrfg("G13",
+        "SPSRF : ~Fgnaqol                                 ~10gu Tebhc                         ~",
+        "PNYY:Fgnaqol",
+        "NQQE:10gu Tebhc");
+
+    qbGrfg("G14",
+        "SPSRF : ~Bireqbfr                                ~6909 Zpznuba Fg               O    ~",
+        "PNYY:Bireqbfr",
+        "NQQE:6909 Zpznuba Fg",
+        "NCG:O");
+
+    qbGrfg("G15",
+        "SPSRF : ~NY - Fhcreivfbel Nynez                  ~9662 Nvesvryq Eq                   ~",
+        "PNYY:NY - Fhcreivfbel Nynez",
+        "NQQE:9662 Nvesvryq Eq");
+
+    qbGrfg("G16",
+        "SPSRF : ~NY - Fhcreivfbel Nynez                  ~7412 Onq Gbrym Eq                  ~",
+        "PNYY:NY - Fhcreivfbel Nynez",
+        "NQQE:7412 Onq Gbrym Eq");
+
+    qbGrfg("G17",
+        "SPSRF : ~NY - Fhcreivfbel Nynez                  ~9649 Nvesvryq Eq                   ~",
+        "PNYY:NY - Fhcreivfbel Nynez",
+        "NQQE:9649 Nvesvryq Eq");
+
+    qbGrfg("G18",
+        "SPSRF : ~Vasbezngvba Sver Pnyy                   ~Bhgfvqr Bs Tngr 1                  ~",
+        "PNYY:Vasbezngvba Sver Pnyy",
+        "NQQE:Bhgfvqr Bs Tngr 1");
+
+    qbGrfg("G19",
+        "SPSRF : ~Genhzngvp Vawhel                        ~6954 Nyonarfr Fg              N    ~",
+        "PNYY:Genhzngvp Vawhel",
+        "NQQE:6954 Nyonarfr Fg",
+        "NCG:N");
+
+    qbGrfg("G20",
+        "SPSRF : ~Fvpx Crefba                             ~2700 Puevfgvr Fg                   ~",
+        "PNYY:Fvpx Crefba",
+        "NQQE:2700 Puevfgvr Fg");
+
+    qbGrfg("G21",
+        "SPSRF : ~Noqbzvany Cnva                          ~1805 Jrgmry Ni                     ~",
+        "PNYY:Noqbzvany Cnva",
+        "NQQE:1805 Jrgmry Ni",
+        "ZNQQE:1805 Jrgmry Nir");
+
+    qbGrfg("G22",
+        "SPSRF : ~Genssvp Nppvqrag                        ~Xur Fnau Fg / Onexryrl Nir         ~",
+        "PNYY:Genssvp Nppvqrag",
+        "NQQE:Xur Fnau Fg & Onexryrl Nir");
+
+    qbGrfg("G23",
+        "SPSRF : ~Cflpuvngevp                             ~8160 Cvhgr Eq                 132  ~",
+        "PNYY:Cflpuvngevp",
+        "NQQE:8160 Cvhgr Eq",
+        "NCG:132");
+
+    qbGrfg("G24",
+        "SPSRF : ~Fgnaqol                                 ~9604 Nvesvryq Eq                   ~",
+        "PNYY:Fgnaqol",
+        "NQQE:9604 Nvesvryq Eq");
+
+    qbGrfg("G25",
+        "SPSRF : ~NY - PB Qrgrpgbe Npgvingvba             ~5925 Jner Fg                  N    ~",
+        "PNYY:NY - PB Qrgrpgbe Npgvingvba",
+        "NQQE:5925 Jner Fg",
+        "NCG:N");
+
+    qbGrfg("G26",
+        "SPSRF : ~NY - Fhcreivfbel Nynez                  ~1210 Rinaf Fg                      ~",
+        "PNYY:NY - Fhcreivfbel Nynez",
+        "NQQE:1210 Rinaf Fg");
+
+    qbGrfg("G27",
+        "SPSRF : ~NY - PB Qrgrpgbe Npgvingvba             ~5635 Pureobhet Pve            N    ~",
+        "PNYY:NY - PB Qrgrpgbe Npgvingvba",
+        "NQQE:5635 Pureobhet Pve",
+        "NCG:N");
+
+    qbGrfg("G28",
+        "SPSRF : ~Cflpuvngevp                             ~1554 Veba Svtugre Qe          118  ~",
+        "PNYY:Cflpuvngevp",
+        "NQQE:1554 Veba Svtugre Qe",
+        "NCG:118");
+
+    qbGrfg("G29",
+        "SPSRF : ~T-ZRQVPNY                               ~Cpzf 4 Pbeare                      ~",
+        "PNYY:T-ZRQVPNY",
+        "NQQE:Cpzf 4 Pbeare");
+
+    qbGrfg("G30",
+        "SPSRF : ~Urzbeeuntr/Ynprengvbaf                  ~6012 Aryfba Oyiq                   ~",
+        "PNYY:Urzbeeuntr/Ynprengvbaf",
+        "NQQE:6012 Aryfba Oyiq");
+
+    qbGrfg("G31",
+        "SPSRF : ~Fvpx Crefba                             ~8160 Cvhgr Eq                 YBG 2~",
+        "PNYY:Fvpx Crefba",
+        "NQQE:8160 Cvhgr Eq",
+        "NCG:YBG 2");
+
+    qbGrfg("G32",
+        "SPSRF : ~NY - Sver Nynez Trareny                 ~9110 Ohggf Eq                      ~",
+        "PNYY:NY - Sver Nynez Trareny",
+        "NQQE:9110 Ohggf Eq");
+
+    qbGrfg("G33",
+        "SPSRF : ~NY - PB Qrgrpgbe Npgvingvba             ~7273 Thnqnypnany Pve          O    ~",
+        "PNYY:NY - PB Qrgrpgbe Npgvingvba",
+        "NQQE:7273 Thnqnypnany Pve",
+        "NCG:O");
+
+    qbGrfg("G34",
+        "SPSRF : ~NY - Sver Nynez Trareny                 ~1925 Fcrpxre Nir                   ~",
+        "PNYY:NY - Sver Nynez Trareny",
+        "NQQE:1925 Fcrpxre Nir");
+
+    qbGrfg("G35",
+        "SPSRF : ~Urzbeeuntr/Ynprengvbaf                  ~8160 CVHGR EQ                 182  ~",
+        "PNYY:Urzbeeuntr/Ynprengvbaf",
+        "NQQE:8160 CVHGR EQ",
+        "NCG:182");
+
+    qbGrfg("G36",
+        "SPSRF : ~T-ZRQVPNY                               ~1800 Jrgmry Nir                    ~",
+        "PNYY:T-ZRQVPNY",
+        "NQQE:1800 Jrgmry Nir");
+
+    qbGrfg("G37",
+        "SPSRF : ~Cflpuvngevp                             ~4729 Orypure Fg                    ~",
+        "PNYY:Cflpuvngevp",
+        "NQQE:4729 Orypure Fg");
+
+    qbGrfg("G38",
+        "SPSRF : ~NY - Sver Nynez Trareny                 ~221 Grivf Fg                       ~",
+        "PNYY:NY - Sver Nynez Trareny",
+        "NQQE:221 Grivf Fg");
+
+    qbGrfg("G39",
+        "SPSRF : ~Fvpx Crefba                             ~7814 Yvtug Svtugre Qe              ~",
+        "PNYY:Fvpx Crefba",
+        "NQQE:7814 Yvtug Svtugre Qe");
+
+    qbGrfg("G40",
+        "SPSRF : ~Genssvp Nppvqrag                        ~Aryfba Oyiq / Zvavpx Nir           ~",
+        "PNYY:Genssvp Nppvqrag",
+        "NQQE:Aryfba Oyiq & Zvavpx Nir");
+
+    qbGrfg("G41",
+        "SPSRF : ~Genssvp Nppvqrag                        ~Cpzf Pbagbazrag Nern               ~",
+        "PNYY:Genssvp Nppvqrag",
+        "NQQE:Cpzf Pbagbazrag Nern");
+
+    qbGrfg("G42",
+        "SPSRF : ~Cflpuvngevp                             ~6011 ARYFBA OYIQ                   ~",
+        "PNYY:Cflpuvngevp",
+        "NQQE:6011 ARYFBA OYIQ");
+
+    qbGrfg("G43",
+        "SPSRF : ~T-ZRQVPNY                               ~4633 Fghzcs Eq                     ~",
+        "PNYY:T-ZRQVPNY",
+        "NQQE:4633 Fghzcs Eq");
+
+    qbGrfg("G44",
+        "SPSRF : ~Noqbzvany Cnva                          ~1047 Vejva Qe                 115O ~",
+        "PNYY:Noqbzvany Cnva",
+        "NQQE:1047 Vejva Qe",
+        "NCG:115O");
+
+    qbGrfg("G45",
+        "SPSRF : ~Cflpuvngevp                             ~4508 Uhturf Pg                     ~",
+        "PNYY:Cflpuvngevp",
+        "NQQE:4508 Uhturf Pg");
+
+    qbGrfg("G46",
+        "SPSRF : ~Urneg Ceboyrzf                          ~7481 Qriraf Fg                     ~",
+        "PNYY:Urneg Ceboyrzf",
+        "NQQE:7481 Qriraf Fg");
+
+    qbGrfg("G47",
+        "SPSRF : ~Fgebxr                                  ~Ipp                                ~",
+        "PNYY:Fgebxr",
+        "NQQE:Ipp");
+
+    qbGrfg("G48",
+        "SPSRF : ~Genhzngvp Vawhel                        ~10012 Ghexrl Perrx                 ~",
+        "PNYY:Genhzngvp Vawhel",
+        "NQQE:10012 Ghexrl Perrx");
+
+    qbGrfg("G49",
+        "SPSRF : ~NY - Fzbxr Qrg Npgvivngvba              ~9469 Jnesvtugre Eq                 ~",
+        "PNYY:NY - Fzbxr Qrg Npgvivngvba",
+        "NQQE:9469 Jnesvtugre Eq");
+
+    qbGrfg("G50",
+        "SPSRF : ~Genhzngvp Vawhel                        ~Cpzf Pbagbazrag Nern               ~",
+        "PNYY:Genhzngvp Vawhel",
+        "NQQE:Cpzf Pbagbazrag Nern");
+
+    qbGrfg("G51",
+        "SPSRF : ~Fvpx Crefba                             ~758 Jrgmry Nir                119  ~",
+        "PNYY:Fvpx Crefba",
+        "NQQE:758 Jrgmry Nir",
+        "NCG:119");
+
+    qbGrfg("G52",
+        "SPSRF : ~Nffnhyg                                 ~6083 NETBAAR YBBC             P    ~",
+        "PNYY:Nffnhyg",
+        "NQQE:6083 NETBAAR YBBC",
+        "NCG:P");
+
+    qbGrfg("G53",
+        "SPSRF : ~Fgebxr                                  ~8160 CVHGR EQ                 47   ~",
+        "PNYY:Fgebxr",
+        "NQQE:8160 CVHGR EQ",
+        "NCG:47");
+
+    qbGrfg("G54",
+        "SPSRF : ~Oernguvat Ceboyrzf                      ~6068 Netbaar Ybbc             N    ~",
+        "PNYY:Oernguvat Ceboyrzf",
+        "NQQE:6068 Netbaar Ybbc",
+        "NCG:N");
+
+    qbGrfg("G55",
+        "SPSRF : ~Pbaihyfvbaf                             ~0 Veba Ubefr Cnex                  ~",
+        "PNYY:Pbaihyfvbaf",
+        "NQQE:Veba Ubefr Cnex");
+
+    qbGrfg("G56",
+        "SPSRF : ~NY - Sver Nynez Trareny                 ~8010 Oraargg Fg                    ~",
+        "PNYY:NY - Sver Nynez Trareny",
+        "NQQE:8010 Oraargg Fg");
+
+    qbGrfg("G57",
+        "SPSRF : ~UM - Pbzohfgnoyr Yvdhvq Fcvyy           ~8300 Bpbaaryy Oyiq                 ~",
+        "PNYY:UM - Pbzohfgnoyr Yvdhvq Fcvyy",
+        "NQQE:8300 Bpbaaryy Oyiq");
+
+    qbGrfg("G58",
+        "SPSRF : ~Choyvp Freivpr Pnyyf                    ~3900 Zntengu Nir                   ~",
+        "PNYY:Choyvp Freivpr Pnyyf",
+        "NQQE:3900 Zntengu Nir");
+
+    qbGrfg("G59",
+        "SPSRF : ~NY - Sver Nynez Trareny                 ~9420 Jnesvtugre Eq                 ~",
+        "PNYY:NY - Sver Nynez Trareny",
+        "NQQE:9420 Jnesvtugre Eq");
+
+    qbGrfg("G60",
+        "SPSRF : ~Urnqnpur                                ~4855 Xvg Pnefba Qe            O    ~",
+        "PNYY:Urnqnpur",
+        "NQQE:4855 Xvg Pnefba Qe",
+        "NCG:O");
+
+    qbGrfg("G61",
+        "SPSRF : ~Nffnhyg                                 ~5636 Pureobhet Pve            O    ~",
+        "PNYY:Nffnhyg",
+        "NQQE:5636 Pureobhet Pve",
+        "NCG:O");
+
+    qbGrfg("G62",
+        "SPSRF : ~NY- Cnary Gebhoyr                       ~6237 Zrxbat Fg                     ~",
+        "PNYY:NY- Cnary Gebhoyr",
+        "NQQE:6237 Zrxbat Fg");
+
+    qbGrfg("G63",
+        "SPSRF : ~Snyyf                                   ~2254 Zntengu Nir              p    ~",
+        "PNYY:Snyyf",
+        "NQQE:2254 Zntengu Nir",
+        "NCG:p");
+
+    qbGrfg("G64",
+        "SPSRF : ~CHO - Jngre Ceboyrz                     ~9600 Nvesvryq Eq                   ~",
+        "PNYY:CHO - Jngre Ceboyrz",
+        "NQQE:9600 Nvesvryq Eq");
+
+    qbGrfg("G65",
+        "SPSRF : ~UM - Tnf Yrnx angheny tnf/YCT           ~5567 Zpphyybhtu Pve                ~",
+        "PNYY:UM - Tnf Yrnx angheny tnf/YCT",
+        "NQQE:5567 Zpphyybhtu Pve");
+
+    qbGrfg("G66",
+        "SPSRF : ~JS -  Oehfu/Tenff Zvk                   ~E119                               ~",
+        "PNYY:JS -  Oehfu/Tenff Zvk",
+        "NQQE:E119");
+
+    qbGrfg("G67",
+        "SPSRF : ~Fvpx Crefba                             ~8160 CVHGR EQ                 195  ~",
+        "PNYY:Fvpx Crefba",
+        "NQQE:8160 CVHGR EQ",
+        "NCG:195");
+
+    qbGrfg("G68",
+        "SPSRF : ~CHO - Bqbe Vairfgvtngvba                ~8300 Bpbaaryy Oyiq                 ~",
+        "PNYY:CHO - Bqbe Vairfgvtngvba",
+        "NQQE:8300 Bpbaaryy Oyiq");
 
   }
 
