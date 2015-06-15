@@ -139,9 +139,9 @@ nqwhfgZncNqqerff fubhyq erzbir genvyvat " VAGREFRPGA" sebz nqqerff
  */
 
 
-choyvp pynff PNFbynabPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff PNFbynabPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp PNFbynabPbhaglQCnefreGrfg() {
+  choyvp PNFbynabPbhaglPCnefreGrfg() {
     frgCnefre(arj QhzzlCnefre(), "FBYNAB PBHAGL", "PN");
   }
   
