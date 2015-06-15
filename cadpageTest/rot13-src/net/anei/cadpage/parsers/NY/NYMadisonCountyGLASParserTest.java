@@ -73,6 +73,7 @@ Fraqre: TPZ
 {Terngre Yrabk}\aFvpx Crefba\a\aYRABK YNAQVAT 3462 PBAVSRE QE, YRABK # 28 ( /ZNETHREVGR QE )=20
 {Terngre Yrabk}\aOernguvat Ceboyrz\aJnyynpr, Trenyq & Qbaan 3398 EBHGR 31, YRABK ( BYQ BEPUNEQ EQ/JVYFBA PBIR EQ )
 {Terngre Yrabk} \aCflpuvngvp/Fhvpvqr\a\a116 JRFG NI, PNANFGBGN IVYYNTR # Creel, Fgrcura & Puevfgvar ( FGNGR/TRGZNP NI )
+{Terngre Yrabk} \aFgnaq ol\a159 PRAGRE, PNANFGBGN IVYYNTR # A ( PUNCZNA CY/F ZNVA )
 
 */
 
@@ -501,6 +502,14 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:116 JRFG NIR",
         "PVGL:PNANFGBGN",
         "K:FGNGR/TRGZNP NI");
+
+    qbGrfg("G16",
+        "{Terngre Yrabk} \aFgnaq ol\a159 PRAGRE, PNANFGBGN IVYYNTR # A ( PUNCZNA CY/F ZNVA )",
+        "PNYY:Fgnaq ol",
+        "NQQE:159 PRAGRE",
+        "NCG:A",
+        "PVGL:PNANFGBGN",
+        "K:PUNCZNA CY/F ZNVA");
 
   }
   

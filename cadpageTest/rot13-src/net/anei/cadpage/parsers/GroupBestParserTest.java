@@ -59,7 +59,7 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG: YF6 ; YNGR GHEA-NEBHAQ ;CYRNFR PNYY YVSRPBZZ JVGU LBHE FGNGHF ; (#1\e\a",
         "HAVG:YF6",
         "GLCR:TRA_NYREG",
-        "VASB:YNGR GHEA-NEBHAQ ;CYRNFR PNYY YVSRPBZZ JVGU LBHE FGNGHF ; (#1");
+        "VASB:YNGR GHEA-NEBHAQ ;CYRNFR PNYY YVSRPBZZ JVGU LBHE FGNGHF ;");
   }
   
   @Grfg
