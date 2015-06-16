@@ -361,7 +361,8 @@ public class SmsPopupActivity extends Safe40Activity {
       }
       
       // Remove trailing \n
-      sb.setLength(sb.length()-1);
+      int len = sb.length();
+      if (len > 0) sb.setLength(len-1);
       detailText = sb.toString();
     }
     messageReceivedTV.setText(headerText);
