@@ -83,4 +83,75 @@ public class OHCuyahogaCountyParser extends GroupBestParser {
       "OLMSTED",       "OLMSTED TWP",
 
   });
+  
+  static final String[] CITY_LIST = new String[]{
+
+    // Cities
+    "BAY VILLAGE",
+    "BEACHWOOD",
+    "BEDFORD",
+    "BEDFORD HEIGHTS",
+    "BEREA",
+    "BRECKSVILLE",
+    "BROADVIEW HEIGHTS",
+    "BROOK PARK",
+    "BROOKLYN",
+    "CLEVELAND (COUNTY SEAT)",
+    "CLEVELAND HEIGHTS",
+    "EAST CLEVELAND",
+    "EUCLID",
+    "FAIRVIEW PARK",
+    "GARFIELD HEIGHTS",
+    "HIGHLAND HEIGHTS",
+    "INDEPENDENCE",
+    "LAKEWOOD",
+    "LYNDHURST",
+    "MAPLE HEIGHTS",
+    "MAYFIELD HEIGHTS",
+    "MIDDLEBURG HEIGHTS",
+    "NORTH OLMSTED",
+    "NORTH ROYALTON",
+    "OLMSTED FALLS",
+    "PARMA",
+    "PARMA HEIGHTS",
+    "PEPPER PIKE",
+    "RICHMOND HEIGHTS",
+    "ROCKY RIVER",
+    "SEVEN HILLS",
+    "SHAKER HEIGHTS",
+    "SOLON",
+    "SOUTH EUCLID",
+    "STRONGSVILLE",
+    "UNIVERSITY HEIGHTS",
+    "WARRENSVILLE HEIGHTS",
+    "WESTLAKE",
+
+    // Villages
+    "BENTLEYVILLE",
+    "BRATENAHL",
+    "BROOKLYN HEIGHTS",
+    "CHAGRIN FALLS",
+    "CUYAHOGA HEIGHTS",
+    "GATES MILLS",
+    "GLENWILLOW",
+    "HIGHLAND HILLS",
+    "HUNTING VALLEY",
+    "LINNDALE",
+    "MAYFIELD",
+    "MORELAND HILLS",
+    "NEWBURGH HEIGHTS",
+    "NORTH RANDALL",
+    "OAKWOOD",
+    "ORANGE",
+    "VALLEY VIEW",
+    "WALTON HILLS",
+    "WOODMERE",
+
+    // Townships
+    "CHAGRIN FALLS TWP",
+    "OLMSTED TWP",
+    
+    // Summit County
+    "RICHFIELD"
+  };
 }
