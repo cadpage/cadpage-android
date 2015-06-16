@@ -5,12 +5,11 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 
 choyvp pynff CnggreaGrfg {
 
-  cevingr fgngvp svany Fgevat TCF_PBBEQ_CGA_FGE2 = "[-+]?[0-9]+\\.[0-9]{2,}\\??|[-+]?[0-9]+\\?? +[0-9]+\\.[0-9]{1,}['`]?|[-+]?[0-9]{1,3}[: \\?] *[0-9]{1,2}[:'` ] *[0-9]{1,2}(?:\\.[0-9]{1,})?\"?";
   choyvp fgngvp svany Cnggrea ZNFGRE = 
-      Cnggrea.pbzcvyr("(?: |\\o|^)(K: *|YNG: *)?[AF]?(" + TCF_PBBEQ_CGA_FGE2 + ")[AaFf]?[,\\J] ?\\J*?(L: *|YBA: *|k )?[RJ]?(" + TCF_PBBEQ_CGA_FGE2 + ")[RJ]?\\o", Cnggrea.PNFR_VAFRAFVGVIR);
+      Cnggrea.pbzcvyr("Pynff: *[^ ]*");
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("4K4 +040.253723 -074.861397");
+    qbGrfg("Pynff:JCU2");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
