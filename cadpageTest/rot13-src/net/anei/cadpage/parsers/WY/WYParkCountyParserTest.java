@@ -41,25 +41,15 @@ Fraqre: PONHTURE@cnexpbhagl.hf
 (Qvfcngpurq Pnyy (CSQ-12N)) UVTUJNL 14N/EBNQ 19, Cbjryy, JL *  * EBNQ 19 *  * SVER * 54100 * #01505110029 *
 (Cntr sebz EVZF (CSQ-12N)) Ebnq Pybfher -A Rinegf Fg orgjrra 2aq naq 3eq fg hagvy Zbaqnl Znl 11gu
 (Qvfcngpurq Pnyy (CSQ-12N)) 1263 EBNQ 6, Cbjryy, JL *  * UVTUJNL 295 *  * SVER * 55098 * #01505050096 * EC fnlf gurer vf n iruvpyr gung vf ba vg'f gbc va gurve svryq.
-(Cntr sebz EVZF (CSQ-12N)) Nofnebxn OGJ Cnex/Pbhygre pybfrq sbe penpx frnyvat
-(Cntr sebz EVZF (CSQ-12N)) Cnex OGJ Nofnebxn/Qbhtynf bcra
-(Cntr sebz EVZF (CSQ-12N)) A Qvivfvba OGJ NIR U-NIR W pybfrq ol jngre qrcg
 (Cntr sebz EVZF (CSQ-12N)) Cnex fg ogj Nofnebxn/Qbhtynf pybfrq penpx frnyvat
 (Qvfcngpurq Pnyy (CSQ-12N)) YNAR 10/EBNQ 6, Cbjryy, JL *  * EBNQ 6 *  * SVER * 55098 * #01505040068 * Svryq sver-hanggraqrq
 (Qvfcngpurq Pnyy (CSQ-12N)) 1001 EBNQ 5, Cbjryy, JL * CBJRYY YNAQSVYY * YNAR 10/YNAR 11 *  * SVER * 55098 * #01505020060 * ybnqre bireghearq hax vaw
 (Qvfcngpurq Pnyy (CSQ-12N)) 474 F ZBHAGNVA IVRJ FG, Cbjryy, JL * SNZVYL QBYYNE FGBER * JLBZVAT NIR/J PBHYGRE NIR *  * SVER *  * #01505020044 * Cbffvoyr ryrpgevpny sver.
-(Cntr sebz EVZF (CSQ-12N)) Svefg Fgerrg vf abj bcra
 (Cntr sebz EVZF (CSQ-12N)) CSQ/CUNF--1fg Fg. OGJ Nofnebxn & Purlraar Pybfrq sbe penpx frnyvat. Jvyy abgvsl jura bcra.
 (Cntr sebz EVZF (CSQ-12N)) CSQ/CUNF-- 1fg fg. ogj Nofnebxn naq Qvivfvba vf pybfrq sbe penpx frnyvat.
 (Cntr sebz EVZF (CSQ-12N)) 2aq Fgerrg vf pybfrq orgjrra Qvivfvba naq Purlraar
 (Qvfcngpurq Pnyy (CSQ-12N)) YNAR 9/EBNQ 5, Cbjryy, JL *  * EBNQ 5 *  * SVER * 55098 * #01504280086 * Gerr ba sver. Npebff sebz tha pyho.
-(Cntr sebz EVZF (CSQ-12N)) 3eq Fgerrg vf abj bcra
-(Cntr sebz EVZF (CSQ-12N)) 3eq Fgerrg vf abg bcra ohg 2aq Fgerrg orgjrra Nofnebxn naq Purlraar vf abj pybfrq
-(Cntr sebz EVZF (CSQ-12N)) J 3eq Fg ogja Nofnebxn & Purlraar pybfrq sbe n oyqt ercnve cre CCQ
 (Qvfcngpurq Pnyy (CSQ-12N)) 819 R PBHYGRE NIR, Cbjryy, JL * ZNIREVX FGBER 346 * A UNZVYGBA FG/A VATNYYF FG *  * SVER *  * #01504270025 * Iruvpyr Sver
-(Cntr sebz EVZF (CSQ-12N)) CUNF/CSQ--  Ynar 13U vf abj bcra. Phyireg ercynprzrag pbzcyrgr.
-(Cntr sebz EVZF (CSQ-12N)) CUNF/CSQ-- YA 13U whfg R bs  Ebnq 10 Vagrefrpgvba pybfrq hagvy 1700 sbe phyireg ercynprzrag.
-(Cntr sebz EVZF (CSQ-12N)) CSQ/CUNF- EQ 8 whfg A bs YA 5 pybfrq gbqnl hagvy 1700 ubhef. Npprff bss bs YA 4 vs arrqrq.
 (Qvfcngpurq Pnyy (CSQ-12N)) 231 J 6GU FG, Cbjryy, JL * AJP BERAQBESS OHVYQVAT * A PURLRAAR FG/PBYYRTR QE *  * SVER *  * #01504230064 * trareny sver
 (Cntr sebz EVZF (CSQ-12N)) CSQ/CUNF-- PENPX FRNYVAT GBQNL BA J 3EQ FG OGJ QVIVFVBA & NOFNEBXN. JVYY NQIVFR JURA BCRA.
 (Cntr sebz EVZF (CSQ-12N)) CUNF/CSQ--CNEX FG OGJ QVIVFVBA & QBHTYNF PYBFRQ GVYY SEVQNL SBE JNGRE YVAR JBEX.
@@ -80,7 +70,7 @@ Fraqre: PONHTURE@cnexpbhagl.hf
 choyvp pynff JLCnexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp JLCnexPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "CNEX PBHAGL", "JL");
+    frgCnefre(arj JLCnexPbhaglCnefre(), "CNEX PBHAGL", "JL");
   }
   
   @Grfg
