@@ -29,7 +29,7 @@ public class NYNassauCountyRedAlertParser extends DispatchRedAlertParser {
 
   @Override
   public String getFilter() {
-    return super.getFilter() + ",alarms@rvcny.us,notifications@Plainviewfd.com,vtext.com@mxh3.email-od.com";
+    return super.getFilter() + ",alarms@rvcny.us,notifications@Plainviewfd.com,vtext.com@mxh3.email-od.com,93001";
   }
   
   @Override
