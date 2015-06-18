@@ -12,11 +12,7 @@ public class OKBryanCountyParser extends DispatchB2Parser {
   private static final Pattern PTN_CODE = Pattern.compile("0:[-/A-Z]+ ?>");
   
   public OKBryanCountyParser() {
-    this("BRYAN COUNTY", "OK");
-  }
-  
-  public OKBryanCountyParser(String defCity, String defState) {
-    super("0:", CITY_LIST, defCity, defState);
+    super("0:", CITY_LIST, "BRYAN COUNTY", "OK");
   }
   
   @Override
