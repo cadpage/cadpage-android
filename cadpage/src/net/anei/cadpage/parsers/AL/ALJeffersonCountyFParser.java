@@ -1,9 +1,6 @@
 
 package net.anei.cadpage.parsers.AL;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgInfo.MsgType;
