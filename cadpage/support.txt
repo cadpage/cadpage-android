@@ -122,7 +122,7 @@ Thanks for reporting it,
 * Android 4.4 (Kit Kat) dispatch pages showing up in message app inbox
 ***************************************************************************
 
-Google permanently removed the capability of apps blocking text messages from getting to the default message app in Android 4.4.  They had some good reasons for doing so, that feature was being abused by regular message apps blocking calls to competing messaging apps.  But it left Cadpage like apps that really have a legitimate reason to block text messages in a lurch.  There was a movement to request Google restore that capability in some future version of Android, but that seems increasing unlikely.
+Google permanently removed the capability of apps blocking text messages from getting to the default message app starting with Android 4.4.  They had some good reasons for doing so, that feature was being abused by regular message apps blocking calls to competing messaging apps.  But it left Cadpage like apps that really have a legitimate reason to block text messages in a lurch.  There was a movement to request Google restore that capability in some future version of Android, but that seems increasing unlikely.
 
 While it is no longer possible for Cadpage to prevent dispatch alerts from getting to the message app inbox, there are some workaround that can be used to alleviate the issue.
 
