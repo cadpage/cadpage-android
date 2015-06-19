@@ -4,6 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.MsgParser;
 
 /**
@@ -12,7 +13,7 @@ import net.anei.cadpage.parsers.MsgParser;
  */
 public class ORWashingtonCountyCParser extends MsgParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile(".*\\bUNIT: *([^ ]+) +INC#: *(\\d+) +(?:RCD|CLR): .*");
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("(.*)\\bUNIT: *([^ ]+) +INC#: *(\\d+) +((?:RCD|CLR): .*)");
   private static final Pattern CODE_CALL_PTN = Pattern.compile("(\\d{1,2}[A-Z]\\d{1,2}[A-Z]?) +([^ ].*)");
   
   public ORWashingtonCountyCParser() {
@@ -21,7 +22,6 @@ public class ORWashingtonCountyCParser extends MsgParser {
   
   public ORWashingtonCountyCParser(String defCity, String defState) {
     super(defCity, defState);
-    setFieldList("UNIT ID PLACE ADDR APT CITY X PRI CODE CALL");
   }
   
   @Override
@@ -34,6 +34,8 @@ public class ORWashingtonCountyCParser extends MsgParser {
     return "portlandcomm@amr-ems.com";
   }
   
+  private static final Pattern RR_BRK_PTN = Pattern.compile(" +(?=[A-Z]+:)");
+  
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
@@ -41,10 +43,12 @@ public class ORWashingtonCountyCParser extends MsgParser {
     
     Matcher match = RUN_REPORT_PTN.matcher(body);
     if (match.matches()) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
-      data.strUnit = match.group(1);
-      data.strCallId = match.group(2);
+      setFieldList("CALL UNIT ID INFO");
+      data.msgType = MsgType.RUN_REPORT;
+      data.strCall = match.group(1);
+      data.strUnit = match.group(2);
+      data.strCallId = match.group(3);
+      data.strSupp = RR_BRK_PTN.matcher(match.group(4)).replaceAll("\n");
       return true;
     }
 
@@ -60,6 +64,7 @@ public class ORWashingtonCountyCParser extends MsgParser {
         body.substring(190,194).equals("PRI:") &&
         body.charAt(196) == ' ' &&
         body.charAt(197) != ' ') {
+      setFieldList("UNIT ID PLACE ADDR APT CITY X PRI CODE CALL");
       data.strUnit = substring(body,6,15);
       data.strCallId = substring(body,22,31);
       data.strPlace = substring(body,32,65);
@@ -77,9 +82,10 @@ public class ORWashingtonCountyCParser extends MsgParser {
       data.strCall = call;
       return true;
     }
-    
-    data.strCall = "GENERAL ALERT";
-    data.strPlace = body;
+
+    setFieldList("INFO");
+    data.msgType = MsgType.GEN_ALERT;
+    data.strSupp = body;
     return true;
   }
 }
