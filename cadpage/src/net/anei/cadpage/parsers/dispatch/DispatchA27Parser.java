@@ -1,11 +1,13 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class DispatchA27Parser extends FieldProgramParser {
   
@@ -14,13 +16,15 @@ public class DispatchA27Parser extends FieldProgramParser {
   
   private Pattern unitPtn;
   
+  private String times;
+  
   public DispatchA27Parser(String defCity, String defState, String unitPtn) {
     this(null, defCity, defState, unitPtn);
   }
   
   public DispatchA27Parser(String[] cityList, String defCity, String defState, String unitPtn) {
     super(cityList, defCity, defState,
-          "ADDRCITY/SC DUP? SRC! Time_reported:DATETIME! Unit(s)_responded:UNIT+");
+          "ADDRCITY/SC DUP? SRC! TIMES! TIMES+ Unit(s)_responded:UNIT+");
     this.unitPtn = Pattern.compile(unitPtn);
   }
   
@@ -30,38 +34,14 @@ public class DispatchA27Parser extends FieldProgramParser {
     Matcher match = MARKER.matcher(body);
     if (!match.lookingAt()) return false;
     body = body.substring(match.end()).trim();
+    times = "";
+    if (!super.parseFields(DELIM_PTN.split(body), data)) return false;;
     
-    String[] fields = DELIM_PTN.split(body);
-    
-    // If the body does not have the Time Completed label, process message
-    if(!body.contains("Time completed:") && !body.contains("Incident Time:")) {
-      return super.parseFields(fields, data);
+    if (data.strTime.length() == 0) return false;
+    if (data.msgType == MsgType.RUN_REPORT) {
+      data.strSupp = append(times, "\n", data.strSupp);
     }
-    // Otherwise we are a report
-    else {
-      data.strCall = "RUN REPORT";
-      
-      // Extract ID
-      if (fields.length > 0) {
-        int ndx = 1;
-        if (fields.length > 1 && fields[0].trim().equals(fields[1].trim())) ndx++;
-        if (fields.length > ndx) {
-          String[] srcID = fields[ndx].split("-");
-          if (srcID.length > 1) data.strCallId = srcID[1].trim();
-        }
-      }
-      
-      // Extract Units
-      for (String units : fields) {
-        if (units.startsWith("Unit(s) responded:")) {
-          units = units.substring(18).trim();
-          parseUnitField(true, units, data);
-        }
-      }
-      
-      data.strPlace = body;                                               // Put remaining in Place.
-      return true;
-    }
+    return true;
   }
   
   @Override
@@ -69,7 +49,7 @@ public class DispatchA27Parser extends FieldProgramParser {
       if (name.equals("ADDRCITY")) return new BaseAddressField();
       if (name.equals("DUP")) return new DuplField();
       if (name.equals("SRC")) return new BaseSrcField();
-      if (name.equals("DATETIME")) return new DateTimeField(new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa"));
+      if (name.equals("TIMES")) return new BaseTimesField();
       if (name.equals("UNIT")) return new BaseUnitField();
     return super.getField(name);
   }
@@ -131,6 +111,34 @@ public class DispatchA27Parser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return super.getFieldNames() + " ID";
+    }
+  }
+  
+  private static final Pattern TIMES_PTN = Pattern.compile("([ \\w]+): (\\d\\d/\\d\\d/\\d{4}) +(\\d\\d?:\\d\\d:\\d\\d [AP]M)");
+  private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
+  private class BaseTimesField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      for (String part : field.split("\n")) {
+        Matcher match = TIMES_PTN.matcher(part);
+        if (!match.matches()) abort();
+        String type = match.group(1);
+        if (type.equals("Time reported")) {
+          data.strDate = match.group(2);
+          setTime(TIME_FMT, match.group(3), data);
+        }
+        else {
+          if (type.equals("Time completed") || type.equals("Incident Time")) {
+            data.msgType = MsgType.RUN_REPORT;
+          }
+        }
+        times = append(times, "\n", part);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "DATE TIME INFO";
     }
   }
   

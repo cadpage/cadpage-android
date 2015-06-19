@@ -464,6 +464,7 @@ class Active911Vendor extends Vendor {
       "US/MN/GoodhueCounty",              "MNGoodhueCounty",
       "US/MN/HealtheastMedTran",          "MNMinneapolisStPaulB",
       "US/MN/HennepinCounty",             "MNHennepinCounty",
+      "US/MN/LyonCounty",                 "MNLyonCounty",
       "US/MN/MartinCounty",               "MNMartinCounty",
       "US/MN/McLeodCounty",               "MNMcLeodCounty",
       "US/MN/MilleLacsCounty",            "Cadpage2",
