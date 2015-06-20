@@ -1473,20 +1473,15 @@ Jean ~ Cadpage Administrator
 ******************************************************************
 BRAND NEW USERS
 
-Cadpage will not do anything with the default, out of the box, settings.
-You have to give it some information to identify your text pages.
+First, Cadpage works by processing text alerts that your department sends to your phone.  If you are not receiving these alerts, you need to contact someone in your department about getting the alerts sent to you.
 
-Go into the Cadpage location settings, select a single location, and
-then see if we have a location set up for where you happen to live or
-work.  If we do, select it and see if things start working.
+Cadpage will not do anything with the default, out of the box, settings.  You have to give it some information to identify your text pages.
 
-If not, please let us know if you would like the details of setting up a
-new location.
+Go into the Cadpage location settings, select a single location, and then see if we have a location set up for where you happen to live or work.  If we do, select it and see if things start working.
 
-In the meantime, try using the general location setting.  Set the From:
-filter to whoever appears in the From: field of your page text messages.
- That will usually give you some degree of functionality while you are
-waiting for full location support.
+If not, please let us know if you would like the details of setting up a new location.
+
+In the meantime, try using the general location setting.  Set the From: filter to whoever appears in the From: field of your page text messages.  That will usually give you some degree of functionality while you are waiting for full location support.
 
 Please contact us again if you still have difficulties.  The best way to do this is use the Email the Developer item in the main settings menu.
 
