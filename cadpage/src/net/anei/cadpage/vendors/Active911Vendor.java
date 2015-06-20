@@ -388,6 +388,7 @@ class Active911Vendor extends Vendor {
       "US/KY/Nexigen",                    "Cadpage2",
       "US/KY/OldhamCounty",               "KYOldhamCountyA",
       "US/KY/ScottCounty",                "KYScottCountyB",
+      "US/KY/TriggCounty",                "KYTriggCounty",
       "US/LA/AscensionParish",            "LAAscensionParish",
       "US/LA/EastFelicianaParish",        "LAEastFelicianaParish",
       "US/LA/JeffersonParish",            "LAJeffersonParish",
