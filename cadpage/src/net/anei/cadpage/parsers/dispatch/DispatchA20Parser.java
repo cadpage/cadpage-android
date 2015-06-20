@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA20Parser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("Dispatched Call \\(([A-Z0-9]*)\\)(?:\\|.*)?");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("Dispatched Call \\(([-A-Z0-9]*)\\)(?:\\|.*)?");
   
   private Properties codeLookupTable;
 

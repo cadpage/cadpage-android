@@ -461,6 +461,7 @@ class Active911Vendor extends Vendor {
       "US/MN/CrowWingCounty",             "MNCrowWingCounty",
       "US/MN/DakotaCounty",               "MNDakotaCounty",
       "US/MN/DodgeCounty",                "MNDodgeCounty",
+      "US/MN/DouglasCounty",              "MNDouglasCounty",
       "US/MN/EdenPrairie",                "MNEdenPrairie",
       "US/MN/Edina",                      "MNEdina",
       "US/MN/FaribaultCounty",            "MNFaribaultCounty",
