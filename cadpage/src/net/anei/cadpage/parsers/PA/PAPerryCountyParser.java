@@ -19,7 +19,7 @@ public class PAPerryCountyParser extends DispatchArchonixParser {
   
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-
+//      "21",  "DUNCANNON"
       
   });
 
