@@ -9,10 +9,4 @@ public class KSEudoraParser extends DispatchA19Parser {
   public KSEudoraParser() {
     super("EUDORA", "KS");
   }
-  
-  @Override
-  public int getMapFlags() {
-    return MAP_FLG_SUPPR_LA;
-  }
-
 }
