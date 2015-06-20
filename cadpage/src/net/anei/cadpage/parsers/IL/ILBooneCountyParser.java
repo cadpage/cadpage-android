@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 public class ILBooneCountyParser extends DispatchA27Parser {
   
   public ILBooneCountyParser() {
-    super("BOONE COUNTY", "IL", "[A-Z]+\\d+|[A-Z]{1,3}FD(?:TEST)?");
+    super("BOONE COUNTY", "IL", "\\d{8}");
   }
   
   @Override

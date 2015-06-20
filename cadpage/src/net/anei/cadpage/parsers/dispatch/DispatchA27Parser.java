@@ -24,7 +24,7 @@ public class DispatchA27Parser extends FieldProgramParser {
   
   public DispatchA27Parser(String[] cityList, String defCity, String defState, String unitPtn) {
     super(cityList, defCity, defState,
-          "ADDRCITY/SC DUP? SRC! TIMES! TIMES+ Unit(s)_responded:UNIT+");
+          "ADDRCITY/SC DUP? ( MASH | SRC! TIMES+ ) Unit(s)_responded:UNIT+");
     this.unitPtn = Pattern.compile(unitPtn);
   }
   
@@ -49,6 +49,7 @@ public class DispatchA27Parser extends FieldProgramParser {
       if (name.equals("ADDRCITY")) return new BaseAddressField();
       if (name.equals("DUP")) return new DuplField();
       if (name.equals("SRC")) return new BaseSrcField();
+      if (name.equals("MASH")) return new BaseMashField();
       if (name.equals("TIMES")) return new BaseTimesField();
       if (name.equals("UNIT")) return new BaseUnitField();
     return super.getField(name);
@@ -61,7 +62,7 @@ public class DispatchA27Parser extends FieldProgramParser {
     public void parse(String field, Data data) {
       Matcher m = PTN_FULL_ADDR.matcher(field);   // This will match address, city, and zip
       if(m.matches()) {                           // If we have a match
-        field = m.group(1);                       // Remove the zipcode
+        field = m.group(1).trim();                // Remove the zipcode
         setGPSLoc(getOptGroup(m.group(2)), data);
       }
       
@@ -93,6 +94,64 @@ public class DispatchA27Parser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d\\d?/\\d\\d?/\\d{4}) +(\\d\\d?:\\d\\d:\\d\\d [AP]M)");
+  private class BaseMashField extends Field {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("Agency:")) return false;
+      parse(field, data);
+      return true;
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      String agency;
+      if ((agency = getValue(p, "Agency:")) == null) abort();
+      int pt = agency.indexOf('\t');
+      if (pt >= 0) agency = agency.substring(0,pt).trim();
+      data.strSource = agency;
+      if ((data.strCallId = getValue(p, "Incident Nr:")) == null) abort();
+      if (getValue(p, "Location:") == null) abort();
+      String line = p.getLine();
+      String place = getValue(line, "Common Name:");
+      if (place != null) {
+        data.strPlace = place;
+        line = p.getLine();
+      }
+      if (getValue(line, "Activity:") == null) abort();
+      if (getValue(p, "Disposition:") == null) abort();
+      String time = getValue(p,"Time reported:");
+      if (time == null) abort();
+      Matcher match = DATE_TIME_PTN.matcher(time);
+      if (!match.matches()) abort();
+      data.strDate = match.group(1);
+      setTime(TIME_FMT, match.group(2), data);
+    }
+    
+    
+    private String getValue(Parser p, String key) {
+      String line = p.getLine();
+      if (line == null) return null;
+      return getValue(line, key);
+    }
+    
+    private String getValue(String line, String key) {
+      if (!line.startsWith(key)) return null;
+      return line.substring(key.length()).trim();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "SRC ID PLACE DATE TIME";
+    }
+  }
+  
   private class BaseSrcField extends SourceField {
     
     @Override 
@@ -114,13 +173,14 @@ public class DispatchA27Parser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern TIMES_PTN = Pattern.compile("([ \\w]+): (\\d\\d/\\d\\d/\\d{4}) +(\\d\\d?:\\d\\d:\\d\\d [AP]M)");
+  private static final Pattern TIMES_PTN = Pattern.compile("([ \\w]+): (\\d\\d?/\\d\\d?/\\d{4}) +(\\d\\d?:\\d\\d:\\d\\d [AP]M)");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
   private class BaseTimesField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      for (String part : field.split("\n")) {
-        Matcher match = TIMES_PTN.matcher(part);
+      for (String line : field.split("\n")) {
+        line = line.trim();
+        Matcher match = TIMES_PTN.matcher(line);
         if (!match.matches()) abort();
         String type = match.group(1);
         if (type.equals("Time reported")) {
@@ -128,11 +188,11 @@ public class DispatchA27Parser extends FieldProgramParser {
           setTime(TIME_FMT, match.group(3), data);
         }
         else {
-          if (type.equals("Time completed") || type.equals("Incident Time")) {
+          if (type.equals("Time completed")) {
             data.msgType = MsgType.RUN_REPORT;
           }
         }
-        times = append(times, "\n", part);
+        times = append(times, "\n", line);
       }
     }
     
@@ -207,6 +267,11 @@ public class DispatchA27Parser extends FieldProgramParser {
           } else {
             chkGPS = false;
           }
+        }
+        token = token.replace('\t', ' ');
+        if (token.equals("Incident Time:")) {
+          times = "";
+          data.msgType = MsgType.RUN_REPORT;
         }
         if (!token.equals(".")) data.strSupp = append(data.strSupp, "\n", token);
       }

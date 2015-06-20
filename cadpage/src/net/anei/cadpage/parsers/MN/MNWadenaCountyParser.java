@@ -36,7 +36,7 @@ public class MNWadenaCountyParser extends DispatchA27Parser {
     "VERNDALE",
     "WADENA",
 
-    // Townshipse    
+    // Townships    
     "ALDRICH TWP",
     "BLUEBERRY TWP",
     "BULLARD TWP",

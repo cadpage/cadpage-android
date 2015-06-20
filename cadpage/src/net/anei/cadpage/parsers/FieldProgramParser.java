@@ -2124,6 +2124,8 @@ public class FieldProgramParser extends SmartAddressParser {
     private String padField = null;
     private Field padData = null;
     
+    private boolean noCity = false;
+    
     public AddressField() {}
     
     public AddressField(String ptn) {
@@ -2260,6 +2262,10 @@ public class FieldProgramParser extends SmartAddressParser {
       if (name.equals("APT")) return new SpecialAptField();
       return getField(name);
     }
+    
+    void setNoCity(boolean noCity) {
+      this.noCity = noCity;
+    }
 
     @Override
     public boolean checkParse(String field, Data data) {
@@ -2279,7 +2285,9 @@ public class FieldProgramParser extends SmartAddressParser {
       // If smart parser is being used, invoke it to parse the field, adding 
       // FLAG_CHECK_STATUS to make sure we try to validate the field result
       else {
-        Result res = parseAddress(startType, parseFlags | FLAG_CHECK_STATUS, field);
+        int flags = parseFlags | FLAG_CHECK_STATUS;
+        if (noCity) flags |= FLAG_NO_CITY;
+        Result res = parseAddress(startType, flags, field);
         if (!res.isValid()) return false;
         
         // Looks good, lets parse out the data
@@ -2301,7 +2309,7 @@ public class FieldProgramParser extends SmartAddressParser {
         }
       } else {
         int flags = parseFlags;
-        if (data.strCity.length() > 0) flags |= FLAG_NO_CITY;
+        if (data.strCity.length() > 0 || noCity) flags |= FLAG_NO_CITY;
         parseAddress(startType, flags, field, data);
         if (padData != null) padData.parse(getPadField(), data);
         if (tailData != null) tailData.parse(getLeft(), data);
@@ -2445,6 +2453,7 @@ public class FieldProgramParser extends SmartAddressParser {
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
       cityField.parse(p.getLastOptional(','), data);
+      setNoCity(field.endsWith(","));
       super.parse(p.get(), data);
     }
     
