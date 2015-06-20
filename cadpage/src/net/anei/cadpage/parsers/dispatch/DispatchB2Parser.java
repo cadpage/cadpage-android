@@ -48,13 +48,13 @@ public class DispatchB2Parser extends DispatchBParser {
   public DispatchB2Parser(String[] cityList, String defCity, String defState, int flags) {
     this(null, cityList, defCity, defState, flags);
   }
-
-  public DispatchB2Parser(Properties cityCodes, String defCity, String defState) {
-    this(null, cityCodes, defCity, defState);
-  }
   
   public DispatchB2Parser(int version, String[] cityList, String defCity, String defState) {
     super(version, cityList, defCity, defState);
+  }
+
+  public DispatchB2Parser(Properties cityCodes, String defCity, String defState) {
+    this(null, cityCodes, defCity, defState);
   }
   
   public DispatchB2Parser(String defCity, String defState) {
@@ -82,8 +82,12 @@ public class DispatchB2Parser extends DispatchBParser {
   }
   
   public DispatchB2Parser(String prefix, String defCity, String defState) {
+    this(prefix, defCity, defState, 0);
+  }
+  
+  public DispatchB2Parser(String prefix, String defCity, String defState, int flags) {
     super(defCity, defState);
-    setup(prefix, 0);
+    setup(prefix, flags);
   }
   
   private void setup(String prefix, int flags) {

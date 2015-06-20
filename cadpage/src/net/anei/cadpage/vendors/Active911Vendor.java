@@ -295,6 +295,7 @@ class Active911Vendor extends Vendor {
       "US/FL/SeminoleCounty",             "FLSeminoleCounty",
       "US/GA/BarrowCounty",               "GABarrowCounty",
       "US/GA/EffinghamCounty",            "GAEffinghamCounty",
+      "US/GA/FanninCounty",               "GAFanninCounty",
       "US/GA/ForsythCounty",              "GAForsythCounty",
       "US/GA/HabershamCounty",            "GAHabershamCounty",
       "US/GA/JasperCounty",               "GAJasperCounty",
