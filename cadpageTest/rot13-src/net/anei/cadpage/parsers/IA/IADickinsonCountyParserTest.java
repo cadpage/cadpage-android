@@ -169,13 +169,13 @@ choyvp pynff VNQvpxvafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "QP911:ANGHER: 10-52 /YBPNGVBA: YNXR CNEX PNER /PBZZRAGF: CBFFVOYR TV OYRRQ",
         "PNYY:10-52",
-        "CYNPR:YNXR CNEX PNER",
+        "NQQE:YNXR CNEX PNER",
         "VASB:CBFFVOYR TV OYRRQ");
 
     qbGrfg("G3",
         "QP911:ANGHER: 10-52 /YBPNGVBA: YNXR CNEX PNER PRAGRE /PBZZRAGF: 10-40 EZ 28 CG QRPYVAR VA FGNGHF",
         "PNYY:10-52",
-        "CYNPR:YNXR CNEX PNER PRAGRE",
+        "NQQE:YNXR CNEX PNER PRAGRE",
         "VASB:10-40 EZ 28 CG QRPYVAR VA FGNGHF");
 
     qbGrfg("G4",
@@ -309,7 +309,7 @@ choyvp pynff VNQvpxvafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G20",
         "QP911:ANGHER: 10-52 /YBPNGVBA: UVYY GBC /PBZZRAGF: HA ERFC CNGVRAG 10-33",
         "PNYY:10-52",
-        "CYNPR:UVYY GBC",
+        "NQQE:UVYY GBC",
         "VASB:HA ERFC CNGVRAG 10-33");
 
     qbGrfg("G21",
@@ -600,7 +600,7 @@ choyvp pynff VNQvpxvafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G61",
         "QP911:ANGHER: 10-52 /YBPNGVBA: CEVQR TEBHC /PBZZRAGF: CNGVRAG YBJ B2 NAQ BGURE URNYGU VFFHRF",
         "PNYY:10-52",
-        "CYNPR:CEVQR TEBHC",
+        "NQQE:CEVQR TEBHC",
         "VASB:CNGVRAG YBJ B2 NAQ BGURE URNYGU VFFHRF");
 
     qbGrfg("G62",
@@ -655,7 +655,7 @@ choyvp pynff VNQvpxvafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G72",
         "QP911:ANGHER: 10-52 /YBPNGVBA: YNXR CNEX PNER PRAGRE /PBZZRAGF: ERFVQRAG SRYY YNFG AVTUG, IREL PBASHFRQ GUVF ZBEAVAT",
         "PNYY:10-52",
-        "CYNPR:YNXR CNEX PNER PRAGRE",
+        "NQQE:YNXR CNEX PNER PRAGRE",
         "VASB:ERFVQRAG SRYY YNFG AVTUG, IREL PBASHFRQ GUVF ZBEAVAT");
 
     qbGrfg("G73",
@@ -757,7 +757,8 @@ choyvp pynff VNQvpxvafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QP911:[02-OY]- ANGHER: 52 YBPNGVBA:ZPXRRAF - SRZNYR CBFFVOYR OEBXRA UVC",
         "HAVG:02-OY",
         "PNYY:52",
-        "CYNPR:ZPXRRAF - SRZNYR CBFFVOYR OEBXRA UVC");
+        "NQQE:ZPXRRAF",
+        "VASB:SRZNYR CBFFVOYR OEBXRA UVC");
 
     qbGrfg("G87",
         "QP911:ANGHER: 10-52 /YBPNGVBA: 2201 140GU FG, FCVEVG YNXR GJC /PBZZRAGF: 82LB ZNYR ABG ERFCBAQVAT OHG OERNGUVAT",

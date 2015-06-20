@@ -420,7 +420,7 @@ choyvp pynff BECbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:QNS",
         "QNGR:05/11/14",
         "GVZR:09:18:03",
-        "CYNPR:FJS130",
+        "NQQE:FJS130",
         "HAVG:Z101, Z102",
         "VQ:QNS201405110001");
 
@@ -430,7 +430,7 @@ choyvp pynff BECbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:QNS",
         "QNGR:05/11/14",
         "GVZR:09:18:03",
-        "CYNPR:FJS130",
+        "NQQE:FJS130",
         "HAVG:Z101",
         "VQ:QNS201405110001");
 

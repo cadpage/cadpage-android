@@ -5344,7 +5344,7 @@ choyvp pynff APLnqxvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G26",
         "1;Y Bgure;pnyyre jnf pbzvat qbja 601 naq cvpxrq hc naq ryqy",
-        "CYNPR:1",
+        "NQQE:1",
         "PNYY:Y Bgure",
         "VASB:pnyyre jnf pbzvat qbja 601 naq cvpxrq hc naq ryqy");
 

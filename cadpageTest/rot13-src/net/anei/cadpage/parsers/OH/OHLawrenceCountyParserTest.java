@@ -742,7 +742,8 @@ choyvp pynff BUYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:127",
         "PBQR:ZIP",
         "PNYY:Zbgbe Iruvpyr Nppvqrag",
-        "CYNPR:Ohssnyb Cnl Ynxr. Pne if Cbyr. Cbyr vf fcyvg. PNHGVBA! Ab yvarf qbja.");
+        "NQQE:Ohssnyb Cnl Ynxr Pne if Cbyr Cbyr vf fcyvg PNHGVBA! Ab yvarf qbja",
+        "ZNQQE:Ohssnyb Cnl Ynxr Pne if Cbyr Cbyr vf fcyvg PNHGVBA! & yvarf qbja");
 
     qbGrfg("G57",
         "nyreg:[117]- ANGHER: ZIP YBPNGVBA: 389 PB EQ 120 F SNLRGGR GJ C PBZZRAGF: PNYYRE NQIVFVAT GURER VF N 2 PNE ZIP NG GUR VAGR EFRPGVBA BS HF 52 NAQ PB EQ 120 NG ZHECULF. FGNGRF GURER NER AB VAWHEVRF. PNYYRE JNF GENAFSREERQ GB BFC. FGNGVBA 200/",

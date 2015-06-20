@@ -2292,6 +2292,7 @@ public class FieldProgramParser extends SmartAddressParser {
         
         // Looks good, lets parse out the data
         res.getData(data);
+        fixEmptyAddress(data);
         if (padData != null) padData.parse(res.getPadField(), data);
         if (tailData != null) tailData.parse(res.getLeft(), data);
       }
@@ -2311,9 +2312,32 @@ public class FieldProgramParser extends SmartAddressParser {
         int flags = parseFlags;
         if (data.strCity.length() > 0 || noCity) flags |= FLAG_NO_CITY;
         parseAddress(startType, flags, field, data);
+        fixEmptyAddress(data);
         if (padData != null) padData.parse(getPadField(), data);
         if (tailData != null) tailData.parse(getLeft(), data);
       }
+    }
+    
+    private void fixEmptyAddress(Data data) {
+      if (data.strAddress.length() > 0) return;
+      if ((parseFlags & FLAG_START_FLD_REQ) != 0 && startType != StartType.START_CALL_PLACE) return;
+      String addr;
+      switch (startType) {
+      case START_PLACE:
+      case START_CALL_PLACE:
+        addr = data.strPlace;
+        data.strPlace = "";
+        break;
+        
+     case START_CALL:
+        addr = data.strCall;
+        data.strCall = "";
+        break;
+        
+     default:
+       addr = null;
+      }
+      if (addr != null) parseAddress(addr, data);
     }
 
     @Override

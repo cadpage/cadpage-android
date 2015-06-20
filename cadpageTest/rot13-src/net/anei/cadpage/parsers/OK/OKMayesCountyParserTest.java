@@ -278,7 +278,7 @@ choyvp pynff BXZnlrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZnlrfPbhagl911:[NO310]- ANGHER: ZHGHNY NVQ YBPNGVBA: JNTBARE PBZZRAGF: ZHGHNY NVQ SBE GENVA BA SVER/ ERNE GENPGVBA ZBGBE BA SVER NG GUVF GVZR/",
         "HAVG:NO310",
         "PNYY:ZHGHNY NVQ",
-        "CYNPR:JNTBARE",
+        "NQQE:JNTBARE",
         "VASB:ZHGHNY NVQ SBE GENVA BA SVER/ ERNE GENPGVBA ZBGBE BA SVER NG GUVF GVZR/");
 
     qbGrfg("G21",
@@ -414,7 +414,7 @@ choyvp pynff BXZnlrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZnlrfPbhagl911:[QG303]- ANGHER: 21 URZBEEUNTR/ YNPRENGVBAF YBPNGVBA: CELBE PBZZRAGF: GNXR SVEFG EVTUG, GURA SVEFG YRSG GB GUR RAQ",
         "HAVG:QG303",
         "PNYY:21 URZBEEUNTR/ YNPRENGVBAF",
-        "CYNPR:CELBE",
+        "NQQE:CELBE",
         "VASB:GNXR SVEFG EVTUG, GURA SVEFG YRSG GB GUR RAQ");
 
     qbGrfg("G40",
@@ -508,7 +508,7 @@ choyvp pynff BXZnlrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:QG303",
         "PNYY:29 GENAFCBEGNGVBA VAPVQRAGF",
-        "CYNPR:F RYYVBG CELBE",
+        "NQQE:F RYYVBG CELBE",
         "VASB:FVATYR PNE ZIN JVGU URNQ VAWHEVRF");
 
     qbGrfg("G53",
@@ -533,7 +533,7 @@ choyvp pynff BXZnlrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZnlrfPbhagl911:[ZO315]- ANGHER: 29 GENAFCBEGNGVBA VAPVQRAGF YBPNGVBA: R 420 PBZZRAGF: FGENAT OEVQTR 2 IRU ZIN FVQR VZCNPG FGVYY OYBPXVAT EBNQJNL",
         "HAVG:ZO315",
         "PNYY:29 GENAFCBEGNGVBA VAPVQRAGF",
-        "CYNPR:R 420",
+        "NQQE:R 420",
         "VASB:FGENAT OEVQTR 2 IRU ZIN FVQR VZCNPG FGVYY OYBPXVAT EBNQJNL");
 
     qbGrfg("G56",
@@ -731,7 +731,7 @@ choyvp pynff BXZnlrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZnlrfPbhagl911:[XC314]- ANGHER: NYNEZF YBPNGVBA: sver nynez ng pubhgrnh ryrzragnel fpubby",
         "HAVG:XC314",
         "PNYY:NYNEZF",
-        "CYNPR:sver nynez ng pubhgrnh ryrzragnel fpubby");
+        "NQQE:sver nynez ng pubhgrnh ryrzragnel fpubby");
 
     qbGrfg("G81",
         "ZnlrfPbhagl911:[QG303]- ANGHER: 26 FVPX CREFBA YBPNGVBA: 3504 F 4453 FNYVAN PBZZRAGF: 67 LB SRZNYR HAERFCBAFVIR, UVFGBEL BS NSVO, UNQ N FGEBXR YNFG GHRFQNL",
@@ -812,7 +812,7 @@ choyvp pynff BXZnlrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZnlrfPbhagl911:[QG303]- ANGHER: 29 GENAFCBEGNGVBA VAPVQRAGF YBPNGVBA: FNYVAN PBZZRAGF: 1/2 ZVYR RNFG BS FNYVAN BA XRAJBBQ EBNQ CVPXHC BA RNFGOBHAQ YNAR BA VGF FVQR JVGU BPPHCNAG VA GUR QEVIRE FRNG.  HAXABJA VAWHEVRF NG GUVF GVZR",
         "HAVG:QG303",
         "PNYY:29 GENAFCBEGNGVBA VAPVQRAGF",
-        "CYNPR:FNYVAN",
+        "NQQE:FNYVAN",
         "VASB:1/2 ZVYR RNFG BS FNYVAN BA XRAJBBQ EBNQ CVPXHC BA RNFGOBHAQ YNAR BA VGF FVQR JVGU BPPHCNAG VA GUR QEVIRE FRNG.  HAXABJA VAWHEVRF NG GUVF GVZR");
 
     qbGrfg("G91",

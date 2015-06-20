@@ -307,9 +307,22 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(" - ");
+      if (pt >= 0) {
+        data.strSupp = field.substring(pt+3).trim();
+        field = field.substring(0,pt).trim();
+      }
+      super.parse(field, data);
+    }
   }
   
   private class MyCrossField extends CrossField {

@@ -380,7 +380,7 @@ choyvp pynff ZBTnfpbanqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ZRFFNTR) 501 GENAFSRE- EBHGVAR  ZREPL JNFUVATGBA GB TNFP ZNABE  ZncErtvbaf:  PebffFgerrgf: Qrfpevcgvba:  Qvfcngpu: 10/16/2014 19:16:02",
         "HAVG:501",
         "PNYY:GENAFSRE- EBHGVAR",
-        "CYNPR:ZREPL JNFUVATGBA GB TNFP ZNABE",
+        "NQQE:ZREPL JNFUVATGBA GB TNFP ZNABE",
         "QNGR:10/16/2014",
         "GVZR:19:16:02");
 
@@ -425,7 +425,7 @@ choyvp pynff ZBTnfpbanqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ZRFFNTR) 501 GENAFSRE- EBHGVAR  ZB ONC FHYYVINA & IN PBYHZON  ZncErtvbaf:  PebffFgerrgf: Qrfpevcgvba: ORT ZV 0.0 Qvfcngpu: 10/15/2014 21:15:05",
         "HAVG:501",
         "PNYY:GENAFSRE- EBHGVAR",
-        "CYNPR:ZB ONC FHYYVINA & IN PBYHZON",
+        "NQQE:ZB ONC FHYYVINA & IN PBYHZON",
         "VASB:ORT ZV 0.0",
         "QNGR:10/15/2014",
         "GVZR:21:15:05");
@@ -530,7 +530,7 @@ choyvp pynff ZBTnfpbanqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ZRFFNTR) 501 GENAFSRE- EBHGVAR  ZB ONC FHYYVINA GB ZB ONC FGY  ZncErtvbaf:  PebffFgerrgf: Qrfpevcgvba: ZB ONC FHYYVINA GB ZB ONC FGY Qvfcngpu: 10/10/2014 18:14:16",
         "HAVG:501",
         "PNYY:GENAFSRE- EBHGVAR",
-        "CYNPR:ZB ONC FHYYVINA GB ZB ONC FGY",
+        "NQQE:ZB ONC FHYYVINA GB ZB ONC FGY",
         "VASB:ZB ONC FHYYVINA GB ZB ONC FGY",
         "QNGR:10/10/2014",
         "GVZR:18:14:16");
@@ -550,7 +550,7 @@ choyvp pynff ZBTnfpbanqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ZRFFNTR) 501 GENAFSRE- EBHGVAR  GENAFSRE ZB ONC GB ONEARF JRFG  ZncErtvbaf:  PebffFgerrgf: Qrfpevcgvba:  Qvfcngpu: 10/10/2014 12:58:13",
         "HAVG:501",
         "PNYY:GENAFSRE- EBHGVAR",
-        "CYNPR:GENAFSRE ZB ONC GB ONEARF JRFG",
+        "NQQE:GENAFSRE ZB ONC GB ONEARF JRFG",
         "QNGR:10/10/2014",
         "GVZR:12:58:13");
 
@@ -558,7 +558,7 @@ choyvp pynff ZBTnfpbanqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ZRFFNTR) 501 GENAFSRE- EBHGVAR  SEBZ ZREPL GB TNFPBANQR ZNABE  ZncErtvbaf:  PebffFgerrgf: Qrfpevcgvba:  Qvfcngpu: 10/8/2014 17:40:21",
         "HAVG:501",
         "PNYY:GENAFSRE- EBHGVAR",
-        "CYNPR:SEBZ ZREPL GB TNFPBANQR ZNABE",
+        "NQQE:SEBZ ZREPL GB TNFPBANQR ZNABE",
         "QNGR:10/8/2014",
         "GVZR:17:40:21");
 
@@ -576,7 +576,7 @@ choyvp pynff ZBTnfpbanqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ZRFFNTR) 501 GENAFSRE- EBHGVAR  SEBZ ZREPL GB TNFPBANQR ZNABE  ZncErtvbaf:  PebffFgerrgf: Qrfpevcgvba:  Qvfcngpu: 10/8/2014 16:02:00",
         "HAVG:501",
         "PNYY:GENAFSRE- EBHGVAR",
-        "CYNPR:SEBZ ZREPL GB TNFPBANQR ZNABE",
+        "NQQE:SEBZ ZREPL GB TNFPBANQR ZNABE",
         "QNGR:10/8/2014",
         "GVZR:16:02:00");
 
@@ -765,7 +765,7 @@ choyvp pynff ZBTnfpbanqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ZRFFNTR) 501 ZBIR HC  UREZNAA RZF  ZncErtvbaf:  PebffFgerrgf: Qrfpevcgvba:  Qvfcngpu: 10/5/2014 14:43:43",
         "HAVG:501",
         "PNYY:ZBIR HC",
-        "CYNPR:UREZNAA RZF",
+        "NQQE:UREZNAA RZF",
         "QNGR:10/5/2014",
         "GVZR:14:43:43");
 
@@ -880,7 +880,7 @@ choyvp pynff ZBTnfpbanqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ZRFFNTR) 501 GENAFSRE- EBHGVAR  ZB ONC FHYYVINA GB WRSSREFBA ONEEVPXF FGY  ZncErtvbaf:  PebffFgerrgf: Qrfpevcgvba:  Qvfcngpu: 10/3/2014 16:56:47",
         "HAVG:501",
         "PNYY:GENAFSRE- EBHGVAR",
-        "CYNPR:ZB ONC FHYYVINA GB WRSSREFBA ONEEVPXF FGY",
+        "NQQE:ZB ONC FHYYVINA GB WRSSREFBA ONEEVPXF FGY",
         "QNGR:10/3/2014",
         "GVZR:16:56:47");
 
@@ -935,7 +935,7 @@ choyvp pynff ZBTnfpbanqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ZRFFNTR) 501 GENAFSRE- EBHGVAR  ZREPL JNFUVATGBA GB SERAR INYYRL  ZncErtvbaf:  PebffFgerrgf: Qrfpevcgvba:  Qvfcngpu: 10/2/2014 13:03:27",
         "HAVG:501",
         "PNYY:GENAFSRE- EBHGVAR",
-        "CYNPR:ZREPL JNFUVATGBA GB SERAR INYYRL",
+        "NQQE:ZREPL JNFUVATGBA GB SERAR INYYRL",
         "QNGR:10/2/2014",
         "GVZR:13:03:27");
 

@@ -9,13 +9,13 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHWayneCountyCParser extends DispatchEmergitechParser {
   
   public OHWayneCountyCParser() {
-    super("Dispatch:", new int[]{62, 65, 66, 69}, CITY_LIST, "WAYNE COUNTY", "OH");
+    super("Dispatch:", 0, CITY_LIST, "WAYNE COUNTY", "OH");
     addSpecialWords("COLUMBUS", "HARRISON");
   }
 
   @Override
   public String getFilter() {
-    return "JCR@wcjustice-center.org";
+    return "@wcjustice-center.org";
   }
   
   @Override
@@ -30,6 +30,14 @@ public class OHWayneCountyCParser extends DispatchEmergitechParser {
     
     int pt = data.strCity.indexOf('-');
     if (pt >= 0) data.strCity = data.strCity.substring(0,pt).trim();
+    
+    // If no city found, see if we can find in a mutual aid
+    // information
+    if (data.strCity.length() == 0) {
+      String tmp = data.strSupp;
+      tmp = stripFieldStart(tmp, "MUTUAL AID");
+      parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY, tmp, data);
+    }
     return true;
   }
   
@@ -54,8 +62,10 @@ public class OHWayneCountyCParser extends DispatchEmergitechParser {
     "DALTON",
     "DOYLESTOWN",
     "FREDERICKSBURG",
+    "HOLMESVILLE",
     "MARSHALLVILLE",
     "MOUNT EATON",
+    "MT EATON",
     "SHREVE",
     "SMITHVILLE",
     "WEST SALEM",
@@ -83,8 +93,13 @@ public class OHWayneCountyCParser extends DispatchEmergitechParser {
     "KIDRON",
     "STERLING",
     
+    "MEDINA COUNTY",
+    "SEVILLE",
+    
     "WAYNE COUNTY",
-    "RIPLEY TWP - HC"
+    "RIPLEY TWP - HC",
+    "SALT CREEK - HC",
+    "SALT CREEK - H"
   };
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{

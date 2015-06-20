@@ -1830,7 +1830,7 @@ choyvp pynff BUUvtuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Qvfcngpu:[EQZ]- ANGHER: SVER - IRUVPYR YBPNGVBA: YRRFOHET PBZZRAGF: G EHPX BA SVER JRFG ZNVA @ NQIRAG",
         "HAVG:EQZ",
         "PNYY:SVER - IRUVPYR",
-        "CYNPR:YRRFOHET",
+        "NQQE:YRRFOHET",
         "VASB:GEHPX BA SVER JRFG ZNVA @ NQIRAG");
 
     qbGrfg("G58",
@@ -2504,7 +2504,7 @@ choyvp pynff BUUvtuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Qvfcngpu:[YNR]- ANGHER: PURFG CNVAF YBPNGVBA: UBEFRFUBR / CNAUNAQYR P BZZRAGF: ZNYR FHOWRPG PURFG CNVAF",
         "HAVG:YNR",
         "PNYY:PURFG CNVAF",
-        "CYNPR:UBEFRFUBR / CNAUNAQYR",
+        "NQQE:UBEFRFUBR & CNAUNAQYR",
         "VASB:ZNYR FHOWRPG PURFG CNVAF");
 
     qbGrfg("G50",

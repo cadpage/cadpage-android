@@ -41,11 +41,24 @@ public class NYNassauCountyAParser extends FieldProgramParser {
     return "CALL " + super.getProgram();
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("TIMEDATE")) return new MyTimeDateField();
+    return super.getField(name);
+  }
+
+  private static final Pattern CALL_ADDR_PTN = Pattern.compile("([A-Z]{3,5}) +(.*)");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
+      Matcher match = CALL_ADDR_PTN.matcher(field);
+      if (match.matches()) {
+        data.strCall = data.strCall + " - " + match.group(1);
+        field = match.group(2);
+      }
       Parser p = new Parser(field);
-      data.strCall = data.strCall + " - " + p.get(' ');
       field = p.get('[');
       String city = p.get(']');
       super.parse(field, data);
@@ -66,6 +79,7 @@ public class NYNassauCountyAParser extends FieldProgramParser {
         data.strMap = field.substring(pt+3).trim().replaceAll("  +", " ");
         field = field.substring(0,pt).trim();
       }
+      field = stripFieldEnd(field, "/");
       super.parse(field, data);
     }
     
@@ -87,14 +101,6 @@ public class NYNassauCountyAParser extends FieldProgramParser {
       if (!DATE_PTN.matcher(field).matches()) return;
       data.strDate = field;
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("TIMEDATE")) return new MyTimeDateField();
-    return super.getField(name);
   }
   
   private static final String[] MWORD_STREET_LIST = new  String[]{

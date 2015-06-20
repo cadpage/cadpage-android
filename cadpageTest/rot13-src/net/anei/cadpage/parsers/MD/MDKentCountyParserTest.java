@@ -409,7 +409,7 @@ choyvp pynff ZQXragPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G20",
         "(PNQ) PG:FGNGVBA GENAFSRE NAAR NEHAQRY PBHAGL  OBK:BBP QHR:EN6S",
         "PNYY:FGNGVBA GENAFSRE",
-        "CYNPR:NAAR NEHAQRY PBHAGL",
+        "NQQE:NAAR NEHAQRY PBHAGL",
         "OBK:BBP",
         "HAVG:EN6S");
     frgQrsnhygf("XRAG PBHAGL", "ZQ");
@@ -418,7 +418,7 @@ choyvp pynff ZQXragPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G21",
         "(PNQ) PG:FGNGVBA GENAFSRE NAAR NEHAQRY PBHAGL  OBK:BBP QHR:R6",
         "PNYY:FGNGVBA GENAFSRE",
-        "CYNPR:NAAR NEHAQRY PBHAGL",
+        "NQQE:NAAR NEHAQRY PBHAGL",
         "OBK:BBP",
         "HAVG:R6");
     frgQrsnhygf("XRAG PBHAGL", "ZQ");

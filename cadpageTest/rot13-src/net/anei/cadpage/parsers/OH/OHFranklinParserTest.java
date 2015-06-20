@@ -225,7 +225,7 @@ choyvp pynff BUSenaxyvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "[0205095]- ANGHER: S-OERNGUVAT CEBOYRZF YBPNGVBA: - oernguvat ceboyrzf(8/1/2014 11:45:09 CZ)",
         "PNYY:S-OERNGUVAT CEBOYRZF",
-        "CYNPR:oernguvat ceboyrzf",
+        "NQQE:oernguvat ceboyrzf",
         "QNGR:8/1/2014",
         "GVZR:23:45:09");
 
