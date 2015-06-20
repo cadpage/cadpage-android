@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.OH;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
@@ -18,8 +19,11 @@ public class OHWayneCountyCParser extends DispatchEmergitechParser {
     return "@wcjustice-center.org";
   }
   
+  private static final Pattern DASH_COUNTY_PTN = Pattern.compile(" - HC? ");
+  
   @Override
   public boolean parseMsg(String body, Data data) {
+    body = DASH_COUNTY_PTN.matcher(body).replaceAll(" ");
     if (!super.parseMsg(body, data)) return false;
     
     String desc = CALL_CODES.getProperty(data.strCall);
@@ -97,9 +101,8 @@ public class OHWayneCountyCParser extends DispatchEmergitechParser {
     "SEVILLE",
     
     "WAYNE COUNTY",
-    "RIPLEY TWP - HC",
-    "SALT CREEK - HC",
-    "SALT CREEK - H"
+    "RIPLEY TWP",
+    "SALT CREEK",
   };
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{

@@ -774,7 +774,6 @@ choyvp pynff BUJnlarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Z/FRVMHER",
         "NQQE:5344 GJC 613",
         "PVGL:FNYG PERRX GJC",
-        "ANZR:- U",
         "K:PE235 / PE77",
         "VASB:2AQ GBAR 115 BBF 24 LBZ VINA ZVYYRE 330-695-4581");
 
@@ -784,7 +783,6 @@ choyvp pynff BUJnlarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Z/FRVMHER",
         "NQQE:5344 GJC 613",
         "PVGL:FNYG PERRX GJC",
-        "ANZR:- U",
         "K:PE235 / PE77",
         "VASB:24 LBZ VINA ZVYYRE 330-695-4581");
 
@@ -922,7 +920,6 @@ choyvp pynff BUJnlarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:S/CBYR - JVERF",
         "NQQE:6220 GJC 606",
         "PVGL:FNYG PERRX GJC",
-        "ANZR:- U",
         "K:GJC611 / GJC609",
         "VASB:RYRPGEVPNY CBYR BA SVER");
 
@@ -1037,7 +1034,6 @@ choyvp pynff BUJnlarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4469 PE 229",
         "ZNQQE:4469 PBHAGL EBNQ 229",
         "PVGL:FNYG PERRX GJC",
-        "ANZR:- U",
         "K:GJC614 / PE77",
         "VASB:NPGVINGVBA AB FLZCGBZF NNEBA ZVYYRE 330-275-4666");
 
@@ -1074,7 +1070,6 @@ choyvp pynff BUJnlarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:8375 PE 201",
         "ZNQQE:8375 PBHAGL EBNQ 201",
         "PVGL:FNYG PERRX GJC",
-        "ANZR:- U",
         "K:GJC611 / GJC606",
         "VASB:BIRE GHEARQ TENVA GEHPX FBHGU BS GJC 606");
 
@@ -1160,7 +1155,6 @@ choyvp pynff BUJnlarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:S/TENFF,OEHFU,SVRYQ",
         "NQQE:8755 GJC 601",
         "PVGL:FNYG PERRX GJC",
-        "ANZR:- U",
         "K:GJC606 / GJC607",
         "VASB:HAQRE CVAR GERRF ARNEVAT N ERFVQRAPR");
 
