@@ -6,18 +6,21 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 
 public class AZYavapaiCountyBParser extends SmartAddressParser {
   
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("->Inc Addr = (.*?) Equip = (.*?) (.*?)(?: Rpt # = (\\S+))?");
+  private static final Pattern RUN_REPORT_TIME_PTN = Pattern.compile("\\b(\\d\\d) (\\d\\d) (\\d\\d)");
+  private static final Pattern RUN_REPORT_BRK_PTN = Pattern.compile(" (?=\\w+ =)");
   private static final Pattern MASTER = Pattern.compile("([A-Z0-9]{1,5}) *(?:\\d{3})? Utl# (\\d{2,4}(?: ?[A-Z]\\d?)?(?: [- A-Z0-9]+?)?|M H S) +(\\d\\d/\\d\\d/\\d\\d) +([-, A-Z0-9]+?)(?: *#([-,A-Z0-9]+))? / (.*?)[ /]+((?:[A-Z]+\\d+|[A-Z0-9]+FD)(?: ?, ?(?:[A-Z]+\\d+|[A-Z0-9]+FD))*)");
   private static final Pattern DELIM_PTN = Pattern.compile(" +[A-Z]{2,3}(?:-|/+|\\.{2,}) *(?:(?:APT|UNIT|#) *([A-Z0-9]+)[ /]+)?");
   private static final Pattern NT_PTN = Pattern.compile(" *\\bNT\\b *");
 
   public AZYavapaiCountyBParser() {
     super(CITY_CODES, "YAVAPAI COUNTY", "AZ");
-    setFieldList("CODE MAP DATE ADDR APT CITY X INFO UNIT");
   }
   
   @Override
@@ -33,14 +36,29 @@ public class AZYavapaiCountyBParser extends SmartAddressParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     if (body.startsWith("->Inc Addr =")) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
+      setFieldList("ADDR UNIT INFO ID");
+      data.msgType = MsgType.RUN_REPORT;
+      Matcher match = RUN_REPORT_PTN.matcher(body);
+      if (match.matches()) {
+        parseAddress(match.group(1).trim(), data);
+        data.strUnit = match.group(2).trim();
+        String times = match.group(3).trim();
+        times = RUN_REPORT_TIME_PTN.matcher(times).replaceAll("$1:$2:$3");
+        times = RUN_REPORT_BRK_PTN.matcher(times).replaceAll("\n");
+        times = times.replace(" 00 00", "");
+        data.strSupp = times;
+        data.strCallId = getOptGroup(match.group(4));
+      } else {
+        data.strSupp = body;
+      }
       return true;
     }
     
     // Use master pattern to break out main fields
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
+    setFieldList("CODE MAP DATE ADDR APT CITY X INFO UNIT");
+    
     data.strCode = match.group(1);
     data.strMap = match.group(2);
     data.strDate = match.group(3);
@@ -71,7 +89,7 @@ public class AZYavapaiCountyBParser extends SmartAddressParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "CY", "",   // YAVAPAI COUNTY
+      "CY", "YAVAPAI COUNTY",
       "CV", "CHINO VALLEY",
       "PR", "PRESCOTT",
       "PV", "PRESCOTT VALLEY",
