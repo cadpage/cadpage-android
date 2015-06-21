@@ -76,6 +76,11 @@ public class DispatchA13Parser extends FieldProgramParser {
   private class SourceIdField extends Field {
     
     @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
     public boolean checkParse(String field, Data data) {
       Matcher match = SRCID_PTN.matcher(field);
       if (!match.matches()) return false;
