@@ -102,7 +102,6 @@ public class Message {
   private static final Pattern FORWARD_PTN = Pattern.compile("(?:FWD?|Begin forwarded message): *");
   private static final Pattern LEAD_UNDERSCORE_PTN = Pattern.compile("\n*_{5,}\n+");
   private static final Pattern DISCLAIMER_PTN = Pattern.compile("\n+DISCLA| *\\[Attachment\\(s\\) removed\\]\\s*$|\n+To unsubscribe ", Pattern.CASE_INSENSITIVE);
-  private static final Pattern EXCHANGE_FWD_PTN = Pattern.compile("^(?:_{5,}\n+|-{5,}\n++)?(?:\\[FWD?:.*\\] *\n+)?(?:--+(?:Original Message)?--+\n)?From: *(.*?)\n(?:\\[?mailto:.*\\] *\n)?(?:Date:.*\n)?(?:Sent:.*\n)?(?:To:.*\n)?(?:Subject: (.*)\n)?(?:To:.*\n)?(?:Reply-To:.*\n)?(?:Importance:.*\n)?(?:Auto forwarded by a Rule\n)?(?!\\S*$)");
   private static final Pattern FWD_PTN = Pattern.compile("^FWD?:");
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
@@ -195,18 +194,10 @@ public class Message {
     match = DISCLAIMER_PTN.matcher(body);
     if (match.find()) body = body.substring(0,match.start()).trim();
     
-    // Exchange has a unique set of forwarding headers, than can be chained together :()
-    body = trimLead(body, keepLeadBreak);
-    while (true) {
-      match = EXCHANGE_FWD_PTN.matcher(body);
-      if (!match.find()) break;
-      String from = match.group(1).trim();
-      if (from != null) parseAddress = from;
-      String subj = match.group(2);
-      if (subj != null) parseSubject = subj.trim();
-      body = trimLead(body.substring(match.end()), keepLeadBreak);
-    }
+    // See if we can parse this as an Email message header
+    if (parseEmailHeaders(body, keepLeadBreak)) return;
     
+    body = trimLead(body, keepLeadBreak);
     if (body.startsWith("Pagecopy-")) body = body.substring(9);
     
     // Dummy loop we can break out of
@@ -455,7 +446,52 @@ public class Message {
     // original address
     if (parseAddress.length() == 0) parseAddress = fromAddress;
   }
+
   
+  /**
+   * Try to parse message an an email message with regular email headers
+   * @param body message body
+   * @return true if successfully parsed as an email message
+   */
+  private boolean parseEmailHeaders(String body, boolean keepLeadBreak) {
+
+    String address = "";
+    String subject = "";
+    int headerCnt = 0;
+    
+    int spt = 0;
+    while (true) {
+      while (spt < body.length() && Character.isWhitespace(body.charAt(spt))) spt++;
+      int ept = spt;
+      while (ept < body.length() && body.charAt(ept) != '\n') ept++;
+      if (ept == body.length()) break;
+      
+      String line = body.substring(spt, ept).trim();
+      Matcher match;
+      if (!JUNK_HEADER_PTN.matcher(line).matches()) {
+        if ((match = SENDER_HEADER_PTN.matcher(line)).matches()) {
+          address = match.group(1);
+        } else if ((match = SUBJECT_HEADER_PTN.matcher(line)).matches()) {
+          subject = match.group(1);
+        } else if (!OTHER_HEADER_PTN.matcher(line).matches()) {
+          break;
+        }
+        headerCnt++;
+      }
+      spt = ept+1;
+    }
+    
+    if (headerCnt < 3) return false;
+    if (address.length() > 0) parseAddress = address;
+    if (subject.length() > 0) parseSubject = subject;
+    parseMessageBody = trimLead(body.substring(spt), keepLeadBreak);
+    return true;
+  }
+  private static final Pattern SENDER_HEADER_PTN = Pattern.compile("(?:From|Sender): *(.*)");
+  private static final Pattern SUBJECT_HEADER_PTN = Pattern.compile("(?:Subject): *(.*)");
+  private static final Pattern OTHER_HEADER_PTN = Pattern.compile("\\[?mailto:.*\\]|(?:Content-Type|Date|Importance|Reply-To|Return-Path|Sent|SentTo|To|X-Mailer):.*");
+  private static final Pattern JUNK_HEADER_PTN = Pattern.compile("_{5,}|-{5,}|--+(?:Original Message)?--+|Auto forwarded by a Rule");
+
   private static String trimLead(String str, boolean keepLeadBreak) {
     int pt = 0;
     while (pt < str.length() && 
@@ -543,7 +579,9 @@ public class Message {
   }
   
   private void addSubject(String subject) {
+    subject = subject.trim();
     if (subject.length() == 0) return;
+    if (subject.equals("FWD:") || subject.equals("FW:")) return;
     
     for (Pattern ptn : SUBJECT_HEADER_PTNS) {
       Matcher match = ptn.matcher(subject);

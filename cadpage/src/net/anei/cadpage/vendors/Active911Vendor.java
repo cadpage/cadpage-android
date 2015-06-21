@@ -230,6 +230,7 @@ class Active911Vendor extends Vendor {
       "US/CA/SantaCruzlimited",           "CASantaCruzCounty",
       "US/CA/ShastaCom911",               "CAShastaCountyB",
       "US/CA/ShastaCounty",               "CAShastaCountyA",
+      "US/CA/CityofBenicia",              "CASolanoCountyC",
       "US/CA/SonomaCounty",               "CASonomaCounty",
       "US/CA/SouthBay",                   "CALosAngelesCountyB",
       "US/CA/StanislausCounty",           "CAStanislausCounty",
