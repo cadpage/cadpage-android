@@ -7,6 +7,7 @@ public class WIRacineCountyParser extends DispatchProphoenixParser {
   
   public WIRacineCountyParser() {
     super(CITY_CODES,"RACINE COUNTY", "WI");
+    setupProtectedNames("SIX AND ONE HALF");
   }
   
   @Override
@@ -15,12 +16,20 @@ public class WIRacineCountyParser extends DispatchProphoenixParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BU", "BURLINGTON",
       "CA", "CALEDONIA",
+      "DO", "DOVER",
       "MP", "MOUNT PLEASENT",
+      "NW", "NORWAY",
       "RA", "RACINE",
+      "RY", "RAYMOND",
       "SO", "BURLINGTON",
       "SV", "STURTEVANT",
+      "TB", "BURLINGTON",
       "TW", "WATERFORD",
-      "VW", "WATERFORD"
+      "UG", "UNION GROVE",
+      "VR", "BURLINGTON",
+      "VW", "WATERFORD",
+      "YO", "YORKVILLE"
   });
 }
