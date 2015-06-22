@@ -19598,7 +19598,8 @@ choyvp pynff AWZbazbhguPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "4339        CNTRQ     11:14:26 11/09/14\a" +
         "4339        P         11:14:33 11/09/14",
 
-        "GLCR:EHA_ERCBEG");
+        "GLCR:EHA_ERCBEG",
+        "VASB:Vapvqrag #: 14Q43S239\a\a     PNQ Pnyy VQ #: 14-460481\a              Glcr: s\a         Qngr/Gvzr: 11:11:59 11/09/14\a\a           Nqqerff: 1099 BPRNA NIR; FGNGVBA 43-1\a           Pbagnpg:\a   Pbagnpg Nqqerff:\a     Pbagnpg Cubar: (   )   -\a\a            Angher: NQZA NFTAZAG\aAngher Qrfpevcgvba: NQZVAVFGENGVIR NFFVTAZRAG\a       Qrgrezvanag:\a  Qrgrezvanag Qrfp:\a       Pbzcynvanag:\a\aErprvivat naq Erfcbaqvat Havgf:\aVapvqrag  Erprvivat Havg    Erfcbaqvat Havgf\a---------------------------------------------------------------\a14Q43S239 C690C7 Xavtugba,\aEH: 4339\a\a\a======================================================================\aHavg EhaGvzrf:\aHavg        Fgnghf    Gvzr\a--------------------------------------------------------------------\a4339        CNTRQ     11:14:26 11/09/14\a4339        P         11:14:33 11/09/14");
 
     qbGrfg("G77",
         "(Pnyy Pbzcyrgr Abgvsvpngvba         Vapvqrag #: 14Q43S238)         Vapvqrag #: 14Q43S238\a\a" +
@@ -19637,7 +19638,8 @@ choyvp pynff AWZbazbhguPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S43N        CNTRQ     01:25:37 11/05/14\a" +
         "S43N        P         03:23:24 11/05/14",
 
-        "GLCR:EHA_ERCBEG");
+        "GLCR:EHA_ERCBEG",
+        "VASB:Vapvqrag #: 14Q43S238\a\a     PNQ Pnyy VQ #: 14-454016\a              Glcr: s\a         Qngr/Gvzr: 01:23:52 11/05/14\a\a           Nqqerff: BPRNA NIR / CRAVAFHYN\a           Pbagnpg: CQ 43\a   Pbagnpg Nqqerff:\a     Pbagnpg Cubar: (   )   -\a\a            Angher: SVER - BGURE\aAngher Qrfpevcgvba: SVER - NYY BGURE GLCRF\a       Qrgrezvanag:\a  Qrgrezvanag Qrfp:\a       Pbzcynvanag:\a\aErprvivat naq Erfcbaqvat Havgf:\aVapvqrag  Erprvivat Havg    Erfcbaqvat Havgf\a---------------------------------------------------------------\a14Q43S238 C69MV9 B'Qbaaryy,\aEH: Fgngvba 43-1,4339,4390,4377,4367\a\a\a======================================================================\aHavg EhaGvzrf:\aHavg        Fgnghf    Gvzr\a--------------------------------------------------------------------\a4339        RAEG      01:28:02 11/05/14\a4339        NEEIQ     01:29:10 11/05/14\a4339        P         03:23:24 11/05/14\a4367        NEEIQ     01:40:35 11/05/14\a4367        P         03:23:24 11/05/14\a4377        RAEG      01:33:17 11/05/14\a4377        NEEIQ     01:35:57 11/05/14\a4377        P         03:23:24 11/05/14\a4390        RAEG      01:33:13 11/05/14\a4390        NEEIQ     01:34:21 11/05/14\a4390        P         03:23:24 11/05/14\aS43N        CNTRQ     01:25:37 11/05/14\aS43N        P         03:23:24 11/05/14");
 
     qbGrfg("G78",
         "(ZPFB Cntr Abgvsvpngvba) Q43\aSVER - BGURE\aCNTRQ\aBPRNA NIR / CRAVAFHYN,43\aS431\aS43N\ajngre znva oernx erd sbe genssvp",

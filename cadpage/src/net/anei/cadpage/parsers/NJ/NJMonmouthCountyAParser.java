@@ -23,6 +23,7 @@ public class NJMonmouthCountyAParser extends DispatchA11Parser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (subject.startsWith("Call Complete Notification") || body.startsWith("Incident #: ")) {
+      setFieldList("CALL PLACE INFO");
       data.strCall = "RUN REPORT";
       data.strPlace = body;
       return true;
