@@ -17,7 +17,7 @@ public class DispatchA11Parser extends FieldProgramParser {
   
   public DispatchA11Parser(Properties cityCodes, String defCity, String defState) {
     super(defCity, defState,
-          "( SRC/Z UNIT/Z ID/Z PAGE_TIME | SRC CALL PAGED? ADDR UNIT UNIT! INFO+ )");
+          "( SRC/Z UNIT/Z ID/Z PAGE_TIME | SRC UNIT? CALL PAGED? ADDR UNIT/S UNIT/S? INFO/N+? ( ID X/Z? DATETIME | X DATETIME | DATETIME ) )");
     this.cityCodes = cityCodes;
   }
 
@@ -32,7 +32,9 @@ public class DispatchA11Parser extends FieldProgramParser {
     if (name.equals("SRC")) return new SourceField("[-A-Z0-9]+", true);
     if (name.equals("PAGED")) return new SkipField("PAGED|ASSGN", true);
     if (name.equals("ADDR")) return new BaseAddressField();
-    if (name.equals("UNIT")) return new BaseUnitField();
+    if (name.equals("UNIT")) return new UnitField("[-A-Z0-9]+", false);
+    if (name.equals("ID")) return new IdField("\\d{2}[A-Z]{3,4}\\d+");
+    if (name.equals("DATETIME")) return new BaseDateTimeField();
     return super.getField(name);
   }
   
@@ -82,15 +84,26 @@ public class DispatchA11Parser extends FieldProgramParser {
     }
   }
   
-  private class BaseUnitField extends UnitField {
-    public BaseUnitField() {
-      super("[-A-Z0-9]+", true);
+  private static final Pattern SLOPPY_DATE_TIME_PTN = Pattern.compile("[ /:0-9]+");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\d\\d/\\d\\d/\\d{4} +\\d\\d:\\d\\d");
+  private class BaseDateTimeField extends DateTimeField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!isLastField()) return false;
+      if (!SLOPPY_DATE_TIME_PTN.matcher(field).matches()) return false;
+      parse(field, data);
+      return true;
     }
     
     @Override
     public void parse(String field, Data data) {
-      if (!field.equals(data.strUnit)) {
-        data.strUnit = append(data.strUnit, " ", field);
+      if (DATE_TIME_PTN.matcher(field).matches()) {
+        super.parse(field, data);
       }
     }
   }
