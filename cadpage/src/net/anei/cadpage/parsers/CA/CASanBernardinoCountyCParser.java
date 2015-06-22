@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 /**
  * San Bernardino County, CA
@@ -12,12 +13,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class CASanBernardinoCountyCParser extends FieldProgramParser {
   
   private static final Pattern SUBJ_SRC_PTN = Pattern.compile("[A-Z]{3,4}");
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("CLOSE: *([^ ]+)\n.*", Pattern.DOTALL);
   private static final Pattern GPS_PTN = Pattern.compile("\\?q=(-?\\d+\\.\\d{6},-?\\d+.\\d{6})\\b");
   
   public CASanBernardinoCountyCParser() {
     super("SAN BERNARDINO COUNTY", "CA",
-           "CALL ADDRCITY! CROSS:X! RA:MAP! MAP:MAP! UNIT INFO!");
+          "( SELECT/RR CLOSE:UNIT! TIMES! Location:ADDRCITY " +
+          "| CALL ADDRCITY! CROSS:X! RA:MAP! MAP:MAP! UNIT INFO! )");
   }
   
   @Override
@@ -37,17 +38,17 @@ public class CASanBernardinoCountyCParser extends FieldProgramParser {
       data.strSource = subject;
     }
     
-    Matcher match = RUN_REPORT_PTN.matcher(body);
-    if (match.matches()) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
-      data.strUnit = match.group(1);
-      return true;
+    if (body.startsWith("CLOSE:")) {
+      data.msgType = MsgType.RUN_REPORT;
+      setSelectValue("RR");
+      return parseFields(body.split("\n"), data);
     }
+    
+    setSelectValue("");
     
     int pt = body.lastIndexOf(" <a");
     if (pt >= 0) {
-      match = GPS_PTN.matcher(body.substring(pt));
+      Matcher match = GPS_PTN.matcher(body.substring(pt));
       if (match.find()) {
         setGPSLoc(match.group(1), data);
       }
@@ -65,6 +66,7 @@ public class CASanBernardinoCountyCParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("TIMES")) return new MyTimesField();
     return super.getField(name);
   }
   
@@ -84,6 +86,14 @@ public class CASanBernardinoCountyCParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return super.getFieldNames() + " PLACE";
+    }
+  }
+  
+  private static final Pattern TIMES_BRK_PTN = Pattern.compile(" *; *");
+  private class MyTimesField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strSupp = TIMES_BRK_PTN.matcher(field).replaceAll("\n");
     }
   }
 }
