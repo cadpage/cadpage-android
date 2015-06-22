@@ -246,6 +246,7 @@ class Active911Vendor extends Vendor {
       "US/CO/CityofGolden",               "COGolden",
       "US/CO/CityofGrandJunction",        "COMesaCounty",
       "US/CO/CityofLoveland",             "COLarimerCountyA",
+      "US/CT/CityofMiddletown",           "CTMiddletown",
       "US/CO/ColoradoSprings",            "COElPasoCountyB",
       "US/CO/DeltaCountyAmbulance",       "CODeltaCounty",
       "US/CO/DouglasCounty",              "CODouglasCountyA",
