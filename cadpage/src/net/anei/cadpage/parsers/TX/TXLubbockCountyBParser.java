@@ -13,7 +13,7 @@ public class TXLubbockCountyBParser extends FieldProgramParser {
     
   public TXLubbockCountyBParser() {
     super("LUBBOCK COUNTY", "TX",
-          "ADDR CODE_CALL! CALL+? INFO+");
+          "ADDR CODE_CALL! CALL+? INFO+? ID");
   }
   
   @Override
@@ -33,6 +33,7 @@ public class TXLubbockCountyBParser extends FieldProgramParser {
     if (name.equals("CODE_CALL")) return new MyCodeCallField();
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("ID")) return new IdField("Run# *(\\d+)", true);
     return super.getField(name);
   }
   
