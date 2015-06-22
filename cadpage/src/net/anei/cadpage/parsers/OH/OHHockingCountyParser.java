@@ -16,12 +16,6 @@ public class OHHockingCountyParser extends DispatchA16Parser {
   public String getFilter() {
     return "hockingcounty911@gmail.com";
   }
-
-  @Override
-  public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Imc Solutions Page")) return false;
-    return super.parseMsg(body, data);
-  }
   
   @Override
   public String adjustMapCity(String city) {
