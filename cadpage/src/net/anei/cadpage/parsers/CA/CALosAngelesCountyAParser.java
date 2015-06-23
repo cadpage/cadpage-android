@@ -22,7 +22,7 @@ public class CALosAngelesCountyAParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "Verdugo@VerdugoFire.com";
+    return "Verdugo@VerdugoFire.com,ljensen034m@gmail.com,landon034@icloud.com";
   }
   
   @Override
@@ -113,12 +113,12 @@ public class CALosAngelesCountyAParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern CHANNEL_PTN = Pattern.compile("[A-Z]\\d{1,3}");
+  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]\\d{1,3}");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (CHANNEL_PTN.matcher(field).matches()) {
-        data.strChannel = append(data.strChannel, "/", field);
+      if (UNIT_PTN.matcher(field).matches()) {
+        data.strUnit = append(data.strChannel, "/", field);
       } else {
         data.strSupp = append(data.strSupp, "/", field);
       }
@@ -126,7 +126,7 @@ public class CALosAngelesCountyAParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "INFO CH";
+      return "INFO UNIT";
     }
   }
 

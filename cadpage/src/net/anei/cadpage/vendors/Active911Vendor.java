@@ -203,6 +203,7 @@ class Active911Vendor extends Vendor {
       "US/CA/CityofRocklin",              "CARocklin",
       "US/CA/CityofSLakeTahoe",           "CASouthLakeTahoe",
       "US/CA/CityofVacaville",            "CASolanoCountyB",
+      "US/CA/CityofVerdugo",              "CALosAngelesCountyA",
       "US/CA/ContraCostaCounty",          "CAContraCostaCounty",
       "US/CA/CSB",                        "CASanBernardinoCountyB",
       "US/CA/ElDoradoCounty",             "CAElDoradoCounty",
