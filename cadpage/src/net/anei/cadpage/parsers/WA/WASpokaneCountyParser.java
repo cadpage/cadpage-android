@@ -10,12 +10,17 @@ public class WASpokaneCountyParser extends FieldProgramParser {
 
   public WASpokaneCountyParser() {
     super("SPOKANE COUNTY", "WA", 
-          "CALL:CALL! PLACE:PLACE! ADDR:ADDR! CITY:CITY! ID:ID! PRI:PRI! DATE:DATE! TIME:TIME! TAC:CH? UNIT:UNIT! MAP:MAP? CROSS:X? INFO:INFO/N+");
+          "CALL:CALL! PLACE:PLACE! ADDR:ADDR! CITY:CITY! ID:ID! PRI:PRI! DATE:DATE! TIME:TIME! TAC:CH? UNIT:UNIT! MAP:MAP? CROSS:X? INFO:INFO/N+ LAT:GPS1 LON:GPS2");
   }
   
   @Override
   public String getFilter() {
     return "noreply@spokanecity.org";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
   }
 
   @Override

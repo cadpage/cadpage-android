@@ -14,7 +14,7 @@ public class ALMarshallCountyBParser extends DispatchGeoconxParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@911email.org";
+    return "@911email.org,@911email.net";
   }
 //    
 //  private static final String[] CITY_LIST = new String[]{
