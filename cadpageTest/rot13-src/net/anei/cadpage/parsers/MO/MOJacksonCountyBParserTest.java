@@ -113,12 +113,6 @@ Fraqre: "ZbovysbarGbgny Npprff" <gbgnynpprff@zbovysbargbgnynpprff.pbz>
 (Arj Zrffntr) 5420 Oyhr Evqtr Pgbs ,Oernguvat Ceboyrzf / SE-06SE ,XPS-N4BCF , Pnfr#ESCQ-50023, Erfcbafr/CPE #1504260222 , Nffvtarq:C5104/26/15 11:13:41
 (Arj Zrffntr) V 435 Ujl Fr / R Tertbel Oyiq ,Genssvp Nppvqrag / SE-29SE ,XPS-N4BCF , Pnfr#ESCQ-50023, Erfcbafr/CPE #1504260115 , Nffvtarq:C33,Z33,C52,P105
 
-Fb guvf vf jung V svtherq bhg...
-
-Gur yvarf fgnegvat jvgu ESCQ- ner eha ercbegf.  Gurer qbrf abg nccrne gb or nalguvat hfrshy jr pna cnefre sebz gurz.
-Sbe rirelguvat ryfr frdhrapr vf
-<nqqe> ,<pnyy> / <pbqr> ,<pu> , Pnfr#<fxvc>, Erfcbafr/CPE #<vq> , Nffvtarq:<havg>
-
 */
 
 choyvp pynff ZBWnpxfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
