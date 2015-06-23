@@ -20,7 +20,7 @@ public class NCTransylvaniaCountyParser extends DispatchSouthernParser {
   }
   
   private static final CodeSet CALL_LIST = new CodeSet(
-      "911 CALL I911, BUSY SIGNAL ON CALL BACK,",
+      "911 CALL",
       "ABDOMINAL PROBLEM",
       "ALARM DRILL/MAINTENANCE",
       "ALARM DUPLICATE",
@@ -134,6 +134,8 @@ public class NCTransylvaniaCountyParser extends DispatchSouthernParser {
       "MAINTENANCE DEPT CALL",
       "MENTAL SUBJECT",
       "MISSING PERSONS REPORT",
+      "MOTOR VEHICLE ACCIDENT / PI",
+      "MOTOR VEHICLE ACCIDENT / NO PI",
       "MOTOR VEHICLE ACCIDENT WITH INJURY",
       "MOTOR VEHICLE ACCIDENT WITHOUT INJURY",
       "MUTUAL AID (10-99)",
