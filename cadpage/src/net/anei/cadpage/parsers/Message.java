@@ -43,7 +43,8 @@ public class Message {
       }
     }
 
-    
+    // Pesky non-breaking blanks should be turned to real blanks
+    body = body.replace('\u00A0', ' ');
     if (! preParse) {
       this.parseAddress = fromAddress;
       this.parseSubject = subject;

@@ -17,7 +17,7 @@ public class FLBrowardCountyParser extends DispatchPrintrakParser {
   
   @Override
   public String getFilter() {
-    return "CAD@Sheriff.org";
+    return "CAD@Sheriff.org,CAD_Notify@regionalpsi.net";
   }
 
   @Override
