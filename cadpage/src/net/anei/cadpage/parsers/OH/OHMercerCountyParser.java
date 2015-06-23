@@ -8,6 +8,13 @@ public class OHMercerCountyParser extends DispatchEmergitechParser {
   
   public OHMercerCountyParser() {
     super(0, CITY_LIST, "MERCER COUNTY", "OH");
+    setupMultiWordStreets("MRCR V WRT CO LN");
+  }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = addr.replace("MRCR V WRT CO LN", "MERCER VANWERT COUNTY LINE");
+    return addr;
   }
   
   private static final String[] CITY_LIST = new String[]{
