@@ -1,17 +1,19 @@
 package net.anei.cadpage.parsers.VA;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class VAGloucesterCountyParser extends FieldProgramParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("Event Number: ([-0-9]+)\n.*\nArrival Date / Time: *\\d+.*", Pattern.DOTALL);
   public VAGloucesterCountyParser() {
     super(CITIES, "GLOUCESTER COUNTY", "VA", 
-        "Event_Number:ID! Category:CALL! Sub_Category:SKIP! Description:INFO! INFO+ Address:ADDR/S! ZIP? Opened_Date_/_Time:DATETIME!");
+        "Event_Number:ID! Category:CALL! Sub_Category:SKIP! Description:INFO! INFO+ Address:ADDR/S! ZIP? TIMES+");
     allowBadChars("()");  
   }
   
@@ -22,14 +24,6 @@ public class VAGloucesterCountyParser extends FieldProgramParser {
 
   @Override
   public boolean parseMsg(String head, String body, Data data) {
-    Matcher match = RUN_REPORT_PTN.matcher(body);
-    if (match.matches()) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
-      data.strCallId = match.group(1);
-      return true;
-    }
-      
     return parseFields(body.split("\n"), data);    
   }
   
@@ -37,6 +31,7 @@ public class VAGloucesterCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("ZIP")) return new MyZipField();
+    if (name.equals("TIMES")) return new MyTimesField();
     return super.getField(name);
   }
 
@@ -71,6 +66,31 @@ public class VAGloucesterCountyParser extends FieldProgramParser {
       if (data.strCity.length() == 0 && ZIP_PATTERN.matcher(field).matches()) {
         data.strCity = field;
       }
+    }
+  }
+  
+  private static final Pattern TIMES_PTN = Pattern.compile("(.*) Date / Time: +(\\d\\d?/\\d\\d?/\\d{4}) +(\\d\\d?:\\d\\d:\\d\\d [AP]M)");
+  private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
+  private class MyTimesField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = TIMES_PTN.matcher(field);
+      if (match.matches()) {
+        String type = match.group(1);
+        if (type.equals("Opened") || type.equals("Dispatch")) {
+          data.strDate = match.group(2);
+          setTime(TIME_FMT, match.group(3), data);
+        }
+        else if (type.equals("Arrival")) {
+          data.msgType = MsgType.RUN_REPORT;
+        }
+      }
+      data.strSupp = append(data.strSupp, "\n", field);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "DATE TIME INFO";
     }
   }
   
