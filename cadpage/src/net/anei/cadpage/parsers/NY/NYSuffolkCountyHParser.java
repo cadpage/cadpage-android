@@ -9,16 +9,29 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class NYSuffolkCountyHParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("(\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d) (.*?) (EH) (.*)");
+  private static final Pattern MASTER = Pattern.compile("(\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d) (.*?) (AM|EH) (.*)");
   
   public NYSuffolkCountyHParser() {
     super(CITY_LIST, "SUFFOLK COUNTY", "NY");
     setFieldList("DATE TIME CALL SRC ADDR APT CITY INFO");
+    setupSpecialStreets(
+        "BEACHWAY",
+        "CAPTAINS WALK",
+        "EDWARDS CLOSE",
+        "GLENWAY",
+        "GREENWAY",
+        "HIGHWOOD",
+        "QUALITY ROW",
+        "SHORIDGE",
+        "WATERS EDGE",
+        "WATERSEDGE", 
+        "WINDWARD"
+    );
   }
   
   @Override
   public String getFilter() {
-    return "communications@easthamptonvillageny.gov";
+    return "@easthamptonvillageny.gov";
   }
   
   @Override
