@@ -1,31 +1,59 @@
 package net.anei.cadpage.parsers.dispatch;
 
-import net.anei.cadpage.parsers.FieldProgramHtmlParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-public class DispatchSPKParser extends FieldProgramHtmlParser {
+import net.anei.cadpage.parsers.HtmlProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
+
+public class DispatchSPKParser extends HtmlProgramParser {
 
   public DispatchSPKParser(String defCity, String defState) {
     super(defCity, defState,
-         "ID DATETIME CALL ADDRCITY CITY X APT BLDG GPS PHONE NAME INFO UNIT",
-          LAYOUT);
-    translate(TRANS);
+         "CURDATETIME! INCIDENT_INFO! CAD_Incident:ID? Event_Code:CALL! Location:ADDRCITY! Intersection:SKIP? Community:CITY? L/L:GPS? ( Cross_Street:EMPTY! X+? | ) Apartment:APT? Building:BLDG? ( CALLER_INFO Caller_Source:SKIP? Caller_Phone:PHONE? Caller_Name:NAME? | ) INFO/N<+",
+         "table|tr");
   }
+  
+  private boolean dispatchTime;
+  private String times;
+  private Set<String> unitSet = new HashSet<String>();
+  
+  private enum InfoType { CAD_TIMES, REMARKS, UNIT_INFO, UNIT_STATUS };
+  private InfoType infoType;
+  private boolean firstCol;
+  
   
   @Override
-  public boolean parseMsg(String subject, String body, Data data) {
-    if (!getHtmlCleaner(body)) return false;
-    return parseFields(getValueArray(), data); 
+  protected boolean parseHtmlMsg(String subject, String body, Data data) {
+    
+    if (!subject.contains(" reaches status ") && 
+        !subject.contains(" gets ")) return false;
+    
+    dispatchTime = false;
+    times = null;
+    unitSet.clear();
+    infoType = null;
+    firstCol = false;
+    if (!super.parseHtmlMsg(subject, body, data)) return false;
+    if (data.msgType == MsgType.RUN_REPORT) data.strSupp = append(times, "\n", data.strSupp);
+    unitSet.clear();
+    return true;
   }
-  
+
   @Override
   public Field getField(String name) {
+    if (name.equals("CURDATETIME")) return new DateTimeField("As of (\\d\\d?/\\d\\d?/\\d\\d \\d\\d:\\d\\d:\\d\\d)", true);
+    if (name.equals("INCIDENT_INFO")) return new SkipField("Incident Information");
     if (name.equals("ID")) return new IdField("\\d{4}-\\d{8}|", true);
-    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d?/\\d\\d?/\\d\\d \\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("CITY")) return new BaseCityField();
     if (name.equals("X")) return new BaseCrossField();
     if (name.equals("BLDG")) return new BaseBuildingField();
+    if (name.equals("CALLER_INFO")) return new SkipField("Caller information", true);
+    if (name.equals("INFO")) return new BaseInfoField();
     return super.getField(name);
   }
   
@@ -55,9 +83,28 @@ public class DispatchSPKParser extends FieldProgramHtmlParser {
   }
   
   private class BaseCrossField extends CrossField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.contains(":")) return false;
+      if (field.equals("Caller information")) return false;
+      parse(field, data);
+      return true;
+    }
+    
     @Override
     public void parse(String field, Data data) {
-      if (field.contains("Building:")) return;
+      
+      // Cross streets tend to be duplicated a lot :(
+      if (field.length() == 0) return;
+      if (data.strAddress.contains("&")) return;
+      if (data.strAddress.contains(field)) return;
+      if (data.strCross.contains(field)) return;
       super.parse(field, data);
     }
   }
@@ -70,23 +117,118 @@ public class DispatchSPKParser extends FieldProgramHtmlParser {
     }
   }
   
-  private static final String[] LAYOUT = {
-    "ID(table=0; element=td; label=/CAD Incident : /; remove_label)",
-    "DATETIME(element=p; label=/As of /; remove_label)",
-    "CODE(table=0; element=td; label=/Event Code: /; remove_label; required)",
-    "LOCATION(table=0; element=td; label=/Location: /; remove_label; required)",
-    "COMMUNITY(table=0; element=td; label=/Community: /; remove_label)",
-    "CROSS_STREET(table=0; element=td; label=/Cross Street: /; offset=1-2; exclude=/Apartment: /; separator=/ & /)",
-    "APARTMENT(table=0; element=td; label=/Apartment: /; remove_label)",
-    "BUILDING(table=0; element=td; label=/Building: /; remove_label)",
-    "GPS(table=0; element=td; label=/L/L:/; remove_label)",
-    "PHONE(xpath=///h1[normalize-space(.)=\"Caller information\"]/following-sibling::table[1]/tbody/tr/td[contains(., \"Caller Phone:\")]/; xJava; remove=/Caller Phone:/)",
-    "NAME(xpath=///h1[normalize-space(.)=\"Caller information\"]/following-sibling::table[1]/tbody/tr/td[contains(., \"Caller Name:\")]/; xJava; remove=/Caller Name:/)",
-    "NARRATIVE(xpath=///h1[normalize-space(.)=\"Remarks/Narratives:\"]/following-sibling::table[1]/tbody/tr/td[2]/; xJava)",
-    "UNIT(xpath=///*[normalize-space(.)=\"Unit Information:\"]/following-sibling::table[1]/tbody/tr[position()>1]/td[1]/; xJava)"
-  };
-  
-  private static final String[] TRANS = {
-    "&amp;", "&"
-  };
+  private static final Pattern TIMES_PTN = Pattern.compile("Call (.*?) Time: +(\\d\\d?/\\d\\d?/\\d\\d) +(\\d\\d?:\\d\\d:\\d\\d)");
+  private static final Pattern INFO_TIME_PTN = Pattern.compile("(\\d\\d?/\\d\\d?/\\d\\d) +(\\d\\d?:\\d\\d:\\d\\d)");
+  private class BaseInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      // Special Html tag processing
+      if (field.startsWith("<|") && field.endsWith("|>")) {
+        if (field.equals("<|/table|>")) {
+          infoType = InfoType.REMARKS;
+        }
+        else if (field.equals("<|tr|>")) {
+          firstCol = true;
+        }
+        return;
+      }
+      
+      
+      if (field.equals("CAD Times") || field.equals("CAD Times:")) {
+        infoType = InfoType.CAD_TIMES;
+        if (times == null) times = field;
+        else times = times + '\n' + field;
+        return;
+      }
+      
+      if (field.equals("Remarks/Narratives:")) {
+        infoType = InfoType.REMARKS;
+        return;
+      }
+      
+      if (field.equals("Unit Information:")) {
+        infoType = InfoType.UNIT_INFO;
+        firstCol = false;
+        return;
+      }
+      
+      if (field.equals("Unit Status:")) {
+        infoType = InfoType.UNIT_STATUS;
+        if (times == null) times = field;
+        else times = times + '\n' + field;
+        firstCol = false;
+        return;
+      }
+      
+      if (infoType == null) return;
+      
+      switch (infoType) {
+      case CAD_TIMES:
+        Matcher match = TIMES_PTN.matcher(field);
+        if (match.matches()) {
+          String type = match.group(1);
+          if (!dispatchTime && type.equals("Dispatched")) {
+            dispatchTime = true;
+            data.strDate = match.group(2);
+            data.strTime = match.group(3);
+          } else if (type.equals("Ready For Dispatch") || 
+                     type.equals("Ready_for_dispatch") || 
+                     type.equals("On Scene") ||
+                     type.equals("Closed")) data.msgType = MsgType.RUN_REPORT;  
+        }
+        times = times + '\n' + field;
+        return;
+        
+      case REMARKS:
+        if (INFO_TIME_PTN.matcher(field).matches()) return;
+        if (field.startsWith("Responding Units:")) {
+          for (String unit : field.substring(17).split(",")) {
+            addUnit(unit.trim(), data);
+          }
+        } else {
+          super.parse(field, data);
+        }
+        return;
+        
+      case UNIT_INFO:
+        if (!firstCol) return;
+        firstCol = false;
+        if (!field.equals("Unit")) addUnit(field, data);
+        return;
+        
+      case UNIT_STATUS:
+        if (field.equals("Date/Time")) return;
+        if (field.equals("Unit")) return;
+        if (field.equals("Status")) return;
+        if (field.equals("Unit Location/Remarks")) return;
+        String delim = firstCol ? "\n" : "   ";
+        firstCol = false;
+        times = times + delim + field;
+        
+        if (!dispatchTime && field.equals("Dispatched")) {
+          match = INFO_TIME_PTN.matcher(getRelativeField(-2));
+          if (match.matches()) {
+            dispatchTime = true;
+            data.strDate = match.group(1);
+            data.strTime = match.group(2);
+          }
+        }
+        
+        if (field.equals("On Scene") || 
+            field.equals("Available")) data.msgType = MsgType.RUN_REPORT;
+        return;
+      }
+    }
+    
+    private void addUnit(String unit, Data data) {
+      unit = unit.replace(' ', '_');
+      if (unitSet.add(unit)) data.strUnit = append(data.strUnit, ",", unit);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "DATE TIME INFO UNIT";
+    }
+  }
 }

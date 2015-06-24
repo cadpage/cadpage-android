@@ -174,7 +174,7 @@ choyvp pynff BEWbfrcuvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:01/05/2013",
         "GVZR:21:17:02",
         "VQ:208791",
-        "HAVG:7307, 7309, 7328, SN1, 7501, 7553, 161, 7531, 7353",
+        "HAVG:7307, 7309, 7328, SN1, 7501, 7553, 161, 7531, 7353",
         "VASB:NHQVOYR 2 UVGF HCFGNVEF ZBGVBA EC CRAQVAT *EC OHQ UBCFB..");
 
     qbGrfg("G3",

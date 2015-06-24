@@ -2,8 +2,10 @@ package net.anei.cadpage.parsers;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 
 /**
@@ -25,14 +27,19 @@ public class HtmlDecoder {
   // Tag should generate a line break
   private static final int HTML_FLAG_LINE_BREAK = 0x0004;
   
+  private static final int HTML_FLAG_USER_BREAK = 0x0008;
+  
   
   private static final char EOL = (char)-1;
-  
   
   // Primary map that tells us how to process HTML tags
   private Map<String, Integer> tagDictionary = new HashMap<String,Integer>();
   
   public HtmlDecoder() {
+    this(null);
+  }
+  
+  public HtmlDecoder(String userTags) {
     setTagFlags(HTML_FLAG_SKIP_DATA, "head", "style");
     setTagFlags(HTML_FLAG_LINE_BREAK, "br");
     setTagFlags(HTML_FLAG_FIELD_BREAK, 
@@ -40,6 +47,9 @@ public class HtmlDecoder {
         "h1", "h2", "h3", "h4", "H5", "h6",
         "li", "p", "pre", "section", 
         "table", "tbody", "td", "th", "thead", "tr", "ul");
+    if (userTags != null) {
+      setTagFlags(HTML_FLAG_USER_BREAK | HTML_FLAG_FIELD_BREAK, userTags.split("\\|"));
+    }
   }
   
   
@@ -56,6 +66,7 @@ public class HtmlDecoder {
   private StringBuilder curField;
   private boolean space;
   private boolean lineBreak;
+  private Set<String> userTagSet;
   
   /**
    * Main parsing method
@@ -76,7 +87,8 @@ public class HtmlDecoder {
       // For this purpose we do not care whether it is a start tag,
       // end tag, or self completing tag.  If not flags are found
       // ignore it and skip to next tag
-      Integer iFlags = tagDictionary.get(tag.replace("/", ""));
+      String tag2 = tag.replace("/", "");
+      Integer iFlags = tagDictionary.get(tag2);
       if (iFlags == null) continue;
       int tagFlags = iFlags;
       
@@ -95,6 +107,10 @@ public class HtmlDecoder {
       // Field break flag tells us to move the current data into a new field
       if ((tagFlags & HTML_FLAG_FIELD_BREAK) != 0) {
         addCurField();
+        if ((tagFlags & HTML_FLAG_USER_BREAK) != 0) {
+          if (userTagSet == null) userTagSet = new LinkedHashSet<String>();
+          userTagSet.add(tag);
+        }
       }
       
       // Line break flags tells us to request a line break be inserted in curField
@@ -124,6 +140,7 @@ public class HtmlDecoder {
     curField = new StringBuilder();
     space = false;
     lineBreak = false;
+    userTagSet = null;
   }
   
   /**
@@ -162,6 +179,12 @@ public class HtmlDecoder {
       
       // Otherwise, append to current field, possibly with a leading space
       else if (!skipData) {
+        if (userTagSet != null) {
+          for (String tag : userTagSet) {
+            fieldList.add("<|" + tag + "|>");
+          }
+          userTagSet = null;
+        }
         if (lineBreak) curField.append('\n');
         else if (space) curField.append(' ');
         curField.append((char)chr);
@@ -193,6 +216,7 @@ public class HtmlDecoder {
    */
   private char getHtmlEscape() {
     char code;
+    int savePos = pos;
     String token = getUntil(';');
     if (token.startsWith("#")) {
       token = token.substring(1);
@@ -203,12 +227,18 @@ public class HtmlDecoder {
           code = (char)Integer.parseInt(token);
         }
       } catch (NumberFormatException ex) {
-        code = 'Δ';
+        code = '&';
+        pos = savePos;
       }
     }
     else {
       Character res = ESCAPE_CODES.get(token);
-      code = (res == null ? 'Δ' : res);
+      if (res != null) {
+        code = res;
+      } else {
+        code = '&';
+        pos = savePos;
+      }
     }
     
     return code;

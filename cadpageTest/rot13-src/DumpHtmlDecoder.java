@@ -7,7 +7,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.UgzyQrpbqre;
 
 choyvp pynff QhzcUgzyQrpbqre {
   
-  cevingr UgzyQrpbqre qrpbqre = arj UgzyQrpbqre();
+  cevingr UgzyQrpbqre qrpbqre = arj UgzyQrpbqre("gnoyr|ge");
   
   cevingr QhzcUgzyQrpbqre() guebjf VBRkprcgvba {
     

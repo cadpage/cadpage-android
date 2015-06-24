@@ -20,14 +20,19 @@ public class SCPickensCountyParser extends DispatchSPKParser {
   }
 
   @Override
-  public boolean parseMsg(String subject, String body, Data data) {
-    if (!super.parseMsg(subject, body, data)) return false;
+  public boolean parseHtmlMsg(String subject, String body, Data data) {
+    if (!super.parseHtmlMsg(subject, body, data)) return false;
     Matcher match = BETWEEN_PTN.matcher(data.strAddress);
     if (match.matches()) {
       data.strAddress = match.group(1).trim();
       data.strCross = match.group(2).trim() + " / " + match.group(3).trim();
     }
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("ADDR", "ADDR X"); 
   }
   
 }

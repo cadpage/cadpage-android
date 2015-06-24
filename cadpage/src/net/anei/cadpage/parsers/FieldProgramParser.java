@@ -865,6 +865,7 @@ public class FieldProgramParser extends SmartAddressParser {
     EReqStatus required = EReqStatus.NORMAL;
     boolean repeat = false;
     boolean optional = false;
+    boolean htmlTag = false;
     boolean branch = false;
     boolean emptyTag = false;
     char trigger = 0;
@@ -912,6 +913,13 @@ public class FieldProgramParser extends SmartAddressParser {
       // Check for Required [!] indicator
       if (chr == '!' || chr == '%') {
         required = (chr == '!' ? EReqStatus.REQUIRED : EReqStatus.EXPECTED);
+        if (pt >= len) return;
+        chr = fieldTerm.charAt(pt++);
+      }
+      
+      // Check for Html tag < indicator
+      if (chr == '<') {
+        htmlTag = true;
         if (pt >= len) return;
         chr = fieldTerm.charAt(pt++);
       }
@@ -1149,6 +1157,7 @@ public class FieldProgramParser extends SmartAddressParser {
     private EReqStatus required;
     private boolean optional;
     private boolean emptyTag;
+    private boolean htmlTag;
     
     private Field field;
     private StepLink succLink = new StepLink(0);
@@ -1171,6 +1180,7 @@ public class FieldProgramParser extends SmartAddressParser {
       this.name = info.name;
       this.qual = info.qual;
       this.trigger = info.trigger;
+      this.htmlTag = info.htmlTag;
       field = null;
       if (name != null){ 
         field = getField(name);
@@ -1198,6 +1208,7 @@ public class FieldProgramParser extends SmartAddressParser {
       this.required = null;
       this.optional = false;
       this.emptyTag = false;
+      this.htmlTag = false;
     }
 
     // integer code used to mark steps that have been processed during a full step scan
@@ -1292,6 +1303,7 @@ public class FieldProgramParser extends SmartAddressParser {
       newStep.required = required;
       newStep.optional = optional;
       newStep.nextStepLink = nextStepLink;
+      newStep.htmlTag = htmlTag;
       return newStep;
     }
 
@@ -1435,6 +1447,18 @@ public class FieldProgramParser extends SmartAddressParser {
 
       int ndx = state.getIndex();
       Step lastStep = state.getLastStep();
+      
+      // If this is a field processing step that is not interested in html tags, skip over any in the
+      // data stream.  Non-field processing steps have to be left alone because
+      // they may be intermediate steps handing control to another step and we
+      // do not want to confuse the final field that step is supposed to get.
+      if (field != null && !htmlTag) {
+        while (ndx < flds.length) {
+          String fld = flds[ndx];
+          if (!fld.startsWith("<|") || !fld.endsWith("|>")) break;
+          ndx++;
+        }
+      }
       
       // Save the processed field index
       fieldIndex = ndx;

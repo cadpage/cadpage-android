@@ -14,8 +14,8 @@ public class MOBarryCountyCParser extends DispatchSPKParser {
   }
 
   @Override
-  public boolean parseMsg(String subject, String body, Data data) {
-    if (!super.parseMsg(subject, body, data)) return false;
+  public boolean parseHtmlMsg(String subject, String body, Data data) {
+    if (!super.parseHtmlMsg(subject, body, data)) return false;
     if (data.strCity.equalsIgnoreCase("COUNTY")) data.strCity = "";
     return true;
   }

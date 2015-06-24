@@ -9,6 +9,16 @@ public class INShelbyCountyParser extends DispatchSPKParser {
   public INShelbyCountyParser() {
     super("SHELBY COUNTY", "IN");
   }
+  
+  @Override
+  public String getFilter() {
+    return "ShelbyCoCAD@in.gov";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
 
   private static final Pattern SHELBY_STATE_RD_PATTERN
     = Pattern.compile("(?i)(.*?)SHELBY +STATE +RD +44(.*)");
@@ -18,10 +28,5 @@ public class INShelbyCountyParser extends DispatchSPKParser {
     if (m.matches())
       return m.group(1)+"STATE 44"+m.group(2);
     return addr;
-  }
-  
-  @Override
-  public String getFilter() {
-    return "ShelbyCoCAD@in.gov";
   }
 }
