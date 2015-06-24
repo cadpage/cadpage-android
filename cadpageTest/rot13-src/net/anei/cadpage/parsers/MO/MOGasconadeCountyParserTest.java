@@ -118,7 +118,7 @@ Fraqre: <prageny@svqznvy.pbz>
 choyvp pynff ZBTnfpbanqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZBTnfpbanqrPbhaglCnefreGrfg() {
-    frgCnefre(arj ZBTnfpbanqrPbhaglCnefre(), "", "ZB");
+    frgCnefre(arj ZBTnfpbanqrPbhaglCnefre(), "TNFPBANQR PBHAGL", "ZB");
   }
   
   @Grfg

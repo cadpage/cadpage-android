@@ -13,7 +13,7 @@ public class MOGasconadeCountyParser extends DispatchGlobalDispatchParser {
   private static final Pattern UNIT_PTN = Pattern.compile("(?:[GOMB]|MT)?\\d{2,3}");
   
   public MOGasconadeCountyParser() {
-    super(CITY_TABLE, "", "MO", LEAD_SRC_UNIT_ADDR | PLACE_FOLLOWS_CALL, null, UNIT_PTN);
+    super(CITY_TABLE, "GASCONADE COUNTY", "MO", LEAD_SRC_UNIT_ADDR | PLACE_FOLLOWS_CALL, null, UNIT_PTN);
     setupCallList(CALL_LIST);
     setupMultiWordStreets(
         "MARIES COUNTY",
