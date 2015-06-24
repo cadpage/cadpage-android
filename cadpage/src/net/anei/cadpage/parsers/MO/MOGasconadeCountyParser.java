@@ -27,7 +27,7 @@ public class MOGasconadeCountyParser extends DispatchGlobalDispatchParser {
   
   @Override
   public String getFilter() {
-    return "central@fidmail.com";
+    return "central@fidmail.com,gc911text@gmail.com";
   }
   
   @Override
