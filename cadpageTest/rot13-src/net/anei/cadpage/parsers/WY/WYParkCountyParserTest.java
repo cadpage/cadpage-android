@@ -100,7 +100,7 @@ choyvp pynff JLCnexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G5",
         "(Qvfcngpurq Pnyy (CSQ-12N)) 1025 EBNQ 8 1/2, Cbjryy, JL *  * FLQAVR YA/YNAR 11 *  * SVER * 55099 * #01505230019 * yvar qbja va qevirjnl-fcnxvat",
         "HAVG:CSQ-12N",
-        "NQQE:1025 EBNQ 8 1/2",
+        "NQQE:1025 EBNQ 8 1/2", //qbrf abg znc
         "PVGL:Cbjryy",
         "K:FLQAVR YA/YNAR 11",
         "PBQR:SVER",

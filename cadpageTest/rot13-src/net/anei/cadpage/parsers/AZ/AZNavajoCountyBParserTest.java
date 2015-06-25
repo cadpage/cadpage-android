@@ -170,13 +170,13 @@ choyvp pynff NMAninwbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "(Qvfcngpurq Pnyy ()) RO 260/ZC 315 *  *  *  * 962 *  * APFB BA FPRAR/ZVABE VAWHEVRF/QCF RAEBHGR",
         "NQQE:RO 260 & ZC 315",
-        "ZNQQE:260 & ZC 315",
+        "ZNQQE:260 & ZC 315", //qbrf abg znc
         "PBQR:962",
         "PNYY:APFB BA FPRAR/ZVABE VAWHEVRF/QCF RAEBHGR");
 
     qbGrfg("G2",
         "(Qvfcngpurq Pnyy ()) 2246 ORNE PYNJ QE *  *  *  * UNM FVG *  * ARVTUOBEF GERR SRYY BA N CBJRE YVAR NAQ VF FZBHYQREVAT//YBBX SBE N SBERFG FREIVPR IRU BA FPRAR //APFB RAEBHGR",
-        "NQQE:2246 ORNE PYNJ QE",
+        "NQQE:2246 ORNE PYNJ QE", //qbrf abg znc j/ aninwb pbhagl.. fnlf vg vf va pbpbavab pbhagl
         "PBQR:UNM FVG",
         "PNYY:ARVTUOBEF GERR SRYY BA N CBJRE YVAR NAQ VF FZBHYQREVAT//YBBX SBE N SBERFG FREIVPR IRU BA FPRAR //APFB RAEBHGR");
 
@@ -247,7 +247,7 @@ choyvp pynff NMAninwbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G13",
         "(Qvfcngpurq Pnyy ()) 260/URNQRQ VAGB URORE *  *  *  * 964 *  * WHFG BHG FVQR BS URORE BA FUBJ YBJ FVQR FCRRQ PUNATRF SEBZ 65-55, APFB BA FPRAR AB VAWHEVRF UBJRIRE BPPHCNAG VF FGHPX VA GUR IRU",
-        "NQQE:260 & URNQRQ VAGB URORE",
+        "NQQE:260 & URNQRQ VAGB URORE", //qbrf abg znc
         "PBQR:964",
         "PNYY:WHFG BHG FVQR BS URORE BA FUBJ YBJ FVQR FCRRQ PUNATRF SEBZ 65-55",
         "VASB:APFB BA FPRAR AB VAWHEVRF UBJRIRE BPPHCNAG VF FGHPX VA GUR IRU");
@@ -306,7 +306,7 @@ choyvp pynff NMAninwbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G22",
         "(Qvfcngpurq Pnyy ()) ZVQGBJA PX/ 260 *  *  *  * YBPXBHG *  * YBPX BHG",
-        "NQQE:ZVQGBJA PX & 260",
+        "NQQE:ZVQGBJA PX & 260", //qbrf abg znc
         "PBQR:YBPXBHG",
         "PNYY:YBPX BHG");
 
@@ -319,7 +319,7 @@ choyvp pynff NMAninwbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G24",
         "(Qvfcngpurq Pnyy ()) BIRETNNEQ EI ERFBEG/ LNGRF EQ *  *  * 47 * NFYG *  * QRCHGL BAFPRAR/ QRYNLRQ OL 7 UBHEF/ NFFNHYG IVPGVZ/ HAXABJA VAWHEVRF",
-        "NQQE:BIRETNNEQ EI ERFBEG & LNGRF EQ",
+        "NQQE:BIRETNNEQ EI ERFBEG & LNGRF EQ", //qbrf abg znc
         "NCG:47",
         "PBQR:NFYG",
         "PNYY:QRCHGL BAFPRAR/ QRYNLRQ OL 7 UBHEF/ NFFNHYG IVPGVZ/ HAXABJA VAWHEVRF");
