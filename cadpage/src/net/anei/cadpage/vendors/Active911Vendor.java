@@ -625,6 +625,7 @@ class Active911Vendor extends Vendor {
       "US/NY/BCFA",                       "NYSuffolkCountyB",
       "US/NY/CayugaCounty",               "NYCayugaCounty",
       "US/NY/CentralIslip",               "NYSuffolkCountyK",
+      "US/NY/ChenangoCounty",             "NYChenangoCounty",
       "US/NY/ChiliFD",                    "NYMonroeCounty",
       "US/NY/CityofBethlehem",            "NYBethlehem",
       "US/NY/CityofColden",               "NYErieCountyRedAlert",
