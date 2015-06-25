@@ -85,7 +85,7 @@ choyvp pynff VYEnaqbycuPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "FGNGR EG 159 2 ZVYRF A BS ERQ OHQ***SVER***ERQ OHQ***//***JUVGR GNAX VA N SVRYQ FZBXR PBZVAT BHG BS VG",
         "NQQE:FGNGR EG 159 2 ZVYRF A BS ERQ OHQ",
-        "ZNQQE:FGNGR 159 2 ZVYRF & ERQ OHQ",
+        "ZNQQE:FGNGR 159 2 ZVYRF & ERQ OHQ", //qbrf abg znc
         "PVGL:ERQ OHQ",
         "PNYY:SVER",
         "VASB:JUVGR GNAX VA N SVRYQ FZBXR PBZVAT BHG BS VG");
@@ -332,13 +332,13 @@ choyvp pynff VYEnaqbycuPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G11",
         "EG 3/GEBFG CYNFGVPF***NHGB NPPVQRAG J/VAWHEVRF***JNGREYBB***//***",
-        "NQQE:EG 3 & GEBFG CYNFGVPF",
+        "NQQE:EG 3 & GEBFG CYNFGVPF", //qbrf abg znc
         "PVGL:JNGREYBB",
         "PNYY:NHGB NPPVQRAG J/VAWHEVRF");
 
     qbGrfg("G12",
         "623 UNZNPURE FG, JNGREYBB***SVER NYNEZ***JNGREYBB***//***TRARENY SVER NYNEZ",
-        "NQQE:623 UNZNPURE FG",
+        "NQQE:623 UNZNPURE FG", //qbrf abg znc
         "PVGL:JNGREYBB",
         "PNYY:SVER NYNEZ",
         "VASB:TRARENY SVER NYNEZ");
@@ -346,13 +346,13 @@ choyvp pynff VYEnaqbycuPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G13",
         "VYYVABVF NI/A VYYVABVF EBHGR 3, JNGREYBB***SVER***JNGREYBB***//***",
         "NQQE:VYYVABVF NI & A VYYVABVF EBHGR 3",
-        "ZNQQE:VYYVABVF NIR & A VYYVABVF EBHGR 3",
+        "ZNQQE:VYYVABVF NIR & A VYYVABVF EBHGR 3", //qbrf abg znc
         "PVGL:JNGREYBB",
         "PNYY:SVER");
 
     qbGrfg("G14",
         "3001 PRQNE EVQTR YA, JNGREYBB***BGURE NAVZNY***JNGREYBB***QRRECNGU QE//QRNQ RAQ***",
-        "NQQE:3001 PRQNE EVQTR YA",
+        "NQQE:3001 PRQNE EVQTR YA", //qbrf abg znc
         "PVGL:JNGREYBB",
         "PNYY:BGURE NAVZNY",
         "K:QRRECNGU QE/QRNQ RAQ");

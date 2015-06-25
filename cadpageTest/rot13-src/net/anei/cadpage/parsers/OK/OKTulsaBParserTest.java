@@ -118,7 +118,7 @@ Fraqre: snk@pbaarpgvbafbx.pbz
 choyvp pynff BXGhyfnOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp BXGhyfnOCnefreGrfg() {
-    frgCnefre(arj BXGhyfnOCnefre(), "GHYFN", "BX");
+    frgCnefre(arj BXGhyfnOCnefre(), "", "BX");
   }
 
   @Grfg
@@ -209,8 +209,8 @@ choyvp pynff BXGhyfnOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:9185969222",
         "PNYY:ZRQVPNY",
         "CYNPR:FNEN NG RZFN",
-        "NQQE:1706 R 75GU A",
-        "PVGL:GHEYRL",
+        "NQQE:1706 R 75GU A", 
+        "PVGL:GHEYRL", //qbrf abg znc
         "VASB:62 LE BYQ SRZNYR PNA ABG / FGBC IBZVGGVAT",
         "CUBAR:918-596-9222");
 
@@ -230,7 +230,7 @@ choyvp pynff BXGhyfnOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:06/13/2015",
         "GVZR:19:17:00",
         "VQ:9185969222",
-        "NQQE:6118 A MHARF",
+        "NQQE:6118 A MHARF", //qbrf abg znc
         "PVGL:GHEYRL",
         "VASB:PNAPRY PNYY");
 
@@ -565,8 +565,8 @@ choyvp pynff BXGhyfnOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:08:25:00",
         "VQ:9185969222",
         "CYNPR:RZFN",
-        "NQQE:5942 A ZNQVFBA NIR",
-        "PVGL:GHEYRL",
+        "NQQE:5942 A ZNQVFBA NIR", 
+        "PVGL:GHEYRL", 
         "VASB:59 LRNE BYQ ZNYR- PURFG / CNVA & FUBEGARFF BS OERNGU",
         "CUBAR:918-596-9222");
 

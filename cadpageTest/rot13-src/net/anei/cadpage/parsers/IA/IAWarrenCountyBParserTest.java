@@ -321,7 +321,7 @@ choyvp pynff VNJneeraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PNEOBA ZBABKVQR NYNEZ",
         "NQQE:4847 YNXRJBBQ QE",
         "PVGL:ABEJNYX",
-        "K:BYQ BEPUNEQ QE & PNAQYRJVPX QE",
+        "K:BYQ BEPUNEQ QE & PNAQYRJVPX QE", 
         "ZNC:IS4294");
 
     qbGrfg("G18",

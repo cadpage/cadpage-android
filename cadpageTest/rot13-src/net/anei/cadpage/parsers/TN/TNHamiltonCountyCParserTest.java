@@ -220,7 +220,7 @@ choyvp pynff GAUnzvygbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "CYNPR:CBPXRG JVYQREARFF",
         "NQQE:354 ZBAGYNXR EQ",
-        "PVGL:UNZVYGBA PBHAGL",
+        "PVGL:UNZVYGBA PBHAGL", //v qbag xabj vs lbh jnag gb qb nalguvat nobhg guvf, gurl nyy unir gur pbhagl urer.
         "PNYY:GENHZN-GENHZNGVP VAWHEL",
         "ZNC:Zbjoenl Zbhagnva SQ",
         "CEV:1",

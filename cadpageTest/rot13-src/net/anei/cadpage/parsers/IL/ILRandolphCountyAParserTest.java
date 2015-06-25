@@ -1136,7 +1136,7 @@ choyvp pynff VYEnaqbycuPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver",
         "VQ:2015-000491",
         "CYNPR:Jnfuvatgba Pbhagl - Bnxqnyr Pbhagel Xvgpura",
-        "NQQE:17 J Znva Fg",
+        "NQQE:17 J Znva Fg", //qbrf abg znc
         "PVGL:Bnxqnyr",
         "FG:VY",
         "ANZR:Jnfuvatgba Pbh",
