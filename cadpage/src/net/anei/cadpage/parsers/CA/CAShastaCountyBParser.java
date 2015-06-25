@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.CA;
 
 import java.util.Properties;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchArchonixParser;
 
 
@@ -14,6 +15,12 @@ public class CAShastaCountyBParser extends DispatchArchonixParser {
     super(CITY_CODES, "SHASTA COUNTY", "CA");
   }
   
+  @Override
+  public boolean parseMsg(String subject, String body, Data data) {
+    body = body.replace("CN#:", "MI#:");
+    return super.parseMsg(subject, body, data);
+  }
+
   @Override
   public String getFilter() {
     return "cccademail@shascom911.com";

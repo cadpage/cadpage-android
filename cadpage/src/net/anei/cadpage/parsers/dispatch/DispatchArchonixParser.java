@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 /*
  * Base parser for Archonix software out of Mariton, NJ
@@ -15,8 +16,6 @@ public class DispatchArchonixParser extends FieldProgramParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("(?:Dispatch|Free) (.*)"); 
   private static final Pattern SUBJECT3_PTN = Pattern.compile("Sta +(.+)");
-  private static final Pattern REPORT_ID_PTN = Pattern.compile("\nMI#:(\\d+) *\n");
-  private static final Pattern REPORT_UNIT_PTN = Pattern.compile("\nRES:(.*)$");
   private static final Pattern SINGLE_LINE_BRK = Pattern.compile("(?<!\n)\n(?!\n)");
   
   private Properties cityCodes;
@@ -28,7 +27,8 @@ public class DispatchArchonixParser extends FieldProgramParser {
 
   public DispatchArchonixParser(Properties cityCodes, Properties maCityCodes, String defCity, String defState) {
     super(defCity, defState,
-          "CALL ADDRCITY/aSXP! #:APT X:X! BOX:BOX? ZN:MAP? CP:PLACE UNIT Time:DATETIME? MI#:ID Lat/Lon:GPS? RES#:UNIT");
+          "( ADDRCITY/ZaSXP! MI#:ID! TIMES! TIMES+? RES#:UNIT " +
+          "| CALL ADDRCITY/aSXP! #:APT X:X! BOX:BOX? ZN:MAP? CP:PLACE UNIT Time:DATETIME? MI#:ID Lat/Lon:GPS? RES#:UNIT )");
     this.cityCodes = cityCodes;
     this.maCityCodes = maCityCodes;
   }
@@ -42,18 +42,6 @@ public class DispatchArchonixParser extends FieldProgramParser {
     } 
     else if ((match = SUBJECT3_PTN.matcher(subject)).matches()){
       data.strSource = match.group(1).trim();
-    }
-    
-    if (body.contains("\nDisp:")) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
-      match = REPORT_ID_PTN.matcher(body);
-      if (match.find()) data.strCallId = match.group(1);
-      if (data.strUnit.length() == 0) {
-        match = REPORT_UNIT_PTN.matcher(body);
-        if (match.find()) data.strUnit = match.group(1).trim();
-      }
-      return true;
     }
     
     // Search and destroy code messaging double line breaks
@@ -112,6 +100,7 @@ public class DispatchArchonixParser extends FieldProgramParser {
     if (name.equals("PLACE")) return new BasePlaceDateTimeField(true);
     if (name.equals("DATETIME")) return new BasePlaceDateTimeField(false);
     if (name.equals("ID")) return new BaseIdField();
+    if (name.equals("TIMES")) return new BaseTimesField();
     if (name.equals("GPS")) return new BaseGPSField();
     return super.getField(name);
   }
@@ -202,6 +191,36 @@ public class DispatchArchonixParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "PLACE DATE TIME";
+    }
+  }
+  
+  private static final Pattern DISP_TIME_PTN = Pattern.compile("Disp:(\\d\\d?:\\d\\d:\\d\\d)");
+  protected class BaseTimesField extends InfoField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.startsWith("RES#:") || field.startsWith("Lat/Lon:")) return false;
+      parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      data.msgType = MsgType.RUN_REPORT;
+      if (data.strTime.length() == 0) {
+        Matcher match = DISP_TIME_PTN.matcher(field);
+        if (match.matches()) data.strTime = match.group(1);
+      }
+      data.strSupp = append(data.strSupp, "\n", field);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "TIME INFO";
     }
   }
   
