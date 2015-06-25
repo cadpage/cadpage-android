@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -14,8 +17,8 @@ public class NCSurryCountyParser extends SmartAddressParser {
   private static final Pattern MASTER = Pattern.compile("SC911::?(?:Call #|=)(\\d{6,}-\\d{4}) \\[(?:Address|Location)\\] (.*?) \\[X St\\] (.*?) \\[Type\\] (.*)");
   
   public NCSurryCountyParser() {
-    super(CITY_LIST, "SURRY COUNTY", "NC");
-    setFieldList("ID ADDR APT CITY X CALL");
+    super("SURRY COUNTY", "NC");
+    setFieldList("ID ADDR APT CITY ST X CALL");
   }
   
   @Override
@@ -29,19 +32,21 @@ public class NCSurryCountyParser extends SmartAddressParser {
     if (!match.matches()) return false;
     data.strCallId = match.group(1);
     String addr = match.group(2).replace("//", "&").trim();
-    String state = null;
-    int pt = addr.lastIndexOf(',');
-    if (pt >= 0) {
-      state = addr.substring(pt+1).trim();
-      addr = addr.substring(0,pt).trim();
+    Parser p = new Parser(addr);
+    
+    // State is always NC, even when location is in VA
+    String state = p.getLastOptional(',');
+    if (!state.equals("NC")) data.strState = state;
+    
+    data.strCity = p.getLastOptional("  ");
+    parseAddress(p.get(), data);
+    if (data.strCity.equalsIgnoreCase("CLAUDEVILLE")) data.strCity = "CLAUDVILLE";
+    if (data.strCity.endsWith(" CCOUNTY")) {
+      data.strCity = data.strCity.substring(0,data.strCity.length()-7) + "COUNTY";
     }
-    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, addr, data);
-    if (state != null) {
-      if (state.length() == 2) {
-        if (!state.equals(data.defState)) data.strState = state; 
-      } else if (data.strCity.length() == 0) {
-        data.strCity = state;
-      }
+    
+    if (data.strState.length() == 0 && VA_CITY_LIST.contains(data.strCity)) {
+      data.strState = "VA";
     }
     
     data.strCross = match.group(3).trim().replace(" TO ", " & ");
@@ -53,11 +58,8 @@ public class NCSurryCountyParser extends SmartAddressParser {
     return true;
   }
   
-  private static final String[] CITY_LIST = new String[]{
-    "DOBSON",
-    "ELKIN",
-    "MOUNT AIRY",
-    "PILOT MOUNTAIN",
-    "SURRY COUNTY"
-  };
+  private static final Set<String> VA_CITY_LIST = new HashSet<String>(Arrays.asList(new String[]{
+      "PATRICK COUNTY",
+      "CLAUDVILLE"
+  }));
 }
