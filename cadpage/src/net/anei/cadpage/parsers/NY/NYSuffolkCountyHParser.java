@@ -65,6 +65,7 @@ public class NYSuffolkCountyHParser extends SmartAddressParser {
     "AMAGANSETT",
     "EAST HAMPTON",
     "BARNES LANDING BERGER",
+    "NAPEAGUE",
     "SPRINGS AMAM"
   };
 }
