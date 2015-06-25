@@ -592,6 +592,7 @@ class Active911Vendor extends Vendor {
       "US/NH/LRMFALimited",               "NHGraftonCounty",
       "US/NJ/BurlingtonCounty",           "NJBurlingtonCountyC",
       "US/NJ/CamdenCounty",               "NJCamdenCounty",
+      "US/NJ/CumberlandCounty",           "NJCumberlandCounty",
       "US/NJ/EggHarborTownship",          "NJAtlanticCounty",
       "US/NJ/GallowayTownship",           "NJAtlanticCountyC",
       "US/NJ/GloucesterCounty",           "NJGloucesterCountyA",

@@ -69,7 +69,7 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "CITY ADDR PLACE"; 
+      return "CITY ADDR APT PLACE"; 
     }
   }
   
