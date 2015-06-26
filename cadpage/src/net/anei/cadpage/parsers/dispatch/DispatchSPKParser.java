@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Matcher;
@@ -45,9 +48,9 @@ public class DispatchSPKParser extends HtmlProgramParser {
 
   @Override
   public Field getField(String name) {
-    if (name.equals("CURDATETIME")) return new DateTimeField("As of (\\d\\d?/\\d\\d?/\\d\\d \\d\\d:\\d\\d:\\d\\d)", true);
+    if (name.equals("CURDATETIME")) return new BaseDateTimeField();
     if (name.equals("INCIDENT_INFO")) return new SkipField("Incident Information");
-    if (name.equals("ID")) return new IdField("\\d{4}-\\d{8}|", true);
+    if (name.equals("ID")) return new IdField("\\d{4}-\\d{8}|\\d{8}-\\d{6}\\.\\d{3}|", true);
     if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("CITY")) return new BaseCityField();
     if (name.equals("X")) return new BaseCrossField();
@@ -55,6 +58,17 @@ public class DispatchSPKParser extends HtmlProgramParser {
     if (name.equals("CALLER_INFO")) return new SkipField("Caller information", true);
     if (name.equals("INFO")) return new BaseInfoField();
     return super.getField(name);
+  }
+  
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d:\\d\\d:\\d\\d(?: [AP]M)?)");
+  private class BaseDateTimeField extends DateTimeField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = DATE_TIME_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strDate = match.group(1);
+      data.strTime = convertTime(match.group(2));
+    }
   }
   
   private class BaseCallField extends CallField {
@@ -93,6 +107,7 @@ public class DispatchSPKParser extends HtmlProgramParser {
     public boolean checkParse(String field, Data data) {
       if (field.contains(":")) return false;
       if (field.equals("Caller information")) return false;
+      if (field.equals("CAD Times")) return false;
       parse(field, data);
       return true;
     }
@@ -117,8 +132,8 @@ public class DispatchSPKParser extends HtmlProgramParser {
     }
   }
   
-  private static final Pattern TIMES_PTN = Pattern.compile("Call (.*?) Time: +(\\d\\d?/\\d\\d?/\\d\\d) +(\\d\\d?:\\d\\d:\\d\\d)");
-  private static final Pattern INFO_TIME_PTN = Pattern.compile("(\\d\\d?/\\d\\d?/\\d\\d) +(\\d\\d?:\\d\\d:\\d\\d)");
+  private static final Pattern TIMES_PTN = Pattern.compile("Call (.*?) Time: +(\\d\\d?/\\d\\d?/\\d\\d) +(\\d\\d?:\\d\\d:\\d\\d(?: [AP]M)?)");
+  private static final Pattern INFO_TIME_PTN = Pattern.compile("(\\d\\d?/\\d\\d?/\\d\\d) +(\\d\\d?:\\d\\d:\\d\\d(?: [AP]M)?)");
   private class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
@@ -171,7 +186,7 @@ public class DispatchSPKParser extends HtmlProgramParser {
           if (!dispatchTime && type.equals("Dispatched")) {
             dispatchTime = true;
             data.strDate = match.group(2);
-            data.strTime = match.group(3);
+            data.strTime = convertTime(match.group(3));
           } else if (type.equals("Ready For Dispatch") || 
                      type.equals("Ready_for_dispatch") || 
                      type.equals("On Scene") ||
@@ -211,7 +226,7 @@ public class DispatchSPKParser extends HtmlProgramParser {
           if (match.matches()) {
             dispatchTime = true;
             data.strDate = match.group(1);
-            data.strTime = match.group(2);
+            data.strTime = convertTime(match.group(2));
           }
         }
         
@@ -231,4 +246,17 @@ public class DispatchSPKParser extends HtmlProgramParser {
       return "DATE TIME INFO UNIT";
     }
   }
+  
+  private static String convertTime(String time) {
+    if (time.endsWith("M")) {
+      try {
+        time = TIME_FMT2.format(TIME_FMT1.parse(time));
+      } catch (ParseException ex) {
+        throw new  RuntimeException(ex);
+      }
+    }
+    return time;
+  }
+  private static final DateFormat TIME_FMT1 = new SimpleDateFormat("hh:mm:ss aa");
+  private static final DateFormat TIME_FMT2 = new SimpleDateFormat("HH:mm:ss");
 }
