@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSPKParser;
 
 /**
- * Vigo County, IN
+ * Vigo County, IN (B)
  */
 public class INVigoCountyBParser extends DispatchSPKParser {
   
