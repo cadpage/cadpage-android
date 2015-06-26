@@ -1,5 +1,9 @@
 package net.anei.cadpage.parsers.VA;
 
+import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
@@ -11,8 +15,8 @@ public class VAAccomackCountyParser extends DispatchOSSIParser {
   }
   
   public VAAccomackCountyParser(String county) {
-    super(county, "VA",
-           "FYI? CALL ADDR! ( CITYST | SKIP MAP MAP ) X X ( ID | INFO )");
+    super(CITY_CODES, county, "VA",
+           "FYI? CALL ADDR! ( CITYST | CITY MAP MAP ) X X INFO+? ID");
   }
   
   @Override
@@ -24,10 +28,13 @@ public class VAAccomackCountyParser extends DispatchOSSIParser {
   public String getFilter() {
     return "cad@esva911.org,14100,2159700551";
   }
+  
+  private static final Pattern OPT_MARKER = Pattern.compile("ESVA911:? +");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    body = stripFieldStart(body, "ESVA911 ");
+    Matcher match = OPT_MARKER.matcher(body);
+    if (match.lookingAt()) body = body.substring(match.end());
     return super.parseMsg(body, data);
   }
 
@@ -74,4 +81,56 @@ public class VAAccomackCountyParser extends DispatchOSSIParser {
       data.strMap = append(data.strMap, ",", field);
     }
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ACCO", "ACCOMAC",
+      "ASSA", "ASSAWOMAN",
+      "ATLA", "ATLANTIC",
+      "BEHA", "BELLE HAVEN",
+      "BIRD", "BIRDSNEST",
+      "BLOX", "BLOXOM",
+      "CACH", "CAPE CHARLES",
+      "CAPE", "CAPE CHARLES",
+      "CHER", "CHERITON",
+      "CHIN", "CHINCOTEAGUE",
+      "CRAD", "CRADDOCKVILLE",
+      "EAST", "EASTVILLE",
+      "EXMO", "EXMORE",
+      "FRAN", "FRANKTOWN",
+      "GRBK", "GREENBACKVILLE",
+      "GRBS", "GREENBUSH",
+      "HALL", "HALLWOOD",
+      "HARB", "HARBORTON",
+      "HORN", "HORNTOWN",
+      "JAME", "JAMESVILLE",
+      "KELL", "KELLER",
+      "LOCU", "LOCUSTVILLE",
+      "MACH", "MACHIPONGO",
+      "MAPP", "MAPPSVILLE",
+      "MARI", "MARIONVILLE",
+      "MEAR", "MEARS",
+      "MELF", "MELFA",
+      "NASS", "NASSAWADOX",
+      "NELS", "NELSONIA",
+      "NEWC", "NEW CHURCH",
+      "OAKH", "OAK HALL",
+      "ONAN", "ONANCOCK",
+      "ONLY", "ONLEY",
+      "PAIN", "PAINTER",
+      "PARK", "PARKSLEY",
+      "PUNG", "PUNGOTEAGUE",
+      "QUIN", "QUINBY",
+      "SANF", "SANFORD",
+      "SAXI", "SAXIS",
+      "TANG", "TANGIER",
+      "TASL", "TASLEY",
+      "TEMP", "TEMPERANCEVILLE",
+      "TOWN", "TOWNSEND",
+      "WACH", "WACHAPREAGUE",
+      "WARD", "WARDTOWN",
+      "WITH", "WOTHAMS",
+      "WIWH", "WILLIS WHARF",
+      "WLIS", "WALLOPS ISLAND"
+
+  });
 }
