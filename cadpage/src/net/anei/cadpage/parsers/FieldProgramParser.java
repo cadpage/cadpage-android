@@ -3598,9 +3598,6 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("END")) return new EndField();
     if (name.equals("SELECT")) return new SelectField();
     
-    // TODO Add and END field processor that does nothing but can test for
-    // the end of the data sequence
-    
     throw new RuntimeException("Invalid field name: " + name);
   }
   
