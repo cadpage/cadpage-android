@@ -10,7 +10,7 @@ public class DispatchA56Parser extends FieldProgramParser {
 
   public DispatchA56Parser(String defCity, String defState) {
     super(defCity, defState, 
-          "DATETIME CODECALL LOCATION PLACE? UNIT INFO+");
+          "DATETIME CODECALL LOCATION PLACE? UNIT! INFO+");
   }
   
   private static Pattern DISP_DATETIME_BODY = Pattern.compile("DISPATCH:.*? - (\\d{2}/\\d{2} \\d{2}:\\d{2}) - (.+)", Pattern.DOTALL);
