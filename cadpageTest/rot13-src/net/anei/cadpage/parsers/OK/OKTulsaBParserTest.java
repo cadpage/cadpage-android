@@ -118,7 +118,7 @@ Fraqre: snk@pbaarpgvbafbx.pbz
 choyvp pynff BXGhyfnOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp BXGhyfnOCnefreGrfg() {
-    frgCnefre(arj BXGhyfnOCnefre(), "", "BX");
+    frgCnefre(arj BXGhyfnOCnefre(), "GHYFN", "BX");
   }
 
   @Grfg
