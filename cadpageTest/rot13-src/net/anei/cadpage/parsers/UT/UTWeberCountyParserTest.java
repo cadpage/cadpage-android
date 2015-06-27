@@ -319,23 +319,6 @@ FGEBXR - MHYH ERFCBAFR  16:47:48\a3856 J 3550 F  Qg: 63  Ma: 568  Tq: V8\aF 3750
 SNYYF - MHYH ERFCBAFR  11:49:58\a5795 F 6000 J  Qg: 63  Ma: 567  Tq: X5\aJ 5700 F & J 5800 F\aPu: 2\aR63 N32 JS #1474\aFrag ol: QFC7
 FVPX CREFBA-ABG NYREG  10:07:03\a1172 J 2100 F  Qg: 66  Ma: 572  Tq: T11\aPBHAGEL ZNEXRG\aF 1100 J & J JVYFBA YA/Nyvnf:J JVYFBA YA\aPu: 2\aER31 JS #1473\aFrag ol: QFC6
 
-Unf bar aba-npgvir911 pnyy gung gur tybony trarengrGrfg cebprff jvyy abg jbex jvgu
-SBe gung bar ohvyq n grfg zrgubq znahnyyl naq hfr gur byq snfuvbarq fvatyr ntrapl
-trarengr grfg eha.
-
-Gur Frag ol: grez vf gur qvfcngpure naq pna or qvfpneqrq.
-Qg: Ma: naq Tq: inyhrf fubhyq or zretrq vagb ZNC svryq
-
-Cynpr anzr vf bcgvbany.  Fbzrguvat yvxr guvf jvyy cebonoyl jbex
-PNYY_GVZR NQQE_ZNC CYNPR? NQQE/M! PU:PU! NQQE_VQ! Frag_ol:FXVC!
-
-Gur /Nyvnf: dhnyvsvref va gur nqqerff ner nabgure ceboyrz  Vs lbh yrg gurz tb
-guebhtug gur erthyne nqqerff cnefre gurl jvyy or ghearq vagb &.  Cebonoyl arrq
-fcrpvny ybtvp va Nqqerff cebprffvat svryq gb cerfreire gurz.  Guvf znl or gur
-bar pnfr jurer lbhe orfg org vf gb nffvtarq gur qngn svryq qverpgyl gb 
-fgeNqqerff, juvpu vf nyzbfg (ohg abg dhvgr) arire nccebcevngr.  Gura fgevc
-gurz bhg va nqwhfgZncNqqerff.
-
 */
 
 choyvp pynff HGJrorePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
