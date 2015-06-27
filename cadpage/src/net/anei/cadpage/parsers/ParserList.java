@@ -1170,6 +1170,7 @@ public class ParserList {
               ,"UTSaltLakeCounty"               ,"Salt Lake County, UT"
               ,"UTSummitCounty"                 ,"Summit County, UT"
               ,"UTTooeleCounty"                 ,"Tooele County, UT"
+              ,"UTWeberCounty"                  ,"Weber County, UT"
           ),
           new ParserCategory("Vermont"
              ,"VTHartford"                       ,"Hartford, VT"
