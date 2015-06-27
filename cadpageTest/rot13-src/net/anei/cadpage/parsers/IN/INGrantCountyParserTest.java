@@ -673,13 +673,6 @@ Fraqre: <QVFCNGPU@TenagPbhagl.arg>
 (SVER) QVFCNGPU:SVER:PBAI2 - 04/30 20:01 - 9038 TRARENY SVER\a\a214, R 4GU FG,ZNEVBA\a\aNYVNF=TENAG PBHAGL FUREVSSF QRCG\a\aSVER:PBAI1,SVER:PBAI2,SVER:PBAI2\a\aNPGVIR 911 GRFG
 (SVER) QVFCNGPU:SVER:PBAI1 - 04/30 20:00 - 9038 TRARENY SVER\a\a214, R 4GU FG,ZNEVBA\a\aNYVNF=TENAG PBHAGL FUREVSSF QRCG\a\aSVER:PBAI1\a\aNPGVIR 911 GRFG
 
-Pyrneyl n inevnag bs QvfcngpuN29Cnefre.  Ohg gur qngn svryqf ner qvssrerag ratbhtu
-gung V qb abg guvax vg jbhyq or jbegu gelvat gb hfr gung onfr pynff.
-
-Gur vasbezngvba sbyybjvat gur QVFCNGPU: gnt vf n havg nffvtazrag.  Guvf havg
-vasb vf qhcyvpngrq va gur grkg zrffntr, gur qhcyvpngr fubhyq or qebccrq sebz
-gur VASB svryq.  Bgurejvfr guvf vf cerggl fgenvgsbejneq.
-
 */
 
 choyvp pynff VATenagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
