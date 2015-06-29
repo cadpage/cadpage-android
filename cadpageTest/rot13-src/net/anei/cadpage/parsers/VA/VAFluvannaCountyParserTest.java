@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Syhinaan Pbhagl, IN
 
+Pbagnpg: Jvyyvnz Ubcxvaf <oubcxvaf1454@tznvy.pbz>
+Fraqre: TPZ
+ZNVYOBK:PB2 19:41 QVNORGVP VYYARFF/VAFHYVA ERNPG 000114 TENIRY UVYY EQ PSF# 2015-011660
+
 Pbagnpg: PbqrZrffntvat
 Fraqre: @p-zft.arg
 ZNVYOBK:PB5 07:52 OERNGUVAT QVSSVPHYGL 002101 UNQRA ZNEGVA EQ PSF# 2013-015912
@@ -44,6 +48,19 @@ choyvp pynff INSyhinaanPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp INSyhinaanPbhaglCnefreGrfg() {
     frgCnefre(arj INSyhinaanPbhaglCnefre(), "SYHINAAN PBHAGL", "IN");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgJvyyvnzUbcxvaf() {
+
+    qbGrfg("G1",
+        "ZNVYOBK:PB2 19:41 QVNORGVP VYYARFF/VAFHYVA ERNPG 000114 TENIRY UVYY EQ PSF# 2015-011660",
+        "FEP:PB2",
+        "GVZR:19:41",
+        "PNYY:QVNORGVP VYYARFF/VAFHYVA ERNPG",
+        "NQQE:114 TENIRY UVYY EQ",
+        "VQ:2015-011660");
+
   }
   
   @Grfg
