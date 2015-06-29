@@ -13,6 +13,11 @@ public class NCRandolphCountyParser extends FieldProgramParser {
     super("RANDOLPH COUNTY", "NC",
           "SRC ( UNIT ID! INFO/R INFO/N+ | CALL ADDRCITY UNIT SKIP! INFO/N+ )");
   }
+  
+  @Override
+  public String getFilter() {
+    return "911@RandolphCountyNC.gov";
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
