@@ -11,22 +11,21 @@ public class NCRandolphCountyParser extends FieldProgramParser {
   
   public NCRandolphCountyParser() {
     super("RANDOLPH COUNTY", "NC",
-          "SRC ( UNIT ID PLACE! PLACE+ | CALL ADDRCITY UNIT! SKIP INFO+ )");
+          "SRC ( UNIT ID! INFO/R INFO/N+ | CALL ADDRCITY UNIT SKIP! INFO/N+ )");
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (body.startsWith("Randolph 911 - ")) body = body.substring(14).trim();
+    body = stripFieldStart(body, "Randolph 911 - ");
     return parseFields(body.split("\n"), data);
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("SRC")) return new SourceField("[A-Z]{4}", true);
-    if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
-    if (name.equals("UNIT")) return new UnitField("[A-Z]+[0-9]+|\\d+-\\d+|[A-Z]+[FP]D", true);
-    if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("UNIT")) return new UnitField("[A-Z]+[0-9]+|\\d+-\\d+|[A-Z]+[FP]D|", true);
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
@@ -72,14 +71,6 @@ public class NCRandolphCountyParser extends FieldProgramParser {
         if ("PROQA".startsWith(field.toUpperCase())) return;
       }
       super.parse(field, data);
-    }
-  }
-  
-  private class MyPlaceField extends PlaceField {
-    @Override
-    public void parse(String field, Data data) {
-      if (data.strCall.length() == 0) data.strCall = "RUN REPORT";
-      data.strPlace = append(data.strPlace, "\n", field);
     }
   }
   
