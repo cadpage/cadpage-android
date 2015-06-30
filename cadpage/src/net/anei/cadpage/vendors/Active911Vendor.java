@@ -514,6 +514,7 @@ class Active911Vendor extends Vendor {
       "US/MO/Mobilefonetotalaccess",      "MOJacksonCountyB",
       "US/MO/MoniteauCounty",             "MOMoniteauCounty",
       "US/MO/OsageCounty",                "MOOsageCounty",
+      "US/MO/CityofRolla",                "MOPhelpsCounty",
       "US/MO/PikeCounty",                 "MOLincolnCounty",
       "US/MO/PolkCounty",                 "MOPolkCounty",
       "US/MO/PoplarBluffPD",              "MOPoplarBluff",
