@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">06272015</string>
-  <string name="release_version">v1.8.41</string>
+  <string name="release_date">06302015</string>
+  <string name="release_version">v1.8.42</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.42\n
+New Locations:\n
+Grant County, IN\n
+Cecil County, MD (alt)\n
+\n
+Location Fixes:\n
+Teller County, CO\n
+Gooding County, ID\n
+Lake County, IL\n
+Phelps County, MO\n
+Washington County, NY\n
+Randolph County, NC\n
+\n      
 v1.8.41\n
 New Locations:\n
 Vigo County, IN (alt)\n
@@ -88,38 +101,7 @@ Oswego County, NY\n
 Steuben County, NY\n
 Wayne County, NC\n
 Erie County, PA\n
-Williamson County, TN\n
-\n      
-v1.8.37\n
-New Locations:\n
-Jefferson County, AL (alt)\n
-Pope County, AR\n
-Montecito, CA\n
-Solano County, CA\n
-Satellite Beach, FL\n
-Jasper County, GA\n
-Jefferson County, GA\n
-Clinton County, MI\n
-Oakland County, MI (alt)\n
-Scott County, MN\n
-Farmington, MO\n
-Jefferson County, NY\n
-Lexington County, SC\n
-Brazos County, TX\n
-El Campo, TX\n
-Lubbock County, TX\n
-Walker County, TX\n
-Van Zandt County, TX\n
-Davis County, UT (alt)\n
-Cowletz County, WA\n
-\n
-Location Fixes:\n
-Jackson County, GA\n
-Frederick County, MD\n
-Sussex County, NJ\n
-Madison County, NY\n
-Monroe County, NY\n
-Lewis County, WA
+Williamson County, TN
   </string>
 </resources>
   
