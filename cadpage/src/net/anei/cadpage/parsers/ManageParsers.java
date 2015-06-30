@@ -182,11 +182,6 @@ public class ManageParsers {
   
   // fixed map mapping old to new location codes
   private static final Properties OLD_CODE_TABLE = MsgParser.buildCodeTable(new String[]{
-        "TXNassauBay",        "TXLaPorte",              // 01/06/2013
-        "NVLasVegas",         "NVClarkCounty",          // 01/26/2013
-        "ORMarionCountyN",    "ORMarionCounty",         // 03/14/2013
-        "OHXenia",            "OHGreeneCounty",         // 03/18/2013
-        "NCGreensboro",       "NCGuilfordCounty",       // 03/22/2013
         "NCDavieCountyA",     "NCDavieCounty",          // 09/30/2013
         "NCDavieCountyB",     "NCDavieCounty",          // 09/30/2013
         "NJHudsonCounty",     "NJJCMCEMSHudCEN",        // 11/22/2013
@@ -204,7 +199,8 @@ public class ManageParsers {
         "OHHarveysburg",      "PAWarrenCountyC",         // 08/02/2014
         "NJSalemCountyC",     "NJSalemCountyB",          // 01/14/2015
         "NVWinnemuccaCounty", "NVHumboldtCounty",        // 01/17/2015
-        "VAGraysonCounty",    "VAGalax"                 // 01/17/2015
+        "VAGraysonCounty",    "VAGalax",                 // 01/17/2015
+        "NCHertfordCountyA",  "NCHertfordCountyB"        // 06/30/2015
         
   });
 

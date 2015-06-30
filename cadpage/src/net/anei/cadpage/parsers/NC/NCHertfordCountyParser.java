@@ -6,6 +6,6 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class NCHertfordCountyParser extends GroupBestParser {
   
   public NCHertfordCountyParser() {
-    super(new NCHertfordCountyAParser(), new NCHertfordCountyBParser());
+    super(new NCHertfordCountyBParser());
   }
 }

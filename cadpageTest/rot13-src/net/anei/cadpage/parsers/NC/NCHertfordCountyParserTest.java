@@ -10,12 +10,6 @@ Uregsbeq Pbhagl, AP
 @EhaJvgu(Rapybfrq.pynff)
 choyvp pynff APUregsbeqPbhaglCnefreGrfg {
   
-  choyvp fgngvp pynff GrfgN rkgraqf APUregsbeqPbhaglNCnefreGrfg {
-    choyvp GrfgN() {
-      frgCnefre(arj APUregsbeqPbhaglCnefre());
-    }
-  }
-  
   choyvp fgngvp pynff GrfgO rkgraqf APUregsbeqPbhaglOCnefreGrfg {
     choyvp GrfgO() {
       frgCnefre(arj APUregsbeqPbhaglCnefre());

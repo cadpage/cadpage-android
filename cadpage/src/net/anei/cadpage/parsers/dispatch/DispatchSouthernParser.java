@@ -44,6 +44,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   // Flag indicating optional unit designation preceedes call ID
   public static final int DSFLAG_LEAD_UNIT = 0x400;
+  
+  // Flag indicating place name can be in front of and behind the address
+  public static final int  DSFLAG_BOTH_PLACE = 0x800;
 
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("(\\d{8});([-A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
@@ -62,7 +65,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private boolean optDispatch;
   private boolean unitId;
   private boolean idOptional;
-  private boolean inclPlace;
+  private boolean leadPlace;
+  private boolean trailPlace;
   private boolean inclCross;
   private boolean inclCrossNamePhone;
   private boolean noNamePhone;
@@ -98,7 +102,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
     this.optDispatch = (flags & DSFLAG_OPT_DISPATCH_ID) != 0;
     this.unitId = (flags & DSFLAG_UNIT) != 0;
     this.idOptional = (flags & DSFLAG_ID_OPTIONAL) != 0;
-    this.inclPlace = (flags &  DSFLAG_LEAD_PLACE) != 0;
+    this.leadPlace = (flags &  (DSFLAG_BOTH_PLACE | DSFLAG_LEAD_PLACE)) != 0;
+    this.trailPlace = (flags & DSFLAG_LEAD_PLACE) == 0;
     this.inclCross = (flags & DSFLAG_FOLLOW_CROSS) != 0;
     this.inclCrossNamePhone = (flags & DSFLAG_CROSS_NAME_PHONE) != 0;
     this.impliedApt = (flags & DSFLAG_NO_IMPLIED_APT) == 0;
@@ -112,7 +117,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     StringBuilder sb = new StringBuilder();
     sb.append("ADDR/S2");
     if (impliedApt) sb.append('6');
-    if (inclPlace) sb.append('P');
+    if (leadPlace) sb.append('P');
     if (inclCall) sb.append(" CALL");
     if (inclCross || inclCrossNamePhone) sb.append(" X?");
     if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE?");
@@ -126,7 +131,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     setProgram(program, 0);
     
     sb = new StringBuilder();
-    if (inclPlace) sb.append("PLACE ");
+    if (leadPlace) sb.append("PLACE ");
     sb.append("ADDR PLACE APT");
     sb.append(inclCross || inclCrossNamePhone ? " CITY X" : " X CITY");
     if (inclCall) sb.append(" CALL");
@@ -258,11 +263,11 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (data.strCode.length() == 0) data.strCode = p.getLastOptional(" FDL ");
     if (data.strCode.length() == 0) data.strCode = p.getLastOptional(" LDL ");
     sAddr = p.get();
-    StartType st = (inclPlace ? StartType.START_PLACE : StartType.START_ADDR);
+    StartType st = (leadPlace ? StartType.START_PLACE : StartType.START_ADDR);
     int flags = FLAG_AT_SIGN_ONLY;
     if (impliedApt) flags |= FLAG_RECHECK_APT;
     if (inclCross || inclCrossNamePhone) flags |= FLAG_CROSS_FOLLOWS;
-    if (noNamePhone && inclPlace) flags |= FLAG_ANCHOR_END;
+    if (noNamePhone && !trailPlace) flags |= FLAG_ANCHOR_END;
     boolean leadOne = sAddr.startsWith("1 ");
     if (leadOne) {
       sAddr = sAddr.substring(2).trim();
@@ -271,6 +276,12 @@ public class DispatchSouthernParser extends FieldProgramParser {
     parseAddress(st, flags, sAddr, data);
     if (leadOne) data.strAddress = append("1", " ", data.strAddress);
     String sLeft = getLeft();
+    
+    // If everything went to place, move it back to address
+    if (st == StartType.START_PLACE && data.strAddress.length() == 0) {
+      parseAddress(data.strPlace, data);
+      data.strPlace = "";
+    }
     
     // Processing what is left gets complicated
     // First strip anything that looks like a trailing phone number
@@ -313,11 +324,11 @@ public class DispatchSouthernParser extends FieldProgramParser {
       
       // Otherwise, if the place name isn't located in front of the address
       // assume whatever follows it is a place name
-      if (!inclPlace) {
+      if (trailPlace) {
         if (sLeft.startsWith("/")) {
           data.strAddress = data.strAddress + " & " + sLeft.substring(1).trim();
         } else {
-          data.strPlace = sLeft;
+          data.strPlace = append(data.strPlace, " - ", sLeft);
         }
       }
   
