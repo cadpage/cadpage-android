@@ -23,6 +23,11 @@ public class NCHertfordCountyAParser extends DispatchSouthernPlusParser {
     // Look for sector in address or apt fields
     data.strAddress = stripSector(data.strAddress, data);
     data.strApt = stripSector(data.strApt, data);
+    
+    if (data.strCity.equals("UNION")) {
+      data.strPlace = append(data.strPlace, " - ", data.strCity);
+      data.strCity = "AHOSKIE";
+    }
     return true;
   }
   
@@ -32,11 +37,6 @@ public class NCHertfordCountyAParser extends DispatchSouthernPlusParser {
     if (pt >= 0) {
       data.strMap = field.substring(pt+3).trim();
       field = field.substring(0,pt).trim();
-    }
-    
-    if (data.strCity.equals("UNION")) {
-      data.strPlace = append(data.strPlace, " - ", data.strCity);
-      data.strCity = "AHOSKIE";
     }
     return field;
   }
