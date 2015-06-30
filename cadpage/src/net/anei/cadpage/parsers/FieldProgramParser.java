@@ -1704,6 +1704,10 @@ public class FieldProgramParser extends SmartAddressParser {
      * @return true if this is not a required field step
      */
     public boolean checkFailure(Data data) {
+      
+      // Very special case.  A required field that is the decision step of
+      // a new conditional branch is not really required.
+      if (tag != null && nextStepLink != null) return true;
 
       // If this is a required step, return failure
       if (required == EReqStatus.REQUIRED) {

@@ -412,7 +412,7 @@ class Active911Vendor extends Vendor {
       "US/MD/BaltimoreCountyCmsg",        "MDBaltimoreCountyB",
       "US/MD/CalvertCounty",              "MDCalvertCounty",
       "US/MD/CarrollCounty",              "MDCarrollCounty",
-      "US/MD/CecilCounty",                "Cadpage2",
+      "US/MD/CecilCounty",                "MECecilCountyE",
       "US/MD/CharlesCounty",              "MDCharlesCountyA",
       "US/MD/CharlesCountyCCMedic",       "MDCharlesCountyC",
       "US/MD/ChiefAlert",                 "MDCarolineCounty",

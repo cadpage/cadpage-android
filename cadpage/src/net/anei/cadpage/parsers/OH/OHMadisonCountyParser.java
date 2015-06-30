@@ -13,6 +13,6 @@ public class OHMadisonCountyParser extends DispatchA1Parser {
   
   @Override
   public String getFilter() {
-    return "mcsocad@madisonsheriff.org";
+    return "mcsocad@madisonsheriff.org,777";
   }
 }
