@@ -48,6 +48,7 @@ abstract public class DispatchA22Parser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("IDSRC")) return new MyIdSourceField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
@@ -67,5 +68,24 @@ abstract public class DispatchA22Parser extends FieldProgramParser {
     public String getFieldNames() {
       return "ID SRC";
     }
+  }
+  
+  private static final Pattern INFO_GPS_PTN = Pattern.compile("[-+]\\d{2,3}\\.\\d{6}[, ]+[-+]\\d{2,3}\\.\\d{6}");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match= INFO_GPS_PTN.matcher(field);
+      if (match.matches()) {
+        setGPSLoc(field, data);
+      } else {
+        super.parse(field, data);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " GPS";
+    }
+    
   }
 }

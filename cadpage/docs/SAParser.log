@@ -1,3 +1,8 @@
+Version 22 06/35/2015
+
+Fixed problem with GPS parsing logic not switching signs of negative 
+coordinates when appropriate
+
 Version 21 05/29/2015
 
 Fixed problem not recognizing ALPINE CUTOFF RD or GREEN TERRACE CT properly.

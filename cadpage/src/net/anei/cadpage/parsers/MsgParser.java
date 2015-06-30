@@ -151,6 +151,13 @@ public abstract class MsgParser {
        if (longitude > 0) longitude = - longitude;
      }
      
+     // And anything that should be positive is positive
+     if ((gpsFlags & GPS_POS_LAT) != 0) {
+       if (latitude < 0) latitude = - latitude;
+     }
+     if ((gpsFlags & GPS_POS_LONG) != 0) {
+       if (longitude < 0) longitude = - longitude;
+     }
      // And convert the result to a GPS string
      return String.format(Locale.US, "%+8.6f,%+8.6f", latitude, longitude);
    }
