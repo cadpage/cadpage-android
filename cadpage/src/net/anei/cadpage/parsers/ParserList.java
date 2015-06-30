@@ -368,6 +368,7 @@ public class ParserList {
               ,"INBooneCounty"                  ,"Boone County, IN"
               ,"INDouglasCounty"                ,"Douglas County, IN"
               ,"INElkhartCounty"                ,"Elkhart County, IN"
+              ,"INGrantCounty"                  ,"Grant County, IN"
               ,"INHamiltonCounty"               ,"Hamilton County, IN"
               ,"INHancockCounty"                ,"Hancock County, IN"
               ,"INHenryCounty"                  ,"Henry County, IN"
