@@ -19,7 +19,7 @@ public class TXBrazosCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "fdpaging@bc911.org";
+    return "@bc911.org,paging.bc911.org";
   }
   
   private static final Pattern DELIM = Pattern.compile("\n(?! |\n)");
