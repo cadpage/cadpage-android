@@ -26,6 +26,10 @@ Pbagnpg: Ziczrqvp 6 <ziczrqvp6@tznvy.pbz>
 Fraqre: Cntvat@fvepbzz.pbz
 1 bs 2\aSEZ:Cntvat@fvepbzz.pbz\aZFT:6/29/2015 1601\aRIRAG # 1506290223 ZIE039\aQBZ - QBZRFGVP - AB ZRQVPN...\aYBPNGVBA 2221 PNALBA GENVY JNL\aPVGL\a(Pba'g) 2 bs 2\aGJVA SNYYF\aNCG \aCERZVFR \aPBZZRAG ZNYR IF SRZNYR\aEC NQI URE ZBZ VF GNXVAT N OHAPU BS CVYYF\a-42.601870 +114.487994\a(Raq)
 
+Pbagnpg: Ziczrqvp 1 <ziczrqvpbar@tznvy.pbz>
+Fraqre: Cntvat@fvepbzz.pbz
+1 bs 3\aSEZ:Cntvat@fvepbzz.pbz\aZFT:6/30/2015 1507\aRIRAG # 1506300188 ZIE039\aZRQ - ZRQVPNY PNYY\aYBPNGVBA 2032 F YVAPBYA NIR\aPVGL WREBZR\aNCG\a(Pba'g) 2 bs 3\a\aCERZVFR WREBZR ERPERNGVBA QVFGEVPG\aPBZZRAG NOBHG N 5 LBZ UVG UVF URNQ\a------------------------------[SVER1/226\2f06/30/15\a(Pba'g) 3 bs 3\a15:07:02]\aERYNGRQ GB...\a(Raq)
+
 Pbagnpg: Pnzreba Qvexf <pqaerzg@tznvy.pbz>
 Fraqre: CntvatFreivpr@fvepbzz.pbz
 1/21/2015 1652\aRIRAG # 1501210168 EPX025\aNPPA - ABA VAWHEL NPPVQRAG\aCEVBEVGL 2 \aYBPNGVBA XVZOREYL ZRNQBJF EQ/A 3400 RNFG\aPVGL XVZOREYL\aNCG \aCERZVFR
@@ -181,7 +185,7 @@ choyvp pynff VQTbbqvatPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgZciZrqvp6() {
+  choyvp ibvq grfgZicZrqvp6() {
 
     qbGrfg("G1",
         "1 bs 2\a" +
@@ -210,6 +214,39 @@ choyvp pynff VQTbbqvatPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:ZNYR IF SRZNYR / EC NQI URE ZBZ VF GNXVAT N OHAPU BS CVYYF",
         "TCF:+42.601870,-114.487994");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZciZrqvp1() {
+
+    qbGrfg("G1",
+        "1 bs 3\a" +
+        "SEZ:Cntvat@fvepbzz.pbz\a" +
+        "ZFT:6/30/2015 1507\a" +
+        "RIRAG # 1506300188 ZIE039\a" +
+        "ZRQ - ZRQVPNY PNYY\a" +
+        "YBPNGVBA 2032 F YVAPBYA NIR\a" +
+        "PVGL WREBZR\a" +
+        "NCG\a" +
+        "(Pba'g) 2 bs 3\a\a" +
+        "CERZVFR WREBZR ERPERNGVBA QVFGEVPG\a" +
+        "PBZZRAG NOBHG N 5 LBZ UVG UVF URNQ\a" +
+        "------------------------------[SVER1/226\\2f06/30/15\a" +
+        "(Pba'g) 3 bs 3\a" +
+        "15:07:02]\a" +
+        "ERYNGRQ GB...\a" +
+        "(Raq)",
+
+        "QNGR:6/30/2015",
+        "GVZR:15:07",
+        "VQ:1506300188",
+        "FEP:ZIE039",
+        "PNYY:ZRQ - ZRQVPNY PNYY",
+        "NQQE:2032 F YVAPBYA NIR",
+        "PVGL:WREBZR",
+        "CYNPR:WREBZR ERPERNGVBA QVFGEVPG",
+        "VASB:NOBHG N 5 LBZ UVG UVF URNQ / ------------------------------[SVER1/226\\2f06/30/15 15:07:02] / ERYNGRQ GB...");
+   
   }
   
   @Grfg
