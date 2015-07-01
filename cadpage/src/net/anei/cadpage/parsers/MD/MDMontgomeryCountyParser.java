@@ -22,7 +22,7 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
   }
   
 	public String getFilter() {
-		return "rc.355@c-msg.net,MC Emergency Network,@mcen.montgomerycountymd.gov,411911,89361,MCEN,@everbridge.net";
+		return "rc.355@c-msg.net,MC Emergency Network,@mcen.montgomerycountymd.gov,411911,89361,MCEN,@everbridge.net,87844";
 	}
 	
 	@Override
