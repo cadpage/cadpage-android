@@ -1744,6 +1744,29 @@ Fraqre: <nrtvfcntr@ynpxnjnaanpbhagl.bet>
 (Qvfcngpu) Havg ZRQ921  Ybpngvba: 411 TVOFBA FG YVAPBYA NIR / TNESVRYQ NIR 58 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 12/22/14 14:36 Angher bs Pnyy: 87 lbz abg oernguvat  PSF Ahzore 622
 (Qvfcngpu) Havg ZRQ915  Ybpngvba: 985 RYX IVRJ QE ZBHAGNVA YNHERY QE / FE 247 18 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 12/22/14 13:31 Angher bs Pnyy: 51 LBZ PURFG CNVA PSF Ahzore 587
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Gubeauhefg ISENF
+Ybpngvba: Gubeauhefg , CN, Havgrq Fgngrf
+Fraqre: <nrtvfcntr@ynpxnjnaanpbhagl.bet>
+
+(Qvfcngpu) Havg 54-8  Ybpngvba: 78 ZRYIVA EQ Pebff Fgerrgf: DHNVY YA / QRNQ RAQ 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/29/15 02:41 Angher bs Pnyy: 63LBZ RLR VAWHEL SEBZ JRYQVAT  PSF Ahzore 138
+(Qvfcngpu) Havg 54-9  Ybpngvba: 78 ZRYIVA EQ Pebff Fgerrgf: DHNVY YA / QRNQ RAQ 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/29/15 02:41 Angher bs Pnyy: 63LBZ RLR VAWHEL SEBZ JRYQVAT  PSF Ahzore 138
+(Qvfcngpu) Havg 55-9 54-9  Ybpngvba: 1047 RZRENYQ NIR Pebff Fgerrgf: PELFGNY NIR, RZRENYQ PG / TRZVAV GEY 55 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/28/15 14:38 Angher bs Pnyy: cbpbab fcevatf, 72 lbs syh yvxr flczgbzf naq jrnx PSF Ahzore 898
+(Qvfcngpu) Havg 54-8  Ybpngvba: 995 ORNE YNXR EQ Pebff Fgerrgf: EVAXRE YA / BYQ EVIRE EQ 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/27/15 20:59 Angher bs Pnyy: 90 lbs qrulqengrq PSF Ahzore 551
+(Qvfcngpu) Havg 54-9  Ybpngvba: 995 ORNE YNXR EQ Pebff Fgerrgf: EVAXRE YA / BYQ EVIRE EQ 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/27/15 20:59 Angher bs Pnyy: 90 lbs qrulqengrq PSF Ahzore 551
+(Qvfcngpu) Havg 54-7  Ybpngvba: 23 FRVC QE Pebff Fgerrgf: GBOLUNAAN EQ / JNYGREF YA 55 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/24/15 17:04 Angher bs Pnyy: 30 LBZ CBFF FRVMHER PSF Ahzore 779
+(Qvfcngpu) Havg 55-9 54-9  Ybpngvba: 23 FRVC QE Pebff Fgerrgf: GBOLUNAAN EQ / JNYGREF YA 55 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/24/15 17:04 Angher bs Pnyy: 30 LBZ CBFF FRVMHER PSF Ahzore 779
+(Qvfcngpu) Havg 55-9 54-8  Ybpngvba: 40 A YRUVTU EVIRE QE Pebff Fgerrgf: EVIRE PG / YBPHFG YA 55 Pbzzba Anzr: Pnyy Glcr: OYF Pnyy Gvzr: 06/20/15 11:42 Angher bs Pnyy: 32 lbs fhvpvqny  PSF Ahzore 404
+(Qvfcngpu) Havg 54-8  Ybpngvba: 1030 ORNE YNXR EQ Pebff Fgerrgf: EVAXRE YA / BYQ EVIRE EQ 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/20/15 03:43 Angher bs Pnyy: 69LBZ PURFG CNVA  PSF Ahzore 299
+(Qvfcngpu) Havg 54-8  Ybpngvba: CURYCF EQ GNAAREL EQ Pebff Fgerrgf: 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/19/15 15:42 Angher bs Pnyy: GNXR SVEFG EVTUG BA CURYCF PBAGVAHRF BA CURYCF EQ  PSF Ahzore 929
+(Qvfcngpu) Havg 55-9 54-8  Ybpngvba: 309 EG 435 Pebff Fgerrgf: 55 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/19/15 07:32 Angher bs Pnyy: znyr cnffrq bhg va n irpu  PSF Ahzore 672
+(Qvfcngpu) Havg 54-8  Ybpngvba: 990 ORNE YNXR EQ Pebff Fgerrgf: EVAXRE YA / QBZORX QE 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/17/15 07:12 Angher bs Pnyy: ZNYR NOQ CNVA    78 LBZ PSF Ahzore 412
+(Qvfcngpu) Havg 54-8  Ybpngvba: 617 PYVSGBA ORNPU EQ Pebff Fgerrgf: OHOON YA / CNTR QE 55 Pbzzba Anzr: Pnyy Glcr: OYF Pnyy Gvzr: 06/16/15 18:45 Angher bs Pnyy: RQAN YNFGN 84 LB S CRAQNAG NPGVIR AB ERFCBAFR PSF Ahzore 222
+(Qvfcngpu) Havg 54-7  Ybpngvba: 644 BYQ EVIRE EQ Pebff Fgerrgf: CVAR TEBIR EQ / PBBZOR PG 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/15/15 16:55 Angher bs Pnyy: 26lbz qvss oernguvat PSF Ahzore 563
+(Qvfcngpu) Havg 55-9 54-7  Ybpngvba: 526 ZNVA FG Pebff Fgerrgf: 3EQ FG / 2AQ FG 55 Pbzzba Anzr: Pnyy Glcr: OYF Pnyy Gvzr: 06/15/15 14:56 Angher bs Pnyy: 17 lb srznyr, nppvqragny xavsr jbhaq gb gur arpx PSF Ahzore 481
+(Qvfcngpu) Havg 54-7  Ybpngvba: 896 BYQ EVIRE EQ Pebff Fgerrgf: QVRGEVPUF EQ / PYVSGBA ORNPU EQ 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/15/15 09:54 Angher bs Pnyy: 84 LBS QVSS OERNGUVAT PSF Ahzore 289
+(Qvfcngpu) Havg 55-9 54-7  Ybpngvba: 84 ZBUVPNA CNGU Pebff Fgerrgf: PBPUVFR GEY / TREBAVZB GEY 55 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/12/15 15:41 Angher bs Pnyy: 82 lbz nygrerq zragny fgnghf PSF Ahzore 723
+
  */
 
 choyvp pynff CNYnpxnjnaanPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -21353,6 +21376,216 @@ choyvp pynff CNYnpxnjnaanPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:13:31",
         "VASB:51 LBZ PURFG CNVA",
         "VQ:587");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgGubeauhefgISENF() {
+
+    qbGrfg("G1",
+        "(Qvfcngpu) Havg 54-8  Ybpngvba: 78 ZRYIVA EQ Pebff Fgerrgf: DHNVY YA / QRNQ RAQ 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/29/15 02:41 Angher bs Pnyy: 63LBZ RLR VAWHEL SEBZ JRYQVAT  PSF Ahzore 138",
+        "HAVG:54-8",
+        "NQQE:78 ZRYIVA EQ",
+        "K:Pebff Fgerrgf: DHNVY YA / QRNQ RAQ",
+        "PVGL:Gubeauhefg",
+        "PNYY:NYF",
+        "QNGR:06/29/15",
+        "GVZR:02:41",
+        "VASB:63LBZ RLR VAWHEL SEBZ JRYQVAT",
+        "VQ:138");
+
+    qbGrfg("G2",
+        "(Qvfcngpu) Havg 54-9  Ybpngvba: 78 ZRYIVA EQ Pebff Fgerrgf: DHNVY YA / QRNQ RAQ 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/29/15 02:41 Angher bs Pnyy: 63LBZ RLR VAWHEL SEBZ JRYQVAT  PSF Ahzore 138",
+        "HAVG:54-9",
+        "NQQE:78 ZRYIVA EQ",
+        "K:Pebff Fgerrgf: DHNVY YA / QRNQ RAQ",
+        "PVGL:Gubeauhefg",
+        "PNYY:NYF",
+        "QNGR:06/29/15",
+        "GVZR:02:41",
+        "VASB:63LBZ RLR VAWHEL SEBZ JRYQVAT",
+        "VQ:138");
+
+    qbGrfg("G3",
+        "(Qvfcngpu) Havg 55-9 54-9  Ybpngvba: 1047 RZRENYQ NIR Pebff Fgerrgf: PELFGNY NIR, RZRENYQ PG / TRZVAV GEY 55 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/28/15 14:38 Angher bs Pnyy: cbpbab fcevatf, 72 lbs syh yvxr flczgbzf naq jrnx PSF Ahzore 898",
+        "HAVG:55-9 54-9",
+        "NQQE:1047 RZRENYQ NIR",
+        "K:Pebff Fgerrgf: PELFGNY NIR, RZRENYQ PG / TRZVAV GEY",
+        "PVGL:Yruvtu Gjc",
+        "PNYY:NYF",
+        "QNGR:06/28/15",
+        "GVZR:14:38",
+        "VASB:cbpbab fcevatf, 72 lbs syh yvxr flczgbzf naq jrnx",
+        "VQ:898");
+
+    qbGrfg("G4",
+        "(Qvfcngpu) Havg 54-8  Ybpngvba: 995 ORNE YNXR EQ Pebff Fgerrgf: EVAXRE YA / BYQ EVIRE EQ 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/27/15 20:59 Angher bs Pnyy: 90 lbs qrulqengrq PSF Ahzore 551",
+        "HAVG:54-8",
+        "NQQE:995 ORNE YNXR EQ",
+        "K:Pebff Fgerrgf: EVAXRE YA / BYQ EVIRE EQ",
+        "PVGL:Gubeauhefg",
+        "PNYY:NYF",
+        "QNGR:06/27/15",
+        "GVZR:20:59",
+        "VASB:90 lbs qrulqengrq",
+        "VQ:551");
+
+    qbGrfg("G5",
+        "(Qvfcngpu) Havg 54-9  Ybpngvba: 995 ORNE YNXR EQ Pebff Fgerrgf: EVAXRE YA / BYQ EVIRE EQ 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/27/15 20:59 Angher bs Pnyy: 90 lbs qrulqengrq PSF Ahzore 551",
+        "HAVG:54-9",
+        "NQQE:995 ORNE YNXR EQ",
+        "K:Pebff Fgerrgf: EVAXRE YA / BYQ EVIRE EQ",
+        "PVGL:Gubeauhefg",
+        "PNYY:NYF",
+        "QNGR:06/27/15",
+        "GVZR:20:59",
+        "VASB:90 lbs qrulqengrq",
+        "VQ:551");
+
+    qbGrfg("G6",
+        "(Qvfcngpu) Havg 54-7  Ybpngvba: 23 FRVC QE Pebff Fgerrgf: GBOLUNAAN EQ / JNYGREF YA 55 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/24/15 17:04 Angher bs Pnyy: 30 LBZ CBFF FRVMHER PSF Ahzore 779",
+        "HAVG:54-7",
+        "NQQE:23 FRVC QE",
+        "K:Pebff Fgerrgf: GBOLUNAAN EQ / JNYGREF YA",
+        "PVGL:Yruvtu Gjc",
+        "PNYY:NYF",
+        "QNGR:06/24/15",
+        "GVZR:17:04",
+        "VASB:30 LBZ CBFF FRVMHER",
+        "VQ:779");
+
+    qbGrfg("G7",
+        "(Qvfcngpu) Havg 55-9 54-9  Ybpngvba: 23 FRVC QE Pebff Fgerrgf: GBOLUNAAN EQ / JNYGREF YA 55 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/24/15 17:04 Angher bs Pnyy: 30 LBZ CBFF FRVMHER PSF Ahzore 779",
+        "HAVG:55-9 54-9",
+        "NQQE:23 FRVC QE",
+        "K:Pebff Fgerrgf: GBOLUNAAN EQ / JNYGREF YA",
+        "PVGL:Yruvtu Gjc",
+        "PNYY:NYF",
+        "QNGR:06/24/15",
+        "GVZR:17:04",
+        "VASB:30 LBZ CBFF FRVMHER",
+        "VQ:779");
+
+    qbGrfg("G8",
+        "(Qvfcngpu) Havg 55-9 54-8  Ybpngvba: 40 A YRUVTU EVIRE QE Pebff Fgerrgf: EVIRE PG / YBPHFG YA 55 Pbzzba Anzr: Pnyy Glcr: OYF Pnyy Gvzr: 06/20/15 11:42 Angher bs Pnyy: 32 lbs fhvpvqny  PSF Ahzore 404",
+        "HAVG:55-9 54-8",
+        "NQQE:40 A YRUVTU EVIRE QE",
+        "K:Pebff Fgerrgf: EVIRE PG / YBPHFG YA",
+        "PVGL:Yruvtu Gjc",
+        "PNYY:OYF",
+        "QNGR:06/20/15",
+        "GVZR:11:42",
+        "VASB:32 lbs fhvpvqny",
+        "VQ:404");
+
+    qbGrfg("G9",
+        "(Qvfcngpu) Havg 54-8  Ybpngvba: 1030 ORNE YNXR EQ Pebff Fgerrgf: EVAXRE YA / BYQ EVIRE EQ 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/20/15 03:43 Angher bs Pnyy: 69LBZ PURFG CNVA  PSF Ahzore 299",
+        "HAVG:54-8",
+        "NQQE:1030 ORNE YNXR EQ",
+        "K:Pebff Fgerrgf: EVAXRE YA / BYQ EVIRE EQ",
+        "PVGL:Gubeauhefg",
+        "PNYY:NYF",
+        "QNGR:06/20/15",
+        "GVZR:03:43",
+        "VASB:69LBZ PURFG CNVA",
+        "VQ:299");
+
+    qbGrfg("G10",
+        "(Qvfcngpu) Havg 54-8  Ybpngvba: CURYCF EQ GNAAREL EQ Pebff Fgerrgf: 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/19/15 15:42 Angher bs Pnyy: GNXR SVEFG EVTUG BA CURYCF PBAGVAHRF BA CURYCF EQ  PSF Ahzore 929",
+        "HAVG:54-8",
+        "NQQE:CURYCF EQ",
+        "ZNQQE:CURYCF EQ & GNAAREL EQ Pebff Fgerrgf:",
+        "K:GNAAREL EQ Pebff Fgerrgf:",
+        "PVGL:Gubeauhefg",
+        "PNYY:NYF",
+        "QNGR:06/19/15",
+        "GVZR:15:42",
+        "VASB:GNXR SVEFG EVTUG BA CURYCF PBAGVAHRF BA CURYCF EQ",
+        "VQ:929");
+
+    qbGrfg("G11",
+        "(Qvfcngpu) Havg 55-9 54-8  Ybpngvba: 309 EG 435 Pebff Fgerrgf: 55 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/19/15 07:32 Angher bs Pnyy: znyr cnffrq bhg va n irpu  PSF Ahzore 672",
+        "HAVG:55-9 54-8",
+        "NQQE:309 EG 435",
+        "K:Pebff Fgerrgf:",
+        "PVGL:Yruvtu Gjc",
+        "PNYY:NYF",
+        "QNGR:06/19/15",
+        "GVZR:07:32",
+        "VASB:znyr cnffrq bhg va n irpu",
+        "VQ:672");
+
+    qbGrfg("G12",
+        "(Qvfcngpu) Havg 54-8  Ybpngvba: 990 ORNE YNXR EQ Pebff Fgerrgf: EVAXRE YA / QBZORX QE 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/17/15 07:12 Angher bs Pnyy: ZNYR NOQ CNVA    78 LBZ PSF Ahzore 412",
+        "HAVG:54-8",
+        "NQQE:990 ORNE YNXR EQ",
+        "K:Pebff Fgerrgf: EVAXRE YA / QBZORX QE",
+        "PVGL:Gubeauhefg",
+        "PNYY:NYF",
+        "QNGR:06/17/15",
+        "GVZR:07:12",
+        "VASB:ZNYR NOQ CNVA    78 LBZ",
+        "VQ:412");
+
+    qbGrfg("G13",
+        "(Qvfcngpu) Havg 54-8  Ybpngvba: 617 PYVSGBA ORNPU EQ Pebff Fgerrgf: OHOON YA / CNTR QE 55 Pbzzba Anzr: Pnyy Glcr: OYF Pnyy Gvzr: 06/16/15 18:45 Angher bs Pnyy: RQAN YNFGN 84 LB S CRAQNAG NPGVIR AB ERFCBAFR PSF Ahzore 222",
+        "HAVG:54-8",
+        "NQQE:617 PYVSGBA ORNPU EQ",
+        "K:Pebff Fgerrgf: OHOON YA / CNTR QE",
+        "PVGL:Yruvtu Gjc",
+        "PNYY:OYF",
+        "QNGR:06/16/15",
+        "GVZR:18:45",
+        "VASB:RQAN YNFGN 84 LB S CRAQNAG NPGVIR AB ERFCBAFR",
+        "VQ:222");
+
+    qbGrfg("G14",
+        "(Qvfcngpu) Havg 54-7  Ybpngvba: 644 BYQ EVIRE EQ Pebff Fgerrgf: CVAR TEBIR EQ / PBBZOR PG 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/15/15 16:55 Angher bs Pnyy: 26lbz qvss oernguvat PSF Ahzore 563",
+        "HAVG:54-7",
+        "NQQE:644 BYQ EVIRE EQ",
+        "K:Pebff Fgerrgf: CVAR TEBIR EQ / PBBZOR PG",
+        "PVGL:Gubeauhefg",
+        "PNYY:NYF",
+        "QNGR:06/15/15",
+        "GVZR:16:55",
+        "VASB:26lbz qvss oernguvat",
+        "VQ:563");
+
+    qbGrfg("G15",
+        "(Qvfcngpu) Havg 55-9 54-7  Ybpngvba: 526 ZNVA FG Pebff Fgerrgf: 3EQ FG / 2AQ FG 55 Pbzzba Anzr: Pnyy Glcr: OYF Pnyy Gvzr: 06/15/15 14:56 Angher bs Pnyy: 17 lb srznyr, nppvqragny xavsr jbhaq gb gur arpx PSF Ahzore 481",
+        "HAVG:55-9 54-7",
+        "NQQE:526 ZNVA FG",
+        "K:Pebff Fgerrgf: 3EQ FG / 2AQ FG",
+        "PVGL:Yruvtu Gjc",
+        "PNYY:OYF",
+        "QNGR:06/15/15",
+        "GVZR:14:56",
+        "VASB:17 lb srznyr, nppvqragny xavsr jbhaq gb gur arpx",
+        "VQ:481");
+
+    qbGrfg("G16",
+        "(Qvfcngpu) Havg 54-7  Ybpngvba: 896 BYQ EVIRE EQ Pebff Fgerrgf: QVRGEVPUF EQ / PYVSGBA ORNPU EQ 54 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/15/15 09:54 Angher bs Pnyy: 84 LBS QVSS OERNGUVAT PSF Ahzore 289",
+        "HAVG:54-7",
+        "NQQE:896 BYQ EVIRE EQ",
+        "K:Pebff Fgerrgf: QVRGEVPUF EQ / PYVSGBA ORNPU EQ",
+        "PVGL:Gubeauhefg",
+        "PNYY:NYF",
+        "QNGR:06/15/15",
+        "GVZR:09:54",
+        "VASB:84 LBS QVSS OERNGUVAT",
+        "VQ:289");
+
+    qbGrfg("G17",
+        "(Qvfcngpu) Havg 55-9 54-7  Ybpngvba: 84 ZBUVPNA CNGU Pebff Fgerrgf: PBPUVFR GEY / TREBAVZB GEY 55 Pbzzba Anzr: Pnyy Glcr: NYF Pnyy Gvzr: 06/12/15 15:41 Angher bs Pnyy: 82 lbz nygrerq zragny fgnghf PSF Ahzore 723",
+        "HAVG:55-9 54-7",
+        "NQQE:84 ZBUVPNA CNGU",
+        "K:Pebff Fgerrgf: PBPUVFR GEY / TREBAVZB GEY",
+        "PVGL:Yruvtu Gjc",
+        "PNYY:NYF",
+        "QNGR:06/12/15",
+        "GVZR:15:41",
+        "VASB:82 lbz nygrerq zragny fgnghf",
+        "VQ:723");
 
   }
 

@@ -30,7 +30,10 @@ public class PAMonroeCountyParser extends SmartAddressParser {
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
     data.strCall = match.group(1);
-    body = body.substring(match.end()).replaceAll("//+", "/");
+    body = body.substring(match.end());
+    int pt = body.indexOf("\nSent by");
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    body = body.replaceAll("//+", "/");
     
     parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT | FLAG_CROSS_FOLLOWS, body, data);
     
@@ -53,7 +56,7 @@ public class PAMonroeCountyParser extends SmartAddressParser {
     // an intersection.  We will try to undo the damage that results
     
     String sAddr = data.strAddress;
-    int pt = sAddr.indexOf('&');
+    pt = sAddr.indexOf('&');
     if (pt >= 0) {
       String part1 = sAddr.substring(0,pt).trim();
       String part2 = sAddr.substring(pt+1).trim();
