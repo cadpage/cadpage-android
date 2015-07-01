@@ -1364,7 +1364,7 @@ choyvp pynff INFzlguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G25",
         "1 446308 09:10:09 OBZ - OBZO GUERNG",
-        "CYNPR:1",
+        "NQQE:1",
         "VQ:446308",
         "GVZR:09:10:09",
         "PNYY:OBZ - OBZO GUERNG");
@@ -1964,7 +1964,7 @@ choyvp pynff INFzlguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G92",
         "1 438932 22:07:41 NP - GENSSVP NPPVQRAG 2 IRUVPYR ZIP VAGREFRPGVBA J GBJA / CNEX",
-        "CYNPR:1",
+        "NQQE:1",
         "VQ:438932",
         "GVZR:22:07:41",
         "PNYY:NP - GENSSVP NPPVQRAG",
