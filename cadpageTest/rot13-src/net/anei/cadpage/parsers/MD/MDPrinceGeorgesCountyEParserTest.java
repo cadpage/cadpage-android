@@ -75,6 +75,10 @@ Fraqre: nyeg_L5X0@nyreg.pb.ct.zq.hf
 ab fhowrpg / S142270186: Zrqvp Ybpny, 5102 QRNY QE, CC, ogja NHQERL YA naq PUNIRM FG, GT
 1/2 / S142270202: Vaqhfgevny/Snez Nppv, 10480 PNZCHF JNL F, CC, ogja YNETB EQ naq
 
+Pbagnpg: Puvrs 42N <buisq2142@lnubb.pbz>
+Fraqre: 87844
+Aba-Rzret Freivpr - QVFCNGPU Sebz SRQ01:S151810338: Aba-Rzret Freivpr, 2220 NYVPR NIR, CC, ogja RAQ naq IVETVAVN YA, GTP2, 4215, Havg:CR842
+
 Pbagnpg: Ancbyrba Rccf fe <a.rccf_fe@lznvy.pb
 Fraqre: nyeg_L9GQ@nyreg.pb.ct.zq.hf
 ab fhowrpg / S142320100: Crqrfgevna Fgehpx, ANGVBANY UNEOBE OYIQ/NZREVPNA JNL, CC,  <449
@@ -2547,6 +2551,15 @@ choyvp pynff ZQCevaprTrbetrfPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Vaqhfgevny/Snez Nppv",
         "NQQE:10480 PNZCHF JNL F",
         "K:YNETB EQ naq");
+
+    qbGrfg("G1",
+        "Aba-Rzret Freivpr - QVFCNGPU Sebz SRQ01:S151810338: Aba-Rzret Freivpr, 2220 NYVPR NIR, CC, ogja RAQ naq IVETVAVN YA, GTP2, 4215, Havg:CR842",
+        "PNYY:Aba-Rzret Freivpr - QVFCNGPU Sebz SRQ01:S151810338: Aba-Rzret Freivpr",
+        "NQQE:2220 NYVPR NIR",
+        "K:RAQ naq IVETVAVN YA",
+        "PU:GTP2",
+        "OBK:4215",
+        "HAVG:CR842");
     
   }
   
