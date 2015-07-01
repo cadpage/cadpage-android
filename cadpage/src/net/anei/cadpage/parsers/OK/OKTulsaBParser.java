@@ -42,4 +42,14 @@ public class OKTulsaBParser extends FieldProgramParser {
       super.parse(field+'m', data);
     }
   }
+  
+  @Override
+  public String adjustMapCity(String city) {
+    
+    // Google apparently has a much more restrictive definition of Turley
+    // than dispatch does.  Things seem to map better if we refer to everything
+    // in TULSA"
+    if (city.equals("TURLEY")) city = "TULSA";
+    return city;
+  }
 }
