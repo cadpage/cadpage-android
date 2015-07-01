@@ -3,19 +3,19 @@ package net.anei.cadpage.parsers.NC;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
-public class NCEdgecombeCountyParser extends SmartAddressParser {
+public class NCEdgecombeCountyParser extends FieldProgramParser {
   
-  private static final Pattern MASTER = Pattern.compile("Edgecombe(?:911|Central):(.*)");
+  private static final Pattern MARKER = Pattern.compile("Edgecombe(?:911|Central):");
   private static final Pattern CALL_CODE_UNIT_PTN = Pattern.compile("(.*) CODE (\\d) (.*)");
   private static final Pattern CALL_UNIT_PTN = Pattern.compile("(.*?) ([A-Z]*\\d[ ,A-Z0-9]*)");
   
   public NCEdgecombeCountyParser() {
-    super(CITY_LIST, "EDGECOMBE COUNTY", "NC");
-    setFieldList("ADDR APT CITY CALL PRI UNIT");
+    super(CITY_LIST, "EDGECOMBE COUNTY", "NC",
+          "ADDR EMPTY EMPTY CITY EMPTY EMPTY EMPTY EMPTY EMPTY CALL EMPTY EMPTY UNIT END");
   }
   
   @Override
@@ -26,10 +26,14 @@ public class NCEdgecombeCountyParser extends SmartAddressParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
-    body = match.group(1).trim();
+    Matcher match = MARKER.matcher(body);
+    if (!match.lookingAt()) return false;
+    body = body.substring(match.end()).trim();
     
+    String[] flds =  body.split("\n");
+    if (flds.length > 10) return parseFields(flds, data);
+    
+    setFieldList("ADDR APT CITY CALL PRI UNIT");
     parseAddress(StartType.START_ADDR, body.replace(" @ ", " / ").replace("//", "/"), data);
     body = getLeft();
     if (body.length() == 0) return false;

@@ -17,7 +17,7 @@ public class NJAtlanticCountyAParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("DISPATCH")) return false;
+    if (!subject.equals("DISPATCH") && !subject.equals("Dispatch")) return false;
 
     return super.parseFields(body.split("\n"), data);
   }
