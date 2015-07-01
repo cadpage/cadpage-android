@@ -15,7 +15,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class CAElDoradoCountyParser extends MsgParser {
   
   private static final Pattern MARKER = Pattern.compile("^(\\d{1,2}-\\w{3}-\\d{4})/(\\d\\d:\\d\\d:\\d\\d)[:;] ");
-  private static final Pattern MAP_URL_PTN = Pattern.compile("<a href=\"http://maps\\.google\\.com/.*?\">Map;</a>");
+  private static final Pattern MAP_URL_PTN = Pattern.compile("<a href=\\\\?\"http://maps\\.google\\.com/.*?\\\\?\">Map;</a>");
   private static final Pattern MASTER = Pattern.compile("^(.*?)[:;] Inc# (.*?)[:;] (.*?) *,([_A-Za-z0-9]*?)[ ;](?:\\((.*?)\\) )? *(.*?)(?:;|$)");
   private static final Pattern B_ADDR = Pattern.compile("=[BL]\\(.*\\)");
   private static final DateFormat DATE_FMT = new SimpleDateFormat("dd-MMM-yyyy");

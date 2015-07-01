@@ -7,6 +7,9 @@ vzcbeg bet.whavg.Grfg;
 
 /*
  Zbagtbzrel Pbhagl, ZQ
+ 
+ Pbagnpg: Znggurj Ubhpx <ssubhpx@tznvy.pbz>
+ 
  Pbagnpg: Nynva Cnaxbcs <ubpxrlynkobl11@tznvy.pbz>
  Fraqre: ep.355@p-zft.arg,@zpra.zbagtbzrelpbhaglzq.tbi 
 
