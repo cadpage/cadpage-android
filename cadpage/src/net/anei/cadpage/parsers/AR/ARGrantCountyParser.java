@@ -29,6 +29,7 @@ public class ARGrantCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if(name.equals("ID")) return new MyIdField();
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("TIME")) return new TimeField("\\d\\d?:\\d\\d?:\\d\\d?", true);
     return super.getField(name);
   }
@@ -46,6 +47,31 @@ public class ARGrantCountyParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "SRC ID";
+    }
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      String apt = "";
+      while (true) {
+        int pt = field.lastIndexOf('[');
+        if (pt < 0) break;
+        String part = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+        if (part.startsWith(":")) {
+          apt = append(part.substring(1).trim(), "-", apt);
+        } else {
+          data.strPlace = append(stripFieldStart(part, "@"), " - ", data.strPlace);
+        }
+      }
+      super.parse(field, data);
+      data.strApt = append(data.strApt, "-", apt);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR PLACE APT";
     }
   }
 }

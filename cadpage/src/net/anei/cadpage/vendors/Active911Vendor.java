@@ -187,6 +187,7 @@ class Active911Vendor extends Vendor {
       "US/AR/BentonCounty",               "ARBentonCountyA",
       "US/AR/Bentonville",                "ARBentonCountyC",
       "US/AR/CityofRogers",               "ARBentonCountyB",
+      "US/AR/GrantCounty",                "ARGrantCounty",
       "US/AR/LifeNetEms",                 "ARGarlandCounty",
       "US/AR/PopeCounty",                 "ARPopeCounty",
       "US/AZ/NavajoCounty",               "AZNavajoCounty",
