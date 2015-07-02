@@ -38,6 +38,8 @@ public class VAAugustaCountyParser extends DispatchOSSIParser {
 
   @Override
   public boolean parseMsg(String body, Data data) {
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
     body = DELIM_PTN.matcher(body).replaceAll(";");
     return super.parseMsg(body, data);
   }
