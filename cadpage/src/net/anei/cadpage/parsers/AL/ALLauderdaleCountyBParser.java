@@ -19,16 +19,30 @@ public class ALLauderdaleCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@everbridge.net,89361";
+    return "@everbridge.net,89361,87844";
   }
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("([A-Z]{2,3}\\d{8}) EV- +.*");
+  private static final Pattern MASTER = Pattern.compile("([A-Z]{2,3}\\d{8}) EV- .*? - ((?:Pri|Address)-.*)");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    Matcher match = SUBJECT_PTN.matcher(subject);
-    if (!match.matches()) return false;
-    data.strCallId = match.group(1);
+    do {
+      Matcher match = SUBJECT_PTN.matcher(subject);
+      if (match.matches()) {
+        data.strCallId = match.group(1);
+        break;
+      }
+        
+      match = MASTER.matcher(body);
+      if (match.matches()) {
+        data.strCallId = match.group(1);
+        body = match.group(2);
+        break;
+      }
+      
+      return false;
+    } while (false);
     
     return super.parseMsg(body, data);
   }
