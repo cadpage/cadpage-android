@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Tneynaq Pbhagl, NE
+Tenag Pbhagl, NE
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pnyireg GJC ISQ (TP/NE)

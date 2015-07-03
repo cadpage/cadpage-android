@@ -4,7 +4,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /**
- * Lee county, NC
+ * Lee County, NC
  */
 public class NCLeeCountyParser extends DispatchOSSIParser {
 

@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.WY;
 import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 
 /**
- * Park County, OR
+ * Park County, WY
  */
 public class WYParkCountyParser extends DispatchA20Parser {
   

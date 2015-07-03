@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.AZ;
 import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 
 /**
- * Navajo County (B), AZ
+ * Navajo County, AZ (B)
  */
 public class AZNavajoCountyBParser extends DispatchA20Parser {
   

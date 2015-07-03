@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
-Unzvygba Pbhagl, GA
+Unzvygba Pbhagl, GA (P) 
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zbjoenl ISQ

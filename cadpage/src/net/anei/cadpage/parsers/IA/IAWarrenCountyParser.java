@@ -1,48 +1,10 @@
 package net.anei.cadpage.parsers.IA;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import net.anei.cadpage.parsers.GroupBestParser;
 
-import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchA38Parser;
-
-
-
-public class IAWarrenCountyParser extends DispatchA38Parser {
-  
-  private static final Pattern MISSING_CFS_PTN = Pattern.compile("\\d{4}-\\d+\n");
+public class IAWarrenCountyParser extends GroupBestParser {
   
   public IAWarrenCountyParser() {
-    super("WARREN COUNTY", "IA");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "messaging@iamresponding.com";
-  }
-  
-  @Override
-  public boolean parseMsg(String subject, String body, Data data) {
-    data.strSource = subject;
-    
-    
-    // Fix up some IAR scrambling :(
-    Matcher match = MISSING_CFS_PTN.matcher(body);
-    if (match.lookingAt()) {
-      body =  "CFS#: " + body;
-    }
-    
-    else if (body.startsWith(":")) {
-      body = "CFS#: 0000-00000\nCallType" + body;
-    }
-    
-    if (!super.parseMsg(body, data)) return false;
-    if (data.strCallId.equals("0000-00000")) data.strCallId = "";
-    return true;
-  }
-  
-  @Override
-  public String getProgram() {
-    return "SRC " + super.getProgram();
+   super(new IAWarrenCountyAParser(), new IAWarrenCountyBParser());
   }
 }

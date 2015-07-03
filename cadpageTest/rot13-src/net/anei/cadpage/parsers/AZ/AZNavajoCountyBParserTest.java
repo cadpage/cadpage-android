@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Fubj Ybj, NM
+Aninwb Pbhagl, NM (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Urore-Biretnneq SQ
