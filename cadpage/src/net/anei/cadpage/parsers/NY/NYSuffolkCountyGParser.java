@@ -14,7 +14,7 @@ public class NYSuffolkCountyGParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "commackfd@gmail.com";
+    return "commackfd@gmail.com,commackfd2@gmail.com";
   }
   
   @Override

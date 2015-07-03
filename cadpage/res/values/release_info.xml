@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">06302015</string>
-  <string name="release_version">v1.8.42</string>
+  <string name="release_date">07032015</string>
+  <string name="release_version">v1.8.43</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.43\n
+New Locations:\n
+Navajo County, AZ (alt)\n
+Grant County, AR\n
+Eagle County, CO\n
+Cocoa, FL\n
+Randolph County, IL\n
+Parke County, IN\n
+Warren County, IA (alt)\n
+Lee County, NC\n
+Cuyahoga County, OH (alt)\n
+Tusla, OK (alt)\n
+Halilton County, TN (alt)\n
+Hanover County, VA (alt)\n
+Park County, WY\n
+\n
+Location Fixes:\n
+Lauderdale County, AL\n
+El Dorado County, CA\n
+Montgomery County, MD\n
+Prince Georges County, MD\n
+Barry County, MO\n
+Edgecombe County, NC\n
+Hertford County, NC\n
+Monroe County, PA\n
+Augusta County, VA\n
+\n      
 v1.8.42\n
 New Locations:\n
 Grant County, IN\n
@@ -74,34 +101,7 @@ Nassau County, NY\n
 Deschuttes County, OR\n
 \n
 General Fixes:\n
-Crashes when you try to open a null message.\n
-\n      
-v1.8.38\n
-New Locations:\n
-Chaffee County, CO\n
-Cooks County, IL\n
-Morton County, KS\n
-Dukes County, MA\n
-Ontario County, NY\n
-Wayne County, NY\n
-Delaware County, PA\n
-Lycoming County, PA\n
-\n
-Location Fixes:\n
-Yolo County, CA\n
-Stamford, CT\n
-El Paso County, CO\n
-Mesa County, CO\n
-Montgomery County, MD\n
-Franklin County, MO\n
-Mercer County, NJ\n
-Madison County, NY\n
-Monroe County, NY\n
-Oswego County, NY\n
-Steuben County, NY\n
-Wayne County, NC\n
-Erie County, PA\n
-Williamson County, TN
+Crashes when you try to open a null message.
   </string>
 </resources>
   
