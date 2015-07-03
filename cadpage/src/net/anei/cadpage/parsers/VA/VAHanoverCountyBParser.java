@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /**
- * Hanover County, VA
+ * Hanover County, VA (B)
  */
 public class VAHanoverCountyBParser extends DispatchOSSIParser {
     
