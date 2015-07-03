@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.VA;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
@@ -13,7 +14,7 @@ public class VAHanoverCountyBParser extends DispatchOSSIParser {
   
   public VAHanoverCountyBParser() {
     super(CITY_CODES, "HANOVER COUNTY", "VA",
-          "( CANCEL ADDR CITY | ADDR CALL PRI! ( X/Z X/Z CITY | X/Z CITY | CITY ) MAP ID ) INFO+");
+          "( CANCEL ADDR CITY | ADDR CALL PRI! ( CITY | X/Z CITY | X/Z X/Z CITY ) MAP ID UNIT ) INFO+");
   }
   
   @Override
@@ -27,7 +28,7 @@ public class VAHanoverCountyBParser extends DispatchOSSIParser {
   private class MyCityField extends CityField {
     @Override
     public boolean checkParse(String field, Data data) {
-      if (isLastField() && field.length() < 2) return true;
+      if (isLastField(+1) && field.length() < 2) return true;
       if (field.length() > 4) return false;
       return super.checkParse(field, data);
     }
@@ -44,11 +45,18 @@ public class VAHanoverCountyBParser extends DispatchOSSIParser {
     @Override
     public void parse(String field, Data data) {
       if (!NUMERIC.matcher(field).matches()) abort();
-      if (field.length() < 8) return;
-      if (field.length() > 8) abort();
+      if (field.length() < 12) return;
+      if (field.length() > 12) abort();
       super.parse(field, data);
     }
   }
+  
+  @Override
+  public String adjustMapAddress(String address) {
+    address = BY_PTN.matcher(address).replaceAll("BYPASS");
+    return super.adjustMapAddress(address);
+  }
+  private static final Pattern BY_PTN = Pattern.compile("\\bBY\\b", Pattern.CASE_INSENSITIVE);
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "AS",   "ASHLAND",
