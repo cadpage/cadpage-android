@@ -22,7 +22,7 @@ public class TNCampbellCountyParser extends DispatchGeoconxParser {
 
   @Override
   public String getFilter() {
-    return "dispatch@911email.net";
+    return "@911email.net,@911email.org";
   }
 
   @Override

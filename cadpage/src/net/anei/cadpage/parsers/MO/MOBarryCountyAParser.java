@@ -19,6 +19,7 @@ public class MOBarryCountyAParser extends DispatchB2Parser {
   public MOBarryCountyAParser() {
     super("BC911:", MOBarryCountyParser.CITY_LIST, "BARRY COUNTY", "MO");
     setupCallList(CALL_LIST);
+    setupGpsLookupTable(MOBarryCountyParser.GPS_LOOKUP_TABLE);
   }
   
   @Override
@@ -26,6 +27,11 @@ public class MOBarryCountyAParser extends DispatchB2Parser {
     return MAP_FLG_KEEP_STATE_HIGHWAY | MAP_FLG_SUPPR_CR;
   }
   
+  @Override
+  protected String adjustGpsLookupAddress(String address, String apt) {
+    return MOBarryCountyParser.fixGpsLookupAddress(address, apt);
+  }
+
   @Override
   public boolean parseMsg(String body, Data data) {
     
