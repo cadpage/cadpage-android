@@ -144,7 +144,7 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     }
   }
 
-  private static final Pattern UNIT_PTN = Pattern.compile("(?:[0-9]?[A-Z]+[0-9]+|[0-9]{4})(?:[,\\$][A-Z0-9,\\$]+)?\\b");
+  private static final Pattern UNIT_PTN = Pattern.compile("(?:[0-9]?[A-Z]+[0-9]+|[0-9]{4}|[A-Z]{2})(?:[,\\$][A-Z0-9,\\$]+)?\\b");
   private class MyUnitField extends UnitField {
     public MyUnitField() {
       setPattern(UNIT_PTN, true);
