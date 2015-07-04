@@ -616,6 +616,7 @@ Ntrapl anzr: CTSQ 805-Pncvgby Urvtugf ZQ
 Ybpngvba: Pncvgby Urvtugf, ZQ, Havgrq Fgngrf
 Fraqre: @rireoevqtr.arg
 
+(Zrqvp Ybpny) QVFCNGPU Sebz SRQ01:S151810174: Zrqvp Ybpny, 5354 TNL FG A.R., GTN2, ZNQP, Havg:N805
 (Bhgfvqr Sver) QVFCNGPU Sebz SRQ01:S142600176: Bhgfvqr Sver, RNFGREA NIR/AO ZNEGVA YHGURE XVAT WE UJL, CC,  <299/ 0>, GTN2, 0810, Havg:R805O
 (Zrqvp Ybpny) QVFCNGPU Sebz SRQ01:S142600161: Zrqvp Ybpny, 509 PNOVA OENAPU EQ, CC, ogja FG ZNETNERGF QE naq PNOVA OENAPU PG, GTN2, 0808, Havgf:N805, ZQ826
 (OYF Nzo) QVFCNGPU Sebz SRQ01:S142600111: OYF Nzo, ZBGRY 6 - PNZC FCEVATF, CC, ng 5701 NYYRAGBJA EQ, CC, GTP2, 2709, Havg:N805
@@ -7271,6 +7272,15 @@ choyvp pynff ZQCevaprTrbetrfPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgCTSQ805PncvgbyUrvtugfZQ() {
+
+    qbGrfg("K1",
+        "(Zrqvp Ybpny) QVFCNGPU Sebz SRQ01:S151810174: Zrqvp Ybpny, 5354 TNL FG A.R., GTN2, ZNQP, Havg:N805",
+        "VQ:S151810174",
+        "PNYY:Zrqvp Ybpny",
+        "NQQE:5354 TNL FG AR",
+        "PU:GTN2",
+        "OBK:ZNQP",
+        "HAVG:N805");
 
     qbGrfg("G1",
         "(Bhgfvqr Sver) QVFCNGPU Sebz SRQ01:S142600176: Bhgfvqr Sver, RNFGREA NIR/AO ZNEGVA YHGURE XVAT WE UJL, CC,  <299/ 0>, GTN2, 0810, Havg:R805O",
