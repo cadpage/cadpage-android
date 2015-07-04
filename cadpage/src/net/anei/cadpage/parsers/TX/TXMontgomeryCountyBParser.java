@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.ReverseCodeSet;
 import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 
@@ -13,25 +14,31 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
  */
 public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
-  private static final Pattern MASTER1 = Pattern.compile("(?:(\\d{2,4}-\\d{6,7}) +)?(?:(\\d{8} \\d{8}) +)?(.*?)(?: *(\\d\\d[A-Z]-?[A-Z]))? *((?:WOODLA)?\\d{2,4}[A-Za-z])(?: +(F[DG] ?\\d+(?: +F[DG] ?\\d+)*)(?: +(?:North|East|South|West))?)?(?: +((?:[A-Z]+\\d+|Lake Rescue)(?: +[A-Z]+\\d+)*))?(?: +(TAC +\\d+))?");
+  private static final Pattern MASTER1 = Pattern.compile("(?:(\\d{2,4}-\\d{6,7}) +)?(?:(\\d{8} \\d{8}) +)?(.*?)(?: *(\\d\\d[A-Z]-?[A-Z]))? *((?:WOODLA|01&03-)?\\d{2,4}[A-Za-z])(?: +(F[DG] ?\\d+(?: +F[DG] ?\\d+)*)(?: +(?:North|East|South|West))?)?(?: +((?:[A-Z]+\\d+|Lake Rescue)(?: +[A-Z]+\\d+)*))?(?: +(TAC +\\d+))?");
   private static final Pattern MASTER2 = Pattern.compile("(?:([A-Z0-9]+)-)?(.*?) *(\\d\\d[A-Z]-[A-Z]) +(.*?) +(F[DG]\\d+(?: +F[DG]\\d+)*) +(\\d{2,3}[A-Za-z])(?: +(.*))?");
-  private static final Pattern MASTER3 = Pattern.compile("([^\\d].*?)(0BH \\d|\\d\\d[A-Z]{2}\\b)(.*?)(?: (F[DG]\\d))? (\\d{2,3}[A-Z]) (.*)");
+  private static final Pattern MASTER3 = Pattern.compile("([^\\d].*?)(0BH \\d|\\d\\d[A-Z]{2}\\b)(.*?)(?: (F[DG]\\d))? (\\d{2,4}[A-Z]) (.*)");
   
   private static final Pattern ADDRESS_RANGE_PTN = Pattern.compile("\\b(\\d+) *- *(\\d+)\\b");
   
-  private static final Pattern NOTIFICATION_PTN = Pattern.compile("(\\d\\d-\\d{6} - \\d+)\\) (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) [\\d:]+\\.000-\\[\\d+\\] \\[Notification\\] +(.*?)(?: +\\[Shared\\])?");
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("ID#:(\\d{2}-\\d{6}) ; Unit:([^ ]+) ; (AC - Assignment Complete ; .*)");
+  private static final Pattern RUN_REPORT_PTN1 = Pattern.compile("ID#:(\\d{2}-\\d{6}) *; *Unit:([^ ]+) *; *(AC - Assignment Complete *; *.*)");
+  private static final Pattern RUN_REPORT_PTN2 = Pattern.compile("ID[#:](\\d{4}-\\d{6}) *[-;]([A-Z][ A-Za-z]+:\\d\\d:\\d\\d:\\d\\d\\b.*)");
+  private static final Pattern RUN_REPORT_PTN3 = Pattern.compile("(\\d{4}-\\d{6}) (Time at Destination:\\d\\d:\\d\\d:\\d\\d)(.*?)-Destination Address:(.*) -");
+  private static final Pattern NOTIFICATION_PTN1 = Pattern.compile("(\\d\\d-\\d{6}) - \\d+\\) (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) [\\d:]+\\.000-\\[\\d+\\] \\[Notification\\] +(.*?)(?: +\\[Shared\\])?");
+  private static final Pattern NOTIFICATION_PTN2 = Pattern.compile("ID#:(\\d\\d-\\d{6}) ; \\d+\\) (.*)");
+  
+  private static final Pattern PREFIX_PTN = Pattern.compile("^Comment: \\w+, ");
 
+  private static final Pattern ADDR_CODE_CALL_PTN = Pattern.compile("(.*?)([#\\*]\\d+|\\d{1,2}[A-Z]\\d{1,2}[A-Z]?) *-[- ]*(.*)");
   private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<=[a-z])(?=[A-Z])|(?<= [A-Z])(?=[A-Z][a-z])");
   
   public TXMontgomeryCountyBParser() {
     super(CITY_LIST, "MONTGOMERY COUNTY", "TX",
-           "ID:ID! UNIT:UNIT! CALL:CALL! PLACE:PLACE! ADDR:ADDR! CITY:CITY! MAP:MAP! GPS! GPS!");
+          "ID:ID! PRI:PRI? UNIT:UNIT! PRI:PRI? CALL:CALL! PLACE:PLACE! APT:APT? ADDR:ADDR! ( X-STREETS:X! MAP:MAP! CITY:CITY! CROSS_STREETS:SKIP! | CROSS_STREETS:X! MAP:MAP! CITY:CITY! CHANNEL:CH! | CITY:CITY! ( MAP:MAP! | ) | ) ( INFO:INFO! | GPS! GPS! )");
   }
   
   @Override
   public String getFilter() {
-    return "tritechcad@mchd-tx.org";
+    return "tritechcad@mchd-tx.org,ALARMSQLServer";
   }
   
   @Override
@@ -52,28 +59,64 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
     
-    Matcher match = RUN_REPORT_PTN.matcher(body);
+    Matcher match = RUN_REPORT_PTN1.matcher(body);
     if (match.matches()) {
-      data.strCall = "RUN REPORT";
+      setFieldList("ID UNIT INFO");
+      data.msgType = MsgType.RUN_REPORT;
       data.strCallId = match.group(1);
       data.strUnit = match.group(2);
-      data.strPlace = match.group(3);
+      for (String time : match.group(3).split(";")) {
+        data.strSupp = append(data.strSupp, "\n", time.trim());
+      }
       return true;
     }
     
-    match = NOTIFICATION_PTN.matcher(body);
+    match = RUN_REPORT_PTN2.matcher(body);
     if (match.matches()) {
-      data.strCall = "GENERAL ALERT";
+      setFieldList("ID INFO");
+      data.msgType = MsgType.RUN_REPORT;
+      data.strCallId = match.group(1);
+      for (String time : match.group(2).split("[-;]")) {
+        data.strSupp = append(data.strSupp, "\n", time.trim());
+      }
+      return true;
+    }
+    
+    match = RUN_REPORT_PTN3.matcher(body);
+    if (match.matches()) {
+      setFieldList("ID INFO PLACE ADDR");
+      data.msgType = MsgType.RUN_REPORT;
+      data.strCallId = match.group(1);
+      data.strSupp = match.group(2).trim();
+      data.strPlace = match.group(3).trim();
+      data.strAddress = match.group(4).trim();
+      return true;
+    }
+    
+    match = NOTIFICATION_PTN1.matcher(body);
+    if (match.matches()) {
+      setFieldList("ID DATE TIME INFO");
+      data.msgType = MsgType.GEN_ALERT;
       data.strCallId = match.group(1);
       data.strDate = match.group(2);
       data.strTime = match.group(3);
-      data.strPlace = match.group(4);
+      data.strSupp = match.group(4);
+      return true;
+    }
+    
+    match = NOTIFICATION_PTN2.matcher(body);
+    if (match.matches()) {
+      setFieldList("ID INFO");
+      data.msgType = MsgType.GEN_ALERT;
+      data.strCallId = match.group(1);
+      data.strSupp = match.group(2).trim();
       return true;
     }
     
     // See if we can use the regular semicolon delimited form
     String[] flds = body.split(";");
-    if (flds.length >= 9) {
+    if (flds.length >= 6) {
+      flds[0] = PREFIX_PTN.matcher(flds[0]).replaceFirst("");
       return parseFields(flds, data);
     }
     
@@ -106,7 +149,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
 
     match = MASTER1.matcher(body);
     if (match.matches()) {
-      setFieldList("ID GPS ADDR APT CITY CALL BOX MAP SRC UNIT CH");
+      setFieldList("ID GPS ADDR APT CITY CODE CALL BOX MAP SRC UNIT CH");
       data.strCallId = getOptGroup(match.group(1));
       String gps = match.group(2);
       if (gps != null) parseGPSField(gps, data);
@@ -120,10 +163,19 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       
       // What we have is an address followed by a call, with no consistent
       // way to identify the break.
-      // Start by looking it up in a reverse call list
+      // Start by looking for a call code 
       boolean found = false;
-      String call = CALL_SET.getCode(addr);
-      if (call != null) {
+      String call;
+      match = ADDR_CODE_CALL_PTN.matcher(addr);
+      if (match.matches()) {
+        found = true;
+        addr = match.group(1).trim();
+        data.strCode = match.group(2);
+        data.strCall = match.group(3);
+      }
+      
+      // Try looking it up in a reverse call list
+      if ((call = CALL_SET.getCode(addr)) != null) {
         found = true;
         data.strCall = call;
         addr = addr.substring(0,addr.length()-call.length());
@@ -179,12 +231,36 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{2,4}-\\d{6}", true);
+    if (name.equals("ID")) return new MyIdField();
     if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("X")) return new MyCrossField();
     if (name.equals("GPS")) return new MyGpsField();
     return super.getField(name);
   }
-  private static final Pattern CALL_PTN = Pattern.compile("([^-]+?) *-?- *(.*)");
+  
+  private static final Pattern ID_PTN = Pattern.compile("(\\d{2}-\\d{6}|\\d{4}-\\d{6})|(POST-\\d{7}/\\d{2})(\\d\\d:\\d\\d:\\d\\d)");
+  private class MyIdField extends IdField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = ID_PTN.matcher(field);
+      if (!match.matches()) abort();
+      String id = match.group(1);
+      if (id != null) {
+        data.strCallId = id;
+      } else {
+        data.strCallId = match.group(2);
+        data.strTime = match.group(3);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ID TIME";
+    }
+  }
+  
+  
+  private static final Pattern CALL_PTN = Pattern.compile("([#\\*]\\d+) *-[- ]*(.*)");
   private class MyCallField extends CallField {
     
     @Override
@@ -200,6 +276,16 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
     @Override
     public String getFieldNames() {
       return "CODE CALL";
+    }
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace("Not Found", "");
+      field = stripFieldStart(field, "/");
+      field = stripFieldEnd(field, "/");
+      super.parse(field, data);
     }
   }
   
@@ -231,6 +317,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
   private static final ReverseCodeSet CALL_SET = new ReverseCodeSet(
       "Abdominal Pain",
+      "Aircraft Emergency",
       "Alarm",
       "Alarm - Carbon Monox",
       "Alarm - Fire",
@@ -252,21 +339,29 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       "Electrical Hazard",
       "Electrical Hazard -",
       "Electrical Hazard - Live Wires",
+      "Electrical Hazard - Trans Fire",
+      "Electrocution",
+      "Explosion",
       "Eye Problems/Injury",
       "Fall",
       "Fluid Spill",
       "Gas",
+      "Gas - Cut Commercial",
       "Gas - Cut Line Outsi",
       "Gas - Cut Line Outside",
       "Gas - In a Residence",
       "Gas - Smell in Area",
       "Gas - Smell in a Bui",
       "Gas - Smell in a Res",
+      "Gas - Smell in a Residence",
+      "Hazmat",
       "Headache",
       "Heart Problems",
+      "Heat/Cold Exposure",
       "Hemorrhage/Laceratio",
       "Hemorrhage/Laceration",
       "Inhalation/Hazmat",
+      "Lake Rescue",
       "Life Flight Landing",
       "Lightning - To a Str",
       "MVA",
@@ -288,6 +383,9 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       "Outside - Illegal Burn",
       "Outside - Small Fire",
       "Outside - Trash Fire",
+      "Outside - Unknown Ty",
+      "Outside - Unknown Type Fire",
+      "Outside Fire",
       "Overdose/Ingestion",
       "Pregnancy/Miscarriag",
       "Pregnancy/Miscarriage",
@@ -295,6 +393,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       "Rescue - Elevator",
       "Seizures",
       "Service Call",
+      "Service Call - Alert",
       "Sick Person",
       "Smoke - In a Bldg Co",
       "Smoke - In a Bldg Commercial",
@@ -310,8 +409,11 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       "Structure - Apartmen",
       "Structure - Commerci",
       "Structure - Extingui",
+      "Structure - High Lif",
+      "Structure - High Life Hazard",
       "Structure - Resident",
       "Structure - Residential",
+      "Structure - Residential/Oven",
       "Structure - Small Building",
       "Structure Fire",
       "TEST",
@@ -321,7 +423,9 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       "Unknown Problem/Man Down",
       "Vehicle Fire - Comme",
       "Vehicle Fire",
+      "Water Rescue",
       "Water Rescue - Motor",
+      "WFD PA Child Locked",
       
       "#CFD AIRCRAFT EMERGENCY PA",
       "#CFD STRUCTURE FIRE PA",
@@ -330,8 +434,12 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       "COMMERCIAL ALARM",
       "COMMERCIAL GAS LEAK",
       "DRILL ONLY - TEST",
+      "GAS LEAK/ODOR PA",
       "SMALL OUTSIDE FIRE",
+      "SMOKE INVESTIGATION PA",
+      "STRUCTURE FIRE PA",
       "ODOR OF SMOKE OUTSIDE",
+      "OUTSIDE FIRE PA",
       "UNKNOWN FUEL SPILL"
 
   );
