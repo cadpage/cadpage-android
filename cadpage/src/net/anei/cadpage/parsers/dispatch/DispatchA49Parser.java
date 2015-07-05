@@ -14,18 +14,20 @@ public class DispatchA49Parser extends FieldProgramParser {
 
   public DispatchA49Parser(String defCity, String defState) {
     super(defCity, defState, 
-        "DATE_TIME_SRC! Addr:ADDR! Cross:X? Inc_Type:CODE! REMARKS! EXTRA+");
+        "DATE_TIME_SRC! Addr:ADDR! Cross:X? Inc_Type:CODE! Juris:SKIP? REMARKS! EXTRA+");
   }
   
+  private static final Pattern REMARKS_PTN = Pattern.compile("(\nRemarks) ([A-Z]?>)");
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = REMARKS_PTN.matcher(body).replaceFirst("$1:\n$2");
     return parseFields(body.split("\n+"), 5, data);
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("DATE_TIME_SRC")) return new MyDateTimeSourceField();
-    if (name.equals("REMARKS")) return new MyRemarkField();
+    if (name.equals("REMARKS")) return new SkipField("Remarks:", true);;
     if (name.equals("EXTRA")) return new MyExtraField();
     return super.getField(name);
   }
@@ -47,27 +49,24 @@ public class DispatchA49Parser extends FieldProgramParser {
       return "DATE TIME SRC ID";
     }
   }
-  
-  private static final Pattern REMARK_PTN = Pattern.compile("Remarks >RPT#< (\\d\\d-\\d{8})");
-  private class MyRemarkField extends IdField {
-    @Override
-    public void parse(String field, Data data) {
-      if (field.equals("Remarks:")) return;
-      Matcher match = REMARK_PTN.matcher(field);
-      if (!match.matches()) abort();
-      super.parse(match.group(1), data);
-    }
-  }
 
+  private static final Pattern EXTRA_ID_PTN  = Pattern.compile(">(?:RPT#|AC)< *([-\\d]+)");
+  private static final Pattern EXTRA_CALL_PTN = Pattern.compile("F>>IC< *(?:F\\.)? *(.*?)(?: \\d{6})?");
   private static final Pattern EXTRA_TIME_OP_PTN = Pattern.compile("(.*) \\d{4},\\d{3}");
-  private static final Pattern EXTRA_CALL_PTN = Pattern.compile("F>>IC< *(.*?)(?: \\d{6})?");
+  private static final Pattern EXTRA_PREFIX_PTN = Pattern.compile("[A-Z]>>IC< *(?:[A-Z]\\.)? *(.*)");
   private static final Pattern EXTRA_PHONE_PTN = Pattern.compile("(?:\\d{3})?\\d{7}");
   private static final Pattern EXTRA_GPS_PTN = Pattern.compile("\\bLat=([-+]\\d+\\.\\d{4,}) Long=([-+]\\d+\\.\\d{4,})\\b");
   private class MyExtraField extends Field {
     @Override
     public void parse(String field, Data data) {
       
-      Matcher match = EXTRA_CALL_PTN.matcher(field);
+      Matcher match = EXTRA_ID_PTN.matcher(field);
+      if (match.matches()) {
+        data.strCallId = match.group(1);
+        return;
+      }
+      
+      match = EXTRA_CALL_PTN.matcher(field);
       if (match.matches()) {
         data.strCall = append(data.strCall, " / ", match.group(1));
         return;
@@ -75,7 +74,9 @@ public class DispatchA49Parser extends FieldProgramParser {
       
       match = EXTRA_TIME_OP_PTN.matcher(field);
       if (match.matches()) field = match.group(1).trim();
-      field = stripFieldStart(field, "F>");
+      
+      match = EXTRA_PREFIX_PTN.matcher(field);
+      if (match.matches()) field = match.group(1);
       
       if (EXTRA_PHONE_PTN.matcher(field).matches()) {
         data.strPhone = field;
@@ -92,7 +93,7 @@ public class DispatchA49Parser extends FieldProgramParser {
 
     @Override
     public String getFieldNames() {
-      return "CALL PHONE INFO GPS";
+      return "ID CALL PHONE INFO GPS";
     }
   }
 }
