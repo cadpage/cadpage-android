@@ -12,6 +12,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYBroomeCountyParser extends FieldProgramParser {
   
+  private static final String SRC_PTN_STR = "[0-9/]+|[A-Z]{3,4}";
+  private static Pattern NEW_FMT_MARKER = Pattern.compile(SRC_PTN_STR + "\n");
+  
   private static Pattern PREFIX = Pattern.compile("^\\.{4} \\(.*?\\) ");
   private static Pattern LEADER = Pattern.compile("^([A-Z0-9/]+)[\\-:]");
   private static Pattern TRAILER = Pattern.compile(" V/Endicott? *$");
@@ -21,7 +24,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
     
     public NYBroomeCountyParser() {
       super("BROOME COUNTY", "NY",
-             "SRC CALL ADDR/SXP! INFO+ Cross_Sts:X Caller:NAME Phone:PHONE");
+            "SRC CALL ADDR/SXP! INFO+ Cross_Sts:X Caller:NAME Phone:PHONE");
     }
     
     @Override
@@ -31,6 +34,12 @@ public class NYBroomeCountyParser extends FieldProgramParser {
 
 	  @Override
 	  protected boolean parseMsg(String body, Data data) {
+	    
+	    // Fix up some clever IAR edits :(
+	    if (NEW_FMT_MARKER.matcher(body).lookingAt()) {
+	      body = body.replace("\n Cross Sts", " Cross Sts");
+	      body = body.replace('\n', ':');
+	    }
 	    
 	    // Removed unbalanced parenthesis from subject
 	    if (body.startsWith(")")) {
@@ -78,6 +87,15 @@ public class NYBroomeCountyParser extends FieldProgramParser {
 	    }
 	  }
 
+    @Override
+    protected Field getField(String name) {
+      if (name.equals("SRC")) return new SourceField(SRC_PTN_STR, true);
+      if (name.equals("CALL")) return new MyCallField();
+      if (name.equals("X")) return new MyCrossField();
+      if (name.equals("NAME")) return new MyNameField();
+      return super.getField(name);
+    }
+
 	  // Cross street field needs to parse time, date, and ID data from field
 	  private class MyCrossField extends CrossField {
 
@@ -112,15 +130,5 @@ public class NYBroomeCountyParser extends FieldProgramParser {
         super.parse(field, data);
       }
 	  }
-
-    @Override
-    protected Field getField(String name) {
-      if (name.equals("SRC")) return new SourceField("[0-9/]+|[A-Z]{3,4}", true);
-      if (name.equals("CALL")) return new MyCallField();
-      if (name.equals("X")) return new MyCrossField();
-      if (name.equals("NAME")) return new MyNameField();
-      return super.getField(name);
-    }
-	  
 	}
 	
