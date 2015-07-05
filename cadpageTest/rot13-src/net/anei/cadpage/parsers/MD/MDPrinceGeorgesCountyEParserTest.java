@@ -2562,7 +2562,8 @@ choyvp pynff ZQCevaprTrbetrfPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "Aba-Rzret Freivpr - QVFCNGPU Sebz SRQ01:S151810338: Aba-Rzret Freivpr, 2220 NYVPR NIR, CC, ogja RAQ naq IVETVAVN YA, GTP2, 4215, Havg:CR842",
-        "PNYY:Aba-Rzret Freivpr - QVFCNGPU Sebz SRQ01:S151810338: Aba-Rzret Freivpr",
+        "PNYY:Aba-Rzret Freivpr",
+        "VQ:S151810338",
         "NQQE:2220 NYVPR NIR",
         "K:RAQ naq IVETVAVN YA",
         "PU:GTP2",
@@ -2692,7 +2693,8 @@ choyvp pynff ZQCevaprTrbetrfPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "OYF Nzo - QVFCNGPU Sebz SRQ04:S151830150: OYF Nzo, SBERFGIVYYR SQ 23, CC, ng 8321 BYQ ZNEYOBEB CVXR, CC, GTN2, 2303, Havgf:N826, R823O",
-        "PNYY:OYF Nzo - QVFCNGPU Sebz SRQ04:S151830150: OYF Nzo",
+        "VQ:S151830150",
+        "PNYY:OYF Nzo",
         "CYNPR:SBERFGIVYYR SQ 23",
         "NQQE:8321 BYQ ZNEYOBEB CVXR",
         "PU:GTN2",

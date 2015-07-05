@@ -47,7 +47,7 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G17",
         "(PNQ Zrffntr) 13-008577 - 7) 04/16/2013 18:45:46 18:45:46.000-[7] [Abgvsvpngvba] [Jbbqynaqf Sver]-Ceboyrz punatrq sebz Snyy gb Hapbafpvbhf/Snvagvat ol Jbbqynaqf Sver [Funerq]",
         "GLCR:TRA_NYREG",
-        "VQ:13-008577 - 7",
+        "VQ:13-008577",
         "VASB:[Jbbqynaqf Sver]-Ceboyrz punatrq sebz Snyy gb Hapbafpvbhf/Snvagvat ol Jbbqynaqf Sver",
         "QNGR:04/16/2013",
         "GVZR:18:45:46");

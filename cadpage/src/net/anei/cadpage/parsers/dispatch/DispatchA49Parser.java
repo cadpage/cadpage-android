@@ -53,7 +53,7 @@ public class DispatchA49Parser extends FieldProgramParser {
   private static final Pattern EXTRA_ID_PTN  = Pattern.compile(">(?:RPT#|AC)< *([-\\d]+)");
   private static final Pattern EXTRA_CALL_PTN = Pattern.compile("F>>IC< *(?:F\\.)? *(.*?)(?: \\d{6})?");
   private static final Pattern EXTRA_TIME_OP_PTN = Pattern.compile("(.*) \\d{4},\\d{3}");
-  private static final Pattern EXTRA_PREFIX_PTN = Pattern.compile("[A-Z]>>IC< *(?:[A-Z]\\.)? *(.*)");
+  private static final Pattern EXTRA_PREFIX_PTN = Pattern.compile("[A-Z]>(?:>IC<)? *(?:[A-Z]\\.)? *(.*)");
   private static final Pattern EXTRA_PHONE_PTN = Pattern.compile("(?:\\d{3})?\\d{7}");
   private static final Pattern EXTRA_GPS_PTN = Pattern.compile("\\bLat=([-+]\\d+\\.\\d{4,}) Long=([-+]\\d+\\.\\d{4,})\\b");
   private class MyExtraField extends Field {
