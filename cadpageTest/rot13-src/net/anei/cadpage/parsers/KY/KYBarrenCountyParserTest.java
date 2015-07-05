@@ -420,6 +420,13 @@ Fraqre: <911-PRAGRE@Oneera911.pbz>
 911-PRAGRE:FHTNE QVNORGVP RZRETRAPL 24130 YBHVFIVYYR EQ 270 CNEX ZNZZBGU EQ
 911-PRAGRE:SVER HAQRSVARQ GLCR BS SVER 239 A UNLQRA FG 2705447528 ZNZZBGU PNIR NIR QNIVQFBA ZNEVR P
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Fhzzre Funqr Sver & Erfphr
+Ybpngvba: Fhzzre Funqr, XL, Havgrq Fgngrf
+Fraqre: <911-PRAGRE@Oneera911.pbz>
+
+911-PRAGRE:VYY VYYARFF 230 JNYAHG UVYY EQ 2704284391 BYQ FURESRL EQ SBEOVF WBUA
+
  */
 
 
@@ -3365,7 +3372,20 @@ choyvp pynff XLOneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ANZR:QNIVQFBA ZNEVR P");
 
   }
- 
+
+  @Grfg
+  choyvp ibvq grfgFhzzreFunqrSverErfphr() {
+
+    qbGrfg("G1",
+        "911-PRAGRE:VYY VYYARFF 230 JNYAHG UVYY EQ 2704284391 BYQ FURESRL EQ SBEOVF WBUA",
+        "PNYY:VYY VYYARFF",
+        "NQQE:230 JNYAHG UVYY EQ",
+        "CUBAR:2704284391",
+        "K:BYQ FURESRL EQ",
+        "ANZR:SBEOVF WBUA");
+
+  }
+
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj XLOneeraPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }

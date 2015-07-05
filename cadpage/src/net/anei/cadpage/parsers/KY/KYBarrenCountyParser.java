@@ -132,6 +132,7 @@ public class KYBarrenCountyParser extends DispatchA54Parser {
       "GLEAK GAS LEAK",
       "HEART CARDIAC/CHEST PAINS",
       "HOUSE FIRE - HOUSE",
+      "ILL ILLNESS",
       "INVEST INVESTIGATION",
       "LA LIFELINE ALARM",
       "MA MUTUAL AID FOR ANOTHER FD",
