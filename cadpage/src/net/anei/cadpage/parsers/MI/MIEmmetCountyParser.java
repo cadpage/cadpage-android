@@ -117,6 +117,7 @@ public class MIEmmetCountyParser extends DispatchOSSIParser {
       "BNT",  "BENTON TWP",
       "BRT",  "BURT TWP",
       "INV",  "INVERNESS TWP",
+      "MNR",  "MONRO TWP",
       
       // Emmet County
       "BH",   "RESORT TWP",   // ???????
@@ -130,7 +131,7 @@ public class MIEmmetCountyParser extends DispatchOSSIParser {
       "FRN",  "FRIENDSHIP TWP",
       "HYS",  "HAYES TWP",
       "LFL",  "LITTLEFIELD TWP",
-      "LTB",  "LTB",
+      "LTB",  "LITTLE TRAVERSE BAY",
       "LTR",  "LITTLE TRAVERSE TWP",
       "MCK",  "MCKINLEY TWP",
       "MLR",  "MELROSE TWP",
