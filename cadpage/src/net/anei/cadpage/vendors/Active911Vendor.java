@@ -381,6 +381,7 @@ class Active911Vendor extends Vendor {
       "US/KY/BoydCounty",                 "KYBoydCounty",
       "US/KY/CampbellCounty",             "KYCampbellCounty",
       "US/KY/ChristianCounty",            "KYChristianCounty",
+      "US/KY/CityofEdmonton",             "KYMetcalfeCounty",
       "US/KY/ClarkCounty",                "KYClarkCounty",
       "US/KY/ErlangerPD",                 "KYErlangerDispatch",
       "US/KY/FultonCounty",               "KYFultonCounty",
