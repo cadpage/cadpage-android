@@ -13,7 +13,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class WVFayetteCountyParser extends FieldProgramParser {
 
   public WVFayetteCountyParser() {
-    super(CITY_CODES, "FAYETTE COUNTY", "WV", "SRC ( STA UNIT PLACE+ | CALL ADDRCITY UNIT STA! INFO+ )");
+    super(CITY_CODES, "FAYETTE COUNTY", "WV", "SRC ( STA UNIT INFO/RN+ | CALL ADDRCITY UNIT STA! INFO/N+ )");
   }
   
   @Override
@@ -33,8 +33,6 @@ public class WVFayetteCountyParser extends FieldProgramParser {
     if (name.equals("SRC")) return new MySourceField("[^ ]*");
     if (name.equals("STA")) return new MySourceField("(?:STA|SP)[^ ]+");
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("PLACE")) return new MyPlaceField();
     return super.getField(name);
   }
 
@@ -73,22 +71,6 @@ public class WVFayetteCountyParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "ADDR PLACE CITY";
-    }
-  }
-
-  private class MyInfoField extends InfoField {
-    @Override
-    public void parse(String field, Data data) {
-      data.strSupp = append(data.strSupp, "\n", field);
-    }
-  }
-  
-  private class MyPlaceField extends PlaceField {
-    @Override
-    public void parse(String field, Data data) {
-      //if this field is being used, then call has been identified as a run report
-      data.strCall = "RUN REPORT";
-      data.strPlace = append(data.strPlace, "\n", field);
     }
   }
   
