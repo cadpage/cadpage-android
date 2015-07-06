@@ -14,7 +14,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   private static final Pattern DATE_TIME_PTN = Pattern.compile(" +(\\d{6}) (\\d\\d:\\d\\d)(?:[ ,]|$)"); 
   private static final Pattern TRUNC_DATE_TIME_PTN = Pattern.compile(" +\\d{6} [\\d:]+$| +\\d{1,6}$"); 
   private static final Pattern ADDR_END_MARKER = Pattern.compile(",|Apt ?#:|(?=(?:Prem )?Map -)");
-  private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?:Prem )?Map -");
+  private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?:(?:Prem )?Map - *)+");
   private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2}(?: *[A-Z]{2} *\\d{1,3})?\\b");
   private static final Pattern MAP_EXTRA_PTN = Pattern.compile("\\(Prem Map (.*?)\\)");
   
@@ -28,22 +28,26 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   
   public CTNewHavenCountyBParser(String defCity, String defState) {
     super(defCity, defState);
-    setFieldList(FIELD_LIST);
+    setup();
   }
   
   public CTNewHavenCountyBParser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState);
-    setFieldList(FIELD_LIST);
+    setup();
   }
   
   public CTNewHavenCountyBParser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState);
-    setFieldList(FIELD_LIST);
+    setup();
   }
   
   public CTNewHavenCountyBParser(String[] cityList, Properties cityCodes, String defCity, String defState) {
     super(cityList, defCity, defState);
     this.cityCodes = cityCodes;
+    setup();
+  }
+  
+  private void setup() {
     setFieldList(FIELD_LIST);
   }
   
@@ -88,10 +92,12 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
           data.strApt = token;
         }
       }
+      addr = cleanCity(addr, data);
       parseAddress(StartType.START_CALL, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS | FLAG_ANCHOR_END | FLAG_START_FLD_REQ, addr, data);
     }
     
     else {
+      body = cleanCity(body, data);
       parseAddress(StartType.START_CALL, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS | FLAG_START_FLD_REQ, body, data);
       sExtra = getLeft();
       noCross = isMBlankLeft();
@@ -99,7 +105,9 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
     
     // If there is a pad field, treat it as a place or cross street
     String pad = getPadField();
-    if (pad.contains("/") || isValidAddress(pad)) data.strCross = append(data.strCross, " / ", pad);
+    if (pad.contains("/") || isValidAddress(pad)) {
+      data.strCross = append(data.strCross, " / ", stripFieldStart(pad, "/"));
+    }
     else data.strPlace = pad;
     
     match = MAP_PFX_PTN.matcher(sExtra);
@@ -170,14 +178,35 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
     return true;
   }
   
+  private static String cleanCity(String addr, Data data) {
+    addr = SR_PTN.matcher(addr).replaceAll("SQ");
+    Matcher match = CITY_CODE_PTN.matcher(addr);
+    if (match.find()) {
+      data.strCity = convertCodes(match.group(1), CITY_CODES);
+      addr = match.replaceAll(" ").trim();
+    }
+    return addr;
+  }
+  private static final Pattern SR_PTN = Pattern.compile("\\bSR\\b");
+  private static final Pattern CITY_CODE_PTN = Pattern.compile(" *: *(FARM|UNVL)\\b *");
+  
   private static final String[] CITY_LIST = new String[]{
+    "BRANFORD",
+    "EAST HAVEN",
+    "FARMINGTON",
     "GUILFORD",
+    "HAMDEN",
+    "NORTH BRANFORD",
+    "NORTH HAVEN",
+    "UNIONVILLE",
     "WALLINGFORD",
     "WLFD"
   };
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-    "WLFD", "WALLINGFORD"
+     "FARM", "FARMINGTON",
+     "UNVL", "UNIONVILLE",
+     "WLFD", "WALLINGFORD"
   });
 
 }

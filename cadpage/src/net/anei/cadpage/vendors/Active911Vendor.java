@@ -273,6 +273,7 @@ class Active911Vendor extends Vendor {
       "US/CT/CityofMiddletown",           "CTMiddletown",
       "US/CT/CityofStamford",             "CTStamford",
       "US/CT/DMS",                        "CTFairfieldCountyB",
+      "US/CT/EastHavenPolice",            "CTNewHavenCountyB",
       "US/CT/EastLyme",                   "CTEastLyme",
       "US/CT/Groton",                     "CTGroton",
       "US/CT/LitchfieldCounty",           "CTLitchfieldCountyA",
