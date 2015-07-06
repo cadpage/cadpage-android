@@ -10,6 +10,21 @@ public class KYFultonCountyParser extends DispatchB2Parser {
   public KYFultonCountyParser() {
     super("FULTON911:",CITY_LIST, "FULTON COUNTY", "KY", B2_FORCE_CALL_CODE);
     setupCallList(CALL_CODE);
+    setupMultiWordStreets(
+        "CHERRY LAUREL",
+        "INDUSTRIAL PARK",
+        "JOHN C JONES",
+        "JORDAN FERGUSON",
+        "JULIAN M CARROLL",
+        "LEWIS WEAKS",
+        "MYRON CORY",
+        "PARK TERRACE",
+        "STATE LINE",
+        "STEPHEN BEALE",
+        "TROY HICKMAN",
+        "UNION CITY",
+        "WOLF CREEK"
+    );
 
   }
   

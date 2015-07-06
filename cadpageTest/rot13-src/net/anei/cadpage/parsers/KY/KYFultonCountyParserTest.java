@@ -127,7 +127,7 @@ choyvp pynff XLShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SHYGBA911:ZRQ ZRQVPNY NYNEZ 8157 JBYS PERRX EQ WBEQNA SRETHFBA EQ Znc: Tevqf:1068, Pnq: 2015-0000004825",
         "PBQR:ZRQ",
         "PNYY:ZRQVPNY NYNEZ",
-        "NQQE:8157 JBYS PERRX EQ", //qbrf abg znc
+        "NQQE:8157 JBYS PERRX EQ", //qbrf abg znc - Npebff obeqre va GA :(
         "K:WBEQNA SRETHFBA EQ",
         "VQ:2015-0000004825");
 
