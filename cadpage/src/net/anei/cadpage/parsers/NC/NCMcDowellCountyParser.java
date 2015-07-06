@@ -1,6 +1,8 @@
 
 package net.anei.cadpage.parsers.NC;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
@@ -9,20 +11,32 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class NCMcDowellCountyParser extends DispatchSouthernParser {
 
   public NCMcDowellCountyParser() {
-    super(CITY_LIST, "MCDOWELL COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_ID_OPTIONAL | DSFLAG_FOLLOW_CROSS);
+    super(CITY_LIST, "MCDOWELL COUNTY", "NC", DSFLAG_DISPATCH_ID |   DSFLAG_LEAD_PLACE | DSFLAG_ID_OPTIONAL | DSFLAG_FOLLOW_CROSS);
   }
 
   
   @Override
   public boolean parseMsg(String body, Data data) {
     if (! super.parseMsg(body, data)) return false;
-    if (data.strAddress.startsWith("0 ")) data.strAddress = data.strAddress.substring(2).trim();
+    data.strCall = stripFieldEnd(data.strCall, "-");
+    if (data.strCity.equalsIgnoreCase("MARION AREA") || data.strCity.equalsIgnoreCase("MARION CITY")) {
+      data.strCity = "MARION";
+    }
     return true;
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = PK_PTN.matcher(addr).replaceAll("PARK");
+    return super.adjustMapAddress(addr);
+  }
+  private static final Pattern PK_PTN = Pattern.compile("\\bPK\\b", Pattern.CASE_INSENSITIVE);
   
   private static final String[] CITY_LIST = new String[]{
     //cities
     "MARION",
+    "MARION AREA",
+    "MARION CITY",
     
     //towns
     "OLD FORT",
