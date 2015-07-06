@@ -123,9 +123,11 @@ public class DispatchArchonixParser extends FieldProgramParser {
       if (pt >= 0) {
         data.strCity = convertCodes(field.substring(pt + 1).trim(), cityCodes);
         field = field.substring(0, pt).trim();
+      } else if (field.contains("//")) {
+        field = field.replace("//", ",");
       } else if (cityRequired) abort();
       super.parse(field, data);
-      if (data.strPlace.startsWith("/")) data.strPlace = data.strPlace.substring(1).trim();
+      data.strPlace = stripFieldStart(data.strPlace, "/");
       data.strPlace = append(data.strPlace, " - ", place);
     }
     

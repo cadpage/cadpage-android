@@ -192,25 +192,35 @@ choyvp pynff CNCreelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
           "VQ:150004472",
           "HAVG:N29");
 
-  // ************************ CNEFR SNVYHER *****************************
-  // (Qvfcngpu N29-1) ZIN J/ VAWHEVRF Z  \a
-  // -77.010481//40.40192  \a
-  // #:  \a
-  // K:/  \a
-  // MA:SOT  \a
-  // PC:  2015-05-19 06:25:10  \a
-  // ZV#:150004467  \a
-  // ERF#:N29-1
+      qbGrfg("G6",
+          "(Qvfcngpu N29-1) ZIN J/ VAWHEVRF Z  \a" +
+          "-77.010481//40.40192  \a" +
+          "#:  \a" +
+          "K:/  \a" +
+          "MA:SOT  \a" +
+          "PC:  2015-05-19 06:25:10  \a" +
+          "ZV#:150004467  \a" +
+          "ERF#:N29-1",
 
-  // ************************ CNEFR SNVYHER *****************************
-  // (Qvfcngpu N29) ZIN J/ VAWHEVRF Z  \a
-  // -77.010481//40.40192  \a
-  // #:  \a
-  // K:/  \a
-  // MA:SOT  \a
-  // PC:  2015-05-19 06:25:10  \a
-  // ZV#:150004467  \a
-  // ERF#:N29
+          "PNYY:ZIN J/ VAWHEVRF Z",
+          "NQQE:-77.010481,40.40192",
+          "ZNQQE:+40.401920,-77.010481",
+          "ZNC:SOT",
+          "QNGR:05/19/2015",
+          "GVZR:06:25:10",
+          "VQ:150004467",
+          "HAVG:N29-1");
+
+      qbGrfg("G7",
+          "(Qvfcngpu N29) ZIN J/ VAWHEVRF Z  \a-77.010481//40.40192  \a#:  \aK:/  \aMA:SOT  \aPC:  2015-05-19 06:25:10  \aZV#:150004467  \aERF#:N29",
+          "PNYY:ZIN J/ VAWHEVRF Z",
+          "NQQE:-77.010481,40.40192",
+          "ZNQQE:+40.401920,-77.010481",
+          "ZNC:SOT",
+          "QNGR:05/19/2015",
+          "GVZR:06:25:10",
+          "VQ:150004467",
+          "HAVG:N29");
 
       qbGrfg("G8",
           "(Qvfcngpu N29-1) NOQ CNVA ZNYR N/A  \a" +
