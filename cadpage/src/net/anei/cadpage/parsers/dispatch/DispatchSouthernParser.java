@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class DispatchSouthernParser extends FieldProgramParser {
   
@@ -164,10 +165,11 @@ public class DispatchSouthernParser extends FieldProgramParser {
     
     Matcher match = RUN_REPORT_PTN.matcher(body);
     if (match.matches()) {
-      data.strCall = "RUN REPORT";
+      setFieldList("ID UNIT INFO");
+      data.msgType = MsgType.RUN_REPORT;
       data.strCallId = match.group(1);
       data.strUnit = match.group(2);
-      data.strPlace = body.substring(match.end(2)).trim();
+      data.strSupp = body.substring(match.end(2)).trim();
       return true;
     }
     
