@@ -791,6 +791,7 @@ class Active911Vendor extends Vendor {
       "US/PA/MonroeCounty",               "PAMonroeCounty",
       "US/PA/Monroeville",                "PAMonroville",
       "US/PA/MontgomeryCounty",           "PAMontgomeryCountyC",
+      "US/PA/NorthamptonCounty",          "PANorthamptonCounty",
       "US/PA/NorthumberlandCounty",       "PANorthumberlandCounty",
       "US/PA/PerryCounty",                "PAPerryCounty",
       "US/PA/PikeCounty",                 "PAPikeCountyB",
