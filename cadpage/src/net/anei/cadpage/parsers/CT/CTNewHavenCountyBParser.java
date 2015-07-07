@@ -13,12 +13,13 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   private static final Pattern MARKER = Pattern.compile("^(\\d{10}) +");
   private static final Pattern DATE_TIME_PTN = Pattern.compile(" +(\\d{6}) (\\d\\d:\\d\\d)(?:[ ,]|$)"); 
   private static final Pattern TRUNC_DATE_TIME_PTN = Pattern.compile(" +\\d{6} [\\d:]+$| +\\d{1,6}$"); 
-  private static final Pattern ADDR_END_MARKER = Pattern.compile(",|Apt ?#:|(?=(?:Prem )?Map -)");
+  private static final Pattern PRI_MARKER = Pattern.compile(" - PRI (\\d) - ");
+  private static final Pattern ADDR_END_MARKER = Pattern.compile("Apt ?#:|(?=(?:Prem )?Map -)");
   private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?:(?:Prem )?Map - *)+");
   private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2}(?: *[A-Z]{2} *\\d{1,3})?\\b");
   private static final Pattern MAP_EXTRA_PTN = Pattern.compile("\\(Prem Map (.*?)\\)");
   
-  private static final String FIELD_LIST = "ID CALL ADDR APT PLACE CITY MAP X UNIT DATE TIME";
+  private static final String FIELD_LIST = "ID CALL PRI ADDR APT PLACE CITY MAP X UNIT DATE TIME";
   
   private Properties cityCodes = null;
   
@@ -75,30 +76,37 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
       if (match.find()) body = body.substring(0,match.start());
     }
     
-    String sExtra;
+    String sExtra = null;
     boolean noCross = false;
     match = ADDR_END_MARKER.matcher(body);
     if (match.find()) {
       sExtra = body.substring(match.end()).trim();
-      String addr = body.substring(0,match.start()).trim();
+      body = body.substring(0,match.start()).trim();
       String mark = match.group();
       if (mark.length() > 0) {
         Parser p = new Parser(sExtra);
         String token = p.get(' ');
         sExtra = p.get();
-        if (mark.equals(",")) {
-          data.strCity = token;
-        } else {
-          data.strApt = token;
-        }
+        data.strApt = token;
       }
-      addr = cleanCity(addr, data);
-      parseAddress(StartType.START_CALL, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS | FLAG_ANCHOR_END | FLAG_START_FLD_REQ, addr, data);
     }
     
-    else {
-      body = cleanCity(body, data);
-      parseAddress(StartType.START_CALL, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS | FLAG_START_FLD_REQ, body, data);
+    body = cleanCity(body, data);
+    
+    StartType st = StartType.START_CALL;
+    match = PRI_MARKER.matcher(body);
+    if (match.find()) {
+      st = StartType.START_ADDR;
+      data.strCall = body.substring(0,match.start()).trim();
+      data.strPriority = match.group(1);
+      body = body.substring(match.end()).trim();
+    }
+    
+    int flags = FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS;
+    if (st == StartType.START_CALL) flags |= FLAG_START_FLD_REQ;
+    if (sExtra != null) flags |= FLAG_ANCHOR_END;
+    parseAddress(st, flags, body, data);
+    if (sExtra == null) {
       sExtra = getLeft();
       noCross = isMBlankLeft();
     }
@@ -154,7 +162,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
         // If we didn't find one, we will have to use the smart address parser to figure out where
         // the cross street information ends
         else {
-          int flags = FLAG_ONLY_CROSS;
+          flags = FLAG_ONLY_CROSS;
           if (data.strCity.length() == 0) flags |= FLAG_ONLY_CITY;
           Result res = parseAddress(StartType.START_ADDR, flags, sExtra);
           if (res.isValid()) {
