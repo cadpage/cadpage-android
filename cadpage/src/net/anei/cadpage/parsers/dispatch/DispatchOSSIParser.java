@@ -208,8 +208,35 @@ public class DispatchOSSIParser extends FieldProgramParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("FYI")) return new SkipField("FYI:|Update:", true);
-    if (name.equals("CANCEL")) return new CallField("CANCEL|UNDER CONTROL", true);
+    if (name.equals("CANCEL")) return new BaseCancelField();
     if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} +\\d\\d:\\d\\d:\\d\\d", true);
     return super.getField(name);
+  }
+  
+  private static final Pattern CANCEL_PTN = Pattern.compile("(?:\\{([A-Z0-9]+)\\} *)?(CANCEL|UNDER CONTROL|CONFIRMED FIRE.*)");
+  private class BaseCancelField extends CallField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = CANCEL_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strUnit = getOptGroup(match.group(1));
+      data.strCall = match.group(2).trim();
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "UNIT CALL";
+    }
   }
 }
