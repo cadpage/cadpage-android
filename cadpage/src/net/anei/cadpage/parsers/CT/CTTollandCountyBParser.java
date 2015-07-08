@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class CTTollandCountyBParser extends CTNewHavenCountyBParser {
   
   public CTTollandCountyBParser() {
-    super(CITY_LIST, "MANSFIELD", "CT");
+    super(CTTollandCountyParser.CITY_LIST, "TOLLAND COUNTY", "CT");
   }
   
   @Override
@@ -20,12 +20,4 @@ public class CTTollandCountyBParser extends CTNewHavenCountyBParser {
     return super.adjustMapAddress(address);
   }
   private static final Pattern GILBERT_EXT = Pattern.compile("\\bGILBERT EXT\\b", Pattern.CASE_INSENSITIVE);
-  
-  private static final String[] CITY_LIST = new String[]{
-    "COVENTRY",
-    "MANSFIELD",
-    "STORRS",
-    "WILLINGTON",
-    "WINDHAM"
-  };
 }

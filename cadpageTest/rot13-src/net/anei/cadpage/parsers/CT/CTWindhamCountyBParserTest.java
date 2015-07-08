@@ -127,7 +127,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1500002943",
         "PNYY:NYF RZF ERFCBAFR",
         "NQQE:14 PYHO EQ",
-        "K:OEVPXGBC EQ/ABEGU JVAQUNZ YVAR JVAQUNZ PRAGRE",
+        "PVGL:JVAQUNZ PRAGRE",
+        "K:OEVPXGBC EQ / ABEGU JVAQUNZ YVAR",
         "HAVG:P3SB FGN3 E103 FGN4 P4SB E601 Z31",
         "QNGR:02/12/15",
         "GVZR:20:47");
@@ -138,7 +139,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYF RZF ERFCBAFR",
         "NQQE:303 WRSSERL EQ",
         "NCG:P",
-        "K:QRNQ RAQ( OBFGBA CBFG EQ)/FPBGG EQ ABEGU JVAQUNZ",
+        "K:QRNQ RAQ( OBFGBA CBFG EQ)/FPBGG EQ",
+        "PVGL:ABEGU JVAQUNZ",
         "HAVG:P2SB FGN2 F102 E601 Z31",
         "QNGR:02/12/15",
         "GVZR:19:33");
@@ -170,7 +172,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1500002933",
         "PNYY:NYF RZF ERFCBAFR",
         "NQQE:71 ONYYNZNUNPX EQ",
-        "K:FPBGYNAQ EQ/QRNQ RAQ JVAQUNZ PRAGRE",
+        "K:FPBGYNAQ EQ / QRNQ RAQ",
+        "PVGL:JVAQUNZ PRAGRE",
         "HAVG:P3SB FGN3 E103 FGN4 P4SB E601 Z31",
         "QNGR:02/12/15",
         "GVZR:18:19");
@@ -190,7 +193,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1500002916",
         "PNYY:NYF RZF ERFCBAFR",
         "NQQE:14 PYHO EQ",
-        "K:OEVPXGBC EQ/ABEGU JVAQUNZ YVAR JVAQUNZ PRAGRE",
+        "K:OEVPXGBC EQ / ABEGU JVAQUNZ YVAR",
+        "PVGL:JVAQUNZ PRAGRE",
         "HAVG:P3SB FGN3 E103 FGN4 P4SB E501 Z33",
         "QNGR:02/12/15",
         "GVZR:12:45");
@@ -200,7 +204,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1500002915",
         "PNYY:NYF RZF ERFCBAFR",
         "NQQE:661 JVAQUNZ EQ",
-        "K:CYNVAF EQ/EBTREF PBEC FBHGU JVAQUNZ",
+        "K:CYNVAF EQ / EBTREF PBEC",
+        "PVGL:FBHGU JVAQUNZ",
         "HAVG:P4SB FGN4 E104 FGN3 P3SB E601 Z31",
         "QNGR:02/12/15",
         "GVZR:12:12");
@@ -255,7 +260,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:OYF RZF ERFCBAFR",
         "NQQE:19 UNYRL YN",
         "ZNQQE:19 UNYRL YA",
-        "HAVG:ABEGU JVAQUNZ Z31",
+        "PVGL:ABEGU JVAQUNZ",
+        "HAVG:Z31",
         "QNGR:02/11/15",
         "GVZR:15:51");
 
@@ -265,7 +271,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYF RZF ERFCBAFR",
         "NQQE:339 WRSSERL EQ",
         "NCG:S",
-        "K:QRNQ RAQ( OBFGBA CBFG EQ)/FPBGG EQ ABEGU JVAQUNZ",
+        "K:QRNQ RAQ( OBFGBA CBFG EQ)/FPBGG EQ",
+        "PVGL:ABEGU JVAQUNZ",
         "HAVG:P2SB FGN2 F102 E501 Z31",
         "QNGR:02/11/15",
         "GVZR:15:00");
@@ -364,7 +371,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYF RZF ERFCBAFR",
         "NQQE:103 ABEGU EQ",
         "NCG:E209",
-        "K:FPBGYNAQ EQ/ABEGU JVAQUNZ EQ JVAQUNZ PRAGRE",
+        "K:FPBGYNAQ EQ/ABEGU JVAQUNZ EQ",
+        "PVGL:JVAQUNZ PRAGRE",
         "HAVG:P3SB FGN3 E103 FGN4 P4SB E601 Z31",
         "QNGR:02/11/15",
         "GVZR:00:41");
@@ -442,7 +450,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1500002793",
         "PNYY:NYF RZF ERFCBAFR",
         "NQQE:127 ONOPBPX UVYY EQ",
-        "K:ZNVA FG/YRONABA GBJA YVAR FBHGU JVAQUNZ",
+        "K:ZNVA FG / YRONABA GBJA YVAR",
+        "PVGL:FBHGU JVAQUNZ",
         "HAVG:P4SB FGN4 E104 FGN3 P3SB E501 Z31",
         "QNGR:02/10/15",
         "GVZR:14:32");
@@ -507,7 +516,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1500002777",
         "PNYY:NYF RZF ERFCBAFR",
         "NQQE:661 JVAQUNZ EQ",
-        "K:CYNVAF EQ/EBTREF PBEC FBHGU JVAQUNZ",
+        "K:CYNVAF EQ / EBTREF PBEC",
+        "PVGL:FBHGU JVAQUNZ",
         "HAVG:P4SB FGN4 E104 FGN3 P3SB E501 Z31",
         "QNGR:02/10/15",
         "GVZR:09:53");
@@ -530,7 +540,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYF RZF ERFCBAFR",
         "NQQE:FGBARTNGR QE",
         "ZNQQE:FGBARTNGR QE & NVECBEG EQ",
-        "K:NVECBEG EQ/QRNQ RAQ ABEGU JVAQUNZ",
+        "K:NVECBEG EQ / QRNQ RAQ",
+        "PVGL:ABEGU JVAQUNZ",
         "HAVG:P2SB FGN2 F102 E501 Z31",
         "QNGR:02/10/15",
         "GVZR:07:02");
@@ -620,7 +631,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYF RZF ERFCBAFR",
         "NQQE:103 ABEGU EQ",
         "K:FPBGYNAQ EQ / ABEGU JVAQUNZ EQ",
-        "HAVG:JVAQUNZ PRAGRE Z31",
+        "PVGL:JVAQUNZ PRAGRE",
+        "HAVG:Z31",
         "QNGR:02/09/15",
         "GVZR:14:37");
 
@@ -629,7 +641,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1500002729",
         "PNYY:NYF RZF ERFCBAFR",
         "NQQE:103 ABEGU EQ",
-        "K:FPBGYNAQ EQ/ABEGU JVAQUNZ EQ JVAQUNZ PRAGRE",
+        "K:FPBGYNAQ EQ / ABEGU JVAQUNZ EQ",
+        "PVGL:JVAQUNZ PRAGRE",
         "HAVG:P3SB FGN3 E103 FGN4 P4SB N507 Z33",
         "QNGR:02/09/15",
         "GVZR:14:37");
@@ -730,7 +743,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1500002670",
         "PNYY:NYF RZF ERFCBAFR",
         "NQQE:11 FHAQNYR QE",
-        "K:ONPX EQ/QRNQ RAQ JVAQUNZ PRAGRE",
+        "K:ONPX EQ / QRNQ RAQ",
+        "PVGL:JVAQUNZ PRAGRE",
         "HAVG:P3SB FGN3 E103 FGN4 P4SB E601 Z31",
         "QNGR:02/08/15",
         "GVZR:11:28");
@@ -751,7 +765,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYF RZF ERFCBAFR",
         "NQQE:4 PNEBYLA YN",
         "ZNQQE:4 PNEBYLA YA",
-        "K:WNPDHRYVAR YA/PVEPYR QE ABEGU JVAQUNZ",
+        "K:WNPDHRYVAR YA / PVEPYR QE",
+        "PVGL:ABEGU JVAQUNZ",
         "HAVG:P2SB FGN2 F102 E601 Z31",
         "QNGR:02/07/15",
         "GVZR:23:55");
@@ -834,7 +849,8 @@ choyvp pynff PGJvaqunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1500002856",
         "PNYY:OYF RZF ERFCBAFR",
         "NQQE:277 OEVPXGBC EQ",
-        "K:ABEGU EQ/JVYYVZNAGVP GBJA YVAR JVAQUNZ PRAGRE",
+        "K:ABEGU EQ / JVYYVZNAGVP GBJA YVAR",
+        "PVGL:JVAQUNZ PRAGRE",
         "HAVG:P3SB FGN3 E103 FGN4 P4SB E601",
         "QNGR:02/11/15",
         "GVZR:12:43");

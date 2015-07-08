@@ -571,7 +571,6 @@ Fraqre: <cntvat@rnfguniracbyvpr.pbz>
 1500017222 SNYY, CBFF. QNAT. NERN- CEV 1 -  00111  FBHGU FUBER QE Ncg #: SEBAG  Cerz Znc -2 CC 61 FVYIRE FNAQF EQ/QRNQ RAQ  (Cerz Znc -2 CC 61)   RNFG UNIRA  E1  R4  150628 14:57
 1500017207 ZRQVPNY NYNEZ NPGVINGVBA - CEV 1 - 00095  FGRIRAF FG  Cerz Znc -2 FBHAQIVRJ NIR/ZRNQBJ CY  (Cerz Znc -2)   RNFG UNIRA  R4  150628 11:33
 1500017197 SNYY, CBFF. QNAT. NERN- CEV 1 -  00281 PBR NIR  Znc -3 ERQSVRYQ NIR/UNEGZNA NIR RNFG UNIRA  FD5  R4  150628 09:09
-
 */
 
 
@@ -1000,7 +999,8 @@ choyvp pynff PGArjUniraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1400 JUVGARL NIR",
         "PVGL:UNZQRA",
         "ZNC:18 CC309",
-        "K:'F PRAGRE OERJ",
+        "CYNPR:'F PRAGRE OERJ",
+        "K:ZNGURE FG/FREIBFF FG",
         "HAVG:R3",
         "QNGR:06/30/15",
         "GVZR:09:18");
@@ -6046,7 +6046,7 @@ choyvp pynff PGArjUniraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZHGHNY NVQ FGNAQOL",
         "NQQE:1 ABEGU",
         "PVGL:OENASBEQ",
-        "HAVG:RNFG UNIRA R6",
+        "HAVG:R6",
         "QNGR:06/30/15",
         "GVZR:12:16");
 
@@ -6056,7 +6056,6 @@ choyvp pynff PGArjUniraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZHGHNY NVQ FGNAQOL",
         "NQQE:1 ABEGU",
         "PVGL:OENASBEQ",
-        "K:RNFG UNIRA",
         "HAVG:R5",
         "QNGR:06/30/15",
         "GVZR:12:16");

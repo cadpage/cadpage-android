@@ -15,7 +15,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   private static final Pattern TRUNC_DATE_TIME_PTN = Pattern.compile(" +\\d{6} [\\d:]+$| +\\d{1,6}$"); 
   private static final Pattern PRI_MARKER = Pattern.compile(" - PRI (\\d) - ");
   private static final Pattern ADDR_END_MARKER = Pattern.compile("Apt ?#:|(?=(?:Prem )?Map -)");
-  private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?:(?:Prem )?Map - *)+");
+  private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?: *(?:Prem )?Map -*)+");
   private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2}(?: *[A-Z]{2} *\\d{1,3})?\\b");
   private static final Pattern MAP_EXTRA_PTN = Pattern.compile("\\(Prem Map (.*?)\\)");
   
@@ -151,9 +151,8 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
         if (pt >= 0) {
           String cross = sExtra.substring(0,pt);
           if (data.strCity.length() == 0) {
-            parseAddress(StartType.START_PLACE, FLAG_ONLY_CITY | FLAG_ANCHOR_END, cross, data);
-            cross = data.strPlace;
-            data.strPlace = "";
+            parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY | FLAG_ANCHOR_END, cross, data);
+            cross = getStart();
           }
           data.strCross = append(data.strCross, " / ", cross);
           sExtra = sExtra.substring(pt+2).trim();
@@ -174,23 +173,24 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
     }
     
     // If we have not found a city, see if there is one here
-    if (data.strCity.length() == 0) {
-      parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, sExtra, data);
-      if (data.strCity.length() > 0) sExtra = getLeft();
-    }
+    String city = data.strCity;
+    data.strCity = "";
+    parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, sExtra, data);
+    if (data.strCity.length() > 0) sExtra = getLeft();
+    if (city.length() > 0) data.strCity = city;
     
-    // Whatever is left becomes the city
+    // Whatever is left becomes the unit
     data.strUnit = sExtra.replaceAll("  +", " ");
     
     if (cityCodes != null) data.strCity = convertCodes(data.strCity, cityCodes);
     return true;
   }
   
-  private static String cleanCity(String addr, Data data) {
+  private String cleanCity(String addr, Data data) {
     addr = SR_PTN.matcher(addr).replaceAll("SQ");
     Matcher match = CITY_CODE_PTN.matcher(addr);
     if (match.find()) {
-      data.strCity = convertCodes(match.group(1), CITY_CODES);
+      if (cityCodes != null) data.strCity = convertCodes(match.group(1), cityCodes);
       addr = match.replaceAll(" ").trim();
     }
     return addr;
@@ -199,7 +199,10 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   private static final Pattern CITY_CODE_PTN = Pattern.compile(" *: *(FARM|UNVL)\\b *");
   
   private static final String[] CITY_LIST = new String[]{
+    "BURLINGTON",
     "BRANFORD",
+    "BRISTOL",
+    "CANTON",
     "EAST HAVEN",
     "FARMINGTON",
     "GUILFORD",
@@ -208,6 +211,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
     "NORTH HAVEN",
     "UNIONVILLE",
     "WALLINGFORD",
+    "WEST HARTFORD",
     "WLFD"
   };
   

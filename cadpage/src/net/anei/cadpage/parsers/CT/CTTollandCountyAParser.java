@@ -15,7 +15,7 @@ public class CTTollandCountyAParser extends SmartAddressParser {
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{8}$");
   
   public CTTollandCountyAParser() {
-    super(CITY_LIST, "TOLLAND COUNTY", "CT");
+    super(CTTollandCountyParser.CITY_LIST, "TOLLAND COUNTY", "CT");
     setFieldList("SRC ADDR APT CITY CALL TIME X ID");
   }
   
@@ -131,43 +131,4 @@ public class CTTollandCountyAParser extends SmartAddressParser {
     }
     return fld;
   }
-  
-  private static final String[] CITY_LIST = new String[]{
-    "ANDOVER",
-    "BOLTON",
-    "COLUMBIA",
-    "COVENTRY",
-    "ELLINGTON",
-    "HEBRON",
-    "MANSFIELD",
-    "SOMERS",
-    "STAFFORD",
-    "TOLLAND",
-    "UNION",
-    "VERNON",
-    "WILLINGTON",
-
-    "COVENTRY LAKE",
-    "SOUTH COVENTRY",
-    "CRYSTAL LAKE",
-    "STAFFORD SPRINGS",
-    "STORRS",
-    "CENTRAL SOMERS",
-    "ROCKVILLE",
-    "MASHAPAUG",
-    
-    "WAREHOUSE POINT",
-
-    "UCONN",
-    
-    // Windham county
-    "ASHFORD",
-    "EASTFORD",
-    "WILLIMANTIC",
-    "WINDHAM",
-    
-    // Hartford County
-    "BROAD BROOK"
-  };
-
 }
