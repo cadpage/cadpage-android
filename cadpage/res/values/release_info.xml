@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07032015</string>
-  <string name="release_version">v1.8.43</string>
+  <string name="release_date">07082015</string>
+  <string name="release_version">v1.8.44</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.44\n
+New Locations:\n
+Fulton County, KY\n
+Metcalfe County, KY\n
+Freeborn County, MN\n
+Madison County, MO\n
+McDowell County, NC\n
+Adams County, OH\n
+Perry County, PA\n
+Stevens County, WA\n
+\n
+Location Fixes:\n
+Hartford County, CT\n
+New Haven County, CT\n
+Tolland County, CT\n
+Windham County, CT\n
+Washington County, MD\n
+Cheybogan County, MI\n
+Emmet County, MI\n
+Broome County, NY\n
+Rockingham County, NC\n
+Union County, NC\n
+Northampton County, PA\n
+Overland County, TN\n
+Montgomery County, TX\n
+Prince William County, VA\n
+\n      
 v1.8.43\n
 New Locations:\n
 Navajo County, AZ (alt)\n
@@ -93,15 +120,7 @@ Spokane County, WA\n
 Hardy County, WV\n
 Racine County, WI\n
 Waukesha County, WI\n
-Improved Run Report parsing for 19 additional locations\n
-\n
-V1.8.39\n
-Location Fixes:\n
-Nassau County, NY\n
-Deschuttes County, OR\n
-\n
-General Fixes:\n
-Crashes when you try to open a null message.
+Improved Run Report parsing for 19 additional locations
   </string>
 </resources>
   
