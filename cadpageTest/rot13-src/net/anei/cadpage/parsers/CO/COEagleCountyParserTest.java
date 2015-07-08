@@ -318,31 +318,6 @@ Fraqre: "Invy Qvfcngpu" <vcntr@invytbi.pbz>
 (VCF V/Cntr Abgvsvpngvba) Ybp:27 ZNVA FG PAGL RQJQ,108: @FGNGR SNEZ RQJNEQF /RIRAG: NYNEZ - NYSP /GVZR: 15:42:56 / Qvfc: R12
 (VCF V/Cntr Abgvsvpngvba) Ybp:161 J ORNIRE PERRX OYIQ NIBA,104: @PBZSBEG VAA NIBA /RIRAG: ZRQ - OERNGU /GVZR: 00:50:45 / Qvfc: R7
 
-Pbasvez fhowrpg, purpx sbe naq erzbir yrnqvat Ybp:, fcyvg ol fynfu
-NQQE1/M+? NQQE2/F RIRAG:PNYY! GVZR:GVZR! Qvfc:HAVG!
-
-Pnyy svryq pna or fcyvg vagb PBQR naq PNYY.  Or cerggl fcrpvsvp nobhg gur pbqr,
-juvpu fubhyq bayl or npprcgrq vs vg vf bar bs gur vagreangvbany \q{1,2}[N-M]\q{1,2}[N-M]? pbqrf.
-
-Nqqerff svryq vf tbvat gb or vagrerfgvat.  Jr unir gjb bs gurz gb unaqyr 
-gur pnfr jurer gur erny nqqerff jnf fcyvg hc orpnhfr vg pbagnvarq n / frcnengvat
-gjb vagrefrpgvat fgerrg anzrf.  Lbh pna vzcyzrarg gurz nf gjb frcnengr svryqf, be
-n fvatyr svryq jvgu n glcr pbqr cnffrq va gur pbafgehpgbe.
-
-NQQE1 qbrf abguvat zber guna nccraq svryq gb fgeNqqerff jvgu n / frcnegbe
-
-NQQE2 purpxCnefr() zrgubq pnyyf trgEryngvirSVryq(+1) gb frr vs gur arkg svryq
-fgnegf jvgu RIRAG:.  Vs abg, erghea snyfr, bgurejvfr pnyyf cnefr() naq erghea gehr.
-cnefr() zrgubq qbrf nyy bs gur jbex.
-Genvyvat cynpr anzr frcnengrq ol ": @"
-Genvyvat ohvyqvat ahzore frcnengrq ol ;
-Genvyvat ncg ahzore frcnengrq ol ,
-(Obgu tb va gur NCG svryq frcnengrq ol qnfu, ohvyqvat ahzore tbrf svefg)
-Ncg ybtvp unf gb or fzneg rabhtu gb abg cvpx hc gur pbzznf va TCF pbbeqvangrf
-Ercynpr " PAGL " jvgu " " gb ryvzvangr erqhaqnag PAGL pvgl pbqrf
-Gura pnyy fhcre.cnefr() juvpu fubhyq gnxr pner bs gur pvgl pbqr.  Bs pbhefr
-lbh nyfb arrq gb ohvyq n pvgl pbqr gnoyr
-
  */
 
 choyvp pynff PBRntyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
