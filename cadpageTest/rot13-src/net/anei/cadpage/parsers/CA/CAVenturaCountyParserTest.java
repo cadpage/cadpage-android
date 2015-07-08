@@ -32,6 +32,10 @@ Pbagnpg: Xriva Nivngbe <xritbeqb13@tznvy.pbz>
 Fraqre: SPP-Cntr@iraghen.bet
 (SPP Cntr) Vapvqrag Qvfcngpu:ZR43  ONPX CNVA 2275 Ebuare Pg                499-P1 8 /9 13-0047246
 
+Pbagnpg: Xriva Nthnlb <xnthnlb@ipcsn.bet>
+Fraqre: SPP.Cntvat@iraghen.bet
+(SPP Cntr) Vapvqrag Qvfcngpu:ZR43  FGEHPGHER 1631 Sybjreqnyr Fg            499-P3 2 /3 15-0044917
+
  */
 
 choyvp pynff PNIraghenPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -158,6 +162,20 @@ choyvp pynff PNIraghenPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:8/9",
         "VQ:13-0047246");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXrivaNthnlb() {
+
+    qbGrfg("G1",
+        "(SPP Cntr) Vapvqrag Qvfcngpu:ZR43  FGEHPGHER 1631 Sybjreqnyr Fg            499-P3 2 /3 15-0044917",
+        "HAVG:ZR43",
+        "PNYY:FGEHPGHER",
+        "NQQE:1631 Sybjreqnyr Fg",
+        "ZNC:499-P3",
+        "PU:2/3",
+        "VQ:15-0044917");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
