@@ -184,6 +184,10 @@ Fraqre: zff@pb.ohpxf.cn.hf
 SEZ:zff@pb.ohpxf.cn.hf\aFHOW:911 Qngn\aZFT:FGQOL  Obk:84008 nqe: EBPXUVYY QE/EG 1 ,22 05/09/15  13:44:04 SQ1507058   Eha: R84
 1 bs 2\aSEZ:zff@pb.ohpxf.cn.hf\aFHOW:911 Qngn\aZFT:EPBI   Obk: nqe: ZBAGPB FGN 8,636 ERQ YVBA EQ KFG: CUVYZBAG NIR, YBJRE ZBERYNAQ 05/16/15 \a(Pba'g) 2 bs 2\a14:02:12 SQ1507471   Eha: E4\a\a(Raq)
 
+Pbagnpg: Ybh Cnggv <ycnggv11@tznvy.pbz>
+Fraqre: zff@pb.ohpxf.cn.hf
+(911 Qngn) SNYEZ  Obk:66028 nqe: 2049 FGBHG QE #N-O ,76 ogja:GRPUAVPNY QE & FLPNZBER QE "JNEJVPX VAQHFGVENY CNEX" 07/07/15  08:34:27 SQ1510214   Eha: GJ66 R93
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pbeajryyf SP
 Ybpngvba: Orafnyrz, CN, Havgrq Fgngrf
@@ -5270,6 +5274,24 @@ choyvp pynff CNOhpxfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:05/16/15",
         "GVZR:14:02:12",
         "VQ:SQ1507471");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgYbhCnggv() {
+
+    qbGrfg("G1",
+        "(911 Qngn) SNYEZ  Obk:66028 nqe: 2049 FGBHG QE #N-O ,76 ogja:GRPUAVPNY QE & FLPNZBER QE \"JNEJVPX VAQHFGVENY CNEX\" 07/07/15  08:34:27 SQ1510214   Eha: GJ66 R93",
+        "HAVG:GJ66 R93",
+        "PNYY:SNYEZ - SVER NYNEZ (YBP)",
+        "OBK:66028",
+        "NQQE:2049 FGBHG QE",
+        "NCG:N-O",
+        "PVGL:JNEJVPX GJC",
+        "K:GRPUAVPNY QE & FLPNZBER QE \"JNEJVPX VAQHFGVENY CNEX\"",
+        "QNGR:07/07/15",
+        "GVZR:08:34:27",
+        "VQ:SQ1510214");
 
   }
 
