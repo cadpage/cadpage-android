@@ -101,29 +101,46 @@ public class CASiskiyouCountyParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BELLAVISTA",   "BELLA VISTA",
       "CSTELA",       "CASTELLA",
       "DNSMR",        "DUNSMUIR",
+      "EDGWD",        "EDGEWOOD",
+      "FORKS_SALMON", "FORKS OF SALMON",
       "FORT_JONES",   "FORT JONES",
       "GRENADA",      "GRENADA",
       "GZEL",         "GAZELLE",
       "HAMBURG",      "HAMBURG/KLAMATH RIVER",
       "HAPPY_CAMP",   "HAPPY CAMP",
       "HRNBRK",       "HORNBROOK",
+      "JONESVALLEY",  "JONES VALLEY",
+      "KLAMATH_RIVER","KLAMATH RIVER",
       "LK_SHASTINA",  "LAKE SHASTINA/WEED ",
+      "LK SHASTINA",  "LAKE SHASTINA",
       "MACDOEL",      "MACDOEL",
       "MC_CLOUD",     "MC CLOUD",
+      "MONTGOMERYCK", "MONTGOMERY CREEK",
+      "MONTGOMERY_CRK","MONTGOMERY CREEK",
       "MS",           "MT SHASTA",
       "MSA",          "MT SHASTA",
       "MTGUE",        "MONTAGUE",
+      "MTNGATE",      "MOUNTAIN GATE",
       "NEWL",         "NEWL/TULELAKE",
+      "PALOCEDRO",    "PALO CEDRO",
       "PLEASANT_VLY", "PLEASENT VALLEY/DORRIS",
+      "RE",           "REDDING",
       "RED­_ROCK",     "RED ROCK/MACDOEL",
+      "REDDINGCTY",   "REDDING",
       "SAMS_NECK",    "SAMS NECK/DORRIS",
       "SCOTT_BAR",    "SCOTT BAR",
       "SEIAD",        "SEIAD VALLEY",
+      "SHASTACOLL",   "SHASTA COLLEGE",
+      "SHASTALKCTY",  "SHASTA LAKE",
       "TENNANT",      "TENNANT/MACDOEL",
       "TULELAKE",     "TULELAKE",
       "WEED",         "WEED",
-      "YREKA",        "YREKA",
+      "WESTVALLEY",   "WEST VALLEY",
+      "YREKA",        "YREKA"
+      
+
   });
 }
