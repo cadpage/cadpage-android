@@ -306,7 +306,7 @@ PRAPBZ Ybp: 13581 ZNAMNAVGN EQ AR OV: GL: NYF NYE:1 EC UHTURF,WNZRF  13581 ZNAMN
 choyvp pynff JNXvgfncPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp JNXvgfncPbhaglCnefreGrfg() {
-    frgCnefre(arj JNXvgfncPbhaglCnefre(), "XVGFNC PBHAGL", "JN");
+    frgCnefre(arj QhzzlCnefre(), "XVGFNC PBHAGL", "JN");
   }
 
   @Grfg

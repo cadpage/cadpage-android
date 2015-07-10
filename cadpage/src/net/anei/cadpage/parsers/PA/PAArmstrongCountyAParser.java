@@ -126,7 +126,7 @@ public class PAArmstrongCountyAParser extends FieldProgramParser {
     return super.getField(name);
   }
   
-  private static final Pattern CALL_CH_PLACE_PTN = Pattern.compile("(.*?) *\\b((?:EMS )?TAC ?\\d|EMS ?\\d|ET ?\\d|CW ?\\d|FIRE FT\\d)\\b *(.*?)");
+  private static final Pattern CALL_CH_PLACE_PTN = Pattern.compile("(.*?) *\\b((?:EMS )?TAC ?\\d|EMS ?\\d|ET ?\\d|CW ?\\d|FIRE FT\\d|FRE \\d)\\b *(.*?)");
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
