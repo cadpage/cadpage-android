@@ -17,16 +17,24 @@ public class PAArmstrongCountyAParser extends FieldProgramParser {
   
   public PAArmstrongCountyAParser() {
     super("ARMSTRONG COUNTY", "PA",
-          "CALL ADDR CITY X!");
+          "CALL EMPTY/Z? ADDR/Z ( X CITY END | CITY/Z X/Z! END )");
   }
   
   @Override
   public String getFilter() {
-    return "911Dispatch@co.armstrong.pa.us";
+    return "911Dispatch@co.armstrong.pa.us,2183500107";
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Someone is adding some clever post parsing that we need to undo
+    int pt = body.indexOf(" Unformatted Message: ");
+    if (pt >= 0) {
+      subject = "Dispatch";
+      body = body.substring(pt+22).trim();
+      body = stripFieldEnd(body, " stop");
+    }
     
     // There are two different formats we process.
     // First look for the current one
@@ -50,7 +58,7 @@ public class PAArmstrongCountyAParser extends FieldProgramParser {
         parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_CROSS_FOLLOWS | FLAG_NO_IMPLIED_APT, body, data);
         data.strCross = getLeft();
         
-        int pt = data.strCall.indexOf("  ");
+        pt = data.strCall.indexOf("  ");
         if (pt >= 0) {
           data.strPlace = data.strCall.substring(pt+2).trim();
           data.strCall = data.strCall.substring(0,pt);
@@ -114,6 +122,7 @@ public class PAArmstrongCountyAParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("X")) return new CrossField(".*(?:/| and ).*");
     return super.getField(name);
   }
   
