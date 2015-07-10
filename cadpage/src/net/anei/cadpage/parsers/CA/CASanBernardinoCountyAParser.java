@@ -507,6 +507,7 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
       "CVA-C6",     "Stroke Victim-sudden headache",
       "CVA-C7",     "Stroke Victim-Hx of stroke",
       "CVA-C8",     "Stroke Victim-breathing >35",
+      "CVA-C12",    "Stroke - Unknown Status",
       "DIA",        "Diabetic Problem",
       "DIA-A1",     "Diabetic Problem-pt. alert",
       "DIA-C1",     "Diabetic Prob. - normal breathing",
