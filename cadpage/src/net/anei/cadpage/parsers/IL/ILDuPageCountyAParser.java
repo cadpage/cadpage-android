@@ -14,10 +14,12 @@ public class ILDuPageCountyAParser extends FieldProgramParser {
   
   private static final Pattern MASTER2 = Pattern.compile("\\*!\\* BR \\*!\\* (.*?) @ (.*?)\\[District: *([A-Z0-9]*)\\]");
   private static final Pattern CALL_ID_PTN = Pattern.compile("([A-Z]{3})\\d+");
+  private static final Pattern MBLANK_PTN = Pattern.compile(" {2,}");
+  private static final Pattern DATE_PTN = Pattern.compile("\\d{4}-\\d\\d-\\d\\d");
   
   public ILDuPageCountyAParser() {
     super(CITY_CODES, "DUPAGE COUNTY", "IL",
-          "CALL:CALL! PLACE:PLACE! ADDR:ADDR! CITY:CITY! ID:ID! PRI:PRI! DATE:SKIP! TIME:SRC! MAP:MAP! UNIT:UNIT! INFO:INFO! INFO/N+");
+          "CALL:CALL! PLACE:PLACE! ADDR:ADDR! CITY:CITY! ID:ID! PRI:PRI! ( DATE:SKIP! TIME:SRC! MAP:MAP! UNIT:UNIT! INFO:INFO! | URL? ) INFO/N+");
   }
   
   @Override
@@ -30,28 +32,55 @@ public class ILDuPageCountyAParser extends FieldProgramParser {
     
     Matcher match;
     if (body.startsWith("CALL:")) {
-      if (!parseFields(body.split("\n"), 9, data)) return false;
+      if (!parseFields(body.split("\n"), 6, data)) return false;
     }
     
     else if (body.startsWith("INC01 1.0 EV-XXX 0       ")) {
-      setFieldList("ID ADDR SRC UNIT CALL PLACE X CITY");
-      data.strCallId = substring(body, 25, 40);
-      String addr = substring(body, 40, 70);
-      int pt = addr.indexOf("...");
-      if (pt >= 0) addr = addr.substring(0,pt).trim();
-      if (ZERO_ADDR_PTN1.matcher(addr).find()) addr = addr.substring(1).trim();
-      parseAddress(addr, data);
-      data.strSource = substring(body,70,72);
-      data.strUnit = substring(body, 72, 76);
-      data.strCall = substring(body, 76, 96);
-      data.strPlace = substring(body, 96, 141);
-      data.strCross = append(substring(body, 141, 161), " & ", substring(body, 161, 181));
-      String city = substring(body, 347, 350);
-      if (city.endsWith("2") ||
-          city.length() > 2 && city.endsWith("U")) {
-        city = city.substring(0,city.length()-1);
+      FParser p = new FParser(body);
+      p.skip(25);
+      if (!p.lookahead(0,15).contains(" ")) {
+        setFieldList("ID ADDR APT SRC UNIT CALL PLACE X CITY");
+        data.strCallId = p.get(15);
+        String addr = p.get(30);
+        int pt = addr.indexOf("...");
+        if (pt >= 0) addr = addr.substring(0,pt).trim();
+        if (ZERO_ADDR_PTN1.matcher(addr).find()) addr = addr.substring(1).trim();
+        parseAddress(addr, data);
+        data.strSource = p.get(2);
+        data.strUnit = p.get(4);
+        data.strCall = p.get(20);
+        data.strPlace = p.get(45);
+        data.strCross = append(p.get(20), " & ", p.get(20));
+        p.skip(166);
+        String city = p.get(3);
+        if (city.endsWith("2") ||
+            city.length() > 2 && city.endsWith("U")) {
+          city = city.substring(0,city.length()-1);
+        }
+        data.strCity = convertCodes(city, CITY_CODES);
       }
-      data.strCity = convertCodes(city, CITY_CODES);
+      
+      else {
+        setFieldList("UNIT SRC CODE CALL ADDR APT MAP ID CITY DATE TIME");
+        data.strUnit = MBLANK_PTN.matcher(p.get(10)).replaceAll(" ");
+        data.strSource = p.get(3);
+        if (!p.check("   "))  return false;
+        data.strCode = p.get(6);
+        data.strCall = p.get(20);
+        parseAddress(p.get(30), data);
+        data.strMap = MBLANK_PTN.matcher(p.get(6)).replaceAll(" ");
+        data.strCallId = p.get(15);
+        String city = p.get(3);
+        if (city.length() == 3 && city.charAt(2) == 'F') city = city.substring(0,2).trim();
+        data.strCity = convertCodes(city, CITY_CODES);
+        if (p.get(14).length() > 0) return false;
+        String date = p.get(10);
+        if (!DATE_PTN.matcher(date).matches()) return false;
+        data.strDate = date.substring(5,7) + '/' + date.substring(8,10) + '/' + date.substring(0,4);
+        if (!p.check(" ")) return false;
+        data.strTime = p.get(8);
+        return true;
+      }
     }
     
     else if ((match = MASTER2.matcher(body)).matches()) {
@@ -73,6 +102,12 @@ public class ILDuPageCountyAParser extends FieldProgramParser {
     return super.getProgram().replace("ID", "SRC ID");
   }
   
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("URL")) return new InfoUrlField("http://.*", true);
+    return super.getField(name);
+  }
+
   @Override
   public String postAdjustMapAddress(String addr) {
     if (ZERO_ADDR_PTN2.matcher(addr).find()) {
