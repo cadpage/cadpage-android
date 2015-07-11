@@ -15,14 +15,20 @@ public class DispatchA41Parser extends FieldProgramParser {
   private static final Pattern DATE_TIME_PTN = Pattern.compile("(.*) +- From +(?:([A-Z][A-Z0-9]+) +)?(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d:\\d\\d)");
   
   private Pattern channelPattern;
+  private Properties callCodes;
   
-  public DispatchA41Parser(Properties cityCodes, String defCity, String defState, String sourcePattern) {
-    this(cityCodes, defCity, defState, sourcePattern, 0);
+  public DispatchA41Parser(Properties cityCodes, String defCity, String defState, String channelPattern) {
+    this(cityCodes, defCity, defState, channelPattern, 0, null);
   }
   
   public DispatchA41Parser(Properties cityCodes, String defCity, String defState, String channelPattern, int flags) {
+    this(cityCodes, defCity, defState, channelPattern, flags, null);
+  }
+  
+  public DispatchA41Parser(Properties cityCodes, String defCity, String defState, String channelPattern, int flags, Properties callCodes) {
     super(cityCodes, defCity, defState, calcProgram(flags));
     this.channelPattern = Pattern.compile(channelPattern);
+    this.callCodes = callCodes;
   }
   
   private static String calcProgram(int flags) {
@@ -59,6 +65,7 @@ public class DispatchA41Parser extends FieldProgramParser {
 
   @Override
   public Field getField(String name) {
+    if (name.equals("CODE")) return new BaseCodeField();
     if (name.equals("ADDRCITY")) return new BaseAddressCityField();
     if (name.equals("CITY")) return new BaseCityField();
     if (name.equals("AT")) return new AddressField("at +(.*)", true);
@@ -79,6 +86,21 @@ public class DispatchA41Parser extends FieldProgramParser {
     if (name.equals("UNIT")) return new BaseUnitField();
     if (name.equals("TIMESTAMP")) return new SkipField("\\d{4}-\\d\\d-\\d\\dT\\d\\d:\\d\\d:\\d\\d", true);
     return super.getField(name);
+  }
+  
+  private class BaseCodeField extends CodeField {
+    @Override
+    public void parse(String field, Data data) {
+      super.parse(field, data);
+      if (callCodes != null) {
+        data.strCall = convertCodes(field, callCodes);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return (callCodes != null ? "CODE CALL" : "CODE");
+    }
   }
   
   private class BaseAddressCityField extends AddressCityField {
