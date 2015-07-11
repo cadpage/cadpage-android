@@ -80,8 +80,9 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
-  private static final Pattern APT_PTN = Pattern.compile("(?:APT|ROOM|RM|SUITE|LOT)\\b *(.*)");
   private static final Pattern BOX_PTN = Pattern.compile("(.*)\\bBOX +([^ ]+(?: [A-Z])?)");
+  private static final Pattern DIR_BOUND_PTN = Pattern.compile("([NSEW]B)\\b *(.*)");
+  private static final Pattern APT_PTN = Pattern.compile("(?:APT|ROOM|RM|SUITE|LOT)\\b *(.*)");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -105,6 +106,11 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
       if (isCity(city)) {
         data.strCity = city;
         place = p.get();
+      }
+      match = DIR_BOUND_PTN.matcher(place);
+      if (match.matches()) {
+        data.strAddress = append(data.strAddress, " ", match.group(1));
+        place = match.group(2);
       }
       match = APT_PTN.matcher(place);
       if (match.matches()) {
@@ -216,6 +222,21 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
       return "UNIT ID INFO TIME";
     }
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    Matcher match = LONG_DIR_PTN.matcher(addr);
+    if (match.find()) {
+      StringBuffer sb = new StringBuffer();
+      do {
+        match.appendReplacement(sb, match.group().substring(0,1));
+      } while (match.find());
+      match.appendTail(sb);
+      addr = sb.toString();
+    }
+    return super.adjustMapAddress(addr);
+  }
+  private static final  Pattern LONG_DIR_PTN = Pattern.compile("\\b(NORTH|SOUTH|EAST|WEST)\\b", Pattern.CASE_INSENSITIVE);
   
   @Override
   public String adjustMapCity(String city) {
