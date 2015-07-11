@@ -117,7 +117,7 @@ public class CASiskiyouCountyParser extends FieldProgramParser {
       "LK_SHASTINA",  "LAKE SHASTINA/WEED ",
       "LK SHASTINA",  "LAKE SHASTINA",
       "MACDOEL",      "MACDOEL",
-      "MC_CLOUD",     "MC CLOUD",
+      "MC_CLOUD",     "MCCLOUD",
       "MONTGOMERYCK", "MONTGOMERY CREEK",
       "MONTGOMERY_CRK","MONTGOMERY CREEK",
       "MS",           "MT SHASTA",
