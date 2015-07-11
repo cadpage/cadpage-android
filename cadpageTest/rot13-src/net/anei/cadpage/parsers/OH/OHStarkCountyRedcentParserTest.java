@@ -18,6 +18,10 @@ Fraqre: 777
 .... (SVER) -ANGHER: ZHGHNY NVQ \a-YBPNGVBA: 1957 ZG RNGBA \a-PBZZRAGF: FGEHPGHER SVER PEBFF EBNQF EHQL NAQ PUHEPU
 .... (SVER) -ANGHER: RZF \a-YBPNGVBA: 1012 A ZVYNA FG -PVGL \a-ORGJRRA: ZNEXRG / PVGL YVZVGF \a-PBZZRAGF: SRZNYR SNYY YVSG NFFVFG 62 LBS
 
+Pbagnpg: Qnivq Pbyr <qpbyr8870@tznvy.pbz>
+Fraqre: 7127390583
+(SVER) -ANGHER: RZF \a-YBPNGVBA: 322 TRBETVN PG -PVGL \a-ORGJRRA: SBETR / JBBFGRE \a-PBZZRAGF: ERPGNY OYRRQVAT RYQREYL ZNYR
+
 Pbagnpg: zvxrny fgriraf <zfgriraf0510@tznvy.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
  1 bs 2\aSEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:SVER\aZFT:-ANGHER: RZF \a-YBPNGVBA: 10751 WBUAFGBA FG AJ -GJC \a-ORGJRRA: NXEBA / UVTUZVYY\a(Pba'g) 2 bs 2\a\a-PBZZRAGF: DHNQENCNYRTVP ZNYR 48 LBN NYYRETVP ERNPGVBA GB ZRQF(Raq)
@@ -526,7 +530,7 @@ choyvp pynff BUFgnexPbhaglErqpragCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgQnivqPbyr() {
+  choyvp ibvq grfgQnivqPbyr1() {
     
 
     qbGrfg("G1",
@@ -568,6 +572,18 @@ choyvp pynff BUFgnexPbhaglErqpragCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:SRZNYR SNYY YVSG NFFVFG 62 LBS");
 
  }
+  
+  @Grfg
+  choyvp ibvq grfgQnivqPbyr2() {
+
+    qbGrfg("G1",
+        "(SVER) -ANGHER: RZF \a-YBPNGVBA: 322 TRBETVN PG -PVGL \a-ORGJRRA: SBETR / JBBFGRE \a-PBZZRAGF: ERPGNY OYRRQVAT RYQREYL ZNYR",
+        "PNYY:RZF",
+        "NQQE:322 TRBETVN PG",
+        "K:SBETR / JBBFGRE",
+        "VASB:ERPGNY OYRRQVAT RYQREYL ZNYR");
+    
+  }
   
   @Grfg
   choyvp ibvq grfgZvxryFgriraf() {
@@ -631,7 +647,7 @@ choyvp pynff BUFgnexPbhaglErqpragCnefreGrfg rkgraqf OnfrCnefreGrfg {
          "VASB:SRZNYR YRT CNVA NSVO 78 LBN");
 
   }
-
+  
   @Grfg
   choyvp ibvq grfgPnanyShygbaSQ() {
 

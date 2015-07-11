@@ -21,7 +21,7 @@ public class OHStarkCountyRedcenterParser extends DispatchEmergitechParser {
 
   @Override
   public String getFilter() {
-    return "RED@sssnet.com,messaging@iamresponding.com,777";
+    return "RED@sssnet.com,messaging@iamresponding.com,777,7127390583";
   }
   
   @Override
