@@ -100,8 +100,26 @@ public class CASiskiyouCountyParser extends FieldProgramParser {
     }
   }
   
+  @Override
+  public String adjustMapCity(String city) {
+    return convertCodes(city, MAP_CITY_TABLE);
+  }
+  
+  private static final Properties MAP_CITY_TABLE = buildCodeTable(new String[]{
+      "BIG SPRINGS",      "MONTAGUE",
+      "EDGEWOOD",         "WEED",
+      "HAMBURG",          "KLAMATH RIVER",
+      "LAKE SHASTINA",    "WEED",
+      "NEWL",             "TULELAKE",
+      "PLEASENT VALLEY",  "DORRIS",
+      "RED ROCK",         "MACDOEL",
+      "SAMS NECK",        "DORRIS",
+      "TENNANT",          "MACDOEL"
+  });
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "BELLAVISTA",   "BELLA VISTA",
+      "BIG_SPGS",     "BIG SPRINGS",
       "CSTELA",       "CASTELLA",
       "DNSMR",        "DUNSMUIR",
       "EDGWD",        "EDGEWOOD",
@@ -109,12 +127,12 @@ public class CASiskiyouCountyParser extends FieldProgramParser {
       "FORT_JONES",   "FORT JONES",
       "GRENADA",      "GRENADA",
       "GZEL",         "GAZELLE",
-      "HAMBURG",      "HAMBURG/KLAMATH RIVER",
+      "HAMBURG",      "HAMBURG",
       "HAPPY_CAMP",   "HAPPY CAMP",
       "HRNBRK",       "HORNBROOK",
       "JONESVALLEY",  "JONES VALLEY",
       "KLAMATH_RIVER","KLAMATH RIVER",
-      "LK_SHASTINA",  "LAKE SHASTINA/WEED ",
+      "LK_SHASTINA",  "LAKE SHASTINA",
       "LK SHASTINA",  "LAKE SHASTINA",
       "MACDOEL",      "MACDOEL",
       "MC_CLOUD",     "MCCLOUD",
@@ -124,13 +142,13 @@ public class CASiskiyouCountyParser extends FieldProgramParser {
       "MSA",          "MT SHASTA",
       "MTGUE",        "MONTAGUE",
       "MTNGATE",      "MOUNTAIN GATE",
-      "NEWL",         "NEWL/TULELAKE",
+      "NEWL",         "NEWL",
       "PALOCEDRO",    "PALO CEDRO",
-      "PLEASANT_VLY", "PLEASENT VALLEY/DORRIS",
+      "PLEASANT_VLY", "PLEASENT VALLEY",
       "RE",           "REDDING",
-      "RED­_ROCK",     "RED ROCK/MACDOEL",
+      "RED­_ROCK",     "RED ROCK",
       "REDDINGCTY",   "REDDING",
-      "SAMS_NECK",    "SAMS NECK/DORRIS",
+      "SAMS_NECK",    "SAMS NECK",
       "SCOTT_BAR",    "SCOTT BAR",
       "SEIAD",        "SEIAD VALLEY",
       "SHASTACOLL",   "SHASTA COLLEGE",
@@ -140,7 +158,5 @@ public class CASiskiyouCountyParser extends FieldProgramParser {
       "WEED",         "WEED",
       "WESTVALLEY",   "WEST VALLEY",
       "YREKA",        "YREKA"
-      
-
   });
 }
