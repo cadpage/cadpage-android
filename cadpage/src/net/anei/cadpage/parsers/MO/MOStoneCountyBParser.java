@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 public class MOStoneCountyBParser extends DispatchA48Parser {
   
   public MOStoneCountyBParser() {
-    super(CITY_LIST, "STONE COUNTY", "MO", FieldType.DATE_TIME_INFO, A48_ONE_WORD_CODE);
+    super(CITY_LIST, "STONE COUNTY", "MO", FieldType.X, A48_ONE_WORD_CODE);
   }
   
   @Override

@@ -6,24 +6,29 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchB3Parser;
+import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
 /**
  * Hampshire County, WV
  */
-public class WVHampshireCountyParser extends DispatchB3Parser {
+public class WVHampshireCountyParser extends DispatchA48Parser {
   
-  private static final Pattern PREFIX_PTN = Pattern.compile("^(?:HAMPSHIRE911|HAMPCO911|HAM2038):");
+  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]+\\d+|MEDIC", Pattern.CASE_INSENSITIVE);
   private static final Pattern COUNTY_PTN = Pattern.compile("^(HARDY|FRED|FREDERICK|MINERAL|ALLEGANY|MORGAN) ", Pattern.CASE_INSENSITIVE);
 
   public WVHampshireCountyParser() {
-    super(PREFIX_PTN, CITY_LIST, "HAMPSHIRE COUNTY", "WV");
-    setupCallList((CodeSet)null);
+    super(CITY_LIST, "HAMPSHIRE COUNTY", "WV", FieldType.NAME, A48_NO_CODE, UNIT_PTN);
+    setupCallList(CALL_LIST);
+    setupSpecialStreets(
+        "HERITAGE SQUARE APTS",
+        "WAPOCOMA CAMP GROUND"
+    );
+    setupMultiWordStreets(MWORD_STREET_LIST);
   }
   
   @Override
   public String getFilter() {
-    return "HAMPSHIRE911@frontier.com,HAMPSHIRE911@frontier.net,HAMPCO911@frontier.com,HAM2038@frontiernet.net";
+    return "@frontier.com";
   }
   
   @Override
@@ -76,10 +81,107 @@ public class WVHampshireCountyParser extends DispatchB3Parser {
     return super.getProgram().replace("CITY ", "CITY ST ");
   }
   
-  @Override
-  protected boolean isPageMsg(String body) {
-    return true;
-  }
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "ALLERGY",
+      "ALTERED MENTAL STATUS",
+      "ASSAULT",
+      "ASSISTANCE",
+      "BLEED",
+      "BLOOD PRESSURE",
+      "BREATHING DIFFICULTY",
+      "BROKE",
+      "BS",
+      "CAR",
+      "CARDIAC",
+      "CHOKE",
+      "COMMERCIAL FIRE",
+      "CONTROL BURN",
+      "DIABETIC",
+      "DRUNK",
+      "E-ALARM",
+      "FALL",
+      "F-COMM-ALARM",
+      "FLOOD",
+      "GENERAL ILLNESS",
+      "JUVENILE",
+      "MVA",
+      "OB",
+      "OD",
+      "PAIN",
+      "PSYCHIATRIC",
+      "RESCUE",
+      "SEIZURES",
+      "SMOKE INVESTIGATION",
+      "STROKE",
+      "STRUCTURE",
+      "TEST",
+      "TRAUMA",
+      "TREE",
+      "UNCONCIOUS",
+      "UNRESPONSIVE",
+      "WELL"
+  );
+  
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "APPLE RIDGE",
+    "BEN SAVILLE",
+    "BLACKS HILL",
+    "BREEZY COVE",
+    "CAMP RIM ROCK",
+    "CAPE COD",
+    "CAPON RIVER",
+    "CAPON SCHOOL",
+    "CAPON SPRINGS",
+    "CHRISTIAN CHURCH",
+    "CHURCH HOLLOW",
+    "COLD STREAM",
+    "COOPER MOUNTAIN VIEW",
+    "COTTAGE CASTLE",
+    "CREST HAVEN",
+    "DILLONS RUN",
+    "DOCTOR RANDOLPH SPENCER",
+    "DON MCCAULEY",
+    "DUNMORE RIDGE",
+    "DYNO NOBEL",
+    "FALCON TURN",
+    "FORD HILL",
+    "FROG HOLLOW",
+    "GRANNY P",
+    "GRASSY LICK",
+    "GREEN LANTERN",
+    "HAMPSHIRE PARK",
+    "HEIDE COOPER",
+    "HENRY W MILLER",
+    "HICKORY CORNER",
+    "HNERY W MILLER",
+    "IRON PILE",
+    "JACK RUSSELL RIDGE",
+    "JERSEY MOUNTAIN",
+    "KEARNS SCHOOL HOUSE",
+    "LITTLE CACAPON",
+    "LITTLE CACAPON LEVELS",
+    "MARTINSBURG GRADE",
+    "MUIRWOOD GREENE",
+    "MYSTIC MOUNTAIN",
+    "PAINTER HOLLOW",
+    "PATTERSON CREEK",
+    "PAW PAW",
+    "PEACH TREE FARMS",
+    "PIN OAK",
+    "POTOMAC OVERLOOK",
+    "RIDGE LOOP",
+    "ROCK OAK",
+    "SAND FIELD",
+    "SMOKEY HOLLOW",
+    "SOL SHANHOLTZ",
+    "STONEY MOUNTAIN OVERLOOK",
+    "TIMBER RIDGE",
+    "TIMBER RIDGE CAMP",
+    "TROUT RUN",
+    "VALLEY VIEW",
+    "WAPACOMA CAMPGROUND",
+    "WATSON SCHOOL"
+  };
   
   private static final String[] CITY_LIST = new String[]{
 
