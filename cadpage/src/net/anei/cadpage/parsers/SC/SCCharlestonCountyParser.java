@@ -6,9 +6,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-
-
-
 public class SCCharlestonCountyParser extends FieldProgramParser {
   
   public SCCharlestonCountyParser() {

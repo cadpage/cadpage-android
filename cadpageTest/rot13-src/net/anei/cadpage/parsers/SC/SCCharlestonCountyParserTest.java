@@ -70,6 +70,7 @@ Fraqre: PQP_Qvfcngpu@puneyrfgbapbhagl.bet
 (Qvfcngpu Vasb) *Fvpx Crefba                  5734 Qvkvr Cynagngvba Eq                K Fgerrgf:QVKVR CYNAGNGVBA EQ/FPBGG JUVGR EQ      Pzq Punaary:_Vapvqrag 04                  Havg Nffvtarq:Z14
 (Qvfcngpu Vasb) *Hapbafpvbhf_Snvagvat         6718 Uvtujnl 162                        K Fgerrgf:ONCGVFG UVYY EQ/ZHATVA EQ               Pzq Punaary:_Vapvqrag 04                  Havg Nffvtarq:R1401,Z07
 (Qvfcngpu Vasb) *Noqbzvany Cnva_Ceboyrzf      4231 Uvtujnl 174                        K Fgerrgf:SERRZNA IVYYNTR EQ/YVGGYR OEVGGBA EQ    Pzq Punaary:_Vapvqrag 04                  Havg Nffvtarq:Z08
+(Qvfcngpu Vasb) *Nppvqrag_Genssvp_Genafc      4400 - 4450 Fninaanu Ujl                K Fgerrgf:CBFGRYY QE/PUNZCARLF YA                 Pzq Punaary:_Vapvqrag 04                  Havg Nffvtarq:R1406,Z08
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ybjpbhagel REG
@@ -535,6 +536,15 @@ choyvp pynff FPPuneyrfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:SERRZNA IVYYNTR EQ/YVGGYR OEVGGBA EQ",
         "PU:Vapvqrag 04",
         "HAVG:Z08");
+
+    qbGrfg("G1",
+        "(Qvfcngpu Vasb) *Nppvqrag_Genssvp_Genafc      4400 - 4450 Fninaanu Ujl                K Fgerrgf:CBFGRYY QE/PUNZCARLF YA                 Pzq Punaary:_Vapvqrag 04                  Havg Nffvtarq:R1406,Z08",
+        "PNYY:Nppvqrag_Genssvp_Genafc",
+        "NQQE:4400 - 4450 Fninaanu Ujl",
+        "ZNQQE:4400 Fninaanu Ujl",
+        "K:CBFGRYY QE/PUNZCARLF YA",
+        "PU:Vapvqrag 04",
+        "HAVG:R1406,Z08");
   
   }
 
