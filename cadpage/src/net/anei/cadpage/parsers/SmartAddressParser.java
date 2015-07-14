@@ -528,6 +528,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "CITY LIMITS",
         "DEADEND",
         "DEAD END",
+        "DEAD ENDS",
         "RAILROAD CROSSI",
         "RR",
         "RR TRACKS",

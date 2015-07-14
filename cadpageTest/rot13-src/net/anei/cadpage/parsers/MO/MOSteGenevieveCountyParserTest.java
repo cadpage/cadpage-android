@@ -210,8 +210,7 @@ choyvp ibvq grfgFgrTrarivrirSverQrcnegzrag() {
   qbGrfg("G16",
       "(SVER ZVFP) Ybp:4 FGR TRARIVRIR PVGL Tevq:7101 Havgf:7100 Ezx:FGR TRA",
       "PNYY:SVER ZVFP",
-      "NQQE:4",
-      "NCG:TRARIVRIR PVGL",
+      "NQQE:4 FGR TRARIVRIR PVGL",
       "ZNC:7101",
       "HAVG:7100",
       "VASB:FGR TRA");
@@ -225,8 +224,7 @@ choyvp ibvq grfgFgrTrarivrirSverQrcnegzrag() {
   qbGrfg("G18",
       "(ZIN VAWHEL) Ybp:532 BYQ PNQRG EQ QBHTYNF EQ Tevq:3404 Havgf:S3485 R3460 3402 Ezx:PNE BIRE GHEARQ VA GUR PERRX",
       "PNYY:ZIN VAWHEL",
-      "NQQE:532 BYQ PNQRG EQ",//ABG SVAQVAT
-      "NCG:QBHTYNF EQ",
+      "NQQE:532 BYQ PNQRG EQ QBHTYNF EQ",//ABG SVAQVAT
       "ZNC:3404",
       "HAVG:S3485 R3460 3402",
       "VASB:PNE BIRE GHEARQ VA GUR PERRX");
@@ -551,8 +549,7 @@ choyvp ibvq grfgFgrTrarivrirSverQrcnegzrag() {
   qbGrfg("G61",
       "(SVER ZVFP) Ybp:4 FGR TRARIVRIR PVGL Tevq:7101 Havgf:7100 Ezx:* 4 7101 * AB ERS",
       "PNYY:SVER ZVFP",
-      "NQQE:4",
-      "NCG:TRARIVRIR PVGL",
+      "NQQE:4 FGR TRARIVRIR PVGL",
       "ZNC:7101",
       "HAVG:7100",
       "VASB:* 4 7101 * AB ERS");

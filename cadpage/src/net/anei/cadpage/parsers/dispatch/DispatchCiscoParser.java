@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class DispatchCiscoParser extends FieldProgramParser {
   
@@ -24,7 +25,7 @@ public class DispatchCiscoParser extends FieldProgramParser {
     super(cityList, defCity, defState, PROGRAM_STR);
     citySearch = cityList != null;
   }
-  private static final String PROGRAM_STR = "Ct:CALL! Loc:ADDR/S6! Apt:APT XSt:X? Grid:MAP Units:UNIT Rmk:INFO";
+  private static final String PROGRAM_STR = "Ct:CALL! Loc:ADDR/S! Apt:APT XSt:X? Grid:MAP Units:UNIT Rmk:INFO";
 
   
   @Override
@@ -32,21 +33,22 @@ public class DispatchCiscoParser extends FieldProgramParser {
     
     Matcher match = SPECIAL_MSG_PTN.matcher(body);
     if (match.matches()) {
+      setFieldList("UNIT INFO");
       data.strUnit = match.group(1);
       String type = match.group(2).trim();
       String msg =  match.group(3).trim();
       if (type.equals("Is Clearing from")) {
-        data.strCall = "RUN REPORT";
-        data.strPlace = type + " -> " + msg;
+        data.msgType = MsgType.RUN_REPORT;
+        data.strSupp = type + " -> " + msg;
         return true;
       }
       if (type.equals("Notification")) {
-        data.strCall = "GENERAL ALERT";
-        data.strPlace = msg;
+        data.msgType = MsgType.GEN_ALERT;
+        data.strSupp = msg;
         return true;
       }
-      data.strCall = "GENERAL ALERT";
-      data.strPlace = type + " -> " + msg;
+      data.msgType = MsgType.GEN_ALERT;
+      data.strSupp = type + " -> " + msg;
       return true;
     }
 
@@ -80,10 +82,22 @@ public class DispatchCiscoParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       field =  D_PTN.matcher(field).replaceAll("DR");
       super.parse(field, data);
+      
+      // Check for city name behind the first street of an intersection
+      if (citySearch) {
+        int pt = data.strAddress.indexOf('&');
+        if (pt >= 0) {
+          String addr1 = data.strAddress.substring(0,pt).trim();
+          String addr2 = data.strAddress.substring(pt+1).trim();
+          data.strAddress = "";
+          parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, addr1, data);
+          data.strAddress = append(data.strAddress, " & ", addr2);
+        }
+      }
     }
   }
   
-  private class BaseCrossField extends CrossField {
+  protected class BaseCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
 
@@ -119,6 +133,9 @@ public class DispatchCiscoParser extends FieldProgramParser {
           field = data.strCross;
         }
       }
+      
+      // No luck.  See if a specialized subclass will handle this
+      if (parseSpecial(field, data)) return;
 
       // Next try the mundane old fashioned parse implied intersections logic
       parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, field, data);
@@ -136,6 +153,10 @@ public class DispatchCiscoParser extends FieldProgramParser {
       data.strCross = "";
       parseAddress(StartType.START_OTHER, FLAG_ONLY_CROSS | FLAG_ANCHOR_END, field, data);
       data.strCross = append(getStart(), " / ", data.strCross);
+    }
+
+    protected boolean parseSpecial(String field, Data data) {
+      return false;
     }
   }
 }

@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchCiscoParser;
 public class MOStFrancoisCountyParser extends DispatchCiscoParser {
   
   public MOStFrancoisCountyParser() {
-    super("ST FRANCOIS COUNTY", "MO");
+    super(CITY_CODES, "ST FRANCOIS COUNTY", "MO");
     setupMultiWordStreets("RAIL ROAD", "RIDGE TOP");
   }
   
@@ -183,5 +183,9 @@ public class MOStFrancoisCountyParser extends DispatchCiscoParser {
       "7200", "63627",
       "7500", "63627",
       "7800", "63673"
+  });
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BI",    "BISMARK"
   });
 }

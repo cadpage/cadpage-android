@@ -1154,8 +1154,8 @@ choyvp pynff VAIvtbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G70",
         "(ERFPHR) Ybp:6GU FG JGU/PUREEL TEBIR FG Tevq:JGU2 Havgf:ONG91 Ezx:PBHYQ ONERYL URNE GUR EC, FGNGRQ FBZRGUVAT NOBHG N QBT ORVAT VA GUR JNGRE ARNE GUR YRIL",
         "PNYY:ERFPHR",
-        "NQQE:6GU FG",
-        "NCG:JGU & PUREEL TEBIR FG",
+        "NQQE:6GU FG & PUREEL TEBIR FG",
+        "PVGL:JRFG GREER UNHGR",
         "ZNC:JGU2",
         "HAVG:ONG91",
         "VASB:PBHYQ ONERYL URNE GUR EC, FGNGRQ FBZRGUVAT NOBHG N QBT ORVAT VA GUR JNGRE ARNE GUR YRIL");
@@ -1163,8 +1163,8 @@ choyvp pynff VAIvtbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G71",
         "(ERFPHR) Ybp:6GU FG JGU/PUREEL TEBIR FG Tevq:JGU2 Havgf: Ezx:PBHYQ ONERYL URNE GUR EC, FGNGRQ FBZRGUVAT NOBHG N QBT ORVAT VA GUR JNGRE ARNE GUR YRIL",
         "PNYY:ERFPHR",
-        "NQQE:6GU FG",
-        "NCG:JGU & PUREEL TEBIR FG",
+        "NQQE:6GU FG & PUREEL TEBIR FG",
+        "PVGL:JRFG GREER UNHGR",
         "ZNC:JGU2",
         "VASB:PBHYQ ONERYL URNE GUR EC, FGNGRQ FBZRGUVAT NOBHG N QBT ORVAT VA GUR JNGRE ARNE GUR YRIL");
 
@@ -2603,9 +2603,9 @@ choyvp pynff VAIvtbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G43",
         "(SNYY) Ybp:200 SENAPVF NI PG Ncg:108 Tevq:459A Havgf:Z-7 Ezx:FUBEG SNYY/ VAWHERQ FUBHYQRE",
         "PNYY:SNYY",
-        "NQQE:200 SENAPVF NI",
-        "ZNQQE:200 SENAPVF NIR",
-        "NCG:PG-108",
+        "NQQE:200 SENAPVF NI PG",
+        "ZNQQE:200 SENAPVF NIR PG",
+        "NCG:108",
         "ZNC:459A",
         "HAVG:Z-7",
         "VASB:FUBEG SNYY/ VAWHERQ FUBHYQRE");
@@ -3317,8 +3317,9 @@ choyvp pynff VAIvtbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G76",
         "(UNM-ZNG FCVYY) Ybp:8GU FG JGU/ENGPYVSSR NI Tevq:JGU2 Havgf:R-41 G-42 E-41 FP-2 Ezx:JNF QVTTVAT NAQ UVG N TNF YVAR",
         "PNYY:UNM-ZNG FCVYY",
-        "NQQE:8GU FG",
-        "NCG:JGU & ENGPYVSSR NI",
+        "NQQE:8GU FG & ENGPYVSSR NI",
+        "ZNQQE:8GU FG & ENGPYVSSR NIR",
+        "PVGL:JRFG GREER UNHGR",
         "ZNC:JGU2",
         "HAVG:R-41 G-42 E-41 FP-2",
         "VASB:JNF QVTTVAT NAQ UVG N TNF YVAR");
