@@ -845,6 +845,7 @@ public class ParserList {
               ,"NCNorthamptonCounty"            ,"Northampton County, NC"
               ,"NCOnslowCounty"                 ,"Onslow County, NC"
               ,"NCOrangeCounty"                 ,"Orange County, NC"
+              ,"NCPasquotankCounty"             ,"Pasquotank County, NC"
               ,"NCPenderCounty"                 ,"Pender County, NC"
               ,"NCPersonCounty"                 ,"Person County, NC"
               ,"NCPittCounty"                   ,"Pitt County, NC"
@@ -953,6 +954,7 @@ public class ParserList {
               ,"OKPottawatomieCounty"           ,"Pottawatomie County, OK"
               ,"OKSeminoleCounty"               ,"Seminole County, OK"
               ,"OKTulsa"                        ,"Tulsa, OK"
+              ,"OKYukon"                        ,"Yukon, OK"
           ),
           new ParserCategory("Oregon"
               ,"ORBentonCounty"                 ,"Benton County, OR"
