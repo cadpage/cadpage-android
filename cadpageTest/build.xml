@@ -72,8 +72,9 @@
   <target name="commit" depends="update">
     <antcall target="export"/>
     <exec if:true="${git}" executable="git">
-        <arg line="-a"/>
+        <arg line="commit -a"/>
     </exec>
+    <echo if:true="${git}" message="*** Do not forget to push changes to github server ***"/>
     <exec if:true="${svn}" executable="svn">
       <arg line="commit --force-interactive --editor-cmd='${EDITOR}'"/>
     </exec>

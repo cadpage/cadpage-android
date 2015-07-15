@@ -1,4 +1,6 @@
-<project name="Cadpage main" default="build" basedir=".">
+<project name="Cadpage main" default="build" basedir="."
+  xmlns:if="ant:if"
+  xmlns:unless="ant:unless">
 
   <available property="git" file=".git"/>
   <available property="svn" file=".svn"/>
@@ -20,7 +22,8 @@
   </target>
 	
   <target name="push" description="git push">
-    <exec if:true="${git} executable="git">
+    <exec if:true="${git}" executable="git">
+      <arg line="push"/>
     </exec>
   </target>
 	
@@ -33,7 +36,10 @@
   </target>
 
   <target name="gen_patch" description="Generate Cadpage patch file" depends="export">
-    <exec executable="svn" output="cadpage.patch">
+    <exec if:true="${git}" executable="git" output="cadpage.patch">
+      <arg line="diff"/>
+    </exec>
+    <exec if:true="${svn}" executable="svn" output="cadpage.patch">
       <arg line="diff"/>
     </exec>
     <echo message="Patch file cadpage.patch generated"/>
