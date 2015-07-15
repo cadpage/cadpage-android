@@ -1,4 +1,6 @@
-<project name="Cadpage Test Project" basedir=".">
+<project name="Cadpage Test Project" basedir="."
+    xmlns:if="ant:if"
+    xmlns:unless="ant:unless">
 	<description>
 		Provides the infrastructure to rot13 protect the java test source code.  This provides a
 		minimal level of privacy protection for citizens referred to in the 911 pages that make up a
@@ -19,9 +21,12 @@
 	<property name="select" value="net/anei/cadpage/ant/**"/>
 	<property name="filename" value="CadpageParser"/>
 	
-	<condition property="SVNEDITOR" value="notepad" else="kate -n">
+	<condition property="EDITOR" value="notepad" else="kate -n">
 	  <os family="windows"/>
 	</condition>
+  
+  <available property="git" file="../.git"/>
+	<available property="svn" file="../.svn"/>
   
   <target name="compile">
     <javac srcdir="${src}" includes="${select}" destdir="${bin}" 
@@ -46,13 +51,19 @@
 	
 	<target name="stat">
     <antcall target="export"/>
-	  <exec executable="svn">
-	    <arg line="stat"/>
-	  </exec>
+    <exec if:true="${git}" executable="git">
+      <arg line="status --short"/>
+    </exec>
+    <exec if:true="${svn}" executable="svn">
+      <arg line="stat"/>
+    </exec>
 	</target>
    
   <target name="update" depends="export">
-    <exec executable="svn">
+    <exec if:true="${git}" executable="git">
+      <arg line="pull"/>
+    </exec>
+    <exec if:true="${svn}" executable="svn">
       <arg line="update"/>
     </exec>
     <antcall target="import"/>
@@ -60,8 +71,11 @@
    
   <target name="commit" depends="update">
     <antcall target="export"/>
-    <exec executable="svn">
-      <arg line="commit --force-interactive --editor-cmd='${SVNEDITOR}'"/>
+    <exec if:true="${git}" executable="git">
+        <arg line="-a"/>
+    </exec>
+    <exec if:true="${svn}" executable="svn">
+      <arg line="commit --force-interactive --editor-cmd='${EDITOR}'"/>
     </exec>
   </target>
   	

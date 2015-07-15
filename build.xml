@@ -1,19 +1,27 @@
 <project name="Cadpage main" default="build" basedir=".">
 
+  <available property="git" file=".git"/>
+  <available property="svn" file=".svn"/>
+
   <target name="build" description="build Cadpage Parser Library">
     <ant dir="cadpage" target="build"/>
   </target>
 
-  <target name="stat" description="svn status">
+  <target name="stat" description="git/svn status">
     <ant antfile="cadpageTest/build.xml" target="stat"/>
   </target>
 	
-  <target name="commit" description="svn commit">
+  <target name="commit" description="git/svn commit">
     <ant antfile="cadpageTest/build.xml" target="commit"/>
   </target>
 	
-  <target name="update" description="svn update">
+  <target name="update" description="git/svn update">
     <ant antfile="cadpageTest/build.xml" target="update"/>
+  </target>
+	
+  <target name="push" description="git push">
+    <exec if:true="${git} executable="git">
+    </exec>
   </target>
 	
   <target name="import" description="import">
