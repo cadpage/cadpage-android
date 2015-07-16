@@ -1,10 +1,15 @@
 package net.anei.cadpage.parsers.OK;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 
 public class OKOklahomaCountyParser extends SmartAddressParser {
+  
+  private static final Pattern DELIM = Pattern.compile("/{2,}|[-/] ");
   
   public OKOklahomaCountyParser() {
     super("OKLAHOMA COUNTY", "OK");
@@ -24,11 +29,30 @@ public class OKOklahomaCountyParser extends SmartAddressParser {
     if (pt < 0) return false;
     body = body.substring(2,pt).trim();
     
-    pt = body.indexOf("- ");
-    if (pt >= 0) {
-      parseAddress(body.substring(0,pt).trim(), data);
-      data.strCall = body.substring(pt+2).trim();
-    } 
+    Matcher match = DELIM.matcher(body);
+    if (match.find()) {
+      String addr = body.substring(0,match.start()).trim();
+      body = body.substring(match.end()).trim();
+      
+      if (match.group().contains("/") && checkAddress(addr) == STATUS_STREET_NAME) {
+        match = DELIM.matcher(body);
+        if (match.find()) {
+          addr = append(addr, " & ", body.substring(0,match.start()).trim());
+          body = body.substring(match.end()).trim();
+        } else {
+          Result res = parseAddress(StartType.START_ADDR, FLAG_IGNORE_AT, body);
+          if (res.isValid()) {
+            res.getData(data);
+            addr = append(addr, " & ", data.strAddress);
+            data.strAddress = "";
+            body = res.getLeft();
+          }
+        }
+      }
+      
+      parseAddress(addr, data);
+      data.strCall = body;
+    }
     
     else {
       parseAddress(StartType.START_CALL, FLAG_IGNORE_AT, body, data);
