@@ -47,6 +47,10 @@ Fraqre: PNQ@bafybjpbhaglap.tbi
 PNQ@bafybjpbhaglap.tbi / ab fhowrpg / PNQ:413 URAQREFBA PG;FGEHPGHER SVER;GPSQ;18O
 PNQ@bafybjpbhaglap.tbi / ab fhowrpg / PNQ:3894 JVYZVATGBA UJL;IREBAN DHVPX ZNEG;BQBE;ISQ;19O
 
+Pbagnpg: obeaapsversvtugre2014@lnubb.pbz <obeaapsversvtugre2014@lnubb.pbz>
+Fraqre: PNQ@bafybjpbhaglap.tbi
+ZFT:PNQ:230 YBAT ARPX QE;NYNEZF;OFSQ;1O
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Evpuynaqf Erfphr
 Ybpngvba: Evpuynaqf, AP, Havgrq Fgngrf
@@ -584,6 +588,18 @@ choyvp pynff APBafybjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:ISQ",
         "HAVG:19O");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgObeaAPSverSvtugre() {
+
+    qbGrfg("G1",
+        "ZFT:PNQ:230 YBAT ARPX QE;NYNEZF;OFSQ;1O",
+        "NQQE:230 YBAT ARPX QE",
+        "PNYY:NYNEZF",
+        "FEP:OFSQ",
+        "HAVG:1O");
+
   }
   
   @Grfg
