@@ -691,7 +691,7 @@ Jean ~ Cadpage Administrator
 
 ******************************************************************
 
-I am unable to find a payment from you. Some details would help me find your account.  
+I am unable to find a Cadpage payment from you. Some details would help me find your account.  
 
 How did you pay -- through Google Play Store, PayPal, or by check?  We are unable to search Google Play Store accounts by name; only by email address.  If you paid via PayPal or check, under what name was the payment made?  
 
