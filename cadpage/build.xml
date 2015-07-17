@@ -19,6 +19,10 @@
     <ant dir=".." target="commit"/>
   </target>
   
+  <target name="push" description="Push changes to master repository">
+    <ant dir=".." target="push"/>
+  </target>
+  
   <target name="initialize" description="Initialize new workspace">
     <ant dir=".." target="import"/>
   </target>
