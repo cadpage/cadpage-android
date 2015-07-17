@@ -5,9 +5,6 @@ the Google GCM message protocol.
 
 CadpageParser.txt - instructions on how to run the Standalone Cadpage Parser
 
-CodeMessagingLocations.txt - List of all of the format codes we have identified
-with specific CodeMessaging.net clients
-
 INDEX.txt - This file
 
 LocationParser.txt - Very sketch instructions on how to write new parsers

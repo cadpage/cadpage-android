@@ -23,3 +23,6 @@ center and distribute it as  text message, email, or other notification to
 those authorized to receive it.  Using the Cadpage Parsing Library allows these
 services to collect and reporting meaningful details from what would otherwise
 be undecipherable text.
+
+For detailed instructions on how to set up the build environment, see the
+cadpage/docs/Getting_Started.txt file.

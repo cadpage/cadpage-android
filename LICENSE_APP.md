@@ -1,6 +1,6 @@
 This license covers all of the code in this repository **EXCEPT** 
-that contained in the cadpage/net/anei/cadpage/parsers directory
-and all of its subdirectories.  That code is covered by the
+that contained in the net.anei.cadpage.parsers packages and all subpackages in both the
+cadpage and cadpageTest subprojects.  That code is covered by the
 LICENSE_CPL.md license file.
 
                     GNU GENERAL PUBLIC LICENSE

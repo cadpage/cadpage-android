@@ -69,7 +69,7 @@
     <antcall target="import"/>
   </target>
    
-  <target name="commit" depends="update">
+  <target name="commit" depends="export">
     <antcall target="export"/>
     <exec if:true="${git}" executable="git">
         <arg line="commit -a"/>

@@ -1,5 +1,6 @@
 This license covers Cadpage Parsing library which includes the contents of the 
-cadpage/src/net/anei/cadpage/parsers directory and any of its subdirectories.  
+net.anei.cadpage.parsers packages and all subpackages in both the
+cadpage and cadpageTest subprojects.
 The contents of any other subdirectory are covered by the license described in LICENSE_APP.md.
 
 This license is the GNU Lessor General Public License described below, plus

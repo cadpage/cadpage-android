@@ -1,0 +1,133 @@
+This document is of interest only to the few people who have been contributing
+to Cadpage development while it was hosted by Google Projects.
+
+Google is sunsetting their Google Projects hosting service.  As a result, the
+Cadpage source repository has been migrated to github.  More specifically to 
+https://github.com/cadpage2/cadpage-android.
+
+This is going to require deleting and rebuilding the Cadpage workspace, so
+first make sure you do not have any outstanding changes.
+
+There are two approaches you can take.  The first is to use the github / subversion
+interface to check out a subversion workspace which you can proceed to use 
+exactly as you did before.  This works well in the short run, but I would 
+really prefer that we switch over to using git as it has vastly improved features
+to support contributions by multiple developers.
+
+But if you really want to stick with subversion.  All you have to do is
+go to the https://github.com/cadpage2/cadpage-android.  In the right sidebar
+you will find a checkout URL.  Clicking different links under that checkout
+URL will change the URL between HTTP, SSH, and Subversion versions.  If you
+copy the Subversion URL, you can use it to check out the source repository
+with subversion just like you did before.
+
+To do the whole git thing, you will need to do a lot of setup stuff.
+
+** First, make sure you have git installed on your system.  This is included
+in all of the Linux distributions.  For Windows, you are in unexplored
+territory.  But the nice people at Github have put together a Github client
+for windows that should make everything easy.  You can find it at
+https://windows.github.com/
+
+** You also need to install openssh.  Again, this is included in most Linux distributions.
+
+
+** Next you need to set up a github account.  They make this real easy, just
+go to https://github.com and follow the directions.
+
+** I am going to recomend using the SSH access gateway, which means you will
+need to set up an SSH keypair and install the public key in github.  This is 
+a fairly complicated procedure that they make as simple as possible.
+
+First open your github profile.  THere is a funny looking icon in the top
+right corner of the screen that opens your profile.  Then there is another
+button to edit your profile.  From there you press SSH KEYS and then follow
+the directions on how to generate and install your very own special SSH key.
+For Windows users, the instructions say that Github for Windows takes care
+of everything.  You don't have to worry about a thing.
+
+** Without going into the full explanation of why git is the best things since
+sliced bread, I do want to explain the principle difference between it and just
+about every other revision control system.  With subversion, the project
+repository with all of the revision changes for 5 years of change history are
+located on the server.  Checking out a project downloads the current versions
+of everything, plus a lot of behind the scenes infrastructure.  But the full
+history remains on the server.  Any time you want to review change history or 
+look at some earlier version of something, it has to be fetched from the server.
+
+Git is a distributed repository system.  You do not check out one particular
+version of the repository contents, you clone the entire repository on your 
+local system.  From there you can do anything you want with your local
+repository.  You can even blow away the server version and replace it with
+your own if that becomes necessary.  There are, of course, cool tools to 
+synchronize changes between different repositories, including the server version.
+But in the final analysis, there really isn't anything on the server that is
+not cloned in your particular local version.
+
+By now you should be starting to worry about how long it will take to download 
+this beast and how much time it will take.  On my system, with a super fast 12 M 
+DSL connection.  It took....   Drumroll please .....
+
+3 minutes!!!!
+
+and requires less than half a Gig of disk space, or about one fifth of what
+was required for the Subversion workspace.  Whoever wrote this is using some 
+powerful magic.
+
+** OK, back to work.  You guys do not have write access to the main repository.
+But Github has a provision for this as well.  What you  do is create a fork of the 
+cadpage-android repository.  Github makes this real easy, you just click on 
+the Fork button in the top right corner and tell it where you want the fork 
+to go.  Now you have your very own personal copy of the cadpage-android repository.
+
+** Next, you clone your copy of the repository on your local system.  In Linux
+you do this  with the "git clone" command.  Not sure how the Windows client 
+works, but it should be something pretty simple.
+
+** Next you have to go through the basic task of setting up the project in
+Eclipse.  Go back to eclipse and import the 4 Cadpage projects.
+File-> Import-> General -> Existing Projects into Workspace.
+Browse-> Workspace -> cadpage -> <project>. click okay, and then finish.
+You need to do this for the google-play-services-base, google-play-services-gcm, cadpage, and cadpageTest projects.
+
+Open the Eclipse Ant view (Window > Show View > Ant)
+Click the Add Buildfiles Icon and navigate to and select build.xml in the Cadpage project.
+Toggle the Hide Internal Projects icon to hide internal targets
+Double Click the initialize target.  This will recreate the cadpageTest source folder
+Refresh the CadpageTest project.
+
+** The ant build scripts have been tweaked so they *SHOULD* work on both git
+and subversion workspaces.  But this is all new and unexplored so we can expect
+some surprises.  On a Linux box, it helps to set up some configuration settings
+first.
+
+git config --global user.name 'John Doe'
+git config --global user.email 'JDoe@world.com'
+git config --global push.default simple
+
+On windows, all bets are off.  The scripts assume that is a git client
+executable somewhere in your execute path.  Hopefully the Github for Windows
+client sets that up for you.  If I have to tweak anything to make the build
+script work on Windows, let me know what needs to be done.  If all else fails,
+you can manually run the import and export steps when needed and rely on the
+Github for Windows features to do the rest.
+
+** One big difference is that the commit operation only commits the latest
+changes to your local repository.  There is a new "push" task that pushes
+all the accumlated changes from your local repository back to the github fork.
+
+** Now for the fun stuff.  You can commit changes back to your local repository. 
+And push them back to your fork on the github server.  Then you log back into
+github, select your fork and click the Green "compare, review, create a pull
+request" button.  This creates a pull request that gets sent back to me.  I
+can review it and merge your changes into the main repository without bothering
+with patch files.
+
+** At least that is how it is supposed to work.  I have not tried any of this
+in real life, so we will just have to see how it all works.
+
+** You  do have to periodically pull any upstream changes from the main 
+cadpage-android repository back to your forked clone.  I'm not sure how to do 
+this, but I'm willing to bet that Github is going to make it only slightly 
+harder than falling off a log.  The regular ant update operation will refresh
+you local system clone from your archive fork.
