@@ -1,11 +1,12 @@
 package net.anei.cadpage.parsers.OH;
 
-import net.anei.cadpage.parsers.dispatch.DispatchCiscoParser;
+import net.anei.cadpage.parsers.dispatch.DispatchSPKParser;
 
 /**
  * Oxford, OH
+
  */
-public class OHOxfordParser extends DispatchCiscoParser {
+public class OHOxfordParser extends DispatchSPKParser {
   
   public OHOxfordParser() {
     super("OXFORD", "OH");

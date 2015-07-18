@@ -27,6 +27,7 @@ QT911\a400 f jnfuvatgba fg\aprageny naq oynpxwnpx zhghny nvq erdhrfg bs ocf pbzr
 QT911\aJrrxyl Cntre Grfg\aGuvf vf n jrrxyl grfg bs gur Qrpnghe-Tenql 911 cntvat naq Nzrevyreg flfgrz.
 QT911\a230 Evire Eq - Erpbirel Svefg erfcbaqref\aErpbirel svefg erfcbaqref erdhrfgrq ng 230 Evire EQ - ynprengvba gb gur unaq cbffvoyr negrel.
 QT911\apurfg cnvaf\a126 qbtjbbq qe srznyr univat purfg cnvaf
+QT911\aOehfu Sver\aPrageny & Erpbirel qvfcngpurq gb 872 Obbfgre Pyho Eq - snyyra cbjreyvarf unir fcnexrq n oehfu sver.
 
 */
 
@@ -86,21 +87,20 @@ choyvp pynff TNQrpnghePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4478 SNPRIVYYR UJL",
         "VASB:68 LE BYQ ZNYR SNYYRA.. PURFG CNVA QVSS OERNGUVAT.. RZF ERD 1FG ERFCBAQREF");
 
-    qbGrfg("G3",
+    qbGrfg("G9",
         "QT911\aJrrxyl Cntre Grfg\aGuvf vf n jrrxyl grfg bs gur Qrpnghe-Tenql 911 cntvat naq Nzrevyreg flfgrz.",
         "PNYY:Jrrxyl Cntre Grfg",
         "VASB:Guvf vf n jrrxyl grfg bs gur Qrpnghe-Tenql 911 cntvat naq Nzrevyreg flfgrz.");
 
-    qbGrfg("G4",
+    qbGrfg("G10",
         "QT911\a" +
         "648 Jnhgnhtn Eq \a" +
         "Sbjyfgbja, Prageny, Nggnchythf, & Pyvznk qvfcngpurq. HFR PNHGVBA vgrzf va gur ohvyqvat cbffvoyl rkcybfvir cre gur pnyyre.",
 
-        "PNYY:NYREG",
         "NQQE:648 Jnhgnhtn Eq",
         "VASB:Sbjyfgbja, Prageny, Nggnchythf, & Pyvznk qvfcngpurq. HFR PNHGVBA vgrzf va gur ohvyqvat cbffvoyl rkcybfvir cre gur pnyyre.");
 
-    qbGrfg("G5",
+    qbGrfg("G11",
         "QT911\a" +
         "648 Jnhgnhtn Eq - Haxabja Sver \a" +
         "648 Jnhgnhtn Eq-arkg qbbe gb guvf nqqerff,ohvyqvat ba sver pbagnvavat puvpxraf,ynja zbjref naq tnf.",
@@ -109,18 +109,17 @@ choyvp pynff TNQrpnghePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:648 Jnhgnhtn Eq",
         "VASB:arkg qbbe gb guvf nqqerff,ohvyqvat ba sver pbagnvavat puvpxraf,ynja zbjref naq tnf.");
 
-    qbGrfg("G6",
+    qbGrfg("G12",
         "QT911\a400 f jnfuvatgba fg\aprageny naq oynpxwnpx zhghny nvq erdhrfg bs ocf pbzr bss fubgjryy bagb jnfuvatgba... fgehpgher sver",
-        "PNYY:NYREG",
         "NQQE:400 f jnfuvatgba fg",
         "VASB:prageny naq oynpxwnpx zhghny nvq erdhrfg bs ocf pbzr bss fubgjryy bagb jnfuvatgba... fgehpgher sver");
 
-    qbGrfg("G7",
+    qbGrfg("G13",
         "QT911\aJrrxyl Cntre Grfg\aGuvf vf n jrrxyl grfg bs gur Qrpnghe-Tenql 911 cntvat naq Nzrevyreg flfgrz.",
         "PNYY:Jrrxyl Cntre Grfg",
         "VASB:Guvf vf n jrrxyl grfg bs gur Qrpnghe-Tenql 911 cntvat naq Nzrevyreg flfgrz.");
 
-    qbGrfg("G8",
+    qbGrfg("G14",
         "QT911\a" +
         "230 Evire Eq - Erpbirel Svefg erfcbaqref\a" +
         "Erpbirel svefg erfcbaqref erdhrfgrq ng 230 Evire EQ - ynprengvba gb gur unaq cbffvoyr negrel.",
@@ -129,11 +128,17 @@ choyvp pynff TNQrpnghePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:230 Evire Eq",
         "VASB:Erpbirel svefg erfcbaqref erdhrfgrq ng 230 Evire EQ - ynprengvba gb gur unaq cbffvoyr negrel.");
 
-    qbGrfg("G9",
+    qbGrfg("G15",
         "QT911\apurfg cnvaf\a126 qbtjbbq qe srznyr univat purfg cnvaf",
         "PNYY:purfg cnvaf",
         "NQQE:126 qbtjbbq qe",
         "VASB:srznyr univat purfg cnvaf");
+
+    qbGrfg("G16",
+        "QT911\aOehfu Sver\aPrageny & Erpbirel qvfcngpurq gb 872 Obbfgre Pyho Eq - snyyra cbjreyvarf unir fcnexrq n oehfu sver.",
+        "PNYY:Oehfu Sver",
+        "NQQE:872 Obbfgre Pyho Eq",
+        "VASB:Prageny & Erpbirel Qvfcngpurq\asnyyra cbjreyvarf unir fcnexrq n oehfu sver.");
    
   }
   

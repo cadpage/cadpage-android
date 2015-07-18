@@ -50,7 +50,7 @@ public class DispatchSPKParser extends HtmlProgramParser {
   public Field getField(String name) {
     if (name.equals("CURDATETIME")) return new BaseDateTimeField();
     if (name.equals("INCIDENT_INFO")) return new SkipField("Incident Information");
-    if (name.equals("ID")) return new IdField("\\d{4}-\\d{8}|\\d{8}-\\d{6}\\.\\d{3}|", true);
+    if (name.equals("ID")) return new IdField("\\d{4}-\\d{6,8}|\\d{8}-\\d{6}\\.\\d{3}|", true);
     if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("CITY")) return new BaseCityField();
     if (name.equals("X")) return new BaseCrossField();
@@ -173,6 +173,11 @@ public class DispatchSPKParser extends HtmlProgramParser {
         if (times == null) times = field;
         else times = times + '\n' + field;
         firstCol = false;
+        return;
+      }
+      
+      if (field.startsWith("POI Information:")) {
+        infoType = null;
         return;
       }
       
