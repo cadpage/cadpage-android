@@ -13,7 +13,6 @@ public class DEKentCountyEParser extends DEKentCountyBaseParser {
   public DEKentCountyEParser() {
     super("KENT COUNTY", "DE",
           "Call_Type:CALL! Address:ADDRCITY/SXa! Dev/Sub:PLACE! Xst's:X");
-    setupMultiWordStreets("COUNTRY ROAD", "PARADISE ALLEY");
   }
   
   @Override
