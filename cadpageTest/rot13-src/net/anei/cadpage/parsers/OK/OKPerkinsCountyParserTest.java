@@ -147,7 +147,7 @@ choyvp pynff BXCrexvafPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G5",
         "(PNQ) 911:NZOHYNAPR PNYY             601 R XVEX NIR  HAX CEBO.Sebz PNQ Hfre:CEXCT ba Qrivpr:5020",
         "PNYY:NZOHYNAPR PNYY",
-        "NQQE:601 R XVEX NIR",
+        "NQQE:601 R XVEX NIR",  
         "VASB:HAX CEBO.");
 
     qbGrfg("G6",
