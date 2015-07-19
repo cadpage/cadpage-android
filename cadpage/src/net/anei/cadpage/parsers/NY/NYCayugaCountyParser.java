@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.NY;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
@@ -13,11 +14,12 @@ public class NYCayugaCountyParser extends FieldProgramParser {
   
   public NYCayugaCountyParser() {
     super(CITY_LIST, "CAYUGA COUNTY", "NY",
-          "ADDR_PFX+? ADDR/iSC INFO/N+? UNIT DATETIME!");
+          "ADDR_PFX+? ADDR/iSC INFO/N+? ( UNIT DATETIME! | DATETIME_UNIT! )");
     setupCallList(CALL_LIST);
     setupMultiWordStreets(
         "BAPTIST CORNERS",
         "BAPTIST HILL",
+        "BROOK HOLLOW",
         "BUCK POINT",
         "BUCKLEY HILL",
         "BURTIS POINT",
@@ -28,19 +30,21 @@ public class NYCayugaCountyParser extends FieldProgramParser {
         "COUNTY LINE",
         "FRANKLIN STREET",
         "GENESEE STREET",
+        "GLEN COVE",
         "GRANT AVENUE",
         "HIDDEN BROOK",
         "JOHN SMITH",
         "MUTTON HILL",
         "PINE RIDGE",
         "SAND BEACH",
+        "SILVER STREET",
         "SUNSET BEACH",
         "TOWN HALL",
         "TWELVE CORNERS",
         "WEEDSPORT SENNETT",
         "WEST LAKE",
-        "WHITE BIRCH"
-
+        "WHITE BIRCH",
+        "WHITE BRIDGE"
     );
   }
   
@@ -61,6 +65,7 @@ public class NYCayugaCountyParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d\\d \\d\\d:\\d\\d", true);
+    if (name.equals("DATETIME_UNIT")) return new MyDateTimeUnitField();
     return super.getField(name);
   }
   
@@ -101,37 +106,76 @@ public class NYCayugaCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern DATE_TIME_UNIT_PTN = Pattern.compile("(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d) +(.*)");
+  private class MyDateTimeUnitField extends Field {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = DATE_TIME_UNIT_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strDate = match.group(1);
+      data.strTime = match.group(2);
+      data.strUnit = match.group(3);
+      return true;
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "DATE TIME UNIT";
+    }
+    
+  }
+  
   private static final CodeSet CALL_LIST = new CodeSet(
+      "ACCIDENT - OTHER",
       "ALARM - CO",
       "ALARM - FIRE",
       "ALARM - MEDICAL",
+      "ALLERGIC REACTION",
       "ASSIST BY EMS",
       "ASSIST BY FIRE",
       "BLEEDING",
       "CARDIAC",
+      "CHECK WELFARE W/MEDICAL",
       "CHOKING",
       "CITIZEN ASSIST - FIRE",
       "DIFFICULTY BREATHING/SOB",
+      "DIABETIC",
       "DOA",
       "FAINTING",
+      "FUEL SPILL",
       "GAS LEAK",
       "GENERAL ILLNESS",
       "HAZARD - FIRE",
       "INJURY FROM A FALL",
       "INVESTIGATE - FIRE",
+      "LOCKOUT",
       "MEDICAL EMERGENCY",
       "MVAPI",
       "OUTSIDE FIRE",
       "OVERDOSE",
       "PAIN - GENERAL",
+      "POISONING",
       "PERSONAL INJURY",
       "SEIZURES",
       "SERVICE CALL",
+      "SPECIAL DETAIL - FIRE",
       "STROKE",
       "STRUCTURE FIRE",
       "SUICIDE",
       "UNCONSCIOUS PERSON",
-      "VEHICLE FIRE"
+      "VEHICLE FIRE",
+      "WATER RESCUE"
   );
   
   private static final String[] CITY_LIST = new String[]{
