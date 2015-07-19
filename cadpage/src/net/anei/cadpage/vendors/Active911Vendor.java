@@ -548,6 +548,7 @@ class Active911Vendor extends Vendor {
       "US/MS/CityofHernando",             "MSHernando",
       "US/MS/DesotoCounty",               "MSDeSotoCountyA",
       "US/MS/Southaven",                  "MSDesotoCountyB",
+      "US/MT/CityofBlackEagle",           "MTCascadeCounty",
       "US/MT/GallatinCounty",             "MTGallatinCounty",
       "US/MT/MissoulaCounty",             "MTMissoulaCounty",
       "US/MT/ParkCounty",                 "MTParkCounty",
