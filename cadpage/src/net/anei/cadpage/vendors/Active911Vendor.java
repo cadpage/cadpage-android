@@ -621,6 +621,7 @@ class Active911Vendor extends Vendor {
       "US/NJ/Linwood",                    "Cadpage2",
       "US/NJ/MarlboroPD",                 "NJMarlboro",
       "US/NJ/MercerCounty",               "NJMercerCountyB",
+      "US/NJ/Middle",                     "NJCapeMayCounty",
       "US/NJ/MonmouthCounty",             "NJMonmouthCountyA",
       "US/NJ/MorrisCounty",               "NJMorrisCounty",
       "US/NJ/NCPD",                       "NJEssexCounty",
