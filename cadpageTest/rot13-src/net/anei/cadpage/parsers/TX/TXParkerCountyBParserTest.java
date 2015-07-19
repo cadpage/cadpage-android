@@ -231,7 +231,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZVABE NPPVQRAG;414 ZZ 414 JO VAGREFGNGR 20;JSQ;ZZ 415 JO VAGREFGNGR 20;FG36;R3,R36;J5;PNYYRE FGNGRF",
         "PNYY:ZVABE NPPVQRAG",
         "NQQE:414 ZZ 414 JO VAGREFGNGR 20",
-        "ZNQQE:414 ZZ 414 VAGREFGNGR 20",
+        "ZNQQE:414 ZZ 414 VAGREFGNGR 20", //qbrf abg znc
         "PVGL:JRNGURESBEQ",
         "K:ZZ 415 JO VAGREFGNGR 20",
         "FEP:FG36",
@@ -252,7 +252,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G13",
         "EBNQ UNMNEQ;900 NQNVE YA;JSQ;ORYYN PG;GNP1;FG46;R46;4609;Enqvb Punaary: GNP1  [06/17/15 16:41:18 WWN",
         "PNYY:EBNQ UNMNEQ",
-        "NQQE:900 NQNVE YA",
+        "NQQE:900 NQNVE YA", //cbvagf gb n fcbg arkg gb nqnve ynar. va n ynxr.
         "PVGL:JRNGURESBEQ",
         "K:ORYYN PG",
         "PU:GNP1",
@@ -266,7 +266,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNWBE NPPVQRAG;418 ZZ 418 RO VAGREFGNGR 20;JSQ;R VAGREFGNGR 20;FG35;R36;3511;Enqvb Punaary: JCSQ  [0",
         "PNYY:ZNWBE NPPVQRAG",
         "NQQE:418 ZZ 418 RO VAGREFGNGR 20",
-        "ZNQQE:418 ZZ 418 VAGREFGNGR 20",
+        "ZNQQE:418 ZZ 418 VAGREFGNGR 20", //qbrf abg znc
         "PVGL:JRNGURESBEQ",
         "K:R VAGREFGNGR 20",
         "FEP:FG35",
