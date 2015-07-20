@@ -14,7 +14,7 @@ public class DEKentCountyBaseParser extends FieldProgramParser {
   
   public DEKentCountyBaseParser(String defCity, String defState, String program) {
     super(CITY_LIST, defCity, defState, program);
-    setupMultiWordStreets(MULTI_WORD_STREET_LIST);
+    setupMultiWordStreets(PROTECT_STREET_LIST);
     setupProtectedNames(MULTI_WORD_STREET_LIST);
   }
   
@@ -44,8 +44,16 @@ public class DEKentCountyBaseParser extends FieldProgramParser {
     if (state != null) data.strState = state;
   }
    
-  static final String[] MULTI_WORD_STREET_LIST = new String[]{
+  static final String[] PROTECT_STREET_LIST = new String[]{
     "GUN AND ROD",
+    "SLOW AND EASY",
+
+  }; 
+   
+  static final String[] MULTI_WORD_STREET_LIST = new String[]{
+    "COUNTRY ROAD", 
+    "GUN AND ROD",
+    "PARADISE ALLEY",
     "SLOW AND EASY"
   }; 
   

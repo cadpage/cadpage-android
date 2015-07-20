@@ -50,7 +50,7 @@ public class DispatchSPKParser extends HtmlProgramParser {
   public Field getField(String name) {
     if (name.equals("CURDATETIME")) return new BaseDateTimeField();
     if (name.equals("INCIDENT_INFO")) return new SkipField("Incident Information");
-    if (name.equals("ID")) return new IdField("\\d{4}-\\d{8}|\\d{8}-\\d{6}\\.\\d{3}|", true);
+    if (name.equals("ID")) return new IdField("\\d{4}-\\d{6,8}|\\d{8}-\\d{6}\\.\\d{3}|", true);
     if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("CITY")) return new BaseCityField();
     if (name.equals("X")) return new BaseCrossField();
@@ -157,7 +157,8 @@ public class DispatchSPKParser extends HtmlProgramParser {
         return;
       }
       
-      if (field.equals("Remarks/Narratives:")) {
+      if (field.equals("Remarks/Narratives:") || field.equals("Notices:") || field.equals("Notes:") ||
+          field.equals("EMS DISPATCH PROTOCOL:") || field.equals("Dispatch:")) {
         infoType = InfoType.REMARKS;
         return;
       }
@@ -173,6 +174,11 @@ public class DispatchSPKParser extends HtmlProgramParser {
         if (times == null) times = field;
         else times = times + '\n' + field;
         firstCol = false;
+        return;
+      }
+      
+      if (field.startsWith("POI Information:") || field.equals("Priors:") || field.equals("Case Numbers:")) {
+        infoType = null;
         return;
       }
       
@@ -201,7 +207,15 @@ public class DispatchSPKParser extends HtmlProgramParser {
           for (String unit : field.substring(17).split(",")) {
             addUnit(unit.trim(), data);
           }
-        } else {
+        } else if (field.startsWith("Caller Name:")) {
+          data.strName = field.substring(12).trim();
+        } else if (field.startsWith("Problem:")) {
+          field = field.substring(8).trim();
+          if (data.strCall.equals("PRO QA IN PROGESS")) data.strCall = field;
+          else data.strCall = append(data.strCall, " - ", field);
+        } else if (field.startsWith("Callback:")) {
+          data.strPhone = field.substring(9).trim();
+        } else if (!field.equals("Number of patients: 1")) {
           super.parse(field, data);
         }
         return;
@@ -243,7 +257,7 @@ public class DispatchSPKParser extends HtmlProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "DATE TIME INFO UNIT";
+      return "DATE TIME INFO UNIT CALL NAME PHONE";
     }
   }
   

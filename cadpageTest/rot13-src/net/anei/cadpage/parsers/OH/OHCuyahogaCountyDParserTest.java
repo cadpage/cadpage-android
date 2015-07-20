@@ -7,6 +7,9 @@ vzcbeg bet.whavg.Grfg;
 /*
 Phlnubtn Pbhagl, BU (Q) 
 
+Cebonoyl bofbyrgr.
+Oebnqivrj Urvtugf unir zbirq gb BUPhlnubtnPbhaglN
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Oebnqivrj Urvtugf SQ
 Ybpngvba: OEBNQIVRJ URVTUGF, BU, Havgrq Fgngrf

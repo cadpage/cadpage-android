@@ -25,6 +25,7 @@ public class OHCuyahogaCountyParser extends GroupBestParser {
       "BEREA",         "BEREA",
       "BRECKSVILLE",   "BRECKSVILLE",
       "BROADVIEW HE",  "BROADVIEW HEIGHTS",
+      "BROADVIEW HTS", "BROADVIEW HEIGHTS",
       "BROOK PARK",    "BROOK PARK",
       "BROOKLYN",      "BROOKLYN",
       "CLEVELAND",     "CLEVELAND",

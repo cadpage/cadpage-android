@@ -1,8 +1,10 @@
 package net.anei.cadpage.parsers.GA;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class GADecaturCountyParser extends SmartAddressParser {
@@ -17,6 +19,7 @@ public class GADecaturCountyParser extends SmartAddressParser {
   }
   
   private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<![ \\*])(?=\\*)");
+  private static final Pattern DISPATCHED_TO_PTN = Pattern.compile("(.*?) dispatched to (.*)");
   private static final Pattern JUNK_PTN = Pattern.compile("^(?:[- \\*\\.]+|AT +)", Pattern.CASE_INSENSITIVE);
   
   public boolean parseMsg(String body, Data data) {
@@ -84,12 +87,32 @@ public class GADecaturCountyParser extends SmartAddressParser {
         if (body.length() <= 40) {
           data.strCall = body;
         } else {
-          data.strCall = "ALERT";
+          data.strCall = "";
           data.strSupp = body;
         }
+        return true;
       }
     }
     
+    Matcher match = DISPATCHED_TO_PTN.matcher(body);
+    if (match.matches()) {
+      data.strSupp = match.group(1).trim() + " Dispatched";
+      body = match.group(2).trim();
+    }
+    
+    pt = body.indexOf(" - ");
+    if (pt >= 0) {
+      parseAddress(body.substring(0,pt).trim(), data);
+      String left = body.substring(pt+3).trim();
+      if (data.strCall.length() > 0) {
+        data.strSupp = append(data.strSupp, "\n", left);
+      } else if (left.length() < 40) {
+        data.strCall = left;
+      } else {
+        data.strSupp = append(data.strSupp, "\n", left);
+      }
+      return true;
+    }
     Result res = parseAddress(st, FLAG_NO_IMPLIED_APT | FLAG_IGNORE_AT, body);
     if (res.isValid()) {
       res.getData(data);
@@ -98,14 +121,14 @@ public class GADecaturCountyParser extends SmartAddressParser {
       if (data.strCall.length() == 0) {
         data.strCall = left;
       } else {
-        data.strSupp = left;
+        data.strSupp = append(data.strSupp, "\n", left);
       }
     } else {
       if (data.strCall.length() > 0) {
-        data.strSupp = body;
+        data.strSupp = append(data.strSupp, "\n", body);
       } else {
-        data.strCall = "GENERAL ALERT";
-        data.strPlace = body;
+        data.msgType = MsgType.GEN_ALERT;
+        data.strSupp = append(data.strSupp, "\n", body);
       }
     }
     return true;

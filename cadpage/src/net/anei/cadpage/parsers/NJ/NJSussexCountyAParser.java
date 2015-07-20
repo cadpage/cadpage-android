@@ -65,6 +65,7 @@ public class NJSussexCountyAParser extends SmartAddressParser {
       data.strApt = append(data.strApt, ", ", city.substring(0,pt).trim());
       city = city.substring(pt+1).trim();
     }
+    if (city.equals("CMCH")) city = "CAPE MAY COURT HOUSE";
     data.strCity = city;
     
     if (data.strCity.equals("OUT OF TOWN")) {

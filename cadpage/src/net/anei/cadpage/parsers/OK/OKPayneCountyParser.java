@@ -7,10 +7,10 @@ import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
-public class OKPerkinsCountyParser extends SmartAddressParser {
+public class OKPayneCountyParser extends SmartAddressParser {
   
-  public OKPerkinsCountyParser() {
-    super("PERKINS COUNTY", "OK");
+  public OKPayneCountyParser() {
+    super("PAYNE COUNTY", "OK");
     setFieldList("CALL PLACE ADDR APT CITY ST INFO");
     setupCallList(CALL_LIST);
     setupMultiWordStreets("BUSH CREEK");
