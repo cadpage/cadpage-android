@@ -14,10 +14,12 @@ public class DispatchA39Parser extends FieldProgramParser {
 
   public DispatchA39Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState, PROGRAM_STR);
+    removeWords("HTS");
   }
 
   public DispatchA39Parser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState, PROGRAM_STR);
+    removeWords("HTS");
   }
 
   @Override

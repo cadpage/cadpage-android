@@ -213,7 +213,7 @@ choyvp pynff VAXabkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:210 R 1FG FG",
         "PVGL:OVPXARYY",
         "K:A ZVNZV FG & A JNFUVATGBA FG",
-        "VASB:GRFGVAT OSQ CNTR TEBHC NHGBFRAQ\aCBV Vasbezngvba: AbAnzr\aNyvnf:\aNernf: XPRZF,OCQ,OSQ\aVagrefrpgvbaf:\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023205",
+        "VASB:GRFGVAT OSQ CNTR TEBHC NHGBFRAQ\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023205",
         "HAVG:OSQ,ERFPHR-18");
 
     qbGrfg("G9",
@@ -224,7 +224,7 @@ choyvp pynff VAXabkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:210 R 1FG FG",
         "PVGL:OVPXARYY",
         "K:A ZVNZV FG & A JNFUVATGBA FG",
-        "VASB:GRFGVAT OSQ CNTR TEBHC NHGBFRAQ\aCBV Vasbezngvba: AbAnzr\aNyvnf:\aNernf: XPRZF,OCQ,OSQ\aVagrefrpgvbaf:\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023205",
+        "VASB:GRFGVAT OSQ CNTR TEBHC NHGBFRAQ\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023205",
         "HAVG:ERFPHR-18");
 
     qbGrfg("G10",
@@ -235,7 +235,7 @@ choyvp pynff VAXabkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:520 R YNJGBA FG",
         "PVGL:OVPXARYY",
         "K:A ABEZNA FG & A VEJVA FG",
-        "VASB:OEHFU CVYR/ABG PYBFR GB ERFVQRAPR. PNYYRE YVIRF NG 521 YNJGBA FG.\aCBV Vasbezngvba: AbAnzr\aNyvnf:\aNernf: XPRZF,OCQ,OSQ\aVagrefrpgvbaf:\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023168",
+        "VASB:OEHFU CVYR/ABG PYBFR GB ERFVQRAPR. PNYYRE YVIRF NG 521 YNJGBA FG.\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023168",
         "HAVG:RZF9,RATVAR-182");
 
     qbGrfg("G11",
@@ -246,7 +246,7 @@ choyvp pynff VAXabkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:735 J 6GU FG",
         "PVGL:OVPXARYY",
         "K:A ZNEGUN FG & A ZNEL FG",
-        "VASB:PNYYRE ARRQF YVSG NFFVFG BAYL SBE URE QNHTUGRE.\aCBV Vasbezngvba: AbAnzr\aNyvnf:\aNernf: OCQ,OSQ,XPRZF\aVagrefrpgvbaf:\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023117",
+        "VASB:PNYYRE ARRQF YVSG NFFVFG BAYL SBE URE QNHTUGRE.\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023117",
         "HAVG:ERFPHR-18");
 
     qbGrfg("G12",
@@ -257,7 +257,7 @@ choyvp pynff VAXabkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:210 R 1FG FG",
         "PVGL:OVPXARYY",
         "K:A ZVNZV FG & A JNFUVATGBA FG",
-        "VASB:CBV Vasbezngvba: AbAnzr\aNyvnf:\aNernf: XPRZF,OCQ,OSQ\aVagrefrpgvbaf:\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023054",
+        "VASB:Erfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023054",
         "HAVG:ERFPHR-18");
 
     qbGrfg("G13",
@@ -268,7 +268,7 @@ choyvp pynff VAXabkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:210 R 1FG FG",
         "PVGL:OVPXARYY",
         "K:A ZVNZV FG & A JNFUVATGBA FG",
-        "VASB:NPGVIR911 FLFGRZ GRFG\aCBV Vasbezngvba: AbAnzr\aNyvnf:\aNernf: XPRZF,OCQ,OSQ\aVagrefrpgvbaf:\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023053",
+        "VASB:NPGVIR911 FLFGRZ GRFG\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023053",
         "HAVG:OSQ,ERFPHR-18,RATVAR-18");
 
     qbGrfg("G14",
@@ -279,7 +279,7 @@ choyvp pynff VAXabkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:210 R 1FG FG",
         "PVGL:OVPXARYY",
         "K:A ZVNZV FG & A JNFUVATGBA FG",
-        "VASB:NPGVIR911 FLFGRZ GRFG\aCBV Vasbezngvba: AbAnzr\aNyvnf:\aNernf: XPRZF,OCQ,OSQ\aVagrefrpgvbaf:\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023053",
+        "VASB:NPGVIR911 FLFGRZ GRFG\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023053",
         "HAVG:OSQ,ERFPHR-18");
 
     qbGrfg("G15",
@@ -290,7 +290,7 @@ choyvp pynff VAXabkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:210 R 1FG FG",
         "PVGL:OVPXARYY",
         "K:A ZVNZV FG & A JNFUVATGBA FG",
-        "VASB:NPGVIR911 FLFGRZ GRFG\aCBV Vasbezngvba: AbAnzr\aNyvnf:\aNernf: XPRZF,OCQ,OSQ\aVagrefrpgvbaf:\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023053",
+        "VASB:NPGVIR911 FLFGRZ GRFG\aErfcbafr Cyna: Phfgbz yvarhc sbe 2014-00023053",
         "HAVG:OSQ");
 
     qbGrfg("G16",
@@ -301,7 +301,7 @@ choyvp pynff VAXabkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:210 R 1FG FG",
         "PVGL:OVPXARYY",
         "K:A ZVNZV FG & A JNFUVATGBA FG",
-        "VASB:OSQ CNTVAT FLFGRZ GRFG\aCBV Vasbezngvba: AbAnzr\aNyvnf:\aNernf: XPRZF,OCQ,OSQ\aVagrefrpgvbaf:",
+        "VASB:OSQ CNTVAT FLFGRZ GRFG",
         "HAVG:ERFPHR-18");
 
     qbGrfg("G17",

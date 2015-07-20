@@ -95,7 +95,7 @@ public class TXNuecesCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern ADDR_APT_PTN = Pattern.compile("(.*)[,:] *([-A-Z0-9]+)");
+  private static final Pattern ADDR_APT_PTN = Pattern.compile("(.*)[,:;] *([-A-Z0-9]+)");
   private abstract class MyAddressField extends AddressField {
 
     @Override

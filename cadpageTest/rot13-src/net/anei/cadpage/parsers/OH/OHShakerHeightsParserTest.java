@@ -89,7 +89,7 @@ choyvp pynff BUFunxreUrvtugfCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2015-00000894",
         "PNYY:ZRQ2",
         "TCF:+41.466349,-81.563237",
-        "NQQE:16650 Ina Nxra Oyiq;205",
+        "NQQE:16650 Ina Nxra Oyiq;205", //vf gung na ncg?
         "PVGL:Funxre Urvtugf",
         "QNGR:3/18/2015",
         "GVZR:23:15:24",
