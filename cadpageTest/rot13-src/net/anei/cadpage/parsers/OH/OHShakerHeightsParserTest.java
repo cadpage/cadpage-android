@@ -51,7 +51,7 @@ Fraqre: pnq@vnss516.bet
 choyvp pynff BUFunxreUrvtugfCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp BUFunxreUrvtugfCnefreGrfg() {
-    frgCnefre(arj BUFunxreUrvtugfCnefre(), "", "BU");
+    frgCnefre(arj BUFunxreUrvtugfCnefre(), "FUNXRE URVTUGF", "BU");
   }
 
   @Grfg

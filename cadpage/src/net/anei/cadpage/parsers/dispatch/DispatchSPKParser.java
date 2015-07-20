@@ -210,6 +210,7 @@ public class DispatchSPKParser extends HtmlProgramParser {
         } else if (field.startsWith("Caller Name:")) {
           data.strName = field.substring(12).trim();
         } else if (field.startsWith("Problem:")) {
+          field = field.substring(8).trim();
           if (data.strCall.equals("PRO QA IN PROGESS")) data.strCall = field;
           else data.strCall = append(data.strCall, " - ", field);
         } else if (field.startsWith("Callback:")) {
