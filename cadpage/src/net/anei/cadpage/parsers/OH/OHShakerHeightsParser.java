@@ -24,11 +24,6 @@ public class OHShakerHeightsParser extends FieldProgramParser {
   }
   
   @Override
-  public int getMapFlags() {
-    return MAP_FLG_PREFER_GPS;
-  }
-  
-  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Shaker Heights CAD Dispatch")) return false;
     return parseFields(body.split("\n"), data);
