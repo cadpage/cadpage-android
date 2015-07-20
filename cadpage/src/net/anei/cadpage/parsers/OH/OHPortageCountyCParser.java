@@ -29,7 +29,7 @@ public class OHPortageCountyCParser extends SmartAddressParser {
     if (!match.lookingAt()) return false;
     body = body.substring(match.end());
     
-    // Hopefully, there is a anddress followed by a - separator
+    // Hopefully, there is a address followed by a - separator
     int pt = body.indexOf("- ");
     if (pt >= 0) {
       parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, body.substring(0,pt).trim(), data);
@@ -52,4 +52,9 @@ public class OHPortageCountyCParser extends SmartAddressParser {
     data.strPlace = body;
     return true;
   };
+  
+  @Override
+  public String postAdjustMapAddress(String addr) {
+    return OHPortageCountyParser.fixMapAddress(addr);
+  }
 }
