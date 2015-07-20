@@ -11,7 +11,7 @@ Ntrapl anzr: Pnyvsbeavn Fgngr NPF
 Ybpngvba: Zngure, PN, Havgrq Fgngrf
 Fraqre: Jvyyvnz Yrjvf <xt6onw@a1brf.bet>
 Fraqre: "Jz Yrjvf" <xt6onw@a1brf.bet>
-Fraqre: "Yrjvf, Jvyyvnz@PnyBRF" <Jvyyvnz.Yrjvf@PnyBRF.pn.tbi>
+Fraqre: "Yrjvf, Jvyyvnz@PnyBRF" <Jvyyvnz.YrjvfP>
 
 PNYY: ZVTH/SYLNJNL Erdhrfg\aCYNPR: Xvat Sver\aNQQE: 38.769504, -120.581148\aPVGL: Cbyybpx Cvarf\aVQ: NPF-2015-058\aCEV: Qevyy\aHAVG: ZNE-VI\aVASB: Erdhrfg ZVTH naq Sylnjnl xvg sbe 2 fcvxr pnzcf.\a2 Jrrx Fgnssvat arrqrq ng obgu pnzcf\aFrirer jrngure va gur nern. Gnxr Cerpnhgvba
 CNEFRE: ERPBA\aCYNPR: Shyyre Ynxr\aNQQE: 39.3505596, ,-120.6552315\aPVGL: Arinqn Pvgl\aVQ: ZVFFVBA# NPF-2015-G9\aCEV: QEVYY\aHAVG: ZNE-VI\aVASB: 51-400 & Xt6WSC erdhrfgrq gb erpba Shyyre Ynxr sbe HF Sberfg\aFreivpr. 2 crefba xnlnx erdhverq.
@@ -32,18 +32,13 @@ PNYY: Irtrgngvba Sver CYNPR: Cbyybpx Cvarf NQQE: 38.769404, -120.581248 PVGL: Cb
  */
 
 
-choyvp pynff PNNerfQvfcngpuCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff PNRyQbenqbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp PNNerfQvfcngpuCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "", "PN");
-  }
-  
-  @Grfg
-  choyvp ibvq grfgCnefre() {
-
+  choyvp PNRyQbenqbPbhaglOCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "RY QBENQB PBHAGL", "PN");
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj PNNerfQvfcngpuCnefreGrfg().trarengrGrfgf("G1");
+    arj PNRyQbenqbPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }
 }

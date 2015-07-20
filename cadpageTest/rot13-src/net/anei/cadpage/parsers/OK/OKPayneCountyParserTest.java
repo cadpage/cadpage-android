@@ -112,10 +112,10 @@ Fraqre: <svernqzva@fgvyyjngre.bet>
 
 */
 
-choyvp pynff BXCrexvafPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff BXCnlarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp BXCrexvafPbhaglCnefreGrfg() {
-    frgCnefre(arj BXCrexvafPbhaglCnefre(), "CREXVAF PBHAGL", "BX");
+  choyvp BXCnlarPbhaglCnefreGrfg() {
+    frgCnefre(arj BXCnlarPbhaglCnefre(), "CNLAR PBHAGL", "BX");
   }
 
   @Grfg
@@ -718,6 +718,6 @@ choyvp pynff BXCrexvafPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj BXCrexvafPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj BXCnlarPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

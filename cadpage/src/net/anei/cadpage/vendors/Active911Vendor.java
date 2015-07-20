@@ -732,6 +732,7 @@ class Active911Vendor extends Vendor {
       "US/OK/FaxConnections",             "OKTulsaB",
       "US/OK/LoveCounty",                 "OKLoveCounty",
       "US/OK/MayesCounty",                "OKMayesCounty",
+      "US/OK/CityofStillwater",           "OKPayneCounty",
       "US/OR/Benton",                     "ORBentonCounty",
       "US/OR/CityofSalem",                "ORMarionCountyB",
       "US/OR/CityofSeaside",              "ORClatsopCounty",
