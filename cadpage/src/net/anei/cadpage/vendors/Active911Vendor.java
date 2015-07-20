@@ -324,6 +324,7 @@ class Active911Vendor extends Vendor {
       "US/IA/CityofMaquoketa",            "IAJacksonCounty",
       "US/IA/MitchellCountySheriff",      "IAMitchellCounty",
       "US/IA/PolkCounty",                 "IAPolkCounty",
+      "US/IA/StoryCounty",                "IAStoryCounty",
       "US/IA/WarrenCounty",               "IAWarrenCountyB",
       "US/IA/WorthCounty",                "IAWorthCounty",
       "US/ID/BlaineCounty",               "IDBlaineCounty",
