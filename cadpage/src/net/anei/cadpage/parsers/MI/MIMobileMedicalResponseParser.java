@@ -16,7 +16,7 @@ public class MIMobileMedicalResponseParser extends DispatchProQAParser {
   
   public MIMobileMedicalResponseParser() {
     super("", "MI", 
-           "ADDR CALL! XTRA+? INFO+");
+          "ADDR CALL! XTRA+? INFO+");
   }
   
   @Override
@@ -43,6 +43,22 @@ public class MIMobileMedicalResponseParser extends DispatchProQAParser {
     } while (false);
     
     return super.parseMsg(body, data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("XTRA")) return new ExtraField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace('?', ' ');
+      super.parse(field, data);
+    }
   }
 
   // Field following call can be
@@ -105,12 +121,5 @@ public class MIMobileMedicalResponseParser extends DispatchProQAParser {
     public String getFieldNames() {
       return "INFO X";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("XTRA")) return new ExtraField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
 }
