@@ -261,14 +261,16 @@ choyvp pynff TNPneebyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pneebyy911:-R14-ERFVQRAGVNY SVER Ybpngvba: 515 CENGRE EQ JNPB // UBHFR JVYY OR BA GUR YRSG // PNA FRR VG SEBZ GUR EBNQJNL //",
         "PBQR:R14",
         "PNYY:ERFVQRAGVNY SVER",
-        "NQQE:515 CENGRE EQ JNPB", //pvgl abg frcnengrq
+        "NQQE:515 CENGRE EQ",
+        "PVGL:JNPB",
         "VASB:UBHFR JVYY OR BA GUR YRSG // PNA FRR VG SEBZ GUR EBNQJNL //");
 
     qbGrfg("G6",
         "Pneebyy911:-R7-ERFVQRAGVNY SVER Ybpngvba: 515 CENGRE EQ JNPB // UBHFR JVYY OR BA GUR YRSG // PNA FRR VG SEBZ GUR EBNQJNL //",
         "PBQR:R7",
         "PNYY:ERFVQRAGVNY SVER",
-        "NQQE:515 CENGRE EQ JNPB",
+        "NQQE:515 CENGRE EQ",
+        "PVGL:JNPB",
         "VASB:UBHFR JVYY OR BA GUR YRSG // PNA FRR VG SEBZ GUR EBNQJNL //");
 
     qbGrfg("G7",
