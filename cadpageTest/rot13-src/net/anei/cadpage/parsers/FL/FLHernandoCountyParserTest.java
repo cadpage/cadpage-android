@@ -6,7 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 
-Ureznaqb Pbhagl, SY
+Ureanaqb Pbhagl, SY
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ureanaqb Pbhagl Sver Erfphr
@@ -116,10 +116,10 @@ Fraqre: <@ureanaqbfurevss.bet>
 
  */
 
-choyvp pynff SYUreznaqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff SYUreanaqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp SYUreznaqbPbhaglCnefreGrfg() {
-    frgCnefre(arj SYUreznaqbPbhaglCnefre(), "UREZNAQB PBHAGL", "SY");
+  choyvp SYUreanaqbPbhaglCnefreGrfg() {
+    frgCnefre(arj SYUreanaqbPbhaglCnefre(), "UREANAQB PBHAGL", "SY");
   }
 
   @Grfg
@@ -22476,7 +22476,7 @@ choyvp pynff SYUreznaqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj SYUreznaqbPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj SYUreanaqbPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
   

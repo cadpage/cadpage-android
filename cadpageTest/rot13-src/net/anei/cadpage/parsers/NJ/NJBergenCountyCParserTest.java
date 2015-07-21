@@ -231,7 +231,7 @@ choyvp pynff AWOretraPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:15-00138",
         "QNGR:7/6/2015",
         "GVZR:14:46:04",
-        "NQQE:21 Pbygfsbbg Tyra Ebnq",
+        "NQQE:21 Pbygfsbbg Tyra Ebnq", //qbrf abg znc
         "PNYY:Fzbxr Qrgrpgbe",
         "PVGL:Fnqqyr Evire",
         "VASB:BC:408/18004321429 M:Frpbaq sybbe fzbxr qrgrpgbe.");

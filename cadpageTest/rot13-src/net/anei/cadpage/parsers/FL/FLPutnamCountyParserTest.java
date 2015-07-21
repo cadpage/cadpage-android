@@ -282,7 +282,7 @@ choyvp pynff SYChganzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:26PN",
         "PNYY:PNEQVNP NEE",
         "NQQE:680 F PBHAGL EQ 21",
-        "ZNQQE:680 F PBHAGL EBNQ 21",
+        "ZNQQE:680 F PBHAGL EBNQ 21", //qbrf abg znc
         "VQ:CPFB15PNQ031633",
         "HAVG:S20");
 

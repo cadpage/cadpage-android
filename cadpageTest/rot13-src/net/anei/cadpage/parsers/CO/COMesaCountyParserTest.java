@@ -431,7 +431,7 @@ choyvp pynff PBZrfnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GRFGS",
         "NQQE:380 PHEGVF NIR",
         "K:J 4GU FG / J 3EQ FG",
-        "TCF:+39.333055,-108.214658",
+        "TCF:+39.333055,-108.214658", //npebff gur fgerrg
         "QNGR:06/30/15",
         "GVZR:07:43",
         "VASB:GRFG CNTR   FLFGRZ JNF ABG JBEXVAT JUVF NZ");
@@ -442,7 +442,7 @@ choyvp pynff PBZrfnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RZQ",
         "NQQE:2244 44 EQ",
         "K:I 2/10 EQ",
-        "TCF:+39.329582,-108.218881",
+        "TCF:+39.329582,-108.218881", //unys n zvyr qbja gur ebnq
         "QNGR:06/29/15",
         "GVZR:17:41",
         "VASB:CBFF NFGUZN NGGNPX  R911 Vasb - Pynff bs Fre");
@@ -464,7 +464,7 @@ choyvp pynff PBZrfnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RZQ",
         "NQQE:464 FGRJNEG NIR",
         "K:R 5GU FG / R 4GU FG",
-        "TCF:+39.333983,-108.212286",
+        "TCF:+39.333983,-108.212286", //qbja gur oybpx
         "QNGR:06/19/15",
         "GVZR:21:55",
         "VASB:URNEG ENPVAT         UVTU OYBBQ CERFFHER");
@@ -568,7 +568,7 @@ choyvp pynff PBZrfnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:BIREQBFR-P2",
         "NQQE:2320 ZBAHZRAG EQ",
         "K:F PNZC EQ, ERQFGBAR QE / ZNEVCBFN QE",
-        "TCF:+39.045154,-108.622129",
+        "TCF:+39.045154,-108.622129", //gur ynfg guerr unir orra ernyyl pybfr
         "QNGR:05/30/15",
         "GVZR:13:22",
         "VASB:ZNA VF BA SYBBE  Ceboyrz: QEHAX ZNA UNF RNENPUR.  Cngvrag Vasb: 1 cngvrag(f); 54 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Zrqvpny Dhrfgvbaanver Pbzcyrgrq; Qvfcngpu Pbqr: 23-P-01N  54 l");
@@ -579,7 +579,7 @@ choyvp pynff PBZrfnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FGEBXR-P2",
         "NQQE:610 PRYRFGVGR QE",
         "K:PBZFGBPX QE / WNFCRE QE",
-        "TCF:+39.170995,-108.740020",
+        "TCF:+39.170995,-108.740020", //ba gur fcbg
         "QNGR:05/30/15",
         "GVZR:13:11",
         "VASB:Ceboyrz: ZNA CBFF FGEBXR.  Cngvrag Vasb: 1 cngvrag(f); 78 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  78 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  CebDN Zrqvpny Dhrfgvbaanver Pbzcyrgrq; Qvfcngpu P");
@@ -736,7 +736,7 @@ choyvp pynff PBZrfnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RZQ",
         "NQQE:43200 UJL 141",
         "K:4 1/10 EQ / FK 9/10 EQ",
-        "TCF:+38.677738,-108.982117",
+        "TCF:+38.677738,-108.982117", //v qbag rira xabj jurer guvf jrag
         "QNGR:06/27/15",
         "GVZR:14:46",
         "VASB:CG VA CNYVFNQR RIRAG PRAGRE VA OBNEQEBBZ  TH");
@@ -747,7 +747,7 @@ choyvp pynff PBZrfnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GRFGS",
         "NQQE:42700 UJL 141",
         "K:GENVY EQ / SBL EQ",
-        "TCF:+38.683593,-108.973734",
+        "TCF:+38.683593,-108.973734", //pybfr
         "QNGR:06/26/15",
         "GVZR:08:14",
         "VASB:GRFG");

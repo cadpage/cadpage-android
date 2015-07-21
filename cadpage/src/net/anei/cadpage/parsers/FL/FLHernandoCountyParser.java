@@ -4,9 +4,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchH01Parser;
 
 
-public class FLHermandoCountyParser extends DispatchH01Parser {
-  public FLHermandoCountyParser() {
-    super("HERMANDO COUNTY", "FL",
+public class FLHernandoCountyParser extends DispatchH01Parser {
+  public FLHernandoCountyParser() {
+    super("HERNANDO COUNTY", "FL",
           "( MARK! Workstation:SKIP! Print_Time:SKIP! User:SKIP! Location:ADDR! Response_Type:CALL! Zone_Name:MAP! Priority_Name:PRI Creation_Time:SKIP! Sequence_Number:ID! Status_Name:SKIP! Status_Time:DATETIME! Handling_Unit:UNIT! Agency:SRC! NOTES+ " +
           "| STATUS CALL ADDR MAP UNIT! )");
   }
