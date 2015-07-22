@@ -115,7 +115,7 @@ choyvp pynff ZGPnfpnqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:07/16",
         "GVZR:10:52",
         "HAVG:ES9",
-        "NQQE:ZZ7 Rqra Ebnq",
+        "NQQE:ZZ7 Rqra Ebnq", //AB
         "PNYY:Iruvpyr Ebyybire, ab ercbegrq bpphcragf");
 
     qbGrfg("G6",
@@ -171,7 +171,7 @@ choyvp pynff ZGPnfpnqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:06/29",
         "GVZR:21:50",
         "HAVG:ES9",
-        "NQQE:zz2-zz3 uvtujbbq eq",
+        "NQQE:zz2-zz3 uvtujbbq eq", //AB
         "PNYY:fznyy svryq ba sver, yrff guna na nper");
 
     qbGrfg("G13",
@@ -179,7 +179,7 @@ choyvp pynff ZGPnfpnqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:06/29",
         "GVZR:06:23",
         "HAVG:ES3",
-        "NQQE:ZZ 5 Ujl 87",
+        "NQQE:ZZ 5 Ujl 87", //ABBBBBB
         "PNYY:Iru ebyybire AO ynar. ab rkgevpngvba arrqrq.");
 
     qbGrfg("G14",

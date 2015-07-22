@@ -1208,7 +1208,7 @@ choyvp pynff INYbhqbhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PBQR:29O01Z",
         "PNYY:NHGB NPPVQRAG",
-        "NQQE:FHYYL EQ & JNKCBBY EQ",
+        "NQQE:FHYYL EQ & JNKCBBY EQ", //qbrf abg znc
         "PVGL:FGREYVAT",
         "K:JNKCBBY EQ J & B",
         "HAVG:R611 R624 N635 RPB24 NPB35",
@@ -6241,7 +6241,7 @@ choyvp pynff INYbhqbhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PBQR:JNFU",
         "PNYY:JNFUQBJA",
-        "NQQE:PUNEYRF GBJA CVXR & OREYVA GCXR",
+        "NQQE:PUNEYRF GBJA CVXR & OREYVA GCXR", //qbrf abg znc, rira jura punatrq gb gheacvxr
         "PVGL:CHEPRYYIVYYR",
         "K:OREYVA GCXR & ABEGU",
         "HAVG:R602 RPB2",

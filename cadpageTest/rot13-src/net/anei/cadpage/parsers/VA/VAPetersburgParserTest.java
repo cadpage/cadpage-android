@@ -251,7 +251,7 @@ choyvp pynff INCrgrefohetCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:SLV: ;SFGEHP;620 F FLPNZBER FG;TENUNZ EQ;RNEYL FG",
         "PNYY:SFGEHP",
         "NQQE:620 F FLPNZBER FG",
-        "K:TENUNZ EQ & RNEYL FG");
+        "K:TENUNZ EQ & RNEYL FG"); 
 
     qbGrfg("G15",
         "PNQ:SLV: ;E132;118 RYZ FG;PUHEPU FG;SREAQNYR NIR",
