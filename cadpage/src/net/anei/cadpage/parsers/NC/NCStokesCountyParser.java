@@ -120,6 +120,7 @@ public class NCStokesCountyParser extends FieldProgramParser {
       "LAW", "Lawsonville",
       "MAD", "Madison",
       "PIN", "Pinnacle",
+      "SAN", "Sandy Ridge",
       "WAL", "Walnut Cove",
       "WC",  "Walnut Cove",
       "WES", "Westfield"

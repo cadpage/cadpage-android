@@ -21,4 +21,11 @@ public class TNMorganCountyParser extends FieldProgramParser {
     if (!subject.equals("E911 Incident Auto-Page")) return false;
     return parseFields(body.split("\n"), data);
   };
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    int pt = addr.indexOf(" - ");
+    if (pt >= 0) addr = addr.substring(0,pt).trim();
+    return super.adjustMapAddress(addr);
+  }
 }
