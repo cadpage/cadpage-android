@@ -11,6 +11,6 @@ Bergen County, NJ
 public class NJBergenCountyParser extends GroupBestParser {
   
   public NJBergenCountyParser() {
-    super(new NJBergenCountyAParser(), new NJBergenCountyBParser());
+    super(new NJBergenCountyAParser(), new NJBergenCountyBParser(), new NJBergenCountyCParser());
   }
 }

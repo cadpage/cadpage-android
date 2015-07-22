@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Fnqqyr Evire, AW
+Oretra Pbhagl, AW (P)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fnqqyr Evire SQ

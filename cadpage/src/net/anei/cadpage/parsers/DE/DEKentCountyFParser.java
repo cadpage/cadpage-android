@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Kent County, DE
+ * Kent County, DE (F)
  */
 public class DEKentCountyFParser extends DEKentCountyBaseParser {
   

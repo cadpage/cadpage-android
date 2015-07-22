@@ -8,11 +8,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 /**
  * Parker County, TX
  */
-public class TXParkerCountyParser extends FieldProgramParser {
+public class TXParkerCountyAParser extends FieldProgramParser {
   
   private static final Pattern DELIM = Pattern.compile(" *\n+ *");
   
-  public TXParkerCountyParser() {
+  public TXParkerCountyAParser() {
     super("PARKER COUNTY", "TX",
         "TITLE CALL STATION SRC PLACE_NAME PLACE ADDRESS ADDR CROSS_STREET X CITY_T CITY LAT_LONG GPS MAP_T MAP DETAILS! INFO+");
   }

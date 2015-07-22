@@ -6,7 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 
-Chganz Pbhagl Furevss, SY
+Chganz Pbhagl, SY
  
 Pbagnpg: Npgvir911
 Ntrapl anzr: Chganz Pbhagl Furevss'f Bssvpr

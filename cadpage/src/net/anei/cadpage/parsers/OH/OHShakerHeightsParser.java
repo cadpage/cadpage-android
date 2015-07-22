@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Allen County, OH
+ * Shaker Heights, OH
  */
 public class OHShakerHeightsParser extends FieldProgramParser {
 

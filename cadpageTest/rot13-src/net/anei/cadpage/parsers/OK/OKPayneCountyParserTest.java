@@ -5,7 +5,7 @@ vzcbeg bet.whavg.Grfg;
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 /*
-Crexvaf Pbhagl, BX
+Cnlar Pbhagl, BX
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Crexvaf SQ
