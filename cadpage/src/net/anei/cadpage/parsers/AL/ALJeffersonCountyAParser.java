@@ -48,6 +48,9 @@ public class ALJeffersonCountyAParser extends SmartAddressParser {
     // Regular call parsing is very hit or miss.  We only do it if we have a positive ID
     if (!isPositiveId()) return false;
     
+    // But we can attempt to rule out the alerts for the other Jefferson County parsers
+    if (subject.length() > 0) return false;
+    
     // Get rid of any newlines
     body = body.replace('\n', ' ');
     
