@@ -401,7 +401,7 @@ choyvp pynff GAZbetnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G4",
         "(R911 Vapvqrag Nhgb-Cntr) BGURE\a490 JNGREGNAX UVYY EQ - FJ, JNEGOHET\a2 TVEYF VA GUR JNGRE UBYQVAT GB GERRF",
         "PNYY:BGURE",
-        "NQQE:490 JNGREGNAX UVYY EQ - FJ",
+        "NQQE:490 JNGREGNAX UVYY EQ - FJ", //zncf j/b FJ
         "PVGL:JNEGOHET",
         "VASB:2 TVEYF VA GUR JNGRE UBYQVAT GB GERRF");
 
@@ -414,7 +414,7 @@ choyvp pynff GAZbetnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G6",
         "(R911 Vapvqrag Nhgb-Cntr) NPPVQRAG-VAWHEL\a184 GERR GBC YA - FR, BYVIRE FCEVATF",
         "PNYY:NPPVQRAG-VAWHEL",
-        "NQQE:184 GERR GBC YA - FR",
+        "NQQE:184 GERR GBC YA - FR", //zncf j/b FR
         "PVGL:BYVIRE FCEVATF");
 
     qbGrfg("G7",
@@ -526,7 +526,7 @@ choyvp pynff GAZbetnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(R911 Vapvqrag Nhgb-Cntr) NPPVQRAG\a6977 XABKIVYYR UVTUJNL - FR FRPGBE ,, BYVIRE FCEVATF",
         "PNYY:NPPVQRAG",
         "NQQE:6977 XABKIVYYR UVTUJNL - FR FRPGBE ,",
-        "ZNQQE:6977 XABKIVYYR UVTUJNL - FR FRPGBE",
+        "ZNQQE:6977 XABKIVYYR UVTUJNL - FR FRPGBE", //zncf j/b - FR
         "PVGL:BYVIRE FCEVATF");
 
     qbGrfg("G7",

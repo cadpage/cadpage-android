@@ -246,7 +246,7 @@ choyvp pynff CNPurfgrePbhaglZCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:NPPVQRAG - VAWHEVRF / NYF",
         "NQQE:3147 JO CN GC",
-        "ZNQQE:3147 CRAAFLYINAVN GHEACVXR",
+        "ZNQQE:3147 CRAAFLYINAVN GHEACVXR", //qbrf abg znc
         "PVGL:JRFG CVXRYNAQ GJC",
         "K:ZHAVPVCNY OBHAQNEL & PBARFGBTN EQ",
         "VQ:RJUS14000",
@@ -314,7 +314,7 @@ choyvp pynff CNPurfgrePbhaglZCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:NPPVQRAG - HAXABJA VAWHEVRF",
         "NQQE:3140 RO CN GC",
-        "ZNQQE:3140 CRAAFLYINAVN GHEACVXR",
+        "ZNQQE:3140 CRAAFLYINAVN GHEACVXR", //qbrf abg znc
         "PVGL:HJPUYNA GJC",
         "K:HJPUYNA NI & HCCRE CVAR PERRX EQ",
         "VQ:YAIS14001",

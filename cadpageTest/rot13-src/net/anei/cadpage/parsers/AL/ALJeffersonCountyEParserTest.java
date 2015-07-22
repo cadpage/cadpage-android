@@ -154,7 +154,7 @@ choyvp pynff NYWrssrefbaPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Sver Choyvp Nffvfg / Sver Choyvp Nffvfg",
         "NQQE:2541 EBPXL EVQTR EQ",
-        "PVGL:Wrssrefba Pbhagl",
+        "PVGL:Wrssrefba Pbhagl", //abg vqrny
         "K:JNEERA YA, PBYYVAJBBQ PG / ZBETNA QE",
         "QNGR:05/05/2017",
         "GVZR:11:01:13",
@@ -294,7 +294,7 @@ choyvp pynff NYWrssrefbaPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GLCR:EHA_ERCBEG",
         "PNYY:Zrqvpny ZIN / Zrqvpny ZIN",
         "NQQE:V459 F & NPGBA EQ",
-        "ZNQQE:V 459 F & NPGBA EQ",
+        "ZNQQE:V 459 F & NPGBA EQ",  //qbrf abg znc
         "QNGR:05/05/2017",
         "GVZR:06:27:51",
         "CEV:Uvtu",

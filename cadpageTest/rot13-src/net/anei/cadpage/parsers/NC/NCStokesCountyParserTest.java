@@ -4736,7 +4736,7 @@ choyvp pynff APFgbxrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:ARF36",
         "PNYY:OHVYQVAT SVER",
         "NQQE:1717 NZBFGBJA EQ",
-        "PVGL:FNA",
+        "PVGL:FNA", //fnaql evqtr
         "HAVG:FGN36 FGN39 FGN32 EP130",
         "VASB:CebDN Sver Erpbzzraqrq Qvfcngpu Yriry = 69Q10\aFgehpgher Sver.  Zbovyr ubzr, ubhfr genvyre, cbegnoyr bssvpr.\a1. Gur pnyyre vf ba fprar (1fg cnegl).\a2. Obgu fzbxr naq synzrf ner ivfvoy");
 

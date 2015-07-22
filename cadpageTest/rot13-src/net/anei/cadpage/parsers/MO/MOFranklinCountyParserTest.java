@@ -154,7 +154,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "&aofc;&aofc;&ful;&ful;&aofc;&aofc;",
 
         "NQQE:626 OENAQBA YA",
-        "PVGL:SENAXYVA PBHAGL",
+        "PVGL:SENAXYVA PBHAGL", // :/
         "K:ZVYY UVYY EQ",
         "PNYY:ZHGHNY NVQ/NFFVFG BHGFVQR NTPL ERFCBAQ GB FPRAR",
         "QNGR:03/05/2014",
@@ -286,7 +286,7 @@ choyvp pynff ZBSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "NQQE:24600 V 44 RNFGOBHAQ (V 44 R)",
         "ZNQQE:24600 V 44",
-        "PVGL:63084",
+        "PVGL:63084", //zncf j/b guvf
         "K:UVTUJNL 50 ENZC, VAGREFGNGR 44",
         "PNYY:ZIN ZNWBE VAPVQRAG GENSSVP/GENAFCBEG VAPVQRAG",
         "ZNC:HAR98",

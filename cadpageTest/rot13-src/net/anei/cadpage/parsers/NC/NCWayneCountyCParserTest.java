@@ -598,8 +598,8 @@ choyvp pynff APJnlarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Genssvp Nppvqrag-Vaw",
         "HAVG:(N)FF-Grnz",
         "NQQE:F AP 111 UJL & CEVPR EQ",
-        "ZNQQE:F FGNGR 111 & CEVPR EQ",
-        "PVGL:FRIRAFCEVATF",
+        "ZNQQE:F FGNGR 111 & CEVPR EQ", 
+        "PVGL:FRIRAFCEVATF", //frira fcevatf
         "TCF:+534987.500009,-2330762.750000",
         "VASB:Abgrf: Zvyrfgbar bs \"FFSQ:2015:000028\" unf orra zbqvsvrq gb \"UC Abgvsvrq\"\aAbgrf: [2529164595] SZ PNYYRE\aAbgrf: [2529164595] FBZRBAR WHFG FYNZZRQ VA ONPX BS FBZRBAR\aAbgrf: JUVGR GEHPX\aAbgrf: TBYQ PNE\aAbgrf: HAXABJA VAWHEVRF\aAbgrf: OHAPU BS UVFCNAVPF BHG BS IRUVPYR\aAbgrf: PNYYRE JVGARFFRQ FNZR\aAbgrf: FNVQ VG JNF GEHPX'F SNHYG\aAbgrf: FUR FNJ VG NYY\aAbgrf: AB FZBXR BE SVER FRRA SEBZ RVGURE\\\aAbgrf: PNYYRE FGNAQVAT OL BA FVYIRE UBAQN PVIVP ARNEOL\aAbgrf: BCF 8\aAbgrf: PNYYRE VF TVAN\aAbgrf: 252-916-4595\aAbgrf: SVER VAP 2438");
 
@@ -818,7 +818,7 @@ choyvp pynff APJnlarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:RISQ:2015:000119",
         "PNYY:Svryq Sver",
         "HAVG:(N)RYE-Grnz",
-        "NQQE:CVARL TEBIR PUHEPU EQ & FG WBUA PUHEPU EQ",
+        "NQQE:CVARL TEBIR PUHEPU EQ & FG WBUA PUHEPU EQ", //v pna frr jurer gurl zrrg, ohg qbrf abg znc
         "PVGL:TBYQFOBEB",
         "TCF:+557376.000009,-2341126.000000",
         "VASB:Abgrf: [2525590037] N PBHCYR BS SVRYQF BA SVER\aAbgrf: [2525590037] QBJA SEBZ FCEVAT PERRX FPUBBY\aAbgrf: PNYYRE NQI ARNE FBZR QHCYRKRF BA PBEARE BS GUVF VAGREFRPGVBA\aAbgrf: FNLF VG VF FCERNQVAT NEBHAQ SVRYQ\aAbgrf: PNYYRE JNF WHFG CNFFVAT OL\aAbgrf: FNLF OVT PVEPYR BS SVER\aAbgrf: PNYYRE AB YBATRE VA NERN\aAbgrf: SVER VAP 2367\aAbgrf: Frira Fcevatf gbarq bhg ers Urng Vaqrk 95 qrterrf");
@@ -5918,7 +5918,7 @@ choyvp pynff APJnlarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Svryq Sver",
         "HAVG:(N)EJ-Grnz",
         "NQQE:J HF 70 UJL & CREXVAF ZVYY EQ",
-        "ZNQQE:J HF 70 & CREXVAF ZVYY EQ",
+        "ZNQQE:J HF 70 & CREXVAF ZVYY EQ", //qbrf abg znc
         "PVGL:TBYQFOBEB",
         "TCF:+605907.437509,-2287705.750000",
         "VASB:Abgrf: [9199128734] PNYYRE NQIVFRQ GURER JNF N SVRYQ SVER GURER JNF ABOBQL NEBHAQ VG");
@@ -10888,7 +10888,7 @@ choyvp pynff APJnlarPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Iruvpyr Sver",
         "HAVG:(N)CVX-Grnz",
         "NQQE:0 V-795",
-        "ZNQQE:0 V 795",
+        "ZNQQE:0 V 795", //qbrf abg znc
         "K:; Arne:18",
         "TCF:+637598.515259,-2298409.225701");
 
