@@ -14,12 +14,14 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
   private static final Pattern ID_PTN = Pattern.compile(" +(\\d{2}-\\d+)$");
   private static final Pattern TIME_PTN = Pattern.compile(" +(\\d\\d:\\d\\d)$");
   private static final Pattern LAT_LONG_PTN = Pattern.compile("(38)(\\d{6}) +(\\d{2})(\\d{6})$");
-  private static final Pattern SRC_UNIT_PTN = Pattern.compile("(?:((?:NORTH|CENTRAL|SOUTH) MAIN) +)?(\\d\\d|(?:Affton|Brentwood|Crestwood FD|Eureka|Fenton|Kirkwood|Ladue|Lemay|Mehlville|St Louis City|St Louis|Olivette|Shrewsbury|Webster Groves)(?: FPD)?)(?: *(?:\\[ |Units: )? *((?:\\b(?:(?:STL )?[A-Za-z0-9]+|GTWY \\d+|\\d+ DUTY|NEED (?:AMB|EMS) \\d+)\\b,?)+))?$");
+  private static final Pattern SRC_UNIT_PTN = Pattern.compile(" *(?:FD: *)?(\\d\\d\\b|(?:Affton|Brentwood|City of St Loui|Crestwood FD|Eureka|Fenton|Franklin|Jefferson|Kirkwood|Ladue|Lemay|Mehlville|Olivette|Shrewsbury|St Charles|St Louis City|St Louis|Webster Groves)(?: FPD)?)(?: *(?:\\[ |Units: )? *((?:(?:(?:STL )?[A-Za-z0-9]+|GTWY \\d+|\\d+ DUTY|NEED (?:AMB|EMS) \\d+)\\b,?)+))?$");
+  private static final Pattern MAP_PTN = Pattern.compile("(?: +| *(?:TAC|CHL): *)((?:CC911 +)?(?:NORTH|CENTRAL|SOUTH|SO - [FS])(?: MAIN| DISP)?(?: F)?)$");
+  private static final Pattern TAC_PTN = Pattern.compile(" *(?:TAC *)?(?<!\\bI |\\bHWY |\\bHIGHWAY )\\b(\\d{1,2})$");
   private static final Pattern BAD_AT_PTN = Pattern.compile("(.*?[a-z ])AT(.*)");
 
   public MOStLouisCountyCParser() {
     super("ST LOUIS COUNTY", "MO", 
-        "CALL! AT:ADDR! BUS:PLACE? XST:X");
+        "CALL! AT:ADDR! APT:APT? BUS:PLACE? XST:X");
   }
   
   @Override
@@ -59,13 +61,48 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
       body = body.substring(0,match.start()).trim();
     }
 
-    /// Parse out source and unit from end of body
+    // Parse out channel, map, and source/unit from end of body
+    // Channel and map are optional, map can occur before or after the source/unit
+    match = MAP_PTN.matcher(body);
+    if (match.find()) {
+      data.strMap = match.group(1);
+      body = body.substring(0,match.start());
+      match = TAC_PTN.matcher(body);
+      if (match.find()) {
+        data.strChannel = match.group(1);
+        body = body.substring(0,match.start());
+      }
+    }
+    
     match = SRC_UNIT_PTN.matcher(body);
     if (!match.find()) return false;
+    data.strSource = match.group(1);
+    data.strUnit = getOptGroup(match.group(2)).replace(' ', '_');
     body = body.substring(0,match.start()).trim();
-    data.strMap =  getOptGroup(match.group(1));
-    data.strSource = match.group(2);
-    data.strUnit = getOptGroup(match.group(3)).replace(' ', '_');
+
+    if (data.strMap.length() == 0) {
+      match = MAP_PTN.matcher(body);
+      if (match.find()) {
+        data.strMap = match.group(1);
+        body = body.substring(0,match.start());
+      }
+    }
+    
+    if (data.strChannel.length() == 0) {
+      match = TAC_PTN.matcher(body);
+      if (match.find()) {
+        data.strChannel = match.group(1);
+        body = body.substring(0,match.start());
+      }
+      if (data.strMap.length() == 0) {
+        match = MAP_PTN.matcher(body);
+        if (match.find()) {
+          data.strMap = match.group(1);
+          body = body.substring(0,match.start());
+        }
+      }
+    }
+
     
     // Make sure there is a blank in front of the AT keyword
     // And a colon behind it
@@ -82,13 +119,15 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
       if (!match.matches()) return false;
       body = match.group(1) + " AT:" + match.group(2) + body.substring(pt);
     }
+    
+    body = body.replace("TAC:", " TAC:");
 
     return super.parseMsg(body, data);
   }
   
   @Override
   public String getProgram() {
-    return super.getProgram() + " MAP SRC UNIT GPS TIME ID";
+    return super.getProgram() + " CH MAP SRC UNIT GPS TIME ID";
   }
   
   @Override

@@ -47,6 +47,7 @@ public class DEKentCountyFParser extends DEKentCountyBaseParser {
     @Override
     public void parse(String field, Data data) {
 
+      field = field.replace('@', '&');
       super.parse(field, data);
       adjustCityState(data);
     }

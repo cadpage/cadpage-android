@@ -267,7 +267,7 @@ choyvp pynff QRXragPbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Tbbtyr Zncf Ulcreyvax: uggc://zncf.tbbtyr.pbz/zncf?d=ybp:ENOOVG+PUNFR+Fzlean",
 
         "PNYY:29Q2Z ZIP Crqrfgevna, 29Q2Z ZIP Crqrfgevna / 29Q2Z ZIP Crqrfgevna, 29Q2Z ZIP Crqrfgevna",
-        "NQQE:ENOOVG PUNFR YA@ FHAALFVQR EQ", //jbexf...
+        "NQQE:ENOOVG PUNFR YA & FHAALFVQR EQ",
         "PVGL:Fzlean",
         "CEV:Qrygn, Qrygn",
         "QNGR:07/16/2015",
@@ -1489,7 +1489,7 @@ choyvp pynff QRXragPbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Tbbtyr Zncf Ulcreyvax: uggc://zncf.tbbtyr.pbz/zncf?d=ybp:NEGVP+Fzlean",
 
         "PNYY:29O1N ZIP Zhygvcyr Vawhevrf, 29O1N ZIP Zhygvcyr Vawhevrf / 29O1N ZIP Zhygvcyr Vawhevrf, 29O1N ZIP Zhygvcyr Vawhevrf",
-        "NQQE:NEGVP YA@ TERRAF OENAPU YA",
+        "NQQE:NEGVP YA & TERRAF OENAPU YA",
         "PVGL:Fzlean",
         "CYNPR:RNTYRF IVRJ",
         "CEV:Oenib, Oenib",
