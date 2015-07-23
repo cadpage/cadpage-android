@@ -7,6 +7,9 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Pnyubha Pbhagl, ZV
+
+Cebonoyl bofbyrgr!!
+
 Pbagnpg: Gvz Fzvgu <gvzfzvgu1923@tznvy.pbz>
 Fraqre: cbfgznfgre@pnyubhapbhaglzv.tbi
 Flfgrz CevaGenx

@@ -96,6 +96,7 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Ghfpneben SQ) 320 ONKGRE YNXR EQ G/ARYFBASQ OEHFU SVERGHFPNSQ:2015:00021
 (Ghfpneben NZO) 1345 NYLFBA EQ GHFPNEBEN GBJA BS ( PBHAGL EBHGR 85/NQQVFBA ONPX EQ,PBHAGL EBHGR 85 )6Q2 - Oernguvat Ceboyrzf - Qvssvphygl fcrnxvat orgjr
 (Ghfpneben NZO) 2001 ZREEVPX UVYY QRRESVRYQ18P4 - Urnqnpur - Fhqqra bafrg bs frirer cnvaGHFPNZO:2015:00051
+(Ghfpneben NZO) 48 JVAGREF YA NQQVFBA GBJA BS ( PBHAGL EBHGR 119/PBHAGL EBHGR 119 )31P1 - Hapbafpvbhf/Snvagvat - Nyreg jvgu noabezny oernguvatNQQVFSQNZO
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ongu SQ
@@ -985,6 +986,16 @@ choyvp pynff ALFgrhoraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:QRRESVRYQ",
         "FG:CN",
         "VQ:2015:00051");
+
+    qbGrfg("G6",
+        "(Ghfpneben NZO) 48 JVAGREF YA NQQVFBA GBJA BS ( PBHAGL EBHGR 119/PBHAGL EBHGR 119 )31P1 - Hapbafpvbhf/Snvagvat - Nyreg jvgu noabezny oernguvatNQQVFSQNZO",
+        "FEP:Ghfpneben NZO",
+        "NQQE:48 JVAGREF YA",
+        "PVGL:NQQVFBA",
+        "K:PBHAGL EBNQ 119/PBHAGL EBNQ 119",
+        "PBQR:31P1",
+        "PNYY:Hapbafpvbhf/Snvagvat",
+        "VASB:Nyreg jvgu noabezny oernguvatNQQVFSQNZO");
 
   }
 
