@@ -65,6 +65,11 @@ public class MIOaklandCountyAParser extends SmartAddressParser {
     
     // One last chance, but only if call has been postively IDed as a page
     if (isPositiveId()) {
+      
+      // Drop any possible B & C msgs
+      if (body.startsWith("CAD Alert : Run ")) return false;
+      if (body.startsWith("http")) return false;
+      
       parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT | FLAG_OPT_STREET_SFX, body, data);
       data.strCall = getLeft();
       return data.strCall.length() > 0;

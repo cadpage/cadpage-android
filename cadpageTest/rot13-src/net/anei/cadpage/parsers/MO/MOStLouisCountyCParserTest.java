@@ -2207,6 +2207,7 @@ choyvp pynff ZBFgYbhvfPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgOnqZft() {
     qbOnqGrfg("Sver - Erfvqragvny NG 1752 Puevfgvar Qe NCG:  OHF: SNVEYNAR ZQJF/IZC SQ: Prageny Pbhagl PUY: 04 Havgf: 9412,9420,9542,9564,9554,9506,Z02,95 PPSE V");
     qbOnqGrfg("(PNQ Cntvat) HCQNGR FPL CQ NQIVFR GURL PNYYRQ N PBQR 2000 SBE CBYVPR QHR GB YNETR PEBJQ VA GUR NERN - PEBJQ VF HAQRE PBAGEBY NG GUVF GVZR - GUNAX LBH PPR");
+    qbOnqGrfg("6717 YRFYV ZNEV PG (YVSR) - 74 LBS NFGUZN NGGNPX - 3735,5118 20:14");
   }
   
   @Grfg
