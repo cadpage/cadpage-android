@@ -24,6 +24,9 @@ public class NCAlexanderCountyParser extends DispatchOSSIParser {
   public boolean parseMsg(String subject, String body, Data data) {
     if (body.length() == 0) body = subject;
     body = stripFieldStart(body, "|");
+    if (!body.startsWith("CAD:") && subject.equals("Text Message")) {
+      body = "CAD:" + body;
+    }
     return super.parseMsg(body, data);
   }
   
@@ -86,10 +89,12 @@ public class NCAlexanderCountyParser extends DispatchOSSIParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "GF",  "GRANITE FALLS",
       "HID", "HIDDENITE",
       "HKA", "HICKORY",
       "MOR", "MORAVIAN FALLS",
       "STP", "STONY POINT",
+      "SVA", "STATESVILLE",
       "TAY", "TAYLORSVILLE TWP"
   });
   
