@@ -11,6 +11,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class FLCitrusCountyParser extends SmartAddressParser {
   
+  private static final Pattern MARKER = Pattern.compile("CITRUS COUNTY FIRE DEPARTMENT:? +");
   private static final Pattern TRUNC_CITY_PTN = Pattern.compile("(?: [A-Z][a-z]+)+(?: [A-Z])?$");
   private static final Pattern MASTER1 = Pattern.compile("Unit:([A-Z0-9]+) Status:Dispatched ([A-Z0-9]+) - (.*?) (\\d{2}[A-Z]) (.*)");
   private static final Pattern MASTER2 = Pattern.compile("((?:[A-Z]+\\d+[A-Z]? )+) ([A-Z]?\\d{1,2}[A-Z]) (.*?) ([A-Z0-9]+?) (?:- ([^-]*) )?(\\d{4}-\\d+)(?: +(.*))?");
@@ -29,8 +30,9 @@ public class FLCitrusCountyParser extends SmartAddressParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     do {
-      if (body.startsWith("CITRUS COUNTY FIRE DEPARTMENT ")) {
-        body = body.substring(30).trim();
+      Matcher match = MARKER.matcher(body);
+      if (match.lookingAt()) {
+        body = body.substring(match.end());
         break;
       }
       
