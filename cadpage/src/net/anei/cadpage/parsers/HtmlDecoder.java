@@ -27,7 +27,10 @@ public class HtmlDecoder {
   // Tag should generate a line break
   private static final int HTML_FLAG_LINE_BREAK = 0x0004;
   
+  // User identified break tag
   private static final int HTML_FLAG_USER_BREAK = 0x0008;
+  
+  private static final int HTHL_FLAG_PRE =0x0010;
   
   
   private static final char EOL = (char)-1;
@@ -47,6 +50,7 @@ public class HtmlDecoder {
         "h1", "h2", "h3", "h4", "H5", "h6",
         "li", "p", "pre", "section", 
         "table", "tbody", "td", "th", "thead", "tr", "ul");
+    setTagFlags(HTHL_FLAG_PRE, "pre");
     if (userTags != null) {
       setTagFlags(HTML_FLAG_USER_BREAK | HTML_FLAG_FIELD_BREAK, userTags.split("\\|"));
     }
@@ -67,6 +71,7 @@ public class HtmlDecoder {
   private boolean space;
   private boolean lineBreak;
   private Set<String> userTagSet;
+  private int nestedPreCnt;
   
   /**
    * Main parsing method
@@ -117,6 +122,12 @@ public class HtmlDecoder {
       if ((tagFlags & HTML_FLAG_LINE_BREAK) != 0) {
         if (curField.length() > 0) lineBreak = true;
       }
+      
+      // <pre> tag increments or decrements the nested pre counter
+      if ((tagFlags & HTHL_FLAG_PRE) != 0) {
+        if (tag.startsWith("/")) nestedPreCnt--;
+        else nestedPreCnt++;
+      }
     }
 
     // ALl done, add any leftover data to the field list
@@ -141,6 +152,7 @@ public class HtmlDecoder {
     space = false;
     lineBreak = false;
     userTagSet = null;
+    nestedPreCnt = 0;
   }
   
   /**
@@ -167,14 +179,33 @@ public class HtmlDecoder {
       if (chr == EOL) return null;
       
       // If start of html tag, retrieve html tag name
-      if (chr == '<') return getHtmlTag();
+      if (chr == '<') {
+        String tag = getHtmlTag();
+        if (tag != null) return tag;
+      }
       
       // If this is an HTML escape sequence, retrieve the escaped character
       if (chr == '&') chr = getHtmlEscape();
       
-      // If whitespace character, just set the space flag
+      // If whitespace character processing depends on whether or not
+      // we are in a nested <pre> block
       if (Character.isWhitespace(chr)) {
-        if (curField.length() > 0) space = true;
+        
+        // Normal procesing just sets teh space flag
+        if (nestedPreCnt == 0) {
+          if (curField.length() > 0) space = true;
+        }
+        
+        // Pre block processing
+        // new lines are treated as field breaks
+        // Anything else is treated as a single blank
+        else {
+          if (chr == '\n') {
+            addCurField();
+          } else {
+            curField.append(' ');
+          }
+        }
       }
       
       // Otherwise, append to current field, possibly with a leading space
@@ -195,17 +226,44 @@ public class HtmlDecoder {
 
   /**
    * Retrieve the rest of an html tag after the initial < has been identified
-   * @return html tag name
+   * @return html tag name if identified, null if no valid html tag is identified
    */
   private String getHtmlTag() {
+    int savePos = pos;
     StringBuilder sb = new StringBuilder();
     char chr = getNextChar();
-    while (chr == ' ') chr = getNextChar();
-    boolean add = true;
-    while (chr != EOL && chr != '>') {
-      if (add) sb.append(Character.toLowerCase(chr));
+    if (chr == '?') {
+      sb.append(chr);
       chr = getNextChar();
-      if (chr == ' ') add = false;
+    }
+    if (chr == '/') {
+      sb.append(chr);
+      chr = getNextChar();
+    }
+    if (!Character.isLetter(chr)) {
+      sb.append(Character.toLowerCase(chr));
+      chr = getNextChar();
+    }
+    while (Character.isLetter(chr) || Character.isDigit(chr) || chr == ':') {
+      sb.append(Character.toLowerCase(chr));
+      chr = getNextChar();
+    }
+    if (sb.charAt(0)!='/' && chr == '/') {
+      sb.append(chr);
+      chr = getNextChar();
+    }
+    if (chr != ' ' && chr != '>' && chr != EOL) {
+      pos = savePos;
+      return null;
+    }
+    if (chr != EOL) {
+      while (chr != '>' && chr != EOL) {
+        chr = getNextChar();
+        if (chr == '<') {
+          pos = savePos;
+          return null;
+        }
+      }
     }
     return sb.toString();
   }
