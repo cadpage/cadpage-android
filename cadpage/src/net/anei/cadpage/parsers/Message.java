@@ -99,7 +99,7 @@ public class Message {
   // Patterns used to perform front end descrambling
   private static final Pattern SUBJECT_EMAIL_PTN = Pattern.compile("Forwarded Message from ([^ ]+)");
   private static final Pattern RETURN_PTN = Pattern.compile("\r+\n|\n\r+|\r");
-  private static final Pattern LEAD_BLANK = Pattern.compile("^ *\" \" +");
+  private static final Pattern LEAD_BLANK = Pattern.compile("^ *\" \":? +");
   private static final Pattern FORWARD_PTN = Pattern.compile("(?:FWD?|Begin forwarded message): *");
   private static final Pattern LEAD_UNDERSCORE_PTN = Pattern.compile("\n*_{5,}\n+");
   private static final Pattern DISCLAIMER_PTN = Pattern.compile("\n+DISCLA| *\\[Attachment\\(s\\) removed\\]\\s*$|\n+To unsubscribe ", Pattern.CASE_INSENSITIVE);
