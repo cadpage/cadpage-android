@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 public class MICalhounCountyAParser extends DispatchPrintrakParser {
   
   public MICalhounCountyAParser() {
-    super(MICalhounCountyParser.CITY_TABLE, "CALHOUN COUNTY", "MI");
+    super(MICalhounCountyParser.CITY_CODES, "CALHOUN COUNTY", "MI");
   }
   
   @Override

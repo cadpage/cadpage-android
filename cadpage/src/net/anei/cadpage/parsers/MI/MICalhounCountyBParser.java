@@ -11,7 +11,7 @@ public class MICalhounCountyBParser extends DispatchOSSIParser {
   private static final Pattern MANGLED_SUBJECT_PTN = Pattern.compile("\\d\\d/\\d\\d/\\d{4} \\d{2}");
   
   public MICalhounCountyBParser() {
-    super(MICalhounCountyParser.CITY_TABLE, "CALHOUN COUNTY", "MI",
+    super(MICalhounCountyParser.CITY_CODES, "CALHOUN COUNTY", "MI",
           "( CANCEL ADDR | FYI? EMPTY? DATETIME CALL ADDR! ) CITY INFO+");
   }
   

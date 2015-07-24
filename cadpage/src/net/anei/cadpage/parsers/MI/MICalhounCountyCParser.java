@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.MI;
 
-import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.MsgType;
 public class MICalhounCountyCParser extends HtmlProgramParser {
   
   public MICalhounCountyCParser() {
-    super(CITY_CODES, "CALHOUN COUNTY", "MI", 
+    super(MICalhounCountyParser.CITY_CODES, "CALHOUN COUNTY", "MI", 
           "COMM! DISPATCH! Incident#:ID! Report#:EMPTY! Date:DATE! Time_Out:TIME! Nature:CALL! MP:CODE! Business:PLACE! Address:ADDR! City:CITY Addt_Address:ADD_ADDR! Cross:X! X+ Subdivision:EMPTY! RA:EMPTY! Neighborhood:EMPTY! Notes:INFO+ Hot_Spot:EMPTY! Premise:EMPTY! Units:UNIT!");
   }
   
@@ -65,36 +64,4 @@ public class MICalhounCountyCParser extends HtmlProgramParser {
       data.strSupp = append(data.strSupp, "\n", field);
     }
   }
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "AL", "ALBION CITY",
-      "AS", "ATHENS TWP",
-      "AT", "ALBION TWP",
-      "BC", "BATTLE CREEK CITY",
-      "BE", "BEDFORD TWP",
-      "BT", "BURLINGTON TWP",
-      "BU", "BURLINGTON",
-      "CL", "CLARENCE TWP",
-      "CO", "CONVIS TWP",
-      "CT", "CLARENDON TWP",
-      "EC", "ECKFORD TWP",
-      "ET", "EMMETT TWP",
-      "FT", "FREDONIA TWP",
-      "HO", "HOMER",
-      "HP", "HOMER TWP",
-      "LE", "LEE TWP",
-      "LT", "LEROY TWP",
-      "MA", "MARSHALL CITY",
-      "MO", "MARENGO TWP",
-      "MT", "MARSHALL TWP",
-      "NT", "NEWTON TWP",
-      "PT", "PENNFIELD TWP",
-      "SF", "SPRINGFIELD CITY",
-      "ST", "SHERIDAN TWP",
-      "TK", "TEKONSHA",
-      "TT", "TEKONSHA TWP",
-      "VA", "ATHENS"
-    
-  });
-  
 }

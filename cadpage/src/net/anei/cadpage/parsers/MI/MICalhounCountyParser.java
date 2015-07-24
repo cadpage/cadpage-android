@@ -21,7 +21,7 @@ public class MICalhounCountyParser extends GroupBestParser {
   private static final Pattern M_ROUTE_PTN = Pattern.compile("\\bM *(\\d+)\\b"); 
 
 
-  static final Properties CITY_TABLE = buildCodeTable(new String[]{
+  static final Properties CITY_CODES = buildCodeTable(new String[]{
       "AL", "ALBION",
       "AS", "ATHENS TWP",
       "AT", "ALBION TWP",
@@ -30,8 +30,8 @@ public class MICalhounCountyParser extends GroupBestParser {
       "BT", "BURLINGTON TWP",
       "BU", "BURLINGTON",
       "CL", "CLARENCE TWP",
-      "CT", "CLARENDON TWP",
       "CO", "CONVIS TWP",
+      "CT", "CLARENDON TWP",
       "EC", "ECKFORD TWP",
       "ET", "EMMETT TWP",
       "FT", "FREDONIA TWP",
