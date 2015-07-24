@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class PAAlleghenyCountyParser extends FieldProgramParser {
   
-  private static final String MARKER = "ALLEGHENY COUNTY 911 :";
+  private static final Pattern MARKER = Pattern.compile("ALLEGHENY COUNTY 911:? :|:");
   private static final Pattern TRAILER_PTN = Pattern.compile(" - From \\d+ (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)$");
   private static final Pattern MOVE_UP_PTN = Pattern.compile("MOVE-UP: +([A-Z0-9]+) +to +([A-Z0-9]+)\\.?");
   private static final Pattern MOVE_UP_UNIT_PTN = Pattern.compile("\\b([A-Z0-9]+) +to +");
@@ -35,15 +35,14 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
+    // Undo some IAR edits :(
+    if (subject.equals("Station 125")) body = body.replace('\n', ',');
+    
     // There are a number of different message markers
     do {
-      if (body.startsWith(MARKER)) {
-        body = body.substring(MARKER.length()).trim();
-        break;
-      }
-        
-      if (body.startsWith(":")) {
-        body = body.substring(1).trim();
+      Matcher match = MARKER.matcher(body);
+      if (match.lookingAt()) {
+        body = body.substring(match.end()).trim();
         break;
       }
       
