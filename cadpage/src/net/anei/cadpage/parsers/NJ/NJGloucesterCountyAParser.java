@@ -48,18 +48,20 @@ public class NJGloucesterCountyAParser extends DispatchProphoenixParser {
     }
     
     if (!body.contains("\n")) body = body.replace("} ", "}\n");
-    if (!super.parseMsg(body, data)) return false;
-    if (data.strCity.equals("ROWAN")) {
-      data.strPlace = data.strCity;
-      data.strCity = "GLASSBORO";
-    }
-    return true;
+    return super.parseMsg(body, data);
+  }
+  
+  @Override
+  public String adjustMapCity(String city) {
+    if (city.equals("ROWAN")) city = "GLASSBORO";
+    return city;
   }
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "A", "CLAYTON",
       "B", "DEPTFORD",
       "C", "EAST GREENWICH TWP",
+      "CF","WEST DEPFORD TWP",
       "D", "ELK TWP",
       "E", "FRANKLIN TWP",
       "F", "GLASSBORO",
@@ -77,12 +79,25 @@ public class NJGloucesterCountyAParser extends DispatchProphoenixParser {
       "R", "WASHINGTON TWP",
       "S", "WENONAH",
       "T", "WEST DEPTFORD TWP",
+      "Q", "SWEDESBORO",
       "U", "WESTVILLE BORO",
       "V", "WOODBURY CITY",
       "W", "WOODBURY HEIGHTS",
+      "X", "WOOLWICH TWP",
       "Y", "ROWAN",
-      "04", "BUENA VISTA TWP",
+      "04", "BUENA",
       "05", "BUENA VISTA TWP",
-      "CU", "CUMBERLAND COUNTY"
+      "07", "EGGHARBOR CITY",
+      "09", "ESTELL MANOR",
+      "10", "FOLSOM",
+      "23", "WEYMOUTH",
+      "CU", "CUMBERLAND COUNTY",
+      "SA", "SALEM COUNTY"
+      
+
+      
+// Unidentified      
+//      AC = MAYS LANDING?
+//      PX = PA??     
   });
 }
