@@ -4,7 +4,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * fAlamance county, NC
+ * Rocky Mount, NC
  */
 public class NCRockyMountParser extends FieldProgramParser {
   
