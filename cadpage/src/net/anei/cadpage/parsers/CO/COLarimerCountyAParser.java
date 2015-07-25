@@ -5,12 +5,12 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class COLarimerCountyAParser extends FieldProgramParser {
   
-  private static final Pattern TEXT_MARKER_PTN = Pattern.compile("([A-Z]+) +\\(([A-Z]+)\\) *(.*)");
-  
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile(".{30} *(?:- )?([A-Z0-9]+) +\\(TIMES\\) +(?:Rec'd|Received).* Run ?#[- ]+(\\d+)\\b.*");
+  private static final Pattern TEXT_MARKER_PTN = Pattern.compile("\\b([A-Z]+:?) +\\(([A-Z]{3,5})\\) *");
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile(".{30} *(?:- )?([A-Z0-9]+) +\\(TIMES\\) +((?:Rec'd|Received).*)// *Ambu Run ?#[- ]+(\\d+)\\b.*");
   
   private static final Pattern SEPARATOR = Pattern.compile(" *// *");
 
@@ -31,16 +31,33 @@ public class COLarimerCountyAParser extends FieldProgramParser {
     // be expected.  Which is duplicated in the second message which must be
     // identified and removed.
     Matcher match = TEXT_MARKER_PTN.matcher(body);
-    if (match.matches()) {
+    if (match.find()) {
       String marker = match.group(1);
-      subject = match.group(2);
-      body = match.group(3);
-      marker = ' ' + marker + ' ';
-      int pt = body.indexOf(marker);
-      if (pt >= 0) {
-        body = body.substring(0,pt) + ' ' + body.substring(pt + marker.length());
+      String tSubject = match.group(2);
+      if (match.start() == 0) {
+        body = body.substring(match.end());
+        marker = ' ' + marker + ' ';
+        int pt = body.indexOf(marker);
+        if (pt >= 0) {
+          String part1 = body.substring(0,pt);
+          String part2 = body.substring(pt+marker.length());
+          body = part1 + ' ' + part2;
+        } else {
+          data.expectMore = true;
+        }
+        subject = tSubject;
       } else {
-        data.expectMore = true;
+        String part1 = body.substring(0,match.start());
+        String part2 = body.substring(match.end());
+        if (part1.endsWith(" ")) {
+          part1 = part1.trim();
+          marker = marker + ' ';
+          if (part1.startsWith(marker)) {
+            part1 = part1.substring(marker.length()).trim();
+            body = part2 + ' ' + part1;
+            subject = tSubject;
+          }
+        }
       }
     }
 
@@ -51,10 +68,11 @@ public class COLarimerCountyAParser extends FieldProgramParser {
     // Check for run report
     match = RUN_REPORT_PTN.matcher(body);
     if (match.matches()) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
+      data.msgType = MsgType.RUN_REPORT;
+      setFieldList("UNIT INFO ID");
       data.strUnit = match.group(1);
-      data.strCallId = match.group(2);
+      data.strSupp = match.group(2).replace("//", "\n").trim();
+      data.strCallId = match.group(3);
       return true;
     }
     
