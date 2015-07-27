@@ -24,6 +24,10 @@ public class NCAlexanderCountyParser extends DispatchOSSIParser {
   public boolean parseMsg(String subject, String body, Data data) {
     if (body.length() == 0) body = subject;
     body = stripFieldStart(body, "|");
+    if (subject.length() == 0 && body.startsWith("Text Message / ")) {
+      subject = "Text Message";
+      body = body.substring(15).trim();
+    }
     if (!body.startsWith("CAD:") && subject.equals("Text Message")) {
       body = "CAD:" + body;
     }
