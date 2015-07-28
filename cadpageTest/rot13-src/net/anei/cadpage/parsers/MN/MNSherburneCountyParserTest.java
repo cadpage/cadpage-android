@@ -6,6 +6,11 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Fureohear Pbhagl, ZA
+
+Pbagnpg: Zvxr Gvrgm <ztgvrgm@tznvy.pbz>
+Fraqre: ceb.cebcubravk@pb.fureohear.za.hf
+ceb.cebcubravk@pb.fureohear.za.hf / Cubravk Abgvsvpngvba / 2015000279 {07/24/2015 21:59:14}\aTNF      - 9611 Tnf Yrnx/Fzryy{1}\a15800 87gu Fg AR;RE\aHavgf:\a    \aPbzzragf:\aFgngvba Qvfcngpurq : {RE2
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ryx Evire Sver Qrcnegzrag
 Ybpngvba: Ryx Evire, ZA, Havgrq Fgngrf
@@ -37,6 +42,30 @@ choyvp pynff ZAFureohearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZAFureohearPbhaglCnefreGrfg() {
     frgCnefre(arj ZAFureohearPbhaglCnefre(), "FUREOHEAR PBHAGL", "ZA");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZvxrGvrgm() {
+
+    qbGrfg("G1",
+        "ceb.cebcubravk@pb.fureohear.za.hf / Cubravk Abgvsvpngvba / 2015000279 {07/24/2015 21:59:14}\a" +
+        "TNF      - 9611 Tnf Yrnx/Fzryy{1}\a" +
+        "15800 87gu Fg AR;RE\a" +
+        "Havgf:\a" +
+        "    \a" +
+        "Pbzzragf:\a" +
+        "Fgngvba Qvfcngpurq : {RE2",
+
+        "VQ:2015000279",
+        "QNGR:07/24/2015",
+        "GVZR:21:59:14",
+        "PBQR:TNF",
+        "PNYY:9611 Tnf Yrnx/Fzryy",
+        "CEV:1",
+        "NQQE:15800 87gu Fg AR",
+        "PVGL:RYX EVIRE",
+        "VASB:Fgngvba Qvfcngpurq : {RE2");
+    
   }
   
   @Grfg

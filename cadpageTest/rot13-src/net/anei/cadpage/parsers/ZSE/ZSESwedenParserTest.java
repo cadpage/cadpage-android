@@ -11,11 +11,12 @@ Nyy Rznvy cntrf ner orvat erqrsvarq, cnefre fubhyq or erjevggra jura jr unir zbe
 
 Pbagnpg: Ebtre Ruefgrqg <roon.ruefgrqg@tznvy.pbz>
 Fraqre: 3315
+Fraqre: NIZBNCC08@mravg.fbfnynez.fr
 3491105\aOenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aUäaqryfrorfxeviavat : Oenaq v genccuhf ivq vatåat, oevaare v oeriyåqn\aPneyniätra 45n\a\aCbfvgvbaJTF84 : Yn = 59º 22,267'A    Yb = 016º 31,964'R
 3490536\aOenaq v olttanq\aSyresnzvywfuhf\aGenccuhf\aUäaqryfrorfxeviavat : yhxgne eöx v genccuhfrg, fbz ra yägg qvzzn\aEnqrznpuretngna 21, iåa 5\a\aCbfvgvbaJTF84 : Yn = 59º 22,308'A    Yb = 016º 30,783'R
-3185519\aOenaq hgr - greeäat\a\aTeäfoenaq\a\a\a\aZryyna Uäyyoretn  fbpu Äeyn. Cevpvf vaana Äeyn
 3186725\aNhgbzngynez\aOenaq\a\aZhaxgryyfiätra Ibyib Fr 75 Abee  Uäyyol\aRfxvyfghan\aCbfvgvbaJTF84 : Yn = 59º 24,079'A    Yb = 016º 26,958'R\aUäaqryfrorfxeviavat : \aFöez ENCF-1
 3237964\e\aOenaq v olttanq\e\aSyresnzvywfuhf\e\aYätraurg\e\aPneyniätra 45 p, 1\e\a\e\aCbfvgvbaJTF84 : Yn = 59º 22,279'A    Yb = 016º 31,960'R\e\aUäaqryfrorfxeviavat : Oenaq v ytu, bxyneg inq fbz oevaare. Zxg eöx v ytu. Vatra xine v ytu.\e\aFöez ENCF-1\e\a
+3490077\aGensvxbylpxn - fvatry\aCrefbaovy\aZbgbeiät\aTeöaqnynisnegra\aUäyyoloehaa\aCbfvgvbaJTF84 : Yn = 59º 24,428'A    Yb = 016º 22,663'R\aUäaqryfrorfxeviavat : \aFöez ENCF-2
 
 FZF grkg sbezng
 Oenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aPneyniätra 45n\a\aYn = 59 tenqre 22,267'A    Yb = 016 tenqre 31,964'R
@@ -2155,7 +2156,7 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:iåa 5",
         "TCF:+59.371800,+16.513050");
 
-    qbGrfg("G1",
+    qbGrfg("G4",
         "3186725\a" +
         "Nhgbzngynez\a" +
         "Oenaq\a\a" +
@@ -2171,6 +2172,43 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Rfxvyfghan",
         "TCF:+59.401317,+16.449300",
         "PU:Föez ENCF-1");
+
+    qbGrfg("G5",
+        "3237964\e\a" +
+        "Oenaq v olttanq\e\a" +
+        "Syresnzvywfuhf\e\a" +
+        "Yätraurg\e\a" +
+        "Pneyniätra 45 p, 1\e\a" +
+        "\e\a" +
+        "CbfvgvbaJTF84 : Yn = 59º 22,279'A    Yb = 016º 31,960'R\e\a" +
+        "Uäaqryfrorfxeviavat : Oenaq v ytu, bxyneg inq fbz oevaare. Zxg eöx v ytu. Vatra xine v ytu.\e\a" +
+        "Föez ENCF-1\e\a",
+
+        "VQ:3237964",
+        "PNYY:Oenaq v olttanq / Syresnzvywfuhf / Yätraurg",
+        "NQQE:Pneyniätra 45 p",
+        "NCG:1",
+        "VASB:Oenaq v ytu, bxyneg inq fbz oevaare. Zxg eöx v ytu. Vatra xine v ytu.",
+        "TCF:+59.371317,+16.532667",
+        "PU:Föez ENCF-1");
+
+    qbGrfg("G6",
+        "3490077\a" +
+        "Gensvxbylpxn - fvatry\a" +
+        "Crefbaovy\a" +
+        "Zbgbeiät\a" +
+        "Teöaqnynisnegra\a" +
+        "Uäyyoloehaa\a" +
+        "CbfvgvbaJTF84 : Yn = 59º 24,428'A    Yb = 016º 22,663'R\a" +
+        "Uäaqryfrorfxeviavat : \a" +
+        "Föez ENCF-2",
+
+        "VQ:3490077",
+        "PNYY:Gensvxbylpxn - fvatry / Crefbaovy / Zbgbeiät",
+        "NQQE:Teöaqnynisnegra",
+        "PVGL:Uäyyoloehaa",
+        "TCF:+59.407133,+16.377717",
+        "PU:Föez ENCF-2");
 
   }
   

@@ -9,9 +9,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class MNMinneapolisStPaulBParser extends DispatchProQAParser {  
   public MNMinneapolisStPaulBParser() {
     super(CITY_LIST, "MINNEAPOLIS", "MN", 
-        "CODE CALL ADDR ( PLACE APT/Z CITY | PLACE APT/Z PLACE2 CITY | APT CITY | PLACE CITY/Y | CITY/Y | EMPTY EMPTY EMPTY CITY/Y? ) TIME! INFO+",
+        "PRI ID! CODE CALL ADDR ( PLACE APT/Z CITY | PLACE APT/Z PLACE2 CITY | APT CITY | PLACE CITY/Y | CITY/Y | EMPTY EMPTY EMPTY CITY/Y? ) TIME! INFO+",
         true);
-    usePriorityField();
   }
   
   @Override

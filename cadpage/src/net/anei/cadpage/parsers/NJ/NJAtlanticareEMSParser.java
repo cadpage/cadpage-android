@@ -13,7 +13,7 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
   
   public NJAtlanticareEMSParser() {
     super(CITY_LIST, "", "NJ",
-           "CALL CALLEXT+? ADDR XPLACE+? CITY! TIME!");
+           "UNKNOWN? ID! CALL CALLEXT+? ADDR XPLACE+? CITY! TIME!");
   }
   
   @Override
@@ -35,6 +35,7 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("UNKNOWN")) return new SkipField("<Unknown>");
     if (name.equals("CALLEXT")) return new CallExtField();
     if (name.equals("XPLACE")) return new CrossPlaceField();
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d");

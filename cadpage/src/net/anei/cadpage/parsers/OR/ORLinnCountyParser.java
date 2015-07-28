@@ -18,7 +18,8 @@ public class ORLinnCountyParser extends FieldProgramParser {
   private static final String[] MARKERS = new String[]{
     "ICOM/400 notification,",
     "LINN 911 (!) ",
-    "LINN 911 (ICOM/400 notification)"
+    "LINN 911 (ICOM/400 notification)",
+    "LINN 911: (ICOM/400 notification)"
   };
   
   private boolean intersection;

@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07202015</string>
-  <string name="release_version">v1.8.46</string>
+  <string name="release_date">07242015</string>
+  <string name="release_version">v1.8.47</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.47\n
+New Locations:\n
+Jefferson County, AL (alt)\n
+Kent County, DE (alt)\n
+Hernando County, FL\n
+Putnam County, FL\n
+Carroll County, GA\n
+Barton County, KS\n
+Jackson County, MI\n
+Oakland County, MI (alt)\n
+Bergen County, NJ (alt)\n
+Albany County, NY (alt)\n
+Washington County, NY\n
+Rocky Mount, NC\n
+Shaker Heights, OH\n
+Payne County, OK\n
+Chester County, PA (alt)\n
+Morgan County, TN\n
+Parker County, TX (alt)\n
+Fredericksburg, VA\n
+Loudoun County, VA (alt)\n
+Kitsap County, WA\n
+\n
+Location Fixes:\n
+Larimer County, CO\n
+Citrus County, FL\n
+Calhoun County, MI\n
+Gloucester County, NJ\n
+Alexander County, NC\n
+Allegheny County, PA\n
+Cambria County, PA\n
+Bedford County, VA\n
+Pierce County, WA\n
+\n
 V1.8.46\n
 Location Fixes:\n
 Decatur County, GA\n
@@ -85,20 +119,7 @@ Barry County, MO\n
 Edgecombe County, NC\n
 Hertford County, NC\n
 Monroe County, PA\n
-Augusta County, VA\n
-\n      
-v1.8.42\n
-New Locations:\n
-Grant County, IN\n
-Cecil County, MD (alt)\n
-\n
-Location Fixes:\n
-Teller County, CO\n
-Gooding County, ID\n
-Lake County, IL\n
-Phelps County, MO\n
-Washington County, NY\n
-Randolph County, NC
+Augusta County, VA
   </string>
 </resources>
   

@@ -40,6 +40,7 @@ Pbagnpg: "Grq Obfg, We." <geobfgwe@tznvy.pbz>
 Fraqre: PNQ@nyrknaqrepbhaglap.tbi
 / PNQ:81 VQN PG;OERNGUVAT CEBOYRZF;06Q02;SRYYBJFUVC PUHEPU EQ;WRNARGGRF JNL
 PNQ@nyrknaqrepbhaglap.tbi: ab fhowrpg / PNQ:91 TERRA NPERF YA;ZBEEVF TERRAR ERFVQRAPR;SNYY;17O03;VPNEQ EVQTR EQ
+Grkg Zrffntr / 756 QRNY SNEZ YA;PURFG CNVA;10P04;XVEXCNGEVPX EQ
  
 Pbagnpg: Qneera Purjavat <qneera.purjavat@tznvy.pbz>
 Fraqre: PPNQ@nyrknaqrepbhaglap.tbi
@@ -971,7 +972,14 @@ choyvp pynff APNyrknaqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SNYY",
         "PBQR:17O03",
         "K:VPNEQ EVQTR EQ");
-  
+
+    qbGrfg("G3",
+        "Grkg Zrffntr / 756 QRNY SNEZ YA;PURFG CNVA;10P04;XVEXCNGEVPX EQ",
+        "NQQE:756 QRNY SNEZ YA",
+        "PNYY:PURFG CNVA",
+        "PBQR:10P04",
+        "K:XVEXCNGEVPX EQ");
+ 
   }
 
   @Grfg

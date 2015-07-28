@@ -6,20 +6,14 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 /**
  * Parser for ProQA Dispatch software
  */
 public class DispatchProQAParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("\\bRun#");
-  private static final Pattern UNASSIGNED_MARKER = Pattern.compile("RC:Job# *[^ ]* *\\(Run# (\\d+)\\) at [0-9:]+ was unassigned\\.");
-  private static final Pattern RUN_REPORT_MARKER = Pattern.compile("^(?:was Canceled:| ?(?:CALL:)?\\d\\d:\\d\\d/ ?(?:DISP:)?\\d\\d:\\d\\d/ ?(?:ENR:)?\\d\\d:\\d\\d/ ?(?:ATS:)?\\d\\d:\\d\\d/?)");
-  private static final Pattern PRIORITY_MARKER = Pattern.compile("RC:([A-Za-z \\-]*)/.*");
-  
-  private boolean singleSlashDelim;
   private final Pattern delimPattern;
-  private boolean usePriorityField = false;
   
   protected DispatchProQAParser(String defCity, String defState, String program) {
     this(defCity, defState, program, false);
@@ -34,80 +28,75 @@ public class DispatchProQAParser extends FieldProgramParser {
   }
 
   protected DispatchProQAParser(String defCity, String defState, String program, boolean singleSlashDelim) {
-    super(defCity, defState, program);
-    this.singleSlashDelim = singleSlashDelim;
+    super(defCity, defState, fixProgram(program));
     delimPattern = Pattern.compile(singleSlashDelim ? "/" : "/+");
   }
   
   protected DispatchProQAParser(Properties cityCodes, String defCity, String defState, String program, boolean singleSlashDelim) {
-    super(cityCodes, defCity, defState, program);
-    this.singleSlashDelim = singleSlashDelim;
+    super(cityCodes, defCity, defState, fixProgram(program));
     delimPattern = Pattern.compile(singleSlashDelim ? "/" : "/+");
   }
   
   protected DispatchProQAParser(String[] cityList, String defCity, String defState, String program, boolean singleSlashDelim) {
-    super(cityList, defCity, defState, program);
-    this.singleSlashDelim = singleSlashDelim;
+    super(cityList, defCity, defState, fixProgram(program));
     delimPattern = Pattern.compile(singleSlashDelim ? "/" : "/+");
   }
+  
+  private static final Pattern ID_PTN = Pattern.compile("\\bID!");
+  
+  private static String fixProgram(String program) {
+    // There is always a required ID field.  If one wasn't included 
+    // add it as the first field
+    if (!ID_PTN.matcher(program).find()) {
+      program = "ID! " + program;
+    }
+    return program;
+  }
+  
+  private static final Pattern MARKER = Pattern.compile("(?:- part 1 of 1[\\s/]+)?(?:RC: *(?:\\d*(?:-[A-Z])?/)?)? *");
+  private static final Pattern UNASSIGNED_MARKER = Pattern.compile("Job# *[^ ]* *\\(Run# (\\d+)\\) at [0-9:]+ was unassigned\\.");
+  private static final Pattern RUN_REPORT_MARKER = Pattern.compile("(?:(?:Job# *)?\\d+(?:-[A-Z])?/ *)?Run# *(\\d+) */ *(?:(was Canceled: .*?)/)?((?:CALL:)?\\d\\d:\\d\\d/ ?(?:DISP:)?\\d\\d:\\d\\d/ ?.*)");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    Matcher match = MARKER.matcher(body);
+    if (!match.lookingAt()) return false;
+    body = body.substring(match.end());
+        
 
-    Matcher match = UNASSIGNED_MARKER.matcher(body);
+    match = UNASSIGNED_MARKER.matcher(body);
     if (match.matches()) {
-      data.strCall = "RUN REPORT";
+      setFieldList("ID INFO");
+      data.msgType = MsgType.RUN_REPORT;
       data.strCallId = match.group(1);
-      data.strPlace = "was unassigned";
+      data.strSupp = "was unassigned";
       return true;
     }
-
-    // If usePriorityField and priority is present in 1st field, grab it
-    if (usePriorityField) {
-      match = PRIORITY_MARKER.matcher(body);
-      if (match.matches()) data.strPriority = match.group(1).trim();
-    }
-    
-    // Parse run number from first field
-    match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    int pt = match.end();
-    int pt2 = body.indexOf("/", pt);
-    if (pt2 < 0) return false;
-    
-    data.strCallId = body.substring(pt, pt2).trim();
-    pt2++;
-    if (!singleSlashDelim) { 
-      while (pt2 < body.length() && body.charAt(pt2) == '/') pt2++;
-    }
-    body = body.substring(pt2).trim();
-    if (RUN_REPORT_MARKER.matcher(body).find()) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
-      data.strPriority = "";
+    match = RUN_REPORT_MARKER.matcher(body);
+    if (match.matches()) {
+      setFieldList("ID INFO");
+      data.msgType = MsgType.RUN_REPORT;
+      data.strCallId = match.group(1);
+      data.strSupp = append(getOptGroup(match.group(2)), "\n", 
+                            match.group(3).replace('/', '\n').trim());
       return true;
     }
-    body = body.replace("ProQA comments:", "/");
 
     // Everything else is variable
-//    String[] lines = body.split("/+");
+    body = body.replace("ProQA comments:", "/");
     String[] lines = delimPattern.split(body);
     return parseFields(lines, data);
   }
   
   @Override
-  public String getProgram() {
-    return "ID " + super.getProgram() + " CALL PLACE PRI";
-  }
-
-  /*
-   * Sets usePriorityField to check for a priority in the first field
-   */
-  protected void usePriorityField() {
-    usePriorityField = true;
+  public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("Run# *(\\d+)", true);
+    if (name.equals("INFO")) return new BaseInfoField();
+    return super.getField(name);
   }
   
-  private static final Pattern CROSS_PATTERN = Pattern.compile(".*?X=(.*)");
+  private static final Pattern CROSS_PATTERN = Pattern.compile("(?:.*?X=|XST\\b *)(.*)");
   private static final Pattern UNKNOWN_PATTERN = Pattern.compile("(?i).*<unknown>.*");
   protected class BaseInfoField extends InfoField {
     @Override
@@ -136,12 +125,6 @@ public class DispatchProQAParser extends FieldProgramParser {
     public String getFieldNames() {
       return append(super.getFieldNames(), " ", "X");
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("INFO")) return new BaseInfoField();
-    return super.getField(name);
   }
 
   /**

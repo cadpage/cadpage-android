@@ -26,6 +26,7 @@ public class MNSherburneCountyParser extends DispatchProphoenixParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    body = stripFieldStart(body, "/ Phoenix Notification / ");
     if (!super.parseMsg(body, data)) return false;
     Matcher match = MAP_PTN.matcher(data.strSupp);
     if (match.find()) {

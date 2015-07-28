@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MDTalbotCountyParser extends SmartAddressParser {
 
-  private static final Pattern MASTER = Pattern.compile("(?:TALBOTDES +)?Talbot ?911:\\*[DG] +([^ ]+) +(?:([A-E])-)?(.*?) +([A-Z]\\d+)");
+  private static final Pattern MASTER = Pattern.compile("(?:TALBOTDES:? +)?Talbot ?911:\\*[DG] +([^ ]+) +(?:([A-E])-)?(.*?) +([A-Z]\\d+)");
   private static final Pattern MM_PTN = Pattern.compile("(@MM \\d+)\\b *(.*)");
   
   

@@ -42,6 +42,10 @@ Fraqre: 4702193684
 ZNPBA 911 ZNPBA911:P1 >RZRETRAPL EHA 252 ERQOHQ YA KF: OELFBA PVGL EQ @ 6449 SENAXYVA JNYFU, FGRIRA 8283493263 Znc: Tevqf:0,0 Pnq: 2015-0000004990 Fgbc
 ZNPBA 911 ZNPBA911:P2 >ABA RZRETRAPL EHA 3151 TBFURA EQ KF: YRNGUREZNA TNC EQ @ 4349 SENAXYVA QNIVQ 7728011239 Znc: Tevqf:0,0 Pnq: 2015-0000005028 Fgbc
 
+Pbagnpg: Elna Uhefrl <elnauhefrl@tznvy.pbz>
+Fraqre: 4702193684
+ZNPBA 911: ZNPBA911:P1 >RZRETRAPL EHA 46 GNYYRAG FG Ncg: 1 Oyqt KF: JBZNPX FG @ 197 SENAXYVA PHAAVATUNZ, NFUYRL 8283420010 Znc: Tevqf:0,0 Pnq: 2015-0000018225\a
+
 */
 
 choyvp pynff APZnpbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -95,7 +99,7 @@ choyvp pynff APZnpbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:P1",
         "PNYY:RZRETRAPL EHA",
         "NQQE:31 FPEBTTF EQ",
-        "K:YBHVFN PUNCRY @ 1020",
+        "K:YBHVFN PUNCRY / 1020",
         "PVGL:SENAXYVA",
         "CUBAR:8283713353");
 
@@ -123,7 +127,7 @@ choyvp pynff APZnpbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:QBZRFGVP QVFGHEONAPR",
         "NQQE:NQQVATGBA OEVQTR EQ",
         "ZNQQE:NQQVATGBA OEVQTR EQ & TRBETVN EQ",
-        "K:TRBETVN EQ @ 3887",
+        "K:TRBETVN EQ / 3887",
         "PVGL:SENAXYVA",
         "ANZR:FGBPXGBA, GURERFN",
         "CUBAR:7069820877");
@@ -137,7 +141,7 @@ choyvp pynff APZnpbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ZRQ",
         "PNYY:RZRETRAPL EHA",
         "NQQE:43 FBHGU SEBAG FG",
-        "K:CNEX NIR @ 57",
+        "K:CNEX NIR / 57",
         "PVGL:SENAXYVA",
         "ANZR:ZLRE, WHQL",
         "CUBAR:8283692141",
@@ -159,7 +163,7 @@ choyvp pynff APZnpbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:P1",
         "PNYY:RZRETRAPL EHA",
         "NQQE:150 PEVFC FG",
-        "K:VBGYN FG @ 450",
+        "K:VBGYN FG / 450",
         "PVGL:SENAXYVA",
         "ANZR:TENAQIVRJ ZNABE PNER",
         "CUBAR:8285244425",
@@ -170,7 +174,7 @@ choyvp pynff APZnpbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:40",
         "PNYY:SVTUG VA CEBTERFF",
         "NQQE:11 OBJYVAT YA",
-        "K:WBUA WHFGVPR EQ @ 20",
+        "K:WBUA WHFGVPR EQ / 20",
         "PVGL:SENAXYVA",
         "CUBAR:8284216255",
         "VQ:2014-0000021445");
@@ -180,7 +184,7 @@ choyvp pynff APZnpbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:50",
         "PNYY:IRUVPYR NPPVQRAG",
         "NQQE:1773 BYQ ZHECUL EQ",
-        "K:J CNYZRE FG @ RAQ",
+        "K:J CNYZRE FG / RAQ",
         "PVGL:SENAXYVA",
         "CUBAR:8282261136",
         "VQ:2014-0000021457");
@@ -190,7 +194,7 @@ choyvp pynff APZnpbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:P1",
         "PNYY:RZRETRAPL EHA",
         "NQQE:136 QBAAN QE",
-        "K:FNHAQREF EQ @ 849",
+        "K:FNHAQREF EQ / 849",
         "PVGL:SENAXYVA",
         "ANZR:TNYYNAG, WBUA",
         "CUBAR:8285243007",
@@ -206,7 +210,7 @@ choyvp pynff APZnpbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:P1",
         "PNYY:RZRETRAPL EHA",
         "NQQE:252 ERQOHQ YA",
-        "K:OELFBA PVGL EQ @ 6449",
+        "K:OELFBA PVGL EQ / 6449",
         "PVGL:SENAXYVA",
         "ANZR:JNYFU, FGRIRA",
         "CUBAR:8283493263",
@@ -217,12 +221,29 @@ choyvp pynff APZnpbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:P2",
         "PNYY:ABA RZRETRAPL EHA",
         "NQQE:3151 TBFURA EQ",
-        "K:YRNGUREZNA TNC EQ @ 4349",
+        "K:YRNGUREZNA TNC EQ / 4349",
         "PVGL:SENAXYVA",
         "ANZR:QNIVQ",
         "CUBAR:7728011239",
         "VQ:2015-0000005028");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgElnaUhefrl() {
+
+    qbGrfg("G1",
+        "ZNPBA 911: ZNPBA911:P1 >RZRETRAPL EHA 46 GNYYRAG FG Ncg: 1 Oyqt KF: JBZNPX FG @ 197 SENAXYVA PHAAVATUNZ, NFUYRL 8283420010 Znc: Tevqf:0,0 Pnq: 2015-0000018225\a",
+        "PBQR:P1",
+        "PNYY:RZRETRAPL EHA",
+        "NQQE:46 GNYYRAG FG",
+        "NCG:1",
+        "K:JBZNPX FG / 197",
+        "PVGL:SENAXYVA",
+        "ANZR:PHAAVATUNZ, NFUYRL",
+        "CUBAR:8283420010",
+        "VQ:2015-0000018225");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

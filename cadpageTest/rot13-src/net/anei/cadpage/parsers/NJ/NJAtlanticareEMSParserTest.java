@@ -109,10 +109,10 @@ choyvp pynff AWNgynagvpnerRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Fhowrpg:ABCUV ZRQPBZ - cneg 1 bs 1\a" +
         "EP:Wbo# 0048-N/ Eha# 52641/ jnf Pnapryrq: ZRQVP NFFRFFZRAG/PNYY:07:20/QVFC:07:20/RAE:07:21/NGF:07:29/\a",
 
-        "PNYY:EHA ERCBEG",
+        "GLCR:EHA_ERCBEG",
         "FEP:ABCUV ZRQPBZ",
         "VQ:52641",
-        "CYNPR:jnf Pnapryrq: ZRQVP NFFRFFZRAG/PNYY:07:20/QVFC:07:20/RAE:07:21/NGF:07:29/");
+        "VASB:jnf Pnapryrq: ZRQVP NFFRFFZRAG\aPNYY:07:20\aQVFC:07:20\aRAE:07:21\aNGF:07:29");
 
     qbGrfg("G2",
         "Fhowrpg:ABCUV ZRQPBZ - cneg 1 bs 1\a" +
