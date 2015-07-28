@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYChautauquaCountyParser extends FieldProgramParser {
   
-  private static final Pattern MARKER1 = Pattern.compile("^CHAUTAUQUA_COUNTY_SHERIFF \\(([A-Z ]+)\\) +");
+  private static final Pattern MARKER1 = Pattern.compile("^CHAUTAUQUA_COUNTY_SHERIFF:? \\(([A-Z ]+)\\) +");
   private static final Pattern MARKER2 = Pattern.compile("^(\\d\\d:\\d\\d)[ ;]+");
   private static final Pattern MASTER1 = Pattern.compile("([ A-Z0-9]+?)  +([A-Z]+\\d+) +(.*) +\\*([ A-Z0-9]+) (\\d{4}-\\d{8})");
   private static final Pattern DELIM = Pattern.compile(" *(?<= ); | +\\n");
