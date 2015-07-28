@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07242015</string>
-  <string name="release_version">v1.8.47</string>
+  <string name="release_date">07282015</string>
+  <string name="release_version">v1.8.48</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.48\n
+New Locations:\n
+Onondaga County, NY (alt)\n
+\n
+Location Fixes:\n
+Talbot County, MD\n
+Sheburne County, MN\n
+Chatauqua County, NY\n
+Alexander County, NC\n
+Macon County, NC\n
+Linn County, OR\n
+\n
 v1.8.47\n
 New Locations:\n
 Jefferson County, AL (alt)\n
@@ -92,34 +104,7 @@ Union County, NC\n
 Northampton County, PA\n
 Overland County, TN\n
 Montgomery County, TX\n
-Prince William County, VA\n
-\n      
-v1.8.43\n
-New Locations:\n
-Navajo County, AZ (alt)\n
-Grant County, AR\n
-Eagle County, CO\n
-Cocoa, FL\n
-Randolph County, IL\n
-Parke County, IN\n
-Warren County, IA (alt)\n
-Lee County, NC\n
-Cuyahoga County, OH (alt)\n
-Tusla, OK (alt)\n
-Halilton County, TN (alt)\n
-Hanover County, VA (alt)\n
-Park County, WY\n
-\n
-Location Fixes:\n
-Lauderdale County, AL\n
-El Dorado County, CA\n
-Montgomery County, MD\n
-Prince Georges County, MD\n
-Barry County, MO\n
-Edgecombe County, NC\n
-Hertford County, NC\n
-Monroe County, PA\n
-Augusta County, VA
+Prince William County, VA
   </string>
 </resources>
   
