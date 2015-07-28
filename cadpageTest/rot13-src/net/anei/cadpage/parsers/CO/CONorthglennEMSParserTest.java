@@ -79,7 +79,7 @@ choyvp pynff PBAbegutyraaRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         " - cneg 1 bs 1 / EP:Wbo# 0028-N/ Eha# 7024/ jnf Pnapryrq: Sver Qrcnegzrag Fgnaqol/20:11/20:11/20:11/20:15/20:25\a\a",
         "VQ:7024",
         "PNYY:EHA ERCBEG",
-        "CYNPR:jnf Pnapryrq: Sver Qrcnegzrag Fgnaqol/20:11/20:11/20:11/20:15/20:25");
+        "VASB:jnf Pnapryrq: Sver Qrcnegzrag Fgnaqol\a20:11\a20:11\a20:11\a20:15\a20:25");
  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

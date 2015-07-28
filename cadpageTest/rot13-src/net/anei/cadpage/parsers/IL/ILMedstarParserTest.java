@@ -147,7 +147,7 @@ choyvp pynff VYZrqfgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:64 RNFG OBHAQ NG 25GU FG",
         "PVGL:RNFG FNVAG YBHVF",
         "PNYY:Genssvp Nppvqragf",
-        "VASB:S CG P / O EBPX JRAG GUEBHTU JVAQBJ /  TYNFF VA ZBHGU");
+        "VASB:S CG P / O EBPX JRAG GUEBHTU JVAQBJ / TYNFF VA ZBHGU");
 
     qbGrfg("G3",
         "[- cneg 1 bs 1] EP:Eha# 23124/502 F 17GU FG///FPP CT 26/ORYYRIVYYR///Cflpuvngevp/Fhvpvqr Nggrzcg/50 LBZ P/O GBBX UNAQSHY BS IVPBQRA CQ BA FPRAR/<CEBDN_QRG>\e\a" +
@@ -192,7 +192,7 @@ choyvp pynff VYZrqfgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:RE QRCG",
         "PVGL:ERQ OHQ",
         "PNYY:Gbhpurggr Ert Ubfc",
-        "VASB:VA CNGVRAG / 38 LBZ P / O CFLPU RINY /  FHVPVQNY /  AFR /  CPF NAQ SNPR FURRG ERDHRFGRQ");
+        "VASB:VA CNGVRAG / 38 LBZ P / O CFLPU RINY / FHVPVQNY / AFR / CPF NAQ SNPR FURRG ERDHRFGRQ");
 
     qbGrfg("G7",
         "[- cneg 1 bs 1] EP:Eha# 23128/F 27GU FG & GERAQYRL NIR///FPP CT 12/RNFG FNVAG YBHVF///Haxabja Ceboyrz (Zna Qbja)/s fhow fyhzc bire gur jurry orra gurer sbe zber guna na ubhe/<CEBDN_QRG>\e\a" +
@@ -247,7 +247,7 @@ choyvp pynff VYZrqfgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:3117 J OYIQ",
         "PVGL:ORYYRIVYYR",
         "PNYY:Snyyf/Onpx Vawhevrf (Genhzngvp)",
-        "VASB:CQ BA FPRAR 23 LBZ P / O SRYY QBJA FGNVEF /  HAX VAW");
+        "VASB:CQ BA FPRAR 23 LBZ P / O SRYY QBJA FGNVEF / HAX VAW");
 
     qbGrfg("G12",
         "[- cneg 1 bs 1] EP:Eha# 23134/Puneyrf Tneqraf//EBBZ 14/FPP CT 15/SNVEIVRJ URVTUGF///Urzbeeuntr/Ynprengvbaf/83 LBZ P/O ERPGNY OYRRQ/<CEBDN_QRG>\e\a" +

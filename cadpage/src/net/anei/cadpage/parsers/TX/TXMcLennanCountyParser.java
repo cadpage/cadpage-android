@@ -10,11 +10,12 @@ public class TXMcLennanCountyParser extends DispatchProQAParser {
 
   public TXMcLennanCountyParser() {
     super("MCLENNAN COUNTY", "TX", 
-          "TIME CALL+? UNKNOWN ADDR CITY INFO+");
+          "PRI ID! TIME CALL+? UNKNOWN ADDR CITY INFO+");
   }
   
   @Override
   public Field getField(String name) {
+    if (name.equals("PRI")) return new PriorityField("(P\\d) .*");
     if (name.equals("UNKNOWN")) return new SkipField("<Unknown>", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);

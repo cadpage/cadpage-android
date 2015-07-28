@@ -18,7 +18,7 @@ public class WAPierceCountyAParser extends DispatchProQAParser {
   
   public WAPierceCountyAParser() {
     super("PIERCE COUNTY", "WA", 
-           "CALL CALL2? ( ADDR | PLACE ADDR | NAME NAME ADDR ) APT? EXTRA+");
+           "PRI? ID! CALL CALL2? ( ADDR | PLACE ADDR | NAME NAME ADDR ) APT? EXTRA+");
   }
   
   @Override

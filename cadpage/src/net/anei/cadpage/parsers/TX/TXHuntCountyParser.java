@@ -11,7 +11,7 @@ public class TXHuntCountyParser extends DispatchProQAParser {
     
   public TXHuntCountyParser() {
     super(CITY_LIST, "HUNT COUNTY", "TX",
-          "( FIRE_SERVICE PRI CALL | ) ADDR ( EXTRA/Z CITY UNKNOWN? | CITY UNKNOWN? | EXTRA/Z UNKNOWN | EXTRA? UNKNOWN? ) INFO+");
+          "CALL+? ID! ( FIRE_SERVICE PRI CALL | ) ADDR! ( EXTRA/Z CITY UNKNOWN? | CITY UNKNOWN? | EXTRA/Z UNKNOWN | EXTRA? UNKNOWN? ) INFO+");
   }
   
   @Override
