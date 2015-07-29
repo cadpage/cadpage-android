@@ -703,6 +703,7 @@ class Active911Vendor extends Vendor {
       "US/OH/AllenCounty",                "OHAllenCounty",
       "US/OH/BelmontCounty",              "OHBelmontCounty",
       "US/OH/ButlerCountySheriff",        "OHButlerCountyA",
+      "US/OH/CityofCenterville",          "OHCenterville",
       "US/OH/ChampaignCounty",            "OHChampaignCounty",
       "US/OH/CityofBroadviewHeights",     "OHCuyahogaCountyA",
       "US/OH/CityofFairfield",            "OHFairfield",

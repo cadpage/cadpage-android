@@ -1,39 +1,30 @@
 
 package net.anei.cadpage.parsers.AR;
 
-import net.anei.cadpage.parsers.dispatch.DispatchSouthernPlusParser;
+import java.util.Properties;
+
+import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 /**
  * Pulaski County, AL
  */
 
-public class ARPulaskiCountyParser extends DispatchSouthernPlusParser {
+public class ARPulaskiCountyParser extends DispatchSouthernParser {
   
   public ARPulaskiCountyParser() {
-    super(CITY_LIST, "PULASKI COUNTY", "AR", DSFLAG_LEAD_PLACE | DSFLAG_NO_NAME_PHONE);
+    super(getKeywords(CITY_CODES), "PULASKI COUNTY", "AR", DSFLAG_LEAD_PLACE | DSFLAG_FOLLOW_CROSS);
   }
   
-  private static final String[] CITY_LIST = new String[]{
-      
-      "ALEXANDER",
-      "CAMMACK VILLAGE",
-      "COLLEGE STATION",
-      "CRYSTAL HILL",
-      "GIBSON",
-      "GRAVEL RIDGE",
-      "HENSLEY",
-      "IRONTON",
-      "JACKSONVILLE",
-      "LITTLE ROCK",
-      "MCALMONT",
-      "MAUMELLE",
-      "NATURAL STEPS",
-      "NORTH LITTLE ROCK",
-      "LANDMARK",
-      "SHERWOOD",
-      "SWEET HOME",
-      "WOODSON",
-      "WOODYARDVILLE",
-      "WRIGHTSVILLE"
-  };
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (!super.parseMsg(body, data)) return false;
+    data.strCity = convertCodes(data.strCity.toUpperCase(), CITY_CODES);
+    return true;
+  }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "NLR",  "NORTH LITTLE ROCK",
+      "MAUM", "MAUMELLE"
+  });
 }

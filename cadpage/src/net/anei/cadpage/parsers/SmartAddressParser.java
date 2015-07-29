@@ -618,7 +618,7 @@ public abstract class SmartAddressParser extends MsgParser {
     for (String word : words) dictionary.remove(word);
   }
   
-  private String[] getKeywords(Properties table) {
+  protected static String[] getKeywords(Properties table) {
     String[] result = new String[table.size()];
     int ndx = 0;
     for (Enumeration<?> e = table.propertyNames(); e.hasMoreElements(); ) {
