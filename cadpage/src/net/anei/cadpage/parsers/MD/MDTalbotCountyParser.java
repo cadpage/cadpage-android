@@ -61,6 +61,8 @@ public class MDTalbotCountyParser extends SmartAddressParser {
     
     int pt = body.indexOf(" Text UNSUB");
     if (pt >= 0) body = body.substring(0,pt).trim();
+    pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
 
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
