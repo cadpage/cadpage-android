@@ -21,6 +21,10 @@ XPSE\aSVER FGEHPGHER \aA FZVGU YA & R ZHYYNA NIR\aS1P  \aS1I\aBCF1 \aGENVYRE SHY
 AYSQ\aSNYY\a12925 A SREAQNYR QE,UN\aUA5P\aZ51\aBCF1 \a79 LBZ  PNO  SRYY VAGB QEL ONGUGHO  NYFB HAERYNGRQ OYRRQVAT SEBZ ERPGHZ NAQ\aNOQBZVANY CNVA
 AYSQ\aBIREQBFR\a9005 A ARHSRYQ EQ,UN\aUA5Q\aZ51\aBCF2 \a1/2 TNY IBQXN GBQNL    PBAP NYREG  61LBZ [Nggnpuzrag(f) erzbirq]
 
+Pbagnpg: Yneel Fvzzf <yyfvzzf@ebnqehaare.pbz>
+Fraqre: 911nyreg@xptbi.hf
+1 bs 3\aSEZ:911nyreg@xptbi.hf\aZFT:UNHF\e\aOERNGUVAT QVSS\e\a38151 J TBFFNZRE PG,UNH\e\aTJ7P\e\aN71\e\aBCF1 \e\a76 LB SRZ  QYBP  YNOBERQ OERNGUVAT   UBG\a(Pba'g) 2 bs 3\aFJRNGL RNEYVRE NAQ ABJ IREL PBYQ\e\aHAQRE SVATRE ANVYF UNF N OVG BS OYHR GVATR\e\aPNYYONPX=(509)487-4123 YNG=+47.746260 YBA=-117.021689\a(Pba'g) 3 bs 3\aHAP=11\e\aCG(Raq)
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Abegurea Ynxrf Sver Qvfgevpg
 Ybpngvba: Unlqra, VQ, Havgrq Fgngrf
@@ -321,6 +325,39 @@ choyvp pynff VQXbbgranvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:BCF2",
         "VASB:1/2 TNY IBQXN GBQNL    PBAP NYREG  61LBZ");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgYneelFvzzf() {
+
+    qbGrfg("G1",
+        "1 bs 3\a" +
+        "SEZ:911nyreg@xptbi.hf\a" +
+        "ZFT:UNHF\e\a" +
+        "OERNGUVAT QVSS\e\a" +
+        "38151 J TBFFNZRE PG,UNH\e\a" +
+        "TJ7P\e\a" +
+        "N71\e\a" +
+        "BCF1 \e\a" +
+        "76 LB SRZ  QYBP  YNOBERQ OERNGUVAT   UBG\a" +
+        "(Pba'g) 2 bs 3\a" +
+        "FJRNGL RNEYVRE NAQ ABJ IREL PBYQ\e\a" +
+        "HAQRE SVATRE ANVYF UNF N OVG BS OYHR GVATR\e\a" +
+        "PNYYONPX=(509)487-4123 YNG=+47.746260 YBA=-117.021689\a" +
+        "(Pba'g) 3 bs 3\a" +
+        "HAP=11\e\a" +
+        "CG(Raq)",
+
+        "FEP:UNHF",
+        "PNYY:OERNGUVAT QVSS",
+        "NQQE:38151 J TBFFNZRE PG",
+        "PVGL:UNHFRE",
+        "HAVG:TJ7P N71",
+        "PU:BCF1",
+        "VASB:76 LB SRZ  QYBP  YNOBERQ OERNGUVAT   UBG FJRNGL RNEYVRE NAQ ABJ IREL PBYQ\aHAQRE SVATRE ANVYF UNF N OVG BS OYHR GVATR\aCG",
+        "CUBAR:(509)487-4123",
+        "TCF:+47.746260,-117.021689");
+    
   }
 
   @Grfg
