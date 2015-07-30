@@ -12,6 +12,7 @@ Ntrapl anzr: Bprna Pvgl Rzretrapl Freivprf
 Ybpngvba: Bprna Pvgl, AW, Havgrq Fgngrf
 Fraqre: bpcq@bpaw.hf
 
+(Qvfcngpu Nyreg: PQ-15-20373) PQ-15-20373\e\aSVER Sver Be Sver Nynez\e\a0  9GU FGERRG\e\aJRFYRL NIRAHR\e\aBPRNA PVGL AW 08226\e\aNtrapvrf nffvtarq: \e\a\e\aEBBZ 119 / FZBXR
 (Qvfcngpu Nyreg: PQ-15-16121) PQ-15-16121\aPNEQVN Pneqvnp\a3216  FVZCFBA NIRAHR\a33EQ FGERRG\aNtrapvrf nffvtarq:  CQ RZ SQ\a\aZRQVP 8.\aPURFG CNVA.
 (Qvfcngpu Nyreg: PQ-15-16112) PQ-15-16112\aSNYYB Snyy Be Vawhel Ba Cebcregl Bgure\a2201  ONL NIRAHR\a\aNtrapvrf nffvtarq: \a\aPNYYRQ VA OL YCA ORGFL 609-399-8505 RKG 6276\a93(S) SNYY SEBZ FGNAQVAT, AB YBP URNQ/ARPX/ONPX CNVA, E UVC 10/10 ABA ENQVNGVAT
 (Qvfcngpu Nyreg: PQ-15-16105) PQ-15-16105\aFLAPBC Flapbcny Rcvfbqr (Snvagvat)\a0  7GU FGERRG\aBPRNA NIRAHR\aNtrapvrf nffvtarq:
@@ -193,6 +194,26 @@ choyvp pynff AWBprnaPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgBprnaPvglRzretraplFreivprf() {
+
+    qbGrfg("K1",
+        "(Qvfcngpu Nyreg: PQ-15-20373) PQ-15-20373\e\a" +
+        "SVER Sver Be Sver Nynez\e\a" +
+        "0  9GU FGERRG\e\a" +
+        "JRFYRL NIRAHR\e\a" +
+        "BPRNA PVGL AW 08226\e\a" +
+        "Ntrapvrf nffvtarq: \e\a" +
+        "\e\a" +
+        "EBBZ 119 / FZBXR",
+
+        "VQ:PQ-15-20373",
+        "PBQR:SVER",
+        "PNYY:Sver Be Sver Nynez",
+        "NQQE:9GU FGERRG",
+        "ZNQQE:9GU FGERRG & JRFYRL NIRAHR",
+        "K:JRFYRL NIRAHR",
+        "PVGL:BPRNA PVGL",
+        "FG:AW",
+        "VASB:EBBZ 119 / FZBXR");
 
     qbGrfg("G1",
         "(Qvfcngpu Nyreg: PQ-15-16121) PQ-15-16121\a" +

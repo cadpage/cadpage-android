@@ -945,6 +945,7 @@ Ntrapl anzr: Pvgl bs Pbaebr SQ
 Ybpngvba: Pbaebr, GK, Havgrq Fgngrf
 Fraqre: <gevgrpupnq@zpuq-gk.bet>
 
+(PNQ Zrffntr) VQ:15-027602 ;HAVG:R5 ;PNYY:Qvnorgvp Ceboyrzf ;CYNPR: ;NQQE:Vu45 A/v 45 Fo Bsec Yrnthr Yvar Eq ;PVGL:PBAEBR ;ZNC:127G ;30388647 ;95486609\e\a\e\a",
 (PNQ Zrffntr) VQ#:15-025895 ; Havg:R3 ; NP - Nffvtazrag Pbzcyrgr ; Qvfc:09:25; Raeg:09:26; Ba Fprar:09:29; Ninvy:09:33
 (PNQ Zrffntr) VQ:15-025895 ;HAVG:R3 ;PNYY:Qvssvphygl Oernguvat ;CYNPR: ;NQQE:230 J Nirahr T ;PVGL:PBAEBR ;ZNC:187Q ;30306743 ;95458492
 (PNQ Zrffntr) VQ#:15-025880 ; Havg:R1 ; NP - Nffvtazrag Pbzcyrgr ; Qvfc:05:01; Raeg:05:03; Ba Fprar:05:06; Ninvy:05:15
@@ -10461,6 +10462,20 @@ Fraqre: NYNEZFDYFreire <NYNEZFDYFreire@zpuq-gk.bet>
 
   @Grfg
   choyvp ibvq grfgPvglBsPbaebrSQ() {
+
+    qbGrfg("K1",
+        "(PNQ Zrffntr) VQ:15-027602 ;HAVG:R5 ;PNYY:Qvnorgvp Ceboyrzf ;CYNPR: ;NQQE:Vu45 A/v 45 Fo Bsec Yrnthr Yvar Eq ;PVGL:PBAEBR ;ZNC:127G ;30388647 ;95486609\e\a" +
+        "\e\a" +
+        "\",",
+
+        "VQ:15-027602",
+        "HAVG:R5",
+        "PNYY:Qvnorgvp Ceboyrzf",
+        "NQQE:Vu45 A & v 45 Fo Bsec Yrnthr Yvar Eq",
+        "ZNQQE:Vu45 A & v 45",
+        "PVGL:PBAEBR",
+        "ZNC:127G",
+        "TCF:+30.388647,-95.486609");
 
     qbGrfg("G1",
         "(PNQ Zrffntr) VQ#:15-025895 ; Havg:R3 ; NP - Nffvtazrag Pbzcyrgr ; Qvfc:09:25; Raeg:09:26; Ba Fprar:09:29; Ninvy:09:33",
