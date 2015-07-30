@@ -35,6 +35,16 @@ public class PABerksCountyParser extends FieldProgramParser {
     return parseFields(body.split(";"), data);
   }
   
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("UNITCALL")) return new MyUnitCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("DATETIME")) return new MyDateTimeField();
+    return super.getField(name);
+  }
+  
   private static final Pattern UNIT_CALL_PTN = Pattern.compile("Unit:([-A-Za-z0-9]+) Status:(?:Dispatched|Enroute|Notify|Arrived On Location) (.*)");
   private class MyUnitCallField extends Field {
     @Override
@@ -100,16 +110,6 @@ public class PABerksCountyParser extends FieldProgramParser {
       if (!DATE_TIME_PTN.matcher(field).matches()) return;
       super.parse(field, data);
     }
-  }
-  
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("UNITCALL")) return new MyUnitCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    return super.getField(name);
   }
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{

@@ -16,6 +16,11 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public String getFilter() {
+    return "911alert@kcgov.us";
+  }
+  
+  @Override
   protected boolean parseMsg(String body, Data data) {
     body = stripFieldStart(body, "KOOTENAI COUNTY SHERIFF ");
     int pt = body.indexOf("\nSent by CLI");
@@ -111,7 +116,7 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
       "FL",  "FERNAN LAKE",
       "HA",  "HAYDEN",
       "HAR", "HARRISON",
-      "HAU", "HAUSER LAKE",
+      "HAU", "HAUSER",
       "HL",  "HAYDEN LAKE",
       "KEL", "KELLOGG", 
       "MOS", "MOSCOW",

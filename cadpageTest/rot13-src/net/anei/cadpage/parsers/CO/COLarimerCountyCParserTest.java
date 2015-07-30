@@ -6,6 +6,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.PB.PBNqnzfPbhaglCnefre;
 vzcbeg bet.whavg.Grfg;
 
 /*
+Ynevzre Pbhagl, PB (P)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Rfgrf Inyyrl Sver Cebgrpgvba Qvfgevpg
@@ -115,10 +116,10 @@ Fraqre: pevfccntvat@sptbi.pbz
 
  */
 
-choyvp pynff PBPevfccntvatCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff PBYnevzrePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp PBPevfccntvatCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "", "PB");
+  choyvp PBYnevzrePbhaglPCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "YNEVZRE PBHAGL", "PB");
   }
   
   @Grfg
@@ -127,6 +128,6 @@ choyvp pynff PBPevfccntvatCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj PBPevfccntvatCnefreGrfg().trarengrGrfgf("G1");
+    arj PBYnevzrePbhaglPCnefreGrfg().trarengrGrfgf("G1");
   }
 }
