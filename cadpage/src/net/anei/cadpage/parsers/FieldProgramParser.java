@@ -3481,12 +3481,17 @@ public class FieldProgramParser extends SmartAddressParser {
       return true;
     }
     
+    // If called normally, we always fail.  The success condition is
+    // detected by Step.process()
+    
     @Override
     public boolean checkParse(String field, Data data) {
-      
-      // If called normally, we always fail.  The success condition is
-      // detected by Step.process()
       return false;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      abort();
     }
   }
   
