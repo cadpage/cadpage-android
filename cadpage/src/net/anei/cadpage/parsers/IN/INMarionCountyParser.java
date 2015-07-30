@@ -10,6 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class INMarionCountyParser extends MsgParser {
   
+  private static final Pattern MARKER = Pattern.compile("COI PUBLIC SAFETY CAD:|PUBLIC SAFETY CAD:? CAD:|CAD:");
   private static final Pattern MASTER = Pattern.compile("([^,]+), *([A-Z]{3}) (?:#(?:APT|RM|ROOM|SUIT|UNIT)? *((?![NS]\\d{5}\\b)[^ ]+)? )?(?:([NS]\\d{5} [EW]\\d{5}|[NS] [EW]) )?(.*)");
   private static final Pattern CALL_ID_PTN = Pattern.compile("\\b(I\\d{5})\\.?$");
   private static final Pattern UNIT_PTN = Pattern.compile("((?:(?:[A-Z]+[0-9]+|\\d+GRP|ALS|INDOT|IPAGE|MEDIA|CMND|CSTF|EXTF|IFSPOP|WPAGE|(?:IFD|PIK)[A-Z]{1,3}) *)+)[\\., ]*(.*)");
@@ -29,9 +30,8 @@ public class INMarionCountyParser extends MsgParser {
     
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
-    body = stripFieldStart(body, "COI PUBLIC SAFETY ");
-    body = stripFieldStart(body, "PUBLIC SAFETY CAD ");
-    body = stripFieldStart(body, "CAD:");
+    Matcher match = MARKER.matcher(body);
+    if (match.lookingAt()) body = body.substring(match.end()).trim();
     
     if (subject.endsWith(" MAJOR PAGE FYI")) {
       data.strSupp = body;
@@ -46,7 +46,7 @@ public class INMarionCountyParser extends MsgParser {
       }
     }
     
-    Matcher match = MASTER.matcher(body);
+    match = MASTER.matcher(body);
     if (!match.matches()) return false;
     parseAddress(match.group(1).trim(), data);
     data.strCity = convertCodes(match.group(2), CITY_CODES);
