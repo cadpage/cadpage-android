@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07282015</string>
-  <string name="release_version">v1.8.48</string>
+  <string name="release_date">07312015</string>
+  <string name="release_version">v1.8.49</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.49\n
+Location Fixes:\n
+Doublas County, CO\n
+Kootenai County, ID\n
+Kosciusko County, IN\n
+Marion County, IN\n
+Talbot County, MD\n
+Parker County, TX\n
+\n
 v1.8.48\n
 New Locations:\n
 Onondaga County, NY (alt)\n
@@ -77,34 +86,7 @@ Douglas County, OR\n
 Armstrong County, PA\n
 Clarion County, PA\n
 King County, WA\n
-Hampshire County, WV\n
-\n      
-v1.8.44\n
-New Locations:\n
-Fulton County, KY\n
-Metcalfe County, KY\n
-Freeborn County, MN\n
-Madison County, MO\n
-McDowell County, NC\n
-Adams County, OH\n
-Perry County, PA\n
-Stevens County, WA\n
-\n
-Location Fixes:\n
-Hartford County, CT\n
-New Haven County, CT\n
-Tolland County, CT\n
-Windham County, CT\n
-Washington County, MD\n
-Cheybogan County, MI\n
-Emmet County, MI\n
-Broome County, NY\n
-Rockingham County, NC\n
-Union County, NC\n
-Northampton County, PA\n
-Overland County, TN\n
-Montgomery County, TX\n
-Prince William County, VA
+Hampshire County, WV
   </string>
 </resources>
   
