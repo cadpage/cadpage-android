@@ -548,7 +548,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:EBNQ UNMNEQ",
         "NQQE:BYQ FCEVATGBJA EQ & OBAAVR YA",
         "PVGL:FCEVATGBJA",
-        "K:GNP1",
+        "PU:GNP1",
         "FEP:FG48",
         "HAVG:R48",
         "VASB:4808\aEnqvb Punaary: GNP1");
@@ -593,7 +593,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZNWBE NPPVQRAG",
         "NQQE:UJL 377 F & ZPQNAVRY EQ",
         "PVGL:SBEG JBEGU",
-        "K:GNP4",
+        "PU:GNP4",
         "FEP:GP30",
         "HAVG:R30,FD30,P30",
         "VASB:3020\aJUVGR PNE BSS EQ");
@@ -603,7 +603,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZNWBE NPPVQRAG",
         "NQQE:UJL 377 F & ZPQNAVRY EQ",
         "PVGL:SBEG JBEGU",
-        "K:GNP4",
+        "PU:GNP4",
         "FEP:GP30",
         "HAVG:R30,FD30",
         "VASB:3020\aJUVGR PNE BSS EQ");
@@ -613,7 +613,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:CBJRE YVARF QBJA NEPVAT",
         "NQQE:SYNG EBPX EQ & ONHTUZNA UVYY EQ",
         "PVGL:NMYR",
-        "K:GNP1",
+        "PU:GNP1",
         "FEP:FG54",
         "HAVG:R54",
         "VASB:5406\aEnqvb Punaary: GNP1");
@@ -623,7 +623,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZNWBE NPPVQRAG",
         "NQQE:UJL 377 F & ZPQNAVRY EQ",
         "PVGL:SBEG JBEGU",
-        "K:GNP4",
+        "PU:GNP4",
         "FEP:GP30",
         "HAVG:R30,FD30,P30",
         "VASB:3020\aEnqvb Punaary: GNP4");
@@ -633,7 +633,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZNWBE NPPVQRAG",
         "NQQE:UJL 377 F & ZPQNAVRY EQ",
         "PVGL:SBEG JBEGU",
-        "K:GNP4",
+        "PU:GNP4",
         "FEP:GP30",
         "HAVG:R30,FD30",
         "VASB:3020\aEnqvb Punaary: GNP4");
@@ -702,7 +702,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:SZ 920 & J QEL PERRX EQ",
         "ZNQQE:SNEZ-GB-ZNEXRG 920 & J QEL PERRX EQ",
         "PVGL:JRNGURESBEQ",
-        "K:GNP1",
+        "PU:GNP1",
         "FEP:FG46",
         "HAVG:R46",
         "VASB:4603\aEnqvb Punaary: GNP1");
@@ -747,7 +747,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZNWBE NPPVQRAG",
         "NQQE:PNGGYRONEBA QE & JUVGR FRGGYRZRAG EQ",
         "PVGL:SBEG JBEGU",
-        "K:GNP1",
+        "PU:GNP1",
         "FEP:FG34",
         "HAVG:R234,R34",
         "VASB:3406\aHQGF: QCF ABGVSVRQ");
@@ -757,7 +757,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZNWBE NPPVQRAG",
         "NQQE:PNGGYRONEBA QE & JUVGR FRGGYRZRAG EQ",
         "PVGL:SBEG JBEGU",
-        "K:GNP1",
+        "PU:GNP1",
         "FEP:FG34",
         "HAVG:R34",
         "VASB:3406\aEnqvb Punaary: GNP1");
@@ -812,7 +812,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:J FGNGR UVTUJNL 199 & F CBWB QE",
         "ZNQQE:J FGNGR 199 & F CBWB QE",
         "PVGL:FCEVATGBJA",
-        "K:GNP1",
+        "PU:GNP1",
         "FEP:FG48",
         "HAVG:R48,R51",
         "VASB:4805\aEnqvb Punaary: GNP1");
@@ -822,8 +822,8 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZNWBE NPPVQRAG",
         "NQQE:UJL 377 F & GVTRE GEY",
         "PVGL:SBEG JBEGU",
-        "K:R30,O30",
-        "HAVG:BAR IRU",
+        "HAVG:R30,O30",
+        "VASB:Z/N ORAOEBBX\aBAR IRU",
         "QNGR:06/16/15",
         "GVZR:12:03:27");
 
@@ -832,8 +832,8 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZNWBE NPPVQRAG",
         "NQQE:UJL 377 F & GVTRE GEY",
         "PVGL:SBEG JBEGU",
-        "K:O30",
-        "HAVG:BAR IRU EBYY",
+        "HAVG:O30",
+        "VASB:Z/N ORAOEBBX\aBAR IRU EBYY",
         "QNGR:06/16/15",
         "GVZR:12:03:27");
 
@@ -842,8 +842,8 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZNWBE NPPVQRAG",
         "NQQE:UJL 377 F & GVTRE GEY",
         "PVGL:SBEG JBEGU",
-        "K:FGN30",
-        "HAVG:BAR IRU EB",
+        "HAVG:FGN30",
+        "VASB:Z/N ORAOEBBX\aBAR IRU EB",
         "QNGR:06/16/15",
         "GVZR:12:03:27");
 
@@ -994,7 +994,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:HF UVTUJNL 377 & FGBARJVPX QE",
         "ZNQQE:HF 377 & FGBARJVPX QE",
         "PVGL:PERFFBA",
-        "K:GNP4",
+        "PU:GNP4",
         "FEP:FG30",
         "HAVG:O330,R30,FD30,FD230,P30",
         "VASB:3006\aZ31");
@@ -1005,7 +1005,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:FGBARJVPX QE & HF UVTUJNL 377",
         "ZNQQE:FGBARJVPX QE & HF 377",
         "PVGL:PERFFBA",
-        "K:GNP4",
+        "PU:GNP4",
         "FEP:FG30",
         "HAVG:R30,FD30,FD230,P30",
         "VASB:3006\aZ31 CE1");
@@ -1016,7 +1016,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:FGBARJVPX QE & HF UVTUJNL 377",
         "ZNQQE:FGBARJVPX QE & HF 377",
         "PVGL:PERFFBA",
-        "K:GNP4",
+        "PU:GNP4",
         "FEP:FG30",
         "HAVG:R30,FD30,FD230",
         "VASB:3006\aHQGF: QCF ABGVSVRQ");
@@ -1027,7 +1027,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:FGBARJVPX QE & HF UVTUJNL 377",
         "ZNQQE:FGBARJVPX QE & HF 377",
         "PVGL:PERFFBA",
-        "K:GNP4",
+        "PU:GNP4",
         "FEP:FG30",
         "HAVG:R30,FD30",
         "VASB:3006\aEnqvb Punaary: GNP4");
@@ -1058,7 +1058,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:HF UVTUJNL 377 & TBSBEGU EQ",
         "ZNQQE:HF 377 & TBSBEGU EQ",
         "PVGL:SBEG JBEGU",
-        "K:GNP4",
+        "PU:GNP4",
         "FEP:FG30",
         "HAVG:R30,FD30,P30",
         "VASB:3007\aEnqvb Punaary: GNP4");
@@ -1069,7 +1069,7 @@ choyvp pynff GKCnexrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:HF UVTUJNL 377 & TBSBEGU EQ",
         "ZNQQE:HF 377 & TBSBEGU EQ",
         "PVGL:SBEG JBEGU",
-        "K:GNP4",
+        "PU:GNP4",
         "FEP:FG30",
         "HAVG:R30,FD30",
         "VASB:3007\aEnqvb Punaary: GNP4");

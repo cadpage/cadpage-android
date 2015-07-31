@@ -184,7 +184,7 @@ choyvp pynff PBQbhtynfPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIN Haxabja Vawhevrf",
         "ZNC:NU-21-O",
         "NQQE:1494 Bnx Inyyrl Eq",
-        "HAVG:JQS2,JQP131,FZR40,PEZ154,FZOP3");
+        "HAVG:JQS2,JQP131,FZR40,PEZ154,FZOP3,JQS4");
 
     qbGrfg("G11",
         "j/Jrfg Qbhtynf: 10/04 18:20 NR-26-N 5040 - 5491 A 85 Ujl ZRQVPNY NFFVFG PU131,JQS2,R39,Z36,OP34",

@@ -14,7 +14,7 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
   
   public INKosciuskoCountyParser() {
     super(CITY_CODES, "KOSCIUSKO COUNTY", "IN",
-           "( CANCEL | FYI CALL ) COUNTY? ( CITY ADDR | ADDR! ( END | APTPLACE? CITY/Y END ) )");
+           "( CANCEL COUNTY? | FYI CALL ) COUNTY? ( CITY ADDR | ADDR! ( CITY APTPLACE | APTPLACE? CITY/Y ) INFO+ )");
   }
   
   @Override
@@ -51,7 +51,6 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("CANCEL")) return new CallField("CANCEL", true);
     if (name.equals("COUNTY")) return new MyCountyField();
     if (name.equals("APTPLACE")) return new MyAptPlaceField();
     return super.getField(name);

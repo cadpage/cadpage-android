@@ -20,6 +20,7 @@ public class VAMecklenburgCountyParser extends DispatchA47Parser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    body = body.replaceAll("\\n{2,}", "\\n");
     if (!super.parseMsg(subject, body, data)) return false;
     if (data.strCity.equals("MECK CO")) data.strCity = "MECKLENBURG COUNTY";
     else if (data.strCity.equals("BRUN CO")) data.strCity = "BRUNSWICK COUNTY";
@@ -80,6 +81,11 @@ public class VAMecklenburgCountyParser extends DispatchA47Parser {
   @Override
   public String adjustMapCity(String city) {
     return convertCodes(city, CITY_MAP_TABLE);
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("CITY", "PLACE CITY");
   }
   
   private static final String[] CITY_LIST = new String[]{

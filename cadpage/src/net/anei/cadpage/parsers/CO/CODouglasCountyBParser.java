@@ -15,7 +15,7 @@ public class CODouglasCountyBParser extends FieldProgramParser {
 
   public CODouglasCountyBParser() {
     super("DOUGLAS COUNTY", "CO",
-          "CALL+? MAP ADDR APT PLACE UNIT! END");
+          "CALL+? MAP ADDR APT PLACE UNIT/C+");
   }
   
   @Override
@@ -65,16 +65,16 @@ public class CODouglasCountyBParser extends FieldProgramParser {
   }
   
   @Override
-  public String getProgram() {
-    return "SRC DATE TIME " + super.getProgram();
-  }
-  
-  @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("MAP")) return new MapField("[A-Z]{2}-\\d{2}-[A-Z]|NOT FOUN", true);
     if (name.equals("UNIT")) return new UnitField("[,A-z0-9]+", true);
     return super.getField(name);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC DATE TIME " + super.getProgram();
   }
   
   private class MyCallField extends CallField {

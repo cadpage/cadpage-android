@@ -16,7 +16,7 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
   
   public NYChautauquaCountyParser() {
     super(CITY_LIST, "CHAUTAUQUA COUNTY", "NY",
-          "CALL! ADDR/iSXa! C/T/V:CITY! UNIT1? INFO+? UNIT2 END");
+          "CALL! ADDR/iSXa! C/T/V:CITY! UNIT1? INFO+? UNIT2 X-Streets:X END");
   }
   
   @Override
@@ -98,7 +98,7 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
   
   private static final Pattern[] UNIT_PTN_LIST = new Pattern[]{
     Pattern.compile("[A-Z]+\\d+"),
-    Pattern.compile("(?: *\\b(?:[A-Z]{1,4}|[A-Z]\\d{2,3})\\b)+")
+    Pattern.compile("(?: *\\b(?:[A-Z]{1,4}\\d*)\\b)+")
   };
 
   private class MyUnitField extends UnitField {

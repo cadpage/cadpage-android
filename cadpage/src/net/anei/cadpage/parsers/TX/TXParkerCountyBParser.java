@@ -11,7 +11,7 @@ public class TXParkerCountyBParser extends DispatchOSSIParser {
   
   public TXParkerCountyBParser() {
     super(CITY_CODES, "PARKER COUNTY", "TX",
-        "CALL ADDR CITY/Y! ( X/Z CH SRC | X/Z SRC | CH SRC | SRC | X/Z END ) UNIT INFO/N+");
+        "CALL ADDR CITY/Y! X/Z+? ( CH SRC UNIT! | SRC UNIT! | UNIT! | END ) INFO/N+");
   }
   
   @Override
@@ -28,6 +28,7 @@ public class TXParkerCountyBParser extends DispatchOSSIParser {
   public Field getField(String name) {
     if (name.equals("CH")) return new ChannelField("TAC\\d+|WP?FD", true);
     if (name.equals("SRC")) return new SourceField("ST\\d+|TC\\d+", true);
+    if (name.equals("UNIT")) return new UnitField("(?:\\b[A-Z]+\\d+\\b,?)+", true);
     return super.getField(name);
   }
   
