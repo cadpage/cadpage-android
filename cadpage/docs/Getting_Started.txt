@@ -28,14 +28,13 @@ will include this.  If you have trouble, check out https://git-scm.com/downloads
 5) Now to finish installing Android SDK.  From Eclipse, Window-> SDK Manager.  Let the window load up, and then select API 18, and download.
 
 6) Next, install the Cadpage source tree
-The Cadpage project is hosted at https://github.com/cadpage2/cadpage-android.
+The Cadpage project is hosted at https://github.com/cadpage/cadpage-android.
 Though not really required, you will probably want to set up a github account.
 The page lists the URL you need to use to clone the Cadpage repository.
 
 7)  Go back to eclipse and import the 4 Cadpage projects.
 File-> Import-> General -> Existing Projects into Workspace.
-Browse-> Workspace -> cadpage -> <project>. click okay, and then finish.
-You need to do this for the google-play-services-base, google-play-services-gcm, cadpage, and cadpageTest projects.
+Browse-> git -> cadpage, Select all 4 projects, click okay, and then finish.
 
 If you are just doing parsers, you won't be running much of the Android SDK, but you need the libraries to get project to compile.
 
@@ -48,7 +47,7 @@ Indentation
   Check use spaces to indent lines
   Set the indentation size and tab size to 2
 
-Right click both Cadpage Project and select
+Right click both cadpage and cadpageTest Projects and select
 Properties > Java Code Style > Formatter
  Enable project specific settings and select the new Cadpage profile
 For Windows users:  Open the Resource tab and set the text encoding to UTF-8

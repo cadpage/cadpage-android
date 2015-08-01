@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -12,23 +14,42 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYCattaraugusCountyParser extends FieldProgramParser {
   
-  private static Pattern TRAIL_COMMA_PAT = Pattern.compile("[ ,]+$");
-  private static Pattern LOCATION_PAT = Pattern.compile(".* COUNTY", Pattern.CASE_INSENSITIVE);
-  
   private String address;
   
   public NYCattaraugusCountyParser() {
     super(CITY_CODES, "CATTARAUGUS COUNTY", "NY",
-           "Unit:UNIT! Loc:ADDR! Between:X! CN:PLACE CTV:CITY Type:CALL Date:SKIP Time:SKIP Info:INFO Caller:NAME Inc:ID%");
+           "Unit:UNIT? Loc:ADDRCITY/S6! Between:X! CN:PLACE CTV:CITY Type:CALL Date:DATE Time:TIME Info:INFO Caller:NAME Inc:ID%");
   }
   
   @Override
   public String getFilter() {
     return "911@cattco.org,777,888";
   }
+  
+  private static Pattern MARKER = Pattern.compile("CATTARAUGUS COUNTY SHERIFF:? *");
+  private static Pattern TRAIL_COMMA_PAT = Pattern.compile("[ ,]+$");
+  private static Pattern LOCATION_PAT = Pattern.compile(".* COUNTY", Pattern.CASE_INSENSITIVE);
+  private static final Pattern CALL_DATE_TIME_PTN = Pattern.compile("(.*) (\\d\\d?/\\d\\d?/\\d{4}) (\\d\\d?:\\d\\d:\\d\\d [AP]M)");
+  private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    Matcher match = MARKER.matcher(body);
+    if (match.lookingAt()) {
+      body = body.substring(match.end());
+      if (body.startsWith("(")) {
+        int parenCnt = 1;
+        int pt = 1;
+        for (; parenCnt > 0 && pt < body.length(); pt++) {
+          char chr = body.charAt(pt);
+          if (chr == '(') parenCnt++;
+          else if (chr == ')') parenCnt--;
+        }
+        body = body.substring(pt).trim();
+      }
+    }
+    
     body = body.replace(" Inc#:", " Inc:");
     address = null;
     if (!super.parseMsg(body, data)) return false;
@@ -51,14 +72,45 @@ public class NYCattaraugusCountyParser extends FieldProgramParser {
         data.strName = "";
       }
     }
+    
+    // See if call field contains date/time
+    if (data.strTime.length() == 0) {
+      match = CALL_DATE_TIME_PTN.matcher(data.strCall);
+      if (match.matches()) {
+        data.strCall = match.group(1).trim();
+        data.strDate = match.group(2);
+        setTime(TIME_FMT, match.group(3), data);
+      }
+    }
     return true;
   }
   
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("CALL", "CALL DATE TIME");
+  }
+
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("NAME")) return new MyNameField();
+    return super.getField(name);
+  }
+  
   // Address field just remembers the address field
-  private class MyAddressField extends AddressField {
+  private class MyAddressCityField extends AddressCityField {
     @Override
     public void parse(String field, Data data) {
       address = field;
+      super.parse(field, data);
+    }
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("No Cross Streets Found")) return;
       super.parse(field, data);
     }
   }
@@ -75,13 +127,6 @@ public class NYCattaraugusCountyParser extends FieldProgramParser {
       }
       super.parse(field, data);
     }
-  }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("NAME")) return new MyNameField();
-    return super.getField(name);
   }
 
   private static Properties CITY_CODES = buildCodeTable(new String[]{
