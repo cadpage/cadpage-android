@@ -20,7 +20,7 @@ public class OHTrentonParser extends DispatchEmergitechParser {
 
   @Override
   public String getFilter() {
-    return "paging@ci.trenton.oh.us";
+    return "paging@ci.trenton.oh.us,@cityoftrenton.com";
   }
   
   
