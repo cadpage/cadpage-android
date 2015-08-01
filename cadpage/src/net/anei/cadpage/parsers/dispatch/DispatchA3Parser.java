@@ -170,7 +170,7 @@ public class DispatchA3Parser extends FieldProgramParser {
       body = body.substring(prefix.length()).trim();
     } else if (prefixPtn != null) {
       Matcher match = prefixPtn.matcher(body);
-      if (!match.find()) return false;
+      if (!match.lookingAt()) return false;
       body  = body.substring(match.end()).trim();
     }
     if (splitField) {
