@@ -107,11 +107,25 @@ public class NYCattaraugusCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern CITY_PLACE_PTN = Pattern.compile("(.*[a-z]) +([A-Z][^a-z]+)");
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
       if (field.equals("No Cross Streets Found")) return;
       super.parse(field, data);
+      if (data.strCity.length() > 0) {
+        Matcher match = CITY_PLACE_PTN.matcher(data.strCity);
+        if (match.matches()) {
+          data.strCity = match.group(1);
+          data.strPlace = match.group(2);
+        }
+        data.strCity = stripFieldEnd(data.strCity, " Town");
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " PLACE";
     }
   }
   
