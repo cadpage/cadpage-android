@@ -103,7 +103,7 @@ public class ORWashingtonCountyAParser extends ORWashingtonCountyBaseParser {
   @Override
   public String getProgram() {
     String result = super.getProgram();
-    if (version.equals("2")) result = "UNIT CODE CALL " + result + " ID INFO";
+    if (version != null && version.equals("2")) result = "UNIT CODE CALL " + result + " ID INFO";
     return result;
   }
   
