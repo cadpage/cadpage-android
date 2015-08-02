@@ -79,6 +79,6 @@ public class WAKitsapCountyParser extends SmartAddressParser {
       "PO", "PORT ORCHARD",
       "SE", "SEABACK",
       "SI", "SILVERDALE",
-      "SU", "SUQUAMISH",
+      "SU", "SUQUAMISH"
   });
 }
