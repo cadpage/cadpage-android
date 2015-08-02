@@ -5787,6 +5787,11 @@ choyvp pynff CNQrynjnerPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
+  choyvp ibvq grfgOnqZft() {
+    qbOnqGrfg("[Hcqngr]*CNYZREF ZVYY EQ / ZNAFVBA QE H*CNYZREF ZVYY EQ / ZNAFVBA QE*738/Z23/237/ER73/739N/GS53/GS4*PNE/CBYR,PBZCY ABG VAIBYIRQ,2A");
+  }
+  
+  @Grfg
   choyvp ibvq grfgCnefre() {
 
     qbGrfg("G1",
@@ -58004,6 +58009,7 @@ choyvp pynff CNQrynjnerPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "0661008 900 PBAPBEQ ZNYY APP - ORFG OHL - NFFVFG APP FGNGVBA 25",
         "NQQE:900 PBAPBEQ ZNYY",
         "PVGL:ARJ PNFGYR PBHAGL",
+        "FG:QR",
         "PNYY:ORFG OHL - NFFVFG APP FGNGVBA 25");
 
     qbGrfg("G60",

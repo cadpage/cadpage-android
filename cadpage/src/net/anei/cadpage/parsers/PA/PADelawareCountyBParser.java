@@ -56,8 +56,10 @@ public class PADelawareCountyBParser extends FieldProgramParser {
     
     else {
       select = "2";
+      boolean confirmed = false;
       Matcher match = PREFIX_PTN.matcher(body);
       if (match.find()) {
+        confirmed = true;
         String prefix = match.group();
         body = body.substring(match.end()).trim();
     
@@ -115,8 +117,10 @@ public class PADelawareCountyBParser extends FieldProgramParser {
         return super.parseMsg(body, data);
       }
       
-      // No go so far.
-      // Try some simple basic combinations
+      // No go so far.  If we are positive this is a dispatch
+      // message, try some simple basic combinations
+      if (!confirmed) return false;
+      
       setFieldList("ADDR APT CITY ST PLACE CALL");
       String left;
       match = MASTER_STAR_PTN.matcher(body);
@@ -260,7 +264,11 @@ public class PADelawareCountyBParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       if (crossAddress) {
-        data.strAddress = append(data.strAddress, " & ", field);
+        String saveAddr = data.strAddress;
+        data.strAddress = "";
+        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
+        data.strAddress = append(saveAddr, " & ", data.strAddress);
+        fixCity(data);
       } else {
         super.parse(field, data);
       }

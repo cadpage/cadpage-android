@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07312015</string>
-  <string name="release_version">v1.8.49</string>
+  <string name="release_date">08022015</string>
+  <string name="release_version">v1.8.50</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.50\n
+Location Fixes:\n
+Cattaraugus County, NY\n
+Trenton, OH\n
+Delaware County, PA\n
+Bradley County, TN\n
+\n
 v1.8.49\n
 Location Fixes:\n
 Doublas County, CO\n
@@ -65,28 +72,7 @@ Location Fixes:\n
 Decatur County, GA\n
 Cuyahoga County, OH\n
 Oxford, OH\n
-Oklahoma County, OK\n
-\n
-v1.8.45\n
-New Locations:\n
-Pasquotank County, NC\n
-Yukon, OK\n
-\n
-Location Fixes:\n
-San Bernardino County, CA\n
-Siskiyou County, CA\n
-DuPage County, IL\n
-Gallatin County, KY\n
-Washington County, MD\n
-Barry County, MO\n
-Stone County, MO\n
-Essex County, NJ\n
-Logan County, OH\n
-Douglas County, OR\n
-Armstrong County, PA\n
-Clarion County, PA\n
-King County, WA\n
-Hampshire County, WV
+Oklahoma County, OK
   </string>
 </resources>
   
