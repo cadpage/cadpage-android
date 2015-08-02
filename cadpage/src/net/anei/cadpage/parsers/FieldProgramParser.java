@@ -440,6 +440,7 @@ public class FieldProgramParser extends SmartAddressParser {
           throw new RuntimeException("Any order parsers do not support optional fields:" + fieldTerms[ndx]);
         }
       }
+      if (info.repeat && info.optional && info.tag != null) throw new RuntimeException("Tagged optional repeat fields do not work");
       if (ignoreCase & info.tag != null) info.tag = info.tag.toUpperCase(); 
       infoList[ndx] = info;
       fieldSteps[ndx] = new Step(info);

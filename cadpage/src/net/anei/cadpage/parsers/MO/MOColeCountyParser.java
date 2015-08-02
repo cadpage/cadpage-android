@@ -10,7 +10,7 @@ public class MOColeCountyParser extends FieldProgramParser {
   
   public MOColeCountyParser() {
     super("COLE COUNTY", "MO",
-      "UNIT:UNIT! ZONE:MAP! PRI:PRI! PLACE:PLACE? ADDR:ADDR! CITY:CITY? CALL:CALL! INFO:INFO+? ID:ID! DATE:DATE! TIME:TIME! GPS:GPS");
+      "UNIT:UNIT! ZONE:MAP! PRI:PRI! PLACE:PLACE? ADDR:ADDR! CITY:CITY? CALL:CALL! INFO:INFO? INFO+? ID:ID! DATE:DATE! TIME:TIME! GPS:GPS");
   }
   
   @Override

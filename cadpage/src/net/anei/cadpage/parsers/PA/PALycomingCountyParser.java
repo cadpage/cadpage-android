@@ -13,7 +13,7 @@ public class PALycomingCountyParser extends FieldProgramParser {
 
   public PALycomingCountyParser() {
     super(CITY_CODES, "LYCOMING COUNTY", "PA", 
-          "( DISPATCH_REPORT! Ver:SKIP! CFS_Number:ID! DATETIME1! RECOMMENDED! UNIT1/ZS+ Note:INFO/N+? CALL:CALL! INC_DESC:CALL_DESC! LOCATION:ADDRCITY! GPS! BUSINESS:PLACE! RECEIVED:SKIP! Cross_Streets:X? Boundaries:INFO/N+ " +
+          "( DISPATCH_REPORT! Ver:SKIP! CFS_Number:ID! DATETIME1! RECOMMENDED! UNIT1/ZS+ Note:INFO/N+ CALL:CALL! INC_DESC:CALL_DESC! LOCATION:ADDRCITY! GPS! BUSINESS:PLACE! RECEIVED:SKIP! Cross_Streets:X? Boundaries:INFO/N+ " +
           "| DATETIME_CODE! CALL! ADDR! CITY! Apt:APT! Cross_Streets:X! EMPTY? GOOGMAP_GPS! )");
   }
   

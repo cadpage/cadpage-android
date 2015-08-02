@@ -32,6 +32,7 @@ public class PADelawareCountyParser extends GroupBestParser {
       "CF", "CHADDS FORD TWP",
       "CH", "CHESTER HEIGHTS",
       "CL", "CLIFTON HEIGHTS",
+      "CL DE", "CLAYMONT/DE",
       "CN", "CONCORD TWP",
       "CO", "COLLINGDALE",
       "CW", "COLWYN",
@@ -79,12 +80,14 @@ public class PADelawareCountyParser extends GroupBestParser {
       "WT", "WILLISTOWN TWP",
       "YE", "YEADON",
       
+      "DE", "NEW CASTLE COUNTY/DE",
+      
       "MONTCO",       "MONTGOMERY COUNTY",
       "UMT MONTCO",   "UPPER MERION TWP",
       
-      "NCC",          "NEW CASTLE COUNTY",
-      "NC",           "NEW CASTLE COUNTY",
-      "NEW CASTLE",   "NEW CASTLE COUNTY",
+      "NCC",          "NEW CASTLE COUNTY/DE",
+      "NC",           "NEW CASTLE COUNTY/DE",
+      "NEW CASTLE",   "NEW CASTLE COUNTY/DE",
       
       "LOWER MERION",      "LOWER MERION TWP",
       "LOWER MERION TWP",  "LOWER MERION TWP",

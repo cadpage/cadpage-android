@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.PA;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -9,12 +10,19 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class PADelawareCountyBParser extends FieldProgramParser {
   
-  private static final Pattern CAP_PTN = Pattern.compile("^(\\d{7}) ");
-  private static final Pattern NATURE_PTN = Pattern.compile("[\\* \"<](?:N.tu.e:|..ture:|Natu....(?=[A-Z]))");
-  private static final Pattern TIME_PTN = Pattern.compile(".Time:.");
+  private static final Pattern PREFIX_PTN = Pattern.compile("^\\d{7} ");
+  private static final Pattern LEAD_TIME_DATE_PTN = Pattern.compile("\\d\\d:\\d\\d:\\d\\d \\d\\d-\\d\\d-\\d\\d +");
+  private static final Pattern NATURE_PTN = Pattern.compile("[\\* \"<](?:N.tu.e:|..ture:|Natu....|Na..re:(?=[A-Z]))");
+  private static final Pattern TIME_PTN = Pattern.compile(".Time:.", Pattern.CASE_INSENSITIVE);
   private static final Pattern NOTES_PTN = Pattern.compile(" Not..[\\*:]");
   private static final Pattern INC_PTN = Pattern.compile(" I..:");
   private static final Pattern XN_PTN = Pattern.compile("[ ><](?!X1 INSIDE)X([12])..");
+  private static final Pattern X1_PTN = Pattern.compile("..1:");
+  private static final Pattern X2_PTN = Pattern.compile("..2:");
+  private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Nature:|X1:|X2:|Time:|Notes:|EID:|Inc:|Beat:|Disp:)");
+  private static final Pattern MASTER_STAR_PTN = Pattern.compile("(.*?) \\*{2,}(.*)\\*{2,}");
+  private static final Pattern MASTER_DASH_PTN = Pattern.compile("(.*?)[\\\\:]*-+(.*)");
+  private static final Pattern PLACE_CALL_PTN = Pattern.compile("@ *([^ ].*?) ([-_/A-Z]+\\b.*)");
   
   private AddressField addressField;
   
@@ -22,10 +30,12 @@ public class PADelawareCountyBParser extends FieldProgramParser {
   
   private String select;
   
+  private static final Properties CITY_CODES = PADelawareCountyParser.CITY_CODES;
+  
   public PADelawareCountyBParser() {
-    super(PADelawareCountyParser.CITY_CODES, "DELAWARE COUNTY", "PA",
+    super(CITY_CODES, "DELAWARE COUNTY", "PA",
           "( SELECT/1 ADDR CITY/Z? CALL DATE TIME ID INFO/N+? ALERT! END " +
-          "| ADDR2/S X1:XADDR? X2:X? Nature:CALL2! Time:TIME2 Notes:INFO? Inc:ID2 )");
+          "| ADDR2/S X1:XADDR? X2:X? Nature:CALL2! EID:SKIP? CALLER_NAME:NAME? CALLER_ADDR:SKIP? Time:TIME2 Notes:INFO? EID:SKIP? Inc:ID2 Beat:BOX Disp:UNIT )");
   }
   
   @Override
@@ -46,11 +56,29 @@ public class PADelawareCountyBParser extends FieldProgramParser {
     
     else {
       select = "2";
-      Matcher match = CAP_PTN.matcher(body);
+      Matcher match = PREFIX_PTN.matcher(body);
       if (match.find()) {
-        data.strUnit = match.group(1);
+        String prefix = match.group();
         body = body.substring(match.end()).trim();
+    
+        // Long alerts get broken up into two messages, with the unit prefix
+        // on both of them.  After the merge logic does it's thing, we still
+        // have to clean up the second unit field
+        String search = ' ' + prefix;
+        match = LEAD_TIME_DATE_PTN.matcher(body);
+        if (match.lookingAt()) body = body.substring(match.end());
+        while (true) {
+          int pt = body.indexOf(search);
+          if (pt < 0) break;
+          String part1 = body.substring(0,pt);
+          String part2 = body.substring(pt+search.length());
+          part1 = stripFieldEnd(part1, " -");
+          match = LEAD_TIME_DATE_PTN.matcher(part2);
+          if (match.lookingAt()) part2 = part2.substring(match.end());
+          body = append(part1, " ", part2);
+        }
       }
+      body = stripFieldEnd(body, " -");
     
       // For some reason the Nature: keyword is prone to being garbled
       body = NATURE_PTN.matcher(body).replaceFirst(" Nature: ");
@@ -64,14 +92,86 @@ public class PADelawareCountyBParser extends FieldProgramParser {
       // in the Nature field because that causes the parser to fail.  But lets
       // fix up the Xn: fields if we can
       body = XN_PTN.matcher(body).replaceAll(" X$1: ");
-      crossAddress = false;
-      return super.parseMsg(body.replace('\n', ' '), data);
+
+      body = body.replace('\n', ' ');
+      body = MISSING_BLANK_PTN.matcher(body).replaceAll(" ");
+      
+      int px1 = body.indexOf(" X1:");
+      int px2 = body.indexOf(" X2:");
+      int pNature = body.indexOf(" Nature:");
+      if (pNature >= 0) {
+        if (px1 < 0 && px2 >= 0) {
+          body = X1_PTN.matcher(body.substring(0,px2)).replaceFirst(" X1:") + 
+                 body.substring(px2);
+        } else if (px1 >= 0 && px2 < 0 && px1 < pNature) {
+          body = body.substring(0,px1) + 
+                 X2_PTN.matcher(body.substring(px1, pNature)).replaceFirst(" X2:") +
+                 body.substring(pNature);
+        }
+        
+        body = stripFieldStart(body, "Location:");
+  
+        crossAddress = false;
+        return super.parseMsg(body, data);
+      }
+      
+      // No go so far.
+      // Try some simple basic combinations
+      setFieldList("ADDR APT CITY ST PLACE CALL");
+      String left;
+      match = MASTER_STAR_PTN.matcher(body);
+      if (match.matches()) {
+        parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, match.group(1).trim(), data);
+        left = match.group(2).trim();
+        if (!isValidAddress()) return false;
+      }
+      
+      else if ((match = MASTER_DASH_PTN.matcher(body)).matches()) {
+        parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, match.group(1).trim(), data);
+        if (!isValidAddress()) return false;
+        left = match.group(2).trim();
+        if (data.strCity.length() == 0) {
+          parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, left, data);
+          left = getLeft();
+        }
+      }
+      
+      else {
+        parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, body, data);
+        left = getLeft();
+        if (!isValidAddress()) return false;
+      }
+      
+      if (data.strCity.length() == 0) {
+        int pt = left.indexOf('@');
+        if (pt >= 0) {
+          String city = left.substring(0,pt).trim();
+          city = CITY_CODES.getProperty(city);
+          if (city != null) {
+            data.strCity = city;
+            left = left.substring(pt);
+          }
+        }
+      }
+      
+      match = PLACE_CALL_PTN.matcher(left);
+      if (match.matches()) {
+        data.strPlace = match.group(1).trim();
+        left = match.group(2).trim();
+      }
+      
+      data.strCall = left;
+      fixCity(data);
+      return true;
     }
   }
   
-  @Override
-  public String getProgram() {
-    return "UNIT " + super.getProgram();
+  private void fixCity(Data data) {
+    int pt = data.strCity.indexOf('/');
+    if (pt >= 0) {
+      data.strState = data.strCity.substring(pt+1);
+      data.strCity = data.strCity.substring(0,pt);
+    }
   }
   
   @Override
@@ -87,6 +187,7 @@ public class PADelawareCountyBParser extends FieldProgramParser {
     if (name.equals("CALL2")) return new MyCall2Field();
     if (name.equals("TIME2")) return new MyTime2Field();
     if (name.equals("ID2")) return new MyIdField();
+    if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
   
@@ -102,7 +203,7 @@ public class PADelawareCountyBParser extends FieldProgramParser {
         if (place.length() == 0) break;
         place = stripFieldStart(place, "@");
         if (!place.endsWith(" CO") && !place.endsWith(" CO.") && !place.endsWith(" MD")) {
-          String city = PADelawareCountyParser.CITY_CODES.getProperty(place);
+          String city = CITY_CODES.getProperty(place);
           Result res = parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY | FLAG_ANCHOR_END, place);
           city = res.getCity();
           if (city.length() > 0) {
@@ -117,6 +218,9 @@ public class PADelawareCountyBParser extends FieldProgramParser {
       if (field.startsWith("@")) {
         String place = field.substring(1).trim();
         if (!data.strPlace.contains(place)) data.strPlace = append(place, " - ", data.strPlace);
+      } else if (field.startsWith("/")) {
+        data.strAddress = "";
+        data.strCity = convertCodes(field.substring(1).trim(), CITY_CODES);
       } else {
         Matcher match = ADDR_DASH_CITY_PTN.matcher(field);
         if (match.matches()) {
@@ -126,7 +230,7 @@ public class PADelawareCountyBParser extends FieldProgramParser {
       }
       data.strAddress = stripFieldEnd(data.strAddress, "--");
       data.strApt = append(data.strApt, "-", apt);
-      if (data.strCity.equals("NEW CASTLE COUNTY")) data.strState = "DE";
+      fixCity(data);
     }
     
     @Override
@@ -234,6 +338,15 @@ public class PADelawareCountyBParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "ID BOX";
+    }
+  }
+
+  private static final Pattern UNIT_BLANK_PTN = Pattern.compile(" {2,}");
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      field = UNIT_BLANK_PTN.matcher(field).replaceAll(",");
+      super.parse(field, data);
     }
   }
 }
