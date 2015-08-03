@@ -47,6 +47,10 @@ Fraqre: PPNQ@nyrknaqrepbhaglap.tbi
 PNQ:PNAPRY;2098 BYQ ZBHAGNVA EQ/BYQ ZBHAGNVA IVYYNTR QE; UVQ
 (Grkg Zrffntr) 131 YVGGYR EVIRE RFGNGRF QE;OERNGUVAT CEBOYRZF;31Q04;RNEY VPRAUBHE YA
 
+Pbagnpg: Zvxr Craynaq <zvxr.craynaq@pnyqjryy-zrz.bet>
+Fraqre: PNQ@nyrknaqrepbhaglap.tbi
+(Grkg Zrffntr) 1 NAGVBPU PUHEPU EQ;GENSSVP NPPVQRAG;29Q02y;AP 127 UJL;B R GRNTHR EQ
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fgbal Cbvag SQ
 Ybpngvba: Fgbal Cbvag, AP, Havgrq Fgngrf
@@ -999,6 +1003,18 @@ choyvp pynff APNyrknaqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:31Q04",
         "K:RNEY VPRAUBHE YA");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZvxrCraynaq() {
+
+    qbGrfg("G1",
+        "(Grkg Zrffntr) 1 NAGVBPU PUHEPU EQ;GENSSVP NPPVQRAG;29Q02y;AP 127 UJL;B R GRNTHR EQ",
+        "NQQE:1 NAGVBPU PUHEPU EQ",
+        "PNYY:GENSSVP NPPVQRAG",
+        "PBQR:29Q02y",
+        "K:AP 127 UJL & B R GRNTHR EQ");
+
   }
 
   @Grfg
