@@ -11,6 +11,31 @@ public class SCFairfieldCountyParser extends DispatchSouthernParser {
 
   public SCFairfieldCountyParser() {
     super(CITY_LIST, "FAIRFIELD COUNTY", "SC", DSFLAG_LEAD_PLACE | DSFLAG_FOLLOW_CROSS |  DSFLAG_LEAD_UNIT);
+    setupMultiWordStreets(
+        "ASHFORD FERRY",
+        "CAMP WELFARE",
+        "CEDAR LAKES",
+        "CLARK BRIDGE",
+        "COLE TRESTLE",
+        "FLINT HILL",
+        "FOREST HILL",
+        "GLENNS BRIDGE",
+        "GOLF COURSE",
+        "GREENBRIER MOSSYDALE",
+        "JACKSON CREEK",
+        "JANICE REEVES",
+        "KEY HOLE",
+        "LAMPLIGHTER APT",
+        "MAGGIE HARRIS",
+        "MOOD HARRISON",
+        "PEAY RIDGE",
+        "RIDING RIDGE",
+        "ROLLING HILLS",
+        "STATE PARK",
+        "TRADE MILL",
+        "WATEREE ESTATES",
+        "WINNSBORO ARMS"
+    );
   }
 
   private static final Pattern MILE_MARKER_PTN = Pattern.compile("\\d+ MILE MARKER \\d+");
@@ -26,6 +51,18 @@ public class SCFairfieldCountyParser extends DispatchSouthernParser {
     }
     return true;
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    
+    // There are 2 Alexander Cir streets, which dispatch refers to as\
+    // ALEXANDER 1 CIR and ALEXANDER 2 CIR, but Google knows them both 
+    // as ALEXANDER CIR
+    addr = STREET_X_PTN.matcher(addr).replaceAll("$1");
+    
+    return super.adjustMapAddress(addr);
+  }
+  private static final Pattern STREET_X_PTN = Pattern.compile("\\b(ALEXANDER|CASTLEWOOD) *[12]\\b");///
 
   private static final String[] CITY_LIST = new String[]{
       

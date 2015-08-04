@@ -48,6 +48,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   // Flag indicating place name can be in front of and behind the address
   public static final int  DSFLAG_BOTH_PLACE = 0x800;
+  
+  // Flag indicating there is no place name
+  public static final int DSFLAG_NO_PLACE = 0x1000;
 
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("(\\d{8});([-A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
@@ -104,7 +107,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     this.unitId = (flags & DSFLAG_UNIT) != 0;
     this.idOptional = (flags & DSFLAG_ID_OPTIONAL) != 0;
     this.leadPlace = (flags &  (DSFLAG_BOTH_PLACE | DSFLAG_LEAD_PLACE)) != 0;
-    this.trailPlace = (flags & DSFLAG_LEAD_PLACE) == 0;
+    this.trailPlace = (flags & (DSFLAG_LEAD_PLACE | DSFLAG_NO_PLACE)) == 0;
     this.inclCross = (flags & DSFLAG_FOLLOW_CROSS) != 0;
     this.inclCrossNamePhone = (flags & DSFLAG_CROSS_NAME_PHONE) != 0;
     this.impliedApt = (flags & DSFLAG_NO_IMPLIED_APT) == 0;
@@ -336,7 +339,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
       // Otherwise assume it is a name followed by an optional phone number
       else {
-        data.strName = sLeft;
+        data.strName = cleanWirelessCarrier(sLeft);
       }
     }
   }
