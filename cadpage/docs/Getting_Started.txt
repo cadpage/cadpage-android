@@ -5,27 +5,31 @@ users when a call is dispatched.  Cadpage intercepts these messages, display a p
 user asks for it,  display a map showing the incident location that they can use to navigate to the event.  It is really really
 popular amount emergency responders who tend to think it is the best thing since sliced bread.  The actual app UI code is pretty
 simple, and rather small.  The problem is that there is no standard text page format.  Every dispatch center has their own.  90% of
-Cadpage code consists of 800+ message text parsers that have been written to parse different dispatch text messages.   
+Cadpage code consists of 1300+ message text parsers that have been written to parse different dispatch text messages.   
 
 Things you will need to install:
 
-1)Android SDK and Eclipse Bundle http://developer.android.com/sdk/index.html. Simply extract it and it is ready to go.
-1A) Google hasn't been updating their bundle and we have had problems getting it to work.  I have better luck installing
-latest version of Eclipse from http://www.eclipse.org.  Then going through the instructions on setting up an existing IDE at
-http://developer.android.com
+Google recomends you install the new Android Studio, which is based on a proprietary Intellij IDEA IDE.  Feel free to pursue that 
+approach.  But so far, I have been sticking with the older, and open source Eclipse IDE, so the only directions I can supply are
+how to install that.
 
-1B) For Linux on a 64 bit system, make sure you have the ia32libs package installed.  Some of the
+1) The basic Eclipse IDE can be downloaded from http://www.eclipse.org.  You want the Eclipse IDE for Java developers.
+
+2)You need to install the standalone Android SDK tools.  Instructions on doing this can be found at 
+http://developer.android.com/sdk/installing/index.html?pkg=tools.
+
+3) For Linux on a 64 bit system, make sure you have the ia32libs package installed.  Some of the
 ADT binaries are 32 bit binaries that will not run without it.
 
-2)Java JDK, Apache Ant, and Subversion from the Download Manager for Linux systems.  For Windows they are available from
+4) Java JDK, Apache Ant, and Git from the Download Manager for Linux systems.  For Windows they are available from
 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 http://ant.apache.org/bindownload.cgi
-http://subversion.apache.org/packages.html
+https://git-scm.com/downloads.
 
-3) Install git on your system if it is not already installed.  Most Linux distributions
-will include this.  If you have trouble, check out https://git-scm.com/downloads.
+4.5) You need to install the Android ADT plugin for Eclipse.  Instructions can be found at 
+http://developer.android.com/sdk/installing/installing-adt.html
 
-5) Now to finish installing Android SDK.  From Eclipse, Window-> SDK Manager.  Let the window load up, and then select API 18, and download.
+5) Now to finish installing Android SDK.  From Eclipse, Window-> SDK Manager.  Let the window load up, and then select API 22, and download.
 
 6) Next, install the Cadpage source tree
 The Cadpage project is hosted at https://github.com/cadpage/cadpage-android.
