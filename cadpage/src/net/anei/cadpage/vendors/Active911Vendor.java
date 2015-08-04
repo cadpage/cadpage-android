@@ -845,6 +845,7 @@ class Active911Vendor extends Vendor {
       "US/SC/ClarendonCounty",            "SCClarendonCounty",
       "US/SC/DorchesterCounty",           "SCDorchesterCounty",
       "US/SC/GeorgetownCounty",           "SCGeorgetownCounty",
+      "US/SC/FairfieldCounty",            "SCFairfieldCounty",
       "US/SC/HartsvilleFD",               "SCDarlingtonCounty",
       "US/SC/JasperCounty",               "SCJasperCounty",
       "US/SC/LancasterCounty",            "SCLancasterCounty",
