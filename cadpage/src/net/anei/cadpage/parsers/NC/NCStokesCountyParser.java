@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Fayette County, WV
+ *Stokes County, NC
  */
 public class NCStokesCountyParser extends FieldProgramParser {
 

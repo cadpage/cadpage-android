@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.AL;
 import net.anei.cadpage.parsers.dispatch.DispatchA49Parser;
 
 /*
-Anne Arundel County, MD (ADSiCAD)
+Walker County, AL
 */
 
 public class ALWalkerCountyParser extends DispatchA49Parser {

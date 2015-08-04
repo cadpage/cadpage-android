@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.FL;
 import net.anei.cadpage.parsers.dispatch.DispatchSPKParser;
 
 /**
- * Levey County, FL
+ * Levy County, FL
  */
 
 public class FLLevyCountyParser extends DispatchSPKParser {
