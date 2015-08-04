@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.AL;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -21,9 +22,12 @@ public class ALDothanParser extends FieldProgramParser {
     return "Robot.ALERT@dothan.org,777802230001";
   }
   
+  private static final Pattern MARKER = Pattern.compile("CITY OF DOTHAN:? +");
+  
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (body.startsWith("CITY OF DOTHAN ")) body = body.substring(15).trim(); 
+    Matcher match = MARKER.matcher(body);
+    if (match.lookingAt()) body = body.substring(match.end());
     return parseFields(body.split("/"), 4, data);
   }
   
