@@ -635,6 +635,7 @@ class Active911Vendor extends Vendor {
       "US/NJ/EggHarborTownship",          "NJAtlanticCounty",
       "US/NJ/GallowayTownship",           "NJAtlanticCountyC",
       "US/NJ/GloucesterCounty",           "NJGloucesterCountyA",
+      "US/NJ/GloucesterERCAlert",         "NJGloucesterCountyC",
       "US/NJ/HamiltonTownship",           "NJAtlanticCountyB",
       "US/NJ/HunterdonCounty",            "NJHunterdonCounty",
       "US/NJ/LifeCommCad",                "NJMercerCountyA",

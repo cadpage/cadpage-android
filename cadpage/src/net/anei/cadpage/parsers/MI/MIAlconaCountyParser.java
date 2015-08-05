@@ -68,7 +68,7 @@ public class MIAlconaCountyParser extends DispatchB2Parser {
       "MITCHELL TOWNSHIP",
       
       // Iosco County
-      "OSCODA",
+      "OSCODA"
       
   };
   

@@ -5,7 +5,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchProphoenixParser;
 public class NJGloucesterCountyCParser extends DispatchProphoenixParser {
   
   public NJGloucesterCountyCParser() {
-    super("GLOUCESTER COUNTY", "NJ");
+    super(NJGloucesterCountyParser.CITY_CODES, "GLOUCESTER COUNTY", "NJ");
   }
   
   @Override
