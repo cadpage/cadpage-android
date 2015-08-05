@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">08022015</string>
-  <string name="release_version">v1.8.50</string>
+  <string name="release_date">08052015</string>
+  <string name="release_version">v1.8.51</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.51\n
+New Locations:\n
+Walker County, AL\n
+Levy County, FL\n
+Story County, IA\n
+Macoupin County, IL\n
+Isanti County, MN\n
+Cascade County, MT\n
+Stillwater County, MT\n
+Cape May County, NJ\n
+Stokes County, NC\n
+Centerville, OH\n
+Tinker AFB, OK\n
+Petersburg, VA\n
+\n
+Location Fixes:\n
+Dothan, AL\n
+Kern County, CA\n
+\n
 v1.8.50\n
 Location Fixes:\n
 Cattaraugus County, NY\n
@@ -65,14 +84,7 @@ Alexander County, NC\n
 Allegheny County, PA\n
 Cambria County, PA\n
 Bedford County, VA\n
-Pierce County, WA\n
-\n
-V1.8.46\n
-Location Fixes:\n
-Decatur County, GA\n
-Cuyahoga County, OH\n
-Oxford, OH\n
-Oklahoma County, OK
+Pierce County, WA
   </string>
 </resources>
   
