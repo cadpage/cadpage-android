@@ -856,6 +856,7 @@ class Active911Vendor extends Vendor {
       "US/SC/LeeCounty",                  "SCLeeCounty",
       "US/SC/LexingtonCounty",            "SCLexingtonCounty",
       "US/SC/MarionCounty",               "SCMarionCounty",
+      "US/SC/McCormickCounty",            "SCMcCormickCounty",
       "US/SC/NewberryCounty",             "SCNewberryCounty",
       "US/SC/OrangeburgCounty",           "SCOrangeburgCounty",
       "US/SC/PickensCounty",              "SCPickensCounty",
