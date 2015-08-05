@@ -979,6 +979,7 @@ class Active911Vendor extends Vendor {
       "US/VA/WarrenCounty",               "VAWarrenCounty",
       "US/VA/WarrenCounty",               "VAWarrenCounty",
       "US/VT/Hartford",                   "VTHartford",
+      "US/VT/WindsorCounty",              "VTWindsorCounty",
       "US/WA/BentonCounty",               "WABentonCounty",
       "US/WA/CityofFife",                 "WAPierceCountyC",
       "US/WA/CowlitzCounty",              "WACowlitzCounty",
