@@ -218,7 +218,7 @@ class Active911Vendor extends Vendor {
       "US/CA/Hanford",                    "CAHanford",
       "US/CA/Hayward",                    "CAHayward",
       "US/CA/Jpapage",                    "CASanDiegoCountyA",
-      "US/CA/Kern",                       "CAKernCounty",
+      "US/CA/KernCounty",                 "CAKernCounty",
       "US/CA/LakeCounty",                 "CALakeCounty",
       "US/CA/LifecommCellPaging",         "CASanJoaquinCounty",
       "US/CA/MarinCountySheriff",         "CAMarinCounty",

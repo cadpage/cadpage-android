@@ -79,7 +79,7 @@ choyvp pynff TraZhygvJbeqFgerrgYvfg rkgraqf FznegNqqerffCnefre {
 
   
   cevingr fgngvp svany Cnggrea NQQE_CGA = Cnggrea.pbzcvyr(" +\"(NQQE|K):(.*)\".*");
-  cevingr fgngvp svany Cnggrea NQQE_FCYVG_CGA = Cnggrea.pbzcvyr("(?:[/&]|\\oNAQ\\o)", Cnggrea.PNFR_VAFRAFVGVIR);
+  cevingr fgngvp svany Cnggrea NQQE_FCYVG_CGA = Cnggrea.pbzcvyr("(?:[/&,]|\\oNAQ\\o)", Cnggrea.PNFR_VAFRAFVGVIR);
 
   cevingr ibvq cebprffGrfgPynff(OhssrerqErnqre ve, Frg<Fgevat> zJbeqYvfg) guebjf VBRkprcgvba {
     // Ernq guebhtu gur grfg pynff ybbxvat sbe NQQE: yvarf
