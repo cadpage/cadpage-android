@@ -375,6 +375,7 @@ class Active911Vendor extends Vendor {
       "US/KS/ButlerCounty",               "KSButlerCounty",
       "US/KS/CityofElkhart",              "KSMortonCounty",
       "US/KS/CityofEudora",               "KSEudora",
+      "US/KS/CityofManhattan",            "KSRileyCounty",
       "US/KS/CowleyCounty",               "KSCowleyCounty",
       "US/KS/FirePage",                   "KSWichita",
       "US/KS/HarveyCounty",               "KSHarveyCounty",
