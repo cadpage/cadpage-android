@@ -2958,6 +2958,8 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class CodeField extends Field {
     
+    private String connector = null;
+    
     public CodeField() {};
     public CodeField(String pattern) {
       super(pattern);
@@ -2965,10 +2967,19 @@ public class FieldProgramParser extends SmartAddressParser {
     public CodeField(String pattern, boolean hardPattern) {
       super(pattern, hardPattern);
     }
+    
+    @Override
+    public void setQual(String qual) {
+      connector = buildConnector(qual, null);
+    }
 
     @Override
     public void parse(String field, Data data) {
-      data.strCode = field;
+      if (connector != null) {
+        data.strCode = append(data.strCode, connector, field);
+      } else {
+        data.strCode = field;
+      }
     }
     
     @Override
