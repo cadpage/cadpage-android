@@ -405,7 +405,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   protected void onStart() {
     oldLocation = ManagePreferences.location();
     oldTextSize = ManagePreferences.textSize();
-    oldSplitBlank = ManagePreferences.splitBlankIns();
+    oldSplitBlank = ManagePreferences.getDefaultSplitMsgOptions().splitBlankIns();
     super.onStart();
   }
   
@@ -414,7 +414,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     super.onStop();
     String location = ManagePreferences.location();
     String textSize = ManagePreferences.textSize();
-    boolean splitBlank = ManagePreferences.splitBlankIns();
+    boolean splitBlank = ManagePreferences.getDefaultSplitMsgOptions().splitBlankIns();
     if (splitBlank != oldSplitBlank) SmsMessageQueue.getInstance().splitDelimChange();
     if (!location.equals(oldLocation) || ! textSize.equals(oldTextSize)) {
       SmsMessageQueue.getInstance().notifyDataChange();
