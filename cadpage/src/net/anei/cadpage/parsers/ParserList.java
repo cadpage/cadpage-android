@@ -439,6 +439,7 @@ public class ParserList {
               ,"KSNeoshoCounty"                 ,"Neosho County, KS"
               ,"KSRenoCounty"                   ,"Reno County, KS"
               ,"KSRiceCounty"                   ,"Rice County, KS"
+              ,"KSRileyCounty"                  ,"Riley County, KS"
               ,"KSSedgwickCounty"               ,"Sedgwick County, KS"
               ,"KSWichita"                      ,"Wichita, KS"
           ),
@@ -547,6 +548,7 @@ public class ParserList {
               ,"MAYarmouth"                     ,"Yarmouth, MA"
           ),
           new ParserCategory("Michigan"
+              ,"MIAlconaCounty"                 ,"Alcona County, MI"
               ,"MIAlleganCounty"                ,"Allegan County, MI"
               ,"MIAlpenaCounty"                 ,"Alpena County, MI"
               ,"MIAntrimCounty"                 ,"Antrim County, MI"
@@ -878,6 +880,7 @@ public class ParserList {
               ,"NCVanceCounty"                  ,"Vance County, NC"  
               ,"NCWakeCounty"                   ,"Wake County, NC"
               ,"NCWarrenCounty"                 ,"Warren County, NC"
+              ,"NCWashingtonCounty"             ,"Washington County, NC"
               ,"NCWataugaCounty"                ,"Watauga County, NC"
               ,"NCWayneCounty"                  ,"Wayne County, NC"
               ,"NCWilkesCounty"                 ,"Wilkes County, NC"
@@ -1075,6 +1078,7 @@ public class ParserList {
               ,"SCClarendonCounty"              ,"Clarendon County, SC"
               ,"SCDarlingtonCounty"             ,"Darlington County, SC"
               ,"SCDorchesterCounty"             ,"Dorchester County, SC"
+              ,"SCFairfieldCounty"              ,"Fairfield County, SC"
               ,"SCFlorenceCounty"               ,"Florence County, SC"
               ,"SCGeorgetownCounty"             ,"Georgetown County, SC"
               ,"SCGreenvilleCounty"             ,"Greenville County, SC"
@@ -1083,6 +1087,7 @@ public class ParserList {
               ,"SCLancasterCounty"              ,"Lancaster County, SC"
               ,"SCLexingtonCounty"              ,"Lexington County, SC"
               ,"SCMarionCounty"                 ,"Marion County, SC"
+              ,"SCMcCormickCounty"              ,"McCormick County, SC"
               ,"SCNewberryCounty"               ,"Newberry County, SC"
               ,"SCOconeeCounty"                 ,"Oconee County, SC"
               ,"SCOrangeburgCounty"             ,"Orangeburg County, SC"
@@ -1210,6 +1215,7 @@ public class ParserList {
           ),
           new ParserCategory("Vermont"
              ,"VTHartford"                       ,"Hartford, VT"
+             ,"VTWindsorCounty"                  ,"Windsor County, VT"
           ),
           new ParserCategory("Virginia"
               ,"VAAccomackCounty"               ,"Accomack County, VA"

@@ -122,8 +122,8 @@ choyvp pynff PBYnevzrePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "(PNQ Cntr) TNF BQRE,438 EBPXEVQTR EQ, FZRYY BS TNF VAFVQR. RCCQ/RC - Sebz R003 07/22/2015 19:58:27",
-        "PNYY:TNF BQRE",
-        "NQQE:438 EBPXEVQTR EQ",
+        "PNYY:TNF BQRE", 
+        "NQQE:438 EBPXEVQTR EQ", //ebpxevqtr fgnegf ng 1000.
         "VASB:FZRYY BS TNF VAFVQR.",
         "HAVG:RCCQ/RC",
         "QNGR:07/22/2015",
