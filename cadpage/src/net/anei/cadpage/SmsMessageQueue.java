@@ -83,15 +83,19 @@ public class SmsMessageQueue implements Serializable {
     }
   }
   
-  
   /**
    * Rebuild parse information (if necessary) after the insert blanks between
    * spit message option has changed
+   * @param changeCode Level of split message option change<br>
+   * 0 - No Change<br>
+   * 1 - keep lead break option change<br>
+   * 2 - insert blank option change<br>
+   * 3 - merge message option change
    */
-  public void splitDelimChange() {
+  public void splitOptionChange(int changeCode) {
     boolean change = false;
     for (SmsMmsMessage msg : queue) {
-      if (msg.splitDelimChange()) change = true;
+      if (msg.splitOptionChange(changeCode)) change = true;
     }
     if (change) notifyDataChange();
   }

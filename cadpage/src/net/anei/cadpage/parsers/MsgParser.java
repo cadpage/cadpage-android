@@ -356,8 +356,7 @@ public abstract class MsgParser {
    * Determine if message is a valid CAD message for this parser, and parse
    * all information from the message if it is
    * @param msg message to be parsed
-   * @overrideFilter true if parser filters should be overridden
-   * @genAlert true if general alerts should be accepted
+   * @param parseFlags parser flags
    * @return true if this message contain the text phrases that indicate it is 
    * a valid page message
    */
@@ -368,28 +367,51 @@ public abstract class MsgParser {
     // Save parse flags for future reference
     this.parseFlags = parseFlags;
     
-    // See what the parseMsg method thinks of this
-    Data data = parseMsg(msg, parseFlags);
+    boolean parseGenAlert = (parseFlags & PARSE_FLG_GEN_ALERT) != 0;
+    boolean parseRunReport = parseGenAlert || (parseFlags & PARSE_FLG_RUN_REPORT) != 0;
     
-    // If all parsers failed, return false
-    if (data == null) return false;
-    
-    // The people running the show at Prince William County in VA are absolutely
-    // totally adamant that unstructured information never ever ever be visible
-    // to the end users.  To the point where they will refuse to send dispatch
-    // information to services who will not guarantee this.  So we will do
-    // our part to go with the flow....
-    if (msg.getFromAddress().contains("pwcgov.org")) {
-      data.strSupp = "";
-      if (data.msgType == MsgType.GEN_ALERT || data.msgType == MsgType.RUN_REPORT ||
-          data.strCall.equals("GENERAL ALERT") || data.strCall.equals("RUN REPORT")) {
-        data.strPlace = "";
+    // If we have been called before and returned a parsed result
+    // we do not have to do all of that work again.
+    MsgInfo info = msg.getInfo();
+    if (info == null) {
+      
+      // See what the parseMsg method thinks of this
+      // If it does not like the results, return failure
+      Data data = parseMsg(msg, parseFlags);
+      if (data == null) return false;
+      
+      // The people running the show at Prince William County in VA are absolutely
+      // totally adamant that unstructured information never ever ever be visible
+      // to the end users.  To the point where they will refuse to send dispatch
+      // information to services who will not guarantee this.  So we will do
+      // our part to go with the flow....
+      if (msg.getFromAddress().contains("pwcgov.org")) {
+        data.strSupp = "";
+        if (data.strCall.equals("GENERAL ALERT") || data.strCall.equals("RUN REPORT")) {
+          data.strPlace = "";
+        }
       }
+      
+      // Save parser code and information object in message so we won't have to
+      // go through all of this again
+      info = new MsgInfo(data);
+      msg.setInfo(info);
     }
     
-    // Save parser code and information object in message so we won't have to
-    // go through all of this again
-    msg.setInfo(new MsgInfo(data));
+    // Generally, if the parser returned some results, we are happy.  One exception
+    // is when individual parser determine a message should be a general alert because
+    // it isn't a real CAD page, but it has enough identifying markers to positively
+    // identify it as coming from Dispatch.  If the user didn't want to process
+    // general alerts, and we aren't running in a test class, change this to
+    // an outright failure
+    if ((parseFlags & PARSE_FLG_TEST_MODE) == 0) {
+      if (!parseGenAlert && 
+          (info.getMsgType() == MsgType.GEN_ALERT || 
+           info.getCall().equals("GENERAL ALERT"))) return false;
+      if (!parseRunReport && 
+          (info.getMsgType() == MsgType.RUN_REPORT || info.getCall().equals("RUN REPORT"))) return false;
+    }
+
     return true;
   }
 
@@ -411,6 +433,7 @@ public abstract class MsgParser {
    * @return new message information object if successful, false otherwise
    */
   protected Data parseMsg(Message msg, int parseFlags, String filter) {
+    
     // If parser filter is not being overridden, and the message address does not
     // match the parser filter, message should be rejected
     boolean overrideFilter = (parseFlags & PARSE_FLG_SKIP_FILTER) != 0;
@@ -420,38 +443,19 @@ public abstract class MsgParser {
     // We have to do this again because the GroupBestParser will call 
     // this method is sub parsers without calling the initial inPageMsg() method
     this.parseFlags = parseFlags;
-    boolean parseGenAlert = (parseFlags & PARSE_FLG_GEN_ALERT) != 0;
-    boolean parseRunReport = parseGenAlert || (parseFlags & PARSE_FLG_RUN_REPORT) != 0;
     
     // Decode the call page and place the data in the database
     String strSubject = msg.getSubject();
     String strMessage = htmlFilter(msg.getMessageBody());
     Data data = new Data(this);
     if (strMessage == null) return data;
-    if (parseHtmlMsg(strSubject, strMessage, data)) {
+    if (parseHtmlMsg(strSubject, strMessage, data)) return data;
       
-      // Generally, if the parse was happy with the call, we are happy.  One exception
-      // is when individual parser determine a message should be a general alert because
-      // it isn't a real CAD page, but it has enough identifying markers to positively
-      // identify it as coming from Dispatch.  If the user didn't want to process
-      // general alerts, and we aren't running in a test class, change this to
-      // an outright failure
-      if ((parseFlags & PARSE_FLG_TEST_MODE) == 0) {
-        if (!parseGenAlert && 
-            (data.msgType == MsgType.GEN_ALERT || data.strCall.equals("GENERAL ALERT"))) return null;
-        if (!parseRunReport && 
-            (data.msgType == MsgType.RUN_REPORT || data.strCall.equals("RUN REPORT"))) return null;
-      }
-      return data;
-    }
-    
-    // If this isn't a valid CAD page, see if we should treat it as a general alert
+    // If this isn't a valid CAD page, but has been positively identified as a dispatch
+    // message, parse as a general alert.  If General alerts are not desired, they will
+    // be filtered out one level up
     // If not then return failure
-    if (parseGenAlert && isPositiveId()) {
-      return ManageParsers.getInstance().getAlertParser().parseMsg(msg, parseFlags);
-    }
-    
-    // Otherwise return null
+    if (isPositiveId()) return ManageParsers.getInstance().getAlertParser().parseMsg(msg, parseFlags);
     return null;
   }
 

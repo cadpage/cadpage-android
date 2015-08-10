@@ -75,6 +75,8 @@ public class SmsMmsMessage implements Serializable {
   
   // Dead member replaced by vendor
   private String sponsor = null;
+  
+  // C2DM page information
   private String ackReq = null;
   private String ackURL = null;
   private boolean ackNeeded = false;
@@ -96,7 +98,34 @@ public class SmsMmsMessage implements Serializable {
   private transient Message parseInfo = null;
   
   private transient SplitMsgOptions splitMsgOptions = null;
-  
+
+  /**
+   * Copy constructor
+   * Copies everything but message content which has to be handled separately
+   * @param msg source message
+   */
+  private SmsMmsMessage(SmsMmsMessage msg) {
+    this.fromAddress = msg.fromAddress;
+    this.timestamp = msg.timestamp;
+    this.messageType = msg.messageType;
+    this.messageClass = msg.messageClass;
+    this.incidentDate = msg.incidentDate;
+    this.location = msg.location;
+    this.contentLoc = msg.contentLoc;
+    this.mmsMsgId = msg.mmsMsgId;
+    this.subject = msg.subject;
+    this.reqLocation = msg.reqLocation;
+    this.vendorCode = msg.vendorCode;
+    this.missingParsers = msg.missingParsers;
+    this.ackReq = msg.ackReq;
+    this.infoURL = msg.infoURL;
+    this.callId = msg.callId;
+    this.serverTime = msg.serverTime;
+    this.responseMenu = msg.responseMenu;
+    this.sentTime = msg.sentTime;
+    this.splitMsgOptions = msg.splitMsgOptions;
+  }
+ 
   /**
    * @return the split message configuration options to be used for handling
    * this message.
@@ -379,7 +408,7 @@ public class SmsMmsMessage implements Serializable {
     this.timestamp = timestamp;
     this.messageType = messageType;
     this.location = "GeneralAlert";
-    this.parseInfo = bldParseInfo(false, subject, messageBody, false);
+    this.parseInfo = bldParseInfo(false, subject, messageBody);
   }
 
   /**
@@ -403,11 +432,7 @@ public class SmsMmsMessage implements Serializable {
    * @param list list of text messages
    */
   public SmsMmsMessage(SmsMmsMessage firstMsg, List<SmsMmsMessage> list) {
-    this.fromAddress = firstMsg.fromAddress;
-    this.timestamp = firstMsg.timestamp;
-    this.messageType = firstMsg.messageType;
-    this.messageClass = firstMsg.messageClass;
-    this.sentTime = firstMsg.sentTime;
+    this(firstMsg);
 
     for (SmsMmsMessage msg : list) {
       if (msg != null) {
@@ -451,54 +476,55 @@ public class SmsMmsMessage implements Serializable {
   
   /**
    * Rebuild parse information (if necessary) after the insert blanks between
-   * spit message option has changed
+   * split message option has changed
+   * @param changeCode Level of split message option change<br>
+   * 0 - No Change<br>
+   * 1 - keep lead break option change<br>
+   * 2 - insert blank option change<br>
+   * 3 - merge message option change
    * @return true if message parse information may have changed
    */
-  public boolean splitDelimChange() {
+  public boolean splitOptionChange(int changeCode) {
     
-    // If this isn't a split CAD page, then nothing needs to be done
-    if (extraMsgBody == null) return false;
+    // If nothing changed, nothing needs to be done
     
-    // Otherwise rebuild the parse message body
+    if (changeCode == 0) return false;
+    
+    // if this is a merged alert, we need to reparse it
+    // Otherwise ask the Message class if call needs to be reparsed
+    if (extraMsgBody == null) {
+      if (!Message.splitMsgOptionChange(changeCode, messageBody)) return false;
+    }
+    
+    // Otherwise rebuild the reparse parse message body
     buildParseInfo();
     return true;
   }
 
   private void buildParseInfo() {
     SplitMsgOptions options = getSplitMsgOptions();
-    boolean keepLeadBreak = options.splitKeepLeadBreak();
     parseInfo = bldParseInfo();
     if (extraMsgBody != null) {
       String msgSubject = parseInfo.getSubject();
       String parseMsgBody = parseInfo.getMessageBody();
       String delim = (options.splitBlankIns() ? " " : "");
       for (String msgBody : extraMsgBody) {
-        Message pInfo = bldParseInfo(true, subject, msgBody, keepLeadBreak);
+        Message pInfo = bldParseInfo(true, subject, msgBody);
         parseMsgBody = parseMsgBody + delim + pInfo.getMessageBody();
       }
-      parseInfo = bldParseInfo(false, msgSubject, parseMsgBody, false);
+      parseInfo = bldParseInfo(false, msgSubject, parseMsgBody);
     }
   }
   
   private Message bldParseInfo() {
-    return bldParseInfo(true, subject, messageBody, false);
+    return bldParseInfo(true, subject, messageBody);
   }
   
-  private Message bldParseInfo(boolean preParse, String msgSubject, String body, boolean keepLeadBreak) {
+  private Message bldParseInfo(boolean preParse, String msgSubject, String body) {
     SplitMsgOptions options = getSplitMsgOptions();
     boolean insBlank = options.splitBlankIns();
-    return new Message(preParse, fromAddress, msgSubject, body, insBlank, keepLeadBreak){
-
-      @Override
-      protected void setLocationCode(String location) {
-        SmsMmsMessage.this.location = location;
-      }
-      
-      @Override
-      public String getLocationCode() {
-        return SmsMmsMessage.this.location;
-      }
-    };
+    boolean keepLeadBreak = options.splitKeepLeadBreak();
+    return new Message(preParse, fromAddress, msgSubject, body, insBlank, keepLeadBreak);
   }
 
   public boolean isPageMsg() {
@@ -506,9 +532,22 @@ public class SmsMmsMessage implements Serializable {
   }
   
   /**
+   * Perform a standalone trial parse of a particular message text
+   * and return the result
+   * @param body text message body to be parsed
+   * @param flags parse flags
+   * @return Parsed information object
+   */
+  public Message trialParse(String body, int flags) {
+    SmsMmsMessage tmpMsg = new SmsMmsMessage(this);
+    tmpMsg.messageBody = body;
+    tmpMsg.isPageMsg(flags);
+    return tmpMsg.parseInfo;
+  }
+  
+  /**
    * Try to parse this message as a CAD page
-   * @param force true to force this message to be processed if at all possible.  
-   * This should be set for C2DM message where there is not alternative to Cadpage
+   * @param flags parse falgs
    * @return true if this has been identified and parsed as either a CAD page
    * or a general alert
    */

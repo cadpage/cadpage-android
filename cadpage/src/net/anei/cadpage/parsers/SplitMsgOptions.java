@@ -42,4 +42,10 @@ public interface SplitMsgOptions {
    * should be combined
    */
   public boolean revMsgOrder();
+  
+  /**
+   * @return true if message order is not reliable, message parts could come in
+   * any order
+   */
+  public boolean mixedMsgOrder();
 }

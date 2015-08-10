@@ -68,6 +68,7 @@ public class Message {
   
   public void setMessageBody(String body) {
     parseMessageBody = body;
+    info = null;
   }
   
   public int getMsgIndex() {
@@ -77,23 +78,14 @@ public class Message {
   public int getMsgCount() {
     return msgCount;
   }
-
-  /**
-   * Called by the MsgParser object parsing this message to identify the
-   * location code associated with that parser.  It will usually be the same
-   * as the code passed to ManageParsers.getParser(String location) but may
-   * differ if the original parser is a group parser that passes the request
-   * to multiple child parsers to do the actual work.
-   * @param location location code of actual parser used
-   */
-  protected void setLocationCode(String location) {}
   
   /**
    * Called by test code to retrieve value set as the location code
    * @return location code saved by setLocationCode
    */
   protected String getLocationCode() {
-    return null;
+    if (info == null) return null;
+    return info.getParserCode();
   }
   
   // Patterns used to perform front end descrambling
@@ -508,7 +500,7 @@ public class Message {
    * @param body message body
    * @return adjusted message body
    */
-  public String finish(String body) {
+  private String finish(String body) {
 
     body = cleanParenSubject(body);
     
@@ -604,7 +596,6 @@ public class Message {
    */
   public void setInfo(MsgInfo msgInfo) {
     this.info = msgInfo;
-    setLocationCode(info.getParserCode());
   }
 
   /**
@@ -651,5 +642,28 @@ public class Message {
       message = sb.toString();
     }
     return message;
+  }
+  
+  /**
+   * Determine if message needs to be reparsed after a split message option change
+   * @param changeCode Level of split message option change<br>
+   * 0 - No Change<br>
+   * 1 - keep lead break option change<br>
+   * 2 - insert blank option change<br>
+   * 3 - merge message option change
+   * @param body original message body text
+   * @return true if message needs to be reformatted
+   */
+  public static boolean splitMsgOptionChange(int changeCode, String body) {
+    if (changeCode == 0) return false;
+    if (changeCode >= 3) return false;
+    String[] lines = body.split("\n");
+    if (lines.length == 1) return false;
+    if (changeCode == 1) return true;
+    for (String line : lines) {
+      line =  line.trim();
+      if (CONT_PTN.matcher(line).matches()) return true;
+    }
+    return false;
   }
 }

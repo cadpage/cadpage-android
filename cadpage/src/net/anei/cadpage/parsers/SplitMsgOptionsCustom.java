@@ -7,15 +7,18 @@ public class SplitMsgOptionsCustom implements SplitMsgOptions {
   private boolean splitChkSender;
   private boolean splitKeepLeadBreak;
   private boolean revMsgOrder;
+  private boolean mixedMsgOrder;
+  
   
   public SplitMsgOptionsCustom(int splitMinMsg, boolean splitBlankIns, 
                                 boolean splitChkSender, boolean splitKeepLeadBreak, 
-                                boolean revMsgOrder) {
+                                boolean revMsgOrder, boolean mixedMsgOrder) {
     this.splitMinMsg = splitMinMsg;
     this.splitBlankIns = splitBlankIns;
     this.splitChkSender = splitChkSender;
     this.splitKeepLeadBreak = splitKeepLeadBreak;
     this.revMsgOrder = revMsgOrder;
+    this.mixedMsgOrder = mixedMsgOrder; 
   }
 
   @Override
@@ -46,5 +49,10 @@ public class SplitMsgOptionsCustom implements SplitMsgOptions {
   @Override
   public boolean revMsgOrder() {
     return revMsgOrder;
+  }
+
+  @Override
+  public boolean mixedMsgOrder() {
+    return mixedMsgOrder;
   }
 }

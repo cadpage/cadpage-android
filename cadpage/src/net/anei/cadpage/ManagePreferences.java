@@ -350,6 +350,11 @@ public class ManagePreferences {
     public boolean revMsgOrder() {
       return prefs.getBoolean(R.string.pref_rev_msg_order_key);
     }
+
+    @Override
+    public boolean mixedMsgOrder() {
+      return false;
+    }
   }
   
   public static boolean suppressDupMsg() {

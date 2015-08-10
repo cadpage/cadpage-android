@@ -187,7 +187,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       grfg = grfg.fhofgevat(cg+1).gevz();
     }
     
-    GrfgZrffntr zft = arj GrfgZrffntr(gehr, sebzNqqerff, fhowrpg, grfg, vfFcyvgVafOynax());
+    Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, fhowrpg, grfg, vfFcyvgVafOynax(), snyfr);
     nffregGehr(gvgyr + ":cnefr", cnefre.vfCntrZft(zft, CNEFR_SYNTF));
     qbZftGrfg(gvgyr, puxZncNqqe, zft, erfhyg);
   }
@@ -318,25 +318,6 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     vs (pbqr != ahyy && pbqr.rdhnyf(pnyy)) erghea gehr;
     
     erghea snyfr;
-  }
-
-  cevingr fgngvp pynff GrfgZrffntr rkgraqf Zrffntr {
-
-    cevingr Fgevat ybpngvba = ahyy;
-    
-    choyvp GrfgZrffntr(obbyrna cerCnefr, Fgevat sebzNqqerff, Fgevat fhowrpg, Fgevat obql, obbyrna vafOynax) {
-      fhcre(cerCnefr, sebzNqqerff, fhowrpg, obql, vafOynax, snyfr);
-    }
-
-    @Bireevqr
-    cebgrpgrq ibvq frgYbpngvbaPbqr(Fgevat ybpngvba) {
-      guvf.ybpngvba = ybpngvba;
-    }
-
-    @Bireevqr
-    choyvp Fgevat trgYbpngvbaPbqr() {
-      erghea ybpngvba;
-    }
   }
   
   /**

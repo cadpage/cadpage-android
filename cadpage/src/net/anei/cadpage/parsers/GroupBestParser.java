@@ -128,7 +128,7 @@ public class GroupBestParser extends GroupBaseParser {
           // We want to seriously ding any result produced by any of the "General" parsers
           // including General Alert.  GENERAL ALERT type messages produced by location
           // parsers do not suffer this penalty
-          int newScore = tmp.score();
+          int newScore = new MsgInfo(tmp).score();
           if (!parser.getParserCode().startsWith("General")) newScore += 100000;
           if (newScore > bestScore) {
             bestData = tmp;

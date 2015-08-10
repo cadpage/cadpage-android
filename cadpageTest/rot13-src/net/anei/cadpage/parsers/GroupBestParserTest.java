@@ -400,19 +400,9 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   // Grfg zrffntr gung ergnvaf ybpngvba pbqr
   cevingr fgngvp pynff GrfgZrffntr rkgraqf Zrffntr {
-    cevingr Fgevat ybpngvba;
 
     choyvp GrfgZrffntr(Fgevat nqqerff, Fgevat obql) {
       fhcre(snyfr, nqqerff, "", obql, gehr, snyfr);
-    }
-    
-    @Bireevqr
-    cebgrpgrq ibvq frgYbpngvbaPbqr(Fgevat ybpngvba) {
-      guvf.ybpngvba = ybpngvba;
-    }
-    
-    choyvp Fgevat trgYbpngvbaPbqr() {
-      erghea ybpngvba;
     }
   }
   

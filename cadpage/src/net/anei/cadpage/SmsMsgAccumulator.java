@@ -136,7 +136,7 @@ public class SmsMsgAccumulator {
       // this is a real CAD page until the first part is received, so we have to
       // treat everything as a potential CAD page.
       if (info.getMsgType() == MsgInfo.MsgType.GEN_ALERT &&
-          options.revMsgOrder()) return true;
+          (options.revMsgOrder() || options.mixedMsgOrder())) return true;
     }
     
     // Otherwise the answer is no
@@ -228,6 +228,13 @@ public class SmsMsgAccumulator {
       
       // If req msg count is differen't don't even consider it
       if (newMsg.getMsgCount() != count) return false;
+      
+      // Ditto if message has a different direct page parser code
+      // which could potentially result in a merge options mismatch
+      String newLocation = newMsg.getLocation();
+      String oldLocation = firstMessage.getLocation();
+      if ((newLocation == null) ^ (oldLocation == null)) return false;
+      if (newLocation != null && !newLocation.equals(oldLocation)) return false;
       
       // This message must have been sent within 30 seconds of last message
       if (newMsg.getSentTime() - lastMessage.getSentTime() > 30000) return false;

@@ -8,6 +8,7 @@ import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.ParserList;
 import net.anei.cadpage.parsers.ParserList.ParserCategory;
 import net.anei.cadpage.parsers.ParserList.ParserEntry;
+import net.anei.cadpage.parsers.SplitMsgOptions;
 import net.anei.cadpage.preferences.DialogPreference;
 import net.anei.cadpage.preferences.EditTextPreference;
 import net.anei.cadpage.preferences.LocationCheckBoxPreference;
@@ -399,23 +400,47 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   private String oldLocation = null;
   private String oldTextSize =null;
   private boolean oldSplitBlank = false;
+  private boolean oldSplitKeepLeadBreak = false;
+  private boolean oldRevMsgOrder = false;
+  private boolean oldMixedMsgOrder = false;
   
   
   @Override
   protected void onStart() {
+    
+    // Save the setting that might be important if they change
     oldLocation = ManagePreferences.location();
     oldTextSize = ManagePreferences.textSize();
-    oldSplitBlank = ManagePreferences.getDefaultSplitMsgOptions().splitBlankIns();
+    
+    SplitMsgOptions options = ManagePreferences.getDefaultSplitMsgOptions();
+    oldSplitBlank = options.splitBlankIns();
+    oldSplitKeepLeadBreak = options.splitKeepLeadBreak();
+    oldRevMsgOrder = options.revMsgOrder();
+    oldMixedMsgOrder = options.mixedMsgOrder();
+    
     super.onStart();
   }
   
   @Override
   protected void onStop() {
     super.onStop();
+
+    // If any of the split message options have changed, reparse any possibly affected calls
+    SplitMsgOptions options = ManagePreferences.getDefaultSplitMsgOptions();
+    boolean splitBlank = options.splitBlankIns();
+    boolean splitKeepLeadBreak = options.splitKeepLeadBreak();
+    boolean revMsgOrder = options.revMsgOrder();
+    boolean mixedMsgOrder = options.mixedMsgOrder();
+    int changeCode;
+    if (revMsgOrder != oldRevMsgOrder || mixedMsgOrder != oldMixedMsgOrder) changeCode = 3;
+    else if (splitBlank != oldSplitBlank) changeCode = 2; 
+    else if (splitKeepLeadBreak != oldSplitKeepLeadBreak) changeCode = 1;
+    else changeCode = 0;
+    if (changeCode > 0) SmsMessageQueue.getInstance().splitOptionChange(changeCode);
+
+    
     String location = ManagePreferences.location();
     String textSize = ManagePreferences.textSize();
-    boolean splitBlank = ManagePreferences.getDefaultSplitMsgOptions().splitBlankIns();
-    if (splitBlank != oldSplitBlank) SmsMessageQueue.getInstance().splitDelimChange();
     if (!location.equals(oldLocation) || ! textSize.equals(oldTextSize)) {
       SmsMessageQueue.getInstance().notifyDataChange();
     }

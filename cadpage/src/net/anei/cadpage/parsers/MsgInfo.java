@@ -226,42 +226,6 @@ public class MsgInfo {
       strSupp = message;
       return true;
     }
-    
-
-    /**
-     * @return relative score that can be used to pick out the better result
-     * from multiple possible parsings
-     */
-    public int score() {
-      int result = 0;
-      if (msgType == MsgType.GEN_ALERT || strCall.equals("GENERAL ALERT")) result += 0;
-      else if (msgType == MsgType.RUN_REPORT || strCall.equals("RUN REPORT")) result += 20000;
-      else if (strCall.length() == 0 || strCall.equals("ALERT")) result += 40000;
-      else result += 42000;
-      if (strAddress.length() > 0) result += 10000;
-      if (strCity.length() > 0) result += 100;
-      if (strCross.length() > 0) result += 100;
-      if (strApt.length() > 0) result += 100;
-      if (strBox.length() > 0) result += 10;
-      if (strUnit.length() > 0) result += 10;
-      if (strState.length() > 0) result += 10;
-      if (strMap.length() > 0) result += 10;
-      if (strPlace.length() > 0) result += 10;
-      if (strCallId.length() > 0) result += 10;
-      if (strName.length() > 0) result += 10;
-      if (strPhone.length() > 0) result += 10;
-      if (strSupp.length() > 0) result += 1;
-      if (strCode.length() > 0) result += 10;
-      if (strSource.length() > 0) result += 10;
-      if (strState.length() > 0) result += 10;
-      if (strPriority.length() > 0) result += 10;
-      if (strChannel.length() > 0) result += 10;
-      if (strGPSLoc.length() > 0) result += 10;
-      if (strDate.length() > 0) result += 10;
-      if (strTime.length() > 0) result += 10;
-      if (strInfoURL.length() > 0) result += 5;
-      return result;
-    }
   }
 
   /**
@@ -1137,7 +1101,41 @@ public class MsgInfo {
   public MsgParser getParser() {
     return parser;
   }
-  
+
+  /**
+   * @return relative score that can be used to pick out the better result
+   * from multiple possible parsings
+   */
+  public int score() {
+    int result = 0;
+    if (msgType == MsgType.GEN_ALERT || strCall.equals("GENERAL ALERT")) result += 0;
+    else if (msgType == MsgType.RUN_REPORT || strCall.equals("RUN REPORT")) result += 20000;
+    else if (strCall.length() == 0 || strCall.equals("ALERT")) result += 40000;
+    else result += 42000;
+    if (strAddress.length() > 0) result += 10000;
+    if (strCity.length() > 0) result += 100;
+    if (strCross.length() > 0) result += 100;
+    if (strApt.length() > 0) result += 100;
+    if (strBox.length() > 0) result += 10;
+    if (strUnit.length() > 0) result += 10;
+    if (strState.length() > 0) result += 10;
+    if (strMap.length() > 0) result += 10;
+    if (strPlace.length() > 0) result += 10;
+    if (strCallId.length() > 0) result += 10;
+    if (strName.length() > 0) result += 10;
+    if (strPhone.length() > 0) result += 10;
+    if (strSupp.length() > 0) result += 1;
+    if (strCode.length() > 0) result += 10;
+    if (strSource.length() > 0) result += 10;
+    if (strState.length() > 0) result += 10;
+    if (strPriority.length() > 0) result += 10;
+    if (strChannel.length() > 0) result += 10;
+    if (strGPSLoc.length() > 0) result += 10;
+    if (strDate.length() > 0) result += 10;
+    if (strTime.length() > 0) result += 10;
+    if (strInfoURL.length() > 0) result += 5;
+    return result;
+  }
 
   /**
    * Append message information to support message under construction

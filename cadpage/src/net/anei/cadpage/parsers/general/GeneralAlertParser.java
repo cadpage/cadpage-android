@@ -4,6 +4,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class GeneralAlertParser extends MsgParser {
   
@@ -19,17 +20,14 @@ public class GeneralAlertParser extends MsgParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
 
-    // Everything goes in the place name.  Odd choice, but it comes out 
-    // looking right without a prefix keyword.  if we put the entire text
-    // in the call field it won't wrap more than two lines.
-    data.strCall = "GENERAL ALERT";
+    data.msgType = MsgType.GEN_ALERT;
     for (Pattern ptn : EXTRA_BLANKS) {
       body = ptn.matcher(body).replaceAll("$1");
     }
     if (subject.length() > 0) {
       body = "(" + subject + ") " + body;
     }
-    data.strPlace = body;
+    data.strSupp = body;
     return true;
   }
 }
