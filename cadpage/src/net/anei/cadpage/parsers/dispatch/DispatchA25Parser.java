@@ -169,8 +169,8 @@ public class DispatchA25Parser extends FieldProgramParser {
       Parser p = new Parser(field);
       data.strCity = p.getLastOptional(',');
       if (data.strCity.length() == 0) data.strCity = p.getLastOptional(" - ");
-      String addr = p.getLast(" - ");
-      data.strPlace = p.get();
+      data.strPlace = p.getOptional(" - ");
+      String addr = p.get();
       String apt = "";
       if (addr.endsWith(")")) {
         int pt = addr.indexOf('(');
