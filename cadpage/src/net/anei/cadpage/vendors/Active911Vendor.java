@@ -313,6 +313,7 @@ class Active911Vendor extends Vendor {
       "US/FL/RegionalPsi",                "FLBrowardCounty",
       "US/FL/SeminoleCounty",             "FLSeminoleCounty",
       "US/GA/BarrowCounty",               "GABarrowCounty",
+      "US/GA/CamdenCounty",               "GACamdenCountyA",
       "US/GA/CarrollCounty",              "GACarrollCounty",
       "US/GA/EffinghamCounty",            "GAEffinghamCounty",
       "US/GA/FanninCounty",               "GAFanninCounty",
