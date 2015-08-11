@@ -387,6 +387,7 @@ class Active911Vendor extends Vendor {
       "US/KS/MarionCounty",               "KSMarionCounty",
       "US/KS/MontgomeryCounty",           "KSMontgomeryCounty",
       "US/KS/NeoshoCounty",               "KSNeoshoCounty",
+      "US/KS/PottawatomieSheriff",        "KSPottawatomieCounty",
       "US/KS/Renolec",                    "KSRenoCounty",
       "US/KS/RiceCounty",                 "KSRiceCounty",
       "US/KS/SedgwickCounty",             "KSSedgwickCounty",
