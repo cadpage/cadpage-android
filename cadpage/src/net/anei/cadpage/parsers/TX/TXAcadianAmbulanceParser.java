@@ -26,6 +26,7 @@ public class TXAcadianAmbulanceParser extends XXAcadianAmbulanceParser {
 
   @Override
   public boolean parseMsg(String body, Data data) {
+    body = stripFieldStart(body, "/ ");
     body = stripFieldStart(body, "AUS CAD SMTP Paging / ");
     return super.parseMsg(body, data);
   }

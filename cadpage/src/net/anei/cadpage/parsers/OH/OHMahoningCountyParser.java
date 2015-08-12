@@ -28,7 +28,7 @@ public class OHMahoningCountyParser extends DispatchEmergitechParser {
 
   @Override
   public String getFilter() {
-    return "anoble@ci.canfield.oh.us";
+    return "anoble@ci.canfield.oh.us,canfieldpd@ci.canfield.oh.us";
   }
   
   
