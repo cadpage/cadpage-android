@@ -706,6 +706,10 @@ public abstract class MsgParser {
     
     return locName;
   }
+  
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return null;
+  }
  
  /** 
   * General purpose parser for formats where there is not a clear delimiter

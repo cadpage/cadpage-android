@@ -5,6 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
+ZpPbezvpx Pbhagl, FP
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: ZpPbezvpx Pbhagl Rzretrapl Freivprf
@@ -43,8 +44,6 @@ Fraqre: qvfcngpu@911rznvy.bet
 (R911) QBZRFGVP CEBOYRZ\a135 FGNT EQ
 (R911) NPPVQRAG\aUJL 28 F
 (R911) PBEBANEL CEBOYRZ\a685 UJL 283, CYHZ OENAPU
-(R911 Qbphzrag: 7035) Gur nggnpurq qbphzrag pbagnvaf vasbezngvba sbe gur sbyybjvat vapvqragf: \a\a7035\a\aCyrnfr frr nggnpurq qbphzrag.
-(R911 Qbphzrag: 7032) Gur nggnpurq qbphzrag pbagnvaf vasbezngvba sbe gur sbyybjvat vapvqragf: \a\a7032\a\aCyrnfr frr nggnpurq qbphzrag.
 (R911) CBVFVBAVAT\a308 JRYYVATGBA PG, ZPPBEZVPX\aCBFFVOYR SBBQ CBVFVBAVAT
 (R911) PBEBANEL CEBOYRZ\a1462 WRSSREFBA FG
 (R911) OEHFU SVER\a121 QERAABA EQ, GEBL\aGRFG GRFG
@@ -259,20 +258,6 @@ choyvp pynff FPZpPbezvpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PBEBANEL CEBOYRZ",
         "NQQE:685 UJL 283",
         "PVGL:CYHZ OENAPU");
-
-// ************************ CNEFR SNVYHER *****************************
-// (R911 Qbphzrag: 7035) Gur nggnpurq qbphzrag pbagnvaf vasbezngvba sbe gur sbyybjvat vapvqragf: \a
-// \a
-// 7035\a
-// \a
-// Cyrnfr frr nggnpurq qbphzrag.
-
-// ************************ CNEFR SNVYHER *****************************
-// (R911 Qbphzrag: 7032) Gur nggnpurq qbphzrag pbagnvaf vasbezngvba sbe gur sbyybjvat vapvqragf: \a
-// \a
-// 7032\a
-// \a
-// Cyrnfr frr nggnpurq qbphzrag.
 
     qbGrfg("G35",
         "(R911) CBVFVBAVAT\a308 JRYYVATGBA PG, ZPPBEZVPX\aCBFFVOYR SBBQ CBVFVBAVAT",

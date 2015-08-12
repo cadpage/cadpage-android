@@ -1,232 +1,131 @@
 package net.anei.cadpage.parsers.TN;
 
 import java.util.Properties;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 
 public class TNKnoxCountyParser extends FieldProgramParser {
   
-  private static final Pattern TRAILER_PTN = Pattern.compile(" \\[\\d+\\]$");
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("^RUN# (\\d+),  ");
-  private static final Pattern PREPOSITION_PTN1 = Pattern.compile("((?:MEDIC )?[A-Z0-9]+) +((?:PLEASE|INSERVICE) POST|(?:EXCEPTION |FROM [A-Z0-9]+ )?TO) +(.*?)");
-  private static final Pattern PREPOSITION_PTN2 = Pattern.compile("(.*\\bEXCEPTION) ([A-Z0-9]+) +TO +(.*?)");
-  private static final Pattern PREPOSITION_PTN3 = Pattern.compile("#\\d+ +([A-Z0-9]+) +TO +(.*?) +FROM +(.*)");
-  private static final Pattern CANCEL_PTN = Pattern.compile("(.*?) +CALL AT +(.*)? +IS CANCELLED , .*");
-  
   public TNKnoxCountyParser() {
     super(CITY_CODES, "KNOX COUNTY", "TN",
-           "( GRID LOC:ADDR/y! APT:APT! ADD_LOC:INFO! X1:X! NAT:CALL! UNITS:UNIT! INC#:ID! NOTES:NOTES! | UNIT ID1 ADDR1/y APTPRI PATCOND MAP1 X1 ADDLOC PLACE1 DEST! )");
+          "Location:ADDR/S! Xstreet1:X! Xstreet2:X! TYPE_CODE:CODE! Event_Description:CALL? SUB_TYPE:CODE/SDS! TIME:TIME!");
   }
   
   @Override
   public String getFilter() {
-    return "CC_Message_Notification@usamobility.net";
+    return "ipage@knox911.org";
   }
 
   @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom(0, false, true, false, false); 
+  }
+
+  private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Xstreet1:|Xstreet2:|TYPE CODE:|SUB TYPE:|TIME:)");
+  
+  @Override
   protected boolean parseMsg(String body, Data data) {
     
-    // Everything has a trailing sequence number that needs to be removed
-    Matcher match = TRAILER_PTN.matcher(body);
-    if (!match.find()) return false;
-    body = body.substring(0,match.start()).trim();
+    body = MISSING_BLANK_PTN.matcher(body).replaceAll(" ");
+    if (!super.parseMsg(body, data)) return false;
     
-    // Check for run report
-    match = RUN_REPORT_PTN.matcher(body);
-    if (match.find()) {
-      data.strCall = "RUN REPORT";
-      data.strCallId = match.group(1);
-      data.strPlace = body.substring(match.end()).trim();
-      return true;
+    if (data.strAddress.equals("/")) {
+      data.strAddress = data.strCross;
+      data.strCross = "";
     }
     
-    // Check for preposition postings
-    // Which come in at least 3 different forms
-    match = PREPOSITION_PTN1.matcher(body);
-    if (match.matches()) {
-      setFieldList("UNIT CALL ADDR APT INFO");
-      data.strUnit = match.group(1);
-      data.strCall = match.group(2);
-      parsePrepositionAddress(match.group(3), data);
-      return true;
-    }
-    
-    // Check for preposition posting
-    match = PREPOSITION_PTN2.matcher(body);
-    if (match.matches()) {
-      setFieldList("CALL UNIT ADDR APT INFO");
-      data.strCall = match.group(1) + " TO";
-      data.strUnit = match.group(2);
-      parsePrepositionAddress(match.group(3), data);
-      return true;
-    }
-    
-    // Check for preposition posting
-    match = PREPOSITION_PTN3.matcher(body);
-    if (match.matches()) {
-      setFieldList("UNIT ADDR APT INFO");
-      data.strUnit = match.group(1);
-      parseAddress(StartType.START_ADDR, FLAG_NO_CITY | FLAG_RECHECK_APT | FLAG_ANCHOR_END, match.group(2), data);
-      data.strCall = match.group(3);
-      return true;
-    }
-    
-    // Check for Cancel notice
-    match = CANCEL_PTN.matcher(body);
-    if (match.matches()) {
-      setFieldList("CALL UNIT ADDR APT CITY");
-      data.strCall = "CANCEL";
-      data.strUnit = match.group(1);
-      parseAddressCity(match.group(2), data);
-      data.strCity = convertCodes(data.strCity, CITY_CODES);
-    }
-    
-    // Process  Grid type page
-    else if (body.startsWith("GRID ")) {
-      body = body.replace(" INC# ", " INC#: ").replace(" NOTES ", " NOTES: ");
-      if (!super.parseMsg(body, data)) return false; 
-    }
-    
-    // Otherwise, treat as standard page message
-    else {
-      data.strCall = "ALERT";
-      if (!parseFields(body.split(","), data)) {
-        data.parseGeneralAlert(this, body);
-        return true;
-      }
-    }
-    
-    // Some city names are really Knoxville subdivisions that Google does not recognize
-    int pt = data.strCity.indexOf('/');
-    if (pt >= 0) {
-      data.strPlace = append(data.strCity.substring(0,pt), " - ", data.strPlace);
-      data.strCity = data.strCity.substring(pt+1);
+    if (data.strCall.length() == 0) {
+      data.strCall = data.strCode;
+      data.strCode = "";
     }
     return true;
   }
   
-  private void parsePrepositionAddress(String address, Data data) {
-    Matcher match = PREPOSITION_TRAIL_PTN.matcher(address);
-    if (match.matches()) {
-      address = match.group(1);
-      data.strSupp = match.group(2);
-    }
-    parseAddress(StartType.START_ADDR, FLAG_NO_CITY | FLAG_RECHECK_APT | FLAG_ANCHOR_END, address, data);
-  }
-  private static final Pattern PREPOSITION_TRAIL_PTN = Pattern.compile("(.*?) *(?:, | - |(?=FROM |DISTANCE))(.*)");
-
   @Override
   public String getProgram() {
-    return "CALL " + super.getProgram();
+    return super.getProgram().replace("CODE", "CODE CALL");
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("GRID")) return new MapField("GRID +(.*)", true);
-    if (name.equals("ID2")) return new IdField("\\d+");
-    if (name.equals("NOTES")) return new MyNotesField();
-    
-    if (name.equals("ID1")) return new IdField("INC# (\\d+)");
-    if (name.equals("ADDR1")) return new AddressField("LOC +(.*)", true);
-    if (name.equals("APTPRI")) return new MyAptPriorityField();
-    if (name.equals("PATCOND")) return new MyInfoField("PAT.COND");
-    if (name.equals("MAP1")) return new MapField("MAP\\b *(.*)", true);
-    if (name.equals("X1")) return new CrossField("X1\\b *(.*)", true);
-    if (name.equals("ADDLOC")) return new InfoField("ADDLOC\\b *(.*)", true);
-    if (name.equals("PLACE1")) return new PlaceField("BLDG\\b *(.*)", true);
-    if (name.equals("DEST")) return new MyInfoField("DEST");
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     return super.getField(name);
   }
   
-  private static final Pattern APT_PRI_PTN = Pattern.compile("APT +(.*?) +PRI (.*)");
-  private class MyAptPriorityField extends Field {
-    
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
-      Matcher match = APT_PRI_PTN.matcher(field);
-      if (!match.matches()) return false;
-      data.strApt = match.group(1);
-      data.strPriority = match.group(2);
-      return true;
-    }
-    
+  private static final Pattern EXTRA_DASH_PTN = Pattern.compile("(\\d+)- ");
+  private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      if (!checkParse(field, data)) abort();
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "APT PRI";
-    }
-  }
-  
-  private class MyInfoField extends InfoField {
-    
-    private String prefix;
-    
-    public MyInfoField(String prefix) {
-      this.prefix = prefix;
-    }
-    
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
-      if (!field.startsWith(prefix)) return false;
-      if (field.length() > prefix.length()) {
+      int pt = field.indexOf(": @");
+      if (pt >= 0) {
+        data.strPlace = field.substring(pt+3).trim();
+        field = field.substring(0,pt).trim();
+      }
+      
+      field = stripFieldEnd(field, ": EST");
+      
+      if (field.startsWith("/")) {
+        data.strAddress = "/";
+        data.strCity = convertCodes(field.substring(1).trim(), CITY_CODES);
+      } else {
+        field = EXTRA_DASH_PTN.matcher(field).replaceAll("$1 ");
         super.parse(field, data);
       }
-      return true;
-    }
-    
-    @Override
-    public void parse(String field, Data data) {
-      if (!checkParse(field, data)) abort();
-    }
-  }
-  
-  private static final Pattern NOTE_IGNORE_PTN = Pattern.compile("^(?:\\*CITY:|FULL ADDR:|\\*Fire service incident|Ambulance service incident).*");
-  private static final Pattern NOTE_PLACE_PTN = Pattern.compile("(?:\\*SUBDIVISION -|\\*LOC CN:) *(.*)");
-  private static final Pattern NOTE_INFO_PTN = Pattern.compile("Nature: *(.*)");
-  private class MyNotesField extends Field {
-    @Override
-    public void parse(String field, Data data) {
-      for (String part : field.split(",")) {
-        part = part.trim();
-        if (NOTE_IGNORE_PTN.matcher(part).matches()) continue;
-        if ("*Fire service incident".startsWith(part)) continue;
-        if ("Ambulance service incident".startsWith(part)) continue;
-        Matcher match = NOTE_PLACE_PTN.matcher(part);
-        if (match.matches()) {
-          String place = match.group(1);
-          if (place.equals("!!!")) continue;
-          data.strPlace = append(data.strPlace, " - ", place);
-          continue;
-        }
-        match = NOTE_INFO_PTN.matcher(part);
-        if (match.matches()) part = match.group(1);
-        data.strSupp = append(data.strSupp, ", ", part);
-      }
     }
     
     @Override
     public String getFieldNames() {
-      return "PLACE INFO";
+      return super.getFieldNames() + " PLACE";
     }
   }
+  
+  
+  @Override
+  public String adjustMapCity(String city) {
+    return convertCodes(city, MAP_CITY_TABLE);
+  }
+  
+  private static final Properties MAP_CITY_TABLE = buildCodeTable(new String[]{
+      "BAKERTOWN",            "KNOXVILLE",
+      "BALL CAMP",            "KNOXVILLE",
+      "BLUEGRASS",            "KNOXVILLE",
+      "CAMPBELL STATION",     "KNOXVILLE",
+      "CEDAR BLUFF",          "KNOXVILLE",
+      "CHOTO",                "KNOXVILLE",
+      "CORRYTON",             "KNOXVILLE",
+      "EBENEZER",             "KNOXVILLE",
+      "FORKS OF THE RIVER",   "KNOXVILLE",
+      "GALLAHER VIEW",        "KNOXVILLE",
+      "GALLAHER VIEW",        "KNOXVILLE",
+      "GIBBS",                "KNOXVILLE",
+      "HALLS",                "KNOXVILLE",
+      "HEISKELL",             "KNOXVILLE",
+      "KARNS",                "KNOXVILLE",
+      "KVFD",                 "KNOXVILLE",
+      "LYONS VIEW",           "KNOXVILLE",
+      "MALONEY",              "KNOXVILLE",
+      "MARTIN MILL",          "KNOXVILLE",
+      "MASCOT",               "KNOXVILLE",
+      "MIDDLEBROOK",          "KNOXVILLE",
+      "MIDWAY",               "KNOXVILLE",
+      "MILLERTOWN",           "KNOXVILLE",
+      "MORRELL",              "KNOXVILLE",
+      "PELLISSIPPI",          "KNOXVILLE",
+      "POWELL",               "KNOXVILLE",
+      "STRAWBERRY PLAINS",    "KNOXVILLE",
+      "SEYMOUR",              "KNOXVILLE",
+      "TEDFORD",              "KNOXVILLE",
+      "THORN GROVE",          "KNOXVILLE",
+      "TOPSIDE",              "KNOXVILLE",
+      "WATT",                 "KNOXVILLE",
+      "WESTLAND",             "KNOXVILLE"
+  });
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "BAKE", "BAKERTOWN/KNOXVILLE",

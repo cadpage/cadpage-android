@@ -88,7 +88,6 @@ choyvp pynff INJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:228 ZVZBFN FG",
         "NCG:N",
         "PVGL:TYNQR FCEVAT",
-        "ANZR:FCEVAG ARKGRY - PQZN",
         "CUBAR:2764926648",
         "VQ:1219900",
         "GVZR:00:21:44",

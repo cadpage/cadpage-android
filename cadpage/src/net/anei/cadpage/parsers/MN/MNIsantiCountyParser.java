@@ -5,7 +5,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.ReverseCodeSet;
 
 /**
- * IOsanti County, MN
+ * Isanti County, MN
  */
 
 public class MNIsantiCountyParser extends FieldProgramParser {

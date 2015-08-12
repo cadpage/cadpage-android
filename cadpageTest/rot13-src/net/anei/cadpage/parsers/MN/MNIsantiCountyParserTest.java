@@ -7,7 +7,7 @@ vzcbeg bet.whavg.Grfg;
 /*
 Vfnagv Pbhagl, ZA
 
-Fbzr yvarf va gur cnefre pynff fubhyq or hapbzzragrq qheevat vavgvny grfgvat
+Fbzr yvarf va gur cnefre pynff fubhyq or hapbzzragrq qhevat vavgvny grfgvat
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Vfnagv Sver Qvfgevpg

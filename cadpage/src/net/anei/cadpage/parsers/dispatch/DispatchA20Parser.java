@@ -6,13 +6,14 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 /**
  * Butte County, CA
  */
 public class DispatchA20Parser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("Dispatched Call \\(([-A-Z0-9]*)\\)(?:\\|.*)?");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("(Dispatched Call|Closing Info)(?:, Unit: [-A-Z0-9]+)? \\(([-A-Z0-9]*)\\)(?:\\|.*)?");
   
   private Properties codeLookupTable;
 
@@ -38,7 +39,9 @@ public class DispatchA20Parser extends FieldProgramParser {
     }
     Matcher match = SUBJECT_PTN.matcher(subject);
     if (!match.matches()) return false;
-    data.strUnit = match.group(1);
+    if (match.group(1).startsWith("C")) data.msgType = MsgType.RUN_REPORT;
+    data.strUnit = match.group(2);
+    if (data.strUnit == null) data.strUnit = match.group(3);
     if (body.endsWith("*")) body = body + " ";
     if (!parseFields(body.split(" \\* ", -1), 5, data)) return false;
     if (data.strCall.length() == 0) data.strCall = "ALERT";
@@ -59,15 +62,23 @@ public class DispatchA20Parser extends FieldProgramParser {
     return super.getField(name);
   }
 
+  private static final Pattern ADDR_ZIP_PTN = Pattern.compile("(.*) (\\d{5})");
   private class MyAddressCityStField extends AddressField {
     @Override
     public void parse(String field, Data data) {
+      String zip = "";
+      Matcher match = ADDR_ZIP_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        zip = match.group(2);
+      }
       Parser p = new Parser(field);
       String city = p.getLastOptional(',');
       if (city.length() == 2) {
         if (!city.equals(data.defState)) data.strState = city;
         city = p.getLastOptional(',');
       }
+      if (city.length() == 0) city = zip;
       String addr = p.get();
       if (addr.length() == 0) abort();
       super.parse(addr, data);

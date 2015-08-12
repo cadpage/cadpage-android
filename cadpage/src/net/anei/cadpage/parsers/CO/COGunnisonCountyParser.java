@@ -4,11 +4,19 @@ import net.anei.cadpage.parsers.dispatch.DispatchA33Parser;
 
 public class COGunnisonCountyParser extends DispatchA33Parser {
 
-
   public COGunnisonCountyParser() {
-    super("GUNNISON COUNTY", "CO", "Closed");
+    this("GUNNISON COUNTY");
+  }
+
+  public COGunnisonCountyParser(String county) {
+    super(county, "CO", "Closed");
   }
   
+  @Override
+  public String getAliasCode() {
+    return "COGunnisonCounty";
+  }
+
   @Override
   public String getFilter() {
     return "DISPATCHCENTER@CITYOFGUNNISON-CO.GOV";

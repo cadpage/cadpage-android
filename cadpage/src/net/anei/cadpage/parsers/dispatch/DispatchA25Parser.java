@@ -13,7 +13,7 @@ public class DispatchA25Parser extends FieldProgramParser {
   private static final Pattern RUN_REPORT_ID_PTN = Pattern.compile(" INC #(\\d+-\\d+) ");
   private static final Pattern RUN_REPORT_ID_PTN2 = Pattern.compile("^Inc # (\\d+-\\d+)\\b");
   private static final Pattern RUN_REPORT_PTN2 = Pattern.compile("^OCC #\\d\\d-\\d+, INC #(\\d\\d-\\d+)");
-  private static final Pattern MARKER = Pattern.compile("NEWOCC #OUTS  +|ALERT - OCC #OUTS +|NEW(?:INC|OCC) #([-0-9]+) +");
+  private static final Pattern MARKER = Pattern.compile("NEWOCC #OUTS  +|ALERT - OCC #OUTS +|NEW(?:INC|OCC) #([-0-9\\?]+) +");
   private static final Pattern MISSING_DELIM = Pattern.compile(",? (?=Phone:)");
   private static final Pattern ALTERNATE_PTN = Pattern.compile("NEW (?:(\\d\\d?-\\d\\d?-[A-Z]{2}) )?(.*)[-,] ([ A-Za-z]+)");
   private static final Pattern PLACE_ADDR_PREFIX_PTN = Pattern.compile("([NSEW]B)|(.*)(?:&| and)", Pattern.CASE_INSENSITIVE);
