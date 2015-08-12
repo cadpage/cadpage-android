@@ -1,12 +1,10 @@
 package net.anei.cadpage.parsers.NC;
 
-import java.util.Arrays;
-import java.util.HashSet;
 import java.util.Properties;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA3AParser;
@@ -16,8 +14,8 @@ public class NCNashCountyParser extends DispatchA3AParser {
   
   private static final Pattern CHANNEL_PTN = Pattern.compile("TAC.*", Pattern.CASE_INSENSITIVE);
   private static final Pattern HAZARD_PTN = Pattern.compile("Hazards: .*");
-  private static final Pattern UNIT_PTN = Pattern.compile("(?!FIRES)(?:\\b(?:\\d*[A-Z]*\\d+[A-Z]?|\\d+-\\d+|[A-Z]*EMS|[A-Z]*FIR?E|[A-Z]*FD|[A-Z]*RES|[A-Z]*CEM|[A-Z]CSO|DOT|TOISN|(?:BRUSH|EMS|PPO|Nash Car|UNIT|RESCUE|ENG|SQD) ?\\d+)\\b,?)+");
-  private static final Pattern PHONE_PTN = Pattern.compile("\\d{3}-\\d{3}-\\d{4}");
+  private static final Pattern UNIT_PTN = Pattern.compile("(?!FIRES)(?:\\b(?:\\d*[A-Z]*\\d+[A-Z]?|\\d+-\\d+|[A-Z]*EMS|[A-Z]*FIR?E|[A-Z]*FD|[A-Z]*RES|[A-Z]*CEM|[A-Z]CSO|DOT|TOISN|SI FR|WAKEM|ST\\d+(?:-\\d+)?|(?:BRUSH|EMS|PPO|Nash Car|UNIT|RESCUE|TRUCK|ENG|SQD) ?\\d+)\\b[ ,]?)+");
+  private static final Pattern PHONE_PTN = Pattern.compile("\\d{2}[ 0-9]-\\d{3}-\\d{4}");
   private static final Pattern COMMENT_LABEL_PTN = Pattern.compile("(?:Geo|Landmark|Place) Comment: *(.*)|NBH: *(.*)");
   
   public NCNashCountyParser() {
@@ -154,7 +152,7 @@ public class NCNashCountyParser extends DispatchA3AParser {
           city = flds[spt++];
           if (!isCity(city)) return false;
         }
-        data.strCity = city;
+        data.strCity = convertCodes(city, CITY_FIXES);
       }
       
       // Now lets start working from the end.
@@ -162,6 +160,12 @@ public class NCNashCountyParser extends DispatchA3AParser {
       String lastFld = flds[--ept];
       if (HAZARD_PTN.matcher(lastFld).matches()) {
         data.strSupp = lastFld;
+        if (spt > ept) return false;
+        lastFld = flds[--ept];
+      }
+      
+      // Or a truncated Hazards: label
+      else if ("Hazards:".startsWith(lastFld)) {
         if (spt > ept) return false;
         lastFld = flds[--ept];
       }
@@ -189,11 +193,17 @@ public class NCNashCountyParser extends DispatchA3AParser {
         lastFld = flds[--ept];
       }
       
-      // Which may be preceded by a name
-      if (!CALL_SET.contains(lastFld)) {
+      // Which may be preceded by a (possibly 2 part) name
+      if (CALL_LIST.getCode(lastFld) == null) {
         if (!lastFld.equals("UNK")) data.strName = cleanWirelessCarrier(lastFld);
         if (spt > ept) return false;
         lastFld = flds[--ept];
+        
+        if (spt <= ept && CALL_LIST.getCode(lastFld) == null && 
+            CALL_LIST.getCode(flds[ept-1]) != null) {
+          data.strName = lastFld + ' ' + data.strName;
+          lastFld = flds[--ept];
+        }
       }
       
       // Which is preceded by a call description
@@ -245,15 +255,42 @@ public class NCNashCountyParser extends DispatchA3AParser {
       }
       
       // If there is a landmark comment, it nicely separates the cross streets
-      // from the comment & call description.  There is non easy way to identify
-      // the call description.  We could put in a long description table to do 
-      // this, but since the single blank format is no longer used, we will not
-      // bother, instead just leave the call description in the info field.
+      // from the comment & call description.  But sorting out where the comment/place
+      // ends and the call description begins will require checking each word to 
+      // see if it starts a known call description
       Matcher match = COMMENT_LABEL_PTN.matcher(left);
       if (match.find()) {
-        data.strSupp = append(match.group(1), "\n", data.strSupp);
         left = left.substring(0,match.start()).trim();
         parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, left, data);
+        
+        String extra = match.group(1);
+        boolean savePlace = (extra == null);
+        if (savePlace) extra = match.group(2);
+        
+        boolean lastBlank = true;
+        boolean found = false;
+        for (int pt = 0; pt < extra.length(); pt++) {
+          if (Character.isWhitespace(extra.charAt(pt))) {
+            lastBlank = true;
+          } else if (lastBlank) {
+            lastBlank = false;
+            String call = CALL_LIST.getCode(extra.substring(pt), true);
+            if (call != null) {
+              found = true;
+              data.strCall = call;
+              String tmp = extra.substring(0,pt).trim();
+              if (savePlace) data.strPlace = tmp;
+              else data.strSupp = tmp;
+              data.strName = cleanWirelessCarrier(extra.substring(pt+call.length()).trim());
+              break;
+            }
+          }
+        }
+        
+        // If we could not find a call description, dump everything in the info field.
+        if (!found) {
+          data.strSupp = extra;
+        }
       }
       
       // Otherwise, there may be a  cross street at the start of what is left.  But we
@@ -284,13 +321,13 @@ public class NCNashCountyParser extends DispatchA3AParser {
       }
     }
     data.strAddress = data.strAddress.replace("LEEGETT", "LEGGETT");
-    if (data.strCity.equals("EDGECOMBE CO")) data.strCity = "EDGECOMBE COUNTY";
+    data.strCity = convertCodes(data.strCity, CITY_FIXES);
     return true;
   }
   
   @Override
-  public boolean checkCall(String call) {
-    return CALL_SET.contains(call);
+  public CodeSet getCallList() {
+    return CALL_LIST;
   }
 
   @Override
@@ -393,6 +430,7 @@ public class NCNashCountyParser extends DispatchA3AParser {
         "HEAT/CLD-H", "HEAT EMERGENCY",
         "HEMORRHA-C", "SUBJECT HEMORRHAGING",
         "HEMORRHA-H", "SUBJECT HEMORRHAGING",
+        "LIGHTNING",  "LIGHTNING STRIKES",
         "MEDICAL",    "MEDICAL",
         "OB/PREG-H",  "OB/PREGNANCY",
         "OVERDOSE-C", "OVERDOSE",
@@ -416,11 +454,12 @@ public class NCNashCountyParser extends DispatchA3AParser {
         "UNCONSC-C",  "UNRESPONSIVE PERSON",
         "UNCONSC-H",  "UNRESPONSIVE PERSON",
         "UNK PROB-C", "UNKNOWN MEDICAL",
-        "UNK PROB-H", "UNKNOWN MEDICAL"
+        "UNK PROB-H", "UNKNOWN MEDICAL",
+        "WARRANT SERV", "WARRANT SERVICE"
 
   );
   
-  private static final Set<String> CALL_SET = new HashSet<String>(Arrays.asList(
+  private static final CodeSet CALL_LIST = new CodeSet(
       "ABDOMINAL PAIN",
       "ABDOMINAL PAINS/PROBLEMS - COLD",
       "ABDOMINAL PAINS/PROBLEMS - HOT",
@@ -429,21 +468,36 @@ public class NCNashCountyParser extends DispatchA3AParser {
       "ALL LARGE VEHICLE RELATED FIRES - INCLUDING TRACTOR TRAILERS",
       "ALL LAW ENFORCEMENT REALTED ALARMS-COLD",
       "ALL SMALL VEHICLE RELATED FIRES",
+      "ANIMAL BITES,ATTACKS-EMERGENCY-HOT (EMS & FRSP ONLY)",
       "ANY OUTSIDE FIRE,GRASS,BRUSH, GRILL, DOG HOUSE, PUMP HOUSE",
+      "ASSIST OTHER LAW ENFORCEMENT AGENCY-COLD",
+      "BOMB FOUND/SUSPICIOUS PACKAGE (LETTER/ITEM)-HOT",
       "BREATHING DIFFICULTY",
       "BREATHING PROBLEMS-EMERGENCY",
+      "BREATHING PROBLEMS-ROUTINE",
+      "CARBON MONOXIDE/INHALATION/HAZ MAT/CRBN-HOT",
       "CARDIAC OR RESPIRATORY ARREST-HOT",
       "CHEST PAIN",
       "CHEST PAIN NON-TRAUMATIC-EMERGENCY",
+      "CHEST PAIN NON-TRAUMATIC-ROUTINE",
       "CHOKING-EMERGENCY",
+      "CHOKING-ROUTINE",
+      "CONF. SPACE / STRUCT COLLAPSE/OTHER NON VEH ENTRAPMENT",
       "CONVALESCENT TRANSFER",
+      "DEPT TRANSPORTATION",
       "DIABETIC PROBLEMS-EMERGENCY",
       "DIABETIC PROBLEMS-ROUTINE",
+      "DOCUMENTS,LOST/FOUND PROP.,MESSAGES,TRANSPORTS-COLD",
       "ELECTRICAL HAZZARD OUSIDE/AWAY FROM A STRUCTURE",
       "ELECTROCUTION/LIGHTNING",
       "EMERGENCY FIRE DISPATCH",
       "EMERGENCY MEDICAL DISPATCH",
+      "EMERGENCY POLICE DISPATCH",
+      "EXTRICATION/ENTRAPPED (MACHINERY, VEHICLE)",
+      "EYE PROBLEMS/INJURIES-EMERGENCY",
+      "EYE PROBLEMS/INJURIES-ROUTINE",
       "FALLS-EMERGENCY",
+      "FALLS-ROUTINE",
       "FALLS-LIFTING ASST. ROUTINE - EMS ONLY",
       "FUEL SPILL",
       "FIGHTS/PHYSICAL/SEXUAL ASSALT W/ INJUR-HOT (FRSP & EMS ONLY)",
@@ -454,10 +508,18 @@ public class NCNashCountyParser extends DispatchA3AParser {
       "HEADACHE-ROUTINE",
       "HEART PROBLEMS",
       "HEART PROBLEMS/AICD-EMERGENCY",
+      "HEART PROBLEMS/AICD-ROUTINE",
+      "HEAT/COLD EXPOSURE-EMERGENCY",
+      "HEAT/COLD EXPOSURE-ROUTINE",
       "HEMORRHAGE/LACERATIONS/BLEEDING-EMERGENCY",
+      "HEMORRHAGE/LACERATIONS/BLEEDING-COLD",
+      "HIGH ANGLE RESCUE",
+      "LIGHTNING STRIKES",
+      "LIQUID,SOLID MATERIAL RELEASED OR SPILLED",
       "LOCK-IN/OUT, WELFARE CHECK, SECURITY CHECKS-COLD -SPECIFY",
       "LOCK-IN/OUT, WELFARE CHECK, SECURITY CHECKS-HOT -SPECIFY",
       "MENTAL DISORDER/BEHAVIOR PROBLEMS/SUICIDAL-HOT FRSP&EMS",
+      "MISCELLANEOUS CALLS FOR SERVICE-COLD - SPECIFY IN",
       "MOTOR VEH ACCIDENT PROPERTY DAMAGE ONLY VEH OVERTURNED",
       "MOTOR VEH ACCIDENT WITH INJURIES NO ONE PINNED -HOT",
       "MOTOR VEHICLE ACCIDENT WITH INJURIES-COLD",
@@ -469,6 +531,7 @@ public class NCNashCountyParser extends DispatchA3AParser {
       "NON-TRAUMATIC OR NON-RECENT TRAUMA-COLD",
       "OB/CHILDBIRTH/MISCARR-HOT",
       "OD/POISONING-EMERGENCY",
+      "OD/POISONING-ROUTINE",
       "OUTSIDE FIRE",
       "PATIENT TRANSFER ROUTINE/EMERGENCY - SPECIFY IN NARRATIVE",
       "SCALDS/BURNS ETC.-HOT",
@@ -478,27 +541,33 @@ public class NCNashCountyParser extends DispatchA3AParser {
       "SERV CALL",
       "SERVICE/CITIZEN ASSISTANCE CALLS/",
       "SHOOTING,STABBING, OR OTHER PENETRATING TRAUMA-EMERGENCY",
+      "SHOOTING,STABBING, OR OTHER PENETRATING TRAUMA-ROUTINE",
       "SICK CALL-EMERGENCY",
       "SICK CALL-ROUTINE",
       "SMOKE INVESTIGATION OUTSIDE OF A STRUCTURE",
       "STROKE/CVA-EMERGENCY",
+      "STROKE/CVA-ROUTINE",
       "STRUCTURE FIRE",
       "SUBJECT FALLEN",
       "TRAFFIC VIOLATION/COMPLAINT/HAZARD/LIVESTOCK/-COLD",
       "TRAUMATIC INJURIES SPECIFIC/ EMERG",
       "TRAUMATIC INJURIES SPECIFIC/ ROUTINE",
       "UNCONSCIOUS/FAINTING-EMERGENCY",
+      "UNCONSCIOUS/FAINTING-ROUTINE",
+      "UNK TYPE CALL 3RD PARTY CALLER- LAW ENFORCEMENT ONLY-HOT",
       "UNKNOWN PROBLEM/PERSON DOWN -HOT (EMS RELATED)",
       "UNRESPONSIVE PERSON",
       "WARRANT SERV",
+      "WARRANT SERVICE",
       "WATER RESCUE"
-  ));
+  );
   
   private static final String[] CITY_LIST = new String[]{
     
       //  Cities
       "BAILEY",
       "CASTALIA",
+      "CASTLIA",          // Typo
       "DORTCHES",
       "ELM CITY",
       "MIDDLESEX",
@@ -534,6 +603,7 @@ public class NCNashCountyParser extends DispatchA3AParser {
       "LOUISBURG",
       
       // Halifax county
+      "ENFIELD",
       "HOLLISTER",
       
       // Wilson County
@@ -550,4 +620,9 @@ public class NCNashCountyParser extends DispatchA3AParser {
       "WILSON CO"
 
   };
+  
+  private static final Properties CITY_FIXES = buildCodeTable(new String[]{
+      "CASTLIA",       "CASTALIA",
+      "EDGECOMBE CO",  "EDGECOMBE COUNTY"
+  });
 }
