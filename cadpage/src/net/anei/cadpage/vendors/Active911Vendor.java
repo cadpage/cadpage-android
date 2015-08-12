@@ -322,6 +322,7 @@ class Active911Vendor extends Vendor {
       "US/GA/JacksonCounty",              "GAJacksonCounty",
       "US/GA/JasperCounty",               "GAJasperCounty",
       "US/GA/JeffersonCounty",            "GAJeffersonCounty",
+      "US/GA/PauldingCounty",             "GAPauldingCounty",
       "US/GA/RabunCounty",                "GARabunCounty",
       "US/GA/SouthsideFire",              "GAChathamCounty",
       "US/GA/TiftCounty",                 "GATiftCounty",
