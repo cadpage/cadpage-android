@@ -6,6 +6,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
+Jnfuvatgba Pbhagl, SY
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jnfuvatgba Pbhagl Furevssf Bssvpr
@@ -36,7 +37,6 @@ Fraqre: =?hgs-8?O?LzyfoUyvpz9wn0O3L3AiYaIm?= <ovyyloebpx@jpfb.hf>
 (=?hgs-8?O?GTS3VSS1MKA0nJ9hpj==?=) 1395 RYBVFR EQ\a1395 RYBVFR EQ\a\a\aYNJ DHRFGVBAF
 (=?hgs-8?O?AQRk?=) JUVGR EQA01789 JUVGR EQ1789 JUVGR EQ K2[PYNLGBA EQ]NOEBPXOPBHAGL
 (=?hgs-8?O?GTS3VSS1MKA0nJ9hpj==?=) 189 CVXR CBAQ EQ\a189 CVXR CBAQ EQ K2[XRAG EQ]\a\a\aYNJ DHRFGVBAF
-(=?hgs-8?O?AQRk?=) WNPXFBA NIR
 (=?hgs-8?O?GTS3VSS1MKA0nJ9hpj==?=) 2510 UVTUJNL 79\a2510 UVTUJNL 79 K2[CNGR CBAQ EQ]\a\a\aYNJ DHRFGVBAF
 (=?hgs-8?O?GTS3VSS1MKA0nJ9hpj==?=) 1165 JUVGGVATGBA EQ\a1165 JUVGGVATGBA EQ\a\a\aYNJ DHRFGVBAF
 (=?hgs-8?O?GTS3VSS1MKA0nJ9hpj==?=) 1293 WNPXFBA NIR400\aJNFUVATGBA PBHAGL FUREVSS'F BSSVPR K2[5GU FG]\a\a\aYNJ DHRFGVBAF\aERORPPN PEHGPUSVRYQ
@@ -53,6 +53,13 @@ Fraqre: =?hgs-8?O?LzyfoUyvpz9wn0O3L3AiYaIm?= <ovyyloebpx@jpfb.hf>
 (=?hgs-8?O?GTS3VSS1MKA0nJ9hpj==?=) 958 WBVARE EQ\a958 WBVARE EQ K2[SBKJBEGU EQ]\a\a\aYNJ DHRFGVBAF
 (=?hgs-8?O?GTS3VSS1MKA0nJ9hpj==?=) 1270 OEVPXLNEQ EQ4\a1270 OEVPXLNEQ EQ K2[SNYYVAT JNGREF EQ]\a\a\aYNJ DHRFGVBAF
 (=?hgs-8?O?GTS3VSS1MKA0nJ9hpj==?=) 1293 WNPXFBA NIR400\aJNFUVATGBA PBHAGL FUREVSS'F BSSVPR K2[5GU FG]\a\a\aYNJ DHRFGVBAF\aZVPUNRY RNEY
+
+Purpx sbe fhowrpg fgnegvat jvgu =? naq raqvat jvgu ?=
+
+Ybbx sbe gevcyr arjyvar oernx.  Nsgre gur oernx, svefg yvar vf gur pnyy qrfpevcgvba, fhofrdhrag yvarf ner vasb svryqf.
+Orsber gur oernx, svefg yvar vf nqqerff.  Ohg purpx sbe n genvyvat ncg jvgu (.*[N-M])(\q+) cnggrea
+Frpbaq yvar vs vg rkvfgf pbagnvaf cynpr anzr naq pebff fgerrg.  Vs cynpr anzr zngpurf nqqerff, qvfpneq vg
+
 */
 
 choyvp pynff SYJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
