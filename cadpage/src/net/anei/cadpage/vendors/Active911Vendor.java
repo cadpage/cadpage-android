@@ -202,6 +202,7 @@ class Active911Vendor extends Vendor {
       "US/CA/CalaverasCounty",            "CACalaverasCounty",
       "US/CA/CDFandGrassValleyECC",       "CAPlacerCountyParser",
       "US/CA/CityofBenicia",              "CASolanoCountyC",
+      "US/CA/CityofDavis",                "CAYoloCountyA",
       "US/CA/CityofFairfield",            "CASolanoCountyA",
       "US/CA/CityofMontecito",            "CAMontecito",
       "US/CA/CityofNapa",                 "CANapa",
