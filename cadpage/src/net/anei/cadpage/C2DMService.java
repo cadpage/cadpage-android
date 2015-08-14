@@ -273,7 +273,7 @@ public class C2DMService extends IntentService {
     
     // If we are checking for split direct pages, pass this to the message accumulator
     // It will be responsible for calling SmsReceiver.processCadPage()
-    if (ManagePreferences.splitDirectPage()) {
+    if (message.getSplitMsgOptions().splitDirectPage()) {
       SmsMsgAccumulator.instance().addMsg(this, message, true);
     }
     

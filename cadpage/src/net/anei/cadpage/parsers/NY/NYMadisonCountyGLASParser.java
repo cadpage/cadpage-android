@@ -11,7 +11,7 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
   
   private static final Pattern WIERD_CHAR_PTN = Pattern.compile("=(?:20|EF|BB|BF)");
   private static final Pattern DELIM = Pattern.compile("\n+");
-  private static final Pattern MASTER = Pattern.compile("(.*?)\n+(.*?)(?: \\((.*?)\\)?)?");
+  private static final Pattern MASTER = Pattern.compile("(?:([A-Z0-9]+)-)?(.*?)\n+(.*?)(?: \\((.*?)\\)?)?");
   private static final Pattern CITY_APT_PTN = Pattern.compile("(.*?)(?:(?:VILLAGE|HAMLET))?(?: +APT | *#(?:APT )?) *(.+)");
   private static final Pattern APT_PTN = Pattern.compile("\\d[^ ]*|[A-Z]");
 
@@ -51,10 +51,11 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
     else {
       Matcher match = MASTER.matcher(body);
       if (!match.matches()) return false;
-      setFieldList("CALL NAME PLACE ADDR APT CITY X");
-      data.strCall = match.group(1).trim();
-      String sPart1 = match.group(2).trim();
-      String sPart3 = getOptGroup(match.group(3));
+      setFieldList("CODE CALL NAME PLACE ADDR APT CITY X");
+      data.strCode = getOptGroup(match.group(1));
+      data.strCall = match.group(2).trim();
+      String sPart1 = match.group(3).trim();
+      String sPart3 = getOptGroup(match.group(4));
       
       if (sPart1.startsWith("@")) {
         data.strPlace = sPart1.substring(1).trim(); 

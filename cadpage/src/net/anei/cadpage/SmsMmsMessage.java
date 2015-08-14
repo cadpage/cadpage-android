@@ -17,6 +17,7 @@ import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.parsers.Message;
 import net.anei.cadpage.parsers.MsgInfo;
 import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.SplitMsgOptions;
 import net.anei.cadpage.vendors.VendorManager;
 import android.content.Context;
 import android.content.Intent;
@@ -93,6 +94,19 @@ public class SmsMmsMessage implements Serializable {
   private long sentTime = 0L;
   
   private transient Message parseInfo = null;
+  
+  private transient SplitMsgOptions splitMsgOptions = null;
+  
+  /**
+   * @return the split message configuration options to be used for handling
+   * this message.
+   */
+  public SplitMsgOptions getSplitMsgOptions() {
+    if (splitMsgOptions == null) {
+      splitMsgOptions = ManagePreferences.getDefaultSplitMsgOptions();
+    }
+    return splitMsgOptions;
+  }
 
   public boolean isRead() {
     return read;
@@ -329,6 +343,25 @@ public class SmsMmsMessage implements Serializable {
       }
     }
     this.ackReq = ackReq;
+    
+    // If specific location was requested with a Active911 page message, convert it
+    // to normal Cadpage parser codes
+    if (reqLocation != null) {
+      try {
+        String[] results = VendorManager.instance().convertLocationCode(vendorCode, reqLocation);
+        location = results[0];
+        missingParsers = results[1];
+        if (vendorCode != null && vendorCode.equals("Active911")) {
+          MsgParser parser = ManageParsers.getInstance().getParser(results[0]);
+          if (parser != null) {
+            splitMsgOptions = parser.getActive911SplitMsgOptions();
+          }
+        }
+      } catch (RuntimeException ex) {
+        Log.e(ex);
+      }
+    }
+
   }
   private static final Pattern NUMBER = Pattern.compile("\\d+");
   private static final Pattern SQ_BRACKETS = Pattern.compile("\\[(.*)\\]");
@@ -432,12 +465,13 @@ public class SmsMmsMessage implements Serializable {
   }
 
   private void buildParseInfo() {
-    boolean keepLeadBreak = ManagePreferences.splitKeepLeadBreak();
+    SplitMsgOptions options = getSplitMsgOptions();
+    boolean keepLeadBreak = options.splitKeepLeadBreak();
     parseInfo = bldParseInfo();
     if (extraMsgBody != null) {
       String msgSubject = parseInfo.getSubject();
       String parseMsgBody = parseInfo.getMessageBody();
-      String delim = (ManagePreferences.splitBlankIns() ? " " : "");
+      String delim = (options.splitBlankIns() ? " " : "");
       for (String msgBody : extraMsgBody) {
         Message pInfo = bldParseInfo(true, subject, msgBody, keepLeadBreak);
         parseMsgBody = parseMsgBody + delim + pInfo.getMessageBody();
@@ -451,7 +485,8 @@ public class SmsMmsMessage implements Serializable {
   }
   
   private Message bldParseInfo(boolean preParse, String msgSubject, String body, boolean keepLeadBreak) {
-    boolean insBlank = ManagePreferences.splitBlankIns();
+    SplitMsgOptions options = getSplitMsgOptions();
+    boolean insBlank = options.splitBlankIns();
     return new Message(preParse, fromAddress, msgSubject, body, insBlank, keepLeadBreak){
 
       @Override
@@ -517,12 +552,9 @@ public class SmsMmsMessage implements Serializable {
     // If specific location was requested with a C2DM message, use it to get
     // a parser.  This is one of the only times we will ignore a bad location
     // code
-    if (reqLocation != null && !ManagePreferences.overrideVendorLoc()) {
+    if (reqLocation != null && location != null && !ManagePreferences.overrideVendorLoc()) {
       try {
-        String[] results = VendorManager.instance().convertLocationCode(vendorCode, reqLocation);
-        missingParsers = results[1];
-        parser = ManageParsers.getInstance().getParser(results[0]);
-        location = results[0];
+        parser = ManageParsers.getInstance().getParser(location);
       } catch (RuntimeException ex) {
         Log.e(ex);
       }
@@ -609,14 +641,6 @@ public class SmsMmsMessage implements Serializable {
     MsgParser parser =  ManageParsers.getInstance().getParser(location, messageBody);
     parser.isPageMsg(parseInfo, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_GEN_ALERT);
     return parseInfo.getInfo();
-  }
- 
-  public void setReqLocation(String reqLocation) {
-    this.reqLocation = reqLocation;
-  }
-  
-  public void setVendorCode(String vendorCode) {
-    this.vendorCode = vendorCode;
   }
 
   public long getTimestamp() {

@@ -14,9 +14,10 @@ public class GAPauldingCountyParser extends SmartAddressParser {
     super("PAULDING COUNTY", "GA");
     setFieldList("CODE CALL ADDR PHONE X NAME");
     setupMultiWordStreets(MW_STREETS);
+    setupSpecialStreets("COBB COUNTY LINE");
   }
   
-  private static Pattern HEAD_PHONE_TAIL = Pattern.compile("(.+?) (\\d{10}|770) (.+)");
+  private static Pattern HEAD_PHONE_TAIL = Pattern.compile("(.+?) (?:(\\d{10})|770) (.+)");
   private static Pattern NUMERIC_HWY = Pattern.compile("/(\\d+[NS]?[EW]?)(?: +(.+))?");
   
   @Override
@@ -30,7 +31,8 @@ public class GAPauldingCountyParser extends SmartAddressParser {
     String tail;
     if (mat.matches()) {
       if (parseCALL_ADDR(mat.group(1), data, FLAG_ANCHOR_END) == null) return false;
-      data.strPhone = mat.group(2);
+      data.strPhone = getOptGroup(mat.group(2));
+      if (data.strPhone.equals("0000000000")) data.strPhone = "";
       tail = mat.group(3);
     } else {
       //if no PHONE to split by we have to parse from whole body
@@ -41,6 +43,7 @@ public class GAPauldingCountyParser extends SmartAddressParser {
     if (tail.length() == 0) return true;
     
     //parse X and NAME from tail
+    tail = stripFieldStart(tail, "XS:");
     Result res = parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ONLY_CROSS, tail);
     if (res.getStatus() >= STATUS_STREET_NAME) { 
       res.getData(data); 
@@ -57,7 +60,7 @@ public class GAPauldingCountyParser extends SmartAddressParser {
     
     return true;
   }
-  
+
   private static Pattern HWY_NOTATION = Pattern.compile("H(\\d+)-(\\d+(?= |$))?");
   private static Pattern CALL_ADDR = Pattern.compile("(.*?) - (.*)");
   
@@ -70,17 +73,17 @@ public class GAPauldingCountyParser extends SmartAddressParser {
   private String parseCALL_ADDR(String text, Data data, int flags) {
     //convert things like H16-45 to HWY 16 & HWY 45
     Matcher mat = HWY_NOTATION.matcher(text);
-    while (mat.find()) {
-      //split by match
-      String a = text.substring(0, mat.start());
-      String b = text.substring(mat.end());
-      //re-insert groups with proper HWY formatting
-      text = a + "HWY "+mat.group(1) + " & ";
-      String g2 = mat.group(2);
-      if (g2 != null) text += "HWY "+mat.group(2);
-      text += b; 
-      //check for more (just in case)
-      mat = HWY_NOTATION.matcher(text);
+    if (mat.find()) {
+      StringBuffer sb = new StringBuffer();
+      do {
+        //re-insert groups with proper HWY formatting
+        String rep = "HWY "+mat.group(1) + " & ";
+        String g2 = mat.group(2);
+        if (g2 != null) rep += "HWY "+mat.group(2);
+        mat.appendReplacement(sb, rep);
+      } while (mat.find());
+      mat.appendTail(sb);
+      text = sb.toString();
     }
     
     //check if text starts with a known CODE and it's respective CALL
@@ -119,6 +122,10 @@ public class GAPauldingCountyParser extends SmartAddressParser {
     return getLeft();
   }
   
+  @Override
+  public CodeSet getCallList() {
+    return CALL_LIST;
+  }
   
   private static Properties CALL_CODES = buildCodeTable(new String[]{
       "911HAN", "911-HANG UP - 10-93",
@@ -159,6 +166,7 @@ public class GAPauldingCountyParser extends SmartAddressParser {
     "COHRAN STORE",
     "COLE LAKE",
     "CREST HOLLOW",
+    "DABBS BRIDGE",
     "DALLAS ACWORTH",
     "DALLAS NEBO",
     "DARBYS RUN",
@@ -185,6 +193,7 @@ public class GAPauldingCountyParser extends SmartAddressParser {
     "RC THOMPSON",
     "SEVEN HILLS",
     "VILLA RICA",
+    "VINSON MOUNTAIN",
     "WATER WAY",
     "WENDY BAGWELL",
     "WHEELER LAKE",

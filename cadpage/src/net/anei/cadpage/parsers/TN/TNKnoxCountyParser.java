@@ -5,6 +5,8 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 
 public class TNKnoxCountyParser extends FieldProgramParser {
@@ -17,6 +19,11 @@ public class TNKnoxCountyParser extends FieldProgramParser {
   @Override
   public String getFilter() {
     return "ipage@knox911.org";
+  }
+
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom(0, false, true, false, false); 
   }
 
   private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Xstreet1:|Xstreet2:|TYPE CODE:|SUB TYPE:|TIME:)");

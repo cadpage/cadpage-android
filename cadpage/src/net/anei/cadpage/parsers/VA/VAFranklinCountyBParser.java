@@ -14,7 +14,7 @@ public class VAFranklinCountyBParser extends DispatchSouthernParser {
   
   @Override
   public String getFilter() {
-    return "911@FCSO.COM";
+    return "911@FCSO.COM,911_DISPATCH@franklincountyva.gov";
   }
   
   @Override

@@ -7,6 +7,7 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Znqvfba Pbhagl - Terngbe Yrabk Nzhynapr Freivpr (TYNF), AL
+
 Pbagnpg: "Xlyr Z. Pnfury" <xpnfury@tznvy.pbz>
 Pbagnpg: "rzgqroovr33@lnubb.pbz" <rzgqroovr33@lnubb.pbz>
 Pbagnpg: Revpx Unnf <revpxawraa@tznvy.pbz>
@@ -74,6 +75,10 @@ Fraqre: TPZ
 {Terngre Yrabk}\aOernguvat Ceboyrz\aJnyynpr, Trenyq & Qbaan 3398 EBHGR 31, YRABK ( BYQ BEPUNEQ EQ/JVYFBA PBIR EQ )
 {Terngre Yrabk} \aCflpuvngvp/Fhvpvqr\a\a116 JRFG NI, PNANFGBGN IVYYNTR # Creel, Fgrcura & Puevfgvar ( FGNGR/TRGZNP NI )
 {Terngre Yrabk} \aFgnaq ol\a159 PRAGRE, PNANFGBGN IVYYNTR # A ( PUNCZNA CY/F ZNVA )
+
+Pbagnpg: Pnfury, Xlyr <xlyrpnfury@terngreyrabknzohynapr.pbz>
+Fraqre: TPZ 
+{Terngre Yrabk} 10P01-Noabezny oernguvat\a111 JVYYBJ QE, FHYYVINA ( JNGRE )
 
 */
 
@@ -511,6 +516,19 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PNANFGBGN",
         "K:PUNCZNA CY/F ZNVA");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXlyrPnfury2() {
+
+    qbGrfg("G1",
+        "{Terngre Yrabk} 10P01-Noabezny oernguvat\a111 JVYYBJ QE, FHYYVINA ( JNGRE )",
+        "PBQR:10P01",
+        "PNYY:Noabezny oernguvat",
+        "NQQE:111 JVYYBJ QE",
+        "PVGL:FHYYVINA",
+        "K:JNGRE");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

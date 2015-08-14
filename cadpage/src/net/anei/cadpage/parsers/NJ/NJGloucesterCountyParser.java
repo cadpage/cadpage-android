@@ -12,7 +12,7 @@ Gloucester County, NJ
 public class NJGloucesterCountyParser extends GroupBestParser {
   
   public NJGloucesterCountyParser() {
-    super(new NJGloucesterCountyAParser(), new NJGloucesterCountyBParser(), new NJGloucesterCountyCParser());
+    super(new NJGloucesterCountyAParser(), new NJGloucesterCountyBParser());
   }
 
   static final Properties CITY_CODES = buildCodeTable(new String[]{

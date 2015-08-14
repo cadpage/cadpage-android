@@ -28,7 +28,10 @@ public class OHLorainCountyAParser extends DispatchOSSIParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+     "ALK", "AVON LAKE",
+     "AVN", "AVON",
      "CAR", "CARLISLE TWP",
-     "EAT", "EATON"
+     "EAT", "EATON",
+     "SLK", "SHEFFIELD LAKE"
   });
 }

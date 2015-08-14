@@ -6,6 +6,7 @@ import java.util.List;
 
 import net.anei.cadpage.parsers.MsgInfo;
 import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.SplitMsgOptions;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -119,8 +120,10 @@ public class SmsMsgAccumulator {
     if (msgCount == 1) return false;
     if (msgCount > 1) return true;
     
+    SplitMsgOptions options = msg.getSplitMsgOptions();
+    
     // If there is a configured minimum message count > 1, return true
-    if (ManagePreferences.splitMinMsg() > 1) return true;
+    if (options.splitMinMsg() > 1) return true;
     
     // If the message parser decided more data was needed, return true;
     MsgInfo info = msg.getInfo();
@@ -133,7 +136,7 @@ public class SmsMsgAccumulator {
       // this is a real CAD page until the first part is received, so we have to
       // treat everything as a potential CAD page.
       if (info.getMsgType() == MsgInfo.MsgType.GEN_ALERT &&
-          ManagePreferences.revMsgOrder()) return true;
+          options.revMsgOrder()) return true;
     }
     
     // Otherwise the answer is no
@@ -235,7 +238,8 @@ public class SmsMsgAccumulator {
       // this as a match if either the first or last 4 characters are the same
       String newAddr = newMsg.getFromAddress();
       String lastAddr = lastMessage.getFromAddress();
-      if (! ManagePreferences.splitChkSender()) {
+      SplitMsgOptions options = newMsg.getSplitMsgOptions();
+      if (! options.splitChkSender()) {
         if (newAddr.length() >= 4 && lastAddr.length() >= 4) {
           if (newAddr.substring(0,4).equals(lastAddr.substring(0,4))) return true;
           if (newAddr.substring(newAddr.length()-4).equals(lastAddr.substring(lastAddr.length()-4))) return true;
@@ -269,7 +273,7 @@ public class SmsMsgAccumulator {
         int ndx = newMsg.getMsgIndex();
         if (ndx <= count) list.set(ndx-1, newMsg);
       } else {
-        if (ManagePreferences.revMsgOrder()) {
+        if (newMsg.getSplitMsgOptions().revMsgOrder()) {
           list.add(0, newMsg);
         } else {
           list.add(newMsg);
@@ -291,15 +295,17 @@ public class SmsMsgAccumulator {
         return true;
       }
       
+      // Retrieve current message
+      SmsMmsMessage msg = getMessage();
+      if (msg == null) return true;
+      
       // If there is a minimum count that we have not reached, return false
-      int minCount = ManagePreferences.splitMinMsg();
+      int minCount = msg.getSplitMsgOptions().splitMinMsg();
       if (list.size() < minCount) return false;
       
       // Otherwise, invoke the current location parser and see if it thinks
       // we have a complete message.  If we have an impossible parse failure
       // return complete so we can get rid of this message
-      SmsMmsMessage msg = getMessage();
-      if (msg == null) return true;
       
       boolean isPage = msg.isPageMsg(MsgParser.PARSE_FLG_SKIP_FILTER);
       if (isPage && !msg.isExpectMore()) return true;

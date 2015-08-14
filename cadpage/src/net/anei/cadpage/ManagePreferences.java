@@ -13,6 +13,7 @@ import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
 import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.SplitMsgOptions;
 import net.anei.cadpage.vendors.VendorManager;
 import android.content.Context;
 import android.content.Intent;
@@ -310,32 +311,45 @@ public class ManagePreferences {
     return prefs.getIntValue(R.string.pref_loglimit_key);
   }
   
-  public static boolean splitDirectPage() {
-    return prefs.getBoolean(R.string.pref_split_direct_page_key);
-  }
-  
   public static int partMsgTimeout() {
     return prefs.getIntValue(R.string.pref_msgtimeout_key);
   }
   
-  public static int splitMinMsg() {
-    return prefs.getIntValue(R.string.pref_split_min_msg_key);
+  public static SplitMsgOptions getDefaultSplitMsgOptions() {
+    return new SplitMsgOptionsDefault();
   }
-  
-  public static boolean splitBlankIns() {
-    return prefs.getBoolean(R.string.pref_split_blank_ins_key);
-  }
-  
-  public static boolean splitChkSender() {
-    return prefs.getBoolean(R.string.pref_split_chk_sender_key);
-  }
-  
-  public static boolean splitKeepLeadBreak() {
-    return prefs.getBoolean(R.string.pref_split_keep_lead_break_key);
-  }
-  
-  public static boolean revMsgOrder() {
-    return prefs.getBoolean(R.string.pref_rev_msg_order_key);
+
+  private static class SplitMsgOptionsDefault implements SplitMsgOptions {
+
+    @Override
+    public boolean splitDirectPage() {
+      return prefs.getBoolean(R.string.pref_split_direct_page_key);
+    }
+     
+    @Override
+    public int splitMinMsg() {
+      return prefs.getIntValue(R.string.pref_split_min_msg_key);
+    }
+    
+    @Override
+    public boolean splitBlankIns() {
+      return prefs.getBoolean(R.string.pref_split_blank_ins_key);
+    }
+    
+    @Override
+    public boolean splitChkSender() {
+      return prefs.getBoolean(R.string.pref_split_chk_sender_key);
+    }
+    
+    @Override
+    public boolean splitKeepLeadBreak() {
+      return prefs.getBoolean(R.string.pref_split_keep_lead_break_key);
+    }
+    
+    @Override
+    public boolean revMsgOrder() {
+      return prefs.getBoolean(R.string.pref_rev_msg_order_key);
+    }
   }
   
   public static boolean suppressDupMsg() {
