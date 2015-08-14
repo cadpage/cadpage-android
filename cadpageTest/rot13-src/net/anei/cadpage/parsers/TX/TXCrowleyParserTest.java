@@ -586,12 +586,9 @@ choyvp pynff GKPebjyrlCnefreGrfg rkgraqf OnfrCnefreGrfg {
         " rtbamnyrf: 28 jrrxf certanag naq univat aba fgbc cnva sbe 2 ubhef j/s  [05:01:52]",
 
         "PNYY:SQ-ZRQVPNY RZRETRAPL",
-        "NQQE:11",
-        "ZNQQE:11 & ERASEB FG",
-        "NCG:501",
-        "CYNPR:7 - Eraseb",
+        "CYNPR:7-11 - Eraseb",
+        "NQQE:501 ERASEB FG",
         "PVGL:Pebjyrl",
-        "K:ERASEB FG",
         "VASB:28 jrrxf certanag naq univat aba fgbc cnva sbe 2 ubhef j/s",
         "GVZR:05:01:52");
 

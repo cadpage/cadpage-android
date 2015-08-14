@@ -7,6 +7,17 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
+/*
+Supports:
+TXCrowley (Tarrant County)
+TXHutchins (Dallas County)
+TXKeller (Tarrant County)
+TXLufkin (Angelina County)
+TXGainesville (Cooke County)
+TXRoanoke (Denton County)
+TXSeabrook (Harris County)
+TXSeguin (Guadalupe COunty)
+ */
 
 public class DispatchA18Parser extends FieldProgramParser {
   
@@ -41,6 +52,7 @@ public class DispatchA18Parser extends FieldProgramParser {
     return super.getField(name);
   }
 
+  private static final Pattern PLACE_PTN = Pattern.compile("-(.*[^ ])- +(.*)");
   private static final Pattern DELIM_PTN = Pattern.compile("[-/,]");
   private static final Pattern BOX_PTN = Pattern.compile("^BOX *(\\d+)", Pattern.CASE_INSENSITIVE);
   private static final Pattern DIR_PTN = Pattern.compile("([NSEW]|NORTH|SOUTH|EAST|WEST)\\b *", Pattern.CASE_INSENSITIVE);
@@ -54,10 +66,14 @@ public class DispatchA18Parser extends FieldProgramParser {
       if (field.startsWith("-- ")) {
         field = field.substring(3).trim();
       } else if (field.startsWith("-")) {
-        int pt = field.indexOf('-',1);
-        if (pt < 0) abort();
-        data.strPlace = field.substring(1,pt).trim();
-        field = field.substring(pt+1).trim();
+        Matcher match = PLACE_PTN.matcher(field);
+        if (!match.matches()) abort();
+        data.strPlace = match.group(1);
+        field = match.group(2);
+        int pt = data.strPlace.lastIndexOf(" - ");
+        if (pt >= 0 && field.toUpperCase().startsWith(data.strPlace.substring(pt+3).trim().toUpperCase())) {
+          data.strPlace = data.strPlace.substring(0,pt).trim();
+        }
       } else abort();
       
       // Split up the address field
@@ -150,7 +166,7 @@ public class DispatchA18Parser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "ADDR APT PLACE CITY";
+      return "PLACE ADDR APT CITY";
     }
   }
   

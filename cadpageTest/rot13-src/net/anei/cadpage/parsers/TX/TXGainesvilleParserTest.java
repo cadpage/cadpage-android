@@ -1656,9 +1656,8 @@ choyvp pynff GKTnvarfivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         " wnarg.fvzcfba: EBJ 3   QNEX PBYBERQ PNE ZVQQYR BS EBJ  OYNPX FZBXR PBZVAT BHG SEBZ HAQR5E VG [15:06:04]",
 
         "PNYY:SQ CNFFRATRE IRUVPYR SVER",
-        "NQQE:ZNEG & YNJERAPR FG",
-        "NCG:1800",
-        "CYNPR:JNY",
+        "CYNPR:JNY-ZNEG",
+        "NQQE:1800 YNJERAPR FG",
         "PVGL:Tnvarfivyyr",
         "K:HF UVTUJNL 82/QRNQ RAQ",
         "OBK:81505",

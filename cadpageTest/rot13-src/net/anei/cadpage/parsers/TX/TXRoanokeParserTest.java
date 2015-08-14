@@ -736,9 +736,8 @@ choyvp pynff GKEbnabxrCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G56",
         "(RZF Pnyy) \aRZF Pnyy\a-SQ-Ebnabxr Sver Qrcnegzrag- 201 SNVEJNL QE, Ebnabxr\aCNEX QE//\a Sver Obk =",
         "PNYY:RZF Pnyy",
-        "NQQE:Ebnabxr Sver Qrcnegzrag & SNVEJNL QE",
-        "NCG:201",
-        "CYNPR:SQ",
+        "CYNPR:SQ-Ebnabxr Sver Qrcnegzrag",
+        "NQQE:201 SNVEJNL QE",
         "PVGL:Ebnabxr",
         "K:CNEX QE");
 
