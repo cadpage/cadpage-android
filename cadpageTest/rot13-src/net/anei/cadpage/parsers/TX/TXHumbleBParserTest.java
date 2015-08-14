@@ -5,6 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
+Uhzoyr, GK
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pvgl bs Uhzoyr SQ
@@ -111,6 +112,24 @@ Fraqre: <PNQ@Uhzoyrcbyvpr.pbz>
 (15000786;FZBV;1202 1FG FG;F UVEFPU;A UVEFPU;07/23/2015 04) PNQ:15000786;FZBV;1202 1FG FG;F UVEFPU;A UVEFPU;07/23/2015 04:28:41;FZBXR PBZVAT IRAGF\aNP JBEXRQ BA LRFGREQNL  [07/23/15 04:28:41 269]
 (Grkg Zrffntr) PNQ:UHSQ;RA1;QFG1;FG1;15000785;HAPB;9813-N ZRZBEVNY OYIQ;A ZRZBEVNY OYIQ;A HF 59;07/22/2015 11:25:03;41 SRZNYR   HAPBAFPVBHF  OHG OERNGUVAT  UNIVAT N FRVMHER  QBRF
 (UHSQ;RA1;QFG1;FG1;15000784;PNEQ;17026 ZRZCUVF FG;ZVNZV FG;07/22/2015 05) PNQ:UHSQ;RA1;QFG1;FG1;15000784;PNEQ;17026 ZRZCUVF FG;ZVNZV FG;07/22/2015 05:08:10;Rirag fcnjarq sebz PNEQVNP PBAFPVBHF.  [07/22/2015 05:08:10 268]\a[IVGNYF] Unf gur
+
+QvfcngpuBFFVCnefre fhopynff
+
+Gurer ner (ng yrnfg) guerr qvssrerag cnggreaf.  V guvax guvf jvyy pbire gurz nyy 
+
+( PNAPRY NQQE! PVGL VASB+
+| SLV? HAVP/P+? VQ PNYY ( QNGRGVZR VASBK+? PVGL NQQE HAVG/P+ 
+                        | HAVG/P+? VQ PNYY NQQE! K/M+? QNGRGVZR! VASB+ ) )
+
+Arrq svryq inyvqngvba cnggreaf sbe 
+VQ
+QNGRGVZR
+
+NAq pvgl gnoyr pbafvfgvat bs bar ragel
+UHZO = UHZOYR
+
+VASBK pna pbagnva havg naq pebff fgerrg svryqf.  Unir n cebprffvat
+svryq gung ybbxf sbe gubfr.
 
  */
 

@@ -1,6 +1,10 @@
 package net.anei.cadpage.parsers.CA;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -12,7 +16,7 @@ public class CAButteCountyParser extends FieldProgramParser {
   
   public CAButteCountyParser() {
     super(CITY_CODES, "BUTTE COUNTY", "CA",
-           "CALL ADDRCITY! X/Z+ Map:MAP Inc:ID! Date-Time:DATETIME! CALL");
+           "( Close-Inc:ID! CALL ADDR INFO/R! INFO/N+ | CALL ADDRCITY! X/Z+ Map:MAP Inc:ID! Date-Time:DATETIME! CALL )");
   }
   
   @Override
@@ -29,14 +33,17 @@ public class CAButteCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (!subject.equals("CAD Page")) return false;
+    
+    body = body.replace("Close: Inc#", "Close-Inc:");
     body = body.replace(" Inc#", " Inc:");
-    if (! parseFields(body.split(";"), 6, data)) return false;
-    String realCity = CITY_ADJ_TABLE.getProperty(data.strCity);
-    if (realCity != null) {
-      data.strPlace = data.strCity;
-      data.strCity = realCity;
-    }
-    return true;
+    return parseFields(body.split(";"), 4, data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("DATETIME")) return new MyDateTimeField();
+    return super.getField(name);
   }
   
   private class MyAddressCityField extends AddressCityField {
@@ -56,13 +63,15 @@ public class CAButteCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d\\d?-[A-Z]{3}-\\d{4})/(\\d\\d?:\\d\\d:\\d\\d)", Pattern.CASE_INSENSITIVE);
+  private static final DateFormat DATE_FMT = new SimpleDateFormat("dd-MMM-yyyy");
   private class MyDateTimeField extends Field {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf('/');
-      if (pt < 0) abort();
-      data.strDate = field.substring(0,pt).trim();
-      data.strTime = field.substring(pt+1).trim();
+      Matcher match = DATE_TIME_PTN.matcher(field);
+      if (!match.matches()) return;   // Probably truncated
+      setDate(DATE_FMT, match.group(1), data);
+      data.strTime = match.group(2);
     }
     
     @Override
@@ -72,10 +81,8 @@ public class CAButteCountyParser extends FieldProgramParser {
   }
   
   @Override
-  public Field getField(String name) {
-    if (name.equals("ADDRCITY")) return new MyAddressCityField();
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    return super.getField(name);
+  public String adjustMapCity(String city) {
+    return convertCodes(city, CITY_ADJ_TABLE);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{

@@ -15,7 +15,7 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@charlestoncounty.org";
+    return "@charlestoncounty.org,8573031986";
   }
   
   @Override
@@ -38,12 +38,16 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
   }
 
   private boolean parseFixedFieldMsg(String subject, String body, Data data) {
-    if (!subject.equals("Dispatch Info")) return false;
+    if (!subject.equals("Dispatch Info") && !body.startsWith("CHARLESTON COUNTY: ")) return false;
     FParser p = new FParser(body);
     
-    if (p.check("*")) {
+    int callLen;
+    if (p.check("*")) callLen = 28;
+    else if (p.check("CHARLESTON COUNTY: ")) callLen = 29;
+    else callLen = -1;
+    if (callLen > 0) {
       setFieldList("CALL ADDR APT X CH UNIT");
-      data.strCall = p.get(28);
+      data.strCall = p.get(callLen);
       if (!p.check(" ") || p.check(" ")) return false;
       parseAddress(p.get(39), data);
       if (!p.check(" ")) return false;

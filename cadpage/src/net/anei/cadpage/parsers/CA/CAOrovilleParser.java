@@ -1,7 +1,9 @@
 package net.anei.cadpage.parsers.CA;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 
 /**
@@ -23,6 +25,17 @@ public class CAOrovilleParser extends DispatchA20Parser {
     return MAP_FLG_SUPPR_LA;
   }
   
+  private static final Pattern ALPHA_UNIT_PTN = Pattern.compile("[A-Z]+");
+  
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (!super.parseMsg(subject, body, data)) return false;
+    
+    // If dispatch name sneaks into unit field, destroy t
+    if (ALPHA_UNIT_PTN.matcher(data.strUnit).matches()) data.strUnit = "";
+    return true;
+  }
+
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
       "FDASSIST", "PUBLIC ASSIST",
       "FDFIRE1",  "VEHICLE/OTHER FIRE",
@@ -43,6 +56,5 @@ public class CAOrovilleParser extends DispatchA20Parser {
       "FDTC2",    "T/C POSSIBLE MCI",
       "FDW/ALAR", "WATER FLOW ALARM",
       "FDWATER",  "WATER RESCUE"
-
   });
 }

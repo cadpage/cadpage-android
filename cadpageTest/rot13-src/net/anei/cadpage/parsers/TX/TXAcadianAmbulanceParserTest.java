@@ -920,7 +920,7 @@ choyvp pynff GKNpnqvnaNzohynaprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:3101 R Fgngr Ujl 71",
         "ZNQQE:3101 R FGNGR 71",
         "K:Neran Qe/Fu 71 Pebffbire",
-        "PVGL:Onfgebc",
+        "PVGL:Onfgebc, Onfgebc",
         "ZNC:NH/181W");
 
     qbGrfg("G5",
