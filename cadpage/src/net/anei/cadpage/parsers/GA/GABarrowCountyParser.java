@@ -10,6 +10,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class GABarrowCountyParser extends SmartAddressParser {
   
   private static final Pattern CALLID_CALL = Pattern.compile("(\\d+[A-Z]+|S9) +(.*)"); //the " +" supports a tab that's been converted to spaces
+  private static final Pattern APT_X_PTN = Pattern.compile("(?:Apt:(.*) Bldg(.*) )?XS: *(.*)");
   private static final Pattern NAME = Pattern.compile("([A-Z]+, ?[A-Z]+(?: [A-Z](?=\\s|$))?(?: & [A-Z]+(?: [A-Z](?=\\s|$))?)?)(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern CAD_INFO = Pattern.compile("(\\d{4}-\\d+) *(.*)");
   private static final Pattern SUBDIVISION_PTN = Pattern.compile(".*? SUBDIVISION");
@@ -47,18 +48,33 @@ public class GABarrowCountyParser extends SmartAddressParser {
       
       else {
         //check format
-        int di = subject.indexOf("                 ");
-        if (di == -1) return false;
-        
-        //parse subject to CALL ADDR
-        data.strCall = subject.substring(0, di);
-        parseAddress(subject.substring(di+17), data);
-        
-        if (!body.startsWith("XS: ")) return false;
-        parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body.substring(4), data);
-        left = getLeft();
+        int di = subject.indexOf("     ");
+        if (di >= 0) {
+          
+          //parse subject to CALL ADDR
+          data.strCall = subject.substring(0, di);
+          parseAddress(subject.substring(di+5).trim(), data);
+          
+          Matcher match = APT_X_PTN.matcher(body);
+          if (!match.matches()) return false;
+          String apt = append(getOptGroup(match.group(2)), "-", getOptGroup(match.group(1)));
+          data.strApt = append(data.strApt, "-", apt);
+          parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, match.group(3).trim(), data);
+          left = getLeft();
+        } else {
+          data.strCall = subject;
+          parseAddress(StartType.START_ADDR, body, data);
+          body = getLeft();
+          Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body);
+          if (res.isValid()) {
+            res.getData(data);
+            body = getLeft();
+          }
+          data.strSupp = body;
+          return true;
+        }
       }
-    } 
+    }
     
     else { 
       //get id if not already parsed and present
@@ -114,7 +130,11 @@ public class GABarrowCountyParser extends SmartAddressParser {
     "AUTO ACCIDENT WITH PEDESTRIAN",
     "AUTO ACCIDENT/OVERTURNED/INJ",
     "CARDIAC/RESPITORY ARREST",
+    "COMMERCIAL FIRE",
     "DEAD PERSON",
+    "MULTIFAMILY FIRE",
+    "PLANE  AIRCRAFT/PLANE DOWN",
+    "PLANEW AIRCRAFT/PLANE DOWN",
     "STRUCTURE FIRE",
     "SWAT CALL OUT",
     "UNKNOWN TYPE FIRE/SITUATION",
@@ -125,31 +145,60 @@ public class GABarrowCountyParser extends SmartAddressParser {
   public static String[] MW_STREETS = new String[]{
     "BARBER CREEK",
     "BARLEY CREEK",
+    "BARROW INDUSTRIAL",
     "BEE MAXEY",
     "BETHLEHEM CHURCH",
+    "BLDG HAYMON MORRIS",
+    "BLDG WADE",
     "BUENA VISTA",
     "BURSON MADDOX",
     "BUSH CHAPEL DR",
     "CARL-CEDAR HILL",
     "CARL-MIDWAY CH",
     "CARSON WAGES",
+    "CARTER HILL CH",
+    "CEDAR VALLEY",
+    "CENTURY OAKS",
     "CHICKENYLE",
+    "CORINTH CHURCH",
     "COUNTYINE-AUBURN",
+    "COVERED BRIDGE",
     "DOOLEY TOWN",
     "EAST BROAD",
+    "EAST NORTHCREST",
+    "ED HOGAN",
+    "GREEN VALLEY",
     "GREY FOX",
+    "HAL JACKSON",
+    "HICKORY RIDGE",
     "HIDDEN HAMLET",
+    "HILL'S SHOP",
     "HOG MOUNTAIN",
+    "LIVE OAK",
     "LOIS KINNEY",
+    "MANNING GIN",
     "MT MORIAH",
     "PARKS MILL",
     "PATRICK MILL ",
     "PATRICK MILL",
+    "PICKLE SIMON",
+    "PINE ROCK",
+    "PINKSTON FARM",
     "PLEASANT HILL CH",
     "RAT KINNEY",
     "RED FOX",
     "ROCKWELL CHURCH ",
+    "ROCKWELL CHURCH",
+    "ROCKY POINT",
+    "RUSSELL RIDGE",
+    "SAINT IVES",
     "SEVEN OAKS SUBDIVISION",
+    "ST ANTHONY",
+    "ST GERMAINE",
+    "SWEET GUM",
+    "TANNERS BRIDGE",
+    "THURMOND PLANTATION THURMOND",
     "TOM MILLER",
+    "TURTLE CREEK"
   };
 }
