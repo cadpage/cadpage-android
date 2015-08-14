@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">08122015</string>
-  <string name="release_version">v1.8.52</string>
+  <string name="release_date">08142015</string>
+  <string name="release_version">v1.8.53</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.53\n
+Location Fixes:\n
+Madison County, NY\n
+Charleston County, SC\n
+Keller, TX\n
+Franklin County, VA\n
+\n      
 v1.8.52\n
 New Locations:\n
 Riley County, KS\n
@@ -59,19 +66,7 @@ Kootenai County, ID\n
 Kosciusko County, IN\n
 Marion County, IN\n
 Talbot County, MD\n
-Parker County, TX\n
-\n
-v1.8.48\n
-New Locations:\n
-Onondaga County, NY (alt)\n
-\n
-Location Fixes:\n
-Talbot County, MD\n
-Sheburne County, MN\n
-Chatauqua County, NY\n
-Alexander County, NC\n
-Macon County, NC\n
-Linn County, OR
+Parker County, TX
   </string>
 </resources>
   
