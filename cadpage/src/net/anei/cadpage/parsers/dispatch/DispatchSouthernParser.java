@@ -196,7 +196,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
       String delim = match.group(1);
       if (delim.charAt(0) != ' ') {
         body = body.replace(" OCA:", delim + "OCA:");
-        if (!parseFields(body.split(delim), data)) return false;
+        if (!parseFields(body.split(delim + '+'), data)) return false;
       }
       
       // Blank delimited fields get complicated
