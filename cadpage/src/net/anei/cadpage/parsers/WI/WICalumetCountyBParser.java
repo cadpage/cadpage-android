@@ -11,7 +11,7 @@ public class WICalumetCountyBParser extends FieldProgramParser {
   
   public WICalumetCountyBParser() {
     super("CALUMET COUNTY", "WI",
-          "ADDR PLACE CITY CALL CALL+? NONE! ID TIME ");
+          "ADDR PLACE CITY CALL CALL+? ( NONE ID! | ID EMPTY NONE! ) TIME");
   }
   
   @Override
@@ -36,12 +36,23 @@ public class WICalumetCountyBParser extends FieldProgramParser {
   
   private class MyIdField extends IdField {
     @Override
-    public void parse(String field, Data data) {
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
       if (field.startsWith("Run# ")) {
         super.parse(field.substring(5).trim(), data);
+        return true;
       } else {
-        if (!"Run# ".startsWith(field)) abort();
+        return (field.length() > 0 && "Run# ".startsWith(field));
       }
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
   

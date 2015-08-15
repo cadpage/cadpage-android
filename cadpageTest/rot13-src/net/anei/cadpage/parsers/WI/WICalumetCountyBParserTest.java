@@ -21,8 +21,9 @@ Pbagnpg: Nzore Bfbjfxv <nbfbjfxv@tbyqpebff.bet>
 Fraqre: QbAbgErcyl@tbyqpebff.bet
 Fhowrpg:Tbyq Pebff Nyreg - cneg 1 bs 1\aEP:2915 A ZRNQR FG/162 ZRNQR FG/NCCYRGBA/Aba Rzretrapl/Fvpx Crefba/OBJRY BOFG/<Abar>/Eha# 7742/
 
-** Abg Cnefvat **
-(Tbyq Pebff Nyreg - cneg 1 bs 1) EP:Wbo# 0028-N (Eha# 12637) Nyreg: Fcrpvny Vafgehpgvbaf: QBRF ABG TRBPBQR - ERFCBAFR MBAR VF 34-PVGL BS
+Pbagnpg: Gbz Znppb <gznppb1@tznvy.pbz>
+Fraqre: QbAbgErcyl@tbyqpebff.bet
+(Tbyq Pebff Nyreg - cneg 1 bs 1) EP:411 PBYHZOHF NIR//OEVYYVBA/Aba Rzretrapl/Fvpx Crefba/Eha# 13873//<Abar>/21:19/911 Pnyy (Pbhagl)//
 
 */
 
@@ -106,6 +107,19 @@ choyvp pynff JVPnyhzrgPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Aba Rzretrapl / Fvpx Crefba / OBJRY BOFG",
         "VQ:7742");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgGbzZnppb2() {
+
+    qbGrfg("G1",
+        "(Tbyq Pebff Nyreg - cneg 1 bs 1) EP:411 PBYHZOHF NIR//OEVYYVBA/Aba Rzretrapl/Fvpx Crefba/Eha# 13873//<Abar>/21:19/911 Pnyy (Pbhagl)//",
+        "NQQE:411 PBYHZOHF NIR",
+        "PVGL:OEVYYVBA",
+        "PNYY:Aba Rzretrapl / Fvpx Crefba",
+        "VQ:13873",
+        "GVZR:21:19");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
