@@ -4,6 +4,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 /**
  * Jefferson County, CO
@@ -30,12 +31,14 @@ public class COJeffersonCountyAParser extends FieldProgramParser {
   public boolean parseMsg(String subject, String body, Data data) {
     
     if (RUN_REPORT_PTN.matcher(body).matches()) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
+      setFieldList("INFO");
+      data.msgType = MsgType.RUN_REPORT;
+      data.strSupp = body;
       return true;
     }
     
     body = body.replace("Map Pg", " Pg:").replace("Alarm#", " Case #:");
+    body = body.replace("Case#;", "Case #:");
     body = MISSING_COLON_PTN.matcher(body).replaceAll(":");
     body = MISSING_BLANK_PTN.matcher(body).replaceAll(" ");
     body = body.replace(" Case#:", " Case #:");

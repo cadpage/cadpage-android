@@ -271,7 +271,7 @@ class Active911Vendor extends Vendor {
       "US/CO/USAMobility",                "CODouglasCountyB",
       "US/CO/Vail",                       "COEagleCounty",
       "US/CO/WeldCounty",                 "COWeldCounty",
-      "US/CO/WestMetroFire",              "COJeffersonCountyA",
+      "US/CO/WestMetroFire",              "COJeffersonCounty",
       "US/CT/BethelPD",                   "CTBethel",
       "US/CT/Cheshire",                   "CTCheshire",
       "US/CT/CityofLedyard",              "CTNewLondonCounty",

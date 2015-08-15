@@ -50,6 +50,9 @@ public class COJeffersonCountyBParser extends SmartAddressParser {
     
     if (body.startsWith("Add:") || body.startsWith("Alarm #")) return false;
     
+    // Reject subject that looks like forwarded message header
+    if (subject.startsWith("Forwarded")) subject = "";
+    
     // Strip off leading source prefix
     Matcher match = SRC_PREFIX_PTN.matcher(body);
     if (match.matches()) body = match.group(1);
@@ -119,7 +122,7 @@ public class COJeffersonCountyBParser extends SmartAddressParser {
     
     // No such luck
     // Use the address parser to break things out
-    parseAddress(StartType.START_PLACE, body, data);
+    parseAddress(StartType.START_PLACE, FLAG_IGNORE_AT, body, data);
     if (!isValidAddress()) return false;
     String left = getLeft();
     match = MM_PTN.matcher(left);
@@ -127,7 +130,11 @@ public class COJeffersonCountyBParser extends SmartAddressParser {
       data.strAddress = append(data.strAddress, " ", match.group(1));
       left = match.group(2);
     }
-    if (left.length() == 0) return false;
+    if (left.length() == 0) {
+      data.strCall = data.strPlace;
+      data.strPlace = "";
+      return true;
+    }
     parseCallAndInfo(left, data);
     return true;
   }
