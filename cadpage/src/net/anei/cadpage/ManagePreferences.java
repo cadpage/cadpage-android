@@ -30,7 +30,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 39;
+  private static final int PREFERENCE_VERSION = 40;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -314,6 +314,10 @@ public class ManagePreferences {
   public static int partMsgTimeout() {
     return prefs.getIntValue(R.string.pref_msgtimeout_key);
   }
+
+  public static boolean overrideActive911SplitOptions() {
+    return prefs.getBoolean(R.string.pref_override_active911_split_key);
+  }
   
   public static SplitMsgOptions getDefaultSplitMsgOptions() {
     return new SplitMsgOptionsDefault();
@@ -353,7 +357,7 @@ public class ManagePreferences {
 
     @Override
     public boolean mixedMsgOrder() {
-      return false;
+      return prefs.getBoolean(R.string.pref_mix_msg_order_key);
     }
   }
   
@@ -1113,10 +1117,12 @@ public class ManagePreferences {
         R.string.pref_timeout_key,
         R.string.pref_mms_timeout_key,
         R.string.pref_loglimit_key,
+        R.string.pref_override_active911_split_key,
         R.string.pref_split_direct_page_key,
         R.string.pref_msgtimeout_key,
         R.string.pref_split_min_msg_key,
         R.string.pref_rev_msg_order_key,
+        R.string.pref_mix_msg_order_key,
         R.string.pref_split_blank_ins_key,
         R.string.pref_split_chk_sender_key,
         R.string.pref_split_keep_lead_break_key,

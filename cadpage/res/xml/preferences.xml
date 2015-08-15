@@ -561,59 +561,79 @@
           android:entryValues="@array/pref_loglimit_values"
           android:dialogTitle="@string/pref_loglimit_title"
           android:defaultValue="@string/pref_loglimit_default"/>
-          
-      <CheckBoxPreference
-          android:key="@string/pref_split_direct_page_key"
-          android:title="@string/pref_split_direct_page_title"
-          android:summaryOn="@string/pref_split_direct_page_summaryon"
-          android:summaryOff="@string/pref_split_direct_page_summaryoff"
-          android:defaultValue="@string/pref_split_direct_page_default"/>
       
-      <net.anei.cadpage.preferences.EditTextPreference  
-          android:dialogTitle="@string/pref_msgtimeout_title"
-          android:dialogMessage="@string/pref_msgtimeout_dialog"
-          android:key="@string/pref_msgtimeout_key"
-          android:title="@string/pref_msgtimeout_title"
-          android:summary="@string/pref_msgtimeout_summary"
-          android:inputType="number"
-          android:defaultValue="@string/pref_msgtimeout_default"/>
-          
-      <net.anei.cadpage.preferences.ListPreference
-          android:key="@string/pref_split_min_msg_key"
-          android:title="@string/pref_split_min_msg_title"
-          android:summary="@string/pref_split_min_msg_summary"
-          android:entries="@array/pref_split_min_msg_values"
-          android:entryValues="@array/pref_split_min_msg_values"
-          android:dialogTitle="@string/pref_split_min_msg_title"
-          android:defaultValue="@string/pref_split_min_msg_default"/>
-          
-      <CheckBoxPreference
-          android:key="@string/pref_rev_msg_order_key"
-          android:title="@string/pref_rev_msg_order_title"
-          android:summaryOn="@string/pref_rev_msg_order_summaryon"
-          android:summaryOff="@string/pref_rev_msg_order_summaryoff"
-          android:defaultValue="@string/pref_rev_msg_order_default"/>
-          
-      <CheckBoxPreference
-          android:key="@string/pref_split_blank_ins_key"
-          android:title="@string/pref_split_blank_ins_title"
-          android:summaryOn="@string/pref_split_blank_ins_summaryon"
-          android:summaryOff="@string/pref_split_blank_ins_summaryoff"
-          android:defaultValue="@string/pref_split_blank_ins_default" />
-          
-      <CheckBoxPreference
-          android:key="@string/pref_split_chk_sender_key"
-          android:title="@string/pref_split_chk_sender_title"
-          android:summaryOn="@string/pref_split_chk_sender_summaryon"
-          android:summaryOff="@string/pref_split_chk_sender_summaryoff"
-          android:defaultValue="@string/pref_split_chk_sender_default" />
-          
-      <CheckBoxPreference
-          android:key="@string/pref_split_keep_lead_break_key"
-          android:title="@string/pref_split_keep_lead_break_title"
-          android:summaryOn="@string/pref_split_keep_lead_break_summaryon"
-          android:summaryOff="@string/pref_split_keep_lead_break_summaryoff"
-          android:defaultValue="@string/pref_split_keep_lead_break_default" />
+	    <PreferenceScreen
+	      android:title="@string/pref_split_msg_merge_title"
+	      android:summary="@string/pref_split_msg_merge_summary">
+        
+        <CheckBoxPreference
+            android:key="@string/pref_override_active911_split_key"
+            android:title="@string/pref_override_active911_split_title"
+            android:summaryOn="@string/pref_override_active911_split_summaryon"
+            android:summaryOff="@string/pref_override_active911_split_summaryoff"
+            android:defaultValue="false"/>
+	        	      
+	      <CheckBoxPreference
+	          android:key="@string/pref_split_direct_page_key"
+	          android:title="@string/pref_split_direct_page_title"
+	          android:summaryOn="@string/pref_split_direct_page_summaryon"
+	          android:summaryOff="@string/pref_split_direct_page_summaryoff"
+	          android:defaultValue="@string/pref_split_direct_page_default"/>
+	      
+	      <net.anei.cadpage.preferences.EditTextPreference  
+	          android:dialogTitle="@string/pref_msgtimeout_title"
+	          android:dialogMessage="@string/pref_msgtimeout_dialog"
+	          android:key="@string/pref_msgtimeout_key"
+	          android:title="@string/pref_msgtimeout_title"
+	          android:summary="@string/pref_msgtimeout_summary"
+	          android:inputType="number"
+	          android:defaultValue="@string/pref_msgtimeout_default"/>
+	          
+	      <net.anei.cadpage.preferences.ListPreference
+	          android:key="@string/pref_split_min_msg_key"
+	          android:title="@string/pref_split_min_msg_title"
+	          android:summary="@string/pref_split_min_msg_summary"
+	          android:entries="@array/pref_split_min_msg_values"
+	          android:entryValues="@array/pref_split_min_msg_values"
+	          android:dialogTitle="@string/pref_split_min_msg_title"
+	          android:defaultValue="@string/pref_split_min_msg_default"/>
+	          
+	      <CheckBoxPreference
+	          android:key="@string/pref_rev_msg_order_key"
+	          android:title="@string/pref_rev_msg_order_title"
+	          android:summaryOn="@string/pref_rev_msg_order_summaryon"
+	          android:summaryOff="@string/pref_rev_msg_order_summaryoff"
+	          android:defaultValue="@string/pref_rev_msg_order_default"/>
+            
+        <CheckBoxPreference
+            android:key="@string/pref_mix_msg_order_key"
+            android:title="@string/pref_mix_msg_order_title"
+            android:summaryOn="@string/pref_mix_msg_order_summaryon"
+            android:summaryOff="@string/pref_mix_msg_order_summaryoff"
+            android:defaultValue="false"/>
+	      	          
+	      <CheckBoxPreference
+	          android:key="@string/pref_split_blank_ins_key"
+	          android:title="@string/pref_split_blank_ins_title"
+	          android:summaryOn="@string/pref_split_blank_ins_summaryon"
+	          android:summaryOff="@string/pref_split_blank_ins_summaryoff"
+	          android:defaultValue="@string/pref_split_blank_ins_default" />
+	          
+	      <CheckBoxPreference
+	          android:key="@string/pref_split_chk_sender_key"
+	          android:title="@string/pref_split_chk_sender_title"
+	          android:summaryOn="@string/pref_split_chk_sender_summaryon"
+	          android:summaryOff="@string/pref_split_chk_sender_summaryoff"
+	          android:defaultValue="@string/pref_split_chk_sender_default" />
+	          
+	      <CheckBoxPreference
+	          android:key="@string/pref_split_keep_lead_break_key"
+	          android:title="@string/pref_split_keep_lead_break_title"
+	          android:summaryOn="@string/pref_split_keep_lead_break_summaryon"
+	          android:summaryOff="@string/pref_split_keep_lead_break_summaryoff"
+	          android:defaultValue="@string/pref_split_keep_lead_break_default" />
+	      
+	    </PreferenceScreen>  
       
       <CheckBoxPreference
           android:key="@string/pref_suppress_dup_msg_key"

@@ -382,7 +382,7 @@ public class SmsMmsMessage implements Serializable {
         missingParsers = results[1];
         if (vendorCode != null && vendorCode.equals("Active911")) {
           MsgParser parser = ManageParsers.getInstance().getParser(results[0]);
-          if (parser != null) {
+          if (!ManagePreferences.overrideActive911SplitOptions() && parser != null) {
             splitMsgOptions = parser.getActive911SplitMsgOptions();
           }
         }
@@ -501,18 +501,21 @@ public class SmsMmsMessage implements Serializable {
     return true;
   }
 
+  /**
+   * Construct parseInfo message object
+   * @param lock if message order should be locked
+   */
   private void buildParseInfo() {
-    SplitMsgOptions options = getSplitMsgOptions();
     parseInfo = bldParseInfo();
     if (extraMsgBody != null) {
-      String msgSubject = parseInfo.getSubject();
-      String parseMsgBody = parseInfo.getMessageBody();
-      String delim = (options.splitBlankIns() ? " " : "");
-      for (String msgBody : extraMsgBody) {
-        Message pInfo = bldParseInfo(true, subject, msgBody);
-        parseMsgBody = parseMsgBody + delim + pInfo.getMessageBody();
+      boolean lock = getMsgCount() > 0;
+      String[] msgParts = new String[extraMsgBody.size()+1];
+      msgParts[0] = parseInfo.getMessageBody();
+      for (int jj = 0; jj<extraMsgBody.size(); jj++) {
+        Message pInfo = bldParseInfo(true, subject, extraMsgBody.get(jj));
+        msgParts[jj+1] = pInfo.getMessageBody();
       }
-      parseInfo = bldParseInfo(false, msgSubject, parseMsgBody);
+      parseInfo = new MessageBuilder(this).buildMessage(msgParts, lock);
     }
   }
   
@@ -547,7 +550,7 @@ public class SmsMmsMessage implements Serializable {
   
   /**
    * Try to parse this message as a CAD page
-   * @param flags parse falgs
+   * @param flags parse flags
    * @return true if this has been identified and parsed as either a CAD page
    * or a general alert
    */

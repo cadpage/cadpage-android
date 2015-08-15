@@ -338,9 +338,19 @@
   <string name="pref_defstate_dialog">Enter default state location</string>
 
   <string name="pref_loglimit_title">Message Report Limit</string>
-  <string name="pref_loglimit_summary">Number of messages to include in problem
-    reports\nCur value: %s</string>
-
+  <string name="pref_loglimit_summary">
+      Number of messages to include in problem reports\nCur value: %s
+  </string>
+  
+  <string name="pref_split_msg_merge_title">Split Alert Merge Options</string>
+  <string name="pref_split_msg_merge_summary">
+      Options that control how split up alert messages are merged back into a single alert
+  </string>
+  
+  <string name="pref_override_active911_split_title">Override Active911 Split Alert Settings</string>
+  <string name="pref_override_active911_split_summaryon">Recommended Active911 settings will be overridden</string>
+  <string name="pref_override_active911_split_summaryoff">Recommended Active911 settings will be used</string>
+  
   <string name="pref_split_direct_page_title">Check for Split Direct Pages</string>
   <string name="pref_split_direct_page_summaryon">Direct pages will be checked for split alert messages</string>
   <string name="pref_split_direct_page_summaryoff">Direct pages will be not checked for split alert messages</string>
@@ -370,7 +380,11 @@
   <string name="pref_rev_msg_order_title">Reverse split msg order</string>
   <string name="pref_rev_msg_order_summaryon">Split CAD page messages will be expected in last to first order</string>
   <string name="pref_rev_msg_order_summaryoff">Split CAD page messages will be expected in first to last order</string>
-
+  
+  <string name="pref_mix_msg_order_title">Mixed split msg order</string>
+  <string name="pref_mix_msg_order_summaryon">Split CAD page messages will always be in consistent order</string>
+  <string name="pref_mix_msg_order_summaryoff">Split CAD page messages may not be in consistent order</string>
+  
   <string name="pref_suppress_dup_msg_title">Suppress duplicate calls</string>
   <string name="pref_suppress_dup_msg_summaryon">Duplicate calls will be suppressed</string>
   <string name="pref_suppress_dup_msg_summaryoff">Duplicate calls will be processed</string>

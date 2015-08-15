@@ -283,8 +283,18 @@
   <string name="pref_defstate_title">Förvald stat/stad</string>
   <string name="pref_defstate_summary">Aktuellt värde: %s</string>
   <string name="pref_defstate_dialog">Välj ort i förvald stat</string>
+  
   <string name="pref_loglimit_title">Gräns för meddelanderapport</string>
   <string name="pref_loglimit_summary">Antal meddelanden som inkluderas i felrapport\nAktuellt värde : %s</string>
+    
+  <string name="pref_split_msg_merge_title">Split Alert Merge Options</string>     <!-- Translate -->
+  <string name="pref_split_msg_merge_summary">     <!-- Translate -->
+      Options that control how split up alert messages are merged back into a single alert
+  </string>
+  
+  <string name="pref_override_active911_split_title">Override Active911 Split Alert Settings</string>     <!-- Translate -->
+  <string name="pref_override_active911_split_summaryon">Recommended Active911 settings will be overridden</string>     <!-- Translate -->
+  <string name="pref_override_active911_split_summaryoff">Recommended Active911 settings will be used</string>     <!-- Translate -->
   
   <string name="pref_split_direct_page_title">Kolla efter delade larmmeddelanden från meddelandeservice</string>                                   
   <string name="pref_split_direct_page_summaryon">Larmmeddelanden från meddelandeservice kommer att kontrolleras så att de ej är uppdelade</string>       
@@ -303,12 +313,15 @@
   <string name="pref_split_chk_sender_title">Split msg check sender addr</string>
   <string name="pref_split_chk_sender_summaryon">Avsändaradress kommer att kontrolleras när delade meddelanden sätts ihop</string>
   <string name="pref_split_chk_sender_summaryoff">Avsändaradress kommer inte att kontrolleras när delade meddelanden sätts ihop</string>
+  
   <string name="pref_rev_msg_order_title">Reversera ordning i delade meddelanden</string>
+  <string name="pref_rev_msg_order_summaryon">Delade Cadpag Delade Cadpage-meddelanden kommer att läsas i ordning sist till först</string>
+  <string name="pref_rev_msg_order_summaryoff">Delade Cadpage-meddelanden kommer att läsas i ordning först till sist</string>
+  
   <string name="pref_split_keep_lead_break_title">Radbrytining i delade meddelanden</string>
   <string name="pref_split_keep_lead_break_summaryon">Inledande radbrytning i delade meddelanden kommer att bibehållas</string>
   <string name="pref_split_keep_lead_break_summaryoff">Inledande radbrytning i delade meddelanden kommer att tas bort</string>
-  <string name="pref_rev_msg_order_summaryon">Delade Cadpag Delade Cadpage-meddelanden kommer att läsas i ordning sist till först</string>
-  <string name="pref_rev_msg_order_summaryoff">Delade Cadpage-meddelanden kommer att läsas i ordning först till sist</string>
+
   <string name="pref_suppress_dup_msg_title">Ignorera dubbla larm</string>
   <string name="pref_suppress_dup_msg_summaryon">Dubbla larm kommer att ignoreras</string>
   <string name="pref_suppress_dup_msg_summaryoff">Dubbla larm kommer att processas</string>
@@ -320,6 +333,11 @@
   <string name="pref_activate_scanner_title">Öppna automatiskt scannerkanal</string>
   <string name="pref_activate_scanner_summaryon">Scannerkanal kommer att öppnas automatiskt</string>
   <string name="pref_activate_scanner_summaryoff">Scannerkanal kommer inte att öppnas automatiskt</string>
+  
+  <string name="pref_mix_msg_order_title">Mixed split msg order</string>  <!-- Translate -->
+  <string name="pref_mix_msg_order_summaryon">Split CAD page messages will always be in consistent order</string>  <!-- Translate -->
+  <string name="pref_mix_msg_order_summaryoff">Split CAD page messages may not be in consistent order</string>  <!-- Translate -->
+  
   <string name="pref_scanner_channel_title">Scannerkanal</string>
   <string name="pref_publish_pages_title">Publicera larmärenden</string>
   <string name="pref_publish_pages_summaryon">Larmärenden kommer att publiceras för 3:e partsapplikation</string>

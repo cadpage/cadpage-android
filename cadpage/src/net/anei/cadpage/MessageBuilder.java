@@ -15,62 +15,90 @@ public class MessageBuilder {
     this.options = origMsg.getSplitMsgOptions();
   }
   
-  public Message buildMessage(String[] msgBodyList) {
+  /**
+   * Accumulate one or more message parts into a single Message object
+   * @param msgBodyList array of message parts
+   * @param lock true of message order is locked
+   * @return
+   */
+  public Message buildMessage(String[] msgBodyList, boolean lock) {
     
     // Life gets easy if there is only one message
     if (msgBodyList.length == 1) return  bldMessage(msgBodyList[0]);
     
     // Only slightly less easier if the message order is known
-    if (!options.mixedMsgOrder()) {
+    if (lock || !options.mixedMsgOrder()) {
       String body = buildMsgBody(msgBodyList);
       return bldMessage(body);
     }
     
-    // Otherwise life gets complicated.  Start by saving a copy of the message body list
-    this.msgBodyList = new String[msgBodyList.length];
-    System.arraycopy(msgBodyList, 0, this.msgBodyList, 0, msgBodyList.length);
+    // Otherwise life gets complicated.
+    this.msgBodyList = msgBodyList;
     
-    // Run through all the possible 2 part starting sequences
-    // selecting the most promising one.
-    int bestScore = Integer.MIN_VALUE;
-    ParseResult bestResult = null;
     int[] msgOrder = new int[msgBodyList.length];
     
-    for (int p1 = 0; p1 < msgBodyList.length; p1++) {
-      msgOrder[0] = p1;
-      for (int p2 = 0; p2 < msgBodyList.length; p2++) {
-        if (p1 == p2) continue;
-        msgOrder[1] = p2;
-        if (msgOrder.length == 3) {
-          for (int p3 = 0; p3 < msgBodyList.length; p3++) {
-            if (p3 != p1 && p3 != p2) {
-              msgOrder[2] = p3;
-              break;
-            }
+    // Now thing get complicated.  We are going to step through each
+    // position by pairs.  Stopping just before the last one because
+    // the last position can always be autofilled
+    for (int n = 1; n < msgBodyList.length; n+=2) {
+      
+      // for each pair, try all combinations of two
+      // parts from the remaining parts
+      resetBestResult();
+      for (int p1 = 0; p1 < msgBodyList.length; p1++) {
+        if (isIndexUsed(p1, msgOrder, n-1)) continue;
+        msgOrder[n-1] = p1;
+        if (n+1 == msgBodyList.length) {
+          trial(msgOrder, n);
+        }
+        else {
+          for (int p2 = 0; p2 < msgBodyList.length; p2++) {
+            if (isIndexUsed(p2, msgOrder, n)) continue;
+            msgOrder[n] = p2;
+            trial(msgOrder, n+1);
           }
         }
-        ParseResult result = new ParseResult(msgOrder);
-        if (result.getScore() > bestScore) {
-          bestScore = result.getScore();
-          bestResult = result;
-        }
       }
+      
+      // Then copy the best result back to our working message order array
+      int[] bestOrder = bestResult.getMsgOrder();
+      System.arraycopy(bestOrder, 0, msgOrder, 0, bestOrder.length);
     }
     
-    while (msgOrder.length < msgBodyList.length) {
-      int n = msgOrder.length;
-      int nn = n;
-      if (msgBodyList.length == nn+1) nn++;
-      int[] oldMsgOrder = msgOrder;
-      
-      
-      
-    }
-    
-    
-    return null;
+    // We have a result!!!!!
+    return bestResult.getMessage();
   }
   
+  private int bestScore;
+  private ParseResult bestResult;
+  
+  private void resetBestResult() {
+    bestScore = Integer.MIN_VALUE;
+    bestResult = null;
+  }
+  
+  /**
+   * Perferm a trial parse for a particular message order
+   * @param msgOrder Array containing the message order indexes
+   * @param n Number of elements that have been set in msgOrder
+   */
+  private void trial(int[] msgOrder, int n) {
+    ParseResult result = new ParseResult(bldWorkingMsgOrder(msgOrder, n));
+    int score = result.getScore();
+    if (score > bestScore) {
+      bestScore = score;
+      bestResult = result;
+    }
+  }
+  
+  /**
+   * Construct a working msg order array from a temporary working array
+   * If all but the last mesage order has been assigned, the last index
+   * will be autofilled with the remaining index
+   * @param msgOrder working message order array
+   * @param n number of elements to use in message order array
+   * @return a pristine array of message indexes to be used to construct message
+   */
   private int[] bldWorkingMsgOrder(int[] msgOrder, int n) {
     int len = (n == msgOrder.length-1 ? msgOrder.length : n);
     int[] result = new int[len];
@@ -79,6 +107,11 @@ public class MessageBuilder {
     return result;
   }
   
+  /**
+   * If a message index array is exactly matches the number of message parts
+   * auto fill the last element with the remaining index value
+   * @param msgOrder message index array
+   */
   private void fillLast(int[] msgOrder) {
     if (msgOrder.length != msgBodyList.length) return;
     int n = msgOrder.length-1;
@@ -90,6 +123,13 @@ public class MessageBuilder {
     throw new RuntimeException("fillLast could not find final index");
   }
   
+  /**
+   * Determine if an index is already used in the n elements of an array
+   * @param ndx index to be checked
+   * @param msgOrder message order array
+   * @param n number of elements to check
+   * @return true if index is found
+   */
   private boolean isIndexUsed(int ndx, int[] msgOrder, int n) {
     for (int jj = 0; jj < n-1; jj++) {
       if (ndx == msgOrder[jj]) return true;
@@ -99,6 +139,8 @@ public class MessageBuilder {
   
   /**
    * saves status of one attempt to parse a particular combination of message parts
+   * The message part array is passed to the constructor and must not be modified
+   * afterwards
    */
   private class ParseResult {
     private int[] msgOrder;
@@ -111,6 +153,10 @@ public class MessageBuilder {
       score = result.getInfo().score();
     }
     
+    public int[] getMsgOrder() {
+      return msgOrder;
+    }
+    
     public int getScore() {
       return score;
     }
@@ -118,22 +164,32 @@ public class MessageBuilder {
     public Message getMessage() {
       return result;
     }
-    
-    public void setMessageOrder(String[] msgBodyList) {
-      for (int jj = 0; jj < msgOrder.length; jj++) {
-        msgBodyList[jj] = MessageBuilder.this.msgBodyList[msgOrder[jj]];
-      }
-    }
   }
 
+  /**
+   * Construct a Message object from trying the message parts in a
+   * particular message order
+   * @param msgOrder array continuing the message part indexes to be used
+   * @return result Message object
+   */
   private Message bldMessage(int[] msgOrder) {
     return bldMessage(buildMsgBody(msgOrder));
   }
-  
+
+  /**
+   * Construct a Message object from a text message
+   * @param body the text message
+   * @return result Message object
+   */
   private Message bldMessage(String body) {
     return origMsg.trialParse(body, SmsMmsMessage.PARSE_FLG_FORCE | SmsMmsMessage.PARSE_FLG_SKIP_FILTER);
   }
   
+  /**
+   * Construct a text message from different message parts in specified order
+   * @param msgOrder array containing the message indexes to be used
+   * @return the complete text message
+   */
   private String buildMsgBody(int[] msgOrder) {
     String[] msgList = new String[msgOrder.length];
     for (int jj = 0; jj < msgOrder.length; jj++) {
@@ -142,6 +198,11 @@ public class MessageBuilder {
     return buildMsgBody(msgList);
   }
 
+  /**
+   * Construct a text message from an array of message parts
+   * @param msgBodyList array of message parts
+   * @return the complete text message
+   */
   private String buildMsgBody(String[] msgBodyList) {
     boolean insBlank = options.splitBlankIns();
     StringBuilder sb = new StringBuilder();
