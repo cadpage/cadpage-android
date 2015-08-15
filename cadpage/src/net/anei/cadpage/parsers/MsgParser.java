@@ -453,9 +453,11 @@ public abstract class MsgParser {
       
     // If this isn't a valid CAD page, but has been positively identified as a dispatch
     // message, parse as a general alert.  If General alerts are not desired, they will
-    // be filtered out one level up
+    // be filtered out one level up.  Unless we are in test mode in which case we skip this step
     // If not then return failure
-    if (isPositiveId()) return ManageParsers.getInstance().getAlertParser().parseMsg(msg, parseFlags);
+    if ((parseFlags & PARSE_FLG_TEST_MODE) == 0 && isPositiveId()) {
+      return ManageParsers.getInstance().getAlertParser().parseMsg(msg, parseFlags);
+    }
     return null;
   }
 

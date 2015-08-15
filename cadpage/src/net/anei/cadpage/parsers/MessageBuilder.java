@@ -1,18 +1,19 @@
-package net.anei.cadpage;
-
-import net.anei.cadpage.parsers.Message;
-import net.anei.cadpage.parsers.SplitMsgOptions;
+package net.anei.cadpage.parsers;
 
 public class MessageBuilder {
 
-  private SmsMmsMessage origMsg;
+  private MsgParser parser;
+  private String fromAddress;
+  private String subject;
   private SplitMsgOptions options;
   
   private String[] msgBodyList;
   
-  public MessageBuilder(SmsMmsMessage origMsg) {
-    this.origMsg = origMsg;
-    this.options = origMsg.getSplitMsgOptions();
+  public MessageBuilder(MsgParser parser, String fromAddress, String subject, SplitMsgOptions options) {
+    this.parser = parser;
+    this.fromAddress = fromAddress;
+    this.subject = subject;
+    this.options = options;
   }
   
   /**
@@ -49,13 +50,13 @@ public class MessageBuilder {
         if (isIndexUsed(p1, msgOrder, n-1)) continue;
         msgOrder[n-1] = p1;
         if (n+1 == msgBodyList.length) {
-          trial(msgOrder, n);
+          trialParse(msgOrder, n);
         }
         else {
           for (int p2 = 0; p2 < msgBodyList.length; p2++) {
             if (isIndexUsed(p2, msgOrder, n)) continue;
             msgOrder[n] = p2;
-            trial(msgOrder, n+1);
+            trialParse(msgOrder, n+1);
           }
         }
       }
@@ -82,7 +83,7 @@ public class MessageBuilder {
    * @param msgOrder Array containing the message order indexes
    * @param n Number of elements that have been set in msgOrder
    */
-  private void trial(int[] msgOrder, int n) {
+  private void trialParse(int[] msgOrder, int n) {
     ParseResult result = new ParseResult(bldWorkingMsgOrder(msgOrder, n));
     int score = result.getScore();
     if (score > bestScore) {
@@ -150,7 +151,12 @@ public class MessageBuilder {
     public ParseResult(int[] msgOrder) {
       this.msgOrder = msgOrder;
       result = bldMessage(msgOrder);
-      score = result.getInfo().score();
+      MsgInfo info = result.getInfo();
+      if (info != null) {
+        score = info.score();
+      } else {
+        score = Integer.MIN_VALUE+1;
+      }
     }
     
     public int[] getMsgOrder() {
@@ -182,7 +188,9 @@ public class MessageBuilder {
    * @return result Message object
    */
   private Message bldMessage(String body) {
-    return origMsg.trialParse(body, SmsMmsMessage.PARSE_FLG_FORCE | SmsMmsMessage.PARSE_FLG_SKIP_FILTER);
+    Message result = new Message(false, fromAddress, subject, body, options);
+    parser.isPageMsg(result, MsgParser.PARSE_FLG_FORCE | MsgParser.PARSE_FLG_SKIP_FILTER);
+    return result;
   }
   
   /**

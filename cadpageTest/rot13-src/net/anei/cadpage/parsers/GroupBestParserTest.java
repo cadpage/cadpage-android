@@ -385,7 +385,7 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   cevingr ibvq qbNyvnfGrfg(ZftCnefre cnefre, Fgevat fraqre, Fgevat rkcPvgl, Fgevat rkcFgngr) {
-    Zrffntr zft = arj Zrffntr(snyfr, fraqre, "GRFG FHOWRPG", "GRFG ZFT", gehr, snyfr);
+    Zrffntr zft = arj Zrffntr(snyfr, fraqre, "GRFG FHOWRPG", "GRFG ZFT");
     nffregGehr("Zft cnefr snvyrq", cnefre.vfCntrZft(zft, 0));
     ZftVasb vasb = zft.trgVasb();
     nffregRdhnyf("PNYY", "NBX", vasb.trgPnyy());
@@ -394,7 +394,7 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   cevingr ibvq qbNyvnfSnvy(ZftCnefre cnefre, Fgevat fraqre) {
-    Zrffntr zft = arj Zrffntr(snyfr, fraqre, "GRFG FHOWRPG", "GRFG ZFT", gehr, snyfr);
+    Zrffntr zft = arj Zrffntr(snyfr, fraqre, "GRFG FHOWRPG", "GRFG ZFT");
     nffregSnyfr("Zft cnefr qvq abg snvy", cnefre.vfCntrZft(zft, 0));
   }
 
@@ -402,7 +402,7 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
   cevingr fgngvp pynff GrfgZrffntr rkgraqf Zrffntr {
 
     choyvp GrfgZrffntr(Fgevat nqqerff, Fgevat obql) {
-      fhcre(snyfr, nqqerff, "", obql, gehr, snyfr);
+      fhcre(snyfr, nqqerff, "", obql);
     }
   }
   

@@ -15,6 +15,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.donation.UserAcctManager;
 import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.parsers.Message;
+import net.anei.cadpage.parsers.MessageBuilder;
 import net.anei.cadpage.parsers.MsgInfo;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.SplitMsgOptions;
@@ -515,7 +516,8 @@ public class SmsMmsMessage implements Serializable {
         Message pInfo = bldParseInfo(true, subject, extraMsgBody.get(jj));
         msgParts[jj+1] = pInfo.getMessageBody();
       }
-      parseInfo = new MessageBuilder(this).buildMessage(msgParts, lock);
+      MsgParser parser = getParser();
+      parseInfo = new MessageBuilder(parser, fromAddress, subject, getSplitMsgOptions()).buildMessage(msgParts, lock);
     }
   }
   
@@ -524,10 +526,7 @@ public class SmsMmsMessage implements Serializable {
   }
   
   private Message bldParseInfo(boolean preParse, String msgSubject, String body) {
-    SplitMsgOptions options = getSplitMsgOptions();
-    boolean insBlank = options.splitBlankIns();
-    boolean keepLeadBreak = options.splitKeepLeadBreak();
-    return new Message(preParse, fromAddress, msgSubject, body, insBlank, keepLeadBreak);
+    return new Message(preParse, fromAddress, msgSubject, body, getSplitMsgOptions());
   }
 
   public boolean isPageMsg() {
@@ -589,11 +588,21 @@ public class SmsMmsMessage implements Serializable {
     }
     
     // OK, that is it for flags, now lets see about getting the right parser
-    MsgParser parser = null;
+    MsgParser parser = getParser();
+    
+    // OK, parser gets to do its thing
+    return parser.isPageMsg(parseInfo, parserFlags);
+  }
+
+  /**
+   * @return parser to be used to parse this message
+   */
+  private MsgParser getParser() {
     
     // If specific location was requested with a C2DM message, use it to get
     // a parser.  This is one of the only times we will ignore a bad location
     // code
+    MsgParser parser = null;
     if (reqLocation != null && location != null && !ManagePreferences.overrideVendorLoc()) {
       try {
         parser = ManageParsers.getInstance().getParser(location);
@@ -606,9 +615,7 @@ public class SmsMmsMessage implements Serializable {
     if (parser == null) {
       parser = ManagePreferences.getCurrentParser();
     }
-    
-    // OK, parser gets to do its thing
-    return parser.isPageMsg(parseInfo, parserFlags);
+    return parser;
   }
   
   /**

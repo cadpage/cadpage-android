@@ -45,6 +45,10 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     erghea gehr;
   }
   
+  cevingr FcyvgZftBcgvbaf trgFcyvgZftBcgvbaf() {
+    erghea arj FcyvgZftBcgvbafPhfgbz(0, vfFcyvgVafOynax(), snyfr, snyfr, snyfr, snyfr);
+  }
+  
   cevingr fgngvp svany Fgevat SEBZ_NQQERFF = "1112223333";
   cevingr fgngvp svany vag CNEFR_SYNTF = ZftCnefre.CNEFR_SYT_GRFG_ZBQR | 
                                             ZftCnefre.CNEFR_SYT_CBFVGVIR_VQ | 
@@ -129,12 +133,12 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   }
   
   cevingr ibvq purpxReebe(Fgevat grfg) {
-    cnefre.vfCntrZft(arj Zrffntr(gehr, sebzNqqerff, "", grfg, vfFcyvgVafOynax(), snyfr), CNEFR_SYNTF);
+    cnefre.vfCntrZft(arj Zrffntr(gehr, sebzNqqerff, "", grfg, trgFcyvgZftBcgvbaf()), CNEFR_SYNTF);
   }
   
   choyvp ibvq qbOnqGrfg(Fgevat grfg) {
     vs (fxvcOnqGrfg) erghea;
-    Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, "", grfg, vfFcyvgVafOynax(), snyfr);
+    Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, "", grfg, trgFcyvgZftBcgvbaf());
     nffregSnyfr(cnefre.vfCntrZft(zft, CNEFR_SYNTF));
   }
   
@@ -187,7 +191,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       grfg = grfg.fhofgevat(cg+1).gevz();
     }
     
-    Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, fhowrpg, grfg, vfFcyvgVafOynax(), snyfr);
+    Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, fhowrpg, grfg, trgFcyvgZftBcgvbaf());
     nffregGehr(gvgyr + ":cnefr", cnefre.vfCntrZft(zft, CNEFR_SYNTF));
     qbZftGrfg(gvgyr, puxZncNqqe, zft, erfhyg);
   }
@@ -502,7 +506,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       fhowrpg = grfg.fhofgevat(1, cg);
       zftGrkg = grfg.fhofgevat(cg+1).gevz();
     }
-    Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, fhowrpg, zftGrkg, vfFcyvgVafOynax(), snyfr);
+    Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, fhowrpg, zftGrkg, trgFcyvgZftBcgvbaf());
     vs (!cnefre.vfCntrZft(zft, CNEFR_SYNTF)) {
       vs (!fxvcSnvyherf) {
         Flfgrz.bhg.cevagya();

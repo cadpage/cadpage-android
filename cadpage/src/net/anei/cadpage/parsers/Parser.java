@@ -72,7 +72,7 @@ public class Parser {
         logStream.flush();
       }
       
-      Message msg = new Message(tFlags.contains("P"), null, tSubject, text, true, false);
+      Message msg = new Message(tFlags.contains("P"), null, tSubject, text);
       MsgParser parser = null;
       try {
         parser = ManageParsers.getInstance().getParser(tFmtCode);

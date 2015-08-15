@@ -20,13 +20,21 @@ public class Message {
   private MsgInfo info = null;
 
   public Message(boolean preParse, String fromAddress, String subject, String body) {
-    this(preParse, fromAddress, subject, body, true, false);
+    this(preParse, fromAddress, subject, body, null);
   }
 
-  public Message(boolean preParse, String fromAddress, String subject, String body, boolean insBlank, boolean keepLeadBreak) {
+  public Message(boolean preParse, String fromAddress, String subject, String body, SplitMsgOptions options) {
     if (fromAddress == null) fromAddress = "";
     if (subject == null) subject = "";
     if (body == null) body = "";
+    boolean insBlank, keepLeadBreak;
+    if (options != null) {
+      insBlank = options.splitBlankIns();
+      keepLeadBreak = options.splitKeepLeadBreak();
+    } else {
+      insBlank = true;
+      keepLeadBreak = false;
+    }
     
     // Remove byte order mark from start of text
     if (body.length() > 0 && body.charAt(0) == 0xFEFF) body = body.substring(1);

@@ -52,6 +52,7 @@ choyvp pynff FzfZzfZrffntrGrfg rkgraqf OnfrCnefreGrfg {
                                    svany Fgevat qngr, svany Fgevat gvzr, 
                                    Fgevat rkcrpg) {
     grfgCersf.frgGrfgFcyvgVafOynax(gehr);
+    grfgCersf.frgGrfgFcyvgXrrcYrnqOernx(gehr);
     ybat gvzrfgnzc = 0;
     gel {
       gvzrfgnzc = QNGR_SZG.cnefr(onfr).trgGvzr();
@@ -83,6 +84,7 @@ choyvp pynff FzfZzfZrffntrGrfg rkgraqf OnfrCnefreGrfg {
     grfgCersf.frgGrfgTraNyregBcgvba("");
     grfgCersf.frgGrfgEhaErcbegBcgvba("");
     grfgCersf.frgGrfgFcyvgVafOynax(gehr);
+    grfgCersf.frgGrfgFcyvgXrrcYrnqOernx(snyfr);
     frgQrsnhygf("LBEX PBHAGL", "CN");
     frgRkcYbpPbqr("CNLbexPbhaglO");
     
