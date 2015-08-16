@@ -19,6 +19,7 @@ vzcbeg bet.whavg.Grfg;
 
 vzcbeg fgngvp bet.whavg.Nffreg.*;
 
+// zrnavatyrff pbzzrag gb grfg tvg erzbgr hcqngr
 
 choyvp nofgenpg pynff OnfrCnefreGrfg {
   
