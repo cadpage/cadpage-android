@@ -335,8 +335,8 @@
   <string name="pref_activate_scanner_summaryoff">Scannerkanal kommer inte att öppnas automatiskt</string>
   
   <string name="pref_mix_msg_order_title">Mixed split msg order</string>  <!-- Translate -->
-  <string name="pref_mix_msg_order_summaryon">Split CAD page messages will always be in consistent order</string>  <!-- Translate -->
-  <string name="pref_mix_msg_order_summaryoff">Split CAD page messages may not be in consistent order</string>  <!-- Translate -->
+  <string name="pref_mix_msg_order_summaryon">Split CAD page messages may not be in consistent order</string>  <!-- Translate -->
+  <string name="pref_mix_msg_order_summaryoff">Split CAD page messages will always be in consistent order</string>  <!-- Translate -->
   
   <string name="pref_scanner_channel_title">Scannerkanal</string>
   <string name="pref_publish_pages_title">Publicera larmärenden</string>

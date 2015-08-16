@@ -382,8 +382,8 @@
   <string name="pref_rev_msg_order_summaryoff">Split CAD page messages will be expected in first to last order</string>
   
   <string name="pref_mix_msg_order_title">Mixed split msg order</string>
-  <string name="pref_mix_msg_order_summaryon">Split CAD page messages will always be in consistent order</string>
-  <string name="pref_mix_msg_order_summaryoff">Split CAD page messages may not be in consistent order</string>
+  <string name="pref_mix_msg_order_summaryon">Split CAD page messages may not be in consistent order</string>
+  <string name="pref_mix_msg_order_summaryoff">Split CAD page messages will always be in consistent order</string>
   
   <string name="pref_suppress_dup_msg_title">Suppress duplicate calls</string>
   <string name="pref_suppress_dup_msg_summaryon">Duplicate calls will be suppressed</string>
