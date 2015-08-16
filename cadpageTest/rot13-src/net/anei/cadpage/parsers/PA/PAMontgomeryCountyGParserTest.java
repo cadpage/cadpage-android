@@ -43,6 +43,32 @@ choyvp pynff CNZbagtbzrelPbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCnefre() {
 
+    qbGrfg("G5",
+        "1 bs 2\a" +
+        "SEZ:Qvfcngpu- JQF\a" +
+        "FHOW:Qvfcngpu- JQF\a" +
+        "ZFT:\a" +
+        "VAP#:R1358554\a" +
+        "ZHA-HAXABJA ZRQVPNY RZRETRAPL\a" +
+        "Nqqe:3855 OYNVE ZVYY EQ  NCG# 243A\a" +
+        "Obk:35-52\a" +
+        "NQ\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "P:3259N2\a" +
+        "ZHA:HZBE\a" +
+        "Havgf:DK10, 384-4\a" +
+        "(Raq)",
+
+        "FEP:JQF",
+        "VQ:R1358554",
+        "PNYY:ZHA-HAXABJA ZRQVPNY RZRETRAPL",
+        "NQQE:3855 OYNVE ZVYY EQ",
+        "NCG:243A",
+        "OBK:35-52",
+        "ZNC:3259N2",
+        "PVGL:HCCRE ZBERYNAQ GJC",
+        "HAVG:DK10, 384-4");
+
 
     qbGrfg("G1",
         "1 bs 2\a" +
@@ -131,32 +157,6 @@ choyvp pynff CNZbagtbzrelPbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:3026P10",
         "PVGL:CBGGFGBJA",
         "HAVG:DG69, Y69");
-
-    qbGrfg("G5",
-        "1 bs 2\a" +
-        "SEZ:Qvfcngpu- JQF\a" +
-        "FHOW:Qvfcngpu- JQF\a" +
-        "ZFT:\a" +
-        "VAP#:R1358554\a" +
-        "ZHA-HAXABJA ZRQVPNY RZRETRAPL\a" +
-        "Nqqe:3855 OYNVE ZVYY EQ  NCG# 243A\a" +
-        "Obk:35-52\a" +
-        "NQ\a" +
-        "(Pba'g) 2 bs 2\a" +
-        "P:3259N2\a" +
-        "ZHA:HZBE\a" +
-        "Havgf:DK10, 384-4\a" +
-        "(Raq)",
-
-        "FEP:JQF",
-        "VQ:R1358554",
-        "PNYY:ZHA-HAXABJA ZRQVPNY RZRETRAPL",
-        "NQQE:3855 OYNVE ZVYY EQ",
-        "NCG:243A",
-        "OBK:35-52",
-        "ZNC:3259N2",
-        "PVGL:HCCRE ZBERYNAQ GJC",
-        "HAVG:DK10, 384-4");
 
     qbGrfg("G6",
         "1 bs 2\a" +

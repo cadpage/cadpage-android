@@ -227,10 +227,7 @@ public abstract class MsgParser {
   public static final int PARSE_FLG_RUN_REPORT = 0x08;
   
   /**
-   * Parser flag indicating that we are being called from a parser test class.
-   * This suppresses the usual logic that reports general alerts identified
-   * by individual parsers as parsing failures if the general alert processing
-   * flag was not passed.
+   * No longer used - setTestMode() is not used to set test mode
    */
   public static final int PARSE_FLG_TEST_MODE = 0x10;
   
@@ -404,7 +401,7 @@ public abstract class MsgParser {
     // identify it as coming from Dispatch.  If the user didn't want to process
     // general alerts, and we aren't running in a test class, change this to
     // an outright failure
-    if ((parseFlags & PARSE_FLG_TEST_MODE) == 0) {
+    if (!testMode) {
       if (!parseGenAlert && 
           (info.getMsgType() == MsgType.GEN_ALERT || 
            info.getCall().equals("GENERAL ALERT"))) return false;
@@ -455,7 +452,7 @@ public abstract class MsgParser {
     // message, parse as a general alert.  If General alerts are not desired, they will
     // be filtered out one level up.  Unless we are in test mode in which case we skip this step
     // If not then return failure
-    if ((parseFlags & PARSE_FLG_TEST_MODE) == 0 && isPositiveId()) {
+    if (!testMode && isPositiveId()) {
       return ManageParsers.getInstance().getAlertParser().parseMsg(msg, parseFlags);
     }
     return null;

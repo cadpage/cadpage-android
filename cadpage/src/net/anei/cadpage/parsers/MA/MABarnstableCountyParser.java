@@ -9,14 +9,18 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class MABarnstableCountyParser extends FieldProgramParser {
 
   public MABarnstableCountyParser() {
-    super("BARNSTABLE COUNTY", "MA", "SKIP! SRC! CALL! D:MAP! Loc:ADDRCITY! Notes:INFO+");
+    super("BARNSTABLE COUNTY", "MA", 
+          "SRC! CALL! D:MAP! Loc:ADDRCITY! Notes:INFO+");
   }
   
+  private static Pattern START_TRASH_PTN = Pattern.compile("^[[^\\p{ASCII}][\\s]]+");
   private static Pattern DELIM = Pattern.compile("[\\s\n]?\n");
+  
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     //check subject
     if (!subject.equals("!")) return false;
+    body = START_TRASH_PTN.matcher(body).replaceFirst("");
     return parseFields(DELIM.split(body), data);
   }
 

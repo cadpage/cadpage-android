@@ -36,8 +36,11 @@ public class Message {
       keepLeadBreak = false;
     }
     
-    // Remove byte order mark from start of text
-    if (body.length() > 0 && body.charAt(0) == 0xFEFF) body = body.substring(1);
+    // Remove byte order mark from anywhere in text.  Generally it only occurs
+    // at the beginning, but we have had a case where a prefix was prepended to
+    // a string starting with a byte order mark, so get rid of it wherever it
+    // might occur
+    body = body.replace("\uFEFF", "");
     
     // Decode base64 alerts
     if (body.startsWith("77u/")) {

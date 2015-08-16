@@ -28,6 +28,16 @@ choyvp pynff BUCbegntrPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
+  choyvp ibvq grfgCeboyrz() {
+
+    qbGrfg("G9",
+        "SEZ:znaghnsver@tznvy.pbz\aZFT:znaghn 10368 jvaguebc znyr srryvat fvpx",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:10368 jvaguebc znyr srryvat fvpx");
+
+  }
+  
+  @Grfg
   choyvp ibvq grfgQnavryXvat() {
 
     qbGrfg("G1",

@@ -14,7 +14,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 
 public class GroupBestParser extends GroupBaseParser {
-  
+
   private MsgParser[] parsers;
   
   private String sponsor;
@@ -101,6 +101,13 @@ public class GroupBestParser extends GroupBaseParser {
         }
       }
     }
+  }
+  
+  @Override
+  public void setTestMode(boolean testMode) {
+    // Propogate the test mode status to all subparsers
+    super.setTestMode(testMode);
+    for (MsgParser parser : parsers) parser.setTestMode(testMode);
   }
 
   @Override

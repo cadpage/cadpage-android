@@ -1655,10 +1655,8 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgRtnynemn331() {
 
-    qbGrfg("G1",
-        "(5/25) 18:05 7007 SBK ZRFN YA-UP, ; Znc:334Y- Fho:SBKJBBQ Ang:28-PIN Havgf:Z510 SB334 FD91 K-Fg:SBK GENVY YA 201321615",
-        "FEP:5/25",
-        "QNGR:05/25",
+    qbGrfg("G2",
+        "(1/6) 18:05 7007 SBK ZRFN YA-UP, ; Znc:334Y- Fho:SBKJBBQ Ang:28-PIN Havgf:Z510 SB334 FD91 K-Fg:SBK GENVY YA 201321615",
         "GVZR:18:05",
         "NQQE:7007 SBK ZRFN YA",
         "ZNC:334Y-",
@@ -1668,9 +1666,10 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:SBK GENVY YA",
         "VQ:201321615");
 
-    qbGrfg("G2",
-        "(1/6) 18:05 7007 SBK ZRFN YA-UP, ; Znc:334Y- Fho:SBKJBBQ Ang:28-PIN Havgf:Z510 SB334 FD91 K-Fg:SBK GENVY YA 201321615",
-        "QNGR:01/06",
+    qbGrfg("G1",
+        "(5/25) 18:05 7007 SBK ZRFN YA-UP, ; Znc:334Y- Fho:SBKJBBQ Ang:28-PIN Havgf:Z510 SB334 FD91 K-Fg:SBK GENVY YA 201321615",
+        "FEP:5/25",
+        "QNGR:05/25",
         "GVZR:18:05",
         "NQQE:7007 SBK ZRFN YA",
         "ZNC:334Y-",

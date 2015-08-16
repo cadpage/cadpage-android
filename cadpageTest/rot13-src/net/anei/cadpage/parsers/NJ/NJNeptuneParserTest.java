@@ -36,13 +36,13 @@ choyvp pynff AWArcgharCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Fhowrpg:ARCGHAR CQ PBZZF PRAGRE\aunzvygba svefg nvq 716 furyy cy pneoba zbabkvqr nynez jvgu flzcgbzf﻿",
         "PNYY:unzvygba svefg nvq",
         "NQQE:716 furyy cy",
-        "VASB:pneoba zbabkvqr nynez jvgu flzcgbzf﻿");
+        "VASB:pneoba zbabkvqr nynez jvgu flzcgbzf");
 
     qbGrfg("G3",
         "Fhowrpg:ARCGHAR CQ PBZZF PRAGRE\aUSN-PNAPRY PNYY 716 FURYY CY ERSHFNY NF CRE CNGEBY﻿",
         "PNYY:USN-PNAPRY PNYY",
         "NQQE:716 FURYY CY",
-        "VASB:ERSHFNY NF CRE CNGEBY﻿");
+        "VASB:ERSHFNY NF CRE CNGEBY");
 
     qbGrfg("G4",
         "Fhowrpg:ARCGHAR CQ PBZZF PRAGRE\anyy arcghar rzf nyy pnyy bprna tebir 98.5 ynjerapr nir srznyr srryvat jrnx naq qvmml",
