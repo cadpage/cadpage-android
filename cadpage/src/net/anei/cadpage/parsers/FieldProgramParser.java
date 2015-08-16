@@ -1540,7 +1540,10 @@ public class FieldProgramParser extends SmartAddressParser {
             boolean skipReq = false;
             procStep = startStep;
             while (procStep != null && !procStep.matchTag(curTag, curFld)) {
-              if (procStep.required == EReqStatus.REQUIRED) {
+              if (procStep.required == EReqStatus.EXPECTED) {
+                data.expectMore = true;
+              }
+              else if (procStep.required == EReqStatus.REQUIRED) {
                 
                 // Skipping over a required field is OK only if a tagged
                 // decision node of a conditional branch that is not

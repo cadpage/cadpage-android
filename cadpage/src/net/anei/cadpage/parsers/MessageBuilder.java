@@ -132,7 +132,7 @@ public class MessageBuilder {
    * @return true if index is found
    */
   private boolean isIndexUsed(int ndx, int[] msgOrder, int n) {
-    for (int jj = 0; jj < n-1; jj++) {
+    for (int jj = 0; jj < n; jj++) {
       if (ndx == msgOrder[jj]) return true;
     }
     return false;
