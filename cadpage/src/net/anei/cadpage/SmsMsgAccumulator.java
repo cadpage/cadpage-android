@@ -71,7 +71,8 @@ public class SmsMsgAccumulator {
         SmsReceiver.processCadPage(curList.getMessage());
         msgQueue.remove(curList);
         setReminder(context, curList.getTimeoutId(), true);
-        if (msgQueue.isEmpty()) KeepAliveService.unregister(context, this);
+        if (msgQueue.isEmpty())
+          unregisterKeepAlive(context);
       }
       
       // In any case, this message has been accepted
@@ -92,9 +93,7 @@ public class SmsMsgAccumulator {
     // timer for this message list.
     if (isSplitCad(newMsg)) {
       if (msgQueue.isEmpty()) {
-        KeepAliveService.register(context, this, R.drawable.ic_stat_notify,
-                                  R.string.notification_msg_acc_title,
-                                  R.string.notification_msg_acc_text);
+        registerKeepAlive(context);
       }
       MessageList list = new MessageList(newMsg);
       msgQueue.add(list);
@@ -103,8 +102,18 @@ public class SmsMsgAccumulator {
     }
     
     // Otherwise simply pass this message into the output queue
-    SmsReceiver.processCadPage(newMsg);
+    processCadPage(newMsg);
     return true;
+  }
+  
+  protected void  processCadPage(SmsMmsMessage newMsg) {
+    SmsReceiver.processCadPage(newMsg);
+  }
+
+  protected void registerKeepAlive(Context context) {
+    KeepAliveService.register(context, this, R.drawable.ic_stat_notify,
+                              R.string.notification_msg_acc_title,
+                              R.string.notification_msg_acc_text);
   }
   
   /**
@@ -158,7 +167,7 @@ public class SmsMsgAccumulator {
    * expected other parts of the page never show up
    * @param msgTimeout timeout interval in seconds
    */
-  private void setReminder(Context context, long id, boolean cancel) {
+  protected void setReminder(Context context, long id, boolean cancel) {
 
     Intent intent = new Intent(TIMEOUT_ACTION);
     intent.setClass(context, SmsMsgAccumulatorService.class);
@@ -186,6 +195,10 @@ public class SmsMsgAccumulator {
     long id = intent.getLongExtra(EXTRA_TIMEOUT_ID, 0);
     if (id == 0) return;
     
+    processTimeout(context, id);
+  }
+
+  public void processTimeout(Context context, long id) {
     // If nothing in queue, nothing to worry about
     if (msgQueue.isEmpty()) return;
     
@@ -200,7 +213,12 @@ public class SmsMsgAccumulator {
     }
     
     // If we removed everything, cancel the keep alive service
-    if (msgQueue.isEmpty()) KeepAliveService.unregister(context, this);
+    if (msgQueue.isEmpty())
+      unregisterKeepAlive(context);
+  }
+
+  protected void unregisterKeepAlive(Context context) {
+    KeepAliveService.unregister(context, this);
   }
   
   /**
