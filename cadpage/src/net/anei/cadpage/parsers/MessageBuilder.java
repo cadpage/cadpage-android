@@ -89,12 +89,13 @@ public class MessageBuilder {
     }
     
     // We have a result!!!!!
+    if (preserveProgram) parser.setFieldList(bestProgram);
     return bestResult.getMessage();
   }
   
   private int bestScore;
-  private Message bestResult;
-  private String bestProgram;
+  private ParseResult bestResult;
+  private String  bestProgram;
   
   private void resetBestResult() {
     bestScore = Integer.MIN_VALUE;
@@ -108,10 +109,8 @@ public class MessageBuilder {
    * @param n Number of elements that have been set in msgOrder
    */
   private void trialParse(int[] msgOrder, int n) {
-    int[] tmpOrder = bldWorkingMsgOrder(msgOrder, n);
-    Message result = bldMessage(tmpOrder);
-    MsgInfo info = result.getInfo();
-    int score = info != null ? info.score() : Integer.MIN_VALUE+1;
+    ParseResult result = new ParseResult(bldWorkingMsgOrder(msgOrder, n));
+    int score = result.getScore();
     if (score > bestScore) {
       bestScore = score;
       bestResult = result;
@@ -184,6 +183,18 @@ public class MessageBuilder {
       } else {
         score = Integer.MIN_VALUE+1;
       }
+    }
+    
+    public int[] getMsgOrder() {
+      return msgOrder;
+    }
+    
+    public int getScore() {
+      return score;
+    }
+    
+    public Message getMessage() {
+      return result;
     }
   }
 

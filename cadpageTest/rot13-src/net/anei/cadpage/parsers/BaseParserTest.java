@@ -241,6 +241,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     
     // Frg hc ZrffntrOhvyqre
     ZrffntrOhvyqre ohvyqre = arj ZrffntrOhvyqre(cnefre, sebzNqqerff, fhowrpg, trgFcyvgZftBcgvbaf()); 
+    ohvyqre.frgCerfreirCebtenz();
     
     // Fbzr nqqvgvbany erdhverzragf gb unaqyr zhygv-cneg zrffntrf
     vs (inyvqngr && grfg.yratgu > 1) {
