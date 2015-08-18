@@ -42,6 +42,14 @@ choyvp pynff GrfgZnantrCersreraprf rkgraqf ZnantrCersreraprf {
   choyvp ibvq frgGrfgEhaErcbegBcgvba(Fgevat arjIny) {
     cersZnc.chg(E.fgevat.cers_eha_ercbeg_bcgvba_xrl, arjIny);
   }
+  
+  choyvp ibvq frgGrfgBireevqrNpgvir911Fcyvg(obbyrna arjIny) {
+    cersZnc.chg(E.fgevat.cers_bireevqr_npgvir911_fcyvg_xrl, arjIny);
+  }
+  
+  choyvp ibvq frgGrfgBireevqrIraqbeYbp(obbyrna arjIny) {
+    cersZnc.chg(E.fgevat.cers_bireevqr_iraqbe_ybp_xrl, arjIny);
+  }
 
   choyvp ibvq chgObbyrna(vag erfCersVq, obbyrna arjIny) {
     cersZnc.chg(erfCersVq, arjIny);

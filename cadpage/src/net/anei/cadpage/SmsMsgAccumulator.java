@@ -68,7 +68,7 @@ public class SmsMsgAccumulator {
       // and cancel any pending timeout for this list
       // If the queue is empty, release the KeepAliveService lock
       if (curList.isComplete()) {
-        SmsReceiver.processCadPage(curList.getMessage());
+        processCadPage(curList.getMessage());
         msgQueue.remove(curList);
         setReminder(context, curList.getTimeoutId(), true);
         if (msgQueue.isEmpty())
@@ -159,7 +159,7 @@ public class SmsMsgAccumulator {
     }
     
     // Otherwise, message must parse and must return expect more status to be incomplete
-    return info != null && info.isExpectMore();
+    return info != null && !info.isExpectMore();
   }
 
   /**
@@ -206,7 +206,7 @@ public class SmsMsgAccumulator {
     // accumulating messages
     for (MessageList list : msgQueue) {
       if (list.getTimeoutId() == id) {
-        SmsReceiver.processCadPage(list.getMessage());
+        processCadPage(list.getMessage());
         msgQueue.remove(list);
         break;
       }

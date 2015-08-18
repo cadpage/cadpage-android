@@ -15,6 +15,13 @@ choyvp pynff FzfZftNpphzhyngbeGrfg rkgraqf OnfrCnefreGrfg {
   cevingr GrfgZftNpphzhyngbe npp;
   cevingr ZftCnefre cnefre;
   
+  choyvp FzfZftNpphzhyngbeGrfg() {
+    GrfgZnantrCersreraprf cersf = arj GrfgZnantrCersreraprf();
+    cersf.frgGrfgBireevqrNpgvir911Fcyvg(snyfr);
+    cersf.frgGrfgBireevqrIraqbeYbp(snyfr);
+    cersf.frgGrfgTraNyregBcgvba("");
+  }
+  
   @Bireevqr
   choyvp ibvq frgCnefre(ZftCnefre cnefre) {
     fhcre.frgCnefre(cnefre);
@@ -74,7 +81,7 @@ choyvp pynff FzfZftNpphzhyngbeGrfg rkgraqf OnfrCnefreGrfg {
         }
         
         // Perngr n zrffntr bowrpg naq cnff vg gb nqqZft()
-        FzfZzfZrffntr zft = arj FzfZzfZrffntr("xra@pnqcntr.bet", fhowrpg, cneg, 0, cnefre.trgCnefrePbqr(), "Npgvir911", ahyy, ahyy, ahyy, ahyy, ahyy);
+        FzfZzfZrffntr zft = arj FzfZzfZrffntr("xra@pnqcntr.bet", fhowrpg, cneg, 0, cnefre.trgCnefrePbqr(), "Npgvir911", "", ahyy, ahyy, ahyy, ahyy);
         nqqZft(ahyy, zft, gehr);
       }
       

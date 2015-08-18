@@ -355,6 +355,32 @@ public class SmsMmsMessage implements Serializable {
     this.serverTime = serverTime;
     this.infoURL = infoURL;
     this.ackNeeded = ackReq.contains("A");
+    
+    // If specific location was requested with a Active911 page message, convert it
+    // to normal Cadpage parser codes.  We need to do this ASAP before anything
+    // tries to reference any of the split message options
+    if (reqLocation != null) {
+      try {
+        if (reqLocation.contains("/")) {
+          String[] results = VendorManager.instance().convertLocationCode(vendorCode, reqLocation);
+          location = results[0];
+          missingParsers = results[1];
+        } else {
+          location = reqLocation;
+        }
+        if (vendorCode != null && vendorCode.equals("Active911")) {
+          MsgParser parser = ManageParsers.getInstance().getParser(location);
+          if (!ManagePreferences.overrideActive911SplitOptions() && parser != null) {
+            splitMsgOptions = parser.getActive911SplitMsgOptions();
+          }
+        }
+      } catch (RuntimeException ex) {
+        ex.printStackTrace(System.out);
+        Log.e(ex);
+      }
+    }
+    
+    
     this.parseInfo = bldParseInfo();
     
     // If request code contains a custom menu, separate that out
@@ -373,24 +399,6 @@ public class SmsMmsMessage implements Serializable {
       }
     }
     this.ackReq = ackReq;
-    
-    // If specific location was requested with a Active911 page message, convert it
-    // to normal Cadpage parser codes
-    if (reqLocation != null) {
-      try {
-        String[] results = VendorManager.instance().convertLocationCode(vendorCode, reqLocation);
-        location = results[0];
-        missingParsers = results[1];
-        if (vendorCode != null && vendorCode.equals("Active911")) {
-          MsgParser parser = ManageParsers.getInstance().getParser(results[0]);
-          if (!ManagePreferences.overrideActive911SplitOptions() && parser != null) {
-            splitMsgOptions = parser.getActive911SplitMsgOptions();
-          }
-        }
-      } catch (RuntimeException ex) {
-        Log.e(ex);
-      }
-    }
 
   }
   private static final Pattern NUMBER = Pattern.compile("\\d+");
