@@ -7,6 +7,8 @@ public class MessageBuilder {
   private String subject;
   private SplitMsgOptions options;
   
+  private boolean preserveProgram = false;
+  
   private String[] msgBodyList;
   
   public MessageBuilder(MsgParser parser, String fromAddress, String subject, SplitMsgOptions options) {
@@ -14,6 +16,17 @@ public class MessageBuilder {
     this.fromAddress = fromAddress;
     this.subject = subject;
     this.options = options;
+  }
+  
+  /**
+   * In normal operation, the parser will be invoked multiple times
+   * and the field program settings from the most recent attempt will
+   * most likely not be the one that was used to retrieve the best result.
+   * This is called if it is important to the parser return the field
+   * term list for the best result
+   */
+  public void setPreserveProgram() {
+    preserveProgram = true;
   }
   
   /**
@@ -26,6 +39,15 @@ public class MessageBuilder {
     
     // Life gets easy if there is only one message
     if (msgBodyList.length == 1) return  bldMessage(msgBodyList[0]);
+    
+    // Reverse the message order is so requested
+    if (options.revMsgOrder()) {
+      String[] tmp = new String[msgBodyList.length];
+      for (int j = 0; j<msgBodyList.length; j++) {
+        tmp[j] = msgBodyList[msgBodyList.length-j-1];
+      }
+      msgBodyList = tmp;
+    }
     
     // Only slightly less easier if the message order is known
     if (lock || !options.mixedMsgOrder()) {
@@ -71,11 +93,13 @@ public class MessageBuilder {
   }
   
   private int bestScore;
-  private ParseResult bestResult;
+  private Message bestResult;
+  private String bestProgram;
   
   private void resetBestResult() {
     bestScore = Integer.MIN_VALUE;
     bestResult = null;
+    bestProgram = null;
   }
   
   /**
@@ -84,11 +108,14 @@ public class MessageBuilder {
    * @param n Number of elements that have been set in msgOrder
    */
   private void trialParse(int[] msgOrder, int n) {
-    ParseResult result = new ParseResult(bldWorkingMsgOrder(msgOrder, n));
-    int score = result.getScore();
+    int[] tmpOrder = bldWorkingMsgOrder(msgOrder, n);
+    Message result = bldMessage(tmpOrder);
+    MsgInfo info = result.getInfo();
+    int score = info != null ? info.score() : Integer.MIN_VALUE+1;
     if (score > bestScore) {
       bestScore = score;
       bestResult = result;
+      if (preserveProgram) bestProgram = parser.getProgram();
     }
   }
   
@@ -157,18 +184,6 @@ public class MessageBuilder {
       } else {
         score = Integer.MIN_VALUE+1;
       }
-    }
-    
-    public int[] getMsgOrder() {
-      return msgOrder;
-    }
-    
-    public int getScore() {
-      return score;
-    }
-    
-    public Message getMessage() {
-      return result;
     }
   }
 

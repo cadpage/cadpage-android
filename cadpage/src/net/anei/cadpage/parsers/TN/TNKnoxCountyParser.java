@@ -13,7 +13,7 @@ public class TNKnoxCountyParser extends FieldProgramParser {
   
   public TNKnoxCountyParser() {
     super(CITY_CODES, "KNOX COUNTY", "TN",
-          "Location:ADDR/S! Xstreet1:X! Xstreet2:X! TYPE_CODE:CODE! Event_Description:CALL? SUB_TYPE:CODE/SDS! TIME:TIME!");
+          "Location:ADDR/S! Xstreet1:X! Xstreet2:X! TYPE_CODE:CODE! Event_Description:CALL? SUB_TYPE:CODE/SDS! TIME:TIME%");
   }
   
   @Override
@@ -23,7 +23,7 @@ public class TNKnoxCountyParser extends FieldProgramParser {
 
   @Override
   public SplitMsgOptions getActive911SplitMsgOptions() {
-    return new SplitMsgOptionsCustom(0, false, true, false, false, true); 
+    return new SplitMsgOptionsCustom(0, false, true, false, true, true); 
   }
 
   private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Xstreet1:|Xstreet2:|TYPE CODE:|SUB TYPE:|TIME:)");

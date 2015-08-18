@@ -308,11 +308,7 @@ public class SmsMsgAccumulator {
         int ndx = newMsg.getMsgIndex();
         if (ndx <= count) list.set(ndx-1, newMsg);
       } else {
-        if (newMsg.getSplitMsgOptions().revMsgOrder()) {
-          list.add(0, newMsg);
-        } else {
-          list.add(newMsg);
-        }
+        list.add(newMsg);
       }
     }
     
