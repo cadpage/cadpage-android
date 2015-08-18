@@ -1113,6 +1113,7 @@ public class MsgInfo {
     else if (strCall.length() == 0 || strCall.equals("ALERT")) result += 40000;
     else result += 42000;
     if (strAddress.length() > 0) result += 10000;
+    if (strCall.length() > 0) result += 200;
     if (strCity.length() > 0) result += 100;
     if (strCross.length() > 0) result += 100;
     if (strApt.length() > 0) result += 100;
@@ -1134,6 +1135,7 @@ public class MsgInfo {
     if (strDate.length() > 0) result += 10;
     if (strTime.length() > 0) result += 10;
     if (strInfoURL.length() > 0) result += 5;
+    if (expectMore) result--;
     return result;
   }
 

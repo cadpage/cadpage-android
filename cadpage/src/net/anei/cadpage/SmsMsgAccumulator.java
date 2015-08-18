@@ -46,6 +46,15 @@ public class SmsMsgAccumulator {
    */
   public synchronized boolean addMsg(Context context, SmsMmsMessage newMsg, boolean force) {
     
+    // See if this is a recognizable page or general alert.
+    // This only fails if this is not a forced call and does not
+    // match the sender address filter.  It needs to be called
+    // now because callers will want to check on the general alert
+    // run report status.
+    int flags = (force ? SmsMmsMessage.PARSE_FLG_FORCE : 0);
+    boolean isPage = newMsg.isPageMsg(flags);
+    if (!isPage) return false;
+    
     // First step is to see if this msg matches any of the currently 
     // accumulating messages
     MessageList curList = null;
@@ -78,13 +87,6 @@ public class SmsMsgAccumulator {
       // In any case, this message has been accepted
       return true;
     }
-    
-    // See if the current parser will handle this message
-    int flags = (force ? SmsMmsMessage.PARSE_FLG_FORCE : 0);
-    boolean isPage = newMsg.isPageMsg(flags);
-    
-    // If not a cad page (or general alert), we're done with this
-    if (! isPage) return false;
     
     // If the message contains counters indicating that there is more to follow
     // of if configuration settings expect more than one message as a minimum
@@ -259,8 +261,8 @@ public class SmsMsgAccumulator {
       
       // Ditto if message has a different direct page parser code
       // which could potentially result in a merge options mismatch
-      String newLocation = newMsg.getLocation();
-      String oldLocation = firstMessage.getLocation();
+      String newLocation = newMsg.getReqLocation();
+      String oldLocation = firstMessage.getReqLocation();
       if ((newLocation == null) ^ (oldLocation == null)) return false;
       if (newLocation != null && !newLocation.equals(oldLocation)) return false;
       
@@ -338,7 +340,7 @@ public class SmsMsgAccumulator {
       // we have a complete message.  If we have an impossible parse failure
       // return complete so we can get rid of this message
       
-      boolean isPage = msg.isPageMsg(MsgParser.PARSE_FLG_SKIP_FILTER);
+      boolean isPage = msg.isPageMsg(MsgParser.PARSE_FLG_FORCE);
       MsgInfo info = isPage ? msg.getInfo() : null;
       return SmsMsgAccumulator.isComplete(info, msg.getSplitMsgOptions(), true);
     }

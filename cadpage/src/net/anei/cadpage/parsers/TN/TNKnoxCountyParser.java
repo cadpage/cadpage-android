@@ -54,7 +54,7 @@ public class TNKnoxCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("TIME")) return new MyTimeField();
     return super.getField(name);
   }
   
@@ -82,6 +82,21 @@ public class TNKnoxCountyParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return super.getFieldNames() + " PLACE";
+    }
+  }
+  
+  private static final Pattern TIME_PTN = Pattern.compile("\\d\\d:\\d\\d:\\d\\d");
+  public class MyTimeField extends TimeField {
+    @Override
+    public void parse(String field, Data data) {
+      // If we do not have a full length field, assume it has been truncated
+      // and might be contained in a subsequent alert
+      if (field.length() < 8) {
+        data.expectMore = true;
+        return;
+      }
+      if (!TIME_PTN.matcher(field).matches()) abort();
+      super.parse(field, data);
     }
   }
   

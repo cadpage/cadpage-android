@@ -41,23 +41,6 @@ choyvp pynff GAXabkPbhaglNpphzGrfg rkgraqf FzfZftNpphzhyngbeGrfg {
   choyvp GAXabkPbhaglNpphzGrfg() {
     frgCnefre(arj GAXabkPbhaglCnefre(), "XABK PBHAGL", "GA");
   }
-  
-  @Grfg
-  choyvp ibvq grfgCeboyrz() {
-
-    qbGrfg("G4",
-        arj Fgevat[]{
-          "Ybpngvba: 3523 R TBIREABE WBUA FRIVRE UJL XABK: @UBYYLJBBQ YBHATR Kfgerrg1: GUBEA TEBIR CVXRKfgerrg2: FGENJOREEL CYNVAF CVXR   GLCR PBQR: ZIP   FHO GLCR: VAWHEL",
-          "GVZR: 22:39:46"
-        },
-        "NQQE:3523 R TBIREABE WBUA FRIVRE UJL",
-        "PVGL:XABKIVYYR",
-        "CYNPR:UBYYLJBBQ YBHATR",
-        "K:GUBEA TEBIR CVXR & FGENJOREEL CYNVAF CVXR",
-        "PNYY:ZIP - VAWHEL",
-        "GVZR:22:39:46");
-    
-  }
 
   @Grfg
   choyvp ibvq grfgXabkivyyrIbyhagrreRzretraplErfphrFdhnq() {

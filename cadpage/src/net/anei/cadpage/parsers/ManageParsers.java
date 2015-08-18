@@ -44,7 +44,7 @@ public class ManageParsers {
     // No real parser codes start with "X".  If we are given one, then it
     // must come from Active911 which sometimes adds an "X" prefix for their
     // own purposes
-    if (location.startsWith("X")) location = location.substring(1);
+    if (location != null && location.startsWith("X")) location = location.substring(1);
     
     // Convert any old codes that have been renamed to new values
     location = convertLocationCode(location, body);

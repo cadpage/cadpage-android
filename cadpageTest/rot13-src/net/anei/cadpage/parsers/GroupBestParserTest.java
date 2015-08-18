@@ -135,12 +135,6 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
     
     vag sytf = 0;
     qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");
-    qbGrfg(cnefre, sytf, "NSEBZ", "OO");
-    qbGrfg(cnefre, sytf, "OSEBZ", "NN");
-    qbGrfg(cnefre, sytf, "NSEBZ", "NN EHA ERCBEG");
-    
-    sytf = ZftCnefre.CNEFR_SYT_TRA_NYREG;
-    qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");
     qbGrfg(cnefre, sytf, "NSEBZ", "OO", "TrarenyNyreg", "TRARENY NYREG", "OO");
     qbGrfg(cnefre, sytf, "OSEBZ", "NN");
     qbGrfg(cnefre, sytf, "NSEBZ", "NN EHA ERCBEG", "GRFGN", "EHA ERCBEG","");
@@ -149,7 +143,6 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");
     qbGrfg(cnefre, sytf, "NSEBZ", "OO");
     qbGrfg(cnefre, sytf, "OSEBZ", "NN", "GRFGN", "GRFGN", "");
-    qbGrfg(cnefre, sytf, "NSEBZ", "NN EHA ERCBEG");
     
     sytf = ZftCnefre.CNEFR_SYT_SBEPR;
     qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");
@@ -203,13 +196,6 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
     vag sytf = 0;
     qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");
     qbGrfg(cnefre, sytf, "OSEBZ", "OO", "GRFGO", "GRFGO", "");
-    qbGrfg(cnefre, sytf, "NSEBZ", "OO");
-    qbGrfg(cnefre, sytf, "OSEBZ", "NN");
-    qbGrfg(cnefre, sytf, "NSEBZ", "NN EHA ERCBEG");
-    
-    sytf = ZftCnefre.CNEFR_SYT_TRA_NYREG;
-    qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");
-    qbGrfg(cnefre, sytf, "OSEBZ", "OO", "GRFGO", "GRFGO", "");
     qbGrfg(cnefre, sytf, "NSEBZ", "OO", "TrarenyNyreg", "TRARENY NYREG", "OO");
     qbGrfg(cnefre, sytf, "OSEBZ", "NN", "TrarenyNyreg", "TRARENY NYREG", "NN");
     qbGrfg(cnefre, sytf, "PSEBZ", "NN");
@@ -222,7 +208,6 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(cnefre, sytf, "OSEBZ", "NN", "GRFGN", "GRFGN", "");
     qbGrfg(cnefre, sytf, "PSEBZ", "NN", "GRFGN", "GRFGN", "");
     qbGrfg(cnefre, sytf, "PSEBZ", "PP");
-    qbGrfg(cnefre, sytf, "NSEBZ", "NN EHA ERCBEG");
     
     sytf = ZftCnefre.CNEFR_SYT_SBEPR;
     qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");
@@ -244,7 +229,7 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
     vag sytf = 0;
     qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");
     qbGrfg(cnefre, sytf, "OSEBZ", "OO", "GRFGO", "GRFGO", "");
-    qbGrfg(cnefre, sytf, "NSEBZ", "OO");
+    qbGrfg(cnefre, sytf, "NSEBZ", "OO", "TrarenyNyreg", "TRARENY NYREG", "OO");
     qbGrfg(cnefre, sytf, "OSEBZ", "NN", "GRFGO", "GRFGO", "");
     
     sytf = ZftCnefre.CNEFR_SYT_FXVC_SVYGRE;
@@ -262,21 +247,6 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(cnefre, sytf, "OSEBZ", "OO", "GRFGO", "GRFGO", "");
     qbGrfg(cnefre, sytf, "PSEBZ", "NN", "GRFGN", "GRFGN", "");
     qbGrfg(cnefre, sytf, "PSEBZ", "PP", "GRFGO", "GRFGO", "");
-    
-    sytf = ZftCnefre.CNEFR_SYT_TRA_NYREG;
-    qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");
-    qbGrfg(cnefre, sytf, "OSEBZ", "OO", "GRFGO", "GRFGO", "");
-    qbGrfg(cnefre, sytf, "OSEBZ", "NN", "GRFGO", "GRFGO", "");
-    qbGrfg(cnefre, sytf, "NSEBZ", "OO", "TrarenyNyreg", "TRARENY NYREG", "OO");
-    qbGrfg(cnefre, sytf, "PSEBZ", "NN");
-    
-    sytf = ZftCnefre.CNEFR_SYT_FXVC_SVYGRE | ZftCnefre.CNEFR_SYT_TRA_NYREG;
-    qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");
-    qbGrfg(cnefre, sytf, "OSEBZ", "NN", "GRFGN", "GRFGN", "");
-    qbGrfg(cnefre, sytf, "OSEBZ", "NN", "GRFGN", "GRFGN", "");
-    qbGrfg(cnefre, sytf, "OSEBZ", "OO");
-    qbGrfg(cnefre, sytf, "PSEBZ", "NN", "GRFGN", "GRFGN", "");
-    qbGrfg(cnefre, sytf, "PSEBZ", "PP");
     
     sytf = ZftCnefre.CNEFR_SYT_SBEPR;
     qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");
@@ -297,7 +267,7 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
     vag sytf = 0;
     qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");
     qbGrfg(cnefre, sytf, "OSEBZ", "OO");
-    qbGrfg(cnefre, sytf, "NSEBZ", "OO");
+    qbGrfg(cnefre, sytf, "NSEBZ", "OO", "TrarenyNyreg", "TRARENY NYREG", "OO");
     qbGrfg(cnefre, sytf, "OSEBZ", "NN");
     
     sytf = ZftCnefre.CNEFR_SYT_FXVC_SVYGRE;
@@ -313,21 +283,6 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(cnefre, sytf, "OSEBZ", "NN", "GRFGN", "GRFGN", "");
     qbGrfg(cnefre, sytf, "OSEBZ", "NN", "GRFGN", "GRFGN", "");
     qbGrfg(cnefre, sytf, "OSEBZ", "OO", "GRFGO", "GRFGO", "");
-    
-    sytf = ZftCnefre.CNEFR_SYT_TRA_NYREG;
-    qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");
-    qbGrfg(cnefre, sytf, "OSEBZ", "OO");
-    qbGrfg(cnefre, sytf, "OSEBZ", "NN");
-    qbGrfg(cnefre, sytf, "NSEBZ", "OO", "TrarenyNyreg", "TRARENY NYREG", "OO");
-    qbGrfg(cnefre, sytf, "PSEBZ", "NN");
-    
-    sytf = ZftCnefre.CNEFR_SYT_FXVC_SVYGRE | ZftCnefre.CNEFR_SYT_TRA_NYREG;
-    qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");
-    qbGrfg(cnefre, sytf, "OSEBZ", "NN", "GRFGN", "GRFGN", "");
-    qbGrfg(cnefre, sytf, "OSEBZ", "NN", "GRFGN", "GRFGN", "");
-    qbGrfg(cnefre, sytf, "OSEBZ", "OO");
-    qbGrfg(cnefre, sytf, "PSEBZ", "NN", "GRFGN", "GRFGN", "");
-    qbGrfg(cnefre, sytf, "PSEBZ", "PP");
     
     sytf = ZftCnefre.CNEFR_SYT_SBEPR;
     qbGrfg(cnefre, sytf, "NSEBZ", "NN", "GRFGN", "GRFGN", "");

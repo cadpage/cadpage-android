@@ -41,7 +41,6 @@ public class SmsMmsMessage implements Serializable {
   public static final int MESSAGE_TYPE_C2DM = 2;
   
   public static final int PARSE_FLG_FORCE = 1;
-  public static final int PARSE_FLG_SKIP_FILTER = 2;
 
   // Main message object private vars
   private String fromAddress = null;
@@ -99,6 +98,8 @@ public class SmsMmsMessage implements Serializable {
   private transient Message parseInfo = null;
   
   private transient SplitMsgOptions splitMsgOptions = null;
+  
+  private transient String effReqLocation = null;
 
   /**
    * Copy constructor
@@ -116,6 +117,7 @@ public class SmsMmsMessage implements Serializable {
     this.mmsMsgId = msg.mmsMsgId;
     this.subject = msg.subject;
     this.reqLocation = msg.reqLocation;
+    this.effReqLocation = msg.effReqLocation;
     this.vendorCode = msg.vendorCode;
     this.missingParsers = msg.missingParsers;
     this.ackReq = msg.ackReq;
@@ -363,13 +365,13 @@ public class SmsMmsMessage implements Serializable {
       try {
         if (reqLocation.contains("/")) {
           String[] results = VendorManager.instance().convertLocationCode(vendorCode, reqLocation);
-          location = results[0];
+          effReqLocation = results[0];
           missingParsers = results[1];
         } else {
-          location = reqLocation;
+          effReqLocation = reqLocation;
         }
         if (vendorCode != null && vendorCode.equals("Active911")) {
-          MsgParser parser = ManageParsers.getInstance().getParser(location);
+          MsgParser parser = ManageParsers.getInstance().getParser(effReqLocation);
           if (!ManagePreferences.overrideActive911SplitOptions() && parser != null) {
             splitMsgOptions = parser.getActive911SplitMsgOptions();
           }
@@ -512,7 +514,6 @@ public class SmsMmsMessage implements Serializable {
 
   /**
    * Construct parseInfo message object
-   * @param lock if message order should be locked
    */
   private void buildParseInfo() {
     parseInfo = bldParseInfo();
@@ -526,6 +527,8 @@ public class SmsMmsMessage implements Serializable {
       }
       MsgParser parser = getParser();
       parseInfo = new MessageBuilder(parser, fromAddress, subject, getSplitMsgOptions()).buildMessage(msgParts, lock);
+      MsgInfo info = parseInfo.getInfo();
+      if (info != null) location = info.getParserCode();
     }
   }
   
@@ -564,13 +567,11 @@ public class SmsMmsMessage implements Serializable {
   public boolean isPageMsg(int flags) {
     
     boolean force = (flags & PARSE_FLG_FORCE) != 0;
-    boolean skipFilter = (flags & PARSE_FLG_SKIP_FILTER) != 0;
     
     int parserFlags = 0;
-    if (skipFilter) parserFlags |= MsgParser.PARSE_FLG_SKIP_FILTER;
     
     // First step is to check for an override sender filter
-    if (!force && !skipFilter && ManagePreferences.overrideFilter()) {
+    if (!force && ManagePreferences.overrideFilter()) {
       String filter = ManagePreferences.filter();
       if (filter.length() > 1) {
         if (!MsgParser.matchFilter(getFromAddress(), filter)) return false;
@@ -586,20 +587,15 @@ public class SmsMmsMessage implements Serializable {
     
     // Set up parser flags  We will process general alerts if we do anything
     // at all with general alerts
-    if (force) {
-      parserFlags |= MsgParser.PARSE_FLG_FORCE;
-    } else {
-      FilterOptions genAlertOptions = ManagePreferences.genAlertOptions();
-      if (genAlertOptions.historyEnabled() || genAlertOptions.blockTextMsgEnabled()) {
-        parserFlags |= MsgParser.PARSE_FLG_GEN_ALERT;
-      }
-    }
+    if (force) parserFlags |= MsgParser.PARSE_FLG_FORCE;
     
     // OK, that is it for flags, now lets see about getting the right parser
     MsgParser parser = getParser();
     
     // OK, parser gets to do its thing
-    return parser.isPageMsg(parseInfo, parserFlags);
+    boolean ok = parser.isPageMsg(parseInfo, parserFlags);
+    if (ok) location = parseInfo.getInfo().getParserCode();
+    return ok;
   }
 
   /**
@@ -611,9 +607,9 @@ public class SmsMmsMessage implements Serializable {
     // a parser.  This is one of the only times we will ignore a bad location
     // code
     MsgParser parser = null;
-    if (reqLocation != null && location != null && !ManagePreferences.overrideVendorLoc()) {
+    if (effReqLocation != null && !ManagePreferences.overrideVendorLoc()) {
       try {
-        parser = ManageParsers.getInstance().getParser(location);
+        parser = ManageParsers.getInstance().getParser(effReqLocation);
       } catch (RuntimeException ex) {
         Log.e(ex);
       }
@@ -663,9 +659,10 @@ public class SmsMmsMessage implements Serializable {
       if (missingParsers != null) {
         String[] results = VendorManager.instance().convertLocationCode(vendorCode, reqLocation);
         missingParsers = results[1];
-        if (!location.equals(results[0])) {
+        if (!effReqLocation.equals(results[0])) {
+          effReqLocation = results[0];
           try {
-            MsgParser parser = ManageParsers.getInstance().getParser(results[0]);
+            MsgParser parser = ManageParsers.getInstance().getParser(effReqLocation);
             if (parser.isPageMsg(parseInfo, MsgParser.PARSE_FLG_SKIP_FILTER)) {
               return parseInfo.getInfo();
             }
@@ -696,7 +693,7 @@ public class SmsMmsMessage implements Serializable {
     }
     
     MsgParser parser =  ManageParsers.getInstance().getParser(location, messageBody);
-    parser.isPageMsg(parseInfo, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_GEN_ALERT);
+    parser.isPageMsg(parseInfo, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER);
     return parseInfo.getInfo();
   }
 

@@ -81,7 +81,6 @@ public class Parser {
       }
       if (parser != null) {
         int flags = MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER;
-        if (tFlags.contains("G")) flags |= MsgParser.PARSE_FLG_GEN_ALERT;
         boolean compatMode = !tFlags.contains("N");
         if (parser.isPageMsg(msg, flags)) {
           System.out.println(CadpageParser.formatInfo(msg.getInfo(), "\n", true, compatMode));

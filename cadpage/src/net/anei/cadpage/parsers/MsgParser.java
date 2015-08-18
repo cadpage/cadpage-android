@@ -213,20 +213,6 @@ public abstract class MsgParser {
   public static final int PARSE_FLG_POSITIVE_ID = 0x02;
   
   /**
-   * Parse flag indicates that messages from dispatch that are not CAD pages
-   * should be treated as general alerts.  This include messages identified as
-   * run reports 
-   */
-  public static final int PARSE_FLG_GEN_ALERT = 0x04;
-  
-  /**
-   * Parse flag indicates that messages that have been identified as run reports
-   * should be returned.  But messages identified as  general reports should not
-   */
-  
-  public static final int PARSE_FLG_RUN_REPORT = 0x08;
-  
-  /**
    * No longer used - setTestMode() is not used to set test mode
    */
   public static final int PARSE_FLG_TEST_MODE = 0x10;
@@ -364,9 +350,6 @@ public abstract class MsgParser {
     // Save parse flags for future reference
     this.parseFlags = parseFlags;
     
-    boolean parseGenAlert = (parseFlags & PARSE_FLG_GEN_ALERT) != 0;
-    boolean parseRunReport = parseGenAlert || (parseFlags & PARSE_FLG_RUN_REPORT) != 0;
-    
     // If we have been called before and returned a parsed result
     // we do not have to do all of that work again.
     MsgInfo info = msg.getInfo();
@@ -395,20 +378,7 @@ public abstract class MsgParser {
       msg.setInfo(info);
     }
     
-    // Generally, if the parser returned some results, we are happy.  One exception
-    // is when individual parser determine a message should be a general alert because
-    // it isn't a real CAD page, but it has enough identifying markers to positively
-    // identify it as coming from Dispatch.  If the user didn't want to process
-    // general alerts, and we aren't running in a test class, change this to
-    // an outright failure
-    if (!testMode) {
-      if (!parseGenAlert && 
-          (info.getMsgType() == MsgType.GEN_ALERT || 
-           info.getCall().equals("GENERAL ALERT"))) return false;
-      if (!parseRunReport && 
-          (info.getMsgType() == MsgType.RUN_REPORT || info.getCall().equals("RUN REPORT"))) return false;
-    }
-
+    // Life is good!!
     return true;
   }
 
