@@ -28,7 +28,7 @@ public class FilterOptions {
   }
   
   public boolean  blockTextMsgEnabled() {
-    return  !(ManagePreferences.smspassthru() && !options.contains("B"));
+    return  !(ManagePreferences.smspassthru() || options.contains("B"));
   }
 
 }

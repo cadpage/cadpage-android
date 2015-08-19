@@ -17,6 +17,11 @@ public class NHGraftonCountyParser extends DispatchArchonixParser {
   }
   
   @Override
+  public String getFilter() {
+    return "cccademail@LRMFA.org";
+  }
+  
+  @Override
   public int getMapFlags() {
     return MAP_FLG_SUPPR_TE | MAP_FLG_SUPPR_LA;
   }
