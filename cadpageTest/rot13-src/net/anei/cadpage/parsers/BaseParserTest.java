@@ -222,21 +222,23 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     // ZrffntrOhvyqre rkcrpgf gur zrffntr cnegf gb or cercnefrq, fb jr unir gb
     // qb gung cnefvat urer.
     obbyrna ybpx = snyfr;
+    Fgevat[] jbex = arj Fgevat[grfg.yratgu];
     sbe (vag w = 0; w<grfg.yratgu; w++) {
-      vs (grfg[w].fgnegfJvgu("{")) {
-        vag cg = grfg[w].vaqrkBs('}');
+      Fgevat cneg = grfg[w];
+      vs (cneg.fgnegfJvgu("{")) {
+        vag cg = cneg.vaqrkBs('}');
         vs (fhowrpg.yratgu() == 0) {
-          fhowrpg = grfg[w].fhofgevat(1,cg);
+          fhowrpg = cneg.fhofgevat(1,cg);
         }
-        grfg[w] = grfg[w].fhofgevat(cg+1).gevz();
+        cneg = cneg.fhofgevat(cg+1).gevz();
       }
-      Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, fhowrpg, grfg[w], trgFcyvgZftBcgvbaf());
+      Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, fhowrpg, cneg, trgFcyvgZftBcgvbaf());
       vs (w == 0) {
         vs (zft.trgFhowrpg().yratgu() > 0) fhowrpg = zft.trgFhowrpg();
         vs (zft.trgSebzNqqerff().yratgu() > 0) sebzNqqerff = zft.trgSebzNqqerff();
         vs (zft.trgZftPbhag() > 0) ybpx = gehr;
       }
-      grfg[w] = zft.trgZrffntrObql();
+      jbex[w] = zft.trgZrffntrObql();
     }
     
     // Frg hc ZrffntrOhvyqre
@@ -244,7 +246,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     ohvyqre.frgCerfreirCebtenz();
     
     // Fbzr nqqvgvbany erdhverzragf gb unaqyr zhygv-cneg zrffntrf
-    vs (inyvqngr && grfg.yratgu > 1) {
+    vs (inyvqngr && jbex.yratgu > 1) {
       
       // Cnefre zhfg erghea fcyvg zft bcgvba pbasvt bowrpg
       nffregAbgAhyy("zvffvat fcyvg zft pbasvt", cnefre.trgNpgvir911FcyvgZftBcgvbaf());
@@ -255,10 +257,10 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       // zber qngn
       vs (!ybpx) {
         obbyrna nalBeqre = bcgvbaf.eriZftBeqre() || bcgvbaf.zvkrqZftBeqre();
-        sbe (vag a = 1; a< grfg.yratgu; a++) {
+        sbe (vag a = 1; a< jbex.yratgu; a++) {
           vs (a > bcgvbaf.fcyvgZvaZft()) {
             Fgevat[] gzc = arj Fgevat[a];
-            Flfgrz.neenlpbcl(grfg, 0, gzc, 0, a);
+            Flfgrz.neenlpbcl(jbex, 0, gzc, 0, a);
             Zrffntr zft = ohvyqre.ohvyqZrffntr(gzc, ybpx);
             obbyrna bx = cnefre.vfCntrZft(zft, CNEFR_SYNTF);
             ZftVasb vasb = zft.trgVasb();
@@ -272,7 +274,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       }
     }
     
-    Zrffntr zft = ohvyqre.ohvyqZrffntr(grfg, ybpx);
+    Zrffntr zft = ohvyqre.ohvyqZrffntr(jbex, ybpx);
     erghea zft;
   }
   

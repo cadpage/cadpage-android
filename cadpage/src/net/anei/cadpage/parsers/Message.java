@@ -120,6 +120,7 @@ public class Message {
    Pattern.compile("\\[(\\d) of (\\d)\\]$"),
     Pattern.compile(":(\\d)of(\\d)$"),
     Pattern.compile("_(\\d) of (\\d)$"),
+    Pattern.compile(" \\(0(\\d)/0(\\d)\\)$"),
     Pattern.compile("^[A-Z]+ +\\((\\d)/(\\d)\\) +(.*?) +STOP$"),
     Pattern.compile("^\\( *([^\\)]*?) +(\\d) *of *(\\d)\\)(.*)$", Pattern.DOTALL)
   };

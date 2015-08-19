@@ -7,6 +7,8 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 /**
  * Collin County, TX
@@ -14,6 +16,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class TXCollinCountyAParser extends FieldProgramParser {
 
   private static final Pattern MASTER1 = Pattern.compile("CFS (\\d{8}) +(.*)");
+  private static final Pattern MSG_DISPATCH_PTN = Pattern.compile("Message [Ff]rom Dispatch ");
   private static final Pattern TRAIL_JUNK_PTN = Pattern.compile("(?:(?:\\[[^\\[\\]]*)?\\{[^\\{\\}]*?\\}?|\\[SENT: [:\\d]+\\])$");
   private static final Pattern CFS_ID_PTN = Pattern.compile(" CFS (\\d{8})\\b");
   private static final Pattern LEAD_DASH_PTN = Pattern.compile("^[ -]+");
@@ -43,6 +46,11 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   @Override
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA;
+  }
+  
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new  SplitMsgOptionsCustom(0, false, true, false, false, false);
   }
 
   @Override
@@ -75,8 +83,9 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     }
     
     String alert = null;
-    if (body.startsWith("Message From Dispatch ")) {
-      body = body.substring(22).trim();
+    match = MSG_DISPATCH_PTN.matcher(body);
+    if (match.lookingAt()) {
+      body = body.substring(match.end()).trim();
       if (body.startsWith("MUTUAL AID")) {
         match  = CFS_ID_PTN.matcher(body);
         if (match.find()) {
@@ -124,7 +133,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   private static final Pattern BRACKET_PTN = Pattern.compile(" +(?:\\{([^\\[\\]\\{\\}]*?)\\}|\\[([^\\[\\]\\{\\}]*?)\\]) *");
   private static final Pattern STANDBY_PTN = Pattern.compile("^STANDBY(?: AT THIS TIME)?  +");
   private static final Pattern JUNK_PTN = Pattern.compile(" (?:\"[^A-Za-z0-9]\"|\"SPECIFY(?: NATURE)?\"|\\{\\{TONE\\}\\}) ");
-  private static final Pattern IN_PTN = Pattern.compile(" +IN +| *, +", Pattern.CASE_INSENSITIVE);
+  private static final Pattern IN_PTN = Pattern.compile(" IN (?!CUSTODY)|, ", Pattern.CASE_INSENSITIVE);
   private class MashField extends Field {
     
     @Override
@@ -267,11 +276,11 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       if (match.find()) {
         
         // Check, use smart parser to split call and address
-        parseAddress(st, parseFlags | FLAG_ANCHOR_END, sAddress.substring(0,match.start()), data);
+        parseAddress(st, parseFlags | FLAG_ANCHOR_END, sAddress.substring(0,match.start()).trim(), data);
         
         // Now lets look at the right side of the IN keyword
         // Check for second IN city clause
-        String tail = sAddress.substring(match.end());
+        String tail = sAddress.substring(match.end()).trim();
         int pt = tail.indexOf(" IN ");
         if (pt >= 0) {
           data.strCity = tail.substring(0,pt).trim();
@@ -1273,28 +1282,51 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   };
   
   private static final CodeSet CALL_LIST = new CodeSet(
+      "10-150 MAJOR ACCIDENT",
       "1050 MAJOR",
+      "1050 MINOR",
+      "911 HANG UP/OPEN LINE",
+      "ABDOMINAL PAIN",
+      "AMBULANCE/EMS SERVICE",
+      "ANIMAL BITE",
       "ANIMAL COMPLAINT",
+      "ASSIST MOTORIST",
       "ASSIST PD",
+      "ASSIST POLICE DEPARTMENT",
       "ATTEMPT SUICIDE",
       "ATTEMPTED SUICIDE",
       "AUTOMATIC AID ENGINE",
       "AUTOMATIC FIRE ALARM",
+      "BOAT IN DISTRESS",
+      "BREATHING PROBLEMS",
+      "CAR/VEHICLE FIRE",
       "CARBON MONOXIDE ALARM",
       "CARBON MONOXIDE INVESTIGATION",
+      "CARDIAC ARREST",
+      "CFALARM",
+      "CHEMICAL FIRE",
+      "CHEST PAINS",
+      "CHOKING",
       "CLOSE PATROL",
       "COMERCIAL FIRE ALARM",
       "COMMERCIAL FIRE ALARM",
       "CONTROLLED BURN",
+      "CONVULSIONS/SEIZURES",
       "DECEASED PERSON",
+      "DDIST",
+      "DIABETIC PROBLEMS",
+      "DISREGARD PER FVFD",
       "DISTURBANCE",
       "DOMESTIC DISTURBANCE",
       "DOWN POWER LINE",
       "DOWN TREE",
       "DUMPSTER FIRE",
       "DRIVING WHILE INTOXICATED",
+      "DROWNING",
       "ELECTRICAL FIRE",
       "ELEVATOR ALARM",
+      "ELEVATOR RESCUE",
+      "ELEVATOR RESCUE/ALARM",
       "EMERGENCY MEDICAL CALL",
       "EMERGENCY MEDICAL ALARM",
       "EMERGENCY PUBLIC ASSIST",
@@ -1313,70 +1345,109 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "EMS OTHER/STANDBY/PR",
       "EMS TRANSFER",
       "EMS TRAUMA",
+      "ENRT TO STAGE FOR POSSIBLE MENTAL SUBJ",
+      "EVENT",
+      "FALL U/6FT",
+      "FDLAKE",
+      "FDMUTMVA",
+      "FDSTRUC",
       "FIRE ALARM",
       "FIRE OTHER",
       "FIRE PUBLIC ASSIST",
       "FIRE REPORTED OUT",
+      "FIRST",
       "FIRST RESPONDERS",
       "FISRT RESPONDERS",
+      "FLOODING REPORTED",
       "FUEL SPILL",
+      "GFIRE",
       "GRASS FIRE",
       "GRASS/BRUSH FIRE (LOW HAZD)",
+      "GRASS/WILDLAND FIRE",
+      "GRASS OR BRUSH FIRE",
+      "GRILL FIRE",
       "HAZARDOUS CONDITION",
       "HAZARDOUS MATERIALS",
+      "HEART PROBLEMS",
       "INJURED PERSON",
+      "INJURY",
+      "INTOXICATED DRIVER COMPLAINT",
       "INVESTIGATION",
       "INVESTIGATION-UNKNOWN SIT.",
+      "LAKE EMERGENCY",
       "LIFT ASSIST ONLY",
       "LOCK-IN/OUT",
       "LOCKED VEHICLE/RESIDENCE",
+      "LOCKOUT",
+      "LOOSE",
       "MAJOR",
       "MAJOR ACCIDENT",
       "MAJOR ACCIDENT (INJURIES)",
       "MAJOR ACCIDENT (MAJOR ROAD)",
       "MAJOR ACCIDENT 10/50",
       "MAJOR HIT AND RUN ACCIDENT",
+      "MAJOR WITH EXTRICATION",
+      "MINOR",
       "MINOR ACCIDENT 10/50",
+      "MISCELLANEOUS FIRE",
       "MISSING CHILD",
       "MEDIC CALL- COALITION",
       "MEDICAL ALARM",
       "MEDICAL EMERGENCY",
       "MEDICATION OVERDOSE",
       "MENTAL SUBJECT",
+      "MISCELLANEOUS FIRE",
       "MOTORIST ASSIST",
+      "MUTUAL",
       "MUTUAL AID",
       "MUTUAL AID,FIRE/FILL IN",
       "MUTUAL AID AMB FOR MAJOR",
       "MUTUAL AID AMBULANCE",
+      "MUTUAL AID BRUSH",
       "MUTUAL AID ENGINE",
       "MUTUAL AID ENGINE TO SCENE",
       "MUTUAL AID FVFD",
       "MUTUAL AID FIRE/RESCUE REQUEST",
       "MUTUAL AID GRASS FIRE",
+      "MUTUAL AID, MEDIC TO LOCATION",
       "MUTUAL AID MEDICAL CALL",
       "MUTUAL AID ON SFIRE",
+      "MUTUAL AIDE REQ TENDER",
       "MUTUAL AID SFIRE",
       "MUTUAL AID STRUCTURE FIRE",
       "MUTUAL AID TRUCK TO THE SCENE",
+      "MVA2",
       "NARCOTICS INVESTIGATION",
       "NATURAL / PROPANE GAS LEAK",
+      "NATURAL GAS LEAK",
       "ODOR INSIDE STRUCTURE",
       "ODOR INVESTIGATION",
       "OVERDOSE",
+      "PATIENT ASSIST OR LIFT ASSIST",
       "PROPERTY PUBLIC ASSIST",
       "PUBLIC ASSIST",
       "PUBLIC ASSIST (FD)",
+      "QUINT",
+      "RECKLESS DRIVER",
       "RES. SMOKE DETECTOR PROBLEM",
+      "RESCUE",
       "RESCUE-TRAPED PERSON(S)",
       "RESCUE-TRAPPED PERSON(S)",
       "RESD. FIRE ALARM",
       "RESIDENTIAL FIRE ALARM",
+      "RESIDENTIAL PANIC ALARM",
       "SEARCH FOR MISSING PERSON",
+      "SFIRE",
+      "SICK PERSON",
+      "SMOKE",
       "SMOKE DETECTOR ALARM",
       "SMOKE INVESTIGATION",
       "SPECIAL ASSIGNMENT",
       "SPECIAL ASSIGNMENT \"SPECIFY\"",
+      "SPECIAL HAZARD",
       "STANDBY ELECTRICAL FIRE",
+      "STILL ALARM ENGINE",
+      "STROKE",
       "STRUCTURE FIRE",
       "SUBJECT PASSED OUT",
       "SUICIDE THREAT",
@@ -1388,19 +1459,27 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "TRAFFIC STOP",
       "TRASH / DUMPSTER FIRE",
       "TRASH FIRE",
+      "TRAUMATIC INJURIES",
+      "TSUICI",
+      "UFIRE",
       "UNAUTHORIZED BURN",
       "UNAUTHORZED BURN",
+      "UNCONSCIOUS PERSON",
       "UNLOCK REQUEST",
       "UTILITY LINES DOWN",
       "UNATTENDED DEATH",
+      "UNKNOWN MEDICAL PROBLEM",
       "UNKNOWN FIRE",
       "VEHICLE FIRE",
+      "VFIRE",
       "WATER FLOW ALARM",
       "WATER FLOW ALARM, BUSN OR RESD",
       "WATER LEAK",
       "WATER RESCUE",
       "WELFARE CHECK",
       "WELFARE CONCERN",
+      "WS",
+      
       
       // Manual one time call descriptions
       "69 YOA FEMALE",
@@ -1408,7 +1487,11 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "BE ENROUTE WITH ENGINE",
       "MUTUAL AID CADDO MILLS",
       "MUTUAL AID FOR PNFD WITH ENGINE TO UFIRE",
-      "MUTUAL AID FOR TRENTON FD 2 STORY SFIRE"
+      "MUTUAL AID FOR TRENTON FD 2 STORY SFIRE",
+      
+      "UNKNOWN FIRE *** REQ BRUSH TRUCK FOR HOT SPOTS***",
+      "GRASS FIRE **** NVFD REQUESTION MUTUAL AID****"
+
   );
   
   private static final String[] DOUBLE_CITY_LIST = new String[] {
