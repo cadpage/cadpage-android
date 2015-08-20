@@ -6,7 +6,7 @@ public class VAFredericksburgParser extends DispatchOSSIParser {
   
   public VAFredericksburgParser() {
     super("FREDERICKSBURG", "VA", 
-          "( CANCEL ADDR! SKIP INFO+ | FYI ( ADDR/Z ID UNIT? CALL2! X+? INFO+ | PLACE ADDR/Z ID UNIT? CALL2! X+? INFO+ | PLACE? CALL ADDR/Z END ) )");
+          "( CANCEL ADDR! SKIP INFO+ | FYI? ( ADDR/Z ID UNIT? CALL2! X+? INFO+ | PLACE ADDR/Z ID UNIT? CALL2! X+? INFO+ | PLACE? CALL ADDR/Z END ) )");
   }
   
   @Override
