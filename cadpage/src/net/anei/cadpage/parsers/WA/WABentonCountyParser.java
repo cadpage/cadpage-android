@@ -6,21 +6,31 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 public class WABentonCountyParser extends FieldProgramParser {
 
   public WABentonCountyParser() {
-    super(CITY_CODES, "BENTON COUNTY", "WA", "Location:ADDR/S46! X-St:X! &:X! DispUnit(s):UNIT");
+    super(CITY_CODES, "BENTON COUNTY", "WA", 
+          "Location:ADDR/S46! X-St:X! &:X! Disp:UNIT");
+  }
+  
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom(0, false, true, false, false, false);
   }
 
   @Override
-  public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("SECOMM")) return false;
+  public boolean parseMsg(String body, Data data) {
+    
+    // A text body of exactly 150 characters has probably been split
+    data.expectMore = body.length() == 150;
     
     if (body.startsWith(":")) body = "Location" + body;
     else if (!body.startsWith("Location:")) body = "Location:" + body;
     
-    if (!super.parseMsg(subject, body, data)) return false;
+    if (!super.parseMsg(body, data)) return false;
     if (data.strAddress.length() == 0) {
       parseAddress(data.strCross, data);
       data.strCross = "";
