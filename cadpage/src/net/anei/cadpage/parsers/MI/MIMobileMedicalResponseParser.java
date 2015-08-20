@@ -16,7 +16,7 @@ public class MIMobileMedicalResponseParser extends DispatchProQAParser {
   
   public MIMobileMedicalResponseParser() {
     super("", "MI", 
-          "ADDR CALL! XTRA+? INFO+");
+          "TIME? ADDR CALL! XTRA+? INFO+");
   }
   
   @Override
@@ -49,6 +49,7 @@ public class MIMobileMedicalResponseParser extends DispatchProQAParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("XTRA")) return new ExtraField();
     if (name.equals("INFO")) return new MyInfoField();
