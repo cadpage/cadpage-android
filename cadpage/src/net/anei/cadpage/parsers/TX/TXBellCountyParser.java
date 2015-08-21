@@ -58,23 +58,26 @@ public class TXBellCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
 
-  private static final Pattern PLACE_MARKER = Pattern.compile(": ?[@:]");
   private static final Pattern ADDR_APT_PTN = Pattern.compile("(.*), *([^ ]+)");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      while (field.endsWith(": EST")) field = field.substring(0,field.length()-5).trim();
       field = field.replace("CHAPPARAL", "CHAPARRAL");
       if (field.startsWith("@")) {
         data.strAddress = field;
       } else {
-        String apt = "";
-        Matcher match = PLACE_MARKER.matcher(field);
-        if (match.find()) {
-          data.strPlace = field.substring(match.end()).trim();
-          field = field.substring(0,match.start()).trim();
+        while (true) {
+          int pt = field.lastIndexOf(':');
+          if (pt < 0) break;
+          String place = field.substring(pt+1).trim();
+          if (place.startsWith("@")) {
+            place = place.substring(1).trim();
+            data.strPlace = append(place, " - ", data.strPlace);
+          }
+          field = field.substring(0,pt).trim();
         }
-        match = ADDR_APT_PTN.matcher(field);
+        String apt = "";
+        Matcher match = ADDR_APT_PTN.matcher(field);
         if (match.matches()) {
           field = match.group(1).trim();
           apt = match.group(2);
