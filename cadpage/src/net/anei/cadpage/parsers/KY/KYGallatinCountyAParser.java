@@ -73,6 +73,7 @@ public class KYGallatinCountyAParser extends DispatchA29Parser {
       "45D TRAFFIC ACCIDENT - VS DEER",
       "8001 ALARM-BURGLAR-COMMERCIAL",
       "8007 ASSIST ANOTHER AGENCY",
+      "8018 UNKNOWN PROBLEM",
       "8050 FIRE ALARM",
       "8111 MOTORIST ASSIST",
       "8014 BURGLARY-COMMERCIAL",
