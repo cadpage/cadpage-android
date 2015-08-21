@@ -892,8 +892,8 @@ public class MsgOptionManager {
     intent.setClassName("com.active911.app", "com.active911.app.MainActivity");
     
     // See if we can extract the message ID from the ack URL
-    String code = msg.getActive911MsgCode();
-    if (code != null) intent.putExtra("q", code);
+//    String code = msg.getActive911MsgCode();
+//    if (code != null) intent.putExtra("q", code);
     
     PackageManager pm = context.getPackageManager();
     List<ResolveInfo> list = pm.queryIntentActivities(intent, 0);
@@ -904,7 +904,7 @@ public class MsgOptionManager {
     ContentQuery.dumpIntent(intent);
     try {
       context.startActivity(intent);
-    } catch (ActivityNotFoundException ex) {
+    } catch (Exception ex) {
       Log.e(ex);
     }
     return true;

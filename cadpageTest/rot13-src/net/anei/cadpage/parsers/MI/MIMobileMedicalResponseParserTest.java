@@ -60,6 +60,10 @@ Pbagnpg: Znpxramvr, Gvzbgul <gznpxramvr@zbovyrzrqvpny.bet>
 Fraqre: znvytubfg@zbovyrzrqvpny.bet
 (<PNQ> - cneg 1 bs 1) EP:Eha# 83150/19:03/1314?YVYYVNA?QE//4 N869 erdhrfgrq sbe nffvtazrag ol Trarfrr Pbhagl.//<Haxabja>
 
+Pbagnpg: Xvoorl, Xnyvo <xxvoorl@zbovyrzrqvpny.bet>
+Fraqre: znvytubfg@zbovyrzrqvpny.bet
+(<PNQ> - cneg 1 bs 1) EP:Tb gb cbfg FNT-FGNGVBA 7
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zbovyr Zrqvpny Erfcbafr
 Ybpngvba: Fntvanj, ZV, Havgrq Fgngrf
