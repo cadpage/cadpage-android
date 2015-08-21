@@ -13,9 +13,15 @@ public class MDCecilCountyEParser extends FieldProgramParser {
   public MDCecilCountyEParser() {
     super("CECIL COUNTY", "MD",
           "( ID:ID! BOX:BOX? CALL:CODE_CALL! ( UNIT:UNIT! | ADDR:ADDR! PL:PLACE? APT:APT? UNIT:UNIT! ( INFO:INFO! CITY:CITY! ST:ST! | ) ) " +
-          "| CALL:CALL! ( CODE:CODE! ADDR:ADDR! XST:X? CITY:CITY! HIGHX:X? LOWX:X? ( PL:PLACE | PLACE:PLACE | ) ( INFO:INFO! ID:ID? UNIT:UNIT! SRC:SRC? | ) DST:SKIP! " +
-                       "| UNIT:UNIT! ADDR:ADDR! X:X? ID:ID? CITY:CITY? ID:ID? ST:ST? BOX:BOX? Grids:MAP? ID:ID? ) " +
-          "| THISUNIT:UNIT! INFO:INFO! CALL:CALL! CODE:CODE! EMD:CODE! ADDTST:PLACE? ADDR:ADDR! CITYCODE:SKIP! CITY:CITY! PLACE:PLACE? LOWX:X? HIGHX:X? INFO:INFO! CASEID:ID! SRC:SRC? UNIT:UNIT! SRC:SRC? NAME:NAME! PH:PHONE! DATE:DATETIME! CALLERADDR:SKIP? AGENCYCODE:SRC! SERVICETYPE:SKIP! CALLSOURCE:SKIP! ID:ID! X:SKIP! )");
+          "| CALL:CALL! ( CODE:CODE! ADDR:ADDR! ( X:X | XST:X? ) CITY:CITY! HIGHX:X? LOWX:X? ( PL:PLACE | PLACE:PLACE | ) ( INFO:INFO! ID:ID? UNIT:UNIT! SRC:SRC? | ) DST:SKIP! " +
+                       "| UNIT:UNIT! ADDR:ADDR! X:X? ID:ID? CITY:CITY? ID:ID? ST:ST? BOX:BOX? Grids:MAP? ID:ID? ST:ST? ) )");
+  }
+
+  private static final Pattern DELIM = Pattern.compile("\n|(?<!\n|^)(?=(?:ADDR|APT|BOX|CALL|CITY|CODE|DST|Grids|HIGHX|(?<!VAL)ID|INFO|LOWX|PL|PLACE|SRC|(?<!D)ST|UNIT|(?<!BO|HIGH|LO)X|XST):)"); 
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    return parseFields(DELIM.split(body), data);
   }
 
   @Override
