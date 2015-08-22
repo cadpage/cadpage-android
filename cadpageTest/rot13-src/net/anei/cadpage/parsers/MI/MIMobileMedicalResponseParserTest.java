@@ -56,6 +56,14 @@ Pbagnpg: fhfna.thvarl@lnubb.pbz <fhfna.thvarl@lnubb.pbz>
 Fraqre: znvytubfg@zbovyrzrqvpny.bet
 (<PNQ> - cneg 1 bs 1) EP:Eha# 72015/13137?PYVB?EQ//4 N870 erdhrfgrq sbe nffvtazrag ol Trarfrr Pbhagl.//<Haxabja>
 
+Pbagnpg: Znpxramvr, Gvzbgul <gznpxramvr@zbovyrzrqvpny.bet>
+Fraqre: znvytubfg@zbovyrzrqvpny.bet
+(<PNQ> - cneg 1 bs 1) EP:Eha# 83150/19:03/1314?YVYYVNA?QE//4 N869 erdhrfgrq sbe nffvtazrag ol Trarfrr Pbhagl.//<Haxabja>
+
+Pbagnpg: Xvoorl, Xnyvo <xxvoorl@zbovyrzrqvpny.bet>
+Fraqre: znvytubfg@zbovyrzrqvpny.bet
+(<PNQ> - cneg 1 bs 1) EP:Tb gb cbfg FNT-FGNGVBA 7
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zbovyr Zrqvpny Erfcbafr
 Ybpngvba: Fntvanj, ZV, Havgrq Fgngrf
@@ -267,6 +275,19 @@ choyvp pynff ZVZbovyrZrqvpnyErfcbafrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:4 N870 erdhrfgrq sbe nffvtazrag ol Trarfrr Pbhagl.",
         "VASB:<Haxabja>");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgGvzbgulZpxramvr() {
+
+    qbGrfg("G1",
+        "(<PNQ> - cneg 1 bs 1) EP:Eha# 83150/19:03/1314?YVYYVNA?QE//4 N869 erdhrfgrq sbe nffvtazrag ol Trarfrr Pbhagl.//<Haxabja>",
+        "VQ:83150",
+        "GVZR:19:03",
+        "NQQE:1314 YVYYVNA QE",
+        "PNYY:4 N869 erdhrfgrq sbe nffvtazrag ol Trarfrr Pbhagl.",
+        "VASB:<Haxabja>");
+    
   }
   
   @Grfg

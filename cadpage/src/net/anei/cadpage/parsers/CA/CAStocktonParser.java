@@ -13,9 +13,10 @@ public class CAStocktonParser extends FieldProgramParser {
   
   public CAStocktonParser() {
     super("STOCKTON", "CA",
-           "CFS:SKIP INCIDENT_#:ID RECEIVED:DATETIME DISTRICT_#:MAP MAP? TYPE:CALL! "
+           "( TIMES_REPORT/R SKIP! CFS_Number:ID! CALL! LOCATION:ADDR! RECEIVED:DATETIME! INFO/N+ "
+        +  "| CFS:ID! INCIDENT_#:SKIP RECEIVED:DATETIME DISTRICT_#:MAP MAP? TYPE:CALL! "
         +  "LOCATION:ADDR BUSINESS_NAME:PLACE CROSS_STREETS:X APPARATUS:UNIT "
-        +  "( HAZARDS:INFO | PREMISE_HX:INFO ) INFO+");
+        +  "( HAZARDS:INFO | PREMISE_HX:INFO ) INFO+ )");
   }
   
   @Override
@@ -25,38 +26,18 @@ public class CAStocktonParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return parseFields(body.split("\n+"), data);
+    return parseFields(body.split("\n+ *"), data);
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new MyIdField("\\d{9,10}(?: +\\d{9,10})?", true);
-    if (name.equals("MAP")) return new MyMapField(".*DISTRICT.*", true);
+    if (name.equals("TIMES_REPORT")) return new SkipField("RESPONDING UNIT TIMES REPORT", true);
+    if (name.equals("MAP")) return new MyMapField(".*DISTRICT.*|", true);
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
-  }
-  
-  private static final Pattern ID_PATTERN  = Pattern.compile("\\D*(\\d+)(?:\\D+(\\d+))?\\D*");
-  private class MyIdField extends IdField {
-    MyIdField(String p, boolean h) {
-      super(p, h);
-    }
-    
-    @Override
-    public void parse(String field, Data data) {
-      Matcher m = ID_PATTERN.matcher(field);
-      if (m.matches()) {
-        String id1 = m.group(1);
-        String id2 = getOptGroup(m.group(2)).trim();
-        if (id1.length() == 10)
-          data.strCallId = append(id1, "-", id2);
-        else
-          data.strCallId = append(id2, "-", id1);
-      }
-    }
   }
   
   private class MyMapField extends MapField {

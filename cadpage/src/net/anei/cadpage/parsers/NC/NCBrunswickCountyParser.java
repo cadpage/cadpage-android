@@ -4,13 +4,14 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernPlusParser;
 /**
  * Brunswick County, NC
  */
 public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("\\d+:(\\d\\d-\\d{6})[,;] *(.*)");
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("(?:\\d+:)?(\\d\\d-\\d{6})[,;] *(.*)");
   
   public NCBrunswickCountyParser() {
     super(CITY_LIST, "BRUNSWICK COUNTY", "NC", 
@@ -38,9 +39,10 @@ public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
     
     Matcher match = RUN_REPORT_PTN.matcher(body);
     if (match.matches()) {
-      data.strCall = "RUN REPORT";
+      setFieldList("ID INFO");
+      data.msgType = MsgType.RUN_REPORT;
       data.strCallId = match.group(1);
-      data.strPlace = match.group(2);
+      data.strSupp = match.group(2).replace('|', '\n');
       return true;
     }
     
@@ -145,6 +147,7 @@ public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
     "DOE CREEK",
     "EASTBROOK",
     "EASY HILL",
+    "LONGWOOD",
     "PINEY GROVE",
     "SUPPLY",
     "SUNSET HARBOR",

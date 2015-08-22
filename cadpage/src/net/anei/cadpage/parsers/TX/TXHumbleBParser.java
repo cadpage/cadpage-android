@@ -45,8 +45,10 @@ public class TXHumbleBParser extends DispatchOSSIParser {
       }
       if (field.length()<25) {
         Result r = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, field);
-        if (r.getStatus() > 1)
+        if (r.isValid()) { 
           data.strCross = append(data.strCross, " & ", field);
+          return;
+        }
       }
       super.parse(field, data);
     }
