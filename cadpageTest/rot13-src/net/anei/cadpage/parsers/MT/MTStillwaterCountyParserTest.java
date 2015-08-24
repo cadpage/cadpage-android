@@ -12,6 +12,7 @@ Ntrapl anzr: Cnex Pvgl ISQ
 Ybpngvba: Cnex Pvgl, ZG, Havgrq Fgngrf
 Fraqre: poebcul@fpfbzg.bet
 
+(Vzp Fbyhgvbaf Cntr) ZRQVPNY RZRETRAPL\e\a7/20/2015 8:49NZ\e\aQvfgevpg: CP\e\a3061 UVTUJNL 10 UJL \e\aCnex Pvgl, ZG\e\a\e\a
 (Vzp Fbyhgvbaf Cntr) PBAGEBYYRQ OHEA\a6/25/2015 11:39NZ\aQvfgevpg: CP\aSRRQYBG NERN/ ABEGU BS CP\aUVTUJNL 10 UJL \aCnex Pvgl, ZG
 (Vzp Fbyhgvbaf Cntr) ZRQVPNY RZRETRAPL\a6/24/2015 6:27CZ\aQvfgevpg: CP\a22 PENML ZBHAGNVA IVFGN EQ \aCnex Pvgl, ZG
 (Vzp Fbyhgvbaf Cntr) PBAGEBYYRQ OHEA\a6/24/2015 1:36CZ\aQvfgevpg: CP\a218 1FG NIR FR NIR \aCnex Pvgl, ZG
@@ -123,6 +124,16 @@ choyvp pynff ZGFgvyyjngrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCnefre() {
+
+    qbGrfg("G1",
+        "(Vzp Fbyhgvbaf Cntr) ZRQVPNY RZRETRAPL\e\a7/20/2015 8:49NZ\e\aQvfgevpg: CP\e\a3061 UVTUJNL 10 UJL \e\aCnex Pvgl, ZG\e\a\e\a",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "QNGR:7/20/2015",
+        "GVZR:08:49:00",
+        "HAVG:CP",
+        "NQQE:3061 BYQ HF 10",
+        "PVGL:Cnex Pvgl",
+        "FG:ZG");
 
     qbGrfg("G1",
         "(Vzp Fbyhgvbaf Cntr) PBAGEBYYRQ OHEA\a6/25/2015 11:39NZ\aQvfgevpg: CP\aSRRQYBG NERN/ ABEGU BS CP\aUVTUJNL 10 UJL \aCnex Pvgl, ZG",
