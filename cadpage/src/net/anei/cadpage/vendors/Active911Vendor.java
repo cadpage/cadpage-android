@@ -902,6 +902,7 @@ class Active911Vendor extends Vendor {
       "US/TX/CityofBryan",                "TXBrazosCounty",
       "US/TX/CityofCorpusChristi",        "TXNuecesCounty",
       "US/TX/CityofCrowley",              "TXCrowley",
+      "US/TX/CityofDallas",               "TXDallasCounty",
       "US/TX/CityofDickinson",            "TXGalvestonCounty",
       "US/TX/CityofElCampo",              "TXElCampo",
       "US/TX/CityofFlowerMound",          "TXFlowerMound",
