@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 public class CAOrovilleParser extends DispatchA20Parser {
   
   public CAOrovilleParser() {
-    super(CALL_CODES, "OROVILLE", "CA");
+    super(CALL_CODES, "OROVILLE", "CA", A20_UNIT_LABEL_REQ);
   }
   
   @Override
@@ -23,17 +23,6 @@ public class CAOrovilleParser extends DispatchA20Parser {
   @Override
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA;
-  }
-  
-  private static final Pattern ALPHA_UNIT_PTN = Pattern.compile("[A-Z]+");
-  
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    if (!super.parseMsg(subject, body, data)) return false;
-    
-    // If dispatch name sneaks into unit field, destroy t
-    if (ALPHA_UNIT_PTN.matcher(data.strUnit).matches()) data.strUnit = "";
-    return true;
   }
 
   private static final Properties CALL_CODES = buildCodeTable(new String[]{

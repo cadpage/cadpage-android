@@ -1295,6 +1295,29 @@ LATE PAGES:
 If you can long press one of the calls you get and select Report Problem to send them to us, I could give you a better idea what is happening.  I need to see all of the alerts that are associated with one of your calls.
 
 ******************************************************************
+** Cadpage is not working
+******************************************************************
+
+Are dispatch alerts showing up in your message inbox?  If not, then you need to talk to someone in your department about getting dispatch alerts sent to your phone.
+
+If they are, use the Cadpage "Email the Developer" setting to send us a new support email right after Cadpage fails to pick up an alert.  That should include technical information about the missed alert that I need to determine what we have to do to fix things.
+
+Good luck,
+-Ken
+
+******************************************************************
+** Cadapge quit working - still getting text alerts
+******************************************************************
+
+That usually means that something has changed about your dispatch alerts and Cadpage is no longer recognizing them.  We need to see what your alerts look like now before we can fix anything.
+
+The best way to get them to us is to use the "Email the Developer" setting to send us a new support email right after Cadpage fails to pick up an alert.   If you still have the dispatch alerts in your message inbox, you can also forward them to support@cadpage.org.  If you do that, please include a separate message telling us who you are and what number/email address is used to send the alerts.
+
+Good luck,
+-Ken
+
+
+******************************************************************
 ** long list
 ******************************************************************
 

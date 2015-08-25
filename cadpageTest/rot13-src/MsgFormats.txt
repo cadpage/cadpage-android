@@ -749,9 +749,9 @@ Unasbeq, PN (PNUnasbeqCnefre)
 (Qvfcngpurq Pnyy (USQN911)) 136 R RVTUGU FG, Unasbeq, PN *  * A UNEEVF FG/A OEBJA FG *  * MNZO * 42N * #140212198 * ZNYR CBFFVOYL UNIVAT N FRVMHER...\aPryyhyne R911 Pnyy: \aYng:36.327881  Yba:-119.64491\aFreivpr Pynff: JCU2
 ***************************************************************************
 Bebivyyr, PN (PNBebivyyrCnefre)
-[Qvfcngpurq Pnyy (313)] 4117 YBJRE JLNAQBGGR EQ, Bebivyyr *  * I-7 EQ/BEBIVYYR TNEQRA E *  * SQZRQ *  * QRPERNFRQ YBP
-[Qvfcngpurq Pnyy (313)] 1720 RYTVA FG, Bebivyyr *  * YVAPBYA /YVAPBYA OYIQ *  * SQZRQ *  * Freivpr Pynff: IBVC\a\aQVSSVPHYGL OERNGUVAT
-[Qvfcngpurq Pnyy (313)] 3785 ZLREF FG, Bebivyyr *  * TERRAIVYYR FG/BEBIVYYR O *  * SQZRQ *  * Freivpr Pynff: ERFQ\aVYY ZNYR
+(Qvfcngpurq Pnyy, Havg: 17 (PFDHVER)) 395 BEBIVYYR QNZ OYIQ R, Bebivyyr, PN 95965 * JRAQLF * SRNGURE EVIRE OYIQ/7GU NI *  * JRYS PUX *  * #1508110115 * YVTUG OYHR CX CBFFVOYL SBE
+(Qvfcngpurq Pnyy, Havg: 20 (PFDHVER)) 395 BEBIVYYR QNZ OYIQ R, Bebivyyr, PN 95965 * JRAQLF * SRNGURE EVIRE OYIQ/7GU NI *  * JRYS PUX *  * #1508110115 * YVTUG OYHR CX CBFFVOYL SBE
+(Qvfcngpurq Pnyy, Havg: 20 (RFCRNEVAT)) 2470 BEBIVYYR QNZ OYIQ R, Bebivyyr, PN 95965 * QRAAL * FCRAPRE NI/BYVIR UJL *  * 488 *  * #1508110114 * jzn oyx fubhyqre yratgu pheyl unve o
 *******************************************************************************
 Ebpxyva, PN (PNEbpxyvaCnefre) 
 (Qvfcngpurq Pnyy (R25)) OYHR BNXF OY/FBABEN CNFF, EBPXYVA, PN *  * FBABEN CNFF *  * SYBBQ * P3 T2 * #140119063 * ARNE UBHFVAT PBZCYRK......SVER ULQENAG BCRA\aPryyhy
@@ -759,14 +759,14 @@ Ebpxyva, PN (PNEbpxyvaCnefre)
 (Qvfcngpurq Pnyy (R23)) 4110 PRQNE FG, EBPXYVA, PN *  * TEBIR FG/ZRLREF FG *  * ZNVQ * Q3 R1 * #140119046 * 37 LB SRZNYR VA YNOBE
 *******************************************************************************
 Fbynab Pbhagl, PN (PNFbynabPbhaglNCnefre) 
-(Qvfcngpurq Pnyy (N911)) RO V80/TERRA INYYRL EQ BSS, Snvesvryq, PN *  * TERRA INYYRL EQ BSS *  * 10 70I * X299 * #01504060289 * IRU JNF FZBXVAT SEZ RATVAR\aOTR PURI
-(Qvfcngpurq Pnyy (N911)) 1415 HAVBA NI, Snvesvryq, PN * JRFGJVAQ NCNEGZRAGF * XRAARQL PG/GENIVBA PG * 5 * 10 70 * 451 * #01504060015 * EC FZRYYF OHEAVAT FZRYY, SVER
-(Qvfcngpurq Pnyy (N911)) 555 NYNFXN NI, Snvesvryq, PN *  * HAVBA NI/URNGU QE *  * 10 70 * 351 * #01504050173 * QHZCFGRE SVER \aCRNPU GERR QE RAGENAPR
+(Qvfcngpurq Pnyy, Havg: RZ37 (GTVYRF)) 1601 HGNU FG, Snvesvryq, PN 94533 *  * XNAFNF FG/SBHEGU FG *  * 11 41 * 440 * #1508240307 * PUC GENAF-  67 LB ZNYR  QVSS OERNGUVAT  \aOERNGU
+(Qvfcngpurq Pnyy, Havg: RZ41 (GTVYRF)) 1250 DHNVY QE, Snvesvryq, PN 94533 * PYNL ONAX NCNEGZRAGF * TEBHFR PG/PYNL ONAX EQ * G8 * 11 41 * 364 * #1508240301 * 72 LBS CNVA VA XARRF N
+(Qvfcngpurq Pnyy, Havg: RZ39 (JERLABFB)) UJL 113/UNFGVATF, Fbynab Pbhagl, PN *  *  *  * NNS *  * #1508240293 * O37 GB ERFCBAQ P3 GB GUVF YBPNGVBA
 *******************************************************************************
 Lbyb Pbhagl, PN (PNLbybPbhaglNCnefre)
-(Qvfcngpurq Pnyy (R33)) 27459 BNXFVQR QE, Qnivf, PN *  * ZBAGTBZREL NI *  * FGZN * 75 * PNER TVIRE NQI - - NFCVENGRQ
-(Qvfcngpurq Pnyy (E31)) 1511 BNX NI, Qnivf, PN *  * J 14GU FG/FPEVCCF QE *  * FGZN * 38 * Freivpr Pynff: ERFQ\aUHFONAQ SRYY - URNQ VAWHEL  - ERD FVYRAG NCCEBNPU
-(Qvfcngpurq Pnyy (R31VCNQ)) 1511 BNX NI, Qnivf, PN *  * J 14GU FG/FPEVCCF QE *  * FGZN * 38 * Freivpr Pynff: ERFQ\aUHFONAQ SRYY - URNQ VAWHEL
+(Qvfcngpurq Pnyy, Havg: R31 (ENFZHFFRA)) O FG/ZVYYRE QE, Qnivf, PN *  * ZVYYRE QE *  * FGZN * 55 * #1508060079 * W UVG N CNEXRQ PNE \a[Pryyhyne R911 Pnyy: \aYng:38.547002  Yba:-121.
+(Qvfcngpurq Pnyy, Havg: R32 (ENFZHFFRA)) EHFFRYY OY/UJL 113, Qnivf, PN * EHFFRYY/AO 113 BA ENZC * UJL 113 *  * FGZN * 52 * #1508060068 * SRZNYR YNLVAT BA GUR TEBHAQ
+(Qvfcngpurq Pnyy, Havg: R32 (UNLQRA)) 2730 FRVAR NI, Qnivf, PN *  * TNEEVFBA FG/BGGBJN NI *  * FGNF * 35 * #1508060059 * SVER NYNEZ FBHAQVAT .. AB FZBXR BE SYNZRF\a[Freivpr Pynff
 *******************************************************************************
 Pyner Pbhagl, ZV (ZVPynerPbhaglCnefre) 
 (Qvfcngpurq Pnyy (FGSQ)) 1141 A ZPRJNA FG, Pyner, ZV * JNYTERRAF * WBUA E/FPUBBYPERFG/FPUBBYPERFG/OEBBXJBBQ *  * 95001 * 0046 * #01505190072 * EC ELNA/IRU YRNXVAT TN
