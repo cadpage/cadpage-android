@@ -1458,16 +1458,6 @@ Juvgsvryq Pbhagl, TN (O) (TNJuvgsvryqPbhaglOCnefre)
 (Nf bs 1/27/15 07) :Nf bs 1/27/15 07:33:38 2015-00009992 S15 - SVER NYNEZ 1250 PEBFF CYNVAF GEY, QNYGBA QNYGBA Havg Bet Anzr Nern Glcrf QR5 QNYG QS5_3, QS5_2, QS5_1G1, QS5_1, QS1_2 RAT QR1 QNYGBA SVER QRCG FGNGVBA 1 QS1_2 RAT QFD1 QNYGBA
 1 bs 2\aSEZ:CntrTngr@juvgsvryqpbhagltn.pbz\aFHOW:Nf bs 1/27/15 11\aZFT::Nf bs 1/27/15 11:33:19 2015-00010085 Z6R - OERNGUVAT CEBOYRZF 329 Purebxrr\a(Pba'g) 2 bs 2\aGE AJ, QNYGBA QNYGBA Havg Bet Anzr Nern Glcrf JR1 JUVGSVRYQ PBHAGL SVER QRCG FGN 1 J(Raq)
 *******************************************************************************
-Oneel Pbhagl, ZB (O) (ZBOneelPbhaglOCnefre)
-Nf bs 9/17/14 15:18:55 2014-00025728 ZRQ 22766 ARRQYRF RLR EQ, PBHAGL PBHAGL TNVY JVYYVNZF 9/17/14 15:17:25 57 LBS, PURFG CNVAF, UVFGBEL BS PUS Havg Bet Anzr Nern Glcrf PK830 Pbk R_PBK NYF FXSE Furyy Xabo Svefg Erfcbaqref S_PPSQ SE
-Nf bs 9/17/14 14:22:09 2014-00025722 JRNGUE FBHGURNFGREA ONEEL PBHAGL 9/17/14 14:21:58 FRIRER GUHAQREFGBEZ JNEAVAT HAGVY 14:30 9/17/14 14:21:28 FRIRER GUHAQREFGBEZ JNEAVAT Havg Bet Anzr Nern Glcrf PKSQ Prageny Pebffvat Sver Qrcnegzrag S_PPSQ RESQ Rntyr Ebpx Tbyqra Znab Sver Qrcnegzrag S_RESQ FGNGVBA R911 Oneel R-911
-Nf bs 9/14/14 18:10:44 2014-00025403 ZRQ 27478 FGNGR UVTUJNL 39, PBHAGL PBHAGL NYVPR ZBBER 9/14/14 18:09:50 ABG SRRYVAT JRYY PNAG UBYQ NALGUVAT QBJA 9/14/14 18:09:33 90 LBS Havg Bet Anzr Nern Glcrf FXSE Furyy Xabo Svefg Erfcbaqref S_PPSQ SE PK831 Pbk R_PBK NYF
-*******************************************************************************
-Fgbar Pbhagl, ZB (O) (ZBFgbarPbhaglOCnefre)
-44:35 2014-00030439 Fvpx-2 100 F JNYAHG FG, UHEYRL UHEYRL Havg Bet Anzr Nern Glcrf Pbk Pbk   Pbk NZO Uheyrl Sver Uheyrl Sver UEY-62-Sver, UEY-63-Sver, UEY-61-Sver Fgngvba, Svefg Erfcbaqre
-23:04 2014-00030861 Fhvpvqr-Nggrzcg 111 IVRJCBVAG YA, PENAR PENAR Havg Bet Anzr Nern Glcrf PBK101 Pbk Pbk NZO 138 FB-Fgbar Penvt Fuvexrl Q1-Abegu-FB Qrchgl, Cngeby 126 FB-Fgbar Fgrcura Bfobear Q3-Fbhgu-FB  Qrchgl, Cngeby Uheyrl SVer Uheyrl S
-43:25 2014-00032176 S-Fgehpgher-Fznyy/Aba-Qjryyvat 3189 CYRNFNAG INYYRL QE, TNYRAN TNYRAN Havg Bet Anzr Nern Glcrf PBK PBK PBK NZO Uvtuynaqivyyr Sver Uvtuynaqivyyr Sver Uvtuynaqivyyr Fgngvba 71, Uvtuynaqivyyr Sver, Uvtuynaqivyyr Fgngvba 73,
-*******************************************************************************
 Nyyrtnal Pbhagl, AL (ALNyyrtnalPbhaglCnefre)
 (PHO0) PNQ:Nf bs 9/7/14 20:27:27 2014-00030603 08N - PNEOBA ZBABKVQR/VAUNYNGVBA/UNMZNG/POEA NYF 33 OEVFGBY, PHON IVYYNTR PHON IVYYNTR CEBFCRPG CNGEVBG NIR Havg Bet Anzr Nern Glcrf 501 PHON CQ PHO0 PHON SVER FGN
 (PHO0) PNQ:Nf bs 9/5/14 17:39:14 2014-00030313 52 - NYNEZF 140 J ZNVA, PHON IVYYNTR PHON IVYYNTR J OEVFGBY Havg Bet Anzr Nern Glcrf PHO0 PHON SVER FGN
@@ -1594,11 +1584,6 @@ Oneera Pbhagl, XL (XLOneeraPbhaglCnefre)
 911-PRAGRE:1046 ZIN JVGU VAWHEVRF 170 EBOREG OVFUBC EQ 2705764029 YRKVATGBA QE NG&G ZBOVYVGL
 911-PRAGRE:NYNEZ SVER NYNEZ NPGVINGVBA 101 XVEXUVYYF YA 2706296006 PBHAGEL PYHO EQ JVYYVNZF ZVPUNRY
 911-PRAGRE:NYNEZ SVER NYNEZ NPGVINGVBA 109 UBZRJBBQ OYIQ 2706516126 A ENPR FG A U P URNYGU PNER
-***************************************************************************
-Fgbar Pbhagl, ZB (ZBFgbarPbhaglNCnefre)
-911-PRAGRE:SZN ZHGHNY NVQ/NFFVFG BHGFVQR NTRA 214 R 5GU FG 4175270913 F ZNCYR FG ZHGHNY NVQ NFFVFG BHGFVQR NTRAPL
-911-PRAGRE:SZIP ZBGBE IRUVPYR PBYYVFVBA FGNGR UJL GG&FGNGR UJL Q 4178498278 FGNGR UJL Q ZBGBE IRUVPYR PBYYVFVBA
-911-PRAGRE:SOS OEHFU/SBERFG SVER 546 PNZC PYNEX UY 4175989172 FZNYY FG OEHFU SVER
 *******************************************************************************
 *******************************************************************************
 * QvfcngpuN55Cnefre fhopynffrf
