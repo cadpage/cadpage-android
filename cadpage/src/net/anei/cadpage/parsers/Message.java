@@ -20,20 +20,22 @@ public class Message {
   private MsgInfo info = null;
 
   public Message(boolean preParse, String fromAddress, String subject, String body) {
-    this(preParse, fromAddress, subject, body, null);
+    this(preParse, fromAddress, subject, body, null, false);
   }
 
-  public Message(boolean preParse, String fromAddress, String subject, String body, SplitMsgOptions options) {
+  public Message(boolean preParse, String fromAddress, String subject, String body, SplitMsgOptions options, boolean follow) {
     if (fromAddress == null) fromAddress = "";
     if (subject == null) subject = "";
     if (body == null) body = "";
-    boolean insBlank, keepLeadBreak;
+    boolean insBlank, keepLeadBreak, noParseSubjectFollow;
     if (options != null) {
       insBlank = options.splitBlankIns();
       keepLeadBreak = options.splitKeepLeadBreak();
+      noParseSubjectFollow = options.noParseSubjectFollow();
     } else {
       insBlank = true;
       keepLeadBreak = false;
+      noParseSubjectFollow = true;
     }
     
     // Remove byte order mark from anywhere in text.  Generally it only occurs
@@ -59,9 +61,9 @@ public class Message {
     if (! preParse) {
       this.parseAddress = fromAddress;
       this.parseSubject = subject;
-      this.parseMessageBody = finish(body);
+      this.parseMessageBody = finish(body, noParseSubjectFollow, follow);
     } else {
-      preParse(fromAddress, subject, body, insBlank, keepLeadBreak);
+      preParse(fromAddress, subject, body, insBlank, keepLeadBreak, noParseSubjectFollow, follow);
     }
   }
   
@@ -107,22 +109,22 @@ public class Message {
   private static final Pattern LEAD_UNDERSCORE_PTN = Pattern.compile("\n*_{5,}\n+");
   private static final Pattern DISCLAIMER_PTN = Pattern.compile("\n+DISCLA| *\\[Attachment\\(s\\) removed\\]\\s*$|\n+To unsubscribe ", Pattern.CASE_INSENSITIVE);
   private static final Pattern FWD_PTN = Pattern.compile("^FWD?:");
+  private static final Pattern[] TRAIL_MSG_HEADER_PTNS = new Pattern[]{
+    Pattern.compile("\\[(\\d) of (\\d)\\]\\s*$"),
+    Pattern.compile(":(\\d)of(\\d)\\s*$"),
+    Pattern.compile("_(\\d) of (\\d)\\s*$"),
+    Pattern.compile(" *\\(0(\\d)/0(\\d)\\)\\s*$")
+  };
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
     Pattern.compile("^(\\d) *of *(\\d):"),
-//    Pattern.compile("^\\(?\\((\\d)/(\\d)\\)"),
     Pattern.compile("^ *(\\d)/(\\d)(?: / |\n\n)"),
-//    Pattern.compile("^\\( *(\\d) +of +(\\d) *\\)"),
     Pattern.compile("^([\\w\\.]+@[\\w\\.]+) /(\\d)/(\\d) /"),
     Pattern.compile("^(\\d)/(\\d)\n+"),
     Pattern.compile("^(\\d)/(\\d)(?![/\\d])"),
     Pattern.compile("^(\\d)/(\\d)(?=\\d{3,}:)"),  // This one is scarry !!!
-   Pattern.compile("\\[(\\d) of (\\d)\\]$"),
-    Pattern.compile(":(\\d)of(\\d)$"),
-    Pattern.compile("_(\\d) of (\\d)$"),
-    Pattern.compile(" \\(0(\\d)/0(\\d)\\)$"),
-    Pattern.compile("^[A-Z]+ +\\((\\d)/(\\d)\\) +(.*?) +STOP$"),
-    Pattern.compile("^\\( *([^\\)]*?) +(\\d) *of *(\\d)\\)(.*)$", Pattern.DOTALL)
+    Pattern.compile("^[A-Z]+ +\\((\\d)/(\\d)\\) +(.*?) +STOP\\s*$"),
+    Pattern.compile("^\\( *([^\\)]*?) +(\\d) *of *(\\d)\\)(.*)\\s*$", Pattern.DOTALL)
   };
   private static final Pattern MSG_HEADER_FINAL_PTN = Pattern.compile("^(\\d)/(\\d) +");
   private static final Pattern[] SUBJECT_HEADER_PTNS = new Pattern[]{
@@ -163,7 +165,8 @@ public class Message {
   };
   private static final Pattern LEAD_JUNK_PTN = Pattern.compile("^no subject / ");
   
-  private void preParse(String fromAddress, String subject, String body, boolean insBlank, boolean keepLeadBreak) {
+  private void preParse(String fromAddress, String subject, String body, 
+                        boolean insBlank, boolean keepLeadBreak, boolean noParseSubjectFollow, boolean follow) {
     
     // default address and subject to obvious values
     parseSubject = "";
@@ -184,8 +187,22 @@ public class Message {
     // Change spurious '¡' characters back to the @ there were originally intended to be
     body = body.replace('¡', '@');
     
-    // Clean up leading subject in parens
-    body = cleanParenSubject(body);
+    // See if we can find a trailing message index/count indicator
+    // which may determine whether or not we clean the leading subject constructs
+    // from the front of this message
+    boolean trailIndexFound = false;
+    match = findPattern(body, TRAIL_MSG_HEADER_PTNS);
+    if (match != null) {
+      trailIndexFound = true;
+      msgIndex = Integer.parseInt(match.group(1));
+      msgCount = Integer.parseInt(match.group(2));
+      body = trimLead(body.substring(0,match.start()),keepLeadBreak);
+      if (msgIndex > 1) follow = true;
+    }
+    
+    // Clean up leading subject in parens, unless this is a followup message
+    // and we have been requested to no extract subjects from followup messages
+    if (!(noParseSubjectFollow && follow)) body = cleanParenSubject(body);
     
     // Drop FWD: prefix
     match = FORWARD_PTN.matcher(body);
@@ -205,20 +222,11 @@ public class Message {
     body = trimLead(body, keepLeadBreak);
     if (body.startsWith("Pagecopy-")) body = body.substring(9);
     
-    // Dummy loop we can break out of
-    do {
-      
-      // Check the message header pattern,these contain a msg number and total
-      // counts.  If the values don't match, set the flag indicating more data
-      // is expected
-      match = null;
-      boolean found = false;
-      for (Pattern ptn : MSG_HEADER_PTNS) {
-        match = ptn.matcher(body);
-        found = match.find();
-        if (found) break;
-      }
-      if (found) {
+    // If we did not find a trailing index indicator, see if we can find
+    // any leading index indicators
+    if (!trailIndexFound) {
+      match = findPattern(body, MSG_HEADER_PTNS);
+      if (match != null) {
         boolean pinned = (match.groupCount() >= 3 && match.start() == 0 && match.end() == body.length());
         int ndx = 1;
         if (pinned) {
@@ -235,25 +243,29 @@ public class Message {
         if (pinned) {
           body = match.group(ndx);
         }
-        else if (match.start() == 0) {
+        else {
           String origBody = body;
           body = trimLead(body.substring(match.end()),keepLeadBreak);
           if (origBody.startsWith("((")) {
             if (body.startsWith(")")) body = trimLead(body.substring(1), keepLeadBreak);
             else body = "(" + body;
           }
-        } else body = trimLead(body.substring(0,match.start()),keepLeadBreak);
+        };
       } else {
         if (body.startsWith("/ ")) body = trimLead(body.substring(2), keepLeadBreak);
       }
-      
-      // Get rid of leading quoted blanks
-      match = LEAD_BLANK.matcher(body);
-      if (match.find()) body = trimLead(body.substring(match.end()), keepLeadBreak);
-      
-      // And trailing opt out message
-      match = OPT_OUT_PTN.matcher(body);
-      if (match.find()) body = trimLead(body.substring(0,match.start()), keepLeadBreak);
+    }
+    
+    // Get rid of leading quoted blanks
+    match = LEAD_BLANK.matcher(body);
+    if (match.find()) body = trimLead(body.substring(match.end()), keepLeadBreak);
+    
+    // And trailing opt out message
+    match = OPT_OUT_PTN.matcher(body);
+    if (match.find()) body = trimLead(body.substring(0,match.start()), keepLeadBreak);
+    
+    // Dummy loop we can break out of
+    do {
       
       /* Decode patterns that look like this.....
       1 of 3
@@ -379,14 +391,8 @@ public class Message {
       /* Decode patterns that contain an email address, subject, and message
        * S:subject M:msg
        */
-      found = false;
-      for (Pattern ptn : E_S_M_PATTERNS) {
-        match = ptn.matcher(body);
-        found = match.find();
-        if (found) break;
-      }
-      
-      if (found) {
+      match = findPattern(body, E_S_M_PATTERNS);
+      if (match != null) {
         String from = match.group(1);
         if (from != null) parseAddress = from.trim();
         String sub = match.group(2);
@@ -397,14 +403,8 @@ public class Message {
       
       /* Decode patterns that contain an subject and message
        */
-      found = false;
-      for (Pattern ptn : S_M_PATTERNS) {
-        match = ptn.matcher(body);
-        found = match.find();
-        if (found) break;
-      }
-      
-      if (found) {
+      match = findPattern(body, S_M_PATTERNS);
+      if (match != null) {
         String sub = match.group(1);
         if (sub != null) addSubject(sub.trim());
         body = trimLead(body.substring(match.end()), keepLeadBreak);
@@ -415,13 +415,8 @@ public class Message {
       /* Decode patterns that match EMAIL_PATTERN, which is basically an email address
        * followed by one of a set of known delimiters
        */
-      found = false;
-      for (Pattern ptn : EMAIL_PATTERNS) {
-        match = ptn.matcher(body);
-        found = match.find();
-        if (found) break;
-      }
-      if (found) {
+      match = findPattern(body, EMAIL_PATTERNS);
+      if (match != null) {
         parseAddress = match.group(1);
         body = trimLead(body.substring(match.end()), keepLeadBreak);
         break;
@@ -433,7 +428,7 @@ public class Message {
     match = LEAD_JUNK_PTN.matcher(body);
     if (match.lookingAt()) body = trimLead(body.substring(match.end()), keepLeadBreak);
     
-    body = finish(body);
+    body = finish(body, noParseSubjectFollow, follow);
     
     // Make one last check for a message index that might have been masked
     // by parenthesized subjects
@@ -512,9 +507,9 @@ public class Message {
    * @param body message body
    * @return adjusted message body
    */
-  private String finish(String body) {
+  private String finish(String body, boolean noParseSubjectFollow, boolean follow) {
 
-    body = cleanParenSubject(body);
+    if (!(noParseSubjectFollow && follow)) body = cleanParenSubject(body);
     
     Matcher match = EMAIL_PFX_PATTERN.matcher(body);
     if (match.find()) {
@@ -600,6 +595,14 @@ public class Message {
     if (subject.length() == 0) return;
     if (parseSubject.length() == 0) parseSubject = subject;
     else parseSubject = parseSubject + '|' + subject;
+  }
+  
+  private Matcher findPattern(String field, Pattern[] ptns) {
+    for (Pattern ptn : ptns) {
+      Matcher match = ptn.matcher(field);
+      if (match.find()) return match;
+    }
+    return null;
   }
 
   /**

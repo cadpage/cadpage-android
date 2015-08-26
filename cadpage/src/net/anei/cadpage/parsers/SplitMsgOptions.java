@@ -48,4 +48,10 @@ public interface SplitMsgOptions {
    * any order
    */
   public boolean mixedMsgOrder();
+  
+  /**
+   * @return true if leading terms in square or round brackets should not be parsed
+   * as a subject in messages that are being appending to another message
+   */
+  public boolean noParseSubjectFollow();
 }

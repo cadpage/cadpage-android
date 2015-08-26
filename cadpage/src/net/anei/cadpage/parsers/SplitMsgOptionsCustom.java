@@ -1,25 +1,6 @@
 package net.anei.cadpage.parsers;
 
 public class SplitMsgOptionsCustom implements SplitMsgOptions {
-  
-  private int splitMinMsg;
-  private boolean splitBlankIns;
-  private boolean splitChkSender;
-  private boolean splitKeepLeadBreak;
-  private boolean revMsgOrder;
-  private boolean mixedMsgOrder;
-  
-  
-  public SplitMsgOptionsCustom(int splitMinMsg, boolean splitBlankIns, 
-                                boolean splitChkSender, boolean splitKeepLeadBreak, 
-                                boolean revMsgOrder, boolean mixedMsgOrder) {
-    this.splitMinMsg = splitMinMsg;
-    this.splitBlankIns = splitBlankIns;
-    this.splitChkSender = splitChkSender;
-    this.splitKeepLeadBreak = splitKeepLeadBreak;
-    this.revMsgOrder = revMsgOrder;
-    this.mixedMsgOrder = mixedMsgOrder; 
-  }
 
   @Override
   public boolean splitDirectPage() {
@@ -28,31 +9,36 @@ public class SplitMsgOptionsCustom implements SplitMsgOptions {
 
   @Override
   public int splitMinMsg() {
-    return splitMinMsg;
+    return 0;
   }
 
   @Override
   public boolean splitBlankIns() {
-    return splitBlankIns;
+    return true;
   }
 
   @Override
   public boolean splitChkSender() {
-    return splitChkSender;
+    return true;
   }
 
   @Override
   public boolean splitKeepLeadBreak() {
-    return splitKeepLeadBreak;
+    return false;
   }
 
   @Override
   public boolean revMsgOrder() {
-    return revMsgOrder;
+    return false;
   }
 
   @Override
   public boolean mixedMsgOrder() {
-    return mixedMsgOrder;
+    return false;
+  }
+
+  @Override
+  public boolean noParseSubjectFollow() {
+    return false;
   }
 }

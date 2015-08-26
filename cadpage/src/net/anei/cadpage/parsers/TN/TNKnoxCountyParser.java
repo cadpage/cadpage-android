@@ -23,7 +23,11 @@ public class TNKnoxCountyParser extends FieldProgramParser {
 
   @Override
   public SplitMsgOptions getActive911SplitMsgOptions() {
-    return new SplitMsgOptionsCustom(0, false, true, false, true, true); 
+    return new SplitMsgOptionsCustom() {
+      @Override public boolean splitBlankIns() { return false; }
+      @Override public boolean revMsgOrder() { return true; }
+      @Override public boolean mixedMsgOrder() { return true; }
+    };
   }
 
   private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Xstreet1:|Xstreet2:|TYPE CODE:|SUB TYPE:|TIME:)");

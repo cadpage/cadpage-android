@@ -189,7 +189,9 @@ choyvp pynff ZrffntrOhvyqreGrfg rkgraqf OnfrCnefreGrfg {
 
     @Bireevqr
     choyvp FcyvgZftBcgvbaf trgNpgvir911FcyvgZftBcgvbaf() {
-      erghea arj FcyvgZftBcgvbafPhfgbz(0, gehr, snyfr, snyfr, snyfr, gehr);
+      erghea arj FcyvgZftBcgvbafPhfgbz(){
+        @Bireevqr choyvp obbyrna zvkrqZftBeqre() { erghea gehr; }
+      };
     }
   }
 }

@@ -537,7 +537,7 @@ public class SmsMmsMessage implements Serializable {
   }
   
   private Message bldParseInfo(boolean preParse, String msgSubject, String body) {
-    return new Message(preParse, fromAddress, msgSubject, body, getSplitMsgOptions());
+    return new Message(preParse, fromAddress, msgSubject, body, getSplitMsgOptions(), false);
   }
 
   public boolean isPageMsg() {

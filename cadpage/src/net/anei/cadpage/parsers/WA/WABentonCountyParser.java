@@ -18,7 +18,9 @@ public class WABentonCountyParser extends FieldProgramParser {
   
   @Override
   public SplitMsgOptions getActive911SplitMsgOptions() {
-    return new SplitMsgOptionsCustom(0, false, true, false, false, false);
+    return new SplitMsgOptionsCustom(){
+      @Override public boolean splitBlankIns() { return false; }
+    };
   }
 
   @Override

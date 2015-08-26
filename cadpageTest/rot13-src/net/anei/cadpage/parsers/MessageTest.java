@@ -7,7 +7,29 @@ vzcbeg bet.whavg.Grfg;
 choyvp pynff ZrffntrGrfg {
   
   @Grfg
+  choyvp ibvq grfgCeboyrz() {
+    
+    qbCnefrGrfg("PBTnesvryqPbhagl3",
+        "xra@pnqcntr.bet",
+        "[1/1] PNQ Cntr", 
+        "1/1\a\a2505 PVFNE PG 3q TF RSnyyf 2015 00000027",
+        "xra@pnqcntr.bet",
+        "PNQ Cntr", 
+        "2505 PVFNE PG 3q TF RSnyyf 2015 00000027", 
+        1, 1);
+
+  }
+  
+  @Grfg
   choyvp ibvq grfgCnefrVasb() {
+    
+    qbCnefrGrfg("VYCrbevnPbhagl",
+        "xra@pnqcnrt.bet",
+        "",
+        "F: Z:10/03/11 415 J OHGGREAHG FG RY :( 400) A ZBETNA FG ZNYR J/ONQ URNQNPUR SRYY BA FNG NAQ JNF PXRQ BHG GURA OHG ABJ ERD GENAFC ONPX GB UBFC 94 L (01/02)\a\a",
+        "xra@pnqcnrt.bet",
+        "",
+        "10/03/11 415 J OHGGREAHG FG RY :( 400) A ZBETNA FG ZNYR J/ONQ URNQNPUR SRYY BA FNG NAQ JNF PXRQ BHG GURA OHG ABJ ERD GENAFC ONPX GB UBFC 94 L", 1, 2);
     
     qbCnefrGrfg("GKPbyyvaPbhaglN",
         "xra@pnqcntr.bet",

@@ -214,7 +214,7 @@ public class MessageBuilder {
    * @return result Message object
    */
   private Message bldMessage(String body) {
-    Message result = new Message(false, fromAddress, subject, body, options);
+    Message result = new Message(false, fromAddress, subject, body, options, false);
     parser.isPageMsg(result, MsgParser.PARSE_FLG_FORCE | MsgParser.PARSE_FLG_SKIP_FILTER);
     return result;
   }
