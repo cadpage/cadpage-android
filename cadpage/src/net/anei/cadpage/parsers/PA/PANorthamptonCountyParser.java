@@ -305,7 +305,9 @@ public class PANorthamptonCountyParser extends DispatchB2Parser {
     "MONROE CO",
     "MONROE",
     "HAMILTON TWP",
+    "HAMILTON",
     "ROSS TWP",
+    "ROSS",
     
     // Warren County
     "WARREN COUNTY",
