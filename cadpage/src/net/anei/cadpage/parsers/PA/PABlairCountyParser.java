@@ -13,7 +13,7 @@ public class PABlairCountyParser extends FieldProgramParser {
   
   public PABlairCountyParser() {
     super("BLAIR COUNTY", "PA",
-           "UNIT ADDRCITY/SXa X/Z+? ( DATETIME! INFO+ | PDATETIME! END )");
+           "UNIT ADDRCITY/SXa X/Z+? ( DATETIME! INFO+? GPS END | PDATETIME! END )");
   }
   
   @Override
@@ -39,6 +39,7 @@ public class PABlairCountyParser extends FieldProgramParser {
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("DATETIME")) return new DateTimeField(new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa"), true);
     if (name.equals("PDATETIME")) return new PartDateTimeField();
+    if (name.equals("GPS")) return new MyGPSField();
     return super.getField(name);
   }
   
@@ -122,6 +123,23 @@ public class PABlairCountyParser extends FieldProgramParser {
     
     private void checkEnd() {
       if (pos < field.length()) abort();
+    }
+  }
+  
+  private static final String GPS_PREFIX = "http://maps.google.com/?q=";
+  private class MyGPSField extends GPSField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.startsWith(GPS_PREFIX)) {
+        super.parse(field.substring(GPS_PREFIX.length()).trim(), data);
+        return true;
+      }
+      return field.length() > 0 && GPS_PREFIX.startsWith(field);
     }
   }
 }
