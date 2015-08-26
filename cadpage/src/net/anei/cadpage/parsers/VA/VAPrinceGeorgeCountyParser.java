@@ -14,7 +14,7 @@ public class VAPrinceGeorgeCountyParser extends DispatchOSSIParser {
  
   public VAPrinceGeorgeCountyParser() {
     super(CITY_CODES, "PRINCE GEORGE COUNTY", "VA",
-          "CALL ADDR ( SELECT/UNIT CITY! | UNIT ( SELECT/AUTO ID! | X/Z+? CITY! ID? ) ) INFO+");
+          "EMPTY? ( CANCEL ADDR CITY | CALL ADDR ( SELECT/UNIT CITY/Y | UNIT ( SELECT/AUTO ID! | X/Z+? ( CITY/Y ID? | ID! ) ) ) ) INFO+");
   }
 
   @Override
