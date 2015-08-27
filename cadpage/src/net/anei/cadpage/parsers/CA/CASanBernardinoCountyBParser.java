@@ -9,6 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * San Bernardino County, CA (B)
+ * Obsolete - replace with version (D)
  */
 public class CASanBernardinoCountyBParser extends FieldProgramParser {
   
