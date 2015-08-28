@@ -6299,7 +6299,7 @@ choyvp pynff CNFpuhlyxvyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PA:",
 
         "NQQE:CRNEY PVARZN ZBIVRF",
-        "PVGL:FPUHLYXVYY  ZNYY",
+        "PVGL:FPUHLYXVYY ZNYY",
         "PBQR:29P1",
         "PNYY:IRU NPP J/VAWHEVRF",
         "GVZR:18:30:30",
@@ -6308,7 +6308,7 @@ choyvp pynff CNFpuhlyxvyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G66",
         "ERFCBAQ GB: FRNEF-FPU ZNYY  SBE N:SNSN-NHGBZNGVP SVER NYNEZ \aGVZR:13:37:10 GEHPXF:R368 R369 43-20\aPA:",
         "NQQE:FRNEF",
-        "PVGL:FPUHLYXVYY  ZNYY",
+        "PVGL:FPUHLYXVYY ZNYY",
         "PBQR:SNSN",
         "PNYY:NHGBZNGVP SVER NYNEZ",
         "GVZR:13:37:10",
@@ -6317,7 +6317,7 @@ choyvp pynff CNFpuhlyxvyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G67",
         "ERCNTR ERFCBAQ GB: FRNEF-FPU ZNYY  SBE N:SNSN-NHGBZNGVP SVER NYNEZ \aGEHPXF:R368 R369 43-20\aPA:",
         "NQQE:FRNEF",
-        "PVGL:FPUHLYXVYY  ZNYY",
+        "PVGL:FPUHLYXVYY ZNYY",
         "PBQR:SNSN",
         "PNYY:NHGBZNGVP SVER NYNEZ",
         "HAVG:R368 R369 43-20");

@@ -232,7 +232,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     }
     
     choyvp vag pbzcnerGb(VaqrkrqZrffntr net) {
-      erghea net.vaqrk - vaqrk;
+      erghea vaqrk - net.vaqrk;
     }
   }
 

@@ -110,10 +110,10 @@ public class Message {
   private static final Pattern DISCLAIMER_PTN = Pattern.compile("\n+DISCLA| *\\[Attachment\\(s\\) removed\\]\\s*$|\n+To unsubscribe ", Pattern.CASE_INSENSITIVE);
   private static final Pattern FWD_PTN = Pattern.compile("^FWD?:");
   private static final Pattern[] TRAIL_MSG_HEADER_PTNS = new Pattern[]{
-    Pattern.compile("\\[(\\d) of (\\d)\\]\\s*$"),
+    Pattern.compile(" *\\[(\\d) of (\\d)\\]\\s*$"),
     Pattern.compile(":(\\d)of(\\d)\\s*$"),
     Pattern.compile("_(\\d) of (\\d)\\s*$"),
-    Pattern.compile(" *\\(0(\\d)/0(\\d)\\)\\s*$")
+    Pattern.compile(" \\(0(\\d)/0(\\d)\\)\\s*$")
   };
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
@@ -187,6 +187,10 @@ public class Message {
     // Change spurious '¡' characters back to the @ there were originally intended to be
     body = body.replace('¡', '@');
     
+    // Remove trailing disclaimer(s)
+    match = DISCLAIMER_PTN.matcher(body);
+    if (match.find()) body = body.substring(0,match.start()).trim();
+    
     // See if we can find a trailing message index/count indicator
     // which may determine whether or not we clean the leading subject constructs
     // from the front of this message
@@ -211,10 +215,6 @@ public class Message {
     // Drop leading underscore line
     match = LEAD_UNDERSCORE_PTN.matcher(body);
     if (match.lookingAt()) body = body.substring(match.end());
-    
-    // Remove trailing disclaimer(s)
-    match = DISCLAIMER_PTN.matcher(body);
-    if (match.find()) body = body.substring(0,match.start()).trim();
     
     // See if we can parse this as an Email message header
     if (parseEmailHeaders(body, keepLeadBreak)) return;

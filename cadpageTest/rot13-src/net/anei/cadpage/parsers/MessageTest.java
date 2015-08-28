@@ -6,22 +6,36 @@ vzcbeg bet.whavg.Grfg;
 
 choyvp pynff ZrffntrGrfg {
   
+  cevingr fgngvp svany FcyvgZftBcgvbaf AB_CNEFR_FHOWRPG_BCGVBAF = arj FcyvgZftBcgvbafPhfgbz(){
+    @Bireevqr
+    choyvp obbyrna abCnefrFhowrpgSbyybj() {
+      erghea gehr;
+    }
+  };
+  
   @Grfg
   choyvp ibvq grfgCeboyrz() {
     
-    qbCnefrGrfg("PBTnesvryqPbhagl3",
-        "xra@pnqcntr.bet",
-        "[1/1] PNQ Cntr", 
-        "1/1\a\a2505 PVFNE PG 3q TF RSnyyf 2015 00000027",
-        "xra@pnqcntr.bet",
-        "PNQ Cntr", 
-        "2505 PVFNE PG 3q TF RSnyyf 2015 00000027", 
-        1, 1);
-
   }
   
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
+    
+    qbCnefrGrfg("GKPbyyvaPbhaglN", AB_CNEFR_FHOWRPG_BCGVBAF,
+        "xra@pnqcntr.bet",
+        "",
+        "[FRAG: 19:18:48] (02/02)",
+        "xra@pnqcntr.bet",
+        "",
+        "[FRAG: 19:18:48]", 2, 2);
+    
+    qbCnefrGrfg("AYvapbyaPbhagl",
+        "xra@pnqcntr.bet",
+        "",
+        "1112:PNQ:SLV: -RZFP-201201013-GENAFSRE-433 ZPNYVFGRE EQ-PZP YVAPBYA (ARJ)-ORRPUAHG FG-ZRQVPNY PRAGRE QE-tbvat gb oevna pragre/ ab fcrpvny :1bs2\a\a\aQVFPYNVZRE: Ch",
+        "xra@pnqcntr.bet",
+        "",
+        "1112:PNQ:SLV: -RZFP-201201013-GENAFSRE-433 ZPNYVFGRE EQ-PZP YVAPBYA (ARJ)-ORRPUAHG FG-ZRQVPNY PRAGRE QE-tbvat gb oevna pragre/ ab fcrpvny ", 1, 2);
     
     qbCnefrGrfg("VYCrbevnPbhagl",
         "xra@pnqcnrt.bet",
@@ -860,18 +874,23 @@ choyvp pynff ZrffntrGrfg {
   cevingr ibvq qbCnefrGrfg(Fgevat gvgyr, Fgevat obql, Fgevat rkcSebz, 
                              Fgevat rkcFhowrpg, Fgevat rkcObql, 
                              vag rkcVaqrk, vag rkcPbhag) {
-    qbCnefrGrfg(gvgyr, "xra@pnqcntr.bet", "", obql, rkcSebz, rkcFhowrpg, rkcObql, rkcVaqrk, rkcPbhag);
+    qbCnefrGrfg(gvgyr, ahyy, "xra@pnqcntr.bet", "", obql, rkcSebz, rkcFhowrpg, rkcObql, rkcVaqrk, rkcPbhag);
   }
   
   cevingr ibvq qbCnefrGrfg(Fgevat gvgyr, Fgevat sebz, Fgevat fhowrpg, Fgevat obql, 
                              Fgevat rkcSebz, Fgevat rkcFhowrpg, Fgevat rkcObql) {
-    qbCnefrGrfg(gvgyr, sebz, fhowrpg, obql, rkcSebz, rkcFhowrpg, rkcObql, -1, -1);
+    qbCnefrGrfg(gvgyr, ahyy, sebz, fhowrpg, obql, rkcSebz, rkcFhowrpg, rkcObql, -1, -1);
+  }
+  cevingr ibvq qbCnefrGrfg(Fgevat gvgyr, Fgevat sebz, Fgevat fhowrpg, Fgevat obql, 
+                          Fgevat rkcSebz, Fgevat rkcFhowrpg, Fgevat rkcObql, 
+                          vag rkcVaqrk, vag rkcPbhag) {
+    qbCnefrGrfg(gvgyr, ahyy, sebz, fhowrpg, obql, rkcSebz, rkcFhowrpg, rkcObql, rkcVaqrk, rkcPbhag);
   }
   
-  cevingr ibvq qbCnefrGrfg(Fgevat gvgyr, Fgevat sebz, Fgevat fhowrpg, Fgevat obql, 
+  cevingr ibvq qbCnefrGrfg(Fgevat gvgyr, FcyvgZftBcgvbaf bcgvbaf, Fgevat sebz, Fgevat fhowrpg, Fgevat obql, 
                              Fgevat rkcSebz, Fgevat rkcFhowrpg, Fgevat rkcObql, 
                              vag rkcVaqrk, vag rkcPbhag) {
-    Zrffntr zft = arj Zrffntr(gehr, sebz, fhowrpg, obql);
+    Zrffntr zft = arj Zrffntr(gehr, sebz, fhowrpg, obql, bcgvbaf, snyfr);
     nffregRdhnyf(gvgyr + ":SEBZ", rkcSebz, zft.trgSebzNqqerff());
     nffregRdhnyf(gvgyr + ":FHOW", rkcFhowrpg, zft.trgFhowrpg());
     nffregRdhnyf(gvgyr + ":OBQL", rkcObql, zft.trgZrffntrObql());

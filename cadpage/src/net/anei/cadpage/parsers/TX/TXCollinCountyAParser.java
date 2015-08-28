@@ -1324,6 +1324,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "1050 MINOR",
       "911 HANG UP/OPEN LINE",
       "ABDOMINAL PAIN",
+      "AMB",
       "AMBULANCE/EMS SERVICE",
       "ANIMAL BITE",
       "ANIMAL COMPLAINT",
@@ -1332,10 +1333,12 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "ASSIST POLICE DEPARTMENT",
       "ATTEMPT SUICIDE",
       "ATTEMPTED SUICIDE",
+      "AUDIBLE BURGLAR ALARM",
       "AUTOMATIC AID ENGINE",
       "AUTOMATIC FIRE ALARM",
       "BOAT IN DISTRESS",
       "BREATHING PROBLEMS",
+      "BURGLARY MOTOR VEH IN PROGRESS",
       "CAR/VEHICLE FIRE",
       "CARBON MONOXIDE ALARM",
       "CARBON MONOXIDE INVESTIGATION",
@@ -1482,6 +1485,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "SMOKE INVESTIGATION",
       "SPECIAL ASSIGNMENT",
       "SPECIAL ASSIGNMENT \"SPECIFY\"",
+      "SPECIAL EVENT",
       "SPECIAL HAZARD",
       "STANDBY ELECTRICAL FIRE",
       "STILL ALARM ENGINE",
@@ -1527,6 +1531,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "MUTUAL AID FOR TRENTON FD 2 STORY SFIRE",
       
       "UNKNOWN FIRE *** REQ BRUSH TRUCK FOR HOT SPOTS***",
+      "VEHICLE FIRE****REQ BRUSH TRUCK***",
       "GRASS FIRE **** NVFD REQUESTION MUTUAL AID****",
       "ZADOW PARK"
 
