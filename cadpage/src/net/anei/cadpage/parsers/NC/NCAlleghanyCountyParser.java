@@ -33,6 +33,8 @@ public class NCAlleghanyCountyParser extends FieldProgramParser {
       data.strPlace = body;
       return true;
     }
+    
+    body = stripFieldEnd(body, "-");
     return parseFields(body.split(","), data);
   }
   
@@ -59,6 +61,7 @@ public class NCAlleghanyCountyParser extends FieldProgramParser {
 
     // Unincorporated communities
     "CHERRY LANE",
+    "ENNICE",
     "GLADE VALLEY",
     "LAUREL SPRINGS",
     "PINEY CREEK",

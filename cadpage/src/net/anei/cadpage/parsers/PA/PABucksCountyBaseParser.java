@@ -126,6 +126,7 @@ public class PABucksCountyBaseParser extends DispatchA7Parser {
       "EWING TWP NJ",     "EWING TWP,NJ",
       "EWING NJ",         "EWING TWP,NJ",
       "DELA TWP",         "DELAWARE TWP",
+      "HATBORO",          "HATBORO",
       "HATFIL",           "HATFIELD",
       "HATFIELD TWP",     "HATFIELD TWP",
       "HOPEWELL TWP",     "HOPEWELL TWP",

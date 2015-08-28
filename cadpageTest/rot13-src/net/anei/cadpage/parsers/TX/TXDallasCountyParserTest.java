@@ -110,7 +110,6 @@ Fraqre: <abercylPNQ@qnyynfpvglunyy.pbz>
 (PNQ Zrffntr) Sebz QSE PNQ: 1 Nynez 98 - Fgehpgher Sver Ercbegrq : 8515 Cenvevr Uvyy Ya K-Fg ABG SBHAQ/YBPNY IVFGN QE Ybp Havgf RA51 Obk 5022 Zncfpb 68-Q Vap 2015168361 ng 08/08/2015 17:30:48
 (PNQ Zrffntr) Sebz QSE PNQ: 1 Nynez 98 - Fgehpgher Sver Ercbegrq : 17811 Invy Fg K-Fg HAANZRQ FGERRG/OEVNETEBIR YA Ybp TNEQRAF NG INVY PBZCNAL Havgf RA07,RA13,CY RA175,GE10,GE20,OP02,OP07 Obk 5012 Zncfpb 4-W Vap 2015168353 ng 08/08/2015 17:07:20
 (PNQ Zrffntr) Sebz QSE PNQ: 1 Nynez 98 - Fgehpgher Sver Ercbegrq : 7331 Punhpre Cy K-Fg OEBAPB QE/XVEAJBBQ QE Ybp OEBBXYVAR FCEVATF NCG Havgf RA40,RA49,RA52,GE33,GE25,OP06,OP05 Obk 7505 Zncfpb 63-L Vap 2015168173 ng 08/08/2015 13:04:57
-(PNQ Zrffntr) 896 nffvtarq 22:53gb99 - Fgehpgher Sver Jbexvat ng 7714 Zvqohel Qe K-Fg CROOYRQBJAR QE/UVYY UNIRA QE Obk225010Znc:26-N Vap:2015167743, Havgf Nffvtarq684,685,ER22,OP03,RA22,RA41,ER
 (PNQ Zrffntr) Sebz QSE PNQ: 2 Nynez 99 - Fgehpgher Sver Jbexvat : 7714 Zvqohel Qe K-Fg CROOYRQBJAR QE/UVYY UNIRA QE Ybp Havgf 684,685,RA37,RA20,RA57,GE20,GE57,ER19,HF Obk 5010 Zncfpb 26-N Vap 2015167743 ng 08/07/2015 22:53:50
  
 */
@@ -1531,9 +1530,6 @@ choyvp pynff GKQnyynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2015168173",
         "QNGR:08/08/2015",
         "GVZR:13:04:57");
-
-// ************************ CNEFR SNVYHER *****************************
-// (PNQ Zrffntr) 896 nffvtarq 22:53gb99 - Fgehpgher Sver Jbexvat ng 7714 Zvqohel Qe K-Fg CROOYRQBJAR QE/UVYY UNIRA QE Obk225010Znc:26-N Vap:2015167743, Havgf Nffvtarq684,685,ER22,OP03,RA22,RA41,ER
 
     qbGrfg("G100",
         "(PNQ Zrffntr) Sebz QSE PNQ: 2 Nynez 99 - Fgehpgher Sver Jbexvat : 7714 Zvqohel Qe K-Fg CROOYRQBJAR QE/UVYY UNIRA QE Ybp Havgf 684,685,RA37,RA20,RA57,GE20,GE57,ER19,HF Obk 5010 Zncfpb 26-N Vap 2015167743 ng 08/07/2015 22:53:50",

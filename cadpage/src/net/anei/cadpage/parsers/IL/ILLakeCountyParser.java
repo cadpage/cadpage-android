@@ -10,15 +10,18 @@ public class ILLakeCountyParser extends FieldProgramParser {
   
   public ILLakeCountyParser() {
     super(CITY_CODES, "LAKE COUNTY", "IL",
-          "NEW_CALL! Nat:CALL! Loc:ADDR/y! Apt:APT! Grid:MAP! Trucks:UNIT!");
-  } 
+          "Incident:ID! Nat:CALL! Loc:ADDR/y! Apt:APT! Grid:MAP! Trucks:UNIT!");
+  }
+  
+  private static final Pattern MISSING_COLON_PTN = Pattern.compile("(?<=, Trucks)(?!:)");
   
   @Override
   protected boolean parseMsg(String body, Data data) {
     body = body.replace("Apt:", ", Apt:");
-    body = body.replace(", Trucks", ", Trucks:");
+    body = MISSING_COLON_PTN.matcher(body).replaceFirst(":");
     return parseFields(body.split(", "), data);
   }
+  
   
   @Override
   public Field getField(String name) {

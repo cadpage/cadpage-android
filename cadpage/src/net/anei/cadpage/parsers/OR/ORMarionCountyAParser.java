@@ -23,7 +23,7 @@ public class ORMarionCountyAParser extends FieldProgramParser {
   
   public ORMarionCountyAParser() {
     super("MARION COUNTY", "OR",
-          "CALL ( ADDRCITY ( UNIT! ( MAP | INFO MAP | ) | PLACE? MAP! ( CH | ALRM | ) UNIT ) | " +
+          "CALL ( ADDRCITY ( UNIT! ( MAP | INFO MAP | ) | PLACE? MAP! ( CH | ALRM | ) EMPTY+? UNIT ) | " +
                  "CALL CH/Z ADDRCITY MAP UNIT | " +
                  "CALL CH ADDRCITY MAP UNIT |" +
                  "ADDRCITY ( UNIT! ( MAP | INFO MAP | ) | PLACE? MAP! ( CH | ALRM | ) UNIT ) ) INFO+");
@@ -53,6 +53,8 @@ public class ORMarionCountyAParser extends FieldProgramParser {
       return false;
     } while (false);
     
+    body = body.replace('\n', ' ');
+    
     // And a MAP::<code> construct
     body = MAP_PTN.matcher(body).replaceFirst(":MAP-$1:");
     
@@ -73,7 +75,7 @@ public class ORMarionCountyAParser extends FieldProgramParser {
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("PLACE")) return new MyPlaceField();
-    if (name.equals("MAP")) return new MapField("MAP-(.*)", true);
+    if (name.equals("MAP")) return new MapField("MAP-?(.*)", true);
     if (name.equals("ALRM")) return new MyAlarmField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
@@ -95,7 +97,7 @@ public class ORMarionCountyAParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern VALID_ADDR_PTN = Pattern.compile("[-@ A-Z0-9]+,([A-Z ]+)|.*\\bMP\\b.*", Pattern.CASE_INSENSITIVE);
+  private static final Pattern VALID_ADDR_PTN = Pattern.compile("[-@/ A-Z0-9]+,([A-Z ]+)|.*\\bMP\\b.*|.* COMPLEX", Pattern.CASE_INSENSITIVE);
   private class MyAddressCityField extends AddressCityField {
     
     @Override
@@ -168,7 +170,7 @@ public class ORMarionCountyAParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      if (field.startsWith("MAP-")) return false;
+      if (field.startsWith("MAP")) return false;
       parse(field, data);
       return true;
     }
@@ -279,6 +281,9 @@ public class ORMarionCountyAParser extends FieldProgramParser {
     "SHAW",
     "TALBOT",
     "WACONDA",
-    "WEST STAYTON"
+    "WEST STAYTON",
+    
+    // Linn County
+    "LYONS"
   ));
 }

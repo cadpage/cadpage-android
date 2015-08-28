@@ -33,7 +33,8 @@ public class DispatchSPKParser extends HtmlProgramParser {
   protected boolean parseHtmlMsg(String subject, String body, Data data) {
     
     if (!subject.contains(" reaches status ") && 
-        !subject.contains(" gets ")) return false;
+        !subject.contains(" gets ") &&
+        !subject.contains("has a Service Request status change")) return false;
     
     dispatchTime = false;
     times = null;

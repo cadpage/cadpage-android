@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 public class CAYoloCountyAParser extends DispatchA20Parser {
   
   public CAYoloCountyAParser() {
-    super("YOLO COUNTY", "CA");
+    super("YOLO COUNTY", "CA", A20_UNIT_LABEL_REQ);
   }
   
   @Override

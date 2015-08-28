@@ -17,12 +17,6 @@ choyvp pynff ZBOneelPbhaglCnefreGrfg {
     }
   }
   
-  choyvp fgngvp pynff GrfgO rkgraqf ZBOneelPbhaglOCnefreGrfg {
-    choyvp GrfgO() {
-      frgCnefre(arj ZBOneelPbhaglCnefre());
-    }
-  }
-  
   choyvp fgngvp pynff GrfgP rkgraqf ZBOneelPbhaglPCnefreGrfg {
     choyvp GrfgP() {
       frgCnefre(arj ZBOneelPbhaglCnefre());

@@ -48,10 +48,10 @@ public class TXDallasCountyParser extends MsgParser {
     data.strTime = match.group(12);
     return true;
   }
-
-  @Override
-  public String adjustMapAddress(String sAddress) {
-    return RR_PTN.matcher(sAddress).replaceAll("RT");
-  }
-  private static final Pattern RR_PTN = Pattern.compile("\\bRR\\b");
+//
+//  @Override
+//  public String adjustMapAddress(String sAddress) {
+//    return RR_PTN.matcher(sAddress).replaceAll("RT");
+//  }
+//  private static final Pattern RR_PTN = Pattern.compile("\\bRR\\b");
 }

@@ -26,14 +26,14 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   private static final Pattern NOTIFICATION_PTN1 = Pattern.compile("(\\d\\d-\\d{6}) - \\d+\\) (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) [\\d:]+\\.000-\\[\\d+\\] \\[Notification\\] +(.*?)(?: +\\[Shared\\])?");
   private static final Pattern NOTIFICATION_PTN2 = Pattern.compile("ID#:(\\d\\d-\\d{6}) ; \\d+\\) (.*)");
   
-  private static final Pattern PREFIX_PTN = Pattern.compile("^Comment: \\w+, ");
+  private static final Pattern PREFIX_PTN = Pattern.compile("^(?:Comment:|SSMPlan:)[^,]+, *");
 
   private static final Pattern ADDR_CODE_CALL_PTN = Pattern.compile("(.*?)([#\\*]\\d+|\\d{1,2}[A-Z]\\d{1,2}[A-Z]?) *-[- ]*(.*)");
   private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<=[a-z])(?=[A-Z])|(?<= [A-Z])(?=[A-Z][a-z])");
   
   public TXMontgomeryCountyBParser() {
     super(CITY_LIST, "MONTGOMERY COUNTY", "TX",
-          "ID:ID! PRI:PRI? UNIT:UNIT! PRI:PRI? CALL:CALL! PLACE:PLACE! APT:APT? ADDR:ADDR! ( X-STREETS:X! MAP:MAP! CITY:CITY! CROSS_STREETS:SKIP! | CROSS_STREETS:X! MAP:MAP! CITY:CITY! CHANNEL:CH! | CITY:CITY! ( MAP:MAP! | ) | ) ( INFO:INFO! | GPS! GPS! )");
+          "ID:ID! PRI:PRI? UNIT:UNIT! PRI:PRI? CALL:CALL! PLACE:PLACE! APT:APT? ADDR:ADDR! ( X-STREETS:X! MAP:MAP! CITY:CITY! CROSS_STREETS:SKIP? | CROSS_STREETS:X! MAP:MAP! CITY:CITY! CHANNEL:CH! | CITY:CITY! ( MAP:MAP! | ) | ) ( INFO:INFO! | GPS! GPS! )");
   }
   
   @Override
@@ -242,6 +242,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   private class MyIdField extends IdField {
     @Override
     public void parse(String field, Data data) {
+      if (field.length() == 0) return;
       Matcher match = ID_PTN.matcher(field);
       if (!match.matches()) abort();
       String id = match.group(1);
@@ -316,6 +317,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   }
   
   private static final ReverseCodeSet CALL_SET = new ReverseCodeSet(
+      "Abd. Pain -Pre-Alert",
       "Abdominal Pain",
       "Aircraft Emergency",
       "Alarm",
@@ -344,6 +346,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       "Explosion",
       "Eye Problems/Injury",
       "Fall",
+      "Fall Pre-Alert",
       "Fluid Spill",
       "Gas",
       "Gas - Cut Commercial",
@@ -403,6 +406,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       "Smoke - Smell in a R",
       "Smoke - Smell in the Area",
       "Smoke - Smell in the",
+      "SSM Level -",
       "Stab/GSW/Penetrating Trauma",
       "Stab/GSW/Penetrating",
       "Stroke",

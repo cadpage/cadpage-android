@@ -18,7 +18,7 @@ public class IAWarrenCountyAParser extends DispatchA38Parser {
   
   @Override
   public String getFilter() {
-    return "messaging@iamresponding.com";
+    return "messaging@iamresponding.com,7127390583";
   }
   
   @Override
