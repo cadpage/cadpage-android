@@ -11,6 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class PABucksCountyAParser extends PABucksCountyBaseParser {
   
+  private static final Pattern TRAIL_URL_PTN = Pattern.compile("(.*)\\. {5,}(https:[^ ]+) {3,}.*");
   private static final Pattern MARKER1 = Pattern.compile("(?:(Station [^/:]+) / )?([A-Z]+\\s+(?:Adr:|adr:|Box:).*)", Pattern.DOTALL);
   private static final Pattern MARKER2 = Pattern.compile("^([A-Z0-9 ]+): *([A-Z]+) *");
   private static final Pattern NAKED_DATE_TIME = Pattern.compile("(?<!: ?)\\d\\d/\\d\\d/\\d\\d +\\d\\d:\\d\\d:\\d\\d\\b");
@@ -23,20 +24,29 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
   
   @Override
   public String getFilter() {
-    return "8276,@bnn.us,iamresponding.com,Bucks RSAN,@alert.bucksema.org,1210,@co.bucks.pa.us,@buckscounty.org";
+    return "8276,@bnn.us,iamresponding.com,Bucks RSAN,@alert.bucksema.org,1210,@co.bucks.pa.us,@buckscounty.org,@everbridge.net";
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (body.startsWith("911:")) body = body.substring(4).trim();
+    body = stripFieldStart(body, "911:");
+    body = stripFieldStart(body, "Text: STA2:");
     
     if (body.endsWith("=")) body = body.substring(0,body.length()-1).trim();
     int pt = body.lastIndexOf('=');
     if (pt >= 100) body = body.substring(0,pt) + body.substring(pt+1);
-    pt = body.indexOf("Sent by mss911 ");
+    pt = body.indexOf("\n*****");
+    if (pt < 0) pt = body.indexOf("Sent by mss911 ");
     if (pt < 0) pt = body.indexOf("\nSent by Berks County RSAN");
     if (pt >= 0) body = body.substring(0,pt).trim();
+    else {
+      Matcher match = TRAIL_URL_PTN.matcher(body);
+      if (match.matches()) { 
+        body = match.group(1).trim();
+        data.strInfoURL = match.group(2);
+      }
+    }
     String saveBody = body;
     
     boolean mark2 = false;
@@ -75,6 +85,7 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
     } else return false;
     
     //  See if the general alert data (in the place field) has a leading station code
+    setFieldList("DATE TIME SRC INFO");
     match = SRC_MARKER.matcher(data.strSupp);
     if (match.find()) {
       data.strSource = match.group(1);
@@ -85,7 +96,7 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
 
   @Override
   public String getProgram() {
-    return "UNIT " + super.getProgram();
+    return "UNIT " + super.getProgram() + " URL";
   }
   
   @Override
@@ -151,7 +162,7 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
     
     @Override
     public String getFieldNames() {
-      return "PLACE " + super.getFieldNames() + " CITY ST X";
+      return "PLACE " + super.getFieldNames() + " CITY ST X INFO";
     }
   }
   

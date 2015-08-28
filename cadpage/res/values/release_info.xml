@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">08212015</string>
-  <string name="release_version">v1.8.54</string>
+  <string name="release_date">08272015</string>
+  <string name="release_version">v1.8.56</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.56\n
+San Bernardino County, CA\n
+Location Fixes:\n
+Lake County, IL\n
+Marion County, OR\n
+\n
+v1.8.55\n
+Location Fixes:\n
+El Dorado County, CA\n
+Oroville, CA\n
+Yolano County, CA\n
+Yolo County, CA\n
+Warren County, IA\n
+Mobile Medical Response, MI\n
+Barry County, MO\n
+Stone County, MO\n
+Alleghany County, NC\n
+Blair County, PA\n
+Northampton County, PA\n
+Tioga County, PA\n
+Montgomery County, TX\n
+\n
 v1.8.54\n
 Location Fixes:\n
 Barrow County, GA\n
@@ -47,33 +69,7 @@ Lorain County, OH\n
 Mahoning County, OH\n
 Acadian Ambulence, TX\n
 Franklin County, VA\n
-Knox County, TN\n
-\n
-v1.8.51\n
-New Locations:\n
-Walker County, AL\n
-Levy County, FL\n
-Story County, IA\n
-Macoupin County, IL\n
-Isanti County, MN\n
-Cascade County, MT\n
-Stillwater County, MT\n
-Cape May County, NJ\n
-Stokes County, NC\n
-Centerville, OH\n
-Tinker AFB, OK\n
-Petersburg, VA\n
-\n
-Location Fixes:\n
-Dothan, AL\n
-Kern County, CA\n
-\n
-v1.8.50\n
-Location Fixes:\n
-Cattaraugus County, NY\n
-Trenton, OH\n
-Delaware County, PA\n
-Bradley County, TN
+Knox County, TN
   </string>
 </resources>
   

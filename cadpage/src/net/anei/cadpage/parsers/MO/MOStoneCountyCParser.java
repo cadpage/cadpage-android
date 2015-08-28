@@ -9,6 +9,6 @@ public class MOStoneCountyCParser extends DispatchSPKParser {
 
   @Override
   public String getFilter() {
-    return "cad@sces911.org";
+    return "stoneco911@gmail.com";
   }
 }

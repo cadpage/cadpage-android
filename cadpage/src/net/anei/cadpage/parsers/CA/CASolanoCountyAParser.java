@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 public class CASolanoCountyAParser extends DispatchA20Parser {
   
   public CASolanoCountyAParser() {
-    super("SOLANO COUNTY", "CA");
+    super("SOLANO COUNTY", "CA", A20_UNIT_LABEL_REQ);
   }
   
   @Override
