@@ -56,10 +56,10 @@ Ett Google-konto måste vara registrerat på denna enhet innan du kan registrera
   <string name="vendor_phone_registration_error_hard_error">
     Google meddelar att din telefon för närvarande inte understödjer Push-notiser.Vi vet egentligen inte varför.Vänligen använd Cadpages inställning för att E-posta programutvecklaren för att fråga efter ytterligare råd.
   </string>
-  <string name="vendor_too_many_registrations_error">    <!-- Translate -->
+  <string name="vendor_too_many_registrations_error">
     Too many apps are trying to use the Google message push service.  You will have to
     uninstall one of the other apps using this service before Cadpage can receive
-    direct pages.
+    direct pages.    <!-- Translate -->
   </string>
   
   <string name="vendor_no_web_viewer_error">

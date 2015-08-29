@@ -287,14 +287,14 @@
   <string name="pref_loglimit_title">Gräns för meddelanderapport</string>
   <string name="pref_loglimit_summary">Antal meddelanden som inkluderas i felrapport\nAktuellt värde : %s</string>
     
-  <string name="pref_split_msg_merge_title">Split Alert Merge Options</string>     <!-- Translate -->
-  <string name="pref_split_msg_merge_summary">     <!-- Translate -->
-      Options that control how split up alert messages are merged back into a single alert
+  <string name="pref_split_msg_merge_title">Alternativ för delade larm-meddelanden</string>
+  <string name="pref_split_msg_merge_summary">
+      Options that control how split up alert messages are merged back into a single alert   <!-- Translate -->
   </string>
   
-  <string name="pref_override_active911_split_title">Override Active911 Split Alert Settings</string>     <!-- Translate -->
-  <string name="pref_override_active911_split_summaryon">Recommended Active911 settings will be overridden</string>     <!-- Translate -->
-  <string name="pref_override_active911_split_summaryoff">Recommended Active911 settings will be used</string>     <!-- Translate -->
+  <string name="pref_override_active911_split_title">Ignorera inställningar i Active911 om delade larm-meddelanden</string>
+  <string name="pref_override_active911_split_summaryon">Rekommenderad inställningar i Active911 kommer att köras över</string>
+  <string name="pref_override_active911_split_summaryoff">Rekommenderade inställningar i Active911 kommer att användas</string>
   
   <string name="pref_split_direct_page_title">Kolla efter delade larmmeddelanden från meddelandeservice</string>                                   
   <string name="pref_split_direct_page_summaryon">Larmmeddelanden från meddelandeservice kommer att kontrolleras så att de ej är uppdelade</string>       
@@ -334,9 +334,9 @@
   <string name="pref_activate_scanner_summaryon">Scannerkanal kommer att öppnas automatiskt</string>
   <string name="pref_activate_scanner_summaryoff">Scannerkanal kommer inte att öppnas automatiskt</string>
   
-  <string name="pref_mix_msg_order_title">Mixed split msg order</string>  <!-- Translate -->
-  <string name="pref_mix_msg_order_summaryon">Split CAD page messages may not be in consistent order</string>  <!-- Translate -->
-  <string name="pref_mix_msg_order_summaryoff">Split CAD page messages will always be in consistent order</string>  <!-- Translate -->
+  <string name="pref_mix_msg_order_title">Blandad ordning på delade meddelande</string>
+  <string name="pref_mix_msg_order_summaryon">Delade CAD page meddelanden kan komma i oordning</string>
+  <string name="pref_mix_msg_order_summaryoff">Delade CAD page meddelanden kommer alltid att komma i kronologisk ordning</string>
   
   <string name="pref_scanner_channel_title">Scannerkanal</string>
   <string name="pref_publish_pages_title">Publicera larmärenden</string>
