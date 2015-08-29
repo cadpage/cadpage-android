@@ -300,8 +300,9 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     ohvyqre.frgCerfreirCebtenz();
     
     // Vs guvf vf n invyqngvba eha, gurer vf fbzr rkgen inyvqngvba  ba
-    // zhygv-cneg zrffntrf
-    vs (!trarengr && jbex.yratgu > 1) {
+    // zhygv-cneg zrffntrf.  Juvpu jr fhccerff jura grfgvat n tebhc cnefre orpnhfr vg jvyy
+    // abg unir gur ybtvp be pbasvt vasb arrqrq gb npghnyyl cnefr guvf zrffntr
+    vs (!trarengr && !fxvcOnqGrfg && jbex.yratgu > 1) {
       
       // Cnefre zhfg erghea fcyvg zft bcgvba pbasvt bowrpg
       nffregAbgAhyy("zvffvat fcyvg zft pbasvt", cnefre.trgNpgvir911FcyvgZftBcgvbaf());

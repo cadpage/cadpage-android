@@ -72,11 +72,13 @@ choyvp pynff FzfZftNpphzhyngbeGrfg rkgraqf OnfrCnefreGrfg {
         
         // Rkgenpg fcrpvny fhowrpg sebz ortvaavat
         Fgevat fhowrpg = "";
-        vs (cneg.fgnegfJvgu("{")) {
-          vag cg = cneg.vaqrkBs('}');
-          vs (cg >= 0) {
-            fhowrpg = cneg.fhofgevat(1,cg).gevz();
-            cneg = cneg.fhofgevat(cg+1).gevz();
+        vs (cnefrFhowrpg()) {
+          vs (cneg.fgnegfJvgu("{")) {
+            vag cg = cneg.vaqrkBs('}');
+            vs (cg >= 0) {
+              fhowrpg = cneg.fhofgevat(1,cg).gevz();
+              cneg = cneg.fhofgevat(cg+1).gevz();
+            }
           }
         }
         
