@@ -517,7 +517,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
- WPDQGPDA or wpdqgpda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+KWABFPAA or kwabfpaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support, 
 Jean ~ Cadpage Administrator
@@ -901,7 +901,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-VLZPVLFA or vlzpvlfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+OOIBIXGA or ooibixga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean ~ Cadpage Administrator
@@ -3895,3 +3895,9 @@ Take care
 
 Useful search expressions...
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT|X):.*\r?\n)*+(?! +"CITY:)
+**************************************************************************
+
+Are dispatch alerts showing up in your message inbox?  If not, then you need to talk to someone in your department about getting dispatch alerts sent to your phone.
+
+If they are, use the Cadpage "Email the Developer" setting to send us a new support email right after Cadpage fails to pick up an alert.  That should include technical information about the missed alert that I need to determine what we have to do to fix things.
+**************************************************************************
