@@ -56,6 +56,10 @@ public class PADelawareCountyBParser extends FieldProgramParser {
     
     else {
       select = "2";
+      if (subject.startsWith("ALERT! ")) {
+        data.strSource = subject.substring(7).trim().replace(' ', '_');
+      }
+      
       boolean confirmed = false;
       Matcher match = PREFIX_PTN.matcher(body);
       if (match.find()) {
@@ -176,6 +180,11 @@ public class PADelawareCountyBParser extends FieldProgramParser {
       data.strState = data.strCity.substring(pt+1);
       data.strCity = data.strCity.substring(0,pt);
     }
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
   }
   
   @Override

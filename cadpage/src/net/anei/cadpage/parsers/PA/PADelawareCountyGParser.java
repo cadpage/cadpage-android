@@ -13,7 +13,7 @@ public class PADelawareCountyGParser extends FieldProgramParser {
   public PADelawareCountyGParser() {
     super("DELAWARE COUNTY", "PA",
           "( CALL:CALL! ADDR:ADDR! CITY:CITY? ID:ID? DATE:DATE! TIME:TIME! UNIT:UNIT INFO:INFO+ " + 
-          "| ADDR:ADDR! CITY:CITY? CALL:CALL? DATE:DATE? TIME:TIME? ID:ID? INFO:INFO INFO/N+? UNIT:UNIT )");
+          "| ADDR:ADDR! CITY:CITY? CALL:CALL? DATE:DATE? TIME:TIME? ID:ID? INFO:INFO INFO/N+? CRITERIA:SKIP STATION:SRC UNIT:UNIT )");
   }
   
   @Override
@@ -31,6 +31,8 @@ public class PADelawareCountyGParser extends FieldProgramParser {
     if (name.equals("DATE")) return new DateField("\\d\\d/\\d\\d/\\d{4}", true);
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("SRC")) return new MySourceField();
+    if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
   
@@ -38,6 +40,23 @@ public class PADelawareCountyGParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       field = field.replace('~', ' ').trim().replaceAll("  +", " ");
+      super.parse(field, data);
+    }
+  }
+  
+  private class MySourceField extends SourceField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace(' ', '_');
+      super.parse(field, data);
+    }
+  }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf('-');
+      if (pt >= 0) field = field.substring(0,pt).trim();
       super.parse(field, data);
     }
   }

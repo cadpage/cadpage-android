@@ -721,7 +721,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       Flfgrz.bhg.cevag("\a        }");
     }
     Flfgrz.bhg.cevagya(',');
-    vs (arrqFcnpr) Flfgrz.bhg.cevagya('\a');
+    vs (arrqFcnpr) Flfgrz.bhg.cevagya();
     
     vs (!purpxPnyyPbqr(vasb.trgPnyy(), cnefre)) {
       Flfgrz.bhg.cevagya("        // Harkcrpgrq pnyy pbqr:" + vasb.trgPnyy());
