@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.NY;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 
 
@@ -10,6 +11,13 @@ public class NYOnondagaCountyMetroWestParser extends DispatchProQAParser {
           "CALL PRI CALL/SDS CALL/L+? ADDR/Z CITY! INFO/N+? ID!");
   }
   
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    return super.parseMsg(body, data);
+  }
+
   private static final String[] CITY_LIST = new String[]{
       
       // Onondaga County

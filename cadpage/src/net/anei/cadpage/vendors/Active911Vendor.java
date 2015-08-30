@@ -705,6 +705,7 @@ class Active911Vendor extends Vendor {
       "US/NY/OtsegoCounty",               "NYOtsegoCounty",
       "US/NY/RocklandCounty",             "NYRocklandCountyB",
       "US/NY/Ronkonkoma",                 "NYSuffolkCountyB",
+      "US/NY/RuralMetro",                 "NYRuralMetro",
       "US/NY/SCFRESpaging",               "NYSuffolkCountyA",
       "US/NY/SCFRESprinting",             "N/A",
       "US/NY/SteubenCounty",              "NYSteubenCounty",
