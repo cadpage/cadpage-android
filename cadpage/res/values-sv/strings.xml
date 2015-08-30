@@ -289,7 +289,7 @@
     
   <string name="pref_split_msg_merge_title">Alternativ för delade larm-meddelanden</string>
   <string name="pref_split_msg_merge_summary">
-      Options that control how split up alert messages are merged back into a single alert   <!-- Translate -->
+      Alternativ för att kontrollera hur uppdelade larmmeddelanden klistras ihop till ett enda larmmeddelande
   </string>
   
   <string name="pref_override_active911_split_title">Ignorera inställningar i Active911 om delade larm-meddelanden</string>

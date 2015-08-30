@@ -83,12 +83,24 @@ public class GADecaturCountyParser extends SmartAddressParser {
       
       // And sometimes the first line contains the address :(
       if (isValidAddress(data.strCall)) {
-        parseAddress(data.strCall, data);
-        if (body.length() <= 40) {
-          data.strCall = body;
-        } else {
-          data.strCall = "";
-          data.strSupp = body;
+        String addr = data.strCall;
+        data.strCall = "";
+        parseAddress(addr, data);
+        boolean first = true;
+        for (String part : body.split(" - ")) {
+          part = part.trim();
+          if (part.equals(addr)) continue;
+          if (first) {
+            first = false;
+            if (part.length() <= 40) {
+              data.strCall = part;
+            } else {
+              data.strSupp = part;
+            }
+          }
+          else {
+            data.strSupp = append(data.strSupp, " - ", part);
+          }
         }
         return true;
       }

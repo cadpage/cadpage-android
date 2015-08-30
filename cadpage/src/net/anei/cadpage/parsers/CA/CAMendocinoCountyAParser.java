@@ -14,7 +14,7 @@ public class CAMendocinoCountyAParser extends FieldProgramParser {
   
   public CAMendocinoCountyAParser() {
     super(CITY_CODES, "MENDOCINO COUNTY", "CA",
-           "CALL ADDR! Inc:IDGPSUNIT! INFO+");
+           "CALL ADDR! ( Inc:IDGPSUNIT! INFO/N+ | INFO/N+ Map:MAP! Y:GPS! INFO/N+? UNITID! Cmd:CH! Tac:CH/L! INFO/N+? MAPURL )");
   }
   
   @Override
@@ -31,6 +31,16 @@ public class CAMendocinoCountyAParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
     body = body.replace(" Inc# ", " Inc: ");
     return parseFields(body.split(";"), data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("IDGPSUNIT")) return new IdGpsUnitField();
+    if (name.equals("GPS")) return new MyGPSField();
+    if (name.equals("UNITID")) return new MyUnitIdField();
+    if (name.equals("MAPURL")) return new SkipField("http:.*", true);
+    return super.getField(name);
   }
   
   private static final Pattern TRAIL_PARENS = Pattern.compile("\\(([^\\(]*?)\\)$");
@@ -77,11 +87,39 @@ public class CAMendocinoCountyAParser extends FieldProgramParser {
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("IDGPSUNIT")) return new IdGpsUnitField();
-    return super.getField(name);
+  private class MyGPSField extends GPSField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace(" X: ", ",");
+      super.parse(field, data);
+    }
+  }
+
+  private static final Pattern UNIT_ID_PTN = Pattern.compile("(.*?)Inc# (\\d+)");
+  private class MyUnitIdField extends Field {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = UNIT_ID_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strUnit = match.group(1).trim();
+      data.strCallId = match.group(2);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "UNIT ID";
+    }
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{

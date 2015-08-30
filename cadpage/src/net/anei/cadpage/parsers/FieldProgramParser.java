@@ -3071,6 +3071,8 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class ChannelField extends Field {
     
+    private String append = null;
+    
     public ChannelField() {};
     public ChannelField(String pattern) {
       super(pattern);
@@ -3078,12 +3080,22 @@ public class FieldProgramParser extends SmartAddressParser {
     public ChannelField(String pattern, boolean hardPattern) {
       super(pattern, hardPattern);
     }
+    
+    @Override
+    public void setQual(String qual) {
+      super.setQual(qual);
+      append = buildConnector(qual, null);
+    }
 
     @Override
     public void parse(String field, Data data) {
-      data.strChannel = field;
+      if (append != null) {
+        data.strChannel = append(data.strChannel, append, field);
+      } else {
+        data.strChannel = field;
+      }
     }
-    
+       
     @Override
     public String getFieldNames() {
       return "CH";
