@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class DispatchDAPROParser extends FieldProgramParser {
   
@@ -36,8 +37,9 @@ public class DispatchDAPROParser extends FieldProgramParser {
     Matcher match = MARKER.matcher(body);
     if (!match.lookingAt()) {
       if (!mark) return false;
-      data.strCall = "GENERAL ALERT";
-      data.strPlace = alertBody;
+      setFieldList("INFO");
+      data.msgType = MsgType.GEN_ALERT;
+      data.strSupp = alertBody;
       return true;
     }
     data.strSource = match.group(1);
@@ -51,8 +53,9 @@ public class DispatchDAPROParser extends FieldProgramParser {
     } else if ((pt = body.indexOf(" - ")) >= 0) {
       body = body.substring(0,pt) + " INFO:" + body.substring(pt+3);
     } else if (mark) {
-      data.strCall = "GENERAL ALERT";
-      data.strPlace = alertBody;
+      setFieldList("INFO");
+      data.msgType = MsgType.GEN_ALERT;
+      data.strSupp = alertBody;
       data.strSource = "";
       return true;
     } else return false;
