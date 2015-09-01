@@ -183,6 +183,14 @@ public class MessageBuilder {
       } else {
         score = Integer.MIN_VALUE+1;
       }
+      
+      // For the tie breaker, favor combinations in which the
+      // last segment is significantly shorter than the others
+      int minLen = Integer.MAX_VALUE;
+      for (int j = 0; j<msgOrder.length-1; j++) {
+        minLen = Math.min(minLen, msgBodyList[msgOrder[j]].length());
+      }
+      if (msgBodyList[msgOrder[msgOrder.length-1]].length() < minLen-5) score++;
     }
     
     public int[] getMsgOrder() {

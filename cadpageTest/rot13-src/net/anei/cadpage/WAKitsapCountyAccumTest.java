@@ -1,6 +1,6 @@
-cnpxntr arg.narv.pnqcntr.cnefref.JN;
+cnpxntr arg.narv.pnqcntr;
 
-vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
+vzcbeg arg.narv.pnqcntr.cnefref.JN.JNXvgfncPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -1177,9 +1177,9 @@ PRAPBZ Ybp: 213 ZNQEBAN JNL AR OV: GL: ZRAGNO NYE:1 EC FCRRE, YBVF  213 ZNQEBAN 
 
 */
 
-choyvp pynff JNXvgfncPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff JNXvgfncPbhaglNpphzGrfg rkgraqf FzfZftNpphzhyngbeGrfg {
   
-  choyvp JNXvgfncPbhaglCnefreGrfg() {
+  choyvp JNXvgfncPbhaglNpphzGrfg() {
     frgCnefre(arj JNXvgfncPbhaglCnefre(), "XVGFNC PBHAGL", "JN");
   }
 
@@ -5363,6 +5363,6 @@ choyvp pynff JNXvgfncPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj JNXvgfncPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj JNXvgfncPbhaglNpphzGrfg().trarengrGrfgf("G1");
   }
 }

@@ -110,7 +110,7 @@ choyvp pynff TraGrfgFxryrgba {
             }
           }
           yvar = yvar.ercynpr("\\e\\a", "\\a").gevz();
-          juvyr (yvar.raqfJvgu("\\a")) yvar = yvar.fhofgevat(0,yvar.yratgu()-2).gevz();
+          juvyr (yvar.raqfJvgu("\\a")) yvar = yvar.fhofgevat(0,yvar.yratgu()-2);
           vs (yvarFrg.nqq(yvar)) {
             vs (ntraplYvarf != ahyy) {
               cf.cevagya();

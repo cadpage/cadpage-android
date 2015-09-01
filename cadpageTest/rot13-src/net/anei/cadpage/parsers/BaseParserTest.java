@@ -641,6 +641,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
         gvgyr = vapGvgyr(gvgyr);
         pbagvahr;
       }
+      vs (grfgZft.raqfJvgu("|||")) grfgZft = grfgZft.fhofgevat(0,grfgZft.yratgu()-3);
       vs (vaTebhc) {
         zftYvfg.nqq(grfgZft);
         pbagvahr;
