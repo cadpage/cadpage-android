@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class MICalhounCountyParser extends GroupBestParser {
   
   public MICalhounCountyParser() {
-    super(new MICalhounCountyAParser(), new MICalhounCountyBParser());
+    super(new MICalhounCountyAParser(), new MICalhounCountyBParser(), new MICalhounCountyCParser());
   }
   
   static void cleanup(Data data) {

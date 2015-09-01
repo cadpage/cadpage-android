@@ -9,7 +9,7 @@ public class COLarimerCountyParser extends GroupBestParser {
   
 
   public COLarimerCountyParser() {
-    super(new COLarimerCountyAParser(), new COLarimerCountyBParser());
+    super(new COLarimerCountyAParser(), new COLarimerCountyBParser(), new COLarimerCountyCParser());
    }
 }
   

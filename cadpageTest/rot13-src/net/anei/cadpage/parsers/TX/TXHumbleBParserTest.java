@@ -5,6 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
+Uhzoyr, GK (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pvgl bs Uhzoyr SQ

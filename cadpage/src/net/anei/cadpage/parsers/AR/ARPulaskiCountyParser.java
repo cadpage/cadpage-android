@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 /**
- * Pulaski County, AL
+ * Pulaski County, AR
  */
 
 public class ARPulaskiCountyParser extends DispatchSouthernParser {

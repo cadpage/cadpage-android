@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /*
-Humble, TX
+Humble, TX (B)
 */
 
 public class TXHumbleBParser extends DispatchOSSIParser {
