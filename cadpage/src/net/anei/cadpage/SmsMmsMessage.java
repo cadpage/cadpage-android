@@ -358,29 +358,7 @@ public class SmsMmsMessage implements Serializable {
     this.infoURL = infoURL;
     this.ackNeeded = ackReq.contains("A");
     
-    // If specific location was requested with a Active911 page message, convert it
-    // to normal Cadpage parser codes.  We need to do this ASAP before anything
-    // tries to reference any of the split message options
-    if (reqLocation != null) {
-      try {
-        if (reqLocation.contains("/")) {
-          String[] results = VendorManager.instance().convertLocationCode(vendorCode, reqLocation);
-          effReqLocation = results[0];
-          missingParsers = results[1];
-        } else {
-          effReqLocation = reqLocation;
-        }
-        if (vendorCode != null && vendorCode.equals("Active911")) {
-          MsgParser parser = ManageParsers.getInstance().getParser(effReqLocation);
-          if (!ManagePreferences.overrideActive911SplitOptions() && parser != null) {
-            splitMsgOptions = parser.getActive911SplitMsgOptions();
-          }
-        }
-      } catch (RuntimeException ex) {
-        ex.printStackTrace(System.out);
-        Log.e(ex);
-      }
-    }
+    calcSplitMsgOptions();
     
     
     this.parseInfo = bldParseInfo();
@@ -406,6 +384,38 @@ public class SmsMmsMessage implements Serializable {
   private static final Pattern NUMBER = Pattern.compile("\\d+");
   private static final Pattern SQ_BRACKETS = Pattern.compile("\\[(.*)\\]");
   
+
+  /**
+   * Recalculate transient members from the non-transient C2DM requested location
+   * This needs to be done as soon as the object is created before we try to do
+   * anything that might require the parser code or split message options
+   */
+  private void calcSplitMsgOptions() {
+    
+    // If specific location was requested with a Active911 page message, convert it
+    // to normal Cadpage parser codes.  We need to do this ASAP before anything
+    // tries to reference any of the split message options
+    if (reqLocation != null) {
+      try {
+        if (reqLocation.contains("/")) {
+          String[] results = VendorManager.instance().convertLocationCode(vendorCode, reqLocation);
+          effReqLocation = results[0];
+          missingParsers = results[1];
+        } else {
+          effReqLocation = reqLocation;
+        }
+        if (vendorCode != null && vendorCode.equals("Active911")) {
+          MsgParser parser = ManageParsers.getInstance().getParser(effReqLocation);
+          if (!ManagePreferences.overrideActive911SplitOptions() && parser != null) {
+            splitMsgOptions = parser.getActive911SplitMsgOptions();
+          }
+        }
+      } catch (RuntimeException ex) {
+        ex.printStackTrace(System.out);
+        Log.e(ex);
+      }
+    }
+  }
 
   /**
    * Construct dummy SmsMmsMessage test notifications 
@@ -645,7 +655,10 @@ public class SmsMmsMessage implements Serializable {
     // wrong parser to fail.  We don't do that anymore, but we do want to fix calls
     // that were parsed with that version.
     if (reqLocation != null && reqLocation.startsWith("Cadpage")) location = reqLocation;
-    
+
+    // Recalculate transient member information
+    calcSplitMsgOptions();
+
     // Some special logic if the previous location was General
     // And the current location code preference is not general
     // And this message text is a valid message for this location code
