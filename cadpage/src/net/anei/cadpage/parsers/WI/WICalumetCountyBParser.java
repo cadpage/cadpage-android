@@ -11,7 +11,7 @@ public class WICalumetCountyBParser extends FieldProgramParser {
   
   public WICalumetCountyBParser() {
     super("CALUMET COUNTY", "WI",
-          "ADDR PLACE CITY CALL CALL+? ( NONE ID! | ID EMPTY NONE! ) TIME");
+          "ADDR PLACE APT? CITY CALL CALL+? ( NONE ID! TIME | ID! ( EMPTY NONE! TIME | ) ) INFO+");
   }
   
   @Override
@@ -28,11 +28,13 @@ public class WICalumetCountyBParser extends FieldProgramParser {
   }
   
   @Override
-  public String adjustMapAddress(String sAddress) {
-    if (W_DIGIT_PTN.matcher(sAddress).find()) sAddress = sAddress.substring(1);
-    return sAddress;
+  public Field getField(String name) {
+    if (name.equals("APT")) return new AptField("\\d{1,4}[A-Z]?|[A-Z]", true);
+    if (name.equals("NONE")) return new SkipField("<None>", true);
+    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
+    return super.getField(name);
   }
-  private static final Pattern W_DIGIT_PTN = Pattern.compile("^W\\d+ ");
   
   private class MyIdField extends IdField {
     @Override
@@ -55,12 +57,11 @@ public class WICalumetCountyBParser extends FieldProgramParser {
       if (!checkParse(field, data)) abort();
     }
   }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("NONE")) return new SkipField("<None>", true);
-    if (name.equals("ID")) return new MyIdField();
-    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
-    return super.getField(name);
-  }
+//  
+//  @Override
+//  public String adjustMapAddress(String sAddress) {
+//    if (W_DIGIT_PTN.matcher(sAddress).find()) sAddress = sAddress.substring(1);
+//    return sAddress;
+//  }
+//  private static final Pattern W_DIGIT_PTN = Pattern.compile("^W\\d+ ");
 }
