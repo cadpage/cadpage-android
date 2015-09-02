@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">08312015</string>
-  <string name="release_version">v1.8.57</string>
+  <string name="release_date">09022015</string>
+  <string name="release_version">v1.8.58</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+V1.8.58\n
+Location Fixes:\n
+Calumet County, WI\n
+\n
+General Fixes:\n
+Force close in new split message handling logic\n
+\n
 v1.8.57\n
 Added option to handle split message alerts when the message order
 is not consistent.\n
@@ -77,14 +84,7 @@ Fredericksburg County, VA\n
 Calumet County, WI (B)\n
 \n
 General Fixes:\n
-Cadpage sometimes crashes when launching Active911 app\n
-\n      
-v1.8.53\n
-Location Fixes:\n
-Madison County, NY\n
-Charleston County, SC\n
-Keller, TX\n
-Franklin County, VA
+Cadpage sometimes crashes when launching Active911 app
   </string>
 </resources>
   
