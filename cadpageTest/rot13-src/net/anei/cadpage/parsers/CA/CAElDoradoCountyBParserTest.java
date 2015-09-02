@@ -2,8 +2,6 @@ cnpxntr arg.narv.pnqcntr.cnefref.PN;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
-vzcbeg bet.whavg.Grfg;
-
 /*
 
 Pbagnpg: Npgvir911
