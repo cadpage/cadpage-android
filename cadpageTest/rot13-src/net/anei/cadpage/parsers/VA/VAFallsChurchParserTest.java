@@ -34,10 +34,8 @@ Fraqre: <ejnyyre@neyvatgbain.hf>
 ([SPISQ RNF] Sver Vapvqrag) Ybp: 3806 6gu fg FObk:10115Pu: 1S Pbzznaq Punaary unf orra rfgnoyvfurq sbe O111.. RQ/JQ       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=27P020O259PP2308S4281452Q020005P90Q639N059S639NR     Cyrnfr pyvpx gb pbasvez\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "SPISQ RNF" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
 ([SPISQ RNF] Sver Vapvqrag) Ybp: 3806 6gu fg FObk:10115Pu:1P/// R101Z Ercbegvat Sver va gur Jnyyf.. YIY 1 EVG Erdhrfgrq. RQ/JQ       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=14OP5N22QNR7225SO56RN92Q3RR4123297P3489NQS6R9607     Cyrnfr pyvpx gb pbasvez\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "SPISQ RNF" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
 ([SPISQ RNF] Svany: Sver Vapvqrag) Ybp: 929 J Oebnq Fg, SPObk: 14605 Pu: 1PSver unf orra ercbegrq nf bhg. Havgf ner tbvat va freivpr nf ernql. YF/JQ      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=8PNQN2926501RNS87O7766SSQN0P04P721N6502620343RPS     Cyrnfr pyvpx gb pbasvez\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "SPISQ RNF" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
-(Er: [SPISQ RNF] Sver Vapvqrag) R/G106 erznvavat ba fprar, nyy bgure havgf tbvat va freivpr abj.\a\aBa Zba, Why 27, 2015 ng 8:01 NZ, Neyvatgba Rzcyblrr Nyreg <\apbas-1251420171@rireoevqtr.arg> jebgr:\a\a> Cyrnfr pyvpx urer gb npxabjyrqtr erprvcg bs guvf zrffntr\a> <uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=8891O2317QOP8P3OP214Q82R858P18554Q0S3SS63RQNS3P7>\a>\a>\a> *Guvf vf n zrffntr sebz gurNeyvatgba Rzcyblrr Nyreg Flfgrz (RNF)*\a>\a>\a> Ybp: 929 J Oebnq Fg, SP\a> Obk: 14605\a> Pu: 1P\a> Havgf ba fprar pbasvezvat n sver va n tnentr oruvaq n ohfvarff. YF/JQ\a>\a>\a>\a>\a>\a>  Vs lbh unir nal dhrfgvbaf nobhg guvf zrffntr, cyrnfr rznvy\a> RzcyblrrNyreg@neyvatgbain.hf.\a>\a>  --\a> Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf\a> "SPISQ RNF" tebhc.\a> Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na\a> rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\a> Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.\a>\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "SPISQ RNF" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
 ([SPISQ RNF] Sver Vapvqrag) Ybp: 929 J Oebnq Fg, SPObk: 14605 Pu: 1PHavgf ba fprar pbasvezvat n sver va n tnentr oruvaq n ohfvarff. YF/JQ       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=8891O2317QOP8P3OP214Q82R858P18554Q0S3SS63RQNS3P7     Cyrnfr pyvpx gb pbasvez\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "SPISQ RNF" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
 ([SPISQ RNF] Sver Vapvqrag - Svany Hcqngr) Ybp:2700 Oyx Jnfuvatgba OyObk: 10405Pu:1p, Sver vf xabpxrq qbja havgf ner orvat eryrnfrq jvgu svefg qhr havgf erznvavat ba gur fprar. PPF/JQ       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=Q4RQR23RNS8NP42P4Q6098627221P925OSS0QP8O82SSRQ40     Cyrnfr pyvpx gb pbasvez\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "SPISQ RNF" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
-(Er: [SPISQ RNF] Sver Vapvqrag) Fpubzohet unf YN106. Urael naq Zrruna ba fprar. Ab nqqvgvbany fgnss\aarrqrq.\aBa Why 25, 2015 7:08 CZ, "Neyvatgba Rzcyblrr Nyreg" <\apbas-1228789291@rireoevqtr.arg> jebgr:\a\a> Cyrnfr pyvpx urer gb npxabjyrqtr erprvcg bs guvf zrffntr\a> <uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=9N240PR749276NNOQS735S8P79NP48OO202P10RPQ281232S>\a>\a>\a> *Guvf vf n zrffntr sebz gurNeyvatgba Rzcyblrr Nyreg Flfgrz (RNF)*\a>\a>\a> Ybp:2700 Oyx Jnfuvatgba Oy\a> Obk: 10405\a> Pu:1p, jbexvat ubhfr sver havgf neevirq jvgu urnil sver ba gur cbepu, 2aq\a> nynez unf orra erdhrfgrq. PPF/JQ\a>\a>\a>\a>\a>  Vs lbh unir nal dhrfgvbaf nobhg guvf zrffntr, cyrnfr rznvy\a> RzcyblrrNyreg@neyvatgbain.hf.\a>\a> --\a> Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf\a> "SPISQ RNF" tebhc.\a> Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na\a> rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\a> Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.\a>\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "SPISQ RNF" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
 ([SPISQ RNF] Sver Vapvqrag) Ybp:2700 Oyx Jnfuvatgba OyObk: 10405Pu:1p, jbexvat ubhfr sver havgf neevirq jvgu urnil sver ba gur cbepu, 2aq nynez unf orra erdhrfgrq. PPF/JQ       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=9N240PR749276NNOQS735S8P79NP48OO202P10RPQ281232S     Cyrnfr pyvpx gb pbasvez\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "SPISQ RNF" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
 ([SPISQ RNF] Rznvy Pbcl Zrffntr Sebz Uvcyvax) QVFCNGPU:FS, 10405, 2778 JNFUVATGBA OY, NP, Havgf:R109Z, R108Z, R105Z, G106, YN106, Z101, ON215, O212\aFrag ol nqzva  Fng Why 25 19:07:47 2015\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "SPISQ RNF" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
 ([SPISQ RNF] Sver Vapvqrag) Ybp:2600 Pelfgny Qe #608Obk:10505Pu: R105Z ba fprar pbasvezvat sver ba onypbal.  (Pnzr vf nf n pbzchgre ba sver)  RQ/JQ       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=748797S5SS9Q0S99S8R5680POS3396RS4865NP7676Q0971P     Cyrnfr pyvpx gb pbasvez\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "SPISQ RNF" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
@@ -59,13 +57,6 @@ Fraqre: <ejnyyre@neyvatgbain.hf>
 ([SPISQ RNF] Sver Vapvqrag - Svany Hcqngr) Ybp:TJ Cnexjnl ng Frpbaq BireybbxObk:11041Pu: 1P, cngvrag unf orra erzbirq naq genafsreerq ol obng gb gur zrqvp havg. PPF/JQ      uggcf://qra2.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=0461163872S7914P1Q3667R87577041Q9OO0RNQ87040N2PR     Cyrnfr pyvpx gb pbasvez\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "SPISQ RNF" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
 ([SPISQ RNF] Sver Vapvqrag - Hcqngr #1) Ybp:TJ Cnexjnl ng Frpbaq BireybbxObk:11041Pu: 1P, pbzznaq punaary unf orra rfgnoyvfurq 1S       uggcf://qra2.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=8288N78QS7O272S6N4263NP885N5R7066N9Q200QO097N6O6     Cyrnfr pyvpx gb pbasvez\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "SPISQ RNF" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
 ([SPISQ RNF] Sver Vapvqrag) Ybp:TJ Cnexjnl ng Frpbaq BireybbxObk:11041Pu: 1P, fhowrpg jvgu vawhevrf sebz n snyy 200 srrg orybj gur bireybbx ng gur fuber yvar, grpuavpny erfphr erfcbafr raebhgr, HF Cnex uryvpbcgre ba fprar naq nvecbeg obng raebhgr gb nffvfg. PPF/JQ       uggcf://qra2.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=P4SS6N6766R145P595N5Q6N9S9NRP5OS429SS25O972Q4062     Cyrnfr pyvpx gb pbasvez\a\a-- \aLbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf "SPISQ RNF" tebhc.\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\aSbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.
-
-Ybgf bs bqqvgvrf, ohg abguvat gbb frevbhf.
-Guvf n qvfpynvzre naq na vasb HEY gung arrq gb or fgevccrq bss gur raq bs gur zrffntr
-Naq n fzneg cnggrea frnepu/ercynpr gb rafher gung gurer vf n oynax va sebag bs nyy xrljbeqf.
-Rkgenpg pnyy qrfpevcgvba sebz fhowrpg.
-Gurer ner ng yrnfg gjb qvssrerag sbezngf, cbffvoyl zber.  Abguvat lbh pna abg unaqyr
-jvgu pbaqvgvba oenapurf.
 
 */
 
@@ -115,11 +106,12 @@ choyvp pynff INSnyyfPuhepuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
         "NQQE:513 J OEBNQ FG",
+        "PVGL:SNYYF PUHEPU",
         "OBK:14602",
         "HAVG:YN106",
         "QNGR:08/28/2015",
         "GVZR:20:39:20",
-        "PNYY:Rznvy Pbcl Zrffntr Sebz Uvcyvax");
+        "PNYY:NYNEZ");
 
     qbGrfg("G4",
         "([SPISQ RNF] Sver Vapvqrag - Svany Hcqngr) Ybp:928 F Ohpunana FgObk:10117Pu:1P, ohvyqvat unf orra iragvyngrq, 3 biraf unir orra gnttrq ol Jnfuvatgba Tnf, mreb pneoba zbabkvqr ernqvatf, ohvyqvat vf orvat ghearq bire gb Jnfuvatgba Tnf naq ohvyqvat ercerfragngvir sbe shegure vairfgvtngvba, pbzznaq unf orra grezvangrq. PPF/JQ      uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=8382R0551RO6S706Q4Q5S9N7N6R0PP5387S8P1Q87N924RO8     Cyrnfr pyvpx gb pbasvez\a\a" +
@@ -360,54 +352,12 @@ choyvp pynff INSnyyfPuhepuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
         "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
-        "NQQE:929 J Oebnq Fg, SP",
-        // ABG SBHAQ
+        "NQQE:929 J Oebnq Fg",
+        "PVGL:SNYYF PUHEPU",
         "OBK:14605",
         "PU:1P",
         "VASB:Sver unf orra ercbegrq nf bhg. Havgf ner tbvat va freivpr nf ernql. YF/JQ",
         "PNYY:Svany: Sver Vapvqrag");
-
-    qbGrfg("G22",
-        "(Er: [SPISQ RNF] Sver Vapvqrag) R/G106 erznvavat ba fprar, nyy bgure havgf tbvat va freivpr abj.\a\a" +
-        "Ba Zba, Why 27, 2015 ng 8:01 NZ, Neyvatgba Rzcyblrr Nyreg <\a" +
-        "pbas-1251420171@rireoevqtr.arg> jebgr:\a\a" +
-        "> Cyrnfr pyvpx urer gb npxabjyrqtr erprvcg bs guvf zrffntr\a" +
-        "> <uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=8891O2317QOP8P3OP214Q82R858P18554Q0S3SS63RQNS3P7>\a" +
-        ">\a" +
-        ">\a" +
-        "> *Guvf vf n zrffntr sebz gurNeyvatgba Rzcyblrr Nyreg Flfgrz (RNF)*\a" +
-        ">\a" +
-        ">\a" +
-        "> Ybp: 929 J Oebnq Fg, SP\a" +
-        "> Obk: 14605\a" +
-        "> Pu: 1P\a" +
-        "> Havgf ba fprar pbasvezvat n sver va n tnentr oruvaq n ohfvarff. YF/JQ\a" +
-        ">\a" +
-        ">\a" +
-        ">\a" +
-        ">\a" +
-        ">\a" +
-        ">  Vs lbh unir nal dhrfgvbaf nobhg guvf zrffntr, cyrnfr rznvy\a" +
-        "> RzcyblrrNyreg@neyvatgbain.hf.\a" +
-        ">\a" +
-        ">  --\a" +
-        "> Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf\a" +
-        "> \"SPISQ RNF\" tebhc.\a" +
-        "> Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na\a" +
-        "> rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
-        "> Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.\a" +
-        ">\a\a" +
-        "-- \a" +
-        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"SPISQ RNF\" tebhc.\a" +
-        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
-        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
-
-        "VASB:R/G106 erznvavat ba fprar, nyy bgure havgf tbvat va freivpr abj.",
-        "NQQE:929 J Oebnq Fg, SP",
-        // ABG SBHAQ
-        "OBK:14605",
-        "PU:1P",
-        "PNYY:Sver Vapvqrag");
 
     qbGrfg("G23",
         "([SPISQ RNF] Sver Vapvqrag) Ybp: 929 J Oebnq Fg, SPObk: 14605 Pu: 1PHavgf ba fprar pbasvezvat n sver va n tnentr oruvaq n ohfvarff. YF/JQ       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=8891O2317QOP8P3OP214Q82R858P18554Q0S3SS63RQNS3P7     Cyrnfr pyvpx gb pbasvez\a\a" +
@@ -416,8 +366,8 @@ choyvp pynff INSnyyfPuhepuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
         "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
-        "NQQE:929 J Oebnq Fg, SP",
-        // ABG SBHAQ
+        "NQQE:929 J Oebnq Fg",
+        "PVGL:SNYYF PUHEPU",
         "OBK:14605",
         "PU:1P",
         "VASB:Havgf ba fprar pbasvezvat n sver va n tnentr oruvaq n ohfvarff. YF/JQ",
@@ -437,49 +387,6 @@ choyvp pynff INSnyyfPuhepuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:1p",
         "VASB:Sver vf xabpxrq qbja havgf ner orvat eryrnfrq jvgu svefg qhr havgf erznvavat ba gur fprar. PPF/JQ",
         "PNYY:Sver Vapvqrag - Svany Hcqngr");
-
-    qbGrfg("G25",
-        "(Er: [SPISQ RNF] Sver Vapvqrag) Fpubzohet unf YN106. Urael naq Zrruna ba fprar. Ab nqqvgvbany fgnss\a" +
-        "arrqrq.\a" +
-        "Ba Why 25, 2015 7:08 CZ, \"Neyvatgba Rzcyblrr Nyreg\" <\a" +
-        "pbas-1228789291@rireoevqtr.arg> jebgr:\a\a" +
-        "> Cyrnfr pyvpx urer gb npxabjyrqtr erprvcg bs guvf zrffntr\a" +
-        "> <uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=9N240PR749276NNOQS735S8P79NP48OO202P10RPQ281232S>\a" +
-        ">\a" +
-        ">\a" +
-        "> *Guvf vf n zrffntr sebz gurNeyvatgba Rzcyblrr Nyreg Flfgrz (RNF)*\a" +
-        ">\a" +
-        ">\a" +
-        "> Ybp:2700 Oyx Jnfuvatgba Oy\a" +
-        "> Obk: 10405\a" +
-        "> Pu:1p, jbexvat ubhfr sver havgf neevirq jvgu urnil sver ba gur cbepu, 2aq\a" +
-        "> nynez unf orra erdhrfgrq. PPF/JQ\a" +
-        ">\a" +
-        ">\a" +
-        ">\a" +
-        ">\a" +
-        ">  Vs lbh unir nal dhrfgvbaf nobhg guvf zrffntr, cyrnfr rznvy\a" +
-        "> RzcyblrrNyreg@neyvatgbain.hf.\a" +
-        ">\a" +
-        "> --\a" +
-        "> Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf\a" +
-        "> \"SPISQ RNF\" tebhc.\a" +
-        "> Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na\a" +
-        "> rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
-        "> Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.\a" +
-        ">\a\a" +
-        "-- \a" +
-        "Lbh erprvirq guvf zrffntr orpnhfr lbh ner fhofpevorq gb gur Tbbtyr Tebhcf \"SPISQ RNF\" tebhc.\a" +
-        "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
-        "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
-
-        "VASB:jbexvat ubhfr sver havgf neevirq jvgu urnil sver ba gur cbepu, 2aq/Fpubzohet unf YN106. Urael naq Zrruna ba fprar. Ab nqqvgvbany fgnss / arrqrq.",
-        "NQQE:2700 Oyx Jnfuvatgba Oy",
-        "ZNQQE:2700  Jnfuvatgba Oy",
-        // ABG SBHAQ
-        "OBK:10405",
-        "PU:1p",
-        "PNYY:Sver Vapvqrag");
 
     qbGrfg("G26",
         "([SPISQ RNF] Sver Vapvqrag) Ybp:2700 Oyx Jnfuvatgba OyObk: 10405Pu:1p, jbexvat ubhfr sver havgf neevirq jvgu urnil sver ba gur cbepu, 2aq nynez unf orra erdhrfgrq. PPF/JQ       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=9N240PR749276NNOQS735S8P79NP48OO202P10RPQ281232S     Cyrnfr pyvpx gb pbasvez\a\a" +
@@ -505,12 +412,13 @@ choyvp pynff INSnyyfPuhepuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
         "NQQE:2778 JNFUVATGBA OY",
+        "PVGL:NEYVATGBA PBHAGL",
         // ABG SBHAQ
         "OBK:10405",
         "HAVG:R109Z, R108Z, R105Z, G106, YN106, Z101, ON215, O212",
         "QNGR:07/25/2015",
         "GVZR:19:07:47",
-        "PNYY:Rznvy Pbcl Zrffntr Sebz Uvcyvax");
+        "PNYY:FS");
 
     qbGrfg("G28",
         "([SPISQ RNF] Sver Vapvqrag) Ybp:2600 Pelfgny Qe #608Obk:10505Pu: R105Z ba fprar pbasvezvat sver ba onypbal.  (Pnzr vf nf n pbzchgre ba sver)  RQ/JQ       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=748797S5SS9Q0S99S8R5680POS3396RS4865NP7676Q0971P     Cyrnfr pyvpx gb pbasvez\a\a" +
@@ -590,11 +498,12 @@ choyvp pynff INSnyyfPuhepuCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "NQQE:7124 YRRFOHET CX",
         "ZNQQE:7124 YRRFOHET CVXR",
+        "PVGL:SNYYF PUHEPU",
         "OBK:14605",
         "HAVG:R106O, N102, YN106",
         "QNGR:07/04/2015",
         "GVZR:17:43:10",
-        "PNYY:Rznvy Pbcl Zrffntr Sebz Uvcyvax");
+        "PNYY:FCVAP");
 
     qbGrfg("G34",
         "([SPISQ RNF] Sver Vapvqrag- Svany Hcqngr) Ybp: 1310 A Pbhegubhfr EqObk: 11003Pu: 1SGlcr: 1P naq 1S grezvangrq.  Ubyqvat jvgu GJ104, G105 naq R110Z.  RQ/JQ        uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=Q363413N99R6QO832P13839QQ247589Q1S78R945998SQ68S     Cyrnfr pyvpx gb pbasvez\a\a" +
@@ -657,11 +566,12 @@ choyvp pynff INSnyyfPuhepuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
         "NQQE:NEYVATGBA OY & F ZBAGNTHR FG",
+        "PVGL:NEYVATGBA PBHAGL",
         "OBK:10212",
         "HAVG:YN106",
         "QNGR:06/27/2015",
         "GVZR:03:04:55",
-        "PNYY:Rznvy Pbcl Zrffntr Sebz Uvcyvax");
+        "PNYY:CF");
 
     qbGrfg("G39",
         "([SPISQ RNF] Sver Vapvqrag) Ybp:1100 F Unlrf Fg, Cragntba Pvgl ZnyyObk:10507Pu:1P, cebqhpg unf orra pbyyrpgrq naq njnvgvat pbagenpgbe sbe pyrna hc, pbzznaq grezvangrq. PPF/JQ       uggcf://jjj.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=N5P5Q8367P85345182Q3ROOS62SQ4105O1RR337N0899307O     Cyrnfr pyvpx gb pbasvez\a\a" +
@@ -670,7 +580,8 @@ choyvp pynff INSnyyfPuhepuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
         "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
-        "NQQE:1100 F Unlrf Fg, Cragntba Pvgl Znyy",
+        "NQQE:1100 F Unlrf Fg",
+        "CYNPR:Cragntba Pvgl Znyy",
         "OBK:10507",
         "PU:1P",
         "VASB:cebqhpg unf orra pbyyrpgrq naq njnvgvat pbagenpgbe sbe pyrna hc, pbzznaq grezvangrq. PPF/JQ",
@@ -683,7 +594,8 @@ choyvp pynff INSnyyfPuhepuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Gb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb spisqrnf+hafhofpevor@tbbtyrtebhcf.pbz.\a" +
         "Sbe zber bcgvbaf, ivfvg uggcf://tebhcf.tbbtyr.pbz/q/bcgbhg.",
 
-        "NQQE:1100 F Unlrf Fg, Cragntba Pvgl Znyy",
+        "NQQE:1100 F Unlrf Fg",
+        "CYNPR:Cragntba Pvgl Znyy",
         "OBK:10507",
         "PU:1P",
         "VASB:pbzznaq unf orra rfgnoyvfurq sbe 10 tnyybaf bs qvrfry shry fcvyyrq va trarengbe ebbz. PPF/JQ",
@@ -753,7 +665,7 @@ choyvp pynff INSnyyfPuhepuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:Frpbaq Bireybbx",
         "OBK:11041",
         "PU:1P",
-        "VASB:pbzznaq punaary unf orra rfgnoyvfurq 1S       uggcf://qra2.rireoevqtr.arg/aaf/RznvyErfcbafr.qb?PCGU_VQ=8288N78QS7O272S6N4263NP885N5R7066N9Q200QO097N6O6     Cyrnfr pyvpx gb pbasvez",
+        "VASB:pbzznaq punaary unf orra rfgnoyvfurq 1S",
         "PNYY:Sver Vapvqrag - Hcqngr #1");
 
     qbGrfg("G46",

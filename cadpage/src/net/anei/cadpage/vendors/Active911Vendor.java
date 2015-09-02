@@ -981,6 +981,7 @@ class Active911Vendor extends Vendor {
       "US/VA/Alexandria",                 "VAAlexandria",
       "US/VA/AppomattoxCounty",           "VAAppomattoxCounty",
       "US/VA/Arcatus",                    "VALoudounCountyB",
+      "US/VA/ArlingtonEmployeeAlerts",    "VAFallsChurch",
       "US/VA/AugustaCounty",              "VAAugustaCounty",
       "US/VA/BrunswickCounty",            "VABrunswickCounty",
       "US/VA/CityofFredericksburg",       "VAFredericksburg",
