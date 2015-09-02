@@ -135,7 +135,7 @@ choyvp pynff ZVEbffpbzzbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:SLV: ;CREFBANY VAWHEL NPPVQRAG;203 AO127/203;YLBA;FVATYR IRU UVG ORNE, ORNE VF QRNQ  [08/20/15 07:14:02 PYF] AB VAWHEVRF  [08/20/15 07:14:26 PYF] FZNYY FHI  [08/20/15 07:15:27 PYF] 8 ZBAGUF CERT,  UHEG URE UNAQ NAQ JNAGF GB OR PUR",
         "PNYY:CREFBANY VAWHEL NPPVQRAG",
         "NQQE:203 AO127 & 203",
-        "ZNQQE:203 AO127",
+        "ZNQQE:203 AO127", //qbrf abg znc
         "PVGL:YLBA GJC",
         "VASB:FVATYR IRU UVG ORNE, ORNE VF QRNQ / AB VAWHEVRF / FZNYY FHI / 8 ZBAGUF CERT,  UHEG URE UNAQ NAQ JNAGF GB OR PUR",
         "QNGR:08/20/15",
@@ -247,7 +247,7 @@ choyvp pynff ZVEbffpbzzbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:Hcqngr: ;QVNORGVP;204 FO127/205;YLBA;CQ WHFG CHYYRQ HC ORUVAQ PNYYRE VF GLCR BAR QVNORGVP, TBVAT VAGB XRGBNPVQBFVF  [08/05/15 06:28:28 NZNFE] [CEBDN] *** Pnyy Nobegrq ***   1. Pnyyre uhat hc  [08/05/15 06:29:04 NZNFE]",
         "PNYY:QVNORGVP",
         "NQQE:204 FO127 & 205",
-        "ZNQQE:204 FO127",
+        "ZNQQE:204 FO127", //qbrf abg znc
         "PVGL:YLBA GJC",
         "VASB:CQ WHFG CHYYRQ HC ORUVAQ PNYYRE VF GLCR BAR QVNORGVP, TBVAT VAGB XRGBNPVQBFVF / *** Pnyy Nobegrq ***   1. Pnyyre uhat hc",
         "QNGR:08/05/15",
@@ -257,7 +257,7 @@ choyvp pynff ZVEbffpbzzbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:SLV: ;QVNORGVP;205 FO127/206;YLBA;CQ WHFG CHYYRQ HC ORUVAQ PNYYRE VF GLCR BAR QVNORGVP, TBVAT VAGB XRGBNPVQBFVF  [08/05/15 06:28:28 NZNFE] [CEBDN] *** Pnyy Nobegrq ***   1. Pnyyre uhat hc  [08/05/15 06:29:04 NZNFE]",
         "PNYY:QVNORGVP",
         "NQQE:205 FO127 & 206",
-        "ZNQQE:205 FO127",
+        "ZNQQE:205 FO127", //qbrf abg znc
         "PVGL:YLBA GJC",
         "VASB:CQ WHFG CHYYRQ HC ORUVAQ PNYYRE VF GLCR BAR QVNORGVP, TBVAT VAGB XRGBNPVQBFVF / *** Pnyy Nobegrq ***   1. Pnyyre uhat hc",
         "QNGR:08/05/15",

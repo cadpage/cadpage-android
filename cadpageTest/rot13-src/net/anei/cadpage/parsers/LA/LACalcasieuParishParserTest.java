@@ -35,9 +35,9 @@ Fraqre: <r911cntr@pvglbsyp.hf>
 (R911400) 911 FREIVPR PNYY/911 UBQTRF FG/PNYPNFVRH R-911/RFA12 YNXR PUNEYRF/CHWB FG/XVEO\aL FG/grfg bs Ivagba SQ Npgvir 911 rznvy nqqerffrf./
 
  */
-choyvp pynff YNYnxrPuneyrfCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff YNPnypnfvrhCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp YNYnxrPuneyrfCnevfuCnefreGrfg() {
+  choyvp YNPnypnfvrhCnevfuCnefreGrfg() {
     frgCnefre(arj YNPnypnfvrhCnevfuCnefre(), "PNYPNFVRH CNEVFU", "YN");
   }
 
@@ -126,7 +126,7 @@ choyvp pynff YNYnxrPuneyrfCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:UNMNEQBHF ZNG FCVYY ERYRNFR",
         "NQQE:7 V-10 JO .5",
-        "ZNQQE:7 V 10 .5",
+        "ZNQQE:7 V 10 .5", //ab
         "CYNPR:V-10 JO RKVG7",
         "HAVG:RFA1",
         "PVGL:IVAGBA",
@@ -157,7 +157,7 @@ choyvp pynff YNYnxrPuneyrfCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G11",
         "(R911400) OERNGUVAT CEBOYRZF/1421 RQQL FG N/RFA1 IVAGBA/YBERR FG/TBBQJVA FG/67lbz qvss o\aernguvat/pbafpvbhf/",
         "PNYY:OERNGUVAT CEBOYRZF",
-        "NQQE:1421 RQQL FG N",
+        "NQQE:1421 RQQL FG N", //zncf. ncg?
         "HAVG:RFA1",
         "PVGL:IVAGBA",
         "K:YBERR FG & TBBQJVA FG",
@@ -275,6 +275,6 @@ choyvp pynff YNYnxrPuneyrfCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj YNYnxrPuneyrfCnevfuCnefreGrfg().trarengrGrfgf("G1");
+    arj YNPnypnfvrhCnevfuCnefreGrfg().trarengrGrfgf("G1");
   }
 }

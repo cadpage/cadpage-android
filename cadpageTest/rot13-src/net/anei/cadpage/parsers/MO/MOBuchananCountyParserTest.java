@@ -155,7 +155,7 @@ Fraqre: <cqqvfgevohgvba@pv.fg-wbfrcu.zb.hf>
         "((CNTR)) PNYY:   S Sver Iruvpyr CYNPR:   1517 PUNEYRF FG  /  NCG # YNGVGHQR:   39.7651295284757 YBATVGHQR:   -94.842184580614 VQ:   2015-00005560 ERPRVIRQ QNGR/GVZR: 08/06/15 16:00 QVFCNGPU GVZR:   16:00 ZNC:   R1P HAVG:   G7  PBZZBA ANZR:   PYBFRFG VAGREFRPGVBA:   F 15GU FG / F 16GU FG FW VASB:    R911 Vasb - Pynff bs Freivpr: JEYF Fcrpvny Erfcbafr Vasb: PRYYHYNE PNYY.  CYRNFR IREVSL.  PRYYHYNE PNYY.  CYRNFR IREVSL.  PRYYHY Hapregnvagl:  Pbasvqrapr:",
         "PNYY:S Sver Iruvpyr",
         "NQQE:1517 PUNEYRF FG",
-        "TCF:+39.765130,-94.842185",
+        "TCF:+39.765130,-94.842185", //unys n oybpx njnl
         "VQ:2015-00005560",
         "GVZR:16:00",
         "ZNC:R1P",
@@ -180,7 +180,7 @@ Fraqre: <cqqvfgevohgvba@pv.fg-wbfrcu.zb.hf>
         "((CNTR)) PNYY:   S RZF CYNPR:   6513 XVAT UVYY NIR  /  NCG # YNGVGHQR:   39.7078871240001 YBATVGHQR:   -94.861676906 VQ:   2015-00005558 ERPRVIRQ QNGR/GVZR: 08/06/15 14:55 QVFCNGPU GVZR:   14:56 ZNC:   E10N HAVG:   E10  PBZZBA ANZR:   PYBFRFG VAGREFRPGVBA:   SHYXREFBA FG / ZBEEVF FG FW VASB:    qvnorgvp nggnpx  R911 Vasb - Pynff bs Freivpr: JEYF Fcrpvny Erfcbafr Vasb: PRYYHYNE PNYY.  CYRNFR IREVSL.  PRYYHYNE PNYY.  CYRNFR IREVSL.  PRYYHY Hapregnvagl:  Pbasvqrapr:",
         "PNYY:S RZF",
         "NQQE:6513 XVAT UVYY NIR",
-        "TCF:+39.707887,-94.861677",
+        "TCF:+39.707887,-94.861677", 
         "VQ:2015-00005558",
         "GVZR:14:56",
         "ZNC:E10N",
