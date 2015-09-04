@@ -99,10 +99,10 @@ PNQ:SLV: ;FVPX CREFBA;[CEBDN] Qvfcngpu Pbqr: 26N01 (Ab cevbevgl flzcgbzf (pbzcyn
 
 */
 
-choyvp pynff ZVEbffpbzzbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff ZVEbfpbzzbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp ZVEbffpbzzbaPbhaglCnefreGrfg() {
-	  frgCnefre(arj ZVEbffpbzzbaPbhaglCnefre(), "EBFFPBZZBA PBHAGL", "ZV");
+  choyvp ZVEbfpbzzbaPbhaglCnefreGrfg() {
+	  frgCnefre(arj ZVEbfpbzzbaPbhaglCnefre(), "EBFPBZZBA PBHAGL", "ZV");
   }
 
   @Grfg
@@ -766,6 +766,6 @@ choyvp pynff ZVEbffpbzzbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ZVEbffpbzzbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj ZVEbfpbzzbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
