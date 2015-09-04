@@ -424,6 +424,7 @@ class Active911Vendor extends Vendor {
       "US/KY/Louisville",                 "KYLouisville",
       "US/KY/MadisonCounty",              "KYMadisonCounty",
       "US/KY/MarshallCountyFire",         "KYMarshallCounty",
+      "US/KY/McLeanCounty",               "KYMcLeanCounty",
       "US/KY/Nexigen",                    "Cadpage2",
       "US/KY/OldhamCounty",               "KYOldhamCountyA",
       "US/KY/ScottCounty",                "KYScottCountyB",

@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.KY;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 /**
@@ -8,9 +9,23 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class KYMcLeanCountyParser extends DispatchEmergitechParser {
   
   public KYMcLeanCountyParser() {
-    super("Dispatch:", 67, CITY_LIST, "MCLEAN COUNTY", "KY");
+    super("Dispatch:", 0, CITY_LIST, "MCLEAN COUNTY", "KY");
+    setupCallList(CALL_LIST);
   }
 
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "AUTO ACCIDENT WITH INJURIES",
+      "BLOOD PRESSURE HIGH/LOW",
+      "BREATHING PROBLEMS",
+      "BURNING - CONTROLLED",
+      "CHEST PAIN",
+      "FALLS - GROUND LEVEL - OTHER",
+      "GENERAL MEDICAL",
+      "OVERDOSE",
+      "SEIZURES",
+      "TRANSFER PATIENT"
+  );
+  
   private static final String[] CITY_LIST = new String[]{
 
       "BEECH GROVE",
@@ -34,6 +49,7 @@ public class KYMcLeanCountyParser extends DispatchEmergitechParser {
       "RUMSEY",
       "SACRAMENTO",
       "SEMIWAY",
+      "UTICA",
       "WRIGHTSBURG",
       "WYMAN"
   };
