@@ -7,6 +7,8 @@ vzcbeg bet.whavg.Grfg;
 /*
 Pnzqra Pbhagl, TN
 
+Pbagnpg: Xriva Fpuevpx <xfpuevpx@lnubb.pbz>
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pnzqra Pbhagl Sver Erfphr
 Ybpngvba: Xvatfynaq, TN, Havgrq Fgngrf
