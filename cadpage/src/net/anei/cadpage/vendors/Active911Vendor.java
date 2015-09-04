@@ -353,6 +353,7 @@ class Active911Vendor extends Vendor {
       "US/IL/DupageCounty",               "ILDuPageCountyA",
       "US/IL/FairviewHeights",            "ILStClairCountyB",
       "US/IL/GlenCarbon",                 "ILMadisonCounty",
+      "US/IL/HancockCounty",              "ILHancockCounty",
       "US/IL/KaneCounty",                 "ILKaneCounty",
       "US/IL/LakeCounty",                 "ILLakeCounty",
       "US/IL/NWCDS",                      "ILCookCountyD",

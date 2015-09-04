@@ -440,7 +440,11 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     nffregRdhnyf(gvgyr + ":QrsPvgl", qrsPvgl, vasb.trgQrsPvgl());
     nffregRdhnyf(gvgyr + ":QrsFgngr", qrsFgngr, vasb.trgQrsFgngr());
     
-    nffregGehr(gvgyr + ":harkcrpgrq pnyy pbqr:" + vasb.trgPnyy(), purpxPnyyPbqr(vasb.trgPnyy(), cnefre));
+    nffregGehr(gvgyr + ":harkcrpgrq pnyy pbqr:" + vasb.trgPnyy(), purpxPnyyPbqr(vasb, cnefre));
+  }
+  
+  cebgrpgrq obbyrna purpxPnyyPbqr(ZftVasb vasb, ZftCnefre cnefre) {
+    erghea purpxPnyyPbqr(vasb.trgPnyy(), cnefre);
   }
   
   cebgrpgrq obbyrna purpxPnyyPbqr(Fgevat pnyy, ZftCnefre cnefre) {
@@ -724,7 +728,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     Flfgrz.bhg.cevagya(',');
     vs (arrqFcnpr) Flfgrz.bhg.cevagya();
     
-    vs (!purpxPnyyPbqr(vasb.trgPnyy(), cnefre)) {
+    vs (!purpxPnyyPbqr(vasb, cnefre)) {
       Flfgrz.bhg.cevagya("        // Harkcrpgrq pnyy pbqr:" + vasb.trgPnyy());
     }
     Fgevat oex = "";

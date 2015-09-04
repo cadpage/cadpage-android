@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE = 
-      Cnggrea.pbzcvyr("Eha# *(\\q+) */ *((?:PNYY:)?\\q\\q:\\q\\q/ ?(?:QVFC:)?\\q\\q:\\q\\q/ ?.*)");
+     Cnggrea.pbzcvyr("[ /]+((?:\\o[N-M\\q]+:[-N-M\\q]+(?: SQ|-\\q| \\q(?=,)|)\\o,?)++)[ /]*");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("0512-N/ Eha#16287/ PNYY:21:29/ QVFC:21:30/ RAE:21:36/ NGF:21:36/ PYE 02:50");
+    qbGrfg("8040 ERFPHR/NZOHYNAPR 11900, R 150 F,XABK RZF:Z-3,ISQ:JGSQ 1 LB SRZNYR JVGU N GRZC VF FRVMVAT//QVSS OERNGUVAT");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
