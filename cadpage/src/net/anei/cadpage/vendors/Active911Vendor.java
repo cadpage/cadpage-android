@@ -922,6 +922,7 @@ class Active911Vendor extends Vendor {
       "US/TX/CityofKeller",               "TXKeller",
       "US/TX/CityofMidlothian",           "TXMidlothian",
       "US/TX/CityofNavasota",             "TXNavasota",
+      "US/TX/CityofOverton",              "TXOverton",
       "US/TX/CityofPortAransas",          "TXPortAransas",
       "US/TX/Seguin",                     "TXSeguin",
       "US/TX/CityofWylie",                "TXCollinCountyA",
