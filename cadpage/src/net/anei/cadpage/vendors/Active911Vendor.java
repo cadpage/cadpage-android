@@ -941,6 +941,7 @@ class Active911Vendor extends Vendor {
       "US/TX/HumblePolice",               "TXHumbleB",
       "US/TX/HuntCounty",                 "TXHuntCounty",
       "US/TX/JohnsonCounty",              "TXJohnsonCountyB",
+      "US/MO/CityofStJoseph",             "MOBuchananCounty",
       "US/TX/Katy",                       "TXCyCreekCommCenter",
       "US/TX/KaufmanCounty",              "TXKaufmanCounty",
       "US/TX/KendallCounty",              "TXKendallCounty",
