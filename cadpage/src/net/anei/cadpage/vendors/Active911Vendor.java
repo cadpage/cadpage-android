@@ -263,6 +263,7 @@ class Active911Vendor extends Vendor {
       "US/CO/DouglasCounty",              "CODouglasCountyA",
       "US/CO/ElPasoCounty",               "COElPasoCountyA",
       "US/CO/Fountain",                   "COElPasoCountyC",
+      "US/CO/FremontCountySheriffsOffice","COFremontCounty",
       "US/CO/GarfieldCounty",             "COGarfieldCounty",
       "US/CO/GrandCounty",                "COGrandCounty",
       "US/CO/Metcom911",                  "COArapahoeCounty",
