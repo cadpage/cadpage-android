@@ -25,6 +25,11 @@ public class OHLucasCountyParser extends MsgParser {
     };
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
   private static final Pattern SPLITTER = Pattern.compile("\\[\\d\\]");
   private static final Pattern MASTER = Pattern.compile("([A-Z]{3}\\d{8}) (.*) ([A-Z]+)-((?:[A-Z ]+)?[A-Z][a-z].*) (\\d{8}|0) (\\d{8}|0)(?: (.*))?");
   

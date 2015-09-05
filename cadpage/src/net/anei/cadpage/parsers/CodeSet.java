@@ -12,7 +12,7 @@ import java.util.TreeSet;
  */
 public class CodeSet {
   
-  public static final String DELIMS = " ,;";
+  public static final String DELIMS = " ,;/";
   
   private TreeSet<String> codeSet = new TreeSet<String>(new Comparator<String>(){
     @Override

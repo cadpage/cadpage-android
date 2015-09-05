@@ -1,6 +1,10 @@
 package net.anei.cadpage.parsers.IL;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.CodeSet;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA29Parser;
 
 /**
@@ -18,6 +22,24 @@ public class ILHancockCountyParser extends DispatchA29Parser {
     return "DISPATCH@Hancock911.com";
   }
     
+  private static final Pattern CODE_CALL_PTN = Pattern.compile("(\\d+) +(.*)");
+  @Override
+  public boolean parseMsg(String body, Data data) {
+    body = body.replace('\n', '/');
+    if (!super.parseMsg(body, data)) return false;
+    Matcher match = CODE_CALL_PTN.matcher(data.strCall);
+    if (match.matches()) {
+      data.strCode = match.group(1);
+      data.strCall = match.group(2);
+    }
+    return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("CALL", "CODE CALL");
+  }
+
   private static final CodeSet CALL_LIST = new CodeSet(
       
       "5",

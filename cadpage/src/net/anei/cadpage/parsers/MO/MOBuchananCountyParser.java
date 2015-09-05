@@ -18,6 +18,11 @@ public class MOBuchananCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("(PAGE)")) return false;
     return super.parseMsg(body,  data);

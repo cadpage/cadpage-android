@@ -1344,7 +1344,7 @@ public static void addCodeTable(Properties props, String[] table) {
   * @param str2 second string
   * @return appended string
   */
- protected static String append(String str1, String connector, String str2) {
+ public static String append(String str1, String connector, String str2) {
    if (str1.length() == 0) return str2;
    if (str2.length() == 0) return str1;
    return str1 + connector + str2;

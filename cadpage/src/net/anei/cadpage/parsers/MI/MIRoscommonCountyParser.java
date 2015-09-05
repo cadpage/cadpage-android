@@ -4,10 +4,10 @@ import java.util.Properties;
 
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
-public class MIRosscommonCountyParser extends DispatchOSSIParser {
+public class MIRoscommonCountyParser extends DispatchOSSIParser {
   
-  public MIRosscommonCountyParser() {
-    super(CITY_CODES, "ROSSCOMMON COUNTY", "MI", 
+  public MIRoscommonCountyParser() {
+    super(CITY_CODES, "ROSCOMMON COUNTY", "MI", 
           "( CANCEL ADDR CITY | ( FYI | EMPTY ) CALL ADDR CITY! ) INFO+");
   }
   

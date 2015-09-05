@@ -6,17 +6,18 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class DispatchA29Parser extends SmartAddressParser {
   
   private static final Pattern MARKER = Pattern.compile("^DISPATCH:([A-Z]{2,4}:[A-Z\\d]+(?: FD| \\d)?) - (?:(\\d\\d?/\\d\\d?) (\\d\\d?:\\d\\d?) - )?");
-  private static final Pattern UNIT_INFO_PTN = Pattern.compile("[ /]+([A-Z\\d]+:[-A-Z\\d]+(?: FD| \\d)?(?:,[A-Z\\d]+:[-A-Z\\d]+(?: FD)?)*)\\b[ /]*");
+  private static final Pattern UNIT_INFO_PTN = Pattern.compile("[ /]+((?:\\b[A-Z\\d]+:[-A-Z\\d]+(?: FD|-\\d| \\d(?=,)|)\\b,?)++)[ /]*");
   private static final Pattern HOUSE_NUMBER_PTN = Pattern.compile("(.*?)(?<!\\b(?:RT|US|HWY))[ /](\\d+) *([NSEW]|BLK|BLOCK|), +(.*)");
   private static final Pattern MULT_SLASH_PTN = Pattern.compile("//+");
   private static final Pattern DIR_OF_PTN = Pattern.compile("[/ ]+((?:N|S|E|W|NO|SO|EA|WE|NORTH|SOUTH|EAST|WEST) OF)[/ ]+");
-  private static final Pattern CALL_ADDR_DELIM = Pattern.compile("/(?! *(?:AMBULANCE|MEDICAL|MISDIAL|RESCUE))");
+  private static final Pattern CALL_ADDR_DELIM = Pattern.compile("/(?! *(?:AMBULANCE|MEDICAL|MISDIAL|RESCUE|SEIZURES))");
 
   public DispatchA29Parser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState);
@@ -93,26 +94,34 @@ public class DispatchA29Parser extends SmartAddressParser {
    // then change them back on the other side.  To keep things
    // simple, we assume no more than one such construct per address
    String connector = null;
-  match = DIR_OF_PTN.matcher(body);
+   match = DIR_OF_PTN.matcher(body);
    if (match.find()) {
      connector = match.group(1);
      body = body.substring(0,match.start()) + " & " + body.substring(match.end());
    }
    parseAddress(st, flags, body, data);
-   if (connector != null) data.strAddress = data.strAddress.replaceFirst("&", connector);
    
    // Sometimes there is a slash delimiter marking the end of the call description.  It is not
    // always there, and we couldn't check for it earlier lest we confuse an intersection address
    // for the delimiter.  But now that we have done the best we could with the address, see if
    // we can find that delimmiter in the call description, and if we can, move everything behind
    // it into the address
-   match = CALL_ADDR_DELIM.matcher(data.strCall);
-   if (match.find()) {
-     pt = match.start();
-     String addr = append(data.strCall.substring(pt+1), " ", data.strAddress);
-     data.strCall = data.strCall.substring(0,pt).trim();
-     data.strAddress = "";
-     parseAddress(addr, data);
+   if (data.strAddress.startsWith("&")) {
+     data.strAddress = data.strAddress.substring(1).trim();
+     if (connector != null) data.strAddress = data.strAddress.replaceFirst("&", connector);
+   } else {
+     if (connector != null) data.strAddress = data.strAddress.replaceFirst("&", connector);
+     CodeSet callList = getCallList();
+     if (callList == null || callList.getCode(data.strCall) == null) {
+       match = CALL_ADDR_DELIM.matcher(data.strCall);
+       if (match.find()) {
+         pt = match.start();
+         String addr = append(data.strCall.substring(pt+1), " ", data.strAddress);
+         data.strCall = data.strCall.substring(0,pt).trim();
+         data.strAddress = "";
+         parseAddress(addr, data);
+       }
+     }
    }
    return true;
  }
