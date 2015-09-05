@@ -20,7 +20,7 @@ public class SCMcCormickCountyParser extends DispatchGeoconxParser {
     if (body.startsWith("Message-Id:")) {
       int pt = body.indexOf('\n');
       if (pt < 0) return false;
-      body = body.substring(pt+1);
+      body = body.substring(pt+1).trim();
     }
     return super.parseMsg(subject, body, data);
   }
