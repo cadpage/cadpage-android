@@ -9,17 +9,23 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class ALTalladegaCountyParser extends FieldProgramParser {
   public ALTalladegaCountyParser() {
     super(CITY_LIST, "TALLADEGA COUNTY", "AL",
-           "ADDR/S1 ID TIME CALL! geo:GPS? INFO+");
+          "ADDR/S1 ID TIME CALL! geo:GPS? INFO+");
   }
-
+  
   @Override
-  public String getProgram() {
-    return append(super.getProgram(), " ", "PLACE");
+  public String getFilter() {
+    return "Talladega_County_9-1-1@TalladegaCo911.com";
   }
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = stripFieldStart(body, "Talladega_County_9-1-1:");
     return parseFields(body.split(";"), data);
+  }
+
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " X PLACE";
   }
   
   @Override
