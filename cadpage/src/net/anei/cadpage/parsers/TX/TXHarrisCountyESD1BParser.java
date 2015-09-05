@@ -8,11 +8,10 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 
 public class TXHarrisCountyESD1BParser extends FieldProgramParser {
-  
-  private static final Pattern REPORT_PTN = Pattern.compile("^ID#:[^ ]+ *- *UNIT:[^ ]+ .*- *DISP:");
 
   public TXHarrisCountyESD1BParser() {
     super("HARRIS COUNTY", "TX",
@@ -31,11 +30,19 @@ public class TXHarrisCountyESD1BParser extends FieldProgramParser {
     return MAP_FLG_SUPPR_LA;
   }
   
+  private static final Pattern REPORT_PTN = Pattern.compile("ID#:([^ ]+) *- *UNIT:([^ ])+ +- *(.*)");
+  private static final Pattern TIME_DELIM_PTN = Pattern.compile(" +- *");
+  
   @Override
   public boolean parseMsg(String body, Data data) {
-    if (REPORT_PTN.matcher(body).find()) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
+    
+    Matcher match = REPORT_PTN.matcher(body);
+    if (match.matches()) {
+      setFieldList("ID UNIT INFO");
+      data.msgType = MsgType.RUN_REPORT;
+      data.strCallId = match.group(1);
+      data.strUnit = match.group(2);
+      data.strSupp = TIME_DELIM_PTN.matcher(match.group(3)).replaceAll("\n");
       return true;
     }
     return parseFields(splitFields(body), data);
@@ -167,7 +174,7 @@ public class TXHarrisCountyESD1BParser extends FieldProgramParser {
   }
   
   // Code field has to fit specific pattern
-  private static final Pattern CODE_PTN = Pattern.compile("\\d\\d[A-Z]\\d\\d[A-Za-z]?|");
+  private static final Pattern CODE_PTN = Pattern.compile("\\d\\d?[A-Z]\\d\\d[A-Za-z]?|");
   private class MyCodeField extends CodeField {
     public MyCodeField() {
       setPattern(CODE_PTN, true);
