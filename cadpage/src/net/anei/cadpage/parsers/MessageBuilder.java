@@ -247,10 +247,23 @@ public class MessageBuilder {
    */
   private String buildMsgBody(String[] msgBodyList) {
     boolean insBlank = options.splitBlankIns();
+    int breakLen = options.splitBreakLength();
+    int breakPad = options.splitBreakPad();
+    int lastLen = -1;
     StringBuilder sb = new StringBuilder();
     for (String msg : msgBodyList) {
-      if (insBlank && sb.length() > 0) sb.append(' ');
+      if (sb.length() > 0) {
+        if (breakLen > 0 && breakPad > 0) {
+          int delta = breakLen-lastLen;
+          if (delta > 0 && delta <= breakPad) {
+            for (int jj = 0; jj<delta; jj++) sb.append(' ');
+          }
+        }
+        else if (insBlank) sb.append(' ');
+      }
+      
       sb.append(msg);
+      lastLen = msg.length();
     }
     return sb.toString();
   }

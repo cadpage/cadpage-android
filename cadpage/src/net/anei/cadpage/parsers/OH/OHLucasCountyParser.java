@@ -19,6 +19,9 @@ public class OHLucasCountyParser extends MsgParser {
   public SplitMsgOptions getActive911SplitMsgOptions() {
     return new SplitMsgOptionsCustom() {
       @Override public boolean splitBlankIns() { return false; }
+      @Override public int splitMinMsg() { return 3; }
+      @Override public int splitBreakLength() { return 300; }
+      @Override public int splitBreakPad() { return 1; }
     };
   }
   

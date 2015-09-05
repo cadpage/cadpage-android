@@ -726,7 +726,7 @@ choyvp pynff BUYhpnfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:NPPVAW",
         "PNYY:Npp Crefbany Vawhel",
         "TCF:+41.534958,-83.782561",
-        "VASB:Zhygv-Ntrapl YNJ Vapvqrag #: JGC15001763,\aJEYF YNG:+041.543469 YBA:083.753436 PBA:[Funerq][Funerq],\aBA JRPXREYL....2 IRU OYH IF TERL...AB VAW ...OYBPXVAT [Funerq][Funerq],\aOnpxrq hcJU88 jvgu JU87[Funerq][Funerq],\a[Nccraqrq, 16:03:44] JCU2 YNG:+041.534028 YBA:083.784614 PBA: 90[Funerq][Funerq],\aQhcyvpngr pnyy nccraqrq gb vapvqrag ng 16:03:44[Funer");
+        "VASB:Zhygv-Ntrapl YNJ Vapvqrag #: JGC15001763,\aJEYF YNG:+041.543469 YBA:083.753436 PBA:[Funerq][Funerq],\aBA JRPXREYL....2 IRU OYH IF TERL...AB VAW ...OYBPXVAT [Funerq][Funerq],\aOnpxrq hc JU88 jvgu JU87[Funerq][Funerq],\a[Nccraqrq, 16:03:44] JCU2 YNG:+041.534028 YBA:083.784614 PBA: 90[Funerq][Funerq],\aQhcyvpngr pnyy nccraqrq gb vapvqrag ng 16:03:44[Funer");
 
     qbGrfg("G24",
         "JUS15000521 12029 Jngreivyyr Fjnagba Eq URNEG-Urneg Cebo/Purfg Cnva 41528817 83831245 F OREXRL FBHGUREA EQ/JVYXVAF EQ [1] JEYF YNG:+041.513890 YBA:083.830190 PBA: 100,[2] Zhygv-Ntrapl RZF Vapvqrag #: RZF15072194,[3] sp xngurevar fgf uhfonaq [Funerq],",
@@ -852,7 +852,7 @@ choyvp pynff BUYhpnfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Hapbafpvbhf Crefba",
         "TCF:+41.500302,-83.766682",
         "K:ARNCBYVF JNGREIVYYR EQ/JNGREIVYYR FJNAGBA EQ",
-        "VASB:Zhygv-Ntrapl RZF Vapvqrag #: RZF15070142,\az/p fgf znyr vf gnxvat cnva zrqvpngvba sbe onpx cnva - unf orra qevaxvat - znyr vf cnffrq bhg - unf phg ba puva [Funerq],\a[CebDN: PnfrRagel Pbzcyrgr] 27-lrne-byq, Znyr, Abg Pbafpvbhf, Oernguvat. Ceboyrz Qrfpevcgvba: FBA UNF OYBBQ HAQRE PUVA, UR'F HAP Puvrs Pbzcynvag: 31, PPGrkg: Hapbafpvbhf / Snvagvat (Arne) [Funerq],\aPybfrfg Ubfcvg");
+        "VASB:Zhygv-Ntrapl RZF Vapvqrag #: RZF15070142,\az/p fgf znyr vf gnxvat cnva zrqvpngvba sbe onpx cnva - unf orra qevaxvat - znyr vf cnffrq bhg - unf phg ba puva [Funerq],\a[CebDN: Pnfr Ragel Pbzcyrgr] 27-lrne-byq, Znyr, Abg Pbafpvbhf, Oernguvat. Ceboyrz Qrfpevcgvba: FBA UNF OYBBQ HAQRE PUVA, UR'F HAP Puvrs Pbzcynvag: 31, PPGrkg: Hapbafpvbhf / Snvagvat (Arne) [Funerq],\aPybfrfg Ubfcvg");
 
     qbGrfg("G36",
         "JUS15000508 10251 Oyhr Evqtr Qe F VYY-Vyy Crefba 41520915 83787794 OYHR EVQTR QE J/PRZRGREL EQ [1] Zhygv-Ntrapl RZF Vapvqrag #: RZF15069959,[2] pnyyre pnag zbir..vf va onguebbz...cbff xvqarl fgbarf?? genaf sebz jbbq pb [Funerq],",
@@ -912,7 +912,7 @@ choyvp pynff BUYhpnfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:NPPCRQ",
         "PNYY:Npp Crqrfgevna Uvg",
         "TCF:+41.509386,-83.827111",
-        "VASB:Zhygv-Ntrapl RZF Vapvqrag #: RZF15069797,\aJCU2 YNG:+041.509223 YBA:083.827250 PBA: 90[Funerq],\aZhygv-Ntrapl YNJ Vapvqrag #: JGC15001693,\aSP FGF FUR JNF QEIVAT NAQ UVGN YVGGYR XVQ EVQVAT UVF OVXR BA 295... [Funerq],\a[CebDN: Pnfr Ragel Pbzcyrgr] 14-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Ceboyrz Qrfpevcgvba: UVG PUVYQ BA OVXR Puvrs Pbzcynvag: 29, PPGrkg: Genssvp / Genafcbegn");
+        "VASB:Zhygv-Ntrapl RZF Vapvqrag #: RZF15069797,\aJCU2 YNG:+041.509223 YBA:083.827250 PBA: 90[Funerq],\aZhygv-Ntrapl YNJ Vapvqrag #: JGC15001693,\aSP FGF FUR JNF QEIVAT NAQ UVG N YVGGYR XVQ EVQVAT UVF OVXR BA 295... [Funerq],\a[CebDN: Pnfr Ragel Pbzcyrgr] 14-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Ceboyrz Qrfpevcgvba: UVG PUVYQ BA OVXR Puvrs Pbzcynvag: 29, PPGrkg: Genssvp / Genafcbegn");
 
     qbGrfg("G41",
         "JUS15000503 12846 Nepuobyq-juvgrubhfr Eq NFFVFG-Va-Freivpr Nffvfg 41516190 83850371 WRSSREF EQ/LNJORET EQ 132 YBA:083.850145 PBA: 90,[2] Zhygv-Ntrapl RZF Vapvqrag #: RZF15069779,[3] PYE FGF ZBGURE VF FGHPX VA URE JURRY PUNVE PNAG TRG URE HC VAGB PNE [Funerq],",

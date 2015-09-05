@@ -140,18 +140,19 @@ public class SmsMsgAccumulator {
     // Otherwise return true if result does not appear to be complete
     FilterOptions genAlertOptions = ManagePreferences.genAlertOptions();
     boolean acceptGenAlerts = (genAlertOptions.historyEnabled() || genAlertOptions.blockTextMsgEnabled());
-    return !isComplete(msg.getInfo(), options, acceptGenAlerts);
+    return !isComplete(msg.getMessageBody().length(), msg.getInfo(), options, acceptGenAlerts);
   }
   
   /**
    * Determine if message appears to be complete based on the parsed message info
    * and split message options
+   * @param msgLen original message length
    * @param info parsed message info (may be null)
    * @param options Split Message Options
    * @param acceptGenAlerts True if General alerts are being processed
    * @return true if message appears to be complete
    */
-  private static boolean isComplete(MsgInfo info, SplitMsgOptions options, boolean acceptGenAlerts) {
+  private static boolean isComplete(int msgLen, MsgInfo info, SplitMsgOptions options, boolean acceptGenAlerts) {
     
     // The rules change if the message parts may be misordered
     if (options.revMsgOrder() || options.mixedMsgOrder()) {
@@ -160,6 +161,11 @@ public class SmsMsgAccumulator {
       if (info == null || info.getMsgType() == MsgType.GEN_ALERT) return false;
     }
     
+    // If message matches expected break length, expect more to come
+    int breakLen = options.splitBreakLength();
+    if (breakLen > 0) {
+      if (msgLen <= breakLen && breakLen-msgLen <= options.splitBreakPad()) return true;
+    }
     // Otherwise, message must parse and must return expect more status to be incomplete
     return info != null && !info.isExpectMore();
   }
@@ -342,7 +348,7 @@ public class SmsMsgAccumulator {
       
       boolean isPage = msg.isPageMsg(MsgParser.PARSE_FLG_FORCE);
       MsgInfo info = isPage ? msg.getInfo() : null;
-      return SmsMsgAccumulator.isComplete(info, msg.getSplitMsgOptions(), true);
+      return SmsMsgAccumulator.isComplete(msg.getMessageBody().length(), info, msg.getSplitMsgOptions(), true);
     }
 
     /**

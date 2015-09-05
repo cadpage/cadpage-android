@@ -364,6 +364,16 @@ public class ManagePreferences {
     public boolean noParseSubjectFollow() {
       return false;
     }
+
+    @Override
+    public int splitBreakLength() {
+      return 0;
+    }
+
+    @Override
+    public int splitBreakPad() {
+      return 0;
+    }
   }
   
   public static boolean suppressDupMsg() {

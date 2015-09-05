@@ -54,4 +54,16 @@ public interface SplitMsgOptions {
    * as a subject in messages that are being appending to another message
    */
   public boolean noParseSubjectFollow();
+  
+  /**
+   * @return if non-zero, the expected length of each split message fragment
+   */
+  public int splitBreakLength();
+  
+  /**
+   * Number of implied blanks that may  be expected at the end of each split message
+   * fragment
+   * @return
+   */
+  public int splitBreakPad();
 }
