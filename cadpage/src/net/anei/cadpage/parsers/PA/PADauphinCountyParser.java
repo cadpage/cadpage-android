@@ -32,7 +32,7 @@ public class PADauphinCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@c-msg.net";
+    return "@c-msg.net,donotreply-911@dauphinc.org";
   }
 
   @Override
