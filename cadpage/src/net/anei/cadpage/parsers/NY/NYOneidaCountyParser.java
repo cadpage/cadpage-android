@@ -60,6 +60,10 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
       if (CLINTON_FIRE_PTN.matcher(body).lookingAt()) body = "Dispatched  , " + body;
     }
     
+    else if (subject.equals("Durhamville Fire")) {
+      if (!body.contains("Dispatched")) body = "Dispatched , " + body;
+    }
+    
     // Occasional use of T/ or T/O for Town of messes everything up
     body = T_CITY_PTN.matcher(body).replaceAll(" $1");
 
