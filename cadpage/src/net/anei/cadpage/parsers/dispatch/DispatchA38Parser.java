@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -26,13 +29,15 @@ public class DispatchA38Parser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  private static final Pattern CITY_ZIP_PTN = Pattern.compile("([A-Z]{2})(?: *\\d{5})?|");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       Parser p = new Parser(field.replace(" apt:", " Apt:"));
       String city = p.getLastOptional(',');
-      if (city.length() == 2 || city.length() == 0) {
-        data.strState = city;
+      Matcher match = CITY_ZIP_PTN.matcher(city);
+      if (match.matches()) {
+        if (city.length() > 0) data.strState = match.group(1);
         city = p.getLastOptional(',');
       }
       data.strCity = city;

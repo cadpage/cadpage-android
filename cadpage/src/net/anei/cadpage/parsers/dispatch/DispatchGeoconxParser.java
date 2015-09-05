@@ -164,7 +164,7 @@ public class DispatchGeoconxParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "NAME ADDR APT MAP CITY";
+      return "PLACE NAME ADDR APT MAP CITY";
     }
   }
   

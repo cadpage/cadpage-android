@@ -279,6 +279,7 @@ choyvp pynff FPZpPbezvpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G6",
         "{R911} \aZBGBE IRUVPYR NPPVQRAG\a12 ZVYR FBHGU BS WPG FP10&FP28 - J, ZP PBEZVPX",
         "PNYY:ZBGBE IRUVPYR NPPVQRAG",
+        "CYNPR:12 ZVYR FBHGU BS WPG",
         "NQQE:FP10 & FP28",
         "ZNQQE:FP 10 & FP 28",
         "ZNC:J",
