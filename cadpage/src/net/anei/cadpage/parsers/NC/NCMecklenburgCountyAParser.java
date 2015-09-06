@@ -4,19 +4,23 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Properties;
 import java.util.Set;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class NCMecklenburgCountyAParser extends MsgParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("[-0-9]+ +Received: *\\d\\d:\\d\\d *Assigned: *\\d\\d:\\d\\d *Enroute: *(?:\\d\\d:\\d\\d *|.*Cancelled: *\\d\\d:\\d\\d).*", Pattern.DOTALL);
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("([-0-9]+) +(Received: *\\d\\d:\\d\\d *Assigned: *\\d\\d:\\d\\d *Enroute: *(?:\\d\\d:\\d\\d *|.*Cancelled: *\\d\\d:\\d\\d).*?) *INC #.*");
+  private static final Pattern RUN_REPORT_DELIM_PTN = Pattern.compile("(?<! ) *(?=Assigned:|Enroute:|Arrived:|Pt Contact:|Cancelled:)");
   
   public NCMecklenburgCountyAParser() {
     super("MECKLENBURG COUNTY", "NC");
     setFieldList("ADDR APT PLACE INFO CODE CALL X CH MAP ID");
+    setupGpsLookupTable(GPS_LOOKUP_TABLE);
   }
   
   @Override
@@ -27,9 +31,11 @@ public class NCMecklenburgCountyAParser extends MsgParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
 
-    if (RUN_REPORT_PTN.matcher(body).matches()) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
+    Matcher match = RUN_REPORT_PTN.matcher(body);
+    if (match.matches()) {
+      data.msgType = MsgType.RUN_REPORT;
+      data.strCallId = match.group(1);
+      data.strSupp = RUN_REPORT_DELIM_PTN.matcher(match.group(2).trim()).replaceAll("\n");
       return true;
     }
     if (body.length() < 74) return false;
@@ -65,6 +71,15 @@ public class NCMecklenburgCountyAParser extends MsgParser {
     }
     return true;
   }
+  
+  @Override
+  protected String adjustGpsLookupAddress(String address) {
+    return address.toUpperCase();
+  }
+
+  private static Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
+      "2700 ROYAL COMMONS LN",      "35.117028,-80.691764"
+  });
   
   @Override
   public String adjustMapAddress(String addr) {
