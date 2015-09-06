@@ -44,7 +44,6 @@ Fzbxr          \a7528 F Pbeavn Qe                                             FB
 Sver Nynez Erfq\a2236 R 8100 F                                                FBHGU JRORE    \a#8014794756  / FUBJF TRARENY SVER  / AB EC BA G
 Cntre Grfg     \a175 F Znva Fg; Xnlfivyyr Sver Fgngvba                        XNLFIVYYR
 Cntre Grfg     \a82 A 100 R; Snezvatgba Sver Fgngvba; TEBHC CNTRE GRFG        SNEZVATGBA
-Npp CV Nycun   \a84 ZZ 84;JO
 Sver Tenff     \a79 R Unecre Jl                                               FBHGU JRORE    \a801-939-3353 2 ZNYRF NCCE 14 LB NER ORUVAQ PBZC
 Sver Jnfuqbja  \aJ Fbhgu Jrore Qe;ba gbc bs 89                                FBHGU JRORE    \agjb iru znebba fnghea if puril gehpx j/genvyre,
 Onpx Cnva      \a8025 F 2250 R                                                FBHGU JRORE    \a 5N 58 LBS YBJRE ONPX CNVA\a10:05:43 08/03/2015
@@ -304,12 +303,6 @@ choyvp pynff HGQnivfPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:82 A 100 R",
         "CYNPR:Snezvatgba Sver Fgngvba; TEBHC CNTRE GRFG",
         "PVGL:SNEZVATGBA");
-
-    qbGrfg("G30",
-        "Npp CV Nycun   \a84 ZZ 84;JO",
-        "PNYY:Npp CV Nycun",
-        "NQQE:84 ZZ 84",
-        "CYNPR:JO");
 
     qbGrfg("G31",
         "Sver Tenff     \a" +

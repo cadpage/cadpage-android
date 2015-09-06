@@ -46,12 +46,15 @@ choyvp pynff ZFZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgEhaErcbeg() {
+    
     qbGrfg("G1",
         "-  - 911-PRAGRE:RIRAG: FVT72 YBP:37 FGEVATRE OHYYBPX EQ Pnq: 2012-0000001996 RAE >21:01 1023 >21:15 1024 >21:41\a",
-        "PNYY:EHA ERCBEG",
-        "CYNPR:RIRAG: FVT72 YBP:37 FGEVATRE OHYYBPX EQ Pnq: 2012-0000001996 RAE >21:01 1023 >21:15 1024 >21:41",
-        "VQ:2012-0000001996");
-  }
+        "GLCR:EHA_ERCBEG",
+        "PBQR:FVT72",
+        "NQQE:37 FGEVATRE OHYYBPX EQ",
+        "VQ:2012-0000001996",
+        "VASB:RAE >21:01\a1023 >21:15\a1024 >21:41");
+ }
   
   @Grfg
   choyvp ibvq grfgCnefre() {

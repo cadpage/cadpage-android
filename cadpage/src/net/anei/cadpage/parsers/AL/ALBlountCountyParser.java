@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.AL;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 
@@ -32,7 +33,7 @@ public class ALBlountCountyParser extends DispatchB2Parser {
     if (!super.parseMsg(body, data)) return false;
     if (data.strName.startsWith("Bldg")) data.strName = data.strName.substring(4).trim();
     if (data.strApt.endsWith("Bldg")) data.strApt = data.strApt.substring(0,data.strApt.length()-4).trim(); 
-    return (good || data.strCallId.length() > 0 || data.strCall.equals("RUN REPORT"));
+    return (good || data.strCallId.length() > 0 || data.msgType == MsgType.RUN_REPORT);
   }
 
   @Override
