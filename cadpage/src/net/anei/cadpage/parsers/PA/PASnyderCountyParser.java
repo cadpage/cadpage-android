@@ -31,7 +31,10 @@ public class PASnyderCountyParser extends DispatchB3Parser {
 
     good = body.startsWith("SNYDER911:") || body.startsWith("SYNDER911:");
     if (good) body = body.substring(10).trim();
-    if (subject.equals("EVENT")) body = "EVENT:" + body.substring(10);
+    if (subject.equals("EVENT")) {
+      subject = "";
+      body = "EVENT:" + body;
+    }
 
     body = CAD_PTN.matcher(body).replaceAll(" Cad:");
     body = body.replace(" MAP:", "Map:");

@@ -28,9 +28,9 @@ public class UTDavisCountyBParser extends MsgParser {
       addr = addr.substring(0,pt).trim();
     }
     parseAddress(addr, data);
-    p.setOptional();
-    if (!p.check(" ")) return false;
+    if (!p.check(" ") || p.check(" ")) return false;
     data.strCity = p.get(15);
+    p.setOptional();
     if (!p.check("\n")) return false;
     data.strSupp = p.get();
     return true;

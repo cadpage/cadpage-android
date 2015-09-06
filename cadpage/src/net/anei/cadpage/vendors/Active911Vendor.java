@@ -829,6 +829,7 @@ class Active911Vendor extends Vendor {
       "US/PA/ClarionCounty",              "PAClarionCountyC",
       "US/PA/ClearfieldCounty",           "PAClearfieldCounty",
       "US/PA/ColumbiaCounty",             "PAColumbiaCounty",
+      "US/PA/CrawfordCounty",             "PACrawfordCounty",
       "US/PA/CumberlandCounty",           "PACumberlandCounty",
       "US/PA/DauphinCounty",              "PADauphinCounty",
       "US/PA/DelawareCounty",             "PADelawareCountyB,PADelawareCountyG",

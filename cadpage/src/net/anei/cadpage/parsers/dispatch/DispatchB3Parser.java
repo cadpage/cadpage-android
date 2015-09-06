@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 public class DispatchB3Parser extends DispatchB2Parser {
@@ -67,15 +68,14 @@ public class DispatchB3Parser extends DispatchB2Parser {
     }
     
     boolean v3 = subject.length() > 0;
-    if (v3) body = subject + " @ " + body;
+    if (v3) {
+      body = subject + " @ " + body;
+    }
     if (!super.parseMsg(body, data)) return false;
     
-    if (v3 && data.strCall.equals("RUN REPORT")) {
-      int pt = data.strPlace.indexOf(" @ ");
-      if (pt >= 0) {
-        data.strCode = data.strPlace.substring(0,pt).trim();
-        data.strPlace = data.strPlace.substring(pt+3).trim();
-      }
+    if (v3 && data.msgType == MsgType.RUN_REPORT) {
+      setFieldList("CODE " + super.getProgram());
+      data.strCode = subject;
     }
     return true;
   }

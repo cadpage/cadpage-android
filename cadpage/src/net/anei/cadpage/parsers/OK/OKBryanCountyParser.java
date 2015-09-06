@@ -29,11 +29,13 @@ public class OKBryanCountyParser extends DispatchB2Parser {
     }
     
     // Find the code.  If there isn't a '>' following it, then insert one
-    Matcher codeMatch = PTN_CODE.matcher(body);
-    if(!codeMatch.find()) {
-      int firstSpace = body.indexOf(' ');
-      if(firstSpace >= 0) {
-        body = body.substring(0, firstSpace+1) + ">" + body.substring(firstSpace+1);
+    if (!body.startsWith("0:EVENT:")) {
+      Matcher codeMatch = PTN_CODE.matcher(body);
+      if(!codeMatch.find()) {
+        int firstSpace = body.indexOf(' ');
+        if(firstSpace >= 0) {
+          body = body.substring(0, firstSpace+1) + ">" + body.substring(firstSpace+1);
+        }
       }
     }
     

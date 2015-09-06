@@ -13,6 +13,7 @@ public class UTDavisCountyAParser extends MsgParser {
   
   public UTDavisCountyAParser() {
     super("DAVIS COUNTY", "UT");
+    setFieldList("CALL ADDR APT PLACE INFO");
   }
   
   @Override
