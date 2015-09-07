@@ -200,7 +200,8 @@ public class ManageParsers {
         "NJSalemCountyC",     "NJSalemCountyB",          // 01/14/2015
         "NVWinnemuccaCounty", "NVHumboldtCounty",        // 01/17/2015
         "VAGraysonCounty",    "VAGalax",                 // 01/17/2015
-        "NCHertfordCountyA",  "NCHertfordCountyB"        // 06/30/2015
+        "NCHertfordCountyA",  "NCHertfordCountyB",       // 06/30/2015
+        "CARocklin",          "CAPlacerCounty"           // 09/07/2015
         
   });
 

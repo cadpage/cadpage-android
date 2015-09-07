@@ -7,15 +7,15 @@ import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 /**
  * Rocklin, CA
  */
-public class CARocklinParser extends DispatchA20Parser {
+public class CAPlacerCountyBParser extends DispatchA20Parser {
   
-  public CARocklinParser() {
-    super(CALL_CODES, "ROCKLIN", "CA");
+  public CAPlacerCountyBParser() {
+    super(CALL_CODES, "PLACER COUNTY", "CA");
   }
   
   @Override
   public String getFilter() {
-    return "@rocklin.ca.us";
+    return "@rocklin.ca.us,@ci.lincoln.ca.us";
   }
   
   @Override
@@ -28,38 +28,40 @@ public class CARocklinParser extends DispatchA20Parser {
       "CALARM",   "COMMERCIAL FIRE ALARM",
       "CGAS",     "COMMERCIAL GAS LEAK",
       "CO",       "CARBON MONIXIDE ALARM",
-      "CSTRUC",   "COMMERCIAL STRUCT FIRE",
+      "CSTRUC",   "COMMERCIAL STRUCTURE FIRE",
       "CSTRUH",   "COMMERCIAL STRUCTURE FIRE - HIGH",
-      "CSTRUL",   "COMMERCIAL STRUCTURE FIRE – LOW",
-      "FINV",     "FINV",
+      "CSTRUL",   "COMMERCIAL STRUCTURE FIRE - LOW",
+      "FINV",     "FIRE INVESTIGATION",
       "FLOOD",    "FLOODING INCIDENT",
+      "FRAUD",    "FRAUD",
       "FTEST",    "FIRE TEST INCIDENT",
       "FTRASH",   "TRASH FIRE",
       "FVEH",     "VEHICLE FIRE",
-      "FVSUMM",   "VEG FIRE SUMMER",
-      "FVWIN",    "VEG FIRE WINTER",
+      "FVSUMM",   "VEGETATION FIRE SUMMER",
+      "FVWIN",    "VEGETATION FIRE WINTER",
       "HWIRE",    "HAZARDOUS WIRES",
-      "HZH",      "CONTAINED HZ HIGH",
-      "HZL",      "CONTAINED HZ LOW",
+      "HZH",      "HAZMAT - HIGH",
+      "HZL",      "HAZMAT - LOW",
       "LAND",     "LANDING ZONE",
       "MAID",     "MEDICAL AID",
-      "MDOWN",    "PERSON DOWN",
-      "MUTAID",   "MUTUAL AID REQ",
+      "MDOWN",    "MAN DOWN",
+      "MUTAID",   "MUTUAL AID REQUEST",
       "PAST",     "PUBLIC ASSIST",
       "PLANE",    "PLANE CRASH",
       "POLICE",   "POLICE ASSIST",
       "RALARM",   "RESIDENTIAL FIRE ALARM",
       "RESCUE",   "TECHNICIAL RESCUE",
       "RGAS",     "RESIDENTIAL GAS LEAK",
-      "RSTRUCT",  "RESIDENTIAL STRUCT FIRE",
+      "RSTRUC",   "RESIDENTIAL STRUCTURE FIRE",
       "RSTRUH",   "RESIDENTIAL STRUCTURE FIRE - HIGH",
-      "RSTRUL",   "RESIDENTIAL STRUCTURE FIRE - LOW",
+      "RSTRUL",   "RESIDENTIAL STRUCTURE FIRE - HIGH",
       "RWATER",   "WATER RESCUE",
-      "STRIKE",   "STRIKE TEAM REQ",
-      "TRAIN",    "TRAIN WRECK",
-      "VAF",      "VEHICLE ACC (HIGH)",
+      "STRIKE",   "STRIKE TEAM REQUEST",
+      "TRAIN",    "TRAIN ACCIDENT",
+      "VAF",      "VEHICLE ACCIDENT - FIRE",
       "VAH",      "VEHICLE ACCIDENT - HIGH",
-      "VAL",      "VEHICLE ACC (LOW)",
+      "VAL",      "VEHICLE ACCIDENT - LOW",
       "VEGHI",    "VEGETATION FIRE - HIGH"
+
   });
 }
