@@ -1021,7 +1021,7 @@ class Active911Vendor extends Vendor {
       "US/VA/NewportNews",                "VANewportNews",
       "US/VA/NorthumberlandCounty",       "VANorthumberland",
       "US/VA/PetersburgPD",               "VAPetersburg",
-      "US/VA/PrinceWilliamCounty",        "VAPrinceWilliamCountyA",
+      "US/VA/PrinceWilliamCounty",        "VAPrinceWilliamCounty",
       "US/VA/SouthamptonCounty",          "VASouthamptonCounty",
       "US/VA/StaffordCounty",             "VAStaffordCounty",
       "US/VA/WarrenCounty",               "VAWarrenCounty",

@@ -9,6 +9,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 
 /**
@@ -17,7 +18,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class VAPrinceWilliamCountyParser extends FieldProgramParser {
   
   private static final String TRAIL_MARKER = "\nSent by PW Alert to ";
-  private static final Pattern MISSING_BREAK_PTN = Pattern.compile(" (?=Inc. Address:)");
+  private static final Pattern BREAK_PTN = Pattern.compile("(\n|(?<!\\s) *(?=Event Type:|Inc. Address:|Box Number:|Radio Channel:|Command:|Landing Zone:|Comments:))");
   
   public VAPrinceWilliamCountyParser() {
     super(CITY_CODES, "PRINCE WILLIAM COUNTY", "VA",
@@ -27,14 +28,7 @@ public class VAPrinceWilliamCountyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "cc_message_notification@usamobility.net,@rsan.pwcgov.org,PWRSAN,89361,87844";
-  }
-  
-  private String select = null;
-  
-  @Override
-  protected String getSelectValue() {
-    return select;
+    return "cc_message_notification@usamobility.net,@rsan.pwcgov.org,@everbridge.net,PWRSAN,89361,87844";
   }
 
   @Override
@@ -56,19 +50,20 @@ public class VAPrinceWilliamCountyParser extends FieldProgramParser {
     
     String save = body;
     
+    if (subject.endsWith("FINAL")) data.msgType = MsgType.RUN_REPORT;
+    
     // We have two different page formats, one slash separated
     // and one newline separated
     
     String[] flds = body.replace('\n', ' ').split("/");
     if (flds.length >= 6) {
-      select = "1";
+      setSelectValue("1");
       if (parseFields(body.split("/"), 6, data)) return true;
     }
     else {
-      select = "2";
+      setSelectValue("2");
       if (!body.startsWith("Event Type:")) body = "Event Type: " + body;
-      body = MISSING_BREAK_PTN.matcher(body).replaceFirst("\n");
-      if (parseFields(body.split("\n"), 5, data)) return true;
+      if (parseFields(BREAK_PTN.split(body), 5, data)) return true;
     }
     
     if (!good) return false;
