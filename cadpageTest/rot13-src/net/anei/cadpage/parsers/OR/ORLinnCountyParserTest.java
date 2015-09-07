@@ -293,6 +293,7 @@ Ntrapl anzr: Fjrrg Ubzr Sver Qvfgevpg
 Ybpngvba: Fjrrg Ubzr, BE, Havgrq Fgngrf
 Fraqre: <yvaa911@yvaafurevss.bet>
 
+(VPBZ/400 abgvsvpngvba) O21/1fg Nye Vapq/PNEQVNP/ERFC NEERFG/28461 CYRNFNAG INYYRL EQ/Yvaa Pbhagl/30-lrne-byq, Srznyr, Abg Pbafpvbhf, Abg Oernguvat.  Pneqvnp/152240335/
 (VPBZ/400 abgvsvpngvba) HAX CEBO (zna qbja)/1400 9GU NI VAGREFRPGA/ANAQVAN FG/60602221/
 (VPBZ/400 abgvsvpngvba) QVNORGVP CEBO/4836 UJL 20/59662221/
 (VPBZ/400 abgvsvpngvba) PBAIHY/FRVMHERF/1995 TENCR FG/61622221/
@@ -2597,7 +2598,16 @@ choyvp pynff BEYvaaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgFjrrgUbzrSverQvfgevpg() {
 
-    qbGrfg("G0",
+    qbGrfg("K1",
+        "(VPBZ/400 abgvsvpngvba) O21/1fg Nye Vapq/PNEQVNP/ERFC NEERFG/28461 CYRNFNAG INYYRL EQ/Yvaa Pbhagl/30-lrne-byq, Srznyr, Abg Pbafpvbhf, Abg Oernguvat.  Pneqvnp/152240335/",
+        "PNYY:1fg Nye Vapq - PNEQVNP/ERFC NEERFG",
+        "HAVG:O21",
+        "NQQE:28461 CYRNFNAG INYYRL EQ",
+        "PVGL:Yvaa Pbhagl",
+        "VASB:30-lrne-byq, Srznyr, Abg Pbafpvbhf, Abg Oernguvat.  Pneqvnp",
+        "VQ:152240335");
+
+    qbGrfg("K2",
         "(VPBZ/400 abgvsvpngvba) HAX CEBO (zna qbja)/1400 9GU NI VAGREFRPGA/ANAQVAN FG/60602221/",
         "PNYY:HAX CEBO (zna qbja)",
         "NQQE:1400 9GU NI",
