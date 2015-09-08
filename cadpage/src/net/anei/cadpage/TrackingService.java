@@ -125,11 +125,13 @@ public class TrackingService extends Service implements LocationListener {
       return 0;
     }
     
-    if (flags != 0) holdPowerLock(this);
     String url = intent.getStringExtra(EXTRA_URL);
     long endTime = intent.getLongExtra(EXTRA_END_TIME, 0L);
     int minDist = intent.getIntExtra(EXTRA_MIN_DIST, 10);
     int minTime = intent.getIntExtra(EXTRA_MIN_TIME, 10);
+    if (url == null) return 0;
+
+    if (flags != 0) holdPowerLock(this);
 
     // See if we can merge this request into an existing one. 
     boolean found = false;
@@ -242,6 +244,8 @@ public class TrackingService extends Service implements LocationListener {
    * @param minTime minimum delta reporting time in seconds
    */
   public static void addLocationRequest(Context context, String URL, int duration, int minDist, int minTime) {
+    
+    if (URL == null) return;
     
     // Create and hold partial power lock
     holdPowerLock(context);

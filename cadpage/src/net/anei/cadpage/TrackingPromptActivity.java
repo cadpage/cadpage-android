@@ -74,6 +74,7 @@ public class TrackingPromptActivity extends Safe40Activity {
    * @param minTime minimum reporting time interval in seconds
    */
   static public void addLocationRequest(Context context, String url, int duration, int minDist, int minTime) {
+    if (url == null) return;
     String opt = ManagePreferences.reportPosition();
     if (opt.equals("Y")) {
       TrackingService.addLocationRequest(context, url, duration, minDist, minTime);

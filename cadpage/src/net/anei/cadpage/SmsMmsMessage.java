@@ -111,6 +111,8 @@ public class SmsMmsMessage implements Serializable {
     this.timestamp = msg.timestamp;
     this.messageType = msg.messageType;
     this.messageClass = msg.messageClass;
+    this.read = msg.read;
+    this.locked = msg.locked;
     this.incidentDate = msg.incidentDate;
     this.location = msg.location;
     this.contentLoc = msg.contentLoc;
@@ -121,6 +123,8 @@ public class SmsMmsMessage implements Serializable {
     this.vendorCode = msg.vendorCode;
     this.missingParsers = msg.missingParsers;
     this.ackReq = msg.ackReq;
+    this.ackURL = msg.ackURL;
+    this.ackNeeded = msg.ackNeeded;
     this.infoURL = msg.infoURL;
     this.callId = msg.callId;
     this.serverTime = msg.serverTime;
