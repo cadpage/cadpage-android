@@ -15,7 +15,7 @@ public class MNAnokaCountyBParser extends MsgParser {
   
   public MNAnokaCountyBParser() {
     super("ANOKA COUNTY", "MN");
-    setFieldList("ID CODE CALL ADDR APT PLACE CITY INFO");
+    setFieldList("ID CODE CALL ADDR APT PLACE CITY MAP INFO");
   }
   
   @Override
@@ -53,8 +53,12 @@ public class MNAnokaCountyBParser extends MsgParser {
     data.strPlace = p.get(20);
     data.strCity = p.get(20);
     
-    p.check("[1] ");
-    String info = p.get(496);
+    if (!p.check("[1] ")) {
+      data.strMap = p.get(10);
+      p.check("[1] ");
+    }
+    
+    String info = p.get();
     info = INFO_SKIP_PTN.matcher(info).replaceAll("").trim();
     if (data.strCallId.length() == 0) {
       Matcher match = TRAIL_ID_PTN.matcher(info);
