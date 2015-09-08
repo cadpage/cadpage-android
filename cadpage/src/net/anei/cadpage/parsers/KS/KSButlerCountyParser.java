@@ -43,6 +43,7 @@ public class KSButlerCountyParser extends FieldProgramParser {
       parseAddress(StartType.START_ADDR, sAddr, data);
       data.strCall = getLeft();
       if (data.strCall.length() == 0) {
+        setFieldList("INFO");
         return data.parseGeneralAlert(this, body);
       }
     }
@@ -51,6 +52,7 @@ public class KSButlerCountyParser extends FieldProgramParser {
       body = body.replace("(RP)", "(NAME)");
       body = PARENS.matcher(body).replaceAll(" $1:");
       if (!super.parseMsg(body, data)) {
+        setFieldList("INFO");
         return data.parseGeneralAlert(this, body);
       }
     }
