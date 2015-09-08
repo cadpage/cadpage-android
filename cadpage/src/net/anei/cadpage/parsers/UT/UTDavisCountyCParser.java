@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.UT;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -11,6 +12,13 @@ public class UTDavisCountyCParser extends FieldProgramParser {
   public UTDavisCountyCParser() {
     super(CITIES, "DAVIS COUNTY", "UT",
         "ADDR X? INFO+");
+    setupCallList(CALL_LIST);
+    setupMultiWordStreets(
+        "DAVIS CREEK",
+        "JUPITER HILLS",
+        "PHEASANT RUN",
+        "SPYGLASS HILL"
+    );
   }
   
   @Override
@@ -64,7 +72,7 @@ public class UTDavisCountyCParser extends FieldProgramParser {
   private class MyAddressField extends UTDavisInfoField {
     @Override
     public void parse(String field, Data data) {
-      parseAddress(StartType.START_CALL, field, data);
+      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, field, data);
       parseInfo(getLeft(), data);
     }
   }
@@ -75,26 +83,23 @@ public class UTDavisCountyCParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       if(data.strCity.equals("")) {
-        Result r = parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY, field);
-        if (r.isValid()) {
-          int cl;
-          r.getData(data);
-          int ndx = field.lastIndexOf(data.strCity);
-          if (ndx < 0)
-            ndx = cl = 0;
-          else
-            cl = data.strCity.length();
-          String p = field.substring(0,ndx).trim();
-          field = field.substring(ndx + cl);
-          r = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, p);
-          if (r.isValid())
-            data.strCross = p;
-          else {
-            Matcher m = UTAH_ADDRESS_PATTERN.matcher(p);
-            if (m.find())
+        Matcher m = CITY_PATTERN.matcher(field);
+        if (m.matches()) {
+          String p = m.group(1).trim();
+          data.strCity = m.group(2);
+          field = m.group(3).trim();
+          
+          if (!p.toUpperCase().startsWith("GROUP")) {
+            if (isValidAddress(p))
               data.strCross = p;
-            else
-              data.strPlace = p;
+            else {
+              m = UTAH_ADDRESS_PATTERN.matcher(p);
+              if (m.matches()) {
+                data.strCross = p;
+              } else {
+                data.strPlace = p;
+              }
+            }
           }
         }
       }
@@ -119,4 +124,46 @@ public class UTDavisCountyCParser extends FieldProgramParser {
       "WEST POINT",
       "WOODS CROSS",  
   };
+  
+  private static final Pattern CITY_PATTERN;
+  static {
+    String connect = "(.*)\\b(";
+    StringBuilder sb = new StringBuilder();
+    for (String city : CITIES) {
+      sb.append(connect);
+      sb.append(city);
+      connect = "|";
+    }
+    sb.append(")\\b(.*)");
+    CITY_PATTERN = Pattern.compile(sb.toString());
+  }
+  
+  private static CodeSet CALL_LIST = new CodeSet(
+      "ABDOMINAL PAIN",
+      "ACC PI ALPHA",
+      "ACC PI BRAVO",
+      "ASSAULT MEDICAL",
+      "CHEST PAIN",
+      "CO DETECT ALARM",
+      "FALL",
+      "FIRE ALARM RESD",
+      "FIRE ASSIST",
+      "FIRE DUMPSTER",
+      "FIRE GRASS",
+      "FIRE STRUCTURE",
+      "FIRE VEHICLE TS",
+      "FULL ARREST",
+      "HEART PROBLEM",
+      "MEDICAL",
+      "MEDICAL ALARM",
+      "MEDICAL STANDBY",
+      "OVERDOSE",
+      "PAGER TEST",
+      "POWERLINE PROB",
+      "SICK PERSON",
+      "SMOKE",
+      "SUICIDE ATTEMPT",
+      "UNCONSCIOUS",
+      "WELFARE CHECK"
+  );
 }
