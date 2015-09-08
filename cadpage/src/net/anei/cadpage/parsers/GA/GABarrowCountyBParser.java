@@ -10,11 +10,6 @@ public class GABarrowCountyBParser extends DispatchA57Parser {
   }
   
   @Override
-  public String getFilter() {
-    return "Dispatch@barrowga.org";
-  }
-  
-  @Override
   protected boolean parseMsg(String body, Data data) {
     if (!body.startsWith("Dispatch:")) return false;
     body = body.substring(9);
