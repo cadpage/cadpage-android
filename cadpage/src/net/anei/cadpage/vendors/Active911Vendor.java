@@ -945,6 +945,7 @@ class Active911Vendor extends Vendor {
       "US/TX/GreggCounty",                "TXGreggCounty",
       "US/TX/HarrisCounty",               "TXHarrisCounty",
       "US/TX/HarrisCountyEC",             "TXHarrisCountyESD1B",
+      "US/TX/HarrisCountyNWEMS",          "TXHarrisCountyNWEMS",
       "US/TX/HaysUSA",                    "KSEllisCounty",
       "US/TX/Helotes",                    "TXHelotes",
       "US/TX/HumblePolice",               "TXHumbleB",
