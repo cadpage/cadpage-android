@@ -761,6 +761,7 @@ class Active911Vendor extends Vendor {
       "US/OH/JeffersonCounty",            "OHJeffersonCounty",
       "US/OH/KnoxCounty",                 "OHKnoxCounty",
       "US/OH/LickingCounty",              "OHLickingCounty",
+      "US/OH/CityofLima",                 "OHLima",
       "US/OH/LoganCounty",                "OHLoganCounty",
       "US/OH/LucasCounty",                "OHLucasCounty",
       "US/OH/LorainCounty",               "OHLorainCountyB",
