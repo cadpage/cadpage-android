@@ -4,7 +4,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 /**
- * Oldham County, KY
+ * Muhlenberg County, KY
  */
 public class KYMuhlenbergCountyParser extends DispatchEmergitechParser {
   

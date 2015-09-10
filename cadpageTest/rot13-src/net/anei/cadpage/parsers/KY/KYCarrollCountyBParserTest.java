@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Pneebyy Pbhagl, XL
+Pneebyy Pbhagl, XL (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pneebyy Pbhagl 911
