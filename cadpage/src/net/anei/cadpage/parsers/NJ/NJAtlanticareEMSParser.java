@@ -81,6 +81,7 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
   }
   
   private static final Set<String> EXT_CALL_LIST = new HashSet<String>(Arrays.asList(
+      "ALTERED MENTAL STATUS",
       "CHEST PAIN",
       "HEART PROBLEMS",
       "SYNCOPE",
