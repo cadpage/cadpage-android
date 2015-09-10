@@ -18,6 +18,8 @@ Fraqre: zrqpbz@zrqpbz.pbz
 Pbagnpg: Eboreg Gemrcvmhe <egemrcvmhe@lnubb.pbz>
 Fraqre: zrqpbz@zrqpbz.pbz
 (ABCUV ZRQPBZ - cneg 1 bs 1) EP:/Eha# 30586/ZVPH/801 OBNEQJNYX//NGYNAGVP PVGL/06:36///////ZNELYNAQ & CNPVSVP NIR/
+(ABCUV ZRQPBZ - cneg 1 bs 1) EP:<Haxabja>/Eha# 48101/ZVPH/NYGRERQ ZRAGNY FGNGHF/1519 ONYGVP NIR/312/NGYNAGVP PVGL/05:09////////
+(ABCUV ZRQPBZ - cneg 1 bs 1) EP:<Haxabja>/Eha# 47854/ZVPH/ERFCVENGBEL/1133 OBNEQJNYX/cn nir/NGYNAGVP PVGL/19:03////////
 
 Pbagnpg: Tertbel Oebja <toebja221@tznvy.pbz>
 Fraqre: zrqpbz@ngynagvpner.bet
@@ -99,6 +101,26 @@ choyvp pynff AWNgynagvpnerRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:801 OBNEQJNYX",
         "PVGL:NGYNAGVP PVGL",
         "GVZR:06:36");
+
+    qbGrfg("G2",
+        "(ABCUV ZRQPBZ - cneg 1 bs 1) EP:<Haxabja>/Eha# 48101/ZVPH/NYGRERQ ZRAGNY FGNGHF/1519 ONYGVP NIR/312/NGYNAGVP PVGL/05:09////////",
+        "FEP:ABCUV ZRQPBZ",
+        "VQ:48101",
+        "PNYY:ZVPH/NYGRERQ ZRAGNY FGNGHF",
+        "NQQE:1519 ONYGVP NIR",
+        "NCG:312",
+        "PVGL:NGYNAGVP PVGL",
+        "GVZR:05:09");
+
+    qbGrfg("G3",
+        "(ABCUV ZRQPBZ - cneg 1 bs 1) EP:<Haxabja>/Eha# 47854/ZVPH/ERFCVENGBEL/1133 OBNEQJNYX/cn nir/NGYNAGVP PVGL/19:03////////",
+        "FEP:ABCUV ZRQPBZ",
+        "VQ:47854",
+        "PNYY:ZVPH/ERFCVENGBEL",
+        "NQQE:1133 OBNEQJNYX",
+        "K:cn nir",
+        "PVGL:NGYNAGVP PVGL",
+        "GVZR:19:03");
     
   }
   

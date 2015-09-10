@@ -1,8 +1,5 @@
 package net.anei.cadpage.parsers.NJ;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -13,7 +10,7 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
   
   public NJAtlanticareEMSParser() {
     super(CITY_LIST, "", "NJ",
-           "UNKNOWN? ID! CALL CALLEXT+? ADDR XPLACE+? CITY! TIME!");
+           "UNKNOWN? ID! CALL CALL/L+? ADDR XPLACE+? CITY! TIME!");
   }
   
   @Override
@@ -36,22 +33,26 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
   @Override
   public Field getField(String name) {
     if (name.equals("UNKNOWN")) return new SkipField("<Unknown>");
-    if (name.equals("CALLEXT")) return new CallExtField();
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("XPLACE")) return new CrossPlaceField();
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d");
     return super.getField(name);
   }
   
-  private class CallExtField extends CallField {
+  private static final Pattern ADDR_PTN = Pattern.compile("\\d+ .*|.*[/&].*");
+  private class MyAddressField extends AddressField {
     @Override
     public boolean canFail() {
       return true;
     }
     
-    @Override public boolean checkParse(String field, Data data) {
-      if (!EXT_CALL_LIST.contains(field)) return false;
-      data.strCall = append(data.strCall, "/", field);
-      return true;
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (ADDR_PTN.matcher(field).matches()) {
+        super.parse(field, data);
+        return true;
+      }
+      return super.checkParse(field, data);
     }
     
     @Override
@@ -69,6 +70,8 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
         data.strCross = append(data.strCross, " & ", field.substring(2).trim());
       } else if (APT_PTN.matcher(field).matches()) {
         data.strApt = append(data.strApt, "-", field);
+      } else if (isValidAddress(field)) {
+        data.strCross = append(data.strCross, " & ", field);
       } else {
         data.strPlace = append(data.strPlace, " - ", field);
       }
@@ -79,13 +82,6 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
       return "PLACE X";
     }
   }
-  
-  private static final Set<String> EXT_CALL_LIST = new HashSet<String>(Arrays.asList(
-      "CHEST PAIN",
-      "HEART PROBLEMS",
-      "SYNCOPE",
-      "UNCONSCIOUS PERSON"
-  ));
   
   private static String[] CITY_LIST = new String[] {
   // Atlantic County
