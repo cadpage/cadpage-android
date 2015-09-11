@@ -114,7 +114,6 @@ choyvp pynff AWNgynagvpnerRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:312",
         "PVGL:NGYNAGVP PVGL",
         "GVZR:05:09");
-<<<<<<< HEAD
 
     qbGrfg("G3",
         "(ABCUV ZRQPBZ - cneg 1 bs 1) EP:<Haxabja>/Eha# 47854/ZVPH/ERFCVENGBEL/1133 OBNEQJNYX/cn nir/NGYNAGVP PVGL/19:03////////",
@@ -125,8 +124,6 @@ choyvp pynff AWNgynagvpnerRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:cn nir",
         "PVGL:NGYNAGVP PVGL",
         "GVZR:19:03");
-=======
->>>>>>> 1baa45c63222ce501f5a5996c2a4ec082b27624e
     
   }
   
