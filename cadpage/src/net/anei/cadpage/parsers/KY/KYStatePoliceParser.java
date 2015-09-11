@@ -11,7 +11,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 public class KYStatePoliceParser extends DispatchB2Parser {
   
-  private static final Pattern PREFIX_PTN = Pattern.compile("^(?:KSP DRY RIDGE E-911|KSP CAMPBELLSBURG|911-CENTER):");
+  private static final Pattern REJECT_PREFIX_PTN = Pattern.compile("(?:CARROLLCOUNTY911|HARRISON_COUNTY_911):");
+  private static final Pattern PREFIX_PTN = Pattern.compile("(?:KSP DRY RIDGE E-911|KSP CAMPBELLSBURG|911-CENTER):");
   
   private boolean srcFound;
   
@@ -135,8 +136,8 @@ public class KYStatePoliceParser extends DispatchB2Parser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    // Reject KYHarrisonCountyB alerts
-    if (body.startsWith("HARRISON_COUNTY_911")) return false;
+    // Reject alerts with the wrong prefix
+    if (REJECT_PREFIX_PTN.matcher(body).lookingAt()) return false;
     
     Matcher match = PREFIX_PTN.matcher(body);
     srcFound = match.lookingAt();

@@ -23,7 +23,10 @@ public class UTDavisCountyCParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return parseFields(body.split(";"), data);
+    if (body.indexOf('\n') >= 0) return false;
+    if (!parseFields(body.split(";"), data)) return false;
+    if (isPositiveId()) return true;
+    return CALL_LIST.getCode(data.strCall) != null;
   }
   
   @Override
