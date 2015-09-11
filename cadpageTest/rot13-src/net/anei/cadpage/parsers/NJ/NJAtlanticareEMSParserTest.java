@@ -19,10 +19,7 @@ Pbagnpg: Eboreg Gemrcvmhe <egemrcvmhe@lnubb.pbz>
 Fraqre: zrqpbz@zrqpbz.pbz
 (ABCUV ZRQPBZ - cneg 1 bs 1) EP:/Eha# 30586/ZVPH/801 OBNEQJNYX//NGYNAGVP PVGL/06:36///////ZNELYNAQ & CNPVSVP NIR/
 (ABCUV ZRQPBZ - cneg 1 bs 1) EP:<Haxabja>/Eha# 48101/ZVPH/NYGRERQ ZRAGNY FGNGHF/1519 ONYGVP NIR/312/NGYNAGVP PVGL/05:09////////
-<<<<<<< HEAD
 (ABCUV ZRQPBZ - cneg 1 bs 1) EP:<Haxabja>/Eha# 47854/ZVPH/ERFCVENGBEL/1133 OBNEQJNYX/cn nir/NGYNAGVP PVGL/19:03////////
-=======
->>>>>>> 1baa45c63222ce501f5a5996c2a4ec082b27624e
 
 Pbagnpg: Tertbel Oebja <toebja221@tznvy.pbz>
 Fraqre: zrqpbz@ngynagvpner.bet

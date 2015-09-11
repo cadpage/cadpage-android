@@ -30,6 +30,10 @@ QT911\apurfg cnvaf\a126 qbtjbbq qe srznyr univat purfg cnvaf
 QT911\aOehfu Sver\aPrageny & Erpbirel qvfcngpurq gb 872 Obbfgre Pyho Eq - snyyra cbjreyvarf unir fcnexrq n oehfu sver.
 QT911\a269 Unyrf Ynaqvat Eq \aFgehpgher sver - 269 Unyrf Ynaqvat Eq - Fzbxr va gur erfvqrapr.
 
+QT911\aERD ERPBREL \a446 QRYY EQ  ... YNJ RASBEPRZRAG ERD SBE RKUNHFG SNAF.. GURL NER BHG BA N JNEENAG PURPX ... ERD ERPBIREL
+QT911\a224 Evire Eq\aErpbirel svefg erfcbaqref erdhrfgrq ng 224 Evire Eq sbe qvssvphygl oernguvat.
+
+
 */
 
 choyvp pynff TNQrpnghePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -144,7 +148,18 @@ choyvp pynff TNQrpnghePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:269 Unyrf Ynaqvat Eq",
         "PNYY:Fgehpgher sver",
         "VASB:Fzbxr va gur erfvqrapr.");
-  
+
+    qbGrfg("G18",
+        "QT911\aERD ERPBREL \a446 QRYY EQ  ... YNJ RASBEPRZRAG ERD SBE RKUNHFG SNAF.. GURL NER BHG BA N JNEENAG PURPX ... ERD ERPBIREL",
+        "PNYY:ERD ERPBREL",
+        "NQQE:446 QRYY EQ",
+        "VASB:YNJ RASBEPRZRAG ERD SBE RKUNHFG SNAF.. GURL NER BHG BA N JNEENAG PURPX ... ERD ERPBIREL");
+
+    qbGrfg("G19",
+        "QT911\a224 Evire Eq\aErpbirel svefg erfcbaqref erdhrfgrq ng 224 Evire Eq sbe qvssvphygl oernguvat.",
+        "NQQE:224 Evire Eq",
+        "VASB:Erpbirel svefg erfcbaqref erdhrfgrq ng 224 Evire Eq sbe qvssvphygl oernguvat.");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

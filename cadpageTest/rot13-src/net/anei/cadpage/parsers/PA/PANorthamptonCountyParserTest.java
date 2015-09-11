@@ -30,8 +30,9 @@ Fraqre: _NBFD@abgvslap.bet
 [s35]ERF >ERFPHR (GLCR) 951 F OEBNQJNL JVAQ TNC SRZNYR PNYYRE Znc: Tevqf:0,0 Pnq: 2013-0000027694
 
 Pbagnpg: Zr <fbsgnvy2@cgq.arg>
-Fraqre: nyeg_NG3N@abgvslap.bet
+Fraqre: @abgvslap.bet
 [s26]SVER >SVER TRAREVP (GLCR) 4911 PRQNE TEBIR CNEX YBJRE ZG ORGURY JRFPBR FUNEBA Znc: Tevqf:0,0 Pnq: 2013-0000037135
+[s26]GERR >GERR QBJA SENAXYVA UVYY EQ YBJRE ZG ORGURY ERAR TEHOR Pnq: 2015-0000159333
 
 Pbagnpg: Urael Uraavatf <zlbso23@tznvy.pbz>
 [s20]SVERQ >QJRYYVAT SVER 912-14 PRAGER FG RNFGBA ZNYR PNYYRE Znc: Tevqf:0,0 Pnq: 2012-0000136112
@@ -2520,6 +2521,16 @@ choyvp pynff CNAbegunzcgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YBJRE ZG ORGURY",
         "ANZR:JRFPBR FUNEBA",
         "VQ:2013-0000037135");
+
+    qbGrfg("G2",
+        "[s26]GERR >GERR QBJA SENAXYVA UVYY EQ YBJRE ZG ORGURY ERAR TEHOR Pnq: 2015-0000159333",
+        "HAVG:s26",
+        "PBQR:GERR",
+        "PNYY:GERR QBJA",
+        "NQQE:SENAXYVA UVYY EQ",
+        "PVGL:YBJRE ZG ORGURY",
+        "ANZR:ERAR TEHOR",
+        "VQ:2015-0000159333");
 
   }
   
