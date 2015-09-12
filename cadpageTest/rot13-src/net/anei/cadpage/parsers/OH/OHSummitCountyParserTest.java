@@ -36,13 +36,21 @@ choyvp pynff BUFhzzvgPbhaglCnefreGrfg {
       frgCnefre(arj BUFhzzvgPbhaglCnefre());
     }
   }
+  
   choyvp fgngvp pynff GrfgS rkgraqf BUFhzzvgPbhaglSCnefreGrfg {
     choyvp GrfgS() {
       frgCnefre(arj BUFhzzvgPbhaglCnefre());
     }
   }
+  
   choyvp fgngvp pynff GrfgT rkgraqf BUFhzzvgPbhaglTCnefreGrfg {
     choyvp GrfgT() {
+      frgCnefre(arj BUFhzzvgPbhaglCnefre());
+    }
+  }
+  
+  choyvp fgngvp pynff GrfgUhqfba rkgraqf BUUhqfbaCnefreGrfg {
+    choyvp GrfgUhqfba() {
       frgCnefre(arj BUFhzzvgPbhaglCnefre());
     }
   }

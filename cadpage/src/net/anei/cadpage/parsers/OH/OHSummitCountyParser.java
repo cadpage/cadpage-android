@@ -15,9 +15,17 @@ public class OHSummitCountyParser extends GroupBestParser {
            new OHSummitCountyDParser(),
            new OHSummitCountyEParser(),
            new OHSummitCountyFParser(),
-           new OHSummitCountyGParser());
+           new OHSummitCountyGParser(),
+           new OHHudsonParser());
   }
   
+  
+  @Override
+  public String getLocName() {
+    return "Summit County, OH";
+  }
+
+
   static final String[] CITY_LIST = new String[]{
     
     // Cities
