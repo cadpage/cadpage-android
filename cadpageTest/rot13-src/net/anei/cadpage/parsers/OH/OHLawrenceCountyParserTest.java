@@ -467,7 +467,7 @@ choyvp pynff BUYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:136",
         "PBQR:ZIP",
         "PNYY:Zbgbe Iruvpyr Nppvqrag",
-        "VASB:3 IRUVPYR HAXABJ A VAWHEVRF");
+        "VASB:3 IRUVPYR HAXABJA VAWHEVRF");
 
     qbGrfg("G27",
         "nyreg:[139]- ANGHER: GERR YBPNGVBA: 1500 PB EQ 120 A SNLRGGR G JC PBZZRAGF: pnyyre fgngrf gurer vf n gerr oybpxvat ebnqjnl, hafher bs ubj sne hc Znp. Ebnq, fgngrf vgf hc gur ovt uvyy va n pheir.",

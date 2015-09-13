@@ -110,7 +110,8 @@ choyvp pynff TNQnqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver - Nynez Pbzz/Vaqhfg",
         "NQQE:14049 FPRAVP UJL",
         "CYNPR:JRFG OEBJ",
-        "K:HAXABJA / SEBAGVRE OYHSS EQ PBIRANAG PBYYRTR",
+        "K:HAXABJA / SEBAGVRE OYHSS EQ",
+        "ANZR:PBIRANAG PBYYRTR",
         "VASB:PNEGRE UNYY SVER NYNEZ");
 
     qbGrfg("G7",

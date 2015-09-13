@@ -533,6 +533,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "RR",
         "RR TRACKS",
         "TRAILER PARK",
+        "UNKNOWN",
         "UNNAMED STREET"
     );
     
@@ -2327,7 +2328,9 @@ public abstract class SmartAddressParser extends MsgParser {
     // Except some times there really is cross street information following
     // the address, in which case just ignore all the above
     if (!crossFollows) {
-      if (isRealRoadSuffix(endNdx+1) || isRealRoadSuffix(endNdx+2)) return -1;
+      if (!isType(endNdx, ID_CROSS_STREET) && !isType(endNdx+1, ID_CROSS_STREET)) {
+        if (isRealRoadSuffix(endNdx+1) || isRealRoadSuffix(endNdx+2)) return -1;
+      }
     }
     
     // Looks good, lets return this
