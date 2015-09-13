@@ -278,6 +278,7 @@ public class ParserList {
               ,"FLCollierCounty"                ,"Collier County, FL"
               ,"FLCoralSprings"                 ,"Coral Springs, FL"
               ,"FLCrestview"                    ,"Crestview, FL"
+              ,"FLEscambiaCounty"               ,"Escambia County, FL"
               ,"FLGulfBreeze"                   ,"Gulf Breeze, FL"
               ,"FLHendryCounty"                 ,"Hendry County, FL"
               ,"FLHernandoCounty"               ,"Hernando County, FL"
