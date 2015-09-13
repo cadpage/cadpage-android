@@ -55,6 +55,10 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
     
+    qbGrfg(NQQE, SYNT_VZCYVRQ_VAGREFRPG, "3510 A FGUL 11 XRA GBJA  KF: ORNE GEY / OEVQTR 1 OEVQTR QBYYNE TRARENY A FGUL 11",
+        "NQQE:3510 A FGUL 11",
+        "PVGL:XRA GBJA");
+    
     qbGrfg(NQQE, SYNT_VZCYVRQ_VAGREFRPG | SYNT_NAPUBE_RAQ, "NQRYNVQR EQ XRA GBJA",
         "NQQE:NQRYNVQR EQ",
         "PVGL:XRA GBJA");

@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class SCOconeeCountyAParser extends FieldProgramParser {
   
-  private static final Pattern ID_PTN = Pattern.compile(" +(\\d{4}-\\d{8})\\b");
+  private static final Pattern ID_PTN = Pattern.compile(" *(\\d{4}-\\d{8})\\b");
   private static final Pattern DATE_TIME_MARK = Pattern.compile("  +(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)\\b");
   private static final Pattern DATE_TIME_MARK2 = Pattern.compile("^(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)\\b");
   private static final String DATE_TIME_MARK3 = "NN/NN/NN NN:NN";
@@ -34,7 +34,15 @@ public class SCOconeeCountyAParser extends FieldProgramParser {
     // Strip off trailing disclaimer
     int pt = body.indexOf("\n___");
     if (pt >= 0) body = body.substring(0,pt).trim();
+    body = body.replace("Narr:", " Narr:");
     return super.parseMsg(body, data);
+  }
+  
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("BASE")) return new BaseField();
+    if (name.equals("UNIT")) return new MyUnitField();
+    return super.getField(name);
   }
   
   private class BaseField extends Field {
@@ -93,7 +101,21 @@ public class SCOconeeCountyAParser extends FieldProgramParser {
       parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, sAddr, data);
       String left = getLeft();
       if (left.startsWith("XS:")) {
-        data.strCross = append(data.strCross, " & ", left.substring(3).trim());
+        String cross = left.substring(3).trim();
+        parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, cross, data);
+        cross = getLeft();
+        while (isCommaLeft()) {
+          String saveCross = data.strCross;
+          data.strCross = "";
+          parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, cross, data);
+          data.strCross = append(saveCross, ", ", data.strCross);
+          cross = getLeft();
+        }
+        if (cross.startsWith("/")) {
+          data.strCross = append(data.strCross, " / ", cross.substring(1).trim());
+        } else {
+          data.strPlace = cross;
+        }
       } else {
         Parser p  = new Parser(getLeft());
         data.strPlace = p.get(" XS:");
@@ -103,7 +125,7 @@ public class SCOconeeCountyAParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "CALL ADDR X CITY ID DATE TIME";
+      return "CALL ADDR CITY X PLACE ID DATE TIME";
     }
   }
   
@@ -116,13 +138,6 @@ public class SCOconeeCountyAParser extends FieldProgramParser {
     }
   }
   
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("BASE")) return new BaseField();
-    if (name.equals("UNIT")) return new MyUnitField();
-    return super.getField(name);
-  }
-  
   private static final String[] CITY_LIST = new String[]{
     "SALEM",
     "SENECA",
@@ -130,6 +145,7 @@ public class SCOconeeCountyAParser extends FieldProgramParser {
     "WEST UNION",
     "WESTMINSTER",
     
+    "FAIRPLAY",
     "FAIR PLAY",
     "LONG CREEK",
     "MOUNTAIN REST",
