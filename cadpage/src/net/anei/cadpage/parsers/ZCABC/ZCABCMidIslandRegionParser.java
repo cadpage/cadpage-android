@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class ZCABCMidIslandRegionParser extends FieldProgramParser {
   
-  private static final Pattern SRC_PTN = Pattern.compile("(BEAVER CREEK|CAMPBELL RIVER|CHERRY CREEK|COMOX|COURTENAY|CUMBERLAND|DENMAN ISLAND|FANNY BAY|HORNBY ISLAND|OYSTER RIVER|PT ALBERNI|SPROAT LAKE|TOFINO|UNION BAY) *(.*)");
+  private static final Pattern SRC_PTN = Pattern.compile("(BEAVER CREEK|CAMPBELL RIVER|CHERRY CREEK|COMOX|COURTENAY|CUMBERLAND|DENMAN ISLAND|FANNY BAY|HORNBY ISLAND|OYSTER RIVER|PT ALBERNI|PT HARDY|SPROAT LAKE|TOFINO|UNION BAY) *(.*)");
   private static final Pattern GPS_PTN = Pattern.compile("\\(?([-+]?[\\d:\\.]+),([-+]?[\\d:\\.]+)\\)");
   private static final Pattern TRAIL_GPS_PTN = Pattern.compile("(.*)\\{(.*)\\}");
   private static final Pattern GPS_PTN2 = Pattern.compile("([-+]?\\d+)(\\d{6}),([-+]?\\d+)(\\d{6})");
@@ -24,9 +24,12 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
     super(defCity, defState, "CALL? ADDR/ZSC CITY DATETIME!");
     setupCallList(CALL_LIST);
     setupMultiWordStreets(
+        "ACLE BEACH",
         "AVRO ARROW",
+        "BEAR CAT",
         "BEAVER CK",
         "BEAVER CREEK",
+        "BLACK BEAR",
         "BUCKLEY BAY",
         "BUENA VISTA",
         "CAMPBELL RIVER",
@@ -35,19 +38,27 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
         "CHERRY CK",
         "CHERRY CREEK",
         "CHESTERMAN BEACH",
+        "COAL HARBOUR",
         "COLLEGE CAMPUS",
         "COMOX LAKE",
+        "COMOX LOGGING",
+        "COMOX VALLEY",
         "COUGAR SMITH",
         "CROWN ISLAND",
         "CROWN ISLE",
+        "DISCOVERY HARBOUR",
         "DOLLY VARDEN",
         "FORBIDDEN PLATEAU",
         "FOREST GROVE",
         "GLACIER VIEW",
+        "GOLD RIVER",
+        "HARDY BAY",
         "HORNE LAKE",
         "INLAND ISLAND",
         "IRON RIVER",
+        "JENSEN COVE",
         "KEITH WAGNER",
+        "KYE BAY",
         "LACEY LAKE",
         "LACY LAKE",
         "LAKE TRAIL",
@@ -55,10 +66,12 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
         "LITTLE RIVER",
         "LITTLE TRIBUNE BAY",
         "LONE CONE",
+        "LONG BEACH PARK ACCESS",
         "MACKENZIE BEACH",
         "MAPLE RIDGE",
         "MARTIN PARK",
         "MCCOY LAKE",
+        "MCIVOR LAKE",
         "MIRACLE BEACH",
         "MYSTERY BEACH",
         "PACIFIC RIM",
@@ -69,20 +82,28 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
         "PORT AUGUSTA",
         "PT ALBERNI",
         "RADAR HILL",
+        "ROCK BAY",
         "ROY CREEK",
         "SALMON POINT",
         "SEA LION",
         "SHINGLE SPIT",
+        "SHIPS POINT",
         "ST ANNS",
         "ST JOHN'S POINT",
+        "ST JOHNS POINT",
         "STIRLING ARM",
         "TAYLOR ARM",
+        "THE POINT",
+        "TONQUIN PARK",
         "TRIBUNE BAY PROVINCIAL",
+        "TSULQUATE IR",
         "VALLEY VIEW",
+        "WALKER FRONTAGE",
         "WALTER GAGE",
         "WILLIAMS BEACH",
         "WILLIAMS BEACH",
         "YEW WOOD"
+
     );
   }
   
@@ -267,6 +288,7 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
       "RESCUE - ROAD",
       "RESCUE ROAD",
       "RESCUE",
+      "STRUCTURE - SMOKE(FIRE IS OUT)",
       "STRUCTURE  - FIRE",
       "STRUCTURE - ELECTRICAL TROUBLE",
       "STRUCTURE - FIRE",
