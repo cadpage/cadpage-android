@@ -710,7 +710,7 @@ class Active911Vendor extends Vendor {
       "US/NY/OneidaIAR",                  "NYOneidaCounty",
       "US/NY/OnondagaCounty",             "NYOnondagaCountyA",
       "US/NY/OntarioCounty",              "NYOntarioCounty",
-      "US/NY/OrangeCounty",               "NYOrangeCounty",
+      "US/NY/OrangeCounty",               "NYOrangeCountyB",
       "US/NY/OrangeCounty911",            "NYOrangeCountyB",
       "US/NY/OrleansCounty",              "NYOrleansCounty",
       "US/NY/OswegoCounty",               "NYOswegoCountyB",

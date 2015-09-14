@@ -74,7 +74,7 @@ public class DispatchPrintrakParser extends FieldProgramParser {
         (version == FLG_VERSION_1 ?
             "( TIME:TIME_INFO! TYP:CALL " +
             "| AD:ADDR! LOC:CITY TIME:TIME_INFO! TYP:CALL " +
-            "| PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE CN:NAME CMT1:" + cmt1Fld +  
+            "| PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE XST:X CN:NAME CMT1:" + cmt1Fld +  
               " Original_Location:PLACE2? CMT2:INFO Original_Location:PLACE2? CE:INFO? CMT2:INFO CALLER_STATEMENT:INFO? STATEMENT:INFO? TIME:TIME UNTS:UNIT XST:X XST2:X UNTS:UNIT XST:X XST2:X )"
         : version == FLG_VERSION_2 ?
             "TYP:CALL! LOC:PLACE! AD:ADDR/S! XST:X! CMT1:INFO! UNTS:UNIT!"
@@ -92,7 +92,7 @@ public class DispatchPrintrakParser extends FieldProgramParser {
       data.strSource = match.group(1);
       body = match.group(2);
     }
-    body = body.replace(" CMTS:", " CMT1:").replace("AD:", " AD:");
+    body = body.replace(" CMTS:", " CMT1:").replace("CMT:",  " CMT1:").replace("AD:", " AD:");
     body = body.replace(" CALLER / STATEMENT:", " CALLER STATEMENT:");
     body = body.replace(" CALLER CMT2:", " CMT2:");
     return super.parseMsg(body.trim(), data);
