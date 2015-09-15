@@ -67,14 +67,22 @@ public class CodeTable {
     codeMap.put(key, value);
   }
 
-
   /**
    * Look for a call description corresponding to a specific code
    * @param code call code
    * @return description associated with code or null if none found
    */
   public String getCodeDescription(String code) {
-    Result res = getResult(code);
+    return getCodeDescription(code, false);
+  }
+
+  /**
+   * Look for a call description corresponding to a specific code
+   * @param code call code
+   * @return description associated with code or null if none found
+   */
+  public String getCodeDescription(String code, boolean reqSpace) {
+    Result res = getResult(code, reqSpace);
     if (res == null) return null;
     return res.getDescription();
   }
