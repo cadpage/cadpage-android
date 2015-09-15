@@ -785,7 +785,7 @@ class Active911Vendor extends Vendor {
       "US/OK/MayesCounty",                "OKMayesCounty",
       "US/OR/Benton",                     "ORBentonCounty",
       "US/OR/CityofSalem",                "ORMarionCountyB",
-      "US/OR/CityofSeaside",              "ORClatsopCounty",
+      "US/OR/ClatsopCounty",              "ORClatsopCounty",
       "US/OR/ClackamasCounty",            "ORClackamasCountyA,ORClackamasCountyD",
       "US/OR/ColumbiaCounty",             "ORColumbiaCounty",
       "US/OR/CookCounty",                 "ORCookCounty",
