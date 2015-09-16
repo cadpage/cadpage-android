@@ -75,6 +75,16 @@ UHQPRA¡yvoreglupf.bet Pnyy Pnapryyrq: Nffvtarq:03:18 Ba Fprar:03:18 Pnapryyrq:0
 UHQPRA¡yvoreglupf.bet Havg:324 Wrefrl Pvgl Erfc:Oebnqjnl / Jnyrf Nir Ncg. /Zna/Jbzna Qbja Pebff: 4:22 NZ
 UHQPRA¡yvoreglupf.bet Gvzrf: Nffvtarq:04:22 Ng Fprar:04:26 Qrcneg:04:34 Qrfg:04:41 Erfcbafr Ahzore:13-082125 4:41 NZ
 
+Pbagnpg: Noenunz Rvfraoret <norrvfraoret@tznvy.pbz>
+Fraqre: UHQPRA@oneanonfurnygu.bet
+Havg:452     Wrefrl Pvgl      Erfc:525 Zbazbhgu Fg                Ncg.318       Unzvygba Cnex FAS             /NZF            Pebff:9gu Fg/10gu Fg
+Havg:452     Ubobxra          Erfc:400 1fg Fg                     Ncg.4-R                                     /Hapbafpvbhf    Pebff:Tenaq Fg/Nqnzf Fg
+Havg:452     Havba Pvgl       Erfc:402 43eq Fg                    Ncg.1FG SY    K-ENL QVNABT ORETRAYA         /Oernguvat QvssvPebff:Arj Lbex Nir/Oretrayva
+Havg:452     Wrefrl Pvgl      Erfc:525 Zbazbhgu Fg                Ncg.318       Unzvygba Cnex FAS             /NZF            Pebff:9gu Fg/10gu Fg
+
+Znc:UP1/V9  #15-065806
+
+
 */
 
 choyvp pynff AWWPZPRZFWrefrlPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -404,7 +414,8 @@ choyvp pynff AWWPZPRZFWrefrlPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:324",
         "PVGL:Wrefrl Pvgl",
         "NQQE:355 Tenaq Fg",
-        "NCG:7R/ 6-1 WPZP-7R-C/H 1830",
+        "NCG:7R/ 6-1",
+        "CYNPR:WPZP-7R-C/H 1830",
         "PNYY:Genafsre OYF Nz",
         "K:Wrefr",
         "GVZR:17:54:00");
@@ -487,7 +498,8 @@ choyvp pynff AWWPZPRZFWrefrlPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:324",
         "PVGL:Wrefrl Pvgl",
         "NQQE:355 Tenaq Fg",
-        "NCG:RE Wrefrl Pvgl Zrqvpny Pragre RE",
+        "NCG:RE",
+        "CYNPR:Wrefrl Pvgl Zrqvpny Pragre RE",
         "PNYY:Genafsre OYF Nz",
         "K:Wrefr",
         "GVZR:23:08:00");
@@ -504,8 +516,8 @@ choyvp pynff AWWPZPRZFWrefrlPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:324",
         "PVGL:Wrefrl Pvgl",
         "NQQE:Pyraqraal Nir & Znyybel Nir",
-        "NCG:B/F /Zna",
-        "PNYY:Jbzna Qbja",
+        "NCG:B/F",
+        "PNYY:Zna/Jbzna Qbja",
         "GVZR:23:09:00");
 
     qbGrfg("G40",
@@ -593,8 +605,7 @@ choyvp pynff AWWPZPRZFWrefrlPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:324",
         "PVGL:Wrefrl Pvgl",
         "NQQE:Oebnqjnl & Jnyrf Nir",
-        "NCG:/Zna",
-        "PNYY:Jbzna Qbja",
+        "PNYY:Zna/Jbzna Qbja",
         "GVZR:04:22:00");
 
     qbGrfg("G51",
@@ -604,6 +615,50 @@ choyvp pynff AWWPZPRZFWrefrlPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:Nffvtarq:04:22 Ng Fprar:04:26 Qrcneg:04:34 Qrfg:04:41",
         "GVZR:04:41:00");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgNoenunzRvfraoret() {
+
+    qbGrfg("G1",
+        "Havg:452     Wrefrl Pvgl      Erfc:525 Zbazbhgu Fg                Ncg.318       Unzvygba Cnex FAS             /NZF            Pebff:9gu Fg/10gu Fg",
+        "HAVG:452",
+        "PVGL:Wrefrl Pvgl",
+        "NQQE:525 Zbazbhgu Fg",
+        "NCG:318",
+        "CYNPR:Unzvygba Cnex FAS",
+        "PNYY:NZF",
+        "K:9gu Fg/10gu Fg");
+
+    qbGrfg("G2",
+        "Havg:452     Ubobxra          Erfc:400 1fg Fg                     Ncg.4-R                                     /Hapbafpvbhf    Pebff:Tenaq Fg/Nqnzf Fg",
+        "HAVG:452",
+        "PVGL:Ubobxra",
+        "NQQE:400 1fg Fg",
+        "NCG:4-R",
+        "PNYY:Hapbafpvbhf",
+        "K:Tenaq Fg/Nqnzf Fg");
+
+    qbGrfg("G3",
+        "Havg:452     Havba Pvgl       Erfc:402 43eq Fg                    Ncg.1FG SY    K-ENL QVNABT ORETRAYA         /Oernguvat QvssvPebff:Arj Lbex Nir/Oretrayva",
+        "HAVG:452",
+        "PVGL:Havba Pvgl",
+        "NQQE:402 43eq Fg",
+        "NCG:1FG SY",
+        "CYNPR:K-ENL QVNABT ORETRAYA",
+        "PNYY:Oernguvat Qvssv",
+        "K:Arj Lbex Nir/Oretrayva");
+
+    qbGrfg("G4",
+        "Havg:452     Wrefrl Pvgl      Erfc:525 Zbazbhgu Fg                Ncg.318       Unzvygba Cnex FAS             /NZF            Pebff:9gu Fg/10gu Fg",
+        "HAVG:452",
+        "PVGL:Wrefrl Pvgl",
+        "NQQE:525 Zbazbhgu Fg",
+        "NCG:318",
+        "CYNPR:Unzvygba Cnex FAS",
+        "PNYY:NZF",
+        "K:9gu Fg/10gu Fg");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
