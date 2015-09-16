@@ -31,15 +31,28 @@ Pbagnpg: "Xryyra Pbftebir" <yisq20@tznvy.pbz>
 [PNQ Cntr]  ZRQVPNY, OENIB; YNLGBAIVYYR SVERUBHFR @ 44950 JVYYVF NI ,YNLG ; Vap# 005464K: -123 29.0915  L: 39 41.2270 YIS-C; CBFF JNYX VA
 
 Pbagnpg: Zvxr <pncggjvttl@tznvy.pbz>
+Pbagnpg: Znlaneq, Zvpunry@PNYSVER <Zvpunry.Znlaneq@sver.pn.tbi>
 Fraqre: zrhpnq@sver.pn.tbi
 ZRQ, GENSSVP PBYYVFVBA; 736 PVAQRR QE / 736 F BEPUNEQ NIR ,HXVNU_PVGL ; ; ; Znc: 82/1019;  L: 39 8.60700 K: -123 11.8873; ryqreyl srzny yrt vawhel cq ng fprar ; O1113 R1183 Z9111 HXFUVSGVap# 009233 ; Pzq: ERQ; Gnp: GNP 2; ; uggc://zncf.tbbtyr.pbz/?d=39.143450,-123.198123
 SVER, JVYQYNAQ; 136 YRFYVR FG ,HXVNU_PVGL ; ; ; Znc: 82/1019;  L: 39 9.03222 K: -123 12.1390; TENFF SVER, NPPRFF BSS BS CREXVAF OL ENVYEBNQ FGNGVBA ; O1113 R1183 HXNYYVap# 009248 ; Pzq: OYHR; Gnp: ISVER 23; ; uggc://zncf.tbbtyr.pbz/?d=39.150537,-123.202318
+SVER, JVYQYNAQ; 35501 RHERXN FGNTRPBNPU EQ ,YNLGBAIVYYR ; ; ; Znc: 39;  L: 39 33.3625 K: -123 30.3409; irtrgngvba sver (ZNEVWHNAN BCRENGVBA) ; O1113 O1120 OPF RAT1195 ; Vap# 010036 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.556042,-123.505682
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Yvggyr Ynxr Sver Cebgrpgvba Qvfgevpg
 Ybpngvba: Jvyyvgf, PN, Havgrq Fgngrf
 Fraqre: zrhpnq@sver.pn.tbi
 
+{PNQ Cntr} ZRQVPNY, OENIB; UJL 20 ZC 019.25 @ =Y(39.347364,-123.524401) ,SBEG_OENTT ; ; ; Znc: 182;  L: 39 20.8418 K: -123 31.4640; pnyy obk ng 19.24 911 unathc ; YGY ; Vap# 010013 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.347364,-123.524401
+{PNQ Cntr} SVER, QROEVF; 29250 A UJL 101 ,JVYYVGF ; ; ; Znc: 46;  L: 39 29.4813 K: -123 21.8002; qroevf ; YGYVap# 009909 ; Pzq: YBPNY; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.491355,-123.363338
+{PNQ Cntr} BGU, ZVFPRYYNARBHF; UJL 20 ZC 044.11 YNXR PB YVAR @ =Y(39.191581,-123.040280) ,CBGGRE_INYYRL ; ; ; Znc: 84;  L: 39 11.4948 K: -123 2.41680; ZRRG NG UJL 20 / UJL 29 NG PYRNEYNXR, PURIEBA TNF FGNGVBA \aFG2150P &tg; NRH024918 &tg; OHGGR VAPVQRAG &tg; ERDHRFG = R-221\aFGY WBUA GBZRA = 707-354-4039 &tg;&tg; CGN, NIL, YGY, RYX, YNL \a\a ; NIL RXI YNL YGY CGNVap# 009772 ; Pzq: ; Gnp: ; ; uggc://zncf.tbbtyr.pbz/?d=39.191581,-123.040280
+{PNQ Cntr} BGU, ZVFPRYYNARBHF; HXVNU SNVETEBHAQF @ 1055 A FGNGR FG ,HXVNU_PVGL ; ; ; Znc: 82/1019;  L: 39 9.79746 K: -123 12.6024; FGEVXR BS KZR GLCR 3 RATVARF GB ZRRG NG HXVNU SNVETEBHAQF GB TBGB NRH, NZNQBE SNVETEBHAQF.\aFG YRNQRE GB OR QRGREZVARQ.\aUBC// NIL// YGY// SO// FPS = SQ PBZCBARAGF. ; NIL SO UBC YGY FPSVap# 009738 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.163291,-123.210041
+{PNQ Cntr} SVER, JVYQYNAQ; BVY JRYY UVYY ZC 51.70 @ =Y(39.472508,-123.363416) ,JVYYVGF ; ; ; Znc: 46;  L: 39 28.3504 K: -123 21.8049; iruvpyr sver - sver abj bhg ; NN120[137Q 74] URY101[330Q 8] G90[326Q 22] G91[326Q 22] NQZVA PPE2 QBM1142 R1152 R1154 R1182 YGYVap# 009639 ; Pzq: PBZZNAQ 8; Gnp: GNP 2; ; uggc://zncf.tbbtyr.pbz/?d=39.472508,-123.363416
+{PNQ Cntr} SVER, IRU CNFFRATRE; BVY JRYY UVYY ZC 51.70 @ =Y(39.472508,-123.363416) ,JVYYVGF ; ; ; Znc: 46;  L: 39 28.3504 K: -123 21.8049; iruvpyr sver - sver abj bhg ; NQZVA O1113 R1152 YGYVap# 009639 ; Pzq: PBZZNAQ 8; Gnp: GNP 2; ; uggc://zncf.tbbtyr.pbz/?d=39.472508,-123.363416
+{PNQ Cntr} SVER, JVYQYNAQ; 1650 QNCUAR QE ,OEBBXGENVYF ; ; ; Znc: 50/1003;  L: 39 27.1596 K: -123 22.7181; IRT SVER ; YGYVap# 009604 ; Pzq: PBZZNAQ 8; Gnp: GNP 2; ; uggc://zncf.tbbtyr.pbz/?d=39.452660,-123.378635
+{PNQ Cntr} SVER, ERFVQRAGVNY NYNEZ; 16000 URNEFG JVYYVGF EQ ,JVYYVGF ; ; ; Znc: 48;  L: 39 29.9196 K: -123 12.8432; AB GRKG ; YGYVap# 009541 ; Pzq: YBPNY; Gnp: ISVER 22; ; uggc://zncf.tbbtyr.pbz/?d=39.498660,-123.214054
+{PNQ Cntr} SVER, JVYQYNAQ; 2300 UJL 20 ,JVYYVGF ; ; ; Znc: 54;  L: 39 24.1402 K: -123 23.3884; TNGR PBZOB 0911, ZC 30.88, ; NN110[318Q 19] URY101[301Q 5] G90[318Q 19] G91[318Q 19] NQZVA O1112 PPE1 QBM1142 R1154 R1164 R1184 R1192 YGYVap# 009535 ; Pzq: PBZZNAQ 8; Gnp: GNP 2; ; uggc://zncf.tbbtyr.pbz/?d=39.402338,-123.389807
+{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; QE EHRQ'F BSSVPR @ 361 F ZNVA FG ,JVYYVGF ; ; ; Znc: 55/1006;  L: 39 24.4926 K: -123 21.1774; 2 iruf ; YGY Z9133Vap# 009444 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.408211,-123.352957
+{PNQ Cntr} ZRQVPNY, OENIB; 4165 OYNPXUNJX QE ,JVYYVGF ; ; ; Znc: 58;  L: 39 21.4663 K: -123 22.2632; srznyr bire gur onax zpfb va gur nern \a39.21277 -12321968 ; YGY Z9132Vap# 009413 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.357773,-123.371054
 {PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 101 ZC 039.00 @ =Y(39.309969,-123.299103) ,JVYYVGF ; ; ; Znc: 55/1007;  L: 39 18.5981 K: -123 17.9461; IRUVPYR BA VGF FVQR- ORGJRRA TBYQRA EHYR NAQ EBPX DHREL. ; O1113 R1152 YGY Z9132Vap# 009221 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.309969,-123.299103
 {PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 20 ZC 023.50 @ =Y(39.376877,-123.491919) ,JVYYVGF ; ; ; Znc: 177;  L: 39 22.6126 K: -123 29.5151; bireghea frzv \azpfb ng erdhrfg pbqr 2 sbe nez vawhel ; YGY Z9133Vap# 009154 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.376877,-123.491919
 {PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 101 ZC 042.05/EE BIRECNFF @ =Y(39.355084,-123.319786) ,JVYYVGF ; ; ; Znc: 58;  L: 39 21.3050 K: -123 19.1871; ZC 42.58 bar iruvpyr bireghea va gur ebnq ; R1151 YGY Z9133Vap# 009152 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.355084,-123.319786
@@ -72,18 +85,6 @@ Fraqre: zrhpnq@sver.pn.tbi
 {PNQ Cntr} SVER, JVYQYNAQ; 21100 YBPHFG FG ,JVYYVGF ; ; ; Znc: 55/1006;  L: 39 23.5353 K: -123 21.2902; AB GRKG ; NQZVA O1112 QBM1142 R1152 R1172 YGYVap# 007430 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.392256,-123.354838
 {PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; 1400 F ZNVA FG / 2 ONRPUGRY EQ ,JVYYVGF ; ; ; Znc: 55/1006;  L: 39 23.8510 K: -123 20.9691; JCQ NG FPRAR. GJB IRUVPYRF JVGU NA NVE ONT QRCYBLZRAG ; YGY Z9132Vap# 007372 ; Pzq: ERQ; Gnp: PNYPBEQ; 2aqGnp: ; NVE2TAQ: ; ; uggc://zncf.tbbtyr.pbz/?d=39.397517,-123.349486
 {PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 20 ZC 025.00 @ =Y(39.385610,-123.472563) ,JVYYVGF ; ; ; Znc: 177;  L: 39 23.1366 K: -123 28.3537; wrrc bire gur fvqr...haxabja vaw ; PF4[307Q 20] R1195 YGY Z9133Vap# 007319 ; Pzq: ERQ; Gnp: PNYPBEQ; 2aqGnp: ; NVE2TAQ: NVE GB TEAQ; ; uggc://zncf.tbbtyr.pbz/?d=39.385610,-123.472563
-{PNQ Cntr} ZRQ - ERFPHR; 23325 YVIR BNX EQ ,JVYYVGF ; ; ; Znc: 51;  L: 39 24.9881 K: -123 18.6085; 66 LBZ CVAARQ HAQRE ZBGBEPLYPR, ABA VAWHEL ; YGY Z9132Vap# 007280 ; Pzq: ERQ; Gnp: PNYPBEQ; 2aqGnp: ; NVE2TAQ: ; ; uggc://zncf.tbbtyr.pbz/?d=39.416469,-123.310142
-{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 20 ZC 026.00 @ =Y(39.392664,-123.461782) ,JVYYVGF ; ; ; Znc: 177;  L: 39 23.5598 K: -123 27.7069; Fvatyr iru GP ZC 26.4 ; R1195 YGY Z9133Vap# 007249 ; Pzq: ERQ; Gnp: PNYPBEQ; 2aqGnp: ; NVE2TAQ: NVE GB TEAQ; ; uggc://zncf.tbbtyr.pbz/?d=39.392664,-123.461782
-{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 20 ZC 022.00 @ =Y(39.366033,-123.500839) ,JVYYVGF ; ; ; Znc: 177;  L: 39 21.9619 K: -123 30.0503; RO UJL 20, ZC 22.04, jnyxvat jbhaqrq, PNYGENAF NG FPRAR\aoynpx frqna ba vgf fvqr ; PF4[302Q 20] R1195 YGY Z9132Vap# 007205 ; Pzq: ERQ; Gnp: PNYPBEQ; 2aqGnp: ; NVE2TAQ: NVE GB TEAQ; ; uggc://zncf.tbbtyr.pbz/?d=39.366033,-123.500839
-{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 20 ZC 025.00 @ =Y(39.385610,-123.472563) ,JVYYVGF ; Vap# 007032K: -123 28.3537 L: 39 23.1366 ERNPU18[215Q 6] R1195 YGY Z9132; juvgr hgvyvgl ba gur ujl 2aq iruvpyr bss gur ebnqjnl Pzq: ERQ; Gnp: PNYPBEQ; uggc://zncf.tbbtyr.pbz/?d=39.385610,-123.472563
-{PNQ Cntr} ZRQVPNY, QRYGN; 2100 OYNPXUNJX QE #GEYE ,JVYYVGF ; Vap# 007020K: -123 20.4134 L: 39 20.9357 R1172 YGY Z9132; 72 lbz haerfcbafvir ohg oernguvat Pzq: ERQ; Gnp: PNYPBEQ; uggc://zncf.tbbtyr.pbz/?d=39.348929,-123.340224
-{PNQ Cntr} ZRQVPNY, OENIB; 2 R FNA SENAPVFPB NIR / 400 F ZNVA FG ,JVYYVGF ; Vap# 006950K: -123 21.1474 L: 39 24.4463 YGY; erd zrqvp havg Pzq: ERQ; Gnp: PNYPBEQ; uggc://zncf.tbbtyr.pbz/?d=39.407439,-123.352457
-{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 101 ZC 043.00 @ =Y(39.365867,-123.315698) ,JVYYVGF ; Vap# 006932K: -123 18.9418 L: 39 21.9520 R1152 YGY Z9132; iru \afo 101 fbhgu bs fpnyrf, WFB BS US Pzq: ERQ; Gnp: PNYPBEQ; uggc://zncf.tbbtyr.pbz/?d=39.365867,-123.315698
-{PNQ Cntr} SVER, JVYQYNAQ; 15100 A UJL 101 /   EVQTRJBBQ ENAPU EQ ,JVYYVGF ; Vap# 006913K: -123 18.0685 L: 39 19.4393 NN110[325Q 13] URY101[136Q 2] NQZVA O1113 PPE3 QBM1142 R1152 R1173 R1175 R1192 YGY; AB GRKG Pzq: PBZZNAQ 8; Gnp: GNP 2; uggc://zncf.tbbtyr.pbz/?d=39.323989,-123.301142
-{PNQ Cntr} SVER, JVYQYNAQ; UJL 20 ZC 029.25 @ =Y(39.390502,-123.411483) ,JVYYVGF ; Vap# 006838K: -123 24.6889 L: 39 23.4301 NN110[314Q 19] URY101[287Q 5] G90[314Q 19] G91[314Q 19] NQZVA O1112 PPE1 QBM1143 R1152 R1154 R1172 R1173 YGY; JUVGR FZBXR, ABEGU FVQR BS UJL 20... Pzq: PBZZNAQ 8; Gnp: GNP 2; uggc://zncf.tbbtyr.pbz/?d=39.390502,-123.411483
-{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; A UJL 101 / 18000 JNYXRE EQ ,JVYYVGF ; Vap# 006707K: -123 18.9329 L: 39 21.7368 YGY Z9133; AO 101 WFB Jnyxre 2 iru ba gur fvqr Pzq: ERQ; Gnp: PNYPBEQ; uggc://zncf.tbbtyr.pbz/?d=39.362280,-123.315549
-{PNQ Cntr} SVER, IRU CNFFRATRE; UJL 101 ZC 041.00 @ =Y(39.342221,-123.315976) ,JVYYVGF ; Vap# 006677K: -123 18.9585 L: 39 20.5332 R1172 R1192 YGY H1154; Ercbegrq Iruvpyr Sver AO 101 @ gehpx fpnyrf. Pzq: PBZZNAQ 8; Gnp: GNP 2; uggc://zncf.tbbtyr.pbz/?d=39.342221,-123.315976
-{PNQ Cntr} ZRQQ: HAPBAFPVBHF / SNVAG; 4120 OYNPXUNJX QE ,JVYYVGF ; Vap# 006645K: -123 22.1101 L: 39 21.3781 R1172 YGY; znyr cnffrq bhg Pzq: ERQ; Gnp: PNYPBEQ; uggc://zncf.tbbtyr.pbz/?d=39.356303,-123.368503
 
 *** ABG CNEFVAT LRG ***
 Pbagnpg: Wrss Naqrefba <wrssnaqrefba201169@lnubb.pbz>
@@ -322,6 +323,18 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:O1113 R1183 HXNYY",
         "VQ:009248",
         "PU:OYHR/ISVER 23");
+
+    qbGrfg("G3",
+        "SVER, JVYQYNAQ; 35501 RHERXN FGNTRPBNPU EQ ,YNLGBAIVYYR ; ; ; Znc: 39;  L: 39 33.3625 K: -123 30.3409; irtrgngvba sver (ZNEVWHNAN BCRENGVBA) ; O1113 O1120 OPF RAT1195 ; Vap# 010036 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.556042,-123.505682",
+        "PNYY:SVER, JVYQYNAQ",
+        "NQQE:35501 RHERXN FGNTRPBNPU EQ",
+        "PVGL:YNLGBAIVYYR",
+        "VASB:irtrgngvba sver (ZNEVWHNAN BCRENGVBA)",
+        "ZNC:39",
+        "TCF:+39.556042,-123.505682",
+        "HAVG:O1113 O1120 OPF RAT1195",
+        "VQ:010036",
+        "PU:ERQ/PNYPBEQ");
     
   }
 
@@ -329,6 +342,156 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgYvggyrYnxrSverCebgrpgvbaQvfgevpg() {
 
     qbGrfg("G1",
+        "{PNQ Cntr} ZRQVPNY, OENIB; UJL 20 ZC 019.25 @ =Y(39.347364,-123.524401) ,SBEG_OENTT ; ; ; Znc: 182;  L: 39 20.8418 K: -123 31.4640; pnyy obk ng 19.24 911 unathc ; YGY ; Vap# 010013 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.347364,-123.524401",
+        "PNYY:ZRQVPNY, OENIB",
+        "CYNPR:UJL 20 ZC 019.25",
+        "NQQE:=Y(39.347364,-123.524401)",
+        "ZNQQE:+39.347364,-123.524401",
+        "PVGL:SBEG_OENTT",
+        "VASB:pnyy obk ng 19.24 911 unathc",
+        "ZNC:182",
+        "TCF:+39.347363,-123.524400",
+        "HAVG:YGY",
+        "VQ:010013",
+        "PU:ERQ/PNYPBEQ");
+
+    qbGrfg("G2",
+        "{PNQ Cntr} SVER, QROEVF; 29250 A UJL 101 ,JVYYVGF ; ; ; Znc: 46;  L: 39 29.4813 K: -123 21.8002; qroevf ; YGYVap# 009909 ; Pzq: YBPNY; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.491355,-123.363338",
+        "PNYY:SVER, QROEVF",
+        "NQQE:29250 A UJL 101",
+        "PVGL:JVYYVGF",
+        "VASB:qroevf",
+        "ZNC:46",
+        "TCF:+39.491355,-123.363337",
+        "HAVG:YGY",
+        "VQ:009909",
+        "PU:YBPNY/PNYPBEQ");
+
+    qbGrfg("G3",
+        "{PNQ Cntr} BGU, ZVFPRYYNARBHF; UJL 20 ZC 044.11 YNXR PB YVAR @ =Y(39.191581,-123.040280) ,CBGGRE_INYYRL ; ; ; Znc: 84;  L: 39 11.4948 K: -123 2.41680; ZRRG NG UJL 20 / UJL 29 NG PYRNEYNXR, PURIEBA TNF FGNGVBA \a" +
+        "FG2150P &tg; NRH024918 &tg; OHGGR VAPVQRAG &tg; ERDHRFG = R-221\a" +
+        "FGY WBUA GBZRA = 707-354-4039 &tg;&tg; CGN, NIL, YGY, RYX, YNL \a\a" +
+        " ; NIL RXI YNL YGY CGNVap# 009772 ; Pzq: ; Gnp: ; ; uggc://zncf.tbbtyr.pbz/?d=39.191581,-123.040280",
+
+        "PNYY:BGU, ZVFPRYYNARBHF",
+        "CYNPR:UJL 20 ZC 044.11 YNXR PB YVAR",
+        "NQQE:=Y(39.191581,-123.040280)",
+        "ZNQQE:+39.191581,-123.040280",
+        "PVGL:CBGGRE_INYYRL",
+        "VASB:ZRRG NG UJL 20 / UJL 29 NG PYRNEYNXR, PURIEBA TNF FGNGVBA \aFG2150P > NRH024918 > OHGGR VAPVQRAG > ERDHRFG = R-221\aFGY WBUA GBZRA = 707-354-4039 >> CGN, NIL, YGY, RYX, YNL",
+        "ZNC:84",
+        "TCF:+39.191580,-123.040280",
+        "HAVG:NIL RXI YNL YGY CGN",
+        "VQ:009772");
+
+    qbGrfg("G4",
+        "{PNQ Cntr} BGU, ZVFPRYYNARBHF; HXVNU SNVETEBHAQF @ 1055 A FGNGR FG ,HXVNU_PVGL ; ; ; Znc: 82/1019;  L: 39 9.79746 K: -123 12.6024; FGEVXR BS KZR GLCR 3 RATVARF GB ZRRG NG HXVNU SNVETEBHAQF GB TBGB NRH, NZNQBE SNVETEBHAQF.\a" +
+        "FG YRNQRE GB OR QRGREZVARQ.\a" +
+        "UBC// NIL// YGY// SO// FPS = SQ PBZCBARAGF. ; NIL SO UBC YGY FPSVap# 009738 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.163291,-123.210041",
+
+        "PNYY:BGU, ZVFPRYYNARBHF",
+        "CYNPR:HXVNU SNVETEBHAQF",
+        "NQQE:1055 A FGNGR FG",
+        "PVGL:HXVNU_PVGL",
+        "VASB:FGEVXR BS KZR GLCR 3 RATVARF GB ZRRG NG HXVNU SNVETEBHAQF GB TBGB NRH, NZNQBE SNVETEBHAQF.\aFG YRNQRE GB OR QRGREZVARQ.\aUBC// NIL// YGY// SO// FPS = SQ PBZCBARAGF.",
+        "ZNC:82/1019",
+        "TCF:+39.163291,-123.210040",
+        "HAVG:NIL SO UBC YGY FPS",
+        "VQ:009738",
+        "PU:ERQ/PNYPBEQ");
+
+    qbGrfg("G5",
+        "{PNQ Cntr} SVER, JVYQYNAQ; BVY JRYY UVYY ZC 51.70 @ =Y(39.472508,-123.363416) ,JVYYVGF ; ; ; Znc: 46;  L: 39 28.3504 K: -123 21.8049; iruvpyr sver - sver abj bhg ; NN120[137Q 74] URY101[330Q 8] G90[326Q 22] G91[326Q 22] NQZVA PPE2 QBM1142 R1152 R1154 R1182 YGYVap# 009639 ; Pzq: PBZZNAQ 8; Gnp: GNP 2; ; uggc://zncf.tbbtyr.pbz/?d=39.472508,-123.363416",
+        "PNYY:SVER, JVYQYNAQ",
+        "CYNPR:BVY JRYY UVYY ZC 51.70",
+        "NQQE:=Y(39.472508,-123.363416)",
+        "ZNQQE:+39.472508,-123.363416",
+        "PVGL:JVYYVGF",
+        "VASB:iruvpyr sver - sver abj bhg",
+        "ZNC:46",
+        "TCF:+39.472507,-123.363415",
+        "HAVG:NN120[137Q 74] URY101[330Q 8] G90[326Q 22] G91[326Q 22] NQZVA PPE2 QBM1142 R1152 R1154 R1182 YGY",
+        "VQ:009639",
+        "PU:PBZZNAQ 8/GNP 2");
+
+    qbGrfg("G6",
+        "{PNQ Cntr} SVER, IRU CNFFRATRE; BVY JRYY UVYY ZC 51.70 @ =Y(39.472508,-123.363416) ,JVYYVGF ; ; ; Znc: 46;  L: 39 28.3504 K: -123 21.8049; iruvpyr sver - sver abj bhg ; NQZVA O1113 R1152 YGYVap# 009639 ; Pzq: PBZZNAQ 8; Gnp: GNP 2; ; uggc://zncf.tbbtyr.pbz/?d=39.472508,-123.363416",
+        "PNYY:SVER, IRU CNFFRATRE",
+        "CYNPR:BVY JRYY UVYY ZC 51.70",
+        "NQQE:=Y(39.472508,-123.363416)",
+        "ZNQQE:+39.472508,-123.363416",
+        "PVGL:JVYYVGF",
+        "VASB:iruvpyr sver - sver abj bhg",
+        "ZNC:46",
+        "TCF:+39.472507,-123.363415",
+        "HAVG:NQZVA O1113 R1152 YGY",
+        "VQ:009639",
+        "PU:PBZZNAQ 8/GNP 2");
+
+    qbGrfg("G7",
+        "{PNQ Cntr} SVER, JVYQYNAQ; 1650 QNCUAR QE ,OEBBXGENVYF ; ; ; Znc: 50/1003;  L: 39 27.1596 K: -123 22.7181; IRT SVER ; YGYVap# 009604 ; Pzq: PBZZNAQ 8; Gnp: GNP 2; ; uggc://zncf.tbbtyr.pbz/?d=39.452660,-123.378635",
+        "PNYY:SVER, JVYQYNAQ",
+        "NQQE:1650 QNCUAR QE",
+        "PVGL:OEBBXGENVYF",
+        "VASB:IRT SVER",
+        "ZNC:50/1003",
+        "TCF:+39.452660,-123.378635",
+        "HAVG:YGY",
+        "VQ:009604",
+        "PU:PBZZNAQ 8/GNP 2");
+
+    qbGrfg("G8",
+        "{PNQ Cntr} SVER, ERFVQRAGVNY NYNEZ; 16000 URNEFG JVYYVGF EQ ,JVYYVGF ; ; ; Znc: 48;  L: 39 29.9196 K: -123 12.8432; AB GRKG ; YGYVap# 009541 ; Pzq: YBPNY; Gnp: ISVER 22; ; uggc://zncf.tbbtyr.pbz/?d=39.498660,-123.214054",
+        "PNYY:SVER, ERFVQRAGVNY NYNEZ",
+        "NQQE:16000 URNEFG JVYYVGF EQ",
+        "PVGL:JVYYVGF",
+        "VASB:AB GRKG",
+        "ZNC:48",
+        "TCF:+39.498660,-123.214053",
+        "HAVG:YGY",
+        "VQ:009541",
+        "PU:YBPNY/ISVER 22");
+
+    qbGrfg("G9",
+        "{PNQ Cntr} SVER, JVYQYNAQ; 2300 UJL 20 ,JVYYVGF ; ; ; Znc: 54;  L: 39 24.1402 K: -123 23.3884; TNGR PBZOB 0911, ZC 30.88, ; NN110[318Q 19] URY101[301Q 5] G90[318Q 19] G91[318Q 19] NQZVA O1112 PPE1 QBM1142 R1154 R1164 R1184 R1192 YGYVap# 009535 ; Pzq: PBZZNAQ 8; Gnp: GNP 2; ; uggc://zncf.tbbtyr.pbz/?d=39.402338,-123.389807",
+        "PNYY:SVER, JVYQYNAQ",
+        "NQQE:2300 UJL 20",
+        "PVGL:JVYYVGF",
+        "VASB:TNGR PBZOB 0911, ZC 30.88,",
+        "ZNC:54",
+        "TCF:+39.402337,-123.389807",
+        "HAVG:NN110[318Q 19] URY101[301Q 5] G90[318Q 19] G91[318Q 19] NQZVA O1112 PPE1 QBM1142 R1154 R1164 R1184 R1192 YGY",
+        "VQ:009535",
+        "PU:PBZZNAQ 8/GNP 2");
+
+    qbGrfg("G10",
+        "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; QE EHRQ'F BSSVPR @ 361 F ZNVA FG ,JVYYVGF ; ; ; Znc: 55/1006;  L: 39 24.4926 K: -123 21.1774; 2 iruf ; YGY Z9133Vap# 009444 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.408211,-123.352957",
+        "PNYY:ZRQ, GENSSVP PBYYVFVBA",
+        "CYNPR:QE EHRQ'F BSSVPR",
+        "NQQE:361 F ZNVA FG",
+        "PVGL:JVYYVGF",
+        "VASB:2 iruf",
+        "ZNC:55/1006",
+        "TCF:+39.408210,-123.352957",
+        "HAVG:YGY Z9133",
+        "VQ:009444",
+        "PU:ERQ/PNYPBEQ");
+
+    qbGrfg("G11",
+        "{PNQ Cntr} ZRQVPNY, OENIB; 4165 OYNPXUNJX QE ,JVYYVGF ; ; ; Znc: 58;  L: 39 21.4663 K: -123 22.2632; srznyr bire gur onax zpfb va gur nern \a" +
+        "39.21277 -12321968 ; YGY Z9132Vap# 009413 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.357773,-123.371054",
+
+        "PNYY:ZRQVPNY, OENIB",
+        "NQQE:4165 OYNPXUNJX QE",
+        "PVGL:JVYYVGF",
+        "VASB:srznyr bire gur onax zpfb va gur nern \a39.21277 -12321968",
+        "ZNC:58",
+        "TCF:+39.357772,-123.371053",
+        "HAVG:YGY Z9132",
+        "VQ:009413",
+        "PU:ERQ/PNYPBEQ");
+
+    qbGrfg("G12",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 101 ZC 039.00 @ =Y(39.309969,-123.299103) ,JVYYVGF ; ; ; Znc: 55/1007;  L: 39 18.5981 K: -123 17.9461; IRUVPYR BA VGF FVQR- ORGJRRA TBYQRA EHYR NAQ EBPX DHREL. ; O1113 R1152 YGY Z9132Vap# 009221 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.309969,-123.299103",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "CYNPR:UJL 101 ZC 039.00",
@@ -342,7 +505,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:009221",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G2",
+    qbGrfg("G13",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 20 ZC 023.50 @ =Y(39.376877,-123.491919) ,JVYYVGF ; ; ; Znc: 177;  L: 39 22.6126 K: -123 29.5151; bireghea frzv \a" +
         "zpfb ng erdhrfg pbqr 2 sbe nez vawhel ; YGY Z9133Vap# 009154 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.376877,-123.491919",
 
@@ -358,7 +521,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:009154",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G3",
+    qbGrfg("G14",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 101 ZC 042.05/EE BIRECNFF @ =Y(39.355084,-123.319786) ,JVYYVGF ; ; ; Znc: 58;  L: 39 21.3050 K: -123 19.1871; ZC 42.58 bar iruvpyr bireghea va gur ebnq ; R1151 YGY Z9133Vap# 009152 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.355084,-123.319786",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "CYNPR:UJL 101 ZC 042.05/EE BIRECNFF",
@@ -372,7 +535,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:009152",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G4",
+    qbGrfg("G15",
         "{PNQ Cntr} SVER, BGURE; 1107 YBPHFG FG ,JVYYVGF ; ; ; Znc: 55/1006;  L: 39 24.0457 K: -123 21.2938; 911 QVFPBAARPG, HAXABJA GLCR SVER. ; YGYVap# 009140 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.400763,-123.354897",
         "PNYY:SVER, BGURE",
         "NQQE:1107 YBPHFG FG",
@@ -384,7 +547,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:009140",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G5",
+    qbGrfg("G16",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 20 ZC 028.00 @ =Y(39.387557,-123.435600) ,JVYYVGF ; ; ; Znc: 54;  L: 39 23.2534 K: -123 26.136; Gensvsp Pbyyvfvba 4 qbbe Avffna / Oynpx Gehpx. ; YGY Z9132Vap# 009132 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.387557,-123.435600",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "CYNPR:UJL 20 ZC 028.00",
@@ -398,7 +561,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:009132",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G6",
+    qbGrfg("G17",
         "{PNQ Cntr} ZRQVPNY, RPUB; 24700 A UJL 101 ,JVYYVGF (FHAALL FYBCR GENVYRE CNEX); ; ; Znc: 51/1005;  L: 39 26.1856 K: -123 21.4338; #6\a" +
         "64 LBZ, ABG OERNGUVAT... QAE, \a" +
         " ; YGYVap# 009116 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.436427,-123.357230",
@@ -414,7 +577,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:009116",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G7",
+    qbGrfg("G18",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 20 ZC 031.50/EE PEBFFVAT @ =Y(39.407432,-123.379706) ,JVYYVGF ; ; ; Znc: 54;  L: 39 24.4459 K: -123 22.7823; IRUVPYR NPPVQRAG RNFG BS XBN ; YGY Z9132Vap# 008981 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.407432,-123.379706",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "CYNPR:UJL 20 ZC 031.50/EE PEBFFVAT",
@@ -428,7 +591,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008981",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G8",
+    qbGrfg("G19",
         "{PNQ Cntr} ZRQVPNY, RPUB; 494 QRYYN NIR ,JVYYVGF ; ; ; Znc: 55/1006;  L: 39 23.8557 K: -123 21.4705; 55 lbs haerfcbfvir ; YGY Z9132Vap# 008960 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.397596,-123.357842",
         "PNYY:ZRQVPNY, RPUB",
         "NQQE:494 QRYYN NIR",
@@ -440,7 +603,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008960",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G9",
+    qbGrfg("G20",
         "{PNQ Cntr} ZRQVPNY, OENIB; 4501 PNALBA EQ ,JVYYVGF ; ; ZRRG EC NG GUR GBC BS GUR QEVIRJNL; ; Znc: 52;  L: 39 25.6729 K: -123 17.5611; 60+ LBZ PBEARE PNFR PBASVEZNGVBA\a" +
         "VANPPRFFNOYR NERN OL NZOHYNAPR ; YGY Z9132Vap# 008896 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.427882,-123.292686",
 
@@ -454,7 +617,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008896",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G10",
+    qbGrfg("G21",
         "{PNQ Cntr} ZRQVPNY, OENIB; 20860 YBPHFG FG ,JVYYVGF ; ; ; Znc: 55/1006;  L: 39 23.4715 K: -123 21.3423; 81 LBZ, TY SNYY, urnq vaw, oyrrqvat\a" +
         " ; YGY Z9133Vap# 008820 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.391192,-123.355705",
 
@@ -468,7 +631,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008820",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G11",
+    qbGrfg("G22",
         "{PNQ Cntr} ZRQVPNY, QRYGN; YBATINYR @ =Y(39.555159,-123.429735) ,YBATINYR ; ; ; Znc: 40;  L: 39 33.3095 K: -123 25.7841; 1 zv f bs ybat inyr ; YGYVap# 008799 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.555159,-123.429735",
         "PNYY:ZRQVPNY, QRYGN",
         "CYNPR:YBATINYR",
@@ -482,7 +645,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008799",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G12",
+    qbGrfg("G23",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; 31050 A UJL 101 ,JVYYVGF ; ; ; Znc: 45;  L: 39 30.5670 K: -123 23.0865; gp 3 zvyr fbhgu bs ujl 162 vagrepunatr ba 101\a" +
         "fo ujl 101 31050 ujl 101, cvpx-hc vagb gerr ; YGY YINZOVap# 008730 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.509451,-123.384775",
 
@@ -496,7 +659,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008730",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G13",
+    qbGrfg("G24",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 20 ZC 019.25 @ =Y(39.347364,-123.524401) ,SBEG_OENTT ; ; ; Znc: 182;  L: 39 20.8418 K: -123 31.4640; 19.3 UJL 20 BG IRU ; PF4[297Q 20] YGY Z9132Vap# 008596 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.347364,-123.524401",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "CYNPR:UJL 20 ZC 019.25",
@@ -510,7 +673,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008596",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G14",
+    qbGrfg("G25",
         "{PNQ Cntr} ZRQ, JVGU RKGEVPNGVBA; UJL 20 ZC 016.50 @ =Y(39.346891,-123.566395) ,JVYYVGF ; ; ; Znc: 181;  L: 39 20.8134 K: -123 33.9837; 16.5 ujl 20 ro, iru vagb gerr, znyr fhowrpg genccrq ; ERNPU18[221Q 11] YGY Z9132Vap# 008594 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.346891,-123.566395",
         "PNYY:ZRQ, JVGU RKGEVPNGVBA",
         "CYNPR:UJL 20 ZC 016.50",
@@ -524,7 +687,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008594",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G15",
+    qbGrfg("G26",
         "{PNQ Cntr} ZRQVPNY, OENIB; UBJNEQ SBERFG PQS @ =Y(39.343557,-123.317352) ,JVYYVGF ; ; ; Znc: 58;  L: 39 20.6134 K: -123 19.0411; wfb bs ud - cg jvgu qvnorgvp vffhr ; YGY BEP-R356Vap# 008566 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.343557,-123.317352",
         "PNYY:ZRQVPNY, OENIB",
         "CYNPR:UBJNEQ SBERFG PQS",
@@ -538,7 +701,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008566",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G16",
+    qbGrfg("G27",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 20 ZC 022.25 @ =Y(39.368035,-123.497902) ,JVYYVGF ; ; ; Znc: 177;  L: 39 22.0821 K: -123 29.8741; cbff GP ujl 20 zc 22.14 ; ERNPU18[215Q 8] YGY Z9134Vap# 008369 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.368035,-123.497902",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "CYNPR:UJL 20 ZC 022.25",
@@ -552,7 +715,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008369",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G17",
+    qbGrfg("G28",
         "{PNQ Cntr} SVER, IRU CNFFRATRE; UJL 101 ZC 037.50 @ =Y(39.299726,-123.287217) ,ERQJBBQ_INYYRL ; ; ; Znc: 69;  L: 39 17.9835 K: -123 17.2330; AO 101 37.5 ; NN110[325Q 11] URY101[139Q 3] G90[325Q 11] G91[325Q 11] NQZVA O1112 QBM1146 YGY BTA4 BEP-R327 BEP-R345 BEP-R355 BEP-R356 EISVap# 008368 ; Pzq: PBZZNAQ 8; Gnp: GNP 2; ; uggc://zncf.tbbtyr.pbz/?d=39.299726,-123.287217",
         "PNYY:SVER, IRU CNFFRATRE",
         "CYNPR:UJL 101 ZC 037.50",
@@ -566,7 +729,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008368",
         "PU:PBZZNAQ 8/GNP 2");
 
-    qbGrfg("G18",
+    qbGrfg("G29",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UQZU @ =Y(39.400316,-123.351735) ,JVYYVGF ; ; ; Znc: 55/1006;  L: 39 24.0189 K: -123 21.1041; Ercbegrq iru if ovplpyvfg. ; YGY Z5121Vap# 008209 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.400316,-123.351735",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "CYNPR:UQZU",
@@ -580,7 +743,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008209",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G19",
+    qbGrfg("G30",
         "{PNQ Cntr} SVER, FZBXR PURPX; 29801 A UJL 101 ,JVYYVGF (PERRXFVQR EI CNEX); ; ; Znc: 46;  L: 39 29.8744 K: -123 22.2328; #svefg frg bs onguebbzf orsber gur oevqtr = oba sver... RGBU\a" +
         " ; O1112 RAT5468 YGYVap# 008133 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.497908,-123.370548",
 
@@ -595,7 +758,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008133",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G20",
+    qbGrfg("G31",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 162 ZC 013.00 @ =Y(39.686120,-123.357449) ,QBF_EVBF ; ; ; Znc: 31;  L: 39 41.1672 K: -123 21.4469; FVATYR IRU EBYY BIRE... ; ERNPU18[349Q 14] R1151 YGY YINZO YIS Z9133Vap# 008125 ; Pzq: OYHR; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.686120,-123.357449",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "CYNPR:UJL 162 ZC 013.00",
@@ -609,7 +772,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008125",
         "PU:OYHR/PNYPBEQ");
 
-    qbGrfg("G21",
+    qbGrfg("G32",
         "{PNQ Cntr} SVER, JVYQYNAQ; 299OYX  FUREJBBQ EQ ,JVYYVGF ; ; ; Znc: 51/1005;  L: 39 25.2118 K: -123 21.5003; AB GRKG ; NN110[324Q 19] URY101[323Q 5] G90[324Q 19] G91[324Q 19] NQZVA PPE2 QBM1146 R1166 RAT1194 RAT1195 RAT5468 YGYVap# 008014 ; Pzq: PBZZNAQ 8; Gnp: GNP 6; ; uggc://zncf.tbbtyr.pbz/?d=39.420197,-123.358339",
         "PNYY:SVER, JVYQYNAQ",
         "NQQE:299OYX  FUREJBBQ EQ",
@@ -622,7 +785,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:008014",
         "PU:PBZZNAQ 8/GNP 6");
 
-    qbGrfg("G22",
+    qbGrfg("G33",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 101 ZC 054.00 @ =Y(39.506728,-123.381248) ,JVYYVGF ; ; ; Znc: 51/;  L: 39 30.4036 K: -123 22.8748; zbgbeplpyr qbja 2 cg 101 @ fyrrcl ubyybj ; YGY Z9132Vap# 007975 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.506728,-123.381248",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "CYNPR:UJL 101 ZC 054.00",
@@ -636,7 +799,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:007975",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G23",
+    qbGrfg("G34",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 101 ZC 037.00 AO @ =Y(39.296611,-123.279724) ,ERQJBBQ_INYYRL ; ; ; Znc: 69;  L: 39 17.7966 K: -123 16.7834; tbyq cg pehvfre bss vagb qvgpu cre puc ; RAT5468 YGY Z9112 Z9132 EISVap# 007923 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.296611,-123.279724",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "CYNPR:UJL 101 ZC 037.00 AO",
@@ -650,7 +813,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:007923",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G24",
+    qbGrfg("G35",
         "{PNQ Cntr} SVER, IRU CNFFRATRE; UJL 162 ZC 001.00 @ =Y(39.558143,-123.416681) ,JVYYVGF ; ; ; Znc: 27;  L: 39 33.4885 K: -123 25.0008; puc ercbegvat g/p jvgu sver abguvat shegure. ; O1112 R1152 YGY YISVap# 007768 ; Pzq: PBZZNAQ 8; Gnp: GNP 2; ; uggc://zncf.tbbtyr.pbz/?d=39.558143,-123.416681",
         "PNYY:SVER, IRU CNFFRATRE",
         "CYNPR:UJL 162 ZC 001.00",
@@ -664,7 +827,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:007768",
         "PU:PBZZNAQ 8/GNP 2");
 
-    qbGrfg("G25",
+    qbGrfg("G36",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 101 ZC 038.50 @ =Y(39.305560,-123.299952) ,ERQJBBQ_INYYRL ; ; ; Znc: 61;  L: 39 18.3336 K: -123 17.9971; AO 101 38.4 EBYYBIRE ; O1112 R1172 YGY Z9112 Z9132 EISVap# 007704 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.305560,-123.299952",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "CYNPR:UJL 101 ZC 038.50",
@@ -678,7 +841,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:007704",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G26",
+    qbGrfg("G37",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 101 ZC 040.00 @ =Y(39.330567,-123.304118) ,JVYYVGF ; ; ; Znc: 58/1008;  L: 39 19.8340 K: -123 18.2470; Genssvp Pbyyvfvba ; R1172 YGY Z9132Vap# 007693 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.330567,-123.304118",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "CYNPR:UJL 101 ZC 040.00",
@@ -692,7 +855,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:007693",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G27",
+    qbGrfg("G38",
         "{PNQ Cntr} ZRQVPNY, RPUB; FNSRJNL JVYYVGF @ 845 F ZNVA FG ,JVYYVGF ; ; ; Znc: 55/1006;  L: 39 24.2247 K: -123 21.0833; TNF FGNGVBA- 34 LBZ ABG OERNGUVAT ; YGY Z9132Vap# 007663 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.403746,-123.351389",
         "PNYY:ZRQVPNY, RPUB",
         "CYNPR:FNSRJNL JVYYVGF",
@@ -705,7 +868,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:007663",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G28",
+    qbGrfg("G39",
         "{PNQ Cntr} SVER, QROEVF; 20720 GBZXV EQ ,JVYYVGF ; ; ; Znc: 52;  L: 39 25.0487 K: -123 14.4882; gbzxv eq zc 9, oba sver ; O1113 R1152 R1172 YGYVap# 007553 ; Pzq: PBZZNAQ 8; Gnp: GNP 2; ; uggc://zncf.tbbtyr.pbz/?d=39.417479,-123.241471",
         "PNYY:SVER, QROEVF",
         "NQQE:20720 GBZXV EQ",
@@ -717,7 +880,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:007553",
         "PU:PBZZNAQ 8/GNP 2");
 
-    qbGrfg("G29",
+    qbGrfg("G40",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; OEBJAF PBEARE @ 1799 F ZNVA FG ,JVYYVGF ; ; ; Znc: 55/1006;  L: 39 23.2681 K: -123 20.7175; GP ; YGY Z9132Vap# 007483 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.387803,-123.345293",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "CYNPR:OEBJAF PBEARE",
@@ -730,7 +893,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:007483",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G30",
+    qbGrfg("G41",
         "{PNQ Cntr} SVER, JVYQYNAQ; 21100 YBPHFG FG ,JVYYVGF ; ; ; Znc: 55/1006;  L: 39 23.5353 K: -123 21.2902; AB GRKG ; NQZVA O1112 QBM1142 R1152 R1172 YGYVap# 007430 ; Pzq: ERQ; Gnp: PNYPBEQ; ; uggc://zncf.tbbtyr.pbz/?d=39.392256,-123.354838",
         "PNYY:SVER, JVYQYNAQ",
         "NQQE:21100 YBPHFG FG",
@@ -742,7 +905,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:007430",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G31",
+    qbGrfg("G42",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; 1400 F ZNVA FG / 2 ONRPUGRY EQ ,JVYYVGF ; ; ; Znc: 55/1006;  L: 39 23.8510 K: -123 20.9691; JCQ NG FPRAR. GJB IRUVPYRF JVGU NA NVE ONT QRCYBLZRAG ; YGY Z9132Vap# 007372 ; Pzq: ERQ; Gnp: PNYPBEQ; 2aqGnp: ; NVE2TAQ: ; ; uggc://zncf.tbbtyr.pbz/?d=39.397517,-123.349486",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "NQQE:1400 F ZNVA FG & 2 ONRPUGRY EQ",
@@ -755,7 +918,7 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:007372",
         "PU:ERQ/PNYPBEQ");
 
-    qbGrfg("G32",
+    qbGrfg("G43",
         "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 20 ZC 025.00 @ =Y(39.385610,-123.472563) ,JVYYVGF ; ; ; Znc: 177;  L: 39 23.1366 K: -123 28.3537; wrrc bire gur fvqr...haxabja vaw ; PF4[307Q 20] R1195 YGY Z9133Vap# 007319 ; Pzq: ERQ; Gnp: PNYPBEQ; 2aqGnp: ; NVE2TAQ: NVE GB TEAQ; ; uggc://zncf.tbbtyr.pbz/?d=39.385610,-123.472563",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "CYNPR:UJL 20 ZC 025.00",
@@ -768,151 +931,6 @@ choyvp pynff PNZraqbpvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:PF4[307Q 20] R1195 YGY Z9133",
         "VQ:007319",
         "PU:ERQ/PNYPBEQ");
-
-    qbGrfg("G33",
-        "{PNQ Cntr} ZRQ - ERFPHR; 23325 YVIR BNX EQ ,JVYYVGF ; ; ; Znc: 51;  L: 39 24.9881 K: -123 18.6085; 66 LBZ CVAARQ HAQRE ZBGBEPLYPR, ABA VAWHEL ; YGY Z9132Vap# 007280 ; Pzq: ERQ; Gnp: PNYPBEQ; 2aqGnp: ; NVE2TAQ: ; ; uggc://zncf.tbbtyr.pbz/?d=39.416469,-123.310142",
-        "PNYY:ZRQ - ERFPHR",
-        "NQQE:23325 YVIR BNX EQ",
-        "PVGL:JVYYVGF",
-        "VASB:66 LBZ CVAARQ HAQRE ZBGBEPLYPR, ABA VAWHEL\a2aqGnp:\aNVE2TAQ:",
-        "ZNC:51",
-        "TCF:+39.416468,-123.310142",
-        "HAVG:YGY Z9132",
-        "VQ:007280",
-        "PU:ERQ/PNYPBEQ");
-
-    qbGrfg("G34",
-        "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 20 ZC 026.00 @ =Y(39.392664,-123.461782) ,JVYYVGF ; ; ; Znc: 177;  L: 39 23.5598 K: -123 27.7069; Fvatyr iru GP ZC 26.4 ; R1195 YGY Z9133Vap# 007249 ; Pzq: ERQ; Gnp: PNYPBEQ; 2aqGnp: ; NVE2TAQ: NVE GB TEAQ; ; uggc://zncf.tbbtyr.pbz/?d=39.392664,-123.461782",
-        "PNYY:ZRQ, GENSSVP PBYYVFVBA",
-        "CYNPR:UJL 20 ZC 026.00",
-        "NQQE:=Y(39.392664,-123.461782)",
-        "ZNQQE:+39.392664,-123.461782",
-        "PVGL:JVYYVGF",
-        "VASB:Fvatyr iru GP ZC 26.4\a2aqGnp:\aNVE2TAQ: NVE GB TEAQ",
-        "ZNC:177",
-        "TCF:+39.392663,-123.461782",
-        "HAVG:R1195 YGY Z9133",
-        "VQ:007249",
-        "PU:ERQ/PNYPBEQ");
-
-    qbGrfg("G35",
-        "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 20 ZC 022.00 @ =Y(39.366033,-123.500839) ,JVYYVGF ; ; ; Znc: 177;  L: 39 21.9619 K: -123 30.0503; RO UJL 20, ZC 22.04, jnyxvat jbhaqrq, PNYGENAF NG FPRAR\a" +
-        "oynpx frqna ba vgf fvqr ; PF4[302Q 20] R1195 YGY Z9132Vap# 007205 ; Pzq: ERQ; Gnp: PNYPBEQ; 2aqGnp: ; NVE2TAQ: NVE GB TEAQ; ; uggc://zncf.tbbtyr.pbz/?d=39.366033,-123.500839",
-
-        "PNYY:ZRQ, GENSSVP PBYYVFVBA",
-        "CYNPR:UJL 20 ZC 022.00",
-        "NQQE:=Y(39.366033,-123.500839)",
-        "ZNQQE:+39.366033,-123.500839",
-        "PVGL:JVYYVGF",
-        "VASB:RO UJL 20, ZC 22.04, jnyxvat jbhaqrq, PNYGENAF NG FPRAR\aoynpx frqna ba vgf fvqr\a2aqGnp:\aNVE2TAQ: NVE GB TEAQ",
-        "ZNC:177",
-        "TCF:+39.366032,-123.500838",
-        "HAVG:PF4[302Q 20] R1195 YGY Z9132",
-        "VQ:007205",
-        "PU:ERQ/PNYPBEQ");
-
-    qbGrfg("G36",
-        "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 20 ZC 025.00 @ =Y(39.385610,-123.472563) ,JVYYVGF ; Vap# 007032K: -123 28.3537 L: 39 23.1366 ERNPU18[215Q 6] R1195 YGY Z9132; juvgr hgvyvgl ba gur ujl 2aq iruvpyr bss gur ebnqjnl Pzq: ERQ; Gnp: PNYPBEQ; uggc://zncf.tbbtyr.pbz/?d=39.385610,-123.472563",
-        "PNYY:ZRQ, GENSSVP PBYYVFVBA",
-        "CYNPR:UJL 20 ZC 025.00",
-        "NQQE:=Y(39.385610,-123.472563)",
-        "ZNQQE:+39.385610,-123.472563",
-        "PVGL:JVYYVGF",
-        "VQ:007032",
-        "TCF:+39.385610,-123.472562",
-        "HAVG:ERNPU18[215Q 6] R1195 YGY Z9132",
-        "VASB:juvgr hgvyvgl ba gur ujl 2aq iruvpyr bss gur ebnqjnl Pzq: ERQ\aGnp: PNYPBEQ\auggc://zncf.tbbtyr.pbz/?d=39.385610,-123.472563");
-
-    qbGrfg("G37",
-        "{PNQ Cntr} ZRQVPNY, QRYGN; 2100 OYNPXUNJX QE #GEYE ,JVYYVGF ; Vap# 007020K: -123 20.4134 L: 39 20.9357 R1172 YGY Z9132; 72 lbz haerfcbafvir ohg oernguvat Pzq: ERQ; Gnp: PNYPBEQ; uggc://zncf.tbbtyr.pbz/?d=39.348929,-123.340224",
-        "PNYY:ZRQVPNY, QRYGN",
-        "NQQE:2100 OYNPXUNJX QE",
-        "PVGL:JVYYVGF",
-        "VQ:007020",
-        "TCF:+39.348928,-123.340223",
-        "HAVG:R1172 YGY Z9132",
-        "VASB:72 lbz haerfcbafvir ohg oernguvat Pzq: ERQ\aGnp: PNYPBEQ\auggc://zncf.tbbtyr.pbz/?d=39.348929,-123.340224",
-        "NCG:GEYE");
-
-    qbGrfg("G38",
-        "{PNQ Cntr} ZRQVPNY, OENIB; 2 R FNA SENAPVFPB NIR / 400 F ZNVA FG ,JVYYVGF ; Vap# 006950K: -123 21.1474 L: 39 24.4463 YGY; erd zrqvp havg Pzq: ERQ; Gnp: PNYPBEQ; uggc://zncf.tbbtyr.pbz/?d=39.407439,-123.352457",
-        "PNYY:ZRQVPNY, OENIB",
-        "NQQE:2 R FNA SENAPVFPB NIR & 400 F ZNVA FG",
-        "ZNQQE:2 R FNA SENAPVFPB NIR",
-        "PVGL:JVYYVGF",
-        "VQ:006950",
-        "TCF:+39.407438,-123.352457",
-        "HAVG:YGY",
-        "VASB:erd zrqvp havg Pzq: ERQ\aGnp: PNYPBEQ\auggc://zncf.tbbtyr.pbz/?d=39.407439,-123.352457");
-
-    qbGrfg("G39",
-        "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; UJL 101 ZC 043.00 @ =Y(39.365867,-123.315698) ,JVYYVGF ; Vap# 006932K: -123 18.9418 L: 39 21.9520 R1152 YGY Z9132; iru \a" +
-        "fo 101 fbhgu bs fpnyrf, WFB BS US Pzq: ERQ; Gnp: PNYPBEQ; uggc://zncf.tbbtyr.pbz/?d=39.365867,-123.315698",
-
-        "PNYY:ZRQ, GENSSVP PBYYVFVBA",
-        "CYNPR:UJL 101 ZC 043.00",
-        "NQQE:=Y(39.365867,-123.315698)",
-        "ZNQQE:+39.365867,-123.315698",
-        "PVGL:JVYYVGF",
-        "VQ:006932",
-        "TCF:+39.365867,-123.315697",
-        "HAVG:R1152 YGY Z9132",
-        "VASB:iru \afo 101 fbhgu bs fpnyrf, WFB BS US Pzq: ERQ\aGnp: PNYPBEQ\auggc://zncf.tbbtyr.pbz/?d=39.365867,-123.315698");
-
-    qbGrfg("G40",
-        "{PNQ Cntr} SVER, JVYQYNAQ; 15100 A UJL 101 /   EVQTRJBBQ ENAPU EQ ,JVYYVGF ; Vap# 006913K: -123 18.0685 L: 39 19.4393 NN110[325Q 13] URY101[136Q 2] NQZVA O1113 PPE3 QBM1142 R1152 R1173 R1175 R1192 YGY; AB GRKG Pzq: PBZZNAQ 8; Gnp: GNP 2; uggc://zncf.tbbtyr.pbz/?d=39.323989,-123.301142",
-        "PNYY:SVER, JVYQYNAQ",
-        "NQQE:15100 A UJL 101 & EVQTRJBBQ ENAPU EQ",
-        "ZNQQE:15100 A UJL 101",
-        "PVGL:JVYYVGF",
-        "VQ:006913",
-        "TCF:+39.323988,-123.301142",
-        "HAVG:NN110[325Q 13] URY101[136Q 2] NQZVA O1113 PPE3 QBM1142 R1152 R1173 R1175 R1192 YGY",
-        "VASB:AB GRKG Pzq: PBZZNAQ 8\aGnp: GNP 2\auggc://zncf.tbbtyr.pbz/?d=39.323989,-123.301142");
-
-    qbGrfg("G41",
-        "{PNQ Cntr} SVER, JVYQYNAQ; UJL 20 ZC 029.25 @ =Y(39.390502,-123.411483) ,JVYYVGF ; Vap# 006838K: -123 24.6889 L: 39 23.4301 NN110[314Q 19] URY101[287Q 5] G90[314Q 19] G91[314Q 19] NQZVA O1112 PPE1 QBM1143 R1152 R1154 R1172 R1173 YGY; JUVGR FZBXR, ABEGU FVQR BS UJL 20... Pzq: PBZZNAQ 8; Gnp: GNP 2; uggc://zncf.tbbtyr.pbz/?d=39.390502,-123.411483",
-        "PNYY:SVER, JVYQYNAQ",
-        "CYNPR:UJL 20 ZC 029.25",
-        "NQQE:=Y(39.390502,-123.411483)",
-        "ZNQQE:+39.390502,-123.411483",
-        "PVGL:JVYYVGF",
-        "VQ:006838",
-        "TCF:+39.390502,-123.411482",
-        "HAVG:NN110[314Q 19] URY101[287Q 5] G90[314Q 19] G91[314Q 19] NQZVA O1112 PPE1 QBM1143 R1152 R1154 R1172 R1173 YGY",
-        "VASB:JUVGR FZBXR, ABEGU FVQR BS UJL 20... Pzq: PBZZNAQ 8\aGnp: GNP 2\auggc://zncf.tbbtyr.pbz/?d=39.390502,-123.411483");
-
-    qbGrfg("G42",
-        "{PNQ Cntr} ZRQ, GENSSVP PBYYVFVBA; A UJL 101 / 18000 JNYXRE EQ ,JVYYVGF ; Vap# 006707K: -123 18.9329 L: 39 21.7368 YGY Z9133; AO 101 WFB Jnyxre 2 iru ba gur fvqr Pzq: ERQ; Gnp: PNYPBEQ; uggc://zncf.tbbtyr.pbz/?d=39.362280,-123.315549",
-        "PNYY:ZRQ, GENSSVP PBYYVFVBA",
-        "NQQE:A UJL 101 & 18000 JNYXRE EQ",
-        "PVGL:JVYYVGF",
-        "VQ:006707",
-        "TCF:+39.362280,-123.315548",
-        "HAVG:YGY Z9133",
-        "VASB:AO 101 WFB Jnyxre 2 iru ba gur fvqr Pzq: ERQ\aGnp: PNYPBEQ\auggc://zncf.tbbtyr.pbz/?d=39.362280,-123.315549");
-
-    qbGrfg("G43",
-        "{PNQ Cntr} SVER, IRU CNFFRATRE; UJL 101 ZC 041.00 @ =Y(39.342221,-123.315976) ,JVYYVGF ; Vap# 006677K: -123 18.9585 L: 39 20.5332 R1172 R1192 YGY H1154; Ercbegrq Iruvpyr Sver AO 101 @ gehpx fpnyrf. Pzq: PBZZNAQ 8; Gnp: GNP 2; uggc://zncf.tbbtyr.pbz/?d=39.342221,-123.315976",
-        "PNYY:SVER, IRU CNFFRATRE",
-        "CYNPR:UJL 101 ZC 041.00",
-        "NQQE:=Y(39.342221,-123.315976)",
-        "ZNQQE:+39.342221,-123.315976",
-        "PVGL:JVYYVGF",
-        "VQ:006677",
-        "TCF:+39.342220,-123.315975",
-        "HAVG:R1172 R1192 YGY H1154",
-        "VASB:Ercbegrq Iruvpyr Sver AO 101 @ gehpx fpnyrf. Pzq: PBZZNAQ 8\aGnp: GNP 2\auggc://zncf.tbbtyr.pbz/?d=39.342221,-123.315976");
-
-    qbGrfg("G44",
-        "{PNQ Cntr} ZRQQ: HAPBAFPVBHF / SNVAG; 4120 OYNPXUNJX QE ,JVYYVGF ; Vap# 006645K: -123 22.1101 L: 39 21.3781 R1172 YGY; znyr cnffrq bhg Pzq: ERQ; Gnp: PNYPBEQ; uggc://zncf.tbbtyr.pbz/?d=39.356303,-123.368503",
-        "PNYY:ZRQQ: HAPBAFPVBHF / SNVAG",
-        "NQQE:4120 OYNPXUNJX QE",
-        "PVGL:JVYYVGF",
-        "VQ:006645",
-        "TCF:+39.356302,-123.368502",
-        "HAVG:R1172 YGY",
-        "VASB:znyr cnffrq bhg Pzq: ERQ\aGnp: PNYPBEQ\auggc://zncf.tbbtyr.pbz/?d=39.356303,-123.368503");
 
   }
 
