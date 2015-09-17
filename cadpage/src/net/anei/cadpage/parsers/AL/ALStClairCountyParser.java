@@ -16,6 +16,7 @@ public class ALStClairCountyParser extends DispatchB3Parser {
     setupCallList(CALL_LIST);
     setupMultiWordStreets(MSTREET_LIST);
     setupSaintNames("CLAIR");
+    removeWords("PIKE");
   }
   
   @Override
@@ -153,26 +154,36 @@ public class ALStClairCountyParser extends DispatchB3Parser {
     "CALL BY PHONE",
     "CALL BY PHONE FOR",
     "CHECK WELFARE",
+    "CONTROLLED BURN",
     "DEATH",
     "DISTURBANCE",
+    "DOMESTIC DISTURBANCE PHYSICAL",
+    "DOG COMPLAINT",
     "FIRE ALARM",
+    "FIRE CALL",
     "FIRE, OTHER",
+    "FYI FOR",
     "HAZARDOUS MATERIAL",
     "HIT AND RUN",
+    "INTOXICATED DRIVER",
     "INVESTIGATE SMOKE",
     "KEYS IN VEHICLE",
     "MEDICAL CALL",
     "MEET COMPLAINANT",
     "MENTAL PATIENT",
+    "MISSING PERSON",
     "OVERDOSE",
     "PASS ALONG INFORMATION",
     "PATIENT TRANSPORT",
     "PURSUIT",
     "PUBLIC SERVICE",
+    "RECKLESS DRIVING",
+    "SMELL OF GAS/OTHER ODOR",
     "STRUCTURE FIRE",
     "SUSPICIOUS VEHICLE",
     "TEST CAD EVENT",
     "TRAFFIC STOP",
+    "TRAIN WRECK/DERAILMENT",
     "TREE DOWN",
     "VEHICLE FIRE",
     "VERBAL DOMESTIC DISTURBANCE",
@@ -200,7 +211,10 @@ public class ALStClairCountyParser extends DispatchB3Parser {
     "SPRINGVILLE",
     "STEELE",
     "TRUSSVILLE",
-    "VINCENT"
+    "VINCENT",
+
+    "CROPWELL"
+
   };
   
   private static final Properties MISSPELLED_CITY_TABLE = buildCodeTable(new String[]{

@@ -517,7 +517,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-KWABFPAA or kwabfpaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+JPICQVDA or jpicqvda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support, 
 Jean ~ Cadpage Administrator
@@ -684,7 +684,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-CAQMABBA or caqmabba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+VJGDJNGA or vjgdjnga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support, 
 Jean ~ Cadpage Administrator
@@ -3470,14 +3470,41 @@ If you are getting direct pages from CodeMessaging or Active911, all you
 need to do is register your new phone with the paging service.
 
 *************************************************************************
+GETTING STARTED - want to try
+
+Cadpage is a great app, but before we give you a whole year for free, let's make sure it works for you. Cadpage is available for a free 30-day DEMO from Google Play Store. It is the same great app, just limited in time before it requests payment.
+
+Cadpage is an Android app that Users can install on Android phones. If your dispatch center can send text alerts to department member phones when a call is dispatched, Cadpage can intercept those text alerts, display its own alert screen, and then show the incident location on a map and/or generate turn-by-turn directions to the scene.
+
+Cadpage works on all Android versions from 2.1 on up.
+
+After installation of the app, there are 2 main things to get Cadpage up and running:
+
+First, make sure you are getting text pages sent to your phone when a call is toned out. If you are not, talk to someone in your department about getting that set up.
+
+If dispatch lacks the ability to send dispatch text alerts, all is not
+lost. I would investigate contracting with CodeMessaging.net or
+Active911.com to provide messaging services for your dispatch center.
+
+Next, go into the Cadpage location settings, select a single location, and then see if we have a location set up for where you happen to live or work. If we do, select it and see if things start working.
+
+If not, please let us know if you would like the details of setting up a new location.
+
+In the meantime, try using the general location setting. Set the From: filter to whoever appears in the From: field of your page text messages. That will usually give you some degree of functionality while you are waiting for full location support.
+
+When you have determined that Cadpage works effectively for you, please contact us again for your free one-year subscription.
+
+Take care,
+Jean ~ Cadpage Administrator
+
+*************************************************************************************************************
 getting started - basics
 
-Cadpage is not really a service.  What it is is an Android app that
-users can install on Android phones.  If you dispatch center can send
+Cadpage is not really a service.  Cadpage is an Android app that
+users can install on Android phones.  If your dispatch center can send
 text alerts to department member phones when a call is dispatched,
 Cadpage can intercept those text alerts, display its own alert screen,
-and then show the incident location on a map and/or generate turn by
-turn directions to the scene.
+and then show the incident location on a map and/or generate turn-by-turn directions to the scene.
 
 Cadpage works on all Android versions from 2.1 on up.
 

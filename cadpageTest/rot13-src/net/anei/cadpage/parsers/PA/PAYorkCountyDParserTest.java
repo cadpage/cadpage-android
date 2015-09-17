@@ -386,7 +386,8 @@ choyvp pynff CNLbexPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4875 FHFDHRUNAAN GEY A",
         "NCG:Qbbe 400",
         "PVGL:PBARJNTB GJC",
-        "K:HAXABJA / PEBFF SNEZ YA 28Z / pbafp / LU",
+        "K:HAXABJA / PEBFF SNEZ YA",
+        "VASB:28Z/pbafp/LU",
         "HAVG:34-114 RZFFGN102-2 RZFFGN23 Z102-2 N23-3 - ZRQVP 102-2");
 
     qbGrfg("G4",
@@ -446,7 +447,8 @@ choyvp pynff CNLbexPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:PUHEPU NAQ QJVTUG PB",
         "NQQE:5197 PBZZREPR QE",
         "PVGL:WNPXFBA GJC",
-        "K:HAXABJA / OBJZNA EQ mbar 1 nynez",
+        "K:HAXABJA / OBJZNA EQ",
+        "VASB:mbar 1 nynez",
         "HAVG:N3 R3-1 R3-2 RZFFGN3 SVERFGN3 GX1 H110 - GUBZNFIVYYR RZF");
 
     qbGrfg("G10",
@@ -813,7 +815,8 @@ choyvp pynff CNLbexPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4875 FHFDHRUNAAN GEY A",
         "NCG:Qbbe 400",
         "PVGL:PBARJNTB GJC",
-        "K:HAXABJA / PEBFF SNEZ YA 28Z / pbafp / LU",
+        "K:HAXABJA / PEBFF SNEZ YA",
+        "VASB:28Z/pbafp/LU",
         "HAVG:34-114");
 
     qbGrfg("G2",
@@ -1026,7 +1029,8 @@ choyvp pynff CNLbexPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4875 FHFDHRUNAAN GEY A",
         "NCG:QBBE 400",
         "PVGL:PBARJNTB GJC",
-        "K:HAXABJA / PEBFF SNEZ YA 28Z / PBAFP / LU",
+        "K:HAXABJA / PEBFF SNEZ YA",
+        "VASB:28Z/PBAFP/LU",
         "HAVG:34-114 RZFFGN102-2 RZFFGN23 Z102-2 N23-3");
 
     qbGrfg("G9",

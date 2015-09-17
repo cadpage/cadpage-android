@@ -95,12 +95,6 @@ public class GeneralParser extends SmartAddressParser {
     }
   }
   
-  // All generic location parsers are sponsored by Cadpage
-  @Override
-  public String getSponsor() {
-    return "Cadpage";
-  }
-  
   @Override
   public String getLocName() {
     return "Generic Location";

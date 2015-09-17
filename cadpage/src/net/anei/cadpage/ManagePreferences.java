@@ -30,7 +30,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 40;
+  private static final int PREFERENCE_VERSION = 41;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -63,6 +63,15 @@ public class ManagePreferences {
       prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
     }
     
+    // If old version was < 41, and user used to be sponsored by Cadpage, demo
+    // day counter.  We are dropping Cadpage sponsored status for the general parsers
+    // in this release.  If they loose our sponsored status, they should at least get
+    // a full 30 day demo
+    if (oldVersion < 41) {
+      String location = location();
+      if (location == null || location.startsWith("General")) setAuthRunDays(0);
+    }
+    
     // If old version was < 38, we need to convert the old process general alert
     // setting to a new general alert option setting.  This gets complicated
     // because there is no exact equivalent to old functionality which was
@@ -77,7 +86,7 @@ public class ManagePreferences {
     }
     
     // If old version was < 37, we need to clone two copies of the old paid year
-    // and purchase date settings and one  sponsor
+    // and purchase date settings and one sponsor
     if (oldVersion < 37) {
       if (freeRider()) {
         setPaidYear(2, 9999);

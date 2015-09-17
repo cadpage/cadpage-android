@@ -14,7 +14,7 @@ public class CAMendocinoCountyAParser extends FieldProgramParser {
   
   public CAMendocinoCountyAParser() {
     super(CITY_CODES, "MENDOCINO COUNTY", "CA",
-           "CALL ADDR! ( Inc:IDGPSUNIT! INFO/N+ | INFO/N+ Map:MAP! Y:GPS! INFO/N+? UNITID! Cmd:CH! Tac:CH/L! INFO/N+? MAPURL )");
+           "CALL ADDR! ( Inc:IDGPSUNIT! INFO/N+ | INFO/N+ Map:MAP! Y:GPS! INFO/N+? ( UNITID! | UNIT Inc:ID ) Cmd:CH! Tac:CH/L! INFO/N+? MAPURL )");
   }
   
   @Override

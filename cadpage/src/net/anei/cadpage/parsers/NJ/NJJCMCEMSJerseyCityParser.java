@@ -19,7 +19,8 @@ public class NJJCMCEMSJerseyCityParser extends MsgParser {
   
   private static final Pattern CANCEL_PTN = Pattern.compile("Call Cancelled: (.* Cancelled:[\\d:]*) #([-0-9]+)");
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("Times: (.*?) +Response Number:([-0-9]+)");
-  private static final Pattern MASTER_PTN = Pattern.compile("Unit:(\\d+) +(.*?) Resp:(.*?) Apt\\.(.*)/(.*?)S?Cross:(.*)");
+  private static final Pattern MASTER_PTN = Pattern.compile("Unit:(\\d+) +(.*?) Resp:(.*?) Apt\\.(.*?) /(.*?)S?Cross:(.*)");
+  private static final Pattern APT_PLACE_PTN = Pattern.compile("(.+?) +(?!FRONT|REAR|FLR?\\b|\\d+)(.*)", Pattern.CASE_INSENSITIVE);
   
   
   public NJJCMCEMSJerseyCityParser() {
@@ -28,7 +29,7 @@ public class NJJCMCEMSJerseyCityParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "hudcen@libertyhcs.org,";
+    return "hudcen@libertyhcs.org,HUDCEN@barnabashealth.org";
   }
   
   @Override
@@ -66,10 +67,17 @@ public class NJJCMCEMSJerseyCityParser extends MsgParser {
       data.strUnit = match.group(1);
       data.strCity = match.group(2).trim();
       parseAddress(match.group(3).trim(), data);
-      data.strApt = match.group(4).trim();
+      String apt = match.group(4).trim();
       data.strCall = match.group(5).trim();
       if (data.strCall.length() == 0) data.strCall = "ALERT";
       data.strCross = match.group(6).trim();
+      
+      match = APT_PLACE_PTN.matcher(apt);
+      if (match.matches()) {
+        apt = match.group(1);
+        data.strPlace = match.group(2);
+      }
+      data.strApt = append(data.strApt, "-", apt);
       return true;
     }
     

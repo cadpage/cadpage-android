@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -13,6 +14,7 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
   public OHKnoxCountyParser() {
     super(null, new int[]{59,60}, CITY_LIST, "KNOX COUNTY", "OH");
     addSpecialWords("HYATT");
+    setupGpsLookupTable(GPS_LOOKUP_TABLE);
     
   }
 
@@ -20,6 +22,9 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
   public String getFilter() {
     return "Dispatch@smtp-server.Columbus.rr.com";
   }
+  
+  private static final Pattern ADDR_TWP_RD_PTN = Pattern.compile("\\d+ +(?:TWP +)?RD");
+  private static final Pattern APT_TWP_RD_PTN = Pattern.compile("(\\d+)\\b *(.*)");
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -82,8 +87,13 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
     return true;
   }
   
-  private static final Pattern ADDR_TWP_RD_PTN = Pattern.compile("\\d+ +(?:TWP +)?RD");
-  private static final Pattern APT_TWP_RD_PTN = Pattern.compile("(\\d+)\\b *(.*)");
+  private static final Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
+      "14991 OLD MANSFIELD RD",     "40.452370,-82.4874660",
+      "18069 FRED-AMITY RD",        "40.494719,-82.420060",
+      "13141 HYATT RD",             "40.459844,-82.508014",
+      "8938 OVERLY RD",             "40.499124,-82.570308"
+ 
+  });
   
   private static final String[] CITY_LIST = new String[]{
 

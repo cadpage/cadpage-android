@@ -260,8 +260,9 @@ choyvp pynff JIUneqlPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ZIN",
         "PNYY:ZBGBE IRUVPYR NPPVQRAG",
         "NQQE:CBJQRE FCEVATF EQ",
+        "ZNQQE:CBJQRE FCEVATF EQ & HAXABJA",
         "PVGL:ZBBERSVRYQ",
-        "ANZR:HAXABJA",
+        "K:HAXABJA",
         "CUBAR:3044909496",
         "VQ:2014-0000005239");
 

@@ -1,9 +1,11 @@
 package net.anei.cadpage.parsers.MI;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
+import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.ReverseCodeSet;
@@ -11,15 +13,23 @@ import net.anei.cadpage.parsers.ReverseCodeSet;
 public class MIBerrienCountyParser extends FieldProgramParser {
 
   public MIBerrienCountyParser() { 
-    super("BERRIEN COUNTY", "MI", "Unit:UNIT? Status:DISPATCHED? Location:ADDR! Common_Name:PLACE? Call_Type:CALL! Call_Time:DATETIME! Call_Number:ID! Quadrant:MAP? District:SRC? Narrative:INFO?!" );
+    super("BERRIEN COUNTY", "MI", 
+          "Unit:UNIT? Status:DISPATCHED? Location:ADDR! Common_Name:PLACE? Call_Type:CALL! Call_Time:DATETIME! Call_Number:ID! Quadrant:MAP? District:SRC? Narrative:INFO?!" );
     setupMultiWordStreets(MULTI_WORD_STREET_LIST);
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    //check subj
+    //check subject
     if (!subject.equals("Incident")) return false;
+    body = body.replace("Call Type:", " Call Type:");
     if (parseMsg(body, data)) return true;
+    setFieldList("INFO");
     data.parseGeneralAlert(this, body);
     return true;
   }
@@ -32,21 +42,41 @@ public class MIBerrienCountyParser extends FieldProgramParser {
   }
   
   //city pattern excludes city code and sector. could add logic to capture and check these if false positives arise
-  private static Pattern CITY = Pattern.compile("(.*), \\d{2} (.*?)(?: - [NS]?[EW]? SECTOR)?", Pattern.CASE_INSENSITIVE);
-  private static Pattern APT = Pattern.compile("([a-z](?:-?\\d+)?)(?: (.*))?");
-  private static Pattern NOT_APT = Pattern.compile("\\d*(?:1ST|2ND|3RD|[04-9]TH|1[1-3]TH)");
-  private static Pattern TRAIL_DIR = Pattern.compile("(.*) ([NSEW])");
-  private static Pattern MID_DIR = Pattern.compile(".*[A-Z]( +)[NSEW] .*");
-  private static Pattern CLEAN_ADDR_STREET_NAME = Pattern.compile("(?:\\d+ +|.*& *)?(?:[NSEW] +)?(.*?)(?: +(?:AVE|BLVD|CIR|CT|DR|HWY|LN|PATH|PL|RD|ST|TRL|WAY))?");
-  private static Pattern SINGLE_BLANK = Pattern.compile("[^ ]+(?<!^M)( +)[^ ]+");
+  
+  private static Pattern SECTOR_PTN = Pattern.compile("(.*) - [NS]?[EW]? SECTOR", Pattern.CASE_INSENSITIVE);
+  private static Pattern GPS_PTN = Pattern.compile("(.*) (?:(\\d{2}.\\d{6,} -\\d{2}\\.\\d{6,})|-361 -361)", Pattern.CASE_INSENSITIVE);
+  private static Pattern CITY_PTN = Pattern.compile("(.*)(?<! US) \\d{2} (.*[a-z].*)");
+  private static Pattern APT_PTN = Pattern.compile("([a-z](?:-?\\d+)?|\\d+(?:-\\d+)?[a-z]?)(?: (.*))?");
+  private static Pattern NOT_APT_PTN = Pattern.compile("\\d*(?:1ST|2ND|3RD|[04-9]TH|1[1-3]TH)");
+  private static Pattern TRAIL_DIR_PTN = Pattern.compile("(.*) ([NSEW])");
+  private static Pattern MID_DIR_PTN = Pattern.compile(".*[A-Z]( +)[NSEW] .*");
+  private static Pattern CLEAN_ADDR_STREET_NAME_PTN = Pattern.compile("(?:\\d+ +|.*& *)?(?:[NSEW] +)?(?:(?:NEW|OLD) )?(.*?)(?: +(?:AVE|BLVD|CIR|CT|DR|HWY|LN|PATH|PKW?Y|PL|RD|ST|TRL|WAY))?");
+  private static Pattern SINGLE_BLANK_PTN = Pattern.compile("(?!(?:US|USHY|ST|HWY|RT) )[^ ]+(?<!^M)( +)[^ ]+");
+  private static Pattern MIXED_CASE_PTN = Pattern.compile("\\b(?:[A-Z]?[a-z]+ *)+\\b");
+  private static Pattern NOT_CITY_PTN = Pattern.compile(".* (?:FIRE|FD)", Pattern.CASE_INSENSITIVE);
+  private static Pattern COUNTY_PTN = Pattern.compile("cass|.* co|.* county", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
+      
+      // Parse trailing sector
+      Matcher mat = SECTOR_PTN.matcher(field);
+      if (mat.matches()) field = mat.group(1);
+      
+      // Parse trailing GPS
+      mat = GPS_PTN.matcher(field);
+      if (mat.matches()) {
+        field = mat.group(1);
+        String gps = mat.group(2);
+        if (gps != null) setGPSLoc(gps.trim(), data);
+      }
+      
       //parse trailing CITY
-      Matcher mat = CITY.matcher(field);
+      mat = CITY_PTN.matcher(field);
       if (mat.matches()) {
         field = mat.group(1).trim();
         data.strCity = mat.group(2).trim();
+        field = stripFieldEnd(field, ",");
       }
       
       // field contained a combination of the original address, a possible apt, followed
@@ -79,19 +109,55 @@ public class MIBerrienCountyParser extends FieldProgramParser {
         // If no slash or comma was found, see if we can find an apt at the beginning of the leftovers
         else {
           if (!comma && data.strApt.length() == 0) {
-            mat = APT.matcher(left); 
+            mat = APT_PTN.matcher(left); 
             if (mat.matches()) {
               data.strApt = mat.group(1);
               left = getOptGroup(mat.group(2));
             }
           }
           
-          // If the leftover indicates that there is no cross street information
-          // things get so much simpler
-          if (left.equals("No Cross Streets Found")) return;
+          if (!left.equals("No Cross Streets Found")) data.strCross = left;
+        }
+        
+        // Check for state name ending cross street
+        if (data.strCross.endsWith(" IN") || data.strCross.endsWith(" IL")) {
+          data.strState = data.strCross.substring(data.strCross.length()-2);
+          data.strCross = data.strCross.substring(0,data.strCross.length()-3).trim();
+        }
+        
+        // Any lower/mixed case words in the cross steet are trouble
+        Matcher match = MIXED_CASE_PTN.matcher(data.strCross);
+        if (match.find()) {
           
-          // Otherwise put leftovers into cross street for now
-          data.strCross = left;
+          // If found at end of field, move to city
+          // if found at start fo field, move to apt
+          if (match.end() == data.strCross.length()) {
+            String city = match.group().trim();
+            if (NOT_CITY_PTN.matcher(city).matches()) {
+              data.strPlace = city;
+            } else if (data.strCity.length() == 0 || !COUNTY_PTN.matcher(city).matches()){
+              data.strCity = city;
+            }
+            data.strCross = data.strCross.substring(0,match.start()).trim();
+            data.strCross = stripFieldEnd(data.strCross, "/");
+          }
+          
+          else if (match.start() == 0) {
+            data.strApt = append(data.strApt, " ", match.group().trim());
+            data.strCross = data.strCross.substring(match.end()).trim();
+            
+            match = MIXED_CASE_PTN.matcher(data.strCross);
+            if (match.find() && match.end() == data.strCross.length()) {
+              data.strCity = match.group().trim();
+              data.strCross = data.strCross.substring(0,match.start()).trim();
+            }
+            
+            match = APT_PTN.matcher(data.strCross);
+            if (match.matches()) {
+              data.strApt = append(data.strApt, " ", match.group(1));
+              data.strCross = match.group(2);
+            }
+          }
         }
       }
       
@@ -100,7 +166,7 @@ public class MIBerrienCountyParser extends FieldProgramParser {
 
       // Let's look at what the parser put in the apt field.  If it does not look
       // like a a real apartment, move it to the cross street
-      if (NOT_APT.matcher(data.strApt).matches()) {
+      if (NOT_APT_PTN.matcher(data.strApt).matches()) {
         if (data.strCross.startsWith(",")) {
           data.strCross = data.strApt + data.strCross;
         } else if (data.strCross.contains("/")) {
@@ -114,7 +180,7 @@ public class MIBerrienCountyParser extends FieldProgramParser {
       // If we have any cross street information, and the address ends with a direction
       // move the direction to the cross street
       if (data.strCross.length() > 0 && !data.strCross.startsWith(",")) {
-        mat = TRAIL_DIR.matcher(data.strAddress);
+        mat = TRAIL_DIR_PTN.matcher(data.strAddress);
         if (mat.matches()) {
           data.strAddress = mat.group(1).trim();
           data.strCross = mat.group(2) + ' ' + data.strCross;
@@ -129,19 +195,18 @@ public class MIBerrienCountyParser extends FieldProgramParser {
         if (pt >= 0) {
           String cross = data.strAddress.substring(pt+1).trim();
           data.strAddress = data.strAddress.substring(0,pt);
-          if (!data.strCross.startsWith(",")) cross += " / ";
+          if (!data.strCross.startsWith(",") && data.strCross.length() > 0) cross += " / ";
           data.strCross =  cross + data.strCross;
         } 
-
-        // Strict testing is only enabled during unit tests
-        else if (isTestMode() && data.strCross.length() > 0) {
-          if (!data.strCross.equals("milton") && !data.strCross.equals("cass") && !data.strCross.equals("BP SBN 22")) abort();
-        }
       }
+      
+      // Check for cities in Indiana
+      String state = CITY_ST_TABLE.getCodeDescription(data.strCity.toUpperCase(), true);
+      if (state != null) data.strState = state;
     }
     
     /**
-     * Try to break up and address that is believed to be a combination of the real address
+     * Try to break up an address that is believed to be a combination of the real address
      * lacking a street suffix followed by a single cross street name
      * @param address combined address/cross street field
      * @return the identified end of the real address if found, -1 otherwise
@@ -149,7 +214,7 @@ public class MIBerrienCountyParser extends FieldProgramParser {
     private int breakAddress(String address) {
       
       // Clean off leading street number, direction, and trailing street suffix 
-      Matcher mat = CLEAN_ADDR_STREET_NAME.matcher(address);
+      Matcher mat = CLEAN_ADDR_STREET_NAME_PTN.matcher(address);
       int start = 0;
       if (mat.matches()) {
         start = mat.start(1);
@@ -157,7 +222,7 @@ public class MIBerrienCountyParser extends FieldProgramParser {
       }
       
       // See if there is an embedded direction in what is left
-      mat = MID_DIR.matcher(address);
+      mat = MID_DIR_PTN.matcher(address);
       if (mat.matches()) return start+mat.start(1);
       
       // See if we can use the multi-word street list to identify the break
@@ -169,7 +234,7 @@ public class MIBerrienCountyParser extends FieldProgramParser {
       }
       
       // If what is left contains single blank, that is where we break things
-      mat = SINGLE_BLANK.matcher(address);
+      mat = SINGLE_BLANK_PTN.matcher(address);
       if (mat.matches()) return start+mat.start(1);
       
       // Try looking for a known multi-word list at end of address
@@ -185,9 +250,39 @@ public class MIBerrienCountyParser extends FieldProgramParser {
     }
     
     @Override public String getFieldNames() {
-      return super.getFieldNames() + " X CITY";
+      return super.getFieldNames() + " X PLACE CITY ST GPS";
     }
   }
+  
+  private static final CodeTable CITY_ST_TABLE = new CodeTable(
+      "COOK",         "IL",
+      "LA PORTE",     "IN",
+      "LAKE CO",      "IL",
+      "LAKE COUNTY",  "IL",
+      "SPRINGFIELD",  "IN",
+      "ST JOSEPH CO", "IN"
+  );
+  
+  @Override
+  public String adjustMapCity(String city) {
+    String tmp = city.toUpperCase();
+    if (tmp.endsWith(" TOWNSHIP")) {
+      tmp = tmp.substring(0,tmp.length()-9)+" TWP";
+    }
+    tmp = MAP_CITY_TABLE.getProperty(tmp);
+    if (tmp != null) return tmp;
+    
+    if (city.toUpperCase().endsWith(" CO")) city += "unty";
+    return city;
+  }
+  
+  private static final Properties MAP_CITY_TABLE = buildCodeTable(new String[]{
+      "COLOMA TWP",         "Coloma Charter Twp",
+      "LAKE TWP",           "Lake Charter Twp",
+      "LINCOLN TWP",        "Lincoln Charter Twp",
+      "ORONOKO TWP",        "Oronoko Charter Twp",
+      "ST JOSEPH TWP",      "St Joseph Charter Twp"
+  });
   
   private static String[] MULTI_WORD_STREET_LIST = new String[]{
     "BLACK LAKE",

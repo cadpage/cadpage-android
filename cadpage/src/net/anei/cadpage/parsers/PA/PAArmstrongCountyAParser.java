@@ -17,7 +17,7 @@ public class PAArmstrongCountyAParser extends FieldProgramParser {
   
   public PAArmstrongCountyAParser() {
     super("ARMSTRONG COUNTY", "PA",
-          "CALL EMPTY/Z? ADDR/Z ( X CITY END | CITY/Z X/Z! END )");
+          "CALL PLACE? ADDR/Z ( X CITY END | CITY/Z X/Z! END )");
   }
   
   @Override

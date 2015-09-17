@@ -1678,9 +1678,9 @@ public class StandardCodeTable extends CodeTable {
   }
 
   @Override
-  public Result getResult(String code) {
+  public Result getResult(String code, boolean reqSpace) {
     String expCode = expand(code);
-    Result res =  super.getResult(expCode);
+    Result res =  super.getResult(expCode, reqSpace);
     if (res == null) return null;
     
     // Prealert codes don't count unless they are an exact match
