@@ -15,6 +15,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA13Parser;
 
 public class NYOneidaCountyParser extends DispatchA13Parser {
   
+  private static final Pattern LEAD_JUNK_PTN = Pattern.compile("^[io?¿][^A-Z]*|^(?:&#\\d+;)+");
   private static final Pattern REMSEN_FIRE_PTN1 = Pattern.compile("\\d{4} >.*");
   private static final Pattern CLINTON_FIRE_PTN = Pattern.compile("(?:\\d\\d[A-Z]\\d\\d )?[A-Z /\\(\\)]+  , ");
   private static final Pattern T_CITY_PTN = Pattern.compile("\\b(?:T/|T/O +|/T +)(CONSTANTIA|NORWAY|OHIO|RUSSIA)\\b");
@@ -37,6 +38,8 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     data.strSource = subject;
+    
+    body = LEAD_JUNK_PTN.matcher(body).replaceFirst("");
     
     body = stripFieldEnd(body, "#[0-0]");
     
