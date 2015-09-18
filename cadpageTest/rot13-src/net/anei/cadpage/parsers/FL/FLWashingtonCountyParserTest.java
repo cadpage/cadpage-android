@@ -220,9 +220,6 @@ choyvp pynff SYJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1395 RYBVFR EQ",
         "PNYY:YNJ DHRFGVBAF");
 
-// ************************ CNEFR SNVYHER *****************************
-// (=?hgs-8?O?AQRk?=) JUVGR EQA01789 JUVGR EQ1789 JUVGR EQ K2[PYNLGBA EQ]NOEBPXOPBHAGL
-
     qbGrfg("G24",
         "(=?hgs-8?O?GTS3VSS1MKA0nJ9hpj==?=) 189 CVXR CBAQ EQ\a189 CVXR CBAQ EQ K2[XRAG EQ]\a\a\aYNJ DHRFGVBAF",
         "NQQE:189 CVXR CBAQ EQ",
@@ -275,9 +272,6 @@ choyvp pynff SYJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:L",
         "PNYY:YNJ DHRFGVBAF",
         "ANZR:ZEF ZBBER");
-
-// ************************ CNEFR SNVYHER *****************************
-// (=?hgs-8?O?AQRk?=) WNPXFBA NIR01293 WNPXFBA NIRJNFUVATGBA PBHAGL FUREVSS'F BSSVPR K2[5GU FG]OPNGRW400PUVCYRL
 
     qbGrfg("G32",
         "(=?hgs-8?O?GTS3VSS1MKA0nJ9hpj==?=) 4298 PBHAGEL PYHO OYIQ\a4298 PBHAGEL PYHO OYIQ K2[QNLFGNE FG]\a\a\aYNJ DHRFGVBAF",

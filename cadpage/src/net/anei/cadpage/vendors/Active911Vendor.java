@@ -317,6 +317,7 @@ class Active911Vendor extends Vendor {
       "US/FL/PutnamSheriff",              "FLPutnamCounty",
       "US/FL/RegionalPsi",                "FLBrowardCounty",
       "US/FL/SeminoleCounty",             "FLSeminoleCounty",
+      "US/FL/WashingtonCountySheriff",    "FLWashingtonCounty",
       "US/GA/BarrowCounty",               "GABarrowCounty",
       "US/GA/CamdenCounty",               "GACamdenCountyA",
       "US/GA/CarrollCounty",              "GACarrollCounty",
