@@ -72,7 +72,7 @@ public class DispatchA13Parser extends FieldProgramParser {
   }
   
   // SRCID field contains source and call ID
-  private static final Pattern SRCID_PTN = Pattern.compile(".*?([A-Z0-9][ A-Z0-9]+)?:(\\d+(?::\\d+)?)");
+  private static final Pattern SRCID_PTN = Pattern.compile("([A-Z0-9][- A-Z0-9]+)?:(\\d+(?::\\d+)?)|(([A-Z]{2,4})\\d{9})");
   private class SourceIdField extends Field {
     
     @Override
@@ -86,7 +86,13 @@ public class DispatchA13Parser extends FieldProgramParser {
       if (!match.matches()) return false;
       String src = match.group(1);
       if (src != null) data.strSource = src;
-      data.strCallId = match.group(2);
+      String callId = match.group(2);
+      if (callId != null) {
+        data.strCallId = callId;
+      } else {
+        data.strCallId = match.group(3);
+        data.strSource = match.group(4);
+      }
       return true;
     }
     
@@ -271,6 +277,8 @@ public class DispatchA13Parser extends FieldProgramParser {
             int pt = sPart2.lastIndexOf(',');
             if (pt >= 0) {
               String city = sPart2.substring(pt+1).trim();
+              city = stripFieldStart(city, "/");
+              city = stripFieldEnd(city, "/");
               if (!checkCity || isCity(city)) {
                 data.strCity = city;
                 sPart2 = sPart2.substring(0,pt).trim();
