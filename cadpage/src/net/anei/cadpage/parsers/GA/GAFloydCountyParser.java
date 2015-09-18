@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class GAFloydCountyParser extends FieldProgramParser {
   
   public GAFloydCountyParser() {
-    super(CITIES, "FLOYD COUNTY", "GA",
+    super("FLOYD COUNTY", "GA",
            "CALL ADDR INFO UNIT DATETIME!");
   }
   
@@ -23,8 +23,7 @@ public class GAFloydCountyParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Fire-related calls"))
-      return false;
+    if (!subject.equals("Fire-related calls")) return false;
     return parseFields(body.split(": "), data);
   }
   
@@ -41,20 +40,20 @@ public class GAFloydCountyParser extends FieldProgramParser {
     if (name.equals("DATETIME")) return new MyDateTimeField(DATE_PATTERN_S+" +"+TIME_PATTERN_S, true);
     return super.getField(name);
   }
-  
+
+  private static final Pattern CITY_PATTERN = Pattern.compile("(.*), *([A-Z][ A-Z]{2,})(?:, *([A-Z]{2})(?: +\\d{5})?)?");
+
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      if (field.equals(""))
-        return;
+      if (field.length() == 0) return;
       
       // Strip off leading '='
-      if (field.charAt(0) == '=')
-        field = field.substring(1);
+      field = stripFieldStart(field, "=");
       Matcher m = CITY_PATTERN.matcher(field);
       if (m.matches()) {
         field = m.group(1).trim();
-        data.strCity = getOptGroup(m.group(2));
+        data.strCity = m.group(2).trim();
         data.strState = getOptGroup(m.group(3));
       }
       super.parse(field, data);
@@ -76,8 +75,7 @@ public class GAFloydCountyParser extends FieldProgramParser {
     }
     
     private void parseEntries(String[]f, Data data) {
-      for (int i=0; i<f.length; i++)
-        parseEntry(f[i].trim(), data);
+      for (String part : f) parseEntry(part.trim(), data);
     }
     
     private void parseEntry(String field, Data data) {
@@ -110,37 +108,9 @@ public class GAFloydCountyParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
-      if (data.strDate.equals(""))
+      if (data.strDate.length() == 0) {
         super.parse(field, data);
+      }
     }
-  }
-  
-  private static final String[] CITIES = new String[]{
-    "ARMUCHEE",
-    "CAVE SPRING",
-    "COOSA",
-    "FLOYD SPRINGS",
-    "KINGSTON",
-    "LINDALE",
-    "LIVINGSTON",
-    "MOUNT BERRY",
-    "ROME",
-    "ROSEDALE",
-    "SHANNON",
-    "SILVER CREEK",
-    "WAX",
-  };
-  
-  private static final Pattern CITY_PATTERN;
-  static {
-    String connect = "(.*)\\b(";
-    StringBuilder sb = new StringBuilder();
-    for (String city : CITIES) {
-      sb.append(connect);
-      sb.append(city);
-      connect = "|";
-    }
-    sb.append(")\\b(?:, *([A-Z]{2})(?:\\D\\d{5})?)?");
-    CITY_PATTERN = Pattern.compile(sb.toString());
   }
 }
