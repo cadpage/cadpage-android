@@ -15,7 +15,7 @@ public class CODouglasCountyAParser extends FieldProgramParser {
   
   private static final String WRAPPER_MARK = " SUBJECT: Dispatch BODY: ";
   private static final Pattern TRAIL_ID_PTN = Pattern.compile(" +(\\d{4}-\\d{8})$");
-  private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Time:)");
+  private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Time:|Additional Location Info:)");
 
   public CODouglasCountyAParser() {
     this("DOUGLAS COUNTY", "CO");
@@ -23,9 +23,10 @@ public class CODouglasCountyAParser extends FieldProgramParser {
   
   protected CODouglasCountyAParser(String defCity, String defState) {
     super(defCity, defState,
-           "( Call:CALL! Location:ADDRCH/SXa! Map:MAP Units:UNITX! Common_Name:PLACE Time:DATETIME Narrative:INFO? Nature_Of_Call:INFO | " +
-             "Call_Type:CALLID! Common_Name:PLACE! Location:ADDR/SXXx! Call_Time:DATETIME! Narrative:INFO Nature_Of_Call:INFO | " +
-             "CALL! LOC:ADDRCITY/Sxa! ( Closest_X:X! Map:MAP | Map:MAP! Closest_X:X? ) Units:UNIT Nar:INFO LOC_Name:PLACE ADDL:INFO CR:ID3 Time:DATETIME3 )");
+           "( Call:CALL! Location:ADDRCH/SXa! Map:MAP Units:UNITX! Common_Name:PLACE Time:DATETIME Narrative:INFO? Nature_Of_Call:INFO " +
+           "| Call_Type:CALLID! Common_Name:PLACE! Location:ADDR/SXXx! Call_Time:DATETIME! Narrative:INFO Nature_Of_Call:INFO " +
+           "| CALL! ( LOC:ADDRCITY/Sxa! ( Closest_X:X! Map:MAP | Map:MAP! Closest_X:X? ) Units:UNIT Nar:INFO LOC_Name:PLACE ADDL:INFO CR:ID3 " +
+                   "| Address:ADDRCITY/SXa! Closest_Intersection:X! Additional_Location_Info:INFO/N! OPS:CH! Map_Page:MAP! Units:UNIT! Primary_Incident:SKIP! Radio_Channel:CH/L! Common_Name:PLACE! Narrative:INFO/N )  Time:DATETIME3 )");
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
   }
   
@@ -244,6 +245,7 @@ public class CODouglasCountyAParser extends FieldProgramParser {
   private class MyDateTime3Field extends DateTimeField {
     @Override
     public void parse(String field, Data data) {
+      field = stripFieldEnd(field,  ":");
       if (!DATE_TIME3_PTN.matcher(field).matches()) return;
       setDateTime(DATE_TIME3_FMT, field, data);
     }
