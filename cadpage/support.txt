@@ -517,7 +517,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-JPICQVDA or jpicqvda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+CQYAQIGA or cqyaqiga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support, 
 Jean ~ Cadpage Administrator
@@ -3928,3 +3928,22 @@ Are dispatch alerts showing up in your message inbox?  If not, then you need to 
 
 If they are, use the Cadpage "Email the Developer" setting to send us a new support email right after Cadpage fails to pick up an alert.  That should include technical information about the missed alert that I need to determine what we have to do to fix things.
 **************************************************************************
+Null location -- used to use GENERAL location
+
+The most effective use of Cadpage will be enabled when you select a specific location.
+
+To do that, please: Go into the Cadpage location settings, select a single location, and then see if we have a location set up for where you happen to live or work. If we do, select it and see if your Cadpage works effectively.
+
+If not, please let us know if you would like the details of setting up a new location. If you help us set up a new location, we would be happy to give you a one-year PAID subscription.
+
+In the meantime, try using the general location setting. Set the From: filter to whoever appears in the From: field of your page text messages. That will usually give you some degree of functionality while you are waiting for full location support.
+
+Also, I can give you a 30-day extension. To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
+CQYAQIGA or cqyaqiga. It is a time-sensitive code, and will expire by midnight on ________. Once you use it, it will be good for about 30 days.
+
+Please contact us again if you have any difficulties or questions concerning Cadpage.
+
+Take care,
+Jean ~ Cadpage Administrator
+ ***************************************************************************************
+ 
