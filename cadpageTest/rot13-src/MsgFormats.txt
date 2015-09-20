@@ -451,6 +451,11 @@ JNGRE1 AYS () Ybp:AJ YBTNA EQ & NPPRFF Epiq: 13:51:1 Havgf: Q1141 R12130984 Pbzz
 *******************************************************************************
 * QvfcngpuN13Cnefre fhopynffrf
 *******************************************************************************
+***************************************************************************
+Greerobaar Cnevfu, YN (YNGreerobaarCnevfuCnefre) 
+﻿<UGZY><obql>OX201400008<oe />Erd_Qvfcngpu<oe />143 SVER-TENFF<oe />208 ZVYR ZNEXRE 208 J</obql></UGZY>
+﻿<UGZY><obql>OX201400007<oe />Erd_Qvfcngpu<oe />130 SVER-ZBOVYR CEBCREGL<oe />3480 ONLBH OYNPX QE (UJL 182), UBHZN (ZNAQNYNL OEVQTR/)</obql></UGZY>
+﻿<UGZY><obql>OX201400006<oe />Erd_Qvfcngpu<oe />143 SVER-TENFF<oe />@FNVAG NAGUBAL PUHEPU  (3897 ONLBH OYNPX)</obql></UGZY>
 *******************************************************************************
 Jrfg Ongba Ebhtr Cnevfu, YN (YNJrfgOngbaEbhtrCnevfuCnefre) 
 (Abgvsvpngvba) ﻿<UGZY><obql>CNSQ:2014:00207<oe />QVFCNGPURQ<oe />QVSSVPHYGL OERNGUVAT<oe />1213 PBZZREPVNY QE<oe />K: -91.2141218586143<oe />L: 30.4444479585416</obql></UGZY>
@@ -4967,11 +4972,11 @@ Fg Gnzznal Cnevfu, YN (YNFgGnzznalCnevfuCnefre)
 (ZRQVPNY) ZRQVPNY|| 38377 FBA ZBBER EQ,FG WBR |FGN 112 KF A FBA ZBBER EQ/UJL 11|17:40 | URNG RZRETRAPL
 (HANHGU OHEA/OHEA PBZCYNVAG) HANHGU OHEA/OHEA PBZCYNVAG|| 39071 ZPDHRRA EQ,CRNEY EVIRE |FGN 112 KF OHRAN FG/BENATR FG|16:13
 (ZRQVPNY) ZRQVPNY|PURIEBA| 64060 UJL 41,CRNEY EVIRE |FGN 112 KF WNZRF PEBFOL EQ/UJL 1090|19:52
-***************************************************************************
-Greerobaar Cnevfu, YN (YNGreerobaarCnevfuCnefre) 
-﻿<UGZY><obql>OX201400008<oe />Erd_Qvfcngpu<oe />143 SVER-TENFF<oe />208 ZVYR ZNEXRE 208 J</obql></UGZY>
-﻿<UGZY><obql>OX201400007<oe />Erd_Qvfcngpu<oe />130 SVER-ZBOVYR CEBCREGL<oe />3480 ONLBH OYNPX QE (UJL 182), UBHZN (ZNAQNYNL OEVQTR/)</obql></UGZY>
-﻿<UGZY><obql>OX201400006<oe />Erd_Qvfcngpu<oe />143 SVER-TENFF<oe />@FNVAG NAGUBAL PUHEPU  (3897 ONLBH OYNPX)</obql></UGZY>
+**************************************************************************
+Jrofgre Cnevfu, YN (YNJrofgreCnevfuCnefre) 
+*SQ10 - Qvfgevpg 10* SVER - BGURE/1415 ZVQQYR EQ/TENL Z/U/JUVGR GEVZ/K-Fg:JUVFCREVAT CVARF GEY & GERIVYYVBA YA
+*SQ10 - Qvfgevpg 10* TENFF/OEHFU SVER/4040 TREZNAGBJA EQ/ZHYGV OEA OEVPX/JUVGR GEVZ/K-Fg:ZHFRHZ EQ & PYNVOBEAR CNEVFU YVAR
+*SQ10 - Qvfgevpg 10* TENFF/OEHFU SVER/2062 BYQ NEPNQVN EQ/JUVGR Q/J Z/U/BYVIR FUHGGREF/K-Fg:SERQ JVATRG EQ & PYNVOBEAR CNEVFU YVAR
 ***************************************************************************
 Oneafgnoyr Pbhagl, ZN (ZNOneafgnoyrPbhaglCnefre) 
 (!) ﻿\aUnesq Qvfcngpu\a\aSQPneoba Zbabkvqr/Abaflzcgbzngvp\g\aQ: UNE1\g\aYbp: 114 CNENYYRY, UNEJVPU (ONAX/FVFFBA EQ, EBHGR 124, EBHGR 39; Arne:EBFF TYNFF)  ( UNEJVPU PRAGRE)\g\a\aAbgrf: PNER GNXRE QNA OHPXYRL 5087376380\g

@@ -517,6 +517,7 @@ public class ParserList {
               ,"LAStCharlesParish"              ,"St Charles Parish, LA"
               ,"LAStTammanyParish"              ,"St Tammany Parish, LA"
               ,"LATerrebonneParish"             ,"Terrebonne Parish, LA"
+              ,"LAWebsterParish"                ,"Webster Parish, LA"
               ,"LAWestBatonRougeParish"         ,"West Baton Rouge Parish, LA"
               ,"LAWestFelicianaParish"          ,"West Feliciana Parish, LA"
           ),
