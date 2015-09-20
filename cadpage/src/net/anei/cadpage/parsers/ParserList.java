@@ -294,6 +294,7 @@ public class ParserList {
               ,"FLSarasotaCounty"               ,"Sarasota County, FL"
               ,"FLSatelliteBeach"               ,"Satellite Beach, FL"
               ,"FLSeminoleCounty"               ,"Seminole County, FL"
+              ,"FLWashingtonCounty"             ,"Washington County, FL"
           ),
           new ParserCategory("Georgia"
               ,"GABarrowCounty"                 ,"Barrow County, GA"
@@ -312,6 +313,7 @@ public class ParserList {
               ,"GAEffinghamCounty"              ,"Effingham County, GA"
               ,"GAEvansCounty"                  ,"Evans County, GA"
               ,"GAFanninCounty"                 ,"Fannin County, GA"
+              ,"GAFloydCounty"                  ,"Floyd County, GA"
               ,"GAForsythCounty"                ,"Forsyth County, GA"
               ,"GAFranklinCounty"               ,"Franklin County, GA"
               ,"GAHabershamCounty"              ,"Habersham County, GA"
