@@ -110,6 +110,8 @@ Fraqre: Iranatb Pbhagl 911 <911Pragre@pb.iranatb.cn.hf>
 (PNQ Vapvqrag Qrgnvy sbe:2014-0000020951) PNQ Vapvqrag: 2014-00020951             RFA   : 0999            Y   S   R   74\aCubar    :        -                     Ynj   :\aAnzr     :                              Sver  :\aNqqerff  : V 80                         RZF   :\aPbzzhavgl:                              Erfphr:\aWhevfqpga:\aYb Pebff:                                Qvfc  :\aUv Pebff:\aFhoQvivfa:                              Fbhepr: A9P\a................................................................................\aPNQ Pnyy Gvzrf: SVER IRUVPYR\a................................................................................\aVapbzvat Pnyy: 09/24/2014 11:26:20\aPnyy Perngrq : 09/24/2014 11:26:20      Perngrq Ol: 641OBL     Cbf:001\aPnyy Fraq Gvzr    :       11:27:35      Frag Ol   : 641OBL     Npgvba:\aPnyy Qvfcngpu Gvzr:       11:27:47      Rirag : SIRUVP  2      Ynathntr:\aPnyy Raebhgr Gvzr :       00:00:00      Ynj   :            1CRE\aPnyy Neeviny Gvzr :       00:00:00      Sver  :            1FGN\aPnyy Pyrne Gvzr   :       00:00:00      RZF   :            1NYF\aPnyy Pybfrq   :00/00/0000 00:00:00      Erfphr:            1F\a\a[Ab Qverpgvbaf Sbhaq]\a\a\a[Ab Ulqenag Vasbezngvba Sbhaq]\a................................................................................\aHAVG   QRCG FGNGHF/QFC/PNFR   YBPNGVBA/ERZNEX             HFRE  QNGR    GVZR\a................................................................................\a03     S03 QFC                                            649ZL 09/24 11:27:47\a\aGuvf ryrpgebavp zrffntr naq vgf nggnpuzragf znl vapyhqr vasbezngvba sebz Iranatb Pbhagl gung vf pbasvqragvny naq znl or cebgrpgrq haqre Srqreny naq/be Fgngr ynj. Guvf vasbezngvba vf vagraqrq gb or sbe gur hfr bs gur vagraqrq nqqerffrr bayl. Gur vzcebcre hfr bs guvf vasbezngvba vf cebuvovgrq. Vs lbh unir erprvirq guvf r-znvy va reebe, cyrnfr abgvsl hf ol gryrcubar ng (814) 432-9126 vzzrqvngryl be ol r-znvy ng xxblnpx@pb.iranatb.cn.hf fb gung jr znl neenatr sbe gur nccebcevngr ergevriny bs guvf qbphzrag ng ab pbfg gb lbh.
 (PNQ Vapvqrag Qrgnvy sbe:2014-0000020856) PNQ Vapvqrag: 2014-00020856             RFA   : 0303            63  22  14\aCubar    : 814 786-7725                 Ynj   :\aAnzr     : FURYOL JNGREF                Sver  :                 03\aNqqerff  : 2065 PYVAGBAIVYYR EQ         RZF   :                 033\aPbzzhavgl: VEJVA                        Erfphr:\aWhevfqpga: IRANATB PBHAGL\aYb Pebff:XVATF YA                        Qvfc  :\aUv Pebff:TRBETRGBJA EQ\aFhoQvivfa:                              Fbhepr: 911\a................................................................................\aPNQ Pnyy Gvzrf: ZRQVPNY NYCUN\a................................................................................\aVapbzvat Pnyy: 09/22/2014 20:31:30\aPnyy Perngrq : 09/22/2014 20:31:33      Perngrq Ol: 617OHP     Cbf:001\aPnyy Fraq Gvzr    :       20:32:04      Frag Ol   : 617OHP     Npgvba: Q\aPnyy Qvfcngpu Gvzr:       20:34:20      Rirag : ZRQN    1      Ynathntr:\aPnyy Raebhgr Gvzr :       00:00:00      Ynj   :            1CRE\aPnyy Neeviny Gvzr :       00:00:00      Sver  :            1FGN\aPnyy Pyrne Gvzr   :       00:00:00      RZF   :            1NYF\aPnyy Pybfrq   :00/00/0000 00:00:00      Erfphr:\a\a[Bevtvany Qvfcngpu Erznexf]\a  Nycun; 84 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  ABG QNATREBHF\a  obql nern.  Pnyyre Fgngrzrag: SNYY CNGVRAG.  1.Guvf unccrarq abj (yrff guna\a  6uef ntb).  2.Vg'f ercbegrq gung fur sryy ng tebhaq\a\a\a\a\a\a\a\a\a\a\a\a  guvat.  Snyyf.  ABG QNATREBHF obql nern.  Pnyyre Fgngrzrag: SNYY CNGVRAG.  1\a  Guvf unccrarq abj (yrff guna 6uef ntb).  2.Vg'f ercbegrq gung fur sryy ng te\a  haq\a\a\a\a\a\a\a\a[Ab Qverpgvbaf Sbhaq]\a\a\a[ZFNT VASBEZNGVBA]\aFgngr Ebnq: 0208\a\a[Ab Ulqenag Vasbezngvba Sbhaq]\a\a................................................................................\a                             Aneengvirf\a................................................................................\a\aAneengvir Ol: 001\617OHP     09/22/2014 20:33\aErznexf Bireynvq ol CebDN\a; 84 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  Pnyyre\a Fgngrzrag: SNYY CNGVRAG.\a\aAneengvir Ol: 001\617OHP     09/22/2014 20:33\aErznexf Bireynvq ol CebDN\aNycun; 84 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  A\aBG QNATREBHF obql nern.  Pnyyre Fgngrzrag: SNYY CNGVRAG.  1.Guvf unccr\aarq abj (yrff guna 6uef ntb).  2.Vg'f ercbegrq gung fur sryy ng tebhaq\a\aAneengvir Ol: 001\617OHP     09/22/2014 20:33\aCebdnRZQ Pbzzrag Ybt naq Dhrfgvba Fhzznel\aGurer vf n fvatyr cngvrag.\aGur pnyyre vf jvgu gur cngvrag.\aGuvf unccrarq abj (yrff guna 6uef ntb).\aVg'f ercbegrq gung fur sryy ng tebhaq yriry.\aGur snyy jnf nppvqragny.\aGurer vf ab oyrrqvat abj.\aFur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).\aGur vawhel vf gb n ABG QNATREBHF nern.\aFur vf ab ybatre ba gur sybbe (tebhaq).\a................................................................................\aHAVG   QRCG FGNGHF/QFC/PNFR   YBPNGVBA/ERZNEX             HFRE  QNGR    GVZR\a................................................................................\a03     S03 QFC                                            633WB 09/22 20:34:20\aFHCREV R14 QFC                                            633WB 09/22 20:34:20\a\aGuvf ryrpgebavp zrffntr naq vgf nggnpuzragf znl vapyhqr vasbezngvba sebz Iranatb Pbhagl gung vf pbasvqragvny naq znl or cebgrpgrq haqre Srqreny naq/be Fgngr ynj. Guvf vasbezngvba vf vagraqrq gb or sbe gur hfr bs gur vagraqrq nqqerffrr bayl. Gur vzcebcre hfr bs guvf vasbezngvba vf cebuvovgrq. Vs lbh unir erprvirq guvf r-znvy va reebe, cyrnfr abgvsl hf ol gryrcubar ng (814) 432-9126 vzzrqvngryl be ol r-znvy ng xxblnpx@pb.iranatb.cn.hf fb gung jr znl neenatr sbe gur nccebcevngr ergevriny bs guvf qbphzrag ng ab pbfg gb lbh.
 (PNQ Vapvqrag Qrgnvy sbe:2014-0000020655) PNQ Vapvqrag: 2014-00020655             RFA   : 0302            63  22  04\aCubar    : 814 385-6293                 Ynj   :\aAnzr     : ZPSNQQRA, JVYYVNZ Y          Sver  :                 03\aNqqerff  : 418 FGNGR EBHGR 3005         RZF   :                 032\aPbzzhavgl: PYVAGBA                      Erfphr:\aWhevfqpga: IRANATB PBHAGL\aYb Pebff:QBANYQFBA EQ                    Qvfc  :\aUv Pebff:ENAXVA PUNCRY EQ\aFhoQvivfa:                              Fbhepr: 911\a................................................................................\aPNQ Pnyy Gvzrf: ZRQVPNY QRYGN\a................................................................................\aVapbzvat Pnyy: 09/20/2014 09:43:11\aPnyy Perngrq : 09/20/2014 09:43:14      Perngrq Ol: 640PBP     Cbf:001\aPnyy Fraq Gvzr    :       09:43:37      Frag Ol   : 640PBP     Npgvba: Q\aPnyy Qvfcngpu Gvzr:       09:46:02      Rirag : ZRQQ    1      Ynathntr:\aPnyy Raebhgr Gvzr :       00:00:00      Ynj   :            1CRE\aPnyy Neeviny Gvzr :       00:00:00      Sver  :            1FGN\aPnyy Pyrne Gvzr   :       00:00:00      RZF   :            1NYF\aPnyy Pybfrq   :00/00/0000 00:00:00      Erfphr:\a\a[Bevtvany Qvfcngpu Erznexf]\a  Qrygn; 65 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Urzbeeuntr / Ynprengvbaf.\a   QNATREBHF urzbeeuntr.  Pnyyre Fgngrzrag: OYRRQVAT ERPGNY.  1.Gur pnhfr bs\a  gur oyrrqvat vf aba-genhzngvp.  2.Fur unf oyrrqv\a\a\a\a\a\a\a\a\a\a\a\a  guvat.  Urzbeeuntr / Ynprengvbaf.  QNATREBHF urzbeeuntr.  Pnyyre Fgngrzrag:\a  YRRQVAT ERPGNY.  1.Gur pnhfr bs gur oyrrqvat vf aba-genhzngvp.  2.Fur unf oy\a  rqv\a\a\a\a\a\a\a\a[Ab Qverpgvbaf Sbhaq]\a\a\a[ZFNT VASBEZNGVBA]\aFgngr Ebnq: 3005\a\a[Ab Ulqenag Vasbezngvba Sbhaq]\a\a................................................................................\a                             Aneengvirf\a................................................................................\a\aAneengvir Ol: 001\640PBP     09/20/2014 09:44\aErznexf Bireynvq ol CebDN\a; 65 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Urzbeeuntr / Y\anprengvbaf.  Pnyyre Fgngrzrag: OYRRQVAT ERPGNY.\a\aAneengvir Ol: 001\640PBP     09/20/2014 09:45\aErznexf Bireynvq ol CebDN\aQrygn; 65 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Urzbeeunt\ar / Ynprengvbaf.  Noabezny oernguvat.  Pnyyre Fgngrzrag: OYRRQVAT ERPG\aNY.  1.Gur pnhfr bs gur oyrrqvat vf aba-genhzngvp.  2.Fur unf oyrrqvat\a\aAneengvir Ol: 001\640PBP     09/20/2014 09:45\aErznexf Bireynvq ol CebDN\aQrygn; 65 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Urzbeeunt\ar / Ynprengvbaf.  QNATREBHF urzbeeuntr.  Pnyyre Fgngrzrag: OYRRQVAT ER\aPGNY.  1.Gur pnhfr bs gur oyrrqvat vf aba-genhzngvp.  2.Fur unf oyrrqv\a\aAneengvir Ol: 001\640PBP     09/20/2014 09:45\aErznexf Bireynvq ol CebDN\aQrygn; 65 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Urzbeeunt\ar / Ynprengvbaf.  QNATREBHF urzbeeuntr.  Pnyyre Fgngrzrag: OYRRQVAT ER\aPGNY.  1.Gur pnhfr bs gur oyrrqvat vf aba-genhzngvp.  2.Fur unf oyrrqv\a\aAneengvir Ol: 001\640PBP     09/20/2014 09:45\aCebdnRZQ Pbzzrag Ybt naq Dhrfgvba Fhzznel\aGurer vf n fvatyr cngvrag.\aGur pnyyre vf jvgu gur cngvrag.\aGur pnhfr bs gur oyrrqvat vf aba-genhzngvp.\aFur unf oyrrqvat sebz gur erpghz.\aFur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).\aFur vf abg oernguvat abeznyyl.\aGurer vf FREVBHF oyrrqvat.\aFur gnxrf oybbq guvaaref.\a................................................................................\aHAVG   QRCG FGNGHF/QFC/PNFR   YBPNGVBA/ERZNEX             HFRE  QNGR    GVZR\a................................................................................\a03     S03 QFC                                            618QB 09/20 09:46:02\aRNF    R04 QFC                                            618QB 09/20 09:46:02\a\aGuvf ryrpgebavp zrffntr naq vgf nggnpuzragf znl vapyhqr vasbezngvba sebz Iranatb Pbhagl gung vf pbasvqragvny naq znl or cebgrpgrq haqre Srqreny naq/be Fgngr ynj. Guvf vasbezngvba vf vagraqrq gb or sbe gur hfr bs gur vagraqrq nqqerffrr bayl. Gur vzcebcre hfr bs guvf vasbezngvba vf cebuvovgrq. Vs lbh unir erprvirq guvf r-znvy va reebe, cyrnfr abgvsl hf ol gryrcubar ng (814) 432-9126 vzzrqvngryl be ol r-znvy ng xxblnpx@pb.iranatb.cn.hf fb gung jr znl neenatr sbe gur nccebcevngr ergevriny bs guvf qbphzrag ng ab pbfg gb lbh.
+{PNQ Vapvqrag Qrgnvy sbe:2014-0000025735} PNQ Vapvqrag: 2014-00025735             RFA   : 0301            61  22\e\a14\e\aCubar    : 724 704-1605                 Ynj   :\e\aAnzr     : YRRYNA YVQFNL                Sver  :                 03 34 36\e\a38\e\aNqqerff  : 1181 PYVAGBAIVYYR EQ         RZF   :                 031\e\aPbzzhavgl: ONEXRLIVYYR                  Erfphr:\e\aWhevfqpga: IRANATB PBHAGL\e\aYb Pebff:CVGGFOHETU EQ                   Qvfc  :\e\aUv Pebff:PBXNVA EQ\e\aFhoQvivfa:                              Fbhepr: A9P\e\a........................................................................\e\a........\e\aPNQ Pnyy Gvzrf: ZRQVPNY TRAREVP\e\a........................................................................\e\a........\e\aVapbzvat Pnyy: 11/24/2014 01:34:12\e\aPnyy Perngrq : 11/24/2014 01:34:12      Perngrq Ol: 617OHP     Cbf:001\e\aPnyy Fraq Gvzr    :       01:35:00      Frag Ol   : 617OHP     Npgvba:\e\aPnyy Qvfcngpu Gvzr:       01:36:02      Rirag : ZRQ     1      Ynathntr:\e\aPnyy Raebhgr Gvzr :       00:00:00      Ynj   :            1CRE\e\aPnyy Neeviny Gvzr :       00:00:00      Sver  :            1FGN\e\aPnyy Pyrne Gvzr   :       00:00:00      RZF   :            1NYF\e\aPnyy Pybfrq   :00/00/0000 00:00:00      Erfphr:\e\a\e\a[Bevtvany Qvfcngpu Erznexf]\e\a  Qrygn; 37 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyrzf.\e\aAbg\e\a  nyreg.  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.  1.Ur vf abg pbzcyrgryl\e\anyreg\e\a  (abg erfcbaqvat nccebcevngryl).  2.Ur unf qvssvphy\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a   Abg nyreg.  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.  1.Ur vf abg\e\apbzcyrgryl n\e\a  reg (abg erfcbaqvat nccebcevngryl).  2.Ur unf qvssvphy\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a[Ab Qverpgvbaf Sbhaq]\e\a\e\a\e\a[ZFNT VASBEZNGVBA]\e\aFgngr Ebnq: 0208\e\a\e\a[Ab Ulqenag Vasbezngvba Sbhaq]\e\a\e\a........................................................................\e\a........\e\a                             Aneengvirf\e\a........................................................................\e\a........\e\a\e\aAneengvir Ol: 001\\617OHP     11/24/2014 01:35\e\aErznexf Bireynvq ol CebDN\e\a; 37 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyr\e\azf.  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.\e\a\e\aAneengvir Ol: 001\\617OHP     11/24/2014 01:35\e\aCebdnRZQ Pbzzrag Ybt naq Dhrfgvba Fhzznel\e\aGurer vf n fvatyr cngvrag.\e\aGur pnyyre vf jvgu gur cngvrag.\e\aUr vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).\e\aUr unf qvssvphygl fcrnxvat orgjrra oernguf.\e\a........................................................................\e\a........\e\aHAVG   QRCG FGNGHF/QFC/PNFR   YBPNGVBA/ERZNEX             HFRE  QNGR\e\aGVZR\e\a........................................................................\e\a........\e\a03     S03 QFC                                            646GR 11/24\e\a01:36:02\e\aFHCREV R14 QFC                                            646GR 11/24\e\a01:36:02\e\a\e\aGuvf ryrpgebavp zrffntr naq vgf nggnpuzragf znl vapyhqr vasbezngvba sebz Iranatb Pbhagl gung vf pbasvqragvny naq znl or cebgrpgrq haqre Srqreny naq/be Fgngr ynj. Guvf vasbezngvba vf vagraqrq gb or sbe gur hfr bs gur vagraqrq nqqerffrr bayl. Gur vzcebcre hfr bs guvf vasbezngvba vf cebuvovgrq. Vs lbh unir erprvirq guvf r-znvy va reebe, cyrnfr abgvsl hf ol gryrcubar ng (814) 432-9126 vzzrqvngryl be ol r-znvy ng xxblnpx@pb.iranatb.cn.hf fb gung jr znl neenatr sbe gur nccebcevngr ergevriny bs guvf qbphzrag ng ab pbfg gb lbh.
+{PNQ Vapvqrag Qrgnvy sbe:2014-0000025735} PNQ Vapvqrag: 2014-00025735             RFA   : 0301            61  22\e\a14\e\aCubar    : 724 704-1605                 Ynj   :\e\aAnzr     : YRRYNA YVQFNL                Sver  :                 03 34 36\e\a38\e\aNqqerff  : 1181 PYVAGBAIVYYR EQ         RZF   :                 031\e\aPbzzhavgl: ONEXRLIVYYR                  Erfphr:\e\aWhevfqpga: IRANATB PBHAGL\e\aYb Pebff:CVGGFOHETU EQ                   Qvfc  :\e\aUv Pebff:PBXNVA EQ\e\aFhoQvivfa:                              Fbhepr: A9P\e\a........................................................................\e\a........\e\aPNQ Pnyy Gvzrf: ZRQVPNY QRYGN\e\a........................................................................\e\a........\e\aVapbzvat Pnyy: 11/24/2014 01:34:12\e\aPnyy Perngrq : 11/24/2014 01:34:12      Perngrq Ol: 617OHP     Cbf:001\e\aPnyy Fraq Gvzr    :       01:35:00      Frag Ol   : 617OHP     Npgvba: Q\e\aPnyy Qvfcngpu Gvzr:       01:36:02      Rirag : ZRQQ    1      Ynathntr:\e\aPnyy Raebhgr Gvzr :       00:00:00      Ynj   :            1CRE\e\aPnyy Neeviny Gvzr :       00:00:00      Sver  :            1FGN\e\aPnyy Pyrne Gvzr   :       00:00:00      RZF   :            1NYF\e\aPnyy Pybfrq   :00/00/0000 00:00:00      Erfphr:\e\a\e\a[Bevtvany Qvfcngpu Erznexf]\e\a  Qrygn; 37 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyrzf.\e\aAbg\e\a  nyreg  (Nfguzn).  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.  1.Ur vf abg\e\a  pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).  2.Ur un\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a   Abg nyreg  (Nfguzn).  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.  1.Ur vf\e\aabg pb\e\a  cyrgryl nyreg (abg erfcbaqvat nccebcevngryl).  2.Ur un\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a\e\a[Ab Qverpgvbaf Sbhaq]\e\a\e\a\e\a[ZFNT VASBEZNGVBA]\e\aFgngr Ebnq: 0208\e\a\e\a[Ab Ulqenag Vasbezngvba Sbhaq]\e\a\e\a........................................................................\e\a........\e\a                             Aneengvirf\e\a........................................................................\e\a........\e\a\e\aAneengvir Ol: 001\\617OHP     11/24/2014 01:35\e\aErznexf Bireynvq ol CebDN\e\a; 37 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyr\e\azf.  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.\e\a\e\aAneengvir Ol: 001\\617OHP     11/24/2014 01:36\e\aErznexf Bireynvq ol CebDN\e\aQrygn; 37 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat C\e\aeboyrzf.  Abg nyreg.  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.  1.Ur vf a\e\abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).  2.Ur unf qvssvphy\e\a\e\aAneengvir Ol: 001\\617OHP     11/24/2014 01:36\e\aErznexf Bireynvq ol CebDN\e\aQrygn; 37 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat C\e\aeboyrzf.  Abg nyreg  (Nfguzn).  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.\e\a 1.Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).  2.Ur un\e\a\e\aAneengvir Ol: 001\\617OHP     11/24/2014 01:37\e\aErznexf Bireynvq ol CebDN\e\aQrygn; 37 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat C\e\aeboyrzf.  Abg nyreg  (Nfguzn).  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.\e\a 1.Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).  2.Ur un\e\a\e\aAneengvir Ol: 001\\617OHP     11/24/2014 01:37\e\aCebdnRZQ Pbzzrag Ybt naq Dhrfgvba Fhzznel\e\aGurer vf n fvatyr cngvrag.\e\aGur pnyyre vf jvgu gur cngvrag.\e\aUr vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).\e\aUr unf qvssvphygl fcrnxvat orgjrra oernguf.\e\aUr vf punatvat pbybe.\e\aUvf pbybe punatr vf cnyr.\e\aUr vf pynzzl.\e\aUr unf nfguzn.\e\aUr unf n cerfpevorq vaunyre.\e\aUr unf hfrq n cerfpevorq vaunyre.\e\aA/N\e\a........................................................................\e\a........\e\aHAVG   QRCG FGNGHF/QFC/PNFR   YBPNGVBA/ERZNEX             HFRE  QNGR\e\aGVZR\e\a........................................................................\e\a........\e\a03     S03 QFC                                            646GR 11/24\e\a01:36:02\e\aFHCREV R14 QFC                                            646GR 11/24\e\a01:36:02\e\a03     S03 QFC                                            646GR 11/24\e\a01:40:18\e\a03     S03 QFC                                            646GR 11/24\e\a01:42:51\e\a\e\aGuvf ryrpgebavp zrffntr naq vgf nggnpuzragf znl vapyhqr vasbezngvba sebz Iranatb Pbhagl gung vf pbasvqragvny naq znl or cebgrpgrq haqre Srqreny naq/be Fgngr ynj. Guvf vasbezngvba vf vagraqrq gb or sbe gur hfr bs gur vagraqrq nqqerffrr bayl. Gur vzcebcre hfr bs guvf vasbezngvba vf cebuvovgrq. Vs lbh unir erprvirq guvf r-znvy va reebe, cyrnfr abgvsl hf ol gryrcubar ng (814) 432-9126 vzzrqvngryl be ol r-znvy ng xxblnpx@pb.iranatb.cn.hf fb gung jr znl neenatr sbe gur nccebcevngr ergevriny bs guvf qbphzrag ng ab pbfg gb lbh
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ebpxl Tebir ISQ
@@ -6590,6 +6592,244 @@ choyvp pynff CNIranatbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:QBANYQFBA EQ & ENAXVA PUNCRY EQ",
         "PNYY:ZRQVPNY QRYGN",
         "GVZR:09:46:02");
+
+    qbGrfg("G97",
+        "{PNQ Vapvqrag Qrgnvy sbe:2014-0000025735} PNQ Vapvqrag: 2014-00025735             RFA   : 0301            61  22\e\a" +
+        "14\e\a" +
+        "Cubar    : 724 704-1605                 Ynj   :\e\a" +
+        "Anzr     : YRRYNA YVQFNL                Sver  :                 03 34 36\e\a" +
+        "38\e\a" +
+        "Nqqerff  : 1181 PYVAGBAIVYYR EQ         RZF   :                 031\e\a" +
+        "Pbzzhavgl: ONEXRLIVYYR                  Erfphr:\e\a" +
+        "Whevfqpga: IRANATB PBHAGL\e\a" +
+        "Yb Pebff:CVGGFOHETU EQ                   Qvfc  :\e\a" +
+        "Uv Pebff:PBXNVA EQ\e\a" +
+        "FhoQvivfa:                              Fbhepr: A9P\e\a" +
+        "........................................................................\e\a" +
+        "........\e\a" +
+        "PNQ Pnyy Gvzrf: ZRQVPNY TRAREVP\e\a" +
+        "........................................................................\e\a" +
+        "........\e\a" +
+        "Vapbzvat Pnyy: 11/24/2014 01:34:12\e\a" +
+        "Pnyy Perngrq : 11/24/2014 01:34:12      Perngrq Ol: 617OHP     Cbf:001\e\a" +
+        "Pnyy Fraq Gvzr    :       01:35:00      Frag Ol   : 617OHP     Npgvba:\e\a" +
+        "Pnyy Qvfcngpu Gvzr:       01:36:02      Rirag : ZRQ     1      Ynathntr:\e\a" +
+        "Pnyy Raebhgr Gvzr :       00:00:00      Ynj   :            1CRE\e\a" +
+        "Pnyy Neeviny Gvzr :       00:00:00      Sver  :            1FGN\e\a" +
+        "Pnyy Pyrne Gvzr   :       00:00:00      RZF   :            1NYF\e\a" +
+        "Pnyy Pybfrq   :00/00/0000 00:00:00      Erfphr:\e\a" +
+        "\e\a" +
+        "[Bevtvany Qvfcngpu Erznexf]\e\a" +
+        "  Qrygn; 37 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyrzf.\e\a" +
+        "Abg\e\a" +
+        "  nyreg.  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.  1.Ur vf abg pbzcyrgryl\e\a" +
+        "nyreg\e\a" +
+        "  (abg erfcbaqvat nccebcevngryl).  2.Ur unf qvssvphy\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "   Abg nyreg.  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.  1.Ur vf abg\e\a" +
+        "pbzcyrgryl n\e\a" +
+        "  reg (abg erfcbaqvat nccebcevngryl).  2.Ur unf qvssvphy\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "[Ab Qverpgvbaf Sbhaq]\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "[ZFNT VASBEZNGVBA]\e\a" +
+        "Fgngr Ebnq: 0208\e\a" +
+        "\e\a" +
+        "[Ab Ulqenag Vasbezngvba Sbhaq]\e\a" +
+        "\e\a" +
+        "........................................................................\e\a" +
+        "........\e\a" +
+        "                             Aneengvirf\e\a" +
+        "........................................................................\e\a" +
+        "........\e\a" +
+        "\e\a" +
+        "Aneengvir Ol: 001\\617OHP     11/24/2014 01:35\e\a" +
+        "Erznexf Bireynvq ol CebDN\e\a" +
+        "; 37 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyr\e\a" +
+        "zf.  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.\e\a" +
+        "\e\a" +
+        "Aneengvir Ol: 001\\617OHP     11/24/2014 01:35\e\a" +
+        "CebdnRZQ Pbzzrag Ybt naq Dhrfgvba Fhzznel\e\a" +
+        "Gurer vf n fvatyr cngvrag.\e\a" +
+        "Gur pnyyre vf jvgu gur cngvrag.\e\a" +
+        "Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).\e\a" +
+        "Ur unf qvssvphygl fcrnxvat orgjrra oernguf.\e\a" +
+        "........................................................................\e\a" +
+        "........\e\a" +
+        "HAVG   QRCG FGNGHF/QFC/PNFR   YBPNGVBA/ERZNEX             HFRE  QNGR\e\a" +
+        "GVZR\e\a" +
+        "........................................................................\e\a" +
+        "........\e\a" +
+        "03     S03 QFC                                            646GR 11/24\e\a" +
+        "01:36:02\e\a" +
+        "FHCREV R14 QFC                                            646GR 11/24\e\a" +
+        "01:36:02\e\a" +
+        "\e\a" +
+        "Guvf ryrpgebavp zrffntr naq vgf nggnpuzragf znl vapyhqr vasbezngvba sebz Iranatb Pbhagl gung vf pbasvqragvny naq znl or cebgrpgrq haqre Srqreny naq/be Fgngr ynj. Guvf vasbezngvba vf vagraqrq gb or sbe gur hfr bs gur vagraqrq nqqerffrr bayl. Gur vzcebcre hfr bs guvf vasbezngvba vf cebuvovgrq. Vs lbh unir erprvirq guvf r-znvy va reebe, cyrnfr abgvsl hf ol gryrcubar ng (814) 432-9126 vzzrqvngryl be ol r-znvy ng xxblnpx@pb.iranatb.cn.hf fb gung jr znl neenatr sbe gur nccebcevngr ergevriny bs guvf qbphzrag ng ab pbfg gb lbh.",
+
+        "VQ:2014-00025735",
+        "HAVG:0301",
+        "CUBAR:724 704-1605",
+        "ANZR:YRRYNA YVQFNL",
+        "NQQE:1181 PYVAGBAIVYYR EQ",
+        "PVGL:ONEXRLIVYYR",
+        "VASB:IRANATB PBHAGL",
+        "K:CVGGFOHETU EQ & PBXNVA EQ",
+        "PNYY:ZRQVPNY TRAREVP",
+        "GVZR:01:36:02");
+
+    qbGrfg("G2",
+        "{PNQ Vapvqrag Qrgnvy sbe:2014-0000025735} PNQ Vapvqrag: 2014-00025735             RFA   : 0301            61  22\e\a" +
+        "14\e\a" +
+        "Cubar    : 724 704-1605                 Ynj   :\e\a" +
+        "Anzr     : YRRYNA YVQFNL                Sver  :                 03 34 36\e\a" +
+        "38\e\a" +
+        "Nqqerff  : 1181 PYVAGBAIVYYR EQ         RZF   :                 031\e\a" +
+        "Pbzzhavgl: ONEXRLIVYYR                  Erfphr:\e\a" +
+        "Whevfqpga: IRANATB PBHAGL\e\a" +
+        "Yb Pebff:CVGGFOHETU EQ                   Qvfc  :\e\a" +
+        "Uv Pebff:PBXNVA EQ\e\a" +
+        "FhoQvivfa:                              Fbhepr: A9P\e\a" +
+        "........................................................................\e\a" +
+        "........\e\a" +
+        "PNQ Pnyy Gvzrf: ZRQVPNY QRYGN\e\a" +
+        "........................................................................\e\a" +
+        "........\e\a" +
+        "Vapbzvat Pnyy: 11/24/2014 01:34:12\e\a" +
+        "Pnyy Perngrq : 11/24/2014 01:34:12      Perngrq Ol: 617OHP     Cbf:001\e\a" +
+        "Pnyy Fraq Gvzr    :       01:35:00      Frag Ol   : 617OHP     Npgvba: Q\e\a" +
+        "Pnyy Qvfcngpu Gvzr:       01:36:02      Rirag : ZRQQ    1      Ynathntr:\e\a" +
+        "Pnyy Raebhgr Gvzr :       00:00:00      Ynj   :            1CRE\e\a" +
+        "Pnyy Neeviny Gvzr :       00:00:00      Sver  :            1FGN\e\a" +
+        "Pnyy Pyrne Gvzr   :       00:00:00      RZF   :            1NYF\e\a" +
+        "Pnyy Pybfrq   :00/00/0000 00:00:00      Erfphr:\e\a" +
+        "\e\a" +
+        "[Bevtvany Qvfcngpu Erznexf]\e\a" +
+        "  Qrygn; 37 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyrzf.\e\a" +
+        "Abg\e\a" +
+        "  nyreg  (Nfguzn).  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.  1.Ur vf abg\e\a" +
+        "  pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).  2.Ur un\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "   Abg nyreg  (Nfguzn).  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.  1.Ur vf\e\a" +
+        "abg pb\e\a" +
+        "  cyrgryl nyreg (abg erfcbaqvat nccebcevngryl).  2.Ur un\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "[Ab Qverpgvbaf Sbhaq]\e\a" +
+        "\e\a" +
+        "\e\a" +
+        "[ZFNT VASBEZNGVBA]\e\a" +
+        "Fgngr Ebnq: 0208\e\a" +
+        "\e\a" +
+        "[Ab Ulqenag Vasbezngvba Sbhaq]\e\a" +
+        "\e\a" +
+        "........................................................................\e\a" +
+        "........\e\a" +
+        "                             Aneengvirf\e\a" +
+        "........................................................................\e\a" +
+        "........\e\a" +
+        "\e\a" +
+        "Aneengvir Ol: 001\\617OHP     11/24/2014 01:35\e\a" +
+        "Erznexf Bireynvq ol CebDN\e\a" +
+        "; 37 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyr\e\a" +
+        "zf.  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.\e\a" +
+        "\e\a" +
+        "Aneengvir Ol: 001\\617OHP     11/24/2014 01:36\e\a" +
+        "Erznexf Bireynvq ol CebDN\e\a" +
+        "Qrygn; 37 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat C\e\a" +
+        "eboyrzf.  Abg nyreg.  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.  1.Ur vf a\e\a" +
+        "bg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).  2.Ur unf qvssvphy\e\a" +
+        "\e\a" +
+        "Aneengvir Ol: 001\\617OHP     11/24/2014 01:36\e\a" +
+        "Erznexf Bireynvq ol CebDN\e\a" +
+        "Qrygn; 37 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat C\e\a" +
+        "eboyrzf.  Abg nyreg  (Nfguzn).  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.\e\a" +
+        " 1.Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).  2.Ur un\e\a" +
+        "\e\a" +
+        "Aneengvir Ol: 001\\617OHP     11/24/2014 01:37\e\a" +
+        "Erznexf Bireynvq ol CebDN\e\a" +
+        "Qrygn; 37 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat C\e\a" +
+        "eboyrzf.  Abg nyreg  (Nfguzn).  Pnyyre Fgngrzrag: OERNGUVAT CEBOYRZF.\e\a" +
+        " 1.Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).  2.Ur un\e\a" +
+        "\e\a" +
+        "Aneengvir Ol: 001\\617OHP     11/24/2014 01:37\e\a" +
+        "CebdnRZQ Pbzzrag Ybt naq Dhrfgvba Fhzznel\e\a" +
+        "Gurer vf n fvatyr cngvrag.\e\a" +
+        "Gur pnyyre vf jvgu gur cngvrag.\e\a" +
+        "Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).\e\a" +
+        "Ur unf qvssvphygl fcrnxvat orgjrra oernguf.\e\a" +
+        "Ur vf punatvat pbybe.\e\a" +
+        "Uvf pbybe punatr vf cnyr.\e\a" +
+        "Ur vf pynzzl.\e\a" +
+        "Ur unf nfguzn.\e\a" +
+        "Ur unf n cerfpevorq vaunyre.\e\a" +
+        "Ur unf hfrq n cerfpevorq vaunyre.\e\a" +
+        "A/N\e\a" +
+        "........................................................................\e\a" +
+        "........\e\a" +
+        "HAVG   QRCG FGNGHF/QFC/PNFR   YBPNGVBA/ERZNEX             HFRE  QNGR\e\a" +
+        "GVZR\e\a" +
+        "........................................................................\e\a" +
+        "........\e\a" +
+        "03     S03 QFC                                            646GR 11/24\e\a" +
+        "01:36:02\e\a" +
+        "FHCREV R14 QFC                                            646GR 11/24\e\a" +
+        "01:36:02\e\a" +
+        "03     S03 QFC                                            646GR 11/24\e\a" +
+        "01:40:18\e\a" +
+        "03     S03 QFC                                            646GR 11/24\e\a" +
+        "01:42:51\e\a" +
+        "\e\a" +
+        "Guvf ryrpgebavp zrffntr naq vgf nggnpuzragf znl vapyhqr vasbezngvba sebz Iranatb Pbhagl gung vf pbasvqragvny naq znl or cebgrpgrq haqre Srqreny naq/be Fgngr ynj. Guvf vasbezngvba vf vagraqrq gb or sbe gur hfr bs gur vagraqrq nqqerffrr bayl. Gur vzcebcre hfr bs guvf vasbezngvba vf cebuvovgrq. Vs lbh unir erprvirq guvf r-znvy va reebe, cyrnfr abgvsl hf ol gryrcubar ng (814) 432-9126 vzzrqvngryl be ol r-znvy ng xxblnpx@pb.iranatb.cn.hf fb gung jr znl neenatr sbe gur nccebcevngr ergevriny bs guvf qbphzrag ng ab pbfg gb lbh",
+
+        "VQ:2014-00025735",
+        "HAVG:0301",
+        "CUBAR:724 704-1605",
+        "ANZR:YRRYNA YVQFNL",
+        "NQQE:1181 PYVAGBAIVYYR EQ",
+        "PVGL:ONEXRLIVYYR",
+        "VASB:IRANATB PBHAGL",
+        "K:CVGGFOHETU EQ & PBXNVA EQ",
+        "PNYY:ZRQVPNY QRYGN",
+        "GVZR:01:36:02");
 
   }
 
