@@ -17,6 +17,10 @@ uggc://jvxv.enqvbersrerapr.pbz/vaqrk.cuc/Purfgre_Pbhagl_%28CN%29
 (FO SHYZRE EQ FB RORYUNER) 21:26 ** NPPVQRAG - ZBGBEPLPYR * ** FO SHYZRE EQ FB RORYUNER EQ ,18   (I) ** 6201 ** ZP IF GERR ---\aQRGNVYF GB SBYYBJ\a**  **
 (1701 CBGGFGBJA CX ,20 --) 14:39 ** NPPVQRAG - ZBGBEPLPYR * ** 1701  CBGGFGBJA CX ,20 -- ZNVA RIRAG FCBE ** 6205 ** GJB QBJA VA GUR EBNQJNL\a**  **
 
+Pbagnpg: qnae789 <qnae789@ubgznvy.pbz>
+Fraqre: nqv62C@evqtrsverpbzcnal.pbz
+Fhowrpg:BQBE VAIRFGVTNGVBA (VAFVQR\a20:49 ** BQBE VAIRFGVTNGVBA (VAFVQR ** 614 PERFG YN ,18 ** 6212 ** CRFGVPVQR BQBE VA NCNEGZRAG S
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Orejla SP
 Ybpngvba: Orejla, CN, Havgrq Fgngrf
@@ -188,6 +192,23 @@ choyvp pynff CNPurfgrePbhaglQ1CnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:6205",
         "VASB:GJB QBJA VA GUR EBNQJNL");
  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnae789() {
+
+    qbGrfg("G1",
+        "Fhowrpg:BQBE VAIRFGVTNGVBA (VAFVQR\a" +
+        "20:49 ** BQBE VAIRFGVTNGVBA (VAFVQR ** 614 PERFG YN ,18 ** 6212 ** CRFGVPVQR BQBE VA NCNEGZRAG S",
+
+        "GVZR:20:49",
+        "PNYY:BQBE VAIRFGVTNGVBA (VAFVQR",
+        "NQQE:614 PERFG YN",
+        "ZNQQE:614 PERFG YA",
+        "PVGL:RNFG PBIRAGEL GJC",
+        "OBK:6212",
+        "VASB:CRFGVPVQR BQBE VA NCNEGZRAG S");
+
   }
 
   @Grfg
