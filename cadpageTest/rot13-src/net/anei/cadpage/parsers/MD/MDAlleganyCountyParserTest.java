@@ -36,6 +36,7 @@ Pbagnpg: Ovyy Cevpr <jucevpr@irevmba.arg>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 06:53 #012470 SYHR SVER 155 SEBFG NIR OBK:S1604 QHR:R162 R171 TPR81 R152 R181 GE16 GE2 FD16 N355
 F:Pbzcnal 16 Z:08:36 #018994 UBHFR SVER *18139 ZBHAG FNINTR EQ AJ*  OBK:S1617 QHR:R162 R152 R172 TPR81 R302 GE16 GE2 FD16 N355
+F:Pbzcnal 16 Z:09:25 #046302 OERNGUVAT QVSSVPHYGL *17000 ANGVBANY UJL AJ*  OBK:S1619 QHR:N374 PB16
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Orqsbeq Ebnq ISQ
@@ -639,8 +640,17 @@ choyvp pynff ZQNyyrtnalPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:18139 ZBHAG FNINTR EQ AJ",
         "OBK:S1617",
         "HAVG:R162 R152 R172 TPR81 R302 GE16 GE2 FD16 N355");
-  
-  }
+
+    qbGrfg("G3",
+        "F:Pbzcnal 16 Z:09:25 #046302 OERNGUVAT QVSSVPHYGL *17000 ANGVBANY UJL AJ*  OBK:S1619 QHR:N374 PB16",
+        "FEP:16",
+        "GVZR:09:25",
+        "VQ:046302",
+        "PNYY:OERNGUVAT QVSSVPHYGL",
+        "NQQE:17000 ANGVBANY UJL AJ",
+        "OBK:S1619",
+        "HAVG:N374 PB16");
+}
 
   @Grfg
   choyvp ibvq grfgOrqsbeqEbnqISQ() {

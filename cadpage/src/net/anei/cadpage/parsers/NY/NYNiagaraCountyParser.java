@@ -6,9 +6,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-
-
-
 public class NYNiagaraCountyParser extends FieldProgramParser {
   
   private String delim;
@@ -28,6 +25,7 @@ public class NYNiagaraCountyParser extends FieldProgramParser {
   private static final Pattern ID_SUBJECT_PTN = Pattern.compile("\\((\\d+)\\) NCFC [A-Z]+");
   private static final Pattern TRAIL_TIME_PTN = Pattern.compile("[ @]+(?:(\\d\\d):?(\\d\\d)(?: ?HRS)?|(\\d:\\d{2}))$", Pattern.CASE_INSENSITIVE);
   private static final Pattern TRAIL_DATE_PTN = Pattern.compile(" +(\\d{1,2}/\\d{1,2}(?:/\\d{2}(?:\\d{2})?)?)$");
+  private static final Pattern LEAD_DATE_TIME_PTN = Pattern.compile("(\\d{2})(\\d{2})HRS ON (\\d{2})(\\d{2})(\\d{2})[- ]+", Pattern.CASE_INSENSITIVE);
   private static final Pattern TRAIL_OPS_PTN = Pattern.compile("[- ]+(OPS *\\d*)$", Pattern.CASE_INSENSITIVE);
   private static final Pattern DASH_DELIM = Pattern.compile(" +- *|- +|^-");
   private static final Pattern SLASH_DELIM = Pattern.compile("(?<!\\d)/|/(?!\\d)");
@@ -74,6 +72,15 @@ public class NYNiagaraCountyParser extends FieldProgramParser {
           body = body.substring(0,match.start());
           data.strDate = match.group(1);
         }
+      }
+    }
+    
+    if (data.strTime.length() == 0) {
+      match = LEAD_DATE_TIME_PTN.matcher(body);
+      if (match.lookingAt()) {
+        data.strTime = match.group(1)+':'+match.group(2);
+        data.strDate = match.group(3)+'/'+match.group(4)+'/'+match.group(5);
+        body = body.substring(match.end());
       }
     }
     

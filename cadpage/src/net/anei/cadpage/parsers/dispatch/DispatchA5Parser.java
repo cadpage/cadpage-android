@@ -50,7 +50,7 @@ public class DispatchA5Parser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals(SUBJECT_SIGNATURE)) return false;
+    if (!subject.startsWith(SUBJECT_SIGNATURE)) return false;
     if (body.contains("** FINAL REPORT **")) {
       data.strCall = "RUN REPORT";
       data.strPlace = body;
