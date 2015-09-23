@@ -308,7 +308,7 @@ choyvp pynff BUYvznCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:15-031072",
         "QNGR:9/9/2015",
-        "GVZR:14:02:03",
+        "GVZR:14:02:03", 
         "PNYY:NZOHYNAPR EHA |",
         "NQQE:463 BERAN NIR",
         "K:R RHERXN FG & R XVOOL FG",
