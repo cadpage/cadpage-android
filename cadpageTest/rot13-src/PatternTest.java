@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE = 
-     Cnggrea.pbzcvyr("[ /]+((?:\\o[N-M\\q]+:[-N-M\\q]+(?: SQ|-\\q| \\q(?=,)|)\\o,?)++)[ /]*");
+      Cnggrea.pbzcvyr("(.*), *([N-Mn-m ]+)(?: \\q{5}\\o| \\(haxabja\\)|, *GK\\o(?: +\\q{5}\\o)?) *(.*)");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("8040 ERFPHR/NZOHYNAPR 11900, R 150 F,XABK RZF:Z-3,ISQ:JGSQ 1 LB SRZNYR JVGU N GRZC VF FRVMVAT//QVSS OERNGUVAT");
+    qbGrfg("RQ Ju Sbeq Uvtu Fpubby, Dhvayna, GK (10064 Byq Gk 34-Oe) ba ujl 34 arne SBEQ UVTU FPUBBY");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

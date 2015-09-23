@@ -55,7 +55,8 @@ public class DispatchProQAParser extends FieldProgramParser {
   
   private static final Pattern MARKER = Pattern.compile("(?:- part 1 of 1[\\s/]+)?(?:RC: *(?:\\d*(?:-[A-Z])?/)?)? *");
   private static final Pattern UNASSIGNED_MARKER = Pattern.compile("Job# *[^ ]* *\\(Run# (\\d+)\\) at [0-9:]+ was unassigned\\.");
-  private static final Pattern RUN_REPORT_MARKER = Pattern.compile("(?:(?:Job# *)?\\d+(?:-[A-Z])?/ *)?Run# *(\\d+) */ *(?:(was Canceled: .*?)/)?((?:CALL:)?\\d\\d:\\d\\d/ ?(?:DISP:)?\\d\\d:\\d\\d/ ?.*)");
+  private static final Pattern RUN_REPORT_MARKER1 = Pattern.compile("(?:(?:Job# *)?\\d+(?:-[A-Z])?/ *)?Run# *(\\d+) */ *(?:(was Canceled: .*?)/)?((?:CALL:)?\\d\\d:\\d\\d/ ?(?:DISP:)?\\d\\d:\\d\\d/ ?.*)");
+  private static final Pattern RUN_REPORT_MARKER2 = Pattern.compile("Inc# *[^ ]* */ *Run# *(\\d+) was cancelled */ *([A-Z0-9]+) */ *(.*)");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -73,13 +74,24 @@ public class DispatchProQAParser extends FieldProgramParser {
       data.strSupp = "was unassigned";
       return true;
     }
-    match = RUN_REPORT_MARKER.matcher(body);
+    match = RUN_REPORT_MARKER1.matcher(body);
     if (match.matches()) {
       setFieldList("ID INFO");
       data.msgType = MsgType.RUN_REPORT;
       data.strCallId = match.group(1);
       data.strSupp = append(getOptGroup(match.group(2)), "\n", 
                             match.group(3).replace('/', '\n').trim());
+      return true;
+    }
+    match = RUN_REPORT_MARKER2.matcher(body);
+    if (match.matches()) {
+      setFieldList("ID UNIT INFO");
+      data.msgType = MsgType.RUN_REPORT;
+      data.strCallId = match.group(1);
+      data.strUnit = match.group(2);
+      for (String time : match.group(3).split("/")) {
+        data.strSupp = append(data.strSupp, "\n", time.trim());
+      }
       return true;
     }
 
@@ -91,7 +103,7 @@ public class DispatchProQAParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("Run# *(\\d+)", true);
+    if (name.equals("ID")) return new IdField("(?:Run|Inc)# *(\\d+)", true);
     if (name.equals("INFO")) return new BaseInfoField();
     return super.getField(name);
   }
