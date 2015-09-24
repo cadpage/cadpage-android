@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.CA;
 
+import java.util.HashSet;
 import java.util.Properties;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -30,9 +32,12 @@ public class CASonomaCountyParser extends FieldProgramParser {
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA;
   }
+  
+  private Set<String> unitSet = new HashSet<String>();
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    unitSet.clear();
     body = body.replace(" CN:COM ", " CN: COM:").replace(" CN:COM:", " CN: COM:").replace("TYP:", " TYP:");
     version = body.startsWith("Location:") || body.startsWith("EID") ? "1" : "2";
     return super.parseMsg(body, data);
@@ -53,27 +58,83 @@ public class CASonomaCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
-  private static final Pattern PLACE_MARKER = Pattern.compile(" *: *@? *");
+  private static final Pattern COLON_MARKER = Pattern.compile(" *: *");
+  private static final Pattern SRC_CODE_PTN = Pattern.compile("[A-Z0-9]{0,3}");
+  private static final Pattern UNIT_PTN = Pattern.compile("@([A-Z]+\\d+)(?:[- ,]+(.*))?");
+  private static final Pattern UNIT2_PTN = Pattern.compile("@([A-Z]+\\d+)");
   private class MyAddressField extends AddressField {
     
     @Override
     public void parse(String fld, Data data) {
-      Matcher match = PLACE_MARKER.matcher(fld);
-      if (match.find()) {
-        data.strPlace = fld.substring(match.end());
-        fld = fld.substring(0,match.start());
-      }
-      if (fld.length() <= 3) {
-        data.strSource = fld;
-        fld = data.strPlace;
-        data.strPlace = "";
+      
+      // Split everything by colon markers
+      String[] parts = COLON_MARKER.split(fld);
+      int ndx = 0;
+      
+      // Does the first part look like a source code?
+      if (ndx < parts.length) {
+        String src = parts[ndx];
+        if (SRC_CODE_PTN.matcher(src).matches()) {
+          data.strSource = src;
+          ndx++;
+        }
       }
       
+      // First part may be (or contain) a unit designation
+      if (ndx < parts.length) {
+        String unit = parts[ndx];
+        Matcher match = UNIT_PTN.matcher(unit);
+        if (match.matches()) {
+          unit = match.group(1);
+          String addr = match.group(2);
+          addUnit(unit, data);
+          if (addr != null) {
+            parts[ndx] = addr;
+          } else {
+            ndx++;
+          }
+        }
+      }
+      
+      // Followed by address, which will be parsed later
+      fld = (ndx < parts.length ? stripFieldStart(parts[ndx++], "@") : "");
+      
+      // first part is the address proper
+      // anything following that will either be a city or place
+      while (ndx < parts.length) {
+        String tmp = parts[ndx++];
+        if (tmp.equals("@UNIT AT")) continue;
+        Matcher match = UNIT2_PTN.matcher(tmp);
+        if (match.matches()) {
+          addUnit(match.group(1), data);
+        }
+        else if (data.strCity.length() == 0 && isCity(tmp)) {
+          data.strCity = tmp;
+        } else {
+          tmp = stripFieldStart(tmp, "@");
+          data.strPlace = append(data.strPlace, " - ", tmp);
+        }
+      }
+
+      // Strip off trailing apt
+      String apt = "";
       int pt = fld.lastIndexOf(',');
       if (pt >= 0) {
-        data.strApt = fld.substring(pt+1).trim();
+        apt = fld.substring(pt+1).trim();
         fld = fld.substring(0, pt);
+        if (data.strCity.length() == 0) {
+          parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY | FLAG_ANCHOR_END, apt, data);
+          apt = stripFieldEnd(getStart(), "-"); 
+        }
       }
+      
+      // Strip off trailing place name
+      pt = fld.lastIndexOf('@');
+      if (pt >= 0) {
+        data.strPlace = append(fld.substring(pt+1).trim(), " - ", data.strPlace);
+        fld = fld.substring(0,pt).trim();
+      }
+      
       
       fld = fld.replace(" AT ", " & ");
       parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, fld, data);
@@ -84,11 +145,15 @@ public class CASonomaCountyParser extends FieldProgramParser {
         data.strCity = convertCodes(data.strSource, CITY_CODES);
       }
       if (data.strCity.length() <= 3) data.strCity = "";
+      
+      data.strAddress = stripFieldEnd(data.strAddress, "-");
+      data.strApt = stripFieldEnd(data.strApt, "-");
+      data.strApt = append(data.strApt, "-", apt);
     }
     
     @Override
     public String getFieldNames() {
-      return "ADDR APT CITY SRC PLACE";
+      return "ADDR APT X CITY SRC PLACE";
     }
   }
   
@@ -103,6 +168,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
   private class MyAddress2Field extends MyAddressField {
     @Override
     public void parse(String field, Data data) {
+      if (field.length() == 0) return;
       if (data.strAddress.length() > 0) return;
       super.parse(field, data);
     }
@@ -137,7 +203,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
           result = append(result, " - ", field.substring(last,match.start()));
           last = match.end();
           String unit = match.group(1);
-          if (unit !=  null) data.strUnit = append(data.strUnit, " ", unit);
+          if (unit !=  null) addUnit(unit, data);
         } while (match.find());
         result = append(result, " - ", field.substring(last));
         field = result;
@@ -157,6 +223,11 @@ public class CASonomaCountyParser extends FieldProgramParser {
     public String getFieldNames() {
       return "GPS INFO UNIT";
     }
+  }
+  
+  private void addUnit(String unit, Data data) {
+    unit = unit.toUpperCase();
+    if (unitSet.add(unit)) data.strUnit = append(data.strUnit, " ", unit);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
@@ -240,7 +311,16 @@ public class CASonomaCountyParser extends FieldProgramParser {
       "WIN", "WINDSOR",
       "WSR", "SANTA ROSA",
       
+      "ANCHOR BAY",   "ANCHOR BAY",
       "GEYSERVILLE",  "GEYSERVILLE",
+      "GUALALA",      "GUALALA",
+      "MANCHESTER",   "MANCHESTER",
+      "POINT ARENA",  "POINT ARENA",
+      "PT ARENA",     "PT ARENA",
+      "PT AREANA",    "PT ARENA",
+      "SEA RANCH",    "SEA RANCH",
+      "TOMALAES",     "TOMALES",
+      "TOMALES",      "TOMALES",
 
       "BDGA",      "BODEGA",
       "BDGA BAY",  "BODEGA BAY"
