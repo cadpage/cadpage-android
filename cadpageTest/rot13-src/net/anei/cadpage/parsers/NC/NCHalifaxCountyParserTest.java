@@ -32,6 +32,7 @@ UnyvsnkPbR911:* UJL 903 // SYRZVAT QNVE EQ* * * YVGGYRGBA* * * * * SVER-RYRP* * 
 Pbagnpg: ELNA Ryyvbgg <eief402@tznvy.pbz>
 Fraqre: UnyvsnkPbR911@UnyvsnkAP911.pbz
 UnyvsnkPbR911:* 407 UNEEVF FG* * * EBNABXR ENCVQF* * * * * JERPX-CRQVF* * * * P180,P183,Q192,RZF4,RZF6Q* * * * *
+UnyvsnkPbR911:* 327 SENAXYVA FG* * * EBNABXR ENCVQF* * * * * RZF PNYY* * * * RZF4,RZF6O* * * * *
 
 Pbagnpg: wnlonearf73 <wnlonearf73@ubgznvy.pbz>
 Fraqre: TPZ
@@ -182,6 +183,13 @@ choyvp pynff APUnyvsnkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:EBNABXR ENCVQF",
         "PNYY:JERPX-CRQVF",
         "HAVG:P180,P183,Q192,RZF4,RZF6Q");
+
+    qbGrfg("G2",
+        "UnyvsnkPbR911:* 327 SENAXYVA FG* * * EBNABXR ENCVQF* * * * * RZF PNYY* * * * RZF4,RZF6O* * * * *",
+        "NQQE:327 SENAXYVA FG",
+        "PVGL:EBNABXR ENCVQF",
+        "PNYY:RZF PNYY",
+        "HAVG:RZF4,RZF6O");
 
   }
   
