@@ -14,6 +14,11 @@ public class ZNZAucklandParser extends FieldProgramParser {
   }
   
   @Override
+  public String getFilter() {
+    return "auck.ops1@fire.org.nz";
+  }
+  
+  @Override
   public int getMapFlags() {
     return MAP_FLG_PREFER_GPS;
   }
