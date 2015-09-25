@@ -4,8 +4,11 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
+import net.anei.cadpage.parsers.ReverseCodeTable;
 
 /**
  * San Bernardino County, CA
@@ -15,8 +18,8 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
   private static final Pattern GEN_ALT_UNIT_PTN = Pattern.compile("^([A-Z]+\\d+)[A-Z]?\\b");
   
   public CASanBernardinoCountyAParser() {
-    super(CITY_CODES, "SAN BERNARDINO COUNTY", "CA",
-           "CALL! ADDR! ( XST:X LOC_INFO:PLACE! CITY! AGN_MAP:MAP! INFO UNIT CALL_INFO:INFO | CITY_EXT LOC_INFO:PLACE AGN_MAP:MAP! X_ST:X! UNIT COMMENTS:INFO LAT/LON:GPS )");
+    super("SAN BERNARDINO COUNTY", "CA",
+          "CALL! ADDR! CITY_EXT LOC_INFO:PLACE AGN_MAP:MAP! X_ST:X! UNIT COMMENTS:INFO LAT/LON:GPS");
   }
   
   @Override
@@ -32,11 +35,17 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     if (body.startsWith("|")) body = body.substring(1).trim();
+    body = body.replace(">XST:", ">X ST:");
     if (parseFields(body.split(">"), data)) {
-      int pt = data.strCity.indexOf('/');
-      if (pt >= 0) {
-        data.strPlace = append(data.strPlace, " - ", data.strCity.substring(0,pt));
-        data.strCity = data.strCity.substring(pt+1);
+      if (data.strPlace.equals("WESTERN ARIZONA REGIONAL") ||
+          data.strAddress.equalsIgnoreCase("2735 Silver Creek Rd")) {
+        data.strCity = "BULLHEAD CITY";
+        data.strState = "AZ";
+      }
+      else if (data.strPlace.equals("VALLEY VIEW MEDICAL CENTER") ||
+               data.strPlace.equals("VALLEY VIEW")) {
+        data.strCity = "FORT MOJAVE";
+        data.strState = "AZ";
       }
       return true;
     }
@@ -50,9 +59,10 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
     Matcher match = GEN_ALT_UNIT_PTN.matcher(body);
     if (!match.find()) return false;
     data.initialize(this);
-    data.strCall = "GENERAL ALERT";
+    setFieldList("CALL UNIT INFO");
+    data.msgType = MsgType.GEN_ALERT;
     data.strUnit = match.group(1);
-    data.strPlace = body;
+    data.strSupp = body;
     return true;
   }
   
@@ -105,13 +115,10 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       
-      int pt = field.lastIndexOf(' ');
-      if (pt >= 0) {
-        String city = CITY_CODES.getProperty(field.substring(pt+1).trim());
-        if (city != null) {
-          data.strCity = city;
-          field = field.substring(0,pt).trim();
-        }
+      CodeTable.Result res = CITY_CODES.getResult(field);
+      if (res != null) {
+        data.strCity = res.getDescription();
+        field = res.getRemainder().trim();
       }
 
       field = stripFieldEnd(field,  "-");
@@ -127,17 +134,11 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
       field = append(data.strAddress, " - ", field);
       data.strAddress = "";
       parseAddress(field, data);
-
-      pt = data.strCity.indexOf('/');
-      if (pt >= 0) {
-        data.strPlace = data.strCity.substring(0,pt);
-        data.strCity = data.strCity.substring(pt+1);
-      }
     }
     
     @Override
     public String getFieldNames() {
-      return "ADDR APT CITY";
+      return "ADDR APT CITY ST";
     }
   }
   
@@ -155,11 +156,13 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
 
     @Override
     public void parse(String field, Data data) {
+
       if (data.strCity.length() == 0) {
-        int pt = field.lastIndexOf(" - ");
-        if (pt >= 0) {
-          data.strCity = convertCodes(field.substring(pt+3).trim(), CITY_CODES);
-          field = field.substring(0,pt).trim();
+        CodeTable.Result res = CITY_CODES.getResult(field);
+        if (res != null) {
+          data.strCity = res.getDescription();
+          field = res.getRemainder().trim();
+          field = stripFieldEnd(field, "-");
         }
       }
       data.strPlace = append(data.strPlace, " - ", field);
@@ -241,7 +244,26 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
     }
   }
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+  @Override
+  public String adjustMapCity(String city) {
+    return convertCodes(city.toUpperCase(), CITY_MAP_TABLE);
+  }
+  
+  private static Properties CITY_MAP_TABLE = buildCodeTable(new String[]{
+      "BEAR CREEK",             "BIGBEAR",
+      "FREDALBA",               "RUNNINGSPRINGS",
+      "IRON MOUNTAIN",          "RICE",
+      "MORONGO",                "YUCCAVALLEY",
+      "SILVERWOOD",             "HESPERIA",
+      "SEARLES VALLEY",         "TRONA",
+      "SPRING VALLEY LAKE",     "VICTORVILLE",
+      "MARINE CORP AIRGROUND COMBAT CENTER", "29PALMS",
+      "VALLEY OF ENCHANTMENT",  "CRESTLINE",
+      "WONDER VALLEY",          "29PALMS",
+      "YMO",                    "RIALTO"
+  }); 
+  
+  private static final ReverseCodeTable CITY_CODES = new ReverseCodeTable(
       "ABY",  "AMBOY",
       "ADC",  "ADELANTO",
       "ADCC", "ADELANTO",
@@ -256,7 +278,7 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
       "BBC",  "BIG BEAR",
       "BBL",  "BIG BEAR LAKE",
       "BBLC", "BIG BEAR LAKE",
-      "BCR",  "BEAR CREEK/BIGBEAR",
+      "BCR",  "BEAR CREEK",
       "BDM",  "BALDY MESA",
       "BFL",  "BARTON FLATS",
       "BGR",  "BIG RIVER",
@@ -289,7 +311,7 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
       "FFL",  "FOREST FALLS",
       "FON",  "FONTANA",
       "FONC", "FONTANA",
-      "FRE",  "FREDALBA/RUNNINGSPRINGS",
+      "FRE",  "FREDALBA",
       "FTI",  "FORT IRWIN",
       "GRTC", "GRAND TERRACE",
       "GVL",  "GREEN VALLEY LAKE",
@@ -301,7 +323,7 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
       "HNK",  "HINKLEY",
       "HOL",  "HOLCOMB VALLEY",
       "HRV",  "HARVARD",
-      "IRN",  "IRON MOUNTAIN/RICE",
+      "IRN",  "IRON MOUNTAIN",
       "IVP",  "IVANPAH",
       "JNV",  "JOHNSON VALLEY",
       "JOT",  "JOSHUA TREE",
@@ -317,7 +339,7 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
       "LUD",  "LUDLOW",
       "LYC",  "LYTLE CREEK",
       "MEN",  "MENTONE",
-      "MOR",  "MORONGO/YUCCAVALLEY",
+      "MOR",  "MORONGO",
       "MTC",  "MONTCLAIR",
       "MTCC", "MONTCLAIR",
       "MTH",  "MOUNTAIN HOMEVILLAGE",
@@ -333,6 +355,8 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
       "PIN",  "PINON HILLS",
       "PIO",  "PIONEERTOWN",
       "PKD",  "PARKER DAM",
+      "POM",  "POMONA",
+      "POMC", "POMONA",
       "RCC",  "RANCHO CUCAMONGA",
       "RCCC", "RANCHO CUCAMONGA",
       "RED",  "REDLANDS",
@@ -348,12 +372,12 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
       "SAH",  "SAN ANTONIO HEIGHTS",
       "SBO",  "SAN BERNARDINO",
       "SBOC", "SAN BERNARDINO",
-      "SIL",  "SILVERWOOD/HESPERIA",
+      "SIL",  "SILVERWOOD",
       "SKY",  "SKY FOREST",
       "SUG",  "SUGARLOAF",
-      "SVL",  "SPRING VALLEYLAKE/VICTORVILLE",
-      "SVY",  "SEARLES VALLEY/TRONA",
-      "TMD",  "MARINE CORP AIRGROUND COMBAT CENTER/29PALMS",
+      "SVL",  "SPRING VALLEY LAKE",
+      "SVY",  "SEARLES VALLEY",
+      "TMD",  "MARINE CORP AIRGROUND COMBAT CENTER",
       "TNP",  "29 PALMS",
       "TNPC", "29 PALMS",
       "TPK",  "TWIN PEAKS",
@@ -361,18 +385,18 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
       "UPDC", "UPLAND",
       "VDJ",  "VIDAL JUNCTION",
       "VDL",  "VIDAL",
-      "VOE",  "VALLEY OF ENCHANTMENT/CRESTLINE",
+      "VOE",  "VALLEY OF ENCHANTMENT",
       "VVC",  "VICTORVILLE ",
       "VVCC", "VICTORVILLE",
-      "WON",  "WONDER VALLEY/29PALMS",
+      "WON",  "WONDER VALLEY",
       "WWD",  "WRIGHTWOOD",
       "YER",  "YERMO",
+      "YMO",  "YMO",
       "YUC",  "YUCAIPA",
       "YUCC", "YUCAIPA",
       "YVY",  "YUCCA VALLEY",
       "YVYC", "YUCCA VALLEY"
-
-  });
+  );
   
   private static final Properties TYPE_CODES = buildCodeTable(new String[]{
       "AB",         "Animal Bite",
