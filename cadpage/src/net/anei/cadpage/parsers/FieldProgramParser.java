@@ -3182,6 +3182,10 @@ public class FieldProgramParser extends SmartAddressParser {
       this.fmt = fmt;
       this.hardPattern = hardPattern;
     }
+    public DateField(String pattern, DateFormat fmt, boolean hardPattern) {
+      super(pattern, hardPattern);
+      this.fmt = fmt;
+    }
     
     @Override
     public void setQual(String qual) {
@@ -3237,6 +3241,10 @@ public class FieldProgramParser extends SmartAddressParser {
       super(pattern, hardPattern);
     }
     public TimeField(DateFormat fmt) {
+      this.fmt = fmt;
+    }
+    public TimeField(String pattern, DateFormat fmt, boolean hardPattern) {
+      super(pattern, hardPattern);
       this.fmt = fmt;
     }
     public TimeField(DateFormat fmt, boolean hardPattern) {

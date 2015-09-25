@@ -264,7 +264,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
   
 
 
-  private static final String[] CITY_LIST = new String[]{
+  static final String[] CITY_LIST = new String[]{
     
     // Towns of new Zealand
     "AHAURA",
@@ -628,8 +628,11 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "RUNANGA",
     "RUSSELL",
     "SAINT ANDREWS CANTERBURY",
+    "ST ANDREWS CANTERBURY",
     "SAINT ARNAUD",
+    "ST ARNAUD",
     "SAINT BATHANS",
+    "ST BATHANS",
     "SANSON",
     "SEACLIFF",
     "SEDDON",
@@ -787,6 +790,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     // Suburbs of Auckland
     // Auckland Isthamus
     "ARCH HILL",
+    "AUCKLAND AIRPORT",
     "AUCKLAND CENTRAL",
     "AVONDALE",
     "BLOCKHOUSE BAY",
@@ -835,8 +839,11 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "REMUERA",
     "ROYAL OAK",
     "SAINT HELIERS",
+    "ST HELIERS",
     "SAINT JOHNS",
-    "SAINT MARY’S BAY",
+    "ST JOHNS",
+    "SAINT MARYS BAY",
+    "ST MARYS BAY",
     "SANDRINGHAM",
     "TAMAKI",
     "TAURANGA SOUTH",
@@ -844,6 +851,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "THREE KINGS",
     "WAIKOWHAI",
     "WATERVIEW",
+    "WESTERN SPRINGS",
     "WESTFIELD",
     "WESTMERE",
     
@@ -903,6 +911,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "COCKLE BAY",
     "DANNEMORA",
     "EAST TAMAKI",
+    "EAST TAMAKI HEIGHTS",
     "EASTERN BEACH",
     "FARM COVE",
     "FLAMBORO HEIGHTS",
@@ -949,7 +958,6 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "WATTLE COVE",
     "WATTLE DOWNS",
     "WEYMOUTH",
-    "WHITFORD",
     "WIRI",
 
     // Papakura
@@ -1016,6 +1024,9 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     
     // New Plymouth suburbs
     "PORT TARANAKI",
+    
+    // Suburb of Whitford
+    "SHAMROCK PARK",
     
     // From active911
     "ARKLES BAY",
