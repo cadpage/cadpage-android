@@ -327,6 +327,7 @@ class Active911Vendor extends Vendor {
       "US/GA/EffinghamCounty",            "GAEffinghamCounty",
       "US/GA/FanninCounty",               "GAFanninCounty",
       "US/GA/ForsythCounty",              "GAForsythCounty",
+      "US/GA/GordonCounty",               "GAGordonCounty",
       "US/GA/HabershamCounty",            "GAHabershamCounty",
       "US/GA/HallCounty",                 "GAHallCounty",
       "US/GA/JacksonCounty",              "GAJacksonCounty",
