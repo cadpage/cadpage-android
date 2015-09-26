@@ -12,8 +12,10 @@ Fraqre: orireylisq2+pns_=7406518430=igrkg.pbz@tznvy.pbz
 (PNQ Cntr) FDHNQ- BAR IRUVPYR NPPVQRAG VAGB GERR CBFFVOYR OEBXRA YRT\a   \a1350 OHPUNANA EQ \a   \a1/31/2014    \a14:11:57\a\a1090 1
 
 Pbagnpg: Oevna Wneivf <wneivfoevna38@tznvy.pbz>
+Pbagnpg: wneivfoevna36 <wneivfoevna36@lnubb.pbz>
 Fraqre: abgvsvpngvbaf@jnfuvatgbapbhaglfurevss.bet
 (PNQ Cntr) SVER- SEBAGVRE PBZZHAVPNGVBA 8886088029 ERCBEGVAT SVER NYNEZ \a   \a539 SVSGU FG \a\a\a\a   \a6/27/2014    \a21:43:30\a\aOJSQ O
+1 bs 2\aSEZ:abgvsvpngvbaf@jnfuvatgbapbhaglfurevss.be\aFHOW:PNQ Cntr 15-014027\aZFT:174 SNVE NI\a9/22/2015 16:39:32\aFDHNQ- 59 LBN ZNYR YBFG UVF\a(Pba'g) 2 bs 2\aONYNAPR NAQ SRYY, UNF VAWHERQ UVF ONPX\aOJSQ OJFD YNSQ\a\a(Raq)
 
 Pbagnpg: Obo xhobgn <Ynzrqvp4@tznvy.pbz>
 Pbagnpg: <7403504016@zzf.ngg.arg>
@@ -139,6 +141,26 @@ choyvp pynff BUJnfuvatgbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:6/27/2014",
         "GVZR:21:43:30",
         "FEP:OJSQ O");
+
+    qbGrfg("G2",
+        "1 bs 2\a" +
+        "SEZ:abgvsvpngvbaf@jnfuvatgbapbhaglfurevss.be\a" +
+        "FHOW:PNQ Cntr 15-014027\a" +
+        "ZFT:174 SNVE NI\a" +
+        "9/22/2015 16:39:32\a" +
+        "FDHNQ- 59 LBN ZNYR YBFG UVF\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "ONYNAPR NAQ SRYY, UNF VAWHERQ UVF ONPX\a" +
+        "OJSQ OJFD YNSQ\a\a" +
+        "(Raq)",
+
+        "VQ:15-014027",
+        "NQQE:174 SNVE NI",
+        "ZNQQE:174 SNVE NIR",
+        "QNGR:9/22/2015",
+        "GVZR:16:39:32",
+        "PNYY:FDHNQ- 59 LBN ZNYR YBFG UVF ONYNAPR NAQ SRYY, UNF VAWHERQ UVF ONPX",
+        "HAVG:OJSQ OJFD YNSQ");
   }
   
   @Grfg
