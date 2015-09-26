@@ -604,6 +604,7 @@ class Active911Vendor extends Vendor {
       "US/NC/Cherokee911",                "NCCherokee",
       "US/NC/CityofLumberton",            "NCLumberton",
       "US/NC/CityofRockyMount",           "NCRockyMount",
+      "US/NC/CityofShelby",               "NCClevelandCountyB",
       "US/NC/ClayCounty",                 "NCClayCounty",
       "US/NC/ClevelandCounty",            "NCClevelandCounty",
       "US/NC/ColumbusCounty",             "NCColumbusCounty",
