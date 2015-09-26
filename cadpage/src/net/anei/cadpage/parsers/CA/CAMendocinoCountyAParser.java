@@ -170,6 +170,8 @@ public class CAMendocinoCountyAParser extends FieldProgramParser {
       "WESTP",  "WESTPORT",
       "WHALG",  "WHALE GULCH",
       "WILL",   "WILLITS",
-      "YORK",   "YORKVILLE"
+      "YORK",   "YORKVILLE",
+      
+      "MCNAB_RANCH", "UKIAH"
   });
 }
