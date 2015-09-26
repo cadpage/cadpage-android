@@ -189,15 +189,16 @@ choyvp pynff GKBiregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{PNQ} RIRAG:0005\a" +
         "GVZR:08/16/2015 13:29:29\a" +
         "GLCR:SQ/SVER QRCG. PNYY BHG\a" +
-        "YBP:17636   SZ  2089\a" +
+        "YBP:17636 SZ"
+        + " 2089\a" +
         "GKG:ubhfr sver....arj ybaqba nyfb orvat cntrq...nyy",
 
         "VQ:0005",
         "QNGR:08/16/2015",
         "GVZR:13:29:29",
         "PNYY:SQ/SVER QRCG. PNYY BHG",
-        "NQQE:17636   SZ  2089",
-        "ZNQQE:17636   SNEZ-GB-ZNEXRG  2089",
+        "NQQE:17636 SZ 2089",
+        "ZNQQE:17636 SNEZ-GB-ZNEXRG 2089",
         "VASB:ubhfr sver....arj ybaqba nyfb orvat cntrq...nyy");
 
     qbGrfg("G14",
