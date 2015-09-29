@@ -12,12 +12,13 @@ public class NCAlexanderCountyParser extends DispatchOSSIParser {
   
   public NCAlexanderCountyParser() {
     super(CITY_CODES, "ALEXANDER COUNTY", "NC",
-          "FYI? ( CALL2 ADDR CITY INFO+ | ADDR ( CALL! ( END | CODE | X ) | PLACE CALL! CODE? ) X+ )");
+          "FYI? ( CALL2 ADDR CITY INFO+ " +
+               "| SRC? ADDR ( CALL! ( END | CODE | X ) | PLACE CALL! CODE? ) X+ )");
   }
   
   @Override
   public String getFilter() {
-    return "CAD@alexandercountync.gov";
+    return "CAD@alexandercountync.gov,6504224256";
   }
   
   @Override
@@ -28,7 +29,8 @@ public class NCAlexanderCountyParser extends DispatchOSSIParser {
       subject = "Text Message";
       body = body.substring(15).trim();
     }
-    if (!body.startsWith("CAD:") && subject.equals("Text Message")) {
+    if (!body.startsWith("CAD:") && 
+        (subject.equals("Text Message") || isPositiveId())) {
       body = "CAD:" + body;
     }
     return super.parseMsg(body, data);
@@ -37,6 +39,7 @@ public class NCAlexanderCountyParser extends DispatchOSSIParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CALL2")) return new MyCall2Field();
+    if (name.equals("SRC")) return new SourceField("[A-Z]+", true);
     if (name.equals("CODE")) return new CodeField("\\d{1,2}[A-Z]\\d{1,2}[A-Za-z]?", true);
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
@@ -54,10 +57,11 @@ public class NCAlexanderCountyParser extends DispatchOSSIParser {
     public boolean checkParse(String field, Data data) {
       
       // See if this is one of our special call fields
-      if (!field.equals("CANCEL") && !field.equals("UNDER CONTROL")) {
+      if (!field.startsWith("CANCEL") && !field.equals("UNDER CONTROL")) {
         if (!field.startsWith("{")) return false;
         int pt = field.indexOf('}');
         if (pt < 0) return false;
+        data.strSource = field.substring(1,pt).trim();
         field = field.substring(pt+1).trim();
       }
       Matcher match = CALL_CH_PTN.matcher(field);
@@ -76,7 +80,7 @@ public class NCAlexanderCountyParser extends DispatchOSSIParser {
 
     @Override
     public String getFieldNames() {
-      return "CALL CH";
+      return "SRC CALL CH";
     }
   }
   
