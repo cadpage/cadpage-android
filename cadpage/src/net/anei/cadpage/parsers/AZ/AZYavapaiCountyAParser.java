@@ -4,6 +4,7 @@ package net.anei.cadpage.parsers.AZ;
 import java.util.Properties;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * Yavapai County, AZ
@@ -13,7 +14,7 @@ public class AZYavapaiCountyAParser extends FieldProgramParser {
 
   public AZYavapaiCountyAParser() {
     super(CITY_CODES, "YAVAPAI COUNTY", "AZ",
-           "CT:ADDR/SC! BOX:BOX! DUE:UNIT!");
+           "CT:ADDR/SC! BOX:BOX! ( DUE:UNIT! | CANCEL:CANCEL! )");
   }
   
   @Override
@@ -24,6 +25,20 @@ public class AZYavapaiCountyAParser extends FieldProgramParser {
   @Override
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA;
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CANCEL")) return new MyCancelField();
+    return super.getField(name);
+  }
+  
+  private class MyCancelField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strCall = append("CANCEL", " - ", data.strCall);
+      super.parse(field, data);
+    }
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{

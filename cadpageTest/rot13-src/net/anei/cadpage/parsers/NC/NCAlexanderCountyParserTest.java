@@ -54,6 +54,10 @@ Fraqre: 6504224256
 (Grkg Zrffntr) 1 NAGVBPU PUHEPU EQ;GENSSVP NPPVQRAG;29Q02y;AP 127 UJL;B R GRNTHR EQ
 SVER;175 RYYRAQNYR CNEX YA;RYYRAQNYR RYRZRAGNEL FPUBBY;URNEG CEBOYRZF
 
+Pbagnpg: Naqerj Wbuafba <qerjerfphr1@ngg.arg>
+Fraqre: 6504224256
+RZF;175 RYYRAQNYR CNEX YA;RYYRAQNYR RYRZRAGNEL FPUBBY;URNEG CEBOYRZF
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fgbal Cbvag SQ
 Ybpngvba: Fgbal Cbvag, AP, Havgrq Fgngrf
@@ -1089,6 +1093,18 @@ choyvp pynff APNyrknaqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GENSSVP NPPVQRAG",
         "PBQR:29Q02y",
         "K:AP 127 UJL & B R GRNTHR EQ");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgNaqerjWbuafba() {
+
+    qbGrfg("G1",
+        "RZF;175 RYYRAQNYR CNEX YA;RYYRAQNYR RYRZRAGNEL FPUBBY;URNEG CEBOYRZF",
+        "FEP:RZF",
+        "NQQE:175 RYYRAQNYR CNEX YA",
+        "CYNPR:RYYRAQNYR RYRZRAGNEL FPUBBY",
+        "PNYY:URNEG CEBOYRZF");
 
   }
 
