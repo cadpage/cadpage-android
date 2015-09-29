@@ -1044,6 +1044,7 @@ class Active911Vendor extends Vendor {
       "US/VT/Hartford",                   "VTHartford",
       "US/VT/WindsorCounty",              "VTWindsorCounty",
       "US/WA/BentonCounty",               "WABentonCounty",
+      "US/WA/ClallamCounty",              "WAClallamCounty",
       "US/WA/CityofFife",                 "WAPierceCountyC",
       "US/WA/CowlitzCounty",              "WACowlitzCounty",
       "US/WA/GraysHarborCounty",          "WAGraysHarborCounty",
