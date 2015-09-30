@@ -711,8 +711,25 @@ public class NCNashCountyParser extends DispatchA3AParser {
       "LOUISBURG",
       
       // Halifax county
+      "AURELIAN SPRINGS",
+      "BRINKLEYVILLE",
+      "HEATHSVILLE",
       "ENFIELD",
+      "HALIFAX",
+      "HOBGOOD",
+      "LITTLETON",
       "HOLLISTER",
+      "ROANOKE RAPIDS",
+      "SCOTLAND NECK",
+      "SOUTH ROSEMARY",
+      "SOUTH WELDON",
+      "WELDON",
+
+      "BUTTERWOOD",
+      "CONOCONNARA",
+      "FAUCETT",
+      "PALMYRA",
+      "ROSENEATH",
       
       // Wilson County
       "ELM CITY",
@@ -726,7 +743,7 @@ public class NCNashCountyParser extends DispatchA3AParser {
       "HALIFAX CO",
       "WARREN CO",
       "WILSON CO"
-
+      
   };
   
   private static final Properties CITY_FIXES = buildCodeTable(new String[]{
