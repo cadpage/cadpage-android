@@ -75,6 +75,7 @@ public class NCEdgecombeCountyParser extends FieldProgramParser {
     "PRINCEVILLE",
     "ROCKY MOUNT",
     "SHARPSBURG",
+    "SOUTH WHITAKERS",
     "SPEED",
     "TARBORO",
     "WHITAKERS",
@@ -95,11 +96,45 @@ public class NCEdgecombeCountyParser extends FieldProgramParser {
     "COKEY TWP",
     "UPPER TOWN CREEK TWP",
     
+    // Nash County
+    "NASHVILLE",
+
+    "BAILEY",
+    "CASTALIA",
+    "GOLD ROCK",
+    "GOLDROCK",
+    "DORTCHES",
+    "MIDDLESEX",
+    "MOMEYER",
+    "RED OAK",
+    "SPRING HOPE",
+    "ZEBULON",
+
+    "CORINTH",
+
+    "BAILEY TWP",
+    "BATTLEBORO TWP",
+    "CASTALIA TWP",
+    "COOPERS TWP",
+    "DRY WELLS TWP",
+    "FERRELLS TWP",
+    "GRIFFINS TWP",
+    "JACKSON TWP",
+    "MANNINGS TWP",
+    "NASHVILLE TWP",
+    "NORTH WHITAKERS TWP",
+    "OAK LEVEL TWP",
+    "RED OAK TWP",
+    "SPRING HOPE TWP",
+    
     // Pitt County
     "FOUNTAIN",
     "GREENVILLE",
     
     // Wilson County
-    "ELM CITY"
+    "ELM CITY",
+    
+    // Wayne County
+    "STONY CREEK",
   };
 }
