@@ -58,6 +58,11 @@ Pbagnpg: Naqerj Wbuafba <qerjerfphr1@ngg.arg>
 Fraqre: 6504224256
 RZF;175 RYYRAQNYR CNEX YA;RYYRAQNYR RYRZRAGNEL FPUBBY;URNEG CEBOYRZF
 
+Pbagnpg: Qneera Purjavat <qneera.purjavat@tznvy.pbz>
+Fraqre: 6504224256
+Rss_Fhowrpg:
+SVER;77 CYRNF URSARE QE;FGEBXR;28P01T;PUHEPU EQ
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fgbal Cbvag SQ
 Ybpngvba: Fgbal Cbvag, AP, Havgrq Fgngrf
@@ -1105,6 +1110,19 @@ choyvp pynff APNyrknaqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:175 RYYRAQNYR CNEX YA",
         "CYNPR:RYYRAQNYR RYRZRAGNEL FPUBBY",
         "PNYY:URNEG CEBOYRZF");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQneeraPurjvat() {
+
+    qbGrfg("G1",
+        "SVER;77 CYRNF URSARE QE;FGEBXR;28P01T;PUHEPU EQ",
+        "FEP:SVER",
+        "NQQE:77 CYRNF URSARE QE",
+        "PNYY:FGEBXR",
+        "PBQR:28P01T",
+        "K:PUHEPU EQ");
 
   }
 

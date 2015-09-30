@@ -667,6 +667,8 @@ Ntrapl anzr: QP Rzretrapl Freivprf
 Ybpngvba: Yrkvatgba, AP, Havgrq Fgngrf
 Fraqre: <PNQ@qnivqfbapbhaglap.tbi>
 
+PNQ:C27-FGNO/THAFUBG-OENIB;5166 NEABYQ EQ;[YNJ] PNYYREF PBHFVA VF GUR BAR JUB FNJ FNZR, GUR PBHFVA VF FGNAQVAT NG FGBER FB AB BAR TBRF VA FGBER, PBQL JNYFRE VF FHOW [07/27/15 07:19:49 OEVQQYR] [YNJ] PNYYRE VF NPEBFF GUR FG NG N ERFQ [07/27/15 07:18:59 OEVQQYR] [YNJ] PNYYRE FNJ FHOW EHA VA FGBER, URNEQ FUBGF, GURA FNJ FHOW PBZR ONPX BHG NAQ YRNIR VA JUVGR FHI [07/27/15 07:18:42 OEVQQYR] Rirag fcnjarq sebz 1063-VAIRFGVTNGR/FHCCYRZRAGNY. [07/27/2015 07:18:21 OEVQQYR] FHOW UNF ORRA FUBG VA FGBER, PNYYREF FBA
+PNQ:C27-FGNO/THAFUBG-NYCUN;15 ZRZBEVNY CNEX QE;Rirag fcnjarq sebz 1046 - NFFNHYG. [08/29/2015 15:12:33 PURCYRE] {O112} 10-3 [08/29/15 15:11:56 PURCYRE] [RCQ] Dhrfgvbaf: 15. Nypbuby/qehtf vaiy. [08/29/15 15:11:21 PURCYRE] [RCQ] Dhrfgvbaf: 11. Ab fhfc iru vaiy. 14. Ivpg ybp: ba fprar 9. Fhfc ba fprar. 12. Ab bar va qnatre. [08/29/15 15:10:59 PURCYRE] [RCQ] *** Crefba 2 Vasb *** GLCR: Ivpgvz TRAQRE: znyr [08/29/15 15:10:55 PURCYRE] [RCQ] *** Crefba 1 Vasb *** GLCR: Fhfcrpg ENPR: oyx TRAQ
 PNQ:C33N-GENAFSRE/VAGRESNP-NYCUN;901 R PRAGRE FG;YRK;QE GREEL NEABYQ;2014006633;FHAEVFR NI;R PRAGRE FG RKG;ZRQVP BAR NQI TB NURNQ NAQ QVFCNGPU FNZR [04/15/14 16:22:38 PCNLAR] CNGVRAG JRVTUF 350 CYHF ... ZRQVP BAR NQI BHE FGERGPUREF JVYY OR FHSSVPVRAG [04/15/14 16:21:46 PCNLAR] ZRQVP BAR PNYYVAT VA [04/15/14 16:20:11 PCNLAR] Cngvrag arrqf gb tb gb APOU ... gurl unir pbagnpgrq nyy genafcbeg ntrapvrf naq ab bar ninvynoyr sbe bire na ubhe ... cngvrag jvyy arrq onevngevp fgergpure ... [04/15/14 16:1
 PNQ:C29-GENSSVP NPPVQRAG-OENIB;HAVGL FG/GEVAVGL FG;GUN;2015005953;[RZQ] Qvfcngpu Pbqr: 29O04 (Haxabja fgnghf/Bgure pbqrf abg nccyvpnoyr) Fhssvk: H (Haxabja ahzore bs cngvragf) Erfcbafr: Oenib Dhrfgvbaf: 1. Zhyg iru. 2. Ab zhygv-havg erfc erdhverq. 8. Hax vs FREVBHF oyrrqvat. 3. Hax vs purzf/unmzng vaibyirq. 4. Hax vs nal cvaarq. 5. Ab bar guebja bhg. 6. Hax vs rirelbar pbzcyrgryl njnxr. 7. Hax glcr/angher bs vaw. [04/07/15 18:31:41 YJUVGNXRE] [RZQ] Ntr haxabja, Traqre haxabja, Pbafpvbhfarff h
 PNQ:FGNAQOL;F AP UJL 109/R HF UJL 64;GUN;2015005945;nhgu bs z1 [04/07/15 16:56:46 UQHAA]
@@ -8144,6 +8146,22 @@ choyvp pynff APQnivqfbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgQPRzretraplFreivprf() {
+
+    qbGrfg("K3",
+        "PNQ:C27-FGNO/THAFUBG-OENIB;5166 NEABYQ EQ;[YNJ] PNYYREF PBHFVA VF GUR BAR JUB FNJ FNZR, GUR PBHFVA VF FGNAQVAT NG FGBER FB AB BAR TBRF VA FGBER, PBQL JNYFRE VF FHOW [07/27/15 07:19:49 OEVQQYR] [YNJ] PNYYRE VF NPEBFF GUR FG NG N ERFQ [07/27/15 07:18:59 OEVQQYR] [YNJ] PNYYRE FNJ FHOW EHA VA FGBER, URNEQ FUBGF, GURA FNJ FHOW PBZR ONPX BHG NAQ YRNIR VA JUVGR FHI [07/27/15 07:18:42 OEVQQYR] Rirag fcnjarq sebz 1063-VAIRFGVTNGR/FHCCYRZRAGNY. [07/27/2015 07:18:21 OEVQQYR] FHOW UNF ORRA FUBG VA FGBER, PNYYREF FBA",
+        "PNYY:C27-FGNO/THAFUBG-OENIB",
+        "NQQE:5166 NEABYQ EQ",
+        "VASB:PNYYREF PBHFVA VF GUR BAR JUB FNJ FNZR, GUR PBHFVA VF FGNAQVAT NG FGBER FB AB BAR TBRF VA FGBER, PBQL JNYFRE VF FHOW / PNYYRE VF NPEBFF GUR FG NG N ERFQ / PNYYRE FNJ FHOW EHA VA FGBER, URNEQ FUBGF, GURA FNJ FHOW PBZR ONPX BHG NAQ YRNIR VA JUVGR FHI / Rirag fcnjarq sebz 1063-VAIRFGVTNGR/FHCCYRZRAGNY. / FHOW UNF ORRA FUBG VA FGBER, PNYYREF FBA",
+        "QNGR:07/27/15",
+        "GVZR:07:19:49");
+
+    qbGrfg("K2",
+        "PNQ:C27-FGNO/THAFUBG-NYCUN;15 ZRZBEVNY CNEX QE;Rirag fcnjarq sebz 1046 - NFFNHYG. [08/29/2015 15:12:33 PURCYRE] {O112} 10-3 [08/29/15 15:11:56 PURCYRE] [RCQ] Dhrfgvbaf: 15. Nypbuby/qehtf vaiy. [08/29/15 15:11:21 PURCYRE] [RCQ] Dhrfgvbaf: 11. Ab fhfc iru vaiy. 14. Ivpg ybp: ba fprar 9. Fhfc ba fprar. 12. Ab bar va qnatre. [08/29/15 15:10:59 PURCYRE] [RCQ] *** Crefba 2 Vasb *** GLCR: Ivpgvz TRAQRE: znyr [08/29/15 15:10:55 PURCYRE] [RCQ] *** Crefba 1 Vasb *** GLCR: Fhfcrpg ENPR: oyx TRAQ",
+        "PNYY:C27-FGNO/THAFUBG-NYCUN",
+        "NQQE:15 ZRZBEVNY CNEX QE",
+        "VASB:Rirag fcnjarq sebz 1046 - NFFNHYG. / {O112} 10-3 / Dhrfgvbaf: 15. Nypbuby/qehtf vaiy. / Dhrfgvbaf: 11. Ab fhfc iru vaiy. 14. Ivpg ybp: ba fprar 9. Fhfc ba fprar. 12. Ab bar va qnatre. / *** Crefba 2 Vasb *** GLCR: Ivpgvz TRAQRE: znyr / *** Crefba 1 Vasb *** GLCR: Fhfcrpg ENPR: oyx TRAQ",
+        "QNGR:08/29/2015",
+        "GVZR:15:12:33");
 
     qbGrfg("K1",
         "PNQ:C33N-GENAFSRE/VAGRESNP-NYCUN;901 R PRAGRE FG;YRK;QE GREEL NEABYQ;2014006633;FHAEVFR NI;R PRAGRE FG RKG;ZRQVP BAR NQI TB NURNQ NAQ QVFCNGPU FNZR [04/15/14 16:22:38 PCNLAR] CNGVRAG JRVTUF 350 CYHF ... ZRQVP BAR NQI BHE FGERGPUREF JVYY OR FHSSVPVRAG [04/15/14 16:21:46 PCNLAR] ZRQVP BAR PNYYVAT VA [04/15/14 16:20:11 PCNLAR] Cngvrag arrqf gb tb gb APOU ... gurl unir pbagnpgrq nyy genafcbeg ntrapvrf naq ab bar ninvynoyr sbe bire na ubhe ... cngvrag jvyy arrq onevngevp fgergpure ... [04/15/14 16:1",
