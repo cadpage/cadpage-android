@@ -150,6 +150,15 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
     }
     
     checkDoubleCity(data);
+    
+    pt = data.strAddress.toUpperCase().indexOf(": ALIAS ");
+    if (pt >= 0) {
+      String alias = data.strAddress.substring(pt+8).trim();
+      data.strAddress = data.strAddress.substring(0,pt).trim();
+      if (!alias.equalsIgnoreCase(data.strAddress)) {
+        data.strAddress = append(data.strAddress, " ", '('+alias+')');
+      }
+    }
   }
 
   private void checkDoubleCity(Data data) {
