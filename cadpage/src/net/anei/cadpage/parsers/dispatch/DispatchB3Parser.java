@@ -22,6 +22,10 @@ public class DispatchB3Parser extends DispatchB2Parser {
     this(prefix, null, defCity, defState, flags);
   }
 
+  public DispatchB3Parser(String[] cityList, String defCity, String defState, int flags) {
+    this(null, cityList, defCity, defState, flags);
+  }
+
   public DispatchB3Parser(String prefix, String[] cityList, String defCity, String defState, int flags) {
     super(cityList, defCity, defState, flags);
     setupCallList((CodeSet)null);
