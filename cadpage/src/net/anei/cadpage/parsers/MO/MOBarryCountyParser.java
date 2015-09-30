@@ -81,6 +81,7 @@ public class MOBarryCountyParser extends GroupBestParser {
   static {
     GPS_LOOKUP_TABLE = new Properties();
     MOBarryCountyGPSTable1.buildGPSTable(GPS_LOOKUP_TABLE);
+    MOBarryCountyGPSTable2.buildGPSTable(GPS_LOOKUP_TABLE);
   }
 
   

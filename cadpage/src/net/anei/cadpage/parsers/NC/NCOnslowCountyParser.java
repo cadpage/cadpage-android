@@ -20,7 +20,7 @@ public class NCOnslowCountyParser extends DispatchOSSIParser {
   
   public NCOnslowCountyParser() {
     super(CITY_CODES, "ONSLOW COUNTY", "NC",
-           "( CALL ADDR! CITY DIST? INFO+ | ADDR APT? ( SELECT/EMS PLACE+? UNIT CALL! CODE | SELECT/FIRE PLACE+? CALL/Z SRC UNIT! | CITY? PLACE+? CALL/Z END ) )");
+           "( CALL ADDR! CITY DIST? INFO+ | ADDR APT? ( SELECT/EMS PLACE+? UNIT CALL! CODE | SELECT/FIRE PLACE+? CALL/Z SRC! UNIT | CITY? PLACE+? CALL/Z END ) )");
   }
   
   @Override
@@ -51,7 +51,8 @@ public class NCOnslowCountyParser extends DispatchOSSIParser {
       String lastField = fields[fields.length-1];
       if (CODE_PTN.matcher(lastField).matches()) {
         selectValue = "EMS";
-      } else if (UNIT_PTN.matcher(lastField).matches()) {
+      } else if (UNIT_PTN.matcher(lastField).matches() ||
+                 SOURCE_PTN.matcher(lastField).matches()) {
         selectValue = "FIRE";
       } else {
         selectValue = "OTHER";
@@ -73,7 +74,7 @@ public class NCOnslowCountyParser extends DispatchOSSIParser {
   protected Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("DIST")) return new PlaceField("DIST:.*");
-    if (name.equals("SRC")) return new SourceField("[A-Z]{1,2}FD", true);
+    if (name.equals("SRC")) return new MySourceField();
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("CODE")) return new MyCodeField();
@@ -145,7 +146,14 @@ public class NCOnslowCountyParser extends DispatchOSSIParser {
     }
   }
   
-  private static final Pattern UNIT_PTN = Pattern.compile("\\d{1,2}[A-Z]?");
+  private static final Pattern SOURCE_PTN = Pattern.compile("[A-Z]{1,2}FD|OCRS");
+  private class MySourceField extends SourceField {
+    public MySourceField() {
+      setPattern(SOURCE_PTN, true);
+    }
+  }
+  
+  private static final Pattern UNIT_PTN = Pattern.compile("\\d{1,2}[A-Z]?|[A-Z]{2}FD");
   private class MyUnitField extends UnitField {
     public MyUnitField() {
       setPattern(UNIT_PTN, true);
@@ -157,7 +165,7 @@ public class NCOnslowCountyParser extends DispatchOSSIParser {
     }
   }
   
-  private static final Pattern CODE_PTN = Pattern.compile("\\d{1,2}[A-Z]\\d{1,2}[A-Za-z]?"); 
+  private static final Pattern CODE_PTN = Pattern.compile("\\d{1,3}[A-Z]\\d{1,2}[A-Za-z]?"); 
   private class MyCodeField extends CodeField {
     public MyCodeField() {
       setPattern(CODE_PTN, true);
@@ -170,32 +178,65 @@ public class NCOnslowCountyParser extends DispatchOSSIParser {
   }
   
   private static final Set<String> CALL_LIST = new HashSet<String>(Arrays.asList(new String[]{
+      "ABDOMINAL PAIN",
       "ALARMS",
       "ALARMS 7700",
       "ALLERGIES/ENVENOMATIONS",
+      "ANIMAL BITES/ATTACKS",
+      "ARSON 2000",
+      "ASSAULT/SEXUAL ASSALUT",
+      "ASSAULT/ SEXUAL ASSAULT",
+      "ASSIST CITIZEN 8100",
       "ASSIST OTHER JURISD 7600",
+      "BACK PAIN",
       "BREATHING PROBLEMS",
+      "BURNS EXPLOSION",
+      "CARBON MONOXIDE INHALATION HAT",
       "CARDIAC ARREST DEATH",
       "CHEST PAIN",
       "CITIZEN ASSIST/SERVICE CALL",
       "CONVULSIONS/SEIZURES",
       "DEATH/INJURY",
+      "DIABETIC PROBLEMS",
+      "DOMESTIC DISTURBANCE/ VIOLENCE",
+      "DRIVING UNDER THE INFLUENCE",
+      "DROWNING/DIVING/SCUBA ACCIDENT",
       "ELECTRICAL HAZARD",
+      "ELECTROCUTION AND LIGHTNING",
+      "ELEVATOR /ESCUALTOR RESCUE",
+      "EMS STAND BY CALLS",
       "EXTRICATION/ENTRAPPED",
       "FALL",
+      "FUEL SPILL",
       "GAS LEAK / GAS ODOR",
+      "HEADACHE",
+      "HEART PROBLEM",
       "HEMORRHAGE",
+      "INACCESSIBLE INCIDENT",
+      "LIGHTENING STRIKE",
+      "MOTOR VEHICLE COLLISION",
       "MUTUAL AID",
       "ODOR",
       "OUTSIDE FIRE",
+      "OVERDOSE/POISONING",
+      "PREGNANCY",
+      "PSYCHIATRIC/ABNORMAL BEHAV",
       "SICK PERSON",
       "SMOKE INVESTIGATION",
+      "STAB/GUNSHOT/PEN TRAUMA",
       "STRUCTURE FIRE",
+      "STROKE CVA",
+      "SUSPICIOUS/WANTED (PERSON VEH)",
       "TRAFFIC",
       "TRAFFIC ACCIDENT 5500",
       "TRAFFIC STOP",
       "TRAFFIC TRANSPORTATION ACCIDT",
+      "TRAFFIC/ TRANSPORTATION CRASH",
+      "TRAUMATIC INJURIES",
+      "UNCONSCIOUS FAINTING",
+      "UNKNOWN PROBLEM MAN DOWN",
       "VEHICLE FIRE",
+      "WALK-UP",
       "WATERCRAFT IN DISTRESS"
   }));
   

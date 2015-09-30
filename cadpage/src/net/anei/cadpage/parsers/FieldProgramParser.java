@@ -2100,6 +2100,7 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public void setQual(String qual) {
+      super.setQual(qual);
       connector = buildConnector(qual, " / ");
     }
 
@@ -2672,8 +2673,8 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public void setQual(String qual) {
-      incCity = qual != null && qual.contains("c");
       super.setQual(qual);
+      incCity = qual != null && qual.contains("c");
     }
  
     @Override
@@ -2973,6 +2974,7 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public void setQual(String qual) {
+      super.setQual(qual);
       connector = buildConnector(qual, null);
     }
 
@@ -3189,8 +3191,8 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public void setQual(String qual) {
-      convertDashes = qual != null && qual.contains("d");
       super.setQual(qual);
+      convertDashes = qual != null && qual.contains("d");
     }
     
     @Override
@@ -3316,8 +3318,8 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public void setQual(String qual) {
-      convertDashes = qual != null && qual.contains("d");
       super.setQual(qual);
+      convertDashes = qual != null && qual.contains("d");
     }
     
     @Override
@@ -3376,8 +3378,8 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public void setQual(String qual) {
-      convertDashes = qual != null && qual.contains("d");
       super.setQual(qual);
+      convertDashes = qual != null && qual.contains("d");
     }
 
     @Override
@@ -3533,6 +3535,7 @@ public class FieldProgramParser extends SmartAddressParser {
 
     @Override
     public void setQual(String qual) {
+      super.setQual(qual);
       this.code = qual;
     }
     

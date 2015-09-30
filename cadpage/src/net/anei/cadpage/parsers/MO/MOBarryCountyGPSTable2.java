@@ -7919,6 +7919,7 @@ public class MOBarryCountyGPSTable2  {
         "102 W WASHINGTON AVE",                 "+36.817716,-93.921698",
         "104 W WASHINGTON AVE",                 "+36.817725,-93.922052",
         "105 W WASHINGTON AVE",                 "+36.817150,-93.922206",
+        "100 W WILSON ST",                      "+36.759749,-94.057455",
         "100 W WILSON ST BUILDING A",           "+36.759721,-94.057153",
         "100 W WILSON ST BUILDING B",           "+36.759749,-94.057455",
         "100 W WILSON ST BUILDING C",           "+36.760098,-94.057654",
