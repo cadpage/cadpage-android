@@ -37,6 +37,7 @@ public class PADelawareCountyParser extends GroupBestParser {
       "CO", "COLLINGDALE",
       "CW", "COLWYN",
       "DB", "DARBY",
+      "DE", "NEW CASTLE COUNTY/DE",
       "DT", "DARBY TWP",
       "ED", "EDDYSTONE",
       "EG", "EDGEMONT TWP",
