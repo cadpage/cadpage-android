@@ -867,6 +867,11 @@ Xynzngu Pbhagl, BE (BEXynznguPbhaglCnefre)
 [ARJ VAPVQRAG] 9/26/2011 0809\aRIRAG # 1109260025 36\aGBAR - GBAR ERDHRFG\aCEVBEVGL 3\aYBPNGVBA 14800 CHPXRGG EQ\aPVGL XS\aNCG\aCERZVFR XRAB SVER FRCG. FGNGVBA 1\aPBZZRAG
 [ARJ VAPVQRAG] 09/25/2011 0909\aRIRAG # 1109250150 36\a3- ZIN J/VAWHEVRF\aCEVBEVGL 1\aYBPNGVBA ZC27 QRNQ VAQVNA \aZRZBEVNY EQ\aPVGL XS\aNCG\aCERZVFR ZC27 QRNQ VAQVNA\aZRZBE
 *******************************************************************************
+Oenmbevn Pbhagl, GK (GKOenmbevnPbhaglNCnefre)
+9/30/2015 0657\aRIRAG # 1509300012 ZISQ\aSVER - SVER\aCEVBEVGL 1 \aYBPNGVBA 3611 GVQNYJBBQ\aPVGL ZNAIRY\aNCG \aCERZVFR \aPBZZRAG NFFVFG RZF YVSGVAT /...
+9/29/2015 1550\aRIRAG # 1509290039 ZISQ\aNYSVER - NYNEZ/SVER\aCEVBEVGL 2 \aYBPNGVBA 7302 ZPPBL\aPVGL ZNAIRY\aNCG \aCERZVFR \aPBZZRAG TRARENY SVER NYNEZ
+9/29/2015 1056\aRIRAG # 1509290022 ZISQ\aNYSVER - NYNEZ/SVER\aCEVBEVGL 2 \aYBPNGVBA 7355 ZPPBL EQ\aPVGL ZNAIRY\aNCG \aCERZVFR \aPBZZRAG MBAR 18 TRANENY FZBX...
+*******************************************************************************
 *******************************************************************************
 * QvfcngpuN24Cnefre fhopynffrf
 *******************************************************************************
@@ -1157,11 +1162,6 @@ Tbbqvat Pbhagl, VQ (VQTbbqvatPbhaglNCnefre)
 FVEPBZZ / JAQ092\aSVER\aSVER NYY BGURE BE HA\a2000 R 3100 FBHGU\aJAQ NERN
 FVEPBZZ / 1:55 NZ\aARJ RIRAG JAQ092\aNPPH\aNPPVQRAG J/HAXABJA V\a2285 R 3300 FBHGU\aJAQ NERN
 FVEPBZZ / 9:59 CZ\aARJ RIRAG JAQ092\aSVERV\aSVER VAIRFGVTNGVBA\a1511 R 3600 FBHGU\aJAQ NERN\a
-*******************************************************************************
-Oenmbevn Pbhagl, GK (GKOenmbevnPbhaglNCnefre)
-(ZCQ) 7:07 CZ\aARJ RIRAG ZCQ\aNBN\aNFFG BGUE NTAPL\a6726 PRZRGREL EQ\aZNAIRY\a\a\a\aGuvf Pvgl bs Znairy r-znvy zrffntr, vapyhqvat nal nggnpuzragf, vf vagraqrq sbe\agur fbyr hfr bs gur vaqvivqhny(f) naq ragvgl(vrf) gb jubz vg vf nqqerffrq, naq\aznl pbagnva vasbezngvba gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz\aqvfpybfher haqre nccyvpnoyr ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, abe\anhgubevmrq gb erprvir sbe gur vagraqrq nqqerffrr, lbh ner urerol abgvsvrq gung\albh znl abg hfr, pbcl, qvfpybfr be qvfgevohgr gb nalbar guvf r-znvy zrffntr\avapyhqvat nal nggnpuzragf, be nal vasbezngvba pbagnvarq va guvf r-znvy zrffntr\avapyhqvat nal nggnpuzragf. Vs lbh unir erprvirq guvf r-znvy zrffntr va reebe,\acyrnfr vzzrqvngryl abgvsl gur fraqre ol ercyl r-znvy naq qryrgr gur zrffntr.\aGunax lbh irel zhpu.
-(ZCQ) 5:28 CZ\aARJ RIRAG ZCQ\aNYERF\aNYNEZ/ERFVQRAPR\a22 NGNFPNQREB QE\aZNAIRY\a\a\a\aGuvf Pvgl bs Znairy r-znvy zrffntr, vapyhqvat nal nggnpuzragf, vf vagraqrq sbe\agur fbyr hfr bs gur vaqvivqhny(f) naq ragvgl(vrf) gb jubz vg vf nqqerffrq, naq\aznl pbagnva vasbezngvba gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz\aqvfpybfher haqre nccyvpnoyr ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, abe\anhgubevmrq gb erprvir sbe gur vagraqrq nqqerffrr, lbh ner urerol abgvsvrq gung\albh znl abg hfr, pbcl, qvfpybfr be qvfgevohgr gb nalbar guvf r-znvy zrffntr\avapyhqvat nal nggnpuzragf, be nal vasbezngvba pbagnvarq va guvf r-znvy zrffntr\avapyhqvat nal nggnpuzragf. Vs lbh unir erprvirq guvf r-znvy zrffntr va reebe,\acyrnfr vzzrqvngryl abgvsl gur fraqre ol ercyl r-znvy naq qryrgr gur zrffntr.\aGunax lbh irel zhpu.
-(ZCQ) 5:21 CZ\aARJ RIRAG ZCQ\aNYERF\aNYNEZ/ERFVQRAPR\a21 CNYZ QRFREG\aZNAIRY\a\a\a\aGuvf Pvgl bs Znairy r-znvy zrffntr, vapyhqvat nal nggnpuzragf, vf vagraqrq sbe\agur fbyr hfr bs gur vaqvivqhny(f) naq ragvgl(vrf) gb jubz vg vf nqqerffrq, naq\aznl pbagnva vasbezngvba gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz\aqvfpybfher haqre nccyvpnoyr ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, abe\anhgubevmrq gb erprvir sbe gur vagraqrq nqqerffrr, lbh ner urerol abgvsvrq gung\albh znl abg hfr, pbcl, qvfpybfr be qvfgevohgr gb nalbar guvf r-znvy zrffntr\avapyhqvat nal nggnpuzragf, be nal vasbezngvba pbagnvarq va guvf r-znvy zrffntr\avapyhqvat nal nggnpuzragf. Vs lbh unir erprvirq guvf r-znvy zrffntr va reebe,\acyrnfr vzzrqvngryl abgvsl gur fraqre ol ercyl r-znvy naq qryrgr gur zrffntr.\aGunax lbh irel zhpu.
 *******************************************************************************
 *******************************************************************************
 * QvfcngpuN32Cnefre fhopynffrf
