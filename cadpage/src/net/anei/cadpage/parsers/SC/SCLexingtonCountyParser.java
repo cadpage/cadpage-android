@@ -11,7 +11,7 @@ public class SCLexingtonCountyParser extends DispatchOSSIParser {
   
   public SCLexingtonCountyParser() {
     super(CITY_CODES, "LEXINGTON COUNTY", "SC",
-          "( CANCEL ADDR CITY | FYI SRC CALL ADDR! ( X/Z PLACE CITY | X_PLACE CITY | CITY | ) UNIT? ) INFO+");
+          "( CANCEL ADDR CITY | FYI SRC? CALL ADDR! ( X/Z PLACE CITY | X_PLACE CITY | CITY | ) UNIT? ) INFO+");
   }
   
   @Override
@@ -22,8 +22,8 @@ public class SCLexingtonCountyParser extends DispatchOSSIParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    if (subject.length() == 0) return false;
-    body = "CAD:" + append(subject, ":", body);
+    if (!subject.equals("CAD")) return false;
+    body = "CAD:" + body;
     return super.parseMsg(body, data);
   }
   
