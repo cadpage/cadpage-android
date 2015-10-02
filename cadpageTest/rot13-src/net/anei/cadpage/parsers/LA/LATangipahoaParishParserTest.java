@@ -514,7 +514,7 @@ Fraqre: "CGF Cntr Znantre" <CGF@cgffbyhgvbaf.pbz>
 choyvp pynff YNGnatvcnubnCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp YNGnatvcnubnCnevfuCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "GNATVCNUBN CNEVFU", "YN");
+    frgCnefre(arj YNGnatvcnubnCnevfuCnefre(), "GNATVCNUBN CNEVFU", "YN");
   }
 
   @Grfg
