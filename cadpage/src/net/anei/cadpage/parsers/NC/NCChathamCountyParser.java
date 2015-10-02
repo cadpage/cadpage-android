@@ -11,15 +11,15 @@ public class NCChathamCountyParser extends DispatchSouthernParser {
 
   public NCChathamCountyParser() {
     super(CITY_LIST, "CHATHAM COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID | DSFLAG_NO_NAME_PHONE);
-    
-    
   }
+  
   @Override
   public String getFilter() {
     return "@chathamnc.org";
   }
   
   private static final String[] CITY_LIST = new String[]{
+    "CARY",
     "FEARRINGTON",
     "GOLDSTON",
     "PITTSBORO",
@@ -40,7 +40,25 @@ public class NCChathamCountyParser extends DispatchSouthernParser {
     "SILK HOPE",
     "WILSONVILLE",
     
+    // Alamance County
+    "GRAHAM",
+    "SNOW CAMP",
+    
+    // Durham County
+    "DURHAM",
+    
     // Lee County
-    "SANFORD"
+    "SANFORD",
+    
+    // Orange County
+    "CARRBORO",
+    
+    // Randolph County
+    "LIBERTY",
+    "STALEY",
+    
+    // Wake County
+    "APEX",
+    "NEW HILL"
   };
 }
