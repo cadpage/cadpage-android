@@ -103,6 +103,7 @@ public class DeveloperToolsManager {
         ManagePreferences.setAuthExemptDate(null);
         ManagePreferences.setFreeRider(true);
         ManagePreferences.setFreeSub(false);
+        ManagePreferences.setPaidYear(2, 9999);
         break;
         
       case 2:     // Stat: Donate paid
@@ -275,7 +276,9 @@ public class DeveloperToolsManager {
     }
     
     private void setPurchaseDate(int dayOffset, int yearOffset) {
-      ManagePreferences.setPurchaseDate(calcDate(dayOffset, yearOffset));
+      Date date = calcDate(dayOffset, yearOffset);
+      ManagePreferences.setPurchaseDate(date);
+      ManagePreferences.setPurchaseDate(2, date);
     }
     
     private Date calcDate(int dayOffset, int yearOffset) {
@@ -310,6 +313,7 @@ public class DeveloperToolsManager {
       int year = cal.get(Calendar.YEAR);
       year = yearOffset == Integer.MIN_VALUE ? 0 : year+yearOffset;
       ManagePreferences.setPaidYear(year);
+      ManagePreferences.setPaidYear(2, year);
     }
     
   }
