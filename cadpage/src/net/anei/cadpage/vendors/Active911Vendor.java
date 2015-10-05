@@ -612,7 +612,7 @@ class Active911Vendor extends Vendor {
       "US/NC/ClayCounty",                 "NCClayCounty",
       "US/NC/ClevelandCounty",            "NCClevelandCounty",
       "US/NC/ColumbusCounty",             "NCColumbusCounty",
-      "US/NC/Concord",                    "NCCabarrusCountyAParser",
+      "US/NC/Concord",                    "NCCabarrusCountyA",
       "US/NC/CravenCounty",               "NCCravenCounty",
       "US/NC/DavidsonCounty",             "NCDavidsonCounty",
       "US/NC/DavieCounty",                "NCDavieCounty",
