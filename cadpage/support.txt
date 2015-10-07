@@ -475,7 +475,8 @@ Take care,
 Jean ~ Cadpage Administrator
 
 ******************************************************************
-Subsequent $10 payments are set up as maintenance fees. 
+Subsequent $10 payments are set up as maintenance fees.   If you stop installing  the weekly Cadpage updates when the subscription expires, you are not required to pay for subsequent years.
+
  You can continue to use Cadpage after the expiration date as long as you do not install a release published after that date.
  
 ******************************************************************
