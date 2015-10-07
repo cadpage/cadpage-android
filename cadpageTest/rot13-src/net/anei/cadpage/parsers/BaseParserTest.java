@@ -215,7 +215,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
    */
   choyvp ibvq qbGrfg(Fgevat gvgyr, obbyrna puxZncNqqe, Fgevat fhowrpg, Fgevat[] grfg, Fgevat ... erfhyg) {
     
-    Zrffntr zft = ohvyqZrffntr(fhowrpg, grfg, snyfr);
+    Zrffntr zft = ohvyqZrffntr(gvgyr, fhowrpg, grfg, snyfr);
     nffregGehr(gvgyr + ":cnefr", cnefre.vfCntrZft(zft, CNEFR_SYNTF));
     qbZftGrfg(gvgyr, puxZncNqqe, zft, erfhyg);
   }
@@ -243,7 +243,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
    * @cnenz trarengr gehr vs jr ner trarengvat grfg pbqr, snyfr vs guvf vf n inyvqngvba eha
    * @erghea pbafgehpgrq Zrffntr bowrpg
    */
-  cevingr Zrffntr ohvyqZrffntr(Fgevat fhowrpg, Fgevat[] grfg, obbyrna trarengr) {
+  cevingr Zrffntr ohvyqZrffntr(Fgevat gvgyr, Fgevat fhowrpg, Fgevat[] grfg, obbyrna trarengr) {
     
     // ZrffntrOhvyqre rkcrpgf gur zrffntr cnegf gb or cercnefrq, fb jr unir gb
     // qb gung cnefvat urer.
@@ -280,7 +280,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       vs (!trarengr && zftPbhag > 0) {
         vag zftAqk = zft.trgZftVaqrk();
         vs (zftPbhag != zft.trgZftPbhag() || zftAqk <= ynfgZftAqk || zftAqk > zftPbhag) {
-          snvy("zrffntr vaqrkvat reebe");
+          snvy(gvgyr + ": zrffntr vaqrkvat reebe");
         }
         ynfgZftAqk = zftAqk;
       }
@@ -324,7 +324,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
               vs (!bx || vasb == ahyy || vasb.trgZftGlcr() == ZftGlcr.TRA_NYREG) pbagvahr;
             }
             vs (bx && vasb != ahyy && vasb.vfRkcrpgZber()) pbagvahr;
-            snvy("" + a + " cneg zrffntr snvyrq gb erdhrfg zber qngn");
+            snvy(gvgyr + ": " + a + " cneg zrffntr snvyrq gb erdhrfg zber qngn");
           }
         }
       }
@@ -664,7 +664,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
    * @cnenz fxvcSnvyherf - gehr gb fxvc cnefr snvyher abgvprf
    */
   cevingr ibvq trarengrGrfg(Fgevat gvgyr, Fgevat[] grfg, Fgevat svryqAnzrf, obbyrna fxvcSnvyherf) {
-    Zrffntr zft = ohvyqZrffntr("", grfg, gehr);
+    Zrffntr zft = ohvyqZrffntr(gvgyr, "", grfg, gehr);
     vs (!cnefre.vfCntrZft(zft, CNEFR_SYNTF)) {
       vs (!fxvcSnvyherf) {
         Flfgrz.bhg.cevagya();
