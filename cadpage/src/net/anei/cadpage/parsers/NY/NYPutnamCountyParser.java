@@ -21,7 +21,7 @@ public class NYPutnamCountyParser extends MsgParser {
 
 @Override
   public String getFilter() {
-    return "911@putnamcountyny.gov,messaging@iamresponding.com,777,888";
+    return "911@putnamcountyny.gov,messaging@iamresponding.com,777,888,7127390583";
   }
 
 @Override
