@@ -196,7 +196,7 @@ choyvp pynff PNCynprePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "2015-00012116 (31085)",
 
         "PNYY:INY",
-        "NQQE:FGNASBEQ ENAPU EQ@ SVIR FGNE OYIQ",
+        "NQQE:FGNASBEQ ENAPU EQ@ SVIR FGNE OYIQ", //guvf fhecevfrq zr ol jbexvat
         "PVGL:Ebfrivyyr",
         "PBQR:Q-2-N-7",
         "HAVG:S15, NZE1, R7",

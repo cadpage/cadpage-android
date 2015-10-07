@@ -172,7 +172,7 @@ choyvp pynff PNFnaYhvfBovfcbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:15-038825",
         "PNYY:Nffvfg Bgure Ntrapl Sver - IRT SVER",
         "NQQE:4800 UJL 46 J & 500 A TERRA INYYRL EQ",
-        "ZNQQE:4800 UJL 46 J",
+        "ZNQQE:4800 UJL 46 J", //qbrf abg znc
         "HAVG:FYSQ4 FYSQOP2");
 
     qbGrfg("G4",

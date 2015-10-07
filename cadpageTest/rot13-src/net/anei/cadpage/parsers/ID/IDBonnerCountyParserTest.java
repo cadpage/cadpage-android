@@ -505,7 +505,6 @@ FMSQ _Nppvqrag HaxVaw _8000 Fpujrvgmre Zbhagnva Eq, FNA Gurl erprvirq n cubar pn
 FMSQ _Vasbezngvba _Cvaanpyr Evqtr Eq, FNA Pnfr sbe qrgrezvat n orne va guvf nenr.
 FMSQ _NYF Zrqvpny _5239 A Evyrl Perrx Eq, CEV Ec vf irel fvpx, orra trggvat jbefr fvapr 0330. Cg vf 74 lbs. Cg vf nybar, ab ybff bs pbap, pna g qevir urefrys naljurer, pna g fgnaq hc. Cnavpxrq ohg oernguvat bxnl, rkprffvir ibzvggvat. Jrnx. Ec unf n y
 FMSQ _Unmneqbhf pbaq _10000 Fpujrvgmre Zbhagnva Eq, FNA Pna fzryy tnf va gur ybol nern. Gurl guvax vg pbzvat sebz gur tnf sver cynpr. Gurl unir gur qbbef bcra gb irag naq gurl ner tbvat gb rinphngr. 2 ebbzf naq frphevgl.
-FMSQ _Svfu
 FMSQ _NYF Zrqvpny _10000 Fpujrvgmre Zbhagnva Eq; Fryxvex Ybqtr - Tbezbaqrm, FNA Gurer vf n crefba va gurve 60-70 lbs gung nccrnef gb or univat n frvmher. 12 58 37 09 06 2015 - Snhovba, G Gurer ner bgure crbcyr gurer jvgu gur EC, fur vf tbvat gb yrg h
 FMSQ _NYF Genhzn _4200 Fpujrvgmre Zbhagnva Eq; Fpujrvgmre Zbhagnva Eq, FNA Ec ercbegvat n vawhel Zga ovxr nppvqrag. Znyr penfurq naq ynaqrq ba uvf urnq. Ur unf cbffvoyr fcvany vawhel. Gurl ner gelvat gb jnyx bhg gb gur ghea abj. Ur jnf jrnevat n uryz
 FMSQ _Nppvqrag Vawhel _8200 Fpujrvgmre Zbhagnva Eq, FNA ZP nppvqrag, urnq vawhevrf 17 44 20 08 31 2015 - Xbe, N Evqre vf qbja gur uvyy, ovxr vf fgvyy ba gur ebnq. 17 44 46 08 31 2015 - Xbe, N Gurer ner fbzr thlf qbja gur rzonaxzrag jvgu uvz 100-150 s
@@ -5055,9 +5054,6 @@ choyvp pynff VQObaarePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:FNAQCBVAG",
         "VASB:Pna fzryy tnf va gur ybol nern. Gurl guvax vg pbzvat sebz gur tnf sver cynpr. Gurl unir gur qbbef bcra gb irag naq gurl ner tbvat gb rinphngr. 2 ebbzf naq frphevgl.");
 
-// ************************ CNEFR SNVYHER *****************************
-// FMSQ _Svfu
-
     qbGrfg("G7",
         "FMSQ _NYF Zrqvpny _10000 Fpujrvgmre Zbhagnva Eq; Fryxvex Ybqtr - Tbezbaqrm, FNA Gurer vf n crefba va gurve 60-70 lbs gung nccrnef gb or univat n frvmher. 12 58 37 09 06 2015 - Snhovba, G Gurer ner bgure crbcyr gurer jvgu gur EC, fur vf tbvat gb yrg h",
         "FEP:FMSQ",
@@ -6598,7 +6594,7 @@ choyvp pynff VQObaarePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PSSQ _Sver Oehfu _2000 Zbfdhvgb Perrx Eq; nern bs, PYN ec nqivfrq gung gurer vf n sver ba n yvggyr uvyy orybj Fpbgpuzna f Crnx. Ec nqivfrq gung ur unf orra jngpuvat vg sbe nobhg 15 zvahgrf naq vg unfa g ebja. Ec nqivfrq gung gurer vf bar ba gur abegu",
         "FEP:PSSQ",
         "PNYY:Sver Oehfu",
-        "NQQE:2000 Zbfdhvgb Perrx Eq",
+        "NQQE:2000 Zbfdhvgb Perrx Eq", //qbrf abg znc
         "CYNPR:nern bs",
         "PVGL:PYNEX SBEX",
         "VASB:ec nqivfrq gung gurer vf n sver ba n yvggyr uvyy orybj Fpbgpuzna f Crnx. Ec nqivfrq gung ur unf orra jngpuvat vg sbe nobhg 15 zvahgrf naq vg unfa g ebja. Ec nqivfrq gung gurer vf bar ba gur abegu");
