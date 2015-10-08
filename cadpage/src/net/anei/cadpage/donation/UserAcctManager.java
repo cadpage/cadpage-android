@@ -18,6 +18,7 @@ import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.content.Context;
 import android.net.Uri;
+import android.os.Build;
 import android.telephony.TelephonyManager;
 
 public class UserAcctManager {
@@ -27,6 +28,8 @@ public class UserAcctManager {
   private String phoneNumber = null;
   private String meid = null;
   private boolean developer = false;
+  
+  private static final Pattern SDK_PTN = Pattern.compile(".*\\bsdk\\b.*");
   
   public void setContext(Context context) {
     this.context = context;
@@ -48,11 +51,19 @@ public class UserAcctManager {
     }
     userEmails = emailList.toArray(new String[emailList.size()]);
     
-    // See if first email is on our developer list
-    if (userEmails.length > 0) {
-      String[] developers = context.getResources().getStringArray(R.array.donate_devel_list);
-      if (developers != null) {
-        developer = Arrays.asList(developers).contains(userEmails[0]);
+    // If we are running in an emulator, assume developer status
+    String product = Build.PRODUCT;
+    if (SDK_PTN.matcher(product).matches()) {
+      developer = true;
+    }
+    
+    // Otehrwise, see if first email is on our developer list
+    else {
+      if (userEmails.length > 0) {
+        String[] developers = context.getResources().getStringArray(R.array.donate_devel_list);
+        if (developers != null) {
+          developer = Arrays.asList(developers).contains(userEmails[0]);
+        }
       }
     }
 
