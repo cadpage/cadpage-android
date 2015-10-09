@@ -7,7 +7,7 @@ public class NJAtlanticCountyAParser extends FieldProgramParser {
 
   public NJAtlanticCountyAParser() {
     super("ATLANTIC COUNTY", "NJ", 
-          "CALL:CALL! PLACE:PLACE! ADDR:ADDR! CITY:CITY! CROSS:X! MAP:MAP! DATE:DATETIME! INFO:INFO! ID:ID! GPS:GPS!");
+          "CALL:CALL! PLACE:PLACE! ADDR:ADDR! CITY:CITY! CROSS:X! MAP:MAP DATE:DATETIME INFO:INFO! ID:ID! GPS:GPS!");
   }
   
   @Override
