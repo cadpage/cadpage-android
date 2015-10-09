@@ -15,7 +15,7 @@ public class COBentCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "coem820@gmail.com";
+    return "misty.hall@bentcounty.net,coem820@gmail.com";
   }
 
   @Override
@@ -42,7 +42,7 @@ public class COBentCountyParser extends SmartAddressParser {
       subject = subject.substring(c.length()).trim();
     }
     
-    if (SFTI_L < subject.length() && subject.substring(0, SFTI_L).equalsIgnoreCase(SANTA_FE_TRAIL_INN)) {
+    if (SFTI_L <= subject.length() && subject.substring(0, SFTI_L).equalsIgnoreCase(SANTA_FE_TRAIL_INN)) {
       data.strPlace = subject;
       return;
     }
@@ -56,7 +56,7 @@ public class COBentCountyParser extends SmartAddressParser {
   private boolean parseBody(String body, Data data) {
     if (data.strAddress.length() == 0) {
       Result r = parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_OPT_STREET_SFX, body);
-      if (r.getStatus() >= 4) {
+      if (r.getStatus() >= STATUS_FULL_ADDRESS) {
         r.getData(data);
         body = r.getLeft();
       }

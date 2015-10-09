@@ -255,6 +255,7 @@ class Active911Vendor extends Vendor {
       "US/CA/YoloCounty",                 "CAYoloCountyB",
       "US/CO/AdamsCounty",                "COAdamsCounty",
       "US/CO/ArchuletaCounty",            "COArchuletaCounty",
+      "US/CO/BentCounty",                 "COBentCounty",
       "US/CO/Bretsaps",                   "COBoulderCountyB",
       "US/CO/ChaffeeCountySheriff",       "COChaffeeCounty",
       "US/CO/CityofDurango",              "COLaPlataCounty",
