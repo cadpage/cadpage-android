@@ -145,6 +145,7 @@ public class ParserList {
               ,"AZMaricopaCounty"               ,"Maricopa County, AZ"
               ,"AZNavajoCounty"                 ,"Navajo County, AZ"
               ,"AZYavapaiCounty"                ,"Yavapai County, AZ"
+              ,"AZYumaCounty"                   ,"Yuma County, AZ"
           ),
           new ParserCategory("Arkansas"
               ,"ARBentonCounty"                 ,"Benton County, AR"
