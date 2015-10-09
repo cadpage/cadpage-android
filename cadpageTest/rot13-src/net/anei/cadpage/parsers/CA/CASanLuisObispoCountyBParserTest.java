@@ -1156,7 +1156,7 @@ choyvp pynff PNFnaYhvfBovfcbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:15-038400",
         "PNYY:Zrqvpny - OHF FGBC, P3 SRZ FGNGRF FUR JNF UNIVAT N FRVMHER",
         "NQQE:2200 OEBNQ OYBPX BS",
-        "ZNQQE:2200 OEBNQ BS",
+        "ZNQQE:2200 OEBNQ",
         "PVGL:Fna Yhvf Bovfcb",
         "HAVG:FYSQ4");
 

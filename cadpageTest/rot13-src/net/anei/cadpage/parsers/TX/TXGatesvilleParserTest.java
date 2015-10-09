@@ -272,7 +272,7 @@ choyvp pynff GKTngrfivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:6/6/2014",
         "GVZR:13:41:40",
         "NQQE:2200 OYX BS ZNVA",
-        "ZNQQE:2200  BS ZNVA");
+        "ZNQQE:2200  ZNVA");
 
     qbGrfg("G25",
         "TngrfivyyrQvfcngpu:Pnyy# PF14008240 -NPPVQRAG JVGU VAWHEL- 6/5/2014 13:09:27 Ybpngvba: 6200 OYX SZ 116",

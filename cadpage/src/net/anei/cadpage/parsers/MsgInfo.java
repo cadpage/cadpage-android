@@ -689,7 +689,7 @@ public class MsgInfo {
 
   // Clean up any BLK indicators
   // Remove occurrence of BLK bracketed by non-alpha characters
-  private static final Pattern BLK_PAT = Pattern.compile("(?:-|(?<![A-Z]))-?BLK(?![A-Z])|[- ]BLOCK(?! (?:DR|RD))(?: OF)?(?= )", Pattern.CASE_INSENSITIVE);
+  private static final Pattern BLK_PAT = Pattern.compile("(?:(?:-|(?<![A-Z]))-?BLK|[- ]BLOCK(?! (?:DR|RD)))(?![A-Z])(?: OF)?", Pattern.CASE_INSENSITIVE);
   private String cleanBlock(String sAddr) {
     sAddr = sAddr.replaceAll("[\\{\\}]", "");
     Matcher match = BLK_PAT.matcher(sAddr);
