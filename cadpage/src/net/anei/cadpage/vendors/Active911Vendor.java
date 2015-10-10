@@ -403,6 +403,7 @@ class Active911Vendor extends Vendor {
       "US/KS/HarveyCounty",               "KSHarveyCounty",
       "US/KS/HarveyCounty",               "KSHarveyCounty",
       "US/KS/JohnsonCounty",              "KSJohnsonCounty",
+      "US/KS/LabetteCounty",              "KSLabetteCounty",
       "US/KS/LeavenworthCounty",          "KSLeavenworthCounty",
       "US/KS/MarionCounty",               "KSMarionCounty",
       "US/KS/MontgomeryCounty",           "KSMontgomeryCounty",
