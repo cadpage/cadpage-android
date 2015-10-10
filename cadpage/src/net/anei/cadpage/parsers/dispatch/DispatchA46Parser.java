@@ -20,8 +20,8 @@ public class DispatchA46Parser extends SmartAddressParser {
   private static Pattern ADDR_PTN1 = Pattern.compile("([^,]*),([^,]*), *([A-Z]{2})\\b,? *(.*)");
   
   private static Pattern SUBJECT_PTN2 = Pattern.compile("(?:([A-Z]{3,4}) +- +)?(.*?)");
-  private static Pattern BODY_PTN2 = Pattern.compile("A\\(n\\) *(.*?) has been reported at (.*?) (\\d{10})(?: +(.*))?");
-  private static Pattern ADDR_PTN2 = Pattern.compile("([^,]*),([^,]*), *([A-Z]{2})\\.?");
+  private static Pattern BODY_PTN2 = Pattern.compile("A\\(n\\) *(.*?) has been reported at (.*?) (\\d{10})(?:,? +(.*))?");
+  private static Pattern ADDR_PTN2 = Pattern.compile("([^,]*),(?:([^,]*),)? *([A-Z]{2})\\.?");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -83,7 +83,7 @@ public class DispatchA46Parser extends SmartAddressParser {
     if (mat.matches()) {
       setFieldList("SRC CODE CALL ADDR APT CITY ST ID INFO");
       
-      data.strSource = mat.group(1);
+      data.strSource = getOptGroup(mat.group(1));
       data.strCode = mat.group(2);
       
       mat = BODY_PTN2.matcher(body);
@@ -96,7 +96,7 @@ public class DispatchA46Parser extends SmartAddressParser {
       mat = ADDR_PTN2.matcher(addr);
       if (!mat.matches()) return false;
       parseAddress(mat.group(1).trim(), data);
-      data.strCity = mat.group(2).trim();
+      data.strCity = getOptGroup(mat.group(2));
       data.strState = mat.group(3);
       return true;
     }
