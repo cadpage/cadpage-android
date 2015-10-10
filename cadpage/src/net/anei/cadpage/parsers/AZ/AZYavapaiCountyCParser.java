@@ -10,12 +10,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class AZYavapaiCountyCParser extends FieldProgramParser {
 
 	public AZYavapaiCountyCParser() {
-		super(CITY_CODES, "YAVAPAI COUNTY", "AZ", "SRC ( BOX | SRC? ) CALL ADDR UNIT/S! INFO/N+? A8 EMPTY+? X? DATETIME?");
+		super(CITY_CODES, "YAVAPAI COUNTY", "AZ", "SRC ( BOX | SRC? ) CALL ADDR UNIT/S! INFO/N+? ID EMPTY+? X? DATETIME?");
 	}
 	
 	@Override
 	public boolean parseMsg(String subject, String body, Data data) {
-	  //check subject
+
 	  if (!subject.equals("Message from HipLink")) return false;
 	  
 	  return parseFields(body.split("\n"), data);
@@ -27,7 +27,7 @@ public class AZYavapaiCountyCParser extends FieldProgramParser {
 	  if (name.equals("BOX")) return new BoxField("\\d+", true);
 	  if (name.equals("ADDR")) return new MyAddressField();
 	  if (name.equals("INFO")) return new MyInfoField();
-	  if (name.equals("A8")) return new InfoField("(?:[A-Z]\\d{8})?"); //i have no idea what this field is
+	  if (name.equals("ID")) return new IdField("[A-Z]\\d{8}|", true);
 	  if (name.equals("X")) return new MyCrossField();
 	  if (name.equals("DATETIME")) return new MyDateTimeField();
     return super.getField(name);
@@ -41,28 +41,32 @@ public class AZYavapaiCountyCParser extends FieldProgramParser {
 
 	  @Override
 	  public void parse(String field, Data data) {
+	    if (field.equals(data.strSource)) return;
 	    data.strSource = append(data.strSource, " ", field);
 	  }
 	}
 	
 	
-	private static Pattern ADDR_CITY = Pattern.compile("(.*?),([A-Z]+)?");
-	private static Pattern SORTER = Pattern.compile("(?:AREA (.*)|((?:APT|RM|ROOM|UNIT) .*)|#?(\\d+[A-Z]?)|(ST[AN] [^ ]+)|(?:NORTH|SOUTH|EAST|WEST)BOUND)", Pattern.CASE_INSENSITIVE);
+	private static Pattern ADDR_CITY = Pattern.compile("(.*?),([A-Z]*)");
+	private static Pattern SORTER = Pattern.compile("(?:AREA (.*)|(?:APT|LOT|RM|ROOM|UNIT) *(.*)|#?(\\d+[A-Z]?)|(ST[AN] [^ ]+)|(?:NORTH|SOUTH|EAST|WEST)BOUND)", Pattern.CASE_INSENSITIVE);
   //field is ADDR(;(MAP|APT|UNIT|[NSEW]BOUND|PLACE))+,CITY
 	private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
+      
       //remove leading empty fields ( 2 occurrences in pages )
       while (field.startsWith(";")) field = field.substring(1).trim();
+      
       //parse ADDR and CITY
       Matcher mat = ADDR_CITY.matcher(field);
       if (!mat.matches()) abort();
       String[] fields = mat.group(1).split(" *; *");
+      
       //ADDR
       super.parse(fields[0], data);
+      
       //CITY
-      String g2 = mat.group(2);
-      if (g2 != null) parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, g2, data);
+      data.strCity = convertCodes(mat.group(2).trim(), CITY_CODES);
       
       //parse intermediate fields
       for (int i = 1; i < fields.length; i++) {
@@ -75,16 +79,14 @@ public class AZYavapaiCountyCParser extends FieldProgramParser {
         //APT
         group = imat.group(2);
         if (group == null) group = imat.group(3);
-        if (group != null) { data.strApt = append(data.strApt, ", ", group); continue; }
-        if (data.strApt.startsWith("APT ")) data.strApt = data.strApt.substring(4);
+        if (group != null) { data.strApt = append(data.strApt, "-", group); continue; }
+        
         //UNIT
         group = imat.group(4);
         if (group != null) { data.strUnit = append(data.strUnit, " ", group.replace(" ", "")); continue; }
         //if mat matched, but no groups are captured, whole field is a direction (like SOUTHBOUND). append to ADDR
         data.strAddress = append(data.strAddress, " ", fields[i]);
-      } //format strApt so we don't ever get "APT:APT 3" on values from only 1 field
-      if (!data.strApt.contains(",") && data.strApt.startsWith("APT ")) data.strApt = data.strApt.substring(4);
-      
+      }
     }
     
     @Override
@@ -98,19 +100,20 @@ public class AZYavapaiCountyCParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       //if DT hasen't been parsed yet, check if this field is one + parse it
-      if (data.strDate.length() != 0) {
-        Matcher mat = DT_OPERATOR.matcher(field);
-        if (mat.matches()) {
+      Matcher mat = DT_OPERATOR.matcher(field);
+      if (mat.matches()) {
+        if (data.strDate.length() == 0) {
           data.strTime = mat.group(1).replace(" ", ":");
           data.strDate = mat.group(2);
         }
-      } //now parse normally as INFO
-      super.parse(field, data);
+      } else {
+        super.parse(field, data);
+      }
     }
     
     @Override
     public String getFieldNames() {
-      return "DATE TIME "+super.getFieldNames();
+      return "TIME DATE "+super.getFieldNames();
     }
   }
   
@@ -140,13 +143,19 @@ public class AZYavapaiCountyCParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2}:\\d{2}");
   private class MyDateTimeField extends DateTimeField {
+    
     public MyDateTimeField() {
-      super("\\d{2}/\\d{2}/\\d{4}(?: \\d{2}(?::\\d{2}){0,2})?", true);
+      super("\\d{2}/[0-9/: ]*", true);
     }
 
     @Override
     public void parse(String field, Data data) {
+      
+      // Skip truncated data
+      if (!DATE_TIME_PTN.matcher(field).matches()) return;
+    
       // skip parse() if DATETIME has been parsed from INFO
       if (data.strDate.length() == 0) super.parse(field, data);
     }
@@ -155,8 +164,11 @@ public class AZYavapaiCountyCParser extends FieldProgramParser {
   private static Properties CITY_CODES = buildCodeTable(new String[]{
       "CLA", "CLARKDALE",
       "COR", "CORNVILLE",
-      "CW", "COTTONWOOD",
+      "CV",  "CAMP VERDE",
+      "CW",  "COTTONWOOD",
       "JER", "JEROME",
+      "SED", "SEDONA",
+      "RIM", "RIMROCK"
   });
   
 }

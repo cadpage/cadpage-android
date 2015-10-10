@@ -196,6 +196,7 @@ class Active911Vendor extends Vendor {
       "US/AR/LifeNetEms",                 "ARGarlandCounty",
       "US/AR/PopeCounty",                 "ARPopeCounty",
       "US/AR/PulaskiCounty",              "ARPulaskiCounty",
+      "US/AZ/CityofCottonwood",           "AZYavapaiCountyC",
       "US/AZ/CityofShowLow",              "AZNavajoCountyB",
       "US/AZ/NavajoCounty",               "AZNavajoCounty",
       "US/CA/AmadorCounty",               "CAAmadorCounty",
