@@ -6594,7 +6594,7 @@ choyvp pynff VQObaarePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PSSQ _Sver Oehfu _2000 Zbfdhvgb Perrx Eq; nern bs, PYN ec nqivfrq gung gurer vf n sver ba n yvggyr uvyy orybj Fpbgpuzna f Crnx. Ec nqivfrq gung ur unf orra jngpuvat vg sbe nobhg 15 zvahgrf naq vg unfa g ebja. Ec nqivfrq gung gurer vf bar ba gur abegu",
         "FEP:PSSQ",
         "PNYY:Sver Oehfu",
-        "NQQE:2000 Zbfdhvgb Perrx Eq", //qbrf abg znc
+        "NQQE:2000 Zbfdhvgb Perrx Eq",
         "CYNPR:nern bs",
         "PVGL:PYNEX SBEX",
         "VASB:ec nqivfrq gung gurer vf n sver ba n yvggyr uvyy orybj Fpbgpuzna f Crnx. Ec nqivfrq gung ur unf orra jngpuvat vg sbe nobhg 15 zvahgrf naq vg unfa g ebja. Ec nqivfrq gung gurer vf bar ba gur abegu");

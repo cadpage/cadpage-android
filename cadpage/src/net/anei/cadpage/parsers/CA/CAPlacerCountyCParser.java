@@ -34,9 +34,10 @@ public class CAPlacerCountyCParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       int pt = field.indexOf(',');
       if (pt < 0) abort();
-      parseAddress(StartType.START_ADDR, FLAG_NO_CITY | FLAG_RECHECK_APT | FLAG_ANCHOR_END, 
-                   field.substring(0,pt).trim(), data);
+      String addr = field.substring(0,pt).replace('@',  '&');
       String city =field.substring(pt+1).trim();
+      parseAddress(StartType.START_ADDR, FLAG_NO_CITY | FLAG_RECHECK_APT | FLAG_ANCHOR_END, 
+                   addr, data);
       parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, city, data);
       if (data.strCity.length() == 0) abort();
       data.strPlace = getLeft();

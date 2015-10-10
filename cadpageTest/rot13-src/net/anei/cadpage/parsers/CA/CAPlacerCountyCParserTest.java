@@ -177,7 +177,7 @@ choyvp pynff PNCynprePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "2015-00012117 (31085)",
 
         "PNYY:ZNVQ",
-        "NQQE:PVEOL JNL@ SBBGUVYYF OYIQ",
+        "NQQE:PVEOL JNL & SBBGUVYYF OYIQ",
         "PVGL:Ebfrivyyr",
         "PBQR:P-1-R-6",
         "HAVG:P01, NZE1, R3",
@@ -196,7 +196,7 @@ choyvp pynff PNCynprePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "2015-00012116 (31085)",
 
         "PNYY:INY",
-        "NQQE:FGNASBEQ ENAPU EQ@ SVIR FGNE OYIQ", //guvf fhecevfrq zr ol jbexvat
+        "NQQE:FGNASBEQ ENAPU EQ & SVIR FGNE OYIQ", //guvf fhecevfrq zr ol jbexvat
         "PVGL:Ebfrivyyr",
         "PBQR:Q-2-N-7",
         "HAVG:S15, NZE1, R7",
@@ -1230,7 +1230,7 @@ choyvp pynff PNCynprePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "2015-00012069 (31085)",
 
         "PNYY:INU",
-        "NQQE:SBBGUVYYF OYIQ@ CYRNFNAG TEBIR OYIQ",
+        "NQQE:SBBGUVYYF OYIQ & CYRNFNAG TEBIR OYIQ",
         "PVGL:Ebfrivyyr",
         "PBQR:P-2-Q-6",
         "HAVG:O30, NZE1, O1, R2, R7, ESGNP4, G7",
@@ -1308,7 +1308,7 @@ choyvp pynff PNCynprePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "2015-00012067 (31085)",
 
         "PNYY:ZNVQ",
-        "NQQE:JUVFGYRFGBC JNL@ QRY JROO OYIQ",
+        "NQQE:JUVFGYRFGBC JNL & QRY JROO OYIQ",
         "PVGL:Ebfrivyyr",
         "CYNPR:ERP PRAGRE NG RAGENAPR",
         "PBQR:P-2-N-8",
@@ -1601,7 +1601,7 @@ choyvp pynff PNCynprePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "2015-00035651 (PN0310500)",
 
         "PNYY:INY",
-        "NQQE:PYVAGBA NIR@ PUREEL FG",
+        "NQQE:PYVAGBA NIR & PUREEL FG",
         "PVGL:Ebfrivyyr",
         "PBQR:P-1-T-8",
         "HAVG:N16, NZE1, R1, 7C194",
@@ -1690,7 +1690,7 @@ choyvp pynff PNCynprePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "2015-00012050 (31085)",
 
         "PNYY:INS",
-        "NQQE:PNYYR YNF PNFNF@ IVN VAIVREAB",
+        "NQQE:PNYYR YNF PNFNF & IVN VAIVREAB",
         "PVGL:Ebfrivyyr",
         "PBQR:P-2-O-6",
         "HAVG:U04, NZE1, O1, R2, R5, ESGNP4, G7",
@@ -1807,7 +1807,7 @@ choyvp pynff PNCynprePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "2015-00012046 (31085)",
 
         "PNYY:SVAI",
-        "NQQE:UNEQVAT OYIQ@ JVYYF EQ",
+        "NQQE:UNEQVAT OYIQ & JVYYF EQ",
         "PVGL:Ebfrivyyr",
         "CYNPR:BA GUR OVXR GENVY",
         "PBQR:Q-2-N-3",
