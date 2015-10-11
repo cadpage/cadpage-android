@@ -17,7 +17,7 @@ public class NHKeeneMutualAidParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "cad_do_not_reply@firemutualaid.com";
+    return "cad_do_not_reply@firemutualaid.com,cad@firemutualaid.com";
   }
 
   @Override
