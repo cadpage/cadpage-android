@@ -13,6 +13,7 @@ Fraqre: "Pbeinyyvf Nyregf" <nyregf@pbeinyyvf.rnyregtbi.pbz>
 {Pbeinyyvf Nyreg} VAP:VAWHEL ZIN\aNQQ:UVTUJNL 20 naq ZC 45\aNCG:\aPVGL:CUVYBZNGU\aK:UVTUJNL 20\aZNC:585-435\aPSF:111414-239\aQVF:BQS CEBGRPGRQ YNAQ\aQVF:BQS CEBGRPGRQ YNAQ\aQVF:ORAGBA PB FB\aQVF:CUVYBZNGU SVER\aQVF:PBEINYYVF NZO 2-4-3\a
 {Pbeinyyvf Nyreg} VAP:VAWHEL ZIN\aNQQ:6427 FJ NVECBEG NIR\aNCG:\aPVGL:CUVYBZNGU\aK:UVTUJNL 20\aZNC:585-435\aPSF:111414-239\aQVF:BQS CEBGRPGRQ YNAQ\aQVF:BQS CEBGRPGRQ YNAQ\aQVF:ORAGBA PB FB\aQVF:CUVYBZNGU SVER\aQVF:PBEINYYVF NZO 2-4-3\a
 {Pbeinyyvf Nyreg} VAP:VAWHEL ZIN\aNQQ:6427 NVECBEG NIR\aNCG:\aPVGL:CUVYBZNGU\aK:UVTUJNL 20\aZNC:585-435\aPSF:111414-239\aQVF:BQS CEBGRPGRQ YNAQ\aQVF:BQS CEBGRPGRQ YNAQ\aQVF:ORAGBA PB FB\aQVF:CUVYBZNGU SVER\aQVF:PBEINYYVF NZO 2-4-3\a
+{Pbeinyyvf Nyreg} VAP:SNYY VAW - PBQR 3\aNQQ:24671 FGBINYY YA\aNCG:19\aPVGL:CUVYBZNGU\aK:UVTUJNL 34\aZNC:\aPSF:101015-92\aQVF:ORAGBA PB FB\aQVF:CUVYBZNGU SVER\aQVF:PBEINYYVF NZO 2-4-3
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cuvybzngu Sver & Erfphr
@@ -310,7 +311,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:111414-239",
         "HAVG:BQS CEBGRPGRQ YNAQ,BQS CEBGRPGRQ YNAQ,ORAGBA PB FB,CUVYBZNGU SVER,PBEINYYVF NZO 2-4-3");
 
-    qbGrfg("G1",
+    qbGrfg("G2",
         "{Pbeinyyvf Nyreg} VAP:VAWHEL ZIN\a" +
         "NQQ:6427 FJ NVECBEG NIR\a" +
         "NCG:\a" +
@@ -332,7 +333,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:111414-239",
         "HAVG:BQS CEBGRPGRQ YNAQ,BQS CEBGRPGRQ YNAQ,ORAGBA PB FB,CUVYBZNGU SVER,PBEINYYVF NZO 2-4-3");
 
-    qbGrfg("G2",
+    qbGrfg("G3",
         "{Pbeinyyvf Nyreg} VAP:VAWHEL ZIN\a" +
         "NQQ:6427 NVECBEG NIR\a" +
         "NCG:\a" +
@@ -353,7 +354,28 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:585-435",
         "VQ:111414-239",
         "HAVG:BQS CEBGRPGRQ YNAQ,BQS CEBGRPGRQ YNAQ,ORAGBA PB FB,CUVYBZNGU SVER,PBEINYYVF NZO 2-4-3");
-  
+
+    qbGrfg("G4",
+        "{Pbeinyyvf Nyreg} VAP:SNYY VAW - PBQR 3\a" +
+        "NQQ:24671 FGBINYY YA\a" +
+        "NCG:19\a" +
+        "PVGL:CUVYBZNGU\a" +
+        "K:UVTUJNL 34\a" +
+        "ZNC:\a" +
+        "PSF:101015-92\a" +
+        "QVF:ORAGBA PB FB\a" +
+        "QVF:CUVYBZNGU SVER\a" +
+        "QVF:PBEINYYVF NZO 2-4-3",
+
+        "PNYY:SNYY VAW - PBQR 3",
+        "NQQE:24671 FGBINYY YA",
+        "ZNQQE:44.538420,-123.389200",
+        "NCG:19",
+        "PVGL:CUVYBZNGU",
+        "K:UJL 34",
+        "VQ:101015-92",
+        "HAVG:ORAGBA PB FB,CUVYBZNGU SVER,PBEINYYVF NZO 2-4-3");
+ 
   }
 
   @Grfg
@@ -1023,6 +1045,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:QVSSVPHYGL OERNGUVAT",
         "NQQE:24671 FGBINYY YA",
+        "ZNQQE:44.539070,-123.392159",
         "NCG:32",
         "PVGL:CUVYBZNGU",
         "K:UJL 34",
