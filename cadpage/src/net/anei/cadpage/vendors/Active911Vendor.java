@@ -303,6 +303,7 @@ class Active911Vendor extends Vendor {
       "US/DE/Dover",                      "DEKentCounty",
       "US/DE/NewCastleCounty",            "DENewCastleCounty",
       "US/DE/NewCastleCountycmsg",        "DENewCastleCountyD",
+      "US/DE/NW911",                      "DENewCastleCountyE",
       "US/DE/NWSRipnrun",                 "DEKentCountyF",
       "US/DE/SussexCounty",               "DESussexCountyB",
       "US/FL/BayCounty",                  "FLBayCounty",
