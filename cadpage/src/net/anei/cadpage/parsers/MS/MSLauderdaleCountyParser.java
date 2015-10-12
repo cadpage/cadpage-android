@@ -13,7 +13,7 @@ public class MSLauderdaleCountyParser extends FieldProgramParser {
 
   public MSLauderdaleCountyParser() {
     super(CITY_LIST, "LAUDERDALE COUNTY", "MS",
-          "CALL ( ADDR/Z CITY | ADDR/Z ADDR/Z CITY | ADDR/Z ADDR/Z ADDR/Z CITY | ADDR/Z ) INFO/N+? SRC UNIT!");
+          "CALL ( ADDR/Z CITY | ADDR/Z ADDR/Z CITY | ADDR/Z ADDR/Z ADDR/Z CITY | ADDR/Z ) INFO/N+? UNIT SRC! END");
   }
   
   @Override
@@ -47,7 +47,7 @@ public class MSLauderdaleCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("SRC")) return new SourceField("[A-Z]{3}", true);
+    if (name.equals("SRC")) return new SourceField("[A-Z]", true);
     return super.getField(name);
   }
   
