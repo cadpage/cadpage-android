@@ -721,6 +721,7 @@ class Active911Vendor extends Vendor {
       "US/NY/Erie",                       "NYErieCountyF",
       "US/NY/FingerLakesAmbulance",       "NYOntarioCountyB",
       "US/NY/FireRescueSystems",          "NYSuffolkCountyBFI",
+      "US/NY/NassauCountyFiretracker",    "NYNassauCountyFiretracker3",
       "US/NY/FultonCounty",               "NYFultonCounty",
       "US/NY/JeffersonCounty",            "NYJeffersonCounty",
       "US/NY/Lewis911",                   "NYLewisCounty",
