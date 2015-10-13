@@ -1,5 +1,7 @@
 package net.anei.cadpage.vendors;
 
+import java.util.Date;
+
 import net.anei.cadpage.C2DMService;
 import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.ContentQuery;
@@ -305,6 +307,12 @@ abstract class Vendor {
     editor.putString("account", account);
     editor.putString("token", token);
     editor.putString("dispatchEmail", emailAddress);
+    editor.commit();
+  }
+  
+  private void saveContactTime() {
+    SharedPreferences.Editor editor = prefs.edit();
+    editor.putLong("lastContactTime", new Date().getTime());
     editor.commit();
   }
   

@@ -360,6 +360,7 @@ class Active911Vendor extends Vendor {
       "US/IL/CityofElgin",                "ILElgin",
       "US/IL/CityofJoppa",                "ILMassacCounty",
       "US/IL/CityofMountOlive",           "ILMacoupinCounty",
+      "US/IL/CityofColumbia",             "ILColumbia",
       "US/IL/CookCounty",                 "ILCookCountyC",
       "US/IL/DownersGrove",               "ILDuPageCountyB",
       "US/IL/DupageCounty",               "ILDuPageCountyA",
