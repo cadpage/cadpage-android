@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10092015</string>
-  <string name="release_version">v1.8.66</string>
+  <string name="release_date">10132015</string>
+  <string name="release_version">v1.8.67</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.67\n
+Location Fixes:\n
+Yuma County, AZ\n
+New Castle County, DE\n
+Madison County, IL\n
+lauderdale County, MS\n
+Keene County Mutual Aid, NH\n
+Benton County, OR\n
+Bradley County, TN\n
+\n
 v1.8.66\n
 New Locations:\n
 Yuma County, AZ\n
@@ -95,12 +105,7 @@ Clermont County, OH\n
 Knox County, OH\n
 Armstrong County, PA\n
 Oconee County, SC\n
-Mid Island region, BC, CA\n
-\n
-v1.8.61\n
-Force close processing\n 
-Muskegon County, MI\n
-Stone County, MO
+Mid Island region, BC, CA
   </string>
 </resources>
   
