@@ -6,29 +6,15 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 
 public class PADelawareCountyBParser extends FieldProgramParser {
   
-  private static final Pattern PREFIX_PTN = Pattern.compile("^\\d{7} ");
-  private static final Pattern LEAD_TIME_DATE_PTN = Pattern.compile("\\d\\d:\\d\\d:\\d\\d \\d\\d-\\d\\d-\\d\\d +");
-  private static final Pattern NATURE_PTN = Pattern.compile("[\\* \"<](?:N.tu.e:|..ture:|Natu....|Na..re:(?=[A-Z]))");
-  private static final Pattern TIME_PTN = Pattern.compile(".Time:.", Pattern.CASE_INSENSITIVE);
-  private static final Pattern NOTES_PTN = Pattern.compile(" Not..[\\*:]");
-  private static final Pattern INC_PTN = Pattern.compile(" I..:");
-  private static final Pattern XN_PTN = Pattern.compile("[ ><](?!X1 INSIDE)X([12])..");
-  private static final Pattern X1_PTN = Pattern.compile("..1:");
-  private static final Pattern X2_PTN = Pattern.compile("..2:");
-  private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Nature:|X1:|X2:|Time:|Notes:|EID:|Inc:|Beat:|Disp:)");
-  private static final Pattern MASTER_STAR_PTN = Pattern.compile("(.*?) \\*{2,}(.*)\\*{2,}");
-  private static final Pattern MASTER_DASH_PTN = Pattern.compile("(.*?)[\\\\:]*-+(.*)");
-  private static final Pattern PLACE_CALL_PTN = Pattern.compile("@ *([^ ].*?) ([-_/A-Z]+\\b.*)");
-  
   private AddressField addressField;
   
   private boolean crossAddress;
-  
-  private String select;
   
   private static final Properties CITY_CODES = PADelawareCountyParser.CITY_CODES;
   
@@ -39,9 +25,23 @@ public class PADelawareCountyBParser extends FieldProgramParser {
   }
   
   @Override
-  public String getSelectValue() {
-    return select;
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom(){};
   }
+
+  private static final Pattern PREFIX_PTN = Pattern.compile("^\\d{7} ");
+  private static final Pattern LEAD_TIME_DATE_PTN = Pattern.compile("\\d\\d:\\d\\d:\\d\\d \\d\\d-\\d\\d-\\d\\d +");
+  private static final Pattern NATURE_PTN = Pattern.compile("[\\* \"<](?:N.tu.e:|..ture:|Natu....|Nat...:|Na..re:(?=[A-Z]))");
+  private static final Pattern TIME_PTN = Pattern.compile(".Time:", Pattern.CASE_INSENSITIVE);
+  private static final Pattern NOTES_PTN = Pattern.compile(" Not..[\\*:]");
+  private static final Pattern INC_PTN = Pattern.compile(" I..:");
+  private static final Pattern XN_PTN = Pattern.compile("[ ><](?!X1 INSIDE)X([12])..");
+  private static final Pattern X1_PTN = Pattern.compile("..1:");
+  private static final Pattern X2_PTN = Pattern.compile("..2:");
+  private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Nature:|X1:|X2:|Time:|Notes:|EID:|Inc:|Beat:|Disp:)");
+  private static final Pattern MASTER_STAR_PTN = Pattern.compile("(.*?) \\*{2,}(.*)\\*{2,}");
+  private static final Pattern MASTER_DASH_PTN = Pattern.compile("(.*?)[\\\\:]*-+(.*)");
+  private static final Pattern PLACE_CALL_PTN = Pattern.compile("@ *([^ ].*?) ([-_/A-Z]+\\b.*)");
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
@@ -50,12 +50,12 @@ public class PADelawareCountyBParser extends FieldProgramParser {
     if (body.startsWith("ADDR:")) return false;
 
     if (subject.equals("New Alert")) {
-      select = "1";
+      setSelectValue("1");
       return parseFields(body.split("\n"), data);
     }
     
     else {
-      select = "2";
+      setSelectValue("2");
       if (subject.startsWith("ALERT! ")) {
         data.strSource = subject.substring(7).trim().replace(' ', '_');
       }
@@ -118,7 +118,11 @@ public class PADelawareCountyBParser extends FieldProgramParser {
         body = stripFieldStart(body, "Location:");
   
         crossAddress = false;
-        return super.parseMsg(body, data);
+        if (!super.parseMsg(body, data)) return false;
+        
+        // If we did not retrieve a unit value, expect more to follow
+        if (data.strUnit.length() == 0) data.expectMore = true;
+        return true;
       }
       
       // No go so far.  If we are positive this is a dispatch

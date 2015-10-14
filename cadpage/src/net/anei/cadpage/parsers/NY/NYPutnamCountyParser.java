@@ -15,17 +15,19 @@ public class NYPutnamCountyParser extends MsgParser {
 
   public NYPutnamCountyParser() {
     super("PUTNAM COUNTY", "NY");
-    setFieldList("CALL PLACE ADDR CITY SRC X INFO");
+    setFieldList("CALL PLACE ADDR CITY APT SRC X INFO");
   }
   
 
 @Override
   public String getFilter() {
-    return "911@putnamcountyny.gov,messaging@iamresponding.com,777,888";
+    return "911@putnamcountyny.gov,messaging@iamresponding.com,777,888,7127390583";
   }
 
 @Override
   protected boolean parseMsg(String body, Data data) {
+  
+    if (body.indexOf('|') < 0) body = body.replace('\n', '|');
   
     Matcher match = STA_MARKER.matcher(body);
     if (!match.find()) return false;

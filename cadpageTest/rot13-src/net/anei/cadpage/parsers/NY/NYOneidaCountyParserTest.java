@@ -109,6 +109,10 @@ Pbagnpg: Xlyr Pnfury <xpnfury@tznvy.pbz>
 Fraqre: TPZ
 {Qheunzivyyr Sver}   32O03-HAXABJA FGNGHF/BGURE PBQRF ABG NCCYVPNOYR  , 5350 PNANY FG IRGRENAF BS SBERVTA JNEF IREBAN AL ( OEBNQ FG/WBUA FG )\e\a
 
+Pbagnpg: Tnel Errfr <terrfr7169@lnubb.pbz>
+Fraqre: Tnel Errfr <terrfr7169@lnubb.pbz>
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Jrfgrea Sver\aZFT:JRIS:2015:00170  , Qvfcngpurq  , JVERF QBJA/OHEA  , PNZEBQRA EQ JRFGREA / GBJAYVAR EQ JRFGREA\a \a \a
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jrfgzberynaq Sver Qrcnegzrag 
 Ybpngvba: Jrfgzberynaq, AL, Havgrq Fgngrf
@@ -1299,6 +1303,24 @@ choyvp pynff ALBarvqnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:IREBAN",
         "K:OEBNQ FG/WBUA FG");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgTnelErrfr() {
+
+    qbGrfg("G1",
+        "SEZ:zrffntvat@vnzerfcbaqvat.pbz\a" +
+        "FHOW:Jrfgrea Sver\a" +
+        "ZFT:JRIS:2015:00170  , Qvfcngpurq  , JVERF QBJA/OHEA  , PNZEBQRA EQ JRFGREA / GBJAYVAR EQ JRFGREA\a" +
+        " \a" +
+        " \a",
+
+        "FEP:JRIS",
+        "VQ:2015:00170",
+        "PNYY:JVERF QBJA/OHEA",
+        "NQQE:PNZEBQRA EQ & GBJAYVAR EQ",
+        "PVGL:JRFGREA");
+
   }
   
   @Grfg

@@ -535,12 +535,15 @@ public class SmsMmsMessage implements Serializable {
       boolean lock = getMsgCount() > 0;
       String[] msgParts = new String[extraMsgBody.size()+1];
       msgParts[0] = parseInfo.getMessageBody();
+      String workSubject = parseInfo.getSubject();
       for (int jj = 0; jj<extraMsgBody.size(); jj++) {
         Message pInfo = bldParseInfo(true, subject, extraMsgBody.get(jj));
+        String tmpSubject = pInfo.getSubject();
+        if (tmpSubject.length() > workSubject.length()) tmpSubject = workSubject;
         msgParts[jj+1] = pInfo.getMessageBody();
       }
       MsgParser parser = getParser();
-      parseInfo = new MessageBuilder(parser, fromAddress, subject, getSplitMsgOptions()).buildMessage(msgParts, lock);
+      parseInfo = new MessageBuilder(parser, fromAddress, workSubject, getSplitMsgOptions()).buildMessage(msgParts, lock);
       MsgInfo info = parseInfo.getInfo();
       if (info != null) location = info.getParserCode();
     }

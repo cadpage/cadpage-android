@@ -17,7 +17,7 @@ public class DispatchA33Parser extends FieldProgramParser {
 
   public DispatchA33Parser(String defCity, String defState, String closeStatus) {
     super(defCity, defState, 
-          "Event_No:ID! Status:SKIP! Disposition:SKIP! Category:CALL! Address:ADDR! Precinct:SKIP! Sector:MAP! GEO:SKIP! Ward:SKIP! Intersection:X? Date_/_Time_Open:DATETIME! Dispatch:DATETIME! Law_Enf.:SKIP! Enroute:SKIP! Fire:SKIP! Arrival:SKIP! EMS:SKIP! Closed:SKIP Source:NAME_PLACE! Incident_Notes:INFO!");
+          "Event_No:ID! Status:SKIP! Disposition:SKIP! Category:CALL! Address:ADDR! Precinct:SKIP! Sector:MAP! GEO:SKIP! Ward:SKIP! Intersection:X? Date_/_Time_Open:DATETIME! Dispatch:DATETIME! Law_Enf.:SKIP! Enroute:SKIP! Fire:SKIP! Arrival:SKIP! EMS:SKIP! Closed:SKIP Source:NAME_PLACE! Incident_Notes:INFO");
     this.closeStatus =  closeStatus;
   }
 
@@ -35,6 +35,7 @@ public class DispatchA33Parser extends FieldProgramParser {
     // delete event logs
     int ei = body.indexOf("\nEvent Log\n");
     if (ei < 0) ei = body.indexOf(" Event Log ");
+    if (ei < 0) ei = body.indexOf("\nPage1of1Printed");
     if (ei < 0) return false;
     body = body.substring(0, ei).trim();
 

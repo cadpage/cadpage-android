@@ -109,15 +109,6 @@ Fraqre: pbrz820@tznvy.pbz
 {520 crpx nir} 65 le byq znyr abg srryvat jryy naq qvmml
 {UJL 50 PE 15 } bar pne nppvqrag haxabja vawhevrf
 
- Erny zrff.  Fzneg nqqerff cnefre vf bs bayl znetvany hfr orpnhfr gurl nyzbfg nyjnlf qebc bss bss gur fgerr fhssvk :(
- qb gur orfg lbh pna.
- 
- Ohvyq PbqrFrg bowrpg jvgu xabja pnyy qrfpevcgvbaf.  Hfr vg gb chyy pnyy sebz fhowrpg.  Vs sbhaq, gerng gur erfg nf na nqqerff.
- 
- Vs abg sbhaq???  Cebonoyl gerng jubyr guvat nf nqqerff.  Be frr vs gur fzneg nqqerff cnefre pna cvpx na nqqerff bhg bs gur zrffntr obql.
- Gurer vf nqqerff cnefre synt gb znxr gur fgerrg fhssvk bcgvbany.  Vg vf qnatrebhf, ohg vg znl or nyy jr unir
- gb jbex jvgu sbe  guvf bar.
-
 */
 
 choyvp pynff PBOragPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

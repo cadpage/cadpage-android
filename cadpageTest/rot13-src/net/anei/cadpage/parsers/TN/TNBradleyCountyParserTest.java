@@ -26,6 +26,10 @@ Pbagnpg: Oergg Qhaa <o.qhaa829@yvir.pbz>
 Fraqre: 777
 PYRIRYNAQGA911: Oenqyrl PB 911:* 162 Ubyybj Eq AR* * * * * * * * Npp Vaw* * * * * * * * *
 
+Pbagnpg: Qba Gnaxrefyrl <qbagnaxrefyrl@lnubb.pbz>
+Fraqre: 777
+911:*\a 5667 Sebagntr Eq AJ*\a *\a *\a *\a *\a *\a *\a *\a Pneoba Zbabk*\a *\a *\a *\a *\a *\a *\a *\a *
+
  */
 
 choyvp pynff GAOenqyrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -131,6 +135,16 @@ choyvp pynff GAOenqyrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:162 Ubyybj Eq AR",
         "PNYY:Npp Vaw");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQbaGnaxrefyrl() {
+
+    qbGrfg("G1",
+        "911:*\a 5667 Sebagntr Eq AJ*\a *\a *\a *\a *\a *\a *\a *\a Pneoba Zbabk*\a *\a *\a *\a *\a *\a *\a *\a *",
+        "NQQE:5667 Sebagntr Eq AJ",
+        "PNYY:Pneoba Zbabk");
+
   }
   
 

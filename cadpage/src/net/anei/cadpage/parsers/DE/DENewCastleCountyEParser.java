@@ -11,12 +11,13 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class DENewCastleCountyEParser extends FieldProgramParser {
   
   public DENewCastleCountyEParser() {
     super("NEW CASTLE COUNTY", "DE",
-          "Tac_#:CH! Date/Time:DATETIME! Call_Address:ADDRCITY/S6Xa! Common_Name:PLACE! Cross_Streets:X! Local_Info:PLACE! Development:CITY! Type:CODE_CALL! Narrative:INFO! INFO/N+ EMS_Dist:MAP! Fire_Quad:MAP! Inc_Numbers:ID! Units_Assigned:UNIT! Alerts:INFO/N! INFO/N+ Status_Times:SKIP");
+          "Tac_#:CH! Date/Time:DATETIME! Call_Address:ADDRCITY/S6Xa! Common_Name:PLACE! Cross_Streets:X! Local_Info:PLACE! Development:CITY! Type:CODE_CALL! Narrative:INFO! INFO/N+ EMS_Dist:MAP! Fire_Quad:MAP! Inc_Numbers:ID! Units_Assigned:UNIT! Alerts:INFO/N! INFO/N+ Status_Times:TIMES+ MAP:SKIP");
   }
   
   @Override
@@ -25,7 +26,9 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
   }
   
   private static final Pattern MARKER = Pattern.compile("NCC911 Rip & Run *\\n");
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile(".*\nUnits Assigned:(.*?)\n.*?\\sCleared at:.*", Pattern.DOTALL);
+  
+  private Set<String> unitSet = new HashSet<String>();
+  private String timeInfo;
   
   @Override
   public boolean parseMsg(String body, Data data) {
@@ -33,30 +36,37 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
     if (!match.lookingAt()) return false;
     body = body.substring(match.end()).trim();
     
-    match = RUN_REPORT_PTN.matcher(body);
-    if (match.matches()) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
-      data.strUnit = match.group(1).trim();
-      return true;
-    }
-    
+    unitSet.clear();
+    timeInfo = "";
     if (!parseFields(body.split("\n"), data)) return false;
     fixCity(data);
+    if (data.msgType == MsgType.RUN_REPORT) {
+      data.strSupp = append(timeInfo, "\n", data.strSupp);
+    }
     return true;
   }
   
-  private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa");
   @Override
   public Field getField(String name) {
-    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d?/\\d\\d?/\\d{4} \\d\\d?:\\d\\d:\\d\\d [AP]M", DATE_TIME_FMT, true);
+    if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("CODE_CALL")) return new MyCodeCallField();
     if (name.equals("MAP")) return new MyMapField();
+    if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("TIMES")) return new TimesField();
     return super.getField(name);
+  }
+
+  private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa");
+  private class MyDateTimeField extends DateTimeField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() == 0) return;
+      if (!setDateTime(DATE_TIME_FMT, field, data)) abort();
+    }
   }
 
   private static final Pattern ADDR_ST_PTN = Pattern.compile("[A-Z]{2}");
@@ -64,6 +74,7 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
+      if (field.equals("Qual:")) return;
       Parser p = new Parser(field);
       String apt = p.getLastOptional(" Qual:");
       String city = p.getLastOptional(',');
@@ -152,6 +163,7 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
 
     @Override
     public void parse(String field, Data data) {
+      if (field.equals("Priority:")) return;
       Parser p = new Parser(field);
       String call = p.get(" Priority:");
       String pri = p.get();
@@ -190,6 +202,48 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
       if (field.equals(data.strMap)) return;
       data.strMap = "E:" + data.strMap + " F:" + field;
     }
+  }
+  
+  private static final Pattern UNIT_DELIM_PTN = Pattern.compile("[, ]+");
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      for (String unit : UNIT_DELIM_PTN.split(field)) {
+        addUnit(unit, data);
+      }
+    }
+  }
+  
+  private class TimesField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() == 0) return;
+      if (field.startsWith("Unit:")) {
+        addUnit(field.substring(5).trim(), data);
+      } else {
+        if (data.strTime.length() == 0) {
+          if (field.startsWith("Dispatched at:")) {
+            String time = field.substring(14).trim();
+            int pt = time.indexOf('\t');
+            if (pt < 0) pt = time.indexOf("  ");
+            if (pt >= 0) time = time.substring(0,pt).trim();
+            setDateTime(DATE_TIME_FMT, time, data);
+          }
+        }
+        if (field.indexOf("Cleared at:") >= 0) data.msgType = MsgType.RUN_REPORT;
+        field = "  " + field.replace("\t", "\n  ");
+      }
+      timeInfo = append(timeInfo, "\n", field);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "UNIT DATE TIME INFO";
+    }
+  }
+  
+  private void addUnit(String unit, Data data) {
+    if (unitSet.add(unit)) data.strUnit = append(data.strUnit, " ", unit);
   }
   
   private static final Pattern DEMOTE_CITY_PTN = 

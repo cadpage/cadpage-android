@@ -172,7 +172,7 @@ choyvp pynff PNFnaYhvfBovfcbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:15-038825",
         "PNYY:Nffvfg Bgure Ntrapl Sver - IRT SVER",
         "NQQE:4800 UJL 46 J & 500 A TERRA INYYRL EQ",
-        "ZNQQE:4800 UJL 46 J",
+        "ZNQQE:4800 UJL 46 J", //qbrf abg znc
         "HAVG:FYSQ4 FYSQOP2");
 
     qbGrfg("G4",
@@ -1156,7 +1156,7 @@ choyvp pynff PNFnaYhvfBovfcbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:15-038400",
         "PNYY:Zrqvpny - OHF FGBC, P3 SRZ FGNGRF FUR JNF UNIVAT N FRVMHER",
         "NQQE:2200 OEBNQ OYBPX BS",
-        "ZNQQE:2200 OEBNQ BS",
+        "ZNQQE:2200 OEBNQ",
         "PVGL:Fna Yhvf Bovfcb",
         "HAVG:FYSQ4");
 

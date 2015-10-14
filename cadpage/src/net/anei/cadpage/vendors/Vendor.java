@@ -1,5 +1,8 @@
 package net.anei.cadpage.vendors;
 
+import java.text.DateFormat;
+import java.util.Date;
+
 import net.anei.cadpage.C2DMService;
 import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.ContentQuery;
@@ -285,6 +288,9 @@ abstract class Vendor {
     textPage = prefs.getBoolean("textPage", false);
     disableTextPageCheck = prefs.getBoolean("disableTextPageCheck", false);
     
+    long lastTime = prefs.getLong("lastContactTime", 0L);
+    if (enabled && lastTime == 0) updateLastContactTime();
+    
     publishAccountInfo(context);
   }
   
@@ -305,6 +311,12 @@ abstract class Vendor {
     editor.putString("account", account);
     editor.putString("token", token);
     editor.putString("dispatchEmail", emailAddress);
+    editor.commit();
+  }
+  
+  void updateLastContactTime() {
+    SharedPreferences.Editor editor = prefs.edit();
+    editor.putLong("lastContactTime", new Date().getTime());
     editor.commit();
   }
   
@@ -349,6 +361,12 @@ abstract class Vendor {
     sb.append("\naccount:" + account);
     sb.append("\ntoken:" + token);
     if (emailAddress != null) sb.append("\ndispatchEmail:" + emailAddress);
+    long lastContactTime = prefs.getLong("lastContactTime", 0L);
+    String timeStr = "NEVER";
+    if (lastContactTime > 0) {
+      timeStr = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT).format(new Date(lastContactTime));
+    }
+    sb.append("\nlastContactTime:" + timeStr);
   }
 
   /**

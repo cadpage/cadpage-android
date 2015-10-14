@@ -143,8 +143,8 @@ choyvp pynff ZBFgbqqneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:FVPXARFF",
         "CEV:UVTU",
-        "NQQE:21366 FGNGR UVTUJNL NO",
-        "ZNQQE:21366 FGNGR NO",
+        "NQQE:21366 FGNGR UVTUJNL NO", 
+        "ZNQQE:21366 FGNGR NO", //qbrf abg znc
         "PVGL:FGBQQNEQ PBHAGL",
         "K:PBHAGL EBNQ 506 0.35 zv J DHNEEL EQ 0.02 zv R",
         "FEP:OYSQ-1FGN",

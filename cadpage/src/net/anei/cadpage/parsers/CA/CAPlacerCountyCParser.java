@@ -7,7 +7,8 @@ public class CAPlacerCountyCParser extends FieldProgramParser {
   
   public CAPlacerCountyCParser() {
     super(CITY_LIST, "PLACER COUNTY", "CA", 
-          "CALL ADDR CODE UNIT UNIT/CS INFO+? ID!");
+          "( SELECT/1 CALL! Address:ADDR! Common_Name:PLACE! XStreets:X! Additional_Location_Info:INFO! Assigned_Units:UNIT! Quadrant:MAP! District:MAP/S! Beat:MAP/S! Incident:ID! Narrative:INFO! " + 
+          "| CALL ADDR CODE UNIT UNIT/CS INFO+? ID! )");
   }
   
   @Override
@@ -18,7 +19,14 @@ public class CAPlacerCountyCParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Dispatch")) return false;
-    return parseFields(body.split("\n"), data);
+    
+    if (body.indexOf(" Address:") >= 0) {
+      setSelectValue("1");
+      return super.parseMsg(body, data);
+    }  else {
+      setSelectValue("2");
+      return parseFields(body.split("\n"), data);
+    }
   }
   
   @Override
@@ -33,13 +41,19 @@ public class CAPlacerCountyCParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       int pt = field.indexOf(',');
-      if (pt < 0) abort();
-      parseAddress(StartType.START_ADDR, FLAG_NO_CITY | FLAG_RECHECK_APT | FLAG_ANCHOR_END, 
-                   field.substring(0,pt).trim(), data);
-      String city =field.substring(pt+1).trim();
-      parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, city, data);
-      if (data.strCity.length() == 0) abort();
-      data.strPlace = getLeft();
+      if (pt >= 0) {
+        String addr = field.substring(0,pt).replace('@',  '&');
+        String city =field.substring(pt+1).trim();
+        parseAddress(StartType.START_ADDR, FLAG_NO_CITY | FLAG_RECHECK_APT | FLAG_ANCHOR_END, 
+                     addr, data);
+        parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, city, data);
+        if (data.strCity.length() == 0) abort();
+        data.strPlace = getLeft();
+      } else {
+        field = field.replace('@', '&');
+        parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT, field, data);
+        data.strPlace = getLeft();
+      }
     }
     
     @Override

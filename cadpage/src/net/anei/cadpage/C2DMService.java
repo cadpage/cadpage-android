@@ -143,6 +143,9 @@ public class C2DMService extends IntentService {
       String vendorCode = intent.getStringExtra("vendor");
       if (vendorCode == null) vendorCode = intent.getStringExtra("sponsor");
       
+      // Whatever it is, update vendor contact time
+      VendorManager.instance().updateLastContactTime(vendorCode);
+      
       // See what kind of message this is
       String type = intent.getStringExtra("type");
       if (type == null) type = "PAGE";

@@ -112,6 +112,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
       return address;
     }
     
+    address = address.replace("24671 STOVALL LN", "24617 STOVALL LN");
     if (apt.length() > 0) {
       apt = apt.toUpperCase();
       if (apt.startsWith("LOT")) apt = apt.substring(3).trim();
@@ -785,6 +786,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
       "1284 N 19TH ST",            "PhilomathMaps/FOREST_MEADOW.pdf",
       "502 N 8TH ST",              "PhilomathMaps/GRAND_VIEW_MOBILE_PARK.pdf",
       "24617 STOVALL LN",          "PhilomathMaps/TIMsMOBILE_HOME_PARK.pdf",
+      "24671 STOVALL LN",          "PhilomathMaps/TIMsMOBILE_HOME_PARK.pdf",
       "BARLOW RD",                 "PhilomathMaps/Pioneer Village.pdf",
       "CLARK DR",                  "PhilomathMaps/Pioneer Village.pdf",
       "CLARK PL",                  "PhilomathMaps/Pioneer Village.pdf",

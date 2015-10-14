@@ -475,7 +475,8 @@ Take care,
 Jean ~ Cadpage Administrator
 
 ******************************************************************
-Subsequent $10 payments are set up as maintenance fees. 
+Subsequent $10 payments are set up as maintenance fees.   If you stop installing  the weekly Cadpage updates when the subscription expires, you are not required to pay for subsequent years.
+
  You can continue to use Cadpage after the expiration date as long as you do not install a release published after that date.
  
 ******************************************************************
@@ -516,7 +517,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-CQYAQIGA or cqyaqiga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+YURNRBCA or yurnrbca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support, 
 Jean ~ Cadpage Administrator
@@ -683,7 +684,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-BZCAXCBA or bzcaxcba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+AQROVKFA or aqrovkfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support, 
 Jean ~ Cadpage Administrator
@@ -1167,13 +1168,11 @@ First, you can go into Cadpage settings and select
 Direct Paging Vendors > Reconnect Direct Paging
 We do not know why, but doing this usually fixes this kind of problem.
 
-Then get whoever sets up your device with Active911 to use the Active911 web page to send a test message to your phone.  
+Then get whoever sets up your device with Active911 to use the Active911 web page to send a test message to your phone. 
 
-If you do get the test page, but still do not receive real dispatch alerts, then something about your Active911 settings is preventing them from sending dispatch pages to you.  If your department Active911 administrator cannot figure out what that is, try contacting Active911 support for help.
+If you do get the test page, but still do not receive real dispatch alerts, then something about your Active911 settings, probably the duty status, is preventing them from sending dispatch pages to you.  If your department Active911 administrator cannot figure out what that is, try contacting Active911 support for help.
 
 If the test message does not arrive in a timely manner, there is some kind of problem with the underlying Google message push protocol.  Try  turning off your phone WiFi and see if alerts can be delivered while you are connected to the mobile carrier data network.  If this works, there is probably a firewall on your WiFi access point that is blocking outgoing connections to ports 5228-5230.  If you cannot do anything to fix that, you may have to disable access to that access point.
-
-Hopefully something will get things working.  If none of this works, then we may need to ask Google for help resolving the issue.
 
 Good luck,
 -Ken

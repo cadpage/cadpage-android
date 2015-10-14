@@ -561,6 +561,15 @@ public class VendorManager {
   }
   
   /**
+   * Update last contact time for specified vendor
+   * @param vendorCode vendor code
+   */
+  public void updateLastContactTime(String vendorCode) {
+    Vendor vendor = findVendor(vendorCode);
+    if (vendor != null) vendor.updateLastContactTime();
+  }
+  
+  /**
    * Find vendor with matching vendor code
    * @param vendorCode vendor code
    * @return matching vendor object, or null if none found.

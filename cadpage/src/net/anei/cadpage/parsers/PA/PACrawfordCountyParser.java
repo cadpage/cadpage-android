@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchB3Parser;
 
 public class PACrawfordCountyParser extends DispatchB3Parser {
   
-  private static final Pattern PREFIX_PTN = Pattern.compile("(?:CRAWFORD COUNTY +911 )?(?:CRAWFORD_COUNTY_911:|OESCAD:|OESCAD@WINDSTREAM.NET:)");
+  private static final Pattern PREFIX_PTN = Pattern.compile("(?:CRAWFORD COUNTY +911:? )?(?:CRAWFORD_COUNTY_911:|OESCAD:|OESCAD@WINDSTREAM.NET:)");
 
   public PACrawfordCountyParser() {
     super(PREFIX_PTN, CITY_LIST, "CRAWFORD COUNTY", "PA");
@@ -43,7 +43,7 @@ public class PACrawfordCountyParser extends DispatchB3Parser {
 
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    int pt = body.indexOf(" Reply STOP ");
+    int pt = body.indexOf("Reply STOP ");
     if (pt >= 0) body = body.substring(0,pt).trim();
     
     if (subject.length() > 0) {
