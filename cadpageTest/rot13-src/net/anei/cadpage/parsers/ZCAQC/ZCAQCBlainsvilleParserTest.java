@@ -9,98 +9,106 @@ vzcbeg bet.whavg.Grfg;
 Pbagnpg: Npgvir911
 Ntrapl anzr: FFVO
 Ybpngvba: Oynvaivyyr, Dhéorp, Pnanqn
-Fraqre: 911 <911@Ivyyr.Oynvaivyyr.dp.pn>
 Fraqre: <911@ivyyr.oynvaivyyr.dp.pn>
-Fraqre: =?vfb-8859-1?D?F=R9onfgvra_O=R9qneq?= <Fronfgvra.Orqneq@Ivyyr.Oynvaivyyr.dp.pn>
+Fraqre: 911 <911@Ivyyr.Oynvaivyyr.dp.pn>
 
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 35 104R NI R \aPVGL: Oynvaivyyr \aPNYY: Q�irefrzrag qr cebqhvg (rkg) \a\aGVZR: 14:15:26 \a, png 1 , mbar P8-65 , cevbevgr 2
-(Prager 911) NQQE: 0  NFFVFGNAPR FGR-GURERFR (FHQ IBVR SREERR)  \a PVGL: Oynvaivyyr  \a PNYY: Fgnaq ol - Fgr-Gu�e�fr  \a  \a GVZR: '11:45:21'  \a VASB: 10-40 (EGO) , zft genafzvf n 12:06:47 , mbar P7-11 , cevbevgr 3 , avirnh q'nyregr 10-121
-(Prager 911) NQQE: 0  NFFVFGNAPR FGR-GURERFR (FHQ IBVR SREERR)  \a PVGL: Oynvaivyyr  \a PNYY: Fgnaq ol - Fgr-Gu�e�fr  \a  \a GVZR: '11:45:21'  \a VASB: 10-40 (EGO) , zft genafzvf n 11:48:09 , mbar P7-11 , cevbevgr 3 , avirnh q'nyregr 10-121
-(Prager 911) NQQE: 0  NFFVFGNAPR FGR-GURERFR (FHQ IBVR SREERR)  \a PVGL: Oynvaivyyr  \a PNYY: Fgnaq ol - Fgr-Gu�e�fr  \a  \a GVZR: '11:45:21'  \a VASB: 10-40 (EGO) , zft genafzvf n 11:45:50 , mbar P7-11 , cevbevgr 3
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 0 NFFVFGNAPR FGR-GURERFR (FHQ IBVR SREERR) \aPVGL: Oynvaivyyr \aPNYY: Fgnaq ol - Fgr-Gu�e�fr \a\aGVZR: 11:45:21 \a, mbar P7-11 , cevbevgr 3
-(Prager 911) Fgnghg q'nccry: E�cnegv 54R NI R / PHER YNORYYR OBHY QH \aPVGL: Oynvaivyyr \aPNYY: Srh - Q�oevf, cbhoryyrf (rkg) \a\aGVZR: 23:57:55 \a, mbar P8-61 , cevbevgr 2
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 50 FRVTARHEVR B OBHY QR YN \aPVGL: Oynvaivyyr \aPNYY: Srh - Q�oevf, cbhoryyrf (rkg) \aCYNPR: PNANQVNA GVER RFFRAPR+ - GVZ UBEGBAF (FRVTARHEVR) \aGVZR: 23:48:17 \a, png 3 , mbar P8-34 , cevbevgr 2
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 200 ZNEVR PUNCYRNH EHR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Cnaarnh \aCYNPR: RPBYR FRPBAQNVER URAEV-QHANAG \aGVZR: 19:48:00 \a, png 4 , mbar P8-51 , cevbevgr 2
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 871 PHER YNORYYR OBHY QH \aPVGL: Oynvaivyyr \aPNYY: Shvgr / Bqrhe - Nhger (png) \a\aGVZR: 16:49:10 \a, png 1 , mbar P8-51 , cevbevgr 2
-(Prager 911) Fgnghg q'nccry: Pe�� NQQE: 24 GNYRAGF EHR QRF \aPVGL: Oynvaivyyr \aPNYY: Neoer svy - Zbl. grafvba fnaf srh \aCYNPR: 24 GNYRAGF EHR QRF \aGVZR: 14:59:27 \a, png 1 , mbar P8-45 , cevbevgr 2
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 47 ENLZBAQ YNCNYVPR EHR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Shz�r \a\aGVZR: 08:20:57 \a, png 1 , mbar P7-11 , cevbevgr 2
-(Prager 911) Fgnghg q'nccry: Pe�� NQQE: 5 SNIBYRF EHR QRF \aPVGL: Oynvaivyyr \aPNYY: Neoer svy - Zbl. grafvba nirp srh \a\aGVZR: 21:40:00 \a, png 1 , mbar P8-21 , cevbevgr 1
-(Prager 911) Fgnghg q'nccry: Pe�� NQQE: 36 OBYRGF EHR QRF \aPVGL: Oynvaivyyr \aPNYY: Neoer svy - Zbl. grafvba nirp srh \a\aGVZR: 21:36:23 \a, png 1 , mbar P8-21 , cevbevgr 1
-(Prager 911) Fgnghg q'nccry: Fhe yrf yvrhk NQQE: 95 OEHAB QVBA EHR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Shz�r \a\aGVZR: 19:05:42 \a, mbar P8-61 , cevbevgr 2
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 95 OEHAB QVBA EHR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Shz�r \a\aGVZR: 19:05:42 \a, mbar P8-61 , cevbevgr 2
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 35 QR INHQERHVY EHR \aPVGL: Oynvaivyyr \aPNYY: Srh - O�gvzrag, phvffba \a\aGVZR: 19:02:06 \a, png 1 , mbar P8-41 , cevbevgr 1
-(Prager 911) Fgnghg q'nccry: Peéé OYI \a9-1-1 - Cnaar à yn pragenyr ( 9 )\a640 PHER YNORYYR OBHY QH Oynvaivyyr (Fnvag-Eéqrzcgrhe) \aFrpgrhe PRAGER-32 \aErph 2015-06-21 01:25:12 \a\aQrznaqrhe:
-(Prager 911) OBNG SVER;44.720515,-122.169883;QRGEBVG YNXR;Rirelbar vf qehax
-(Prager 911) PNYY: PNE PENFU\aCYNPR: Jraqlf\aNQQE: 123 UHPXYROREEL YA\aPVGL: OERZREGBA\aVQ: Fbzr vqragvsvre sbe guvf nynez (123456) \aCEV: Vagreany cevbevgl yriry (UVTU, N, 123, rgp)\aQNGR: PNQ qngr (10/17/2012)\aGVZR: PNQ gvzr (13:45:06)\aZNC: Znc cntr be ahzore: 123-456, Cntr 5, rgp\aHAVG: HAVG1, HAVG2, rgp\aVASB: Abgrf, qngn, bgure vasbezngvba
-(Prager 911) PNE PENFU;123 UHPXYROREEL YA;OERZREGBA;Bar iruvpyr vf ba vgf ebbs
-(Prager 911) P RFG HA GRFG Fgnghg q'nccry: Eécnegv NQQE: 957 CRGVG OBAURHE EHR QH PVGL: Oynvaivyyr PNYY: Shvgr / Bqrhe - Rffrapr (png) PNG: 1 GVZR: 20:13:02
-(Prager 911) Fgnghg q'nccry: Eécnegv NQQE: 957 CRGVG OBAURHE EHR QH PVGL: Oynvaivyyr PNYY: Shvgr / Bqrhe - Rffrapr (png) PNG: 1 GVZR: 20:13:02
-(Prager 911) NQQE: 865  ZVPURYR OBURP OBHY  \a PVGL: Oynvaivyyr  \a PNYY: Grfg q'nynezr vapraqvr  \a CYNPR: ARBCUNEZ YNOF  \a GVZR: '09:47:06'  \a VASB: 10-40 (ERAR UREANAQRM) , png 4 , zft genafzvf n 11:21:35 , mbar P8-71 , cevbevgr 9
-(Prager 911) PNYY: Grfg q'nynezr vapraqvr  \aCYNPR: ARBCUNEZ YNOF  \aNQQE: 865  ZVPURYR OBURP OBHY
-(Prager 911) PNYY: Grfg q'nynezr vapraqvr
-(Prager 911) PNYY: Grfg q'nynezr vapraqvr  \aCYNPR: ARBCUNEZ YNOF
-(Prager 911) PNYY: Grfg q'nynezr vapraqvr  \aCYNPR: ARBCUNEZ YNOF  \aNQQE: 865  ZVPURYR OBURP OBHY  \aPVGL: Oynvaivyyr
-(Prager 911) PNYY: Grfg q'nynezr vapraqvr  \aCYNPR: ARBCUNEZ YNOF  \aNQQE: 865  ZVPURYR OBURP OBHY  \aPVGL: Oynvaivyyr\aGVZR: '09:47:06'
-(Prager 911) PNYY: Grfg q'nynezr vapraqvr  \aCYNPR: ARBCUNEZ YNOF  \aNQQE: 865  ZVPURYR OBURP OBHY  \aPVGL: Oynvaivyyr\aGVZR: '09:47:06'  \aVASB: 10-40 (ERAR UREANAQRM) , png 4 , zft genafzvf n 11:17:51 , mbar P8-71 , cevbevgr 9
-(Prager 911) NQQE: 865  ZVPURYR OBURP OBHY;  \a PVGL: Oynvaivyyr;\a PNYY: Grfg q nynezr vapraqvr;\a CYNPR: ARBCUNEZ YNOF;\a GVZR: 09:47:06;\a VASB: 10-40 (ERAR UREANAQRM) , png 4 , zft genafzvf n 11:14:49 , mbar P8-71 , cevbevgr 9;
-(Prager 911) NQQE: 865  ZVPURYR OBURP OBHY  \a PVGL: Oynvaivyyr  \a PNYY: Grfg q nynezr vapraqvr  \a CYNPR: ARBCUNEZ YNOF  \a GVZR: 09:47:06\a VASB: 10-40 (ERAR UREANAQRM) , png 4 , zft genafzvf n 11:14:49 , mbar P8-71 , cevbevgr 9
-(Prager 911) NQQE: 865  ZVPURYR OBURP OBHY  \a PVGL: Oynvaivyyr  \a PNYY: Grfg q'nynezr vapraqvr  \a CYNPR: ARBCUNEZ YNOF  \a GVZR: 09:47:06
-(Prager 911) NQQE: 865  ZVPURYR OBURP OBHY  \a PVGL: Oynvaivyyr  \a PNYY: Grfg q'nynezr vapraqvr  \a CYNPR: ARBCUNEZ YNOF  \a GVZR: '09:47:06'
-(Prager 911) NQQE: 865  ZVPURYR OBURP OBHY  \a PVGL: Oynvaivyyr  \a PNYY: Grfg q'nynezr vapraqvr  \a CYNPR: ARBCUNEZ YNOF  \a GVZR: '09:47:06'  \a VASB: 10-40 (ERAR UREANAQRM) , png 4 , zft genafzvf n 11:10:57 , mbar P8-71 , cevbevgr 9
-(Prager 911) NQQE: 865  ZVPURYR OBURP OBHY  \a PVGL: Oynvaivyyr  \a PNYY: Grfg q'nynezr vapraqvr  \a CYNPR: ARBCUNEZ YNOF  \a  \a VASB: 10-40 (ERAR UREANAQRM) , png 4 , zft genafzvf n 11:08:52 , mbar P8-71 , cevbevgr 9
-(Prager 911) NQQE: 865  ZVPURYR OBURP OBHY  \a PVGL: Oynvaivyyr  \a PNYY: Grfg q'nynezr vapraqvr  \a CYNPR: ARBCUNEZ YNOF  \a GVZR: '09:47:06'  \a VASB: 10-40 (ERAR UREANAQRM) , png 4 , zft genafzvf n 11:06:50 , mbar P8-71 , cevbevgr 9
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 22 YVZBHFVA EHR QH \aPVGL: Oynvaivyyr \aPNYY: Shvgr / Bqrhe - Tnm cebcnar (rkg) \a\aGVZR: 11:02:38 \a\a, png 1 \a\a, mbar P8-63 \a, cevbevgr 2
-(Prager 911) NQQE: 865  ZVPURYR OBURP OBHY  \a PVGL: Oynvaivyyr  \a PNYY: Grfg q'nynezr vapraqvr  \a CYNPR: ARBCUNEZ YNOF  \a GVZR: '09:47:06'  \a , 10-40 (ERAR UREANAQRM)  \a , png 4  \a , zft genafzvf n 11:00:34  \a , mbar P8-71  \a , cevbevgr 9
-(Prager 911) NQQE: 865  ZVPURYR OBURP OBHY  \a PVGL: Oynvaivyyr  \a PNYY: Grfg q'nynezr vapraqvr  \a CYNPR: ARBCUNEZ YNOF  \a PNG: 4  \a VASB: 10-40 (ERAR UREANAQRM)  \a GVZR: '09:47:06'  \a VASB: zft genafzvf n 10:52:26  \a VASB: mbar P8-71  \a VASB: cevbevgr 9
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 23 EVPURYVRH EHR QR \aPVGL: Oynvaivyyr \aPNYY: Genafsbezngrhe �yrpgevdhr / Cbgrnh \a\aPNG: 1 \a\aGVZR: 10:17:03 \a\aMBAR: P7-13 \aCEV: 2
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 168 SBAGRARYYR EHR QR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \a\aPNG: 1 \a\aURHER NCCRY: 02:08:21 \a\aMBAR: P7-12 \aCEV: 2
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 1147 EVPUNEQ EHR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Shz�r \a\aPNG: 1 \a\aURHER NCCRY: 18:54:28 \a\aMBAR: P8-53 \aCEV: 2
-(Prager 911) NFFVFGNAPR FGR-GURERFR (FHQ IBVR SREERR)  \a PVGL: Oynvaivyyr  \a PNYY: Nppvqrag - Q�fvapnep�engvba / cvaprf  \a  \a  \a VASB: 10-121 10-40: (N640, XZ 27)  \a URHER NCCRY: '18:15:19'  \a ZFT GENAFZVF N: 18:19:18  \a MBAR: P7-11  \a CEV: 1
-(Prager 911) Fgnghg q'nccry: E�cnegv NFFVFGNAPR FGR-GURERFR (FHQ IBVR SREERR) \aPVGL: Oynvaivyyr \aPNYY: Nppvqrag - Q�fvapnep�engvba / cvaprf \a\a\a\aURHER NCCRY: 18:15:19 \a\aMBAR: P7-11 \aCEV: 1
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 27XZ N-640 B \aPVGL: Oynvaivyyr \aPNYY: Nppvqrag - Q�fvapnep�engvba / cvaprf \aCYNPR: FBEGVR 26 - YBEENVAR - OBHY QR TNHYYR \a\a\aURHER NCCRY: 18:15:19 \a\aMBAR: P7-11 \aCEV: 1
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 22 19R NI B \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Cbfgr znahry \aCYNPR: TNEQREVR QRF C'GVGF PBRHE \aPNG: 3 \a\aURHER NCCRY: 15:17:09 \a\aMBAR: P8-33 \aCEV: 2
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 1226 WNPDHRF QRFEBFVREF EHR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Shz�r \a\aPNG: 1 \a\aURHER NCCRY: 12:33:14 \a\aMBAR: P8-53 \aCEV: 2
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 957 CRGVG OBAURHE EHR QH \aPVGL: Oynvaivyyr \aPNYY: Shvgr / Bqrhe - Rffrapr (png) \a\aPNG: 1 \aGVZR: 20:13:02
-(Prager 911) Fgnghg q'nccry: Pe�� NQQE: 942 CRGVG OBAURHE EHR QH \aPVGL: Oynvaivyyr \aPNYY: Neoer svy - Onffr grafvba fnaf srh \a\aPNG: 1 \aGVZR: 16:39:06
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 899 PHER YNORYYR OBHY QH \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \aCYNPR: TNEQRVER CNF N CNF \aPNG: 4 \aGVZR: 15:47:26
-(Prager 911) Zrffntrevr qr ergbhe. Obaar wbhea�r!
-(Prager 911) Grfg qr zrffntrevr. Ar cnf e�cbaqer.
-NQQE: 586  PHER YNORYYR OBHY QH  \a PVGL: Oynvaivyyr  \a PNYY: Nynezr vap - Nhger  \a CYNPR: TRARENY FUREZNA (NAPVRA TBYQRA AVTUG PYHO)  \a PNG: 4  \a 10-40 () GVZR: '13:53:06'
-NQQE: 83  IVBYRGGRF EHR QRF\a PVGL: Oynvaivyyr\a PNYY: Srh - O�gvzrag, phvffba\a\a PNG: 1\a  10-22 10-40 ,OYNVAIVYYR 83 QRF IVBYRGGRF (RYVMNORGU) GVZR: '13:35:27'\aVASB : Raibv znahry cbhe yr grfg q'Npgvir 9-1-1
-(Prager 911) Fgnghg q'nccry: Pe�� NQQE: 1433 WRNA CNHY EVBCRYYR EHR \aPVGL: Oynvaivyyr \aPNYY: Neoer svy - Zbl. grafvba nirp srh \a\a\aGVZR: 21:19:58
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 25XZ N-15 A \aPVGL: Oynvaivyyr \aPNYY: Srh - I�uvphyr \a\a\aGVZR: 20:40:59
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 15 ORFNAGF EHR QRF \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Cnaarnh \a\aPNG: 1 \aGVZR: 20:13:23
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 583 PHER YNORYYR OBHY QH \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \aCYNPR: ONGGREVRF RKCREG \aPNG: 1 \aGVZR: 15:18:37
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 48 OENVAR EHR QR \aPVGL: Oynvaivyyr \aPNYY: Srh - Nhger (rkg) \a\aPNG: 1 \aGVZR: 12:32:09
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 867 PHER YNORYYR OBHY QH \aPVGL: Oynvaivyyr \aPNYY: I�evsvpngvba - Nhger (aba hetragr) \aCYNPR: YRF PBAQBF QH CYNGRNH QR YN TNER \a\aGVZR: 13:44:29
-(Prager 911) NQQE: 0  NFFVFGNAPR FGR-GURERFR (FHQ IBVR SREERR)  \a PVGL: Oynvaivyyr  \a PNYY: Fgnaq ol - Fgr-Gu�e�fr  \a  \a  \a VASB: 10-121 10-40 (EVCGO) GVZR: '14:44:54'
-(Prager 911) NQQE: 0  NFFVFGNAPR FGR-GURERFR (FHQ IBVR SREERR)  \a PVGL: Oynvaivyyr  \a PNYY: Fgnaq ol - Fgr-Gu�e�fr  \a  \a  \a VASB: 10-121 10-40 (EVCGO FGNAQ-OL PNFREAR FGR-GURERFR) GVZR: '14:44:54'
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 0 NFFVFGNAPR FGR-GURERFR (FHQ IBVR SREERR) \aPVGL: Oynvaivyyr \aPNYY: Fgnaq ol - Fgr-Gu�e�fr \a\a\aGVZR: 14:44:54
-(Prager 911) Fgnghg q'nccry: E�cnegv NQQE: 625 PHER YNORYYR OBHY QH \aPVGL: Oynvaivyyr \aPNYY: Shvgr / Bqrhe - Tnm cebcnar (png) \aCYNPR: ORAWNZVA ZBBER RKCERFFVBA QRPBE \aPNG: 3 \aGVZR: 09:24:04
-NQQE: 640 PHER YNORYYR OBHY QH\aPVGL: Oynvaivyyr\aPNYY: Grfg q'nynezr vapraqvr\aCYNPR: CBFGR QR CBYVPR (37R)\aEVFX: 4\aGVZR: 07:53:26
-NQQE: 640 PHER YNORYYR OBHY QH\aPVGL: Oynvaivyyr\aPNYY: Grfg q'nynezr vapraqvr\aCYNPR: CBFGR QR CBYVPR (37R)\aPNG: 4\aGVZR: 07:53:26
-NQQE: 640 PHER YNORYYR OBHY QH\aPVGL: Oynvaivyyr\aPNYY: Grfg q'nynezr vapraqvr\aCYNPR: CBFGR QR CBYVPR (37R)\aCEV: 4 Ge�f �yri�\aGVZR: 07:53:26
-(Prager 911) Fgnghg q'nccry: E�cnegv P8-53 : 38 YBHVF URZBA CY OYI ( 1 ) Svy gbzo� / onf, fnaf srh
-(Prager 911) Fgnghg q'nccry: E�cnegv P7-16 : 25XZ N-640 B OYI ) Srh - I�uvphyr
-(Prager 911) Fgnghg q'nccry: E�cnegv P8-45 : 125 OYNVAIVYYVRE EHR QH OYI ( 1 ) Nynezr vap - Shz�r
-ZIQY Y XQXXQSX X QXWXS QWXYQSY\a\aPNYY: Neoer svy - Pbz. fnaf srh\a\aCYNPR: Pns� Qrcbg\a\aNQQE: 57 85R NI B\a\aPVGL: OYI\aSQW XQS XQSX QSWX QS WXSWX WXS WXWX QSWX
-PNYY: Neoer svy - Pbz. fnaf srh\a\aNQQE: 57 85R NI B\a\aPVGL: OYNVAIVYYR
-PNYY: Neoer svy - Pbz. fnaf srh\a\aNQQE: 57 85R NI B\a\aPVGL: OYI
-PNYY: Neoer svy - Pbz. fnaf srh\aCYNPR: Pns� Qrcbg\aNQQE: 57 85R NI B\aPVGL: OYI
-PNYY: PNE PENFU\aCYNPR: Jraqlf\aNQQE: 640 YNORYYR\aPVGL: OYNVAIVYYR
-PNE PENFU;123 FRVTARHEVR;OYNVAIVYYR;Bar iruvpyr vf ba vgf ebbs
-PNE PENFU;640 PHER-YNORYYR;OERZREGBA;Bar iruvpyr vf ba vgf ebbs
-(PNE PENFU;123 UHPXYROREEL YA;OYNVAIVYYR;Bar iruvpyr vf ba vgf ebbs)
-(Nppvqrag nirp qrireffrzrag;640 Pher-Ynoryyr;Oynvaivyyr;cnf qr oyrffr)
-PNYY: PNE PENFU\aCYNPR: Jraqlf\aNQQE: 123 UHPXYROREEL YA\aPVGL: OERZREGBA\aVQ: Fbzr vqragvsvre sbe guvf nynez (123456)\aCEV: Vagreany cevbevgl yriry (UVTU, N, 123, rgp)\aQNGR: PNQ qngr (10/17/2012)\aGVZR: PNQ gvzr (13:45:06)\aZNC: Znc cntr be ahzore: 123-456, Cntr 5, rgp\aHAVG: HAVG1, HAVG2, rgp\aVASB: Abgrf, qngn, bgure vasbezngvba
-Neoer fhe svy;640 pher-ynoryyr;oynvaivyyr;
-(Neoer fhe sv;640 pher-ynoryyr;oynvaivyyr)
-(PNE PENFU;123 UHPXYROREEL YA;OERZREGBA;Bar iruvpyr vf ba vgf ebbs)
-Neoer fhe svy;640 obhy pher-ynoryyr;oynvaivyyr
-(Prager 911) Fgnghg q'nccry: E�cnegv P8-32 : 640 PHER YNORYYR OBHY QH OYI ( 4 ) Nynezr vap - Nhger
-(Prager 911) Rapber, cebpunva nccry nh 640 Ynoryyr rfg ha grfg
-(Prager 911) Fgnghg q'nccry: Pe�� P8-32 : 640 PHER YNORYYR OBHY QH OYI ( 4 ) Neoer svy - Onffr grafvba nirp srh
-(Prager 911) yr cebpunva nccry nh 640 Ynoryyr rfg ha grfg
+{Prager 911} PUNGRNHK OBHY QRF / RPBHRA EHR Q'  \a PVGL: Oynvaivyyr  \a PNYY: Shvgr / Bqrhe - Tnm anghery (png)  \a  \a GVZR: '10:11:57'  \a VASB: 10-07, 10-40 ,OYNVAIVYYR 219 PRYYHYNVER ((0 358 PURZVA QH ONF FG GURERFR, OYNVAIVYYR) 290 EBTREF JVER) , zft genafzvf n 10:22:28 , mbar P7-16 , cevbevgr 2 , avirnh q'nyregr 10-07
+{Prager 911} Fgnghg q'nccry: Pe�� NQQE: 17 EVGN UNEG EHR \aPVGL: Oynvaivyyr \aPNYY: Neoer svy - Zbl. grafvba nirp srh \a\aGVZR: 21:06:07 \a, png 1 , mbar P7-11 , cevbevgr 1
+{Prager 911} Fgnghg q'nccry: Pe�� NQQE: 36 FBEOVREF EHR QRF \aPVGL: Oynvaivyyr \aPNYY: Neoer svy - Zbl. grafvba nirp srh \aCYNPR: 36 FBEOVREF EHR QRF \aGVZR: 20:03:08 \a, png 1 , mbar P8-61 , cevbevgr 1
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 909 PHER YNORYYR OBHY QH \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \aCYNPR: TNEQREVR NH IVYYNTR QRF CBHCBAF \aGVZR: 19:29:56 \a, png 4 , mbar P8-51 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: Pe�� NQQE: 1087 ABEZNAQVR EHR QR YN \aPVGL: Oynvaivyyr \aPNYY: Neoer svy - Zbl. grafvba nirp srh \a\aGVZR: 15:11:35 \a, png 1 , mbar P8-62 , cevbevgr 1
+{Prager 911} Fgnghg q'nccry: Pe�� 1087, QR YN ABEZNAQVR  Neoer svy - Zbl. grafvba nirp srh
+{Prager 911} Fgnghg q'nccry: Pe�� NQQE: 161 CNHY NYOREG EHR \aPVGL: Oynvaivyyr \aPNYY: Neoer svy - Zbl. grafvba nirp srh \a\aGVZR: 13:30:11 \a, png 1 , mbar P7-26 , cevbevgr 1
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 37 WBHGRY EHR QR \aPVGL: Oynvaivyyr \aPNYY: Svy gbzo� / onf, fnaf srh \a\aGVZR: 11:25:27 \a, png 1 , mbar P7-11 , cevbevgr 3
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 37 WBHGRY EHR QR \aPVGL: Oynvaivyyr \aPNYY: I�evsvpngvba - Nhger (aba hetragr) \a\aGVZR: 11:25:27 \a, png 1 , mbar P7-11 , cevbevgr 4
+{Prager 911} Fgnghg q'nccry: Ra ebhgr NQQE: 909 PHER YNORYYR OBHY QH \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \aCYNPR: TNEQREVR NH IVYYNTR QRF CBHCBAF \aGVZR: 15:15:34 \a, png 4 , mbar P8-51 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 909 PHER YNORYYR OBHY QH \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \aCYNPR: TNEQREVR NH IVYYNTR QRF CBHCBAF \aGVZR: 15:15:34 \a, png 4 , mbar P8-51 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 396 NEGUHE OVTENF EHR \aPVGL: Oynvaivyyr \aPNYY: Srh - Q�oevf, cbhoryyrf (rkg) \aCYNPR: CNEP NEGUHE OVTENF \aGVZR: 20:04:21 \a, mbar P8-25 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 1146 PRYBEBA OBHY \aPVGL: Oynvaivyyr \aPNYY: I�evsvpngvba - Nhger (aba hetragr) \a\aGVZR: 06:13:51 \a, png 1 , mbar P8-42 , cevbevgr 4
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 27 92R NI B \aPVGL: Oynvaivyyr \aPNYY: Shvgr / Bqrhe - Tnm anghery (rkg) \a\aGVZR: 18:00:20 \a, png 1 , mbar P8-53 , cevbevgr 2
+{Prager 911} NQQE: 0  NFFVFGNAPR EBFRZRER  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '02:06:36'  \a VASB: 10-40 (257 JVYYBJGERR EBFRZRER) , zft genafzvf n 04:47:04 , mbar P7-11 , cevbevgr 1 , avirnh q'nyregr 10-121
+{Prager 911} NQQE: 0  NFFVFGNAPR EBFRZRER  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '02:06:36'  \a VASB: 10-40 (257 JVYYBJGERR EBFRZRER) , zft genafzvf n 04:45:13 , mbar P7-11 , cevbevgr 1 , avirnh q'nyregr 10-121
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 0 NFFVFGNAPR EBFRZRER \aPVGL: Oynvaivyyr \aPNYY: Srh - O�gvzrag \a\aGVZR: 02:06:36 \a, mbar P7-11 , cevbevgr 1 , avirnh q'nyregr 10-121
+{Prager 911} NQQE: 0  NFFVFGNAPR EBFRZRER  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '02:06:36'  \a VASB: 10-40 (257 JVYYBJGERR EBFRZRER) , zft genafzvf n 02:40:32 , mbar P7-11 , cevbevgr 1 , avirnh q'nyregr 10-121
+{Prager 911} NQQE: 0  NFFVFGNAPR EBFRZRER  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '02:06:36'  \a VASB: 10-40 (257 JVYYBJGERR EBFRZRER) , zft genafzvf n 02:12:03 , mbar P7-11 , cevbevgr 1 , avirnh q'nyregr 10-121
+{Prager 911} NQQE: 0  NFFVFGNAPR EBFRZRER  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '02:06:36'  \a VASB: 10-40 (257 JVYYBJGERR EBFRZER) , zft genafzvf n 02:07:48 , mbar P7-11 , cevbevgr 1
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 0 NFFVFGNAPR EBFRZRER \aPVGL: Oynvaivyyr \aPNYY: Srh - O�gvzrag \a\aGVZR: 02:06:36 \a, mbar P7-11 , cevbevgr 1
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 16 39R NI R \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Shz�r \a\aGVZR: 17:56:53 \a, png 1 , mbar P8-32 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 301 ONF QR FGR GURERFR PU QH \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \aCYNPR: CEBWRG RYLFRR \aGVZR: 19:54:04 \a, png 4 , mbar P7-11 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 1083 PHER YNORYYR OBHY QH \aPVGL: Oynvaivyyr \aPNYY: Srh - Punzc, oebhffnvyyrf, sbe�g \aCYNPR: ZNKV \aGVZR: 14:43:56 \a, png 4 , mbar P8-52 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 1003 ZNVEVR EHR QR YN \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \aCYNPR: ABHIRYYR OVOYVBGURDHR (CNHY ZREPVRE) \aGVZR: 10:48:25 \a, png 3 , mbar P8-61 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 35 CRHCYVREF EHR QRF \aPVGL: Oynvaivyyr \aPNYY: I�evsvpngvba - Nhger (aba hetragr) \aCYNPR: 35 CRHCYVREF EHR QRF \aGVZR: 17:42:53 \a, png 1 , mbar P8-61 , cevbevgr 4
+{Prager 911} NFFVFGNAPR FG-RHFGNPUR  \a PVGL: Oynvaivyyr  \a PNYY: Nffvfgnapr vapraqvr - �dhvcr UNMZNG (zngv�erf qnatrerhfrf)  \a  \a GVZR: '10:47:52'  \a VASB: 10-40 (20 VAQHFGEVRY ( PNFREAR FG-RHFGNPUR)) , zft genafzvf n 12:51:37 , mbar P7-11 , cevbevgr 1 , avirnh q'nyregr 10-13
+{Prager 911} NFFVFGNAPR FG-RHFGNPUR  \a PVGL: Oynvaivyyr  \a PNYY: Nffvfgnapr vapraqvr - �dhvcr UNMZNG (zngv�erf qnatrerhfrf)  \a  \a GVZR: '10:47:52'  \a VASB: 10-40 (20 VAQHFGEVRY ( PNFREAR FG-RHFGNPUR)) , zft genafzvf n 11:41:33 , mbar P7-11 , cevbevgr 1 , avirnh q'nyregr 10-121
+{Prager 911} NFFVFGNAPR FG-RHFGNPUR  \a PVGL: Oynvaivyyr  \a PNYY: Nffvfgnapr vapraqvr - �dhvcr UNMZNG (zngv�erf qnatrerhfrf)  \a  \a GVZR: '10:47:52'  \a VASB: 10-40 (20 VAQHFGEVRY ( PNFREAR FG-RHFGNPUR)) , zft genafzvf n 11:26:08 , mbar P7-11 , cevbevgr 1 , avirnh q'nyregr 10-121
+{Prager 911} NFFVFGNAPR FG-RHFGNPUR  \a PVGL: Oynvaivyyr  \a PNYY: Nffvfgnapr vapraqvr - �dhvcr UNMZNG (zngv�erf qnatrerhfrf)  \a  \a GVZR: '10:47:52'  \a VASB: 10-40 PNFREAR FG RHFGNPUR (BC 244) , zft genafzvf n 11:03:41 , mbar P7-11 , cevbevgr 1 , avirnh q'nyregr 10-121
+{Prager 911} Fgnghg q'nccry: E�cnegv NFFVFGNAPR FG-RHFGNPUR \aPVGL: Oynvaivyyr \aPNYY: Nffvfgnapr vapraqvr - �dhvcr UNMZNG (zngv�erf qnatrerhfrf) \a\aGVZR: 10:47:52 \a, mbar P7-11 , cevbevgr 1
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '07:42:05'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (OBHNYRZ ORA OBHQNBHQ) , png 1 , zft genafzvf n 09:09:58 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-10 , avirnh q'ribyhgvba 10-11
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '07:42:05'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (OBHNYRZ ORA OBHQNBHQ) , png 1 , zft genafzvf n 08:01:40 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-121
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '07:42:05'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (OBHNYRZ ORA OBHQNBHQ) , png 1 , zft genafzvf n 07:47:55 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-07
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 37 CRHCYVREF EHR QRF \aPVGL: Oynvaivyyr \aPNYY: Srh - O�gvzrag \a\aGVZR: 07:42:05 \a, png 1 , mbar P8-61 , cevbevgr 1
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 34 GBHEABVF EHR QRF \aPVGL: Oynvaivyyr \aPNYY: Shvgr / Bqrhe - Nhger (png) \a\aGVZR: 05:29:03 \a, png 1 , mbar P8-45 , cevbevgr 2
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 21:11:00 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-10
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 20:30:03 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-08
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 20:10:51 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-08
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 19:16:16 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-08
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 19:06:14 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-08
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 18:50:32 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-08
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 18:34:25 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-08
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 18:16:20 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-09
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 18:06:13 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-09
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 17:55:47 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-09
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 17:50:01 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-14U
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 17:43:42 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-09
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 17:34:05 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-14U
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 17:32:15 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-09
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 17:20:17 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-07
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 17:19:47 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-09
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 17:17:32 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-13
+{Prager 911} NQQE: 37  CRHCYVREF EHR QRF  \a PVGL: Oynvaivyyr  \a PNYY: Srh - O�gvzrag  \a  \a GVZR: '17:09:58'  \a VASB: 10-40 ,OYNVAIVYYR 39 QRF CRHCYVREF (IBVFVA) , png 1 , zft genafzvf n 17:15:26 , mbar P8-61 , cevbevgr 1 , avirnh q'nyregr 10-122
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 39 CRHCYVREF EHR QRF \aPVGL: Oynvaivyyr \aPNYY: Srh - O�gvzrag \aCYNPR: 39 CRHCYVREF EHR QRF \aGVZR: 17:09:58 \a, png 1 , mbar P8-61 , cevbevgr 1
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 26 WBFFRYVA EHR QR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Zbabklqr qr pneobar / PB2 \a\aGVZR: 07:17:06 \a, png 1 , mbar P7-14 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: Pe�� NQQE: 39 FNEPRYYRF EHR QRF \aPVGL: Oynvaivyyr \aPNYY: Neoer svy - Pbz. fnaf srh \aCYNPR: 39 FNEPRYYRF EHR QRF \aGVZR: 19:14:10 \a, png 1 , mbar P8-53 , cevbevgr 3
+{Prager 911} Fgnghg q'nccry: E�cnegv PBGR FG YBHVF R PU QR YN / TNGVARNH EHR QR \aPVGL: Oynvaivyyr \aPNYY: Q�irefrzrag qr cebqhvg (rkg) \a\aGVZR: 10:06:29 \a, mbar P8-24 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 9 ENLZBAQ YNCNYVPR EHR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Shz�r \a\aGVZR: 04:11:29 \a, png 1 , mbar P7-11 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv ZVPURYR OBURP OBHY / FRVTARHEVR B OBHY QR YN \aPVGL: Oynvaivyyr \aPNYY: Nppvqrag - Vzcnpg � unhgr i�ybpvg� \a\aGVZR: 17:04:49 \a, mbar P8-35 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 28XZ N-15 A \aPVGL: Oynvaivyyr \aPNYY: Srh - I�uvphyr \aCYNPR: FBEGVR 28 - OYNVAIVYYR - OBHY ZVPURYR OBURP \aGVZR: 08:13:45 \a, mbar P8-23 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: Pe�� NQQE: 75 TEVIRF EHR QRF \aPVGL: Oynvaivyyr \aPNYY: Neoer svy - Zbl. grafvba nirp srh \a\aGVZR: 21:32:38 \a, png 1 , mbar P8-53 , cevbevgr 1
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 2 QNZCVREER EHR QR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Zbabklqr qr pneobar / PB2 \a\aGVZR: 15:45:14 \a, mbar P7-12 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 29 UNIER EHR QH \aPVGL: Oynvaivyyr \aPNYY: Srh - O�gvzrag , q�oevf / cbhoryyrf \a\aGVZR: 21:08:33 \a, png 1 , mbar P8-54 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv PHER YNORYYR OBHY QH / FRVTARHEVR R OBHY QR YN \aPVGL: Oynvaivyyr \aPNYY: Nppvqrag - Q�irefrzrag \a\aGVZR: 22:42:10 \a, mbar P8-32 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 11 PNZNETHNVF EHR QH \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Shz�r \a\aGVZR: 20:45:28 \a, png 1 , mbar P8-43 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 11 YRBCBYQ ORFARE EHR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Shz�r \a\aGVZR: 17:26:00 \a, png 1 , mbar P8-51 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: Fhe yrf yvrhk NQQE: 22 EVPURYVRH EHR QR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \a\aGVZR: 15:24:21 \a, png 1 , mbar P7-13 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 22 EVPURYVRH EHR QR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \a\aGVZR: 15:24:21 \a, png 1 , mbar P7-13 , cevbevgr 2
+{Prager 911} NQQE: 1226  PHER YNORYYR OBHY QH  \a PVGL: Oynvaivyyr  \a PNYY: Nffvfgnapr vapraqvr - Pbecf cbyvpvre  \a CYNPR: TNENTR FG-YBHVF  \a GVZR: '10:43:38'  \a VASB: 10-40 (9-3 YG GUVORNHYG 95) , png 4 , zft genafzvf n 12:08:14 , mbar P8-63 , cevbevgr 3 , avirnh q'nyregr 10-121
+{Prager 911} NQQE: 1226  PHER YNORYYR OBHY QH  \a PVGL: Oynvaivyyr  \a PNYY: Nffvfgnapr vapraqvr - Pbecf cbyvpvre  \a CYNPR: TNENTR FG-YBHVF  \a GVZR: '10:43:38'  \a VASB: 10-40 (9-3 YG GUVORNHYG 95) , png 4 , zft genafzvf n 11:32:28 , mbar P8-63 , cevbevgr 3 , avirnh q'nyregr 10-121
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 1226 PHER YNORYYR OBHY QH \aPVGL: Oynvaivyyr \aPNYY: Nffvfgnapr vapraqvr - Pbecf cbyvpvre \aCYNPR: TNENTR FG-YBHVF \aGVZR: 10:43:38 \a, png 4 , mbar P8-63 , cevbevgr 3
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 832 PHER YNORYYR OBHY QH \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \aCYNPR: YRF CEBQHVGF W & Y. VAP. \aGVZR: 05:16:32 \a, png 3 , mbar P8-51 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: Fhe yrf yvrhk NQQE: 651 VAQHFGEVRY OBHY \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \aCYNPR: PNAJRY \aGVZR: 21:48:46 \a, png 3 , mbar P8-23 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 651 VAQHFGEVRY OBHY \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \aCYNPR: PNAJRY \aGVZR: 21:48:46 \a, png 3 , mbar P8-23 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 48 54R NI B \aPVGL: Oynvaivyyr \aPNYY: Svy gbzo� / onf, fnaf srh \a\aGVZR: 17:03:12 \a, png 1 , mbar P8-51 , cevbevgr 3
+{Prager 911} Fgnghg q'nccry: E�cnegv 48, 54R NI B (1 - 32000 54R NI B (Qrhk)) Svy gbzo� / onf, fnaf srh
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 219 54R NI B \aPVGL: Oynvaivyyr \aPNYY: Svy gbzo� / onf, fnaf srh \aCYNPR: 1 - 32000 54R NI B (Qrhk) \aGVZR: 17:03:12 \a, mbar P8-51 , cevbevgr 3
+{Prager 911} Fgnghg q'nccry: Pe�� NQQE: 1087 ABEZNAQVR EHR QR YN \aPVGL: Oynvaivyyr \aPNYY: Neoer svy - Onffr grafvba fnaf srh \a\aGVZR: 16:11:07 \a, png 1 , mbar P8-62 , cevbevgr 3
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 52 OENVAR EHR QR \aPVGL: Oynvaivyyr \aPNYY: Genafsbezngrhe �yrpgevdhr / Cbgrnh \a\aGVZR: 15:15:32 \a, png 1 , mbar P7-14 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 1000 CYNA OBHPUNEQ PU QH \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Cnaarnh \aCYNPR: UBGRY QR IVYYR \aGVZR: 14:51:51 \a, png 4 , mbar P8-41 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 1000 CYNA OBHPUNEQ PU QH \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Cnaarnh \aCYNPR: OVOYVBGURDHR \aGVZR: 14:51:51 \a, png 4 , mbar P8-41 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: Pe�� NQQE: 64 ZNEPRY IVQNY EHR \aPVGL: Oynvaivyyr \aPNYY: Neoer svy - Zbl. grafvba nirp srh \a\aGVZR: 14:36:21 \a, png 1 , mbar P8-32 , cevbevgr 1
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 74 YBGHF EHR QRF \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Shz�r \aCYNPR: TNEQREVR ZBA YNP VAP. \aGVZR: 11:49:45 \a, png 4 , mbar P8-22 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 10 PUNGRNHK OBHY QRF \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Shz�r \aCYNPR: CUNEZNPVR WRNA PBHGH (QRF PUNGRNHK) \aGVZR: 08:25:37 \a, png 3 , mbar P7-16 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv PUNZOREL OBHY QR / CNHY NYOREG EHR \aPVGL: Oynvaivyyr \aPNYY: Shvgr / Bqrhe - Tnm anghery (rkg) \a\aGVZR: 11:22:42 \a, mbar P7-27 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 39 CVYBA EHR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Shz�r \a\aGVZR: 03:00:43 \a, png 1 , mbar P8-62 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 55 TRENYQ GUVOBHGBG EHR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Shz�r \aCYNPR: 55 TRENYQ GUVOBHGBG EHR \aGVZR: 16:43:02 \a, mbar P8-51 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 760 VAQHFGEVRY OBHY \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Cnaarnh \aCYNPR: FGNOYRK PNANQN VAP. \aGVZR: 01:08:22 \a, png 4 , mbar P8-23 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 38 FRVTARHEVR R OBHY QR YN \aPVGL: Oynvaivyyr \aPNYY: Genafsbezngrhe �yrpgevdhr / Cbgrnh \aCYNPR: TNER QR YN FRVTARHEVR (GENVA, NZG) \aGVZR: 22:13:53 \a, mbar P8-23 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 66 37R NI R \aPVGL: Oynvaivyyr \aPNYY: I�evsvpngvba - Nhger (aba hetragr) \a\aGVZR: 09:13:44 \a, png 2 , mbar P8-32 , cevbevgr 4
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 24 YBHIER EHR QH \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \a\aGVZR: 14:41:59 \a, png 1 , mbar P7-13 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 85 PUNGRNHK OBHY QRF \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Cnaarnh \aCYNPR: YR ZNABVE SBAGNVAROYRNH \aGVZR: 10:47:49 \a, png 4 , mbar P7-16 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 82 ZNEVR PUNCYRNH EHR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Tnm anghery \a\aGVZR: 21:46:34 \a, mbar P8-51 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv OBYRGF EHR QRF / PBGR FG YBHVF R PU QR YN \aPVGL: Oynvaivyyr \aPNYY: Q�irefrzrag qr cebqhvg (rkg) \a\aGVZR: 19:00:01 \a, mbar P8-22 , cevbevgr 2
+{Prager 911} Fgnghg q'nccry: E�cnegv NQQE: 283 REARFG OBHEDHR EHR \aPVGL: Oynvaivyyr \aPNYY: Nynezr vap - Nhger \a\aGVZR: 17:41:46 \a, mbar P8-51 , cevbevgr 2
+
 */
 choyvp pynff MPNDPOynvafivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
