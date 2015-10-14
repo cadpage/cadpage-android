@@ -1007,6 +1007,7 @@ class Active911Vendor extends Vendor {
       "US/TX/StaffordPD",                 "TXStafford",
       "US/TX/Stationalerting",            "TXFortBendCountyB",
       "US/TX/TarrantCounty",              "TXTarrantCounty",
+      "US/TX/TexasCity",                  "TXTexasCity",
       "US/TX/UMCHealth",                  "TXLubbockCountyB",
       "US/TX/VillageFire",                "TXVillage",
       "US/TX/WalkerCounty",               "TXWalkerCounty",
