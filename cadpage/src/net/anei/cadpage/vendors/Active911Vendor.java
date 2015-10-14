@@ -272,6 +272,7 @@ class Active911Vendor extends Vendor {
       "US/CO/FremontCountySheriffsOffice","COFremontCounty",
       "US/CO/GarfieldCounty",             "COGarfieldCounty",
       "US/CO/GrandCounty",                "COGrandCounty",
+      "US/CO/CityofGunnison",             "COGunnisonCounty",
       "US/CO/Metcom911",                  "COArapahoeCounty",
       "US/CO/MorganCounty",               "COMorganCounty",
       "US/CO/NWSAlert",                   "StandardNationalWeatherService",
