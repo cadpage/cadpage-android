@@ -6,12 +6,13 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 
 
 public class NVClarkCountyAParser extends FieldProgramParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("RU?N#:?([A-Z]?\\d+) .*");
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("RU?N#:?([A-Z]?\\d+) +(.*)");
   
   public NVClarkCountyAParser() {
     super(CITY_CODES, "CLARK COUNTY", "NV",
@@ -20,16 +21,16 @@ public class NVClarkCountyAParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "sms@pageway.net";
+    return "sms@pageway.net,44627545";
   }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     Matcher match = RUN_REPORT_PTN.matcher(body);
     if (match.matches()) {
-      data.strCall = "RUN REPORT";
+      data.msgType = MsgType.RUN_REPORT;
       data.strCallId = match.group(1);
-      data.strPlace = body;
+      data.strSupp = match.group(2).replace('/', '\n').trim();
       return true;
     }
     
