@@ -15,7 +15,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 abstract public class DispatchA22Parser extends FieldProgramParser {
   
-  private static Pattern KEYWORD_PTN = Pattern.compile("(?<=\n(?:UNITS|EVENT #|PRIORITY|LOCATION|CITY|APT|PREMISE|COMMENT))(?!:)");
+  private static Pattern KEYWORD_PTN1 = Pattern.compile("(?<=\n(?:UNITS|EVENT #|PRIORITY|LOCATION|CITY|APT|PREMISE|COMMENT))(?!:)");
   
   public DispatchA22Parser(String defCity, String defState) {
     this(null, defCity, defState);
@@ -23,12 +23,17 @@ abstract public class DispatchA22Parser extends FieldProgramParser {
   
   public DispatchA22Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState,
-           "DATETIME! UNITS:UNIT? ( EVENT_#:IDSRC! | SRC ) CALL! PRIORITY:PRI? ( LOCATION:ADDR! CITY:CITY APT:APT PREMISE:PLACE? COMMENT:INFO | ADDR CITY! APT:APT ) INFO+");
+          "DATETIME! UNITS:UNIT? ( EVENT_#:IDSRC! | SRC ) CALL! PRIORITY:PRI? ( LOCATION:ADDR! CITY:CITY APT:APT PREMISE:PLACE? COMMENT:INFO | ADDR CITY! APT:APT ) INFO+");
   }
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    body = KEYWORD_PTN.matcher(body).replaceAll(":");
+    body = stripFieldStart(body, "INCIDENT NEW\n");
+    
+    // The standard format has line breaks between each field.  On some occasions these are replaced with
+    // blanks and have to be manually restored.  Which requires the use of a source pattern to identify
+    // the the missing line break following the source field :(
+      body = KEYWORD_PTN1.matcher(body).replaceAll(":");
     return parseFields(body.split("\n"), data);
   }
   
@@ -86,6 +91,5 @@ abstract public class DispatchA22Parser extends FieldProgramParser {
     public String getFieldNames() {
       return super.getFieldNames() + " GPS";
     }
-    
   }
 }

@@ -32,6 +32,7 @@ Fraqre: 44627545
 V: 4769667 H: 2789, C: 1, T: 2622, CU: 73 Y: 4600 FVEVHF NIR# T101 , O: , NY: CP:, 10Q A:10Q], 19:48:39 [Trbtencuvp Nern: 4600 FVEVHF NIR] [Ybj] [Erfcbafr] SM0], 19:48:39 1], 19:48:31 [Trbtencuvp Nern: 4501 - 4599 F MVC:
 V: 4769753 H: 3397, C: 1, T: 2317, CU: 97 Y: 129 SNEXNF YA# , O: , NY: CP:, 31Q A:31Q], 00:18:37 [Trbtencuvp Nern: 129 SNEXNF YA] [Ybj] [Erfcbafr] SM03], 00:19:59 [CebDN Fpevcg] Qvfcngpu pbqr: 31Q03 Lbh ner MVC:
 V: 4769789 H: 3397, C: 3, T: 2318, CU: 37 Y: 7017 PNEZRA OYIQ-YI# , O: , NY: CP:, 26N A:26N], Ybpngvba sebz Sver: 7017 PNEZRA OYIQ, 02:19:01 [Trbtencuvp Nern: 7017 PNEZRA OYIQ] [Ybj] [Erfcbafr] SM], 02:19:01 03], 02 MVC:89128
+EA#5028988 /EPI:23:52:36/RAE:/BAF:/NIN:
 
 */
 
@@ -157,40 +158,40 @@ choyvp pynff AIPynexPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "(FZF) EHA#:4273913 /EPI:00:32:57/RAE:00:34:10/BAF:00:40:00/GEF:01:23:33/QRF:01:28:03/ZVY:",
-        "PNYY:EHA ERCBEG",
+        "GLCR:EHA_ERCBEG",
         "VQ:4273913",
-        "CYNPR:EHA#:4273913 /EPI:00:32:57/RAE:00:34:10/BAF:00:40:00/GEF:01:23:33/QRF:01:28:03/ZVY:");
+        "VASB:EPI:00:32:57\aRAE:00:34:10\aBAF:00:40:00\aGEF:01:23:33\aQRF:01:28:03\aZVY:");
 
     qbGrfg("G2",
         "(FZF) EA#4274400 /EPI:19:03:42/RAE:19:04:20/BAF:19:08:38/NIN:19:13:06",
-        "PNYY:EHA ERCBEG",
+        "GLCR:EHA_ERCBEG",
         "VQ:4274400",
-        "CYNPR:EA#4274400 /EPI:19:03:42/RAE:19:04:20/BAF:19:08:38/NIN:19:13:06");
+        "VASB:EPI:19:03:42\aRAE:19:04:20\aBAF:19:08:38\aNIN:19:13:06");
 
     qbGrfg("G3",
         "(FZF) EHA#:N225728 /EPI:16:31:14/RAE:16:31:15/BAF:16:31:15/GEF:/QRF:/ZVY:",
-        "PNYY:EHA ERCBEG",
+        "GLCR:EHA_ERCBEG",
         "VQ:N225728",
-        "CYNPR:EHA#:N225728 /EPI:16:31:14/RAE:16:31:15/BAF:16:31:15/GEF:/QRF:/ZVY:");
+        "VASB:EPI:16:31:14\aRAE:16:31:15\aBAF:16:31:15\aGEF:\aQRF:\aZVY:");
 
     qbGrfg("G4",
         "EA#4768774 /EPI:00:30:51/RAE:00:32:19/BAF:/NIN:00:41:17",
-        "PNYY:EHA ERCBEG",
+        "GLCR:EHA_ERCBEG",
         "VQ:4768774",
-        "CYNPR:EA#4768774 /EPI:00:30:51/RAE:00:32:19/BAF:/NIN:00:41:17");
+        "VASB:EPI:00:30:51\aRAE:00:32:19\aBAF:\aNIN:00:41:17");
 
     qbGrfg("G5",
         "EHA#:N330656 /EPI:05:17:04/RAE:05:17:05/BAF:05:17:05/GEF:/QRF:/ZVY:",
-        "PNYY:EHA ERCBEG",
+        "GLCR:EHA_ERCBEG",
         "VQ:N330656",
-        "CYNPR:EHA#:N330656 /EPI:05:17:04/RAE:05:17:05/BAF:05:17:05/GEF:/QRF:/ZVY:");
+        "VASB:EPI:05:17:04\aRAE:05:17:05\aBAF:05:17:05\aGEF:\aQRF:\aZVY:");
 
     qbGrfg("G6",
         "EHA#:4769667 /EPI:19:49:48/RAE:19:56:14/BAF:20:08:45/GEF:20:28:06/QRF:20:47:02/ZVY:",
-        "PNYY:EHA ERCBEG",
+        "GLCR:EHA_ERCBEG",
         "VQ:4769667",
-        "CYNPR:EHA#:4769667 /EPI:19:49:48/RAE:19:56:14/BAF:20:08:45/GEF:20:28:06/QRF:20:47:02/ZVY:");
-    
+        "VASB:EPI:19:49:48\aRAE:19:56:14\aBAF:20:08:45\aGEF:20:28:06\aQRF:20:47:02\aZVY:");
+   
   }
   
   @Grfg
@@ -227,6 +228,12 @@ choyvp pynff AIPynexPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YNF IRTNF",
         "PBQR:26N",
         "GVZR:02:19:01");
+
+    qbGrfg("G4",
+        "EA#5028988 /EPI:23:52:36/RAE:/BAF:/NIN:",
+        "GLCR:EHA_ERCBEG",
+        "VQ:5028988",
+        "VASB:EPI:23:52:36\aRAE:\aBAF:\aNIN:");
    
   }
   

@@ -17,7 +17,7 @@ public class AZYumaCountyParser extends MsgParser {
     return "yumacomm@rmetro.com";
   }
   
-  private static final Pattern MASTER1 = Pattern.compile("(CH *\\d+) ([A-Z]+) ASSIGN: *([A-Z0-9, ]+) - (.*?) (?i)FOR REPORT OF (.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern MASTER1 = Pattern.compile("(CH *\\d+) ([A-Z]+) ASSIGN: *([A-Z0-9, ]+) - (.*?) (?i)FOR (?:REPORT OF )?(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern MASTER2 = Pattern.compile("(CH *\\d+) ([A-Z]+) ASSIGN FOR ([A-Z0-9, ]+?)(?: AREA OF | - )(.*?) [-/] (.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern MASTER3 = Pattern.compile("(CH *\\d+) ([A-Z]+) (.*?) FOR (.*?),? REPORTED AS (.*)", Pattern.CASE_INSENSITIVE);
   

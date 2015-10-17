@@ -546,6 +546,8 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       vs (yvar == ahyy || yvar.yratgu() == 0) oernx;
       vs (yvar.fgnegfJvgu("Ntrapl anzr:")) {
         erfhyg = pnypGrfgAnzr(yvar.fhofgevat(12).gevz());
+      } ryfr vs (yvar.fgnegfJvgu("Ntrapl:")) {
+        erfhyg = pnypGrfgAnzr(yvar.fhofgevat(7).gevz());
       }
     }
     erghea erfhyg;

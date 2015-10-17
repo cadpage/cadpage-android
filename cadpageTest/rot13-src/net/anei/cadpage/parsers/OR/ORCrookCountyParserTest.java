@@ -28,9 +28,9 @@ Pbagnpg: Wnfba Qnq Uhcc <uhcc375@tznvy.pbz>
 Fraqre: sver_fzf-obhaprf@yvfgfrei.pvglbscevarivyyr.arg
 ([CEAI_911] ARJ VAPVQRAG) 7/21/2011 1107\aRIRAG # 1107210080 CSQ\aZHAX - HAXABJA ZRQVPNY\aCEVBEVGL 1 \aYBPNGVBA 3813 FR GVYYNZBBX YBBC\aPV
 
-Pbagnpg: PbqrZrffntvat.arg
-1/12/2013 0301<oe>RIRAG # 1301120044 CSQ<oe>ZGENAF - ZRQVPNY GENAFSRE<oe>CEVBEVGL 1 <oe>YBPNGVBA RE GB 472 AR 2AQ FG<oe>PVGL CEVARIVYYR<oe>NCG <oe>CERZVFR: <oe>PBZZRAG: OYF ONPX UBZR<oe><oe>
-
+Pbagnpg: PbqrZrffntvat
+VAPVQRAG ARJ\a10/15/2015 1752\aRIRAG # 1510150067 PPSE\aTZE - TRARENY ZRQVPNY ERFC...\aCEVBEVGL 1 \aYBPNGVBA SBBGONYY SVRYQ\aPVGL CEVARIVYYR\aNCG \aCERZVFR \aPBZZRAG PPUF FGHQRAG PBZCYNV...
+ 
 */
 
 choyvp pynff BEPebbxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -174,19 +174,29 @@ choyvp pynff BEPebbxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgPbqrZrffntvat() {
 
     qbGrfg("G1",
-        "1/12/2013 0301<oe>RIRAG # 1301120044 CSQ<oe>ZGENAF - ZRQVPNY GENAFSRE<oe>CEVBEVGL 1 <oe>YBPNGVBA RE GB 472 AR 2AQ FG<oe>PVGL CEVARIVYYR<oe>NCG <oe>CERZVFR: <oe>PBZZRAG: OYF ONPX UBZR<oe><oe>",
-        "QNGR:1/12/2013",
-        "GVZR:03:01",
-        "VQ:1301120044",
-        "FEP:CSQ",
-        "PNYY:ZGENAF - ZRQVPNY GENAFSRE",
-        "CEV:1",
-        "NQQE:RE GB 472 AR 2AQ FG",
-        "PVGL:CEVARIVYYR",
-        "VASB:OYF ONPX UBZR");
+        "VAPVQRAG ARJ\a" +
+        "10/15/2015 1752\a" +
+        "RIRAG # 1510150067 PPSE\a" +
+        "TZE - TRARENY ZRQVPNY ERFC...\a" +
+        "CEVBEVGL 1 \a" +
+        "YBPNGVBA SBBGONYY SVRYQ\a" +
+        "PVGL CEVARIVYYR\a" +
+        "NCG \a" +
+        "CERZVFR \a" +
+        "PBZZRAG PPUF FGHQRAG PBZCYNV...",
 
+        "QNGR:10/15/2015",
+        "GVZR:17:52",
+        "VQ:1510150067",
+        "FEP:PPSE",
+        "PNYY:TZE - TRARENY ZRQVPNY ERFC...",
+        "CEV:1",
+        "NQQE:SBBGONYY SVRYQ",
+        "PVGL:CEVARIVYYR",
+        "VASB:PPUF FGHQRAG PBZCYNV...");
+    
   }
-  
+
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj BEPebbxPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
