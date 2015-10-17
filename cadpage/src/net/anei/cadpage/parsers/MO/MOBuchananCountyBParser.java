@@ -8,7 +8,6 @@ import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
-
 public class MOBuchananCountyBParser extends MsgParser {
   public MOBuchananCountyBParser() {
     super("BUCHANAN COUNTY", "MO");
@@ -24,109 +23,96 @@ public class MOBuchananCountyBParser extends MsgParser {
     return "APREWITT@heartland-health.com";
   }
   
-  private static final String FORMAT_HEADER_S
-    = "[A-Z]+:",
-  UNIT_S = "\\b[A-Z]\\d{1,2}\\b";
-  private static final Pattern FORMAT_MP
-    = Pattern.compile("(.*)--CONT--"),
-  FORMAT_RR
-    = Pattern.compile(FORMAT_HEADER_S+"(.+)#(\\d{6}) +Addr\\b(.+)\\bRECV (\\d{2}:\\d{2}).*"),
-  FORMAT_1
-    = Pattern.compile(FORMAT_HEADER_S+"(.+)PRI:(.+)\\bAddr\\b(.+)CTY:(.+)PROB:(.+)(\\d{6}) END-OF-MSG"),
-  FORMAT_2
-    = Pattern.compile(FORMAT_HEADER_S+"(.+)#(\\d{6}) +P/U:.+PT:(.+)PUNM:(.+)Addr:(.+)CTY:(.+)RM:(.*)(WC:.*) END-OF-MSG"),
-  FORMAT_3
-    = Pattern.compile(FORMAT_HEADER_S+"(.*?)("+UNIT_S+")(?: +-EP-(.*)| +(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d))");
+  private static final String FORMAT_HEADER_S = "[A-Z]+:";
+  
+  private static final Pattern 
+    CONT_PTN = Pattern.compile(" *--CONT-- [A-Z]+:PART \\d+ +"),
+    FORMAT_RR = Pattern.compile(FORMAT_HEADER_S+"(\\S+) +#(\\d{6}) +Addr (.+) (RECV (\\d{2}:\\d{2}).*)"),
+    RR_TIMES = Pattern.compile(" +(?=ALRT|ENRT|ARRV|DEST|COMP|TM)"),
+    FORMAT_1 = Pattern.compile(FORMAT_HEADER_S+"(\\S+) PRI:(\\d+) Addr (.*?) CTY:(.*?) PROB:(.+) (\\d{6})"),
+    FORMAT_2 = Pattern.compile(FORMAT_HEADER_S+"Unit:(\\S+) +(-EP-(?: POST)?) +(.*)"),
+    FORMAT_3 = Pattern.compile(FORMAT_HEADER_S+"(\\S+) +#(\\d{6}) +P/U: (\\d\\d:\\d\\d) PT:(.*?) PUNM:(.*?) Addr:(.*?) CTY:(.*?) RM:(.*?) (WC:.*)"),
+    FORMAT_3_BRK = Pattern.compile(" (?=DSTNM:|DSTAD:|CTY:|RM:)");
+  
   @Override
   protected boolean parseMsg(String body, Data data) {
-    Matcher m = FORMAT_MP.matcher(body);
-    if (m.matches()) {
-//      body = m.group(1).trim();
+    if (body.endsWith("--CONT--")) {
       data.expectMore = true;
-      // Tried returning true - doesn't make any difference
-      return false;
+      body = body.substring(0,body.length()-6).trim();
+    } 
+    else if (body.endsWith("END-OF-MSG") || body.endsWith(" End-of-Msg")) {
+      body = body.substring(0,body.length()-10).trim();
     }
-    m = FORMAT_RR.matcher(body);
+    
+    body = CONT_PTN.matcher(body).replaceAll(" ");
+    
+    Matcher m = FORMAT_RR.matcher(body);
     if (m.matches()) {
       data.msgType = MsgType.RUN_REPORT;
-      data.strUnit = m.group(1).trim();
+      data.strUnit = m.group(1);
       data.strCallId = m.group(2);
       parseAddress(m.group(3).trim(), data);
-      data.strTime = m.group(4);
-      setFieldList("UNIT ID ADDR TIME");
+      data.strSupp = RR_TIMES.matcher(m.group(4)).replaceAll("\n");
+      data.strTime = m.group(5);
+      setFieldList("UNIT ID ADDR TIME INFO");
       return true;
     }
+    
     m = FORMAT_1.matcher(body);
     if (m.matches()) {
-      data.strUnit = m.group(1).trim();
-      data.strPriority = m.group(2).trim();
+      data.strUnit = m.group(1);
+      data.strPriority = m.group(2);
       parseFormat1Address(m.group(3).trim(), data);
       data.strCity = m.group(4).trim();
       parseCall(m.group(5).trim(), data);
       data.strCallId = m.group(6);
-      setFieldList("UNIT PRI ADDR CITY CODE CALL ID");
+      setFieldList("UNIT PRI ADDR INFO CITY CODE CALL ID");
       return true;
     }
+    
     m = FORMAT_2.matcher(body);
+    if (m.matches()) {
+      data.strUnit = m.group(1);
+      data.strCall = m.group(2);
+      parseAddress(m.group(3).trim(), data);
+      setFieldList("UNIT CALL ADDR");
+      return true;
+    }
+    
+    m = FORMAT_3.matcher(body);
     if (m.matches()) {
       data.strUnit = m.group(1).trim();
       data.strCallId = m.group(2);
-      data.strName = m.group(3).trim();
-      data.strPlace = m.group(4).trim();
-      parseAddress(m.group(5).trim(), data);
-      data.strCity = m.group(6).trim();
-      data.strApt = m.group(7).trim();
-      data.strSupp = m.group(8).trim();
-      setFieldList("PLACE UNIT ID ADDR APT CITY NAME");
-      return true;
-    }
-    m = FORMAT_3.matcher(body);
-    if (m.matches()) {
-      data.strUnit = m.group(2).trim();
-      if (m.group(1).equals("Unit:"))
-        parseEPAddress(getOptGroup(m.group(3)), data);
-      else {
-        data.strSupp = m.group(1).trim();
-        data.strDate = getOptGroup(m.group(4));
-        data.strTime = getOptGroup(m.group(5));
-        setFieldList("UNIT ADDR DATE TIME INFO");
-      }
+      data.strTime = m.group(3);
+      data.strName = m.group(4).trim();
+      data.strPlace = m.group(5).trim();
+      parseAddress(m.group(6).trim(), data);
+      data.strCity = m.group(7).trim();
+      data.strApt = m.group(8).trim();
+      data.strSupp = FORMAT_3_BRK.matcher(m.group(9).trim()).replaceAll("\n");
+      setFieldList("UNIT ID TIME NAME PLACE ADDR CITY APT INFO");
       return true;
     }
     return false;
   }
   
-  private static final Pattern CALL_PATTERN
-  	= Pattern.compile("(\\d+)(.*)");
+  private static final Pattern CALL_PATTERN = Pattern.compile("(\\d+) +(.*)");
   private void parseCall(String field, Data data) {
-	Matcher m = CALL_PATTERN.matcher(field);
-	if (m.matches()) {
-		data.strCode = m.group(1);
-		field = m.group(2).trim();
-	}
-	data.strCall = field;
+  	Matcher m = CALL_PATTERN.matcher(field);
+  	if (m.matches()) {
+  		data.strCode = m.group(1);
+  		field = m.group(2);
+  	}
+  	data.strCall = field;
   }
   
-  private static final Pattern FMT1_ADDRESS_PATTERN
-    = Pattern.compile("(.*)(AltA.*)");
+  private static final Pattern FMT1_ADDRESS_PATTERN = Pattern.compile("(.*) (AltA.*)");
   private void parseFormat1Address(String field, Data data) {
     Matcher m = FMT1_ADDRESS_PATTERN.matcher(field);
     if (m.matches()) {
       field = m.group(1).trim();
       data.strSupp = m.group(2);
     }
-    parseAddress(field, data);
-  }
-  
-  private static final Pattern EP_ADDRESS_PATTERN
-    = Pattern.compile("(POST +\\d+)(.*)");
-  private void parseEPAddress(String field, Data data) {
-    Matcher m = EP_ADDRESS_PATTERN.matcher(field);
-    if (m.matches()) {
-      data.strSupp = m.group(1);
-      field = m.group(2).trim();
-    }
-    data.strSupp = append(data.strSupp," / ", "-EP-");
     parseAddress(field, data);
   }
 }
