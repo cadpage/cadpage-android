@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10132015</string>
-  <string name="release_version">v1.8.67</string>
+  <string name="release_date">10162015</string>
+  <string name="release_version">v1.8.68</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.68\n
+Location Fixes:\n
+Yuma County, AZ\n
+Clark County, NV\n
+Crook County, OR\n
+\n
 v1.8.67\n
 Location Fixes:\n
 Yuma County, AZ\n
@@ -67,45 +73,7 @@ Terrebonne Parish, LA\n
 Niagara County, NY\n
 Warren County, NC\n
 Chester County, PA\n
-Hunt County, TX\n
-\n
-v1.8.62\n
-Cadpage will no longer sponsor subscriptions for general locations\n
-\n
-New Locations:\n
-Cathedral City, CA\n
-Orange County, CA\n
-Fremont County, CO\n
-Escambia County, FL\n
-Carroll County, KY\n
-Hall County, GA\n
-Johnson County, IA\n
-Hancock County, IL\n
-McLean County, KY\n
-Calcasieu Parish, LA\n
-Prince Georges County, MD (alt)\n
-Roscommon County, MI\n
-Sibley County, MN\n
-Buchanan County, MO\n
-Lucas County, OH\n
-Davis County, UT (alt)\n
-Falls Church, VA\n
-\n
-Location Fixes:\n
-St Clair County, AL\n
-Mendocino County, CA\n
-Houston County, GA\n
-Jackson County, GA\n
-Berrien County, MI\n
-Atlanticare EMS, NJ\n
-JCM CEMS Jersey City, NJ\n
-Niagara County, NY\n
-Orange County, NY\n
-Clermont County, OH\n
-Knox County, OH\n
-Armstrong County, PA\n
-Oconee County, SC\n
-Mid Island region, BC, CA
+Hunt County, TX
   </string>
 </resources>
   
