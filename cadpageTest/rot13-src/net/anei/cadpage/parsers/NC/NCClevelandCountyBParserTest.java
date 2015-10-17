@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
-PYrirynaq Pbhagl, AP (O)
+Pyrirynaq Pbhagl, AP (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Furyol CQ

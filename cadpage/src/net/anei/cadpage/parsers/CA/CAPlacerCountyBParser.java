@@ -5,7 +5,7 @@ import java.util.Properties;
 import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 
 /**
- * Rocklin, CA
+ * Placer County, CA (B)
  */
 public class CAPlacerCountyBParser extends DispatchA20Parser {
   
