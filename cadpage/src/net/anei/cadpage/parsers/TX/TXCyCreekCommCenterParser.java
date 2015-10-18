@@ -70,6 +70,7 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     // Strip message prefix
+    body = stripFieldStart(body, "CommCenter@ccems.com:");
     
     data.strSource = subject;
     
