@@ -31,7 +31,8 @@ public class NCClevelandCountyAParser extends DispatchOSSIParser {
   }
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (subject.equals("Text Message")) return false;
     body = fixBody(body);
     bracket = false;
     bracketTrigger = null;
@@ -191,7 +192,7 @@ public class NCClevelandCountyAParser extends DispatchOSSIParser {
       "LINCOLN CO",        "LINCOLN COUNTY"
   });
   
-  boolean isValidCall(String call) {
+  static boolean isValidCall(String call) {
     return CALL_SET.contains(call);
   }
   

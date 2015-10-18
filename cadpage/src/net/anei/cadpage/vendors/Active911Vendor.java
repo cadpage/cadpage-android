@@ -658,6 +658,7 @@ class Active911Vendor extends Vendor {
       "US/NC/OrangeCounty",               "NCOrangeCounty",
       "US/NC/PenderCounty",               "NCPenderCounty",
       "US/NC/PittCounty",                 "NCPittCounty",
+      "US/NC/PolkCounty",                 "NCPolkCounty",
       "US/NC/RandolphCounty",             "NCRandolphCounty",
       "US/NC/RobesonCounty",              "NCRobesonCounty",
       "US/NC/RockinghamCounty",           "NCRockinghamCounty",

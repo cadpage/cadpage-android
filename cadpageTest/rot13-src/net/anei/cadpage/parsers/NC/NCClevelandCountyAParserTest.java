@@ -948,7 +948,7 @@ choyvp pynff APPyrirynaqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Bireevqr
   cebgrpgrq obbyrna purpxPnyyPbqr(Fgevat pnyy, ZftCnefre cnefre) {
-    erghea ((APPyrirynaqPbhaglNCnefre)cnefre).vfInyvqPnyy(pnyy);
+    erghea APPyrirynaqPbhaglNCnefre.vfInyvqPnyy(pnyy);
   }
 
   @Grfg

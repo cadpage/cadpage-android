@@ -72,6 +72,7 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
     // Strip message prefix
     body = stripFieldStart(body, "CommCenter@ccems.com:");
     
+    if (subject.equals("Text Message")) subject = "";
     data.strSource = subject;
     
     Matcher match = MARKER1.matcher(body);
