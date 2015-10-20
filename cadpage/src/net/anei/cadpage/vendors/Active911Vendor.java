@@ -967,6 +967,7 @@ class Active911Vendor extends Vendor {
       "US/TX/CityofOverton",              "TXOverton",
       "US/TX/CityofPortAransas",          "TXPortAransas",
       "US/TX/CityofWylie",                "TXCollinCountyA",
+      "US/TX/CollinCounty",               "TXCollinCounty",
       "US/TX/CyCreekCommCenter",          "TXCyCreekCommCenter",
       "US/TX/DentonCounty",               "TXDentonCounty",
       "US/TX/Eforcesoftware",             "TXWharton",
