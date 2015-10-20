@@ -1,6 +1,6 @@
-cnpxntr arg.narv.pnqcntr.cnefref.FP;
+cnpxntr arg.narv.pnqcntr;
 
-vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
+vzcbeg arg.narv.pnqcntr.cnefref.FP.FPNaqrefbaPbhaglOCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -117,9 +117,9 @@ Ybpngvba: Orygba, FP, Havgrq Fgngrf
 
 */
 
-choyvp pynff FPNaqrefbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff FPNaqrefbaPbhaglONpphzGrfg rkgraqf FzfZftNpphzhyngbeGrfg {
   
-  choyvp FPNaqrefbaPbhaglOCnefreGrfg() {
+  choyvp FPNaqrefbaPbhaglONpphzGrfg() {
     frgCnefre(arj FPNaqrefbaPbhaglOCnefre(), "NAQREFBA PBHAGL", "FP");
   }
 
@@ -457,6 +457,6 @@ choyvp pynff FPNaqrefbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj FPNaqrefbaPbhaglOCnefreGrfg().trarengrGrfgf("G1");
+    arj FPNaqrefbaPbhaglONpphzGrfg().trarengrGrfgf("G1");
   }
 }

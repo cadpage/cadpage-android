@@ -56,6 +56,8 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
     // we will try to replace
     body = body.replace("\nDispatchNature of Call :", "\n\nArea:  Section :   Beat :   Map :\nGrid:  Quadrant:  District:\nPhone Number:  Call Source:\nNature of Call :");
     
+    int pt = body.indexOf("\nThe information in this e-mail");
+    if (pt >= 0) body = body.substring(0,pt).trim();
     
     if (!super.parseMsg(subject, body, data)) return false;
     

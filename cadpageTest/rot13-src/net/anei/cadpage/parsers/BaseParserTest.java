@@ -251,21 +251,22 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     vag zftPbhag = -1;
     vag ynfgZftAqk = -1;
     Fgevat[] jbex = arj Fgevat[grfg.yratgu];
+    Fgevat jbexFhowrpg = "";
     VaqrkrqZrffntr[] jbex2 = ahyy;
     sbe (vag w = 0; w<grfg.yratgu; w++) {
-      Fgevat cneg = grfg[w];
+      Fgevat grfgYvar = grfg[w];
+      Fgevat cneg = grfgYvar;
+      Fgevat gzcFhowrpg = fhowrpg;
       vs (cnefrFhowrpg()) {
         vs (cneg.fgnegfJvgu("{")) {
           vag cg = cneg.vaqrkBs('}');
-          vs (fhowrpg.yratgu() == 0) {
-            fhowrpg = cneg.fhofgevat(1,cg);
-          }
+          gzcFhowrpg = cneg.fhofgevat(1,cg);
           cneg = cneg.fhofgevat(cg+1).gevz();
         }
       }
-      Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, fhowrpg, cneg, trgFcyvgZftBcgvbaf(), snyfr);
+      Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, gzcFhowrpg, cneg, trgFcyvgZftBcgvbaf(), snyfr);
       vs (w == 0) {
-        vs (zft.trgFhowrpg().yratgu() > 0) fhowrpg = zft.trgFhowrpg();
+        vs (zft.trgFhowrpg().yratgu() > 0) jbexFhowrpg = zft.trgFhowrpg();
         vs (zft.trgSebzNqqerff().yratgu() > 0) sebzNqqerff = zft.trgSebzNqqerff();
         zftPbhag = zft.trgZftPbhag();
         vs (zftPbhag > 0) {
@@ -273,7 +274,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
           vs (trarengr) jbex2 = arj VaqrkrqZrffntr[jbex.yratgu];
         }
       }
-      vs (jbex2 != ahyy) jbex2[w] = arj VaqrkrqZrffntr(zft.trgZftVaqrk(), zft.trgZrffntrObql(), cneg);
+      vs (jbex2 != ahyy) jbex2[w] = arj VaqrkrqZrffntr(zft.trgZftVaqrk(), zft.trgZrffntrObql(), grfgYvar);
       ryfr jbex[w] = zft.trgZrffntrObql();
       
       // Vs inyvqngvba zbqr, purpx zrffntr pbhag/vaqrk
@@ -296,7 +297,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     }
     
     // Frg hc ZrffntrOhvyqre
-    ZrffntrOhvyqre ohvyqre = arj ZrffntrOhvyqre(cnefre, sebzNqqerff, fhowrpg, trgFcyvgZftBcgvbaf()); 
+    ZrffntrOhvyqre ohvyqre = arj ZrffntrOhvyqre(cnefre, sebzNqqerff, jbexFhowrpg, trgFcyvgZftBcgvbaf()); 
     ohvyqre.frgCerfreirCebtenz();
     
     // Vs guvf vf n invyqngvba eha, gurer vf fbzr rkgen inyvqngvba  ba

@@ -120,7 +120,7 @@ import net.anei.cadpage.parsers.MsgInfo.MsgType;
  *         S - Space
  *         L - Slash
  *         
- *   Skip and Info fields
+ *   Call, Skip, and Info fields
  *         G - Mark call as general alert
  *         R - Mark call as run report
  *         
@@ -2089,6 +2089,8 @@ public class FieldProgramParser extends SmartAddressParser {
   public class CallField extends Field {
     
     private String connector = " / ";
+    boolean genAlert = false;
+    boolean runReport = false;
     
     public CallField() {};
     public CallField(String pattern) {
@@ -2102,10 +2104,16 @@ public class FieldProgramParser extends SmartAddressParser {
     public void setQual(String qual) {
       super.setQual(qual);
       connector = buildConnector(qual, " / ");
+      if (qual != null) {
+        genAlert = qual.contains("G");
+        runReport = qual.contains("R");
+      }
     }
 
     @Override
     public void parse(String field, Data data) {
+      if (genAlert) data.msgType = MsgType.GEN_ALERT;
+      if (runReport) data.msgType = MsgType.RUN_REPORT;
       data.strCall = append(data.strCall, connector , field);
     }
     
