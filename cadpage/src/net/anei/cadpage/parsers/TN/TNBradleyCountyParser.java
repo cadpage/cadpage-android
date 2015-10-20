@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 
 public class TNBradleyCountyParser extends DispatchA3Parser {
   
-  private static final Pattern MARKER = Pattern.compile("CLEVELANDTN911:? Bradley CO 911:\\* +|911:\\*\\s*");
+  private static final Pattern MARKER = Pattern.compile("CLEVELANDTN911:? Bradley CO 911:\\* +|911:\\*\\s*|CLEVELANDTN911: Bradley CO 911:\\*\\s*");
   
   public TNBradleyCountyParser() {
     super(MARKER, "BRADLEY COUNTY", "TN",
