@@ -3925,8 +3925,7 @@ If they are, use the Cadpage "Email the Developer" setting to send us a new supp
 * Free subscription request using general or null location
 * If authorized run days > 10, add 30 day authorization code
 **************************************************************************
-You were apparently using the General location setting, which is no longer free. We prefer that you switch to a real location specific parser for a more effective Cadpage experience.
-You are still using the General location setting, and we prefer that you switch to a real location specific parser before giving you a free subscription.
+You were apparently using the General location setting, which is no longer free. We prefer that you switch to a real location-specific parser for a more effective Cadpage experience.
 
 The general location doesn't really know anything about how your text messages are structured and can only pull a limited amount of information from them. To really get the full benefit of Cadpage you need to specify a location setting that will know more about your specific message format and can get a lot more information from it.
 
@@ -3936,11 +3935,24 @@ then navigate to and select a location that corresponds to the location of your 
 
 If that works, you can send us another request for a free Cadpage subscription.
 
-If there is no supported location for your area, or if the selected location does not work, you can help us set up a new location parser to cover your messages. To do that, long press all of the calls that you currently have in Cadpage call history and select "Report Problem" to send them to us. In exchange for your help setting this up, we will grant you a one year paid Cadpage subscription.
+If there is no supported location for your area, or if the selected location does not work, you can help us set up a new location parser to cover your messages. To do that, long press all of the calls that you currently have in Cadpage call history and select "Report Problem" to send them to us. In exchange for your help setting this up, we will grant you a one-year paid Cadpage subscription.
 
-Thanks,
--Ken
+Take care, 
+Jean ~ Cadpage Administrator
+
 ************************************************************************
+Do Not Want Cadpage any more
+
+If you do not want to use Cadpage any more, just uninstall it.
+
+If you are still getting text messages notifying you of department
+dispatch alerts, you will need to contact that department about stopping
+them.  We do not have anything to do with that.
+
+Thanks for trying Cadpage,
+
+**************************************************************************
+
 Useful search expressions...
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT|X):.*\r?\n)*+(?! +"CITY:)
 ***************************************************************************************
