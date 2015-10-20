@@ -14,7 +14,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
  */
 public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
-  private static final Pattern MASTER1 = Pattern.compile("(?:(\\d{2,4}-\\d{6,7}) +)?(?:(\\d{8} \\d{8}) +)?(.*?)(?: *(\\d\\d[A-Z]-?[A-Z]))? *((?:WOODLA|01&03-)?\\d{2,4}[A-Za-z])(?: +(F[DG] ?\\d+(?: +F[DG] ?\\d+)*)(?: +(?:North|East|South|West))?)?(?: +((?:[A-Z]+\\d+|Lake Rescue)(?: +[A-Z]+\\d+)*))?(?: +(TAC +\\d+))?");
+  private static final Pattern MASTER1 = Pattern.compile("(?:(\\d{2,4}-\\d{6,7}) +)?(?:(\\d{8} \\d{8}|0 0) +)?(.*?)(?: *(\\d\\d[A-Z]-?[A-Z]))? *(?:NOT FOU|((?:WOODLA|\\d\\d&\\d\\d-)?\\d{2,4}[A-Za-z]))(?: +(F[DG] ?\\d+(?: +F[DG] ?\\d+)*)(?: +(?:North|East|South|West))?)?(?: +((?:[A-Z]+\\d+|Lake Rescue)(?: +[A-Z]+\\d+)*))?(?: +(TAC +\\d+))?");
   private static final Pattern MASTER2 = Pattern.compile("(?:([A-Z0-9]+)-)?(.*?) *(\\d\\d[A-Z]-[A-Z]) +(.*?) +(F[DG]\\d+(?: +F[DG]\\d+)*) +(\\d{2,3}[A-Za-z])(?: +(.*))?");
   private static final Pattern MASTER3 = Pattern.compile("([^\\d].*?)(0BH \\d|\\d\\d[A-Z]{2}\\b)(.*?)(?: (F[DG]\\d))? (\\d{2,4}[A-Z]) (.*)");
   
@@ -27,13 +27,15 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   private static final Pattern NOTIFICATION_PTN2 = Pattern.compile("ID#:(\\d\\d-\\d{6}) ; \\d+\\) (.*)");
   
   private static final Pattern PREFIX_PTN = Pattern.compile("^(?:Comment:|SSMPlan:)[^,]+, *");
+  private static final Pattern MISSING_SEMI_PTN = Pattern.compile("(?<=CITY:)(?= *\\d{8}\\b)");
 
   private static final Pattern ADDR_CODE_CALL_PTN = Pattern.compile("(.*?)([#\\*]\\d+|\\d{1,2}[A-Z]\\d{1,2}[A-Z]?) *-[- ]*(.*)");
   private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<=[a-z])(?=[A-Z])|(?<= [A-Z])(?=[A-Z][a-z])");
   
   public TXMontgomeryCountyBParser() {
     super(CITY_LIST, "MONTGOMERY COUNTY", "TX",
-          "ID:ID! PRI:PRI? UNIT:UNIT! PRI:PRI? CALL:CALL! PLACE:PLACE! APT:APT? ADDR:ADDR! ( X-STREETS:X! MAP:MAP! CITY:CITY! CROSS_STREETS:SKIP? | CROSS_STREETS:X! MAP:MAP! CITY:CITY! CHANNEL:CH! | CITY:CITY! ( MAP:MAP! | ) | ) ( INFO:INFO! | GPS! GPS! )");
+          "( Comment:COMMENT/G! ID:ID! UNIT:UNIT! " +
+          "| ID:ID! PRI:PRI? UNIT:UNIT! PRI:PRI? CALL:CALL! PLACE:PLACE! APT:APT? ADDR:ADDR! ( X-STREETS:X! MAP:MAP! CITY:CITY! CROSS_STREETS:SKIP? | CROSS_STREETS:X! MAP:MAP! CITY:CITY! CHANNEL:CH! | CITY:CITY! ( MAP:MAP! | ) | ) ( INFO:INFO! | GPS! GPS! ) )");
   }
   
   @Override
@@ -114,8 +116,11 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
     }
     
     // See if we can use the regular semicolon delimited form
-    String[] flds = body.split(";");
-    if (flds.length >= 6) {
+    String body2 = MISSING_SEMI_PTN.matcher(body).replaceAll(";");
+    boolean comment = body2.startsWith("Comment:");
+    if (comment) body2 = body2.replace(",ID:", ";ID:");
+    String[] flds = body2.split(";");
+    if (comment || flds.length >= 6) {
       flds[0] = PREFIX_PTN.matcher(flds[0]).replaceFirst("");
       return parseFields(flds, data);
     }
@@ -138,7 +143,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       setFieldList("CODE CALL BOX ADDR APT CITY SRC MAP UNIT");
       data.strCode = getOptGroup(match.group(1));
       data.strCall = match.group(2).trim();
-      if (data.strCall.equals("Out of County Respon")) data.defCity = "";
+      fixOutOfCountyResponse(data);
       data.strBox = match.group(3);
       parseAddress(match.group(4).trim(), data);
       data.strSource = match.group(5);
@@ -156,7 +161,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       String addr = match.group(3).trim();
       addr = ADDRESS_RANGE_PTN.matcher(addr).replaceAll("$1-$2");
       data.strBox = getOptGroup(match.group(4));
-      data.strMap = match.group(5);
+      data.strMap = getOptGroup(match.group(5));
       data.strSource = getOptGroup(match.group(6));
       data.strUnit = append(data.strUnit, " ", getOptGroup(match.group(7)));
       data.strChannel = getOptGroup(match.group(8));
@@ -220,6 +225,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       }
       
       // If call is out of county response, zap the default county
+      fixOutOfCountyResponse(data);
       if (data.strCall.startsWith("Out of County Respon")) data.defCity = "";
       
       return true;
@@ -228,9 +234,20 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
     return false;
   }
 
+  public void fixOutOfCountyResponse(Data data) {
+    if (data.strCall.startsWith("Out of County Respon")) {
+      data.defCity = "";
+      if (data.strCall.length() > 20) {
+        data.strCity = data.strCall.substring(20);
+        data.strCall = "Out of County Respon";
+      }
+    }
+  }
+
   
   @Override
   public Field getField(String name) {
+    if (name.equals("COMMENT")) return new CallField();
     if (name.equals("ID")) return new MyIdField();
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("X")) return new MyCrossField();
@@ -261,7 +278,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   }
   
   
-  private static final Pattern CALL_PTN = Pattern.compile("([#\\*]\\d+) *-[- ]*(.*)");
+  private static final Pattern CALL_PTN = Pattern.compile("([#\\*][A-Z]*\\d+[A-Z]?|\\d{1,3}[A-Z]\\d{0,2}[A-Z]?) *-[- ]*(.*)");
   private class MyCallField extends CallField {
     
     @Override
@@ -293,7 +310,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   private class MyGpsField extends GPSField {
     
     public MyGpsField() {
-      super("\\d{8}", true);
+      super("\\d{8}|0", true);
     }
     
     @Override
@@ -312,6 +329,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   }
 
   private void parseGPSField(String gps, Data data) {
+    if (gps.length() != 17) return;
     gps = gps.substring(0,2) + '.' + gps.substring(2,8) + ',' + gps.substring(9,11) + '.' + gps.substring(11); 
     setGPSLoc(gps, data);
   }
@@ -330,12 +348,18 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       "Assault",
       "Assist Law Enforceme",
       "Back Pain",
+      "Bomb Threat",
+      "Breathing Problems",
       "Burn Patient",
       "Cardiac Arrest",
       "Chest Pain",
+      "Chest Pain Pre-Alert",
       "Child Locked in a Ve",
       "Choking",
+      "Choking Pre-Alert",
+      "Dedicated Fire Standby",
       "Diabetic Problems",
+      "Diff. Breath. Pre-Alert",
       "Difficulty Breathing",
       "Drowning",
       "Electrical Hazard",
@@ -343,6 +367,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       "Electrical Hazard - Live Wires",
       "Electrical Hazard - Trans Fire",
       "Electrocution",
+      "Eval Emerg Resp Req",
       "Explosion",
       "Eye Problems/Injury",
       "Fall",
@@ -355,24 +380,33 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       "Gas - In a Residence",
       "Gas - Smell in Area",
       "Gas - Smell in a Bui",
+      "Gas - Smell in a Building Comm",
       "Gas - Smell in a Res",
       "Gas - Smell in a Residence",
+      "General Weakness",
       "Hazmat",
       "Headache",
       "Heart Problems",
       "Heat/Cold Exposure",
       "Hemorrhage/Laceratio",
       "Hemorrhage/Laceration",
+      "Inhalation Pre-Alert",
       "Inhalation/Hazmat",
       "Lake Rescue",
+      "Lake Rescue - Conroe",
       "Life Flight Landing",
       "Lightning - To a Str",
       "MVA",
       "MVA - Entrapment",
       "MVA - Fire",
+      "MVC",
+      "MVC Pre-Alert",
+      "Medical Alarm",
+      "Medical Alarm Pre-Alert",
       "Medical Priority 1",
       "Medical Priority 2",
       "Out of County Respon",
+      "Out of County ResponSPRING",
       "Outside - Check For",
       "Outside - Check For Fire",
       "Outside - Controlled Burn",
@@ -389,9 +423,12 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       "Outside - Unknown Ty",
       "Outside - Unknown Type Fire",
       "Outside Fire",
+      "Overdose Pre-Alert",
       "Overdose/Ingestion",
+      "Overdose/Poisoning",
       "Pregnancy/Miscarriag",
       "Pregnancy/Miscarriage",
+      "Psychiatric Pre-Alert",
       "Psychiatric/Suicide",
       "Rescue - Elevator",
       "Seizures",
@@ -413,19 +450,28 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       "Structure - Apartmen",
       "Structure - Commerci",
       "Structure - Extingui",
+      "Structure - Large Bu",
       "Structure - High Lif",
       "Structure - High Life Hazard",
       "Structure - Resident",
       "Structure - Residential",
       "Structure - Residential/Oven",
+      "Structure - Small Bu",
       "Structure - Small Building",
       "Structure Fire",
       "TEST",
+      "Traumatic Injuries",
       "Traumatic Injury",
+      "Traumatic Inj. Pre-Alert",
+      "Unconscious Party",
+      "Unconscious Pre-Alert",
       "Unconscious/Fainting",
+      "Unknown Prob. Pre-Alert",
+      "Unknown Problem",
       "Unknown Problem/Man",
       "Unknown Problem/Man Down",
       "Vehicle Fire - Comme",
+      "Vehicle Fire - Commercial",
       "Vehicle Fire",
       "Water Rescue",
       "Water Rescue - Motor",
@@ -444,7 +490,8 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       "STRUCTURE FIRE PA",
       "ODOR OF SMOKE OUTSIDE",
       "OUTSIDE FIRE PA",
-      "UNKNOWN FUEL SPILL"
+      "UNKNOWN FUEL SPILL",
+      "VEHICLE FIRE PA"
 
   );
   

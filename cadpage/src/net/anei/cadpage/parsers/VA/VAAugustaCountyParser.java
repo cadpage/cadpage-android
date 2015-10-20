@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /**
- * Agusta County, VA
+ * Augusta County, VA
  */
 public class VAAugustaCountyParser extends DispatchOSSIParser {
   

@@ -27,7 +27,7 @@ public class ZCAABRedDeerCountyParser extends DispatchA51Parser {
 
   @Override
   public String getFilter() {
-    return "@reddeer.ca,messaging@iamresponding.com";
+    return "@reddeer.ca,messaging@iamresponding.com,@cremonafire.com";
   }
   
   @Override
