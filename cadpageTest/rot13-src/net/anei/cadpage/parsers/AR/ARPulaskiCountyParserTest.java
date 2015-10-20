@@ -375,8 +375,7 @@ choyvp pynff NEChynfxvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G26",
         "WBUA S XRAARQL OYIQ / ZPPNVA OYIQ AYE, 2015048958, 21:30:14, E41 Iruvpyr Nppvqrag, PNYYRE FNJ N IRU UVG N OYQT NPEBFF SEBZ UBOOL YBOOL HAX IRU GLCR BE VAW",
-        "CYNPR:WBUA S",
-        "NQQE:XRAARQL OYIQ & ZPPNVA OYIQ",
+        "NQQE:WBUA S XRAARQL OYIQ & ZPPNVA OYIQ",
         "PVGL:ABEGU YVGGYR EBPX",
         "VQ:2015048958",
         "GVZR:21:30:14",

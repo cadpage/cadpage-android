@@ -70,6 +70,8 @@ public class ALJeffersonCountyCParser extends FieldProgramParser {
       int pt = data.strCity.indexOf("  ");
       if (pt >= 0) data.strCity = data.strCity.substring(0,pt);
       
+      data.strAddress = data.strAddress.replace(" & MM", " MM");
+      
       if (data.strPlace.length() > 0) {
         match = ADDR_APT_PTN.matcher(data.strPlace);
         if (match.matches()) {

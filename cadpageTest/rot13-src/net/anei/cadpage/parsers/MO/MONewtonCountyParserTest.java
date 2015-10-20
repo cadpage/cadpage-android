@@ -807,10 +807,9 @@ choyvp pynff ZBArjgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G3",
         "(911 PNYY) 4427 V 44 RO WBCYVA ZVYR ZNEXRE 3.4 RO-V44 PebffFgerrgf: UVTUJNL 166 096 zv J UVTUJNL 43 0.96 zv R GN VAWHEL-HAX (WBC/BHG) RFA: ct4/38 Pnyy Ahzore: 813606",
-        "NQQE:4427 V 44 RO",
-        "ZNQQE:4427 V 44",
+        "NQQE:4427 V 44 RO ZVYR ZNEXRE 3.4 RO-V44",
+        "ZNQQE:4427 V 44 ZVYR ZNEXRE 3.4-V 44",
         "PVGL:WBCYVA",
-        "CYNPR:ZVYR ZNEXRE 3.4 RO-V44",
         "K:UVTUJNL 166 096 zv J UVTUJNL 43 0.96 zv R",
         "PNYY:GN VAWHEL-HAX (WBC/BHG)",
         "ZNC:ct4/38",

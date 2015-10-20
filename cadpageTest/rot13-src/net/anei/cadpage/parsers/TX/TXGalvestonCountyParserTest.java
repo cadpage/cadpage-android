@@ -1386,8 +1386,8 @@ choyvp pynff GKTnyirfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G27",
         "ZNWBE NPPVQRAG UJL 6 FG/ UJL 35 EQ BAR RAGENCZRAG BAR ABG OERNGUVAT [04/04/15 21:48:29 XYNQQ]",
         "PNYY:ZNWBE NPPVQRAG",
-        "NQQE:UJL 6",
-        "VASB:FG/ UJL 35 EQ BAR RAGENCZRAG BAR ABG OERNGUVAT",
+        "NQQE:UJL 6 & UJL 35 EQ",
+        "VASB:BAR RAGENCZRAG BAR ABG OERNGUVAT",
         "QNGR:04/04/15",
         "GVZR:21:48:29");
 

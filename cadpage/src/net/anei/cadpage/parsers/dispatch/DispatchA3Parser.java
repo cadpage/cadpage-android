@@ -201,7 +201,6 @@ public class DispatchA3Parser extends FieldProgramParser {
     public void parse(String field, Data data) {
       field = field.replace("//", "/");
       super.parse(field, data);
-      if (data.strPlace.startsWith("/")) data.strPlace = data.strPlace.substring(1).trim();
     }
   }
   

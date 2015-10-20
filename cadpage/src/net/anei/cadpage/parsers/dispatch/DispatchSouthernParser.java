@@ -52,7 +52,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   // Flag indicating there is no place name
   public static final int DSFLAG_NO_PLACE = 0x1000;
 
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("(\\d{8});([-A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("(\\d{8}|\\d{4}-\\d{6});([-A-Z0-9]+)\\(.*?\\)\\d\\d:\\d\\d:\\d\\d\\|");
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
   private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
   private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-0-9]+)$");
@@ -121,7 +121,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
     StringBuilder sb = new StringBuilder();
     sb.append("ADDR/S2");
     if (impliedApt) sb.append('6');
-    if (leadPlace) sb.append('P');
+    sb.append(leadPlace ? 'P' : 'X');
+    if (trailPlace) sb.append("P");
     if (inclCall) sb.append(" CALL");
     if (inclCross || inclCrossNamePhone) sb.append(" X?");
     if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE?");
@@ -167,7 +168,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
     
     Matcher match = RUN_REPORT_PTN.matcher(body);
-    if (match.matches()) {
+    if (match.lookingAt()) {
       setFieldList("ID UNIT INFO");
       data.msgType = MsgType.RUN_REPORT;
       data.strCallId = match.group(1);
@@ -420,7 +421,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   //  Classes for handling the new comma delimited format
   
-  private class MyCrossField extends CrossField {
+  private class BaseCrossField extends CrossField {
     @Override
     public boolean canFail() {
       return true;
@@ -447,9 +448,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new BaseAddressField();
-    if (name.equals("CODE"))  return new MyCodeField();
+    if (name.equals("CODE"))  return new BaseCodeField();
     if (name.equals("PARTCODE")) return new SkipField("[MFL]D?");
-    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("X")) return new BaseCrossField();
     if (name.equals("ID")) return new IdField("\\d\\d(?:\\d\\d)?-?\\d{4,8}", true);
     if (name.equals("NAME")) return new BaseNameField();
     if (name.equals("PHONE")) return new PhoneField("\\d{10}");
@@ -462,6 +463,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   protected class BaseAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
+      field = field.replace('@', '&');
       if (field.startsWith("1 ")) {
         field = field.substring(2).trim();
         int flags = FLAG_AT_SIGN_ONLY | FLAG_ANCHOR_END;
@@ -470,6 +472,24 @@ public class DispatchSouthernParser extends FieldProgramParser {
         data.strAddress = append("1", " ", data.strAddress);
       } else {
         super.parse(field, data);
+        
+        // If we pulled a place name from the front fo the string, see if
+        // it looks like a legimate address that got mangled by something
+        // further back
+        if (data.strPlace.length() > 0 && field.startsWith(data.strPlace)) {
+          if (data.strPlace.endsWith("/")) {
+            data.strAddress = append(data.strPlace.substring(0,data.strPlace.length()-1).trim(), " & ", data.strAddress);
+            data.strPlace = "";
+          } else {
+            int flags = FLAG_CHECK_STATUS | FLAG_AT_SIGN_ONLY | FLAG_ANCHOR_END;
+            if (impliedApt) flags |= FLAG_RECHECK_APT;
+            Result res = parseAddress(StartType.START_ADDR, flags, field);
+            if (res.isValid() && res.getStatus() >= getStatus()) {
+              data.strPlace = data.strAddress = data.strApt = data.strCity = "";
+              res.getData(data);
+            }
+          }
+        }
       }
     }
   }
@@ -495,8 +515,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
     }
   }
   
-  private class MyCodeField extends CodeField {
-    public MyCodeField() {
+  private class BaseCodeField extends CodeField {
+    public BaseCodeField() {
       super("[FML]DL *(.*)", true);
     }
     

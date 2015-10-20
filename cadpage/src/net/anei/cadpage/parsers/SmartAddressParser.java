@@ -135,8 +135,6 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_PAD_FIELD_EXCL_CITY = 0x8000;
   
-  private static final int FLAG_ANY_PAD_FIELD = FLAG_PAD_FIELD | FLAG_PAD_FIELD_EXCL_CITY;
-  
   /**
    * Flag indicating that this call should not find a city.  That any predefined city lists
    * or codes should be ignored.  Basically tells the parser to ignore any city codes or lists.
@@ -223,6 +221,10 @@ public abstract class SmartAddressParser extends MsgParser {
    * requires that street names end in proper street suffixes to be accepted
    */
   public static final int FLAG_STRICT_SUFFIX = 0x8000000;
+
+  // Flag combination that indicates we are processing some kind of pad field
+  // Rechecking the apt is treated as a flavor of pad field
+  private static final int FLAG_ANY_PAD_FIELD = FLAG_PAD_FIELD | FLAG_PAD_FIELD_EXCL_CITY | FLAG_RECHECK_APT;
   
   // Status codes that might be returned
   public static final int STATUS_TRIVIAL = 5;
@@ -1696,7 +1698,7 @@ public abstract class SmartAddressParser extends MsgParser {
     int sAddr, ndx;
     if (startAddress >= 0) {
       sAddr = ndx = startAddress;
-      ndx = findRoadEnd(ndx, 0);
+      ndx = findRoadEnd(ndx, 0, true);
       if (ndx < 0) return false;
     }
     
@@ -1915,7 +1917,7 @@ public abstract class SmartAddressParser extends MsgParser {
 
     result.reset(startAddress);
     boolean crossOnly = isFlagSet(FLAG_ONLY_CROSS);
-    boolean padField = isFlagSet(FLAG_ANY_PAD_FIELD);
+    boolean padField = isFlagSet(FLAG_PAD_FIELD | FLAG_PAD_FIELD_EXCL_CITY);
     boolean parseToCity = false;
     
     // Total failure, assign the entire field to either the call description
@@ -2051,7 +2053,7 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   private boolean parseAddressToCity(int stAddr, int srcNdx, Result result) {
     FieldSpec addressField = new FieldSpec(stAddr);
-    if (!parseToCity(addressField, true, false, srcNdx, result)) return false;
+    if (!parseToCity(addressField, true, false, false, srcNdx, result)) return false;
     result.addressField = addressField;
     if (result.startField != null) result.startField.optionalEnd(stAddr);
     return true;
@@ -2065,9 +2067,24 @@ public abstract class SmartAddressParser extends MsgParser {
    * False if not city was found and  nothing was changed in result
    */
   private boolean parsePadToCity(int start, Result result) {
+    boolean recheckApt = isFlagSet(FLAG_RECHECK_APT);
+    boolean extraApt = recheckApt;
+    if (recheckApt) {
+      if (isType(start, ID_APT)) {
+        start++;
+        extraApt = false;
+      } else if (isType(start, ID_FLOOR)) {
+        extraApt = false;
+      }
+    }
     FieldSpec padField = new FieldSpec(start);
-    if (!parseToCity(padField, false, false, start, result)) return false;
-    result.padField = padField;
+    if (!parseToCity(padField, false, recheckApt, false, start, result)) return false;
+    if (recheckApt) {
+      result.extraApt = extraApt;
+      result.aptField = padField;
+    } else {
+      result.padField = padField;
+    }
     return true;
   }
   
@@ -2079,19 +2096,20 @@ public abstract class SmartAddressParser extends MsgParser {
    * False if not city was found and  nothing was changed in result
    */
   private boolean parseStartToCity(int start, boolean optCity, Result result) {
-    return parseToCity(result.startField, false, optCity, start, result);
+    return parseToCity(result.startField, false, false, optCity, start, result);
   }
   
   /**
    * See if we can parse an address from a known starting point to a city
    * @param fldSpec previous field being parsed
-   * @param addr true if fldSpec is destined to be an address field spec
+   * @param addrFld true if fldSpec is destined to be an address field spec
+   * @param aptFld true if fldSPec is destined to be an apartment field
    * @param optCity true if a successful result should  be returned if we find anything
    * at all, even if no city is located
    * @param srcNdx start looking for city here
    * @return true if  city was identified and all fields have been set
    */
-  private boolean parseToCity(FieldSpec fldSpec, boolean addr, boolean optCity, int srcNdx, Result result) {
+  private boolean parseToCity(FieldSpec fldSpec, boolean addrFld, boolean aptFld, boolean optCity, int srcNdx, Result result) {
     
     // If we are doing a cross only parse without a city, answer is always no
     boolean crossOnly = isFlagSet(FLAG_ONLY_CROSS);
@@ -2101,7 +2119,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // end of the line without looking for a city
     boolean anchorEnd = isFlagSet(FLAG_ANCHOR_END);
     boolean parseToEnd = anchorEnd && ! isFlagSet(FLAG_CHECK_STATUS);
-    boolean padField = isFlagSet(FLAG_ANY_PAD_FIELD);
+    boolean padField = isFlagSet(FLAG_PAD_FIELD | FLAG_PAD_FIELD_EXCL_CITY);
     boolean cityOnly = isFlagSet(FLAG_ONLY_CITY);
     boolean nearToEnd = isFlagSet(FLAG_NEAR_TO_END);
 
@@ -2164,20 +2182,22 @@ public abstract class SmartAddressParser extends MsgParser {
         if (!crossOnly) {
 
         // Check for apartment marker
-          if (aptField == null) {
-            if (tmpNdx+1 < tokens.length && isType(tmpNdx, ID_FLOOR | ID_APT) && 
-                (!isType(tmpNdx, ID_APT_SOFT) || !isType(tmpNdx+1, ID_ROAD_SFX))) {
-              lastField.end(ndx);
-              ndx = tmpNdx;
-              int tmp = ndx;
-              if (!isType(tmp, ID_FLOOR)) tmp++;
-              lastField = aptField = new FieldSpec(tmp);
-            }
-            else if (tmpNdx < tokens.length && isAptToken(tokens[tmpNdx], false)) {
-              aptToken = true;
-              lastField.end(ndx);
-              ndx = tmpNdx;
-              lastField = aptField = new FieldSpec(ndx);
+          if (!aptFld) {
+            if (aptField == null) {
+              if (tmpNdx+1 < tokens.length && isType(tmpNdx, ID_FLOOR | ID_APT) && 
+                  (!isType(tmpNdx, ID_APT_SOFT) || !isType(tmpNdx+1, ID_ROAD_SFX))) {
+                lastField.end(ndx);
+                ndx = tmpNdx;
+                int tmp = ndx;
+                if (!isType(tmp, ID_FLOOR)) tmp++;
+                lastField = aptField = new FieldSpec(tmp);
+              }
+              else if (tmpNdx < tokens.length && isAptToken(tokens[tmpNdx], false)) {
+                aptToken = true;
+                lastField.end(ndx);
+                ndx = tmpNdx;
+                lastField = aptField = new FieldSpec(ndx);
+              }
             }
           }
           
@@ -2199,7 +2219,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // If we are processing an address field and we skipped over a comma
       // without finding anything, or encountered a non-address character
       // fail here
-      if (addr && lastField == startField) {
+      if (addrFld && lastField == startField) {
         if (tmpNdx != ndx) return false;
         if (isType(ndx, ID_NOT_ADDRESS)) return false;
       }
@@ -2261,12 +2281,12 @@ public abstract class SmartAddressParser extends MsgParser {
     if (nearField != null && nearField.fldEnd-nearField.fldStart > 1) result.nearField = nearField;
     if (fldSpec != null) fldSpec.end(startField.fldEnd);
     
-    // If we did fin a city and there is a pad field, it might have the misfortune to be a 
+    // If we did find a city and there is a pad field, it might have the misfortune to be a 
     // place name that includes a local city name.  So we will call
     // ourselves recursively in an attempt to find another city name
     // behind this one
     if (result.cityField != null && isFlagSet(FLAG_PAD_FIELD) && result.cityField.fldEnd < tokens.length) {
-      parseToCity(fldSpec, addr, false, result.cityField.fldEnd, result);
+      parseToCity(fldSpec, addrFld, aptFld, false, result.cityField.fldEnd, result);
     }
     return true;
   }
@@ -2400,10 +2420,12 @@ public abstract class SmartAddressParser extends MsgParser {
     // First lets look for an apartment
     int ndx = result.endAll;
     if (isComma(ndx)) ndx++;
-    if (isType(ndx, ID_APT)) {
-      if (++ndx < tokens.length) {
-        result.aptField = new FieldSpec(ndx, ++ndx);
-        result.endAll = ndx;
+    if (!isFlagSet(FLAG_RECHECK_APT)) {
+      if (isType(ndx, ID_APT)) {
+        if (++ndx < tokens.length) {
+          result.aptField = new FieldSpec(ndx, ++ndx);
+          result.endAll = ndx;
+        }
       }
     }
     
@@ -3278,6 +3300,7 @@ public abstract class SmartAddressParser extends MsgParser {
     private FieldSpec addressField = null;
     private FieldSpec placeField = null;
     private boolean aptToken = false;
+    private boolean extraApt = false;
     private FieldSpec aptField = null;
     private FieldSpec crossField = null;
     private FieldSpec padField = null;
@@ -3301,7 +3324,7 @@ public abstract class SmartAddressParser extends MsgParser {
       if (startAddress < 0) startField.end(-1);
       addressField = null;
       placeField = null;
-      aptToken = false;
+      aptToken = extraApt = false;
       aptField = null;
       crossField = null;
       padField = null;
@@ -3473,33 +3496,35 @@ public abstract class SmartAddressParser extends MsgParser {
         }
         if (nearPlace) data.strPlace = append(data.strPlace, " ", field); 
       }
-
-      // See if we should check for non-numeric apartment fields following the address
-      if ((flags & FLAG_RECHECK_APT) != 0 && data.strApt.length() == 0) {
-        String addr = data.strAddress;
-        String cross = data.strCross;
-        data.strAddress = "";
+      
+      // Some corrective adjustments may be needed if the apt field was 
+      // collected from whatever was left after the end of the address
+      if (extraApt) {
         
-        Result result = parent.parseAddress(StartType.START_ADDR, FLAG_NO_CITY, addr);
-        result.getData(data);
-        String apt1 = result.getLeft();
-        String apt2 = append(data.strApt, " ", apt1);
-        if (apt2.length() == 0 || parent.isNotExtraApt(apt1)) {
-          data.strAddress = addr;
-          data.strCross = cross;
+        // If parse says this is not an apt, append it to the address
+        if (parent.isNotExtraApt(data.strApt)) {
+          data.strAddress = append(data.strAddress, " ", data.strApt.replace('/', '&'));
           data.strApt = "";
-          Matcher match = ADDR_TRAIL_FL.matcher(addr);
-          if (match.find()) {
-            data.strAddress = addr.substring(0,match.start());
-            data.strApt = match.group(1);
-          }
-        } else {
-          Matcher match = ADDR_PLACE_MARK.matcher(apt1);
+        }
+        
+        // Otherwise if what we found starts with a place mark, move it to the
+        // place field
+        else {
+          Matcher match = ADDR_PLACE_MARK.matcher(data.strApt);
           if (match.matches()) {
             data.strPlace = append(data.strPlace, " - ", match.group(1));
-          } else {
-            data.strApt = apt2;
+            data.strApt = "";
           }
+        }
+      }
+      
+      // If we are collecting trailing apts and did not find one
+      // see if what we found ends with a floor indicator
+      if ((flags & FLAG_RECHECK_APT) != 0 && data.strApt.length() == 0) {
+        Matcher match = ADDR_TRAIL_FL.matcher(data.strAddress);
+        if (match.find()) {
+          data.strAddress = data.strAddress.substring(0,match.start());
+          data.strApt = match.group(1);
         }
       }
     }

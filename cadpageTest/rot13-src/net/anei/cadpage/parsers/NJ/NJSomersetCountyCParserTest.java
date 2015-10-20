@@ -74,9 +74,9 @@ choyvp pynff AWFbzrefrgPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "38I - Pne sver|V 287/AO 14.5||Oevqtrjngre|6N1,30-101,30-102,FZP801,SSQ2,SSQ",
         "PBQR:38I",
         "PNYY:Pne sver",
-        "NQQE:V 287",
+        "NQQE:V 287 & AO 14.5",
+        "ZNQQE:V 287 &  14.5",
         "PVGL:Oevqtrjngre",
-        "CYNPR:/AO 14.5",
         "HAVG:6N1,30-101,30-102,FZP801,SSQ2,SSQ");
 
     qbGrfg("G6",

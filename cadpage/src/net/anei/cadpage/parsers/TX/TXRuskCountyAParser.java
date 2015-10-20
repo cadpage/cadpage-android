@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class TXRuskCountyAParser extends DispatchSouthernParser {
 
   public TXRuskCountyAParser() {
-    super(CITY_LIST, "RUSK COUNTY", "TX", DSFLAG_OPT_DISPATCH_ID | DSFLAG_CROSS_NAME_PHONE);
+    super(CITY_LIST, "RUSK COUNTY", "TX", DSFLAG_OPT_DISPATCH_ID | DSFLAG_NO_PLACE | DSFLAG_CROSS_NAME_PHONE);
     addExtendedDirections();
   }
   

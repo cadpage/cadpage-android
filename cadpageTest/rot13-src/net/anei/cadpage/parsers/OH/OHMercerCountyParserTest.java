@@ -459,8 +459,7 @@ choyvp pynff BUZreprePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G13",
         "28 YBPNGVBA: ZVYYRE EQ/  R BS 127 PBZZRAGF: FHOW JNF OHEAVAT TENFF NAQ VG TBG NJNL SEBZ UVZ; SQ TBVAT BHG GB PBAGNVA VG;",
         "PNYY:28",
-        "NQQE:ZVYYRE EQ",
-        "ANZR:/  R BS 127",
+        "NQQE:ZVYYRE EQ & R BS 127",
         "VASB:FHOW JNF OHEAVAT TENFF NAQ VG TBG NJNL SEBZ UVZ; SQ TBVAT BHG GB PBAGNVA VG;");
 
     qbGrfg("G14",
