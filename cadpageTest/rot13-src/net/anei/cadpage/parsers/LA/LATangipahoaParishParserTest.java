@@ -529,8 +529,8 @@ choyvp pynff YNGnatvcnubnCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:911 - RZF",
         "PNYY:RZF",
         "NQQE:269 R Envyebnq Ni",
-        "ZNQQE:269 R Envyebnq Nir",
-        "PVGL:Nzvgr",
+        "ZNQQE:269 R Envyebnq Nir", 
+        "PVGL:Nzvgr", //pbhyq abg trg vg gb znc urer.  tbbtyr fhttrfgf vaqrcraqrapr
         "FG:YN",
         "VQ:2015104644");
 
@@ -577,7 +577,7 @@ choyvp pynff YNGnatvcnubnCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:911 - PE/V",
         "PNYY:PE/V",
         "NQQE:V 55 Fo Zz 39",
-        "ZNQQE:V 55 Zz 39",
+        "ZNQQE:V 55 Zz 39", //abcr
         "PVGL:Vaqrcraqrapr",
         "FG:YN",
         "VQ:2015103671");
@@ -1961,7 +1961,7 @@ choyvp pynff YNGnatvcnubnCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:CPCFB - 24",
         "PNYY:24",
         "NQQE:601 Wblpr Fg",
-        "PVGL:Arj Ebnqf",
+        "PVGL:Arj Ebnqf", //guvf qbrf abg nccrne gb rkvfg nf n pvgl.  tbbtyr fhttrfgf unzzbaq.
         "FG:YN",
         "VQ:2015010274");
 
@@ -2005,7 +2005,7 @@ choyvp pynff YNGnatvcnubnCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{CPCFB - 20V} N(a) 20V unf orra ercbegrq ng 0 Cngva Qlxr Eq, Iragerff, YN. 2015010201",
         "PBQR:CPCFB - 20V",
         "PNYY:20V",
-        "NQQE:Cngva Qlxr Eq",
+        "NQQE:Cngva Qlxr Eq", //nyfb qbrf abg svaq guvf
         "PVGL:Iragerff",
         "FG:YN",
         "VQ:2015010201");
