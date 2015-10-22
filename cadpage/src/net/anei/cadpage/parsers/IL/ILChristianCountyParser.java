@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.IL;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 /**
@@ -13,6 +14,20 @@ public class ILChristianCountyParser extends DispatchEmergitechParser {
   
   public String getFilter() {
     return "panafiredepartment@gmail.com";
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
+  }
+  
+  private class MyAddressField extends BaseAddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace('@',  '/');
+      super.parse(field, data);
+    }
   }
 
   private static final String[] CITY_LIST = new String[]{
@@ -39,7 +54,6 @@ public class ILChristianCountyParser extends DispatchEmergitechParser {
       "TOVEY",
 
       //Unincorporated
-
       "CLARKSDALE",
       "DUNKEL",
       "HEWITTSVILLE",
@@ -52,8 +66,7 @@ public class ILChristianCountyParser extends DispatchEmergitechParser {
       "WILLEY STATION",
       
       //Townships
-
-      "ASSUMPTION TOWNSHIP",
+      "ASSUMPTION",
       "BEAR CREEK",
       "BUCKHART",
       "GREENWOOD",
@@ -69,6 +82,9 @@ public class ILChristianCountyParser extends DispatchEmergitechParser {
       "ROSAMOND",
       "SOUTH FORK",
       "STONINGTON",
-      "TAYLORVILLE TOWNSHIP"
+      "TAYLORVILLE",
+      
+      // Montgomery County
+      "NOKOMIS"
   };
 }

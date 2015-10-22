@@ -307,13 +307,13 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("ADDR")) return new BaseAddressField();
+    if (name.equals("X")) return new BaseCrossField();
+    if (name.equals("INFO")) return new BaseInfoField();
     return super.getField(name);
   }
   
-  private class MyAddressField extends AddressField {
+  protected class BaseAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       int pt = field.indexOf(" - ");
@@ -325,7 +325,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     }
   }
   
-  private class MyCrossField extends CrossField {
+  private class BaseCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
       if (field.startsWith("*")) field = field.substring(1).trim();
@@ -334,7 +334,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   }
   
   private static final Pattern INFO_GPS_PTN = Pattern.compile("([-+]?\\d{1,3}\\.\\d{6}) *([-+]?\\d{1,3}\\.\\d{6})(?:CF=\\d+%)?(?:CALLBK=(\\(\\d{3}\\)\\d{3}-\\d{4}))?|CNF=\\d*UNC=\\d*");
-  private class MyInfoField extends InfoField {
+  private class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       
