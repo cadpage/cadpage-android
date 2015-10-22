@@ -14,7 +14,7 @@ public class NYNewYorkCityParser extends FieldProgramParser {
     
     @Override
     public String getFilter() {
-      return "callid@hatzalah.org";
+      return "callid@hatzalah.org,6466933772";
     }
 
 	  @Override
