@@ -6,6 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 
 /*
+Nhqenva Pbhagl, ZB
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ina Sne NQ
