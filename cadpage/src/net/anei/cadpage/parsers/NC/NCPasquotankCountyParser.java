@@ -11,7 +11,7 @@ public class NCPasquotankCountyParser extends DispatchOSSIParser {
   
   public NCPasquotankCountyParser() {
     super("PASQUOTANK COUNTY", "NC",
-           "CALL ADDR INFO+");
+           "FYI? CALL ADDR INFO+");
   }
 
   @Override

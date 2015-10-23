@@ -42,6 +42,10 @@ Pbagnpg: Oevna Natfgnqg <nentba9900@tznvy.pbz>
 Fraqre: 7127390583
 (34 Chganz Inyyrl INP) FVPX CREFBA\a\a1001 CRRXFXVYY UBYYBJ EQ,CHGANZ INYYRL \aNCG CU \aFGN 24 KF GBJA YVAR  QE/FRVSREG YA
 
+Pbagnpg: tnelanzrgu <tnelanzrgu@bcgvzhz.arg>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+Fhowrpg:13 Pbyq Fcevat\aZBGBE IRUVPYR NPPVQRAG|| 31 ZRNQBJ YA,CUVYVCFGBJA |FGN 15 KF QRNQ RAQ /EBHGR 9Q
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pbagvaragny Ivyyntr SQ
 Ybpngvba: Tneevfba, AL, Havgrq Fgngrf
@@ -568,6 +572,19 @@ choyvp pynff ALChganzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:CU",
         "FEP:24",
         "K:GBJA YVAR  QE/FRVSREG YA");
+   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgTnelAnzrgu() {
+
+    qbGrfg("G1",
+        "Fhowrpg:13 Pbyq Fcevat\aZBGBE IRUVPYR NPPVQRAG|| 31 ZRNQBJ YA,CUVYVCFGBJA |FGN 15 KF QRNQ RAQ /EBHGR 9Q",
+        "PNYY:ZBGBE IRUVPYR NPPVQRAG",
+        "NQQE:31 ZRNQBJ YA",
+        "PVGL:CUVYVCFGBJA",
+        "FEP:15",
+        "K:QRNQ RAQ /EBHGR 9Q");
    
   }
 

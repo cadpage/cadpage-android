@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10192015</string>
-  <string name="release_version">v1.8.69</string>
+  <string name="release_date">10202015</string>
+  <string name="release_version">v1.8.70</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.70
+Location Fixes:\n
+Bradley County, TN\n
+Collins County, TX\n
+\n
 v1.8.69
 New Locations:\n
 Hot Springs County, AR\n
@@ -76,18 +81,7 @@ Nash County, NC\n
 Crawford County, PA\n
 Delaware County, PA\n
 Lexington County, SC\n
-Brazoria County, TX\n
-\n
-v1.8.65\n
-Location Fixes:\n
-Barry County, MO\n
-Alexander County, NC\n
-Oslow County, NC\n
-Harrison County, WV\n
-\n
-v1.8.64\n
-Location Fixes:\n
-Snohomish County, WA
+Brazoria County, TX
   </string>
 </resources>
   

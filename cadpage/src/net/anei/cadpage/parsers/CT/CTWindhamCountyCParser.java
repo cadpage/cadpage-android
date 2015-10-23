@@ -5,6 +5,8 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 
 
@@ -15,6 +17,14 @@ public class CTWindhamCountyCParser extends FieldProgramParser {
           "CITY ADDR PLACE APT CALL CALL+? X! TIME");
   }
   
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom(){
+      @Override public boolean splitBlankIns() { return false; }
+    };
+  }
+
+
   @Override
   public String getFilter() {
     return "wpdpaging@gmail.com";

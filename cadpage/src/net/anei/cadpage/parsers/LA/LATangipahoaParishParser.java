@@ -11,5 +11,5 @@ public class LATangipahoaParishParser extends DispatchA46Parser {
   @Override
   public String getFilter() {
     return "PTS@ptssolutions.com";
-    }
   }
+}
