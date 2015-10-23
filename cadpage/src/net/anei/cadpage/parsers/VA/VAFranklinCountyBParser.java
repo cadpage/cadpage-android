@@ -12,7 +12,7 @@ public class VAFranklinCountyBParser extends DispatchSouthernParser {
   public VAFranklinCountyBParser() {
     super(CITY_LIST, "FRANKLIN COUNTY", "VA", DSFLAG_BOTH_PLACE | DSFLAG_FOLLOW_CROSS | DSFLAG_LEAD_UNIT, "(?:CO|SQ)\\d+");
     setupMultiWordStreets(MWORD_STREET_LIST);
-    removeWords("PLAZA");
+    removeWords("LANE", "PLAZA");
   }
       
   

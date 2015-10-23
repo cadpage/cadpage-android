@@ -39,6 +39,12 @@ public class NCWarrenCountyParser extends DispatchSouthernParser {
     return data.strCity.length() > 0;
   }
   
+  @Override
+  protected boolean isNotExtraApt(String apt) {
+    if (apt.endsWith(" MM")) return true;
+    return super.isNotExtraApt(apt);
+  }
+
   private static final String[] CITY_LIST = new String[]{
     
     "ALBERTA",

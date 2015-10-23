@@ -2246,7 +2246,7 @@ choyvp pynff VAUnapbpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "((356070) Fgehpgher/ 10839 TENPR QE & ZNQVFBA PB// R431 Q3C1/  znqvfba pb erd ratvar) Fgehpgher/ 10839 TENPR QE & ZNQVFBA PB// R431 Q3C1/  znqvfba pb erd ratvar",
         "PNYY:Fgehpgher",
         "NQQE:10839 TENPR QE",
-        "K:ZNQVFBA PB",
+        "PVGL:ZNQVFBA PBHAGL",
         "HAVG:R431 Q3C1",
         "VASB:znqvfba pb erd ratvar");
 
@@ -3432,7 +3432,8 @@ choyvp pynff VAUnapbpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "e Perrx.",
 
         "PNYY:Svryq / Jbbqf",
-        "NQQE:ZPTERTBE & PNEEBYY EQ-FURYOL PBHAGL",
+        "NQQE:ZPTERTBE & PNEEBYY EQ",
+        "PVGL:FURYOL PBHAGL",
         "HAVG:Q4C1",
         "VASB:tenff evt  sebz Fhtne Perrx.");
 
@@ -4167,7 +4168,7 @@ choyvp pynff VAUnapbpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "((343026) Nffvfg gur Sver Qrcg/ 4041 FRABHE EQ & VAQCYF// R445 Q4C1) Nffvfg gur Sver Qrcg/ 4041 FRABHE EQ & VAQCYF// R445 Q4C1",
         "PNYY:Nffvfg gur Sver Qrcg",
         "NQQE:4041 FRABHE EQ",
-        "K:VAQCYF",
+        "PVGL:VAQVNANCBYVF",
         "HAVG:R445 Q4C1");
 
     qbGrfg("G59",

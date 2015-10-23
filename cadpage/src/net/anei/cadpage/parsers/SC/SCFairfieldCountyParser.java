@@ -36,6 +36,7 @@ public class SCFairfieldCountyParser extends DispatchSouthernParser {
         "WATEREE ESTATES",
         "WINNSBORO ARMS"
     );
+    allowBadChars("()");
   }
 
   private static final Pattern MILE_MARKER_PTN = Pattern.compile("\\d+ MILE MARKER \\d+");

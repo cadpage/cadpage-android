@@ -163,15 +163,24 @@ public class INHancockCountyParser extends FieldProgramParser {
     "CHARLOTTESVILLE",
     "NEW PALESTINE",
     
+    // Indianapolis
+    "INDPLS",
+    "INDIANAPOLIS",
+    
     // Madison County
+    "MADISON COUNTY",
+    "MADISON CO",
     "INGALS",   // (Misspelled INGALLS)
     "INGALLS",
     "PENDLETON",
     
     // Marion County
+    "MARION COUNTY",
+    "MARION CO",
     "CUMBERLAND",
     
     // Shelby County
+    "SHELBY COUNTY",
     "SHELBY CO",
     "SHELBY",
     "FOUNTAINTOWN",
@@ -179,6 +188,7 @@ public class INHancockCountyParser extends FieldProgramParser {
   };
   
   private static final Properties MISSPELLED_CITY_TABLE = buildCodeTable(new String[]{
+      "INDPLS",     "INDIANAPOLIS",
       "INGALS",     "INGALLS"
   });
 }

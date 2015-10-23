@@ -1184,6 +1184,40 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
+  choyvp ibvq grfgErpurpxNcg() {
+    
+    qbGrfg(NQQE, SYNT_ERPURPX_NCG, "1567 CVAR FG KK LL",
+        "NQQE:1567 CVAR FG");
+    
+    qbGrfg(NQQE, SYNT_ERPURPX_NCG, "1567 CVAR FG KK LL XRAFOHET",
+        "NQQE:1567 CVAR FG",
+        "NCG:KK LL",
+        "PVGL:XRAFOHET");
+    
+    qbGrfg(NQQE, SYNT_ERPURPX_NCG, "1567 CVAR FG KK LL K OYNPX GBC XRAFOHET",
+        "NQQE:1567 CVAR FG",
+        "NCG:KK LL",
+        "K:OYNPX GBC",
+        "PVGL:XRAFOHET");
+    
+    qbGrfg(NQQE, SYNT_ERPURPX_NCG, "1567 CVAR FG KK LL K OYNPX GBC",
+        "NQQE:1567 CVAR FG",
+        "NCG:KK LL",
+        "K:OYNPX GBC");
+    
+    qbGrfg(NQQE, SYNT_ERPURPX_NCG, "1567 CVAR FG KK LL K OYNPX FG BIREYBNQ",
+        "NQQE:1567 CVAR FG",
+        "NCG:KK LL",
+        "K:OYNPX FG");
+    
+    qbGrfg(NQQE, "1567 CVAR FG NCG KK LL K OYNPX FG BIREYBNQ",
+        "NQQE:1567 CVAR FG",
+        "NCG:KK LL",
+        "K:OYNPX FG");
+    
+  }
+  
+  @Grfg
   choyvp ibvq grfgOnq() {
     qbGrfg(PNYY, "OVT TERRA SEBT",
         "PNYY:OVT TERRA SEBT");

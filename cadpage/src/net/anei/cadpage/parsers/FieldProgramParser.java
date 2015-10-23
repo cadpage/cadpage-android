@@ -2335,7 +2335,7 @@ public class FieldProgramParser extends SmartAddressParser {
         fixEmptyAddress(data);
         if (padData != null) padData.parse(parseTrailingField(res.getPadField(), padData instanceof AptField, data), data);
         if (tailData != null) {
-          String left = getLeft();
+          String left = res.getLeft();
           if (!parseCity) left = parseTrailingField(left, tailData instanceof AptField, data);
           tailData.parse(left, data);
         }
@@ -2600,6 +2600,7 @@ public class FieldProgramParser extends SmartAddressParser {
    * @param data parsed data object
    */
   private String parseTrailingField(String field, boolean aptField, Data data) {
+    
     Matcher match = SPEC_APT_INTERSECT_PTN.matcher(field);
     if (match.matches()) {
       data.strAddress = append(data.strAddress, " & ", match.group(2));
@@ -2610,10 +2611,13 @@ public class FieldProgramParser extends SmartAddressParser {
       data.strAddress = append(data.strAddress, " ", field);
       return "";
     }
+    
+    field = stripFieldStart(field, "/");
+    field = stripFieldStart(field, "&");
       
     return field;
   }
-  private static final Pattern SPEC_APT_INTERSECT_PTN = Pattern.compile("(?!\\d/\\d$)(?:([A-Z0-9]{1,3}) *)?(?:[&/]|AND\\b|OFF\\b) *(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SPEC_APT_INTERSECT_PTN = Pattern.compile("(?!\\d/\\d$)(?:([A-Z0-9]{1,3}) *)?(?:[&/]|\\bAND\\b|\\bOFF\\b) *(.*)", Pattern.CASE_INSENSITIVE);
   
   /**
    * Special Apartment field processor

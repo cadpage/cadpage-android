@@ -10,6 +10,7 @@ public class NJCamdenCountyAParser extends DispatchArchonixParser {
   
   public NJCamdenCountyAParser() {
     super(CITY_CODES, "CAMDEN COUNTY", "NJ");
+    setupSaintNames("JOHN", "MARK", "MORITZ");
   }
   
   @Override

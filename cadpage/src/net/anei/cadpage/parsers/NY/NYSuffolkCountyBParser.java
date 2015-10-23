@@ -99,6 +99,11 @@ public class NYSuffolkCountyBParser extends DispatchA14Parser {
   }
   
 
+  @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_CROSS_FOLLOWS;
+  }
+
   private static class PatternReplace {
     private Pattern pattern;
     private String replace;

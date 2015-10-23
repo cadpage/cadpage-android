@@ -14,7 +14,7 @@ public class PALackawannaCountyAParser extends FieldProgramParser {
   public PALackawannaCountyAParser() {
     super(CITY_CODES, "LACKAWANNA COUNTY", "PA",
           "UNIT! Location:ADDR/aSXax! Common_Name:PLACE? Call_Type:CALL! Call_Time:DATETIME Nature_of_Call:INFO CFS_Number:ID");
-    addRoadSuffixTerms("PARK");
+    addRoadSuffixTerms("CLOSE", "PARK");
   }
   
   @Override

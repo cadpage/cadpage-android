@@ -373,8 +373,7 @@ choyvp pynff GKTnyirfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Fnagn Sr Sver",
         "PNYY:SVER - ABA FCRPVSVP",
         "NQQE:4146 UBYYBJNL EQ",
-        "K:UJL 6",
-        "VASB:FG");
+        "K:UJL 6");
 
     qbGrfg("G5",
         ".... (Fnagn Sr Sver) PNQ:CBYR SVER 7231 NIR Z FG TENFF VF BA SVER NYFB [10/31/11 13:17:49 RNGBAE] HGVYVGL CBYR BA SVER [10/31/11 13:17:31 RNGBAE]",
@@ -1386,7 +1385,7 @@ choyvp pynff GKTnyirfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G27",
         "ZNWBE NPPVQRAG UJL 6 FG/ UJL 35 EQ BAR RAGENCZRAG BAR ABG OERNGUVAT [04/04/15 21:48:29 XYNQQ]",
         "PNYY:ZNWBE NPPVQRAG",
-        "NQQE:UJL 6 & UJL 35 EQ",
+        "NQQE:UJL 6 & UJL 35",
         "VASB:BAR RAGENCZRAG BAR ABG OERNGUVAT",
         "QNGR:04/04/15",
         "GVZR:21:48:29");
@@ -1420,7 +1419,7 @@ choyvp pynff GKTnyirfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SNYYRA FHOWRPG 13135 UJL 6 FG 40LBZ, PBYYNCFRQ, PBAP NAQ OERNGUVAT. [04/03/15 17:39:02 OEFPBGG]",
         "PNYY:SNYYRA FHOWRPG",
         "NQQE:13135 UJL 6",
-        "VASB:FG 40LBZ, PBYYNCFRQ, PBAP NAQ OERNGUVAT.",
+        "VASB:40LBZ, PBYYNCFRQ, PBAP NAQ OERNGUVAT.",
         "QNGR:04/03/15",
         "GVZR:17:39:02");
 
@@ -1662,7 +1661,7 @@ choyvp pynff GKTnyirfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAPBAFPVBHF CREFBA 13620 UJL 6 FG 21-22 lb znyr rzcyblrr, haerfcbafvir ohg oernguvat ol gur qhzcfgre. [03/27/15 22:50:38 OEFPBGG]",
         "PNYY:HAPBAFPVBHF CREFBA",
         "NQQE:13620 UJL 6",
-        "VASB:FG 21-22 lb znyr rzcyblrr, haerfcbafvir ohg oernguvat ol gur qhzcfgre.",
+        "VASB:21-22 lb znyr rzcyblrr, haerfcbafvir ohg oernguvat ol gur qhzcfgre.",
         "QNGR:03/27/15",
         "GVZR:22:50:38");
 
@@ -1694,7 +1693,7 @@ choyvp pynff GKTnyirfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SNYYRA FHOWRPG 12496 UJL 6 FG ryqreyl znyr snyy sebz jurry punve [03/27/15 12:45:52 FPBSVY]",
         "PNYY:SNYYRA FHOWRPG",
         "NQQE:12496 UJL 6",
-        "VASB:FG ryqreyl znyr snyy sebz jurry punve",
+        "VASB:ryqreyl znyr snyy sebz jurry punve",
         "QNGR:03/27/15",
         "GVZR:12:45:52");
 
@@ -1803,7 +1802,7 @@ choyvp pynff GKTnyirfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SNYYRA FHOWRPG 14210 UJL 6 FG ZNYR FHOW SRYY VA CNEXVAT YBG [03/25/15 12:18:56 XYNQQ]",
         "PNYY:SNYYRA FHOWRPG",
         "NQQE:14210 UJL 6",
-        "VASB:FG ZNYR FHOW SRYY VA CNEXVAT YBG",
+        "VASB:ZNYR FHOW SRYY VA CNEXVAT YBG",
         "QNGR:03/25/15",
         "GVZR:12:18:56");
 

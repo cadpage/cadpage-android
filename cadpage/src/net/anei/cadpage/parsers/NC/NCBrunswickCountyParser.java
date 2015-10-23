@@ -15,7 +15,9 @@ public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
     super(CITY_LIST, "BRUNSWICK COUNTY", "NC", 
           DSFLAG_OPT_DISPATCH_ID | DSFLAG_LEAD_PLACE | DSFLAG_NO_NAME_PHONE);
     setupMultiWordStreets(MWORD_STREET_LIST);
+    addRoadSuffixTerms("WYND");
     removeWords("COURT", "COVE", "STREET", "SQUARE", "TRAIL");
+    setupSaintNames("JAMES");
   }
   
   @Override
@@ -90,9 +92,9 @@ public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
       super.parse(field, data);
       data.strPlace = fixParenField(data.strPlace, false);
       data.strAddress = fixParenField(data.strAddress, false);
-      String apt = fixParenField(data.strApt, false);
-      if (apt.startsWith("(")) {
-        data.strAddress = append(data.strAddress, " ", apt);
+      data.strApt = fixParenField(data.strApt, false);
+      if (data.strApt.startsWith("(")) {
+        data.strAddress = append(data.strAddress, " ", data.strApt.replace('/', '&'));
         data.strApt = "";
       }
     }
@@ -117,6 +119,12 @@ public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
   private static final Pattern PAREN_FLD1 = Pattern.compile("(\\([^\\(\\)]*\\))");
   private static final Pattern PAREN_FLD2 = Pattern.compile("(_<_[^<>]*_>_)");
   
+  @Override
+  protected boolean isNotExtraApt(String apt) {
+    if (apt.indexOf('/') >= 0) return true;
+    return super.isNotExtraApt(apt);
+  }
+
   @Override
   public String adjustMapAddress(String addr) {
     addr = addr.replace("CUT-OFF", "CUTOFF");

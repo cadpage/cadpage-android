@@ -3944,7 +3944,8 @@ choyvp pynff APSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G94",
         "WPEBGGL:686 AP 98 UJL J//BFCERL UVYYF QE OHAA, 01:12:34, 10-50 CV,",
-        "NQQE:686 AP 98 UJL J & BFCERL UVYYF QE",
+        "NQQE:686 AP 98 UJL J",
+        "K:BFCERL UVYYF QE",
         "ZNQQE:686 FGNGR 98 J",
         "PVGL:OHAA",
         "GVZR:01:12:34",

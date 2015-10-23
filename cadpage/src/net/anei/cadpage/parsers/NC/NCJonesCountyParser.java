@@ -23,6 +23,11 @@ public class NCJonesCountyParser extends DispatchA3Parser {
   public String getAliasCode() {
     return "NCJonesCounty";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {

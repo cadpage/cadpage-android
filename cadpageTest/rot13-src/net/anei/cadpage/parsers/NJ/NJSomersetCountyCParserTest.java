@@ -75,7 +75,7 @@ choyvp pynff AWFbzrefrgPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:38I",
         "PNYY:Pne sver",
         "NQQE:V 287 & AO 14.5",
-        "ZNQQE:V 287 &  14.5",
+        "ZNQQE:V 287 & 14.5",
         "PVGL:Oevqtrjngre",
         "HAVG:6N1,30-101,30-102,FZP801,SSQ2,SSQ");
 

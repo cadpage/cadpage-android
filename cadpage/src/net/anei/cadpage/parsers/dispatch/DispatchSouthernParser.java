@@ -478,7 +478,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
         // further back
         if (data.strPlace.length() > 0 && field.startsWith(data.strPlace)) {
           if (data.strPlace.endsWith("/")) {
-            data.strAddress = append(data.strPlace.substring(0,data.strPlace.length()-1).trim(), " & ", data.strAddress);
+            String place = data.strPlace.substring(0,data.strPlace.length()-1).trim().replace('/', '&');
+            data.strAddress = append(place, " & ", data.strAddress);
             data.strPlace = "";
           } else {
             int flags = FLAG_CHECK_STATUS | FLAG_AT_SIGN_ONLY | FLAG_ANCHOR_END;

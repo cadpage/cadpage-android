@@ -25990,9 +25990,8 @@ choyvp pynff CNOrexfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:PB39",
         "PNYY:NSN - Sver Nynez",
-        "NQQE:1194 UHSSF PUHEPU EQ & UNIRA O&O",
-        "ZNQQE:1194 UHSSF PUHEPU EQ",
-        "NCG:Y",
+        "NQQE:1194 UHSSF PUHEPU EQ",
+        "NCG:YNAQ UNIRA O&O",
         "PVGL:URERSBEQ",
         "CYNPR:YNAQ UNIRA",
         "K:UHAGRE SBETR EQ / PBAENQ EQ",

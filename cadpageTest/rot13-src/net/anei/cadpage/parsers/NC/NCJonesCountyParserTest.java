@@ -14050,7 +14050,6 @@ choyvp pynff APWbarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G23",
         "Pbzzhavpngvba: 203 YN JNAR YA GERAGBA R-FGNO/THAFU 27 - FGNO / THAFUBG/ CRARGENGVAT GENHZN Yvar16= Yvar17= Yvar18=",
         "NQQE:203 YN JNAR YA",
-        "ZNQQE:203 YA JNAR YA",
         "PVGL:GERAGBA",
         "PBQR:R-FGNO/THAFU 27",
         "PNYY:FGNO / THAFUBG/ CRARGENGVAT GENHZN");

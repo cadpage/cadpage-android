@@ -20,6 +20,11 @@ public class COMesaCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Dispatch")) return false;
     return super.parseMsg(body, data);
@@ -36,6 +41,7 @@ public class COMesaCountyParser extends FieldProgramParser {
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
+      if (field.equals("No Cross Streets Found")) return;
       field = field.replace("UNKNOWN", "").trim();
       field = stripFieldStart(field, "/");
       field = stripFieldEnd(field, "/");
@@ -58,6 +64,12 @@ public class COMesaCountyParser extends FieldProgramParser {
     public String getFieldNames() {
       return "DATE TIME INFO";
     }
+  }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = addr.replace("HWY 6 & 50", "HWY 50");
+    return super.adjustMapAddress(addr);
   }
   
 }

@@ -62,9 +62,8 @@ choyvp pynff APUnyvsnkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "UnyvsnkPbR911@UnyvsnkAP911.pbz F: Z:UnyvsnkPbR911:* UJL 158 // NIR* * * EBNABXR ENCVQF* * * * * JERPX ABCV* * * * RZF4,RZF6,SV14* * * * *",
-        "NQQE:UJL 158",
+        "NQQE:UJL 158 & NIR",
         "PVGL:EBNABXR ENCVQF",
-        "CYNPR:NIR",
         "PNYY:JERPX ABCV",
         "HAVG:RZF4,RZF6,SV14");
 
@@ -110,9 +109,9 @@ choyvp pynff APUnyvsnkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "UnyvsnkPbR911:* BQRYY YVGGYRGBA EQ // ARNE CNAPRN FCEVATF* * * YVGGYRGBA* * * * SVER-OEHFU* * * * SV21* * * * *",
-        "NQQE:BQRYY YVGGYRGBA EQ",
+        "NQQE:BQRYY YVGGYRGBA EQ & ARNE CNAPRN FCEVATF",
+        "ZNQQE:BQRYY YVGGYRGBA EQ & CNAPRN FCEVATF",
         "PVGL:YVGGYRGBA",
-        "CYNPR:ARNE CNAPRN FCEVATF",
         "VASB:SVER-OEHFU",
         "HAVG:SV21");
 
@@ -125,9 +124,8 @@ choyvp pynff APUnyvsnkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "UnyvsnkPbR911:* SNHPRGGR FGBER EQ // 158* * * YVGGYRGBA* * * * * JERPX HAXCV* * * * SV21,ZRQ1,E154,FUC1* * * *",
-        "NQQE:SNHPRGGR FGBER EQ",
+        "NQQE:SNHPRGGR FGBER EQ & 158",
         "PVGL:YVGGYRGBA",
-        "CYNPR:158",
         "PNYY:JERPX HAXCV",
         "HAVG:SV21,ZRQ1,E154,FUC1");
 
