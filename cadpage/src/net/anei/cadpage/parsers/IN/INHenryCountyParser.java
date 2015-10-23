@@ -11,7 +11,8 @@ import net.anei.cadpage.parsers.MsgParser;
  */
 public class INHenryCountyParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("([- A-Z0-9]+)@([^\\*\n]+)\\*([^\\|\n]*)\\|(.*)");
+  private static final Pattern MASTER1 = Pattern.compile("([- A-Z0-9]+)\\|([^:\n]+):([^\\|\n]*)\\|(.*)");
+  private static final Pattern MASTER2 = Pattern.compile("([- A-Z0-9]+)@([^\\*\n]+)\\*([^\\|\n]*)\\|(.*)");
   
   public INHenryCountyParser() {
     super("HENRY COUNTY", "IN");
@@ -31,7 +32,8 @@ public class INHenryCountyParser extends MsgParser {
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
     
-    Matcher match = MASTER.matcher(body);
+    Matcher match = MASTER1.matcher(body);
+    if (!match.matches()) match = MASTER2.matcher(body);
     if (!match.matches()) return false;
     data.strCall = match.group(1).trim();
     parseAddress(match.group(2).trim(), data);

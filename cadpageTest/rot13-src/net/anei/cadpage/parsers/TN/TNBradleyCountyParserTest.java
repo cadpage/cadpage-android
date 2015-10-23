@@ -29,6 +29,8 @@ PYRIRYNAQGA911: Oenqyrl PB 911:* 162 Ubyybj Eq AR* * * * * * * * Npp Vaw* * * * 
 Pbagnpg: Qba Gnaxrefyrl <qbagnaxrefyrl@lnubb.pbz>
 Fraqre: 777
 911:*\a 5667 Sebagntr Eq AJ*\a *\a *\a *\a *\a *\a *\a *\a Pneoba Zbabk*\a *\a *\a *\a *\a *\a *\a *\a *
+PYRIRYNAQGA911: Oenqyrl PB 911:*\a 3125 Gbavn Qe FJ*\a *\a *\a *\a *\a *\a *\a *\a Purfg Cnvaf*\a *\a *\a *\a *\a *\a *\a *\a *
+PYRIRYNAQGA911: Oenqyrl PB 911:*\a 3211 Abggvatunz Pve FR*\a *\a *\a *\a *\a *\a *\a *\a Nynez Sver*\a *\a *\a *\a *\a *\a *\a *\a *
 
  */
 
@@ -144,6 +146,16 @@ choyvp pynff GAOenqyrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911:*\a 5667 Sebagntr Eq AJ*\a *\a *\a *\a *\a *\a *\a *\a Pneoba Zbabk*\a *\a *\a *\a *\a *\a *\a *\a *",
         "NQQE:5667 Sebagntr Eq AJ",
         "PNYY:Pneoba Zbabk");
+
+    qbGrfg("G2",
+        "PYRIRYNAQGA911: Oenqyrl PB 911:*\a 3125 Gbavn Qe FJ*\a *\a *\a *\a *\a *\a *\a *\a Purfg Cnvaf*\a *\a *\a *\a *\a *\a *\a *\a *",
+        "NQQE:3125 Gbavn Qe FJ",
+        "PNYY:Purfg Cnvaf");
+
+    qbGrfg("G3",
+        "PYRIRYNAQGA911: Oenqyrl PB 911:*\a 3211 Abggvatunz Pve FR*\a *\a *\a *\a *\a *\a *\a *\a Nynez Sver*\a *\a *\a *\a *\a *\a *\a *\a *",
+        "NQQE:3211 Abggvatunz Pve FR",
+        "PNYY:Nynez Sver");
 
   }
   

@@ -15,7 +15,7 @@ public class NCHavelockParser extends DispatchA9Parser {
   
   @Override
   public String getFilter() {
-    return "egov-info@havelocknc.us";
+    return "egov-info@havelocknc.us,egovinfo@havelocknc.us";
   }
   
 }
