@@ -29,6 +29,8 @@ Ntrapl anzr: OISEQ
 Ybpngvba: Oevresvryq, NY, Havgrq Fgngrf
 Fraqre: Neaf Nyreg <neaf@furyol911.bet>
 
+{Arj Rirag: SVER1521011} 2015-09-16 21:02:30\e\aSVER1521011\e\aOEVRESYQ - OESQ\e\aPURFGCNVA\e\a495 RORARMRE EQ OSYQ OVO\e\a\e\aSVGPU JNL::JVYGBA JNGRE EQ
+{Arj Rirag: SVER1520972} 2015-09-16 12:41:24\e\aSVER1520972\e\aOEVRESYQ - OESQ\e\aFGEBXR\e\a652 SBERFGQNYR NPEF OSYQ OVO\e\a\e\aSERQEVPX EQ::NFUOL EQ
 (SVER1509840) 2015-05-06 13:28:35\aSVER1509840\aOEVRESYQ - ONGG1\aSVER-FGEHPGHER_PBZZ\a755 JRFG FG ZBAG ZBA: NCG P\a\aQRNQ RAQ::INYYRL FG
 (SVER1509642) 2015-05-03 20:39:42\aSVER1509642\aOEVRESYQ - OESQ\aFGNO\a452 RORARMRE EQ OSYQ OVO\a\aSVGPU JNL::JVYGBA JNGRE EQ
 (SVER1509613) 2015-05-03 14:09:14\aSVER1509613\aOEVRESYQ - OESQ\aTRARENY\aOSYQ OVO: @OESQ:1458 YNXRJBBQ PBIR\a\a::
@@ -1761,6 +1763,44 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgOISEQ() {
+
+    qbGrfg("K1",
+        "{Arj Rirag: SVER1521011} 2015-09-16 21:02:30\e\a" +
+        "SVER1521011\e\a" +
+        "OEVRESYQ - OESQ\e\a" +
+        "PURFGCNVA\e\a" +
+        "495 RORARMRE EQ OSYQ OVO\e\a" +
+        "\e\a" +
+        "SVGPU JNL::JVYGBA JNGRE EQ",
+
+        "QNGR:09/16/2015",
+        "GVZR:21:02:30",
+        "VQ:SVER1521011",
+        "FEP:OEVRESYQ",
+        "HAVG:OESQ",
+        "PNYY:PURFGCNVA",
+        "NQQE:495 RORARMRE EQ",
+        "PVGL:OEVRESVRYQ",
+        "K:SVGPU JNL/JVYGBA JNGRE EQ");
+
+    qbGrfg("K2",
+        "{Arj Rirag: SVER1520972} 2015-09-16 12:41:24\e\a" +
+        "SVER1520972\e\a" +
+        "OEVRESYQ - OESQ\e\a" +
+        "FGEBXR\e\a" +
+        "652 SBERFGQNYR NPEF OSYQ OVO\e\a" +
+        "\e\a" +
+        "SERQEVPX EQ::NFUOL EQ",
+
+        "QNGR:09/16/2015",
+        "GVZR:12:41:24",
+        "VQ:SVER1520972",
+        "FEP:OEVRESYQ",
+        "HAVG:OESQ",
+        "PNYY:FGEBXR",
+        "NQQE:652 SBERFGQNYR NPEF",
+        "PVGL:OEVRESVRYQ",
+        "K:SERQEVPX EQ/NFUOL EQ");
 
     qbGrfg("G1",
         "(SVER1509840) 2015-05-06 13:28:35\a" +

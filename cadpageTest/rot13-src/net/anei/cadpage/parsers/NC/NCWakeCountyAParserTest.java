@@ -30,6 +30,7 @@ Ntrapl anzr: Onl Yrns SQ
 Ybpngvba: Enyrvtu, AP, Havgrq Fgngrf
 Fraqre: <jpcf@jnxrtbi.pbz>
 
+{JPCF} Vap: 52O1F : \e\aZnc: 039N \e\aNqq: 1016 ZNABE TYRA JNL \e\aYbp: FUBGJRYY ERFQ \e\aNcg:  \e\aPF:  FUNQBJ BNX JNL   /   BNX PERRX EQ \e\aHag: JSR5,JSONG1,ESR22,OYY25,\e\aGT: B3\e\aPgl: JPEN \e\aPbzz: .: RP/UH, FNOEVAN\e\a. : FUBGJRYY ERFQ\e\aCEBDN PNFR QVFCNGPU -
 (JPCF) Vap: 69Q10 : \aZnc: 004I \aNqq: 9237 ZNATHZ QNVEL EQ \aYbp:  \aNcg:  \aPF:  OBYQ EHA UVYY EQ   /   JVYYBJ PERRX QE \aHag: FUC261,FUC392,FUC395,FUE26,FUGN268,JSR1,JSR5,OYY25,OYGN366,OENFF,LBHAT,SZN1,\aGT: \aPgl: JPJS \aPbzz: .: RP/FBGBZNLBE,
 (JPCF) Vap: 69Q6 : \aZnc: 003G \aNqq: 5740 CHEARYY EQ \aYbp:  \aNcg:  \aPF:  ONEYRL CY   /   BYQ FGVYY EQ \aHag: FUC392,FUC395,FUC261,FUE26,JSR1,JSR2,OYY25,OYGN366,OYGN367,PEQ,OENFF,SZN5,\aGT: \aPgl: JPJS \aPbzz: .: RP/ZVYRF, GRERFN Q\aSFGEHPGHER
 (JPCF) Vap: 52O1P : \aZnc: 027Q \aNqq: 11709 PBNPUZNAF JNL \aYbp:  \aNcg:  \aPF:  EHGYRQTR ONL   /   RQTRJNGRE PG \aHag: OYC251,OYGN257,\aGT: B1\aPgl: JPEN \aPbzz: .: RP/ZVGPURYY, WRSSERL\aPB NYNEZ ORRCVAT..\aSNYNEZF ERFVQRAGVNY (FVATYR) (PNEOBA Z
@@ -2287,6 +2288,31 @@ choyvp pynff APJnxrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgOnlYrnsSQ() {
+
+    qbGrfg("K1",
+        "{JPCF} Vap: 52O1F : \e\a" +
+        "Znc: 039N \e\a" +
+        "Nqq: 1016 ZNABE TYRA JNL \e\a" +
+        "Ybp: FUBGJRYY ERFQ \e\a" +
+        "Ncg:  \e\a" +
+        "PF:  FUNQBJ BNX JNL   /   BNX PERRX EQ \e\a" +
+        "Hag: JSR5,JSONG1,ESR22,OYY25,\e\a" +
+        "GT: B3\e\a" +
+        "Pgl: JPEN \e\a" +
+        "Pbzz: .: RP/UH, FNOEVAN\e\a" +
+        ". : FUBGJRYY ERFQ\e\a" +
+        "CEBDN PNFR QVFCNGPU -",
+
+        "PBQR:52O1F",
+        "PNYY:Nynezf - Erfvqragvny    - Fzbxr Qrgrpgbe",
+        "ZNC:039N",
+        "NQQE:1016 ZNABE TYRA JNL",
+        "CYNPR:FUBGJRYY ERFQ",
+        "K:FUNQBJ BNX JNL / BNX PERRX EQ",
+        "HAVG:JSR5,JSONG1,ESR22,OYY25",
+        "PU:B3",
+        "PVGL:JNXR PBHAGL",
+        "VASB:.: RP/UH, FNOEVAN / . : FUBGJRYY ERFQ / CEBDN PNFR QVFCNGPU -");
 
     qbGrfg("G1",
         "(JPCF) Vap: 69Q10 : \a" +
