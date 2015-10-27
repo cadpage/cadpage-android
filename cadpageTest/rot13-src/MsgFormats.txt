@@ -1542,6 +1542,11 @@ Zrpxyraohet Pbhagl, IN (INZrpxyraohetPbhaglCnefre)
 *******************************************************************************
 * QvfcngpuN48Cnefre fhopynffrf
 *******************************************************************************
+***************************************************************************
+Juvgr Pbhagl, TN (TNJuvgrPbhaglCnefre) 
+:Nf bs 10/26/15 06:39:25 2015-00055362 TSNYY - TEBHAQ YRIRY SNYY 42 NFU JBBQ YA, PYRIRYNAQ PYRIRYNAQ
+:Nf bs 10/25/15 21:57:27 2015-00055331 RINY - RINYHNGR CNGVRAG 105 OELNAG FG, PYRIRYNAQ PYRIRYNAQ 4
+:Nf bs 10/25/15 20:46:59 2015-00055325 NYEZPZ 877 RQRYJRVFF FGENFFR, URYRA URYRA ANEE JRT GNAARA JRT Havg Bet Anzr Nern Glcrf USQ URYRA SVER QRCG USQ, Ebool Ohe
 *******************************************************************************
 Juvgsvryq Pbhagl, TN (O) (TNJuvgsvryqPbhaglOCnefre) 
 (Nf bs 1/27/15 07) :Nf bs 1/27/15 07:33:38 2015-00009992 S15 - SVER NYNEZ 1250 PEBFF CYNVAF GEY, QNYGBA QNYGBA Havg Bet Anzr Nern Glcrf QR5 QNYG QS5_3, QS5_2, QS5_1G1, QS5_1, QS1_2 RAT QR1 QNYGBA SVER QRCG FGNGVBA 1 QS1_2 RAT QFD1 QNYGBA
@@ -4741,11 +4746,6 @@ Jnyxre Pbhagl, TN (TNJnyxrePbhaglCnefre)
 (!) Fzbxr Va Nern 600 PUVPXNZNHTN NIR NERN YRVAONPU EQ, PYNEX FG / R TBEQBA NIR EBFFIVYYR   FHAFRG ZNEXRG EBFFIVYYR PURPX NERN SBE FZBXR VA JBBQF ORUVAQ YBBXBHG
 (!) Yvsg Nffvfg 715 EVPUZBAQ NIR QNYR FG / R FUBEG FG EBFFIVYYR    RYQREYL SRZNYR BHG BS SYBBE  06/29/13 12:06
 (!) Oernguvat Ceboyrzf 601 JNFUVATGBA FG QRNQ RAQ / VAQVNA NIR EBFFIVYYR   EBFFIVYYR NCGF JNFUVATGBA  NCG 6104  QVSS OERNGUVAT...UK BS PBCQ NAQ UVTU OYBBQ CERFFHER
-***************************************************************************
-Juvgr Pbhagl, TN (TNJuvgrPbhaglCnefre) 
-:Nf bs 10/27/14 17:15:09 2014-00043974 USNYY - CNGVRAG SRYY 6SG BE ZBER 8758 A ZNVA FG, URYRA URYRA
-:Nf bs 10/27/14 15:45:28 2014-00043958 NYEZEF - ERFVQRAGVNY SVER NYNEZ 85 DHNVY EVQTR QE, PYRIRYNAQ PYRIRYNAQ
-:Nf bs 10/27/14 12:47:16 2014-00043935 NYGYBP 16 UVAGREFGENGGRA JRT, URYRA URYRA
 ***************************************************************************
 Juvgsvryq Pbhagl, TN (TNJuvgsvryqPbhaglNCnefre)
 JUVGSVRYQ PB. 911:S12 FS-PBZZREPVNY/VAQHFGEVNY/FPUBB 1812 XVZOREYL CNEX QE 4237188927 NYNEZ NFFVTA 3

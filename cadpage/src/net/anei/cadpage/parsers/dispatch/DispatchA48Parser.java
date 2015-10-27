@@ -176,9 +176,9 @@ public class DispatchA48Parser extends FieldProgramParser {
     } 
     
     // Handle case where subject was split off from main message and then discarded
-    else if (subject.length() == 0 && !body.startsWith("As of ")) {
-      body = "As of 99/99/99 99:" + body; 
-    }
+//    else if (subject.length() == 0 && !body.startsWith("As of ")) {
+//      body = "As of 99/99/99 99:" + body; 
+//    }
     
     if (!subject.startsWith("As of")) data.strSource = subject;
     
