@@ -111,6 +111,21 @@ Fraqre: "Zrqncbvag Qvfcngpu" <abercyl@zrqncbvag.pbz>
 {Gevc Abgvsvpngvba GEVC-03774} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 7211 Envavre Qe, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Q401</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/22 - 16:22</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R5 GNP 1\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
 {Gevc Abgvsvpngvba GEVC-03773} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Gur Pbggntrf ng Znelfivyyr - 1216 Tebir Fg    , Znelfivyyr, 98270&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Q</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/22 - 16:03</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg     , Rirergg, 98201 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 95 Srznyr SENAPRF EHFFRYY 4/20/21\aUVC NAQ XARR CK, AB SNYY\aUK QRZRAGVN\aRAGRE NG FVQR TNGR, JRFG FVQR BS CNEXVAT YBG HAVG Q\aGB CEBI RE  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: EHFFRYY&aofc;</qvi>
 
+Fhopynff UgzyCebtenzCnefre.  Guvf jvyy oernx gur UGZY grkg vagb n frevrf bs grkg svryqf gung jvyy or unaqyrq jvgu n n fgnaqneq
+SvryqCebtenzCnefre cebtenz.  Gurer vf n arj QhzcUgzyQrpbqre pynff va gur grfg cebwrpg lbh pna eha.  Srrq vg n oybpx bs grfg
+pnyyf naq vg jvyy fubj lbh ubj gur svryqf jvyy or oebxra bhg.
+
+HAVG, CEV, CYNPR/NQQERFF/PVGL jvyy arrq gb or cnefrq sebz gur svefg pbhcyr svryqf
+EBBZ: tbrf fgenvg gb NCG
+ANZR: tbrf gb ANZR
+
+Rirelguvat orgjrra EBBZ: naq ANZR: tbrf vagb vasb jvgu fbzr nqwhfgzragf
+  Qebc yvarf gung pbagnva ab vasbezngvba, be ercbeg Haxabja
+  Fvapr gurer vf abg PNYY svryq, gur svefg cneg bs VASB jvyy or qvfcynlrq
+  nf gur pnyy urnqvat.  Gb znxr guvf zber hfrshyy, gur SBE: vasbezngvba
+  fubhyq pbzr svefg, jvgubhg gur SBE: ynory.  Rirelguvat ryfr fubhyq
+  nccrne nf vf, jvgu gur xrl ynory, nyy frcnengrq ol \a
+
 */
 
 choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
