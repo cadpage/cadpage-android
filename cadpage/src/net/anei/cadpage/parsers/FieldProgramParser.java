@@ -1911,7 +1911,8 @@ public class FieldProgramParser extends SmartAddressParser {
     }
     
     public void setPattern(String pattern) {
-      setPattern(Pattern.compile(pattern));
+      Pattern ptn = (pattern == null ? null : Pattern.compile(pattern));
+      setPattern(ptn);
     }
 
     public void setPattern(Pattern pattern) {

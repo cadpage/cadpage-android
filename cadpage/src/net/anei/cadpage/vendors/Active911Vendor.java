@@ -1063,6 +1063,7 @@ class Active911Vendor extends Vendor {
       "US/VA/PrinceWilliamCounty",        "VAPrinceWilliamCounty",
       "US/VA/SouthamptonCounty",          "VASouthamptonCounty",
       "US/VA/StaffordCounty",             "VAStaffordCounty",
+      "US/VA/Suffolk",                    "VASuffolk",
       "US/VA/WarrenCounty",               "VAWarrenCounty",
       "US/VA/WarrenCounty",               "VAWarrenCounty",
       "US/VT/ChittendenCounty",           "VTChittendenCounty",
