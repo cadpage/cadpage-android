@@ -139,6 +139,7 @@ when an incident map is requested
 GPS     GPS Coordinates
 REC_GPS Y if parser recommends using GPS coordinates in preference to map address
 MADDR   Mapping address if different from incident address
+MCITY   Map city if different from reported city
 DCITY   Default City
 DST     Default State
 CO      Country code
@@ -151,7 +152,7 @@ user option or REC_GPS flag recommends use of GPS coordinates.
 When building a search string from the address information, use the following 
 information separated by commas.
 MADDR field if present, ADDR field otherwise  (Replace & with AT in result)
-CITY field if present, DCITY field otherwise
+MCITY field if present, otherwise CITY field if present, otherwise DCITY field
 ST field if present, DST field otherwise
 CO field if present
 

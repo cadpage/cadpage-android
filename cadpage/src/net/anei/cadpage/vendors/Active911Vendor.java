@@ -531,6 +531,7 @@ class Active911Vendor extends Vendor {
       "US/MN/BloomingtonFD",              "MNMinneapolisStPaul",
       "US/MN/BlueEarthCounty",            "MNBlueEarth",
       "US/MN/CarverCounty",               "MNCarverCounty",
+      "US/MN/CassCounty",                 "MNCassCounty",
       "US/MN/CityofStLouisPark",          "MNStLouisPark",
       "US/MN/CrowWingCounty",             "MNCrowWingCounty",
       "US/MN/DakotaCounty",               "MNDakotaCounty",
