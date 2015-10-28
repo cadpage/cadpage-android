@@ -5,6 +5,7 @@ vzcbeg bet.whavg.Grfg;
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 /*
+Zhfxbtrr Pbhagl, BX
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zhfxbtrr SQ
@@ -110,6 +111,31 @@ Fraqre: Cntr@zpp911.bet
 {Vapvqrag} P32 R5 R7 R1 E11  Greevgbel 5O 2101 A ZNVA FG 207 Nhfgva Urvtugf Ncgf Zhfxbtrr S Fgehpgher Sver/3 C 2015-00002458  FGBIR FZBXVAT 
 {Vapvqrag} R7 E11  Greevgbel 7N 1919 A 32AQ FG DHVX GEVC Zhfxbtrr Nppvqrag jvgu Vawhevrf 2015-00002457  Pnyy Ahzore 663 jnf perngrq sebz Pnyy Ahzore 662(Bpg 16 2015 11:07CZ)  Pnyy Ahzore 662 jnf perngrq sebz Pnyy Ahzore 661(Bpg 16 2015 11:07CZ) 
 {Vapvqrag} R7  Greevgbel 7N 300 A 40GU FG 720 Ubabe Urvtugf Gbjref Zhfxbtrr M Purfg Cnva (Aba Genhzn) 2015-00002456  Pnyy Ahzore 634 jnf perngrq sebz Pnyy Ahzore 633(Bpg 16 2015 10:20CZ)  \a22-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat.\aPP Grkg: Purfg Cnva / Purfg Qvfpbzsbeg (Aba-Genhzngvp)\aPnyyre Fgngrzrag: PURFG CNVA\aQvfcngpu Pbqr: 10Q01   Qrg. Grkg: Abg nyreg\aErfcbafr: EYF\a\aNAFJREF:\a--- Fur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).\a--- Fur vf abg oernguvat abeznyyl.  \a22-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat.\aPP Grkg: Purfg Cnva / Purfg Qvfpbzsbeg (Aba-Genhzngvp)\aPnyyre Fgngrzrag: PURFG CNVA\a  R911 Vasb - Pynff bs Freivpr: JCU2 Fcrpvny Erfcbafr Vasb: J-ERDHRFG PNYYRE #               J-IREVSL YBPNGVBA                J-GENAFSRE GB CEBC NTRAPL Hapregnvagl: 222 Pbasvqrapr: 90 
+
+Fhopynff FznegNqqerffCnefre
+ohvyq pvgl gnoyr sbe vg
+
+Purpx fhowrpg
+Fgneg jvgu n cnggrea zngpu gb vqragvsl
+HAVG
+Bcgvbany ZNC (Greevgbel)
+nqqerff/cynpr/pvgl/pnyy fgevat
+VQ
+rkgen grkg fgevat
+
+Gb oernx bhg gur nqqerff/cynpr/pvgl/pnyy fgevat pnyy
+cnefrNqqerff(FgnegGlcr.FGNEG_NQQE, SYNT_VZCYVRQ_VAGREFRPG | SYNT_CNQ_SVRYQ, ...)
+qngn.fgeCynpr = trgCnq();
+qngn.fgePnyy = trgYrsg();
+Erghea snvyher vs ab pvgl be pnyy jnf vqragvsvrq
+
+Yrnir gur M naq S pbqrf va gur pnyy qrfpevcgvba
+Gurer ner pnfrf jurer vg znl or arprffnel gb hfr n cnggrea zngpu
+gb vqragvsl n ahzrevp ncneg svryq ng gur ortvaavat bs gur cynpr svryq
+
+Gur rkgen grkg ng gur raq onfvpnyyl tbrf vagb vasb.  Ohg gel gb pyrna
+bhg haurycshy grkg.  Yvxr gur "pnyy ahzore perngrq sebz pnyy ahzore"
+naq "qvfcngpu erpvrirq ol" cuenfrf
 
  */
 
