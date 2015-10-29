@@ -7,41 +7,43 @@ import net.anei.cadpage.parsers.HtmlProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class WASnohomishCountyCParser extends HtmlProgramParser {
+
   public WASnohomishCountyCParser() {
     super("SNOHOMISH COUNTY", "WA",
-          "UNIT PRI RESPOND_TO:ADDRCITY ROOM:APT INFO INFO/N INFO/N FOR:FOR_INFO INFO/N NAME:NAME");
-  }
-
-  @Override
-  public String getProgram() {
-    return super.getProgram()+" ID";
+          "UNIT PRI! RESPOND_TO:ADDR! ROOM:APT! INFO! INFO/N+ FOR:FOR_INFO! INFO/N+ NAME:NAME!");
   }
   
   private static final Pattern SUBJECT_PATTERN
     = Pattern.compile("Trip Notification TRIP-(\\d{5})");
+  
   @Override
-  public boolean parseMsg(String subject, String body, Data data) {
+  protected boolean parseHtmlMsg(String subject, String body, Data data) {
     Matcher m = SUBJECT_PATTERN.matcher(subject);
-    if (!m.matches())
-      return false;
+    if (!m.matches()) return false;
     data.strCallId = m.group(1);
-    return super.parseMsg(body, data);
+    body = body.replace("\n", "<br/>");
+    return super.parseHtmlMsg(subject, body, data);
+  }
+
+  @Override
+  public String getProgram() {
+    return "ID " + super.getProgram();
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("UNIT")) return new UnitField("([A-Z0-9]+) YOU HAVE A CALL.*", true);
     if (name.equals("PRI")) return new PriorityField("Priority (\\d+).*", true);
-    if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("APT")) return new MyAptField();
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("FOR_INFO")) return new ForInfoField();
     if (name.equals("NAME")) return new MyNameField();
     return super.getField(name);
   }
   
-  private static final Pattern MY_ADDRESS_CITY_PATTERN
-    = Pattern.compile("(.*?),(.*?),(?: +([A-Z]{2}))? +\\d{5}");
-  private class MyAddressCityField extends AddressCityField {
+  private static final Pattern STATE_ZIP_PATTERN = Pattern.compile("([A-Z]{2})?\\b *\\b(\\d{5})?");
+  private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       int ndx = field.lastIndexOf(" - ");
@@ -49,28 +51,39 @@ public class WASnohomishCountyCParser extends HtmlProgramParser {
         data.strPlace = field.substring(0, ndx).trim();
         field = field.substring(ndx+3).trim();
       }
-      Matcher m = MY_ADDRESS_CITY_PATTERN.matcher(field);
+      Parser p = new Parser(field);
+      String city = p.getLastOptional(',');
+      Matcher m = STATE_ZIP_PATTERN.matcher(city);
       if (m.matches()) {
-        parseAddress(m.group(1).trim(), data);
-        data.strCity = m.group(2).trim();
-        data.strState = getOptGroup(m.group(3));
+        data.strState = getOptGroup(m.group(1));
+        data.strCity = getOptGroup(m.group(2));
+        city = p.getLastOptional(',');
       }
-      else
-        super.parse(field, data);
+      if (city.length() > 0) data.strCity = city;
+      super.parse(p.get(), data);
     }
     
     @Override
     public String getFieldNames() {
-      // Overriding getProgram() doesn't set call id so do it here.
-      return super.getFieldNames()+" ID PLACE ST";
+      return "PLACE " + super.getFieldNames()+" ST";
     }
   }
   
+  private static final Pattern UNKNOWN_PTN = Pattern.compile("(?:[ \\w]+: *)(?:Unknown|)");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (field.equals("Unknown") || field.equals(""))
-        return;
+      if (UNKNOWN_PTN.matcher(field).matches()) return;
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern APT_PTN = Pattern.compile("(?:ROOM|RM|APT|SUITE|LOT)?[ #]*(.*)", Pattern.CASE_INSENSITIVE);
+  private class MyAptField extends AptField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = APT_PTN.matcher(field);
+      if (match.matches()) field = match.group(1);
       super.parse(field, data);
     }
   }
@@ -78,6 +91,7 @@ public class WASnohomishCountyCParser extends HtmlProgramParser {
   private class ForInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
+      if (field.equals("Unknown")) return;
       data.strSupp = append(field, "\n", data.strSupp);
     }
   }
@@ -85,8 +99,7 @@ public class WASnohomishCountyCParser extends HtmlProgramParser {
   private class MyNameField extends NameField {
     @Override
     public void parse(String field, Data data) {
-      if (field.equals("Unknown"))
-        return;
+      if (field.equals("Unknown")) return;
       super.parse(field, data);
     }
   }
