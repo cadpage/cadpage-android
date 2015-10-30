@@ -805,6 +805,7 @@ class Active911Vendor extends Vendor {
       "US/OH/PerryCounty",                "OHPerryCounty",
       "US/OH/Sebring",                    "OHMahoningCounty",
       "US/OH/SundanceSys",                "OHSundance",
+      "US/OH/TheBeachWaterpark",          "OHWarrenCountyD",
       "US/OH/TrumbullCounty",             "OHTrumbullCounty",
       "US/OH/Vzwpix",                     "OHCuyahogaCountyD",
       "US/OH/WarrenCountyEmergitech",     "OHFranklin",

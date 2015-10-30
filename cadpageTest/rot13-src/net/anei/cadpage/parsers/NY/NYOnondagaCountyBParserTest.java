@@ -1877,7 +1877,7 @@ choyvp pynff ALBabaqntnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:EBBZ 123",
         "K:J GNSG EQ NAQ ONL PUNCRY PVE",
         "CYNPR:RYQREJBBQ URNYGU PNER",
-        "VASB:Ceboyrz: 91S VA NAQ BHG BS PBAFP / Cngvrag Ahzore: 1 / Puvrs Pbzcynvag: Hapbafpvbhf / Snvagvat (Arne) / 91-lrne-byq, Srznyr, Abg Pbafpvbhf, Oernguvat. / Qvfcngpu PNQ Pbqr: 31Q02 / Erfcbafr Grkg: Qrygn / Qrgrezvanag Yriry: Hapbafpvbhf – Rssrpgvir oernguvat / XD: Fur vf fgvyy hapbafpvbhf. / XD: Ure oernguvat vf pbzcyrgryl abezny. / NAL HAVG SBE / AHEFR BF JVGU CG .",
+        "VASB:Ceboyrz: 91S VA NAQ BHG BS PBAFP / Cngvrag Ahzore: 1 / Puvrs Pbzcynvag: Hapbafpvbhf / Snvagvat (Arne) / 91-lrne-byq, Srznyr, Abg Pbafpvbhf, Oernguvat. / Qvfcngpu PNQ Pbqr: 31Q02 / Erfcbafr Grkg: Qrygn / Qrgrezvanag Yriry: Hapbafpvbhf - Rssrpgvir oernguvat / XD: Fur vf fgvyy hapbafpvbhf. / XD: Ure oernguvat vf pbzcyrgryl abezny. / NAL HAVG SBE / AHEFR BF JVGU CG .",
         "HAVG:FQ2,FQ3",
         "FEP:ZBS");
 
@@ -1942,7 +1942,7 @@ choyvp pynff ALBabaqntnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:S-HAPBAFPVBHF CREFBA",
         "NQQE:199 OYNPXOREEL EQ",
         "K:ONLOREEL PVE NAQ PUREEL GERR PVE",
-        "VASB:GRFFVRE, F ERFQ GRFFVRE, F ERFQ / Ceboyrz: HAPC / Cngvrag Ahzore: 1 / Puvrs Pbzcynvag: Hapbafpvbhf / Snvagvat (Arne) / 71-lrne-byq, Srznyr, Abg Pbafpvbhf, Oernguvat. / Qvfcngpu PNQ Pbqr: 31Q02 / Erfcbafr Grkg: Qrygn / Qrgrezvanag Yriry: Hapbafpvbhf – Rssrpgvir oernguvat / XD: Fur vf fgvyy hapbafpvbhf. / XD: Ure oernguvat vf abg pbzcyrgryl abezny. / Engr = 84 oernguf cre zvahgr / Engr nobir Abezny* / PNYYRE 32 Q / ERD ERFPHR BA N CEVBEVGL SBE ZRQVPNY",
+        "VASB:GRFFVRE, F ERFQ GRFFVRE, F ERFQ / Ceboyrz: HAPC / Cngvrag Ahzore: 1 / Puvrs Pbzcynvag: Hapbafpvbhf / Snvagvat (Arne) / 71-lrne-byq, Srznyr, Abg Pbafpvbhf, Oernguvat. / Qvfcngpu PNQ Pbqr: 31Q02 / Erfcbafr Grkg: Qrygn / Qrgrezvanag Yriry: Hapbafpvbhf - Rssrpgvir oernguvat / XD: Fur vf fgvyy hapbafpvbhf. / XD: Ure oernguvat vf abg pbzcyrgryl abezny. / Engr = 84 oernguf cre zvahgr / Engr nobir Abezny* / PNYYRE 32 Q / ERD ERFPHR BA N CEVBEVGL SBE ZRQVPNY",
         "HAVG:FQ2,FQ4",
         "FEP:ZBS",
         "ANZR:RQJNEQF,ZNGG");
@@ -1979,7 +1979,7 @@ choyvp pynff ALBabaqntnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:S-HAPBAFPVBHF CREFBA",
         "NQQE:199 OYNPXOREEL EQ",
         "K:ONLOREEL PVE NAQ PUREEL GERR PVE",
-        "VASB:GRFFVRE, F ERFQ GRFFVRE, F ERFQ / Ceboyrz: HAPC / Cngvrag Ahzore: 1 / Puvrs Pbzcynvag: Hapbafpvbhf / Snvagvat (Arne) / 71-lrne-byq, Srznyr, Abg Pbafpvbhf, Oernguvat. / Qvfcngpu PNQ Pbqr: 31Q02 / Erfcbafr Grkg: Qrygn / Qrgrezvanag Yriry: Hapbafpvbhf – Rssrpgvir oernguvat / XD: Fur vf fgvyy hapbafpvbhf. / XD: Ure oernguvat vf abg pbzcyrgryl abezny. / Engr = 84 oernguf cre zvahgr / Engr nobir Abezny* / PNYYRE 32 Q",
+        "VASB:GRFFVRE, F ERFQ GRFFVRE, F ERFQ / Ceboyrz: HAPC / Cngvrag Ahzore: 1 / Puvrs Pbzcynvag: Hapbafpvbhf / Snvagvat (Arne) / 71-lrne-byq, Srznyr, Abg Pbafpvbhf, Oernguvat. / Qvfcngpu PNQ Pbqr: 31Q02 / Erfcbafr Grkg: Qrygn / Qrgrezvanag Yriry: Hapbafpvbhf - Rssrpgvir oernguvat / XD: Fur vf fgvyy hapbafpvbhf. / XD: Ure oernguvat vf abg pbzcyrgryl abezny. / Engr = 84 oernguf cre zvahgr / Engr nobir Abezny* / PNYYRE 32 Q",
         "HAVG:FQ2,FQ4",
         "FEP:ZBS",
         "ANZR:RQJNEQF,ZNGG");
@@ -2647,7 +2647,7 @@ choyvp pynff ALBabaqntnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1514 PURFUVER PG",
         "K:PNZOEVQTR PG NAQ QRNQ RAQ",
         "CYNPR:PNFHNY RFGNGRF GYCX (SBEZRE)",
-        "VASB:GJPOY GENIREF, EBOREG IBVC GENIREF, EBOREG IBVC / Ceboyrz: YBJ JUV OYBBQ PBHAG / Cngvrag Ahzore: 1 / Puvrs Pbzcynvag: Fvpx Crefba (Fcrpvsvp Qvntabfvf) / 74-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. / Qvfcngpu PNQ Pbqr: 26P01 / Erfcbafr Grkg: Puneyvr / Qrgrezvanag Yriry: NYGRERQ YRIRY BS PBAFPVBHFARFF / XD: Ur vf yrgunetvp. / XD: Vg'f abg xabja vs ur vf oernguvat abeznyyl. / XD: Ur qbrf abg unir nal cnva. / XD: Ur vf abg oyrrqvat (be ibzvgvat oybbq). / XD: Ab cevbevgl flzcgbzf (NYCUN pbaqvgvbaf 2–11 abg vqragvsvrq).",
+        "VASB:GJPOY GENIREF, EBOREG IBVC GENIREF, EBOREG IBVC / Ceboyrz: YBJ JUV OYBBQ PBHAG / Cngvrag Ahzore: 1 / Puvrs Pbzcynvag: Fvpx Crefba (Fcrpvsvp Qvntabfvf) / 74-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. / Qvfcngpu PNQ Pbqr: 26P01 / Erfcbafr Grkg: Puneyvr / Qrgrezvanag Yriry: NYGRERQ YRIRY BS PBAFPVBHFARFF / XD: Ur vf yrgunetvp. / XD: Vg'f abg xabja vs ur vf oernguvat abeznyyl. / XD: Ur qbrf abg unir nal cnva. / XD: Ur vf abg oyrrqvat (be ibzvgvat oybbq). / XD: Ab cevbevgl flzcgbzf (NYCUN pbaqvgvbaf 2-11 abg vqragvsvrq).",
         "HAVG:FQ1,FQ4",
         "FEP:ZBS",
         "ANZR:GENIREF,EBFRZNE");

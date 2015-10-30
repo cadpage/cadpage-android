@@ -35,6 +35,7 @@ public class Message {
     // might occur
     body = body.replace("\uFEFF", "");
     
+    
     // Decode base64 alerts
     if (body.startsWith("77u/")) {
       body = body.substring(4);
@@ -47,8 +48,9 @@ public class Message {
       }
     }
 
-    // Pesky non-breaking blanks should be turned to real blanks
-    body = body.replace('\u00A0', ' ');
+    // Replace some odd unicode characters with their closest ASCII equivalents
+    body = demimic(body);
+    
     if (! preParse) {
       this.parseAddress = fromAddress;
       this.parseSubject = subject;
@@ -56,6 +58,29 @@ public class Message {
     } else {
       preParse(fromAddress, subject, body, follow, options);
     }
+  }
+
+  public String demimic(String body) {
+    StringBuilder sb = new StringBuilder();
+    for (char chr : body.toCharArray()) {
+      switch (Character.getType(chr)) {
+      
+      case Character.SPACE_SEPARATOR:
+        chr = ' ';
+        break;
+        
+      case Character.DASH_PUNCTUATION:
+        chr = '-';
+        break;
+        
+      case Character.LINE_SEPARATOR:
+      case Character.PARAGRAPH_SEPARATOR:
+        chr = '\n';
+        break;
+      }
+      sb.append(chr);
+    }
+    return sb.toString();
   }
   
   public String getFromAddress() {

@@ -728,7 +728,7 @@ public abstract class MsgParser {
   * @return Array of data fields broken up by defined keywords
   */
  protected static String[] parseMessageFields(String body, String[] keyWords, 
-                                                char breakChar, boolean anyOrder, boolean ignoreCase) {
+                                              char breakChar, boolean anyOrder, boolean ignoreCase) {
    
    List<String> fields = new ArrayList<String>();
    int iKey = -1;  // Current key table pointer
