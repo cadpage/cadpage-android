@@ -47,7 +47,10 @@ public class ORBentonCountyParser extends FieldProgramParser {
       }
       
       // Addresses on Airport east of Belfountain should be reported as in Corvallis
-      if (EAST_AIRPORT_PTN.matcher(data.strAddress).matches()) data.strCity = "CORVALLIS";
+      if (EAST_AIRPORT_PTN.matcher(tmp).matches()) data.strCity = "CORVALLIS";
+      
+      // Some addresses on the east end of KV district are in Monmouth
+      if (EAST_MAXFIELD_CREEK_PTN.matcher(tmp).matches()) data.strCity = "MONMOUTH";
     }
     
     return true;
@@ -70,6 +73,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
   };
   
   private static final Pattern EAST_AIRPORT_PTN = Pattern.compile("\\d{4} +(?:SW +)?AIRPORT\\b.*");
+  private static final Pattern EAST_MAXFIELD_CREEK_PTN = Pattern.compile("[2-9]\\d{4} MAXFIELD CREEK\\b.*|.*\\bWARD RD\\b.*");
   
   private class MyAddressField extends AddressField {
     @Override
