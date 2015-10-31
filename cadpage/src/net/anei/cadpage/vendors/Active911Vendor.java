@@ -363,6 +363,7 @@ class Active911Vendor extends Vendor {
       "US/IL/AdamsCounty",                "ILAdamsCounty",
       "US/IL/BooneCounty",                "ILBooneCounty",
       "US/IL/ChristianCounty",            "ILChristianCounty",
+      "US/IL/CityofColumbia",             "ILColumbia",
       "US/IL/CityofElgin",                "ILElgin",
       "US/IL/CityofJoppa",                "ILMassacCounty",
       "US/IL/CityofMountOlive",           "ILMacoupinCounty",
