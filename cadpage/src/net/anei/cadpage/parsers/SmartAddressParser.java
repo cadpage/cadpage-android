@@ -519,7 +519,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_SINGLE_WORD_ROAD, "TURNPIKE");
     setupDictionary(ID_BLOCK, "BLK", "BLOCK");
     setupDictionary(ID_NUMBER_SUFFIX, "ND", "RD", "TH");
-    setupDictionary(ID_NOT_STREET_NAME, "ON", "NO", "IN", "AT", "THE");
+    setupDictionary(ID_NOT_STREET_NAME, "ON", "NO", "IN", "AT", "THE", "-");
     
     // Set up special cross street names
     addCrossStreetNames(
@@ -2757,9 +2757,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // and bail out.  This is only a problem if we are still in the address proper
     // If we have passed the address and are now in apt or cross fields, illegal
     // character tokens are OK
-    if (!pastAddr && (
-        badCharPtn.matcher(token).find() ||
-        token.equals("-"))) {
+    if (!pastAddr && badCharPtn.matcher(token).find()) {
       tokenType[ndx] |= ID_NOT_ADDRESS;
       return;
     }

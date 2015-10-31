@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10272015</string>
-  <string name="release_version">v1.8.71</string>
+  <string name="release_date">10312015</string>
+  <string name="release_version">v1.8.72</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.72\n
+New Locations:\n
+Suisun City, CA (alt)\n
+Montgomery County, OH (alt)\n
+Snohomish County, WA (alt)\n
+\n
+Location Fixes:\n
+Yuma County, AZ\n
+Benton County, OH\n
+Clallam County, WA\n
+New South Wales, AU\n
+\n
 v1.8.71\n
 Location Fixes:\n
 Yuma County, AZ\n
@@ -63,17 +75,7 @@ v1.8.68\n
 Location Fixes:\n
 Yuma County, AZ\n
 Clark County, NV\n
-Crook County, OR\n
-\n
-v1.8.67\n
-Location Fixes:\n
-Yuma County, AZ\n
-New Castle County, DE\n
-Madison County, IL\n
-lauderdale County, MS\n
-Keene County Mutual Aid, NH\n
-Benton County, OR\n
-Bradley County, TN
+Crook County, OR
   </string>
 </resources>
   

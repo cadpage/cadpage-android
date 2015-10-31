@@ -927,8 +927,7 @@ choyvp pynff MNHArjFbhguJnyrfOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:08/13/2015",
         "GVZR:20:50:21",
         "FEP:JVAZNYRR",
-        "PNYY:VAPVQRAG FGBC",
-        "VASB:CYRNFR FGNAQ QBJA");
+        "PNYY:VAPVQRAG FGBC - CYRNFR FGNAQ QBJA");
 
     qbGrfg("G12",
         "{12 Nhthfg 2015 15:46:21 JVAZNYRR VAPVQRA...} 12 Nhthfg 2015 15:46:21 JVAZNYRR VAPVQRAG PNYY",
