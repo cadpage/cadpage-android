@@ -11,7 +11,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CTWindhamCountyAParser extends SmartAddressParser {
   
-  private static final Pattern CHANNEL_PTN = Pattern.compile("(?:^| +)(UHF-\\d|\\d\\d\\.\\d\\d|\\d{3}|\\b(?:KILLINGLY|UNION) \\d{3}|HIGH-BAND) +");
+  private static final Pattern UNIT_PTN = Pattern.compile("([ A-Za-z0-9]+?)  +");
+  private static final Pattern CHANNEL_PTN = Pattern.compile("(UHF-\\d|\\d\\d\\.\\d\\d|\\d{3}|\\b(?:EKONK|KILLINGLY|UNION|THOMPSON) \\d{3}|HIGH-BAND) +");
   private static final Pattern PRIORITY_PTN = Pattern.compile("^PRI +(\\d) +");
   private static final Pattern TIME_PTN = Pattern.compile("\\d\\d:\\d\\d");
   private static final Pattern RESERVE_CALL_PTN = Pattern.compile(".*(?:CALL FROM|ALERT|ALARM|APPLIANCE FIRE|FALL INJURY|INJURED PERSON|LIFT ASSIST|VEHICLE ACCIDENT)\\b", Pattern.CASE_INSENSITIVE);
@@ -35,18 +36,23 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
   public boolean parseMsg(String subject, String body, Data data) {
     
     if (subject.length() != 0) {
-      if (subject.endsWith(" Page")) subject = subject.substring(0, subject.length()-5).trim();
+      subject = stripFieldEnd(subject, " Page");
       data.strSource = subject;
     }
     
-    Matcher match = CHANNEL_PTN.matcher(body);
-    if (!match.find()) return false;
-    data.strUnit = body.substring(0,match.start()).replaceAll("  +", " ");
-    data.strChannel = match.group(1);
+    Matcher  match = UNIT_PTN.matcher(body);
+    if (!match.lookingAt()) return false;
+    data.strUnit = match.group(1);
     body = body.substring(match.end());
     
+    match = CHANNEL_PTN.matcher(body);
+    if (match.lookingAt()) {
+      data.strChannel = match.group(1);
+      body = body.substring(match.end());
+    }
+    
     match = PRIORITY_PTN.matcher(body);
-    if (match.find()) {
+    if (match.lookingAt()) {
       data.strPriority = match.group(1);
       body = body.substring(match.end()).trim();
     }

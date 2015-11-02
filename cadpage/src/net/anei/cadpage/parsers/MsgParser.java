@@ -728,7 +728,7 @@ public abstract class MsgParser {
   * @return Array of data fields broken up by defined keywords
   */
  protected static String[] parseMessageFields(String body, String[] keyWords, 
-                                                char breakChar, boolean anyOrder, boolean ignoreCase) {
+                                              char breakChar, boolean anyOrder, boolean ignoreCase) {
    
    List<String> fields = new ArrayList<String>();
    int iKey = -1;  // Current key table pointer
@@ -1086,7 +1086,7 @@ public abstract class MsgParser {
   * @param parseCity true if cities should be parsed with dashes
   */
  private static final Pattern INTERSECT = Pattern.compile("/|&");
- private static final Pattern APT = Pattern.compile("(?!^)(?!RMP|SUITES)((?:APTS|\\bAPT(?!S)|\\bUNIT|\\bSUITE|\\bROOM|\\bSTE|\\bRM|\\bFLOOR|\\bFLR|\\bLOT)(?![A-Z].)|#APT|#)[ #\\.:]*(.+)$",Pattern.CASE_INSENSITIVE);
+ private static final Pattern APT = Pattern.compile("(?!^)(?!RMP|SUITES)((?:APTS|\\bAPT(?!S)|\\bUNIT|\\bSUITE|\\bROOM|\\bSTE|\\bRM|\\bFLOOR|\\bFLRS?|\\bLOT)(?![A-Z].)|#APT|#)[ #\\.:]*(.+)$",Pattern.CASE_INSENSITIVE);
  private static final Pattern DOT = Pattern.compile("\\.(?!\\d)");
  private static final Pattern DOUBLE_SLASH = Pattern.compile("//+");
  private static void parseAddress(String addressLine, MsgInfo.Data data, 
@@ -1104,7 +1104,7 @@ public abstract class MsgParser {
    Matcher match = APT.matcher(addressLine);
    if (match.find()) {
      String sPrefix = match.group(1);
-     if (!sPrefix.startsWith("FL")) sPrefix = "";
+     if (!sPrefix.toUpperCase().startsWith("FL")) sPrefix = "";
      data.strApt = append(sPrefix, " ", match.group(2));
      addressLine = addressLine.substring(0,match.start()).trim();
    }

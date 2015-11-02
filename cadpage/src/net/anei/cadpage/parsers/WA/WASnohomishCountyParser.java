@@ -8,6 +8,6 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class WASnohomishCountyParser extends GroupBestParser {
   
   public WASnohomishCountyParser() {
-    super(new WASnohomishCountyAParser(), new WASnohomishCountyBParser());
+    super(new WASnohomishCountyAParser(), new WASnohomishCountyBParser(), new WASnohomishCountyCParser());
   }
 }

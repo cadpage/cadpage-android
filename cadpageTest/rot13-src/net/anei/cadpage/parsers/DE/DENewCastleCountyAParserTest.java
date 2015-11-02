@@ -218,7 +218,7 @@ choyvp pynff QRArjPnfgyrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:PBAPBEQ CX & ZG YRONABA EQ",
         "ZNQQE:PBAPBEQ CVXR & ZG YRONABA EQ",
         "CYNPR:GNYYRLIVYYR",
-        "VASB:QFP:ZIP! CNG:1 FRK:Srznyr NTR:25Lrnef PBA:L OER:L");
+        "VASB:-QFP:ZIP-! CNG:1 FRK:Srznyr NTR:25Lrnef PBA:L OER:L");
 
     qbGrfg("G13",
         "15:50G:52O1T (Y1*ERF SVER NYNEZ~TRARENY NYNE) Y:401 PNZCORYY EQ ,XP *TERRAIVYYR - K:XRAARGG CX ~ ZVAXRE PG : nsn.",
@@ -243,7 +243,7 @@ choyvp pynff QRArjPnfgyrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:PBAPBEQ CX & VAGREFGNGR 95",
         "ZNQQE:PBAPBEQ CVXR & VAGREFGNGR 95",
         "CYNPR:YV:SEBZ 202 BAGB 95 FBHGU",
-        "VASB:QFP:ZIP! CNG:1 FRK:Znyr NTR:25Lrnef PBA:L OER:L");
+        "VASB:-QFP:ZIP-! CNG:1 FRK:Znyr NTR:25Lrnef PBA:L OER:L");
 
     qbGrfg("G16",
         "09:02G:69Q6 (Y3*ERFVQRAGVNY SVER) Y:15 TYRAEBPX QE ,E5 *ENQABE TERRA - K:ORAAVAT EQ ~ CRAAFLYINAVN NI : sver",
@@ -282,7 +282,7 @@ choyvp pynff QRArjPnfgyrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:5350 OENAQLJVAR CL",
         "ZNQQE:5350 OENAQLJVAR CXJL",
         "CYNPR:PUEVFGZNF GERR FUB uvtu kfg: ANNZNAF EQ *OENAQLJVAR GBJAR PRAGRE",
-        "VASB:QFP:FHOW FGEHPX! CNG:1 FRK:Srznyr NTR:30Lrnef PBA:L OER:L");
+        "VASB:-QFP:FHOW FGEHPX-! CNG:1 FRK:Srznyr NTR:30Lrnef PBA:L OER:L");
   
     qbGrfg("G21",
         "Fhowrpg:24PNQ\a[rSO] S00 21:22 1 - G:Z10Q2 (PURFG CNVAF-QVSS FCRNXVAT ORGJ) Y:1000 FABJL RTERG YN ,NTP2 ogja CBYR OEVQTR EQ ~ OBOJUVGR \aPG *NHTHFGVAR PERRX VV - QRFP:??QFP:PURFG CNVA?! CNG:1 FRK:Znyr NTR:52Lrnef PBA:L OER:L\a",
@@ -327,7 +327,7 @@ choyvp pynff QRArjPnfgyrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:160 NPNQRZL FG",
         "CYNPR:QENXR UNYY / HQ PRAGENY ZNYY - YV:EZ #054",
         "K:R QRYNJNER NI & YBIRGG NI",
-        "VASB:QFP:QVMML, CNFFRQ BHG! CNG:1 FRK:Srznyr NTR:19Lrnef PBA:L OER:L");
+        "VASB:-QFP:QVMML, CNFFRQ BHG-! CNG:1 FRK:Srznyr NTR:19Lrnef PBA:L OER:L");
 
     qbGrfg("G26",
         "[SO] S00 10:25 1 - G:Z29O1 (ZIP) Y:YVOENEL NI~R ZNVA FG ,CX *ARJNEX - YV:VSB ZPQBANYQF - QRFP:",
