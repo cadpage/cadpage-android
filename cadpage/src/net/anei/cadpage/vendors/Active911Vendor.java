@@ -1118,6 +1118,7 @@ class Active911Vendor extends Vendor {
       "US/WV/RaleighCounty",              "WVRaleighCounty",
       "US/WV/RoaneCounty",                "WVRoaneCounty",
       "US/WV/Wyoming",                    "WVWyomingCounty",
+      "US/WV/WoodCounty",                 "WVWoodCounty",
       "US/WY/ParkCounty",                 "WYParkCounty",
       "Utility/General/Default",          "N/A",
       "Utility/General/Fail",             "N/A",
