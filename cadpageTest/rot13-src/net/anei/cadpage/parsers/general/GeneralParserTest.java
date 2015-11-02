@@ -13,13 +13,17 @@ choyvp pynff TrarenyCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgCeboyrz() {
-  }
-  
-  
-  @Grfg
   choyvp ibvq grfgOnqZft() {
     qbOnqGrfg("OVT TERRA SEBT");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCeboyrzf() {
+    qbGrfg("INCvggflyinavnPbhagl", "ogi1==746ro8n138r==PNQ@cvggtbi.bet 533:PNQ:SVER NYNEZ;4009 CVGGJBBQ QE;QNA;2015047805;TBYS PYHO EQ;EBOREGFBA YA;[CEBDN] *** Pnyy Nobegrq *** 10.[1 bs 2]",
+        "PNYY:SVER NYNEZ",
+        "NQQE:4009 CVGGJBBQ QE",
+        "K:TBYS PYHO EQ & EBOREGFBA YA",
+        "VASB:QNA; 2015047805; [CEBDN] * Pnyy Nobegrq * 10.");
   }
   
   @Grfg
