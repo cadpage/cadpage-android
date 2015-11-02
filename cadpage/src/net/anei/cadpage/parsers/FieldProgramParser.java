@@ -2605,7 +2605,12 @@ public class FieldProgramParser extends SmartAddressParser {
     if (match.matches()) {
       data.strAddress = append(data.strAddress, " & ", match.group(2));
       return getOptGroup(match.group(1));
-    } 
+    }
+    
+    if (APT_ADDR_PTN.matcher(field).matches()) {
+      data.strAddress = append(data.strAddress, " ", field);
+      return "";
+    }
 
     if (aptField && isNotExtraApt(field)) {
       data.strAddress = append(data.strAddress, " ", field);
@@ -2618,6 +2623,7 @@ public class FieldProgramParser extends SmartAddressParser {
     return field;
   }
   private static final Pattern SPEC_APT_INTERSECT_PTN = Pattern.compile("(?!\\d/\\d$)(?:([A-Z0-9]{1,3}) *)?(?:[&/]|\\bAND\\b|\\bOFF\\b) *(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern APT_ADDR_PTN = Pattern.compile("(?:NORTH|SOUTH|EAST|WEST) OF .*");
   
   /**
    * Special Apartment field processor

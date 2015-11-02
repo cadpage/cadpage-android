@@ -12886,9 +12886,8 @@ choyvp pynff APCvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:20:32",
         "PNYY:ZIP CV ZBGBEPLPYR",
         "VASB:ABEGU",
-        "CYNPR:ARNE OYHR ONAXF SNEZ EQ",
-        "NQQE:AP 43",
-        "ZNQQE:FGNGR 43");
+        "NQQE:AP 43 ARNE OYHR ONAXF SNEZ EQ",
+        "ZNQQE:FGNGR 43 & OYHR ONAXF SNEZ EQ");
 
     qbGrfg("G19",
         "(911 Sver Pnyy) S12|Epiq:06/10/2014 10:31|Efa:ZIP EBYYBIRE|Abgr:AP 43 A | NNEBA PV|Nqe:0  -",
@@ -16217,9 +16216,8 @@ choyvp pynff APCvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:06/01/2014",
         "GVZR:17:05",
         "PNYY:ZIP CV",
-        "K:ARNE TNEQAREIVYYR EQ",
-        "NQQE:FGBXRFGBJA-FG WBUAF EQ",
-        "ZNQQE:FGBXRFGBJA-FG WBUAF EQ & & TNEQAREIVYYR EQ");
+        "NQQE:FGBXRFGBJA-FG WBUAF EQ ARNE TNEQAREIVYYR EQ",
+        "ZNQQE:FGBXRFGBJA-FG WBUAF EQ & TNEQAREIVYYR EQ");
 
     qbGrfg("G14",
         "(911 Sver Pnyy) S45|Epiq:05/26/2014 14:25|Efa:OEHFU SVER|Abgr:5619 TNEQAREIVYYR EQ|Nqe:0  -",

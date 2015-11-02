@@ -19,6 +19,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   public NYNassauCountyFiretrackerParser() {
     super("NASSAU COUNTY", "NY", 
            "ADDR/SCP! C/S:X HYD:HYD DATE:DATE TOA:TIME Town_Of:CITY");
+    setupSaintNames("JOHNS");
   }
   
   @Override

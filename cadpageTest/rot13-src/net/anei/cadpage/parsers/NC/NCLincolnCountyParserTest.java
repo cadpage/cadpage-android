@@ -7619,8 +7619,7 @@ choyvp pynff APYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:06Q02",
         "PNYY:OERNGUVAT CEBOYRZF",
         "NQQE:3718 SVRYQUNIRA PG",
-        "K:NPEBFF SVRYQ PG",
-        "VASB:Qvfcngpu Pbqr: 06Q02 (QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF) Erfcbafr: Ubg RZF / Erfphr / Sver Erfcbafr Puvrs Pbzcynvag: Oernguvat Ceboyrzf 55 / lrne / byq, Srznyr, Pbafpvbhf, Oernguvat. Dhrfgvbaf: Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). Fur unf qvssvphygl fcrnxvat orgjrra oernguf.",
+        "VASB:NPEBFF SVRYQ PG / Qvfcngpu Pbqr: 06Q02 (QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF) Erfcbafr: Ubg RZF / Erfphr / Sver Erfcbafr Puvrs Pbzcynvag: Oernguvat Ceboyrzf 55 / lrne / byq, Srznyr, Pbafpvbhf, Oernguvat. Dhrfgvbaf: Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). Fur unf qvssvphygl fcrnxvat orgjrra oernguf.",
         "QNGR:08/05/14",
         "GVZR:00:36:35");
 

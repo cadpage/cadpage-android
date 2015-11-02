@@ -587,7 +587,7 @@ public class MsgInfo {
   private static final Pattern TP_PTN = Pattern.compile("\\b(?:TP|TRPK)\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern PA_PTN = Pattern.compile("\\bPA\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern PLAZ_PTN = Pattern.compile("\\bPLAZ\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern NEAR_PTN = Pattern.compile("\\b(?:NEAR|OFF)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern NEAR_PTN = Pattern.compile("\\b(?:NEAR|OFF(?: OF)?)\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern TE_PTN = Pattern.compile("\\bTE\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern WK_PTN = Pattern.compile("\\bWK\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern RCH_PTN = Pattern.compile("\\bRCH\\b", Pattern.CASE_INSENSITIVE);
@@ -710,7 +710,7 @@ public class MsgInfo {
   
   // Clean up and NB, SB, EB, or WB words
 
-  private static final Pattern DIRBOUND_PAT = Pattern.compile("[\\s]*(?:(?<![A-Z])(?:NB|SB|EB|WB)|NORTHBOUND|EASTBOUND|SOUTHBOUND|WESTBOUND)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DIRBOUND_PAT = Pattern.compile("[\\s]*(?:(?<![A-Z])(?:NB|SB|EB|WB)|NORTHBOUND|EASTBOUND|SOUTHBOUND|WESTBOUND)(?: ON)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern END_JUNK_PAT = Pattern.compile("[-,\\s]+(?=$| &)");
   private String cleanBounds(String sAddr) {
     sAddr = DIRBOUND_PAT.matcher(sAddr).replaceAll("").trim();

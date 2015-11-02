@@ -60,7 +60,24 @@ public class NCPittCountyParser extends FieldProgramParser {
     } else if (data.strSupp.equals("SAME")) {
       data.strSupp = "";
     }
+    
+    if (data.strPlace.startsWith("NEAR ")) {
+      String place = data.strPlace.substring(5).trim();
+      if (isValidAddress(place)) {
+        data.strAddress = append(data.strAddress, " ", data.strPlace);
+        data.strPlace = "";
+      }
+    }
     return true;
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d", true);
+    if (name.equals("SAME")) return new SkipField("SAME", true);
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
   }
   
   private class MyCrossField extends CrossField {
@@ -71,7 +88,9 @@ public class NCPittCountyParser extends FieldProgramParser {
         data.strCross = field.substring(0,pt).trim();
         data.strPlace = field.substring(pt+1).trim();
       } else {
-        if (isValidAddress(field)) {
+        if (field.startsWith("NEAR ")) {
+          data.strPlace = field;
+        } if (isValidAddress(field)) {
           data.strCross = field;
         } else {
           data.strPlace = field;
@@ -91,14 +110,5 @@ public class NCPittCountyParser extends FieldProgramParser {
       if (field.equals("0") || field.startsWith("0 ")) field = "";
       super.parse(field, data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d", true);
-    if (name.equals("SAME")) return new SkipField("SAME", true);
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    return super.getField(name);
   }
 }

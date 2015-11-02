@@ -20,6 +20,7 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     super(CITY_LIST, "WASHINGTON COUNTY", "MD",
         "ADDR/SXP CITY? X? CALL! CALL+? ( TRAIL1! END | UNIT UNIT+? ( TRAIL2! END | INFO+? TRAIL3! END ) )");
     addExtendedDirections();
+    removeWords("CV");
   }
   
   @Override

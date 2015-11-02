@@ -233,7 +233,7 @@ public class WVMineralCountyParser extends FieldProgramParser {
       
 
       // OK, we got the address and possible the thing after the address
-      // not process everything else
+      // now process everything else
       for (int ndx = addrNdx+1; ndx < parts.length; ndx++) {
         processPart(parts[ndx], true, data);
       }
@@ -275,14 +275,16 @@ public class WVMineralCountyParser extends FieldProgramParser {
       
       if (!forceInfo) return false;
       
-      if (!NO_CROSS_PREFIX_PTN.matcher(part).matches() && isValidAddress(part)) {
-        match = CROSS_PREFIX_PTN.matcher(part);
-        if (match.matches()) part = match.group(1);
-        
-        data.strCross = append(data.strCross, " / ", part);
-      } else {
-        data.strSupp = append(data.strSupp, ", ", part);
-      }
+      if (!NO_CROSS_PREFIX_PTN.matcher(part).matches()) {
+        String cross = part;
+        match = CROSS_PREFIX_PTN.matcher(cross);
+        if (match.matches()) cross = match.group(1);
+        if (isValidAddress(cross)) {
+          data.strCross = append(data.strCross, " / ", cross);
+          return true;
+        }
+      } 
+      data.strSupp = append(data.strSupp, ", ", part);
       return true;
       
     }

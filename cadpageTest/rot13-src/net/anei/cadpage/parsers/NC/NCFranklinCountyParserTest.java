@@ -3464,8 +3464,8 @@ choyvp pynff APSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G35",
         "YTEVSSVA:0 401 naq 98 LBHATFIVYYR, 15:00:29, 10-50 CQ, AB ERFHR / OBK GEHPX / OYHR ENI 4 / VA GUR EQ",
-        "NQQE:401",
-        "NCG:naq 98",
+        "NQQE:401 naq 98",
+        "ZNQQE:401 & 98",
         "PVGL:LBHATFIVYYR",
         "GVZR:15:00:29",
         "PNYY:10-50 CQ",
@@ -7477,8 +7477,8 @@ choyvp pynff APSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G16",
         "XPBTQVYY:303 A ZNVA FG/FHAFRG YBHVFOHET, 17:43:14, GENAFSBEZRE SVER, GENAFSBEZRE VA GUR EBNQJNL",
-        "NQQE:303 A ZNVA FG & FHAFRG",
-        "ZNQQE:303 A ZNVA FG",
+        "NQQE:303 A ZNVA FG",
+        "K:FHAFRG",
         "PVGL:YBHVFOHET",
         "GVZR:17:43:14",
         "PNYY:GENAFSBEZRE SVER",
@@ -13542,9 +13542,8 @@ choyvp pynff APSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G68",
         "OSVRYQF:0 HF 64 UJL WHFG CEVBE GB ZVYR ZNEXRE 441 MROHYBA, ZQY 29O04-K, 03:02:00, 10-50 CV, NQI ERQ IRU VA JRFG OBHAQ YA,,,NQI VA GUR ZRQVNA,,",
-        "NQQE:HF 64 UJL",
-        "ZNQQE:HF 64",
-        "NCG:WHFG CEVBE GB ZVYR ZNEXRE 441",
+        "NQQE:HF 64 UJL WHFG CEVBE GB ZVYR ZNEXRE 441",
+        "ZNQQE:HF 64 WHFG CEVBE GB ZVYR ZNEXRE 441",
         "PVGL:MROHYBA",
         "PBQR:29O04-K",
         "GVZR:03:02:00",

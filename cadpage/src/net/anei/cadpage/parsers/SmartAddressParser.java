@@ -477,7 +477,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "HILL", "TRACE", "STREET", "MILE", "BAY", "NOTCH", "END", "LOOP", "ESTATES",
         "SQUARE", "WALK", "CIRCLE", "GROVE", "HT", "HTS", "HEIGHTS", "BEND", "VALLEY",
         "WAY", "GATEWAY", "KNOLL", "COVE", "ARCH", "BYPASS", "ESTS", "ESTATES", "CUTOFF",
-        "TERRACE", "PLAZA", "LANE", "PARKWAY");
+        "TERRACE", "PLAZA", "LANE", "PARKWAY", "REACH", "THOROUGHFARE");
     
     
     setupDictionary(ID_NUMBERED_ROAD_SFX, 
@@ -2323,20 +2323,12 @@ public abstract class SmartAddressParser extends MsgParser {
     // OK, we have to do this....
     // If the city is followed by a road suffix, disqualify it
     // Unless the road suffix is followed by a road suffix
-    boolean crossFollows = isFlagSet(FLAG_CROSS_FOLLOWS);
-    if (isRoadSuffix(endNdx) || isRoadSuffix(endNdx+1)) {
-      
-      // Or unless there might be a following cross street, and the street suffix
-      // found after the city can start a valid road name in its own right
-      if (!crossFollows || findRoadEnd(endNdx, 1, true) < 0) return -1; 
-    }
-    
-    // A road suffix one or two tokens past the end of the city also disqualifies it
-    // Except some times there really is cross street information following
-    // the address, in which case just ignore all the above
-    if (!crossFollows) {
-      if (!isType(endNdx, ID_CROSS_STREET) && !isType(endNdx+1, ID_CROSS_STREET)) {
-        if (isRealRoadSuffix(endNdx+1) || isRealRoadSuffix(endNdx+2)) return -1;
+    if (!isType(endNdx, ID_CROSS_STREET) && !isType(endNdx+1, ID_CROSS_STREET)) {
+      if (isRealRoadSuffix(endNdx) || isRealRoadSuffix(endNdx+1)) {
+        
+        // Or unless there might be a following cross street, and the street suffix
+        // found after the city can start a valid road name in its own right
+        if (!isFlagSet(FLAG_CROSS_FOLLOWS) || findRoadEnd(endNdx, 1, true) < 0) return -1; 
       }
     }
     
@@ -2669,6 +2661,9 @@ public abstract class SmartAddressParser extends MsgParser {
       // A legitimate street suffix found here is never legal
       end = origStart;
       if (isRealRoadSuffix(end)) return -1;
+      
+      // Ditto for a NEAR indicator
+      if (isType(end, ID_NEAR)) return -1;
 
       // start looking for a street suffix (or cross street indicator
       // If we have to pass more than two tokens before finding, give up
@@ -3710,7 +3705,7 @@ public abstract class SmartAddressParser extends MsgParser {
   protected boolean isNotExtraApt(String apt) {
     return NOT_APT_PTN.matcher(apt).matches();
   }
-  private static final Pattern NOT_APT_PTN = Pattern.compile("(?:[&/]|(?:MM|EX|NORTH|SOUTH|EAST|WEST|PRIOR|BLK|MILE|BEFORE|AFTER|RUNAWAY|OFF|FROM|NEAR|OFF)\\b).*|EXT|[NSEW]|[NS][EW]", Pattern.CASE_INSENSITIVE);
+  private static final Pattern NOT_APT_PTN = Pattern.compile("(?:[&/]|(?:JUST )?(?:MM|EX|NORTH|SOUTH|EAST|WEST|PRIOR|BLK|MILE|BEFORE|AFTER|RUNAWAY|OFF|FROM|NEAR|OFF)\\b).*|EXT|[NSEW]|[NS][EW]", Pattern.CASE_INSENSITIVE);
   
   /**
    * This is used by GenMultiWordStreetList.  When passed a previously passed

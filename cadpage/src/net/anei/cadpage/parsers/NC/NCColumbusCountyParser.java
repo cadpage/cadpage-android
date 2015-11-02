@@ -11,7 +11,7 @@ public class NCColumbusCountyParser extends DispatchSouthernParser {
   public NCColumbusCountyParser() {
     super(CITY_LIST, "COLUMBUS COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_LEAD_PLACE | DSFLAG_CROSS_NAME_PHONE);
     setupMultiWordStreets(MWORD_STREET_LIST);
-    setupSpecialStreets("ROUGH AND READY RD");
+    setupProtectedNames("ROUGH AND READY RD");
   }
   
   @Override

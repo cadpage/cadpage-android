@@ -63,6 +63,9 @@ public class NCDuplinCountyParser extends DispatchSouthernParser {
     "WALLACE",
     "WARSAW",
     "WOLFSCRAPE",
+    
+    // Wayne County
+    "SEVEN SPRINGS"
   };
 
 }

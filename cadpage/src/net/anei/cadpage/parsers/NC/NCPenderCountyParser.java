@@ -9,6 +9,7 @@ public class NCPenderCountyParser extends DispatchA3Parser {
   
   public NCPenderCountyParser() {
     super(0, "911-:=", "PENDER COUNTY", "NC");
+    setupSaintNames("JOHNS");
   }
   
   @Override

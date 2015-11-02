@@ -289,8 +289,7 @@ choyvp pynff APUnirybpxCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "03/04/14 19:42:01~R911 Vasb - Pynff bs Freivpr: JCU2 Hapregnvagl:  Pbasvqrapr:\a" +
         "03/04/14 19:42:37~80 L/B SRZNYR, SNYYRA NAQ ZNL UNIR UVG URE URNQ",
 
-        "NQQE:501 XRGARE OYIQ AR",
-        "NCG:FR", //??
+        "NQQE:501 XRGARE OYIQ AR FR",
         "PVGL:Unirybpx",
         "K:CNENQVFR PVE / FHAAL QE",
         "CUBAR:(252) 626-2926",
@@ -1697,8 +1696,7 @@ choyvp pynff APUnirybpxCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "03/02/14 15:16:27~R911 Vasb - Pynff bs Freivpr: JEYF Hapregnvagl:  Pbasvqrapr:\a" +
         "03/02/14 15:17:02~Ntr 2 lrne byq",
 
-        "NQQE:213 FURCNEQ FG FJ",
-        "NCG:FR",
+        "NQQE:213 FURCNEQ FG FJ FR",
         "PVGL:Unirybpx",
         "K:F SBERFG QE / FCRVTUG FG",
         "CUBAR:(989) 284-5785",
@@ -3395,8 +3393,7 @@ choyvp pynff APUnirybpxCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "02/26/14 20:56:11~R911 Vasb - Pynff bs Freivpr: JCU2 Hapregnvagl:  Pbasvqrapr:\a" +
         "02/26/14 20:56:55~59 L/B SRZNYR, FUBHYQRE CNVA",
 
-        "NQQE:9 GNLYBE FG FR",
-        "NCG:FR",
+        "NQQE:9 GNLYBE FG FR FR",
         "PVGL:Unirybpx",
         "K:PRAGENY FG / QRNQ RAQ",
         "CUBAR:(315) 775-7732",
@@ -4279,8 +4276,7 @@ choyvp pynff APUnirybpxCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Aneengvir Gvzr~Aneengvir\a" +
         "02/25/14 13:41:26~R911 Vasb - Pynff bs Freivpr: JEYF Hapregnvagl:  Pbasvqrapr:",
 
-        "NQQE:219 SBERFG UVYY QE AR",
-        "NCG:FR",
+        "NQQE:219 SBERFG UVYY QE AR FR",
         "PVGL:Unirybpx",
         "K:JROO OYIQ / SYRRGJBBQ FG",
         "CUBAR:(252) 646-8308",
@@ -4339,8 +4335,7 @@ choyvp pynff APUnirybpxCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Aneengvir Gvzr~Aneengvir\a" +
         "02/25/14 13:41:26~R911 Vasb - Pynff bs Freivpr: JEYF Hapregnvagl:  Pbasvqrapr:",
 
-        "NQQE:219 SBERFG UVYY QE AR",
-        "NCG:FR",
+        "NQQE:219 SBERFG UVYY QE AR FR",
         "PVGL:Unirybpx",
         "K:JROO OYIQ / SYRRGJBBQ FG",
         "CUBAR:(252) 646-8308",
@@ -5776,8 +5771,7 @@ choyvp pynff APUnirybpxCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Aneengvir Gvzr~Aneengvir\a" +
         "02/23/14 12:06:43~R911 Vasb - Pynff bs Freivpr: JEYF Hapregnvagl:  Pbasvqrapr:",
 
-        "NQQE:246 R ZNVA FG AR",
-        "NCG:FR",
+        "NQQE:246 R ZNVA FG AR FR",
         "PVGL:Unirybpx",
         "K:WNLPRR FG / JBBQUNIRA QE",
         "CUBAR:(910) 378-5183",

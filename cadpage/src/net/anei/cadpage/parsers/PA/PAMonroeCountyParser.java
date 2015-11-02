@@ -16,12 +16,15 @@ public class PAMonroeCountyParser extends SmartAddressParser {
   public PAMonroeCountyParser() {
     super(CITY_CODES, "MONROE COUNTY", "PA");
     setFieldList("CODE CALL PLACE ADDR APT CITY X INFO");
+    removeWords("ROAD", "FS");
   }
   
   @Override
   public String getFilter() {
     return "emergin@monroeco911.com,12101";
   }
+  
+  private static final Pattern FS_PTN = Pattern.compile("(FS \\d+) *@? *");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -35,7 +38,34 @@ public class PAMonroeCountyParser extends SmartAddressParser {
     if (pt >= 0) body = body.substring(0,pt).trim();
     body = body.replaceAll("//+", "/");
     
-    parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT | FLAG_CROSS_FOLLOWS, body, data);
+    // See if there is a leading FS station number
+    match = FS_PTN.matcher(body);
+    if (match.lookingAt()) {
+      data.strPlace = match.group(1);
+      body = body.substring(match.end());
+    }
+    
+    // The standard address parser has trouble with city codes that look like route numbers :(
+    // So we try to parse the address and city separately
+    Result res = parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT | FLAG_NO_CITY, body);
+    if (res.isValid()) {
+      res.getData(data);
+      body = res.getLeft();
+      
+      if (body.startsWith("@") || body.startsWith("/")) {
+        body = body.substring(1).trim();
+        parseAddress(StartType.START_PLACE, FLAG_ONLY_CITY, body, data);
+      } else {
+        parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, body, data);
+      }
+      body = getLeft();
+    }
+    
+    // Otherwise we just have to see what the address parser can do
+    else {
+      parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT | FLAG_AT_BOTH | FLAG_CROSS_FOLLOWS, body, data);
+      body = getLeft();
+    }
     
     String call = convertCodes(data.strCall, CALL_CODES);
     if (call != null) {
@@ -43,16 +73,16 @@ public class PAMonroeCountyParser extends SmartAddressParser {
       data.strCall = call;
     }
     
-    String extra = getLeft();
-    extra = extra.replace('\n', ' ').replaceAll("  +", " ");
-    Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, extra);
+    body = body.replace('\n', ' ').replaceAll("  +", " ");
+    res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body);
     if (res.isValid()) {
       res.getData(data);
-      extra = res.getLeft();
+      if (isCity(data.strCross)) data.strCross = "";
+      body = res.getLeft();
     }
-    data.strSupp = extra;
+    data.strSupp = stripFieldStart(body, "/");
     
-    // Dispatch has teh unfortunate habbit of coding place names as the first part of what looks like
+    // Dispatch has the unfortunate habbit of coding place names as the first part of what looks like
     // an intersection.  We will try to undo the damage that results
     
     String sAddr = data.strAddress;
