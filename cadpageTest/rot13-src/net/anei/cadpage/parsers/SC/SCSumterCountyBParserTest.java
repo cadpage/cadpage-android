@@ -12,6 +12,63 @@ Ntrapl anzr: Zvqynaqf ZrqGrpu
 Ybpngvba: Fhzgre, FP, Havgrq Fgngrf
 Fraqre: "Zvqynaqf Qvfcngpu" <qvfcngpu@zvqynaqfzrqgrpu.pbz>
 
+{060} NYF-2 Gvz/Tenag\a\aGhbzrl VPH 21/ZpYrbqf PPH Orq 12\a\aQK: Cnaperngvp Pnapre/PUS\a\aPneqvnp Zbavgbe, Urcneva qevc, Avgeb 02
+{054} NYF-1 ZG-9 Ovyyl/Jnygre\a\aR Aryfba-ez 356/PGP\a\aQK: Pnapre Gerngzrag
+{041-pbeerpgvba } NYF-2 ZG-12 Ovyyl/Yrebl\a\aFhzgre Snzvyl Urnygu-N Zbetna-Evpuynaq re\a\aQK: Erfcvengbel Qvfgerff
+{Cubarf} Nf lbh pbzr onpx gb onfr, cyrnfr erfvta gur cubar ybt sbe gbqnl. \a\aGunaxf, Qvfcngpu              
+{035} NYF-1 Gnzrxn/Znetnerg\a\aGhbzrl Re Orq 8-ZHFP RE\a\aQK: Fgebxr-Xrvfun Qraavf\a\aPneqvnp Zbavgbe
+{025} NYF-1 ZG-9 Gnzrxn/Znetnerg\a\aGhbzrl ez 311/P Cbggf-Evpuynaq Ez 6321\a\aQK: Purfg Cnva\a\aPneqvnp Zbavgbe, B2
+{024} NYF-2 Ovyyl/Yrebl\a\aO Qbpgbe-Qnl Fhetrel ez 29/PGP\a\aQK: Pnapre Gerngzrag\a\aCg vf frqngrq.
+{Eha ercbegf} Nyy perjf jvyy or ragrevat lbhe bja eha ercbegf vagb Cerzvf fgnegvat gbqnl.\aCre Z. Zheyrl...
+{005} NYF-2 ZG-12 Ovyyl/Oyh\a\aGhbzrl VPH 10 - Cebivqrapr VPH Orq Y\a\aQk: HGV, NZF - E Jbbqjneq
+{004} NYF-1 ZG-9 Oevggnal/Wnlyra\a\aGhbzrl RE 5 - Evpuynaq\a\aQk: FGRZV
+{003} NYF-2 ZG-12 Ovyyl/Oyh\a\aNffvfgvat 911 - 3435 Pnzqra Ujl\a\aQk: Yrt cnva, cbffvoyr vasrpgvba - W ZpPngurena
+{002} NYF-1 ZG-9 Oevggnal/Wnlyra\a\aGhbzrl RE G-2 - Evpuynaq\a\aQk: Y-4 Sk, Yvire Ynp. - N Evpuohet\a\aZbavgbe, VI
+{1077} NYF-2 ZG-12 Wbua/Znetnerg\a\aGhbzrl ez 307 - Evpuynaq ez 1019\a\aQk: Fgebxr - R Ebtref      \a\azbaavgbe
+{1076} NYF-1 ZG-9 Xngul/Oyh\a\aGhbzrl RE 3 - Evpuynaq RE\a\aQk: Onpx Senpgher - Z Zbagnyonab\a\azbavgbe
+{Qvfertneq  } Qvfertneq qvfpunetr sebz ez 308\a\aJvyy erhfr eha # 1053
+{1053} NYF-2 ZG-12 Rguna/Tenag\a\aGhbzrl ez 308 - 1066 Unejbbq Qe\a\aQk: Qvfpunetr - C Neguhe
+{1052} NYF-1 ZG-10 Xryyv/Jnygre\a\aGhbzrl RE 20 - FU&E\a\aQk: Qvfpunetr - I Jvyyvnzf
+{1037} NYF-2 ZG-10 Rguna/Tenag\a\aQnl Fhetrel - PGP\a\aQk: Pnapre Gerngzrag - Qebc\a\aCg: Orggrl Qbpgbe
+{1004} OYF-1 ZG-1 Yrebl/Wnpbo\a\aFQP/Oheebhtuf\a\aQK: Qvnylfvf O Yrt
+{981} NYF-2 Gvz/Jnygre\a\aGhbzrl 313-Q Qnl-AUP\a\aQK: Qvfpunetr
+{973} NYF-1 ZG-12 Oevggnal/Wnlyra\a\aGhbzrl re ez 333/FU&E Rnfg\a\aQK: qvfpunetr
+{Bcra fuvsg} Bcra Fuvsg sebz 5:30 nz hagvy 13:30 nz gbzbeebj. 
+{950} NYF-2 ZG-10 Rguna/Jnygre\a\aSnfgre Pner - Cebivqrapr\a\aQk: Purfg Cnva - Z Pbjneq\a\aZbavgbe
+{914} NYF-1 ZG-12 Xngul/Oyh\a\aGhbzrl RE 17 - Evpuynaq RE\a\aQk: Urnq Oyrrq - P Jvyfba\a\azbavgbe
+{NGGRAGVBA} Gurer jvyy or ab fzbxvat be incvat va gur nzohynaprf, cre FP QURP naq\aZvqynaqf ZrqGrpu
+{900} NyF-1 ZG-12 Xryyv/Jnygre\a\aPSC Hetrag Pner-Evpuynaq RE\a\aQk: Purfg Cnva- FBO\a\aW Puna
+{881} NYF-2 ZG-10 Nyyra/Tenag\a\aGhbzrl RE 6 - IN\a\aQk: Purfg Cnva, FBO  - I Inaerf\a\azbavgbe
+{871} NYF-1 ZG-12 Xryyv/Jnygre\a\aQnl Fhetrel 25 - PGP\a\aQk: Pnapre Gerngzrag - O Qbpgbe
+{859} NYF-2 ZG-10 Ovyyl/Yrebl\a\aGhbzrl ree z 3/F Mryvre-Evpuynaq 6462\a\aQK: Purfg Cnva\a\aPneqvnp Zbavgbe, Erprag Fgvag Cynprzrag
+{850} NYF-2 ZG-5 Gvz/Wbua\a\a(911) Qvyyvba Cnex/W Cbzcrl-Ghbzrl RE\a\aQK: Frvmherf
+{849} NYF-2 ZG-5 Gvz/Wbua\a\aGhbzrl Ez 306/Abegujbbqf\a\aQK: Qvfpunetr \a\aCg ba 02 2 yvgref
+{832} NYF-1 ZG-10 Oevggnal/Wnlyra\a\aGbhzrl G-2/Evpuynaq RE G Unljneq\a\aQK: Chyzbanel Pbaghfvba, Oebxra Yrt
+{831} NYF-2 ZG-5 Gvz/Wbua \a\aGhbzrl RE/X Oebbx-Evpuynaq RE\a\aQK: ZIN Snpvny Gehnzn
+{829} NYF-1 ZG-10 Oevggnal/Wnlyra\a\aD Noenunz-PZU RE/Ghbzrl Ez 326\a\aQK: Erany Snvyher\a\aPneqvnp Zbavgbe, 02
+{806} NYF-2 ZG-10 Ovyyl/Znetnerg\a\aGhbzrl Vph Ez 8/Nhthfgn Ohea Pragre\a\aQK: Arpebgvmvat Snfpvgvf\a\aPneqvn Zbavgbe, Irag, VI Cerprqrk
+{805} NYF-1 ZG-3 Xngul/Oyh\a\aGhbzrl Ez 315-N Znpx/Zpyrbqf ez 531\a\aQK : Nphgr Pin\a\aPneqvnp Zbavgbe, 02
+{780} NYF-2 ZG-10 Gvz/Oyh\a\a44 J Zbber Fg - Ghbzrl ez 251\a\aQk: Qverpg Nqzvg - Q ZpPenl
+{763} NYF-1 ZG-3 Xryyv/Jnygre\a\aGhbzrl RE 11 - Evpuynaq RE\a\aQk: Fhoqheny Urzngbzn\a\a 
+{729} NYF-2 ZG-10 Ovyyl/Yrebl\a\aSnfgre Pner-Evpuynaq RE\a\aQk: Ulcbahgerzvn\a\a \a\aPneqvnp Zbavgbe
+{694} NYF-2 ZG-10 Nyyra/Yrebl\a\aGhbzrl ez 301-Z Arjzna- Pneevntr Ubhfr \a\aQK: Qvfpunetr
+{Grfgvat} Grfgvat NTNVA\a\a 
+{Grfgvat} Grfgvat :)\a\a 
+{Grfg} Guvf vf n grfg rznvy sebz qvfcngpu :)
+{637} NYF-2 ZG-5 Gvz/Znetnerg\a\aGhbzrl Orq 3- E Zpqbanyq-IN 4 Jrfg\a\aQK: GVN IF PIN\a\aPneqvnp Zbavgbe\a\a 
+{629} NYF-1 ZG-9 XNGUL/TENAG\a\aGHBZRL EZ 394-Z PNAGL-FHZGRE INYYRL\a\aQK: QVFPUNETR 
+{623} NYF-2 Gvz/Znetnerg\a\aGhbzrl re 8/ E Oryy-ZpRyirra Znabe\a\aQK: Qvfpunetr
+{618} NYF-1 ZG-9 Xngul/Tenag\a\aGhbzrl Qnl Fhetrel ez 25-O Qbpgbe-PGP\a\aQK: Pnapre Gerngzrag N Yrt\a\a 
+{NGGRAGVBA} Gurer vf yvara va gur qhzcfgre ntnva. Guvf jvyy abg or gbyrengrq. Lbh JVYY\aor grezvangrq vs pnhtug guebjvat njnl Ghbzrl yvara.
+{602} NYF-1 ZG-9 Xryyv/Zngg\a\aGhbzrl RE - Evpuynaq RE\a\aQk: Urnq Oyrrq - Z Uryzf
+{587} NYF-2 ZG-5 Gvz/Yrebl\a\aGhbzrl ez 529 - ZpYrbq Znva Gbjre ez 515\a\aQk: NYF Genafsre - X Fyngre\a\azbavgbe
+{586} NYF-1 Xryyv/Grerfn\a\aGhbzrl ez 543 - ZHFP\a\aQk: NYF Genafsre - W Oenaq
+{560} NYF-2 ZG-5 Nznaqn/Vfnvnu\a\aGhbzrl RE G2 - CVPH\a\aQk: Bireqbfr - Q Jvaxyre\a\a \a\azbavgbe
+{557} NYF-1 ZG-12 Oevggnal/Wnlyra\a\aGhbzrl RE 20 - Evpuynaq Genhzn\a\aQk: Preroeny Pbaghfvba - W Ylafqrl
+{526} NYF-1 ZG-12 Oevggnal/Wnlyra\a\aJ Shapurff - FQP\a\aQk: Qvnylfvf N yrt
+{496} NYF-1 ZG-9 Xngul/Zrerqvgu\a\aGbhzrl RE 6-Evpuynaq RE \a\aQk: Oenva Oyrrq- G.Onxre\a\a \a\aPneqvnp Zbavgbe 
+{484} NYF-2 ZG-5 RGUNA ZNETNERG\a\aGHBZRL 304-NHTHFGN OHEA PRAGRE\a\aQK: NYF GENAFSRE\a\aPNEQVNP ZBAVGBE, 02
+{Pyrnevat hc} Nf n svany erzvaqre nyy gehpxf ner gb pyrne hc jvgu qvfcngpu NSGRE RNPU\aPNYY. Guvf urycf rirelbar jbex fznegre abg uneqre. Gunaxf sbe lbhe\ahaqrefgnaqvat. 
 {473} NYF-2 ZG-10       Znetnerg/Oyh\a\aGhbzrl gryr ez 319-Zpyrbqf PPH 14\a\aQk: Purfg Cnva\a\aPneqvnp Zbavgbe, VI
 {470} NYF-1 ZG-9 Jnygre/Xryyv\a\aGhbzrl re-Evpuynaq re\a\aE Uneevf\a\aQK: Pbatrfgvir Urneg Snvyher\a\aPneqvnp Zbavgbe
 {467} NYF-1 ZG-9 Jnygre/Xryyv\a\aGhbzrl RE G-1-Evpuynaq RE-O Zbpxnyvf\a\aQk: Purfg Cnva\a\aPneqvnp Zbavgbe
@@ -37,71 +94,24 @@ Fraqre: "Zvqynaqf Qvfcngpu" <qvfcngpu@zvqynaqfzrqgrpu.pbz>
 {273} NYF-1     ZG-5 Rguna/Grerfn\a\aGhbzrl RE-Pnebyvan Ubfcvgny ZVPH #3\a\aQK: Erfcvengbel\a\aIragvyngbe, VI Abezny Fnyvar
 {264} NYF-2  ZG-4  Ovyyl/Yrebl\a\aGhbzrl Re 17-Zpyrbqf RE/ O Pbxre\a\aQK: Fhoqheny Urzngbzn\a\aPneqvnp Zbavgbe, Onpxobneq\a\a \a\a 
 {258} NYF-1 ZG-5  Rguna/Grerfn\a\aGhbzrl RE 12/ Z Oynpx-ZpRyirra Znabe\a\aQK: Qvfpunetr
+{Puneyrfgba perjf} Vs 95 abegu vf fuhg qbja ba lbhe erghea gevc fgnl ba 26 naq tb gb 301 Abegu\arkvg nyy gur jnl gb Onff Qe/Ujl15 gnxr gung gb Fnagrr gb trg ba 95 abegu
 {237} NYF-1 ZG-10 Oevggnal/Wnlyra\a\aGhbzrl RE\a\aQk: FGRZV
 {209} NYF-2 ZG-4 Ovyyl/Oyh\a\aGhbzrl RE 6 - Cnyzrggb Urneg\a\aQk: Purfg Cnva - W Fgrcuraf\a\a \a\azbavgbe
 {207} NYF-1 ZG-10 Oevggnal/Wnlyra\a\aGhbzrl RE 11 - Evpuynaq\a\aQk: Purfg Cnva - F Mrvyre
 {193} NYF-1 ZG-10 Xngul/Oyh\a\aGhbzrl RE - Evpuynaq\a\aQk: Ryringrq Gebcbava - Y Uneqrr
+{Purpx ba} Znxr fher gb purpx fveraf, yvtugf, bgure ryrpgevpny va gehpxf. Jr unir sbhaq\an srj gung unir orra qnzntrq ol sybbq jngref. 
 {175} NYF-2 ZG-4 Nyyra/Znetnerg\a\aGhbzrl RE - Cebivqrapr\a\aQk: FGRZV
 {170} NYF-1 ZG-10 Xngul/Oyh\a\aGhbzrl RE - Evpuynaq RE\a\aQk: Tybony Ehcgher, NZF - S. Gnlybe\a\a \a\azbavgbe
 {140} NYF-2 ZG-4 XNGUL/YREBL\a\aGHBZRL RE 11/Q FNZHRY-214 RZVYL QE\a\aQK: QVFPUNETR
+{PNSRGREVN } GHBZRL PNSRGREVN VF BCRA FREIVAT GBQNL
+{EBNQ PYBFRQ} EBNQ PYBFRQ SEBZ XVATFOHEL EQ GB XBYO EQ BA CVARJBBQ EQ.
+{ebnq pybfrq} Qb abg tb 401 gbjneq Perfgjbbq\a\aUjl 15 Sbkjbegu Zvyy Cbaq oevqtr vf ohpxyvat.
 {096} NYF-2 ZG-4 Gnzrxn/Znetnerg\a\aGhbzrl RE - IN\a\aQk: Purfg Cnva - W Znefunyy 
 {095} NYF-1 ZG-10 Xngul/Oyh\a\aSnfgre Pner - Evpuynaq\a\aQk: Purfg Cnva - F Arjobhyq
+{Urnqf Hc} Nalbar urnqrq gbjneqf Znaavat, pbaqvgvbaf ner jbefr va gung nern guna va\aFhzgre. Or zvaqshy bs ebnqf pbirerq ol jngre. Or fnsr
 {065} NYF-1 ZG-5 Xryyv/Jnygre\a\aGhbzrl VPH 10 - Evpuynaq AVPH ez 552\a\aQk: zrqvpny genafsre - E Tnyybjnl\a\aZbavgbe\a\aIrag
 {063} NYF-2 ZG-4 Nyyra/Zrerqvgu\a\aGhbzrl RE - Oncgvfg 938\a\aQk: ohfgrq fhetvpny vapvfvba\a\a \a\aQrkgebfr VI
 {059} NYF-1 ZG-5 Xryyv/Jnygre\a\aGhbzrl RE - Evpuynaq ez 6330\a\aQk: AFGRZV
-{037} NYF-1 ZG-11 GVZ/GRERFN\a\aGHBZRL GENHZN 1/202 R YVOREGL FG NCG 42\a\aQK: QVFPUNETR- W. OYNPX
-{032} NYF-2 ZG-4 GNZRXN/OVYYL\a\aGHBZRL EZ 532/YRKVATGBA ZRQ\a\aQK: PURFG CNVA- CG ANZR A ONXRE\a\aPNEQVNP ZBAVGBE, 02, VI NPPRFF
-{025} NYF-1 ZG-11 XNGUL/GRERFN        \a\aGHBZRL Y&Q 1-EVPUYNAQ Y&Q\a\aQK: CERGREZ YNOBE/Y JRYQBA\a\aZNT QEVC
-{025} NYF2 ZG-4 OVYYL/GNZRXN\a\aGHBZRL Y@Q 1/EVPUYNAQ Y&Q\a\aQK: CER GREZ YNOBE/Y JRYQBA\a\aZNT QEVC
-{012} NYF-1 ZG-11 XNGUL/GRERFN\a\aGHBZRL EZ 8/OEBBXQNYR NFFVFGRQ\a\aQK: GENAFSRE-W UHQFBA
-{1159} NYF-2 ZG-4 GNZRXN/WNZRF\a\aGHBZRL EZ 300/CEBIVQRAPR EZ 307\a\aQK: HAFGNOYR NATVAN/O REO\a\aPNEQVNP ZBAVGBE NAQ 02\a\a 
-{1154} NYF 1 OEVGGNAL/WNLYRA-\a\aGHBZRL EZ 526/ZPYRBQF EZ 512\a\aQK: GENAFSRE-P ZVYYF\a\aPNEQVNP ZBAVGBE
-{1153} OYF-1 ZG-1 YRR/XRA\a\aF FNAQREF-QE PUBAT\a\aQK: QEF NCCG N YRT         
-{1151} NYF 2 GNZRXN/WNZRF\a\aGHBZRL RE 12/ GBARL QJLRE EVPUYNAQ EZ 6465\a\aQK: ABA FGRZV-PNEQVNP ZBAVGBE\a\a 
-{1159} NYF-1 ZG-11 Xngul/Oyh\a\a58 Fnengbtn Fg (911)\a\aQk: 59 lb srznyr, gebhoyr oernguvat
-{1102} NYF-2 ZG-4 Gvz/Znetnerg\a\aGhbzrl RE\a\aQk: FGRZV
-{1096} NYF-1 ZG-11 Xngul/Oyh\a\aPbybavny, Qe Fgrjneg(220 Oebnq Fg) - Ghbzrl RE\a\aQk: Ybj Oybbq Cerffher - E Wraavatf
-{1075} NYF-1 ZG-11 Xryyv/Jnygre\a\aGhbzrl G-2 - ZpYrbq\a\aQk: Ryringrq Gebcbava jvgu ehaf bs I- Gnpu
-{1000} NYF-2 ZG-4 Nyyra/Wbua\a\aGhbzrl re 12-Qbea IN \a\aQk: Fgebxr-S Orawnzva\a\aPneqvnp Zbavgbe
-{981} NYF-1 ZG-11 Xngul/Oyh\a\aGhbzrl re 10-Zhfp re\a\aQK: Fgebxr-Z Jryyf\a\a \a\aZbavgbe, gcn unatvat
-{971} NYF-2 ZG-4 Wnzrf/Znetnerg\a\aGhbzrl VPH-U Jvagre/ ZHFP Znva Ubfcvgny\a\aZVPH Orq #2\a\aQK: Objry Bofgehpgvba/Noqbzvany Nofprff
-{964} NYF-1 ZG-11 Xngul/Oyh\a\aJbhaq Pner/Y Wraxvaf     \a\aQK: Jbhaq Pner O yrt
-{933} NYF-1 ZG-11 Ovyyl/Jnygre\a\aGbhzrl Ez 392-141  Fgbar Evqtr Qevir Pbyhzovn FP\a\aQk: Tnfgeb - R Fvatyrfgba\a\a \a\aCngvrag arrqf fhpgvbavat va ebhgr gb qrfgvangvba. CBP 803-569-4960\a\a(A T Ghor jvyy or pynzcrq bss cevbe gb genafcbeg)
-{920} NYF-2 ZG-4 Xryyv/Zrerqvgu\a\aGbhzrl Ez 300-Cebivqrapr Ez 300\a\aQk: Purfg Cnva-E Jrypu\a\a \a\aZbavgbe, B2 \a\a 
-{913} NYF-1 ZG-11 Ovyyl/Jnygre\a\aGhbzrl RE 1-ZpYrbq 839\a\aQk: PUS - G Fzvgu\a\a \a\aZbavgbe, VI unatvat \a\a 
-{903} NYF-1 ZG-11 Znetnerg/Jnygre\a\aGbhzrl Ez 310-ZpYrbq 521\a\aQk: Purfg Cnva- Zbbql\a\a \a\aZbavgbe 
-{891} NYF-2 ZG-4 Ovyyl/YrEbl\a\aJrfznex Nzohyngbel Pragre - Ghbzrl \a\aQk: Qverpg Nqzvg - Y. Oenqfunj
-{878} NYF-1 ZG-11 Znetnerg/Grerfn\a\aGhbzrl Ez 319 - Pbiranag Cynpr\a\aQk: Qvfpunetr - G Ubyynqnl
-{853} NYF-2 ZG-4 Rguna/YrEbl\a\aGhbzrl RE 7 - Cebivqrapr\a\aQk: Purfg Cnva, FBO - A Nzrefba\a\azbavgbe
-{851} NYF-1 ZG-11 Oevggnal/Wnlyra\a\aFhzgre Snzvyl - Evpuynaq Puvyq.\a\aQk: Jrrmvat - C Ebovafba\a\a4 le byq
-{848} NYF-2 ZG-4 Znetnerg/YrEbl\a\aPbybavny Hetrag Pner - Ghbzrl\a\aQk: uvc senpgherf
-{817} NYF-1 ZG-11 Oevggnal/Wnlyra\a\aGhbzrl Ez 277 - Evpuynaq Y&Q\a\aQk: Cergrez Ynobe - Tvofba\a\aZbavgbe\a\aZnt fhysngr
-{797} NYF-1 ZG-11 Xngul/Oyh\a\aGbhzrl VPH 14 - ZHFP NEG 13\a\aQk: RFEQ, NOQ cnva - Y Terra\a\a \a\aZbavgbe, Yribcurq
-{792} NYF-2 ZG-4 Gnzrxn/Znetnerg\a\aGhbzrl VPH 17 - ZHFP NEG Orq 11\a\aQk: Erpgny Oyrrqvat - Fvzzbaf\a\a \a\aZbavgbe & B2
-{749} NYF-2 ZG-4 Ovyyl/YrEbl\a\aGhbzrl RE1 - 2455 Ujl 261 Jrqtrsvryq \a\aQk: Qvfpunetr - N Ubyynqnl 
-{747} NYF-1 ZG-11 Xryyv/Grerfn\a\aSnfg RE Pner - Ghbzrl\a\aQk:  Genafsre - N. ZpSnqqra\a\a \a\aZbavgbe
-{710} NYF-2 ZG-4 Ovyyl/Vfnvnu\a\aGhbzrl Jbzra'f Pragre-Evpuynaq \a\aQk: Frirer Intvany Oyrrqvat- X Fcrapre 
-{690} NYF- 1 ZG-10 Oevggnal/Wnlyra\a\aGhbzrl RE5 - Evpuynaq 7303\a\aQk: Fubegarff bs oerngu & cbffvoyr sbervta obql \a\a14 zbagu byq - Z Ohgyre
-{676} Pbeerpgvba \a\aNYF-2 ZG-4 Gvz/Znetnerg \a\aGbhzrl Y&Q 5- Evpuynaq Y&Q\a\aQk: Cergrez Ynobe - G Tneynaq \a\a \a\a33 jrrxf\a\aZnt Qevc\a\a 
-{676} NYF-1 ZG-5 Gvz/Znetnerg \a\aGbhzrl Y&Q 5- Evpuynaq Y&Q\a\aQk: Cergrez Ynobe - G Tneynaq \a\a \a\a33 jrrxf\a\aZnt Qevc\a\a 
-{673} NYF-1 ZG-10 Xngul/Gnzrxn\a\aZpRyirra Znabe - Pyneraqba Zrzbevny Ez227\a\aQk: Anhfrn - E Orgpure   Qverpg Nqzvg 
-{670} NYF-2 ZG-4 Gvz/Znetnerg\a\aGhbzrl Ez345 - FU&E Jrfg\a\aQk: Qvfpunetr - W Jvyfba
-{648} NYF-1 ZG-10 Xngul/Jnygre\a\aSnfg RE pner - IN RE\a\aQk: Purfg Cnva/N Svo\a\a \a\aZbavgbe - U Znwbe
-{622} NYF-2 ZG-4 Wnzrf Zrerqvgu\a\aGbhzrl RE8-ZHFP Nfuyrl Gbjre Ez 3002            \a\aQk: Oenqlpneqvn/Ulcbgrafvba \a\aU Jvyyvnzf\a\aZbavgbe
-{618} NYF-1 ZG-10 Xryyv/Jnygre\a\aGbhzrl RE\a\aQk: FGRZV\a\a \a\aRe jvyy cebivqr qrfgvangvba naq qrgnvyf hcba neeviny.
-{607} NYF-2 ZG-4 Wnzrf/Zrerqvgu\a\aGbhzrl RE Unyyjnl- Pbyhzovn \a\aQk: NZF- F Zlref \a\a \a\aCg vf 9 lef byq
-{591} NYF-1 ZG-10 Xryyv/Jnygre\a\aGhbzrl RE7 - ZpYrbq Cnivyvba 8gu sybbe Ez 809\a\aQk: Frvmher - E. Fzvgu\a\aZbavgbe               Nqvina unf orra tvira 
-{582} NYF-2 ZG-4   Ovyyl/Yrebl\a\aZIN -Ghbzrl RE\a\aQk: Oybbq pbzvat sebz rne.                         
-{570} NYF-1 ZG-10 Rguna/Grerfn\a\aGbhzrl RE 7-IN CPH\a\aQk: Oenqlpneqvn- Z Fuvenu\a\a \a\aZbavgbe 
-{566} NYF-2 ZG-4 Ovyyl/Yrebl\a\aGbhzrl RE 17- Evpuynaq CVPH 7616\a\aQk: QXN- K Pbire\a\a \a\aZbavgbe/ Zbz jvyy or evqvat jvgu genafcbeg
-{565} NYF-1 ZG-10 Rguna/Grerfn\a\aGbhzrl Ez 339-ZpYrbq Ez 401\a\aQk: Flapbcr-W Fpneobebhtu
-{559} NYF-2 ZG-4 Ovyyl/Yrebl\a\aGbhzrl Ez 320-150 Fvzcfba Eq Fhzgre FP\a\aQk: Qvfpunetr- P Puevfgznf 
-{554} N:F-1 ZG-10 Rguna/Grerfn\a\aP.S. C (znva ohvyqvat)-Gbhzrl RE\a\aQk: FBO, Carhzbgubenk \a\aF. Qnevlxb- QBO 8-10-42  
-{521} NYF-1 ZG-10 Oevggnal/Wnlyra\a\aFQP-Z Punarl\a\aQk: Qvnylfvf O Yrt
-{516} NYF-1 ZG-10 Oevggnal/Wnlyra\a\aGbhzrl Ez 447-123 Uvtuynaq Nir\a\aQk: Qvfpunetr- Z Qnavryf\a\a 
-{509} NYF-2 ZG-4 Gvz/Vfnvnu\a\aGbhzrl RE  Cflpu ubyqvat- AUP\a\aQk: Qvfpunetr-N. Thnqntab 
-{502} NYF-1 ZG-10 Oevggnal/Wnlyra\a\aGbhzrl Ez 354-PGP\a\aQk: Pnapre Gerngzrag - Q ZpPenl\a\a 
-{484} NYF-2 ZG-4 Wnzrf/Jnygre\a\aGbhzrl Ez 307-ZpYrbq PPH Gbjre 4gu sybbe \a\aQk: Ryringrq Gebcbava- Y Tnvyyneq\a\a \a\aZbavgbe
 
 */
 
