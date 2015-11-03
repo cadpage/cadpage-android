@@ -974,7 +974,7 @@ choyvp pynff INCvggflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4009 CVGGJBBQ QE",
         "PVGL:Qnaivyyr",
         "K:TBYS PYHO EQ & EBOREGFBA YA",
-        "VASB:*** Pnyy Nobegrq *** 10.  ");
+        "VASB:*** Pnyy Nobegrq *** 10.");
  
   }
 
