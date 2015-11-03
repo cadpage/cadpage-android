@@ -37,6 +37,11 @@ public class NCMooreCountyParser extends DispatchSouthernPlusParser {
     "WEST END",
     "WHISPERING PINES",
     
+    "EAGLE SPRINGS",
+    "HIGHFALLS",
+    "JACKSON SPRINGS",
+    "WEST END",
+    
     "CARTHAGE TWP",
     "BENSALEM TWP",
     "SHEFFIELDS TWP",
@@ -46,6 +51,16 @@ public class NCMooreCountyParser extends DispatchSouthernPlusParser {
     "MCNEILL TWP",
     "SANDHILL TWP",
     "MINERAL SPRINGS TWP",
-    "LITTLE RIVER TWP"
+    "LITTLE RIVER TWP",
+    
+    // Lee County
+    "SANFORD",
+    
+    // Montgomery County
+    "BISCOE",
+    "STAR",
+    
+    // Randolph County
+    "SEAGROVE"
   };
 }
