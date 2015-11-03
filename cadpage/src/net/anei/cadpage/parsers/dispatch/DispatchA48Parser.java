@@ -115,13 +115,6 @@ public class DispatchA48Parser extends FieldProgramParser {
       return false;
     }
   };
-  
-  private static final Pattern SUBJECT_PTN = Pattern.compile("As of \\d\\d?/\\d\\d?/\\d\\d \\d\\d");
-  private static final Pattern PREFIX_PTN = Pattern.compile("(?!\\d\\d:)([-a-z0-9]+: *)(.*)");
-  private static final Pattern MASTER_PTN = Pattern.compile("(?:CAD:|[- A-Za-z0-9]*:)? *As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d?:\\d\\d:\\d\\d) (?:([AP]M) )?(\\d{4}-\\d{8}) (.*)");
-  private static final Pattern TRAIL_UNIT_PTN = Pattern.compile("(.*?)[ ,]+(\\w+)");
-  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d?:\\d\\d:\\d\\d)(?: ([AP]M))?\\b");
-  private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:dd aa");
     
   private FieldType fieldType;
   private boolean oneWordCode;
@@ -163,6 +156,14 @@ public class DispatchA48Parser extends FieldProgramParser {
     fieldList = ("DATE TIME ID CODE CALL ADDR APT CITY NAME " + fieldType.getFieldList() + " INFO UNIT").replace("  ", " ");
   }
   
+  private static final Pattern SUBJECT_PTN = Pattern.compile("As of \\d\\d?/\\d\\d?/\\d\\d \\d\\d");
+  private static final Pattern PREFIX_PTN = Pattern.compile("(?!\\d\\d:)([-a-z0-9]+: *)(.*)");
+  private static final Pattern TRUNC_HEADER_PTN = Pattern.compile("\\d\\d:\\d\\d \\d{4}-\\d{8} ");
+  private static final Pattern MASTER_PTN = Pattern.compile("(?:CAD:|[- A-Za-z0-9]*:)? *As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d?:\\d\\d:\\d\\d) (?:([AP]M) )?(\\d{4}-\\d{8}) (.*)");
+  private static final Pattern TRAIL_UNIT_PTN = Pattern.compile("(.*?)[ ,]+(\\w+)");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d?:\\d\\d:\\d\\d)(?: ([AP]M))?\\b");
+  private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:dd aa");
+  
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (SUBJECT_PTN.matcher(subject).matches()) {
@@ -176,7 +177,7 @@ public class DispatchA48Parser extends FieldProgramParser {
     } 
     
     // Handle case where subject was split off from main message and then discarded
-    else if (subject.length() == 0 && !body.startsWith("As of ")) {
+    else if (subject.length() == 0 && TRUNC_HEADER_PTN.matcher(body).lookingAt()) {
       body = "As of 99/99/99 99:" + body; 
     }
     

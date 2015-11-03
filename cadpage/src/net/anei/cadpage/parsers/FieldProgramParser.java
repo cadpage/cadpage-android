@@ -392,8 +392,11 @@ public class FieldProgramParser extends SmartAddressParser {
       stepScan(new StepScanListener<Map<String,Step>>(){
         @Override
         public void processStep(Step step, Map<String, Step> keywordMap) {
-          if (step.tag != null && step.field != null) {
-            keywordMap.put(step.tag, step);
+          if (step.field != null) {
+            String tag = step.tag == null ? "" : step.tag;
+            if (keywordMap.put(tag, step) != null) {
+              throw new RuntimeException("Duplicate tag:" + tag + " in anyorder program");
+            };
           }
         }
       }, keywordMap);
@@ -435,7 +438,6 @@ public class FieldProgramParser extends SmartAddressParser {
     for (int ndx = 0; ndx < fieldTerms.length; ndx++) {
       FieldTermInfo info = new FieldTermInfo(fieldTerms[ndx]);
       if (anyOrder) {
-        if (info.tag == null) throw new RuntimeException("Any order fields must have a keyword: " + fieldTerms[ndx]);
         if (info.optional) {
           throw new RuntimeException("Any order parsers do not support optional fields:" + fieldTerms[ndx]);
         }
@@ -993,14 +995,26 @@ public class FieldProgramParser extends SmartAddressParser {
       for (String field : fields) {
         
         // Break field into keyword and value
+        field = field.trim();
         int pt = field.indexOf(breakChar);
-        if (pt < 0) return false;
+        String tag, value;
+        if (pt < 0) {
+          tag = "";
+          value = field;
+        } else {
+          tag = field.substring(0, pt).trim();
+          if (ignoreCase) tag = tag.toUpperCase();
+          value = field.substring(pt+1).trim();
+        }
         
         // Get the field associated with this keyword
-        String tag = field.substring(0, pt).trim();
-        if (ignoreCase) tag = tag.toUpperCase();
-        String value = field.substring(pt+1).trim();
+        // If not found, try it as an untagged field
+        // If still not found, return fail result
         Step step = keywordMap.get(tag);
+        if (step == null && tag.length() > 0) {
+          value = field;
+          step = keywordMap.get("");
+        }
         if (step == null) return false;
         
         // Flag step as processed
@@ -1911,7 +1925,8 @@ public class FieldProgramParser extends SmartAddressParser {
     }
     
     public void setPattern(String pattern) {
-      setPattern(Pattern.compile(pattern));
+      Pattern ptn = (pattern == null ? null : Pattern.compile(pattern));
+      setPattern(ptn);
     }
 
     public void setPattern(Pattern pattern) {

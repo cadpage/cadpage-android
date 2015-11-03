@@ -189,7 +189,6 @@ choyvp pynff CNYruvtuPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(- cneg 1 bs 1) EP:ZI VagreSnp Nve/Tenaq Ivrj Ubfcvgny [CN]/FRYYREFIVYYR/3eq Sybbe/ Ez 382/157%/12.7 az/88lbS/ jbefvat FQU/ ab iragf. ab qevcf/ fraq: ohpxyre/ erp: fgvecneb/1200 F PRQNE PERFG OYIQ/AFVPH W219N/NYYRAGBJA/Eha# 41772",
         "PNYY:ZI VagreSnp Nve",
         "NQQE:Tenaq Ivrj Ubfcvgny [CN]",
-        "ZNQQE:Tenaq Ivrj Ubfcvgny [CNGU]",
         "NCG:3eq Sybbe",
         "PVGL:FRYYREFIVYYR",
         "VASB:Ez 382 / 157% / 12.7 az / 88lbS / jbefvat FQU / ab iragf. ab qevcf / fraq: ohpxyre / erp: fgvecneb / 1200 F PRQNE PERFG OYIQ / AFVPH W219N / NYYRAGBJA",

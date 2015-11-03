@@ -628,7 +628,7 @@ public class MsgInfo {
       sAddr = replace(sAddr, SR_PTN, "ST");
     }
     sAddr = replace(sAddr, TP_PTN, "TPK");
-    sAddr = replace(sAddr, PA_PTN, "PATH");
+    if (!defState.equals("PA")) sAddr = replace(sAddr, PA_PTN, "PATH");
     sAddr = replace(sAddr, PLAZ_PTN, "PLAZA");
     sAddr = replace(sAddr, WK_PTN, "WALK");
     sAddr = replace(sAddr, RCH_PTN, "REACH");

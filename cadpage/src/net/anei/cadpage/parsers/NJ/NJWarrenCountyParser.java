@@ -12,15 +12,18 @@ import net.anei.cadpage.parsers.SmartAddressParser;
  */
 public class NJWarrenCountyParser extends SmartAddressParser {
   
-  private static final Pattern DATE_TIME_PTN = Pattern.compile(" +\\(SENT (\\d\\d/\\d\\d) (\\d\\d:\\d\\d)\\)$");
-  private static final Pattern REGULAR_MARKER = Pattern.compile("^([A-Z0-9]+) ALERT: +");
-  private static final Pattern HAZMAT_MASTER = Pattern.compile("^([A-Z0-9]+ HAZMAT) L-\\d RESPONSE REQUESTED: *(.*?) AT ([^,/]+)(?:/([^,]+))?,([^,]+),([^,]+)");
+  private static final Pattern DATE_TIME_PTN1 = Pattern.compile(" +\\[([ 0-9]\\d/\\d\\d) ([ 0-9]\\d{3})\\]$");
+  private static final Pattern DATE_TIME_PTN2 = Pattern.compile(" +\\(SENT (\\d\\d/\\d\\d) (\\d\\d:\\d\\d)\\)$");
+  private static final Pattern REGULAR_MARKER = Pattern.compile("([A-Z0-9]+) (?:(\\d{8}) )?ALERT: +");
+  private static final Pattern HAZMAT_MASTER = Pattern.compile("([A-Z0-9]+ HAZMAT) (?:(\\d{8}) )?L-\\d RESPONSE REQUESTED: *(.*?) AT ([^,/]+)(?:/([^,]+))?,([^,]+),([^,]+)");
+  private static final Pattern DISREGARD_MASTER = Pattern.compile("([A-Z0-9]+) (DISREGARD ALERT FOR [ A-Z]+) AT +(.*)");
   private static final Pattern DELIM = Pattern.compile(" *, +");
   private static final Pattern CITY_TRIM_PTN = Pattern.compile(" (?:BORO|TOWN)$");
   
   public NJWarrenCountyParser() {
     super(CITY_LIST, "WARREN COUNTY", "NJ");
-    setFieldList("UNIT CALL PLACE ADDR APT CITY DATE TIME INFO X");
+    setFieldList("UNIT ID CALL PLACE ADDR APT CITY DATE TIME INFO X");
+    setupMultiWordStreets(MWORD_STREET_LIST);
   }
   
   @Override
@@ -32,18 +35,24 @@ public class NJWarrenCountyParser extends SmartAddressParser {
   public boolean parseMsg(String subject, String body, Data data) {
     String[] lines = body.split("\n");
     body = lines[0];
-    Matcher match = DATE_TIME_PTN.matcher(body);
-    if (!match.find()) return false;
+    Matcher match = DATE_TIME_PTN1.matcher(body);
+    if (!match.find()) {
+      match = DATE_TIME_PTN2.matcher(body);
+      if (!match.find()) return false;
+    }
     data.strDate = match.group(1);
-    data.strTime = match.group(2);
+    String time = match.group(2);
+    if (time.length() == 4) time = time.substring(0,2).trim() + ':' + time.substring(2,4);
+    data.strTime = time;
     body = body.substring(0,match.start());
     
     // There are two calls, regular and hazmat, with slightly different formats
     // Let's handle the regular one first
     match = REGULAR_MARKER.matcher(body);
-    if (match.find()) {
+    if (match.lookingAt()) {
       
       data.strUnit = match.group(1);
+      data.strCallId = getOptGroup(match.group(2));
       String sAddr = body.substring(match.end());
       
       // Sometimes there are nice comma delimiters
@@ -63,7 +72,7 @@ public class NJWarrenCountyParser extends SmartAddressParser {
       
       // and sometimes there are not
       else {
-        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, sAddr, data);
+        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, sAddr, data);
       }
       
       // Clean up odd things in call and city fields
@@ -80,18 +89,47 @@ public class NJWarrenCountyParser extends SmartAddressParser {
       return true;
     }
     
+    // Check for a disregard alert notice
+    match = DISREGARD_MASTER.matcher(body);
+    if (match.lookingAt()) {
+      data.strUnit = match.group(1);
+      data.strCall = match.group(2);
+      String sAddr = match.group(3);
+      
+      // Sometimes there are nice comma delimiters
+      String[] flds = DELIM.split(sAddr);
+      if (flds.length == 2) {
+        data.strCity = flds[1];
+        
+        String addr = flds[0];
+        String[] parts = addr.split(" / ");
+        if (parts.length == 2 && !isValidAddress(parts[0])) {
+          data.strPlace = parts[0].trim();
+          addr = parts[1].trim();
+        }
+        parseAddress(addr, data);
+      }
+      
+      // and sometimes there are not
+      else {
+        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
+      }
+      return true;
+    }
+    
     // No such luck, see if this has a Hazmat marker
     match = HAZMAT_MASTER.matcher(body);
-    if (match.matches()) {
+    if (match.lookingAt()) {
       data.strUnit = match.group(1);
-      data.strCall = match.group(2).trim();
-      String tmp = match.group(3).trim();
+      data.strCallId = getOptGroup(match.group(2));
+      data.strCall = match.group(3).trim();
+      String tmp = match.group(4).trim();
       if (isValidAddress(tmp)) {
         parseAddress(tmp, data);
       } else {
         data.strPlace = tmp;
       }
-      tmp = getOptGroup(match.group(4));
+      tmp = getOptGroup(match.group(5));
       if (tmp.length() > 0) {
         if (data.strAddress.length() == 0 && isValidAddress(tmp)) {
           parseAddress(tmp, data);
@@ -100,8 +138,8 @@ public class NJWarrenCountyParser extends SmartAddressParser {
         }
       }
       
-      data.strSupp = match.group(6).trim();
-      tmp = match.group(5).trim();
+      data.strSupp = match.group(7).trim();
+      tmp = match.group(6).trim();
       if (isCity(tmp)) {
         data.strCity = tmp;
       } else {
@@ -114,7 +152,26 @@ public class NJWarrenCountyParser extends SmartAddressParser {
     return false;
   }
   
-  private static String[] CITY_LIST = new String[]{
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "BALD EAGLE",
+    "BUCKELEY HILL",
+    "HARMONY BRASS CASTLE",
+    "HOPE BLAIRSTOWN",
+    "HOPE BRIDGEVILLE",
+    "HOPE GREAT MEADOW",
+    "JENNY JUMP",
+    "LAKE JUST IT",
+    "LOCUST LAKE",
+    "MT HERMON",
+    "MT PISGAH",
+    "PINCHERS POINT",
+    "RED SCHOOL",
+    "SADDLE RIDGE",
+    "SPRING VALLEY",
+    "STATE PARK"
+  };
+  
+  private static final String[] CITY_LIST = new String[]{
     "ALLAMUCHY TWP",
     "ALLAMUCHY-PANTHER VALLEY",
     "ALPHA BORO",

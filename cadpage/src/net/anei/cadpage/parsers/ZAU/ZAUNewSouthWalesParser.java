@@ -4717,7 +4717,6 @@ public class ZAUNewSouthWalesParser extends GroupBestParser {
     "YELLOW DAM",
     "YELLOW PINCH",
     "YELLOW ROCK",
-    "YELLOW ROCK",
     "YENDA",
     "YENNORA",
     "YEOVAL",

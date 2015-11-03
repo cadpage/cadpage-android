@@ -72,7 +72,7 @@ choyvp pynff CNPurfgrePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:6 PNEANGVBA YN",
         "ZNQQE:6 PNEANGVBA YA",
         "GVZR:14:54",
-        "VASB:25 RAT NFFVFG Q59 – FURQ");
+        "VASB:25 RAT NFFVFG Q59 - FURQ");
 
     qbGrfg("G6",
         "ERYBPNGR SVER / RZF HAVGF*23 SVERUBHFR JL - FGNGVBA 23*TNC ARJCBEG CX & QRNQ RAQ*NIAQNY*21:18*ZVP251 PBIREVAT FBHGU",
@@ -102,7 +102,7 @@ choyvp pynff CNPurfgrePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:FPUBBYUBHFR EQ & BAVK QE",
         "PVGL:RNFG ZNEYOBEBHTU GJC",
         "GVZR:20:25",
-        "VASB:TRA SVER – ABGVLSVAT");
+        "VASB:TRA SVER - ABGVLSVAT");
 
     qbGrfg("G9",
         "ABGVSL SVER PUVRS*1695 YRANCR EQ - CBPBCFBA UBZR*ERQ OEVQTR YN & YRANCR HAVBAIV*CBPBCF*03:12*EC NQI ERFVQRAG CHYYRQ SV",

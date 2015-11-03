@@ -641,9 +641,9 @@ for FREE
 
 You have been registered as a free subscriber to Cadpage for at least one full year. 
 
-Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
+Please: Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
-Positive reviews from free Cadpage subscribers are much appreciated. There is an item toward the bottom of the settings menu that gets you started on writing a Cadpage review.
+Positive reviews from free Cadpage subscribers are much appreciated. There is an item toward the bottom of the Settings menu that gets you started on writing a Cadpage review.
 
 Take care,
 Jean ~ Cadpage Administrator
@@ -654,7 +654,9 @@ extension of subscription
 
 Your free subscription has been extended for at least another year.
 
-Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
+Please: Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
+
+Positive reviews from free Cadpage subscribers are much appreciated. There is an item toward the bottom of the Settings menu that gets you started on writing a Cadpage review.
 
 Take care, 
 Jean ~ Cadpage Administrator
@@ -684,7 +686,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-PYZMSPBA or pyzmspba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+MYQBARAA or myqbaraa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support, 
 Jean ~ Cadpage Administrator
@@ -703,7 +705,7 @@ It may not be necessary to locate that payment.  Go to Cadpage Settings and sele
 
 If that does not work, try logging in to wallet.google.com or paypal.com.  From there you should be able to look up your Cadpage purchase and send us the date, time and transaction ID, and whether it was PayPal or Play Store.
 
-Is it possible that you or your department have paid for an account with Active911 or another messaging service?  You will need to register your phone to enable Cadpage. Your department administrator should be able to tell you what service your department is using.
+Is it possible that you or your department have paid for an account with Active911, CodeMessaging, or another messaging service?  You will need to register your phone to enable Cadpage. Your department administrator should be able to tell you what service your department is using.
 
 We are very grateful for all contributions and apologize for any complications.
 
@@ -901,7 +903,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-OOIBIXGA or ooibixga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+MWXONSBA or mwxonsba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean ~ Cadpage Administrator
@@ -3925,7 +3927,7 @@ If they are, use the Cadpage "Email the Developer" setting to send us a new supp
 * Free subscription request using general or null location
 * If authorized run days > 10, add 30 day authorization code
 **************************************************************************
-You were apparently using the General location setting, which is no longer free. We prefer that you switch to a real location-specific parser for a more effective Cadpage experience.
+You are apparently using the General location setting, which is no longer free. We prefer that you switch to a real location-specific parser for a more effective Cadpage experience.
 
 The general location doesn't really know anything about how your text messages are structured and can only pull a limited amount of information from them. To really get the full benefit of Cadpage you need to specify a location setting that will know more about your specific message format and can get a lot more information from it.
 

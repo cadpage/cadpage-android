@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10202015</string>
-  <string name="release_version">v1.8.70</string>
+  <string name="release_date">10312015</string>
+  <string name="release_version">v1.8.72</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.72\n
+New Locations:\n
+Suisun City, CA (alt)\n
+Montgomery County, OH (alt)\n
+Snohomish County, WA (alt)\n
+\n
+Location Fixes:\n
+Yuma County, AZ\n
+Benton County, OH\n
+Clallam County, WA\n
+New South Wales, AU\n
+\n
+v1.8.71\n
+Location Fixes:\n
+Yuma County, AZ\n
+WIndham County, CT\n
+Christian County, IL\n
+Henry County, IN\n
+White County, GA\n
+Powell County, KY\n
+Tangipahoa Parish, LA\n
+Audrain County, MO\n
+Chowan County, NC\n
+Havelock, NC\n
+Pasquotank County, NC\n
+New York City,  NY\n
+Mercer County, OH\n
+Lebanon County, PA\n
+Chittenden County, VT\n
+Mineral County, WV\n
+\n
 v1.8.70
 Location Fixes:\n
 Bradley County, TN\n
@@ -44,44 +75,7 @@ v1.8.68\n
 Location Fixes:\n
 Yuma County, AZ\n
 Clark County, NV\n
-Crook County, OR\n
-\n
-v1.8.67\n
-Location Fixes:\n
-Yuma County, AZ\n
-New Castle County, DE\n
-Madison County, IL\n
-lauderdale County, MS\n
-Keene County Mutual Aid, NH\n
-Benton County, OR\n
-Bradley County, TN\n
-\n
-v1.8.66\n
-New Locations:\n
-Yuma County, AZ\n
-Gordon County, GA\n
-Lima, OH\n
-Overton, TX\n
-Harrison County, WV (alt)\n
-Auckland, New Zealand\n
-\n
-Location Fixes:\n
-Marshall County, IN\n
-State Police, KY\n
-Alleghany County, MD\n
-Calvert County, MD\n
-Charles County, MD\n
-Atlantic County, NJ\n
-Putnam County, NY\n
-Cabarrus County, NC\n
-Chatham County, NC\n
-Edgecombe County, NC\n
-Moore County, NC\n
-Nash County, NC\n
-Crawford County, PA\n
-Delaware County, PA\n
-Lexington County, SC\n
-Brazoria County, TX
+Crook County, OR
   </string>
 </resources>
   

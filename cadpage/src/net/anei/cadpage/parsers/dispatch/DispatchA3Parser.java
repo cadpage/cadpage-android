@@ -8,6 +8,7 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Properties;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -69,7 +70,7 @@ public class DispatchA3Parser extends FieldProgramParser {
   }
   
   public DispatchA3Parser(int version, Pattern prefixPtn, String defCity, String defState, int flags) {
-    this(version, defCity, defState, flags);
+    this(version, (Properties)null, defCity, defState, flags);
     this.prefixPtn = prefixPtn;
   }
   
@@ -78,16 +79,20 @@ public class DispatchA3Parser extends FieldProgramParser {
   }
   
   public DispatchA3Parser(int version, String prefix, String defCity, String defState, int flags) {
-    this(version, defCity, defState, flags);
+    this(version, (Properties)null, defCity, defState, flags);
     this.prefix = prefix;
   }
   
   public DispatchA3Parser(int version, String defCity, String defState) {
-    this(version, defCity, defState, 0);
+    this(version, (Properties)null, defCity, defState, 0);
   }
   
-  public DispatchA3Parser(int version, String defCity, String defState, int flags) {
-    super(defCity, defState, null);
+  public DispatchA3Parser(int version, Properties cityCodes, String defCity, String defState) {
+    this(version, cityCodes, defCity, defState, 0);
+  }
+  
+  public DispatchA3Parser(int version, Properties cityCodes, String defCity, String defState, int flags) {
+    super(cityCodes, defCity, defState, null);
     if (version < 0) {
       version = -version;
       delim = Pattern.compile("\\*");
