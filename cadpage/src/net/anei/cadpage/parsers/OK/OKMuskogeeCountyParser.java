@@ -32,7 +32,7 @@ public class OKMuskogeeCountyParser extends SmartAddressParser {
     data.strCall = getLeft();
     
     // abort if no CITY or CALL
-    if (data.strCall.length() == 0 || data.strCity.length() == 0) return false;
+    if (data.strCall.length() == 0) return false;
     
     // PLACE ID
     data.strPlace = getPadField();
@@ -41,22 +41,7 @@ public class OKMuskogeeCountyParser extends SmartAddressParser {
     // parse 
     String firstInfoLine = mat.group(5);
     if (firstInfoLine != null) {
-      Matcher dmat = DISCARD.matcher(firstInfoLine);
-      
-      // look for first Call Number construct to parse DATE TIME from
-      int fstart = 0;
-      while (dmat.find(fstart)) {
-        fstart = dmat.end();
-        String g1 = dmat.group(1);
-        if (g1 == null) continue;
-        
-        data.strDate = g1;
-        data.strTime = dmat.group(2);
-        break;
-      }
-      
-      // useful info goes in INFO
-      data.strSupp = dmat.replaceAll("").trim();
+      data.strSupp = DISCARD.matcher(firstInfoLine).replaceAll("").trim();
     } 
     
     // append the rest of the page to INFO
