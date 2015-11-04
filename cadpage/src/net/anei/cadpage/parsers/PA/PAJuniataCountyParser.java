@@ -2,20 +2,18 @@ package net.anei.cadpage.parsers.PA;
 
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
+import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
 
-
-public class PAJuniataCountyParser extends DispatchB2Parser {
+public class PAJuniataCountyParser extends DispatchA48Parser {
  
   public PAJuniataCountyParser() {
-    super("JUNIATA911:", CITY_LIST, "JUNIATA COUNTY", "PA");
+    super(CITY_LIST, "JUNIATA COUNTY", "PA", FieldType.X_NAME, A48_OPT_ONE_WORD_CODE);
   }
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    body = stripFieldStart(body, "JUNIATA911@juniatapa ");
-    // TODO Auto-generated method stub
+    body = stripFieldStart(body, "@co.juniata.pa.us,@juniata.pa");
     return super.parseMsg(body, data);
   }
 

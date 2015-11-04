@@ -157,7 +157,7 @@ public class DispatchA48Parser extends FieldProgramParser {
   }
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("As of \\d\\d?/\\d\\d?/\\d\\d \\d\\d");
-  private static final Pattern PREFIX_PTN = Pattern.compile("(?!\\d\\d:)([-a-z0-9]+: *)(.*)");
+  private static final Pattern PREFIX_PTN = Pattern.compile("(?!\\d\\d:)([- A-Za-z0-9]+: *)(.*)");
   private static final Pattern TRUNC_HEADER_PTN = Pattern.compile("\\d\\d:\\d\\d \\d{4}-\\d{8} ");
   private static final Pattern MASTER_PTN = Pattern.compile("(?:CAD:|[- A-Za-z0-9]*:)? *As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d?:\\d\\d:\\d\\d) (?:([AP]M) )?(\\d{4}-\\d{8}) (.*)");
   private static final Pattern TRAIL_UNIT_PTN = Pattern.compile("(.*?)[ ,]+(\\w+)");
@@ -169,7 +169,10 @@ public class DispatchA48Parser extends FieldProgramParser {
     if (SUBJECT_PTN.matcher(subject).matches()) {
       Matcher match = PREFIX_PTN.matcher(body);
       if (match.matches()) {
-        body = match.group(1) + subject + ':' + match.group(2);
+        String tmp = match.group(2);
+        if (!tmp.startsWith("As of")) {
+          body = match.group(1) + subject + ':' + tmp;
+        }
       } else if (!body.startsWith(":As of")) {
         body = subject + ':' + body;
       }
