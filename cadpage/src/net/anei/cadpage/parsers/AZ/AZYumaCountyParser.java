@@ -17,9 +17,11 @@ public class AZYumaCountyParser extends MsgParser {
     return "yumacomm@rmetro.com";
   }
   
-  private static final Pattern MASTER1 = Pattern.compile("(CH *\\d+) ([A-Z]+) ASSIGN: *([A-Z0-9, ]+) - (.*?) (?i)FOR (?:REPORT OF )?(.*)", Pattern.CASE_INSENSITIVE);
-  private static final Pattern MASTER2 = Pattern.compile("(CH *\\d+) ([A-Z]+) ASSIGN FOR ([A-Z0-9,. ]+?)(?: AREA OF | - )(.*?) (?:[-/]|FOR A) (.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern MASTER1 = Pattern.compile("(CH *\\d+) ([A-Z]+) (?:ASSIGN:|ASSIGN FOR ) *(?:([A-Z0-9,. ]+?)(?: AREA OF | - ))?(.*?) (?:[-/]|FOR (?:A )?(?:REPORT OF )?|REP AS )(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern MASTER3 = Pattern.compile("(CH *\\d+) ([A-Z]+) (.*?) FOR (.*?),? REPORTED AS (.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern UNIT_PTN = Pattern.compile("(?!US|RT|ST|AZ)([A-Z]+ *\\d+)[., ]+", Pattern.CASE_INSENSITIVE);
+  private static final Pattern UNIT_SPACE_PTN = Pattern.compile("([A-Z]+) +(\\d+)");
+  private static final Pattern UNIT_COMMA_SPACE_PTN = Pattern.compile("[, .]+", Pattern.CASE_INSENSITIVE);
   
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -32,19 +34,21 @@ public class AZYumaCountyParser extends MsgParser {
       setFieldList("CH CALL UNIT ADDR APT PLACE");
       data.strChannel = match.group(1).toUpperCase().replace(" ", "");
       data.strCall = match.group(2).toUpperCase();
-      data.strUnit = match.group(3).trim().toUpperCase();
-      parseAddressField(match.group(4), data);
+      String unit = match.group(3);
+      String addr = match.group(4);
       data.strCall = append(data.strCall, " - ", match.group(5).trim());
-      return true;
-    }
-    
-    if ((match = MASTER2.matcher(body)).matches()) {
-      setFieldList("CH CALL UNIT ADDR APT PLACE");
-      data.strChannel = match.group(1).toUpperCase().replace(" ", "");
-      data.strCall = match.group(2).toUpperCase();
-      data.strUnit = match.group(3).trim().toUpperCase();
-      parseAddressField(match.group(4), data);
-      data.strCall = append(data.strCall, " - ", match.group(5).trim());
+      
+      if (unit == null) {
+        while (true) {
+          match = UNIT_PTN.matcher(addr);
+          if (!match.lookingAt()) break;
+          data.strUnit = append(data.strUnit, ",", match.group(1).replace(" ","").toUpperCase());
+          addr = addr.substring(match.end());
+        }
+      } else {
+        data.strUnit = cleanUpUnit(unit);
+      }
+      parseAddressField(addr.trim(), data);
       return true;
     }
     
@@ -53,12 +57,19 @@ public class AZYumaCountyParser extends MsgParser {
       data.strChannel = match.group(1).toUpperCase().replace(" ",  "");
       data.strCall = match.group(2).toUpperCase();
       parseAddressField(match.group(3), data);
-      data.strUnit = match.group(4).trim().toUpperCase();
+      data.strUnit = cleanUpUnit(match.group(4));
       data.strCall = append(data.strCall, " - ", match.group(5).trim());
       return true;
     }
     
     return false;
+  }
+
+  private static String cleanUpUnit(String unit) {
+    unit = unit.trim().toUpperCase();
+    unit = UNIT_SPACE_PTN.matcher(unit).replaceAll("$1$2");
+    unit = UNIT_COMMA_SPACE_PTN.matcher(unit).replaceAll(",");
+    return unit;
   }
   
   private void parseAddressField(String field, Data data) {
