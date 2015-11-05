@@ -35,7 +35,7 @@ Fraqre: <JvagreCnexSverQrcnegzragQvfcngpu@pvglbsjvagrecnex.bet>
 choyvp pynff SYBenatrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp SYBenatrPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "BENATR PBHAGL", "SY");
+    frgCnefre(arj SYBenatrPbhaglCnefre(), "BENATR PBHAGL", "SY");
   }
 
   @Grfg
