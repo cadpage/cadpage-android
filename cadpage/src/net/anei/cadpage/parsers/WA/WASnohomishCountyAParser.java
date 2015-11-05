@@ -77,6 +77,7 @@ public class WASnohomishCountyAParser extends FieldProgramParser {
       "DAR", "DARRINGTON",
       "EDM", "EDMONDS",
       "EVE", "EVERETT",
+      "G",   "GRANITE FALLS",
       "GBR", "GOLD BAR",
       "GRF", "GRANITE FALLS",
       "IDX", "INDEX",
