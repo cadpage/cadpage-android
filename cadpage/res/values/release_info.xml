@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10312015</string>
-  <string name="release_version">v1.8.72</string>
+  <string name="release_date">11062015</string>
+  <string name="release_version">v1.8.73</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.73\n
+Location Fixes:\n
+Yuma County, AZ\n
+Groton, CT\n
+Houson County, GA\n
+Warren County, NJ\n
+Jefferson County, NY\n
+Wayne County, NY\n
+Erie County, PA\n
+Juniata County, PA\n
+Snohomish County, WA\n
+\n
 v1.8.72\n
 New Locations:\n
 Suisun City, CA (alt)\n
@@ -69,13 +81,7 @@ Travis County, TX\n
 Red Deer County, AB, Canada\n
 \n
 Active911 split message support:\n
-Anderson County, SC\n
-\n
-v1.8.68\n
-Location Fixes:\n
-Yuma County, AZ\n
-Clark County, NV\n
-Crook County, OR
+Anderson County, SC
   </string>
 </resources>
   
