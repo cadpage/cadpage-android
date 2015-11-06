@@ -21,7 +21,7 @@ public class CTGrotonParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "Mobiletec@town.groton.ct.us";
+    return "Mobiletec@town.groton.ct.us,mobiletec@groton-ct.gov";
   }
   
   @Override
@@ -52,14 +52,14 @@ public class CTGrotonParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern SRC_CROSS_PTN = Pattern.compile("STA ([A-Z0-9]+) XS(?: (.*))?");
+  private static final Pattern SRC_CROSS_PTN = Pattern.compile("STA ([ A-Z0-9]+) XS(?: (.*))?");
   private class SourceCrossField extends Field {
     @Override
     public void parse(String field, Data data) {
       field = field.replaceAll("  +", " ");
       Matcher match = SRC_CROSS_PTN.matcher(field);
       if (!match.matches()) abort();
-      data.strSource = match.group(1);
+      data.strSource = match.group(1).replace(' ', '_');
       String cross = match.group(2);
       if (cross != null) {
         if (data.strAddress.length() == 0) {
@@ -111,9 +111,15 @@ public class CTGrotonParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "GRTN CITY",  "GROTON CITY",
       "GRTN TOWN",  "GROTON",
+      "GRTN LGPT",  "GROTON",
+      "LED",        "LEDYARD",
       "MYSTIC",     "MYSTIC",
+      "NOANK",      "NOANK",
+      "NSTON",      "NORTH STONINGTON",
       "STON",       "STONINGTON",
       "STON MYST",  "MYSTIC"
+
   });
 }
