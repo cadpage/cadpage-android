@@ -56,7 +56,8 @@ public class PAErieCountyParser extends GroupBestParser {
     "WAYNE TWP",
     
     // Crawford County
-    "CRAWFORD"
+    "CRAWFORD",
+    "CRAWFORD COUNTY"
   };
 
 }
