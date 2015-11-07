@@ -3,9 +3,9 @@ package net.anei.cadpage.parsers.NY;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-public class NYNassauCountyFireTracker3Parser extends FieldProgramParser {
+public class NYNassauCountyFiretracker3Parser extends FieldProgramParser {
   
-  public NYNassauCountyFireTracker3Parser() {
+  public NYNassauCountyFiretracker3Parser() {
     super("NASSAU COUNTY", "NY", 
           "Call_Type:CALL! Additional_Info:CALL/SDS Address:ADDR! Between:X CountyNum:ID! DOA:DATE! TOA:TIME! FDID:SRC!");
   }
