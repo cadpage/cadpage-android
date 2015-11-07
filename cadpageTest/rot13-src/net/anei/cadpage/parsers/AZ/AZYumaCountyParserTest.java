@@ -19,6 +19,8 @@ ZFT:PU5 OE NFFVTA SBE R9 NERN BS 2900 OYX BS R UJL 95 / LCQ FGNGRQ JR PBHYQ PK G
 1 bs 5\aSEZ:lhznpbzz@ezrgeb.pbz\aZFT:PU 5 PBZZREPVNY NFFVTA SBE RAT 9, RAT 5. RAT 2, GRA 9, ONGG 7, N9 - 944 F NEVMBAN NIR - SNZVYL FURYGRE SBE N\a(Pba'g) 2 bs 5\aFZBXR NYNEZ\a***Guvf pbzzhavpngvba znl pbagnva pbasvqragvny naq/be cebcevrgnel vasbezngvba naq znl abg or qvfpybfrq gb nalbar bgure guna\a(Pba'g) 3 bs 5\agur vagraqrq nqqerffrr. Nal bgure qvfpybfher vf fgevpgyl cebuvovgrq ol ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, lbh unir erprvirq guvf\a(Pba'g) 4 bs 5\apbzzhavpngvba va reebe. Cyrnfr abgvsl gur fraqre vzzrqvngryl naq qrfgebl gur pbzzhavpngvba vapyhqvat nyy pbagrag naq nal nggnpuzragf.\a(Pba'g) 5 bs 5\aGunax lbh.***(Raq)
 1 bs 5\aSEZ:lhznpbzz@ezrgeb.pbz\aZFT:PU 5 ERF NFFVTA SBE R5, R9, R2, R8, E2, O7 - 1938 J 27GU FG SBE N CBFF UBHFR BA SVER. ft\a***Guvf\a(Pba'g) 2 bs 5\apbzzhavpngvba znl pbagnva pbasvqragvny naq/be cebcevrgnel vasbezngvba naq znl abg or qvfpybfrq gb nalbar bgure guna gur vagraqrq\a(Pba'g) 3 bs 5\anqqerffrr. Nal bgure qvfpybfher vf fgevpgyl cebuvovgrq ol ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, lbh unir erprvirq guvf\a(Pba'g) 4 bs 5\apbzzhavpngvba va reebe. Cyrnfr abgvsl gur fraqre vzzrqvngryl naq qrfgebl gur pbzzhavpngvba vapyhqvat nyy pbagrag naq nal nggnpuzragf.\a(Pba'g) 5 bs 5\aGunax lbh.***(Raq)
 1 bs 5\aSEZ:lhznpbzz@ezrgeb.pbz\aZFT:PU 1 ERFV NFFVTA SBE R2, R10, R9, E10, R8, ONG7 G9 9661 F SRYQFCNE NIR ERC NF TNF YRNX VAGB ERFV. EC FGNGRQ\a(Pba'g) 2 bs 5\aVG JNF CBFF YRNXVAT SEBZ GUR ZNVA ZRGRE.\a***Guvf pbzzhavpngvba znl pbagnva pbasvqragvny naq/be cebcevrgnel vasbezngvba naq znl abg or\a(Pba'g) 3 bs 5\aqvfpybfrq gb nalbar bgure guna gur vagraqrq nqqerffrr. Nal bgure qvfpybfher vf fgevpgyl cebuvovgrq ol ynj. Vs lbh ner abg gur vagraqrq\a(Pba'g) 4 bs 5\anqqerffrr, lbh unir erprvirq guvf pbzzhavpngvba va reebe. Cyrnfr abgvsl gur fraqre vzzrqvngryl naq qrfgebl gur pbzzhavpngvba vapyhqvat\a(Pba'g) 5 bs 5\anyy pbagrag naq nal nggnpuzragf. Gunax lbh.***(Raq)
+1 bs 5\aSEZ:lhznpbzz@ezrgeb.pbz\aZFT:PU 5 ERFVQRAGNY. R5, R8, R2, R9, E5, ONGG7 - 3390 J 5GU FG - ZHYGVCYR CNYZ GERRF BA SVER RAQNATREVAT\a(Pba'g) 2 bs 5\aFGEHPGHERF\a***Guvf pbzzhavpngvba znl pbagnva pbasvqragvny naq/be cebcevrgnel vasbezngvba naq znl abg or qvfpybfrq gb nalbar bgure guna\a(Pba'g) 3 bs 5\agur vagraqrq nqqerffrr. Nal bgure qvfpybfher vf fgevpgyl cebuvovgrq ol ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, lbh unir erprvirq guvf\a(Pba'g) 4 bs 5\apbzzhavpngvba va reebe. Cyrnfr abgvsl gur fraqre vzzrqvngryl naq qrfgebl gur pbzzhavpngvba vapyhqvat nyy pbagrag naq nal nggnpuzragf.\a(Pba'g) 5 bs 5\aGunax lbh.***(Raq)
+1 bs 5\aSEZ:lhznpbzz@ezrgeb.pbz\aZFT:PU 1 PBZZREPVNY NFFVTA - 12501 F SEBAGNTR EBNQ - R10, R2, R9, R8, E2, ONGG7 - SVER NYNEZ FBHAQVAT PRAGHELYVAX\a(Pba'g) 2 bs 5\aOHVYQVAT\a***Guvf pbzzhavpngvba znl pbagnva pbasvqragvny naq/be cebcevrgnel vasbezngvba naq znl abg or qvfpybfrq gb nalbar bgure guna gur\a(Pba'g) 3 bs 5\avagraqrq nqqerffrr. Nal bgure qvfpybfher vf fgevpgyl cebuvovgrq ol ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, lbh unir erprvirq guvf\a(Pba'g) 4 bs 5\apbzzhavpngvba va reebe. Cyrnfr abgvsl gur fraqre vzzrqvngryl naq qrfgebl gur pbzzhavpngvba vapyhqvat nyy pbagrag naq nal nggnpuzragf.\a(Pba'g) 5 bs 5\aGunax lbh.***(Raq)
 
 */
 
@@ -203,7 +205,45 @@ choyvp pynff NMLhznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ERFV - TNF YRNX VAGB ERFV. EC FGNGRQ VG JNF CBFF YRNXVAT SEBZ GUR ZNVA ZRGRE.",
         "HAVG:R2,R10,R9,E10,R8,ONG7,G9",
         "NQQE:9661 F SRYQFCNE NIR");
-  
+
+    qbGrfg("G10",
+        "1 bs 5\a" +
+        "SEZ:lhznpbzz@ezrgeb.pbz\a" +
+        "ZFT:PU 5 ERFVQRAGNY. R5, R8, R2, R9, E5, ONGG7 - 3390 J 5GU FG - ZHYGVCYR CNYZ GERRF BA SVER RAQNATREVAT\a" +
+        "(Pba'g) 2 bs 5\a" +
+        "FGEHPGHERF\a" +
+        "***Guvf pbzzhavpngvba znl pbagnva pbasvqragvny naq/be cebcevrgnel vasbezngvba naq znl abg or qvfpybfrq gb nalbar bgure guna\a" +
+        "(Pba'g) 3 bs 5\a" +
+        "gur vagraqrq nqqerffrr. Nal bgure qvfpybfher vf fgevpgyl cebuvovgrq ol ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, lbh unir erprvirq guvf\a" +
+        "(Pba'g) 4 bs 5\a" +
+        "pbzzhavpngvba va reebe. Cyrnfr abgvsl gur fraqre vzzrqvngryl naq qrfgebl gur pbzzhavpngvba vapyhqvat nyy pbagrag naq nal nggnpuzragf.\a" +
+        "(Pba'g) 5 bs 5\a" +
+        "Gunax lbh.***(Raq)",
+
+        "PU:PU5",
+        "PNYY:ERFVQRAGNY - ZHYGVCYR CNYZ GERRF BA SVER RAQNATREVAT FGEHPGHERF",
+        "HAVG:R5,R8,R2,R9,E5,ONGG7",
+        "NQQE:3390 J 5GU FG");
+
+    qbGrfg("G11",
+        "1 bs 5\a" +
+        "SEZ:lhznpbzz@ezrgeb.pbz\a" +
+        "ZFT:PU 1 PBZZREPVNY NFFVTA - 12501 F SEBAGNTR EBNQ - R10, R2, R9, R8, E2, ONGG7 - SVER NYNEZ FBHAQVAT PRAGHELYVAX\a" +
+        "(Pba'g) 2 bs 5\a" +
+        "OHVYQVAT\a" +
+        "***Guvf pbzzhavpngvba znl pbagnva pbasvqragvny naq/be cebcevrgnel vasbezngvba naq znl abg or qvfpybfrq gb nalbar bgure guna gur\a" +
+        "(Pba'g) 3 bs 5\a" +
+        "vagraqrq nqqerffrr. Nal bgure qvfpybfher vf fgevpgyl cebuvovgrq ol ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, lbh unir erprvirq guvf\a" +
+        "(Pba'g) 4 bs 5\a" +
+        "pbzzhavpngvba va reebe. Cyrnfr abgvsl gur fraqre vzzrqvngryl naq qrfgebl gur pbzzhavpngvba vapyhqvat nyy pbagrag naq nal nggnpuzragf.\a" +
+        "(Pba'g) 5 bs 5\a" +
+        "Gunax lbh.***(Raq)",
+
+        "PU:PU1",
+        "PNYY:PBZZREPVNY - SVER NYNEZ FBHAQVAT PRAGHELYVAX OHVYQVAT",
+        "HAVG:R10,R2,R9,R8,E2,ONGG7",
+        "NQQE:12501 F SEBAGNTR EBNQ");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
