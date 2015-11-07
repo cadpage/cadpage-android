@@ -19,6 +19,7 @@ public class NYNassauCountyParser extends GroupBestParser {
           new NYNassauCountyRedAlertParser(), 
           new NYNassauCountyFiretrackerParser(),
           new NYNassauCountyFiretracker2Parser(),
+          new NYNassauCountyFiretracker3Parser(),
           new NYNassauCountyElmontParser(), new NYNassauCountyMassepequaParser(), 
           new NYNassauCountyBethpageParser());
   }

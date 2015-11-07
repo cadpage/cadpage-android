@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Anffnh Pbhagl, AL (Svergenpxre)
+Anffnh Pbhagl, AL (Svergenpxre 3)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Sybeny Cnex Prager SP
