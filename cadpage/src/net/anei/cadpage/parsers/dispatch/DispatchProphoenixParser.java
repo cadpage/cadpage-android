@@ -6,12 +6,10 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 
 public class DispatchProphoenixParser extends FieldProgramParser {
-  
-  private static final Pattern MARKER = Pattern.compile("^(?:(\\d+)|(?:[ A-Z0-9]+:? +\\(#([A-Z0-9]+)\\) +)?([- A-Z0-9]+):) +");
-  private static final Pattern TRAILER_PTN = Pattern.compile(" *;[A-Z0-9]+ +STOP$"); 
   
   private Properties cityCodes;
   
@@ -21,26 +19,38 @@ public class DispatchProphoenixParser extends FieldProgramParser {
   
   public DispatchProphoenixParser(Properties cityCodes, String defCity, String defState) {
     super(defCity, defState,
-           "DATETIME CALL ADDR! Units:UNIT+ Comments:INFO+");
+          "( RR_MARK/R! EMPTY? FDID:SKIP! Incident#:ID! CFSCode:CALL1! Alarm:SKIP! District:SKIP! Receive_Source:SKIP! EMPTY? ADDR_INFO! EMPTY? Location:ADDR1! Common_Name:PLACE! CSZ:SKIP! Dispatch_Priority:PRI! Lat/Long:SKIP! EMPTY? INCIDENT_TIMES! EMPTY? INFO/N+? INCIDENT_COMMENTS " +
+          "| DATETIME CALL ADDR! Units:UNIT+ Comments:INFO+ )");
     this.cityCodes = cityCodes;
   }
+  
+  private static final Pattern MARKER = Pattern.compile("^(?:(\\d+)|(?:[ A-Z0-9]+:? +\\(#([A-Z0-9]+)\\) +)?([- A-Z0-9]+):) +");
+  private static final Pattern TRAILER_PTN = Pattern.compile(" *;[A-Z0-9]+ +STOP$"); 
   
   @Override
   protected boolean parseMsg(String body, Data data) {
     
     // There are two kinds of headers.  Possibly one for text pages and another for SMTP pages
-    Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    data.strCallId = match.group(1);
-    if (data.strCallId == null) {
-      data.strCallId = match.group(2);
-      if (data.strCallId == null) data.strCallId = "";
-      data.strSource = match.group(3).trim();
+    // Not counting the run report heading
+    if (body.startsWith("Incident Information\n")) {
+      data.msgType = MsgType.RUN_REPORT;
+      body = body.replace("> ", ": ");
     }
-    body = body.substring(match.end());
-    
-    match = TRAILER_PTN.matcher(body);
-    if (match.find()) body = body.substring(0,match.start());
+    else {
+      Matcher match = MARKER.matcher(body);
+      if (!match.find()) return false;
+      data.strCallId = match.group(1);
+
+      if (data.strCallId == null) {
+        data.strCallId = match.group(2);
+        if (data.strCallId == null) data.strCallId = "";
+        data.strSource = match.group(3).trim();
+      }
+      body = body.substring(match.end());
+      
+      match = TRAILER_PTN.matcher(body);
+      if (match.find()) body = body.substring(0,match.start());
+    }
     
     return parseFields(body.split("\n"), data);
   }
@@ -50,9 +60,56 @@ public class DispatchProphoenixParser extends FieldProgramParser {
     return "ID SRC " + super.getProgram();
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("RR_MARK"))  return new SkipField("Incident Information", true);
+    if (name.equals("CALL1")) return new BaseCall1Field();
+    if (name.equals("ADDR_INFO")) return new SkipField("Address Information", true);
+    if (name.equals("ADDR1")) return new BaseAddress1Field();
+    if (name.equals("INCIDENT_TIMES")) return new SkipField("Incident Times", true);
+    if (name.equals("INCIDENT_COMMENTS")) return new SkipField("Incident Comments", true);
+    
+    if (name.equals("DATETIME")) return new BaseDateTimeField();
+    if (name.equals("CALL")) return new BaseCallField();
+    if (name.equals("ADDR")) return new BaseAddressField();
+    if (name.equals("UNIT")) return new BaseUnitField();
+    if (name.equals("INFO")) return new BaseInfoField();
+    return super.getField(name);
+  }
+  
+  private class BaseCall1Field extends Field {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(',');
+      if (pt < 0) abort();
+      data.strCode = field.substring(0,pt).trim();
+      data.strCall = field.substring(pt+1).trim();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE CALL";
+    }
+  }
+  
+  private static final Pattern ADDR1_PTN = Pattern.compile("(.*)\\s{3,}(\\d+)");
+  private class BaseAddress1Field extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      String apt = "";
+      Matcher match = ADDR1_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1);
+        apt = match.group(2);
+      }
+      super.parse(field, data);
+      data.strApt = append(data.strApt, "-", apt);
+    }
+  }
+  
   private static final Pattern ID_DATE_TIME_PTN = 
     Pattern.compile("\\{(\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)\\}");
-  private class MyDateTimeField extends DateTimeField {
+  private class BaseDateTimeField extends DateTimeField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = ID_DATE_TIME_PTN.matcher(field);
@@ -63,7 +120,7 @@ public class DispatchProphoenixParser extends FieldProgramParser {
   }
   
   private static final Pattern CALL_PTN = Pattern.compile("([A-Z0-9 ]+) *- *(.*?) *\\{(\\d)\\}");
-  private class MyCallField extends CallField {
+  private class BaseCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = CALL_PTN.matcher(field);
@@ -79,7 +136,7 @@ public class DispatchProphoenixParser extends FieldProgramParser {
     }
   }
   
-  private class MyAddressField extends AddressField {
+  private class BaseAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
@@ -98,7 +155,7 @@ public class DispatchProphoenixParser extends FieldProgramParser {
     }
   }
   
-  private class MyUnitField extends UnitField {
+  private class BaseUnitField extends UnitField {
     @Override
     public void parse(String field, Data data) {
       data.strUnit = append(data.strUnit, " ", field.replaceAll("  +", " "));
@@ -106,7 +163,7 @@ public class DispatchProphoenixParser extends FieldProgramParser {
   }
   
   private static final Pattern UNIT_PTN = Pattern.compile("\\{ *([A-Z0-9]+) *\\}");
-  private class MyInfoField extends InfoField {
+  private class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       
@@ -135,15 +192,5 @@ public class DispatchProphoenixParser extends FieldProgramParser {
       // ANything else is information
       data.strSupp = append(data.strSupp, "\n", field);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("UNIT")) return new MyUnitField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
 }
