@@ -1057,6 +1057,7 @@ class Active911Vendor extends Vendor {
       "US/VA/ArlingtonEmployeeAlerts",    "VAFallsChurch",
       "US/VA/AugustaCounty",              "VAAugustaCounty",
       "US/VA/BrunswickCounty",            "VABrunswickCounty",
+      "US/VA/CarolineCounty",             "VACarolineCounty",
       "US/VA/CityofArlington",            "VAArlingtonCounty",
       "US/VA/CityofFredericksburg",       "VAFredericksburg",
       "US/VA/CityofHarrisonburg",         "VARockinghamCounty",
