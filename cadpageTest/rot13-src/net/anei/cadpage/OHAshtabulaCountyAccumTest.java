@@ -1,6 +1,6 @@
-cnpxntr arg.narv.pnqcntr.cnefref.BU;
+cnpxntr arg.narv.pnqcntr;
 
-vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
+vzcbeg arg.narv.pnqcntr.cnefref.BU.BUNfugnohynPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -376,9 +376,9 @@ AGNVAZRAG GNAX
 28, 1351 FGNGR EQ, EBPX PERRX, BU  44084, OBHTUARE EQ//YRFYVR EQ, CBFFVOYL PUVZARL SVER
 
  */
-choyvp pynff BUNfugnohynPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff BUNfugnohynPbhaglNpphzGrfg rkgraqf FzfZftNpphzhyngbeGrfg {
   
-  choyvp BUNfugnohynPbhaglCnefreGrfg() {
+  choyvp BUNfugnohynPbhaglNpphzGrfg() {
     frgCnefre(arj BUNfugnohynPbhaglCnefre(), "NFUGNOHYN PBHAGL", "BU");
   }
   
@@ -2286,6 +2286,6 @@ choyvp pynff BUNfugnohynPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj BUNfugnohynPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj BUNfugnohynPbhaglNpphzGrfg().trarengrGrfgf("G1");
   }
 }

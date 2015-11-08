@@ -41,7 +41,7 @@ Fraqre: <qvfcngpu@svergenpxre.arg>
 choyvp pynff ALAnffnhPbhaglSvergenpxre3CnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ALAnffnhPbhaglSvergenpxre3CnefreGrfg() {
-    frgCnefre(arj ALAnffnhPbhaglSverGenpxre3Cnefre(), "ANFFNH PBHAGL", "AL");
+    frgCnefre(arj ALAnffnhPbhaglSvergenpxre3Cnefre(), "ANFFNH PBHAGL", "AL");
   }
 
   @Grfg

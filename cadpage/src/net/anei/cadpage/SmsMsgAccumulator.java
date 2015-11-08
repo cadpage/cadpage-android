@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import net.anei.cadpage.parsers.MsgInfo;
-import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.SplitMsgOptions;
 import android.app.AlarmManager;
@@ -132,42 +130,9 @@ public class SmsMsgAccumulator {
     if (msgCount == 1) return false;
     if (msgCount > 1) return true;
     
-    SplitMsgOptions options = msg.getSplitMsgOptions();
-    
     // If there is a configured minimum message count > 1, return true
-    if (options.splitMinMsg() > 1) return true;
-    
-    // Otherwise return true if result does not appear to be complete
-    FilterOptions genAlertOptions = ManagePreferences.genAlertOptions();
-    boolean acceptGenAlerts = (genAlertOptions.historyEnabled() || genAlertOptions.blockTextMsgEnabled());
-    return !isComplete(msg.getMessageBody().length(), msg.getInfo(), options, acceptGenAlerts);
-  }
-  
-  /**
-   * Determine if message appears to be complete based on the parsed message info
-   * and split message options
-   * @param msgLen original message length
-   * @param info parsed message info (may be null)
-   * @param options Split Message Options
-   * @param acceptGenAlerts True if General alerts are being processed
-   * @return true if message appears to be complete
-   */
-  private static boolean isComplete(int msgLen, MsgInfo info, SplitMsgOptions options, boolean acceptGenAlerts) {
-    
-    // The rules change if the message parts may be misordered
-    if (options.revMsgOrder() || options.mixedMsgOrder()) {
-      
-      // In which case, parse failure or general alert result may be a partial message
-      if (info == null || info.getMsgType() == MsgType.GEN_ALERT) return false;
-    }
-    
-    // If message matches expected break length, expect more to come
-    int breakLen = options.splitBreakLength();
-    if (breakLen > 0) {
-      if (msgLen <= breakLen && breakLen-msgLen <= options.splitBreakPad()) return true;
-    }
-    // Otherwise, message must parse and must return expect more status to be incomplete
-    return info != null && !info.isExpectMore();
+    if (msg.getSplitMsgOptions().splitMinMsg() > 1) return true;
+    return msg.expectMore();
   }
 
   /**
@@ -346,9 +311,8 @@ public class SmsMsgAccumulator {
       // we have a complete message.  If we have an impossible parse failure
       // return complete so we can get rid of this message
       
-      boolean isPage = msg.isPageMsg(MsgParser.PARSE_FLG_FORCE);
-      MsgInfo info = isPage ? msg.getInfo() : null;
-      return SmsMsgAccumulator.isComplete(msg.getMessageBody().length(), info, msg.getSplitMsgOptions(), true);
+      msg.isPageMsg(MsgParser.PARSE_FLG_FORCE);
+      return !msg.expectMore();
     }
 
     /**

@@ -1,6 +1,11 @@
 package net.anei.cadpage.parsers.OH;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 import net.anei.cadpage.parsers.dispatch.DispatchA10Parser;
 
 
@@ -8,9 +13,19 @@ public class OHAshtabulaCountyParser extends DispatchA10Parser {
 
   public OHAshtabulaCountyParser() {
     super(CITY_LIST, "ASHTABULA COUNTY", "OH",
-           "( UNIT ADDR CITY ST X+? CALL! | CALL ADDR/S X!+? INFO+ )");
+           "CALL ( ADDR/Z CITY/Z ST | ADDR/Z CITY ST? | ADDR/S ) X!+? INFO+");
   }
   
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom(){
+      @Override public boolean mixedMsgOrder() { return true; }
+      @Override public boolean splitBlankIns() { return false; }
+      @Override public int splitBreakLength() { return 130; }
+      @Override public int splitBreakPad() { return 1; }
+    };
+  }
+
   @Override
   public String getFilter() {
     return "Sheriffadmin@ashtabulacounty.us";
@@ -30,7 +45,8 @@ public class OHAshtabulaCountyParser extends DispatchA10Parser {
   @Override
   public Field getField(String name) {
     if (name.equals("UNIT")) return new UnitField("\\d{2}", true);
-    if (name.equals("ST")) return new StateField("([A-Z]{2})(?: +\\d{5})?", true);
+    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("ST")) return new StateField("(OH|PA)(?: +\\d{5})?", true);
     if (name.equals("CALL")) return new MyCallField();
     return super.getField(name);
   }
@@ -42,6 +58,35 @@ public class OHAshtabulaCountyParser extends DispatchA10Parser {
       super.parse(field, data);
     }
   }
+  
+  private static final Pattern CITY_ST_PTN = Pattern.compile("(.*) +(OH|PA)(?: +\\d{5})?");
+  private class MyCityField extends CityField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (parseCityState(field, data)) return true;
+      return super.checkParse(field, data);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (parseCityState(field, data)) return;
+      super.parse(field, data);
+    }
+
+    private boolean parseCityState(String field, Data data) {
+      Matcher match = CITY_ST_PTN.matcher(field);
+      if (!match.matches()) return false;
+      super.parse(match.group(1).trim(), data);
+      data.strState = match.group(2);
+      return true;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CITY ST";
+    }
+  }
+  
 
   private static final String[] CITY_LIST = new String[]{
 
@@ -52,7 +97,7 @@ public class OHAshtabulaCountyParser extends DispatchA10Parser {
     
     // Vilages
     "ANDOVER",
-    "GENEVA-ON-THE-LAKE",
+    "GENEVA ON THE LAKE",
     "JEFFERSON",
     "NORTH KINGSVILLE",
     "ORWELL",
@@ -127,6 +172,15 @@ public class OHAshtabulaCountyParser extends DispatchA10Parser {
     "FOOTVILLE",
     "KINGSVILLE",
     "PIERPONT",
-    "UNIONVILLE"
+    "UNIONVILLE",
+    
+    // Geauga County
+    "HUNTSBURG",
+    "MIDDLEFIELD",
+    "MONTVILLE",
+    "THOMPSON",
+    
+    // Trumbull County
+    "BLOOMFIELD"
   };
 }
