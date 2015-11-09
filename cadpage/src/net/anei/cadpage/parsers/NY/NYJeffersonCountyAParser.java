@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 
 
@@ -12,8 +13,11 @@ public class NYJeffersonCountyAParser extends FieldProgramParser {
   
   public NYJeffersonCountyAParser() {
     super("JEFFERSON COUNTY", "NY",
-          "CALL ADDR! INFO");
+          "( SELECT/R Incident_#:SKIP! CAD_Call_ID_#:ID! Type:SKIP! Date/Time:DATETIME! Address:ADDR! Contact:NAME! Contact_Address:SKIP! Contact_Phone:PHONE1! Nature:CODE! Nature_Description:CALL! Determinant:SKIP! Determinant_Desc:SKIP! Complainant:SKIP! Comments:INFO! INFO/N+ " +
+          "| CALL ADDR2! INFO2 )");
   }
+
+  private static final Pattern SUBJECT_BRK_PTN = Pattern.compile(" +(?=Incident #:|CAD Call ID #:|Type:|Date/Time:)");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -65,11 +69,14 @@ public class NYJeffersonCountyAParser extends FieldProgramParser {
         data.strUnit = subject.substring(9).trim();
       }
       else if (subject.startsWith("DISPATCH") && subject.contains("Incident #:")) {
-        data.strCall = "RUN REPORT";
-        data.strPlace = '(' + subject + ") " + body;
-        return true;
+        setSelectValue("R");
+        data.msgType = MsgType.RUN_REPORT;
+        subject = SUBJECT_BRK_PTN.matcher(subject).replaceAll("\n");
+        body = subject + "\n" + body;
+        return parseFields(body.split("\n"), data);
       }
       
+      setSelectValue("");
       flds = body.split("\\|", -1);
       if (flds.length != 3) return false;
     }
@@ -83,13 +90,22 @@ public class NYJeffersonCountyAParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("PHONE1")) return new MyPhone1Field();
+    if (name.equals("ADDR2")) return new MyAddress2Field();
+    if (name.equals("INFO2")) return new MyInfo2Field();
     return super.getField(name);
   }
   
+  private class MyPhone1Field extends PhoneField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("(   )   -")) return;
+      super.parse(field, data);
+    }
+  }
+  
   private static final Pattern ADDR_PTN = Pattern.compile("\\(.\\)$");
-  private class MyAddressField extends AddressField {
+  private class MyAddress2Field extends AddressField {
     
     @Override
     public void parse(String field, Data data) {
@@ -111,7 +127,7 @@ public class NYJeffersonCountyAParser extends FieldProgramParser {
   private static final Pattern CALLBACK_PTN = Pattern.compile("(?:CALLBACK=([^ ]*) +)?LAT[:=]([-+]?[\\.0-9]*) LON[:=]([-+]?[\\.0-9]*).*");
   private static final Pattern TURN_OFF_PTN = Pattern.compile("\\d{5}-\\d{3}-\\d{4} \\d\\d/\\d\\d \\d\\d:\\d\\d:\\d\\d .*");
   private static final Pattern TURN_ON_PTN = Pattern.compile("\\d\\d:\\d\\d:\\d\\d \\d\\d/\\d\\d/\\d{4} - .*");
-  private class MyInfoField extends InfoField {
+  private class MyInfo2Field extends InfoField {
     @Override
     public void parse(String field, Data data) {
       boolean include = true;

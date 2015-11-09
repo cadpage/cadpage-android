@@ -144,14 +144,14 @@ choyvp pynff ZAEraivyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "PNYY: Penfu;NQQE: ujl 4 / Ujl 212;VQ: 15009229;CEV: 1",
         "PNYY:Penfu",
-        "NQQE:ujl 4 & Ujl 212",
+        "NQQE:ujl 4 & Ujl 212", //qbrf abg znc rira gubhtu v pna frr gur vagrefrpgvba ba n irel mbbzrq bhg znc >:|
         "VQ:15009229",
         "CEV:1");
 
     qbGrfg("G2",
         "PNYY: Sver;NQQE: 2aq / 3eq;PVGL: Urpgbe;VQ: 15009089;CEV: 1;VASB: pragrecbvag",
         "PNYY:Sver",
-        "NQQE:2aq & 3eq",
+        "NQQE:2aq & 3eq", //qbrf abg znc
         "PVGL:Urpgbe",
         "VQ:15009089",
         "CEV:1",
@@ -581,7 +581,7 @@ choyvp pynff ZAEraivyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY: Sver;NQQE: Pb Eq 1 / 760gu Nir;VQ: 15009722;CEV: 1",
         "PNYY:Sver",
         "NQQE:Pb Eq 1 & 760gu Nir",
-        "ZNQQE:PBHAGL EBNQ 1 & 760gu Nir",
+        "ZNQQE:PBHAGL EBNQ 1 & 760gu Nir", //qbrf abg znc
         "VQ:15009722",
         "CEV:1");
 

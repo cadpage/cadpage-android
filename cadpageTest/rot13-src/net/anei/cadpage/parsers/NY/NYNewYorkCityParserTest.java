@@ -45,7 +45,9 @@ Fraqre: ey_pnyyvq@ungmnynu.bet
 
 Pbagnpg: Fnzzl Urpug <fnzzlurpug@tznvy.pbz>
 Fraqre: fnzzls245+pns_=3474512227=igrkg.pbz@tznvy.pbz
+Fraqre: pnyyvq@ungmnynu.bet
 1068 R 15Gu Fg - Org Nirahr W & Nirahr X - Pnyy VQ: 108-493-10
+2429 Uhooneq Fg -- Orgjrra Bprna Pg & Cnexjnl Pg - 1fg sybbe - Pnyy VQ: 511-071-530
 
 Pbagnpg: Noenunz Rvfraoret <norrvfraoret@tznvy.pbz>
 Fraqre: pnyyvq@ungmnynu.bet
@@ -236,6 +238,13 @@ choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1068 R 15Gu Fg",
         "K:Nirahr W & Nirahr X",
         "VQ:108-493-10");
+
+    qbGrfg("G2",
+        "2429 Uhooneq Fg -- Orgjrra Bprna Pg & Cnexjnl Pg - 1fg sybbe - Pnyy VQ: 511-071-530",
+        "NQQE:2429 Uhooneq Fg",
+        "K:Bprna Pg & Cnexjnl Pg",
+        "CYNPR:1fg sybbe",
+        "VQ:511-071-530");
    
   }
   

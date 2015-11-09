@@ -1,4 +1,4 @@
-*************************************************************************
+	*************************************************************************
 * Sender number changed to 87844
 *************************************************************************
 
@@ -686,7 +686,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-MYQBARAA or myqbaraa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+MOLNZTFA or molnztfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support, 
 Jean ~ Cadpage Administrator
@@ -3952,6 +3952,23 @@ dispatch alerts, you will need to contact that department about stopping
 them.  We do not have anything to do with that.
 
 Thanks for trying Cadpage,
+
+**************************************************************************
+* Old Cadpage users
+**************************************************************************
+
+It has been a while since we last heard from you.  And it looks like your department switched to using Active911 some time back.  You may or may not be aware that Cadpage works quite well with the Active911 paging service.  You can use it instead of, or in addition to, the Active911 android app.  We have some features that the Active911 app still lacks, more flexible notification options for example.  But the main reason you would probably want to try it is because dispatch seems to be splitting long alerts up into multiple messages.  And Cadpage has logic to try and merge those back into a single alert.
+
+If you are not currently using Cadpage and would like to try it.  You can install Cadpage from the Google play store.  Then open Cadpage settings and select
+Direct Paging Vendors > Active911 > Register
+You then have to enter the same Active911 device activation code that you used to register the Active911 app.
+
+Once you do this, Active911 alerts will be picked up by Cadpage and will not be sent to the Active911 app.  Though if you launch the Active911 app manually, it will query their servers and update the displayed call history after a few seconds.   The split message merge logic in Cadpage is activated automatically.
+
+if you have any questions, or if there is anything you would like to see added to the Cadpage feature set, by all means feel free to contact us.
+
+Have a nice day,
+-Ken
 
 **************************************************************************
 

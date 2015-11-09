@@ -1265,6 +1265,11 @@ public class SmsMmsMessage implements Serializable {
   Message getParseInfo() {
     return parseInfo;
   }
+
+  public boolean expectMore() {
+    if (parseInfo == null) return false;
+    return parseInfo.expectMore(getSplitMsgOptions());
+  }
   
   /**
    * Class to interpret numeric subparameter from acknowledgment request string

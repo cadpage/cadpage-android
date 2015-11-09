@@ -18,6 +18,13 @@ public class DispatchA10Parser extends FieldProgramParser {
     return parseFields(body.split(",", -1), data);
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("X")) return (crossField != null ? crossField : (crossField = new MyCrossField()));
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+  
   // Complicated cross field processing results from the unfortunate fact that
   // the separate up to two cross streets into a cross street and city name
   // separated by a comma.  But we use comma as a field separator, so what should
@@ -106,12 +113,5 @@ public class DispatchA10Parser extends FieldProgramParser {
     public void parse(String field, Data data) {
       data.strSupp = append(data.strSupp, ", ", field);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("X")) return (crossField != null ? crossField : (crossField = new MyCrossField()));
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
 }

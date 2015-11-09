@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10312015</string>
-  <string name="release_version">v1.8.72</string>
+  <string name="release_date">11092015</string>
+  <string name="release_version">v1.8.74</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.74\n
+New Locations:\n
+Pulaski County, IN\n
+Columbia, IL\n
+Pendleton County, KY (alt)\n
+Renville County, MN\n
+Harrison County, MO\n
+Nassau County, NY (alt)\n
+Muskogee County, OK\n
+Texas City, TX\n
+Windham County, VT\n
+\n
+Location Fixes:\n
+Yuma County, AZ\n
+Gloucester County, NJ\n
+New York City, NY\n
+Ashtabula County, OH\n
+Caroline County, VA\n
+Snohomish Counth, WA\n
+\n
+v1.8.73\n
+Location Fixes:\n
+Yuma County, AZ\n
+Groton, CT\n
+Houson County, GA\n
+Warren County, NJ\n
+Jefferson County, NY\n
+Wayne County, NY\n
+Erie County, PA\n
+Juniata County, PA\n
+Snohomish County, WA\n
+\n
 v1.8.72\n
 New Locations:\n
 Suisun City, CA (alt)\n
@@ -39,43 +71,7 @@ Mineral County, WV\n
 v1.8.70
 Location Fixes:\n
 Bradley County, TN\n
-Collins County, TX\n
-\n
-v1.8.69
-New Locations:\n
-Hot Springs County, AR\n
-Yavapai County, AZ (alt)\n
-San Luis Obispo County, CA (alt)\n
-Bent County, CO\n
-Gunnison County, CO\n
-Bonner County, ID\n
-Delaware County, IN\n
-Labette County, KS\n
-St Louis Park, MN\n
-Buchannan County, MO\n
-Shelby County, MO\n
-Stoddard County, MO\n
-Cleveland County, NC (alt)\n
-Anderson County, SC (alt)\n
-Arlington County, VA\n
-Clallam County, WA\n
-\n
-Location Fixes:\n
-Burlington County, NJ\n
-Sussex County, NJ\n
-Washington County, OR\n
-Montgomery County, TX\n
-Travis County, TX\n
-Red Deer County, AB, Canada\n
-\n
-Active911 split message support:\n
-Anderson County, SC\n
-\n
-v1.8.68\n
-Location Fixes:\n
-Yuma County, AZ\n
-Clark County, NV\n
-Crook County, OR
+Collins County, TX
   </string>
 </resources>
   

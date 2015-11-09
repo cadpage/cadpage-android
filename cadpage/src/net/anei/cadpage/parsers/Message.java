@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.Log;
 import net.anei.cadpage.mms.Base64;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class Message {
   
@@ -639,6 +640,33 @@ public class Message {
    */
   public MsgInfo getInfo() {
     return info;
+  }
+  
+  /**
+   * Determine if message is expecting a suplemental message
+   * @param options Split message processing options
+   * @return true if it is
+   */
+  public boolean expectMore(SplitMsgOptions options) {
+    
+    // The rules change if the message parts may be misordered
+    if (options.revMsgOrder() || options.mixedMsgOrder()) {
+      
+      // In which case, parse failure or general alert result may be a partial message
+      if (info == null || info.getMsgType() == MsgType.GEN_ALERT) return true;
+    }
+    
+    // If message matches expected break length, within the pad fudge factor, expect more to come
+    int breakLen = options.splitBreakLength();
+    if (breakLen > 0) {
+      int msgLen = getMessageBody().length();
+      int delta = msgLen % breakLen;
+      if (delta == 0) return true;
+      if (delta + options.splitBreakPad() >= breakLen)  return true;
+    }
+    // Otherwise, message must parse and must return expect more status to be incomplete
+    return info != null && info.isExpectMore();
+
   }
 
   /**

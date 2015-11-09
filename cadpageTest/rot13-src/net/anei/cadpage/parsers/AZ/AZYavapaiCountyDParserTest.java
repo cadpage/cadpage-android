@@ -10,100 +10,109 @@ Lnincnv Pbhagl, NM (Q)
 Pbagnpg: Npgvir911
 Ntrapl anzr: Znlre SQ
 Ybpngvba: Znlre, NM, Havgrq Fgngrf
-Fraqre: Vna Jbygre <Vna.Jbygre@ezrgeb.pbz>
 Fraqre: <TyraPbzz@Ezrgeb.pbz>
+Fraqre: Vna Jbygre <Vna.Jbygre@ezrgeb.pbz>
 
-{ZNLRE E21 Vapvqrag # 15265257} Znlre E21 Vapvqrag # 15265257 sbe n Fvpx Crefba - 19625 Pbeqrf Ynxrf Eq.\a\a\a\aGunaxf,\a\a\a\aVna Jbygre\a\a***Guvf pbzzhavpngvba znl pbagnva pbasvqragvny naq/be cebcevrgnel vasbezngvba naq znl abg or qvfpybfrq gb nalbar bgure guna gur vagraqrq nqqerffrr. Nal bgure qvfpybfher vf fgevpgyl cebuvovgrq ol ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, lbh unir erprvirq guvf pbzzhavpngvba va reebe. Cyrnfr abgvsl gur fraqre vzzrqvngryl naq qrfgebl gur pbzzhavpngvba vapyhqvat nyy pbagrag naq nal nggnpuzragf. Gunax lbh.***
-{Znlre E23 Vapvqrag # 15265238} \aVapvqrag # 15265238 sbe n Fvpx Crefba ng 20900 R Pblbgr Ynar\a\a\a\aGunaxf\a\a\a\aVna Jbygre\a\a***Guvf pbzzhavpngvba znl pbagnva pbasvqragvny naq/be cebcevrgnel vasbezngvba naq znl abg or qvfpybfrq gb nalbar bgure guna gur vagraqrq nqqerffrr. Nal bgure qvfpybfher vf fgevpgyl cebuvovgrq ol ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, lbh unir erprvirq guvf pbzzhavpngvba va reebe. Cyrnfr abgvsl gur fraqre vzzrqvngryl naq qrfgebl gur pbzzhavpngvba vapyhqvat nyy pbagrag naq nal nggnpuzragf. Gunax lbh.***
-ZNLE21    15265257            19625 pbeqrf ynxrf eq                   QVFC:10:46RAEG:10:46FPAR:10:58NINVY:
-ZNLE23    15265238            20900 R Pblbgr Ya                       QVFC:10:18RAEG:10:18FPAR:10:21NINVY:
-ZNLE21 Fvpx Crefba (Fcrp Qvnt)(P3)        *pbeqrf Whapgvba*             NCG#    PVGL:              ZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15265257
-ZNLR22 Fvpx Crefba (Fcrp Qvnt)(P3)        *pbeqrf Whapgvba*             NCG#    PVGL:              ZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15265257
-ZNLRE  Fvpx Crefba (Fcrp Qvnt)(P3)        *pbeqrf Whapgvba*             NCG#    PVGL:              ZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15265257
-ZNLRE             15265238            20900 R Pblbgr Ya                       QVFC:10:17       FPAR:10:21       PAPY:10:34       ERNFBA:Aba Genafcbegvat Havg
-ZNLR22            15265238            20900 R Pblbgr Ya                       QVFC:10:19       FPAR:10:32       PAPY:10:34       ERNFBA:Ratvar Erfc- Ghearq gb Nzob
-ZNLR22 Fvpx Crefba (Fcrp Qvnt)(P3)        20900 R Pblbgr Ya             NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:NAGRYBCR YA/F EBYYVAT EVQTR QE   EHA#:15265238
-ZNLE23 Fvpx Crefba (Fcrp Qvnt)(P3)        20900 R Pblbgr Ya             NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:NAGRYBCR YA/F EBYYVAT EVQTR QE   EHA#:15265238
-ZNLRE  Fvpx Crefba (Fcrp Qvnt)(P3)        20900 R Pblbgr Ya             NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:NAGRYBCR YA/F EBYYVAT EVQTR QE   EHA#:15265238
+ZNLR22            15275836            18899 R Pbccre Fgne Eq                  QVFC:18:28       FPAR:18:34       PAPY:18:47       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
+ZNLRE             15275836            18899 R Pbccre Fgne Eq                  QVFC:18:26       FPAR:            PAPY:18:28       ERNFBA:Aba Genafcbegvat Havg
+ZNLR22 Fanxr erzbiny                      18899 R Pbccre Fgne Eq        NCG#    PVGL:LNINCNV PBHAGLZNC:11A02R15NHGUBEVGL:911 Qverpg                  PEBFF:SEBAGNTR EQ/Qrnq Raq             EHA#:15275836
+ZNLRE  Fanxr erzbiny                      18899 R Pbccre Fgne Eq        NCG#    PVGL:LNINCNV PBHAGLZNC:11A02R15NHGUBEVGL:911 Qverpg                  PEBFF:SEBAGNTR EQ/Qrnq Raq             EHA#:15275836
+ZNLRE             15275797            17064 R Qhssref Qe                      QVFC:17:17       FPAR:            PAPY:18:13       ERNFBA:Aba Genafcbegvat Havg
+ZNLR22            15275797            17064 R Qhssref Qe                      QVFC:17:20       FPAR:17:24       PAPY:17:44       ERNFBA:Ratvar Erfc- Ghearq gb Nzob
+ZNLR22 Fvpx Crefba (Fcrp Qvnt)(P3)        17064 R Qhssref Qe            NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R09NHGUBEVGL:911 Qverpg                  PEBFF:F QHSSREF PVE/F FCEVAT YA        EHA#:15275797
+ZNLE21 Fvpx Crefba (Fcrp Qvnt)(P3)        17064 R Qhssref Qe            NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R09NHGUBEVGL:911 Qverpg                  PEBFF:F QHSSREF PVE/F FCEVAT YA        EHA#:15275797
+ZNLE21            15275742            111 F IREQR YA                          QVFC:17:19       FPAR:            PAPY:17:19       ERNFBA:Qvfcngpure Reebe
+ZNLE2           111 F IREQR YA                NCG#      PVGL:PNFN TENAQR   ZNC: 06F06R25       Oernguvat Ceboyrzf (P3)                 NHGUBEVGL: Pnfn Tenaqr CQ              PEBFF: R QRFREG JVAQ QE/R TBYQRA GEY    EHA#:15275742
+ZNLRE  Fvpx Crefba (Fcrp Qvnt)(P3)        17064 R Qhssref Qe            NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R09NHGUBEVGL:911 Qverpg                  PEBFF:F QHSSREF PVE/F FCEVAT YA        EHA#:15275797
+ZNLR22            15275582            19600 R Fgntrpbnpu Gey                  QVFC:11:43       FPAR:            PAPY:11:45       ERNFBA:Snyfr Nynez
+ZNLRE             15275582            19600 R Fgntrpbnpu Gey                  QVFC:11:41       FPAR:            PAPY:11:45       ERNFBA:Snyfr Nynez
+ZNLR22 Nynez sver, fzbxr, fpubby bhg      19600 R Fgntrpbnpu Gey        NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R14NHGUBEVGL:Nynez Pbzcnal               PEBFF:R PNPGHF JERA QE/HAANZRQ FGERRG  EHA#:15275582
+ZNLRE  Nynez sver, fzbxr, fpubby bhg      19600 R Fgntrpbnpu Gey        NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R14NHGUBEVGL:                            PEBFF:R PNPGHF JERA QE/HAANZRQ FGERRG  EHA#:15275582
+ZNLRE             15275476            9985 F Fe 69                            QVFC:08:42       FPAR:            PAPY:08:45       ERNFBA:Snyfr Nynez
+ZNLRE  Nynez sver, fzbxr, fpubby bhg      9985 F Fe 69                  NCG#    PVGL:ZNLRE         ZNC:        NHGUBEVGL:                            PEBFF:                                 EHA#:15275476
+ZNLE23    15275231            19807 R Pbarfgbtn Qe                    QVFC:21:32RAEG:21:33FPAR:21:37NINVY:
+ZNLRE             15275231            19807 R Pbarfgbtn Qe                    QVFC:21:31       FPAR:            PAPY:22:00       ERNFBA:Aba Genafcbegvat Havg
+ZNLR22            15275231            19807 R Pbarfgbtn Qe                    QVFC:21:33       FPAR:21:40       PAPY:22:00       ERNFBA:Ratvar Erfc- Ghearq gb Nzob
+ZNLR22 Purfg Cnva (P3)                    19807 R Pbarfgbtn Qe          NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R23NHGUBEVGL:911 Qverpg                  PEBFF:FNQQYRONPX YA/FVREEN QE          EHA#:15275231
+ZNLE23 Purfg Cnva (P3)                    19807 R Pbarfgbtn Qe          NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R23NHGUBEVGL:911 Qverpg                  PEBFF:FNQQYRONPX YA/FVREEN QE          EHA#:15275231
+ZNLRE  Purfg Cnva (P3)                    19807 R Pbarfgbtn Qe          NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R23NHGUBEVGL:911 Qverpg                  PEBFF:FNQQYRONPX YA/FVREEN QE          EHA#:15275231
+ZNLRE             15275107            10055 Ujl 69                            QVFC:18:01       FPAR:            PAPY:18:23       ERNFBA:Aba Genafcbegvat Havg
+ZNLE21            15275107            10055 Ujl 69                            QVFC:18:04       FPAR:18:10       PAPY:18:22       ERNFBA:Vainyvq Nffvfg Bayl
+ZNLE21 Vainyvq Nffvfg                     10055 Ujl 69                  NCG#15  PVGL:ZNLRE         ZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15275107
+ZNLRE  Vainyvq Nffvfg                     10055 Ujl 69                  NCG#15  PVGL:ZNLRE         ZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15275107
+ZNLE21    15274691            17509 R Obo Juvgr Eq                    QVFC:06:36RAEG:06:36FPAR:06:44NINVY:
+ZNLRE             15274691            17509 R Obo Juvgr Eq                    QVFC:06:34       FPAR:06:43       PAPY:07:09       ERNFBA:Aba Genafcbegvat Havg
+ZNLR22            15274691            17509 R Obo Juvgr Eq                    QVFC:06:36       FPAR:06:41       PAPY:07:07       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
+ZNLE21 Urzbeeuntr/Ynprengvbaf (P3)        17509 R Obo Juvgr Eq          NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R09NHGUBEVGL:911 Qverpg                  PEBFF:F ZRFDHVGR GEY/QBIR JNL          EHA#:15274691
+ZNLR22 Urzbeeuntr/Ynprengvbaf (P3)        17509 R Obo Juvgr Eq          NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R09NHGUBEVGL:911 Qverpg                  PEBFF:F ZRFDHVGR GEY/QBIR JNL          EHA#:15274691
+ZNLRE  Urzbeeuntr/Ynprengvbaf (P3)        17509 R Obo Juvgr Eq          NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R09NHGUBEVGL:911 Qverpg                  PEBFF:F ZRFDHVGR GEY/QBIR JNL          EHA#:15274691
+ZNLE21    15274236            17379 R Zrnqbj Ya                       QVFC:16:46RAEG:16:46FPAR:16:55NINVY:
+ZNLRE             15274312            13690 F Ohegba Eq                       QVFC:18:04       FPAR:            PAPY:18:35       ERNFBA:Ab Rzretrapl
+ZNLOP2            15274312            13690 F Ohegba Eq                       QVFC:18:24       FPAR:18:25       PAPY:18:35       ERNFBA:Ab Rzretrapl
+ZNLR22            15274312            13690 F Ohegba Eq                       QVFC:18:06       FPAR:18:25       PAPY:18:35       ERNFBA:Ab Rzretrapl
+ZNLOP2 Cflpuvngevp/Fhvpvqr Ngg (P3)       13690 F Ohegba Eq             NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R08NHGUBEVGL:911 Qverpg                  PEBFF:F UVTU EQ/HAANZRQ FGERRG         EHA#:15274312
+ZNLOP2            15274317            14005 F Fcevat Ya                       QVFC:18:08       FPAR:18:16       PAPY:18:24       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
+ZNLR22 Cflpuvngevp/Fhvpvqr Ngg (P3)       13690 F Ohegba Eq             NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R08NHGUBEVGL:911 Qverpg                  PEBFF:F UVTU EQ/HAANZRQ FGERRG         EHA#:15274312
+ZNLOP2 Cflpuvngevp/Fhvpvqr Ngg (P3)       14005 F Fcevat Ya             NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R16NHGUBEVGL:Lnincnv Pbhagl Furevss      PEBFF:R YNXRIVRJ QE/R QHSSREF QE       EHA#:15274317
+ZNLOP2            15274285            Ujl 69 @ Zc 273                         QVFC:17:35       FPAR:17:41       PAPY:18:08       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
+ZNLR22            15274285            Ujl 69 @ Zc 273                         QVFC:17:36       FPAR:17:42       PAPY:18:06       ERNFBA:Ratvar Erfc- Ghearq gb Nzob
+ZNLRE  Cflpuvngevp/Fhvpvqr Ngg (P3)       13690 F Ohegba Eq             NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R08NHGUBEVGL:911 Qverpg                  PEBFF:F UVTU EQ/HAANZRQ FGERRG         EHA#:15274312
+ZNLRE             15274285            Ujl 69 @ Zc 273                         QVFC:17:35       FPAR:17:42       PAPY:18:04       ERNFBA:Aba Genafcbegvat Havg
+ZNLE23 Genssvp Nppvqrag (P3)              Ujl 69 @ Zc 273               NCG#    PVGL:ZNLRE         ZNC:        NHGUBEVGL:Lnincnv Pbhagl Furevss      PEBFF:                                 EHA#:15274285
+ZNLR22 Genssvp Nppvqrag (P3)              Ujl 69 @ Zc 273               NCG#    PVGL:ZNLRE         ZNC:        NHGUBEVGL:Lnincnv Pbhagl Furevss      PEBFF:                                 EHA#:15274285
+ZNLOP2 Genssvp Nppvqrag (P3)              Ujl 69 @ Zc 273               NCG#    PVGL:ZNLRE         ZNC:        NHGUBEVGL:Lnincnv Pbhagl Furevss      PEBFF:                                 EHA#:15274285
+ZNLRE  Genssvp Nppvqrag (P3)              Ujl 69 @ Zc 273               NCG#    PVGL:ZNLRE         ZNC:        NHGUBEVGL:Lnincnv Pbhagl Furevss      PEBFF:                                 EHA#:15274285
+ZNLRE             15274236            17379 R Zrnqbj Ya                       QVFC:16:44       FPAR:16:55       PAPY:17:02       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
+ZNLR22            15274236            17379 R Zrnqbj Ya                       QVFC:16:46       FPAR:16:51       PAPY:17:02       ERNFBA:Ratvar Erfc- Ghearq gb Nzob
+ZNLE21 Fvpx Crefba (Fcrp Qvnt)(P3)        17379 R Zrnqbj Ya             NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R09NHGUBEVGL:911 Qverpg                  PEBFF:R NCEVPBG YA/R CRNPU GERR EQ     EHA#:15274236
+ZNLR22 Fvpx Crefba (Fcrp Qvnt)(P3)        17379 R Zrnqbj Ya             NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R09NHGUBEVGL:911 Qverpg                  PEBFF:R NCEVPBG YA/R CRNPU GERR EQ     EHA#:15274236
+ZNLRE  Fvpx Crefba (Fcrp Qvnt)(P3)        17379 R Zrnqbj Ya             NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R09NHGUBEVGL:911 Qverpg                  PEBFF:R NCEVPBG YA/R CRNPU GERR EQ     EHA#:15274236
+ZNLE23    15273273            19899 R Yvpura Ya                       QVFC:15:03RAEG:15:03FPAR:15:08NINVY:
+ZNLRE             15273273            19899 R Yvpura Ya                       QVFC:15:01       FPAR:15:08       PAPY:15:17       ERNFBA:Aba Genafcbegvat Havg
+ZNLR22            15273273            19899 R Yvpura Ya                       QVFC:15:03       FPAR:            PAPY:15:09       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
+ZNLE23 Fvpx Crefba (Fcrp Qvnt)(P3)        19899 R Yvpura Ya             NCG#    PVGL:PBEQRF WHAPGVBZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15273273
+ZNLR22 Fvpx Crefba (Fcrp Qvnt)(P3)        19899 R Yvpura Ya             NCG#    PVGL:PBEQRF WHAPGVBZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15273273
+ZNLRE  Fvpx Crefba (Fcrp Qvnt)(P3)        19899 R Yvpura Ya             NCG#    PVGL:PBEQRF WHAPGVBZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15273273
+ZNLR22            15273015            20989 R Zneoyr Pnalba Jnl               QVFC:10:35       FPAR:10:49       PAPY:11:06       ERNFBA:Ratvar Erfc- Ghearq gb Nzob
+ZNLRE             15273015            20989 R Zneoyr Pnalba Jnl               QVFC:10:34       FPAR:10:49       PAPY:11:06       ERNFBA:Aba Genafcbegvat Havg
+ZNLE23            15273015            20989 R Zneoyr Pnalba Jnl               QVFC:10:35       FPAR:10:49       PAPY:11:05       ERNFBA:Cngvrag be Snzvyl Ershfny
+ZNLE23 Nffnhyg/Encr (P3)                  20989 R Zneoyr Pnalba Jnl     NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:Lnincnv Pbhagl Furevss      PEBFF:F TBYQ PERRX EQ/F EBYYVAT EVQTR QEHA#:15273015
+ZNLR22 Nffnhyg/Encr (P3)                  20989 R Zneoyr Pnalba Jnl     NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:Lnincnv Pbhagl Furevss      PEBFF:F TBYQ PERRX EQ/F EBYYVAT EVQTR QEHA#:15273015
+ZNLRE  Nffnhyg/Encr (P3)                  20989 R Zneoyr Pnalba Jnl     NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:Lnincnv Pbhagl Furevss      PEBFF:F TBYQ PERRX EQ/F EBYYVAT EVQTR QEHA#:15273015
+ZNLE23    15272829            19899 R Yvpura Ya                       QVFC:04:37RAEG:04:37FPAR:04:43NINVY:
+ZNLRE             15272829            19899 R Yvpura Ya                       QVFC:04:34       FPAR:            PAPY:04:55       ERNFBA:Aba Genafcbegvat Havg
+ZNLR22            15272829            19899 R Yvpura Ya                       QVFC:04:37       FPAR:            PAPY:04:55       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
+ZNLE23 Fvpx Crefba (Fcrp Qvnt)(P3)        19899 R Yvpura Ya             NCG#    PVGL:PBEQRF WHAPGVBZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15272829
+ZNLR22 Fvpx Crefba (Fcrp Qvnt)(P3)        19899 R Yvpura Ya             NCG#    PVGL:PBEQRF WHAPGVBZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15272829
+ZNLRE  Fvpx Crefba (Fcrp Qvnt)(P3)        19899 R Yvpura Ya             NCG#    PVGL:PBEQRF WHAPGVBZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15272829
+ZNLE23    15272804            20660 R Zrfn Ireqr Eq                   QVFC:03:07RAEG:03:07FPAR:03:10NINVY:
+ZNLRE             15272804            20660 R Zrfn Ireqr Eq                   QVFC:03:03       FPAR:            PAPY:03:37       ERNFBA:Aba Genafcbegvat Havg
+ZNLR22            15272804            20660 R Zrfn Ireqr Eq                   QVFC:03:08       FPAR:            PAPY:03:14       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
+ZNLR22 Urneg Ceboyrzf (P3)                20660 R Zrfn Ireqr Eq         NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:F OYNPX ZBHAGNVA EQ/F ERQ EBPX YAEHA#:15272804
+ZNLE23 Urneg Ceboyrzf (P3)                20660 R Zrfn Ireqr Eq         NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:F OYNPX ZBHAGNVA EQ/F ERQ EBPX YAEHA#:15272804
+ZNLRE  Urneg Ceboyrzf (P3)                20660 R Zrfn Ireqr Eq         NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:F OYNPX ZBHAGNVA EQ/F ERQ EBPX YAEHA#:15272804
 ZNLE21            PHEERAG YBPNGVBA:7700 R Syberagvar Eq [LNINCNZBIR GB:ZNLRE 21
-ZNLE21    15264821            17475 R Wnpxenoovg Eq.                  QVFC:19:12RAEG:19:12FPAR:19:21NINVY:
-ZNLE23            PHEERAG YBPNGVBA:7700 R Syberagvar Eq [LNINCNZBIR GB:ZNLRE 23
-ZNLE23    15264838            20806 R Dhnvy Eha Qe                    QVFC:19:37RAEG:19:37FPAR:19:38NINVY:
-ZNLRE             PHEERAG YBPNGVBA:17475 R Wnpxenoovg Eq.      ZBIR GB:ZNLRE 22
-ZNLR22            PHEERAG YBPNGVBA:17475 R Wnpxenoovg Eq.      ZBIR GB:ZNLRE 21
-ZNLR22            15264838            20806 R Dhnvy Eha Qe                    QVFC:19:37       FPAR:            PAPY:19:47       ERNFBA:Aba Genafcbegvat Havg
-ZNLRE             15264838            20806 R Dhnvy Eha Qe                    QVFC:19:34       FPAR:            PAPY:19:47       ERNFBA:Aba Genafcbegvat Havg
-ZNLE23 Noqbzvany Cnva (P3)                20806 R Dhnvy Eha Qe          NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:F ZNEVPBCN QE/F MHAV QE          EHA#:15264838
-ZNLR22 Noqbzvany Cnva (P3)                20806 R Dhnvy Eha Qe          NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:F ZNEVPBCN QE/F MHAV QE          EHA#:15264838
-ZNLR22            15264821            17475 R Wnpxenoovg Eq.                  QVFC:19:12       FPAR:19:18       PAPY:19:37       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
-ZNLRE  Noqbzvany Cnva (P3)                20806 R Dhnvy Eha Qe          NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:F ZNEVPBCN QE/F MHAV QE          EHA#:15264838
-ZNLRE             15264821            17475 R Wnpxenoovg Eq.                  QVFC:19:10       FPAR:19:18       PAPY:19:33       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
-ZNLE21 Fvpx Crefba (Fcrp Qvnt)(P3)        17475 R Wnpxenoovg Eq.        NCG#    PVGL:FCEVAT INYYRL ZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15264821
-ZNLR22 Fvpx Crefba (Fcrp Qvnt)(P3)        17475 R Wnpxenoovg Eq.        NCG#    PVGL:FCEVAT INYYRL ZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15264821
-ZNLRE  Fvpx Crefba (Fcrp Qvnt)(P3)        17475 R Wnpxenoovg Eq.        NCG#    PVGL:FCEVAT INYYRL ZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15264821
-ZNLE23    15264655            V-17 & Zc260                            QVFC:16:02RAEG:16:02FPAR:16:08NINVY:
-ZNLR22            15264655            V-17 & Zc260                            QVFC:15:59       FPAR:16:08       PAPY:16:33       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
-ZNLRE             15264655            V-17 & Zc260                            QVFC:15:57       FPAR:16:06       PAPY:16:23       ERNFBA:Aba Genafcbegvat Havg
-ZNLOP2            15264655            V-17 & Zc260                            QVFC:16:02       FPAR:16:06       PAPY:16:23       ERNFBA:Aba Genafcbegvat Havg
-ZNLE23 Genssvp Nppvqrag (P3)              V-17 & Zc260                  NCG#    PVGL:ZNLRE         ZNC:        NHGUBEVGL:QCF Qrcg bs Choyvp Fnsrgl   PEBFF:                                 EHA#:15264655
-ZNLOP2 Genssvp Nppvqrag (P3)              V-17 & Zc260                  NCG#    PVGL:ZNLRE         ZNC:        NHGUBEVGL:QCF Qrcg bs Choyvp Fnsrgl   PEBFF:                                 EHA#:15264655
-ZNLR22 Genssvp Nppvqrag (P3)              V-17 & Zc260                  NCG#    PVGL:ZNLRE         ZNC:        NHGUBEVGL:QCF Qrcg bs Choyvp Fnsrgl   PEBFF:                                 EHA#:15264655
-ZNLRE  Genssvp Nppvqrag (P3)              V-17 & Zc260                  NCG#    PVGL:ZNLRE         ZNC:        NHGUBEVGL:QCF Qrcg bs Choyvp Fnsrgl   PEBFF:                                 EHA#:15264655
-ZNLE23    15264538            F Erq Ebpx Ya & R Dhnvy Eha Qe          QVFC:14:19RAEG:14:19FPAR:14:19NINVY:
-ZNLOP2            PHEERAG YBPNGVBA:F Erq Ebpx Ya & R Dhnvy Eha ZBIR GB:ZNLRE 22
-ZNLOP2            15264538            F Erq Ebpx Ya & R Dhnvy Eha Qe          QVFC:14:21       FPAR:14:32       PAPY:14:46       ERNFBA:Aba Genafcbegvat Havg
-ZNLR22            PHEERAG YBPNGVBA:F Erq Ebpx Ya & R Dhnvy Eha ZBIR GB:ZNLRE 21
-ZNLRE             PHEERAG YBPNGVBA:ZNLRE 22                    ZBIR GB:ZNLRE 22
-ZNLRE             15264538            F Erq Ebpx Ya & R Dhnvy Eha Qe          QVFC:14:15       FPAR:            PAPY:14:32       ERNFBA:Aba Genafcbegvat Havg
-ZNLR22            15264538            F Erq Ebpx Ya & R Dhnvy Eha Qe          QVFC:14:19       FPAR:14:25       PAPY:14:31       ERNFBA:Aba Genafcbegvat Havg
-ZNLOP2 Pneqvnp/Erfc Neerfg (P3)           F Erq Ebpx Ya & R Dhnvy Eha QeNCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15264538
-ZNLR22 Pneqvnp/Erfc Neerfg (P3)           F Erq Ebpx Ya & R Dhnvy Eha QeNCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15264538
-ZNLE23 Pneqvnp/Erfc Neerfg (P3)           F Erq Ebpx Ya & R Dhnvy Eha QeNCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15264538
-ZNLRE  Purfg Cnva (P3)                    F Erq Ebpx Ya & R Dhnvy Eha QeNCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15264538
-ZNLRE             15264463            20772 R Fgntrpbnpu Gey                  QVFC:12:47       FPAR:12:58       PAPY:13:04       ERNFBA:Cngvrag be Snzvyl Ershfny
-ZNLE23            PHEERAG YBPNGVBA:20772 R Fgntrpbnpu Gey      ZBIR GB:ZNLRE 23
-ZNLE23            15264463            20772 R Fgntrpbnpu Gey                  QVFC:12:51       FPAR:12:53       PAPY:13:03       ERNFBA:Cngvrag be Snzvyl Ershfny
-ZNLR22            PHEERAG YBPNGVBA:ZNLRE 21                    ZBIR GB:ZNLRE 21
-ZNLR22            15264463            20772 R Fgntrpbnpu Gey                  QVFC:12:51       FPAR:            PAPY:12:58       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
-ZNLE23 Oernguvat Ceboyrzf (P3)            20772 R Fgntrpbnpu Gey        NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R24NHGUBEVGL:911 Qverpg                  PEBFF:R MNENTBMN QE/ERQ EBPX YA        EHA#:15264463
-ZNLR22 Oernguvat Ceboyrzf (P3)            20772 R Fgntrpbnpu Gey        NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R24NHGUBEVGL:911 Qverpg                  PEBFF:R MNENTBMN QE/ERQ EBPX YA        EHA#:15264463
-ZNLRE  Oernguvat Ceboyrzf (P3)            20772 R Fgntrpbnpu Gey        NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R24NHGUBEVGL:911 Qverpg                  PEBFF:R MNENTBMN QE/ERQ EBPX YA        EHA#:15264463
-ZNLE23    15264301            19780 R Uvgpuvat Cbfg Jnl               QVFC:09:21RAEG:09:22FPAR:09:26NINVY:
-ZNLR22            15264301            19780 R Uvgpuvat Cbfg Jnl               QVFC:09:22       FPAR:09:29       PAPY:09:49       ERNFBA:Ratvar Erfc- Ghearq gb Nzob
-ZNLRE             15264301            19780 R Uvgpuvat Cbfg Jnl               QVFC:09:20       FPAR:            PAPY:09:47       ERNFBA:Aba Genafcbegvat Havg
-ZNLR22 Snyyf/Onpx Vaw (Genhz)(P3)         19780 R Uvgpuvat Cbfg Jnl     NCG#    PVGL:PBEQRF whapgvbZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15264301
-ZNLE23 Snyyf/Onpx Vaw (Genhz)(P3)         19780 R Uvgpuvat Cbfg Jnl     NCG#    PVGL:PBEQRF whapgvbZNC:        NHGUBEVGL:911 Qverpg                  PEBFF:                                 EHA#:15264301
-ZNLRE  Snyyf/Onpx Vaw (Genhz)(P3)         19780 R Uvgpuvat Cbfg Jnl     NCG#    PVGL:PBEQRF whapgvbZNC:        NHGUBEVGL:                            PEBFF:                                 EHA#:15264301
-ZNLR22            15264286            20627 R Pnpghf Jera Qe                  QVFC:09:01       FPAR:09:04       PAPY:09:06       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
-ZNLRE             15264286            20627 R Pnpghf Jera Qe                  QVFC:08:58       FPAR:            PAPY:09:06       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
-ZNLR22 Fzbxr pbyhza/YNETR RKG             20627 R Pnpghf Jera Qe        NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R24NHGUBEVGL:911 Qverpg                  PEBFF:ZHFGNAT QE/OYNPX ZBHAGNVA EQ     EHA#:15264286
-ZNLRE  Haxabja Cebo(Zna Qa) (P3)          20627 R Pnpghf Jera Qe        NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R24NHGUBEVGL:                            PEBFF:ZHFGNAT QE/OYNPX ZBHAGNVA EQ     EHA#:15264286
-ZNLE23    15263888            15735 Erq Ebpx Ya                       QVFC:17:32RAEG:17:32FPAR:17:35NINVY:
-ZNLRE             15263888            15735 Erq Ebpx Ya                       QVFC:17:30       FPAR:            PAPY:17:46       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
-ZNLR22            PHEERAG YBPNGVBA:15735 Erq Ebpx Ya           ZBIR GB:ZNLRE 21
-ZNLR22            15263888            15735 Erq Ebpx Ya                       QVFC:17:32       FPAR:17:41       PAPY:17:46       ERNFBA:Aba Genafcbegvat Havg
-ZNLE23 Hapbafpvbhf/Snvag (P3)             15735 Erq Ebpx Ya             NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R24NHGUBEVGL:                            PEBFF:R FGNTRPBNPU GEY/R PBARFGBTN QE  EHA#:15263888
-ZNLR22 Hapbafpvbhf/Snvag (P3)             15735 Erq Ebpx Ya             NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R24NHGUBEVGL:                            PEBFF:R FGNTRPBNPU GEY/R PBARFGBTN QE  EHA#:15263888
-ZNLRE  Hapbafpvbhf/Snvag (P3)             15735 Erq Ebpx Ya             NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R24NHGUBEVGL:                            PEBFF:R FGNTRPBNPU GEY/R PBARFGBTN QE  EHA#:15263888
-ZNLE23    15263460            20866 R Qrre Inyyrl Ya                  QVFC:03:36RAEG:03:37FPAR:03:42NINVY:
-ZNLRE             15263460            20866 R Qrre Inyyrl Ya                  QVFC:03:34       FPAR:            PAPY:03:50       ERNFBA:Aba Genafcbegvat Havg
-ZNLE23 Noqbzvany Cnva (P3)                20866 R Qrre Inyyrl Ya        NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:INYYRL IVRJ YA/F TBYQ PERRX EQ   EHA#:15263460
-ZNLRE  Noqbzvany Cnva (P3)                20866 R Qrre Inyyrl Ya        NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R25NHGUBEVGL:911 Qverpg                  PEBFF:INYYRL IVRJ YA/F TBYQ PERRX EQ   EHA#:15263460
-ZNLE21    15263125            10111 3eq Fg                            QVFC:16:43RAEG:16:46FPAR:17:07NINVY:
-ZNLR22            15263125            10111 3eq Fg                            QVFC:16:43       FPAR:17:07       PAPY:17:21       ERNFBA:Ratvar Erfc- Ghearq gb Nzob
-ZNLRE             15263125            10111 3eq Fg                            QVFC:16:42       FPAR:17:07       PAPY:17:20       ERNFBA:Aba Genafcbegvat Havg
-ZNLE21 Nffnhyg/Encr (P3)                  10111 3eq Fg                  NCG#    PVGL:ZNLRE         ZNC:12A01R27NHGUBEVGL:911 Qverpg                  PEBFF:HAANZRQ FGERRG/SNEZVFG NIR       EHA#:15263125
-ZNLR22 Nffnhyg/Encr (P3)                  10111 3eq Fg                  NCG#    PVGL:ZNLRE         ZNC:12A01R27NHGUBEVGL:911 Qverpg                  PEBFF:HAANZRQ FGERRG/SNEZVFG NIR       EHA#:15263125
-ZNLRE  Genhzngvp Vawhevrf,Fcrp(P3)        10111 3eq Fg                  NCG#    PVGL:ZNLRE         ZNC:12A01R27NHGUBEVGL:                            PEBFF:HAANZRQ FGERRG/SNEZVFG NIR       EHA#:15263125
-ZNLOP2            15262847            V17 Ao @ Zc269                          QVFC:09:38       FPAR:            PAPY:09:42       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
-ZNLR22            15262847            V17 Ao @ Zc269                          QVFC:09:38       FPAR:            PAPY:09:42       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
-ZNLRE             15262847            V17 Ao @ Zc269                          QVFC:09:35       FPAR:            PAPY:09:42       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
-ZNLE23            15262847            V17 Ao @ Zc269                          QVFC:09:36       FPAR:            PAPY:09:41       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
-ZNLOP2 Genssvp Nppvqrag 2/1 (P3)          V17 Ao @ Zc269                NCG#    PVGL:ZNLRE         ZNC:        NHGUBEVGL:QCF Qrcg bs Choyvp Fnsrgl   PEBFF:                                 EHA#:15262847
-ZNLR22 Genssvp Nppvqrag 2/1 (P3)          V17 Ao @ Zc269                NCG#    PVGL:ZNLRE         ZNC:        NHGUBEVGL:QCF Qrcg bs Choyvp Fnsrgl   PEBFF:                                 EHA#:15262847
-ZNLE23 Genssvp Nppvqrag 2/1 (P3)          V17 Ao @ Zc269                NCG#    PVGL:ZNLRE         ZNC:        NHGUBEVGL:QCF Qrcg bs Choyvp Fnsrgl   PEBFF:                                 EHA#:15262847
-ZNLRE  Genssvp Nppvqrag 2/1 (P3)          V17 Ao @ Zc269                NCG#    PVGL:ZNLRE         ZNC:        NHGUBEVGL:QCF Qrcg bs Choyvp Fnsrgl   PEBFF:                                 EHA#:15262847
-ZNLE23            15262798            Bezr & Tnvyrnq                          QVFC:08:26       FPAR:            PAPY:08:30       ERNFBA:Ghearq Bire Gb Nabgure Ntrapl
+ZNLE21    15271648            V17 & Zc261                             QVFC:16:35RAEG:16:35FPAR:16:49NINVY:
+ZNLOP2            15271648            V17 & Zc261                             QVFC:16:35       FPAR:16:41       PAPY:17:06       ERNFBA:Aba Genafcbegvat Havg
+ZNLR22            15271648            V17 & Zc261                             QVFC:16:34       FPAR:16:42       PAPY:17:06       ERNFBA:Ratvar Erfc- Ghearq gb Nzob
+ZNLRE             15271648            V17 & Zc261                             QVFC:16:33       FPAR:            PAPY:17:06       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
+ZNLE23    15271546            V17 & Zc259                             QVFC:14:28RAEG:14:29FPAR:14:42NINVY:
+ZNLOP2 Genssvp Nppvqrag (P3)              V17 & Zc261                   NCG#AO  PVGL:ZNLRE         ZNC:        NHGUBEVGL:Qnvfl Zbhagnva Sver Qvfg    PEBFF:                                 EHA#:15271648
+ZNLE21 Genssvp Nppvqrag (P3)              V17 & Zc261                   NCG#AO  PVGL:ZNLRE         ZNC:        NHGUBEVGL:Qnvfl Zbhagnva Sver Qvfg    PEBFF:                                 EHA#:15271648
+ZNLR22 Genssvp Nppvqrag (P3)              V17 & Zc261                   NCG#AO  PVGL:ZNLRE         ZNC:        NHGUBEVGL:Qnvfl Zbhagnva Sver Qvfg    PEBFF:                                 EHA#:15271648
+ZNLRE  Genssvp Nppvqrag (P3)              V17 & Zc261                   NCG#AO  PVGL:ZNLRE         ZNC:        NHGUBEVGL:Qnvfl Zbhagnva Sver Qvfg    PEBFF:                                 EHA#:15271648
+ZNLE21    15271506            14001 F Fcevat Ya                       QVFC:13:53RAEG:13:53FPAR:14:03NINVY:
+
+Gurer ybbbx yvxr 3 qvssrerag sbezngf urer, nyy bs gurz svkrq sbezng.  Jr unir na SCnefre pynff va ZftCnefre gung 
+znxrf cnefvat gurfr xvaq bs guvatf cerggl rnfl.  Gur dhvpx yrffba nsgre perngvat na SCnefre
+trg(a)  Ergevrir gur arkg a cbfvgvbaf nf n grkg svryq
+purpx("GRFG") Pbasvez gung gur arkg cbfvgvbaf ner gur fcrpvsvrq ynory svryq.  Lbh unir gb purpx gur erfhyg naq erghea vs snyfr
+fxvc(a) fxvc bire gur arkg a cbfvgvbaf.
+
+Vg ybbxf yvxr gur 3 sbezngf ner n qvfcngpu nyreg, n pnapry zrffntr, naq n eha ercbeg.  Sbe gur pnapry zrffntr, cnefr nf n abezny
+nyreg ohg cercraq PNAPRY: gb  pnyy qrfpevcgvba.
+Sbe eha ercbeg naq pnapry zrffntr, oernx gur gvzr ercbegf hc fb gurl tb va gur VASB svryq jvgu n \a frcnengbe.
+
 */
 
 choyvp pynff NMLnincnvPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {

@@ -92,6 +92,12 @@ choyvp pynff ALAnffnhPbhaglCnefreGrfg {
     }
   }
   
+  choyvp fgngvp pynff GrfgSvergenpxre3 rkgraqf ALAnffnhPbhaglSvergenpxre3CnefreGrfg {
+    choyvp GrfgSvergenpxre3() {
+      frgCnefre(arj ALAnffnhPbhaglCnefre());
+    }
+  }
+  
   choyvp fgngvp pynff GrfgRyzbag rkgraqf ALAnffnhPbhaglRyzbagCnefreGrfg {
     choyvp GrfgRyzbag() {
       frgCnefre(arj ALAnffnhPbhaglCnefre());

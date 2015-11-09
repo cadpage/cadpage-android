@@ -127,7 +127,7 @@ choyvp pynff GKGrknfPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{Grkg Zrffntr} PNQ:Hcqngr: ;HAPBAFPVBHF CREFBA;5601 UHZOYR PNZC EQ;GRKN;PNYYRE NQI GUNG URE SNGURE VF UNIVAT QVSS OERNGUVAT, HAPBAF  [10/13/15 21:20:04 PNQ3101] 88 LBZ  [10/13/15 21:19:24 PNQ3101] HAPBA  [10/13/15 21:19",
         "PNYY:HAPBAFPVBHF CREFBA",
         "NQQE:5601 UHZOYR PNZC EQ",
-        "PVGL:GRKNF PVGL",
+        "PVGL:GRKNF PVGL", //vafvfgf vf qvpxvafba
         "VASB:PNYYRE NQI GUNG URE SNGURE VF UNIVAT QVSS OERNGUVAT, HAPBAF / 88 LBZ / HAPBA",
         "QNGR:10/13/15",
         "GVZR:21:20:04");
@@ -180,7 +180,7 @@ choyvp pynff GKGrknfPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{Grkg Zrffntr} PNQ:Hcqngr: ;NFFNHYG;11173EQ NI A;Rirag fcnjarq sebz CHOYVP QVFGHEONAPR.  [10/13/2015 21:16:12 PNQ3213] {0907} 1117 3NA, HAX NTR ZNYR YNLVAT BA TEBHAQ  [10/13/15 21:16:02 PNQ3213] {0907} GURL CBFF JRAG VA",
         "PNYY:NFFNHYG",
         "NQQE:11173EQ NI A",
-        "ZNQQE:11173EQ NIR A",
+        "ZNQQE:11173EQ NIR A", //qbrf abg znc j/b fcnpr
         "VASB:Rirag fcnjarq sebz CHOYVP QVFGHEONAPR. / {0907} 1117 3NA, HAX NTR ZNYR YNLVAT BA TEBHAQ / {0907} GURL CBFF JRAG VA",
         "QNGR:10/13/2015",
         "GVZR:21:16:12");

@@ -313,19 +313,15 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       // n cnefr snvyher be abg fngvfsl gur zvavzhz zft pbhag be rkcrpg
       // zber qngn
       vs (!ybpx) {
-        obbyrna nalBeqre = bcgvbaf.eriZftBeqre() || bcgvbaf.zvkrqZftBeqre();
         sbe (vag a = 1; a< jbex.yratgu; a++) {
           vs (a > bcgvbaf.fcyvgZvaZft()) {
             Fgevat[] gzc = arj Fgevat[a];
             Flfgrz.neenlpbcl(jbex, 0, gzc, 0, a);
             Zrffntr zft = ohvyqre.ohvyqZrffntr(gzc, ybpx);
-            obbyrna bx = cnefre.vfCntrZft(zft, CNEFR_SYNTF);
-            ZftVasb vasb = zft.trgVasb();
-            vs (nalBeqre) {
-              vs (!bx || vasb == ahyy || vasb.trgZftGlcr() == ZftGlcr.TRA_NYREG) pbagvahr;
+            cnefre.vfCntrZft(zft, CNEFR_SYNTF);
+            vs (!zft.rkcrpgZber(bcgvbaf)) {
+              snvy(gvgyr + ": " + a + " cneg zrffntr snvyrq gb erdhrfg zber qngn");
             }
-            vs (bx && vasb != ahyy && vasb.vfRkcrpgZber()) pbagvahr;
-            snvy(gvgyr + ": " + a + " cneg zrffntr snvyrq gb erdhrfg zber qngn");
           }
         }
       }
