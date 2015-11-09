@@ -231,6 +231,7 @@ Ntrapl anzr: Uvtu Evqtr SQ
 Ybpngvba: Uvtu Evqtr, ZB, Havgrq Fgngrf
 Fraqre: WrssPb911 <911@wrsspb911.bet>
 
+{VCF V/Cntr Abgvsvpngvba} Ybpngvba: FGNGR EQ J/OLEARFIVYYR EQ PAGL: VA GUR NERN GLCR PBQR: FGVYY OEHFU PNYYRE NQQE:  Pbzzragf:   PNEQ 640158 ZNC 11  Qvfc: 2434,2438,64U1
 (VCF V/Cntr Abgvsvpngvba) Ybpngvba: 2709 EVQTR QE PAGL GLCR PBQR: RZF HAPBA/SNVAGVAT PNYYRE NQQE: 2739 PNCRGBJA IVYYNTR EQ - FRPGBE WRSSREFBA PBHAGL Pbzzragf:   pneq 640303 znc 5  Qvfc: 6416,6827
 (VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4228 UVPXBEL YA PAGL GLCR PBQR: RZF OERNGUVAT_CEBO PNYYRE NQQE: 4228 UVPXBEL YA WRSSREFBA PBHAGL Pbzzragf:   640151 ZNC 12  Qvfc: 5437,6436
 (VCF V/Cntr Abgvsvpngvba) Ybpngvba: 2113 YVAAHF QE PAGL GLCR PBQR: RZF OERNGUVAT_CEBO PNYYRE NQQE:  Pbzzragf:   pneq 640203 znc 5  Qvfc: 6416,6817
@@ -2899,6 +2900,15 @@ choyvp pynff ZBWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgUvtuEvqtrSQ() {
+
+    qbGrfg("K1",
+        "{VCF V/Cntr Abgvsvpngvba} Ybpngvba: FGNGR EQ J/OLEARFIVYYR EQ PAGL: VA GUR NERN GLCR PBQR: FGVYY OEHFU PNYYRE NQQE:  Pbzzragf:   PNEQ 640158 ZNC 11  Qvfc: 2434,2438,64U1",
+        "NQQE:FGNGR EQ J & OLEARFIVYYR EQ",
+        "ZNQQE:FGNGR J & OLEARFIVYYR EQ",
+        "CYNPR:VA GUR NERN",
+        "PNYY:FGVYY OEHFU",
+        "VASB:PNEQ 640158 ZNC 11",
+        "HAVG:2434,2438,64U1");
 
     qbGrfg("G1",
         "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 2709 EVQTR QE PAGL GLCR PBQR: RZF HAPBA/SNVAGVAT PNYYRE NQQE: 2739 PNCRGBJA IVYYNTR EQ - FRPGBE WRSSREFBA PBHAGL Pbzzragf:   pneq 640303 znc 5  Qvfc: 6416,6827",
