@@ -1086,6 +1086,7 @@ class Active911Vendor extends Vendor {
       "US/VA/PetersburgPD",               "VAPetersburg",
       "US/VA/PrinceWilliamCounty",        "VAPrinceWilliamCounty",
       "US/VA/SouthamptonCounty",          "VASouthamptonCounty",
+      "US/VA/SpotsylvaniaCounty",         "VASpotsylvaniaCounty",
       "US/VA/StaffordCounty",             "VAStaffordCounty",
       "US/VA/Suffolk",                    "VASuffolk",
       "US/VA/WarrenCounty",               "VAWarrenCounty",
