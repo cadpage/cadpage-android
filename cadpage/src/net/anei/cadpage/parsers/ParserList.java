@@ -412,6 +412,7 @@ public class ParserList {
               ,"INMarshallCounty"               ,"Marshall County, IN"
               ,"INParkeCounty"                  ,"Parke County, IN"
               ,"INPorterCounty"                 ,"Porter County, IN"
+              ,"INPoseyCounty"                  ,"Posey County, IN"
               ,"INPulaskiCounty"                ,"Pulaski County, IN"
               ,"INShelbyCounty"                 ,"Shelby County, IN"
               ,"INStarkeCounty"                 ,"Starke County, IN"
