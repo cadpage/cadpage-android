@@ -57,6 +57,12 @@ Pbagnpg: ftna911@tznvy.pbz
 Fraqre: pnyyvq@ungmnynu.bet
 R Ubhfgba Fg - Org Nirahr Q & Nirahr Q - Pnyy VQ: 510-111-841
 
+Pbagnpg: Wbfuhn Znex <fwznex24@tznvy.pbz
+Fraqre: 16466933772
+42 Hkoevqtr Fg -- Orgjrra Svryqf Nir & Sberfg Uvyy Eq - Pnyy VQ: 511-053-030
+Sberfg Uvyy Eq -- Orgjrra Wnfcre Fg & Wnfcre Fg - Pnyy VQ: 511-071-540
+57 Qnygba Nir -- Orgjrra Zbeyrl Nir & Ovfubc Fg (Cig) - Pnyy VQ: 511-091-610
+
 */
 
 choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -274,6 +280,30 @@ choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:Nirahr Q & Nirahr Q",
         "VQ:510-111-841");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbfuhnZnex() {
+
+    qbGrfg("G1",
+        "42 Hkoevqtr Fg -- Orgjrra Svryqf Nir & Sberfg Uvyy Eq - Pnyy VQ: 511-053-030",
+        "NQQE:42 Hkoevqtr Fg",
+        "K:Svryqf Nir & Sberfg Uvyy Eq",
+        "VQ:511-053-030");
+
+    qbGrfg("G2",
+        "Sberfg Uvyy Eq -- Orgjrra Wnfcre Fg & Wnfcre Fg - Pnyy VQ: 511-071-540",
+        "NQQE:Sberfg Uvyy Eq",
+        "ZNQQE:Sberfg Uvyy Eq & Wnfcre Fg",
+        "K:Wnfcre Fg & Wnfcre Fg",
+        "VQ:511-071-540");
+
+    qbGrfg("G3",
+        "57 Qnygba Nir -- Orgjrra Zbeyrl Nir & Ovfubc Fg (Cig) - Pnyy VQ: 511-091-610",
+        "NQQE:57 Qnygba Nir",
+        "K:Zbeyrl Nir & Ovfubc Fg (Cig)",
+        "VQ:511-091-610");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

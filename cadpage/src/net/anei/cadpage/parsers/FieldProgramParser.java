@@ -2075,7 +2075,7 @@ public class FieldProgramParser extends SmartAddressParser {
      * @return true if we are ndx fields from the end of the message
      */
     protected boolean isLastField(int ndx) {
-      return index + ndx == fieldList.length;
+      return index + ndx >= fieldList.length;
     }
     
     /**

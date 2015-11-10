@@ -14,7 +14,7 @@ public class ALDothanParser extends FieldProgramParser {
   
   public ALDothanParser() {
     super("DOTHAN", "AL",
-          "TIME CALL ADDR/SXa CITY! PLACE+? ID INFO+");
+          "TIME CALL ADDR/SXa CITY! PLACE+? ( ID | UNIT ) INFO+");
   }
   
   @Override
@@ -40,6 +40,16 @@ public class ALDothanParser extends FieldProgramParser {
       }
       if (data.strApt.startsWith("APT")) data.strApt = data.strApt.substring(3).trim();
     }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("UNIT")) return new MyUnitField();
+    return super.getField(name);
   }
   
   private class MyPlaceField extends PlaceField {
@@ -94,12 +104,33 @@ public class ALDothanParser extends FieldProgramParser {
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("PLACE")) return new MyPlaceField();
-    if (name.equals("ID")) return new MyIdField();
-    return super.getField(name);
+  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z0-9]{1,5}");
+  private class MyUnitField extends UnitField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      
+      // Unit field has to match unit pattern
+      Matcher match = UNIT_PTN.matcher(field);
+      if (!match.matches()) return false;
+      
+      // And there can not be a ID field anywhere behind us
+      for (int ndx = 1; !isLastField(ndx); ndx++) {
+        if (ID_PTN.matcher(getRelativeField(ndx)).matches()) return false;
+      }
+      
+      // Otherwise OK
+      super.parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
   }
 }
