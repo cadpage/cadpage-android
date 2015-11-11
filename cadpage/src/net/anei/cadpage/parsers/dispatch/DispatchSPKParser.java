@@ -179,7 +179,8 @@ public class DispatchSPKParser extends HtmlProgramParser {
         return;
       }
       
-      if (field.startsWith("POI Information:") || field.equals("Priors:") || field.equals("Case Numbers:")) {
+      if (field.startsWith("POI Information:") || field.equals("Priors:") || 
+          field.equals("Case Numbers:") || field.equals("Incident Log:")) {
         infoType = null;
         return;
       }
