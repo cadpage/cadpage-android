@@ -349,6 +349,7 @@ class Active911Vendor extends Vendor {
       "US/GA/TiftCounty",                 "GATiftCounty",
       "US/GA/WaltonCounty",               "GAWaltonCounty",
       "US/GA/WhiteCounty",                "GAWhiteCounty",
+      "US/GA/WhitfieldCounty",            "GAWhitfieldCountyC",
       "US/IA/CerroGordoCounty",           "IACerroGordoCounty",
       "US/IA/CityofBurlington",           "IADesMoinesCounty",
       "US/IA/CityofMaquoketa",            "IAJacksonCounty",
