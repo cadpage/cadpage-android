@@ -422,6 +422,7 @@ class Active911Vendor extends Vendor {
       "US/KS/LabetteCounty",              "KSLabetteCounty",
       "US/KS/LeavenworthCounty",          "KSLeavenworthCounty",
       "US/KS/MarionCounty",               "KSMarionCounty",
+      "US/KS/McPhersonCounty",            "KSMcPhersonCounty",
       "US/KS/MontgomeryCounty",           "KSMontgomeryCounty",
       "US/KS/NeoshoCounty",               "KSNeoshoCounty",
       "US/KS/PottawatomieSheriff",        "KSPottawatomieCounty",
