@@ -1138,7 +1138,7 @@ class Active911Vendor extends Vendor {
       "US/WV/WoodCounty",                 "WVWoodCounty",
       "US/WV/Wyoming",                    "WVWyomingCounty",
       "US/WY/ParkCounty",                 "WYParkCounty",
-      "Utility/General/Default",          "N/A",
+      "Utility/General/Default",          "General",
       "Utility/General/Fail",             "N/A",
       "Vendor/Cadpage/Default",           "Cadpage2",
       "Vendor/Cadpage/StandardA",         "StandardA",

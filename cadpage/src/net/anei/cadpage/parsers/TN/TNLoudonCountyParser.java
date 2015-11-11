@@ -13,12 +13,12 @@ public class TNLoudonCountyParser extends DispatchSouthernPlusParser {
   
   @Override
   public String getFilter() {
-    return "@loudoncounty911.org,ldn911txt@gmail.com,777,9300,4702193752";
+    return "@loudoncounty911.org,ldn911txt@gmail.com,777,9300,4702193752,8573031955";
   }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (body.startsWith("LDN911 ")) body = body.substring(7).trim();
+    if (body.startsWith("LDN911 ") || body.startsWith("LDN911:")) body = body.substring(7).trim();
     body = body.replaceAll("//+", "/");
     return super.parseMsg(subject, body, data);
   }
