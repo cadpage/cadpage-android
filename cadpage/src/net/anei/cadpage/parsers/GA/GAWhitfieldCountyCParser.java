@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.GA;
 import net.anei.cadpage.parsers.dispatch.DispatchSPKParser;
 
 /**
- * Whitfield County, FL
+ * Whitfield County, GA
  */
 
 public class GAWhitfieldCountyCParser extends DispatchSPKParser {

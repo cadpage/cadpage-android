@@ -2,7 +2,7 @@ package net.anei.cadpage.parsers.TX;
 
 import net.anei.cadpage.parsers.dispatch.DispatchA19Parser;
 /**
- * TARRANT County, TX
+ * TARRANT County, TX (B)
  */
 public class TXTarrantCountyBParser extends DispatchA19Parser {
   
