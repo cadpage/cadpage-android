@@ -55,7 +55,9 @@ Fraqre: pnyyvq@ungmnynu.bet
 
 Pbagnpg: ftna911@tznvy.pbz
 Fraqre: pnyyvq@ungmnynu.bet
+Fraqre: 6466933772
 R Ubhfgba Fg - Org Nirahr Q & Nirahr Q - Pnyy VQ: 510-111-841
+570Un Tenaq Fg -- Orgjrra Znqvfba Fg & Znqvfba Fg - Ncg: 1001 - Pnyy VQ: 511-111-100
 
 Pbagnpg: Wbfuhn Znex <fwznex24@tznvy.pbz
 Fraqre: 16466933772
@@ -279,6 +281,14 @@ choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:R Ubhfgba Fg & Nirahr Q",
         "K:Nirahr Q & Nirahr Q",
         "VQ:510-111-841");
+
+    qbGrfg("G2",
+        "570Un Tenaq Fg -- Orgjrra Znqvfba Fg & Znqvfba Fg - Ncg: 1001 - Pnyy VQ: 511-111-100",
+        "NQQE:570Un Tenaq Fg",
+        "ZNQQE:570Un Tenaq Fg & Znqvfba Fg",
+        "NCG:1001",
+        "K:Znqvfba Fg & Znqvfba Fg",
+        "VQ:511-111-100");
 
   }
   
