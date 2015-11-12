@@ -283,9 +283,8 @@ choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:510-111-841");
 
     qbGrfg("G2",
-        "570Un Tenaq Fg -- Orgjrra Znqvfba Fg & Znqvfba Fg - Ncg: 1001 - Pnyy VQ: 511-111-100",
-        "NQQE:570Un Tenaq Fg",
-        "ZNQQE:570Un Tenaq Fg & Znqvfba Fg",
+        "570U Tenaq Fg -- Orgjrra Znqvfba Fg & Znqvfba Fg - Ncg: 1001 - Pnyy VQ: 511-111-100",
+        "NQQE:570U Tenaq Fg",
         "NCG:1001",
         "K:Znqvfba Fg & Znqvfba Fg",
         "VQ:511-111-100");
