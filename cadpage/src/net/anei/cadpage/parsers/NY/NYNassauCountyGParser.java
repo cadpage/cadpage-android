@@ -1,8 +1,5 @@
 package net.anei.cadpage.parsers.NY;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,11 +8,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYNassauCountyGParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("\\** *(.*?) *\\**");
-
   public NYNassauCountyGParser() {
     super("NASSAU COUNTY", "NY",
-           "ADDR! C/S:X! ADTNL:INFO? HYDRNTS:INFO? TOA:TIMEDATE!");
+           "ADDR! C/S:X! ADTNL:INFO? HYDRNTS:INFO? TOA:TIME!");
   }
   
   @Override
@@ -26,101 +21,62 @@ public class NYNassauCountyGParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.startsWith("** ALARM: ")) return false;
-    subject = subject.substring(10).trim();
-    if (subject.equals("UNKNOWN CALL TYPE")) {
-      data.strCall = subject;
-      subject = "*UNKNWN CALL TYPE*";
-    } else {
-      Matcher match = SUBJECT_PTN.matcher(subject);
-      if (!match.matches()) return false;
-      data.strCall = match.group(1);
-    }
-    if (!body.startsWith(subject)) return false;
-    body = body.substring(subject.length()).trim();
-    body = body.replace("HYDRNTS @", " HYDRNTS:HYDRNTS @");
+    String[] parts = subject.split("\\|");
+    if (parts.length < 2 || parts.length > 3) return false;
+    data.strCall = parts[1].trim();
+    if (parts.length == 3) body = '['+ parts[2]+"] " + body;
     return super.parseMsg(body, data);
   }
   
+  @Override
+  public String getProgram() {
+    return "CALL " + super.getProgram();
+  }
+
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
+    return super.getField(name);
+  }
+  
+  private static final Pattern ADDR_PTN = Pattern.compile("(.*)\\[ *(.*?), *(\\d{5})\\ *]");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      String call = p.getOptional("  ");
-      String place = p.getOptional("  ");
-      super.parse(p.get(), data);
-      if (call.length() >= 0 && place.length() == 0 && !CALL_SET.contains(call)) {
-        place = call;
-        call = "";
-      }
-      data.strCall = append(data.strCall, " - ", call);
-      data.strPlace = place;
+      Matcher match = ADDR_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strPlace = match.group(1).trim();
+      parseAddress(match.group(2).trim(), data);
+      data.strCity = match.group(3);
     }
     
     @Override
     public String getFieldNames() {
-      return "CALL PLACE " + super.getFieldNames();
+      return "PLACE ADDR APT CITY";
+    }
+  }
+  
+  private static final Pattern X_DIR_PTN = Pattern.compile(" *\\([NSEW]\\) *");
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      field = X_DIR_PTN.matcher(field).replaceAll(" ").trim();
+      field = stripFieldEnd(field, "/");
+      field = stripFieldStart(field, "/");
+      super.parse(field, data);
+      
     }
   }
   
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      int st = 0;
-      if (field.startsWith("[")) st++;
-      int end = field.length();
-      if (field.endsWith("]")) end--;
-      field = field.substring(st, end).trim();
-      data.strSupp = append(data.strSupp, "\n", field);
+      field = stripFieldStart(field, "[");
+      field = stripFieldEnd(field, "]");
+      super.parse(field, data);
     }
   }
-  
-  private class MyTimeDateField extends TimeDateField {
-    public MyTimeDateField() {
-      super("\\d\\d:\\d\\d \\d\\d?[-/]\\d\\d?[-/]\\d\\d(?:\\d\\d)?", true);
-    }
-    
-    @Override
-    public void parse(String field, Data data) {
-      super.parse(field.replace('-', '/'), data);
-    }
-  }
-
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("TIMEDATE")) return new MyTimeDateField();
-    return super.getField(name);
-  }
-  
-  private static final Set<String> CALL_SET = new HashSet<String>(Arrays.asList(new String[]{
-      "AMBULANCE",
-      "AUTOMATIC ALARM",
-      "BUILD",
-      "BUILDING",
-      "CAR FIRE",
-      "CARBON MONOXIDE",
-      "CHIEF",
-      "CHIEF CALL",
-      "HAZMAT",
-      "HOUSE",
-      "INVES",
-      "INVESTIGATION",
-      "MUTUAL AID FIRE",
-      "NATURAL GAS",
-      "MVA",
-      "PROPANE",
-      "RES",
-      "RESCUE/HEAVY RESCUE",
-      "RUBBISH",
-      "SCHOO",
-      "SMOKE",
-      "SMOKE IN AREA",
-      "SPILL",
-      "TRANSFORMER",
-      "UNKNOWN",
-      "WATER",
-      "WIRE",
-      "WIRES"
-  }));
 }
