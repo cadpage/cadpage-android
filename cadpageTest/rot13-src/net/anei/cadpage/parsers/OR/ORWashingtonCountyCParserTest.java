@@ -79,6 +79,8 @@ Ntrapl anzr: NZE Zhygabznu Pbhagl
 Ybpngvba: Cbegynaq , BE, Havgrq Fgngrf
 Fraqre: <cbegynaqpbzz@nze-rzf.pbz>
 
+{IvfvPNQ Rznvy} N CPF Arrqrq HAVG: 305       VAP#: 4858798   IVYYNTR URNYGU PNER              3955 Fr 182aq Nir              fgngvba 3  Terfunz            MVC: 97030       KFG: FR Znevr Fg/FJ 5gu Qe                     CEV:21 FX8 Fvpx_Puebav
+{IvfvPNQ Rznvy}              HAVG: 317       VAP#: 4861586                                    7927 A UHEFG NIR                          CBEG               MVC:             KFG:                                           CEV:10 OE1 OE Qvss_Pub
 {IvfvPNQ Rznvy}              HAVG: 312       VAP#: 4856254                                    222 FJ CVAR FG                            CBEG               MVC:             KFG:                                           CEV:10 NO3 Noqbzvany P
 {IvfvPNQ Rznvy} Cbfg Nffvtazrag Punatr -- Zbir Gb:720
 {IvfvPNQ Rznvy} Cbfg Nffvtazrag Punatr -- Zbir Gb:630
@@ -647,6 +649,27 @@ choyvp pynff BEJnfuvatgbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgNZEZhygabznuPbhagl() {
+
+    qbGrfg("K1",
+        "{IvfvPNQ Rznvy} N CPF Arrqrq HAVG: 305       VAP#: 4858798   IVYYNTR URNYGU PNER              3955 Fr 182aq Nir              fgngvba 3  Terfunz            MVC: 97030       KFG: FR Znevr Fg/FJ 5gu Qe                     CEV:21 FX8 Fvpx_Puebav",
+        "HAVG:305",
+        "VQ:4858798",
+        "CYNPR:IVYYNTR URNYGU PNER",
+        "NQQE:3955 Fr 182aq Nir",
+        "NCG:fgngvba 3",
+        "PVGL:Terfunz",
+        "K:FR Znevr Fg/FJ 5gu Qe",
+        "CEV:21",
+        "PNYY:N CPF Arrqrq - FX8 Fvpx_Puebav");
+
+    qbGrfg("K2",
+        "{IvfvPNQ Rznvy}              HAVG: 317       VAP#: 4861586                                    7927 A UHEFG NIR                          CBEG               MVC:             KFG:                                           CEV:10 OE1 OE Qvss_Pub",
+        "HAVG:317",
+        "VQ:4861586",
+        "NQQE:7927 A UHEFG NIR",
+        "PVGL:CBEG",
+        "CEV:10",
+        "PNYY:OE1 OE Qvss_Pub");
 
     qbGrfg("G1",
         "{IvfvPNQ Rznvy}              HAVG: 312       VAP#: 4856254                                    222 FJ CVAR FG                            CBEG               MVC:             KFG:                                           CEV:10 NO3 Noqbzvany P",
