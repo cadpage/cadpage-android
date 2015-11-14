@@ -113,6 +113,7 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Qvkba SQ
 Ybpngvba: Qvkba, PN, Havgrq Fgngrf
 
+500 ZBETNA YA*\e\a*\e\a*\e\aQVK*\e\aXVEOL PG*\e\aUNEGU PG*\e\a*\e\aTrb Pbzzrag: QSQ ZNC:S5  GOZ:395 P5   AOU: INP SBE NHGB NVQ NG 1FG NYNEZ FGEHPG*\e\aZRQNVQ*\e\a*\e\a*\e\a*\e\aR281*\e\a*\e\a*\e\aUnmneqf: Ab*\e\a*
 R80 // ZVQJNL*\a*\a*\aIPIY*\aZVQJNL*\a*\a*\aTrb Pbzzrag: GOZ 414  Q4 NHGB NVQ SBE INP  AOU: INP SBE NHGB NVQ SBE NYY PNYYF*\aIRT*\a*\a*\a*\aOG81,R73,R81*\a*\a*\aUnmneqf: Ab*\a*
 R80 // ZVQJNL*\a*\a*\aIPIY*\aZVQJNL*\a*\a*\aTrb Pbzzrag: GOZ 414  Q4 NHGB NVQ SBE INP  AOU: INP SBE NHGB NVQ SBE NYY PNYYF*\aIRT*\a*\a*\a*\aR81*\a*\a*\aUnmneqf: Ab*\a*
 CVGG FPUBBY EQ // ZVQJNL EQ*\a*\a*\aQVK*\aZVQJNL EQ*\aCBEGRE EQ*\a*\aTrb Pbzzrag:   QSQ:1314/1414 GOZ: 415 O3*\aFZBXR*\a*\a*\a*\aR81*\a*\a*\aUnmneqf: Ab*\a*
@@ -2046,6 +2047,33 @@ choyvp pynff PNFhvfhaPvglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgQvkbaSQ() {
+
+    qbGrfg("K1",
+        "500 ZBETNA YA*\e\a" +
+        "*\e\a" +
+        "*\e\a" +
+        "QVK*\e\a" +
+        "XVEOL PG*\e\a" +
+        "UNEGU PG*\e\a" +
+        "*\e\a" +
+        "Trb Pbzzrag: QSQ ZNC:S5  GOZ:395 P5   AOU: INP SBE NHGB NVQ NG 1FG NYNEZ FGEHPG*\e\a" +
+        "ZRQNVQ*\e\a" +
+        "*\e\a" +
+        "*\e\a" +
+        "*\e\a" +
+        "R281*\e\a" +
+        "*\e\a" +
+        "*\e\a" +
+        "Unmneqf: Ab*\e\a" +
+        "*",
+
+        "NQQE:500 ZBETNA YA",
+        "PVGL:QVKBA",
+        "CYNPR:INP SBE NHGB NVQ NG 1FG NYNEZ FGEHPG",
+        "K:XVEOL PG & UNEGU PG",
+        "VASB:QSQ ZNC:S5  GOZ:395 P5 / Unmneqf: Ab",
+        "PNYY:ZRQNVQ",
+        "HAVG:R281");
 
     qbGrfg("G1",
         "R80 // ZVQJNL*\a" +
