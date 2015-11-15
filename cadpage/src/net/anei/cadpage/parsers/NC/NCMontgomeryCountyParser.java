@@ -9,7 +9,7 @@ public class NCMontgomeryCountyParser extends DispatchSouthernParser {
   
   
   public NCMontgomeryCountyParser() {
-    super(CITY_LIST, "MONTGOMERY COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_ID_OPTIONAL | DSFLAG_LEAD_PLACE);
+    super(CITY_LIST, "MONTGOMERY COUNTY", "NC", DSFLAG_ID_OPTIONAL | DSFLAG_LEAD_PLACE);
   }
   
   @Override
@@ -20,7 +20,7 @@ public class NCMontgomeryCountyParser extends DispatchSouthernParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     
-    if (!body.startsWith("CAD:")) return false;
+    body = stripFieldStart(body, "CAD:");
     return super.parseMsg(body, data);
   }
   

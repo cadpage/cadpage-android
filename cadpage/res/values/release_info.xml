@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11092015</string>
-  <string name="release_version">v1.8.74</string>
+  <string name="release_date">11122015</string>
+  <string name="release_version">v1.8.75</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.75\n
+New Locations:\n
+Orange County, FL\n
+Winfield County, GA (alt)\n
+Murray County, KY\n
+Grand Island, NE\n
+Greenwood County, SC\n
+Tarrant County, TX (alt)\n
+\n
+Location Fixes:\n
+Dothan, AL\n
+Jefferson County, AL\n
+Posey County, IN\n
+Erie County, NY\n
+Loudoun County, TN\n
+Hartford, VT\n
+\n
 v1.8.74\n
 New Locations:\n
 Pulaski County, IN\n
@@ -66,12 +83,7 @@ New York City,  NY\n
 Mercer County, OH\n
 Lebanon County, PA\n
 Chittenden County, VT\n
-Mineral County, WV\n
-\n
-v1.8.70
-Location Fixes:\n
-Bradley County, TN\n
-Collins County, TX
+Mineral County, WV
   </string>
 </resources>
   

@@ -11,6 +11,9 @@ Ntrapl anzr: Fjrcfbaivyyr Sver
 Ybpngvba: Fjrcfbaivyyr, AP, Havgrq Fgngrf
 Fraqre: <PNQ@nynznapr-ap.pbz>
 
+(Grkg Zrffntr) 2649:PNQ:HAQRE PBAGEBY;2913 ORYYRZBAG NYNZNAPR EQ; OHEY
+(Grkg Zrffntr) 2621:PNQ:GENSSVP NPPVQRAG;AP 54 UJL/GUBZ EQ;UNJ
+(Grkg Zrffntr) 2696:PNQ:10 50 CEBCREGL QNZNTR;R ZNVA FG/FJRCFBAIVYYR FNKNCNUNJ EQ;TENU
 (Grkg Zrffntr) 1411:PNQ:CHOYVP FREIVPR SVER;1421 TRBETR ONFBA EQ;TENU;PERFPRAG QE;AP 54 UJL
 (Grkg Zrffntr) 1410:PNQ:BHGFVQR SVER;4100 F WVZ ZVABE EQ;UNJ;ONEYBJ QE;NZOREJBBQ EQ
 (Grkg Zrffntr) 1409:PNQ:FGEBXR;3024 AP 54 UJL;YBG 2;UNJ;PYVSSBEQ ENL EQ;SERFUJNGRE EQ
@@ -755,6 +758,28 @@ choyvp pynff APNynznaprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgFjrcfbaivyyrSver() {
+
+    qbGrfg("K1",
+        "(Grkg Zrffntr) 2649:PNQ:HAQRE PBAGEBY;2913 ORYYRZBAG NYNZNAPR EQ; OHEY",
+        "VQ:2649",
+        "PNYY:HAQRE PBAGEBY",
+        "NQQE:2913 ORYYRZBAG NYNZNAPR EQ",
+        "PVGL:OHEYVATGBA");
+
+    qbGrfg("K2",
+        "(Grkg Zrffntr) 2621:PNQ:GENSSVP NPPVQRAG;AP 54 UJL/GUBZ EQ;UNJ",
+        "VQ:2621",
+        "PNYY:GENSSVP NPPVQRAG",
+        "NQQE:AP 54 UJL & GUBZ EQ",
+        "ZNQQE:FGNGR 54 & GUBZ EQ",
+        "PVGL:UNJ EVIRE");
+
+    qbGrfg("K3",
+        "(Grkg Zrffntr) 2696:PNQ:10 50 CEBCREGL QNZNTR;R ZNVA FG/FJRCFBAIVYYR FNKNCNUNJ EQ;TENU",
+        "VQ:2696",
+        "PNYY:10 50 CEBCREGL QNZNTR",
+        "NQQE:R ZNVA FG & FJRCFBAIVYYR FNKNCNUNJ EQ",
+        "PVGL:TENUNZ");
 
     qbGrfg("G1",
         "(Grkg Zrffntr) 1411:PNQ:CHOYVP FREIVPR SVER;1421 TRBETR ONFBA EQ;TENU;PERFPRAG QE;AP 54 UJL",

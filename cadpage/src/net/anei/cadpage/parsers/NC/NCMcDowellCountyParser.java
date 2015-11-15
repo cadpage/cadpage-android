@@ -1,6 +1,7 @@
 
 package net.anei.cadpage.parsers.NC;
 
+import java.util.Properties;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -32,14 +33,33 @@ public class NCMcDowellCountyParser extends DispatchSouthernParser {
   }
   private static final Pattern PK_PTN = Pattern.compile("\\bPK\\b", Pattern.CASE_INSENSITIVE);
   
+  @Override
+  public String adjustMapCity(String city) {
+    city = city.toUpperCase();
+    city = stripFieldEnd(city, " AREA");
+    return convertCodes(city, MAP_CITY_TABLE);
+  }
+  
+  private static final Properties MAP_CITY_TABLE = buildCodeTable(new String[]{
+      "HANKINS NORTH FORK", "MARION",
+      "PG",                 "MARION",
+      "PLEASANT GARDEN",    "MARION",
+      "WOODLAWN",           "MARION"
+  });
+  
   private static final String[] CITY_LIST = new String[]{
     //cities
     "MARION",
     "MARION AREA",
     "MARION CITY",
     
+    "HANKINS NORTH FORK",
+    "WOODLAWN",
+    
     //towns
     "OLD FORT",
+    "OLD FORT AREA",
+    "OLD FORT TOWN",
     
     //Census-designated place
     "WEST MARION",
@@ -51,6 +71,7 @@ public class NCMcDowellCountyParser extends DispatchSouthernParser {
     "LITTLE SWITZERLAND",
     "NEBO",
     "NORTH COVE",
+    "PG",
     "PLEASANT GARDENS",
     "PROVIDENCE",
 
@@ -60,7 +81,10 @@ public class NCMcDowellCountyParser extends DispatchSouthernParser {
     "MONTFORD COVE",
     "PLEASANT GARDENS",
     "WOODLAWN-SEVIER",
-    "SUGAR HILL"
- 
+    "SUGAR HILL",
+    
+    // Buncombe County
+    "ASHEVILLE",
+    "BLACK MOUNTAIN"
   };
 }

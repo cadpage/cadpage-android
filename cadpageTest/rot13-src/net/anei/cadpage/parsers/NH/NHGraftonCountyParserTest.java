@@ -12,6 +12,7 @@ Ntrapl anzr: Pnzcgba-Gubeagba Sver-Erfphr
 Ybpngvba: Pnzcgba, AU, Havgrq Fgngrf
 Fraqre: pppnqrznvy@YEZSN.bet
 
+{Qvfcngpu 35CNTR} ZRQVPNY - RPUB  \e\a2547 HF EBHGR 3  \e\a#:  \e\aK:YLSBEQF KVAT/YNHAQEBZNG EQ  \e\aMA:35N  \e\aPC:  2015-10-24 20:22:02  \e\aZV#:150016970  3\e\aERF#:35CNTR
 {Serr 35CNTR} 1166 AU EBHGR 175 ,35 35  \aZV#:150015099  \aQvfc:17:13:27  \aRae:  \aNee:  \aRae Ubfc:  \aNee Ubfc:  \aPye:17:19:35  \aERF#:35CNTR  
 {Qvfcngpu 35CNTR} ZRQVPNY - NYCUN  \a1166 AU EBHGR 175 ,35   \a#:  \aK:JVAGREOEBBX EQ/ZNL FG  \aMA:35N  \aPC:  2015-09-22 17:13:27  \aZV#:150015099  3\aERF#:35CNTR
 {Serr 35CNTR} 81 YRR OEBBX EQ ,97 97  \aZV#:150015079  \aQvfc:06:03:16  \aRae:  \aNee:  \aRae Ubfc:  \aNee Ubfc:  \aPye:06:03:23  \aERF#:35CNTR  
@@ -1067,6 +1068,27 @@ choyvp pynff AUTensgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgPnzcgbaGubeagbaSverErfphr() {
+
+    qbGrfg("K1",
+        "{Qvfcngpu 35CNTR} ZRQVPNY - RPUB  \e\a" +
+        "2547 HF EBHGR 3  \e\a" +
+        "#:  \e\a" +
+        "K:YLSBEQF KVAT/YNHAQEBZNG EQ  \e\a" +
+        "MA:35N  \e\a" +
+        "PC:  2015-10-24 20:22:02  \e\a" +
+        "ZV#:150016970  3\e\a" +
+        "ERF#:35CNTR",
+
+        "PNYY:ZRQVPNY - RPUB",
+        "NQQE:2547 HF EBHGR 3",
+        "ZNQQE:43.8768806,-71.6638489",
+        "K:YLSBEQF KVAT/YNHAQEBZNG EQ",
+        "ZNC:35N",
+        "QNGR:10/24/2015",
+        "GVZR:20:22:02",
+        "VQ:150016970",
+        "PU:3",
+        "HAVG:35CNTR");
 
     qbGrfg("G1",
         "{Serr 35CNTR} 1166 AU EBHGR 175 ,35 35  \a" +
