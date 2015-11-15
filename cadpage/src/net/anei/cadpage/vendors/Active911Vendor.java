@@ -922,6 +922,7 @@ class Active911Vendor extends Vendor {
       "US/PA/MontgomeryCounty",           "PAMontgomeryCountyC",
       "US/PA/NorthamptonCounty",          "PANorthamptonCounty",
       "US/PA/NorthumberlandCounty",       "PANorthumberlandCounty",
+      "US/PA/Padoh",                      "PABethlehem",
       "US/PA/PerryCounty",                "PAPerryCounty",
       "US/PA/PikeCounty",                 "PAPikeCountyB",
       "US/PA/RidgeFireCompany",           "PAChesterCountyD4",

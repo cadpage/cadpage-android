@@ -23,36 +23,26 @@ public class PABethlehemParser extends SmartAddressParser {
   }
     
   private static final Pattern MASTER_PATTERN
-    = Pattern.compile("(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d) E[DS]T +-- +\\((.*?)\\)(.*), ID (\\d{5}), (?:Exercise)?\\n.*?\\n(.*?)\\n(.*)",
+    = Pattern.compile("(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d) [A-Z]{2}T +-- +\\((.*?) - (\\S*?)\\)(.*), ID (\\d+), (?:Exercise)?\n.*?\n(.*?)\n(.*)",
         Pattern.DOTALL);
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {  
-    if (!subject.equals("KC Alert"))
-      return false;
+    if (!subject.equals("KC Alert")) return false;
     body = cleanInfo(body);
     Matcher m = MASTER_PATTERN.matcher(body);
     if (m.matches()) {
       data.strDate = m.group(1);
       data.strTime = m.group(2);
-      parseParenField(m.group(3).trim(), data);
-      data.strCall = m.group(4).trim();
-      data.strCallId = m.group(5);
-      parseLocation(m.group(6).trim(), data);
-      data.strSupp = append(data.strSupp, "\n", m.group(7).trim());
+      data.strSource = m.group(3).trim();
+      data.strPriority = m.group(4).trim();
+      data.strCall = m.group(5).trim();
+      data.strCallId = m.group(6);
+      parseLocation(m.group(7).trim(), data);
+      data.strSupp = append(data.strSupp, "\n", m.group(8).trim());
       
       return true;
     }
     return false;
-  }
-  
-  private static final Pattern PAREN_FIELD_PATTERN
-    = Pattern.compile("(.*)-(.*)");
-  private void parseParenField(String field, Data data) {
-    Matcher m = PAREN_FIELD_PATTERN.matcher(field);
-    if (m.matches()) {
-      data.strSource = m.group(1).trim();
-      data.strPriority = m.group(2).trim();
-    }
   }
   
   private static final Pattern LOCATION_PATTERN
@@ -66,7 +56,7 @@ public class PABethlehemParser extends SmartAddressParser {
       return;
     }
     Result r = parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD|FLAG_NO_IMPLIED_APT, field);
-    if (r.getStatus() > 2) {
+    if (r.getStatus() > STATUS_STREET_NAME) {
       r.getData(data);
       data.strApt = r.getPadField();
       field = r.getLeft().trim();
@@ -86,8 +76,7 @@ public class PABethlehemParser extends SmartAddressParser {
   
   private String cleanInfo(String s) {
     int ndx = s.indexOf("<a href=");
-    if (ndx > -1)
-      s = s.substring(0, ndx);
+    if (ndx > -1) s = s.substring(0, ndx);
     return s;
   }
   
