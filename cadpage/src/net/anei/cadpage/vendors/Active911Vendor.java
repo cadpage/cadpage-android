@@ -744,6 +744,7 @@ class Active911Vendor extends Vendor {
       "US/NY/AlbanyCounty",               "NYAlbanyCountyD",
       "US/NY/AlleganyCounty911",          "NYAlleganyCounty",
       "US/NY/BCFA",                       "NYSuffolkCountyB",
+      "US/NY/BuffaloRuralMetro",          "NYErieCountyF",
       "US/NY/CayugaCounty",               "NYCayugaCounty",
       "US/NY/CentralIslip",               "NYSuffolkCountyK",
       "US/NY/ChenangoCounty",             "NYChenangoCounty",
