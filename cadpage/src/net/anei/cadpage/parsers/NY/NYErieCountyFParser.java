@@ -1,14 +1,10 @@
 package net.anei.cadpage.parsers.NY;
 
-import java.util.HashSet;
 import java.util.Properties;
-import java.util.Set;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-
-
 
 public class NYErieCountyFParser extends FieldProgramParser {
   

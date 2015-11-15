@@ -156,6 +156,7 @@ class Active911Vendor extends Vendor {
       "CA/AB/RedDeerCounty",              "ZCAABRedDeerCounty",
       "CA/BC/MidIsland",                  "ZCABCMidIslandRegion",
       "CA/BC/Nanaimo",                    "ZCABCNanamino",
+      "CA/BC/PrinceGeorge",               "ZCABCPrinceGeorge",
       "CA/QC/Quebec",                     "ZCAQCQuebec",
       "NZ/Auckland/AucklandREOC",         "ZNZAuckland",
       "NZ/NI/Auckland",                   "ZNZNewZealand",

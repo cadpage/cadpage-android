@@ -9,17 +9,17 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class ZCABCPrinceGeorgeParser extends FieldProgramParser { 
   public ZCABCPrinceGeorgeParser() {
     super(CITY_LIST,  "PRINCE GEORGE", "BC",
-          "Date:DATETIME! Type:CALL! Address:ADDRCITY/S! Latitude:LAT Longitude:LONG Units_Responding:UNIT!");
+          "Date:DATETIME! Type:CALL! Address:ADDRCITY/S! Latitude:LAT Longitude:LONG Units_Responding:UNIT");
   }
   
   @Override
   public String getFilter() {
-    return "donotreply@city.pg.bc.ca";
+    return "donotreply@princegeorge.ca,donotreply@city.pg.bc.ca";
   }
  
   @Override 
   public boolean parseMsg(String subject, String body, Data data) {    
-    if(!subject.equals("CAD Incident Message")) return false;
+    if(!subject.equals("CAD Incident Message") && !subject.equals("Incident Message")) return false;
     return parseFields(body.split("\n"), data);
   }
   
