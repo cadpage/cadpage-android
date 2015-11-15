@@ -13,7 +13,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class PABethlehemParser extends SmartAddressParser {
   
   public PABethlehemParser() {
-    super("BETHLEHEM COUNTY", "PA");
+    super("BETHLEHEM", "PA");
     setFieldList("DATE TIME SRC PRI CALL ID ADDR APT CITY INFO");
   }
 
