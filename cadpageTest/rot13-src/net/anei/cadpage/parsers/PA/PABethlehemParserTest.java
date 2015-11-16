@@ -114,25 +114,12 @@ Fraqre: xp-znvyre@xabjyrqtrpragrecn.bet
 {XP Nyreg} 10/26/2015 13:04 RFG -- (Zbagtbzrel - Ybj) Unyybjrra Cnenqr, VQ 15154, <oe>Cynaarq Riragf :: Bgure<oe>Naahny Unyybjrra Cnenqr. Znva Fgerrg jvyy or pybfrq sebz 7gu Nirahr gb 3eq Nirahr. Yvar hc sbe gur cnenqr ortvaf ng 6cz. Cnenqr ortvaf ng 7cz.<oe><oe><n uers=''></n>
 {XP Nyreg} 10/26/2015 07:59 RFG -- (Ynpxnjnaan - Ybj) Zvabe ZIP vaibyivat n fpubby ohf, VQ 15148, <oe>Genafcbegngvba Rzretrapl :: Iruvpyr nppvqrag<oe>Zbbfvp Fg/Cebfcrpg Nir, Fpenagba CN<oe>Zvabe ZIP vaibyivat n fpubby ohf jvgu puvyqera ba obneq. Fpenagba CQ (Havg4) neevirq ba fprar naq ercbegrq ab vawhevrf naq erdhrfgrq nyy SQ naq RZF pnapry gurve erfcbafr. <oe><oe><n uers=''></n>
 
-Pbhyq qb guvf nf bar ynetr cnggrea zngpu, be nf n SvryqCebtenzCnefre fhopynff jvgu zhygvcyr svryq yriry cnggrea zngpurf.  Lbhe pnyy.
-
-Gur <oe> gntf jvyy or pbairegrq gb \a orsber gurl trg gb gur cnefre.
-Svryq va cneraf ner FEP naq CEV.
-sbyybjrq ol pnyy qrfpevcgvba naq pnyy VQ
-sbyyjrq ol fbzr xvaq bs pnyy pngrtbel pynff jvgu gur qbhoyr pbybaf.  Vg vf ernyyl gbb ybat gb cnefr nf n pnyy pbqr, naq qbrf abg frrz hfrshy rabhtu
-gb vapyhqr va VASB.  V ibgr gb whfg qvfpneq vg.
-
-Arkg vf nqqerff/pvgl/mvc/fgngr svryq.  Gurer ner pnfrf jurer n mvc pbqr vf vapyhqrq ohg erny pvgl anzr vf abg.  Va juvpu pnfr gur mvc pbqr fubhyq
-or fnirq va gur PVGL svryq.
-
-Sbyybjrq ol na vasb svryq.  Sbyybjrq ol na rzcgl uers gnt juvpu fubhyq or qvfpneqrq.
-
  */
 
 choyvp pynff CNOrguyrurzCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp CNOrguyrurzCnefreGrfg() {
-    frgCnefre(arj CNOrguyrurzCnefre(), "ORGUYRURZ PBHAGL", "CN");
+    frgCnefre(arj CNOrguyrurzCnefre(), "ORGUYRURZ", "CN");
   }
   
   @Grfg
