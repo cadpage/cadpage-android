@@ -107,6 +107,13 @@ public class EmailDeveloperActivity extends Safe40Activity {
       msgId = intent.getIntExtra(EXTRA_MSG_ID, -1);
     }
     
+    // If crash or init failure, create a log snapshot to capture the state of the
+    // system log now rather than wait for the user to notice and acknowledge the 
+    // crash dialog
+    if (type == EmailType.CRASH || type == EmailType.INIT_FAILURE) {
+      logSnapshot(this, type.toString());
+    }
+    
     // Set the main message dialog text depending on the email request type
     String[] msgTextArry = getResources().getStringArray(R.array.email_devel_text);
     textView.setText(msgTextArry[type.ordinal()]);

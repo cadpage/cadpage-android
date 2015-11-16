@@ -53,6 +53,10 @@ Pbagnpg: Wreel Ubyyl <wreel.ubyyl@wbpbsq1.bet>
 Fraqre: 2183500185
 WBPB RZP Nqq: 440 R Znva Fg              Ncg:            Ybp: Tneqare Cbyvpr  Angher: Navzny Ovgr P2                 Tevq: 363/1 Vapvqrag# 15-1940216 Pebff:A ZHYOREEL FG/A JUVGR QE
 
+Pbagnpg: Znex Ovyydhvfg <znexovyydhvfg@ajpsq.bet>
+Fraqre: rpp4@wbpbtbi.bet
+Nqq: 30750 J 143eq Fg           Ncg:            Ybp:                 Angher: ZRQVPNY                        Tevq: 266/1 Vapvqrag# 15-3190131 Pebff:TNEQARE EQ/JNIREYL EQ
+
 */
 
 choyvp pynff XFWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -215,6 +219,19 @@ choyvp pynff XFWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:15-1940216",
         "K:A ZHYOREEL FG/A JUVGR QE");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZnexOvyydhvfg() {
+
+    qbGrfg("G1",
+        "Nqq: 30750 J 143eq Fg           Ncg:            Ybp:                 Angher: ZRQVPNY                        Tevq: 266/1 Vapvqrag# 15-3190131 Pebff:TNEQARE EQ/JNIREYL EQ",
+        "NQQE:30750 J 143eq Fg",
+        "PNYY:ZRQVPNY",
+        "ZNC:266/1",
+        "VQ:15-3190131",
+        "K:TNEQARE EQ/JNIREYL EQ");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
