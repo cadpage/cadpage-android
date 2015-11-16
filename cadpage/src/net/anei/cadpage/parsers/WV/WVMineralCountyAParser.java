@@ -12,62 +12,7 @@ public class WVMineralCountyAParser extends FieldProgramParser {
   public WVMineralCountyAParser() {
     super(CITY_LIST, "MINERAL COUNTY", "WV",
            "SRCID DATETIME STATUS CALL/SDS ADDR!");
-    setupMultiWordStreets(
-        "BELL BABB",
-        "BIBLE CHURCH",
-        "BRIDGE HOLLOW",
-        "CABIN RUN",
-        "CHAZ DEREMER",
-        "CUT OFF",
-        "DOUBLE CRIBBS",
-        "DRY RUN",
-        "EAST PIEDMONT",
-        "FORT ASHBY",
-        "FOXES HOLLOW",
-        "FRIED MEAT RIDGE",
-        "GOLDEN CROSS",
-        "GRAYSON GAP",
-        "HERSHEY HOLLOW",
-        "HICKORY HILL",
-        "HIDDEN VIEW",
-        "HOOKER HOLLOW",
-        "HOOKER HOLLOW",
-        "HORSESHOE RUN",
-        "JAKE STAGGERS",
-        "MAPLE HOLLOW",
-        "MILL RUN",
-        "MUD RUN",
-        "NETHKIN HILL",
-        "NORTH MAIN",
-        "ORCHARD MUSE",
-        "PARRILL HLLW",
-        "PARRILL HOLLOW",
-        "PATTERSON CREEK",
-        "PATTERSONS CREEK",
-        "PATTERSONS CREEK",
-        "PHILLIP VINCENT",
-        "PIN OAK",
-        "RAVEN RIDGE",
-        "REESES MILL",
-        "ROCKLAND FARM",
-        "RV BROWN",
-        "SAINT CLOUD",
-        "SOUTH CHURCH",
-        "SOUTH FOXS HOLLOW",
-        "SOUTH MAIN",
-        "SOUTH VALLEY VIEW",
-        "SOUTH WATER",
-        "ST CLOUD",
-        "STATE CLOUD",
-        "SUNNY BROOK",
-        "SUSAN FLEEK",
-        "SWEET SERENITY",
-        "WEBBS FARM",
-        "WEST HAMPSHIRE",
-        "WEST PIEDMONT",
-        "WHITE WAY",
-        "WHITE WILLOW"
-   );
+    setupMultiWordStreets(MWORD_STREET_LIST);
   }
   
   @Override
@@ -205,7 +150,11 @@ public class WVMineralCountyAParser extends FieldProgramParser {
       else {
         flags |= FLAG_CHECK_STATUS;
         Result res1 = parseAddress(StartType.START_ADDR, flags, parts[0]);
-        Result res2 = parseAddress(StartType.START_ADDR, flags, parts[1]);
+        String tmp2 = parts[1];
+        match = CROSS_PREFIX_PTN.matcher(tmp2);
+        if (match.matches()) tmp2 = match.group(1);
+        
+        Result res2 = parseAddress(StartType.START_ADDR, flags, tmp2);
         boolean placeIntersect = res1.getStatus() == STATUS_STREET_NAME && res2.getStatus() == STATUS_STREET_NAME && 
                                  res1.getLeft().length() == 0 && res2.getLeft().length() == 0; 
         addrNdx = 0;
@@ -224,8 +173,6 @@ public class WVMineralCountyAParser extends FieldProgramParser {
         // If we identified the first two parts as simple street names, merge
         // together as an intersection
         if (placeIntersect) {
-          match = CROSS_PREFIX_PTN.matcher(data.strAddress);
-          if (match.matches()) data.strAddress = match.group(1);
           data.strAddress = append(data.strPlace, " & ", data.strAddress);
           data.strPlace = "";
         }
@@ -275,14 +222,16 @@ public class WVMineralCountyAParser extends FieldProgramParser {
       
       if (!forceInfo) return false;
       
-      if (!NO_CROSS_PREFIX_PTN.matcher(part).matches() && isValidAddress(part)) {
-        match = CROSS_PREFIX_PTN.matcher(part);
-        if (match.matches()) part = match.group(1);
-        
-        data.strCross = append(data.strCross, " / ", part);
-      } else {
-        data.strSupp = append(data.strSupp, ", ", part);
-      }
+      if (!NO_CROSS_PREFIX_PTN.matcher(part).matches()) {
+        String cross = part;
+        match = CROSS_PREFIX_PTN.matcher(cross);
+        if (match.matches()) cross = match.group(1);
+        if (isValidAddress(cross)) {
+          data.strCross = append(data.strCross, " / ", cross);
+          return true;
+        }
+      } 
+      data.strSupp = append(data.strSupp, ", ", part);
       return true;
       
     }
@@ -292,6 +241,63 @@ public class WVMineralCountyAParser extends FieldProgramParser {
       return "PLACE ADDR APT CITY ST X INFO";
     }
   }
+  
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "BELL BABB",
+    "BIBLE CHURCH",
+    "BRIDGE HOLLOW",
+    "CABIN RUN",
+    "CHAZ DEREMER",
+    "CUT OFF",
+    "DOUBLE CRIBBS",
+    "DRY RUN",
+    "EAST PIEDMONT",
+    "FORT ASHBY",
+    "FOXES HOLLOW",
+    "FRIED MEAT RIDGE",
+    "GOLDEN CROSS",
+    "GRAYSON GAP",
+    "HERSHEY HOLLOW",
+    "HICKORY HILL",
+    "HIDDEN VIEW",
+    "HOOKER HOLLOW",
+    "HOOKER HOLLOW",
+    "HORSESHOE RUN",
+    "JAKE STAGGERS",
+    "MAPLE HOLLOW",
+    "MILL RUN",
+    "MUD RUN",
+    "NETHKIN HILL",
+    "NORTH MAIN",
+    "ORCHARD MUSE",
+    "PARRILL HLLW",
+    "PARRILL HOLLOW",
+    "PATTERSON CREEK",
+    "PATTERSONS CREEK",
+    "PATTERSONS CREEK",
+    "PHILLIP VINCENT",
+    "PIN OAK",
+    "RAVEN RIDGE",
+    "REESES MILL",
+    "ROCKLAND FARM",
+    "RV BROWN",
+    "SAINT CLOUD",
+    "SOUTH CHURCH",
+    "SOUTH FOXS HOLLOW",
+    "SOUTH MAIN",
+    "SOUTH VALLEY VIEW",
+    "SOUTH WATER",
+    "ST CLOUD",
+    "STATE CLOUD",
+    "SUNNY BROOK",
+    "SUSAN FLEEK",
+    "SWEET SERENITY",
+    "WEBBS FARM",
+    "WEST HAMPSHIRE",
+    "WEST PIEDMONT",
+    "WHITE WAY",
+    "WHITE WILLOW"
+  };
   
   private static final String[] CITY_LIST = new String[]{
     "KEYSER",
