@@ -119,6 +119,7 @@ public class DispatchOSSIParser extends FieldProgramParser {
     List<String> fields = new ArrayList<String>();
     Matcher match = delimPattern.matcher(body);
     int st = 4;
+    if (st < body.length() && body.charAt(st) == ':') st++;
 
     boolean priInfo = false;
     while (st < body.length()) {
@@ -236,7 +237,7 @@ public class DispatchOSSIParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "UNIT CALL";
+      return "UNIT? CALL";
     }
   }
 }
