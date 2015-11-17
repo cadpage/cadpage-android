@@ -478,7 +478,7 @@ choyvp pynff ZAXnaqvlbuvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "PNYY: Penfu;NQQE: FR Ujl 12/;VQ: 15033034;CEV: 1",
         "PNYY:Penfu",
-        "NQQE:FR Ujl 12 &",
+        "NQQE:FR Ujl 12 &", // ...
         "VQ:15033034",
         "CEV:1");
 
@@ -1832,7 +1832,7 @@ choyvp pynff ZAXnaqvlbuvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "PNYY: Nzohynapr;NQQE: 307 Ebfrynaq Nir NCG 5 Ubyynaq;PVGL: Cevafohet;VQ: 15033366;CEV: 1",
         "PNYY:Nzohynapr",
-        "NQQE:307 Ebfrynaq Nir",
+        "NQQE:307 Ebfrynaq Nir", //cevafohet
         "NCG:5",
         "PVGL:Ubyynaq",
         "VQ:15033366",
@@ -1842,7 +1842,7 @@ choyvp pynff ZAXnaqvlbuvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY: Penfu;NQQE: Ujl 7 R / 6gu Fg Ubyynaq;PVGL: Cevafohet;VQ: 15029707;CEV: 2;VASB: Pne Sbeq Rkcybere I. Pne",
         "PNYY:Penfu",
         "NQQE:Ujl 7 R & 6gu Fg",
-        "PVGL:Ubyynaq",
+        "PVGL:Ubyynaq", //cevafohet
         "VQ:15029707",
         "CEV:2",
         "VASB:Pne Sbeq Rkcybere I. Pne");

@@ -964,7 +964,7 @@ choyvp pynff JIJbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{Jbbq Pbhagl PGP Abgvsvpngvba} ﻿<UGZY><obql><oe />10-50 CV<oe />EBOREG OLEQ UJL CNEXREFOHET / QHGPU EVQTR EQ CNEXREFOHET</obql></UGZY>",
         "PBQR:10-50",
         "PNYY:CV",
-        "NQQE:EBOREG OLEQ UJL & QHGPU EVQTR EQ",
+        "NQQE:EBOREG OLEQ UJL & QHGPU EVQTR EQ", //qbrf abg znc
         "PVGL:CNEXREFOHET");
 
     qbGrfg("G3",
@@ -1709,7 +1709,7 @@ choyvp pynff JIJbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{Jbbq Pbhagl PGP Abgvsvpngvba} ﻿<UGZY><obql><oe />10-70 FGEHPGHER<oe />9707 UNEEVF UJL ORYYRIVYYR , ZVQQYR SBEX YRR PERRX EQ/UBEFRFUBR YA</obql></UGZY>",
         "PBQR:10-70",
         "PNYY:FGEHPGHER",
-        "NQQE:9707 UNEEVF UJL",
+        "NQQE:9707 UNEEVF UJL", //qbrf abg znc
         "PVGL:ORYYRIVYYR",
         "K:ZVQQYR SBEX YRR PERRX EQ/UBEFRFUBR YA");
 
@@ -2394,7 +2394,7 @@ choyvp pynff JIJbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{Jbbq Pbhagl PGP Abgvsvpngvba} ﻿<UGZY><obql><oe />10-50 CV<oe />BAJNEQ EQ JVYYVNZFGBJA / BYQ EVIRE EQ JVYYVNZFGBJA</obql></UGZY>",
         "PBQR:10-50",
         "PNYY:CV",
-        "NQQE:BAJNEQ EQ & BYQ EVIRE EQ",
+        "NQQE:BAJNEQ EQ & BYQ EVIRE EQ", //qbrf abg znc
         "PVGL:JVYYVNZFGBJA");
 
     qbGrfg("G2",
