@@ -27,9 +27,9 @@ Fraqre: "PVF Npgvir 911" <abercyl@pvfhfn.bet>
 {Zvfpryynarbhf ng 526 8GU Fg A, Arj Hyz, 56073} Abgvsvpngvba sebz PVF Npgvir 911:\a\aZvfpryynarbhf ng 526 8GU Fg A, Arj Hyz, 56073\a\aArj Hyz SQ - 201500001361\a\aGvzr ercbegrq: 10/21/2015 4:47:51 CZ\a\a\aHavg(f) erfcbaqrq: \aAHSQ\aArj Hyz Sver Ratvar Ubhfr #1
 */
 
-choyvp pynff ZAOEbjaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff ZAOebjaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp ZAOEbjaPbhaglCnefreGrfg() {
+  choyvp ZAOebjaPbhaglCnefreGrfg() {
     frgCnefre(arj QhzzlCnefre(), "OEBJA PBHAGL", "ZA");
   }
 
@@ -39,6 +39,6 @@ choyvp pynff ZAOEbjaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ZAOEbjaPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj ZAOebjaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
