@@ -1,43 +1,44 @@
 package net.anei.cadpage.parsers.AL;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.dispatch.DispatchGeoconxParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 /**
  * Colbert County, AL
  */
-public class ALColbertCountyParser extends DispatchGeoconxParser {
+public class ALColbertCountyParser extends FieldProgramParser {
   
   public ALColbertCountyParser() {
-    super(CITY_SET, "COLBERT COUNTY", "AL", GCX_FLG_EMPTY_SUBJECT_OK | GCX_FLG_NAME_PHONE);
+    super("COLBERT COUNTY", "AL", 
+          "CFS:ID! MSG:CALL! CALL/SDS+? EMPTY CITY? ADDR/Z ( APT:APT EMPTY | EMPTY ) ( CCSD:SKIP! | SRC! ) END");
   }
   
   @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom();
+  }
+
+  @Override
   public String getFilter() {
-    return "911alert@comcast.net,dispatch@911email.net,dispatch@911email.org";
+    return "dispatch@911email.net";
   }
   
-  private static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
-
-      // Cities
-      "MUSCLE SHOALS",
-      "SHEFFIELD",
-      "TUSCUMBIA",
-      
-      // Towns
-      "CHEROKEE",
-      "LEIGHTON",
-      "LITTLEVILLE",
-      
-      // Unincorporated 
-      "ALLSBORO",
-      "BARTON",
-      "BUZZARD ROOST",
-      "COLBERT HEIGHTS",
-      "FORD CITY",
-      "WHITE OAK"
-  }));
+  private static Pattern LOST_BRK_PTN = Pattern.compile(" +(?=[-A-Z0-9]+:$|CCSD:.*$)");
+  
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("E911-Page")) return false;
+    body = LOST_BRK_PTN.matcher(body).replaceFirst("\n\n");
+    return super.parseFields(body.split("\n"), data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("SRC")) return new SourceField("([-A-Z0-9]+):", true);
+    return super.getField(name);
+  }
 }
