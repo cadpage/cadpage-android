@@ -1148,6 +1148,7 @@ class Active911Vendor extends Vendor {
       "US/WV/LincolnCounty",              "WVLincolnCounty",
       "US/WV/MarionCounty",               "WVMarionCounty",
       "US/WV/MineralCounty",              "WVMineralCounty",
+      "US/WV/MorganCounty",               "WVMorganCounty",
       "US/WV/RaleighCounty",              "WVRaleighCounty",
       "US/WV/RoaneCounty",                "WVRoaneCounty",
       "US/WV/WoodCounty",                 "WVWoodCounty",
