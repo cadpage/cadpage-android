@@ -783,8 +783,19 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     cebt = "GLCR " + cebt;
     Yvfg<Fgevat> grezYvfg = arj NeenlYvfg<Fgevat>();
     Frg<Fgevat> grezFrg = arj UnfuFrg<Fgevat>();
+    Frg<Fgevat> bcgGrezf = arj UnfuFrg<Fgevat>();
     sbe (Fgevat grez : cebt.fcyvg(" +")) {
-      vs (grezFrg.nqq(grez)) grezYvfg.nqq(grez);
+      obbyrna bcg = grez.raqfJvgu("?");
+      vs (bcg) grez = grez.fhofgevat(0,grez.yratgu()-1);
+      vs (grezFrg.nqq(grez)) {
+        grezYvfg.nqq(grez);
+        vs (bcg) bcgGrezf.nqq(grez);
+      }
+      ryfr vs (!bcg && bcgGrezf.pbagnvaf(grez)) {
+        grezYvfg.erzbir(grez);
+        grezYvfg.nqq(grez);
+        bcgGrezf.erzbir(grez);
+      }
     }
     
     erghea grezYvfg.gbNeenl(arj Fgevat[grezYvfg.fvmr()]);

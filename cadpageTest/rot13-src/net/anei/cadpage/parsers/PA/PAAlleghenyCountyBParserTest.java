@@ -59,10 +59,10 @@ Fraqre: Tznvy Grnz <sbejneqvat-abercyl@tbbtyr.pbz>
 {Sjq: NYTLCN12601FG - 911 Pnyy} Nqqerff: 77 JNYXREF ZVYY EQ, Pbyyvre, CN kFgf: JNYXRE FG naq UVYYGBC EQ\aPbqr: SEOEHFU S2 Pbqr Qrgnvy: OEHFU/TENFF/ZHYPU SVER Sver Mbar: 126001\aQrfpevcgvba: EAEQ150000198 CQ UNQ FBZRBAR ERCBEG N OEHFU SVER VA GUVF\aNERNBS FCBEGFZRA PYHO BA JNYXREF ZVYY EQ GBP: 09/02/2015 16:04:12 Vap Ahz:\aS150068838 Erfcbaqvat: Havg:126RA1 Qvfc Tec: JSQ3 Pnyy Gnxre: 402
 */
 
-choyvp pynff CNRPZCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff CNNyyrturalPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp CNRPZCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "", "CN");
+  choyvp CNNyyrturalPbhaglOCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "NYYRTURAL PBHAGL", "CN");
   }
   
   @Grfg
@@ -71,7 +71,7 @@ choyvp pynff CNRPZCnefreGrfg rkgraqf OnfrCnefreGrfg {
     }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj CNRPZCnefreGrfg().trarengrGrfgf("G1");
+    arj CNNyyrturalPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }
   
 }

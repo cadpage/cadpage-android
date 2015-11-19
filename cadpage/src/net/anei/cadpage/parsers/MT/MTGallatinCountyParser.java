@@ -15,7 +15,7 @@ public class MTGallatinCountyParser extends SmartAddressParser {
   }
 
   @Override
-  public String getFilter() { return "hiplink@bozeman.net"; }
+  public String getFilter() { return "@bozeman.net,@gallatin.mt.gov"; }
   
   private static final Pattern PRIORITY_PATTERN
     = Pattern.compile("(.*)\\b(\\dA),(.*)");
