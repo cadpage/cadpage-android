@@ -126,16 +126,16 @@
   
   <string name="donate_android16_title">"Hey, I've already paid for this"</string>
   <string name="donate_android16_text">
-    Our sincere apologies.  Cadpage tracks you by your Google Market account
+    Our sincere apologies.  Cadpage tracks you by your Google Play Store account
     and you are running Android 1.6 which does not gives us the ability to 
-    determine your Google Market account.  The good news is that you get a free
+    determine your Google Play Store account.  The good news is that you get a free
     ride as long as you are running Android 1.6.
   </string>
   
   <string name="donate_no_user_title">"Hey, I've already paid for this"</string>
   <string name="donate_no_user_text">
-    Our sincere apologies.  Cadpage tracks you by your Google Market account
-    "and you don't seem to have one.  Try logging into the Android Market with"
+    Our sincere apologies.  Cadpage tracks you by your Google Play Store account
+    "and you don't seem to have one.  Try logging into the Google Play Store with"
     your Paypal account and see if that helps.
   </string>
   
@@ -147,23 +147,22 @@
 
   </string>
   
-  <string name="donate_android_title">Purchase through Android Market</string>
+  <string name="donate_android_title">Purchase through Google Play Store</string>
   <string name="donate_paypal_title">Purchase through PayPal</string>
   <string name="donate_whats_up_title">What\'s this all about??</string>
   <string name="donate_active911_parse_info_title">Tell me more</string>
   <string name="donate_email_title">Send Email</string>
   
   <string name="donate_android_unsupported_text">
-    The Android Market app reports that in-app purchases are not supported.
-    You may need to upgrade the Market app to the latest version.  Or you may
-    need to give it a valid Google account (Select menu > Accounts in the Market
-    app) 
+    The Google Play Store app reports that in-app purchases are not supported.
+    You may need to upgrade the Play Store app to the latest version.  Or you may
+    need to give it a valid Google account. 
   </string>
   
   <string name="donate_android_beta_text">
-    For technical reasons, you cannot make Android Market purchases from a beta
+    For technical reasons, you cannot make Google Play purchases from a beta
     release of Cadpage.  You will have to wait until you install an official
-    release of Cadpage from the Android Market.
+    release of Cadpage from the Google Play Store.
   </string>
   
   <string name="donate_magic_word_title">I have an authorization code</string>
@@ -176,7 +175,7 @@
       and follow the directions
   </string>
   
-  <string name="donate_android_problem_title">I can\'t make Android Market payments</string>
+  <string name="donate_android_problem_title">I can\'t make Google Play payments</string>
   <string name="donate_android_problem_text">
     Bummer, let\'s see what we can do about that.
   </string>
