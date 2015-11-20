@@ -1082,7 +1082,7 @@ class Active911Vendor extends Vendor {
       "US/VA/CulpeperCounty",             "VACulpeperCounty",
       "US/VA/DickensonCounty",            "VADickensonCounty",
       "US/VA/Esva911",                    "VANorthamptonCounty",
-      "US/VA/FluvannaSheriff",            "VAFluvannaCounty",
+      "US/VA/FluvannaSheriff",            "VAFluvannaCountyB",
       "US/VA/Franklin",                   "VAFranklinB",
       "US/VA/FranklinCounty",             "VAFranklinCountyB",
       "US/VA/Galax",                      "VAGalax",
