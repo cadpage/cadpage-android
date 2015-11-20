@@ -64,7 +64,8 @@ choyvp pynff ZAOebjaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500001426",
         "QNGR:11/02/2015",
         "GVZR:08:27:40",
-        "VASB:AHSQ\asver nynez - fzbxr qrgrpgbe  S20 raeg ng 0828");
+        "HAVG:AHSQ",
+        "VASB:sver nynez - fzbxr qrgrpgbe  S20 raeg ng 0828");
 
     qbGrfg("G3",
         "{Sver Pnyy ng Fgngr Ujl 15/HF Ujl 14, Arj Hyz, 56073} Abgvsvpngvba sebz PVF Npgvir 911:\a\a" +
@@ -83,7 +84,8 @@ choyvp pynff ZAOebjaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500001409",
         "QNGR:10/28/2015",
         "GVZR:23:17:11",
-        "VASB:AHSQ\agenafsreerq gb avp pb  bar pnyy genafsreerq gb fgngr cngeby  pnoyr ynlvat ba gur ebnqjnl    thneq envy jver ba gur ebnqjnl  nfxrq gb unir pbhegynaq sver   avp pbhagl nqivfrq sbe ah sver");
+        "HAVG:AHSQ",
+        "VASB:genafsreerq gb avp pb  bar pnyy genafsreerq gb fgngr cngeby  pnoyr ynlvat ba gur ebnqjnl    thneq envy jver ba gur ebnqjnl  nfxrq gb unir pbhegynaq sver   avp pbhagl nqivfrq sbe ah sver");
 
     qbGrfg("G4",
         "{Sver Pnyy ng 326 Senaxyva Fg F, Arj Hyz, 56073} Abgvsvpngvba sebz PVF Npgvir 911:\a\a" +
@@ -100,7 +102,7 @@ choyvp pynff ZAOebjaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500001383",
         "QNGR:10/25/2015",
         "GVZR:13:39:31",
-        "VASB:AHSQ");
+        "HAVG:AHSQ");
 
     qbGrfg("G5",
         "{Sver Pnyy ng 120 Jnfuvatgba Fg A, Arj Hyz, 56073} Abgvsvpngvba sebz PVF Npgvir 911:\a\a" +
@@ -118,7 +120,8 @@ choyvp pynff ZAOebjaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500001375",
         "QNGR:10/23/2015",
         "GVZR:09:50:10",
-        "VASB:AHSQ\a5072170182  erdhrfg bssvpre gb ybbx ng jnfure be qelre");
+        "HAVG:AHSQ",
+        "VASB:5072170182  erdhrfg bssvpre gb ybbx ng jnfure be qelre");
 
     qbGrfg("G6",
         "{Sver Pnyy ng HF Ujl 14/195gu Ni, Zvysbeq, 56073} Abgvsvpngvba sebz PVF Npgvir 911:\a\a" +
@@ -152,7 +155,8 @@ choyvp pynff ZAOebjaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201500001361",
         "QNGR:10/21/2015",
         "GVZR:16:47:51",
-        "VASB:AHSQ\aArj Hyz Sver Ratvar Ubhfr #1");
+        "HAVG:AHSQ",
+        "VASB:Arj Hyz Sver Ratvar Ubhfr #1");
 
   }
 
