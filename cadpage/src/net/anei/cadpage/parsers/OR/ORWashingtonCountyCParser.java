@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.OR;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -85,10 +86,16 @@ public class ORWashingtonCountyCParser extends MsgParser {
     if (!p.check(" ")) return false;
     data.strPlace = p.get(33);
     if (p.check(" ")) return false;
-    parseAddress(p.get(31), data);
+    String addr = p.get(31);
+    pt = addr.indexOf('[');
+    if (pt >= 0) {
+      data.strPlace = append(data.strPlace, " - ", addr.substring(pt+1).trim());
+      addr = addr.substring(0,pt).trim();
+    }
+    parseAddress(addr, data);
     data.strApt= p.get(11);
     if (p.check(" ")) return false;
-    data.strCity = p.get(18);
+    data.strCity = convertCodes(p.get(18), CITY_CODES);
     if (!p.check(" ZIP: ")) return false;
     p.skip(11);
     p.check(" XST: ");
@@ -122,10 +129,16 @@ public class ORWashingtonCountyCParser extends MsgParser {
     if (!p.check(" ")) return false;
     data.strPlace = p.get(30);
     if (p.check(" ")) return false;
-    parseAddress(p.get(28), data);
+    String addr = p.get(28);
+    pt = addr.indexOf('[');
+    if (pt >= 0) {
+      data.strPlace = append(data.strPlace, " - ", addr.substring(pt+1).trim());
+      addr = addr.substring(0,pt).trim();
+    }
+    parseAddress(addr, data);
     data.strApt= p.get(10);
     if (p.check(" ")) return false;
-    data.strCity = p.get(17);
+    data.strCity = convertCodes(p.get(17), CITY_CODES);
     if (!p.check(" ZIP:")) return false;
     p.skip(9);
     p.check(" XST:");
@@ -144,6 +157,15 @@ public class ORWashingtonCountyCParser extends MsgParser {
     
     setFieldList("UNIT ID PLACE ADDR APT CITY X PRI CODE CALL");
     return true;
-
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "FRVW", "FAIRVIEW",
+      "GRSM", "GRESHAM",
+      "MULT", "MULTNOMAH COUNTY",
+      "PORT", "PORTLAND",
+      "TRO",  "TROUTDALE",
+      "WVLG", "WOOD VILLAGE",
+
+  });
 }
