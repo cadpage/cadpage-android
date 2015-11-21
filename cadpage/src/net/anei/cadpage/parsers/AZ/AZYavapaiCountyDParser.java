@@ -1,81 +1,118 @@
 package net.anei.cadpage.parsers.AZ;
 
 import java.util.Properties;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class AZYavapaiCountyDParser extends SmartAddressParser {
 
-	private static Pattern NORMAL = Pattern.compile(".{10}(?=\\d+).{60}DISP:\\d{2}:\\d{2}ENRT:\\d{2}:\\d{2}SCNE:\\d{2}:\\d{2}AVAIL:(?:\\d{2}:\\d{2})?");
-	private static Pattern CANCEL = Pattern.compile(".{18}(?=\\d+).{60}DISP:\\d{2}:\\d{2}.{7}SCNE:(?:\\d{2}:\\d{2}.{7}|.{12})CNCL:\\d{2}:\\d{2}.{7}REASON:.*");
-	private static Pattern REPORT = Pattern.compile(".{7}\\w.{64}APT#.{4}CITY:.{14}MAP:.{8}AUTHORITY:.{28}CROSS:.{33}RUN#:\\d+");
-	
-	public AZYavapaiCountyDParser() {
-		super("YAVAPAI COUNTY", "AZ");
-		setFieldList("UNIT ID CALL ADDR APT CITY MAP SRC X INFO");
-	}
+  public AZYavapaiCountyDParser() {
+    super("YAVAPAI COUNTY", "AZ");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "@Rmetro.com";
+  }
 
-	private static Pattern FMT = Pattern.compile("(C)NCL:|RUN#:\\d+$");
-	
-	@Override
-	public boolean parseMsg(String body, Data data) {
-		
-		// get format, init FParser
-		Matcher mat = FMT.matcher(body);
-		FParser fp = new FParser(body);
-		
-		// normal format
-		if (!mat.find()) {
-//			if (!fp.lookahead(100, 6).equals("AVAIL:")) return false;
-			if (!NORMAL.matcher(body).matches()) return false;
-			data.strUnit = fp.get(10).trim();
-			data.strCallId = fp.get(20).trim();
-			parseAddress(fp.get(40).trim(), data);
-			data.strSupp = fp.get(10)+"\n"+fp.get(10)+"\n"+fp.get(10)+"\n"+fp.get();
-			return true;
-		}
-		
-		// cancel format
-		if (mat.group(1) != null) {
-//			if (!fp.lookahead(129, 7).equals("REASON:")) return false;
-			if (!CANCEL.matcher(body).matches()) return false;
-			data.strUnit = fp.get(18).trim();
-			data.strCallId = fp.get(20).trim();
-			parseAddress(fp.get(40).trim(), data);
-			data.strSupp = fp.get(17).trim()+"\n"+fp.get(17).trim()+"\n"+fp.get(17).trim();
-			fp.skip(7);
-			data.strCall = "CANCEL:"+fp.get();
-			return true;
-		}
-		
-		// or run report format
-//		if (!fp.lookahead(188,  5).equals("RUN#:")) return false;
-		if (!REPORT.matcher(body).matches()) return false;
-		data.strUnit = fp.get(7).trim();
-		data.strCall = fp.get(35).trim();
-		parseAddress(fp.get(30).trim(), data);
-		fp.skip(4);
-		data.strApt = fp.get(4).trim();
-		fp.skip(5);
-		data.strCity = fp.get(14).trim();
-		String mcity = CITY_CODES.getProperty(data.strCity);
-		if (mcity != null) data.strCity = mcity;
-		fp.skip(4);
-		data.strMap = fp.get(8).trim();
-		fp.skip(10);
-		data.strSource = fp.get(28).trim();
-		fp.skip(6);
-		data.strCross = fp.get(33).trim();
-		fp.skip(5);
-		data.strCallId = fp.get();
-		
-		return true;
-	}
-	
-	Properties CITY_CODES = buildCodeTable(new String[]{
-		"CORDES JUNCTIO", "CORDES LAKES",
-	});
+  @Override
+  public boolean parseMsg(String body, Data data) {
+    if (parseDispatch(body, data)) return true;
+    if (parseCancel(body, data)) return true;
+    if (parseRunReport(body, data)) return true;
+    return false;
+  }
+  
+  private boolean parseDispatch(String body, Data data) {
+    FParser fp = new FParser(body);
+    String unit = fp.get(7);
+    if (fp.check(" ")) return false;
+    String call = fp.get(35);
+    if (fp.check(" ")) return false;
+    String addr = fp.get(30);
+    if (!fp.check("APT#")) return false;
+    String apt = fp.get(4);
+    if (!fp.check("CITY:")) return false;
+    String city = fp.get(14);
+    if (!fp.check("MAP:")) return false;
+    String map = fp.get(8);
+    if (!fp.check("AUTHORITY:")) return false;
+    fp.skip(28);
+    if (!fp.check("CROSS:")) return false;
+    String cross = fp.get(33);
+    if (!fp.check("RUN#:")) return false;
+    String callId = fp.get();
+    
+    data.strUnit = unit;
+    data.strCall = call;
+    parseAddress(addr, data);
+    data.strApt = append(data.strApt, "-", apt);
+    data.strCity = convertCodes(city, CITY_CODES);
+    data.strMap = map;
+    data.strCross = cross;
+    data.strCallId = callId;
+    
+    setFieldList("UNIT CALL ADDR APT CITY MAP X ID");
+    return true;
+  }
+  
+  private boolean parseCancel(String body, Data data) {
+    FParser fp = new FParser(body);
+    String unit = fp.get(18);
+    if (fp.check(" ")) return false;
+    String callId = fp.get(20);
+    if (fp.check(" ")) return false;
+    String addr = fp.get(40);
+    if (!appendInfoLine(fp, "DISP:", 17, data)) return false;
+    if (!appendInfoLine(fp, "SCNE:", 17, data)) return false;
+    if (!appendInfoLine(fp, "CNCL:", 17, data)) return false;
+    if (!fp.check("REASON:")) {
+      data.strSupp = "";
+      return false;
+    }
+    data.strCall = "CANCEL:"+fp.get();
+  
+    data.strUnit = unit;
+    data.strCallId = callId;
+    parseAddress(addr, data);
+  
+    setFieldList("UNIT ID ADDR APT INFO CALL");
+    return true;
+  }
+
+  private boolean parseRunReport(String body, Data data) {
+    FParser fp = new FParser(body);
+    String unit = fp.get(10);
+    if (fp.check(" ")) return false;
+    String callId = fp.get(20);
+    if (fp.check(" ")) return false;
+    String addr = fp.get(40);
+    if (!appendInfoLine(fp, "DISP:", 10, data)) return false;
+    if (!appendInfoLine(fp, "ENRT:", 10, data)) return false;
+    if (!appendInfoLine(fp, "SCNE:", 10, data)) return false;
+    if (!appendInfoLine(fp, "AVAIL:", 999, data)) return false;
+
+    data.msgType = MsgType.RUN_REPORT;
+    data.strUnit = unit;
+    data.strCallId = callId;
+    parseAddress(addr, data);
+    
+    setFieldList("UNIT ID ADDR APT INFO");
+    return true;
+  }
+
+  private boolean appendInfoLine(FParser fp, String label, int len, Data data) {
+    if (!fp.checkAhead(0, label)) {
+      data.strSupp = "";
+      return false;
+    }
+    data.strSupp = append(data.strSupp, "\n", fp.get(len));
+    return true;
+  }
+
+  Properties CITY_CODES = buildCodeTable(new String[]{
+      "CORDES JUNCTIO", "CORDES JUNCTION",
+  });
 }
