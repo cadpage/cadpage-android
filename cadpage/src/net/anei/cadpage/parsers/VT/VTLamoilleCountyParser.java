@@ -29,10 +29,11 @@ public class VTLamoilleCountyParser extends FieldProgramParser {
     timeString = "";
     unitInfo = false;
     unitId = new String[MAX_UNITS];
-    boolean ret = parseFields(body.split("\n"), data);
-    if (data.msgType == MsgType.RUN_REPORT)
+    if (!parseFields(body.split("\n"), data)) return false;
+    if (data.msgType == MsgType.RUN_REPORT) {
       data.strSupp = append(timeString, "\n", data.strSupp);
-    return ret;
+    }
+    return true;
   }
   
   @Override
@@ -48,15 +49,14 @@ public class VTLamoilleCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       super.parse(field, data);
       int ndx = data.strApt.indexOf(',');
-      if (ndx >=0)
-        data.strApt = data.strApt.substring(0, ndx);
+      if (ndx >=0) data.strApt = data.strApt.substring(0, ndx);
     }
   }
   
   private static final Pattern UNIT_INFO_PATTERN_1
   = Pattern.compile("Unit Id +(\\d):(.*)"),
                               UNIT_INFO_PATTERN_2
-  = Pattern.compile("((?:Dispatched|Enroute|On Scene|Cleared)) +(\\d): +(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d)"),
+  = Pattern.compile("(Dispatched|Enroute|On Scene|Cleared) +(\\d): +(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d)"),
                               UNIT_INFO_PATTERN_3
   = Pattern.compile("(?:Medical|Fire) \\d:.*");
   private class MyInfoField extends InfoField {
@@ -64,24 +64,20 @@ public class VTLamoilleCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       int unitNumber;
       String unitName;
-      if (field.equals(""))
-        return;
-      if (field.startsWith("-----") && field.endsWith("-----"))
-        return;
+      if (field.equals("")) return;
+      if (field.startsWith("-----") && field.endsWith("-----")) return;
       if (field.equals("Units")) {
         unitInfo = true;
         return;
       }
       if (unitInfo) {
         Matcher m = UNIT_INFO_PATTERN_3.matcher(field);
-        if (m.matches())
-          return;
+        if (m.matches()) return;
         m = UNIT_INFO_PATTERN_1.matcher(field);
         if (m.matches()) {
           unitName = m.group(2).trim();
           unitNumber = Integer.parseInt(m.group(1));
-          if (unitNumber <= MAX_UNITS)
-            unitId[unitNumber-1] = unitName;
+          if (unitNumber <= MAX_UNITS) unitId[unitNumber-1] = unitName;
           data.strUnit = append(data.strUnit, ",", unitName);
           return;
         }
@@ -90,15 +86,14 @@ public class VTLamoilleCountyParser extends FieldProgramParser {
           String entry = m.group(1);
           unitNumber = Integer.parseInt(m.group(2));
           String dt = m.group(3),
-              tm = m.group(4);
-          if (entry.equals("On Scene"))
-            data.msgType = MsgType.RUN_REPORT;
+                 tm = m.group(4);
+          if (entry.equals("On Scene")) data.msgType = MsgType.RUN_REPORT;
           timeString = append(dt, " ", tm);
-          if (unitNumber <= MAX_UNITS)
+          if (unitNumber <= MAX_UNITS) {
             field = unitId[unitNumber-1]+" "+entry+" "+timeString;
+          }
         }
-        else
-          field = "";
+        else field = "";
       }
       data.strSupp = append(data.strSupp, "\n", field);
     }
