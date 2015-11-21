@@ -2,8 +2,6 @@ package net.anei.cadpage.parsers.WV;
 
 
 import java.util.Properties;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -12,99 +10,39 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 public class WVRaleighCountyParser extends DispatchB2Parser {
   
-  private static final Pattern MAP_GRID_CAD_PTN = Pattern.compile("(.*?) Map: Grids:, Cad: ([-\\d]+)$");
-  
   public WVRaleighCountyParser() {
-    super("RALEIGH911:", CITY_LIST, "RALEIGH COUNTY", "WV");
+    super(CITY_LIST, "RALEIGH COUNTY", "WV", B2_FORCE_CALL_CODE);
     setupCallList(CALL_LIST);
     removeWords("BV", "TURNPIKE");
     setupDoctorNames("KELLY");
-    setupMultiWordStreets(
-        "4-H LAKE",
-        "AFFINITY COMPLEX",
-        "APPALACHIAN HEIGHTS",
-        "BEE BRANCH",
-        "BLUE JAY SIX",
-        "BLUE ROOM",
-        "BOYD CRAWFORD",
-        "BURNING ROCK",
-        "C AND O DAM",
-        "CHERRY CREEK",
-        "CLAY FARM",
-        "CLEAR FORK",
-        "COAL CITY",
-        "COAL RIVER",
-        "D C LILLY",
-        "DRY HILL",
-        "FLAT TOP",
-        "FLAT TOP MOUNTAIN",
-        "GLADE CREEK",
-        "GLEN ROGERS-RAVENCLIFF",
-        "HARPER HEIGHTS",
-        "HOLLY HILL",
-        "HOO HOO",
-        "HOT COAL",
-        "INDUSTRIAL PARK",
-        "JIM BAILEY FARM",
-        "JOHN LANE",
-        "LAKE STEPHENS",
-        "MAPLE FORK",
-        "MAPLE MEADOW MINING",
-        "MCKINNEY MOUNTAIN",
-        "MILL CREEK",
-        "MONT PHILLIPS",
-        "MOUNTAIN VIEW",
-        "MT BREEZE",
-        "MT TABOR",
-        "MT VIEW",
-        "OAK CREEK",
-        "OAK GROVE",
-        "ORCHARD HILL",
-        "RALEIGH RIDGE",
-        "ROBERT C BYRD",
-        "ROCK CREEK",
-        "RUSTIC HILLS",
-        "SAND BRANCH",
-        "SAXON BOLT",
-        "SCOTT RIDGE",
-        "SHADY LAKE",
-        "SLAB FORK",
-        "SNUFFER MOUNTAIN",
-        "STEPHENS BRANCH",
-        "TOLBERT FARM",
-        "TOMMY CREEK",
-        "VALLEY VIEW",
-        "WILCOX VALLEY"
-    );
+    setupSaintNames("JOHN");
+    setupProtectedNames("L C AND WILDAS");
+    setupMultiWordStreets(MWORD_STREET_LIST);
   }
+  
+  private boolean confirmed;
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (body.startsWith("RALEIGH911:Return Phone:")) {
-      Parser p = new Parser(body.substring(24).trim());
-      data.strPhone = p.get(' ');
-      data.strCode = p.get(' ');
-      String addr = p.get();
-      Matcher match = MAP_GRID_CAD_PTN.matcher(addr);
-      if (match.matches()) {
-        data.strCall = "GENERAL ALERT";
-        data.strPlace = match.group(1).trim();
-        data.strCallId = match.group(2);
-        data.strCode = "";
-      } else {
-        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_NO_CITY, addr, data);
-        data.strName = getLeft();
-      }
-      return true;
-    }
-    return super.parseMsg(body, data);
+    confirmed = body.startsWith("RALEIGH911:") || body.startsWith("911-CENTER:");
+    if (confirmed) body = body.substring(11);
+    body = body.replace("L C & WILDAS", "L C AND WILDAS");
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
+    return true;
   }
   
   @Override
   public String getProgram() {
-    return "PHONE " + super.getProgram();
+    return "PHONE? " + super.getProgram();
   }
   
+  @Override
+  protected boolean isPageMsg(String body) {
+    if (confirmed) return true;
+    return super.isPageMsg(body);
+  }
+
   @Override
   protected int getExtraParseAddressFlags() {
     return FLAG_IGNORE_AT;
@@ -122,27 +60,135 @@ public class WVRaleighCountyParser extends DispatchB2Parser {
     return convertCodes(city, CITY_PLACE_NAMES);
   }
   
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "4-H LAKE",
+    "ACORD MOUNTAIN",
+    "AFFINITY COMPLEX",
+    "APPALACHIAN HEIGHTS",
+    "BARKERS RIDGE-SAND GAP",
+    "BEE BRANCH",
+    "BLUE JAY SIX",
+    "BLUE ROOM",
+    "BOB VINES",
+    "BOYD CRAWFORD",
+    "BURNING ROCK",
+    "C AND O DAM",
+    "CABELL HEIGHTS",
+    "CARL VEST",
+    "CHERRY CREEK",
+    "CLAY FARM",
+    "CLEAR CREEK",
+    "CLEAR FORK",
+    "CLEVELAND SCHOOL",
+    "COAL CITY",
+    "COAL RIVER",
+    "COUNTRY ROADS",
+    "CRAB ORCHARD",
+    "D C LILLY",
+    "DAVIS CEMETERY",
+    "DEVILS FORK",
+    "DRY HILL",
+    "ELLISON RIDGE",
+    "FARLEY BRANCH",
+    "FIRE TRAIL",
+    "FLAT TOP MOUNTAIN",
+    "FLAT TOP MTN",
+    "FLAT TOP",
+    "FLOYD WORLEY",
+    "GLADE CREEK",
+    "GLEN GARDEN",
+    "GLEN ROGERS-RAVENCLIFF",
+    "GREY FLATS",
+    "HARPER HEIGHTS",
+    "HARPER PARK",
+    "HOLLY HILL",
+    "HOO HOO",
+    "HORSE CREEK",
+    "HOT COAL",
+    "INDUSTRIAL PARK",
+    "IRISH MOUNTAIN",
+    "JIM BAILEY FARM",
+    "JOHN LANE",
+    "JONBEN FIRECO",
+    "LAKE STEPHENS",
+    "LITTLE BEAVER STATE PARK",
+    "MAPLE FORK",
+    "MAPLE MEADOW MINING",
+    "MAPLE VIEW",
+    "MAXWELL HILL",
+    "MCKINNEY MOUNTAIN",
+    "MCKINNEY MTN",
+    "MILL BRANCH",
+    "MILL CREEK",
+    "MONT PHILLIPS",
+    "MOUNTAIN VIEW",
+    "MOUNTAIN WILLIAM",
+    "MT BREEZE",
+    "MT TABOR",
+    "MT VIEW BOTTOM",
+    "MT VIEW",
+    "OAK CREEK",
+    "OAK GROVE",
+    "ORCHARD HILL",
+    "RALEIGH RIDGE",
+    "ROBERT C BYRD",
+    "ROCK CREEK",
+    "ROLLING CREEK",
+    "RURAL ACRES",
+    "RUSTIC HILLS",
+    "SAND BRANCH",
+    "SAXON BOLT",
+    "SCOTT RIDGE",
+    "SHADY LAKE",
+    "SLAB FORK",
+    "SNUFFER MOUNTAIN",
+    "SNUFFER MTN",
+    "SOUTHERN INDUSTRIAL",
+    "STEPHENS BRANCH",
+    "TABLE ROCK",
+    "TANK BRANCH",
+    "TAYLOR FARM",
+    "TOLBERT FARM",
+    "TOMMY CREEK",
+    "TWIN OAKS",
+    "URY POWELL",
+    "VALLEY VIEW",
+    "WEST VIRGINIA",
+    "WHITE OAK CREEK",
+    "WILCOX VALLEY"
+  };
+  
   private static final CodeSet CALL_LIST = new CodeSet(
       "911 HANGUP",
+      "ABANDONED VEHICLE",
       "ABDOMINAL PAIN",
       "ABDUCTION",
+      "ABNORMALLY DROWSY/LOW TO REACT",
+      "ACCIDENT WITH INJURIES",
       "ACCIDENT WITHOUT INJURY",
       "AIRCRAFT DISTRUBANCE",
       "ALARM-HOLDUP",
       "ALARM(SPECIFY)",
       "ALLERGIC REACTION",
+      "ALS BACKUP",
+      "ANIMAL BITES",
       "ANIMAL PROBLEM",
+      "ARMED ROBBERY",
       "ARSON FIRE",
       "ASSAULT",
       "ASSIST OTHER DEPT",
       "ASSULT WITH INJURY",
       "ATTEMPTED SUICIDE",
+      "B&E IN PROGRESS",
       "BACK PAIN",
       "BLEEDING/NON-TRAUMAT",
       "BREATHING DIFFICULTY",
       "BRUSH FIRE",
       "BURGLARY IN PROGRESS",
+      "BURNS",
+      "CARDIAC (NS)",
       "CHECK WELFARE",
+      "CHEMICAL LEAK",
       "CHEST PAIN",
       "CHILD BIRTH",
       "CHIMNEY FIRE",
@@ -153,12 +199,15 @@ public class WVRaleighCountyParser extends DispatchB2Parser {
       "CPR-INFANT",
       "DAMAGE FROM STORM",
       "DEAD BODY",
+      "DECEASED PERSON/FOUND BODY",
       "DIABETIC",
       "DISORIENTED",
       "DISTURBANCE",
       "DOMESTIC",
       "EDEMA/SWELLING",
       "EOC PROJECT",
+      "ELECTRICAL FIRE",
+      "ELEVATOR RESCUES",
       "EMPLOYEE CALL IN SICK",
       "EXERCISE",
       "EXPLOSION",
@@ -175,43 +224,65 @@ public class WVRaleighCountyParser extends DispatchB2Parser {
       "HEART ATTACK",
       "ILLEGAL BURN",
       "INTOX PERSON",
+      "LACERATION/CUT",
       "LIFTING ASSISTANCE",
       "LINES DOWN",
       "MEDICAL ALARM",
       "MENTAL/EMOTIONAL/PS",
       "MINING ACCIDENT",
+      "MISSING PERSON",
       "MOTOR VEH ACCID PRIVATE LOT",
       "MOTOR VEHICLE ACCIDENT",
       "MOTOR VEHICLE ACCIDENT INJURY",
       "MVA LEAVING THE SCENE",
+      "NOSE BLEED",
+      "OUT OF CONTROL",
       "OVERDOSE",
+      "PAGER TEST",
+      "PANIC ATTACK",
       "PEDSTRIAN HIT",
       "PERSON DOWN",
+      "PLANE CRASH",
       "PLANE MALFUNCTION",
+      "POISONING",
       "POSSIBLE DUI",
+      "PREGNANCY/CHILDBIRTH",
       "PURSUIT",
+      "RECKLESS DRIVER",
       "REKINDLE",
+      "RESIDENCE CHECK",
+      "RESIDENTIAL/ COMMERCIAL ALARM",
       "ROAD HAZZARD",
       "ROBBERY OCCURED EARLIER",
       "ROCK SLIDE",
       "RUNAWAY JUV",
       "RUN REPORT",
+      "SEARCH-LOST PERSON",
       "SEIZURES",
+      "SEXUAL ASSAULT NOT IN PROGRESS",
       "SHOOTING",
+      "SHOPLIFTING",
       "SHOTS FIRE",
       "SICK",
+      "SITEOK",
+      "SITETR",
       "SHOTS FIRED",
       "SMOKE",
       "SPECIAL ASSIGNMENT",
       "SPECIFY -(I.E. -ARM/LEG)",
       "SPECIFY-RUN OFF/HIGH",
+      "STOLEN VEHICLE",
       "STROKE",
       "STRUCTURE FIRE",
+      "SUSPICIOUS ACTIVITY",
+      "SUSPICIOUS PACKAGE",
       "SUSPICIOUS PERSON",
+      "TEST CALL",
       "TRAFFIC STOP",
       "TRANSFORMER",
       "TREE DOWN",
       "UNCONSCIOUS/SYNCOPE",
+      "UNKNOWN MEDICAL PROBLEM",
       "UNRESPONSIVE",
       "VEHICLE- DISABLED",
       "VEHICLE FIRE",
@@ -234,7 +305,9 @@ public class WVRaleighCountyParser extends DispatchB2Parser {
     "ABNEY",
     "ABRAHAM",
     "AFFINITY",
+    "ALS BACKUP",
     "AMIGO",
+    "AMEAGLE",
     "ARNETT",
     "ARTIE",
     "BEAVER",
@@ -249,6 +322,7 @@ public class WVRaleighCountyParser extends DispatchB2Parser {
     "CABELL HEIGHTS",
     "CEDAR",
     "CIRTSVILLE",
+    "CLEAR CREEK",
     "COAL CITY",
     "COLCORD",
     "COOL RIDGE",
@@ -261,6 +335,7 @@ public class WVRaleighCountyParser extends DispatchB2Parser {
     "DRY CREEK",
     "DRY HILL",
     "EASTGULF",
+    "EAST GULF",
     "ECCLES",
     "EGERIA",
     "EUNICE",
@@ -279,6 +354,8 @@ public class WVRaleighCountyParser extends DispatchB2Parser {
     "HOLLYWOOD",
     "HOT COAL",
     "HOTCHKISS",
+    "IRISH MOUNTAIN",
+    "IRISH MTN",
     "JONBEN",
     "JOSEPHINE",
     "HARPER",
@@ -287,7 +364,9 @@ public class WVRaleighCountyParser extends DispatchB2Parser {
     "KILLARNEY",
     "LEEVALE",
     "LEGO",
+    "LANARK",
     "LILLYBROOK",
+    "MABSCOTT",
     "MACARTHUR",
     "MAPLE FORK",
     "MCALPIN",
@@ -319,6 +398,8 @@ public class WVRaleighCountyParser extends DispatchB2Parser {
     "SANDLICK",
     "SHADY SPRING",
     "SHILOH",
+    "SITEOK",
+    "SITETR",
     "SKELTON",
     "SLAB FORK",
     "SOAK CREEK",
@@ -339,17 +420,26 @@ public class WVRaleighCountyParser extends DispatchB2Parser {
     "WESTVIEW",
     "WHITBY",
     "WHITE OAK",
+    "WICKHAM",
     "WILLIBET",
     "WINDING GULF",
     "WOODPECK",
     
     // Boone County
     "BOONE",
+    "BOONE CO",
     "BOONE COUNTY",
     "WHITESVILLE",
     
+    // Summers County
+    "SUMMERS",
+    "SUMMERS CO",
+    "SUMMERS COUNTY",
+    
     // Wyoming county
-    "WYOMING"
+    "WYOMING",
+    "WYOMING CO",
+    "WYOMING COUNTY"
   };
   
   private static final Properties CITY_PLACE_NAMES = buildCodeTable(new String[]{

@@ -2360,7 +2360,7 @@ ZNVYOBK:PNANEF 17:23 RZF - CNVA 000000 F V-77 PSF# 2013-001974 PEBFF: RK 14 PNEE
 ZNVYOBK:PNANEF 17:55 RZF - QVNORGVP 000126 ZNLRF QE PSF# 2013-001987
 ZNVYOBK@TnynkIn.pbz ZNVYOBK:PNANEF 19:47 RZF - OERNGUVAT QVSSVPHYGL 000000 F V-77 PSF# 2013-002044 PEBFF: RK 8 PUNAPRF PERRX EQ/RK 1 YNZOFOHET EQ
 ***************************************************************************
-Syhinaan Pbhagl, IN (INSyhinaanPbhaglCnefre)
+Syhinaan Pbhagl, IN (INSyhinaanPbhaglNCnefre)
 ZNVYOBK:PB5 07:52 OERNGUVAT QVSSVPHYGL 002101 UNQRA ZNEGVA EQ PSF# 2013-015912
 ZNVYOBK:PB5 19:28 QVMMVARFF/IREGVTB/JRNXARFF 000041 WRAAVATF QE PSF# 2013-016057
 ZNVYOBK:PB5 13:01 BGURE - RKCYNVA VA ERZNEXF 000000 EVIREFVQR PSF# 2013-016112
@@ -3190,6 +3190,11 @@ Fcnegnaohet Pbhagl, FP (FPFCnegnaohetPbhaglCnefre)
 TYSQ - PS/14072 GLC: ..SHRY FCVYY........ NQ: QBTJBBQ PYHO EQ&F CVAR FG PZG1: <<< SHRY FCVYY >>> PZG2: <<< FRAQ TYRAQNYR NAQ CNPBYRG BA NYY FGEHPGHER
 TYSQ - PS/13375 GLC: PBZZREP SVER NYNEZ. NQ: 2720 PBHAGEL PYHO EQ YBP: CNEX CYNPR NFFVFGRQ YVIVAT PZG1: <<< FRAQ TYRAQNYR NAQ CNPBYRG BA NYY FGEHPGHER
 TYSQ - PS/13440 GLC: SVER NYNEZ(ERFQRAGY) NQ: 200 WBUAFBA YNXR EQ YBP: ZHES/ERFQ/5831013 PZG1: <<< FRAQ TYRAQNYR NAQ CNPBYRG BA NYY FGEHPGHER SVERF &
+*******************************************************************************
+Syhinaan Pbhagl, IN (INSyhinaanPbhaglOCnefre)
+FPBGGFIVYY CEV: 1 SNS151119012305 GLC: ZIN GENHZN/FDHNQ NQ: OHPXVATUNZ 7 PGL: NP YBP: FBHGU PBAFGVGHVBA UJL PZG1: 2 ZVYRF F BS FPBGGFIVYYR, 2 IRUVPYR URNQ BA ZNL UNIR VAWHEL, HAXABJA RAGE PZG2: NCZRAG. GVZR: 13:38 NSRZCGL7 NSFG7
+FIEFCNTREF CEV: 1 SNS151119012305 GLC: ZIN GENHZN/FDHNQ NQ: OHPXVATUNZ 7 PGL: NP YBP: FBHGU PBAFGVGHVBA UJL PZG1: 2 ZVYRF F BS FPBGGFIVYYR, 2 IRUVPYR URNQ BA ZNL UNIR VAWHEL, HAXABJA RAGE PZG2: NCZRAG. GVZR: 13:38 NSRZCGL7 NSFG7
+FIEFCNTREF CEV: 1 SNS151119012305 GLC: ZIN GENHZN/FDHNQ NQ: OHPXVATUNZ 7 PGL: NP YBP: OHPXVATUNZ 7 PZG1: 2 ZVYRF F BS FPBGGFIVYYR, 2 IRUVPYR URNQ BA ZNL UNIR VAWHEL, HAXABJA RAGE PZG2: NCZRAG. GVZR: 13:38 NSFG7 NSEF07
 *******************************************************************************
 Pnyhzrg Pbhagl, JV (JVPnyhzrgPbhaglNCnefre)
 UNSE       CEV: 1 VAP: SUN110114000008 GLC: ERFPHR NQINAPRQ YVSR NQ: A8016 CVTRBA EQ PGL: PZFI PA: OEHFR PZG1: 11 ZBAGU BYQ VASNAG JVGU FBZRGUVAT FGHPX V
@@ -10588,26 +10593,6 @@ Fraqre: inypbheabgvsvpngvba@tznvy.pbz
 {Vasbezngvba sbe vapvqrag: 15FGBS000210} <c>\aFhowrpg: Vasbezngvba sbe vapvqrag: 15FGBS000210\a</c>\a<c>\aSbe Vapvqrag 15FGBS000210 [10/26/2015 19:46]<oe/><oe/>&aofc;&aofc;Nqqerff: 4000 Zbhagnva Eq, Fgbjr, IG, 05672<oe/>&aofc;&aofc;Vapvqrag Ahzore: 15FGBS000210<oe/>&aofc;&aofc;Pnyy Glcr: Sver Nynez<oe/>&aofc;&aofc;Aneengvirf: ------------- F459: Anenzber, Zryvffn - 10/26/15 19:50 -------------\asver nynez npgvingvba ng gbc abgpu, znva ohvyqvat\a<oe/><oe/>Havgf<oe/><oe/>&aofc;&aofc;Havg Vq 1: O16<oe/>&aofc;&aofc;Sver 1: gehr<oe/>&aofc;&aofc;Zrqvpny 1: snyfr<oe/>&aofc;&aofc;Qvfcngpurq 1: 10/26/2015 19:50<oe/>&aofc;&aofc;Raebhgr 1: 10/26/2015 19:56<oe/>&aofc;&aofc;Ba Fprar 1: 10/26/2015 20:04<oe/>&aofc;&aofc;Pyrnerq 1: 10/26/2015 20:15<oe/>\a</c>\a<c> Gunaxf </c>\a<c> Gur Inypbhe Abgvsvpngvba Freivpr </c>
 {Vasbezngvba sbe vapvqrag: 15FGBS000210} <c>\aFhowrpg: Vasbezngvba sbe vapvqrag: 15FGBS000210\a</c>\a<c>\aSbe Vapvqrag 15FGBS000210 [10/26/2015 19:46]<oe/><oe/>&aofc;&aofc;Nqqerff: 4000 Zbhagnva Eq, Fgbjr, IG, 05672<oe/>&aofc;&aofc;Vapvqrag Ahzore: 15FGBS000210<oe/>&aofc;&aofc;Pnyy Glcr: Sver Nynez<oe/><oe/>Havgf<oe/><oe/>\a</c>\a<c> Gunaxf </c>\a<c> Gur Inypbhe Abgvsvpngvba Freivpr </c>
 **********************************************************
-2015102710000714 (Wnpxfba)
-Lnincnv Pbhagl, NM (Q)
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Znlre SQ
-Ybpngvba: Znlre, NM, Havgrq Fgngrf
-Fraqre: <TyraPbzz@Ezrgeb.pbz>
-Fraqre: Vna Jbygre <Vna.Jbygre@ezrgeb.pbz>
-
-ZNLR22            15275836            18899 R Pbccre Fgne Eq                  QVFC:18:28       FPAR:18:34       PAPY:18:47       ERNFBA:Sver be Cbyvpr Qrcg Pnapry
-ZNLRE             15275836            18899 R Pbccre Fgne Eq                  QVFC:18:26       FPAR:            PAPY:18:28       ERNFBA:Aba Genafcbegvat Havg
-ZNLR22 Fanxr erzbiny                      18899 R Pbccre Fgne Eq        NCG#    PVGL:LNINCNV PBHAGLZNC:11A02R15NHGUBEVGL:911 Qverpg                  PEBFF:SEBAGNTR EQ/Qrnq Raq             EHA#:15275836
-ZNLRE  Fanxr erzbiny                      18899 R Pbccre Fgne Eq        NCG#    PVGL:LNINCNV PBHAGLZNC:11A02R15NHGUBEVGL:911 Qverpg                  PEBFF:SEBAGNTR EQ/Qrnq Raq             EHA#:15275836
-ZNLRE             15275797            17064 R Qhssref Qe                      QVFC:17:17       FPAR:            PAPY:18:13       ERNFBA:Aba Genafcbegvat Havg
-ZNLR22            15275797            17064 R Qhssref Qe                      QVFC:17:20       FPAR:17:24       PAPY:17:44       ERNFBA:Ratvar Erfc- Ghearq gb Nzob
-ZNLR22 Fvpx Crefba (Fcrp Qvnt)(P3)        17064 R Qhssref Qe            NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R09NHGUBEVGL:911 Qverpg                  PEBFF:F QHSSREF PVE/F FCEVAT YA        EHA#:15275797
-ZNLE21 Fvpx Crefba (Fcrp Qvnt)(P3)        17064 R Qhssref Qe            NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R09NHGUBEVGL:911 Qverpg                  PEBFF:F QHSSREF PVE/F FCEVAT YA        EHA#:15275797
-ZNLE21            15275742            111 F IREQR YA                          QVFC:17:19       FPAR:            PAPY:17:19       ERNFBA:Qvfcngpure Reebe
-ZNLE2           111 F IREQR YA                NCG#      PVGL:PNFN TENAQR   ZNC: 06F06R25       Oernguvat Ceboyrzf (P3)                 NHGUBEVGL: Pnfn Tenaqr CQ              PEBFF: R QRFREG JVAQ QE/R TBYQRA GEY    EHA#:15275742
-ZNLRE  Fvpx Crefba (Fcrp Qvnt)(P3)        17064 R Qhssref Qe            NCG#    PVGL:FCEVAT INYYRL ZNC:11A02R09NHGUBEVGL:911 Qverpg                  PEBFF:F QHSSREF PVE/F FCEVAT YA        EHA#:15275797
 **********************************************************
 **********************************************************
 **********************************************************

@@ -614,11 +614,45 @@ public class TXBellCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "BART", "BARTLETT",
-      "BELL", "",         // Bell County
-      "HLND", "HOLLAND",
+      "BELL", "BELL COUNTY",
+      "BLTN", "BELTON",
+      "BRGS", "BRIGGS",
+      "BRNT", "BURNET",
+      "BRTM", "BERTRAM",
+      "BUCK", "BUCKHOLTS",
+      "BVED", "BRUCEVILLE-EDDY",
+      "CMRN", "CAMERAON",
+      "COPP", "COPPERAS COVE",
+      "CRYL", "CORYELL COUNTY",
+      "FALL", "FALLS COUNTY",
+      "FRNC", "FLORENCE",
+      "FTHD", "FORT HOOD",
+      "GRGR", "GRANGER",
+      "GRGT", "GEORGETOWN",
       "HKRH", "HARKER HEIGHTS",
+      "HLND", "HOLLAND",
+      "JREL", "JARREL",
+      "KEMP", "KEMPNER",
+      "KILN", "KILLEEN",
+      "LBHL", "LIBERTY HILL",
+      "LMPS", "LAMPASAS COUNTY",
+      "LOTT", "LOTT",
+      "LRVR", "LITTLE RIVER",
+      "MCLN", "MCLENNAN COUNTY",
+      "MILM", "MILAM COUNTY",
+      "MPRC", "MORGANS POINT RESORT",
       "NOLN", "NOLANVILLE",
-      "TROY", "TROY"
+      "OGBY", "OBLESBY",
+      "ROGR", "ROGERS",
+      "RSBD", "ROSEBUD",
+      "SLDO", "SALADO",
+      "SWNR", "SCHWERTNER",
+      "TAYL", "TAYLOR",
+      "THRL", "THRALL",
+      "TMPL", "TEMPLE",
+      "TRDL", "THORNDALE",
+      "TROY", "TROY",
+      "WLMN", "WILLIAMSON COUNTY"
   });
   
 }

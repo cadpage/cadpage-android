@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11122015</string>
-  <string name="release_version">v1.8.75</string>
+  <string name="release_date">11202015</string>
+  <string name="release_version">v1.8.76</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.76\n
+Location Fixes:\n
+Gordon County, GA\n
+White County, GA\n
+Davies County, KY\n
+Leelaneau County, MI\n
+Clackamas County, OR\n
+Washington County, OR\n
+Erie County, NY\n
+Nassau County, NY\n
+McDowell County, NC\n
+Montgomery County, NC\n
+Clarion County, PA\n
+Bell County, TX\n
+Denton County, TX\n
+Fluvanna County, VA\n
+Morgan County, WV\n
+Raleigh County, WV\n
+Prince George, BC\n
+New Zealand\n
+\n
 v1.8.75\n
 New Locations:\n
 Orange County, FL\n
@@ -64,26 +85,7 @@ Location Fixes:\n
 Yuma County, AZ\n
 Benton County, OH\n
 Clallam County, WA\n
-New South Wales, AU\n
-\n
-v1.8.71\n
-Location Fixes:\n
-Yuma County, AZ\n
-WIndham County, CT\n
-Christian County, IL\n
-Henry County, IN\n
-White County, GA\n
-Powell County, KY\n
-Tangipahoa Parish, LA\n
-Audrain County, MO\n
-Chowan County, NC\n
-Havelock, NC\n
-Pasquotank County, NC\n
-New York City,  NY\n
-Mercer County, OH\n
-Lebanon County, PA\n
-Chittenden County, VT\n
-Mineral County, WV
+New South Wales, AU
   </string>
 </resources>
   

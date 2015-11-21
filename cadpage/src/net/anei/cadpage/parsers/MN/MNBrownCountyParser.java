@@ -5,7 +5,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 public class MNBrownCountyParser extends DispatchA27Parser {
   
   public MNBrownCountyParser() {
-    super("BROWN COUNTY", "MN", "\\d{8}");
+    super("BROWN COUNTY", "MN", "[A-Z]{3,4}");
   }
   
   @Override

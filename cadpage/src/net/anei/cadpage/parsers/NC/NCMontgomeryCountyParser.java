@@ -43,6 +43,14 @@ public class NCMontgomeryCountyParser extends DispatchSouthernParser {
         data.strName = "";
       }
     }
+    
+    if (data.strCity.equalsIgnoreCase("MONT CO")) {
+      data.strCity = "MONTGOMERY COUNTY";
+    } else if (data.strCity.endsWith(" CO")) {
+      data.strCity += "UNTY";
+    } else if (data.strCity.endsWith(" Co") || data.strCity.endsWith(" co")) {
+      data.strCity += "unty";
+    }
     return true;
   }
   
@@ -62,20 +70,28 @@ public class NCMontgomeryCountyParser extends DispatchSouthernParser {
 
 
   private static final String[] CITY_LIST = new String[] {
+    "MONT CO",
+    
     "BISCOE",
     "BLACK ANKLE",
     "CANDOR",
+    "CHEEK CREEK",
+    "ELDORADO",
     "ETHER",
     "JACKSON SPRINGS",
+    "LITTLE RIVER",
+    "MOUNT GILEAD",
     "MT GILEAD",
     "NEW LONDON",
     "OKEEWEMEE",
     "OPHIR",
     "PEE DEE",
+    "ROCKY SPRINGS",
     "SEAGROVE",
     "STAR",
     "STEEDS",
     "TROY",
+    "UWHARRIE",
     "WINDBLOW",
     
     // Davidson County
@@ -83,15 +99,21 @@ public class NCMontgomeryCountyParser extends DispatchSouthernParser {
     "DENTON",
     
     // Mecklenburg County
+    "MECKLENBURG CO",
     "DAVIDSON",
     
     // Randolph County
+    "RANDOLPH CO",
     "ASHEBORO",
     
     // Richmond County
+    "RICHMOND CO",
     "RICHMOND",
     
     // Stanly County
+    "STANLY CO",
     "NORWOOD"
+    
+    
   };
 }

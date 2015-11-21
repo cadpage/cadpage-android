@@ -105,6 +105,7 @@ public class DispatchPrintrakParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("PRI")) return new BasePriorityField();
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("APT")) return new BaseAptField();
     if (name.equals("PLACE")) return new BasePlaceField();
@@ -116,6 +117,24 @@ public class DispatchPrintrakParser extends FieldProgramParser {
     if (name.equals("UNIT")) return new BaseUnitField();
     if (name.equals("X")) return new BaseCrossField();
     return super.getField(name);
+  }
+  
+  private static final Pattern PRI_ID_PTN = Pattern.compile("(\\S*)\\s+([A-Z]{3}\\d{12})");
+  private class BasePriorityField extends PriorityField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = PRI_ID_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1);
+        data.strCallId = match.group(2);
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PRI ID";
+    }
   }
   
   private static final Pattern APT_PTN = Pattern.compile("\\b(?:APT|RM|UNIT) +([-A-Z0-9]+)$", Pattern.CASE_INSENSITIVE);

@@ -9,6 +9,7 @@ public class MIAlconaCountyParser extends DispatchB2Parser {
   public MIAlconaCountyParser() {
     super(CITY_LIST,"ALCONA COUNTY", "MI");
     setupCallList(CALL_LIST);
+    setupMultiWordStreets(MWORD_STREET_LIST);
   }
 
   @Override
@@ -26,6 +27,20 @@ public class MIAlconaCountyParser extends DispatchB2Parser {
   protected boolean isPageMsg(String body) {
     return body.contains(" Cad:");
   }
+  
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "FIRE ANY",
+      "MEDICAL",
+      "MISC",
+      "PERSONAL INJURY ACCIDENT",
+      "POWER LINES",
+      "SUICIDE"
+  );
+  
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "CEDAR LAKE",
+    "POOR FARM"
+  };
   
   static final String[] CITY_LIST = new String[]{
 
@@ -56,24 +71,30 @@ public class MIAlconaCountyParser extends DispatchB2Parser {
       //TOWNSHIPS
       
       "ALCONA TOWNSHIP",
+      "ALCONA TWP",
       "CALEDONIA TOWNSHIP",
+      "CALEDONIA TWP",
       "CURTIS TOWNSHIP",
+      "CURTIS TWP",
       "GREENBUSH TOWNSHIP",
+      "GREENBUSH TWP",
       "GUSTIN TOWNSHIP",
+      "GUSTIN TWP",
       "HARRISVILLE TOWNSHIP",
+      "HARRISVILLE TWP",
       "HAWES TOWNSHIP",
+      "HAWES TWP",
       "HAYNES TOWNSHIP",
+      "HAYNES TWP",
       "MIKADO TOWNSHIP",
+      "MIKADO TWP",
       "MILLEN TOWNSHIP",
+      "MILLEN TWP",
       "MITCHELL TOWNSHIP",
+      "MITCHELL TWP",
       
       // Iosco County
       "OSCODA"
       
   };
-  
-  private static final CodeSet CALL_LIST = new CodeSet(
-      "FIRE ANY",
-      "MEDICAL"
-  );
 }
