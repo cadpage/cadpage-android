@@ -342,39 +342,49 @@ public abstract class MsgParser {
    * @return true if this message contain the text phrases that indicate it is 
    * a valid page message
    */
-  public synchronized boolean isPageMsg(Message msg, int parseFlags) {
+  public boolean isPageMsg(Message msg, int parseFlags) {
     
     // Has to be synchronized because this is called from the MMS service thread
     // And we only have one global copy of parsing flags for each parser
-    // Save parse flags for future reference
-    this.parseFlags = parseFlags;
     
-    // If we have been called before and returned a parsed result
-    // we do not have to do all of that work again.
-    MsgInfo info = msg.getInfo();
-    if (info == null) {
+    // And has to be synchronized at the class level because GroupBestParser may 
+    // invoke parsing of several different sub-parsers after synchronizing on
+    // it's own parsing object.  Unbelievably, this odd problem resulted in
+    // two user reported crashes in the space of as many weeks.  And yes, it
+    // toook a while to track down :(
+    
+    synchronized (MsgParser.class) {
       
-      // See what the parseMsg method thinks of this
-      // If it does not like the results, return failure
-      Data data = parseMsg(msg, parseFlags);
-      if (data == null) return false;
+      // Save parse flags for future reference
+      this.parseFlags = parseFlags;
       
-      // The people running the show at Prince William County in VA are absolutely
-      // totally adamant that unstructured information never ever ever be visible
-      // to the end users.  To the point where they will refuse to send dispatch
-      // information to services who will not guarantee this.  So we will do
-      // our part to go with the flow....
-      if (msg.getFromAddress().contains("pwcgov.org")) {
-        data.strSupp = "";
-        if (data.strCall.equals("GENERAL ALERT") || data.strCall.equals("RUN REPORT")) {
-          data.strPlace = "";
+      // If we have been called before and returned a parsed result
+      // we do not have to do all of that work again.
+      MsgInfo info = msg.getInfo();
+      if (info == null) {
+        
+        // See what the parseMsg method thinks of this
+        // If it does not like the results, return failure
+        Data data = parseMsg(msg, parseFlags);
+        if (data == null) return false;
+        
+        // The people running the show at Prince William County in VA are absolutely
+        // totally adamant that unstructured information never ever ever be visible
+        // to the end users.  To the point where they will refuse to send dispatch
+        // information to services who will not guarantee this.  So we will do
+        // our part to go with the flow....
+        if (msg.getFromAddress().contains("pwcgov.org")) {
+          data.strSupp = "";
+          if (data.strCall.equals("GENERAL ALERT") || data.strCall.equals("RUN REPORT")) {
+            data.strPlace = "";
+          }
         }
+        
+        // Save parser code and information object in message so we won't have to
+        // go through all of this again
+        info = new MsgInfo(data);
+        msg.setInfo(info);
       }
-      
-      // Save parser code and information object in message so we won't have to
-      // go through all of this again
-      info = new MsgInfo(data);
-      msg.setInfo(info);
     }
     
     // Life is good!!
