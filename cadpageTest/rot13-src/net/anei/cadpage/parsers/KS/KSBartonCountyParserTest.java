@@ -95,6 +95,10 @@ Fraqre: opfb@ehenygry.arg
 */
 
 choyvp pynff XFOnegbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+  
+  choyvp XFOnegbaPbhaglCnefreGrfg() {
+    frgCnefre(arj XFOnegbaPbhaglCnefre(), "ONEGBA PBHAGL", "XF");
+  }
 
   @Grfg
   choyvp ibvq grfgOnegbaPbhaglPbzzhavpngvbaf911() {
@@ -1360,10 +1364,6 @@ choyvp pynff XFOnegbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CUBAR:620-282-0263",
         "VASB:PURFG CNVA YRSG FVQR 77 L/B ZNYR");
 
-  }
-  
-  choyvp XFOnegbaPbhaglCnefreGrfg() {
-    frgCnefre(arj XFOnegbaPbhaglCnefre(), "ONEGBA PBHAGL", "XF");
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
