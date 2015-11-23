@@ -19,10 +19,10 @@ public class PASchuylkillCountyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "llewellynscanner@hotmail.com,schuylkill.paging@gmail.com,good_intent@comcast.net,citizens65fc@gmail.com,pocsagpaging@comcast.net,Engine369@ptd.net,smf@schmobile.com,webfiredispatch@gmail.com,tslane@ptd.net,lt532@comcast.net,daveyp@comcast.net,webfiredispatch@goodintentfire.com,wpfc37.relay@gmail.com";
+    return "llewellynscanner@hotmail.com,schuylkill.paging@gmail.com,good_intent@comcast.net,citizens65fc@gmail.com,pocsagpaging@comcast.net,Engine369@ptd.net,smf@schmobile.com,webfiredispatch@gmail.com,tslane@ptd.net,lt532@comcast.nets,daveyp@comcast.net,webfiredispatch@goodintentfire.com,wpfc37.relay@gmail.com,mcadoo.ems.alert@gmail.com,stclairems911@comcast.net";
   }
 
-  private static final Pattern PREFIX_PTN = Pattern.compile("(\\d\\d:\\d\\d:\\d\\d) \\d\\d-\\d\\d-\\d\\d (?: ([A-Z]+)  )? *");
+  private static final Pattern PREFIX_PTN = Pattern.compile("(\\d\\d:\\d\\d:\\d\\d) (?:\\d\\d-\\d\\d-\\d\\d )?(?: ([A-Z]+)  )? *");
   private static final Pattern SRC_PTN = Pattern.compile("(.*) - ([A-Z]*[a-z][A-Za-z ]*\\d*|[A-Z][A-Z ]+(?:FIRE|FC|EMS))", Pattern.DOTALL);
   private static final Pattern MISSING_BREAK_PTN = Pattern.compile(" (?=FOR A:|TRUCKS:|TIME:)");
   
@@ -69,6 +69,7 @@ public class PASchuylkillCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  private static final Pattern ADDR_TWSP_PTN = Pattern.compile("\\bTWSP\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern ADDR_INTERSECT_PTN = Pattern.compile("(.*?)-(\\d\\d)/(.*)");
   private class MyAddressCityField extends AddressCityField {
     @Override
@@ -77,6 +78,7 @@ public class PASchuylkillCountyParser extends FieldProgramParser {
         data.strAddress = field;
         return;
       }
+      field = ADDR_TWSP_PTN.matcher(field).replaceAll("TWP");
       Matcher match = ADDR_INTERSECT_PTN.matcher(field); 
       if (match.matches()) {
         parseAddress(match.group(1).trim() + " & " + match.group(3).trim(), data);
@@ -93,7 +95,7 @@ public class PASchuylkillCountyParser extends FieldProgramParser {
             data.strApt = city.trim();
           } else {
             String saveCity = data.strCity;
-            parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, field.substring(pt+1).trim(), data);
+            parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, city, data);
             if (data.strCity.length() == 0) abort();
             data.strApt = getLeft();
             if (saveCity.length() > 0) data.strCity = saveCity;
@@ -154,6 +156,7 @@ public class PASchuylkillCountyParser extends FieldProgramParser {
     "GORDON",
     "LANDINGVILLE",
     "MAHANOY CITY",
+    "MC ADOO",
     "MCADOO",
     "MECHANICSVILLE",
     "MIDDLEPORT",
@@ -283,11 +286,15 @@ public class PASchuylkillCountyParser extends FieldProgramParser {
     "UPPER TOPAHOCHEN TWP",
     
     // Carbon County
+    "BANKS TWP",
     "LEHIGH TWP",
     
     // Dauphin County
     "DAUPHIN COUNTY",
     "GRATZ",
+    
+    // Luzerne County
+    "HAZLE TWP",
     
     // Northumberland County
     "MT CARMEL",
@@ -297,6 +304,7 @@ public class PASchuylkillCountyParser extends FieldProgramParser {
   private static final Properties CITY_ABBRV = buildCodeTable(new String[]{
       "BERKS",        "BERKS COUNTY",
       "SCH MALL",     "SCHUYLKILL MALL",
+      "MC ADOO",      "MCADOO",
       "UPPER MAH",    "UPPER MAHANTONGO TWP"
   });
   
