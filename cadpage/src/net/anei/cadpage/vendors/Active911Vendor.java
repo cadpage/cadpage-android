@@ -225,7 +225,7 @@ class Active911Vendor extends Vendor {
       "US/CA/CityofVacaville",            "CASolanoCountyB",
       "US/CA/CityofVerdugo",              "CALosAngelesCountyA",
       "US/CA/ContraCostaCounty",          "CAContraCostaCounty",
-      "US/CA/CSB",                        "CASanBernardinoCountyD",
+      "US/CA/CSB",                        "CASanBernardinoCountyB",
       "US/CA/ElDoradoCounty",             "CAElDoradoCounty",
       "US/CA/FresnoCounty",               "CAFresnoCounty",
       "US/CA/GBPD",                       "CAGroverBeach",
