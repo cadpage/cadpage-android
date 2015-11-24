@@ -20,7 +20,7 @@ public class NYFranklinCountyParser extends FieldProgramParser {
   }
   
   private static final Pattern MARKER = Pattern.compile("FRACO911:? +");
-  private static final Pattern DELIM = Pattern.compile(" {2,}|\u0002s");
+  private static final Pattern DELIM = Pattern.compile(" {2,}");
 
   @Override
   protected boolean parseMsg(String body, Data data) {

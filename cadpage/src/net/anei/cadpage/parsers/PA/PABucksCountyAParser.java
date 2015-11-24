@@ -24,7 +24,7 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
   
   @Override
   public String getFilter() {
-    return "8276,@bnn.us,iamresponding.com,Bucks RSAN,@alert.bucksema.org,1210,@co.bucks.pa.us,@buckscounty.org,@everbridge.net";
+    return "8276,@bnn.us,iamresponding.com,Bucks RSAN,@alert.bucksema.org,1210,@co.bucks.pa.us,@buckscounty.org,@everbridge.net,@buckscounty.gov";
   }
 
   @Override
