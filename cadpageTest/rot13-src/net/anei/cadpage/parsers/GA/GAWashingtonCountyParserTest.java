@@ -1,0 +1,93 @@
+cnpxntr arg.narv.pnqcntr.cnefref.TN;
+
+vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
+
+vzcbeg bet.whavg.Grfg;
+
+/*
+Jnfuvatgba Pbhagl, TN
+
+Pbagnpg: gbqqrinaf12 <gbqqrinaf12@ngg.arg>
+Fraqre: JNFUVATGBAPB911@911.pbz
+JNFUVATGBAPB911:RZFBGU RZF BGURE 383 JNYXRE QNVEL EQ 4782473720 JNEGURA YA
+JNFUVATGBAPB911:RZFBGU RZF BGURE 405 JUVGR YVAR FG 4785525888 TVYJBBQ FG
+JNFUVATGBAPB911:RZFFVP FVPX CREFBA 525 JVTTVAF FG 4783574248 PNEIRE FG
+JNFUVATGBAPB911:RZFFVP FVPX CREFBA 145 OEVYRL EQ 4785521540 F OEBJA FG
+JNFUVATGBAPB911:RZFSNY SNYY 647 SREAPERFG QE 4783571858 Ncg: 9O Oyqt FCNEGN EQ
+JNFUVATGBAPB911:RZFFVP FVPX CREFBA 441 PNEIRE FG 4782323597 YBIRGG FG
+JNFUVATGBAPB911:RZFFVP FVPX CREFBA 313 R RYQRE FG 4782326975 J SYBLQ FG
+
+*/
+
+choyvp pynff TNJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+  
+  choyvp TNJnfuvatgbaPbhaglCnefreGrfg() {
+    frgCnefre(arj TNJnfuvatgbaPbhaglCnefre(), "JNFUVATGBA PBHAGL", "TN");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgGbqqRinaf() {
+
+    qbGrfg("G1",
+        "JNFUVATGBAPB911:RZFBGU RZF BGURE 383 JNYXRE QNVEL EQ 4782473720 JNEGURA YA",
+        "PBQR:RZFBGU",
+        "PNYY:RZF BGURE",
+        "NQQE:383 JNYXRE QNVEL EQ",
+        "CUBAR:4782473720",
+        "K:JNEGURA YA");
+
+    qbGrfg("G2",
+        "JNFUVATGBAPB911:RZFBGU RZF BGURE 405 JUVGR YVAR FG 4785525888 TVYJBBQ FG",
+        "PBQR:RZFBGU",
+        "PNYY:RZF BGURE",
+        "NQQE:405 JUVGR YVAR FG",
+        "CUBAR:4785525888",
+        "K:TVYJBBQ FG");
+
+    qbGrfg("G3",
+        "JNFUVATGBAPB911:RZFFVP FVPX CREFBA 525 JVTTVAF FG 4783574248 PNEIRE FG",
+        "PBQR:RZFFVP",
+        "PNYY:FVPX CREFBA",
+        "NQQE:525 JVTTVAF FG",
+        "CUBAR:4783574248",
+        "K:PNEIRE FG");
+
+    qbGrfg("G4",
+        "JNFUVATGBAPB911:RZFFVP FVPX CREFBA 145 OEVYRL EQ 4785521540 F OEBJA FG",
+        "PBQR:RZFFVP",
+        "PNYY:FVPX CREFBA",
+        "NQQE:145 OEVYRL EQ",
+        "CUBAR:4785521540",
+        "K:F OEBJA FG");
+
+    qbGrfg("G5",
+        "JNFUVATGBAPB911:RZFSNY SNYY 647 SREAPERFG QE 4783571858 Ncg: 9O Oyqt FCNEGN EQ",
+        "PBQR:RZFSNY",
+        "PNYY:SNYY",
+        "NQQE:647 SREAPERFG QE",
+        "CUBAR:4783571858",
+        "NCG:9O",
+        "K:FCNEGN EQ");
+
+    qbGrfg("G6",
+        "JNFUVATGBAPB911:RZFFVP FVPX CREFBA 441 PNEIRE FG 4782323597 YBIRGG FG",
+        "PBQR:RZFFVP",
+        "PNYY:FVPX CREFBA",
+        "NQQE:441 PNEIRE FG",
+        "CUBAR:4782323597",
+        "K:YBIRGG FG");
+
+    qbGrfg("G7",
+        "JNFUVATGBAPB911:RZFFVP FVPX CREFBA 313 R RYQRE FG 4782326975 J SYBLQ FG",
+        "PBQR:RZFFVP",
+        "PNYY:FVPX CREFBA",
+        "NQQE:313 R RYQRE FG",
+        "CUBAR:4782326975",
+        "K:J SYBLQ FG");
+    
+  }
+
+  choyvp fgngvp ibvq znva(Fgevat[] netf) {
+    arj TNJnfuvatgbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
+  }
+}

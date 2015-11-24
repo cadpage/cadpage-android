@@ -932,6 +932,11 @@ Ngpuvfba Pbhagl, XF (XFNgpuvfbaPbhaglCnefre)
 (ARJBPP #13-1608  ZRQ - Zrqvpny Rzretrapl) ARJBPP #13-1608  ZRQ - Zrqvpny Rzretrapl\aNqqerff: 1419 A 6GU FG (Fgr 113), NGPUVFBA\aErcbegvat Crefba: Pbaavr Fpuvaqre, Cubar: 913-367-1905\aQrgnvy: Yrsg uvc senpgher 88 srznyr
 (ARJBPP #13-1607  ZRQ - Zrqvpny Rzretrapl) ARJBPP #13-1607  ZRQ - Zrqvpny Rzretrapl\aNqqerff: 16450 262AQ EQ, NGPUVFBA PBHAGL\aErcbegvat Crefba: Enaql Xrnearl, Cubar: 913-426-1426\aQrgnvy: 78 lbz qvfbevragrq Wnpx Xrnearl
 (ARJBPP #13-1606  48 - Vawhel Nppvqrag) ARJBPP #13-1606  48 - Vawhel Nppvqrag\aNqqerff: PHzzvatf Ghea bss - NGPUVFBA PBHAGL\aErcbegvat Crefba: Wraal Ubcxvaf, Cubar: 913-370-2952\aQrgnvy: pne va qvgpu ng ghea bss  haxabj vs gurer vf nalbar va gur pne
+***************************************************************************
+Onegba Pbhagl, XF (XFOnegbaPbhaglCnefre) 
+{NYREG - S271 - FGEHPGHER SVERBPP #BHGF  S271 - FGEHPGHER SVER} NYREG - BPP #BHGF  S271 - FGEHPGHER SVER\aNqqerff: 8gu Fg naq Znva Fg - Terng Oraq\aErcbegvat Crefba: WHAR JUVGR Cubar: 620-617-6721\aQrgnvy: EC FRRF N YBG BS FZBXR\aHAX VS VG VF N FGEHPGHER BE ABG\aGUR SYNZRF NER PBZVAT SEBZ GUR NYYRL\aCBFFVOYL N FURQ
+{ARJBPP #BHGF  S271 - FGEHPGHER SVER} ARJBPP #BHGF  S271 - FGEHPGHER SVER\aNqqerff: 8gu Fg naq Znva Fg - Terng Oraq\aErcbegvat Crefba: , Cubar: \aQrgnvy: EC FRRF N YBG BS FZBXR\aHAX VS VG VF N FGEHPGHER BE ABG\aGUR SYNZRF NER PBZVAT SEBZ GUR NYYRL\aCBFFVOYL N FURQ
+{NYREG - S271 - FGEHPGHER SVERBPP #BHGF  S271 - FGEHPGHER SVER} NYREG - BPP #BHGF  S271 - FGEHPGHER SVER\aNqqerff: 8gu Fg naq Znva Fg - Terng Oraq\aErcbegvat Crefba:   Cubar: \aQrgnvy: EC FRRF N YBG BS FZBXR\aHAX VS VG VF N FGEHPGHER BE ABG\aGUR SYNZRF NER PBZVAT SEBZ GUR NYYRL\aCBFFVOYL N FURQ
 *******************************************************************************
 Oebja Pbhagl, XF (XFOebjaPbhaglCnefre)
 (ARJBPP #13-519  Z26 - Zrqvpny Rzretrapl) ARJBPP #13-519  Z26 - Zrqvpny Rzretrapl\aNqqerff: 303 A 5GU Fg, Uvnjngun\aErcbegvat Crefba: Inybevr Nezvgg, Cubar: 785-288-0317\aQrgnvy: Zna univat oernguvat ceboyrzf
@@ -5070,11 +5075,6 @@ Jbbqohel Pbhagl, VN (VNJbbqohelPbhaglCnefre)
 W:SVER NYNEZ/813 A QREOL YA ABEGU FVBHK CBEGVBANOYRF/ SERRQBZ QE & QRIVYFSBBQ QE/AFVBHK/ 72O1 72RZF9 72R4 72R5 72S7 72D6 72E8/ CBEGVBANOYRF.... JNGRE SYBJ NYNEZ
 W:SVER FZ IRUVPYR/110 FBQENP QE ABEGU FVBHK ERQ PNECRG VAA/ EVIRE QE &/AFVBHK/ 72O1 72RZF9 72R4 72R5 72S7 72D6 72E8/ GEHPX FZBXVAT YBBXF BA SVER- ABOBQL NEBHAQ -VA SEBAG BS VAA
 W:FGEBXR/300 PRAGRAAVNY QE ABEGU FVBHK NYBEVPN/ A ZREEVYY NIR & TNGRJNL QE/AFVBHK/ 72RZF9/ 49LB SRZNYR  - UNF UNQ BAR VA GUR CNFG - HFR ZVQQYR QBBEF
-***************************************************************************
-Onegba Pbhagl, XF (XFOnegbaPbhaglCnefre) 
-(911 ABGVSL) Pnyy Ahzore: 639473 Pnyy Erprvirq Gvzr: 7/2/2015 21:06:20 NAVZNY PBZCYNVAG  2117 8GU FG Qrfpevcgvba: FGENL PNG GRNEVAT FPERRA QBBE HC TERNG ORAQ
-(911 ABGVSL) Pnyy Ahzore: 639474 Pnyy Erprvirq Gvzr: 7/2/2015 21:11:13 9-1-1 UNATHC/BCRA YVAR  402 R 1FG FG Qrfpevcgvba: PBHYQ ABG ZNC PNYY\a RYYVAJBBQ
-(911 ABGVSL) Pnyy Ahzore: 639472 Pnyy Erprvirq Gvzr: 7/2/2015 20:57:33 SVER   (TENFF,GENFU,IRUVPYR,HGVYVGL) IRGRENAF CNEX/JRFG PBAPRFFVBA 4800 17GU FGE GREE Qrfpevcgvba: SVERJBEXF PBZCYNVAG\aNPEBFF JRFG BS GUR OEVQTR TERNG ORAQ
 ***************************************************************************
 Ohgyre Pbhagl, XF (XFOhgyrePbhaglCnefre)
 [Vapvqrag Abgvsvpngvba]  17Q SNYY (ZNC CNTR): 26R (NQQERFF): 1611 A SNVEJNL QE Nhthfgn (PEBFF FG): A PYHO UBHFR QE / R SNVEJNL PG (ANEE):  CebDN Zrqvpny Dhrfgvbaanv
