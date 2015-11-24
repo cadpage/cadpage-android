@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.KS;
 import net.anei.cadpage.parsers.dispatch.DispatchSPKParser;
 
 /**
- * Whitfield County, FL
+ * McPherson County, KS
  */
 
 public class KSMcPhersonCountyParser extends DispatchSPKParser {
