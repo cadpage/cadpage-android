@@ -14,6 +14,6 @@ public class ALWalkerCountyParser extends DispatchA49Parser {
   
   @Override
   public String getFilter() {
-    return "cadalert@walker911.org";
+    return "@walker911,walker911@";
   }
 }
