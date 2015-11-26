@@ -5,17 +5,21 @@ import java.util.Properties;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
-
-
 
 public class NCMcDowellCountyParser extends DispatchSouthernParser {
 
   public NCMcDowellCountyParser() {
-    super(CITY_LIST, "MCDOWELL COUNTY", "NC", DSFLAG_DISPATCH_ID |   DSFLAG_LEAD_PLACE | DSFLAG_ID_OPTIONAL | DSFLAG_FOLLOW_CROSS);
+    super(CITY_LIST, "MCDOWELL COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID |   DSFLAG_LEAD_PLACE | DSFLAG_ID_OPTIONAL | DSFLAG_FOLLOW_CROSS);
+  }
+  
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom();
   }
 
-  
   @Override
   public boolean parseMsg(String body, Data data) {
     if (! super.parseMsg(body, data)) return false;

@@ -26,7 +26,9 @@ public class PADelawareCountyBParser extends FieldProgramParser {
   
   @Override
   public SplitMsgOptions getActive911SplitMsgOptions() {
-    return new SplitMsgOptionsCustom(){};
+    return new SplitMsgOptionsCustom(){
+      @Override public boolean mixedMsgOrder() { return true; }
+    };
   }
 
   private static final Pattern PREFIX_PTN = Pattern.compile("^\\d{7} ");
@@ -121,7 +123,7 @@ public class PADelawareCountyBParser extends FieldProgramParser {
         if (!super.parseMsg(body, data)) return false;
         
         // If we did not retrieve a unit value, expect more to follow
-        if (data.strUnit.length() == 0) data.expectMore = true;
+        if (data.strUnit.length() == 0 || data.strUnit.equals("?")) data.expectMore = true;
         return true;
       }
       

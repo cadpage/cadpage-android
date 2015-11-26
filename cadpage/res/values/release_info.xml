@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11202015</string>
-  <string name="release_version">v1.8.76</string>
+  <string name="release_date">11242015</string>
+  <string name="release_version">v1.8.77</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.77\n
+New Location:\n
+Washington County, GA\n
+McPherson County, KS\n
+Sullivan County, MO\n
+Spottsylvania County, VA\n
+\n
+Location Fixes:\n
+San Bernardino County, CA\n
+Barton County, KS\n
+Franklin County, NY\n
+Bucks County, PA\n
+\n
+General Fixes:\n
+Occasional force close while simulatneously processing direct page and text page\n
+\n      
 v1.8.76\n
 Location Fixes:\n
 Gordon County, GA\n
@@ -73,19 +89,7 @@ Jefferson County, NY\n
 Wayne County, NY\n
 Erie County, PA\n
 Juniata County, PA\n
-Snohomish County, WA\n
-\n
-v1.8.72\n
-New Locations:\n
-Suisun City, CA (alt)\n
-Montgomery County, OH (alt)\n
-Snohomish County, WA (alt)\n
-\n
-Location Fixes:\n
-Yuma County, AZ\n
-Benton County, OH\n
-Clallam County, WA\n
-New South Wales, AU
+Snohomish County, WA
   </string>
 </resources>
   
