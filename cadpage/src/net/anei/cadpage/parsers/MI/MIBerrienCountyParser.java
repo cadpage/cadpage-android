@@ -38,6 +38,7 @@ public class MIBerrienCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("DISPATCHED")) return new SkipField("Dispatched|Enroute", true);
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CALL")) return new MyCallField();
     return super.getField(name);
   }
   
@@ -155,7 +156,7 @@ public class MIBerrienCountyParser extends FieldProgramParser {
             match = APT_PTN.matcher(data.strCross);
             if (match.matches()) {
               data.strApt = append(data.strApt, " ", match.group(1));
-              data.strCross = match.group(2);
+              data.strCross = getOptGroup(match.group(2));
             }
           }
         }
@@ -251,6 +252,19 @@ public class MIBerrienCountyParser extends FieldProgramParser {
     
     @Override public String getFieldNames() {
       return super.getFieldNames() + " X PLACE CITY ST GPS";
+    }
+  }
+  
+  private static final Pattern CALL_CROSS_PTN = Pattern.compile("(.*) X\\b *(.*)");
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = CALL_CROSS_PTN.matcher(field);
+      if (match.matches()) {
+        data.strAddress = append(data.strAddress, " ", data.strCross);
+        data.strCall = match.group(1).trim();
+        data.strCross = match.group(2);
+      }
     }
   }
   
