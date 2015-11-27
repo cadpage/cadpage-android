@@ -29,7 +29,7 @@ public class COWeldCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "wrc-hiplink@weldcorcc.com,3037046515@vzwpix.com,777,888,9300";
+    return "wrc-hiplink@weldcorcc.com,3037046515@vzwpix.com,777,888,9300,@co.weld.co.us";
   }
 
   @Override
