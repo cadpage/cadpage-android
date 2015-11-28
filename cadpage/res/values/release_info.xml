@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11242015</string>
-  <string name="release_version">v1.8.77</string>
+  <string name="release_date">11272015</string>
+  <string name="release_version">v1.8.78</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.78\n
+Location Fixes:\n
+Marion County, IN\n
+Sedgwick County, KS\n
+Berrien County, MI\n
+Crawford County, MO\n
+McDowell County, NC\n
+Muskogee County, OK\n
+Lancaster County, SC\n
+Suffolk, VA\n
+\n
 v1.8.77\n
 New Location:\n
 Washington County, GA\n
@@ -77,19 +88,7 @@ Gloucester County, NJ\n
 New York City, NY\n
 Ashtabula County, OH\n
 Caroline County, VA\n
-Snohomish Counth, WA\n
-\n
-v1.8.73\n
-Location Fixes:\n
-Yuma County, AZ\n
-Groton, CT\n
-Houson County, GA\n
-Warren County, NJ\n
-Jefferson County, NY\n
-Wayne County, NY\n
-Erie County, PA\n
-Juniata County, PA\n
-Snohomish County, WA
+Snohomish Counth, WA
   </string>
 </resources>
   

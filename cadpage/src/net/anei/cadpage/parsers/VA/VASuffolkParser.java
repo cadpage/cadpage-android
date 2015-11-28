@@ -11,7 +11,7 @@ public class VASuffolkParser extends DispatchOSSIParser {
   public VASuffolkParser() {
     super("SUFFOLK", "VA",
           "( CALL1! ADDR CITY1! " + 
-          "| CALL ADDR X/Z+? DATETIME ( ID! | PHONE ID! | NAME PHONE? ID! ) ) INFO/N+");
+          "| UNIT? CALL ADDR X/Z+? DATETIME ( ID! | PHONE ID! | NAME PHONE/Z ID! | NAME ID | ) ) INFO/N+");
   }
   
   @Override
@@ -22,9 +22,10 @@ public class VASuffolkParser extends DispatchOSSIParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("UNIT")) return new UnitField("[^ ]*[,0-9][^ ]*", true);
     if (name.equals("CALL1")) return new CallField("\\{[A-Z0-9]+\\}.*", true);
     if (name.equals("CITY1")) return new MyCity1Field();
-    if (name.equals("DATETIME"))  return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("PHONE")) return new MyPhoneField();
     if (name.equals("ID")) return new MyIdField();
     return super.getField(name);

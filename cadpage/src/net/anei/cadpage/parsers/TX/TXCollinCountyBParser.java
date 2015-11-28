@@ -21,7 +21,7 @@ public class TXCollinCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "PSCx7900@plano.gov ";
+    return "PSCx7900@plano.gov";
   }
   
   @Override

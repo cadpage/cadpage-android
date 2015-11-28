@@ -14,7 +14,7 @@ public class PALycomingCountyParser extends FieldProgramParser {
   public PALycomingCountyParser() {
     super(CITY_CODES, "LYCOMING COUNTY", "PA", 
           "( DISPATCH_REPORT! Ver:SKIP! CFS_Number:ID! DATETIME1! RECOMMENDED! UNIT1/ZS+ Note:INFO/N+ CALL:CALL! INC_DESC:CALL_DESC! LOCATION:ADDRCITY! GPS! BUSINESS:PLACE! RECEIVED:SKIP! Cross_Streets:X? Boundaries:INFO/N+ " +
-          "| DATETIME_CODE! CALL! ADDR! CITY! Apt:APT! Cross_Streets:X! EMPTY? GOOGMAP_GPS! )");
+          "| DATETIME_CODE! CALL! ADDR! CITY! Apt:APT! Cross_Streets:X? EMPTY? GOOGMAP_GPS! )");
   }
   
   @Override
@@ -69,7 +69,7 @@ public class PALycomingCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     //both formats
-    if (name.equals("CALL")) return new CallField("\\s*|(?i)[A-Z](?: [A-Z /]+)?", true); //might be blank
+    if (name.equals("CALL")) return new CallField("\\s*|(?i)[A-Z](?: [A-Z0-9 /]+)?", true); //might be blank
     //format A
     if (name.equals("DISPATCH_REPORT")) return new SkipField("DISPATCH REPORT", true);
     if (name.equals("DATETIME1")) return new DateTimeField(DATE_FMT1);
@@ -135,19 +135,33 @@ public class PALycomingCountyParser extends FieldProgramParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ANT",        "ANTHONY",
       "BAS",        "BASTRESS",
+      "CHO",        "COGAN HOUSE",  //??
       "CRA",        "CRAWFORD",
       "CUM",        "CUMMINGS",
+      "DUB",        "DUBOISTOWN",
+      "ELD",        "ELDRED",
+      "FAI",        "FAIRFIELD",
+      "GAM",        "GAMBLE",
       "HEP",        "HEPBURN",
       "JSH",        "JERSEY SHORE",
       "LEW",        "LEWIS",
       "LIM",        "LIMESTONE",
       "LOY",        "LOYALSOCK",
       "LYC",        "LYCOMING",
+      "MCH",        "MCHENRY",
       "MCI",        "MCINTYRE",
+      "MTV",        "MONTOURSVILLE",
+      "MUT",        "MUNCY",
+      "NIP",        "NIPENOSE",
       "OLY",        "OLD LYCOMING",
       "PIA",        "PIATT",
       "SUS",        "SUSQUEHANNA",
+      "SWI",        "SOUTH WILLIAMSPORT",
+      "UFA",        "UPPER FAIRFIELD",
+      "WAS",        "WASHINGTON",
       "WAT",        "WATSON",
+      "WAY",        "WAYNE",
+      "WIL",        "WILLIAMSPORT"
   });
   
 }
