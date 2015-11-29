@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class OHLickingCountyParser extends SmartAddressParser {
   
-  private static final Pattern IAR_MASTER_PTN = Pattern.compile("([-/ A-Z]+)\n(.*)");
+  private static final Pattern IAR_MASTER_PTN = Pattern.compile("([-/ A-Z0-9]+)\n(.*)");
   private static final Pattern MASTER_PTN1 = Pattern.compile("([^,]*), ([ A-Za-z]+)(?:, \\d{5})?(?: #APT ([^ ]+))?(?: +\\((.*)\\)?)?");
   private static final Pattern MASTER_PTN2 = Pattern.compile("([^,]*?), ([^,/]+?)/([^,]+?), ([ A-Z]+)");
   private static final Pattern MASTER_PTN3 = Pattern.compile("[^,\\(\\)]+");
@@ -19,15 +19,63 @@ public class OHLickingCountyParser extends SmartAddressParser {
     setFieldList("CALL ADDR APT CITY X PLACE");
     setupCallList(CALL_LIST);
     setupMultiWordStreets(
-      "B CANAL",
       "BEAVER RUN",
-      "C CANAL",
+      "BENNINGTON CHAPEL",
+      "BLUE BONNET",
+      "BLUE JAY",
+      "BUENA VISTA",
+      "CAMBRIA MILL",
       "CANYON VILLA",
+      "CHERRY VALLEY",
+      "CHESTNUT HILLS",
       "CRISTLAND HILL",
+      "DERBY DOWNS",
+      "DOG HOLLOW",
+      "DON THORP",
+      "DORSEY MILL",
+      "DOUGLAS LANE",
+      "DRY CREEK",
+      "EDGEWATER BEACH",
+      "EL RANCHO",
+      "FOX CHASE",
+      "HIGH POINT",
+      "INDIAN MILL",
+      "IRVING WICK",
       "JEFFERSON RIDGE",
+      "LICKING SPRINGS",
+      "LICKING TRAIL",
+      "MCKINNEY CROSSING",
+      "MILL DAM",
+      "MORGAN CENTER",
+      "MT VERNON",
       "NORTH ST",
+      "NORTH VILLAGE",
+      "PHIL LINN",
+      "PINE BLUFF",
+      "PINEWOOD TRAIL",
+      "PLEASANT VIEW",
+      "QUAIL CREEK",
+      "RAIN ROCK",
+      "RAMP COLUMBUS",
+      "RED STONE",
+      "RIDGELY TRACT",
+      "ROCKY RIDGE",
+      "SHARON VALLEY",
+      "SHARON VIEW",
+      "SLEEPY HOLLOW",
       "SMITHS MILL", 
-      "UNION STATION"
+      "SOUTH BANK",
+      "SOUTH FORK",
+      "ST CLAIR",
+      "ST JOSEPH",
+      "STONE HOUSE",
+      "TERRY LINN",
+      "UNION STATION",
+      "VALLEY VIEW",
+      "WELSH HILLS",
+      "WESLEYAN CHURCH",
+      "WESTLEY CHAPEL",
+      "WHITE CHAPEL"
     );
   }
 
@@ -81,8 +129,7 @@ public class OHLickingCountyParser extends SmartAddressParser {
       String city1 = match.group(2).trim();
       addr2 = match.group(3).trim();
       String city2 = match.group(4).trim();
-      if (!city1.equals(city2)) return false;
-      data.strCity = city1;
+      if (city1.equals(city2)) data.strCity = city1;
     }
     
     else if (MASTER_PTN3.matcher(body).matches()){
@@ -118,30 +165,61 @@ public class OHLickingCountyParser extends SmartAddressParser {
   private static final CodeSet CALL_LIST = new CodeSet(
       "ABDOMINAL PAIN-EMS",
       "ALARM COMMERCIAL FIRE-FIRE",
+      "ALARM HIGH LIFE / VALUE-FIRE",
+      "ALARM MEDICAL-EMS",
+      "ALARM RESIDENTIAL FIRE-FIRE",
+      "ALARM WATERFLOW-FIRE",
+      "ALLERGIC REACTION-EMS",
+      "ASSAULT-EMS",
       "ATTEMPT SUICIDE-EMS",
+      "ATTEMPT THREAT-EMS",
+      "BEHAVIORAL EMERGENCY-EMS",
+      "BITE ANIMAL / HUMAN-EMS",
       "CHEST PAIN",
       "CHEST PAIN-EMS",
       "CHILDBIRTH / OB-EMS",
+      "CO ALARMS / CHECK-FIRE",
       "BREATHING PROBLEMS-EMS",
       "DIABETIC PROBLEMS-EMS",
       "FIRE BARN-FIRE",
+      "FIRE BRUSH-FIRE",
+      "FIRE CHIMNEY-FIRE",
+      "FIRE COMMERCIAL STRUCTURE-FIRE",
+      "FIRE HIGH LIFE / VALUE STRUCTURE-FIRE",
+      "FIRE OIL WELL-FIRE",
+      "FIRE OTHER / UNKNOWN-FIRE",
+      "FIRE OUT-FIRE",
       "FIRE RESIDENTIAL STRUCTURE-FIRE",
+      "FIRE UTILITIES-FIRE",
+      "FIRE SHED / OUT BUILDING-FIRE",
+      "FIRE TRASH-FIRE",
       "HEART PROBLEMS-EMS",
+      "HEMORRHAGE-EMS",
       "ILLNESS",
       "ILLNESS-EMS",
       "INJURY-EMS",
       "INVESTIGATION/SERVICE RUN-FIRE",
+      "LOCK OUT-FIRE",
       "NATURAL GAS LEAK",
       "NATURAL GAS LEAK-FIRE",
+      "NATURAL GAS ODOR OUTSIDE-FIRE",
       "NON BREATHER / ARREST-EMS",
       "OVERDOSE-EMS",
       "PERSONAL ASSIST-EMS",
       "SEIZURE-EMS",
       "SERVICE RUN",
+      "SHOOTING-EMS",
+      "STROKE / CVA-EMS",
       "TRAFFIC ACCIDENT",
       "TRAFFIC ACCIDENT-EMS",
       "TRAFFIC ACCIDENT HIGH SPEED / ENTRAPMENT-EMS",
+      "TRAFFIC/TRANSPORTATION ACCIDENT 131",
       "UNCONSCIOUS PERSON-EMS",
+      "UNKNOWN EMERGENCY-EMS",
+      "VEHICLE FIRE COMMERCIAL-FIRE",
+      "VEHICLE FIRE-FIRE",
+      "WIRES DOWN-FIRE",
+      "WORKING FIRE COMMERCIAL-FIRE",
       "WORKING FIRE RESIDENTIAL-FIRE"
   );
 
