@@ -45,8 +45,9 @@ public class MDCharlesCountyAParser extends FieldProgramParser {
       body = body.substring(pt+1).trim();
     }
     
-    // Kick out any wayward version B messages that wander this way
+    // Kick out any wayward version B or C messages that wander this way
     if (body.contains("\nmdft.us/")) return false;
+    if (body.contains("\nDISTRICT:")) return false;
     
     // See if this is the new dash delimited field format
     String[] flds = body.split(" - ");
