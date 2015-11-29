@@ -14,6 +14,7 @@ public class KSRileyCountyParser extends DispatchA19Parser {
   }
   
   private static final Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
-      "100 MANHATTAN TOWN CTR",    "39.178923, -96.558442"
+      "100 MANHATTAN TOWN CTR",    "39.178923, -96.558442",
+      "100 MANHATTAN TOWN CENTER", "39.178923, -96.558442"
   });
 }
