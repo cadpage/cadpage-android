@@ -117,7 +117,7 @@ public class VTLamoilleCountyParser extends FieldProgramParser {
           uName = getOptGroup(unitName.get(m.group(2)));
           if (uName.equals(""))
             uName = "Unit "+m.group(2);
-          field = uName+" "+entry+" "+timeString;
+          field = uName+" "+entry+" "+m.group(3)+" "+m.group(4);
           }
           else field = "";
         }
