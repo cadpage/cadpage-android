@@ -118,16 +118,6 @@ CEVBEVGL 1 HCTENQR NYF BA FPRAR\a\aCBFG BSSVPR EQ / UHAGVATGBA PVE ZQ 20695\a\aQ
 CBVFBAVAT OYF\a\a6705 PENVA UJL, QRYHKR VAA ZQ 20695\a\aQVFGEVPG: 1151\aGT: 17 Q5\a\a1506235\a03.31.15 19:29\a\aAbgrf:
 SNYY OYF\a\a4534P ERRIRF CY ZQ 20695\a\aQVFGEVPG: 1338\aGT: 10 T8\a\a1506220\a03.31.15 17:24\a\aAbgrf:
 
-Fcyvg ol "\a+"
-PNYY NQQE! QVFGEVPG:ZNC! GT:ZNC! VQ! QNGRGVZR! Abgrf:VASB/A+
-
-PNYY - Fcyvg cevbevgl vs cerfrag
-NQQE - Fcyvg bhg fgngr naq mvc pbqr.  Fnir mvc pbqr va PVGL
-       Nalguvat nsgre svefg pbzzn tbrf va CYNPR
-ZNC - Ercynpr oynax jvgu qnfu, nccraq jvgu qnfu.
-VQ - Inyvqngvba pbqr
-QNGRGVZR - inyvqngvba pbqr naq ercynpr crevbq jvgu fynfu
-
  */
 
 choyvp pynff ZQPuneyrfPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {

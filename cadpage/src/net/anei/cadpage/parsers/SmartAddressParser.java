@@ -628,6 +628,15 @@ public abstract class SmartAddressParser extends MsgParser {
     return result;
   }
   
+  protected static String[] getValues(Properties table) {
+    String[] result = new String[table.size()];
+    int ndx = 0;
+    for (Enumeration<?> e = table.propertyNames(); e.hasMoreElements(); ) {
+      result[ndx++] = table.getProperty((String)e.nextElement());
+    }
+    return result;
+  }
+  
   /**
    * Set up predefined city code tables or lists
    */
@@ -637,6 +646,10 @@ public abstract class SmartAddressParser extends MsgParser {
   
   protected void setupCities(Properties cityCodes) {
     setupCities(getKeywords(cityCodes));
+  }
+  
+  protected void setupCityValues(Properties cityCodes) {
+    setupCities(getValues(cityCodes));
   }
   
   protected void setupCities(Collection<String> cities) {

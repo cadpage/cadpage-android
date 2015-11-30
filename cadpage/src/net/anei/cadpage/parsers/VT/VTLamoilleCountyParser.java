@@ -45,31 +45,18 @@ public class VTLamoilleCountyParser extends FieldProgramParser {
   }
 
   private static final Pattern ADDRESS_CITY_PATTERN
-    = Pattern.compile("(.*?)(?:,(.*?))?(?:, *([A-Za-z]{2}))?(?:, *(\\d{5}))?");
+    = Pattern.compile("(.*?)(?:,([^,]*?))?(?:, *([A-Za-z]{2}))?(?:, *(\\d{5}))?");
   private class MyAddressCityField extends AddressCityField {
     @Override
     public void parse(String field, Data data) {
       Matcher m = ADDRESS_CITY_PATTERN.matcher(field);
-      if (m.matches()) {
-        String a = m.group(1),
-            c = getOptGroup(m.group(2));
-        if (c.contains(",") && !c.equals(",")) {
-          int ndx = c.indexOf(',');
-          if (ndx == c.length())
-            ndx--;
-          parseAddress(append(a, ",", c.substring(0, ndx+1)), data);
-            data.strCity = c.substring(ndx+1).trim();
-        }
-        else {
-          parseAddress(m.group(1).trim(), data);
-          data.strCity = getOptGroup(m.group(2)).trim();
-        }
-        if (data.strCity.equals(""))
-          data.strCity = getOptGroup(m.group(4));
-        data.strState = getOptGroup(m.group(3));
-      }
-      else
-        super.parse(field, data);
+      if (!m.matches()) abort();   // Can not happen!!
+      String addr = m.group(1);
+      addr = addr.replace(',', '&');
+      parseAddress(addr, data);
+      data.strCity = getOptGroup(m.group(2));
+      if (data.strCity.equals("")) data.strCity = getOptGroup(m.group(4));
+      data.strState = getOptGroup(m.group(3));
     }
     
     @Override
@@ -107,21 +94,19 @@ public class VTLamoilleCountyParser extends FieldProgramParser {
         m = UNIT_INFO_PATTERN_2.matcher(field);
         if (m.matches()) {
           String entry = m.group(1);
-          if (entry.equals("Dispatched")) {
+          if (data.strTime.length() == 0 && entry.equals("Dispatched")) {
             data.strDate = m.group(3);
             data.strTime = m.group(4);
-            timeString = append(data.strDate, " ", data.strTime);
           }
-          if (entry.equals("On Scene"))
-            data.msgType = MsgType.RUN_REPORT;
+          if (entry.equals("On Scene")) data.msgType = MsgType.RUN_REPORT;
           uName = getOptGroup(unitName.get(m.group(2)));
-          if (uName.equals(""))
-            uName = "Unit "+m.group(2);
-          field = uName+" "+entry+" "+timeString;
-          }
-          else field = "";
+          if (uName == null) uName = "Unit "+m.group(2);
+          field = uName+" "+entry+" "+m.group(3)+" "+m.group(4);
+          timeString = append(timeString, "\n", field);
         }
-        data.strSupp = append(data.strSupp, "\n", field);
+        return;
+      }
+      data.strSupp = append(data.strSupp, "\n", field);
     }
     
     @Override
