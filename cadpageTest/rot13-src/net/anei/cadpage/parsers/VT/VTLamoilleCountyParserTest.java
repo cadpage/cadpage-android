@@ -160,26 +160,6 @@ Fraqre: inypbheabgvsvpngvba@tznvy.pbz
 {Vasbezngvba sbe vapvqrag: 15OWRZ002763} <c>\aFhowrpg: Vasbezngvba sbe vapvqrag: 15OWRZ002763\a</c>\a<c>\aSbe Vapvqrag 15OWRZ002763 [10/10/2015 18:44]<oe/><oe/>&aofc;&aofc;Nqqerff: 5 R Onyfnz Qe, Oneer Gbja, IG, 05641<oe/>&aofc;&aofc;Vapvqrag Ahzore: 15OWRZ002763<oe/>&aofc;&aofc;Aneengvirf: ------------- F475: Fnjlre, Puryfvr - 10/10/15 18:46 -------------\a27 l/b s frvmva\a<oe/><oe/>Havgf<oe/><oe/>\a</c>\a<c> Gunaxf </c>\a<c> Gur Inypbhe Abgvsvpngvba Freivpr </c>
 {Vasbezngvba sbe vapvqrag: 15OWRZ002759} <c>\aFhowrpg: Vasbezngvba sbe vapvqrag: 15OWRZ002759\a</c>\a<c>\aSbe Vapvqrag 15OWRZ002759 [10/10/2015 14:34]<oe/><oe/>&aofc;&aofc;Nqqerff: 19 Yrpynve Ya, Benatr, IG, 05675<oe/>&aofc;&aofc;Vapvqrag Ahzore: 15OWRZ002759<oe/>&aofc;&aofc;Pnyy Glcr: Zrqvpny<oe/>&aofc;&aofc;Aneengvirf: ------------- F457: Nhqrg, Nqnz - 10/10/15 14:38 -------------\a70 lbz nffnhygrq unf n ynp haqre gur rlr \a<oe/><oe/>Havgf<oe/><oe/>&aofc;&aofc;Havg Vq 1: OGN3<oe/>&aofc;&aofc;Sver 1: snyfr<oe/>&aofc;&aofc;Zrqvpny 1: gehr<oe/>&aofc;&aofc;Qvfcngpurq 1: 10/10/2015 14:36<oe/>&aofc;&aofc;Raebhgr 1: 10/10/2015 14:36<oe/>\a</c>\a<c> Gunaxf </c>\a<c> Gur Inypbhe Abgvsvpngvba Freivpr </c>
 
-Gur onfvp cnefre jvyy fgevc bhg zbfg bs gur UGZY frdhraprf.  V qb abg guvax lbh arrq gb hfr 
-gur Ugzy cnefre sbe guvf.
-
-Pnyy VQ vf vapyhqrq guerr gvzrf.  Furrfu.
-
-Fgevc gur qnfu frdhraprf bhg bs gur pbzzrag frpgvbaf.  Bgurejvfr rirelgvat vf cerggl fvzcyr
-hagvy lbh trg gb gur havg gvzrf, juvpu ner tbvat gb arrq fbzr jbex.
-
-Qrpyner n "gvzr" fgevat pynff zrzore, frg vg gb rzcgl fgevat va gur cnefrZft() zrgubq.
-Gura pbafgehpg gur gvzrf fgevat sebz gur havg gvzr vasbezngvba.  Ersbezng rnpu yvar
-fb vg ernqf fbzrguvat yvxr
-<havg> <Qvfcngpurq/Raebhgr/Ba Fprar> <qngr> <gvzr>
-
-Juvyr lbh ner qbvat guvf, nccraq nal havgf sbhaq vagb gur HAVG svryq.
-Naq vs lbh svaq nal "Ba Fprar" fgnghf, frg gur eha glcr gb EHA_ERCBEG.
-
-Onpx va gur znva cnefrZft zrgubq.  Nsgre cnefrSvryqf ergheaf, purpx gur zftGlcr
-gb frr vs vg jnf frg gb EHA_ERCBEG.  Vs vg jbnf, cercraq gur gvzrf fgevat gb
-gur VASB svryq.  Vs abg, jr jvyy qvfpneq gur gvzrf vasbezngvba.
-
 */
 
 choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -208,7 +188,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FGBS000225",
         "PNYY:Sver Nynez",
-        "VASB:UZFP nqi bs sver nynez @ Qhaunz erf, onfrzrag gurezny\aO16 Qvfcngpurq 11/14/2015 07:32",
+        "VASB:UZFP nqi bs sver nynez @ Qhaunz erf, onfrzrag gurezny",
         "HAVG:O16",
         "QNGR:11/14/2015",
         "GVZR:07:32");
@@ -230,10 +210,10 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FEFD000557",
         "PNYY:Zrqvpny",
-        "VASB:Q203 - 29 lrne byq srznyr cbffvoyr BQ\aFEF Qvfcngpurq 11/13/2015 23:04\aFEF Raebhgr 11/13/2015 23:04\aFNYF Qvfcngpurq 11/13/2015 23:03\aFNYF Raebhgr 11/13/2015 23:03",
+        "VASB:Q203 - 29 lrne byq srznyr cbffvoyr BQ",
         "HAVG:FEF,FNYF",
         "QNGR:11/13/2015",
-        "GVZR:23:03");
+        "GVZR:23:04");
 
     qbGrfg("G3",
         "{Vasbezngvba sbe vapvqrag: 15FEFD000553} <c>\a" +
@@ -297,7 +277,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FEFD000548",
         "PNYY:Zhghny Nvq",
-        "VASB:11/05/2015 19:40\a80 l/b s qvmml, yvtug urnqrq, unf PUS, vf qvnorgvp, naq unf qvss oernguvat.\aFEF Qvfcngpurq 11/05/2015 19:40\aFEF Raebhgr 11/05/2015 19:40\aFEF Ba Fprar 11/05/2015 19:48\aFEF Pyrnerq 11/05/2015 20:28",
+        "VASB:FEF Qvfcngpurq 11/05/2015 19:40\aFEF Raebhgr 11/05/2015 19:40\aFEF Ba Fprar 11/05/2015 19:48\aFEF Pyrnerq 11/05/2015 20:28\a80 l/b s qvmml, yvtug urnqrq, unf PUS, vf qvnorgvp, naq unf qvss oernguvat.",
         "HAVG:FEF",
         "QNGR:11/05/2015",
         "GVZR:19:40");
@@ -320,7 +300,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:Ig",
         "VQ:15FEFD000542",
         "PNYY:Zrqvpny",
-        "VASB:11/04/2015 00:21\a81 lrne byq srznyr yvsg nffvfg\aFEF Qvfcngpurq 11/04/2015 00:21\aFEF Raebhgr 11/04/2015 00:21\aFEF Ba Fprar 11/04/2015 00:29\aFEF Pyrnerq 11/04/2015 00:51",
+        "VASB:FEF Qvfcngpurq 11/04/2015 00:21\aFEF Raebhgr 11/04/2015 00:21\aFEF Ba Fprar 11/04/2015 00:29\aFEF Pyrnerq 11/04/2015 00:51\a81 lrne byq srznyr yvsg nffvfg",
         "HAVG:FEF",
         "QNGR:11/04/2015",
         "GVZR:00:21");
@@ -343,7 +323,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FGBS000216",
         "PNYY:PB Nynez",
-        "VASB:11/03/2015 17:32\aPB nynez, ab vyy rssrpgf\aO16 Qvfcngpurq 11/03/2015 17:32\aO16 Raebhgr 11/03/2015 17:32\aO16 Ba Fprar 11/03/2015 17:39",
+        "VASB:O16 Qvfcngpurq 11/03/2015 17:32\aO16 Raebhgr 11/03/2015 17:32\aO16 Ba Fprar 11/03/2015 17:39\aPB nynez, ab vyy rssrpgf",
         "HAVG:O16",
         "QNGR:11/03/2015",
         "GVZR:17:32");
@@ -366,7 +346,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FEFD000541",
         "PNYY:PB Nynez",
-        "VASB:11/03/2015 17:33\aPB nynez, ab vyy rssrpgf\aFEF2 Qvfcngpurq 11/03/2015 17:33\aFEF2 Raebhgr 11/03/2015 17:33\aFEF2 Ba Fprar 11/03/2015 17:39",
+        "VASB:FEF2 Qvfcngpurq 11/03/2015 17:33\aFEF2 Raebhgr 11/03/2015 17:33\aFEF2 Ba Fprar 11/03/2015 17:39\aPB nynez, ab vyy rssrpgf",
         "HAVG:FEF2",
         "QNGR:11/03/2015",
         "GVZR:17:33");
@@ -408,7 +388,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FGBS000215",
         "PNYY:PB Nynez",
-        "VASB:11/03/2015 01:03\aPB nynez j/b nal rssrpgf\aO16 Qvfcngpurq 11/03/2015 01:03\aO16 Raebhgr 11/03/2015 01:03\aO16 Ba Fprar 11/03/2015 01:08",
+        "VASB:O16 Qvfcngpurq 11/03/2015 01:03\aO16 Raebhgr 11/03/2015 01:03\aO16 Ba Fprar 11/03/2015 01:08\aPB nynez j/b nal rssrpgf",
         "HAVG:O16",
         "QNGR:11/03/2015",
         "GVZR:01:03");
@@ -468,7 +448,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FGBS000211",
         "PNYY:Zhghny Nvq",
-        "VASB:ZN gb fgehpgher sver, Jvaqevqtr Ynar, ratvar,gnaxre & znacbjre\aO16 Qvfcngpurq 10/27/2015 10:46",
+        "VASB:ZN gb fgehpgher sver, Jvaqevqtr Ynar, ratvar,gnaxre & znacbjre",
         "HAVG:O16",
         "QNGR:10/27/2015",
         "GVZR:10:46");
@@ -491,7 +471,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FGBS000210",
         "PNYY:Sver Nynez",
-        "VASB:10/26/2015 19:50\asver nynez npgvingvba ng gbc abgpu, znva ohvyqvat\aO16 Qvfcngpurq 10/26/2015 19:50\aO16 Raebhgr 10/26/2015 19:56\aO16 Ba Fprar 10/26/2015 20:04\aO16 Pyrnerq 10/26/2015 20:15",
+        "VASB:O16 Qvfcngpurq 10/26/2015 19:50\aO16 Raebhgr 10/26/2015 19:56\aO16 Ba Fprar 10/26/2015 20:04\aO16 Pyrnerq 10/26/2015 20:15\asver nynez npgvingvba ng gbc abgpu, znva ohvyqvat",
         "HAVG:O16",
         "QNGR:10/26/2015",
         "GVZR:19:50");
@@ -542,7 +522,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FEFD000527",
         "PNYY:Zrqvpny",
-        "VASB:10/22/2015 07:59\aarrq nzo sbe 81 l/b sngure, unf carnhzbavn, abg erfcbaqvat jryy\aFEF Qvfcngpurq 10/22/2015 07:59\aFEF Raebhgr 10/22/2015 08:03\aFEF Ba Fprar 10/22/2015 08:06",
+        "VASB:FEF Qvfcngpurq 10/22/2015 07:59\aFEF Raebhgr 10/22/2015 08:03\aFEF Ba Fprar 10/22/2015 08:06\aarrq nzo sbe 81 l/b sngure, unf carnhzbavn, abg erfcbaqvat jryy",
         "HAVG:FEF",
         "QNGR:10/22/2015",
         "GVZR:07:59");
@@ -565,7 +545,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FEFD000526",
         "PNYY:Zrqvpny",
-        "VASB:10/21/2015 16:44\apj nqi bs cbff urneg nggnpx @ Rq Xvat erf, pj vf pnergnxre bs gur erf, & erp'q n pnyy\aFEF Qvfcngpurq 10/21/2015 16:44\aFEF Raebhgr 10/21/2015 16:44\aFEF Ba Fprar 10/21/2015 16:48",
+        "VASB:FEF Qvfcngpurq 10/21/2015 16:44\aFEF Raebhgr 10/21/2015 16:44\aFEF Ba Fprar 10/21/2015 16:48\apj nqi bs cbff urneg nggnpx @ Rq Xvat erf, pj vf pnergnxre bs gur erf, & erp'q n pnyy",
         "HAVG:FEF",
         "QNGR:10/21/2015",
         "GVZR:16:44");
@@ -590,7 +570,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FEFD000525",
         "PNYY:Zrqvpny",
-        "VASB:10/21/2015 11:43\apnyyrq sbe gvzrf\asrznyr va gur SQ cnexvat ybg jvgu cbffvoyr oebxra naxyr\aFEF Qvfcngpurq 10/21/2015 11:43\aFEF Raebhgr 10/21/2015 11:43\aFEF Ba Fprar 10/21/2015 11:52",
+        "VASB:FEF Qvfcngpurq 10/21/2015 11:43\aFEF Raebhgr 10/21/2015 11:43\aFEF Ba Fprar 10/21/2015 11:52\apnyyrq sbe gvzrf\asrznyr va gur SQ cnexvat ybg jvgu cbffvoyr oebxra naxyr",
         "HAVG:FEF",
         "QNGR:10/21/2015",
         "GVZR:11:43");
@@ -631,7 +611,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FEFD000521",
         "PNYY:Zrqvpny",
-        "VASB:80 l/b s; Qvss oernguvat naq abg srryvat jryy.\aFEF Qvfcngpurq 10/17/2015 17:48\aFEF Raebhgr 10/17/2015 17:48",
+        "VASB:80 l/b s; Qvss oernguvat naq abg srryvat jryy.",
         "HAVG:FEF",
         "QNGR:10/17/2015",
         "GVZR:17:48");
@@ -654,7 +634,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FGBS000199",
         "PNYY:Sver Nynez",
-        "VASB:10/17/2015 07:24\aUZFP nqi bs sver nynez @ Zg Ivyyntr Fpubby, Qnlpner\aO16 Qvfcngpurq 10/17/2015 07:24\aO16 Raebhgr 10/17/2015 07:24\aO16 Ba Fprar 10/17/2015 07:24",
+        "VASB:O16 Qvfcngpurq 10/17/2015 07:24\aO16 Raebhgr 10/17/2015 07:24\aO16 Ba Fprar 10/17/2015 07:24\aUZFP nqi bs sver nynez @ Zg Ivyyntr Fpubby, Qnlpner",
         "HAVG:O16",
         "QNGR:10/17/2015",
         "GVZR:07:24");
@@ -678,7 +658,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FGBS000198",
         "PNYY:Sver Nynez",
-        "VASB:Trareny Nynez\aTrareny nynez\aO16 Qvfcngpurq 10/15/2015 22:24\aO16 Raebhgr 10/15/2015 22:24",
+        "VASB:Trareny Nynez\aTrareny nynez",
         "HAVG:O16",
         "QNGR:10/15/2015",
         "GVZR:22:24");
@@ -700,7 +680,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FEFD000516",
         "PNYY:Zrqvpny",
-        "VASB:66 lbz vyy, punatr va zragny fgnghf\aFEF Qvfcngpurq 10/14/2015 09:57\aFEF Raebhgr 10/14/2015 09:57",
+        "VASB:66 lbz vyy, punatr va zragny fgnghf",
         "HAVG:FEF",
         "QNGR:10/14/2015",
         "GVZR:09:57");
@@ -802,13 +782,12 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<c> Gur Inypbhe Abgvsvpngvba Freivpr </c>",
 
         "GLCR:EHA_ERCBEG",
-        "NQQE:Oneebjf Eq,Yhpr Uvyy Eq,",
-        "ZNQQE:Oneebjf Eq,Yhpr Uvyy Eq",
+        "NQQE:Oneebjf Eq & Yhpr Uvyy Eq",
         "PVGL:Fgbjr",
         "FG:IG",
         "VQ:15FGBS000193",
         "PNYY:Nppvqrag - Cebcregl Qnzntr Bayl",
-        "VASB:10/07/2015 23:39\aCbyne Orne 76\aWbfrcu vf 95 sbe 10-55 onp bs .123\az331 vf fperravat\ax1 gb gur fgngvba\aPuevf Naqrefba vf gur pnyyre sebz 908-510-3947\aErcbegvat ur jnf vaibyirq va n 2 pne nppvqrag. Ab vawhel, gurer ner yrnxvat syhvqf.\aO16 Qvfcngpurq 10/07/2015 23:39\aO16 Raebhgr 10/07/2015 23:39\aO16 Ba Fprar 10/07/2015 23:47",
+        "VASB:O16 Qvfcngpurq 10/07/2015 23:39\aO16 Raebhgr 10/07/2015 23:39\aO16 Ba Fprar 10/07/2015 23:47\aCbyne Orne 76\aWbfrcu vf 95 sbe 10-55 onp bs .123\az331 vf fperravat\ax1 gb gur fgngvba\aPuevf Naqrefba vf gur pnyyre sebz 908-510-3947\aErcbegvat ur jnf vaibyirq va n 2 pne nppvqrag. Ab vawhel, gurer ner yrnxvat syhvqf.",
         "HAVG:O16",
         "QNGR:10/07/2015",
         "GVZR:23:39");
@@ -829,8 +808,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<c> Gunaxf </c>\a" +
         "<c> Gur Inypbhe Abgvsvpngvba Freivpr </c>",
 
-        "NQQE:Oneebjf Eq,Yhpr Uvyy Eq,",
-        "ZNQQE:Oneebjf Eq,Yhpr Uvyy Eq",
+        "NQQE:Oneebjf Eq & Yhpr Uvyy Eq",
         "PVGL:Fgbjr",
         "FG:IG",
         "VQ:15FGBS000193",
@@ -855,7 +833,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FEFD000504",
         "PNYY:Zrqvpny",
-        "VASB:10/03/2015 16:41\asrznyr va ure 60'f sryy bss ovplpyr, nccebk .4 zvyr sebz ivyyntr ba Erp Cngpu\aFNYF Qvfcngpurq 10/03/2015 16:41\aFNYF Raebhgr 10/03/2015 16:41\aFNYF Ba Fprar 10/03/2015 16:44\aFEF Qvfcngpurq 10/03/2015 16:41\aFEF Raebhgr 10/03/2015 16:41\aFEF Ba Fprar 10/03/2015 16:44",
+        "VASB:FNYF Qvfcngpurq 10/03/2015 16:41\aFNYF Raebhgr 10/03/2015 16:41\aFNYF Ba Fprar 10/03/2015 16:44\aFEF Qvfcngpurq 10/03/2015 16:41\aFEF Raebhgr 10/03/2015 16:41\aFEF Ba Fprar 10/03/2015 16:44\asrznyr va ure 60'f sryy bss ovplpyr, nccebk .4 zvyr sebz ivyyntr ba Erp Cngpu",
         "HAVG:FNYF,FEF",
         "QNGR:10/03/2015",
         "GVZR:16:41");
@@ -878,7 +856,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FGBS000187",
         "PNYY:Sver Nynez",
-        "VASB:10/03/2015 17:14\asver nynez 1866 ncg\aO16 Qvfcngpurq 10/03/2015 17:14\aO16 Raebhgr 10/03/2015 17:14\aO16 Ba Fprar 10/03/2015 17:17",
+        "VASB:O16 Qvfcngpurq 10/03/2015 17:14\aO16 Raebhgr 10/03/2015 17:14\aO16 Ba Fprar 10/03/2015 17:17\asver nynez 1866 ncg",
         "HAVG:O16",
         "QNGR:10/03/2015",
         "GVZR:17:14");
@@ -900,7 +878,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FGBS000187",
         "PNYY:Sver Nynez",
-        "VASB:sver nynez 1866 ncg\aO16 Qvfcngpurq 10/03/2015 17:14\aO16 Raebhgr 10/03/2015 17:14",
+        "VASB:sver nynez 1866 ncg",
         "HAVG:O16",
         "QNGR:10/03/2015",
         "GVZR:17:14");
@@ -923,7 +901,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FEFD000504",
         "PNYY:Zrqvpny",
-        "VASB:10/03/2015 16:41\asrznyr va ure 60'f sryy bss ovplpyr, nccebk .4 zvyr sebz ivyyntr ba Erp Cngpu\aFNYF Qvfcngpurq 10/03/2015 16:41\aFNYF Raebhgr 10/03/2015 16:41\aFNYF Ba Fprar 10/03/2015 16:44",
+        "VASB:FNYF Qvfcngpurq 10/03/2015 16:41\aFNYF Raebhgr 10/03/2015 16:41\aFNYF Ba Fprar 10/03/2015 16:44\asrznyr va ure 60'f sryy bss ovplpyr, nccebk .4 zvyr sebz ivyyntr ba Erp Cngpu",
         "HAVG:FNYF",
         "QNGR:10/03/2015",
         "GVZR:16:41");
@@ -945,7 +923,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FEFD000504",
         "PNYY:Zrqvpny",
-        "VASB:srznyr va ure 60'f sryy bss ovplpyr, nccebk .4 zvyr sebz ivyyntr ba Erp Cngpu\aFNYF Qvfcngpurq 10/03/2015 16:41\aFNYF Raebhgr 10/03/2015 16:41",
+        "VASB:srznyr va ure 60'f sryy bss ovplpyr, nccebk .4 zvyr sebz ivyyntr ba Erp Cngpu",
         "HAVG:FNYF",
         "QNGR:10/03/2015",
         "GVZR:16:41");
@@ -968,7 +946,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FGBS000186",
         "PNYY:Sver Nynez",
-        "VASB:10/03/2015 12:36\aUZFP nqi bs sver nynez @ Svgmtrenyq erf, trareny sver nynez\aO16 Qvfcngpurq 10/03/2015 12:36\aO16 Raebhgr 10/03/2015 12:36\aO16 Ba Fprar 10/03/2015 12:37\aO16 Pyrnerq 10/03/2015 12:41",
+        "VASB:O16 Qvfcngpurq 10/03/2015 12:36\aO16 Raebhgr 10/03/2015 12:36\aO16 Ba Fprar 10/03/2015 12:37\aO16 Pyrnerq 10/03/2015 12:41\aUZFP nqi bs sver nynez @ Svgmtrenyq erf, trareny sver nynez",
         "HAVG:O16",
         "QNGR:10/03/2015",
         "GVZR:12:36");
@@ -990,7 +968,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FGBS000186",
         "PNYY:Sver Nynez",
-        "VASB:UZFP nqi bs sver nynez @ Svgmtrenyq erf, trareny sver nynez\aO16 Qvfcngpurq 10/03/2015 12:36\aO16 Raebhgr 10/03/2015 12:36",
+        "VASB:UZFP nqi bs sver nynez @ Svgmtrenyq erf, trareny sver nynez",
         "HAVG:O16",
         "QNGR:10/03/2015",
         "GVZR:12:36");
@@ -1013,7 +991,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FGBS000184",
         "PNYY:Sver Nynez",
-        "VASB:10/02/2015 16:47\aSver nynez pnyyrq va ol Prageny Nynez, fubjvat 1fg sybbe, @ Rqfba Uvyy Znabe\aO16 Qvfcngpurq 10/02/2015 16:47\aO16 Raebhgr 10/02/2015 16:51\aO16 Ba Fprar 10/02/2015 17:02",
+        "VASB:O16 Qvfcngpurq 10/02/2015 16:47\aO16 Raebhgr 10/02/2015 16:51\aO16 Ba Fprar 10/02/2015 17:02\aSver nynez pnyyrq va ol Prageny Nynez, fubjvat 1fg sybbe, @ Rqfba Uvyy Znabe",
         "HAVG:O16",
         "QNGR:10/02/2015",
         "GVZR:16:47");
@@ -1092,10 +1070,10 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Fgbjr",
         "VQ:15FEFD000496",
         "PNYY:Zrqvpny",
-        "VASB:09/28/2015 18:07\aOvyyl Barvy ercbegf srznyr va ez 303, vf qvnorgvp, abg npgvat evtug\aFNYF Qvfcngpurq 09/28/2015 18:05\aFNYF Raebhgr 09/28/2015 18:05\aFNYF Ba Fprar 09/28/2015 18:14\aFNYF Pyrnerq 09/28/2015 19:49\aFEF2 Qvfcngpurq 09/28/2015 18:07\aFEF2 Raebhgr 09/28/2015 18:07\aFEF2 Ba Fprar 09/28/2015 18:16\aFEF2 Pyrnerq 09/28/2015 19:49",
+        "VASB:FNYF Qvfcngpurq 09/28/2015 18:05\aFNYF Raebhgr 09/28/2015 18:05\aFNYF Ba Fprar 09/28/2015 18:14\aFNYF Pyrnerq 09/28/2015 19:49\aFEF2 Qvfcngpurq 09/28/2015 18:07\aFEF2 Raebhgr 09/28/2015 18:07\aFEF2 Ba Fprar 09/28/2015 18:16\aFEF2 Pyrnerq 09/28/2015 19:49\aOvyyl Barvy ercbegf srznyr va ez 303, vf qvnorgvp, abg npgvat evtug",
         "HAVG:FNYF,FEF2",
         "QNGR:09/28/2015",
-        "GVZR:18:07");
+        "GVZR:18:05");
 
     qbGrfg("G43",
         "{Vasbezngvba sbe vapvqrag: 15FGBS000183} <c>\a" +
@@ -1121,7 +1099,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FGBS000183",
         "PNYY:Sver",
-        "VASB:09/27/2015 16:48\aX2 nqifvrq\apnyy pnzr sebz Qrna ng gur Gebhg Pyho\aX3,X4 urnqrq hc\auvxref ynfg avtug fgnegrq n pnzc sver ng Gnlybe ybqtr naq fbzr bgure uvxref pnzr npebff vg gbqnl naq vg jnf fgvyy fzbyqrevat pbapreaf vg zvtug fcernq\aO16 Qvfcngpurq 09/27/2015 16:48\aO16 Raebhgr 09/27/2015 16:48\aO16 Ba Fprar 09/27/2015 16:48\aO16 Pyrnerq 09/27/2015 19:13",
+        "VASB:O16 Qvfcngpurq 09/27/2015 16:48\aO16 Raebhgr 09/27/2015 16:48\aO16 Ba Fprar 09/27/2015 16:48\aO16 Pyrnerq 09/27/2015 19:13\aX2 nqifvrq\apnyy pnzr sebz Qrna ng gur Gebhg Pyho\aX3,X4 urnqrq hc\auvxref ynfg avtug fgnegrq n pnzc sver ng Gnlybe ybqtr naq fbzr bgure uvxref pnzr npebff vg gbqnl naq vg jnf fgvyy fzbyqrevat pbapreaf vg zvtug fcernq",
         "HAVG:O16",
         "QNGR:09/27/2015",
         "GVZR:16:48");
@@ -1149,7 +1127,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15FZE000025",
         "PNYY:Erfphr Pnyy",
-        "VASB:Tenunz gb gur Gbyy Eq\aNaqerj gb gur fgngvba\aQbht gb gur fgngvba\aFgbjr Zbhagnva Erfphr erfcbaq zhghny nvq gb Fhafrg Evqtr Genvy sbe n srznyr nccebkvzngryl 1 zvyr sebz gur fhzzvg cbffvoyl univat n fgebxr, cyrnfr pbagnpg fhcreivfbe Rffrk 8\aFZE Qvfcngpurq 09/27/2015 18:08\aFZE Raebhgr 09/27/2015 18:08\aFZE Pyrnerq 09/27/2015 20:24",
+        "VASB:Tenunz gb gur Gbyy Eq\aNaqerj gb gur fgngvba\aQbht gb gur fgngvba\aFgbjr Zbhagnva Erfphr erfcbaq zhghny nvq gb Fhafrg Evqtr Genvy sbe n srznyr nccebkvzngryl 1 zvyr sebz gur fhzzvg cbffvoyl univat n fgebxr, cyrnfr pbagnpg fhcreivfbe Rffrk 8",
         "HAVG:FZE",
         "QNGR:09/27/2015",
         "GVZR:18:08");
@@ -1177,7 +1155,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:Ig",
         "VQ:15OWRZ003041",
         "PNYY:Zrqvpny",
-        "VASB:11/13/2015 10:09\aEbpxvatunz ntrag 269, 41le srz fgnss zrzore va ahefrf bssvpr cbff fgebxr flzcg.\aOGN4 Qvfcngpurq 11/13/2015 10:09\aOGN4 Raebhgr 11/13/2015 10:09\aOGN4 Ba Fprar 11/13/2015 10:14",
+        "VASB:OGN4 Qvfcngpurq 11/13/2015 10:09\aOGN4 Raebhgr 11/13/2015 10:09\aOGN4 Ba Fprar 11/13/2015 10:14\aEbpxvatunz ntrag 269, 41le srz fgnss zrzore va ahefrf bssvpr cbff fgebxr flzcg.",
         "HAVG:OGN4",
         "QNGR:11/13/2015",
         "GVZR:10:09");
@@ -1199,7 +1177,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ003035",
         "PNYY:Genafsre",
-        "VASB:PIU gb HIZP\aOGN3 Qvfcngpurq 11/12/2015 17:00\aOGN3 Raebhgr 11/12/2015 17:00",
+        "VASB:PIU gb HIZP",
         "HAVG:OGN3",
         "QNGR:11/12/2015",
         "GVZR:17:00");
@@ -1241,7 +1219,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ003032",
         "PNYY:Zrqvpny",
-        "VASB:83 lbs purfg cnva naq fbo\aOGN5 Qvfcngpurq 11/12/2015 14:03\aOGN5 Raebhgr 11/12/2015 14:03",
+        "VASB:83 lbs purfg cnva naq fbo",
         "HAVG:OGN5",
         "QNGR:11/12/2015",
         "GVZR:14:03");
@@ -1263,7 +1241,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ003027",
         "PNYY:Genafsre",
-        "VASB:PIU gb Qhkohel\aOGN5 Qvfcngpurq 11/11/2015 16:28\aOGN5 Raebhgr 11/11/2015 16:28",
+        "VASB:PIU gb Qhkohel",
         "HAVG:OGN5",
         "QNGR:11/11/2015",
         "GVZR:16:28");
@@ -1285,7 +1263,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ003025",
         "PNYY:Zrqvpny",
-        "VASB:Qverpg pnyy gb OUEP.\aOGN5 Qvfcngpurq 11/11/2015 13:41\aOGN5 Raebhgr 11/11/2015 13:41",
+        "VASB:Qverpg pnyy gb OUEP.",
         "HAVG:OGN5",
         "QNGR:11/11/2015",
         "GVZR:13:41");
@@ -1306,7 +1284,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ003023",
         "PNYY:Genafsre",
-        "VASB:Tenavgrivyyr gb QUZP\aOGN4 Qvfcngpurq 11/11/2015 09:48\aOGN4 Raebhgr 11/11/2015 09:48",
+        "VASB:Tenavgrivyyr gb QUZP",
         "HAVG:OGN4",
         "QNGR:11/11/2015",
         "GVZR:09:48");
@@ -1328,7 +1306,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ003021",
         "PNYY:Zhghny Nvq",
-        "VASB:Zrqvp Vagreprcg sbe 53 lbs onpx cnva cbffvoyr xvqarl fgbarf\aOGN5 Qvfcngpurq 11/11/2015 07:23\aOGN5 Raebhgr 11/11/2015 07:23",
+        "VASB:Zrqvp Vagreprcg sbe 53 lbs onpx cnva cbffvoyr xvqarl fgbarf",
         "HAVG:OGN5",
         "QNGR:11/11/2015",
         "GVZR:07:23");
@@ -1353,7 +1331,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ003019",
         "PNYY:Sver",
-        "VASB:11/10/2015 19:23\abssvpre nqivfrq ur jvyy erfcbaq vs gurl arrq uvz, ohg ur vf gvrq hc ybbxvat sbe n iruvpyr.\aercbeg bs n sver va gur jbbqf. gur sver vf arne n fgehpgher naq nyfb fbzr cebcnar gnaxf.\aOGN3 Qvfcngpurq 11/10/2015 19:23\aOGN3 Raebhgr 11/10/2015 19:23\aOGN3 Ba Fprar 11/10/2015 19:28\aOGN3 Pyrnerq 11/10/2015 20:19",
+        "VASB:OGN3 Qvfcngpurq 11/10/2015 19:23\aOGN3 Raebhgr 11/10/2015 19:23\aOGN3 Ba Fprar 11/10/2015 19:28\aOGN3 Pyrnerq 11/10/2015 20:19\abssvpre nqivfrq ur jvyy erfcbaq vs gurl arrq uvz, ohg ur vf gvrq hc ybbxvat sbe n iruvpyr.\aercbeg bs n sver va gur jbbqf. gur sver vf arne n fgehpgher naq nyfb fbzr cebcnar gnaxf.",
         "HAVG:OGN3",
         "QNGR:11/10/2015",
         "GVZR:19:23");
@@ -1376,7 +1354,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ003015",
         "PNYY:Genafsre",
-        "VASB:11/10/2015 05:46\aPIZP gb HIZP\aOGN5 Qvfcngpurq 11/10/2015 05:46\aOGN5 Raebhgr 11/10/2015 05:46\aOGN5 Ba Fprar 11/10/2015 05:47",
+        "VASB:OGN5 Qvfcngpurq 11/10/2015 05:46\aOGN5 Raebhgr 11/10/2015 05:46\aOGN5 Ba Fprar 11/10/2015 05:47\aPIZP gb HIZP",
         "HAVG:OGN5",
         "QNGR:11/10/2015",
         "GVZR:05:46");
@@ -1399,7 +1377,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ003014",
         "PNYY:Zrqvpny",
-        "VASB:11/10/2015 02:24\a40 lrne byq znyr cbffvoyr fgebxr.\aOGN5 Qvfcngpurq 11/10/2015 02:24\aOGN5 Raebhgr 11/10/2015 02:24\aOGN5 Ba Fprar 11/10/2015 02:44",
+        "VASB:OGN5 Qvfcngpurq 11/10/2015 02:24\aOGN5 Raebhgr 11/10/2015 02:24\aOGN5 Ba Fprar 11/10/2015 02:44\a40 lrne byq znyr cbffvoyr fgebxr.",
         "HAVG:OGN5",
         "QNGR:11/10/2015",
         "GVZR:02:24");
@@ -1422,7 +1400,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ003011",
         "PNYY:Genafsre",
-        "VASB:11/09/2015 16:15\agb Jbbqevqtr\aOGN4 Qvfcngpurq 11/09/2015 16:15\aOGN4 Raebhgr 11/09/2015 16:15\aOGN4 Ba Fprar 11/09/2015 16:16",
+        "VASB:OGN4 Qvfcngpurq 11/09/2015 16:15\aOGN4 Raebhgr 11/09/2015 16:15\aOGN4 Ba Fprar 11/09/2015 16:16\agb Jbbqevqtr",
         "HAVG:OGN4",
         "QNGR:11/09/2015",
         "GVZR:16:15");
@@ -1444,7 +1422,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:Ig",
         "VQ:15OWRZ003007",
         "PNYY:Zrqvpny",
-        "VASB:71 l/b znyr abg oernguvat. VF n ubfcvpr cngvrag.\aOGN3 Qvfcngpurq 11/08/2015 23:28\aOGN3 Raebhgr 11/08/2015 23:28",
+        "VASB:71 l/b znyr abg oernguvat. VF n ubfcvpr cngvrag.",
         "HAVG:OGN3",
         "QNGR:11/08/2015",
         "GVZR:23:28");
@@ -1466,7 +1444,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ003004",
         "PNYY:Genafsre",
-        "VASB:PIU gb HIZP\aOGN1 Qvfcngpurq 11/08/2015 16:02\aOGN1 Raebhgr 11/08/2015 16:02",
+        "VASB:PIU gb HIZP",
         "HAVG:OGN1",
         "QNGR:11/08/2015",
         "GVZR:16:02");
@@ -1526,7 +1504,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ003001",
         "PNYY:Genafsre",
-        "VASB:PIU gb HIZP\aOGN3 Qvfcngpurq 11/08/2015 11:37\aOGN3 Raebhgr 11/08/2015 11:37",
+        "VASB:PIU gb HIZP",
         "HAVG:OGN3",
         "QNGR:11/08/2015",
         "GVZR:11:37");
@@ -1568,7 +1546,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002994",
         "PNYY:Genafsre",
-        "VASB:11/07/2015 16:39\aPIU gb OUEP\aOGN3 Qvfcngpurq 11/07/2015 16:39\aOGN3 Raebhgr 11/07/2015 16:39\aOGN3 Ba Fprar 11/07/2015 16:39",
+        "VASB:OGN3 Qvfcngpurq 11/07/2015 16:39\aOGN3 Raebhgr 11/07/2015 16:39\aOGN3 Ba Fprar 11/07/2015 16:39\aPIU gb OUEP",
         "HAVG:OGN3",
         "QNGR:11/07/2015",
         "GVZR:16:39");
@@ -1610,7 +1588,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002992",
         "PNYY:Genafsre",
-        "VASB:PIU gb HIZP\aOGN1 Qvfcngpurq 11/07/2015 15:40\aOGN1 Raebhgr 11/07/2015 15:40",
+        "VASB:PIU gb HIZP",
         "HAVG:OGN1",
         "QNGR:11/07/2015",
         "GVZR:15:40");
@@ -1672,7 +1650,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002985",
         "PNYY:Zrqvpny",
-        "VASB:Qverpg pnyy sbe fgebxr yvxr flzcgbzf @ OUEP.\aOGN5 Qvfcngpurq 11/07/2015 07:58\aOGN5 Raebhgr 11/07/2015 07:58",
+        "VASB:Qverpg pnyy sbe fgebxr yvxr flzcgbzf @ OUEP.",
         "HAVG:OGN5",
         "QNGR:11/07/2015",
         "GVZR:07:58");
@@ -1694,7 +1672,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002982",
         "PNYY:Zhghny Nvq",
-        "VASB:65 l/b z oryvrirf ur'f univat n fgebxr; Nzrevpna Syngoernq\aOGN5 Qvfcngpurq 11/06/2015 20:31\aOGN5 Raebhgr 11/06/2015 20:31",
+        "VASB:65 l/b z oryvrirf ur'f univat n fgebxr; Nzrevpna Syngoernq",
         "HAVG:OGN5",
         "QNGR:11/06/2015",
         "GVZR:20:31");
@@ -1717,7 +1695,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002980",
         "PNYY:Zhghny Nvq",
-        "VASB:11/06/2015 15:31\aZrqvp Vagreprcg - znyr fhowrpg jvgu xarr vawhel ybbxvat sbe cnva pbageby\aOGN5 Qvfcngpurq 11/06/2015 15:31\aOGN5 Raebhgr 11/06/2015 15:31\aOGN5 Ba Fprar 11/06/2015 15:41\aOGN5 Pyrnerq 11/06/2015 18:35",
+        "VASB:OGN5 Qvfcngpurq 11/06/2015 15:31\aOGN5 Raebhgr 11/06/2015 15:31\aOGN5 Ba Fprar 11/06/2015 15:41\aOGN5 Pyrnerq 11/06/2015 18:35\aZrqvp Vagreprcg - znyr fhowrpg jvgu xarr vawhel ybbxvat sbe cnva pbageby",
         "HAVG:OGN5",
         "QNGR:11/06/2015",
         "GVZR:15:31");
@@ -1741,7 +1719,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002981",
         "PNYY:Zrqvpny",
-        "VASB:11/06/2015 17:41\a73 lbs sryy naq uvg ure urnq\aOGN5 Qvfcngpurq 11/06/2015 17:41\aOGN5 Raebhgr 11/06/2015 17:41\aOGN5 Ba Fprar 11/06/2015 17:43",
+        "VASB:OGN5 Qvfcngpurq 11/06/2015 17:41\aOGN5 Raebhgr 11/06/2015 17:41\aOGN5 Ba Fprar 11/06/2015 17:43\a73 lbs sryy naq uvg ure urnq",
         "HAVG:OGN5",
         "QNGR:11/06/2015",
         "GVZR:17:41");
@@ -1763,7 +1741,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002980",
         "PNYY:Zhghny Nvq",
-        "VASB:Zrqvp Vagreprcg - znyr fhowrpg jvgu xarr vawhel ybbxvat sbe cnva pbageby\aOGN5 Qvfcngpurq 11/06/2015 15:31\aOGN5 Raebhgr 11/06/2015 15:31",
+        "VASB:Zrqvp Vagreprcg - znyr fhowrpg jvgu xarr vawhel ybbxvat sbe cnva pbageby",
         "HAVG:OGN5",
         "QNGR:11/06/2015",
         "GVZR:15:31");
@@ -1785,7 +1763,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002979",
         "PNYY:Genafsre",
-        "VASB:PIU gb HIZP\aOGN3 Qvfcngpurq 11/06/2015 13:51\aOGN3 Raebhgr 11/06/2015 13:51",
+        "VASB:PIU gb HIZP",
         "HAVG:OGN3",
         "QNGR:11/06/2015",
         "GVZR:13:51");
@@ -1826,7 +1804,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002976",
         "PNYY:Genafsre",
-        "VASB:PIU gb HIZP\aOGN5 Qvfcngpurq 11/06/2015 10:42\aOGN5 Raebhgr 11/06/2015 10:42",
+        "VASB:PIU gb HIZP",
         "HAVG:OGN5",
         "QNGR:11/06/2015",
         "GVZR:10:42");
@@ -1868,7 +1846,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002974",
         "PNYY:Zrqvpny",
-        "VASB:Qverpg pnyy sbe pbzongvir znyr.\aOGN4 Qvfcngpurq 11/06/2015 09:38\aOGN4 Raebhgr 11/06/2015 09:38",
+        "VASB:Qverpg pnyy sbe pbzongvir znyr.",
         "HAVG:OGN4",
         "QNGR:11/06/2015",
         "GVZR:09:38");
@@ -1948,7 +1926,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002962",
         "PNYY:Genafsre",
-        "VASB:11/05/2015 09:54\agenafsre sebz OUEP gb PIU\aOGN3 Qvfcngpurq 11/05/2015 09:54\aOGN3 Raebhgr 11/05/2015 09:54\aOGN3 Ba Fprar 11/05/2015 10:03\aOGN3 Pyrnerq 11/05/2015 20:14",
+        "VASB:OGN3 Qvfcngpurq 11/05/2015 09:54\aOGN3 Raebhgr 11/05/2015 09:54\aOGN3 Ba Fprar 11/05/2015 10:03\aOGN3 Pyrnerq 11/05/2015 20:14\agenafsre sebz OUEP gb PIU",
         "HAVG:OGN3",
         "QNGR:11/05/2015",
         "GVZR:09:54");
@@ -1970,7 +1948,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Oneer Gbja",
         "FG:IG",
         "VQ:15OWRZ002969",
-        "VASB:11/05/2015 18:19\aqverpg pnyy, ivbyrag cngvrag ng Pbgn'f\aOGN3 Qvfcngpurq 11/05/2015 18:19\aOGN3 Raebhgr 11/05/2015 18:19\aOGN3 Ba Fprar 11/05/2015 18:26\aOGN3 Pyrnerq 11/05/2015 20:13",
+        "VASB:OGN3 Qvfcngpurq 11/05/2015 18:19\aOGN3 Raebhgr 11/05/2015 18:19\aOGN3 Ba Fprar 11/05/2015 18:26\aOGN3 Pyrnerq 11/05/2015 20:13\aqverpg pnyy, ivbyrag cngvrag ng Pbgn'f",
         "HAVG:OGN3",
         "QNGR:11/05/2015",
         "GVZR:18:19");
@@ -1996,7 +1974,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002968",
         "PNYY:Zrqvpny",
-        "VASB:11/05/2015 17:52\apyrne piu naq bhg ba n qrgnvy\a68 l/b srznyr j/purfg cnva & qvssvphygl oernguvat, Oreyva Snfg unf orra abgvsvrq\aOGN5 Qvfcngpurq 11/05/2015 17:52\aOGN5 Raebhgr 11/05/2015 17:52\aOGN5 Ba Fprar 11/05/2015 17:56\aOGN5 Pyrnerq 11/05/2015 20:13",
+        "VASB:OGN5 Qvfcngpurq 11/05/2015 17:52\aOGN5 Raebhgr 11/05/2015 17:52\aOGN5 Ba Fprar 11/05/2015 17:56\aOGN5 Pyrnerq 11/05/2015 20:13\apyrne piu naq bhg ba n qrgnvy\a68 l/b srznyr j/purfg cnva & qvssvphygl oernguvat, Oreyva Snfg unf orra abgvsvrq",
         "HAVG:OGN5",
         "QNGR:11/05/2015",
         "GVZR:17:52");
@@ -2058,7 +2036,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002953",
         "PNYY:Zrqvpny",
-        "VASB:11/04/2015 08:05\a57le srznyr, srryvat irel fvpx, vf ibzvgvat.\aOGN3 Qvfcngpurq 11/04/2015 08:05\aOGN3 Raebhgr 11/04/2015 08:05\aOGN3 Ba Fprar 11/04/2015 08:08",
+        "VASB:OGN3 Qvfcngpurq 11/04/2015 08:05\aOGN3 Raebhgr 11/04/2015 08:05\aOGN3 Ba Fprar 11/04/2015 08:08\a57le srznyr, srryvat irel fvpx, vf ibzvgvat.",
         "HAVG:OGN3",
         "QNGR:11/04/2015",
         "GVZR:08:05");
@@ -2081,7 +2059,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002952",
         "PNYY:Zrqvpny",
-        "VASB:11/04/2015 07:08\aqverpg pnyy OUEP, sbe cg jvgu synax cnva\aOGN5 Qvfcngpurq 11/04/2015 07:08\aOGN5 Raebhgr 11/04/2015 07:08\aOGN5 Ba Fprar 11/04/2015 07:09",
+        "VASB:OGN5 Qvfcngpurq 11/04/2015 07:08\aOGN5 Raebhgr 11/04/2015 07:08\aOGN5 Ba Fprar 11/04/2015 07:09\aqverpg pnyy OUEP, sbe cg jvgu synax cnva",
         "HAVG:OGN5",
         "QNGR:11/04/2015",
         "GVZR:07:08");
@@ -2103,7 +2081,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002950",
         "PNYY:Genafsre",
-        "VASB:IN Ubfcvgny gb ZN\aOGN4 Qvfcngpurq 11/03/2015 16:17\aOGN4 Raebhgr 11/03/2015 16:17",
+        "VASB:IN Ubfcvgny gb ZN",
         "HAVG:OGN4",
         "QNGR:11/03/2015",
         "GVZR:16:17");
@@ -2145,7 +2123,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002948",
         "PNYY:Genafsre",
-        "VASB:PIU gb Erfvqrapr va Fbhgu Eblnygba\aOGN3 Qvfcngpurq 11/03/2015 13:12\aOGN3 Raebhgr 11/03/2015 13:12",
+        "VASB:PIU gb Erfvqrapr va Fbhgu Eblnygba",
         "HAVG:OGN3",
         "QNGR:11/03/2015",
         "GVZR:13:12");
@@ -2167,7 +2145,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002947",
         "PNYY:Genafsre",
-        "VASB:PIU gb HIZP\aOGN5 Qvfcngpurq 11/03/2015 12:20\aOGN5 Raebhgr 11/03/2015 12:20",
+        "VASB:PIU gb HIZP",
         "HAVG:OGN5",
         "QNGR:11/03/2015",
         "GVZR:12:20");
@@ -2189,7 +2167,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002946",
         "PNYY:Genafsre",
-        "VASB:HIZP gb OUEP\aOGN4 Qvfcngpurq 11/03/2015 10:01\aOGN4 Raebhgr 11/03/2015 10:01",
+        "VASB:HIZP gb OUEP",
         "HAVG:OGN4",
         "QNGR:11/03/2015",
         "GVZR:10:01");
@@ -2211,7 +2189,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002945",
         "PNYY:Zrqvpny",
-        "VASB:81 l/b s j/ purfg cnva.\aOGN3 Qvfcngpurq 11/03/2015 01:51\aOGN3 Raebhgr 11/03/2015 01:51",
+        "VASB:81 l/b s j/ purfg cnva.",
         "HAVG:OGN3",
         "QNGR:11/03/2015",
         "GVZR:01:51");
@@ -2272,7 +2250,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002942",
         "PNYY:Genafsre",
-        "VASB:PIU gb HIZP\aOGN4 Qvfcngpurq 11/02/2015 12:42\aOGN4 Raebhgr 11/02/2015 12:42",
+        "VASB:PIU gb HIZP",
         "HAVG:OGN4",
         "QNGR:11/02/2015",
         "GVZR:12:42");
@@ -2314,7 +2292,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002937",
         "PNYY:Zhghny Nvq",
-        "VASB:11/01/2015 11:22\aZ/N zrqvp vagreprcg, sbe Abegusvryq 57 l/b znyr, sryy oebxra evof @ Phzoreynaq Snezf\aOGN5 Qvfcngpurq 11/01/2015 11:22\aOGN5 Raebhgr 11/01/2015 11:22\aOGN5 Ba Fprar 11/01/2015 11:37",
+        "VASB:OGN5 Qvfcngpurq 11/01/2015 11:22\aOGN5 Raebhgr 11/01/2015 11:22\aOGN5 Ba Fprar 11/01/2015 11:37\aZ/N zrqvp vagreprcg, sbe Abegusvryq 57 l/b znyr, sryy oebxra evof @ Phzoreynaq Snezf",
         "HAVG:OGN5",
         "QNGR:11/01/2015",
         "GVZR:11:22");
@@ -2337,7 +2315,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:Ig",
         "VQ:15OWRZ002932",
         "PNYY:Zrqvpny",
-        "VASB:10/31/2015 09:16\aqverpg pnyy, Jbbqevqtr gb PIU\aOGN5 Qvfcngpurq 10/31/2015 09:16\aOGN5 Raebhgr 10/31/2015 09:16\aOGN5 Ba Fprar 10/31/2015 09:18",
+        "VASB:OGN5 Qvfcngpurq 10/31/2015 09:16\aOGN5 Raebhgr 10/31/2015 09:16\aOGN5 Ba Fprar 10/31/2015 09:18\aqverpg pnyy, Jbbqevqtr gb PIU",
         "HAVG:OGN5",
         "QNGR:10/31/2015",
         "GVZR:09:16");
@@ -2361,7 +2339,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002931",
         "PNYY:Zrqvpny",
-        "VASB:10/31/2015 08:48\aSRZNYR JBHYQ YVXR GB OR PURPXRQ BHG\aOGN3 Qvfcngpurq 10/31/2015 08:48\aOGN3 Raebhgr 10/31/2015 08:48\aOGN3 Ba Fprar 10/31/2015 08:50",
+        "VASB:OGN3 Qvfcngpurq 10/31/2015 08:48\aOGN3 Raebhgr 10/31/2015 08:48\aOGN3 Ba Fprar 10/31/2015 08:50\aSRZNYR JBHYQ YVXR GB OR PURPXRQ BHG",
         "HAVG:OGN3",
         "QNGR:10/31/2015",
         "GVZR:08:48");
@@ -2383,7 +2361,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002930",
         "PNYY:Zrqvpny",
-        "VASB:ZBAGCRYVRE CQ ERDHRFGVAT RZF SBE IRU GUNG FCHA BHG VAGB THNEQENVYF ARNE CBEGYNAQ TYNFF HAXABJA VAWHEL\aOGN5 Raebhgr 10/31/2015 07:38",
+        "VASB:ZBAGCRYVRE CQ ERDHRFGVAT RZF SBE IRU GUNG FCHA BHG VAGB THNEQENVYF ARNE CBEGYNAQ TYNFF HAXABJA VAWHEL",
         "HAVG:OGN5");
 
     qbGrfg("G58",
@@ -2404,7 +2382,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002923",
         "PNYY:Genafsre",
-        "VASB:10/30/2015 07:37\agenafsre PIU gb gur IN\aOGN5 Qvfcngpurq 10/30/2015 07:37\aOGN5 Raebhgr 10/30/2015 07:37\aOGN5 Ba Fprar 10/30/2015 07:38",
+        "VASB:OGN5 Qvfcngpurq 10/30/2015 07:37\aOGN5 Raebhgr 10/30/2015 07:37\aOGN5 Ba Fprar 10/30/2015 07:38\agenafsre PIU gb gur IN",
         "HAVG:OGN5",
         "QNGR:10/30/2015",
         "GVZR:07:37");
@@ -2427,7 +2405,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002926",
         "PNYY:Zrqvpny",
-        "VASB:10/30/2015 15:35\a69 lb srznyr, FBO, va qevir\aOGN3 Qvfcngpurq 10/30/2015 15:35\aOGN3 Raebhgr 10/30/2015 15:35\aOGN3 Ba Fprar 10/30/2015 15:41",
+        "VASB:OGN3 Qvfcngpurq 10/30/2015 15:35\aOGN3 Raebhgr 10/30/2015 15:35\aOGN3 Ba Fprar 10/30/2015 15:41\a69 lb srznyr, FBO, va qevir",
         "HAVG:OGN3",
         "QNGR:10/30/2015",
         "GVZR:15:35");
@@ -2450,7 +2428,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002925",
         "PNYY:Zrqvpny",
-        "VASB:10/30/2015 12:18\aqverpg pnyy OUEP gb PIU\aOGN4 Qvfcngpurq 10/30/2015 12:18\aOGN4 Raebhgr 10/30/2015 12:18\aOGN4 Ba Fprar 10/30/2015 12:18",
+        "VASB:OGN4 Qvfcngpurq 10/30/2015 12:18\aOGN4 Raebhgr 10/30/2015 12:18\aOGN4 Ba Fprar 10/30/2015 12:18\aqverpg pnyy OUEP gb PIU",
         "HAVG:OGN4",
         "QNGR:10/30/2015",
         "GVZR:12:18");
@@ -2473,7 +2451,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002924",
         "PNYY:Zhghny Nvq",
-        "VASB:10/30/2015 08:51\aZN gb gur pvgl, hapbaf znyr, jvgu n fhvpvqr abgr\aOGN3 Qvfcngpurq 10/30/2015 08:51\aOGN3 Raebhgr 10/30/2015 08:51\aOGN3 Ba Fprar 10/30/2015 08:55",
+        "VASB:OGN3 Qvfcngpurq 10/30/2015 08:51\aOGN3 Raebhgr 10/30/2015 08:51\aOGN3 Ba Fprar 10/30/2015 08:55\aZN gb gur pvgl, hapbaf znyr, jvgu n fhvpvqr abgr",
         "HAVG:OGN3",
         "QNGR:10/30/2015",
         "GVZR:08:51");
@@ -2495,7 +2473,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Oreyva",
         "VQ:15OWRZ002922",
         "PNYY:Sver",
-        "VASB:10/30/2015 01:32\aFgehpgher sver\aOGN5 Qvfcngpurq 10/30/2015 01:32\aOGN5 Raebhgr 10/30/2015 01:32\aOGN5 Ba Fprar 10/30/2015 01:41\aOGN5 Pyrnerq 10/30/2015 05:49",
+        "VASB:OGN5 Qvfcngpurq 10/30/2015 01:32\aOGN5 Raebhgr 10/30/2015 01:32\aOGN5 Ba Fprar 10/30/2015 01:41\aOGN5 Pyrnerq 10/30/2015 05:49\aFgehpgher sver",
         "HAVG:OGN5",
         "QNGR:10/30/2015",
         "GVZR:01:32");
@@ -2535,7 +2513,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002917",
         "PNYY:Genafsre",
-        "VASB:OUEP gb PIU\aOGN4 Qvfcngpurq 10/29/2015 10:23\aOGN4 Raebhgr 10/29/2015 10:23",
+        "VASB:OUEP gb PIU",
         "HAVG:OGN4",
         "QNGR:10/29/2015",
         "GVZR:10:23");
@@ -2605,7 +2583,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002903",
         "PNYY:Genafsre",
-        "VASB:10/27/2015 15:36\agenafsre sebz PIU gb HIZP\aOGN3 Qvfcngpurq 10/27/2015 15:36\aOGN3 Raebhgr 10/27/2015 15:36\aOGN3 Ba Fprar 10/27/2015 15:37",
+        "VASB:OGN3 Qvfcngpurq 10/27/2015 15:36\aOGN3 Raebhgr 10/27/2015 15:36\aOGN3 Ba Fprar 10/27/2015 15:37\agenafsre sebz PIU gb HIZP",
         "HAVG:OGN3",
         "QNGR:10/27/2015",
         "GVZR:15:36");
@@ -2628,7 +2606,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:ig",
         "VQ:15OWRZ002902",
         "PNYY:Zhghny Nvq",
-        "VASB:10/27/2015 09:09\acnenzrqvp vagreprcg, 58le srz, sryy, frirer uvc cnva/cnva znantrzrag.\aOGN2 Qvfcngpurq 10/27/2015 09:09\aOGN2 Raebhgr 10/27/2015 09:09\aOGN2 Ba Fprar 10/27/2015 09:30\aOGN2 Pyrnerq 10/27/2015 11:39",
+        "VASB:OGN2 Qvfcngpurq 10/27/2015 09:09\aOGN2 Raebhgr 10/27/2015 09:09\aOGN2 Ba Fprar 10/27/2015 09:30\aOGN2 Pyrnerq 10/27/2015 11:39\acnenzrqvp vagreprcg, 58le srz, sryy, frirer uvc cnva/cnva znantrzrag.",
         "HAVG:OGN2",
         "QNGR:10/27/2015",
         "GVZR:09:09");
@@ -2652,7 +2630,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002899",
         "PNYY:Zrqvpny",
-        "VASB:10/26/2015 19:33\a60 l/b srznyr j/xvqarl ceboyrzf - ovbcfl rneyvre gbqnl\aOGN2 Qvfcngpurq 10/26/2015 19:33\aOGN2 Raebhgr 10/26/2015 19:33\aOGN2 Ba Fprar 10/26/2015 19:44",
+        "VASB:OGN2 Qvfcngpurq 10/26/2015 19:33\aOGN2 Raebhgr 10/26/2015 19:33\aOGN2 Ba Fprar 10/26/2015 19:44\a60 l/b srznyr j/xvqarl ceboyrzf - ovbcfl rneyvre gbqnl",
         "HAVG:OGN2",
         "QNGR:10/26/2015",
         "GVZR:19:33");
@@ -2674,7 +2652,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002896",
         "PNYY:Genafsre",
-        "VASB:PIU gb Ebjna Pbheg\aOGN2 Qvfcngpurq 10/26/2015 14:01\aOGN2 Raebhgr 10/26/2015 14:01",
+        "VASB:PIU gb Ebjna Pbheg",
         "HAVG:OGN2",
         "QNGR:10/26/2015",
         "GVZR:14:01");
@@ -2697,7 +2675,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002895",
         "PNYY:Zhghny Nvq",
-        "VASB:10/26/2015 12:31\a15 l/b srznyr arrqvat pevfvf vagreiragvba - guerngravat urefrys & bguref\aOGN3 Qvfcngpurq 10/26/2015 12:31\aOGN3 Raebhgr 10/26/2015 12:32\aOGN3 Ba Fprar 10/26/2015 12:56",
+        "VASB:OGN3 Qvfcngpurq 10/26/2015 12:31\aOGN3 Raebhgr 10/26/2015 12:32\aOGN3 Ba Fprar 10/26/2015 12:56\a15 l/b srznyr arrqvat pevfvf vagreiragvba - guerngravat urefrys & bguref",
         "HAVG:OGN3",
         "QNGR:10/26/2015",
         "GVZR:12:31");
@@ -2719,7 +2697,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002894",
         "PNYY:Genafsre",
-        "VASB:cngvrag genafsre PIU gb Oebbxfvqr\aOGN2 Qvfcngpurq 10/26/2015 10:13\aOGN2 Raebhgr 10/26/2015 10:13",
+        "VASB:cngvrag genafsre PIU gb Oebbxfvqr",
         "HAVG:OGN2",
         "QNGR:10/26/2015",
         "GVZR:10:13");
@@ -2742,7 +2720,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002891",
         "PNYY:Zhghny Nvq",
-        "VASB:10/26/2015 07:44\a55 l/b znyr jvgu Rkgerzr noqbzvany cnva, ibzvgvat, qvssvphygl oerngvat\aOGN2 Qvfcngpurq 10/26/2015 07:44\aOGN2 Raebhgr 10/26/2015 07:44\aOGN2 Ba Fprar 10/26/2015 08:02\aOGN2 Pyrnerq 10/26/2015 09:34",
+        "VASB:OGN2 Qvfcngpurq 10/26/2015 07:44\aOGN2 Raebhgr 10/26/2015 07:44\aOGN2 Ba Fprar 10/26/2015 08:02\aOGN2 Pyrnerq 10/26/2015 09:34\a55 l/b znyr jvgu Rkgerzr noqbzvany cnva, ibzvgvat, qvssvphygl oerngvat",
         "HAVG:OGN2",
         "QNGR:10/26/2015",
         "GVZR:07:44");
@@ -2822,7 +2800,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002885",
         "PNYY:Zhghny Nvq",
-        "VASB:Qverpg pnyy sbe cnenzrqvp vagreprcg.\aOGN3 Qvfcngpurq 10/25/2015 13:29\aOGN3 Raebhgr 10/25/2015 13:29",
+        "VASB:Qverpg pnyy sbe cnenzrqvp vagreprcg.",
         "HAVG:OGN3",
         "QNGR:10/25/2015",
         "GVZR:13:29");
@@ -2844,7 +2822,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002884",
         "PNYY:Genafsre",
-        "VASB:PIU gb HIZP\aOGN2 Qvfcngpurq 10/25/2015 12:53\aOGN2 Raebhgr 10/25/2015 12:53",
+        "VASB:PIU gb HIZP",
         "HAVG:OGN2",
         "QNGR:10/25/2015",
         "GVZR:12:53");
@@ -2886,7 +2864,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:IG 05654",
         "VQ:15OWRZ002882",
         "PNYY:Zrqvpny",
-        "VASB:10/24/2015 21:16\a44 l/b s j/ cnaperngvgvf, unf n onpx npur, fgbznpu npur, naq vf anhfrbhf\aOGN3 Qvfcngpurq 10/24/2015 21:16\aOGN3 Raebhgr 10/24/2015 21:16\aOGN3 Ba Fprar 10/24/2015 21:24",
+        "VASB:OGN3 Qvfcngpurq 10/24/2015 21:16\aOGN3 Raebhgr 10/24/2015 21:16\aOGN3 Ba Fprar 10/24/2015 21:24\a44 l/b s j/ cnaperngvgvf, unf n onpx npur, fgbznpu npur, naq vf anhfrbhf",
         "HAVG:OGN3",
         "QNGR:10/24/2015",
         "GVZR:21:16");
@@ -2928,7 +2906,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002881",
         "PNYY:Zrqvpny",
-        "VASB:Pnyy sebz jvyyvfgba 911 ntrag 60\a65 l/b znyr sryy, unf orra qevaxvat\aOGN3 Qvfcngpurq 10/24/2015 20:00\aOGN3 Raebhgr 10/24/2015 20:00",
+        "VASB:Pnyy sebz jvyyvfgba 911 ntrag 60\a65 l/b znyr sryy, unf orra qevaxvat",
         "HAVG:OGN3",
         "QNGR:10/24/2015",
         "GVZR:20:00");
@@ -2969,7 +2947,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002875",
         "PNYY:Nppvqrag - Vawhel gb Crefba(f)",
-        "VASB:10-50 @ gur ebhaq-n-obhg; Fvatyr iruvpyr, hax U & V.\aOGN3 Qvfcngpurq 10/24/2015 02:12\aOGN3 Raebhgr 10/24/2015 02:12",
+        "VASB:10-50 @ gur ebhaq-n-obhg; Fvatyr iruvpyr, hax U & V.",
         "HAVG:OGN3",
         "QNGR:10/24/2015",
         "GVZR:02:12");
@@ -2991,7 +2969,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002868",
         "PNYY:Zrqvpny",
-        "VASB:81 l/b s FBO naq nygrerq zragny fgnghf, Qe vf erd genafcbeg.\aOGN2 Qvfcngpurq 10/22/2015 20:31\aOGN2 Raebhgr 10/22/2015 20:31",
+        "VASB:81 l/b s FBO naq nygrerq zragny fgnghf, Qe vf erd genafcbeg.",
         "HAVG:OGN2",
         "QNGR:10/22/2015",
         "GVZR:20:31");
@@ -3052,7 +3030,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002793",
         "PNYY:Genafsre",
-        "VASB:PIU gb Oebbxfvqr Ahefvat Ubzr - Juvgr Evire Wpg.\aOGN2 Qvfcngpurq 10/14/2015 10:58\aOGN2 Raebhgr 10/14/2015 10:58",
+        "VASB:PIU gb Oebbxfvqr Ahefvat Ubzr - Juvgr Evire Wpg.",
         "HAVG:OGN2",
         "QNGR:10/14/2015",
         "GVZR:10:58");
@@ -3074,7 +3052,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002792",
         "PNYY:Zrqvpny",
-        "VASB:95 lbs encvq urneg engr. uvfgbel bs N-Svo.\aOGN4 Qvfcngpurq 10/14/2015 10:16\aOGN4 Raebhgr 10/14/2015 10:16",
+        "VASB:95 lbs encvq urneg engr. uvfgbel bs N-Svo.",
         "HAVG:OGN4",
         "QNGR:10/14/2015",
         "GVZR:10:16");
@@ -3135,7 +3113,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002769",
         "PNYY:Zrqvpny",
-        "VASB:82 lbz zhfpyr cnva\aOGN3 Qvfcngpurq 10/11/2015 07:08",
+        "VASB:82 lbz zhfpyr cnva",
         "HAVG:OGN3",
         "QNGR:10/11/2015",
         "GVZR:07:08");
@@ -3176,7 +3154,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:Ig",
         "VQ:15OWRZ002764",
         "PNYY:Zrqvpny",
-        "VASB:59 l/b znyr pbzcynvavat bs purfg cnva\aOGN3 Qvfcngpurq 10/10/2015 19:27\aOGN3 Raebhgr 10/10/2015 19:27",
+        "VASB:59 l/b znyr pbzcynvavat bs purfg cnva",
         "HAVG:OGN3",
         "QNGR:10/10/2015",
         "GVZR:19:27");
@@ -3216,7 +3194,7 @@ choyvp pynff IGYnzbvyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FG:IG",
         "VQ:15OWRZ002759",
         "PNYY:Zrqvpny",
-        "VASB:70 lbz nffnhygrq unf n ynp haqre gur rlr\aOGN3 Qvfcngpurq 10/10/2015 14:36\aOGN3 Raebhgr 10/10/2015 14:36",
+        "VASB:70 lbz nffnhygrq unf n ynp haqre gur rlr",
         "HAVG:OGN3",
         "QNGR:10/10/2015",
         "GVZR:14:36");

@@ -1119,6 +1119,7 @@ class Active911Vendor extends Vendor {
       "US/VT/AddisonCounty",              "VTAddisonCounty",
       "US/VT/ChittendenCounty",           "VTChittendenCounty",
       "US/VT/Hartford",                   "VTHartford",
+      "US/VT/ValcourNotification",        "VTLamoilleCounty",
       "US/VT/WindhamCounty",              "VTWindhamCounty",
       "US/VT/WindsorCounty",              "VTWindsorCounty",
       "US/WA/BentonCounty",               "WABentonCounty",
