@@ -55,6 +55,10 @@ Pbagnpg: Xvzoreyl Aryfba <rzg1192@tznvy.pbz>
 Fraqre: <tppnq@pb.tybhprfgre.aw.hf>
 2015000730 {10/01/2015 08:16:26}\e\aGENA     - Genafcbeg{3}\e\a325 Xraarql QE;04\e\aHavgf:\e\a    \e\a
 
+Pbagnpg: w OBOEBIR <woboebir@ubgznvy.pbz>
+Fraqre: 411912
+SQ23-2: {12/01/2015 07:17:37}\aQJRY     - Qjryyvat Sver{2}\a5 Crnpugerr YA;U \aPebffFgerrg1 :-    Jbysreg Fgngvba EQ       \aPebffFgerrg2 :-    Oevnejbbq EQ       \aPbzzbaAnzr  :-   
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jbbqohel Urvtugf SQ
 Ybpngvba: Jbbqohel Urvtugf, AW, Havgrq Fgngrf
@@ -4760,6 +4764,28 @@ choyvp pynff AWTybhprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:325 Xraarql QE",
         "PVGL:OHRAN");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWOboebir() {
+
+    qbGrfg("G1",
+        "SQ23-2: {12/01/2015 07:17:37}\a" +
+        "QJRY     - Qjryyvat Sver{2}\a" +
+        "5 Crnpugerr YA;U \a" +
+        "PebffFgerrg1 :-    Jbysreg Fgngvba EQ       \a" +
+        "PebffFgerrg2 :-    Oevnejbbq EQ       \a" +
+        "PbzzbaAnzr  :-",
+
+        "FEP:SQ23-2",
+        "QNGR:12/01/2015",
+        "GVZR:07:17:37",
+        "PBQR:QJRY",
+        "PNYY:Qjryyvat Sver",
+        "CEV:2",
+        "NQQE:5 Crnpugerr YA",
+        "PVGL:UNEEVFBA GJC");
+   
   }
 
   @Grfg
