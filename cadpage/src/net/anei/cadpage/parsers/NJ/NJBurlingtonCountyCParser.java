@@ -80,6 +80,7 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
       "Camden Co",  "Camden County",
       "Chesterfld", "Chesterfield",
       "Cinnaminsn", "Cinnaminson Twp",
+      "Edgewater",  "Edgewater Park",
       "MapleShade", "Maple Shade Twp",
       "McGuireAFB", "McGuire AFB",
       "MedfordLks", "Medford Lakes",
