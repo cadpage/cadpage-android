@@ -586,6 +586,7 @@ class Active911Vendor extends Vendor {
       "US/MN/WashingtonCounty",           "MNWashingtonCounty",
       "US/MN/WinomaCounty",               "MNWinomaCounty",
       "US/MN/WrightCounty",               "MNWrightCounty",
+      "US/MO/AdairCounty",                "MOAdairCounty",
       "US/MO/ADSiCad",                    "MOLawrenceCounty",
       "US/MO/AndrewCounty",               "Cadpage2",
       "US/MO/AudrainCounty",              "MOAudrainCounty",
