@@ -5,9 +5,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchCiscoParser;
 /**
  * Allen County, OH
  */
-public class OHAllenCountyParser extends DispatchCiscoParser {
+public class OHAllenCountyAParser extends DispatchCiscoParser {
 
-  public OHAllenCountyParser() {
+  public OHAllenCountyAParser() {
     super("ALLEN COUNTY", "OH");
   }
 

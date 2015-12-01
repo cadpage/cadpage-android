@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Nyyra Pbhagl, BU 
+Nyyra Pbhagl, BU (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Funjarr GJC SQ
