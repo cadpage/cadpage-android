@@ -486,6 +486,7 @@ class Active911Vendor extends Vendor {
       "US/MA/Mvpsis",                     "MADukesCounty",
       "US/MD/ADSiCAD",                    "MDAnneArundelCountyADSiCAD",
       "US/MD/AlleganyCounty",             "MDAlleganyCounty",
+      "US/MD/CityofBaltimore",            "MDBaltimore",
       "US/MD/BaltimoreCountyCmsg",        "MDBaltimoreCountyB",
       "US/MD/CalvertCounty",              "MDCalvertCounty",
       "US/MD/CarrollCounty",              "MDCarrollCounty",
