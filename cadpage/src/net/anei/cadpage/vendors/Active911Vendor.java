@@ -1149,6 +1149,7 @@ class Active911Vendor extends Vendor {
       "US/WA/WestPierceCounty",           "WAPierceCountyD",
       "US/WA/WhitmanCounty",              "WAWhitmanCounty",
       "US/WA/YakimaCounty",               "WAYakimaCounty",
+      "US/WI/CityofLakeGeneva",           "WIWalworthCounty",
       "US/WI/DaneCounty",                 "WIDaneCounty",
       "US/WI/DoorCounty",                 "WIDoorCounty",
       "US/WI/MukwonagoFire",              "WIWaukeshaCountyB",
