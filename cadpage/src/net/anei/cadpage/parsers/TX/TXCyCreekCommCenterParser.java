@@ -14,7 +14,7 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
   
   private static final Pattern PART_MARKER = Pattern.compile("^\\d\\d:\\d\\d ");
   private static final Pattern DATE_PTN = Pattern.compile("(\\d+)/(\\d+)");
-  private static final Pattern MARKER1 = Pattern.compile("(?:/ (?:no subject / )?)?(?:(\\d\\d/\\d\\d) )?(?:(\\d\\d:\\d\\d) )?(?:Inc: *(\\d*);)?");
+  private static final Pattern MARKER1 = Pattern.compile("(?:/ (?:(?:no subject|Text Message) / )?)?(?:(\\d\\d/\\d\\d) )?(?:(\\d\\d:\\d\\d) )?(?:Inc: *(\\d*);)?");
   private static final Pattern MARKER2 = Pattern.compile("(?:Assigned to Incident|Status Changed to Available|Resend Incident Information) (\\d{9}) +");
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("Unit: *([^ ]*) +Dispatched:.*");
   private static final Pattern MISSED_COLON_PTN = Pattern.compile("(?<=Map)(?=\\d)");
@@ -70,6 +70,7 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     // Strip message prefix
+    body = stripFieldStart(body, "/ Text Message /");
     body = stripFieldStart(body, "CommCenter@ccems.com:");
     
     if (subject.equals("Text Message")) subject = "";

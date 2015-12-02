@@ -425,6 +425,7 @@ public class ParserList {
               ,"INWayneCounty"                  ,"Wayne County, IN"
           ),
           new ParserCategory("Iowa"
+              ,"IAAppanooseCounty"              ,"Appanoose County, IA"
               ,"IABlackHawkCounty"              ,"Black Hawk County, IA"
               ,"IACerroGordoCounty"             ,"Cerro Gordo County, IA"
               ,"IADesMoinesCounty"              ,"Des Moines County, IA"

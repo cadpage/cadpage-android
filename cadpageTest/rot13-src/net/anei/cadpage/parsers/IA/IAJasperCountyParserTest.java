@@ -132,6 +132,7 @@ choyvp pynff VNWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER-ZVFP SVER PNYYF",
         "NQQE:312 ABEGU FG",
         "PVGL:ERNFABE",
+        "FG:VN",
         "K:ZNVA FG /  FRPBAQ FG",
         "CYNPR:ERNFABE SVER QRCG",
         "HAVG:34 ESQ");

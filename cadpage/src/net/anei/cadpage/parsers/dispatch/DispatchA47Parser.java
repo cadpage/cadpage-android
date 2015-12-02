@@ -17,16 +17,13 @@ public class DispatchA47Parser extends FieldProgramParser {
   
   public DispatchA47Parser(String subjectMarker, String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
-          "( Reported:DATETIME! ID_CALL! Loc:ADDR/S! | ID_CALL! Reported:DATETIME! ADDR/S! ) ( UNIT END | X? PLACE? UNIT! END )");
+          "( Reported:DATETIME! ID_CALL! Loc:ADDR/S! | ID_CALL! Reported:DATETIME! ADDR/S! ) ( UNIT END | X? PLACE? UNIT% END )");
     this.subjectMarker = subjectMarker;
   }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (subjectMarker != null && !subject.equals(subjectMarker)) return false;
-    
-    // Convert apparent older version to new format
-    
     return parseFields(body.split("\n"), data);
   }
   
@@ -56,7 +53,7 @@ public class DispatchA47Parser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern ST_ZIP_PTN = Pattern.compile("([A-Z]{2}) +(\\d{5})");
+  private static final Pattern ST_ZIP_PTN = Pattern.compile("([A-Z]{2})(?: +(\\d{5}))?");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -68,7 +65,7 @@ public class DispatchA47Parser extends FieldProgramParser {
         Matcher match = ST_ZIP_PTN.matcher(tmp);
         if (match.matches()) {
           String state = match.group(1);
-          city = match.group(2);
+          city = getOptGroup(match.group(2));
           data.strState = state;
         }
       }
@@ -86,6 +83,7 @@ public class DispatchA47Parser extends FieldProgramParser {
     @Override
     public boolean checkParse(String field, Data data) {
       if (!field.contains("/")) return false;
+      field = stripFieldStart(field, "/");
       field = stripFieldEnd(field, "/");
       super.parse(field, data);
       return true;

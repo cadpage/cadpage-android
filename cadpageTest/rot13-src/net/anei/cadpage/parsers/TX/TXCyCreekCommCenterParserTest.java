@@ -99,6 +99,7 @@ Fraqre: PbzzPragre@pprzf.pbz
 PbzzPragre@pprzf.pbz: ab fhowrpg / 05/20 17:04 J SZ 1960-UP/IRGRENAF ZRZBEVN, ; Znc:331J- Fho: Ang:32Q01-HAX CEBOYRZ - HAX YVSR FG Havgf:Z522 Q52 K-Fg:IRGRENAF ZRZBEVNY
 PbzzPragre@pprzf.pbz / ab fhowrpg / 02/25 13:37 FCEVAT PLCERFF EQ-UP/FU 249 F, ; Znc:329A- Fho: Ang:29O01-ZIV - VAWHEVRF Havgf:Z511 SB368R Q52 K-Fg:FU 249 FO OHIVATUNHFR
 PbzzPragre@pprzf.pbz / ab fhowrpg / 05/01 14:04 7203 BNXJBBQ TYRA OYIQ-UP, PBGGNTRF NG PLCERFFJBBQ ; CBBY Znc:330Y- Fho:BNXJBBQ TYRA Ang:27Q03T-TFJ - PRAGENY JBHAQF Havg
+PbzzPragre@pprzf.pbz / Grkg Zrffntr / PbzzPragre@pprzf.pbz:9915 J SZ 1960, VQYRJVYQR NCGF; 1109 Znc:369H- Fho: Ang:25O06I-CFLPU - HAXABJA Havgf:Z53; Z59; Q52 K-Fg:SNYPBA E
 
 Pbagnpg: Ybev Oebnqevpx <yoebnqevpx@pprzf.pbz>
 Fraqre: PbzzPragre@pprzf.pbz
@@ -1750,6 +1751,17 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:CBBY",
         "ZNC:330Y-",
         "PNYY:27Q03T-TFJ - PRAGENY JBHAQF");
+
+    qbGrfg("G4",
+        "PbzzPragre@pprzf.pbz / Grkg Zrffntr / PbzzPragre@pprzf.pbz:9915 J SZ 1960, VQYRJVYQR NCGF; 1109 Znc:369H- Fho: Ang:25O06I-CFLPU - HAXABJA Havgf:Z53; Z59; Q52 K-Fg:SNYPBA E",
+        "NQQE:9915 J SZ 1960",
+        "ZNQQE:9915 J SNEZ-GB-ZNEXRG 1960",
+        "CYNPR:VQYRJVYQR NCGF",
+        "NCG:1109",
+        "ZNC:369H-",
+        "PNYY:25O06I-CFLPU - HAXABJA",
+        "HAVG:Z53; Z59; Q52",
+        "K:SNYPBA E");
  
   }
   
