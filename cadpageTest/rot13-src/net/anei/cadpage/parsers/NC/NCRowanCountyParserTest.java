@@ -19599,14 +19599,16 @@ choyvp pynff APEbjnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:11/28/15",
         "GVZR:17:49:32");
 
-    qbGrfg("G5",
-        "PNQ:QRYVIRE ZRFFNTR;JVYYVNZF, YBHVFR;7048557318;pnyyre fnvq gurl sbhaq ohyyrg ubyrf gung pnzr vafvqr gur ubhfr. [11/28/15 17:11:51 EJNTARE]",
-        "PNYY:QRYVIRE ZRFFNTR",
-        "NQQE:JVYYVNZF, YBHVFR",
-        "CYNPR:7048557318",
-        "VASB:pnyyre fnvq gurl sbhaq ohyyrg ubyrf gung pnzr vafvqr gur ubhfr.",
-        "QNGR:11/28/15",
-        "GVZR:17:11:51");
+    vs (!grfgNyg) {
+      qbGrfg("G5",
+          "PNQ:QRYVIRE ZRFFNTR;JVYYVNZF, YBHVFR;7048557318;pnyyre fnvq gurl sbhaq ohyyrg ubyrf gung pnzr vafvqr gur ubhfr. [11/28/15 17:11:51 EJNTARE]",
+          "PNYY:QRYVIRE ZRFFNTR",
+          "NQQE:JVYYVNZF, YBHVFR",
+          "CYNPR:7048557318",
+          "VASB:pnyyre fnvq gurl sbhaq ohyyrg ubyrf gung pnzr vafvqr gur ubhfr.",
+          "QNGR:11/28/15",
+          "GVZR:17:11:51");
+    }
 
     qbGrfg("G6",
         "PNQ:104P2 NYNEZ NPGVINGVBA;1415 F ZNVA FG;PUTI;RHQL EQ;XVZONYY EQ;ZG MVBA PUHEPU BS PUEVFG;2515,2511,2509;bhg jvgu bcra qbbe arrq xu [11/28/15 16:37:17 FQHOYVA] HQGF: {2509} BSSVPRE FGNGHF 10-4 [11/28/15 16:37:07 FQHOYVA] Enqvb Punaary: BCF",
@@ -21313,12 +21315,14 @@ choyvp pynff APEbjnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:ZZ",
         "VQ:15102347");
 
-    qbGrfg("G94",
-        "PNQ:BYQ FNYVFOHEL-PBAPBEQ EQ/VEVFU CBGNGB EQ;GENSSVP NPP CEBCREGL QNZNTR;PBCF3,ZZO1,ZZR2;BYQ FNYVFOHEL-PBAPBEQ EQ/VEVFU CBGNGB EQ;ZZ19 UNF PBZZNAQ [10/12",
-        "PNYY:BYQ FNYVFOHEL-PBAPBEQ EQ/VEVFU CBGNGB EQ",
-        "NQQE:GENSSVP NPP CEBCREGL QNZNTR",
-        "HAVG:PBCF3,ZZO1,ZZR2",
-        "VASB:BYQ FNYVFOHEL-PBAPBEQ EQ/VEVFU CBGNGB EQ / ZZ19 UNF PBZZNAQ");
+    vs (!grfgNyg) {
+      qbGrfg("G94",
+          "PNQ:BYQ FNYVFOHEL-PBAPBEQ EQ/VEVFU CBGNGB EQ;GENSSVP NPP CEBCREGL QNZNTR;PBCF3,ZZO1,ZZR2;BYQ FNYVFOHEL-PBAPBEQ EQ/VEVFU CBGNGB EQ;ZZ19 UNF PBZZNAQ [10/12",
+          "PNYY:BYQ FNYVFOHEL-PBAPBEQ EQ/VEVFU CBGNGB EQ",
+          "NQQE:GENSSVP NPP CEBCREGL QNZNTR",
+          "HAVG:PBCF3,ZZO1,ZZR2",
+          "VASB:BYQ FNYVFOHEL-PBAPBEQ EQ/VEVFU CBGNGB EQ / ZZ19 UNF PBZZNAQ");
+    }
 
     qbGrfg("G95",
         "PNQ:GENSSVP NPPVQRAG CV;BYQ FNYVFOHEL-PBAPBEQ EQ/VEVFU CBGNGB EQ;XNA;15102115;[RZF] SYHVQ VA GUR EBNQJNL [10/12/15 19:18:16 RJOENAQ]",

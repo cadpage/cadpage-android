@@ -24,17 +24,20 @@ public abstract class GroupBaseParser extends MsgParser {
   }
 
   protected void addParser(MsgParser parser) {
-    
-    String city = parser.getDefaultCity();
-    if (defCity == null) defCity = city;
-    else if (!defCity.equals(city)) defCity = "";
-    
-    String state = parser.getDefaultState();
-    if (defState == null) defState = state;
-    else if (!defState.equals(state)) defState = "";
-    
+  
+    setDefaults(parser.getDefaultCity(), parser.getDefaultState());
     updateFilter(parser.getFilter());
   }
+  
+  protected void setDefaults(String newCity, String newState) {
+    
+    if (defCity == null) defCity = newCity;
+    else if (!defCity.equals(newCity)) defCity = "";
+    
+    if (defState == null) defState = newState;
+    else if (!defState.equals(newState)) defState = "";
+  }
+  
   /**
    * Merge new parser filter into combined filter
    * @param filterP
