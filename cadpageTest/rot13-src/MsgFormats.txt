@@ -4165,6 +4165,11 @@ Lnincnv Pbhagl, NM (P) (NMLnincnvPbhaglPCnefre)
 {Zrffntr sebz UvcYvax} FSQ \a5401\aRZF NFFVTAZRAG\a160 CBEGNY YA; NERN 5405;FGA 4; 138,FRQ\aR541 N541 FGN54\a10 19 57 09/29/2015 - CVREPR, N (CebDN Zrqvpny) \aPuvrs Pbzcynvag  Bireqbfr / Cbvfbavat (Vatrfgvba) \a71-lrne-byq, Srznyr, Pbafpvbhf, Oern\a\aOrgjrra: <abg sbhaq> & FGNGR EBHGR 17
 {Zrffntr sebz UvcYvax} FSQ \a5301\aRZF NFFVTAZRAG\a75 OBK PNALBA EQ; NERN 5311;FGA 3,FRQ\aR531 N531 FGN53\a09 25 46 09/29/2015 - CVREPR, N (CebDN Zrqvpny) \aPuvrs Pbzcynvag  Nyyretvrf (Ernpgvbaf) / Rairabzngvbaf (Fgvatf, Ovgrf) \a83-lr\a\aOrgjrra: FBYQVRE ONFVA QE & ZREEL TB EBHAQ EBPX E
 ***************************************************************************
+Lnincnv Pbhagl, NM (Q) (NMLnincnvPbhaglQCnefre) 
+ZNLE23            15285993            12801 R Prageny Nir                     QVFC:16:34       FPAR:            PAPY:16:35       ERNFBA:Bgure Havg Erfcbaqrq
+ZNLRE  Fvpx Crefba (Fcrp Qvnt)(P3)        16262 F Oynpx Zbhagnva Eq     NCG#    PVGL:PBEQRF YNXRF  ZNC:11A02R24NHGUBEVGL:Sver Qrcg Trarevp           PEBFF:R YNEEL YA/R PBAPUB YA           EHA#:15285850
+ZNLE23            15285472            20989 R Zneoyr Pnalba Jnl               QVFC:05:27       FPAR:05:30       PAPY:05:47       ERNFBA:Cngvrag be Snzvyl Ershfny
+***************************************************************************
 Lhzn Pbhagl, NM (NMLhznPbhaglCnefre) 
 ZFT:PU5 OE NFFVTA SBE R9 NERN BS 2900 OYX BS R UJL 95 / LCQ FGNGRQ JR PBHYQ PK GUVF VF N PBAGEBYYRQ OHEA\a***Guvf\a(Pba'g) 2 bs 5\apbzzhavpngvba znl pbagnva pbasvqragvny naq/be cebcevrgnel vasbezngvba naq znl abg or qvfpybfrq gb nalbar bgure guna gur vagraqrq\a(Pba'g) 3 bs 5\anqqerffrr. Nal bgure qvfpybfher vf fgevpgyl cebuvovgrq ol ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, lbh unir erprvirq guvf\a(Pba'g) 4 bs 5\apbzzhavpngvba va reebe. Cyrnfr abgvsl gur fraqre vzzrqvngryl naq qrfgebl gur pbzzhavpngvba vapyhqvat nyy pbagrag naq nal nggnpuzragf.\a(Pba'g) 5 bs 5\aGunax lbh.***(Raq)
 1 bs 5\aSEZ:lhznpbzz@ezrgeb.pbz\aZFT:PU5 PBZZ NFFVTA: R9, R5, R2, R8, N9, O7 - 1818 F Yrgiva Nir, Onexyrl Frrq Pb sbe ercbeg bs sver\a(Pba'g) 2 bs 5\anynez\a***Guvf pbzzhavpngvba znl pbagnva pbasvqragvny naq/be cebcevrgnel vasbezngvba naq znl abg or qvfpybfrq gb nalbar bgure guna gur\a(Pba'g) 3 bs 5\avagraqrq nqqerffrr. Nal bgure qvfpybfher vf fgevpgyl cebuvovgrq ol ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, lbh unir erprvirq guvf\a(Pba'g) 4 bs 5\apbzzhavpngvba va reebe. Cyrnfr abgvsl gur fraqre vzzrqvngryl naq qrfgebl gur pbzzhavpngvba vapyhqvat nyy pbagrag naq nal nggnpuzragf.\a(Pba'g) 5 bs 5\aGunax lbh.***(Raq)
@@ -7149,10 +7154,15 @@ Benatrohet Pbhagl, FP (FPBenatrohetPbhagl)
 :bopqvfcngpu:CNGVRAG SNVAGRQ @ 819 TNEQRAFTNGR EQ/PEBFF BS YNHQREQNYR EQ/TEVQF 68-Q1
 :bopqvfcngpu:ZHGHNY NVQ SBE OREXYRL PAGL FGEHPGHER SVER @ 1129 GEBWNA EQ BSS BYQ AHZORE FVK UJL
 ***************************************************************************
-Evpuynaq pbhagl, FP (FPEvpuynaqPbhaglCnefre)
+Evpuynaq Pbhagl, FP (FPEvpuynaqPbhaglCnefre)
 (911 Cntr) Cntre Tebhc: Pbqr: Nqqerff: 1408 Ubyyvatfurq Eq Ceboyrz: Fgehpgher Sver - Ubhfr Y7,E1,R16,VR2,R20,ONG2,ONG5 Snpvyvgl: ZncTevq 13P2
 (911 Cntr) Cntre Tebhc: Pbqr: Nqqerff: 3415 Oebnq Evire Eq Ceboyrz: Zrgunzcurgnzvar Yno Y7,E1,UZ1,R6,R16,ONG1,ONG2 Snpvyvgl: ZncTevq 19O4
 (911 Cntr) Cntre Tebhc: Pbqr: Nqqerff: 5508-5545 Funxrfcrner Eq Ceboyrz: Fgehpgher Sver - Pbzzrepvny R11,R12,R14,Y7,Y9,E1,ONG5,ONG2 Snpvyvgl: ZncTevq 35O4
+***************************************************************************
+Fhzgre Pbhagl, FP (O) (FPFhzgrePbhaglOCnefre) 
+{678} NYF-1 ZG-10 Oevggnal/Wnlyra\a\aGhbzrl re Orq 11-Vbar Punaprl-Cnyzrggb Oncgvfg RE\a\aQK: Grafvba Carhzbprcunyhf\a\aPneqvnp Zbavgbe
+{652} NYF-1 ZG-10 Xngul/Oyh\a\aGhbzrl Re Ez 10/E Jrlzbhgu-Yrkvatgba Ez 321\a\aQK: Aba-Fgrzv\a\aPneqvnp Zbavgbe
+{646} NYF-1 ZG-10 Xngul/Oyh\a\aGhbzrl Ez 540-FU&E Jrfg\a\aQk: Qvfpunetr 
 ***************************************************************************
 Lbex Pbhagl, FP (FPLbexPbhaglCnefre) 
 S212  C: 2 YBP: 375 FGNEYVTUG QE K: PNHFR JNL YA / MRAVGU NI * * Sbeg Zvyy * * Genhzn * ZRQ BCF 2//SNYY J/VAWHEL * ELNA PBEAJRY ANE:  SEBAG BS ZBGRY PNYYRE JVYY SYNT GURZ QBJA  EZ 374/53 LBZ SRYY BSS FPNSSBYQVAT YNFG JRRX SRYY NTNVA GBQNL/UVC CNVA  VAP#: 2010-00009042 

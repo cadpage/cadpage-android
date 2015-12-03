@@ -3,9 +3,9 @@ package net.anei.cadpage.parsers.SC;
 import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 
 
-public class SCSumterCountyParser extends DispatchA3Parser {
+public class SCSumterCountyAParser extends DispatchA3Parser {
  
-  public SCSumterCountyParser() {
+  public SCSumterCountyAParser() {
     super(0, "SUMTER COUNTY", "SC");
   }
   

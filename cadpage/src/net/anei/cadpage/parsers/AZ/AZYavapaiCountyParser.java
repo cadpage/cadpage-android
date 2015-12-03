@@ -7,6 +7,7 @@ import net.anei.cadpage.parsers.GroupBestParser;
  */
 public class AZYavapaiCountyParser extends GroupBestParser {
   public AZYavapaiCountyParser() {
-    super(new AZYavapaiCountyAParser(), new AZYavapaiCountyBParser(), new AZYavapaiCountyCParser());
+    super(new AZYavapaiCountyAParser(), new AZYavapaiCountyBParser(),
+        new AZYavapaiCountyCParser(), new AZYavapaiCountyDParser());
   }
 }
