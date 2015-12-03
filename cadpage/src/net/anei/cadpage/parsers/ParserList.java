@@ -139,6 +139,7 @@ public class ParserList {
           ),
           new ParserCategory("Alaska"
               ,"AKFairbanks"                    ,"Fairbanks, AK"
+              ,"AKJuneau"                       ,"Juneau, AK"
               ,"AKKenaiPeninsulaBorough"        ,"Kenai Peninsula Borough, AK"
           ),
           new ParserCategory("Arizona"
@@ -589,6 +590,7 @@ public class ParserList {
               ,"MIBayCounty"                    ,"Bay County, MI"
               ,"MIBerrienCounty"                ,"Berrien County, MI"
               ,"MICalhounCounty"                ,"Calhoun County, MI"
+              ,"MICassCounty"                   ,"Cass County, MI"
               ,"MICharlevoixCounty"             ,"Charlevoix County, MI"
               ,"MICheboyganCounty"              ,"Cheboygan County, MI"
               ,"MIChippewaCounty"               ,"Chippewa County, MI"
@@ -629,7 +631,9 @@ public class ParserList {
               ,"MNBeckerCounty"                 ,"Becker County, MN"
               ,"MNBeltramiCounty"               ,"Beltrami County, MN"
               ,"MNBlueEarthCounty"              ,"Blue Earth County, MN"
+              ,"MNBrownCounty"                  ,"Brown County, MN"
               ,"MNCarverCounty"                 ,"Carver County, MN"
+              ,"MNCassCounty"                   ,"Cass County, MN"
               ,"MNCrowWingCounty"               ,"Crow Wing County, MN"
               ,"MNDakotaCounty"                 ,"Dakota County, MN"
               ,"MNDodgeCounty"                  ,"Dodge County, MN"
@@ -641,6 +645,7 @@ public class ParserList {
               ,"MNGoodhueCounty"                ,"Goodhue County, MN"
               ,"MNHennepinCounty"               ,"Hennepin County, MN"
               ,"MNIsantiCounty"                 ,"Isanti County, MN"
+              ,"MNKandiyohiCounty"              ,"Kandiyohi County, MN"
               ,"MNLyonCounty"                   ,"Lyon County, MN"
               ,"MNMartinCounty"                 ,"Martin County, MN"
               ,"MNMcLeodCounty"                 ,"McLeod County, MN"
@@ -1064,6 +1069,7 @@ public class ParserList {
               ,"PAArmstrongCounty"              ,"Armstrong County, PA"
               ,"PABeaverCounty"                 ,"Beaver County, PA"
               ,"PABerksCounty"                  ,"Berks County, PA"
+              ,"PABethlehem"                    ,"Bethlehem, PA"
               ,"PABlairCounty"                  ,"Blair County, PA"
               ,"PABradfordCounty"               ,"Bradford County, PA"
               ,"PABucksCounty"                  ,"Bucks County, PA"
@@ -1274,8 +1280,10 @@ public class ParserList {
               ,"UTWeberCounty"                  ,"Weber County, UT"
           ),
           new ParserCategory("Vermont"
+              ,"VTAddisonCounty"                ,"Addison County, VT"
               ,"VTChittendenCounty"             ,"Chittenden County, VT"
               ,"VTHartford"                     ,"Hartford, VT"
+              ,"VTLamoilleCounty"               ,"Lamoille County, VT"
               ,"VTWindhamCounty"                ,"Windham County, VT"
               ,"VTWindsorCounty"                ,"Windsor County, VT"
           ),
@@ -1344,6 +1352,8 @@ public class ParserList {
               ,"VASouthamptonCounty"            ,"Southampton County, VA"
               ,"VASpotsylvaniaCounty"           ,"Spotsylvania County, VA"
               ,"VAStaffordCounty"               ,"Stafford County, VA"
+              ,"VAStaunton"                     ,"Staunton, VA"
+              ,"VASuffolk"                      ,"Suffolk, VA"
               ,"VASurryCounty"                  ,"Surry County, VA"
               ,"VAUniversityOfVirginia"         ,"University Of Virginia, VA"
               ,"VAWarrenCounty"                 ,"Warren County, VA"
@@ -1395,6 +1405,7 @@ public class ParserList {
               ,"WVPrestonCounty"				        ,"Preston County, WV"
               ,"WVRaleighCounty"                ,"Raleigh County, WV"
               ,"WVRoaneCounty"                  ,"Roane County, WV"
+              ,"WVWoodCounty"                   ,"Wood County, WV"
               ,"WVWyomingCounty"                ,"Wyoming County, WV"
           ),
           new ParserCategory("Wisconsin"
@@ -1414,6 +1425,7 @@ public class ParserList {
           new ParserCategory("Wyoming"
               ,"WYNatronaCounty"                ,"Natrona County, WY"
               ,"WYParkCounty"                   ,"Park County, WY"
+              ,"WYSubletteCounty"               ,"Sublette County, WY"
           ),
           new ParserCategory("Alberta, CA"
               ,"ZCAABCalgary"                   ,"Calgary, AB"
