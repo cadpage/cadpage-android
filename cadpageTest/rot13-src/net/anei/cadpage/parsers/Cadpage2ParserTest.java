@@ -28,6 +28,20 @@ choyvp pynff Pnqcntr2CnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
+  choyvp ibvq grfgCnefre() {
+    
+    frgQrsnhygf("", "QR");
+    qbGrfg("",
+        "PNYY: / Snyyra-Cbffvoyl Qnatrebhf Obql Nern Fgvyy ba gur Sybbe/Tebhaq\e\aNQQE: 7 GREEL YN\e\aPVGL: ARJ PNFGYR PBHAGL\e\aHAVG: AO9\e\aVASB: CebDN Cnenzbhag Zrqvpny: 68-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. PP Grkg: Snyyf Pnyyre Fgngrzrag: sryy, CebDN Cnenzbhag Zrqvpny: Qvfcngpu Pbqr: 17O01 Qrg. Grkg: CBFFVOYL QNAT\e\aQFG: QR\e\aZNQQE: 7 GREEL YA\e\aCNEFRE: Pnqcntr2\e\a",        
+        "PNYY:/ Snyyra-Cbffvoyl Qnatrebhf Obql Nern Fgvyy ba gur Sybbe/Tebhaq",
+        "NQQE:7 GREEL YN",
+        "PVGL:ARJ PNFGYR PBHAGL",
+        "HAVG:AO9",
+        "VASB:CebDN Cnenzbhag Zrqvpny: 68-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. PP Grkg: Snyyf Pnyyre Fgngrzrag: sryy, CebDN Cnenzbhag Zrqvpny: Qvfcngpu Pbqr: 17O01 Qrg. Grkg: CBFFVOYL QNAT",
+        "ZNQQE:7 GREEL YA");        
+  }
+  
+  @Grfg
   choyvp ibvq grfgOnq() {
     qbOnqGrfg("Guvf vf na Npgvir911 grfg zrffntr");
   }
