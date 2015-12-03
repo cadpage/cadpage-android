@@ -6,6 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 
 /*
+Pnff Pbhagl, ZV
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: FRCFN Sver Nhgubevgl
