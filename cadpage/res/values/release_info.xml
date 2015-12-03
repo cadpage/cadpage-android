@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11292015</string>
-  <string name="release_version">v1.8.79</string>
+  <string name="release_date">12032015</string>
+  <string name="release_version">v1.8.80</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.80\n
+New Locations:\n
+Yavapai County, AZ (alt)\n
+Appanoose County, IA\n
+Cass County, MI\n
+Cass County, MN\n
+Brown County, MN\n
+Kandiyohi County, MN\n
+Allen County, OH (alt)\n
+Portage County, OH (alt)\n
+Warren County, OH (alt)\n
+Bethlehem, PA\n
+Sumter County, SC (alt)\n
+Addison County, VT\n
+Lamoille County, VT\n
+Staunton, VA\n
+Suffolk, VA\n
+Wood County, WV\n
+Sublette County, WY\n
+\n
+Location Fixes:\n
+Hot Spring County, AR\n
+New Castle County, DE\n
+Burlington County, NJ\n
+Gloucester County, NJ\n
+Rowan County, NC\n
+Shelby County, IN\n
+Sedgewick County, KS\n
+Clark County, NV\n
+Adams County, OH\n
+Adams County, PA\n
+Monroeville, PA\n
+\n
 v1.8.79\n
 Location Fixes:\n
 Riley County, KS\n
 Boone County, KY\n
 Charles County, MD\n
 Licking County, OH\n
+Cy Creek Comm Center, TX\n
 \n      
 v1.8.78\n
 Location Fixes:\n
@@ -58,24 +92,7 @@ Fluvanna County, VA\n
 Morgan County, WV\n
 Raleigh County, WV\n
 Prince George, BC\n
-New Zealand\n
-\n
-v1.8.75\n
-New Locations:\n
-Orange County, FL\n
-Winfield County, GA (alt)\n
-Murray County, KY\n
-Grand Island, NE\n
-Greenwood County, SC\n
-Tarrant County, TX (alt)\n
-\n
-Location Fixes:\n
-Dothan, AL\n
-Jefferson County, AL\n
-Posey County, IN\n
-Erie County, NY\n
-Loudoun County, TN\n
-Hartford, VT
+New Zealand
   </string>
 </resources>
   
