@@ -18,7 +18,7 @@ public class NHGraftonCountyParser extends DispatchArchonixParser {
   
   @Override
   public String getFilter() {
-    return "cccademail@LRMFA.org";
+    return "cccademail@LRMFA.org,mobile@nhleds.com,@vzwpix.com";
   }
   
   @Override

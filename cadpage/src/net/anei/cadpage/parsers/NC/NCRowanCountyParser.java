@@ -5,6 +5,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 
@@ -12,7 +14,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   
   public NCRowanCountyParser() {
     super(CITY_CODES, "ROWAN COUNTY", "NC",
-           "FYI? CALL ADDR! ( OPTPLACE | X/Z+? CITY XPLACE+? MAP_CH_UNIT MAP_CH_UNIT+? ) INFO+");
+           "FYI? CALL ADDR! ( CITY | X/Z CITY | X/Z X/Z CITY | ) XPLACE+? ( INFO | MAP_CH_UNIT MAP_CH_UNIT+? ) INFO+");
   }
   
   @Override
@@ -21,18 +23,19 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   }
   
   @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom();
+  }
+
+  @Override
   protected boolean parseMsg(String body, Data data) {
     boolean ok = body.startsWith("CAD:");
     if (!ok) body = "CAD:" + body;
     if (!super.parseMsg(body, data)) return false;
     
-    // If we never got a city, assume this is an out of county mutual aid call
     // If we didn't have the CAD: prefix and don't have a city, this is just
     // to chancy to accept
-    if (data.strCity.length() == 0) {
-      if (!ok) return false;
-      data.defCity = "";
-    }
+    if (!ok && data.strCity.length() == 0) return false;
     
     if (data.strCity.equals("OUT OF COUNTY")) {
       data.defCity = "";
@@ -51,11 +54,9 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   protected Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("OPTPLACE")) return new MyOptionalPlaceField();
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("XPLACE")) return new MyCrossPlaceField();
     if (name.equals("MAP_CH_UNIT")) return new MyMapChannelUnitField();
-    if (name.equals("ID")) return new IdField("\\d{8}");
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
@@ -83,6 +84,9 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
         if (BAD_CITY_PTN.matcher(data.strCity).matches()) abort();
         if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
       }
+      if (field.endsWith(" DR DR") || field.endsWith(" RD RD")) {
+        field = field.substring(0,field.length()-3);
+      }
       super.parse(field, data);
     }
     
@@ -92,10 +96,9 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
     }
   }
   
-  // Special place field that only triggers if there is no city field
-  // further downstream.  This indicates an out of county mutual aid call
-  private class MyOptionalPlaceField extends MyPlaceField {
-    
+  // Check for city append with following cross/place field :(
+  private static final Pattern CITY_PLACE_PTN = Pattern.compile("([A-Z]{3,4})((?:DIST:|\\(S\\)).*)");
+  private class MyCityField extends MyCrossPlaceField {
     @Override
     public boolean canFail() {
       return true;
@@ -103,65 +106,35 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      
-      // Only valid if there is no downstream city field
-      for (int ndx = 0; ; ndx++) {
-        String fld = getRelativeField(ndx);
-        if (fld.length() == 0) break;
-        if (fld.length() <= 4) {
-          if (CITY_CODES.getProperty(fld) != null) return false;
-        }
-      }
-      
-      // But sometimes the first 4 characters are a city code
-      if (data.strCity.length() == 0 && field.length() >= 4) {
-        String city = CITY_CODES.getProperty(field.substring(0,4));
-        if (city != null) {
-          data.strCity = city;
-          field = field.substring(4).trim();
-        }
-      }
-      
-      if (ID_PTN.matcher(field).matches()) {
-        data.strCallId = field;
+      String city;
+      if (field.length() <= 4) {
+        city = field;
+        field = "";
       } else {
-        parse(field, data);
+        Matcher match = CITY_PLACE_PTN.matcher(field);
+        if (!match.matches()) return false;
+        city = match.group(1);
+        field = match.group(2);
       }
-      
-      // We don't know what county this is, but we now it is not Rowan County
+      city = CITY_CODES.getProperty(city);
+      if (city == null) return false;
+      data.strCity = city;
+      if (field.length() > 0) super.parse(field, data);
       return true;
     }
-      
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+    
     @Override
     public String getFieldNames() {
       return "CITY " + super.getFieldNames();
     }
   }
   
-  // City field is required, and must be found in table to rule out
-  // similar transactions from other locations
-  private class MyCityField extends CityField {
-    
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
-      if (field.length() > 4) return false;
-      parse(field, data);
-      return true;
-    }
-    
-    @Override
-    public void parse(String field, Data data) {
-      super.parse(field, data);
-      if (field.equals(data.strCity)) abort();
-    }
-  }
-  
-  private static final Pattern CODE_DESC_PTN = Pattern.compile("(\\d{1,2}[A-Z]\\d{1,2}) +(.*)");
+  private static final Pattern CODE_DESC_PTN = Pattern.compile("(\\d{1,3}[A-Z]\\d{1,2}) +(.*)");
   private static final Pattern APT_PTN = Pattern.compile("(?:APT|ROOM|LOT) *(.*)");
   private class MyCrossPlaceField extends MyPlaceField {
     
@@ -185,6 +158,9 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
       }
       
       // See if this looks like a set of cross streets
+      if (field.endsWith(" DR DR") || field.endsWith(" RD RD")) {
+        field = field.substring(0,field.length()-3);
+      }
       if (field.endsWith("CREEK") || field.endsWith("XING") || isValidAddress(field)) {
         data.strCross = append(data.strCross, " / ", field);
         return;
@@ -292,24 +268,15 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
         part = match.group(1);
       }
       
-      else if (part.length() <= 4 && NUMERIC.matcher(part).matches()) {
+      else if (data.strCross.length() == 0 && part.length() <= 5 && !part.contains(" ") && !part.equals("MM")) {
         apt = true;
       }
       
       if (apt) {
         if (!part.equals(data.strApt)) data.strApt = append(data.strApt, "-", part);
       }
-      
-      else if (data.strPlace.length() == 0) {
-        data.strPlace = part;
-      }
-      
       else if (!part.equals(data.strPlace)) {
-        if (part.length() > 5 || part.contains(" ") || part.equals("MM")) {
-          data.strPlace = append(data.strPlace, " - ", part);
-        } else {
-          data.strApt = append(data.strApt, "-", part);
-        }
+        data.strPlace = append(data.strPlace, " - ", part);
       }
     }
     
@@ -319,8 +286,23 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
     }
   }
   
+  private static final Pattern OPT_INFO_PTN = Pattern.compile("(?![A-Z]{0,4}DIST:|\\d{1,3}[A-Z]\\d{1,2} ).*(?:[a-z\\{'`]|\\bHOLD\\b|\\bON THE\\b|\\bCALLER\\b|\\bLOCATED\\b).*");
   private static final Pattern INFO_CHANNEL_PTN = Pattern.compile("Radio Channel: *(.*)");
   private class MyInfoField extends InfoField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.contains("(S)")) return false;
+      if (!field.contains(" ")) return false;
+      if (field.length() < 50 && !OPT_INFO_PTN.matcher(field).matches()) return false;
+      parse(field, data);
+      return true;
+    }
+    
     @Override
     public void parse(String field, Data data) {
       Matcher match = INFO_CHANNEL_PTN.matcher(field);
@@ -329,6 +311,11 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
         return;
       }
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " CH";
     }
   }
   
@@ -355,6 +342,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
       
       // Cabarrus County, NC
       "CON",  "CONCORD",
+      "CONC", "CONCORD",
       
       // Out of County
       "OOC",  "OUT OF COUNTY"
