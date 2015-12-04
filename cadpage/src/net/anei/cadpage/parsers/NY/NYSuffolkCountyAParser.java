@@ -15,14 +15,6 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
     super(CITY_TABLE, "SUFFOLK COUNTY", "NY");
     setFieldList("CALL ADDR CITY PLACE APT X CODE INFO TIME");
     setupDoctorNames("KAHN", "HSU", "KAMDAR", "KLEINER", "SINGH");
-    setupMultiWordStreets(
-        "FIRE ISLAND",
-        "LONG ISLAND",
-        "MIDDLE ISLAND",
-        "MORICHES MIDDLE ISLAND",
-        "SPRING HOLLOW",
-        "YAPHANK MIDDLE ISLAND"
-    );
   }
   
   @Override
@@ -30,6 +22,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
     return "paging@scfres.com,@communityamb.org,FRES CAD,6316640853@pm.sprint.com";
   }
 
+  private static final Pattern SUFFOLK_E_MARKER = Pattern.compile("(?:/[A-Z ]*RELAY */|(?:FROM )?RELAY )");
   private static final String[] KEYWORDS = new String[]{"TYPE", "LOC", "CROSS", "CODE", "TIME"};
 
   private static final Pattern CALL_ADDR_SPLIT_PTN = Pattern.compile(" +: +| {2,}");
@@ -39,10 +32,13 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
   private static final Pattern SPECIAL_PTN = Pattern.compile("(.*)(\\*\\*\\*_[_A-Z]+_\\*\\*\\*):?(.*)");
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
     // Anything starting with 3 asterisks is the similar but different (B) variant
     if (body.startsWith("***")) return false;
+    
+    // Drop anything that might be a E format
+    if (subject.contains("FROM RELAY") || SUFFOLK_E_MARKER.matcher(body).lookingAt()) return false;
 
     // Some formats cut the initial TYPE: code
     if (body.startsWith("FWD:")) body = body.substring(4).trim();
