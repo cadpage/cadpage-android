@@ -10,13 +10,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class NYSuffolkCountyAParser extends SmartAddressParser {
-
-  private static final String[] KEYWORDS = new String[]{"TYPE", "LOC", "CROSS", "CODE", "TIME"};
-  
-  private static final Pattern APT_PTN = Pattern.compile("(.*)[: ](?:APT|ROOM|UNIT|STE) +#?([^ ]+)");
-  private static final Pattern PLACE_MARK_PTN = Pattern.compile(": ?@|@|:|;");
-  private static final Pattern ADDR_CROSS_PTN = Pattern.compile("(.*)(?:[ :][SC]/S(?: ?=)?| X-| CX )(.*?)(?:\\.{2,} *(.*))?");
-  private static final Pattern SPECIAL_PTN = Pattern.compile("(.*)(\\*\\*\\*_[_A-Z]+_\\*\\*\\*):?(.*)");
   
   public NYSuffolkCountyAParser() {
     super(CITY_TABLE, "SUFFOLK COUNTY", "NY");
@@ -34,8 +27,16 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "paging@scfres.com,@communityamb.org,FRES CAD";
+    return "paging@scfres.com,@communityamb.org,FRES CAD,6316640853@pm.sprint.com";
   }
+
+  private static final String[] KEYWORDS = new String[]{"TYPE", "LOC", "CROSS", "CODE", "TIME"};
+
+  private static final Pattern CALL_ADDR_SPLIT_PTN = Pattern.compile(" +: +| {2,}");
+  private static final Pattern APT_PTN = Pattern.compile("(.*)[: ](?:APT|ROOM|UNIT|STE) +#?([^ ]+)");
+  private static final Pattern PLACE_MARK_PTN = Pattern.compile(": ?@|@|:|;");
+  private static final Pattern ADDR_CROSS_PTN = Pattern.compile("(.*)(?:[ :][SC]/S(?: ?=)?| X-| CX )(.*?)(?:\\.{2,} *(.*))?");
+  private static final Pattern SPECIAL_PTN = Pattern.compile("(.*)(\\*\\*\\*_[_A-Z]+_\\*\\*\\*):?(.*)");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -45,6 +46,16 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
 
     // Some formats cut the initial TYPE: code
     if (body.startsWith("FWD:")) body = body.substring(4).trim();
+    
+    // Brentwood FD wraps their alert in some HTML text that needs to be stripped out
+    if (body.startsWith("<HEAD>")) {
+      int pt = body.indexOf("TYPE:");
+      if (pt < 0) return false;
+      body = body.substring(pt);
+      pt = body.indexOf('\n');
+      if (pt < 0) return false;
+      body = body.substring(0,pt).trim();
+    }
     if (!body.startsWith("TYPE:")) body = "TYPE:" + body;
 
     Properties props = parseMessage(body, KEYWORDS);
@@ -60,67 +71,75 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
         parseAddress(data.strCross, data);
         data.strCross = "";
       } else {
-        int pt = data.strCall.indexOf(" : ");
-        if (pt < 0) return false;
-         sAddress = data.strCall.substring(pt+3).trim();
-         data.strCall = data.strCall.substring(0,pt).trim();
+        Matcher match = CALL_ADDR_SPLIT_PTN.matcher(data.strCall);
+        if (!match.find()) return false;
+        sAddress = data.strCall.substring(match.end());
+        data.strCall = data.strCall.substring(0,match.start());
       }
     }
     if (sAddress != null) {
-      Matcher match = APT_PTN.matcher(sAddress);
-      if (match.matches()) {
-        sAddress = match.group(1).trim();
-        data.strApt = match.group(2).trim();
-      }
       
-      match = ADDR_CROSS_PTN.matcher(sAddress);
-      if (match.matches()) {
-        sAddress = match.group(1).trim();
-        data.strCross = append(match.group(2).trim(), " / ", data.strCross);
-        data.strPlace = append(getOptGroup(match.group(3)), " - ", data.strPlace);
+      if (sAddress.startsWith("/")) {
+        data.strPlace = sAddress.substring(1).trim();
+        parseAddress(data.strCross, data);
+        data.strCross = "";
       }
-      
-      match = SPECIAL_PTN.matcher(sAddress);
-      if (match.matches()) {
-        sAddress = match.group(1).trim();
-        data.strSupp = append(match.group(2).trim(), "\n", match.group(3).trim());
-      }
-
-      String[] addrFlds = PLACE_MARK_PTN.split(sAddress, 3);
-      if (addrFlds.length > 1) {
-        sAddress = addrFlds[0].trim();
-        String place = addrFlds[1].trim();
-        if (NUMERIC.matcher(place).matches()) {
-          data.strApt = append(place, "-", data.strApt);
-        } else {
-          data.strPlace = append(place, " - ", data.strPlace);
-        }
-        if (addrFlds.length > 2) data.strSupp = append(data.strSupp, "\n", addrFlds[2].trim());
-        match = APT_PTN.matcher(sAddress);
+      else {
+        Matcher match = APT_PTN.matcher(sAddress);
         if (match.matches()) {
           sAddress = match.group(1).trim();
-          data.strApt = append(match.group(2).trim(), "-", data.strApt);
+          data.strApt = match.group(2).trim();
         }
-      }
-      
-      // We have so many city codes that many of them form part of legitimate
-      // street names, which really messes things up.  To cut down on some of
-      // the confusion, any double blank following a legitimate city code is
-      // treated as the end of the address
-      int pt = -1;
-      while (true) {
-        pt = sAddress.indexOf("  ", pt+1);
-        if (pt < 0) break;
-        Result res = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddress.substring(0,pt));
-        if (res.getCity().length() > 0) {
-          res.getData(data);
-          data.strPlace = append(sAddress.substring(pt+2).trim(), " - ", data.strPlace);
-          break;
+        
+        match = ADDR_CROSS_PTN.matcher(sAddress);
+        if (match.matches()) {
+          sAddress = match.group(1).trim();
+          data.strCross = append(match.group(2).trim(), " / ", data.strCross);
+          data.strPlace = append(getOptGroup(match.group(3)), " - ", data.strPlace);
         }
-      }
-      if (data.strCity.length() == 0) {
-        parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, sAddress, data);
-        data.strPlace = append(getLeft(), " - ", data.strPlace);
+        
+        match = SPECIAL_PTN.matcher(sAddress);
+        if (match.matches()) {
+          sAddress = match.group(1).trim();
+          data.strSupp = append(match.group(2).trim(), "\n", match.group(3).trim());
+        }
+  
+        String[] addrFlds = PLACE_MARK_PTN.split(sAddress, 3);
+        if (addrFlds.length > 1) {
+          sAddress = addrFlds[0].trim();
+          String place = addrFlds[1].trim();
+          if (NUMERIC.matcher(place).matches()) {
+            data.strApt = append(place, "-", data.strApt);
+          } else {
+            data.strPlace = append(place, " - ", data.strPlace);
+          }
+          if (addrFlds.length > 2) data.strSupp = append(data.strSupp, "\n", addrFlds[2].trim());
+          match = APT_PTN.matcher(sAddress);
+          if (match.matches()) {
+            sAddress = match.group(1).trim();
+            data.strApt = append(match.group(2).trim(), "-", data.strApt);
+          }
+        }
+        
+        // We have so many city codes that many of them form part of legitimate
+        // street names, which really messes things up.  To cut down on some of
+        // the confusion, any double blank following a legitimate city code is
+        // treated as the end of the address
+        int pt = -1;
+        while (true) {
+          pt = sAddress.indexOf("  ", pt+1);
+          if (pt < 0) break;
+          Result res = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddress.substring(0,pt));
+          if (res.getCity().length() > 0) {
+            res.getData(data);
+            data.strPlace = append(sAddress.substring(pt+2).trim(), " - ", data.strPlace);
+            break;
+          }
+        }
+        if (data.strCity.length() == 0) {
+          parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, sAddress, data);
+          data.strPlace = append(getLeft(), " - ", data.strPlace);
+        }
       }
     }
     
