@@ -17,7 +17,7 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
   
   public DENewCastleCountyEParser() {
     super("NEW CASTLE COUNTY", "DE",
-          "Tac_#:CH! Date/Time:DATETIME! Call_Address:ADDRCITY/S6Xa! Common_Name:PLACE! Cross_Streets:X! Local_Info:PLACE! Development:CITY! Type:CODE_CALL! Narrative:INFO! INFO/N+ EMS_Dist:MAP! Fire_Quad:MAP! Inc_Numbers:ID! Units_Assigned:UNIT! Alerts:INFO/N! INFO/N+ Status_Times:TIMES+ MAP:SKIP");
+          "Tac_#:CH? Date/Time:DATETIME! Call_Address:ADDRCITY/S6Xa! Common_Name:PLACE! Cross_Streets:X! Local_Info:PLACE! Development:CITY? Type:CODE_CALL! Narrative:INFO! INFO/N+ EMS_Dist:MAP! Fire_Quad:MAP! Inc_Numbers:ID! Units_Assigned:UNIT! Alerts:INFO/N! INFO/N+ Status_Times:TIMES+ MAP:SKIP");
   }
   
   @Override
@@ -25,7 +25,7 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
     return "NW911@state.de.us";
   }
   
-  private static final Pattern MARKER = Pattern.compile("NCC911 Rip & Run *\\n");
+  private static final Pattern MARKER = Pattern.compile("NCC911 Rip & Run *(?:: *\\d+ *)?\\n");
   
   private Set<String> unitSet = new HashSet<String>();
   private String timeInfo;
