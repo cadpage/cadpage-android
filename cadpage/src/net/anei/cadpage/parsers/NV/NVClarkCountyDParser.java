@@ -18,23 +18,15 @@ public class NVClarkCountyDParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "sms@pageway.net";
+    return "sms@pageway.net,44627545";
   }
   
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("Unit:(\\S+)(Rec:.*)");
   private static final Pattern RUN_REPORT_BRK_PTN = Pattern.compile("(?<=\\d\\d:\\d\\d)(?=[A-Z]{3})", Pattern.CASE_INSENSITIVE);
   private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Inc:|Pri:|Prob:|Add:)");
   @Override
-  public boolean parseMsg(String subject, String body, Data data) {
-    do {
-      if (subject.equals("SMS")) break;
-      if (body.startsWith("SMS / ")) {
-        body = body.substring(6).trim();
-        break;
-      }
-      return false;
-    } while (false);
-    
+  public boolean parseMsg(String body, Data data) {
+    body = stripFieldStart(body, "SMS / ");
     Matcher match = RUN_REPORT_PTN.matcher(body);
     if (match.matches()) {
       setFieldList("UNIT INFO");

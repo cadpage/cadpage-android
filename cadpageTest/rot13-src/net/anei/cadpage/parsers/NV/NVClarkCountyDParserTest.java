@@ -15,6 +15,10 @@ Fraqre: Sebz:fzf@cntrjnl.arg
 (FZF) Havg:N122Vap:150301207 Cev:C1 Cebo:31Q-HapbafpvbhfSnvag(AbaGenhz)Nqq:9131 Frn Pbir Fg
 (FZF) Havg:N122Vap:150301007 Cev:C1 Cebo:1P-Noqbzvany Cnva Nqq:11203 Cvnmmnyr Fg
 
+Pbagnpg: craal chxnyy <craabcr21@lnubb.pbz>
+Fraqre: 44627545
+Havg:N148Vap:150302410 Cev:C1 Cebo:26O-Fvpx Crefba(Fcrpvsvp Qvnt)Nqq:9777 F YNF IRTNF OYIQ
+
 */
 
 choyvp pynff AIPynexPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -68,6 +72,20 @@ choyvp pynff AIPynexPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Noqbzvany Cnva",
         "NQQE:11203 Cvnmmnyr Fg");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCraalChxnyy() {
+
+    qbGrfg("G1",
+        "Havg:N148Vap:150302410 Cev:C1 Cebo:26O-Fvpx Crefba(Fcrpvsvp Qvnt)Nqq:9777 F YNF IRTNF OYIQ",
+        "HAVG:N148",
+        "VQ:150302410",
+        "CEV:C1",
+        "PBQR:26O",
+        "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)",
+        "NQQE:9777 F YNF IRTNF OYIQ");
+   
   }
   
 
