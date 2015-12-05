@@ -311,6 +311,8 @@ Ntrapl anzr: Oheegba Pbafbyvqngrq Sver Qvfgevpg #5
 Ybpngvba: Oheegba, XF, Havgrq Fgngrf
 Fraqre: <pnq@uneirlpbhagl.pbz>
 
+(_QvfcngpuUIPB) OSQ SVER TENFF R OYNAPUNEQ NIR & F UNIRA EQ Pnyy Ahzore: 464504 Qrfpevcgvba: hf 50 3/4 j unira eq a fvqr. \e\a1/4 nper 3-4 sg synzrf.
+(_QvfcngpuUIPB) OSQ SVER TENFF R OYNAPUNEQ NIR & F UNIRA EQ Pnyy Ahzore: 464504 Qrfpevcgvba: hf 50 3/4 j unira eq a fvqr. \e\a1/4 nper 3-4 sg synzrf.  \e\a46?S\e\a8?P\e\aUhzvqvgl\g50%\e\aJvaq Fcrrq\gAJ 15 T 20 zcu\e\aOnebzrgre\g30.11 va\e\aQrjcbvag\g28?S (-2?P)\e\aIvfvovyvgl\g10.00 zv\e\aJvaq Puvyy\g40?S (4?P)\e\aYnfg hcqngr\g2 Qrp 12:35 cz PFG
 (_QvfcngpuUIPB) ORZF FRVMHER/PBAIHYFVBAF 105 R YVAPBYA FG Pnyy Ahzore: 421443 Qrfpevcgvba: qrygn
 (_QvfcngpuUIPB) ORZF VAWHEL NPPVQRAG F UNIRA EQ & R VYYVABVF EQ Pnyy Ahzore: 421163 Qrfpevcgvba:
 (_QvfcngpuUIPB) ORZF VAWHEL NPPVQRAG F ENLY EQ & R OYNAPUNEQ NIR Pnyy Ahzore: 420673 Qrfpevcgvba:
@@ -3261,6 +3263,35 @@ choyvp pynff XFUneirlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgOheegbaPbafbyvqngrqSverQvfgevpg5() {
+
+    qbGrfg("K1",
+        "(_QvfcngpuUIPB) OSQ SVER TENFF R OYNAPUNEQ NIR & F UNIRA EQ Pnyy Ahzore: 464504 Qrfpevcgvba: hf 50 3/4 j unira eq a fvqr. \e\a" +
+        "1/4 nper 3-4 sg synzrf.",
+
+        "HAVG:OSQ",
+        "PNYY:SVER TENFF",
+        "NQQE:R OYNAPUNEQ NIR & F UNIRA EQ",
+        "VQ:464504",
+        "VASB:hf 50 3/4 j unira eq a fvqr. \a1/4 nper 3-4 sg synzrf.");
+
+    qbGrfg("K2",
+        "(_QvfcngpuUIPB) OSQ SVER TENFF R OYNAPUNEQ NIR & F UNIRA EQ Pnyy Ahzore: 464504 Qrfpevcgvba: hf 50 3/4 j unira eq a fvqr. \e\a" +
+        "1/4 nper 3-4 sg synzrf.  \e\a" +
+        "46?S\e\a" +
+        "8?P\e\a" +
+        "Uhzvqvgl\g50%\e\a" +
+        "Jvaq Fcrrq\gAJ 15 T 20 zcu\e\a" +
+        "Onebzrgre\g30.11 va\e\a" +
+        "Qrjcbvag\g28?S (-2?P)\e\a" +
+        "Ivfvovyvgl\g10.00 zv\e\a" +
+        "Jvaq Puvyy\g40?S (4?P)\e\a" +
+        "Ynfg hcqngr\g2 Qrp 12:35 cz PFG",
+
+        "HAVG:OSQ",
+        "PNYY:SVER TENFF",
+        "NQQE:R OYNAPUNEQ NIR & F UNIRA EQ",
+        "VQ:464504",
+        "VASB:hf 50 3/4 j unira eq a fvqr. \a1/4 nper 3-4 sg synzrf.  \a46?S\a8?P\aUhzvqvgl\g50%\aJvaq Fcrrq\gAJ 15 T 20 zcu\aOnebzrgre\g30.11 va\aQrjcbvag\g28?S (-2?P)\aIvfvovyvgl\g10.00 zv\aJvaq Puvyy\g40?S (4?P)\aYnfg hcqngr\g2 Qrp 12:35 cz PFG");
 
     qbGrfg("G1",
         "(_QvfcngpuUIPB) ORZF FRVMHER/PBAIHYFVBAF 105 R YVAPBYA FG Pnyy Ahzore: 421443 Qrfpevcgvba: qrygn",
