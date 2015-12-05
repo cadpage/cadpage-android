@@ -271,6 +271,7 @@ class Active911Vendor extends Vendor {
       "US/CO/CityofGrandJunction",        "COMesaCounty",
       "US/CO/CityofGunnison",             "COGunnisonCounty",
       "US/CO/CityofLoveland",             "COLarimerCountyA",
+      "US/CO/CityofThornton",             "COThornton",
       "US/CO/ColoradoSprings",            "COElPasoCountyB",
       "US/CO/Crisppaging",                "COLarimerCountyC",
       "US/CO/DeltaCountyAmbulance",       "CODeltaCounty",
