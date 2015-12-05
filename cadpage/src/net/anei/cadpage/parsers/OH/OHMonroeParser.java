@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -9,7 +10,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class OHMonroeParser extends FieldProgramParser {
 
   public OHMonroeParser() {
-    super("MONROE", "OH", "ID CALL ADDR INFO X! Loc_Info:INFO! Owner:PLACE! Time_Out:DATETIME");
+    super(CITY_CODES, "MONROE", "OH", 
+          "ID CALL ADDRCITY INFO X! Loc_Info:INFO! Owner:PLACE! Time_Out:DATETIME");
   }
   
   @Override
@@ -29,7 +31,7 @@ public class OHMonroeParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     //check subj
-    if (!subject.equals("CAD Page")) return false;
+    if (!subject.startsWith("CAD Page")) return false;
     
     return parseFields(body.split("\n"), data);
   }
@@ -38,7 +40,7 @@ public class OHMonroeParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("ID")) return new IdField("\\d{2}-\\d{6}", true);
     if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("DATETIME")) return new MyDateTimeField();
@@ -57,7 +59,7 @@ public class OHMonroeParser extends FieldProgramParser {
     }
   }
   
-  public class MyAddressField extends AddressField {
+  public class MyAddressCityField extends AddressCityField {
     @Override
     public void parse(String field, Data data) {
       field = field.replace("@", "&");
@@ -113,5 +115,8 @@ public class OHMonroeParser extends FieldProgramParser {
       data.strTime = mat.group(2);
     }
   }
-
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "MIDDLE",   "MIDDLETON"
+  });
 }
