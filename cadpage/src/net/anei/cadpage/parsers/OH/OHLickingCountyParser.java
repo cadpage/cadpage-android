@@ -139,6 +139,16 @@ public class OHLickingCountyParser extends SmartAddressParser {
     else return false;
     
     if (data.strCall.length() > 0) {
+      if (addr.startsWith("@")) {
+        addr = addr.substring(1).trim();
+        if (addr.endsWith(")")) {
+          int pt = addr.lastIndexOf("(");
+          if (pt >= 0) {
+            data.strPlace = append(addr.substring(0,pt).trim(), " - ", data.strPlace);
+            addr = addr.substring(pt+1, addr.length()-1).trim();
+          }
+        }
+      }
       parseAddress(addr, data);
     } else {
       String token = null;
