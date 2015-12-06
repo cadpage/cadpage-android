@@ -835,6 +835,7 @@ public class DispatchBParser extends FieldProgramParser {
         "MVA - WITH INJURIES",
         "MVA-ALS PRI1",
         "MVA-TRAPPED MULTI PT/ADD RESPO",
+        "MVC NO INJURIES REPORTED",
         "MVC UNKNOWN INJURIES",
         "NATURAL OR LP GAS LEAK",
         "NATURAL GAS ODOR/LEAK",
