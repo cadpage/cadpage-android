@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 
 
@@ -14,12 +15,16 @@ public class DispatchA13Parser extends FieldProgramParser {
   
   // Construct flag indicating address field may contain a leading place/name field
   public static final int A13_FLG_LEAD_PLACE_NAME = 1;
+  public static final int A13_FLG_LEAD_PLACE = 2;
+  public static final int A13_FLG_TRAIL_PLACE = 4;
   
-  private static final String PROGRAM = "SRCID? DISPATCHED CALL! ADDR X:GPS1 Y:GPS2";
+  private static final String PROGRAM = "SRCID? STATUS CALL/SDS! ADDR X:GPS1 Y:GPS2";
   
   private Properties cityCodes = null;
   private boolean checkCity;
   private boolean leadPlaceName;
+  private boolean leadPlace;
+  private boolean trailPlace;
   
   public DispatchA13Parser(String defCity, String defState) {
     this(defCity, defState, 0);
@@ -54,6 +59,8 @@ public class DispatchA13Parser extends FieldProgramParser {
   
   private void setupFlags(int flags) {
     leadPlaceName = ((flags & A13_FLG_LEAD_PLACE_NAME) != 0);
+    leadPlace = ((flags & A13_FLG_LEAD_PLACE) != 0);
+    trailPlace = ((flags & A13_FLG_TRAIL_PLACE) != 0);
   }
 
   @Override
@@ -64,15 +71,15 @@ public class DispatchA13Parser extends FieldProgramParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("SRCID")) return  new SourceIdField();
-    if (name.equals("DISPATCHED")) return new SkipField("Dispatched|Acknowledge|Enroute|En Route Hosp|Responding|Req_?Dispatch|On *Scene|Standing ?By|Terminated|Stack|In Command|Staged", true);
+    if (name.equals("STATUS")) return new BaseStatusField();
     if (name.equals("ADDR")) return new BaseAddressField();
-    if (name.equals("GPS1")) return new MyGPSField(1);
-    if (name.equals("GPS2")) return new MyGPSField(2);
+    if (name.equals("GPS1")) return new BaseGPSField(1);
+    if (name.equals("GPS2")) return new BaseGPSField(2);
     return super.getField(name);
   }
   
   // SRCID field contains source and call ID
-  private static final Pattern SRCID_PTN = Pattern.compile("([A-Z0-9][- A-Z0-9]+)?:(\\d+(?::\\d+)?)|(([A-Z]{2,4})\\d{9})");
+  private static final Pattern SRCID_PTN = Pattern.compile("([A-Z0-9][- A-Za-z0-9]+)?:(\\d+(?::\\d+)?)|(([A-Z]{2,4})\\d{9})");
   private class SourceIdField extends Field {
     
     @Override
@@ -107,14 +114,34 @@ public class DispatchA13Parser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern STATUS_PTN = Pattern.compile("Dispatched|Req[ _]?Dispatch|(Acknowledge|Enroute|En Route Hosp|Responding|On *Scene|Standing ?By|Stack|In Command|Staged|Staging|ArrivedAtDestination|Transport)|(Disposed|Terminated)", Pattern.CASE_INSENSITIVE);
+  private class BaseStatusField extends Field {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = STATUS_PTN.matcher(field);
+      if (!match.matches()) abort();
+      String call = match.group(1);
+      if (call == null) {
+        call = match.group(2);
+        if (call != null) data.msgType = MsgType.RUN_REPORT;
+      }
+      if (call != null) data.strCall = call;
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "CALL";
+    }
+  }
+  
   // Address field contains address, city, and possibly cross streets
   // and now an optional leading place name :(
   private static final Pattern NUMBER_COMMA_PTN = Pattern.compile("([-\\d]+), *(.*)");
   private static final Pattern STATE_PTN = Pattern.compile("[A-Z]{2}");
-  private static final Pattern APT_PREFIX_PTN = Pattern.compile("^(?:APT|RM|ROOM) *");
-  private static final Pattern APT_PTN = Pattern.compile("(?:APT|RM|ROOM) *(.*)|BLDG?.*|.* FLR|.* FLOOR");
+  private static final Pattern APT_PREFIX_PTN = Pattern.compile("^(?:APT|RM|ROOM|LOT) *");
+  private static final Pattern APT_PTN = Pattern.compile("(?:APT|RM|ROOM|LOT) *(.*)|BLDG?.*|.* FLR|.* FLOOR");
   private static final Pattern BREAK_PTN = Pattern.compile(" *(?:[,;]) *");
-  private static final Pattern INCOMPLETE_NAME_PTN = Pattern.compile("[A-Z][A-Za-z]*");
+  private static final Pattern INCOMPLETE_NAME_PTN = Pattern.compile("(?:Dr\\.? )?[A-Z][A-Za-z]*");
   private static final Pattern TRAIL_NAME_PTN = Pattern.compile("(.*) # ([A-Z][-a-z]+)");
   protected class BaseAddressField extends AddressField {
     
@@ -167,6 +194,19 @@ public class DispatchA13Parser extends FieldProgramParser {
       // Otherwise, first part is the address and city and occasionally
       // a cross street
       else {
+        
+        // A leading place name that contains parenthesis really messes
+        // things up.  
+        if ((leadPlaceName || leadPlace) && sPart3.length() > 0) {
+          Result res3 = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, sPart3);
+          if (res3.getStatus() >= STATUS_INTERSECTION) {
+            sPart1 = sPart1 + " (" + sPart2 + ") " + sPart3;
+            sPart2 = sPart4;
+            sPart3 = sPart5;
+            sPart4 = sPart5 = "";
+          }
+        }
+        
         String addr = null;
         boolean incomplete = false;
         boolean startName = false;
@@ -188,11 +228,11 @@ public class DispatchA13Parser extends FieldProgramParser {
           fld = stripApt(fld, data);
           if (fld.length() == 0) continue;
           
-          // First part is goign to be parsed as an address
+          // First part is going to be parsed as an address
           // If we are looking for leading name, it might contain a comma
           if (addr == null) {
             addr = fld;
-            if (leadPlaceName && INCOMPLETE_NAME_PTN.matcher(fld).matches()) incomplete = true;
+            if ((leadPlaceName || leadPlace) && INCOMPLETE_NAME_PTN.matcher(fld).matches()) incomplete = true;
             continue;
           }
           if (incomplete) {
@@ -242,29 +282,67 @@ public class DispatchA13Parser extends FieldProgramParser {
           data.strCross = append(data.strCross, " / ", fld);
         }
         
-        if (!leadPlaceName && data.strCity.length() > 0) {
+        if (!leadPlaceName && !leadPlace && !trailPlace && data.strCity.length() > 0) {
           parseAddress(addr, data);
         } else {
-          StartType st = (leadPlaceName ? StartType.START_OTHER : StartType.START_ADDR);
-          parseAddress(st, FLAG_IGNORE_AT | FLAG_ANCHOR_END, addr, data);
+          StartType st = (leadPlaceName || leadPlace ? StartType.START_OTHER : StartType.START_ADDR);
+          int flags = FLAG_IGNORE_AT;
+          if (!trailPlace) flags |= FLAG_ANCHOR_END;
+          parseAddress(st, flags, addr, data);
           String place = getStart();
           if (place.length() > 0) {
             if (data.strAddress.length() == 0) {
               parseAddress(place, data);
             }
-            else if (checkPlace(place)) {
-              data.strPlace = place;
+            else if (leadPlace || checkPlace(place)) {
+              addPlace(place, data);
             }
             else {
               data.strName = place;
             }
           }
           
-          // another oddity, sometimes the same city occurs at the end of
-          // both streets in an intersection, so will try to eliminate the
-          // extra ones
+          // another oddity, sometimes the a city (and not necessarily the same city)
+          // occurs at the end of both streets in an intersection, so will try to 
+          // eliminate the extra ones
           if (data.strCity.length() > 0) {
+            int pt2 = data.strAddress.indexOf("&");
+            if (pt2 >= 0) {
+              String part1 = data.strAddress.substring(0,pt2).trim();
+              String part2 = data.strAddress.substring(pt2+1).trim();
+              data.strAddress = "";
+              String saveCity = data.strCity;
+              parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, part1, data);
+              data.strAddress = append(data.strAddress, " & ", part2);
+              if (data.strCity.length() == 0) {
+                data.strCity = saveCity;
+              } else if (saveCity.length() > 0 && !saveCity.equalsIgnoreCase(data.strCity)) {
+                data.strCity = "";
+              }
+            }
             data.strAddress = data.strAddress.replace(' ' + data.strCity + " &", " &");
+          }
+          
+          // If there might be a trailing place, pick it up and process it
+          // If it starts with a slash, this is probably the intersection with
+          // cities after both streets again :(
+          if (trailPlace) {
+            place = getLeft();
+            if (place.startsWith("/") ||   place.startsWith("&")) {
+              place = place.substring(1).trim();
+              String saveAddr = data.strAddress;
+              String saveCity = data.strCity;
+              data.strAddress = "";
+              parseAddress(StartType.START_ADDR, FLAG_IGNORE_AT, place, data);
+              data.strAddress = append(saveAddr, " & ", data.strAddress);
+              if (data.strCity.length() == 0) {
+                data.strCity = saveCity;
+              } else if (saveCity.length() > 0 && !saveCity.equalsIgnoreCase(data.strCity)) {
+                data.strCity = "";
+              }
+              place = getLeft();
+            }
+            addPlace(place, data);
           }
         }
         
@@ -318,7 +396,7 @@ public class DispatchA13Parser extends FieldProgramParser {
         part = stripApt(part, data);
         int pt = part.lastIndexOf("- ");
         if (pt >= 0) {
-          data.strPlace = append(data.strPlace, " - ", part.substring(pt+2).trim());
+          addPlace(part.substring(pt+2).trim(), data);
           part = part.substring(0,pt).trim();
         }
         if (part.length() == 0) continue;
@@ -330,8 +408,13 @@ public class DispatchA13Parser extends FieldProgramParser {
         else if (data.strCity.length() == 0  &&
                  (!checkCity || isCity(part))) {
           data.strCity = part;
-        } else if (!part.equals(data.strPlace)) {
-          data.strSupp = append(data.strSupp, " / ", part);
+        } else if ((match = APT_PTN.matcher(part)).matches()) {
+          String apt = match.group(1);
+          if (apt == null) apt = part;
+          data.strApt = append(data.strApt, "-", apt);
+        }
+        else {
+          addPlace(part, data);
         }
       }
       
@@ -362,9 +445,16 @@ public class DispatchA13Parser extends FieldProgramParser {
       if (pt >= 0) {
         String apt = part.substring(pt+1).trim();
         if (apt.startsWith("PVT")) {
-          data.strPlace = append(data.strPlace, " - ", apt);
+          addPlace(apt, data);
         } else { 
           apt = APT_PREFIX_PTN.matcher(part.substring(pt+1).trim()).replaceAll("");
+          if (trailPlace) {
+            int pt2 = apt.indexOf(' ');
+            if (pt2 >= 0) {
+              addPlace(apt.substring(pt2+1).trim(), data);
+              apt = apt.substring(0,pt2);
+            }
+          }
           data.strApt = append(data.strApt, " - ", apt);
         }
         part = part.substring(0,pt).trim();
@@ -375,11 +465,17 @@ public class DispatchA13Parser extends FieldProgramParser {
     private String stripNearPlace(String part, Data data) {
       int pt = part.indexOf("; Near:");
       if (pt >= 0) {
-        data.strPlace = append(data.strPlace, " - ", part.substring(pt+2));
+        addPlace(part.substring(pt+2), data);
         part = part.substring(0,pt).trim();
       }
       part = stripFieldStart(part, ";");
       return part;
+    }
+    
+    private void addPlace(String place, Data data) {
+      if (place.length() == 0) return;
+      if (place.equals(data.strPlace)) return;
+      data.strPlace = append(data.strPlace, " - ", place);
     }
     
     @Override
@@ -388,11 +484,11 @@ public class DispatchA13Parser extends FieldProgramParser {
     }
   }
   
-  private class MyGPSField extends GPSField {
+  private class BaseGPSField extends GPSField {
     
     private int type;
     
-    public MyGPSField(int type) {
+    public BaseGPSField(int type) {
       this.type = type;
     }
     

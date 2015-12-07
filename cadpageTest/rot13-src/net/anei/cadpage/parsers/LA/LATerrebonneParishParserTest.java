@@ -267,7 +267,7 @@ choyvp pynff YNGreerobaarCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:OX201500057",
         "PNYY:321 ZRQVPNY RZRETRAPL",
         "NQQE:4560 ABEGU ONLBH OYNPX QE",
-        "NCG:YBG 2",
+        "NCG:2",
         "K:OYNAPUNEQ OEVQTR/TERRA FG");
 
     qbGrfg("G10",

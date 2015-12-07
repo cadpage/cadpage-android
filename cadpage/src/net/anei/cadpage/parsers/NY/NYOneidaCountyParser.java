@@ -20,10 +20,11 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
   private static final Pattern CLINTON_FIRE_PTN = Pattern.compile("(?:\\d\\d[A-Z]\\d\\d )?[A-Z /\\(\\)]+  , ");
   private static final Pattern T_CITY_PTN = Pattern.compile("\\b(?:T/|T/O +|/T +)(CONSTANTIA|NORWAY|OHIO|RUSSIA)\\b");
   private static final Pattern MARKER = Pattern.compile("(?:(.*?)([^A-Z0-9]{1,4}))?\\b(Dispatched|Acknowledge|Enroute|En Route Hosp|On +Scene)([^A-Z0-9]{1,4})(?=[A-Z0-9])");
-  private static final Pattern CODE_PTN = Pattern.compile("^(\\d\\d[A-Z]\\d\\d) ?- ?");
+  private static final Pattern CODE_PTN = Pattern.compile("^([A-Za-z_ ]+ - )?(\\d\\d[A-Z]\\d\\d) ?- *");
   private static final Pattern KNLS = Pattern.compile("\\bKNLS\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern NEAR_PTN = Pattern.compile("[/;]? *(Near:.*)");
   private static final Pattern REAL_APT_PTN = Pattern.compile("(?:FLR|BLDG|LOT).*");
+  private static final Pattern APT_PLACE_PTN = Pattern.compile("(?:(\\d+[A-Z]?|\\d+[A-Z]* FLR)[_ ]+)?(.*?)(?:-(\\d+[A-Z]?|\\d+[A-Z]* FLR))?");
   
   public NYOneidaCountyParser() {
     super(CITY_LIST, "ONEIDA COUNTY", "NY");
@@ -140,8 +141,11 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     // Separate call code from call field
     match = CODE_PTN.matcher(data.strCall);
     if (match.find()) {
-      data.strCode = match.group(1);
-      data.strCall = data.strCall.substring(match.end()).trim();
+      data.strCode = match.group(2);
+      String prefix = match.group(1);
+      String call = data.strCall.substring(match.end());
+      if (prefix != null) call = prefix + call;
+      data.strCall = call;
     }
     
     // Clean up address
@@ -156,10 +160,28 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     
     // See if the apt field looks more like a place name
     data.strApt = stripFieldEnd(data.strApt, "_");
-    if (data.strPlace.length() == 0 && data.strApt.length() >= 8 &&
+    if (data.strApt.length() >= 8 &&
         !REAL_APT_PTN.matcher(data.strApt).matches()) {
-      data.strPlace = data.strApt;
-      data.strApt = "";
+      String place = data.strApt;
+      match = APT_PLACE_PTN.matcher(place);
+      if (match.matches()) {
+        data.strApt = append(getOptGroup(match.group(1)), "-", getOptGroup(match.group(3)));
+        place = match.group(2).trim();
+      } else {
+        data.strApt = "";
+      }
+      place = stripFieldEnd(place," NY");
+      if (data.strCity.length() > 0) {
+        place = stripFieldEnd(place, data.strCity);
+      }  
+      if (isCity(place)) {
+        if (data.strCity.length() == 0) {
+          data.strCity = place;
+        }
+      }
+      else if (!place.equals(data.strPlace)) {
+        data.strPlace = append(place, " - ", data.strPlace);
+      }
     }
 
     
@@ -169,7 +191,6 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     data.strCity = stripFieldEnd(data.strCity, " VILLA");
     data.strCity = stripFieldEnd(data.strCity, " OUTSIDE");
     data.strCity = stripFieldEnd(data.strCity, " INSIDE");
-    if (data.strCity.equals("ONEIDA COUNTY")) data.strCity = "";
     return true;
   }
   
