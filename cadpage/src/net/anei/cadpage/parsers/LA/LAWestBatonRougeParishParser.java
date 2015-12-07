@@ -19,12 +19,6 @@ public class LAWestBatonRougeParishParser extends DispatchA13Parser {
   public int getMapFlags() {
     return MAP_FLG_PREFER_GPS;
   }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("DISPATCHED")) return new SkipField("REQ DISPATCH|DISPATCHED|ENROUTE|ONSCENE", true);
-    return super.getField(name);
-  }
   
   private static final String[] CITY_LIST = new String[]{
     "ADDIS",

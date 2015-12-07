@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.AL;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 /**
  * Jefferson County, AL (F)
@@ -11,7 +12,7 @@ public class ALJeffersonCountyFParser extends FieldProgramParser {
 
   public ALJeffersonCountyFParser() {
     super("JEFFERSON COUNTY", "AL",
-          "Incident_Type:CALL? Incident_Location:ADDR! Incident_Number:ID! Date:DATE! Time:TIME! Incident_Type:CALL? Priority:PRI! Cross_Streets:X Remarks:INFO+");
+          "CALL:CALL! PLACE:PLACE! ADDR:ADDR! CITY:CITY! ID:ID! PRI:PRI! DATE:DATE! TIME:TIME! MAP:MAP! UNIT:UNIT! INFO:INFO/N+");
   }
     
   @Override
@@ -21,40 +22,21 @@ public class ALJeffersonCountyFParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    body = body.replace(" Time:", "\nTime:");
-    body = body.replace("\nCross Street:", "\nCross Streets:");
-    if (!parseFields(body.split("\n"), data)) return false;
-    return data.strCall.length() > 0;
+    return parseFields(body.split("\n"), data);
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
-  private class MyCallField extends CallField {
+  private class MyUnitField extends UnitField {
     @Override
     public void parse(String field, Data data) {
-      if (data.strCall.length() > 0) return;
-      data.strCall = field;
-    }
-  }
-  
-  private class MyAddressField extends AddressField {
-    @Override
-    public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      data.strName = p.getLastOptional('@');
-      data.strCity = p .getLastOptional(',');
-      super.parse(p.get(), data);
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "ADDR APT CITY NAME";
+      field = field.replace(' ', '_');
+      super.parse(field, data);
     }
   }
   
@@ -63,7 +45,24 @@ public class ALJeffersonCountyFParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       if (field.startsWith("[") && field.endsWith("]")) return;
+      if (field.startsWith("Dispatched:")) data.msgType = MsgType.RUN_REPORT;
+      if (field.startsWith("CROSS STREET OF ")) {
+        data.strCross = field.substring(15).trim();
+        return;
+      }
+      if (field.startsWith("CROSS STREETS ARE ")) {
+        field = field.substring(18).trim().replaceAll("  +", " ");
+        if (field.equals("AND")) return;
+        field = stripFieldEnd(field, " AND").replace(" AND ", " / ");
+        data.strCross = field;
+        return;
+      }
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "X " + super.getFieldNames();
     }
   }
 }

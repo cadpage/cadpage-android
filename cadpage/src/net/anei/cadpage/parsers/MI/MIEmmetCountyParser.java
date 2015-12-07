@@ -114,12 +114,31 @@ public class MIEmmetCountyParser extends DispatchOSSIParser {
       "WLS",  "WILSON TWP",
       
       // Cheboygan County
+      "AFT",  "AFTON",
+      "ALH",  "ALOHA TWP",
+      "BGR",  "BEAUGRAND TWP",
       "BNT",  "BENTON TWP",
       "BRT",  "BURT TWP",
+      "CH",  "CHEBOYGAN CITY",
+      "CHB",  "CHEBOYGAN",
+      "ELL",  "ELLIS TWP",
+      "FRS",  "FOREST TWP",
+      "GRN",  "GRANT TWP",
+      "HBR",  "HEBRON TWP",
+      "IND",  "INDIAN RIVER",
       "INV",  "INVERNESS TWP",
-      "MNR",  "MONRO TWP",
+      "KHL",  "KOEHLER TWP",
+      "MC",  "MACKINAW CITY",
+      "MLL",  "MULLET TWP",
+      "MNR",  "MUNRO TWP",
+      "NND",  "NUNDA TWP",
+      "TSC",  "TUSCARORA TWP",
+      "WLK",  "WALKER TWP",
+      "WLV",  "WOLVERINE",
+      "WVR",  "WAVERLY TWP",
       
       // Emmet County
+      
       "BH",   "RESORT TWP",   // ???????
       "BV",   "BAY VIEW",
       "HS",   "HARBOR SPRINGS",
@@ -146,5 +165,7 @@ public class MIEmmetCountyParser extends DispatchOSSIParser {
       
       // Otsego County
       "VANDERBILT",  "VANDERBILT"
+      
+
   });
 }
