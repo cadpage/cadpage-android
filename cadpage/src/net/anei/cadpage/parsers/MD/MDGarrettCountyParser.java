@@ -7,19 +7,15 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
-public class MDGarrettCountyParser extends SmartAddressParser {
-  
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("CAD:([^ ]+) +(.*)");
-  private static final Pattern MASTER_PTN = Pattern.compile("(\\d\\d?:\\d\\d?:\\d\\d?) +(.*?) +DUE: *([-A-Z0-9]+) +(?:RESPONSE CODE: *(?:([A-Z0-9]*)|[^\\p{ASCII}]) +)?([A-Z]{2}\\d{10})(?: +(.*))?", Pattern.DOTALL);
-  private static final Pattern APT_PTN = Pattern.compile("(?:FLOOR|BLDG|(APT|RM)) *(.*)");
-  private static final Pattern CALL_ADDR_PTN = Pattern.compile("(.*?) (?:@!|[^\\p{ASCII}]+ |(\\d{2,3}[A-Z]\\d{2}[A-Z]?) )(.*)");
+public class MDGarrettCountyParser extends FieldProgramParser {
   
   public MDGarrettCountyParser() {
-    super(CITY_LIST, "GARRETT COUNTY", "MD");
-    setFieldList("TIME CALL ADDR APT CITY ST PLACE UNIT CODE ID INFO");
+    super(CITY_LIST, "GARRETT COUNTY", "MD", 
+          "ADDR CALL CALL2/SDS+? INFO/SDS+? UNIT_TIME! END");
     setupCallList(CALL_LIST);
     setupMultiWordStreets(MULTI_WORD_STREET_LIST);
   }
@@ -31,20 +27,100 @@ public class MDGarrettCountyParser extends SmartAddressParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Check for old times report
     if (subject.startsWith("Times - ")) {
-      data.strCall = "RUN REPORT";
-      data.strUnit = subject.substring(8).trim();
-      data.strPlace = body;
-   		Matcher match = RUN_REPORT_PTN.matcher(body);
-   		if (match.matches()) {
-   		  data.strCallId = match.group(1);
-   		  data.strPlace = match.group(2);
-   		}
-   		return true;
+      return parseRunReport(body, data);
     }
     
+    // Try to parse new dash delimited field format
+    String[] flds = body.replace(" - - ", " - ").split(" - ");
+    if (flds.length >= 3) {
+      String prefix = null;
+      int pt = flds[0].indexOf('\n');
+      if (pt >= 0) { 
+        prefix = flds[0].substring(0,pt).trim();
+        flds[0] = flds[0].substring(pt+1).trim();
+      }
+      if (!parseFields(flds, data)) return false;
+      if (prefix != null) {
+        data.msgType = MsgType.RUN_REPORT;
+        data.strCall = append(prefix, " - ", data.strCall);
+      }
+      return true;
+    }
+    
+    // Parse old format
+    return parseOldMsg(body, data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CALL2")) return new CallField("HOT|COLD|[AB]LS", true);
+    if (name.equals("UNIT_TIME")) return new MyUnitTimeField();
+    return super.getField(name);
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      String apt = p.getLastOptional('#');
+      data.strPlace = p.getLastOptional(',');
+      super.parse(p.get(), data);
+      data.strApt = append(data.strApt, "-", apt);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " PLACE";
+    }
+  }
+
+  private static final Pattern UNIT_TIME_PTN = Pattern.compile("([ A-Z0-9]+) (\\d\\d:\\d\\d)");
+  private class MyUnitTimeField extends Field {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = UNIT_TIME_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strUnit = match.group(1).trim();
+      data.strTime = match.group(2);
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "UNIT TIME";
+    }
+  }
+  
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("CAD:(\\S+) +([^,]+), *(.*?)  Unit: *(\\S+) *(.*)");
+  private static final Pattern TIMES_BRK_PTN = Pattern.compile(" (?>=[A-Z]+:)");
+
+  private boolean parseRunReport(String body, Data data) {
+    setFieldList("UNIT ID CALL ADDR APT CITY ST PLACE UNIT INFO");
+    data.msgType = MsgType.RUN_REPORT;
+    Matcher match = RUN_REPORT_PTN.matcher(body);
+    if (!match.matches()) {
+      data.strSupp = body;
+      return true;
+    }
+    data.strCallId = match.group(1);
+    data.strCall = match.group(2).trim();
+    parseCallAddress(false, match.group(3).trim(), data);
+    data.strUnit = match.group(4);
+    data.strSupp = TIMES_BRK_PTN.matcher(match.group(5).trim()).replaceAll("\n");
+    return true;
+  }
+  
+  private static final Pattern MASTER_PTN = Pattern.compile("(\\d\\d?:\\d\\d?:\\d\\d?) +(.*?) +DUE: *([-A-Z0-9]+) +(?:RESPONSE CODE: *(?:([ A-Z0-9]*)|[^\\p{ASCII}]) +)?([A-Z]{2}\\d{10})(?: +(.*))?", Pattern.DOTALL);
+  private static final Pattern APT_PTN = Pattern.compile("(?:FLOOR|BLDG|(APT|RM)) *(.*)");
+  private static final Pattern CALL_ADDR_PTN = Pattern.compile("(.*?) (?:@!|[^\\p{ASCII}]+ |\\*|(\\d{2,3}[A-Z]\\d{2}[A-Z]?) )[\\* ]*(.*)");
+  
+  private boolean parseOldMsg(String body, Data data) {
     Matcher match = MASTER_PTN.matcher(body);
     if (!match.matches()) return false;
+    setFieldList("TIME CALL ADDR APT CITY ST PLACE UNIT CODE ID INFO");
     data.strTime = match.group(1);
     String sCallAddr = match.group(2).trim();
     data.strUnit = match.group(3).trim();
@@ -52,6 +128,12 @@ public class MDGarrettCountyParser extends SmartAddressParser {
     data.strCallId = match.group(5);
     data.strSupp = getOptGroup(match.group(6));
     
+    parseCallAddress(true, sCallAddr, data);
+    return true;
+  }
+
+  private void parseCallAddress(boolean inclCall, String sCallAddr, Data data) {
+    sCallAddr = stripFieldEnd(sCallAddr, "*");
     Parser p = new Parser(sCallAddr);
     String place;
     while ((place = p.getLastOptional("[@")).length() > 0) {
@@ -72,7 +154,7 @@ public class MDGarrettCountyParser extends SmartAddressParser {
       city = city.substring(0,city.length()-3).trim();
     }
     if (city.length() > 0) {
-      match = APT_PTN.matcher(city);
+      Matcher match = APT_PTN.matcher(city);
       if (match.matches()) {
         if (match.group(1) != null) city = match.group(2);
         apt = append(city, "-", apt);
@@ -82,23 +164,28 @@ public class MDGarrettCountyParser extends SmartAddressParser {
     }
         
     sCallAddr = p.get();
+    
     if (sCallAddr.endsWith(" PA")) {
       data.strState = "PA";
       sCallAddr = sCallAddr.substring(0,sCallAddr.length()-3).trim();
     }
 
-    match = CALL_ADDR_PTN.matcher(sCallAddr);
     StartType st;
     int flags = FLAG_ANCHOR_END;
-    if (match.matches()) {
-      data.strCall = match.group(1);
-      data.strCode =  append(getOptGroup(match.group(2)), "/", data.strCode);
-      sCallAddr =  match.group(3).trim();
+    if (!inclCall) {
       st = StartType.START_ADDR;
-    }
-    else {
-      st = StartType.START_CALL;
-      flags |= FLAG_START_FLD_REQ;
+    } else {
+      Matcher match = CALL_ADDR_PTN.matcher(sCallAddr);
+      if (match.matches()) {
+        data.strCall = match.group(1);
+        data.strCode =  append(getOptGroup(match.group(2)), "/", data.strCode);
+        sCallAddr =  match.group(3);
+        st = StartType.START_ADDR;
+      }
+      else {
+        st = StartType.START_CALL;
+        flags |= FLAG_START_FLD_REQ;
+      }
     }
     sCallAddr = stripFieldStart(sCallAddr, "@");
     sCallAddr = sCallAddr.replace('@', '&');
@@ -113,11 +200,12 @@ public class MDGarrettCountyParser extends SmartAddressParser {
       city = stripFieldEnd(city, " TOWNSHIP");
       if (PA_CITY_SET.contains(city)) data.strState = "PA";
     }
-    return true;
   }
   
   private static final CodeSet CALL_LIST = new CodeSet(
+      "911 TRANSFER AGC",
       "ABDOMINAL PAIN",
+      "ALARM PD",
       "ALLERGIC REACTION",
       "AMBULANCE ASSIST",
       "AMBULANCE ASSIST LIFTING",
@@ -127,6 +215,8 @@ public class MDGarrettCountyParser extends SmartAddressParser {
       "BEHAVIORAL PROBLEM PD",
       "BLEEDING",
       "BOAT FIRE",
+      "BOATING ACCIDENT",
+      "BREATHING PROBLEMS",
       "BRUSH FIRE",
       "BURNS",
       "CARBON MONOXIDE",
@@ -136,32 +226,41 @@ public class MDGarrettCountyParser extends SmartAddressParser {
       "CITIZEN ASSIST/SERVICE CALL",
       "CHEST PAIN",
       "CO ALARM",
+      "CONVULSIONS",
       "DECEASED PERSON",
       "DIABETIC EMERGENCY",
+      "DIABETIC PROBLEMS",
       "DIFFICULTY BREATHING",
       "DISTURBANCE / NUISANCE",
       "DOMESTIC DISTURBANCE",
+      "ELECTRICAL FIRE",
       "EMERG PUBLIC SERV",
       "FALL INJURY",
+      "FALLS",
       "FIRE ALARM",
       "FIRE ALARM/COMMERCIAL",
       "FIRE ALARM/RESIDENTIAL",
       "FLUE FIRE",
       "FUEL SPILL",
       "FUEL SPILL SMALL",
+      "FUEL SPILL UNKNOWN AMOUNT",
       "GAS LEAK / GAS ODOR",
       "HAZMAT",
+      "HEMORRHAGE",
       "INTERFACILITY CARE",
       "INVESTIGATION",
       "LANDING ZONE",
       "LIFT ASSIST NON EMERG",
+      "MACHINERY FIRE",
       "MEDIC ASSIST",
       "MEDICAL ALARM",
       "MEDICAL EMERGENCY",
+      "MOTOR VEHICLE COLLISION",
       "MVC",
       "MVC ADVISED",
       "MVC ENTRAPMENT",
       "MVC INJURIES",
+      "MVC MOTORCYCLE",
       "MVC NO INJURIES",
       "MVC ROLLOVER",
       "MVC UNK INJURIES",
@@ -170,18 +269,24 @@ public class MDGarrettCountyParser extends SmartAddressParser {
       "OUTSIDE FIRE",
       "OVERDOSE",
       "PARADE",
+      "PEDESTRIAN STRUCK ALS",
       "PHYSICAL RESCUE",
       "POWER LINES DOWN",
       "PROPANE ALARM",
+      "PROPANE TANK LEAK",
+      "PSYCHIATRIC EMERGENCY",
       "PUBLIC SERVICE",
       "SEARCH DETAIL",
       "SEIZURES",
+      "SICK PERSON",
       "SMOKE IN BUILDING",
       "SMOKE INVESTIGATION",
+      "SMOKE INVESTIGATION / OUTSIDE",
       "STAND BY",
       "STROKE / CVA",
       "STRUCTURE FIRE",
       "STRUCTURE FIRE BARN",
+      "STRUCTURE FIRE COMMERCIAL",
       "STRUCTURE FIRE RESIDENTIAL",
       "STRUCTURE FIRE WORKING",
       "TEST CALL",
@@ -192,11 +297,14 @@ public class MDGarrettCountyParser extends SmartAddressParser {
       "TANKER ASSIST",
       "TRANSPORT",
       "TRAUMA / INJURIES",
+      "TRAUMATIC INJURY",
       "TREE DOWN",
       "UNATTENDED CONT BURN",
+      "UNCONSCIOUS",
       "UNCONSCIOUS/FAINTING",
       "UNK TYPE FIRE",
       "UNKNOWN PROBLEM",
+      "UNKNOWN PROBLEM (MAN DOWN)",
       "UTILITY LINES DOWN",
       "VEHICLE FIRE",
       "WATER RESCUE"
