@@ -210,7 +210,7 @@ public class DispatchA41Parser extends FieldProgramParser {
   
   private class BaseMap2Field extends MapField {
     public BaseMap2Field() {
-      super("\\d{1,4}[A-Z]?", true);
+      super("\\d{1,4}[A-Z]?|\\d{1,4}[A-Z]\\d [A-Z]\\d", true);
     }
     
     @Override
