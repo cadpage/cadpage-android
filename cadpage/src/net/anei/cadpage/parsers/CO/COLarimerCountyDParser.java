@@ -15,6 +15,11 @@ public class COLarimerCountyDParser extends DispatchA41Parser {
     return "crisppaging@fcgov.com";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "FTC", "FORT COLLINS"
   });
