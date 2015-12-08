@@ -52,7 +52,8 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       if (pt < 0) return false;
       body = body.substring(0,pt).trim();
     }
-    if (!body.startsWith("TYPE:")) body = "TYPE:" + body;
+    boolean good = body.startsWith("TYPE:");
+    if (!good) body = "TYPE:" + body;
 
     Properties props = parseMessage(body, KEYWORDS);
     
@@ -67,6 +68,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
         parseAddress(data.strCross, data);
         data.strCross = "";
       } else {
+        if (!good) return false;
         Matcher match = CALL_ADDR_SPLIT_PTN.matcher(data.strCall);
         if (!match.find()) return false;
         sAddress = data.strCall.substring(match.end());
