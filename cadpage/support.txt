@@ -3987,7 +3987,8 @@ We do have some features that the Active911 app still lacks -- more
 flexible notification options, for example.  But the main reason you
 would probably want to try Cadpage is because we use a different set of
 message parsers.  For most locations, this does not make a lot of
-difference.  However, for <<<>>>, Cadpage parsers are probably going to be
+difference.  However, for Charles County, MD, Cadpage parsers are probably going to be
+more reliable.
 
 If you are not currently using Cadpage and would like to try it.  You
 can install Cadpage from the Google Play Store.  Then open Cadpage
