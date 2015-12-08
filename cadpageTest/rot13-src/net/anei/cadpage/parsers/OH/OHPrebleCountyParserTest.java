@@ -5,27 +5,15 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
+Ceroyr Pbhagl, BU
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pnzqra Fbzref-GJC Sver & Erfphr
 Ybpngvba: Pnzqra, BU, Havgrq Fgngrf
-Fraqre: ceroyrsvercntr@tznvy.pbz
 Fraqre: <CEROYRFUREVSS@fjbuvb.gjpop.pbz>
 
-{Pnzqra Sver cntr erprvirq ng 15:35:59 ba 12/04/15} Pnzqra Sver Cntr Erprvirq ng 15:35:59 ba 12/04/15
-{Pnzqra Sver Cntr Erprvirq ng 15:35:59 ba 12/04/15} Pnzqra Sver Cntr Erprvirq ng 15:35:59 ba 12/04/15
-{Pnzqra Sver cntr erprvirq ng 08:52:23 ba 12/03/15} Pnzqra Sver Cntr Erprvirq ng 08:52:23 ba 12/03/15
-{Pnzqra Sver Cntr Erprvirq ng 08:52:23 ba 12/03/15} Pnzqra Sver Cntr Erprvirq ng 08:52:23 ba 12/03/15
-{Pnzqra Sver cntr erprvirq ng 18:55:35 ba 12/02/15} Pnzqra Sver Cntr Erprvirq ng 18:55:35 ba 12/02/15
-{Pnzqra Sver Cntr Erprvirq ng 18:55:35 ba 12/02/15} Pnzqra Sver Cntr Erprvirq ng 18:55:35 ba 12/02/15
-{Pnzqra Sver cntr erprvirq ng 17:34:35 ba 12/02/15} Pnzqra Sver Cntr Erprvirq ng 17:34:35 ba 12/02/15
-{Pnzqra Sver Cntr Erprvirq ng 17:34:35 ba 12/02/15} Pnzqra Sver Cntr Erprvirq ng 17:34:35 ba 12/02/15
-{Pnzqra Sver cntr erprvirq ng 17:29:40 ba 12/02/15} Pnzqra Sver Cntr Erprvirq ng 17:29:40 ba 12/02/15
-{Pnzqra Sver Cntr Erprvirq ng 17:29:40 ba 12/02/15} Pnzqra Sver Cntr Erprvirq ng 17:29:40 ba 12/02/15
-{Pnzqra Sver cntr erprvirq ng 17:02:07 ba 12/02/15} Pnzqra Sver Cntr Erprvirq ng 17:02:07 ba 12/02/15
-{Pnzqra Sver Cntr Erprvirq ng 17:02:07 ba 12/02/15} Pnzqra Sver Cntr Erprvirq ng 17:02:07 ba 12/02/15
-{Pnzqra Sver cntr erprvirq ng 16:45:41 ba 12/02/15} Pnzqra Sver Cntr Erprvirq ng 16:45:41 ba 12/02/15
-{Pnzqra Sver Cntr Erprvirq ng 16:45:41 ba 12/02/15} Pnzqra Sver Cntr Erprvirq ng 16:45:41 ba 12/02/15
+CEROYRFUREVSS:[134]--Angher: Nzohynapr - Ybpngvba: 11381.00 Fgngr Ebhgr 177 Pnzqra
+CEROYRFUREVSS:[134]- ANGHER: 28 YBPNGVBA: 2976 JNLAR GENPR EQ RNGBA ORGJRRA PBAFBYVQNGRQ EQ / OEBJRE EQ PBZZRAGF: PUVZARL SVER
 CEROYRFUREVSS:[244]- ANGHER: 28 YBPNGVBA: 90 FUNJARR CYNVAF ABEGU PNZQRA NPPRFF OL RVQFBA FG PBZZRAGF: XVGPURA SVER
 CEROYRFUREVSS:[134]--Angher: Penfu CV - Ybpngvba: 11694.00 Pbhagl Ebnq 227 Pnzqra
 CEROYRFUREVSS:[134]--406Angher: Sver - Ybpngvba: 12386.00 Fgngr Ebhgr 732 Pnzqra - Pbzzragf: SVRYQ SVER

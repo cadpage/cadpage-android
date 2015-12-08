@@ -410,6 +410,7 @@ class Active911Vendor extends Vendor {
       "US/IN/ShelbyCounty",               "INShelbyCounty",
       "US/IN/StarkeCounty",               "INStarkeCounty",
       "US/IN/TiptonCounty",               "INTiptonCounty",
+      "US/IN/VermillionCounty",           "INVermillionCounty",
       "US/IN/VigoCounty",                 "INVigoCounty",
       "US/IN/WayneCounty",                "INWayneCountyB",
       "US/KS/AndersonCounty",             "KSAndersonCounty",
