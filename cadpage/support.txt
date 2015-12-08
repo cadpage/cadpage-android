@@ -3975,6 +3975,7 @@ Have a great day,
 **************************************************************************
 Hi Folks,
 
+<<<<<<< HEAD
 We have been reaching out to Cadpage users that we haven't heard from
 for a while, partly to see how Cadpage is working for you now.  If
 your department is one of many that have since switched to using
@@ -3993,17 +3994,19 @@ more reliable.
 If you are not currently using Cadpage and would like to try it.  You
 can install Cadpage from the Google Play Store.  Then open Cadpage
 settings and select
+=======
+We have been reaching out to Cadpage users that we haven't heard from for a while, partly to see how Cadpage is working for you now. And if your department is one of many that have since switched to using Active911, we want to make sure everyone knows that Cadpage can be used with the Active911 service instead of, or in addition to the Android Active911 app. There is no additional charge for using Cadpage in this manner.
+
+We do have some features that the Active911 app still lacks -- more flexible notification options, for example. But the main reason you would probably want to try Cadpage is because we use a different set of message parsers. For most locations, this does not make a lot of difference. However, for <<<>>>, Cadpage parsers are probably going to be a bit more reliable.
+
+If you are not currently using Cadpage and would like to try it. You can install Cadpage from the Google Play Store. Then open Cadpage settings and select
+>>>>>>> e81c819e2425e0956b90179b66961839510c27d1
 Direct Paging Vendors > Active911 > Register
-You then have to enter the same Active911 device activation code that
-you used to register the Active911 app.
+You then have to enter the same Active911 device activation code that you used to register the Active911 app.
 
-Once you do this, Active911 alerts will be picked up by Cadpage and will
-not be sent to the Active911 app.  If you launch the Active911
-app manually, it will query their servers and update the displayed call
-history after a few seconds.
+Once you do this, Active911 alerts will be picked up by Cadpage and will not be sent to the Active911 app. If you launch the Active911 app manually, it will query their servers and update the displayed call history after a few seconds.
 
-If you have any questions, or if there is anything you would like to see
-added to the Cadpage feature set, by all means feel free to contact us.
+If you have any questions, or if there is anything you would like to see added to the Cadpage feature set, by all means feel free to contact us.
 
 Have a great day,
 -Ken
