@@ -11,108 +11,107 @@ Bnxynaq Pbhagl, ZV (P)
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pvgl bs Ebpurfgre Uvyyf Sver Erfphr
 Ybpngvba: Ebpurfgre Uvyyf, ZV, Havgrq Fgngrf
-Fraqre: ab_ercyl_pyrzvf@bnxtbi.pbz
+Fraqre: PNQ_Qb-Abg-Ercyl@bnxtbi.pbz
 
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108733~pr7-4 / ZR / 140 JUVCCBBEJVYY YA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108733~pr7-4 /ZR/140 JUVCCBBEJVYY YA
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108733~4o2r- / ZR / 140 JUVCCBBEJVYY YA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108733~4o2r- /ZR/140 JUVCCBBEJVYY YA
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108733~5rso8 / ZR / 140 JUVCCBBEJVYY YA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108733~5rso8 /ZR/140 JUVCCBBEJVYY YA
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108644~79r4- / ZR / 2247 JNYGBA OYIQ Ncg 49) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108644~79r4- /ZR/2247 JNYGBA OYIQ Ncg 49
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108625~o9so3 / ZR / 1701 FBHGU OYIQ R/FHVGR 150) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108625~o9so3 /ZR/1701 FBHGU OYIQ R/FHVGR 150
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108625~s9-81 / ZR / 1701 FBHGU OYIQ R/FHVGR 150) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108625~s9-81 /ZR/1701 FBHGU OYIQ R/FHVGR 150
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108584~o-592 / ZR / 3587 NYVQN NIR/PNYYOX=(248)495-6006) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108584~o-592 /ZR/3587 NYVQN NIR/PNYYOX=(248)495-6006
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108584~2sn-r / ZR / 3587 NYVQN NIR/PNYYOX=(248)495-6006) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108584~2sn-r /ZR/3587 NYVQN NIR/PNYYOX=(248)495-6006
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108523~73q48 / ZRN / 2651 F EBPURFGRE EQ/PNYYOX=(586)206-1523) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108523~73q48 /ZRN/2651 F EBPURFGRE EQ/PNYYOX=(586)206-1523
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108495~13-48 / ZR / 596 FNEFSVRYQ QE/EBPURFGRE/NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108495~13-48 /ZR/596 FNEFSVRYQ QE/EBPURFGRE/NHOHEA
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108495~3-n13 / ZR / 596 FNEFSVRYQ QE/EBPURFGRE/NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108495~3-n13 /ZR/596 FNEFSVRYQ QE/EBPURFGRE/NHOHEA
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108457~rsq5s / ZR / 1204 YRNE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108457~rsq5s /ZR/1204 YRNE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108457~-9on9 / ZR / 1204 YRNE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108457~-9on9 /ZR/1204 YRNE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108386~s4o1- / ZRO / 1445 J NHOHEA EQ/PNYYOX=(612)860-9079) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108386~s4o1- /ZRO/1445 J NHOHEA EQ/PNYYOX=(612)860-9079
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108360~r2qp1 / CV / JNYGBA OYIQ/PNAGREOHEL GEY) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108360~r2qp1 /CV/JNYGBA OYIQ/PNAGREOHEL GEY
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108297~3-nps / ZR / 1400 R UNZYVA EQ/PNYYOX=(248)941-9010) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108297~3-nps /ZR/1400 R UNZYVA EQ/PNYYOX=(248)941-9010
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108297~69567 / ZR / 1400 R UNZYVA EQ/PNYYOX=(248)941-9010) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108297~69567 /ZR/1400 R UNZYVA EQ/PNYYOX=(248)941-9010
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108262~4795- / ZRO / 182 IERRYNAQ QE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108262~4795- /ZRO/182 IERRYNAQ QE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108262~7-479 / ZRO / 182 IERRYNAQ QE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108262~7-479 /ZRO/182 IERRYNAQ QE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108196~p0nq1 / ZR / 2566 JNYGBA OYIQ Ncg 325/QNAVFU IVYYNTR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108196~p0nq1 /ZR/2566 JNYGBA OYIQ Ncg 325/QNAVFU IVYYNTR
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108196~968p- / ZR / 2566 JNYGBA OYIQ Ncg 325/QNAVFU IVYYNTR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108196~968p- /ZR/2566 JNYGBA OYIQ Ncg 325/QNAVFU IVYYNTR
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108082~o18n9 / ZRN / 3617 F NQNZF EQ/K BS NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108082~o18n9 /ZRN/3617 F NQNZF EQ/K BS NHOHEA
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108082~s-48s / ZRN / 3617 F NQNZF EQ/K BS NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108082~s-48s /ZRN/3617 F NQNZF EQ/K BS NHOHEA
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108070~-4q2r / ZR / 134 JBBQIVRJ) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108070~-4q2r /ZR/134 JBBQIVRJ
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108070~14soq / ZR / 134 JBBQIVRJ) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108070~14soq /ZR/134 JBBQIVRJ
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107847~81r01 / ZR / 1341 J NHOHEA EQ/K BS QRDHVAQER) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107847~81r01 /ZR/1341 J NHOHEA EQ/K BS QRDHVAQER
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107847~-2181 / ZR / 1341 J NHOHEA EQ/K BS QRDHVAQER) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107847~-2181 /ZR/1341 J NHOHEA EQ/K BS QRDHVAQER
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107651~45qn0 / ZR / 2566 JNYGBA OYIQ Ncg 202) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107651~45qn0 /ZR/2566 JNYGBA OYIQ Ncg 202
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107622~27o-o / ZR / 650 CYHZ EVQTR QE/JNYGBA/NQNZF) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107622~27o-o /ZR/650 CYHZ EVQTR QE/JNYGBA/NQNZF
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107591~97624 / ZRQ / 227 GBHPNA FG/PEBBXF/NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107591~97624 /ZRQ/227 GBHPNA FG/PEBBXF/NHOHEA
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107591~4-0r7 / ZRQ / 227 GBHPNA FG/PEBBXF/NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107591~4-0r7 /ZRQ/227 GBHPNA FG/PEBBXF/NHOHEA
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~9491- / EP / 2825 F EBPURFGRE EQ/ERQ YBOFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~9491- /EP/2825 F EBPURFGRE EQ/ERQ YBOFGRE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~0-920 / EP / 2825 F EBPURFGRE EQ/ERQ YBOFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~0-920 /EP/2825 F EBPURFGRE EQ/ERQ YBOFGRE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~0r4s- / EP / 2825 F EBPURFGRE EQ/ERQ YBOFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~0r4s- /EP/2825 F EBPURFGRE EQ/ERQ YBOFGRE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~-8q20 / EP / 2825 F EBPURFGRE EQ/ERQ YBOFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~-8q20 /EP/2825 F EBPURFGRE EQ/ERQ YBOFGRE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~91-4n / EP / 2825 F EBPURFGRE EQ/ERQ YBOFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~91-4n /EP/2825 F EBPURFGRE EQ/ERQ YBOFGRE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~20s0o / EP / 2825 F EBPURFGRE EQ/ERQ YBOFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~20s0o /EP/2825 F EBPURFGRE EQ/ERQ YBOFGRE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~4-114 / EE / 1240 TEBFIRABE PG) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~4-114 /EE/1240 TEBFIRABE PG
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107411~93389 / ZR / 873 J NIBA EQ Ncg 244O/PNYYOX=(911)027-1704) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107411~93389 /ZR/873 J NIBA EQ Ncg 244O/PNYYOX=(911)027-1704
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~q27p- / EE / 1240 TEBFIRABE PG) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~q27p- /EE/1240 TEBFIRABE PG
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~95p4r / EE / 1240 TEBFIRABE PG) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~95p4r /EE/1240 TEBFIRABE PG
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~51n-8 / EE / 1240 TEBFIRABE PG) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~51n-8 /EE/1240 TEBFIRABE PG
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~8354- / EE / 1240 TEBFIRABE PG) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~8354- /EE/1240 TEBFIRABE PG
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107368~s29n9 / ZR / 1886 J NHOHEA EQ Ncg 100/PEBBXF) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107368~s29n9 /ZR/1886 J NHOHEA EQ Ncg 100/PEBBXF
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107361~23sn8 / ZR / 2273 PEBBXF EQ/PNYYOX=(248)225-3410) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107361~23sn8 /ZR/2273 PEBBXF EQ/PNYYOX=(248)225-3410
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107361~n8r65 / ZR / 2273 PEBBXF EQ/PNYYOX=(248)225-3410) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107361~n8r65 /ZR/2273 PEBBXF EQ/PNYYOX=(248)225-3410
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107317~30p-q / ZR / 2251 J NHOHEA EQ/NZREVPNA UBHFR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107317~30p-q /ZR/2251 J NHOHEA EQ/NZREVPNA UBHFR
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107317~5r3-4 / ZR / 2251 J NHOHEA EQ/NZREVPNA UBHFR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107317~5r3-4 /ZR/2251 J NHOHEA EQ/NZREVPNA UBHFR
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107314~s80-4 / ZR / 2915 J GVRAXRA EQ) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107314~s80-4 /ZR/2915 J GVRAXRA EQ
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107314~r6389 / ZR / 2915 J GVRAXRA EQ) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107314~r6389 /ZR/2915 J GVRAXRA EQ
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~1p00o / ZR / F EBPURFGRE EQ/FBHGU OYIQ J) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~1p00o /ZR/F EBPURFGRE EQ/FBHGU OYIQ J
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~p00oo / ZR / F EBPURFGRE EQ/FBHGU OYIQ J) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~p00oo /ZR/F EBPURFGRE EQ/FBHGU OYIQ J
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~4123- / ZR / F EBPURFGRE EQ/FBHGU OYIQ J) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~4123- /ZR/F EBPURFGRE EQ/FBHGU OYIQ J
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~127n- / ZR / F EBPURFGRE EQ/FBHGU OYIQ J) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~127n- /ZR/F EBPURFGRE EQ/FBHGU OYIQ J
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~q6o96 / ZRP / 3601 F NQNZF EQ Ncg 211/EBPURFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~q6o96 /ZRP/3601 F NQNZF EQ Ncg 211/EBPURFGRE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~q03s7 / ZRP / 3601 F NQNZF EQ Ncg 211/EBPURFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~q03s7 /ZRP/3601 F NQNZF EQ Ncg 211/EBPURFGRE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~rrq6o / ZRP / 3601 F NQNZF EQ Ncg 211/EBPURFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~rrq6o /ZRP/3601 F NQNZF EQ Ncg 211/EBPURFGRE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~-78o1 / ZRP / 3601 F NQNZF EQ Ncg 211/EBPURFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~-78o1 /ZRP/3601 F NQNZF EQ Ncg 211/EBPURFGRE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107166~r-n4s / ZRN / 295 CNEXYNAQ QE/PNYYOX=(248)425-7375) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107166~r-n4s /ZRN/295 CNEXYNAQ QE/PNYYOX=(248)425-7375
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107166~q8s6r / ZR / 295 CNEXYNAQ QE/PNYYOX=(248)425-7375) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107166~q8s6r /ZR/295 CNEXYNAQ QE/PNYYOX=(248)425-7375
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107166~r21s5 / ZR / 295 CNEXYNAQ QE/PNYYOX=(248)425-7375) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107166~r21s5 /ZR/295 CNEXYNAQ QE/PNYYOX=(248)425-7375
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107116~sn6-0 / ZRN / 3250 JNYGBA OYIQ Ncg 203/NCG 203) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107116~sn6-0 /ZRN/3250 JNYGBA OYIQ Ncg 203/NCG 203
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107116~-49p6 / ZRN / 3250 JNYGBA OYIQ Ncg 203/NCG 203) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107116~-49p6 /ZRN/3250 JNYGBA OYIQ Ncg 203/NCG 203
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107032~7-n24 / ZHGNVQ / YNCRRE EQ/UNEZBA EQ/FO) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107032~7-n24 /ZHGNVQ/YNCRRE EQ/UNEZBA EQ/FO
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107032~95-85 / ZHGNVQ / YNCRRE EQ/UNEZBA EQ/FO) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107032~95-85 /ZHGNVQ/YNCRRE EQ/UNEZBA EQ/FO
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106670~95-os / NP / 3250 JNYGBA OYIQ Ncg 225/K BS NQNZF) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106670~95-os /NP/3250 JNYGBA OYIQ Ncg 225/K BS NQNZF
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~p5n67 / CV / J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~p5n67 /CV/J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~4rq-o / CV / J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~4rq-o /CV/J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~rr4q- / CV / J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~rr4q- /CV/J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~8psnr / CV / J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~8psnr /CV/J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106201~9r0on / ZR / 873 J NIBA EQ Ncg 235) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106201~9r0on /ZR/873 J NIBA EQ Ncg 235
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106201~326-4 / ZR / 873 J NIBA EQ Ncg 235) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106201~326-4 /ZR/873 J NIBA EQ Ncg 235
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106187~-5r92 / ZRQ / 2858 TENIRY EVQTR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106187~-5r92 /ZRQ/2858 TENIRY EVQTR
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106187~p-4rn / ZRQ / 2858 TENIRY EVQTR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106187~p-4rn /ZRQ/2858 TENIRY EVQTR
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106187~-4rns / ZRQ / 2858 TENIRY EVQTR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106187~-4rns /ZRQ/2858 TENIRY EVQTR
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106034~847o1 / ZRO / 1401 A EBPURFGRE EQ/FHVGR 243) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106034~847o1 /ZRO/1401 A EBPURFGRE EQ/FHVGR 243
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106034~77847 / ZRO / 1401 A EBPURFGRE EQ/FHVGR 243) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106034~77847 /ZRO/1401 A EBPURFGRE EQ/FHVGR 243
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105890~2-q0n / NP / 698 PUNEVAT PG/K BS ONEPYNE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105890~2-q0n /NP/698 PUNEVAT PG/K BS ONEPYNE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105888~-4482 / ZRG / 1101 J HAVIREFVGL QE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105888~-4482 /ZRG/1101 J HAVIREFVGL QE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105713~75-18 / ZRN / 2771 F EBPURFGRE EQ/K BS NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105713~75-18 /ZRN/2771 F EBPURFGRE EQ/K BS NHOHEA
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105713~8r89r / ZRN / 2771 F EBPURFGRE EQ/K BS NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105713~8r89r /ZRN/2771 F EBPURFGRE EQ/K BS NHOHEA
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105699~sp467 / ZR / 2728 F EBPURFGRE EQ/UNZYVA/NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105699~sp467 /ZR/2728 F EBPURFGRE EQ/UNZYVA/NHOHEA
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105699~84879 / ZR / 2728 F EBPURFGRE EQ/UNZYVA/NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105699~84879 /ZR/2728 F EBPURFGRE EQ/UNZYVA/NHOHEA
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105262~n8q73 / ZR / 1128 GEHJBBQ QE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105262~n8q73 /ZR/1128 GEHJBBQ QE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105262~3n8q7 / ZR / 1128 GEHJBBQ QE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105262~3n8q7 /ZR/1128 GEHJBBQ QE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105249~48q-q / ZR / 351 FUBEGEVQTR NIR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105249~48q-q /ZR/351 FUBEGEVQTR NIR
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105249~-p9o1 / ZR / 351 FUBEGEVQTR NIR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105249~-p9o1 /ZR/351 FUBEGEVQTR NIR
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105174~n6pp- / ZRN / 2566 JNYGBA OYIQ Ncg 403) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105174~n6pp- /ZRN/2566 JNYGBA OYIQ Ncg 403
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105174~86836 / ZRN / 2566 JNYGBA OYIQ Ncg 403) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105174~86836 /ZRN/2566 JNYGBA OYIQ Ncg 403
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105138~n8903 / ZR / 1273 UVPXBEL UVYY QE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105138~n8903 /ZR/1273 UVPXBEL UVYY QE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105138~-45r0 / ZR / 1273 UVPXBEL UVYY QE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105138~-45r0 /ZR/1273 UVPXBEL UVYY QE
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105106~qq6-2 / ZR / 3380 UNEEVFBA NIR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105106~qq6-2 /ZR/3380 UNEEVFBA NIR
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105106~4r-4s / ZR / 3380 UNEEVFBA NIR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105106~4r-4s /ZR/3380 UNEEVFBA NIR
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104902~721-4 / IS / F EBPURFGRE EQ/R NIBA EQ/PNYYOX=(248)417-4450) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104902~721-4 /IS/F EBPURFGRE EQ/R NIBA EQ/PNYYOX=(248)417-4450
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104902~24-9o / IS / F EBPURFGRE EQ/R NIBA EQ/PNYYOX=(248)417-4450) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104902~24-9o /IS/F EBPURFGRE EQ/R NIBA EQ/PNYYOX=(248)417-4450
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~9pqq8 / CV / A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~9pqq8 /CV/A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~sn2-o / CV / A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~sn2-o /CV/A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~o951- / CV / A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~o951- /CV/A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~1-0rq / CV / A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~1-0rq /CV/A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273
-(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~sp6r7 / CV / A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~sp6r7 /CV/A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2647193~-8749 / ZR / 837 R NHOHEA EQ} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2647193~-8749 /ZR/837 R NHOHEA EQ
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2647139~-orn1 / ZR / 3741 F NQNZF EQ Ncg 17/NZREVPNA UBHFR} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2647139~-orn1 /ZR/3741 F NQNZF EQ Ncg 17/NZREVPNA UBHFR
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646943~7q351 / PB / 3624 NLAFYRL QE/GVRAXRA/ NQNZF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646943~7q351 /PB/3624 NLAFYRL QE/GVRAXRA/ NQNZF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646727~s-809 / NP / 2708 F EBPURFGRE EQ/FGR N} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646727~s-809 /NP/2708 F EBPURFGRE EQ/FGR N
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646727~q54o7 / NP / 2708 F EBPURFGRE EQ/FGR N} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646727~q54o7 /NP/2708 F EBPURFGRE EQ/FGR N
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646676~q4sq6 / ZRN / 269 ZRNQBJ OEVQTR QE/K EBPURFGRE EQ ORGJ NIBA/UNZYVA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646676~q4sq6 /ZRN/269 ZRNQBJ OEVQTR QE/K EBPURFGRE EQ ORGJ NIBA/UNZYVA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646683~s6o2s / ZR / 135 J NHOHEA EQ/EBPURFGRE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646683~s6o2s /ZR/135 J NHOHEA EQ/EBPURFGRE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646676~6q3r- / ZR / 269 ZRNQBJ OEVQTR QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646676~6q3r- /ZR/269 ZRNQBJ OEVQTR QE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646643~-422o / ZR / 2753 F EBPURFGRE EQ/NHOHEA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646643~-422o /ZR/2753 F EBPURFGRE EQ/NHOHEA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646566~pr9-9 / ZRO / 2566 JNYGBA OYIQ Ncg 326} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646566~pr9-9 /ZRO/2566 JNYGBA OYIQ Ncg 326
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646566~q3o6- / ZR / 2566 JNYGBA OYIQ Ncg 326} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646566~q3o6- /ZR/2566 JNYGBA OYIQ Ncg 326
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646382~96037 / ZR / 1401 A EBPURFGRE EQ/GVRAXRA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646382~96037 /ZR/1401 A EBPURFGRE EQ/GVRAXRA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646320~-90s4 / ZRQ / 29 IVYYNTR PVE/NCG 226} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646320~-90s4 /ZRQ/29 IVYYNTR PVE/NCG 226
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646193~5p2-8 / ZR / 873 J NIBA EQ Ncg 336} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646193~5p2-8 /ZR/873 J NIBA EQ Ncg 336
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646175~5-n2o / NP / 3250 JNYGBA OYIQ/PNYYOX=(248)812-8073} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646175~5-n2o /NP/3250 JNYGBA OYIQ/PNYYOX=(248)812-8073
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646045~s08-4 / ZR / 3500 FBHGU OYIQ J/EBBZ Q65N} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646045~s08-4 /ZR/3500 FBHGU OYIQ J/EBBZ Q65N
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646016~98-n4 / ZR / 27 SBKOBEB/K JNYGBA/NQNZF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646016~98-n4 /ZR/27 SBKOBEB/K JNYGBA/NQNZF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645972~0ps-9 / NP / 2566 JNYGBA OYIQ Ncg 326/OERJFGRE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645972~0ps-9 /NP/2566 JNYGBA OYIQ Ncg 326/OERJFGRE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645726~67rr6 / ZR / 606 XVATYRG FG/ZNYYNEQ} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645726~67rr6 /ZR/606 XVATYRG FG/ZNYYNEQ
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645719~0s2-4 / ZR / 197 SYVPXRE FG/NHOHEA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645719~0s2-4 /ZR/197 SYVPXRE FG/NHOHEA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645584~33r22 / NP / 29 IVYYNTR PVE Ncg 226/EBPURFGRE/NHOEHA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645584~33r22 /NP/29 IVYYNTR PVE Ncg 226/EBPURFGRE/NHOEHA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645405~pso-q / ZRO / 2251 J NHOHEA EQ Ncg 40/PNYYOX=(248)885-1807} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645405~pso-q /ZRO/2251 J NHOHEA EQ Ncg 40/PNYYOX=(248)885-1807
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645405~-161q / ZR / 2251 J NHOHEA EQ Ncg 40/PNYYOX=(248)885-1807} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645405~-161q /ZR/2251 J NHOHEA EQ Ncg 40/PNYYOX=(248)885-1807
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645370~o-n31 / ZR / 1122 F EBPURFGRE EQ/NIBA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645370~o-n31 /ZR/1122 F EBPURFGRE EQ/NIBA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645130~9120r / ZRN / 3463 UNMRYGBA/YVIREABVF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645130~9120r /ZRN/3463 UNMRYGBA/YVIREABVF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645130~120r7 / ZRN / 3463 UNMRYGBA/YVIREABVF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645130~120r7 /ZRN/3463 UNMRYGBA/YVIREABVF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645130~-4on7 / ZRN / 3463 UNMRYGBA/YVIREABVF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645130~-4on7 /ZRN/3463 UNMRYGBA/YVIREABVF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645047~8-996 / ZRQ / 2251 J NHOHEA EQ Ncg 43} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645047~8-996 /ZRQ/2251 J NHOHEA EQ Ncg 43
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645047~88-99 / ZRQ / 2251 J NHOHEA EQ Ncg 43} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645047~88-99 /ZRQ/2251 J NHOHEA EQ Ncg 43
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645047~2-488 / ZR / 2251 J NHOHEA EQ Ncg 43} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645047~2-488 /ZR/2251 J NHOHEA EQ Ncg 43
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644925~sp287 / ZR / 2251 J NHOHEA EQ/PEBBXF/NHOHEA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644925~sp287 /ZR/2251 J NHOHEA EQ/PEBBXF/NHOHEA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644731~s8823 / ZRN / 485 R ANJNXJN EQ} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644731~s8823 /ZRN/485 R ANJNXJN EQ
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644691~o24-4 / ZR / 435 F YVIREABVF EQ Ncg 253/NIBA NCGF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644691~o24-4 /ZR/435 F YVIREABVF EQ Ncg 253/NIBA NCGF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644644~p731n / ZRQ / 2135 XRAARQL QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644644~p731n /ZRQ/2135 XRAARQL QE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~9250s / OBK_ERFQ / 557 YRFCRENAPR QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~9250s /OBK_ERFQ/557 YRFCRENAPR QE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~n75-4 / OBK_ERFQ / 557 YRFCRENAPR QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~n75-4 /OBK_ERFQ/557 YRFCRENAPR QE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~1p85q / OBK_ERFQ / 557 YRFCRENAPR QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~1p85q /OBK_ERFQ/557 YRFCRENAPR QE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~50sq1 / FZBXR / 557 YRFCRENAPR QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~50sq1 /FZBXR/557 YRFCRENAPR QE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~p85qs / FZBXR / 557 YRFCRENAPR QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~p85qs /FZBXR/557 YRFCRENAPR QE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644365~10513 / ZR / 3500 FBHGU OYIQ J} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644365~10513 /ZR/3500 FBHGU OYIQ J
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644293~on7n4 / ZR / 826 UBARLPEVFC} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644293~on7n4 /ZR/826 UBARLPEVFC
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644208~80-40 / NP / 262 ZNEZBBE PG/PNYYOX=(248)894-6683} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644208~80-40 /NP/262 ZNEZBBE PG/PNYYOX=(248)894-6683
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644171~p-4o2 / ZRO / 3741 F NQNZF EQ Ncg 27/PNYYOX=(313)903-4801} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644171~p-4o2 /ZRO/3741 F NQNZF EQ Ncg 27/PNYYOX=(313)903-4801
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644135~3o-sq / ZR / 1529 FPRAVP UBYYBJ/QHGGBA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644135~3o-sq /ZR/1529 FPRAVP UBYYBJ/QHGGBA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644132~oq27r / ZR / 59 XNYUNIRA EQ/EBPURFGRE/UNZYVA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644132~oq27r /ZR/59 XNYUNIRA EQ/EBPURFGRE/UNZYVA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644129~71r-9 / ZR / 3048 NINYBA EQ/NHOHEA/NQNZF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644129~71r-9 /ZR/3048 NINYBA EQ/NHOHEA/NQNZF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~985-q / CV / F YVIREABVF EQ/R Z59} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~985-q /CV/F YVIREABVF EQ/R Z59
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643860~on1r- / NP / 3250 JNYGBA OYIQ/NQNZF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643860~on1r- /NP/3250 JNYGBA OYIQ/NQNZF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~sn7po / CV / F YVIREABVF EQ/R Z59} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~sn7po /CV/F YVIREABVF EQ/R Z59
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~-4127 / CV / F YVIREABVF EQ/R Z59} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~-4127 /CV/F YVIREABVF EQ/R Z59
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643883~-8522 / ZRN / 3467 F NQNZF EQ/NZREVPNA UBHFR} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643883~-8522 /ZRN/3467 F NQNZF EQ/NZREVPNA UBHFR
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643883~9p3p- / ZR / 3467 F NQNZF EQ/NZREVPNA UBHFR} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643883~9p3p- /ZR/3467 F NQNZF EQ/NZREVPNA UBHFR
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643860~os63n / NP / 3250 JNYGBA OYIQ/NQNZF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643860~os63n /NP/3250 JNYGBA OYIQ/NQNZF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~9985- / CV / F YVIREABVF EQ/R Z59} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~9985- /CV/F YVIREABVF EQ/R Z59
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643860~sr3-8 / NP / 3250 JNYGBA OYIQ/NQNZF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643860~sr3-8 /NP/3250 JNYGBA OYIQ/NQNZF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643799~-2666 / ZR / 1599 BARVY PVE/Z59/QRDHVAQER} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643799~-2666 /ZR/1599 BARVY PVE/Z59/QRDHVAQER
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643793~6p33n / ZR / 3500 FBHGU OYIQ J Ncg 47/OBHYRINEQ URNYGU PRAGRE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643793~6p33n /ZR/3500 FBHGU OYIQ J Ncg 47/OBHYRINEQ URNYGU PRAGRE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643793~3n-30 / ZR / 3500 FBHGU OYIQ J Ncg 47/OBHYRINEQ URNYGU PRAGRE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643793~3n-30 /ZR/3500 FBHGU OYIQ J Ncg 47/OBHYRINEQ URNYGU PRAGRE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643793~26p33 / ZR / 3500 FBHGU OYIQ J Ncg 47/OBHYRINEQ URNYGU PRAGRE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643793~26p33 /ZR/3500 FBHGU OYIQ J Ncg 47/OBHYRINEQ URNYGU PRAGRE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643695~9r1o9 / TNFYX / 2328 ENAPEBSG ORNG/GVRAXRA/OERJFGRE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643695~9r1o9 /TNFYX/2328 ENAPEBSG ORNG/GVRAXRA/OERJFGRE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643694~sq62- / NP / 1111 UBEVMBA PG} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643694~sq62- /NP/1111 UBEVMBA PG
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643547~01os4 / NP / 3463 UNMRYGBA/FBHGU OYIQ/NHOHEA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643547~01os4 /NP/3463 UNMRYGBA/FBHGU OYIQ/NHOHEA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643393~41no- / ZRQ / 3557 JVAQVAT OEBBX PVE/FBHGU OYIQ/PEBBXF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643393~41no- /ZRQ/3557 JVAQVAT OEBBX PVE/FBHGU OYIQ/PEBBXF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643359~6p75s / ZR / 3250 JNYGBA OYIQ/NCG 249/JNYGBAJBBQ} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643359~6p75s /ZR/3250 JNYGBA OYIQ/NCG 249/JNYGBAJBBQ
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643287~9q35- / NP / 435 F YVIREABVF EQ Ncg 253/NIBA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643287~9q35- /NP/435 F YVIREABVF EQ Ncg 253/NIBA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643196~4r53- / NP / 492 RFFRK QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643196~4r53- /NP/492 RFFRK QE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643169~4s-5n / ZR / 3743 F NQNZF EQ/NZREVPNA UBHFR} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643169~4s-5n /ZR/3743 F NQNZF EQ/NZREVPNA UBHFR
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643097~rs36p / ZR / 3500 FBHGU OYIQ J Ncg N42} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643097~rs36p /ZR/3500 FBHGU OYIQ J Ncg N42
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642649~o8-o7 / ZR / 2165 UNZYVA PG/J UNZYVA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642649~o8-o7 /ZR/2165 UNZYVA PG/J UNZYVA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~7-7p0 / SHYY_ERF / 232 ZRNQBJYNAR PVE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~7-7p0 /SHYY_ERF/232 ZRNQBJYNAR PVE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~41nq- / SHYY_ERF / 232 ZRNQBJYNAR PVE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~41nq- /SHYY_ERF/232 ZRNQBJYNAR PVE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~-41nq / SHYY_ERF / 232 ZRNQBJYNAR PVE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~-41nq /SHYY_ERF/232 ZRNQBJYNAR PVE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~o0n7- / SHYY_ERF / 232 ZRNQBJYNAR PVE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~o0n7- /SHYY_ERF/232 ZRNQBJYNAR PVE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~p0sop / SHYY_ERF / 232 ZRNQBJYNAR PVE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~p0sop /SHYY_ERF/232 ZRNQBJYNAR PVE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~q-93o / SHYY_ERF / 232 ZRNQBJYNAR PVE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~q-93o /SHYY_ERF/232 ZRNQBJYNAR PVE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642469~5op74 / ZR / 947 R GVRAXRA EQ/PNYYOX=(248)568-0783} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642469~5op74 /ZR/947 R GVRAXRA EQ/PNYYOX=(248)568-0783
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642445~6902- / ZR / 1480 JNYGBA OYIQ/YVIREABVF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642445~6902- /ZR/1480 JNYGBA OYIQ/YVIREABVF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642445~n9q36 / ZR / 1480 JNYGBA OYIQ/YVIREABVF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642445~n9q36 /ZR/1480 JNYGBA OYIQ/YVIREABVF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642419~sror0 / NP / 2208 PHZOREYNAQ/UNZYVA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642419~sror0 /NP/2208 PHZOREYNAQ/UNZYVA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642403~s8p0- / ZR / 461 SNEZEVQTR PG} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642403~s8p0- /ZR/461 SNEZEVQTR PG
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642341~q3-42 / ZR / 1204 YRNE/OGJ EBPURFGRE/YVIREABVF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642341~q3-42 /ZR/1204 YRNE/OGJ EBPURFGRE/YVIREABVF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642338~99p86 / ZRQ / 3308 SHYUNZ QE/PEBBXF/NHOHEA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642338~99p86 /ZRQ/3308 SHYUNZ QE/PEBBXF/NHOHEA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642270~6p547 / ZRN / 1356 ABEGUIVRJ YA/K BS NIBA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642270~6p547 /ZRN/1356 ABEGUIVRJ YA/K BS NIBA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642112~p648q / SNP / 2251 J NHOHEA EQ} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642112~p648q /SNP/2251 J NHOHEA EQ
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642072~s9994 / ZR / 2903 J NHOHEA EQ} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642072~s9994 /ZR/2903 J NHOHEA EQ
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~0r21- / CN / 117 SBAGNVAOYRNH QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~0r21- /CN/117 SBAGNVAOYRNH QE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~1-p08 / CN / 117 SBAGNVAOYRNH QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~1-p08 /CN/117 SBAGNVAOYRNH QE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~2490r / CN / 117 SBAGNVAOYRNH QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~2490r /CN/117 SBAGNVAOYRNH QE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~r21-p / CN / 117 SBAGNVAOYRNH QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~r21-p /CN/117 SBAGNVAOYRNH QE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641925~o7-44 / SNP / 2672 F EBPURFGRE EQ/ARKG GB WREFRL ZVXRF NAQ 7/11} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641925~o7-44 /SNP/2672 F EBPURFGRE EQ/ARKG GB WREFRL ZVXRF NAQ 7/11
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641775~pp9s- / ZR / 3380 SNVETEBIR PG} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641775~pp9s- /ZR/3380 SNVETEBIR PG
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641078~1p-87 / ZR / 522 GVZOREYRN QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641078~1p-87 /ZR/522 GVZOREYRN QE
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641074~on-nn / SNE / 1288 ONEARFJBBQ/K YVIREABVF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641074~on-nn /SNE/1288 ONEARFJBBQ/K YVIREABVF
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640795~9p392 / ZR / 2624 PUVPXNQRR FG/NIBA BA GUR YNXR} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640795~9p392 /ZR/2624 PUVPXNQRR FG/NIBA BA GUR YNXR
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640782~n15o- / ZR / 175 R ANJNXJN EQ/NHOHEA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640782~n15o- /ZR/175 R ANJNXJN EQ/NHOHEA
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640501~0pp-o / NP / 1516 FVOYRL NIR} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640501~0pp-o /NP/1516 FVOYRL NIR
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640488~-746o / ZR / 3466 FBHGU OYIQ J} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640488~-746o /ZR/3466 FBHGU OYIQ J
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640488~746o- / ZR / 3466 FBHGU OYIQ J} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640488~746o- /ZR/3466 FBHGU OYIQ J
+{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640399~p7p-8 / ZR / 1204 YRNE/NIBA UVYYF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640399~p7p-8 /ZR/1204 YRNE/NIBA UVYYF
 
 */
 
@@ -126,583 +125,585 @@ choyvp pynff ZVBnxynaqPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgPvglBsEbpurfgreUvyyfSverErfphr() {
 
     qbGrfg("G1",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108733~pr7-4 / ZR / 140 JUVCCBBEJVYY YA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108733~pr7-4 /ZR/140 JUVCCBBEJVYY YA",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2647193~-8749 / ZR / 837 R NHOHEA EQ} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2647193~-8749 /ZR/837 R NHOHEA EQ",
         "PNYY:ZR",
-        "NQQE:140 JUVCCBBEJVYY YA");
+        "NQQE:837 R NHOHEA EQ");
 
     qbGrfg("G2",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108733~4o2r- / ZR / 140 JUVCCBBEJVYY YA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108733~4o2r- /ZR/140 JUVCCBBEJVYY YA",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2647139~-orn1 / ZR / 3741 F NQNZF EQ Ncg 17/NZREVPNA UBHFR} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2647139~-orn1 /ZR/3741 F NQNZF EQ Ncg 17/NZREVPNA UBHFR",
         "PNYY:ZR",
-        "NQQE:140 JUVCCBBEJVYY YA");
+        "NQQE:3741 F NQNZF EQ",
+        "NCG:17",
+        "CYNPR:NZREVPNA UBHFR");
 
     qbGrfg("G3",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108733~5rso8 / ZR / 140 JUVCCBBEJVYY YA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108733~5rso8 /ZR/140 JUVCCBBEJVYY YA",
-        "PNYY:ZR",
-        "NQQE:140 JUVCCBBEJVYY YA");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646943~7q351 / PB / 3624 NLAFYRL QE/GVRAXRA/ NQNZF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646943~7q351 /PB/3624 NLAFYRL QE/GVRAXRA/ NQNZF",
+        "PNYY:PB",
+        "NQQE:3624 NLAFYRL QE",
+        "CYNPR:GVRAXRA/NQNZF");
 
     qbGrfg("G4",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108644~79r4- / ZR / 2247 JNYGBA OYIQ Ncg 49) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108644~79r4- /ZR/2247 JNYGBA OYIQ Ncg 49",
-        "PNYY:ZR",
-        "NQQE:2247 JNYGBA OYIQ",
-        "NCG:49");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646727~s-809 / NP / 2708 F EBPURFGRE EQ/FGR N} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646727~s-809 /NP/2708 F EBPURFGRE EQ/FGR N",
+        "PNYY:NP",
+        "NQQE:2708 F EBPURFGRE EQ",
+        "CYNPR:FGR N");
 
     qbGrfg("G5",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108625~o9so3 / ZR / 1701 FBHGU OYIQ R/FHVGR 150) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108625~o9so3 /ZR/1701 FBHGU OYIQ R/FHVGR 150",
-        "PNYY:ZR",
-        "NQQE:1701 FBHGU OYIQ R",
-        "NCG:150");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646727~q54o7 / NP / 2708 F EBPURFGRE EQ/FGR N} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646727~q54o7 /NP/2708 F EBPURFGRE EQ/FGR N",
+        "PNYY:NP",
+        "NQQE:2708 F EBPURFGRE EQ",
+        "CYNPR:FGR N");
 
     qbGrfg("G6",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108625~s9-81 / ZR / 1701 FBHGU OYIQ R/FHVGR 150) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108625~s9-81 /ZR/1701 FBHGU OYIQ R/FHVGR 150",
-        "PNYY:ZR",
-        "NQQE:1701 FBHGU OYIQ R",
-        "NCG:150");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646676~q4sq6 / ZRN / 269 ZRNQBJ OEVQTR QE/K EBPURFGRE EQ ORGJ NIBA/UNZYVA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646676~q4sq6 /ZRN/269 ZRNQBJ OEVQTR QE/K EBPURFGRE EQ ORGJ NIBA/UNZYVA",
+        "PNYY:ZRN",
+        "NQQE:269 ZRNQBJ OEVQTR QE",
+        "CYNPR:K EBPURFGRE EQ ORGJ NIBA/UNZYVA");
 
     qbGrfg("G7",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108584~o-592 / ZR / 3587 NYVQN NIR/PNYYOX=(248)495-6006) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108584~o-592 /ZR/3587 NYVQN NIR/PNYYOX=(248)495-6006",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646683~s6o2s / ZR / 135 J NHOHEA EQ/EBPURFGRE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646683~s6o2s /ZR/135 J NHOHEA EQ/EBPURFGRE",
         "PNYY:ZR",
-        "NQQE:3587 NYVQN NIR",
-        "CUBAR:(248)495-6006");
+        "NQQE:135 J NHOHEA EQ",
+        "CYNPR:EBPURFGRE");
 
     qbGrfg("G8",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108584~2sn-r / ZR / 3587 NYVQN NIR/PNYYOX=(248)495-6006) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108584~2sn-r /ZR/3587 NYVQN NIR/PNYYOX=(248)495-6006",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646676~6q3r- / ZR / 269 ZRNQBJ OEVQTR QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646676~6q3r- /ZR/269 ZRNQBJ OEVQTR QE",
         "PNYY:ZR",
-        "NQQE:3587 NYVQN NIR",
-        "CUBAR:(248)495-6006");
+        "NQQE:269 ZRNQBJ OEVQTR QE");
 
     qbGrfg("G9",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108523~73q48 / ZRN / 2651 F EBPURFGRE EQ/PNYYOX=(586)206-1523) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108523~73q48 /ZRN/2651 F EBPURFGRE EQ/PNYYOX=(586)206-1523",
-        "PNYY:ZRN",
-        "NQQE:2651 F EBPURFGRE EQ",
-        "CUBAR:(586)206-1523");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646643~-422o / ZR / 2753 F EBPURFGRE EQ/NHOHEA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646643~-422o /ZR/2753 F EBPURFGRE EQ/NHOHEA",
+        "PNYY:ZR",
+        "NQQE:2753 F EBPURFGRE EQ",
+        "CYNPR:NHOHEA");
 
     qbGrfg("G10",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108495~13-48 / ZR / 596 FNEFSVRYQ QE/EBPURFGRE/NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108495~13-48 /ZR/596 FNEFSVRYQ QE/EBPURFGRE/NHOHEA",
-        "PNYY:ZR",
-        "NQQE:596 FNEFSVRYQ QE",
-        "CYNPR:EBPURFGRE/NHOHEA");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646566~pr9-9 / ZRO / 2566 JNYGBA OYIQ Ncg 326} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646566~pr9-9 /ZRO/2566 JNYGBA OYIQ Ncg 326",
+        "PNYY:ZRO",
+        "NQQE:2566 JNYGBA OYIQ",
+        "NCG:326");
 
     qbGrfg("G11",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108495~3-n13 / ZR / 596 FNEFSVRYQ QE/EBPURFGRE/NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108495~3-n13 /ZR/596 FNEFSVRYQ QE/EBPURFGRE/NHOHEA",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646566~q3o6- / ZR / 2566 JNYGBA OYIQ Ncg 326} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646566~q3o6- /ZR/2566 JNYGBA OYIQ Ncg 326",
         "PNYY:ZR",
-        "NQQE:596 FNEFSVRYQ QE",
-        "CYNPR:EBPURFGRE/NHOHEA");
+        "NQQE:2566 JNYGBA OYIQ",
+        "NCG:326");
 
     qbGrfg("G12",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108457~rsq5s / ZR / 1204 YRNE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108457~rsq5s /ZR/1204 YRNE",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646382~96037 / ZR / 1401 A EBPURFGRE EQ/GVRAXRA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646382~96037 /ZR/1401 A EBPURFGRE EQ/GVRAXRA",
         "PNYY:ZR",
-        "NQQE:1204 YRNE");
+        "NQQE:1401 A EBPURFGRE EQ",
+        "CYNPR:GVRAXRA");
 
     qbGrfg("G13",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108457~-9on9 / ZR / 1204 YRNE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108457~-9on9 /ZR/1204 YRNE",
-        "PNYY:ZR",
-        "NQQE:1204 YRNE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646320~-90s4 / ZRQ / 29 IVYYNTR PVE/NCG 226} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646320~-90s4 /ZRQ/29 IVYYNTR PVE/NCG 226",
+        "PNYY:ZRQ",
+        "NQQE:29 IVYYNTR PVE",
+        "NCG:226");
 
     qbGrfg("G14",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108386~s4o1- / ZRO / 1445 J NHOHEA EQ/PNYYOX=(612)860-9079) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108386~s4o1- /ZRO/1445 J NHOHEA EQ/PNYYOX=(612)860-9079",
-        "PNYY:ZRO",
-        "NQQE:1445 J NHOHEA EQ",
-        "CUBAR:(612)860-9079");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646193~5p2-8 / ZR / 873 J NIBA EQ Ncg 336} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646193~5p2-8 /ZR/873 J NIBA EQ Ncg 336",
+        "PNYY:ZR",
+        "NQQE:873 J NIBA EQ",
+        "NCG:336");
 
     qbGrfg("G15",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108360~r2qp1 / CV / JNYGBA OYIQ/PNAGREOHEL GEY) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108360~r2qp1 /CV/JNYGBA OYIQ/PNAGREOHEL GEY",
-        "PNYY:CV",
-        "NQQE:JNYGBA OYIQ & PNAGREOHEL GEY");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646175~5-n2o / NP / 3250 JNYGBA OYIQ/PNYYOX=(248)812-8073} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646175~5-n2o /NP/3250 JNYGBA OYIQ/PNYYOX=(248)812-8073",
+        "PNYY:NP",
+        "NQQE:3250 JNYGBA OYIQ",
+        "CUBAR:(248)812-8073");
 
     qbGrfg("G16",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108297~3-nps / ZR / 1400 R UNZYVA EQ/PNYYOX=(248)941-9010) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108297~3-nps /ZR/1400 R UNZYVA EQ/PNYYOX=(248)941-9010",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646045~s08-4 / ZR / 3500 FBHGU OYIQ J/EBBZ Q65N} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646045~s08-4 /ZR/3500 FBHGU OYIQ J/EBBZ Q65N",
         "PNYY:ZR",
-        "NQQE:1400 R UNZYVA EQ",
-        "CUBAR:(248)941-9010");
+        "NQQE:3500 FBHGU OYIQ J",
+        "NCG:Q65N");
 
     qbGrfg("G17",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108297~69567 / ZR / 1400 R UNZYVA EQ/PNYYOX=(248)941-9010) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108297~69567 /ZR/1400 R UNZYVA EQ/PNYYOX=(248)941-9010",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646016~98-n4 / ZR / 27 SBKOBEB/K JNYGBA/NQNZF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2646016~98-n4 /ZR/27 SBKOBEB/K JNYGBA/NQNZF",
         "PNYY:ZR",
-        "NQQE:1400 R UNZYVA EQ",
-        "CUBAR:(248)941-9010");
+        "NQQE:27 SBKOBEB",
+        "CYNPR:K JNYGBA/NQNZF");
 
     qbGrfg("G18",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108262~4795- / ZRO / 182 IERRYNAQ QE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108262~4795- /ZRO/182 IERRYNAQ QE",
-        "PNYY:ZRO",
-        "NQQE:182 IERRYNAQ QE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645972~0ps-9 / NP / 2566 JNYGBA OYIQ Ncg 326/OERJFGRE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645972~0ps-9 /NP/2566 JNYGBA OYIQ Ncg 326/OERJFGRE",
+        "PNYY:NP",
+        "NQQE:2566 JNYGBA OYIQ",
+        "NCG:326",
+        "CYNPR:OERJFGRE");
 
     qbGrfg("G19",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108262~7-479 / ZRO / 182 IERRYNAQ QE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108262~7-479 /ZRO/182 IERRYNAQ QE",
-        "PNYY:ZRO",
-        "NQQE:182 IERRYNAQ QE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645726~67rr6 / ZR / 606 XVATYRG FG/ZNYYNEQ} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645726~67rr6 /ZR/606 XVATYRG FG/ZNYYNEQ",
+        "PNYY:ZR",
+        "NQQE:606 XVATYRG FG",
+        "CYNPR:ZNYYNEQ");
 
     qbGrfg("G20",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108196~p0nq1 / ZR / 2566 JNYGBA OYIQ Ncg 325/QNAVFU IVYYNTR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108196~p0nq1 /ZR/2566 JNYGBA OYIQ Ncg 325/QNAVFU IVYYNTR",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645719~0s2-4 / ZR / 197 SYVPXRE FG/NHOHEA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645719~0s2-4 /ZR/197 SYVPXRE FG/NHOHEA",
         "PNYY:ZR",
-        "NQQE:2566 JNYGBA OYIQ",
-        "NCG:325",
-        "CYNPR:QNAVFU IVYYNTR");
+        "NQQE:197 SYVPXRE FG",
+        "CYNPR:NHOHEA");
 
     qbGrfg("G21",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108196~968p- / ZR / 2566 JNYGBA OYIQ Ncg 325/QNAVFU IVYYNTR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108196~968p- /ZR/2566 JNYGBA OYIQ Ncg 325/QNAVFU IVYYNTR",
-        "PNYY:ZR",
-        "NQQE:2566 JNYGBA OYIQ",
-        "NCG:325",
-        "CYNPR:QNAVFU IVYYNTR");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645584~33r22 / NP / 29 IVYYNTR PVE Ncg 226/EBPURFGRE/NHOEHA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645584~33r22 /NP/29 IVYYNTR PVE Ncg 226/EBPURFGRE/NHOEHA",
+        "PNYY:NP",
+        "NQQE:29 IVYYNTR PVE",
+        "NCG:226",
+        "CYNPR:EBPURFGRE/NHOEHA");
 
     qbGrfg("G22",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108082~o18n9 / ZRN / 3617 F NQNZF EQ/K BS NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108082~o18n9 /ZRN/3617 F NQNZF EQ/K BS NHOHEA",
-        "PNYY:ZRN",
-        "NQQE:3617 F NQNZF EQ",
-        "K:NHOHEA");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645405~pso-q / ZRO / 2251 J NHOHEA EQ Ncg 40/PNYYOX=(248)885-1807} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645405~pso-q /ZRO/2251 J NHOHEA EQ Ncg 40/PNYYOX=(248)885-1807",
+        "PNYY:ZRO",
+        "NQQE:2251 J NHOHEA EQ",
+        "NCG:40",
+        "CUBAR:(248)885-1807");
 
     qbGrfg("G23",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108082~s-48s / ZRN / 3617 F NQNZF EQ/K BS NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108082~s-48s /ZRN/3617 F NQNZF EQ/K BS NHOHEA",
-        "PNYY:ZRN",
-        "NQQE:3617 F NQNZF EQ",
-        "K:NHOHEA");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645405~-161q / ZR / 2251 J NHOHEA EQ Ncg 40/PNYYOX=(248)885-1807} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645405~-161q /ZR/2251 J NHOHEA EQ Ncg 40/PNYYOX=(248)885-1807",
+        "PNYY:ZR",
+        "NQQE:2251 J NHOHEA EQ",
+        "NCG:40",
+        "CUBAR:(248)885-1807");
 
     qbGrfg("G24",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108070~-4q2r / ZR / 134 JBBQIVRJ) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108070~-4q2r /ZR/134 JBBQIVRJ",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645370~o-n31 / ZR / 1122 F EBPURFGRE EQ/NIBA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645370~o-n31 /ZR/1122 F EBPURFGRE EQ/NIBA",
         "PNYY:ZR",
-        "NQQE:134 JBBQIVRJ");
+        "NQQE:1122 F EBPURFGRE EQ",
+        "CYNPR:NIBA");
 
     qbGrfg("G25",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108070~14soq / ZR / 134 JBBQIVRJ) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108070~14soq /ZR/134 JBBQIVRJ",
-        "PNYY:ZR",
-        "NQQE:134 JBBQIVRJ");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645130~9120r / ZRN / 3463 UNMRYGBA/YVIREABVF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645130~9120r /ZRN/3463 UNMRYGBA/YVIREABVF",
+        "PNYY:ZRN",
+        "NQQE:3463 UNMRYGBA",
+        "CYNPR:YVIREABVF");
 
     qbGrfg("G26",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107847~81r01 / ZR / 1341 J NHOHEA EQ/K BS QRDHVAQER) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107847~81r01 /ZR/1341 J NHOHEA EQ/K BS QRDHVAQER",
-        "PNYY:ZR",
-        "NQQE:1341 J NHOHEA EQ",
-        "K:QRDHVAQER");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645130~120r7 / ZRN / 3463 UNMRYGBA/YVIREABVF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645130~120r7 /ZRN/3463 UNMRYGBA/YVIREABVF",
+        "PNYY:ZRN",
+        "NQQE:3463 UNMRYGBA",
+        "CYNPR:YVIREABVF");
 
     qbGrfg("G27",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107847~-2181 / ZR / 1341 J NHOHEA EQ/K BS QRDHVAQER) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107847~-2181 /ZR/1341 J NHOHEA EQ/K BS QRDHVAQER",
-        "PNYY:ZR",
-        "NQQE:1341 J NHOHEA EQ",
-        "K:QRDHVAQER");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645130~-4on7 / ZRN / 3463 UNMRYGBA/YVIREABVF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645130~-4on7 /ZRN/3463 UNMRYGBA/YVIREABVF",
+        "PNYY:ZRN",
+        "NQQE:3463 UNMRYGBA",
+        "CYNPR:YVIREABVF");
 
     qbGrfg("G28",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107651~45qn0 / ZR / 2566 JNYGBA OYIQ Ncg 202) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107651~45qn0 /ZR/2566 JNYGBA OYIQ Ncg 202",
-        "PNYY:ZR",
-        "NQQE:2566 JNYGBA OYIQ",
-        "NCG:202");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645047~8-996 / ZRQ / 2251 J NHOHEA EQ Ncg 43} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645047~8-996 /ZRQ/2251 J NHOHEA EQ Ncg 43",
+        "PNYY:ZRQ",
+        "NQQE:2251 J NHOHEA EQ",
+        "NCG:43");
 
     qbGrfg("G29",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107622~27o-o / ZR / 650 CYHZ EVQTR QE/JNYGBA/NQNZF) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107622~27o-o /ZR/650 CYHZ EVQTR QE/JNYGBA/NQNZF",
-        "PNYY:ZR",
-        "NQQE:650 CYHZ EVQTR QE",
-        "CYNPR:JNYGBA/NQNZF");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645047~88-99 / ZRQ / 2251 J NHOHEA EQ Ncg 43} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645047~88-99 /ZRQ/2251 J NHOHEA EQ Ncg 43",
+        "PNYY:ZRQ",
+        "NQQE:2251 J NHOHEA EQ",
+        "NCG:43");
 
     qbGrfg("G30",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107591~97624 / ZRQ / 227 GBHPNA FG/PEBBXF/NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107591~97624 /ZRQ/227 GBHPNA FG/PEBBXF/NHOHEA",
-        "PNYY:ZRQ",
-        "NQQE:227 GBHPNA FG",
-        "CYNPR:PEBBXF/NHOHEA");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645047~2-488 / ZR / 2251 J NHOHEA EQ Ncg 43} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2645047~2-488 /ZR/2251 J NHOHEA EQ Ncg 43",
+        "PNYY:ZR",
+        "NQQE:2251 J NHOHEA EQ",
+        "NCG:43");
 
     qbGrfg("G31",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107591~4-0r7 / ZRQ / 227 GBHPNA FG/PEBBXF/NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107591~4-0r7 /ZRQ/227 GBHPNA FG/PEBBXF/NHOHEA",
-        "PNYY:ZRQ",
-        "NQQE:227 GBHPNA FG",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644925~sp287 / ZR / 2251 J NHOHEA EQ/PEBBXF/NHOHEA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644925~sp287 /ZR/2251 J NHOHEA EQ/PEBBXF/NHOHEA",
+        "PNYY:ZR",
+        "NQQE:2251 J NHOHEA EQ",
         "CYNPR:PEBBXF/NHOHEA");
 
     qbGrfg("G32",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~9491- / EP / 2825 F EBPURFGRE EQ/ERQ YBOFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~9491- /EP/2825 F EBPURFGRE EQ/ERQ YBOFGRE",
-        "PNYY:EP",
-        "NQQE:2825 F EBPURFGRE EQ",
-        "CYNPR:ERQ YBOFGRE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644731~s8823 / ZRN / 485 R ANJNXJN EQ} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644731~s8823 /ZRN/485 R ANJNXJN EQ",
+        "PNYY:ZRN",
+        "NQQE:485 R ANJNXJN EQ");
 
     qbGrfg("G33",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~0-920 / EP / 2825 F EBPURFGRE EQ/ERQ YBOFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~0-920 /EP/2825 F EBPURFGRE EQ/ERQ YBOFGRE",
-        "PNYY:EP",
-        "NQQE:2825 F EBPURFGRE EQ",
-        "CYNPR:ERQ YBOFGRE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644691~o24-4 / ZR / 435 F YVIREABVF EQ Ncg 253/NIBA NCGF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644691~o24-4 /ZR/435 F YVIREABVF EQ Ncg 253/NIBA NCGF",
+        "PNYY:ZR",
+        "NQQE:435 F YVIREABVF EQ",
+        "NCG:253",
+        "CYNPR:NIBA NCGF");
 
     qbGrfg("G34",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~0r4s- / EP / 2825 F EBPURFGRE EQ/ERQ YBOFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~0r4s- /EP/2825 F EBPURFGRE EQ/ERQ YBOFGRE",
-        "PNYY:EP",
-        "NQQE:2825 F EBPURFGRE EQ",
-        "CYNPR:ERQ YBOFGRE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644644~p731n / ZRQ / 2135 XRAARQL QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644644~p731n /ZRQ/2135 XRAARQL QE",
+        "PNYY:ZRQ",
+        "NQQE:2135 XRAARQL QE");
 
     qbGrfg("G35",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~-8q20 / EP / 2825 F EBPURFGRE EQ/ERQ YBOFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~-8q20 /EP/2825 F EBPURFGRE EQ/ERQ YBOFGRE",
-        "PNYY:EP",
-        "NQQE:2825 F EBPURFGRE EQ",
-        "CYNPR:ERQ YBOFGRE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~9250s / OBK_ERFQ / 557 YRFCRENAPR QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~9250s /OBK_ERFQ/557 YRFCRENAPR QE",
+        "PNYY:OBK_ERFQ",
+        "NQQE:557 YRFCRENAPR QE");
 
     qbGrfg("G36",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~91-4n / EP / 2825 F EBPURFGRE EQ/ERQ YBOFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~91-4n /EP/2825 F EBPURFGRE EQ/ERQ YBOFGRE",
-        "PNYY:EP",
-        "NQQE:2825 F EBPURFGRE EQ",
-        "CYNPR:ERQ YBOFGRE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~n75-4 / OBK_ERFQ / 557 YRFCRENAPR QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~n75-4 /OBK_ERFQ/557 YRFCRENAPR QE",
+        "PNYY:OBK_ERFQ",
+        "NQQE:557 YRFCRENAPR QE");
 
     qbGrfg("G37",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~20s0o / EP / 2825 F EBPURFGRE EQ/ERQ YBOFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107439~20s0o /EP/2825 F EBPURFGRE EQ/ERQ YBOFGRE",
-        "PNYY:EP",
-        "NQQE:2825 F EBPURFGRE EQ",
-        "CYNPR:ERQ YBOFGRE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~1p85q / OBK_ERFQ / 557 YRFCRENAPR QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~1p85q /OBK_ERFQ/557 YRFCRENAPR QE",
+        "PNYY:OBK_ERFQ",
+        "NQQE:557 YRFCRENAPR QE");
 
     qbGrfg("G38",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~4-114 / EE / 1240 TEBFIRABE PG) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~4-114 /EE/1240 TEBFIRABE PG",
-        "PNYY:EE",
-        "NQQE:1240 TEBFIRABE PG");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~50sq1 / FZBXR / 557 YRFCRENAPR QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~50sq1 /FZBXR/557 YRFCRENAPR QE",
+        "PNYY:FZBXR",
+        "NQQE:557 YRFCRENAPR QE");
 
     qbGrfg("G39",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107411~93389 / ZR / 873 J NIBA EQ Ncg 244O/PNYYOX=(911)027-1704) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107411~93389 /ZR/873 J NIBA EQ Ncg 244O/PNYYOX=(911)027-1704",
-        "PNYY:ZR",
-        "NQQE:873 J NIBA EQ",
-        "NCG:244O",
-        "CUBAR:(911)027-1704");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~p85qs / FZBXR / 557 YRFCRENAPR QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644403~p85qs /FZBXR/557 YRFCRENAPR QE",
+        "PNYY:FZBXR",
+        "NQQE:557 YRFCRENAPR QE");
 
     qbGrfg("G40",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~q27p- / EE / 1240 TEBFIRABE PG) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~q27p- /EE/1240 TEBFIRABE PG",
-        "PNYY:EE",
-        "NQQE:1240 TEBFIRABE PG");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644365~10513 / ZR / 3500 FBHGU OYIQ J} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644365~10513 /ZR/3500 FBHGU OYIQ J",
+        "PNYY:ZR",
+        "NQQE:3500 FBHGU OYIQ J");
 
     qbGrfg("G41",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~95p4r / EE / 1240 TEBFIRABE PG) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~95p4r /EE/1240 TEBFIRABE PG",
-        "PNYY:EE",
-        "NQQE:1240 TEBFIRABE PG");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644293~on7n4 / ZR / 826 UBARLPEVFC} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644293~on7n4 /ZR/826 UBARLPEVFC",
+        "PNYY:ZR",
+        "NQQE:826 UBARLPEVFC");
 
     qbGrfg("G42",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~51n-8 / EE / 1240 TEBFIRABE PG) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~51n-8 /EE/1240 TEBFIRABE PG",
-        "PNYY:EE",
-        "NQQE:1240 TEBFIRABE PG");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644208~80-40 / NP / 262 ZNEZBBE PG/PNYYOX=(248)894-6683} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644208~80-40 /NP/262 ZNEZBBE PG/PNYYOX=(248)894-6683",
+        "PNYY:NP",
+        "NQQE:262 ZNEZBBE PG",
+        "CUBAR:(248)894-6683");
 
     qbGrfg("G43",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~8354- / EE / 1240 TEBFIRABE PG) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107408~8354- /EE/1240 TEBFIRABE PG",
-        "PNYY:EE",
-        "NQQE:1240 TEBFIRABE PG");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644171~p-4o2 / ZRO / 3741 F NQNZF EQ Ncg 27/PNYYOX=(313)903-4801} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644171~p-4o2 /ZRO/3741 F NQNZF EQ Ncg 27/PNYYOX=(313)903-4801",
+        "PNYY:ZRO",
+        "NQQE:3741 F NQNZF EQ",
+        "NCG:27",
+        "CUBAR:(313)903-4801");
 
     qbGrfg("G44",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107368~s29n9 / ZR / 1886 J NHOHEA EQ Ncg 100/PEBBXF) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107368~s29n9 /ZR/1886 J NHOHEA EQ Ncg 100/PEBBXF",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644135~3o-sq / ZR / 1529 FPRAVP UBYYBJ/QHGGBA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644135~3o-sq /ZR/1529 FPRAVP UBYYBJ/QHGGBA",
         "PNYY:ZR",
-        "NQQE:1886 J NHOHEA EQ",
-        "NCG:100",
-        "CYNPR:PEBBXF");
+        "NQQE:1529 FPRAVP UBYYBJ",
+        "CYNPR:QHGGBA");
 
     qbGrfg("G45",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107361~23sn8 / ZR / 2273 PEBBXF EQ/PNYYOX=(248)225-3410) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107361~23sn8 /ZR/2273 PEBBXF EQ/PNYYOX=(248)225-3410",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644132~oq27r / ZR / 59 XNYUNIRA EQ/EBPURFGRE/UNZYVA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644132~oq27r /ZR/59 XNYUNIRA EQ/EBPURFGRE/UNZYVA",
         "PNYY:ZR",
-        "NQQE:2273 PEBBXF EQ",
-        "CUBAR:(248)225-3410");
+        "NQQE:59 XNYUNIRA EQ",
+        "CYNPR:EBPURFGRE/UNZYVA");
 
     qbGrfg("G46",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107361~n8r65 / ZR / 2273 PEBBXF EQ/PNYYOX=(248)225-3410) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107361~n8r65 /ZR/2273 PEBBXF EQ/PNYYOX=(248)225-3410",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644129~71r-9 / ZR / 3048 NINYBA EQ/NHOHEA/NQNZF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2644129~71r-9 /ZR/3048 NINYBA EQ/NHOHEA/NQNZF",
         "PNYY:ZR",
-        "NQQE:2273 PEBBXF EQ",
-        "CUBAR:(248)225-3410");
+        "NQQE:3048 NINYBA EQ",
+        "CYNPR:NHOHEA/NQNZF");
 
     qbGrfg("G47",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107317~30p-q / ZR / 2251 J NHOHEA EQ/NZREVPNA UBHFR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107317~30p-q /ZR/2251 J NHOHEA EQ/NZREVPNA UBHFR",
-        "PNYY:ZR",
-        "NQQE:2251 J NHOHEA EQ",
-        "CYNPR:NZREVPNA UBHFR");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~985-q / CV / F YVIREABVF EQ/R Z59} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~985-q /CV/F YVIREABVF EQ/R Z59",
+        "PNYY:CV",
+        "NQQE:F YVIREABVF EQ & R Z59",
+        "ZNQQE:F YVIREABVF EQ & R FGNGR 59");
 
     qbGrfg("G48",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107317~5r3-4 / ZR / 2251 J NHOHEA EQ/NZREVPNA UBHFR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107317~5r3-4 /ZR/2251 J NHOHEA EQ/NZREVPNA UBHFR",
-        "PNYY:ZR",
-        "NQQE:2251 J NHOHEA EQ",
-        "CYNPR:NZREVPNA UBHFR");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643860~on1r- / NP / 3250 JNYGBA OYIQ/NQNZF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643860~on1r- /NP/3250 JNYGBA OYIQ/NQNZF",
+        "PNYY:NP",
+        "NQQE:3250 JNYGBA OYIQ",
+        "CYNPR:NQNZF");
 
     qbGrfg("G49",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107314~s80-4 / ZR / 2915 J GVRAXRA EQ) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107314~s80-4 /ZR/2915 J GVRAXRA EQ",
-        "PNYY:ZR",
-        "NQQE:2915 J GVRAXRA EQ");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~sn7po / CV / F YVIREABVF EQ/R Z59} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~sn7po /CV/F YVIREABVF EQ/R Z59",
+        "PNYY:CV",
+        "NQQE:F YVIREABVF EQ & R Z59",
+        "ZNQQE:F YVIREABVF EQ & R FGNGR 59");
 
     qbGrfg("G50",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107314~r6389 / ZR / 2915 J GVRAXRA EQ) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107314~r6389 /ZR/2915 J GVRAXRA EQ",
-        "PNYY:ZR",
-        "NQQE:2915 J GVRAXRA EQ");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~-4127 / CV / F YVIREABVF EQ/R Z59} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~-4127 /CV/F YVIREABVF EQ/R Z59",
+        "PNYY:CV",
+        "NQQE:F YVIREABVF EQ & R Z59",
+        "ZNQQE:F YVIREABVF EQ & R FGNGR 59");
 
     qbGrfg("G51",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~1p00o / ZR / F EBPURFGRE EQ/FBHGU OYIQ J) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~1p00o /ZR/F EBPURFGRE EQ/FBHGU OYIQ J",
-        "PNYY:ZR",
-        "NQQE:F EBPURFGRE EQ & FBHGU OYIQ J");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643883~-8522 / ZRN / 3467 F NQNZF EQ/NZREVPNA UBHFR} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643883~-8522 /ZRN/3467 F NQNZF EQ/NZREVPNA UBHFR",
+        "PNYY:ZRN",
+        "NQQE:3467 F NQNZF EQ",
+        "CYNPR:NZREVPNA UBHFR");
 
     qbGrfg("G52",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~p00oo / ZR / F EBPURFGRE EQ/FBHGU OYIQ J) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~p00oo /ZR/F EBPURFGRE EQ/FBHGU OYIQ J",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643883~9p3p- / ZR / 3467 F NQNZF EQ/NZREVPNA UBHFR} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643883~9p3p- /ZR/3467 F NQNZF EQ/NZREVPNA UBHFR",
         "PNYY:ZR",
-        "NQQE:F EBPURFGRE EQ & FBHGU OYIQ J");
+        "NQQE:3467 F NQNZF EQ",
+        "CYNPR:NZREVPNA UBHFR");
 
     qbGrfg("G53",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~4123- / ZR / F EBPURFGRE EQ/FBHGU OYIQ J) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~4123- /ZR/F EBPURFGRE EQ/FBHGU OYIQ J",
-        "PNYY:ZR",
-        "NQQE:F EBPURFGRE EQ & FBHGU OYIQ J");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643860~os63n / NP / 3250 JNYGBA OYIQ/NQNZF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643860~os63n /NP/3250 JNYGBA OYIQ/NQNZF",
+        "PNYY:NP",
+        "NQQE:3250 JNYGBA OYIQ",
+        "CYNPR:NQNZF");
 
     qbGrfg("G54",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~127n- / ZR / F EBPURFGRE EQ/FBHGU OYIQ J) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107281~127n- /ZR/F EBPURFGRE EQ/FBHGU OYIQ J",
-        "PNYY:ZR",
-        "NQQE:F EBPURFGRE EQ & FBHGU OYIQ J");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~9985- / CV / F YVIREABVF EQ/R Z59} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643881~9985- /CV/F YVIREABVF EQ/R Z59",
+        "PNYY:CV",
+        "NQQE:F YVIREABVF EQ & R Z59",
+        "ZNQQE:F YVIREABVF EQ & R FGNGR 59");
 
     qbGrfg("G55",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~q6o96 / ZRP / 3601 F NQNZF EQ Ncg 211/EBPURFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~q6o96 /ZRP/3601 F NQNZF EQ Ncg 211/EBPURFGRE",
-        "PNYY:ZRP",
-        "NQQE:3601 F NQNZF EQ",
-        "NCG:211",
-        "CYNPR:EBPURFGRE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643860~sr3-8 / NP / 3250 JNYGBA OYIQ/NQNZF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643860~sr3-8 /NP/3250 JNYGBA OYIQ/NQNZF",
+        "PNYY:NP",
+        "NQQE:3250 JNYGBA OYIQ",
+        "CYNPR:NQNZF");
 
     qbGrfg("G56",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~q03s7 / ZRP / 3601 F NQNZF EQ Ncg 211/EBPURFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~q03s7 /ZRP/3601 F NQNZF EQ Ncg 211/EBPURFGRE",
-        "PNYY:ZRP",
-        "NQQE:3601 F NQNZF EQ",
-        "NCG:211",
-        "CYNPR:EBPURFGRE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643799~-2666 / ZR / 1599 BARVY PVE/Z59/QRDHVAQER} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643799~-2666 /ZR/1599 BARVY PVE/Z59/QRDHVAQER",
+        "PNYY:ZR",
+        "NQQE:1599 BARVY PVE",
+        "K:Z59",
+        "CYNPR:QRDHVAQER");
 
     qbGrfg("G57",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~rrq6o / ZRP / 3601 F NQNZF EQ Ncg 211/EBPURFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~rrq6o /ZRP/3601 F NQNZF EQ Ncg 211/EBPURFGRE",
-        "PNYY:ZRP",
-        "NQQE:3601 F NQNZF EQ",
-        "NCG:211",
-        "CYNPR:EBPURFGRE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643793~6p33n / ZR / 3500 FBHGU OYIQ J Ncg 47/OBHYRINEQ URNYGU PRAGRE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643793~6p33n /ZR/3500 FBHGU OYIQ J Ncg 47/OBHYRINEQ URNYGU PRAGRE",
+        "PNYY:ZR",
+        "NQQE:3500 FBHGU OYIQ J",
+        "NCG:47",
+        "CYNPR:OBHYRINEQ URNYGU PRAGRE");
 
     qbGrfg("G58",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~-78o1 / ZRP / 3601 F NQNZF EQ Ncg 211/EBPURFGRE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107176~-78o1 /ZRP/3601 F NQNZF EQ Ncg 211/EBPURFGRE",
-        "PNYY:ZRP",
-        "NQQE:3601 F NQNZF EQ",
-        "NCG:211",
-        "CYNPR:EBPURFGRE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643793~3n-30 / ZR / 3500 FBHGU OYIQ J Ncg 47/OBHYRINEQ URNYGU PRAGRE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643793~3n-30 /ZR/3500 FBHGU OYIQ J Ncg 47/OBHYRINEQ URNYGU PRAGRE",
+        "PNYY:ZR",
+        "NQQE:3500 FBHGU OYIQ J",
+        "NCG:47",
+        "CYNPR:OBHYRINEQ URNYGU PRAGRE");
 
     qbGrfg("G59",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107166~r-n4s / ZRN / 295 CNEXYNAQ QE/PNYYOX=(248)425-7375) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107166~r-n4s /ZRN/295 CNEXYNAQ QE/PNYYOX=(248)425-7375",
-        "PNYY:ZRN",
-        "NQQE:295 CNEXYNAQ QE",
-        "CUBAR:(248)425-7375");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643793~26p33 / ZR / 3500 FBHGU OYIQ J Ncg 47/OBHYRINEQ URNYGU PRAGRE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643793~26p33 /ZR/3500 FBHGU OYIQ J Ncg 47/OBHYRINEQ URNYGU PRAGRE",
+        "PNYY:ZR",
+        "NQQE:3500 FBHGU OYIQ J",
+        "NCG:47",
+        "CYNPR:OBHYRINEQ URNYGU PRAGRE");
 
     qbGrfg("G60",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107166~q8s6r / ZR / 295 CNEXYNAQ QE/PNYYOX=(248)425-7375) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107166~q8s6r /ZR/295 CNEXYNAQ QE/PNYYOX=(248)425-7375",
-        "PNYY:ZR",
-        "NQQE:295 CNEXYNAQ QE",
-        "CUBAR:(248)425-7375");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643695~9r1o9 / TNFYX / 2328 ENAPEBSG ORNG/GVRAXRA/OERJFGRE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643695~9r1o9 /TNFYX/2328 ENAPEBSG ORNG/GVRAXRA/OERJFGRE",
+        "PNYY:TNFYX",
+        "NQQE:2328 ENAPEBSG ORNG",
+        "CYNPR:GVRAXRA/OERJFGRE");
 
     qbGrfg("G61",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107166~r21s5 / ZR / 295 CNEXYNAQ QE/PNYYOX=(248)425-7375) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107166~r21s5 /ZR/295 CNEXYNAQ QE/PNYYOX=(248)425-7375",
-        "PNYY:ZR",
-        "NQQE:295 CNEXYNAQ QE",
-        "CUBAR:(248)425-7375");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643694~sq62- / NP / 1111 UBEVMBA PG} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643694~sq62- /NP/1111 UBEVMBA PG",
+        "PNYY:NP",
+        "NQQE:1111 UBEVMBA PG");
 
     qbGrfg("G62",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107116~sn6-0 / ZRN / 3250 JNYGBA OYIQ Ncg 203/NCG 203) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107116~sn6-0 /ZRN/3250 JNYGBA OYIQ Ncg 203/NCG 203",
-        "PNYY:ZRN",
-        "NQQE:3250 JNYGBA OYIQ",
-        "NCG:203");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643547~01os4 / NP / 3463 UNMRYGBA/FBHGU OYIQ/NHOHEA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643547~01os4 /NP/3463 UNMRYGBA/FBHGU OYIQ/NHOHEA",
+        "PNYY:NP",
+        "NQQE:3463 UNMRYGBA",
+        "K:FBHGU OYIQ",
+        "CYNPR:NHOHEA");
 
     qbGrfg("G63",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107116~-49p6 / ZRN / 3250 JNYGBA OYIQ Ncg 203/NCG 203) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107116~-49p6 /ZRN/3250 JNYGBA OYIQ Ncg 203/NCG 203",
-        "PNYY:ZRN",
-        "NQQE:3250 JNYGBA OYIQ",
-        "NCG:203");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643393~41no- / ZRQ / 3557 JVAQVAT OEBBX PVE/FBHGU OYIQ/PEBBXF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643393~41no- /ZRQ/3557 JVAQVAT OEBBX PVE/FBHGU OYIQ/PEBBXF",
+        "PNYY:ZRQ",
+        "NQQE:3557 JVAQVAT OEBBX PVE",
+        "K:FBHGU OYIQ",
+        "CYNPR:PEBBXF");
 
     qbGrfg("G64",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107032~7-n24 / ZHGNVQ / YNCRRE EQ/UNEZBA EQ/FO) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107032~7-n24 /ZHGNVQ/YNCRRE EQ/UNEZBA EQ/FO",
-        "PNYY:ZHGNVQ",
-        "NQQE:YNCRRE EQ & UNEZBA EQ",
-        "CYNPR:FO");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643359~6p75s / ZR / 3250 JNYGBA OYIQ/NCG 249/JNYGBAJBBQ} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643359~6p75s /ZR/3250 JNYGBA OYIQ/NCG 249/JNYGBAJBBQ",
+        "PNYY:ZR",
+        "NQQE:3250 JNYGBA OYIQ",
+        "NCG:249",
+        "CYNPR:JNYGBAJBBQ");
 
     qbGrfg("G65",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107032~95-85 / ZHGNVQ / YNCRRE EQ/UNEZBA EQ/FO) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1107032~95-85 /ZHGNVQ/YNCRRE EQ/UNEZBA EQ/FO",
-        "PNYY:ZHGNVQ",
-        "NQQE:YNCRRE EQ & UNEZBA EQ",
-        "CYNPR:FO");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643287~9q35- / NP / 435 F YVIREABVF EQ Ncg 253/NIBA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643287~9q35- /NP/435 F YVIREABVF EQ Ncg 253/NIBA",
+        "PNYY:NP",
+        "NQQE:435 F YVIREABVF EQ",
+        "NCG:253",
+        "CYNPR:NIBA");
 
     qbGrfg("G66",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106670~95-os / NP / 3250 JNYGBA OYIQ Ncg 225/K BS NQNZF) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106670~95-os /NP/3250 JNYGBA OYIQ Ncg 225/K BS NQNZF",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643196~4r53- / NP / 492 RFFRK QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643196~4r53- /NP/492 RFFRK QE",
         "PNYY:NP",
-        "NQQE:3250 JNYGBA OYIQ",
-        "NCG:225",
-        "K:NQNZF");
+        "NQQE:492 RFFRK QE");
 
     qbGrfg("G67",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~p5n67 / CV / J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~p5n67 /CV/J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663",
-        "PNYY:CV",
-        "NQQE:J NHOHEA EQ & F YVIREABVF EQ",
-        "CUBAR:(248)931-1663");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643169~4s-5n / ZR / 3743 F NQNZF EQ/NZREVPNA UBHFR} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643169~4s-5n /ZR/3743 F NQNZF EQ/NZREVPNA UBHFR",
+        "PNYY:ZR",
+        "NQQE:3743 F NQNZF EQ",
+        "CYNPR:NZREVPNA UBHFR");
 
     qbGrfg("G68",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~4rq-o / CV / J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~4rq-o /CV/J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663",
-        "PNYY:CV",
-        "NQQE:J NHOHEA EQ & F YVIREABVF EQ",
-        "CUBAR:(248)931-1663");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643097~rs36p / ZR / 3500 FBHGU OYIQ J Ncg N42} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2643097~rs36p /ZR/3500 FBHGU OYIQ J Ncg N42",
+        "PNYY:ZR",
+        "NQQE:3500 FBHGU OYIQ J",
+        "NCG:N42");
 
     qbGrfg("G69",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~rr4q- / CV / J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~rr4q- /CV/J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663",
-        "PNYY:CV",
-        "NQQE:J NHOHEA EQ & F YVIREABVF EQ",
-        "CUBAR:(248)931-1663");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642649~o8-o7 / ZR / 2165 UNZYVA PG/J UNZYVA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642649~o8-o7 /ZR/2165 UNZYVA PG/J UNZYVA",
+        "PNYY:ZR",
+        "NQQE:2165 UNZYVA PG",
+        "CYNPR:J UNZYVA");
 
     qbGrfg("G70",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~8psnr / CV / J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106579~8psnr /CV/J NHOHEA EQ/F YVIREABVF EQ/PNYYOX=(248)931-1663",
-        "PNYY:CV",
-        "NQQE:J NHOHEA EQ & F YVIREABVF EQ",
-        "CUBAR:(248)931-1663");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~7-7p0 / SHYY_ERF / 232 ZRNQBJYNAR PVE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~7-7p0 /SHYY_ERF/232 ZRNQBJYNAR PVE",
+        "PNYY:SHYY_ERF",
+        "NQQE:232 ZRNQBJYNAR PVE");
 
     qbGrfg("G71",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106201~9r0on / ZR / 873 J NIBA EQ Ncg 235) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106201~9r0on /ZR/873 J NIBA EQ Ncg 235",
-        "PNYY:ZR",
-        "NQQE:873 J NIBA EQ",
-        "NCG:235");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~41nq- / SHYY_ERF / 232 ZRNQBJYNAR PVE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~41nq- /SHYY_ERF/232 ZRNQBJYNAR PVE",
+        "PNYY:SHYY_ERF",
+        "NQQE:232 ZRNQBJYNAR PVE");
 
     qbGrfg("G72",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106201~326-4 / ZR / 873 J NIBA EQ Ncg 235) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106201~326-4 /ZR/873 J NIBA EQ Ncg 235",
-        "PNYY:ZR",
-        "NQQE:873 J NIBA EQ",
-        "NCG:235");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~-41nq / SHYY_ERF / 232 ZRNQBJYNAR PVE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~-41nq /SHYY_ERF/232 ZRNQBJYNAR PVE",
+        "PNYY:SHYY_ERF",
+        "NQQE:232 ZRNQBJYNAR PVE");
 
     qbGrfg("G73",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106187~-5r92 / ZRQ / 2858 TENIRY EVQTR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106187~-5r92 /ZRQ/2858 TENIRY EVQTR",
-        "PNYY:ZRQ",
-        "NQQE:2858 TENIRY EVQTR");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~o0n7- / SHYY_ERF / 232 ZRNQBJYNAR PVE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~o0n7- /SHYY_ERF/232 ZRNQBJYNAR PVE",
+        "PNYY:SHYY_ERF",
+        "NQQE:232 ZRNQBJYNAR PVE");
 
     qbGrfg("G74",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106187~p-4rn / ZRQ / 2858 TENIRY EVQTR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106187~p-4rn /ZRQ/2858 TENIRY EVQTR",
-        "PNYY:ZRQ",
-        "NQQE:2858 TENIRY EVQTR");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~p0sop / SHYY_ERF / 232 ZRNQBJYNAR PVE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~p0sop /SHYY_ERF/232 ZRNQBJYNAR PVE",
+        "PNYY:SHYY_ERF",
+        "NQQE:232 ZRNQBJYNAR PVE");
 
     qbGrfg("G75",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106187~-4rns / ZRQ / 2858 TENIRY EVQTR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106187~-4rns /ZRQ/2858 TENIRY EVQTR",
-        "PNYY:ZRQ",
-        "NQQE:2858 TENIRY EVQTR");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~q-93o / SHYY_ERF / 232 ZRNQBJYNAR PVE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642560~q-93o /SHYY_ERF/232 ZRNQBJYNAR PVE",
+        "PNYY:SHYY_ERF",
+        "NQQE:232 ZRNQBJYNAR PVE");
 
     qbGrfg("G76",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106034~847o1 / ZRO / 1401 A EBPURFGRE EQ/FHVGR 243) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106034~847o1 /ZRO/1401 A EBPURFGRE EQ/FHVGR 243",
-        "PNYY:ZRO",
-        "NQQE:1401 A EBPURFGRE EQ",
-        "NCG:243");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642469~5op74 / ZR / 947 R GVRAXRA EQ/PNYYOX=(248)568-0783} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642469~5op74 /ZR/947 R GVRAXRA EQ/PNYYOX=(248)568-0783",
+        "PNYY:ZR",
+        "NQQE:947 R GVRAXRA EQ",
+        "CUBAR:(248)568-0783");
 
     qbGrfg("G77",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106034~77847 / ZRO / 1401 A EBPURFGRE EQ/FHVGR 243) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1106034~77847 /ZRO/1401 A EBPURFGRE EQ/FHVGR 243",
-        "PNYY:ZRO",
-        "NQQE:1401 A EBPURFGRE EQ",
-        "NCG:243");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642445~6902- / ZR / 1480 JNYGBA OYIQ/YVIREABVF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642445~6902- /ZR/1480 JNYGBA OYIQ/YVIREABVF",
+        "PNYY:ZR",
+        "NQQE:1480 JNYGBA OYIQ",
+        "CYNPR:YVIREABVF");
 
     qbGrfg("G78",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105890~2-q0n / NP / 698 PUNEVAT PG/K BS ONEPYNE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105890~2-q0n /NP/698 PUNEVAT PG/K BS ONEPYNE",
-        "PNYY:NP",
-        "NQQE:698 PUNEVAT PG",
-        "K:ONEPYNE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642445~n9q36 / ZR / 1480 JNYGBA OYIQ/YVIREABVF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642445~n9q36 /ZR/1480 JNYGBA OYIQ/YVIREABVF",
+        "PNYY:ZR",
+        "NQQE:1480 JNYGBA OYIQ",
+        "CYNPR:YVIREABVF");
 
     qbGrfg("G79",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105888~-4482 / ZRG / 1101 J HAVIREFVGL QE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105888~-4482 /ZRG/1101 J HAVIREFVGL QE",
-        "PNYY:ZRG",
-        "NQQE:1101 J HAVIREFVGL QE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642419~sror0 / NP / 2208 PHZOREYNAQ/UNZYVA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642419~sror0 /NP/2208 PHZOREYNAQ/UNZYVA",
+        "PNYY:NP",
+        "NQQE:2208 PHZOREYNAQ",
+        "CYNPR:UNZYVA");
 
     qbGrfg("G80",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105713~75-18 / ZRN / 2771 F EBPURFGRE EQ/K BS NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105713~75-18 /ZRN/2771 F EBPURFGRE EQ/K BS NHOHEA",
-        "PNYY:ZRN",
-        "NQQE:2771 F EBPURFGRE EQ",
-        "K:NHOHEA");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642403~s8p0- / ZR / 461 SNEZEVQTR PG} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642403~s8p0- /ZR/461 SNEZEVQTR PG",
+        "PNYY:ZR",
+        "NQQE:461 SNEZEVQTR PG");
 
     qbGrfg("G81",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105713~8r89r / ZRN / 2771 F EBPURFGRE EQ/K BS NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105713~8r89r /ZRN/2771 F EBPURFGRE EQ/K BS NHOHEA",
-        "PNYY:ZRN",
-        "NQQE:2771 F EBPURFGRE EQ",
-        "K:NHOHEA");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642341~q3-42 / ZR / 1204 YRNE/OGJ EBPURFGRE/YVIREABVF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642341~q3-42 /ZR/1204 YRNE/OGJ EBPURFGRE/YVIREABVF",
+        "PNYY:ZR",
+        "NQQE:1204 YRNE",
+        "CYNPR:OGJ EBPURFGRE/YVIREABVF");
 
     qbGrfg("G82",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105699~sp467 / ZR / 2728 F EBPURFGRE EQ/UNZYVA/NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105699~sp467 /ZR/2728 F EBPURFGRE EQ/UNZYVA/NHOHEA",
-        "PNYY:ZR",
-        "NQQE:2728 F EBPURFGRE EQ",
-        "CYNPR:UNZYVA/NHOHEA");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642338~99p86 / ZRQ / 3308 SHYUNZ QE/PEBBXF/NHOHEA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642338~99p86 /ZRQ/3308 SHYUNZ QE/PEBBXF/NHOHEA",
+        "PNYY:ZRQ",
+        "NQQE:3308 SHYUNZ QE",
+        "CYNPR:PEBBXF/NHOHEA");
 
     qbGrfg("G83",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105699~84879 / ZR / 2728 F EBPURFGRE EQ/UNZYVA/NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105699~84879 /ZR/2728 F EBPURFGRE EQ/UNZYVA/NHOHEA",
-        "PNYY:ZR",
-        "NQQE:2728 F EBPURFGRE EQ",
-        "CYNPR:UNZYVA/NHOHEA");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642270~6p547 / ZRN / 1356 ABEGUIVRJ YA/K BS NIBA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642270~6p547 /ZRN/1356 ABEGUIVRJ YA/K BS NIBA",
+        "PNYY:ZRN",
+        "NQQE:1356 ABEGUIVRJ YA",
+        "K:NIBA");
 
     qbGrfg("G84",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105262~n8q73 / ZR / 1128 GEHJBBQ QE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105262~n8q73 /ZR/1128 GEHJBBQ QE",
-        "PNYY:ZR",
-        "NQQE:1128 GEHJBBQ QE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642112~p648q / SNP / 2251 J NHOHEA EQ} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642112~p648q /SNP/2251 J NHOHEA EQ",
+        "PNYY:SNP",
+        "NQQE:2251 J NHOHEA EQ");
 
     qbGrfg("G85",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105262~3n8q7 / ZR / 1128 GEHJBBQ QE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105262~3n8q7 /ZR/1128 GEHJBBQ QE",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642072~s9994 / ZR / 2903 J NHOHEA EQ} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642072~s9994 /ZR/2903 J NHOHEA EQ",
         "PNYY:ZR",
-        "NQQE:1128 GEHJBBQ QE");
+        "NQQE:2903 J NHOHEA EQ");
 
     qbGrfg("G86",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105249~48q-q / ZR / 351 FUBEGEVQTR NIR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105249~48q-q /ZR/351 FUBEGEVQTR NIR",
-        "PNYY:ZR",
-        "NQQE:351 FUBEGEVQTR NIR");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~0r21- / CN / 117 SBAGNVAOYRNH QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~0r21- /CN/117 SBAGNVAOYRNH QE",
+        "PNYY:CN",
+        "NQQE:117 SBAGNVAOYRNH QE");
 
     qbGrfg("G87",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105249~-p9o1 / ZR / 351 FUBEGEVQTR NIR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105249~-p9o1 /ZR/351 FUBEGEVQTR NIR",
-        "PNYY:ZR",
-        "NQQE:351 FUBEGEVQTR NIR");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~1-p08 / CN / 117 SBAGNVAOYRNH QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~1-p08 /CN/117 SBAGNVAOYRNH QE",
+        "PNYY:CN",
+        "NQQE:117 SBAGNVAOYRNH QE");
 
     qbGrfg("G88",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105174~n6pp- / ZRN / 2566 JNYGBA OYIQ Ncg 403) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105174~n6pp- /ZRN/2566 JNYGBA OYIQ Ncg 403",
-        "PNYY:ZRN",
-        "NQQE:2566 JNYGBA OYIQ",
-        "NCG:403");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~2490r / CN / 117 SBAGNVAOYRNH QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~2490r /CN/117 SBAGNVAOYRNH QE",
+        "PNYY:CN",
+        "NQQE:117 SBAGNVAOYRNH QE");
 
     qbGrfg("G89",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105174~86836 / ZRN / 2566 JNYGBA OYIQ Ncg 403) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105174~86836 /ZRN/2566 JNYGBA OYIQ Ncg 403",
-        "PNYY:ZRN",
-        "NQQE:2566 JNYGBA OYIQ",
-        "NCG:403");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~r21-p / CN / 117 SBAGNVAOYRNH QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2642019~r21-p /CN/117 SBAGNVAOYRNH QE",
+        "PNYY:CN",
+        "NQQE:117 SBAGNVAOYRNH QE");
 
     qbGrfg("G90",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105138~n8903 / ZR / 1273 UVPXBEL UVYY QE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105138~n8903 /ZR/1273 UVPXBEL UVYY QE",
-        "PNYY:ZR",
-        "NQQE:1273 UVPXBEL UVYY QE");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641925~o7-44 / SNP / 2672 F EBPURFGRE EQ/ARKG GB WREFRL ZVXRF NAQ 7/11} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641925~o7-44 /SNP/2672 F EBPURFGRE EQ/ARKG GB WREFRL ZVXRF NAQ 7/11",
+        "PNYY:SNP",
+        "NQQE:2672 F EBPURFGRE EQ",
+        "CYNPR:ARKG GB WREFRL ZVXRF NAQ 7/11");
 
     qbGrfg("G91",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105138~-45r0 / ZR / 1273 UVPXBEL UVYY QE) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105138~-45r0 /ZR/1273 UVPXBEL UVYY QE",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641775~pp9s- / ZR / 3380 SNVETEBIR PG} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641775~pp9s- /ZR/3380 SNVETEBIR PG",
         "PNYY:ZR",
-        "NQQE:1273 UVPXBEL UVYY QE");
+        "NQQE:3380 SNVETEBIR PG");
 
     qbGrfg("G92",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105106~qq6-2 / ZR / 3380 UNEEVFBA NIR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105106~qq6-2 /ZR/3380 UNEEVFBA NIR",
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641078~1p-87 / ZR / 522 GVZOREYRN QE} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641078~1p-87 /ZR/522 GVZOREYRN QE",
         "PNYY:ZR",
-        "NQQE:3380 UNEEVFBA NIR");
+        "NQQE:522 GVZOREYRN QE");
 
     qbGrfg("G93",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105106~4r-4s / ZR / 3380 UNEEVFBA NIR) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1105106~4r-4s /ZR/3380 UNEEVFBA NIR",
-        "PNYY:ZR",
-        "NQQE:3380 UNEEVFBA NIR");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641074~on-nn / SNE / 1288 ONEARFJBBQ/K YVIREABVF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2641074~on-nn /SNE/1288 ONEARFJBBQ/K YVIREABVF",
+        "PNYY:SNE",
+        "NQQE:1288 ONEARFJBBQ",
+        "CYNPR:K YVIREABVF");
 
     qbGrfg("G94",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104902~721-4 / IS / F EBPURFGRE EQ/R NIBA EQ/PNYYOX=(248)417-4450) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104902~721-4 /IS/F EBPURFGRE EQ/R NIBA EQ/PNYYOX=(248)417-4450",
-        "PNYY:IS",
-        "NQQE:F EBPURFGRE EQ & R NIBA EQ",
-        "CUBAR:(248)417-4450");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640795~9p392 / ZR / 2624 PUVPXNQRR FG/NIBA BA GUR YNXR} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640795~9p392 /ZR/2624 PUVPXNQRR FG/NIBA BA GUR YNXR",
+        "PNYY:ZR",
+        "NQQE:2624 PUVPXNQRR FG",
+        "CYNPR:NIBA BA GUR YNXR");
 
     qbGrfg("G95",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104902~24-9o / IS / F EBPURFGRE EQ/R NIBA EQ/PNYYOX=(248)417-4450) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104902~24-9o /IS/F EBPURFGRE EQ/R NIBA EQ/PNYYOX=(248)417-4450",
-        "PNYY:IS",
-        "NQQE:F EBPURFGRE EQ & R NIBA EQ",
-        "CUBAR:(248)417-4450");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640782~n15o- / ZR / 175 R ANJNXJN EQ/NHOHEA} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640782~n15o- /ZR/175 R ANJNXJN EQ/NHOHEA",
+        "PNYY:ZR",
+        "NQQE:175 R ANJNXJN EQ",
+        "CYNPR:NHOHEA");
 
     qbGrfg("G96",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~9pqq8 / CV / A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~9pqq8 /CV/A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273",
-        "PNYY:CV",
-        "NQQE:A EBPURFGRE EQ & J GVRAXRA EQ",
-        "CUBAR:(248)679-2273");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640501~0pp-o / NP / 1516 FVOYRL NIR} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640501~0pp-o /NP/1516 FVOYRL NIR",
+        "PNYY:NP",
+        "NQQE:1516 FVOYRL NIR");
 
     qbGrfg("G97",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~sn2-o / CV / A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~sn2-o /CV/A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273",
-        "PNYY:CV",
-        "NQQE:A EBPURFGRE EQ & J GVRAXRA EQ",
-        "CUBAR:(248)679-2273");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640488~-746o / ZR / 3466 FBHGU OYIQ J} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640488~-746o /ZR/3466 FBHGU OYIQ J",
+        "PNYY:ZR",
+        "NQQE:3466 FBHGU OYIQ J");
 
     qbGrfg("G98",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~o951- / CV / A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~o951- /CV/A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273",
-        "PNYY:CV",
-        "NQQE:A EBPURFGRE EQ & J GVRAXRA EQ",
-        "CUBAR:(248)679-2273");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640488~746o- / ZR / 3466 FBHGU OYIQ J} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640488~746o- /ZR/3466 FBHGU OYIQ J",
+        "PNYY:ZR",
+        "NQQE:3466 FBHGU OYIQ J");
 
     qbGrfg("G99",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~1-0rq / CV / A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~1-0rq /CV/A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273",
-        "PNYY:CV",
-        "NQQE:A EBPURFGRE EQ & J GVRAXRA EQ",
-        "CUBAR:(248)679-2273");
-
-    qbGrfg("G100",
-        "(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~sp6r7 / CV / A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1104695~sp6r7 /CV/A EBPURFGRE EQ/J GVRAXRA EQ/PNYYOX=(248)679-2273",
-        "PNYY:CV",
-        "NQQE:A EBPURFGRE EQ & J GVRAXRA EQ",
-        "CUBAR:(248)679-2273");
+        "{uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640399~p7p-8 / ZR / 1204 YRNE/NIBA UVYYF} uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=2640399~p7p-8 /ZR/1204 YRNE/NIBA UVYYF",
+        "PNYY:ZR",
+        "NQQE:1204 YRNE",
+        "CYNPR:NIBA UVYYF");
 
   }
- 
+
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj ZVBnxynaqPbhaglPCnefreGrfg().trarengrGrfgf("G1");
   }

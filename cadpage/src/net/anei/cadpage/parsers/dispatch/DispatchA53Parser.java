@@ -11,11 +11,12 @@ public class DispatchA53Parser extends SmartAddressParser {
   public DispatchA53Parser(String city, String state) {
     super(city, state);
     
-    setFieldList("ID CALL ADDR APT X SRC TIME INFO");
+    setFieldList("ID CALL ADDR APT X CITY SRC TIME INFO");
   }
   
-  private static Pattern ID_CALL = Pattern.compile(".*?CFS# *(\\d+) *- *(.*)");
+  private static Pattern ID_CALL = Pattern.compile(".*?CFS#? *(\\d+) *- *(.*)");
   private static Pattern SRC_DISP = Pattern.compile("- ([A-Z]{3,4}) [A-Z0-9]+");
+  private static Pattern CITY_ST_ZIP_PTN = Pattern.compile("([ A-Z]+) TX(?: \\d{5}(?:-?\\d{4})?)?");
   private static Pattern TIME = Pattern.compile("(\\d{2}:\\d{2}:\\d{2}) *-{3,4} *");
   
   @Override
@@ -30,19 +31,30 @@ public class DispatchA53Parser extends SmartAddressParser {
     
     //split first line of body by commas, return false if more fields than we know what to do with
     String[] fields = body.substring(0, nni).split(",");
-    if (fields.length > 4 || fields.length < 3) return false; //fail if abnormal # of fields
+    if (fields.length > 5 || fields.length < 3) return false; //fail if abnormal # of fields
     
     //CALL ADDR
     data.strCall = fields[0].trim();
     parseAddress(fields[1].trim().replace('@', '&'), data);
     
-    //X?
-    if (fields.length == 4) data.strCross = fields[2].trim();
-    
-    //SRC
-    mat = SRC_DISP.matcher(fields[fields.length-1].trim());
+    // Now we start from the back
+    //SRC required
+    int iEnd = fields.length-1;
+    mat = SRC_DISP.matcher(fields[iEnd].trim());
     if (!mat.matches()) return false;
     data.strSource = mat.group(1).trim();
+    iEnd--;
+    
+    // Optional city 
+    Matcher match = CITY_ST_ZIP_PTN.matcher(fields[iEnd].trim());
+    if (match.matches()) {
+      data.strCity = match.group(1).trim();
+      iEnd--;
+    }
+    
+    // If we haven't used anything up, we have room for one cross street
+    if (iEnd > 2) return false;
+    if (iEnd == 2) data.strCross = fields[2].trim();
     
     //INFO
     String trail = body.substring(nni+2);

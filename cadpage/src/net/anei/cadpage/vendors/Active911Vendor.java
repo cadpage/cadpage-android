@@ -531,6 +531,7 @@ class Active911Vendor extends Vendor {
       "US/MI/ClintonCounty",              "MIClintonCounty",
       "US/MI/EatonCounty",                "MIEatonCounty",
       "US/MI/EmmetCounty",                "MIEmmetCounty",
+      "US/MI/Firemodules",                "MIOaklandCountyB",
       "US/MI/GrandTraverse",              "MIGrandTraverseCounty",
       "US/MI/GrandTraverseAttachment",    "MIGrandTraverseCounty",
       "US/MI/InghamCounty",               "MIInghamCounty",
