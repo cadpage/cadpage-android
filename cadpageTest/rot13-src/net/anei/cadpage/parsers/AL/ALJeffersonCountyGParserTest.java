@@ -1,11 +1,12 @@
 cnpxntr arg.narv.pnqcntr.cnefref.NY;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.NY.NYOrffrzrePbhaglCnefreGrfg;
+vzcbeg arg.narv.pnqcntr.cnefref.NY.NYWrssrefbaPbhaglTCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
 /*
+Wrssrefba Pbhagl, NY (T)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Orffrzre SQ
@@ -113,10 +114,10 @@ CBJQRE CYNAG EQ / NPNQRZL QE ORFFRZRE;;;;;R4;122015-000366;13:50:16;JERPX JVGU C
 3965 CNEXJBBQ EQ FR ORFFRZRE;;;;;R3;22:20:19;NYNEZ - SVER/FZ-;trb:33.3372949640533, -86.9146788390469; BPN: 15-0006794
 */
 
-choyvp pynff NYOrffrzrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff NYWrssrefbaPbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp NYOrffrzrePbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "ORFFRZRE", "NY");
+  choyvp NYWrssrefbaPbhaglTCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "WRSSREFBA PBHAGL", "NY");
   }
   
   @Grfg
@@ -125,6 +126,6 @@ choyvp pynff NYOrffrzrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj NYOrffrzrePbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj NYWrssrefbaPbhaglTCnefreGrfg().trarengrGrfgf("G1");
   }
 }
