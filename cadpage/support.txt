@@ -496,7 +496,7 @@ The only payment record I found with your email address was dated _______, which
 
 You may find it useful to log in to wallet.google.com or paypal.com.  From there you should be able to look up your Cadpage purchase and send us the date, time and transaction ID, and whether it was PayPal or Play Store.
 
-A Cadpage subscription is $10 for one year.  As you have likely experienced, Cadpage can be used well past the expiration date if you refrain from updates during your last month of the subscription.
+A Cadpage subscription is $10 for one year.  As you have likely experienced, Cadpage can be used well past the expiration date if you refrain from updates.
 
 Is it possible that you or your department have paid for an account with Active911 or another messaging service?  You will need to register your phone to enable Cadpage. Your department administrator should be able to tell you what service your department is using. Perhaps you have paid for Cadpage For IOS.  We are separate companies.
 
@@ -546,6 +546,7 @@ Thanks for your PayPal payment!
 
 You have been added to a paid subscriber list with a one-year Cadpage subscription.
 
+Please:
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
 Please let us know if you ever have any problems with Cadpage.
@@ -557,6 +558,7 @@ Jean ~ Cadpage Administrator
 
 Thanks for your PayPal payment! Your Cadpage subscription has been renewed for another year.
 
+Please:
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
 Please let us know if you ever have any problems with Cadpage.
@@ -568,6 +570,7 @@ Jean ~ Cadpage Administrator
 
 Thanks for your email.  You are now fully registered on our paid subscriber list for a one-year Cadpage subscription.  
 
+Please:
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
 You no longer need the authorization code I gave you previously.
@@ -589,6 +592,24 @@ your total cost will be ________________.
 Please let us know if you ever have any difficulties or questions concerning Cadpage.
 
 Thanks so much for your support,
+Jean ~ Cadpage Administrator
+
+*******************************************************************
+inquiry about department sponsorship
+
+I would be delighted to sign up your department with a Cadpage subscription. We offer a 30% discount to departments that sponsor their members. That would be $7 per person per year.
+
+Please note that our Cadpage app is exclusively for Android Users only. If anyone in your department is using an iPhone, we would need to discuss other options -- specifically, a messaging service like CodeMessaging.net or Active911.com.
+
+If you just have Android Users, I would need the following information to register your department sponsorship: the name of your department, a contact person, which could be you, and a list of your department members' names and phones numbers. It would be easiest if you would send the list in the following format:
+
+First Last (5551234567)
+Jean Goul (5551230987)
+
+For payment, I can email or mail you an invoice, with the mailing address for Cadpage. PayPal is another viable option for making a payment.
+
+Thanks so much for your interest!
+Have a Safe and Happy Holiday!
 Jean ~ Cadpage Administrator
 
 ******************************************************************
