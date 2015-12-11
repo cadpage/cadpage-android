@@ -1191,15 +1191,6 @@ Fna Znepbf Pbhagl, GK (GKFnaZnepbfPbhaglCnefre)
 (Sver- Bgure ng 289 Fvyire Crnx Qe, Fna Znepbf, 78666, +029.917327, -097.887776) Abgvsvpngvba sebz PVF Npgvir 911:\a\aSver- Bgure ng 289 Fvyire Crnx Qe, Fna Znepbf, 78666, +029.917327, -097.887776\a\aFna Znepbf Sver Qrcg. - 140000074126\a\aGvzr ercbegrq: 9/23/2014 6:05:52 CZ\aGvzr pbzcyrgrq: 9/23/2014 6:37:54 CZ\a\aHavg(f) erfcbaqrq: \aONG01\aRAT01\aRAT04\aFnqqyroebbx Pbzzhavgl Pragre\aR911 PYNFF: JCU2\aYBP: 140 A FRPGBE - IREVMBAA\aYNG: +029.917327\aYBA: -097.887776\aJVERYRFF PNYYRE\a[9/23/2014 6:06:26 CZ : 00012263]\aCebDN: RAQPR\aPbzcynvag: 60 \a*Erfcbaqre Fpevcg*: \aTnf Yrnx / Tnf Bqbe (Angheny naq YC Tnfrf).\a .Pnyyre Fgngrzrag: uvg n tnf yvar.\a\a[9/23/2014 6:07:10 CZ : 00012263]\aCebDN: QVFCNGPU\aPbzcynvag: 60 \aQvfcngpu: 60O01\aErfc Grkg: Oenib\aPNQ Pbqr: 60O01\a*Erfcbaqre Fpevcg*: \aBhgfvqr erfvqragvny yvar be Bhgfvqr gnax < 5 tnyybaf/23 yvgref.\a 1.Gur pnyyre vf ba fprar (1fg cnegl).\a 2.Gur ceboyrz vf ercbegrqyl bhgfvqr.\a 3.Gur tnf pna or obgu fzryyrq naq urneq.\a 4.Gur yrnx vf pbzvat sebz n ehcgherq yvar.\a 5.Gur fbhepr vf n erfvqragvny tnf yvar.\a 6.Ab bar vf ercbegrqyl fvpx be vawherq.\a\a[9/23/2014 6:07:51 CZ : 00012263]\aCebDN: PBZCYRGR\aPbzcynvag: 60 \aQvfcngpu: 60O01\aErfc Grkg: Oenib\aPNQ Pbqr: 60O01\a  <<Ybtf>>18:06:02 00012263:uvg n tnf yvar; 18:08:10 00012263:pbcy jvyy or ba gur sebagntr ebnq gb thvqr sver gb gur nern; 18:09:27 00012263:1 pyrne naq ra ebhgr; 18:19:45 00012263:yrg tnf pbzcnal 2 va srrqre yvar sbe pbafgehpgvba pbzcnal// ong01; 18:19:53 00012263:yrg tnf pbzcnal xabj; 18:27:07 00012225:Pragrecbvag 76; 18:27:11 00012225:haxabja RGN; 18:33:13 00012225:ong1 // pragrecbvag 23; 18:37:55 00012263:Vapvqrag Pybfrq
 ******************************************************************************
 ******************************************************************************
-* QvfcngpuN28Cnefre fhopynffrf
-*******************************************************************************
-******************************************************************************
-Jbegu Pbhagl, VN (VNJbeguPbhaglCnefre)
-(Qvfcngpu vasb) 14-023918 ZRQVPNY PNYY  NZOHYNAPR ERD\a Ercbegrq: 10/13/2014 15:43:48 \a 777 QVNZBAQ WB YA \a JURRYREJBBQ EQ /  JURRYREJBBQ EQ \a QVNZBAQ WB PNFVAB  ABEGUJBBQ \a 6 9ASQ ZPN
-(Qvfcngpu vasb) 14-023848 ZRQVPNY PNYY  NZOHYNAPR ERD\a Ercbegrq: 10/12/2014 15:53:21 \a 1503 3EQ NIR F \a 15GU FG F / \a IVXVAT ZNABE  ABEGUJBBQ \a 9ASQ ZPN
-(Qvfcngpu vasb) 14-023790 OEHFU/TENFF/SVRYQ\a Ercbegrq: 10/11/2014 17:28:34 \a 4600-OYX ARGGYR NIR \a 460GU FG /  UJL 105 \a ABEGUJBBQ PVGL QHZC  ABEGUJBBQ \a 9ASQ
-******************************************************************************
-******************************************************************************
 * QvfcngpuN29Cnefre fhopynffrf
 *******************************************************************************
 *******************************************************************************
@@ -1594,6 +1585,11 @@ Zvgpuryy Pbhagl, VN (VNZvgpuryyPbhaglCnefre)
 (ZPFB qvfcngpu) Ercbegrq: 05/04/2015 11:16:36\a 15-002551 ABA RZRETRAPL GENAFCBEG \a Ybp: 616 A 8GU FG BFNTR,VN 50461 \a ZNCYR FG / CVAR FG \a ZVGPURYY PBHAGL ERTVBANY URNYGU \a BNZO
 (ZPFB qvfcngpu) Ercbegrq: 05/04/2015 09:23:33\a 15-002549 OERNGUVAT CEBOYRZF \a Ybp: 109 JRFGJNEQ QE EVPRIVYYR,VN 50466 \a JBBQYNAQ NIR / \a ENZO
 (ZPFB qvfcngpu) Ercbegrq: 05/03/2015 14:03:46\a 15-002536 RZRETRAPL GENAFCBEG \a Ybp: 1220 BNX FG BFNTR,VN 50461 \a F 12GU FG / F 13GU FG \a 14 BNZO
+******************************************************************************
+Jbegu Pbhagl, VN (VNJbeguPbhaglCnefre)
+{Qvfcngpu vasb} Ercbegrq: 12/09/2015 15:14:13\a 15-029635 IRUVPYR SVER \a Ybp: 777 QVNZBAQ WB YA ABEGUJBBQ,VN 50459 \a JURRYREJBBQ EQ /  JURRYREJBBQ EQ \a QVNZBAQ WB PNFVAB \a 7 902 905 9ASQ  \a 
+{Qvfcngpu vasb} Ercbegrq: 12/09/2015 15:14:13\a 15-029635 IRUVPYR SVER \a Ybp: 777 QVNZBAQ WB YA ABEGUJBBQ,VN 50459 \a JURRYREJBBQ EQ /  JURRYREJBBQ EQ \a QVNZBAQ WB PNFVAB \a 7 9ASQ  \a 
+{Qvfcngpu vasb} Ercbegrq: 12/09/2015 06:36:36\a 15-029624 ZRQVPNY PNYY  NZOHYNAPR ERD \a Ybp: 106 3EQ FG A ABEGUJBBQ,VN 50459 \a 1FG NIR A / 2AQ NIR A \a 10 9ASQ ZPN  \a 
 ***************************************************************************
 Yhzoregba, AP (APYhzoregbaCnefre) 
 (Pbzz PSF vasb) Ercbegrq: 05/04/2015 13:43:44\a 15-017757 FVPX CREFBA(FCRPVSVP QVNTABFVF \a Ybp: 2005 RNFGJBBQ GRE YHZOREGBA,AP 28358 \a RIREF FG / EBOREGF NIR
