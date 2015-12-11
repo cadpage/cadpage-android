@@ -7,6 +7,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
+// Active911 parser Vendor/IncidentDetail/Default
 
 public class DispatchA17Parser extends FieldProgramParser {
   

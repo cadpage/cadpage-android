@@ -13,10 +13,11 @@ public class FLMarionCountyParser extends MsgParser {
     setFieldList("UNIT ID CALL ADDR PLACE APT CITY MAP");
   }
   
-  private static final Pattern MASTER = Pattern.compile("\\*{3}CALL ALERT\\*{3} (\\S+) Case #(\\d{4}-\\d{6}) Ref:(.*?)Address:(.*?)Loc Name:(.*?)Apt/Lot/Rm#:(.*?)Bldg/Wing:(.*?)Zip (\\d*) Map Page pg (.*) ,");
+  private static final Pattern MASTER = Pattern.compile("\\*{3}CALL ALERT\\*{3} (\\S+) Case #(\\d{4}-\\d{6}) Ref:(.*?)Address:(.*?)Loc Name:(.*?)Apt/Lot/Rm#:(.*?)Bldg/Wing:(.*?)Zip (\\d*) Map Page pg (.*)");
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = stripFieldEnd(body, ",");
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     data.strUnit = match.group(1);

@@ -15,12 +15,12 @@ import net.anei.cadpage.parsers.dispatch.DispatchA6Parser;
 public class INStJosephCountyParser extends DispatchA6Parser {
   
   // Pattern we use to try to find the missing space between the cross street and info
-  private static Pattern DATE_ADDR_BRK = Pattern.compile(" \\d\\d/\\d\\d/\\d\\d(?<!20)(?=[A-Z0-9])");
-  private static Pattern CROSS_BREAK = Pattern.compile("\\)[ A-Z0-9]+? (?:(?:RD|HW)(?! )|(?:ST|AV|TR|DR)(?![AEIOU ]))");
-  private static Pattern MAP_PTN = Pattern.compile(" +([A-Z]-\\d+|\\d{2,3}-\\d{2,3})");
-  private static Pattern LEAD_DATE_TIME = Pattern.compile("^(?:(\\d\\d?:\\d\\d[AP]M) )?(\\d\\d/\\d\\d/\\d{4}) ");
-  private static Pattern TRAIL_TIME = Pattern.compile(" ([012]\\d)(\\d\\d),?$");
-  private static DateFormat TIME_FMT = new SimpleDateFormat("hh:mmaa");;
+  private static final Pattern DATE_ADDR_BRK = Pattern.compile(" \\d\\d/\\d\\d/\\d\\d(?<!20)(?=[A-Z0-9])");
+  private static final Pattern CROSS_BREAK = Pattern.compile("\\)[ A-Z0-9]+? (?:(?:RD|HW)(?! )|(?:ST|AV|TR|DR)(?![AEIOU ]))");
+  private static final Pattern MAP_PTN = Pattern.compile(" +([A-Z]-\\d+|\\d{2,3}-\\d{2,3})");
+  private static final Pattern LEAD_DATE_TIME = Pattern.compile("^(?:(\\d\\d?:\\d\\d[AP]M) )?(\\d\\d/\\d\\d/\\d{4}) ");
+  private static final Pattern TRAIL_TIME = Pattern.compile(" ([012]\\d)(\\d\\d),?$");
+  private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mmaa");;
   
   public INStJosephCountyParser() {
     super(CITY_CODES, "ST JOSEPH COUNTY", "IN");
@@ -28,7 +28,7 @@ public class INStJosephCountyParser extends DispatchA6Parser {
   
   @Override
   public String getFilter() {
-    return "@c-msg.net,alerts@etieline.com,5742617686,5742922865,5742081200";
+    return "@c-msg.net,@etieline.com,5742617686,5742922865,5742081200";
   }
   
   @Override
@@ -39,15 +39,7 @@ public class INStJosephCountyParser extends DispatchA6Parser {
     // makes me thing they are originating from the  same dispatch center with some interesting post
     // generation changes.  We will try to handle them all in one text parser
     
-    
-    // Check for a run report pattern
-    if (body.contains(" ->Inc Addr = ")) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
-      return true;
-    }
-    
-    if (body.startsWith("- ")) body = body.substring(3).trim();
+    body = stripFieldStart(body, "- ");
     
     // Now they don't put a space between a date and the address that follows it :(
     Matcher match = DATE_ADDR_BRK.matcher(body);
@@ -87,6 +79,11 @@ public class INStJosephCountyParser extends DispatchA6Parser {
       data.strCall = data.strCall.substring(0,match.start());
     }
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return  "TIME DATE " + super.getProgram();
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[] {

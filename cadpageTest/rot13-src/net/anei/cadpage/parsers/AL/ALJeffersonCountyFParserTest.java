@@ -13,6 +13,7 @@ Ntrapl anzr: Gehffivyyr Sver naq Erfphr
 Ybpngvba: Gehffivyyr, NY, Havgrq Fgngrf
 Fraqre: "nhgbznvyre@irybpvglcf.pbz" <nhgbznvyre@irybpvglcf.pbz>
 
+("SVER (OEHFU)                                        {12/07/2015 Nhgbzngrq Rznvy}) PNYY: SVER (OEHFU)                                      \e\aCYNPR: RFGRF, WBR                                                                                          \e\aNQQE: 5079 OEBBXRF PEBFFVAT OYIQ                                                                                                                             \e\aPVGL: GEHFFIVYYR                                        \e\aVQ: 2015-12-21395       \e\aCEV: 1\e\aQNGR: 12/07/2015\e\aGVZR: 08:48:36\e\aZNC:                                                   \e\aHAVG: \e\aVASB: PEBFF FGERRGF NER TNQFQRA UJL                                                                                          NAQ BYQ YBAQBA IVYYNTR
 (QVNORGVP FLZCGBZF  {12/03/2015 Nhgbzngrq Rznvy})PNYY: QVNORGVP FLZCGBZF\aCYNPR: GNENFFBYV, QROEN                                                                                    \aNQQE: 250 PNYHZRG CY\aPVGL: GEHFFIVYYR\aVQ: 2015-12-21256       \aCEV: 1\aQNGR: 12/03/2015\aGVZR: 20:50:03\aZNC: J-8\aHAVG: \aVASB: PEBFF FGERRG BS TNQFQRA UJL\aRYQREYL SRZ QVNORGVP FLZCGBZF\aQvfcngpurq: 12/3/2015 8:50:38 CZ\a\aRaebhgr: 12/3/2015 8:53:17 CZ\a\aBa Fprar: 12/3/2015 8:57:35 CZ\a\aBa Fprar BX: \a\aYrsg Fprar: \a\aNeevirq: \a\aPyrnerq: 12/3/2015 9:25:47 CZ
 (SVER NYNEZ  {12/03/2015 Nhgbzngrq Rznvy})PNYY: SVER NYNEZ\aCYNPR: URJVGG GEHFFIVYYR UVTU FPUBBY                                                                       \aNQQE: 6450 UHFXL CXJL\aPVGL: GEHFFIVYYR\aVQ: 2015-12-21258       \aCEV: 1\aQNGR: 12/03/2015\aGVZR: 21:12:45\aZNC: \aHAVG: RAT 3,E3\aVASB: PEBFF FGERRG BS QRRESBBG CXJL\a[NZVKBA 12/3/2015 9:18:32 CZ]\aHAXABJA ANZR\a\a[NZVKBA 12/3/2015 9:18:10 CZ]\aXRLUBYQRE NQIFQ WNAVGBE FUBHYQ OR BAFPRAR\a\aTRARENY SVER NYNEZ NAQ FZBXR VA GUR WNAVGBEL PYBFRG W302 3EQ SYBBE.  AB XRLUBYQRE
 (SVER NYNEZ  {12/03/2015 Nhgbzngrq Rznvy})PNYY: SVER NYNEZ\aCYNPR: URJVGG GEHFFIVYYR UVTU FPUBBY                                                                       \aNQQE: 6450 UHFXL CXJL\aPVGL: GEHFFIVYYR\aVQ: 2015-12-21258       \aCEV: 1\aQNGR: 12/03/2015\aGVZR: 21:12:45\aZNC: \aHAVG: ONG 1,RAT 1,RAT 3,YNQ 1,E3\aVASB: PEBFF FGERRG BS QRRESBBG CXJL\a[NZVKBA 12/3/2015 9:18:32 CZ]\aHAXABJA ANZR\a\a[NZVKBA 12/3/2015 9:18:10 CZ]\aXRLUBYQRE NQIFQ WNAVGBE FUBHYQ OR BAFPRAR\a\aTRARENY SVER NYNEZ NAQ FZBXR VA GUR WNAVGBEL PYBFRG W302 3EQ SYBBE.  AB XRLUBYQRE
@@ -79,6 +80,29 @@ choyvp pynff NYWrssrefbaPbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgGehffivyyrSverNaqErfphr() {
+
+    qbGrfg("K1",
+        "(\"SVER (OEHFU)                                        {12/07/2015 Nhgbzngrq Rznvy}) PNYY: SVER (OEHFU)                                      \e\a" +
+        "CYNPR: RFGRF, WBR                                                                                          \e\a" +
+        "NQQE: 5079 OEBBXRF PEBFFVAT OYIQ                                                                                                                             \e\a" +
+        "PVGL: GEHFFIVYYR                                        \e\a" +
+        "VQ: 2015-12-21395       \e\a" +
+        "CEV: 1\e\a" +
+        "QNGR: 12/07/2015\e\a" +
+        "GVZR: 08:48:36\e\a" +
+        "ZNC:                                                   \e\a" +
+        "HAVG: \e\a" +
+        "VASB: PEBFF FGERRGF NER TNQFQRA UJL                                                                                          NAQ BYQ YBAQBA IVYYNTR",
+
+        "PNYY:SVER (OEHFU)",
+        "CYNPR:RFGRF, WBR",
+        "NQQE:5079 OEBBXRF PEBFFVAT OYIQ",
+        "PVGL:GEHFFIVYYR",
+        "VQ:2015-12-21395",
+        "CEV:1",
+        "QNGR:12/07/2015",
+        "GVZR:08:48:36",
+        "K:TNQFQRA UJL / BYQ YBAQBA IVYYNTR");
 
     qbGrfg("G1",
         "(QVNORGVP FLZCGBZF  {12/03/2015 Nhgbzngrq Rznvy})PNYY: QVNORGVP FLZCGBZF\a" +

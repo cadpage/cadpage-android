@@ -17,7 +17,7 @@ public class ALCherokeeCountyParser extends DispatchGeoconxParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@911email.ne";
+    return "dispatch@911email.ne,cherokeecoal@911email.net";
   }
   
   @Override
