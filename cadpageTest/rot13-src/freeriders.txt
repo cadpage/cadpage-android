@@ -2203,11 +2203,12 @@ Onggnyvba Evqr-hc (3524559533) // nqqrq 3/30 sbe serr
 //Pbhagl Fcbafbefuvcf: $5 cre zrzore cre lrne; qbrf abg znggre gur anzrf naq rznvy nqqerffrf bs Hfref; fcbafbefuvc vf va gur cnefre pbqr
 %2015/Qnivr Pbhagl, AP // fhofpevcgvba qngr vf 02/20/2014; Zryvaqn Yrjvf <zyrjvf@qnivrpbhaglap.tbi> vaibvpr frag 2-23-15; CNVQ $45 3-13-15
 
-%2015/Fnenfbgn Pbhagl Sver Qrcnegzrag // Ovyy Ubnt, Nffvfgnag Puvrs Ybtvfgvpf, SY (oubnt@fptbi.arg)  B-941.861.5969 CNLZRAG CRAQVAT $49
+%2015/Fnenfbgn Pbhagl Sver Qrcnegzrag // Jvyyvnz Ubnt, Nffvfgnag Puvrs Ybtvfgvpf, SY (oubnt@fptbi.arg)  B-941.861.5969 CNVQ Cnlcny $49 12-11-15
+
 %%10/31/2015
 onggnyvba puvrs1 (ong1.fpt1@tznvy.pbz)
 onggnyvba puvrs2 (ong2.fpt1@tznvy.pbz)
-onggnyvba puvrs3 (ong3.fpt@tznvy.pbz)
+onggnyvba puvrs3 (ong3.fpt1@tznvy.pbz) 
 onggnyvba puvrs4 (ong4.fpt1@tznvy.pbz)
 RZF pncgnva1 (rzf1.fpt1@tznvy.pbz)
 RZF pncgnva2 (rzf2.fpt1@tznvy.pbz)
@@ -3438,7 +3439,7 @@ Puneyrf Crnefba (N_Unaqlzna@ubgznvy.pbz) // CnlCny
 Xervt Jbefgryy (xnaqxngpbnyeha@lnubb.pbz) // CnlCny
 %%12/10/2015
 Ryzre Fgbygmshf (puvrs442@vagrepbhefrsver.pbz) (rfgbygmshft@nby.pbz) /// CnlCny
-Nqnz Tneqare (nqnzrzg@punegre.arg) // CnlCny
+Nqnz Tneqare (nqnz022695@tznvy.pbz) (nqnzrzg@punegre.arg) // CnlCny
 
 %%12/21/2015
 Zvpunry Pebpxrgg (zwpebpxrg@tznvy.pbz) (4170@novatqbasp4.bet) (zwpebpxrg@pbzpnfg.arg) // CnlCny cnvq 11-21-15
@@ -3463,7 +3464,7 @@ Oreavr Zrruna we (oreavrzrrunawe@tznvy.pbz) (ozrruna282@nby.pbz) // cnvq $20 pur
 Zvpunry Unzvygba (zunzvygba7177@tznvy.pbz) (zvpunry.unzvygba@zbagtbzrelpbhaglzq.tbi) // CnlCny $19.95
 
 %%02/02/2016
-Zvn Rzrefba <zrzrefba@fepvgl.bet> // cnvq sbe 4 lrnef; tnir rkgen lrne
+Zvn Rzrefba (rzrefba.fgrir@tznvy.pbz) <zrzrefba@fepvgl.bet> // cnvq sbe 4 lrnef; tnir rkgen lrne
 %%02/06/2016
 pyvssbeq cbggre (wrrc1251.pc@tznvy.pbz) (pyvssbeq.r.cbggre@farg.arg) // CnlCny cnvq $12 ba 11-18-15; naavi qngr 12-6-14
 
