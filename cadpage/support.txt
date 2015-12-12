@@ -924,7 +924,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-BTHMXBEA or bthmxbea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+KQLQHZDA or kqlqhzda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean ~ Cadpage Administrator
@@ -4010,7 +4010,27 @@ If you have any questions, or if there is anything you would like to see added t
 
 Have a great day,
 -Ken
+**************************************************************************
+trouble paying through Google
 
+The Google Play Store app handles the Cadpage subscription purchases.
+It sounds like the Play Store app has a problem with your Google account.
+
+Open the main system settings and select Google Accounts.  You should
+have at least one account listed here and it should report that it was
+last synced within the last 24 hours.  If it reports synchronization
+problems, there is a good chance that the password for the account has
+been changed and no longer matches the one used by your phone.  In which
+case you need to fix things and confirm that synchronization is working
+properly.
+
+Next, open the Play Store app and open settings.  The account it is
+using should be displayed at the top of the settings sidebar.  If you
+have multiple accounts, there should be a dropbox that you can use to
+select the correct account.
+
+If none of this helps, contact us again and we will fill you in on some
+alternate payment methods.
 **************************************************************************
 
 Useful search expressions...
