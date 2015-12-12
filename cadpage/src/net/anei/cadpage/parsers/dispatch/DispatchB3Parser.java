@@ -71,7 +71,7 @@ public class DispatchB3Parser extends DispatchB2Parser {
       return false;
     }
     
-    boolean v3 = subject.length() > 0;
+    boolean v3 = subject.length() > 0 && !subject.startsWith("EVENT:");
     if (v3) {
       body = subject + " @ " + body;
     }
