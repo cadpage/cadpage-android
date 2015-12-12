@@ -1058,14 +1058,15 @@ This isn't one of the many text formats we are expecting for Suffolk County.  Ap
 ******************************************************************************
 Details on setting up a new location
 ******************************************************************************
+Cadpage works by processing the dispatch alerts your department arranges to have sent to your phone.  The problem is that there is no standard alert page format.  We have to write a separate alert message parser for each dispatch center.  And we can only do that if someone sends us some examples of what their alerts look like.
 
-To add a new location we need 5-10 sample text messages from your dispatch.  Please include what County/City/Company these pages are for so we can place it in the right grouping. Please try to include 1-2 calls with intersections so we can parse those correctly. Include any details you can regarding how the messages are formatted. If possible please include what email the messages come from.
+The first step is to make sure that you are already getting text alerts when your department is dispatched to a call.  If you are not getting these already, you need to talk to someone in your department about having them sent to your phone.
 
-We also need to know what agency is generating these messages and some idea of what other departments receive the same message formats.  If you can identify the CAD software that is sending your text pages that would help a lot.   
+We like to have at least 5 sample text messages before we try writing a new location parser, but can go with less if we have to.  We need to know what area they are for, possibly which dispatch center they come from.  And what email address/phone number is used to send them.
 
-All of this needs to be emailed to our main support address: support@cadpage.org.  If the messages are already in Cadpage call history, long press each call and select "Report Problem" to send them to us.  Otherwise, you can forward text messages to that address, or copy and paste them into a regular email or generate an email in Cadpage which will include the last text message.  Once we have this information we can add the location to the list.
+All of this needs to be emailed to our main support address: support@cadpage.org.  If the messages are already in Cadpage call history, long press each call and select "Report Problem" to send them to us.  Otherwise, you can forward text messages to that address, or copy and paste them into a regular email or generate an email in Cadpage which will include the last text message.  Once we have this information we can add the location to the list.  If you just forward text messages, please add a separate message telling us who you are and what sender address/phone number was used to send the alerts.
 
-In the meantime, try using the general location setting and set the From: filter to whoever appears in the From: field of your page text messages.  That will usually give you some degree of functionality while you are waiting for full location support. 
+In the meantime, try using the general location setting and set the From: filter to whoever appears in the From: field of your page text messages.  That will usually give you some degree of functionality while you are waiting for full location support.   And then you can use the long press > Report Problem method to send us new sample alerts.
 
 Good Luck and Thanks for your interest,
 Jean ~ Cadpage Administrator

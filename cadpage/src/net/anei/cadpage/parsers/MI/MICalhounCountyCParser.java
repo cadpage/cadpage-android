@@ -11,7 +11,7 @@ public class MICalhounCountyCParser extends HtmlProgramParser {
   
   public MICalhounCountyCParser() {
     super(MICalhounCountyParser.CITY_CODES, "CALHOUN COUNTY", "MI", 
-          "COMM! DISPATCH! Incident#:ID! Report#:EMPTY! Date:DATE! Time_Out:TIME! Nature:CALL! MP:CODE! Business:PLACE! Address:ADDR! City:CITY Addt_Address:ADD_ADDR! Cross:X! X+ Subdivision:EMPTY! RA:EMPTY! Neighborhood:EMPTY! Notes:INFO+ Hot_Spot:EMPTY! Premise:EMPTY! Units:UNIT!");
+          "COMM! DISPATCH! Incident#:ID! Report#:SKIP! Date:DATE! Time_Out:TIME! Nature:CALL! MP:CODE! Business:PLACE! Address:ADDR! City:CITY Addt_Address:ADD_ADDR! Cross:X! X+ Subdivision:EMPTY! RA:EMPTY! Neighborhood:EMPTY! Notes:INFO+ Hot_Spot:EMPTY! Premise:INFO/N! Units:UNIT!");
   }
   
   @Override
