@@ -64,11 +64,6 @@ public class TXKendallCountyParser extends DispatchA37Parser {
   @Override 
   public boolean parseMsg(String body, Data data) {
     if (!super.parseMsg(body, data)) return false;
-    int pt = data.strCity.indexOf('/');
-    if (pt >= 0) {
-      data.strPlace = append(data.strPlace, " - ", data.strCity.substring(0,pt));
-      data.strCity = data.strCity.substring(pt+1);
-    }
     if (data.strCall.length() == 0) {
       data.strCall = data.strSupp;
       data.strSupp = "";
@@ -168,20 +163,33 @@ public class TXKendallCountyParser extends DispatchA37Parser {
   public String getProgram() {
     return super.getProgram() + " ADDR APT PLACE CITY INFO";
   }
+  
+  @Override
+  public String adjustMapCity(String city) {
+    return convertCodes(city.toUpperCase(), MAP_CITY_TABLE);
+  }
+  
+  private static final Properties MAP_CITY_TABLE = buildCodeTable(new String[]{
+      "ALAMO SPRINGS","COMFORT",
+      "BERGHEIM",     "BOERNE",
+      "LEON SPRINGS", "FAIR OAKS RANCH",
+      "SISTERDALE",   "BOERNE",
+      "WARING",       "BOERNE",
+  });
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-    "WARING",         "WARING/BOERNE",
+    "WARING",         "WARING",
     "KENDALIA",       "KENDALIA",
     "BOERNE",         "BOERNE",
     "BOERNETX",       "BOERNE",
     "BOERNETEXAS",    "BOERNE",
-    "SISTERDALE",     "SISTERDALE/BOERNE",
-    "BERGHEIM",       "BERGHEIM/BOERNE",
+    "SISTERDALE",     "SISTERDALE",
+    "BERGHEIM",       "BERGHEIM",
     "COMFORT",        "COMFORT",
     "COMFORTTX",      "COMFORT",
     "COMFORTTEXAS",   "COMFORT",
-    "ALAMO SPRINGS",  "ALAMO SPRINGS/COMFORT",
-    "LEON SPRINGS",   "LEON SPRINGS/FAIR OAKS RANCH",
+    "ALAMO SPRINGS",  "ALAMO SPRINGS",
+    "LEON SPRINGS",   "LEON SPRINGS",
     "TX",             "TEXAS",
     "TEXAS",          "TX"
   });
