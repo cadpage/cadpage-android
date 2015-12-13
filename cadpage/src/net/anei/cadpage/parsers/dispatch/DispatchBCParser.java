@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.dispatch;
 import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 import net.anei.cadpage.parsers.HtmlDecoder;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -15,12 +16,14 @@ public class DispatchBCParser extends DispatchA3Parser {
     super(defCity, defState,
           "Event_No:EMPTY! ID! Status:EMPTY! Disposition:EMPTY! Category:EMPTY! CALL! Complaint_Numbers%EMPTY! Unit:EMPTY! UNIT Reporting_DSN:EMPTY " +
           "Agency:EMPTY SRC Address:EMPTY! ADDR! Precinct:EMPTY! MAP Sector:EMPTY! MAP/D GEO:EMPTY! MAP/D ESZ:EMPTY! MAP/D Ward:EMPTY! MAP/D Intersection:EMPTY! X " +
-          "Date_/_Time%EMPTY Open:EMPTY! DATETIME Law_Enf.:EMPTY! SRC Dispatch:EMPTY! DATETIME Fire:EMPTY! SRC Enroute:EMPTY! EMS:EMPTY! SRC Arrival:EMPTY! " +
-          "Source:EMPTY! Departure:EMPTY! Closed:EMPTY! Person(s)_Involved%EMPTY! Name_Address_Phone%EMPTY! NAME_PHONE Business%EMPTY! " +
+          "Date_/_Time%EMPTY Open:EMPTY! DATETIME1 Law_Enf.:EMPTY! SRC Dispatch:EMPTY! DATETIME1 Fire:EMPTY! SRC Enroute:EMPTY! DATETIME2 EMS:EMPTY! SRC Arrival:EMPTY! DATETIME2 " +
+          "Source:EMPTY! Departure:EMPTY! DATETIME2 Closed:EMPTY! DATETIME2 Person(s)_Involved%EMPTY! Name_Address_Phone%EMPTY! NAME_PHONE Business%EMPTY! " +
           "Incident_Notes:EMPTY! INFO+ Event_Log%EMPTY");
   }
   
   private static final Pattern BR_TAG = Pattern.compile("</?br/?>", Pattern.CASE_INSENSITIVE);
+  
+  private String times;
 
   @Override
   protected boolean parseHtmlMsg(String subject, String body, Data data) {
@@ -30,14 +33,18 @@ public class DispatchBCParser extends DispatchA3Parser {
     body = BR_TAG.matcher(body).replaceAll("");
     String[] flds = decoder.parseHtml(body);
     if (flds == null) return false;
-    return parseFields(flds, data);
+    times = "";
+    if (! parseFields(flds, data)) return false;
+    if (data.msgType == MsgType.RUN_REPORT) data.strSupp = append(times, "\n", data.strSupp);
+    return true;
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("DATETIME1")) return new MyDateTimeField(1);
+    if (name.equals("DATETIME2")) return new MyDateTimeField(2);
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("SRC")) return new MySourceField();
     if (name.equals("NAME_PHONE")) return new MyNamePhoneField();
@@ -81,6 +88,28 @@ public class DispatchBCParser extends DispatchA3Parser {
     @Override
     public String getFieldNames() {
       return "ADDR APT CITY ST";
+    }
+  }
+  
+  private class MyDateTimeField extends DateTimeField {
+    private int type;
+    
+    public MyDateTimeField(int type) {
+      super("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d|", true);
+      this.type = type;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      String title = getRelativeField(-1);
+      String line = append(title, "   ", field);
+      times = append(times, "\n", line);
+      if (field.length() == 0) return;
+      if (type == 1) {
+        super.parse(field, data);
+      } else {
+        data.msgType = MsgType.RUN_REPORT;
+      }
     }
   }
   

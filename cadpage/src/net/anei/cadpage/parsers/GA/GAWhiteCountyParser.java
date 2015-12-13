@@ -143,6 +143,7 @@ public class GAWhiteCountyParser extends DispatchA48Parser {
       "50NI",
       "70B",
       "70BE",
+      "70C",
       "70M",
       "70R",
       "70V",
