@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12082015</string>
-  <string name="release_version">v1.8.82</string>
+  <string name="release_date">12132015</string>
+  <string name="release_version">v1.8.83</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.83\n
+Location Fixes:\n
+Cleburne County, AL\n
+St Joseph County, IN\n
+Calhoun County, MI\n
+Oakland County, MI\n
+Caswell County, NC\n
+Franklin County, NC\n
+Clermont County, OH\n
+Greene County, PA\n
+Lawrence County, PA\n
+Lancaster County, SC\n
+El Campo, TX\n
+Kendall County, TX\n
+\n
 v1.8.82\n
 New Locations:\n
 Larimer County, CO (alt)\n
@@ -73,18 +88,7 @@ Riley County, KS\n
 Boone County, KY\n
 Charles County, MD\n
 Licking County, OH\n
-Cy Creek Comm Center, TX\n
-\n      
-v1.8.78\n
-Location Fixes:\n
-Marion County, IN\n
-Sedgwick County, KS\n
-Berrien County, MI\n
-Crawford County, MO\n
-McDowell County, NC\n
-Muskogee County, OK\n
-Lancaster County, SC\n
-Suffolk, VA
+Cy Creek Comm Center, TX
   </string>
 </resources>
   
