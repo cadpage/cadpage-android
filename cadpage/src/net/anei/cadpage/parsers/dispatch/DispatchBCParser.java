@@ -16,8 +16,8 @@ public class DispatchBCParser extends DispatchA3Parser {
     super(defCity, defState,
           "Event_No:EMPTY! ID! Status:EMPTY! Disposition:EMPTY! Category:EMPTY! CALL! Complaint_Numbers%EMPTY! Unit:EMPTY! UNIT Reporting_DSN:EMPTY " +
           "Agency:EMPTY SRC Address:EMPTY! ADDR! Precinct:EMPTY! MAP Sector:EMPTY! MAP/D GEO:EMPTY! MAP/D ESZ:EMPTY! MAP/D Ward:EMPTY! MAP/D Intersection:EMPTY! X " +
-          "Date_/_Time%EMPTY Open:EMPTY! DATETIME1 Law_Enf.:EMPTY! SRC Dispatch:EMPTY! DATETIME1 Fire:EMPTY! SRC Enroute:EMPTY! DATETIME2 EMS:EMPTY! SRC Arrival:EMPTY! DATETIME2 " +
-          "Source:EMPTY! Departure:EMPTY! DATETIME2 Closed:EMPTY! DATETIME2 Person(s)_Involved%EMPTY! Name_Address_Phone%EMPTY! NAME_PHONE Business%EMPTY! " +
+          "Date_/_Time%EMPTY Open:EMPTY! DATETIME1? Law_Enf.:EMPTY! SRC Dispatch:EMPTY! DATETIME1? Fire:EMPTY! SRC Enroute:EMPTY! DATETIME2? EMS:EMPTY! SRC Arrival:EMPTY! DATETIME2? " +
+          "Source:EMPTY! Departure:EMPTY! DATETIME3? Closed:EMPTY! DATETIME3? Person(s)_Involved%EMPTY! Name_Address_Phone%EMPTY! NAME_PHONE Business%EMPTY! " +
           "Incident_Notes:EMPTY! INFO+ Event_Log%EMPTY");
   }
   
@@ -45,6 +45,7 @@ public class DispatchBCParser extends DispatchA3Parser {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("DATETIME1")) return new MyDateTimeField(1);
     if (name.equals("DATETIME2")) return new MyDateTimeField(2);
+    if (name.equals("DATETIME3")) return new MyDateTimeField(3);
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("SRC")) return new MySourceField();
     if (name.equals("NAME_PHONE")) return new MyNamePhoneField();
@@ -107,7 +108,7 @@ public class DispatchBCParser extends DispatchA3Parser {
       if (field.length() == 0) return;
       if (type == 1) {
         super.parse(field, data);
-      } else {
+      } else if (type == 3) {
         data.msgType = MsgType.RUN_REPORT;
       }
     }

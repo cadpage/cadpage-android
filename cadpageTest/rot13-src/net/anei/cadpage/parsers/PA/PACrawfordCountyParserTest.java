@@ -1293,6 +1293,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:ZINA = QFC 16:10:03 RAE 16:24:58 NEE 16:27:44 PYE 17:20:53 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:ZINA",
         "VASB:QFC 16:10:03\aRAE 16:24:58\aNEE 16:27:44\aPYE 17:20:53");
 
     qbGrfg("G2",
@@ -1310,11 +1311,13 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G3",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FSE = QFC 13:45:06 RAE 13:52:58 NEE 14:03:18 PYE 16:58:47 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FSE",
         "VASB:QFC 13:45:06\aRAE 13:52:58\aNEE 14:03:18\aPYE 16:58:47");
 
     qbGrfg("G4",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FSE = QFC 00:00:00 RAE 00:00:00 NEE 00:00:00 PYE 16:39:56 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FSE",
         "VASB:QFC 00:00:00\aRAE 00:00:00\aNEE 00:00:00\aPYE 16:39:56");
 
     qbGrfg("G5",
@@ -1342,11 +1345,13 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G7",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:PF = QFC 00:00:00 RAE 00:00:00 NEE 20:08:27 PYE 20:43:20 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:PF",
         "VASB:QFC 00:00:00\aRAE 00:00:00\aNEE 20:08:27\aPYE 20:43:20");
 
     qbGrfg("G8",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:PF = QFC 20:02:09 RAE 20:03:30 NEE 00:00:00 PYE 20:43:09 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:PF",
         "VASB:QFC 20:02:09\aRAE 20:03:30\aNEE 00:00:00\aPYE 20:43:09");
 
     qbGrfg("G9",
@@ -1364,6 +1369,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G10",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:PIN = QFC 13:40:51 RAE 13:42:48 NEE 13:49:30 PYE 14:03:13 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:PIN",
         "VASB:QFC 13:40:51\aRAE 13:42:48\aNEE 13:49:30\aPYE 14:03:13");
 
     qbGrfg("G11",
@@ -1380,6 +1386,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G12",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:SI = QFC 11:22:06 RAE 11:24:42 NEE 11:29:23 PYE 11:47:28 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:SI",
         "VASB:QFC 11:22:06\aRAE 11:24:42\aNEE 11:29:23\aPYE 11:47:28");
 
     qbGrfg("G13",
@@ -1396,6 +1403,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G14",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:ZINA = QFC 08:21:48 RAE 08:25:52 NEE 00:00:00 PYE 08:35:18 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:ZINA",
         "VASB:QFC 08:21:48\aRAE 08:25:52\aNEE 00:00:00\aPYE 08:35:18");
 
     qbGrfg("G15",
@@ -1413,6 +1421,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G16",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:ZINVR = QFC 10:48:19 RAE 10:54:06 NEE 10:57:29 PYE 12:14:01 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:ZINVR",
         "VASB:QFC 10:48:19\aRAE 10:54:06\aNEE 10:57:29\aPYE 12:14:01");
 
     qbGrfg("G17",
@@ -1429,6 +1438,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G18",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:PF = QFC 07:59:40 RAE 08:02:44 NEE 08:02:52 PYE 08:15:25 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:PF",
         "VASB:QFC 07:59:40\aRAE 08:02:44\aNEE 08:02:52\aPYE 08:15:25");
 
     qbGrfg("G19",
@@ -1445,6 +1455,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G20",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:OSE = QFC 22:33:12 RAE 22:41:17 NEE 23:03:17 PYE 00:49:23 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:OSE",
         "VASB:QFC 22:33:12\aRAE 22:41:17\aNEE 23:03:17\aPYE 00:49:23");
 
     qbGrfg("G21",
@@ -1458,6 +1469,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G22",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:PC = QFC 11:37:01 RAE 11:39:11 NEE 11:42:02 PYE 12:02:17 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:PC",
         "VASB:QFC 11:37:01\aRAE 11:39:11\aNEE 11:42:02\aPYE 12:02:17");
 
     qbGrfg("G23",
@@ -1474,6 +1486,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G24",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FRME = QFC 09:25:09 RAE 09:27:26 NEE 09:29:42 PYE 09:45:46 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FRME",
         "VASB:QFC 09:25:09\aRAE 09:27:26\aNEE 09:29:42\aPYE 09:45:46");
 
     qbGrfg("G25",
@@ -1490,6 +1503,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G26",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:PF = QFC 23:02:28 RAE 23:05:38 NEE 23:10:54 PYE 23:18:53 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:PF",
         "VASB:QFC 23:02:28\aRAE 23:05:38\aNEE 23:10:54\aPYE 23:18:53");
 
     qbGrfg("G27",
@@ -1506,6 +1520,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G28",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:OYQ = QFC 18:53:17 RAE 18:55:33 NEE 18:59:10 PYE 19:19:41 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:OYQ",
         "VASB:QFC 18:53:17\aRAE 18:55:33\aNEE 18:59:10\aPYE 19:19:41");
 
     qbGrfg("G29",
@@ -1522,6 +1537,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G30",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:OYQ = QFC 12:18:36 RAE 12:22:15 NEE 12:33:30 PYE 12:41:18 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:OYQ",
         "VASB:QFC 12:18:36\aRAE 12:22:15\aNEE 12:33:30\aPYE 12:41:18");
 
     qbGrfg("G31",
@@ -1538,6 +1554,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G32",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:HAP = QFC 19:26:09 RAE 19:28:24 NEE 19:30:09 PYE 20:18:44 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:HAP",
         "VASB:QFC 19:26:09\aRAE 19:28:24\aNEE 19:30:09\aPYE 20:18:44");
 
     qbGrfg("G33",
@@ -1554,6 +1571,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G34",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FSE = QFC 00:36:38 RAE 00:47:20 NEE 01:03:31 PYE 03:04:01 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FSE",
         "VASB:QFC 00:36:38\aRAE 00:47:20\aNEE 01:03:31\aPYE 03:04:01");
 
     qbGrfg("G35",
@@ -1568,6 +1586,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G36",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:GJQH = QFC 18:26:26 RAE 00:00:00 NEE 18:33:56 PYE 18:43:23 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:GJQH",
         "VASB:QFC 18:26:26\aRAE 00:00:00\aNEE 18:33:56\aPYE 18:43:23");
 
     qbGrfg("G37",
@@ -1584,6 +1603,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G38",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:SI = QFC 15:54:50 RAE 15:57:23 NEE 00:00:00 PYE 16:19:03 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:SI",
         "VASB:QFC 15:54:50\aRAE 15:57:23\aNEE 00:00:00\aPYE 16:19:03");
 
     qbGrfg("G39",
@@ -1600,16 +1620,19 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G40",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:QO = QFC 00:00:00 RAE 00:00:00 NEE 00:00:00 PYE 12:55:18 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:QO",
         "VASB:QFC 00:00:00\aRAE 00:00:00\aNEE 00:00:00\aPYE 12:55:18");
 
     qbGrfg("G41",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:QO = QFC 00:00:00 RAE 00:00:00 NEE 00:00:00 PYE 12:55:05 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:QO",
         "VASB:QFC 00:00:00\aRAE 00:00:00\aNEE 00:00:00\aPYE 12:55:05");
 
     qbGrfg("G42",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FSE = QFC 14:17:18 RAE 00:00:00 NEE 00:00:00 PYE 15:18:18 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FSE",
         "VASB:QFC 14:17:18\aRAE 00:00:00\aNEE 00:00:00\aPYE 15:18:18");
 
     qbGrfg("G43",
@@ -1626,6 +1649,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G44",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:SN = QFC 21:30:25 RAE 21:36:55 NEE 21:35:01 PYE 22:33:47 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:SN",
         "VASB:QFC 21:30:25\aRAE 21:36:55\aNEE 21:35:01\aPYE 22:33:47");
 
     qbGrfg("G45",
@@ -1642,6 +1666,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G46",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:HAP = QFC 17:45:45 RAE 17:47:58 NEE 17:53:04 PYE 17:59:56 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:HAP",
         "VASB:QFC 17:45:45\aRAE 17:47:58\aNEE 17:53:04\aPYE 17:59:56");
 
     qbGrfg("G47",
@@ -1658,6 +1683,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G48",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FSE = QFC 08:25:06 RAE 08:31:50 NEE 08:39:07 PYE 09:12:12 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FSE",
         "VASB:QFC 08:25:06\aRAE 08:31:50\aNEE 08:39:07\aPYE 09:12:12");
 
     qbGrfg("G49",
@@ -1674,6 +1700,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G50",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:PF = QFC 13:45:04 RAE 13:47:27 NEE 13:53:44 PYE 14:06:15 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:PF",
         "VASB:QFC 13:45:04\aRAE 13:47:27\aNEE 13:53:44\aPYE 14:06:15");
 
     qbGrfg("G51",
@@ -1701,6 +1728,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G53",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FSE = QFC 16:44:22 RAE 16:50:24 NEE 16:57:30 PYE 19:29:12 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FSE",
         "VASB:QFC 16:44:22\aRAE 16:50:24\aNEE 16:57:30\aPYE 19:29:12");
 
     qbGrfg("G54",
@@ -1716,6 +1744,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G55",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:QVNO = QFC 01:25:44 RAE 01:32:50 NEE 01:36:05 PYE 01:44:20 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:QVNO",
         "VASB:QFC 01:25:44\aRAE 01:32:50\aNEE 01:36:05\aPYE 01:44:20");
 
     qbGrfg("G56",
@@ -1732,6 +1761,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G57",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:ZINV = QFC 12:53:43 RAE 12:58:20 NEE 13:04:54 PYE 14:17:26 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:ZINV",
         "VASB:QFC 12:53:43\aRAE 12:58:20\aNEE 13:04:54\aPYE 14:17:26");
 
     qbGrfg("G58",
@@ -1748,6 +1778,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G59",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:PF = QFC 09:51:12 RAE 09:53:37 NEE 09:57:20 PYE 10:15:45 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:PF",
         "VASB:QFC 09:51:12\aRAE 09:53:37\aNEE 09:57:20\aPYE 10:15:45");
 
     qbGrfg("G60",
@@ -1764,6 +1795,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G61",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:CT = QFC 03:45:50 RAE 03:48:15 NEE 03:56:06 PYE 04:03:32 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:CT",
         "VASB:QFC 03:45:50\aRAE 03:48:15\aNEE 03:56:06\aPYE 04:03:32");
 
     qbGrfg("G62",
@@ -1780,11 +1812,13 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G63",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FP = QFC 06:19:22 RAE 00:00:00 NEE 00:00:00 PYE 06:23:45 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FP",
         "VASB:QFC 06:19:22\aRAE 00:00:00\aNEE 00:00:00\aPYE 06:23:45");
 
     qbGrfg("G64",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FSE = QFC 00:44:41 RAE 00:53:35 NEE 01:05:26 PYE 03:37:09 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FSE",
         "VASB:QFC 00:44:41\aRAE 00:53:35\aNEE 01:05:26\aPYE 03:37:09");
 
     qbGrfg("G65",
@@ -1801,6 +1835,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G66",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:QVML = QFC 13:37:02 RAE 00:00:00 NEE 00:00:00 PYE 13:43:42 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:QVML",
         "VASB:QFC 13:37:02\aRAE 00:00:00\aNEE 00:00:00\aPYE 13:43:42");
 
     qbGrfg("G67",
@@ -1817,11 +1852,13 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G68",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FSE = QFC 18:17:15 RAE 18:20:28 NEE 00:00:00 PYE 20:14:05 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FSE",
         "VASB:QFC 18:17:15\aRAE 18:20:28\aNEE 00:00:00\aPYE 20:14:05");
 
     qbGrfg("G69",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:BV = QFC 18:19:40 RAE 18:20:33 NEE 00:00:00 PYE 18:33:24 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:BV",
         "VASB:QFC 18:19:40\aRAE 18:20:33\aNEE 00:00:00\aPYE 18:33:24");
 
     qbGrfg("G70",
@@ -1848,6 +1885,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G72",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:PF = QFC 05:37:12 RAE 05:40:19 NEE 05:48:57 PYE 05:56:49 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:PF",
         "VASB:QFC 05:37:12\aRAE 05:40:19\aNEE 05:48:57\aPYE 05:56:49");
 
     qbGrfg("G73",
@@ -1864,6 +1902,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G74",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:BV = QFC 18:46:53 RAE 18:55:27 NEE 18:58:42 PYE 19:23:13 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:BV",
         "VASB:QFC 18:46:53\aRAE 18:55:27\aNEE 18:58:42\aPYE 19:23:13");
 
     qbGrfg("G75",
@@ -1881,6 +1920,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G76",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FSE = QFC 13:53:47 RAE 13:59:59 NEE 14:06:52 PYE 14:45:50 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FSE",
         "VASB:QFC 13:53:47\aRAE 13:59:59\aNEE 14:06:52\aPYE 14:45:50");
 
     qbGrfg("G77",
@@ -1897,6 +1937,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G78",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:PIN = QFC 15:06:13 RAE 15:08:07 NEE 15:15:26 PYE 15:31:24 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:PIN",
         "VASB:QFC 15:06:13\aRAE 15:08:07\aNEE 15:15:26\aPYE 15:31:24");
 
     qbGrfg("G79",
@@ -1914,6 +1955,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G80",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FRME = QFC 13:17:50 RAE 00:00:00 NEE 00:00:00 PYE 13:24:50 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FRME",
         "VASB:QFC 13:17:50\aRAE 00:00:00\aNEE 00:00:00\aPYE 13:24:50");
 
     qbGrfg("G81",
@@ -1930,6 +1972,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G82",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FSE = QFC 19:57:06 RAE 00:00:00 NEE 20:01:07 PYE 20:01:53 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FSE",
         "VASB:QFC 19:57:06\aRAE 00:00:00\aNEE 20:01:07\aPYE 20:01:53");
 
     qbGrfg("G83",
@@ -1946,6 +1989,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G84",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:SN = QFC 07:17:32 RAE 00:00:00 NEE 07:22:44 PYE 07:30:56 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:SN",
         "VASB:QFC 07:17:32\aRAE 00:00:00\aNEE 07:22:44\aPYE 07:30:56");
 
     qbGrfg("G85",
@@ -1962,6 +2006,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G86",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FSE = QFC 03:15:38 RAE 03:24:48 NEE 03:28:51 PYE 08:42:50 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FSE",
         "VASB:QFC 03:15:38\aRAE 03:24:48\aNEE 03:28:51\aPYE 08:42:50");
 
     qbGrfg("G87",
@@ -1988,6 +2033,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G89",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:NE = QFC 06:43:55 RAE 06:48:21 NEE 06:55:54 PYE 07:10:59 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:NE",
         "VASB:QFC 06:43:55\aRAE 06:48:21\aNEE 06:55:54\aPYE 07:10:59");
 
     qbGrfg("G90",
@@ -2016,6 +2062,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G92",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:FSE = QFC 04:03:43 RAE 04:12:12 NEE 04:19:56 PYE 04:48:35 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:FSE",
         "VASB:QFC 04:03:43\aRAE 04:12:12\aNEE 04:19:56\aPYE 04:48:35");
 
     qbGrfg("G93",
@@ -2033,6 +2080,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G94",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:PIN = QFC 22:24:30 RAE 00:00:00 NEE 22:27:52 PYE 23:02:46 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:PIN",
         "VASB:QFC 22:24:30\aRAE 00:00:00\aNEE 22:27:52\aPYE 23:02:46");
 
     qbGrfg("G95",
@@ -2049,6 +2097,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G96",
         "PENJSBEQ PBHAGL  911 PENJSBEQ_PBHAGL_911:GJQH = QFC 18:45:32 RAE 18:52:01 NEE 00:00:00 PYE 18:57:26 Ercyl FGBC gb BCG BHG",
         "GLCR:EHA_ERCBEG",
+        "PBQR:GJQH",
         "VASB:QFC 18:45:32\aRAE 18:52:01\aNEE 00:00:00\aPYE 18:57:26");
 
     qbGrfg("G97",

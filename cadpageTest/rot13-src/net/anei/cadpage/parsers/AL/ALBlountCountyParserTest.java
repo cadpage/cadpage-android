@@ -273,21 +273,25 @@ choyvp pynff NYOybhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "(ZRQ) OYBHAGPB911:= QFC 11:01:22 RAE 11:02:07 NEE 00:00:00 PYE 11:05:47",
         "GLCR:EHA_ERCBEG",
+        "PBQR:ZRQ",
         "VASB:QFC 11:01:22\aRAE 11:02:07\aNEE 00:00:00\aPYE 11:05:47");
 
     qbGrfg("G2",
         "(50) OYBHAGPB911:= QFC 14:05:23 RAE 14:06:52 NEE 14:12:58 PYE 16:49:14",
         "GLCR:EHA_ERCBEG",
+        "PBQR:50",
         "VASB:QFC 14:05:23\aRAE 14:06:52\aNEE 14:12:58\aPYE 16:49:14");
 
     qbGrfg("G3",
         "(ZRQ) OYBHAGPB911:= QFC 19:56:28 RAE 19:57:18 NEE 20:00:50 PYE 20:28:28",
         "GLCR:EHA_ERCBEG",
+        "PBQR:ZRQ",
         "VASB:QFC 19:56:28\aRAE 19:57:18\aNEE 20:00:50\aPYE 20:28:28");
 
     qbGrfg("G4",
         "(SVERN) = QFC 18:48:07 RAE 18:51:34 NEE 00:00:00 PYE 18:59:56",
         "GLCR:EHA_ERCBEG",
+        "PBQR:SVERN",
         "VASB:QFC 18:48:07\aRAE 18:51:34\aNEE 00:00:00\aPYE 18:59:56");
 
   }

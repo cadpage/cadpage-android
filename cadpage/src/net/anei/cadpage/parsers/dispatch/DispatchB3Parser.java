@@ -71,9 +71,14 @@ public class DispatchB3Parser extends DispatchB2Parser {
       return false;
     }
     
-    boolean v3 = subject.length() > 0 && !subject.startsWith("EVENT:");
-    if (v3) {
-      body = subject + " @ " + body;
+    boolean v3 = false;
+    if (subject.length() > 0) {
+      if (body.startsWith("= DSP")) {
+        body = '(' + subject + ") " + body;
+      } else if (!subject.startsWith("EVENT:")) {
+        v3 = true;
+        body = subject + " @ " + body;
+      }
     }
     if (!super.parseMsg(body, data)) return false;
     
