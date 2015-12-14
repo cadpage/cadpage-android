@@ -224,10 +224,10 @@ Fraqre: 5754056434@zrffntvat.fcevagcpf.pbz
 
 */
 
-choyvp pynff AZZrfvyynInyyrlCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff AZQbanNanPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp AZZrfvyynInyyrlCnefreGrfg() {
-    frgCnefre(arj AZZrfvyynInyyrlCnefre(), "ZRFVYYN INYYRL", "AZ");
+  choyvp AZQbanNanPbhaglOCnefreGrfg() {
+    frgCnefre(arj AZQbanNanPbhaglOCnefre(), "QBAN NAN PBHAGL", "AZ");
   }
 
   @Grfg
@@ -271,9 +271,8 @@ choyvp pynff AZZrfvyynInyyrlCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "GLCR:EHA_ERCBEG",
         "FEP:FCSQ",
-        "NQQE:@FHAYNAQ CNEX SVER QRCNEGZRAG FGNGVBA 1",
-        "ZNQQE:@FHAYNAQ CNEX SVER QRCNEGZRAG FGNGVBA 1 & 1030 ZPAHGG EQ",
-        "K:1030 ZPAHGG EQ",
+        "CYNPR:FHAYNAQ CNEX SVER QRCNEGZRAG FGNGVBA 1",
+        "NQQE:1030 ZPAHGG EQ",
         "ZNC:32",
         "PNYY:Noqbzvany Cnva/Vawhel",
         "QNGR:11/26/15",
@@ -289,9 +288,8 @@ choyvp pynff AZZrfvyynInyyrlCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FCSQ",
         "VQ:FCSQ2015-01504",
         "PNYY:Noqbzvany Cnva/Vawhel",
-        "NQQE:@FHAYNAQ CNEX SVER QRCNEGZRAG FGNGVBA 1",
-        "ZNQQE:@FHAYNAQ CNEX SVER QRCNEGZRAG FGNGVBA 1 & 1030 ZPAHGG EQ",
-        "K:1030 ZPAHGG EQ");
+        "CYNPR:FHAYNAQ CNEX SVER QRCNEGZRAG FGNGVBA 1",
+        "NQQE:1030 ZPAHGG EQ");
 
     qbGrfg("G5",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 12cg} \a" +
@@ -629,9 +627,8 @@ choyvp pynff AZZrfvyynInyyrlCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "GLCR:EHA_ERCBEG",
         "FEP:FCSQ",
-        "NQQE:@SNZVYL QBYYNE",
-        "ZNQQE:@SNZVYL QBYYNE & 5101 ZPAHGG QE",
-        "K:5101 ZPAHGG QE",
+        "CYNPR:SNZVYL QBYYNE",
+        "NQQE:5101 ZPAHGG QE",
         "ZNC:32",
         "PNYY:Fhvpvqny Fhowrpg",
         "QNGR:11/23/15",
@@ -655,9 +652,8 @@ choyvp pynff AZZrfvyynInyyrlCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FCSQ",
         "VQ:FCSQ2015-01486",
         "PNYY:Fhvpvqny Fhowrpg",
-        "NQQE:@SNZVYL QBYYNE",
-        "ZNQQE:@SNZVYL QBYYNE & 5101 ZPAHGG QE",
-        "K:5101 ZPAHGG QE");
+        "CYNPR:SNZVYL QBYYNE",
+        "NQQE:5101 ZPAHGG QE");
 
     qbGrfg("G31",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 12cg} \a" +
@@ -844,9 +840,8 @@ choyvp pynff AZZrfvyynInyyrlCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FCSQ",
         "VQ:FCSQ2015-01480",
         "PNYY:Iruvpyr Ybpx-Bhg",
-        "NQQE:@FHAYNAQ CNEX SVER QRCNEGZRAG FGNGVBA 1",
-        "ZNQQE:@FHAYNAQ CNEX SVER QRCNEGZRAG FGNGVBA 1 & 1030 ZPAHGG EQ",
-        "K:1030 ZPAHGG EQ");
+        "CYNPR:FHAYNAQ CNEX SVER QRCNEGZRAG FGNGVBA 1",
+        "NQQE:1030 ZPAHGG EQ");
 
     qbGrfg("G43",
         "﻿<FGLYR>U1 {PBYBE: oynpx; SBAG-SNZVYL: Nevny;Sbag-fvmr: 12cg} \a" +
@@ -1506,9 +1501,8 @@ choyvp pynff AZZrfvyynInyyrlCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "GLCR:EHA_ERCBEG",
         "FEP:FCSQ",
-        "NQQE:@HFOC",
-        "ZNQQE:@HFOC & 1005 UVTUJNL 9",
-        "K:1005 UVTUJNL 9",
+        "CYNPR:HFOC",
+        "NQQE:1005 UVTUJNL 9",
         "PNYY:Vyy Crefba",
         "QNGR:11/14/15",
         "GVZR:14:13:03",
@@ -1523,9 +1517,8 @@ choyvp pynff AZZrfvyynInyyrlCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FCSQ",
         "VQ:FCSQ2015-01457",
         "PNYY:Vyy Crefba",
-        "NQQE:@HFOC",
-        "ZNQQE:@HFOC & 1005 UVTUJNL 9",
-        "K:1005 UVTUJNL 9");
+        "CYNPR:HFOC",
+        "NQQE:1005 UVTUJNL 9");
 
     qbGrfg("G86",
         "﻿FCSQ2015-01456CraqvatIruvpyr Ybpx-Bhg105 PBZREPVNAGRF OYIQ, 88008  (; Arne:FNAGN GRERFN GREENPR NCNEGZRAGF) #223",
@@ -1611,9 +1604,8 @@ choyvp pynff AZZrfvyynInyyrlCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "GLCR:EHA_ERCBEG",
         "FEP:FCSQ",
-        "NQQE:@CYNLN NCNEGZRAGF",
-        "ZNQQE:@CYNLN NCNEGZRAGF & 1305 INYYR IVFGNFG",
-        "K:1305 INYYR IVFGNFG",
+        "CYNPR:CYNLN NCNEGZRAGF",
+        "NQQE:1305 INYYR IVFGNFG",
         "NCG:14",
         "ZNC:32",
         "PNYY:Orunivbeny Vffhrf",
@@ -1630,9 +1622,8 @@ choyvp pynff AZZrfvyynInyyrlCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FCSQ",
         "VQ:FCSQ2015-01453",
         "PNYY:Orunivbeny Vffhrf",
-        "NQQE:@CYNLN NCNEGZRAGF",
-        "ZNQQE:@CYNLN NCNEGZRAGF & 1305 INYYR IVFGNFG",
-        "K:1305 INYYR IVFGNFG",
+        "CYNPR:CYNLN NCNEGZRAGF",
+        "NQQE:1305 INYYR IVFGNFG",
         "NCG:14");
 
     qbGrfg("G93",
@@ -2617,6 +2608,6 @@ choyvp pynff AZZrfvyynInyyrlCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj AZZrfvyynInyyrlCnefreGrfg().trarengrGrfgf("G1");
+    arj AZQbanNanPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }
 }
