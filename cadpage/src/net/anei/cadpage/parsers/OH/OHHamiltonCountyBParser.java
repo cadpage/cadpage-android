@@ -16,7 +16,7 @@ public class OHHamiltonCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@norwood-ohio.com";
+    return "dispatch@norwood-ohio.com,norwoodpolice@norwoodpolice.org";
   }
   
   @Override
