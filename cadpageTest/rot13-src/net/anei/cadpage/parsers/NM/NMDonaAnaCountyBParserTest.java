@@ -5,7 +5,8 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Zrfvyyn Inyyrl Ertvbany Qvfcngpu Nhgubevgl, AZ
+Qban Nan Pbhagl, AZ (O) 
+(Zrfvyyn Inyyrl Ertvbany Qvfcngpu Nhgubevgl) 
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fhaynaq Cnex SQ

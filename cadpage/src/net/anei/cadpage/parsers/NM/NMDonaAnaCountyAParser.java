@@ -5,9 +5,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 
-public class NMDonaAnaCountyParser extends FieldProgramParser {
+public class NMDonaAnaCountyAParser extends FieldProgramParser {
 
-  public NMDonaAnaCountyParser() {
+  public NMDonaAnaCountyAParser() {
     super("DONA ANA COUNTY", "NM",
         "CALL UNIT ID ADDR");
   }
