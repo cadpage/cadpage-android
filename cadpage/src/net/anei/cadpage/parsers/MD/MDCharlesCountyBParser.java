@@ -36,19 +36,31 @@ public class MDCharlesCountyBParser extends FieldProgramParser {
     return address;
   }
   private static final Pattern PR_PTN = Pattern.compile("\\bPR\\b", Pattern.CASE_INSENSITIVE);
-
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("URL")) return new MyInfoUrlField();
+    if (name.equals("ID")) return new IdField("\\d+", true);
+    if (name.equals("DATETIME")) return new MyDateTimeField();
+    return super.getField(name);
+  }
   
-  private static final Pattern APT_PTN = Pattern.compile("(?:APT|RM) *(.*)");
+  private static final Pattern APT_PTN = Pattern.compile("(?:APT|RM) *(.*)|\\d+[A-Z]?|[A-Z]");
   private class MyAddressField extends AddressField {
 
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf(',');
       String extra = null;
-      if (pt >= 0) {
+      while (true) {
+        int pt = field.indexOf(',');
+        if (pt <= 0) break;
         extra = field.substring(pt+1).trim();
         field = field.substring(0,pt).trim();
+        if (!field.equals("PG COUNTY")) break;
+        data.strCity = "PRINCE GEORGES COUNTY";
+        field = extra;
+        extra = null;
       }
       super.parse(field, data);
       
@@ -57,6 +69,7 @@ public class MDCharlesCountyBParser extends FieldProgramParser {
       Matcher match = APT_PTN.matcher(extra);
       if (match.matches()) {
         data.strApt = match.group(1);
+        if (data.strApt == null) data.strApt = extra;
         return;
       }
       
@@ -71,7 +84,7 @@ public class MDCharlesCountyBParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames() + " APT X PLACE";
+      return "CITY " + super.getFieldNames() + " APT X PLACE";
     }
   }
   
@@ -100,15 +113,6 @@ public class MDCharlesCountyBParser extends FieldProgramParser {
       data.strDate = match.group(1);
       setTime(TIME_FMT, match.group(2), data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("URL")) return new MyInfoUrlField();
-    if (name.equals("ID")) return new IdField("\\d+", true);
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    return super.getField(name);
   }
   
   @Override

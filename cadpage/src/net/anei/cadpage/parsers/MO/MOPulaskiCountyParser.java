@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 
 /**
@@ -12,7 +13,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class MOPulaskiCountyParser extends FieldProgramParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("\nComplete: *\\d{1,2}:\\d{1,2}:\\d{1,2}$");
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("Call Number: *(\\d+) +Call Received Time: *(\\d\\d?/\\d\\d?/\\d{4}) (\\d\\d?:\\d\\d:\\d\\d) (.*?)\n(.*?) (Dispatch:.*)");
+  private static final Pattern RUN_REPORT_BRK_PTN = Pattern.compile(" +(?=[A-Z][a-z]+:)");
   
   public MOPulaskiCountyParser() {
     super(CITY_TABLE, "PULASKI COUNTY", "MO",
@@ -26,9 +28,16 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (RUN_REPORT_PTN.matcher(body).find()) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
+    Matcher match = RUN_REPORT_PTN.matcher(body);
+    if (match.matches()) {
+      setFieldList("ID DATE TIME CALL UNIT INFO");
+      data.msgType = MsgType.RUN_REPORT;
+      data.strCallId = match.group(1);
+      data.strDate = match.group(2);
+      data.strTime = match.group(3);
+      data.strCall = match.group(4).trim();
+      data.strUnit = match.group(5).trim();
+      data.strSupp = RUN_REPORT_BRK_PTN.matcher(match.group(6).trim()).replaceAll("\n");
       return true;
     }
     return super.parseMsg(body, data);
