@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Sha qh Ynp Pbhagl, JV
+Sbaq qh Ynp Pbhagl, JV
 
 Pbagnpg: Mvggybj, Qnivq <qmvggybj@sqy.jv.tbi>
 Fraqre: pnqznvy@sqypb.jv.tbi
