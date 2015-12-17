@@ -26,7 +26,17 @@ public class CASanDiegoCountyAParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("CAD MESSAGE")) return false;
+    do {
+      if (subject.equals("CAD MESSAGE")) break;
+      
+      if (body.startsWith("/ CAD MESSAGE / ")) {
+        body = body.substring(16).trim();
+        break;
+      }
+      
+      return false;
+    } while (false);
+    
     if (RUN_REPORT_PTN.matcher(body).matches()) {
       data.strCall = "RUN REPORT";
       data.strPlace = body;

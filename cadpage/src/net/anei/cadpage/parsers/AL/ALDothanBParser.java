@@ -17,11 +17,13 @@ public class ALDothanBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@dothan.org";
+    return "dispatch@dothan.org,777";
   }
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    body = stripFieldStart(body, "CITY OF DOTHAN:");
+    body = stripFieldEnd(body, "\nstop");
     return parseFields(body.split(";"), data);
   }
 

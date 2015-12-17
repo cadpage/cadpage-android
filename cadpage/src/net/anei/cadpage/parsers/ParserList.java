@@ -228,6 +228,7 @@ public class ParserList {
               ,"COLarimerCounty"                ,"Larimer County, CO"
               ,"COMemorialStar"                 ,"Memorial Star, CO"
               ,"COMesaCounty"                   ,"Mesa County, CO"
+              ,"COMontezumaCounty"              ,"Montezuma County, CO"
               ,"COMorganCounty"                 ,"Morgan County, CO"
               ,"CONorthglennEMS"                ,"Northglenn EMS, CO"
               ,"COParkCounty"                   ,"Park County, CO"
@@ -423,6 +424,7 @@ public class ParserList {
               ,"INStJosephCounty"               ,"St Joseph County, IN"
               ,"INTiptonCounty"                 ,"Tipton County, IN"
               ,"INVanderburghCounty"            ,"Vanderburgh County, IN"
+              ,"INVermillionCounty"             ,"Vermillion County, IN"
               ,"INVigoCounty"                   ,"Vigo County, IN"
               ,"INWayneCounty"                  ,"Wayne County, IN"
           ),
@@ -680,6 +682,7 @@ public class ParserList {
               ,"MSOktibbehaCounty"              ,"Oktibbeha County, MS"
           ),
           new ParserCategory("Missouri"
+              ,"MOAndrewCounty"                 ,"Andrew County, MO"
               ,"MOAudrainCounty"                ,"Audrain County, MO"
               ,"MOBarryCounty"                  ,"Barry County, MO"
               ,"MOBooneCounty"                  ,"Boone County, MO"
@@ -1415,6 +1418,7 @@ public class ParserList {
               ,"WIDaneCounty"                   ,"Dane County, WI"
               ,"WIDoorCounty"                   ,"Door County, WI"
               ,"WIEauClaire"                    ,"Eau Claire, WI"
+              ,"WIFondDuLacCounty"              ,"Fond Du Lac County, WI"
               ,"WIKenoshaCounty"                ,"Kenosha County, WI"
               ,"WIOutagamieCounty"              ,"Outagamie County, WI"
               ,"WIOzaukeeCounty"                ,"Ozaukee County, WI"

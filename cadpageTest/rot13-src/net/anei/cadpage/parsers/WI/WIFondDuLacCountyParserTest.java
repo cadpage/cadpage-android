@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Sha qh Ynp Pbhagl, JV
+Sbaq qh Ynp Pbhagl, JV
 
 Pbagnpg: Mvggybj, Qnivq <qmvggybj@sqy.jv.tbi>
 Fraqre: pnqznvy@sqypb.jv.tbi
@@ -37,10 +37,9 @@ choyvp pynff JVSbaqQhYnpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:16 A YVAPBYA NIR",
         "PVGL:SBAQ QH YNP",
         "K:F YVAPBYA NI naq GUBZNF FG",
-        "PU:SS",
+        "FEP:SS",
         "ZNC:AJN05",
         "VASB:SVER",
-        "FEP:PBA5",
         "QNGR:12/14/2015",
         "GVZR:02:14:46");
 
@@ -53,7 +52,7 @@ choyvp pynff JVSbaqQhYnpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:653 J NEAQG FG",
         "NCG:237",
         "K:TENAQ PG naq A CRGREF NI",
-        "PU:SN",
+        "FEP:SN",
         "ZNC:AJS09",
         "VASB:UNIVA");
 
@@ -65,7 +64,7 @@ choyvp pynff JVSbaqQhYnpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:1/2",
         "PVGL:SBAQ QH YNP",
         "K:ZVYY FG naq GRZCRENAPR FG",
-        "PU:SN",
+        "FEP:SN",
         "ZNC:AJT06",
         "VASB:UNIVAT N FRVMHER");
 
@@ -77,10 +76,9 @@ choyvp pynff JVSbaqQhYnpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:16 A YVAPBYA NIR",
         "PVGL:SBAQ QH YNP",
         "K:F YVAPBYA NI naq GUBZNF FG",
-        "PU:SS",
+        "FEP:SS",
         "ZNC:AJN05",
         "VASB:SVER",
-        "FEP:PBA5",
         "QNGR:12/14/2015",
         "GVZR:02:14:46");
 
@@ -93,7 +91,7 @@ choyvp pynff JVSbaqQhYnpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:596 J NEAQG FG",
         "NCG:U102",
         "K:A FRLZBHE FG naq TENAQ PG",
-        "PU:SN",
+        "FEP:SN",
         "ZNC:AJR13");
 
     qbGrfg("G6",
@@ -103,7 +101,7 @@ choyvp pynff JVSbaqQhYnpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:A CRGREF NI & J WBUAFBA FG",
         "ZNQQE:A CRGREF NIR & J WBUAFBA FG",
         "PVGL:SBAQ QH YNP",
-        "PU:SS",
+        "FEP:SS",
         "ZNC:AJQ07",
         "VASB:ZNYR UNF ORRA UVG OL N GEHPX / UR JNF BA N OVXR / FNL");
 
@@ -116,7 +114,7 @@ choyvp pynff JVSbaqQhYnpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:265 F ANGVBANY NI",
         "ZNQQE:265 F ANGVBANY NIR",
         "K:4GU FG naq TYRAJBBQ QE",
-        "PU:SS",
+        "FEP:SS",
         "ZNC:FRR11",
         "VASB:NYNEZ CHYYR");
    

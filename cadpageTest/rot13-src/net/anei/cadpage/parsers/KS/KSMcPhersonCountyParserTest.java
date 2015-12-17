@@ -994,6 +994,7 @@ choyvp pynff XFZpCurefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:YVTUG FZBXR VAIRFGVTNGVBA (BHGFVQR) - **GRFG PNFR** **GRFG PNFR**",
         "NQQE:719 F PUEVFGVNA NIR",
         "PVGL:ZBHAQEVQTR",
+        "HAVG:ZQSQ-FGNGVBA",
         "VASB:Fzbxr vf ivfvoyr.\aGur pnyyre vf abg ba fprar.\aGur pbybe bs gur fzbxr vf abg xabja.\aGur pnyyre vf noyr gb frr guebhtu gur fzbxr.\aGur pnyyre ercbegf gung gur fzbxr/bqbe vf bhgfvqr.\aPNQ Erfcbafr: Nycun\aQvfcngpu Pbqr: 68N01 (YVTUG fzbxr)\aVg vf abg xabja jurer gur fzbxr vf pbzvat sebz.\aSver Pbzcynvag: Fzbxr Vairfgvtngvba (Bhgfvqr)\aNobegrq: 6. Snyfr pnyy");
 
     qbGrfg("G13",
@@ -1013,6 +1014,7 @@ choyvp pynff XFZpCurefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ZBHAQEVQTR",
         "CUBAR:(620) 334-0288",
         "ANZR:YNAVGN FPUZVQG",
+        "HAVG:ZQRZF-FGNGVBA,ZQSQ-FGNGVBA,604,ZRQ71,ERF73,RAT75",
         "VASB:604- BHG PURPXVAT\aNQIVFRQ 604\aGURL UNIR BAR RAE- CRE 762\a762- UNIR FB FGVYY RAE0 GUVF VF TBVAT GB OR N FYVQR BSS\aNYY SQ HAVGF 10-4\aZRQ71- 10-4\a762- 10-22 RZF NAQ SVER\a761-RAT75 PNA TB ABEZNY GENSSVP\a761 NAQ 762 BA FPRAR\a604 JNF NQIVFRQ\a765- ZQRZF VF 10-4 BA GUR CNTR\a761 & 762 RAE CBI\aGur rknpg ybpngvba bs gur iruvpyr(f) vf: BA GUR QVEG EBNQ- YBBXF YVXR VA GUR QVGPU FGHPX\aGur iruvpyr qrfpevcgvba vf:\aAbguvat vf oybpxvat be fybjvat gur sybj bs genssvp.\aIruvpyr: 1 Glcr: Ivpgvz Pbybe: JUVGR? Znxr: QBQTR Zbqry: ENZ Obql: GEHPX\aGuvf vf n YBJ ZRPUNAVFZ vapvqrag.\aGur 2aq cnegl pnyyre vf ba fprar.\aVg vf abg xabja vs nalbar vf vawherq.\aA/N\aPNQ Erfcbafr: Puneyvr\aGur fhfcrpg/crefba/iruvpyr vf va gur nern.\aGuvf vf n GENSSVP VAPVQRAG.\aVg vf abg xabja jura guvf vapvqrag unccrarq.\aBar iruvpyr vf vaibyirq.\aNyy qeviref ner fgvyy ba fprar.\aGur pnyyre vf ba fprar.\aQvfcngpu Pbqr: 131P01 (GENSSVP VAPVQRAG (haxabja vawhel))\aCbyvpr Pbzcynvag: Genssvp / Genafcbegngvba Vapvqrag (Penfu)");
 
     qbGrfg("G14",
@@ -1041,6 +1043,7 @@ choyvp pynff XFZpCurefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ZBHAQEVQTR",
         "CUBAR:(620) 334-0288",
         "ANZR:YNAVGN FPUZVQG",
+        "HAVG:ZQRZF-FGNGVBA,ZQSQ-FGNGVBA",
         "VASB:Gur rknpg ybpngvba bs gur iruvpyr(f) vf: BA GUR QVEG EBNQ- YBBXF YVXR VA GUR QVGPU FGHPX\aGur iruvpyr qrfpevcgvba vf:\aAbguvat vf oybpxvat be fybjvat gur sybj bs genssvp.\aIruvpyr: 1 Glcr: Ivpgvz Pbybe: JUVGR? Znxr: QBQTR Zbqry: ENZ Obql: GEHPX\aGuvf vf n YBJ ZRPUNAVFZ vapvqrag.\aGur 2aq cnegl pnyyre vf ba fprar.\aVg vf abg xabja vs nalbar vf vawherq.\aA/N\aPNQ Erfcbafr: Puneyvr\aGur fhfcrpg/crefba/iruvpyr vf va gur nern.\aGuvf vf n GENSSVP VAPVQRAG.\aVg vf abg xabja jura guvf vapvqrag unccrarq.\aBar iruvpyr vf vaibyirq.\aNyy qeviref ner fgvyy ba fprar.\aGur pnyyre vf ba fprar.\aQvfcngpu Pbqr: 131P01 (GENSSVP VAPVQRAG (haxabja vawhel))\aCbyvpr Pbzcynvag: Genssvp / Genafcbegngvba Vapvqrag (Penfu)");
 
     qbGrfg("G16",
@@ -1070,6 +1073,7 @@ choyvp pynff XFZpCurefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GRFG VAPVQRAG",
         "NQQE:704 R PBYR FG",
         "PVGL:ZBHAQEVQTR",
+        "HAVG:ZQSQ-FGNGVBA,ZQRZF-FGNGVBA,ZRQ71,RAT76",
         "CUBAR:GRFG");
 
     qbGrfg("G19",
@@ -1090,6 +1094,7 @@ choyvp pynff XFZpCurefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GRFG VAPVQRAG",
         "NQQE:704 R PBYR FG",
         "PVGL:ZBHAQEVQTR",
+        "HAVG:ZQSQ-FGNGVBA",
         "CUBAR:GRFG");
 
     qbGrfg("G21",
@@ -1111,6 +1116,7 @@ choyvp pynff XFZpCurefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:200 F NIRAHR O",
         "PVGL:ZBHAQEVQTR",
         "CUBAR:GRFG",
+        "HAVG:ZQSQ-FGNGVBA,ZQRZF-FGNGVBA,ZRQ71,RAT76",
         "VASB:Gurer vf ab oyrrqvat abj.\aAb fcrpvny pbapreaf unir orra ercbegrq.\aPNQ Erfcbafr: Nycun\aGur vawhel vf gb n ABG QNATREBHF nern.\aGur snyy jnf nppvqragny.\aQvfcngpu Pbqr: 17N02 (ABG QNATREBHF obql nern)\aUr vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).\aVg'f ercbegrq gung ur sryy ng tebhaq yriry.\aUr vf ab ybatre ba gur sybbe/tebhaq.\aGuvf unccrarq abj (yrff guna 6uef ntb).\aPnyyre vf 2aq Cnegl\aPnfr Ragel: 45-lrne-byq, Znyr, Pbafpvbhf, Oernguvat.\aZrqvpny Pbzcynvag: Snyyf");
 
     qbGrfg("G23",
@@ -1132,6 +1138,7 @@ choyvp pynff XFZpCurefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:200 F NIRAHR O",
         "PVGL:ZBHAQEVQTR",
         "CUBAR:GRFG",
+        "HAVG:ZQSQ-FGNGVBA",
         "VASB:Gurer vf ab oyrrqvat abj.\aAb fcrpvny pbapreaf unir orra ercbegrq.\aPNQ Erfcbafr: Nycun\aGur vawhel vf gb n ABG QNATREBHF nern.\aGur snyy jnf nppvqragny.\aQvfcngpu Pbqr: 17N02 (ABG QNATREBHF obql nern)\aUr vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).\aVg'f ercbegrq gung ur sryy ng tebhaq yriry.\aUr vf ab ybatre ba gur sybbe/tebhaq.\aGuvf unccrarq abj (yrff guna 6uef ntb).\aPnyyre vf 2aq Cnegl\aPnfr Ragel: 45-lrne-byq, Znyr, Pbafpvbhf, Oernguvat.\aZrqvpny Pbzcynvag: Snyyf");
 
     qbGrfg("G25",
@@ -1145,6 +1152,7 @@ choyvp pynff XFZpCurefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ZBHAQEVQTR",
         "CUBAR:GRFG",
         "ANZR:OBO",
+        "HAVG:ZDSQ-FGNGVBA,RAT76",
         "VASB:Ab bar vf ercbegrq gb or vawherq.\aGur iruvpyr qbrf abg hfr nygreangvir shryf.\aGur sver vf abg guerngravat nalguvat ng cerfrag.\aPNQ Erfcbafr: Oenib\aGur pnyyre vf ba fprar (1fg cnegl).\aN cnffratre pne vf vaibyirq.\aGur iruvpyr vf abg vafvqr n ohvyqvat/fgehpgher.\aGur sver unf abg orra rkgvathvfurq.\aQvfcngpu Pbqr: 71O01 (Iruvpyr sver)\aAb bar vf genccrq.\aSver Pbzcynvag: Iruvpyr Sver");
 
     qbGrfg("G26",
@@ -1204,6 +1212,7 @@ choyvp pynff XFZpCurefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ZBHAQEVQTR",
         "CUBAR:620-245-1266",
         "ANZR:WHYVR",
+        "HAVG:ZQSQ-FGNGVBA",
         "VASB:Vg'f ercbegrq gung ur sryy ng tebhaq yriry.\aGur snyy jnf nppvqragny.\aGur vawhel vf gb n ABG QNATREBHF nern.\aGuvf unccrarq abj (yrff guna 6uef ntb).\aFhssvk: T (Ba gur tebhaq be sybbe)\aGurer vf ab oyrrqvat abj.\aQvfcngpu Pbqr: 17N02 (ABG QNATREBHF obql nern)\aPNQ Erfcbafr: Nycun\aUr vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).\aUr vf fgvyy ba gur sybbe/tebhaq.\aAb fcrpvny pbapreaf unir orra ercbegrq.\aZrqvpny Pbzcynvag: Snyyf\aPnyyre vf 2aq Cnegl\aPnfr Ragel: 25-lrne-byq, Znyr, Pbafpvbhf, Oernguvat.");
 
   }
@@ -1900,7 +1909,8 @@ choyvp pynff XFZpCurefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:GENVAVAT",
         "PNYY:GENVAVAT/QEVYY BE GRFG",
         "NQQE:115 J PBYR FG",
-        "PVGL:ZBHAQEVQTR");
+        "PVGL:ZBHAQEVQTR",
+        "HAVG:ZQSQ-FGNGVBA");
 
   }
 
