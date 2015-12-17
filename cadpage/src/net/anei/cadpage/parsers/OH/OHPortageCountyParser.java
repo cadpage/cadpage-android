@@ -11,7 +11,8 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class OHPortageCountyParser extends GroupBestParser {
   
   public OHPortageCountyParser() {
-    super(new OHPortageCountyAParser(), new OHPortageCountyBParser(), new OHPortageCountyCParser());
+    super(new OHPortageCountyAParser(), new OHPortageCountyBParser(), new OHPortageCountyCParser(),
+        new OHPortageCountyDParser());
   }
   
   static String fixMapAddress(String addr) {

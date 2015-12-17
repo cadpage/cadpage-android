@@ -19,6 +19,22 @@ choyvp pynff TrarenyCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg("GKYnCbegr", "PNQ:Hcqngr: ;2015507653;SJRZ;RZF PNYY;1600 JUVGNXRE QE;SJ;HQGF: GBARQ RZF  [11/21/15 20:21:00 XUREANAQRM] Rirag fcnjarq sebz ZVABE NPPVQRAG.  [11/21/2015 20:20:34 XUREANAQRM] rz 80696  [11/21/15 19:42:18 Havg:2374] oz 80693  [11/21/15 19:34:00 Havg:2374] HQGF: {2374} VA PHFGBQL  [11/21/15 19:26:22 GQBLYR] JUVGR PNQVYYNP VF VA GUR QEVIRJNL BS 709 CRAA QE  [11/21/15 19:04:27 XUREANAQRM] Purpxvat Craa Qe.  [11/21/15 18:59:07 GQBLYR] JVYY OR OL SHAXL ZBAXRL  [11/21/15 18:57:52 XUREANAQRM] JUVGR GBLBGN FRDHBVN  [11/21/15 18:56:50 XUREANAQRM] juvgr pnqvyynp urnqrq ao ba f sevraqfjbbq // yc fzs123  [11/21/15 18:55:31 XUREANAQRM] ;11/21/2015 20:20:34",
+           "PNYY:RZF PNYY",
+           "NQQE:1600 JUVGNXRE QE",
+           "HAVG:2374]",
+           "QNGR:11/21/15",
+           "GVZR:20:21:00",
+           "VASB:SJ HQGF: GBARQ RZF [ XUREANAQRM] Rirag fcnjarq sebz ZVABE NPPVQRAG. [ XUREANAQRM] rz 80696 [ HQGF: {2374} VA PHFGBQL [ GQBLYR] JUVGR PNQVYYNP VF VA GUR QEVIRJNL BS 709 CRAA QE [ XUREANAQRM] Purpxvat Craa Qe. [ GQBLYR] JVYY OR OL SHAXL ZBAXRL [ XUREANAQRM] JUVGR GBLBGN FRDHBVN [ XUREANAQRM] juvgr pnqvyynp urnqrq ao ba f sevraqfjbbq // yc fzs123 [ XUREANAQRM]");
+    
+    qbGrfg("XFWbuafbaPbhagl", "Nqq: 30750 J 143eq Fg           Ncg:            Ybp:                 Angher: ZRQVPNY                        Tevq: 266/1 Vapvqrag# 15-3190131 Pebff:TNEQARE EQ/JNIREYL EQ\e\a",
+        "NQQE:30750 J 143eq Fg",
+        "PNYY:ZRQVPNY",
+        "ZNC:266/1",
+        "VQ:15-3190131",
+        "K:TNEQARE EQ/JNIREYL EQ");
+    
     qbGrfg("INCvggflyinavnPbhagl", "ogi1==746ro8n138r==PNQ@cvggtbi.bet 533:PNQ:SVER NYNEZ;4009 CVGGJBBQ QE;QNA;2015047805;TBYS PYHO EQ;EBOREGFBA YA;[CEBDN] *** Pnyy Nobegrq *** 10.[1 bs 2]",
         "PNYY:SVER NYNEZ",
         "NQQE:4009 CVGGJBBQ QE",

@@ -1,4 +1,4 @@
-	*************************************************************************
+*************************************************************************
 * Sender number changed to 87844
 *************************************************************************
 
@@ -496,7 +496,7 @@ The only payment record I found with your email address was dated _______, which
 
 You may find it useful to log in to wallet.google.com or paypal.com.  From there you should be able to look up your Cadpage purchase and send us the date, time and transaction ID, and whether it was PayPal or Play Store.
 
-A Cadpage subscription is $10 for one year.  As you have likely experienced, Cadpage can be used well past the expiration date if you refrain from updates during your last month of the subscription.
+A Cadpage subscription is $10 for one year.  As you have likely experienced, Cadpage can be used well past the expiration date if you refrain from updates.
 
 Is it possible that you or your department have paid for an account with Active911 or another messaging service?  You will need to register your phone to enable Cadpage. Your department administrator should be able to tell you what service your department is using. Perhaps you have paid for Cadpage For IOS.  We are separate companies.
 
@@ -546,6 +546,7 @@ Thanks for your PayPal payment!
 
 You have been added to a paid subscriber list with a one-year Cadpage subscription.
 
+Please:
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
 Please let us know if you ever have any problems with Cadpage.
@@ -557,6 +558,7 @@ Jean ~ Cadpage Administrator
 
 Thanks for your PayPal payment! Your Cadpage subscription has been renewed for another year.
 
+Please:
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
 Please let us know if you ever have any problems with Cadpage.
@@ -568,11 +570,14 @@ Jean ~ Cadpage Administrator
 
 Thanks for your email.  You are now fully registered on our paid subscriber list for a one-year Cadpage subscription.  
 
+Please:
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
 You no longer need the authorization code I gave you previously.
 
-Thanks so much for your support, 
+Thanks so much for your support, and 
+Have a Safe and Joyous Holiday Season!
+
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -591,6 +596,25 @@ Please let us know if you ever have any difficulties or questions concerning Cad
 Thanks so much for your support,
 Jean ~ Cadpage Administrator
 
+*******************************************************************
+inquiry about department sponsorship
+
+I would be delighted to sign up your department with a Cadpage subscription. We offer a 30% discount to departments that sponsor their members. That would be $7 per person per year.
+
+Please note that our Cadpage app is exclusively for Android Users only. If anyone in your department is using an iPhone, we would need to discuss other options -- specifically, a messaging service like CodeMessaging.net or Active911.com.
+
+If you just have Android Users, I would need the following information to register your department sponsorship: the name of your department, a contact person, which could be you, and a list of your department members' names and phones numbers. It would be easiest if you would send the list in the following format:
+
+First Last (5551234567)
+Jean Goul (5551230987)
+
+For payment, I can email or mail you an invoice, with the mailing address for Cadpage. PayPal is another viable option for making a payment.
+
+Thanks so much for your interest!
+Have a Safe and Joyous Holiday Season!
+
+Jean ~ Cadpage Administrator
+
 ******************************************************************
 transfer to new phone
 
@@ -601,7 +625,7 @@ Your current Cadpage subscription will transfer easily to a new phone, as long a
 If those are true, then all you need to do after installing Cadpage on your new phone is this:
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
-If that fails, please email us again using the Cadpage app.  Go to Settings, Select Email the Developer, and include the configuration informaiton.
+If that fails, please email us again using the Cadpage app.  Go to Settings, Select Email the Developer, and include the configuration information.
 
 Please note, if you have changed your phone number, you will need to contact your Dispatch Center so your text messages can be sent to the correct number.
 
@@ -645,7 +669,9 @@ Please: Go to Cadpage settings and press Payment Status, then press "Recalculate
 
 Positive reviews from free Cadpage subscribers are much appreciated. There is an item toward the bottom of the Settings menu that gets you started on writing a Cadpage review.
 
-Take care,
+Take care, and 
+Have a Safe and Joyous Holiday Season!
+
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -658,7 +684,9 @@ Please: Go to Cadpage settings and press Payment Status, then press "Recalculate
 
 Positive reviews from free Cadpage subscribers are much appreciated. There is an item toward the bottom of the Settings menu that gets you started on writing a Cadpage review.
 
-Take care, 
+Take care, and
+Have a Safe and Joyous Holiday Season!
+
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -686,7 +714,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-MOLNZTFA or molnztfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+OWQYRLCA or owqyrlca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support, 
 Jean ~ Cadpage Administrator
@@ -730,7 +758,7 @@ I found your free Cadpage subscription of _________, which is effective at least
 Please be sure to install the newest version of Cadpage.  Then:
 Go into Cadpage settings, press Payment Status and then Recalculate Payment Status. 
 
-If that fails, please contact us again.
+If that fails, please contact us again using the Cadpage app.  Go to Settings, select Email the Developer and include the configuration information. 
 
 Take care,
 Jean ~ Cadpage Administrator
@@ -745,8 +773,8 @@ I found your free Cadpage subscription of ______.  However, your Cadpage User em
 
 Go into Cadpage settings, press Payment Status and then Recalculate Payment Status.
 
-If that fails, please contact us again. 
- 
+If that fails, please contact us again using the Cadpage app.  Go to Settings, select Email the Developer and include the configuration information. 
+
 Take care, 
 Jean ~ Cadpage Administrator
 
@@ -780,7 +808,7 @@ I found your Google Play Store payment record of ______.  However, your Cadpage 
 
 Go into Cadpage settings, press Payment Status and then Recalculate Payment Status. This reloads your payment status from the market which will usually fix things.
 
-If that fails, please contact us again. 
+If that fails, please contact us again using the Cadpage app.  Go to Settings, select Email the Developer and include the configuration information. 
 
 Thanks so much for your support,
 Jean ~ Cadpage Administrator
@@ -792,7 +820,7 @@ I found your Google Play Store payment record of _________, and have re-register
 Please be sure to install the newest version of Cadpage.  Then:
 Go into Cadpage settings, press Payment Status and then Recalculate Payment Status. This reloads your payment status from the market which will usually fix things.
 
-If that fails, please contact us again.
+If that fails, please contact us again using the Cadpage app.  Go to Settings, select Email the Developer and include the configuration information. 
 
 Thanks so much for your support,
 Jean ~ Cadpage Administrator
@@ -873,7 +901,9 @@ In the interest of helping communities, we offer a  number of approved ways to r
 
 4) There is an old unsupported version of Cadpage available on the Cadpage download page at http://www.cadpage.org/download-cadpage.  This version will not bug you about paying for it.
 
-Take care, 
+Take care, and 
+Have a Safe and Joyous Holiday Season!
+
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -903,9 +933,11 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-MWXONSBA or mwxonsba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+OWQYRLCA or owqyrlca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
-Thanks for your support,
+Thanks for your support, and 
+Have a Safe and Joyous Holiday Season!
+
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -1037,14 +1069,15 @@ This isn't one of the many text formats we are expecting for Suffolk County.  Ap
 ******************************************************************************
 Details on setting up a new location
 ******************************************************************************
+Cadpage works by processing the dispatch alerts your department arranges to have sent to your phone.  The problem is that there is no standard alert page format.  We have to write a separate alert message parser for each dispatch center.  And we can only do that if someone sends us some examples of what their alerts look like.
 
-To add a new location we need 5-10 sample text messages from your dispatch.  Please include what County/City/Company these pages are for so we can place it in the right grouping. Please try to include 1-2 calls with intersections so we can parse those correctly. Include any details you can regarding how the messages are formatted. If possible please include what email the messages come from.
+The first step is to make sure that you are already getting text alerts when your department is dispatched to a call.  If you are not getting these already, you need to talk to someone in your department about having them sent to your phone.
 
-We also need to know what agency is generating these messages and some idea of what other departments receive the same message formats.  If you can identify the CAD software that is sending your text pages that would help a lot.   
+We like to have at least 5 sample text messages before we try writing a new location parser, but can go with less if we have to.  We need to know what area they are for, possibly which dispatch center they come from.  And what email address/phone number is used to send them.
 
-All of this needs to be emailed to our main support address: support@cadpage.org.  If the messages are already in Cadpage call history, long press each call and select "Report Problem" to send them to us.  Otherwise, you can forward text messages to that address, or copy and paste them into a regular email or generate an email in Cadpage which will include the last text message.  Once we have this information we can add the location to the list.
+All of this needs to be emailed to our main support address: support@cadpage.org.  If the messages are already in Cadpage call history, long press each call and select "Report Problem" to send them to us.  Otherwise, you can forward text messages to that address, or copy and paste them into a regular email or generate an email in Cadpage which will include the last text message.  Once we have this information we can add the location to the list.  If you just forward text messages, please add a separate message telling us who you are and what sender address/phone number was used to send the alerts.
 
-In the meantime, try using the general location setting and set the From: filter to whoever appears in the From: field of your page text messages.  That will usually give you some degree of functionality while you are waiting for full location support. 
+In the meantime, try using the general location setting and set the From: filter to whoever appears in the From: field of your page text messages.  That will usually give you some degree of functionality while you are waiting for full location support.   And then you can use the long press > Report Problem method to send us new sample alerts.
 
 Good Luck and Thanks for your interest,
 Jean ~ Cadpage Administrator
@@ -3954,22 +3987,62 @@ them.  We do not have anything to do with that.
 Thanks for trying Cadpage,
 
 **************************************************************************
-* Old Cadpage users
+* Old Cadpage users - split messages
 **************************************************************************
 
-It has been a while since we last heard from you.  And it looks like your department switched to using Active911 some time back.  You may or may not be aware that Cadpage works quite well with the Active911 paging service.  You can use it instead of, or in addition to, the Active911 android app.  We have some features that the Active911 app still lacks, more flexible notification options for example.  But the main reason you would probably want to try it is because dispatch seems to be splitting long alerts up into multiple messages.  And Cadpage has logic to try and merge those back into a single alert.
+It has been a while since we last heard from you.  And it looks like your department switched to using Active911 some time back.  Please note that Cadpage works quite well with the Active911 paging service.  You can use it instead of, or in addition to, the Active911 android app.  We have some features that the Active911 app still lacks -- more flexible notification options, for example.  The main reason you would probably want to try it is because dispatch seems to be splitting long alerts up into multiple messages.  Cadpage has logic to try and merge those back into a single alert.
 
-If you are not currently using Cadpage and would like to try it.  You can install Cadpage from the Google play store.  Then open Cadpage settings and select
+If you are not currently using Cadpage and would like to try it.  You can install Cadpage from the Google Play Store.  Then open Cadpage settings and select
 Direct Paging Vendors > Active911 > Register
 You then have to enter the same Active911 device activation code that you used to register the Active911 app.
 
-Once you do this, Active911 alerts will be picked up by Cadpage and will not be sent to the Active911 app.  Though if you launch the Active911 app manually, it will query their servers and update the displayed call history after a few seconds.   The split message merge logic in Cadpage is activated automatically.
+Once you do this, Active911 alerts will be picked up by Cadpage and will not be sent to the Active911 app.  If you launch the Active911 app manually, it will query their servers and update the displayed call history after a few seconds.   The split message merge logic in Cadpage is activated automatically.
 
-if you have any questions, or if there is anything you would like to see added to the Cadpage feature set, by all means feel free to contact us.
+If you have any questions, or if there is anything you would like to see added to the Cadpage feature set, by all means feel free to contact us.
 
-Have a nice day,
+Have a great day,
 -Ken
 
+**************************************************************************
+* Old Cadpage users - better parser
+**************************************************************************
+Hi Folks,
+
+We have been reaching out to Cadpage users that we haven't heard from for a while, partly to see how Cadpage is working for you now. And if your department is one of many that have since switched to using Active911, we want to make sure everyone knows that Cadpage can be used with the Active911 service instead of, or in addition to the Android Active911 app. There is no additional charge for using Cadpage in this manner.
+
+We do have some features that the Active911 app still lacks -- more flexible notification options, for example. But the main reason you would probably want to try Cadpage is because we use a different set of message parsers. For most locations, this does not make a lot of difference. However, for <<<>>>, Cadpage parsers are probably going to be a bit more reliable.
+
+If you are not currently using Cadpage and would like to try it. You can install Cadpage from the Google Play Store. Then open Cadpage settings and select
+Direct Paging Vendors > Active911 > Register
+You then have to enter the same Active911 device activation code that you used to register the Active911 app.
+
+Once you do this, Active911 alerts will be picked up by Cadpage and will not be sent to the Active911 app. If you launch the Active911 app manually, it will query their servers and update the displayed call history after a few seconds.
+
+If you have any questions, or if there is anything you would like to see added to the Cadpage feature set, by all means feel free to contact us.
+
+Have a great day,
+-Ken
+**************************************************************************
+trouble paying through Google
+
+The Google Play Store app handles the Cadpage subscription purchases.
+It sounds like the Play Store app has a problem with your Google account.
+
+Open the main system settings and select Google Accounts.  You should
+have at least one account listed here and it should report that it was
+last synced within the last 24 hours.  If it reports synchronization
+problems, there is a good chance that the password for the account has
+been changed and no longer matches the one used by your phone.  In which
+case you need to fix things and confirm that synchronization is working
+properly.
+
+Next, open the Play Store app and open settings.  The account it is
+using should be displayed at the top of the settings sidebar.  If you
+have multiple accounts, there should be a dropbox that you can use to
+select the correct account.
+
+If none of this helps, contact us again and we will fill you in on some
+alternate payment methods.
 **************************************************************************
 
 Useful search expressions...

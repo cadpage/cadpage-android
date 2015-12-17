@@ -12,8 +12,8 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class DispatchA29Parser extends SmartAddressParser {
   
-  private static final Pattern MARKER = Pattern.compile("^DISPATCH:([A-Z]{2,4}:[A-Z\\d]+(?: FD| \\d)?) - (?:(\\d\\d?/\\d\\d?) (\\d\\d?:\\d\\d?) - )?");
-  private static final Pattern UNIT_INFO_PTN = Pattern.compile("[ /]+((?:\\b[A-Z\\d]+:[-A-Z\\d]+(?: FD|-\\d| \\d(?=,)|)\\b,?)++)[ /]*");
+  private static final Pattern MARKER = Pattern.compile("^DISPATCH:(\\S+?(?: FD)?) - (?:(\\d\\d?/\\d\\d?) (\\d\\d?:\\d\\d?) - )?");
+  private static final Pattern UNIT_INFO_PTN = Pattern.compile("[ /]+((?:\\b[A-Z\\d]+:[-_A-Z\\d]+(?: FD|-\\d| \\d(?=,)|)\\b,?)++)[ /]*");
   private static final Pattern HOUSE_NUMBER_PTN = Pattern.compile("(.*?)(?<!\\b(?:RT|US|HWY))[ /](\\d+) *([NSEW]|BLK|BLOCK|), +(.*)");
   private static final Pattern MULT_SLASH_PTN = Pattern.compile("//+");
   private static final Pattern DIR_OF_PTN = Pattern.compile("[/ ]+((?:N|S|E|W|NO|SO|EA|WE|NORTH|SOUTH|EAST|WEST) OF)[/ ]+");
@@ -29,7 +29,7 @@ public class DispatchA29Parser extends SmartAddressParser {
     
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
-    data.strUnit = match.group(1);
+    data.strUnit = match.group(1).trim();
     data.strDate = getOptGroup(match.group(2));
     data.strTime = getOptGroup(match.group(3));
     body = body.substring(match.end()).trim();
@@ -146,12 +146,4 @@ public class DispatchA29Parser extends SmartAddressParser {
     data.strPlace = field;
   }
   private static final Pattern CALLBK_PTN = Pattern.compile("\\bCALLBK=([-\\d]*)");
-  
-  @Override
-  public String adjustMapAddress(String addr) {
-    addr = EXWY_PTN.matcher(addr).replaceAll("").trim();
-    addr = DIR_OF_PTN.matcher(addr).replaceAll(" & ");
-    return addr;
-  }
-  private static final Pattern EXWY_PTN = Pattern.compile("\\bEXWY\\b");
 }

@@ -13,7 +13,7 @@ public class OKMuskogeeCountyParser extends SmartAddressParser {
     setFieldList("UNIT MAP ADDR APT CITY PLACE CALL ID DATE TIME INFO");
   }
   
-  private static Pattern MASTER = Pattern.compile("((?:[A-Z]\\d+ +)+(?:Alarm +)?)(?:Territory (\\d[A-Z]) +)?(.*)(\\d{4}-\\d{8})([^\n]+)?(?:\n *(.*))?", Pattern.DOTALL);
+  private static Pattern MASTER = Pattern.compile("(?:((?:[A-Z]\\d+ +)+(?:Alarm +)?)(?:Territory (\\d[A-Z]) +)?)?(.*)(\\d{4}-\\d{8})([^\n]+)?(?:\n *(.*))?", Pattern.DOTALL);
   private static Pattern DISCARD = Pattern.compile("  (?:Call Number \\d+ was created from Call Number \\d+\\(([^ ]+ \\d{1,2} \\d{4}) +(\\d{1,2}:\\d{1,2}[AP]M)\\)|Dispatch received by unit \\d+)");
   
   @Override
@@ -24,7 +24,7 @@ public class OKMuskogeeCountyParser extends SmartAddressParser {
     Matcher mat = MASTER.matcher(body);
     if (!mat.matches()) return false;
     
-    data.strUnit = mat.group(1).trim();
+    data.strUnit = getOptGroup(mat.group(1));
     data.strMap = getOptGroup(mat.group(2));
     
     // ADDR APT CITY CALL
@@ -51,6 +51,7 @@ public class OKMuskogeeCountyParser extends SmartAddressParser {
   }
 
   private static String[] CITY_LIST = new String[]{
+      "MUSKOGEE COUNTY",
       "MUSKOGEE",
       "BOYNTON",
       "BRAGGS",

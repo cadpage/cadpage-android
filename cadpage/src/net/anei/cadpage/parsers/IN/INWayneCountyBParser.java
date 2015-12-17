@@ -6,19 +6,17 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.HtmlParser;
+import net.anei.cadpage.parsers.HtmlDecoder;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 
 public class INWayneCountyBParser extends DispatchA3Parser {
   
-  private HtmlParser htmlParser;
+  private HtmlDecoder decoder = new HtmlDecoder("table|tr");
   
   public INWayneCountyBParser () {
     super("WAYNE COUNTY", "IN", 
-           "ID DATETIME CALL NAME_PHONE ADDR INFO UNIT");
-    htmlParser = new HtmlParser(LAYOUT);
-    htmlParser.translate(TRANSLATE);
+          "SKIP+? ID! Date/Time_Received:EMPTY! DATETIME! Complaint:EMPTY! CALL! Caller:EMPTY! NAME_PHONE! Address:EMPTY! ADDR! INFO<+");
   }
   
   @Override
@@ -26,19 +24,29 @@ public class INWayneCountyBParser extends DispatchA3Parser {
     return "911@wayneco.us";
   }
   
+  private enum InfoType { INFO, UNITS_ASSGN };
+  private InfoType infoType;
+  private int colNdx;
+  
   @Override
   protected boolean parseHtmlMsg(String subject, String body, Data data) {
     if (!subject.startsWith("911 Dispatch: ")) return false;
-    if (!htmlParser.getHtmlCleaner (body)) return false;
-    return parseFields(htmlParser.getValueArray(), data);
+    String[] flds = decoder.parseHtml(body);
+    if (flds == null) return false;
+    
+    infoType = InfoType.INFO;
+    colNdx = -1;
+    return parseFields(flds, data);
   }
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("Call Number (\\d{2}-\\d{8}) .*", true);
     if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("NAME_PHONE")) return new MyNamePhoneField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
@@ -111,16 +119,60 @@ public class INWayneCountyBParser extends DispatchA3Parser {
       return super.getFieldNames() + " CITY";
     }
   }
-     
-  private static final String[] LAYOUT = {
-    "ID(element=a; offset=0; required)",
-    "DATETIME(xpath=///*[normalize-space(.)=\"Date/Time Received:\"]/following-sibling::td[1]/; xJava)",
-    "COMPLAINT(xpath=///*[normalize-space(.)=\"Complaint:\"]/following-sibling::td[1]/; xJava)",
-    "CALLER(xpath=///*[normalize-space(.)=\"Caller:\"]/following-sibling::td[1]/; xJava)",
-    "ADDRESS(xpath=///*[normalize-space(.)=\"Address:\"]/following-sibling::td[1]/; xJava)",
-    "NOTES(xpath=///*[normalize-space(.)=\"Units Assigned\"]/preceding-sibling::p/; separator=/ /; xJava)",
-    "UNITS(xpath=///*[normalize-space(.)=\"Units Assigned\"]/following-sibling::table/tbody/tr/td[1]/; xJava)"
-  };
+
+  private static final Pattern INFO_DATE_TIME_PTN = Pattern.compile("\\d\\d/\\d\\d/\\d{4} +\\d\\d:\\d\\d:\\d\\d");
+  private class MyInfoField extends BaseInfoField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      // Special Html tag processing
+      if (field.startsWith("<|") && field.endsWith("|>")) {
+        if (field.equals("<|/table|>")) {
+          infoType = InfoType.INFO;
+          colNdx = -1;
+        }
+        else if (field.equals("<|tr|>")) {
+          colNdx = 0;;
+        }
+        return;
+      }
+      
+      if (colNdx >= 0) colNdx++;
+      
+      if (field.equals("Units Assigned")) {
+        infoType = InfoType.UNITS_ASSGN;
+        colNdx = -1;
+        return;
+      }
+      
+      if (field.equals("Case Number:") || field.equals("Complaint Changes") ||
+          field.equals("No Units Assigned")) {
+        infoType = null;
+        return;
+      }
+      
+      if (infoType == null) return;
+      switch (infoType) {
+      
+      case INFO:
+        super.parse(field, data);
+        return;
+      
+      case UNITS_ASSGN:
+        if (colNdx == 1 && !field.equals("Unit")) {
+          if (!INFO_DATE_TIME_PTN.matcher(field).matches()) {
+            data.strUnit = append(data.strUnit, " ", field);
+          }
+        }
+        return;
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " UNIT";
+    }
+  }
   
   private static final Set<String> CITIES = new HashSet<String>(Arrays.asList(new String[]{
       
@@ -173,8 +225,4 @@ public class INWayneCountyBParser extends DispatchA3Parser {
     "WAYNE",
     "WEBSTER",
   }));
-  
-  private static final String[] TRANSLATE = {
-    "&amp;", "&"
-  };
 }

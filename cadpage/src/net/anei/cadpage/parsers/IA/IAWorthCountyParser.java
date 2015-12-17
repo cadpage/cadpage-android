@@ -1,12 +1,13 @@
 package net.anei.cadpage.parsers.IA;
 
-import net.anei.cadpage.parsers.dispatch.DispatchA28Parser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA47Parser;
 
 
-public class IAWorthCountyParser extends DispatchA28Parser {
+public class IAWorthCountyParser extends DispatchA47Parser {
   
   public IAWorthCountyParser() {
-    super(CITY_LIST, "WORTH COUNTY", "IA");
+    super("Dispatch info", CITY_LIST, "WORTH COUNTY", "IA");
   }
   
   @Override

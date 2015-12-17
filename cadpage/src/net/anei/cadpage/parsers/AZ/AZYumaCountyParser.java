@@ -17,8 +17,8 @@ public class AZYumaCountyParser extends MsgParser {
     return "yumacomm@rmetro.com";
   }
   
-  private static final Pattern MASTER1 = Pattern.compile("(CH *\\d+) ([A-Z]+)\\b *(?:ASSIGN:|ASSIGN - |ASSIGN FOR |\\. ) *(?:([A-Z0-9,. ]+?)(?: AREA OF | - ))?(.*?) (?:[-/]|FOR (?:A )?(?:REPORT OF )?|REP AS )(.*)", Pattern.CASE_INSENSITIVE);
-  private static final Pattern MASTER3 = Pattern.compile("(CH *\\d+) ([A-Z]+) (.*?) FOR (.*?),? REPORTED AS (.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern MASTER1 = Pattern.compile("(?:(CH *\\d+) )?([ A-Z0-9]+?)\\b *(?:ASSIGN:|ASSIGN - |ASSIGN FOR |\\. ) *(?:([A-Z0-9,. ]+?)(?: AREA OF | [-/] ))?(.*?) (?:[-/]|FOR (?:A )?(?:REPORT OF )?|REP AS )(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern MASTER3 = Pattern.compile("(CH *\\d+) (COMM ASSIG|[A-Z]+?) (.*?) FOR (.*?),? REPORTED AS (.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern UNIT_PTN = Pattern.compile("(?!US|RT|ST|AZ)([A-Z]+ *\\d+)[., ]+", Pattern.CASE_INSENSITIVE);
   private static final Pattern UNIT_SPACE_PTN = Pattern.compile("([A-Z]+) +(\\d+)");
   private static final Pattern UNIT_COMMA_SPACE_PTN = Pattern.compile("[, .]+", Pattern.CASE_INSENSITIVE);
@@ -32,7 +32,7 @@ public class AZYumaCountyParser extends MsgParser {
     Matcher match = MASTER1.matcher(body);
     if (match.matches()) {
       setFieldList("CH CALL UNIT ADDR APT PLACE");
-      data.strChannel = match.group(1).toUpperCase().replace(" ", "");
+      data.strChannel = getOptGroup(match.group(1)).toUpperCase().replace(" ", "");
       data.strCall = match.group(2).toUpperCase();
       String unit = match.group(3);
       String addr = match.group(4);
@@ -123,5 +123,18 @@ public class AZYumaCountyParser extends MsgParser {
     }
     
     parseAddress(field, data);
+  }
+
+  @Override
+  public String adjustMapAddress(String sAddress, boolean cross) {
+    sAddress = stripFieldStart(sAddress, "AREA OF ");
+    return super.adjustMapAddress(sAddress, cross);
+  }
+
+  private static final Pattern COUNTY_RD_PTN = Pattern.compile("\\bCOUNTY ROAD (\\d+)", Pattern.CASE_INSENSITIVE);
+  @Override
+  public String postAdjustMapAddress(String sAddress) {
+    sAddress = COUNTY_RD_PTN.matcher(sAddress).replaceAll("COUNTY $1 ST");
+    return super.postAdjustMapAddress(sAddress);
   }
 }

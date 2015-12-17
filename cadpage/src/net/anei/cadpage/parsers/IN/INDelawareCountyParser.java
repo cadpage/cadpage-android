@@ -14,7 +14,7 @@ public class INDelawareCountyParser extends DispatchA9Parser {
   
   @Override
   public String getFilter() {
-    return "admin@co.delaware.in.us";
+    return "admin@co.delaware.in.us,@edispatches.com";
   }
   
 }

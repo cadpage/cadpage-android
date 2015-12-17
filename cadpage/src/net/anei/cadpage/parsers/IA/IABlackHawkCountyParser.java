@@ -19,7 +19,7 @@ public class IABlackHawkCountyParser extends DispatchA47Parser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (subject.equals("Dispatch")) data.strSource =  subject;
+    if (!subject.equals("Dispatch")) data.strSource =  subject;
     if (!super.parseMsg(subject, body, data)) return false;
     if (data.strCity.equals("RAYMO")) data.strCity = "RAYMOND";
     else if (data.strCity.equals("COUNTY")) data.strCity = "";

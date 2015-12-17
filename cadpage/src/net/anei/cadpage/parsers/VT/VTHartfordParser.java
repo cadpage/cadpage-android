@@ -26,6 +26,11 @@ public class VTHartfordParser extends DispatchA19Parser {
   public String getProgram() {
     return super.getProgram().replace("CITY",  "CITY ST");
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
 
   private static final Set<String> NH_CITIES = new HashSet<String>(Arrays.asList(new String[]{
       "CLAREMONT"

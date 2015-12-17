@@ -173,14 +173,14 @@ choyvp pynff BUJneeraPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "76-lrne-byq srznyr uvfgbel bs purfg cnva, nynez npgvingvba.",
 
         "PNYY:purfg cnva nynez npgvingvba",
-        "NQQE:5207 Nevry Pbheg",
+        "NQQE:5207 Nevry Pbheg", //qbrf abg znc
         "HAVG:Zrqvp 22",
         "VASB:76-lrne-byq srznyr uvfgbel bs purfg cnva, nynez npgvingvba.");
 
     qbGrfg("G7",
         "Pnyy: penfu jvgu vawhevrf\aYbpngvba: Znfba Zbagtbzrel Ebnq/Jrfgrea Ebj\a\aGjb pne pbyyvfvba jvgu frirer urnq vawhevrf",
         "PNYY:penfu jvgu vawhevrf",
-        "NQQE:Znfba Zbagtbzrel Ebnq & Jrfgrea Ebj",
+        "NQQE:Znfba Zbagtbzrel Ebnq & Jrfgrea Ebj", //qbrf abg znc
         "VASB:Gjb pne pbyyvfvba jvgu frirer urnq vawhevrf");
 
     qbGrfg("G8",

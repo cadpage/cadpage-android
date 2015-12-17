@@ -15,7 +15,7 @@ public class DispatchBParser extends FieldProgramParser {
   private static final String[] FIXED_KEYWORDS = new String[]{"Map", "Grids", "Cad"};
   private static final String[] KEYWORDS = 
     new String[]{"Loc", "Return Phone", "BOX", "Map", "Grids", "Cad"};
-  private static final Pattern REPORT_PTN = Pattern.compile("(?:EVENT: *([^ ]*?) LOC:(.*?) Cad: ([-0-9]+) |)([A-Z0-9]+ >?\\d\\d:\\d\\d(?::\\d\\d)? .*)");
+  private static final Pattern REPORT_PTN = Pattern.compile("(?:EVENT: *(\\S*?) +LOC:(.*?) Cad: +([-0-9]+) |\\(?(\\S+?)\\)? *= *)([A-Z0-9]+ +>?\\d\\d:\\d\\d(?::\\d\\d)? .*)");
   private static final Pattern REPORT_DELIM_PTN = Pattern.compile("(?<=\\b\\d\\d:\\d\\d) +(?:Case: \\d+ Disp: *)?");
   private static final Pattern PHONE_PTN = Pattern.compile("(?: +(?:VERIZON|AT ?& ?T MOBILITY))? +(\\d{10}|\\d{7}|\\d{3} \\d{7}|\\d{3}-\\d{4})$");
   private static final Pattern RETURN_PHONE_PTN = Pattern.compile("([-0-9]+) *");
@@ -78,13 +78,17 @@ public class DispatchBParser extends FieldProgramParser {
     setFieldList("CODE CALL ADDR APT X PLACE CITY NAME PHONE BOX MAP ID");
 
     Matcher match = REPORT_PTN.matcher(body);
-    if (match.find()) {
+    if (match.matches()) {
       setFieldList("CODE ADDR APT ID INFO");
       data.msgType = MsgType.RUN_REPORT;
-      data.strCode = getOptGroup(match.group(1));
-      parseAddress(getOptGroup(match.group(2)), data);
-      data.strCallId =  getOptGroup(match.group(3));
-      data.strSupp = REPORT_DELIM_PTN.matcher(match.group(4).trim()).replaceAll("\n");
+      data.strCode = match.group(1);
+      if (data.strCode != null) {
+        parseAddress(match.group(2).trim(), data);
+        data.strCallId =  match.group(3);
+      } else {
+        data.strCode = match.group(4);
+      }
+      data.strSupp = REPORT_DELIM_PTN.matcher(match.group(5).trim()).replaceAll("\n");
       return true;
     }
     
@@ -835,6 +839,7 @@ public class DispatchBParser extends FieldProgramParser {
         "MVA - WITH INJURIES",
         "MVA-ALS PRI1",
         "MVA-TRAPPED MULTI PT/ADD RESPO",
+        "MVC NO INJURIES REPORTED",
         "MVC UNKNOWN INJURIES",
         "NATURAL OR LP GAS LEAK",
         "NATURAL GAS ODOR/LEAK",

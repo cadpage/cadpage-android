@@ -243,7 +243,11 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
                 public void onClick(DialogInterface dialog, int which) {
                   Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + pkgName2));
                   intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                  SmsPopupConfigActivity.this.startActivity(intent);
+                  try {
+                    SmsPopupConfigActivity.this.startActivity(intent);
+                  } catch (ActivityNotFoundException ex) {
+                    Log.e(ex);
+                  }
                 }
               })
               .setNegativeButton(R.string.donate_btn_no, null)

@@ -30,7 +30,7 @@ public class DispatchA19Parser extends FieldProgramParser {
   
   public DispatchA19Parser(String defCity, String defState) {
     super(defCity, defState,
-           "INCIDENT:ID? LONG_TERM_CAD:ID? ACTIVE_CALL:ID? PRIORITY:PRI? REPORTED:TIMEDATE? Nature:CALL! Type:SKIP! Address:ADDR! Zone:MAP! City:CITY! SearchAddresss:SKIP? LAT-LON:GPS? Responding_Units:UNIT! Directions:INFO! INFO+ Cross_Streets:X? X+ XY_Coordinates:XYPOS? Comments:INFO? INFO+ Contact:NAME Phone:PHONE");
+           "INCIDENT:ID? LONG_TERM_CAD:ID? ACTIVE_CALL:ID? PRIORITY:PRI? REPORTED:TIMEDATE? Nature:CALL! Type:SKIP! Address:ADDR! Zone:MAP! City:CITY! SearchAddresss:SKIP? LAT-LON:GPS? Responding_Units:UNIT! Directions:INFO! INFO+ Cross_Streets:X? X+ ( XY_Coordinates:XYPOS | XCoords:XY_COORD ) Comments:INFO? INFO+ Contact:NAME Phone:PHONE");
 
   }
   
@@ -63,16 +63,17 @@ public class DispatchA19Parser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("XYPOS")) return new MyXYPosField();
-    if (name.equals("PHONE")) return new MyPhoneField();
+    if (name.equals("ADDR")) return new BaseAddressField();
+    if (name.equals("INFO")) return new BaseInfoField();
+    if (name.equals("X")) return new BaseCrossField();
+    if (name.equals("XYPOS")) return new BaseXYPosField();
+    if (name.equals("XY_COORD")) return new BaseXYCoordField();
+    if (name.equals("PHONE")) return new BasePhoneField();
     return super.getField(name);
   }
   
   private static final Pattern ADDR_APT_PTN = Pattern.compile("(?:APT|RM|SUITE) *(.*)|\\d+[A-Z]?", Pattern.CASE_INSENSITIVE);
-  private class MyAddressField extends AddressField {
+  private class BaseAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       String apt = null;
@@ -128,7 +129,7 @@ public class DispatchA19Parser extends FieldProgramParser {
   private static final Pattern DATE_TIME_OPER_PTN = Pattern.compile("(\\d\\d:\\d\\d:\\d\\d) (\\d\\d/\\d\\d/\\d{4}) - .*");
   private static final Pattern PHONE_GPS_PTN = Pattern.compile("CALLBACK=([-()\\d]+) LAT=([-+]\\d+\\.\\d+) LON=([-+]\\d+\\.\\d+) UNC=\\d+");
   private static final Pattern INFO_JUNK_PTN = Pattern.compile("ProQA Fire.*");
-  private class MyInfoField extends InfoField {
+  private class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = DATE_TIME_OPER_PTN.matcher(field);
@@ -156,7 +157,7 @@ public class DispatchA19Parser extends FieldProgramParser {
     }
   }
   
-  private class MyCrossField extends CrossField {
+  private class BaseCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
       int pt = field.indexOf(":");
@@ -173,7 +174,7 @@ public class DispatchA19Parser extends FieldProgramParser {
   
   // Internal spillman X-Y Coordinates
   private static final Pattern XYPOS_PTN = Pattern.compile("xpos: *([-+]?\\d+) +ypos: *([-+]?\\d+)");
-  private class MyXYPosField extends GPSField {
+  private class BaseXYPosField extends GPSField {
     @Override
     public void parse(String field, Data data) {
       if (!refLatLong) return;
@@ -186,9 +187,35 @@ public class DispatchA19Parser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern XYCOORD_PTN = Pattern.compile("([-+]?\\d{7,}|) +YCoords: *([-+]?\\d{7,}|)");
+  private class BaseXYCoordField extends GPSField {
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strGPSLoc.length() > 0) return;
+      Matcher match = XYCOORD_PTN.matcher(field);
+      if (!match.matches()) abort();
+      String lat = match.group(2);
+      String lon = match.group(1);
+      if (lat.length() == 0 || lon.length() == 0) return;
+      setGPSLoc(normalize(lat) + ',' + normalize(lon), data);
+    }
+    
+    private String normalize(String field) {
+      int pt = 0;
+      char chr = field.charAt(pt);
+      if (chr == '+' || chr == '-') {
+        pt++;
+        chr = field.charAt(pt);
+      }
+      if (chr == '0' || chr == '1') pt++;
+      pt += 2;
+      return field.substring(0,pt) + '.' + field.substring(pt);
+    }
+  }
+  
   // phone field has to contain a digit
   private static final Pattern LEGIT_PHONE_PTN = Pattern.compile(".*\\d.*");
-  private class MyPhoneField extends PhoneField {
+  private class BasePhoneField extends PhoneField {
     @Override
     public void parse(String field, Data data) {
       if (!LEGIT_PHONE_PTN.matcher(field).matches()) return;

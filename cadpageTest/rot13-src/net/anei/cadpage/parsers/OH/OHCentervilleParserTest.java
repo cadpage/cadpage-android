@@ -362,7 +362,7 @@ choyvp pynff BUPragreivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4379 ULQENHYVP EQ",
         "PVGL:JRFG PNEEBYYGBA",
         "FG:BU",
-        "K:/ OHEAF NIR",
+        "K:OHEAF NIR",
         "HAVG:ONG 56 RAT 56 ZRQ 56 J03");
 
     qbGrfg("G15",
@@ -397,7 +397,7 @@ choyvp pynff BUPragreivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:614 XVATF PEBFF PG",
         "PVGL:JRFG PNEEBYYGBA",
         "FG:BU",
-        "K:/ XVAT EVPUNEQ CXJL",
+        "K:XVAT EVPUNEQ CXJL",
         "HAVG:ONG 56 RAT 56 ZRQ 57 J19");
 
     qbGrfg("G17",
@@ -415,7 +415,7 @@ choyvp pynff BUPragreivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:1739 EHAAVAT OEBBX GEY",
         "PVGL:JRFG PNEEBYYGBA",
         "FG:BU",
-        "K:/ PUREBXRR QE",
+        "K:PUREBXRR QE",
         "HAVG:ZRQ 57");
 
     qbGrfg("G18",
@@ -449,7 +449,7 @@ choyvp pynff BUPragreivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:943 TNJNVA PVE",
         "PVGL:JRFG PNEEBYYGBA",
         "FG:BU",
-        "K:/ GEVFGNA PG",
+        "K:GEVFGNA PG",
         "HAVG:ZRQ 57 J13 J14");
 
     qbGrfg("G20",
@@ -1059,7 +1059,7 @@ choyvp pynff BUPragreivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:707 TERRA SRNGURE PG",
         "PVGL:JRFG PNEEBYYGBA",
         "FG:BU",
-        "K:/ ZVAFGERY QE",
+        "K:ZVAFGERY QE",
         "HAVG:ONG 56 RAT 57 ZRQ 56 J10");
 
     qbGrfg("G54",
@@ -1076,7 +1076,7 @@ choyvp pynff BUPragreivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1104 URVAPXR EQ",
         "PVGL:JRFG PNEEBYYGBA",
         "FG:BU",
-        "K:/ NCCYRUVYY QE",
+        "K:NCCYRUVYY QE",
         "HAVG:ONG 56 RAT 57");
 
     qbGrfg("G55",
@@ -1129,7 +1129,7 @@ choyvp pynff BUPragreivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4379 ULQENHYVP EQ",
         "PVGL:JRFG PNEEBYYGBA",
         "FG:BU",
-        "K:/ OHEAF NIR",
+        "K:OHEAF NIR",
         "HAVG:ONG 56 RAT 57 ZRQ 56");
 
     qbGrfg("G58",

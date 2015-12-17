@@ -38,6 +38,15 @@ public class INStarkeCountyParser extends DispatchA29Parser {
     return super.parseMsg(body, data);
   }
   
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = EXWY_PTN.matcher(addr).replaceAll("").trim();
+    addr = DIR_OF_PTN.matcher(addr).replaceAll(" & ");
+    return addr;
+  }
+  private static final Pattern EXWY_PTN = Pattern.compile("\\bEXWY\\b");
+  private static final Pattern DIR_OF_PTN = Pattern.compile("[/ ]+((?:N|S|E|W|NO|SO|EA|WE|NORTH|SOUTH|EAST|WEST) OF)[/ ]+");
+
   private static final CodeSet CALL_LIST = new CodeSet(
       "8017 CO2 DETECTOR ALARM",
       "8030 FOLLOW-UP INVESTIGATION",

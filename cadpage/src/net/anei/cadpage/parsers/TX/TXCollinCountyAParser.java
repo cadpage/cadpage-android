@@ -35,7 +35,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "ccsodispatch@co.collin.tx.us,DispatchSMS@coppelltx.gov,ics.gateway@wylietexas.gov,wyliefiredispatch@gmail.com,CADPaging-NOREPLY@flower-mound.com,prosperdispatch@gmail.com";
+    return "ccsodispatch@co.collin.tx.us,DispatchSMS@coppelltx.gov,ics.gateway@wylietexas.gov,wyliefiredispatch@gmail.com,CADPaging-NOREPLY@flower-mound.com,prosperdispatch@gmail.com,@outlook.com";
   }
   
   @Override

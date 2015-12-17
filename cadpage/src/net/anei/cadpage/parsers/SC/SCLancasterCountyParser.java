@@ -1,23 +1,12 @@
 package net.anei.cadpage.parsers.SC;
 
-import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchA57Parser;
+import net.anei.cadpage.parsers.GroupBestParser;
 
 
-public class SCLancasterCountyParser extends DispatchA57Parser {
+public class SCLancasterCountyParser extends GroupBestParser {
   
   public SCLancasterCountyParser() {
-    super("LANCASTER COUNTY", "SC");
+    super(new SCLancasterCountyAParser(), new SCLancasterCountyBParser(),
+          new SCLancasterCountyCParser());
   }
-  
-  @Override
-  public String getFilter() {
-    return "dispatch@lanc911.com";
-  }
-  
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Incident Notification")) return false;
-    return super.parseMsg(body, data);
-  };
 }

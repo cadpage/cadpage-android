@@ -1,19 +1,14 @@
 package net.anei.cadpage.parsers.OH;
 
-import net.anei.cadpage.parsers.dispatch.DispatchCiscoParser;
+import net.anei.cadpage.parsers.GroupBestParser;
 
-/**
+/*
  * Allen County, OH
  */
-public class OHAllenCountyParser extends DispatchCiscoParser {
 
+public class OHAllenCountyParser extends GroupBestParser {
+  
   public OHAllenCountyParser() {
-    super("ALLEN COUNTY", "OH");
-  }
-
-  @Override
-  public String getFilter() {
-    return "interface@acso-oh.us";
+    super(new OHAllenCountyAParser(), new OHAllenCountyBParser());
   }
 }
-  

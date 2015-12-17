@@ -55,7 +55,20 @@ Fraqre: pnyyvq@ungmnynu.bet
 
 Pbagnpg: ftna911@tznvy.pbz
 Fraqre: pnyyvq@ungmnynu.bet
+Fraqre: 6466933772
 R Ubhfgba Fg - Org Nirahr Q & Nirahr Q - Pnyy VQ: 510-111-841
+570Un Tenaq Fg -- Orgjrra Znqvfba Fg & Znqvfba Fg - Ncg: 1001 - Pnyy VQ: 511-111-100
+
+Pbagnpg: Wbfuhn Znex <fwznex24@tznvy.pbz
+Fraqre: 16466933772
+42 Hkoevqtr Fg -- Orgjrra Svryqf Nir & Sberfg Uvyy Eq - Pnyy VQ: 511-053-030
+Sberfg Uvyy Eq -- Orgjrra Wnfcre Fg & Wnfcre Fg - Pnyy VQ: 511-071-540
+57 Qnygba Nir -- Orgjrra Zbeyrl Nir & Ovfubc Fg (Cig) - Pnyy VQ: 511-091-610
+
+Pbagnpg: lnxbi zbefry <lzbefry@tznvy.pbz>
+Fraqre: 6466933772
+6363 Nir H -- Orgjrra R 63Eq Fg & R 64Gu Fg - Npprff: FVQR RAGENAPR - Pnyy VQ: 512-072-101
+2055 R 68Gu Fg -- Orgjrra Irgrenaf Nir / Nirahr G & Nirahr H (Cig) - Pnyy VQ: 512-100-911
 
 */
 
@@ -273,6 +286,55 @@ choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:R Ubhfgba Fg & Nirahr Q",
         "K:Nirahr Q & Nirahr Q",
         "VQ:510-111-841");
+
+    qbGrfg("G2",
+        "570U Tenaq Fg -- Orgjrra Znqvfba Fg & Znqvfba Fg - Ncg: 1001 - Pnyy VQ: 511-111-100",
+        "NQQE:570U Tenaq Fg",
+        "NCG:1001",
+        "K:Znqvfba Fg & Znqvfba Fg",
+        "VQ:511-111-100");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbfuhnZnex() {
+
+    qbGrfg("G1",
+        "42 Hkoevqtr Fg -- Orgjrra Svryqf Nir & Sberfg Uvyy Eq - Pnyy VQ: 511-053-030",
+        "NQQE:42 Hkoevqtr Fg",
+        "K:Svryqf Nir & Sberfg Uvyy Eq",
+        "VQ:511-053-030");
+
+    qbGrfg("G2",
+        "Sberfg Uvyy Eq -- Orgjrra Wnfcre Fg & Wnfcre Fg - Pnyy VQ: 511-071-540",
+        "NQQE:Sberfg Uvyy Eq",
+        "ZNQQE:Sberfg Uvyy Eq & Wnfcre Fg",
+        "K:Wnfcre Fg & Wnfcre Fg",
+        "VQ:511-071-540");
+
+    qbGrfg("G3",
+        "57 Qnygba Nir -- Orgjrra Zbeyrl Nir & Ovfubc Fg (Cig) - Pnyy VQ: 511-091-610",
+        "NQQE:57 Qnygba Nir",
+        "K:Zbeyrl Nir & Ovfubc Fg (Cig)",
+        "VQ:511-091-610");
+  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgLnxbiZbefry() {
+
+    qbGrfg("G1",
+        "6363 Nir H -- Orgjrra R 63Eq Fg & R 64Gu Fg - Npprff: FVQR RAGENAPR - Pnyy VQ: 512-072-101",
+        "NQQE:6363 Nir H",
+        "K:R 63Eq Fg & R 64Gu Fg",
+        "CYNPR:Npprff: FVQR RAGENAPR",
+        "VQ:512-072-101");
+
+    qbGrfg("G2",
+        "2055 R 68Gu Fg -- Orgjrra Irgrenaf Nir / Nirahr G & Nirahr H (Cig) - Pnyy VQ: 512-100-911",
+        "NQQE:2055 R 68Gu Fg",
+        "K:Irgrenaf Nir / Nirahr G & Nirahr H (Cig)",
+        "VQ:512-100-911");
 
   }
   

@@ -1,17 +1,11 @@
 package net.anei.cadpage.parsers.SC;
 
-import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
+import net.anei.cadpage.parsers.GroupBestParser;
 
 
-public class SCSumterCountyParser extends DispatchA3Parser {
- 
-  public SCSumterCountyParser() {
-    super(0, "SUMTER COUNTY", "SC");
-  }
+public class SCSumterCountyParser extends GroupBestParser {
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{3,}", true);
-    return super.getField(name);
+  public SCSumterCountyParser() {
+    super(new SCSumterCountyAParser(), new SCSumterCountyBParser());
   }
 }

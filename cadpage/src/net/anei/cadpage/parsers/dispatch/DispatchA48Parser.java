@@ -184,7 +184,7 @@ public class DispatchA48Parser extends FieldProgramParser {
       body = "As of 99/99/99 99:" + body; 
     }
     
-    if (!subject.startsWith("As of")) data.strSource = subject;
+    if (!subject.startsWith("As of") && !subject.equals("ALERT MESSAGE")) data.strSource = subject;
     
     // Check for the new newline delimited format
     crossSet = new HashSet<String>();

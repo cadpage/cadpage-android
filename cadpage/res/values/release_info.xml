@@ -1,77 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11092015</string>
-  <string name="release_version">v1.8.74</string>
+  <string name="release_date">12162015</string>
+  <string name="release_version">v1.8.84</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-v1.8.74\n
+v1.8.84\n
 New Locations:\n
-Pulaski County, IN\n
-Columbia, IL\n
-Pendleton County, KY (alt)\n
-Renville County, MN\n
-Harrison County, MO\n
-Nassau County, NY (alt)\n
-Muskogee County, OK\n
-Texas City, TX\n
-Windham County, VT\n
+Montezuma County, CO\n
+Vermillion County, IN\n
+Andrew County, MO\n
+Dona Ana County, NM (alt)\n
+Fond Du Lac County, WI\n
 \n
 Location Fixes:\n
-Yuma County, AZ\n
-Gloucester County, NJ\n
-New York City, NY\n
-Ashtabula County, OH\n
-Caroline County, VA\n
-Snohomish Counth, WA\n
+Garfield County, CO\n
+Charlotte County, FL\n
+Hardin County, KY\n
+Charles County, MO\n
+Pulaski County, MO\n
+Clarion County, PA\n
+Georgetown County, SC\n
 \n
-v1.8.73\n
+v1.8.83\n
 Location Fixes:\n
+Cleburne County, AL\n
+St Joseph County, IN\n
+Calhoun County, MI\n
+Oakland County, MI\n
+Caswell County, NC\n
+Franklin County, NC\n
+Clermont County, OH\n
+Greene County, PA\n
+Lawrence County, PA\n
+Lancaster County, SC\n
+El Campo, TX\n
+Kendall County, TX\n
+\n
+v1.8.82\n
+New Locations:\n
+Larimer County, CO (alt)\n
+Marion County, FL\n
+\n
+Location Fixes:\n
+Sonoma County, CA\n
+Garrett County, MD\n
+Suffolk County, NY\n
+\n
+v1.8.81\n
+Location Fixes:\n
+Jefferson County, AL\n
 Yuma County, AZ\n
-Groton, CT\n
-Houson County, GA\n
-Warren County, NJ\n
-Jefferson County, NY\n
-Wayne County, NY\n
+Sonoma County, CA\n
+Terrebonne Parish, LA\n
+West Baton Rouge Parish, LA\n
+Cheboygan County, MI\n
+Clark County, NV\n
+Madison County, NY\n
+Oneida County, NY\n
+Suffolk County, NY\n
+Wayne County, NC\n
+Licking County, OH\n
 Erie County, PA\n
-Juniata County, PA\n
-Snohomish County, WA\n
+Cherokee County, SC\n
+Southampton County, VA\n
+Staunton, VA\n
 \n
-v1.8.72\n
+v1.8.80\n
 New Locations:\n
-Suisun City, CA (alt)\n
-Montgomery County, OH (alt)\n
-Snohomish County, WA (alt)\n
+Yavapai County, AZ (alt)\n
+Appanoose County, IA\n
+Cass County, MI\n
+Cass County, MN\n
+Brown County, MN\n
+Kandiyohi County, MN\n
+Allen County, OH (alt)\n
+Portage County, OH (alt)\n
+Warren County, OH (alt)\n
+Bethlehem, PA\n
+Sumter County, SC (alt)\n
+Addison County, VT\n
+Lamoille County, VT\n
+Staunton, VA\n
+Suffolk, VA\n
+Wood County, WV\n
+Sublette County, WY\n
 \n
 Location Fixes:\n
-Yuma County, AZ\n
-Benton County, OH\n
-Clallam County, WA\n
-New South Wales, AU\n
-\n
-v1.8.71\n
-Location Fixes:\n
-Yuma County, AZ\n
-WIndham County, CT\n
-Christian County, IL\n
-Henry County, IN\n
-White County, GA\n
-Powell County, KY\n
-Tangipahoa Parish, LA\n
-Audrain County, MO\n
-Chowan County, NC\n
-Havelock, NC\n
-Pasquotank County, NC\n
-New York City,  NY\n
-Mercer County, OH\n
-Lebanon County, PA\n
-Chittenden County, VT\n
-Mineral County, WV\n
-\n
-v1.8.70
-Location Fixes:\n
-Bradley County, TN\n
-Collins County, TX
+Hot Spring County, AR\n
+New Castle County, DE\n
+Burlington County, NJ\n
+Gloucester County, NJ\n
+Rowan County, NC\n
+Shelby County, IN\n
+Sedgewick County, KS\n
+Clark County, NV\n
+Adams County, OH\n
+Adams County, PA\n
+Monroeville, PA
   </string>
 </resources>
   

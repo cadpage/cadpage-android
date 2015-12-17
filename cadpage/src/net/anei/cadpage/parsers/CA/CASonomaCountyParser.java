@@ -38,9 +38,14 @@ public class CASonomaCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     unitSet.clear();
-    body = body.replace(" CN:COM ", " CN: COM:").replace(" CN:COM:", " CN: COM:").replace("TYP:", " TYP:");
+    if (body.startsWith("LOC:")) body = "Loc:" + body.substring(4);
+    body = body.replace(" CN:COM ", " CN: COM:").replace(" CN:COM:", " CN: COM:").replace("TYP:", " TYP:").replace("TIME:", " TIME:");
     version = body.startsWith("Location:") || body.startsWith("EID") ? "1" : "2";
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strAddress.startsWith("ID #") && data.strGPSLoc.length() > 0) {
+      data.strAddress = data.strAddress + " (" + data.strGPSLoc + ")";
+    }
+    return true;
   }
   
   @Override
@@ -66,6 +71,13 @@ public class CASonomaCountyParser extends FieldProgramParser {
     
     @Override
     public void parse(String fld, Data data) {
+      
+      // Onstar reports go strait into the address field
+      // we will append the GPS coordinates later
+      if (fld.startsWith("ID #")) {
+        data.strAddress = fld;
+        return;
+      }
       
       // Split everything by colon markers
       String[] parts = COLON_MARKER.split(fld);
@@ -153,7 +165,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "ADDR APT X CITY SRC PLACE";
+      return "ADDR APT X CITY SRC PLACE UNIT";
     }
   }
   
@@ -256,6 +268,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
       "FUL", "SANTA ROSA",
       "GEY", "GEYSERVILLE",
       "GLE", "GLEN ELLEN",
+      "GNVL","GUERNEVILLE",
       "GRA", "GRATON",
       "GUE", "GUERNVILLE",
       "HBG", "HEALDSBURG",
@@ -312,6 +325,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
       "WSR", "SANTA ROSA",
       
       "ANCHOR BAY",   "ANCHOR BAY",
+      "CLSTGA",       "CALISTOGA",
       "GEYSERVILLE",  "GEYSERVILLE",
       "GUALALA",      "GUALALA",
       "MANCHESTER",   "MANCHESTER",
@@ -319,6 +333,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
       "PT ARENA",     "PT ARENA",
       "PT AREANA",    "PT ARENA",
       "SEA RANCH",    "SEA RANCH",
+      "SBSTPL",       "SEBATOPOL",
       "TOMALAES",     "TOMALES",
       "TOMALES",      "TOMALES",
 

@@ -27,8 +27,17 @@ public class ALJeffersonCountyFParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
+  }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace(' ', '_');
+      super.parse(field, data);
+    }
   }
   
   private class MyInfoField extends InfoField {
@@ -36,8 +45,24 @@ public class ALJeffersonCountyFParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       if (field.startsWith("[") && field.endsWith("]")) return;
-      if (field.startsWith("On Scene: ")) data.msgType = MsgType.RUN_REPORT;
+      if (field.startsWith("Dispatched:")) data.msgType = MsgType.RUN_REPORT;
+      if (field.startsWith("CROSS STREET OF ")) {
+        data.strCross = field.substring(15).trim();
+        return;
+      }
+      if (field.startsWith("CROSS STREETS ARE ")) {
+        field = field.substring(18).trim().replaceAll("  +", " ");
+        if (field.equals("AND")) return;
+        field = stripFieldEnd(field, " AND").replace(" AND ", " / ");
+        data.strCross = field;
+        return;
+      }
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "X " + super.getFieldNames();
     }
   }
 }

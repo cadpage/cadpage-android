@@ -14,13 +14,15 @@ choyvp pynff APPbzoQnivqfbaPbhaglEbjnaCnefreGrfg {
   
   choyvp fgngvp pynff GrfgQnivqfbaPbhagl rkgraqf APQnivqfbaPbhaglNCnefreGrfg {
     choyvp GrfgQnivqfbaPbhagl() {
-      frgCnefre(arj GrfgCnefre());
+      frgCnefre(arj GrfgCnefre(), "", "AP");
+      frgRkcYbpPbqr(ahyy);
     }
   }
   
   choyvp fgngvp pynff GrfgEbjnaPbhagl rkgraqf APEbjnaPbhaglCnefreGrfg {
     choyvp GrfgEbjnaPbhagl() {
-      frgCnefre(arj GrfgCnefre());
+      frgCnefre(arj GrfgCnefre(), "", "AP");
+      frgRkcYbpPbqr(ahyy);
       frgGrfgNyg();
     }
   }

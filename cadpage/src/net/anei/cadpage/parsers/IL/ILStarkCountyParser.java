@@ -38,6 +38,13 @@ public class ILStarkCountyParser extends DispatchA29Parser {
     return super.parseMsg(body, data);
   }
   
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = DIR_OF_PTN.matcher(addr).replaceAll(" & ");
+    return addr;
+  }
+  private static final Pattern DIR_OF_PTN = Pattern.compile("[/ ]+((?:N|S|E|W|NO|SO|EA|WE|NORTH|SOUTH|EAST|WEST) OF)[/ ]+");
+  
   private static final CodeSet CALL_LIST = new CodeSet(
       "4870 DISTURBANCE - DOMESTIC VIOLENCE",
       "6040 ACCIDENT - TRAFFIC - INJURY",

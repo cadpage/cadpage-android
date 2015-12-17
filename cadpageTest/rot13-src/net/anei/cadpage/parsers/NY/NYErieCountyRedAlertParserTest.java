@@ -52,6 +52,10 @@ RZF: 77 Lrnef Srznyr Pbafpvbhf: nyyretvp ernpgvba abg nyreg cnenzrqvp erfcbafr n
 Zvfp Zhghny Nvq: AN SNFG FP6 GB ERFCBAQ ng 707 FGREYVAT QE, Bepuneq Cnex p/f: JVAQJNEQ EQ   B: ZRAGUBYNGHZ PB . . 12:10:42
 NYREG@REVR.TBI RZF: z pneqvnp neerfg ng 3965 FBJYRF EQ, Unzohet  p/f: JVAGREJNL YN . . 16:59:52?
 
+Pbagnpg: Penvt Fgnssrqg <pqfsver7@tznvy.pbz>
+Fraqre: unzohet@erqazkpnq.pbz
+RZF Nhgb Nppvqrag ng YNXR FUBER EQ naq  ONLIVRJ EQ, Unzohet . . 07:07:18
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Gbja bs Unzohet Choyvp Fnsrgl Qvfcngpu
 Ybpngvba: Unzohet, AL, Havgrq Fgngrf
@@ -943,6 +947,19 @@ choyvp pynff ALRevrPbhaglErqNyregCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Unzohet",
         "K:JVAGREJNL YN . . 16:59:52?");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPenvtFgnssrqg() {
+
+    qbGrfg("G1",
+        "RZF Nhgb Nppvqrag ng YNXR FUBER EQ naq  ONLIVRJ EQ, Unzohet . . 07:07:18",
+        "PNYY:RZF Nhgb Nppvqrag",
+        "NQQE:YNXR FUBER EQ naq ONLIVRJ EQ",
+        "ZNQQE:YNXR FUBER EQ & ONLIVRJ EQ",
+        "PVGL:Unzohet",
+        "GVZR:07:07:18");
+    
   }
 
   @Grfg

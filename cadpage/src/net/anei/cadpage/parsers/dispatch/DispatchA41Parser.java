@@ -14,26 +14,40 @@ public class DispatchA41Parser extends FieldProgramParser {
   
   private static final Pattern DATE_TIME_PTN = Pattern.compile("(.*) +- From +(?:([A-Z][A-Z0-9]+) +)?(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d:\\d\\d)");
   
+  private String prefix;
   private Pattern channelPattern;
   private Properties callCodes;
   
   public DispatchA41Parser(Properties cityCodes, String defCity, String defState, String channelPattern) {
-    this(cityCodes, defCity, defState, channelPattern, 0, null);
+    this("DISPATCH:", cityCodes, defCity, defState, channelPattern, 0, null);
+  }
+  
+  public DispatchA41Parser(String prefix, Properties cityCodes, String defCity, String defState, String channelPattern) {
+    this(prefix, cityCodes, defCity, defState, channelPattern, 0, null);
   }
   
   public DispatchA41Parser(Properties cityCodes, String defCity, String defState, String channelPattern, int flags) {
-    this(cityCodes, defCity, defState, channelPattern, flags, null);
+    this("DISPATCH:", cityCodes, defCity, defState, channelPattern, flags, null);
+  }
+  
+  public DispatchA41Parser(String prefix, Properties cityCodes, String defCity, String defState, String channelPattern, int flags) {
+    this(prefix, cityCodes, defCity, defState, channelPattern, flags, null);
   }
   
   public DispatchA41Parser(Properties cityCodes, String defCity, String defState, String channelPattern, int flags, Properties callCodes) {
+    this("DISPATCH:", cityCodes, defCity, defState, channelPattern, flags, callCodes);
+  }
+
+  public DispatchA41Parser(String prefix, Properties cityCodes, String defCity, String defState, String channelPattern, int flags, Properties callCodes) {
     super(cityCodes, defCity, defState, calcProgram(flags));
+    this.prefix = prefix;
     this.channelPattern = Pattern.compile(channelPattern);
     this.callCodes = callCodes;
   }
   
   private static String calcProgram(int flags) {
     StringBuilder sb = new StringBuilder();
-    sb.append("DISPATCH:CODE! ");
+    sb.append("CODE! ");
     if ((flags & A41_FLG_ID) != 0) sb.append("ID ");
     else if ((flags & A41_FLG_NO_CALL) == 0) sb.append("CALL ");
     sb.append("( PLACE1 CITY/Z AT | ADDRCITY/Z ) CITY? ( CH/Z MAPPAGE! | EMPTY? ( PLACE2 PLACE_APT2 X1 | PLACE2 PLACE_APT2 INT | PLACE2 X1 | PLACE2 INT | X1 | INT | ) EMPTY? ( CH! | PLACE3+? PLACE_APT3 CH! ) ( MAP MAPPAGE | MAPPAGE | MAP MAP2? ) ) INFO/CS+? ID1 GPS1 GPS2 ID2? Unit:UNIT UNIT+");
@@ -42,6 +56,9 @@ public class DispatchA41Parser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    if (!body.startsWith(prefix)) return false;
+    body = body.substring(prefix.length()).trim();
     
     Matcher match = DATE_TIME_PTN.matcher(body);
     if (match.matches()) {
@@ -210,7 +227,7 @@ public class DispatchA41Parser extends FieldProgramParser {
   
   private class BaseMap2Field extends MapField {
     public BaseMap2Field() {
-      super("\\d{1,4}[A-Z]?", true);
+      super("\\d{1,4}[A-Z]?|\\d{1,4}[A-Z]\\d [A-Z]\\d", true);
     }
     
     @Override
