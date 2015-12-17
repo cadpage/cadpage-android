@@ -27,7 +27,7 @@ public class DispatchSPKParser extends HtmlProgramParser {
   
   private enum InfoType { CAD_TIMES, REMARKS, UNIT_INFO, UNIT_STATUS };
   private InfoType infoType;
-  private boolean firstCol;
+  private int colNdx;
   
   
   @Override
@@ -41,7 +41,7 @@ public class DispatchSPKParser extends HtmlProgramParser {
     times = null;
     unitSet.clear();
     infoType = null;
-    firstCol = false;
+    colNdx = -1;
     if (!super.parseHtmlMsg(subject, body, data)) return false;
     if (data.msgType == MsgType.RUN_REPORT) data.strSupp = append(times, "\n", data.strSupp);
     unitSet.clear();
@@ -144,12 +144,14 @@ public class DispatchSPKParser extends HtmlProgramParser {
       if (field.startsWith("<|") && field.endsWith("|>")) {
         if (field.equals("<|/table|>")) {
           infoType = InfoType.REMARKS;
+          colNdx = -1;
         }
         else if (field.equals("<|tr|>")) {
-          firstCol = true;
+          colNdx = 0;
         }
         return;
       }
+      if (colNdx >= 0) colNdx++;
       
       
       if (field.equals("CAD Times") || field.equals("CAD Times:")) {
@@ -167,7 +169,7 @@ public class DispatchSPKParser extends HtmlProgramParser {
       
       if (field.equals("Unit Information:")) {
         infoType = InfoType.UNIT_INFO;
-        firstCol = false;
+        colNdx = -1;
         return;
       }
       
@@ -175,7 +177,7 @@ public class DispatchSPKParser extends HtmlProgramParser {
         infoType = InfoType.UNIT_STATUS;
         if (times == null) times = field;
         else times = times + '\n' + field;
-        firstCol = false;
+        colNdx = -1;
         return;
       }
       
@@ -224,8 +226,7 @@ public class DispatchSPKParser extends HtmlProgramParser {
         return;
         
       case UNIT_INFO:
-        if (!firstCol) return;
-        firstCol = false;
+        if (colNdx != 1) return;
         if (!field.equals("Unit")) addUnit(field, data);
         return;
         
@@ -234,9 +235,10 @@ public class DispatchSPKParser extends HtmlProgramParser {
         if (field.equals("Unit")) return;
         if (field.equals("Status")) return;
         if (field.equals("Unit Location/Remarks")) return;
-        String delim = firstCol ? "\n" : "   ";
-        firstCol = false;
+        String delim = colNdx == 1 ? "\n" : "   ";
         times = times + delim + field;
+        
+        if (colNdx == 2) addUnit(field, data);
         
         if (!dispatchTime && field.equals("Dispatched")) {
           match = INFO_TIME_PTN.matcher(getRelativeField(-2));
