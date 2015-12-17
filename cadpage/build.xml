@@ -36,7 +36,6 @@
 	<property name="filename2" value="SAParser"/>
 	<property name="jarfile1" value="${dist}/${filename1}.jar"/>
 	<property name="jarfile2" value="${dist}/${filename2}.jar"/>
-	<property name="libs" value="libs/htmlcleaner-2.7.jar" />
 	
 	<target name="clean">
 		<delete dir="${bin}"/>
@@ -49,14 +48,13 @@
 	</target>
     
     <target name="compile" depends="setup">
-        <javac srcdir="${src2}" includes="${select1}" destdir="${bin}" classpath="${libs}" 
+        <javac srcdir="${src2}" includes="${select1}" destdir="${bin}" 
         	   source="1.6" target="1.6" debug="yes" includeAntRuntime="false"/>
     </target>
 	
 	<target name="jarfile1" depends="compile">
 		<jar basedir="${bin}" includes="${select1}" destfile="${jarfile1}"
 		     level="9" manifest="MANIFEST.MF">
-		    <zipfileset src="${libs}"/>
 		</jar>
 	</target>
   
