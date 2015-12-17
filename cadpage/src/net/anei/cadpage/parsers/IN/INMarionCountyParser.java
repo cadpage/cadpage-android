@@ -20,6 +20,14 @@ public class INMarionCountyParser extends MsgParser {
     return "CAD@pager.mecagov.org,CAD@page.indy.gov,777,888";
   }
   
+  private static final Pattern EX_PTN = Pattern.compile("\\bEX\\b", Pattern.CASE_INSENSITIVE);
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = EX_PTN.matcher(addr).replaceAll("EXPW");
+    return super.adjustMapAddress(addr);
+  }
+  
   private static final Pattern MARKER = Pattern.compile("COI PUBLIC SAFETY CAD:|PUBLIC SAFETY CAD:? CAD:|CAD:");
   private static final String APT_PTN = "(?:#(?:APT|RM|ROOM|SUIT|UNIT)? *((?![NS]\\d{5}\\b)[^ ]+)? )";
   private static final String MAP_PTN = "(?:([NS]\\d{5} [EW]\\d{5}|[NS] +[EW]|SHENDR EHENDR) )";
@@ -140,6 +148,7 @@ public class INMarionCountyParser extends MsgParser {
       "CIV/SLIGHT/INJ",
       "CO DETECTOR",
       "DBL RES/ENTR/WRK",
+      "DEPT VEH ACCIDNT",
       "DET",
       "DIABETIC",
       "DIFF BREATHING",
@@ -153,17 +162,22 @@ public class INMarionCountyParser extends MsgParser {
       "FF/SLIGHT/INJ",
       "FF/TRANSPORTED",
       "FIELD",
+      "FLULIKE SYMPTOMS",
+      "GARAGE",
       "GARAGE/WORKI",
       "GAS MAIN RUPTU",
       "GAS ODOR/BUILD",
+      "GAS ODOR/OUTSIDE",
       "GRASS/LEAVES",
       "GUNSHOT",
       "GUNSHOT/UNSECURE",
       "GYNECOLOGY",
       "HAZ-MAT WORK",
       "HEADACHE",
+      "HOSP/NUR HM/WORK",
       "HOSP/NUR HR/ALRM",
       "INJ/CIV/TRANSP",
+      "INJ/FF/TRANSP",
       "INJURED/EXTRICAT",
       "INJURED PERSON",
       "INJURED PERSON-C",
@@ -177,7 +191,9 @@ public class INMarionCountyParser extends MsgParser {
       "MENTAL ILLNESS",
       "MINOR PI",
       "MOD STRUC/COLLPS",
+      "MOTORCYCLE PI",
       "NEURO/HEAD INJ",
+      "OB/CHILDBIRTH",
       "OVERDOSE",
       "OVERDOSE/UNSECUR",
       "PEDESTRN STRUCK",
@@ -201,6 +217,7 @@ public class INMarionCountyParser extends MsgParser {
       "RESIDENCE/WORKIN",
       "ROPE RESCUE",
       "S E PI W/ENTRAPMENT",
+      "SCHOOL ALARM",
       "SCHOOL/WORKING",
       "SEIZURE",
       "SEMI/RV/MOTHM",
@@ -219,10 +236,18 @@ public class INMarionCountyParser extends MsgParser {
       "TEST INCIDENT",
       "TRAILOR/MOBIL HM",
       "TRASH",
+      "UNCON PERSON",
       "UNCONSCIOUS PERS",
       "UNKNOWN SUBST",
+      "UNRESPONSIVE",
+      "URBAN SEARCH",
+      "UTILITY POLE",
       "VEHICL/ACCIDENT",
-      "VEHICLE FIRE"
+      "VEHICLE FIRE",
+      
+      // WTF???
+      "F",
+      "N"
   );
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
