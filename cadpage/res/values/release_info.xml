@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12132015</string>
-  <string name="release_version">v1.8.83</string>
+  <string name="release_date">12162015</string>
+  <string name="release_version">v1.8.84</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.84\n
+New Locations:\n
+Montezuma County, CO\n
+Vermillion County, IN\n
+Andrew County, MO\n
+Dona Ana County, NM (alt)\n
+Fond Du Lac County, WI\n
+\n
+Location Fixes:\n
+Garfield County, CO\n
+Charlotte County, FL\n
+Hardin County, KY\n
+Charles County, MO\n
+Pulaski County, MO\n
+Clarion County, PA\n
+Georgetown County, SC\n
+\n
 v1.8.83\n
 Location Fixes:\n
 Cleburne County, AL\n
@@ -80,15 +97,7 @@ Sedgewick County, KS\n
 Clark County, NV\n
 Adams County, OH\n
 Adams County, PA\n
-Monroeville, PA\n
-\n
-v1.8.79\n
-Location Fixes:\n
-Riley County, KS\n
-Boone County, KY\n
-Charles County, MD\n
-Licking County, OH\n
-Cy Creek Comm Center, TX
+Monroeville, PA
   </string>
 </resources>
   
