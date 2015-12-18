@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 cnpxntr arg.narv.pnqcntr.cnefref.XL;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
@@ -6,18 +5,6 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 /*
 Uneqva Pbhagl, XL (P)
 */
-
-choyvp pynff XLUneqvaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
-  
-  choyvp XLUneqvaPbhaglPCnefreGrfg() {
-    frgCnefre(arj XLUneqvaPbhaglPCnefre(), "UNEQVA PBHAGL", "XL");
-  }
-
-  choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj XLUneqvaPbhaglPCnefreGrfg().trarengrGrfgf("G1");
-  }
-=======
-cnpxntr arg.narv.pnqcntr.cnefref.XL;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
@@ -983,5 +970,4 @@ choyvp pynff XLUneqvaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj XLUneqvaPbhaglNCnefreGrfg().trarengrGrfgf("G1");
   }
->>>>>>> dc242fe781ac9adb0555b1c38feba9f956ca1cdb
 }
