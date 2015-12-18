@@ -636,29 +636,6 @@ Fraqre: PNQ cntvat <pnqcntvat@rzretragurnygu.bet>
 (Angher:GRFGVAT BAYL SBE NPGVIR 911) 8140 ZNVA FG-QK / QRKGRE, ZV, 48130 / / KL: 42.33889 -83.88987 / 1 / Pebff:0 ZVYY PERRX OEVQTR- / / 12:33:14 / /
 (Zrffntr sebz Qvfcngpu) ANGHER PUNATRQ SEBZ GB GRFGVAT BAYL SBE NPGVIR 911
 
-Guvf vf tbvat gb or gevpxl.
-
-Svefg vqragvsl gur eha erhcbegf, rkgnpgvat gur VQ svryq naq ercbegvat gurz.
-
-Trg pnyy qrfpevcgvba sebz gur fhowrpg.
-
-Perngr n cnggrea gb fcyvg svryqf " /(?= )"
-unf gb or n fynfu jvgu n fcnpr ba obgu fvqrf, ohg qbvat guvf zrnaf rzcgl svryqf
-jvyy or cebcreyl vqragvsvrq.
-
-Sbe guvf jbex, lbh unir gb nccraq n oynax gb gur obql vs vg raqf jvgu n fynfu.
-
-Gel fbzrguvat yvxr
-NQQE PVGL_FG_MVC NCG! KL:TCF! CEV Pebff:K VASB+
-
-NQQE svryq, erzbir -KK fvtangherf, ercbeg gur KK inyhr gb ZNC.
-
-K svryq, qvgb jvgu gur -KK fvtangherf.  Nyf erzbir yrnqvat mreb fgerrg ahzore.
-
-VASB purpx sbe gvzr svryq naq fnir va GVZR.
-
-Znva cnefre ebhgvar fubhyq erghea snyfr vs jr qvq abg svaq n GVZR inyhr.
-
  */
 
 choyvp pynff ZVJnfugranjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

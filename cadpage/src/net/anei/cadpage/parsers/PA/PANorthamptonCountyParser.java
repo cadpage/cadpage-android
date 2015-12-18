@@ -23,7 +23,7 @@ public class PANorthamptonCountyParser extends DispatchB2Parser {
   
   @Override
   public String getFilter() {
-    return "@notifync.org,14100,12101";
+    return "@notifync.org,14100,12101,777";
   }
  
   @Override
