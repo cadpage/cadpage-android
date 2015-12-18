@@ -34,6 +34,7 @@ public class KYDaviessCountyParser extends DispatchBParser {
   @Override
   protected boolean isPageMsg(String body) {
     if (body.startsWith("911-CENTER:") || body.startsWith("911CENTRAL")) return true;
+    if (body.contains(" Cad:")) return true;
     return super.isPageMsg(body);
   }
   
@@ -42,20 +43,32 @@ public class KYDaviessCountyParser extends DispatchBParser {
     "CRANE POND",
     "DEER TRAIL",
     "HARMONS FERRY",
+    "HARVEST HILL",
+    "HAYDEN BRIDGE",
     "HEARTLAND CROSSING",
+    "HIGHLAND POINTE",
     "HILL BRIDGE",
     "J R MILLER",
     "LEGION PARK",
+    "M L KING JR",
     "MARTIN LUTHER KING JR",
     "MILLERS MILL",
+    "MT MORIAH",
+    "PANTHER CREEK PARK",
+    "PARK PLAZA",
+    "PLEASANT VALLEY",
     "RED HILL-MAXWELL",
+    "SPRING CREEK",
     "ST ANN",
     "SUMMER POINT",
     "TIMBER RIDGE",
     "TODD BRIDGE",
     "TOWNE SQUARE",
     "TWENTY GRAND",
+    "WAYNE BRIDGE",
+    "WENDELL FORD",
     "WINNING COLORS"
+   
   };
   
   private static final CodeSet CALL_LIST = new CodeSet(
@@ -72,7 +85,11 @@ public class KYDaviessCountyParser extends DispatchBParser {
       "FIRE ALARM",
       "FIRE STRUCTURE",
       "FIRE VEHICLE",
+      "GAS LEAK - OUTSIDE",
+      "HAZARDOUS CHEMICAL COMPLAINT",
       "ILLEGAL BURNING",
+      "LIFT ASSIST",
+      "MEDICAL ALARM",
       "MEDICAL EMERGENCY",
       "MEDICAL UNKNOWN",
       "PERSON DOWN",
@@ -83,8 +100,10 @@ public class KYDaviessCountyParser extends DispatchBParser {
       "SUICIDE THREAT OR ATTEMPT",
       "TEST",
       "TRAUMATIC INJURY",
+      "TREE DOWN",
       "UNCONCIOUS",
       "UNKNOWN/PERSON DOWN",
+      "WELFARE CHECK",
       "WILDLAND FIRE"
   );
   
