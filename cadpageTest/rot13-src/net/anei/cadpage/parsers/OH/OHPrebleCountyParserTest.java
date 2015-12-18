@@ -66,7 +66,7 @@ choyvp pynff BUCeroyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:134",
         "PNYY:Penfu CV",
         "NQQE:11694 Pbhagl Ebnq 227",
-        "ZNQQE:11694 PBHAGL EBNQ 227",
+        "ZNQQE:11694 PBHAGL EBNQ 227", //qbrf abg znc
         "PVGL:Pnzqra");
 
     qbGrfg("G5",

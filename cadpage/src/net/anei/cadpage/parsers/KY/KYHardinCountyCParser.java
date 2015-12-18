@@ -3,10 +3,10 @@ package net.anei.cadpage.parsers.KY;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.HtmlProgramParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-public class KYHardinCountyCParser extends HtmlProgramParser {
+public class KYHardinCountyCParser extends FieldProgramParser {
   
   public KYHardinCountyCParser() {
     super("HARDIN COUNTY", "KY",

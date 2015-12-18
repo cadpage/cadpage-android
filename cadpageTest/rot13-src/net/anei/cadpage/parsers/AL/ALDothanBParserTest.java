@@ -8,6 +8,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Qbguna NY (O)
 
+Pbagnpg: Gryyvrf Oynpxzba <gevtug1818@tznvy.pbz>
+Fraqre: 777
+PVGL BS QBGUNA: F BNGRF FG / R VARM EQ QBGUNA;;;;; 15:24:10; F8O-ZIP-Zbqrengr Vawhevrf; 1; tel fhi if hax pbybe fhi; f33; 10-5 ol cnffreol\afgbc
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Qbguna SQ
 Ybpngvba: Qbguna, NY, Havgrq Fgngrf
@@ -271,6 +275,23 @@ choyvp pynff NYQbgunaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp NYQbgunaOCnefreGrfg() {
     frgCnefre(arj NYQbgunaOCnefre(), "QBGUNA", "NY");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgGryyvrfOynpxzba() {
+
+    qbGrfg("G1",
+        "PVGL BS QBGUNA: F BNGRF FG / R VARM EQ QBGUNA;;;;; 15:24:10; F8O-ZIP-Zbqrengr Vawhevrf; 1; tel fhi if hax pbybe fhi; f33; 10-5 ol cnffreol\a" +
+        "fgbc",
+
+        "NQQE:F BNGRF FG & R VARM EQ",
+        "PVGL:QBGUNA",
+        "GVZR:15:24:10",
+        "PBQR:F8O",
+        "PNYY:ZIP-Zbqrengr Vawhevrf",
+        "CEV:1",
+        "VASB:tel fhi if hax pbybe fhi / f33 / 10-5 ol cnffreol");
+    
   }
 
   @Grfg

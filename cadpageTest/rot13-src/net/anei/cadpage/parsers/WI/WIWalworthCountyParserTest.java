@@ -170,7 +170,7 @@ choyvp pynff JVJnyjbeguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:11/29/2015",
         "GVZR:08:30:27");
 
-    qbGrfg("G6",
+    qbGrfg("G6", 
         "{Cubravk Abgvsvpngvba} \e\gPSF\g\g\g\g:\gNYZS - Sver Nynez\e\gYbpngvba\g\g\g:\g111 Pragre Fg,OYQT\e\gPnyy#\g\g\g\g:\g15-001057\e\gHavgf Qvfcngpurq\g\g:\gNZO1 ,RAT1 ,RAT2 ,FDQ1 ,P1 ,GBJRE1 \e\gFgngvbaf Qvfcngpurq\g:\g\e\gErcbeg Qngr/Gvzr\g\g:\g11/28/2015 10:57:11 CZ",
         "PNYY:NYZS - Sver Nynez",
         "NQQE:111 Pragre Fg",
