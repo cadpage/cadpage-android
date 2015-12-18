@@ -13,6 +13,7 @@ Ntrapl anzr: Fgbqqneq Pbhagl Nzohynapr Qvfgevpg
 Ybpngvba: Qrkgre, ZB, Havgrq Fgngrf
 Fraqre: <qvfcngpu911@fgbqqrzf.pbz>
 
+{Qvfcngpu Pnyy} FGNAQ OL ABA-CEVBEVGL FPNQ FGNGVBA 1 501 J OHFVARFF UVTUJNL 60 QRKGRE PebffFgerrgf: J BNX FG 0.01 zv R FCRPVNYGL QE 0.20 zv AJ \aRFA: QRK-1FGN \a514
 {Qvfcngpu Pnyy} FRVMHER CEVBEVGL UVTU  603 J PEHZO NIR OREAVR PebffFgerrgf: A FCVXRE FG 0.05 zv R JNYXRE FG 0.04 zv J \aRFA: ORE-2FGN \a505
 {Qvfcngpu Pnyy} ERYBPNGR CEVBEVGL YBJ FPNQ FGNGVBA 1 501 J OHFVARFF UVTUJNL 60 QRKGRE PebffFgerrgf: J BNX FG 0.01 zv R FCRPVNYGL QE 0.20 zv AJ \aRFA: QRK-1FGN \a505
 {Qvfcngpu Pnyy} FVPXARFF CEVBEVGL UVTU  21366 FGNGR UVTUJNL NO FGBQQNEQ PBHAGL PebffFgerrgf: PBHAGL EBNQ 506 0.35 zv J DHNEEL EQ 0.02 zv R \aRFA: OYSQ-1FGN \a514 OYSE
@@ -108,6 +109,20 @@ choyvp pynff ZBFgbqqneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgFgbqqneqPbhaglNzohynaprQvfgevpg() {
+
+    qbGrfg("K1",
+        "{Qvfcngpu Pnyy} FGNAQ OL ABA-CEVBEVGL FPNQ FGNGVBA 1 501 J OHFVARFF UVTUJNL 60 QRKGRE PebffFgerrgf: J BNX FG 0.01 zv R FCRPVNYGL QE 0.20 zv AJ \a" +
+        "RFA: QRK-1FGN \a" +
+        "514",
+
+        "PNYY:FGNAQ OL",
+        "CEV:ABAR",
+        "CYNPR:FPNQ FGNGVBA 1",
+        "NQQE:501 J OHFVARFF UVTUJNL 60",
+        "PVGL:QRKGRE",
+        "K:J BNX FG 0.01 zv R FCRPVNYGL QE 0.20 zv AJ",
+        "FEP:QRK-1FGN",
+        "HAVG:514");
 
     qbGrfg("G1",
         "{Qvfcngpu Pnyy} FRVMHER CEVBEVGL UVTU  603 J PEHZO NIR OREAVR PebffFgerrgf: A FCVXRE FG 0.05 zv R JNYXRE FG 0.04 zv J \a" +

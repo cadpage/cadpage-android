@@ -68,7 +68,7 @@ public class NMDonaAnaCountyBParser extends HtmlProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "ADDR CITY X PLACE APT";
+      return "PLACE ADDR CITY X APT";
     }
   }
   
@@ -95,7 +95,7 @@ public class NMDonaAnaCountyBParser extends HtmlProgramParser {
   private static final Pattern MASTER = Pattern.compile("([A-Z]{4}\\d{4}-\\d{5})(?:Pending|Dispatched|En Route|Disposed|Arrived|Clear)(.*)");
 
   public boolean parseDispatchMsg(String body, Data data) {
-    setFieldList("ID CALL ADDR CITY X PLACE APT");
+    setFieldList("ID CALL PLACE ADDR CITY X APT");
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     data.strCallId = match.group(1);
@@ -103,29 +103,49 @@ public class NMDonaAnaCountyBParser extends HtmlProgramParser {
     return true;
   }
   
-  private static final Pattern ADDR_PTN = Pattern.compile("(.*?)(?:, *(\\d{5}))? *(?:\\((.*)\\)[# ]*(.*))?");
+  private static final Pattern ADDR_PTN = Pattern.compile("(.*?)(?:# *(.*?))?(?:, *(\\d{5}))? *(?:\\((.*)\\)[# ]*(.*))?");
   private static final Pattern CALL_ADDR_PTN = Pattern.compile("(.*[a-z]) *(.*)");
   
   private void parseAddress(String field, Data data, boolean inclCall) {
     Matcher match = ADDR_PTN.matcher(field);
     if (!match.matches()) return;   // Cannot possibly happen
     String callAddr = match.group(1);
-    data.strCity = getOptGroup(match.group(2));
-    String cross = getOptGroup(match.group(3));
-    String apt = getOptGroup(match.group(4));
+    data.strCity = getOptGroup(match.group(3));
+    String cross = getOptGroup(match.group(4));
+    String apt = append(getOptGroup(match.group(2)), "-", getOptGroup(match.group(5)));
     
-    // Call and address are backed up against each other.  But it looks like we
-    // find the break between them after the last lower case letter.
+    // Do we need to extract a call from the beginning of the field?
+    boolean crossAddr = false;
     if (inclCall) {
-      match = CALL_ADDR_PTN.matcher(callAddr);
-      if (match.matches()) {
+      
+      // An @ marks the start of a place name instead of an address
+      int pt = callAddr.indexOf('@');
+      if (pt >= 0) {
+        data.strCall = callAddr.substring(0,pt).trim();
+        data.strPlace = callAddr.substring(pt+1).trim();
+        crossAddr = true;
+      }
+      // See if we can identify a break after the last lower case letter.
+      else if ((match = CALL_ADDR_PTN.matcher(callAddr)).matches()) {
         data.strCall = match.group(1);
         parseAddress(match.group(2), data);
-      } else {
+      } 
+    
+      // Otherwise we have to depend on the smart address parser
+      else {
         parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_START_FLD_NO_DELIM | FLAG_ANCHOR_END, callAddr, data);
       }
-    } else {
-      parseAddress(callAddr, data);
+    } 
+    
+    // Nothing here but an address.  We still have to check for 
+    // a leading @
+    else {
+      if (callAddr.startsWith("@")) {
+        data.strPlace = callAddr.substring(1).trim();
+        crossAddr = true;
+      } else {
+        parseAddress(callAddr, data);
+      }
     }
     
     // Separate near clause from cross streets
@@ -134,9 +154,15 @@ public class NMDonaAnaCountyBParser extends HtmlProgramParser {
       data.strPlace = cross.substring(pt+1).trim();
       cross = cross.substring(0,pt);
     }
-    cross = stripFieldStart(cross, "/");
-    cross = stripFieldEnd(cross, "/");
-    data.strCross = cross;
+    
+    // Process the cross street, possibly as an address
+    if (crossAddr) {
+      parseAddress(cross, data);
+    } else {
+      cross = stripFieldStart(cross, "/");
+      cross = stripFieldEnd(cross, "/");
+      data.strCross = cross;
+    }
     
     // Process apt
     data.strApt = append(data.strApt, "-", apt);

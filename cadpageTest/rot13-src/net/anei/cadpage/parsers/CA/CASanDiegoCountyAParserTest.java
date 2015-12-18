@@ -17,6 +17,10 @@ Fraqre: pnq@wcncntr.arg
 *** ABG CNEFVAT (zvffvat onpxfynfurf) ***
 (PNQ ZRFFNTR) NYZ:1GLC:PNEOBA ZBAVK NYNEZ    NQE:225 Nhghza Qe                           YBP:NHGHZA CNEX NCGF (225)  KFG:CVPB NI/PUVANOREEL YA                   NCGFC:NCG 39    GO:1108U7ZNC:5624N GT:. GNP 1 VAQVN  HAVGF:1471CERCYA;FZP020E
 
+Pbagnpg: Qroovr Unnf <qrounnf20@tznvy.pbz>
+Fraqre: pnq@wcncntr.arg
+pnq@wcncntr.arg / PNQ ZRFFNTR / NYZ:1\GLC:ABA-OERNGURE          \NQE:1257 Ivn Ivragb Fhnir                   \YBP:                        \KFG:IVN RAGENQN QRY YNTB/Qrnq Raq           \NCG\FC:          \GO:1128P3\ZNC:5421P \GT:. GNP 1 VAQVN  \HAVGF:1492,1412,14E3,1458\CERCYA;
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fna Znepbf Sver
 Ybpngvba: Fna Znepbf, PN, Havgrq Fgngrf
@@ -3057,6 +3061,22 @@ choyvp pynff PNFnaQvrtbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:3535 Yvaqn Ivfgn Qe",
         "CYNPR:ENAPUB INYYRPVGBF ZBO RF",
         "K:INYYRPVGBF QE/GVYYRL YA");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq QroovrUnnf() {
+
+    qbGrfg("G1",
+        "pnq@wcncntr.arg / PNQ ZRFFNTR / NYZ:1\\GLC:ABA-OERNGURE          \\NQE:1257 Ivn Ivragb Fhnir                   \\YBP:                        \\KFG:IVN RAGENQN QRY YNTB/Qrnq Raq           \\NCG\\FC:          \\GO:1128P3\\ZNC:5421P \\GT:. GNP 1 VAQVN  \\HAVGF:1492,1412,14E3,1458\\CERCYA;",
+        "CEV:1",
+        "PNYY:ABA-OERNGURE",
+        "NQQE:1257 Ivn Ivragb Fhnir",
+        "K:IVN RAGENQN QRY YNTB/Qrnq Raq",
+        "ZNC:1128P3-5421P",
+        "PU:GNP 1 VAQVN",
+        "HAVG:1492,1412,14E3,1458",
+        "VASB:CERCYA;");
     
   }
 

@@ -12,105 +12,106 @@ Ntrapl anzr: Abegujrfg Nzohynapr PPG
 Ybpngvba: Rirergg, JN, Havgrq Fgngrf
 Fraqre: "Zrqncbvag Qvfcngpu" <abercyl@zrqncbvag.pbz>
 
-{Gevc Abgvsvpngvba GEVC-03871} <qvi>\a\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fjrqvfu Pnapre Vafgvghgr - Rqzbaqf - 21605 76gu Nir J # 100, Rqzbaqf, JN 98026&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/27 - 10:50</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Znabe Pner Urnygu Freivprf</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gZnabe Pner Urnygu Freivprf - 3701 188gu Fgerrg FJ    , Ylaajbbq, 98037 ez 138 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 84 Znyr Gkc sbe genafshfvba. hanoyr gb fvg hc. Cg ba B2. 189yo. \aGHTOL, ZNHEVPR\a08/02/1931\aJ/E C/H 1050 Ncg 1120   &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: GHTOL&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03886} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 1930 Zreevyy Perrx Cxjl, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Fbhgu raq bs ohvyqvat</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/27 - 12:06</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu R-4 ba G-1 sbe yrt cnva sebz n snyy</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03884} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: EZ 445</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/27 - 12:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Oryyvatunz Urnygu Pner & Eruno</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gOryyvatunz Urnygu Pner & Eruno - 1200 Ovepujbbq Nir    , Oryyvatunz, 98225 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 82 Znyr Cg pnzr va jvgu ulcbkvn naq erany snvyher, tbvat onpx gb FAS nsgre ubfcvgny nqzvg  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: TNEPVN&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03885} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 7518 Urngure Jnl, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/27 - 10:54</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu R-5 ba G-1 sbe n 76lbs oybbq pybgf</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03883} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr - 14701 179gu Nir FR, Zbaebr, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: PPH 1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/27 - 11:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q-654</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 41 Znyr Cg pnzr va jvgu nphgr cnaperngvgvf, qvnorgvp, VI Vafhyva naq AF, orq pbasvarq, 225#, zbavgbe  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: RQQL&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03870} <qvi>\a\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Znabe Pner Urnygu Freivprf - 3701 188gu Fgerrg FJ    , Ylaajbbq, 98037&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: ez 138 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/27 - 10:50</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fjrqvfu Pnapre Vafgvghgr - Rqzbaqf - 21605 76gu Nir J # 100, Rqzbaqf, JN 98026</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFjrqvfu Pnapre Vafgvghgr - Rqzbaqf - 21605 76gu Nir J # 100, Rqzbaqf, JN 98026 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 84 Znyr Gkc sbe genafshfvba. hanoyr gb fvg hc. Cg ba B2. 189yo. \aGHTOL, ZNHEVPR\a08/02/1931\aJ/E C/H 1050 Ncg 1120   &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: GHTOL&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03881} <qvi>\a\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Re 3</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/27 - 08:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 34 Znyr Cg qrgnvarq. teniryl qvfnoyrq. Clfpu cg. \aFGVPXARL, THL 9/13/81\ahaqre 250yo 0800c/h  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FGVPXARL&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03882} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 5316 Jrgzber Nir, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/27 - 06:22</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp R-5 GNP-1 70 LBZ frvmher</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03880} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 6215 Pbzzrepvny Nir, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/27 - 01:09</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: fabcnp R- 5 GNP-1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03879} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 22:53</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg     , Frnggyr, 98195 7 ARP 7252</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 73 Znyr FBO. univat ZV. Uk bs ZV/ fgebxr. unf urc ybpx. PUS. Pk zavgbe. \aYRFGRE, GUBZNF \a9/10/42\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: YRFGRE&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03878} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Vfynaq Ubfcvgny - RE - 1211 24gu     , Nanpbegrf, 98221&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 3</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 23:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR    , Frnggyr, 98105 RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 14 Srznyr Nphgr Pbyvgvf. Gnpulpneqvn. Noq Ck. Pk zbavgbe. VI Syhvqf\aPVYYNEERNY, TNEPVRYN \a8/24/01  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: PVYYNEERNY&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03873} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Ez 111-N</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 22:45</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Snvesnk Ubfcvgny</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSnvesnk Ubfcvgny - 10200 AR 132aq Fgerrg     , Xvexynaq, 98034 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 23 Znyr Qrcerffva. fhvpvqny Vqrn. Ibyhagnel Cflpu cngvrag. \aYHXN, ZNGGURJ 06/18/1992\ahaqre 250yo.   &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: YHXN&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03877} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 15</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 20:44</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q jvat 856 oq 1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 74 Srznyr Bofghpgvir Carhzbavn. VI syhvqf. NPYF Zbavgbevat.\a 74 LBS ZBBER, PUEVFGN\a10/06/41\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: ZBBER&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03875} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Pnfpnqr Inyyrl Ubfcvgny - RE - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 14</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 21:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Snvesnk Ubfcvgny</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSnvesnk Ubfcvgny - 916 Cnpvsvp Nir, Rirergg, 98201 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 62 Znyr Vaiby Cflpuy 61 LBZ gevrq unatvat uvzfrys gbqnl. Fhvpvqny.  EA fnvq ur'f orra pbbcrengvir gbavtug. \aCNEE, ZVPUNRY 5/10/54  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: CNEE&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03876} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 2000 Urjvgg Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 20:29</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: NVQ-9 GNP-1 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03874} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 1 (Rzretrag Pbqr Erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 2000 Urjvgg Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Rirergg Riragf Pragre. Znva Ragenapr qbja gur fgvnef naq gb gur yrsg</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 19:49</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: FABCNP NVQR 9 GNP-1 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03872} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Ez 3004</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 17:56</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg     , Frnggyr, 98195 EA jvyy gryy lbh jung sybbe</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 88 Znyr nbegvp svoebfvf. Fnyvar ybpx. Pk zbavgbevat. haqre 250yo.\aFXRYGBA, PYVSSBEQ\a03/05/1928 NYF  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FXRYGBA&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03867} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 120 J Pnfvab Eq, Rirergg, JN 98204&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: havg #2P</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 16:02</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp R-6 GNP-1 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03866} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fjrqvfu Pnapre Vafgvghgr - Rqzbaqf - 21605 76gu Nir J # 100, Rqzbaqf, JN 98026&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 15:36</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Rqzbaqf</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFjrqvfu Zrqvpny Pragre- Rqzbaqf - 21601 76gu Nirahr Jrfg    , Rqzbaqf, 98026 RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 66 Znyr Pnapre Vafgvghgr arrqf gkc sbe cngvrag gb RE. uk bs Pbyba pnapre. Onpx Cnva. \aNLENCRGLNA, INYYZVE OYF\a01/31/1950  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: NLENCRGLNA&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03860} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: ez 442</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 14:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Orgunal ng Fvyireynxr</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gOrgunal ng Fvyireynxr - 2235 Ynxr Urvtugf Qe    , Rirergg, 98208 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 64 Srznyr nqzvg sbe PIN. orq-pbasvarq. haqre 250yo. \aZHFTENIR, YVAQN\a06/23/1951  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: ZHFTENIR&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03864} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Ez 3001</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 14:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Zven Ivfgn Pner Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gZven Ivfgn Pner Pragre - 300 F 18gu Fg    , Zg Ireaba, 98274 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 81 Srznyr Nqzvg sbe Fhapbcr. HGV. NYBP. \aORVZRE, YHPVYYR\a9/01/34   &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: ORVZRE&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03865} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 243 Ryz Fg, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Havg# 411</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 13:26</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp R-4 GNP-1 sbe 18 LBS onpx ck naq qvmmvarff</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03779} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: QVNTABFGVPF</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 11:20</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Wbfrcuvar Fhafrg Ubzr</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gWbfrcuvar Fhafrg Ubzr - 9901 272aq Cynpr    , Fgnajbbq, 98292 812</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 83 Srznyr JNVGVAT ZRQPNVQ CERNHGU#\aYNHEN TRYYRVA 10/12/32\aARRQF PNG FPNA NG FIU QVNT\aJVGU PBAGENFG SBE CBFF XVQARL NAQ OYNQQNE PN\aNCCG NG 1215 \aQNHTUGRE JBHYQ YVXR GB EVQR JVGU. J/E  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: TRYYRVA&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03859} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: ez 2022</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 13:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Zven Ivfgn Pner Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gZven Ivfgn Pner Pragre - 300 F 18gu Fg    , Zg Ireaba, 98274 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 66 Srznyr Nqzvg sbe bfgrbcbebfvf naq Sk va E uvc. Flapbcr. 227yo. \aSBEGUHA, WBNAAR 2/8/1950  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: SBEGUHA&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03863} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 1123 Envavre Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: zrnqbj 2</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 12:29</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp R-2 GNP-1 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03861} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr - 14701 179gu Nir FR, Zbaebr, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: ez 120</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 12:45</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 N jvat 708 oq 2</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 44 Znyr Nqzvg sbe Pk cnva/ Noq Ck. OERAANA, EBOREG 7/16/71 OYF  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: OERAANA&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03862} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rirergg Nir & Cvar Fg, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Oruvaq gur Puhepu</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 11:47</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp Ynqqre-1 GNP-1 sbe 48LBS jrnxarff. Qvnuern & ibzvggvat</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03778} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Wbfrcuvar Fhafrg Ubzr - 9901 272aq Cynpr    , Fgnajbbq, 98292&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 812</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 11:20</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 QVNTABFGVPF</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 83 Srznyr JNVGVAT ZRQPNVQ CERNHGU#\aYNHEN TRYYRVA 10/12/32\aARRQF PNG FPNA NG FIU QVNT\aJVGU PBAGENFG SBE CBFF XVQARL NAQ OYNQQNE PN\aNCCG NG 1215 \aQNHTUGRE JBHYQ YVXR GB EVQR JVGU. J/E  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: TRYYRVA&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03856} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 10</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 10:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 25 Znyr VAIBYHAGNEL CFLPU CG\aYRVGARE,IVAPRAG\a7-20-1990\a150 YOF\aHAVGRQ TRARENY RE EZ 10\aGB ABEGU FBHAQ \a7825 ABEGU FBHAQ QEVIR  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: YRVGARE&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03791} <qvi>\a\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Yvsr Pner Pragre bs Fxntvg Inyyrl - 1462 Jrfg FE-20    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: EZ 410/O</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 08:45</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Havgrq Trareny Ubfcvgny</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHavgrq Trareny Ubfcvgny - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284 Qnl fhetrel, guebhtu RE </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 60 Znyr Cg tbvat va sbe fhetrel, abg fcrpvsvrq, ONEVNGEVP, 300#, ovyyvat Cer-Nhgu #100500993, bar jnl gevc  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: CRGREFBA&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03857} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Ertrapl Pner Pragre Zbaebr - 1355 Jrfg Znva Fgerrg    , Zbaebr, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 112-N</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 08:40</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Rireterra Urnygu - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gRireterra Urnygu - RE - 12040 AR 128gu Fgerrg    , Xvexynaq, 98034 RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 98 Srznyr ZNAVBA,EBOREGN\a12-30-1917\aERTRAPL ZBAEBR EBBZ 112-N GB RIRETERRA ZBAEBR RE\aNQZVGGRQ SBE SNYY/ NYBG BS CNVA/ CG UNF QAE\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: ZNAVBA&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03855} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 4101 Ehpxre Nir, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/26 - 03:54</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: YNQQRE 1\aGNP 1\aFABCNP\aPURIREBA FGNGVBA</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03854} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Pnfpnqr Inyyrl Ubfcvgny - RE - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: ebbz 2</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 23:20</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q-722</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 51 Znyr FGEBGM,XHEGVF\a104.5 XVYBF\aPURFG CNVA / PNEQVNP ZBAVGBE \aURCEVA QEVC\aPNFPNQR INYYRL UBFCVGNY RE 2 GB CEBIVQRAPR RIRERGG Q-722  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FGEBGM&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03852} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 14426 Orireyl Cnex Eq, Rqzbaqf, JN 98026&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 22:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: GNP 23\aYNQQRE 23\aFABPBZ</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03850} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 6920 Ybjre Evqtr Eq, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: NCG O</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 21:10</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: RATVAR 4 \aGNP 1\aNCG O\aFABCNP</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03849} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 5</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 18:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q JVAT 1057 ORQ 2</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 78 Srznyr INAFCNAMXRERA,VFNORYYN\a8-15-1937\a148 YOF\aRIRETERRA ZBAEBR RE 5 GB \aCEBIVQRAPR RIRERGG, Q JVAT 1057 ORQ 2\aQVFBEVRAGNGVBA/ PNEQVNP ZBA.\aAB B2 BE QEVC  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: INAFCNAMXRERA&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03848} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 17:40</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: 6303 UBZR NPERF</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\g6303 UBZR NPERF </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 61 Znyr URAQEVPXFBA,GUBZNF\a09-06-1954\aOYF\aRIRETERRA ZBAEBR RE\aGB CEVINGR ERFVQRAPR:\a6303 UBZR NPERF EBNQ\aRIRERGGR, JN 98205\aOENVA PNAPRE  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: URAQEVPXFBA&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03842} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 710 75gu Fg FR, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: # 6</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 16:34</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: RATVAR 5\aGNP 1\aFABCNP  NCG 6\a</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03838} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 8</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 14:20</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: 1501 Pbyyvaf Eq, Frqeb-Jbbyyrl, JN 98284</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\g1501 Pbyyvaf Eq, Frqeb-Jbbyyrl, JN 98284 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 88 Znyr XVGR,XRAARGU \a1-12-1928\a120 YOF\aHAVGRQ TRARENY RE EBBZ 8\aGB PBHAGEL ZRNQBJF IVYYNTR\aSNYY/ QRZRAGVN  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: XVGR&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03839} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 7608 R Pnfvab Eq, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 14:07</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: RATVAR 5 GNP 1\aFABCNP\aCBFF PIN</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03838} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 8</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 14:20</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: 1501 Pbyyvaf Eq, Frqeb-Jbbyyrl, JN 98284</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\g1501 Pbyyvaf Eq, Frqeb-Jbbyyrl, JN 98284 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 88 Znyr XVGR,XRAARGU \a1-12-1928\a120 YOF\aHAVGRQ TRARENY RE EBBZ 8\aGB PBHAGEL ZRNQBJF IVYYNTR\aSNYY/ QRZRAGVN  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: XVGR&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03837} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu ZEV - 14841 179gu Nir FR    , Zbaebr, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 12:21</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Rireterra Urnygu-Zbaebr RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gRireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272 3</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 67 Znyr BEGVM,EVPUNEQ\a5-30-1948\aRIRETERRA ZBAEBR RE 3 \aGB RIRETERRA URNYGU ZEV\aE/B FGEBXR AB CERPNHGVBAF\aCG HAQRE 250YOF  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: BEGVM&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03836} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 3</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 12:21</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Rireterra Urnygu ZEV</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gRireterra Urnygu ZEV - 14841 179gu Nir FR    , Zbaebr, 98272 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 67 Znyr BEGVM,EVPUNEQ\a5-30-1948\aRIRETERRA ZBAEBR RE 3 \aGB RIRETERRA URNYGU ZEV\aE/B FGEBXR AB CERPNHGVBAF\aCG HAQRE 250YOF  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: BEGVM&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03835} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rirergg Tbfcry Zvffvba - 3711 Fzvgu Nir, Rirergg, 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: ZRAF FURYGRE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 12:02</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: fabcnp\aynqqre 1 \aGNP 1\aZraf furygre\afrvmher</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03834} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 931 Oebnqjnl Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 04:12</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: RATVAR 2 \aGNP 1\aFABCNP</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03833} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: EBBZ 1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 03:20</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Gur Oevqtr ng Zbhag Ireaba</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGur Oevqtr ng Zbhag Ireaba - 301 Fbhgu Yniragher Ebnq   , Zbhag Ireaba, 98274 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 98 Srznyr ZPQBANYQ,ZNEL\a3-2-1918\a180 YO\aQRZRAGVN NAQ FRCFVF ERGHEAVAT\aFXNTVG UBFCVGNY RE 1 GB GUR OEVQTR AHEFVAT UBZR ZBHAG IREABA  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: ZPQBANYQ&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03832} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: EBBZ 7</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 02:50</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Rireterra Urnygu</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gRireterra Urnygu - 12040 AR 128gu Fgerrg    , Xvexynaq, 98034 2526</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 74 Znyr FXNTTF,EVPUNEQ\a11-25-1941\a150 YOF\aNYF\aRIRETERRA ZBAEBR RE 7 GB RIRETERRA XVEXYNAQ EBBZ 2526\aFRCFVF NAQ ERANY SNVYHER\aPNEQVNP ZBAVGBE\aCNPR ZNXRE, ABGUVAT EHAAVAT  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FXNTTF&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03831} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 1901 Jnyahg Fg, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 01:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: RATVAR 2 \aGNP 1\aFABCNP</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03830} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 6707 Pnql Eq, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/25 - 00:39</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: FABCNP \aRATVAR 5\aGNP 1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03829} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 5</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 23:54</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 6 ABEGU O JVAT</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 71 Srznyr GERIR,XNGUYRAR\a12-26-1944\aNSVO EIE\aPNEQVNP NAQ QRYGVNMNZ QEVC\aHAQRE 250\aRIRETERRA ZBAEBR RE EZ 5 \aCEBIVQRAPR 6 ABEGU O JVAT  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: GERIR&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03828} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 2715 Uneevfba Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 23:42</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: RATVAR 2\aGNP 1\aFABCNP</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03827} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rirergg Tbfcry Zvffvba - 3711 Fzvgu Nir, Rirergg, 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: FBHGU</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 23:23</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: fabcnp\aynqqre 1\agnp 1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03826} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg     , Rirergg, 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 23:14</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: JNVG NAQ ERGHEA\a1000 IVAGNTR YNAR RIRERGGR</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03825} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 03:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q-8-805</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 73 Znyr FGRJNEG,WNZRF\a6-12-1942\aHAQRE 250\aPNEQVNP ZBAVGBE\aCAE B2\aJRNXARFF/ FCVANY\aFXNTVG INYYRL RE GB \aCEBI RIRERGGR EZ Q-8-802\aTEBHC URNYGU 02207952  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FGRJNEG&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03824} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 900 Cnpvsvp Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 314</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 22:17</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: FABCNP\aZRQVP 1\aGNP 1\aYNOBE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03823} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 21:48</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: 1000 Ivagntr Ya, Zbhag Ireaba, JN 98273</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\g1000 Ivagntr Ya, Zbhag Ireaba, JN 98273 233</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 78 Srznyr UNYY,WBNAAR\a4-7-1938\a140 YOF\aFXNTVG INYYRL UBFC. GB\a1000 IVAGNTR YNAR 233\aZBHAG IREABA\aFGNVE PUNVE ZNL OR ARRQRQ\aTRG VAFHENAPR VASB\aTRARENYVMRQ JRNXARFF\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: UNYY&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03822} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 1411 Onyyrj Nir, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 21:09</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: RATVAR 3\aGNP 1\aFABCNP</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03821} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 1 (Rzretrag Pbqr Erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fjrqvfu Zrqvpny Pragre- Rqzbaqf - 21601 76gu Nirahr Jrfg    , Rqzbaqf, 98026&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 5</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 21:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Uneobeivrj Zrqvpny Pragre - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gUneobeivrj Zrqvpny Pragre - RE - 325 9gu Nir, Frnggyr, 98104 CEVBEVGL-RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 83 Znyr OBYRAQRE,PUNEYRF\a6-02-1932\a250 YOF\aFJRQVFU RQZBAQF RE 5\aGB UNEOBEIVRJ RE\aGENHZNGVP OENVA OYRRQ \aPNEQVNP ZBAVGBEVAT, ABGUVAT EHAAVAT\aUEIVRJ PBAGNPG WNL\a425-640-4682\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: OBYRAQRE&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03820} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: EBBZ 2009</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 20:15</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg     , Frnggyr, 98195 EBBZ: 4 FR</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 91 Znyr JNYORET,EHGU\a6-15-24\aFLAPBCR/INYIRF ERCYNPRZRAG\aFNYVAR YBPXRQ / 2-3 YG B2\a228 YOF\aFXNTVG INYYRL UBFC EZ 2009 GB HJ ZRQVPNY EZ: 4FR  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: JNYORET&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03819} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 8823 Ubyyl Qe, Rirergg, JN 98208&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: havg 538</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 18:40</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: ratvar 6\agnp 1\a</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03818} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 1908 A 198gu Fg, Fuberyvar, JN 98133&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 16:19</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: 1908 A 198gu fuberyvar\aratvar 57\afuberyvar sver\aab gnp</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03817} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 26gu Fg & Oebnqjnl Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: OYHR FRZV GEHPX, OEBNQJNL UBOOVRF</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 14:34</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: RAT 2\aGNP 1\aOEBNQJNL UBOOVRF\a OYHR FRZV GEHPX</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03816} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 16</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 13:27</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Oebbxqnyr Nffvfgrq Yvivat</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gOebbxqnyr Nffvfgrq Yvivat - 7212 265gu Fg AJ, Fgnajbbq, 98292 ncg zp 4n</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 79 Znyr unfgvatf,wbua\a5-6-1937 (va flfgrz)\atrareny jrnxarff\a85 yof\afxntvg inyyrl re 16 gb oebbxqnyr nffg yvivat fgnajbbq  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: UNFGVATF&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03815} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Juvqorl Trareny - 101 Abegu Znva Fgerrg    , Pbhcrivyyr, 98239&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 13:22</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 jvat N 618, orq 1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 84 Srznyr unafra,orggl\a7-17-1931\a104 xvyb\ajuvqorl trareny RE NYF\agb Cebivqrapr Rirerggr N 618 orq 1\acbylgubevgvf / fnyvar ehaavas\a7 yge znfx b2\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: UNAFRA&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03814} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: ebbz 11</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 12:45</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Yvsr Pner Pragre bs Fxntvg Inyyrl</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gYvsr Pner Pragre bs Fxntvg Inyyrl - 1462 Jrfg FE-20    , Frqeb Jbbyyrl, 98284 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 92 Znyr tnatyre, cuvyyvc\a06-11-1923\anaxyr vasrpgvba\a77 xvyb\ahavgrq trareny re 11\agb yvsr pner fxntvg inyyrl  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: TNATYRE&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03813} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 3201 Fzvgu Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: rirergg fgngvba</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 11:53</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: ratvar 1\agnp 1\arirergg fgngvba</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03812} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: ebbz 2&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 11:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: 601 J Ryvmnorgu Fg, Zbaebr, JN 98272</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\g601 J Ryvmnorgu Fg, Zbaebr, JN 98272 ncg 113</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 56 Srznyr NORYRF,WVYY\a05-25-59\a350 YOF ERANY SNVYHER\aRIRETERRA ZBAEBR RE 2\a601 J. RYVMNORGU NG ZBAEBR #13  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: NORYRF&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03811} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 4</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 08:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Oebbxqnyr ng Fabubzvfu</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gOebbxqnyr ng Fabubzvfu - 1124 Cvar Nir, Fabubzvfu, 98290 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 95 Srznyr Cg pnzr va jvgu TYS erfhygvat va jevfg naq unaq senpgherf, haqre 250#, purpx jvgu EA gb or fher guvf vf gur Oebbxqnyr va Fabubzvfu if. gur bar va Zbaebr.  Ur qvqa'g tvir n ybpngvba.  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: EVYRL&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03810} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 2715 Uneevfba Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Havg #4</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 04:52</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu R-2 ba G-1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03809} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Orgunal ng Cnpvsvp - 916 Cnpvsvp Nir syef 3,4,5    , Rirergg, 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: #412</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 02:04</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu Y-1 ba G-1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03807} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 3333 148gu Fg FJ, Ylaajbbq, JN 98087&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Havg 107-N</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 00:46</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Abegujrfg Ubfcvgny & Zrqvpny Pragre - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gAbegujrfg Ubfcvgny & Zrqvpny Pragre - RE - 1550 Abegu 115gu Fgerrg     , Frnggyr, 98133 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabpbz jvgu R-10 ba G-23 sbe na 88lbs urnq ynp sebz n snyy, genafcbeg gb Abegujrfg Ubfcvgny</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03806} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny - RE - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 10</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 01:35</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Onyyneq</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFjrqvfu Zrqvpny Pragre- Onyyneq - 5300 Gnyyzna Nir AJ     , Frnggyr, 98107 Vacngvrag erpbirel sbe certanag jbzra</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 34 Srznyr Cg arrqvat genafcbeg gb Onyyneq sbe vacngvrag erpbirel sbe certanag jbzra, cg vf n urebva nqvpg, 9 jrrxf nybat ba certanapl, ab VI be zbavgbe, OYF,   &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: NIREL&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03805} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: EZ 2015</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/24 - 00:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Uneobeivrj Zrqvpny Pragre - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gUneobeivrj Zrqvpny Pragre - RE - 325 9gu Nir, Frnggyr, 98104 RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 54 Znyr Cg vf vaghongrq, zbavgbe, zhygvcyr yvarf, Sragnaby, Cerfbqrk, NEG yvar, CVPP yvar, vf 283#, tbvat gb UZP sbe shegure pner, whfg unq fhetrel ohg vf gbb pbzcyvpngrq sbe Fxntvg gb unaqyr  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: YRQSBEQ&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03804} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 10121 Rireterra Jnl, Rirergg, JN 98204&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 20:33</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu R-6 ba G-1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03803} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Juvqorl Trareny - 101 Abegu Znva Fgerrg    , Pbhcrivyyr, 98239&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Zrq Fhetr 21-O</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 20:45</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q-621</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 66 Znyr Cg pnzr va jvgu PBCQ vffhrf, vf ba Nyohgreby arof gb xrrc fngf nobir 93%, fnyvar ybpx, zbavgbe, unf fgevqbe ov-yng  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: UNECRE&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03801} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: EZ 3005</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 20:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Xvgfnc Zragny Urnygu</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gXvgfnc Zragny Urnygu - 5455 Nyzven Qe AR, Oerzregba , 98311 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 14 Srznyr Cg pnzr va jvgu qrcerffvba naq FV, cneragf jnag ure genafcbegrq sbe zragny riny naq nqzvg  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: ZBORET&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03802} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 8</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 20:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225 Zrq Fhetr</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 79 Srznyr Cg pnzr va jvgu evtug oebxra uvc, haqre 250#  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: UHAFVXRE&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03800} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 1 (Rzretrag Pbqr Erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Cvpavp Cbvag Eq & 140gu Fg FJ, Rqzbaqf, JN 98026&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 17:48</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabpbz jvgu O-11 sbe na ZIP, PBQR </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03799} <qvi>\a\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 9</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 18:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Pnfpnqr Orunivbeny Urnygu </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gPnfpnqr Orunivbeny Urnygu  - 12844 Zvyvgnel Eq Fbhgu , Ghxjvyn , 98168 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 75 Znyr Cg pnzr va jvgu nphgr cflpubfvf, ntvgngrq, ibyhagnel onpnhfr fba vf znxvat gur Cg tb ohg gur Cg vf abg noyr gb znxr uvf bja qrpvfvbaf  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FNAQVSRE&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03798} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Gur Pbggntrf ng Znelfivyyr - 1216 Tebir Fg    , Znelfivyyr, 98270&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: O Pbggntr</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 16:11</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg     , Rirergg, 98201 RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 74 Srznyr Cg unf fuvatyrf va ure rlr, arrqf genafcbeg vagb RE sbe riny  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: QNUYTERA&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03797} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 2930 Ublg Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Havg #1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 15:08</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu R-1 ba G-1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03796} <qvi>\a\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: EZ 2027</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 15:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Yvsr Pner Pragre bs Zbhag Ireaba</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gYvsr Pner Pragre bs Zbhag Ireaba - 2120 Rnfg Qvivfvba Fgerrg    , Zbhag Ireaba, 98274 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 83 Srznyr Cg pnzr va jvgu pryyhyvgvf, qryvevhz, Uk bs qrzragvn, orq pbasvarq, 211#  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: TVOFBA&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03792} <qvi>\a\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 223 R Onxreivrj Eq, Oryyvatunz, JN 98226&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Fcevat Perrx Nffvfgrq Yvivat, EZ 302</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 13:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Jungpbz Ubfcvpr Ubhfr</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gJungpbz Ubfcvpr Ubhfr - 2806 Qbhtynf Nir     , Oryyvatunz, 98225 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 71 Znyr Cg orvat genafcbegrq ba ubfcvpr pner, ovyy gb Jungpbz Ubfcvpr Ubhfr, haqre 250#, qrpyvavat pbaqvgvba  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: JRVYNAQ&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03793} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 1 (Rzretrag Pbqr Erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 4816 70gu Fg FJ, Zhxvygrb, JN 98275&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 12:25</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabpbz jvgu R-24 ba G-21 sbe n 48lbz oynqqre cnva jvgu n sbyrl pngurgre vffhr</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03790} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny - RE - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 9</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 11:10</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR    , Frnggyr, 98105 RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 4 Znyr Cg pnzr va ibzvgvat, sbhaq vagrepenavny znff, VI AF jvgu Mbsena, zbavgbe, snzvyl jvyy unir pne frng jura lbh neevir, jvgu zvyq qrulqengvba  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: TBAMNYRM&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03788} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 1 (Rzretrag Pbqr Erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Orgunal ng Cnpvsvp - 916 Cnpvsvp Nir syef 3,4,5    , Rirergg, 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 310</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 05:40</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R1\aGNP 1  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03787} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 1209 35gu Fg, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 01:45</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   YNQ 1\aGNP 1  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03786} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 14610 Nqzvenygl Jnl, Ylaajbbq, JN 98087&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/23 - 00:08</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R10 GNP 22\aFGNTR  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03785} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 409</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/22 - 23:08</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg     , Frnggyr, 98195 5R PPH GBJRE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 34 Srznyr ZNEL JBBQF 11/6/81\a223 JRRXF CERT,AB YNOBE\aFBO\aZVGENY INYIR NAQ GEV PHFC VAFHS\aCHYZ UGA, CNENPNEQVNY RSSHFVBA\aNFGUZN\aZBAVGBE B2\aGB HJ 5R PPH GBJRE  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: JBBQF&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03784} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 4913 F 3eq Nir, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/22 - 22:17</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R5\aGNP 1  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03783} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 16</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/22 - 22:08</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Zven Ivfgn Pner Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gZven Ivfgn Pner Pragre - 300 F 18gu Fg    , Zg Ireaba, 98274 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 92 Srznyr ZVAAVR WNTRE 11/10/23\aHANOYR GB HAEVANGR\aONPX GB ZVEN IVFGN\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: WNTRE&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03782} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 1 (Rzretrag Pbqr Erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 8</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/22 - 20:49</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg     , Rirergg, 98201 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 65 Znyr ZRYIVA TNYYNATRE 9/5/50\aP 6 NAQ 7 SK\aSEBZ GERR\aTBVAT GB CEBI RVGURE RE BE QVERPG NQZVG (QN)  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: TNYYNATRE&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03780} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/22 - 18:43</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR    , Frnggyr, 98105 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 14 Srznyr EUVNABA FUVRYQF 6/29/2001\aGLYBABY BQ\aZHPBZLFG\aGB PUVYQERAF RE  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FUVRYQF&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03777} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 2601 Fhzzvg Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/22 - 18:07</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R2 GNP 1\aRIRETERRA ZNABE  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03776} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 5</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/22 - 17:33</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Uneobeivrj Zrqvpny Pragre - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gUneobeivrj Zrqvpny Pragre - RE - 325 9gu Nir, Frnggyr, 98104 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:  Srznyr NAVGN UVYY 12/31/56\aSNYY URNQ OYRRQ\aFXHYY SK\aCK ZRQF\aGB UZP\aNQQ QRYNL, AB NYF HAVGF NIO, BEVT QVFCNGPU NG 1712  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: UVYY&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03775} <qvi>\a\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 6</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/22 - 17:17</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 63 Znyr OEVNA ZREM 11/23/52\aVGN UBYQ\aQVFYBPNGRQ SVATRE\aONPX GB ABEGU FBHAQ  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: ZREM&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03775} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 6</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/22 - 17:17</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 63 Znyr OEVNA ZREM 11/23/52\aVGN UBYQ\aQVFYBPNGRQ SVATRE\aONPX GB ABEGU FBHAQ  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: ZREM&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03774} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 7211 Envavre Qe, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Q401</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/22 - 16:22</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R5 GNP 1\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
-{Gevc Abgvsvpngvba GEVC-03773} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Gur Pbggntrf ng Znelfivyyr - 1216 Tebir Fg    , Znelfivyyr, 98270&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Q</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 10/22 - 16:03</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg     , Rirergg, 98201 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 95 Srznyr SENAPRF EHFFRYY 4/20/21\aUVC NAQ XARR CK, AB SNYY\aUK QRZRAGVN\aRAGRE NG FVQR TNGR, JRFG FVQR BS CNEXVAT YBG HAVG Q\aGB CEBI RE  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: EHFFRYY&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05269} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: EZ 437/2</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 15:15</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Ivetvavn Znfba Zrqvpny Pragre - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gIvetvavn Znfba Zrqvpny Pragre - RE - 1100 Avagu Nir     , Frnggyr, 98101 RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 79 Znyr Cg tbvat gb IZ sbe n TV cebprqher, OYF, 196#  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: ZNAYRL&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05266} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 9</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 15:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 2aq sybbe zragny urnygu havg, (byq cneg)</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 31 Znyr Cg pnzr va jvgu FV/nggrzcg, ibyhagnel genafcbeg, haqre 250#, tbvat gb byq cneg bs ubfcvgny zragny urnygu havg, znl arrq frphevgl gb rfpbeg lbh  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: RQTR&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05268} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 1 (Rzretrag Pbqr Erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 2510 J Pnfvab Eq, Rirergg, JN 98204&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 14:34</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu R-6 ba G-1 sbe n 26lbs Pk qvfpbzsbeg jvgu Uk</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05263} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 507 Fgriraf Nir, Fhygna, JN 98294&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Fhzzvgg Erunovyvgngvba</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 12:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: 701 J Ryvmnorgu Fg, Zbaebr, JN 98272</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\g701 J Ryvmnorgu Fg, Zbaebr, JN 98272 Havg #49</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 49 Znyr Cg vf tbvat gb eruno naq erdhverf genafcbeg qhr gb vagenzhfphyne urzngbzn ba unzfgevat arrqvat fgergpure genafcbeg, cyrnfr unir CPF sbez fvtarq, Cerzren vafhenapr, J&E 1ue  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: WBUAFBA&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05267} <qvi>\a\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny - RE - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 19</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 13:50</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR    , Frnggyr, 98105 RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 3 Znyr Cg unf Fgrira Wbuafba flaqebz, arrqvat genafcbeg gb RE  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: CNEXRE&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05266} <qvi>\a\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 9</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 13:10</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 2aq sybbe zragny urnygu havg, (byq cneg)</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 31 Znyr Cg pnzr va jvgu FV/nggrzcg, ibyhagnel genafcbeg, haqre 250#, tbvat gb byq cneg bs ubfcvgny zragny urnygu havg, znl arrq frphevgl gb rfpbeg lbh  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: RQTR&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05265} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 21400 72aq Nir J, Rqzbaqf, JN 98026&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 12:28</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabpbz jvgu N-20 ba G-21 sbe n 67lbs Pk Ck</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05262} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 701 J Ryvmnorgu Fg, Zbaebr, JN 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Havg #49</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 12:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: 507 Fgriraf Nir, Fhygna, JN 98294</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\g507 Fgriraf Nir, Fhygna, JN 98294 Fhzzvgg Erunovyvgngvba</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 49 Znyr Cg vf tbvat gb eruno naq erdhverf genafcbeg qhr gb vagenzhfphyne urzngbzn ba unzfgevat arrqvat fgergpure genafcbeg, cyrnfr unir CPF sbez fvtarq, Cerzren vafhenapr, J&E 1ue  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: WBUAFBA&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05264} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 7701 Uneqrfba Eq, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Fcnpr 108</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 10:49</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu R-4 ba G-1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05261} <qvi>\a\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: EZ 432/1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 11:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Abegu Pnfpnqrf Urnygu & Eruno</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gAbegu Pnfpnqrf Urnygu & Eruno - 4680 Pbeqngn Cxjnl    , Oryyvatunz, 98226 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 72 Srznyr Cg pnzr va jvgu FBO, Uk bs qvnorgrf, unf frirer jrnxarff  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: GHEARE&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-04413} <qvi>\a\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: N Xvaq Urneg- Nqhyg Snzvyl Ubzr - 18506 64gu Nir J, Ylaajbbq, 98037&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 08:45</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fjrqvfu Pnapre Vafgvghgr -21632 Uvtujnl 99, Rqzbaqf, JN 98026</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFjrqvfu Pnapre Vafgvghgr -21632 Uvtujnl 99, Rqzbaqf, JN 98026 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 76 Znyr Gkc sbe qbp ncg.\a J/E 0845c/h 0930ncg\aCg unf pnapre va uvc\aE yrt vf aba jrvtug ornevat\aCBGRRG, WVZZL\a08/29/39 194yo  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: CBGRRG&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05259} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - 1415 R Xvapnvq    , Zbhag Ireaba, 98273&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: ez 2021</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 07:56</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg     , Frnggyr, 98195 pneqvnp havg- 5 FR</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 60 Znyr gkc sbe bcra urneg fhetrel.\aCebcbsby, qbohgnzvar, A Fnyvar.\acg iragrq.\aPBYGEREN, ZNEP\a12/2/15\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: PBYGEREN&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05258} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Ynobe & Qryvirel ez 19</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 06:06</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg     , Frnggyr, 98195 Ynobe & Qryvirel</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 20 Srznyr cg vf 31 jxf trfgngvba.\aCg jnf pbagenpgvat, ohg unf fgbccvat abj.\aynfg zrnfhezrag (2 pragv)\aVI- ZNT ehaavat.\aFBYBZBA, ZBEVNU\a03/14/96\ahaqre 300yo.   &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FBYBZBA&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05257} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 3315 Ybzoneq Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Abegu Fgne Ncnegzragf - ncg 107</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 02:05</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp YNQQRE-1 GNP-1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05256} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 3315 Ybzoneq Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: havg# 107</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/15 - 01:12</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp R-1 GNP-1 sbe n 51 LBS onpx cnva</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05255} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 4</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 23:01</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Vfynaq Ubfcvgny - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gVfynaq Ubfcvgny - RE - 1211 24gu     , Nanpbegrf, 98221 RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 46 Srznyr erfc snvyher.\aA fnyvar.\aCg. ba Ov-cnc\aEBTREF, WRAAVSRE\a02/28/1970\a440yo. ONEVNGEVP Onevngevp &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: EBTREF&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05254} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 8410 Oebnqjnl Nir, Rirergg, JN 98208&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Rkgraqrq Fgnl, ez 325</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 21:53</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp R-5 GNP-1 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05253} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny - RE - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 19</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 21:06</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR    , Frnggyr, 98105 RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 1 Znyr nfguzn rknpreongvba.\aPebhc.\aENGPYVSSR, PNQRA\a01/27/15\aNYF zbavgbevat.  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: ENGPYVSSR&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05251} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 4015 164gu Fg FJ, Ylaajbbq, JN 98087&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: havg# 230</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 20:24</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabpbz ZRQVP-10 GNP-23 sbe vagbkvpngrq znyr arrqf gkc gb Ivetvavn Znfba</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05249} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Pnfpnqr Inyyrl Ubfcvgny - RE - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Re 3</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 18:42</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 N jvat 402</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:  Znyr Frra sbe Purfg Ck.\aGkc sbe Pneqvbybtl Grfgvat.\aFnyvar Ybpx.\aCg unf Avgeb cnfgr.\aYRJVF, QNIVQ\a01/01/1967\a\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Qrynl va erfcbafr qhr gb orvat ba n pnyy jura qvfcngpurq.</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: YRJVF&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05250} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 7012 67gu Cy AR, Znelfivyyr, JN 98270&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 18:51</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp NVQ66 GNP-5 gkc gb puvyqera'f</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05247} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Vfynaq Ubfcvgny - RE - 1211 24gu     , Nanpbegrf, 98221&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 5</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 17:16</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR    , Frnggyr, 98105 RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 7 Znyr Frcfvf. arpx Noprff.\aVI Syhvqf & zrqf\aJRRXRF, WNKFBA\a12/30/08\aCnerag jnagf gb evqr jvgu.\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: JRRXRF&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05245} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 16:21</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q jvat 736 oq1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 58 Srznyr Erfc snvyher.\aOV-cnc, VIf\aPHRYYNE, QRYVN\a10/30/57  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: PHRYYNE&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05244} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 6201 12gu Fg FR, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Ncg 301</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 15:53</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp R-7 GNP-1 sbe 80LBS jvgu ybjre onpx ck</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05242} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 17</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 14:55</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR    , Frnggyr, 98105 RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 17 Srznyr Cbylqeht BQ.\aVIf. Cg unf unq punepbny.\aYRBCNEQ, NZL\a03/02/1999\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: YRBCNEQ&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05241} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 1 (Rzretrag Pbqr Erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 1001 R Znevar Ivrj Qe, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Ncg T-59</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 14:52</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: FabcnpR-2 GNP-1 sbe Ryqreyl Srznyr jvgu Noq ck</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05240} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Cebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Q jvat 807 oq 1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 15:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre Cnpvsvp Pnzchf</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre Cnpvsvp Pnzchf - 916 Cnpvsvp Nir    , Rirergg, 98201 2 Fbhgu</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 72 Srznyr Rkgerzvgl Jrnxarff.\aCbffvoyr Y-fvqrq PIN.\aCNENF, SYBENAR\a05/02/1944\a150yo.   &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: CNENF&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05238} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Chtrg Fbhaq Xvqarl Pragre- Rirergg - 1005 Cnpvsvp Nirahr    , Rirergg, 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Qvnylfvf</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 14:45</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: 620 Unmry Fg</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\g620 Unmry Fg, Neyvatgba, 98223 ez 402</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 36 Znyr Gkc sbe Qvnylfvf.\aZ/J/S \a0945 c/h\a1030 Ncg\aErghea C/H 1445\aFUNJ, GNLYBE\a11/30/79\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FUNJ&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05239} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 2415 11gu Fg, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: havg# 108</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 13:49</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp R-2 GNP-1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05237} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 701 J Ryvmnorgu Fg, Zbaebr, JN 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: #49</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 12:13</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp ZRQVP-31 GNP-3 cg arrqf gkc gb CEBI</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05235} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 12806 19gu Nir FR, Rirergg, JN 98208&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: havg# 305</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 11:05</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp R-7 GNP-1 sbe ryqreyl znyr qvssvphygl oernguvat</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05234} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Pnfpnqr Inyyrl Ubfcvgny - RE - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 13</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 10:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q jvat 701 oq 2</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 55 Znyr Pneqvnp Ceboyrz\aA Fnyvar.\aCg ba B2.\aZBEEVF, WNZVFBA\a11/3/1960\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: ZBEEVF&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05233} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 201 Oevqtrjnl, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 10:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp R-2 GNP-1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05181} <qvi>\a\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 620 Unmry Fg, Neyvatgba, 98223&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: ez 402</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 09:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Chtrg Fbhaq Xvqarl Pragre- Rirergg</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gChtrg Fbhaq Xvqarl Pragre- Rirergg - 1005 Cnpvsvp Nirahr    , Rirergg, 98201 Qvnylfvf</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 36 Znyr Gkc sbe Qvnylfvf.\aZ/J/S \a0945 c/h\a1030 Ncg\aErghea C/H 1445\aFUNJ, GNLYBE\a11/30/79\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FUNJ&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05181} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 620 Unmry Fg, Neyvatgba, 98223&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: ez 402</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 09:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Chtrg Fbhaq Xvqarl Pragre- Rirergg</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gChtrg Fbhaq Xvqarl Pragre- Rirergg - 1005 Cnpvsvp Nirahr    , Rirergg, 98201 Qvnylfvf</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 36 Znyr Gkc sbe Qvnylfvf.\aZ/J/S \a0945 c/h\a1030 Ncg\aErghea C/H 1445\aFUNJ, GNLYBE\a11/30/79\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FUNJ&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05231} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 3</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 06:31</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Svefg Uvyy</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFjrqvfu Zrqvpny Pragre- Svefg Uvyy - 747 Oebnqjnl     , Frnggyr, 98122 FJ1104</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 54 Srznyr WRNAARGGR NZQNY 2/18/62\aPURFG CK\aZBAVGBE\a120 YOF\aFJRQ VFG UVYY FJ1104\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: NZQNY&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05230} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 17</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 05:46</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Pureel Uvyy</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFjrqvfu Zrqvpny Pragre- Pureel Uvyy - 500 17gu Nir     , Frnggyr, 98122 5R539</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 57 Srznyr WRNA ZHECUL 5/21/59\aFGEBXR\aFM\aGB FJRQVFU PUREEL 5R539  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: ZHECUL&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05229} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 1 (Rzretrag Pbqr Erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 19gu Nir FR & Ry Pncvgna Jnl, Rirergg, JN 98208&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 05:22</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   r7  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05228} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 9</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 03:42</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225 QN GUEH RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 66 Znyr EVPUNEQ URAEL 3/7/50\aOVCNC\aFBO\a162 YOF\aGB FWU QN GUEH RE  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: URAEL&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05227} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 5</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/14 - 01:48</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR    , Frnggyr, 98105 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 2 Znyr RIRERGG FRHZNAHGNFN 4/9/2014\aFGEVQBE\aGB PUVYQERAF\aCNERAG GB EVQR JVGU  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FRHZNAHGNFN&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05226} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 3</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 22:47</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Rireterra Urnygu</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gRireterra Urnygu - 12040 AR 128gu Fgerrg    , Xvexynaq, 98034 2538</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 92 Srznyr ZNETNERG QRAGBA 8/4/23\aFRCFVF\a135 YOF\aGB RIT XVEX 2538  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: QRAGBA&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05225} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 98201, JN&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 22:08</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   ABEGU OBHAQ V5\aGHAARY RAGENAPR \aR5  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05226} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 3</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 22:47</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Rireterra Urnygu</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gRireterra Urnygu - 12040 AR 128gu Fgerrg    , Xvexynaq, 98034 2538</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 92 Srznyr ZNETNERG QRAGBA 8/4/23\aFRCFVF\a135 YOF\aGB RIT XVEX 2538  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: QRAGBA&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05224} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Orexfuver Qe & Znqvfba Fg, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 21:43</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   r5  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05223} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 11031 19gu Nir FR, Rirergg, JN 98208&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Fnsrjnl</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 21:08</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R7  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05222} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 4</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 20:38</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Rireterra Urnygu</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gRireterra Urnygu - 12040 AR 128gu Fgerrg    , Xvexynaq, 98034 6026</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 40 Srznyr XNGUREVAR RYYFJBEGU 3/13/76\aXVQ FGBAR\aNAGVOVBGVPF\aB2\aZBAVGBE\a142YOF\aGB XVEX 6026  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: RYYFJBEGU&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05221} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 8920 Rireterra Jnl, Rirergg, JN 98208&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: ONPX CNEX YBG</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 20:35</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R6  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05219} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 3201 Fzvgu Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 18:38</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R1  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05218} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 8526 8gu Nir J, Rirergg, JN 98204&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: P</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 18:11</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R6  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05217} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Vfynaq Ubfcvgny - RE - 1211 24gu     , Nanpbegrf, 98221&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 9</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 17:03</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Pureel Uvyy</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFjrqvfu Zrqvpny Pragre- Pureel Uvyy - 500 17gu Nir     , Frnggyr, 98122 242</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 75 Znyr EBOREG FUBEG 3/19/41\aBFGRBZLRYVGVF\aVI NAGVO\aZBAVGBE\a147YOF\aFJRQ PUREEL 242  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FUBEG&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05216} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 1126 J Pnfvab Eq, Rirergg, JN 98204&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: R49</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 16:25</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R6  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05215} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 2</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 16:21</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Uneobeivrj Zrqvpny Pragre - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gUneobeivrj Zrqvpny Pragre - RE - 325 9gu Nir, Frnggyr, 98104 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 94 Znyr JNYGRE ORETFGEBZ 8/23/21\aUVG OL PNE TYS\aURNQ OYRRQ\aSNPVNY SK\aGB UZP  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: ORETFGEBZ&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05214} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 4</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 15:18</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Oebbxqnyr ng Zbaebr</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gOebbxqnyr ng Zbaebr - 15465 179gu Nir FR, Zbaebr, 98272 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 92 Srznyr VEZN WNRTRE 8/7/23\aTYS\aABA NZOHYNGBEL\aJRNX\a81 YOF\aGB OEBBXQNYR ZBAEBR  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: WNRTRE&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05213} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Znabe Pner Urnygu Freivprf - 3701 188gu Fgerrg FJ    , Ylaajbbq, 98037&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 225Q</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 14:58</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Abegujrfg Ubfcvgny & Zrqvpny Pragre - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gAbegujrfg Ubfcvgny & Zrqvpny Pragre - RE - 1550 Abegu 115gu Fgerrg     , Frnggyr, 98133 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 81 Srznyr IVIVNA INYYNF 11/22/34\aPUNATR VA PBAQVGVBA\aUNF ERPRAG FUHAG\aGB AJ UBFC\a100 YOF  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: INYYNF&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05209} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr - 14701 179gu Nir FR, Zbaebr, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 106</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 14:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Ertrapl Pner Pragre Zbaebr</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gErtrapl Pner Pragre Zbaebr - 1355 Jrfg Znva Fgerrg    , Zbaebr, 98272 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 65 Znyr XRAARGU YNORNH 11/29/50\aXARR & JEVFG VASRPGVBA\aABA NZOHYNGBEL CK\aGB ERTRAPL   &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: YNORNH&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05210} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 11</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 13:50</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cerfgvtr Pner & Erunovyvgngvba bs Oheyvatgba</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCerfgvtr Pner & Erunovyvgngvba bs Oheyvatgba - 1036 R Ivpgbel Nir    , Oheyvatgba, 98233 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 93 Srznyr YHPVYYR EVPUNEQFBA 7/20/22\aJRNXARFF NAQ HGV\aGB CERFGRVTR PNER NAQ ERUNO\aOHEYVATGBA  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: EVPUNEQFBA&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05211} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 2405 Ebpxrsryyre Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 12:57</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R2  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05207} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr - 14701 179gu Nir FR, Zbaebr, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 205</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 12:50</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Ertrapl Pner Pragre Zbaebr</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gErtrapl Pner Pragre Zbaebr - 1355 Jrfg Znva Fgerrg    , Zbaebr, 98272 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 77 Znyr WNPX JBBQ 8/9/38\aEVO SK\aABA NZOHYNGBEL\a205 YOF\aGB ERTRAPL PNER PRAGRE\aB2  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: JBBQ&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05208} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr - 14701 179gu Nir FR, Zbaebr, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: PPH1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 11:44</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 N504</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 86 Znyr IVPRAGR UREANAQRM-PBYVA ZNYR\a3/3/30\aNPHGR CARH \a128 YOF\aGB CEBI N504  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: UREANAQRM-PBYVA&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05205} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: FR Rirergg Znyy Jnl & 3eq Nir FR, Rirergg, JN 98208&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 08:59</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R6  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: VAIBY</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05204} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 1031 75gu Fg FR, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 05:05</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R5  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: ZNEAVRPR NCCGF #30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05203} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 11</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 02:48</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Rireterra Urnygu</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gRireterra Urnygu - 12040 AR 128gu Fgerrg    , Xvexynaq, 98034 7012</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 37 Znyr WBFUHN JROFGRE 3/29/79\aONPX CK\aFCVANY NOFPRFF\aARRQ ARHEB FCRPVNY\aGB RIT XVEX 7012\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: NQQ QRYNL</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: JROFGRE&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05202} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 4</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 00:50</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q1013</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 53 Znyr WBUA UVGR 3/12/63\aFBO\aYHAT PN\aZBAVGBE B2\aGB CEBI Q1013\a155YOF  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: NQQ QRYNL, QHR GB ORVAT BA N PNYY JURA PNYY ERPVRIRQ </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: UVGR&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05200} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu ZEV - 14841 179gu Nir FR    , Zbaebr, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 23:56</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Rireterra Urnygu-Zbaebr RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gRireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272 11</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 37 Znyr WBFUHN JROFGRE 3/29/79\aZEV\aJ/E\aONPX NAQ UVC CK\aE/B VASRPGVBA  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: JROFGRE&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05201} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Juvqorl Trareny - 101 Abegu Znva Fgerrg    , Pbhcrivyyr, 98239&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/13 - 00:16</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 37 Znyr PUEVFGBCRE CRGREFBA 5/7/79\aZRAGNY RINY\aABEGU FBHAQ\a174 YOF\aVAIBY VGN  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: CRGREFBA&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05199} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 11</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 23:56</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Rireterra Urnygu ZEV</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gRireterra Urnygu ZEV - 14841 179gu Nir FR    , Zbaebr, 98272 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 37 Znyr WBFUHN JROFGRE 3/29/79\aZEV\aJ/E\aONPX NAQ UVC CK\aE/B VASRPGVBA  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: JROFGRE&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05198} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 1818 Cnpvsvp Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 23:25</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   YNQ 1\aGNP1  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05197} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Pnfpnqr Inyyrl Ubfcvgny - RE - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 16</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 11:15</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 33 Srznyr WNFZVAR RIRERGG 12/19/82\aFPUVMB\aVAIBY VGN\aERFGENVAGF\aGB ABEGU FBHAQ R&G  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: RIRERGG&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05196} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 2001 ZpQbhtny Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 22:35</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R2  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05195} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 7</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 21:56</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225 406.1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 70 Znyr WREEL OHEAF 4/14/46\aPURFG CK\aRYI GEVC\aCARH\aVI\aZBAVGBE\a190 YOF\aGB FWU 406.1  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: OHEAF&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05194} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 10417 3eq Nir FR, Rirergg, JN 98208&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 20:35</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R43\aGNP1  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05193} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 811 112gu Fg FJ, Rirergg, JN 98204&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: T103</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 20:19</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R12 GNP 23  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05192} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 9615 Ubyyl Qe, Rirergg, JN 98204&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: O08</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 20:04</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   ZRQ 1  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: UVTU OC</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05191} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 4709 Irfcre Qe, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 19:36</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R1 GNP 1  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: CNEXVAT TNENTR BSSS NYYRL</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05189} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Pnfpnqr Inyyrl Ubfcvgny - RE - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 10</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 18:00</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Bylzcvp Cynpr Ergverzrag & Nffvfgrq Yvivat</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gBylzcvp Cynpr Ergverzrag & Nffvfgrq Yvivat - 20909 Bylzcvp Cynpr    , Neyvatgba, 98223 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 86 Znyr TRBETR PHZZVATF 5/26/30\aYRNX PNGU\aABA NZOYHNGBEL\aORQ PBASVARQ\a180YOF\aGB BYLZCVP CYNPR\a20909 BYLZCVP CY  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: PHZZVATF&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05188} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 3315 Ebpxrsryyre Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 17:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   YNQ 1  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05187} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fjrqvfu Zrqvpny Pragre- Onyyneq - 5300 Gnyyzna Nir AJ     , Frnggyr, 98107&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 3</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 16:51</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Svefg Uvyy</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFjrqvfu Zrqvpny Pragre- Svefg Uvyy - 747 Oebnqjnl     , Frnggyr, 98122 815J</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 90 Znyr UBJNEQ BIREZNA 7/12/25\aOBJRY BOFG\aCEBGNGR PN\aGB FJRQVFU 1FG 815J  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: BIREZNA&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05186} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Frnjnl Oyiq, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 16:27</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R6  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05185} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 7</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 13:44</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Bireynxr Ubfcvgny Zrqvpny Pragre </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gBireynxr Ubfcvgny Zrqvpny Pragre  - 1035 116gu Nirahr Abegurnfg, Oryyrihr, 98004 FBHGU 5</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 56 Znyr QNAVRY GUBZNF 12/4/59\aXVQARL FGBAR\aGB BIREYNXR FBHGU 5\a165 YOF  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: GUBZNF&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05184} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: J Znyy Qe & FR Rirergg Znyy Jnl, Rirergg, JN 98208&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 11:26</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:   R6  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05179} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Pnfpnqr Inyyrl Ubfcvgny - RE - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 7</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 09:06</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 1027</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 71 Znyr TNEL QHAA 3/13/45\aABFR OYRRQBA OYBBQ GUVAAREF \aRAG FCRPVNYVFG NG FIU\aEZ 1027\a200 YOF  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: NQQ QRYNL GB CVPX HC GVZR QHR GB ORVAT BA N PNYY JURA PNYY ERPVRIRQ </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: QHAA&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05180} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Znelfivyyr Pner Pragre  - 1821 Tebir Fg, Znelfivyyr , 98270&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 112O</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 09:15</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg     , Rirergg, 98201 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 80 Znyr EBOREG OEBJA 10/27/35\aSRIRE BS HAXABJA BEVT\aERPRAG YHZONE QENVA\aRINY GB CEBI RE\a224 YOF  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: OEBJA&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05128} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Neyvatgba Urnygu & Eruno - 620 Unmry Fg, Neyvatgba, 98223&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 402</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 08:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Pnfpnqr Inyyrl Ubfcvgny</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gPnfpnqr Inyyrl Ubfcvgny - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223 NQZVG GUEH RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 36 Znyr GNLYBE FUNJ 11/30/79\aOYBBQ GKSHFVBA\aGB PNFPNQR NQZVG GUEH RE\aQEBC BSS  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FUNJ&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05178} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 3201 Fzvgu Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Rirergg Fgngvba</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 07:19</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu Y-1 ba G-1 sbe n 40lbz Pk Ck</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05177} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 2001 Zbaebr Nir, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 02:09</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu R-5 ba G-1 sbe na hafrpher fprar</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05176} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 513 R Pnfvab Eq, Rirergg, JN 98208&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/12 - 00:01</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu R-6 ba G-1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05175} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 7816 Gvzore Uvyy Qe, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: W-301</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/11 - 21:05</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu R-5 ba G-1, abg fher nobhg gur havg ahzore ohg nqqerff fubhyq or pbeerpg</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05174} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 3201 Fzvgu Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Rirergg Genafvg</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/11 - 21:03</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu Y-1 ba G-1 sbe na UOQ znyr</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05173} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 201 16gu Nir R, Frnggyr, JN 98112&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Tebhc Urnygu Prageny</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/11 - 21:45</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Ivetvavn Znfba Zrqvpny Pragre - RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gIvetvavn Znfba Zrqvpny Pragre - RE - 1100 Avagu Nir     , Frnggyr, 98101 RE</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 81 Znyr Cg pnzr va jvgu PBCQ rknpreongvba, zbavgbe, bkltra, Tebhc Urnygu #3316093  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: PUNCZNA&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05172} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: fe 526 naq fbhguobhaq V-5&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/11 - 20:34</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu R-3 ba G-1 sbe n ebyybire ZIP jvgu zvabef</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05170} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Pnyvsbeavn Fg & Ublg Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/11 - 19:45</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu R-3 ba G-1 sbe n znyr snyy Cg</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05168} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 9</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/11 - 19:50</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Zven Ivfgn Pner Pragre</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gZven Ivfgn Pner Pragre - 300 F 18gu Fg    , Zg Ireaba, 98274 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 69 Srznyr Cg pnzr va jvgu jrnxarff naq carhzbavn, tbvat onpx gb FAS  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: TNEENEQ&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05167} <qvi>\a\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 7</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/11 - 19:05</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Ertrapl Pner Pragre Zbaebr</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gErtrapl Pner Pragre Zbaebr - 1355 Jrfg Znva Fgerrg    , Zbaebr, 98272 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 94 Znyr Cg jnf genafcbegrq gb RE rneyvre sbe n snyy, sbhaq senpgherq uvc, ab fhetrel, tbvat onpx gb FAS,   &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: ONVYRL&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05166} <qvi>\a\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fjrqvfu Zrqvpny Pragre- Svefg Uvyy - 747 Oebnqjnl     , Frnggyr, 98122&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: 6R, ebbz 664</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/11 - 18:10</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Xvaqerq Ubfcvgny- Svefg Uvyy</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gXvaqerq Ubfcvgny- Svefg Uvyy - 1334 Greel Nir    , Frnggyr, 98101 YGNP Havg</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 25 Znyr Cg pnzr va jvgu pneqvnp naq erfcvengbel snvyher, iragrq, genpu jvgu qrrc fhpgvbavat arrqrq, VI AF bayl, zbavgbe, pbagnpg vfbyngvba, Tebhc Urnygu ahzore 5255721  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: OEBJA&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05165} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 6210 Rnfg Qe, Rirergg, JN 98203&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/11 - 17:47</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu R-4 ba G-1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05164} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Vfynaq Ubfcvgny - RE - 1211 24gu     , Nanpbegrf, 98221&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: RE 5</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/11 - 18:20</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gFxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 EZ 2024</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 86 Znyr FGRZV tbvat gb Fxntvg, VI Urcneva, zbavgbe, haqre 250#, QBO 06-02-30  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: NQNZF&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05163} <qvi>\a\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: 3020 Oebnqjnl Nir, Rirergg, JN 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Rirergg Ubhfvat Nhgubevgl havg #614</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/11 - 17:02</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Haxabja</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gHaxabja </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE:     &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: Fabcnp jvgu R-2 ba G-1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: Haxabja&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05158} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Cebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Q-603/1</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/11 - 16:30</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre Cnpvsvp Pnzchf</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCebivqrapr Ertvbany Zrqvpny Pragre Cnpvsvp Pnzchf - 916 Cnpvsvp Nir    , Rirergg, 98201 Va-cngvrag Eruno</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 67 Srznyr Cg pnzr va jvgu tnaterar ba ure gbr(f), vf abg jrvtug ornevat, 170#, Ovyy gb Cebivqrapr  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: OENQL&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05152} <qvi>\a\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: EZ 3015</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/11 - 15:15</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: Wbfrcuvar Fhafrg Ubzr</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gWbfrcuvar Fhafrg Ubzr - 9901 272aq Cynpr    , Fgnajbbq, 98292 </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 78 Srznyr Cg pnzr va jvgu frvmherf, Uk bs PIN, orq pbasvarq  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FJNAORET&aofc;</qvi>
+{Gevc Abgvsvpngvba GEVC-05153} <qvi>\a\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gERFCBAQ GB: Chtrg Fbhaq Xvqarl Pragre- Rirergg - 1005 Cnpvsvp Nirahr    , Rirergg, 98201&aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gEBBZ: Qvnylfvf</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gCVPX HC NG GUVF GVZR 12/11 - 14:45</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGENAFCBEG GB: 620 Unmry Fg</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\g620 Unmry Fg, Neyvatgba, 98223 ez 402</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gSBE: 36 Znyr Gkc sbe Qvnylfvf.\aZ/J/S \a0945 c/h\a1030 Ncg\aErghea C/H 1445\aFUNJ, GNLYBE\a11/30/79\a  &aofc;</qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gGEVC ABGRF: </qvi>\a<qvi>\a\g&aofc;</qvi>\a<qvi>\a\gANZR: FUNJ&aofc;</qvi>
 
 */
 
@@ -123,62 +124,8 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgAbegujrfgNzohynaprPPG() {
 
     qbGrfg("G1",
-        "{Gevc Abgvsvpngvba GEVC-03871} <qvi>\a" +
-        "\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fjrqvfu Pnapre Vafgvghgr - Rqzbaqf - 21605 76gu Nir J # 100, Rqzbaqf, JN 98026&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/27 - 10:50</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Znabe Pner Urnygu Freivprf</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gZnabe Pner Urnygu Freivprf - 3701 188gu Fgerrg FJ    , Ylaajbbq, 98037 ez 138 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 84 Znyr Gkc sbe genafshfvba. hanoyr gb fvg hc. Cg ba B2. 189yo. \a" +
-        "GHTOL, ZNHEVPR\a" +
-        "08/02/1931\a" +
-        "J/E C/H 1050 Ncg 1120   &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: GHTOL&aofc;</qvi>",
-
-        "VQ:03871",
-        "HAVG:AJ14",
-        "CEV:3",
-        "CYNPR:Fjrqvfu Pnapre Vafgvghgr - Rqzbaqf",
-        "NQQE:21605 76gu Nir J",
-        "NCG:100",
-        "PVGL:Rqzbaqf",
-        "FG:JN",
-        "VASB:84 Znyr Gkc sbe genafshfvba. hanoyr gb fvg hc. Cg ba B2. 189yo.\aGHTOL, ZNHEVPR\a08/02/1931\aJ/E C/H 1050 Ncg 1120\aCVPX HC NG GUVF GVZR 10/27 - 10:50\aGENAFCBEG GB: Znabe Pner Urnygu Freivprf\aZnabe Pner Urnygu Freivprf - 3701 188gu Fgerrg FJ , Ylaajbbq, 98037 ez 138",
-        "ANZR:GHTOL");
-
-    qbGrfg("G2",
-        "{Gevc Abgvsvpngvba GEVC-03886} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "{Gevc Abgvsvpngvba GEVC-05269} <qvi>\a" +
+        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -186,15 +133,113 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: 1930 Zreevyy Perrx Cxjl, Rirergg, JN 98203&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: Fbhgu raq bs ohvyqvat</qvi>\a" +
+        "\gEBBZ: EZ 437/2</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/27 - 12:06</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 15:15</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Ivetvavn Znfba Zrqvpny Pragre - RE</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gIvetvavn Znfba Zrqvpny Pragre - RE - 1100 Avagu Nir     , Frnggyr, 98101 RE</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 79 Znyr Cg tbvat gb IZ sbe n TV cebprqher, OYF, 196#  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: ZNAYRL&aofc;</qvi>",
+
+        "VQ:05269",
+        "HAVG:AJ18",
+        "CEV:2",
+        "CYNPR:Fg. Wbfrcu Ubfcvgny- Oryyvatunz",
+        "NQQE:2901 Fdhnyvphz Cnexjnl",
+        "NCG:437/2",
+        "VASB:79 Znyr Cg tbvat gb IZ sbe n TV cebprqher, OYF, 196#\aCVPX HC NG GUVF GVZR 12/15 - 15:15\aGENAFCBEG GB: Ivetvavn Znfba Zrqvpny Pragre - RE\aIvetvavn Znfba Zrqvpny Pragre - RE - 1100 Avagu Nir , Frnggyr, 98101 RE",
+        "ANZR:ZNAYRL");
+
+    qbGrfg("G2",
+        "{Gevc Abgvsvpngvba GEVC-05266} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: RE 9</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 15:30</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gFxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 2aq sybbe zragny urnygu havg, (byq cneg)</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 31 Znyr Cg pnzr va jvgu FV/nggrzcg, ibyhagnel genafcbeg, haqre 250#, tbvat gb byq cneg bs ubfcvgny zragny urnygu havg, znl arrq frphevgl gb rfpbeg lbh  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: RQTR&aofc;</qvi>",
+
+        "VQ:05266",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Havgrq Trareny Ubfcvgny - RE",
+        "NQQE:2000 Ubfcvgny Qevir",
+        "NCG:RE 9",
+        "VASB:31 Znyr Cg pnzr va jvgu FV/nggrzcg, ibyhagnel genafcbeg, haqre 250#, tbvat gb byq cneg bs ubfcvgny zragny urnygu havg, znl arrq frphevgl gb rfpbeg lbh\aCVPX HC NG GUVF GVZR 12/15 - 15:30\aGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny\aFxntvg Inyyrl Ubcfvgny - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 2aq sybbe zragny urnygu havg, (byq cneg)",
+        "ANZR:RQTR");
+
+    qbGrfg("G3",
+        "{Gevc Abgvsvpngvba GEVC-05268} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 1 (Rzretrag Pbqr Erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 2510 J Pnfvab Eq, Rirergg, JN 98204&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 14:34</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -210,24 +255,313 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGEVC ABGRF: Fabcnp jvgu R-4 ba G-1 sbe yrt cnva sebz n snyy</qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp jvgu R-6 ba G-1 sbe n 26lbs Pk qvfpbzsbeg jvgu Uk</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\gANZR: Haxabja&aofc;</qvi>",
 
-        "VQ:03886",
+        "VQ:05268",
+        "HAVG:AJ16",
+        "CEV:1",
+        "NQQE:2510 J Pnfvab Eq",
+        "FG:JN",
+        "VASB:CVPX HC NG GUVF GVZR 12/15 - 14:34\aHaxabja\aGEVC ABGRF: Fabcnp jvgu R-6 ba G-1 sbe n 26lbs Pk qvfpbzsbeg jvgu Uk");
+
+    qbGrfg("G4",
+        "{Gevc Abgvsvpngvba GEVC-05263} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 507 Fgriraf Nir, Fhygna, JN 98294&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: Fhzzvgg Erunovyvgngvba</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 12:30</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: 701 J Ryvmnorgu Fg, Zbaebr, JN 98272</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g701 J Ryvmnorgu Fg, Zbaebr, JN 98272 Havg #49</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 49 Znyr Cg vf tbvat gb eruno naq erdhverf genafcbeg qhr gb vagenzhfphyne urzngbzn ba unzfgevat arrqvat fgergpure genafcbeg, cyrnfr unir CPF sbez fvtarq, Cerzren vafhenapr, J&E 1ue  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: WBUAFBA&aofc;</qvi>",
+
+        "VQ:05263",
+        "HAVG:AJ20",
+        "CEV:3",
+        "NQQE:507 Fgriraf Nir",
+        "NCG:Fhzzvgg Erunovyvgngvba",
+        "FG:JN",
+        "VASB:49 Znyr Cg vf tbvat gb eruno naq erdhverf genafcbeg qhr gb vagenzhfphyne urzngbzn ba unzfgevat arrqvat fgergpure genafcbeg, cyrnfr unir CPF sbez fvtarq, Cerzren vafhenapr, J&E 1ue\aCVPX HC NG GUVF GVZR 12/15 - 12:30\aGENAFCBEG GB: 701 J Ryvmnorgu Fg, Zbaebr, JN 98272\a701 J Ryvmnorgu Fg, Zbaebr, JN 98272 Havg #49",
+        "ANZR:WBUAFBA");
+
+    qbGrfg("G5",
+        "{Gevc Abgvsvpngvba GEVC-05267} <qvi>\a" +
+        "\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny - RE - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: RE 19</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 13:50</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR    , Frnggyr, 98105 RE</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 3 Znyr Cg unf Fgrira Wbuafba flaqebz, arrqvat genafcbeg gb RE  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: CNEXRE&aofc;</qvi>",
+
+        "VQ:05267",
+        "HAVG:AJ14",
+        "CEV:2",
+        "CYNPR:Fg. Wbfrcu Ubfcvgny - RE",
+        "NQQE:2901 Fdhnyvphz Cnexjnl",
+        "NCG:RE 19",
+        "VASB:3 Znyr Cg unf Fgrira Wbuafba flaqebz, arrqvat genafcbeg gb RE\aCVPX HC NG GUVF GVZR 12/15 - 13:50\aGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE\aFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR , Frnggyr, 98105 RE",
+        "ANZR:CNEXRE");
+
+    qbGrfg("G6",
+        "{Gevc Abgvsvpngvba GEVC-05266} <qvi>\a" +
+        "\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: RE 9</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 13:10</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gFxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 2aq sybbe zragny urnygu havg, (byq cneg)</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 31 Znyr Cg pnzr va jvgu FV/nggrzcg, ibyhagnel genafcbeg, haqre 250#, tbvat gb byq cneg bs ubfcvgny zragny urnygu havg, znl arrq frphevgl gb rfpbeg lbh  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: RQTR&aofc;</qvi>",
+
+        "VQ:05266",
+        "HAVG:AJ14",
+        "CEV:2",
+        "CYNPR:Havgrq Trareny Ubfcvgny - RE",
+        "NQQE:2000 Ubfcvgny Qevir",
+        "NCG:RE 9",
+        "VASB:31 Znyr Cg pnzr va jvgu FV/nggrzcg, ibyhagnel genafcbeg, haqre 250#, tbvat gb byq cneg bs ubfcvgny zragny urnygu havg, znl arrq frphevgl gb rfpbeg lbh\aCVPX HC NG GUVF GVZR 12/15 - 13:10\aGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny\aFxntvg Inyyrl Ubcfvgny - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 2aq sybbe zragny urnygu havg, (byq cneg)",
+        "ANZR:RQTR");
+
+    qbGrfg("G7",
+        "{Gevc Abgvsvpngvba GEVC-05265} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 21400 72aq Nir J, Rqzbaqf, JN 98026&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 12:28</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: Fabpbz jvgu N-20 ba G-21 sbe n 67lbs Pk Ck</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05265",
         "HAVG:AJ16",
         "CEV:2",
-        "NQQE:1930 Zreevyy Perrx Cxjl",
-        "NCG:Fbhgu raq bs ohvyqvat",
-        "PVGL:Rirergg",
+        "NQQE:21400 72aq Nir J",
         "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/27 - 12:06\aHaxabja\aGEVC ABGRF: Fabcnp jvgu R-4 ba G-1 sbe yrt cnva sebz n snyy");
+        "VASB:CVPX HC NG GUVF GVZR 12/15 - 12:28\aHaxabja\aGEVC ABGRF: Fabpbz jvgu N-20 ba G-21 sbe n 67lbs Pk Ck");
 
-    qbGrfg("G3",
-        "{Gevc Abgvsvpngvba GEVC-03884} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+    qbGrfg("G8",
+        "{Gevc Abgvsvpngvba GEVC-05262} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 701 J Ryvmnorgu Fg, Zbaebr, JN 98272&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: Havg #49</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 12:30</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: 507 Fgriraf Nir, Fhygna, JN 98294</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g507 Fgriraf Nir, Fhygna, JN 98294 Fhzzvgg Erunovyvgngvba</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 49 Znyr Cg vf tbvat gb eruno naq erdhverf genafcbeg qhr gb vagenzhfphyne urzngbzn ba unzfgevat arrqvat fgergpure genafcbeg, cyrnfr unir CPF sbez fvtarq, Cerzren vafhenapr, J&E 1ue  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: WBUAFBA&aofc;</qvi>",
+
+        "VQ:05262",
+        "HAVG:AJ20",
+        "CEV:3",
+        "NQQE:701 J Ryvmnorgu Fg",
+        "NCG:Havg #49",
+        "FG:JN",
+        "VASB:49 Znyr Cg vf tbvat gb eruno naq erdhverf genafcbeg qhr gb vagenzhfphyne urzngbzn ba unzfgevat arrqvat fgergpure genafcbeg, cyrnfr unir CPF sbez fvtarq, Cerzren vafhenapr, J&E 1ue\aCVPX HC NG GUVF GVZR 12/15 - 12:30\aGENAFCBEG GB: 507 Fgriraf Nir, Fhygna, JN 98294\a507 Fgriraf Nir, Fhygna, JN 98294 Fhzzvgg Erunovyvgngvba",
+        "ANZR:WBUAFBA");
+
+    qbGrfg("G9",
+        "{Gevc Abgvsvpngvba GEVC-05264} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 7701 Uneqrfba Eq, Rirergg, JN 98203&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: Fcnpr 108</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 10:49</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp jvgu R-4 ba G-1</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05264",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:7701 Uneqrfba Eq",
+        "NCG:Fcnpr 108",
+        "FG:JN",
+        "VASB:CVPX HC NG GUVF GVZR 12/15 - 10:49\aHaxabja\aGEVC ABGRF: Fabcnp jvgu R-4 ba G-1");
+
+    qbGrfg("G10",
+        "{Gevc Abgvsvpngvba GEVC-05261} <qvi>\a" +
+        "\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -239,23 +573,23 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: EZ 445</qvi>\a" +
+        "\gEBBZ: EZ 432/1</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/27 - 12:00</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 11:00</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Oryyvatunz Urnygu Pner & Eruno</qvi>\a" +
+        "\gGENAFCBEG GB: Abegu Pnfpnqrf Urnygu & Eruno</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gOryyvatunz Urnygu Pner & Eruno - 1200 Ovepujbbq Nir    , Oryyvatunz, 98225 </qvi>\a" +
+        "\gAbegu Pnfpnqrf Urnygu & Eruno - 4680 Pbeqngn Cxjnl    , Oryyvatunz, 98226 </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 82 Znyr Cg pnzr va jvgu ulcbkvn naq erany snvyher, tbvat onpx gb FAS nsgre ubfcvgny nqzvg  &aofc;</qvi>\a" +
+        "\gSBE: 72 Srznyr Cg pnzr va jvgu FBO, Uk bs qvnorgrf, unf frirer jrnxarff  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -263,118 +597,19 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: TNEPVN&aofc;</qvi>",
+        "\gANZR: GHEARE&aofc;</qvi>",
 
-        "VQ:03884",
-        "HAVG:AJ12",
+        "VQ:05261",
+        "HAVG:AJ14",
         "CEV:3",
         "CYNPR:Fg. Wbfrcu Ubfcvgny- Oryyvatunz",
         "NQQE:2901 Fdhnyvphz Cnexjnl",
-        "NCG:445",
-        "PVGL:Oryyvatunz",
-        "VASB:82 Znyr Cg pnzr va jvgu ulcbkvn naq erany snvyher, tbvat onpx gb FAS nsgre ubfcvgny nqzvg\aCVPX HC NG GUVF GVZR 10/27 - 12:00\aGENAFCBEG GB: Oryyvatunz Urnygu Pner & Eruno\aOryyvatunz Urnygu Pner & Eruno - 1200 Ovepujbbq Nir , Oryyvatunz, 98225",
-        "ANZR:TNEPVN");
+        "NCG:432/1",
+        "VASB:72 Srznyr Cg pnzr va jvgu FBO, Uk bs qvnorgrf, unf frirer jrnxarff\aCVPX HC NG GUVF GVZR 12/15 - 11:00\aGENAFCBEG GB: Abegu Pnfpnqrf Urnygu & Eruno\aAbegu Pnfpnqrf Urnygu & Eruno - 4680 Pbeqngn Cxjnl , Oryyvatunz, 98226",
+        "ANZR:GHEARE");
 
-    qbGrfg("G4",
-        "{Gevc Abgvsvpngvba GEVC-03885} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 7518 Urngure Jnl, Rirergg, JN 98203&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/27 - 10:54</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: Fabcnp jvgu R-5 ba G-1 sbe n 76lbs oybbq pybgf</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03885",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:7518 Urngure Jnl",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/27 - 10:54\aHaxabja\aGEVC ABGRF: Fabcnp jvgu R-5 ba G-1 sbe n 76lbs oybbq pybgf");
-
-    qbGrfg("G5",
-        "{Gevc Abgvsvpngvba GEVC-03883} <qvi>\a" +
-        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr - 14701 179gu Nir FR, Zbaebr, 98272&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: PPH 1</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/27 - 11:00</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q-654</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 41 Znyr Cg pnzr va jvgu nphgr cnaperngvgvf, qvnorgvp, VI Vafhyva naq AF, orq pbasvarq, 225#, zbavgbe  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: RQQL&aofc;</qvi>",
-
-        "VQ:03883",
-        "HAVG:AJ18",
-        "CEV:2",
-        "CYNPR:Rireterra Urnygu-Zbaebr",
-        "NQQE:14701 179gu Nir FR",
-        "NCG:PPH 1",
-        "PVGL:Zbaebr",
-        "VASB:41 Znyr Cg pnzr va jvgu nphgr cnaperngvgvf, qvnorgvp, VI Vafhyva naq AF, orq pbasvarq, 225#, zbavgbe\aCVPX HC NG GUVF GVZR 10/27 - 11:00\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre\aCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg , Rirergg, 98201 Q-654",
-        "ANZR:RQQL");
-
-    qbGrfg("G6",
-        "{Gevc Abgvsvpngvba GEVC-03870} <qvi>\a" +
+    qbGrfg("G11",
+        "{Gevc Abgvsvpngvba GEVC-04413} <qvi>\a" +
         "\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -383,112 +618,7 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Znabe Pner Urnygu Freivprf - 3701 188gu Fgerrg FJ    , Ylaajbbq, 98037&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: ez 138 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/27 - 10:50</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Fjrqvfu Pnapre Vafgvghgr - Rqzbaqf - 21605 76gu Nir J # 100, Rqzbaqf, JN 98026</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gFjrqvfu Pnapre Vafgvghgr - Rqzbaqf - 21605 76gu Nir J # 100, Rqzbaqf, JN 98026 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 84 Znyr Gkc sbe genafshfvba. hanoyr gb fvg hc. Cg ba B2. 189yo. \a" +
-        "GHTOL, ZNHEVPR\a" +
-        "08/02/1931\a" +
-        "J/E C/H 1050 Ncg 1120   &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: GHTOL&aofc;</qvi>",
-
-        "VQ:03870",
-        "HAVG:AJ14",
-        "CEV:3",
-        "CYNPR:Znabe Pner Urnygu Freivprf",
-        "NQQE:3701 188gu Fgerrg FJ",
-        "NCG:138",
-        "PVGL:Ylaajbbq",
-        "VASB:84 Znyr Gkc sbe genafshfvba. hanoyr gb fvg hc. Cg ba B2. 189yo.\aGHTOL, ZNHEVPR\a08/02/1931\aJ/E C/H 1050 Ncg 1120\aCVPX HC NG GUVF GVZR 10/27 - 10:50\aGENAFCBEG GB: Fjrqvfu Pnapre Vafgvghgr - Rqzbaqf - 21605 76gu Nir J # 100, Rqzbaqf, JN 98026\aFjrqvfu Pnapre Vafgvghgr - Rqzbaqf - 21605 76gu Nir J # 100, Rqzbaqf, JN 98026",
-        "ANZR:GHTOL");
-
-    qbGrfg("G7",
-        "{Gevc Abgvsvpngvba GEVC-03881} <qvi>\a" +
-        "\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: Re 3</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/27 - 08:00</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 34 Znyr Cg qrgnvarq. teniryl qvfnoyrq. Clfpu cg. \a" +
-        "FGVPXARL, THL 9/13/81\a" +
-        "haqre 250yo 0800c/h  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: FGVPXARL&aofc;</qvi>",
-
-        "VQ:03881",
-        "HAVG:AJ14",
-        "CEV:3",
-        "CYNPR:Fxntvg Inyyrl Ubfcvgny - RE",
-        "NQQE:1415 R Xvapnvq Fg",
-        "NCG:Re 3",
-        "PVGL:Zbhag Ireaba",
-        "VASB:34 Znyr Cg qrgnvarq. teniryl qvfnoyrq. Clfpu cg.\aFGVPXARL, THL 9/13/81\ahaqre 250yo 0800c/h\aCVPX HC NG GUVF GVZR 10/27 - 08:00\aGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G\aPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284",
-        "ANZR:FGVPXARL");
-
-    qbGrfg("G8",
-        "{Gevc Abgvsvpngvba GEVC-03882} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 5316 Jrgzber Nir, Rirergg, JN 98203&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: N Xvaq Urneg- Nqhyg Snzvyl Ubzr - 18506 64gu Nir J, Ylaajbbq, 98037&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -496,86 +626,43 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/27 - 06:22</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 08:45</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "\gGENAFCBEG GB: Fjrqvfu Pnapre Vafgvghgr -21632 Uvtujnl 99, Rqzbaqf, JN 98026</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
+        "\gFjrqvfu Pnapre Vafgvghgr -21632 Uvtujnl 99, Rqzbaqf, JN 98026 </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
+        "\gSBE: 76 Znyr Gkc sbe qbp ncg.\a" +
+        " J/E 0845c/h 0930ncg\a" +
+        "Cg unf pnapre va uvc\a" +
+        "E yrt vf aba jrvtug ornevat\a" +
+        "CBGRRG, WVZZL\a" +
+        "08/29/39 194yo  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGEVC ABGRF: Fabcnp R-5 GNP-1 70 LBZ frvmher</qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
+        "\gANZR: CBGRRG&aofc;</qvi>",
 
-        "VQ:03882",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:5316 Jrgzber Nir",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/27 - 06:22\aHaxabja\aGEVC ABGRF: Fabcnp R-5 GNP-1 70 LBZ frvmher");
+        "VQ:04413",
+        "HAVG:AJ14",
+        "CEV:3",
+        "CYNPR:N Xvaq Urneg- Nqhyg Snzvyl Ubzr",
+        "NQQE:18506 64gu Nir J",
+        "VASB:76 Znyr Gkc sbe qbp ncg.\aJ/E 0845c/h 0930ncg\aCg unf pnapre va uvc\aE yrt vf aba jrvtug ornevat\aCBGRRG, WVZZL\a08/29/39 194yo\aCVPX HC NG GUVF GVZR 12/15 - 08:45\aGENAFCBEG GB: Fjrqvfu Pnapre Vafgvghgr -21632 Uvtujnl 99, Rqzbaqf, JN 98026\aFjrqvfu Pnapre Vafgvghgr -21632 Uvtujnl 99, Rqzbaqf, JN 98026",
+        "ANZR:CBGRRG");
 
-    qbGrfg("G9",
-        "{Gevc Abgvsvpngvba GEVC-03880} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 6215 Pbzzrepvny Nir, Rirergg, JN 98203&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/27 - 01:09</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: fabcnp R- 5 GNP-1</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03880",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:6215 Pbzzrepvny Nir",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/27 - 01:09\aHaxabja\aGEVC ABGRF: fabcnp R- 5 GNP-1");
-
-    qbGrfg("G10",
-        "{Gevc Abgvsvpngvba GEVC-03879} <qvi>\a" +
+    qbGrfg("G12",
+        "{Gevc Abgvsvpngvba GEVC-05259} <qvi>\a" +
         "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -584,15 +671,15 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - 1415 R Xvapnvq    , Zbhag Ireaba, 98273&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: RE 1</qvi>\a" +
+        "\gEBBZ: ez 2021</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 22:53</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 07:56</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -600,13 +687,15 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg     , Frnggyr, 98195 7 ARP 7252</qvi>\a" +
+        "\gHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg     , Frnggyr, 98195 pneqvnp havg- 5 FR</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 73 Znyr FBO. univat ZV. Uk bs ZV/ fgebxr. unf urc ybpx. PUS. Pk zavgbe. \a" +
-        "YRFGRE, GUBZNF \a" +
-        "9/10/42\a" +
+        "\gSBE: 60 Znyr gkc sbe bcra urneg fhetrel.\a" +
+        "Cebcbsby, qbohgnzvar, A Fnyvar.\a" +
+        "cg iragrq.\a" +
+        "PBYGEREN, ZNEP\a" +
+        "12/2/15\a" +
         "  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -615,20 +704,475 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: YRFGRE&aofc;</qvi>",
+        "\gANZR: PBYGEREN&aofc;</qvi>",
 
-        "VQ:03879",
+        "VQ:05259",
         "HAVG:AJ10",
         "CEV:2",
-        "CYNPR:Rireterra Urnygu-Zbaebr RE",
-        "NQQE:14701 179gu Nir FR",
-        "NCG:RE 1",
-        "PVGL:ZBAEBR",
-        "VASB:73 Znyr FBO. univat ZV. Uk bs ZV/ fgebxr. unf urc ybpx. PUS. Pk zavgbe.\aYRFGRE, GUBZNF\a9/10/42\aCVPX HC NG GUVF GVZR 10/26 - 22:53\aGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre\aHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg , Frnggyr, 98195 7 ARP 7252",
-        "ANZR:YRFGRE");
+        "CYNPR:Fxntvg Inyyrl Ubfcvgny",
+        "NQQE:1415 R Xvapnvq",
+        "NCG:2021",
+        "VASB:60 Znyr gkc sbe bcra urneg fhetrel.\aCebcbsby, qbohgnzvar, A Fnyvar.\acg iragrq.\aPBYGEREN, ZNEP\a12/2/15\aCVPX HC NG GUVF GVZR 12/15 - 07:56\aGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre\aHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg , Frnggyr, 98195 pneqvnp havg- 5 FR",
+        "ANZR:PBYGEREN");
 
-    qbGrfg("G11",
-        "{Gevc Abgvsvpngvba GEVC-03878} <qvi>\a" +
+    qbGrfg("G13",
+        "{Gevc Abgvsvpngvba GEVC-05258} <qvi>\a" +
+        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: Ynobe & Qryvirel ez 19</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 06:06</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg     , Frnggyr, 98195 Ynobe & Qryvirel</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 20 Srznyr cg vf 31 jxf trfgngvba.\a" +
+        "Cg jnf pbagenpgvat, ohg unf fgbccvat abj.\a" +
+        "ynfg zrnfhezrag (2 pragv)\a" +
+        "VI- ZNT ehaavat.\a" +
+        "FBYBZBA, ZBEVNU\a" +
+        "03/14/96\a" +
+        "haqre 300yo.   &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: FBYBZBA&aofc;</qvi>",
+
+        "VQ:05258",
+        "HAVG:AJ18",
+        "CEV:2",
+        "CYNPR:Fg. Wbfrcu Ubfcvgny- Oryyvatunz",
+        "NQQE:2901 Fdhnyvphz Cnexjnl",
+        "NCG:Ynobe & Qryvirel ez 19",
+        "VASB:20 Srznyr cg vf 31 jxf trfgngvba.\aCg jnf pbagenpgvat, ohg unf fgbccvat abj.\aynfg zrnfhezrag (2 pragv)\aVI- ZNT ehaavat.\aFBYBZBA, ZBEVNU\a03/14/96\ahaqre 300yo.\aCVPX HC NG GUVF GVZR 12/15 - 06:06\aGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre\aHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg , Frnggyr, 98195 Ynobe & Qryvirel",
+        "ANZR:FBYBZBA");
+
+    qbGrfg("G14",
+        "{Gevc Abgvsvpngvba GEVC-05257} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 3315 Ybzoneq Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: Abegu Fgne Ncnegzragf - ncg 107</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 02:05</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp YNQQRE-1 GNP-1</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05257",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:3315 Ybzoneq Nir",
+        "NCG:Abegu Fgne Ncnegzragf - ncg 107",
+        "FG:JN",
+        "VASB:CVPX HC NG GUVF GVZR 12/15 - 02:05\aHaxabja\aGEVC ABGRF: Fabcnp YNQQRE-1 GNP-1");
+
+    qbGrfg("G15",
+        "{Gevc Abgvsvpngvba GEVC-05256} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 3315 Ybzoneq Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: havg# 107</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/15 - 01:12</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp R-1 GNP-1 sbe n 51 LBS onpx cnva</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05256",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:3315 Ybzoneq Nir",
+        "NCG:havg# 107",
+        "FG:JN",
+        "VASB:CVPX HC NG GUVF GVZR 12/15 - 01:12\aHaxabja\aGEVC ABGRF: Fabcnp R-1 GNP-1 sbe n 51 LBS onpx cnva");
+
+    qbGrfg("G16",
+        "{Gevc Abgvsvpngvba GEVC-05255} <qvi>\a" +
+        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: RE 4</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 23:01</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Vfynaq Ubfcvgny - RE</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gVfynaq Ubfcvgny - RE - 1211 24gu     , Nanpbegrf, 98221 RE</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 46 Srznyr erfc snvyher.\a" +
+        "A fnyvar.\a" +
+        "Cg. ba Ov-cnc\a" +
+        "EBTREF, WRAAVSRE\a" +
+        "02/28/1970\a" +
+        "440yo. ONEVNGEVP Onevngevp &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: EBTREF&aofc;</qvi>",
+
+        "VQ:05255",
+        "HAVG:AJ18",
+        "CEV:2",
+        "CYNPR:Fxntvg Inyyrl Ubfcvgny - RE",
+        "NQQE:1415 R Xvapnvq Fg",
+        "NCG:RE 4",
+        "VASB:46 Srznyr erfc snvyher.\aA fnyvar.\aCg. ba Ov-cnc\aEBTREF, WRAAVSRE\a02/28/1970\a440yo. ONEVNGEVP Onevngevp\aCVPX HC NG GUVF GVZR 12/14 - 23:01\aGENAFCBEG GB: Vfynaq Ubfcvgny - RE\aVfynaq Ubfcvgny - RE - 1211 24gu , Nanpbegrf, 98221 RE",
+        "ANZR:EBTREF");
+
+    qbGrfg("G17",
+        "{Gevc Abgvsvpngvba GEVC-05254} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 8410 Oebnqjnl Nir, Rirergg, JN 98208&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: Rkgraqrq Fgnl, ez 325</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 21:53</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp R-5 GNP-1 </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05254",
+        "HAVG:AJ20",
+        "CEV:2",
+        "NQQE:8410 Oebnqjnl Nir",
+        "NCG:Rkgraqrq Fgnl, ez 325",
+        "FG:JN",
+        "VASB:CVPX HC NG GUVF GVZR 12/14 - 21:53\aHaxabja\aGEVC ABGRF: Fabcnp R-5 GNP-1");
+
+    qbGrfg("G18",
+        "{Gevc Abgvsvpngvba GEVC-05253} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny - RE - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: RE 19</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 21:06</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR    , Frnggyr, 98105 RE</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 1 Znyr nfguzn rknpreongvba.\a" +
+        "Pebhc.\a" +
+        "ENGPYVSSR, PNQRA\a" +
+        "01/27/15\a" +
+        "NYF zbavgbevat.  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: ENGPYVSSR&aofc;</qvi>",
+
+        "VQ:05253",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Fg. Wbfrcu Ubfcvgny - RE",
+        "NQQE:2901 Fdhnyvphz Cnexjnl",
+        "NCG:RE 19",
+        "VASB:1 Znyr nfguzn rknpreongvba.\aPebhc.\aENGPYVSSR, PNQRA\a01/27/15\aNYF zbavgbevat.\aCVPX HC NG GUVF GVZR 12/14 - 21:06\aGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE\aFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR , Frnggyr, 98105 RE",
+        "ANZR:ENGPYVSSR");
+
+    qbGrfg("G19",
+        "{Gevc Abgvsvpngvba GEVC-05251} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 4015 164gu Fg FJ, Ylaajbbq, JN 98087&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: havg# 230</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 20:24</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: Fabpbz ZRQVP-10 GNP-23 sbe vagbkvpngrq znyr arrqf gkc gb Ivetvavn Znfba</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05251",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:4015 164gu Fg FJ",
+        "NCG:havg# 230",
+        "FG:JN",
+        "VASB:CVPX HC NG GUVF GVZR 12/14 - 20:24\aHaxabja\aGEVC ABGRF: Fabpbz ZRQVP-10 GNP-23 sbe vagbkvpngrq znyr arrqf gkc gb Ivetvavn Znfba");
+
+    qbGrfg("G20",
+        "{Gevc Abgvsvpngvba GEVC-05249} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Pnfpnqr Inyyrl Ubfcvgny - RE - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: Re 3</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 18:42</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 N jvat 402</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:  Znyr Frra sbe Purfg Ck.\a" +
+        "Gkc sbe Pneqvbybtl Grfgvat.\a" +
+        "Fnyvar Ybpx.\a" +
+        "Cg unf Avgeb cnfgr.\a" +
+        "YRJVF, QNIVQ\a" +
+        "01/01/1967\a\a" +
+        "  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: Qrynl va erfcbafr qhr gb orvat ba n pnyy jura qvfcngpurq.</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: YRJVF&aofc;</qvi>",
+
+        "VQ:05249",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Pnfpnqr Inyyrl Ubfcvgny - RE",
+        "NQQE:330 F Fgvyynthnzvfu Nir",
+        "NCG:Re 3",
+        "VASB:Znyr Frra sbe Purfg Ck.\aGkc sbe Pneqvbybtl Grfgvat.\aFnyvar Ybpx.\aCg unf Avgeb cnfgr.\aYRJVF, QNIVQ\a01/01/1967\aCVPX HC NG GUVF GVZR 12/14 - 18:42\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre\aCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg , Rirergg, 98201 N jvat 402\aGEVC ABGRF: Qrynl va erfcbafr qhr gb orvat ba n pnyy jura qvfcngpurq.",
+        "ANZR:YRJVF");
+
+    qbGrfg("G21",
+        "{Gevc Abgvsvpngvba GEVC-05250} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 7012 67gu Cy AR, Znelfivyyr, JN 98270&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 18:51</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp NVQ66 GNP-5 gkc gb puvyqera'f</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05250",
+        "HAVG:AJ20",
+        "CEV:2",
+        "NQQE:7012 67gu Cy AR",
+        "FG:JN",
+        "VASB:CVPX HC NG GUVF GVZR 12/14 - 18:51\aHaxabja\aGEVC ABGRF: Fabcnp NVQ66 GNP-5 gkc gb puvyqera'f");
+
+    qbGrfg("G22",
+        "{Gevc Abgvsvpngvba GEVC-05247} <qvi>\a" +
         "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -641,11 +1185,11 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: RE 3</qvi>\a" +
+        "\gEBBZ: RE 5</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 23:30</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 17:16</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -657,9 +1201,12 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 14 Srznyr Nphgr Pbyvgvf. Gnpulpneqvn. Noq Ck. Pk zbavgbe. VI Syhvqf\a" +
-        "PVYYNEERNY, TNEPVRYN \a" +
-        "8/24/01  &aofc;</qvi>\a" +
+        "\gSBE: 7 Znyr Frcfvf. arpx Noprff.\a" +
+        "VI Syhvqf & zrqf\a" +
+        "JRRXRF, WNKFBA\a" +
+        "12/30/08\a" +
+        "Cnerag jnagf gb evqr jvgu.\a" +
+        "  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -667,51 +1214,51 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: PVYYNEERNY&aofc;</qvi>",
+        "\gANZR: JRRXRF&aofc;</qvi>",
 
-        "VQ:03878",
+        "VQ:05247",
         "HAVG:AJ18",
         "CEV:2",
         "CYNPR:Vfynaq Ubfcvgny - RE",
         "NQQE:1211 24gu",
-        "NCG:RE 3",
-        "PVGL:Nanpbegrf",
-        "VASB:14 Srznyr Nphgr Pbyvgvf. Gnpulpneqvn. Noq Ck. Pk zbavgbe. VI Syhvqf\aPVYYNEERNY, TNEPVRYN\a8/24/01\aCVPX HC NG GUVF GVZR 10/26 - 23:30\aGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE\aFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR , Frnggyr, 98105 RE",
-        "ANZR:PVYYNEERNY");
+        "NCG:RE 5",
+        "VASB:7 Znyr Frcfvf. arpx Noprff.\aVI Syhvqf & zrqf\aJRRXRF, WNKFBA\a12/30/08\aCnerag jnagf gb evqr jvgu.\aCVPX HC NG GUVF GVZR 12/14 - 17:16\aGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE\aFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR , Frnggyr, 98105 RE",
+        "ANZR:JRRXRF");
 
-    qbGrfg("G12",
-        "{Gevc Abgvsvpngvba GEVC-03873} <qvi>\a" +
-        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+    qbGrfg("G23",
+        "{Gevc Abgvsvpngvba GEVC-05245} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: Ez 111-N</qvi>\a" +
+        "\gEBBZ: RE</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 22:45</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 16:21</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Snvesnk Ubfcvgny</qvi>\a" +
+        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSnvesnk Ubfcvgny - 10200 AR 132aq Fgerrg     , Xvexynaq, 98034 </qvi>\a" +
+        "\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q jvat 736 oq1</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 23 Znyr Qrcerffva. fhvpvqny Vqrn. Ibyhagnel Cflpu cngvrag. \a" +
-        "YHXN, ZNGGURJ 06/18/1992\a" +
-        "haqre 250yo.   &aofc;</qvi>\a" +
+        "\gSBE: 58 Srznyr Erfc snvyher.\a" +
+        "OV-cnc, VIf\a" +
+        "PHRYYNE, QRYVN\a" +
+        "10/30/57  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -719,20 +1266,67 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: YHXN&aofc;</qvi>",
+        "\gANZR: PHRYYNE&aofc;</qvi>",
 
-        "VQ:03873",
-        "HAVG:AJ20",
-        "CEV:3",
-        "CYNPR:Fg. Wbfrcu Ubfcvgny- Oryyvatunz",
-        "NQQE:2901 Fdhnyvphz Cnexjnl",
-        "NCG:111-N",
-        "PVGL:Oryyvatunz",
-        "VASB:23 Znyr Qrcerffva. fhvpvqny Vqrn. Ibyhagnel Cflpu cngvrag.\aYHXN, ZNGGURJ 06/18/1992\ahaqre 250yo.\aCVPX HC NG GUVF GVZR 10/26 - 22:45\aGENAFCBEG GB: Snvesnk Ubfcvgny\aSnvesnk Ubfcvgny - 10200 AR 132aq Fgerrg , Xvexynaq, 98034",
-        "ANZR:YHXN");
+        "VQ:05245",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Fxntvg Inyyrl Ubfcvgny - RE",
+        "NQQE:1415 R Xvapnvq Fg",
+        "NCG:RE",
+        "VASB:58 Srznyr Erfc snvyher.\aOV-cnc, VIf\aPHRYYNE, QRYVN\a10/30/57\aCVPX HC NG GUVF GVZR 12/14 - 16:21\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre\aCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg , Rirergg, 98201 Q jvat 736 oq1",
+        "ANZR:PHRYYNE");
 
-    qbGrfg("G13",
-        "{Gevc Abgvsvpngvba GEVC-03877} <qvi>\a" +
+    qbGrfg("G24",
+        "{Gevc Abgvsvpngvba GEVC-05244} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 6201 12gu Fg FR, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: Ncg 301</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 15:53</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp R-7 GNP-1 sbe 80LBS jvgu ybjre onpx ck</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05244",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:6201 12gu Fg FR",
+        "NCG:301",
+        "FG:JN",
+        "VASB:CVPX HC NG GUVF GVZR 12/14 - 15:53\aHaxabja\aGEVC ABGRF: Fabcnp R-7 GNP-1 sbe 80LBS jvgu ybjre onpx ck");
+
+    qbGrfg("G25",
+        "{Gevc Abgvsvpngvba GEVC-05242} <qvi>\a" +
         "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -745,25 +1339,26 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: RE 15</qvi>\a" +
+        "\gEBBZ: RE 17</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 20:44</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 14:55</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a" +
+        "\gGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q jvat 856 oq 1</qvi>\a" +
+        "\gFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR    , Frnggyr, 98105 RE</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 74 Srznyr Bofghpgvir Carhzbavn. VI syhvqf. NPYF Zbavgbevat.\a" +
-        " 74 LBS ZBBER, PUEVFGN\a" +
-        "10/06/41\a" +
+        "\gSBE: 17 Srznyr Cbylqeht BQ.\a" +
+        "VIf. Cg unf unq punepbny.\a" +
+        "YRBCNEQ, NZL\a" +
+        "03/02/1999\a" +
         "  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -772,120 +1367,20 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: ZBBER&aofc;</qvi>",
+        "\gANZR: YRBCNEQ&aofc;</qvi>",
 
-        "VQ:03877",
+        "VQ:05242",
         "HAVG:AJ18",
         "CEV:2",
         "CYNPR:Fxntvg Inyyrl Ubfcvgny - RE",
         "NQQE:1415 R Xvapnvq Fg",
-        "NCG:RE 15",
-        "PVGL:Zbhag Ireaba",
-        "VASB:74 Srznyr Bofghpgvir Carhzbavn. VI syhvqf. NPYF Zbavgbevat.\a74 LBS ZBBER, PUEVFGN\a10/06/41\aCVPX HC NG GUVF GVZR 10/26 - 20:44\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre\aCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg , Rirergg, 98201 Q jvat 856 oq 1",
-        "ANZR:ZBBER");
+        "NCG:RE 17",
+        "VASB:17 Srznyr Cbylqeht BQ.\aVIf. Cg unf unq punepbny.\aYRBCNEQ, NZL\a03/02/1999\aCVPX HC NG GUVF GVZR 12/14 - 14:55\aGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE\aFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR , Frnggyr, 98105 RE",
+        "ANZR:YRBCNEQ");
 
-    qbGrfg("G14",
-        "{Gevc Abgvsvpngvba GEVC-03875} <qvi>\a" +
-        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Pnfpnqr Inyyrl Ubfcvgny - RE - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: RE 14</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 21:00</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Snvesnk Ubfcvgny</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSnvesnk Ubfcvgny - 916 Cnpvsvp Nir, Rirergg, 98201 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 62 Znyr Vaiby Cflpuy 61 LBZ gevrq unatvat uvzfrys gbqnl. Fhvpvqny.  EA fnvq ur'f orra pbbcrengvir gbavtug. \a" +
-        "CNEE, ZVPUNRY 5/10/54  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: CNEE&aofc;</qvi>",
-
-        "VQ:03875",
-        "HAVG:AJ10",
-        "CEV:3",
-        "CYNPR:Pnfpnqr Inyyrl Ubfcvgny - RE",
-        "NQQE:330 F Fgvyynthnzvfu Nir",
-        "NCG:RE 14",
-        "PVGL:Neyvatgba",
-        "VASB:62 Znyr Vaiby Cflpuy 61 LBZ gevrq unatvat uvzfrys gbqnl. Fhvpvqny. EA fnvq ur'f orra pbbcrengvir gbavtug.\aCNEE, ZVPUNRY 5/10/54\aCVPX HC NG GUVF GVZR 10/26 - 21:00\aGENAFCBEG GB: Snvesnk Ubfcvgny\aSnvesnk Ubfcvgny - 916 Cnpvsvp Nir, Rirergg, 98201",
-        "ANZR:CNEE");
-
-    qbGrfg("G15",
-        "{Gevc Abgvsvpngvba GEVC-03876} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 2000 Urjvgg Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 20:29</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: NVQ-9 GNP-1 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03876",
-        "HAVG:AJ12",
-        "CEV:2",
-        "NQQE:2000 Urjvgg Nir",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/26 - 20:29\aHaxabja\aGEVC ABGRF: NVQ-9 GNP-1");
-
-    qbGrfg("G16",
-        "{Gevc Abgvsvpngvba GEVC-03874} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+    qbGrfg("G26",
+        "{Gevc Abgvsvpngvba GEVC-05241} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -893,15 +1388,15 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: 2000 Urjvgg Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: 1001 R Znevar Ivrj Qe, Rirergg, JN 98201&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: Rirergg Riragf Pragre. Znva Ragenapr qbja gur fgvnef naq gb gur yrsg</qvi>\a" +
+        "\gEBBZ: Ncg T-59</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 19:49</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 14:52</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -917,330 +1412,22 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGEVC ABGRF: FABCNP NVQR 9 GNP-1 </qvi>\a" +
+        "\gGEVC ABGRF: FabcnpR-2 GNP-1 sbe Ryqreyl Srznyr jvgu Noq ck</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\gANZR: Haxabja&aofc;</qvi>",
 
-        "VQ:03874",
-        "HAVG:AJ12",
+        "VQ:05241",
+        "HAVG:AJ16",
         "CEV:1",
-        "NQQE:2000 Urjvgg Nir",
-        "NCG:Rirergg Riragf Pragre. Znva Ragenapr qbja gur fgvnef naq gb gur yrsg",
-        "PVGL:Rirergg",
+        "NQQE:1001 R Znevar Ivrj Qe",
+        "NCG:T-59",
         "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/26 - 19:49\aHaxabja\aGEVC ABGRF: FABCNP NVQR 9 GNP-1");
+        "VASB:CVPX HC NG GUVF GVZR 12/14 - 14:52\aHaxabja\aGEVC ABGRF: FabcnpR-2 GNP-1 sbe Ryqreyl Srznyr jvgu Noq ck");
 
-    qbGrfg("G17",
-        "{Gevc Abgvsvpngvba GEVC-03872} <qvi>\a" +
-        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: Ez 3004</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 17:56</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg     , Frnggyr, 98195 EA jvyy gryy lbh jung sybbe</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 88 Znyr nbegvp svoebfvf. Fnyvar ybpx. Pk zbavgbevat. haqre 250yo.\a" +
-        "FXRYGBA, PYVSSBEQ\a" +
-        "03/05/1928 NYF  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: FXRYGBA&aofc;</qvi>",
-
-        "VQ:03872",
-        "HAVG:AJ18",
-        "CEV:2",
-        "CYNPR:Fxntvg Inyyrl Ubcfvgny",
-        "NQQE:1415 Rnfg Xvapnvq Fg",
-        "NCG:3004",
-        "PVGL:Zbhag Ireaba",
-        "VASB:88 Znyr nbegvp svoebfvf. Fnyvar ybpx. Pk zbavgbevat. haqre 250yo.\aFXRYGBA, PYVSSBEQ\a03/05/1928 NYF\aCVPX HC NG GUVF GVZR 10/26 - 17:56\aGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre\aHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg , Frnggyr, 98195 EA jvyy gryy lbh jung sybbe",
-        "ANZR:FXRYGBA");
-
-    qbGrfg("G18",
-        "{Gevc Abgvsvpngvba GEVC-03867} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 120 J Pnfvab Eq, Rirergg, JN 98204&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: havg #2P</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 16:02</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: Fabcnp R-6 GNP-1 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03867",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:120 J Pnfvab Eq",
-        "NCG:havg #2P",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/26 - 16:02\aHaxabja\aGEVC ABGRF: Fabcnp R-6 GNP-1");
-
-    qbGrfg("G19",
-        "{Gevc Abgvsvpngvba GEVC-03866} <qvi>\a" +
-        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fjrqvfu Pnapre Vafgvghgr - Rqzbaqf - 21605 76gu Nir J # 100, Rqzbaqf, JN 98026&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 15:36</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Rqzbaqf</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gFjrqvfu Zrqvpny Pragre- Rqzbaqf - 21601 76gu Nirahr Jrfg    , Rqzbaqf, 98026 RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 66 Znyr Pnapre Vafgvghgr arrqf gkc sbe cngvrag gb RE. uk bs Pbyba pnapre. Onpx Cnva. \a" +
-        "NLENCRGLNA, INYYZVE OYF\a" +
-        "01/31/1950  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: NLENCRGLNA&aofc;</qvi>",
-
-        "VQ:03866",
-        "HAVG:AJ10",
-        "CEV:3",
-        "CYNPR:Fjrqvfu Pnapre Vafgvghgr - Rqzbaqf",
-        "NQQE:21605 76gu Nir J",
-        "NCG:100",
-        "PVGL:Rqzbaqf",
-        "FG:JN",
-        "VASB:66 Znyr Pnapre Vafgvghgr arrqf gkc sbe cngvrag gb RE. uk bs Pbyba pnapre. Onpx Cnva.\aNLENCRGLNA, INYYZVE OYF\a01/31/1950\aCVPX HC NG GUVF GVZR 10/26 - 15:36\aGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Rqzbaqf\aFjrqvfu Zrqvpny Pragre- Rqzbaqf - 21601 76gu Nirahr Jrfg , Rqzbaqf, 98026 RE",
-        "ANZR:NLENCRGLNA");
-
-    qbGrfg("G20",
-        "{Gevc Abgvsvpngvba GEVC-03860} <qvi>\a" +
-        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: ez 442</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 14:30</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Orgunal ng Fvyireynxr</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gOrgunal ng Fvyireynxr - 2235 Ynxr Urvtugf Qe    , Rirergg, 98208 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 64 Srznyr nqzvg sbe PIN. orq-pbasvarq. haqre 250yo. \a" +
-        "ZHFTENIR, YVAQN\a" +
-        "06/23/1951  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: ZHFTENIR&aofc;</qvi>",
-
-        "VQ:03860",
-        "HAVG:AJ20",
-        "CEV:3",
-        "CYNPR:Fg. Wbfrcu Ubfcvgny- Oryyvatunz",
-        "NQQE:2901 Fdhnyvphz Cnexjnl",
-        "NCG:442",
-        "PVGL:Oryyvatunz",
-        "VASB:64 Srznyr nqzvg sbe PIN. orq-pbasvarq. haqre 250yo.\aZHFTENIR, YVAQN\a06/23/1951\aCVPX HC NG GUVF GVZR 10/26 - 14:30\aGENAFCBEG GB: Orgunal ng Fvyireynxr\aOrgunal ng Fvyireynxr - 2235 Ynxr Urvtugf Qe , Rirergg, 98208",
-        "ANZR:ZHFTENIR");
-
-    qbGrfg("G21",
-        "{Gevc Abgvsvpngvba GEVC-03864} <qvi>\a" +
-        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: Ez 3001</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 14:00</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Zven Ivfgn Pner Pragre</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gZven Ivfgn Pner Pragre - 300 F 18gu Fg    , Zg Ireaba, 98274 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 81 Srznyr Nqzvg sbe Fhapbcr. HGV. NYBP. \a" +
-        "ORVZRE, YHPVYYR\a" +
-        "9/01/34   &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: ORVZRE&aofc;</qvi>",
-
-        "VQ:03864",
-        "HAVG:AJ18",
-        "CEV:3",
-        "CYNPR:Fxntvg Inyyrl Ubcfvgny",
-        "NQQE:1415 Rnfg Xvapnvq Fg",
-        "NCG:3001",
-        "PVGL:Zbhag Ireaba",
-        "VASB:81 Srznyr Nqzvg sbe Fhapbcr. HGV. NYBP.\aORVZRE, YHPVYYR\a9/01/34\aCVPX HC NG GUVF GVZR 10/26 - 14:00\aGENAFCBEG GB: Zven Ivfgn Pner Pragre\aZven Ivfgn Pner Pragre - 300 F 18gu Fg , Zg Ireaba, 98274",
-        "ANZR:ORVZRE");
-
-    qbGrfg("G22",
-        "{Gevc Abgvsvpngvba GEVC-03865} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 243 Ryz Fg, Rirergg, JN 98203&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: Havg# 411</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 13:26</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: Fabcnp R-4 GNP-1 sbe 18 LBS onpx ck naq qvmmvarff</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03865",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:243 Ryz Fg",
-        "NCG:Havg# 411",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/26 - 13:26\aHaxabja\aGEVC ABGRF: Fabcnp R-4 GNP-1 sbe 18 LBS onpx ck naq qvmmvarff");
-
-    qbGrfg("G23",
-        "{Gevc Abgvsvpngvba GEVC-03779} <qvi>\a" +
+    qbGrfg("G27",
+        "{Gevc Abgvsvpngvba GEVC-05240} <qvi>\a" +
         "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -1249,32 +1436,31 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: Cebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: QVNTABFGVPF</qvi>\a" +
+        "\gEBBZ: Q jvat 807 oq 1</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 11:20</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 15:00</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Wbfrcuvar Fhafrg Ubzr</qvi>\a" +
+        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre Cnpvsvp Pnzchf</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gWbfrcuvar Fhafrg Ubzr - 9901 272aq Cynpr    , Fgnajbbq, 98292 812</qvi>\a" +
+        "\gCebivqrapr Ertvbany Zrqvpny Pragre Cnpvsvp Pnzchf - 916 Cnpvsvp Nir    , Rirergg, 98201 2 Fbhgu</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 83 Srznyr JNVGVAT ZRQPNVQ CERNHGU#\a" +
-        "YNHEN TRYYRVA 10/12/32\a" +
-        "ARRQF PNG FPNA NG FIU QVNT\a" +
-        "JVGU PBAGENFG SBE CBFF XVQARL NAQ OYNQQNE PN\a" +
-        "NCCG NG 1215 \a" +
-        "QNHTUGRE JBHYQ YVXR GB EVQR JVGU. J/E  &aofc;</qvi>\a" +
+        "\gSBE: 72 Srznyr Rkgerzvgl Jrnxarff.\a" +
+        "Cbffvoyr Y-fvqrq PIN.\a" +
+        "CNENF, SYBENAR\a" +
+        "05/02/1944\a" +
+        "150yo.   &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -1282,20 +1468,19 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: TRYYRVA&aofc;</qvi>",
+        "\gANZR: CNENF&aofc;</qvi>",
 
-        "VQ:03779",
+        "VQ:05240",
         "HAVG:AJ12",
         "CEV:3",
-        "CYNPR:Fxntvg Inyyrl Ubcfvgny",
-        "NQQE:1415 Rnfg Xvapnvq Fg",
-        "NCG:QVNTABFGVPF",
-        "PVGL:Zbhag Ireaba",
-        "VASB:83 Srznyr JNVGVAT ZRQPNVQ CERNHGU#\aYNHEN TRYYRVA 10/12/32\aARRQF PNG FPNA NG FIU QVNT\aJVGU PBAGENFG SBE CBFF XVQARL NAQ OYNQQNE PN\aNCCG NG 1215\aQNHTUGRE JBHYQ YVXR GB EVQR JVGU. J/E\aCVPX HC NG GUVF GVZR 10/26 - 11:20\aGENAFCBEG GB: Wbfrcuvar Fhafrg Ubzr\aWbfrcuvar Fhafrg Ubzr - 9901 272aq Cynpr , Fgnajbbq, 98292 812",
-        "ANZR:TRYYRVA");
+        "CYNPR:Cebivqrapr Ertvbany Zrqvpny Pragre",
+        "NQQE:1700 13gu Fgerrg",
+        "NCG:Q jvat 807 oq 1",
+        "VASB:72 Srznyr Rkgerzvgl Jrnxarff.\aCbffvoyr Y-fvqrq PIN.\aCNENF, SYBENAR\a05/02/1944\a150yo.\aCVPX HC NG GUVF GVZR 12/14 - 15:00\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre Cnpvsvp Pnzchf\aCebivqrapr Ertvbany Zrqvpny Pragre Cnpvsvp Pnzchf - 916 Cnpvsvp Nir , Rirergg, 98201 2 Fbhgu",
+        "ANZR:CNENF");
 
-    qbGrfg("G24",
-        "{Gevc Abgvsvpngvba GEVC-03859} <qvi>\a" +
+    qbGrfg("G28",
+        "{Gevc Abgvsvpngvba GEVC-05238} <qvi>\a" +
         "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -1304,28 +1489,34 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: Chtrg Fbhaq Xvqarl Pragre- Rirergg - 1005 Cnpvsvp Nirahr    , Rirergg, 98201&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: ez 2022</qvi>\a" +
+        "\gEBBZ: Qvnylfvf</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 13:00</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 14:45</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Zven Ivfgn Pner Pragre</qvi>\a" +
+        "\gGENAFCBEG GB: 620 Unmry Fg</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gZven Ivfgn Pner Pragre - 300 F 18gu Fg    , Zg Ireaba, 98274 </qvi>\a" +
+        "\g620 Unmry Fg, Neyvatgba, 98223 ez 402</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 66 Srznyr Nqzvg sbe bfgrbcbebfvf naq Sk va E uvc. Flapbcr. 227yo. \a" +
-        "SBEGUHA, WBNAAR 2/8/1950  &aofc;</qvi>\a" +
+        "\gSBE: 36 Znyr Gkc sbe Qvnylfvf.\a" +
+        "Z/J/S \a" +
+        "0945 c/h\a" +
+        "1030 Ncg\a" +
+        "Erghea C/H 1445\a" +
+        "FUNJ, GNLYBE\a" +
+        "11/30/79\a" +
+        "  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -1333,21 +1524,20 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: SBEGUHA&aofc;</qvi>",
+        "\gANZR: FUNJ&aofc;</qvi>",
 
-        "VQ:03859",
+        "VQ:05238",
         "HAVG:AJ20",
         "CEV:3",
-        "CYNPR:Fxntvg Inyyrl Ubcfvgny",
-        "NQQE:1415 Rnfg Xvapnvq Fg",
-        "NCG:2022",
-        "PVGL:Zbhag Ireaba",
-        "VASB:66 Srznyr Nqzvg sbe bfgrbcbebfvf naq Sk va E uvc. Flapbcr. 227yo.\aSBEGUHA, WBNAAR 2/8/1950\aCVPX HC NG GUVF GVZR 10/26 - 13:00\aGENAFCBEG GB: Zven Ivfgn Pner Pragre\aZven Ivfgn Pner Pragre - 300 F 18gu Fg , Zg Ireaba, 98274",
-        "ANZR:SBEGUHA");
+        "CYNPR:Chtrg Fbhaq Xvqarl Pragre- Rirergg",
+        "NQQE:1005 Cnpvsvp Nirahr",
+        "NCG:Qvnylfvf",
+        "VASB:36 Znyr Gkc sbe Qvnylfvf.\aZ/J/S\a0945 c/h\a1030 Ncg\aErghea C/H 1445\aFUNJ, GNLYBE\a11/30/79\aCVPX HC NG GUVF GVZR 12/14 - 14:45\aGENAFCBEG GB: 620 Unmry Fg\a620 Unmry Fg, Neyvatgba, 98223 ez 402",
+        "ANZR:FUNJ");
 
-    qbGrfg("G25",
-        "{Gevc Abgvsvpngvba GEVC-03863} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+    qbGrfg("G29",
+        "{Gevc Abgvsvpngvba GEVC-05239} <qvi>\a" +
+        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -1355,15 +1545,15 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: 1123 Envavre Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: 2415 11gu Fg, Rirergg, JN 98201&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: zrnqbj 2</qvi>\a" +
+        "\gEBBZ: havg# 108</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 12:29</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 13:49</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -1379,40 +1569,135 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGEVC ABGRF: Fabcnp R-2 GNP-1 </qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp R-2 GNP-1</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\gANZR: Haxabja&aofc;</qvi>",
 
-        "VQ:03863",
-        "HAVG:AJ16",
+        "VQ:05239",
+        "HAVG:AJ12",
         "CEV:2",
-        "NQQE:1123 Envavre Nir",
-        "NCG:zrnqbj 2",
-        "PVGL:Rirergg",
+        "NQQE:2415 11gu Fg",
+        "NCG:havg# 108",
         "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/26 - 12:29\aHaxabja\aGEVC ABGRF: Fabcnp R-2 GNP-1");
+        "VASB:CVPX HC NG GUVF GVZR 12/14 - 13:49\aHaxabja\aGEVC ABGRF: Fabcnp R-2 GNP-1");
 
-    qbGrfg("G26",
-        "{Gevc Abgvsvpngvba GEVC-03861} <qvi>\a" +
+    qbGrfg("G30",
+        "{Gevc Abgvsvpngvba GEVC-05237} <qvi>\a" +
         "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr - 14701 179gu Nir FR, Zbaebr, 98272&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: 701 J Ryvmnorgu Fg, Zbaebr, JN 98272&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: ez 120</qvi>\a" +
+        "\gEBBZ: #49</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 12:45</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 12:13</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp ZRQVP-31 GNP-3 cg arrqf gkc gb CEBI</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05237",
+        "HAVG:AJ10",
+        "CEV:2",
+        "NQQE:701 J Ryvmnorgu Fg",
+        "NCG:49",
+        "FG:JN",
+        "VASB:CVPX HC NG GUVF GVZR 12/14 - 12:13\aHaxabja\aGEVC ABGRF: Fabcnp ZRQVP-31 GNP-3 cg arrqf gkc gb CEBI");
+
+    qbGrfg("G31",
+        "{Gevc Abgvsvpngvba GEVC-05235} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 12806 19gu Nir FR, Rirergg, JN 98208&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: havg# 305</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 11:05</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp R-7 GNP-1 sbe ryqreyl znyr qvssvphygl oernguvat</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05235",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:12806 19gu Nir FR",
+        "NCG:havg# 305",
+        "FG:JN",
+        "VASB:CVPX HC NG GUVF GVZR 12/14 - 11:05\aHaxabja\aGEVC ABGRF: Fabcnp R-7 GNP-1 sbe ryqreyl znyr qvssvphygl oernguvat");
+
+    qbGrfg("G32",
+        "{Gevc Abgvsvpngvba GEVC-05234} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Pnfpnqr Inyyrl Ubfcvgny - RE - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: RE 13</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 10:00</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -1420,11 +1705,16 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 N jvat 708 oq 2</qvi>\a" +
+        "\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q jvat 701 oq 2</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 44 Znyr Nqzvg sbe Pk cnva/ Noq Ck. OERAANA, EBOREG 7/16/71 OYF  &aofc;</qvi>\a" +
+        "\gSBE: 55 Znyr Pneqvnp Ceboyrz\a" +
+        "A Fnyvar.\a" +
+        "Cg ba B2.\a" +
+        "ZBEEVF, WNZVFBA\a" +
+        "11/3/1960\a" +
+        "  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -1432,20 +1722,19 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: OERAANA&aofc;</qvi>",
+        "\gANZR: ZBEEVF&aofc;</qvi>",
 
-        "VQ:03861",
+        "VQ:05234",
         "HAVG:AJ10",
-        "CEV:3",
-        "CYNPR:Rireterra Urnygu-Zbaebr",
-        "NQQE:14701 179gu Nir FR",
-        "NCG:120",
-        "PVGL:Zbaebr",
-        "VASB:44 Znyr Nqzvg sbe Pk cnva/ Noq Ck. OERAANA, EBOREG 7/16/71 OYF\aCVPX HC NG GUVF GVZR 10/26 - 12:45\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre\aCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg , Rirergg, 98201 N jvat 708 oq 2",
-        "ANZR:OERAANA");
+        "CEV:2",
+        "CYNPR:Pnfpnqr Inyyrl Ubfcvgny - RE",
+        "NQQE:330 F Fgvyynthnzvfu Nir",
+        "NCG:RE 13",
+        "VASB:55 Znyr Pneqvnp Ceboyrz\aA Fnyvar.\aCg ba B2.\aZBEEVF, WNZVFBA\a11/3/1960\aCVPX HC NG GUVF GVZR 12/14 - 10:00\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre\aCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg , Rirergg, 98201 Q jvat 701 oq 2",
+        "ANZR:ZBEEVF");
 
-    qbGrfg("G27",
-        "{Gevc Abgvsvpngvba GEVC-03862} <qvi>\a" +
+    qbGrfg("G33",
+        "{Gevc Abgvsvpngvba GEVC-05233} <qvi>\a" +
         "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -1454,15 +1743,15 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Rirergg Nir & Cvar Fg, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: 201 Oevqtrjnl, Rirergg, JN 98201&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: Oruvaq gur Puhepu</qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 11:47</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 10:00</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -1478,134 +1767,21 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGEVC ABGRF: Fabcnp Ynqqre-1 GNP-1 sbe 48LBS jrnxarff. Qvnuern & ibzvggvat</qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp R-2 GNP-1</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\gANZR: Haxabja&aofc;</qvi>",
 
-        "VQ:03862",
+        "VQ:05233",
         "HAVG:AJ16",
         "CEV:2",
-        "NQQE:Rirergg Nir & Cvar Fg",
-        "NCG:Oruvaq gur Puhepu",
-        "PVGL:Rirergg",
+        "NQQE:201 Oevqtrjnl",
         "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/26 - 11:47\aHaxabja\aGEVC ABGRF: Fabcnp Ynqqre-1 GNP-1 sbe 48LBS jrnxarff. Qvnuern & ibzvggvat");
+        "VASB:CVPX HC NG GUVF GVZR 12/14 - 10:00\aHaxabja\aGEVC ABGRF: Fabcnp R-2 GNP-1");
 
-    qbGrfg("G28",
-        "{Gevc Abgvsvpngvba GEVC-03778} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Wbfrcuvar Fhafrg Ubzr - 9901 272aq Cynpr    , Fgnajbbq, 98292&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: 812</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 11:20</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gFxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 QVNTABFGVPF</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 83 Srznyr JNVGVAT ZRQPNVQ CERNHGU#\a" +
-        "YNHEN TRYYRVA 10/12/32\a" +
-        "ARRQF PNG FPNA NG FIU QVNT\a" +
-        "JVGU PBAGENFG SBE CBFF XVQARL NAQ OYNQQNE PN\a" +
-        "NCCG NG 1215 \a" +
-        "QNHTUGRE JBHYQ YVXR GB EVQR JVGU. J/E  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: TRYYRVA&aofc;</qvi>",
-
-        "VQ:03778",
-        "HAVG:AJ12",
-        "CEV:3",
-        "CYNPR:Wbfrcuvar Fhafrg Ubzr",
-        "NQQE:9901 272aq Cynpr",
-        "NCG:812",
-        "PVGL:Fgnajbbq",
-        "VASB:83 Srznyr JNVGVAT ZRQPNVQ CERNHGU#\aYNHEN TRYYRVA 10/12/32\aARRQF PNG FPNA NG FIU QVNT\aJVGU PBAGENFG SBE CBFF XVQARL NAQ OYNQQNE PN\aNCCG NG 1215\aQNHTUGRE JBHYQ YVXR GB EVQR JVGU. J/E\aCVPX HC NG GUVF GVZR 10/26 - 11:20\aGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny\aFxntvg Inyyrl Ubcfvgny - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 QVNTABFGVPF",
-        "ANZR:TRYYRVA");
-
-    qbGrfg("G29",
-        "{Gevc Abgvsvpngvba GEVC-03856} <qvi>\a" +
-        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: RE 10</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 10:00</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 25 Znyr VAIBYHAGNEL CFLPU CG\a" +
-        "YRVGARE,IVAPRAG\a" +
-        "7-20-1990\a" +
-        "150 YOF\a" +
-        "HAVGRQ TRARENY RE EZ 10\a" +
-        "GB ABEGU FBHAQ \a" +
-        "7825 ABEGU FBHAQ QEVIR  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: YRVGARE&aofc;</qvi>",
-
-        "VQ:03856",
-        "HAVG:AJ18",
-        "CEV:3",
-        "CYNPR:Havgrq Trareny Ubfcvgny - RE",
-        "NQQE:2000 Ubfcvgny Qevir",
-        "NCG:RE 10",
-        "PVGL:Frqeb Jbbyyrl",
-        "VASB:25 Znyr VAIBYHAGNEL CFLPU CG\aYRVGARE,IVAPRAG\a7-20-1990\a150 YOF\aHAVGRQ TRARENY RE EZ 10\aGB ABEGU FBHAQ\a7825 ABEGU FBHAQ QEVIR\aCVPX HC NG GUVF GVZR 10/26 - 10:00\aGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G\aPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284",
-        "ANZR:YRVGARE");
-
-    qbGrfg("G30",
-        "{Gevc Abgvsvpngvba GEVC-03791} <qvi>\a" +
+    qbGrfg("G34",
+        "{Gevc Abgvsvpngvba GEVC-05181} <qvi>\a" +
         "\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -1614,81 +1790,33 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Yvsr Pner Pragre bs Fxntvg Inyyrl - 1462 Jrfg FE-20    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: 620 Unmry Fg, Neyvatgba, 98223&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: EZ 410/O</qvi>\a" +
+        "\gEBBZ: ez 402</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 08:45</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 09:30</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Havgrq Trareny Ubfcvgny</qvi>\a" +
+        "\gGENAFCBEG GB: Chtrg Fbhaq Xvqarl Pragre- Rirergg</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gHavgrq Trareny Ubfcvgny - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284 Qnl fhetrel, guebhtu RE </qvi>\a" +
+        "\gChtrg Fbhaq Xvqarl Pragre- Rirergg - 1005 Cnpvsvp Nirahr    , Rirergg, 98201 Qvnylfvf</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 60 Znyr Cg tbvat va sbe fhetrel, abg fcrpvsvrq, ONEVNGEVP, 300#, ovyyvat Cer-Nhgu #100500993, bar jnl gevc  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: CRGREFBA&aofc;</qvi>",
-
-        "VQ:03791",
-        "HAVG:AJ14",
-        "CEV:3",
-        "CYNPR:Yvsr Pner Pragre bs Fxntvg Inyyrl",
-        "NQQE:1462 Jrfg FE-20",
-        "ZNQQE:1462 Jrfg JN 20",
-        "NCG:410/O",
-        "PVGL:Frqeb Jbbyyrl",
-        "VASB:60 Znyr Cg tbvat va sbe fhetrel, abg fcrpvsvrq, ONEVNGEVP, 300#, ovyyvat Cer-Nhgu #100500993, bar jnl gevc\aCVPX HC NG GUVF GVZR 10/26 - 08:45\aGENAFCBEG GB: Havgrq Trareny Ubfcvgny\aHavgrq Trareny Ubfcvgny - 2000 Ubfcvgny Qevir , Frqeb Jbbyyrl, 98284 Qnl fhetrel, guebhtu RE",
-        "ANZR:CRGREFBA");
-
-    qbGrfg("G31",
-        "{Gevc Abgvsvpngvba GEVC-03857} <qvi>\a" +
-        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Ertrapl Pner Pragre Zbaebr - 1355 Jrfg Znva Fgerrg    , Zbaebr, 98272&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: 112-N</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 08:40</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Rireterra Urnygu - RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gRireterra Urnygu - RE - 12040 AR 128gu Fgerrg    , Xvexynaq, 98034 RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 98 Srznyr ZNAVBA,EBOREGN\a" +
-        "12-30-1917\a" +
-        "ERTRAPL ZBAEBR EBBZ 112-N GB RIRETERRA ZBAEBR RE\a" +
-        "NQZVGGRQ SBE SNYY/ NYBG BS CNVA/ CG UNF QAE\a" +
+        "\gSBE: 36 Znyr Gkc sbe Qvnylfvf.\a" +
+        "Z/J/S \a" +
+        "0945 c/h\a" +
+        "1030 Ncg\a" +
+        "Erghea C/H 1445\a" +
+        "FUNJ, GNLYBE\a" +
+        "11/30/79\a" +
         "  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -1697,610 +1825,78 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: ZNAVBA&aofc;</qvi>",
+        "\gANZR: FUNJ&aofc;</qvi>",
 
-        "VQ:03857",
-        "HAVG:AJ10",
+        "VQ:05181",
+        "HAVG:AJ14",
         "CEV:3",
-        "CYNPR:Ertrapl Pner Pragre Zbaebr",
-        "NQQE:1355 Jrfg Znva Fgerrg",
-        "NCG:112-N",
-        "PVGL:Zbaebr",
-        "VASB:98 Srznyr ZNAVBA,EBOREGN\a12-30-1917\aERTRAPL ZBAEBR EBBZ 112-N GB RIRETERRA ZBAEBR RE\aNQZVGGRQ SBE SNYY/ NYBG BS CNVA/ CG UNF QAE\aCVPX HC NG GUVF GVZR 10/26 - 08:40\aGENAFCBEG GB: Rireterra Urnygu - RE\aRireterra Urnygu - RE - 12040 AR 128gu Fgerrg , Xvexynaq, 98034 RE",
-        "ANZR:ZNAVBA");
-
-    qbGrfg("G32",
-        "{Gevc Abgvsvpngvba GEVC-03855} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 4101 Ehpxre Nir, Rirergg, JN 98203&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/26 - 03:54</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: YNQQRE 1\a" +
-        "GNP 1\a" +
-        "FABCNP\a" +
-        "PURIREBA FGNGVBA</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03855",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:4101 Ehpxre Nir",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/26 - 03:54\aHaxabja\aGEVC ABGRF: YNQQRE 1\aGNP 1\aFABCNP\aPURIREBA FGNGVBA");
-
-    qbGrfg("G33",
-        "{Gevc Abgvsvpngvba GEVC-03854} <qvi>\a" +
-        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Pnfpnqr Inyyrl Ubfcvgny - RE - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: ebbz 2</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 23:20</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q-722</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 51 Znyr FGEBGM,XHEGVF\a" +
-        "104.5 XVYBF\a" +
-        "PURFG CNVA / PNEQVNP ZBAVGBE \a" +
-        "URCEVA QEVC\a" +
-        "PNFPNQR INYYRL UBFCVGNY RE 2 GB CEBIVQRAPR RIRERGG Q-722  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: FGEBGM&aofc;</qvi>",
-
-        "VQ:03854",
-        "HAVG:AJ18",
-        "CEV:2",
-        "CYNPR:Pnfpnqr Inyyrl Ubfcvgny - RE",
-        "NQQE:330 F Fgvyynthnzvfu Nir",
-        "NCG:2",
-        "PVGL:Neyvatgba",
-        "VASB:51 Znyr FGEBGM,XHEGVF\a104.5 XVYBF\aPURFG CNVA / PNEQVNP ZBAVGBE\aURCEVA QEVC\aPNFPNQR INYYRL UBFCVGNY RE 2 GB CEBIVQRAPR RIRERGG Q-722\aCVPX HC NG GUVF GVZR 10/25 - 23:20\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre\aCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg , Rirergg, 98201 Q-722",
-        "ANZR:FGEBGM");
-
-    qbGrfg("G34",
-        "{Gevc Abgvsvpngvba GEVC-03852} <qvi>\a" +
-        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 14426 Orireyl Cnex Eq, Rqzbaqf, JN 98026&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 22:00</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: GNP 23\a" +
-        "YNQQRE 23\a" +
-        "FABPBZ</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03852",
-        "HAVG:AJ10",
-        "CEV:2",
-        "NQQE:14426 Orireyl Cnex Eq",
-        "PVGL:Rqzbaqf",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/25 - 22:00\aHaxabja\aGEVC ABGRF: GNP 23\aYNQQRE 23\aFABPBZ");
+        "NQQE:620 Unmry Fg",
+        "NCG:402",
+        "VASB:36 Znyr Gkc sbe Qvnylfvf.\aZ/J/S\a0945 c/h\a1030 Ncg\aErghea C/H 1445\aFUNJ, GNLYBE\a11/30/79\aCVPX HC NG GUVF GVZR 12/14 - 09:30\aGENAFCBEG GB: Chtrg Fbhaq Xvqarl Pragre- Rirergg\aChtrg Fbhaq Xvqarl Pragre- Rirergg - 1005 Cnpvsvp Nirahr , Rirergg, 98201 Qvnylfvf",
+        "ANZR:FUNJ");
 
     qbGrfg("G35",
-        "{Gevc Abgvsvpngvba GEVC-03850} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "{Gevc Abgvsvpngvba GEVC-05181} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: 6920 Ybjre Evqtr Eq, Rirergg, JN 98203&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: 620 Unmry Fg, Neyvatgba, 98223&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: NCG O</qvi>\a" +
+        "\gEBBZ: ez 402</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 21:10</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 09:30</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "\gGENAFCBEG GB: Chtrg Fbhaq Xvqarl Pragre- Rirergg</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
+        "\gChtrg Fbhaq Xvqarl Pragre- Rirergg - 1005 Cnpvsvp Nirahr    , Rirergg, 98201 Qvnylfvf</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
+        "\gSBE: 36 Znyr Gkc sbe Qvnylfvf.\a" +
+        "Z/J/S \a" +
+        "0945 c/h\a" +
+        "1030 Ncg\a" +
+        "Erghea C/H 1445\a" +
+        "FUNJ, GNLYBE\a" +
+        "11/30/79\a" +
+        "  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGEVC ABGRF: RATVAR 4 \a" +
-        "GNP 1\a" +
-        "NCG O\a" +
-        "FABCNP</qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
+        "\gANZR: FUNJ&aofc;</qvi>",
 
-        "VQ:03850",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:6920 Ybjre Evqtr Eq",
-        "NCG:O",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/25 - 21:10\aHaxabja\aGEVC ABGRF: RATVAR 4\aGNP 1\aNCG O\aFABCNP");
+        "VQ:05181",
+        "HAVG:AJ20",
+        "CEV:3",
+        "NQQE:620 Unmry Fg",
+        "NCG:402",
+        "VASB:36 Znyr Gkc sbe Qvnylfvf.\aZ/J/S\a0945 c/h\a1030 Ncg\aErghea C/H 1445\aFUNJ, GNLYBE\a11/30/79\aCVPX HC NG GUVF GVZR 12/14 - 09:30\aGENAFCBEG GB: Chtrg Fbhaq Xvqarl Pragre- Rirergg\aChtrg Fbhaq Xvqarl Pragre- Rirergg - 1005 Cnpvsvp Nirahr , Rirergg, 98201 Qvnylfvf",
+        "ANZR:FUNJ");
 
     qbGrfg("G36",
-        "{Gevc Abgvsvpngvba GEVC-03849} <qvi>\a" +
+        "{Gevc Abgvsvpngvba GEVC-05231} <qvi>\a" +
         "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: RE 5</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 18:30</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q JVAT 1057 ORQ 2</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 78 Srznyr INAFCNAMXRERA,VFNORYYN\a" +
-        "8-15-1937\a" +
-        "148 YOF\a" +
-        "RIRETERRA ZBAEBR RE 5 GB \a" +
-        "CEBIVQRAPR RIRERGG, Q JVAT 1057 ORQ 2\a" +
-        "QVFBEVRAGNGVBA/ PNEQVNP ZBA.\a" +
-        "AB B2 BE QEVC  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: INAFCNAMXRERA&aofc;</qvi>",
-
-        "VQ:03849",
-        "HAVG:AJ10",
-        "CEV:2",
-        "CYNPR:Rireterra Urnygu-Zbaebr RE",
-        "NQQE:14701 179gu Nir FR",
-        "NCG:RE 5",
-        "PVGL:ZBAEBR",
-        "VASB:78 Srznyr INAFCNAMXRERA,VFNORYYN\a8-15-1937\a148 YOF\aRIRETERRA ZBAEBR RE 5 GB\aCEBIVQRAPR RIRERGG, Q JVAT 1057 ORQ 2\aQVFBEVRAGNGVBA/ PNEQVNP ZBA.\aAB B2 BE QEVC\aCVPX HC NG GUVF GVZR 10/25 - 18:30\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre\aCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg , Rirergg, 98201 Q JVAT 1057 ORQ 2",
-        "ANZR:INAFCNAMXRERA");
-
-    qbGrfg("G37",
-        "{Gevc Abgvsvpngvba GEVC-03848} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 17:40</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: 6303 UBZR NPERF</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g6303 UBZR NPERF </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 61 Znyr URAQEVPXFBA,GUBZNF\a" +
-        "09-06-1954\a" +
-        "OYF\a" +
-        "RIRETERRA ZBAEBR RE\a" +
-        "GB CEVINGR ERFVQRAPR:\a" +
-        "6303 UBZR NPERF EBNQ\a" +
-        "RIRERGGR, JN 98205\a" +
-        "OENVA PNAPRE  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: URAQEVPXFBA&aofc;</qvi>",
-
-        "VQ:03848",
-        "HAVG:AJ12",
-        "CEV:3",
-        "CYNPR:Rireterra Urnygu-Zbaebr RE",
-        "NQQE:14701 179gu Nir FR",
-        "PVGL:ZBAEBR",
-        "VASB:61 Znyr URAQEVPXFBA,GUBZNF\a09-06-1954\aOYF\aRIRETERRA ZBAEBR RE\aGB CEVINGR ERFVQRAPR:\a6303 UBZR NPERF EBNQ\aRIRERGGR, JN 98205\aOENVA PNAPRE\aCVPX HC NG GUVF GVZR 10/25 - 17:40\aGENAFCBEG GB: 6303 UBZR NPERF\a6303 UBZR NPERF",
-        "ANZR:URAQEVPXFBA");
-
-    qbGrfg("G38",
-        "{Gevc Abgvsvpngvba GEVC-03842} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 710 75gu Fg FR, Rirergg, JN 98203&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: # 6</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 16:34</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: RATVAR 5\a" +
-        "GNP 1\a" +
-        "FABCNP  NCG 6\a" +
-        "</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03842",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:710 75gu Fg FR",
-        "NCG:6",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/25 - 16:34\aHaxabja\aGEVC ABGRF: RATVAR 5\aGNP 1\aFABCNP NCG 6");
-
-    qbGrfg("G39",
-        "{Gevc Abgvsvpngvba GEVC-03838} <qvi>\a" +
-        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: 8</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 14:20</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: 1501 Pbyyvaf Eq, Frqeb-Jbbyyrl, JN 98284</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g1501 Pbyyvaf Eq, Frqeb-Jbbyyrl, JN 98284 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 88 Znyr XVGR,XRAARGU \a" +
-        "1-12-1928\a" +
-        "120 YOF\a" +
-        "HAVGRQ TRARENY RE EBBZ 8\a" +
-        "GB PBHAGEL ZRNQBJF IVYYNTR\a" +
-        "SNYY/ QRZRAGVN  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: XVGR&aofc;</qvi>",
-
-        "VQ:03838",
-        "HAVG:AJ18",
-        "CEV:3",
-        "CYNPR:Havgrq Trareny Ubfcvgny - RE",
-        "NQQE:2000 Ubfcvgny Qevir",
-        "NCG:8",
-        "PVGL:Frqeb Jbbyyrl",
-        "VASB:88 Znyr XVGR,XRAARGU\a1-12-1928\a120 YOF\aHAVGRQ TRARENY RE EBBZ 8\aGB PBHAGEL ZRNQBJF IVYYNTR\aSNYY/ QRZRAGVN\aCVPX HC NG GUVF GVZR 10/25 - 14:20\aGENAFCBEG GB: 1501 Pbyyvaf Eq, Frqeb-Jbbyyrl, JN 98284\a1501 Pbyyvaf Eq, Frqeb-Jbbyyrl, JN 98284",
-        "ANZR:XVGR");
-
-    qbGrfg("G40",
-        "{Gevc Abgvsvpngvba GEVC-03839} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 7608 R Pnfvab Eq, Rirergg, JN 98203&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 14:07</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: RATVAR 5 GNP 1\a" +
-        "FABCNP\a" +
-        "CBFF PIN</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03839",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:7608 R Pnfvab Eq",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/25 - 14:07\aHaxabja\aGEVC ABGRF: RATVAR 5 GNP 1\aFABCNP\aCBFF PIN");
-
-    qbGrfg("G41",
-        "{Gevc Abgvsvpngvba GEVC-03838} <qvi>\a" +
-        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: 8</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 14:20</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: 1501 Pbyyvaf Eq, Frqeb-Jbbyyrl, JN 98284</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g1501 Pbyyvaf Eq, Frqeb-Jbbyyrl, JN 98284 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 88 Znyr XVGR,XRAARGU \a" +
-        "1-12-1928\a" +
-        "120 YOF\a" +
-        "HAVGRQ TRARENY RE EBBZ 8\a" +
-        "GB PBHAGEL ZRNQBJF IVYYNTR\a" +
-        "SNYY/ QRZRAGVN  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: XVGR&aofc;</qvi>",
-
-        "VQ:03838",
-        "HAVG:AJ10",
-        "CEV:3",
-        "CYNPR:Havgrq Trareny Ubfcvgny - RE",
-        "NQQE:2000 Ubfcvgny Qevir",
-        "NCG:8",
-        "PVGL:Frqeb Jbbyyrl",
-        "VASB:88 Znyr XVGR,XRAARGU\a1-12-1928\a120 YOF\aHAVGRQ TRARENY RE EBBZ 8\aGB PBHAGEL ZRNQBJF IVYYNTR\aSNYY/ QRZRAGVN\aCVPX HC NG GUVF GVZR 10/25 - 14:20\aGENAFCBEG GB: 1501 Pbyyvaf Eq, Frqeb-Jbbyyrl, JN 98284\a1501 Pbyyvaf Eq, Frqeb-Jbbyyrl, JN 98284",
-        "ANZR:XVGR");
-
-    qbGrfg("G42",
-        "{Gevc Abgvsvpngvba GEVC-03837} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Rireterra Urnygu ZEV - 14841 179gu Nir FR    , Zbaebr, 98272&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 12:21</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Rireterra Urnygu-Zbaebr RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gRireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272 3</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 67 Znyr BEGVM,EVPUNEQ\a" +
-        "5-30-1948\a" +
-        "RIRETERRA ZBAEBR RE 3 \a" +
-        "GB RIRETERRA URNYGU ZEV\a" +
-        "E/B FGEBXR AB CERPNHGVBAF\a" +
-        "CG HAQRE 250YOF  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: BEGVM&aofc;</qvi>",
-
-        "VQ:03837",
-        "HAVG:AJ12",
-        "CEV:3",
-        "CYNPR:Rireterra Urnygu ZEV",
-        "NQQE:14841 179gu Nir FR",
-        "PVGL:Zbaebr",
-        "VASB:67 Znyr BEGVM,EVPUNEQ\a5-30-1948\aRIRETERRA ZBAEBR RE 3\aGB RIRETERRA URNYGU ZEV\aE/B FGEBXR AB CERPNHGVBAF\aCG HAQRE 250YOF\aCVPX HC NG GUVF GVZR 10/25 - 12:21\aGENAFCBEG GB: Rireterra Urnygu-Zbaebr RE\aRireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272 3",
-        "ANZR:BEGVM");
-
-    qbGrfg("G43",
-        "{Gevc Abgvsvpngvba GEVC-03836} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -2312,712 +1908,23 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 12:21</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 06:31</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Rireterra Urnygu ZEV</qvi>\a" +
+        "\gGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Svefg Uvyy</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gRireterra Urnygu ZEV - 14841 179gu Nir FR    , Zbaebr, 98272 </qvi>\a" +
+        "\gFjrqvfu Zrqvpny Pragre- Svefg Uvyy - 747 Oebnqjnl     , Frnggyr, 98122 FJ1104</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 67 Znyr BEGVM,EVPUNEQ\a" +
-        "5-30-1948\a" +
-        "RIRETERRA ZBAEBR RE 3 \a" +
-        "GB RIRETERRA URNYGU ZEV\a" +
-        "E/B FGEBXR AB CERPNHGVBAF\a" +
-        "CG HAQRE 250YOF  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: BEGVM&aofc;</qvi>",
-
-        "VQ:03836",
-        "HAVG:AJ12",
-        "CEV:3",
-        "CYNPR:Rireterra Urnygu-Zbaebr RE",
-        "NQQE:14701 179gu Nir FR",
-        "NCG:3",
-        "PVGL:ZBAEBR",
-        "VASB:67 Znyr BEGVM,EVPUNEQ\a5-30-1948\aRIRETERRA ZBAEBR RE 3\aGB RIRETERRA URNYGU ZEV\aE/B FGEBXR AB CERPNHGVBAF\aCG HAQRE 250YOF\aCVPX HC NG GUVF GVZR 10/25 - 12:21\aGENAFCBEG GB: Rireterra Urnygu ZEV\aRireterra Urnygu ZEV - 14841 179gu Nir FR , Zbaebr, 98272",
-        "ANZR:BEGVM");
-
-    qbGrfg("G44",
-        "{Gevc Abgvsvpngvba GEVC-03835} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Rirergg Tbfcry Zvffvba - 3711 Fzvgu Nir, Rirergg, 98201&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: ZRAF FURYGRE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 12:02</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: fabcnp\a" +
-        "ynqqre 1 \a" +
-        "GNP 1\a" +
-        "Zraf furygre\a" +
-        "frvmher</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03835",
-        "HAVG:AJ16",
-        "CEV:2",
-        "CYNPR:Rirergg Tbfcry Zvffvba",
-        "NQQE:3711 Fzvgu Nir",
-        "NCG:ZRAF FURYGRE",
-        "PVGL:Rirergg",
-        "VASB:CVPX HC NG GUVF GVZR 10/25 - 12:02\aHaxabja\aGEVC ABGRF: fabcnp\aynqqre 1\aGNP 1\aZraf furygre\afrvmher");
-
-    qbGrfg("G45",
-        "{Gevc Abgvsvpngvba GEVC-03834} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 931 Oebnqjnl Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 04:12</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: RATVAR 2 \a" +
-        "GNP 1\a" +
-        "FABCNP</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03834",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:931 Oebnqjnl Nir",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/25 - 04:12\aHaxabja\aGEVC ABGRF: RATVAR 2\aGNP 1\aFABCNP");
-
-    qbGrfg("G46",
-        "{Gevc Abgvsvpngvba GEVC-03833} <qvi>\a" +
-        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: EBBZ 1</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 03:20</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Gur Oevqtr ng Zbhag Ireaba</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGur Oevqtr ng Zbhag Ireaba - 301 Fbhgu Yniragher Ebnq   , Zbhag Ireaba, 98274 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 98 Srznyr ZPQBANYQ,ZNEL\a" +
-        "3-2-1918\a" +
-        "180 YO\a" +
-        "QRZRAGVN NAQ FRCFVF ERGHEAVAT\a" +
-        "FXNTVG UBFCVGNY RE 1 GB GUR OEVQTR AHEFVAT UBZR ZBHAG IREABA  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: ZPQBANYQ&aofc;</qvi>",
-
-        "VQ:03833",
-        "HAVG:AJ10",
-        "CEV:3",
-        "CYNPR:Fxntvg Inyyrl Ubfcvgny - RE",
-        "NQQE:1415 R Xvapnvq Fg",
-        "NCG:1",
-        "PVGL:Zbhag Ireaba",
-        "VASB:98 Srznyr ZPQBANYQ,ZNEL\a3-2-1918\a180 YO\aQRZRAGVN NAQ FRCFVF ERGHEAVAT\aFXNTVG UBFCVGNY RE 1 GB GUR OEVQTR AHEFVAT UBZR ZBHAG IREABA\aCVPX HC NG GUVF GVZR 10/25 - 03:20\aGENAFCBEG GB: Gur Oevqtr ng Zbhag Ireaba\aGur Oevqtr ng Zbhag Ireaba - 301 Fbhgu Yniragher Ebnq , Zbhag Ireaba, 98274",
-        "ANZR:ZPQBANYQ");
-
-    qbGrfg("G47",
-        "{Gevc Abgvsvpngvba GEVC-03832} <qvi>\a" +
-        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: EBBZ 7</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 02:50</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Rireterra Urnygu</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gRireterra Urnygu - 12040 AR 128gu Fgerrg    , Xvexynaq, 98034 2526</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 74 Znyr FXNTTF,EVPUNEQ\a" +
-        "11-25-1941\a" +
-        "150 YOF\a" +
-        "NYF\a" +
-        "RIRETERRA ZBAEBR RE 7 GB RIRETERRA XVEXYNAQ EBBZ 2526\a" +
-        "FRCFVF NAQ ERANY SNVYHER\a" +
-        "PNEQVNP ZBAVGBE\a" +
-        "CNPR ZNXRE, ABGUVAT EHAAVAT  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: FXNTTF&aofc;</qvi>",
-
-        "VQ:03832",
-        "HAVG:AJ18",
-        "CEV:2",
-        "CYNPR:Rireterra Urnygu-Zbaebr RE",
-        "NQQE:14701 179gu Nir FR",
-        "NCG:7",
-        "PVGL:ZBAEBR",
-        "VASB:74 Znyr FXNTTF,EVPUNEQ\a11-25-1941\a150 YOF\aNYF\aRIRETERRA ZBAEBR RE 7 GB RIRETERRA XVEXYNAQ EBBZ 2526\aFRCFVF NAQ ERANY SNVYHER\aPNEQVNP ZBAVGBE\aCNPR ZNXRE, ABGUVAT EHAAVAT\aCVPX HC NG GUVF GVZR 10/25 - 02:50\aGENAFCBEG GB: Rireterra Urnygu\aRireterra Urnygu - 12040 AR 128gu Fgerrg , Xvexynaq, 98034 2526",
-        "ANZR:FXNTTF");
-
-    qbGrfg("G48",
-        "{Gevc Abgvsvpngvba GEVC-03831} <qvi>\a" +
-        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 1901 Jnyahg Fg, Rirergg, JN 98201&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 01:00</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: RATVAR 2 \a" +
-        "GNP 1\a" +
-        "FABCNP</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03831",
-        "HAVG:AJ10",
-        "CEV:2",
-        "NQQE:1901 Jnyahg Fg",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/25 - 01:00\aHaxabja\aGEVC ABGRF: RATVAR 2\aGNP 1\aFABCNP");
-
-    qbGrfg("G49",
-        "{Gevc Abgvsvpngvba GEVC-03830} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 6707 Pnql Eq, Rirergg, JN 98203&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/25 - 00:39</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: FABCNP \a" +
-        "RATVAR 5\a" +
-        "GNP 1</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03830",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:6707 Pnql Eq",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/25 - 00:39\aHaxabja\aGEVC ABGRF: FABCNP\aRATVAR 5\aGNP 1");
-
-    qbGrfg("G50",
-        "{Gevc Abgvsvpngvba GEVC-03829} <qvi>\a" +
-        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: RE 5</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 23:54</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 6 ABEGU O JVAT</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 71 Srznyr GERIR,XNGUYRAR\a" +
-        "12-26-1944\a" +
-        "NSVO EIE\a" +
-        "PNEQVNP NAQ QRYGVNMNZ QEVC\a" +
-        "HAQRE 250\a" +
-        "RIRETERRA ZBAEBR RE EZ 5 \a" +
-        "CEBIVQRAPR 6 ABEGU O JVAT  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: GERIR&aofc;</qvi>",
-
-        "VQ:03829",
-        "HAVG:AJ10",
-        "CEV:2",
-        "CYNPR:Rireterra Urnygu-Zbaebr RE",
-        "NQQE:14701 179gu Nir FR",
-        "NCG:RE 5",
-        "PVGL:ZBAEBR",
-        "VASB:71 Srznyr GERIR,XNGUYRAR\a12-26-1944\aNSVO EIE\aPNEQVNP NAQ QRYGVNMNZ QEVC\aHAQRE 250\aRIRETERRA ZBAEBR RE EZ 5\aCEBIVQRAPR 6 ABEGU O JVAT\aCVPX HC NG GUVF GVZR 10/24 - 23:54\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre\aCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg , Rirergg, 98201 6 ABEGU O JVAT",
-        "ANZR:GERIR");
-
-    qbGrfg("G51",
-        "{Gevc Abgvsvpngvba GEVC-03828} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 2715 Uneevfba Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 23:42</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: RATVAR 2\a" +
-        "GNP 1\a" +
-        "FABCNP</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03828",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:2715 Uneevfba Nir",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/24 - 23:42\aHaxabja\aGEVC ABGRF: RATVAR 2\aGNP 1\aFABCNP");
-
-    qbGrfg("G52",
-        "{Gevc Abgvsvpngvba GEVC-03827} <qvi>\a" +
-        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Rirergg Tbfcry Zvffvba - 3711 Fzvgu Nir, Rirergg, 98201&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: FBHGU</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 23:23</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: fabcnp\a" +
-        "ynqqre 1\a" +
-        "gnp 1</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03827",
-        "HAVG:AJ10",
-        "CEV:2",
-        "CYNPR:Rirergg Tbfcry Zvffvba",
-        "NQQE:3711 Fzvgu Nir",
-        "NCG:FBHGU",
-        "PVGL:Rirergg",
-        "VASB:CVPX HC NG GUVF GVZR 10/24 - 23:23\aHaxabja\aGEVC ABGRF: fabcnp\aynqqre 1\agnp 1");
-
-    qbGrfg("G53",
-        "{Gevc Abgvsvpngvba GEVC-03826} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg     , Rirergg, 98201&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 23:14</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: JNVG NAQ ERGHEA\a" +
-        "1000 IVAGNTR YNAR RIRERGGR</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03826",
-        "HAVG:AJ16",
-        "CEV:2",
-        "CYNPR:Cebivqrapr Ertvbany Zrqvpny Pragre - RE",
-        "NQQE:1700 13gu Fgerrg",
-        "PVGL:Rirergg",
-        "VASB:CVPX HC NG GUVF GVZR 10/24 - 23:14\aHaxabja\aGEVC ABGRF: JNVG NAQ ERGHEA\a1000 IVAGNTR YNAR RIRERGGR");
-
-    qbGrfg("G54",
-        "{Gevc Abgvsvpngvba GEVC-03825} <qvi>\a" +
-        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 03:30</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q-8-805</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 73 Znyr FGRJNEG,WNZRF\a" +
-        "6-12-1942\a" +
-        "HAQRE 250\a" +
-        "PNEQVNP ZBAVGBE\a" +
-        "CAE B2\a" +
-        "JRNXARFF/ FCVANY\a" +
-        "FXNTVG INYYRL RE GB \a" +
-        "CEBI RIRERGGR EZ Q-8-802\a" +
-        "TEBHC URNYGU 02207952  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: FGRJNEG&aofc;</qvi>",
-
-        "VQ:03825",
-        "HAVG:AJ18",
-        "CEV:2",
-        "CYNPR:Fxntvg Inyyrl Ubcfvgny",
-        "NQQE:1415 Rnfg Xvapnvq Fg",
-        "NCG:RE",
-        "PVGL:Zbhag Ireaba",
-        "VASB:73 Znyr FGRJNEG,WNZRF\a6-12-1942\aHAQRE 250\aPNEQVNP ZBAVGBE\aCAE B2\aJRNXARFF/ FCVANY\aFXNTVG INYYRL RE GB\aCEBI RIRERGGR EZ Q-8-802\aTEBHC URNYGU 02207952\aCVPX HC NG GUVF GVZR 10/24 - 03:30\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre\aCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg , Rirergg, 98201 Q-8-805",
-        "ANZR:FGRJNEG");
-
-    qbGrfg("G55",
-        "{Gevc Abgvsvpngvba GEVC-03824} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 900 Cnpvsvp Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: 314</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 22:17</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: FABCNP\a" +
-        "ZRQVP 1\a" +
-        "GNP 1\a" +
-        "YNOBE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03824",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:900 Cnpvsvp Nir",
-        "NCG:314",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/24 - 22:17\aHaxabja\aGEVC ABGRF: FABCNP\aZRQVP 1\aGNP 1\aYNOBE");
-
-    qbGrfg("G56",
-        "{Gevc Abgvsvpngvba GEVC-03823} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 21:48</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: 1000 Ivagntr Ya, Zbhag Ireaba, JN 98273</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g1000 Ivagntr Ya, Zbhag Ireaba, JN 98273 233</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 78 Srznyr UNYY,WBNAAR\a" +
-        "4-7-1938\a" +
-        "140 YOF\a" +
-        "FXNTVG INYYRL UBFC. GB\a" +
-        "1000 IVAGNTR YNAR 233\a" +
-        "ZBHAG IREABA\a" +
-        "FGNVE PUNVE ZNL OR ARRQRQ\a" +
-        "TRG VAFHENAPR VASB\a" +
-        "TRARENYVMRQ JRNXARFF\a" +
+        "\gSBE: 54 Srznyr WRNAARGGR NZQNY 2/18/62\a" +
+        "PURFG CK\a" +
+        "ZBAVGBE\a" +
+        "120 YOF\a" +
+        "FJRQ VFG UVYY FJ1104\a" +
         "  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -3026,21 +1933,20 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: UNYY&aofc;</qvi>",
+        "\gANZR: NZQNY&aofc;</qvi>",
 
-        "VQ:03823",
-        "HAVG:AJ12",
-        "CEV:3",
-        "CYNPR:Fxntvg Inyyrl Ubfcvgny - RE",
-        "NQQE:1415 R Xvapnvq Fg",
-        "NCG:RE",
-        "PVGL:Zbhag Ireaba",
-        "VASB:78 Srznyr UNYY,WBNAAR\a4-7-1938\a140 YOF\aFXNTVG INYYRL UBFC. GB\a1000 IVAGNTR YNAR 233\aZBHAG IREABA\aFGNVE PUNVE ZNL OR ARRQRQ\aTRG VAFHENAPR VASB\aTRARENYVMRQ JRNXARFF\aCVPX HC NG GUVF GVZR 10/24 - 21:48\aGENAFCBEG GB: 1000 Ivagntr Ya, Zbhag Ireaba, JN 98273\a1000 Ivagntr Ya, Zbhag Ireaba, JN 98273 233",
-        "ANZR:UNYY");
+        "VQ:05231",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Rireterra Urnygu-Zbaebr RE",
+        "NQQE:14701 179gu Nir FR",
+        "NCG:3",
+        "VASB:54 Srznyr WRNAARGGR NZQNY 2/18/62\aPURFG CK\aZBAVGBE\a120 YOF\aFJRQ VFG UVYY FJ1104\aCVPX HC NG GUVF GVZR 12/14 - 06:31\aGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Svefg Uvyy\aFjrqvfu Zrqvpny Pragre- Svefg Uvyy - 747 Oebnqjnl , Frnggyr, 98122 FJ1104",
+        "ANZR:NZQNY");
 
-    qbGrfg("G57",
-        "{Gevc Abgvsvpngvba GEVC-03822} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+    qbGrfg("G37",
+        "{Gevc Abgvsvpngvba GEVC-05230} <qvi>\a" +
+        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3048,49 +1954,51 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: 1411 Onyyrj Nir, Rirergg, JN 98203&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
+        "\gEBBZ: 17</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 21:09</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 05:46</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "\gGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Pureel Uvyy</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
+        "\gFjrqvfu Zrqvpny Pragre- Pureel Uvyy - 500 17gu Nir     , Frnggyr, 98122 5R539</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
+        "\gSBE: 57 Srznyr WRNA ZHECUL 5/21/59\a" +
+        "FGEBXR\a" +
+        "FM\a" +
+        "GB FJRQVFU PUREEL 5R539  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGEVC ABGRF: RATVAR 3\a" +
-        "GNP 1\a" +
-        "FABCNP</qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
+        "\gANZR: ZHECUL&aofc;</qvi>",
 
-        "VQ:03822",
-        "HAVG:AJ16",
+        "VQ:05230",
+        "HAVG:AJ18",
         "CEV:2",
-        "NQQE:1411 Onyyrj Nir",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/24 - 21:09\aHaxabja\aGEVC ABGRF: RATVAR 3\aGNP 1\aFABCNP");
+        "CYNPR:Fxntvg Inyyrl Ubfcvgny - RE",
+        "NQQE:1415 R Xvapnvq Fg",
+        "NCG:17",
+        "VASB:57 Srznyr WRNA ZHECUL 5/21/59\aFGEBXR\aFM\aGB FJRQVFU PUREEL 5R539\aCVPX HC NG GUVF GVZR 12/14 - 05:46\aGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Pureel Uvyy\aFjrqvfu Zrqvpny Pragre- Pureel Uvyy - 500 17gu Nir , Frnggyr, 98122 5R539",
+        "ANZR:ZHECUL");
 
-    qbGrfg("G58",
-        "{Gevc Abgvsvpngvba GEVC-03821} <qvi>\a" +
-        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+    qbGrfg("G38",
+        "{Gevc Abgvsvpngvba GEVC-05229} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3098,36 +2006,27 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Fjrqvfu Zrqvpny Pragre- Rqzbaqf - 21601 76gu Nirahr Jrfg    , Rqzbaqf, 98026&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: 19gu Nir FR & Ry Pncvgna Jnl, Rirergg, JN 98208&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: RE 5</qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 21:00</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 05:22</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Uneobeivrj Zrqvpny Pragre - RE</qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gUneobeivrj Zrqvpny Pragre - RE - 325 9gu Nir, Frnggyr, 98104 CEVBEVGL-RE</qvi>\a" +
+        "\gHaxabja </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 83 Znyr OBYRAQRE,PUNEYRF\a" +
-        "6-02-1932\a" +
-        "250 YOF\a" +
-        "FJRQVFU RQZBAQF RE 5\a" +
-        "GB UNEOBEIVRJ RE\a" +
-        "GENHZNGVP OENVA OYRRQ \a" +
-        "PNEQVNP ZBAVGBEVAT, ABGUVAT EHAAVAT\a" +
-        "UEIVRJ PBAGNPG WNL\a" +
-        "425-640-4682\a" +
-        "  &aofc;</qvi>\a" +
+        "\gSBE:   r7  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3135,20 +2034,17 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: OBYRAQRE&aofc;</qvi>",
+        "\gANZR: Haxabja&aofc;</qvi>",
 
-        "VQ:03821",
-        "HAVG:AJ10",
+        "VQ:05229",
+        "HAVG:AJ16",
         "CEV:1",
-        "CYNPR:Fjrqvfu Zrqvpny Pragre- Rqzbaqf",
-        "NQQE:21601 76gu Nirahr Jrfg",
-        "NCG:RE 5",
-        "PVGL:Rqzbaqf",
-        "VASB:83 Znyr OBYRAQRE,PUNEYRF\a6-02-1932\a250 YOF\aFJRQVFU RQZBAQF RE 5\aGB UNEOBEIVRJ RE\aGENHZNGVP OENVA OYRRQ\aPNEQVNP ZBAVGBEVAT, ABGUVAT EHAAVAT\aUEIVRJ PBAGNPG WNL\a425-640-4682\aCVPX HC NG GUVF GVZR 10/24 - 21:00\aGENAFCBEG GB: Uneobeivrj Zrqvpny Pragre - RE\aUneobeivrj Zrqvpny Pragre - RE - 325 9gu Nir, Frnggyr, 98104 CEVBEVGL-RE",
-        "ANZR:OBYRAQRE");
+        "NQQE:19gu Nir FR & Ry Pncvgna Jnl",
+        "FG:JN",
+        "VASB:r7\aCVPX HC NG GUVF GVZR 12/14 - 05:22\aHaxabja");
 
-    qbGrfg("G59",
-        "{Gevc Abgvsvpngvba GEVC-03820} <qvi>\a" +
+    qbGrfg("G39",
+        "{Gevc Abgvsvpngvba GEVC-05228} <qvi>\a" +
         "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -3157,32 +2053,31 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: EBBZ 2009</qvi>\a" +
+        "\gEBBZ: 9</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 20:15</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 03:42</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre</qvi>\a" +
+        "\gGENAFCBEG GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg     , Frnggyr, 98195 EBBZ: 4 FR</qvi>\a" +
+        "\gFg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225 QN GUEH RE</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 91 Znyr JNYORET,EHGU\a" +
-        "6-15-24\a" +
-        "FLAPBCR/INYIRF ERCYNPRZRAG\a" +
-        "FNYVAR YBPXRQ / 2-3 YG B2\a" +
-        "228 YOF\a" +
-        "FXNTVG INYYRL UBFC EZ 2009 GB HJ ZRQVPNY EZ: 4FR  &aofc;</qvi>\a" +
+        "\gSBE: 66 Znyr EVPUNEQ URAEL 3/7/50\a" +
+        "OVCNC\a" +
+        "FBO\a" +
+        "162 YOF\a" +
+        "GB FWU QN GUEH RE  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3190,21 +2085,20 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: JNYORET&aofc;</qvi>",
+        "\gANZR: URAEL&aofc;</qvi>",
 
-        "VQ:03820",
+        "VQ:05228",
         "HAVG:AJ18",
         "CEV:2",
-        "CYNPR:Fxntvg Inyyrl Ubcfvgny",
-        "NQQE:1415 Rnfg Xvapnvq Fg",
-        "NCG:2009",
-        "PVGL:Zbhag Ireaba",
-        "VASB:91 Znyr JNYORET,EHGU\a6-15-24\aFLAPBCR/INYIRF ERCYNPRZRAG\aFNYVAR YBPXRQ / 2-3 YG B2\a228 YOF\aFXNTVG INYYRL UBFC EZ 2009 GB HJ ZRQVPNY EZ: 4FR\aCVPX HC NG GUVF GVZR 10/24 - 20:15\aGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre\aHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg , Frnggyr, 98195 EBBZ: 4 FR",
-        "ANZR:JNYORET");
+        "CYNPR:Fxntvg Inyyrl Ubfcvgny - RE",
+        "NQQE:1415 R Xvapnvq Fg",
+        "NCG:9",
+        "VASB:66 Znyr EVPUNEQ URAEL 3/7/50\aOVCNC\aFBO\a162 YOF\aGB FWU QN GUEH RE\aCVPX HC NG GUVF GVZR 12/14 - 03:42\aGENAFCBEG GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz\aFg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl , Oryyvatunz, 98225 QN GUEH RE",
+        "ANZR:URAEL");
 
-    qbGrfg("G60",
-        "{Gevc Abgvsvpngvba GEVC-03819} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+    qbGrfg("G40",
+        "{Gevc Abgvsvpngvba GEVC-05227} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3212,50 +2106,51 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: 8823 Ubyyl Qe, Rirergg, JN 98208&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: havg 538</qvi>\a" +
+        "\gEBBZ: 5</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 18:40</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/14 - 01:48</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "\gGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
+        "\gFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR    , Frnggyr, 98105 </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
+        "\gSBE: 2 Znyr RIRERGG FRHZNAHGNFN 4/9/2014\a" +
+        "FGEVQBE\a" +
+        "GB PUVYQERAF\a" +
+        "CNERAG GB EVQR JVGU  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGEVC ABGRF: ratvar 6\a" +
-        "gnp 1\a" +
-        "</qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
+        "\gANZR: FRHZNAHGNFN&aofc;</qvi>",
 
-        "VQ:03819",
-        "HAVG:AJ12",
+        "VQ:05227",
+        "HAVG:AJ10",
         "CEV:2",
-        "NQQE:8823 Ubyyl Qe",
-        "NCG:havg 538",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/24 - 18:40\aHaxabja\aGEVC ABGRF: ratvar 6\agnp 1");
+        "CYNPR:Rireterra Urnygu-Zbaebr RE",
+        "NQQE:14701 179gu Nir FR",
+        "NCG:5",
+        "VASB:2 Znyr RIRERGG FRHZNAHGNFN 4/9/2014\aFGEVQBE\aGB PUVYQERAF\aCNERAG GB EVQR JVGU\aCVPX HC NG GUVF GVZR 12/14 - 01:48\aGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE\aFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR , Frnggyr, 98105",
+        "ANZR:FRHZNAHGNFN");
 
-    qbGrfg("G61",
-        "{Gevc Abgvsvpngvba GEVC-03818} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+    qbGrfg("G41",
+        "{Gevc Abgvsvpngvba GEVC-05226} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3263,7 +2158,59 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: 1908 A 198gu Fg, Fuberyvar, JN 98133&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 3</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 22:47</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Rireterra Urnygu</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gRireterra Urnygu - 12040 AR 128gu Fgerrg    , Xvexynaq, 98034 2538</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 92 Srznyr ZNETNERG QRAGBA 8/4/23\a" +
+        "FRCFVF\a" +
+        "135 YOF\a" +
+        "GB RIT XVEX 2538  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: QRAGBA&aofc;</qvi>",
+
+        "VQ:05226",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Rireterra Urnygu-Zbaebr RE",
+        "NQQE:14701 179gu Nir FR",
+        "NCG:3",
+        "VASB:92 Srznyr ZNETNERG QRAGBA 8/4/23\aFRCFVF\a135 YOF\aGB RIT XVEX 2538\aCVPX HC NG GUVF GVZR 12/13 - 22:47\aGENAFCBEG GB: Rireterra Urnygu\aRireterra Urnygu - 12040 AR 128gu Fgerrg , Xvexynaq, 98034 2538",
+        "ANZR:QRAGBA");
+
+    qbGrfg("G42",
+        "{Gevc Abgvsvpngvba GEVC-05225} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 98201, JN&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3271,7 +2218,7 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 16:19</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 22:08</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3283,29 +2230,126 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
+        "\gSBE:   ABEGU OBHAQ V5\a" +
+        "GHAARY RAGENAPR \a" +
+        "R5  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGEVC ABGRF: 1908 A 198gu fuberyvar\a" +
-        "ratvar 57\a" +
-        "fuberyvar sver\a" +
-        "ab gnp</qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\gANZR: Haxabja&aofc;</qvi>",
 
-        "VQ:03818",
+        "VQ:05225",
+        "HAVG:AJ20",
+        "CEV:2",
+        "NQQE:98201",
+        "FG:JN",
+        "VASB:ABEGU OBHAQ V5\aGHAARY RAGENAPR\aR5\aCVPX HC NG GUVF GVZR 12/13 - 22:08\aHaxabja");
+
+    qbGrfg("G43",
+        "{Gevc Abgvsvpngvba GEVC-05226} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 3</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 22:47</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Rireterra Urnygu</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gRireterra Urnygu - 12040 AR 128gu Fgerrg    , Xvexynaq, 98034 2538</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 92 Srznyr ZNETNERG QRAGBA 8/4/23\a" +
+        "FRCFVF\a" +
+        "135 YOF\a" +
+        "GB RIT XVEX 2538  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: QRAGBA&aofc;</qvi>",
+
+        "VQ:05226",
+        "HAVG:AJ20",
+        "CEV:2",
+        "CYNPR:Rireterra Urnygu-Zbaebr RE",
+        "NQQE:14701 179gu Nir FR",
+        "NCG:3",
+        "VASB:92 Srznyr ZNETNERG QRAGBA 8/4/23\aFRCFVF\a135 YOF\aGB RIT XVEX 2538\aCVPX HC NG GUVF GVZR 12/13 - 22:47\aGENAFCBEG GB: Rireterra Urnygu\aRireterra Urnygu - 12040 AR 128gu Fgerrg , Xvexynaq, 98034 2538",
+        "ANZR:QRAGBA");
+
+    qbGrfg("G44",
+        "{Gevc Abgvsvpngvba GEVC-05224} <qvi>\a" +
+        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Orexfuver Qe & Znqvfba Fg, Rirergg, JN 98203&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 21:43</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   r5  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05224",
         "HAVG:AJ12",
         "CEV:2",
-        "NQQE:1908 A 198gu Fg",
-        "PVGL:Fuberyvar",
+        "NQQE:Orexfuver Qe & Znqvfba Fg",
         "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/24 - 16:19\aHaxabja\aGEVC ABGRF: 1908 A 198gu fuberyvar\aratvar 57\afuberyvar sver\aab gnp");
+        "VASB:r5\aCVPX HC NG GUVF GVZR 12/13 - 21:43\aHaxabja");
 
-    qbGrfg("G62",
-        "{Gevc Abgvsvpngvba GEVC-03817} <qvi>\a" +
+    qbGrfg("G45",
+        "{Gevc Abgvsvpngvba GEVC-05223} <qvi>\a" +
         "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -3314,15 +2358,15 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: 26gu Fg & Oebnqjnl Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: 11031 19gu Nir FR, Rirergg, JN 98208&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: OYHR FRZV GEHPX, OEBNQJNL UBOOVRF</qvi>\a" +
+        "\gEBBZ: Fnsrjnl</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 14:34</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 21:08</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3334,63 +2378,7 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: RAT 2\a" +
-        "GNP 1\a" +
-        "OEBNQJNL UBOOVRF\a" +
-        " OYHR FRZV GEHPX</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03817",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:26gu Fg & Oebnqjnl Nir",
-        "NCG:OYHR FRZV GEHPX, OEBNQJNL UBOOVRF",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/24 - 14:34\aHaxabja\aGEVC ABGRF: RAT 2\aGNP 1\aOEBNQJNL UBOOVRF\aOYHR FRZV GEHPX");
-
-    qbGrfg("G63",
-        "{Gevc Abgvsvpngvba GEVC-03816} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: RE 16</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 13:27</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Oebbxqnyr Nffvfgrq Yvivat</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gOebbxqnyr Nffvfgrq Yvivat - 7212 265gu Fg AJ, Fgnajbbq, 98292 ncg zp 4n</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 79 Znyr unfgvatf,wbua\a" +
-        "5-6-1937 (va flfgrz)\a" +
-        "trareny jrnxarff\a" +
-        "85 yof\a" +
-        "fxntvg inyyrl re 16 gb oebbxqnyr nffg yvivat fgnajbbq  &aofc;</qvi>\a" +
+        "\gSBE:   R7  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3398,21 +2386,992 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: UNFGVATF&aofc;</qvi>",
+        "\gANZR: Haxabja&aofc;</qvi>",
 
-        "VQ:03816",
+        "VQ:05223",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:11031 19gu Nir FR",
+        "NCG:Fnsrjnl",
+        "FG:JN",
+        "VASB:R7\aCVPX HC NG GUVF GVZR 12/13 - 21:08\aHaxabja");
+
+    qbGrfg("G46",
+        "{Gevc Abgvsvpngvba GEVC-05222} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 4</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 20:38</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Rireterra Urnygu</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gRireterra Urnygu - 12040 AR 128gu Fgerrg    , Xvexynaq, 98034 6026</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 40 Srznyr XNGUREVAR RYYFJBEGU 3/13/76\a" +
+        "XVQ FGBAR\a" +
+        "NAGVOVBGVPF\a" +
+        "B2\a" +
+        "ZBAVGBE\a" +
+        "142YOF\a" +
+        "GB XVEX 6026  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: RYYFJBEGU&aofc;</qvi>",
+
+        "VQ:05222",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Rireterra Urnygu-Zbaebr RE",
+        "NQQE:14701 179gu Nir FR",
+        "NCG:4",
+        "VASB:40 Srznyr XNGUREVAR RYYFJBEGU 3/13/76\aXVQ FGBAR\aNAGVOVBGVPF\aB2\aZBAVGBE\a142YOF\aGB XVEX 6026\aCVPX HC NG GUVF GVZR 12/13 - 20:38\aGENAFCBEG GB: Rireterra Urnygu\aRireterra Urnygu - 12040 AR 128gu Fgerrg , Xvexynaq, 98034 6026",
+        "ANZR:RYYFJBEGU");
+
+    qbGrfg("G47",
+        "{Gevc Abgvsvpngvba GEVC-05221} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 8920 Rireterra Jnl, Rirergg, JN 98208&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: ONPX CNEX YBG</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 20:35</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   R6  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05221",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:8920 Rireterra Jnl",
+        "NCG:ONPX CNEX YBG",
+        "FG:JN",
+        "VASB:R6\aCVPX HC NG GUVF GVZR 12/13 - 20:35\aHaxabja");
+
+    qbGrfg("G48",
+        "{Gevc Abgvsvpngvba GEVC-05219} <qvi>\a" +
+        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 3201 Fzvgu Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 18:38</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   R1  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05219",
         "HAVG:AJ12",
+        "CEV:2",
+        "NQQE:3201 Fzvgu Nir",
+        "FG:JN",
+        "VASB:R1\aCVPX HC NG GUVF GVZR 12/13 - 18:38\aHaxabja");
+
+    qbGrfg("G49",
+        "{Gevc Abgvsvpngvba GEVC-05218} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 8526 8gu Nir J, Rirergg, JN 98204&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: P</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 18:11</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   R6  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05218",
+        "HAVG:AJ20",
+        "CEV:2",
+        "NQQE:8526 8gu Nir J",
+        "NCG:P",
+        "FG:JN",
+        "VASB:R6\aCVPX HC NG GUVF GVZR 12/13 - 18:11\aHaxabja");
+
+    qbGrfg("G50",
+        "{Gevc Abgvsvpngvba GEVC-05217} <qvi>\a" +
+        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Vfynaq Ubfcvgny - RE - 1211 24gu     , Nanpbegrf, 98221&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 9</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 17:03</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Pureel Uvyy</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gFjrqvfu Zrqvpny Pragre- Pureel Uvyy - 500 17gu Nir     , Frnggyr, 98122 242</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 75 Znyr EBOREG FUBEG 3/19/41\a" +
+        "BFGRBZLRYVGVF\a" +
+        "VI NAGVO\a" +
+        "ZBAVGBE\a" +
+        "147YOF\a" +
+        "FJRQ PUREEL 242  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: FUBEG&aofc;</qvi>",
+
+        "VQ:05217",
+        "HAVG:AJ18",
+        "CEV:2",
+        "CYNPR:Vfynaq Ubfcvgny - RE",
+        "NQQE:1211 24gu",
+        "NCG:9",
+        "VASB:75 Znyr EBOREG FUBEG 3/19/41\aBFGRBZLRYVGVF\aVI NAGVO\aZBAVGBE\a147YOF\aFJRQ PUREEL 242\aCVPX HC NG GUVF GVZR 12/13 - 17:03\aGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Pureel Uvyy\aFjrqvfu Zrqvpny Pragre- Pureel Uvyy - 500 17gu Nir , Frnggyr, 98122 242",
+        "ANZR:FUBEG");
+
+    qbGrfg("G51",
+        "{Gevc Abgvsvpngvba GEVC-05216} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 1126 J Pnfvab Eq, Rirergg, JN 98204&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: R49</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 16:25</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   R6  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05216",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:1126 J Pnfvab Eq",
+        "NCG:R49",
+        "FG:JN",
+        "VASB:R6\aCVPX HC NG GUVF GVZR 12/13 - 16:25\aHaxabja");
+
+    qbGrfg("G52",
+        "{Gevc Abgvsvpngvba GEVC-05215} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 2</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 16:21</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Uneobeivrj Zrqvpny Pragre - RE</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gUneobeivrj Zrqvpny Pragre - RE - 325 9gu Nir, Frnggyr, 98104 </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 94 Znyr JNYGRE ORETFGEBZ 8/23/21\a" +
+        "UVG OL PNE TYS\a" +
+        "URNQ OYRRQ\a" +
+        "SNPVNY SK\a" +
+        "GB UZP  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: ORETFGEBZ&aofc;</qvi>",
+
+        "VQ:05215",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Rireterra Urnygu-Zbaebr RE",
+        "NQQE:14701 179gu Nir FR",
+        "NCG:2",
+        "VASB:94 Znyr JNYGRE ORETFGEBZ 8/23/21\aUVG OL PNE TYS\aURNQ OYRRQ\aSNPVNY SK\aGB UZP\aCVPX HC NG GUVF GVZR 12/13 - 16:21\aGENAFCBEG GB: Uneobeivrj Zrqvpny Pragre - RE\aUneobeivrj Zrqvpny Pragre - RE - 325 9gu Nir, Frnggyr, 98104",
+        "ANZR:ORETFGEBZ");
+
+    qbGrfg("G53",
+        "{Gevc Abgvsvpngvba GEVC-05214} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 4</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 15:18</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Oebbxqnyr ng Zbaebr</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gOebbxqnyr ng Zbaebr - 15465 179gu Nir FR, Zbaebr, 98272 </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 92 Srznyr VEZN WNRTRE 8/7/23\a" +
+        "TYS\a" +
+        "ABA NZOHYNGBEL\a" +
+        "JRNX\a" +
+        "81 YOF\a" +
+        "GB OEBBXQNYR ZBAEBR  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: WNRTRE&aofc;</qvi>",
+
+        "VQ:05214",
+        "HAVG:AJ20",
+        "CEV:2",
+        "CYNPR:Rireterra Urnygu-Zbaebr RE",
+        "NQQE:14701 179gu Nir FR",
+        "NCG:4",
+        "VASB:92 Srznyr VEZN WNRTRE 8/7/23\aTYS\aABA NZOHYNGBEL\aJRNX\a81 YOF\aGB OEBBXQNYR ZBAEBR\aCVPX HC NG GUVF GVZR 12/13 - 15:18\aGENAFCBEG GB: Oebbxqnyr ng Zbaebr\aOebbxqnyr ng Zbaebr - 15465 179gu Nir FR, Zbaebr, 98272",
+        "ANZR:WNRTRE");
+
+    qbGrfg("G54",
+        "{Gevc Abgvsvpngvba GEVC-05213} <qvi>\a" +
+        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Znabe Pner Urnygu Freivprf - 3701 188gu Fgerrg FJ    , Ylaajbbq, 98037&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 225Q</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 14:58</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Abegujrfg Ubfcvgny & Zrqvpny Pragre - RE</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gAbegujrfg Ubfcvgny & Zrqvpny Pragre - RE - 1550 Abegu 115gu Fgerrg     , Frnggyr, 98133 </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 81 Srznyr IVIVNA INYYNF 11/22/34\a" +
+        "PUNATR VA PBAQVGVBA\a" +
+        "UNF ERPRAG FUHAG\a" +
+        "GB AJ UBFC\a" +
+        "100 YOF  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: INYYNF&aofc;</qvi>",
+
+        "VQ:05213",
+        "HAVG:AJ12",
+        "CEV:2",
+        "CYNPR:Znabe Pner Urnygu Freivprf",
+        "NQQE:3701 188gu Fgerrg FJ",
+        "NCG:225Q",
+        "VASB:81 Srznyr IVIVNA INYYNF 11/22/34\aPUNATR VA PBAQVGVBA\aUNF ERPRAG FUHAG\aGB AJ UBFC\a100 YOF\aCVPX HC NG GUVF GVZR 12/13 - 14:58\aGENAFCBEG GB: Abegujrfg Ubfcvgny & Zrqvpny Pragre - RE\aAbegujrfg Ubfcvgny & Zrqvpny Pragre - RE - 1550 Abegu 115gu Fgerrg , Frnggyr, 98133",
+        "ANZR:INYYNF");
+
+    qbGrfg("G55",
+        "{Gevc Abgvsvpngvba GEVC-05209} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr - 14701 179gu Nir FR, Zbaebr, 98272&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 106</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 14:00</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Ertrapl Pner Pragre Zbaebr</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gErtrapl Pner Pragre Zbaebr - 1355 Jrfg Znva Fgerrg    , Zbaebr, 98272 </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 65 Znyr XRAARGU YNORNH 11/29/50\a" +
+        "XARR & JEVFG VASRPGVBA\a" +
+        "ABA NZOHYNGBEL CK\a" +
+        "GB ERTRAPL   &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: YNORNH&aofc;</qvi>",
+
+        "VQ:05209",
+        "HAVG:AJ20",
         "CEV:3",
-        "CYNPR:Fxntvg Inyyrl Ubcfvgny",
-        "NQQE:1415 Rnfg Xvapnvq Fg",
-        "NCG:RE 16",
-        "PVGL:Zbhag Ireaba",
-        "VASB:79 Znyr unfgvatf,wbua\a5-6-1937 (va flfgrz)\atrareny jrnxarff\a85 yof\afxntvg inyyrl re 16 gb oebbxqnyr nffg yvivat fgnajbbq\aCVPX HC NG GUVF GVZR 10/24 - 13:27\aGENAFCBEG GB: Oebbxqnyr Nffvfgrq Yvivat\aOebbxqnyr Nffvfgrq Yvivat - 7212 265gu Fg AJ, Fgnajbbq, 98292 ncg zp 4n",
-        "ANZR:UNFGVATF");
+        "CYNPR:Rireterra Urnygu-Zbaebr",
+        "NQQE:14701 179gu Nir FR",
+        "NCG:106",
+        "VASB:65 Znyr XRAARGU YNORNH 11/29/50\aXARR & JEVFG VASRPGVBA\aABA NZOHYNGBEL CK\aGB ERTRAPL\aCVPX HC NG GUVF GVZR 12/13 - 14:00\aGENAFCBEG GB: Ertrapl Pner Pragre Zbaebr\aErtrapl Pner Pragre Zbaebr - 1355 Jrfg Znva Fgerrg , Zbaebr, 98272",
+        "ANZR:YNORNH");
+
+    qbGrfg("G56",
+        "{Gevc Abgvsvpngvba GEVC-05210} <qvi>\a" +
+        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 11</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 13:50</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Cerfgvtr Pner & Erunovyvgngvba bs Oheyvatgba</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCerfgvtr Pner & Erunovyvgngvba bs Oheyvatgba - 1036 R Ivpgbel Nir    , Oheyvatgba, 98233 </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 93 Srznyr YHPVYYR EVPUNEQFBA 7/20/22\a" +
+        "JRNXARFF NAQ HGV\a" +
+        "GB CERFGRVTR PNER NAQ ERUNO\a" +
+        "OHEYVATGBA  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: EVPUNEQFBA&aofc;</qvi>",
+
+        "VQ:05210",
+        "HAVG:AJ18",
+        "CEV:3",
+        "CYNPR:Havgrq Trareny Ubfcvgny - RE",
+        "NQQE:2000 Ubfcvgny Qevir",
+        "NCG:11",
+        "VASB:93 Srznyr YHPVYYR EVPUNEQFBA 7/20/22\aJRNXARFF NAQ HGV\aGB CERFGRVTR PNER NAQ ERUNO\aOHEYVATGBA\aCVPX HC NG GUVF GVZR 12/13 - 13:50\aGENAFCBEG GB: Cerfgvtr Pner & Erunovyvgngvba bs Oheyvatgba\aCerfgvtr Pner & Erunovyvgngvba bs Oheyvatgba - 1036 R Ivpgbel Nir , Oheyvatgba, 98233",
+        "ANZR:EVPUNEQFBA");
+
+    qbGrfg("G57",
+        "{Gevc Abgvsvpngvba GEVC-05211} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 2405 Ebpxrsryyre Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 12:57</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   R2  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05211",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:2405 Ebpxrsryyre Nir",
+        "FG:JN",
+        "VASB:R2\aCVPX HC NG GUVF GVZR 12/13 - 12:57\aHaxabja");
+
+    qbGrfg("G58",
+        "{Gevc Abgvsvpngvba GEVC-05207} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr - 14701 179gu Nir FR, Zbaebr, 98272&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 205</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 12:50</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Ertrapl Pner Pragre Zbaebr</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gErtrapl Pner Pragre Zbaebr - 1355 Jrfg Znva Fgerrg    , Zbaebr, 98272 </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 77 Znyr WNPX JBBQ 8/9/38\a" +
+        "EVO SK\a" +
+        "ABA NZOHYNGBEL\a" +
+        "205 YOF\a" +
+        "GB ERTRAPL PNER PRAGRE\a" +
+        "B2  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: JBBQ&aofc;</qvi>",
+
+        "VQ:05207",
+        "HAVG:AJ20",
+        "CEV:3",
+        "CYNPR:Rireterra Urnygu-Zbaebr",
+        "NQQE:14701 179gu Nir FR",
+        "NCG:205",
+        "VASB:77 Znyr WNPX JBBQ 8/9/38\aEVO SK\aABA NZOHYNGBEL\a205 YOF\aGB ERTRAPL PNER PRAGRE\aB2\aCVPX HC NG GUVF GVZR 12/13 - 12:50\aGENAFCBEG GB: Ertrapl Pner Pragre Zbaebr\aErtrapl Pner Pragre Zbaebr - 1355 Jrfg Znva Fgerrg , Zbaebr, 98272",
+        "ANZR:JBBQ");
+
+    qbGrfg("G59",
+        "{Gevc Abgvsvpngvba GEVC-05208} <qvi>\a" +
+        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr - 14701 179gu Nir FR, Zbaebr, 98272&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: PPH1</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 11:44</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 N504</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 86 Znyr IVPRAGR UREANAQRM-PBYVA ZNYR\a" +
+        "3/3/30\a" +
+        "NPHGR CARH \a" +
+        "128 YOF\a" +
+        "GB CEBI N504  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: UREANAQRM-PBYVA&aofc;</qvi>",
+
+        "VQ:05208",
+        "HAVG:AJ12",
+        "CEV:2",
+        "CYNPR:Rireterra Urnygu-Zbaebr",
+        "NQQE:14701 179gu Nir FR",
+        "NCG:PPH1",
+        "VASB:86 Znyr IVPRAGR UREANAQRM-PBYVA ZNYR\a3/3/30\aNPHGR CARH\a128 YOF\aGB CEBI N504\aCVPX HC NG GUVF GVZR 12/13 - 11:44\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre\aCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg , Rirergg, 98201 N504",
+        "ANZR:UREANAQRM-PBYVA");
+
+    qbGrfg("G60",
+        "{Gevc Abgvsvpngvba GEVC-05205} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: FR Rirergg Znyy Jnl & 3eq Nir FR, Rirergg, JN 98208&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 08:59</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   R6  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: VAIBY</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05205",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:FR Rirergg Znyy Jnl & 3eq Nir FR",
+        "FG:JN",
+        "VASB:R6\aCVPX HC NG GUVF GVZR 12/13 - 08:59\aHaxabja\aGEVC ABGRF: VAIBY");
+
+    qbGrfg("G61",
+        "{Gevc Abgvsvpngvba GEVC-05204} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 1031 75gu Fg FR, Rirergg, JN 98203&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 30</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 05:05</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   R5  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: ZNEAVRPR NCCGF #30</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05204",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:1031 75gu Fg FR",
+        "NCG:30",
+        "FG:JN",
+        "VASB:R5\aCVPX HC NG GUVF GVZR 12/13 - 05:05\aHaxabja\aGEVC ABGRF: ZNEAVRPR NCCGF #30");
+
+    qbGrfg("G62",
+        "{Gevc Abgvsvpngvba GEVC-05203} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 11</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 02:48</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Rireterra Urnygu</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gRireterra Urnygu - 12040 AR 128gu Fgerrg    , Xvexynaq, 98034 7012</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 37 Znyr WBFUHN JROFGRE 3/29/79\a" +
+        "ONPX CK\a" +
+        "FCVANY NOFPRFF\a" +
+        "ARRQ ARHEB FCRPVNY\a" +
+        "GB RIT XVEX 7012\a" +
+        "  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: NQQ QRYNL</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: JROFGRE&aofc;</qvi>",
+
+        "VQ:05203",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Rireterra Urnygu-Zbaebr RE",
+        "NQQE:14701 179gu Nir FR",
+        "NCG:11",
+        "VASB:37 Znyr WBFUHN JROFGRE 3/29/79\aONPX CK\aFCVANY NOFPRFF\aARRQ ARHEB FCRPVNY\aGB RIT XVEX 7012\aCVPX HC NG GUVF GVZR 12/13 - 02:48\aGENAFCBEG GB: Rireterra Urnygu\aRireterra Urnygu - 12040 AR 128gu Fgerrg , Xvexynaq, 98034 7012\aGEVC ABGRF: NQQ QRYNL",
+        "ANZR:JROFGRE");
+
+    qbGrfg("G63",
+        "{Gevc Abgvsvpngvba GEVC-05202} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 4</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 00:50</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q1013</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 53 Znyr WBUA UVGR 3/12/63\a" +
+        "FBO\a" +
+        "YHAT PN\a" +
+        "ZBAVGBE B2\a" +
+        "GB CEBI Q1013\a" +
+        "155YOF  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: NQQ QRYNL, QHR GB ORVAT BA N PNYY JURA PNYY ERPVRIRQ </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: UVGR&aofc;</qvi>",
+
+        "VQ:05202",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Rireterra Urnygu-Zbaebr RE",
+        "NQQE:14701 179gu Nir FR",
+        "NCG:4",
+        "VASB:53 Znyr WBUA UVGR 3/12/63\aFBO\aYHAT PN\aZBAVGBE B2\aGB CEBI Q1013\a155YOF\aCVPX HC NG GUVF GVZR 12/13 - 00:50\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre\aCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg , Rirergg, 98201 Q1013\aGEVC ABGRF: NQQ QRYNL, QHR GB ORVAT BA N PNYY JURA PNYY ERPVRIRQ",
+        "ANZR:UVGR");
 
     qbGrfg("G64",
-        "{Gevc Abgvsvpngvba GEVC-03815} <qvi>\a" +
+        "{Gevc Abgvsvpngvba GEVC-05200} <qvi>\a" +
         "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Rireterra Urnygu ZEV - 14841 179gu Nir FR    , Zbaebr, 98272&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 23:56</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Rireterra Urnygu-Zbaebr RE</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gRireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272 11</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 37 Znyr WBFUHN JROFGRE 3/29/79\a" +
+        "ZEV\a" +
+        "J/E\a" +
+        "ONPX NAQ UVC CK\a" +
+        "E/B VASRPGVBA  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: JROFGRE&aofc;</qvi>",
+
+        "VQ:05200",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Rireterra Urnygu ZEV",
+        "NQQE:14841 179gu Nir FR",
+        "VASB:37 Znyr WBFUHN JROFGRE 3/29/79\aZEV\aJ/E\aONPX NAQ UVC CK\aE/B VASRPGVBA\aCVPX HC NG GUVF GVZR 12/12 - 23:56\aGENAFCBEG GB: Rireterra Urnygu-Zbaebr RE\aRireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272 11",
+        "ANZR:JROFGRE");
+
+    qbGrfg("G65",
+        "{Gevc Abgvsvpngvba GEVC-05201} <qvi>\a" +
+        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3428,26 +3387,23 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 13:22</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/13 - 00:16</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a" +
+        "\gGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 jvat N 618, orq 1</qvi>\a" +
+        "\gPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284 </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 84 Srznyr unafra,orggl\a" +
-        "7-17-1931\a" +
-        "104 xvyb\a" +
-        "juvqorl trareny RE NYF\a" +
-        "gb Cebivqrapr Rirerggr N 618 orq 1\a" +
-        "cbylgubevgvf / fnyvar ehaavas\a" +
-        "7 yge znfx b2\a" +
-        "  &aofc;</qvi>\a" +
+        "\gSBE: 37 Znyr PUEVFGBCRE CRGREFBA 5/7/79\a" +
+        "ZRAGNY RINY\a" +
+        "ABEGU FBHAQ\a" +
+        "174 YOF\a" +
+        "VAIBY VGN  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3455,21 +3411,121 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: UNAFRA&aofc;</qvi>",
+        "\gANZR: CRGREFBA&aofc;</qvi>",
 
-        "VQ:03815",
-        "HAVG:AJ10",
+        "VQ:05201",
+        "HAVG:AJ18",
         "CEV:2",
         "CYNPR:Juvqorl Trareny",
         "NQQE:101 Abegu Znva Fgerrg",
         "NCG:RE",
-        "PVGL:Pbhcrivyyr",
-        "VASB:84 Srznyr unafra,orggl\a7-17-1931\a104 xvyb\ajuvqorl trareny RE NYF\agb Cebivqrapr Rirerggr N 618 orq 1\acbylgubevgvf / fnyvar ehaavas\a7 yge znfx b2\aCVPX HC NG GUVF GVZR 10/24 - 13:22\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre\aCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg , Rirergg, 98201 jvat N 618, orq 1",
-        "ANZR:UNAFRA");
+        "VASB:37 Znyr PUEVFGBCRE CRGREFBA 5/7/79\aZRAGNY RINY\aABEGU FBHAQ\a174 YOF\aVAIBY VGN\aCVPX HC NG GUVF GVZR 12/13 - 00:16\aGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G\aPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284",
+        "ANZR:CRGREFBA");
 
-    qbGrfg("G65",
-        "{Gevc Abgvsvpngvba GEVC-03814} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+    qbGrfg("G66",
+        "{Gevc Abgvsvpngvba GEVC-05199} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 11</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 23:56</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Rireterra Urnygu ZEV</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gRireterra Urnygu ZEV - 14841 179gu Nir FR    , Zbaebr, 98272 </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 37 Znyr WBFUHN JROFGRE 3/29/79\a" +
+        "ZEV\a" +
+        "J/E\a" +
+        "ONPX NAQ UVC CK\a" +
+        "E/B VASRPGVBA  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: JROFGRE&aofc;</qvi>",
+
+        "VQ:05199",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Rireterra Urnygu-Zbaebr RE",
+        "NQQE:14701 179gu Nir FR",
+        "NCG:11",
+        "VASB:37 Znyr WBFUHN JROFGRE 3/29/79\aZEV\aJ/E\aONPX NAQ UVC CK\aE/B VASRPGVBA\aCVPX HC NG GUVF GVZR 12/12 - 23:56\aGENAFCBEG GB: Rireterra Urnygu ZEV\aRireterra Urnygu ZEV - 14841 179gu Nir FR , Zbaebr, 98272",
+        "ANZR:JROFGRE");
+
+    qbGrfg("G67",
+        "{Gevc Abgvsvpngvba GEVC-05198} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 1818 Cnpvsvp Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 23:25</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   YNQ 1\a" +
+        "GNP1  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05198",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:1818 Cnpvsvp Nir",
+        "FG:JN",
+        "VASB:YNQ 1\aGNP1\aCVPX HC NG GUVF GVZR 12/12 - 23:25\aHaxabja");
+
+    qbGrfg("G68",
+        "{Gevc Abgvsvpngvba GEVC-05197} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3477,32 +3533,31 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: Pnfpnqr Inyyrl Ubfcvgny - RE - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: ebbz 11</qvi>\a" +
+        "\gEBBZ: 16</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 12:45</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 11:15</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Yvsr Pner Pragre bs Fxntvg Inyyrl</qvi>\a" +
+        "\gGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gYvsr Pner Pragre bs Fxntvg Inyyrl - 1462 Jrfg FE-20    , Frqeb Jbbyyrl, 98284 </qvi>\a" +
+        "\gPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284 </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 92 Znyr tnatyre, cuvyyvc\a" +
-        "06-11-1923\a" +
-        "naxyr vasrpgvba\a" +
-        "77 xvyb\a" +
-        "havgrq trareny re 11\a" +
-        "gb yvsr pner fxntvg inyyrl  &aofc;</qvi>\a" +
+        "\gSBE: 33 Srznyr WNFZVAR RIRERGG 12/19/82\a" +
+        "FPUVMB\a" +
+        "VAIBY VGN\a" +
+        "ERFGENVAGF\a" +
+        "GB ABEGU FBHAQ R&G  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3510,20 +3565,771 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: TNATYRE&aofc;</qvi>",
+        "\gANZR: RIRERGG&aofc;</qvi>",
 
-        "VQ:03814",
-        "HAVG:AJ12",
+        "VQ:05197",
+        "HAVG:AJ20",
         "CEV:3",
+        "CYNPR:Pnfpnqr Inyyrl Ubfcvgny - RE",
+        "NQQE:330 F Fgvyynthnzvfu Nir",
+        "NCG:16",
+        "VASB:33 Srznyr WNFZVAR RIRERGG 12/19/82\aFPUVMB\aVAIBY VGN\aERFGENVAGF\aGB ABEGU FBHAQ R&G\aCVPX HC NG GUVF GVZR 12/12 - 11:15\aGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G\aPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284",
+        "ANZR:RIRERGG");
+
+    qbGrfg("G69",
+        "{Gevc Abgvsvpngvba GEVC-05196} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 2001 ZpQbhtny Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 22:35</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   R2  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05196",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:2001 ZpQbhtny Nir",
+        "FG:JN",
+        "VASB:R2\aCVPX HC NG GUVF GVZR 12/12 - 22:35\aHaxabja");
+
+    qbGrfg("G70",
+        "{Gevc Abgvsvpngvba GEVC-05195} <qvi>\a" +
+        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 7</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 21:56</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gFg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225 406.1</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 70 Znyr WREEL OHEAF 4/14/46\a" +
+        "PURFG CK\a" +
+        "RYI GEVC\a" +
+        "CARH\a" +
+        "VI\a" +
+        "ZBAVGBE\a" +
+        "190 YOF\a" +
+        "GB FWU 406.1  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: OHEAF&aofc;</qvi>",
+
+        "VQ:05195",
+        "HAVG:AJ18",
+        "CEV:2",
         "CYNPR:Havgrq Trareny Ubfcvgny - RE",
         "NQQE:2000 Ubfcvgny Qevir",
-        "NCG:11",
-        "PVGL:Frqeb Jbbyyrl",
-        "VASB:92 Znyr tnatyre, cuvyyvc\a06-11-1923\anaxyr vasrpgvba\a77 xvyb\ahavgrq trareny re 11\agb yvsr pner fxntvg inyyrl\aCVPX HC NG GUVF GVZR 10/24 - 12:45\aGENAFCBEG GB: Yvsr Pner Pragre bs Fxntvg Inyyrl\aYvsr Pner Pragre bs Fxntvg Inyyrl - 1462 Jrfg FE-20 , Frqeb Jbbyyrl, 98284",
-        "ANZR:TNATYRE");
+        "NCG:7",
+        "VASB:70 Znyr WREEL OHEAF 4/14/46\aPURFG CK\aRYI GEVC\aCARH\aVI\aZBAVGBE\a190 YOF\aGB FWU 406.1\aCVPX HC NG GUVF GVZR 12/12 - 21:56\aGENAFCBEG GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz\aFg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl , Oryyvatunz, 98225 406.1",
+        "ANZR:OHEAF");
 
-    qbGrfg("G66",
-        "{Gevc Abgvsvpngvba GEVC-03813} <qvi>\a" +
+    qbGrfg("G71",
+        "{Gevc Abgvsvpngvba GEVC-05194} <qvi>\a" +
+        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 10417 3eq Nir FR, Rirergg, JN 98208&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 20:35</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   R43\a" +
+        "GNP1  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05194",
+        "HAVG:AJ12",
+        "CEV:2",
+        "NQQE:10417 3eq Nir FR",
+        "FG:JN",
+        "VASB:R43\aGNP1\aCVPX HC NG GUVF GVZR 12/12 - 20:35\aHaxabja");
+
+    qbGrfg("G72",
+        "{Gevc Abgvsvpngvba GEVC-05193} <qvi>\a" +
+        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 811 112gu Fg FJ, Rirergg, JN 98204&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: T103</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 20:19</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   R12 GNP 23  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05193",
+        "HAVG:AJ12",
+        "CEV:2",
+        "NQQE:811 112gu Fg FJ",
+        "NCG:T103",
+        "FG:JN",
+        "VASB:R12 GNP 23\aCVPX HC NG GUVF GVZR 12/12 - 20:19\aHaxabja");
+
+    qbGrfg("G73",
+        "{Gevc Abgvsvpngvba GEVC-05192} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 9615 Ubyyl Qe, Rirergg, JN 98204&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: O08</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 20:04</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   ZRQ 1  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: UVTU OC</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05192",
+        "HAVG:AJ20",
+        "CEV:2",
+        "NQQE:9615 Ubyyl Qe",
+        "NCG:O08",
+        "FG:JN",
+        "VASB:ZRQ 1\aCVPX HC NG GUVF GVZR 12/12 - 20:04\aHaxabja\aGEVC ABGRF: UVTU OC");
+
+    qbGrfg("G74",
+        "{Gevc Abgvsvpngvba GEVC-05191} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 4709 Irfcre Qe, Rirergg, JN 98203&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 19:36</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   R1 GNP 1  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: CNEXVAT TNENTR BSSS NYYRL</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05191",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:4709 Irfcre Qe",
+        "FG:JN",
+        "VASB:R1 GNP 1\aCVPX HC NG GUVF GVZR 12/12 - 19:36\aHaxabja\aGEVC ABGRF: CNEXVAT TNENTR BSSS NYYRL");
+
+    qbGrfg("G75",
+        "{Gevc Abgvsvpngvba GEVC-05189} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Pnfpnqr Inyyrl Ubfcvgny - RE - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 10</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 18:00</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Bylzcvp Cynpr Ergverzrag & Nffvfgrq Yvivat</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gBylzcvp Cynpr Ergverzrag & Nffvfgrq Yvivat - 20909 Bylzcvp Cynpr    , Neyvatgba, 98223 </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 86 Znyr TRBETR PHZZVATF 5/26/30\a" +
+        "YRNX PNGU\a" +
+        "ABA NZOYHNGBEL\a" +
+        "ORQ PBASVARQ\a" +
+        "180YOF\a" +
+        "GB BYLZCVP CYNPR\a" +
+        "20909 BYLZCVP CY  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: PHZZVATF&aofc;</qvi>",
+
+        "VQ:05189",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Pnfpnqr Inyyrl Ubfcvgny - RE",
+        "NQQE:330 F Fgvyynthnzvfu Nir",
+        "NCG:10",
+        "VASB:86 Znyr TRBETR PHZZVATF 5/26/30\aYRNX PNGU\aABA NZOYHNGBEL\aORQ PBASVARQ\a180YOF\aGB BYLZCVP CYNPR\a20909 BYLZCVP CY\aCVPX HC NG GUVF GVZR 12/12 - 18:00\aGENAFCBEG GB: Bylzcvp Cynpr Ergverzrag & Nffvfgrq Yvivat\aBylzcvp Cynpr Ergverzrag & Nffvfgrq Yvivat - 20909 Bylzcvp Cynpr , Neyvatgba, 98223",
+        "ANZR:PHZZVATF");
+
+    qbGrfg("G76",
+        "{Gevc Abgvsvpngvba GEVC-05188} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 3315 Ebpxrsryyre Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 17:30</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   YNQ 1  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05188",
+        "HAVG:AJ20",
+        "CEV:2",
+        "NQQE:3315 Ebpxrsryyre Nir",
+        "FG:JN",
+        "VASB:YNQ 1\aCVPX HC NG GUVF GVZR 12/12 - 17:30\aHaxabja");
+
+    qbGrfg("G77",
+        "{Gevc Abgvsvpngvba GEVC-05187} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Fjrqvfu Zrqvpny Pragre- Onyyneq - 5300 Gnyyzna Nir AJ     , Frnggyr, 98107&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: RE 3</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 16:51</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Svefg Uvyy</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gFjrqvfu Zrqvpny Pragre- Svefg Uvyy - 747 Oebnqjnl     , Frnggyr, 98122 815J</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 90 Znyr UBJNEQ BIREZNA 7/12/25\a" +
+        "OBJRY BOFG\a" +
+        "CEBGNGR PN\a" +
+        "GB FJRQVFU 1FG 815J  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: BIREZNA&aofc;</qvi>",
+
+        "VQ:05187",
+        "HAVG:AJ16",
+        "CEV:2",
+        "CYNPR:Fjrqvfu Zrqvpny Pragre- Onyyneq",
+        "NQQE:5300 Gnyyzna Nir AJ",
+        "NCG:RE 3",
+        "VASB:90 Znyr UBJNEQ BIREZNA 7/12/25\aOBJRY BOFG\aCEBGNGR PN\aGB FJRQVFU 1FG 815J\aCVPX HC NG GUVF GVZR 12/12 - 16:51\aGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Svefg Uvyy\aFjrqvfu Zrqvpny Pragre- Svefg Uvyy - 747 Oebnqjnl , Frnggyr, 98122 815J",
+        "ANZR:BIREZNA");
+
+    qbGrfg("G78",
+        "{Gevc Abgvsvpngvba GEVC-05186} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Frnjnl Oyiq, Rirergg, JN 98203&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 16:27</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   R6  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05186",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:Frnjnl Oyiq",
+        "FG:JN",
+        "VASB:R6\aCVPX HC NG GUVF GVZR 12/12 - 16:27\aHaxabja");
+
+    qbGrfg("G79",
+        "{Gevc Abgvsvpngvba GEVC-05185} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 7</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 13:44</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Bireynxr Ubfcvgny Zrqvpny Pragre </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gBireynxr Ubfcvgny Zrqvpny Pragre  - 1035 116gu Nirahr Abegurnfg, Oryyrihr, 98004 FBHGU 5</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 56 Znyr QNAVRY GUBZNF 12/4/59\a" +
+        "XVQARL FGBAR\a" +
+        "GB BIREYNXR FBHGU 5\a" +
+        "165 YOF  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: GUBZNF&aofc;</qvi>",
+
+        "VQ:05185",
+        "HAVG:AJ20",
+        "CEV:2",
+        "CYNPR:Rireterra Urnygu-Zbaebr RE",
+        "NQQE:14701 179gu Nir FR",
+        "NCG:7",
+        "VASB:56 Znyr QNAVRY GUBZNF 12/4/59\aXVQARL FGBAR\aGB BIREYNXR FBHGU 5\a165 YOF\aCVPX HC NG GUVF GVZR 12/12 - 13:44\aGENAFCBEG GB: Bireynxr Ubfcvgny Zrqvpny Pragre\aBireynxr Ubfcvgny Zrqvpny Pragre - 1035 116gu Nirahr Abegurnfg, Oryyrihr, 98004 FBHGU 5",
+        "ANZR:GUBZNF");
+
+    qbGrfg("G80",
+        "{Gevc Abgvsvpngvba GEVC-05184} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: J Znyy Qe & FR Rirergg Znyy Jnl, Rirergg, JN 98208&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 11:26</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:   R6  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05184",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:J Znyy Qe & FR Rirergg Znyy Jnl",
+        "FG:JN",
+        "VASB:R6\aCVPX HC NG GUVF GVZR 12/12 - 11:26\aHaxabja");
+
+    qbGrfg("G81",
+        "{Gevc Abgvsvpngvba GEVC-05179} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Pnfpnqr Inyyrl Ubfcvgny - RE - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 7</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 09:06</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gFxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 1027</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 71 Znyr TNEL QHAA 3/13/45\a" +
+        "ABFR OYRRQBA OYBBQ GUVAAREF \a" +
+        "RAG FCRPVNYVFG NG FIU\a" +
+        "EZ 1027\a" +
+        "200 YOF  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: NQQ QRYNL GB CVPX HC GVZR QHR GB ORVAT BA N PNYY JURA PNYY ERPVRIRQ </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: QHAA&aofc;</qvi>",
+
+        "VQ:05179",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Pnfpnqr Inyyrl Ubfcvgny - RE",
+        "NQQE:330 F Fgvyynthnzvfu Nir",
+        "NCG:7",
+        "VASB:71 Znyr TNEL QHAA 3/13/45\aABFR OYRRQBA OYBBQ GUVAAREF\aRAG FCRPVNYVFG NG FIU\aEZ 1027\a200 YOF\aCVPX HC NG GUVF GVZR 12/12 - 09:06\aGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny\aFxntvg Inyyrl Ubcfvgny - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 1027\aGEVC ABGRF: NQQ QRYNL GB CVPX HC GVZR QHR GB ORVAT BA N PNYY JURA PNYY ERPVRIRQ",
+        "ANZR:QHAA");
+
+    qbGrfg("G82",
+        "{Gevc Abgvsvpngvba GEVC-05180} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Znelfivyyr Pner Pragre  - 1821 Tebir Fg, Znelfivyyr , 98270&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 112O</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 09:15</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg     , Rirergg, 98201 </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 80 Znyr EBOREG OEBJA 10/27/35\a" +
+        "SRIRE BS HAXABJA BEVT\a" +
+        "ERPRAG YHZONE QENVA\a" +
+        "RINY GB CEBI RE\a" +
+        "224 YOF  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: OEBJA&aofc;</qvi>",
+
+        "VQ:05180",
+        "HAVG:AJ16",
+        "CEV:2",
+        "CYNPR:Znelfivyyr Pner Pragre",
+        "NQQE:1821 Tebir Fg",
+        "NCG:112O",
+        "VASB:80 Znyr EBOREG OEBJA 10/27/35\aSRIRE BS HAXABJA BEVT\aERPRAG YHZONE QENVA\aRINY GB CEBI RE\a224 YOF\aCVPX HC NG GUVF GVZR 12/12 - 09:15\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE\aCebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg , Rirergg, 98201",
+        "ANZR:OEBJA");
+
+    qbGrfg("G83",
+        "{Gevc Abgvsvpngvba GEVC-05128} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Neyvatgba Urnygu & Eruno - 620 Unmry Fg, Neyvatgba, 98223&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: 402</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 08:30</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Pnfpnqr Inyyrl Ubfcvgny</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gPnfpnqr Inyyrl Ubfcvgny - 330 F Fgvyynthnzvfu Nir    , Neyvatgba, 98223 NQZVG GUEH RE</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 36 Znyr GNLYBE FUNJ 11/30/79\a" +
+        "OYBBQ GKSHFVBA\a" +
+        "GB PNFPNQR NQZVG GUEH RE\a" +
+        "QEBC BSS  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: FUNJ&aofc;</qvi>",
+
+        "VQ:05128",
+        "HAVG:AJ10",
+        "CEV:3",
+        "CYNPR:Neyvatgba Urnygu & Eruno",
+        "NQQE:620 Unmry Fg",
+        "NCG:402",
+        "VASB:36 Znyr GNLYBE FUNJ 11/30/79\aOYBBQ GKSHFVBA\aGB PNFPNQR NQZVG GUEH RE\aQEBC BSS\aCVPX HC NG GUVF GVZR 12/12 - 08:30\aGENAFCBEG GB: Pnfpnqr Inyyrl Ubfcvgny\aPnfpnqr Inyyrl Ubfcvgny - 330 F Fgvyynthnzvfu Nir , Neyvatgba, 98223 NQZVG GUEH RE",
+        "ANZR:FUNJ");
+
+    qbGrfg("G84",
+        "{Gevc Abgvsvpngvba GEVC-05178} <qvi>\a" +
         "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -3536,11 +4342,11 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: rirergg fgngvba</qvi>\a" +
+        "\gEBBZ: Rirergg Fgngvba</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 11:53</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 07:19</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3556,126 +4362,22 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGEVC ABGRF: ratvar 1\a" +
-        "gnp 1\a" +
-        "rirergg fgngvba</qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp jvgu Y-1 ba G-1 sbe n 40lbz Pk Ck</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\gANZR: Haxabja&aofc;</qvi>",
 
-        "VQ:03813",
+        "VQ:05178",
         "HAVG:AJ16",
         "CEV:2",
         "NQQE:3201 Fzvgu Nir",
-        "NCG:rirergg fgngvba",
-        "PVGL:Rirergg",
+        "NCG:Rirergg Fgngvba",
         "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/24 - 11:53\aHaxabja\aGEVC ABGRF: ratvar 1\agnp 1\arirergg fgngvba");
+        "VASB:CVPX HC NG GUVF GVZR 12/12 - 07:19\aHaxabja\aGEVC ABGRF: Fabcnp jvgu Y-1 ba G-1 sbe n 40lbz Pk Ck");
 
-    qbGrfg("G67",
-        "{Gevc Abgvsvpngvba GEVC-03812} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: ebbz 2&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 11:30</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: 601 J Ryvmnorgu Fg, Zbaebr, JN 98272</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g601 J Ryvmnorgu Fg, Zbaebr, JN 98272 ncg 113</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 56 Srznyr NORYRF,WVYY\a" +
-        "05-25-59\a" +
-        "350 YOF ERANY SNVYHER\a" +
-        "RIRETERRA ZBAEBR RE 2\a" +
-        "601 J. RYVMNORGU NG ZBAEBR #13  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: NORYRF&aofc;</qvi>",
-
-        "VQ:03812",
-        "HAVG:AJ12",
-        "CEV:3",
-        "NQQE:ebbz 2",
-        "VASB:56 Srznyr NORYRF,WVYY\a05-25-59\a350 YOF ERANY SNVYHER\aRIRETERRA ZBAEBR RE 2\a601 J. RYVMNORGU NG ZBAEBR #13\aCVPX HC NG GUVF GVZR 10/24 - 11:30\aGENAFCBEG GB: 601 J Ryvmnorgu Fg, Zbaebr, JN 98272\a601 J Ryvmnorgu Fg, Zbaebr, JN 98272 ncg 113",
-        "ANZR:NORYRF");
-
-    qbGrfg("G68",
-        "{Gevc Abgvsvpngvba GEVC-03811} <qvi>\a" +
-        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: RE 4</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 08:30</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Oebbxqnyr ng Fabubzvfu</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gOebbxqnyr ng Fabubzvfu - 1124 Cvar Nir, Fabubzvfu, 98290 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 95 Srznyr Cg pnzr va jvgu TYS erfhygvat va jevfg naq unaq senpgherf, haqre 250#, purpx jvgu EA gb or fher guvf vf gur Oebbxqnyr va Fabubzvfu if. gur bar va Zbaebr.  Ur qvqa'g tvir n ybpngvba.  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: EVYRL&aofc;</qvi>",
-
-        "VQ:03811",
-        "HAVG:AJ10",
-        "CEV:3",
-        "CYNPR:Rireterra Urnygu-Zbaebr RE",
-        "NQQE:14701 179gu Nir FR",
-        "NCG:RE 4",
-        "PVGL:ZBAEBR",
-        "VASB:95 Srznyr Cg pnzr va jvgu TYS erfhygvat va jevfg naq unaq senpgherf, haqre 250#, purpx jvgu EA gb or fher guvf vf gur Oebbxqnyr va Fabubzvfu if. gur bar va Zbaebr. Ur qvqa'g tvir n ybpngvba.\aCVPX HC NG GUVF GVZR 10/24 - 08:30\aGENAFCBEG GB: Oebbxqnyr ng Fabubzvfu\aOebbxqnyr ng Fabubzvfu - 1124 Cvar Nir, Fabubzvfu, 98290",
-        "ANZR:EVYRL");
-
-    qbGrfg("G69",
-        "{Gevc Abgvsvpngvba GEVC-03810} <qvi>\a" +
+    qbGrfg("G85",
+        "{Gevc Abgvsvpngvba GEVC-05177} <qvi>\a" +
         "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -3684,15 +4386,15 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: 2715 Uneevfba Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: 2001 Zbaebr Nir, Rirergg, JN 98203&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: Havg #4</qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 04:52</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 02:09</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3708,23 +4410,21 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGEVC ABGRF: Fabcnp jvgu R-2 ba G-1</qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp jvgu R-5 ba G-1 sbe na hafrpher fprar</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\gANZR: Haxabja&aofc;</qvi>",
 
-        "VQ:03810",
+        "VQ:05177",
         "HAVG:AJ16",
         "CEV:2",
-        "NQQE:2715 Uneevfba Nir",
-        "NCG:Havg #4",
-        "PVGL:Rirergg",
+        "NQQE:2001 Zbaebr Nir",
         "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/24 - 04:52\aHaxabja\aGEVC ABGRF: Fabcnp jvgu R-2 ba G-1");
+        "VASB:CVPX HC NG GUVF GVZR 12/12 - 02:09\aHaxabja\aGEVC ABGRF: Fabcnp jvgu R-5 ba G-1 sbe na hafrpher fprar");
 
-    qbGrfg("G70",
-        "{Gevc Abgvsvpngvba GEVC-03809} <qvi>\a" +
+    qbGrfg("G86",
+        "{Gevc Abgvsvpngvba GEVC-05176} <qvi>\a" +
         "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -3733,205 +4433,7 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Orgunal ng Cnpvsvp - 916 Cnpvsvp Nir syef 3,4,5    , Rirergg, 98201&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: #412</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 02:04</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: Fabcnp jvgu Y-1 ba G-1</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03809",
-        "HAVG:AJ16",
-        "CEV:2",
-        "CYNPR:Orgunal ng Cnpvsvp",
-        "NQQE:916 Cnpvsvp Nir",
-        "NCG:syef 3,4,5-412",
-        "PVGL:Rirergg",
-        "VASB:CVPX HC NG GUVF GVZR 10/24 - 02:04\aHaxabja\aGEVC ABGRF: Fabcnp jvgu Y-1 ba G-1");
-
-    qbGrfg("G71",
-        "{Gevc Abgvsvpngvba GEVC-03807} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 3333 148gu Fg FJ, Ylaajbbq, JN 98087&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: Havg 107-N</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 00:46</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Abegujrfg Ubfcvgny & Zrqvpny Pragre - RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gAbegujrfg Ubfcvgny & Zrqvpny Pragre - RE - 1550 Abegu 115gu Fgerrg     , Frnggyr, 98133 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: Fabpbz jvgu R-10 ba G-23 sbe na 88lbs urnq ynp sebz n snyy, genafcbeg gb Abegujrfg Ubfcvgny</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03807",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:3333 148gu Fg FJ",
-        "NCG:Havg 107-N",
-        "PVGL:Ylaajbbq",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/24 - 00:46\aGENAFCBEG GB: Abegujrfg Ubfcvgny & Zrqvpny Pragre - RE\aAbegujrfg Ubfcvgny & Zrqvpny Pragre - RE - 1550 Abegu 115gu Fgerrg , Frnggyr, 98133\aGEVC ABGRF: Fabpbz jvgu R-10 ba G-23 sbe na 88lbs urnq ynp sebz n snyy, genafcbeg gb Abegujrfg Ubfcvgny");
-
-    qbGrfg("G72",
-        "{Gevc Abgvsvpngvba GEVC-03806} <qvi>\a" +
-        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny - RE - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: RE 10</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 01:35</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Onyyneq</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gFjrqvfu Zrqvpny Pragre- Onyyneq - 5300 Gnyyzna Nir AJ     , Frnggyr, 98107 Vacngvrag erpbirel sbe certanag jbzra</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 34 Srznyr Cg arrqvat genafcbeg gb Onyyneq sbe vacngvrag erpbirel sbe certanag jbzra, cg vf n urebva nqvpg, 9 jrrxf nybat ba certanapl, ab VI be zbavgbe, OYF,   &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: NIREL&aofc;</qvi>",
-
-        "VQ:03806",
-        "HAVG:AJ10",
-        "CEV:2",
-        "CYNPR:Fg. Wbfrcu Ubfcvgny - RE",
-        "NQQE:2901 Fdhnyvphz Cnexjnl",
-        "NCG:RE 10",
-        "PVGL:Oryyvatunz",
-        "VASB:34 Srznyr Cg arrqvat genafcbeg gb Onyyneq sbe vacngvrag erpbirel sbe certanag jbzra, cg vf n urebva nqvpg, 9 jrrxf nybat ba certanapl, ab VI be zbavgbe, OYF,\aCVPX HC NG GUVF GVZR 10/24 - 01:35\aGENAFCBEG GB: Fjrqvfu Zrqvpny Pragre- Onyyneq\aFjrqvfu Zrqvpny Pragre- Onyyneq - 5300 Gnyyzna Nir AJ , Frnggyr, 98107 Vacngvrag erpbirel sbe certanag jbzra",
-        "ANZR:NIREL");
-
-    qbGrfg("G73",
-        "{Gevc Abgvsvpngvba GEVC-03805} <qvi>\a" +
-        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: EZ 2015</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/24 - 00:00</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Uneobeivrj Zrqvpny Pragre - RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gUneobeivrj Zrqvpny Pragre - RE - 325 9gu Nir, Frnggyr, 98104 RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 54 Znyr Cg vf vaghongrq, zbavgbe, zhygvcyr yvarf, Sragnaby, Cerfbqrk, NEG yvar, CVPP yvar, vf 283#, tbvat gb UZP sbe shegure pner, whfg unq fhetrel ohg vf gbb pbzcyvpngrq sbe Fxntvg gb unaqyr  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: YRQSBEQ&aofc;</qvi>",
-
-        "VQ:03805",
-        "HAVG:AJ18",
-        "CEV:2",
-        "CYNPR:Fxntvg Inyyrl Ubcfvgny",
-        "NQQE:1415 Rnfg Xvapnvq Fg",
-        "NCG:2015",
-        "PVGL:Zbhag Ireaba",
-        "VASB:54 Znyr Cg vf vaghongrq, zbavgbe, zhygvcyr yvarf, Sragnaby, Cerfbqrk, NEG yvar, CVPP yvar, vf 283#, tbvat gb UZP sbe shegure pner, whfg unq fhetrel ohg vf gbb pbzcyvpngrq sbe Fxntvg gb unaqyr\aCVPX HC NG GUVF GVZR 10/24 - 00:00\aGENAFCBEG GB: Uneobeivrj Zrqvpny Pragre - RE\aUneobeivrj Zrqvpny Pragre - RE - 325 9gu Nir, Frnggyr, 98104 RE",
-        "ANZR:YRQSBEQ");
-
-    qbGrfg("G74",
-        "{Gevc Abgvsvpngvba GEVC-03804} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 10121 Rireterra Jnl, Rirergg, JN 98204&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: 513 R Pnfvab Eq, Rirergg, JN 98208&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3939,7 +4441,7 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 20:33</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/12 - 00:01</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3961,17 +4463,16 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\gANZR: Haxabja&aofc;</qvi>",
 
-        "VQ:03804",
+        "VQ:05176",
         "HAVG:AJ16",
         "CEV:2",
-        "NQQE:10121 Rireterra Jnl",
-        "PVGL:Rirergg",
+        "NQQE:513 R Pnfvab Eq",
         "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/23 - 20:33\aHaxabja\aGEVC ABGRF: Fabcnp jvgu R-6 ba G-1");
+        "VASB:CVPX HC NG GUVF GVZR 12/12 - 00:01\aHaxabja\aGEVC ABGRF: Fabcnp jvgu R-6 ba G-1");
 
-    qbGrfg("G75",
-        "{Gevc Abgvsvpngvba GEVC-03803} <qvi>\a" +
-        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+    qbGrfg("G87",
+        "{Gevc Abgvsvpngvba GEVC-05175} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -3979,98 +4480,94 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Juvqorl Trareny - 101 Abegu Znva Fgerrg    , Pbhcrivyyr, 98239&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: 7816 Gvzore Uvyy Qe, Rirergg, JN 98203&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: Zrq Fhetr 21-O</qvi>\a" +
+        "\gEBBZ: W-301</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 20:45</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/11 - 21:05</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre</qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201 Q-621</qvi>\a" +
+        "\gHaxabja </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 66 Znyr Cg pnzr va jvgu PBCQ vffhrf, vf ba Nyohgreby arof gb xrrc fngf nobir 93%, fnyvar ybpx, zbavgbe, unf fgevqbe ov-yng  &aofc;</qvi>\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp jvgu R-5 ba G-1, abg fher nobhg gur havg ahzore ohg nqqerff fubhyq or pbeerpg</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: UNECRE&aofc;</qvi>",
+        "\gANZR: Haxabja&aofc;</qvi>",
 
-        "VQ:03803",
-        "HAVG:AJ18",
+        "VQ:05175",
+        "HAVG:AJ16",
         "CEV:2",
-        "CYNPR:Juvqorl Trareny",
-        "NQQE:101 Abegu Znva Fgerrg",
-        "NCG:Zrq Fhetr 21-O",
-        "PVGL:Pbhcrivyyr",
-        "VASB:66 Znyr Cg pnzr va jvgu PBCQ vffhrf, vf ba Nyohgreby arof gb xrrc fngf nobir 93%, fnyvar ybpx, zbavgbe, unf fgevqbe ov-yng\aCVPX HC NG GUVF GVZR 10/23 - 20:45\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre\aCebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg , Rirergg, 98201 Q-621",
-        "ANZR:UNECRE");
+        "NQQE:7816 Gvzore Uvyy Qe",
+        "NCG:W-301",
+        "FG:JN",
+        "VASB:CVPX HC NG GUVF GVZR 12/11 - 21:05\aHaxabja\aGEVC ABGRF: Fabcnp jvgu R-5 ba G-1, abg fher nobhg gur havg ahzore ohg nqqerff fubhyq or pbeerpg");
 
-    qbGrfg("G76",
-        "{Gevc Abgvsvpngvba GEVC-03801} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+    qbGrfg("G88",
+        "{Gevc Abgvsvpngvba GEVC-05174} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: 3201 Fzvgu Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: EZ 3005</qvi>\a" +
+        "\gEBBZ: Rirergg Genafvg</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 20:30</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/11 - 21:03</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Xvgfnc Zragny Urnygu</qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gXvgfnc Zragny Urnygu - 5455 Nyzven Qe AR, Oerzregba , 98311 </qvi>\a" +
+        "\gHaxabja </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 14 Srznyr Cg pnzr va jvgu qrcerffvba naq FV, cneragf jnag ure genafcbegrq sbe zragny riny naq nqzvg  &aofc;</qvi>\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp jvgu Y-1 ba G-1 sbe na UOQ znyr</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: ZBORET&aofc;</qvi>",
+        "\gANZR: Haxabja&aofc;</qvi>",
 
-        "VQ:03801",
-        "HAVG:AJ12",
-        "CEV:3",
-        "CYNPR:Fxntvg Inyyrl Ubcfvgny",
-        "NQQE:1415 Rnfg Xvapnvq Fg",
-        "NCG:3005",
-        "PVGL:Zbhag Ireaba",
-        "VASB:14 Srznyr Cg pnzr va jvgu qrcerffvba naq FV, cneragf jnag ure genafcbegrq sbe zragny riny naq nqzvg\aCVPX HC NG GUVF GVZR 10/23 - 20:30\aGENAFCBEG GB: Xvgfnc Zragny Urnygu\aXvgfnc Zragny Urnygu - 5455 Nyzven Qe AR, Oerzregba , 98311",
-        "ANZR:ZBORET");
+        "VQ:05174",
+        "HAVG:AJ20",
+        "CEV:2",
+        "NQQE:3201 Fzvgu Nir",
+        "NCG:Rirergg Genafvg",
+        "FG:JN",
+        "VASB:CVPX HC NG GUVF GVZR 12/11 - 21:03\aHaxabja\aGEVC ABGRF: Fabcnp jvgu Y-1 ba G-1 sbe na UOQ znyr");
 
-    qbGrfg("G77",
-        "{Gevc Abgvsvpngvba GEVC-03802} <qvi>\a" +
+    qbGrfg("G89",
+        "{Gevc Abgvsvpngvba GEVC-05173} <qvi>\a" +
         "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -4079,27 +4576,27 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: 201 16gu Nir R, Frnggyr, JN 98112&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: RE 8</qvi>\a" +
+        "\gEBBZ: Tebhc Urnygu Prageny</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 20:30</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/11 - 21:45</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz</qvi>\a" +
+        "\gGENAFCBEG GB: Ivetvavn Znfba Zrqvpny Pragre - RE</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gFg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225 Zrq Fhetr</qvi>\a" +
+        "\gIvetvavn Znfba Zrqvpny Pragre - RE - 1100 Avagu Nir     , Frnggyr, 98101 RE</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 79 Srznyr Cg pnzr va jvgu evtug oebxra uvc, haqre 250#  &aofc;</qvi>\a" +
+        "\gSBE: 81 Znyr Cg pnzr va jvgu PBCQ rknpreongvba, zbavgbe, bkltra, Tebhc Urnygu #3316093  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -4107,29 +4604,28 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: UHAFVXRE&aofc;</qvi>",
+        "\gANZR: PUNCZNA&aofc;</qvi>",
 
-        "VQ:03802",
+        "VQ:05173",
         "HAVG:AJ10",
         "CEV:2",
-        "CYNPR:Havgrq Trareny Ubfcvgny - RE",
-        "NQQE:2000 Ubfcvgny Qevir",
-        "NCG:RE 8",
-        "PVGL:Frqeb Jbbyyrl",
-        "VASB:79 Srznyr Cg pnzr va jvgu evtug oebxra uvc, haqre 250#\aCVPX HC NG GUVF GVZR 10/23 - 20:30\aGENAFCBEG GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz\aFg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl , Oryyvatunz, 98225 Zrq Fhetr",
-        "ANZR:UHAFVXRE");
+        "NQQE:201 16gu Nir R",
+        "NCG:Tebhc Urnygu Prageny",
+        "FG:JN",
+        "VASB:81 Znyr Cg pnzr va jvgu PBCQ rknpreongvba, zbavgbe, bkltra, Tebhc Urnygu #3316093\aCVPX HC NG GUVF GVZR 12/11 - 21:45\aGENAFCBEG GB: Ivetvavn Znfba Zrqvpny Pragre - RE\aIvetvavn Znfba Zrqvpny Pragre - RE - 1100 Avagu Nir , Frnggyr, 98101 RE",
+        "ANZR:PUNCZNA");
 
-    qbGrfg("G78",
-        "{Gevc Abgvsvpngvba GEVC-03800} <qvi>\a" +
+    qbGrfg("G90",
+        "{Gevc Abgvsvpngvba GEVC-05172} <qvi>\a" +
         "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCevbevgl 1 (Rzretrag Pbqr Erfc)&aofc;</qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Cvpavp Cbvag Eq & 140gu Fg FJ, Rqzbaqf, JN 98026&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: fe 526 naq fbhguobhaq V-5&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -4137,7 +4633,7 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 17:48</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/11 - 20:34</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -4153,628 +4649,73 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGEVC ABGRF: Fabpbz jvgu O-11 sbe na ZIP, PBQR </qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp jvgu R-3 ba G-1 sbe n ebyybire ZIP jvgu zvabef</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\gANZR: Haxabja&aofc;</qvi>",
 
-        "VQ:03800",
+        "VQ:05172",
         "HAVG:AJ16",
-        "CEV:1",
-        "NQQE:Cvpavp Cbvag Eq & 140gu Fg FJ",
-        "PVGL:Rqzbaqf",
+        "CEV:2",
+        "NQQE:fe 526 naq fbhguobhaq V-5",
+        "ZNQQE:JN 526 & V 5",
+        "VASB:CVPX HC NG GUVF GVZR 12/11 - 20:34\aHaxabja\aGEVC ABGRF: Fabcnp jvgu R-3 ba G-1 sbe n ebyybire ZIP jvgu zvabef");
+
+    qbGrfg("G91",
+        "{Gevc Abgvsvpngvba GEVC-05170} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Pnyvsbeavn Fg & Ublg Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/11 - 19:45</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp jvgu R-3 ba G-1 sbe n znyr snyy Cg</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05170",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:Pnyvsbeavn Fg & Ublg Nir",
         "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/23 - 17:48\aHaxabja\aGEVC ABGRF: Fabpbz jvgu O-11 sbe na ZIP, PBQR");
+        "VASB:CVPX HC NG GUVF GVZR 12/11 - 19:45\aHaxabja\aGEVC ABGRF: Fabcnp jvgu R-3 ba G-1 sbe n znyr snyy Cg");
 
-    qbGrfg("G79",
-        "{Gevc Abgvsvpngvba GEVC-03799} <qvi>\a" +
-        "\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: RE 9</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 18:00</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Pnfpnqr Orunivbeny Urnygu </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gPnfpnqr Orunivbeny Urnygu  - 12844 Zvyvgnel Eq Fbhgu , Ghxjvyn , 98168 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 75 Znyr Cg pnzr va jvgu nphgr cflpubfvf, ntvgngrq, ibyhagnel onpnhfr fba vf znxvat gur Cg tb ohg gur Cg vf abg noyr gb znxr uvf bja qrpvfvbaf  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: FNAQVSRE&aofc;</qvi>",
-
-        "VQ:03799",
-        "HAVG:AJ14",
-        "CEV:3",
-        "CYNPR:Havgrq Trareny Ubfcvgny - RE",
-        "NQQE:2000 Ubfcvgny Qevir",
-        "NCG:RE 9",
-        "PVGL:Frqeb Jbbyyrl",
-        "VASB:75 Znyr Cg pnzr va jvgu nphgr cflpubfvf, ntvgngrq, ibyhagnel onpnhfr fba vf znxvat gur Cg tb ohg gur Cg vf abg noyr gb znxr uvf bja qrpvfvbaf\aCVPX HC NG GUVF GVZR 10/23 - 18:00\aGENAFCBEG GB: Pnfpnqr Orunivbeny Urnygu\aPnfpnqr Orunivbeny Urnygu - 12844 Zvyvgnel Eq Fbhgu , Ghxjvyn , 98168",
-        "ANZR:FNAQVSRE");
-
-    qbGrfg("G80",
-        "{Gevc Abgvsvpngvba GEVC-03798} <qvi>\a" +
+    qbGrfg("G92",
+        "{Gevc Abgvsvpngvba GEVC-05168} <qvi>\a" +
         "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Gur Pbggntrf ng Znelfivyyr - 1216 Tebir Fg    , Znelfivyyr, 98270&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: O Pbggntr</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 16:11</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg     , Rirergg, 98201 RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 74 Srznyr Cg unf fuvatyrf va ure rlr, arrqf genafcbeg vagb RE sbe riny  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: QNUYTERA&aofc;</qvi>",
-
-        "VQ:03798",
-        "HAVG:AJ12",
-        "CEV:2",
-        "CYNPR:Gur Pbggntrf ng Znelfivyyr",
-        "NQQE:1216 Tebir Fg",
-        "NCG:O Pbggntr",
-        "PVGL:Znelfivyyr",
-        "VASB:74 Srznyr Cg unf fuvatyrf va ure rlr, arrqf genafcbeg vagb RE sbe riny\aCVPX HC NG GUVF GVZR 10/23 - 16:11\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE\aCebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg , Rirergg, 98201 RE",
-        "ANZR:QNUYTERA");
-
-    qbGrfg("G81",
-        "{Gevc Abgvsvpngvba GEVC-03797} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 2930 Ublg Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: Havg #1</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 15:08</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: Fabcnp jvgu R-1 ba G-1</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03797",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:2930 Ublg Nir",
-        "NCG:Havg #1",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/23 - 15:08\aHaxabja\aGEVC ABGRF: Fabcnp jvgu R-1 ba G-1");
-
-    qbGrfg("G82",
-        "{Gevc Abgvsvpngvba GEVC-03796} <qvi>\a" +
-        "\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
         "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: EZ 2027</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 15:30</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Yvsr Pner Pragre bs Zbhag Ireaba</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gYvsr Pner Pragre bs Zbhag Ireaba - 2120 Rnfg Qvivfvba Fgerrg    , Zbhag Ireaba, 98274 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 83 Srznyr Cg pnzr va jvgu pryyhyvgvf, qryvevhz, Uk bs qrzragvn, orq pbasvarq, 211#  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: TVOFBA&aofc;</qvi>",
-
-        "VQ:03796",
-        "HAVG:AJ14",
-        "CEV:3",
-        "CYNPR:Fxntvg Inyyrl Ubcfvgny",
-        "NQQE:1415 Rnfg Xvapnvq Fg",
-        "NCG:2027",
-        "PVGL:Zbhag Ireaba",
-        "VASB:83 Srznyr Cg pnzr va jvgu pryyhyvgvf, qryvevhz, Uk bs qrzragvn, orq pbasvarq, 211#\aCVPX HC NG GUVF GVZR 10/23 - 15:30\aGENAFCBEG GB: Yvsr Pner Pragre bs Zbhag Ireaba\aYvsr Pner Pragre bs Zbhag Ireaba - 2120 Rnfg Qvivfvba Fgerrg , Zbhag Ireaba, 98274",
-        "ANZR:TVOFBA");
-
-    qbGrfg("G83",
-        "{Gevc Abgvsvpngvba GEVC-03792} <qvi>\a" +
-        "\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 223 R Onxreivrj Eq, Oryyvatunz, JN 98226&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: Fcevat Perrx Nffvfgrq Yvivat, EZ 302</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 13:30</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Jungpbz Ubfcvpr Ubhfr</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gJungpbz Ubfcvpr Ubhfr - 2806 Qbhtynf Nir     , Oryyvatunz, 98225 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 71 Znyr Cg orvat genafcbegrq ba ubfcvpr pner, ovyy gb Jungpbz Ubfcvpr Ubhfr, haqre 250#, qrpyvavat pbaqvgvba  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: JRVYNAQ&aofc;</qvi>",
-
-        "VQ:03792",
-        "HAVG:AJ14",
-        "CEV:3",
-        "NQQE:223 R Onxreivrj Eq",
-        "NCG:Fcevat Perrx Nffvfgrq Yvivat, EZ 302",
-        "PVGL:Oryyvatunz",
-        "FG:JN",
-        "VASB:71 Znyr Cg orvat genafcbegrq ba ubfcvpr pner, ovyy gb Jungpbz Ubfcvpr Ubhfr, haqre 250#, qrpyvavat pbaqvgvba\aCVPX HC NG GUVF GVZR 10/23 - 13:30\aGENAFCBEG GB: Jungpbz Ubfcvpr Ubhfr\aJungpbz Ubfcvpr Ubhfr - 2806 Qbhtynf Nir , Oryyvatunz, 98225",
-        "ANZR:JRVYNAQ");
-
-    qbGrfg("G84",
-        "{Gevc Abgvsvpngvba GEVC-03793} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 1 (Rzretrag Pbqr Erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 4816 70gu Fg FJ, Zhxvygrb, JN 98275&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 12:25</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:     &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: Fabpbz jvgu R-24 ba G-21 sbe n 48lbz oynqqre cnva jvgu n sbyrl pngurgre vffhr</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03793",
-        "HAVG:AJ16",
-        "CEV:1",
-        "NQQE:4816 70gu Fg FJ",
-        "PVGL:Zhxvygrb",
-        "FG:JN",
-        "VASB:CVPX HC NG GUVF GVZR 10/23 - 12:25\aHaxabja\aGEVC ABGRF: Fabpbz jvgu R-24 ba G-21 sbe n 48lbz oynqqre cnva jvgu n sbyrl pngurgre vffhr");
-
-    qbGrfg("G85",
-        "{Gevc Abgvsvpngvba GEVC-03790} <qvi>\a" +
-        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny - RE - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: RE 9</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 11:10</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR    , Frnggyr, 98105 RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 4 Znyr Cg pnzr va ibzvgvat, sbhaq vagrepenavny znff, VI AF jvgu Mbsena, zbavgbe, snzvyl jvyy unir pne frng jura lbh neevir, jvgu zvyq qrulqengvba  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: TBAMNYRM&aofc;</qvi>",
-
-        "VQ:03790",
-        "HAVG:AJ18",
-        "CEV:2",
-        "CYNPR:Fg. Wbfrcu Ubfcvgny - RE",
-        "NQQE:2901 Fdhnyvphz Cnexjnl",
-        "NCG:RE 9",
-        "PVGL:Oryyvatunz",
-        "VASB:4 Znyr Cg pnzr va ibzvgvat, sbhaq vagrepenavny znff, VI AF jvgu Mbsena, zbavgbe, snzvyl jvyy unir pne frng jura lbh neevir, jvgu zvyq qrulqengvba\aCVPX HC NG GUVF GVZR 10/23 - 11:10\aGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE\aFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR , Frnggyr, 98105 RE",
-        "ANZR:TBAMNYRM");
-
-    qbGrfg("G86",
-        "{Gevc Abgvsvpngvba GEVC-03788} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 1 (Rzretrag Pbqr Erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Orgunal ng Cnpvsvp - 916 Cnpvsvp Nir syef 3,4,5    , Rirergg, 98201&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: 310</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 05:40</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:   R1\a" +
-        "GNP 1  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03788",
-        "HAVG:AJ16",
-        "CEV:1",
-        "CYNPR:Orgunal ng Cnpvsvp",
-        "NQQE:916 Cnpvsvp Nir",
-        "NCG:syef 3,4,5-310",
-        "PVGL:Rirergg",
-        "VASB:R1\aGNP 1\aCVPX HC NG GUVF GVZR 10/23 - 05:40\aHaxabja");
-
-    qbGrfg("G87",
-        "{Gevc Abgvsvpngvba GEVC-03787} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 1209 35gu Fg, Rirergg, JN 98201&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 01:45</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:   YNQ 1\a" +
-        "GNP 1  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03787",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:1209 35gu Fg",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:YNQ 1\aGNP 1\aCVPX HC NG GUVF GVZR 10/23 - 01:45\aHaxabja");
-
-    qbGrfg("G88",
-        "{Gevc Abgvsvpngvba GEVC-03786} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 14610 Nqzvenygl Jnl, Ylaajbbq, JN 98087&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/23 - 00:08</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:   R10 GNP 22\a" +
-        "FGNTR  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03786",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:14610 Nqzvenygl Jnl",
-        "PVGL:Ylaajbbq",
-        "FG:JN",
-        "VASB:R10 GNP 22\aFGNTR\aCVPX HC NG GUVF GVZR 10/23 - 00:08\aHaxabja");
-
-    qbGrfg("G89",
-        "{Gevc Abgvsvpngvba GEVC-03785} <qvi>\a" +
-        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Fg. Wbfrcu Ubfcvgny- Oryyvatunz - 2901 Fdhnyvphz Cnexjnl    , Oryyvatunz, 98225&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: 409</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/22 - 23:08</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg     , Frnggyr, 98195 5R PPH GBJRE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 34 Srznyr ZNEL JBBQF 11/6/81\a" +
-        "223 JRRXF CERT,AB YNOBE\a" +
-        "FBO\a" +
-        "ZVGENY INYIR NAQ GEV PHFC VAFHS\a" +
-        "CHYZ UGA, CNENPNEQVNY RSSHFVBA\a" +
-        "NFGUZN\a" +
-        "ZBAVGBE B2\a" +
-        "GB HJ 5R PPH GBJRE  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: JBBQF&aofc;</qvi>",
-
-        "VQ:03785",
-        "HAVG:AJ18",
-        "CEV:2",
-        "CYNPR:Fg. Wbfrcu Ubfcvgny- Oryyvatunz",
-        "NQQE:2901 Fdhnyvphz Cnexjnl",
-        "NCG:409",
-        "PVGL:Oryyvatunz",
-        "VASB:34 Srznyr ZNEL JBBQF 11/6/81\a223 JRRXF CERT,AB YNOBE\aFBO\aZVGENY INYIR NAQ GEV PHFC VAFHS\aCHYZ UGA, CNENPNEQVNY RSSHFVBA\aNFGUZN\aZBAVGBE B2\aGB HJ 5R PPH GBJRE\aCVPX HC NG GUVF GVZR 10/22 - 23:08\aGENAFCBEG GB: Havirefvgl bs JN Zrqvpny Pragre\aHavirefvgl bs JN Zrqvpny Pragre - 1959 AR Cnpvsvp Fgerrg , Frnggyr, 98195 5R PPH GBJRE",
-        "ANZR:JBBQF");
-
-    qbGrfg("G90",
-        "{Gevc Abgvsvpngvba GEVC-03784} <qvi>\a" +
-        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 4913 F 3eq Nir, Rirergg, JN 98203&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/22 - 22:17</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:   R5\a" +
-        "GNP 1  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03784",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:4913 F 3eq Nir",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:R5\aGNP 1\aCVPX HC NG GUVF GVZR 10/22 - 22:17\aHaxabja");
-
-    qbGrfg("G91",
-        "{Gevc Abgvsvpngvba GEVC-03783} <qvi>\a" +
-        "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -4782,11 +4723,11 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: 16</qvi>\a" +
+        "\gEBBZ: RE 9</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/22 - 22:08</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/11 - 19:50</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -4798,10 +4739,7 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 92 Srznyr ZVAAVR WNTRE 11/10/23\a" +
-        "HANOYR GB HAEVANGR\a" +
-        "ONPX GB ZVEN IVFGN\a" +
-        "  &aofc;</qvi>\a" +
+        "\gSBE: 69 Srznyr Cg pnzr va jvgu jrnxarff naq carhzbavn, tbvat onpx gb FAS  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -4809,78 +4747,24 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: WNTRE&aofc;</qvi>",
+        "\gANZR: TNEENEQ&aofc;</qvi>",
 
-        "VQ:03783",
-        "HAVG:AJ18",
-        "CEV:2",
+        "VQ:05168",
+        "HAVG:AJ12",
+        "CEV:3",
         "CYNPR:Fxntvg Inyyrl Ubfcvgny - RE",
         "NQQE:1415 R Xvapnvq Fg",
-        "NCG:16",
-        "PVGL:Zbhag Ireaba",
-        "VASB:92 Srznyr ZVAAVR WNTRE 11/10/23\aHANOYR GB HAEVANGR\aONPX GB ZVEN IVFGN\aCVPX HC NG GUVF GVZR 10/22 - 22:08\aGENAFCBEG GB: Zven Ivfgn Pner Pragre\aZven Ivfgn Pner Pragre - 300 F 18gu Fg , Zg Ireaba, 98274",
-        "ANZR:WNTRE");
-
-    qbGrfg("G92",
-        "{Gevc Abgvsvpngvba GEVC-03782} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 1 (Rzretrag Pbqr Erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Rireterra Urnygu-Zbaebr RE - 14701 179gu Nir FR, ZBAEBR, 98272&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: 8</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/22 - 20:49</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg     , Rirergg, 98201 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 65 Znyr ZRYIVA TNYYNATRE 9/5/50\a" +
-        "P 6 NAQ 7 SK\a" +
-        "SEBZ GERR\a" +
-        "TBVAT GB CEBI RVGURE RE BE QVERPG NQZVG (QN)  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: TNYYNATRE&aofc;</qvi>",
-
-        "VQ:03782",
-        "HAVG:AJ12",
-        "CEV:1",
-        "CYNPR:Rireterra Urnygu-Zbaebr RE",
-        "NQQE:14701 179gu Nir FR",
-        "NCG:8",
-        "PVGL:ZBAEBR",
-        "VASB:65 Znyr ZRYIVA TNYYNATRE 9/5/50\aP 6 NAQ 7 SK\aSEBZ GERR\aTBVAT GB CEBI RVGURE RE BE QVERPG NQZVG (QN)\aCVPX HC NG GUVF GVZR 10/22 - 20:49\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE\aCebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg , Rirergg, 98201",
-        "ANZR:TNYYNATRE");
+        "NCG:RE 9",
+        "VASB:69 Srznyr Cg pnzr va jvgu jrnxarff naq carhzbavn, tbvat onpx gb FAS\aCVPX HC NG GUVF GVZR 12/11 - 19:50\aGENAFCBEG GB: Zven Ivfgn Pner Pragre\aZven Ivfgn Pner Pragre - 300 F 18gu Fg , Zg Ireaba, 98274",
+        "ANZR:TNEENEQ");
 
     qbGrfg("G93",
-        "{Gevc Abgvsvpngvba GEVC-03780} <qvi>\a" +
-        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "{Gevc Abgvsvpngvba GEVC-05167} <qvi>\a" +
+        "\gAJ20 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -4888,26 +4772,23 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: 1</qvi>\a" +
+        "\gEBBZ: RE 7</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/22 - 18:43</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/11 - 19:05</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE</qvi>\a" +
+        "\gGENAFCBEG GB: Ertrapl Pner Pragre Zbaebr</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR    , Frnggyr, 98105 </qvi>\a" +
+        "\gErtrapl Pner Pragre Zbaebr - 1355 Jrfg Znva Fgerrg    , Zbaebr, 98272 </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE: 14 Srznyr EUVNABA FUVRYQF 6/29/2001\a" +
-        "GLYBABY BQ\a" +
-        "ZHPBZLFG\a" +
-        "GB PUVYQERAF RE  &aofc;</qvi>\a" +
+        "\gSBE: 94 Znyr Cg jnf genafcbegrq gb RE rneyvre sbe n snyy, sbhaq senpgherq uvc, ab fhetrel, tbvat onpx gb FAS,   &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -4915,69 +4796,19 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: FUVRYQF&aofc;</qvi>",
+        "\gANZR: ONVYRL&aofc;</qvi>",
 
-        "VQ:03780",
-        "HAVG:AJ10",
-        "CEV:2",
+        "VQ:05167",
+        "HAVG:AJ20",
+        "CEV:3",
         "CYNPR:Rireterra Urnygu-Zbaebr RE",
         "NQQE:14701 179gu Nir FR",
-        "NCG:1",
-        "PVGL:ZBAEBR",
-        "VASB:14 Srznyr EUVNABA FUVRYQF 6/29/2001\aGLYBABY BQ\aZHPBZLFG\aGB PUVYQERAF RE\aCVPX HC NG GUVF GVZR 10/22 - 18:43\aGENAFCBEG GB: Frnggyr Puvyqera'f Ubfcvgny - RE\aFrnggyr Puvyqera'f Ubfcvgny - RE - 4800 Fnaq Cbvag Jnl AR , Frnggyr, 98105",
-        "ANZR:FUVRYQF");
+        "NCG:RE 7",
+        "VASB:94 Znyr Cg jnf genafcbegrq gb RE rneyvre sbe n snyy, sbhaq senpgherq uvc, ab fhetrel, tbvat onpx gb FAS,\aCVPX HC NG GUVF GVZR 12/11 - 19:05\aGENAFCBEG GB: Ertrapl Pner Pragre Zbaebr\aErtrapl Pner Pragre Zbaebr - 1355 Jrfg Znva Fgerrg , Zbaebr, 98272",
+        "ANZR:ONVYRL");
 
     qbGrfg("G94",
-        "{Gevc Abgvsvpngvba GEVC-03777} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: 2601 Fhzzvg Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/22 - 18:07</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gHaxabja </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE:   R2 GNP 1\a" +
-        "RIRETERRA ZNABE  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
-
-        "VQ:03777",
-        "HAVG:AJ12",
-        "CEV:2",
-        "NQQE:2601 Fhzzvg Nir",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:R2 GNP 1\aRIRETERRA ZNABE\aCVPX HC NG GUVF GVZR 10/22 - 18:07\aHaxabja");
-
-    qbGrfg("G95",
-        "{Gevc Abgvsvpngvba GEVC-03776} <qvi>\a" +
+        "{Gevc Abgvsvpngvba GEVC-05166} <qvi>\a" +
         "\gAJ18 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -4986,32 +4817,27 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: Fxntvg Inyyrl Ubfcvgny - RE - 1415 R Xvapnvq Fg, Zbhag Ireaba, 98274&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: Fjrqvfu Zrqvpny Pragre- Svefg Uvyy - 747 Oebnqjnl     , Frnggyr, 98122&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: 5</qvi>\a" +
+        "\gEBBZ: 6R, ebbz 664</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/22 - 17:33</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/11 - 18:10</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gGENAFCBEG GB: Uneobeivrj Zrqvpny Pragre - RE</qvi>\a" +
+        "\gGENAFCBEG GB: Xvaqerq Ubfcvgny- Svefg Uvyy</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gUneobeivrj Zrqvpny Pragre - RE - 325 9gu Nir, Frnggyr, 98104 </qvi>\a" +
+        "\gXvaqerq Ubfcvgny- Svefg Uvyy - 1334 Greel Nir    , Frnggyr, 98101 YGNP Havg</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE:  Srznyr NAVGN UVYY 12/31/56\a" +
-        "SNYY URNQ OYRRQ\a" +
-        "FXHYY SK\a" +
-        "CK ZRQF\a" +
-        "GB UZP\a" +
-        "NQQ QRYNL, AB NYF HAVGF NIO, BEVT QVFCNGPU NG 1712  &aofc;</qvi>\a" +
+        "\gSBE: 25 Znyr Cg pnzr va jvgu pneqvnp naq erfcvengbel snvyher, iragrq, genpu jvgu qrrc fhpgvbavat arrqrq, VI AF bayl, zbavgbe, pbagnpg vfbyngvba, Tebhc Urnygu ahzore 5255721  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -5019,126 +4845,19 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: UVYY&aofc;</qvi>",
+        "\gANZR: OEBJA&aofc;</qvi>",
 
-        "VQ:03776",
+        "VQ:05166",
         "HAVG:AJ18",
         "CEV:2",
-        "CYNPR:Fxntvg Inyyrl Ubfcvgny - RE",
-        "NQQE:1415 R Xvapnvq Fg",
-        "NCG:5",
-        "PVGL:Zbhag Ireaba",
-        "VASB:Srznyr NAVGN UVYY 12/31/56\aSNYY URNQ OYRRQ\aFXHYY SK\aCK ZRQF\aGB UZP\aNQQ QRYNL, AB NYF HAVGF NIO, BEVT QVFCNGPU NG 1712\aCVPX HC NG GUVF GVZR 10/22 - 17:33\aGENAFCBEG GB: Uneobeivrj Zrqvpny Pragre - RE\aUneobeivrj Zrqvpny Pragre - RE - 325 9gu Nir, Frnggyr, 98104",
-        "ANZR:UVYY");
+        "CYNPR:Fjrqvfu Zrqvpny Pragre- Svefg Uvyy",
+        "NQQE:747 Oebnqjnl",
+        "NCG:6R, ebbz 664",
+        "VASB:25 Znyr Cg pnzr va jvgu pneqvnp naq erfcvengbel snvyher, iragrq, genpu jvgu qrrc fhpgvbavat arrqrq, VI AF bayl, zbavgbe, pbagnpg vfbyngvba, Tebhc Urnygu ahzore 5255721\aCVPX HC NG GUVF GVZR 12/11 - 18:10\aGENAFCBEG GB: Xvaqerq Ubfcvgny- Svefg Uvyy\aXvaqerq Ubfcvgny- Svefg Uvyy - 1334 Greel Nir , Frnggyr, 98101 YGNP Havg",
+        "ANZR:OEBJA");
 
-    qbGrfg("G96",
-        "{Gevc Abgvsvpngvba GEVC-03775} <qvi>\a" +
-        "\gAJ14 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: 6</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/22 - 17:17</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 63 Znyr OEVNA ZREM 11/23/52\a" +
-        "VGN UBYQ\a" +
-        "QVFYBPNGRQ SVATRE\a" +
-        "ONPX GB ABEGU FBHAQ  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: ZREM&aofc;</qvi>",
-
-        "VQ:03775",
-        "HAVG:AJ14",
-        "CEV:2",
-        "CYNPR:Havgrq Trareny Ubfcvgny - RE",
-        "NQQE:2000 Ubfcvgny Qevir",
-        "NCG:6",
-        "PVGL:Frqeb Jbbyyrl",
-        "VASB:63 Znyr OEVNA ZREM 11/23/52\aVGN UBYQ\aQVFYBPNGRQ SVATRE\aONPX GB ABEGU FBHAQ\aCVPX HC NG GUVF GVZR 10/22 - 17:17\aGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G\aPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284",
-        "ANZR:ZREM");
-
-    qbGrfg("G97",
-        "{Gevc Abgvsvpngvba GEVC-03775} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Havgrq Trareny Ubfcvgny - RE - 2000 Ubfcvgny Qevir    , Frqeb Jbbyyrl, 98284&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: 6</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/22 - 17:17</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 63 Znyr OEVNA ZREM 11/23/52\a" +
-        "VGN UBYQ\a" +
-        "QVFYBPNGRQ SVATRE\a" +
-        "ONPX GB ABEGU FBHAQ  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: ZREM&aofc;</qvi>",
-
-        "VQ:03775",
-        "HAVG:AJ12",
-        "CEV:2",
-        "CYNPR:Havgrq Trareny Ubfcvgny - RE",
-        "NQQE:2000 Ubfcvgny Qevir",
-        "NCG:6",
-        "PVGL:Frqeb Jbbyyrl",
-        "VASB:63 Znyr OEVNA ZREM 11/23/52\aVGN UBYQ\aQVFYBPNGRQ SVATRE\aONPX GB ABEGU FBHAQ\aCVPX HC NG GUVF GVZR 10/22 - 17:17\aGENAFCBEG GB: Pbzcnff Urnygu Abegu Fbhaq R & G\aPbzcnff Urnygu Abegu Fbhaq R & G - 7825 A Fbhaq Qe, Frqeb Jbbyyrl, 98284",
-        "ANZR:ZREM");
-
-    qbGrfg("G98",
-        "{Gevc Abgvsvpngvba GEVC-03774} <qvi>\a" +
+    qbGrfg("G95",
+        "{Gevc Abgvsvpngvba GEVC-05165} <qvi>\a" +
         "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -5147,15 +4866,15 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gERFCBAQ GB: 7211 Envavre Qe, Rirergg, JN 98203&aofc;</qvi>\a" +
+        "\gERFCBAQ GB: 6210 Rnfg Qe, Rirergg, JN 98203&aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gEBBZ: Q401</qvi>\a" +
+        "\gEBBZ: </qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/22 - 16:22</qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/11 - 17:47</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
@@ -5167,7 +4886,255 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gSBE:   R5 GNP 1\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp jvgu R-4 ba G-1</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05165",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:6210 Rnfg Qe",
+        "FG:JN",
+        "VASB:CVPX HC NG GUVF GVZR 12/11 - 17:47\aHaxabja\aGEVC ABGRF: Fabcnp jvgu R-4 ba G-1");
+
+    qbGrfg("G96",
+        "{Gevc Abgvsvpngvba GEVC-05164} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Vfynaq Ubfcvgny - RE - 1211 24gu     , Nanpbegrf, 98221&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: RE 5</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/11 - 18:20</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gFxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 EZ 2024</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 86 Znyr FGRZV tbvat gb Fxntvg, VI Urcneva, zbavgbe, haqre 250#, QBO 06-02-30  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: NQNZF&aofc;</qvi>",
+
+        "VQ:05164",
+        "HAVG:AJ10",
+        "CEV:2",
+        "CYNPR:Vfynaq Ubfcvgny - RE",
+        "NQQE:1211 24gu",
+        "NCG:RE 5",
+        "VASB:86 Znyr FGRZV tbvat gb Fxntvg, VI Urcneva, zbavgbe, haqre 250#, QBO 06-02-30\aCVPX HC NG GUVF GVZR 12/11 - 18:20\aGENAFCBEG GB: Fxntvg Inyyrl Ubcfvgny\aFxntvg Inyyrl Ubcfvgny - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273 EZ 2024",
+        "ANZR:NQNZF");
+
+    qbGrfg("G97",
+        "{Gevc Abgvsvpngvba GEVC-05163} <qvi>\a" +
+        "\gAJ16 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: 3020 Oebnqjnl Nir, Rirergg, JN 98201&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: Rirergg Ubhfvat Nhgubevgl havg #614</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/11 - 17:02</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Haxabja</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gHaxabja </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE:     &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: Fabcnp jvgu R-2 ba G-1</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: Haxabja&aofc;</qvi>",
+
+        "VQ:05163",
+        "HAVG:AJ16",
+        "CEV:2",
+        "NQQE:3020 Oebnqjnl Nir",
+        "NCG:Rirergg Ubhfvat Nhgubevgl havg #614",
+        "FG:JN",
+        "VASB:CVPX HC NG GUVF GVZR 12/11 - 17:02\aHaxabja\aGEVC ABGRF: Fabcnp jvgu R-2 ba G-1");
+
+    qbGrfg("G98",
+        "{Gevc Abgvsvpngvba GEVC-05158} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Cebivqrapr Ertvbany Zrqvpny Pragre - 1700 13gu Fgerrg    , Rirergg, 98201&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: Q-603/1</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/11 - 16:30</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre Cnpvsvp Pnzchf</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCebivqrapr Ertvbany Zrqvpny Pragre Cnpvsvp Pnzchf - 916 Cnpvsvp Nir    , Rirergg, 98201 Va-cngvrag Eruno</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 67 Srznyr Cg pnzr va jvgu tnaterar ba ure gbr(f), vf abg jrvtug ornevat, 170#, Ovyy gb Cebivqrapr  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: OENQL&aofc;</qvi>",
+
+        "VQ:05158",
+        "HAVG:AJ10",
+        "CEV:3",
+        "CYNPR:Cebivqrapr Ertvbany Zrqvpny Pragre",
+        "NQQE:1700 13gu Fgerrg",
+        "NCG:Q-603/1",
+        "VASB:67 Srznyr Cg pnzr va jvgu tnaterar ba ure gbr(f), vf abg jrvtug ornevat, 170#, Ovyy gb Cebivqrapr\aCVPX HC NG GUVF GVZR 12/11 - 16:30\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre Cnpvsvp Pnzchf\aCebivqrapr Ertvbany Zrqvpny Pragre Cnpvsvp Pnzchf - 916 Cnpvsvp Nir , Rirergg, 98201 Va-cngvrag Eruno",
+        "ANZR:OENQL");
+
+    qbGrfg("G99",
+        "{Gevc Abgvsvpngvba GEVC-05152} <qvi>\a" +
+        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Fxntvg Inyyrl Ubcfvgny  - 1415 Rnfg Xvapnvq Fg , Zbhag Ireaba , 98273&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: EZ 3015</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/11 - 15:15</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: Wbfrcuvar Fhafrg Ubzr</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gWbfrcuvar Fhafrg Ubzr - 9901 272aq Cynpr    , Fgnajbbq, 98292 </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 78 Srznyr Cg pnzr va jvgu frvmherf, Uk bs PIN, orq pbasvarq  &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGEVC ABGRF: </qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gANZR: FJNAORET&aofc;</qvi>",
+
+        "VQ:05152",
+        "HAVG:AJ12",
+        "CEV:3",
+        "CYNPR:Fxntvg Inyyrl Ubcfvgny",
+        "NQQE:1415 Rnfg Xvapnvq Fg",
+        "NCG:3015",
+        "VASB:78 Srznyr Cg pnzr va jvgu frvmherf, Uk bs PIN, orq pbasvarq\aCVPX HC NG GUVF GVZR 12/11 - 15:15\aGENAFCBEG GB: Wbfrcuvar Fhafrg Ubzr\aWbfrcuvar Fhafrg Ubzr - 9901 272aq Cynpr , Fgnajbbq, 98292",
+        "ANZR:FJNAORET");
+
+    qbGrfg("G100",
+        "{Gevc Abgvsvpngvba GEVC-05153} <qvi>\a" +
+        "\gAJ10 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCevbevgl 3 (fpurqhyrq be aba pbqr erfc) &aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gERFCBAQ GB: Chtrg Fbhaq Xvqarl Pragre- Rirergg - 1005 Cnpvsvp Nirahr    , Rirergg, 98201&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gEBBZ: Qvnylfvf</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gCVPX HC NG GUVF GVZR 12/11 - 14:45</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gGENAFCBEG GB: 620 Unmry Fg</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\g620 Unmry Fg, Neyvatgba, 98223 ez 402</qvi>\a" +
+        "<qvi>\a" +
+        "\g&aofc;</qvi>\a" +
+        "<qvi>\a" +
+        "\gSBE: 36 Znyr Gkc sbe Qvnylfvf.\a" +
+        "Z/J/S \a" +
+        "0945 c/h\a" +
+        "1030 Ncg\a" +
+        "Erghea C/H 1445\a" +
+        "FUNJ, GNLYBE\a" +
+        "11/30/79\a" +
         "  &aofc;</qvi>\a" +
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
@@ -5176,70 +5143,16 @@ choyvp pynff JNFabubzvfuPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "<qvi>\a" +
         "\g&aofc;</qvi>\a" +
         "<qvi>\a" +
-        "\gANZR: Haxabja&aofc;</qvi>",
+        "\gANZR: FUNJ&aofc;</qvi>",
 
-        "VQ:03774",
-        "HAVG:AJ16",
-        "CEV:2",
-        "NQQE:7211 Envavre Qe",
-        "NCG:Q401",
-        "PVGL:Rirergg",
-        "FG:JN",
-        "VASB:R5 GNP 1\aCVPX HC NG GUVF GVZR 10/22 - 16:22\aHaxabja");
-
-    qbGrfg("G99",
-        "{Gevc Abgvsvpngvba GEVC-03773} <qvi>\a" +
-        "\gAJ12 LBH UNIR N PNYY (ERFCBAQ VA 3 ZVA BE YRFF)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCevbevgl 2 (Rzretrag aba-pbqr erfc)&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gERFCBAQ GB: Gur Pbggntrf ng Znelfivyyr - 1216 Tebir Fg    , Znelfivyyr, 98270&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gEBBZ: Q</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCVPX HC NG GUVF GVZR 10/22 - 16:03</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gCebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg     , Rirergg, 98201 </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gSBE: 95 Srznyr SENAPRF EHFFRYY 4/20/21\a" +
-        "UVC NAQ XARR CK, AB SNYY\a" +
-        "UK QRZRAGVN\a" +
-        "RAGRE NG FVQR TNGR, JRFG FVQR BS CNEXVAT YBG HAVG Q\a" +
-        "GB CEBI RE  &aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gGEVC ABGRF: </qvi>\a" +
-        "<qvi>\a" +
-        "\g&aofc;</qvi>\a" +
-        "<qvi>\a" +
-        "\gANZR: EHFFRYY&aofc;</qvi>",
-
-        "VQ:03773",
-        "HAVG:AJ12",
-        "CEV:2",
-        "CYNPR:Gur Pbggntrf ng Znelfivyyr",
-        "NQQE:1216 Tebir Fg",
-        "NCG:Q",
-        "PVGL:Znelfivyyr",
-        "VASB:95 Srznyr SENAPRF EHFFRYY 4/20/21\aUVC NAQ XARR CK, AB SNYY\aUK QRZRAGVN\aRAGRE NG FVQR TNGR, JRFG FVQR BS CNEXVAT YBG HAVG Q\aGB CEBI RE\aCVPX HC NG GUVF GVZR 10/22 - 16:03\aGENAFCBEG GB: Cebivqrapr Ertvbany Zrqvpny Pragre - RE\aCebivqrapr Ertvbany Zrqvpny Pragre - RE - 1700 13gu Fgerrg , Rirergg, 98201",
-        "ANZR:EHFFRYY");
+        "VQ:05153",
+        "HAVG:AJ10",
+        "CEV:3",
+        "CYNPR:Chtrg Fbhaq Xvqarl Pragre- Rirergg",
+        "NQQE:1005 Cnpvsvp Nirahr",
+        "NCG:Qvnylfvf",
+        "VASB:36 Znyr Gkc sbe Qvnylfvf.\aZ/J/S\a0945 c/h\a1030 Ncg\aErghea C/H 1445\aFUNJ, GNLYBE\a11/30/79\aCVPX HC NG GUVF GVZR 12/11 - 14:45\aGENAFCBEG GB: 620 Unmry Fg\a620 Unmry Fg, Neyvatgba, 98223 ez 402",
+        "ANZR:FUNJ");
 
   }
 

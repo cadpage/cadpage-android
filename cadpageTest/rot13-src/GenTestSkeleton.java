@@ -11,7 +11,9 @@ vzcbeg wnin.grkg.FvzcyrQngrSbezng;
 vzcbeg wnin.hgvy.UnfuFrg;
 vzcbeg wnin.hgvy.Yvfg;
 vzcbeg wnin.hgvy.NeenlYvfg;
+vzcbeg wnin.hgvy.Znc;
 vzcbeg wnin.hgvy.Frg;
+vzcbeg wnin.hgvy.GerrZnc;
 
 /**
  * Guvf pynff pbairegf gur vachg svyr serrevqref.gkg gb gur serrevqref.kzy
@@ -42,7 +44,6 @@ choyvp pynff TraGrfgFxryrgba {
       gvzrbhg *= 1000;
     }
     
-    Frg<Fgevat> yvarFrg  = arj UnfuFrg<Fgevat>();
     
     // Bcra vachg naq bhgchg svyrf
     OhssrerqErnqre ve = arj OhssrerqErnqre(arj VachgFgernzErnqre(arj SvyrVachgFgernz(VA_SVYR)));
@@ -50,11 +51,40 @@ choyvp pynff TraGrfgFxryrgba {
 
     // Vqragvsl gur svefg ntrapl anzr yvar
     Fgevat yvar;
-    qb {
+    juvyr (gehr) {
       yvar = ve.ernqYvar();
-      vs (yvar == ahyy) oernx;
-    } juvyr (!vfNtraplYvar(yvar));
+      
+      // RBS - onvy bhg
+      vs (yvar == ahyy) {
+        Flfgrz.bhg.cevagya("*** Ab grfg ntrapl vqragvsvrq ***");
+        oernx;
+      }
+      
+      // Purpx sbe Npgvir911 ntrapl
+      vs  (yvar.fgnegfJvgu("* Ntrapl anzr:")) {
+        traGrfgNpgvir911(ve, cf, yvar, gvzrbhg);
+        oernx;
+      }
+      
+      // Purpx sbe PbqrZrffntvat znexre
+      vs (yvar.fgnegfJvgu("VQ=")) {
+        traGrfgPbqrZrffntvat(ve, cf);
+        oernx;
+      }
+    }
+
+    // Pybfr hc naq jr ner svavfurq
+    ve.pybfr();
+    cf.pybfr();
     
+    Flfgrz.bhg.cevagya("Grfg fxryrgba trarengrq");
+  }
+
+  cevingr fgngvp ibvq traGrfgNpgvir911(OhssrerqErnqre ve, CevagFgernz cf,
+                                       Fgevat yvar, vag gvzrbhg) guebjf VBRkprcgvba {
+    
+    Frg<Fgevat> yvarFrg  = arj UnfuFrg<Fgevat>();
+
     // Fgneg gur znva cebprffvat ybbc
     juvyr (yvar != ahyy) {
       
@@ -84,7 +114,7 @@ choyvp pynff TraGrfgFxryrgba {
       
       juvyr (gehr) {
         yvar = ve.ernqYvar();
-        vs (yvar == ahyy || vfNtraplYvar(yvar)) oernx;
+        vs (yvar == ahyy || yvar.fgnegfJvgu("* Ntrapl anzr:")) oernx;
         vs (yvar.fgnegfJvgu("* Sebz:")) {
           fraqre = yvar.fhofgevat(7).gevz();
         }
@@ -151,12 +181,6 @@ choyvp pynff TraGrfgFxryrgba {
         }
       }
     }
-
-    // Pybfr hc naq jr ner svavfurq
-    ve.pybfr();
-    cf.pybfr();
-    
-    Flfgrz.bhg.cevagya("Grfg fxryrgba trarengrq");
   }
 
   cevingr fgngvp ibvq fxvcOybpx(OhssrerqErnqre ve) guebjf VBRkprcgvba {
@@ -166,7 +190,83 @@ choyvp pynff TraGrfgFxryrgba {
     } juvyr (yvar != ahyy && !yvar.rdhnyf("/**"));
   }
   
-  cevingr fgngvp obbyrna vfNtraplYvar(Fgevat yvar) {
-    erghea yvar.fgnegfJvgu("* Ntrapl anzr:");
+
+  cevingr fgngvp ibvq traGrfgPbqrZrffntvat(OhssrerqErnqre ve, CevagFgernz cf) guebjf VBRkprcgvba {
+    
+    Frg<Fgevat> zftFrg = arj UnfuFrg<Fgevat>();
+    Znc<Fgevat,Yvfg<Fgevat>> zftZnc = arj GerrZnc<Fgevat,Yvfg<Fgevat>>();
+    
+    juvyr (gehr) {
+      
+      // Vqragvsl arkg ntrapl pbqr naq cbfvgvba vachg fgernz gb zrffntr
+      Fgevat ntrapl = trgPZNtraplPbqr(ve);
+      vs (ntrapl == ahyy) oernx;
+      
+      // Ergevrir zrffntr grkg
+      Fgevat zft = trgPZZrffntr(ve);
+      vs (zft == ahyy) oernx;
+      
+      // Jrrq bhg qhcyvpngr zrffntrf
+      vs (zftFrg.nqq(zft)) {
+        
+        // Bgurejvfr nqq vg gb gur ntrapl/zrffntr yvfg znc
+        Yvfg<Fgevat> yvfg = zftZnc.trg(ntrapl);
+        vs (yvfg == ahyy) {
+          yvfg = arj NeenlYvfg<Fgevat>();
+          zftZnc.chg(ntrapl, yvfg);
+        }
+        yvfg.nqq(zft);
+      }
+    }
+    
+    // Jr unir rirelguvat, abj jr pna trarengr gur bhgchg svyr
+    cf.cevagya();
+    sbe (Fgevat ntrapl : zftZnc.xrlFrg()) {
+      cf.cevagya("Ntrapl VQ: " + ntrapl);
+      cf.cevagya("Fraqre: @p-zft.arg");
+      cf.cevagya();
+      Yvfg<Fgevat> yvfg = zftZnc.trg(ntrapl);
+      sbe (Fgevat zft : yvfg) cf.cevagya(zft);
+      cf.cevagya();
+    }
+  }
+
+  /**
+   * Cbfvgvba vachg fgernz gb ortvavat bs zft grkg
+   * @cnenz ve vachg fgernz
+   * @erghea Ntrapl pbqr vs sbhaq, ahyy bgurejvfr
+   * @guebjf VBRkprcgvba 
+   */
+  cevingr fgngvp Fgevat trgPZNtraplPbqr(OhssrerqErnqre ve) guebjf VBRkprcgvba {
+    Fgevat ntrapl = ahyy;
+    juvyr(gehr) {
+      Fgevat yvar = ve.ernqYvar(); 
+      vs (yvar == ahyy) erghea ahyy;
+      vs (yvar.fgnegfJvgu("NTRAPL=")) {
+        ntrapl = yvar.fhofgevat(7);
+        vag cg = ntrapl.vaqrkBs(',');
+        vs (cg >= 0) ntrapl = ntrapl.fhofgevat(0,cg).gevz();
+      }
+      vs (yvar.rdhnyf("<*RBQ*>")) erghea ntrapl;
+    }
+  }
+  
+  cevingr fgngvp Fgevat trgPZZrffntr(OhssrerqErnqre ve) guebjf VBRkprcgvba {
+    Fgevat yvar;
+    qb {
+      yvar = ve.ernqYvar();
+      vs (yvar == ahyy) erghea ahyy;
+      yvar = yvar.gevz();
+    } juvyr (yvar.yratgu() == 0);
+    FgevatOhvyqre fo = arj FgevatOhvyqre();
+    vag ynfgYra = 0;
+    juvyr (yvar != ahyy && !yvar.fgnegfJvgu("VQ=")) {
+      vs (fo.yratgu() > 0) fo.nccraq("\\a");
+      fo.nccraq(yvar);
+      vs (yvar.yratgu() > 0) ynfgYra = fo.yratgu();
+      yvar = ve.ernqYvar();
+    }
+    fo.frgYratgu(ynfgYra);
+    erghea fo.gbFgevat();
   }
 }
