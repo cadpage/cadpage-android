@@ -445,6 +445,7 @@ class Active911Vendor extends Vendor {
       "US/KY/ChristianCounty",            "KYChristianCounty",
       "US/KY/CityofBowlingGreen",         "KYBowlingGreen",
       "US/KY/CityofEdmonton",             "KYMetcalfeCounty",
+      "US/KY/CityofOwensboro",            "KYDaviessCounty",
       "US/KY/ClarkCounty",                "KYClarkCounty",
       "US/KY/ErlangerPD",                 "KYErlangerDispatch",
       "US/KY/FultonCounty",               "KYFultonCounty",

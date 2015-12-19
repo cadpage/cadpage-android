@@ -65,7 +65,7 @@ public class WASnohomishCountyCParser extends HtmlProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "PLACE " + super.getFieldNames()+" ST";
+      return "PLACE " + super.getFieldNames()+" CITY ST";
     }
   }
   

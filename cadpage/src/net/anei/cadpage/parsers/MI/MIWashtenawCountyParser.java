@@ -5,11 +5,12 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class MIWashtenawCountyParser extends FieldProgramParser {
 
   public MIWashtenawCountyParser() {
-    super("WASHTENAW COUNTY", "MI", "ADDR CITY_ST_ZIP APT! XY:GPS! PRI Cross:X! INFO+");
+    super("WASHTENAW COUNTY", "MI", "ADDR CITY_ST_ZIP APT! EMPTY+? PRI Cross:X! INFO+");
   }
   
   @Override
@@ -24,13 +25,15 @@ public class MIWashtenawCountyParser extends FieldProgramParser {
   public boolean parseMsg(String subject, String body, Data data) {
     //parse run reports (CALL) ID? PLACE
     if (subject.equals("Message from Dispatch")) {
-      data.strCall = "RUN REPORT";
+      setFieldList("ID INFO");
       Matcher mat = RUN_REPORT.matcher(body);
       if (mat.matches()) {
+        data.msgType = MsgType.RUN_REPORT;
         data.strCallId = mat.group(1);
-        data.strPlace = mat.group(2);
+        data.strSupp = stripFieldEnd(mat.group(2), "/").replace(" / ", "\n");
       } else {
-        data.strPlace = body;
+        data.msgType = MsgType.GEN_ALERT;
+        data.strSupp = body;
       }
       return true;
     }
@@ -48,9 +51,8 @@ public class MIWashtenawCountyParser extends FieldProgramParser {
     body = body.replace("Cross:/", "Cross: /"); //in case the / is actually meant to be a delim
     if (body.endsWith("/")) body += " ";
     //save outcome, fail if !TIME, return outcome
-    boolean verdict = parseFields(DELIM.split(body), data);
-    verdict &= data.strTime.length() != 0; //return false if no TIME parsed
-    return verdict;
+    if (!parseFields(DELIM.split(body), data)) return false;
+    return data.strTime.length() > 0; //return false if no TIME parsed
   }
   
   @Override
