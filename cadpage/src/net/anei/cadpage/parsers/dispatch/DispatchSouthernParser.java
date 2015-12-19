@@ -52,7 +52,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   // Flag indicating there is no place name
   public static final int DSFLAG_NO_PLACE = 0x1000;
 
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("(\\d{8});([-A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("(?:[A-Z]+:)?(\\d{8}); *([- A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
   private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
   private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-0-9]+)$");
@@ -122,6 +122,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
     sb.append("ADDR/S2");
     if (impliedApt) sb.append('6');
     if (leadPlace) sb.append('P');
+    else if (trailPlace) sb.append('X');
+    if (trailPlace) sb.append('P');
     if (inclCall) sb.append(" CALL");
     if (inclCross || inclCrossNamePhone) sb.append(" X?");
     if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE?");
@@ -464,9 +466,11 @@ public class DispatchSouthernParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (field.startsWith("1 ")) {
         field = field.substring(2).trim();
-        int flags = FLAG_AT_SIGN_ONLY | FLAG_ANCHOR_END;
+        int flags = FLAG_AT_SIGN_ONLY;
+        if (!trailPlace) flags |= FLAG_ANCHOR_END;
         if (impliedApt) flags |= FLAG_RECHECK_APT;
         parseAddress(StartType.START_ADDR, flags, field, data);
+        if (trailPlace) data.strPlace = getLeft();
         data.strAddress = append("1", " ", data.strAddress);
       } else {
         super.parse(field, data);
