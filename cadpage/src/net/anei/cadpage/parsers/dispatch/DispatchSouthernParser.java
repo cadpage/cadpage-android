@@ -51,8 +51,12 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   // Flag indicating there is no place name
   public static final int DSFLAG_NO_PLACE = 0x1000;
+  
+  // Flag indicating a place follows the address, even in field delimited mode
+  // This is the default behavior in space delimited mode
+  public static final int DSFLAG_TRAIL_PLACE = 0x2000;
 
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("(\\d{8});([-A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("(?:[A-Z]+:)?(\\d{8}); *([- A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
   private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
   private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-0-9]+)$");
@@ -71,6 +75,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private boolean idOptional;
   private boolean leadPlace;
   private boolean trailPlace;
+  private boolean trailPlace2;
   private boolean inclCross;
   private boolean inclCrossNamePhone;
   private boolean noNamePhone;
@@ -108,6 +113,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     this.idOptional = (flags & DSFLAG_ID_OPTIONAL) != 0;
     this.leadPlace = (flags &  (DSFLAG_BOTH_PLACE | DSFLAG_LEAD_PLACE)) != 0;
     this.trailPlace = (flags & (DSFLAG_LEAD_PLACE | DSFLAG_NO_PLACE)) == 0;
+    this.trailPlace2 = (flags & (DSFLAG_BOTH_PLACE | DSFLAG_TRAIL_PLACE)) != 0;
     this.inclCross = (flags & DSFLAG_FOLLOW_CROSS) != 0;
     this.inclCrossNamePhone = (flags & DSFLAG_CROSS_NAME_PHONE) != 0;
     this.impliedApt = (flags & DSFLAG_NO_IMPLIED_APT) == 0;
@@ -122,6 +128,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
     sb.append("ADDR/S2");
     if (impliedApt) sb.append('6');
     if (leadPlace) sb.append('P');
+    else if (trailPlace2) sb.append('X');
+    if (trailPlace2) sb.append('P');
     if (inclCall) sb.append(" CALL");
     if (inclCross || inclCrossNamePhone) sb.append(" X?");
     if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE?");
@@ -464,9 +472,11 @@ public class DispatchSouthernParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (field.startsWith("1 ")) {
         field = field.substring(2).trim();
-        int flags = FLAG_AT_SIGN_ONLY | FLAG_ANCHOR_END;
+        int flags = FLAG_AT_SIGN_ONLY;
+        if (!trailPlace2) flags |= FLAG_ANCHOR_END;
         if (impliedApt) flags |= FLAG_RECHECK_APT;
         parseAddress(StartType.START_ADDR, flags, field, data);
+        if (trailPlace2) data.strPlace = append(data.strPlace, " - ", getLeft());
         data.strAddress = append("1", " ", data.strAddress);
       } else {
         super.parse(field, data);
