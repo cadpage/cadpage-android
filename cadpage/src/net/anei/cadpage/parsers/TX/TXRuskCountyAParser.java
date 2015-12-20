@@ -62,6 +62,9 @@ public class TXRuskCountyAParser extends DispatchSouthernParser {
     "MINDEN",
     "PRICE",
     "SELMAN CITY",
-    "TURNERTOWN"
+    "TURNERTOWN",
+    
+    // Nacogdoches County
+    "CUSHING"
   };
 }
