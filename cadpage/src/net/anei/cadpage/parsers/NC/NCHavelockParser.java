@@ -17,5 +17,12 @@ public class NCHavelockParser extends DispatchA9Parser {
   public String getFilter() {
     return "egov-info@havelocknc.us,egovinfo@havelocknc.us";
   }
+
+  @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_ALLOW_DUAL_DIRECTIONS;
+  }
+  
+  
   
 }

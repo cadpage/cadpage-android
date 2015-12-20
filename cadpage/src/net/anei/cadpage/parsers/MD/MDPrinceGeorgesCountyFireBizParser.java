@@ -80,6 +80,7 @@ public class MDPrinceGeorgesCountyFireBizParser extends MDPrinceGeorgesCountyBas
   
   private static final Pattern CITY_CODE_PTN = Pattern.compile("-([A-Z]{2})\\b");
   private static final Pattern APT_PLACE_PTN = Pattern.compile("(?!7 11)([A-Z]\\d*|\\d{1,3}) +(.*)");
+  private static final Pattern DIR_AT_PTN = Pattern.compile("([NSEW]B) (AT .*)");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -128,6 +129,10 @@ public class MDPrinceGeorgesCountyFireBizParser extends MDPrinceGeorgesCountyBas
           match = APT_PLACE_PTN.matcher(left);
           if (match.matches()) {
             data.strApt = append(data.strApt, "-", match.group(1));
+            left = match.group(2);
+          }
+          else if ((match = DIR_AT_PTN.matcher(left)).matches()) {
+            data.strAddress = append(data.strAddress, " ", match.group(1));
             left = match.group(2);
           }
           data.strPlace = left;

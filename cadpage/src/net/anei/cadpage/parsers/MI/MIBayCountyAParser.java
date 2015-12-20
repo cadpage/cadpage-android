@@ -22,6 +22,7 @@ public class MIBayCountyAParser extends SmartAddressParser {
     super(CITY_LIST, "BAY COUNTY", "MI");
     setFieldList("CALL ADDR APT CITY INFO DATE TIME");
     setupCallList(CALL_SET);
+    removeWords("STREET");
   }
   
   @Override

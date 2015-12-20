@@ -12,11 +12,6 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
  */
 public class VAHenryCountyParser extends DispatchSouthernParser {
   
-  private static final Pattern UNIT_PRI_PTN = Pattern.compile(" +([A-Z0-9]+)-\\((\\d)\\) +");
-  private static final Pattern LEAD_PRIORITY_PTN = Pattern.compile("^(0?\\d)\\b");
-  private static final Pattern TRAIL_PRIORITY_PTN = Pattern.compile(" +(0?\\d)$");
-  private static final Pattern INLINE_PRIORITY_PTN = Pattern.compile(" +(0?\\d) +");
-  
   public VAHenryCountyParser() {
     super(CALL_LIST, CITY_LIST, "HENRY COUNTY", "VA", DSFLAG_CROSS_NAME_PHONE | DSFLAG_FOLLOW_CROSS);
     allowBadChars("()");
@@ -26,6 +21,14 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
   public String getFilter() {
     return "MHC911@co.henry.va.us,Henrycova911@co.henry.va.us";
   }
+  
+  private static final Pattern UNIT_PRI_PTN = Pattern.compile(" +([A-Z0-9]+)-\\((\\d)\\) +");
+  private static final Pattern LEAD_PRIORITY_PTN = Pattern.compile("^(0?\\d)\\b");
+  private static final Pattern TRAIL_PRIORITY_PTN = Pattern.compile(" +(0?\\d)$");
+  private static final Pattern INLINE_PRIORITY_PTN = Pattern.compile(" +(0?\\d) +");
+  private static final Pattern APT_MAP_PTN = Pattern.compile("(?:(.*) )?([NSEW]{1,2} SECTOR?)");
+  private static final Pattern APT_MAP_PTN2 = Pattern.compile("SECTOR?");
+  private static final Pattern ADDR_DIR_PTN = Pattern.compile("(.*) ([NSEW]{1,2})");
   
   @Override
   public boolean parseMsg(String body, Data data) {
@@ -61,6 +64,21 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
         data.strSupp = info.substring(match.end());
       }
     }
+    
+    match = APT_MAP_PTN.matcher(data.strApt);
+    if (match.matches()) {
+      data.strApt = getOptGroup(match.group(1));
+      data.strMap = match.group(2);
+    }
+    
+    else if (APT_MAP_PTN2.matcher(data.strApt).matches()) {
+      match = ADDR_DIR_PTN.matcher(data.strAddress);
+      if (match.matches()) {
+        data.strAddress = match.group(1).trim();
+        data.strMap = match.group(2) + ' ' + data.strApt;
+        data.strApt = "";
+      }
+    }
     return true;
   }
   
@@ -78,7 +96,7 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
 
   @Override
   public String getProgram() {
-    return super.getProgram().replace("CALL", "CALL PRI");
+    return super.getProgram().replace("CALL", "CALL PRI").replace("APT", "APT MAP");
   }
 
   private static final String[] CITY_LIST = new String[]{

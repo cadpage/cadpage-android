@@ -11040,7 +11040,7 @@ choyvp pynff PBQbhtynfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NAV QBT NG YNETR Nqqerff:RKVG 173 AO BA ENZC Pybfrfg Vagrefrpgvba:F VAGREFGNGR 25 / F VAGREFGNGR 25 Nqqvgvbany Ybpngvba Vasb: BCF: Znc Cntr:ND29P Havgf:109N Cevznel Vapvqrag:2015-00089162 (PB0180000) Enqvb Punaary: Pbzzba Anzr:RKVG 173 AO BA ENZC Aneengvir:OYX NAQ JUG QBT // JNF EVTUG NYBAT ENZC Gvzr: 9/18/2015 7:12:06 NZ:",
         "PNYY:NAV QBT NG YNETR",
         "NQQE:RKVG 173 AO BA ENZC",
-        "ZNQQE:RKVG 173 BA ENZC & F VAGREFGNGR 25",
+        "ZNQQE:RKVG 173 ENZC & F VAGREFGNGR 25",
         "K:F VAGREFGNGR 25 / F VAGREFGNGR 25",
         "VASB:OYX NAQ JUG QBT // JNF EVTUG NYBAT ENZC",
         "ZNC:ND29P",

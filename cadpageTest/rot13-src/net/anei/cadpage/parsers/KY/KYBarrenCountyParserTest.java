@@ -459,8 +459,8 @@ choyvp pynff XLOneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYNEZ SVER NYNEZ NPGVINGVBA",
         "NQQE:109 UBZRJBBQ OYIQ",
         "CUBAR:2706516126",
-        "K:A ENPR FG A",
-        "ANZR:U P URNYGU PNER");
+        "K:A ENPR FG",
+        "ANZR:A U P URNYGU PNER");
 
     qbGrfg("G4",
         "911-PRAGRE:NYNEZ SVER NYNEZ NPGVINGVBA 164 FPBGGVR QE 2706590432 PBYHZOVN NIR TYNFTBJ OBNEQ BS RQHPNGVBA",
