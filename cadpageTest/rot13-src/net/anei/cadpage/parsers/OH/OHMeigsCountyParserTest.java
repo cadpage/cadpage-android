@@ -606,7 +606,7 @@ choyvp pynff BUZrvtfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:45754 FE 124",
         "ZNQQE:45754 BU 124",
         "PVGL:ENPVAR",
-        "VASB:ZRQVP 2 # 4209\aPERJVF OBO 1111 NAQ ELNA  1127");
+        "VASB:ZRQVP 2 # 4209\aPERJ VF OBO 1111 NAQ ELNA  1127");
 
   }
 

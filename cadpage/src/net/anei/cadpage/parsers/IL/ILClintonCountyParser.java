@@ -11,8 +11,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchA41Parser;
 public class ILClintonCountyParser extends DispatchA41Parser {
  
   public   ILClintonCountyParser() {
-    super(CITY_LIST, "CLINTON COUNTY", "AL");
-    }
+    super(null, "CLINTON COUNTY", "AL", null);
+  }
   
   @Override
   public String getFilter() {
