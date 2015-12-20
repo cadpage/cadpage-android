@@ -214,7 +214,7 @@ choyvp pynff ZQOnygvzberCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G3",
         "2301 CRAGYNAQ QE #3EQ SYE ONY, ONY, 56-70, OHVYQVAT SVER, OBK, R56, R43, R42, R4, FD54, G29, G30, Z18, OP4, OP2 (ogja ZPPYRNA OY naq RAQ), OS150161343 - Sebz NQ01 11/29/2015 20:23:06",
         "NQQE:2301 CRAGYNAQ QE",
-        "NCG:3EQ SYE ONY",
+        "NCG:3EQ SYE ONY", //vs guvf vf va gur znccvat, vgf ab tbbq.
         "PVGL:ONYGVZBER",
         "ZNC:56-70",
         "PNYY:OHVYQVAT SVER",

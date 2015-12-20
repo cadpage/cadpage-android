@@ -71,15 +71,12 @@ Fraqre: <grfg@enqsbeq.in.hf>
 {Zhfr Unyy 985 RNFG ZNVA FG ENQSBEQ;EHCQ;201516339;1070 SVER NYNEZ;trb} Qvfcngpu:Zhfr Unyy 985 RNFG ZNVA FG ENQSBEQ;EHCQ;201516339;1070 SVER NYNEZ;trb:37.14056, -80.55268;CHYYRQ
 {Grkg Zrffntr} Qvfcngpu:SVER QRCG 1500 JNQFJBEGU FG ENQSBEQ;*FURCCNEQ NIR  K *EHFFRYY NIR;Pnyqjryy;201516298;1097 GRFG;trb:37.120125, -80.567108;pnyqjryy grfgvat flfgrz
 {Grkg Zrffntr} Qvfcngpu:CQ 20 EBOREGFBA FG ENQSBEQ *HAEHU QE  K *J ZNVA FG Pnyqjryy 201516293 1097-GRFG grfgvat Sver Qrcgf Npgvir911 fbsgjner
-{Grkg Zrffntr} grfg:grfg
-{Grkg Zrffntr} qvfcngpu:grfg
-
  */
 
 choyvp pynff INEnqsbeqCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp INEnqsbeqCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "ENQSBEQ", "IN");
+    frgCnefre(arj INEnqsbeqCnefre(), "ENQSBEQ", "IN");
   }
 
   @Grfg

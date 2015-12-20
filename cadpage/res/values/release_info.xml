@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12162015</string>
-  <string name="release_version">v1.8.84</string>
+  <string name="release_date">12192015</string>
+  <string name="release_version">v1.8.85</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.85\n
+Location Fixes:\n
+San Diego County, CA\n
+Daviess County, KY\n
+Washtenaw County, MI\n
+Northampton County, PA\n
+Darlington County, SC\n
+Rusk County, TX\n
+Botetourt County, VA\n
+Franklin County, VA\n
+\n
 v1.8.84\n
 New Locations:\n
 Montezuma County, CO\n
@@ -64,40 +75,7 @@ Licking County, OH\n
 Erie County, PA\n
 Cherokee County, SC\n
 Southampton County, VA\n
-Staunton, VA\n
-\n
-v1.8.80\n
-New Locations:\n
-Yavapai County, AZ (alt)\n
-Appanoose County, IA\n
-Cass County, MI\n
-Cass County, MN\n
-Brown County, MN\n
-Kandiyohi County, MN\n
-Allen County, OH (alt)\n
-Portage County, OH (alt)\n
-Warren County, OH (alt)\n
-Bethlehem, PA\n
-Sumter County, SC (alt)\n
-Addison County, VT\n
-Lamoille County, VT\n
-Staunton, VA\n
-Suffolk, VA\n
-Wood County, WV\n
-Sublette County, WY\n
-\n
-Location Fixes:\n
-Hot Spring County, AR\n
-New Castle County, DE\n
-Burlington County, NJ\n
-Gloucester County, NJ\n
-Rowan County, NC\n
-Shelby County, IN\n
-Sedgewick County, KS\n
-Clark County, NV\n
-Adams County, OH\n
-Adams County, PA\n
-Monroeville, PA
+Staunton, VA
   </string>
 </resources>
   

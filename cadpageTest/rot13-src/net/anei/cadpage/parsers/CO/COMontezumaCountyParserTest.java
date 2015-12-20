@@ -1513,7 +1513,7 @@ choyvp pynff PBZbagrmhznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:11/09/15",
         "GVZR:15:19:21",
         "PNYY:Bqbe-Fzbxr/Tnf",
-        "NQQE:14582 EBNQ 27.6",
+        "NQQE:14582 EBNQ 27.6", //ebnqf jvgu znexf va gurz rkvfg.
         "PVGL:QBYBERF",
         "K:UJL 145 & QRNQ RAQ",
         "FEP:QBYBERF",
@@ -2506,7 +2506,7 @@ choyvp pynff PBZbagrmhznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:11/19/15",
         "GVZR:11:45:11",
         "PNYY:Puvzarl Sver",
-        "NQQE:18723 EBNQ C",
+        "NQQE:18723 EBNQ C", //qbrf abg znc (cneg bs qryberf)
         "PVGL:YRJVF",
         "K:EBNQ 18 & EBNQ 20",
         "FEP:YRJ-NEE",
@@ -2519,7 +2519,7 @@ choyvp pynff PBZbagrmhznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:11/17/15",
         "GVZR:10:48:54",
         "PNYY:Sver Oehfu",
-        "NQQE:24751 EBNQ F",
+        "NQQE:24751 EBNQ F", //qbrf abg znc.. cneg bs qryberf
         "PVGL:YRJVF",
         "K:EBNQ 24 & EBNQ 25",
         "FEP:YRJ-NEE",

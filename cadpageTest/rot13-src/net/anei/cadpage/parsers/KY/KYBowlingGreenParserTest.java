@@ -981,7 +981,7 @@ choyvp pynff XLObjyvatTerraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:2200 V65 A",
         "ZNQQE:2200 V 65 A",
-        "TCF:+36.929888,-86.420748",
+        "TCF:+36.929888,-86.420748", //v ubcr guvf vf evtug orpnhfr gur bar nobir qbrfag znc
         "PNYY:SVIR-SVER IRUVPYR",
         "HAVG:NYI1",
         "VASB:SYNZQR TBYQ NYGVZN",
@@ -1022,7 +1022,7 @@ choyvp pynff XLObjyvatTerraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:2800 V65 A",
         "ZNQQE:2800 V 65 A",
-        "TCF:+37.005208,-86.369604",
+        "TCF:+37.005208,-86.369604",  
         "PNYY:NBN-NFFVFG BGURE NTRAPL",
         "HAVG:NYI1",
         "VASB:XFC BHG JVGU ABA VZWHEL NPPVQRAG ERD SVER SBE GENSSVP PBAGEBY",
