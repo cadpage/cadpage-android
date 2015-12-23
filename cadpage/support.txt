@@ -750,11 +750,13 @@ Jean ~ Cadpage Administrator
 
 I found your free Cadpage subscription of _____.  
 
+Please:
 Go into Cadpage settings and press Payment Status > Recalculate Payment Status
 
 If you are having other difficulties with Cadpage, please let us know.
 
-Take care, 
+Take care, and Have a Safe and Joyous Holiday!
+
 Jean ~ Cadpage Administrator
 
 **********************************************************************
@@ -3059,7 +3061,9 @@ If things still do not work, or if generated test messages do not make
 it to your device, use the Email the Developer feature to send us
 another email.
 
-Take care, 
+Take care, and 
+Have a Safe and Joyous Holiday Season!
+
 Jean ~ Cadpage Administrator
 
 ********************************************************************************
@@ -3966,7 +3970,7 @@ If they are, use the Cadpage "Email the Developer" setting to send us a new supp
 * Free subscription request using general or null location
 * If authorized run days > 10, add 30 day authorization code
 **************************************************************************
-You are apparently using the General location setting, which is no longer free. We prefer that you switch to a real location-specific parser for a more effective Cadpage experience.
+Apparently, you are using the General location setting, which is no longer free. We prefer that you switch to a real location-specific parser for a more effective Cadpage experience.
 
 The general location doesn't really know anything about how your text messages are structured and can only pull a limited amount of information from them. To really get the full benefit of Cadpage you need to specify a location setting that will know more about your specific message format and can get a lot more information from it.
 
