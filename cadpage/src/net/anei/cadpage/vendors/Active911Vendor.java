@@ -393,6 +393,7 @@ class Active911Vendor extends Vendor {
       "US/IL/Skokie",                     "ILCookCountyB",
       "US/IN/BartholomewCounty",          "INBartholomewCounty",
       "US/IN/Bristol",                    "INElkhartCounty",
+      "US/IN/BrownCounty",                "INBrownCounty",
       "US/IN/DelawareCounty",             "INDelawareCounty",
       "US/IN/EMGSVCS",                    "INHenryCounty",
       "US/IN/GrantCounty",                "INGrantCounty",
