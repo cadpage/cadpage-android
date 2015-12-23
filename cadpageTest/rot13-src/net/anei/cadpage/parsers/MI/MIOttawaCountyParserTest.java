@@ -9,23 +9,7 @@ vzcbeg bet.whavg.Grfg;
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pvgl bs Ubyynaq Qrcnegzrag bs Choyvp Fnsrgl
 Ybpngvba: Ubyynaq, ZV, Havgrq Fgngrf
-Fraqre: <QVFCNGPUULQ@BPPQN.BET>
-Fraqre: <QVFCNGPUUHS@BPPQN.BET>
-Fraqre: <QVFCNGPUCEBJ@BPPQN.BET>
-Fraqre: <QVFCNGPUPVF@BPPQN.BET>
-Fraqre: <QVFCNGPUWAN@BPPQN.BET>
-Fraqre: <QVFCNGPUUBB@BPPQN.BET>
-Fraqre: <QVFCNGPUJRA@BPPQN.BET>
-Fraqre: <QVFCNGPUTHG@BPPQN.BET>
-Fraqre: <QVFCNGPUARQ@BPPQN.BET>
-Fraqre: <QVFCNGPUYBPX@BPPQN.BET>
-Fraqre: <QVFCNGPUNAQ@BPPQN.BET>
-Fraqre: <QVFCNGPUFGN@BPPQN.BET>
-Fraqre: <QVFCNGPUNZO@BPPQN.BET>
-Fraqre: <QVFCNGPUPHY@BPPQN.BET>
-Fraqre: <QVFCNGPUGWB@BPPQN.BET>
-Fraqre: <QVFCNGPUPUNC@BPPQN.BET>
-Fraqre: <QVFCNGPUCVC@BPPQN.BET>
+Fraqre: @BPPQN.BET
 
 {Nhgbzngvp E&E Abgvsvpngvba} \a  \a** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore: 2015-00003624                    BEV: 7011             Fgngvba:  \aVapvqrag Glcr . . :   EZRQ S Zrqvpny                 Cevbevgl: 1  \aVapvqrag Ybpngvba: 649 UNFGVATF NIR                                     Irahr: UbyynaqPvg \a\aPnyy Gvzr- 17:18:30                                Qngr- 12/17/2015  \aQvfcngpu - 17:18:46     Ra-ebhgr- 17:19:16     Ba-fprar- 17:21:26     Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 17:32:48 \a\aNern:   80              Frpgvba: PUNE                 Orng:  80P  \aTevq:                    Dhnqenag: 1112            Qvfgevpg:  NZE \a\aCubar Ahzore: (616) 392-3341                Pnyy Fbhepr:  911 \a\aPnyyre. . . : ZNEFUN INAQLXRA \a\aHavgf frag  :  \a NZE         NZE                  7011        UPGL  \a 7011        FGN1                 7011        1121 \a\aAngher bs Pnyy : QVNYLFVF CG OYRRQVAT SEBZ NPPRFF FVGR \a\aNqqvgvbany Vasb  \a  UBYYNAQ QVNYLFVF. OYRRQVAT SBE 1 UBHE. 72 LB ZNYR  \a  BA YRSG HCCRE NEZ - ABG PHEERAGYL FREVBHF- GURL NER UBYQVAT CBERFFHER  \a  SBE 1 UBHE CEV 1 21 P 2 \a\aAneengvir  \a NZE NQIVFRQ                                       PUNC       17:19:10  \a RAGRE GUEBHTU SEBAG QBBE                          PVF        17:19:45 \a\aGur Pnyy Gnxre vf PVFYRE ZBETNA  \aGur Qvfcngpure vf UHSS GNZZL
 {Nhgbzngvp E&E Abgvsvpngvba} \a  \aVapvqrag Ahzore: 2015-00003624                    BEV: 7011             Fgngvba:  \aVapvqrag Glcr . . :   EZRQ S Zrqvpny                 Cevbevgl: 1  \aVapvqrag Ybpngvba: 649 UNFGVATF NIR                                     Irahr: UbyynaqPvg  \aYbpngrq Orgjrra: VQN ERQ CXJL  naq  JVYFUVER PG \a\aTbbtyr Zncf . : uggc://zncf.tbbtyr.pbz/zncf?d=ybp:649+UNFGVATF+NIR+Ubyynaq+Pvgl+ZV \a\aPnyy Gvzr- 17:18:30                                Qngr- 12/17/2015  \aQvfcngpu - 17:18:46     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga- \a\aNern:   80              Frpgvba: PUNE                 Orng:  80P                  Znc:   80  \aTevq:                    Dhnqenag: 1112            Qvfgevpg:  NZE \a\aCubar Ahzore: (616) 392-3341                Pnyy Fbhepr:  911 \a\aPnyyre. . . : ZNEFUN INAQLXRA \a\aHavgf frag  :  \a NZE         NZE                  7011        UPGL  \a 7011        FGN1 \a\aAngher bs Pnyy : QVNYLFVF CG OYRRQVAT SEBZ NPPRFF FVGR \a\aNqqvgvbany Vasb  \a  UBYYNAQ QVNYLFVF. OYRRQVAT SBE 1 UBHE. 72 LB ZNYR  \a  BA YRSG HCCRE NEZ - ABG PHEERAGYL FREVBHF- GURL NER UBYQVAT CBERFFHER  \a  SBE 1 UBHE CEV 1 21 P 2 \a\aNqqerff Purpxf \a\aNqqvgvbany Vap#f:  \a NZE         201500004233 \a\aGur Pnyy Gnxre vf PVFYRE ZBETNA  \aGur Qvfcngpure vf UHSS GNZZL

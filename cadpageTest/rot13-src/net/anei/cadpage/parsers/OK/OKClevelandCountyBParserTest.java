@@ -9,25 +9,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 Pbagnpg: Npgvir911
 Ntrapl anzr: Yvggyr Nkr SQ
 Ybpngvba: Yvggyr Nkr, BX, Havgrq Fgngrf
-Fraqre: Fnenu.Evyrl@AbeznaBX.tbi
-Fraqre: Ehffryy.Naqrefba@AbeznaBX.tbi
-Fraqre: Fnenu.Xvaqyrl@AbeznaBX.tbi
-Fraqre: Ynapr.Greel@AbeznaBX.tbi
-Fraqre: Xnyn.Fgvyjryy@AbeznaBX.tbi
-Fraqre: Oenaql.Svryqre@AbeznaBX.tbi
-Fraqre: Qnivq.Tevffnz@AbeznaBX.tbi
-Fraqre: Gnzv.Ebyyre@AbeznaBX.tbi
-Fraqre: Pnebyla.Tybire@AbeznaBX.tbi
-Fraqre: Xvzoreyl.Jbafpu@AbeznaBX.tbi
-Fraqre: Gnzzvr.Zrnir@AbeznaBX.tbi
-Fraqre: Fhfnaanu.Ovfubc@AbeznaBX.tbi
-Fraqre: Gnzzl.Revpxfra@AbeznaBX.tbi
-Fraqre: Zryvffn.Qnanul@AbeznaBX.tbi
-Fraqre: Puevfgvna.Rvfraorvf@AbeznaBX.tbi
-Fraqre: Fgrcunavr.Ynxr@AbeznaBX.tbi
-Fraqre: Wbevna.Wrjryy@AbeznaBX.tbi
-Fraqre: Rzvyl.Ratyrf@AbeznaBX.tbi
-Fraqre: <qvfcngpu.vasb@abeznabx.tbi>
+Fraqre: @AbeznaBX.tbi
 
 {Nhgbzngvp E&E Abgvsvpngvba: Sver Nynez} 12/14/2015 12:41:25 CZ;Sver Nynez;18450 R FGNGR UJL 9 UJL, Pyrirynaq Pbhagl;;ryrp, pbzgrpu;(888) 848-9884;[Pbagel Obl #9  405-321-1770 ......mbar 506 chzc eha], [zc 230];uggc://zncf.tbbtyr.pbz/zncf?d=ybp:18450+R+FGNGR+UJL+9+UJL
 {Nhgbzngvp E&E Abgvsvpngvba: Choyvp Nffvfg} 12/12/2015 7:16:06 CZ;Choyvp Nffvfg;17400 FHAQNAPR YA, Pyrirynaq Pbhagl;;Pvgl, Zvqjrfg;;[yvsg nffvgnapr**], [pnzr va sebz Zvqjrfg pvgl], [ZNC CNTR 39];uggc://zncf.tbbtyr.pbz/zncf?d=ybp:17400+FHAQNAPR
@@ -72,33 +54,7 @@ Fraqre: <qvfcngpu.vasb@abeznabx.tbi>
 {Nhgbzngvp E&E Abgvsvpngvba: Sver Nynez} 8/20/2015 1:42:24 NZSver Nynez<HAXABJA>, PBZGRP(888) 848-9884[PBHAGEL OBL ... CHZC EHA SVER NYNEZ .... 321-1770]
 {Nhgbzngvp E&E Abgvsvpngvba: Sver Erfvqragvny, 31 Hapbafpvbhf Snvagvat Arne Snv} 8/14/2015 7:23:32 NZSver Erfvqragvny, 31 Hapbafpvbhf Snvagvat Arne Snv19261 8 N FG, Pyrirynaq PbhaglO5, R5, 30, 91ARJZNA, PNYIVA[UBHFR BA SVER], [50'F LB S // HAP PBAF // ONERYL OERNGUVAT //], [GENVYRE UBHFR BA SVER], [YVCF NER OYHR], [OBYB'q gb bspef], [EC'F RK-JVSR VF GUR CNGVRAG]
 {Nhgbzngvp E&E Abgvsvpngvba: Sver Fzbxr Vairfgvtngvba} 8/5/2015 7:32:24 NZSver Fzbxr VairfgvtngvbaGRNYJBBQ EQ@ F UNEENU EQ , Pyrirynaq Pbhagl, puneyn(405) 437-9572[FZBXR BAYL .... ab synzrf frra ... WHFG RNFG bs 192 BA GRNYJBBQ ..... ynetr nzbhag bs juvgr fzbxr naq fzryyf yvxr oheavat cnfgvp .... fzo], [<<<< ZNC CNTR 39 >>>>]
-{PNQ} SVER NYNEZ PBZZREPVNY 18450 R FU9 UJL RFA:
-{PNQ} SVER ERFVQRAGVNY 16410 R VAQVNA UVYYF EQ RFA: 60
-{PNQ} SVER ERFVQRAGVNY 17950 ZVQAVTUG QE RFA: 12
-{PNQ} SVER TENFF 14008 PUNCNEENY EQ RFA: 310
-{PNQ} SVER TENFF 1415 FBHGUREA FUBERF QE RFA: 308
-{PNQ} SVER NYNEZ ERFVQRAGVNY 19000 CRPNA INYYRL RFA:
-{PNQ} QBJA CBJRE YVAR 101 192AQ NIR FR RFA: 230
-{PNQ} NYNEZ 3710 R GRPHZFRU EQ RFA: 125
-{PNQ} SVER ZHGHNY NVQR 15000 R EBPX PERRX EQ RFA: 179
-{PNQ} SVER ZHGHNY NVQR 15551 YVGGYR TENIRY PVE RFA: 179
-{PNQ} SVER ZHGHNY NVQR 22634 FUNQL PERRX YA RFA:
-{PNQ} SVER JNGRE ERFPHR 17091 JVAQVAT PERRX QE RFA:
-{PNQ} SVER TENFF R SENAXYVA EQ & 192AQ NIR AR RFA: 92
-{PNQ} SVER ZHGHNY NVQR 4230 F PNGSVFU RFA:
-{PNQ} SVER ERFVQRAGVNY 110 JUVGR GHEXRL QE RFA: 62
-{PNQ} SVER ERFVQRAGVNY 125 JVYQSVER QEVIR RFA: 5
-{PNQ} SVER TENFF 19551 R GRPHZFRU EQ RFA: 93
-{PNQ} SVER TENFF 20499 GHEXRL GENVY RFA: 93
-{PNQ} SVER TENFF 20499 GEHXRL GENVY RFA: 93
-{PNQ} SVER IRUVPYR 19000 R VAQVNA UVYYF EQ RFA: 48
-{PNQ} SVER ERFVQRAGVNY 17700 EBYYVAT ZRNQBJF RFA: 38
-{PNQ} SVER PBAGEBY OHEA 19501 GRNYJBBQ EQ RFA: 39
-{PNQ} SVER PBAGEBY OHEA 17801 PUREEL YA RFA: 39
-{PNQ} SVER NYNEZ ERFVQRAGVNY 19001 R GRPHZFRU EQ RFA: 92
-{PNQ} SVER PBAGEBY OHEA 20051 R NYNZRQN FG RFA: 231
-{PNQ} SVER TENFF GRNYJBBQ EQ & 192AQ NIR AR RFA: 38
-{PNQ} SVER TENFF 475 JVYXREFBA QE RFA: 230
+
  */
 
 choyvp pynff BXPyrirynaqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
