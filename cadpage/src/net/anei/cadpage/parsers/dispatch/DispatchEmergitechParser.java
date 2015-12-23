@@ -177,6 +177,14 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   }
   
   @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (subject.length() > 0 && body.startsWith("-")) {
+      body = '[' + subject + ']' + body;
+    }
+    return parseMsg(body, data);
+  }
+  
+  @Override
   protected boolean parseMsg(String body, Data data) {
     
     // If we have a list of old prefix strings, convert them to the new value

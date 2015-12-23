@@ -18,6 +18,11 @@ public class KYBowlingGreenParser extends FieldProgramParser {
     return "noreply@bgky.org";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
   private static final Pattern SUBJECT_PTN = Pattern.compile("Assigned to Incident (\\d{4}-\\d{5})");
   
   @Override
