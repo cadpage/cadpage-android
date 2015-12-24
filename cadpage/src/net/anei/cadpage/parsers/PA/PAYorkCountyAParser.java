@@ -25,6 +25,7 @@ public class PAYorkCountyAParser extends SmartAddressParser {
   public PAYorkCountyAParser() {
     super("YORK COUNTY", "PA");
     setupMultiWordStreets("SEVEN VALLEYS");
+    setupSpecialStreets("ALLEY");
   }
   
   @Override

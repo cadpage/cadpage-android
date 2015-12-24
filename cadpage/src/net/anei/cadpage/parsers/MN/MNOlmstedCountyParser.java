@@ -16,6 +16,7 @@ public class MNOlmstedCountyParser extends SmartAddressParser {
   public MNOlmstedCountyParser() {
     super(CITY_LIST, "OLMSTED COUNTY", "MN");
     setFieldList("SRC CALL ADDR APT CITY PLACE INFO");
+    removeWords("PLACE");
   }
   
   @Override
@@ -48,7 +49,7 @@ public class MNOlmstedCountyParser extends SmartAddressParser {
     // If no body (which gets to us as no subject) treat as special case
     if (subject.length() == 0) {
       Parser p = new Parser(body);
-      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, p.get("  "), data);
+      parseAddress(StartType.START_CALL, FLAG_PREF_TRAILING_DIR | FLAG_ANCHOR_END, p.get("  "), data);
       if (data.strCall.length() == 0) data.strCall = p.get("  ");
       data.strSupp = p.get();
     }
@@ -61,7 +62,7 @@ public class MNOlmstedCountyParser extends SmartAddressParser {
       }
       
       Parser p = new Parser(subject);
-      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END | FLAG_IMPLIED_INTERSECT, p.get("  "), data);
+      parseAddress(StartType.START_CALL, FLAG_IMPLIED_INTERSECT | FLAG_PREF_TRAILING_DIR | FLAG_ANCHOR_END, p.get("  "), data);
       data.strPlace = p.get();
       
       if (data.strAddress.length() > 0) {
@@ -73,7 +74,7 @@ public class MNOlmstedCountyParser extends SmartAddressParser {
       }
       
       else {
-        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, body, data);
+        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_PREF_TRAILING_DIR, body, data);
         data.strSupp = getLeft();
       }
     }

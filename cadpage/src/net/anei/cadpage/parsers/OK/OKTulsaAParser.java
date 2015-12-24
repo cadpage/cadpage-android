@@ -77,7 +77,4 @@ public class OKTulsaAParser extends FieldProgramParser {
     // Otherwise, see if we have a nice neat delimited page format
     return parseFields(DELIM.split(body), 4, data);
   }
-  
-  
-
 }

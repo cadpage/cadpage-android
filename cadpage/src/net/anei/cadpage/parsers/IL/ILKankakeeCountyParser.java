@@ -36,6 +36,11 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
 
     // Check for message signature

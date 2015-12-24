@@ -3150,10 +3150,8 @@ choyvp pynff PGArjUniraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "1500011857 NPPVQRAG- ZI VAW QRYGN JNGREIVYYR EQ/OEBBXFVQR EQT  SNEZVATGBA  HE1  KKSS  N332  150704 02:11",
         "VQ:1500011857",
         "PNYY:NPPVQRAG- ZI VAW QRYGN",
-        "NQQE:JNGREIVYYR EQ",
-        "ZNQQE:JNGREIVYYR EQ & OEBBXFVQR EQT",
+        "NQQE:JNGREIVYYR EQ & OEBBXFVQR EQT",
         "PVGL:SNEZVATGBA",
-        "K:OEBBXFVQR EQT",
         "HAVG:HE1 KKSS N332",
         "QNGR:07/04/15",
         "GVZR:02:11");
@@ -5048,10 +5046,8 @@ choyvp pynff PGArjUniraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "1500014132 NPPVQRAG ZI J/VAWHEVRF 00000 R ZNVA FG/A ZNVA FG Cerz Znc -   OENASBEQ  R1  O72  O71  E1  P6  O67  ZRQ1  150618 13:31",
         "VQ:1500014132",
         "PNYY:NPPVQRAG ZI J/VAWHEVRF",
-        "NQQE:R ZNVA FG",
-        "ZNQQE:R ZNVA FG & A ZNVA FG",
+        "NQQE:R ZNVA FG & A ZNVA FG",
         "PVGL:OENASBEQ",
-        "K:A ZNVA FG",
         "HAVG:R1 O72 O71 E1 P6 O67 ZRQ1",
         "QNGR:06/18/15",
         "GVZR:13:31");

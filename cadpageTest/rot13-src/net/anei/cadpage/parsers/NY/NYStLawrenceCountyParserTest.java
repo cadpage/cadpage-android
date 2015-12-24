@@ -1330,7 +1330,7 @@ choyvp pynff ALFgYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:PE 9",
         "ZNQQE:PBHAGL EBNQ 9",
         "PVGL:TBHIREARHE",
-        "VASB:TBHIREARHE ARNE HF UJL 11 VAGREFRPGVBA");
+        "VASB:ARNE HF UJL 11 VAGREFRPGVBA");
 
     qbGrfg("G27",
         "(911 QVFCNGPU) TBH SQ:2013:5\aQvfcngpurq\aRZF\aTBHIREARHE JNGRE GERNGZRAG CYNAG",

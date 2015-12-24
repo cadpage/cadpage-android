@@ -20,6 +20,7 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
   public PAJeffersonCountyParser() {
     super(CITY_LIST, "JEFFERSON COUNTY", "PA");
     setupMultiWordStreets(MULTI_WORD_STREETS);
+    removeWords("BUS");
     setFieldList("CALL UNIT ADDR APT CITY PLACE X INFO BOX CH");
   }
   

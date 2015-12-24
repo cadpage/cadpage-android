@@ -6323,7 +6323,7 @@ choyvp pynff AWZbazbhguPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Q84",
         "PNYY:SVER - JBBQF",
         "NQQE:RKVG 19O FE 18 AO BA ENZC",
-        "ZNQQE:RKVG 19O FG 18 BA ENZC",
+        "ZNQQE:RKVG 19O FG 18 ENZC",
         "CYNPR:RKVG 19O FE 18 AO BAENZC",
         "PVGL:PBYGF ARPX",
         "HAVG:S84 Q84N",

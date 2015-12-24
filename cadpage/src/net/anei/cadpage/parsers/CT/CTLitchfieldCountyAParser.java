@@ -19,9 +19,9 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
   public CTLitchfieldCountyAParser() {
     super(CTLitchfieldCountyParser.CITY_LIST, "LITCHFIELD COUNTY", "CT");
     addExtendedDirections();
-    setupMultiWordStreets(
-        "LIME ROCK",
-        "SAW MILL HILL");
+    setupMultiWordStreets(MWORD_STREET_LIST);
+    setupProtectedNames(PROTECTED_STREET_LIST);
+    setupSpecialStreets("WEST RD");
   }
   
   @Override
@@ -76,7 +76,7 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
 
   private void parseAddressField(String sAddr, Data data) {
     Matcher match;
-    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_ANCHOR_END, sAddr, data);
+    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, sAddr, data);
     String sPlace = getPadField();
     
     
@@ -137,4 +137,112 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
     }
     CTLitchfieldCountyParser.fixCity(data);
   }
+  
+  private static final String[] PROTECTED_STREET_LIST = new String[]{
+    "EAST FARMS",
+    "EAST VIEW",
+    "SOUTH CHAPEL",
+    "SOUTH MAIN",
+    "WEST GRANBY",
+    "WEST HILL",
+    "WEST LAKE"
+  };
+  
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "LIME ROCK",
+    "SAW MILL HILL",
+    "ABOVE ALL",
+    "ALAIN WHITE",
+    "ALVORD PARK",
+    "BEECH HILL",
+    "BLUEBERRY HILL",
+    "BRANDY HILL",
+    "BREEZY HILL",
+    "BURR MOUNTAIN",
+    "CAMPVILLE HILL",
+    "CANDLEWOOD MOUNTAIN",
+    "CARLSON RIDGE",
+    "CEDAR HILL",
+    "CHAPEL HILL",
+    "CHESTNUT LAND",
+    "CHURCH HILL",
+    "CLATTER VALLEY",
+    "COLEBROOK RIVER",
+    "COLONIAL RIDGE",
+    "COTTON HILL",
+    "DISH MILL",
+    "DUTTON HILL",
+    "EABOW BROOK",
+    "EAST FARMS",
+    "EAST VIEW",
+    "FORGE HILL",
+    "GLEN AYRE",
+    "GOSHEN EAST",
+    "HARMONY HILL",
+    "HARWINTON HEIGHTS",
+    "HENRY SANFORD",
+    "HIGH VIEW",
+    "HOLCOMB HILL",
+    "HOSPITAL HILL",
+    "HUT HILL",
+    "INDUSTRIAL PARK",
+    "LAKE HARWINTON",
+    "LEAD MINE BROOK",
+    "LILY POND",
+    "LOCUST HILL",
+    "LONG MOUNTAIN",
+    "LOON MEADOW",
+    "MAPLE HOLLOW",
+    "MARSHALL LAKE",
+    "MOUNT TOM",
+    "MOUNTAIN VIEW",
+    "NETTLETON HOLLOW",
+    "ORCHARD REST",
+    "PAPER MILL",
+    "PARK LANE",
+    "PARKER HILL",
+    "PICKETT DISTRICT",
+    "PINE RIDGE",
+    "POPPLE SWAMP",
+    "PROSPECT HILL",
+    "QUAKER RIDGE",
+    "RAMS GATE",
+    "RATLUM MOUNTAIN",
+    "ROBIN HILL",
+    "RUDD POND",
+    "SANDY BROOK",
+    "SCOVILLE HILL",
+    "SHARON STATION",
+    "SHERMAN HILL",
+    "SHINGLE MILL",
+    "SMITH HILL",
+    "SOUTH CHAPEL",
+    "SOUTH MAIN",
+    "SPENCER BROOK",
+    "SPENCER HILL",
+    "SPRING LAKE",
+    "STILL RIVER",
+    "STONE GATE",
+    "STUB HOLLOW",
+    "SUNNY VALLEY",
+    "TANNERY BROOK",
+    "TECHNOLOGY PARK",
+    "TODD HILL",
+    "TORRINGFORD WEST",
+    "TOWER HILL",
+    "TOWN HALL",
+    "TOWN HILL",
+    "WAKE ROBIN",
+    "WAKEMAN HILL",
+    "WELLERS BRIDGE",
+    "WEST GRANBY",
+    "WEST HILL",
+    "WEST LAKE",
+    "WHISKER HOLLOW",
+    "WHITE OAK",
+    "WHITE PINE",
+    "WILDCAT HILL",
+    "WILSON POND",
+    "WISHING WILL"
+  };
 }

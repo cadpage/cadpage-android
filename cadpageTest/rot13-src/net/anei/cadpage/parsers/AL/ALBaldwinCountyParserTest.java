@@ -935,7 +935,7 @@ choyvp pynff NYOnyqjvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:322538",
         "PNYY:Nhgb Nppvqrag",
         "NQQE:V-65 FO BA OEVQTR",
-        "ZNQQE:V 65 BA OEVQTR");
+        "ZNQQE:V 65 OEVQTR");
 
     qbGrfg("G76",
         "(QN) 08-06-12 15:24: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 322543 (Trareny Vyyarff) ng 2505 CBYYNEQ EQ",
@@ -1370,7 +1370,7 @@ choyvp pynff NYOnyqjvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:487665",
         "PNYY:Sver - Tenff",
         "NQQE:SVFU EVIRE EQ BSS BS UJL 98",
-        "ZNQQE:SVFU EVIRE EQ & BS UJL 98");
+        "ZNQQE:SVFU EVIRE EQ & UJL 98");
 
     qbGrfg("G35",
         "(R911 Abgvsvpngvba - Zntabyvn Fcevat IQS) 10-25-13 12:45: Fgngvba FGN34 qvfcngpurq gb Vapvqrag VQ 487180 (Fgehpgher Sver) ng 13010 LHCBA EQ RKG",

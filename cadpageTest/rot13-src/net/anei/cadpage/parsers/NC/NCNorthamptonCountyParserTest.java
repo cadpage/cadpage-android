@@ -42,10 +42,10 @@ choyvp pynff APAbegunzcgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgCnefre() {
 
     qbGrfg("G1",
-        "F: Z:Abegunzcgba911:* HEVNU ZNEGVA EQ // ARNE PRZRGREL* * * PBAJNL* * SVER - OEHFU* * * * RZF3,SF20* * Zrqvpny: Ab* Unmneqf: Ab* * ",
-        "NQQE:HEVNU ZNEGVA EQ",
+        "F: Z:Abegunzcgba911:* HEVNU ZNEGVA EQ // ARNE PRZRGREL* * * PBAJNL* * SVER - OEHFU* * * * RZF3,SF20* * Zrqvpny: Ab* Unmneqf: Ab* *",
+        "NQQE:HEVNU ZNEGVA EQ & ARNE PRZRGREL",
+        "ZNQQE:HEVNU ZNEGVA EQ & PRZRGREL",
         "PVGL:PBAJNL",
-        "CYNPR:ARNE PRZRGREL",
         "PNYY:SVER - OEHFU",
         "HAVG:RZF3,SF20",
         "VASB:Zrqvpny: Ab / Unmneqf: Ab");

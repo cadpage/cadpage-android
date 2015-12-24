@@ -38,7 +38,7 @@ public class CTFairfieldCountyAParser extends DispatchA3Parser {
       
       //save some groups as local strings for use later...
       String group1 = mat.group(1);
-      parseAddress(StartType.START_ADDR, group1.replace("//", "&").trim(), data);
+      parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT | FLAG_CROSS_FOLLOWS, group1.replace("//", "&").trim(), data);
       parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_NO_CITY, getLeft(), data);
       data.strMap = getLeft();
       

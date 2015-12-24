@@ -4054,7 +4054,7 @@ choyvp pynff GKYhoobpxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Nppvqrag - Zvabe",
         "HAVG:VSQ",
         "NQQE:JO BA 62 & 82 NAQ A PE 3500 ORGJRRA YBERAMB NAQ VQNYBH",
-        "ZNQQE:BA 62 & 82 & A PBHAGL EBNQ 3500 ORGJRRA YBERAMB & VQNYBH",
+        "ZNQQE:62 & 82 & A PBHAGL EBNQ 3500 ORGJRRA YBERAMB & VQNYBH",
         "VASB:JUVGR CX IRUVPYR EBYYRQ BIRE TNGUREVAT SHEGURE");
 
     qbGrfg("G44",
@@ -7303,7 +7303,7 @@ choyvp pynff GKYhoobpxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Nppvqrag - Zvabe",
         "HAVG:JQSQ",
         "NQQE:JO BA 62 & 82 NAQ A PE 3500 ORGJRRA YBERAMB NAQ VQNYBH",
-        "ZNQQE:BA 62 & 82 & A PBHAGL EBNQ 3500 ORGJRRA YBERAMB & VQNYBH",
+        "ZNQQE:62 & 82 & A PBHAGL EBNQ 3500 ORGJRRA YBERAMB & VQNYBH",
         "VASB:JUVGR CX /IRUVPYR EBYYRQ BIRE / HAXABJA VAWHEVRF");
 
     qbGrfg("G79",
@@ -8944,7 +8944,7 @@ choyvp pynff GKYhoobpxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2015031283",
         "PNYY:QVFERTNEQ",
         "NQQE:R UJL 84 JO BA GUR ABEGU FVQR",
-        "ZNQQE:R UJL 84 BA GUR ABEGU FVQR",
+        "ZNQQE:R UJL 84 GUR ABEGU FVQR",
         "CYNPR:ARNE PBBEF CYNAG");
 
     qbGrfg("G5",
@@ -8958,7 +8958,7 @@ choyvp pynff GKYhoobpxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver - Tenff",
         "HAVG:OSQ",
         "NQQE:R UJL 84 JO BA GUR ABEGU FVQR",
-        "ZNQQE:R UJL 84 BA GUR ABEGU FVQR",
+        "ZNQQE:R UJL 84 GUR ABEGU FVQR",
         "VASB:17 FGNGRF GURER VF N TENFF SVER BA GUR EBNQ / 7 ZCU",
         "CYNPR:ARNE PBBEF CYNAG");
 

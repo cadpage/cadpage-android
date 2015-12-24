@@ -72,6 +72,11 @@ public class OHLoganCountyParser extends DispatchCiscoParser {
   }
   
   @Override
+  public int getExtraParseAddressFlags() {
+    return FLAG_PREF_TRAILING_DIR;
+  }
+  
+  @Override
   public String adjustMapCity(String city) {
     return convertCodes(city, MAP_CITY_TABLE);
   }

@@ -102,9 +102,9 @@ choyvp pynff APQhcyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "G.XRAARQL:5028 A AP 111 UJL AJ FRPGB FRIRA FCEVATF *OHQQL OBL YA K *RAQ NG JNLAR PBHAGL 20:59:46 SVRYQ SVER / TENFF SVER AP 111 UJL NAQ JNLAR PB YVAR",
-        "NQQE:5028 A AP 111 UJL AJ",
-        "ZNQQE:5028 A FGNGR 111 AJ",
-        "NCG:FRPGB",
+        "NQQE:5028 A AP 111 UJL",
+        "ZNQQE:5028 A FGNGR 111",
+        "NCG:AJ FRPGB",
         "PVGL:FRIRA FCEVATF",
         "K:OHQQL OBL YA / RAQ NG JNLAR PBHAGL",
         "GVZR:20:59:46",

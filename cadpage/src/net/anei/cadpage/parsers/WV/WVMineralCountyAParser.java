@@ -11,7 +11,7 @@ public class WVMineralCountyAParser extends FieldProgramParser {
   
   public WVMineralCountyAParser() {
     super(CITY_LIST, "MINERAL COUNTY", "WV",
-           "SRCID DATETIME STATUS CALL/SDS ADDR!");
+          "SRCID DATETIME STATUS CALL/SDS ADDR!");
     setupMultiWordStreets(MWORD_STREET_LIST);
   }
   

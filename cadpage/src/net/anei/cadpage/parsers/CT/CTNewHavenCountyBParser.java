@@ -14,6 +14,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   private static final Pattern DATE_TIME_PTN = Pattern.compile(" +(\\d{6}) (\\d\\d:\\d\\d)(?:[ ,]|$)"); 
   private static final Pattern TRUNC_DATE_TIME_PTN = Pattern.compile(" +\\d{6} [\\d:]+$| +\\d{1,6}$"); 
   private static final Pattern PRI_MARKER = Pattern.compile(" - PRI (\\d) - ");
+  private static final Pattern ADDR_ST_MARKER = Pattern.compile("(.*) (\\d{5} .*)");
   private static final Pattern ADDR_END_MARKER = Pattern.compile("Apt ?#:|(?=(?:Prem )?Map -)");
   private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?: *(?:Prem )?Map -*)+");
   private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2}(?: *[A-Z]{2} *\\d{1,3})?\\b");
@@ -100,6 +101,11 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
       data.strCall = body.substring(0,match.start()).trim();
       data.strPriority = match.group(1);
       body = body.substring(match.end()).trim();
+    }
+    else if ((match = ADDR_ST_MARKER.matcher(body)).matches()) {
+      st = StartType.START_ADDR;
+      data.strCall = match.group(1).trim();
+      body = match.group(2);
     }
     
     int flags = FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS;

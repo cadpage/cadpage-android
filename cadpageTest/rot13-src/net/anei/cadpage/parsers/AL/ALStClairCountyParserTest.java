@@ -1305,9 +1305,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY PNYY",
         "NQQE:25139 HF UJL 411",
         "ZNQQE:25139 HF 411",
-        "K:ORTVAF & RAQ BS",
-        "PVGL:ZBBQL",
-        "ANZR:CEXJL NFUIVYYR SNEZRE, ENAQL",
+        "K:ORTVAF & RAQ BS ZBBQL CEXJL",
+        "PVGL:NFUIVYYR",
+        "ANZR:SNEZRE, ENAQL",
         "CUBAR:2055945861",
         "VQ:2011-0000072997");
 
@@ -1944,9 +1944,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:QVFGHEONAPR",
         "NQQE:32549 HF UJL 411",
         "ZNQQE:32549 HF 411",
-        "K:ORTVAF & RAQ BS",
-        "PVGL:ZBBQL",
-        "ANZR:CEXJL NFUIVYYR OVFUBC, PUNEYRF",
+        "K:ORTVAF & RAQ BS ZBBQL CEXJL",
+        "PVGL:NFUIVYYR",
+        "ANZR:OVFUBC, PUNEYRF",
         "CUBAR:2055944910",
         "VQ:2015-0000084771");
 
@@ -2023,9 +2023,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER, BGURE",
         "NQQE:35174 HF UJL 411",
         "ZNQQE:35174 HF 411",
-        "K:ORTVAF & RAQ BS",
-        "PVGL:ZBBQL",
-        "ANZR:CEXJL NFUIVYYR WRSSERL VATENZ",
+        "K:ORTVAF & RAQ BS ZBBQL CEXJL",
+        "PVGL:NFUIVYYR",
+        "ANZR:WRSSERL VATENZ",
         "CUBAR:2052096447",
         "VQ:2015-0000083564");
 
@@ -5902,9 +5902,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NFFVFG BPPHCNAG",
         "NQQE:25390 HF UJL 411",
         "ZNQQE:25390 HF 411",
-        "K:ORTVAF & RAQ BS",
-        "PVGL:ZBBQL",
-        "ANZR:CEXJL NFUIVYYR GUBZNF, EVPUNEQ",
+        "K:ORTVAF & RAQ BS ZBBQL CEXJL",
+        "PVGL:NFUIVYYR",
+        "ANZR:GUBZNF, EVPUNEQ",
         "CUBAR:2055944444",
         "VQ:2015-0000090176");
 
@@ -6207,9 +6207,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NFFVFG BPPHCNAG",
         "NQQE:25390 HF UJL 411",
         "ZNQQE:25390 HF 411",
-        "K:ORTVAF & RAQ BS",
-        "PVGL:ZBBQL",
-        "ANZR:CEXJL NFUIVYYR GUBZNF, EVPUNEQ",
+        "K:ORTVAF & RAQ BS ZBBQL CEXJL",
+        "PVGL:NFUIVYYR",
+        "ANZR:GUBZNF, EVPUNEQ",
         "CUBAR:2055944444",
         "VQ:2015-0000053447");
 
@@ -6419,9 +6419,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY PNYY",
         "NQQE:26249 HF UJL 411",
         "ZNQQE:26249 HF 411",
-        "K:ORTVAF & RAQ BS",
-        "PVGL:ZBBQL",
-        "ANZR:CEXJL NFUIVYYR CEVPR, OVYYL R",
+        "K:ORTVAF & RAQ BS ZBBQL CEXJL",
+        "PVGL:NFUIVYYR",
+        "ANZR:CEVPR, OVYYL R",
         "CUBAR:2055944328",
         "VQ:2015-0000026871");
 
@@ -6509,9 +6509,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY PNYY",
         "NQQE:25341 HF UJL 411",
         "ZNQQE:25341 HF 411",
-        "K:ORTVAF & RAQ BS",
-        "PVGL:ZBBQL",
-        "ANZR:CEXJL NFUIVYYR WNQN OEBNQURNQ (11 LBS)",
+        "K:ORTVAF & RAQ BS ZBBQL CEXJL",
+        "PVGL:NFUIVYYR",
+        "ANZR:WNQN OEBNQURNQ (11 LBS)",
         "CUBAR:2053621167",
         "VQ:2015-0000021202");
 
@@ -9223,9 +9223,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FGEHPGHER SVER",
         "NQQE:19436 HF UJL 411",
         "ZNQQE:19436 HF 411",
-        "K:ORTVAF & RAQ BS",
-        "PVGL:ZBBQL",
-        "ANZR:CEXJL FCEVATIVYYR WBUA",
+        "K:ORTVAF & RAQ BS ZBBQL CEXJL",
+        "PVGL:FCEVATIVYYR",
+        "ANZR:WBUA",
         "CUBAR:2056137256",
         "VQ:2015-0000026956");
 
@@ -9444,9 +9444,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY PNYY",
         "NQQE:14045 HF UJL 411",
         "ZNQQE:14045 HF 411",
-        "K:ORTVAF & RAQ BS",
-        "PVGL:ZBBQL",
-        "ANZR:CEXJL BQRAIVYYR REVPN",
+        "K:ORTVAF & RAQ BS ZBBQL CEXJL",
+        "PVGL:BQRAIVYYR",
+        "ANZR:REVPN",
         "CUBAR:2059029862",
         "VQ:2015-0000091482");
 
@@ -9840,9 +9840,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY PNYY",
         "NQQE:13946 HF UJL 411",
         "ZNQQE:13946 HF 411",
-        "K:ORTVAF & RAQ BS",
-        "PVGL:ZBBQL",
-        "ANZR:CEXJL BQRAIVYYR PYNEX'F, GVER & NHGBZBGVIR",
+        "K:ORTVAF & RAQ BS ZBBQL CEXJL",
+        "PVGL:BQRAIVYYR",
+        "ANZR:PYNEX'F, GVER & NHGBZBGVIR",
         "CUBAR:2056296602",
         "VQ:2015-0000088506");
 
@@ -9982,9 +9982,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY PNYY",
         "NQQE:11026 HF UJL 411",
         "ZNQQE:11026 HF 411",
-        "K:ORTVAF & RAQ BS",
-        "PVGL:ZBBQL",
-        "ANZR:CEXJL BQRAIVYYR NFU, WNAR",
+        "K:ORTVAF & RAQ BS ZBBQL CEXJL",
+        "PVGL:BQRAIVYYR",
+        "ANZR:NFU, WNAR",
         "CUBAR:2056295548",
         "VQ:2015-0000086600");
 
@@ -10310,9 +10310,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:911 UNATHC/BCRA YVAR",
         "NQQE:10643 HF UJL 411",
         "ZNQQE:10643 HF 411",
-        "K:ORTVAF & RAQ BS",
-        "PVGL:ZBBQL",
-        "ANZR:CEXJL BQRAIVYYR BCNY CBGGF",
+        "K:ORTVAF & RAQ BS ZBBQL CEXJL",
+        "PVGL:BQRAIVYYR",
+        "ANZR:BCNY CBGGF",
         "CUBAR:2053525324",
         "VQ:2015-0000082498");
 
