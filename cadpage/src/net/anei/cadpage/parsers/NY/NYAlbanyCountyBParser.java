@@ -12,9 +12,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  * Albany County, NY
  */
 public class NYAlbanyCountyBParser extends FieldProgramParser {
-  
-  private static final Pattern SUBJECT_PTN = Pattern.compile("(\\w+?)_cad (\\w+?)-(\\d\\d:\\d\\d)");
-  private static final DateFormat DATE_FMT = new SimpleDateFormat("MMMdd");
 
   public NYAlbanyCountyBParser() {
     super("ALBANY COUNTY", "NY",
@@ -23,17 +20,27 @@ public class NYAlbanyCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@edispatches.com";
+    return "dispatch@edispatches.com,2082524501";
   }
+  
+  private static final Pattern SUBJECT_PTN = Pattern.compile("(\\w+?)_cad (\\w+?)-(\\d\\d:\\d\\d)");
+  private static final Pattern MARKER_PTN = Pattern.compile("EDISPATCHES: *\\((\\w+?)_cad (\\w+?)-(\\d\\d:\\d\\d)\\) *");
+  private static final DateFormat DATE_FMT = new SimpleDateFormat("MMMdd");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
     Matcher match = SUBJECT_PTN.matcher(subject);
-    if (!match.matches()) return false;
+    if (!match.matches()) {
+      match = MARKER_PTN.matcher(body);
+      if (!match.lookingAt()) return false;
+      body = body.substring(match.end());
+    }
     data.strSource = match.group(1);
     setDate(DATE_FMT, match.group(2), data);
     data.strTime = match.group(3);
     
+    body = body.replace("\nLOC2:", "\nBTWN:");
     return parseFields(body.split("\n"), data);
   }
   
