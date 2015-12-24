@@ -26,7 +26,7 @@ public class VALoudounCountyAParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "Message_Notification@usamobility.net,@everbridge.net,CC_Message_Notification@usamobility.net";
+    return "Message_Notification@usamobility.net,@everbridge.net,CC_Message_Notification@usamobility.net,89361";
   }
 
   @Override
@@ -97,6 +97,7 @@ public class VALoudounCountyAParser extends FieldProgramParser {
     
     // Strip off trailing disclaimer
     pt = body.indexOf('\n');
+    if (pt < 0) pt = body.indexOf("  To confirm:");
     if (pt >= 0) body = body.substring(0,pt).trim();
     
     // There are two different related formats, upshifting the text string

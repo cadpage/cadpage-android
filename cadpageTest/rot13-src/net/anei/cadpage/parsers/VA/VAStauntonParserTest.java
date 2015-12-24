@@ -462,7 +462,7 @@ choyvp pynff INFgnhagbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "TRARENY SVER NYNEZ  [10/16/15 12:41:34 ZNJLREZJ]",
 
         "NQQE:242 FLPNZBER FG",
-        "ZNQQE:38.1521412059,-79.0685748697",
+        "ZNQQE:+38.152141,-79.068575",
         "PVGL:FGNHAGBA",
         "PNYY:NHGB SVER NYNEZ FZBXR URNG QRG",
         "VASB:FRPHEVGL VA BA YBPNGVBA / TRARENY SVER NYNEZ",
@@ -796,7 +796,7 @@ choyvp pynff INFgnhagbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:12:31:15");
 
   }
-  
+ 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj INFgnhagbaCnefreGrfg().trarengrGrfgf("G1");
   }

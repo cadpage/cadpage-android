@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12192015</string>
-  <string name="release_version">v1.8.85</string>
+  <string name="release_date">12222015</string>
+  <string name="release_version">v1.8.86</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.86\n
+Location Fixes:\n
+Loudoun County, VA\n
+Stanton, VA\n
+\n
 v1.8.85\n
 Location Fixes:\n
 San Diego County, CA\n
@@ -56,26 +61,7 @@ Marion County, FL\n
 Location Fixes:\n
 Sonoma County, CA\n
 Garrett County, MD\n
-Suffolk County, NY\n
-\n
-v1.8.81\n
-Location Fixes:\n
-Jefferson County, AL\n
-Yuma County, AZ\n
-Sonoma County, CA\n
-Terrebonne Parish, LA\n
-West Baton Rouge Parish, LA\n
-Cheboygan County, MI\n
-Clark County, NV\n
-Madison County, NY\n
-Oneida County, NY\n
-Suffolk County, NY\n
-Wayne County, NC\n
-Licking County, OH\n
-Erie County, PA\n
-Cherokee County, SC\n
-Southampton County, VA\n
-Staunton, VA
+Suffolk County, NY
   </string>
 </resources>
   

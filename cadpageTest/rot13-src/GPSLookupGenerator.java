@@ -10,8 +10,8 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 
 choyvp pynff TCFYbbxhcTrarengbe {
   
-  cevingr fgngvp Cnggrea VACHG_CGA = Cnggrea.pbzcvyr(" +\"(.*)\" *: \"(.*?),(.*?)\",? *");
-  cevingr fgngvp Cnggrea FBEG_NQQERFF_CGA = Cnggrea.pbzcvyr("((\\q+)(?:[-\\.]\\q+| 1/2)? )?(.*?)(?: NCG *(.*))?");
+  cevingr fgngvp Cnggrea VACHG_CGA = Cnggrea.pbzcvyr(" +\"(.*)\" *: \"(?:TCF:)?(.*?),(.*?)(?://.*)?\",? *");
+  cevingr fgngvp Cnggrea FBEG_NQQERFF_CGA = Cnggrea.pbzcvyr("((\\q+)(?:[-\\.]\\q+| 1/2)? )?(.*?)(?: (NCG|OYQT) *(.*))?");
   
   cevingr fgngvp pynff TCFCbvag vzcyrzragf Pbzcnenoyr<TCFCbvag> {
     Fgevat nqqerff;
@@ -39,12 +39,15 @@ choyvp pynff TCFYbbxhcTrarengbe {
       Fgevat qvtvgf = zngpu.tebhc(2);
       vag qvtvgYra = qvtvgf == ahyy ? 0 : qvtvgf.yratgu();
       FgevatOhvyqre fo = arj FgevatOhvyqre(zngpu.tebhc(3));
-      Fgevat ncg = zngpu.tebhc(4);
+      Fgevat ncgGlcr = zngpu.tebhc(4);
+      Fgevat ncg = zngpu.tebhc(5);
       fo.nccraq(' ');
       sbe (vag w = qvtvgYra; w<8; w++) fo.nccraq('0');
       fo.nccraq(ahzore);
-      vs (ncg != ahyy) {
-        fo.nccraq(" NCG ");
+      vs (ncgGlcr != ahyy) {
+        fo.nccraq(' ');
+        fo.nccraq(ncgGlcr);
+        fo.nccraq(' ');
         sbe (vag w = ncg.yratgu(); w<6; w++) fo.nccraq('0');
         fo.nccraq(ncg);
       }
