@@ -66,7 +66,22 @@ choyvp pynff ALNyonalPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCnefre2() {
-    
+
+    qbGrfg("G1",
+        "RQVFCNGPURF: (ryfzrersq_pnq Qrp22-19:52) GLCR:UNM S UnmZng\a" +
+        "YBP:42 OEBBXZNA NI\a" +
+        "YBP2:YRABK FG  naq  QRNQRAQ\a" +
+        "ANGHER:UBHFR SHYY BS ANGHENY TNF",
+
+        "FEP:ryfzrersq",
+        "QNGR:12/22",
+        "GVZR:19:52",
+        "PNYY:UNM S UnmZng",
+        "NQQE:42 OEBBXZNA NI",
+        "ZNQQE:42 OEBBXZNA NIR",
+        "K:YRABK FG  naq  QRNQRAQ",
+        "VASB:UBHFR SHYY BS ANGHENY TNF");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
