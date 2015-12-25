@@ -18,6 +18,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   
   private String[] prefixList = null;
   private Pattern markerPattern;
+  private boolean fixSubject;
   int[] extraSpacePosList;
   private Set<String> specialWordSet = new HashSet<String>(Arrays.asList(new String[]{
       "APPLE",
@@ -161,6 +162,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
       markerPattern = Pattern.compile("^" + prefix + "(?:" + UNIT_PTN + ")?");
     }
     this.extraSpacePosList = extraSpacePosList;
+    fixSubject = prefix.length() == 0;
   }
   
   /**
@@ -178,7 +180,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (subject.length() > 0 && body.startsWith("-")) {
+    if (fixSubject && subject.length() > 0 && body.startsWith("-")) {
       body = '[' + subject + ']' + body;
     }
     return parseMsg(body, data);
