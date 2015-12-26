@@ -72,6 +72,11 @@ public class NCPittCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public String getProgram() {
+    return super.getProgram() + " PLACE X";
+  }
+  
+  @Override
   public Field getField(String name) {
     if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d", true);
     if (name.equals("SAME")) return new SkipField("SAME", true);

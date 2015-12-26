@@ -1404,7 +1404,7 @@ choyvp pynff ALFgYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RZF",
         "NQQE:EG 11",
         "PVGL:TBHIREARHE",
-        "VASB:ARNE GENAFSRE FGNGVBA");
+        "CYNPR:ARNE GENAFSRE FGNGVBA");
 
     qbGrfg("G36",
         "(911 QVFCNGPU) TBH SQ:2012:274\aQvfcngpurq\aSver\a660 PB EG 9, TBHIREARHE",

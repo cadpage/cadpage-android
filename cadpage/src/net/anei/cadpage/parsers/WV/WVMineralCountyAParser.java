@@ -9,10 +9,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class WVMineralCountyAParser extends FieldProgramParser {
   
+  private static final Pattern BAD_ADDRESS_PTN = Pattern.compile(".*\\bTRAILER COURT\\b.*", Pattern.CASE_INSENSITIVE);
+  
   public WVMineralCountyAParser() {
     super(CITY_LIST, "MINERAL COUNTY", "WV",
           "SRCID DATETIME STATUS CALL/SDS ADDR!");
     setupMultiWordStreets(MWORD_STREET_LIST);
+    setupRejectAddressPattern(BAD_ADDRESS_PTN);
   }
   
   @Override
@@ -157,27 +160,32 @@ public class WVMineralCountyAParser extends FieldProgramParser {
         Result res2 = parseAddress(StartType.START_ADDR, flags, tmp2);
         boolean placeIntersect = res1.getStatus() == STATUS_STREET_NAME && res2.getStatus() == STATUS_STREET_NAME && 
                                  res1.getLeft().length() == 0 && res2.getLeft().length() == 0; 
-        addrNdx = 0;
-        if (placeIntersect || res2.getStatus() > res1.getStatus()) {
-          data.strPlace = parts[0];
-          res1 = res2;
+        if (placeIntersect) {
+          res1.getData(data);
+          String addr1 = data.strAddress;
+          String place1 = data.strPlace;
+          data.strAddress = data.strPlace = "";
+          res2.getData(data);
+          data.strAddress = append(addr1, " & ", data.strAddress);
+          data.strPlace = append(place1, " - ", data.strPlace);
           addrNdx = 1;
-        } else if (foundPart) {
-          data.strPlace = parts[1];
-          addrNdx = 1;
+        }
+        
+        else {
+          addrNdx = 0;
+          if (placeIntersect || res2.getStatus() > res1.getStatus()) {
+            data.strPlace = parts[0];
+            res1 = res2;
+            addrNdx = 1;
+          } else if (foundPart) {
+            data.strPlace = parts[1];
+            addrNdx = 1;
+          }
+          res1.getData(data);
+          data.strSupp = append(res1.getLeft(), " / ", data.strSupp);
         }
         if (foundPart) addrNdx++;
-        res1.getData(data);
-        data.strSupp = append(res1.getLeft(), " / ", data.strSupp);
-        
-        // If we identified the first two parts as simple street names, merge
-        // together as an intersection
-        if (placeIntersect) {
-          data.strAddress = append(data.strPlace, " & ", data.strAddress);
-          data.strPlace = "";
-        }
       }
-      
 
       // OK, we got the address and possible the thing after the address
       // not process everything else
@@ -241,7 +249,7 @@ public class WVMineralCountyAParser extends FieldProgramParser {
       return "PLACE ADDR APT CITY ST X INFO";
     }
   }
-  
+
   private static final String[] MWORD_STREET_LIST = new String[]{
     "BELL BABB",
     "BIBLE CHURCH",

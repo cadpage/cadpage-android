@@ -181,6 +181,7 @@ choyvp pynff MPNNOPnytnelCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Guvf pbzzhavpngvba vf vagraqrq BAYL sbe gur hfr bs gur crefba be ragvgl anzrq nobir naq znl pbagnva vasbezngvba gung vf pbasvqragvny be yrtnyyl cevivyrtrq. Vs lbh ner abg gur vagraqrq erpvcvrag anzrq nobir be n crefba erfcbafvoyr sbe qryvirevat zrffntrf be pbzzhavpngvbaf gb gur vagraqrq erpvcvrag, LBH NER UREROL ABGVSVRQ gung nal hfr, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba be nal bs gur vasbezngvba pbagnvarq va vg vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf vzzrqvngryl ol gryrcubar naq gura qrfgebl be qryrgr guvf pbzzhavpngvba, be erghea vg gb hf ol znvy vs erdhrfgrq ol hf. Gur Pvgl bs Pnytnel gunaxf lbh sbe lbhe nggragvba naq pb-bcrengvba.",
 
         "NQQE:52025 GJC EQ 232",
+        "ZNQQE:52025 GJC 232",
         "PVGL:Ebpxl Ivrj Pbhagl",
         "ZNC:23152",
         "PNYY:Cbvfbavat - Cernyreg",
@@ -253,6 +254,7 @@ choyvp pynff MPNNOPnytnelCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Guvf pbzzhavpngvba vf vagraqrq BAYL sbe gur hfr bs gur crefba be ragvgl anzrq nobir naq znl pbagnva vasbezngvba gung vf pbasvqragvny be yrtnyyl cevivyrtrq. Vs lbh ner abg gur vagraqrq erpvcvrag anzrq nobir be n crefba erfcbafvoyr sbe qryvirevat zrffntrf be pbzzhavpngvbaf gb gur vagraqrq erpvcvrag, LBH NER UREROL ABGVSVRQ gung nal hfr, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba be nal bs gur vasbezngvba pbagnvarq va vg vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf vzzrqvngryl ol gryrcubar naq gura qrfgebl be qryrgr guvf pbzzhavpngvba, be erghea vg gb hf ol znvy vs erdhrfgrq ol hf. Gur Pvgl bs Pnytnel gunaxf lbh sbe lbhe nggragvba naq pb-bcrengvba.",
 
         "NQQE:ETR EQ 52 & GJC EQ 232",
+        "ZNQQE:ETR EQ 52 & GJC 232",
         "PVGL:Ebpxl Ivrj Pbhagl",
         "ZNC:23152",
         "PNYY:Vairfgvtngvba - Pbyq Erfcbafr",
@@ -477,6 +479,7 @@ choyvp pynff MPNNOPnytnelCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Guvf pbzzhavpngvba vf vagraqrq BAYL sbe gur hfr bs gur crefba be ragvgl anzrq nobir naq znl pbagnva vasbezngvba gung vf pbasvqragvny be yrtnyyl cevivyrtrq. Vs lbh ner abg gur vagraqrq erpvcvrag anzrq nobir be n crefba erfcbafvoyr sbe qryvirevat zrffntrf be pbzzhavpngvbaf gb gur vagraqrq erpvcvrag, LBH NER UREROL ABGVSVRQ gung nal hfr, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba be nal bs gur vasbezngvba pbagnvarq va vg vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf vzzrqvngryl ol gryrcubar naq gura qrfgebl be qryrgr guvf pbzzhavpngvba, be erghea vg gb hf ol znvy vs erdhrfgrq ol hf. Gur Pvgl bs Pnytnel gunaxf lbh sbe lbhe nggragvba naq pb-bcrengvba.",
 
         "NQQE:50180 GJC EQ 244",
+        "ZNQQE:50180 GJC 244",
         "PVGL:Ebpxl Ivrj Pbhagl",
         "ZNC:24450",
         "PNYY:Tenff Sver",
@@ -512,6 +515,7 @@ choyvp pynff MPNNOPnytnelCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Guvf pbzzhavpngvba vf vagraqrq BAYL sbe gur hfr bs gur crefba be ragvgl anzrq nobir naq znl pbagnva vasbezngvba gung vf pbasvqragvny be yrtnyyl cevivyrtrq. Vs lbh ner abg gur vagraqrq erpvcvrag anzrq nobir be n crefba erfcbafvoyr sbe qryvirevat zrffntrf be pbzzhavpngvbaf gb gur vagraqrq erpvcvrag, LBH NER UREROL ABGVSVRQ gung nal hfr, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba be nal bs gur vasbezngvba pbagnvarq va vg vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf vzzrqvngryl ol gryrcubar naq gura qrfgebl be qryrgr guvf pbzzhavpngvba, be erghea vg gb hf ol znvy vs erdhrfgrq ol hf. Gur Pvgl bs Pnytnel gunaxf lbh sbe lbhe nggragvba naq pb-bcrengvba.",
 
         "NQQE:UJL 22 & GJC EQ 244",
+        "ZNQQE:UJL 22 & GJC 244",
         "PVGL:Ebpxl Ivrj Pbhagl",
         "ZNC:24342",
         "PNYY:3eq gevzrfgre urzbeeuntr",
@@ -768,6 +772,7 @@ choyvp pynff MPNNOPnytnelCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Guvf pbzzhavpngvba vf vagraqrq BAYL sbe gur hfr bs gur crefba be ragvgl anzrq nobir naq znl pbagnva vasbezngvba gung vf pbasvqragvny be yrtnyyl cevivyrtrq. Vs lbh ner abg gur vagraqrq erpvcvrag anzrq nobir be n crefba erfcbafvoyr sbe qryvirevat zrffntrf be pbzzhavpngvbaf gb gur vagraqrq erpvcvrag, LBH NER UREROL ABGVSVRQ gung nal hfr, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba be nal bs gur vasbezngvba pbagnvarq va vg vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf vzzrqvngryl ol gryrcubar naq gura qrfgebl be qryrgr guvf pbzzhavpngvba, be erghea vg gb hf ol znvy vs erdhrfgrq ol hf. Gur Pvgl bs Pnytnel gunaxf lbh sbe lbhe nggragvba naq pb-bcrengvba.",
 
         "NQQE:UJL 22 & GJC EQ 244",
+        "ZNQQE:UJL 22 & GJC 244",
         "PVGL:Ebpxl Ivrj Pbhagl",
         "ZNC:24342",
         "PNYY:Vairfgvtngvba - Pbyq Erfcbafr",

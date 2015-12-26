@@ -1985,8 +1985,8 @@ choyvp pynff JIZvarenyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:12/28/2014",
         "GVZR:16:59:57",
         "PNYY:ZRAGNY FGNGHF PUNATR",
-        "NQQE:FHAAL OEBBX YNAR",
-        "VASB:EG 46 NPEBFF SEBZ FGNGR CBYVPR ONEEVPXF");
+        "NQQE:FHAAL OEBBX YNAR & EG 46",
+        "CYNPR:NPEBFF SEBZ FGNGR CBYVPR ONEEVPXF");
 
     qbGrfg("G39",
         "﻿<UGZY><obql>SGASQ:2014:0190<oe />2014-12-28 12:44:47<oe />NYREGRQ<oe />FVPX CREFBA (FCRPVSVP QVNTABFVF)-26<oe />VAGREFRPGVBA BS EG.46 NAQ ZRYBQL YNAR</obql></UGZY>",
@@ -2024,7 +2024,7 @@ choyvp pynff JIZvarenyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:09:39:58",
         "PNYY:SVER SYHR",
         "NQQE:XABOYRL EQ",
-        "VASB:NPEBFF SEBZ RYYVSEVGM NQQGA");
+        "CYNPR:NPEBFF SEBZ RYYVSEVGM NQQGA");
 
     qbGrfg("G43",
         "﻿<UGZY><obql>SGASQ:2014:0187<oe />2014-12-25 01:56:53<oe />NYREGRQ<oe />GERR QBJA<oe />URNQFIVYYR EQ, ORGJRRA GUR FCRAPREF ERFVQRAPRF, ORGJRRA GBC BS FRNEF UVYY NAQ ORYBJ GUR BYQ RIREFBYR SNEZ</obql></UGZY>",
@@ -3836,7 +3836,7 @@ choyvp pynff JIZvarenyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:14:31:30",
         "PNYY:ZIN",
         "NQQE:JRFG CVRQZBAG FG",
-        "VASB:ARNE THYS FGNGVBA");
+        "CYNPR:ARNE THYS FGNGVBA");
 
     qbGrfg("G45",
         "﻿<UGZY><obql>SGASQ:2014:0186<oe />2014-12-23 20:19:37<oe />BA FPRAR<oe />ZIN<oe />EG 46, NOBIR ERNCCEBNPU</obql></UGZY>",
@@ -4092,7 +4092,7 @@ choyvp pynff JIZvarenyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:17:36:25",
         "PNYY:ZIN",
         "NQQE:EG 220",
-        "VASB:ARNE CVMMN UHG FBHGU OBHAQ YNAR");
+        "CYNPR:ARNE CVMMN UHG FBHGU OBHAQ YNAR");
 
     qbGrfg("G70",
         "﻿<UGZY><obql>APSQ:2014:0349<oe />2014-11-28 09:22:15<oe />NYREGRQ<oe />ZIN<oe />TENLFBA TNC EBNQ 1 ZV BHG, ARNE GUR RYYVSEVGM ERF</obql></UGZY>",
@@ -4282,7 +4282,7 @@ choyvp pynff JIZvarenyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:09:56:54",
         "PNYY:SVER IRUVPYR",
         "NQQE:N FGERRG",
-        "VASB:ARNE ZHECULF TNENTR");
+        "CYNPR:ARNE ZHECULF TNENTR");
 
     qbGrfg("G89",
         "﻿<UGZY><obql>XRZF:2014:1233<oe />2014-11-17 06:47:35<oe />BA FPRAR<oe />NFFVFG YVSGVAT<oe />136 WNZRF FG, XRLFRE, UNEZNA ERF</obql></UGZY>",

@@ -10,7 +10,7 @@ public class NMSanJuanCountyParser extends SmartAddressParser {
 
   public NMSanJuanCountyParser() {
     super("SAN JUAN COUNTY", "NM");
-    setFieldList("SRC ID DATE TIME CALL ADDR APT INFO");
+    setFieldList("SRC ID DATE TIME CALL ADDR APT PLACE INFO");
   }
 
   private static Pattern MASTER = Pattern.compile("(\\d{2}-\\d+) (\\d{8}) (\\d{1,2}(?::\\d{2}){1,2}) (.*? [A-Z]) (.*?)", Pattern.DOTALL);
@@ -53,7 +53,13 @@ public class NMSanJuanCountyParser extends SmartAddressParser {
   
   private static void parseResult(Result res, Data data) {
     res.getData(data);
-    data.strSupp = res.getLeft();
+    data.strPlace = data.strPlace.replace(": ", ":");
+    int pt = data.strPlace.indexOf(" / ");
+    if(pt >= 0) {
+      data.strSupp = data.strPlace.substring(pt+3).trim();
+      data.strPlace = data.strPlace.substring(0,pt).trim();
+    }
+    data.strSupp = append(data.strSupp, " / ", res.getLeft());
     Matcher yoMat = YO.matcher(data.strSupp);
     if (yoMat.matches()) {
       data.strSupp = append(data.strApt, " ", data.strSupp);

@@ -2196,7 +2196,7 @@ choyvp pynff PBWrssrefbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G66",
         "(Snvezbhag Sver) Nqq:Zp Vagler Ujl 58 Ro Ba Enzc & Glcr:Qvir - Fjvsg JnCt:T-13-Havgf:SSZ31,SSOP30,SSA31,SSR33,SSR32Pnfr#;07122015SS-000394",
         "NQQE:Zp Vagler Ujl 58 Ro Ba Enzc",
-        "ZNQQE:Zp Vagler Ujl 58 Ba Enzc",
+        "ZNQQE:Zp Vagler Ujl 58 Enzc",
         "PNYY:Qvir - Fjvsg Jn",
         "ZNC:T-13",
         "HAVG:SSZ31,SSOP30,SSA31,SSR33,SSR32",
