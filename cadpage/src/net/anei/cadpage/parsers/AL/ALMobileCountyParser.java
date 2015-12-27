@@ -21,8 +21,9 @@ public class ALMobileCountyParser extends SmartAddressParser {
   private static final Pattern OPT_PREFIX_PTN = Pattern.compile("^EVENT: [A-Za-z]\\d{9,10} +");
   private static final Pattern MASTER = Pattern.compile("Respond To: (.*?) Event#: ([A-Za-z]\\d{9,10})(.*?)(?: +(\\d\\d:\\d\\d:\\d\\d) +(\\d\\d/\\d\\d/\\d\\d) (?:Dispatch\\b|//|~|) *(.*))?");
   private static final Pattern PART_MARK_PTN = Pattern.compile(" +\\d\\d:");
-  private static final Pattern CITY_ADDR_PTN = Pattern.compile("([A-Z]{4}): @(.*)");
-  private static final Pattern PLACE_MARK_PTN = Pattern.compile(": *@?");
+  private static final Pattern CITY_ADDR_PTN1 = Pattern.compile("([A-Z]{4}): @(.*)");
+  private static final Pattern CITY_ADDR_PTN2 = Pattern.compile("(.*?) ([A-Z]{4})(?:,(\\S*))?:[, ]*(.*)");
+  private static final Pattern APT_PTN = Pattern.compile("(?:LOT|APT|#) *(\\S+)\\b *(.*)");
   private static final Pattern TRAIL_APT_PTN = Pattern.compile("(.*), *([^ ]+)");
 
   public ALMobileCountyParser() {
@@ -90,7 +91,7 @@ public class ALMobileCountyParser extends SmartAddressParser {
     }
     
     // Check for leading city
-    match = CITY_ADDR_PTN.matcher(addr);
+    match = CITY_ADDR_PTN1.matcher(addr);
     if (match.matches()) {
       data.strCity = convertCodes(match.group(1), CITY_CODES);
       addr = match.group(2).trim();
@@ -98,15 +99,27 @@ public class ALMobileCountyParser extends SmartAddressParser {
     
     String place = null;
     String apt = null;
-    match = PLACE_MARK_PTN.matcher(addr);
-    if (addr.startsWith("LL(")) {
-      int minPt = addr.indexOf(')');
-      if (minPt < 0) return false;
-      match.region(minPt+1, addr.length());
-    }
-    if (match.find()) {
-      place = addr.substring(match.end()).trim();
-      addr = addr.substring(0,match.start()).trim();
+    match = CITY_ADDR_PTN2.matcher(addr);
+    if (match.matches()) {
+      String city = CITY_CODES.getProperty(match.group(2));
+      if (city != null) {
+        addr = match.group(1).trim();
+        data.strCity = city;
+        apt = match.group(3);
+        place = match.group(4);
+        
+        int pt = place.indexOf('@');
+        if (pt >= 0) {
+          if (apt == null) apt = "";
+          apt = append(apt, "-", place.substring(0,pt).trim());
+          place = place.substring(pt+1).trim();
+        }
+        else if ((match = APT_PTN.matcher(place)).matches()) {
+          if (apt == null) apt = "";
+          apt = append(apt, "-", match.group(1));
+          place = match.group(2);
+        }
+      }
     }
     
     boolean endAddr = (place != null || data.strCall.length() > 0);
@@ -114,7 +127,8 @@ public class ALMobileCountyParser extends SmartAddressParser {
       if (!addr.endsWith(")")) {
         int pt = addr.lastIndexOf(',');
         if (pt >= 0) {
-          apt = addr.substring(pt+1).trim();
+          if (apt == null) apt = "";
+          apt = append(addr.substring(pt+1).trim(), " ", apt);
           addr = addr.substring(0,pt).trim();
         }
       }

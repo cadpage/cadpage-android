@@ -22,7 +22,7 @@ public class CAMontereyCountyParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "donotreply@co.monterey.ca.us";
+    return "donotreply@co.monterey.ca.us,donotreply@co.monterey";
   }
   
   @Override
