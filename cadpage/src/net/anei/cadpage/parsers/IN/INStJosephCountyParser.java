@@ -24,11 +24,17 @@ public class INStJosephCountyParser extends DispatchA6Parser {
   
   public INStJosephCountyParser() {
     super(CITY_CODES, "ST JOSEPH COUNTY", "IN");
+    setupSpecialStreets("NEW RD");
   }
   
   @Override
   public String getFilter() {
     return "@c-msg.net,@etieline.com,5742617686,5742922865,5742081200";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
   }
   
   @Override

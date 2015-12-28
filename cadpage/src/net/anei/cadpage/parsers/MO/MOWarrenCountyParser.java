@@ -140,6 +140,11 @@ public class MOWarrenCountyParser extends DispatchGlobalDispatchParser {
     return super.getField(name);
   }
   
+  @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_ALLOW_DUAL_DIRECTIONS;
+  }
+  
   private static final CodeSet CALL_LIST = new CodeSet(
       "911 HANG-UP",
       "ABDOMINAL PAIN/PROBLEMS",

@@ -48,7 +48,7 @@ public class COArapahoeCountyParser extends FieldProgramParser {
     
     String call = CALL_LIST.getCode(body, true);
     if (call != null) body = body.substring(0,body.length()-call.length()).trim();
-    parseAddress(StartType.START_ADDR, body, data);
+    parseAddress(StartType.START_ADDR, FLAG_ALLOW_DUAL_DIRECTIONS, body, data);
     if (call != null) {
       data.strCall = call;
       data.strPlace = getLeft();
@@ -158,6 +158,13 @@ public class COArapahoeCountyParser extends FieldProgramParser {
     return CALL_LIST;
   }
   
+  
+  
+  @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_ALLOW_DUAL_DIRECTIONS;
+  }
+
   private static final ReverseCodeSet CALL_LIST = new ReverseCodeSet(
       "Abdominal Pain/Problem",
       "Air Alert 2 Inflight Emergency",

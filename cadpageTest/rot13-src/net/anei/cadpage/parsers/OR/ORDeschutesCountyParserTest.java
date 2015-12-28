@@ -1866,7 +1866,8 @@ choyvp pynff BEQrfpuhgrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Oernguvat Cebo Abg nyreg",
         "CEV:Q",
         "HAVG:471,421",
-        "NQQE:712 AJ 19GU CY A",
+        "NQQE:712 AJ 19GU CY",
+        "CYNPR:A",
         "ZNC:151308",
         "GVZR:06:52:56");
 

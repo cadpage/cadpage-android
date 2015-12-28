@@ -5,37 +5,56 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 
 
 public class PAMonroeCountyParser extends SmartAddressParser {
   
-  private static final Pattern MARKER = Pattern.compile("CAD MSG: \\*[DG] ([A-Z0-9]+) +");
-  
   public PAMonroeCountyParser() {
-    super(CITY_CODES, "MONROE COUNTY", "PA");
-    setFieldList("CODE CALL PLACE ADDR APT CITY X INFO");
-    removeWords("ROAD", "FS");
+    super("MONROE COUNTY", "PA");
+    setFieldList("SRC ID CODE CALL PLACE ADDR APT CITY X INFO");
+    removeWords("ROAD", "FS", "SQ");
+    setupSpecialStreets("SUNSET STRIP");
   }
   
   @Override
   public String getFilter() {
-    return "emergin@monroeco911.com,12101";
+    return "emergin@monroeco911.com,12101,alert@monroe.alertpa.org,messaging@iamresponding.com";
   }
   
+  private static final Pattern SUBJECT_PTN = Pattern.compile("#\\S+  +(.*?) *CAD|([A-Z]{3,4}|Station +\\d+)");
+  private static final Pattern NEWLINE_PTN = Pattern.compile(" *\n+ *");
+  private static final Pattern MARKER = Pattern.compile("(?:CAD MSG[:\n]|(\\d{8})) \\*[DG] ([A-Z0-9]+) +");
   private static final Pattern FS_PTN = Pattern.compile("(FS \\d+) *@? *");
+  private static final Pattern GPS_PTN = Pattern.compile("(\\(\\d{3}\\.\\d{5},\\d{3}\\.\\d{5}\\)) *(.*)");
+  private static final Pattern CITY_CODE_PTN = Pattern.compile("(?<!\\b(?:ROUTE|RT|PA)) (\\d{3})(?=(?: |$))");
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // See if we can find a source code in the subject
+    Matcher match = SUBJECT_PTN.matcher(subject);
+    if (match.matches()) {
+      int ndx = 1;
+      do {
+        data.strSource = match.group(ndx++);
+      } while (data.strSource == null);
+    }
 
     // Strip off any prefix
-    Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    data.strCall = match.group(1);
+    match = MARKER.matcher(body);
+    if (!match.lookingAt()) return false;
+    data.strCallId = getOptGroup(match.group(1));
+    data.strCode = match.group(2);
+    data.strCall = convertCodes(data.strCode, CALL_CODES);
     body = body.substring(match.end());
     int pt = body.indexOf("\nSent by");
     if (pt >= 0) body = body.substring(0,pt).trim();
+    pt = body.indexOf(" CAD MSG:");
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    body = NEWLINE_PTN.matcher(body).replaceAll(" ");
     body = body.replaceAll("//+", "/");
     
     // See if there is a leading FS station number
@@ -45,62 +64,44 @@ public class PAMonroeCountyParser extends SmartAddressParser {
       body = body.substring(match.end());
     }
     
+    // GPS coordinate address have a special format (and no corresponding city)
+    match = GPS_PTN.matcher(body);
+    if (match.matches()) {
+      data.strAddress = match.group(1);
+      data.strSupp = match.group(2);
+      return true;
+    }
+    
     // The standard address parser has trouble with city codes that look like route numbers :(
-    // So we try to parse the address and city separately
-    Result res = parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT | FLAG_NO_CITY, body);
+    // See if we can find the city code on it's own
+    match = CITY_CODE_PTN.matcher(body);
+    while (match.find()) {
+      String city = CITY_CODES.getProperty(match.group(1));
+      if (city != null) {
+        String addr = body.substring(0,match.start()).trim();
+        parseAddress(StartType.START_ADDR, FLAG_AT_SIGN_ONLY | FLAG_AT_BOTH | FLAG_NO_IMPLIED_APT | FLAG_ANCHOR_END, addr, data);
+        data.strCity = city;
+        data.strSupp = body.substring(match.end()).trim();
+        break;
+      }
+    }
+    
+    // No city, treat message as a general alert
+    if (data.strCity.length() == 0) {
+      data.msgType = MsgType.GEN_ALERT;
+      data.strSupp = body;
+      return true;
+    }
+    
+    // Extract possible cross street from beginning of info field
+    Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, data.strSupp);
     if (res.isValid()) {
       res.getData(data);
-      body = res.getLeft();
-      
-      if (body.startsWith("@") || body.startsWith("/")) {
-        body = body.substring(1).trim();
-        parseAddress(StartType.START_PLACE, FLAG_ONLY_CITY, body, data);
-      } else {
-        parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, body, data);
-      }
-      body = getLeft();
+      data.strSupp = res.getLeft();
     }
     
-    // Otherwise we just have to see what the address parser can do
-    else {
-      parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT | FLAG_AT_BOTH | FLAG_CROSS_FOLLOWS, body, data);
-      body = getLeft();
-    }
-    
-    String call = convertCodes(data.strCall, CALL_CODES);
-    if (call != null) {
-      data.strCode = data.strCall;
-      data.strCall = call;
-    }
-    
-    body = body.replace('\n', ' ').replaceAll("  +", " ");
-    res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body);
-    if (res.isValid()) {
-      res.getData(data);
-      if (isCity(data.strCross)) data.strCross = "";
-      body = res.getLeft();
-    }
-    data.strSupp = stripFieldStart(body, "/");
-    
-    // Dispatch has the unfortunate habbit of coding place names as the first part of what looks like
-    // an intersection.  We will try to undo the damage that results
-    
-    String sAddr = data.strAddress;
-    pt = sAddr.indexOf('&');
-    if (pt >= 0) {
-      String part1 = sAddr.substring(0,pt).trim();
-      String part2 = sAddr.substring(pt+1).trim();
-      if (!isValidAddress(part1) && isValidAddress(part2)) {
-        data.strPlace = part1;
-        data.strAddress = part2;
-      }
-    } else if (data.strCross.length() > 0) {
-      if (!isValidAddress(sAddr)) {
-        data.strPlace = sAddr;
-        data.strAddress = data.strCross;
-        data.strCross = "";
-      }
-    }
+    data.strSupp = stripFieldStart(data.strSupp, "@");
+    data.strSupp = stripFieldStart(data.strSupp, "/");
     return true;
   }
   

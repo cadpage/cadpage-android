@@ -399,8 +399,8 @@ choyvp pynff SYPvgehfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:25I",
         "PNYY:IRUVPYR SVER",
         "ZNC:21N",
-        "NQQE:7160 J TNGBE YA A",
-        "K:QNFURE CG / A BNXYNAQ GRE",
+        "NQQE:7160 J TNGBE YA",
+        "K:A QNFURE CG / A BNXYNAQ GRE",
         "PVGL:Pelfgny Evire");
 
     qbGrfg("G20",

@@ -914,10 +914,9 @@ choyvp pynff PNFhvfhaPvglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G33",
         "FG33/Y*\a*\a*\aHAIREVSVRQ*\a*\a*\a*\a*\aGRFG*\a*\a*\a*\aFHV*\a*\a*\aUnmneqf: Ab*\a*",
-        "NQQE:FG33",
-        "ZNQQE:PN 33",
+        "NQQE:FG33 & Y",
+        "ZNQQE:PN 33 & Y",
         "PVGL:HAIREVSVRQ",
-        "CYNPR:Y",
         "VASB:Unmneqf: Ab",
         "PNYY:GRFG",
         "HAVG:FHV");

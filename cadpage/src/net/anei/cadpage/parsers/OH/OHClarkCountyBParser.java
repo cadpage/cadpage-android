@@ -14,7 +14,7 @@ public class OHClarkCountyBParser extends SmartAddressParser {
   
   public OHClarkCountyBParser() {
     super("CLARK COUNTY", "OH");
-    setFieldList("PLACE ADDR APT CALL ID");
+    setFieldList("PLACE ADDR APT X CALL ID");
   }
   
   @Override

@@ -1008,11 +1008,11 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // A start type of START_ADDR is incompatible with the FLAG_AT_BOTH flag.  If both are
     // set, switch flag to FLAG_AT_PLACE
-    if (sType == StartType.START_ADDR && isFlagSet(FLAG_AT_BOTH)) {
-      flags &= ~FLAG_AT_BOTH;
-      flags |= FLAG_AT_PLACE;
-      this.flags = flags;
-    }
+//    if (sType == StartType.START_ADDR && isFlagSet(FLAG_AT_BOTH)) {
+//      flags &= ~FLAG_AT_BOTH;
+//      flags |= FLAG_AT_PLACE;
+//      this.flags = flags;
+//    }
     
     // If we are not ignoring at signs, see if we have one
     String prefix = null;
@@ -1753,6 +1753,10 @@ public abstract class SmartAddressParser extends MsgParser {
       sAddr = ndx = startAddress;
       ndx = findRoadEnd(ndx, 0, true, followingRoad);
       if (ndx < 0) return false;
+      
+      // A number followed by a connector is considered to be a street
+      // name in most contexts.  But not here
+      if (ndx - sAddr == 1 && isType(sAddr, ID_NUMBER)) return false;
     }
     
     // Otherwise, scan forward looking for a <road-sfx>
@@ -1822,7 +1826,8 @@ public abstract class SmartAddressParser extends MsgParser {
             break;
           }
           
-          if (isRoadSuffix(ndx) && !isType(sAddr, ID_NOT_ADDRESS|ID_NOT_STREET_NAME) && findConnector(sAddr)<0) {
+          if (isRoadSuffix(ndx) && !isType(sAddr, ID_NOT_ADDRESS|ID_NOT_STREET_NAME) && 
+              findConnector(sAddr)<0 && !isType(sAddr, ID_MILE_MARKER)) {
             boolean startHwy = checkNumberedHwy(ndx) || 
                                ndx > start && findNumberedHwy(ndx-1) >= 0 ||
                                (isType(ndx, ID_AMBIG_ROAD_SFX) && (isRoadSuffix(ndx+1)));
@@ -1915,6 +1920,20 @@ public abstract class SmartAddressParser extends MsgParser {
         
         if (!padField && parseAddressToCity(sAddr, ndx, result)) {
           if (ndx < result.addressField.fldEnd) {
+            
+            // We are treating the second part as a street name, and might or might
+            // not have previously recognized it as such.  If we did not, we might have
+            // attached an ambiguous direction to the first street when we really want
+            // to attach it to the second street
+            if (isType(mark-1, ID_DIRECTION) && !isType(mark, ID_DIRECTION)) {
+              if (isFlagSet(FLAG_ALLOW_DUAL_DIRECTIONS) || !isType(result.addressField.fldEnd-1, ID_DIRECTION)) {
+                if (!isFlagSet(isType(mark-1, ID_PURE_DIRECTION) ? FLAG_PREF_TRAILING_SIMPLE_DIR : FLAG_PREF_TRAILING_BOUND)) {
+                  mark--;
+                }
+              }
+            }
+            
+            // Set the ampersand insert point
             result.insertAmp = mark;
           }
           return true;
@@ -2726,6 +2745,9 @@ public abstract class SmartAddressParser extends MsgParser {
         // If we have to pass more than two tokens before finding, give up
         boolean number = false;
         while (++end - start <= 3) {
+          
+          // A mile marker in the middle of the street name is verbotten
+          if (isType(end, ID_MILE_MARKER)) return -1;
           
           // An intersection marker marks the end of things
           if (findConnector(end)>=0) break;
@@ -3846,7 +3868,7 @@ public abstract class SmartAddressParser extends MsgParser {
   protected boolean isNotExtraApt(String apt) {
     return NOT_APT_PTN.matcher(apt).matches();
   }
-  private static final Pattern NOT_APT_PTN = Pattern.compile("(?:[&/]|(?:JUST )?(?:MM|EX|NORTH|SOUTH|EAST|WEST|PRIOR|BLK|MILE|BEFORE|AFTER|RUNAWAY|OFF|FROM|NEAR|OFF)\\b).*|EXT|[NSEW]|[NS][EW]", Pattern.CASE_INSENSITIVE);
+  private static final Pattern NOT_APT_PTN = Pattern.compile("(?:[&/]|(?:JUST )?(?:MM|EX|NORTH|SOUTH|EAST|WEST|PRIOR|BLK|MILE|BEFORE|AFTER|RUNAWAY|OFF|FROM|NEAR|OFF)\\b).*|.* MM|EXT|[NSEW]|[NS][EW]", Pattern.CASE_INSENSITIVE);
   
   /**
    * This is used by GenMultiWordStreetList.  When passed a previously passed

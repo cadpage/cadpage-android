@@ -28,7 +28,7 @@ public class OKMuskogeeCountyParser extends SmartAddressParser {
     data.strMap = getOptGroup(mat.group(2));
     
     // ADDR APT CITY CALL
-    parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_PAD_FIELD, mat.group(3).trim(), data);
+    parseAddress(StartType.START_ADDR, FLAG_ALLOW_DUAL_DIRECTIONS | FLAG_IMPLIED_INTERSECT | FLAG_PAD_FIELD, mat.group(3).trim(), data);
     data.strCall = getLeft();
     
     // abort if no CITY or CALL

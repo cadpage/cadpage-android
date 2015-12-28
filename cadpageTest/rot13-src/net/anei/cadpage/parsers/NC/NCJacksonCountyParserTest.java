@@ -644,8 +644,8 @@ choyvp pynff APWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G36",
         "1 ZNVA FG NAQ PBCR PERRX FLYIN;2014021199;13:41:56;10-50 NPPVQRAG;HAXABJA BA VAWHEVRF",
-        "NQQE:ZNVA FG",
-        "NCG:NAQ PBCR PERRX",
+        "NQQE:ZNVA FG NAQ PBCR PERRX",
+        "ZNQQE:ZNVA FG & PBCR PERRX",
         "PVGL:FLYIN",
         "VQ:2014021199",
         "GVZR:13:41:56",

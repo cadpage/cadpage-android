@@ -17,6 +17,7 @@ public class NCJonesCountyParser extends DispatchA3Parser {
           "MASH! Line16:INFO! Line17:INFO! Line18:INFO!");
     addExtendedDirections();
     setBreakChar('=');
+    setupSpecialStreets("LOWER ST");
   }
 
   @Override

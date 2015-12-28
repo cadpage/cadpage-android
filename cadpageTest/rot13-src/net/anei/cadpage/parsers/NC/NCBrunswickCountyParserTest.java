@@ -15442,8 +15442,8 @@ choyvp pynff APOehafjvpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G40",
         "5490 NEOBE OENAPU QE FJ RKG 304 FUNYYBGGR;ZQY 26N03;15-095006;10:02:04;Fvpx Crefba (Fcrpvsvp Qvntabfvf);trb:33.91564, -78.418046;PNYYRE VF FBAWN BPN: 15-095006",
-        "NQQE:5490 NEOBE OENAPU QE FJ",
-        "NCG:RKG 304",
+        "NQQE:5490 NEOBE OENAPU QE FJ RKG",
+        "NCG:304",
         "PVGL:FUNYYBGGR",
         "PBQR:26N03",
         "VQ:15-095006",
@@ -15533,8 +15533,8 @@ choyvp pynff APOehafjvpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G49",
         "5490 NEOBE OENAPU QE FJ RKG 304 FUNYYBGGR;ZQY 06P01;15-092768;16:39:06;Oernguvat Ceboyrzf;trb:33.91564, -78.418046;ERFQ QVMML ANHFRNGRQ FUBEGARFF BS OERNGU BPN: 15-092768",
-        "NQQE:5490 NEOBE OENAPU QE FJ",
-        "NCG:RKG 304",
+        "NQQE:5490 NEOBE OENAPU QE FJ RKG",
+        "NCG:304",
         "PVGL:FUNYYBGGR",
         "PBQR:06P01",
         "VQ:15-092768",

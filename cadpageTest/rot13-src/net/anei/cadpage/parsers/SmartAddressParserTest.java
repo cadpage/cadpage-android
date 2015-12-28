@@ -50,6 +50,10 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
+    qbGrfg(PNYY, SYNT_VZCYVRQ_VAGREFRPG, "Iruvpyr Sver 41 FG FR 148 NIR FR XRAFOHET",
+        "PNYY:Iruvpyr Sver",
+        "NQQE:41 FG FR & 148 NIR FR",
+        "PVGL:XRAFOHET");
   }
 
   @Grfg
@@ -73,9 +77,6 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PURFG CNVA (ABA GENHZNGVP)",
         "NQQE:935 UJL 28",
         "K:PBZZBAF QE");
-    
-    qbGrfg(NQQE, "ARJ FG ORLBAQ NFU",
-        "NQQE:ARJ FG");
     
     qbGrfg(CYNPR, "FRIVRE PBHAGL 911 BSSVPR / PRAGENY QVFC 245 OEHPR FG XRAFOHET",
         "CYNPR:FRIVRE PBHAGL 911 BSSVPR / PRAGENY QVFC",
@@ -189,7 +190,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     
     qbGrfg(PNYY, "10-50 Ebyybire 4062 A PE 225 J",
         "PNYY:10-50 Ebyybire", 
-        "NQQE:4062 A PE 225 J");
+        "NQQE:4062 A PE 225");
     
     qbGrfg(NQQE, SYNT_BAYL_PEBFF | SYNT_PEBFF_SBYYBJF, "XHLXRAQNUY EQ F EBYYVAT B",
         "K:XHLXRAQNUY EQ F");
@@ -482,7 +483,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(BGURE, "QEVIVAT BA 3224 KK 456",
         "NQQE:3224 KK 456");
     qbGrfg(BGURE, "OHG HFVAT 123 A GUVEQ QE A WHFG VFAG EVTUG",
-        "NQQE:123 A GUVEQ QE A");
+        "NQQE:123 A GUVEQ QE");
     qbGrfg(NQQE, "2000 PBHAGEL CYNPR PG RKGEN", 
         "NQQE:2000 PBHAGEL CYNPR PG");
     qbGrfg(BGURE, "WHAX FGHSS 2000 PBHAGEL CYNPR PG RKGEN", 
@@ -598,7 +599,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(BGURE, "UBJ NOBHG HF-150 A QHQR",
         "NQQE:HF-150 A");
     qbGrfg(BGURE, "ONQ OBL A OVTUVYY EQ F OBO",
-        "NQQE:A OVTUVYY EQ F");
+        "NQQE:A OVTUVYY EQ");
     qbGrfg(BGURE, "YBTFGBA PBHAGEL CYNPR PG QBJAGBJA",
         "NQQE:PBHAGEL CYNPR PG");
   }
@@ -1085,7 +1086,8 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:ARNE OEVTUG UVYY",
         "PVGL:XRAFOHET");
     qbGrfg(NQQE, "PB UJL 48 ARNE FHAFUVAR PVGL",
-        "NQQE:PB UJL 48");
+        "NQQE:PB UJL 48",
+        "CYNPR:ARNE FHAFUVAR PVGL");
     qbGrfg(NQQE, SYNT_ARNE_GB_RAQ, "PB UJL 48 ARNE FHAFUVAR PVGL",
         "NQQE:PB UJL 48",
         "CYNPR:ARNE FHAFUVAR PVGL");
