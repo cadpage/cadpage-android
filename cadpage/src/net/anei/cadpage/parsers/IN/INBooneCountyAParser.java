@@ -6,9 +6,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchCiscoParser;
 /**
  * Boone County, IN
  */
-public class INBooneCountyParser extends DispatchCiscoParser {
+public class INBooneCountyAParser extends DispatchCiscoParser {
 
-  public INBooneCountyParser() {
+  public INBooneCountyAParser() {
     super("BOONE COUNTY", "IN");
   }
 

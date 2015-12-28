@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 
 
-public class NJMorrisCountyParser extends SmartAddressParser {
+public class NJMorrisCountyAParser extends SmartAddressParser {
   
   private static final Pattern MASTER_PTN = 
     Pattern.compile("(.*?) \\[([-A-Za-z ]+)(?:\\.*\\d+)?\\] \\(([-A-Z0-9\\\\/\\. ]+)\\) - (.*)", Pattern.DOTALL);
@@ -21,7 +21,7 @@ public class NJMorrisCountyParser extends SmartAddressParser {
   private static final Pattern PLACE_APT_PTN = Pattern.compile("(.*?)-?\\b(?:APT|LOT|RM|ROOM|SUITE)\\b(?!'S|$) *(.+)");
   private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(?:([A-Z]\\d{6,}) +)?(\\d\\d:\\d\\d)$");
   
-  public NJMorrisCountyParser() {
+  public NJMorrisCountyAParser() {
     super(OOC_CITY_LIST, "MORRIS COUNTY", "NJ");
     setFieldList("PLACE APT ADDR CITY CALL UNIT INFO CODE ID TIME");
   }

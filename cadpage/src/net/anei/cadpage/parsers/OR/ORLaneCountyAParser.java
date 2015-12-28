@@ -7,9 +7,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
-public class ORLaneCountyParser extends DispatchOSSIParser {
+public class ORLaneCountyAParser extends DispatchOSSIParser {
   
-  public ORLaneCountyParser() {
+  public ORLaneCountyAParser() {
     super(CITY_CODES, "LANE COUNTY", "OR",
           "( STATUS ADDR CITY! | UNIT CH? CALL CH? ADDR ( DATETIME! |  CITY? PLACE+? MAP! CH? CODE? DATETIME! ) )");
   }
