@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12222015</string>
-  <string name="release_version">v1.8.86</string>
+  <string name="release_date">12282015</string>
+  <string name="release_version">v1.8.87</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.8.87\n
+New Locations:\n
+Thornton, CO\n
+Baltimore, MD\n
+Cottonwood County, MN\n
+Adair County, MN\n
+Boone County, IN (alt)\n
+Brown County, IN\n
+Bowling Green, KY\n
+Hardin County, KY (alt)\n
+Morris County, NJ (alt)\n
+Meigs County, OH\n
+Montgomery County, OH (alt)\n
+Preble County, OH\n
+Lane County, OR (alt)\n
+Powhatan County, VA\n
+Walworth County, WI\n
+\n
+Location Fixes:\n
+Mobile County, AL\n
+Monterey County, CA\n
+Larimer Couty, CO\n
+Albany County, NY\n
+Berks County, PA\n
+Wyoming County, PA\n
+\n
 v1.8.86\n
 Location Fixes:\n
 Loudoun County, VA\n
@@ -51,17 +77,7 @@ Greene County, PA\n
 Lawrence County, PA\n
 Lancaster County, SC\n
 El Campo, TX\n
-Kendall County, TX\n
-\n
-v1.8.82\n
-New Locations:\n
-Larimer County, CO (alt)\n
-Marion County, FL\n
-\n
-Location Fixes:\n
-Sonoma County, CA\n
-Garrett County, MD\n
-Suffolk County, NY
+Kendall County, TX
   </string>
 </resources>
   
