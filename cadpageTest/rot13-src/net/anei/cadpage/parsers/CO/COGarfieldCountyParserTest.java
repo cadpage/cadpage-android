@@ -1450,8 +1450,8 @@ choyvp pynff PBTnesvryqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G42",
         "{RireOevqtr PNQ Cntr} 701 R  5GU FG R QRAR ZBBER AHEFVAT UBZR EVS ROernguvat Qvssvphygl 2015-00001860",
-        "NQQE:701 R 5GU FG R",
-        "CYNPR:QRAR ZBBER AHEFVAT UBZR",
+        "NQQE:701 R 5GU FG",
+        "CYNPR:R QRAR ZBBER AHEFVAT UBZR",
         "PVGL:EVSYR",
         "PNYY:ROernguvat Qvssvphygl",
         "VQ:2015-00001860");
@@ -1896,9 +1896,8 @@ choyvp pynff PBTnesvryqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G8",
         "{RireOevqtr PNQ Cntr} PB EQ 300 / HAN OEVQTR M3 Nppvqrag 2015-00000723",
-        "NQQE:PB EQ 300",
-        "ZNQQE:PBHAGL EBNQ 300",
-        "CYNPR:/ HAN OEVQTR",
+        "NQQE:PB EQ 300 & HAN OEVQTR",
+        "ZNQQE:PBHAGL EBNQ 300 & HAN OEVQTR",
         "ZNC:M3",
         "PNYY:Nppvqrag",
         "VQ:2015-00000723");

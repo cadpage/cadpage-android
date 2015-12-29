@@ -587,7 +587,7 @@ public class MsgInfo {
   private static final Pattern TP_PTN = Pattern.compile("\\b(?:TP|TRPK)\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern PA_PTN = Pattern.compile("\\bPA\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern PLAZ_PTN = Pattern.compile("\\bPLAZ\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern NEAR_PTN = Pattern.compile("\\b(?:NEAR|OFF)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern NEAR_PTN = Pattern.compile("\\b(?:NEAR|OFF(?: OF)?)\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern TE_PTN = Pattern.compile("\\bTE\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern WK_PTN = Pattern.compile("\\bWK\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern RCH_PTN = Pattern.compile("\\bRCH\\b", Pattern.CASE_INSENSITIVE);
@@ -710,7 +710,7 @@ public class MsgInfo {
   
   // Clean up and NB, SB, EB, or WB words
 
-  private static final Pattern DIRBOUND_PAT = Pattern.compile("[\\s]*(?:(?<![A-Z])(?:NB|SB|EB|WB)|NORTHBOUND|EASTBOUND|SOUTHBOUND|WESTBOUND)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DIRBOUND_PAT = Pattern.compile("[\\s]*(?:(?<![A-Z])(?:NB|SB|EB|WB)|NORTHBOUND|EASTBOUND|SOUTHBOUND|WESTBOUND)(?: ON)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern END_JUNK_PAT = Pattern.compile("[-,\\s]+(?=$| &)");
   private String cleanBounds(String sAddr) {
     sAddr = DIRBOUND_PAT.matcher(sAddr).replaceAll("").trim();
@@ -722,7 +722,7 @@ public class MsgInfo {
   // This method breaks those up into two separate tokens, also dropping any
   // direction qualifiers
   private static final Pattern ROUTE_PTN =
-    Pattern.compile("\\b(?:(RT|RTE|HW|HWY|HIGH|US|STH?Y?|SHY?|FM|I|CO|CR|CORD|SRT?|I)|([A-Z]{2}|M))-?(\\d{1,4}[A-Z]?)(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
+    Pattern.compile("\\b(?:(RT|RTE|HW|HWY|HIGH|US|STH?Y?|SHY?|FM|I|CO|CR|CORD|SRT?|TWP)|([A-Z]{2}|M))-?(\\d{1,4}[A-Z]?)(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern SRT_PTN = Pattern.compile("\\bS(?:RT?| ?H|TH)\\b", Pattern.CASE_INSENSITIVE);
   
   private String cleanRoutes(String sAddress) {
@@ -774,8 +774,8 @@ public class MsgInfo {
   // If we find a construct like that, remove the middle section
   // When we are done with that, check for addresses ending with 666 HWY and reverse the terms
   private static final Pattern[] DBL_ROUTE_PTNS = new Pattern[]{ 
-    Pattern.compile("\\b([A-Z]{2}|STE|STATE|COUNTY) *(ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGH|HIGHWAY) +(\\d+[ABMNSEW]?|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE),
-    Pattern.compile("\\b([A-Z]{2}|STATE|COUNTY|ROUTE|FARM-TO-MARKET) +(\\d+[A-Z]?|[A-Z]{1,2})\\b *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGH)\\b", Pattern.CASE_INSENSITIVE)
+    Pattern.compile("\\b([A-Z]{2}|STE|STATE|COUNTY|TWP) *(ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGH|HIGHWAY) +(\\d+[ABMNSEW]?|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE),
+    Pattern.compile("\\b([A-Z]{2}|STATE|COUNTY|ROUTE|FARM-TO-MARKET|TWP) +(\\d+[A-Z]?|[A-Z]{1,2})\\b *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGH)\\b", Pattern.CASE_INSENSITIVE)
   };
   private static final Pattern I_FWY_PTN = Pattern.compile("\\b(I[- ]\\d+) +[FH]WY\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern AND_PTN = Pattern.compile(" and ", Pattern.CASE_INSENSITIVE);

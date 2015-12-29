@@ -3185,7 +3185,7 @@ choyvp pynff VNCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PNQ) Ybpngvba: UJL 141 FO BA EZC WRSS Glcr: ERFPHR CVN Pnyyre: IREVMBA Gvzr: 15:09:11",
         "FEP:PNQ",
         "NQQE:UJL 141 FO BA EZC",
-        "ZNQQE:UJL 141 BA EZC",
+        "ZNQQE:UJL 141 EZC",
         "PVGL:WRSSREFBA GJC",
         "PNYY:ERFPHR CVN",
         "GVZR:15:09:11");

@@ -22415,8 +22415,7 @@ choyvp pynff APHavbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GENHZNGVP VAWHEVRF RZQ",
         "FEP:F20",
         "PU:RPUB",
-        "K:FCEVAT SNAPL YA",
-        "CYNPR:JNGREF ERNPU YA",
+        "K:JNGREF ERNPU YA & FCEVAT SNAPL YA",
         "QNGR:07/02/2015",
         "GVZR:17:51:52");
 

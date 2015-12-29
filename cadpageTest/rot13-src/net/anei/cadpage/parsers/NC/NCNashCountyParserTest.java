@@ -8155,9 +8155,8 @@ choyvp pynff APAnfuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G51",
         "(Grkg Zrffntr) ANFU911:  HF64 JO BA ENZC // JVAFGRNQ NIR      EBPXL ZBHAG            ZBGBE IRUVPYR NPP JVGU VAWHEVRF-HAX/CVA VA-UBG      RZF6,FG3",
-        "NQQE:HF64 JO",
-        "ZNQQE:HF 64",
-        "NCG:BA ENZC & JVAFGRNQ NIR",
+        "NQQE:HF64 JO BA ENZC & JVAFGRNQ NIR",
+        "ZNQQE:HF 64 ENZC & JVAFGRNQ NIR",
         "PVGL:EBPXL ZBHAG",
         "PNYY:ZBGBE IRUVPYR NPP JVGU VAWHEVRF-HAX/CVA VA-UBG",
         "HAVG:RZF6,FG3");

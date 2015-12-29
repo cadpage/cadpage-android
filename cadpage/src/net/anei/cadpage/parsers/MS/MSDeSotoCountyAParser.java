@@ -11,6 +11,7 @@ public class MSDeSotoCountyAParser extends DispatchB3Parser {
 
   public MSDeSotoCountyAParser() {
     super("911CENTER:", CITY_LIST, "DESOTO COUNTY", "MS", B2_FORCE_CALL_CODE);
+    setupSaintNames("ANDREWS");
   }
   
   @Override

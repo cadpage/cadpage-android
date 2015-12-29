@@ -314,8 +314,7 @@ choyvp pynff NEChynfxvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G20",
         "A FZBGUREF / R OEBNQJNL FG AYE, 2015049026, 01:45:25, E41 Iruvpyr Nppvqrag, 1 IRUVPYR NPPVQRAG HAXABJA VAWHEL...PNYYRE CNFFREOL",
-        "CYNPR:A FZBGUREF /",
-        "NQQE:R OEBNQJNL FG",
+        "NQQE:A FZBGUREF & R OEBNQJNL FG",
         "PVGL:ABEGU YVGGYR EBPX",
         "VQ:2015049026",
         "GVZR:01:45:25",
@@ -324,8 +323,8 @@ choyvp pynff NEChynfxvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G21",
         "10 A 67/167 AYE, 2015049013, 01:03:02, E41 Iruvpyr Nppvqrag, ORSBER ZPPNVA RKVG",
-        "NQQE:10 A 67 & 167",
-        "ZNQQE:10 A 67", //HF 67 & HF 167 rkvfgf, ohg guvf 10 guvat v pnag svaq.
+        "NQQE:10 A 67",
+        "K:167",
         "PVGL:ABEGU YVGGYR EBPX",
         "VQ:2015049013",
         "GVZR:01:03:02",
@@ -375,8 +374,7 @@ choyvp pynff NEChynfxvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G26",
         "WBUA S XRAARQL OYIQ / ZPPNVA OYIQ AYE, 2015048958, 21:30:14, E41 Iruvpyr Nppvqrag, PNYYRE FNJ N IRU UVG N OYQT NPEBFF SEBZ UBOOL YBOOL HAX IRU GLCR BE VAW",
-        "CYNPR:WBUA S",
-        "NQQE:XRAARQL OYIQ & ZPPNVA OYIQ",
+        "NQQE:WBUA S XRAARQL OYIQ & ZPPNVA OYIQ",
         "PVGL:ABEGU YVGGYR EBPX",
         "VQ:2015048958",
         "GVZR:21:30:14",

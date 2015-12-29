@@ -89,6 +89,7 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
   }
 
   private static final Pattern NUMBER_HWY_PTN = Pattern.compile("\\b(\\d+)(US|FT|TX|FM)\\b");
+  private static final Pattern HWY_ST_PTN = Pattern.compile("\\b(HWY \\d+) (ST|RD)\\b");
   private static final Pattern AVE_X_ST_PTN = Pattern.compile("\\bAVE [A-Z](?: HALF)?(?: REAR)?(?= ST\\b)");
   private static final Pattern AVE_X_ST_PTN2 = Pattern.compile("\\b(AVE_[A-Z](?:_HALF)?(?:_REAR)?) ST\\b");
   private static final Pattern NUMBER_DASH_PTN = Pattern.compile("^(\\d+)-(?![A-Z] |BLK )");
@@ -109,6 +110,8 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
       if (match.find()) {
         field = field.substring(0,match.start()) + match.group().replace(' ', '_') + field.substring(match.end());
       }
+      
+      field = HWY_ST_PTN.matcher(field).replaceAll("$1");
       
       super.parse(field, data);
       

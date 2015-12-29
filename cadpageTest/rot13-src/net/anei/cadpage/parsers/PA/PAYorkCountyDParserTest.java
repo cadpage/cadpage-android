@@ -235,8 +235,8 @@ choyvp pynff CNLbexPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:OERNGUVAT CEBOYRZ",
         "NQQE:2396 WBADHVY EQ",
         "PVGL:LBEX GJC",
-        "K:QRNQ RAQ / F YNEXFCHE YA F",
-        "VASB:97 S/PBAP/LU",
+        "K:QRNQ RAQ / F YNEXFCHE YA",
+        "VASB:F  97 S/PBAP/LU",
         "HAVG:RZFFGN19 ZVPH19-2 21-27");
 
   }

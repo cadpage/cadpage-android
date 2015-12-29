@@ -2293,7 +2293,8 @@ public class FieldProgramParser extends SmartAddressParser {
           parseFlags &= ~FLAG_ANCHOR_END;
           if (chr == 'x') parseFlags |= FLAG_CROSS_FOLLOWS;
           tailField = new String[]{"CALL","PLACE","SKIP","APT","UNIT","NAME","INFO","X"}[pt2];
-          tailData = getAddressField(tailField);
+          tailData = getField(tailField);
+          if (tailField.equals("APT")) tailData.setQual("S");
           if (chr == 'I') parseFlags |= FLAG_IGNORE_AT;
         }
         
@@ -2304,7 +2305,8 @@ public class FieldProgramParser extends SmartAddressParser {
           parseFlags |= (chr == 'P' || chr == 'x' ? FLAG_PAD_FIELD : FLAG_PAD_FIELD_EXCL_CITY);
           if (chr == 'x') parseFlags |= FLAG_CROSS_FOLLOWS;
           padField = new String[]{"PLACE","SKIP", "APT", "X"}[pt2];
-          padData = getAddressField(padField);
+          padData = getField(padField);
+          if (padField.equals("APT")) padData.setQual("S");
         }
       } while (false);
         
@@ -2312,11 +2314,6 @@ public class FieldProgramParser extends SmartAddressParser {
         if (tailField == null) tailField = "PLACE";
         else tailField = "PLACE " + tailField;
       }
-    }
-    
-    private Field getAddressField(String name) {
-      if (name.equals("APT")) return new SpecialAptField();
-      return getField(name);
     }
     
     void setNoCity(boolean noCity) {
@@ -2347,10 +2344,16 @@ public class FieldProgramParser extends SmartAddressParser {
         if (!res.isValid()) return false;
         
         // Looks good, lets parse out the data
+        boolean parseCity = data.strCity.length() == 0;
         res.getData(data);
+        parseCity = parseCity && data.strCity.length() > 0;
         fixEmptyAddress(data);
-        if (padData != null) padData.parse(res.getPadField(), data);
-        if (tailData != null) tailData.parse(res.getLeft(), data);
+        if (padData != null) padData.parse(parseTrailingField(res.getPadField(), padData instanceof AptField, data), data);
+        if (tailData != null) {
+          String left = res.getLeft();
+          if (!parseCity) left = parseTrailingField(left, tailData instanceof AptField, data);
+          tailData.parse(left, data);
+        }
       }
       return true;
     }
@@ -2367,10 +2370,16 @@ public class FieldProgramParser extends SmartAddressParser {
       } else {
         int flags = parseFlags;
         if (data.strCity.length() > 0 || noCity) flags |= FLAG_NO_CITY;
+        boolean parseCity = data.strCity.length() == 0;
         parseAddress(startType, flags, field, data);
+        parseCity = parseCity && data.strCity.length() > 0;
         fixEmptyAddress(data);
-        if (padData != null) padData.parse(getPadField(), data);
-        if (tailData != null) tailData.parse(getLeft(), data);
+        if (padData != null) padData.parse(parseTrailingField(getPadField(), padData instanceof AptField, data), data);
+        if (tailData != null) {
+          String left = getLeft();
+          if (!parseCity) left = parseTrailingField(left, tailData instanceof AptField, data);
+          tailData.parse(left, data);
+        }
       }
     }
     
@@ -2408,7 +2417,7 @@ public class FieldProgramParser extends SmartAddressParser {
         if (startField != null) {
           sb.append(startField);
         }
-        sb.append(" ADDR PLACE? APT ");
+        sb.append(" ADDR APT PLACE? X? ");
         if (padField != null) {
           sb.append(padField);
           sb.append(' ');
@@ -2548,6 +2557,8 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class AptField extends Field {
     
+    private String append = "-";
+    
     public AptField() {};
     public AptField(String pattern) {
       super(pattern);
@@ -2555,27 +2566,21 @@ public class FieldProgramParser extends SmartAddressParser {
     public AptField(String pattern, boolean hardPattern) {
       super(pattern, hardPattern);
     }
+    
+    @Override
+    public void setQual(String qual) {
+      super.setQual(qual);
+      append = buildConnector(qual, "-");
+    }
 
     @Override
     public void parse(String field, Data data) {
-      data.strApt = append(data.strApt, "-", field);
+      data.strApt = append(data.strApt, append, field);
     }
     
     @Override
     public String getFieldNames() {
       return "APT";
-    }
-  }
-  
-  /**
-   * Special apartment field procesor to handle a trailing apartment field
-   * that is part of a smart address field.  If it happens to start with
-   * a slash or ampersand, assume it should be part of an address intersection
-   */
-  private class SpecialAptField extends AptField {
-    @Override
-    public void parse(String field, Data data) {
-      parseTrailingApt(field, data);
     }
   }
   
@@ -2606,21 +2611,34 @@ public class FieldProgramParser extends SmartAddressParser {
 
   /**
    * Parse the data field following the address that should be considered as an address
-   * @param field
-   * @param data
+   * @param field trailing data field
+   * @param data parsed data object
    */
-  public void parseTrailingApt(String field, Data data) {
+  private String parseTrailingField(String field, boolean aptField, Data data) {
+    
     Matcher match = SPEC_APT_INTERSECT_PTN.matcher(field);
     if (match.matches()) {
-      data.strApt = append(data.strApt, " ", getOptGroup(match.group(1)));
       data.strAddress = append(data.strAddress, " & ", match.group(2));
-    } else if (isNotExtraApt(field)) {
-      data.strAddress = append(data.strAddress, " ", field);
-    } else {
-      data.strApt = append(data.strApt, " ", field);
+      return getOptGroup(match.group(1));
     }
+    
+    if (APT_ADDR_PTN.matcher(field).matches()) {
+      data.strAddress = append(data.strAddress, " ", field);
+      return "";
+    }
+
+    if (aptField && isNotExtraApt(field)) {
+      data.strAddress = append(data.strAddress, " ", field);
+      return "";
+    }
+    
+    field = stripFieldStart(field, "/");
+    field = stripFieldStart(field, "&");
+      
+    return field;
   }
-  private static final Pattern SPEC_APT_INTERSECT_PTN = Pattern.compile("(?!\\d/\\d$)(?:([A-Z0-9]{1,3}) *)?(?:[&/]|AND\\b|OFF\\b) *(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SPEC_APT_INTERSECT_PTN = Pattern.compile("(?!\\d/\\d$)(?:([A-Z0-9]{1,3}) *)?(?:[&/]|\\bAND\\b|\\bOFF\\b) *(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern APT_ADDR_PTN = Pattern.compile("(?:NORTH|SOUTH|EAST|WEST) OF .*");
   
   /**
    * Special Apartment field processor

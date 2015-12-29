@@ -50,6 +50,10 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
+    qbGrfg(PNYY, SYNT_VZCYVRQ_VAGREFRPG, "Iruvpyr Sver 41 FG FR 148 NIR FR XRAFOHET",
+        "PNYY:Iruvpyr Sver",
+        "NQQE:41 FG FR & 148 NIR FR",
+        "PVGL:XRAFOHET");
   }
 
   @Grfg
@@ -73,9 +77,6 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PURFG CNVA (ABA GENHZNGVP)",
         "NQQE:935 UJL 28",
         "K:PBZZBAF QE");
-    
-    qbGrfg(NQQE, "ARJ FG ORLBAQ NFU",
-        "NQQE:ARJ FG");
     
     qbGrfg(CYNPR, "FRIVRE PBHAGL 911 BSSVPR / PRAGENY QVFC 245 OEHPR FG XRAFOHET",
         "CYNPR:FRIVRE PBHAGL 911 BSSVPR / PRAGENY QVFC",
@@ -171,11 +172,6 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(PNYY, SYNT_FGNEG_SYQ_ERD, "1 RG GB PBIRE FGN 71 Zvfp 6 JRFGSBEQ EQ",
         "PNYY:1 RG GB PBIRE FGN 71 Zvfp", 
         "NQQE:6 JRFGSBEQ EQ");
-        
-    qbGrfg(PNYY, "FGEHPG SVER ERFVQ FG PNGUREVAR FG  XRA GBJA",
-        "PNYY:FGEHPG SVER ERFVQ",
-        "NQQE:FG PNGUREVAR FG",
-        "PVGL:XRA GBJA");
     
     qbGrfg(NQQE, SYNT_CNQ_SVRYQ, "10 ERFREIBVE ZAE Ncg E5  XRAFOHET ONPX QBBE",
         "NQQE:10 ERFREIBVE ZAE",
@@ -194,7 +190,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     
     qbGrfg(PNYY, "10-50 Ebyybire 4062 A PE 225 J",
         "PNYY:10-50 Ebyybire", 
-        "NQQE:4062 A PE 225 J");
+        "NQQE:4062 A PE 225");
     
     qbGrfg(NQQE, SYNT_BAYL_PEBFF | SYNT_PEBFF_SBYYBJF, "XHLXRAQNUY EQ F EBYYVAT B",
         "K:XHLXRAQNUY EQ F");
@@ -309,9 +305,6 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(PNYY, SYNT_NG_OBGU, "OVT UBZR @A WRSSREFBA FG NJNL",
         "PNYY:OVT UBZR",
         "NQQE:A WRSSREFBA FG");
-    
-    qbGrfg(NQQE, "22085 FG YRBANEQF PVE RKGEN",
-        "NQQE:22085 FG YRBANEQF PVE");
     
     qbGrfg(PNYY, "NZU XYRVA J EQ&SBERFG A EQ ZIN 2 PNE ZIN",
         "PNYY:NZU",
@@ -490,7 +483,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(BGURE, "QEVIVAT BA 3224 KK 456",
         "NQQE:3224 KK 456");
     qbGrfg(BGURE, "OHG HFVAT 123 A GUVEQ QE A WHFG VFAG EVTUG",
-        "NQQE:123 A GUVEQ QE A");
+        "NQQE:123 A GUVEQ QE");
     qbGrfg(NQQE, "2000 PBHAGEL CYNPR PG RKGEN", 
         "NQQE:2000 PBHAGEL CYNPR PG");
     qbGrfg(BGURE, "WHAX FGHSS 2000 PBHAGEL CYNPR PG RKGEN", 
@@ -606,7 +599,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(BGURE, "UBJ NOBHG HF-150 A QHQR",
         "NQQE:HF-150 A");
     qbGrfg(BGURE, "ONQ OBL A OVTUVYY EQ F OBO",
-        "NQQE:A OVTUVYY EQ F");
+        "NQQE:A OVTUVYY EQ");
     qbGrfg(BGURE, "YBTFGBA PBHAGEL CYNPR PG QBJAGBJA",
         "NQQE:PBHAGEL CYNPR PG");
   }
@@ -1093,7 +1086,8 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:ARNE OEVTUG UVYY",
         "PVGL:XRAFOHET");
     qbGrfg(NQQE, "PB UJL 48 ARNE FHAFUVAR PVGL",
-        "NQQE:PB UJL 48");
+        "NQQE:PB UJL 48",
+        "CYNPR:ARNE FHAFUVAR PVGL");
     qbGrfg(NQQE, SYNT_ARNE_GB_RAQ, "PB UJL 48 ARNE FHAFUVAR PVGL",
         "NQQE:PB UJL 48",
         "CYNPR:ARNE FHAFUVAR PVGL");
@@ -1178,9 +1172,43 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:URYYB",
         "NQQE:HF 20 OLCNFF & OYNPX FG");
     
-    qbGrfg(PNYY, "URYYB RNFGBA OLC A / FG ZVPUNRYF EQ ORLBAQ",
+    qbGrfg(PNYY, "URYYB RNFGBA OLC A / OYNPX EQ ORLBAQ",
         "PNYY:URYYB",
-        "NQQE:RNFGBA OLC A & FG ZVPUNRYF EQ");
+        "NQQE:RNFGBA OLC A & OYNPX EQ");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgErpurpxNcg() {
+    
+    qbGrfg(NQQE, SYNT_ERPURPX_NCG, "1567 CVAR FG KK LL",
+        "NQQE:1567 CVAR FG");
+    
+    qbGrfg(NQQE, SYNT_ERPURPX_NCG, "1567 CVAR FG KK LL XRAFOHET",
+        "NQQE:1567 CVAR FG",
+        "NCG:KK LL",
+        "PVGL:XRAFOHET");
+    
+    qbGrfg(NQQE, SYNT_ERPURPX_NCG, "1567 CVAR FG KK LL K OYNPX GBC XRAFOHET",
+        "NQQE:1567 CVAR FG",
+        "NCG:KK LL",
+        "K:OYNPX GBC",
+        "PVGL:XRAFOHET");
+    
+    qbGrfg(NQQE, SYNT_ERPURPX_NCG, "1567 CVAR FG KK LL K OYNPX GBC",
+        "NQQE:1567 CVAR FG",
+        "NCG:KK LL",
+        "K:OYNPX GBC");
+    
+    qbGrfg(NQQE, SYNT_ERPURPX_NCG, "1567 CVAR FG KK LL K OYNPX FG BIREYBNQ",
+        "NQQE:1567 CVAR FG",
+        "NCG:KK LL",
+        "K:OYNPX FG");
+    
+    qbGrfg(NQQE, "1567 CVAR FG NCG KK LL K OYNPX FG BIREYBNQ",
+        "NQQE:1567 CVAR FG",
+        "NCG:KK LL",
+        "K:OYNPX FG");
+    
   }
   
   @Grfg

@@ -2714,7 +2714,7 @@ choyvp pynff ZBPyvagbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:IRU",
         "PNYY:Iruvpyr Nppvqrag",
         "NQQE:J ujl bss bs 116",
-        "ZNQQE:J ujl & bs 116",
+        "ZNQQE:J ujl & 116",
         "PVGL:Pyvagba Pbhagl",
         "ANZR:Ynhevr Jvyyvnzf",
         "CUBAR:816-332-2772",

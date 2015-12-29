@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.MN;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -59,17 +60,18 @@ public class MNAnokaCountyAParser extends SmartAddressParser {
       // of the subtle changes the parser makes
       pt = addressLine.indexOf('@');
       if (pt < 0) {
-        parseAddress(StartType.START_ADDR, addressLine, data);
+        parseAddress(StartType.START_ADDR, FLAG_ALLOW_DUAL_DIRECTIONS, addressLine, data);
       } else {
         String part1 = addressLine.substring(0, pt).trim();
         String part2 = addressLine.substring(pt+1).trim();
-        if (checkAddress(part1) > checkAddress(part2)) {
-          parseAddress(StartType.START_ADDR, part1, data);
-          data.strPlace = part2;
-        } else {
-          data.strPlace = part1;
-          parseAddress(StartType.START_ADDR, part2, data);
+        Result res1 = parseAddress(StartType.START_ADDR, FLAG_ALLOW_DUAL_DIRECTIONS | FLAG_CHECK_STATUS | FLAG_ANCHOR_END, part1);
+        Result res2 = parseAddress(StartType.START_ADDR, FLAG_ALLOW_DUAL_DIRECTIONS | FLAG_CHECK_STATUS | FLAG_ANCHOR_END, part2);
+        if (res1.getStatus() > res2.getStatus()) {
+          part1 = part2;
+          res2 = res1;
         }
+        data.strPlace = part1;
+        res2.getData(data);
       }
     }
     
@@ -83,6 +85,13 @@ public class MNAnokaCountyAParser extends SmartAddressParser {
     }
     return true;
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = COUNTY_X_PKWY_PTN.matcher(addr).replaceAll("COUNTY ROAD $1");
+    return super.adjustMapAddress(addr);
+  }
+  private static final Pattern COUNTY_X_PKWY_PTN = Pattern.compile("\\bCOUNTY ([A-Z]) PKWY\\b", Pattern.CASE_INSENSITIVE);
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
       "27F",  "Bomb Threat",

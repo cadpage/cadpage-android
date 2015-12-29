@@ -71,14 +71,14 @@ public class OHMarionCountyAParser extends SmartAddressParser {
     String cross;
     match = APT_PTN.matcher(addr);
     if (match.matches()) {
-      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, match.group(1), data);
+      parseAddress(StartType.START_CALL, FLAG_PREF_TRAILING_BOUND | FLAG_ANCHOR_END, match.group(1), data);
       data.strApt = append(data.strApt, "-", match.group(2));
       cross = match.group(3);
     }
     
     // No such luck, do what we can with the address parser
     else {
-      parseAddress(StartType.START_CALL, FLAG_CROSS_FOLLOWS, addr, data); 
+      parseAddress(StartType.START_CALL, FLAG_PREF_TRAILING_BOUND | FLAG_CROSS_FOLLOWS, addr, data); 
       cross = getLeft();
     }
     
@@ -102,7 +102,7 @@ public class OHMarionCountyAParser extends SmartAddressParser {
       if (!data.strCross.contains(" / ")) {
         cross = data.strCross;
         data.strCross = "";
-        parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_NO_CITY | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, cross, data);
+        parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_NO_CITY | FLAG_IMPLIED_INTERSECT | FLAG_PREF_TRAILING_BOUND | FLAG_ANCHOR_END, cross, data);
       }
     }
 

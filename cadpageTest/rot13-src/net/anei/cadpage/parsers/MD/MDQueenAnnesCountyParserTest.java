@@ -2216,7 +2216,7 @@ choyvp pynff ZQDhrraNaarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:1-10",
         "PNYY:ARNE SNVAGVAT",
         "NQQE:2005 OEVQTRCBVAGR QE",
-        "VASB:ARNE SNVAGVAT<35",
+        "CYNPR:ARNE SNVAGVAT<35",
         "PU:D01",
         "HAVG:N1 C100");
 

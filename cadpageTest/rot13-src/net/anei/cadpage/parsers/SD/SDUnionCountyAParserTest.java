@@ -290,7 +290,7 @@ choyvp pynff FQHavbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1600 J 20GU FG",
         "PVGL:FVBHK PVGL",
         "FG:VN",
-        "CYNPR:FVBHK PVGL & EBFF FG",
+        "CYNPR:& EBFF FG",
         "FEP:FPSQ4600",
         "HAVG:R04",
         "VASB:JUVGR WRRC YRSG GUR FPRAR   FHOWRPG BAFPRAR FGVYY UNF");
@@ -370,7 +370,7 @@ choyvp pynff FQHavbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:500 24GU FG",
         "PVGL:FVBHK PVGL",
         "FG:VN",
-        "CYNPR:FVBHK PVGL & CVREPR FG",
+        "CYNPR:& CVREPR FG",
         "FEP:FPSQ4700",
         "HAVG:R04",
         "VASB:Hfvat CebDN Zrqvpny");

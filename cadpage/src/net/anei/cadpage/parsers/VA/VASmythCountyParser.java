@@ -13,6 +13,8 @@ public class VASmythCountyParser extends DispatchSouthernParser {
   
   public VASmythCountyParser() {
     super(CALL_LIST, CITY_LIST, "SMYTH COUNTY", "VA", DSFLAG_OPT_DISPATCH_ID | DSFLAG_LEAD_PLACE);
+    setupMultiWordStreets(MWORD_STREET_LIST);
+    setupSpecialStreets("INTER HWY 11");
   }
 
   @Override
@@ -35,7 +37,44 @@ public class VASmythCountyParser extends DispatchSouthernParser {
     return true;
   }
   private static final Pattern CODE_CALL_PTN = Pattern.compile("([A-Z]+ - [A-Z]+)\\b *(.*)");
-
+  
+  @Override
+  protected boolean isNotExtraApt(String apt) {
+    if (apt.contains("/")) return false;
+    return super.isNotExtraApt(apt);
+  }
+  
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "APPLE VALLEY",
+    "BUCKEYE HOLLOW",
+    "CARLOCK CREEK",
+    "CHATHAM HILL",
+    "CHESTNUT RIDGE",
+    "CLEGHORN VALLEY",
+    "EAST LEE",
+    "ENDLESS VIEW",
+    "GAILLIOT VISTA",
+    "HORSESHOE BEND",
+    "LAUREL VALLEY",
+    "LITTLE VALKER",
+    "LOVES MILL",
+    "LYONS GAP",
+    "MIDDLE FORK",
+    "OAK POINT",
+    "PUGH MOUNTAIN",
+    "SHANNON GAP",
+    "SHULER HOLLOW",
+    "ST CLAIRS CREEK",
+    "STAR MOUNTAIN",
+    "SULPHUR SPRINGS",
+    "TATTLE BRANCH",
+    "TOWN SPRINGS",
+    "TRIPPLE TEAL",
+    "WALKERS CREEK",
+    "WEST LEE",
+    "WEST MAIN"
+  };
+  
   private static final CodeSet CALL_LIST = new CodeSet(
       "AC - TRAFFIC ACCIDENT",
       "AGE - AGENCY ASSISTANCE",

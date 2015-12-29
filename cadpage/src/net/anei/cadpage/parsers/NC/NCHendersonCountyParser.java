@@ -21,6 +21,11 @@ public class NCHendersonCountyParser extends SmartAddressParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
     // Strip call id from front of text

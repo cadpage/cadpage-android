@@ -1942,7 +1942,7 @@ choyvp pynff JNYrjvfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:04:36:38",
         "PNYY:Oernguvat",
         "NQQE:6841 RKVG 68 AO BA",
-        "ZNQQE:6841 RKVG 68 BA",
+        "ZNQQE:6841 RKVG 68",
         "VASB:RKVG 68 AO BA / NYF QVSS OERNGUVAT - NFGUZN NGGNPX",
         "VQ:Q01096233");
 
@@ -1953,7 +1953,7 @@ choyvp pynff JNYrjvfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:04:36:38",
         "PNYY:Oernguvat",
         "NQQE:6841 RKVG 68 AO BA",
-        "ZNQQE:6841 RKVG 68 BA",
+        "ZNQQE:6841 RKVG 68",
         "VASB:RKVG 68 AO BA",
         "VQ:Q01096233");
 
@@ -1966,7 +1966,7 @@ choyvp pynff JNYrjvfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:04:24:09",
         "PNYY:Sver -Bgure",
         "NQQE:6841 RKVG 68 AO BA",
-        "ZNQQE:6841 RKVG 68 BA",
+        "ZNQQE:6841 RKVG 68",
         "VASB:RKVG 68 AO BA / sver haqre gur ubbq ao 68 ba enzc / Pnyy glcr s erbcrarq ol Crafr G ng 04:24:11 05/19/15",
         "VQ:Q01096231");
 
@@ -1977,7 +1977,7 @@ choyvp pynff JNYrjvfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:04:15:31",
         "PNYY:Sver -Bgure",
         "NQQE:6841 RKVG 68 AO BA",
-        "ZNQQE:6841 RKVG 68 BA",
+        "ZNQQE:6841 RKVG 68",
         "VASB:RKVG 68 AO BA / sver haqre gur ubbq ao 68 ba enzc",
         "VQ:Q01096231");
 

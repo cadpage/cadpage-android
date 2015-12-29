@@ -925,8 +925,8 @@ choyvp pynff CNOynvePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:RZF NYNEZ",
         "HAVG:430",
-        "NQQE:207 R 3EQ NIR AR",
-        "NCG:FRPGBE",
+        "NQQE:207 R 3EQ NIR",
+        "NCG:AR FRPGBE",
         "PVGL:NYGBBAN",
         "K:YYBLQ FG / XRGGYR FG",
         "QNGR:08/25/2015",

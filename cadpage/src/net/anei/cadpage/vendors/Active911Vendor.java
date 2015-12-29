@@ -660,6 +660,7 @@ class Active911Vendor extends Vendor {
       "US/NC/CabarrusCounty",             "NCCabarrusCounty",
       "US/NC/CaswellCounty",              "NCCaswellCounty",
       "US/NC/CatawbaCounty",              "NCCatawbaCounty",
+      "US/NC/ChathamCounty",              "NCChathamCounty",
       "US/NC/Cherokee911",                "NCCherokee",
       "US/NC/CityofLumberton",            "NCLumberton",
       "US/NC/CityofRockyMount",           "NCRockyMount",

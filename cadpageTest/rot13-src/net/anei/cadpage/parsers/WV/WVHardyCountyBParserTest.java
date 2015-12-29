@@ -270,7 +270,7 @@ choyvp pynff JIUneqlPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:110 EBUEONHTU YA",
         "PVGL:ZBBERSVRYQ",
         "ANZR:wraavsre wbarf",
-        "K:INAPR FG / TENPR YA F / ZNVA FG",
+        "K:INAPR FG / TENPR YA / F ZNVA FG",
         "HAVG:P46 ZBBERSVRYQ ISP FGN P76 SENYRL RZF P76 FGN");
 
     qbGrfg("G18",

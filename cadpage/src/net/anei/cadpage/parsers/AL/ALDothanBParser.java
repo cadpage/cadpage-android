@@ -12,7 +12,7 @@ public class ALDothanBParser extends FieldProgramParser {
   public ALDothanBParser() {
     super(CITY_LIST, "DOTHAN", "AL", 
           "ADDR/S6XP X EMPTY EMPTY EMPTY TIME CALL PRI! INFO+");
-    removeWords("AVENUE");
+    removeWords("AVENUE", "PLACE", "TERRACE");
   }
   
   @Override

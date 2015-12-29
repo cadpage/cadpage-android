@@ -240,7 +240,7 @@ choyvp pynff CNShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ZHGHNY NVQ ERFCBAF",
         "NQQE:22170 ZBHAG PNEZRY EQ",
-        "PVGL:FCEVATSVRYQ  GJC",
+        "PVGL:FCEVATSVRYQ GJC",
         "CYNPR:UPE",
         "ZNC:31E  UHAGATQ/SHYGBA ERS",
         "QNGR:04/13/2014",

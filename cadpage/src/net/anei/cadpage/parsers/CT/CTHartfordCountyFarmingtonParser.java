@@ -7,12 +7,20 @@ public class CTHartfordCountyFarmingtonParser extends CTNewHavenCountyBParser {
   
   public CTHartfordCountyFarmingtonParser() {
     super(CITY_LIST, CITY_CODES, "HARTFORD COUNTY", "CT");
+    setupMultiWordStreets(MWORD_STREET_LIST);
+    setupSpecialStreets(
+        "FOX GLEN",
+        "NEW HARTFORD TOWN LINE"
+    );
   }
   
   @Override
   public String getFilter() {
     return "pdpaging@farmington-ct.org,paging@cantonfireandems.org";
   }
+  
+  private static final String[] MWORD_STREET_LIST = new String[]{
+  };
   
   private static final String[] CITY_LIST = new  String[]{
 

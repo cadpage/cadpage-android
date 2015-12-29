@@ -957,7 +957,7 @@ choyvp pynff BUWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Oehfu Sver/HAVBA EVQTR BSS BS HF EG 50//15:35/Zhghny nvq jvgu Unzqra Sverq Qrcg/ erdhrfg zna cbjre naq oehfu gehpx",
         "PNYY:Oehfu Sver",
         "NQQE:HAVBA EVQTR BSS BS HF EG 50",
-        "ZNQQE:HAVBA EVQTR & BS HF 50",
+        "ZNQQE:HAVBA EVQTR & HF 50",
         "GVZR:15:35",
         "VASB:Zhghny nvq jvgu Unzqra Sverq Qrcg/ erdhrfg zna cbjre naq oehfu gehpx");
 

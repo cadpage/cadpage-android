@@ -17,11 +17,17 @@ public class NCJonesCountyParser extends DispatchA3Parser {
           "MASH! Line16:INFO! Line17:INFO! Line18:INFO!");
     addExtendedDirections();
     setBreakChar('=');
+    setupSpecialStreets("LOWER ST");
   }
 
   @Override
   public String getAliasCode() {
     return "NCJonesCounty";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
   }
 
   @Override

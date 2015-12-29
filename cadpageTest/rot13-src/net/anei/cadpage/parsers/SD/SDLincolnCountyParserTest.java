@@ -1125,8 +1125,7 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G7",
         "(Znyr Qvnorgvp ernpgvba) 463/282",
         "PNYY:Znyr Qvnorgvp ernpgvba",
-        "NQQE:463",
-        "VASB:/282");
+        "NQQE:463 & 282");
 
     qbGrfg("G8",
         "(Nzohynapr Pnyy) Yraabk Nzohynapr - 404 R 6GU NIR, YRAABK, FQ - 06/03/14 20:01:18 - 95 L/B Znyr ba sybbe cbffvoyr Uvc senpgher..gb tb gb ZpXraana",

@@ -135,7 +135,9 @@ choyvp pynff GAJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911-PRAGRE:CVN CREFBANY VAWHEL NPPVQRAG ZBBERF YNAR& 65 615 SQ Pnq: 2015-0000016013",
         "PBQR:CVN",
         "PNYY:CREFBANY VAWHEL NPPVQRAG",
-        "NQQE:ZBBERF YNAR & 65 615 SQ",
+        "NQQE:ZBBERF YNAR & 65",
+        "NCG:615",
+        "ANZR:SQ",
         "VQ:2015-0000016013");
 
     qbGrfg("G3",

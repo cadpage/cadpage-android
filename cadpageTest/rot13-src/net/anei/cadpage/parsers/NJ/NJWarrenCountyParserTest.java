@@ -792,7 +792,8 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G59",
         "S38 NYREG: ZI NPPVQ ERFCBAQVAT GB UBCR FPUBBY UBCR GJC (FRAG 06/12 13:50)",
         "HAVG:S38",
-        "PNYY:ZI NPPVQ ERFCBAQVAT GB UBCR FPUBBY UBCR GJC",
+        "PNYY:ZI NPPVQ ERFCBAQVAT GB UBCR FPUBBY",
+        "PVGL:UBCR GJC",
         "QNGR:06/12",
         "GVZR:13:50");
 

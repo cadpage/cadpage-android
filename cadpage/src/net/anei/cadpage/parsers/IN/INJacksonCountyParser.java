@@ -26,7 +26,7 @@ public class INJacksonCountyParser extends SmartAddressParser {
       if (subject.contains("medical")) break;
     } while (false);
     
-    parseAddress(StartType.START_CALL, body, data);
+    parseAddress(StartType.START_CALL, FLAG_ALLOW_DUAL_DIRECTIONS, body, data);
     String sExtra = getLeft();
     if (data.strCall.length() == 0) {
       data.strCall = sExtra;

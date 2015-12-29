@@ -575,7 +575,7 @@ choyvp pynff XFZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:QEVIRP",
         "PNYY:QEVIVAT PBZCYNVAG",
         "NQQE:AO BA FHASYBJRE SEBZ HF 50",
-        "ZNQQE:BA FHASYBJRE SEBZ HF 50",
+        "ZNQQE:FHASYBJRE SEBZ HF 50",
         "VQ:2014-0000004056");
 
   }

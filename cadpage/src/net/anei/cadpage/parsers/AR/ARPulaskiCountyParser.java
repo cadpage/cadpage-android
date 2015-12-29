@@ -16,6 +16,7 @@ public class ARPulaskiCountyParser extends DispatchSouthernParser {
   
   public ARPulaskiCountyParser() {
     super(getKeywords(CITY_CODES), "PULASKI COUNTY", "AR", DSFLAG_LEAD_PLACE | DSFLAG_FOLLOW_CROSS);
+    setupMultiWordStreets(MWORD_STREET_LIST);
   }
   
   private static final Pattern TRAIL_APT_PTN = Pattern.compile("(.*) ([A-H][A-Z]*\\d[A-Z0-9]*|(?!AV)[AB][A-Z])");
@@ -32,6 +33,22 @@ public class ARPulaskiCountyParser extends DispatchSouthernParser {
     }
     return true;
   }
+  
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "BELL FLOWER",
+    "BISHOP LINDSEY",
+    "BROKEN ARROW",
+    "BROTHER PAUL",
+    "CAMP ROBINSON",
+    "COLLEGE PARK",
+    "CRYSTAL HILL",
+    "DONOVAN BRILEY",
+    "HEALTH CARE",
+    "JD ASHLEY",
+    "JOHN F KENNEDY",
+    "KNIGHTS OF COLUMBUS",
+    "LONG 17TH"
+  };
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "NLR",  "NORTH LITTLE ROCK",

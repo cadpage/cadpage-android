@@ -60,7 +60,9 @@ public class DispatchA48Parser extends FieldProgramParser {
       public void parse(DispatchA48Parser parser, String field, Data data) {
         boolean startSlash = field.startsWith("/");
         if (startSlash) field = field.substring(1).trim();
-        parser.parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, field, data);
+        int flags = FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_CROSS_FOLLOWS | FLAG_ANCHOR_END;
+        flags |= parser.getExtraParseAddressFlags();
+        parser.parseAddress(StartType.START_ADDR, flags, field, data);
         String cross = data.strCross;
         data.strCross = "";
         if (startSlash) cross = '/' + cross;
@@ -81,8 +83,10 @@ public class DispatchA48Parser extends FieldProgramParser {
         if (startSlash) field = field.substring(1).trim();
         
         String cross = "";
-        while (true) {
-          Result res = parser.parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT, field);
+        while (field.length() > 0) {
+          int flags = FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_CROSS_FOLLOWS;
+          flags |= parser.getExtraParseAddressFlags();
+          Result res = parser.parseAddress(StartType.START_ADDR, flags, field);
           if (!res.isValid()) break;
           res.getData(data);
           cross = append(cross, " / ", data.strCross);
@@ -270,6 +274,7 @@ public class DispatchA48Parser extends FieldProgramParser {
     }
     
     if (fieldType == FieldType.NONE) flags |= FLAG_ANCHOR_END;
+    flags |= getExtraParseAddressFlags();
     
     addr = cleanWirelessCarrier(addr, true);
     
@@ -302,7 +307,6 @@ public class DispatchA48Parser extends FieldProgramParser {
     
     if (!addressParsed) {
       addr = addr.replace('@', '&');
-      flags |= getExtraParseAddressFlags();
       parseAddress(st, flags, addr, data);
       extra = getLeft();
     }

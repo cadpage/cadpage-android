@@ -3942,16 +3942,18 @@ choyvp pynff AWFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G54",
         "(Sver Qrcnegzrag) SVEN @ 101 R EBHGR 4 JO/FCEVAT INYYRL NIRAHR  , CNENZHF OBEB - HAFCRPVSVRQ MBAR - R2 R4 G4",
         "PNYY:SVEN",
-        "NQQE:101 R EBHGR 4 JO & FCEVAT INYYRL NIRAHR",
+        "NQQE:101 R EBHGR 4 JO",
         "ZNQQE:101 R EBHGR 4",
+        "K:FCEVAT INYYRL NIRAHR",
         "PVGL:CNENZHF OBEB",
         "VASB:HAFCRPVSVRQ MBAR - R2 R4 G4");
 
     qbGrfg("G55",
         "(Sver Qrcnegzrag) SVEN @ 101 R EBHGR 4 JO/FCEVAT INYYRL NIRAHR  , CNENZHF OBEB - trareny\atrareny",
         "PNYY:SVEN",
-        "NQQE:101 R EBHGR 4 JO & FCEVAT INYYRL NIRAHR",
+        "NQQE:101 R EBHGR 4 JO",
         "ZNQQE:101 R EBHGR 4",
+        "K:FCEVAT INYYRL NIRAHR",
         "PVGL:CNENZHF OBEB",
         "VASB:trareny trareny");
 
@@ -4011,8 +4013,9 @@ choyvp pynff AWFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G65",
         "(Sver Qrcnegzrag) SVEN @ 101 R EBHGR 4 JO/FCEVAT INYYRL NIRAHR  , CNENZHF OBEB - mbar trareny\ambar trareny",
         "PNYY:SVEN",
-        "NQQE:101 R EBHGR 4 JO & FCEVAT INYYRL NIRAHR",
+        "NQQE:101 R EBHGR 4 JO",
         "ZNQQE:101 R EBHGR 4",
+        "K:FCEVAT INYYRL NIRAHR",
         "PVGL:CNENZHF OBEB",
         "VASB:mbar trareny mbar trareny");
 

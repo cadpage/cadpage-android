@@ -24,6 +24,7 @@ public class IDBonnerCountyParser extends SmartAddressParser {
   private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*?), ([A-Z]{3}) +(.*)");
   private static final Pattern ADDR_SPLIT_PTN = Pattern.compile(";| - ");
   private static final Pattern APT_PTN = Pattern.compile("[A-Z]?\\d+[A-Z]?|(?:APT|RM|ROOM|#) *([^ ]+) *(.*)");
+  private static final Pattern NEAR_PTN = Pattern.compile("NEAR:? +(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern INFO_DATE_TIME_PTN = Pattern.compile(" *\\b(\\d\\d \\d\\d \\d\\d) (\\d\\d \\d\\d \\d{4})\\b[- ]*");
 
   @Override
@@ -58,10 +59,15 @@ public class IDBonnerCountyParser extends SmartAddressParser {
             data.strPlace = append(data.strPlace, " - ", match.group(2));
           }
           data.strApt = append(data.strApt, "-", part);
-        } else if (isValidAddress(part)) {
-          data.strCross = append(data.strCross, " / ", part);
         } else {
-          data.strPlace = append(data.strPlace, " - ", part);
+          String tmp = part;
+          match = NEAR_PTN.matcher(part);
+          if (match.matches()) tmp = match.group(1);
+          if (isValidAddress(tmp)) {
+            data.strCross = append(data.strCross, " / ", tmp);
+          } else {
+            data.strPlace = append(data.strPlace, " - ", part);
+          }
         }
       }
     }

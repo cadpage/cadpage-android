@@ -25,7 +25,7 @@ public class CODouglasCountyAParser extends FieldProgramParser {
     super(defCity, defState,
            "( Call:CALL! Location:ADDRCH/SXa! Map:MAP Units:UNITX! Common_Name:PLACE Time:DATETIME Narrative:INFO? Nature_Of_Call:INFO " +
            "| Call_Type:CALLID! Common_Name:PLACE! Location:ADDR/SXXx! Call_Time:DATETIME! Narrative:INFO Nature_Of_Call:INFO " +
-           "| CALL! ( LOC:ADDRCITY/Sxa! ( Closest_X:X! Map:MAP | Map:MAP! Closest_X:X? ) Units:UNIT Nar:INFO LOC_Name:PLACE ADDL:INFO CR:ID3 " +
+           "| CALL! ( LOC:ADDRCITY/SXa! ( Closest_X:X! Map:MAP | Map:MAP! Closest_X:X? ) Units:UNIT Nar:INFO LOC_Name:PLACE ADDL:INFO CR:ID3 " +
                    "| Address:ADDRCITY/SXa! Closest_Intersection:X! Additional_Location_Info:INFO/N! OPS:CH! Map_Page:MAP! Units:UNIT! Primary_Incident:SKIP! Radio_Channel:CH/L! Common_Name:PLACE! Narrative:INFO/N )  Time:DATETIME3 )");
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
   }
@@ -172,6 +172,10 @@ public class CODouglasCountyAParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (I25_MM_PTN.matcher(field).matches()) {
         data.strAddress = field;
+      } else if (field.startsWith("INT ")) {
+        field = field.substring(4).trim();
+        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_RECHECK_APT | FLAG_ANCHOR_END, field, data);
+       
       } else {
         field = field.replace('@', '&');
         super.parse(field, data);
@@ -205,6 +209,11 @@ public class CODouglasCountyAParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (field.endsWith(data.strAddress)) {
         field = field.substring(0,field.length()-data.strAddress.length()).trim();
+        if (field.equals("INT")) {
+          field = "";
+        } else {
+          field = stripFieldEnd(field, " INT");
+        }
       }
       super.parse(field, data);
     }

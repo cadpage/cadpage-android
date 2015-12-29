@@ -1845,9 +1845,9 @@ choyvp pynff BUZnevbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:21:34:21",
         "VQ:13-004500",
         "PNYY:SVER-CBFFVOYR OEHFU SVER-",
-        "NQQE:1000-O HF 23",
+        "NQQE:1000-O HF 23 FO",
         "ZNQQE:1000 HF 23",
-        "K:FO FE95 / FO BA ZNE RQV BIECNF");
+        "K:FE95 FO / BA ZNE RQV BIECNF");
 
     qbGrfg("G70",
         "(PNQ Cntr) HAVG 417 FGBS  2/18/2013 10:17:44 13-004440 FDHNQ PNYY-ZRQVPNY NYNEZ ZNYR ERDHRFGVAT N FDHNQ 3068 FE 423 F CY HAVG 085 FBZ UBSS R CY BJRAF EQ R CY",

@@ -615,7 +615,7 @@ choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1050V",
         "PNYY:NPPVQRAG - VAWHEVRF",
         "NQQE:85 AO BA ENZC",
-        "ZNQQE:85 BA ENZC",
+        "ZNQQE:85 ENZC",
         "K:129 KF: UVTUJNL 124J",
         "PVGL:OENFRYGBA",
         "ANZR:WRFFVPN JBBQ",

@@ -14,6 +14,7 @@ public class PABerksCountyParser extends FieldProgramParser {
   public PABerksCountyParser() {
     super("BERKS COUNTY",        "PA",
            "UNITCALL! ADDR/iSXa! PLACE! X! CITY INFO DATETIME");
+    removeWords("STREET");
   }
   
   @Override

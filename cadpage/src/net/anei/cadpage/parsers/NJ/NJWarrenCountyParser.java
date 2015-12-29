@@ -72,7 +72,7 @@ public class NJWarrenCountyParser extends SmartAddressParser {
       
       // and sometimes there are not
       else {
-        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, sAddr, data);
+        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, sAddr, data);
       }
       
       // Clean up odd things in call and city fields
@@ -112,7 +112,7 @@ public class NJWarrenCountyParser extends SmartAddressParser {
       
       // and sometimes there are not
       else {
-        parseAddress(StartType.START_ADDR, sAddr, data);
+        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
       }
       return true;
     }

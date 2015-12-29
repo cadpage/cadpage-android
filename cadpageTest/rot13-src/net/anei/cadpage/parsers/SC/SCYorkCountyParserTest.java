@@ -3215,7 +3215,7 @@ choyvp pynff FPLbexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:YR2",
         "CEV:1",
         "NQQE:UVTUJNL 5 AO BA ENZC",
-        "ZNQQE:UVTUJNL 5 BA ENZC & F  NAQREFBA EQ",
+        "ZNQQE:UVTUJNL 5 ENZC & F  NAQREFBA EQ",
         "K:F  NAQREFBA EQ",
         "PVGL:Pngnjon",
         "PNYY:ZIN - ZRQ BCF 4",
