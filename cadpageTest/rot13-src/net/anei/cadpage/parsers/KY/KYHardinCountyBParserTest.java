@@ -5,7 +5,8 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Uneqva Pbhagl, XL
+Uneqva Pbhagl, XL (O) 
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Synuregl Sver Qrcnegzrag
 Ybpngvba: Ivar Tebir, XL, Havgrq Fgngrf

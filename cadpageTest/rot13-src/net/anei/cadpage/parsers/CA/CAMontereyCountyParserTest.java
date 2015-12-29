@@ -32,6 +32,10 @@ Fraqre: qbabgercyl@pb.zbagrerl.pn.hf
 (PNQ Cntr) 52344NO - ZRB:ABG KSEQ - 174 UHQFBA YNAQVAT EQ - ZPB Havgf:R5213, 52N
 (PNQ Cntr) 52161N - ZRB:ZRQVPNY RZRETAPL - 43 FCEVAT CBVAG EQ - ZPB Havgf:R5211, 52N
 (PNQ Cntr) 52251N - HVN:HAX VAW NPP - UJL 101/PENML UBEFR PNALBA EQ - CEH Havgf:R5212, ORH, 52I
+
+Pbagnpg: Fhmrggr Tregfpu <ftregfpu310@tznvy.pbz>
+Fraqre: qbabgercyl@pb.zbagrerl
+(PNQ Cntr) TESQ - ZRB:FUBBGVAT IVPGVZ - 39545 RYZ NI - FPB Havg:84N2
    
 Pbagnpg: Npgvir911
 Ntrapl anzr: Tbamnyrf Sver Qrcnegzrag
@@ -214,6 +218,20 @@ choyvp pynff PNZbagrerlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:UJL 101 & PENML UBEFR PNALBA EQ",
         "PVGL:CEHARQNYR",
         "HAVG:R5212, ORH, 52I");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFhmrggrTregfpu() {
+
+    qbGrfg("G1",
+        "(PNQ Cntr) TESQ - ZRB:FUBBGVAT IVPGVZ - 39545 RYZ NI - FPB Havg:84N2",
+        "ZNC:TESQ",
+        "PBQR:ZRB",
+        "PNYY:FUBBGVAT IVPGVZ",
+        "NQQE:39545 RYZ NI",
+        "ZNQQE:39545 RYZ NIR",
+        "HAVG:84N2");
 
   }
 

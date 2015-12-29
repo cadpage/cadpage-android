@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Obbar Pbhagl, VA
+Obbar Pbhagl, VA (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Gbja bs Mvbafivyyr
