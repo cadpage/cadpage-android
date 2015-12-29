@@ -19,6 +19,7 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.PowerManager;
 import android.os.SystemClock;
+import android.support.v4.app.NotificationCompat;
 
 public class TrackingService extends Service implements LocationListener {
   
@@ -108,12 +109,13 @@ public class TrackingService extends Service implements LocationListener {
     // Put ourselves in foreground mode, also notifying user that tracking has been activated
     Intent intent = new Intent(ACTION_SHUTDOWN, null, this, TrackingService.class);
     PendingIntent pint = PendingIntent.getService(this, 0, intent, 0);
-    Notification nf = new Notification();
-    nf.icon = R.drawable.ic_stat_notify;
-    nf.when = System.currentTimeMillis();
-    String title = getString(R.string.tracking_title);
-    String text = getString(R.string.tracking_text);
-    nf.setLatestEventInfo(this, title, text, pint);
+    Notification nf = new NotificationCompat.Builder(this)
+        .setSmallIcon(R.drawable.ic_stat_notify)
+        .setWhen(System.currentTimeMillis())
+        .setContentTitle(getString(R.string.tracking_title))
+        .setContentText(getString(R.string.tracking_text))
+        .setContentIntent(pint)
+        .build();
     startForeground(TRACKING_NOTIFICATION, nf);
   }
 
