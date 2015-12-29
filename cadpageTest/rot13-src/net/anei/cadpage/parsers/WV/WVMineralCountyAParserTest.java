@@ -1128,8 +1128,8 @@ choyvp pynff JIZvarenyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:01/10/2015",
         "GVZR:19:57:38",
         "PNYY:SNYYF-17",
-        "NQQE:EG 50",
-        "VASB:& 93 BA GUR ETG ENJYVATF ERF");
+        "NQQE:EG 50 & 93",
+        "VASB:BA GUR ETG ENJYVATF ERF");
 
     qbGrfg("G56",
         "﻿<UGZY><obql>ZPFQ:2015:0078<oe />2015-01-10 18:57:01<oe />BA FPRAR<oe />GUERNGF<oe />ZBHAGNVARRE NYY FGNE PNSR   EG 220</obql></UGZY>",
@@ -3344,9 +3344,9 @@ choyvp pynff JIZvarenyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:11/13/2014",
         "GVZR:01:11:17",
         "PNYY:SVER HAXABJA GLCR",
-        "NQQE:3",
+        "NQQE:3 & 10",
         "PVGL:NAGVBPU",
-        "VASB:/10 ZVYR BA GHPXRE EVQTR EBNQ BSS XABOYRL EBNQ");
+        "VASB:ZVYR BA GHPXRE EVQTR EBNQ BSS XABOYRL EBNQ");
 
     qbGrfg("G78",
         "﻿<UGZY><obql>OSQ:2014:0268<oe />2014-11-12 10:47:41<oe />NYREGRQ<oe />ZIN J/VAWHEVRF<oe />CNEXRE EQ, NG GUR RAQ, JVGUVA UNZCFUVER PBHAGL, ORUVAQ GUR NHPGVBA UFR</obql></UGZY>",

@@ -1790,8 +1790,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:GERR >GERR QBJA UJL 11 NAQ 231 WNPBO 2055773207 Pnq: 2015-0000087461",
         "PBQR:GERR",
         "PNYY:GERR QBJA",
-        "NQQE:UJL 11",
-        "ANZR:NAQ 231 WNPBO",
+        "NQQE:UJL 11 NAQ 231",
+        "ZNQQE:UJL 11 & 231",
+        "ANZR:WNPBO",
         "CUBAR:2055773207",
         "VQ:2015-0000087461");
 
@@ -2343,8 +2344,8 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:50 >JERPX 231 NAQ 11 IREVMBA 2564908146 Pnq: 2015-0000076687",
         "PBQR:50",
         "PNYY:JERPX",
-        "NQQE:231",
-        "ANZR:NAQ 11",
+        "NQQE:231 NAQ 11",
+        "ZNQQE:231 & 11",
         "CUBAR:2564908146",
         "VQ:2015-0000076687");
 
@@ -2917,8 +2918,8 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:50 >JERPX 174 NAQ PURIEBA IREVMBA 2055778945 Pnq: 2015-0000081998",
         "PBQR:50",
         "PNYY:JERPX",
-        "NQQE:174",
-        "ANZR:NAQ PURIEBA",
+        "NQQE:174 NAQ PURIEBA",
+        "ZNQQE:174 & PURIEBA",
         "CUBAR:2055778945",
         "VQ:2015-0000081998");
 
@@ -4419,8 +4420,7 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:50 >JERPX 174 / CRNEY YX Pnq: 2015-0000087304",
         "PBQR:50",
         "PNYY:JERPX",
-        "NQQE:174",
-        "ANZR:/ CRNEY YX",
+        "NQQE:174 & CRNEY YX",
         "VQ:2015-0000087304");
 
     qbGrfg("G5",
@@ -5474,7 +5474,8 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:50 >JERPX 174 @ 231 NHOERL PNEGRE 2057909206 Pnq: 2015-0000084836",
         "PBQR:50",
         "PNYY:JERPX",
-        "NQQE:174 & 231 NHOERL PNEGRE",
+        "NQQE:174 & 231",
+        "ANZR:NHOERL PNEGRE",
         "CUBAR:2057909206",
         "VQ:2015-0000084836");
 
@@ -9201,8 +9202,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:50 >JERPX 21 NAQ 22 RQJNEQ PBYYRL 2053625279 Pnq: 2015-0000031500",
         "PBQR:50",
         "PNYY:JERPX",
-        "NQQE:21",
-        "ANZR:NAQ 22 RQJNEQ PBYYRL",
+        "NQQE:21 NAQ 22",
+        "ZNQQE:21 & 22",
+        "ANZR:RQJNEQ PBYYRL",
         "CUBAR:2053625279",
         "VQ:2015-0000031500");
 
@@ -11774,8 +11776,7 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:50 >JERPX 231 / XBF OBQL FUBC ONVYRL 2058638216 Pnq: 2015-0000089782",
         "PBQR:50",
         "PNYY:JERPX",
-        "NQQE:231",
-        "ANZR:/ XBF OBQL FUBC ONVYRL",
+        "NQQE:231 & XBF OBQL FUBC ONVYRL",
         "CUBAR:2058638216",
         "VQ:2015-0000089782");
 
@@ -12258,8 +12259,8 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:50 >JERPX 231 NAQ WNPXF NG&G ZBOVYVGL 2056019737 Pnq: 2015-0000087632",
         "PBQR:50",
         "PNYY:JERPX",
-        "NQQE:231",
-        "ANZR:NAQ WNPXF",
+        "NQQE:231 NAQ WNPXF",
+        "ZNQQE:231 & WNPXF",
         "CUBAR:2056019737",
         "VQ:2015-0000087632");
 

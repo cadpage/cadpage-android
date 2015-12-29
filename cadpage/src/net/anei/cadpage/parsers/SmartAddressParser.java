@@ -2679,6 +2679,10 @@ public abstract class SmartAddressParser extends MsgParser {
         if (option < 2 && failIndex - start < 2) failIndex = -1;
       }
       
+      // We will accept a simple number as a street name in very restricted circumstances
+      if (failIndex < 0 && option == 2 && !strict && isType(start, ID_NUMBER)) failIndex = start+1;
+      
+      // If non-address token found, we are done
       if (isType(start, ID_NOT_ADDRESS) || findConnector(start)>=0) return failIndex;
       
       // A stand alone road token can terminate the road search, but it must
