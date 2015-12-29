@@ -358,8 +358,8 @@ choyvp pynff VNQvpxvafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G27",
         "QP911:ANGHER: 10-52/YBPNGVBA: 25151 UJL 9/71 /PBZZRAGF: SRZNYR UNF GNXRA OYBBQ CERFFHER ZRQVPNGVBA NYFB CBFF QEVAXVAT",
         "PNYY:10-52",
-        "NQQE:25151 UJL 9 & 71",
-        "ZNQQE:25151 UJL 9",
+        "NQQE:25151 UJL 9",
+        "K:71",
         "VASB:SRZNYR UNF GNXRA OYBBQ CERFFHER ZRQVPNGVBA NYFB CBFF QEVAXVAT");
 
     qbGrfg("G29",

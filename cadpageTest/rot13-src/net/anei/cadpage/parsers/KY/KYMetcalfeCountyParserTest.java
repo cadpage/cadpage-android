@@ -493,8 +493,8 @@ choyvp pynff XLZrgpnysrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911-PRAGRE:GERR >GERR QBJA UJL 68/70 AZ1 2704325646 Pnq: 2015-0000002890",
         "PBQR:GERR",
         "PNYY:GERR QBJA",
-        "NQQE:UJL 68",
-        "ANZR:/70 AZ1",
+        "NQQE:UJL 68 & 70",
+        "ANZR:AZ1",
         "CUBAR:2704325646",
         "VQ:2015-0000002890");
 
