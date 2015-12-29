@@ -202,7 +202,7 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
   
   private class MyUnitField extends UnitField {
     public MyUnitField() {
-      super("(?:(?:^| +)(?:[A-Z]{2}\\.[A-Z]{2}|[A-Z]{1,4}\\d{1,3}|[A-Z]{3,4}))+", true);
+      super("(?:(?:^| +)(?:[A-Z]{2}\\.[A-Z]{2}|\\d?[A-Z]{1,4}\\d{1,3}|[A-Z]{3,4}))+", true);
     }
     
     @Override
