@@ -718,7 +718,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-OWQYRLCA or owqyrlca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+NPYZCSFA or npyzcsfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support, 
 Jean ~ Cadpage Administrator
@@ -4054,6 +4054,24 @@ select the correct account.
 If none of this helps, contact us again and we will fill you in on some
 alternate payment methods.
 **************************************************************************
+Bill AT&T phone carrier
+
+You have to do some setup work, but AT&T has made the process pretty
+painless.
+
+Open the Google Play Store App and open settings and select "My
+Account".  Under Payment Settings, select
+Add Payment Method > Enable AT&T billing
+
+The Play Store app responds by sending a query to AT&T to confirm you
+are authorized for this account, then will (hopefully) enable AT&T
+carrier billing.  If AT&T rejects the request, then you will have to do
+something with AT&T to authorize Google direct billing.  Calling the
+AT&T support number (*3 I think) is probably the best way to proceed
+with that.
+
+Thanks for your support,
+******************************************************************************
 
 Useful search expressions...
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT|X):.*\r?\n)*+(?! +"CITY:)
