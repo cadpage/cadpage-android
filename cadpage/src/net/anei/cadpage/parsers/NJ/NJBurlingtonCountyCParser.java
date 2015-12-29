@@ -54,7 +54,7 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
     
     // On top of that, IAR can be configured to drop some vital pieces that
     // we will try to replace
-    body = body.replace("\nDispatchNature of Call :", "\n\nArea:  Section :   Beat :   Map :\nGrid:  Quadrant:  District:\nPhone Number:  Call Source:\nNature of Call :");
+    body = body.replace("\nDispatchNature of Call :", "\nDispatch -              En-route-              On-scene-              Depart 1-  \nArrive 2 -              Depart 2-              In-statn-\n\nArea:  Section :   Beat :   Map :\nGrid:  Quadrant:  District:\nPhone Number:  Call Source:\nNature of Call :");
     
     int pt = body.indexOf("\nThe information in this e-mail");
     if (pt >= 0) body = body.substring(0,pt).trim();
