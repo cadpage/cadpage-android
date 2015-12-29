@@ -8,9 +8,14 @@ vzcbeg bet.whavg.Grfg;
 /*
  Orexf Pbhagl, CN
  
+Npgvir911 Cnefref
+HF/CN/OrexfPbhagl
+HF/CN/YbjreNyfnprSP
+ 
 Pbagnpg: Qhnar Tbbq <qhnart123@lnubb.pbz>
 Fraqre: _OYQV@orexf.nyregcn.bet
 Havg:N5853 Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 2210 PNZC FJNGNEN EQ ; SYLVAT W GENIRY PRAGRE; SBEG ZBGRY QE / ENZC P1 ; ORGURY
+(1/2) Havg:N5853 Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 430 FPUHOREG EQ / ; ; SNHFG ABEGU EQ / SBHE CBVAG EQ ; ORGURY ; 57LBS ERFC\aErcyl HAFHOFPEVOR gb BCG BHG
 
 Pbagnpg: Znex Unegenasg <znunegenasg@tznvy.pbz>
 Fraqre: 14101
@@ -4259,6 +4264,17 @@ choyvp pynff CNOrexfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ORGURY",
         "CYNPR:SYLVAT W GENIRY PRAGRE",
         "K:SBEG ZBGRY QE / ENZC P1");
+
+    qbGrfg("G1",
+        "(1/2) Havg:N5853 Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 430 FPUHOREG EQ / ; ; SNHFG ABEGU EQ / SBHE CBVAG EQ ; ORGURY ; 57LBS ERFC\a" +
+        "Ercyl HAFHOFPEVOR gb BCG BHG",
+
+        "HAVG:N5853",
+        "PNYY:NYF ZRQVPNY",
+        "NQQE:430 FPUHOREG EQ",
+        "PVGL:ORGURY",
+        "K:SNHFG ABEGU EQ / SBHE CBVAG EQ",
+        "VASB:57LBS ERFC");
 
   }
   

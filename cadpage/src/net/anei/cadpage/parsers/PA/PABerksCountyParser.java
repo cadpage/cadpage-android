@@ -18,14 +18,15 @@ public class PABerksCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@berks.alertpa.org,@rsix.roamsecure.net,@c-msg.net,1410,12101,411912";
+    return "@berks.alertpa.org,@rsix.roamsecure.net,@c-msg.net,1410,12101,411912,777";
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    // Strip off message trailer
+    // Strip off message trailer(s)
     int pt = body.indexOf("\n\nSent ");
+    if (pt < 0) pt = body.indexOf("\nReply ");
     if (pt >= 0) body = body.substring(0,pt).trim();
     body = stripFieldEnd(body, "=");
     
