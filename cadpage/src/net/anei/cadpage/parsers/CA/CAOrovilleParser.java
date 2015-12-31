@@ -1,9 +1,6 @@
 package net.anei.cadpage.parsers.CA;
 
 import java.util.Properties;
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 
 /**
