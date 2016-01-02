@@ -9,6 +9,8 @@ vzcbeg bet.whavg.Grfg;
 Znevba Pbhagl, SY
 
 Pbagnpg: Zreyvan, Oergg <Oergg.Zreyvan@znevbapbhaglsy.bet>
+Fraqre: Pnq.Cntvat@znevbapbhaglsy.bet
+
 ab fhowrpg / ***PNYY NYREG*** R521 Pnfr #2015-063313 Ers:77 - ZIP . Nqqerff: 6793 Fj Ujl 200 Ybp Anzr: Ncg/Ybg/Ez#: Oyqt/Jvat: Mvc 34476 Znc Cntr ct 166/1Q ,
 ab fhowrpg / ***PNYY NYREG*** R521 Pnfr #2015-063811 Ers:L Nynezf / Uvtu Nqqerff: 5664 Fj 60gu Nir Ybp Anzr:GUR PRAGREF BS BPNYN Ncg/Ybg/Ez#: Oyqt/Jvat:4 Mvc 34474 Znc Cntr ct 166/2O ,
 ab fhowrpg / ***PNYY NYREG*** R521 Pnfr #2015-070481 Ers:L Fgehpg Sver/ ENqqerff: 7631 Fj 82aq Cy Ybp Anzr: Ncg/Ybg/Ez#: Oyqt/Jvat: Mvc 34476 Znc Cntr ct 165/3Q ,
@@ -16,6 +18,9 @@ ab fhowrpg / ***PNYY NYREG*** R521 Pnfr #2015-070567 Ers:29 - Genssvp PenNqqerff
 ab fhowrpg / ***PNYY NYREG*** R521 Pnfr #2015-070674 Ers:29 - Genssvp PenNqqerff: 8505 FJ UJL 200 Ybp Anzr: Ncg/Ybg/Ez#: Oyqt/Jvat: Mvc 34481 Znc Cntr ct 188/2P ,
 ab fhowrpg / ***PNYY NYREG*** R521 Pnfr #2015-070767 Ers:ZIP - PbzzrepvnyNqqerff: 8600 Fj Fo V75 Ybp Anzr:ZZ 346 Fbhguobhaq Ncg/Ybg/Ez#: Oyqt/Jvat: Mvc 34476 Znc Cntr ct 190/1N
 ab fhowrpg / ***PNYY NYREG*** R521 Pnfr #2015-070828 Ers:L Nynezf / PbzzrNqqerff: 9676 Fj 62aq Ybbc Ybp Anzr:FGBARPERRX TBYS PYHOUBHFR Ncg/Ybg/Ez#: Oyqt/Jvat: Mvc 34481 Znc Cntr ct 165/1O ,
+Pnq.Cntvat@znevbapbhaglsy.bet / ab fhowrpg / ***PNYY NYREG***    R521                Pnfr #2016-000321   Ers:77 - ZIP .      Nqqerff: 13700-13849 Fj Ujl 200         Ybp Anzr:VSB FGHZCXABPXREF              Ncg/Ybg/Ez#:        Oyqt/Jvat:          Mvc 34432 Znc Cntr  ct 228/1O              ,
+Pnq.Cntvat@znevbapbhaglsy.bet / ab fhowrpg / ***PNYY NYREG***    R521                Pnfr #2016-000139   Ers:77 - ZIP .      Nqqerff: 4200-8248 Fj Fo V75            Ybp Anzr:                               Ncg/Ybg/Ez#:        Oyqt/Jvat:          Mvc 34476 Znc Cntr  ct 167/1N              ,
+Pnq.Cntvat@znevbapbhaglsy.bet / ab fhowrpg / ***PNYY NYREG***    R521                Pnfr #2016-000047   Ers:77 - ZIP .      Nqqerff: 5848-5984 Fj Pbyyrtr Eq        Ybp Anzr:                               Ncg/Ybg/Ez#:        Oyqt/Jvat:          Mvc 34476 Znc Cntr  ct 166/2P              ,
 
  */
 
@@ -95,7 +100,38 @@ choyvp pynff SYZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:FGBARPERRX TBYS PYHOUBHFR",
         "PVGL:34481",
         "ZNC:165/1O");
-    
+
+    qbGrfg("G8",
+        "Pnq.Cntvat@znevbapbhaglsy.bet / ab fhowrpg / ***PNYY NYREG***    R521                Pnfr #2016-000321   Ers:77 - ZIP .      Nqqerff: 13700-13849 Fj Ujl 200         Ybp Anzr:VSB FGHZCXABPXREF              Ncg/Ybg/Ez#:        Oyqt/Jvat:          Mvc 34432 Znc Cntr  ct 228/1O              ,",
+        "HAVG:R521",
+        "VQ:2016-000321",
+        "PNYY:77 - ZIP .",
+        "NQQE:13700-13849 Fj Ujl 200",
+        "ZNQQE:13700 Fj Ujl 200",
+        "CYNPR:VSB FGHZCXABPXREF",
+        "PVGL:34432",
+        "ZNC:228/1O");
+
+    qbGrfg("G9",
+        "Pnq.Cntvat@znevbapbhaglsy.bet / ab fhowrpg / ***PNYY NYREG***    R521                Pnfr #2016-000139   Ers:77 - ZIP .      Nqqerff: 4200-8248 Fj Fo V75            Ybp Anzr:                               Ncg/Ybg/Ez#:        Oyqt/Jvat:          Mvc 34476 Znc Cntr  ct 167/1N              ,",
+        "HAVG:R521",
+        "VQ:2016-000139",
+        "PNYY:77 - ZIP .",
+        "NQQE:4200-8248 Fj Fo V75",
+        "ZNQQE:4200 Fj V 75",
+        "PVGL:34476",
+        "ZNC:167/1N");
+
+    qbGrfg("G10",
+        "Pnq.Cntvat@znevbapbhaglsy.bet / ab fhowrpg / ***PNYY NYREG***    R521                Pnfr #2016-000047   Ers:77 - ZIP .      Nqqerff: 5848-5984 Fj Pbyyrtr Eq        Ybp Anzr:                               Ncg/Ybg/Ez#:        Oyqt/Jvat:          Mvc 34476 Znc Cntr  ct 166/2P              ,",
+        "HAVG:R521",
+        "VQ:2016-000047",
+        "PNYY:77 - ZIP .",
+        "NQQE:5848-5984 Fj Pbyyrtr Eq",
+        "ZNQQE:5848 Fj Pbyyrtr Eq",
+        "PVGL:34476",
+        "ZNC:166/2P");
+   
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /* 
 Eborfba Pbhagl, AP
 
+Pbagnpg: Funha <fybpxyrne98@lnubb.pbz>
+Fraqre: PNQ@eborfbapbfb.bet
+PNQ:FGEHPGHER SVER;381 ZPDHRRA EQ;ZNLOREEL QE;NTABEN EQ;16000025;1;69Q06;[RSQ] Dhrfg
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Eraareg Sver Qrcg
 Ybpngvba: Funaaba, AP, Havgrq Fgngrf
@@ -445,6 +449,21 @@ choyvp pynff APEborfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp APEborfbaPbhaglCnefreGrfg() {
     frgCnefre(arj APEborfbaPbhaglCnefre(), "EBORFBA PBHAGL", "AP");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFunha() {
+
+    qbGrfg("G1",
+        "PNQ:FGEHPGHER SVER;381 ZPDHRRA EQ;ZNLOREEL QE;NTABEN EQ;16000025;1;69Q06;[RSQ] Dhrfg",
+        "PNYY:FGEHPGHER SVER",
+        "NQQE:381 ZPDHRRA EQ",
+        "K:ZNLOREEL QE & NTABEN EQ",
+        "VQ:16000025",
+        "CEV:1",
+        "VASB:Dhrfg",
+        "PBQR:69Q06");
+
   }
 
   @Grfg
