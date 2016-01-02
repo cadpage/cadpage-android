@@ -14,16 +14,44 @@ public class KYMcLeanCountyParser extends DispatchEmergitechParser {
   }
 
   private static final CodeSet CALL_LIST = new CodeSet(
+      "ABDOMINAL PAIN",
+      "ANNOUNCEMENT",
+      "ASSAULT",
+      "AUTO ACCIDENT - NO INJURY",
+      "AUTO ACCIDENT NO INJURIES",
       "AUTO ACCIDENT WITH INJURIES",
+      "BLEEDING",
       "BLOOD PRESSURE HIGH/LOW",
       "BREATHING PROBLEMS",
       "BURNING - CONTROLLED",
       "CHEST PAIN",
+      "DIABETIC PROBLEM",
+      "FALL",
       "FALLS - GROUND LEVEL - OTHER",
+      "FIRE - REKINDLE",
+      "FIRE - STRUCTURE",
+      "FIRE - TREES, BRUSH, GRASS",
       "GENERAL MEDICAL",
+      "HEADACHES",
+      "HEART ATTACK",
+      "HEART / FAST /SLOW",
+      "MUTUAL AID",
       "OVERDOSE",
+      "PAIN",
       "SEIZURES",
-      "TRANSFER PATIENT"
+      "STROKE",
+      "SUICIDE",
+      "SUICIDE-ATTEMPT",
+      "SUICIDE-THREATENING",
+      "ROAD CLOSED",
+      "STAND BY/RESPOND",
+      "TEST",
+      "TRANSFER PATIENT",
+      "UNKNOWN MEDICAL EMERGENCY",
+      "UNRESPONSIVE",
+      "WALK-IN",
+      "WEATHER",
+      "WEATHER ALERT"
   );
   
   private static final String[] CITY_LIST = new String[]{
@@ -43,6 +71,7 @@ public class KYMcLeanCountyParser extends DispatchEmergitechParser {
       "LIVERMORE",
       "LIVIA",
       "NUCKOLS",
+      "OWENSBORO",
       "PACK",
       "POPLAR GROVE",
       "POVERTY",
